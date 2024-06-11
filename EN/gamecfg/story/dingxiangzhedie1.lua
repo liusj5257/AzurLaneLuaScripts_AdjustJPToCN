@@ -1,15 +1,15 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE1",
 	scripts = {
 		{
-			stopbgm = true,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_1104",
+			stopbgm = true,
 			side = 2,
+			bgName = "star_level_bg_1104",
 			say = "The static, ringing sound swirling chaotically in my head gradually orders itself.",
 			flashin = {
 				delay = 1,
@@ -26,8 +26,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "When I open my eyes again–",
 			typewriter = {
@@ -36,28 +36,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_port_ny_future",
-			say = "I find myself surrounded by tall buildings and busy traffic.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "theme-dailyfuture",
+			nameColor = "#A9F548FF",
+			say = "I find myself surrounded by tall buildings and busy traffic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "Clusters of high-rises dot the skyline, blurry-faced passers-by surge back and forth around me.",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "Before my astonishment fades, my thoughts begin to orient themselves.",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "Where am I? I have to get my bearings straight first.",
 			typewriter = {
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "Yes, there was an emergency in the Sea of Stars... I should've been in the process of evacuating with Helena.",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "But... What happened? Why am I here?",
 			typewriter = {
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "Where's Helena? No, of course she wouldn't be here right now.",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "...I can't make any sense of how I got here. My head feels fuzzy.",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "It feels like I'm forgetting something but can't quite put my finger on it, as if I had just woken from a dream.",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "I look around, and my memories seem to overlap with the strange sights flooding my eyes. Everything seems so alien, yet also intensely familiar.",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "It feels as if I know this place, but how? There are tall buildings all around me, yet my eyes refuse to focus on their blurry names.",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "Flickering holograms and countless lights fill the air, blurring the line between day and night.",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "It almost seems like a lifelike fantasy taken right from the set of a science fiction movie.",
 			typewriter = {
@@ -185,8 +185,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "But, everything around me seems to run with such regularity, a hyper-realism that borders on uncanny.",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "For a moment, I am convinced that I've been transported into the future.",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "...But, that's not possible, is it?",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "Things start to fall into place bit by bit. The nebulous, blurred-out faces of the people around me. The impossible-to-read signs on the buildings. These were the same products of the Reality Lens' replication function.",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "If so, is everything around me somehow related to the abnormality that occurred in the Sea of Stars before the emergency evacuation?",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "And most importantly – what am I supposed to do here?",
 			typewriter = {
@@ -245,12 +245,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator?",
+			side = 2,
 			bgName = "bg_port_ny_future",
 			nameColor = "#A9F548FF",
-			say = "Ring ring~♪",
 			soundeffect = "event:/ui/bell",
+			say = "Ring ring~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "A buzzing is coming from the pocket of my clothes, accompanied by the sound of something resembling a ringtone.",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "I fumble around inside my pocket, and my fingers brush against a slender, rectangular object.",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "Is this... a cellphone?",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "I don't remember bringing my phone with me into the Reality Lens...",
 			typewriter = {
@@ -302,8 +302,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "Rather, I don't even recognize the clothes I'm wearing.",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "It seems to be... a lab coat worn by researchers.",
 			typewriter = {
@@ -322,12 +322,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator?",
+			side = 2,
 			bgName = "bg_port_ny_future",
 			nameColor = "#A9F548FF",
-			say = "Ring ring~♪",
 			soundeffect = "event:/ui/bell",
+			say = "Ring ring~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,8 +339,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "I fumble around to pull the strange phone out of my pocket. The ringing has already stopped, but a prompt lingers on the screen, asking me if I want to hear the message.",
 			typewriter = {
@@ -359,8 +359,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			optionFlag = 1,
 			say = "I start to play back the message, and hear a familiar voice coming from the other side.",
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			optionFlag = 2,
 			say = "...A voice inside me is telling me that nothing will begin unless I take this first step.",
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			optionFlag = 2,
 			say = "It seems to be compelling me to listen to this message.",
@@ -452,10 +452,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_ny_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She originally planned to pick you up and take you to the university herself, but...",
 			painting = {
 				alpha = 0.3,
@@ -489,10 +489,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_ny_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In any case, she was a bit short on time as a result, so she had to head there first to get ready for the presentation.",
 			painting = {
 				alpha = 0.3,
@@ -542,8 +542,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "The message comes to an end, and the screen goes dark.",
 			typewriter = {
@@ -552,8 +552,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "The device somewhat resembles the smartphones I'm used to but is even more lightweight and elegant in design. I slide it back into my pocket.",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "But... why did Memphis call me \"Professor?\"",
 			typewriter = {
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "I had used the Reality Lens to merge my consciousness with Anchorage's hull, which resulted in an amalgamation of our imagery, memories, and data.",
 			typewriter = {
@@ -582,8 +582,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "If that's the case, whose consciousness is this? Who exactly is Dr. Anzeel, and what is this university?",
 			typewriter = {
@@ -592,8 +592,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "And why did I receive a message from Memphis when I was not actively focusing my thoughts on her?",
 			typewriter = {
@@ -602,8 +602,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "...Maybe some of my questions will be answered when I meet with Northampton.",
 			typewriter = {
@@ -612,8 +612,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "Come to think of it... what's \"the usual place?\"",
 			typewriter = {
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "As I walk down the street, some unmistakable landmarks come into view.",
 			typewriter = {
@@ -631,17 +631,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -649,8 +649,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "That would explain the sense of deja vu I felt earlier. This place was clearly based upon NY City.",
 			typewriter = {
@@ -659,8 +659,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "Had the buildings around me not been covered with holographic displays, I probably would've made the connection much sooner.",
 			typewriter = {
@@ -669,8 +669,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "The question still remains: is this actually a scene from the future, or merely the figment of someone's imagination?",
 			typewriter = {
@@ -679,8 +679,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "The closest thing I've ever seen to something like this was the City of Light inside the Arcana Sanctum... But who would be able to reproduce something like that with such fidelity– ...Hmm?",
 			typewriter = {
@@ -689,8 +689,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "While I was lost in my thoughts, a car had just pulled up to me.",
 			typewriter = {
@@ -699,12 +699,12 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_port_ny_future",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hey there. You wandered off to a pretty interesting place. The fact that I even found you means we really are two peas in a pod, huh?",
 			painting = {
 				alpha = 0.3,
@@ -719,10 +719,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_port_ny_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Sorry 'bout that. Did I keep you waiting?",
 			painting = {
 				alpha = 0.3,
@@ -734,8 +734,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "Though her attire is a lot more modern-looking, the girl in front of me still appears to be the same Northampton I know.",
 			typewriter = {
@@ -744,8 +744,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "First Memphis, now Northampton; both appearing inside the simulation without my conscious input.",
 			typewriter = {
@@ -757,10 +757,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_ny_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What's the matter? Got an upset stomach or something?",
 			painting = {
 				alpha = 0.3,
@@ -772,8 +772,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "Northampton gets out of the car and approaches me. She seems worried that I didn't respond to her greeting.",
 			typewriter = {
@@ -782,8 +782,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "...Until I have a better grasp of the situation, I don't want to draw too much attention to myself. So, I should try to act natural–",
 			typewriter = {
@@ -801,10 +801,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_port_ny_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahaha... Don't blame you. Coming all the way over here must've been a pretty long drive, huh?",
 			painting = {
 				alpha = 0.3,
@@ -819,10 +819,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_ny_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Just hang in there a bit longer, alright? We still need to head over to the university and meet up with Dr. Anzeel.",
 			painting = {
 				alpha = 0.3,
@@ -834,8 +834,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "\"Is Dr. Anzeel... over there right now?\"",
 			typewriter = {
@@ -847,10 +847,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_port_ny_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yup, that's what Memphis said. Apparently, her flight was delayed so she went straight over to prepare for the presentation.",
 			painting = {
 				alpha = 0.3,
@@ -865,10 +865,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_ny_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Though, by the time we get there, the presentation will probably already be over.",
 			painting = {
 				alpha = 0.3,
@@ -880,8 +880,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_ny_future",
 			say = "\"Alright. Let's get going then.\"",
 			typewriter = {
@@ -890,12 +890,12 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_port_ny_future",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Sounds good. Hop on in, I'll take you there.",
 			painting = {
 				alpha = 0.3,
@@ -907,8 +907,8 @@ return {
 			}
 		},
 		{
-			bgm = "theme-starsea-core",
 			mode = 1,
+			bgm = "theme-starsea-core",
 			sequence = {
 				{
 					"\"This is the captain. I'm addressing every man aboard this ship\"",
@@ -957,12 +957,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

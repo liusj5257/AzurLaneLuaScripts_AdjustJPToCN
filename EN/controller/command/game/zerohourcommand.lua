@@ -1,6 +1,6 @@
 slot0 = class("ZeroHourCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2, slot3 = pcall(slot0.mainHandler, slot0)
 
 	if not slot2 then
@@ -9,7 +9,7 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-function slot0.mainHandler(slot0, slot1)
+slot0.mainHandler = function(slot0, slot1)
 	slot3 = getProxy(PlayerProxy):getData()
 
 	slot3:resetBuyOilCount()

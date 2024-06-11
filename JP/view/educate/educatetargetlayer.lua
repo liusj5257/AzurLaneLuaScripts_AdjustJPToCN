@@ -1,16 +1,16 @@
 slot0 = class("EducateTargetLayer", import(".base.EducateBaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateTargetUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.taskProxy = getProxy(EducateProxy):GetTaskProxy()
 	slot0.targetId = slot0.taskProxy:GetTargetId()
 	slot0.mainTaskVOs = slot0.taskProxy:FilterByGroup(slot0.taskProxy:GetMainTasksForShow())
@@ -18,7 +18,7 @@ function slot0.initData(slot0)
 	slot0.canGetTargetAward = slot0.taskProxy:CanGetTargetAward()
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
 	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
 
@@ -78,12 +78,12 @@ function slot0.findUI(slot0)
 	setText(slot0.otherTitleTF, i18n("child_target_title2"))
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0:findTF("anim_root/close"), function ()
 		uv0:_close()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.targetSetBtn, function ()
-		function uv0.onExit()
+		uv0.onExit = function()
 			getProxy(EducateProxy):MainAddLayer(Context.New({
 				viewComponent = EducateTargetSetLayer,
 				mediator = EducateTargetSetMediator
@@ -94,7 +94,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:OverlayPanel(slot0._tf, {
@@ -123,11 +123,11 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.sumbitTask(slot0, slot1)
+slot0.sumbitTask = function(slot0, slot1)
 	slot0:emit(EducateTargetMediator.ON_TASK_SUBMIT, slot1)
 end
 
-function slot0.initLeft(slot0)
+slot0.initLeft = function(slot0)
 	setActive(slot0.leftTF, slot0.targetId ~= 0)
 	setActive(slot0.leftEmptyTF, slot0.targetId == 0)
 
@@ -159,7 +159,7 @@ function slot0.initLeft(slot0)
 	slot0:updataTarget()
 end
 
-function slot0.updataTarget(slot0)
+slot0.updataTarget = function(slot0)
 	slot1, slot2 = getProxy(EducateProxy):GetTaskProxy():GetOtherTargetTaskProgress()
 
 	if slot1 / slot2 > 1 then
@@ -191,7 +191,7 @@ function slot0.updataTarget(slot0)
 	setActive(slot0.finishTF, slot4 and not slot0.canGetTargetAward)
 end
 
-function slot0.playProgressAnim(slot0, slot1)
+slot0.playProgressAnim = function(slot0, slot1)
 	slot0:cleanManagedTween()
 
 	slot2 = slot0.sliderTF
@@ -209,14 +209,14 @@ function slot0.playProgressAnim(slot0, slot1)
 	end, 0.132, nil)
 end
 
-function slot0.updateItems(slot0)
+slot0.updateItems = function(slot0)
 	setActive(slot0.mainTaskTF, #slot0.mainTaskVOs > 0)
 	slot0.mainTaskUIList:align(#slot0.mainTaskVOs)
 	setActive(slot0.otherTaskTF, #slot0.otherTaskVOs > 0)
 	slot0.otherTaskUIList:align(#slot0.otherTaskVOs)
 end
 
-function slot0.updateItem(slot0, slot1, slot2, slot3)
+slot0.updateItem = function(slot0, slot1, slot2, slot3)
 	slot4 = slot3 == "main" and slot0.mainTaskVOs[slot1 + 1] or slot0.otherTaskVOs[slot1 + 1]
 
 	setText(slot0:findTF("desc", slot2), slot4:getConfig("name"))
@@ -247,13 +247,13 @@ function slot0.updateItem(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot0.updateView(slot0)
+slot0.updateView = function(slot0)
 	slot0:initData()
 	slot0:updateItems()
 	slot0:updataTarget()
 end
 
-function slot0._close(slot0)
+slot0._close = function(slot0)
 	if slot0.isClick then
 		return
 	end
@@ -261,11 +261,11 @@ function slot0._close(slot0)
 	slot0.anim:Play("anim_educate_target_out")
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:_close()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 

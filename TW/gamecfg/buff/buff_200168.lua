@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 战斗BUFF 输出弹幕LV1",
 	time = 3,
-	color = "red",
+	name = "2022莱莎联动 战斗BUFF 输出弹幕LV1",
+	init_effect = "",
+	id = 200168,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200168,
+	color = "red",
 	icon = 200168,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				maxTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 200167,
+				target = "TargetSelf",
 				check_target = "TargetAllHarm"
 			}
 		},
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 2,
-				target = "TargetSelf",
 				skill_id = 200168,
+				target = "TargetSelf",
 				check_target = "TargetAllHarm"
 			}
 		}

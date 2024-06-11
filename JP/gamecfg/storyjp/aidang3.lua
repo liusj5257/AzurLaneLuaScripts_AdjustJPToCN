@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDANG3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AIDANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"お姉さんと一日デート\n\n<size=45>三　買い物アクシデント</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港近くの街",
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港近くの街",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 303130,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303130,
+			nameColor = "#a9f548",
 			say = "それはそうかもしれないけど……ぼくの場合はなぜこうなっているのかもよくわからないし……",
 			typewriter = {
 				speed = 0.05,
@@ -340,9 +340,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "二人はそそくさと退散していった。",
 			typewriter = {
 				speed = 0.05,

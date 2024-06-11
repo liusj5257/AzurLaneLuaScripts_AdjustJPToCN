@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN9",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 101490,
 			side = 2,
+			actorName = "브리스톨",
 			bgName = "star_level_bg_115",
+			bgm = "theme-highseasfleet-reborn",
 			factiontag = "전설적인 탐정 마스터",
 			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
-			actorName = "브리스톨",
 			hidePaintObj = true,
 			say = "쉬시식~ @#￥%…… ￥%………… 쉬이이익!!",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -270,9 +270,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "뭐……? 아하, 그렇구나…",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "(똑똑)",
@@ -400,11 +400,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "골든 하인드… 아가씨. 집사가 탐정을 기다리고 있다고.",
@@ -414,11 +414,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			side = 2,
+			actor = 9600031,
 			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "……아쉽지만 이만 보내줘야겠네. 실종 사건 조사도 중요하니까.",
@@ -432,9 +432,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 장녀",
-			actorName = "골든 하인드",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "골든 하인드",
 			hidePaintObj = true,
 			say = "그럼 기쁜 소식 기다리고 있을게, 사랑스러운 탐정님♡",
 			typewriter = {
@@ -443,11 +443,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "자, 자~ 밤도 깊었으니까 아가씨는 어서 방으로 훠이~ 훠이~",
@@ -485,8 +485,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

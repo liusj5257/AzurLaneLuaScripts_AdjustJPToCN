@@ -1,16 +1,16 @@
 return {
-	id = "BIHAIGUANGLIN33-3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN33-3",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 301480,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Barrier! Nah~ nah~ Can't touch this~♪",
 			typewriter = {
 				speed = 0.05,
@@ -22,8 +22,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -35,8 +35,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "Impudent rodent!",
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "(Hakuryuu seems to have a single-minded fixation on fighting strong foes. In that case...)",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "...You speak the truth. But that has nothing to do with our current battle!",
 			typewriter = {
 				speed = 0.05,
@@ -97,11 +97,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 399050,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "You shall see that I am the sole master of this domain! By thunder is sky rent, by flame shall you be cleansed!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -168,9 +168,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 307120,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Wh-wh-what kind of sick joke is this? What happened to a duel between aircraft carriers? Her rigging just combined with those massive cannons!",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

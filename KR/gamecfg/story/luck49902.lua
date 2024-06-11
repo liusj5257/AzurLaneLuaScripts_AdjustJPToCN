@@ -1,8 +1,8 @@
 return {
-	id = "LUCK49902",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK49902",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 499020,
@@ -23,8 +23,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			say = "기쁨과 슬픔, 분발과 상실, 굳건함과 미망, 모든 것이 지금은 고요로 돌아가고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			say = "새로운 악보를 연주하기 위해 필요한 코드는, 네가 모두 만들어 줄 거야. 그렇지? 꼬마야~",
 			typewriter = {
 				speed = 0.05,

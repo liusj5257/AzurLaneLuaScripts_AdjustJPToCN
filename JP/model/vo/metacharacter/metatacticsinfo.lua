@@ -1,6 +1,6 @@
 slot0 = class("MetaTacticsInfo")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	if slot1 then
 		slot0.shipID = slot1.ship_id
 		slot0.curDayExp = slot1.exp
@@ -18,22 +18,22 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.updateExp(slot0, slot1)
+slot0.updateExp = function(slot0, slot1)
 	slot0.curDayExp = slot1.day_exp
 	slot0.skillExpInfoTable[slot1.skill_id] = slot1.skill_exp
 end
 
-function slot0.setNewExp(slot0, slot1, slot2)
+slot0.setNewExp = function(slot0, slot1, slot2)
 	slot0.skillExpInfoTable[slot1] = slot2
 
 	slot0:printInfo()
 end
 
-function slot0.switchSkill(slot0, slot1)
+slot0.switchSkill = function(slot0, slot1)
 	slot0.curSkillID = slot1
 end
 
-function slot0.unlockSkill(slot0, slot1, slot2)
+slot0.unlockSkill = function(slot0, slot1, slot2)
 	slot0.skillExpInfoTable[slot1] = 0
 
 	if slot2 then
@@ -41,26 +41,26 @@ function slot0.unlockSkill(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getSkillExp(slot0, slot1)
+slot0.getSkillExp = function(slot0, slot1)
 	return slot0.skillExpInfoTable[slot1] or 0
 end
 
-function slot0.isExpMaxPerDay(slot0)
+slot0.isExpMaxPerDay = function(slot0)
 	return pg.gameset.meta_skill_exp_max.key_value <= slot0.curDayExp
 end
 
-function slot0.isAnyLearning(slot0)
+slot0.isAnyLearning = function(slot0)
 	return slot0.curSkillID and slot0.curSkillID > 0
 end
 
 slot0.States = {
 	LearnAble = 1,
 	LearnFinished = 3,
-	None = 0,
-	Learning = 2
+	Learning = 2,
+	None = 0
 }
 
-function slot0.getTacticsStateForShow(slot0)
+slot0.getTacticsStateForShow = function(slot0)
 	slot3 = getProxy(BayProxy):getShipById(slot0.shipID) and slot2:isAllMetaSkillLevelMax() or false
 
 	if not slot0:isAnyLearning() and not slot3 then
@@ -80,7 +80,7 @@ function slot0.getTacticsStateForShow(slot0)
 	end
 end
 
-function slot0.printInfo(slot0)
+slot0.printInfo = function(slot0)
 end
 
 return slot0

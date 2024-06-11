@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "小声望",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 13205,
+	time = 0,
 	picture = "",
 	desc = "提高伤害",
 	stack = 1,
-	id = 13205,
+	color = "yellow",
 	icon = 13200,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.4
+				number = 0.4,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

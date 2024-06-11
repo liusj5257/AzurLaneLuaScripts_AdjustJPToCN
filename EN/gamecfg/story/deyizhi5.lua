@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DEYIZHI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DEYIZHI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Cloudy Mask\n\n<size=45>Chapter 5: The Truth, Pt. 1</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Gneisenau's Room",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Gneisenau's Room",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "I somehow managed to drag Deutschland out of her room and decided to ask her Iron Blood comrades about the situation.",
 			typewriter = {
 				speed = 0.05,
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "You expect me to believe that?",
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "You expect me to believe that?",
+			actor = 403040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -150,13 +150,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Port - Dormitory Salon",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -180,8 +180,8 @@ return {
 			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Thank you for coming, Eugen, Spee, Tirpitz, and Z1. I have something to tell you.",
 			subActors = {
@@ -205,8 +205,8 @@ return {
 			actor = 403050,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "It's about... Deutschland, isn't it?",
 			subActors = {
@@ -230,8 +230,8 @@ return {
 			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Correct. A long time ago, we all entered an agreement to go along with her egotistic tendencies so she could live a happy life.",
 			subActors = {
@@ -255,8 +255,8 @@ return {
 			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "I'm sure you all remember this, yes?",
 			subActors = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "They what?! I can't just sit here and listen to this...!",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -309,11 +309,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "Let go of me!",
 			typewriter = {
 				speed = 0.05,
@@ -325,8 +325,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 22.5,
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "... She bit my arm.",
 			typewriter = {
 				speed = 0.05,
@@ -380,8 +380,8 @@ return {
 			actor = 403030,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Yeah, I remember that... I've grown used to her attitude by now, so I don't really need to be bound by that agreement anymore.",
 			subActors = {
@@ -405,8 +405,8 @@ return {
 			actor = 405020,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "I know it's for her sake, but it's a fact that what we've done isn't right.",
 			subActors = {
@@ -430,8 +430,8 @@ return {
 			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Indeed. It's also caused trouble for other people. Furthermore, Deutschland knows about it now, and she feels really hurt by it.",
 			subActors = {
@@ -455,8 +455,8 @@ return {
 			actor = 404020,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "That is why I've called you here - so we can discuss what to do next.",
 			subActors = {
@@ -509,12 +509,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "(Whispering) Slave... what should I do...?",
 			typewriter = {
 				speed = 0.05,
@@ -526,8 +526,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,

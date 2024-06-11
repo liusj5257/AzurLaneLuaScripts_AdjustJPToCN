@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT15-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT15-1",
+	fadein = 1,
 	scripts = {
 		{
-			actor = 10300060,
 			side = 2,
-			nameColor = "#92fc63",
-			say = "후후후, 여기는 이 언니에게 맡겨주시길.",
 			dir = 1,
 			bgm = "level-uta",
+			actor = 10300060,
+			nameColor = "#92fc63",
+			say = "후후후, 여기는 이 언니에게 맡겨주시길.",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -33,8 +33,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "후미뤼르? 설마, 진짜로 혼자서 갈 셈이야?",
 			typewriter = {
 				speed = 0.05,
@@ -64,8 +64,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "이렇게 위험한 역할을 쿠온이나 더 어린아이들에게 맡길 수는 없으니까요.",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "이럴 땐 아무래도, 언니로서 발 벗고 나서는 게 맞겠죠! (출렁)",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -121,8 +121,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "역시 후미뤼르.",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "후미뤼르……너무 무리만 하지마.",
 			typewriter = {
 				speed = 0.05,

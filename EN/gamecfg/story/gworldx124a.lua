@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDX124A",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDX124A",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "You can now order the deployment of submarines to support your fleet.",
 			typewriter = {
 				speed = 0.05,

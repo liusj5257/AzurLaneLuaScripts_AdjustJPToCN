@@ -21,7 +21,7 @@ slot5 = "ui/activityuipage/senrankaguraptpage_atlas"
 slot6 = "ui-faguang2"
 slot7 = 0.2
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.maskNode = slot0:findTF("mask", slot0.bg)
@@ -32,7 +32,7 @@ function slot0.OnInit(slot0)
 	slot0.spineAnim = GetComponent(slot0.role, "SpineAnimUI")
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
 	slot1 = slot0.ptData
@@ -81,11 +81,11 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.spineAnim then
 		slot0.spineAnim:SetActionCallBack(nil)
 
@@ -93,7 +93,7 @@ function slot0.OnDestroy(slot0)
 	end
 end
 
-function slot0.GetBeiBeiStage(slot0, slot1)
+slot0.GetBeiBeiStage = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(uv0) do
@@ -105,7 +105,7 @@ function slot0.GetBeiBeiStage(slot0, slot1)
 	return slot2
 end
 
-function slot0.PlayAnim(slot0, slot1)
+slot0.PlayAnim = function(slot0, slot1)
 	if slot0.spineAnim then
 		slot4 = uv0[slot0:GetBeiBeiStage(slot0.ptData:GetLevelProgress())]
 
@@ -144,7 +144,7 @@ function slot0.PlayAnim(slot0, slot1)
 	end
 end
 
-function slot0.SetBgImage(slot0, slot1, slot2, slot3)
+slot0.SetBgImage = function(slot0, slot1, slot2, slot3)
 	slot2 = slot2 or 0
 
 	for slot7 = 1, 3 do

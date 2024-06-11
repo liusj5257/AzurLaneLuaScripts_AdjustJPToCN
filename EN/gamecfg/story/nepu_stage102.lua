@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE102",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE102",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Finally home... can't take it anymore... going to sleep...",
 			bgm = "story-nepu1",
+			actor = 101170,
+			nameColor = "#a9f548",
+			say = "Finally home... can't take it anymore... going to sleep...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,12 +24,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			say = "Wait, Laffey, don't fall asleep just yet! The reconnaissance mission doesn't end until we're back in port!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wait, Laffey, don't fall asleep just yet! The reconnaissance mission doesn't end until we're back in port!",
+			actor = 201210,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "We encountered them during another reconnaissance mission... so we brought them over.",
 			typewriter = {
@@ -365,11 +365,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "Come to think of it, Akashi was looking for Nep-Nep and the others.",
 			typewriter = {
@@ -382,16 +382,16 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			actorName = "{namecode:98}",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "I've been listening, nya. It seems like the CPUs aren't able to wield their powers here, nya.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -416,12 +416,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "Akashi, did you find a solution?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Akashi, did you find a solution?",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "It's quite simple, nya. When in Rome, do as the Romans do. All we need to do is to equip you CPUs with your own ship rigging!",
 			typewriter = {
@@ -453,11 +453,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "This way, everyone can sortie together!",
 			typewriter = {
@@ -502,11 +502,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "Hmm... I don't think I can make it tonight. Why don't you all get some rest, nya?",
 			typewriter = {
@@ -519,11 +519,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "Akashi will have it done by the morning. Look forward to it, nya!",
 			typewriter = {

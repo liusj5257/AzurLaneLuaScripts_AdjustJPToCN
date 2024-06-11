@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHANGYEJIANGLINZHIQIAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHANGYEJIANGLINZHIQIAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			soundeffect = "event:/ui/fengling",
-			say = "A dream. A dream of one possible future. Its dreamer – Shinano.",
+			stopbgm = true,
 			seDelay = 1,
+			soundeffect = "event:/ui/fengling",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "A dream. A dream of one possible future. Its dreamer – Shinano.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,19 +29,19 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			bgm = "bgm-waterwave",
 			say = "A wind chime rang. Then, the sound of overlapping waves.",
+			bgm = "bgm-waterwave",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
 			say = "The sky was dark as soot. Beneath it, a long column of torii dyed a vivid red.",
@@ -63,10 +63,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The line between illusion and reality, the interstices between dreams...",
 			painting = {
 				alpha = 0.3,
@@ -78,12 +78,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A place seldom seen, as the dream usually presents itself immediately...",
 			painting = {
 				alpha = 0.3,
@@ -98,10 +98,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nevertheless... This one has been here before, a few times...",
 			painting = {
 				alpha = 0.3,
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
 			say = "The torii split the world into two halves. From opposite sides, the winds brought crashing waves into each other, in defiance of the laws of nature.",
@@ -127,10 +127,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The realm of illusion can be calm at some times, chaotic at others...",
 			painting = {
 				alpha = 0.3,
@@ -142,12 +142,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Tonight... It appears particularly at unrest...",
 			painting = {
 				alpha = 0.3,
@@ -162,10 +162,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "An ill omen, that is... My dream shan't be a pleasant one...",
 			painting = {
 				alpha = 0.3,
@@ -177,30 +177,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "In her dream, Shinano saw a scene from the \"past.\"",
 			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "In her dream, Shinano saw a scene from the \"past.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -239,13 +239,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Magnificent! Truly, truly magnificent!",
 			painting = {
 				alpha = 0.3,
@@ -276,13 +276,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now that we know where it is, victory is already within my grasp.",
 			painting = {
 				alpha = 0.3,
@@ -294,13 +294,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...The Royal Navy and Iron Blood? What about them?",
 			painting = {
 				alpha = 0.3,
@@ -312,13 +312,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You're worried they might throw a wrench in my plan?",
 			painting = {
 				alpha = 0.3,
@@ -349,13 +349,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But, Bismarck and the little queen are nothing to worry about. Whatever they've been preparing, I'm already five steps ahead of them.",
 			painting = {
 				alpha = 0.3,
@@ -386,13 +386,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'll take your advice to heart and figure something out.",
 			painting = {
 				alpha = 0.3,
@@ -423,13 +423,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"Seeing that the people were now one, with nothing restrained from them, thence did the Lord confound the people with different languages and scatter them upon the face of all the earth.\"",
 			painting = {
 				alpha = 0.3,
@@ -460,13 +460,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I swear that I will grant you your wish – once my own ambitions are realized.",
 			painting = {
 				alpha = 0.3,
@@ -481,8 +481,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_501",
-			oldPhoto = true,
 			dir = 1,
+			oldPhoto = true,
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -496,17 +496,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -533,13 +533,13 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(That voice... It must be Marco Polo's...)",
 			painting = {
 				alpha = 0.3,
@@ -551,13 +551,13 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(But who she is speaking to, I cannot fathom a guess...)",
 			painting = {
 				alpha = 0.3,
@@ -588,13 +588,13 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(Though gloomy to a degree, this dream isn't chaotic like the ill omen foreboded...)",
 			painting = {
 				alpha = 0.3,
@@ -625,18 +625,18 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
 			side = 2,
 			bgName = "bg_firedust_5",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "A black sun, quietly burning in the dusky sky.",
+			dialogueBgAlpha = 0.6,
 			soundeffect = "event:/ui/fengling",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "A black sun, quietly burning in the dusky sky.",
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			},
 			typewriter = {
@@ -644,17 +644,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -662,8 +662,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -731,8 +731,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -781,8 +781,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -812,11 +812,11 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
 			bgName = "bg_roma_6",
-			hidePaintObj = true,
+			oldPhoto = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"The time of judgment hath come.\"",
 			effects = {
 				{
@@ -829,17 +829,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -847,8 +847,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_6",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -859,8 +859,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			soundeffect = "event:/ui/fengling",
 			sequence = {

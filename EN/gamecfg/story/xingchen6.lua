@@ -78,8 +78,8 @@ return {
 			nameColor = "#a9f548",
 			say = "Bits of Courage… is the greatest form of magic...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZOUXIANGYUANWEIZHIGE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZOUXIANGYUANWEIZHIGE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -35,21 +35,21 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "輝けるアイリスの聖都は戦乱の火に包まれていた。",
 			nameColor = "#A9F548FF",
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
-			bgm = "theme-vichy-church",
+			side = 2,
 			bgmDelay = 1,
-			say = "輝けるアイリスの聖都は戦乱の火に包まれていた。",
+			bgm = "theme-vichy-church",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
 			say = "贅の限りを尽くされ、華麗に舗装された道はかつて偉大なる勝利を記念するために使われていたが――",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
 			say = "今や、それは無情なる戦争の祝勝パレードの行進路として用いられていた。",
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_qiongding_8",
 			hidePaintObj = true,
 			say = "燃ゆる聖都の凄惨な姿はじきに文字で、写真で、あらゆる伝達手段によって世界中に広まっていく。",
@@ -84,10 +84,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "観閲台にいるのは……っ……",
 			painting = {
 				alpha = 0.3,
@@ -102,10 +102,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "審判廷のみならず、護教騎士団まで……",
 			painting = {
 				alpha = 0.3,
@@ -120,10 +120,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "こうするしか…ないのですね",
 			painting = {
 				alpha = 0.3,
@@ -138,10 +138,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "騎士団も審判廷も、それを分かっていて決断しました",
 			painting = {
 				alpha = 0.3,
@@ -156,10 +156,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "軽巡マルセイエーズ、アイリスの戦闘天使として、決断された結果には抗えません",
 			painting = {
 				alpha = 0.3,
@@ -174,10 +174,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "たとえ戦闘を止め、燃え上がる聖都をただ見続けるだけだとしても",
 			painting = {
 				alpha = 0.3,
@@ -192,10 +192,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "たとえアイリスが、ヴィシアと二分されることを座して待つことになったとしても",
 			painting = {
 				alpha = 0.3,
@@ -210,10 +210,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "戦闘しか知らない私には何もできません",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "アイリスの教えしか知らない私には何も言えません",
 			painting = {
 				alpha = 0.3,
@@ -246,10 +246,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "フネである私には、何も………",
 			painting = {
 				alpha = 0.3,
@@ -264,10 +264,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "………………",
 			painting = {
 				alpha = 0.3,
@@ -282,10 +282,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "まだ、できることがあるはずです",
 			painting = {
 				alpha = 0.3,
@@ -300,10 +300,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "倒れるのも、諦めるのも…戦闘天使マルセイエーズには相応しくないです",
 			painting = {
 				alpha = 0.3,
@@ -318,10 +318,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "アイリスが私を必要としている限り、私は……",
 			painting = {
 				alpha = 0.3,
@@ -342,10 +342,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "マルセイエーズは……",
 			painting = {
 				alpha = 0.3,
@@ -366,10 +366,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "逃げずに戦い続けます――",
 			painting = {
 				alpha = 0.3,
@@ -386,12 +386,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -422,22 +422,22 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
-			say = "赤黒い靄に包まれる海の中、リシュリューはたった一人で先へと進もうとしていた。",
 			bgmDelay = 1,
 			bgm = "theme-vichy-revelation",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "赤黒い靄に包まれる海の中、リシュリューはたった一人で先へと進もうとしていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			}
 		},
@@ -445,10 +445,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "この靄…一体……何なんですか…？！",
 			painting = {
 				alpha = 0.3,
@@ -463,10 +463,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "先に進むほど、壁のように押し寄せて塞がってきて……",
 			painting = {
 				alpha = 0.3,
@@ -481,10 +481,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "このままでは呼吸も……っ",
 			painting = {
 				alpha = 0.3,
@@ -499,10 +499,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "力が…入らなくなって………っ！",
 			painting = {
 				alpha = 0.3,
@@ -519,12 +519,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "———————————！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,8 +570,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "砲撃を放ち、かき消そうとしてみたものの、靄はすぐさま元に戻ってしまう。",
@@ -581,13 +581,13 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			actorShadow = true,
-			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
+			bgName = "bg_story_sainthelena2",
 			nameColor = "#ff5c5c",
+			actor = 905010,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "抗っては負ける。それも一度ならず何度も",
 			typewriter = {
 				speed = 0.05,
@@ -595,13 +595,13 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			actorShadow = true,
-			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
+			bgName = "bg_story_sainthelena2",
 			nameColor = "#ff5c5c",
+			actor = 905010,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "お前が今やっていることは全くの無意味だ",
 			typewriter = {
 				speed = 0.05,
@@ -609,13 +609,13 @@ return {
 			}
 		},
 		{
-			actor = 905010,
 			actorShadow = true,
-			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "？？？",
+			bgName = "bg_story_sainthelena2",
 			nameColor = "#ff5c5c",
+			actor = 905010,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "もう諦めろ。姉さん",
 			typewriter = {
 				speed = 0.05,
@@ -626,10 +626,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "ジャン……バール……？",
 			painting = {
 				alpha = 0.3,
@@ -641,16 +641,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -662,10 +662,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "違う……あなたはジャン・バールなんかじゃありません！",
 			painting = {
 				alpha = 0.3,
@@ -680,10 +680,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "ジャン・バールならこんなことを言うはずがありません…！",
 			painting = {
 				alpha = 0.3,
@@ -703,10 +703,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "あれは幻…聖堂施設にある「汚染」と同じ……",
 			painting = {
 				alpha = 0.3,
@@ -721,10 +721,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 805010,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "冷静になって、リシュリュー……冷静に…惑わされないように……",
 			painting = {
 				alpha = 0.3,
@@ -736,13 +736,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "冷静、だと？",
 			painting = {
@@ -755,13 +755,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "むしろ怒るべきだろ？",
 			painting = {
@@ -774,13 +774,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "お前は仲間も、妹も、アイリスも見捨てた",
 			painting = {
@@ -793,13 +793,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "今まで散々我慢してきた。努力してきた。だが結果はどうだった？何を得られた？",
 			painting = {
@@ -812,13 +812,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "終わることのない嘲り、蔑み、貶め、罵り……それだけだ",
 			painting = {
@@ -831,13 +831,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "お前はどうして「冷静」でいられるんだ？",
 			painting = {
@@ -853,10 +853,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 805010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……それ以上言わないでください…！",
 			painting = {
 				alpha = 0.3,
@@ -873,12 +873,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "———————————！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -924,13 +924,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "ふん。ようやく分かってきたじゃないか",
 			painting = {
@@ -943,13 +943,13 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
 			side = 2,
+			actorShadow = true,
 			bgName = "bg_story_sainthelena2",
-			actorName = "？？？",
+			nameColor = "#ff5c5c",
 			dir = 1,
 			actor = 905010,
-			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "そうだ。その感覚だ！自分の怒りを噛みしめてみろ！",
 			painting = {
@@ -965,10 +965,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 805010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "もう黙って……！！！",
 			painting = {
 				alpha = 0.3,
@@ -991,18 +991,18 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_firedust_5",
-			nameColor = "#A9F548FF",
 			bgmDelay = 2,
+			dialogueBgAlpha = 0.6,
 			bgm = "theme-vichy-church",
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "昏黄の空に静かに燃え続けている黒い太陽――",
 			flashout = {
-				black = true,
 				dur = 0.15,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1027,9 +1027,9 @@ return {
 					name = "speed"
 				},
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			},
 			typewriter = {
@@ -1062,18 +1062,18 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			nameColor = "#A9F548FF",
 			bgmDelay = 2,
+			dialogueBgAlpha = 0.6,
 			bgm = "theme-vichy-revelation",
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "目の前にある禍々しい虚像が一瞬で消え去った。",
 			flashout = {
-				black = true,
 				dur = 0.15,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1090,14 +1090,14 @@ return {
 			},
 			effects = {
 				{
-					active = false,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = false
 				},
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -1106,8 +1106,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -1118,8 +1118,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -1168,8 +1168,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -1299,13 +1299,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
-			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
+			side = 2,
+			dialogueBgAlpha = 0.6,
 			nameColor = "#A9F548FF",
-			say = "———————————！",
 			soundeffect = "event:/battle/boom2",
+			hidePaintObj = true,
+			say = "———————————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1351,8 +1351,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,

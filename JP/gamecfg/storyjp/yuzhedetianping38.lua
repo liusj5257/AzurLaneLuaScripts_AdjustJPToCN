@@ -1,35 +1,35 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING38",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING38",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "？？？·？？？",
 			bgm = "theme-dailyfuture",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "？？？·？？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "目を開き、周りの光景を確認する。",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "仄明るい照明に照らされた地下施設の一室。懐かしさを覚える家具と設備。",
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "隣の「ハイエロファント」が無言で笏杖を高く掲げた。",
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "――廊下から二人分の足音が聞こえ、「ハイエロファント」はまるで彫像になったかのように停止した。",
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "そうか。「博士たち」か……？",
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "こちらの思考を読んだのか、「ハイエロファント」は訝しげに頭を少し傾げ、笏杖を下ろした。",
@@ -127,29 +127,29 @@ return {
 			}
 		},
 		{
-			actor = 900307,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900307,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "……戦況が膠着しているせいか、研究をもっと加速させろという命令を受けたよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -221,12 +221,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
+			say = "初号機…？一体目…？",
 			side = 1,
 			bgName = "bg_cccpv2_9",
-			hidePaintObj = true,
+			actor = 900308,
 			nameColor = "#ffff4d",
-			say = "初号機…？一体目…？",
+			hidePaintObj = true,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -769,8 +769,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "（こっちに質問を投げてきた？！）",
@@ -785,8 +785,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "（この光景…いや、この状況は幻か、あの「リプレイヤー」が再生した記憶じゃないのか？）",
@@ -808,8 +808,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "「ハイエロファント」も答えを待っているかのように、頭をかすかに傾げながらこちらに振り向いてきた。",
@@ -819,8 +819,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			say = "……………………",
@@ -840,8 +840,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -852,29 +852,29 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 1,
+			actor = 900332,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうね。「指揮官」も適性や能力だけの話じゃないし、あなたがあの子たちを信頼して接しているからこその「指揮官」だもの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -882,8 +882,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -920,8 +920,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -932,8 +932,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -944,29 +944,29 @@ return {
 			}
 		},
 		{
-			actor = 900333,
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			actor = 900333,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "合理的な見方だ。「敵」という概念を定めてこそ、己の歩むべき未来がはっきりと見える。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1000,8 +1000,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -1025,8 +1025,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -1037,8 +1037,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "白い光の中で、アンジュ、オースタ、ハイエロファント…空間そのものが消えてなくなった。",
@@ -1047,17 +1047,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1065,8 +1065,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "視界の彼方に「扉」が現れた。",
@@ -1076,8 +1076,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "純白の空間に寂しげに佇む、懐かしい「扉」。",
@@ -1087,8 +1087,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "どうやらそろそろ帰る時間だ――",
@@ -1098,13 +1098,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_underheaven_13",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "光景が三度変わり、世界博覧会会場の建物が目に映った。",
 			bgm = "story-expo-lastday",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "光景が三度変わり、世界博覧会会場の建物が目に映った。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1126,8 +1126,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "…正確に言えば、月の光に照らされている、ぼろぼろになった会場だ。",
@@ -1137,8 +1137,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "空と大地と海が元に戻り、「神の痕」という謎の物質も、操られた偽りの「神」もそこにはいない。",
@@ -1148,8 +1148,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "何事も起きなかったかのような、波音だけが響く静かな夜。",
@@ -1159,8 +1159,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "しかし手のひらから伝わる重さが、「アビータ」の災いが全て真実だと教えてくれる。",
@@ -1170,8 +1170,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "――アイリスの正統の象徴「聖座の冠」。",
@@ -1181,8 +1181,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "もしかしたら、あの領域の「概念」を支配していたのは「ハイエロファント」ではなく、「聖座の冠」だったのかもしれない。",
@@ -1192,8 +1192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "領域が消えた今、「冠」もただの物に戻った。",
@@ -1203,8 +1203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "――通信機に仲間たちからの連絡がものすごい勢いで届いている。",
@@ -1214,8 +1214,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "内容から察するに、どうやら自分はさっき「ハイエロファント」と一緒に消えたようだ。",
@@ -1225,8 +1225,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_13",
 			hidePaintObj = true,
 			say = "…………早く応答して、皆を安心させよう。",
@@ -1236,9 +1236,9 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
 			bgName = "star_level_bg_1104",
+			stopbgm = true,
 			effects = {
 				{
 					active = true,

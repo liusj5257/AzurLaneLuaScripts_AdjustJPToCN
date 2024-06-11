@@ -15,7 +15,7 @@ slot13 = import("view.util.RequestPackages.DestroyAtlasPoolRequestPackage")
 slot0.PartLoading = bit.lshift(1, 0)
 slot0.PartLoaded = bit.lshift(1, 1)
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0._loadingRequest = {}
 	slot0._returnRequest = {}
 	slot0._instKeyDict = {}
@@ -23,7 +23,7 @@ function slot0.Ctor(slot0)
 	slot0._groupDict = {}
 end
 
-function slot0.GenerateUID4LoadingRequest(slot0)
+slot0.GenerateUID4LoadingRequest = function(slot0)
 	slot0._uidCounter = (slot0._uidCounter or 0) + 1
 
 	assert(slot0._uidCounter ~= 0, "Error on Generating UID Too much times")
@@ -31,7 +31,7 @@ function slot0.GenerateUID4LoadingRequest(slot0)
 	return slot0._uidCounter
 end
 
-function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4)
+slot0.GetPrefab = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:ClearRequest(slot4)
 
 	slot4 = slot4 or slot0:GenerateUID4LoadingRequest()
@@ -58,7 +58,7 @@ function slot0.GetPrefab(slot0, slot1, slot2, slot3, slot4)
 	return slot4
 end
 
-function slot0.GetPrefabBYStopLoading(slot0, slot1, slot2, slot3, slot4)
+slot0.GetPrefabBYStopLoading = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:ClearRequest(slot4, uv0.PartLoading)
 
 	slot4 = slot4 or slot0:GenerateUID4LoadingRequest()
@@ -88,18 +88,18 @@ function slot0.GetPrefabBYStopLoading(slot0, slot1, slot2, slot3, slot4)
 	return slot4
 end
 
-function slot0.GetPrefabBYGroup(slot0, slot1, slot2, slot3, slot4)
+slot0.GetPrefabBYGroup = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0:GetPrefab(slot1, slot2, slot3)
 	slot0._groupDict[slot5] = slot4
 
 	return slot5
 end
 
-function slot0.ReturnPrefab(slot0, slot1)
+slot0.ReturnPrefab = function(slot0, slot1)
 	slot0:ClearRequest(slot0._instKeyDict[go(slot1)])
 end
 
-function slot0.ReturnGroup(slot0, slot1)
+slot0.ReturnGroup = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -111,7 +111,7 @@ function slot0.ReturnGroup(slot0, slot1)
 	end
 end
 
-function slot0.GetSpine(slot0, slot1, slot2, slot3)
+slot0.GetSpine = function(slot0, slot1, slot2, slot3)
 	if not slot1 or #slot1 < 0 then
 		return
 	end
@@ -142,17 +142,17 @@ function slot0.GetSpine(slot0, slot1, slot2, slot3)
 	return slot3
 end
 
-function slot0.ReturnSpine(slot0, slot1)
+slot0.ReturnSpine = function(slot0, slot1)
 	slot0:ClearRequest(slot0._instKeyDict[go(slot1)])
 end
 
-function slot0.GetSprite(slot0, slot1, slot2, slot3, slot4)
+slot0.GetSprite = function(slot0, slot1, slot2, slot3, slot4)
 	slot3:GetComponent(typeof(Image)).enabled = false
 
 	return slot0:GetSpriteQuiet(slot1, slot2, slot3, slot4)
 end
 
-function slot0.GetSpriteQuiet(slot0, slot1, slot2, slot3, slot4)
+slot0.GetSpriteQuiet = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = tf(slot3)
 
 	slot0:GetSpriteDirect(slot1, slot2 or "", function (slot0)
@@ -168,7 +168,7 @@ function slot0.GetSpriteQuiet(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot0.GetSpriteDirect(slot0, slot1, slot2, slot3, slot4)
+slot0.GetSpriteDirect = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:ClearRequest(slot4)
 
 	slot4 = slot4 or slot0:GenerateUID4LoadingRequest()
@@ -194,11 +194,11 @@ function slot0.GetSpriteDirect(slot0, slot1, slot2, slot3, slot4)
 	return slot4
 end
 
-function slot0.GetOffSpriteRequest(slot0, slot1)
+slot0.GetOffSpriteRequest = function(slot0, slot1)
 	slot0:ClearRequest(slot1)
 end
 
-function slot0.LoadPrefab(slot0, slot1, slot2, slot3, slot4)
+slot0.LoadPrefab = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:ClearRequest(slot4)
 
 	slot4 = slot4 or slot0:GenerateUID4LoadingRequest()
@@ -222,7 +222,7 @@ function slot0.LoadPrefab(slot0, slot1, slot2, slot3, slot4)
 	return slot4
 end
 
-function slot0.LoadLive2D(slot0, slot1, slot2, slot3)
+slot0.LoadLive2D = function(slot0, slot1, slot2, slot3)
 	slot4 = nil
 	slot5, slot6 = HXSet.autoHxShift("live2d/", slot1)
 
@@ -249,7 +249,7 @@ function slot0.LoadLive2D(slot0, slot1, slot2, slot3)
 	return slot3
 end
 
-function slot0.LoadSprite(slot0, slot1, slot2, slot3, slot4)
+slot0.LoadSprite = function(slot0, slot1, slot2, slot3, slot4)
 	slot3:GetComponent(typeof(Image)).enabled = false
 
 	slot0:ClearRequest(tf(slot3))
@@ -276,7 +276,7 @@ function slot0.LoadSprite(slot0, slot1, slot2, slot3, slot4)
 	return slot6
 end
 
-function slot0.LoadReference(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.LoadReference = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:ClearRequest(slot5)
 
 	slot5 = slot5 or slot0:GenerateUID4LoadingRequest()
@@ -300,11 +300,11 @@ function slot0.LoadReference(slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot5
 end
 
-function slot0.DestroyAtlas(slot0, slot1)
+slot0.DestroyAtlas = function(slot0, slot1)
 	slot0:ClearRequest(slot1)
 end
 
-function slot0.LoadBundle(slot0, slot1, slot2)
+slot0.LoadBundle = function(slot0, slot1, slot2)
 	slot3 = slot0:GenerateUID4LoadingRequest()
 	slot4 = nil
 	slot4 = uv0.New(slot1, function (slot0)
@@ -325,17 +325,17 @@ function slot0.LoadBundle(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.GetRequestPackage(slot0, slot1, slot2)
+slot0.GetRequestPackage = function(slot0, slot1, slot2)
 	slot2 = slot2 or uv0.PartLoading + uv0.PartLoaded
 
 	return bit.band(slot2, uv0.PartLoading) > 0 and slot0._loadingRequest[slot1] or bit.band(slot2, uv0.PartLoaded) > 0 and slot0._returnRequest[slot1] or nil
 end
 
-function slot0.GetLoadingRP(slot0, slot1)
+slot0.GetLoadingRP = function(slot0, slot1)
 	return slot0._loadingRequest[slot1]
 end
 
-function slot0.ClearRequest(slot0, slot1, slot2)
+slot0.ClearRequest = function(slot0, slot1, slot2)
 	if (not slot2 or bit.band(slot2, uv0.PartLoading) > 0) and slot0._loadingRequest[slot1] then
 		if uv1 then
 			slot3 = slot0._loadingRequest[slot1]
@@ -378,7 +378,7 @@ function slot0.ClearRequest(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ClearLoadingRequests(slot0)
+slot0.ClearLoadingRequests = function(slot0)
 	for slot4 in pairs(slot0._loadingRequest) do
 		slot0:ClearRequest(slot4)
 	end
@@ -386,7 +386,7 @@ function slot0.ClearLoadingRequests(slot0)
 	table.clear(slot0._loadingRequest)
 end
 
-function slot0.ClearLoadedRequests(slot0)
+slot0.ClearLoadedRequests = function(slot0)
 	for slot4 in pairs(slot0._returnRequest) do
 		slot0:ClearRequest(slot4)
 	end
@@ -394,14 +394,14 @@ function slot0.ClearLoadedRequests(slot0)
 	table.clear(slot0._returnRequest)
 end
 
-function slot0.ClearRequests(slot0)
+slot0.ClearRequests = function(slot0)
 	slot0:ClearLoadingRequests()
 	slot0:ClearLoadedRequests()
 	table.clear(slot0._instKeyDict)
 	table.clear(slot0._keyInstDict)
 end
 
-function slot0.RegisterLoaded(slot0, slot1, slot2)
+slot0.RegisterLoaded = function(slot0, slot1, slot2)
 	slot0._instKeyDict[slot2] = slot1
 	slot0._keyInstDict[slot1] = slot2
 	slot0._returnRequest[slot1] = {
@@ -411,7 +411,7 @@ function slot0.RegisterLoaded(slot0, slot1, slot2)
 	}
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0:ClearRequests()
 end
 

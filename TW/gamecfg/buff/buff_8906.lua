@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "北方的孤独女王·弹条触发器",
 	time = 0,
+	name = "北方的孤独女王·弹条触发器",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 8899
+				skill_id = 8899,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG21",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG21",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "azumaster-ins",
 			actor = 502023,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이스트 글림 시스터즈, 다시 등장! 모두의 라이브를 보고 난 우리는 예전의 그 신인이 아니라고!",
-			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -37,8 +37,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 502033,
 			dir = 1,
+			actor = 502033,
 			say = "백 스테이지에서 모두가 보내준 디저트를 잔뜩 먹었어. 핑하이, 이제 컨디션 최고야! 이전 보다 훨씬 잘 할 수 있어!",
 			typewriter = {
 				speed = 0.05,
@@ -82,13 +82,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 101176,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "폴라리스… 대단했어……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -130,9 +130,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 201216,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "맞아요! 모두가 함께 힘내면 폴라리스에게 지지 않아요!",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,14 +194,14 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "우리 슈피를 괴롭히면 용서하지 않겠어!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -253,9 +253,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 301014,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "도이칠란트의 마음은 이해했어! 나도 우리 특형 구축함이 스테이지에서 가장 빛났으면 하니까!",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -292,14 +292,14 @@ return {
 			}
 		},
 		{
-			actor = 403070,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403070,
+			nameColor = "#a9f548",
 			say = "흥! 한꺼번에 와도 상관없어!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -341,9 +341,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 102240,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이제 진짜 마지막이야! 가스코뉴, 준비 됐어?",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -368,8 +368,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "명령 확인! 가스코뉴, 가장 아름다운 노래로——",
 			typewriter = {
 				speed = 0.05,

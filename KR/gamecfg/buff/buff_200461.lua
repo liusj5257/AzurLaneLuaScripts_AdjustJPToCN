@@ -7,14 +7,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "2023黑阿尔及利亚 特殊点燃",
 	time = 0,
-	id = 200461,
+	name = "2023黑阿尔及利亚 特殊点燃",
+	init_effect = "",
+	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	color = "red",
+	id = 200461,
 	last_effect = "",
 	effect_list = {
 		{
@@ -23,9 +23,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200461,
 				time = 9,
-				target = "TargetSelf",
-				skill_id = 200461
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -45,8 +45,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.3
+				number = -0.3,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -56,8 +56,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200474,
-				target = "TargetSelf",
-				time = 0.3
+				time = 0.3,
+				target = "TargetSelf"
 			}
 		}
 	}

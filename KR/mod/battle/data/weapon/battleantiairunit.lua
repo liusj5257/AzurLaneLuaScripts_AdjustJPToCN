@@ -4,15 +4,15 @@ slot1 = class("BattleAntiAirUnit", slot0.Battle.BattleWeaponUnit)
 slot0.Battle.BattleAntiAirUnit = slot1
 slot1.__name = "BattleAntiAirUnit"
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot1.TriggerBuffOnFire(slot0)
+slot1.TriggerBuffOnFire = function(slot0)
 	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_ANTIAIR_FIRE_NEAR, {})
 end
 
-function slot1.FilterTarget(slot0)
+slot1.FilterTarget = function(slot0)
 	slot2 = {}
 	slot3 = slot0._host:GetIFF()
 	slot4 = 1
@@ -27,7 +27,7 @@ function slot1.FilterTarget(slot0)
 	return slot2
 end
 
-function slot1.Spawn(slot0, slot1, slot2)
+slot1.Spawn = function(slot0, slot1, slot2)
 	slot3 = uv0.super.Spawn(slot0, slot1, slot2)
 
 	slot3:SetDirectHitUnit(slot2)
@@ -35,7 +35,7 @@ function slot1.Spawn(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot1.TriggerBuffWhenSpawn(slot0, slot1)
+slot1.TriggerBuffWhenSpawn = function(slot0, slot1)
 	slot2 = {
 		_bullet = slot1,
 		bulletTag = slot1:GetExtraTag()

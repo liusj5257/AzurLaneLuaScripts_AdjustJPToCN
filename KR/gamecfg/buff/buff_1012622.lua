@@ -1,7 +1,7 @@
 return {
-	init_effect = "jinengchufablue",
-	name = "属性变更",
 	time = 0,
+	name = "属性变更",
+	init_effect = "jinengchufablue",
 	picture = "",
 	desc = "机动提升",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 1500
+				number = 1500,
+				attr = "dodgeRate"
 			}
 		}
 	}

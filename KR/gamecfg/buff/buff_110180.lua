@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 110180,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 110180,
+	color = "red",
 	icon = 110180,
 	last_effect = "",
 	effect_list = {
@@ -46,8 +46,8 @@ return {
 				"onFleetAttrUpdate"
 			},
 			arg_list = {
-				fleetAttr = "huohun=5",
 				fleetAttrDelta = ">0",
+				fleetAttr = "huohun=5",
 				skill_id = 110182
 			}
 		},

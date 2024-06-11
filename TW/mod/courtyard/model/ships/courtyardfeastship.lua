@@ -1,6 +1,6 @@
 slot0 = class("CourtYardFeastShip", import(".CourtYardShip"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0.bubble = slot2.bubble or 0
@@ -12,39 +12,39 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetShipType(slot0)
+slot0.GetShipType = function(slot0)
 	return CourtYardConst.SHIP_TYPE_FEAST
 end
 
-function slot0.IsSpecial(slot0)
+slot0.IsSpecial = function(slot0)
 	return slot0.isSpecial
 end
 
-function slot0.GetIsSpecialValue(slot0)
+slot0.GetIsSpecialValue = function(slot0)
 	return slot0.isSpecial and 1 or 0
 end
 
-function slot0.UpdateBubble(slot0, slot1)
+slot0.UpdateBubble = function(slot0, slot1)
 	slot0.bubble = slot1 or 0
 
 	slot0:DispatchEvent(CourtYardEvent.FEAST_SHIP_BUBBLE_CHANGE, slot1)
 end
 
-function slot0.ExistBubble(slot0)
+slot0.ExistBubble = function(slot0)
 	return slot0.bubble > 0
 end
 
-function slot0.UpdateChatBubble(slot0, slot1)
+slot0.UpdateChatBubble = function(slot0, slot1)
 	slot0:DispatchEvent(CourtYardEvent.FEAST_SHIP_CHAT_CHANGE, slot1)
 end
 
-function slot0.EnterFeast(slot0)
+slot0.EnterFeast = function(slot0)
 	if slot0:IsSpecial() then
 		slot0:DispatchEvent(CourtYardEvent.FEAST_SHIP_SHOW_EXPRESS, 1)
 	end
 end
 
-function slot0.OnInterAction(slot0, slot1)
+slot0.OnInterAction = function(slot0, slot1)
 	uv0.super.OnInterAction(slot0, slot1)
 
 	if isa(slot1:GetOwner(), CourtYardFurniture) and slot0:ExistBubble() and slot0:IsSameInterAction(slot2, slot0.bubble) then
@@ -56,7 +56,7 @@ function slot0.OnInterAction(slot0, slot1)
 	end
 end
 
-function slot0.GetInterActionExpress(slot0, slot1)
+slot0.GetInterActionExpress = function(slot0, slot1)
 	slot2 = slot0.interActionConfig[7] or {}
 
 	for slot6, slot7 in ipairs(slot2) do
@@ -68,7 +68,7 @@ function slot0.GetInterActionExpress(slot0, slot1)
 	end
 end
 
-function slot0.IsSameInterAction(slot0, slot1, slot2)
+slot0.IsSameInterAction = function(slot0, slot1, slot2)
 	slot4 = slot0.interActionConfig[slot2] or {}
 
 	for slot8, slot9 in ipairs(slot4) do
@@ -80,7 +80,7 @@ function slot0.IsSameInterAction(slot0, slot1, slot2)
 	return false
 end
 
-function slot0._ChangeState(slot0, slot1, slot2)
+slot0._ChangeState = function(slot0, slot1, slot2)
 	uv0.super._ChangeState(slot0, slot1, slot2)
 
 	if slot1 == CourtYardShip.STATE_TOUCH and slot0.bubble == FeastShip.BUBBLE_TYPE_GREET then

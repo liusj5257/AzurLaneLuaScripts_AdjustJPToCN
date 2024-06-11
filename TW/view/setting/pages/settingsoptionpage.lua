@@ -1,10 +1,10 @@
 slot0 = class("SettingsOptionPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SettingsCombinationPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0:OnBindEvent()
 
 	slot0.panelContainer = slot0:findTF("content")
@@ -22,7 +22,7 @@ function slot0.OnLoaded(slot0)
 	setActive(slot0._tf, true)
 end
 
-function slot0.OnBindEvent(slot0)
+slot0.OnBindEvent = function(slot0)
 	slot0:bind(SettingsRandomFlagShipAndSkinPanel.EVT_UPDTAE, function ()
 		if uv0:GetPanel(SettingsRandomFlagShipAndSkinPanel) then
 			slot0:OnRandomFlagshipFlagUpdate()
@@ -30,7 +30,7 @@ function slot0.OnBindEvent(slot0)
 	end)
 end
 
-function slot0.GetPanels(slot0)
+slot0.GetPanels = function(slot0)
 	slot1 = {
 		SettingsFpsPanle,
 		SettingsNotificationPanel,
@@ -48,11 +48,11 @@ function slot0.GetPanels(slot0)
 	return slot1
 end
 
-function slot0.NeedAdjustScreen(slot0)
+slot0.NeedAdjustScreen = function(slot0)
 	return ADAPT_NOTICE < Screen.width / Screen.height - 0.001
 end
 
-function slot0.GetPanel(slot0, slot1)
+slot0.GetPanel = function(slot0, slot1)
 	if not slot0.panels then
 		return nil
 	end
@@ -62,7 +62,7 @@ function slot0.GetPanel(slot0, slot1)
 	end)
 end
 
-function slot0.InitPanels(slot0)
+slot0.InitPanels = function(slot0)
 	slot1 = {}
 	slot2 = GetOrAddComponent(slot0.contentSizeFitter, typeof(CanvasGroup))
 	slot0.scrollrect.enabled = false
@@ -80,7 +80,7 @@ function slot0.InitPanels(slot0)
 	end)
 end
 
-function slot0.RebuildLayout(slot0, slot1)
+slot0.RebuildLayout = function(slot0, slot1)
 	onDelayTick(function ()
 		uv0.contentSizeFitter.enabled = false
 		uv0.contentSizeFitter.enabled = true
@@ -89,7 +89,7 @@ function slot0.RebuildLayout(slot0, slot1)
 	end, 0.05)
 end
 
-function slot0.OnInitPanle(slot0)
+slot0.OnInitPanle = function(slot0)
 	if slot0.contextData.scroll then
 		slot1 = nil
 		slot1 = (slot0.contextData.scroll ~= "world_settings" or slot0:GetPanel(SettingsWorldPanle)) and slot0:GetPanel(slot0.contextData.scroll)
@@ -100,13 +100,13 @@ function slot0.OnInitPanle(slot0)
 	end
 end
 
-function slot0.ScrollToPanel(slot0, slot1)
+slot0.ScrollToPanel = function(slot0, slot1)
 	setAnchoredPosition(slot0.panelContainer, {
 		y = -slot0.panelContainer:InverseTransformPoint(slot1._tf.position).y
 	})
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	for slot4, slot5 in ipairs(slot0.panels) do
 		slot5:Dispose()
 	end
@@ -114,12 +114,12 @@ function slot0.OnDestroy(slot0)
 	slot0.panels = nil
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	slot0.cg.blocksRaycasts = true
 	slot0.cg.alpha = 1
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0.cg.blocksRaycasts = false
 	slot0.cg.alpha = 0
 end

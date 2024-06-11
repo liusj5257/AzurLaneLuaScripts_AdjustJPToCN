@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_245 = {}
 slot1 = slot0.word_template_245
 
-function temp()
+temp = function()
 	uv0["娶"] = {
 		["不"] = {
 			["起"] = {
@@ -30,7 +30,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["去"] = {
 		["旅"] = {
 			["遊"] = {
@@ -102,7 +102,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["闃"] = {
 		this = {
 			this = true
@@ -112,7 +112,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["棬"] = {
 		this = {
 			this = true
@@ -122,7 +122,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["权"] = {
 		["利"] = {
 			["是"] = {
@@ -175,7 +175,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["全"] = {
 		["部"] = {
 			["都"] = {
@@ -828,7 +828,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["泉"] = {
 		["师"] = {
 			["婊"] = {

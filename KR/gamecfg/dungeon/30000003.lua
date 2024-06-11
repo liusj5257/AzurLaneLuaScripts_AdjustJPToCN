@@ -7,8 +7,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -79,8 +79,8 @@ return {
 					triggerParam = {},
 					spawn = {
 						{
-							prefab = "shandian_wuyun",
 							life_time = 20,
+							prefab = "shandian_wuyun",
 							behaviours = 10000,
 							coordinate = {
 								-40,
@@ -92,8 +92,8 @@ return {
 							}
 						},
 						{
-							prefab = "shandian_wuyun",
 							life_time = 20,
+							prefab = "shandian_wuyun",
 							behaviours = 10000,
 							coordinate = {
 								-30,
@@ -105,8 +105,8 @@ return {
 							}
 						},
 						{
-							prefab = "shandian_wuyun",
 							life_time = 20,
+							prefab = "shandian_wuyun",
 							behaviours = 10000,
 							coordinate = {
 								-50,
@@ -118,8 +118,8 @@ return {
 							}
 						},
 						{
-							behaviours = 10003,
 							life_time = 20,
+							behaviours = 10003,
 							coordinate = {
 								-40,
 								0,

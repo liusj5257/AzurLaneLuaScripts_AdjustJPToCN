@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.fleet_tech_group = {
 	{
-		id = 1,
 		name = "함대 작전기술-이글 유니온 ",
+		id = 1,
 		nation = {
 			1
 		},
@@ -20,8 +20,8 @@ pg.fleet_tech_group = {
 		}
 	},
 	{
-		id = 2,
 		name = "함대 작전기술-로열 네이비",
+		id = 2,
 		nation = {
 			2
 		},
@@ -39,8 +39,8 @@ pg.fleet_tech_group = {
 		}
 	},
 	{
-		id = 3,
 		name = "함대 작전기술-사쿠라 엠파이어",
+		id = 3,
 		nation = {
 			3
 		},
@@ -58,8 +58,8 @@ pg.fleet_tech_group = {
 		}
 	},
 	{
-		id = 4,
 		name = "함대 작전기술-메탈 블러드",
+		id = 4,
 		nation = {
 			4
 		},

@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Sea Star on Shore\n\n<size=45>7: Conclusion</size>",
@@ -18,13 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ark Royal-san, I'm so sorry...we shouldn't have suspected you so easily...",
 			bgm = "story-1",
+			actor = 201080,
+			nameColor = "#a9f548",
+			say = "Ark Royal-san, I'm so sorry...we shouldn't have suspected you so easily...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 201110,
+			say = "I didn't exactly make it look like I was innocent, either...I'm sorry.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I didn't exactly make it look like I was innocent, either...I'm sorry.",
+			actor = 201110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "Ahaha, as long as everything turned out okay. All this investigating made me hungry, so let's go get some food, everyone!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ahaha, as long as everything turned out okay. All this investigating made me hungry, so let's go get some food, everyone!",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -267,14 +267,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "Everyone",
 			say = "Okay!",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,12 +301,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "Huhuhuh, eating with a bunch of destroyers...",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Huhuhuh, eating with a bunch of destroyers...",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -321,14 +321,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "Everyone",
 			say = "Stare--",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

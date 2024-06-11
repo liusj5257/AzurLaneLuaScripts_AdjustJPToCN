@@ -1,19 +1,19 @@
 slot1 = class("MapBuilderEscort", import(".MapBuilder"))
 
-function slot1.GetType(slot0)
+slot1.GetType = function(slot0)
 	return uv0.TYPEESCORT
 end
 
-function slot1.getUIName(slot0)
+slot1.getUIName = function(slot0)
 	return "escort_levels"
 end
 
-function slot1.OnInit(slot0)
+slot1.OnInit = function(slot0)
 	slot0.tpl = slot0._tf:Find("escort_level_tpl")
 	slot0.itemHolder = slot0._tf:Find("items")
 end
 
-function slot1.Update(slot0, slot1)
+slot1.Update = function(slot0, slot1)
 	slot0.map.pivot = Vector2(0.5, 0.5)
 	slot0.float.pivot = Vector2(0.5, 0.5)
 	slot4 = 1
@@ -33,12 +33,12 @@ function slot1.Update(slot0, slot1)
 	uv0.super.Update(slot0, slot1)
 end
 
-function slot1.UpdateButtons(slot0)
+slot1.UpdateButtons = function(slot0)
 	slot0.sceneParent:updateDifficultyBtns()
 	slot0.sceneParent:updateActivityBtns()
 end
 
-function slot1.UpdateEscortInfo(slot0)
+slot1.UpdateEscortInfo = function(slot0)
 	slot1 = getProxy(ChapterProxy)
 	slot2 = slot1:getMaxEscortChallengeTimes()
 	slot4 = slot0.sceneParent.escortBar
@@ -52,7 +52,7 @@ function slot1.UpdateEscortInfo(slot0)
 	end, SFX_PANEL)
 end
 
-function slot1.UpdateMapItems(slot0)
+slot1.UpdateMapItems = function(slot0)
 	uv0.super.UpdateMapItems(slot0)
 	slot0:UpdateEscortInfo()
 
@@ -76,7 +76,7 @@ function slot1.UpdateMapItems(slot0)
 	end))
 end
 
-function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)
+slot1.UpdateEscortItem = function(slot0, slot1, slot2, slot3)
 	slot4 = pg.escort_template[slot2]
 
 	assert(slot4, "escort template not exist: " .. slot2)
@@ -116,13 +116,13 @@ function slot1.UpdateEscortItem(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot1.OnShow(slot0)
+slot1.OnShow = function(slot0)
 	setActive(slot0.sceneParent.mainLayer:Find("title_chapter_lines"), true)
 	setActive(slot0.sceneParent.topChapter:Find("title_chapter"), true)
 	setActive(slot0.sceneParent.topChapter:Find("type_escort"), true)
 end
 
-function slot1.OnHide(slot0)
+slot1.OnHide = function(slot0)
 	setActive(slot0.sceneParent.mainLayer:Find("title_chapter_lines"), false)
 	setActive(slot0.sceneParent.topChapter:Find("title_chapter"), false)
 	setActive(slot0.sceneParent.topChapter:Find("type_escort"), false)

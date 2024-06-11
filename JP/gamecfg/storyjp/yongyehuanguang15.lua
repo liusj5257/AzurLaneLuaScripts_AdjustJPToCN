@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG15",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG15",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "バレンツ海・ロイヤル主力艦隊",
 			side = 2,
 			bgName = "bg_hms_5",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bgm-royalnavy",
+			say = "バレンツ海・ロイヤル主力艦隊",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イカルス",
+			side = 2,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ハウ",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イカルス",
+			side = 2,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ハウ",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヴァリアント",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "エディンバラ",
+			side = 2,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヴァリアント",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ハウ",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヴァリアント",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -194,8 +194,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "シャルンホルストさんたちは…前の「再現」で損傷しているので、鉄血の主力艦隊が出撃してくるとしても、ヴァリアント様が期待しているような戦いにはならないかと",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "向こうの全開火力を見れないのはちょっと残念ですね……残念……",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "いっそのこと、鉄血に通信を送って決戦を申し込んではいかがですか？今準備して――",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "ま、待たんか！いくらなんでもそこまではしないわよ！ほら、敵を侮らないのがヴァリアントって言ったばかりだし！",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -320,8 +320,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "戦果が目的なら、真正面で一回戦ったほうが確かによさそうね",
 			typewriter = {
@@ -369,8 +369,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "（とりあえず前線に乗り込んでから事後申請をする…ダメダメ、私イカルスちゃんみたいになってない？）",
 			typewriter = {
@@ -386,8 +386,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "（とりあえず今のところ、目標海域まで移動するのが先ね）",
 			typewriter = {

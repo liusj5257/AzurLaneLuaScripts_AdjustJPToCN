@@ -6,7 +6,7 @@ slot5 = slot3.max
 slot6 = {}
 slot7 = tolua.initget(slot6)
 
-function slot6.__index(slot0, slot1)
+slot6.__index = function(slot0, slot1)
 	if uv0(uv1, slot1) == nil and uv0(uv2, slot1) ~= nil then
 		return slot2(slot0)
 	end
@@ -14,41 +14,41 @@ function slot6.__index(slot0, slot1)
 	return slot2
 end
 
-function slot6.__call(slot0, slot1, slot2)
+slot6.__call = function(slot0, slot1, slot2)
 	return uv0({
 		x = slot1 or 0,
 		y = slot2 or 0
 	}, uv1)
 end
 
-function slot6.New(slot0, slot1)
+slot6.New = function(slot0, slot1)
 	return uv0({
 		x = slot0 or 0,
 		y = slot1 or 0
 	}, uv1)
 end
 
-function slot6.Set(slot0, slot1, slot2)
+slot6.Set = function(slot0, slot1, slot2)
 	slot0.x = slot1 or 0
 	slot0.y = slot2 or 0
 end
 
-function slot6.Get(slot0)
+slot6.Get = function(slot0)
 	return slot0.x, slot0.y
 end
 
-function slot6.SqrMagnitude(slot0)
+slot6.SqrMagnitude = function(slot0)
 	return slot0.x * slot0.x + slot0.y * slot0.y
 end
 
-function slot6.Clone(slot0)
+slot6.Clone = function(slot0)
 	return uv0({
 		x = slot0.x,
 		y = slot0.y
 	}, uv1)
 end
 
-function slot6.Normalize(slot0)
+slot6.Normalize = function(slot0)
 	slot1 = slot0.x
 	slot2 = slot0.y
 
@@ -66,7 +66,7 @@ function slot6.Normalize(slot0)
 	}, uv2)
 end
 
-function slot6.SetNormalize(slot0)
+slot6.SetNormalize = function(slot0)
 	if uv0(slot0.x * slot0.x + slot0.y * slot0.y) > 1e-05 then
 		slot0.x = slot0.x / slot1
 		slot0.y = slot0.y / slot1
@@ -78,11 +78,11 @@ function slot6.SetNormalize(slot0)
 	return slot0
 end
 
-function slot6.Dot(slot0, slot1)
+slot6.Dot = function(slot0, slot1)
 	return slot0.x * slot1.x + slot0.y * slot1.y
 end
 
-function slot6.Angle(slot0, slot1)
+slot6.Angle = function(slot0, slot1)
 	slot2 = slot0.x
 	slot3 = slot0.y
 
@@ -114,11 +114,11 @@ function slot6.Angle(slot0, slot1)
 	return uv1(slot4) * 57.29578
 end
 
-function slot6.Magnitude(slot0)
+slot6.Magnitude = function(slot0)
 	return uv0(slot0.x * slot0.x + slot0.y * slot0.y)
 end
 
-function slot6.Reflect(slot0, slot1)
+slot6.Reflect = function(slot0, slot1)
 	slot2 = slot0.x
 	slot3 = slot0.y
 	slot4 = slot1.x
@@ -131,11 +131,11 @@ function slot6.Reflect(slot0, slot1)
 	}, uv1)
 end
 
-function slot6.Distance(slot0, slot1)
+slot6.Distance = function(slot0, slot1)
 	return uv0((slot0.x - slot1.x)^2 + (slot0.y - slot1.y)^2)
 end
 
-function slot6.Lerp(slot0, slot1, slot2)
+slot6.Lerp = function(slot0, slot1, slot2)
 	if slot2 < 0 then
 		slot2 = 0
 	elseif slot2 > 1 then
@@ -148,14 +148,14 @@ function slot6.Lerp(slot0, slot1, slot2)
 	}, uv1)
 end
 
-function slot6.LerpUnclamped(slot0, slot1, slot2)
+slot6.LerpUnclamped = function(slot0, slot1, slot2)
 	return uv0({
 		x = slot0.x + (slot1.x - slot0.x) * slot2,
 		y = slot0.y + (slot1.y - slot0.y) * slot2
 	}, uv1)
 end
 
-function slot6.MoveTowards(slot0, slot1, slot2)
+slot6.MoveTowards = function(slot0, slot1, slot2)
 	slot5 = slot1.x - slot0.x
 	slot6 = slot1.y - slot0.y
 
@@ -174,7 +174,7 @@ function slot6.MoveTowards(slot0, slot1, slot2)
 	}, uv2)
 end
 
-function slot6.ClampMagnitude(slot0, slot1)
+slot6.ClampMagnitude = function(slot0, slot1)
 	slot2 = slot0.x
 	slot3 = slot0.y
 
@@ -193,7 +193,7 @@ function slot6.ClampMagnitude(slot0, slot1)
 	}, uv2)
 end
 
-function slot6.SmoothDamp(slot0, slot1, slot2, slot3, slot4, slot5)
+slot6.SmoothDamp = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot3 = uv0.max(0.0001, slot3)
 	slot7 = 2 / slot3 * (slot5 or Time.deltaTime)
 	slot7 = 1 / (1 + slot7 + 0.48 * slot7 * slot7 + 0.235 * slot7 * slot7 * slot7)
@@ -227,67 +227,67 @@ function slot6.SmoothDamp(slot0, slot1, slot2, slot3, slot4, slot5)
 	}, uv3), slot2
 end
 
-function slot6.Max(slot0, slot1)
+slot6.Max = function(slot0, slot1)
 	return uv0({
 		x = uv1.max(slot0.x, slot1.x),
 		y = uv1.max(slot0.y, slot1.y)
 	}, uv2)
 end
 
-function slot6.Min(slot0, slot1)
+slot6.Min = function(slot0, slot1)
 	return uv0({
 		x = uv1.min(slot0.x, slot1.x),
 		y = uv1.min(slot0.y, slot1.y)
 	}, uv2)
 end
 
-function slot6.Scale(slot0, slot1)
+slot6.Scale = function(slot0, slot1)
 	return uv0({
 		x = slot0.x * slot1.x,
 		y = slot0.y * slot1.y
 	}, uv1)
 end
 
-function slot6.Div(slot0, slot1)
+slot6.Div = function(slot0, slot1)
 	slot0.x = slot0.x / slot1
 	slot0.y = slot0.y / slot1
 
 	return slot0
 end
 
-function slot6.Mul(slot0, slot1)
+slot6.Mul = function(slot0, slot1)
 	slot0.x = slot0.x * slot1
 	slot0.y = slot0.y * slot1
 
 	return slot0
 end
 
-function slot6.Add(slot0, slot1)
+slot6.Add = function(slot0, slot1)
 	slot0.x = slot0.x + slot1.x
 	slot0.y = slot0.y + slot1.y
 
 	return slot0
 end
 
-function slot6.Sub(slot0, slot1)
+slot6.Sub = function(slot0, slot1)
 	slot0.x = slot0.x - slot1.x
 	slot0.y = slot0.y - slot1.y
 
 	return slot0
 end
 
-function slot6.__tostring(slot0)
+slot6.__tostring = function(slot0)
 	return string.format("(%f,%f)", slot0.x, slot0.y)
 end
 
-function slot6.__div(slot0, slot1)
+slot6.__div = function(slot0, slot1)
 	return uv0({
 		x = slot0.x / slot1,
 		y = slot0.y / slot1
 	}, uv1)
 end
 
-function slot6.__mul(slot0, slot1)
+slot6.__mul = function(slot0, slot1)
 	if type(slot1) == "number" then
 		return uv0({
 			x = slot0.x * slot1,
@@ -301,53 +301,53 @@ function slot6.__mul(slot0, slot1)
 	end
 end
 
-function slot6.__add(slot0, slot1)
+slot6.__add = function(slot0, slot1)
 	return uv0({
 		x = slot0.x + slot1.x,
 		y = slot0.y + slot1.y
 	}, uv1)
 end
 
-function slot6.__sub(slot0, slot1)
+slot6.__sub = function(slot0, slot1)
 	return uv0({
 		x = slot0.x - slot1.x,
 		y = slot0.y - slot1.y
 	}, uv1)
 end
 
-function slot6.__unm(slot0)
+slot6.__unm = function(slot0)
 	return uv0({
 		x = -slot0.x,
 		y = -slot0.y
 	}, uv1)
 end
 
-function slot6.__eq(slot0, slot1)
+slot6.__eq = function(slot0, slot1)
 	return (slot0.x - slot1.x)^2 + (slot0.y - slot1.y)^2 < 9.999999e-11
 end
 
-function slot7.up()
+slot7.up = function()
 	return uv0({
 		x = 0,
 		y = 1
 	}, uv1)
 end
 
-function slot7.right()
+slot7.right = function()
 	return uv0({
 		x = 1,
 		y = 0
 	}, uv1)
 end
 
-function slot7.zero()
+slot7.zero = function()
 	return uv0({
 		x = 0,
 		y = 0
 	}, uv1)
 end
 
-function slot7.one()
+slot7.one = function()
 	return uv0({
 		x = 1,
 		y = 1

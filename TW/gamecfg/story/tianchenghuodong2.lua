@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "nagato-map",
 			dir = 1,
 			say = "重櫻的諸君，余乃擔任本次聯合演習裁判長的，聯合艦隊旗艦{namecode:74}",
+			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,9 +70,9 @@ return {
 		{
 			actor = 305050,
 			nameColor = "#a9f548",
+			dir = 1,
 			withoutActorName = true,
 			side = 2,
-			dir = 1,
 			say = "{namecode:74}說著停頓了一下，望了望台下的{namecode:161}與{namecode:92}。",
 			typewriter = {
 				speed = 0.05,
@@ -99,10 +99,10 @@ return {
 			}
 		},
 		{
-			actorName = "眾人",
 			nameColor = "#a9f548",
-			side = 2,
+			actorName = "眾人",
 			dir = 1,
+			side = 2,
 			say = "！！！！！",
 			dialogShake = {
 				speed = 0.09,
@@ -122,8 +122,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "{namecode:74}大人居然要卸任旗艦之位了！？！之前完全沒有任何消息呀？！",
 			typewriter = {
 				speed = 0.05,

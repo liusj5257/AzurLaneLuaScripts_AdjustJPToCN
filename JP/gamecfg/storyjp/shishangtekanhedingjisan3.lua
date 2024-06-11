@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港着せ替え特集！その③\n\n<size=45>ぬくぬくのお茶と給仕さん修業</size>",
@@ -14,14 +14,14 @@ return {
 			}
 		},
 		{
-			live2d = "main2",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
 			dir = 1,
 			bgm = "story-richang-7",
 			actor = 301863,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "main2",
 			say = "指揮官、どうぞ…",
 			painting = {
 				alpha = 0.3,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "風雲はソワソワと熱々のお茶を渡してくれた。",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "縁側に広く漂っているお茶の香りが、花の香りとともに鼻にゆっくりと入ってくる。",
@@ -91,11 +91,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "もう指揮官、そんなことないのっ…あぅ、旦那さまと呼ぶべきか",
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "旦那さま、褒めすぎ。風雲はまだまだだよ",
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "例えばお茶を点てることは、まだ生噛りだし",
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "そして、うん…給仕さんとして、庭の手入れを完璧にこなすことも、とても大切だよね",
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "庭には花手毬が見事に咲きほこっている。",
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "花びらの上にしずくがついていて、丁寧に手入れされているのがわかる。",
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "そんな風に褒められると…風雲、恥ずかしくなるよ…っ",
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "う…そ、そういう言い方はずるい…からかわないのっ",
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "ま、待って！一番大切な修業の成果は、まだ披露してないから",
@@ -287,11 +287,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ええと――",
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
-			side = 2,
-			bgName = "star_level_bg_142",
 			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			bgName = "star_level_bg_142",
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "旦那さま、風雲の膝枕はいかが？",
@@ -322,17 +322,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -340,11 +340,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "耳かきの力加減は？",
@@ -358,11 +358,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "少しかゆい？じゃもう少し強くしたほうがいい？",
@@ -376,11 +376,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "いい気持ち？うん。ならよかった…",
@@ -394,11 +394,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "みんなから勉強した、一番大切なこと",
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "それは、心を込めて旦那さまに「ご奉仕」すること…",
@@ -430,11 +430,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "指揮官、風雲の修業は…満足してもらえたかな…？",
@@ -448,8 +448,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "ふわふわな梵天による耳掃除がもたらした、言葉で表せないほどの気持ちよさ。",
@@ -459,8 +459,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "風雲の柔らかい太ももの感触と合わさって……",
@@ -470,8 +470,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "――うん。評価はもちろん……完璧だ",

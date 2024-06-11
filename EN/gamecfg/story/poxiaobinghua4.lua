@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "KABOOM————————!!",
 			dir = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "bgm-cccp2",
+			say = "KABOOM————————!!",
 			flashN = {
 				color = {
 					1,
@@ -63,8 +63,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "The path is clear, Commander. You can continue forward.",
 			typewriter = {
@@ -77,9 +77,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "Gremyashchy was the perfect representation of the stoic fighting style of the Northern Parliament, expressionlessly mowing down the enemy ships that occasionally appeared in our way. Among all the destroyers I’ve commanded, Gremyashchy’s combat capabilities were absolutely top-notch.",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "Think nothing of it. I’m just doing my job. Mm, that’s all.",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "Hah. You sure know talent when you see it, Comrade. Gremyashchy here has been given the prestigious title of “Guardian.” She’s the ace up our sleeve!",
 			typewriter = {
@@ -135,9 +135,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "Now that you mention it, I do remember something about that...",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "That’s right! Very few ships in the entire Northern Parliament fleet are given this prestigious title!",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,9 +186,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "Even when I was back at the Eagle Union, word had spread of the outstanding reputation of the Guardians.",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "I don’t really need the honors. All that matters to me is doing my job well.",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "Gremyashchy, a good warrior should also know how to acknowledge the praise of others.",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "Um, thank you... Umm, y-yes, that is all...",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "Considering how exceptional of a fighter she is, it’s a bit strange to me that I haven’t seen her active until this point.",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "It’s only fitting that she would come down to guard someone as important as you, Comrade~",
 			typewriter = {
@@ -308,9 +308,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "I really appreciate it. Let’s all try to make it back in one piece.",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			optionFlag = 1,
 			actor = 701070,
 			say = "Unlike the other destroyers I’ve worked with, Gremyashchy doesn’t solely rely on her gunnery and torpedo strikes. She prefers to quickly close the gap on her enemies before dispatching them with a swing of her massive, comically exaggerated chain mace.",
@@ -353,8 +353,8 @@ return {
 			expression = 6,
 			side = 0,
 			bgName = "bg_story_bsmlevel",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			optionFlag = 1,
 			actor = 701070,
 			say = "In addition to her snow-white naval hat and coat, I also found her scarf to be very distinctive.",
@@ -375,8 +375,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_bsmlevel",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			optionFlag = 1,
 			actor = 701070,
 			say = "And when she courses through the waves at high speeds, the scarf flaps behind her like the wings of an angel.",
@@ -397,9 +397,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			blackBg = true,
-			dir = 1,
 			optionFlag = 1,
+			dir = 1,
+			blackBg = true,
 			actor = 701070,
 			nameColor = "#a9f548",
 			say = "What are you ogling me for? Are you... some kind of creep?",
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
+			blackBg = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
-			blackBg = true,
+			optionFlag = 2,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,

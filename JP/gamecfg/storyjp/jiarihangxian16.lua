@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIAN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900232,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			nameColor = "#ff5c5c",
 			say = "ふふ、とりあえずデータがとれたわね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -41,12 +41,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスター",
 			say = "でもさあ…こんな「お遊び」からほんとに使えるデータってとれるの？",
 			typewriter = {
 				speed = 0.05,
@@ -76,10 +76,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 900233,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
+			nameColor = "#ff5c5c",
 			say = "あ～あ、つまんない。出撃もしないで、ただデータを待ってるとかほんとつまんない",
 			typewriter = {
 				speed = 0.05,
@@ -91,12 +91,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスター",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -142,10 +142,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 900233,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
+			nameColor = "#ff5c5c",
 			say = "……やっぱりいいや",
 			typewriter = {
 				speed = 0.05,

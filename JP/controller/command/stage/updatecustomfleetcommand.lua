@@ -1,6 +1,6 @@
 slot0 = class("UpdateCustomFleetCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot5 = getProxy(BayProxy):getRawData()
 	slot7 = getProxy(ChapterProxy):getChapterById(slot1:getBody().chapterId)
 	slot8 = slot7:getConfig("formation")

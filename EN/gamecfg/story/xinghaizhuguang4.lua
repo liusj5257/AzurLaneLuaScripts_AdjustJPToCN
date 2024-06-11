@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			bgm = "theme-ucnf-image",
 			sequence = {
@@ -40,20 +40,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "NY City Simulation - Testing Area",
 			bgm = "theme-aostelab",
+			say = "NY City Simulation - Testing Area",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
 			say = "The girls' vision briefly turned white as snow. When their sight returned to them, a foreign landscape unfolded before them.",
@@ -84,9 +84,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			bgName = "bg_zhedie_2",
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(It's not reality, but it is real science-fiction...)",
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(But if this WERE the future, the Sea of Stars' technology would eclipse the outside world's by centuries, not decades...)",
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "I feel stronger... Is this rigging part of it?",
 			painting = {
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Is that a Type II rigging? Like the one TB said we were going to run performance tests on?",
@@ -279,11 +279,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Ah, let me explain.",
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Developing a Type II takes an immense amount of time and resources.",
@@ -334,11 +334,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "To be specific, the Sea of Stars' Galactic Core generates a simulated world, and we replace the participant's original rigging with a Type II and run performance tests.",
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It goes without saying that the rigging overwrite is limited to the simulation. It's all bits and bytes and not connected to your hull.",
@@ -408,11 +408,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(If they can simulate a full rigging this easily, that must mean the development on Laffey's Type II is very close to completion and ready to be pushed out soon.)",
@@ -462,11 +462,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "TB, when is the testing starting?",
 			painting = {
@@ -499,27 +499,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_zhedie_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_zhedie_2",
 			say = "Indeed, a moment after TB spoke, a fleet manifested on the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -527,8 +527,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
 			say = "Each one of the ships were unlike anything they knew in both appearance and equipment.",
@@ -557,8 +557,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -567,11 +567,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Only in looks. They're reconstructions created from the data the Commander recovered.",
@@ -604,11 +604,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's unknown what materials they use or how they were constructed. Simulating them with 100% accuracy is outright impossible.",
@@ -659,11 +659,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Interesting...",

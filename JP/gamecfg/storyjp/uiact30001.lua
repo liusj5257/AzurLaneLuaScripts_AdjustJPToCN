@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 502020,
 			side = 1,
+			actor = 502020,
 			say = "喂平海，要你准备的七枚针准备好了吗？",
 			shake = {
 				speed = 1,
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			side = 0,
+			actor = 502030,
 			say = "姐姐，我准备好啦，但是它们是用来干嘛的呀？",
 			shake = {
 				speed = 1,
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 1,
+			actor = 502020,
 			say = "哎呀你这笨丫头，连七夕乞巧穿七孔针的习俗都忘了，真是和那些外国人呆久了……",
 			shake = {
 				speed = 1,
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			actor = 213011,
 			side = 2,
+			actor = 213011,
 			say = "qi……xi……？那是……什么……？",
 			shake = {
 				speed = 1,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			side = 0,
+			actor = 502030,
 			say = "是七夕哦！",
 			shake = {
 				speed = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 1,
+			actor = 502020,
 			say = "你这丫头别一副你会念就了不起了的样子，给我再去练十遍，至少穿过三枚针，不许偷懒，免得到时候丢了我们东煌的脸",
 			shake = {
 				speed = 1,
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			side = 0,
+			actor = 502030,
 			say = "哦————",
 			shake = {
 				speed = 1,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			actor = 213011,
 			side = 2,
+			actor = 213011,
 			say = "所以……七夕……究竟是什么？",
 			shake = {
 				speed = 1,
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			actor = 213011,
 			side = 2,
+			actor = 213011,
 			say = "……牛郎织女……情人节……东煌的人们是在这个时候过情人节的吗？",
 			shake = {
 				speed = 1,

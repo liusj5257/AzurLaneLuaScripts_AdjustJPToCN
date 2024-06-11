@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "风云",
 	init_effect = "",
+	id = 14670,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14670,
+	color = "blue",
 	icon = 14670,
 	last_effect = "",
 	effect_list = {
@@ -37,8 +37,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 14670,
+				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

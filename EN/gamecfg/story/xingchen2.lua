@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Bits of Courage \n\n<size=45>II LIVE「Four Parallel Worlds」</size>",
@@ -18,23 +18,23 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			blackBg = true,
+			mode = 2,
 			say = "At The Stardust Live Concert..."
 		},
 		{
-			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_star1",
-			actorName = "Audience A",
-			withoutPainting = true,
+			mode = 2,
+			nameColor = "#a9f548",
 			bgm = "star",
 			actor = 0,
-			mode = 2,
+			actorName = "Audience A",
 			say = "Wow! Stardust is so amazing!!!",
+			withoutPainting = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -65,32 +65,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "Stardust, we love you, ahhhhh!!!",
 			side = 1,
 			bgName = "bg_story_star1",
-			mode = 2,
 			actorName = "Audience B",
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			say = "Stardust, we love you, ahhhhh!!!",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 0,
-			side = 0,
-			bgName = "bg_story_star1",
 			mode = 2,
-			actorName = "Audience C",
+			actor = 0,
 			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "Haha...haha...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,28 +83,46 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			say = "Haha...haha...",
 			side = 0,
 			bgName = "bg_story_star1",
-			say = "Thank you everyone for your support~ I can feel all your warmth~ Let’s rock’n roll!",
+			actorName = "Audience C",
+			mode = 2,
+			actor = 0,
+			nameColor = "#a9f548",
+			withoutPainting = true,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorName = "Stardust",
+			side = 0,
+			bgName = "bg_story_star1",
+			withoutPainting = true,
 			bgspeed = 2,
 			blackBg = true,
 			actor = 0,
-			actorName = "Stardust",
-			withoutPainting = true,
+			nameColor = "#a9f548",
+			say = "Thank you everyone for your support~ I can feel all your warmth~ Let’s rock’n roll!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 0,
+			say = "L - O - V - E !! Star - dust !! L - O - V - E !! Star - dust !!",
 			side = 1,
 			actorName = "Everyone",
+			blackBg = true,
+			actor = 0,
 			nameColor = "#a9f548",
 			withoutPainting = true,
-			blackBg = true,
-			say = "L - O - V - E !! Star - dust !! L - O - V - E !! Star - dust !!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,10 +150,10 @@ return {
 		{
 			actor = 0,
 			nameColor = "#a9f548",
-			side = 1,
-			withoutPainting = true,
-			blackBg = true,
 			say = "（！！！！！）",
+			side = 1,
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,16 +194,16 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			actorName = "Stardust",
 			side = 0,
+			say = "Thank you everyone~ Have Stardust’s songs been conveyed to your hearts?~ I look forward to the next time we meet!",
+			blackBg = true,
+			actor = 0,
 			nameColor = "#a9f548",
 			withoutPainting = true,
-			blackBg = true,
-			say = "Thank you everyone~ Have Stardust’s songs been conveyed to your hearts?~ I look forward to the next time we meet!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -228,13 +228,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "Woooooow!",
 			side = 1,
 			actorName = "Everyone",
+			blackBg = true,
+			actor = 0,
 			nameColor = "#a9f548",
 			withoutPainting = true,
-			blackBg = true,
-			say = "Woooooow!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,13 +245,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "Ha~~ Stardust is absolutely the best~",
 			side = 1,
 			actorName = "Audience A",
+			blackBg = true,
+			actor = 0,
 			nameColor = "#a9f548",
 			withoutPainting = true,
-			blackBg = true,
-			say = "Ha~~ Stardust is absolutely the best~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,13 +262,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "Feels like... I’ve got no regrets anymore...",
 			side = 1,
 			actorName = "Audience B",
+			blackBg = true,
+			actor = 0,
 			nameColor = "#a9f548",
 			withoutPainting = true,
-			blackBg = true,
-			say = "Feels like... I’ve got no regrets anymore...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,13 +279,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "No... I must survive until I can attend Stardust’s next concert!",
 			side = 1,
 			actorName = "Audience C",
+			blackBg = true,
+			actor = 0,
 			nameColor = "#a9f548",
 			withoutPainting = true,
-			blackBg = true,
-			say = "No... I must survive until I can attend Stardust’s next concert!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,15 +302,15 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			mode = 2,
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "So this must be... the alluring power of music... Unicorn is getting pulled in...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -339,11 +339,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			mode = 2,
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "Even Unicorn… is touched...by this concert...",
 			typewriter = {
 				speed = 0.05,
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			mode = 2,
-			nameColor = "#a9f548",
 			blackBg = true,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "Unicorn also wants to... make Onii-chan happy...",
 			typewriter = {
 				speed = 0.05,

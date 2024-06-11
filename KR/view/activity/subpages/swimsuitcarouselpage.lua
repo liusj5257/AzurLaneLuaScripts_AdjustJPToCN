@@ -1,6 +1,6 @@
 slot0 = class("SwimsuitCarouselPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0._tf:Find("AD")
 	slot0.items = slot0.bg:Find("page/items")
 	slot0.rtTask = slot0.bg:Find("page/task")
@@ -8,7 +8,7 @@ function slot0.OnInit(slot0)
 	slot0.rtAward = slot0.rtTask:Find("IconTpl")
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskList = slot0.activity:getConfig("config_data")
 	slot0.totalCnt = #slot0.taskList
@@ -17,14 +17,14 @@ end
 slot1 = 108
 slot2 = 748
 
-function slot0.RefreshData(slot0)
+slot0.RefreshData = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance()
 	slot0.unlockCnt = (slot1:DiffDay(slot0.activity:getStartTime(), slot1:GetServerTime()) + 1) * slot0.activity:getConfig("config_id")
 	slot0.unlockCnt = math.min(slot0.unlockCnt, slot0.totalCnt)
 	slot0.remainCnt = slot0.totalCnt <= slot0.usedCnt and 0 or slot0.unlockCnt - slot0.usedCnt
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0.usedCnt = slot0.activity:getData1()
 
 	slot0:RefreshData()
@@ -69,7 +69,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = 0
 	slot2 = {}
 
@@ -109,7 +109,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.SelectPage(slot0, slot1)
+slot0.SelectPage = function(slot0, slot1)
 	if slot0.index == slot1 then
 		return
 	end
@@ -151,7 +151,7 @@ function slot0.SelectPage(slot0, slot1)
 	setActive(slot0.rtTask, true)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot1 = ipairs
 	slot2 = slot0.LTList or {}
 

@@ -1,6 +1,6 @@
 slot0 = class("NewServerTaskPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewServerTaskPage"
 end
 
@@ -11,21 +11,21 @@ slot0.TXT_DESC = 1
 slot0.TXT_CURRENT_NUM = 2
 slot0.TXT_TARGET_NUM = 3
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:addListener()
 	slot0:onUpdateTask()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.activity = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_NEWSERVER_TASK)
 	slot0.taskGroupList = slot0.activity:getConfig("config_data")
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.page = uv0.TYPE_ALL
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.getAllBtn = slot0:findTF("get_all")
 	slot0.extendTpl = slot0:findTF("extend_tpl")
 	slot0.typeToggles = {
@@ -37,8 +37,8 @@ function slot0.initUI(slot0)
 	slot0.taskGroupItemList = UIItemList.New(slot0.content, slot0:findTF("tpl", slot0.content))
 end
 
-function slot0.addListener(slot0)
-	function slot4()
+slot0.addListener = function(slot0)
+	slot4 = function()
 		uv0:emit(NewServerCarnivalMediator.TASK_SUBMIT_ONESTEP, uv0.finishVOList)
 	end
 
@@ -75,7 +75,7 @@ function slot0.addListener(slot0)
 	end
 end
 
-function slot0.updateTaskGroup(slot0, slot1, slot2)
+slot0.updateTaskGroup = function(slot0, slot1, slot2)
 	slot4 = slot1:Find("info")
 	slot5 = {}
 
@@ -118,7 +118,7 @@ function slot0.updateTaskGroup(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.updateTaskDisplay(slot0, slot1, slot2)
+slot0.updateTaskDisplay = function(slot0, slot1, slot2)
 	setSlider(slot1:Find("Slider"), 0, slot2:getConfig("target_num"), slot2:getProgress())
 
 	slot5 = slot2:getConfig("award_display")[1]
@@ -144,7 +144,7 @@ function slot0.updateTaskDisplay(slot0, slot1, slot2)
 	end, SFX_CONFIRM)
 end
 
-function slot0.getColor(slot0, slot1, slot2)
+slot0.getColor = function(slot0, slot1, slot2)
 	if slot1 == uv0.TXT_DESC then
 		return slot2 == 1 and "#63573c" or "#a1976e"
 	elseif slot1 == uv0.TXT_CURRENT_NUM then
@@ -154,7 +154,7 @@ function slot0.getColor(slot0, slot1, slot2)
 	end
 end
 
-function slot0.filterAll(slot0)
+slot0.filterAll = function(slot0)
 	slot0.taskVOGroup = underscore.map(slot0.taskGroupList, function (slot0)
 		return underscore.map(slot0, function (slot0)
 			assert(uv0.taskProxy:getTaskVO(slot0), "without this task:" .. slot0)
@@ -165,7 +165,7 @@ function slot0.filterAll(slot0)
 	slot0.showVOGroup = slot0.taskVOGroup
 end
 
-function slot0.filterDaily(slot0)
+slot0.filterDaily = function(slot0)
 	slot0.taskVOGroup = underscore.map(slot0.taskGroupList, function (slot0)
 		return underscore.map(slot0, function (slot0)
 			assert(uv0.taskProxy:getTaskVO(slot0), "without this task:" .. slot0)
@@ -182,7 +182,7 @@ function slot0.filterDaily(slot0)
 	end
 end
 
-function slot0.filterTarget(slot0)
+slot0.filterTarget = function(slot0)
 	slot0.taskVOGroup = underscore.map(slot0.taskGroupList, function (slot0)
 		return underscore.map(slot0, function (slot0)
 			assert(uv0.taskProxy:getTaskVO(slot0), "without this task:" .. slot0)
@@ -199,7 +199,7 @@ function slot0.filterTarget(slot0)
 	end
 end
 
-function slot0.updataTaskList(slot0)
+slot0.updataTaskList = function(slot0)
 	table.sort(slot0.showVOGroup, CompareFuncs({
 		function (slot0)
 			for slot4, slot5 in ipairs(slot0) do
@@ -222,12 +222,12 @@ function slot0.updataTaskList(slot0)
 	slot0.taskGroupItemList:align(#slot0.showVOGroup)
 end
 
-function slot0.onUpdateTask(slot0)
+slot0.onUpdateTask = function(slot0)
 	triggerToggle(slot0.typeToggles[slot0.page], true)
 	slot0:updataGetAllBtn()
 end
 
-function slot0.updataGetAllBtn(slot0)
+slot0.updataGetAllBtn = function(slot0)
 	slot0.finishVOList = {}
 
 	for slot4, slot5 in ipairs(slot0.taskVOGroup) do
@@ -241,7 +241,7 @@ function slot0.updataGetAllBtn(slot0)
 	setActive(slot0.getAllBtn, #slot0.finishVOList > 0)
 end
 
-function slot0.isTip(slot0)
+slot0.isTip = function(slot0)
 	if slot0.finishVOList then
 		return #slot0.finishVOList > 0
 	else
@@ -263,7 +263,7 @@ function slot0.isTip(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIPEIER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIPEIER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Paradigm of Happiness\n\n<size=45>Chapter 4 - Seaside Ride</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Not long ago...",
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Not long ago...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "Because of some emergency orders, I had to head somewhere else for work. And on the way back, I accompanied her on a detour.",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "Whew... It feels really nice to drive around like this every once in a while. I'm getting a bit tired though, so let's take a break. I'll pull over right ahead over there, okay?",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 40,
@@ -83,11 +83,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "Mm... The scenery's not bad over here~ You can see the endless sea stretching all the way across the horizon. It's so different from when we're on those very waters, fighting... But from here, you can really appreciate how beautiful it is.",
 			typewriter = {
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "It really was worth coming down along the coastline!",
 			typewriter = {
@@ -117,9 +117,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "I'm not sure if the strong winds along the way had gotten to her, but Hipper seemed more excitable than usual.",
 			typewriter = {
 				speed = 0.05,
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "Being the secretary is hard work, you know? My shoulders are all stiff from mindlessly pushing papers all day.",
 			typewriter = {
@@ -144,15 +144,15 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -30,
+					type = "move",
 					delay = 0,
 					dur = 0.2,
 					x = 0
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0
@@ -160,11 +160,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "After we get back to port, let's rest up and reset. By the way, not too long ago, a few friends from the Vichya Dominion asked me to teach them to play an instrument.",
 			typewriter = {
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "...What, you want to hear me play too? Sure, I suppose there's no harm in that...",
 			typewriter = {
@@ -194,9 +194,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "For whatever reason, Hipper felt a lot kinder than usual.",
 			typewriter = {
 				speed = 0.05,
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "I have to say though, you really impressed me today. Though you normally act like you're completely useless without your secretary...",
 			typewriter = {
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "If you were half as diligent as you were today, my life would be so much easier. But, it's whatever... Just for today, you've earned your praise. Good work, Commander~",
 			typewriter = {
@@ -242,11 +242,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "...Hey, are you even listening?",
 			typewriter = {
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "Eh... Y-you idiot! What a stupid thing to say all of a sudden! Geez!",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.1,
 					x = 0,
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 403010,
 			actorName = "Admiral Hipper",
 			say = "And I'm not acting bashful at all! It's all because you went and said that weird thing earlier!",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -319,9 +319,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "Admiral Hipper’s face was several shades redder than I had ever seen it. Quite impressive, really...",
 			typewriter = {
 				speed = 0.05,

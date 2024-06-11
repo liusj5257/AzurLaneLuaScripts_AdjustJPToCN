@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 15,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "标记-MetaHiryuEnhance",
 	stack = 1,

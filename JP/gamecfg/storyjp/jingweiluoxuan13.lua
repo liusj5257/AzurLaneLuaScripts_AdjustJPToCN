@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN13",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "ニュージャージー艦隊",
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-battle",
+			hidePaintObj = true,
+			say = "ニュージャージー艦隊",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,12 +33,12 @@ return {
 			}
 		},
 		{
-			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "さっきから追跡しているけど、セイレーンの「駒」はまだ現れていないわね",
 			typewriter = {
 				speed = 0.05,
@@ -53,10 +53,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "艦載機のほうの追跡がまだうまく進んで――",
 			effects = {
 				{
@@ -74,12 +74,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "タイコ、どうした？",
 			effects = {
 				{
@@ -97,12 +97,12 @@ return {
 			}
 		},
 		{
-			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ちょっとこれは……重桜機を迎撃してくる艦載機がいるわ！",
 			typewriter = {
 				speed = 0.05,
@@ -117,10 +117,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "しかも重桜ではなくユニオンの艦載機？どういうこと？",
 			typewriter = {
 				speed = 0.05,
@@ -135,10 +135,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ユニオンの艦載機？この海域に仲間が展開されているの？",
 			typewriter = {
 				speed = 0.05,
@@ -150,12 +150,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ううん、この辺りにいる空母はタイコンデロガだけのはず、それに――",
 			typewriter = {
 				speed = 0.05,
@@ -205,12 +205,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "「本物」の味方からの艦載機じゃないとすれば…",
 			typewriter = {
 				speed = 0.05,
@@ -222,12 +222,12 @@ return {
 			}
 		},
 		{
-			actor = 107140,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "おそらくは重桜の「駒」の相手をしているユニオンも「駒」じゃないかしら…",
 			typewriter = {
 				speed = 0.05,
@@ -242,10 +242,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "この艦載機たち、そのまま重桜機が飛んでいった方向に向かっているわ",
 			typewriter = {
 				speed = 0.05,
@@ -260,10 +260,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "重桜の艦載機はまだ残っている？",
 			dialogShake = {
 				speed = 0.09,
@@ -283,10 +283,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ううん、今のでこちらが追跡していたのが全機落とされちゃったわ",
 			typewriter = {
 				speed = 0.05,
@@ -301,10 +301,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "じゃあ作戦変更よ。重桜機ではなくユニオン機の方を追跡して…あっ、高度には気をつけて",
 			typewriter = {
 				speed = 0.05,

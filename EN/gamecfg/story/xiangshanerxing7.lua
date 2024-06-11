@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_red_n",
+			bgm = "bsm-4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Pacific Ocean - Iron Blood Floating Fortress",
-			bgm = "bsm-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -143,10 +143,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I've come across some odd intel about it.",
 			painting = {
 				alpha = 0.3,
@@ -161,10 +161,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The Eagle Union and the Northern Parliament have been talking about Naval HQ doing something there. The Tribunal's intel network picked up on it.",
 			painting = {
 				alpha = 0.3,
@@ -210,10 +210,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I asked some people stationed nearby to investigate, and not long after, an unusual thawing phenomenon was observed in an Antarctic mountain range.",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It seems they've discovered \"extraordinary crystals.\"",
 			painting = {
 				alpha = 0.3,
@@ -246,10 +246,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "When they analyzed the sample they collected, they found out that these crystals seem to resonate with riggings.",
 			painting = {
 				alpha = 0.3,
@@ -264,10 +264,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "They say it's capable of drastically improving a rigging's power output and combat performance.",
 			painting = {
 				alpha = 0.3,
@@ -403,10 +403,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Precisely. I want you to form a fleet and head to our Antarctic research base at once.",
 			painting = {
 				alpha = 0.3,
@@ -421,10 +421,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You'll have to improvise according to the situation.",
 			painting = {
 				alpha = 0.3,

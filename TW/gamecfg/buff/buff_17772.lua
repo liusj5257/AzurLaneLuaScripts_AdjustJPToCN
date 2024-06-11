@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 500
+					number = 500,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 500
+					number = 500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -40,9 +40,9 @@ return {
 					"onFoeDying"
 				},
 				arg_list = {
+					skill_id = 17771,
 					killer = "self",
-					target = "TargetSelf",
-					skill_id = 17771
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -56,8 +56,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 590
+					number = 590,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -67,8 +67,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 590
+					number = 590,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -78,8 +78,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 590
+					number = 590,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -88,9 +88,9 @@ return {
 					"onFoeDying"
 				},
 				arg_list = {
+					skill_id = 17771,
 					killer = "self",
-					target = "TargetSelf",
-					skill_id = 17771
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -104,8 +104,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 680
+					number = 680,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -115,8 +115,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 680
+					number = 680,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -126,8 +126,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 680
+					number = 680,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -136,9 +136,9 @@ return {
 					"onFoeDying"
 				},
 				arg_list = {
+					skill_id = 17771,
 					killer = "self",
-					target = "TargetSelf",
-					skill_id = 17771
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -152,8 +152,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 800
+					number = 800,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -163,8 +163,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 800
+					number = 800,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -174,8 +174,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 800
+					number = 800,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -184,9 +184,9 @@ return {
 					"onFoeDying"
 				},
 				arg_list = {
+					skill_id = 17771,
 					killer = "self",
-					target = "TargetSelf",
-					skill_id = 17771
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -200,8 +200,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 890
+					number = 890,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -211,8 +211,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 890
+					number = 890,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -222,8 +222,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 890
+					number = 890,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -232,9 +232,9 @@ return {
 					"onFoeDying"
 				},
 				arg_list = {
+					skill_id = 17771,
 					killer = "self",
-					target = "TargetSelf",
-					skill_id = 17771
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -248,8 +248,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 980
+					number = 980,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -259,8 +259,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 980
+					number = 980,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -270,8 +270,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 980
+					number = 980,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -280,9 +280,9 @@ return {
 					"onFoeDying"
 				},
 				arg_list = {
+					skill_id = 17771,
 					killer = "self",
-					target = "TargetSelf",
-					skill_id = 17771
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -296,8 +296,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1100
+					number = 1100,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -307,8 +307,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1100
+					number = 1100,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -318,8 +318,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1100
+					number = 1100,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -328,9 +328,9 @@ return {
 					"onFoeDying"
 				},
 				arg_list = {
+					skill_id = 17771,
 					killer = "self",
-					target = "TargetSelf",
-					skill_id = 17771
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -344,8 +344,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1220
+					number = 1220,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -355,8 +355,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1220
+					number = 1220,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -366,8 +366,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1220
+					number = 1220,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -376,9 +376,9 @@ return {
 					"onFoeDying"
 				},
 				arg_list = {
+					skill_id = 17771,
 					killer = "self",
-					target = "TargetSelf",
-					skill_id = 17771
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -392,8 +392,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1340
+					number = 1340,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -403,8 +403,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1340
+					number = 1340,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -414,8 +414,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1340
+					number = 1340,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -424,9 +424,9 @@ return {
 					"onFoeDying"
 				},
 				arg_list = {
+					skill_id = 17771,
 					killer = "self",
-					target = "TargetSelf",
-					skill_id = 17771
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -440,8 +440,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1500
+					number = 1500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -451,8 +451,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "torpedoPower",
-					number = 1500
+					number = 1500,
+					attr = "torpedoPower"
 				}
 			},
 			{
@@ -462,8 +462,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1500
+					number = 1500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -472,16 +472,16 @@ return {
 					"onFoeDying"
 				},
 				arg_list = {
+					skill_id = 17771,
 					killer = "self",
-					target = "TargetSelf",
-					skill_id = 17771
+					target = "TargetSelf"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 10,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -496,8 +496,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 500
+				number = 500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -507,8 +507,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 500
+				number = 500,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -518,8 +518,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 500
+				number = 500,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -528,9 +528,9 @@ return {
 				"onFoeDying"
 			},
 			arg_list = {
+				skill_id = 17771,
 				killer = "self",
-				target = "TargetSelf",
-				skill_id = 17771
+				target = "TargetSelf"
 			}
 		}
 	}

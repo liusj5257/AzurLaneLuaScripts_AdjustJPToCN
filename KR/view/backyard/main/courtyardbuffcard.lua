@@ -1,13 +1,13 @@
 slot0 = class("CourtYardBuffCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.timeTxt = slot0._tf:Find("Text"):GetComponent(typeof(Text))
 	slot0.icon = slot0._tf:GetComponent(typeof(Image))
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0.buff = slot1
 	slot0.icon.sprite = LoadSprite(slot1:getConfig("icon") .. "_backyard") or LoadSprite(slot1:getConfig("icon"))
 
@@ -20,7 +20,7 @@ function slot0.Flush(slot0, slot1)
 	end
 end
 
-function slot0.StartTimer(slot0, slot1)
+slot0.StartTimer = function(slot0, slot1)
 	setActive(slot0._tf, true)
 
 	slot0.timer = Timer.New(function ()
@@ -36,7 +36,7 @@ function slot0.StartTimer(slot0, slot1)
 	slot0.timer.func()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	slot0.using = false
 
 	setActive(slot0._tf, false)
@@ -48,11 +48,11 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.IsUsing(slot0)
+slot0.IsUsing = function(slot0)
 	return slot0.using
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:RemoveTimer()
 end
 

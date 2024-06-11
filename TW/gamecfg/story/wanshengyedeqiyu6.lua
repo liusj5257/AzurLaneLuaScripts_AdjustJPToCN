@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGYEDEQIYU6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WANSHENGYEDEQIYU6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"萬聖夜的「奇遇」\n\n<size=45>六　風暴來臨之夜</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "battle-highseasfleet-reborn",
 			bgName = "star_level_bg_162",
 			say = "美食街上——",
-			bgm = "battle-highseasfleet-reborn",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "美食街是每個大型活動中必備的一環，本日的萬聖節晚會也不例外。",
 			typewriter = {
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "在美食街上，每個陣營都組織了一些攤位。不過受制於時間和場地，大多都只是簡易的小吃車。",
 			typewriter = {
@@ -151,14 +151,14 @@ return {
 			}
 		},
 		{
-			actor = 102091,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 102091,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "沒問題，這位女士請收好~還有這一份是額外贈送給指揮官的，也請你慢用~",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,14 +169,14 @@ return {
 			}
 		},
 		{
-			actor = 102091,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不過指揮官，這位陌生的女士究竟是……",
 			hidePaintEquip = true,
+			actor = 102091,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不過指揮官，這位陌生的女士究竟是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "……給克里夫蘭傳過去一個“這裡情況有些複雜”的眼神。",
 			typewriter = {
@@ -197,14 +197,14 @@ return {
 			}
 		},
 		{
-			actor = 102091,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "原來如此，原來如此……那我就不打擾了，兩位請盡情享受萬聖夜哦~",
 			hidePaintEquip = true,
+			actor = 102091,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "原來如此，原來如此……那我就不打擾了，兩位請盡情享受萬聖夜哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "皇家幸運突然從腰間拿出幾枚金幣，瀟灑地拍在了桌子上。",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "用手掂量了一下，沉甸甸的……好像是真正的黃金……？",
 			typewriter = {
@@ -254,14 +254,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "當然啦，雖然說我是海盜，不過誠信有時候也是很重要的哦！",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "當然啦，雖然說我是海盜，不過誠信有時候也是很重要的哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,8 +275,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "到此為止了——————",
 			painting = {
@@ -297,9 +297,9 @@ return {
 		{
 			actor = 105021,
 			side = 2,
-			bgName = "star_level_bg_162",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_162",
 			say = "海盜！快放開指揮官！",
 			painting = {
 				alpha = 0.3,
@@ -339,8 +339,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "啊這個……呃，我這身只是萬聖節的角色服裝而已。不對，重點不是這個，快放開指揮官！",
 			painting = {
@@ -353,14 +353,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "為什麼啊？我看上的東西就是我的，這可是我作為大海盜的行事準則！",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "為什麼啊？我看上的東西就是我的，這可是我作為大海盜的行事準則！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,8 +393,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "這個問題應該是我問妳才對，妳是誰，基於什麼目的混入港區接近指揮官的？ ！",
 			painting = {
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "不好，好像皇家幸運被奧克拉荷馬誤會成了危險的闖入者了——",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "其實——————",
@@ -441,9 +441,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "原來如此……不是危險的闖入者，只是……身份不明的闖入者？",
 			painting = {
@@ -455,17 +455,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -476,9 +476,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "雖然不是很明白二者之間的區別有多大……不過既然指揮官認定沒問題的話，那我也沒問題。",
 			painting = {
@@ -494,9 +494,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "不好意思，皇家幸運小姐，剛才是我衝動了。",
 			painting = {
@@ -531,9 +531,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "多謝誇獎……作為賠禮……來嚐嚐我做的南瓜派如何？是我最近在學著烤的，很甜的喲。",
 			painting = {
@@ -566,8 +566,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -576,8 +576,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "與兩位海盜小姐一同坐在明月之下的港區長椅上，分享著萬聖節南瓜派。",
@@ -610,9 +610,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "如何，我的手藝還不賴吧？",
 			painting = {
@@ -648,9 +648,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "啊哈哈，那可不行，我一輩子都跟定指揮官了。",
 			painting = {
@@ -705,13 +705,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
-			soundeffect = "event:/battle/boom2",
 			dir = 1,
 			optionFlag = 2,
 			hidePaintEquip = true,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			soundeffect = "event:/battle/boom2",
 			say = "嗚……好、好恐怖的戰鬥力！不行，我需要緊急撤離了！",
 			painting = {
 				alpha = 0.3,
@@ -762,12 +762,12 @@ return {
 			}
 		},
 		{
-			actor = 105021,
 			side = 2,
 			bgName = "star_level_bg_162",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
+			actor = 105021,
+			nameColor = "#A9F548FF",
 			say = "……啊？我還沒開炮啊？",
 			painting = {
 				alpha = 0.3,
@@ -808,9 +808,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actor = 105021,
 			dir = 1,
 			optionFlag = 2,
+			actor = 105021,
 			nameColor = "#A9F548FF",
 			say = "等等、給我等等！快把指揮官放下來！",
 			painting = {
@@ -829,8 +829,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
 			say = "一陣狂奔後，與皇家幸運來到了會場邊緣的某個僻靜角落。",
@@ -839,17 +839,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -877,8 +877,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -887,8 +887,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
 			say = "……妳這人，得立刻跟奧克拉荷馬解釋清楚才行，不然馬上就有一整支艦隊來抓捕妳了！",
@@ -937,8 +937,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 2,
 			say = "妳不尋寶了嗎？",
@@ -968,8 +968,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "……這麼著急嗎？",
 			typewriter = {
@@ -978,14 +978,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "嗯，有些規定必須被遵守，這件事上我也沒什麼辦法。",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "嗯，有些規定必須被遵守，這件事上我也沒什麼辦法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,8 +996,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "真是短暫的相遇啊，我們以後還有見面的機會嗎？",
 			typewriter = {
@@ -1006,14 +1006,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "誰知道呢？不過既然大家都馳騁在大海之上，彼此相遇只是時間和機率的問題吧？",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "誰知道呢？不過既然大家都馳騁在大海之上，彼此相遇只是時間和機率的問題吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1043,14 +1043,14 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我作為使者，乘風而來又隨風而去。帶走想要帶走的，留下想要留下的。",
 			hidePaintEquip = true,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "我作為使者，乘風而來又隨風而去。帶走想要帶走的，留下想要留下的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1080,8 +1080,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "嗯……如果真有這一天的話，那可要大幅度加強一下海防力量了啊。",
 			typewriter = {
@@ -1109,8 +1109,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1138,8 +1138,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "既然如此，隨時恭候。",
 			typewriter = {
@@ -1178,8 +1178,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "自稱皇家幸運的少女輕巧地踏上海面，消失在夜色與霧氣之中。",
 			typewriter = {
@@ -1203,8 +1203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "來去無蹤，真是符合海盜身份的退場方式。",
 			typewriter = {
@@ -1213,8 +1213,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "真沒想到在萬聖節會發生這樣不可思議的事，希望再次見面時她能解釋清楚就好了。",
 			typewriter = {
@@ -1223,8 +1223,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "在那之前，就把今晚的奇遇當成一段寶貴的回憶封存吧——",
 			typewriter = {

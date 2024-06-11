@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,
@@ -110,9 +110,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 13400006,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -127,45 +127,45 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 14,
 									switchTo = 1,
 									index = 0,
-									switchParam = 14,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {},
 									removeWeapon = {}
 								},
 								{
-									index = 1,
 									switchType = 1,
 									switchTo = 2,
+									index = 1,
 									switchParam = 2.5,
 									addBuff = {
 										200897
 									}
 								},
 								{
-									index = 2,
 									switchType = 1,
 									switchTo = 3,
+									index = 2,
 									switchParam = 14,
 									addBuff = {
 										200900
 									}
 								},
 								{
-									index = 3,
 									switchType = 1,
 									switchTo = 4,
+									index = 3,
 									switchParam = 2.5,
 									addBuff = {
 										200897
 									}
 								},
 								{
-									index = 4,
 									switchType = 1,
 									switchTo = 5,
+									index = 4,
 									switchParam = 11,
 									addBuff = {
 										200900
@@ -186,9 +186,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 13400006,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -211,14 +211,14 @@ return {
 					triggerParams = {
 						vanguard_unitList = {
 							{
-								exp = 10,
-								configId = 900425,
-								tmpID = 900425,
-								skinId = 900425,
 								oil_at_end = 55,
+								configId = 900425,
+								energy = 10,
+								skinId = 900425,
+								exp = 10,
+								tmpID = 900425,
 								id = 1,
 								level = 999,
-								energy = 10,
 								equipment = {
 									630071,
 									630073,
@@ -226,15 +226,15 @@ return {
 								},
 								properties = {
 									cannon = 99999,
-									air = 0,
-									antiaircraft = 500,
+									reload = 300,
+									luck = 99,
 									torpedo = 99999,
 									durability = 88888888,
-									reload = 300,
-									armor = 0,
+									air = 0,
 									dodge = 0,
+									antiaircraft = 500,
 									speed = 35,
-									luck = 99,
+									armor = 0,
 									hit = 9999
 								},
 								skills = {
@@ -260,14 +260,14 @@ return {
 					triggerParams = {
 						vanguard_unitList = {
 							{
-								exp = 10,
-								configId = 900424,
-								tmpID = 900424,
-								skinId = 900424,
 								oil_at_end = 55,
+								configId = 900424,
+								energy = 10,
+								skinId = 900424,
+								exp = 10,
+								tmpID = 900424,
 								id = 1,
 								level = 999,
-								energy = 10,
 								equipment = {
 									630071,
 									630073,
@@ -275,15 +275,15 @@ return {
 								},
 								properties = {
 									cannon = 99999,
-									air = 0,
-									antiaircraft = 500,
+									reload = 300,
+									luck = 99,
 									torpedo = 99999,
 									durability = 88888888,
-									reload = 300,
-									armor = 0,
+									air = 0,
 									dodge = 0,
+									antiaircraft = 500,
 									speed = 35,
-									luck = 99,
+									armor = 0,
 									hit = 9999
 								},
 								skills = {
@@ -294,14 +294,14 @@ return {
 								}
 							},
 							{
-								exp = 10,
-								configId = 900425,
-								tmpID = 900425,
-								skinId = 900425,
 								oil_at_end = 55,
+								configId = 900425,
+								energy = 10,
+								skinId = 900425,
+								exp = 10,
+								tmpID = 900425,
 								id = 2,
 								level = 999,
-								energy = 10,
 								equipment = {
 									630071,
 									630073,
@@ -309,15 +309,15 @@ return {
 								},
 								properties = {
 									cannon = 99999,
-									air = 0,
-									antiaircraft = 500,
+									reload = 300,
+									luck = 99,
 									torpedo = 99999,
 									durability = 88888888,
-									reload = 300,
-									armor = 0,
+									air = 0,
 									dodge = 0,
+									antiaircraft = 500,
 									speed = 35,
-									luck = 99,
+									armor = 0,
 									hit = 9999
 								},
 								skills = {
@@ -328,14 +328,14 @@ return {
 								}
 							},
 							{
-								exp = 10,
-								configId = 900426,
-								tmpID = 900426,
-								skinId = 900426,
 								oil_at_end = 55,
+								configId = 900426,
+								energy = 10,
+								skinId = 900426,
+								exp = 10,
+								tmpID = 900426,
 								id = 3,
 								level = 999,
-								energy = 10,
 								equipment = {
 									630071,
 									630073,
@@ -343,15 +343,15 @@ return {
 								},
 								properties = {
 									cannon = 99999,
-									air = 0,
-									antiaircraft = 500,
+									reload = 300,
+									luck = 99,
 									torpedo = 99999,
 									durability = 88888888,
-									reload = 300,
-									armor = 0,
+									air = 0,
 									dodge = 0,
+									antiaircraft = 500,
 									speed = 35,
-									luck = 99,
+									armor = 0,
 									hit = 9999
 								},
 								skills = {
@@ -400,14 +400,14 @@ return {
 	fleet_prefab = {
 		vanguard_unitList = {
 			{
-				exp = 10,
-				configId = 900424,
-				tmpID = 900424,
-				skinId = 900424,
 				oil_at_end = 55,
+				configId = 900424,
+				energy = 10,
+				skinId = 900424,
+				exp = 10,
+				tmpID = 900424,
 				id = 1,
 				level = 999,
-				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -415,15 +415,15 @@ return {
 				},
 				properties = {
 					cannon = 99999,
-					air = 0,
-					antiaircraft = 500,
+					reload = 300,
+					luck = 99,
 					torpedo = 99999,
 					durability = 88888888,
-					reload = 300,
-					armor = 0,
+					air = 0,
 					dodge = 0,
+					antiaircraft = 500,
 					speed = 35,
-					luck = 99,
+					armor = 0,
 					hit = 9999
 				},
 				skills = {

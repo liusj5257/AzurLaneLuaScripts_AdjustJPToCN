@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"丹佛的港區委託！\n\n<size=45>三 騎士也需要建議</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "按照委託書上的內容來到倉庫後，奧斯本和斯彭斯已經在那裡等著我們了。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "按照委託書上的內容來到倉庫後，奧斯本和斯彭斯已經在那裡等著我們了。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 101110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101110,
+			nameColor = "#a9f548",
 			say = "指揮官！還有丹佛！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,9 +156,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "用奧斯本給的鑰匙打開門後，發現這裡是用於儲藏零件和物資倉庫。",
 			typewriter = {
 				speed = 0.05,
@@ -170,9 +170,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "在幾個袋子下發現蟲蛀的痕跡……雖然情況還不嚴重，但還是立即處理比較好。",
 			typewriter = {
 				speed = 0.05,
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "話音未落，丹佛從倉庫裡拿起了一個機槍零件，擺出警戒的姿態。",
 			typewriter = {
 				speed = 0.05,
@@ -246,9 +246,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "伴隨著響亮的一聲，丹佛以極快的速度消滅了其中一隻發著黑色光的害蟲。",
 			typewriter = {
 				speed = 0.05,
@@ -292,9 +292,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "這樣下去不是辦法。如果是對付害蟲的話……",
 			typewriter = {
 				speed = 0.05,
@@ -306,13 +306,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "走出倉庫後，尋找著能夠提供幫助的“花壇”。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -359,9 +359,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "來到花壇旁，指了一叢盛開的鮮花給丹彿看。",
 			typewriter = {
 				speed = 0.05,
@@ -373,11 +373,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "這是……具有殺蟲效果的植物？",
 			typewriter = {
 				speed = 0.05,
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,9 +399,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "機會難得，要不要用這個做成天然殺蟲劑試一下？",
 			typewriter = {
 				speed = 0.05,
@@ -445,9 +445,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "眼睛閃閃發光的丹佛迅速採摘著花朵，為製作簡單的天然殺蟲劑做準備。",
 			typewriter = {
 				speed = 0.05,

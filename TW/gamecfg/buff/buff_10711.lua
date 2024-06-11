@@ -179,9 +179,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "巨兽猎手",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "命中判定减速",
 	stack = 1,

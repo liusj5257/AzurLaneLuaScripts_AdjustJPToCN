@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_136 = {}
 slot1 = slot0.word_template_136
 
-function temp()
+temp = function()
 	uv0["妖"] = {
 		["媚"] = {
 			["熟"] = {
@@ -24,7 +24,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["入"] = {
 		["穴"] = {
 			["一"] = {
@@ -41,7 +41,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["丰"] = {
 		["唇"] = {
 			["艳"] = {
@@ -55,7 +55,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["清"] = {
 		["晰"] = {
 			["内"] = {

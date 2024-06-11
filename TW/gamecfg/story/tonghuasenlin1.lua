@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TONGHUASENLIN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TONGHUASENLIN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -39,17 +39,17 @@ return {
 			}
 		},
 		{
-			actor = 312010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "指揮官，早上好喵！",
 			bgm = "bar-soft",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "指揮官，早上好喵！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -74,9 +74,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "——在休息日的指揮室裡遇到了明石。",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "有種不好的預感——",
 			typewriter = {
 				speed = 0.05,
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "呼呼呼，是不是已經心動了喵？",
 			typewriter = {
 				speed = 0.05,
@@ -214,12 +214,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "喵呼呼，我就知道指揮官會有興趣的！",
 			typewriter = {
 				speed = 0.05,
@@ -231,12 +231,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "指揮官太見外了喵！俗話說得好，擇日不如撞日！同伴們已經各就各位了，請務必今日就去體驗一下喵~",
 			typewriter = {
 				speed = 0.05,
@@ -280,13 +280,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_158",
+			side = 2,
+			dir = 1,
 			say = "來到明石指定的位置，果然女僕隊的企業已經等在這裡了。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -330,8 +330,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_158",
-			actor = 202320,
 			dir = 1,
+			actor = 202320,
 			nameColor = "#a9f548",
 			say = "概括來說，就是一個人類誤闖與世隔絕的森林，經歷了一番奇妙冒險的故事。",
 			typewriter = {
@@ -360,9 +360,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
+			dir = 1,
 			say = "企業所說的“入口”處並沒有明顯的門，而是一條蜿蜒的小道一直延伸至樹林深處。",
 			typewriter = {
 				speed = 0.05,
@@ -390,9 +390,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
+			dir = 1,
 			say = "這次沒有通訊器嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -407,8 +407,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_158",
-			actor = 202320,
 			dir = 1,
+			actor = 202320,
 			nameColor = "#a9f548",
 			say = "嗯，這次會有NPC與您一起合作過關，遇到困難的時候她們會幫助您。",
 			typewriter = {

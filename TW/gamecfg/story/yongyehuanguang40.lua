@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG40",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG40",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 2,
-			side = 2,
-			say = "北方聯合·北地群島 戰役結束後",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
 			bgm = "bsm-2",
+			say = "北方聯合·北地群島 戰役結束後",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -65,10 +65,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 705050,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#ffff4d",
 			say = "塞壬的行動和鐵血的步調太一致了，我不相信只是單純的巧合而已。",
 			typewriter = {
 				speed = 0.05,
@@ -98,10 +98,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 705050,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#ffff4d",
 			say = "運達的物資已經全部裝卸完畢，現在正以最快的速度分配到各個戰場。對於受傷運輸船的維修也開始了。",
 			typewriter = {
 				speed = 0.05,
@@ -131,10 +131,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 705050,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 705050,
+			nameColor = "#ffff4d",
 			say = "可是路上還是受到了將近十分之一的損失，這算是設計鐵血所付出的必要代價嗎...真是可惡。",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"애정 공세!\n\n<size=45>2. 젖지 않는 사랑</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "궂은 비 내리는 어느 휴일——",
+			side = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "궂은 비 내리는 어느 휴일——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "…… 여긴 지휘실로 가기 위해선 무조건 지나가야 하는 길이다. 분명히 블뤼허는 진작부터 여기서 기다렸을 것이다.",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "며칠 전 \"억지로\" 수락했던 데이트 약속을 지키게 하려는 의도일 것이다.",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "블뤼허와 함께 빗속의 모항을 걷고 있다.",
 			typewriter = {
@@ -280,17 +280,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "메탈 블러드의 숙소 구역을 지날 때, 한 익숙한 그림자가 눈 앞에 나타났다——",
 			typewriter = {
@@ -308,14 +308,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "오이겐~ 좋은 아침! 너도 빗속 산책 중이야?",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "오이겐~ 좋은 아침! 너도 빗속 산책 중이야?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,14 +326,14 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "오, 지휘관이잖아. 그리고 우리 \"금쪽 같은\" 블뤼허네?",
 			hidePaintEquip = true,
+			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "오, 지휘관이잖아. 그리고 우리 \"금쪽 같은\" 블뤼허네?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,8 +359,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -434,9 +434,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_main_day",
 			dir = 1,
 			optionFlag = 1,
+			bgName = "bg_main_day",
 			hidePaintEquip = true,
 			actor = 403020,
 			nameColor = "#A9F548FF",
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FANJI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FANJI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"笑顔なあの子の胸のウチ\n\n<size=45>二 姉と妹と指揮官と</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "レパルスが秘書艦として働き始めた翌日のこと――",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "レパルスが秘書艦として働き始めた翌日のこと――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そう言いながらレナウンは机の上に整頓されていく書類の山をじーっと見つめた。",
 			typewriter = {
 				speed = 0.05,
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "うなだれるレパルスをよそに、レナウンは机の前に座って書類に向き合った。",
 			typewriter = {
 				speed = 0.05,
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "姉さんが？助かるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -232,15 +232,15 @@ return {
 			}
 		},
 		{
-			actor = 204010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204010,
+			nameColor = "#a9f548",
 			say = "指揮官様、こちらのロイヤル艦に支給される武器のことなのですが――",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "レナウンに細かい箇所をチェックしてもらいながら、効率よく山となった決裁書類を片付けていく。",
 			typewriter = {
 				speed = 0.05,
@@ -311,9 +311,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ふと顔をあげると、レパルスが掃除の手を止めてこちらの様子をぼーっと見ていることに気が付いた。",
 			typewriter = {
 				speed = 0.05,
@@ -325,9 +325,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そしてこちらから見られていることに気づくと、彼女ははっとして手にしたモップを動かし始めた。",
 			typewriter = {
 				speed = 0.05,
@@ -339,11 +339,11 @@ return {
 			}
 		},
 		{
-			actor = 204020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204020,
+			nameColor = "#a9f548",
 			say = "あはは、二人のコンビネーションがすっごくピッタリだったからさー。ついつい見とれちゃってたよ",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -429,9 +429,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "きょとんとするレナウンの質問を遮ろうと、レパルスは手にしたモップで再び掃き始めた。",
 			typewriter = {
 				speed = 0.05,
@@ -475,9 +475,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ニコニコと微笑みながらレパルスは執務室内の掃除に集中した。",
 			typewriter = {
 				speed = 0.05,
@@ -489,9 +489,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "どんな時でも屈託のない笑顔を向ける彼女はとても可愛らしい。しかしその反面、本心も少し見えにくい。",
 			typewriter = {
 				speed = 0.05,

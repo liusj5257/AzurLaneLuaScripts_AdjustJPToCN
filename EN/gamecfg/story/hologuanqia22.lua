@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA22",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA22",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "holo-control",
 			say = "After eliminating the imposter spawned by the Mirror Sea, all the members of Hololive and Azur Lane safely managed to regroup.",
+			side = 2,
+			dir = 1,
+			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "They brought with them the supplies they had gathered to the Resistance hideout, and spent the rest of their day there.",
 			typewriter = {
 				speed = 0.05,
@@ -34,15 +34,15 @@ return {
 			}
 		},
 		{
-			say = "Inside the Hololive Resistance Base",
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-tokiwa",
+			say = "Inside the Hololive Resistance Base",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -70,8 +70,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			nameColor = "#a9f548",
 			say = "So when you defeated the Aqua clone, she instantly turned to light and vanished?",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "Hang on... Doesn't that sound like she used the teleport command we have on the server?",
 			typewriter = {
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
-			bgName = "bg_story_holosaba1",
 			side = 2,
+			bgName = "bg_story_holosaba1",
 			dir = 1,
+			actor = 900021,
 			actorName = "Purity",
 			say = "Oh, you're kidding... You mean Tessy's assumed direct control of the server?",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "We're A-OK! Ayame and Shion didn't seem keen on fighting at first, but they're pretty eager now that they've gotten the hang of it!",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			nameColor = "#a9f548",
 			say = "Th-they're the enemy, Matsuri! Of course Ay will fight them with all Ay have!",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			nameColor = "#a9f548",
 			say = "Y-you said it! Aqua's enjoying herself too, so what's the big deal?",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,8 +240,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "Ah, classic Gammadion Gang. Like three peas in a pod.",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "About the Sirens... Do you fight them all the time in this world?",
 			typewriter = {
@@ -322,8 +322,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "Ahahahah, all we need to do is smack 'em down and put an end to whatever scheme the Sirens are trying to pull!",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -426,12 +426,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "But that's for tomorrow! Right now, we need to all get some sleep.",
 			typewriter = {
 				speed = 0.05,
@@ -443,8 +443,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

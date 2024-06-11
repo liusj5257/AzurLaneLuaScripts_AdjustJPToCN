@@ -7,10 +7,10 @@ return {
 	fadeType = 2,
 	scripts = {
 		{
-			actor = 307020,
 			side = 2,
-			actorName = "{namecode:92}",
 			mode = 2,
+			actorName = "{namecode:92}",
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = "큭...... 이 정도까지 계산이 어긋날 줄이야...... 분하다...",
 			shake = {
@@ -27,10 +27,10 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
-			actorName = "{namecode:92}",
 			mode = 2,
+			actorName = "{namecode:92}",
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = "...아카기, 언니......",
 			shake = {
@@ -47,9 +47,9 @@ return {
 			}
 		},
 		{
+			bgName = "bg_story_8",
 			bgspeed = 2,
 			blackBg = true,
-			bgName = "bg_story_8",
 			say = "그야말로 신이 들렸다 해도 좋을 타이밍이었다.",
 			typewriter = {
 				speed = 0.02,

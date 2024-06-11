@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHEBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHEBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"穿越彼方的水線\n\n<size=45>一　駿河、登場</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "cw-story",
+			say = "港區·演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "大家應該都知道，過去皇家·白鷹聯合陣營也曾進行過類似的演習。雖說本次演習與那次一樣，只是一般的聯合演習……",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "作為突然到來的新面孔，想必會讓各位感到有些不知所措吧。",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "但是，戰列艦“{namecode:175}”，願為艦隊獻上微薄之力。",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "讓我們在這次的聯合演習中一起奮鬥到最後吧！",
 			effects = {
@@ -174,13 +174,13 @@ return {
 		{
 			actor = 305110,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "嗯哼，真是精彩的戰前動員。果然沒有白把妳叫過來啊",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -275,11 +275,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "HO，HO，HO！有我{namecode:22}大人在，指揮官的艦隊什麼的，根本不堪一擊噠！",
 			typewriter = {
 				speed = 0.05,
@@ -291,8 +291,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -304,8 +304,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "那就有點難辦了啊～難得的聯合演習，{namecode:97}也想作為敵方角色，與指揮官大人好好纏綿一番呢～",
 			typewriter = {
@@ -337,8 +337,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "哦～也行。只要妳全心全意為指揮官大人效力就好",
 			typewriter = {
@@ -403,8 +403,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -420,8 +420,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "明、明白了，我會妥善處理的。",
 			typewriter = {
@@ -434,12 +434,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "抱歉，要妳多辛苦了。",
 			typewriter = {
 				speed = 0.05,

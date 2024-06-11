@@ -1,6 +1,6 @@
 slot0 = class("VoteShipItem")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.go = slot1
 	slot0.tf = slot1.transform
 	slot0.icon = findTF(slot0.tf, "mask/icon")
@@ -12,7 +12,7 @@ function slot0.Ctor(slot0, slot1)
 	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
-function slot0.update(slot0, slot1, slot2)
+slot0.update = function(slot0, slot1, slot2)
 	TweenItemAlphaAndWhite(slot0.go)
 
 	if slot0.voteShip ~= slot1 then
@@ -32,7 +32,7 @@ function slot0.update(slot0, slot1, slot2)
 	end
 end
 
-function slot0.flush(slot0)
+slot0.flush = function(slot0)
 	slot3 = slot0.voteShip
 
 	LoadSpriteAsync("ShipYardIcon/" .. slot3:getPainting(), function (slot0)
@@ -56,7 +56,7 @@ slot1 = {
 	"rd"
 }
 
-function slot0.wrapRankTxt(slot0, slot1)
+slot0.wrapRankTxt = function(slot0, slot1)
 	if slot1 and slot1 <= 3 then
 		return string.format("<material=gradient from=#FF8c1c to=#ff0000 x=0 y=-1>%s<size=30>%s</size></material>", slot1, uv0[slot1])
 	else
@@ -64,7 +64,7 @@ function slot0.wrapRankTxt(slot0, slot1)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 

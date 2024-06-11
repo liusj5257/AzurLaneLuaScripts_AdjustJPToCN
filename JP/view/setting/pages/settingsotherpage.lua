@@ -1,12 +1,12 @@
 slot0 = class("SettingsOtherPage", import(".SettingsOptionPage"))
 
-function slot0.OnShowTranscode(slot0, slot1)
+slot0.OnShowTranscode = function(slot0, slot1)
 	if PLATFORM_CODE == PLATFORM_JP then
 		slot0:GetPanel(SettingsAccountJPPanle):showTranscode(slot1)
 	end
 end
 
-function slot0.OnCheckAllAccountState(slot0)
+slot0.OnCheckAllAccountState = function(slot0)
 	if PLATFORM_CODE == PLATFORM_JP then
 		slot0:GetPanel(SettingsAccountJPPanle):checkAllAccountState()
 	elseif PLATFORM_CODE == PLATFORM_US then
@@ -14,19 +14,19 @@ function slot0.OnCheckAllAccountState(slot0)
 	end
 end
 
-function slot0.OnClearExchangeCode(slot0)
+slot0.OnClearExchangeCode = function(slot0)
 	if slot0:GetPanel(SettingsRedeemPanel) then
 		slot1:ClearExchangeCode()
 	end
 end
 
-function slot0.OnSecondPwdStateChange(slot0)
+slot0.OnSecondPwdStateChange = function(slot0)
 	if slot0:GetPanel(SettingsSecondPwLimitedOpPanle) then
 		slot1:UpdateBtnsState()
 	end
 end
 
-function slot0.GetPanels(slot0)
+slot0.GetPanels = function(slot0)
 	slot1 = {
 		SettingsSecondPasswordPanle,
 		SettingsSecondPwLimitedOpPanle
@@ -64,6 +64,10 @@ function slot0.GetPanels(slot0)
 		if slot2 == 1 or slot2 == 3 and pg.SdkMgr.GetInstance():IsHuaweiPackage() then
 			table.insert(slot1, SettingsAccountCHPanle)
 		end
+
+		if slot2 == 1 and OPEN_EXCEPTION_TEST then
+			table.insert(slot1, SettingsTestUploadExceptionPanle)
+		end
 	end
 
 	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
@@ -73,7 +77,7 @@ function slot0.GetPanels(slot0)
 	return slot1
 end
 
-function slot0.NeedRedeem(slot0)
+slot0.NeedRedeem = function(slot0)
 	slot1 = true
 
 	if PLATFORM_CODE == PLATFORM_CH or PLATFORM_CODE == PLATFORM_KR then
@@ -93,7 +97,7 @@ function slot0.NeedRedeem(slot0)
 	return slot1
 end
 
-function slot0.OnInitPanle(slot0)
+slot0.OnInitPanle = function(slot0)
 	if PlayerPrefs.GetFloat("firstIntoOtherPanel") == 0 then
 		slot0:ScrollToPanel(slot0:GetPanel(SettingsSecondPasswordPanle))
 		PlayerPrefs.SetFloat("firstIntoOtherPanel", 1)

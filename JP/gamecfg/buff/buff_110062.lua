@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 3,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "护盾",
 	stack = 1,
@@ -38,11 +38,7 @@ return {
 				buff_id = 110063,
 				target = "TargetSelf",
 				effectAttachData = {
-					{
-						value = 0,
-						type = "BattleBuffShield",
-						op = "lessequal"
-					}
+					"BattleBuffShield<=0"
 				}
 			}
 		},
@@ -55,11 +51,7 @@ return {
 				buff_id = 110063,
 				target = "TargetSelf",
 				effectAttachData = {
-					{
-						value = 0,
-						type = "BattleBuffShield",
-						op = "great"
-					}
+					"BattleBuffShield>0"
 				}
 			}
 		}

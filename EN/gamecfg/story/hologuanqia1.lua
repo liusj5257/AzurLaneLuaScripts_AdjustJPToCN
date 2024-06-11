@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "Ookami Mio",
+			side = 2,
 			stopbgm = true,
-			blackBg = true,
 			dir = 1,
 			bgmDelay = 1,
+			blackBg = true,
 			nameColor = "#a9f548",
 			say = "All around me are those familiar walls, that familiar ceiling",
 			flashin = {
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ookami Mio",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ookami Mio",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ookami Mio",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ookami Mio",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Ookami Mio",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "holo-fff-inst",
 			side = 2,
-			say = "BOOOOOM!",
 			dir = 1,
 			blackBg = true,
-			bgm = "holo-fff-inst",
+			soundeffect = "event:/battle/boom2",
+			say = "BOOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "I can't! I can't do it! How's anyone supposed to calm down with this going on around them?!",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -197,10 +197,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
-			dir = -1,
-			nameColor = "#a9f548",
 			say = "Mio? Is that you there?!",
+			dir = -1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -218,8 +218,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "Fubuki?! Thank the algorithm you're okay!",
 			typewriter = {
@@ -235,11 +235,11 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "We need to get out of here. Mass-produced Siren ships are coming our way!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -290,8 +290,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "Si... rens?",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -333,8 +333,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "You're... keeping your cool surprisingly well... Wait, what did you say? A fleet? Whaddya mean \"fleet\"?",
 			typewriter = {
@@ -350,8 +350,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Calm down, Mio. There are Siren fleets around us as far as the eye can see...",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "I'm surmising that, for whatever reason, we and the rest of the Hololive Server got transported to the world of Azur Lane. Smack-dab in the middle of a battle, too...",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "So by Sirens, you mean... Those time-travelers that invaded the world of Azur Lane?!",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "Never mind that, we've been sent to another world! How the heck do we get back?!",
 			typewriter = {
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -428,11 +428,11 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Dammit... If I only had my own fleet with me, this would be a piece of cake!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -483,9 +483,9 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
 			blackBg = true,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "If only Kawakaze and Zuikaku were here...",
 			typewriter = {

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "黑基洛夫BOSS战 彗星 冷冻雾气范围内减速",
 	time = 0,
+	name = "黑基洛夫BOSS战 彗星 冷冻雾气范围内减速",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

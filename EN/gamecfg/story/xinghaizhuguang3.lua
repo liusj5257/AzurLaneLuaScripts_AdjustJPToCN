@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_503",
+			bgm = "story-richang-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sea of Stars - Accessway",
-			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We're still only in the central area. The deepest part of the Galactic Core is a long way off.",
@@ -89,11 +89,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We'll take the elevator next. Come with me.",
@@ -107,27 +107,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_503",
 			say = "Sea of Stars – Galactic Core Common Area",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Advanced KAN-SEN Research and Planning Department",
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Look who it is! Morning, Northampton!",
@@ -191,11 +191,11 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Advanced KAN-SEN Research and Planning Department",
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "These girls are the new blood, eh? Then go right ahead. The simulation chamber is free.",
@@ -249,9 +249,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			bgName = "star_level_bg_503",
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -265,17 +265,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -283,11 +283,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "That's not surprising. You don't hear much about 'em outside the Sea of Stars.",
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Well, Georgia's a blueprint ship, and so were those two. They're part of the Triangulum, the Advanced KAN-SEN Research and Planning Department.",
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yup. Also, we'll have to board another shuttle train. Don't worry, it'll take us right to Area X, our destination.",
@@ -375,11 +375,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "This is taking ages...",
@@ -393,11 +393,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hang in there, Laffey. We're almost there!",
@@ -411,28 +411,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_2",
+			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sea of Stars – Galactic Core Area X",
-			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -535,11 +535,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But I don't have a Type II...",
@@ -648,8 +648,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -723,11 +723,11 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "Main Terminal",
 			dir = 1,
+			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Resuming briefing. Step one: you are to engage the enemy fleet. Their combat effectiveness has been calibrated to a baseline level to test your adaptability.",
@@ -760,11 +760,11 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "Main Terminal",
 			dir = 1,
+			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Step three: you are to eliminate the Arbiter vessel.",
@@ -797,11 +797,11 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "Main Terminal",
 			dir = 1,
+			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "One, the simulation will be terminated if at any point you or your aircraft leave the testing area.",
@@ -834,11 +834,11 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			side = 2,
 			bgName = "bg_starsea_core_2",
 			factiontag = "Main Terminal",
 			dir = 1,
+			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Three, the simulation will be terminated if you attack a target outside the testing area.",

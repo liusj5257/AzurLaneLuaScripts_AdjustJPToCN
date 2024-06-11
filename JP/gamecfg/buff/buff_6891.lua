@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 6891,
 	picture = "",
 	desc = "征战巨坦",
 	stack = 1,
-	id = 6891,
+	color = "blue",
 	icon = 6890,
 	last_effect = "",
 	effect_list = {

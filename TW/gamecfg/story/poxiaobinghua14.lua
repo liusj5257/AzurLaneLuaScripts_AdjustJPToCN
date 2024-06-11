@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA14",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-undermoon",
+			say = "道路真的出現了，但是是以一種超乎所有人預料之外的形式出現的。",
 			side = 2,
 			bgName = "bg_cccpv2_5",
 			dir = 1,
-			say = "道路真的出現了，但是是以一種超乎所有人預料之外的形式出現的。",
+			bgm = "battle-undermoon",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_5",
+			dir = 1,
 			say = "冰牆變得透明到幾乎完全消失，就像一層可通行的薄膜。而在透明的薄膜後方，一座完全由光芒構成的璀璨都市出現在原本空無一物的鏡面海域中。",
 			typewriter = {
 				speed = 0.05,
@@ -36,9 +36,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_5",
+			dir = 1,
 			say = "眼前令人震撼的場景實在無法單純用語言進行形容……",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "這還真是，意料之外的情況…………",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "真漂亮啊…………",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "簡直就像童話故事中才會出現的夢幻城堡一樣……",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "原來一直以來中央的兩條懸空軌道真正的功能是通往城市的道路……",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "塞壬還真是在這裡隱藏了一個誇張的奇觀，難以想像就憑塞壬的審美竟會創造出如此美麗的東西。",
 			typewriter = {
@@ -151,9 +151,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_5",
+			dir = 1,
 			say = "面前的都市完全不像塞壬造物的風格，反而更像是……人類的建築風格…………",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "不過這個風格也確實不像是塞壬的感覺……",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "“大門”開啟之後，出現的不是一個被秘密保護起來的房間，而是一整座不知名造物者創造的都璀璨市，真是意外又有趣的展開。",
 			typewriter = {
@@ -231,9 +231,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_5",
+			dir = 1,
 			say = "當然，我也有想從這裡尋找的答案。",
 			typewriter = {
 				speed = 0.05,
@@ -248,9 +248,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_5",
-			actor = 705040,
 			dir = 1,
 			blackBg = true,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "那麼就讓我們穿越這道已然變為光幕的“大門”，向著璀璨的都市進發吧！",
 			typewriter = {
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

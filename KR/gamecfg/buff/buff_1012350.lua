@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "倔强1",
 	init_effect = "",
+	id = 1012350,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1012350,
+	color = "blue",
 	icon = 12350,
 	last_effect = "",
 	effect_list = {
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.8,
-				skill_id = 1012350,
 				target = "TargetSelf",
+				skill_id = 1012350,
 				quota = 1
 			}
 		},
@@ -51,8 +51,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 1012353,
-				target = "TargetSelf",
-				time = 20
+				time = 20,
+				target = "TargetSelf"
 			}
 		}
 	}

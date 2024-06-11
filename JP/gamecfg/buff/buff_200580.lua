@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "2023黑神通 战斗较长时间后开始变得脆弱",
 	init_effect = "Bossbomb_red",
+	name = "2023黑神通 战斗较长时间后开始变得脆弱",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200580,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200581,
-				target = "TargetSelf",
-				time = 4
+				time = 4,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_276 = {}
 slot1 = slot0.word_template_276
 
-function temp()
+temp = function()
 	uv0["躺"] = {
 		["在"] = {
 			["床"] = {
@@ -69,7 +69,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["涛"] = {
 		["哥"] = {
 			["操"] = {
@@ -119,7 +119,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["掏"] = {
 		["弄"] = {
 			this = true
@@ -129,7 +129,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["滔"] = {
 		["天"] = {
 			["大"] = {
@@ -149,7 +149,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["匋"] = {
 		["宏"] = {
 			this = true
@@ -159,7 +159,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["逃"] = {
 		["离"] = {
 			["中"] = {
@@ -180,7 +180,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["桃"] = {
 		["花"] = {
 			["江"] = {

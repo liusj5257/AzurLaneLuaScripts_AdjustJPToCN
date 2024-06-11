@@ -1,13 +1,13 @@
 return {
-	id = "BULISITUOERBOSS5",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BULISITUOERBOSS5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"演習神秘事件調查\n\n<size=45>五 對手戲</size>",
@@ -16,16 +16,16 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
-			bgName = "star_level_bg_148",
-			say = "演習海域·廢棄設施",
+			oldPhoto = true,
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_148",
 			bgm = "xinnong-3",
+			say = "演習海域·廢棄設施",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "star_level_bg_148",
 			dir = 1,
 			say = "庫珀與英格拉罕在黑暗的設施中前進著。",
@@ -65,13 +65,13 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "照明設施啟動！",
 			typewriter = {
 				speed = 0.05,
@@ -161,13 +161,13 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "順著黑暗中搜索……仔細搜索…………啊！布里斯托爾發現！",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,13 +284,13 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "是啊！",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,13 +388,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官在襲擊中受傷，我也失去了跟港區的通訊聯絡。",
 			typewriter = {
 				speed = 0.05,
@@ -558,13 +558,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "堅持守住，就有辦法！我這不是等來了支援的妳嗎！",
 			typewriter = {
 				speed = 0.05,
@@ -576,8 +576,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -759,13 +759,13 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "嗯……不愧是英格拉罕，讓簡單的事情完美複雜化了。",
 			typewriter = {
 				speed = 0.05,
@@ -837,16 +837,16 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "star_level_bg_148",
 			dir = 1,
+			bgName = "star_level_bg_148",
 			bgm = "story-1",
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "我有點暈……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -871,12 +871,12 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "沒事，我理解。",
 			typewriter = {
 				speed = 0.05,
@@ -891,10 +891,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "之前遇到的姐姐……也是真的姐姐嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -906,12 +906,12 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "是這樣的哦。",
 			typewriter = {
 				speed = 0.05,
@@ -926,10 +926,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "之前踩上陷阱的人呢……？",
 			typewriter = {
 				speed = 0.05,
@@ -944,10 +944,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "好像是因為演習暫停從前線返回的同伴們。",
 			typewriter = {
 				speed = 0.05,
@@ -962,10 +962,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "嗚嗚嗚，感覺好丟人……給大家添麻煩了。",
 			typewriter = {
 				speed = 0.05,
@@ -980,10 +980,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "沒事沒事，大家都不會生氣的啦。",
 			typewriter = {
 				speed = 0.05,
@@ -995,12 +995,12 @@ return {
 			}
 		},
 		{
-			actor = 101440,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101440,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "倒是英格拉罕那傢伙真的應該好好檢討一下才是。",
 			typewriter = {
 				speed = 0.05,
@@ -1015,10 +1015,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "走吧，我們該回去了。記得之後也給指揮官寫一份事件報告書哦。",
 			typewriter = {
 				speed = 0.05,
@@ -1033,10 +1033,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "事件……報告書？！是，我明白了！",
 			typewriter = {
 				speed = 0.05,
@@ -1048,8 +1048,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1058,15 +1058,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
 			bgName = "bg_story_task",
-			say = "翌日，在指揮室的辦公桌上出現了一份名為《演習神秘事件調查》的報告書。",
 			dir = 1,
+			side = 2,
 			bgm = "xinnong-3",
+			say = "翌日，在指揮室的辦公桌上出現了一份名為《演習神秘事件調查》的報告書。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1091,8 +1091,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "「……對艦船而言，最深刻的恐懼就是對未知的恐懼……」",
@@ -1106,8 +1106,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "「……在那廢棄的基地中，沉睡的敵人等待著夢境降臨……」",
@@ -1121,8 +1121,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "「……群星已到達特定的位置，真相終有一天會降臨港區……」",
@@ -1136,8 +1136,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "附帶：《英格拉罕的檢討書》，艾倫·M·桑拿、庫珀監製。",
@@ -1161,8 +1161,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

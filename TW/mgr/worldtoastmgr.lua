@@ -12,7 +12,7 @@ slot0.Type2PictrueName = {
 	"type_boss"
 }
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	PoolMgr.GetInstance():GetUI("WorldTaskFloatUI", true, function (slot0)
 		uv0._go = slot0
 
@@ -30,7 +30,7 @@ function slot0.Init(slot0, slot1)
 	end)
 end
 
-function slot0.ShowToast(slot0, slot1, slot2)
+slot0.ShowToast = function(slot0, slot1, slot2)
 	table.insert(slot0.displayList, {
 		taskVO = slot1,
 		isSubmitDone = slot2
@@ -41,7 +41,7 @@ function slot0.ShowToast(slot0, slot1, slot2)
 	end
 end
 
-function slot0.StartToast(slot0)
+slot0.StartToast = function(slot0)
 	setAnchoredPosition(slot0._tf, {
 		y = slot0._tf.rect.height
 	})
@@ -76,7 +76,7 @@ function slot0.StartToast(slot0)
 	end)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	LeanTween.cancel(slot0.twId)
 
 	slot0.displayList = nil

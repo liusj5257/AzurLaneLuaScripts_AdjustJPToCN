@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"另一個領導者？\n\n<size=45>二　所謂個性…</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·廣場",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·廣場",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 205060,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "出於一點好奇，和威爾斯親王提起了這件事。",
 			typewriter = {
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 205060,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "平日不苟言笑的威爾斯親王，不知為何，笑了起來。",
 			typewriter = {
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "……天敵？",
 			typewriter = {
 				speed = 0.05,
@@ -174,15 +174,15 @@ return {
 			}
 		},
 		{
-			actor = 105130,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105130,
+			nameColor = "#a9f548",
 			say = "我說，姐姐，妳還在在意個性的事嗎？？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -239,10 +239,10 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_113",
 			side = 2,
+			bgName = "star_level_bg_113",
+			actor = 205050,
 			dir = 1,
 			actorName = "？？？",
 			say = "沒錯！",
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 105130,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105130,
+			nameColor = "#a9f548",
 			say = "妳是……皇家的喬治五世？！",
 			effects = {
 				{
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "妳的個性，應該是建立在妳自己承認自己的基礎之上",
 			typewriter = {
@@ -336,8 +336,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "我來承認！",
 			typewriter = {
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 105120,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105120,
+			nameColor = "#a9f548",
 			say = "欸？",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -379,8 +379,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "有什麼疑問嗎？如果妳的個性需要他人承認的話，我來承認就好",
 			typewriter = {
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 105130,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105130,
+			nameColor = "#a9f548",
 			say = "……（努力憋著不笑出來）",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -451,9 +451,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,

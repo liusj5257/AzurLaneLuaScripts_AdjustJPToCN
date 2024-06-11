@@ -1,6 +1,6 @@
 slot0 = class("NewSubRoutineResultGradePage", import("..NewBattleResultGradePage"))
 
-function slot0.GetGetObjectives(slot0)
+slot0.GetGetObjectives = function(slot0)
 	slot2 = {}
 	slot3 = slot0.contextData.statistics.subRunResult
 

@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 400
+					number = 400,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 400
+					number = 400,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -31,8 +31,8 @@ return {
 				},
 				arg_list = {
 					rant = 8000,
-					target = "TargetSelf",
-					skill_id = 110050
+					skill_id = 110050,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -46,8 +46,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 460
+					number = 460,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -57,8 +57,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 460
+					number = 460,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -69,8 +69,8 @@ return {
 				},
 				arg_list = {
 					rant = 8000,
-					target = "TargetSelf",
-					skill_id = 110050
+					skill_id = 110050,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -84,8 +84,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 520
+					number = 520,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -95,8 +95,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 520
+					number = 520,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -107,8 +107,8 @@ return {
 				},
 				arg_list = {
 					rant = 8000,
-					target = "TargetSelf",
-					skill_id = 110050
+					skill_id = 110050,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -122,8 +122,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 600
+					number = 600,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 600
+					number = 600,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -145,8 +145,8 @@ return {
 				},
 				arg_list = {
 					rant = 8000,
-					target = "TargetSelf",
-					skill_id = 110050
+					skill_id = 110050,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -160,8 +160,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 660
+					number = 660,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -171,8 +171,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 660
+					number = 660,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -183,8 +183,8 @@ return {
 				},
 				arg_list = {
 					rant = 8000,
-					target = "TargetSelf",
-					skill_id = 110050
+					skill_id = 110050,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -198,8 +198,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 720
+					number = 720,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 720
+					number = 720,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -221,8 +221,8 @@ return {
 				},
 				arg_list = {
 					rant = 8000,
-					target = "TargetSelf",
-					skill_id = 110050
+					skill_id = 110050,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -236,8 +236,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 800
+					number = 800,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -247,8 +247,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 800
+					number = 800,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -259,8 +259,8 @@ return {
 				},
 				arg_list = {
 					rant = 8000,
-					target = "TargetSelf",
-					skill_id = 110050
+					skill_id = 110050,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -274,8 +274,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 860
+					number = 860,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -285,8 +285,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 860
+					number = 860,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -297,8 +297,8 @@ return {
 				},
 				arg_list = {
 					rant = 8000,
-					target = "TargetSelf",
-					skill_id = 110050
+					skill_id = 110050,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -312,8 +312,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 920
+					number = 920,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -323,8 +323,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 920
+					number = 920,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -335,8 +335,8 @@ return {
 				},
 				arg_list = {
 					rant = 8000,
-					target = "TargetSelf",
-					skill_id = 110050
+					skill_id = 110050,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -350,8 +350,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1000
+					number = 1000,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -361,8 +361,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1000
+					number = 1000,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -373,21 +373,21 @@ return {
 				},
 				arg_list = {
 					rant = 8000,
-					target = "TargetSelf",
-					skill_id = 110050
+					skill_id = 110050,
+					target = "TargetSelf"
 				}
 			}
 		}
 	},
-	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 110051,
 	time = 5,
-	color = "red",
 	picture = "",
 	desc = "",
+	desc_get = "",
 	stack = 1,
-	id = 110051,
+	color = "red",
 	icon = 110050,
 	last_effect = "",
 	blink = {
@@ -405,8 +405,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 400
+				number = 400,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -416,8 +416,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 400
+				number = 400,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -428,8 +428,8 @@ return {
 			},
 			arg_list = {
 				rant = 8000,
-				target = "TargetSelf",
-				skill_id = 110050
+				skill_id = 110050,
+				target = "TargetSelf"
 			}
 		}
 	}

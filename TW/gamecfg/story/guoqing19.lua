@@ -11,8 +11,8 @@ return {
 			actor = 307010,
 			actorName = "{namecode:91}",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "啊啊…神明大人，您看到了嗎…靈魂間碰撞激發出的熠熠光輝…這也是您所期望的「覺醒」嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -27,8 +27,8 @@ return {
 			actor = 307010,
 			actorName = "{namecode:91}",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "美麗而脆弱…讓人忍不住想一把捏碎…呵呵……呵呵呵……",
 			typewriter = {
 				speed = 0.05,
@@ -40,12 +40,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
+			say = "唉…果然還是陷入這種狀態了…也罷，這一次的表演也差不多接近尾聲了",
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
-			say = "唉…果然還是陷入這種狀態了…也罷，這一次的表演也差不多接近尾聲了",
+			actor = 307020,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -63,8 +63,8 @@ return {
 			actor = 307010,
 			actorName = "{namecode:91}",
 			side = 1,
-			nameColor = "#ff0000",
 			dir = -1,
+			nameColor = "#ff0000",
 			say = "是嗎…真遺憾～既然如此，那就準備吧…呵呵…前往…下一處的“聖域”——",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			actor = 307060,
 			actorName = "{namecode:96}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "嗚……別、別想走……我還有話——",
 			typewriter = {
 				speed = 0.05,
@@ -92,30 +92,13 @@ return {
 			}
 		},
 		{
-			actor = 900011,
+			withoutPainting = true,
 			side = 0,
+			actorName = "系統",
+			dir = 0,
 			soundeffect = "event:/ui/alarm",
-			actorName = "系統",
-			dir = 0,
-			nameColor = "#ff0000",
-			say = "警告——回收程序已啟動，本區域即將廢棄——",
-			withoutPainting = true,
-			typewriter = {
-				speed = 0.02,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
 			actor = 900011,
-			side = 0,
 			nameColor = "#ff0000",
-			actorName = "系統",
-			dir = 0,
-			withoutPainting = true,
 			say = "警告——回收程序已啟動，本區域即將廢棄——",
 			typewriter = {
 				speed = 0.02,
@@ -127,13 +110,30 @@ return {
 			}
 		},
 		{
-			actor = 900011,
+			say = "警告——回收程序已啟動，本區域即將廢棄——",
 			side = 0,
 			nameColor = "#ff0000",
-			actorName = "系統",
 			dir = 0,
+			actor = 900011,
+			actorName = "系統",
 			withoutPainting = true,
+			typewriter = {
+				speed = 0.02,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
 			say = "警告——回收程序已啟動，本區域即將廢棄——",
+			side = 0,
+			nameColor = "#ff0000",
+			dir = 0,
+			actor = 900011,
+			actorName = "系統",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.02,
 				speedUp = 0.01
@@ -147,8 +147,8 @@ return {
 			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
+			nameColor = "#ff0000",
 			say = "同胞啊，世間萬物一切自有其因果。但是命運果真就是如此既定的麼？",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
+			nameColor = "#ff0000",
 			say = "在這無限輪迴的“聖域”中，我們一直在尋找著命運的另一種可能性",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
+			nameColor = "#ff0000",
 			say = "總有一天妳會明白…我們在做什麼，為什麼會這麼做……",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			actor = 307020,
 			actorName = "{namecode:92}",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
+			nameColor = "#ff0000",
 			say = "願八百萬神明的守護常伴於妳——",
 			typewriter = {
 				speed = 0.05,
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "測試者",
 			side = 2,
-			nameColor = "#ff0000",
 			blackBg = true,
+			actor = 900011,
+			nameColor = "#ff0000",
 			say = "實驗場γ…又完成了一輪測試",
 			flashout = {
 				dur = 1.5,

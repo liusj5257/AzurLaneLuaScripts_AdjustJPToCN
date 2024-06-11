@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 1,
-	id = 600153,
 	picture = "0",
 	desc = "",
+	painting = 1,
+	id = 600153,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,19 +16,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmFarthest",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetHarmFarthest",
 			arg_list = {
 				weapon_id = 950461
 			}
 		},
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmNearest",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetHarmNearest",
 			arg_list = {
 				weapon_id = 950461
 			}

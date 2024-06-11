@@ -1,13 +1,13 @@
 slot0 = class("CourtYardPoolMgr")
 
-function slot0.Init(slot0, slot1, slot2)
+slot0.Init = function(slot0, slot1, slot2)
 	slot0.pools = {}
 	slot0.root = slot1
 
 	parallelAsync(slot0:GenPool(slot1), slot2)
 end
 
-function slot0.GenPool(slot0, slot1)
+slot0.GenPool = function(slot0, slot1)
 	slot3 = {
 		{
 			10,
@@ -73,46 +73,46 @@ function slot0.GenPool(slot0, slot1)
 	return slot5
 end
 
-function slot0.LoadAsset(slot0, slot1, slot2)
+slot0.LoadAsset = function(slot0, slot1, slot2)
 end
 
-function slot0.GetFurniturePool(slot0)
+slot0.GetFurniturePool = function(slot0)
 	return slot0.pools.CourtYardFurniture
 end
 
-function slot0.GetShipPool(slot0)
+slot0.GetShipPool = function(slot0)
 	return slot0.pools.CourtYardShip
 end
 
-function slot0.GetGridPool(slot0)
+slot0.GetGridPool = function(slot0)
 	return slot0.pools.CourtYardGrid
 end
 
-function slot0.GetWallGridPool(slot0)
+slot0.GetWallGridPool = function(slot0)
 	return slot0.pools.CourtYardWallGrid
 end
 
-function slot0.GetHeartPool(slot0)
+slot0.GetHeartPool = function(slot0)
 	return slot0.pools.Heart
 end
 
-function slot0.GetAiXinPool(slot0)
+slot0.GetAiXinPool = function(slot0)
 	return slot0.pools.chengbao_aixin
 end
 
-function slot0.GetXinXinPool(slot0)
+slot0.GetXinXinPool = function(slot0)
 	return slot0.pools.chengbao_xinxin
 end
 
-function slot0.GetYinFuPool(slot0)
+slot0.GetYinFuPool = function(slot0)
 	return slot0.pools.chengbao_yinfu
 end
 
-function slot0.GetZzzPool(slot0)
+slot0.GetZzzPool = function(slot0)
 	return slot0.pools.chengbao_ZZZ
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot1 = pairs
 	slot2 = slot0.pools or {}
 

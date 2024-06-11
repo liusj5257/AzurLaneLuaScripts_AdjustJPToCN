@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGTINGLIAOFA16",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>\"우리는 어제 동틀 무렵, 모비딕을 발견했다. 그리고 지금, 또 하나의 여명이 왔다\"</size>",
@@ -33,12 +33,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "쾅────",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "쾅────",
 			flashN = {
 				color = {
 					1,
@@ -89,11 +89,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 107090,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "당했습니다…",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -144,8 +144,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "처음부터 함정이었어요——",
 			typewriter = {
@@ -158,13 +158,13 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "11, 17번대 특수 기동함대와 연락이 끊겼어!",
 			soundeffect = "event:/battle/boom2",
+			actor = 207040,
+			nameColor = "#a9f548",
+			say = "11, 17번대 특수 기동함대와 연락이 끊겼어!",
 			flashN = {
 				color = {
 					1,
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			say = "쿵─────",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "쿵─────",
 			flashN = {
 				color = {
 					1,
@@ -296,15 +296,15 @@ return {
 			}
 		},
 		{
-			say = "조금 전·뉴욕항",
 			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "조금 전·뉴욕항",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -681,11 +681,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_xiangting_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "그러니까, 만약 정말 \"왕관\"과 비슷한 특이점이 출현한다면 다들 반드시 피하라고!",
 			typewriter = {
 				speed = 0.05,
@@ -697,8 +697,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -787,11 +787,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_xiangting_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "모두의 우수한 모습을 기대하겠다, 유니온을 위하여!",
 			typewriter = {
 				speed = 0.05,

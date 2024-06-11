@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD402B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD402B",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "한참을 돌아봐도 메탈 블러드는 모일 기미가 보이지 않네요. 이게 어떻게 된 일이죠? 프리드리히 데어 그로세는 분명 연합 행동이라고 했는데요.",
 			bgm = "bsm-7",
+			actor = 307010,
+			nameColor = "#a9f548",
+			say = "한참을 돌아봐도 메탈 블러드는 모일 기미가 보이지 않네요. 이게 어떻게 된 일이죠? 프리드리히 데어 그로세는 분명 연합 행동이라고 했는데요.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -85,8 +85,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "오이겐이라면 뭔가 알고 있을 것 같지만...",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "됐어요! 작전은 사쿠라 엠파이어 혼자서도 충분해요. 우리와 협력하지 않겠다면 당신들에게 별로 관심은 없어요.",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,8 +192,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "모두 적색중축의 친구인걸요. 그 정도는 문제없죠. 그런데, 이렇게 급하게 가실 건가요? 내일 관광 스케줄도 이미 정해뒀는데...",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "그런가요... NA 해역의 상황이 복잡하고, 우리는 로열 네이비의 봉쇄에 막혀있으니까 원하는 만큼 정보를 지원해드리기는 어려워요.",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "아, 그러고 보니 연락... 보급을 하면서 여러분에게 메탈 블러드에서 만든 최신형 통신 설비를 드릴게요.",
 			typewriter = {
@@ -323,8 +323,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "물론이죠. 저희가 준비한 선물인걸요.",
 			typewriter = {
@@ -356,9 +356,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
 			blackBg = true,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "보급은 이쪽에서 할 수 있어요. 따라오세요.",
 			typewriter = {

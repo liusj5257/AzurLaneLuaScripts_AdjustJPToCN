@@ -2,7 +2,7 @@ slot0 = class("PiratePage", import("view.base.BaseActivityPage"))
 slot0.PROGRESS_TEXT = "%d/7"
 slot0.DIALOG_DELAY = 15
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.progress = slot0:findTF("progress", slot0.bg)
 	slot0.progressText = slot0:findTF("Text", slot0.progress)
@@ -13,7 +13,7 @@ function slot0.OnInit(slot0)
 	slot0.dialogText = slot0:findTF("Text", slot0.dialogTf)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.count = 0
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskGroup = slot0.activity:getConfig("config_data")
@@ -24,7 +24,7 @@ function slot0.OnDataSetting(slot0)
 	return updateActivityTaskStatus(slot0.activity)
 end
 
-function slot0.OnShowFlush(slot0)
+slot0.OnShowFlush = function(slot0)
 	setActive(slot0.dialogTf, true)
 	setImageAlpha(slot0.dialogTf, 1)
 	setText(slot0.dialogText, not slot0.activity:canPermanentFinish() and slot0.dialog_progress[math.random(#slot0.dialog_progress)] or slot0.dialog_complete[math.random(#slot0.dialog_complete)])
@@ -33,11 +33,11 @@ function slot0.OnShowFlush(slot0)
 	end))
 end
 
-function slot0.OnHideFlush(slot0)
+slot0.OnHideFlush = function(slot0)
 	LeanTween.cancel(slot0.dialogTf)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0.count = slot0.activity.data3
 
 	setActive(slot0.red, slot0:CheckRed())
@@ -46,7 +46,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.CheckRed(slot0)
+slot0.CheckRed = function(slot0)
 	slot1 = false
 
 	if slot0.activity:readyToAchieve() then
@@ -62,7 +62,7 @@ function slot0.CheckRed(slot0)
 	return slot1
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.count = slot0.activity.data3
 
 	if slot0.progress then

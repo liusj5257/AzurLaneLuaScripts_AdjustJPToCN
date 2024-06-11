@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 15980,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15980,
+	color = "red",
 	icon = 15980,
 	last_effect = "",
 	effect_list = {
@@ -70,9 +70,9 @@ return {
 				"onFoeDying"
 			},
 			arg_list = {
+				skill_id = 15986,
 				killer = "self",
-				target = "TargetSelf",
-				skill_id = 15986
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHANGYEJIANGLINZHIQIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHANGYEJIANGLINZHIQIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -31,14 +31,14 @@ return {
 			}
 		},
 		{
-			bgm = "battle-boss-camelot",
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			bgmDelay = 1,
-			say = "――――――！！",
 			soundeffect = "event:/battle/boom2",
+			bgmDelay = 1,
+			bgm = "battle-boss-camelot",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――――――！！",
 			flashN = {
 				color = {
 					1,
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
 			say = "転送装置「アヴァロンの扉」が存在する、ロイヤルが支配中の鏡面海域「キャメロット」。",
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
 			say = "ロイヤルの女王であるエリザベスが「扉」を使って「META」と接触。そして謎の存在「ボノム・リシャール」を撃退し、フッドの治療方法を見つけたが――",
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
 			say = "今まさに「扉」のある場所に、砲撃が全方位から迫ってきている。",
@@ -120,10 +120,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "姉さん、あの正体不明の敵たち……",
 			painting = {
 				alpha = 0.3,
@@ -135,12 +135,12 @@ return {
 			}
 		},
 		{
-			actor = 9704030,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704030,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "以前にリシャールが繰り出してきたモノに似てない？",
 			painting = {
 				alpha = 0.3,
@@ -155,10 +155,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704040,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "私もそう思います",
 			painting = {
 				alpha = 0.3,
@@ -249,10 +249,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "姉さんが分からないことを私にわかるわけないじゃない",
 			painting = {
 				alpha = 0.3,
@@ -267,10 +267,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704040,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……………むぅ。そうですね…",
 			painting = {
 				alpha = 0.3,
@@ -285,10 +285,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "ところで、姉さんの方の戦況は大丈夫？",
 			painting = {
 				alpha = 0.3,
@@ -303,10 +303,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704040,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "はい、掃討を進めています。しかし……敵が弱いとはいえ、数が多すぎますね",
 			painting = {
 				alpha = 0.3,
@@ -340,10 +340,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704040,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "長引くとこちらが不利です。…レパルス、陛下たちへの連絡は？",
 			painting = {
 				alpha = 0.3,
@@ -355,12 +355,12 @@ return {
 			}
 		},
 		{
-			actor = 9704030,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704030,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "救援要請を出したけど全然返事がこないよ。そもそも陛下たちの通信機の性能は低すぎるよ！「余燼」のと同じものを使えばいいのに",
 			painting = {
 				alpha = 0.3,
@@ -375,10 +375,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704040,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "レパルス、作れますか？",
 			painting = {
 				alpha = 0.3,
@@ -390,12 +390,12 @@ return {
 			}
 		},
 		{
-			actor = 9704030,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704030,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "姉さんができないことを私にできるわけないじゃない",
 			painting = {
 				alpha = 0.3,
@@ -410,10 +410,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704040,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……………むぅ。そうですね…",
 			painting = {
 				alpha = 0.3,
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_camelot_1",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "――――――！！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -476,12 +476,12 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ロイヤルナイト隊、只今到着！レナウン、レパルス、待たせたわね！",
 			painting = {
 				alpha = 0.3,
@@ -493,12 +493,12 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "すまん。待たせたな",
 			painting = {
 				alpha = 0.3,
@@ -510,12 +510,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "このエリザベス様が援軍を連れてきてあげたわ。今の状況は？",
 			painting = {
 				alpha = 0.3,
@@ -565,12 +565,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もちろん状況確認よ",
 			painting = {
 				alpha = 0.3,
@@ -582,12 +582,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「扉」に異常発生の知らせが入って、その後通信が繋がらなくなった。",
 			painting = {
 				alpha = 0.3,
@@ -599,12 +599,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「扉」に一番詳しい私が対処しないで誰がやるの？",
 			painting = {
 				alpha = 0.3,
@@ -616,12 +616,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあ……こんな状況になってたのは、初めて知ったけど",
 			painting = {
 				alpha = 0.3,
@@ -652,12 +652,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もちろんよ。「扉」は大事な設備よ。極力手を尽くすのは当然でしょ？",
 			painting = {
 				alpha = 0.3,
@@ -669,12 +669,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "本当はもっと戦力を連れてきたかったけど、緊急だからこの人数が精一杯だったわ",
 			painting = {
 				alpha = 0.3,
@@ -686,12 +686,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "で、今の状況は？",
 			painting = {
 				alpha = 0.3,
@@ -741,12 +741,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうね。私もそう思うわ",
 			painting = {
 				alpha = 0.3,
@@ -758,12 +758,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でも前回みたいなとんでもない黒い竜巻はまだ現れてないみたいね",
 			painting = {
 				alpha = 0.3,
@@ -775,12 +775,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もしかしたら「ボノム・リシャール」はそう簡単には移動してこれないのかもしれない。例えば何かの条件を満たす必要があるとか…",
 			painting = {
 				alpha = 0.3,
@@ -792,12 +792,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうね……全艦、「扉」に急ぐわよ",
 			painting = {
 				alpha = 0.3,
@@ -809,12 +809,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "転送装置を停止し、鏡面海域を閉鎖させるわ。籠城する心構えもしておきなさい",
 			painting = {
 				alpha = 0.3,
@@ -826,12 +826,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もしこれが本当に「ボノム・リシャール」の侵攻なら……ここで食い止めないといけないわ",
 			painting = {
 				alpha = 0.3,
@@ -843,12 +843,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "陛下。前方に海霧が現れました。急速に広がってきています！",
 			painting = {
 				alpha = 0.3,
@@ -860,18 +860,18 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "海霧……？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -884,12 +884,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_camelot_1",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "――――――！！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -938,10 +938,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "誰かいるわ！",
 			painting = {
 				alpha = 0.3,
@@ -956,10 +956,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ひゃっ！う、撃たないでください！私は味方です！",
 			painting = {
 				alpha = 0.3,
@@ -971,12 +971,12 @@ return {
 			}
 		},
 		{
-			actor = 201360,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ひひひ～ロイヤル・オークがバタバタしているうちにヒーローがバクスタを決めて…",
 			painting = {
 				alpha = 0.3,
@@ -991,10 +991,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "アーガス、支援に参りました！女王陛下、ご無事でしょうか！",
 			painting = {
 				alpha = 0.3,
@@ -1006,12 +1006,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "インプラカブル、ロイヤル艦隊を率いて加勢するわ",
 			painting = {
 				alpha = 0.3,
@@ -1026,10 +1026,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "陛下に仇なす敵は我らが討滅する………あら？",
 			painting = {
 				alpha = 0.3,
@@ -1041,12 +1041,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "インプラカブル？ヒーロー？それにアーガスにロイヤル・オークも？",
 			painting = {
 				alpha = 0.3,
@@ -1058,12 +1058,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あんたたちはアイリスの聖堂施設の調査から戻ってくる途中じゃなかった？",
 			painting = {
 				alpha = 0.3,
@@ -1075,12 +1075,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一体どうやってここに来れたの！？",
 			painting = {
 				alpha = 0.3,
@@ -1092,12 +1092,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "実は、「扉」で陛下が苦戦している連絡が急に入ってきて",
 			painting = {
 				alpha = 0.3,
@@ -1109,12 +1109,12 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それで、この「海霧」…ああ、セイレーン「コンパイラー」が残した転送装置を使って急いで来たわ",
 			painting = {
 				alpha = 0.3,
@@ -1126,12 +1126,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……ちょっとちょっと！私もここに到着したばかりよ！それに私が苦戦ってどういうこと？！",
 			painting = {
 				alpha = 0.3,
@@ -1143,12 +1143,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それに「海霧」ってそんなに都合よくあんたたちの進路上にあるわけ？危なくないの？",
 			painting = {
 				alpha = 0.3,
@@ -1160,12 +1160,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どうして何も考えずに突っ込んだのよ！誰に唆されたの？",
 			painting = {
 				alpha = 0.3,
@@ -1180,10 +1180,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "唆されるも何も…ええと……",
 			painting = {
 				alpha = 0.3,
@@ -1198,10 +1198,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_camelot_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さっきの連絡は「陛下」からだったわよ…？",
 			painting = {
 				alpha = 0.3,

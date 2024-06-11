@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Polaris, Saratoga, do your best!",
 			bgm = "azumaster-ins",
+			actor = 101020,
+			nameColor = "#a9f548",
+			say = "Polaris, Saratoga, do your best!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,11 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 101020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101020,
+			nameColor = "#a9f548",
 			say = "Eek! S-sorry, I got a bit too excited there...",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 101020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101020,
+			nameColor = "#a9f548",
 			say = "Yeah...! When I see Lexington cheering alongside us, it's as if energy keeps welling up from within me!",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -126,13 +126,13 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 403070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Come to think of it, I've been wondering ever since our practice sessions began, but why did we get chosen for Polaris?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -190,8 +190,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "That's a good point... but didn't Akashi say they chose at random?",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "Gascogne is equipped with modular protocols, allowing change of modes depending on the conditions. Assessment: Gascogne is very suitable for experimental armament trials.",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "Furthermore, regarding vocals: It is possible to adjust external appearance and vocal range by fine-tuning the keel structure, which is beneficial to testing the relationship between ship structure and music.",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "...I'm happy for you and I'm going to let you finish, but I don't think the rest of us can do stuff like that.",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "Anyways, I'm not an expert on these matters like Bismarck, so I'm just speculating.",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "In short, we just have to keep things as they are.",
 			typewriter = {
 				speed = 0.05,

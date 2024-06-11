@@ -569,9 +569,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "减速",
 	time = 4,
+	name = "减速",
+	init_effect = "",
 	picture = "",
 	desc = "6s减速",
 	stack = 1,

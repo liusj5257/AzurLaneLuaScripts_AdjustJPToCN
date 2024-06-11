@@ -1,6 +1,6 @@
 slot0 = class("OtherworldBackHillScene", import("..TemplateMV.BackHillTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "OtherworldBackHillUI"
 end
 
@@ -8,7 +8,7 @@ slot0.edge2area = {
 	default = "_SDPlace"
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.top = slot0:findTF("top")
@@ -38,7 +38,7 @@ function slot0.init(slot0)
 	slot0.ptValueTF = slot0:findTF("top/Res/Text")
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:SetNativeSizes()
 	onButton(slot0, slot0:findTF("top/Back"), function ()
 		uv0:onBackPressed()
@@ -94,7 +94,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateRes()
 end
 
-function slot0.SetNativeSizes(slot0)
+slot0.SetNativeSizes = function(slot0)
 	eachChild(slot0._upper, function (slot0)
 		if slot0:Find("Image") and slot1:GetComponent(typeof(Image)) then
 			slot2:SetNativeSize()
@@ -102,44 +102,44 @@ function slot0.SetNativeSizes(slot0)
 	end)
 end
 
-function slot0.GongHuiTip()
+slot0.GongHuiTip = function()
 	return getProxy(ActivityTaskProxy):getActTaskTip(ActivityConst.OTHER_WORLD_TASK_ID)
 end
 
-function slot0.ShenDianTip()
+slot0.ShenDianTip = function()
 	return ActivityItemPool.GetTempleRedTip(ActivityConst.OTHER_WORLD_TERMINAL_LOTTERY_ID)
 end
 
-function slot0.TerminalTip()
+slot0.TerminalTip = function()
 	return TerminalAdventurePage.IsTip()
 end
 
-function slot0.UpdateRes(slot0)
+slot0.UpdateRes = function(slot0)
 	setText(slot0.ptValueTF, getProxy(PlayerProxy):getData():getResource(slot0.resId))
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	setActive(slot0.upper_maoxianzgonghui:Find("Tip"), uv0.GongHuiTip())
 	setActive(slot0.upper_jiujiushendian:Find("Tip"), uv0.ShenDianTip())
 	setActive(slot0:findTF("top/Terminal/Tip"), uv0.TerminalTip())
 end
 
-function slot0.UpdateActivity(slot0)
+slot0.UpdateActivity = function(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)
 end
 
-function slot0.IsShowMainTip(slot0)
+slot0.IsShowMainTip = function(slot0)
 	if slot0 and not slot0:isEnd() then
 		return uv0.GongHuiTip() or uv0.ShenDianTip()
 	end
 end
 
-function slot0.IsShowTip()
+slot0.IsShowTip = function()
 	return uv0.GongHuiTip() or uv0.ShenDianTip()
 end
 

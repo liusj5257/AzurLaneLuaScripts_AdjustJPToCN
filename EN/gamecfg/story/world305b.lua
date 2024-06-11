@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD305B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD305B",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level02",
+			say = "NA Ocean SW Sector - Outpost construction site",
 			side = 2,
 			bgName = "bg_port_chuanwu1",
 			dir = 1,
-			say = "NA Ocean SW Sector - Outpost construction site",
+			bgm = "level02",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -50,8 +50,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "You got it! And don't forget the logistics team needed to sustain this operation! Which, by the way, yours truly is a member of!",
 			typewriter = {
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Hey, I know what you all could use after all your hard work! Nice, cold ice cream!",
 			typewriter = {
@@ -94,8 +94,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "I-ice cream? Why, thank you!",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Just hand me the cup, please. Knowing you, you'd add salt instead of sugar just as a prank.",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,8 +186,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Yes, please.",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Here you are! Now head to the provisionary dorm and get yourselves some rest.",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "The Outpost's facilities will receive an upgrade once the next stage of Operation Siren commences. Look forward to it!",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "...All that is to say, just have faith in me and the Commander!",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "Will do. Looking forward to seeing what the upgraded Outpost will be like!",
 			typewriter = {
@@ -287,8 +287,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "That's the kind of enthusiasm I want to hear! Now, you must all be dead tired after fighting the Sirens for so long.",
 			typewriter = {
@@ -301,12 +301,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "So just get comfy and have yourselves a rest while we await new orders!",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

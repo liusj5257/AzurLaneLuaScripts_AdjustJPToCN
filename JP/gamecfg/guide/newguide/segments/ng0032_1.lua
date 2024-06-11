@@ -8,7 +8,13 @@ return {
 			},
 			ui = {
 				delay = 1,
-				path = "OverlayCamera/Overlay/UIMain/main/frame/linkBtns/MainActAtelierBtn",
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/activity/MainActAtelierBtn"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/linkBtns/MainActAtelierBtn"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -18,13 +24,19 @@ return {
 				}
 			},
 			baseui = {
-				path = "OverlayCamera/Overlay/UIMain/main/frame/linkBtns/MainActAtelierBtn"
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/activity/MainActAtelierBtn"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/linkBtns/MainActAtelierBtn"
+					end
+				end
 			},
 			style = {
 				text = "調合システムを確認するわよ。まずはレシピね",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = -277.2
 			}
 		},
@@ -54,8 +66,8 @@ return {
 			style = {
 				text = "採取道具を調合すると、採取地から入手できる素材が増えるわ\nさらに採取道具を全部調合すると、ほかのレシピも解禁ね",
 				mode = 1,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = -122,
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/Top/FormulaList/Frame/ScrollView/Viewport/Content"

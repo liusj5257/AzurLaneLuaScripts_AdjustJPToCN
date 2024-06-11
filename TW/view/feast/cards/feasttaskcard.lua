@@ -1,6 +1,6 @@
 slot0 = class("FeastTaskCard")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.binder = slot2
 	slot0._go = slot1
 	slot0._tf = slot1.transform
@@ -29,7 +29,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.bgImg = slot0._tf:GetComponent(typeof(Image))
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot3 = getProxy(TaskProxy):getTaskById(slot1) or slot2:getFinishTaskById(slot1)
 	slot4 = slot3:IsActRoutineType() and 1 or 2
 	slot0.nameTxt.text = slot0.tags[slot4] .. slot3:getConfig("name")
@@ -70,7 +70,7 @@ function slot0.Flush(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.sprites = nil
 	slot0.barSprites = nil
 end

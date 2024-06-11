@@ -7,7 +7,7 @@ slot0.RECOVER_UP = "MilitaryExerciseMediator:RECOVER_UP"
 slot0.START_BATTLE = "MilitaryExerciseMediator:START_BATTLE"
 slot0.OPEN_RIVAL_INFO = "MilitaryExerciseMediator:OPEN_RIVAL_INFO"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.viewComponent:updatePlayer(getProxy(PlayerProxy):getData())
 	slot0.viewComponent:setShips(getProxy(BayProxy):getRawData())
 	slot0:bind(uv0.OPEN_RANK, function (slot0)
@@ -49,7 +49,7 @@ function slot0.register(slot0)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.REPLACE_RIVALS_DONE,
 		GAME.GET_SEASON_INFO_DONE,
@@ -61,7 +61,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.REPLACE_RIVALS_DONE then

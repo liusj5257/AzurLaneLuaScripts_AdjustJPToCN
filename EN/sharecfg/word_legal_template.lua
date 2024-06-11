@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_legal_template = {}
 slot1 = slot0.word_legal_template
 
-function temp()
+temp = function()
 	uv0["合"] = {
 		["法"] = {
 			["词"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.U = {
 		n = {
 			i = {
@@ -237,7 +237,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.P = {
 		r = {
 			o = {
@@ -722,7 +722,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.S = {
 		p = {
 			e = {
@@ -1636,7 +1636,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.D = {
 		e = {
 			w = {
@@ -1826,7 +1826,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.C = {
 		a = {
 			s = {
@@ -2220,7 +2220,30 @@ function temp()
 						a = {
 							d = {
 								o = {
-									this = true
+									this = true,
+									[" "] = {
+										["("] = {
+											R = {
+												e = {
+													t = {
+														r = {
+															o = {
+																f = {
+																	i = {
+																		t = {
+																			[")"] = {
+																				this = true
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
 								}
 							}
 						}
@@ -2381,7 +2404,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.G = {
 		r = {
 			i = {
@@ -2728,7 +2751,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.M = {
 		c = {
 			C = {
@@ -3153,6 +3176,13 @@ function temp()
 						i = {
 							this = true
 						}
+					},
+					d = {
+						o = {
+							r = {
+								this = true
+							}
+						}
 					}
 				}
 			}
@@ -3309,7 +3339,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.F = {
 		l = {
 			e = {
@@ -3320,6 +3350,15 @@ function temp()
 								r = {
 									this = true
 								}
+							}
+						}
+					}
+				},
+				u = {
+					r = {
+						e = {
+							t = {
+								this = true
 							}
 						}
 					}
@@ -3418,7 +3457,18 @@ function temp()
 			},
 			c = {
 				h = {
-					this = true
+					this = true,
+					[" "] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -3584,7 +3634,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.T = {
 		h = {
 			a = {
@@ -3907,7 +3957,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.A = {
 		u = {
 			l = {
@@ -4071,6 +4121,15 @@ function temp()
 									}
 								}
 							}
+						}
+					}
+				}
+			},
+			s = {
+				a = {
+					c = {
+						e = {
+							this = true
 						}
 					}
 				}
@@ -4755,7 +4814,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.B = {
 		e = {
 			n = {
@@ -4916,6 +4975,15 @@ function temp()
 										this = true
 									}
 								}
+							}
+						}
+					}
+				},
+				n = {
+					n = {
+						u = {
+							s = {
+								this = true
 							}
 						}
 					}
@@ -5093,7 +5161,18 @@ function temp()
 			a = {
 				r = {
 					n = {
-						this = true
+						this = true,
+						[" "] = {
+							M = {
+								E = {
+									T = {
+										A = {
+											this = true
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			}
@@ -5103,7 +5182,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.L = {
 		a = {
 			f = {
@@ -5460,6 +5539,23 @@ function temp()
 												}
 											}
 										}
+									},
+									r = {
+										i = {
+											e = {
+												d = {
+													r = {
+														i = {
+															c = {
+																h = {
+																	this = true
+																}
+															}
+														}
+													}
+												}
+											}
+										}
 									}
 								},
 								P = {
@@ -5705,7 +5801,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.H = {
 		a = {
 			m = {
@@ -6228,7 +6324,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.E = {
 		l = {
 			d = {
@@ -6436,7 +6532,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.R = {
 		a = {
 			d = {
@@ -6739,7 +6835,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.J = {
 		e = {
 			n = {
@@ -6940,7 +7036,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.N = {
 		i = {
 			c = {
@@ -7366,7 +7462,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.K = {
 		a = {
 			l = {
@@ -7807,7 +7903,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.I = {
 		n = {
 			g = {
@@ -8109,7 +8205,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.O = {
 		m = {
 			a = {
@@ -8230,7 +8326,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.Q = {
 		u = {
 			i = {
@@ -8286,7 +8382,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.V = {
 		i = {
 			n = {
@@ -8493,7 +8589,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.W = {
 		i = {
 			c = {
@@ -8670,7 +8766,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.Y = {
 		o = {
 			r = {
@@ -8888,7 +8984,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["安"] = {
 		["森"] = {
 			this = true
@@ -8898,7 +8994,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.Z = {
 		u = {
 			i = {
@@ -8983,7 +9079,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["É"] = {
 		m = {
 			i = {
@@ -9007,13 +9103,20 @@ function temp()
 					}
 				}
 			}
+		},
+		p = {
+			["é"] = {
+				e = {
+					this = true
+				}
+			}
 		}
 	}
 end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["2"] = {
 		["2"] = {
 			this = true
@@ -9023,7 +9126,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["3"] = {
 		["3"] = {
 			this = true
@@ -9033,7 +9136,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["久"] = {
 		["远"] = {
 			this = true
@@ -9043,7 +9146,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["猫"] = {
 		["音"] = {
 			this = true
@@ -9053,7 +9156,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["露"] = {
 		["露"] = {
 			["缇"] = {
@@ -9067,7 +9170,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["乌"] = {
 		["璐"] = {
 			["露"] = {
@@ -9079,7 +9182,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["萨"] = {
 		["拉"] = {
 			["娜"] = {
@@ -9091,7 +9194,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["芙"] = {
 		["米"] = {
 			["露"] = {
@@ -9105,7 +9208,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["Ō"] = {
 		k = {
 			a = {
@@ -9129,7 +9232,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["Ä"] = {
 		g = {
 			i = {

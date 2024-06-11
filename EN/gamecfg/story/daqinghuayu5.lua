@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAQINGHUAYU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAQINGHUAYU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Submarine Subterfuge!\n\n<size=45>Chapter 5: Sea for Two Pt. 1</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			say = "Port - Beach",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,16 +45,16 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Hey, I've got an idea for the second favor!",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -79,8 +79,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
 					x = 0,
@@ -105,15 +105,15 @@ return {
 			}
 		},
 		{
-			say = "Although I had little say in the matter, Albacore and I went to the beach in the afternoon.",
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 0.6,
 			bgm = "story-1",
+			say = "Although I had little say in the matter, Albacore and I went to the beach in the afternoon.",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -134,11 +134,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Guess we have the beach all to ourselves! Hehehe~ So, what \"stimulating\" activity should we do first, Com-man-der♡",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "Really? Just a dip in the ocean? Not what I had in mind, but okay.",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "I'm putting my spotless record on the line for this! You're on, Commander!",
 			effects = {
@@ -218,11 +218,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "\"Say a snazzy line before a race\" – scratch that one from the bucket list!",
 			effects = {
 				{
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "Splasssh!",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "\"Secure a flashy head start\" – scratch that one as well! See ya at the finish line!",
 			typewriter = {
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = -2250
@@ -276,9 +276,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "Without waiting for my response, Albacore jumped straight into the ocean and swam off.",
 			typewriter = {
 				speed = 0.05,
@@ -292,13 +292,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
+			dir = 1,
 			say = "Believe it or not, but I managed to swim all the way to the island. However, I couldn't find any traces of Albacore.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -319,9 +319,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "Which means I win. Haha! Who's the sucker now?",
 			typewriter = {
 				speed = 0.05,
@@ -331,19 +331,19 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			say = "Surpriiiiiiiise!",
+			dir = 1,
 			bgName = "star_level_bg_106",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#a9f548",
-			say = "Surpriiiiiiiise!",
 			actorPosition = {
 				x = 0,
 				y = -750
 			},
 			action = {
 				{
-					type = "move",
 					y = 750,
+					type = "move",
 					delay = 0,
 					dur = 0.3,
 					x = 0
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Ahahahah! Scared you, didn't I?",
 			typewriter = {
 				speed = 0.05,
@@ -375,8 +375,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -404,8 +404,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "... The first lap, anyway. It's time for the second! Go!",
 			typewriter = {
@@ -418,8 +418,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.6,
 					dur = 0.5,
 					x = -2250
@@ -427,9 +427,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "Albacore dove into the water and swam off again.",
 			typewriter = {
 				speed = 0.05,

@@ -1,25 +1,33 @@
 slot0 = class("EducateScene", import(".base.EducateBaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateUI"
 end
 
-function slot0.init(slot0)
+slot0.preload = function(slot0, slot1)
+	slot2 = pg.PerformMgr.GetInstance()
+
+	slot2:CheckLoad(function ()
+		uv0()
+	end)
+end
+
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.PlayBGM(slot0)
+slot0.PlayBGM = function(slot0)
 	if getProxy(EducateProxy):GetCharData():GetBgm() then
 		pg.BgmMgr.GetInstance():Push(slot0.__cname, slot1)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.mainAnim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
 	slot0.bgTF = slot0:findTF("anim_root/bg")
 	slot0.blurPanel = slot0:findTF("anim_root/blur_panel")
@@ -80,7 +88,7 @@ function slot0.findUI(slot0)
 	})
 end
 
-function slot0._loadSubViews(slot0)
+slot0._loadSubViews = function(slot0)
 	slot0.datePanel:Load()
 	slot0.favorPanel:Load()
 	slot0.resPanel:Load()
@@ -98,7 +106,7 @@ function slot0._loadSubViews(slot0)
 	slot0.blurPanelAnim:Play(slot0.contextData.isMainEnter and "anim_educate_educateUI_in" or "anim_educate_educateUI_show")
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.chatBtn, function ()
 		pg.TipsMgr.GetInstance():ShowTips("触发对话[待开发]...")
 	end, SFX_PANEL)
@@ -144,7 +152,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	if slot0.contextData.onEnter then
 		slot0.contextData.onEnter()
 
@@ -159,7 +167,7 @@ function slot0.didEnter(slot0)
 	slot0:SeriesCheck()
 end
 
-function slot0.SeriesCheck(slot0)
+slot0.SeriesCheck = function(slot0)
 	slot1 = {}
 
 	table.insert(slot1, function (slot0)
@@ -196,12 +204,12 @@ function slot0.SeriesCheck(slot0)
 	end)
 end
 
-function slot0.OnCheckGuide(slot0)
+slot0.OnCheckGuide = function(slot0)
 	EducateGuideSequence.CheckGuide(slot0.__cname, function ()
 	end)
 end
 
-function slot0.CheckTips(slot0, slot1)
+slot0.CheckTips = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(EducateTipHelper.GetSystemUnlockTips()) do
@@ -219,7 +227,7 @@ function slot0.CheckTips(slot0, slot1)
 	end)
 end
 
-function slot0.CheckNewChar(slot0, slot1)
+slot0.CheckNewChar = function(slot0, slot1)
 	if getProxy(EducateProxy):GetCharData():GetCallName() == "" then
 		setActive(slot0._tf, false)
 
@@ -251,7 +259,7 @@ function slot0.CheckNewChar(slot0, slot1)
 	end
 end
 
-function slot0.showBubble(slot0, slot1)
+slot0.showBubble = function(slot0, slot1)
 	setActive(slot0.bubbleTF, true)
 	onButton(slot0, slot0.bubbleBtn, function ()
 		uv0()
@@ -259,11 +267,11 @@ function slot0.showBubble(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.PlayPerformWithDrops(slot0, slot1, slot2, slot3)
+slot0.PlayPerformWithDrops = function(slot0, slot1, slot2, slot3)
 	slot4 = EducateHelper.GetDialogueShowDrops(slot2)
 	slot5 = EducateHelper.GetCommonShowDrops(slot2)
 
-	function slot6()
+	slot6 = function()
 		if #uv0 > 0 then
 			uv1:emit(uv2.EDUCATE_ON_AWARD, {
 				items = uv0,
@@ -285,7 +293,7 @@ function slot0.PlayPerformWithDrops(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.ShowFavorUpgrade(slot0, slot1, slot2, slot3)
+slot0.ShowFavorUpgrade = function(slot0, slot1, slot2, slot3)
 	slot0:PlayPerformWithDrops(slot2, slot1, function ()
 		if #uv0 > 0 then
 			uv1:emit(uv2.EDUCATE_ON_AWARD, {
@@ -308,7 +316,7 @@ function slot0.ShowFavorUpgrade(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.ShowSpecialEvent(slot0, slot1, slot2, slot3)
+slot0.ShowSpecialEvent = function(slot0, slot1, slot2, slot3)
 	slot0:PlayPerformWithDrops(pg.child_event_special[slot1].performance, slot2, function ()
 		if #uv0 > 0 then
 			uv1:emit(uv2.EDUCATE_ON_AWARD, {
@@ -325,7 +333,7 @@ function slot0.ShowSpecialEvent(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.checkBubbleShow(slot0)
+slot0.checkBubbleShow = function(slot0)
 	slot2 = getProxy(EducateProxy):GetCharData()
 
 	if #getProxy(EducateProxy):GetEventProxy():GetHomeSpecEvents() > 0 then
@@ -361,24 +369,24 @@ function slot0.checkBubbleShow(slot0)
 	end
 end
 
-function slot0.updateResPanel(slot0)
+slot0.updateResPanel = function(slot0)
 	slot0.resPanel:Flush()
 end
 
-function slot0.updateArchivePanel(slot0)
+slot0.updateArchivePanel = function(slot0)
 	slot0.archivePanel:Flush()
 end
 
-function slot0.showArchivePanel(slot0)
+slot0.showArchivePanel = function(slot0)
 	slot0.archivePanel:showPanel()
 end
 
-function slot0.updateDatePanel(slot0)
+slot0.updateDatePanel = function(slot0)
 	slot0.datePanel:Flush()
 	slot0:updateUnlockBtns()
 end
 
-function slot0.updateUnlockBtns(slot0)
+slot0.updateUnlockBtns = function(slot0)
 	slot1 = EducateHelper.IsSystemUnlock(EducateConst.SYSTEM_MEMORY)
 
 	setActive(slot0:findTF("lock", slot0.bookBtn), not slot1)
@@ -396,15 +404,15 @@ function slot0.updateUnlockBtns(slot0)
 	setActive(slot0.favorBtn, slot3)
 end
 
-function slot0.updateMindTip(slot0)
+slot0.updateMindTip = function(slot0)
 	setActive(slot0:findTF("unlock/tip", slot0.mindBtn), getProxy(EducateProxy):GetTaskProxy():IsShowMindTasksTip())
 end
 
-function slot0.updateWeekDay(slot0, slot1)
+slot0.updateWeekDay = function(slot0, slot1)
 	slot0.datePanel:UpdateWeekDay(slot1)
 end
 
-function slot0.updateFavorBtn(slot0)
+slot0.updateFavorBtn = function(slot0)
 	slot1 = getProxy(EducateProxy):GetCharData()
 	slot2 = slot1:GetFavor()
 
@@ -412,15 +420,15 @@ function slot0.updateFavorBtn(slot0)
 	setActive(slot0.favorMaxTF, slot2.lv == slot1:GetFavorMaxLv())
 end
 
-function slot0.updateTargetPanel(slot0)
+slot0.updateTargetPanel = function(slot0)
 	slot0.targetPanel:Flush()
 end
 
-function slot0.updateBottomPanel(slot0)
+slot0.updateBottomPanel = function(slot0)
 	slot0.bottomPanel:Flush()
 end
 
-function slot0.updatePaintingUI(slot0)
+slot0.updatePaintingUI = function(slot0)
 	slot1 = getProxy(EducateProxy):GetCharData()
 	slot0.bgName = slot1:GetBGName()
 	slot0.paintingName = slot1:GetPaintingName()
@@ -430,7 +438,7 @@ function slot0.updatePaintingUI(slot0)
 	setPaintingPrefab(slot0.paintTF, slot0.paintingName, "yangcheng")
 end
 
-function slot0.ShowDialogue(slot0)
+slot0.ShowDialogue = function(slot0)
 	if LeanTween.isTweening(slot0.dialogueTF) then
 		return
 	end
@@ -472,22 +480,22 @@ function slot0.ShowDialogue(slot0)
 	end))
 end
 
-function slot0.updateNewTips(slot0)
+slot0.updateNewTips = function(slot0)
 	slot0:updateBookNewTip()
 	slot0:updateMindNewTip()
 end
 
-function slot0.updateBookNewTip(slot0)
+slot0.updateBookNewTip = function(slot0)
 	setActive(slot0:findTF("unlock/new", slot0.bookBtn), underscore.any(pg.child_memory.all, function (slot0)
 		return EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_MEMORY, slot0)
 	end) or EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_POLAROID))
 end
 
-function slot0.updateMindNewTip(slot0)
+slot0.updateMindNewTip = function(slot0)
 	setActive(slot0:findTF("unlock/new", slot0.mindBtn), EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_MIND_TASK))
 end
 
-function slot0.FlushView(slot0)
+slot0.FlushView = function(slot0)
 	slot0.datePanel:Flush()
 	slot0.favorPanel:Flush()
 	slot0.resPanel:Flush()
@@ -502,11 +510,11 @@ function slot0.FlushView(slot0)
 	slot0:SeriesCheck()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:emit(EducateBaseUI.ON_HOME)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.contextData.isMainEnter = nil
 
 	slot0.datePanel:Destroy()

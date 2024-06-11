@@ -12,8 +12,8 @@ slot0.CustomAttrInitList = {
 }
 slot0.FleetAttrClamp = {
 	CardCombo = {
-		max = "CardComboMax",
-		min = "CardComboMin"
+		min = "CardComboMin",
+		max = "CardComboMax"
 	}
 }
 slot0.FleetIconRegisterAttr = {

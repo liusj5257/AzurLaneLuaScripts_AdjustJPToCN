@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA49",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA49",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "holo-aqua",
+			say = "いよいよ、最後の時が訪れる",
 			side = 2,
 			bgName = "bg_story_holosaba2",
 			dir = 1,
-			say = "いよいよ、最後の時が訪れる",
+			bgm = "holo-aqua",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "春の訪れを感じる今日この頃",
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "アズールレーンの世界に来てから、ずっとそばにいてくれたフブキちゃん、まつりちゃん、ミオちゃん、あやめちゃん、シオンちゃん、そらちゃん",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "そして、山田・ハーマイオニー、澪川イイ代、燕子花なきり、ま　つ　り、シ　オ　ン、ドSそら先輩、名探偵フブキ、ダークフォックスブリザード",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "と、最初から最後まで一度も登場していないテスター",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "仲間であれ、敵であれ、誠にありがとうございます。",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "思えばほんの少し前、不安と恐怖に胸を膨らませ、鏡面海域の門をくぐりました。",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "あの日から、数え切れないほどの思い出を、みんなと共に作ってきました。",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "みんなで一丸となって、戦闘の腕を磨いてきました。メイド同士の戦い、大迷宮の攻略作戦、闇のデュエル…",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "危機に陥った恐怖も、物資収集の楽しさも",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "多くのことを艦船生活で学びました。",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "皆様、今日まで本当にお世話になりました！",
 			typewriter = {
@@ -305,16 +305,16 @@ return {
 			}
 		},
 		{
-			actor = 10500030,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "……",
 			bgm = "holo-control",
+			actor = 10500030,
+			nameColor = "#a9f548",
+			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -343,8 +343,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "それじゃ、ホロライブレジスタンス出動！始めるよ！",
 			typewriter = {
@@ -376,8 +376,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "爆破！！！",
 			dialogShake = {
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			bgName = "bg_story_holosaba2",
+			mode = 1,
 			soundeffect = "event:/battle/boom2",
 			flashout = {
 				dur = 1,

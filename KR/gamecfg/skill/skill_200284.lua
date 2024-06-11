@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023英系活动 EX BOSS狂热",
 	cd = 0,
-	painting = 0,
-	id = 200284,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200284,
 	effect_list = {
 		{
 			type = "BattleSkillEditCustomWarning",
@@ -20,10 +20,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 200299
 			}

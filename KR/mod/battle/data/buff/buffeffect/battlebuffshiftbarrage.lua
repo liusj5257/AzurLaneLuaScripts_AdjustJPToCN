@@ -4,23 +4,23 @@ slot0.Battle.BattleBuffShiftBarrage = class("BattleBuffShiftBarrage", slot0.Batt
 slot0.Battle.BattleBuffShiftBarrage.__name = "BattleBuffShiftBarrage"
 slot1 = slot0.Battle.BattleBuffShiftBarrage
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._barrageID = slot0._tempData.arg_list.barrage_id
 end
 
-function slot1.onAttach(slot0, slot1, slot2)
+slot1.onAttach = function(slot0, slot1, slot2)
 	slot0:shiftBarrage(slot1, slot0._barrageID)
 end
 
-function slot1.onRemove(slot0, slot1, slot2)
+slot1.onRemove = function(slot0, slot1, slot2)
 	slot0:shiftBarrage(slot1)
 end
 
-function slot1.shiftBarrage(slot0, slot1, slot2)
+slot1.shiftBarrage = function(slot0, slot1, slot2)
 	slot3 = slot1:GetAllWeapon()
 
 	for slot7, slot8 in ipairs(slot0._indexRequire) do

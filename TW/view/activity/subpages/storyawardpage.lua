@@ -1,6 +1,6 @@
 slot0 = class("StoryAwardPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("bg")
 	slot0.itemTpl = slot0:findTF("Item")
 	slot0.taskItemTpl = slot0:findTF("TaskItem")
@@ -9,12 +9,12 @@ function slot0.OnInit(slot0)
 	slot0.arrow = slot0:findTF("Mask/Arrow")
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.config = pg.activity_event_chapter_award[slot0.activity:getConfig("config_id")]
 	slot0.chapterIDList = slot0.config.chapter
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	for slot4 = 1, #slot0.chapterIDList do
 		slot7 = cloneTplTo(slot0.taskItemTpl, slot0.container, "TaskItem" .. tostring(slot4))
 		slot9 = slot0:findTF("ItemListContainer", slot7)
@@ -51,7 +51,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	for slot4 = 1, #slot0.chapterIDList do
 		slot6 = slot0:findTF("TaskItem" .. tostring(slot4), slot0.container)
 		slot7 = slot0:findTF("GotTag", slot6)
@@ -68,7 +68,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

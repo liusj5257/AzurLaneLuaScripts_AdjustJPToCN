@@ -1,19 +1,19 @@
 return {
-	id = "WORLD304B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD304B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/41/tb-41",
+			dir = 1,
 			bgm = "xinnong-3",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "敵個体多数を確認しました。お気をつけください",
-			voice = "event:/tb/41/tb-41",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,11 +41,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "情報処理プログラムを修正する必要があります。必要時間を計算中です。",
 			voice = "event:/tb/19/tb-19",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "情報処理プログラムを修正する必要があります。必要時間を計算中です。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,11 +58,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "………計算完了です。プログラム修正完了まで、同タイプの反応を「セイレーンによるジャミング」と定義します",
 			voice = "event:/tb/40/tb-40",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "………計算完了です。プログラム修正完了まで、同タイプの反応を「セイレーンによるジャミング」と定義します",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,11 +75,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/24/tb-24",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "システム、ジャミングを探知しました。対ジャミングアプリケーションの更新・最起動を行います",
-			voice = "event:/tb/24/tb-24",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,11 +107,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/8/tb-8",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "本部に反応パターンのデータを転送中です",
-			voice = "event:/tb/8/tb-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,8 +125,8 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "通信システムにエラーが発生しました。本部と通信できません",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "「主機」との接続が中断しました。オフラインモードに移行します",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "また来たわね…！",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "申し訳ございません",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "（セイレーンのジャミングの狙いは一体何でしょう？）",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "エセックス、このまま敵が現れなかったらどうする？",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "しかし、NA海域中心にここまで近づいても、セイレーンのジャミングによる反応以外、敵にほとんど遭遇しなかったわね",
 			typewriter = {
 				speed = 0.05,

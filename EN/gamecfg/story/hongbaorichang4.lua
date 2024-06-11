@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGBAORICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGBAORICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Spring Festival Party\n\n<size=45>Spring Festival Banquet</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_night",
 			bgm = "story-china",
 			actor = 399041,
 			nameColor = "#a9f548",
 			say = "Hmm... These clothes are rather tricky to put on. Particularly the back part...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 399041,
 			dir = 1,
+			actor = 399041,
 			nameColor = "#a9f548",
 			say = "Why, thank you so much. I couldn't have done it on my own.",
 			typewriter = {
@@ -118,15 +118,15 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "On behalf of the Dragon Empery, I would like to thank you all for coming to our Spring Festival banquet.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,10 +151,10 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			actorName = "Ping Hai & Ning Hai",
-			bgName = "star_level_bg_128",
 			side = 0,
+			bgName = "star_level_bg_128",
+			actor = 502030,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -183,14 +183,14 @@ return {
 			}
 		},
 		{
-			actor = 501010,
+			say = "Gei ge wei bai nian la! We extend our New Year's greetings to you!",
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
+			actor = 501010,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "An Shan Class",
-			say = "Gei ge wei bai nian la! We extend our New Year's greetings to you!",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502010,
+			nameColor = "#a9f548",
 			say = "I'd like to extend my gratitude to Hiei and Seattle, whose experience with hosting large events was invaluable to us.",
 			effects = {
 				{
@@ -250,8 +250,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_128",
-			actor = 304022,
 			dir = 1,
+			actor = 304022,
 			nameColor = "#a9f548",
 			say = "It was my pleasure. All I want is to see everyone enjoying themselves, and that's enough to make me happy.",
 			typewriter = {
@@ -360,13 +360,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_128",
+			side = 2,
+			dir = 1,
 			say = "And so the banquet attendees were treated to a number of performances, with singers, dancers, and actors from not just the Dragon Empery, but from all the factions.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -391,13 +391,13 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "star_level_bg_128",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "We thank all the performers for their wonderful acts and songs. Now, we have one more thing to do before we end for the night...",
 			soundeffect = "event:/battle/firework",
+			actor = 502010,
+			nameColor = "#a9f548",
+			say = "We thank all the performers for their wonderful acts and songs. Now, we have one more thing to do before we end for the night...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,11 +444,11 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "Everyone",
-			bgName = "star_level_bg_128",
 			side = 2,
+			bgName = "star_level_bg_128",
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "*Clap clap clap*",
 			typewriter = {
@@ -491,15 +491,15 @@ return {
 			}
 		},
 		{
-			say = "A few days later - In the Sakura Empire",
 			side = 2,
 			bgName = "star_level_bg_129",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "newyear2",
+			say = "A few days later - In the Sakura Empire",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

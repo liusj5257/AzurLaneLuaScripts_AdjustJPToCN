@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "After a desperate defense, Chicago managed to buy time for Bagley to escape. However, she was incapacitated by the concentrated fire of the enemy cruisers and had to retreat. Bagley, alone, was powerless to stop the advance of the Sakura ships.",
 			typewriter = {
@@ -32,8 +32,8 @@ return {
 			actor = 303020,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:54}",
 			say = "I suppose so. Since this is a fast fleet, we can outmaneuver our enemies even if they outgun us. Besides, Tenryuu's group isn't cut out for heavy fighting.",
+			actorName = "{namecode:54}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -78,8 +78,8 @@ return {
 			actor = 303040,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:56}",
 			say = "Yes, yes, I know. We should be concentrating our efforts on supporting Operation SN now, correct?",
+			actorName = "{namecode:56}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

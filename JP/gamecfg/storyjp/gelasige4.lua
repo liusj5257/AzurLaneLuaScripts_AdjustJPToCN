@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"それは恋を呼ぶ季節\n\n<size=45>四 顔が近いですよっ！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "休み時間――",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "休み時間――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "うずたかく積まれたプリントの山を運ぶグラスゴー。早くもクラス委員として最初の仕事が始まっていた。",
 			typewriter = {
 				speed = 0.05,
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "「……軽率だったかな？」",
 			typewriter = {
 				speed = 0.05,
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "「プリント、良かったら運ぼうか？」",
 			typewriter = {
 				speed = 0.05,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "グラスゴーが足取りを早める――と、そこで前方から賑やかに会話している艦船たちの声が聞こえてきた。",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 103061,
 			dir = 1,
+			actor = 103061,
 			nameColor = "#a9f548",
 			say = "インディちゃん待ってったら～。まだ髪を梳かしきってないでしょ～？",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 103071,
 			dir = 1,
+			actor = 103071,
 			nameColor = "#a9f548",
 			say = "そう言ってお姉ちゃんずっと触りすぎ……ぜんぜん離してくれなかったから…",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 103061,
 			dir = 1,
+			actor = 103061,
 			nameColor = "#a9f548",
 			say = "ああ～ん、つれないインディちゃん……そんな姿もすごくすっごくかわいいっ！",
 			typewriter = {
@@ -253,9 +253,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "前からやってきたポートランドとインディアナポリスの二人に気づかないまま、グラスゴーが歩いていく。",
 			typewriter = {
 				speed = 0.05,
@@ -267,9 +267,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "ポートランドもインディアナポリスにしか視線がいっておらず、前から来るグラスゴーに気が付いていない。",
 			typewriter = {
 				speed = 0.05,
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "このままだと激突する――と、その瞬間。",
 			typewriter = {
 				speed = 0.05,
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			actor = 202261,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202261,
+			nameColor = "#a9f548",
 			say = "きゃっ――！",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -320,9 +320,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "急に両肩を掴まれたかと思うとグラスゴーの身体が壁際まで押し付けられる。",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 103071,
 			dir = 1,
+			actor = 103071,
 			nameColor = "#a9f548",
 			say = "……お姉ちゃん。前を見てないからグラスゴーさんたちにぶつかりそうだったじゃない",
 			typewriter = {
@@ -386,8 +386,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 103061,
 			dir = 1,
+			actor = 103061,
 			nameColor = "#a9f548",
 			say = "本当だ！ごめんなさぁい。インディちゃんに見とれてたらうっかりしちゃってました！",
 			typewriter = {
@@ -400,9 +400,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "ぺろりと舌を出して謝るポートランドと、丁寧に会釈するインディアナポリス。",
 			typewriter = {
 				speed = 0.05,
@@ -414,9 +414,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "そのまま離れていく二人には目もくれず、グラスゴーはバクバクと心臓を鳴らし立ちすくんでいた。",
 			typewriter = {
 				speed = 0.05,
@@ -431,8 +431,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "（どうしよう……突然のこととはいえ、貴方様から壁ドンされるなんて……！）",
 			typewriter = {
@@ -445,9 +445,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "目が回りそうになりながら、真っ赤な顔でプリントの束を胸に抱える。何か言わないと――！",
 			typewriter = {
 				speed = 0.05,
@@ -462,8 +462,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "か、顔が近いですよっ！！それに、は、はは早く教室に戻ってプリントを配らないと！",
 			typewriter = {
@@ -476,8 +476,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -486,9 +486,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "その言葉でようやくお互いの壁ドン状態が解かれた。まだ心臓の音が止まぬまま、グラスゴーが歩きだす。",
 			typewriter = {
 				speed = 0.05,
@@ -548,12 +548,12 @@ return {
 			}
 		},
 		{
-			actor = 201020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201020,
+			nameColor = "#a9f548",
 			say = "うん。グラスゴーのために頑張っちゃおうかな…",
 			typewriter = {
 				speed = 0.05,

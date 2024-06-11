@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ignited",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_ignited"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ignited",
-					number = 0.071
+					number = 0.071,
+					attr = "DMG_TAG_EHC_ignited"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ignited",
-					number = 0.082
+					number = 0.082,
+					attr = "DMG_TAG_EHC_ignited"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ignited",
-					number = 0.093
+					number = 0.093,
+					attr = "DMG_TAG_EHC_ignited"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ignited",
-					number = 0.104
+					number = 0.104,
+					attr = "DMG_TAG_EHC_ignited"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ignited",
-					number = 0.115
+					number = 0.115,
+					attr = "DMG_TAG_EHC_ignited"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ignited",
-					number = 0.126
+					number = 0.126,
+					attr = "DMG_TAG_EHC_ignited"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ignited",
-					number = 0.137
+					number = 0.137,
+					attr = "DMG_TAG_EHC_ignited"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ignited",
-					number = 0.148
+					number = 0.148,
+					attr = "DMG_TAG_EHC_ignited"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ignited",
-					number = 0.16
+					number = 0.16,
+					attr = "DMG_TAG_EHC_ignited"
 				}
 			}
 		}
@@ -142,12 +142,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 1010611,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1010611,
+	color = "red",
 	icon = 10610,
 	last_effect = "",
 	blink = {
@@ -164,8 +164,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_ignited",
-				number = 0.06
+				number = 0.06,
+				attr = "DMG_TAG_EHC_ignited"
 			}
 		}
 	}

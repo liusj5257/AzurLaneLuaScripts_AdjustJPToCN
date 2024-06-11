@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOLIFU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOLIFU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"シンプルパーティー？\n\n<size=45>二 Prost!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "そして、当の鉄血勢のパーティーの楽しみ方というと――",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "そして、当の鉄血勢のパーティーの楽しみ方というと――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403033,
 			dir = 1,
+			actor = 403033,
 			nameColor = "#a9f548",
 			say = "ふふふ…この日のためにとっておいたものだから、今日は気が済むまで飲むわよ",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 905011,
 			dir = 1,
+			actor = 905011,
 			nameColor = "#a9f548",
 			say = "いいんじゃないか。礼儀とかマナーとかに縛られてろくに酒を飲めないことより、思い切って飲んだほうがいいに決まってる",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 905011,
 			dir = 1,
+			actor = 905011,
 			nameColor = "#a9f548",
 			say = "俺にいわせれば、鉄血のこういう気が利くところが好きだ",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403033,
 			dir = 1,
+			actor = 403033,
 			nameColor = "#a9f548",
 			say = "ふふ、これは恐悦至極というべきかしら？そんなジャン・バールにはこれがおすすめよ？",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403033,
 			dir = 1,
+			actor = 403033,
 			nameColor = "#a9f548",
 			say = "ヴィシアの酒もいいけど、たまには鉄血の酒を楽しんでみたら？",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403033,
 			dir = 1,
+			actor = 403033,
 			nameColor = "#a9f548",
 			say = "そこの…大潮っていうのよね？一杯どう？",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 905011,
 			dir = 1,
+			actor = 905011,
 			nameColor = "#a9f548",
 			say = "ふん、では遠慮なくいただこう",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301642,
 			dir = 1,
+			actor = 301642,
 			nameColor = "#a9f548",
 			say = "おおきにな～",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405022,
 			dir = 1,
+			actor = 405022,
 			nameColor = "#a9f548",
 			say = "ふぅ…私もこういう場に馴染めるとは思わなかったわ",
 			typewriter = {
@@ -264,8 +264,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405022,
 			dir = 1,
+			actor = 405022,
 			nameColor = "#a9f548",
 			say = "社交辞令ではなく、あくまで仲間と楽しむために飲む酒の味……",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403033,
 			dir = 1,
+			actor = 403033,
 			nameColor = "#a9f548",
 			say = "ティルピッツ？なにを考え込んでいるの？今はとりあえず飲む、だけよ",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -305,12 +305,12 @@ return {
 			}
 		},
 		{
-			actor = 405022,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 405022,
+			nameColor = "#a9f548",
 			say = "ふぅ……そうね。今は考えないことにするわ",
 			typewriter = {
 				speed = 0.05,

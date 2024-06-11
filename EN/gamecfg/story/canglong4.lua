@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Together with Souryuu\n\n<size=45>Chapter 4: Unnecessary Things...?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Sakura Dorms",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Sakura Dorms",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "On my day off, I once again found myself headed for Souryuu's room, looking to relax and recover.",
 			typewriter = {
 				speed = 0.05,
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			say = "Commander, though you're free to spend your day off however you please, I'd recommend you do something more worthwhile.",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Commander, though you're free to spend your day off however you please, I'd recommend you do something more worthwhile.",
+			actor = 307030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "As she spoke, she was still working on documents that she had brought back from the office yesterday. Truly a model secretary.",
 			typewriter = {
@@ -161,11 +161,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307040,
+			nameColor = "#a9f548",
 			say = "That's not what I meant... When you're working hard like this, you look really beautiful. Don't you think so too, Commander?",
 			typewriter = {
 				speed = 0.05,
@@ -247,11 +247,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "Wow... Souryuu was being colder than usual.",
 			typewriter = {
@@ -344,11 +344,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307040,
+			nameColor = "#a9f548",
 			say = "Eh? Really?!",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +360,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

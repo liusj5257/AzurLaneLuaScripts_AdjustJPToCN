@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDAN04",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENGDAN04",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -16,8 +16,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			say = "母港・重桜寮",
 			typewriter = {
 				speed = 0.05,
@@ -29,10 +29,10 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			actorShadow = true,
-			actorName = "{namecode:78}&{namecode:79}",
 			side = 0,
+			actorName = "{namecode:78}&{namecode:79}",
+			actor = 305010,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "ただいまー",
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "うむ！ご苦労！よくぞ戻った！",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:82}",
 			dir = 1,
-			say = "うむ！ご苦労！よくぞ戻った！",
+			actor = 305110,
+			actorName = "{namecode:82}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -92,8 +92,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "睦月と…三笠大先輩？？",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:82}",
 			dir = 1,
+			actorName = "{namecode:82}",
 			say = "ああ、皆はその、「くりすます」とやらの準備忙しくてな……。我も手伝おうと思ったのだが「三笠大先輩、ここは私たちに任せてください」と遠慮された……",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:82}",
 			dir = 1,
+			actorName = "{namecode:82}",
 			say = "後輩たちに尊敬されるのはいいが、こうもかしこまられるとむしろ寂しく思ってな……",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "三笠大先輩……",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:82}",
 			dir = 1,
+			actorName = "{namecode:82}",
 			say = "まあ良い！我はここで小さい後輩たちの面倒を見るとしよう。",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:82}",
 			dir = 1,
+			actorName = "{namecode:82}",
 			say = "うむうむ、睦月は何がしたい？お馬さんごっこか？それとも、たかーいたかーいするか？",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:78}",
 			dir = 1,
+			actorName = "{namecode:78}",
 			say = "三笠大先輩は戦場では凛々しくてかっこいいと聞いたけど…",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "普段はこんな感じなんだ…",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:78}",
 			dir = 1,
+			actorName = "{namecode:78}",
 			say = "うふふ、さすが♪",
 			typewriter = {
 				speed = 0.05,
@@ -248,15 +248,15 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			actorName = "{namecode:82}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "――よし！では我々も「重桜寮くりすますパーティー」を始めるぞ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -284,8 +284,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "姉さま、みんな、メリークリスマス！",
 			typewriter = {
 				speed = 0.05,
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			actor = 305010,
+			say = "山城、メリークリスマス！",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:78}",
 			dir = 1,
-			say = "山城、メリークリスマス！",
+			actor = 305010,
+			actorName = "{namecode:78}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -320,8 +320,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "殿様、まだ執務室にいるかな……",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:78}",
 			dir = 1,
+			actorName = "{namecode:78}",
 			say = "そんなに気になったら、会いに行ったら？ついでにクリスマス衣装も指揮官様に見せてもいいわよ？",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "ね、姉さま……///",
 			typewriter = {
 				speed = 0.05,
@@ -368,8 +368,8 @@ return {
 			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:78}",
 			dir = 1,
+			actorName = "{namecode:78}",
 			say = "山城は大事な妹だからね。こういう時に後押ししないとお姉さん失格よ？",
 			typewriter = {
 				speed = 0.05,
@@ -399,8 +399,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "じゃ、じゃあ…！睦月ちゃんひとりに行かせると危ないから、私が連れて行くね！",
 			typewriter = {
 				speed = 0.05,
@@ -415,8 +415,8 @@ return {
 			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:78}",
 			dir = 1,
+			actorName = "{namecode:78}",
 			say = "あらら……気をつけていってらっしゃい。うふふ♪",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA7",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 305110,
-			side = 2,
-			soundeffect = "event:/battle/plane",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "これは…爆撃機？",
 			bgm = "cw-battle-boss",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "これは…爆撃機？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.12,
 					x = 30,
@@ -36,8 +36,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "ええ、三笠様の旧式艤装では対空火力が貧弱だとお聞きしております",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "なので、量産型の空母を後方に配置し、航空攻撃を仕掛けさせました。勝負を決めさせていただきます…！",
 			typewriter = {
 				speed = 0.05,

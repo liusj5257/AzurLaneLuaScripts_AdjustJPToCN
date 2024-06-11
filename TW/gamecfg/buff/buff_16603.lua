@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 10,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "10s DOT",
 	stack = 1,
@@ -15,11 +15,21 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0.7,
 				attr = "torpedoPower",
-				number = 10,
 				time = 3,
 				dotType = 2,
-				k = 0.7
+				number = 10
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "flood"
 			}
 		}
 	}

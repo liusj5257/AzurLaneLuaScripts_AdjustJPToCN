@@ -1,6 +1,6 @@
 slot0 = class("IslandBuildPage")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.buildPanel = slot1
 	slot0.activityId = ActivityConst.ISLAND_TASK_ID
 
@@ -45,7 +45,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:updatePoint()
 end
 
-function slot0.updatePoint(slot0)
+slot0.updatePoint = function(slot0)
 	slot1 = 0
 	slot2 = 1
 
@@ -90,7 +90,7 @@ function slot0.updatePoint(slot0)
 	slot0:setProgressText()
 end
 
-function slot0.getBuildLv(slot0, slot1)
+slot0.getBuildLv = function(slot0, slot1)
 	slot2 = 1
 
 	for slot6 = #slot0.buffs, 1, -1 do
@@ -102,19 +102,19 @@ function slot0.getBuildLv(slot0, slot1)
 	return slot2
 end
 
-function slot0.setProgressText(slot0)
+slot0.setProgressText = function(slot0)
 	setText(slot0.pointProgressText, setColorStr(slot0:getNum(), "#C2695B") .. setColorStr("/" .. slot0.maxNum, "#9D6B59"))
 end
 
-function slot0.getNum(slot0)
+slot0.getNum = function(slot0)
 	return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2):GetBuildingLevelSum()
 end
 
-function slot0.setActive(slot0, slot1)
+slot0.setActive = function(slot0, slot1)
 	setActive(slot0.buildPanel, slot1)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
 return slot0

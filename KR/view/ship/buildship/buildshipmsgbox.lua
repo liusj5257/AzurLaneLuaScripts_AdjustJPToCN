@@ -1,10 +1,10 @@
 slot0 = class("BuildShipMsgBox", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BuildShipMsgBoxUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.cancenlBtn = findTF(slot0._go, "window/btns/cancel_btn")
 	slot0.confirmBtn = findTF(slot0._go, "window/btns/confirm_btn")
 	slot0.closeBtn = findTF(slot0._go, "window/close_btn")
@@ -19,7 +19,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("window/btns/confirm_btn/Image/Image (1)"), i18n("text_confirm"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -63,12 +63,12 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateTxt(slot0, slot1)
+slot0.updateTxt = function(slot0, slot1)
 	slot0.valueTxt.text = slot1
 	slot0.text.text = slot0:GetDesc(slot1)
 end
 
-function slot0.GetDesc(slot0, slot1)
+slot0.GetDesc = function(slot0, slot1)
 	switch(slot0.buildType, {
 		base = function ()
 			slot0 = uv0.buildPool
@@ -98,7 +98,7 @@ function slot0.GetDesc(slot0, slot1)
 	return ""
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.showing = true
 
 	for slot5, slot6 in pairs(slot1) do
@@ -113,7 +113,7 @@ function slot0.Show(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0.showing = false
 
 	if slot0._go then
@@ -127,11 +127,11 @@ function slot0.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.isShowing(slot0)
+slot0.isShowing = function(slot0)
 	return slot0.showing
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

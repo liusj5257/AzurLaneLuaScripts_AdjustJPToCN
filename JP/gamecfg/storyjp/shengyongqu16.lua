@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU16",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "トゥーロン港・過去にて",
 			side = 2,
 			bgName = "bg_qiongding_8",
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "story-richang",
+			say = "トゥーロン港・過去にて",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -38,12 +38,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "暖かい日差し、心に染みる海と土の匂い、甘くてとろけるダンケルクさんの手作りお菓子――",
 			typewriter = {
 				speed = 0.05,
@@ -58,10 +58,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "今日も一日エレガントに過ごせそうですわ",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "テリブルちゃん、おはようございます。げほげほ…すみません、ルーちゃんとやってみたかったマジック、失敗してしまいました……",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#a9f548",
 			say = "ごめんなさい！それは本当に私の冗談だよ！信じちゃダメだよ！タルテュもなんでルーちゃんたちを止めなかったの！",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			nameColor = "#a9f548",
 			say = "…あっ。ごめんなさいヴォークラン、今なにか言いました？",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#a9f548",
 			say = "ああもう！もうタルテュのことなんて知らない！みんなの手伝いしてくる！",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "げほげほ…ヴォークランちゃん、がんばってー！",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#a9f548",
 			say = "ダンケルクさんは今厨房にいるかな？うん！ちょっとそっちに行ってくる！",
 			typewriter = {
@@ -185,8 +185,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 2500
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "はああ……",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#a9f548",
 			say = "楽しそうにしているみんなと、暇すぎて錆びつきそうなあたし……",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "枢機卿なら、確かあっちのテーブルに…？あれ…？",
 			typewriter = {
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "リシュリューさんなら教会に行きましたよ",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#a9f548",
 			say = "おっ、Merci～",
 			typewriter = {
@@ -311,12 +311,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……………",
 			typewriter = {
 				speed = 0.05,
@@ -331,10 +331,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "これ、熱すぎません…？",
 			typewriter = {
 				speed = 0.05,
@@ -349,13 +349,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 901110,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#a9f548",
 			say = "そこにいるのは…ラ・ガリソニエールさんにアルジェリーさんですか。こんにちは",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -383,8 +383,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#a9f548",
 			say = "マランちゃんじゃない！お茶会に行かなかったの？",
 			typewriter = {
@@ -400,8 +400,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 901110,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#a9f548",
 			say = "いきたかっ…コホン！いいえ、私は巡視当番の任務があったため今回は不参加といたしました",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -427,8 +427,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 901110,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#a9f548",
 			say = "ですがご心配なく。私の分のお菓子はテリブルが持ってきてくれますので",
 			typewriter = {
@@ -444,8 +444,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#a9f548",
 			say = "そうなの？せっかくみんな集まってるし一緒に遊んだほうが楽しいよ？",
 			typewriter = {
@@ -461,8 +461,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "枢機卿はこの中にいる？",
 			typewriter = {
@@ -478,8 +478,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 901110,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#a9f548",
 			say = "リシュリュー様なら――",
 			typewriter = {
@@ -511,8 +511,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#a9f548",
 			say = "ジャン・バール？あ、別に大したこと無いよ？お茶会の主催がいつまでも戻ってこないのが気になっちゃって",
 			typewriter = {
@@ -557,15 +557,15 @@ return {
 			}
 		},
 		{
-			actor = 902010,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 902010,
+			nameColor = "#a9f548",
 			say = "相変わらず紅茶を淹れるのが上手いね。あたしこういうの全然ダメなのに",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -593,8 +593,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "落ち着いて淹れれば誰だってこの程度できるわ。いつもそそっかしそうなあなたにはちょっと難しいかもしれないけど",
 			typewriter = {
@@ -607,11 +607,11 @@ return {
 			}
 		},
 		{
-			actor = 902010,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 902010,
+			nameColor = "#a9f548",
 			say = "そうなの？まあ別にあたしが淹れなくてもみんなが淹れてくれるからいいや",
 			dialogShake = {
 				speed = 0.09,
@@ -663,8 +663,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#a9f548",
 			say = "それを上層部に報告したら、これ以上踏み込むなってなって「ふーん」って感じだけど",
 			typewriter = {
@@ -696,8 +696,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "……「鉄血との戦争勃発の可能性」…",
 			typewriter = {
@@ -713,8 +713,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "（あまり考えたくないけど、リシュリューとジャン・バールも確かそう口にしていたわね）",
 			typewriter = {
@@ -730,8 +730,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#a9f548",
 			say = "今はまだ平和だけど、多分すぐ楽しくなるよね。ほら、楽しい硝煙の匂い、するし",
 			typewriter = {
@@ -747,8 +747,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "それはルピニャ―トたちのマジックによるものではなくて？…おかわり、いるかしら？",
 			typewriter = {
@@ -764,8 +764,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_8",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#a9f548",
 			say = "はーい",
 			typewriter = {
@@ -778,12 +778,12 @@ return {
 			}
 		},
 		{
-			say = "聖堂の島・少し前",
-			side = 2,
 			bgName = "bg_qiongding_6",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bgm-cccp2",
+			say = "聖堂の島・少し前",
 			effects = {
 				{
 					active = false,
@@ -791,8 +791,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -820,8 +820,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "……いけない、昔のことを思い返してしまってたわ",
 			typewriter = {
@@ -837,8 +837,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "ヴォークランとラ・ガリソニエールはもう出発したし、私も早く準備しないと",
 			typewriter = {
@@ -851,9 +851,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "アルジェリーが部屋から出ようとしたその時、ある人物が扉の前に現れた。",
 			typewriter = {
 				speed = 0.05,
@@ -868,8 +868,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			nameColor = "#ffff4d",
 			say = "護教騎士アルジェリー、本部からの秘密命令の受領を求む",
 			typewriter = {
@@ -885,8 +885,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "……本部から？やはりあなた、ただの助っ人ではないようね",
 			typewriter = {
@@ -899,9 +899,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "アルジェリーは無表情な少女――ガスコーニュから小さい箱を受け取った。",
 			typewriter = {
 				speed = 0.05,
@@ -913,9 +913,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "精巧な装飾が施された古めかしい手箱だが、どこか違和感を覚えた。",
 			typewriter = {
 				speed = 0.05,
@@ -930,8 +930,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "（かなり年月が経ってるアイリスの箱…ヴィシア聖座の装飾はあとでつけられたのね。開けた痕跡がないから、この子も中身を知らなそう。）",
 			dialogShake = {
@@ -949,9 +949,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "箱を開けると、そこには小さなメモと装置が入っていた。",
 			typewriter = {
 				speed = 0.05,
@@ -966,8 +966,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "（聖座からの密令、ね。一体どういう……）",
 			typewriter = {
@@ -983,9 +983,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
 			blackBg = true,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "………………！",
 			typewriter = {

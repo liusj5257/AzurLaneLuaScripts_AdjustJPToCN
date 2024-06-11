@@ -1,6 +1,6 @@
 slot0 = class("CattertAddHomeExpAndCommanderExpAnim", import(".CatteryAddHomeExpAnim"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 	slot2 = findTF(slot0._tf, "home/slider")
 	slot0.expSlider = slot2:GetComponent(typeof(Slider))
@@ -27,10 +27,10 @@ function slot0.Ctor(slot0, slot1)
 	setActive(slot0._tf, false)
 end
 
-function slot0.RefreshAward(slot0)
+slot0.RefreshAward = function(slot0)
 end
 
-function slot0.Action(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.Action = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.commanderExps = slot1
 
 	parallelAsync({
@@ -44,15 +44,15 @@ function slot0.Action(slot0, slot1, slot2, slot3, slot4, slot5)
 	}, slot5)
 end
 
-function slot0.HideOrShowAddition(slot0, slot1)
+slot0.HideOrShowAddition = function(slot0, slot1)
 	setActive(slot0.addition, slot1 > 0)
 end
 
-function slot0.GetAwardOffset(slot0)
+slot0.GetAwardOffset = function(slot0)
 	return 473
 end
 
-function slot0.InitCommanders(slot0)
+slot0.InitCommanders = function(slot0)
 	slot0.displays = {}
 
 	for slot6, slot7 in pairs(getProxy(CommanderProxy):GetCommanderHome():GetCatteries()) do
@@ -65,7 +65,7 @@ function slot0.InitCommanders(slot0)
 	slot0.uilist:align(#slot0.displays)
 end
 
-function slot0.DoCommandersAnim(slot0, slot1)
+slot0.DoCommandersAnim = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.cards) do
@@ -77,7 +77,7 @@ function slot0.DoCommandersAnim(slot0, slot1)
 	parallelAsync(slot2, slot1)
 end
 
-function slot0.UpdateCommander(slot0, slot1, slot2)
+slot0.UpdateCommander = function(slot0, slot1, slot2)
 	if not slot0.cards[slot1] then
 		slot0.cards[slot1] = CatteryAnimCard.New(slot1)
 	end
@@ -93,7 +93,7 @@ function slot0.UpdateCommander(slot0, slot1, slot2)
 	slot3:Update(slot2, slot4)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	uv0.super.Clear(slot0)
 
 	for slot4, slot5 in pairs(slot0.cards) do
@@ -101,7 +101,7 @@ function slot0.Clear(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 
 	for slot4, slot5 in pairs(slot0.cards) do

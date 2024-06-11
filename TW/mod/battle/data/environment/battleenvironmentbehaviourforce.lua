@@ -6,7 +6,7 @@ slot3 = class("BattleEnvironmentBehaviourForce", slot0.Battle.BattleEnvironmentB
 slot0.Battle.BattleEnvironmentBehaviourForce = slot3
 slot3.__name = "BattleEnvironmentBehaviourForce"
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 	slot0._moveEndTime = nil
 	slot0._lastSpeed = nil
 	slot0._speed = Vector3.zero
@@ -15,7 +15,7 @@ function slot3.Ctor(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot3.SetTemplate(slot0, slot1)
+slot3.SetTemplate = function(slot0, slot1)
 	uv0.super.SetTemplate(slot0, slot1)
 
 	slot0._route = slot1.route or {}
@@ -38,7 +38,7 @@ function slot3.SetTemplate(slot0, slot1)
 	slot0._bounds = slot5
 end
 
-function slot3.doBehaviour(slot0)
+slot3.doBehaviour = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance():GetCombatTime()
 
 	if slot0._moveEndTime and slot0._moveEndTime <= slot1 then
@@ -61,7 +61,7 @@ function slot3.doBehaviour(slot0)
 	uv0.super.doBehaviour(slot0)
 end
 
-function slot3.UpdateAndRestrictPosition(slot0, slot1)
+slot3.UpdateAndRestrictPosition = function(slot0, slot1)
 	if slot0._speed:SqrMagnitude() < 0.01 then
 		return slot1
 	end
@@ -85,7 +85,7 @@ function slot3.UpdateAndRestrictPosition(slot0, slot1)
 	return slot3
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 	table.clear(slot0)
 end

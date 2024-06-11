@@ -1,6 +1,6 @@
 slot0 = class("NewOrleansLoginPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.showItemTpl = slot0:findTF("ShowItem", slot0.bg)
 	slot0.showItemContainer = slot0:findTF("ItemShowList", slot0.bg)
@@ -17,7 +17,7 @@ function slot0.OnInit(slot0)
 	slot0.stepText = slot0:findTF("step_text", slot0.bg)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.linkActivity = getProxy(ActivityProxy):getActivityById(slot0.activity:getConfig("config_client").act_id)
 	slot0.nday = 0
 	slot0.taskProxy = getProxy(TaskProxy)
@@ -29,7 +29,7 @@ function slot0.OnDataSetting(slot0)
 	return updateActivityTaskStatus(slot0.linkActivity)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = slot0.uilist
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -95,7 +95,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.nday = slot0.linkActivity.data3
 
 	if checkExist(slot0.linkActivity:getConfig("config_client").story, {
@@ -117,7 +117,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0.itemList:align(slot0.Day)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

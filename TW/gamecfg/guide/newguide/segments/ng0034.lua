@@ -19,8 +19,8 @@ return {
 			style = {
 				text = "此外，解鎖了控制中心功能",
 				mode = 1,
-				posY = -214.2,
 				dir = 1,
+				posY = -214.2,
 				posX = 477.25
 			}
 		},
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			alpha = 0,
 			waitScene = "AtelierBuffLayer",
+			alpha = 0,
 			code = {
 				1
 			},
@@ -60,8 +60,8 @@ return {
 			style = {
 				text = "現在試試將核心放入圓形控制盤中，點擊選中左側圓盤",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = -370.59
 			}
 		},
@@ -83,8 +83,8 @@ return {
 			style = {
 				text = "將擁有的核心放入控制盤中",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 0
 			}
 		},
@@ -96,12 +96,12 @@ return {
 			style = {
 				text = "生效的效果加成將顯示在此處",
 				mode = 1,
-				posY = 372.9,
 				dir = 1,
+				posY = 372.9,
 				posX = -182.6,
 				ui = {
-					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Effects/ScrollView",
-					lineMode = true
+					lineMode = true,
+					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Effects/ScrollView"
 				}
 			}
 		},
@@ -113,12 +113,12 @@ return {
 			style = {
 				text = "核心可通過鍊金工房的對應配方獲取",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 461.5,
 				ui = {
-					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Items/List/1",
-					lineMode = true
+					lineMode = true,
+					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Items/List/1"
 				}
 			}
 		}

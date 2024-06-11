@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN23",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Floating Fortress - D12 defense line",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-2",
+			say = "Floating Fortress - D12 defense line",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "Everything is ready on our end. How's it going with the Pawns in D13?",
 			typewriter = {
@@ -78,8 +78,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "...Wait a minute. This is weird... One of the fleets of mass-produced ships just started moving. They're headed towards the Fortress.",
 			typewriter = {
@@ -95,8 +95,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "The Fortress...? They're moving towards our top-secret facility?!",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "...It just so happens I managed to regain control over the mainframe. If they're after our top-secret info, I'll send them to the bottom of the ocean in no time. ",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "No problem there. By regaining control of the mainframe, I also regained control over all the airfields. We have all the firepower we could possibly need.",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "Let us put them to the test... Command to airfields A1 through B3: scramble all aircraft, including support wings!",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "Target: the Pawns and mass-produced ships in D13 that have run amok!",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "Fly! Fly, and leave not a single atom of those malfunctioning machines!",
 			typewriter = {

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUA12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "xinnong-1",
-			side = 2,
-			soundeffect = "event:/battle/boom2",
-			dir = 1,
 			say = "轟------！",
+			side = 2,
+			bgm = "xinnong-1",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,8 +37,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -79,8 +79,8 @@ return {
 		{
 			actor = 307010,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "聽到這麼大的動靜，我還以為塞壬來攻城了。這是在做什麼，歐根？",
 			paintingFadeOut = {
 				time = 0.5,
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,

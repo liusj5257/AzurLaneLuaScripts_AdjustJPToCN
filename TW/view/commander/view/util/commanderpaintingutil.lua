@@ -1,6 +1,6 @@
 slot0 = class("CommanderPaintingUtil")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.rect = slot1.parent.rect
 	slot2 = slot1.parent.parent:Find("background")
 	slot0._tf = slot1
@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.initPosition = slot0._tf.localPosition
 end
 
-function slot0.Fold(slot0)
+slot0.Fold = function(slot0)
 	slot0.zoomDelegate:SetZoomTarget(slot0._tf)
 
 	slot0.zoomDelegate.enabled = true
@@ -69,7 +69,7 @@ function slot0.Fold(slot0)
 	end)
 end
 
-function slot0.UnFold(slot0)
+slot0.UnFold = function(slot0)
 	LeanTween.move(rtf(slot0._tf), slot0.initPosition, 0.5)
 
 	slot0.zoomDelegate.enabled = false
@@ -85,7 +85,7 @@ function slot0.UnFold(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:UnFold()
 end
 

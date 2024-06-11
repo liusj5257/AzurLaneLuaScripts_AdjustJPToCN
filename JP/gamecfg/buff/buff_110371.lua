@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "威压",
 	time = 5,
+	name = "威压",
+	init_effect = "",
 	picture = "",
 	desc = "伤害降低",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = -0.05
+				number = -0.05,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

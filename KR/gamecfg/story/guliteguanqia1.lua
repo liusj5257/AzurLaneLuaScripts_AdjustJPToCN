@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GULITEGUANQIA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GULITEGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
-			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#a9f548",
 			actorName = "？？？",
+			bgName = "star_level_bg_1100",
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Zzzzzz………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "주위가 캄캄해... 꿈 속인가...?",
 			typewriter = {
 				speed = 0.05,
@@ -59,12 +59,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "지금 몇 시지..?",
 			typewriter = {
 				speed = 0.05,
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "파티 때문에 바쁘고, 일도 많았는데, 가끔 이렇게 게으름 피워도 괜찮겠지…",
 			typewriter = {
 				speed = 0.05,
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "지휘관도 늦잠 자고 있을지 모르고, 어쨌든 벨파스트도 있으니까…",
 			typewriter = {
 				speed = 0.05,
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "？？？",
+			hidePaintObj = true,
 			say = "조금만 더 자야겠다——",
 			typewriter = {
 				speed = 0.05,
@@ -129,14 +129,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_147",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
+			actorName = "？？？",
 			bgm = "ssss-az-story",
 			actor = 900233,
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
+			bgName = "star_level_bg_147",
 			say = "선생님이 지금 테스트를 위해 3종류의 시험지를 준비했어. 4명의 학생은 그중에서 하나의 시험지를 선택해 풀어야 한다면 3개의 시험지가 모두 선택될 확률은?",
 			flashout = {
 				dur = 1,
@@ -163,13 +163,13 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "star_level_bg_147",
+			dir = 1,
+			actor = 900233,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "정답을 아는 학생은 대답해 보렴.",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +181,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
+			dir = 1,
 			say = "시끄러워, 무슨 소리지.",
 			typewriter = {
 				speed = 0.05,
@@ -198,10 +198,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 102163,
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "에든버러, 야, 에든버러… 설마 자고 있는 건 아니지?",
 			typewriter = {
@@ -217,11 +217,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 10800050,
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			say = "대단하네.",
 			typewriter = {
 				speed = 0.05,
@@ -236,11 +236,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 10800020,
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			say = "자유로운 건 좋은데, 선생님에게 들킨 것 같아.",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
+			dir = 1,
 			say = "흔들지 마, 누구야, 짜증나.",
 			typewriter = {
 				speed = 0.05,
@@ -269,10 +269,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			dir = 1,
 			actor = 900233,
-			actorName = "？？？",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "에든버러! 왜 또 수업 시간에 자고 있니!?",
 			dialogShake = {
@@ -290,12 +290,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "우움…………. 여긴, 지금 교실?",
 			typewriter = {
 				speed = 0.05,
@@ -310,10 +310,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "선생님?",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			nameColor = "#a9f548",
+			actorName = "선생님?",
 			hidePaintObj = true,
 			say = "기억은 나니? 한숨 편히 잤으니 방금 전 문제에 대해 대답해 보렴.",
 			typewriter = {
@@ -326,13 +326,13 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "선생님?",
 			side = 2,
+			bgName = "star_level_bg_147",
+			dir = 1,
+			actor = 900233,
+			actorName = "선생님?",
+			hidePaintObj = true,
 			say = "선생님이 지금 테스트를 위해 3종류의 시험지를 준비했다고 했어. 4명의 학생은 그중에서 하나의 시험지를 선택해 풀어야 한다면 3개의 시험지가 모두 선택될 확률은?",
 			typewriter = {
 				speed = 0.05,
@@ -385,8 +385,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -395,13 +395,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "(맞, 맞았다니…. 위험했어.)",
 			typewriter = {
 				speed = 0.05,
@@ -432,13 +432,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아, 답이 나왔다! 정답은 B에요!",
 			typewriter = {
 				speed = 0.05,
@@ -450,8 +450,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -479,13 +479,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 3,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아, 답이 나왔다! 정답은 B에요!",
 			typewriter = {
 				speed = 0.05,
@@ -497,8 +497,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -526,13 +526,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 4,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아, 답이 나왔다! 정답은 B에요!",
 			typewriter = {
 				speed = 0.05,
@@ -544,8 +544,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -573,13 +573,13 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_147",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 5,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "아, 답이 나왔다! 정답은 B에요!",
 			typewriter = {
 				speed = 0.05,
@@ -591,8 +591,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -601,13 +601,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "star_level_bg_147",
+			dir = 1,
 			actor = 900233,
-			nameColor = "#a9f548",
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			dir = 1,
 			actorName = "선생님?",
-			side = 2,
+			hidePaintObj = true,
 			say = "정답이야… 혹시 어젯밤 늦게까지 공부해서 이렇게 피곤한 거니? 무슨 이유에서라도 수업 시간엔 졸면 안 돼요, 어서 앉으렴.",
 			typewriter = {
 				speed = 0.05,
@@ -622,10 +622,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
-			actorName = "선생님?",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			nameColor = "#a9f548",
+			actorName = "선생님?",
 			hidePaintObj = true,
 			say = "자, 다음 내용은——————",
 			typewriter = {
@@ -671,12 +671,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

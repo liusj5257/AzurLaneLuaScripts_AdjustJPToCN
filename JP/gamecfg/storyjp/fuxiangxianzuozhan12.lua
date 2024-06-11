@@ -1,16 +1,16 @@
 return {
-	id = "FUXIANGXIANZUOZHAN12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN12",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "――――――！！",
-			dir = 1,
 			bgm = "battle-heroines-image",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "――――――！！",
 			flashN = {
 				color = {
 					1,
@@ -61,8 +61,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			say = "「駒」の赤城を撃破したよ！",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401460,
 			dir = 1,
+			actor = 401460,
 			say = "こちらも、神通の「駒」の撃破に成功した",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "よし、これで「重桜」の「駒」も片付けたわね。そろそろ次のエリアに向かっていい？",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "「駒」の空母が破壊されたら、艦載機も無力化されるはず…もしかしてまだ「駒」が残っている？",
 			typewriter = {
 				speed = 0.05,
@@ -139,9 +139,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "そんなはずないわ。………っ！？",
 			dialogShake = {
 				speed = 0.09,
@@ -161,8 +161,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "どうしたの？",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "こちらが設定した「駒」じゃない。演習弾じゃなくて実弾装填機よ！",
 			typewriter = {
 				speed = 0.05,
@@ -222,9 +222,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ペーター！大丈夫？さっき重桜の艦載機とかなんとかって……",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,8 +249,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401460,
 			dir = 1,
+			actor = 401460,
 			say = "通信チャンネルで聞いた",
 			typewriter = {
 				speed = 0.05,
@@ -265,8 +265,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "何かしらの手違いでD13区画以外にも「駒」と量産艦艦隊が展開されているわ。しかも実弾でね",
 			typewriter = {
 				speed = 0.05,
@@ -280,9 +280,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "そんなのありえる？？",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -307,8 +307,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "ありえるも何も現にそれが起きてるのよ。そもそもこのセイレーン装置、ビスマルクでも100％把握できているわけではないしね",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "今の所、外周にある侵入者対策用の量産艦と同じに見えるわ",
 			typewriter = {
 				speed = 0.05,
@@ -339,8 +339,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			say = "そっか……これからどうする？",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "一回合流するわ。とりあえず「駒」の空母を探し出して、施設に被害を与えられる前に破壊しなきゃ",
 			typewriter = {
 				speed = 0.05,
@@ -386,8 +386,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401460,
 			dir = 1,
+			actor = 401460,
 			say = "了解した。後ほどまた会おう",
 			typewriter = {
 				speed = 0.05,
@@ -401,9 +401,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "アイゼンくん！実戦だよ！しっかり頑張ってね！",
 			typewriter = {
 				speed = 0.05,
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

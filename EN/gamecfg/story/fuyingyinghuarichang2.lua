@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUARICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUYINGYINGHUARICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Blessings and Tidings\n\n<size=45>Chapter 2: Sleepy Shougatsu</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_room",
 			bgm = "newyear2",
 			actor = 305141,
 			nameColor = "#a9f548",
 			say = "Hanging out inside a kotatsu, munching on tangerines, watching some television... Yeah, that's the New Year's spirit I like...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 305141,
 			dir = 1,
+			actor = 305141,
 			nameColor = "#a9f548",
 			say = "It's great not having to worry about anything, just rolling around like this all day~",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 331050,
 			dir = 1,
+			actor = 331050,
 			nameColor = "#a9f548",
 			say = "The kotatsu... is truly terrifying. Ayanami is melting into it as well.",
 			typewriter = {
@@ -90,8 +90,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 301811,
 			dir = 1,
+			actor = 301811,
 			nameColor = "#a9f548",
 			say = "Amazing... Even Foo is melting...",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 305141,
 			dir = 1,
+			actor = 305141,
 			nameColor = "#a9f548",
 			say = "Yesh... this is the real melting pot... Wait a sec! Since when did you two get in here?!",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,8 +134,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 331050,
 			dir = 1,
+			actor = 331050,
 			nameColor = "#a9f548",
 			say = "\"Yeah, that's the New Year's spirit I like.\" Since that time.",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 305141,
 			dir = 1,
+			actor = 305141,
 			nameColor = "#a9f548",
 			say = "Geh?! ...Wh-who'd you hear that from? It must've been your imagination!",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,8 +194,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 331050,
 			dir = 1,
+			actor = 331050,
 			nameColor = "#a9f548",
 			say = "You don't have to hide anything. It is human nature to seek the comfort of a kotatsu.",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 301811,
 			dir = 1,
+			actor = 301811,
 			nameColor = "#a9f548",
 			say = "\"Release your inhibitions and give in to your deepest desires.\" That's what Foo said.",
 			typewriter = {
@@ -228,8 +228,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 305141,
 			dir = 1,
+			actor = 305141,
 			nameColor = "#a9f548",
 			say = "That Foo character seems awfully self-interested... *sigh*...",
 			typewriter = {
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 305141,
 			dir = 1,
+			actor = 305141,
 			nameColor = "#a9f548",
 			say = "Well, I suppose all is fine. Let's retreat into the kotatsu together. Want a tangerine?",
 			typewriter = {
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 301811,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301811,
+			nameColor = "#a9f548",
 			say = "Kasumi... might want some red bean soup...",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +275,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 331050,
 			dir = 1,
+			actor = 331050,
 			nameColor = "#a9f548",
 			say = "Eating red bean soup inside a kotatsu...?",
 			typewriter = {
@@ -305,9 +305,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 305141,
 			dir = 1,
 			blackBg = true,
+			actor = 305141,
 			nameColor = "#a9f548",
 			say = "What happened to my tangerine...? Eh? Huh?",
 			typewriter = {

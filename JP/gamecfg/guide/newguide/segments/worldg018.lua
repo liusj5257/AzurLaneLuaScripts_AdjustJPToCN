@@ -4,8 +4,8 @@ return {
 		{
 			alpha = 0,
 			ui = {
-				path = "UICamera/Canvas/UIMain/WorldUI(Clone)/main/bottom_chapter/rt_redeploy/btn_redeploy",
 				pathIndex = -1,
+				path = "UICamera/Canvas/UIMain/WorldUI(Clone)/main/bottom_chapter/rt_redeploy/btn_redeploy",
 				triggerType = {
 					1
 				},

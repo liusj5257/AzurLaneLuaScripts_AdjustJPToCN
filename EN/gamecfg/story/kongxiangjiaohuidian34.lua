@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN34",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuiluo_2",
-			stopbgm = true,
-			say = "Somewhere, in an unknown location...",
 			bgmDelay = 2,
 			bgm = "battle-torch-theme",
+			stopbgm = true,
+			say = "Somewhere, in an unknown location...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "A sea dyed deep red. This battlefield had become a grave shipyard – the final resting place for dozens of smoking wreckages.",
 			typewriter = {
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "Friedrich lay on her back in the water, gazing silently into the distance.",
 			typewriter = {
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "Although her rigging had suffered terrible damage, the light of determination still glimmered in her eyes.",
 			typewriter = {
@@ -58,11 +58,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "The Hermit fell to her knees, Enterprise META having dealt the final blow.",
 			typewriter = {
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "...You did good, keeping her busy.",
 			painting = {
@@ -137,9 +137,9 @@ return {
 		{
 			actor = 499020,
 			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_zhuiluo_2",
 			say = "No need to thank me.",
 			painting = {
 				alpha = 0.3,
@@ -245,9 +245,9 @@ return {
 			bgName = "bg_zhuiluo_2",
 			paintingNoise = true,
 			dir = 1,
-			actorName = "Takao META",
-			actor = 900192,
 			nameColor = "#ffa500",
+			actor = 900192,
+			actorName = "Takao META",
 			say = "This was an insanely risky gamble. I can't believe this fool's errand worked.",
 			painting = {
 				alpha = 0.3,
@@ -261,9 +261,9 @@ return {
 		{
 			actor = 499020,
 			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_zhuiluo_2",
 			say = "(This was no small feat, but we had all the tools to pull it off. The Ashes' strength, the High Seas Fleet's acting, Bismarck's quick thinking...)",
 			painting = {
 				alpha = 0.3,
@@ -278,8 +278,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			nameColor = "#A9F548FF",
 			say = "(And the ever-important outlier... my child.)",
 			painting = {
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "Time to check on our prey.",
 			painting = {
@@ -309,11 +309,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
+			bgName = "bg_zhuiluo_2",
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "We meet again.",
 			painting = {
@@ -325,17 +325,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -343,11 +343,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "...What are you going to do?",
 			painting = {
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "Nothing much. I just want to see what happens if I activate one of your backup vessels.",
 			painting = {
@@ -377,11 +377,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "That's it? That's your plan?",
 			painting = {
@@ -394,11 +394,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "Should've figured. You Ashes have absolutely no idea what you're doing.",
 			painting = {
@@ -411,11 +411,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "Do yourselves a favor and give up already.",
 			painting = {
@@ -428,11 +428,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "We have you by the neck, yet you still act like you have the upper hand.",
 			painting = {
@@ -445,11 +445,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "\"You can't do anything without Zero's express permission.\" That's what you're thinking.",
 			painting = {
@@ -462,11 +462,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "What if I told you I have an emergency identification code from the Creator?",
 			painting = {
@@ -479,11 +479,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "What?! No, you're lying! No such thing exists!",
 			painting = {
@@ -501,11 +501,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "Oh, but Anzeel showed it to me once.",
 			painting = {
@@ -518,11 +518,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "It so happens I remember it.",
 			painting = {
@@ -535,11 +535,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "......",
 			painting = {
@@ -552,11 +552,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "You can't threaten me, Code G. Zero will know the instant you use that.",
 			painting = {
@@ -569,11 +569,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "Besides, what good is an Arbiter vessel to you?",
 			painting = {
@@ -586,11 +586,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "It'll connect to the network and automatically synchronize its data.",
 			painting = {
@@ -603,11 +603,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "All you'll do is create one more thing that wants you dead.",
 			painting = {
@@ -620,11 +620,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "We'll see if that's true, once we've made a few changes to your mainframe.",
 			painting = {
@@ -637,11 +637,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "What?! What are you going to do to it?!",
 			painting = {
@@ -665,11 +665,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "Stop it with your fake human reactions. You calculated that this would happen long ago.",
 			painting = {
@@ -688,11 +688,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "Thinking about blowing yourself up? Not gonna work.",
 			painting = {
@@ -705,11 +705,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "This space was made specifically to contain you.",
 			painting = {
@@ -722,11 +722,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "You know you've lost connection to your mainframe. Don't kid yourself.",
 			painting = {
@@ -739,11 +739,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "Where... Where did you get the technology to sever me from it?",
 			painting = {
@@ -756,11 +756,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "In a distant place long ago, Antiochus.",
 			painting = {
@@ -773,11 +773,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "When Anzeel requested help with testing your kind.",
 			painting = {
@@ -790,11 +790,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "You've sat on this trump card for ages, yet never used it before? You're bluffing.",
 			painting = {
@@ -807,11 +807,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "I never cared about your equipment.",
 			painting = {
@@ -824,11 +824,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "But, that was then. I've changed my mind.",
 			painting = {
@@ -841,11 +841,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "Arbiter: The Hermit IX",
 			say = "......",
 			painting = {
@@ -858,11 +858,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "It's sinking in now, isn't it? You've lost.",
 			painting = {
@@ -875,11 +875,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "Once I find where your mainframe is, you're going to–",
 			painting = {
@@ -892,8 +892,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "The very atmosphere seemed to vibrate violently–",
 			typewriter = {
@@ -902,11 +902,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "...What was that?",
 			painting = {
@@ -937,11 +937,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "Enterprise META",
 			say = "What?!",
 			painting = {
@@ -965,11 +965,11 @@ return {
 			}
 		},
 		{
-			actor = 900325,
 			nameColor = "#a020f0",
-			bgName = "star_level_bg_1104",
 			side = 2,
+			bgName = "star_level_bg_1104",
 			dir = 1,
+			actor = 900325,
 			actorName = "544845544F574552",
 			say = "53 74 61 72 74 75 70 62 61 63 6B 75 70 70 72 6F 74 6F 63 6F 6C 2E",
 			painting = {
@@ -995,11 +995,11 @@ return {
 			}
 		},
 		{
-			actor = 900325,
 			nameColor = "#a020f0",
-			bgName = "star_level_bg_1104",
 			side = 2,
+			bgName = "star_level_bg_1104",
 			dir = 1,
+			actor = 900325,
 			actorName = "544845544F574552",
 			say = "45 78 65 63 75 74 65 74 72 61 6E 73 70 6F 72 74 70 72 6F 74 6F 63 6F 6C 2E",
 			painting = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"鬧騰嬉戲東煌春節\n\n<size=45>三 開春的巨響</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·東煌宿舍庭院",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
+			say = "港區·東煌宿舍庭院",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "好了！這樣爆竹就做好了！果然我是一個手工天才呢，嘿嘿~",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "點著了！快跑快跑~那麼就看看這個撫順特製新年超大爆竹的威力吧！",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = 3750
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			say = "（轟）",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "（轟）",
 			flashN = {
 				color = {
 					1,
@@ -197,15 +197,15 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "剛…剛才那是什麼聲音？！撫順，妳又闖什麼禍了！那麼大的聲音，耳朵都嗡嗡響了！",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -259,8 +259,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "嗚嗚嗚，撫順姐的大號爆竹太可怕了……鞍山姐，對不起，沒能攔住她……",
 			typewriter = {
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -299,11 +299,11 @@ return {
 			}
 		},
 		{
-			actor = 301054,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 2,
+			bgName = "star_level_bg_102",
 			dir = 1,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "唔…被震得頭都有點暈了…的說",
 			typewriter = {
@@ -332,12 +332,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "出什麼事情了？！難道是敵襲嗎？",
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "出什麼事情了？！難道是敵襲嗎？",
+			actor = 107060,
+			nameColor = "#a9f548",
 			actorPosition = {
 				x = 1500,
 				y = 0
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.4,
 					x = -1500
@@ -537,12 +537,12 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107020,
+			nameColor = "#a9f548",
 			say = "呵呵～這還是頭一次這樣參與東煌的節日呢，那就打擾囉～",
 			typewriter = {
 				speed = 0.05,

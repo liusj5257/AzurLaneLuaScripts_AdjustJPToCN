@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_156 = {}
 slot1 = slot0.word_template_156
 
-function temp()
+temp = function()
 	uv0["雷"] = {
 		["管"] = {
 			["制"] = {
@@ -103,7 +103,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["製"] = {
 		["作"] = {
 			["炸"] = {
@@ -341,7 +341,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["订"] = {
 		["购"] = {
 			["盐"] = {
@@ -391,7 +391,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["炸"] = {
 		["药"] = {
 			["制"] = {

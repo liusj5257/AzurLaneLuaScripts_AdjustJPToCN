@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX 第三波 需要打断的情况下 蓄力成功/失败监听",
 	time = 15,
-	color = "yellow",
+	name = "2023英系活动 EX 第三波 需要打断的情况下 蓄力成功/失败监听",
+	init_effect = "",
+	id = 200294,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200294,
+	color = "yellow",
 	icon = 200294,
 	last_effect = "",
 	effect_list = {

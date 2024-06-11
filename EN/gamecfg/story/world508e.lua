@@ -1,18 +1,18 @@
 return {
-	id = "WORLD508E",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508E",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "battle-ashes-theme",
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "The Ashes are something else! Just one of them is enough to match the firepower of several of us...",
-			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "I'm just glad we were somehow able to make up for the reduction of Ark Royal's power.",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "(This is crucial information for us. I'll have to add it in my report to the Commander later.)",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "It's pretty troubling that we don't have a grasp on the true strength of the Arbiters. Stay focused.",
 			typewriter = {
 				speed = 0.05,
@@ -101,14 +101,14 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900287,
+			nameColor = "#ff5c5c",
 			say = "Look at that, the test subject fleet possesses firepower exceeding our estimates. This is some interesting data.",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1

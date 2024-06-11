@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEICENGHUNHE33",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WEICENGHUNHE33",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "요새 동쪽 외해?· 바다 안개 속",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
+			say = "요새 동쪽 외해?· 바다 안개 속",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -24,9 +24,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -39,9 +39,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "볼티모어가 이끄는 함대는 현재 안개 속에서 격렬한 전투를 치르는 중이었다----",
 			typewriter = {
 				speed = 0.05,
@@ -53,11 +53,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "퓨리파이어",
 			say = "이상하네~!",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "이렇게 대담한 지연 전술인데… 전혀 상대할 방법이 없어……!",
 			typewriter = {
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			say = "펑------!",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "펑------!",
 			flashN = {
 				color = {
 					1,
@@ -176,8 +176,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "이 해역에서 누군가 또 싸우는 모양이야!",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = -2500
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "기다려-----!",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "퓨리파이어가 시선에서 사라짐과 동시에 ‘익숙한’ 그림자 하나가 폭발음과 함께 안개 속에서 모습을 드러냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -275,11 +275,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "………",
 			typewriter = {
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "…잔, 잔불…?!!",
 			dialogShake = {
 				speed = 0.09,
@@ -313,11 +313,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "너희의 지휘관은 같이 오지 않은 모양인가.",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "……말할 수 없어.",
 			typewriter = {
@@ -347,11 +347,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "그런가……(돌아섬)",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "잠… 잠깐만! 도와줘서 고마워!",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -391,11 +391,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "……",
 			typewriter = {
@@ -411,8 +411,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "저기, 여기는 어디야?",
 			typewriter = {
@@ -425,11 +425,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "…버뮤다.",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "그럴 리가! 안개 속에서 이렇게 멀리까지 왔다고?!",
 			typewriter = {
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "하루 종일 그 녀석에게 농락당하기나 하고. 기억력은 언제 좋아질 건지… 안개, 이상한 점을 발견하지 못했어?",
 			typewriter = {
@@ -476,11 +476,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "역시 이 안개가 범인이었군. 젠장…!",
 			dialogShake = {
 				speed = 0.09,
@@ -500,8 +500,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "그러면… 돌아갈 수는 있는 거야? 급한 임무가 있는데…",
 			typewriter = {
@@ -530,11 +530,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "……귀찮아.",
 			typewriter = {
@@ -547,12 +547,12 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
 			blackBg = true,
+			actor = 900135,
 			actorName = "？？？",
 			say = "그러니까… 안개 조종 방법이………",
 			typewriter = {

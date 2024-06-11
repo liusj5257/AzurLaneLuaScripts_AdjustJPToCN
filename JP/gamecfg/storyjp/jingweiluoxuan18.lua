@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN18",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "hunhe-battle",
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			hidePaintObj = true,
 			say = "――！",
-			bgm = "hunhe-battle",
 			flashN = {
 				color = {
 					1,
@@ -66,10 +66,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "どんどん強くなっていく…！このままセイレーンを放っておくわけにはいかないわ！",
 			typewriter = {
 				speed = 0.05,
@@ -84,10 +84,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官を救出したら、この鏡面海域の発生源も叩くべきよ",
 			typewriter = {
 				speed = 0.05,
@@ -102,10 +102,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "当然よ！AF基地の脅威もこれで解除できれば一石二鳥だわ！",
 			typewriter = {
 				speed = 0.05,
@@ -117,12 +117,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "さて、まずはここの「駒」たちを全部倒して……！",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -144,12 +144,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "―――――",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -288,10 +288,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 101250,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "「了解！ヨークタウンノ護衛ヲ開始…！」",
 			typewriter = {
 				speed = 0.05,
@@ -303,12 +303,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "―――――",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,10 +371,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "焦らないで。さっき見た「ハムマン」はこの先の霧の中に消えていったわね",
 			typewriter = {
 				speed = 0.05,
@@ -389,10 +389,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "はい…追跡しようとしたけど、この霧の先に入った途端レーダー信号が消えちゃって…",
 			typewriter = {
 				speed = 0.05,
@@ -404,12 +404,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "「ハムマン」の行動になにか異常はない？",
 			typewriter = {
 				speed = 0.05,
@@ -424,10 +424,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "いいえ、わたしたちの前を通っただけです…",
 			typewriter = {
 				speed = 0.05,
@@ -442,10 +442,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "じゃあ今の行動は「再現」と見たほうが良さそうね",
 			typewriter = {
 				speed = 0.05,
@@ -457,12 +457,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（当たり前ね。ハムマンはもちろん、あたしだって一人でこんな鏡面海域の中で散歩したいわけじゃないの）",
 			typewriter = {
 				speed = 0.05,
@@ -474,12 +474,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（でも同じ顔の敵…こういう時はあたしじゃなくて指揮官がみんなを激励してほしいわね）",
 			typewriter = {
 				speed = 0.05,
@@ -494,10 +494,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あ、あの…追いますか？まだそう遠く離れていないはずですけど…",
 			typewriter = {
 				speed = 0.05,
@@ -512,10 +512,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "追おう。相手はおそらくコチラに眼中にないか、今まで戦ってきた「駒」とは別系統なのかのどちらかと思う",
 			typewriter = {
 				speed = 0.05,
@@ -527,12 +527,12 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105170,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "この好機を逃すわけにはいかないわ！タイコもそれでいい？",
 			typewriter = {
 				speed = 0.05,
@@ -547,10 +547,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "はい、向こうの「再現」に私達が含まれていなければ、ある程度自由に行動できるはず",
 			typewriter = {
 				speed = 0.05,
@@ -565,10 +565,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "このままはぐれセイレーンや「駒」を倒し、「ハムマン」を追いましょう！",
 			typewriter = {
 				speed = 0.05,

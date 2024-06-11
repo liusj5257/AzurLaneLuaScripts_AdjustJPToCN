@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "风帆V-指挥-机动I",
 	time = 0,
-	color = "yellow",
+	name = "风帆V-指挥-机动I",
+	init_effect = "",
+	id = 40441,
 	picture = "",
 	desc = "风帆V-指挥-机动I",
 	stack = 1,
-	id = 40441,
+	color = "yellow",
 	icon = 40441,
 	last_effect = "",
 	effect_list = {

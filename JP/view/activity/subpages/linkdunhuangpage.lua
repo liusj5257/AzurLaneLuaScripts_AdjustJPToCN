@@ -1,6 +1,6 @@
 slot0 = class("LinkDunHuangPage", import(".JavelinComicSkinPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.item = slot0:findTF("items/item", slot0.bg)
 	slot0.items = slot0:findTF("items", slot0.bg)
@@ -9,11 +9,11 @@ function slot0.OnInit(slot0)
 	slot0.isReplaceBG = false
 end
 
-function slot0.GetLinkId(slot0)
+slot0.GetLinkId = function(slot0)
 	return slot0.activity:getConfig("config_client").link_act
 end
 
-function slot0.UpdatePuzzle(slot0, slot1, slot2, slot3)
+slot0.UpdatePuzzle = function(slot0, slot1, slot2, slot3)
 	if slot2 and not table.contains(slot0.chargeIDList, slot3) then
 		table.insert(slot0.chargeIDList, slot3)
 		slot0:DoPieceAnimation(slot1, 1, 0, function ()
@@ -25,7 +25,7 @@ function slot0.UpdatePuzzle(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.DoPieceAnimation(slot0, slot1, slot2, slot3, slot4)
+slot0.DoPieceAnimation = function(slot0, slot1, slot2, slot3, slot4)
 	if LeanTween.isTweening(slot1) then
 		LeanTween.cancel(go(slot1), true)
 
@@ -49,19 +49,19 @@ function slot0.DoPieceAnimation(slot0, slot1, slot2, slot3, slot4)
 	end))
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 end
 
-function slot0.UpdateMainView(slot0, slot1)
+slot0.UpdateMainView = function(slot0, slot1)
 	if slot1 and not slot0.isReplaceBG then
 		slot0:ReplaceBg()
 	end
 end
 
-function slot0.PlayStory(slot0)
+slot0.PlayStory = function(slot0)
 end
 
-function slot0.FetchFinalAward(slot0)
+slot0.FetchFinalAward = function(slot0)
 	uv0.super.FetchFinalAward(slot0)
 
 	if (slot0.activity:getConfig("config_client").story[slot0.nday] or {})[1] then
@@ -69,7 +69,7 @@ function slot0.FetchFinalAward(slot0)
 	end
 end
 
-function slot0.OnFetchFinalAwardDone(slot0)
+slot0.OnFetchFinalAwardDone = function(slot0)
 	slot1 = {}
 	slot3 = ipairs
 	slot4 = slot0.activity:getConfig("config_client").story or {}
@@ -83,7 +83,7 @@ function slot0.OnFetchFinalAwardDone(slot0)
 	pg.NewStoryMgr.GetInstance():SeriesPlay(slot1)
 end
 
-function slot0.ReplaceBg(slot0)
+slot0.ReplaceBg = function(slot0)
 	slot0.isReplaceBG = true
 	slot0.bgImg.sprite = GetSpriteFromAtlas("ui/activityuipage/LinkDunhuangPage_atlas", "bg_finish")
 end

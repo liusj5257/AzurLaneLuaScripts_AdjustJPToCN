@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024偶像活动三期 欧根盾",
 	time = 25,
-	color = "yellow",
+	name = "2024偶像活动三期 欧根盾",
+	init_effect = "",
+	id = 200912,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200912,
+	color = "yellow",
 	last_effect = "",
 	effect_list = {
 		{
@@ -17,9 +17,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 15,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -53,9 +53,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 15,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -89,9 +89,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 15,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -125,9 +125,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 15,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -161,9 +161,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 15,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -197,9 +197,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 3,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -233,9 +233,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 3,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -269,9 +269,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 3,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -305,9 +305,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 3,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -341,9 +341,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 3,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -377,9 +377,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 3,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -413,9 +413,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 3,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -449,9 +449,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 3,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -485,9 +485,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				count = 10,
-				effect = "shield06",
 				damage = 10,
+				effect = "shield06",
+				count = 10,
 				attack_attribute = 1,
 				cld_list = {
 					{
@@ -521,9 +521,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				count = 10,
-				effect = "shield06",
 				damage = 10,
+				effect = "shield06",
+				count = 10,
 				attack_attribute = 1,
 				cld_list = {
 					{
@@ -557,9 +557,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				count = 10,
-				effect = "shield06",
 				damage = 10,
+				effect = "shield06",
+				count = 10,
 				attack_attribute = 1,
 				cld_list = {
 					{
@@ -593,9 +593,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				count = 10,
-				effect = "shield06",
 				damage = 10,
+				effect = "shield06",
+				count = 10,
 				attack_attribute = 1,
 				cld_list = {
 					{
@@ -629,9 +629,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				count = 10,
-				effect = "shield06",
 				damage = 10,
+				effect = "shield06",
+				count = 10,
 				attack_attribute = 1,
 				cld_list = {
 					{
@@ -665,9 +665,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				count = 10,
-				effect = "shield06",
 				damage = 10,
+				effect = "shield06",
+				count = 10,
 				attack_attribute = 1,
 				cld_list = {
 					{

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_297 = {}
 slot1 = slot0.word_template_297
 
-function temp()
+temp = function()
 	uv0["吸"] = {
 		j = {
 			i = {
@@ -137,7 +137,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["希"] = {
 		["拉"] = {
 			["克"] = {
@@ -259,7 +259,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["郗"] = {
 		["红"] = {
 			this = true
@@ -269,7 +269,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["烯"] = {
 		["丙"] = {
 			["胺"] = {
@@ -286,7 +286,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["惜"] = {
 		["阿"] = {
 			["尔"] = {
@@ -317,7 +317,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["稀"] = {
 		["崎"] = {
 			["优"] = {
@@ -340,7 +340,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["锡"] = {
 		["锋"] = {
 			["弹"] = {

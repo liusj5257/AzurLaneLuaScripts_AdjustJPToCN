@@ -1,17 +1,17 @@
 return {
-	id = "WORLD508M",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508M",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900285,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "SailAwayJustice-inst",
 			dir = 1,
 			say = "쳇… 이 정도 전력을 아직 남겨두고 있었나.",
+			bgm = "SailAwayJustice-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

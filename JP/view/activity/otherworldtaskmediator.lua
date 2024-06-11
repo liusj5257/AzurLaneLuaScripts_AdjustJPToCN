@@ -4,7 +4,7 @@ slot0.SUBMIT_TASK = "activity submit task "
 slot0.TASK_GO = "activity task go "
 slot0.SHOW_DETAIL = "activity task show detail"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.SUBMIT_TASK_ALL, function (slot0, slot1)
 		slot2 = uv0
 
@@ -53,7 +53,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.checkActStory(slot0, slot1, slot2, slot3)
+slot0.checkActStory = function(slot0, slot1, slot2, slot3)
 	if not pg.activity_template[slot1].config_client.task_story then
 		slot3()
 
@@ -83,17 +83,17 @@ function slot0.checkActStory(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.onUIAvalible(slot0)
+slot0.onUIAvalible = function(slot0)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.SUBMIT_AVATAR_TASK_DONE,
 		GAME.ZERO_HOUR_OP_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SUBMIT_AVATAR_TASK_DONE then

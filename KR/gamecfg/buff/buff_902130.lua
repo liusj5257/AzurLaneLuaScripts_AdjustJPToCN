@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "守卫压制——航空",
 	init_effect = "jinengchufablue",
-	color = "yellow",
+	id = 902130,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902130,
+	color = "yellow",
 	icon = 902130,
 	last_effect = "",
 	blink = {

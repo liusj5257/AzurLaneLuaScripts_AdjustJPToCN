@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "敌方烟幕发生器",
 	time = 0,
-	color = "blue",
+	name = "敌方烟幕发生器",
+	init_effect = "",
+	id = 9726,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9726,
+	color = "blue",
 	icon = 9726,
 	last_effect = "",
 	effect_list = {

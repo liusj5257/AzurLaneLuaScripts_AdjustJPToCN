@@ -1,15 +1,15 @@
 slot0 = class("WorldMap", import("...BaseEntity"))
 slot0.Fields = {
 	config = "table",
-	cells = "table",
-	findex = "number",
+	valid = "boolean",
 	gid = "number",
+	cells = "table",
+	active = "boolean",
+	findex = "number",
+	top = "number",
 	phaseDisplayList = "table",
 	salvageAutoResult = "boolean",
 	isPressing = "boolean",
-	id = "number",
-	clearFlag = "boolean",
-	valid = "boolean",
 	visionFlag = "boolean",
 	isLoss = "boolean",
 	bottom = "number",
@@ -21,8 +21,8 @@ slot0.Fields = {
 	left = "number",
 	factionBuffs = "table",
 	ports = "table",
-	top = "number",
-	active = "boolean",
+	id = "number",
+	clearFlag = "boolean",
 	right = "number"
 }
 slot0.Listeners = {
@@ -34,17 +34,17 @@ slot0.EventUpdateMapBuff = "WorldMap.EventUpdateMapBuff"
 slot0.EventUpdateFleetFOV = "WorldMap.EventUpdateFleetFOV"
 slot0.EventUpdateMoveSpeed = "WorldMap.EventUpdateMoveSpeed"
 
-function slot0.DebugPrint(slot0)
+slot0.DebugPrint = function(slot0)
 	return string.format("地图 [%s] [id: %s] [gid: %s] [危险度: %s] [是否压制：%s]", slot0.config.name, slot0.id, tostring(slot0.gid), slot0:GetDanger(), slot0.isPressing)
 end
 
-function slot0.Build(slot0)
+slot0.Build = function(slot0)
 	slot0.cells = {}
 	slot0.ports = {}
 	slot0.phaseDisplayList = {}
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:UnbindFleets()
 	slot0:DisposeTheme()
 	slot0:DisposeGrid()
@@ -52,7 +52,7 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.id = slot1
 
 	assert(pg.world_chapter_random[slot0.id], "world_chapter_random not exist: " .. tostring(slot0.id))
@@ -64,7 +64,7 @@ function slot0.Setup(slot0, slot1)
 	})
 end
 
-function slot0.GetName(slot0, slot1)
+slot0.GetName = function(slot0, slot1)
 	if (slot1 and World.ReplacementMapType(slot1, slot0)) == "sairen_chapter" or slot2 == "teasure_chapter" then
 		return slot1:GetBaseMap():GetName() .. "-" .. slot0.config.name
 	else
@@ -72,7 +72,7 @@ function slot0.GetName(slot0, slot1)
 	end
 end
 
-function slot0.GetConfig(slot0, slot1)
+slot0.GetConfig = function(slot0, slot1)
 	slot3 = pg.world_chapter_template[slot0.gid]
 	slot4 = pg.world_chapter_random[slot0.id] and slot2[slot1] or slot3 and slot3[slot1] or nil
 
@@ -84,7 +84,7 @@ end
 slot0.FactionSelf = 0
 slot0.FactionEnemy = 1
 
-function slot0.UpdateGridId(slot0, slot1)
+slot0.UpdateGridId = function(slot0, slot1)
 	slot0.gid = slot1
 	slot6 = slot0.gid
 	slot5 = tostring(slot6)
@@ -110,7 +110,7 @@ function slot0.UpdateGridId(slot0, slot1)
 	slot0:SetupPort()
 end
 
-function slot0.SetupTheme(slot0)
+slot0.SetupTheme = function(slot0)
 	slot1 = WPool:Get(WorldMapTheme)
 
 	slot1:Setup(slot0.config.theme)
@@ -118,7 +118,7 @@ function slot0.SetupTheme(slot0)
 	slot0.theme = slot1
 end
 
-function slot0.DisposeTheme(slot0)
+slot0.DisposeTheme = function(slot0)
 	if slot0.theme then
 		WPool:Return(slot0.theme)
 
@@ -126,7 +126,7 @@ function slot0.DisposeTheme(slot0)
 	end
 end
 
-function slot0.SetupGrid(slot0, slot1)
+slot0.SetupGrid = function(slot0, slot1)
 	_.each(slot0.config.grids, function (slot0)
 		WPool:Get(WorldMapCell):Setup(slot0)
 
@@ -204,7 +204,7 @@ function slot0.SetupGrid(slot0, slot1)
 	end
 end
 
-function slot0.DisposeGrid(slot0, slot1)
+slot0.DisposeGrid = function(slot0, slot1)
 	if not slot1 then
 		for slot5, slot6 in pairs(slot0.cells) do
 			slot6:RemoveListener(WorldMapCell.EventAddAttachment, slot0.onUpdateAttachmentExist)
@@ -222,7 +222,7 @@ function slot0.DisposeGrid(slot0, slot1)
 	slot0.bottom = nil
 end
 
-function slot0.SetupPort(slot0)
+slot0.SetupPort = function(slot0)
 	if #slot0.config.port_id > 0 then
 		WPool:Get(WorldMapPort):Setup(slot0.config.port_id[1])
 
@@ -240,17 +240,17 @@ function slot0.SetupPort(slot0)
 	end
 end
 
-function slot0.DisposePort(slot0)
+slot0.DisposePort = function(slot0)
 	WPool:ReturnArray(slot0.ports)
 
 	slot0.ports = {}
 end
 
-function slot0.IsValid(slot0)
+slot0.IsValid = function(slot0)
 	return slot0.valid
 end
 
-function slot0.SetValid(slot0, slot1)
+slot0.SetValid = function(slot0, slot1)
 	slot0.valid = slot1
 
 	if slot1 and slot0.fleets then
@@ -286,79 +286,79 @@ function slot0.SetValid(slot0, slot1)
 	end
 end
 
-function slot0.IsMapOpen(slot0)
+slot0.IsMapOpen = function(slot0)
 	return slot0:GetOpenProgress() <= nowWorld():GetProgress()
 end
 
-function slot0.GetOpenProgress(slot0)
+slot0.GetOpenProgress = function(slot0)
 	return nowWorld():GetRealm() > 0 and slot0.config.open_stage[slot1] or 9999
 end
 
-function slot0.RemoveAllCellDiscovered(slot0)
+slot0.RemoveAllCellDiscovered = function(slot0)
 	for slot4, slot5 in pairs(slot0.cells) do
 		slot5:UpdateDiscovered(false)
 	end
 end
 
-function slot0.GetDanger(slot0)
+slot0.GetDanger = function(slot0)
 	return slot0.config.hazard_level
 end
 
-function slot0.BindFleets(slot0, slot1)
+slot0.BindFleets = function(slot0, slot1)
 	slot0.fleets = slot1
 end
 
-function slot0.UnbindFleets(slot0)
+slot0.UnbindFleets = function(slot0)
 	slot0.fleets = nil
 end
 
-function slot0.GetFleets(slot0)
+slot0.GetFleets = function(slot0)
 	return _.rest(slot0.fleets, 1)
 end
 
-function slot0.GetFleet(slot0, slot1)
+slot0.GetFleet = function(slot0, slot1)
 	return slot1 and _.detect(slot0.fleets, function (slot0)
 		return slot0.id == uv0
 	end) or slot0.fleets[slot0.findex]
 end
 
-function slot0.GetNormalFleets(slot0)
+slot0.GetNormalFleets = function(slot0)
 	return _.filter(slot0.fleets, function (slot0)
 		return slot0:GetFleetType() == FleetType.Normal
 	end)
 end
 
-function slot0.GetSubmarineFleet(slot0)
+slot0.GetSubmarineFleet = function(slot0)
 	return _.detect(slot0.fleets, function (slot0)
 		return slot0:GetFleetType() == FleetType.Submarine
 	end)
 end
 
-function slot0.FindFleet(slot0, slot1, slot2)
+slot0.FindFleet = function(slot0, slot1, slot2)
 	return _.detect(slot0.fleets, function (slot0)
 		return slot0.row == uv0 and slot0.column == uv1
 	end)
 end
 
-function slot0.CheckFleetMovable(slot0, slot1)
+slot0.CheckFleetMovable = function(slot0, slot1)
 	return slot0:GetCell(slot1.row, slot1.column):CanLeave()
 end
 
-function slot0.GetFleetTerrain(slot0, slot1)
+slot0.GetFleetTerrain = function(slot0, slot1)
 	return slot0:GetCell(slot1.row, slot1.column):GetTerrain()
 end
 
-function slot0.IsFleetTerrainSairenFog(slot0, slot1)
+slot0.IsFleetTerrainSairenFog = function(slot0, slot1)
 	return slot0:GetCell(slot1.row, slot1.column):IsTerrainSairenFog()
 end
 
-function slot0.RemoveFleetsCarries(slot0, slot1)
+slot0.RemoveFleetsCarries = function(slot0, slot1)
 	_.each(slot1 or slot0.fleets, function (slot0)
 		slot0:RemoveAllCarries()
 	end)
 end
 
-function slot0.UpdateFleetIndex(slot0, slot1)
+slot0.UpdateFleetIndex = function(slot0, slot1)
 	if slot0.findex ~= slot1 then
 		slot0:CheckSelectFleetUpdateFog(function ()
 			uv0.findex = uv1
@@ -367,7 +367,7 @@ function slot0.UpdateFleetIndex(slot0, slot1)
 	end
 end
 
-function slot0.UpdateActive(slot0, slot1)
+slot0.UpdateActive = function(slot0, slot1)
 	slot2 = nowWorld():GetAtlas()
 
 	if slot0.active ~= slot1 then
@@ -393,7 +393,7 @@ function slot0.UpdateActive(slot0, slot1)
 	end
 end
 
-function slot0.InPort(slot0, slot1, slot2)
+slot0.InPort = function(slot0, slot1, slot2)
 	if not slot0:GetPort() or slot2 and slot3.config.port_camp ~= slot2 then
 		return false
 	end
@@ -407,11 +407,11 @@ function slot0.InPort(slot0, slot1, slot2)
 	return false
 end
 
-function slot0.canExit(slot0)
+slot0.canExit = function(slot0)
 	return slot0.gid and pg.world_chapter_template_reset[slot0.gid] ~= nil
 end
 
-function slot0.CheckAttachmentTransport(slot0)
+slot0.CheckAttachmentTransport = function(slot0)
 	slot1 = WorldConst.GetTransportBlockEvent()
 
 	for slot6, slot7 in ipairs(slot0:FindAttachments(WorldMapAttachment.TypeEvent)) do
@@ -429,17 +429,17 @@ function slot0.CheckAttachmentTransport(slot0)
 	end
 end
 
-function slot0.GetPort(slot0, slot1)
+slot0.GetPort = function(slot0, slot1)
 	return slot1 and _.detect(slot0.ports, function (slot0)
 		return slot0.id == uv0
 	end) or slot0.ports[1]
 end
 
-function slot0.GetCell(slot0, slot1, slot2)
+slot0.GetCell = function(slot0, slot1, slot2)
 	return slot0.cells[WorldMapCell.GetName(slot1, slot2)]
 end
 
-function slot0.CalcTransportPos(slot0, slot1, slot2)
+slot0.CalcTransportPos = function(slot0, slot1, slot2)
 	slot3 = calcPositionAngle(slot1.config.area_pos[1] - slot2.config.area_pos[1], slot1.config.area_pos[2] - slot2.config.area_pos[2])
 	slot4 = false
 
@@ -502,13 +502,13 @@ function slot0.CalcTransportPos(slot0, slot1, slot2)
 	return slot6
 end
 
-function slot0.AnyFleetInEdge(slot0)
+slot0.AnyFleetInEdge = function(slot0)
 	return slot0.active and _.any(slot0:GetNormalFleets(), function (slot0)
 		return slot0.row == uv0.top or slot0.row == uv0.bottom or slot0.column == uv0.left or slot0.column == uv0.right
 	end)
 end
 
-function slot0.CheckInteractive(slot0, slot1)
+slot0.CheckInteractive = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0:FindAttachments(WorldMapAttachment.TypeEvent)) do
 		if slot7:RemainOpEffect() then
 			return slot7
@@ -540,7 +540,7 @@ function slot0.CheckInteractive(slot0, slot1)
 	end
 end
 
-function slot0.CheckDiscover(slot0)
+slot0.CheckDiscover = function(slot0)
 	slot1 = {}
 	slot2 = slot0.theme
 
@@ -556,7 +556,7 @@ function slot0.CheckDiscover(slot0)
 	return slot1
 end
 
-function slot0.CheckDisplay(slot0, slot1)
+slot0.CheckDisplay = function(slot0, slot1)
 	if slot1.type == WorldMapAttachment.TypeTrap then
 		return true
 	end
@@ -564,17 +564,17 @@ function slot0.CheckDisplay(slot0, slot1)
 	return slot0:GetCell(slot1.row, slot1.column):GetDisplayAttachment() == slot1
 end
 
-function slot0.GetFOVRange(slot0, slot1, slot2, slot3)
+slot0.GetFOVRange = function(slot0, slot1, slot2, slot3)
 	return slot0:GetCell(slot2 or slot1.row, slot3 or slot1.column):GetTerrain() == WorldMapCell.TerrainFog and slot4.terrainStrong or slot1:GetFOVRange()
 end
 
-function slot0.UpdateVisionFlag(slot0, slot1)
+slot0.UpdateVisionFlag = function(slot0, slot1)
 	slot0.visionFlag = slot1
 
 	slot0:OrderAROpenFOV(slot0.visionFlag)
 end
 
-function slot0.UpdatePressingMark(slot0, slot1)
+slot0.UpdatePressingMark = function(slot0, slot1)
 	if tobool(slot0.isPressing) ~= tobool(slot1) then
 		slot0.isPressing = slot1
 
@@ -582,15 +582,15 @@ function slot0.UpdatePressingMark(slot0, slot1)
 	end
 end
 
-function slot0.ExistAny(slot0, slot1, slot2)
+slot0.ExistAny = function(slot0, slot1, slot2)
 	return slot0:GetCell(slot1, slot2):GetAliveAttachment() or slot0:ExistFleet(slot1, slot2)
 end
 
-function slot0.ExistFleet(slot0, slot1, slot2)
+slot0.ExistFleet = function(slot0, slot1, slot2)
 	return tobool(slot0:FindFleet(slot1, slot2))
 end
 
-function slot0.CalcFleetSpeed(slot0, slot1)
+slot0.CalcFleetSpeed = function(slot0, slot1)
 	slot2 = slot1:GetSpeed()
 
 	if slot0:GetCell(slot1.row, slot1.column):GetTerrain() == WorldMapCell.TerrainFog then
@@ -600,7 +600,7 @@ function slot0.CalcFleetSpeed(slot0, slot1)
 	return slot2
 end
 
-function slot0.FindPath(slot0, slot1, slot2, slot3)
+slot0.FindPath = function(slot0, slot1, slot2, slot3)
 	if not uv0.pathFinder then
 		uv0.pathFinder = PathFinding.New({}, WorldConst.MaxRow, WorldConst.MaxColumn)
 	end
@@ -636,7 +636,7 @@ function slot0.FindPath(slot0, slot1, slot2, slot3)
 	return slot4:Find(slot1, slot2)
 end
 
-function slot0.FindAIPath(slot0, slot1, slot2)
+slot0.FindAIPath = function(slot0, slot1, slot2)
 	if not uv0.pathFinder then
 		uv0.pathFinder = PathFinding.New({}, WorldConst.MaxRow, WorldConst.MaxColumn)
 	end
@@ -668,7 +668,7 @@ function slot0.FindAIPath(slot0, slot1, slot2)
 	return slot3:Find(slot1, slot2)
 end
 
-function slot0.GetMoveRange(slot0, slot1)
+slot0.GetMoveRange = function(slot0, slot1)
 	slot2 = slot1.row
 	slot3 = slot1.column
 	slot4 = slot0:CalcFleetSpeed(slot1)
@@ -735,7 +735,7 @@ function slot0.GetMoveRange(slot0, slot1)
 	end)
 end
 
-function slot0.BuildLongMoveInfos(slot0)
+slot0.BuildLongMoveInfos = function(slot0)
 	slot1 = {}
 
 	for slot5 = 0, WorldConst.MaxRow - 1 do
@@ -744,8 +744,8 @@ function slot0.BuildLongMoveInfos(slot0)
 		for slot9 = 0, WorldConst.MaxColumn - 1 do
 			if slot0:IsWalkable(slot5, slot9) and slot0:GetCell(slot5, slot9):GetInFOV() then
 				slot1[slot5][slot9] = {
-					isMark = false,
 					isFinish = false,
+					isMark = false,
 					row = slot5,
 					column = slot9,
 					dp = {},
@@ -760,7 +760,7 @@ function slot0.BuildLongMoveInfos(slot0)
 	return slot1
 end
 
-function slot0.GetLongMoveRange(slot0, slot1)
+slot0.GetLongMoveRange = function(slot0, slot1)
 	slot4 = slot0:CalcFleetSpeed(slot1)
 	slot6 = {}
 	slot7 = {}
@@ -783,7 +783,7 @@ function slot0.GetLongMoveRange(slot0, slot1)
 		}
 	}
 
-	function slot9(slot0, slot1, slot2)
+	slot9 = function(slot0, slot1, slot2)
 		return slot0 < slot1 or slot2 < slot0
 	end
 
@@ -859,23 +859,23 @@ function slot0.GetLongMoveRange(slot0, slot1)
 	return slot12, slot5
 end
 
-function slot0.IsWalkable(slot0, slot1, slot2)
+slot0.IsWalkable = function(slot0, slot1, slot2)
 	return slot0:GetCell(slot1, slot2) and slot3.walkable and (slot3:CanLeave() or slot0:IsStayPoint(slot1, slot2))
 end
 
-function slot0.IsStayPoint(slot0, slot1, slot2)
+slot0.IsStayPoint = function(slot0, slot1, slot2)
 	return slot0:GetCell(slot1, slot2):CanArrive() and not slot0:ExistFleet(slot1, slot2)
 end
 
-function slot0.IsObstacle(slot0, slot1, slot2)
+slot0.IsObstacle = function(slot0, slot1, slot2)
 	return not slot0:GetCell(slot1, slot2):CanPass()
 end
 
-function slot0.IsSign(slot0, slot1, slot2)
+slot0.IsSign = function(slot0, slot1, slot2)
 	return slot0:GetCell(slot1, slot2):IsSign()
 end
 
-function slot0.FindNearestBlankPoint(slot0, slot1, slot2)
+slot0.FindNearestBlankPoint = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7 = 0, WorldConst.MaxRow - 1 do
@@ -932,7 +932,7 @@ function slot0.FindNearestBlankPoint(slot0, slot1, slot2)
 	end
 end
 
-function slot0.WriteBack(slot0, slot1, slot2)
+slot0.WriteBack = function(slot0, slot1, slot2)
 	slot4 = {}
 	slot8 = true
 
@@ -1014,7 +1014,7 @@ function slot0.WriteBack(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.AddPhaseDisplay(slot0, slot1, slot2)
+slot0.AddPhaseDisplay = function(slot0, slot1, slot2)
 	if slot2 then
 		table.insert(slot0.phaseDisplayList, slot2, slot1)
 	else
@@ -1022,7 +1022,7 @@ function slot0.AddPhaseDisplay(slot0, slot1, slot2)
 	end
 end
 
-function slot0.FindAttachments(slot0, slot1, slot2)
+slot0.FindAttachments = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0.typeAttachments) do
@@ -1038,7 +1038,7 @@ function slot0.FindAttachments(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.FindEnemys(slot0)
+slot0.FindEnemys = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.typeAttachments) do
@@ -1050,7 +1050,7 @@ function slot0.FindEnemys(slot0)
 	return slot1
 end
 
-function slot0.GetMapMinMax(slot0)
+slot0.GetMapMinMax = function(slot0)
 	slot1 = Vector2(WorldConst.MaxColumn, WorldConst.MaxRow)
 	slot2 = Vector2(-WorldConst.MaxColumn, -WorldConst.MaxRow)
 
@@ -1068,13 +1068,13 @@ function slot0.GetMapMinMax(slot0)
 	return slot1.y, slot2.y, slot1.x, slot2.x
 end
 
-function slot0.GetMapSize(slot0)
+slot0.GetMapSize = function(slot0)
 	slot1, slot2, slot3, slot4 = slot0:GetMapMinMax()
 
 	return slot2 - slot1 + 1, slot4 - slot3 + 1
 end
 
-function slot0.CountEventEffectKeys(slot0, slot1)
+slot0.CountEventEffectKeys = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0:GetNormalFleets()) do
@@ -1086,7 +1086,7 @@ function slot0.CountEventEffectKeys(slot0, slot1)
 	return slot2
 end
 
-function slot0.EventEffectOpenFOV(slot0, slot1)
+slot0.EventEffectOpenFOV = function(slot0, slot1)
 	assert(slot1.effect_type == WorldMapAttachment.EffectEventFOV)
 
 	slot2, slot3 = unpack(slot1.effect_paramater)
@@ -1115,7 +1115,7 @@ function slot0.EventEffectOpenFOV(slot0, slot1)
 	end)
 end
 
-function slot0.OrderAROpenFOV(slot0, slot1)
+slot0.OrderAROpenFOV = function(slot0, slot1)
 	if slot1 then
 		slot2 = slot0:GetFleet()
 		slot0.centerCellFOV = {
@@ -1133,7 +1133,7 @@ function slot0.OrderAROpenFOV(slot0, slot1)
 	end
 end
 
-function slot0.GetMaxDistanceCell(slot0, slot1, slot2)
+slot0.GetMaxDistanceCell = function(slot0, slot1, slot2)
 	slot3 = nil
 	slot4 = 0
 
@@ -1164,7 +1164,7 @@ function slot0.GetMaxDistanceCell(slot0, slot1, slot2)
 	return slot3, math.sqrt(slot4)
 end
 
-function slot0.GetCellsInFOV(slot0)
+slot0.GetCellsInFOV = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.cells) do
@@ -1176,11 +1176,11 @@ function slot0.GetCellsInFOV(slot0)
 	return slot1
 end
 
-function slot0.AlwaysInFOV(slot0)
+slot0.AlwaysInFOV = function(slot0)
 	return slot0.config.map_sight == 1
 end
 
-function slot0.GetEventTipWord(slot0)
+slot0.GetEventTipWord = function(slot0)
 	slot2 = ""
 	slot3 = 0
 
@@ -1196,7 +1196,7 @@ function slot0.GetEventTipWord(slot0)
 	return slot2, slot3
 end
 
-function slot0.GetEventPoisonRate(slot0)
+slot0.GetEventPoisonRate = function(slot0)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0:FindAttachments(WorldMapAttachment.TypeEvent)) do
@@ -1208,23 +1208,23 @@ function slot0.GetEventPoisonRate(slot0)
 	return slot2, slot0.config.is_sairen
 end
 
-function slot0.GetPressingLevel(slot0)
+slot0.GetPressingLevel = function(slot0)
 	return slot0.config.complete_effect
 end
 
-function slot0.CheckMapPressing(slot0)
+slot0.CheckMapPressing = function(slot0)
 	return slot0:GetPressingLevel() > 0 and not slot0.isPressing and slot0:GetEventPoisonRate() == 0
 end
 
-function slot0.CheckMapPressingDisplay(slot0)
+slot0.CheckMapPressingDisplay = function(slot0)
 	return slot0:GetPressingLevel() > 1
 end
 
-function slot0.UpdateClearFlag(slot0, slot1)
+slot0.UpdateClearFlag = function(slot0, slot1)
 	slot0.clearFlag = tobool(slot1)
 end
 
-function slot0.IsUnlockFleetMode(slot0)
+slot0.IsUnlockFleetMode = function(slot0)
 	if slot0.config.move_switch == 1 then
 		return true
 	elseif slot0.config.move_switch == 0 then
@@ -1234,7 +1234,7 @@ function slot0.IsUnlockFleetMode(slot0)
 	end
 end
 
-function slot0.CheckFleetSalvage(slot0, slot1)
+slot0.CheckFleetSalvage = function(slot0, slot1)
 	if underscore.detect(slot0:GetFleets(), function (slot0)
 		return slot0:IsCatSalvage() and (uv0 or slot0:IsSalvageFinish() or uv1.salvageAutoResult or slot0.catSalvageFrom ~= uv1.id)
 	end) then
@@ -1244,7 +1244,7 @@ function slot0.CheckFleetSalvage(slot0, slot1)
 	end
 end
 
-function slot0.GetChapterAuraBuffs(slot0)
+slot0.GetChapterAuraBuffs = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.fleets) do
@@ -1256,7 +1256,7 @@ function slot0.GetChapterAuraBuffs(slot0)
 	return slot1
 end
 
-function slot0.GetChapterAidBuffs(slot0)
+slot0.GetChapterAidBuffs = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.fleets) do
@@ -1270,7 +1270,7 @@ function slot0.GetChapterAidBuffs(slot0)
 	return slot1
 end
 
-function slot0.getFleetBattleBuffs(slot0, slot1, slot2)
+slot0.getFleetBattleBuffs = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	underscore.each(slot1:GetBuffList(), function (slot0)
@@ -1288,7 +1288,7 @@ function slot0.getFleetBattleBuffs(slot0, slot1, slot2)
 	return slot3, slot4
 end
 
-function slot0.BuildBattleBuffList(slot0, slot1)
+slot0.BuildBattleBuffList = function(slot0, slot1)
 	slot2 = {}
 	slot3, slot4 = slot0:triggerSkill(slot1, FleetSkill.TypeBattleBuff)
 
@@ -1339,11 +1339,11 @@ function slot0.BuildBattleBuffList(slot0, slot1)
 	return slot2
 end
 
-function slot0.CanLongMove(slot0, slot1)
+slot0.CanLongMove = function(slot0, slot1)
 	return slot0:IsUnlockFleetMode() and not slot1:HasTrapBuff() and slot0:GetFleetTerrain(slot1) ~= WorldMapCell.TerrainFog
 end
 
-function slot0.triggerSkill(slot0, slot1, slot2)
+slot0.triggerSkill = function(slot0, slot1, slot2)
 	slot3 = _.filter(slot1:findSkills(slot2), function (slot0)
 		return _.any(slot0:GetTriggers(), function (slot0)
 			return slot0[1] == FleetSkill.TriggerInSubTeam and slot0[2] == 1
@@ -1375,7 +1375,7 @@ function slot0.triggerSkill(slot0, slot1, slot2)
 	end), slot3
 end
 
-function slot0.triggerCheck(slot0, slot1, slot2, slot3)
+slot0.triggerCheck = function(slot0, slot1, slot2, slot3)
 	if slot3[1] == FleetSkill.TriggerDDHead then
 		return #slot1:GetTeamShipVOs(TeamType.Vanguard, false) > 0 and ShipType.IsTypeQuZhu(slot5[1]:getShipType())
 	elseif slot4 == FleetSkill.TriggerVanCount then
@@ -1450,7 +1450,7 @@ function slot0.triggerCheck(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnUpdateAttachmentExist(slot0, slot1, slot2, slot3)
+slot0.OnUpdateAttachmentExist = function(slot0, slot1, slot2, slot3)
 	slot0.typeAttachments[slot4] = slot0.typeAttachments[slot3.type] or {}
 
 	if slot1 == WorldMapCell.EventAddAttachment then
@@ -1509,17 +1509,17 @@ function slot0.OnUpdateAttachmentExist(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.GetBGM(slot0)
+slot0.GetBGM = function(slot0)
 	return slot0.config.bgm
 end
 
-function slot0.NeedClear(slot0)
+slot0.NeedClear = function(slot0)
 	slot1, slot2 = slot0:GetEventPoisonRate()
 
 	return slot2 > 0 and slot1 == 0 or slot0.clearFlag or slot0.config.is_clear > 0
 end
 
-function slot0.GetBuff(slot0, slot1, slot2)
+slot0.GetBuff = function(slot0, slot1, slot2)
 	if not slot0.factionBuffs[slot1][slot2] then
 		slot0.factionBuffs[slot1][slot2] = WorldBuff.New()
 
@@ -1532,11 +1532,11 @@ function slot0.GetBuff(slot0, slot1, slot2)
 	return slot0.factionBuffs[slot1][slot2]
 end
 
-function slot0.AddBuff(slot0, slot1, slot2, slot3)
+slot0.AddBuff = function(slot0, slot1, slot2, slot3)
 	slot0:GetBuff(slot1, slot2):AddFloor(slot3)
 end
 
-function slot0.RemoveBuff(slot0, slot1, slot2, slot3)
+slot0.RemoveBuff = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:GetBuff(slot1, slot2)
 
 	if slot3 then
@@ -1546,7 +1546,7 @@ function slot0.RemoveBuff(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.GetBuffList(slot0, slot1, slot2)
+slot0.GetBuffList = function(slot0, slot1, slot2)
 	if slot1 == uv0.FactionSelf then
 		return underscore.filter(underscore.values(slot0.factionBuffs[slot1]), function (slot0)
 			return slot0:GetFloor() > 0
@@ -1564,7 +1564,7 @@ function slot0.GetBuffList(slot0, slot1, slot2)
 	end
 end
 
-function slot0.FlushFaction(slot0, slot1)
+slot0.FlushFaction = function(slot0, slot1)
 	if slot1 == uv0.FactionSelf then
 		underscore.each(slot0:GetFleets(), function (slot0)
 			slot0:DispatchEvent(WorldMapFleet.EventUpdateBuff)
@@ -1594,7 +1594,7 @@ function slot0.FlushFaction(slot0, slot1)
 	end
 end
 
-function slot0.GetBattleLuaBuffs(slot0, slot1, slot2)
+slot0.GetBattleLuaBuffs = function(slot0, slot1, slot2)
 	underscore.each(slot0:GetBuffList(slot1, slot2), function (slot0)
 		if slot0.config.lua_id > 0 then
 			table.insert(uv0, slot0.config.lua_id)
@@ -1604,7 +1604,7 @@ function slot0.GetBattleLuaBuffs(slot0, slot1, slot2)
 	return {}
 end
 
-function slot0.UpdateFleetLocation(slot0, slot1, slot2, slot3)
+slot0.UpdateFleetLocation = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:GetFleet(slot1)
 
 	assert(slot4, "without this fleet : " .. slot1)
@@ -1618,7 +1618,7 @@ function slot0.UpdateFleetLocation(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.GetRangeDic(slot0, slot1)
+slot0.GetRangeDic = function(slot0, slot1)
 	WorldConst.RangeCheck(slot1, slot0:GetFOVRange(slot1), function (slot0, slot1)
 		if uv0.cells[WorldMapCell.GetName(slot0, slot1)] then
 			uv1[slot2] = defaultValue(uv1[slot2], 0) + 1
@@ -1628,7 +1628,7 @@ function slot0.GetRangeDic(slot0, slot1)
 	return {}
 end
 
-function slot0.CheckFleetUpdateFOV(slot0, slot1, slot2)
+slot0.CheckFleetUpdateFOV = function(slot0, slot1, slot2)
 	if not slot0:IsValid() then
 		slot2()
 
@@ -1724,7 +1724,7 @@ function slot0.CheckFleetUpdateFOV(slot0, slot1, slot2)
 	end
 end
 
-function slot0.CheckSelectFleetUpdateFog(slot0, slot1)
+slot0.CheckSelectFleetUpdateFog = function(slot0, slot1)
 	if not slot0:IsValid() then
 		slot1()
 
@@ -1780,7 +1780,7 @@ function slot0.CheckSelectFleetUpdateFog(slot0, slot1)
 	slot0:DispatchEvent(uv0.EventUpdateFleetFOV)
 end
 
-function slot0.CheckEventAutoTrigger(slot0, slot1)
+slot0.CheckEventAutoTrigger = function(slot0, slot1)
 	if slot1:GetSpEventType() == WorldMapAttachment.SpEventConsumeItem then
 		return getProxy(SettingsProxy):GetWorldFlag("consume_item")
 	end
@@ -1800,7 +1800,7 @@ function slot0.CheckEventAutoTrigger(slot0, slot1)
 	return true
 end
 
-function slot0.CanAutoFight(slot0)
+slot0.CanAutoFight = function(slot0)
 	if slot0.config.is_auto > 0 then
 		for slot4 = 1, slot0.config.is_auto do
 			if not nowWorld():IsSystemOpen(WorldConst["SystemAutoFight_" .. slot4]) then
@@ -1814,7 +1814,7 @@ function slot0.CanAutoFight(slot0)
 	end
 end
 
-function slot0.CkeckTransport(slot0)
+slot0.CkeckTransport = function(slot0)
 	assert(slot0:IsValid(), "without map info")
 
 	if slot0.config.is_transfer == 0 then

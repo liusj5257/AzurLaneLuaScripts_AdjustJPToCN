@@ -1,17 +1,17 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI11",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
-			bgm = "level-french2",
 			say = "カサブランカ、トゥーロン…悲劇は過ぎました。教国の騎士たちは信仰と誓いを守ろうと自己犠牲を選びました。",
+			dir = 1,
+			bgm = "level-french2",
 			effects = {
 				{
 					active = true,
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "犠牲は偉大なり、自由は偉大なり。",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "敵が邪しき巨人ゴリアテのように、剣と槍の暴力で攻めて来るのであれば、",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "聖人ダビデのように、万軍の主、偉大なるお方の御名をもって立ち向かうのみ！",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "自由の力が目覚め、",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "聖なる御旗の元に正義が集まり、",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "この新しい時代で、私たちはきっと栄光を奪い返してみせよう！",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "かの枢機卿から預かったこの「名前」、そしてこの緋き衣に誓って、すべての民に自由を！",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "「大いなる父と聖霊の加護があらんこと」",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "自沈したはずのヴィシアの同胞をも救った指揮官に至高の祝福を授けよう――",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -185,8 +185,8 @@ return {
 		{
 			actor = 801010,
 			side = 0,
-			dir = 1,
 			say = "追撃戦はル・ファンタスク級の十八番ですわ。早く指示を！",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

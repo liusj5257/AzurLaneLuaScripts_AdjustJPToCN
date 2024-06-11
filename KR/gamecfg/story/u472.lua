@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U472",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U472",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"상냥하고 조용한, 그리고 따뜻한\n\n<size=45>2. 조용한 방문객</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "지휘실에서 일을 하고 있는데 노크 소리가 들렸다.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "지휘실에서 일을 하고 있는데 노크 소리가 들렸다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "——이 시간에 누구지?",
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "지휘실 안으로 들어온 U-47은 호기심 어린 시선으로 주변을 둘러보았다. 무슨 용건인 걸까——",
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "그렇게 바쁘지는 않아서 U-47에게 원하는 만큼 있어도 좋다는 말을 건넸다.",
@@ -144,15 +144,15 @@ return {
 			}
 		},
 		{
-			actor = 408020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408020,
+			nameColor = "#a9f548",
 			say = "…………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "한 쪽은 일을 하고, 한 쪽은 책을 읽으면서 조용히 시간이 지났다——",
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "혹시 이런 환경이 압박이 되지는 않을까? 조금 걱정스러운 눈빛으로 U-47이 앉아있는 소파를 바라보았다.",
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "책을 절반 정도 읽고 잠이 든 건가... 깊게 잠든 U-47은 얕은 숨소리만 내고 있어서 알아차리기 어려웠다.",
@@ -254,8 +254,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "그 책의 이름은... 음, 확실히 조금 어렵긴 했겠다.",
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-47이 잠든 이유를 깨닫고 난 뒤 가볍게 담요를 덮어 주었다.",
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 408020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408020,
+			nameColor = "#a9f548",
 			say = "...음.",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 30,
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-47이 약간 뒤척였다. 혹시 담요를 덮어준 것을 알아차린 걸까?",
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

@@ -1,26 +1,26 @@
 slot0 = class("WorldTaskProxy", import("....BaseEntity"))
 slot0.Fields = {
-	dailyTimeStemp = "number",
-	dailyTaskIds = "table",
-	dailyTimer = "table",
 	itemListenerList = "table",
-	recycle = "table",
+	dailyTaskIds = "table",
+	list = "table",
+	dailyTimeStemp = "number",
+	dailyTimer = "table",
 	taskFinishCount = "number",
 	mapList = "table",
 	mapListenerList = "table",
-	list = "table"
+	recycle = "table"
 }
 slot0.EventUpdateTask = "WorldTaskProxy.EventUpdateTask"
 slot0.EventUpdateDailyTaskIds = "WorldTaskProxy.EventUpdateDailyTaskIds"
 
-function slot0.Build(slot0)
+slot0.Build = function(slot0)
 	slot0.list = {}
 	slot0.recycle = {}
 	slot0.itemListenerList = {}
 	slot0.mapListenerList = {}
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		if WorldTask.New(slot6):getState() == WorldTask.STATE_RECEIVED then
 			slot0.recycle[slot7.id] = slot7
@@ -30,17 +30,17 @@ function slot0.Setup(slot0, slot1)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Clear()
 end
 
-function slot0.getTaskById(slot0, slot1)
+slot0.getTaskById = function(slot0, slot1)
 	assert(slot1, "taskId can not be nil")
 
 	return slot0.list[slot1]
 end
 
-function slot0.addTaskListener(slot0, slot1)
+slot0.addTaskListener = function(slot0, slot1)
 	if slot1.config.complete_condition == WorldConst.TaskTypeSubmitItem then
 		slot0.itemListenerList[slot2] = slot0.itemListenerList[slot1.config.complete_parameter[1]] or {}
 
@@ -54,7 +54,7 @@ function slot0.addTaskListener(slot0, slot1)
 	end
 end
 
-function slot0.removeTaskListener(slot0, slot1)
+slot0.removeTaskListener = function(slot0, slot1)
 	if slot1.config.complete_condition == WorldConst.TaskTypeSubmitItem then
 		table.removebyvalue(slot0.itemListenerList[slot1.config.complete_parameter[1]], slot1.id)
 	elseif slot1.config.complete_condition == WorldConst.TaskTypePressingMap then
@@ -64,7 +64,7 @@ function slot0.removeTaskListener(slot0, slot1)
 	end
 end
 
-function slot0.doUpdateTaskByItem(slot0, slot1)
+slot0.doUpdateTaskByItem = function(slot0, slot1)
 	if not slot0.itemListenerList[slot1.id] then
 		return
 	end
@@ -77,7 +77,7 @@ function slot0.doUpdateTaskByItem(slot0, slot1)
 	end
 end
 
-function slot0.doUpdateTaskByMap(slot0, slot1, slot2)
+slot0.doUpdateTaskByMap = function(slot0, slot1, slot2)
 	if not slot0.mapListenerList[slot1] then
 		return
 	end
@@ -90,7 +90,7 @@ function slot0.doUpdateTaskByMap(slot0, slot1, slot2)
 	end
 end
 
-function slot0.addTask(slot0, slot1)
+slot0.addTask = function(slot0, slot1)
 	slot0.recycle[slot1.id] = nil
 	slot0.list[slot1.id] = slot1
 
@@ -98,7 +98,7 @@ function slot0.addTask(slot0, slot1)
 	slot0:DispatchEvent(uv0.EventUpdateTask, slot1)
 end
 
-function slot0.deleteTask(slot0, slot1)
+slot0.deleteTask = function(slot0, slot1)
 	if not slot0.list[slot1] then
 		return
 	end
@@ -110,7 +110,7 @@ function slot0.deleteTask(slot0, slot1)
 	slot0:DispatchEvent(uv0.EventUpdateTask, slot0.recycle[slot1])
 end
 
-function slot0.updateTask(slot0, slot1)
+slot0.updateTask = function(slot0, slot1)
 	slot0.list[slot1.id] = slot1
 
 	if slot1:getState() == WorldTask.STATE_RECEIVED then
@@ -120,15 +120,15 @@ function slot0.updateTask(slot0, slot1)
 	end
 end
 
-function slot0.getTasks(slot0)
+slot0.getTasks = function(slot0)
 	return slot0.list
 end
 
-function slot0.getTaskVOs(slot0)
+slot0.getTaskVOs = function(slot0)
 	return underscore.values(slot0.list)
 end
 
-function slot0.getDoingTaskVOs(slot0)
+slot0.getDoingTaskVOs = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0:getTasks()) do
@@ -140,7 +140,7 @@ function slot0.getDoingTaskVOs(slot0)
 	return slot1
 end
 
-function slot0.getAutoSubmitTaskVO(slot0)
+slot0.getAutoSubmitTaskVO = function(slot0)
 	for slot4, slot5 in pairs(slot0:getTasks()) do
 		if slot5:IsAutoSubmit() and slot5:getState() == WorldTask.STATE_FINISHED then
 			return slot5
@@ -150,15 +150,15 @@ function slot0.getAutoSubmitTaskVO(slot0)
 	return nil
 end
 
-function slot0.riseTaskFinishCount(slot0)
+slot0.riseTaskFinishCount = function(slot0)
 	slot0.taskFinishCount = slot0.taskFinishCount + 1
 end
 
-function slot0.getDailyTaskIds(slot0)
+slot0.getDailyTaskIds = function(slot0)
 	return underscore.rest(slot0.dailyTaskIds, 1)
 end
 
-function slot0.UpdateDailyTaskIds(slot0, slot1)
+slot0.UpdateDailyTaskIds = function(slot0, slot1)
 	if slot0.dailyTaskIds ~= slot1 then
 		slot0.dailyTaskIds = slot1
 
@@ -166,7 +166,7 @@ function slot0.UpdateDailyTaskIds(slot0, slot1)
 	end
 end
 
-function slot0.checkDailyTask(slot0, slot1)
+slot0.checkDailyTask = function(slot0, slot1)
 	slot2 = {}
 
 	if not slot0.dailyTimeStemp or slot0.dailyTimeStemp < pg.TimeMgr.GetInstance():GetServerTime() then
@@ -202,17 +202,17 @@ function slot0.checkDailyTask(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.canAcceptDailyTask(slot0)
+slot0.canAcceptDailyTask = function(slot0)
 	return slot0.dailyTaskIds and #slot0.dailyTaskIds > 0 and pg.gameset.world_port_taskmax.key_value > #slot0:getDoingTaskVOs()
 end
 
-function slot0.hasDoingCollectionTask(slot0)
+slot0.hasDoingCollectionTask = function(slot0)
 	return underscore.any(slot0:getDoingTaskVOs(), function (slot0)
 		return slot0:IsTypeCollection()
 	end)
 end
 
-function slot0.getRecycleTask(slot0, slot1)
+slot0.getRecycleTask = function(slot0, slot1)
 	return slot0.list[slot1] or slot0.recycle[slot1]
 end
 

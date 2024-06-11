@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ベストピクチャーズ！\n\n<size=45>その一　激写！隣のサラトガちゃん</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "母港・執務室",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,9 +44,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "秘書官のサラトガ（ちゃん）は鼻歌しながらお仕事をやっている。",
 			typewriter = {
 				speed = 0.05,
@@ -54,9 +54,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……どうやら仕事に集中していてこちらに気づいていないようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -70,16 +70,16 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			actorName = "{namecode:98}",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "現行犯逮捕にゃ！盗撮は許しても明石のコピー機を無断使用する罪は重いにゃ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -104,20 +104,20 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
 		{
-			actor = 101050,
+			say = "指揮官助けてーー！サラトガちゃんの魅力を布教したいだけだよー！…ってあのコピー機は明石のなの！？",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官助けてーー！サラトガちゃんの魅力を布教したいだけだよー！…ってあのコピー機は明石のなの！？",
+			actor = 101050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -132,19 +132,19 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "そうだにゃ！というわけで印刷されたものはこの明石が押収するにゃ！原本は指揮官に預けるにゃ！",
 			typewriter = {
@@ -157,11 +157,11 @@ return {
 			}
 		},
 		{
-			actor = 101050,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101050,
+			nameColor = "#a9f548",
 			say = "うええええ……（パタン",
 			typewriter = {
 				speed = 0.05,
@@ -173,21 +173,21 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -30,
 					dur = 0.4,
-					type = "shake",
-					y = -30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "というわけで、グリッドレイが布教しようとしたこの「サラトガちゃんベストピクチャーズvol.1　お試し読み版」を手に入れた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -208,9 +208,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "中身はグリッドレイの証言によると、サラトガちゃんの日常を激写（隠し撮り）したものらしい。",
 			typewriter = {
 				speed = 0.05,
@@ -250,9 +250,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……サラトガちゃんがこちらに気づいていないうちにパパっと見てみようか。",
 			typewriter = {
 				speed = 0.05,

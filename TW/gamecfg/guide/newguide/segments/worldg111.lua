@@ -9,9 +9,9 @@ return {
 			style = {
 				text = "每個編號塞壬實驗場中都存在若干謎題，跟隨文本提示可以一步步進行解謎。",
 				mode = 2,
-				posY = -100,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -100,
 				posX = 300
 			},
 			showSign = {
@@ -34,9 +34,9 @@ return {
 			style = {
 				text = "點擊退出按鈕可以暫時離開塞壬實驗場返回通常海域，不過再次進入後解密進度將恢復為初始狀態。",
 				mode = 2,
-				posY = -100,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -100,
 				posX = 500
 			},
 			showSign = {

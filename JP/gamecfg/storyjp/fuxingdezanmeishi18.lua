@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI18",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 602010,
-			side = 2,
 			bgName = "bg_italyv2_3",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "「駒」たちを全部撃退した。こちら側の損傷は？",
 			bgm = "battle-boss-italy",
+			actor = 602010,
+			nameColor = "#a9f548",
+			say = "「駒」たちを全部撃退した。こちら側の損傷は？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 601040,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#a9f548",
 			say = "かすり傷程度でしたら、いくつか……",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 602010,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
 			say = "やはり本物のロイヤル艦隊とは全然別物だな",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 602010,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
 			say = "（普通は相手の行動に応じて戦い方を随時切り替えるものだが、この敵たちにはそれがない）",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 602010,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
 			say = "（そう、まるで「意図」を持って戦っているような気がしない相手だ）",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 602010,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
 			say = "ふん、本物のロイヤル艦隊相手でも、こちらだけで勝てるかどうか知りたいものだ",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 601060,
 			dir = 1,
+			actor = 601060,
 			nameColor = "#a9f548",
 			say = "この程度の敵、レッコと仲間の前に何度現れようと……わわわ？！",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1,
 					dur = 0.4,
 					x = 30,
@@ -165,8 +165,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 601050,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#a9f548",
 			say = "迷路の壁が…変わった…！",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,13 +189,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_italyv2_3",
+			side = 2,
+			dir = 1,
 			say = "迷路を構成する「壁」が一呼吸のうちにガラリと変化した。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
+			dir = 1,
 			say = "先程まで重厚な壁に囲まれていた通路の方向が一気に変わり、まるで違う迷路に入ったかのようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -234,9 +234,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
+			dir = 1,
 			say = "艦載機で迷路の様子を観察していたアクィラはもちろん、サディアの艦船たちもみな目の前の出来事に途方に暮れていた。",
 			typewriter = {
 				speed = 0.05,
@@ -251,10 +251,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "せ、せっかく考えた迷路攻略ルートが台無しだああ！",
 			typewriter = {
 				speed = 0.05,
@@ -266,12 +266,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "うっ…元々アクィラさんの艦載機のおかげでなんとか正しそうな通路を進んでいましたのに…",
 			typewriter = {
 				speed = 0.05,
@@ -286,10 +286,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "もし迷路の通路がこのまま変わるのであれば空からの偵察も無理ですね…",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "今はみんな、迷路の奥にGBたちがいると思って…進んでいるよね…？",
 			typewriter = {
@@ -350,12 +350,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "もしくは「駒」などで誘い込んで、ここで迷路を変えさせ私達を迷路に閉じ込めるのですね",
 			typewriter = {
 				speed = 0.05,
@@ -386,10 +386,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "つまり、あたしたちを迷わせるというより、何かに近づけさせないために迷路を変えたの？",
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -414,10 +414,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "もし本気で閉じ込めるのなら、アクィラさんの艦載機が一番先に狙われますよね…",
 			typewriter = {
 				speed = 0.05,
@@ -432,10 +432,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "むむ…いずれにしてもここは進むしかないよね！",
 			typewriter = {
 				speed = 0.05,
@@ -447,8 +447,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -457,12 +457,12 @@ return {
 			}
 		},
 		{
-			actor = 601060,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "アクィラさん！引き続き空からの偵察を頼むっ！",
 			typewriter = {
 				speed = 0.05,

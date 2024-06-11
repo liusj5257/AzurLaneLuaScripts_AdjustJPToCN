@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "龙宫机关-土：敌方占领",
 	time = 0,
-	color = "yellow",
+	name = "龙宫机关-土：敌方占领",
+	init_effect = "",
+	id = 9251,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9251,
+	color = "yellow",
 	icon = 9251,
 	last_effect = "",
 	effect_list = {

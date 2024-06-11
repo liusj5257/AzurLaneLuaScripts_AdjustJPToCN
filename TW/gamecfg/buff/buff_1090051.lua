@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					rant = 3000,
-					skill_id = 1090050,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 1090050
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 				},
 				arg_list = {
 					rant = 3330,
-					skill_id = 1090050,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 1090050
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 				},
 				arg_list = {
 					rant = 3660,
-					skill_id = 1090050,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 1090050
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 				},
 				arg_list = {
 					rant = 3990,
-					skill_id = 1090050,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 1090050
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 				},
 				arg_list = {
 					rant = 4320,
-					skill_id = 1090050,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 1090050
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 				},
 				arg_list = {
 					rant = 4650,
-					skill_id = 1090050,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 1090050
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 				},
 				arg_list = {
 					rant = 4980,
-					skill_id = 1090050,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 1090050
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 				},
 				arg_list = {
 					rant = 5310,
-					skill_id = 1090050,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 1090050
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 				},
 				arg_list = {
 					rant = 5640,
-					skill_id = 1090050,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 1090050
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 				},
 				arg_list = {
 					rant = 6000,
-					skill_id = 1090050,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 1090050
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "火力全开",
 	time = 2,
-	color = "red",
+	name = "火力全开",
+	init_effect = "",
+	id = 1090051,
 	picture = "",
 	desc = "概率发动",
 	stack = 1,
-	id = 1090051,
+	color = "red",
 	icon = 2010,
 	last_effect = "",
 	effect_list = {
@@ -167,8 +167,8 @@ return {
 			},
 			arg_list = {
 				rant = 3000,
-				skill_id = 1090050,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				skill_id = 1090050
 			}
 		}
 	}

@@ -11,11 +11,11 @@ slot0.Listeners = {
 	onBossUpdated = "OnBossUpdated"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldBossUI"
 end
 
-function slot0.SetBossProxy(slot0, slot1, slot2)
+slot0.SetBossProxy = function(slot0, slot1, slot2)
 	assert(not slot0.bossProxy)
 
 	slot0.bossProxy = slot1
@@ -58,7 +58,7 @@ function slot0.SetBossProxy(slot0, slot1, slot2)
 	slot0.bossProxy:AddListener(WorldBossProxy.EventBossUpdated, slot0.onBossUpdated)
 end
 
-function slot0.AddListeners(slot0)
+slot0.AddListeners = function(slot0)
 	slot0:bind(uv0.ON_SWITCH, function (slot0, slot1)
 		uv0:SwitchPage(slot1)
 	end)
@@ -67,11 +67,11 @@ function slot0.AddListeners(slot0)
 	end)
 end
 
-function slot0.RemoveListeners(slot0)
+slot0.RemoveListeners = function(slot0)
 	slot0.bossProxy:RemoveListener(WorldBossProxy.EventBossUpdated, slot0.onBossUpdated)
 end
 
-function slot0.OnBossUpdated(slot0)
+slot0.OnBossUpdated = function(slot0)
 	slot0.boss = slot0.bossProxy:GetBoss()
 
 	if slot0.page == slot0.currentBossDetailPage or slot0.page == slot0.archivesDetailPage or slot0.page == slot0.currentEmptyPage or slot0.page == slot0.archivesEmptyPage then
@@ -79,41 +79,41 @@ function slot0.OnBossUpdated(slot0)
 	end
 end
 
-function slot0.OnShowFormationPreview(slot0, slot1)
+slot0.OnShowFormationPreview = function(slot0, slot1)
 	slot0.formationPreviewPage:ExecuteAction("Show", slot1)
 end
 
-function slot0.OnRemoveLayers(slot0)
+slot0.OnRemoveLayers = function(slot0)
 	if slot0.currentBossDetailPage and slot0.currentBossDetailPage:GetLoaded() and slot0.currentBossDetailPage:isShowing() then
 		slot0.currentBossDetailPage:TryPlayGuide()
 	end
 end
 
-function slot0.OnAutoBattleResult(slot0, slot1)
+slot0.OnAutoBattleResult = function(slot0, slot1)
 	if slot0.archivesDetailPage and slot0.archivesDetailPage:isShowing() then
 		slot0.archivesDetailPage:OnAutoBattleResult(slot1)
 	end
 end
 
-function slot0.OnAutoBattleStart(slot0, slot1)
+slot0.OnAutoBattleStart = function(slot0, slot1)
 	if slot0.archivesDetailPage and slot0.archivesDetailPage:isShowing() then
 		slot0.archivesDetailPage:OnAutoBattleStart(slot1)
 	end
 end
 
-function slot0.OnSwitchArchives(slot0)
+slot0.OnSwitchArchives = function(slot0)
 	if slot0.archivesListPage and slot0.archivesListPage:GetLoaded() and slot0.archivesListPage:isShowing() then
 		slot0.archivesListPage:OnSwitchArchives()
 	end
 end
 
-function slot0.OnGetMetaAwards(slot0)
+slot0.OnGetMetaAwards = function(slot0)
 	if slot0.archivesListPage and slot0.archivesListPage:GetLoaded() and slot0.archivesListPage:isShowing() then
 		slot0.archivesListPage:OnGetMetaAwards()
 	end
 end
 
-function slot0.getAwardDone(slot0)
+slot0.getAwardDone = function(slot0)
 	if slot0.page == slot0.challengeCurrentBossPage then
 		slot0.challengeCurrentBossPage:ExecuteAction("CloseGetPage")
 	end
@@ -123,7 +123,7 @@ function slot0.getAwardDone(slot0)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	for slot4, slot5 in pairs(uv0.Listeners) do
 		slot0[slot4] = function (...)
 			uv0[uv1](uv2, ...)
@@ -136,7 +136,7 @@ function slot0.init(slot0)
 	slot0:AddListeners()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.pageStack = {}
 
 	onButton(slot0, slot0.backBtn, function ()
@@ -145,7 +145,7 @@ function slot0.didEnter(slot0)
 	slot0:emit(WorldBossMediator.ON_FETCH_BOSS)
 end
 
-function slot0.OnBack(slot0)
+slot0.OnBack = function(slot0)
 	if #slot0.pageStack <= 1 then
 		slot0:emit(uv0.ON_BACK)
 
@@ -156,7 +156,7 @@ function slot0.OnBack(slot0)
 	slot0:_SwitchPage(slot0.pageStack[#slot0.pageStack])
 end
 
-function slot0.SwitchPage(slot0, slot1)
+slot0.SwitchPage = function(slot0, slot1)
 	slot0:_SwitchPage(slot1)
 
 	if #slot0.pageStack > 1 and slot0.pageStack[#slot0.pageStack - 1] == slot1 then
@@ -166,7 +166,7 @@ function slot0.SwitchPage(slot0, slot1)
 	end
 end
 
-function slot0.GetTargetPageType(slot0, slot1, slot2)
+slot0.GetTargetPageType = function(slot0, slot1, slot2)
 	if slot1 == uv0.PAGE_CHALLENGE then
 		return slot0.challengeCurrentBossPage
 	elseif slot1 == uv0.PAGE_ARCHIVES_CHALLENGE then
@@ -190,7 +190,7 @@ function slot0.GetTargetPageType(slot0, slot1, slot2)
 	end
 end
 
-function slot0._SwitchPage(slot0, slot1)
+slot0._SwitchPage = function(slot0, slot1)
 	if slot0.page then
 		slot0.page:ExecuteAction("Hide")
 	end
@@ -219,7 +219,7 @@ function slot0._SwitchPage(slot0, slot1)
 	slot0:LoadEffect(slot1)
 end
 
-function slot0.LoadEffect(slot0, slot1)
+slot0.LoadEffect = function(slot0, slot1)
 	if (slot1 == uv0.PAGE_CURRENT and slot0.boss or slot1 == uv0.PAGE_CHALLENGE and slot0.bossProxy:ExistCacheBoss()) and not slot0.fireEffect then
 		slot3 = pg.UIMgr.GetInstance()
 
@@ -240,7 +240,7 @@ function slot0.LoadEffect(slot0, slot1)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.fireEffect then
 		PoolMgr.GetInstance():ReturnUI("gondouBoss_huoxing", slot0.fireEffect)
 	end

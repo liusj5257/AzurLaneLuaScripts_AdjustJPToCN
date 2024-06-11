@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -11,10 +11,10 @@ return {
 			side = 2,
 			actorName = "Z2",
 			factiontag = "急に代わりを頼まれたKP",
+			bgm = "theme-highseasfleet-reborn",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "すでに気づいていると思いますが、ええ、このゲームはダイスを振って探索する部屋を決めます",
-			bgm = "theme-highseasfleet-reborn",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

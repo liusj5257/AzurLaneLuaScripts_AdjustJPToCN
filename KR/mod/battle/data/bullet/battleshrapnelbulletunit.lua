@@ -19,7 +19,7 @@ slot4.STATE_PRIORITY = {
 	[slot4.STATE_NORMAL] = 1
 }
 
-function slot4.Ctor(slot0, slot1, slot2)
+slot4.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._splitCount = 0
@@ -28,7 +28,7 @@ function slot4.Ctor(slot0, slot1, slot2)
 	slot0:ChangeShrapnelState(slot0.STATE_NORMAL)
 end
 
-function slot4.Hit(slot0, slot1, slot2)
+slot4.Hit = function(slot0, slot1, slot2)
 	if slot0:GetTemplate().extra_param.rangeAA then
 		return
 	end
@@ -38,15 +38,15 @@ function slot4.Hit(slot0, slot1, slot2)
 	slot0._pierceCount = slot0._pierceCount - 1
 end
 
-function slot4.SplitFinishCount(slot0)
+slot4.SplitFinishCount = function(slot0)
 	slot0._splitCount = slot0._splitCount + 1
 end
 
-function slot4.IsAllSplitFinish(slot0)
+slot4.IsAllSplitFinish = function(slot0)
 	return slot0._splitCount >= #slot0._tempData.extra_param.shrapnel
 end
 
-function slot4.Update(slot0, slot1)
+slot4.Update = function(slot0, slot1)
 	if slot0._currentState == uv0.STATE_NORMAL then
 		uv0.super.Update(slot0, slot1)
 
@@ -58,7 +58,7 @@ function slot4.Update(slot0, slot1)
 	end
 end
 
-function slot4.ChangeShrapnelState(slot0, slot1)
+slot4.ChangeShrapnelState = function(slot0, slot1)
 	if uv0.STATE_PRIORITY[slot0._currentState] and uv0.STATE_PRIORITY[slot1] <= slot2 then
 		return
 	end
@@ -72,7 +72,7 @@ function slot4.ChangeShrapnelState(slot0, slot1)
 	end
 end
 
-function slot4.IsOutRange(slot0, slot1)
+slot4.IsOutRange = function(slot0, slot1)
 	if slot0._currentState == uv0.STATE_NORMAL then
 		return uv0.super.IsOutRange(slot0, slot1)
 	else
@@ -80,23 +80,23 @@ function slot4.IsOutRange(slot0, slot1)
 	end
 end
 
-function slot4.SetSrcHost(slot0, slot1)
+slot4.SetSrcHost = function(slot0, slot1)
 	slot0._srcHost = slot1
 end
 
-function slot4.GetSrcHost(slot0)
+slot4.GetSrcHost = function(slot0)
 	return slot0._srcHost
 end
 
-function slot4.GetShrapnelParam(slot0)
+slot4.GetShrapnelParam = function(slot0)
 	return slot0._tempData.extra_param
 end
 
-function slot4.GetCurrentState(slot0)
+slot4.GetCurrentState = function(slot0)
 	return slot0._currentState
 end
 
-function slot4.SetSpawnPosition(slot0, slot1)
+slot4.SetSpawnPosition = function(slot0, slot1)
 	uv0.super.SetSpawnPosition(slot0, slot1)
 
 	slot4 = Vector3.Distance(pg.Tool.FilterY(slot0._spawnPos), pg.Tool.FilterY(slot0._explodePos))
@@ -120,26 +120,26 @@ function slot4.SetSpawnPosition(slot0, slot1)
 	end
 end
 
-function slot4.GetExplodePostion(slot0)
+slot4.GetExplodePostion = function(slot0)
 	return slot0._explodePos
 end
 
-function slot4.SetExplodePosition(slot0, slot1)
+slot4.SetExplodePosition = function(slot0, slot1)
 	slot0._explodePos = Clone(slot1)
 	slot0._explodePos.y = uv0.BombDetonateHeight
 end
 
-function slot4.CacheChildEimtter(slot0, slot1)
+slot4.CacheChildEimtter = function(slot0, slot1)
 	table.insert(slot0._cacheEmitter, slot1)
 end
 
-function slot4.interruptChildEmitter(slot0)
+slot4.interruptChildEmitter = function(slot0)
 	for slot4, slot5 in ipairs(slot0._cacheEmitter) do
 		slot5:Destroy()
 	end
 end
 
-function slot4.Dispose(slot0)
+slot4.Dispose = function(slot0)
 	slot0:interruptChildEmitter()
 
 	slot0._cacheEmitter = nil

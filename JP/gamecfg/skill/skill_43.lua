@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "绝地反击",
 	cd = 0,
-	painting = 1,
-	id = 43,
 	picture = "0",
 	desc = "绝地反击",
+	painting = 1,
+	id = 43,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,19 +16,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 46
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 47
 			}

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 55,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 60251,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60251,
+	color = "red",
 	icon = 60250,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 60250,
 				time = 50,
+				skill_id = 60250,
 				quota = 1
 			}
 		},

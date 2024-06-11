@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA18",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,8 +38,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「……鏡面海域……」",
 			typewriter = {
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "へーそれで「鏡面海域」っていうんだ",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（……「敵」は、セイレーンでは…ない？）",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（あの「アンチエックス」は、もしや……）",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "まずいな…ユニオン艦隊との連絡が完全に途絶えた",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「……『敵』の本隊は……まだ先…」",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 302130,
 			dir = 1,
+			actor = 302130,
 			nameColor = "#a9f548",
 			say = "ええ、私もそう思いますわ。今まで遭遇した敵はあくまで敵の偵察部隊、本隊はまだ先です",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 302130,
 			dir = 1,
+			actor = 302130,
 			nameColor = "#a9f548",
 			say = "ただ、この規模の敵が偵察部隊って……",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "……このまま戦えば間違いなく、燃え尽きるな",
 			dialogShake = {
@@ -273,8 +273,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「…ええ、燃え尽きて、灰と化そうとも……」",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "…いいや、拙者たちは灰にならぬ。例え燃え尽きようとも、人類の灯火を守らねばならぬ",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "高雄……",
 			typewriter = {
@@ -324,8 +324,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "それが砲火の光だろうと、拙者たちの力はこの闇に光をもたらすためにある。決して「余燼」ではない…！",
 			typewriter = {
@@ -341,8 +341,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（……！）",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（……「余燼」…この夢は…もしや…）",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "信濃殿、「切り札」の発動タイミングは任せる",
 			typewriter = {
@@ -392,9 +392,9 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「……ええ」",
 			typewriter = {

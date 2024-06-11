@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_171 = {}
 slot1 = slot0.word_template_171
 
-function temp()
+temp = function()
 	uv0["恐"] = {
 		["怖"] = {
 			["分"] = {
@@ -84,7 +84,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["控"] = {
 		["制"] = {
 			["人"] = {
@@ -100,7 +100,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["抠"] = {
 		b = {
 			this = true
@@ -125,7 +125,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["摳"] = {
 		["穴"] = {
 			this = true
@@ -135,7 +135,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["瞘"] = {
 		this = {
 			this = true
@@ -145,7 +145,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["口"] = {
 		["暴"] = {
 			this = true
@@ -286,7 +286,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["扣"] = {
 		["扣"] = {
 			this = true

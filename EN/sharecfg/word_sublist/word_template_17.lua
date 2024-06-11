@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_17 = {}
 slot1 = slot0.word_template_17
 
-function temp()
+temp = function()
 	uv0["英"] = {
 		["会"] = {
 			["話"] = {
@@ -134,7 +134,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["円"] = {
 		["光"] = {
 			this = true
@@ -144,7 +144,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["援"] = {
 		["助"] = {
 			this = true,
@@ -181,7 +181,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["王"] = {
 		["丹"] = {
 			this = true,
@@ -797,7 +797,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["億"] = {
 		["万"] = {
 			["長"] = {
@@ -811,7 +811,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["下"] = {
 		["着"] = {
 			this = true
@@ -1113,7 +1113,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["家"] = {
 		["出"] = {
 			this = true

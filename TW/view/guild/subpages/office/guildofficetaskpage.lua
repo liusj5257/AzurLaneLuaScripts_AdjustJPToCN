@@ -1,10 +1,10 @@
 slot0 = class("GuildOfficeTaskPage", import("...base.GuildBasePage"))
 
-function slot0.getTargetUI(slot0)
+slot0.getTargetUI = function(slot0)
 	return "GuildOfficeTaskBluePage", "GuildOfficeTaskRedPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.selectTaskPage = GuildOfficeSelectTaskPage.New(slot0._tf.parent, slot0.event)
 	slot0.taskTF = slot0:findTF("TaskPanel")
 	slot0.taskUnOpenTF = slot0:findTF("TaskPanel/unopen")
@@ -37,7 +37,7 @@ function slot0.OnLoaded(slot0)
 	slot0.supplyUnOpenLockTF = slot0:findTF("lock", slot0.supplyUnOpenTF)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:OverlayPanelPB(slot0.taskTF, {
@@ -65,7 +65,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0:OnUpdateGuild(slot1, slot2)
 	slot0:UpdateTaskPanel(false)
 	slot0:UpdateContributionPanel()
@@ -73,24 +73,24 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:Show()
 end
 
-function slot0.OnUpdateGuild(slot0, slot1, slot2)
+slot0.OnUpdateGuild = function(slot0, slot1, slot2)
 	slot0.guild = slot1
 	slot0.isAdmin = slot2
 end
 
-function slot0.OnUpdateContribution(slot0)
+slot0.OnUpdateContribution = function(slot0)
 	slot0:UpdateContributionPanel()
 end
 
-function slot0.OnUpdateTask(slot0, slot1)
+slot0.OnUpdateTask = function(slot0, slot1)
 	slot0:UpdateTaskPanel(slot1)
 end
 
-function slot0.OnUpdateSupplyPanel(slot0)
+slot0.OnUpdateSupplyPanel = function(slot0)
 	slot0:UpdateSupplyPanel()
 end
 
-function slot0.UpdateTaskPanel(slot0, slot1)
+slot0.UpdateTaskPanel = function(slot0, slot1)
 	if slot0.guild:getWeeklyTask():getState() == GuildTask.STATE_EMPTY then
 		slot0:UpdateLockTask()
 	elseif slot4 == GuildTask.STATE_ONGOING or slot4 == GuildTask.STATE_FINISHED then
@@ -106,7 +106,7 @@ function slot0.UpdateTaskPanel(slot0, slot1)
 	end
 end
 
-function slot0.UpdateLockTask(slot0)
+slot0.UpdateLockTask = function(slot0)
 	setActive(slot0.unOpenAdmin, slot0.isAdmin)
 	setActive(slot0.unOpenUnAdmin, not slot0.isAdmin)
 
@@ -117,7 +117,7 @@ function slot0.UpdateLockTask(slot0)
 	end
 end
 
-function slot0.UpdatePrivateTask(slot0, slot1)
+slot0.UpdatePrivateTask = function(slot0, slot1)
 	slot2 = not slot0.guild:hasWeeklyTaskFlag()
 
 	if not ((getProxy(TaskProxy):getTaskById(slot1:GetPresonTaskId()) or slot4:getFinishTaskById(slot3)) ~= nil) then
@@ -160,7 +160,7 @@ function slot0.UpdatePrivateTask(slot0, slot1)
 	setActive(slot0.privateTaskProgressTxt.gameObject.transform.parent, slot6 and not slot5:isFinish())
 end
 
-function slot0.UpdatePubliceTask(slot0, slot1)
+slot0.UpdatePubliceTask = function(slot0, slot1)
 	slot2 = slot1:getProgress()
 	slot3 = slot1:getMaxProgress()
 	slot0.taskProgressTxt.text = slot2 .. "/<size=40>" .. slot3 .. "</size>"
@@ -171,7 +171,7 @@ function slot0.UpdatePubliceTask(slot0, slot1)
 	slot0.taskAwardTxt.text = slot1:GetCurrCaptailAward()
 end
 
-function slot0.UpdateContributionPanel(slot0)
+slot0.UpdateContributionPanel = function(slot0)
 	slot1 = slot0.guild
 
 	slot0.contributionList:make(function (slot0, slot1, slot2)
@@ -201,7 +201,7 @@ function slot0.UpdateContributionPanel(slot0)
 	slot0.contributionCntTxt.text = i18n("guild_left_donate_cnt", slot1:getRemainDonateCnt() + slot1:GetExtraDonateCnt())
 end
 
-function slot0.UpdateSupplyPanel(slot0)
+slot0.UpdateSupplyPanel = function(slot0)
 	slot2 = slot0.guild:isOpenedSupply()
 
 	setActive(slot0.supplyOpenTF, slot2)
@@ -228,7 +228,7 @@ function slot0.UpdateSupplyPanel(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.taskTF, slot0._tf)
 	slot0.selectTaskPage:Destroy()
 end

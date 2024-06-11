@@ -9,8 +9,8 @@ return {
 			style = {
 				text = "点击G.Tap the \"Order\" button by your map to view your Fleet Commands.",
 				mode = 1,
-				posY = 192.3,
 				dir = 1,
+				posY = 192.3,
 				posX = 353.1
 			},
 			ui = {
@@ -19,11 +19,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 64.54,
+					rotateY = 0,
 					posY = -44.8,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 64.54
 				}
 			}
 		},
@@ -35,8 +35,8 @@ return {
 			style = {
 				text = "Fleet Redeployment allows you to give your fleet a fresh restart, fully restoring HP and Resolve.",
 				mode = 2,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 0
 			},
 			showSign = {
@@ -59,8 +59,8 @@ return {
 			style = {
 				text = "The rest of the fleet can recover Resolve from defeats by winning battles.",
 				mode = 2,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 0
 			},
 			showSign = {
@@ -83,8 +83,8 @@ return {
 			style = {
 				text = "Airspace Reconnaisance can be used on maps with Fog of War to light up the map.",
 				mode = 2,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = 0
 			},
 			showSign = {

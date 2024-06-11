@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU10",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Fifth Movement\n\n<size=45>Songs of the Grave</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			stopbgm = true,
 			bgName = "bg_bsm_0",
+			stopbgm = true,
+			mode = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgName = "bg_bsm_0",
 			sequence = {
 				{
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgName = "bg_bsm_0",
 			sequence = {
 				{
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgName = "bg_bsm_0",
 			sequence = {
 				{
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgName = "bg_bsm_0",
 			sequence = {
 				{
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgName = "bg_bsm_0",
 			sequence = {
 				{
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgName = "bg_bsm_0",
 			sequence = {
 				{
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgName = "bg_bsm_0",
 			sequence = {
 				{

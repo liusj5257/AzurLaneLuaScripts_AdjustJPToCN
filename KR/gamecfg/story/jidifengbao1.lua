@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIDIFENGBAO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIDIFENGBAO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 2,
-			say = "낙설로 뒤덮인 얼음 위, 보급 선단은 쇄빙선이 개척한 항로를 따라 길게 줄지어 먼 곳을 향해 달려가고 있다.",
 			bgm = "bgm-cccp3",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "낙설로 뒤덮인 얼음 위, 보급 선단은 쇄빙선이 개척한 항로를 따라 길게 줄지어 먼 곳을 향해 달려가고 있다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_jidifengbao_map",
 			say = "극지에서의 전쟁은 멈춘 적이 없지만, 오늘과 같은 대규모 자원 동원은 이례적이다.",
 			typewriter = {
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_jidifengbao_map",
 			say = "통신기가 몇 차례 삑삑거리더니 곧이어 낯익은 소리가 들려왔다.",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#A9F548FF",
 			say = "'철권' 분대, 반드시 사명을 다하겠다!",
 			painting = {
@@ -386,8 +386,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "'낫의 악마' 분대, 이해했다.",
 			painting = {
@@ -523,9 +523,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 900218,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "각 작전 분대는 미리 각자 위치에서 대기해주세요. 여러분의 승리를 기원합니다!",
 			typewriter = {
 				speed = 0.05,
@@ -541,10 +541,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 900218,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "통신을 종료합니다.",
 			typewriter = {
 				speed = 0.05,

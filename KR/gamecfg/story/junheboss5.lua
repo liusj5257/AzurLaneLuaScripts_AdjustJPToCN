@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHEBOSS5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHEBOSS5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"저편을 건너온 물결\n\n<size=45>스루가 시점</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 305110,
-			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "훈련 수고했네. {namecode:22}, {namecode:97}. 그리고 {namecode:175}. 지휘관도 이번 합동 훈련에서 칭찬이 자자하더군.",
 			bgm = "cw-level",
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "훈련 수고했네. {namecode:22}, {namecode:97}. 그리고 {namecode:175}. 지휘관도 이번 합동 훈련에서 칭찬이 자자하더군.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "참나…… 끝에는 완전 난장판이었다는 거다! 다행히 훈련용 모의탄이었기에 망정이지!",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "………………?!?!",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "절——————————————대 안됩니다!!",
 			dialogShake = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -161,15 +161,15 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "(다시 생각해보면 정말 이렇게 될 줄은 몰랐는데……)",
 			bgm = "story-2",
+			actor = 900200,
+			nameColor = "#a9f548",
+			say = "(다시 생각해보면 정말 이렇게 될 줄은 몰랐는데……)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -212,10 +212,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "(그저 인원 채우는 포지션이라고 생각해서 하겠다고 한 것이었다고——!)",
 			typewriter = {
 				speed = 0.05,
@@ -245,10 +245,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "(정말이지, 이렇게 생각 없이 적당히 하는 타입은 어려워!)",
 			typewriter = {
 				speed = 0.05,
@@ -262,10 +262,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "(하지만 이러니 저러니 해도 모두 동료잖아? 내버려 둘 수 없는걸? 결국 내가 열심히 하는 수 밖에 없잖아!)",
 			typewriter = {
 				speed = 0.05,
@@ -295,10 +295,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "(그걸 말이라고! 하지만 지휘관의 함대가 이렇게 강할 줄은 몰랐는걸!)",
 			typewriter = {
 				speed = 0.05,
@@ -312,10 +312,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "(뭔가 대책을 세우지 않으면 분명히 와르르 무너져버릴거라고?! 방법이 없잖아! 당연히 아무도 모를 거라고 생각했는데!)",
 			typewriter = {
 				speed = 0.05,
@@ -329,10 +329,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 900200,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
+			nameColor = "#a9f548",
 			say = "(만약 누군가 한다면 당연히 지휘관이 알아 보겠지? 그러니까 나 같은 외부인이 하는게 맞는 거잖아!)",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>만약 여기라면, 혹시 나도——</size>",
@@ -402,17 +402,17 @@ return {
 			}
 		},
 		{
-			actor = 305110,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "그래. 역사가 없는 함선이라도 모항의 모두와 격의 없이 지낼 수 있지.",
 			bgm = "cw-story",
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "그래. 역사가 없는 함선이라도 모항의 모두와 격의 없이 지낼 수 있지.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -472,8 +472,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "저는……",
 			typewriter = {
@@ -537,8 +537,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900200,
 			dir = 1,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "(그래. 여기라면 나도, 그리고 ‘그녀’도……)",
 			typewriter = {
@@ -554,9 +554,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900200,
 			dir = 1,
 			blackBg = true,
+			actor = 900200,
 			nameColor = "#a9f548",
 			say = "그럼, 인연이 있다면 언젠가——",
 			typewriter = {

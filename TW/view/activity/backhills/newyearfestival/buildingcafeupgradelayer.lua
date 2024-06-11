@@ -4,7 +4,7 @@ slot1 = {
 	18
 }
 
-function slot0.Set(slot0, slot1, slot2)
+slot0.Set = function(slot0, slot1, slot2)
 	slot2 = slot2 or slot0.contextData.buildingID
 	slot3 = pg.activity_event_building[slot2]
 

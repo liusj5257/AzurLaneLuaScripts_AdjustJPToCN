@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_97 = {}
 slot1 = slot0.word_template_97
 
-function temp()
+temp = function()
 	uv0["抠"] = {
 		["穴"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["颜"] = {
 		["射"] = {
 			this = true,
@@ -31,7 +31,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["露"] = {
 		B = {
 			this = true
@@ -78,7 +78,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["母"] = {
 		["子"] = {
 			["奸"] = {

@@ -7,13 +7,13 @@ slot0.GET_CHALLENGE_AWARD = "LimitChallengeConst.GET_CHALLENGE_AWARD"
 slot0.GET_CHALLENGE_AWARD_DONE = "LimitChallengeConst.GET_CHALLENGE_AWARD_DONE"
 slot0.UPDATE_PASS_TIME = "LimitChallengeConst.UPDATE_PASS_TIME"
 
-function slot0.RequestInfo()
+slot0.RequestInfo = function()
 	if pg.constellation_challenge_month and #pg.constellation_challenge_month.all > 0 and LimitChallengeConst.GetCurMonthConfig() then
 		pg.m02:sendNotification(LimitChallengeConst.REQ_CHALLENGE_INFO)
 	end
 end
 
-function slot0.GetNextMonthTS()
+slot0.GetNextMonthTS = function()
 	slot0 = pg.TimeMgr.GetInstance():GetServerTime()
 	slot1 = tonumber(pg.TimeMgr.GetInstance():STimeDescS(slot0, "%Y"))
 
@@ -23,32 +23,32 @@ function slot0.GetNextMonthTS()
 	end
 
 	return pg.TimeMgr.GetInstance():Table2ServerTime({
-		sec = 0,
-		min = 0,
 		hour = 0,
+		min = 0,
+		sec = 0,
 		day = 1,
 		year = slot1,
 		month = slot2
 	})
 end
 
-function slot0.GetCurMonth()
+slot0.GetCurMonth = function()
 	return tonumber(pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "%m"))
 end
 
-function slot0.GetCurMonthConfig()
+slot0.GetCurMonthConfig = function()
 	return pg.constellation_challenge_month[uv0.GetCurMonth()]
 end
 
-function slot0.GetChallengeIDByLevel(slot0)
+slot0.GetChallengeIDByLevel = function(slot0)
 	return LimitChallengeConst.GetCurMonthConfig().stage[slot0]
 end
 
-function slot0.GetStageIDByLevel(slot0)
+slot0.GetStageIDByLevel = function(slot0)
 	return pg.expedition_constellation_challenge_template[uv0.GetChallengeIDByLevel(slot0)].dungeon_id
 end
 
-function slot0.GetChallengeIDByStageID(slot0)
+slot0.GetChallengeIDByStageID = function(slot0)
 	for slot4, slot5 in ipairs(pg.expedition_constellation_challenge_template.all) do
 		if slot0 == pg.expedition_constellation_challenge_template[slot5].dungeon_id then
 			return slot6.id
@@ -56,13 +56,13 @@ function slot0.GetChallengeIDByStageID(slot0)
 	end
 end
 
-function slot0.IsOpen()
+slot0.IsOpen = function()
 	slot0 = getProxy(PlayerProxy):getRawData().level
 
 	return pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0, "LimitChallengeMediator") and pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0, "ChallengeMainMediator")
 end
 
-function slot0.IsInAct()
+slot0.IsInAct = function()
 	return LOCK_LIMIT_CHALLENGE and checkExist(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE), {
 		"isEnd"
 	}) == false or pg.constellation_challenge_month and #pg.constellation_challenge_month.all > 0 and LimitChallengeConst.GetCurMonthConfig()
@@ -70,15 +70,15 @@ end
 
 slot0.RedPointKey = "LimitChallengeMonth"
 
-function slot0.SetRedPointMonth()
+slot0.SetRedPointMonth = function()
 	PlayerPrefs.SetInt(uv0.RedPointKey, uv0.GetCurMonth())
 end
 
-function slot0.GetRedPointMonth()
+slot0.GetRedPointMonth = function()
 	return PlayerPrefs.GetInt(uv0.RedPointKey, 0)
 end
 
-function slot0.IsShowRedPoint()
+slot0.IsShowRedPoint = function()
 	if LOCK_LIMIT_CHALLENGE then
 		return false
 	end

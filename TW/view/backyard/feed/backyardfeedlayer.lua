@@ -8,15 +8,15 @@ slot1 = {
 	50006
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackyardFeedUI"
 end
 
-function slot0.SetIsRemind(slot0, slot1)
+slot0.SetIsRemind = function(slot0, slot1)
 	slot0.remindEndTime = slot1
 end
 
-function slot0.OnUsageItem(slot0, slot1)
+slot0.OnUsageItem = function(slot0, slot1)
 	if not table.indexof(uv0, slot1) or slot2 <= 0 then
 		return
 	end
@@ -24,16 +24,16 @@ function slot0.OnUsageItem(slot0, slot1)
 	slot0.cards[slot2]:UpdateCnt(getProxy(BagProxy):getItemCountById(slot1))
 end
 
-function slot0.OnDormUpdated(slot0)
+slot0.OnDormUpdated = function(slot0)
 	slot0:UpdateDorm()
 end
 
-function slot0.OnShopDone(slot0)
+slot0.OnShopDone = function(slot0)
 	slot0:UpdateCards()
 	slot0:UpdateDorm()
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.frame = slot0:findTF("frame")
 	slot0.chatTxt = slot0:findTF("chat/Text"):GetComponent(typeof(Text))
 	slot0.chatTxt1 = slot0:findTF("chat/Text1"):GetComponent(typeof(Text))
@@ -54,7 +54,7 @@ function slot0.init(slot0)
 	setText(slot0:findTF("frame/extend_btn/Text"), i18n("enter_extend_food_label"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
@@ -72,7 +72,7 @@ function slot0.didEnter(slot0)
 	slot0:InitFoods()
 end
 
-function slot0.UpdateDorm(slot0)
+slot0.UpdateDorm = function(slot0)
 	slot0:InitCharChat(getProxy(DormProxy):getRawData())
 
 	if not slot0.playing then
@@ -80,7 +80,7 @@ function slot0.UpdateDorm(slot0)
 	end
 end
 
-function slot0.InitCharChat(slot0, slot1)
+slot0.InitCharChat = function(slot0, slot1)
 	slot0:RemoveTimer()
 	slot0:ClearTxts()
 
@@ -95,13 +95,13 @@ function slot0.InitCharChat(slot0, slot1)
 	end
 end
 
-function slot0.ClearTxts(slot0)
+slot0.ClearTxts = function(slot0)
 	slot0.chatTxt.text = ""
 	slot0.chatTxt1.text = ""
 	slot0.chatTime.text = ""
 end
 
-function slot0.AddChatTimer(slot0, slot1)
+slot0.AddChatTimer = function(slot0, slot1)
 	slot2 = slot1:getFoodLeftTime()
 	slot0.chatTxt.text = i18n("backyard_backyardGranaryLayer_foodTimeNotice_top")
 	slot0.chatTxt1.text = i18n("backyard_backyardGranaryLayer_foodTimeNotice_bottom")
@@ -124,11 +124,11 @@ function slot0.AddChatTimer(slot0, slot1)
 	slot0.timer.func()
 end
 
-function slot0.InitCapcity(slot0, slot1)
+slot0.InitCapcity = function(slot0, slot1)
 	slot0:UpdateCapacity(slot1.food, slot1:GetCapcity())
 end
 
-function slot0.UpdateCapacity(slot0, slot1, slot2)
+slot0.UpdateCapacity = function(slot0, slot1, slot2)
 	slot3 = slot1 / slot2
 	slot0.capacityBar.value = slot3
 	slot0.capacityBarEffect.value = slot3
@@ -136,11 +136,11 @@ function slot0.UpdateCapacity(slot0, slot1, slot2)
 	slot0:UpdateCapacityTxt(slot1, slot2)
 end
 
-function slot0.UpdateCapacityTxt(slot0, slot1, slot2)
+slot0.UpdateCapacityTxt = function(slot0, slot1, slot2)
 	slot0.capacityTxt.text = "<color=#eb9e30>" .. slot1 .. "</color><color=#606064>/" .. slot2 .. "</color>"
 end
 
-function slot0.UpdateCapacityWithAnim(slot0, slot1, slot2)
+slot0.UpdateCapacityWithAnim = function(slot0, slot1, slot2)
 	if LeanTween.isTweening(slot0.capacityBarEffect.gameObject) then
 		LeanTween.cancel(slot0.capacityBarEffect.gameObject)
 	end
@@ -160,13 +160,13 @@ function slot0.UpdateCapacityWithAnim(slot0, slot1, slot2)
 	LeanTween.value(slot0.capacityBar.gameObject, slot3, slot4, 0.396):setEase(LeanTweenType.easeInOutQuart):setOnUpdate(System.Action_float(function (slot0)
 		uv0.capacityBar.value = slot0
 	end)):setOnComplete(System.Action(function ()
-		uv0.playing = false
-
 		uv0:UpdateDorm()
+
+		uv0.playing = false
 	end)):setDelay(0.069)
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	onButton(slot0, slot1.mask, function ()
 		uv0.purchasePage:ExecuteAction("Show", uv1.foodId)
 	end, SFX_PANEL)
@@ -187,7 +187,7 @@ function slot2(slot0, slot1)
 	end, true, true, 0.15, SFX_PANEL)
 end
 
-function slot0.InitFoods(slot0)
+slot0.InitFoods = function(slot0)
 	slot0.cards = {}
 	slot1 = FoodCard.New(slot0.cardTpl)
 
@@ -220,7 +220,7 @@ function slot0.InitFoods(slot0)
 	end)
 end
 
-function slot0.UpdateCards(slot0)
+slot0.UpdateCards = function(slot0)
 	for slot4 = 1, #uv0 do
 		slot5 = uv0[slot4]
 
@@ -228,7 +228,7 @@ function slot0.UpdateCards(slot0)
 	end
 end
 
-function slot0.SimulateAddFood(slot0, slot1, slot2)
+slot0.SimulateAddFood = function(slot0, slot1, slot2)
 	if not slot0.isSimulation then
 		slot3 = getProxy(DormProxy):getRawData()
 		slot0.simulateFood = slot3.food
@@ -239,32 +239,19 @@ function slot0.SimulateAddFood(slot0, slot1, slot2)
 		slot0.isSimulation = true
 	end
 
-	if slot0.simulateFood ~= slot0.simulateCapacity and slot0.simulateCapacity < slot0.simulateFood + slot0.simulateAddition and slot0.remindEndTime < pg.TimeMgr.GetInstance():GetServerTime() then
-		slot0:ShowCapcityTip(slot1, slot0.simulateFood, slot0.simulateCapacity, slot0.simulateAddition)
-
-		if slot2 then
-			slot2()
-		end
-
-		return
-	end
-
 	if slot0.simulateCapacity <= slot0.simulateFood then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_full"))
-
-		if slot2 then
-			slot2()
-		end
+		slot2()
 
 		return
-	end
-
-	if slot0.simulateItemCnt == 0 then
+	elseif slot0.simulateItemCnt == 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_foodCountLimit"))
+		slot2()
 
-		if slot2 then
-			slot2()
-		end
+		return
+	elseif slot0.simulateCapacity < slot0.simulateFood + slot0.simulateAddition and slot0.remindEndTime < pg.TimeMgr.GetInstance():GetServerTime() then
+		slot0:ShowCapcityTip(slot1, slot0.simulateFood, slot0.simulateCapacity, slot0.simulateAddition)
+		slot2()
 
 		return
 	end
@@ -278,7 +265,7 @@ function slot0.SimulateAddFood(slot0, slot1, slot2)
 	slot0:DoAddFoodAnimation(slot0.simulateAddition)
 end
 
-function slot0.DoAddFoodAnimation(slot0, slot1)
+slot0.DoAddFoodAnimation = function(slot0, slot1)
 	slot0.additionTxt.text = "+" .. slot1
 
 	if LeanTween.isTweening(go(slot0.additionTxt)) then
@@ -293,7 +280,7 @@ function slot0.DoAddFoodAnimation(slot0, slot1)
 	end))
 end
 
-function slot0.ShowCapcityTip(slot0, slot1, slot2, slot3, slot4)
+slot0.ShowCapcityTip = function(slot0, slot1, slot2, slot3, slot4)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		showStopRemind = true,
 		type = MSGBOX_TYPE_SINGLE_ITEM,
@@ -310,7 +297,7 @@ function slot0.ShowCapcityTip(slot0, slot1, slot2, slot3, slot4)
 	})
 end
 
-function slot0.TriggerAddFood(slot0, slot1, slot2)
+slot0.TriggerAddFood = function(slot0, slot1, slot2)
 	if not slot2 or slot2 <= 0 then
 		return
 	end
@@ -318,7 +305,7 @@ function slot0.TriggerAddFood(slot0, slot1, slot2)
 	slot0:emit(BackyardFeedMediator.USE_FOOD, slot1, slot2)
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -326,7 +313,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if LeanTween.isTweening(slot0.capacityBarEffect.gameObject) then
 		LeanTween.cancel(slot0.capacityBarEffect.gameObject)
 	end

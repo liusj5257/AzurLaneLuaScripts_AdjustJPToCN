@@ -1,15 +1,15 @@
 return {
-	id = "W1020",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1020",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "セイレーン装置を発見しました。エネルギーが供給されていないため、装置は現在稼働していません。どうしますか？",
 			typewriter = {
 				speed = 0.05,
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "「エネルギー貯蔵装置」を使えば、装置を動かすことができるようだ。",
 			typewriter = {
 				speed = 0.05,

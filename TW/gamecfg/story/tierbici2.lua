@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIERBICI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIERBICI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"融冰\n\n<size=45>二　任務</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "鐵必制正準備將一批舊裝備交給研發部門的{namecode:37}",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "鐵必制正準備將一批舊裝備交給研發部門的{namecode:37}",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,13 +62,13 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "哦哦，看來是正義出場的時候了！",
 			actorName = "???",
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			nameColor = "#a9f548",
 			bgm = "story-1",
-			say = "哦哦，看來是正義出場的時候了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,13 +91,13 @@ return {
 			}
 		},
 		{
-			actor = 101110,
+			say = "鐵必制小姐是要把這些東西送到科研部門嗎？",
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101110,
 			actorName = "???",
-			say = "鐵必制小姐是要把這些東西送到科研部門嗎？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -128,11 +128,11 @@ return {
 			}
 		},
 		{
-			actor = 101110,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 101110,
 			actorName = "???",
 			say = "我是正義的夥伴，小海狸分隊的隊長，查爾斯·奧斯本！稍等一下，我這就把大家召集過來。",
 			typewriter = {
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 101110,
+			say = "小海狸中隊的大家！集合囉！",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "小海狸中隊的大家！集合囉！",
+			actor = 101110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -165,8 +165,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -175,12 +175,12 @@ return {
 			}
 		},
 		{
-			actor = 101130,
+			say = "哦哦，來了來了！",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦哦，來了來了！",
+			actor = 101130,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -195,8 +195,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -205,11 +205,11 @@ return {
 			}
 		},
 		{
-			actor = 101150,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101150,
+			nameColor = "#a9f548",
 			say = "有，有什麼事情嗎……",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 101140,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101140,
+			nameColor = "#a9f548",
 			say = "啊，好麻煩。",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#a9f548",
 			say = "等等，這是秘書艦的工作，我來就可以……",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.05,
 					x = 0,
@@ -299,9 +299,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "沒等到鐵必制說完，小海狸們就開始了工作。",
 			typewriter = {
 				speed = 0.05,
@@ -309,9 +309,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "幾人有條不紊地把舊裝備分裝到專用的推車上，然後運送到了目的地。",
 			typewriter = {
 				speed = 0.05,
@@ -319,9 +319,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "跟在一旁的鐵必制露出了若有所思的表情",
 			typewriter = {
 				speed = 0.05,
@@ -329,13 +329,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "港區·科研部門",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -372,12 +372,12 @@ return {
 			}
 		},
 		{
-			actor = 405020,
+			say = "謝謝妳們，我會將妳們的幫助向指揮官匯報的。",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "謝謝妳們，我會將妳們的幫助向指揮官匯報的。",
+			actor = 405020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -424,12 +424,12 @@ return {
 			}
 		},
 		{
-			actor = 101110,
+			say = "那我們先走啦！還有很多的正義等著我們去履行呢！",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "那我們先走啦！還有很多的正義等著我們去履行呢！",
+			actor = 101110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -444,12 +444,12 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 405020,
+			nameColor = "#a9f548",
 			say = "同伴互相幫助是理所當然嗎…我知道了。",
 			typewriter = {
 				speed = 0.05,
@@ -461,14 +461,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "目送小海狸們離開的鐵必制站在原地良久，才重新邁開腳步。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

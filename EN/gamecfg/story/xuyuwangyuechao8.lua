@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO8",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "In an empty plot of land in the outpost, Asanagi took a broom in hand – a rare sight to see.",
 			bgm = "story-afterrain-soft",
+			say = "In an empty plot of land in the outpost, Asanagi took a broom in hand – a rare sight to see.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "She began sweeping the ground haphazardly and hurriedly, but sweeping it all the same.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "It was pure curiosity that was driving her to do this. She wanted to know what was happening inside the house.",
@@ -45,10 +45,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Psst! Hatsuzuki!",
 			painting = {
 				alpha = 0.3,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "With a hushed voice, she approached the building and addressed Hatsuzuki, standing in the passageway.",
@@ -74,10 +74,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Three there were, you said. Where is the third? I've seen only Lady Nagato and Musashi.",
 			painting = {
 				alpha = 0.3,
@@ -92,10 +92,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I don't know where she is. It's always possible I was wrong...",
 			painting = {
 				alpha = 0.3,
@@ -107,12 +107,12 @@ return {
 			}
 		},
 		{
-			actor = 301900,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301900,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No matter. Do you know why the two of them are here?",
 			painting = {
 				alpha = 0.3,
@@ -127,10 +127,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You know what I know? That it's rude to eavesdrop!",
 			painting = {
 				alpha = 0.3,
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "Asanagi put down her broom and tried to enter, but Hatsuzuki hurriedly stopped her. At the same time, somebody emerged from a room opposite them.",
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "It was Zuihou. Tray in hand, she nimbly turned around and gave a quick bow.",
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "Then, she stepped aside and slid the paper sliding door shut.",
@@ -203,10 +203,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Zuihou! Come here!",
 			painting = {
 				alpha = 0.3,
@@ -218,12 +218,12 @@ return {
 			}
 		},
 		{
-			actor = 301900,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301900,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Tell me – what is happening in there? What are those two discussing?",
 			painting = {
 				alpha = 0.3,
@@ -235,12 +235,12 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Take it easy! Give her a moment to compose herself.",
 			painting = {
 				alpha = 0.3,
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "Zuihou was shaking like a leaf. She dropped the tray off in the storeroom before Asanagi hauled her off into another room.",
@@ -341,10 +341,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes, yes. Did they speak of anything relating to Owari?",
 			painting = {
 				alpha = 0.3,
@@ -371,10 +371,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Are you certain of that? THE Prime Sakura?",
 			painting = {
 				alpha = 0.3,
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "Asanagi gestured with a finger towards the giant Sacred Sakura at the sanctuary's center.",
@@ -410,12 +410,12 @@ return {
 			}
 		},
 		{
-			actor = 301900,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301900,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's where she is? Then it's no wonder Hatsuzuki could not find her.",
 			painting = {
 				alpha = 0.3,
@@ -427,8 +427,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -440,10 +440,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Why do that, though? Why would she go to the tree?",
 			painting = {
 				alpha = 0.3,
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "While Asanagi and Hatsuzuki held their heads in their hands and Zuihou lost her composure, another person cut into the conversation.",
@@ -491,12 +491,12 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No harm done. Moreover, we learned that Owari is safe just moments ago.",
 			painting = {
 				alpha = 0.3,
@@ -511,10 +511,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Our companion will show her back to the outpost shortly.",
 			painting = {
 				alpha = 0.3,
@@ -526,12 +526,12 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "M-Musashi?! Um, I...",
 			painting = {
 				alpha = 0.3,
@@ -546,10 +546,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No need to be so stiff. It's alright. Also, Lady Nagato has a special mission for you three.",
 			painting = {
 				alpha = 0.3,
@@ -561,12 +561,12 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You are to gather some materials we will need for a ritual.",
 			painting = {
 				alpha = 0.3,
@@ -607,10 +607,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hatsuzuki?",
 			painting = {
 				alpha = 0.3,
@@ -622,12 +622,12 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Y-Yes, ma'am?!",
 			painting = {
 				alpha = 0.3,
@@ -639,12 +639,12 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So it was you I saw earlier.",
 			painting = {
 				alpha = 0.3,
@@ -659,10 +659,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "S-sorry for not introducing myself earlier! None of us were expecting you, and the chance to say hello passed us by...",
 			painting = {
 				alpha = 0.3,
@@ -690,10 +690,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If it isn't Hiranuma... Or rather, Natori.",
 			painting = {
 				alpha = 0.3,
@@ -708,10 +708,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Pardon me. I was supposed to wake you, but carelessly forgot about it when Lady Nagato and Musashi turned up.",
 			painting = {
 				alpha = 0.3,
@@ -726,10 +726,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I ask you for forgiveness as well, Musashi!",
 			painting = {
 				alpha = 0.3,
@@ -741,12 +741,12 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's fine. You have nothing to apologize for.",
 			painting = {
 				alpha = 0.3,
@@ -758,12 +758,12 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 305100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Musashi turned on her heel and directed Natori toward the rest of the girls.",
 			typewriter = {
 				speed = 0.05,
@@ -771,8 +771,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = -555
@@ -780,12 +780,12 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Zuihou, I trust you to find the materials.",
 			painting = {
 				alpha = 0.3,
@@ -801,8 +801,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 555
@@ -813,10 +813,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "There's still time before the ritual. Until then, let's discuss the outpost and the sanctuary, shall we?",
 			painting = {
 				alpha = 0.3,

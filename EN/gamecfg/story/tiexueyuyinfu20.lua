@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU20",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU20",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_bsm_2",
-			actorName = "Tirpitz",
 			dir = 1,
-			say = "Hey! You there! No horesplay in the port! State your name, rank, and affiliation!",
 			bgm = "bsm-5",
+			actorName = "Tirpitz",
+			say = "Hey! You there! No horesplay in the port! State your name, rank, and affiliation!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			actorName = "Tirpitz",
 			nameColor = "#ff5c5c",
+			actorName = "Tirpitz",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			actorName = "Tirpitz",
 			nameColor = "#ff5c5c",
+			actorName = "Tirpitz",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			actorName = "U-556",
 			nameColor = "#ff5c5c",
+			actorName = "U-556",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			actorName = "Tirpitz",
 			nameColor = "#ff5c5c",
+			actorName = "Tirpitz",
 			bgName = "bg_bsm_2",
 			side = 2,
 			dir = 1,
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_bsm_2",
+			dir = 1,
 			say = "U-556 did a graceful, if a bit silly, backflip into the harbor.）",
 			typewriter = {
 				speed = 0.05,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_bsm_2",
-			actorName = "Tirpitz",
 			dir = 1,
+			actorName = "Tirpitz",
 			say = "Get back here, you!!",
 			effects = {
 				{
@@ -177,9 +177,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_bsm_2",
+			dir = 1,
 			say = "Tirpitz seethed with anger at the submerged U-556, popping blood vessels on her forehead.）",
 			typewriter = {
 				speed = 0.05,
@@ -193,10 +193,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ff5c5c",
 			say = "Hehehe, chalk up another win for 556!",
 			effects = {
 				{

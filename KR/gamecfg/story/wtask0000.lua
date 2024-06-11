@@ -1,12 +1,12 @@
 return {
-	id = "WTask0000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask0000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "해양 쓰레기를 정리했습니다!",
 			typewriter = {
 				speed = 0.05,

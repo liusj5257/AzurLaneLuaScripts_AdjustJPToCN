@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.fleet_tech_group = {
 	{
-		id = 1,
 		name = "Eagle Union",
+		id = 1,
 		nation = {
 			1
 		},
@@ -20,8 +20,8 @@ pg.fleet_tech_group = {
 		}
 	},
 	{
-		id = 2,
 		name = "Royal Navy",
+		id = 2,
 		nation = {
 			2
 		},
@@ -39,8 +39,8 @@ pg.fleet_tech_group = {
 		}
 	},
 	{
-		id = 3,
 		name = "Sakura Empire",
+		id = 3,
 		nation = {
 			3
 		},
@@ -58,8 +58,8 @@ pg.fleet_tech_group = {
 		}
 	},
 	{
-		id = 4,
 		name = "Iron Blood",
+		id = 4,
 		nation = {
 			4
 		},

@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "专属弹幕",
 	time = 0,
-	color = "red",
+	name = "专属弹幕",
+	init_effect = "",
+	id = 29452,
 	picture = "",
 	desc = "主武器每进行10次攻击，触发专属弹幕-克利夫兰μII",
 	stack = 1,
-	id = 29452,
+	color = "red",
 	icon = 29450,
 	last_effect = "",
 	effect_list = {
@@ -30,8 +30,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29452,
+				target = "TargetSelf",
 				countType = 29450
 			}
 		}

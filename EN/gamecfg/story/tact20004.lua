@@ -65,15 +65,15 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
-			mode = 2,
-			nameColor = "#FF0000",
 			dir = 0,
+			mode = 2,
+			actor = 405020,
+			nameColor = "#FF0000",
 			say = "…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -102,12 +102,12 @@ return {
 			}
 		},
 		{
-			actor = 407010,
 			side = 1,
-			nameColor = "#FF0000",
-			mode = 2,
-			dir = 0,
 			say = "What's the matter?",
+			nameColor = "#FF0000",
+			dir = 0,
+			actor = 407010,
+			mode = 2,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 0,
 			mode = 2,
-			nameColor = "#FF0000",
 			dir = 0,
+			actor = 405020,
+			nameColor = "#FF0000",
 			say = "Every move White has made so far is different from the last time...",
 			shake = {
 				speed = 1,
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 407010,
 			side = 1,
 			mode = 2,
-			nameColor = "#FF0000",
 			dir = 0,
+			actor = 407010,
+			nameColor = "#FF0000",
 			say = "I see. Perhaps that's what the Judge is hoping for.",
 			shake = {
 				speed = 1,
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 0,
 			mode = 2,
-			nameColor = "#FF0000",
 			dir = 0,
+			actor = 405020,
+			nameColor = "#FF0000",
 			say = "I've been thinking about something... What if we're just meant to be...\nmere stepping stones for White to \"evolve\"...",
 			shake = {
 				speed = 1,
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 0,
 			mode = 2,
-			nameColor = "#FF0000",
 			dir = 0,
+			actor = 405020,
+			nameColor = "#FF0000",
 			say = "The Sirens gave us our powers... And what if this is all part of their plan...",
 			shake = {
 				speed = 1,
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 407010,
 			side = 1,
 			mode = 2,
-			nameColor = "#FF0000",
 			dir = 0,
+			actor = 407010,
+			nameColor = "#FF0000",
 			say = "Stop... Your ego will crumble if you keep thinking like that. Don't make her sacrifices for Iron blood all in vain...",
 			shake = {
 				speed = 1,
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 0,
 			mode = 2,
-			nameColor = "#FF0000",
 			dir = 0,
+			actor = 405020,
+			nameColor = "#FF0000",
 			say = "\"Her\"...?",
 			shake = {
 				speed = 1,
@@ -246,11 +246,11 @@ return {
 			}
 		},
 		{
-			actor = 407010,
 			side = 1,
 			mode = 2,
-			nameColor = "#FF0000",
 			dir = 0,
+			actor = 407010,
+			nameColor = "#FF0000",
 			say = "...Never mind. She was a dreamer, just like you are. Hmph, what a fool she was, losing herself to her idealistic delusions...",
 			shake = {
 				speed = 1,
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 0,
 			mode = 2,
-			nameColor = "#FF0000",
 			dir = 0,
+			actor = 405020,
+			nameColor = "#FF0000",
 			say = "……",
 			shake = {
 				speed = 1,
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{

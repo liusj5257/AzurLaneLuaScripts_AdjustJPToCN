@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 逸仙",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 逸仙",
+	init_effect = "",
+	id = 200869,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200869,
+	color = "yellow",
 	icon = 200869,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.4
+				number = -0.4,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 2,
+				target = "TargetSelf",
 				skill_id = 200868
 			}
 		}

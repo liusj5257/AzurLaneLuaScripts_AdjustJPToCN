@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINNIAN6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XINNIAN6",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 307031,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "ふぅ…よし、年越しそばはこんな感じかしら……",
 			typewriter = {
 				speed = 0.05,
@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 301331,
+			say = "おいしそう……",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:34}",
 			dir = 1,
-			say = "おいしそう……",
+			actor = 301331,
+			actorName = "{namecode:34}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -55,8 +55,8 @@ return {
 			actor = 307031,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "ああ夕立気をつけて！鍋に落ちたらやけどするわよ！",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			actor = 301141,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:16}",
 			dir = 1,
+			actorName = "{namecode:16}",
 			say = "こっちもうまそうじゃん！おかわりくれ！早く！",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			actor = 307031,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "お、落ち着いて……おかわりはいっぱいあるわよ。",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			actor = 303122,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "やはり蒼龍はこういうのが得意のようね。あら、加賀もこっちにいるの？",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			actor = 307022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "たまには落ち着いて平和を享受するのも悪くないか。",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			actor = 303122,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "平和とか加賀らしくないわね。そういえば赤城は？",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			actor = 307022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "「まだ働いている指揮官様の世話をしに行く」と言って飛び出したな。",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			actor = 303122,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "あらあら……これは指揮官も大変ねぇ……",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			actor = 307022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "愛の重みとはそういうことだ。せっかくの正月だ、姉さまを好きにさせてもいいだろう。",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			actor = 303122,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "とはいえ、好き勝手にさせてはいけない子もふたりほどいるわね。",
 			typewriter = {
 				speed = 0.05,
@@ -249,8 +249,8 @@ return {
 			actor = 307031,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "オイゲンはわかるけど…なんでユニオンのラフィーちゃんまでいるの！？",
 			typewriter = {
 				speed = 0.05,
@@ -262,12 +262,12 @@ return {
 			}
 		},
 		{
-			actor = 312011,
+			say = "お店で出会ったにゃ。ラフィーも重桜のお正月に興味がありそうだから連れてきたにゃ。",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:98}",
 			dir = 1,
-			say = "お店で出会ったにゃ。ラフィーも重桜のお正月に興味がありそうだから連れてきたにゃ。",
+			actor = 312011,
+			actorName = "{namecode:98}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -285,8 +285,8 @@ return {
 			actor = 307031,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "ああ、せっかくの可愛い着物なのに……お酒が入ったら本当にだらしないんだから……",
 			typewriter = {
 				speed = 0.05,
@@ -301,8 +301,8 @@ return {
 			actor = 307022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:92}",
 			dir = 1,
+			actorName = "{namecode:92}",
 			say = "年越し飲み会か……ふふふ…久しぶりに心躍りそうだな。",
 			typewriter = {
 				speed = 0.05,
@@ -317,8 +317,8 @@ return {
 			actor = 303122,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:67}",
 			dir = 1,
+			actorName = "{namecode:67}",
 			say = "あらら、これは……あとの惨状がもう見えているわね…",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			actor = 301331,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:34}",
 			dir = 1,
+			actorName = "{namecode:34}",
 			say = "さんじょう…？なに…？",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			actor = 312011,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "羽目をはずしすぎた大人たちの悲惨な末路だにゃ…いい子は真似しないでにゃ。",
 			typewriter = {
 				speed = 0.05,

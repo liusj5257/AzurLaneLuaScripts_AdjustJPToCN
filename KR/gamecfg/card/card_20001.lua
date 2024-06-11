@@ -4,8 +4,8 @@ return {
 	effect_list = {
 		{
 			{
-				type = "BattleCardPuzzleSkillMoveTo",
 				caster = "Leader",
+				type = "BattleCardPuzzleSkillMoveTo",
 				arg_list = {
 					point = "input"
 				}

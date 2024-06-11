@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHANFANGDETIELANQIANGWEI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHANFANGDETIELANQIANGWEI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ほころぶアイアンローズ\n\n<size=45>1 本調子じゃないザイドリッツ</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			say = "朝・執務室",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
+			say = "朝・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "ザイドリッツが渡した書類を確認していると、いくつかのケアレスミスを見つけた――",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "普段のザイドリッツらしくないと思ったが、ここは一言注意しよう。",
 			typewriter = {
@@ -75,10 +75,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "っ！申し訳ございません、すぐ確認します！",
 			painting = {
 				alpha = 0.3,
@@ -90,8 +90,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,10 +113,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "何という不覚…番号を全部逆に振っていたなんて…",
 			painting = {
 				alpha = 0.3,
@@ -131,10 +131,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "全ては自分の不注意故…上官殿にご迷惑をおかけして申し訳ございません…！",
 			painting = {
 				alpha = 0.3,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "猛省する彼女だが、よく見るといつもと比べて少し元気がないようだ。",
 			typewriter = {
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "いつものザイドリッツだったら――",
 			typewriter = {
@@ -166,12 +166,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			bgName = "bg_story_task",
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "上官殿のもとで粉骨砕身で精勤させていただきます！",
 			painting = {
 				alpha = 0.3,
@@ -182,17 +182,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -228,11 +228,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "委託組が帰還しました！上官殿の代わりに物資の確認をいたしましょうか？",
 			painting = {
 				alpha = 0.3,
@@ -250,8 +250,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -261,11 +261,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "問題ありません！上官殿、残りの任務はどうか私にお任せください！",
 			painting = {
 				alpha = 0.3,
@@ -283,8 +283,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -292,8 +292,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -302,8 +302,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -314,11 +314,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ハッ！どんな任務だろうと、ザイドリッツは上官殿が定めた基準に則り、しっかりこなしてみせます！",
 			painting = {
 				alpha = 0.3,
@@ -336,8 +336,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task_2",
 			say = "普段のザイドリッツらしくないと思ったが、ここは一言注意しよう。",
 			typewriter = {
@@ -374,17 +374,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -398,8 +398,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "彼女はどう見ても塞ぎこんでいる。一体何があったんだろう…",
 			typewriter = {
@@ -417,10 +417,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ありがとうございます！その、実は…",
 			painting = {
 				alpha = 0.3,
@@ -432,12 +432,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "昨日鉄血寮の猫が迷子になってしまって、気が気じゃなくて…一晩中探していました",
 			painting = {
 				alpha = 0.3,
@@ -452,10 +452,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そのため休んでなかったので、あまり集中できませんでした…いや、これも結局は言い訳ですね",
 			painting = {
 				alpha = 0.3,
@@ -470,10 +470,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "上官殿、改めてご迷惑をおかけして、本当に申し訳ございません！",
 			painting = {
 				alpha = 0.3,
@@ -488,10 +488,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "その、猫ちゃんも今朝無事戻ってきましたし、つまり、私は…うぅ…",
 			painting = {
 				alpha = 0.3,
@@ -509,8 +509,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -522,10 +522,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "オイゲンじゃあるまいし、猫も猫でマイペースすぎますね",
 			painting = {
 				alpha = 0.3,
@@ -540,10 +540,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いくら何でも、出かける前にひと声かけて欲しかったです！",
 			painting = {
 				alpha = 0.3,
@@ -558,10 +558,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "朝ようやく戻ってきたと思ったら汚れまみれで、勝手にどこかに遊びに出かけたのは一目でわかりますよ！",
 			painting = {
 				alpha = 0.3,
@@ -573,8 +573,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -583,8 +583,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -593,8 +593,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "体の疲れだけでなく、心労も相当あるようだ。",
 			typewriter = {
@@ -606,10 +606,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "やはりしつけがなってないのが問題ですね…",
 			painting = {
 				alpha = 0.3,
@@ -621,12 +621,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "門限は守らないといけないってことをしっかり覚えさせないと",
 			painting = {
 				alpha = 0.3,
@@ -638,8 +638,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "彼女に淹れたてのコーヒーを手渡し、しばらく休憩してきたらと声をかけた。",
 			typewriter = {

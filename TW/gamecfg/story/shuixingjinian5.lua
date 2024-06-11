@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHUIXINGJINIAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHUIXINGJINIAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"薰衣草味的“惡魔”\n\n<size=45>五 關於獎勵的話題</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "story-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "又是一天的指揮室——",
-			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,10 +49,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呼呼呼，有我水星紀念出馬，今天的工作又是到傍晚時分就結束了哦！",
 			painting = {
 				alpha = 0.3,
@@ -67,10 +67,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哈呀~~~突然感覺肩膀好酸呀~~指揮官，過來下嘛~~",
 			painting = {
 				alpha = 0.3,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "水星紀念又成功在一秒鐘之內從工作模式切換到了日常模式……",
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "不過……既然工作已經完成了。偶爾這樣，也不算壞。",
@@ -107,10 +107,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嘿嘿，指揮官~揉這裡！肩膀的這個位置最酸！",
 			painting = {
 				alpha = 0.3,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "這個位置對嗎——",
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 3,
@@ -328,8 +328,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -398,10 +398,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不過……哼哼，我最近這麼努力幫你工作，你是不是需要給我點獎勵呢~",
 			painting = {
 				alpha = 0.3,
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "……原來剛才的按摩服務不算嗎？",
@@ -427,10 +427,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "算！但那個只是針對今天的！還需要有一個用於慰勞我這一段時期的辛苦的！",
 			painting = {
 				alpha = 0.3,
@@ -442,8 +442,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "……具體來說是？",
@@ -456,10 +456,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我還沒想好~休息日之前告訴你！",
 			painting = {
 				alpha = 0.3,
@@ -474,10 +474,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那，今天的工作差不多就到此為止囉？明天見啦，指揮官~",
 			painting = {
 				alpha = 0.3,
@@ -492,10 +492,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯哼哼哼♪~雪球花♪，雪球花♪~",
 			painting = {
 				alpha = 0.3,
@@ -507,8 +507,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "看著她哼著歌離去的背影，不禁對休息日有也產生了一絲期待。",

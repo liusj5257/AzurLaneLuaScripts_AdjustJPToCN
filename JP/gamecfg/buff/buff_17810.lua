@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 17810,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17810,
+	color = "yellow",
 	icon = 17810,
 	last_effect = "",
 	effect_list = {
@@ -37,8 +37,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 3,
-				skill_id = 17812,
 				target = "TargetSelf",
+				skill_id = 17812,
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

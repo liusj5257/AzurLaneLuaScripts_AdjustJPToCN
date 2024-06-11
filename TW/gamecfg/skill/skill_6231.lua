@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "Z字旗·三笠",
 	cd = 0,
+	picture = "0",
+	desc = "Z字旗·三笠",
 	painting = 1,
 	id = 6231,
-	picture = "0",
 	castCV = "skill",
-	desc = "Z字旗·三笠",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				buff_id = 6235
 			}

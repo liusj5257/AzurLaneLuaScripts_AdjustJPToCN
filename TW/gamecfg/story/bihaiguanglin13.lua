@@ -1,18 +1,18 @@
 return {
-	id = "BIHAIGUANGLIN13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN13",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
-			nameColor = "#a9f548",
-			say = "轟————————！",
+			bgm = "battle-boss-longgong",
 			dir = 1,
 			bgmDelay = 0.5,
-			bgm = "battle-boss-longgong",
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#a9f548",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -65,8 +65,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			say = "那個……我應該是被打中了吧？但是完全沒有受傷哎……",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "不過我這邊的攻擊也沒起到什麼效果就是了……敵人的船體好像被特殊的護盾保護著。",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "看來強攻不是上策……我仔細偵察一下前方海域，看看能否找到避開敵人前進的道路。",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（要是島風帶隊的話肯定會說什麼“駿河閣下，讓我們一起加油努力衝過去吧！”之類荒唐的話。）",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（不過重視分析的築摩就不一樣了……就是這樣作戰才對，認真的收集情報，制定戰術，然後仔細思考！）",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "啊~有可靠的築摩帶隊真是太好了~",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（糟糕，不小心放鬆過頭了！）",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "剛剛我是在……嗯，是在感慨築摩真是太可靠了！",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "過獎了~跟駿河相比，我還有很多需要提升的地方呢。",
 			typewriter = {
 				speed = 0.05,
@@ -283,9 +283,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "不用不用，保持現狀就好！不要在意這些細節，我們去尋找前進的道路吧！",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

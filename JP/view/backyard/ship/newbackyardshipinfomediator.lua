@@ -4,7 +4,7 @@ slot0.OPEN_CHUANWU = "NewBackYardShipInfoMediator:OPEN_CHUANWU"
 slot0.UPDATE_SHIPS = "NewBackYardShipInfoMediator:UPDATE_SHIPS"
 slot0.LOOG_PRESS_SHIP = "NewBackYardShipInfoMediator:LOOG_PRESS_SHIP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.EXTEND, function (slot0, slot1)
 		uv0:sendNotification(GAME.SHOPPING, {
 			count = 1,
@@ -25,7 +25,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.OnSelShips(slot0, slot1, slot2)
+slot0.OnSelShips = function(slot0, slot1, slot2)
 	slot3 = getProxy(DormProxy):getRawData()
 	slot4, slot5, slot6 = slot0:GetSelectedShips(slot3, slot1, slot2)
 	slot7 = {
@@ -70,7 +70,7 @@ function slot0.OnSelShips(slot0, slot1, slot2)
 	}))
 end
 
-function slot0.GetMaxSel(slot0, slot1, slot2)
+slot0.GetMaxSel = function(slot0, slot1, slot2)
 	slot3 = 0
 
 	if slot2 == Ship.STATE_TRAIN then
@@ -82,7 +82,7 @@ function slot0.GetMaxSel(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.GetSelectedShips(slot0, slot1, slot2, slot3)
+slot0.GetSelectedShips = function(slot0, slot1, slot2, slot3)
 	slot4 = slot3 and slot3.id or -1
 	slot5 = {}
 	slot6 = {}
@@ -103,7 +103,7 @@ function slot0.GetSelectedShips(slot0, slot1, slot2, slot3)
 	return slot5, slot6, slot7
 end
 
-function slot0.OnShip(slot0, slot1, slot2, slot3, slot4)
+slot0.OnShip = function(slot0, slot1, slot2, slot3, slot4)
 	if slot0.contextData.MaxRsetPos < #slot4 then
 		return false, i18n("backyard_no_pos_for_ship")
 	end
@@ -119,7 +119,7 @@ function slot0.OnShip(slot0, slot1, slot2, slot3, slot4)
 	return slot5, slot6
 end
 
-function slot0.OnSelected(slot0, slot1, slot2, slot3, slot4)
+slot0.OnSelected = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = getProxy(DormProxy):getRawData():GetStateShipsById(slot1)
 
 	pg.UIMgr.GetInstance():LoadingOn()
@@ -188,14 +188,14 @@ function slot0.OnSelected(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.EXTEND_BACKYARD_DONE,
 		uv0.UPDATE_SHIPS
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.EXTEND_BACKYARD_DONE then

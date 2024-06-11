@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIJINGHUA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIJINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「虚拟链接的共时性」净化篇\n\n<size=45>四 直到某日再会</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-2",
 			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "这里像这样…然后这样！……好！所有的病毒都驱除完毕了！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,11 +69,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "能通过的只有绊爱本人就是了……唔唔唔，到底是什么样的世界呢，好在意",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -178,8 +178,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "嗯！我绝对不会忘记大家的！",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "啊，对了！这个、如果能把这个当作我装饰在后宅什么的，我会很高兴的！",
 			typewriter = {
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "绊爱老大！只要活用妳教的那些，圣地亚哥也能成为虚拟Vtuber吗？我会加油的！老大也要加油哦！",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -347,9 +347,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "………",
 			typewriter = {
 				speed = 0.05,
@@ -364,8 +364,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "总有一天会再会的！所以…我是不会说再见的。我最喜欢大家了！！！",
 			typewriter = {
@@ -378,11 +378,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 201210,
 			say = "“不会说再见”……吗，嗯，是啊！我会满怀期待地等着那一天的！",
 			flashN = {
 				color = {
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "——就这样，高智能的超级AI，将港区众人的思念深藏心中，然后离开了",
 			flashin = {
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "将绊爱留下的羁绊牢记于心，然后不断前行吧，直到某日再会——",
 			typewriter = {

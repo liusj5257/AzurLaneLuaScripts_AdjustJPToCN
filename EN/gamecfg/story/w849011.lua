@@ -1,12 +1,12 @@
 return {
-	id = "W849011",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W849011",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Our route didn’t take us over every single yellow tile. Let’s try again.",
 			typewriter = {
 				speed = 0.05,

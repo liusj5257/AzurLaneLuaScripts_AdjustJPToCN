@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_224 = {}
 slot1 = slot0.word_template_224
 
-function temp()
+temp = function()
 	uv0["圮"] = {
 		["綦"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["仳"] = {
 		this = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["屁"] = {
 		["民"] = {
 			this = true
@@ -39,7 +39,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["偏"] = {
 		["偏"] = {
 			["没"] = {
@@ -75,7 +75,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["諞"] = {
 		this = {
 			this = true
@@ -85,7 +85,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["片"] = {
 		["冈"] = {
 			["未"] = {
@@ -99,7 +99,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["騙"] = {
 		["我"] = {
 			["們"] = {

@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_Flasher_chase",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_Flasher_chase"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_Flasher_chase",
-					number = 0.166
+					number = 0.166,
+					attr = "DMG_TAG_EHC_Flasher_chase"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_Flasher_chase",
-					number = 0.182
+					number = 0.182,
+					attr = "DMG_TAG_EHC_Flasher_chase"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_Flasher_chase",
-					number = 0.198
+					number = 0.198,
+					attr = "DMG_TAG_EHC_Flasher_chase"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_Flasher_chase",
-					number = 0.214
+					number = 0.214,
+					attr = "DMG_TAG_EHC_Flasher_chase"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_Flasher_chase",
-					number = 0.23
+					number = 0.23,
+					attr = "DMG_TAG_EHC_Flasher_chase"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_Flasher_chase",
-					number = 0.246
+					number = 0.246,
+					attr = "DMG_TAG_EHC_Flasher_chase"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_Flasher_chase",
-					number = 0.264
+					number = 0.264,
+					attr = "DMG_TAG_EHC_Flasher_chase"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_Flasher_chase",
-					number = 0.282
+					number = 0.282,
+					attr = "DMG_TAG_EHC_Flasher_chase"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_Flasher_chase",
-					number = 0.3
+					number = 0.3,
+					attr = "DMG_TAG_EHC_Flasher_chase"
 				}
 			}
 		}
@@ -142,12 +142,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 17413,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17413,
+	color = "red",
 	icon = 17410,
 	last_effect = "",
 	blink = {
@@ -164,8 +164,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_Flasher_chase",
-				number = 0.15
+				number = 0.15,
+				attr = "DMG_TAG_EHC_Flasher_chase"
 			}
 		}
 	}

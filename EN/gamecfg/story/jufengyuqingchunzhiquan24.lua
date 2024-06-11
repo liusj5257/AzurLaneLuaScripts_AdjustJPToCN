@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN24",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Not long after the fighting broke out, all of Tester's confidence evaporated away.",
 			bgm = "battle-boss-temepest-1",
+			say = "Not long after the fighting broke out, all of Tester's confidence evaporated away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			say = "Having been cut off from her mainframe for so long, she lacks even the most basic tactical knowledge even if her hardware is impressive.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			say = "......",
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Automatic Warning System",
+			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "Dammit...",
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "1st and 3rd defense units, spread out left and right!",
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "2nd unit, don't crumble yet!",
@@ -96,8 +96,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Automatic Warning System",
+			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Automatic Warning System",
+			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			say = "Not only are her warships with big cannons rubbing shoulders, but her many bombing ships are, too.",
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			say = "This shortsighted positioning backfires – friendly fire sets off a series of explosions, and a good part of her forces are wiped out in an instant.",
@@ -142,11 +142,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "No! Nooo! My fleet!",
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "What did you do?!",
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "Spit it out, \"Commander\"! What did you DO to my fleet?!",
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Automatic Warning System",
+			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "Hah! You wish, you little brat!",
@@ -267,11 +267,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "A Lake Reflection",
-			side = 2,
+			actor = 900011,
 			actorName = "Tester",
 			hidePaintObj = true,
 			say = "Stay there so I can end you!",
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			say = "Tester leaps off the side of her ship, summons her rigging, and goes into battle...",
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			say = "Leaving behind the device she used to monitor the battlefield right where she sat.",

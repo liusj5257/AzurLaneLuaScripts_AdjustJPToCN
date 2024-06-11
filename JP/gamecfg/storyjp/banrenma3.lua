@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"セントーと先輩たち\n\n<size=45>三　尊敬とは</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,9 +44,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "セントーが誰でも先輩呼ばわりすることが艦隊の話題になった。",
 			typewriter = {
 				speed = 0.05,
@@ -54,13 +54,13 @@ return {
 			}
 		},
 		{
-			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "誰に対しても先輩って呼ぶこと、ですか？…ええと、指揮官は私があの大戦の後に生まれたってことを知っていますか？",
 			bgm = "story-2",
+			actor = 206040,
+			nameColor = "#a9f548",
+			say = "誰に対しても先輩って呼ぶこと、ですか？…ええと、指揮官は私があの大戦の後に生まれたってことを知っていますか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,9 +74,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
 			bgmDelay = 2,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "あの時、すでに戦争が終わっていたことから、セントー級は建造を取り消されそうになる危機に直面していました。",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ですが、戦争はもう終わっていたので、私たちは生涯先輩たちのように波乱万丈なカンレキを持つことが叶いませんでした。",
 			typewriter = {
@@ -138,9 +138,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "セントーは淡々と語っている。",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ですが、先輩たちに憧れを感じるのはカンレキだけではありません。",
 			typewriter = {
@@ -168,8 +168,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "私は平和に生まれ、そして平和に生涯を過ごしました。戦争の重みがどんなものか体験したことがありませんでした。",
 			typewriter = {
@@ -185,8 +185,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "だから先輩たちのカンレキを学んでいるなか、戦争について私なりに考えることができました。",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "戦争――それを体験したことのない私が、決して軽々しく口にして良いものではありません。",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "正直、「先輩」で表しても足りないぐらい、みんなのことを尊敬していますよ？",
 			typewriter = {
@@ -249,9 +249,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "彼女なりに考えがあるようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "わかりました。みんなに相談してみます。迷惑でしたらもう先輩とは呼ばず、行動で尊敬を示すのみですね。",
 			typewriter = {

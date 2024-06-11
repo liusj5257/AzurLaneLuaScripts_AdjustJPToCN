@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "压制引导-炮击",
 	time = 0,
-	color = "red",
+	name = "压制引导-炮击",
+	init_effect = "",
+	id = 902030,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902030,
+	color = "red",
 	icon = 902030,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onWeaponSteday"
 			},
 			arg_list = {
-				quota = 1,
-				target = "TargetSelf",
 				skill_id = 902030,
+				target = "TargetSelf",
+				quota = 1,
 				index = {
 					1
 				}

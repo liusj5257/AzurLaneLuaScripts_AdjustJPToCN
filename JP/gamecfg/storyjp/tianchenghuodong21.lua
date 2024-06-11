@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANCHENGHUODONG21",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304050,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
+			actor = 304050,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "この飾り、もらってくださいます？御守り代わりにも使えますよ",
 			flashin = {
 				delay = 1,
@@ -42,10 +42,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "実は赤城にも用意しましたわ。あなたにあげたそれの対となるもの…いいえ、予備ですね",
 			typewriter = {
 				speed = 0.05,
@@ -59,11 +59,11 @@ return {
 		{
 			expression = 1,
 			side = 0,
-			actor = 305070,
-			nameColor = "#a9f548",
+			say = "（天城さん、なんで急にこれを……？）",
 			dir = -1,
 			blackBg = true,
-			say = "（天城さん、なんで急にこれを……？）",
+			actor = 305070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -80,10 +80,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "ふふふ、たまたまお社で買っただけですから、そう真剣に考え込まなくてもいいですわ。さあ",
 			typewriter = {
 				speed = 0.05,
@@ -113,10 +113,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "ええ、身につけてくれると嬉しいです",
 			typewriter = {
 				speed = 0.05,
@@ -146,13 +146,13 @@ return {
 		{
 			actor = 307020,
 			side = 2,
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			nameColor = "#ff0000",
 			say = "（空母の時代……あなたの言った通りだ。天城さん）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "ふふふ、またネズミが迷い込んでいるようね……",
 			typewriter = {
 				speed = 0.05,
@@ -313,12 +313,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
-			bgName = "bg_story_tiancheng7",
 			side = 2,
+			bgName = "bg_story_tiancheng7",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
 			actorName = "？？？",
 			say = "（広域モニタリング、結構使いこなしているわね、ふふふ）",
 			typewriter = {
@@ -331,12 +331,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "五航戦のあの子たちね。何も知らずになんて愚かで嘆かわしいことを……",
 			typewriter = {
 				speed = 0.05,
@@ -348,12 +348,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "「カミ」より預かったこの新兵器で、その力を試してみようかしら～",
 			typewriter = {
 				speed = 0.05,

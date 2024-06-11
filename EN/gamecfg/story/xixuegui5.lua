@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIXUEGUI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIXUEGUI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Angel or Devil in White?\n\n<size=45>Chapter 5 - Vampire, Pro Nurse!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301320,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Comainder...",
 			bgm = "story-1",
+			actor = 301320,
+			nameColor = "#a9f548",
+			say = "Comainder...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "Will Mutsuki be okay...?",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Will Mutsuki be okay...?",
+			actor = 301330,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "Everything will be okay. Vestal says it's just an ordinary fever. But, we have to do our part here too. Kisaragi, mind bringing bring me two towels and a basin of water?",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "And now to finish up... all right! I'll go find some medicine for her to take, and with some rest, she should feel better in no time! Commander, please stay with Mutsuki. She'll feel at ease with thee at her side.",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "Mutsuki, everything will be fine. We're all here for you.",
 			typewriter = {
@@ -155,15 +155,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Don't you worry, nya. When you wake up, you'll feel back to normal, nya? ...Huh? My job here is already done, nya?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -191,10 +191,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Phew... thank goodness.",
+			dir = 1,
+			actor = 201232,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -228,8 +228,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "... Not really. I just took a glance at the basics. There's no way I'd be able to handle the actual job.",
 			typewriter = {
@@ -261,8 +261,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "Eh?! H-how'd you know, London?!",
 			typewriter = {
@@ -275,10 +275,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -318,8 +318,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "... I see.",
 			typewriter = {
@@ -332,12 +332,12 @@ return {
 			}
 		},
 		{
-			actor = 201232,
+			say = "Well then, Commander, can I keep this outfit then? For purposes other than seduction~",
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Well then, Commander, can I keep this outfit then? For purposes other than seduction~",
+			actor = 201232,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2

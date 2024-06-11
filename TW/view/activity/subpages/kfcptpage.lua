@@ -10,7 +10,7 @@ slot0.SpineShopActionSpeed = {
 	1.2
 }
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0:findTF("sdBtn", slot0.bg), function ()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
@@ -80,7 +80,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0.shopAnim:SetAction("normal", 0)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot1, slot2, slot3 = slot0.ptData:GetResProgress()
@@ -104,14 +104,14 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.GetLocalData(slot0)
+slot0.GetLocalData = function(slot0)
 	slot0.playerId = getProxy(PlayerProxy):getData().id
 	slot1 = pg.TimeMgr.GetInstance()
 	slot0.curDay = slot1:DiffDay(slot0.ptData.startTime, slot1:GetServerTime()) + 1
 	slot0.finishCount = PlayerPrefs.GetInt("kfc_pt_" .. slot0.playerId .. "_day_" .. slot0.curDay)
 end
 
-function slot0.SetLocalData(slot0)
+slot0.SetLocalData = function(slot0)
 	slot0.finishCount = slot0.finishCount + 1
 	slot0.finishCount = slot0.finishCount < #uv0.SpineShopActionSpeed and slot0.finishCount or slot1
 
@@ -119,11 +119,11 @@ function slot0.SetLocalData(slot0)
 	PlayerPrefs.Save()
 end
 
-function slot0.GetRandomName()
+slot0.GetRandomName = function()
 	return uv0.SpineCharName[math.random(#uv0.SpineCharName)]
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.sdSpineLRQ then
 		slot0.sdSpineLRQ:Stop()
 

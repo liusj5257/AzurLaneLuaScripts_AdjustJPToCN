@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGRICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGRICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ある日のポラリス\n\n<size=45>ある日の休憩時間</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ある日、練習終了後",
 			side = 2,
 			bgName = "star_level_bg_121",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ある日、練習終了後",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900205,
 			dir = 1,
+			actor = 900205,
 			nameColor = "#a9f548",
 			say = "ふぅ…今日はこれでいいかな",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900207,
 			dir = 1,
+			actor = 900207,
 			nameColor = "#a9f548",
 			say = "ええ、体力的にもこのタイミングで切り上げたほうが最善だと思います",
 			typewriter = {
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 900206,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900206,
+			nameColor = "#a9f548",
 			say = "ま、まあみんながそう言うならここで切り上げたほうがよさそうね…あっ、こっちはまだまだいけるけど？",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900203,
 			dir = 1,
+			actor = 900203,
 			nameColor = "#a9f548",
 			say = "ヒッパーのコンディション、「疲労」状態だと認む",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900206,
 			dir = 1,
+			actor = 900206,
 			nameColor = "#a9f548",
 			say = "は？誰が疲れてるって言ってんの！？",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -173,8 +173,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900206,
 			dir = 1,
+			actor = 900206,
 			nameColor = "#a9f548",
 			say = "それ、気になるけどまあ聞かないほうがよさそうね…",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900203,
 			dir = 1,
+			actor = 900203,
 			nameColor = "#a9f548",
 			say = "ガスコーニュ、冷却水の供出を要請",
 			typewriter = {
@@ -223,8 +223,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900207,
 			dir = 1,
+			actor = 900207,
 			nameColor = "#a9f548",
 			say = "クリーブランド、ここはロイヤルメイド隊として飲み物を用意いたしますので、私に任せてください",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900206,
 			dir = 1,
+			actor = 900206,
 			nameColor = "#a9f548",
 			say = "ロイヤルメイド隊ね…あのメイド長、相当厳しいって聞いたけど。まあいいわ、コーヒーでお願い",
 			typewriter = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 900206,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900206,
+			nameColor = "#a9f548",
 			say = "はあ？コーヒーになんか不満があるっての！？",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -315,8 +315,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900205,
 			dir = 1,
+			actor = 900205,
 			nameColor = "#a9f548",
 			say = "あははは…仲がいいよね…",
 			typewriter = {
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 900206,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900206,
+			nameColor = "#a9f548",
 			say = "は！？誰が！",
 			typewriter = {
 				speed = 0.05,
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -390,8 +390,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 900205,
 			dir = 1,
+			actor = 900205,
 			nameColor = "#a9f548",
 			say = "私はやっぱり酸素コーラがいいかな～",
 			typewriter = {

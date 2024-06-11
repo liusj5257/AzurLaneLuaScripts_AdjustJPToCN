@@ -2,7 +2,7 @@ slot0 = class("BossRushBattleResultMediator", import("view.base.ContextMediator"
 slot0.ON_SETTLE = "BossRushBattleResultMediator:ON_SETTLE"
 slot0.BEGIN_STAGE = "BossRushBattleResultMediator:BEGIN_STAGE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_SETTLE, function ()
 		if not uv0.contextData.win or uv0.contextData.system == SYSTEM_BOSS_RUSH_EX then
 			uv0:sendNotification(GAME.GO_BACK)
@@ -29,7 +29,7 @@ function slot0.register(slot0)
 	slot0:sendNotification(NewBattleResultMediator.ON_ENTER_BATTLE_RESULT)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		NewBattleResultMediator.SET_SKIP_FLAG,
 		GAME.BOSSRUSH_TRACE_DONE,
@@ -40,7 +40,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == nil then
@@ -90,7 +90,7 @@ function slot0.handleNotification(slot0, slot1)
 					slot2 = uv1:GetOilLimit()
 					slot3 = pg.battle_cost_template[uv0].oil_cost > 0
 
-					function slot4(slot0, slot1)
+					slot4 = function(slot0, slot1)
 						slot2 = 0
 
 						if uv0 then
@@ -162,7 +162,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.ShowTotalAward(slot0, slot1)
+slot0.ShowTotalAward = function(slot0, slot1)
 	getProxy(ContextProxy):GetPrevContext(1):addChild(Context.New({
 		mediator = BossRushTotalRewardPanelMediator,
 		viewComponent = BossRushTotalRewardPanel,
@@ -174,7 +174,7 @@ function slot0.ShowTotalAward(slot0, slot1)
 	slot0:sendNotification(GAME.GO_BACK)
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 end
 
 return slot0

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "强袭号令-LV9",
 	time = 15,
-	color = "red",
+	name = "强袭号令-LV9",
+	init_effect = "",
+	id = 9102,
 	picture = "",
 	desc = "15%的概率发动",
 	stack = 1,
-	id = 9102,
+	color = "red",
 	icon = 9100,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				rant = 2500,
-				skill_id = 9101,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				skill_id = 9101
 			}
 		}
 	}

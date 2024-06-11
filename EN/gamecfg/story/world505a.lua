@@ -1,19 +1,19 @@
 return {
-	id = "WORLD505A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD505A",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/17/tb-17",
+			dir = 1,
 			bgm = "xinnong-3",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Scan complete. No Siren signals were detected in the area.",
-			voice = "event:/tb/17/tb-17",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,11 +26,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Initiating combat data analysis.",
 			voice = "event:/tb/19/tb-19",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "Initiating combat data analysis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,11 +43,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/40/tb-40",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Analysis complete. This fleet and three others have broken through the Sirens' defenses. The first line of defense in the NA Ocean has been breached.",
-			voice = "event:/tb/40/tb-40",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "Moreover, our initial analysis suggested that we would encounter more of their forces the closer we got to the heart of the NA Ocean, not the opposite.",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "Not only that, if all of them are at the heart, they'd be so tightly clustered they'd only get in each other's way.",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"Great points. We ought to keep our eyes peeled for any strange Siren deployments while continuing with our plan...\"",
 			typewriter = {
 				speed = 0.05,

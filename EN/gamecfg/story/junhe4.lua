@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Hidden Charm\n\n<size=45>4 To Be a Kii</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
+			say = "Port - Exercise Area",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "To all who are joining us on this day: thank you for coming.",
 			typewriter = {
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "After coughing a few times, one of the Sakura Empire's brightest minds – Amagi – addressed the crowd.",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Of course, that includes you, Commander. Your presence is greatly appreciated.",
 			typewriter = {
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "I hadn't been invited just as a friendly gesture. There was an important role for me to fulfill.",
 			typewriter = {
 				speed = 0.05,
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "I was to serve as the referee for this naval exercise. It would be a friendly battle between Amagi's great apprentices, and other shipgirls connected by the threads of history.",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "Well, well! You came after all, Suruga. Congratulations on taking the first step!",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,8 +156,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "{namecode:80}……",
 			typewriter = {
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "Tension was building. Kii and Suruga were about on par in terms of rigging specs, but it sounded like Kii had an advantage from the get-go.",
 			typewriter = {
 				speed = 0.05,
@@ -216,15 +216,15 @@ return {
 			}
 		},
 		{
-			actor = 304050,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "It's time to begin. Commander, if you would.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -249,9 +249,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "After taking a look across the spectators, Kii, and Suruga, I gave the starting signal.",
 			typewriter = {
 				speed = 0.05,
@@ -291,11 +291,11 @@ return {
 			}
 		},
 		{
-			say = "Kii immediately sprung into action. She held nothing back, firing several volleys at Suruga in an effort to take her out quickly.",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "Kii immediately sprung into action. She held nothing back, firing several volleys at Suruga in an effort to take her out quickly.",
 			effects = {
 				{
 					active = false,
@@ -367,9 +367,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "Suruga dodged the volleys while firing back with sharp remarks the likes of which I'd never heard from her before.",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "Whoa, what?! What's changed with you between now and last time, Suruga?",
 			effects = {
@@ -404,8 +404,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -414,9 +414,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "Kii was taken aback, but kept firing even so. Despite Suruga's evasive maneuvers wearing away at her stamina, she now went on the offensive.",
 			effects = {
 				{
@@ -450,9 +450,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "Suruga's desire to win could be felt even from the spectator rows. Her heart was on fire.",
 			typewriter = {
 				speed = 0.05,
@@ -464,9 +464,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "Of course, Kii burned with a similar desire, but Suruga's passion stood out particularly much.",
 			typewriter = {
 				speed = 0.05,
@@ -478,11 +478,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
 			say = "YOU'RE MIIIINE!",
 			effects = {
 				{
@@ -500,11 +500,11 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305120,
+			nameColor = "#a9f548",
 			say = "Hmph! Nice try!",
 			effects = {
 				{
@@ -522,12 +522,12 @@ return {
 			}
 		},
 		{
-			actor = 304050,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "After much passionate fighting... It seems we have ourselves a victor.",
 			typewriter = {
 				speed = 0.05,

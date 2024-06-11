@@ -1,20 +1,20 @@
 slot0 = class("StoryCancelTipPanel", import(".MsgboxSubPanel"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "Msgbox4StoryCancelTip"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	setText(slot0._tf:Find("Name"), i18n("autofight_story"))
 end
 
-function slot0.PreRefresh(slot0, slot1)
+slot0.PreRefresh = function(slot0, slot1)
 	slot1.title = pg.MsgboxMgr.TITLE_INFORMATION
 
 	uv0.super.PreRefresh(slot0, slot1)
 end
 
-function slot0.OnRefresh(slot0, slot1)
+slot0.OnRefresh = function(slot0, slot1)
 	slot0:SetWindowSize(Vector2(1000, 640))
 
 	slot2 = slot0._tf
@@ -33,10 +33,10 @@ function slot0.OnRefresh(slot0, slot1)
 	end))
 end
 
-function slot0.OnHide(slot0)
+slot0.OnHide = function(slot0)
 end
 
-function slot0.OnDestory(slot0)
+slot0.OnDestory = function(slot0)
 	LeanTween.cancel(slot0._tf:Find("CircleProgress"))
 end
 

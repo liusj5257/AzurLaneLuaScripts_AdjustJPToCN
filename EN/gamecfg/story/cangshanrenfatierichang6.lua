@@ -1,13 +1,13 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIERICHANG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIERICHANG6",
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Ninja Scrolls: At Your Leisure\n\n<size=45>Start the Training - Part 1</size>",
@@ -16,12 +16,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
+			hidePaintEquip = true,
 			bgm = "sk-az-story",
 			say = "Port - Training Area Campsite",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,11 +31,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "Akatsukiii!",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,11 +49,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "I'm gonna climb that rock over there for training's sake. You wanna come with me?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,13 +64,13 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "Of course! I would love to accompany you!",
 			hidePaintEquip = true,
+			actor = 301090,
+			nameColor = "#A9F548FF",
+			say = "Of course! I would love to accompany you!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,11 +84,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 301110,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301110,
 			nameColor = "#A9F548FF",
 			say = "I see! This is what you'd call a random event!",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,13 +99,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 301120,
-			side = 2,
-			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "Finishing it should award you with a significant amount of affection.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,13 +116,13 @@ return {
 			}
 		},
 		{
-			actor = 301100,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "There they go, doing stuff for no reason again. Oh well, it's nice to see Akatsuki in such high spirits for once.",
 			hidePaintEquip = true,
+			actor = 301100,
+			nameColor = "#A9F548FF",
+			say = "There they go, doing stuff for no reason again. Oh well, it's nice to see Akatsuki in such high spirits for once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,9 +137,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			side = 2,
+			hidePaintEquip = true,
 			actor = 11000020,
 			say = "It's a problem when they get carried away. While being active is good, it's important to rest up after intense exercise.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,11 +149,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 319010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 319010,
 			nameColor = "#A9F548FF",
 			say = "Hey, girls! Who wants a cold bottle of milk?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,11 +167,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 319010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 319010,
 			nameColor = "#A9F548FF",
 			say = "...By the way, where's Murasaki? Shouldn't she be here?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,11 +185,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "Nah. If I had to guess, she's probably playing video games in her room again.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,27 +200,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			hidePaintEquip = true,
 			bgName = "star_level_bg_106",
 			say = "Meanwhile, in a dark corner of the island...",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -231,11 +231,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "This was a mistake... I fell for the sound of people having fun... Going outside was a horrible mistake...",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,11 +249,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "I'd much rather be somewhere dark and quiet where I can relax by myself...",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,13 +264,13 @@ return {
 			}
 		},
 		{
-			actor = 402040,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 402040,
+			nameColor = "#A9F548FF",
 			say = "Why does it have to be so sunny... I feel like I'm going to faint...",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,13 +281,13 @@ return {
 			}
 		},
 		{
-			actor = 402040,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "Almost there... Almost at the campsite... Fishy, I need your encouragement right now...",
 			hidePaintEquip = true,
+			actor = 402040,
+			nameColor = "#A9F548FF",
+			say = "Almost there... Almost at the campsite... Fishy, I need your encouragement right now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,11 +301,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "......",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,13 +316,13 @@ return {
 			}
 		},
 		{
-			actor = 402040,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "......",
 			hidePaintEquip = true,
+			actor = 402040,
+			nameColor = "#A9F548FF",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,12 +336,12 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_106",
-			hideOther = true,
-			dir = 1,
-			actorName = "Murasaki&{namecode:424}",
-			hidePaintEquip = true,
 			actor = 11000060,
+			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintEquip = true,
+			hideOther = true,
+			actorName = "Murasaki&{namecode:424}",
 			say = "Umm...Aren't you...?",
 			subActors = {
 				{
@@ -359,13 +359,13 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "Eep!",
 			hidePaintEquip = true,
+			actor = 301210,
+			nameColor = "#A9F548FF",
+			say = "Eep!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,14 +376,14 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			nameColor = "#A9F548FF",
 			side = 0,
 			bgName = "star_level_bg_106",
-			actorName = "Murasaki&{namecode:424}",
+			actor = 11000060,
 			dir = 1,
 			hidePaintEquip = true,
-			actor = 11000060,
-			nameColor = "#A9F548FF",
+			hideOther = true,
+			actorName = "Murasaki&{namecode:424}",
 			say = "Who's there?!Eek!",
 			subActors = {
 				{
@@ -401,13 +401,13 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "Oh... S-sorry. I didn't expect to see people here at this time of day.",
 			hidePaintEquip = true,
+			actor = 301210,
+			nameColor = "#A9F548FF",
+			say = "Oh... S-sorry. I didn't expect to see people here at this time of day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,13 +418,13 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "I-I'll be out of your hair soon... Just give me a minute...",
 			hidePaintEquip = true,
+			actor = 301210,
+			nameColor = "#A9F548FF",
+			say = "I-I'll be out of your hair soon... Just give me a minute...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,15 +447,15 @@ return {
 			}
 		},
 		{
-			actor = 11000060,
+			say = "EEEEEEEEK!",
 			side = 2,
 			bgName = "star_level_bg_106",
-			actorName = "Murasaki&{namecode:424}&{namecode:30}",
-			dir = 1,
-			hidePaintEquip = true,
 			hideOther = true,
+			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "EEEEEEEEK!",
+			hidePaintEquip = true,
+			actor = 11000060,
+			actorName = "Murasaki&{namecode:424}&{namecode:30}",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -525,11 +525,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "You have? Oh... Sorry. I didn't realize when I first got here.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,13 +540,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 301210,
-			side = 2,
-			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "L-like I said, I'll be out of here before you know it... I-I won't be long...",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,13 +557,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 105170,
-			side = 2,
-			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "What's going on here? Some kind of party?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,14 +574,14 @@ return {
 			}
 		},
 		{
-			actor = 11000060,
+			say = "AAAAAAAHHHHHHHHHHH!",
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintEquip = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000060,
 			actorName = "Everyone Else",
-			say = "AAAAAAAHHHHHHHHHHH!",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -616,13 +616,13 @@ return {
 			}
 		},
 		{
-			actor = 105170,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
+			side = 2,
 			dir = 1,
-			say = "So, basically, you wanna participate in the exercise, but you lack the courage to show up.",
 			hidePaintEquip = true,
+			actor = 105170,
+			nameColor = "#A9F548FF",
+			say = "So, basically, you wanna participate in the exercise, but you lack the courage to show up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -632,17 +632,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -653,11 +653,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 105170,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 105170,
 			nameColor = "#A9F548FF",
 			say = "Now you're all meeting up here with others who aren't participating either. Is that right?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,11 +671,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "Not exactly... It's not like... we all agreed to meet here or anything.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,13 +686,13 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 105170,
+			nameColor = "#A9F548FF",
 			say = "Ah. So you independently opted for a place where there's few people, then?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,13 +703,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 11000060,
-			side = 2,
-			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "Correct...",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,13 +720,13 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "You don't like dealing with people, I suppose...",
 			hidePaintEquip = true,
+			actor = 105170,
+			nameColor = "#A9F548FF",
+			say = "You don't like dealing with people, I suppose...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,11 +740,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 105170,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 105170,
 			nameColor = "#A9F548FF",
 			say = "Oh! That gives me an idea! Heheh!",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1

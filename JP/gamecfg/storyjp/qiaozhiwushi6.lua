@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"もうひとりのカリスマ？\n\n<size=45>六　今日の晩ごはん！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "フッドの計らいでキングジョージ5世に晩御飯を作ることになった。",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "フッドの計らいでキングジョージ5世に晩御飯を作ることになった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205050,
+			nameColor = "#a9f548",
 			say = "指揮官は料理が作れるか？",
 			typewriter = {
 				speed = 0.05,
@@ -79,9 +79,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
 			optionFlag = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "ふふ、楽しみにしているぞ？",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
 			optionFlag = 2,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "なるほど…だがこれを機に勉強し始めても良かろう",
 			typewriter = {
@@ -112,12 +112,12 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 205050,
+			nameColor = "#a9f548",
 			say = "メイド隊の誰かを捕まえて手ほどきを受けておくといい",
 			typewriter = {
 				speed = 0.05,
@@ -129,13 +129,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_107",
+			side = 2,
+			dir = 1,
 			say = "とにかくキッチンの台所に立ってみた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "急なことでもあるし、とりあえず卵焼きでも作ってみよう！",
 			typewriter = {
 				speed = 0.05,
@@ -174,9 +174,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "卵をボウルに割り入れ、混ぜて……",
 			typewriter = {
 				speed = 0.05,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "……皿に盛り付けて、よし！",
 			dialogShake = {
 				speed = 0.09,
@@ -207,9 +207,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "早速キングジョージ5世にできたての料理を持って行ってあげよう。",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "これは……スクランブルエッグ？違うな……",
 			typewriter = {
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "キングジョージ5世は興味津々で切った卵焼きを口に入れた。",
 			typewriter = {
@@ -277,9 +277,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "それもそのはずだ。あのエリザベスに料理を作ってあげられるほどの腕ならば、こちらが即席で作ったもの程度では満足しないだろう。",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "だが……",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "「あなたが私のために作ってくれた」という事実は実に良いスパイスだ",
 			typewriter = {
@@ -325,11 +325,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "キングジョージ5世は嬉しそうにこちらに微笑んだ。それはまるで――",
 			typewriter = {
@@ -342,11 +342,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "今の彼女は「秘書艦」でも「騎士長」でも、ロイヤルのカリスマでもなく、自分の作った料理を楽しんでくれている普通の少女にすぎない。",
 			typewriter = {
@@ -359,9 +359,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "なんとなく、キングジョージ5世の「弱み」についてイメージが湧いた気がした。",
 			typewriter = {
 				speed = 0.05,
@@ -373,9 +373,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "ならば、それを攻略するまでだ。",
 			typewriter = {
 				speed = 0.05,

@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_540",
+			bgm = "story-richang-3",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I step into Akashi's workshop.",
-			bgm = "story-richang-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,12 +33,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ah, Commander, nya. What can I do for you, nya?",
 			painting = {
 				alpha = 0.3,
@@ -68,13 +68,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hmm. I see how it is, nya.",
 			painting = {
 				alpha = 0.3,
@@ -89,10 +89,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You want to ease TB's woes about personality, nya.",
 			painting = {
 				alpha = 0.3,
@@ -107,10 +107,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The thing is, an AI can't grow up if they don't have a physical body to grow IN, nya. TB is not gonna develop a personality as it stands now, nya.",
 			painting = {
 				alpha = 0.3,
@@ -122,12 +122,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But if making a physical body is off the table, making a virtual city for her to live in could do the trick, nya.",
 			painting = {
 				alpha = 0.3,
@@ -139,12 +139,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Then she'll experience what it's like to grow up and develop her own personality, little by little, nya.",
 			painting = {
 				alpha = 0.3,
@@ -162,13 +162,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I can try, nya.",
 			painting = {
 				alpha = 0.3,
@@ -183,10 +183,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "However...",
 			painting = {
 				alpha = 0.3,
@@ -198,12 +198,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I want a teensy little thing in exchange, nya.",
 			painting = {
 				alpha = 0.3,
@@ -230,10 +230,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "9,999,999,999,999 coins, nya!",
 			painting = {
 				alpha = 0.3,
@@ -260,10 +260,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nya?",
 			painting = {
 				alpha = 0.3,
@@ -275,12 +275,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's my price after a generous discount, nya.",
 			painting = {
 				alpha = 0.3,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
 			say = "I took the bait and asked the foolish question. Akashi cracks a grin, then whispers a number into my ear.",
@@ -351,12 +351,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A snappy answer, just the way I like it, nya!",
 			painting = {
 				alpha = 0.3,
@@ -371,10 +371,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Always a pleasure doing business with you, nya.",
 			painting = {
 				alpha = 0.3,
@@ -386,12 +386,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Come back in a month and I'll have it ready for you, nya.",
 			painting = {
 				alpha = 0.3,
@@ -418,10 +418,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's actually a lot less than I'd like to have, nya. This is complicated, intricate work we're talking about, nya.",
 			painting = {
 				alpha = 0.3,
@@ -448,10 +448,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I-I was just kidding, nya! Give me 20 days, no, 10 days is all I need, nya!",
 			painting = {
 				alpha = 0.3,
@@ -463,12 +463,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_540",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'll come knocking with good news before you know it, nya!",
 			painting = {
 				alpha = 0.3,

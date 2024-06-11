@@ -1,18 +1,18 @@
 return {
-	id = "WORLD108A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD108A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "bsm-1",
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "艦載機、鉄血艦隊の上空を通過したよ！",
-			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,11 +65,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/32/tb-32",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "通信要請を受信しました。鉄血からの暗号通信チャンネルの確立が可能です。通信を接続しますか？",
-			voice = "event:/tb/32/tb-32",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "よし、一回通信を確立しよう",
 			typewriter = {
 				speed = 0.05,
@@ -95,13 +95,13 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 405020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "こちら鉄血艦隊ティルピッツ。ユニオンの艦隊と見たわ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,8 +129,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 405020,
 			dir = 1,
+			actor = 405020,
 			say = "連絡が遅れてすまない。話があるなら直接顔を合わせてはいかがだろう？",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "向こうが面談を申し出てくるとはな…これはどう応じるべきか。",
 			typewriter = {
 				speed = 0.05,
@@ -176,8 +176,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 403040,
 			dir = 1,
+			actor = 403040,
 			say = "作戦の担当海域？ここはセイレーンの占拠海域には見えるけど？",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 403040,
 			dir = 1,
+			actor = 403040,
 			say = "そもそも作戦海域の割当は向こうの上層部が勝手に作ったものよ。ここはお互い無視していいんじゃないかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 405020,
 			dir = 1,
+			actor = 405020,
 			say = "ドイッチュラントが言いたいのは、こちらからあなた達の作戦を邪魔するつもりはなく、またユニオン管轄海域に入る予定はないってこと",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 405020,
 			dir = 1,
+			actor = 405020,
 			say = "もしこちらの艦隊行動に異議があるというのなら……あっ",
 			typewriter = {
 				speed = 0.05,
@@ -254,9 +254,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "鉄血艦隊、こちらに向かっているわね",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "これは……量産型の鉄血艦の反応？！",
 			typewriter = {
 				speed = 0.05,

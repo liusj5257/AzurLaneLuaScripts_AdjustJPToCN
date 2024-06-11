@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_269 = {}
 slot1 = slot0.word_template_269
 
-function temp()
+temp = function()
 	uv0["丝"] = {
 		["情"] = {
 			["袜"] = {
@@ -139,7 +139,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["私"] = {
 		["/"] = {
 			["服"] = {
@@ -330,7 +330,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["思"] = {
 		["春"] = {
 			["期"] = {
@@ -412,7 +412,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["斯"] = {
 		["巴"] = {
 			["达"] = {
@@ -497,7 +497,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["絲"] = {
 		["襪"] = {
 			this = true,
@@ -530,7 +530,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["四"] = {
 		["百"] = {
 			["元"] = {
@@ -819,7 +819,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["寺"] = {
 		["尾"] = {
 			["祐"] = {

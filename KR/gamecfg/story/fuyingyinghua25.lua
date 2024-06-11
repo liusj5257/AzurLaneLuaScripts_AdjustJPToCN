@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA25",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA25",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
-			say = "너무 오래 끌었어. 이런… 시간이 없다.",
 			bgm = "xinnong-4",
+			actor = 900192,
+			actorName = "？？？",
+			say = "너무 오래 끌었어. 이런… 시간이 없다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "불청객이 다른 길을 찾으려 돌아서자 즈이카쿠가 그 앞을 가로막았다.",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "명경지수——",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "즈이카쿠가 막아서려는 순간, 강렬한 한기가 느껴져 멈출 수밖에 없었다.",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그 순간, 눈 앞의 적은 이미 자신의 옆을 스쳐 지나갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "남은 것은 당황한 즈이카쿠 뿐이었다.",
 			typewriter = {
 				speed = 0.05,

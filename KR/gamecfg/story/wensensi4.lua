@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"동생의 변화\n\n<size=45>4. 동생의 실망</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "요즘 함대의 일이 바빠 모두가 매우 분주해졌다——",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "요즘 함대의 일이 바빠 모두가 매우 분주해졌다——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "며칠 전에 주변 해역 소탕에 참여한 아스토리아가 알맞겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#92fc63",
 			say = "지휘관, 내가 도와줄 건 없어?",
 			typewriter = {
 				speed = 0.05,
@@ -194,9 +194,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "확실히 빈센스의 전투력은 믿을만 하지. 아스토리아가 그렇게 말한다면 맡길게.",
 			typewriter = {
 				speed = 0.05,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#92fc63",
 			say = "지휘관, 같이 자자. 일을 너무 오래 했잖아.",
 			typewriter = {
 				speed = 0.05,
@@ -276,11 +276,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#92fc63",
 			say = "응…… 알았어……",
 			typewriter = {
 				speed = 0.05,
@@ -292,8 +292,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -302,9 +302,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "빈센스는 약간 실망한 눈치로 소파에 앉았다. 아무래도 아무도 어울려주지 않아 조금 쓸쓸한 모양이었다.",
 			typewriter = {
 				speed = 0.05,

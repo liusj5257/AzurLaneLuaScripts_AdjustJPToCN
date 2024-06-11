@@ -6,7 +6,7 @@ require("Mgr/RedDot/Include")
 slot0 = pg.RedDotMgr
 slot1 = true
 
-function slot2(...)
+slot2 = function(...)
 	if uv0 then
 		originalPrint(...)
 	end
@@ -16,12 +16,12 @@ slot0.TYPES = {
 	COURTYARD = 1,
 	MEMORY_REVIEW = 19,
 	ACT_RETURN = 16,
+	GUILD = 5,
 	COMMANDER = 10,
 	RYZA_TASK = 21,
-	BLUEPRINT = 14,
-	BUILD = 4,
-	SERVER = 12,
 	ISLAND = 22,
+	SERVER = 12,
+	BLUEPRINT = 14,
 	ACT_NEWBIE = 17,
 	EVENT = 15,
 	ATTIRE = 6,
@@ -29,14 +29,14 @@ slot0.TYPES = {
 	NEW_SERVER = 20,
 	TASK = 2,
 	MAIL = 3,
-	GUILD = 5,
+	BUILD = 4,
 	SETTTING = 11,
 	COMMISSION = 9,
 	COLLECTION = 7,
 	SCHOOL = 13
 }
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0.conditions = {}
 	slot0.nodeList = {}
 
@@ -47,7 +47,7 @@ function slot0.Init(slot0, slot1)
 	end
 end
 
-function slot0.BindConditions(slot0)
+slot0.BindConditions = function(slot0)
 	slot0:BindCondition(uv0.TYPES.COURTYARD, function ()
 		return getProxy(DormProxy):IsShowRedDot()
 	end)
@@ -134,11 +134,11 @@ function slot0.BindConditions(slot0)
 	end)
 end
 
-function slot0.BindCondition(slot0, slot1, slot2)
+slot0.BindCondition = function(slot0, slot1, slot2)
 	slot0.conditions[slot1] = slot2
 end
 
-function slot0.RegisterRedDotNodes(slot0, slot1)
+slot0.RegisterRedDotNodes = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0:RegisterRedDotNode(slot6)
 	end
@@ -146,7 +146,7 @@ function slot0.RegisterRedDotNodes(slot0, slot1)
 	slot0:_NotifyAll()
 end
 
-function slot0.RegisterRedDotNode(slot0, slot1)
+slot0.RegisterRedDotNode = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot1:GetTypes()) do
 		if not slot0.nodeList[slot7] then
 			slot0.nodeList[slot7] = {}
@@ -158,7 +158,7 @@ function slot0.RegisterRedDotNode(slot0, slot1)
 	slot1:Init()
 end
 
-function slot0.UnRegisterRedDotNodes(slot0, slot1)
+slot0.UnRegisterRedDotNodes = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0:UnRegisterRedDotNode(slot6)
 	end
@@ -166,7 +166,7 @@ function slot0.UnRegisterRedDotNodes(slot0, slot1)
 	uv0.cache = {}
 end
 
-function slot0.UnRegisterRedDotNode(slot0, slot1)
+slot0.UnRegisterRedDotNode = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot1:GetTypes()) do
 		slot8 = slot0.nodeList[slot7] or {}
 
@@ -179,7 +179,7 @@ function slot0.UnRegisterRedDotNode(slot0, slot1)
 	end
 end
 
-function slot3(slot0, slot1)
+slot3 = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot7 = nil
 
@@ -197,7 +197,7 @@ function slot3(slot0, slot1)
 	return false
 end
 
-function slot0.NotifyAll(slot0, slot1)
+slot0.NotifyAll = function(slot0, slot1)
 	uv0.cache = {}
 	slot2 = ipairs
 	slot3 = slot0.nodeList[slot1] or {}
@@ -209,11 +209,11 @@ function slot0.NotifyAll(slot0, slot1)
 	uv0.cache = {}
 end
 
-function slot0._NotifyAll(slot0)
+slot0._NotifyAll = function(slot0)
 	uv0.cache = {}
 	slot1 = {}
 
-	function slot2(slot0, slot1)
+	slot2 = function(slot0, slot1)
 		slot0:SetData(uv0(uv1, slot0:GetTypes()))
 		onNextTick(slot1)
 	end
@@ -231,7 +231,7 @@ function slot0._NotifyAll(slot0)
 	end)
 end
 
-function slot0.DebugNodes(slot0)
+slot0.DebugNodes = function(slot0)
 	for slot4, slot5 in pairs(slot0.nodeList) do
 		uv0("type : ", slot4)
 

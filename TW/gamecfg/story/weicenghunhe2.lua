@@ -1,13 +1,13 @@
 return {
-	id = "WEICENGHUNHE2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "數日前，前往巴拿馬要塞的支援艦隊在發出了一封增援請求的電報後便失去了聯絡",
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "NY司令部緊急組織了調查艦隊前往要塞駐紮，同時尋找失聯艦隊的蹤跡.",
 			typewriter = {
@@ -35,15 +35,15 @@ return {
 			}
 		},
 		{
-			say = "巴拿馬要塞東側·外海",
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "hunhe-story",
+			say = "巴拿馬要塞東側·外海",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 103240,
 			side = 2,
 			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103240,
+			nameColor = "#a9f548",
 			say = "哇哦，這就是傳說中的巴拿馬要塞？ ！實際到這裡來還是第一次…看上去真壯觀啊！",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,8 +97,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "布雷默頓一直在大西洋內活躍，沒有路過這裡的經歷吧。",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "尤其是對於後勤運輸系統來說，簡直可以稱作樞紐通道哦。",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "哎？原來只知道這裡很重要，沒想到這麼厲害啊！開始期待起來在這裡的駐防生活了~",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -187,15 +187,15 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "唔…都快到要塞了，一路上別說塞壬了連點戰鬥的痕跡都沒有發現。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -239,8 +239,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "艾塞克斯，她們會不會是被捲入鏡面海域迷航了？",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "根據記錄，在失蹤當日附近航線上的運輸艦隊也沒有匯報任何有關塞壬襲擊造成損失或者運輸艦失聯的情況。",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "遭遇海霧，然後通訊系統和導航系統全都發生故障，最後誤入塞壬聚集的海域…不會有這麼倒霉的迷航理由吧，啊哈哈。",
 			typewriter = {
@@ -338,8 +338,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "沒，目前為止什麼發現都沒有，不過總感覺平靜的有點反常。",
 			typewriter = {
@@ -355,8 +355,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "就算現在看起來一切正常也不能掉以輕心，巴爾的摩她們是不會無緣無故發來警告的。",
 			typewriter = {

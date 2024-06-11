@@ -1,6 +1,6 @@
 slot0 = class("MedalGoodsCard", import(".BaseGoodsCard"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0._go = slot1
@@ -25,7 +25,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.selloutTag = slot0._tr:Find("mask/tag/sellout_tag")
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	if slot0.goods ~= slot1 then
 		slot0.goods = slot1
 
@@ -41,7 +41,7 @@ function slot0.update(slot0, slot1)
 	setActive(slot0.selloutTag, not slot2)
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	if string.match(slot0.goods:getConfig("goods_name"), "(%d+)") then
 		setText(slot0.nameTF, shortenString(slot1, 5))
 	else
@@ -54,10 +54,10 @@ function slot0.Init(slot0)
 	GetImageSpriteFromAtlasAsync(slot0.goods:getConfig("goods_icon"), "", slot0.itemIconTF)
 
 	slot0.itemCountTF.text = slot0.goods:getConfig("num")
-	slot2 = ItemRarity.Rarity2Print(slot0.goods:getConfig("goods_rarity") or 1)
+	slot2 = slot0.goods:getConfig("goods_rarity") or ItemRarity.Gray
 
-	setImageSprite(slot0.itemIconBgTF, GetSpriteFromAtlas("weaponframes", "bg" .. slot2))
-	setImageColor(slot0.itemIconFrameTF, shipRarity2FrameColor(slot2 + 1))
+	setImageSprite(slot0.itemIconBgTF, GetSpriteFromAtlas("weaponframes", "bg" .. ItemRarity.Rarity2Print(slot2)))
+	setImageColor(slot0.itemIconFrameTF, Color.NewHex(ItemRarity.Rarity2FrameHexColor(slot2)))
 
 	slot3 = slot0.goods:getConfig("is_ship")
 	slot4 = slot0.goods:getConfig("goods")
@@ -73,7 +73,7 @@ function slot0.Init(slot0)
 	end
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 	slot0.goods = nil
 end
 

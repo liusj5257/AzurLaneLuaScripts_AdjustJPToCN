@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-1-1",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg2",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-12",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-1-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ――",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "彼女はフォークでブロッコリーをこっちの口元に運んできた。",
@@ -63,14 +63,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "お口……開けて",
 			voice = "event:/educate/tb/educate-tb-story-1-2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "お口……開けて",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,8 +81,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "余計な表情もなく、彼女はとても嬉しそうにしている。",
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "もしかしたら……このような「餌付け」行為を真似すること自体が、TBにとっては何かを理解する手がかりになっているのかもしれない。",
@@ -103,14 +103,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "あ――",
 			voice = "event:/educate/tb/educate-tb-story-1-3",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "あ――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "なかなか反応しないのを見て、彼女は再び声を出してこちらに行動を促してきた。",
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			say = "大げさに口を開けて、ブロッコリーをがぶっと食べた。",

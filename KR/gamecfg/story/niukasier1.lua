@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"평온한 일상을 바라며\n\n<size=45>임시 메이드대 리더</size>",
@@ -17,10 +17,10 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			actor = 205010,
 			dir = 1,
 			stopbgm = true,
 			say = "그래서, 나와 벨파는 공무로 인해 며칠 간 모항을 비우게 될 거야!",
@@ -88,17 +88,17 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			bgmDelay = 1,
-			say = "왜 그러십니까?",
+			bgName = "bg_story_task",
 			bgm = "story-1",
+			actor = 202190,
+			nameColor = "#92fc63",
+			say = "왜 그러십니까?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,8 +132,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "비서함인 뉴캐슬의 목소리가 들려왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "깔끔하게 클리어 파일에 철해진 보고서를 받았다.",
 			typewriter = {
 				speed = 0.05,
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202190,
+			nameColor = "#92fc63",
 			say = "저는 홍차를 추천드립니다만, 따로 좋아하시는 게 있으시다면 말씀해 주십시오. 바로 대령하겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202190,
+			nameColor = "#92fc63",
 			say = "알겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -257,9 +257,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "얼마 지나지 않아, 따뜻하고 은은한 향기가 나는 티 세트가 올려진 트레이가 옆에 놓여졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -283,9 +283,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "비서함으로서도 메이드로서도, 역시 전 메이드대 총괄이라 그런지 빈틈이 없다.",
 			typewriter = {
 				speed = 0.05,

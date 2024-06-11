@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BAILINGYUMEIMENG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BAILINGYUMEIMENG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Cubicle Dreamin'\n\n<size=45>Office Romance</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=34>This is, apparently, all just a dream.</size>",
@@ -35,24 +35,24 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "Azur Lane Technologies Ltd. - Corporate Headquarters",
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			bgm = "theme-schoolfuture",
+			side = 2,
 			bgmDelay = 1,
-			say = "Azur Lane Technologies Ltd. - Corporate Headquarters",
+			bgm = "theme-schoolfuture",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Mmrgh! These stockings are so annoying to wear...",
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Same with these high heels. My feet hurt more than usual...",
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "This is so dumb. Why won't these stockings just–",
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			say = "*RIP*",
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "D-did... the stocking just rip?",
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "No, dammit... I can't wear a torn stocking!",
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "If I'd known this would happen, I would've asked for a larger size...",
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "...But that's no excuse to give up. The whole point of this is to try to get the Commander's attention!",
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "I'll get through this! Whatever it takes to capture the Commander's heart!",
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "...C-Commander?!",
@@ -243,11 +243,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "When did you get here? You didn't hear me say anything, did you?!",
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "...You just arrived? But why? You're a whole hour early to work!",
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "(*sigh*... There goes the surprise factor of my stockings...)",
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "(This totally ruins the mood! Why would you clock in THIS early, you doofus?!)",
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "(No, wait! If I play my cards right, I can turn this in my favor and ask the Commander to help me put these stockings on...)",
@@ -338,11 +338,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "(Yes! This is the perfect opportunity for us to become closer with one another!)",
@@ -361,11 +361,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "(Deep breaths... You can do this, me!)",
@@ -385,11 +385,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Say, um, my dear Commander...",
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Would you mind... helping me put on these stockings?",
@@ -433,11 +433,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Be gentle, please. I don't want them to rip!",
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "(Gosh... Not only am I alone with my to-be sweetheart, I even got help with putting my legwear on.)",
@@ -474,11 +474,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "(Ahh, this is like a dream romance come true!)",
@@ -498,11 +498,11 @@ return {
 			}
 		},
 		{
-			actor = 603061,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_169",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 603061,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Heehee...♥",

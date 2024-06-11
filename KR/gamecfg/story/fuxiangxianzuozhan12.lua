@@ -1,16 +1,16 @@
 return {
-	id = "FUXIANGXIANZUOZHAN12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN12",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "펑————————!",
-			dir = 1,
 			bgm = "battle-heroines-image",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "펑————————!",
 			flashN = {
 				color = {
 					1,
@@ -61,8 +61,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			say = "\"사쿠라 엠파이어\" 항공편대 기함 아카기, 침몰 확인~!",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401460,
 			dir = 1,
+			actor = 401460,
 			say = "\"사쿠라 엠파이어\" 어뢰편대 기함 진츠, 침몰 확인.",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "\"사쿠라 엠파이어 함대\" 전멸 확인. 이번 작전도 순조롭네. 다음 해역으로 이동할까, 페터?",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "빠져나간 건가? 위치를 확인해 줄 수 있어?",
 			typewriter = {
 				speed = 0.05,
@@ -139,9 +139,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "지금 찾는 중인데... 아!",
 			dialogShake = {
 				speed = 0.09,
@@ -161,8 +161,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "무슨 일이야?",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "격추 판정이라니... 전투기가 격추당했어?! 새로운 사쿠라 엠파이어 함대는 실탄을 가지고 있어!",
 			typewriter = {
 				speed = 0.05,
@@ -222,9 +222,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "페터! 채널에서 엄청난 소리가 들렸어. 무슨 일이야?",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,8 +249,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401460,
 			dir = 1,
+			actor = 401460,
 			say = "거기 괜찮아?",
 			typewriter = {
 				speed = 0.05,
@@ -265,8 +265,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "돌발 상황이야. 어쩌면 고장일 수도 있지만... 해역에 실탄을 장전한 체스말과 양산형이 나타났어...",
 			typewriter = {
 				speed = 0.05,
@@ -280,9 +280,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "에?!!! 그런 일이 일어날 수 있어?!",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -307,8 +307,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "가능해. 훈련용 설비는 세이렌 시설을 개조한 거니까, 정확하게만 한다면 얼마든지 가능하지.",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "맞아. 자료를 읽어봐도 알겠지만 외부 해역에는 세이렌 봉쇄 함대로 위장한 양산형을 배치해 두었어.",
 			typewriter = {
 				speed = 0.05,
@@ -339,8 +339,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			say = "그런 일이...!",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "작전을 변경할게. 하인리히와 Z46는 호위 함대를 데리고 당장 돌아와. 베저와 나는 하늘의 함재기를 처리하고 적 항공모함의 위치를 파악할게.",
 			typewriter = {
 				speed = 0.05,
@@ -386,8 +386,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401460,
 			dir = 1,
+			actor = 401460,
 			say = "라져, 즉시 함대와 함께 귀환한다. Z46 통신 종료.",
 			typewriter = {
 				speed = 0.05,
@@ -401,9 +401,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "실전인가... 드디어 실전이야! 아이젠, 우리의 힘을 보여주자! 하인리히 통신 종료!",
 			typewriter = {
 				speed = 0.05,
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

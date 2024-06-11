@@ -1,17 +1,17 @@
 return {
-	id = "WORLD203C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD203C",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207050,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-french1",
 			dir = 1,
 			say = "(...Wales, I think someone’s watching us.)",
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,9 +39,9 @@ return {
 		{
 			expression = 9,
 			side = 2,
+			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Eh? There’s nothing showing up on the radar though...",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -65,11 +65,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 207050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "It’s odd how there are enemies that we can't detect on— Wait, in front of us!",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,8 +98,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "I know... But I just wanted to see who - or what - they really are. But they're fast, my recon didn't manage to get a glimpse of them.",
 			typewriter = {
 				speed = 0.05,
@@ -113,9 +113,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "But... Hmm...? Wait, is that... an Eagle Union fleet?!",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "There really was an Eagle Union fleet here? ...Thank goodness we made it in time then...",
 			typewriter = {
 				speed = 0.05,

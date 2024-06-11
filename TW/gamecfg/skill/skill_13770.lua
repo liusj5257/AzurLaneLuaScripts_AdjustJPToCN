@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "闪烁",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 1,
 	id = 13770,
-	picture = "0",
 	castCV = "skill",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

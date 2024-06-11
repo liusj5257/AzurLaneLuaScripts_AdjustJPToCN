@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"春風的十字星\n\n<size=45>一 某個早晨的突發事件</size>",
@@ -18,14 +18,14 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "呼欸？！！不、不見了？！怎、怎麼辦…",
 			side = 2,
-			bgm = "story-1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			bgm = "story-1",
+			actor = 201101,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "呼欸？！！不、不見了？！怎、怎麼辦…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,13 +36,13 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			withoutPainting = true,
 			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 201101,
 			nameColor = "#a9f548",
 			say = "嗚嗚…只、只能這樣了嗎——",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,15 +53,15 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201080,
+			nameColor = "#a9f548",
 			say = "小天鵝？！妳、妳這是什麼裝備！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 201090,
+			say = "暴、暴力！這是赤裸裸的暴力！反對暴力！",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "暴、暴力！這是赤裸裸的暴力！反對暴力！",
+			actor = 201090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -122,15 +122,15 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201080,
+			nameColor = "#a9f548",
 			say = "放在陽臺的衣服…不見了？！晾著的和準備洗的都…？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 201090,
+			say = "真、真是災難啊…不過…（盯——）",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "真、真是災難啊…不過…（盯——）",
+			actor = 201090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

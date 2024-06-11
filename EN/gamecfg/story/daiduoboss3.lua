@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAIDUOBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAIDUOBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Fight On, Royal Maids!\n\n<size=45>Sororal Defensive Line</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202220,
-			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Curacao, we're still hanging in there! Let's show them the power of the Royal...",
 			bgm = "battle-boss-5",
+			actor = 202220,
+			nameColor = "#a9f548",
+			say = "Curacao, we're still hanging in there! Let's show them the power of the Royal...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202210,
 			dir = 1,
+			actor = 202210,
 			nameColor = "#a9f548",
 			say = "All right, enough of that~♪ Dido and the others aren't fighting to the death, so why don't we conserve our strength?",
 			typewriter = {
@@ -119,9 +119,9 @@ return {
 		{
 			actor = 202120,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I do apologize for suddenly pushing such an important role upon you.",
 			flashout = {
 				dur = 0.25,
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Think nothing of it. Rather, I'm actually grateful, Miss Belfast.",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Despite the fact that I'm still a novice here, I am honoured that you gave me the opportunity to serve my Master and the fleet.",
 			typewriter = {
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 202040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202040,
+			nameColor = "#a9f548",
 			say = "Yes ma'am...!",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -248,9 +248,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
+			bgName = "bg_story_nepu2",
 			actor = 202040,
 			nameColor = "#a9f548",
 			say = "She's even... placed her trust in me...!",
@@ -288,9 +288,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
 			blackBg = true,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "...But still, I'm not...",
 			typewriter = {

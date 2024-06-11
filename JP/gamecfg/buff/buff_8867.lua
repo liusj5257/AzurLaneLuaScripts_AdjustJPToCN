@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "意大利V2 我方陆基航空支援D3",
 	time = 5,
-	color = "yellow",
+	name = "意大利V2 我方陆基航空支援D3",
+	init_effect = "",
+	id = 8867,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8867,
+	color = "yellow",
 	icon = 8867,
 	last_effect = "",
 	effect_list = {

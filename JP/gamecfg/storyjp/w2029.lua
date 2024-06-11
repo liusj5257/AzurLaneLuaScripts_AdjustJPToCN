@@ -1,12 +1,12 @@
 return {
-	id = "W2029",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2029",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "封鎖されたエリア以外にもスイッチが？もしかしたら謎を解けるちゃんすかもしれない…！",
 			typewriter = {
 				speed = 0.05,

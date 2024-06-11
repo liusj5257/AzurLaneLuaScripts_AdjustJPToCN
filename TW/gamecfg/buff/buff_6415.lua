@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 6415,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6415,
+	color = "red",
 	icon = 6410,
 	last_effect = "",
 	effect_list = {
@@ -26,8 +26,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 6416,
 				minWeaponNumber = 1,
+				skill_id = 6416,
 				check_weapon = true,
 				weapon_group = {
 					720

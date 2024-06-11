@@ -2,8 +2,8 @@ pg = pg or {}
 pg.world_event_complete = {
 	{
 		event_id = 200,
-		id = 1,
 		map_icon = "buff_a2",
+		id = 1,
 		chapter_num = 6,
 		desc = "적응력-파괴 증가",
 		tips_icon = {
@@ -21,8 +21,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 2,
 		map_icon = "buff_h2",
+		id = 2,
 		chapter_num = 6,
 		desc = "적응력-장갑 증가",
 		tips_icon = {
@@ -40,8 +40,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 3,
 		map_icon = "buff_d2",
+		id = 3,
 		chapter_num = 6,
 		desc = "적응력-반응 증가",
 		tips_icon = {
@@ -59,8 +59,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 4,
 		map_icon = "buff_a",
+		id = 4,
 		chapter_num = 6,
 		desc = "적응력-파괴 대폭 증가",
 		tips_icon = {
@@ -78,8 +78,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 5,
 		map_icon = "buff_h",
+		id = 5,
 		chapter_num = 6,
 		desc = "적응력-장갑 대폭 증가",
 		tips_icon = {
@@ -97,8 +97,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 6,
 		map_icon = "buff_d",
+		id = 6,
 		chapter_num = 6,
 		desc = "적응력-반응 대폭 증가",
 		tips_icon = {
@@ -116,8 +116,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 7,
 		map_icon = "currency",
+		id = 7,
 		chapter_num = 12,
 		desc = "작전 보급 증빙 대량 획득",
 		tips_icon = {
@@ -138,8 +138,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 8,
 		map_icon = "currency",
+		id = 8,
 		chapter_num = 6,
 		desc = "작전 보급 증빙 대량 획득",
 		tips_icon = {
@@ -160,8 +160,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 9,
 		map_icon = "currency",
+		id = 9,
 		chapter_num = 9,
 		desc = "행동력 보급 아이템 대량 획득",
 		tips_icon = {
@@ -182,8 +182,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 10,
 		map_icon = "currency",
+		id = 10,
 		chapter_num = 9,
 		desc = "수리 아이템 대량 획득",
 		tips_icon = {

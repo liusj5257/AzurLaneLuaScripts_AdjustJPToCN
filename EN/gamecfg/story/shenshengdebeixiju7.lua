@@ -1,14 +1,14 @@
 return {
-	id = "SHENSHENGDEBEIXIJU7",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU7",
+	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-italy",
 			say = "Nighttime",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,12 +19,12 @@ return {
 			}
 		},
 		{
-			actor = 203070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "What?! What is the meaning of this?!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 203070,
+			nameColor = "#a9f548",
+			say = "What?! What is the meaning of this?!",
 			flashN = {
 				color = {
 					1,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Fleet after fleet of mass-produced Sardegnian ships appeared out of thin air, completely surrounding the Royal fleet.",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			actor = 900197,
 			side = 2,
 			expression = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "Sorry about this. We're just following orders~♪",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -234,8 +234,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 1,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "What...?",
 			typewriter = {
 				speed = 0.05,
@@ -292,12 +292,12 @@ return {
 			}
 		},
 		{
-			actor = 203070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "Cannons of Bethlehem, I call upon you! Fireeeeeeeeee!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 203070,
+			nameColor = "#a9f548",
+			say = "Cannons of Bethlehem, I call upon you! Fireeeeeeeeee!",
 			flashN = {
 				color = {
 					1,
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The shell launched into the night sky and burst, casting a light that spanned tens of miles as if turning night into day.",
 			typewriter = {
 				speed = 0.05,
@@ -361,8 +361,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 1,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "What...?! They prepared signal rounds ahead of time?!",
 			typewriter = {
 				speed = 0.05,
@@ -404,14 +404,14 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "Achoo...!!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -439,8 +439,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "The signal flare has been fired... They should have been wiser than this...",
 			typewriter = {
@@ -471,8 +471,8 @@ return {
 			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Warspite",
 			dir = 1,
+			actorName = "Warspite",
 			say = "Of course, we'll take action as planned. Illustrious, prepare to launch your aircraft.",
 			typewriter = {
 				speed = 0.05,
@@ -486,13 +486,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "Carabiniere, hurry back and tell our main forces that we've been compromised...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -517,8 +517,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {

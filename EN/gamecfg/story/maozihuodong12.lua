@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102140,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bgm-cccp3",
 			dir = 1,
 			say = "Son of a... Now we've also gotta keep an eye out for that new weapon they have.",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "Doesn't seem to affect my planes, at least. Anyone else reckon the Sirens use this place as a testing ground for their new technology?",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "If they keep hitting us with that weapon, we'll be in deep trouble. In that case...",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Now what...",
 			typewriter = {
 				speed = 0.05,
@@ -112,10 +112,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 107030,
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "Roger! Give 'em hell, bombers!",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 			actor = 105140,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-masazhusai",
 			dir = 1,
 			say = "Let me handle it, Commander! My fire control just came back online!",
+			bgm = "story-masazhusai",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,10 +173,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "South Dakota's volleys land a direct hit on the Siren wielding the strange new weapon while also tearing the enemy line to shreds. Fire and smoke envelop the waters where the Sirens stood.",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "Wha... What the hell?!",
 			typewriter = {
 				speed = 0.05,
@@ -258,12 +258,12 @@ return {
 			}
 		},
 		{
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			soundeffect = "event:/battle/boom2",
 			stopbgm = true,
-			side = 2,
 			say = "The ship is rocking! What's going on?!",
-			dir = 1,
-			blackBg = true,
-			soundeffect = "event:/battle/boom2",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "\"Urgh! *cough*! Crazy Sirens... Now you've really gone and done it!\"",
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			soundeffect = "event:/battle/boom2",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "\"You leave me no choice! Sorry for this, but it's gotta be done!\"",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "All of a sudden, I feel my consciousness begin to fade.",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Rapidly... until everything goes black...",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "...",
 			typewriter = {

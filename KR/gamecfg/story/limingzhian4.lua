@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "노스 유니온·???",
 			side = 2,
 			bgName = "bg_story_italy",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bsm-6",
+			say = "노스 유니온·???",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -40,9 +40,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "어디에 소속된지 모를, 장소 불명의 어두운 방에서 소비에츠키 소유즈가 주의 깊게 작전 보고서를 읽고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "이거 참, 의외의 수확이네요...",
 			typewriter = {
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "어딘가에 놓여 있는지 모를 통신기에서 변조된 목소리가 들려왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "그녀들은 지금 어떤 상태인가요?",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "… 당신들의 '성의'는 잘 받았어요.",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "수송 항로의 장기적인 피해와 국경의 침범.",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -288,8 +288,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "계속 버틴다고 해도 결국 지는 건 당신들이었어요.",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "당신도 알다시피 메탈 블러드에겐 미래가 없어요.",
 			typewriter = {
@@ -319,8 +319,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -338,8 +338,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "칭찬으로 받아들이세요. 비스마르크는 정말 존경할 만한 지도자라고 생각하니까.",
 			typewriter = {
@@ -369,8 +369,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_italy",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -402,9 +402,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "통신이 끊어져도 소비에츠키 소유즈는 아무런 반응을 보이지 않았다.",
 			typewriter = {
 				speed = 0.05,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "다년간의 회한, 기다림과 희망이 지금, 이 순간 한꺼번에 밀려오는 것 같았다.",
 			typewriter = {
 				speed = 0.05,
@@ -430,9 +430,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "그녀는 마치 고요한 공간에서 무언가를 듣고, 응시하고, 생각에 잠겨있는 것 같기도 했다.",
 			typewriter = {
 				speed = 0.05,
@@ -444,9 +444,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_italy",
+			dir = 1,
 			say = "마침내 화면 하나를 켜자 귓가에 전용 회선의 독특한 알림음이 들려왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -461,8 +461,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "…'잡음' 사건에 대한 정보 분석과 최근 작전으로 얻은 정보론…",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "…이미 확실한 좌표를 얻었으니 이전에 실패를 만회할 기회일지도 모르겠습니다.",
 			typewriter = {
@@ -511,9 +511,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 900218,
 			dir = 1,
 			blackBg = true,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "——최고연합회장단, 구조대를 즉각 구성해 구출 행동에 나서길 바라겠습니다!",
 			typewriter = {

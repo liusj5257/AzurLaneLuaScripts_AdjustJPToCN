@@ -106,12 +106,12 @@ slot0.game_round = {
 	{
 		map = 8,
 		round_enemy = 8,
-		amulet_life = 8,
-		enemy_buff = 8,
-		id = 8,
 		type_index = 1,
-		speed = 60,
 		round_bound = 8,
+		speed = 60,
+		enemy_buff = 8,
+		amulet_life = 8,
+		id = 8,
 		type = slot0.round_type_wuxian
 	},
 	{
@@ -258,8 +258,8 @@ slot0.enemy_create_rule = {
 	{
 		id = 1,
 		enemy_create = {
-			count = 1,
 			single = false,
+			count = 1,
 			enemys = {
 				1,
 				2,
@@ -272,8 +272,8 @@ slot0.enemy_create_rule = {
 	{
 		id = 2,
 		enemy_create = {
-			count = 2,
 			single = false,
+			count = 2,
 			enemys = {
 				1,
 				2,
@@ -286,8 +286,8 @@ slot0.enemy_create_rule = {
 	{
 		id = 3,
 		enemy_create = {
-			count = 3,
 			single = false,
+			count = 3,
 			enemys = {
 				1,
 				2,
@@ -300,8 +300,8 @@ slot0.enemy_create_rule = {
 	{
 		id = 4,
 		enemy_create = {
-			count = 4,
 			single = false,
+			count = 4,
 			enemys = {
 				1,
 				2,
@@ -314,8 +314,8 @@ slot0.enemy_create_rule = {
 	{
 		id = 5,
 		enemy_create = {
-			count = 5,
 			single = false,
+			count = 5,
 			enemys = {
 				1,
 				2,
@@ -328,8 +328,8 @@ slot0.enemy_create_rule = {
 	[11] = {
 		id = 11,
 		enemy_create = {
-			count = 1,
 			single = false,
+			count = 1,
 			enemys = {
 				1,
 				2,
@@ -344,8 +344,8 @@ slot0.enemy_create_rule = {
 	[12] = {
 		id = 12,
 		enemy_create = {
-			count = 2,
 			single = false,
+			count = 2,
 			enemys = {
 				1,
 				2,
@@ -360,8 +360,8 @@ slot0.enemy_create_rule = {
 	[13] = {
 		id = 13,
 		enemy_create = {
-			count = 3,
 			single = false,
+			count = 3,
 			enemys = {
 				1,
 				2,
@@ -376,8 +376,8 @@ slot0.enemy_create_rule = {
 	[14] = {
 		id = 14,
 		enemy_create = {
-			count = 4,
 			single = false,
+			count = 4,
 			enemys = {
 				1,
 				2,
@@ -392,8 +392,8 @@ slot0.enemy_create_rule = {
 	[15] = {
 		id = 15,
 		enemy_create = {
-			count = 4,
 			single = false,
+			count = 4,
 			enemys = {
 				1,
 				2,
@@ -408,8 +408,8 @@ slot0.enemy_create_rule = {
 	[16] = {
 		id = 16,
 		enemy_create = {
-			count = 2,
 			single = true,
+			count = 2,
 			enemys = {
 				1,
 				2,
@@ -422,8 +422,8 @@ slot0.enemy_create_rule = {
 	[17] = {
 		id = 17,
 		enemy_create = {
-			count = 3,
 			single = true,
+			count = 3,
 			enemys = {
 				1,
 				2,
@@ -436,8 +436,8 @@ slot0.enemy_create_rule = {
 	[18] = {
 		id = 18,
 		enemy_create = {
-			count = 4,
 			single = true,
+			count = 4,
 			enemys = {
 				1,
 				2,
@@ -450,8 +450,8 @@ slot0.enemy_create_rule = {
 	[19] = {
 		id = 19,
 		enemy_create = {
-			count = 5,
 			single = true,
+			count = 5,
 			enemys = {
 				1,
 				2,
@@ -464,8 +464,8 @@ slot0.enemy_create_rule = {
 	[20] = {
 		id = 20,
 		enemy_create = {
-			count = 6,
 			single = true,
+			count = 6,
 			enemys = {
 				1,
 				2,
@@ -478,8 +478,8 @@ slot0.enemy_create_rule = {
 	[21] = {
 		id = 21,
 		enemy_create = {
-			count = 2,
 			single = true,
+			count = 2,
 			enemys = {
 				1,
 				2,
@@ -494,8 +494,8 @@ slot0.enemy_create_rule = {
 	[22] = {
 		id = 22,
 		enemy_create = {
-			count = 3,
 			single = true,
+			count = 3,
 			enemys = {
 				1,
 				2,
@@ -510,8 +510,8 @@ slot0.enemy_create_rule = {
 	[23] = {
 		id = 23,
 		enemy_create = {
-			count = 4,
 			single = true,
+			count = 4,
 			enemys = {
 				1,
 				2,
@@ -866,50 +866,50 @@ slot0.map_data = {
 	{
 		map = "BG_01",
 		id = 1,
-		line = "round_1",
-		bgm = "battle-longgong"
+		bgm = "battle-longgong",
+		line = "round_1"
 	},
 	{
 		map = "BG_01a",
 		id = 2,
-		line = "round_2",
-		bgm = "battle-longgong"
+		bgm = "battle-longgong",
+		line = "round_2"
 	},
 	{
 		map = "BG_03",
 		id = 3,
-		line = "round_3",
-		bgm = "musashi-1"
+		bgm = "musashi-1",
+		line = "round_3"
 	},
 	{
 		map = "BG_02",
 		id = 4,
-		line = "round_4",
-		bgm = "xinnong-1"
+		bgm = "xinnong-1",
+		line = "round_4"
 	},
 	{
 		map = "BG_01b",
 		id = 5,
-		line = "round_5",
-		bgm = "battle-longgong"
+		bgm = "battle-longgong",
+		line = "round_5"
 	},
 	{
 		map = "BG_02",
 		id = 6,
-		line = "round_6",
-		bgm = "xinnong-1"
+		bgm = "xinnong-1",
+		line = "round_6"
 	},
 	{
 		map = "BG_03",
 		id = 7,
-		line = "round_7",
-		bgm = "musashi-1"
+		bgm = "musashi-1",
+		line = "round_7"
 	},
 	{
 		map = "BG_02b",
 		id = 8,
-		line = "round_8",
-		bgm = "xinnong-1"
+		bgm = "xinnong-1",
+		line = "round_8"
 	}
 }
 slot0.enemy_round_bound = {
@@ -949,8 +949,8 @@ slot0.enemy_buff_data = {
 		tpl = "04_Concentrate"
 	},
 	[slot0.enemy_buff_streng] = {
-		name = "streng",
-		tpl = "05_Streng"
+		tpl = "05_Streng",
+		name = "streng"
 	}
 }
 slot0.enemy_round_buff = {

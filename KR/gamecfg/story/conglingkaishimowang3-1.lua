@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
-			say = "눈부신 빛이 사라지자 눈앞에 울창한 숲이 펼쳐졌다.",
 			bgm = "theme-camelot",
+			say = "눈부신 빛이 사라지자 눈앞에 울창한 숲이 펼쳐졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "손발도 가상공간이라고는 믿겨지지 않을만큼 자유롭게 움직일 수 있었다.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "근처의 나무에 손을 대자, 조금 축축하고도 서늘한 감촉이 손을 통해 전해져 왔다.",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "멀리서는 새들의 지저귀는 소리가 들려왔다. 숨을 쉬니 식물의 상쾌한 내음과 흙냄새가 섞인 공기가 코로 들어온다.",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			recallOption = true,
 			say = "――…………",
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "갑작스러운 상황 변화에 혼란을 느끼며, 더듬더듬 시스템 패널을 불러왔다.",
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "패널의 최하단부에 떡하니 '모험 종료'라고 적혀있는 버튼이 보였다.",
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "――좋아, 언제든지 원하면 자유롭게 탈출할 수 있겠어!",
@@ -164,8 +164,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "오감을 완벽히 재현한 이 시스템이라면, 통각까지 구현했을 가능성도 부정할 수 없다.",
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "조금 두근거림을 느끼며 눈앞에 있는 나무를 향해 힘껏 주먹을 날렸다.",
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "―――!",
@@ -263,29 +263,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			factiontag = "지휘관",
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "지휘관",
+			bgm = "ryza-az-battle",
+			actor = 0,
 			nameColor = "#A9F548FF",
 			say = "――…직업은 지휘관, 레벨 1.",
-			bgm = "ryza-az-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "눈을 비비고 다시 봐도 능력치는 마찬가지였다.",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "그때, 숲속에서 웅성이는 소리와 북소리가 들려왔다.",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "머릿속…이 아니라 모험 패널에 정보가 표시되었다.",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모험 패널",
+			side = 2,
 			bgName = "star_level_bg_520",
 			nameColor = "#A9F548FF",
 			say = "\"끝없는 수해에는 셀 수 없을 정도로 많은 만쥬 슬라임이 서식하고 있다.\"",
@@ -474,8 +474,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모험 패널",
+			side = 2,
 			bgName = "star_level_bg_520",
 			nameColor = "#A9F548FF",
 			say = "\"그리고 지금 들리는 북소리는 킹 만쥬 슬라임이 이끄는 슬라임 순찰부대가 내는 소리다.\"",
@@ -591,8 +591,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "눈에 닿는 돌 중 가장 큰 것을 집어, 멀리 보이는 킹 만쥬 슬라임에게 전력을 다해 던졌다.",
@@ -602,8 +602,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "―――!",
@@ -618,8 +618,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "킹 만쥬 슬라임의 HP가 조금 감소했다!",
@@ -637,8 +637,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "킹 만쥬 슬라임이 분노하며, 이쪽을 향해 몸을 부풀리고 돌진해온다!",
@@ -682,8 +682,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "빠직. 달리다가 나도 모르게 떨어진 나뭇가지를 밟고 말았다.",
@@ -719,8 +719,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "멀리 있던 킹 만쥬 슬라임이 내 존재를 눈치채고, 빠른 속도로 돌진해온다.",
@@ -774,8 +774,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "――――!!!",
 			typewriter = {
@@ -817,17 +817,17 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -835,11 +835,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_520",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "마물 녀석! 너희 적은 바로 이 용사 푸슌 님이시다!",
@@ -853,8 +853,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -882,8 +882,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

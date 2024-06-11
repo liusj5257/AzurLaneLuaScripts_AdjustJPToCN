@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"裏表魅力MAXガール！\n\n<size=45>七　最強の盾</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "演習海域",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "あ、あまり、耳……いえ、角を触らないでくださいってば！",
 			typewriter = {
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -77,9 +77,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "事務仕事が終わって、まだ駿河に余力があるようならと、量産艦で演習の“練習”に全力で付き合っている。",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "まぁどうせ大したことない……っ！？",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,9 +134,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "駿河は驚いてくれたようだ。これは一夜漬けと見よう見まねで実践する、紀伊流の戦闘法！",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（私のために……紀伊との模擬戦を……！）",
 			typewriter = {
@@ -165,9 +165,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "駿河は渋々、こちらへ付いて来ている……ように見える。",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "こんなことをして、私が喜ぶとでも思っているんですか？",
 			typewriter = {
@@ -196,9 +196,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "（口では毎度、そういうツンな態度をとる彼女だが……）",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（ヤバい。正直、めっちゃ嬉しいわ……）",
 			typewriter = {
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "駿河の心の声が、聴こえるようになってきた。",
 			typewriter = {
 				speed = 0.05,
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "自分が成し遂げたいのは、彼女が自身を、本当の意味で偽らなくて済むようにすること。",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "た、タヌキ姿のほうが好みだってこと！？変わってない！？",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -282,9 +282,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "…容姿の事は、ともかくとして。",
 			typewriter = {
 				speed = 0.05,
@@ -296,9 +296,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "さすがにこのまま、紀伊に負けっぱなしの駿河は見たくないから。",
 			typewriter = {
 				speed = 0.05,
@@ -313,8 +313,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
 			say = "お、やってるやってる！楽しそうに演習してますな♪",
 			typewriter = {
@@ -330,8 +330,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "あっ……島風！？どうして…",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
 			say = "え？いやぁ、任務の帰りに通りかかっただけですよ。ね、指揮官殿！",
 			typewriter = {
@@ -364,8 +364,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（なに…まさか指揮官と島風でつるんで…？）",
 			typewriter = {
@@ -404,9 +404,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "（当然のことだろう。何故なら彼女は、自分にとって大切な――）",
 			typewriter = {
 				speed = 0.05,
@@ -421,8 +421,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "ああッ！！もう、恥ずかしいこと考えてるでしょ、いま！！",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -445,9 +445,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "きっと、耳まで真っ赤になっているであろう彼女の砲撃にさらされながら、",
 			typewriter = {
 				speed = 0.05,
@@ -459,9 +459,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "これまでと違って好転した関係が、きっと続いていく。",
 			typewriter = {
 				speed = 0.05,
@@ -476,8 +476,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "や、やらせるかーーっ！！",
 			typewriter = {
@@ -493,9 +493,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
 			blackBg = true,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "早く演習訓練の再開よ！！ぶっ飛ばしてやるァーー！！",
 			typewriter = {

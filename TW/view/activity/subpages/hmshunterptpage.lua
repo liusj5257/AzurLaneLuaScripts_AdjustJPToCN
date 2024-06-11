@@ -1,6 +1,6 @@
 slot0 = class("HMSHunterPTPage", import(".TemplatePage.PtTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.helpBtn = slot0:findTF("help", slot0.bg)

@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_MOTMC",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_MOTMC"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_MOTMC",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_MOTMC"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_MOTMC",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_MOTMC"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_MOTMC",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_MOTMC"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_MOTMC",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_MOTMC"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_MOTMC",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_MOTMC"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_MOTMC",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_MOTMC"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_MOTMC",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_MOTMC"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_MOTMC",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_MOTMC"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_MOTMC",
-					number = 0.15
+					number = 0.15,
+					attr = "DMG_TAG_EHC_MOTMC"
 				}
 			}
 		}
@@ -142,12 +142,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 17165,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17165,
+	color = "red",
 	icon = 17160,
 	last_effect = "",
 	blink = {
@@ -164,8 +164,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_MOTMC",
-				number = 0.15
+				number = 0.15,
+				attr = "DMG_TAG_EHC_MOTMC"
 			}
 		}
 	}

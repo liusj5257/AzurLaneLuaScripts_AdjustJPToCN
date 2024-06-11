@@ -1,22 +1,22 @@
 slot0 = class("SummerFeastNavigationAgent", require("view.main.NavalAcademyStudent"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.onTransEdge = nil
 
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 end
 
 slot0.normalSpeed = 150
 slot0.normalScale = 0.5
 
-function slot0.SetOnTransEdge(slot0, slot1)
+slot0.SetOnTransEdge = function(slot0, slot1)
 	slot0.onTransEdge = slot1
 end
 
-function slot0.setCurrentIndex(slot0, slot1)
+slot0.setCurrentIndex = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -24,11 +24,11 @@ function slot0.setCurrentIndex(slot0, slot1)
 	slot0.currentPoint = slot0.pathFinder:getPoint(slot1)
 end
 
-function slot0.SetPositionTable(slot0, slot1)
+slot0.SetPositionTable = function(slot0, slot1)
 	slot0.posTable = slot1
 end
 
-function slot0.updateStudent(slot0, slot1)
+slot0.updateStudent = function(slot0, slot1)
 	if slot1 == nil or slot1 == "" then
 		setActive(slot0._go, false)
 
@@ -76,7 +76,7 @@ function slot0.updateStudent(slot0, slot1)
 	slot0.prefabName = slot1
 end
 
-function slot0.updateLogic(slot0)
+slot0.updateLogic = function(slot0)
 	slot0:clearLogic()
 
 	if slot0.state == uv0.ShipState.Walk then
@@ -148,7 +148,7 @@ function slot0.updateLogic(slot0)
 	end
 end
 
-function slot0.GetBeziersPoints(slot0, slot1, slot2, slot3)
+slot0.GetBeziersPoints = function(slot0, slot1, slot2, slot3)
 	return slot0:Clone():Mul((1 - slot3) * (1 - slot3)):Add(slot2:Clone():Mul(2 * slot3 * (1 - slot3))):Add(slot1:Clone():Mul(slot3 * slot3))
 end
 

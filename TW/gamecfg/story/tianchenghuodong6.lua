@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 1,
+			dir = 1,
+			bgm = "battle-boss-tiancheng",
 			actor = 302140,
 			nameColor = "#ff0000",
-			dir = 1,
 			say = "不愧是{namecode:161}大人，我輸了。",
-			bgm = "battle-boss-tiancheng",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 3,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 302140,
 			dir = 1,
+			actor = 302140,
 			say = "{namecode:161}大人也認識我的兩個姐姐嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "{namecode:39}有成為領導者的潛質。而{namecode:38}身上有著和{namecode:92}類似的影子……現在看來，妳這個小妹也不差呢~",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 302140,
 			dir = 1,
+			actor = 302140,
 			say = "欸，您是說，{namecode:91}大人嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "是啊。{namecode:91}這丫頭，對她似乎稍微有些嬌慣過頭了呢…",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			expression = 2,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 302140,
 			dir = 1,
+			actor = 302140,
 			say = "是嗎，我覺得{namecode:91}大人的實力也很強啊…?",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "即使有足夠的實力，如果沒有駕馭這份實力的心性的話……若是一帆風順還好，若是遇到挫折，那就……",
 			typewriter = {
 				speed = 0.05,
@@ -197,9 +197,9 @@ return {
 		{
 			expression = 3,
 			side = 0,
+			dir = -1,
 			actor = 304050,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "咳…咳咳……",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -223,9 +223,9 @@ return {
 		{
 			actor = 304050,
 			nameColor = "#a9f548",
+			dir = -1,
 			withoutActorName = true,
 			side = 0,
-			dir = -1,
 			say = "{namecode:161}突然劇烈的咳嗽了起來。",
 			typewriter = {
 				speed = 0.05,
@@ -239,9 +239,9 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			dir = 1,
 			actor = 302140,
 			nameColor = "#ff0000",
-			dir = 1,
 			say = "啊啊，{namecode:161}大人妳沒事吧！",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,8 +266,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "沒事沒事，只是籌備作戰身體虛弱了一點而已，呵呵~",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "讓妳看到這副狼狽的樣子真是不好意思。",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "快點回去港區吧，畢竟妳可是已經被我“擊沉”了的目標呢，呵呵呵~",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			expression = 1,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 302140,
 			dir = 1,
+			actor = 302140,
 			say = "好..好的！{namecode:161}大人，請一定要保重！",
 			typewriter = {
 				speed = 0.05,
@@ -330,8 +330,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "嗯…",
 			typewriter = {
 				speed = 0.05,
@@ -345,10 +345,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "（小聲）因為有我在嗎？…啊…嗯，也許確實是這樣的吧。",
 			typewriter = {
 				speed = 0.05,
@@ -362,10 +362,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "然而我究竟還能陪在妳身邊多久呢？…我的妹妹",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 306060,
 			nameColor = "#a9f548",
 			side = 1,
-			bgm = "battle-boss-2",
 			dir = 1,
 			say = "くっ…ここまでか…………",
+			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			say = "でもこれで皆の役に立てたはず………",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.3,
 					dur = 1,
 					x = 2250
@@ -63,14 +63,14 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#a9f548",
 			say = "勝った……？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -159,14 +159,14 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "龍驤ちゃん、負けたわね……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -240,12 +240,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
-			nameColor = "#a9f548",
-			say = "翔鶴姉待って！神通の二水戦から接敵したとの連絡が届いた！",
 			dir = 1,
 			bgm = "battle-boss-2",
+			actor = 307060,
+			nameColor = "#a9f548",
+			say = "翔鶴姉待って！神通の二水戦から接敵したとの連絡が届いた！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

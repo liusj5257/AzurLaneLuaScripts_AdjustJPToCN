@@ -1,6 +1,6 @@
 slot0 = class("MainNotificationWindowSequence")
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	slot4 = {}
 
 	if #getProxy(PlayerProxy):getData().buildShipNotification > 0 then

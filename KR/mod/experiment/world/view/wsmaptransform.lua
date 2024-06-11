@@ -1,16 +1,16 @@
 slot0 = class("WSMapTransform", import(".WSMapObject"))
 slot0.Fields = {
-	transform = "userdata",
+	modelOrder = "number",
 	isMoving = "boolean",
-	modelOrder = "number"
+	transform = "userdata"
 }
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:ClearModelOrder()
 	slot0:Clear()
 end
 
-function slot0.SetModelOrder(slot0, slot1, slot2)
+slot0.SetModelOrder = function(slot0, slot1, slot2)
 	assert(slot0.transform)
 
 	if not GetComponent(slot0.transform, typeof(Canvas)) then
@@ -30,7 +30,7 @@ function slot0.SetModelOrder(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ClearModelOrder(slot0)
+slot0.ClearModelOrder = function(slot0)
 	assert(slot0.transform)
 	slot0:UnloadModel()
 
@@ -41,7 +41,7 @@ function slot0.ClearModelOrder(slot0)
 	end
 end
 
-function slot0.LoadModel(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.LoadModel = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	uv0.super.LoadModel(slot0, slot1, slot2, slot3, slot4, function ()
 		if uv0.modelOrder then
 			WorldConst.ArrayEffectOrder(uv0.model, uv0.modelOrder)
@@ -51,7 +51,7 @@ function slot0.LoadModel(slot0, slot1, slot2, slot3, slot4, slot5)
 	end)
 end
 
-function slot0.UnloadModel(slot0)
+slot0.UnloadModel = function(slot0)
 	if slot0.modelOrder and slot0.model then
 		WorldConst.ArrayEffectOrder(slot0.model, -slot0.modelOrder)
 	end

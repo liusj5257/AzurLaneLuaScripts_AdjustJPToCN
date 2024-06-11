@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUEFENG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUEFENG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"나는 {namecode:22}님이다!\n\n<size=45>7 평소와 같은? {namecode:22}님</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "그 후 어느 날, 항구",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "그 후 어느 날, 항구",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "아~하하하! 비서함 {namecode:22}님이 보고를 하러 왔다!",
 			typewriter = {
@@ -45,14 +45,14 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					number = 3
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "흥! {namecode:22}님이 없으면 일이 안되지?",
 			typewriter = {
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "흥! 드디어 지휘관이 이 {namecode:22}님이 얼마나 유능한 인재인지 안 것 같네!",
 			typewriter = {
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "지휘관이라는 통찰력와 순발력이 필요한 일은 이 {namecode:22}님이 조금 더 분발해 주겠어!",
 			typewriter = {
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "자, 좀 더 이 {namecode:22}님을 칭찬해 봐!",
 			typewriter = {
@@ -143,11 +143,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "에헤헷...꼼지락...",
 			typewriter = {
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 22.5,
@@ -170,9 +170,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -180,16 +180,16 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actorName = "{namecode:143}",
 			dir = -1,
+			actorName = "{namecode:143}",
+			actor = 301600,
 			nameColor = "#92fc63",
 			say = "{namecode:142}! 지휘관님이 {namecode:143}도 머리 쓰다듬어 주시면 좋겠다!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -214,13 +214,13 @@ return {
 			}
 		},
 		{
-			actor = 301590,
+			say = "나도...아! 분위기 파악해야지! 지금 {namecode:22}는 비서함이니까!",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#92fc63",
 			dir = -1,
+			actor = 301590,
 			actorName = "{namecode:142}",
-			say = "나도...아! 분위기 파악해야지! 지금 {namecode:22}는 비서함이니까!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 301610,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 0,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301610,
 			actorName = "{namecode:128}",
 			say = "와, 완전 침몰했어...",
 			typewriter = {
@@ -252,11 +252,11 @@ return {
 			}
 		},
 		{
-			actor = 301620,
 			nameColor = "#92fc63",
-			bgName = "bg_story_outdoor",
 			side = 1,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301620,
 			actorName = "{namecode:127}",
 			say = "{namecode:22}...다행이야...",
 			typewriter = {
@@ -269,9 +269,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -279,17 +279,17 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actorName = "{namecode:22}",
 			dir = 1,
 			blackBg = true,
+			actorName = "{namecode:22}",
+			actor = 301160,
 			nameColor = "#92fc63",
 			say = "지휘관~더 쓰다듬어도 된다구~♪",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.5,
 					x = 37.5,

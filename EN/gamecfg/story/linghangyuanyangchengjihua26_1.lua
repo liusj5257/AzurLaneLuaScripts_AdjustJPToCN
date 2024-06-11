@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-32-11",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg20",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-10",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-32-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's really hot...",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
 			say = "She pulls on the towel covering her chest in a vain attempt to vent some steam and cool herself down.",
@@ -75,14 +75,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg20",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "You must really like hot springs.",
 			voice = "event:/educate/tb/educate-tb-story-32-12",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "You must really like hot springs.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,14 +105,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg20",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Alright... I'll bear with it for now, then.",
 			voice = "event:/educate/tb/educate-tb-story-32-13",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Alright... I'll bear with it for now, then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,14 +159,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg20",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Okay.",
 			voice = "event:/educate/tb/educate-tb-story-32-14",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Okay.",
 			painting = {
 				alpha = 0.3,
 				time = 1

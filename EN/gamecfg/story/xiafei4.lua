@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Date with an Angel\n\n<size=45>4 The Truth of the \"Promise\"</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "After using up the remainder of the tokens, Joffre shuffled over and sat down next to me on the bench.",
 			bgm = "story-richang-6",
+			say = "After using up the remainder of the tokens, Joffre shuffled over and sat down next to me on the bench.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "As if unable to accept her inability to pass her 'trial,' she hides her face behind the me-shaped plushie in her arms.",
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A game... of luck?",
 			painting = {
 				alpha = 0.3,
@@ -169,10 +169,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If you hadn't stepped in to help me at the end, I would've left empty-handed.",
 			painting = {
 				alpha = 0.3,
@@ -187,10 +187,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*sigh*... Plus, there's no need to try to console me by saying that it's luck. I'm sure that this is heaven's way of reprimanding me...",
 			painting = {
 				alpha = 0.3,
@@ -217,10 +217,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes, for lying to you.",
 			painting = {
 				alpha = 0.3,
@@ -232,12 +232,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In actuality, you never made any sort of promise to me last night.",
 			painting = {
 				alpha = 0.3,
@@ -252,10 +252,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The reason I went to your office this morning was just to check if you were there, so I could ask directly if I could spend some time with you...",
 			painting = {
 				alpha = 0.3,
@@ -267,12 +267,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But when I saw you groggy and half-asleep, I couldn't help but want to play a prank on you.",
 			painting = {
 				alpha = 0.3,
@@ -287,10 +287,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "To be honest, the look on your face at the time was quite endearing. Heehee.",
 			painting = {
 				alpha = 0.3,
@@ -341,10 +341,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "My apologies. I had to come clean sooner or later.",
 			painting = {
 				alpha = 0.3,
@@ -359,10 +359,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Though I am supposed to be a judge of sins, I ended up being a sinner myself.",
 			painting = {
 				alpha = 0.3,
@@ -401,10 +401,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But, I originally wanted to go on a date with you... What kind of redemption would continuing that be?",
 			painting = {
 				alpha = 0.3,
@@ -443,10 +443,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...There does seem to be some merit in what you said.",
 			painting = {
 				alpha = 0.3,
@@ -461,10 +461,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Very well then. I shall atone for my sins by doing my utmost for our date.",
 			painting = {
 				alpha = 0.3,
@@ -476,8 +476,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "The angel rises to her feet and walks towards me with her hand outstretched.",
@@ -502,10 +502,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Of course. Since this is a date of redemption... It is only natural that we start by holding hands.",
 			painting = {
 				alpha = 0.3,
@@ -517,8 +517,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "I take Joffre's hands. Immediately, her footsteps seem lighter than before as we head out from the shopping mall.",

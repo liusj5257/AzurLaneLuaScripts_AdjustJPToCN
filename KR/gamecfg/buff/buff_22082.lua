@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行10次攻击，触发全弹发射-{namecode:124}级II"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 22082,
 	picture = "",
 	desc = "主炮每进行10次攻击，触发全弹发射-{namecode:124}级II",
 	stack = 1,
-	id = 22082,
+	color = "red",
 	icon = 20000,
 	last_effect = "",
 	effect_list = {
@@ -19,9 +19,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countType = 22080,
-				countTarget = 10,
 				gunnerBonus = true,
+				countTarget = 10,
+				countType = 22080,
 				index = {
 					1
 				}
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 22082,
+				target = "TargetSelf",
 				countType = 22080
 			}
 		}

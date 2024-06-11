@@ -29,9 +29,9 @@ return {
 	{
 		stack = 10
 	},
-	time = 0,
 	name = "确捷1",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "受到航空伤害降低",
 	stack = 5,
@@ -53,8 +53,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.01
+				number = -0.01,
+				attr = "injureRatioByAir"
 			}
 		}
 	}

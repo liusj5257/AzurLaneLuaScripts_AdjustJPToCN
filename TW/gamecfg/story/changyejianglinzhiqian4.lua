@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHANGYEJIANGLINZHIQIAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHANGYEJIANGLINZHIQIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -31,26 +31,26 @@ return {
 			}
 		},
 		{
-			bgm = "story-roma-outside",
+			hidePaintEquip = true,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			bgmDelay = 1,
+			bgm = "story-roma-outside",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "休息室中，福熙正拿著拖把來回奔波著。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "坐在窗邊的霞飛則捧著手中的書籍，似乎對周圍的忙碌視若無睹。",
 			hidePaintEquip = true,
+			say = "坐在窗邊的霞飛則捧著手中的書籍，似乎對周圍的忙碌視若無睹。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,14 +133,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我覺得這裡已經很乾淨了呢。",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "我覺得這裡已經很乾淨了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,14 +170,14 @@ return {
 			}
 		},
 		{
-			actor = 903010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……用不上是指？妳難道收到了什麼審判庭的內部消息麼？",
 			hidePaintEquip = true,
+			actor = 903010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……用不上是指？妳難道收到了什麼審判庭的內部消息麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,14 +188,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "那倒沒有。不過有些事散發出的氣息不太對。",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "那倒沒有。不過有些事散發出的氣息不太對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,14 +225,14 @@ return {
 			}
 		},
 		{
-			actor = 903010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 903010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我記得是……在薩丁帝國境內觀光旅遊。",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,14 +243,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_502",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 903010,
-			side = 2,
-			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "預定在閉幕式前一天，也就是後天抵達會場。",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,14 +261,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "嗯，但凱爾聖什麼時候會來呢？",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "嗯，但凱爾聖什麼時候會來呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,14 +355,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "凱爾聖是克里蒙梭大人的貼身情報官，從來不會單獨行動。",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "凱爾聖是克里蒙梭大人的貼身情報官，從來不會單獨行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,14 +373,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "除非……",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "除非……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,14 +410,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "上次她單獨行動，是在幾年前的土倫。",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "上次她單獨行動，是在幾年前的土倫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,14 +447,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "然後，讓·巴爾女士這幾天也被克里蒙梭大人調回土倫了吧。",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "然後，讓·巴爾女士這幾天也被克里蒙梭大人調回土倫了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,11 +468,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actor = 903010,
-			say = "確實有種不尋常的氣息呢……那我們要怎麼做？",
 			hidePaintEquip = true,
+			actor = 903010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "確實有種不尋常的氣息呢……那我們要怎麼做？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,14 +498,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "然後——",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "然後——",
 			painting = {
 				alpha = 0.3,
 				time = 1

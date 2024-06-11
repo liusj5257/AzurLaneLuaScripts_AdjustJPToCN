@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINSEDANGAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINSEDANGAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>アクセス権限確認中―――</size>",
@@ -35,10 +35,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_1100",
 			paintingNoise = true,
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "star_level_bg_1100",
 			bgm = "bsm-2",
 			actor = 107030,
 			nameColor = "#a9f548",
@@ -65,8 +65,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "「先行した艦船は信号の発信源へと急行し、状況の確認を行った」",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "「艦載機による偵察では、エリアの西側にセイレーンの残骸が多数確認されており――」",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "「重桜艦隊であることが確実だと判断した」",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "支援したくても距離が遠すぎるし、なによりレッドアクシズとの件もあった…",
 			typewriter = {
@@ -241,8 +241,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "「最も、重桜艦隊の損傷からすると、指揮ユニットが攻撃するまでもなく、量産艦や『駒』だけで勝敗を決することが可能だったと思われる」",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "だからサラトガちゃんが後続の艦隊に急行するよう指示して",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "あのセイレーン、結局何をしていたんだろう…",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "「特殊現象の記録について」",
 			typewriter = {
@@ -345,8 +345,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "「人型セイレーンを撃退したほか、衝撃波が届いた範囲内の量産艦をほぼ全部撃破した」",
 			typewriter = {
@@ -362,8 +362,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "「一方、加賀や蒼龍・飛龍はその衝撃波を受けても特に影響を受けたような様子は観測できなかった」",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "「空母たちの損傷度合いから察すると、既知の兵装からこのような攻撃を繰り出す可能性は低いと判断できる」",
 			typewriter = {
@@ -432,8 +432,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "（海の上にいつの間にか現れてたけど、多分艦船なのかな）",
 			typewriter = {
@@ -449,8 +449,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "………………",
 			typewriter = {
@@ -466,8 +466,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "一体誰だったのかな……",
 			typewriter = {
@@ -483,8 +483,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "記録ログ、エラー箇所を検知しました",
 			typewriter = {
@@ -500,9 +500,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
 			blackBg = true,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "再生、終了しました",
 			typewriter = {

@@ -1,10 +1,10 @@
 slot0 = class("FeastGiveGiftPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "FeastGiveGiftPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.mask = slot0:findTF("mask")
 	slot0.back = slot0:findTF("back")
 	slot0.charContainer = slot0:findTF("char")
@@ -18,13 +18,13 @@ function slot0.OnLoaded(slot0)
 	slot0.tipTr = slot0:findTF("dialogue/tip"):GetComponent(typeof(Text))
 end
 
-function slot0.BindEvents(slot0)
+slot0.BindEvents = function(slot0)
 	slot0.eventId = slot0:bind(FeastScene.ON_GOT_GIFT, function (slot0, slot1)
 		uv0:OnGotGift(slot1)
 	end)
 end
 
-function slot0.ClearBindEvents(slot0)
+slot0.ClearBindEvents = function(slot0)
 	if slot0.eventId then
 		slot0:disconnect(slot0.eventId)
 
@@ -32,7 +32,7 @@ function slot0.ClearBindEvents(slot0)
 	end
 end
 
-function slot0.OnGotGift(slot0, slot1)
+slot0.OnGotGift = function(slot0, slot1)
 	if slot0.feastShip then
 		slot0:BlockEvents()
 		setActive(slot0.effectTr, true)
@@ -59,7 +59,7 @@ function slot0.OnGotGift(slot0, slot1)
 	end
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	slot0:UnBlockEvents()
 	setActive(slot0.effectTr, false)
@@ -84,34 +84,34 @@ function slot0.Show(slot0, slot1)
 	end)
 end
 
-function slot0.SetTipContent(slot0)
+slot0.SetTipContent = function(slot0)
 	slot0.tipTr.text = i18n("feast_drag_gift_tip")
 end
 
-function slot0.CanInterAction(slot0)
+slot0.CanInterAction = function(slot0)
 	return not isActive(slot0.mask)
 end
 
-function slot0.BlockEvents(slot0)
+slot0.BlockEvents = function(slot0)
 	setActive(slot0.mask, true)
 end
 
-function slot0.UnBlockEvents(slot0)
+slot0.UnBlockEvents = function(slot0)
 	setActive(slot0.mask, false)
 	removeOnButton(slot0.mask)
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	onButton(slot0, slot0.back, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	return LuaHelper.ScreenToLocal(slot0:GetComponent("RectTransform"), slot1, pg.UIMgr.GetInstance().overlayCameraComp)
 end
 
-function slot0.LoadChar(slot0, slot1, slot2)
+slot0.LoadChar = function(slot0, slot1, slot2)
 	slot3 = slot1:GetPrefab()
 	slot4 = PoolMgr.GetInstance()
 
@@ -137,7 +137,7 @@ function slot0.LoadChar(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.LoadItem(slot0, slot1, slot2)
+slot0.LoadItem = function(slot0, slot1, slot2)
 	LoadSpriteAsync("FeastCharGift/" .. slot1:GetPrefab(), function (slot0)
 		slot1 = uv0.giftTr:GetComponent(typeof(Image))
 		slot1.sprite = slot0
@@ -147,11 +147,11 @@ function slot0.LoadItem(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.UpdateShipName(slot0, slot1)
+slot0.UpdateShipName = function(slot0, slot1)
 	slot0.nameTxt.text = slot1:GetShipName()
 end
 
-function slot0.UpdateGiftState(slot0, slot1, slot2)
+slot0.UpdateGiftState = function(slot0, slot1, slot2)
 	slot0:ClearGiftEvent()
 	parallelAsync({
 		function (slot0)
@@ -183,14 +183,14 @@ function slot0.UpdateGiftState(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.UpdateContent(slot0, slot1, slot2, slot3)
+slot0.UpdateContent = function(slot0, slot1, slot2, slot3)
 	slot0.typer:setSpeed(99999)
 
 	slot0.dialogueTxt.text = slot1
 
 	slot0.typer:setSpeed(slot2 / System.String.New(slot1).Length)
 
-	function slot0.typer.endFunc()
+	slot0.typer.endFunc = function()
 		if uv0 then
 			uv0()
 		end
@@ -199,7 +199,7 @@ function slot0.UpdateContent(slot0, slot1, slot2, slot3)
 	slot0.typer:Play()
 end
 
-function slot0.AddGiftEvent(slot0)
+slot0.AddGiftEvent = function(slot0)
 	slot2 = GetOrAddComponent(slot0.giftTr, typeof(EventTriggerListener))
 	slot3 = nil
 
@@ -220,7 +220,7 @@ function slot0.AddGiftEvent(slot0)
 	end)
 end
 
-function slot0.ClearGiftEvent(slot0)
+slot0.ClearGiftEvent = function(slot0)
 	slot2 = GetOrAddComponent(slot0.giftTr, typeof(EventTriggerListener))
 
 	slot2:AddBeginDragFunc(nil)
@@ -231,11 +231,11 @@ function slot0.ClearGiftEvent(slot0)
 	slot2:RemoveDragEndFunc()
 end
 
-function slot0.Send(slot0)
+slot0.Send = function(slot0)
 	slot0:emit(FeastMediator.GIVE_GIFT, slot0.feastShip.tid)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	slot0:ClearBindEvents()
 
@@ -249,7 +249,7 @@ function slot0.Hide(slot0)
 	slot0:ClearGiftEvent()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

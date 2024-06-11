@@ -1,14 +1,14 @@
 slot0 = class("IslandFlowerFieldLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "IslandFlowerFieldUI"
 end
 
-function slot0.setActivity(slot0, slot1)
+slot0.setActivity = function(slot0, slot1)
 	slot0.activity = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:BlurPanel(slot0._tf)
@@ -51,7 +51,7 @@ function slot0.init(slot0)
 	slot0.rtBtnGet = slot2:Find("btn_get")
 	slot4 = slot0._tf
 
-	function slot5()
+	slot5 = function()
 		uv0:closeView()
 	end
 
@@ -77,7 +77,7 @@ function slot0.init(slot0)
 	end
 end
 
-function slot0.refreshDisplay(slot0)
+slot0.refreshDisplay = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance()
 	slot2 = slot1:GetTimeToNextTime(math.max(slot0.activity.data1, slot0.activity.data2)) <= slot1:GetServerTime()
 
@@ -111,7 +111,7 @@ function slot0.refreshDisplay(slot0)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance()
 
 	if slot1:GetServerTime() - slot1:GetTimeToNextTime(math.max(slot0.activity.data1, slot0.activity.data2)) < 86400 then
@@ -125,7 +125,7 @@ end
 
 slot1 = 50
 
-function slot0.DoCharAction(slot0)
+slot0.DoCharAction = function(slot0)
 	if (slot0.posList[math.random(#slot0.posList)] - slot0.rtShip.anchoredPosition3D):SqrMagnitude() <= 0 then
 		return slot0:DoCharAction()
 	end
@@ -163,7 +163,7 @@ function slot0.DoCharAction(slot0)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 
 	if slot0.timer then

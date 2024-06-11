@@ -199,14 +199,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 13411,
+	time = 0,
 	picture = "",
 	desc = "调整开局预装填空袭的次数",
 	stack = 1,
-	id = 13411,
+	color = "blue",
 	icon = 13410,
 	last_effect = "",
 	blink = {

@@ -29,11 +29,11 @@ slot3.Deg = slot0.deg
 slot3.Rad = slot0.rad
 slot3.Random = slot0.random
 
-function slot3.Approximately(slot0, slot1)
+slot3.Approximately = function(slot0, slot1)
 	return uv0(slot1 - slot0) < uv1.max(1e-06 * uv1.max(uv0(slot0), uv0(slot1)), 1.121039e-44)
 end
 
-function slot3.Clamp(slot0, slot1, slot2)
+slot3.Clamp = function(slot0, slot1, slot2)
 	if slot0 < slot1 then
 		slot0 = slot1
 	elseif slot2 < slot0 then
@@ -43,7 +43,7 @@ function slot3.Clamp(slot0, slot1, slot2)
 	return slot0
 end
 
-function slot3.Clamp01(slot0)
+slot3.Clamp01 = function(slot0)
 	if slot0 < 0 then
 		return 0
 	elseif slot0 > 1 then
@@ -53,7 +53,7 @@ function slot3.Clamp01(slot0)
 	return slot0
 end
 
-function slot3.DeltaAngle(slot0, slot1)
+slot3.DeltaAngle = function(slot0, slot1)
 	if uv0.Repeat(slot1 - slot0, 360) > 180 then
 		slot2 = slot2 - 360
 	end
@@ -61,7 +61,7 @@ function slot3.DeltaAngle(slot0, slot1)
 	return slot2
 end
 
-function slot3.Gamma(slot0, slot1, slot2)
+slot3.Gamma = function(slot0, slot1, slot2)
 	slot3 = false
 
 	if slot0 < 0 then
@@ -77,7 +77,7 @@ function slot3.Gamma(slot0, slot1, slot2)
 	return not slot3 and slot5 or -slot5
 end
 
-function slot3.InverseLerp(slot0, slot1, slot2)
+slot3.InverseLerp = function(slot0, slot1, slot2)
 	if slot0 < slot1 then
 		if slot2 < slot0 then
 			return 0
@@ -105,11 +105,11 @@ function slot3.InverseLerp(slot0, slot1, slot2)
 	return 1 - (slot2 - slot1) / (slot0 - slot1)
 end
 
-function slot3.Lerp(slot0, slot1, slot2)
+slot3.Lerp = function(slot0, slot1, slot2)
 	return slot0 + (slot1 - slot0) * uv0.Clamp01(slot2)
 end
 
-function slot3.LerpAngle(slot0, slot1, slot2)
+slot3.LerpAngle = function(slot0, slot1, slot2)
 	if uv0.Repeat(slot1 - slot0, 360) > 180 then
 		slot3 = slot3 - 360
 	end
@@ -117,11 +117,11 @@ function slot3.LerpAngle(slot0, slot1, slot2)
 	return slot0 + slot3 * uv0.Clamp01(slot2)
 end
 
-function slot3.LerpUnclamped(slot0, slot1, slot2)
+slot3.LerpUnclamped = function(slot0, slot1, slot2)
 	return slot0 + (slot1 - slot0) * slot2
 end
 
-function slot3.MoveTowards(slot0, slot1, slot2)
+slot3.MoveTowards = function(slot0, slot1, slot2)
 	if uv0(slot1 - slot0) <= slot2 then
 		return slot1
 	end
@@ -129,27 +129,27 @@ function slot3.MoveTowards(slot0, slot1, slot2)
 	return slot0 + uv1.Sign(slot1 - slot0) * slot2
 end
 
-function slot3.MoveTowardsAngle(slot0, slot1, slot2)
+slot3.MoveTowardsAngle = function(slot0, slot1, slot2)
 	return uv0.MoveTowards(slot0, slot0 + uv0.DeltaAngle(slot0, slot1), slot2)
 end
 
-function slot3.PingPong(slot0, slot1)
+slot3.PingPong = function(slot0, slot1)
 	return slot1 - uv1(uv0.Repeat(slot0, slot1 * 2) - slot1)
 end
 
-function slot3.Repeat(slot0, slot1)
+slot3.Repeat = function(slot0, slot1)
 	return slot0 - uv0(slot0 / slot1) * slot1
 end
 
-function slot3.Round(slot0)
+slot3.Round = function(slot0)
 	return uv0(slot0 + 0.5)
 end
 
-function slot3.Sign(slot0)
+slot3.Sign = function(slot0)
 	return slot0 > 0 and 1 or slot0 < 0 and -1 or 0
 end
 
-function slot3.SmoothDamp(slot0, slot1, slot2, slot3, slot4, slot5)
+slot3.SmoothDamp = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot5 = slot5 or Time.deltaTime
 	slot3 = uv0.Max(0.0001, slot3)
 	slot6 = 2 / slot3
@@ -167,26 +167,26 @@ function slot3.SmoothDamp(slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot13, slot2
 end
 
-function slot3.SmoothDampAngle(slot0, slot1, slot2, slot3, slot4, slot5)
+slot3.SmoothDampAngle = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	return uv0.SmoothDamp(slot0, slot0 + uv0.DeltaAngle(slot0, slot1), slot2, slot3, slot4 or uv0.Infinity, slot5 or Time.deltaTime)
 end
 
-function slot3.SmoothStep(slot0, slot1, slot2)
+slot3.SmoothStep = function(slot0, slot1, slot2)
 	slot2 = uv0.Clamp01(slot2)
 	slot2 = -2 * slot2 * slot2 * slot2 + 3 * slot2 * slot2
 
 	return slot1 * slot2 + slot0 * (1 - slot2)
 end
 
-function slot3.HorizontalAngle(slot0)
+slot3.HorizontalAngle = function(slot0)
 	return uv0.deg(uv0.atan2(slot0.x, slot0.z))
 end
 
-function slot3.IsNan(slot0)
+slot3.IsNan = function(slot0)
 	return slot0 ~= slot0
 end
 
-function slot3.MultiRandom(slot0, slot1)
+slot3.MultiRandom = function(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
 
@@ -205,7 +205,7 @@ function slot3.MultiRandom(slot0, slot1)
 	return slot2
 end
 
-function slot3.RandomFloat(slot0, slot1, slot2)
+slot3.RandomFloat = function(slot0, slot1, slot2)
 	slot2 = slot2 or 10000
 
 	return uv0.random((slot1 or 0) * slot2, slot0 * slot2) / slot2

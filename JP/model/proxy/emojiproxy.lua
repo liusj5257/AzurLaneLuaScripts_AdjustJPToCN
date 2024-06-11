@@ -1,25 +1,25 @@
 slot0 = class("EmojiProxy", import(".NetProxy"))
 slot0.NEW_EMOJI_SAVE_TAG = "new_emoji_save_tag_"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0._initedTag = false
 	slot0._emojiIDList = {}
 	slot0._newIDList = {}
 end
 
-function slot0.getInitedTag(slot0)
+slot0.getInitedTag = function(slot0)
 	return slot0._initedTag
 end
 
-function slot0.setInitedTag(slot0)
+slot0.setInitedTag = function(slot0)
 	slot0._initedTag = true
 end
 
-function slot0.getNewEmojiIDLIst(slot0)
+slot0.getNewEmojiIDLIst = function(slot0)
 	return Clone(slot0._newIDList)
 end
 
-function slot0.addToEmojiIDLIst(slot0, slot1)
+slot0.addToEmojiIDLIst = function(slot0, slot1)
 	if table.indexof(slot0._emojiIDList, slot1, 1) then
 		return
 	end
@@ -27,7 +27,7 @@ function slot0.addToEmojiIDLIst(slot0, slot1)
 	table.insert(slot0._emojiIDList, slot1)
 end
 
-function slot0.saveNewEmojiIDList(slot0)
+slot0.saveNewEmojiIDList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0._newIDList) do
@@ -37,7 +37,7 @@ function slot0.saveNewEmojiIDList(slot0)
 	PlayerPrefs.SetString(uv0.NEW_EMOJI_SAVE_TAG .. getProxy(PlayerProxy):getRawData().id, table.concat(slot1, ":"))
 end
 
-function slot0.loadNewEmojiIDList(slot0)
+slot0.loadNewEmojiIDList = function(slot0)
 	slot0._newIDList = {}
 
 	if #string.split(PlayerPrefs.GetString(uv0.NEW_EMOJI_SAVE_TAG .. getProxy(PlayerProxy):getRawData().id) or "", ":") > 0 then
@@ -47,7 +47,7 @@ function slot0.loadNewEmojiIDList(slot0)
 	end
 end
 
-function slot0.addNewEmojiID(slot0, slot1)
+slot0.addNewEmojiID = function(slot0, slot1)
 	if table.indexof(slot0._emojiIDList, slot1, 1) then
 		return
 	end
@@ -57,7 +57,7 @@ function slot0.addNewEmojiID(slot0, slot1)
 	slot0:saveNewEmojiIDList()
 end
 
-function slot0.removeNewEmojiID(slot0, slot1)
+slot0.removeNewEmojiID = function(slot0, slot1)
 	if not table.indexof(slot0._newIDList, slot1, 1) then
 		assert(false, "new emoji list does not exit this emojiID:" .. slot1)
 	else
@@ -67,7 +67,7 @@ function slot0.removeNewEmojiID(slot0, slot1)
 	slot0:saveNewEmojiIDList()
 end
 
-function slot0.fliteNewEmojiDataByType(slot0)
+slot0.fliteNewEmojiDataByType = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0._newIDList) do
@@ -83,7 +83,7 @@ function slot0.fliteNewEmojiDataByType(slot0)
 	return slot1
 end
 
-function slot0.getEmojiDataByType(slot0, slot1)
+slot0.getEmojiDataByType = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0._emojiIDList) do
@@ -95,7 +95,7 @@ function slot0.getEmojiDataByType(slot0, slot1)
 	return slot2
 end
 
-function slot0.getExEmojiDataByType(slot0, slot1)
+slot0.getExEmojiDataByType = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0._emojiIDList) do

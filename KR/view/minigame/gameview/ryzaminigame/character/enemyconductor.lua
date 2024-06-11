@@ -13,7 +13,7 @@ slot1 = {
 	"W"
 }
 
-function slot0.InitUI(slot0, slot1)
+slot0.InitUI = function(slot0, slot1)
 	slot0.shieldCount = underscore.rest(slot0.ConfigShildList, 1)
 	slot5 = "front/Shield_W"
 	slot0.rtShieldDic = {
@@ -60,7 +60,7 @@ function slot0.InitUI(slot0, slot1)
 	slot0.speed = slot1.speed or 3
 end
 
-function slot0.InitRegister(slot0, slot1)
+slot0.InitRegister = function(slot0, slot1)
 	uv0.super.InitRegister(slot0, slot1)
 	slot0:Register("block", function (slot0)
 		uv0.shieldCount[slot0] = uv0.shieldCount[slot0] - 1
@@ -69,7 +69,7 @@ function slot0.InitRegister(slot0, slot1)
 	end, {})
 end
 
-function slot0.CheckBlock(slot0, slot1, slot2, slot3)
+slot0.CheckBlock = function(slot0, slot1, slot2, slot3)
 	if slot0.pos.x == slot1.x and slot0.pos.y == slot1.y then
 		return
 	elseif slot0.pos.x == slot1.x and math.clamp(slot0.pos.y - slot1.y, -slot2[3], slot2[1]) == slot0.pos.y - slot1.y or slot0.pos.y == slot1.y and math.clamp(slot0.pos.x - slot1.x, -slot2[4], slot2[2]) == slot0.pos.x - slot1.x then
@@ -98,7 +98,7 @@ function slot0.CheckBlock(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.PlayAnim(slot0, slot1)
+slot0.PlayAnim = function(slot0, slot1)
 	uv0.super.PlayAnim(slot0, slot1)
 
 	if slot0.statusMark ~= string.split(slot0.status, "_")[2] then
@@ -108,7 +108,7 @@ function slot0.PlayAnim(slot0, slot1)
 	end
 end
 
-function slot0.UpdateShieldDisplay(slot0)
+slot0.UpdateShieldDisplay = function(slot0)
 	slot1 = table.indexof(uv0, slot0.statusMark)
 
 	for slot5 = 0, 3 do

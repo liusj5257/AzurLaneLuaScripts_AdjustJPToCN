@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO34",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "여기 주인일 수도 있으니, 우선은 허락도 구하지 않고 멋대로 들어온 걸 사과해야…",
 			bgm = "theme-unzen",
+			say = "여기 주인일 수도 있으니, 우선은 허락도 구하지 않고 멋대로 들어온 걸 사과해야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "그녀는 조금 수수께끼 같은 말을 했다.",
@@ -161,8 +161,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "그녀…… '운젠'은 조금 놀란 표정을 보였다.",
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "문득 그녀와 직접 눈이 마주쳤다.",
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "일순간 그 눈에서 기쁨과도… 외로움과도 닮은 감정이 보였다.",
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "갑자기 멋쩍어진 나는 그녀보다 빨리 시선을 피하고 말았다.",
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "아무리 함선 동료라고는 하지만, 이렇게 서로 쳐다보고 있으면 여러모로 오해를 살 것 같다.",
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "계속 아무 말도 안 하고 있는 것도 좀 그러니, 화제를 바꿔보자.",
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "성급하게 말을 내뱉은 것을 후회했다.",
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "사쿠라 엠파이어 방문은 오늘이 마지막 날. 원래대로라면 연회를 마친 후 바로 돌아갈 준비를 해야 한다.",
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "함선을 이끄는 몸이라고는 하지만, 언제 또 만날 수 있을지 모른다.",
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "세이렌과의 전투도 있으니, 어쩌면 오늘이 이번 생의 마지막 만남이 될지도 모르는 일이다.",
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "이번에는 그녀가 부끄러운 듯이 시선을 피했다.",
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "둘이서 잠시동안 달 아래에서 천천히 흐르는 시간에 몸을 맡겼다.",
@@ -449,8 +449,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "누구도 말문을 열지 않았지만, 편안한 한때를 보냈다.",
@@ -460,8 +460,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "슬슬 연회로 돌아가려고 가볍게 인사를 건네고, 발길을 돌리려던 순간.",
@@ -471,8 +471,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "그녀는 내 손을 잡고, 시선으로 하늘의 밝은 달을 가리켰다.",
@@ -495,8 +495,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "그때 그녀가 지어보인 아름답지만 덧없는 미소는 내 기억에 영원히 새겨졌다.",
@@ -506,29 +506,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "……",
+			side = 2,
 			bgm = "story-2",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -539,10 +539,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관님?",
 			painting = {
 				alpha = 0.3,
@@ -554,12 +554,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관님, 곧 도착합니다~?",
 			painting = {
 				alpha = 0.3,
@@ -574,10 +574,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107380,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "에식스? 왜 아직도 여기 있는 거죠?",
 			painting = {
 				alpha = 0.3,
@@ -589,12 +589,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이글 유니온을 대표해서 리슐리외 측 아이리스 행사에 참석하는 거니까, 잘 준비하지 않으면 안 돼요.",
 			painting = {
 				alpha = 0.3,
@@ -609,10 +609,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107380,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "새 옷을 준비했으니 어서 갈아입으러 가요.",
 			painting = {
 				alpha = 0.3,
@@ -624,12 +624,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관님도 어서 준비하는 편이 좋을 거예요.",
 			painting = {
 				alpha = 0.3,
@@ -641,8 +641,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "동료들의 목소리가 발소리와 함께 멀어져 간다.",
@@ -691,8 +691,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "곧 착륙 태세에 돌입한다는 안내 방송이 들려왔다.",
@@ -702,8 +702,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "오늘은 예정이…… 산더미처럼 많다.",
@@ -726,8 +726,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "착륙하기 전까지 허락된 잠깐의 휴식을 놓치지 않으려고 눈을 질끈 감았다.",
@@ -737,8 +737,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "문득 사쿠라 엠파이어에서 만난 그녀의 얼굴, 그리고 그날 밤에 있었던 일들이 떠올랐다.",
@@ -774,8 +774,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 1,
 			blackFg = 1,
 			bgm = "theme-unzen",
@@ -803,9 +803,9 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
 			stopbgm = true,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

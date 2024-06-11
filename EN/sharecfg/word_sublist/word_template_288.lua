@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_288 = {}
 slot1 = slot0.word_template_288
 
-function temp()
+temp = function()
 	uv0["卐"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["卍"] = {
 		this = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["萬"] = {
 		["里"] = {
 			this = true
@@ -59,7 +59,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["汪"] = {
 		["东"] = {
 			["风"] = {
@@ -115,7 +115,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["亡"] = {
 		["党"] = {
 			this = true
@@ -140,7 +140,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["网"] = {
 		["吧"] = {
 			["破"] = {
@@ -612,7 +612,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["枉"] = {
 		["法"] = {
 			["查"] = {

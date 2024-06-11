@@ -3,10 +3,10 @@ pg.fleet_tech_ship_class = {
 	[10101] = {
 		shiptype = 1,
 		name = "Farragut Class",
-		nation = 1,
+		t_level = 3,
 		id = 10101,
 		t_level_1 = 1,
-		t_level = 3,
+		nation = 1,
 		ships = {
 			10102,
 			10140
@@ -15,10 +15,10 @@ pg.fleet_tech_ship_class = {
 	[10102] = {
 		shiptype = 1,
 		name = "Mahan Class",
-		nation = 1,
+		t_level = 4,
 		id = 10102,
 		t_level_1 = 2,
-		t_level = 4,
+		nation = 1,
 		ships = {
 			10103,
 			10104
@@ -27,10 +27,10 @@ pg.fleet_tech_ship_class = {
 	[10103] = {
 		shiptype = 1,
 		name = "Gridley Class",
-		nation = 1,
+		t_level = 5,
 		id = 10103,
 		t_level_1 = 3,
-		t_level = 5,
+		nation = 1,
 		ships = {
 			10105,
 			10106,
@@ -41,10 +41,10 @@ pg.fleet_tech_ship_class = {
 	[10104] = {
 		shiptype = 1,
 		name = "Fletcher Class",
-		nation = 1,
+		t_level = 8,
 		id = 10104,
 		t_level_1 = 4,
-		t_level = 8,
+		nation = 1,
 		ships = {
 			10109,
 			10129,
@@ -70,10 +70,10 @@ pg.fleet_tech_ship_class = {
 	[10105] = {
 		shiptype = 1,
 		name = "Benson Class",
-		nation = 1,
+		t_level = 7,
 		id = 10105,
 		t_level_1 = 5,
-		t_level = 7,
+		nation = 1,
 		ships = {
 			10116,
 			10117,
@@ -85,10 +85,10 @@ pg.fleet_tech_ship_class = {
 	[10106] = {
 		shiptype = 1,
 		name = "Sims Class",
-		nation = 1,
+		t_level = 6,
 		id = 10106,
 		t_level_1 = 6,
-		t_level = 6,
+		nation = 1,
 		ships = {
 			10124,
 			10125
@@ -97,10 +97,10 @@ pg.fleet_tech_ship_class = {
 	[10107] = {
 		shiptype = 1,
 		name = "Cannon Class",
-		nation = 1,
+		t_level = 4,
 		id = 10107,
 		t_level_1 = 7,
-		t_level = 4,
+		nation = 1,
 		ships = {
 			10126
 		}
@@ -108,10 +108,10 @@ pg.fleet_tech_ship_class = {
 	[10108] = {
 		shiptype = 1,
 		name = "Allen M. Sumner Class ",
-		nation = 1,
+		t_level = 9,
 		id = 10108,
 		t_level_1 = 4,
-		t_level = 9,
+		nation = 1,
 		ships = {
 			10145,
 			10144,
@@ -123,10 +123,10 @@ pg.fleet_tech_ship_class = {
 	[10109] = {
 		shiptype = 1,
 		name = "Edsall Class",
-		nation = 1,
+		t_level = 4,
 		id = 10109,
 		t_level_1 = 7,
-		t_level = 4,
+		nation = 1,
 		ships = {
 			10150
 		}
@@ -134,10 +134,10 @@ pg.fleet_tech_ship_class = {
 	[10201] = {
 		shiptype = 2,
 		name = "Atlanta Class",
-		nation = 1,
+		t_level = 5,
 		id = 10201,
 		t_level_1 = 8,
-		t_level = 5,
+		nation = 1,
 		ships = {
 			10206,
 			10207,
@@ -149,10 +149,10 @@ pg.fleet_tech_ship_class = {
 	[10202] = {
 		shiptype = 2,
 		name = "Cleveland Class",
-		nation = 1,
+		t_level = 7,
 		id = 10202,
 		t_level_1 = 9,
-		t_level = 7,
+		nation = 1,
 		ships = {
 			10209,
 			10210,
@@ -166,10 +166,10 @@ pg.fleet_tech_ship_class = {
 	[10203] = {
 		shiptype = 2,
 		name = "Omaha Class",
-		nation = 1,
+		t_level = 3,
 		id = 10203,
 		t_level_1 = 10,
-		t_level = 3,
+		nation = 1,
 		ships = {
 			10201,
 			10202,
@@ -182,10 +182,10 @@ pg.fleet_tech_ship_class = {
 	[10204] = {
 		shiptype = 2,
 		name = "Brooklyn Class",
-		nation = 1,
+		t_level = 6,
 		id = 10204,
 		t_level_1 = 11,
-		t_level = 6,
+		nation = 1,
 		ships = {
 			10203,
 			10204,
@@ -198,10 +198,10 @@ pg.fleet_tech_ship_class = {
 	[10205] = {
 		shiptype = 2,
 		name = "Seattle Class",
-		nation = 1,
+		t_level = 8,
 		id = 10205,
 		t_level_1 = 0,
-		t_level = 8,
+		nation = 1,
 		ships = {
 			19901
 		}
@@ -209,10 +209,10 @@ pg.fleet_tech_ship_class = {
 	[10301] = {
 		shiptype = 3,
 		name = "Pensacola Class",
-		nation = 1,
+		t_level = 4,
 		id = 10301,
 		t_level_1 = 12,
-		t_level = 4,
+		nation = 1,
 		ships = {
 			10301,
 			10302
@@ -221,10 +221,10 @@ pg.fleet_tech_ship_class = {
 	[10302] = {
 		shiptype = 3,
 		name = "Northampton Class",
-		nation = 1,
+		t_level = 5,
 		id = 10302,
 		t_level_1 = 13,
-		t_level = 5,
+		nation = 1,
 		ships = {
 			10303,
 			10304,
@@ -235,10 +235,10 @@ pg.fleet_tech_ship_class = {
 	[10303] = {
 		shiptype = 3,
 		name = "Portland Class",
-		nation = 1,
+		t_level = 6,
 		id = 10303,
 		t_level_1 = 14,
-		t_level = 6,
+		nation = 1,
 		ships = {
 			10306,
 			10307
@@ -247,10 +247,10 @@ pg.fleet_tech_ship_class = {
 	[10304] = {
 		shiptype = 3,
 		name = "Wichita Class",
-		nation = 1,
+		t_level = 7,
 		id = 10304,
 		t_level_1 = 15,
-		t_level = 7,
+		nation = 1,
 		ships = {
 			10311
 		}
@@ -258,10 +258,10 @@ pg.fleet_tech_ship_class = {
 	[10305] = {
 		shiptype = 3,
 		name = "New Orleans Class",
-		nation = 1,
+		t_level = 6,
 		id = 10305,
 		t_level_1 = 16,
-		t_level = 6,
+		nation = 1,
 		ships = {
 			10308,
 			10313,
@@ -274,10 +274,10 @@ pg.fleet_tech_ship_class = {
 	[10306] = {
 		shiptype = 3,
 		name = "Baltimore Class ",
-		nation = 1,
+		t_level = 8,
 		id = 10306,
 		t_level_1 = 20,
-		t_level = 8,
+		nation = 1,
 		ships = {
 			10316,
 			10324
@@ -286,10 +286,10 @@ pg.fleet_tech_ship_class = {
 	[10307] = {
 		shiptype = 3,
 		name = "Anchorage Class",
-		nation = 1,
+		t_level = 8,
 		id = 10307,
 		t_level_1 = 21,
-		t_level = 8,
+		nation = 1,
 		ships = {
 			19903
 		}
@@ -297,10 +297,10 @@ pg.fleet_tech_ship_class = {
 	[10308] = {
 		shiptype = 3,
 		name = "Oregon City Class",
-		nation = 1,
+		t_level = 9,
 		id = 10308,
 		t_level_1 = 3,
-		t_level = 9,
+		nation = 1,
 		ships = {
 			10326
 		}
@@ -308,10 +308,10 @@ pg.fleet_tech_ship_class = {
 	[10401] = {
 		shiptype = 4,
 		name = "Lexington Class",
-		nation = 1,
+		t_level = 6,
 		id = 10401,
 		t_level_1 = 16,
-		t_level = 6,
+		nation = 1,
 		ships = {
 			10401
 		}
@@ -319,10 +319,10 @@ pg.fleet_tech_ship_class = {
 	[10501] = {
 		shiptype = 5,
 		name = "Nevada Class",
-		nation = 1,
+		t_level = 3,
 		id = 10501,
 		t_level_1 = 17,
-		t_level = 3,
+		nation = 1,
 		ships = {
 			10501,
 			10502
@@ -331,10 +331,10 @@ pg.fleet_tech_ship_class = {
 	[10502] = {
 		shiptype = 5,
 		name = "Pennsylvania Class",
-		nation = 1,
+		t_level = 4,
 		id = 10502,
 		t_level_1 = 18,
-		t_level = 4,
+		nation = 1,
 		ships = {
 			10503,
 			10504
@@ -343,10 +343,10 @@ pg.fleet_tech_ship_class = {
 	[10503] = {
 		shiptype = 5,
 		name = "Tennessee Class",
-		nation = 1,
+		t_level = 5,
 		id = 10503,
 		t_level_1 = 19,
-		t_level = 5,
+		nation = 1,
 		ships = {
 			10507,
 			10508
@@ -355,10 +355,10 @@ pg.fleet_tech_ship_class = {
 	[10504] = {
 		shiptype = 5,
 		name = "Colorado Class",
-		nation = 1,
+		t_level = 6,
 		id = 10504,
 		t_level_1 = 20,
-		t_level = 6,
+		nation = 1,
 		ships = {
 			10509,
 			10510,
@@ -368,10 +368,10 @@ pg.fleet_tech_ship_class = {
 	[10505] = {
 		shiptype = 5,
 		name = "North Carolina Class",
-		nation = 1,
+		t_level = 7,
 		id = 10505,
 		t_level_1 = 21,
-		t_level = 7,
+		nation = 1,
 		ships = {
 			10512,
 			10513
@@ -380,10 +380,10 @@ pg.fleet_tech_ship_class = {
 	[10506] = {
 		shiptype = 5,
 		name = "South Dakota Class",
-		nation = 1,
+		t_level = 7,
 		id = 10506,
 		t_level_1 = 22,
-		t_level = 7,
+		nation = 1,
 		ships = {
 			10514,
 			10519,
@@ -393,10 +393,10 @@ pg.fleet_tech_ship_class = {
 	[10507] = {
 		shiptype = 5,
 		name = "Georgia Class",
-		nation = 1,
+		t_level = 9,
 		id = 10507,
 		t_level_1 = 1,
-		t_level = 9,
+		nation = 1,
 		ships = {
 			19902
 		}
@@ -404,10 +404,10 @@ pg.fleet_tech_ship_class = {
 	[10508] = {
 		shiptype = 5,
 		name = "Iowa Class",
-		nation = 1,
+		t_level = 9,
 		id = 10508,
 		t_level_1 = 2,
-		t_level = 9,
+		nation = 1,
 		ships = {
 			10517
 		}
@@ -415,10 +415,10 @@ pg.fleet_tech_ship_class = {
 	[10601] = {
 		shiptype = 6,
 		name = "Long Island Class",
-		nation = 1,
+		t_level = 2,
 		id = 10601,
 		t_level_1 = 23,
-		t_level = 2,
+		nation = 1,
 		ships = {
 			10601
 		}
@@ -426,10 +426,10 @@ pg.fleet_tech_ship_class = {
 	[10602] = {
 		shiptype = 6,
 		name = "Bogue Class",
-		nation = 1,
+		t_level = 3,
 		id = 10602,
 		t_level_1 = 24,
-		t_level = 3,
+		nation = 1,
 		ships = {
 			10602
 		}
@@ -437,10 +437,10 @@ pg.fleet_tech_ship_class = {
 	[10604] = {
 		shiptype = 6,
 		name = "Langley Class",
-		nation = 1,
+		t_level = 2,
 		id = 10604,
 		t_level_1 = 25,
-		t_level = 2,
+		nation = 1,
 		ships = {
 			10701
 		}
@@ -448,10 +448,10 @@ pg.fleet_tech_ship_class = {
 	[10605] = {
 		shiptype = 6,
 		name = "Ranger Class",
-		nation = 1,
+		t_level = 5,
 		id = 10605,
 		t_level_1 = 26,
-		t_level = 5,
+		nation = 1,
 		ships = {
 			10704
 		}
@@ -459,10 +459,10 @@ pg.fleet_tech_ship_class = {
 	[10606] = {
 		shiptype = 6,
 		name = "Independence Class",
-		nation = 1,
+		t_level = 4,
 		id = 10606,
 		t_level_1 = 30,
-		t_level = 4,
+		nation = 1,
 		ships = {
 			10722,
 			10723,
@@ -474,10 +474,10 @@ pg.fleet_tech_ship_class = {
 	[10607] = {
 		shiptype = 6,
 		name = "Casablanca Class ",
-		nation = 1,
+		t_level = 3,
 		id = 10607,
 		t_level_1 = 31,
-		t_level = 3,
+		nation = 1,
 		ships = {
 			10655
 		}
@@ -485,10 +485,10 @@ pg.fleet_tech_ship_class = {
 	[10701] = {
 		shiptype = 7,
 		name = "Lexington Class",
-		nation = 1,
+		t_level = 7,
 		id = 10701,
 		t_level_1 = 27,
-		t_level = 7,
+		nation = 1,
 		ships = {
 			10702,
 			10703
@@ -497,10 +497,10 @@ pg.fleet_tech_ship_class = {
 	[10702] = {
 		shiptype = 7,
 		name = "Yorktown Class",
-		nation = 1,
+		t_level = 6,
 		id = 10702,
 		t_level_1 = 28,
-		t_level = 6,
+		nation = 1,
 		ships = {
 			10705,
 			10706,
@@ -510,10 +510,10 @@ pg.fleet_tech_ship_class = {
 	[10703] = {
 		shiptype = 7,
 		name = "Wasp Class",
-		nation = 1,
+		t_level = 5,
 		id = 10703,
 		t_level_1 = 29,
-		t_level = 5,
+		nation = 1,
 		ships = {
 			10708
 		}
@@ -521,10 +521,10 @@ pg.fleet_tech_ship_class = {
 	[10705] = {
 		shiptype = 7,
 		name = "Essex Class",
-		nation = 1,
+		t_level = 8,
 		id = 10705,
 		t_level_1 = 31,
-		t_level = 8,
+		nation = 1,
 		ships = {
 			10709,
 			10710,
@@ -538,10 +538,10 @@ pg.fleet_tech_ship_class = {
 	[10801] = {
 		shiptype = 8,
 		name = "Gato Class",
-		nation = 1,
+		t_level = 6,
 		id = 10801,
 		t_level_1 = 32,
-		t_level = 6,
+		nation = 1,
 		ships = {
 			10802,
 			10803,
@@ -553,10 +553,10 @@ pg.fleet_tech_ship_class = {
 	[10802] = {
 		shiptype = 8,
 		name = "Balao Class",
-		nation = 1,
+		t_level = 7,
 		id = 10802,
 		t_level_1 = 31,
-		t_level = 7,
+		nation = 1,
 		ships = {
 			10806
 		}
@@ -564,10 +564,10 @@ pg.fleet_tech_ship_class = {
 	[10803] = {
 		shiptype = 8,
 		name = "Narwhal Class",
-		nation = 1,
+		t_level = 3,
 		id = 10803,
 		t_level_1 = 32,
-		t_level = 3,
+		nation = 1,
 		ships = {
 			10807
 		}
@@ -575,10 +575,10 @@ pg.fleet_tech_ship_class = {
 	[11001] = {
 		shiptype = 10,
 		name = "Kearsarge",
-		nation = 1,
+		t_level = 9,
 		id = 11001,
 		t_level_1 = 1,
-		t_level = 9,
+		nation = 1,
 		ships = {
 			19904
 		}
@@ -586,10 +586,10 @@ pg.fleet_tech_ship_class = {
 	[11201] = {
 		shiptype = 12,
 		name = "Vestal Class",
-		nation = 1,
+		t_level = 5,
 		id = 11201,
 		t_level_1 = 33,
-		t_level = 5,
+		nation = 1,
 		ships = {
 			11201
 		}
@@ -597,10 +597,10 @@ pg.fleet_tech_ship_class = {
 	[11801] = {
 		shiptype = 18,
 		name = "Alaska Class",
-		nation = 1,
+		t_level = 9,
 		id = 11801,
 		t_level_1 = 38,
-		t_level = 9,
+		nation = 1,
 		ships = {
 			11802
 		}
@@ -608,10 +608,10 @@ pg.fleet_tech_ship_class = {
 	[20101] = {
 		shiptype = 1,
 		name = "A Class",
-		nation = 2,
+		t_level = 3,
 		id = 20101,
 		t_level_1 = 34,
-		t_level = 3,
+		nation = 2,
 		ships = {
 			20102,
 			20103
@@ -620,10 +620,10 @@ pg.fleet_tech_ship_class = {
 	[20102] = {
 		shiptype = 1,
 		name = "B Class",
-		nation = 2,
+		t_level = 3,
 		id = 20102,
 		t_level_1 = 35,
-		t_level = 3,
+		nation = 2,
 		ships = {
 			20106,
 			20107
@@ -632,10 +632,10 @@ pg.fleet_tech_ship_class = {
 	[20103] = {
 		shiptype = 1,
 		name = "C Class",
-		nation = 2,
+		t_level = 3,
 		id = 20103,
 		t_level_1 = 36,
-		t_level = 3,
+		nation = 2,
 		ships = {
 			20108,
 			20109,
@@ -645,10 +645,10 @@ pg.fleet_tech_ship_class = {
 	[20104] = {
 		shiptype = 1,
 		name = "F Class",
-		nation = 2,
+		t_level = 4,
 		id = 20104,
 		t_level_1 = 37,
-		t_level = 4,
+		nation = 2,
 		ships = {
 			20111,
 			20112
@@ -657,10 +657,10 @@ pg.fleet_tech_ship_class = {
 	[20105] = {
 		shiptype = 1,
 		name = "G Class",
-		nation = 2,
+		t_level = 4,
 		id = 20105,
 		t_level_1 = 38,
-		t_level = 4,
+		nation = 2,
 		ships = {
 			20113,
 			20114
@@ -669,10 +669,10 @@ pg.fleet_tech_ship_class = {
 	[20106] = {
 		shiptype = 1,
 		name = "H Class",
-		nation = 2,
+		t_level = 4,
 		id = 20106,
 		t_level_1 = 39,
-		t_level = 4,
+		nation = 2,
 		ships = {
 			20116,
 			20120,
@@ -682,10 +682,10 @@ pg.fleet_tech_ship_class = {
 	[20107] = {
 		shiptype = 1,
 		name = "V Class",
-		nation = 2,
+		t_level = 1,
 		id = 20107,
 		t_level_1 = 40,
-		t_level = 1,
+		nation = 2,
 		ships = {
 			20123
 		}
@@ -693,10 +693,10 @@ pg.fleet_tech_ship_class = {
 	[20108] = {
 		shiptype = 1,
 		name = "J Class",
-		nation = 2,
+		t_level = 5,
 		id = 20108,
 		t_level_1 = 41,
-		t_level = 5,
+		nation = 2,
 		ships = {
 			20121,
 			20122,
@@ -709,10 +709,10 @@ pg.fleet_tech_ship_class = {
 	[20109] = {
 		shiptype = 1,
 		name = "M Class",
-		nation = 2,
+		t_level = 7,
 		id = 20109,
 		t_level_1 = 42,
-		t_level = 7,
+		nation = 2,
 		ships = {
 			20126,
 			20127
@@ -721,10 +721,10 @@ pg.fleet_tech_ship_class = {
 	[20110] = {
 		shiptype = 1,
 		name = "Amazon Class",
-		nation = 2,
+		t_level = 2,
 		id = 20110,
 		t_level_1 = 43,
-		t_level = 2,
+		nation = 2,
 		ships = {
 			20101
 		}
@@ -732,10 +732,10 @@ pg.fleet_tech_ship_class = {
 	[20111] = {
 		shiptype = 1,
 		name = "E Class",
-		nation = 2,
+		t_level = 4,
 		id = 20111,
 		t_level_1 = 1,
-		t_level = 4,
+		nation = 2,
 		ships = {
 			20129
 		}
@@ -743,10 +743,10 @@ pg.fleet_tech_ship_class = {
 	[20112] = {
 		shiptype = 1,
 		name = "Tribal Class ",
-		nation = 2,
+		t_level = 5,
 		id = 20112,
 		t_level_1 = 39,
-		t_level = 5,
+		nation = 2,
 		ships = {
 			20132,
 			20137
@@ -755,10 +755,10 @@ pg.fleet_tech_ship_class = {
 	[20113] = {
 		shiptype = 1,
 		name = "I Class",
-		nation = 2,
+		t_level = 4,
 		id = 20113,
 		t_level_1 = 40,
-		t_level = 4,
+		nation = 2,
 		ships = {
 			20133
 		}
@@ -766,10 +766,10 @@ pg.fleet_tech_ship_class = {
 	[20201] = {
 		shiptype = 2,
 		name = "Leander Class",
-		nation = 2,
+		t_level = 5,
 		id = 20201,
 		t_level_1 = 44,
-		t_level = 5,
+		nation = 2,
 		ships = {
 			20201,
 			20202,
@@ -779,10 +779,10 @@ pg.fleet_tech_ship_class = {
 	[20202] = {
 		shiptype = 2,
 		name = "Southampton Class ",
-		nation = 2,
+		t_level = 7,
 		id = 20202,
 		t_level_1 = 46,
-		t_level = 7,
+		nation = 2,
 		ships = {
 			20207,
 			20219,
@@ -793,10 +793,10 @@ pg.fleet_tech_ship_class = {
 	[20203] = {
 		shiptype = 2,
 		name = "Arethusa Class",
-		nation = 2,
+		t_level = 3,
 		id = 20203,
 		t_level_1 = 47,
-		t_level = 3,
+		nation = 2,
 		ships = {
 			20213,
 			20214,
@@ -807,10 +807,10 @@ pg.fleet_tech_ship_class = {
 	[20204] = {
 		shiptype = 2,
 		name = "Fiji Class",
-		nation = 2,
+		t_level = 6,
 		id = 20204,
 		t_level_1 = 48,
-		t_level = 6,
+		nation = 2,
 		ships = {
 			20216,
 			20217
@@ -819,10 +819,10 @@ pg.fleet_tech_ship_class = {
 	[20205] = {
 		shiptype = 2,
 		name = "Edinburgh Class",
-		nation = 2,
+		t_level = 7,
 		id = 20205,
 		t_level_1 = 49,
-		t_level = 7,
+		nation = 2,
 		ships = {
 			20211,
 			20212
@@ -831,10 +831,10 @@ pg.fleet_tech_ship_class = {
 	[20206] = {
 		shiptype = 2,
 		name = "Dido Class",
-		nation = 2,
+		t_level = 6,
 		id = 20206,
 		t_level_1 = 50,
-		t_level = 6,
+		nation = 2,
 		ships = {
 			20204,
 			20220,
@@ -848,10 +848,10 @@ pg.fleet_tech_ship_class = {
 	[20207] = {
 		shiptype = 2,
 		name = "Ceres Class",
-		nation = 2,
+		t_level = 2,
 		id = 20207,
 		t_level_1 = 51,
-		t_level = 2,
+		nation = 2,
 		ships = {
 			20221,
 			20222
@@ -860,10 +860,10 @@ pg.fleet_tech_ship_class = {
 	[20208] = {
 		shiptype = 2,
 		name = "Neptune Class",
-		nation = 2,
+		t_level = 8,
 		id = 20208,
 		t_level_1 = 45,
-		t_level = 8,
+		nation = 2,
 		ships = {
 			29901
 		}
@@ -871,10 +871,10 @@ pg.fleet_tech_ship_class = {
 	[20209] = {
 		shiptype = 2,
 		name = "Swiftsure Class ",
-		nation = 2,
+		t_level = 7,
 		id = 20209,
 		t_level_1 = 1,
-		t_level = 7,
+		nation = 2,
 		ships = {
 			20223
 		}
@@ -882,10 +882,10 @@ pg.fleet_tech_ship_class = {
 	[20210] = {
 		shiptype = 2,
 		name = "Gloucester Class",
-		nation = 2,
+		t_level = 7,
 		id = 20210,
 		t_level_1 = 47,
-		t_level = 7,
+		nation = 2,
 		ships = {
 			20209,
 			20210,
@@ -895,10 +895,10 @@ pg.fleet_tech_ship_class = {
 	[20211] = {
 		shiptype = 2,
 		name = "Emerald Class",
-		nation = 2,
+		t_level = 3,
 		id = 20211,
 		t_level_1 = 52,
-		t_level = 3,
+		nation = 2,
 		ships = {
 			20232
 		}
@@ -906,10 +906,10 @@ pg.fleet_tech_ship_class = {
 	[20212] = {
 		shiptype = 2,
 		name = "Plymouth",
-		nation = 2,
+		t_level = 9,
 		id = 20212,
 		t_level_1 = 47,
-		t_level = 9,
+		nation = 2,
 		ships = {
 			29905
 		}
@@ -917,10 +917,10 @@ pg.fleet_tech_ship_class = {
 	[20301] = {
 		shiptype = 3,
 		name = "London Class",
-		nation = 2,
+		t_level = 4,
 		id = 20301,
 		t_level_1 = 52,
-		t_level = 4,
+		nation = 2,
 		ships = {
 			20301,
 			20302,
@@ -931,10 +931,10 @@ pg.fleet_tech_ship_class = {
 	[20302] = {
 		shiptype = 3,
 		name = "Kent Class",
-		nation = 2,
+		t_level = 4,
 		id = 20302,
 		t_level_1 = 53,
-		t_level = 4,
+		nation = 2,
 		ships = {
 			20303,
 			20304
@@ -943,10 +943,10 @@ pg.fleet_tech_ship_class = {
 	[20303] = {
 		shiptype = 3,
 		name = "Norfolk Class",
-		nation = 2,
+		t_level = 5,
 		id = 20303,
 		t_level_1 = 54,
-		t_level = 5,
+		nation = 2,
 		ships = {
 			20305,
 			20306
@@ -955,10 +955,10 @@ pg.fleet_tech_ship_class = {
 	[20304] = {
 		shiptype = 3,
 		name = "York Class",
-		nation = 2,
+		t_level = 5,
 		id = 20304,
 		t_level_1 = 55,
-		t_level = 5,
+		nation = 2,
 		ships = {
 			20307,
 			20308
@@ -967,10 +967,10 @@ pg.fleet_tech_ship_class = {
 	[20305] = {
 		shiptype = 3,
 		name = "Cheshire Class",
-		nation = 2,
+		t_level = 8,
 		id = 20305,
 		t_level_1 = 57,
-		t_level = 8,
+		nation = 2,
 		ships = {
 			29903
 		}
@@ -978,10 +978,10 @@ pg.fleet_tech_ship_class = {
 	[20306] = {
 		shiptype = 3,
 		name = "Drake Class",
-		nation = 2,
+		t_level = 9,
 		id = 20306,
 		t_level_1 = 58,
-		t_level = 9,
+		nation = 2,
 		ships = {
 			29904
 		}
@@ -989,10 +989,10 @@ pg.fleet_tech_ship_class = {
 	[20401] = {
 		shiptype = 4,
 		name = "Renown Class",
-		nation = 2,
+		t_level = 4,
 		id = 20401,
 		t_level_1 = 56,
-		t_level = 4,
+		nation = 2,
 		ships = {
 			20401,
 			20402
@@ -1001,10 +1001,10 @@ pg.fleet_tech_ship_class = {
 	[20402] = {
 		shiptype = 4,
 		name = "Admiral Class",
-		nation = 2,
+		t_level = 6,
 		id = 20402,
 		t_level_1 = 57,
-		t_level = 6,
+		nation = 2,
 		ships = {
 			20403
 		}
@@ -1012,10 +1012,10 @@ pg.fleet_tech_ship_class = {
 	[20501] = {
 		shiptype = 5,
 		name = "Queen Elizabeth Class",
-		nation = 2,
+		t_level = 5,
 		id = 20501,
 		t_level_1 = 58,
-		t_level = 5,
+		nation = 2,
 		ships = {
 			20501,
 			20502,
@@ -1025,10 +1025,10 @@ pg.fleet_tech_ship_class = {
 	[20502] = {
 		shiptype = 5,
 		name = "Nelson Class",
-		nation = 2,
+		t_level = 6,
 		id = 20502,
 		t_level_1 = 60,
-		t_level = 6,
+		nation = 2,
 		ships = {
 			20503,
 			20504
@@ -1037,10 +1037,10 @@ pg.fleet_tech_ship_class = {
 	[20503] = {
 		shiptype = 5,
 		name = "King George V Class",
-		nation = 2,
+		t_level = 6,
 		id = 20503,
 		t_level_1 = 61,
-		t_level = 6,
+		nation = 2,
 		ships = {
 			20505,
 			20506,
@@ -1051,10 +1051,10 @@ pg.fleet_tech_ship_class = {
 	[20504] = {
 		shiptype = 5,
 		name = "Monarch Class",
-		nation = 2,
+		t_level = 7,
 		id = 20504,
 		t_level_1 = 59,
-		t_level = 7,
+		nation = 2,
 		ships = {
 			29902
 		}
@@ -1062,10 +1062,10 @@ pg.fleet_tech_ship_class = {
 	[20505] = {
 		shiptype = 5,
 		name = "Revenge Class",
-		nation = 2,
+		t_level = 6,
 		id = 20505,
 		t_level_1 = 62,
-		t_level = 6,
+		nation = 2,
 		ships = {
 			20511,
 			20514
@@ -1074,10 +1074,10 @@ pg.fleet_tech_ship_class = {
 	[20506] = {
 		shiptype = 5,
 		name = "Vanguard",
-		nation = 2,
+		t_level = 9,
 		id = 20506,
 		t_level_1 = 63,
-		t_level = 9,
+		nation = 2,
 		ships = {
 			20513
 		}
@@ -1085,10 +1085,10 @@ pg.fleet_tech_ship_class = {
 	[20601] = {
 		shiptype = 6,
 		name = "Hermes Class",
-		nation = 2,
+		t_level = 3,
 		id = 20601,
 		t_level_1 = 62,
-		t_level = 3,
+		nation = 2,
 		ships = {
 			20601
 		}
@@ -1096,10 +1096,10 @@ pg.fleet_tech_ship_class = {
 	[20602] = {
 		shiptype = 6,
 		name = "Unicorn Class",
-		nation = 2,
+		t_level = 5,
 		id = 20602,
 		t_level_1 = 63,
-		t_level = 5,
+		nation = 2,
 		ships = {
 			20603
 		}
@@ -1107,10 +1107,10 @@ pg.fleet_tech_ship_class = {
 	[20603] = {
 		shiptype = 6,
 		name = "Attacker Class",
-		nation = 2,
+		t_level = 4,
 		id = 20603,
 		t_level_1 = 64,
-		t_level = 4,
+		nation = 2,
 		ships = {
 			20605
 		}
@@ -1118,10 +1118,10 @@ pg.fleet_tech_ship_class = {
 	[20604] = {
 		shiptype = 6,
 		name = "Centaur Class",
-		nation = 2,
+		t_level = 7,
 		id = 20604,
 		t_level_1 = 65,
-		t_level = 7,
+		nation = 2,
 		ships = {
 			20604,
 			20607
@@ -1130,10 +1130,10 @@ pg.fleet_tech_ship_class = {
 	[20605] = {
 		shiptype = 6,
 		name = "Colossus Class ",
-		nation = 2,
+		t_level = 6,
 		id = 20605,
 		t_level_1 = 64,
-		t_level = 6,
+		nation = 2,
 		ships = {
 			20606,
 			20608
@@ -1142,10 +1142,10 @@ pg.fleet_tech_ship_class = {
 	[20607] = {
 		shiptype = 6,
 		name = "Argus",
-		nation = 2,
+		t_level = 3,
 		id = 20607,
 		t_level_1 = 61,
-		t_level = 3,
+		nation = 2,
 		ships = {
 			20602
 		}
@@ -1153,10 +1153,10 @@ pg.fleet_tech_ship_class = {
 	[20701] = {
 		shiptype = 7,
 		name = "Illustrious Class",
-		nation = 2,
+		t_level = 8,
 		id = 20701,
 		t_level_1 = 66,
-		t_level = 8,
+		nation = 2,
 		ships = {
 			20703,
 			20704,
@@ -1167,10 +1167,10 @@ pg.fleet_tech_ship_class = {
 	[20702] = {
 		shiptype = 7,
 		name = "Courageous Class",
-		nation = 2,
+		t_level = 6,
 		id = 20702,
 		t_level_1 = 67,
-		t_level = 6,
+		nation = 2,
 		ships = {
 			20706
 		}
@@ -1178,10 +1178,10 @@ pg.fleet_tech_ship_class = {
 	[20703] = {
 		shiptype = 7,
 		name = "Ark Royal Class",
-		nation = 2,
+		t_level = 7,
 		id = 20703,
 		t_level_1 = 70,
-		t_level = 7,
+		nation = 2,
 		ships = {
 			20702
 		}
@@ -1189,10 +1189,10 @@ pg.fleet_tech_ship_class = {
 	[20704] = {
 		shiptype = 7,
 		name = "Eagle Class",
-		nation = 2,
+		t_level = 3,
 		id = 20704,
 		t_level_1 = 65,
-		t_level = 3,
+		nation = 2,
 		ships = {
 			20701
 		}
@@ -1200,10 +1200,10 @@ pg.fleet_tech_ship_class = {
 	[20705] = {
 		shiptype = 7,
 		name = "Implacable Class",
-		nation = 2,
+		t_level = 8,
 		id = 20705,
 		t_level_1 = 67,
-		t_level = 8,
+		nation = 2,
 		ships = {
 			20707
 		}
@@ -1211,10 +1211,10 @@ pg.fleet_tech_ship_class = {
 	[21301] = {
 		shiptype = 13,
 		name = "Erebus Class",
-		nation = 2,
+		t_level = 2,
 		id = 21301,
 		t_level_1 = 68,
-		t_level = 2,
+		nation = 2,
 		ships = {
 			21301,
 			21302
@@ -1223,10 +1223,10 @@ pg.fleet_tech_ship_class = {
 	[21302] = {
 		shiptype = 13,
 		name = "Roberts Class",
-		nation = 2,
+		t_level = 4,
 		id = 21302,
 		t_level_1 = 69,
-		t_level = 4,
+		nation = 2,
 		ships = {
 			21304
 		}
@@ -1234,10 +1234,10 @@ pg.fleet_tech_ship_class = {
 	[30101] = {
 		shiptype = 1,
 		name = "Fubuki Class Type I (Fubuki)",
-		nation = 3,
+		t_level = 4,
 		id = 30101,
 		t_level_1 = 70,
-		t_level = 4,
+		nation = 3,
 		ships = {
 			30101,
 			30102,
@@ -1248,10 +1248,10 @@ pg.fleet_tech_ship_class = {
 	[30102] = {
 		shiptype = 1,
 		name = "Fubuki Class Type II (Ayanami)",
-		nation = 3,
+		t_level = 4,
 		id = 30102,
 		t_level_1 = 71,
-		t_level = 4,
+		nation = 3,
 		ships = {
 			30105
 		}
@@ -1259,10 +1259,10 @@ pg.fleet_tech_ship_class = {
 	[30103] = {
 		shiptype = 1,
 		name = "Fubuki Class Type III (Akatsuki)",
-		nation = 3,
+		t_level = 5,
 		id = 30103,
 		t_level_1 = 72,
-		t_level = 5,
+		nation = 3,
 		ships = {
 			30109,
 			30110,
@@ -1273,10 +1273,10 @@ pg.fleet_tech_ship_class = {
 	[30104] = {
 		shiptype = 1,
 		name = "Shiratsuyu Class",
-		nation = 3,
+		t_level = 5,
 		id = 30104,
 		t_level_1 = 73,
-		t_level = 5,
+		nation = 3,
 		ships = {
 			30113,
 			30115,
@@ -1289,10 +1289,10 @@ pg.fleet_tech_ship_class = {
 	[30105] = {
 		shiptype = 1,
 		name = "Kagerou Class",
-		nation = 3,
+		t_level = 7,
 		id = 30105,
 		t_level_1 = 74,
-		t_level = 7,
+		nation = 3,
 		ships = {
 			30117,
 			30118,
@@ -1309,10 +1309,10 @@ pg.fleet_tech_ship_class = {
 	[30106] = {
 		shiptype = 1,
 		name = "Hatsuharu Class",
-		nation = 3,
+		t_level = 4,
 		id = 30106,
 		t_level_1 = 75,
-		t_level = 4,
+		nation = 3,
 		ships = {
 			30121,
 			30123,
@@ -1324,10 +1324,10 @@ pg.fleet_tech_ship_class = {
 	[30107] = {
 		shiptype = 1,
 		name = "Kamikaze Class",
-		nation = 3,
+		t_level = 2,
 		id = 30107,
 		t_level_1 = 76,
-		t_level = 2,
+		nation = 3,
 		ships = {
 			30130,
 			30131,
@@ -1339,10 +1339,10 @@ pg.fleet_tech_ship_class = {
 	[30108] = {
 		shiptype = 1,
 		name = "Mutsuki Class",
-		nation = 3,
+		t_level = 3,
 		id = 30108,
 		t_level_1 = 77,
-		t_level = 3,
+		nation = 3,
 		ships = {
 			30132,
 			30133,
@@ -1356,10 +1356,10 @@ pg.fleet_tech_ship_class = {
 	[30109] = {
 		shiptype = 1,
 		name = "Akizuki Class",
-		nation = 3,
+		t_level = 8,
 		id = 30109,
 		t_level_1 = 78,
-		t_level = 8,
+		nation = 3,
 		ships = {
 			30156,
 			30157,
@@ -1373,10 +1373,10 @@ pg.fleet_tech_ship_class = {
 	[30110] = {
 		shiptype = 1,
 		name = "Asashio Class",
-		nation = 3,
+		t_level = 6,
 		id = 30110,
 		t_level_1 = 79,
-		t_level = 6,
+		nation = 3,
 		ships = {
 			30163,
 			30164,
@@ -1388,10 +1388,10 @@ pg.fleet_tech_ship_class = {
 	[30111] = {
 		shiptype = 1,
 		name = "Yuugumo Class",
-		nation = 3,
+		t_level = 8,
 		id = 30111,
 		t_level_1 = 80,
-		t_level = 8,
+		nation = 3,
 		ships = {
 			30180,
 			30186,
@@ -1402,10 +1402,10 @@ pg.fleet_tech_ship_class = {
 	[30112] = {
 		shiptype = 1,
 		name = "Kitakaze Class",
-		nation = 3,
+		t_level = 9,
 		id = 30112,
 		t_level_1 = 0,
-		t_level = 9,
+		nation = 3,
 		ships = {
 			39903
 		}
@@ -1413,10 +1413,10 @@ pg.fleet_tech_ship_class = {
 	[30113] = {
 		shiptype = 1,
 		name = "Shimakaze Class",
-		nation = 3,
+		t_level = 10,
 		id = 30113,
 		t_level_1 = 0,
-		t_level = 10,
+		nation = 3,
 		ships = {
 			30129
 		}
@@ -1424,10 +1424,10 @@ pg.fleet_tech_ship_class = {
 	[30201] = {
 		shiptype = 2,
 		name = "Yuubari Class",
-		nation = 3,
+		t_level = 3,
 		id = 30201,
 		t_level_1 = 81,
-		t_level = 3,
+		nation = 3,
 		ships = {
 			30201
 		}
@@ -1435,10 +1435,10 @@ pg.fleet_tech_ship_class = {
 	[30202] = {
 		shiptype = 2,
 		name = "Nagara Class",
-		nation = 3,
+		t_level = 3,
 		id = 30202,
 		t_level_1 = 82,
-		t_level = 3,
+		nation = 3,
 		ships = {
 			30204,
 			30205,
@@ -1451,10 +1451,10 @@ pg.fleet_tech_ship_class = {
 	[30203] = {
 		shiptype = 2,
 		name = "Mogami Class",
-		nation = 3,
+		t_level = 7,
 		id = 30203,
 		t_level_1 = 83,
-		t_level = 7,
+		nation = 3,
 		ships = {
 			30210,
 			30211,
@@ -1465,10 +1465,10 @@ pg.fleet_tech_ship_class = {
 	[30204] = {
 		shiptype = 2,
 		name = "Sendai Class",
-		nation = 3,
+		t_level = 4,
 		id = 30204,
 		t_level_1 = 84,
-		t_level = 4,
+		nation = 3,
 		ships = {
 			30212,
 			30213,
@@ -1478,10 +1478,10 @@ pg.fleet_tech_ship_class = {
 	[30205] = {
 		shiptype = 2,
 		name = "Agano Class",
-		nation = 3,
+		t_level = 5,
 		id = 30205,
 		t_level_1 = 85,
-		t_level = 5,
+		nation = 3,
 		ships = {
 			30220,
 			30221,
@@ -1491,10 +1491,10 @@ pg.fleet_tech_ship_class = {
 	[30206] = {
 		shiptype = 2,
 		name = "Shimanto",
-		nation = 3,
+		t_level = 8,
 		id = 30206,
 		t_level_1 = 86,
-		t_level = 8,
+		nation = 3,
 		ships = {
 			39906
 		}
@@ -1502,10 +1502,10 @@ pg.fleet_tech_ship_class = {
 	[30301] = {
 		shiptype = 3,
 		name = "Furutaka Class",
-		nation = 3,
+		t_level = 4,
 		id = 30301,
 		t_level_1 = 86,
-		t_level = 4,
+		nation = 3,
 		ships = {
 			30301,
 			30302
@@ -1514,10 +1514,10 @@ pg.fleet_tech_ship_class = {
 	[30302] = {
 		shiptype = 3,
 		name = "Aoba Class",
-		nation = 3,
+		t_level = 5,
 		id = 30302,
 		t_level_1 = 88,
-		t_level = 5,
+		nation = 3,
 		ships = {
 			30303,
 			30304
@@ -1526,10 +1526,10 @@ pg.fleet_tech_ship_class = {
 	[30303] = {
 		shiptype = 3,
 		name = "Myoukou Class",
-		nation = 3,
+		t_level = 6,
 		id = 30303,
 		t_level_1 = 89,
-		t_level = 6,
+		nation = 3,
 		ships = {
 			30307,
 			30308,
@@ -1540,10 +1540,10 @@ pg.fleet_tech_ship_class = {
 	[30304] = {
 		shiptype = 3,
 		name = "Takao Class",
-		nation = 3,
+		t_level = 7,
 		id = 30304,
 		t_level_1 = 90,
-		t_level = 7,
+		nation = 3,
 		ships = {
 			30311,
 			30312,
@@ -1554,10 +1554,10 @@ pg.fleet_tech_ship_class = {
 	[30305] = {
 		shiptype = 3,
 		name = "Ibuki Class",
-		nation = 3,
+		t_level = 8,
 		id = 30305,
 		t_level_1 = 87,
-		t_level = 8,
+		nation = 3,
 		ships = {
 			39901
 		}
@@ -1565,10 +1565,10 @@ pg.fleet_tech_ship_class = {
 	[30306] = {
 		shiptype = 3,
 		name = "Tone Class",
-		nation = 3,
+		t_level = 7,
 		id = 30306,
 		t_level_1 = 91,
-		t_level = 7,
+		nation = 3,
 		ships = {
 			30306
 		}
@@ -1576,10 +1576,10 @@ pg.fleet_tech_ship_class = {
 	[30307] = {
 		shiptype = 3,
 		name = "Unzen Class",
-		nation = 3,
+		t_level = 10,
 		id = 30307,
 		t_level_1 = 92,
-		t_level = 10,
+		nation = 3,
 		ships = {
 			30319
 		}
@@ -1587,10 +1587,10 @@ pg.fleet_tech_ship_class = {
 	[30401] = {
 		shiptype = 4,
 		name = "Kongou Class",
-		nation = 3,
+		t_level = 3,
 		id = 30401,
 		t_level_1 = 91,
-		t_level = 3,
+		nation = 3,
 		ships = {
 			30401,
 			30402,
@@ -1601,10 +1601,10 @@ pg.fleet_tech_ship_class = {
 	[30402] = {
 		shiptype = 4,
 		name = "Amagi Class",
-		nation = 3,
+		t_level = 7,
 		id = 30402,
 		t_level_1 = 92,
-		t_level = 7,
+		nation = 3,
 		ships = {
 			30405
 		}
@@ -1612,10 +1612,10 @@ pg.fleet_tech_ship_class = {
 	[30501] = {
 		shiptype = 5,
 		name = "Fusou Class",
-		nation = 3,
+		t_level = 4,
 		id = 30501,
 		t_level_1 = 93,
-		t_level = 4,
+		nation = 3,
 		ships = {
 			30501,
 			30502
@@ -1624,10 +1624,10 @@ pg.fleet_tech_ship_class = {
 	[30502] = {
 		shiptype = 5,
 		name = "Ise Class",
-		nation = 3,
+		t_level = 5,
 		id = 30502,
 		t_level_1 = 94,
-		t_level = 5,
+		nation = 3,
 		ships = {
 			30503,
 			30504
@@ -1636,10 +1636,10 @@ pg.fleet_tech_ship_class = {
 	[30503] = {
 		shiptype = 5,
 		name = "Nagato Class",
-		nation = 3,
+		t_level = 6,
 		id = 30503,
 		t_level_1 = 95,
-		t_level = 6,
+		nation = 3,
 		ships = {
 			30505,
 			30506
@@ -1648,10 +1648,10 @@ pg.fleet_tech_ship_class = {
 	[30504] = {
 		shiptype = 5,
 		name = "Tosa Class",
-		nation = 3,
+		t_level = 7,
 		id = 30504,
 		t_level_1 = 96,
-		t_level = 7,
+		nation = 3,
 		ships = {
 			30507,
 			30508
@@ -1660,10 +1660,10 @@ pg.fleet_tech_ship_class = {
 	[30505] = {
 		shiptype = 5,
 		name = "Mikasa Class",
-		nation = 3,
+		t_level = 1,
 		id = 30505,
 		t_level_1 = 97,
-		t_level = 1,
+		nation = 3,
 		ships = {
 			30511
 		}
@@ -1671,10 +1671,10 @@ pg.fleet_tech_ship_class = {
 	[30506] = {
 		shiptype = 5,
 		name = "Izumo Class",
-		nation = 3,
+		t_level = 9,
 		id = 30506,
 		t_level_1 = 99,
-		t_level = 9,
+		nation = 3,
 		ships = {
 			39902
 		}
@@ -1682,10 +1682,10 @@ pg.fleet_tech_ship_class = {
 	[30507] = {
 		shiptype = 5,
 		name = "Kii Class ",
-		nation = 3,
+		t_level = 8,
 		id = 30507,
 		t_level_1 = 98,
-		t_level = 8,
+		nation = 3,
 		ships = {
 			30514,
 			30512,
@@ -1695,10 +1695,10 @@ pg.fleet_tech_ship_class = {
 	[30508] = {
 		shiptype = 5,
 		name = "Yamato Class",
-		nation = 3,
+		t_level = 10,
 		id = 30508,
 		t_level_1 = 100,
-		t_level = 10,
+		nation = 3,
 		ships = {
 			30510
 		}
@@ -1706,10 +1706,10 @@ pg.fleet_tech_ship_class = {
 	[30601] = {
 		shiptype = 6,
 		name = "Hiyou Class",
-		nation = 3,
+		t_level = 4,
 		id = 30601,
 		t_level_1 = 100,
-		t_level = 4,
+		nation = 3,
 		ships = {
 			30601,
 			30602
@@ -1718,10 +1718,10 @@ pg.fleet_tech_ship_class = {
 	[30602] = {
 		shiptype = 6,
 		name = "Shouhou Class",
-		nation = 3,
+		t_level = 3,
 		id = 30602,
 		t_level_1 = 101,
-		t_level = 3,
+		nation = 3,
 		ships = {
 			30605
 		}
@@ -1729,10 +1729,10 @@ pg.fleet_tech_ship_class = {
 	[30603] = {
 		shiptype = 6,
 		name = "Houshou Class",
-		nation = 3,
+		t_level = 2,
 		id = 30603,
 		t_level_1 = 102,
-		t_level = 2,
+		nation = 3,
 		ships = {
 			30603
 		}
@@ -1740,10 +1740,10 @@ pg.fleet_tech_ship_class = {
 	[30604] = {
 		shiptype = 6,
 		name = "Ryuujou Class",
-		nation = 3,
+		t_level = 4,
 		id = 30604,
 		t_level_1 = 103,
-		t_level = 4,
+		nation = 3,
 		ships = {
 			30606
 		}
@@ -1751,10 +1751,10 @@ pg.fleet_tech_ship_class = {
 	[30605] = {
 		shiptype = 6,
 		name = "Zuihou Class ",
-		nation = 3,
+		t_level = 4,
 		id = 30605,
 		t_level_1 = 102,
-		t_level = 4,
+		nation = 3,
 		ships = {
 			30607,
 			30608,
@@ -1764,10 +1764,10 @@ pg.fleet_tech_ship_class = {
 	[30701] = {
 		shiptype = 7,
 		name = "Akagi Class",
-		nation = 3,
+		t_level = 7,
 		id = 30701,
 		t_level_1 = 104,
-		t_level = 7,
+		nation = 3,
 		ships = {
 			30701
 		}
@@ -1775,10 +1775,10 @@ pg.fleet_tech_ship_class = {
 	[30702] = {
 		shiptype = 7,
 		name = "Kaga Class",
-		nation = 3,
+		t_level = 7,
 		id = 30702,
 		t_level_1 = 105,
-		t_level = 7,
+		nation = 3,
 		ships = {
 			30702
 		}
@@ -1786,10 +1786,10 @@ pg.fleet_tech_ship_class = {
 	[30703] = {
 		shiptype = 7,
 		name = "Souryuu Class",
-		nation = 3,
+		t_level = 5,
 		id = 30703,
 		t_level_1 = 106,
-		t_level = 5,
+		nation = 3,
 		ships = {
 			30703
 		}
@@ -1797,10 +1797,10 @@ pg.fleet_tech_ship_class = {
 	[30704] = {
 		shiptype = 7,
 		name = "Hiryuu Class",
-		nation = 3,
+		t_level = 5,
 		id = 30704,
 		t_level_1 = 107,
-		t_level = 5,
+		nation = 3,
 		ships = {
 			30704
 		}
@@ -1808,10 +1808,10 @@ pg.fleet_tech_ship_class = {
 	[30705] = {
 		shiptype = 7,
 		name = "Shoukaku Class",
-		nation = 3,
+		t_level = 8,
 		id = 30705,
 		t_level_1 = 108,
-		t_level = 8,
+		nation = 3,
 		ships = {
 			30705,
 			30706
@@ -1820,10 +1820,10 @@ pg.fleet_tech_ship_class = {
 	[30706] = {
 		shiptype = 7,
 		name = "Taihou Class",
-		nation = 3,
+		t_level = 9,
 		id = 30706,
 		t_level_1 = 109,
-		t_level = 9,
+		nation = 3,
 		ships = {
 			30707
 		}
@@ -1831,10 +1831,10 @@ pg.fleet_tech_ship_class = {
 	[30707] = {
 		shiptype = 7,
 		name = "Yamato Class ",
-		nation = 3,
+		t_level = 10,
 		id = 30707,
 		t_level_1 = 110,
-		t_level = 10,
+		nation = 3,
 		ships = {
 			30708
 		}
@@ -1842,10 +1842,10 @@ pg.fleet_tech_ship_class = {
 	[30708] = {
 		shiptype = 7,
 		name = "Hakuryuu Class",
-		nation = 3,
+		t_level = 10,
 		id = 30708,
 		t_level_1 = 109,
-		t_level = 10,
+		nation = 3,
 		ships = {
 			39905
 		}
@@ -1853,10 +1853,10 @@ pg.fleet_tech_ship_class = {
 	[30709] = {
 		shiptype = 7,
 		name = "Unryuu Class",
-		nation = 3,
+		t_level = 6,
 		id = 30709,
 		t_level_1 = 104,
-		t_level = 6,
+		nation = 3,
 		ships = {
 			30712
 		}
@@ -1864,10 +1864,10 @@ pg.fleet_tech_ship_class = {
 	[30801] = {
 		shiptype = 8,
 		name = "Type B1",
-		nation = 3,
+		t_level = 7,
 		id = 30801,
 		t_level_1 = 110,
-		t_level = 7,
+		nation = 3,
 		ships = {
 			30801,
 			30802,
@@ -1879,10 +1879,10 @@ pg.fleet_tech_ship_class = {
 	[30802] = {
 		shiptype = 8,
 		name = "Kaidai Type ",
-		nation = 3,
+		t_level = 7,
 		id = 30802,
 		t_level_1 = 101,
-		t_level = 7,
+		nation = 3,
 		ships = {
 			30806
 		}
@@ -1890,10 +1890,10 @@ pg.fleet_tech_ship_class = {
 	[31201] = {
 		shiptype = 12,
 		name = "Akashi Class",
-		nation = 3,
+		t_level = 5,
 		id = 31201,
 		t_level_1 = 112,
-		t_level = 5,
+		nation = 3,
 		ships = {
 			31201
 		}
@@ -1901,10 +1901,10 @@ pg.fleet_tech_ship_class = {
 	[31701] = {
 		shiptype = 17,
 		name = "Type A Mod. 2",
-		nation = 3,
+		t_level = 7,
 		id = 31701,
 		t_level_1 = 111,
-		t_level = 7,
+		nation = 3,
 		ships = {
 			31701
 		}
@@ -1912,10 +1912,10 @@ pg.fleet_tech_ship_class = {
 	[31801] = {
 		shiptype = 18,
 		name = "Azuma Class",
-		nation = 3,
+		t_level = 9,
 		id = 31801,
 		t_level_1 = 115,
-		t_level = 9,
+		nation = 3,
 		ships = {
 			39904
 		}
@@ -1923,10 +1923,10 @@ pg.fleet_tech_ship_class = {
 	[31901] = {
 		shiptype = 19,
 		name = "Kashino Class",
-		nation = 3,
+		t_level = 5,
 		id = 31901,
 		t_level_1 = 113,
-		t_level = 5,
+		nation = 3,
 		ships = {
 			31901
 		}
@@ -1934,10 +1934,10 @@ pg.fleet_tech_ship_class = {
 	[40101] = {
 		shiptype = 1,
 		name = "Type 1934",
-		nation = 4,
+		t_level = 4,
 		id = 40101,
 		t_level_1 = 113,
-		t_level = 4,
+		nation = 4,
 		ships = {
 			40101,
 			40102
@@ -1946,10 +1946,10 @@ pg.fleet_tech_ship_class = {
 	[40102] = {
 		shiptype = 1,
 		name = "Type 1936",
-		nation = 4,
+		t_level = 5,
 		id = 40102,
 		t_level_1 = 114,
-		t_level = 5,
+		nation = 4,
 		ships = {
 			40118,
 			40119,
@@ -1960,10 +1960,10 @@ pg.fleet_tech_ship_class = {
 	[40103] = {
 		shiptype = 1,
 		name = "Type 1936A",
-		nation = 4,
+		t_level = 6,
 		id = 40103,
 		t_level_1 = 115,
-		t_level = 6,
+		nation = 4,
 		ships = {
 			40123,
 			40124,
@@ -1975,10 +1975,10 @@ pg.fleet_tech_ship_class = {
 	[40104] = {
 		shiptype = 1,
 		name = "Type 1936B",
-		nation = 4,
+		t_level = 7,
 		id = 40104,
 		t_level_1 = 116,
-		t_level = 7,
+		nation = 4,
 		ships = {
 			40135,
 			40136
@@ -1987,10 +1987,10 @@ pg.fleet_tech_ship_class = {
 	[40105] = {
 		shiptype = 1,
 		name = "Type 1936C",
-		nation = 4,
+		t_level = 8,
 		id = 40105,
 		t_level_1 = 117,
-		t_level = 8,
+		nation = 4,
 		ships = {
 			40146
 		}
@@ -1998,10 +1998,10 @@ pg.fleet_tech_ship_class = {
 	[40106] = {
 		shiptype = 1,
 		name = "Type 1934A",
-		nation = 4,
+		t_level = 4,
 		id = 40106,
 		t_level_1 = 113,
-		t_level = 4,
+		nation = 4,
 		ships = {
 			40116
 		}
@@ -2009,10 +2009,10 @@ pg.fleet_tech_ship_class = {
 	[40107] = {
 		shiptype = 1,
 		name = "Type 1937J Class",
-		nation = 4,
+		t_level = 6,
 		id = 40107,
 		t_level_1 = 118,
-		t_level = 6,
+		nation = 4,
 		ships = {
 			40199
 		}
@@ -2020,10 +2020,10 @@ pg.fleet_tech_ship_class = {
 	[40108] = {
 		shiptype = 1,
 		name = "Felix Schultz",
-		nation = 4,
+		t_level = 8,
 		id = 40108,
 		t_level_1 = 119,
-		t_level = 8,
+		nation = 4,
 		ships = {
 			49908
 		}
@@ -2031,10 +2031,10 @@ pg.fleet_tech_ship_class = {
 	[40201] = {
 		shiptype = 2,
 		name = "Konigsberg Class",
-		nation = 4,
+		t_level = 3,
 		id = 40201,
 		t_level_1 = 118,
-		t_level = 3,
+		nation = 4,
 		ships = {
 			40201,
 			40202,
@@ -2044,10 +2044,10 @@ pg.fleet_tech_ship_class = {
 	[40202] = {
 		shiptype = 2,
 		name = "Leipzig Class",
-		nation = 4,
+		t_level = 4,
 		id = 40202,
 		t_level_1 = 119,
-		t_level = 4,
+		nation = 4,
 		ships = {
 			40204,
 			40205
@@ -2056,10 +2056,10 @@ pg.fleet_tech_ship_class = {
 	[40203] = {
 		shiptype = 2,
 		name = "Mainz Class",
-		nation = 4,
+		t_level = 8,
 		id = 40203,
 		t_level_1 = 120,
-		t_level = 8,
+		nation = 4,
 		ships = {
 			49903
 		}
@@ -2067,10 +2067,10 @@ pg.fleet_tech_ship_class = {
 	[40204] = {
 		shiptype = 2,
 		name = "M Class",
-		nation = 4,
+		t_level = 6,
 		id = 40204,
 		t_level_1 = 119,
-		t_level = 6,
+		nation = 4,
 		ships = {
 			40206,
 			40210
@@ -2079,10 +2079,10 @@ pg.fleet_tech_ship_class = {
 	[40205] = {
 		shiptype = 2,
 		name = "Dresden-class & Königsberg Class",
-		nation = 4,
+		t_level = 1,
 		id = 40205,
 		t_level_1 = 1,
-		t_level = 1,
+		nation = 4,
 		ships = {
 			40207
 		}
@@ -2090,10 +2090,10 @@ pg.fleet_tech_ship_class = {
 	[40206] = {
 		shiptype = 2,
 		name = "Pillau Class",
-		nation = 4,
+		t_level = 1,
 		id = 40206,
 		t_level_1 = 2,
-		t_level = 1,
+		nation = 4,
 		ships = {
 			40208
 		}
@@ -2101,10 +2101,10 @@ pg.fleet_tech_ship_class = {
 	[40301] = {
 		shiptype = 3,
 		name = "Admiral Hipper Class",
-		nation = 4,
+		t_level = 7,
 		id = 40301,
 		t_level_1 = 120,
-		t_level = 7,
+		nation = 4,
 		ships = {
 			40301,
 			40303,
@@ -2114,10 +2114,10 @@ pg.fleet_tech_ship_class = {
 	[40302] = {
 		shiptype = 3,
 		name = "Deutschland Class",
-		nation = 4,
+		t_level = 5,
 		id = 40302,
 		t_level_1 = 121,
-		t_level = 5,
+		nation = 4,
 		ships = {
 			40304,
 			40305
@@ -2126,10 +2126,10 @@ pg.fleet_tech_ship_class = {
 	[40303] = {
 		shiptype = 3,
 		name = "Roon Class",
-		nation = 4,
+		t_level = 9,
 		id = 40303,
 		t_level_1 = 122,
-		t_level = 9,
+		nation = 4,
 		ships = {
 			49901
 		}
@@ -2137,10 +2137,10 @@ pg.fleet_tech_ship_class = {
 	[40304] = {
 		shiptype = 3,
 		name = "P Class ",
-		nation = 4,
+		t_level = 5,
 		id = 40304,
 		t_level_1 = 123,
-		t_level = 5,
+		nation = 4,
 		ships = {
 			40309,
 			40310,
@@ -2150,10 +2150,10 @@ pg.fleet_tech_ship_class = {
 	[40305] = {
 		shiptype = 3,
 		name = "Roon Class",
-		nation = 4,
+		t_level = 1,
 		id = 40305,
 		t_level_1 = 1,
-		t_level = 1,
+		nation = 4,
 		ships = {
 			40311
 		}
@@ -2161,10 +2161,10 @@ pg.fleet_tech_ship_class = {
 	[40306] = {
 		shiptype = 3,
 		name = "Hindenburg",
-		nation = 4,
+		t_level = 10,
 		id = 40306,
 		t_level_1 = 1,
-		t_level = 10,
+		nation = 4,
 		ships = {
 			49909
 		}
@@ -2172,10 +2172,10 @@ pg.fleet_tech_ship_class = {
 	[40401] = {
 		shiptype = 4,
 		name = "Scharnhorst Class",
-		nation = 4,
+		t_level = 6,
 		id = 40401,
 		t_level_1 = 123,
-		t_level = 6,
+		nation = 4,
 		ships = {
 			40401,
 			40402
@@ -2184,10 +2184,10 @@ pg.fleet_tech_ship_class = {
 	[40402] = {
 		shiptype = 4,
 		name = "Odin Class",
-		nation = 4,
+		t_level = 8,
 		id = 40402,
 		t_level_1 = 124,
-		t_level = 8,
+		nation = 4,
 		ships = {
 			49904
 		}
@@ -2195,10 +2195,10 @@ pg.fleet_tech_ship_class = {
 	[40403] = {
 		shiptype = 4,
 		name = "Seydlitz",
-		nation = 4,
+		t_level = 1,
 		id = 40403,
 		t_level_1 = 1,
-		t_level = 1,
+		nation = 4,
 		ships = {
 			40403
 		}
@@ -2206,10 +2206,10 @@ pg.fleet_tech_ship_class = {
 	[40404] = {
 		shiptype = 4,
 		name = "Derfflinger Class",
-		nation = 4,
+		t_level = 1,
 		id = 40404,
 		t_level_1 = 2,
-		t_level = 1,
+		nation = 4,
 		ships = {
 			40404
 		}
@@ -2217,10 +2217,10 @@ pg.fleet_tech_ship_class = {
 	[40405] = {
 		shiptype = 4,
 		name = "Prinz Rupprecht",
-		nation = 4,
+		t_level = 9,
 		id = 40405,
 		t_level_1 = 124,
-		t_level = 9,
+		nation = 4,
 		ships = {
 			49907
 		}
@@ -2228,10 +2228,10 @@ pg.fleet_tech_ship_class = {
 	[40406] = {
 		shiptype = 4,
 		name = "O Class",
-		nation = 4,
+		t_level = 7,
 		id = 40406,
 		t_level_1 = 123,
-		t_level = 7,
+		nation = 4,
 		ships = {
 			40405
 		}
@@ -2239,10 +2239,10 @@ pg.fleet_tech_ship_class = {
 	[40501] = {
 		shiptype = 5,
 		name = "Bismarck Class",
-		nation = 4,
+		t_level = 7,
 		id = 40501,
 		t_level_1 = 124,
-		t_level = 7,
+		nation = 4,
 		ships = {
 			40501,
 			40502
@@ -2251,10 +2251,10 @@ pg.fleet_tech_ship_class = {
 	[40502] = {
 		shiptype = 5,
 		name = "Friedrich der Große Class",
-		nation = 4,
+		t_level = 9,
 		id = 40502,
 		t_level_1 = 0,
-		t_level = 9,
+		nation = 4,
 		ships = {
 			49902
 		}
@@ -2262,10 +2262,10 @@ pg.fleet_tech_ship_class = {
 	[40503] = {
 		shiptype = 5,
 		name = "Ulrich von Hutten",
-		nation = 4,
+		t_level = 9,
 		id = 40503,
 		t_level_1 = 124,
-		t_level = 9,
+		nation = 4,
 		ships = {
 			40503
 		}
@@ -2273,10 +2273,10 @@ pg.fleet_tech_ship_class = {
 	[40504] = {
 		shiptype = 5,
 		name = "Helgoland Class",
-		nation = 4,
+		t_level = 1,
 		id = 40504,
 		t_level_1 = 1,
-		t_level = 1,
+		nation = 4,
 		ships = {
 			40504
 		}
@@ -2284,10 +2284,10 @@ pg.fleet_tech_ship_class = {
 	[40505] = {
 		shiptype = 5,
 		name = "Bismarck Zwei",
-		nation = 4,
+		t_level = 9,
 		id = 40505,
 		t_level_1 = 1,
-		t_level = 9,
+		nation = 4,
 		ships = {
 			40505
 		}
@@ -2295,10 +2295,10 @@ pg.fleet_tech_ship_class = {
 	[40601] = {
 		shiptype = 6,
 		name = "Weser Class",
-		nation = 4,
+		t_level = 4,
 		id = 40601,
 		t_level_1 = 124,
-		t_level = 4,
+		nation = 4,
 		ships = {
 			40601
 		}
@@ -2306,10 +2306,10 @@ pg.fleet_tech_ship_class = {
 	[40602] = {
 		shiptype = 6,
 		name = "Jade Class",
-		nation = 4,
+		t_level = 4,
 		id = 40602,
 		t_level_1 = 125,
-		t_level = 4,
+		nation = 4,
 		ships = {
 			40602,
 			40603
@@ -2318,10 +2318,10 @@ pg.fleet_tech_ship_class = {
 	[40701] = {
 		shiptype = 7,
 		name = "Graf Zeppelin Class",
-		nation = 4,
+		t_level = 6,
 		id = 40701,
 		t_level_1 = 125,
-		t_level = 6,
+		nation = 4,
 		ships = {
 			40701,
 			40703
@@ -2330,10 +2330,10 @@ pg.fleet_tech_ship_class = {
 	[40702] = {
 		shiptype = 7,
 		name = "August von Parseval Class",
-		nation = 4,
+		t_level = 7,
 		id = 40702,
 		t_level_1 = 126,
-		t_level = 7,
+		nation = 4,
 		ships = {
 			49906
 		}
@@ -2341,10 +2341,10 @@ pg.fleet_tech_ship_class = {
 	[40801] = {
 		shiptype = 8,
 		name = "Type VIIB",
-		nation = 4,
+		t_level = 6,
 		id = 40801,
 		t_level_1 = 126,
-		t_level = 6,
+		nation = 4,
 		ships = {
 			40802,
 			40805,
@@ -2354,10 +2354,10 @@ pg.fleet_tech_ship_class = {
 	[40802] = {
 		shiptype = 8,
 		name = "Type VIIC",
-		nation = 4,
+		t_level = 7,
 		id = 40802,
 		t_level_1 = 127,
-		t_level = 7,
+		nation = 4,
 		ships = {
 			40801,
 			40804,
@@ -2370,10 +2370,10 @@ pg.fleet_tech_ship_class = {
 	[40803] = {
 		shiptype = 8,
 		name = "Type IXC",
-		nation = 4,
+		t_level = 7,
 		id = 40803,
 		t_level_1 = 142,
-		t_level = 7,
+		nation = 4,
 		ships = {
 			40807
 		}
@@ -2381,10 +2381,10 @@ pg.fleet_tech_ship_class = {
 	[40804] = {
 		shiptype = 8,
 		name = "Type IXB",
-		nation = 4,
+		t_level = 7,
 		id = 40804,
 		t_level_1 = 141,
-		t_level = 7,
+		nation = 4,
 		ships = {
 			40808
 		}
@@ -2392,10 +2392,10 @@ pg.fleet_tech_ship_class = {
 	[40805] = {
 		shiptype = 8,
 		name = "Type IXA",
-		nation = 4,
+		t_level = 7,
 		id = 40805,
 		t_level_1 = 140,
-		t_level = 7,
+		nation = 4,
 		ships = {
 			40810
 		}
@@ -2403,10 +2403,10 @@ pg.fleet_tech_ship_class = {
 	[41801] = {
 		shiptype = 18,
 		name = "Ägir Class",
-		nation = 4,
+		t_level = 9,
 		id = 41801,
 		t_level_1 = 123,
-		t_level = 9,
+		nation = 4,
 		ships = {
 			49905
 		}
@@ -2414,10 +2414,10 @@ pg.fleet_tech_ship_class = {
 	[50101] = {
 		shiptype = 1,
 		name = "An Shan Class",
-		nation = 5,
+		t_level = 4,
 		id = 50101,
 		t_level_1 = 128,
-		t_level = 4,
+		nation = 5,
 		ships = {
 			50101,
 			50102,
@@ -2428,10 +2428,10 @@ pg.fleet_tech_ship_class = {
 	[50102] = {
 		shiptype = 1,
 		name = "Fei Yuen",
-		nation = 5,
+		t_level = 1,
 		id = 50102,
 		t_level_1 = 128,
-		t_level = 1,
+		nation = 5,
 		ships = {
 			50107
 		}
@@ -2439,10 +2439,10 @@ pg.fleet_tech_ship_class = {
 	[50103] = {
 		shiptype = 1,
 		name = "Lung Wu Class",
-		nation = 5,
+		t_level = 1,
 		id = 50103,
 		t_level_1 = 128,
-		t_level = 1,
+		nation = 5,
 		ships = {
 			50105,
 			50106
@@ -2451,10 +2451,10 @@ pg.fleet_tech_ship_class = {
 	[50201] = {
 		shiptype = 2,
 		name = "Ning Hai Class",
-		nation = 5,
+		t_level = 3,
 		id = 50201,
 		t_level_1 = 129,
-		t_level = 3,
+		nation = 5,
 		ships = {
 			50202,
 			50203
@@ -2463,10 +2463,10 @@ pg.fleet_tech_ship_class = {
 	[50202] = {
 		shiptype = 2,
 		name = "Yat Sen Class",
-		nation = 5,
+		t_level = 2,
 		id = 50202,
 		t_level_1 = 130,
-		t_level = 2,
+		nation = 5,
 		ships = {
 			50201
 		}
@@ -2474,10 +2474,10 @@ pg.fleet_tech_ship_class = {
 	[50203] = {
 		shiptype = 2,
 		name = "Chao Ho Class ",
-		nation = 5,
+		t_level = 1,
 		id = 50203,
 		t_level_1 = 128,
-		t_level = 1,
+		nation = 5,
 		ships = {
 			50205,
 			50204
@@ -2486,10 +2486,10 @@ pg.fleet_tech_ship_class = {
 	[50204] = {
 		shiptype = 2,
 		name = "Hai Tien-class",
-		nation = 5,
+		t_level = 1,
 		id = 50204,
 		t_level_1 = 129,
-		t_level = 1,
+		nation = 5,
 		ships = {
 			50207,
 			50208
@@ -2498,10 +2498,10 @@ pg.fleet_tech_ship_class = {
 	[50205] = {
 		shiptype = 2,
 		name = "Harbin",
-		nation = 5,
+		t_level = 7,
 		id = 50205,
 		t_level_1 = 129,
-		t_level = 7,
+		nation = 5,
 		ships = {
 			59901
 		}
@@ -2509,10 +2509,10 @@ pg.fleet_tech_ship_class = {
 	[50206] = {
 		shiptype = 2,
 		name = "Chi An",
-		nation = 5,
+		t_level = 1,
 		id = 50206,
 		t_level_1 = 130,
-		t_level = 1,
+		nation = 5,
 		ships = {
 			50209
 		}
@@ -2520,10 +2520,10 @@ pg.fleet_tech_ship_class = {
 	[50401] = {
 		shiptype = 4,
 		name = "Huan Ch'ang",
-		nation = 5,
+		t_level = 1,
 		id = 50401,
 		t_level_1 = 130,
-		t_level = 1,
+		nation = 5,
 		ships = {
 			50401
 		}
@@ -2531,10 +2531,10 @@ pg.fleet_tech_ship_class = {
 	[50601] = {
 		shiptype = 6,
 		name = "Chen Hai",
-		nation = 5,
+		t_level = 1,
 		id = 50601,
 		t_level_1 = 130,
-		t_level = 1,
+		nation = 5,
 		ships = {
 			50601
 		}
@@ -2542,10 +2542,10 @@ pg.fleet_tech_ship_class = {
 	[50602] = {
 		shiptype = 6,
 		name = "Hwah Jah",
-		nation = 5,
+		t_level = 1,
 		id = 50602,
 		t_level_1 = 130,
-		t_level = 1,
+		nation = 5,
 		ships = {
 			50602
 		}
@@ -2553,10 +2553,10 @@ pg.fleet_tech_ship_class = {
 	[51901] = {
 		shiptype = 19,
 		name = "Ting An",
-		nation = 5,
+		t_level = 1,
 		id = 51901,
 		t_level_1 = 131,
-		t_level = 1,
+		nation = 5,
 		ships = {
 			51901
 		}
@@ -2564,10 +2564,10 @@ pg.fleet_tech_ship_class = {
 	[60101] = {
 		shiptype = 1,
 		name = "Soldati Class",
-		nation = 6,
+		t_level = 6,
 		id = 60101,
 		t_level_1 = 131,
-		t_level = 6,
+		nation = 6,
 		ships = {
 			60102
 		}
@@ -2575,10 +2575,10 @@ pg.fleet_tech_ship_class = {
 	[60102] = {
 		shiptype = 1,
 		name = "Alfredo Oriani Class",
-		nation = 6,
+		t_level = 5,
 		id = 60102,
 		t_level_1 = 130,
-		t_level = 5,
+		nation = 6,
 		ships = {
 			60103,
 			60108
@@ -2587,10 +2587,10 @@ pg.fleet_tech_ship_class = {
 	[60103] = {
 		shiptype = 1,
 		name = "Maestrale Class",
-		nation = 6,
+		t_level = 5,
 		id = 60103,
 		t_level_1 = 129,
-		t_level = 5,
+		nation = 6,
 		ships = {
 			60104,
 			60105
@@ -2599,10 +2599,10 @@ pg.fleet_tech_ship_class = {
 	[60104] = {
 		shiptype = 1,
 		name = "Navigatori Class",
-		nation = 6,
+		t_level = 4,
 		id = 60104,
 		t_level_1 = 128,
-		t_level = 4,
+		nation = 6,
 		ships = {
 			60106,
 			60109
@@ -2611,10 +2611,10 @@ pg.fleet_tech_ship_class = {
 	[60105] = {
 		shiptype = 1,
 		name = "Capitani Romani Class",
-		nation = 6,
+		t_level = 10,
 		id = 60105,
 		t_level_1 = 132,
-		t_level = 10,
+		nation = 6,
 		ships = {
 			60107,
 			60110
@@ -2623,10 +2623,10 @@ pg.fleet_tech_ship_class = {
 	[60201] = {
 		shiptype = 2,
 		name = "Duca degli Abruzzi Class",
-		nation = 6,
+		t_level = 7,
 		id = 60201,
 		t_level_1 = 131,
-		t_level = 7,
+		nation = 6,
 		ships = {
 			60201,
 			60202
@@ -2635,10 +2635,10 @@ pg.fleet_tech_ship_class = {
 	[60301] = {
 		shiptype = 3,
 		name = "Zara Class",
-		nation = 6,
+		t_level = 7,
 		id = 60301,
 		t_level_1 = 132,
-		t_level = 7,
+		nation = 6,
 		ships = {
 			60302,
 			60303,
@@ -2648,10 +2648,10 @@ pg.fleet_tech_ship_class = {
 	[60302] = {
 		shiptype = 3,
 		name = "Trento Class",
-		nation = 6,
+		t_level = 5,
 		id = 60302,
 		t_level_1 = 133,
-		t_level = 5,
+		nation = 6,
 		ships = {
 			60301,
 			60304
@@ -2660,10 +2660,10 @@ pg.fleet_tech_ship_class = {
 	[60303] = {
 		shiptype = 3,
 		name = "Bolzano",
-		nation = 6,
+		t_level = 6,
 		id = 60303,
 		t_level_1 = 1,
-		t_level = 6,
+		nation = 6,
 		ships = {
 			60305
 		}
@@ -2671,10 +2671,10 @@ pg.fleet_tech_ship_class = {
 	[60501] = {
 		shiptype = 5,
 		name = "Vittorio Veneto Class",
-		nation = 6,
+		t_level = 7,
 		id = 60501,
 		t_level_1 = 134,
-		t_level = 7,
+		nation = 6,
 		ships = {
 			60501,
 			60502,
@@ -2684,10 +2684,10 @@ pg.fleet_tech_ship_class = {
 	[60502] = {
 		shiptype = 5,
 		name = "Conte di Cavour Class",
-		nation = 6,
+		t_level = 4,
 		id = 60502,
 		t_level_1 = 135,
-		t_level = 4,
+		nation = 6,
 		ships = {
 			60505,
 			60506
@@ -2696,10 +2696,10 @@ pg.fleet_tech_ship_class = {
 	[60503] = {
 		shiptype = 5,
 		name = "Marco Polo Class",
-		nation = 6,
+		t_level = 8,
 		id = 60503,
 		t_level_1 = 136,
-		t_level = 8,
+		nation = 6,
 		ships = {
 			69901
 		}
@@ -2707,10 +2707,10 @@ pg.fleet_tech_ship_class = {
 	[60504] = {
 		shiptype = 5,
 		name = "Andrea Doria-class",
-		nation = 6,
+		t_level = 5,
 		id = 60504,
 		t_level_1 = 135,
-		t_level = 5,
+		nation = 6,
 		ships = {
 			60507
 		}
@@ -2718,10 +2718,10 @@ pg.fleet_tech_ship_class = {
 	[60701] = {
 		shiptype = 7,
 		name = "Aquila Class",
-		nation = 6,
+		t_level = 6,
 		id = 60701,
 		t_level_1 = 136,
-		t_level = 6,
+		nation = 6,
 		ships = {
 			60701
 		}
@@ -2729,10 +2729,10 @@ pg.fleet_tech_ship_class = {
 	[60702] = {
 		shiptype = 7,
 		name = "Vittorio Veneto Class",
-		nation = 6,
+		t_level = 7,
 		id = 60702,
 		t_level_1 = 135,
-		t_level = 7,
+		nation = 6,
 		ships = {
 			60702
 		}
@@ -2740,10 +2740,10 @@ pg.fleet_tech_ship_class = {
 	[60801] = {
 		shiptype = 8,
 		name = "Brin Class",
-		nation = 6,
+		t_level = 6,
 		id = 60801,
 		t_level_1 = 137,
-		t_level = 6,
+		nation = 6,
 		ships = {
 			60801
 		}
@@ -2751,10 +2751,10 @@ pg.fleet_tech_ship_class = {
 	[60802] = {
 		shiptype = 8,
 		name = "Marconi Class",
-		nation = 6,
+		t_level = 7,
 		id = 60802,
 		t_level_1 = 1,
-		t_level = 7,
+		nation = 6,
 		ships = {
 			60802
 		}
@@ -2762,10 +2762,10 @@ pg.fleet_tech_ship_class = {
 	[70101] = {
 		shiptype = 1,
 		name = "Gnevny Class",
-		nation = 7,
+		t_level = 4,
 		id = 70101,
 		t_level_1 = 136,
-		t_level = 4,
+		nation = 7,
 		ships = {
 			70102,
 			70106,
@@ -2776,10 +2776,10 @@ pg.fleet_tech_ship_class = {
 	[70102] = {
 		shiptype = 1,
 		name = "Leningrad Class",
-		nation = 7,
+		t_level = 5,
 		id = 70102,
 		t_level_1 = 134,
-		t_level = 5,
+		nation = 7,
 		ships = {
 			70103
 		}
@@ -2787,10 +2787,10 @@ pg.fleet_tech_ship_class = {
 	[70103] = {
 		shiptype = 1,
 		name = "Tashkent Class",
-		nation = 7,
+		t_level = 8,
 		id = 70103,
 		t_level_1 = 130,
-		t_level = 8,
+		nation = 7,
 		ships = {
 			70104
 		}
@@ -2798,10 +2798,10 @@ pg.fleet_tech_ship_class = {
 	[70104] = {
 		shiptype = 1,
 		name = "Kiev-Class",
-		nation = 7,
+		t_level = 8,
 		id = 70104,
 		t_level_1 = 131,
-		t_level = 8,
+		nation = 7,
 		ships = {
 			70110
 		}
@@ -2809,10 +2809,10 @@ pg.fleet_tech_ship_class = {
 	[70105] = {
 		shiptype = 1,
 		name = "Storozhevoy-Class",
-		nation = 7,
+		t_level = 4,
 		id = 70105,
 		t_level_1 = 136,
-		t_level = 4,
+		nation = 7,
 		ships = {
 			70109,
 			70112
@@ -2821,10 +2821,10 @@ pg.fleet_tech_ship_class = {
 	[70106] = {
 		shiptype = 1,
 		name = "Ognevoy-Class",
-		nation = 7,
+		t_level = 6,
 		id = 70106,
 		t_level_1 = 131,
-		t_level = 6,
+		nation = 7,
 		ships = {
 			70111
 		}
@@ -2832,10 +2832,10 @@ pg.fleet_tech_ship_class = {
 	[70201] = {
 		shiptype = 2,
 		name = "Pallada Class",
-		nation = 7,
+		t_level = 1,
 		id = 70201,
 		t_level_1 = 131,
-		t_level = 1,
+		nation = 7,
 		ships = {
 			70201
 		}
@@ -2843,10 +2843,10 @@ pg.fleet_tech_ship_class = {
 	[70202] = {
 		shiptype = 2,
 		name = "Bogatyr Class",
-		nation = 7,
+		t_level = 1,
 		id = 70202,
 		t_level_1 = 132,
-		t_level = 1,
+		nation = 7,
 		ships = {
 			70202
 		}
@@ -2854,10 +2854,10 @@ pg.fleet_tech_ship_class = {
 	[70203] = {
 		shiptype = 2,
 		name = "Chapayev Class",
-		nation = 7,
+		t_level = 7,
 		id = 70203,
 		t_level_1 = 135,
-		t_level = 7,
+		nation = 7,
 		ships = {
 			70203,
 			70205
@@ -2866,10 +2866,10 @@ pg.fleet_tech_ship_class = {
 	[70204] = {
 		shiptype = 2,
 		name = "Kirov Class",
-		nation = 7,
+		t_level = 6,
 		id = 70204,
 		t_level_1 = 135,
-		t_level = 6,
+		nation = 7,
 		ships = {
 			70204,
 			70207
@@ -2878,10 +2878,10 @@ pg.fleet_tech_ship_class = {
 	[70205] = {
 		shiptype = 2,
 		name = "Omaha Class",
-		nation = 7,
+		t_level = 3,
 		id = 70205,
 		t_level_1 = 135,
-		t_level = 3,
+		nation = 7,
 		ships = {
 			70206
 		}
@@ -2889,10 +2889,10 @@ pg.fleet_tech_ship_class = {
 	[70301] = {
 		shiptype = 3,
 		name = "Tallinn Class",
-		nation = 7,
+		t_level = 7,
 		id = 70301,
 		t_level_1 = 136,
-		t_level = 7,
+		nation = 7,
 		ships = {
 			70301
 		}
@@ -2900,10 +2900,10 @@ pg.fleet_tech_ship_class = {
 	[70302] = {
 		shiptype = 3,
 		name = "Kursk",
-		nation = 7,
+		t_level = 8,
 		id = 70302,
 		t_level_1 = 136,
-		t_level = 8,
+		nation = 7,
 		ships = {
 			70302
 		}
@@ -2911,10 +2911,10 @@ pg.fleet_tech_ship_class = {
 	[70501] = {
 		shiptype = 5,
 		name = "Gangut Class",
-		nation = 7,
+		t_level = 5,
 		id = 70501,
 		t_level_1 = 135,
-		t_level = 5,
+		nation = 7,
 		ships = {
 			70501,
 			70507,
@@ -2924,10 +2924,10 @@ pg.fleet_tech_ship_class = {
 	[70502] = {
 		shiptype = 5,
 		name = "Sovetsky Soyuz Class",
-		nation = 7,
+		t_level = 8,
 		id = 70502,
 		t_level_1 = 131,
-		t_level = 8,
+		nation = 7,
 		ships = {
 			70502,
 			70504,
@@ -2937,10 +2937,10 @@ pg.fleet_tech_ship_class = {
 	[70503] = {
 		shiptype = 5,
 		name = "R-class battleship – Arkhangelsk.",
-		nation = 7,
+		t_level = 6,
 		id = 70503,
 		t_level_1 = 136,
-		t_level = 6,
+		nation = 7,
 		ships = {
 			70506
 		}
@@ -2948,10 +2948,10 @@ pg.fleet_tech_ship_class = {
 	[70701] = {
 		shiptype = 7,
 		name = "Volga.",
-		nation = 7,
+		t_level = 8,
 		id = 70701,
 		t_level_1 = 137,
-		t_level = 8,
+		nation = 7,
 		ships = {
 			70701
 		}
@@ -2959,10 +2959,10 @@ pg.fleet_tech_ship_class = {
 	[70702] = {
 		shiptype = 7,
 		name = "Chkalov",
-		nation = 7,
+		t_level = 8,
 		id = 70702,
 		t_level_1 = 138,
-		t_level = 8,
+		nation = 7,
 		ships = {
 			79901
 		}
@@ -2970,10 +2970,10 @@ pg.fleet_tech_ship_class = {
 	[71801] = {
 		shiptype = 18,
 		name = "Kronshtadt",
-		nation = 7,
+		t_level = 9,
 		id = 71801,
 		t_level_1 = 138,
-		t_level = 9,
+		nation = 7,
 		ships = {
 			71801
 		}
@@ -2981,10 +2981,10 @@ pg.fleet_tech_ship_class = {
 	[80101] = {
 		shiptype = 1,
 		name = "Le Fantasque Class",
-		nation = 8,
+		t_level = 8,
 		id = 80101,
 		t_level_1 = 132,
-		t_level = 8,
+		nation = 8,
 		ships = {
 			80101,
 			80107
@@ -2993,10 +2993,10 @@ pg.fleet_tech_ship_class = {
 	[80102] = {
 		shiptype = 1,
 		name = "L'Intrépide Class",
-		nation = 8,
+		t_level = 6,
 		id = 80102,
 		t_level_1 = 133,
-		t_level = 6,
+		nation = 8,
 		ships = {
 			80103,
 			80104
@@ -3005,10 +3005,10 @@ pg.fleet_tech_ship_class = {
 	[80103] = {
 		shiptype = 1,
 		name = "L'Adroit Class",
-		nation = 8,
+		t_level = 4,
 		id = 80103,
 		t_level_1 = 134,
-		t_level = 4,
+		nation = 8,
 		ships = {
 			80102
 		}
@@ -3016,10 +3016,10 @@ pg.fleet_tech_ship_class = {
 	[80104] = {
 		shiptype = 1,
 		name = "Vauquelin Class ",
-		nation = 8,
+		t_level = 7,
 		id = 80104,
 		t_level_1 = 131,
-		t_level = 7,
+		nation = 8,
 		ships = {
 			80108
 		}
@@ -3027,10 +3027,10 @@ pg.fleet_tech_ship_class = {
 	[80201] = {
 		shiptype = 2,
 		name = "Émile Bertin Class",
-		nation = 8,
+		t_level = 4,
 		id = 80201,
 		t_level_1 = 135,
-		t_level = 4,
+		nation = 8,
 		ships = {
 			80201
 		}
@@ -3038,10 +3038,10 @@ pg.fleet_tech_ship_class = {
 	[80202] = {
 		shiptype = 2,
 		name = "Jeanne d'Arc Class",
-		nation = 8,
+		t_level = 3,
 		id = 80202,
 		t_level_1 = 132,
-		t_level = 3,
+		nation = 8,
 		ships = {
 			80202
 		}
@@ -3049,10 +3049,10 @@ pg.fleet_tech_ship_class = {
 	[80203] = {
 		shiptype = 2,
 		name = "De Grasse Class",
-		nation = 8,
+		t_level = 6,
 		id = 80203,
 		t_level_1 = 133,
-		t_level = 6,
+		nation = 8,
 		ships = {
 			80203
 		}
@@ -3060,10 +3060,10 @@ pg.fleet_tech_ship_class = {
 	[80301] = {
 		shiptype = 3,
 		name = "Saint Louis Class",
-		nation = 8,
+		t_level = 8,
 		id = 80301,
 		t_level_1 = 136,
-		t_level = 8,
+		nation = 8,
 		ships = {
 			89901
 		}
@@ -3071,21 +3071,32 @@ pg.fleet_tech_ship_class = {
 	[80302] = {
 		shiptype = 3,
 		name = "Suffren Class",
-		nation = 8,
+		t_level = 5,
 		id = 80302,
 		t_level_1 = 137,
-		t_level = 5,
+		nation = 8,
 		ships = {
 			80301
+		}
+	},
+	[80303] = {
+		shiptype = 3,
+		name = "Brennus",
+		t_level = 8,
+		id = 80303,
+		t_level_1 = 137,
+		nation = 8,
+		ships = {
+			80302
 		}
 	},
 	[80501] = {
 		shiptype = 5,
 		name = "Richelieu Class",
-		nation = 8,
+		t_level = 7,
 		id = 80501,
 		t_level_1 = 139,
-		t_level = 7,
+		nation = 8,
 		ships = {
 			80501
 		}
@@ -3093,10 +3104,10 @@ pg.fleet_tech_ship_class = {
 	[80502] = {
 		shiptype = 5,
 		name = "Champagne Class",
-		nation = 8,
+		t_level = 9,
 		id = 80502,
 		t_level_1 = 140,
-		t_level = 9,
+		nation = 8,
 		ships = {
 			89902
 		}
@@ -3104,21 +3115,32 @@ pg.fleet_tech_ship_class = {
 	[80503] = {
 		shiptype = 5,
 		name = "Lyon Class",
-		nation = 8,
+		t_level = 4,
 		id = 80503,
 		t_level_1 = 141,
-		t_level = 4,
+		nation = 8,
 		ships = {
 			80502
+		}
+	},
+	[80504] = {
+		shiptype = 5,
+		name = "Alsace Class",
+		t_level = 9,
+		id = 80504,
+		t_level_1 = 1,
+		nation = 8,
+		ships = {
+			80503
 		}
 	},
 	[80701] = {
 		shiptype = 7,
 		name = "Béarn Class",
-		nation = 8,
+		t_level = 4,
 		id = 80701,
 		t_level_1 = 138,
-		t_level = 4,
+		nation = 8,
 		ships = {
 			80701
 		}
@@ -3126,10 +3148,10 @@ pg.fleet_tech_ship_class = {
 	[80702] = {
 		shiptype = 7,
 		name = "Joffre Class",
-		nation = 8,
+		t_level = 6,
 		id = 80702,
 		t_level_1 = 2,
-		t_level = 6,
+		nation = 8,
 		ships = {
 			80702
 		}
@@ -3137,10 +3159,10 @@ pg.fleet_tech_ship_class = {
 	[80801] = {
 		shiptype = 8,
 		name = "Surcouf Class",
-		nation = 8,
+		t_level = 7,
 		id = 80801,
 		t_level_1 = 137,
-		t_level = 7,
+		nation = 8,
 		ships = {
 			80801
 		}
@@ -3148,10 +3170,10 @@ pg.fleet_tech_ship_class = {
 	[81801] = {
 		shiptype = 18,
 		name = "Brest",
-		nation = 8,
+		t_level = 9,
 		id = 81801,
 		t_level_1 = 138,
-		t_level = 9,
+		nation = 8,
 		ships = {
 			89903
 		}
@@ -3159,10 +3181,10 @@ pg.fleet_tech_ship_class = {
 	[90101] = {
 		shiptype = 1,
 		name = "Le Fantasque Class ",
-		nation = 9,
+		t_level = 8,
 		id = 90101,
 		t_level_1 = 132,
-		t_level = 8,
+		nation = 9,
 		ships = {
 			90111,
 			90113
@@ -3171,10 +3193,10 @@ pg.fleet_tech_ship_class = {
 	[90103] = {
 		shiptype = 1,
 		name = "L'Adroit Class",
-		nation = 9,
+		t_level = 4,
 		id = 90103,
 		t_level_1 = 138,
-		t_level = 4,
+		nation = 9,
 		ships = {
 			90101
 		}
@@ -3182,23 +3204,46 @@ pg.fleet_tech_ship_class = {
 	[90104] = {
 		shiptype = 1,
 		name = "Vauquelin Class ",
-		nation = 9,
+		t_level = 7,
 		id = 90104,
 		t_level_1 = 131,
-		t_level = 7,
+		nation = 9,
 		ships = {
 			90102,
 			90103,
 			90104
 		}
 	},
+	[90105] = {
+		shiptype = 1,
+		name = "Mogador Class",
+		t_level = 9,
+		id = 90105,
+		t_level_1 = 1,
+		nation = 9,
+		ships = {
+			90107
+		}
+	},
+	[90106] = {
+		shiptype = 1,
+		name = "Le Hardi Class",
+		t_level = 6,
+		id = 90106,
+		t_level_1 = 133,
+		nation = 9,
+		ships = {
+			90105,
+			90106
+		}
+	},
 	[90201] = {
 		shiptype = 2,
 		name = "La Galissonnière Class",
-		nation = 9,
+		t_level = 5,
 		id = 90201,
 		t_level_1 = 135,
-		t_level = 5,
+		nation = 9,
 		ships = {
 			90201,
 			90202
@@ -3207,10 +3252,10 @@ pg.fleet_tech_ship_class = {
 	[90301] = {
 		shiptype = 3,
 		name = "Algérie Class",
-		nation = 9,
+		t_level = 7,
 		id = 90301,
 		t_level_1 = 136,
-		t_level = 7,
+		nation = 9,
 		ships = {
 			90302
 		}
@@ -3218,10 +3263,10 @@ pg.fleet_tech_ship_class = {
 	[90302] = {
 		shiptype = 3,
 		name = "Suffren-Class",
-		nation = 9,
+		t_level = 5,
 		id = 90302,
 		t_level_1 = 137,
-		t_level = 5,
+		nation = 9,
 		ships = {
 			90301
 		}
@@ -3229,10 +3274,10 @@ pg.fleet_tech_ship_class = {
 	[90401] = {
 		shiptype = 4,
 		name = "Dunkerque Class",
-		nation = 9,
+		t_level = 5,
 		id = 90401,
 		t_level_1 = 139,
-		t_level = 5,
+		nation = 9,
 		ships = {
 			90401
 		}
@@ -3240,10 +3285,10 @@ pg.fleet_tech_ship_class = {
 	[90501] = {
 		shiptype = 5,
 		name = "Richelieu Class",
-		nation = 9,
+		t_level = 7,
 		id = 90501,
 		t_level_1 = 140,
-		t_level = 7,
+		nation = 9,
 		ships = {
 			90501,
 			90502,
@@ -3253,10 +3298,10 @@ pg.fleet_tech_ship_class = {
 	[90502] = {
 		shiptype = 5,
 		name = "Alsace Class",
-		nation = 9,
+		t_level = 9,
 		id = 90502,
 		t_level_1 = 1,
-		t_level = 9,
+		nation = 9,
 		ships = {
 			99902
 		}
@@ -3264,10 +3309,10 @@ pg.fleet_tech_ship_class = {
 	[90701] = {
 		shiptype = 7,
 		name = "Joffre Class",
-		nation = 9,
+		t_level = 6,
 		id = 90701,
 		t_level_1 = 1,
-		t_level = 6,
+		nation = 9,
 		ships = {
 			90701
 		}
@@ -3275,10 +3320,10 @@ pg.fleet_tech_ship_class = {
 	[960001] = {
 		shiptype = 22,
 		name = "Royal Fortune",
-		nation = 96,
+		t_level = 1,
 		id = 960001,
 		t_level_1 = 1,
-		t_level = 1,
+		nation = 96,
 		ships = {
 			960001
 		}
@@ -3286,10 +3331,10 @@ pg.fleet_tech_ship_class = {
 	[960002] = {
 		shiptype = 24,
 		name = "São Martinho",
-		nation = 96,
+		t_level = 2,
 		id = 960002,
 		t_level_1 = 1,
-		t_level = 2,
+		nation = 96,
 		ships = {
 			960002
 		}
@@ -3297,10 +3342,10 @@ pg.fleet_tech_ship_class = {
 	[960003] = {
 		shiptype = 23,
 		name = "Golden Hind",
-		nation = 96,
+		t_level = 1,
 		id = 960003,
 		t_level_1 = 2,
-		t_level = 1,
+		nation = 96,
 		ships = {
 			960003
 		}
@@ -3308,10 +3353,10 @@ pg.fleet_tech_ship_class = {
 	[960004] = {
 		shiptype = 22,
 		name = "Mary Celeste",
-		nation = 96,
+		t_level = 1,
 		id = 960004,
 		t_level_1 = 3,
-		t_level = 1,
+		nation = 96,
 		ships = {
 			960004
 		}
@@ -3319,10 +3364,10 @@ pg.fleet_tech_ship_class = {
 	[960005] = {
 		shiptype = 22,
 		name = "Whydah",
-		nation = 96,
+		t_level = 1,
 		id = 960005,
 		t_level_1 = 4,
-		t_level = 1,
+		nation = 96,
 		ships = {
 			960005
 		}
@@ -3330,10 +3375,10 @@ pg.fleet_tech_ship_class = {
 	[960006] = {
 		shiptype = 23,
 		name = "Adventure Galley",
-		nation = 96,
+		t_level = 1,
 		id = 960006,
 		t_level_1 = 5,
-		t_level = 1,
+		nation = 96,
 		ships = {
 			960006
 		}
@@ -3341,10 +3386,10 @@ pg.fleet_tech_ship_class = {
 	[970101] = {
 		shiptype = 1,
 		name = "Hunter META",
-		nation = 97,
+		t_level = 3,
 		id = 970101,
 		t_level_1 = 1,
-		t_level = 3,
+		nation = 97,
 		ships = {
 			970101
 		}
@@ -3352,10 +3397,10 @@ pg.fleet_tech_ship_class = {
 	[970102] = {
 		shiptype = 1,
 		name = "Fortune META",
-		nation = 97,
+		t_level = 3,
 		id = 970102,
 		t_level_1 = 2,
-		t_level = 3,
+		nation = 97,
 		ships = {
 			970102
 		}
@@ -3363,10 +3408,10 @@ pg.fleet_tech_ship_class = {
 	[970103] = {
 		shiptype = 1,
 		name = "Hatakaze META",
-		nation = 97,
+		t_level = 5,
 		id = 970103,
 		t_level_1 = 1,
-		t_level = 5,
+		nation = 97,
 		ships = {
 			970103
 		}
@@ -3374,10 +3419,10 @@ pg.fleet_tech_ship_class = {
 	[970104] = {
 		shiptype = 1,
 		name = "Kimberly META",
-		nation = 97,
+		t_level = 1,
 		id = 970104,
 		t_level_1 = 1,
-		t_level = 1,
+		nation = 97,
 		ships = {
 			970104
 		}
@@ -3385,10 +3430,10 @@ pg.fleet_tech_ship_class = {
 	[970105] = {
 		shiptype = 1,
 		name = "Vampire META",
-		nation = 97,
-		id = 970105,
-		t_level_1 = 1,
 		t_level = 3,
+		id = 970105,
+		t_level_1 = 9,
+		nation = 97,
 		ships = {
 			970105
 		}
@@ -3396,10 +3441,10 @@ pg.fleet_tech_ship_class = {
 	[970201] = {
 		shiptype = 2,
 		name = "Helena META",
-		nation = 97,
+		t_level = 1,
 		id = 970201,
 		t_level_1 = 2,
-		t_level = 1,
+		nation = 97,
 		ships = {
 			970201
 		}
@@ -3407,10 +3452,10 @@ pg.fleet_tech_ship_class = {
 	[970202] = {
 		shiptype = 2,
 		name = "Memphis META",
-		nation = 97,
+		t_level = 2,
 		id = 970202,
 		t_level_1 = 1,
-		t_level = 2,
+		nation = 97,
 		ships = {
 			970202
 		}
@@ -3418,10 +3463,10 @@ pg.fleet_tech_ship_class = {
 	[970203] = {
 		shiptype = 2,
 		name = "Sheffield META",
-		nation = 97,
+		t_level = 1,
 		id = 970203,
 		t_level_1 = 1,
-		t_level = 1,
+		nation = 97,
 		ships = {
 			970203
 		}
@@ -3429,10 +3474,10 @@ pg.fleet_tech_ship_class = {
 	[970204] = {
 		shiptype = 2,
 		name = "La Galissonnière META",
-		nation = 97,
+		t_level = 3,
 		id = 970204,
 		t_level_1 = 3,
-		t_level = 3,
+		nation = 97,
 		ships = {
 			970204
 		}
@@ -3440,10 +3485,10 @@ pg.fleet_tech_ship_class = {
 	[970205] = {
 		shiptype = 2,
 		name = "Jintsuu META",
-		nation = 97,
+		t_level = 2,
 		id = 970205,
 		t_level_1 = 4,
-		t_level = 2,
+		nation = 97,
 		ships = {
 			970205
 		}
@@ -3451,10 +3496,10 @@ pg.fleet_tech_ship_class = {
 	[970206] = {
 		shiptype = 2,
 		name = "Kirov META",
-		nation = 97,
+		t_level = 3,
 		id = 970206,
 		t_level_1 = 8,
-		t_level = 3,
+		nation = 97,
 		ships = {
 			970206
 		}
@@ -3462,10 +3507,10 @@ pg.fleet_tech_ship_class = {
 	[970207] = {
 		shiptype = 2,
 		name = "Pamiat' Merkuria META",
-		nation = 97,
+		t_level = 4,
 		id = 970207,
 		t_level_1 = 3,
-		t_level = 4,
+		nation = 97,
 		ships = {
 			970207
 		}
@@ -3473,10 +3518,10 @@ pg.fleet_tech_ship_class = {
 	[970301] = {
 		shiptype = 3,
 		name = "Trento META",
-		nation = 97,
+		t_level = 4,
 		id = 970301,
 		t_level_1 = 1,
-		t_level = 4,
+		nation = 97,
 		ships = {
 			970301
 		}
@@ -3484,21 +3529,32 @@ pg.fleet_tech_ship_class = {
 	[970302] = {
 		shiptype = 3,
 		name = "Algérie META",
-		nation = 97,
+		t_level = 3,
 		id = 970302,
 		t_level_1 = 6,
-		t_level = 3,
+		nation = 97,
 		ships = {
 			970302
+		}
+	},
+	[970303] = {
+		shiptype = 3,
+		name = "Foch META",
+		t_level = 3,
+		id = 970303,
+		t_level_1 = 10,
+		nation = 97,
+		ships = {
+			970303
 		}
 	},
 	[970401] = {
 		shiptype = 4,
 		name = "Gneisenau META",
-		nation = 97,
+		t_level = 3,
 		id = 970401,
 		t_level_1 = 4,
-		t_level = 3,
+		nation = 97,
 		ships = {
 			970401
 		}
@@ -3506,10 +3562,10 @@ pg.fleet_tech_ship_class = {
 	[970402] = {
 		shiptype = 4,
 		name = "Scharnhorst META",
-		nation = 97,
+		t_level = 1,
 		id = 970402,
 		t_level_1 = 3,
-		t_level = 1,
+		nation = 97,
 		ships = {
 			970402
 		}
@@ -3517,10 +3573,10 @@ pg.fleet_tech_ship_class = {
 	[970403] = {
 		shiptype = 4,
 		name = "Repulse META",
-		nation = 97,
+		t_level = 1,
 		id = 970403,
 		t_level_1 = 4,
-		t_level = 1,
+		nation = 97,
 		ships = {
 			970403
 		}
@@ -3528,10 +3584,10 @@ pg.fleet_tech_ship_class = {
 	[970404] = {
 		shiptype = 4,
 		name = "Renown META",
-		nation = 97,
+		t_level = 1,
 		id = 970404,
 		t_level_1 = 5,
-		t_level = 1,
+		nation = 97,
 		ships = {
 			970404
 		}
@@ -3539,10 +3595,10 @@ pg.fleet_tech_ship_class = {
 	[970501] = {
 		shiptype = 5,
 		name = "Fusou META",
-		nation = 97,
+		t_level = 1,
 		id = 970501,
 		t_level_1 = 6,
-		t_level = 1,
+		nation = 97,
 		ships = {
 			970501
 		}
@@ -3550,10 +3606,10 @@ pg.fleet_tech_ship_class = {
 	[970502] = {
 		shiptype = 5,
 		name = "Yamashiro META",
-		nation = 97,
+		t_level = 4,
 		id = 970502,
 		t_level_1 = 2,
-		t_level = 4,
+		nation = 97,
 		ships = {
 			970502
 		}
@@ -3561,10 +3617,10 @@ pg.fleet_tech_ship_class = {
 	[970503] = {
 		shiptype = 5,
 		name = "Arizona META",
-		nation = 97,
+		t_level = 2,
 		id = 970503,
 		t_level_1 = 2,
-		t_level = 2,
+		nation = 97,
 		ships = {
 			970503
 		}
@@ -3572,10 +3628,10 @@ pg.fleet_tech_ship_class = {
 	[970504] = {
 		shiptype = 5,
 		name = "Queen Elizabeth META",
-		nation = 97,
+		t_level = 3,
 		id = 970504,
 		t_level_1 = 5,
-		t_level = 3,
+		nation = 97,
 		ships = {
 			970504
 		}
@@ -3583,10 +3639,10 @@ pg.fleet_tech_ship_class = {
 	[970505] = {
 		shiptype = 5,
 		name = "Rodney META",
-		nation = 97,
+		t_level = 2,
 		id = 970505,
 		t_level_1 = 5,
-		t_level = 2,
+		nation = 97,
 		ships = {
 			970505
 		}
@@ -3594,10 +3650,10 @@ pg.fleet_tech_ship_class = {
 	[970601] = {
 		shiptype = 6,
 		name = "Hiyou META",
-		nation = 97,
+		t_level = 1,
 		id = 970601,
 		t_level_1 = 7,
-		t_level = 1,
+		nation = 97,
 		ships = {
 			970601
 		}
@@ -3605,10 +3661,10 @@ pg.fleet_tech_ship_class = {
 	[970602] = {
 		shiptype = 6,
 		name = "Junyou META",
-		nation = 97,
+		t_level = 1,
 		id = 970602,
 		t_level_1 = 8,
-		t_level = 1,
+		nation = 97,
 		ships = {
 			970602
 		}
@@ -3616,10 +3672,10 @@ pg.fleet_tech_ship_class = {
 	[970603] = {
 		shiptype = 6,
 		name = "Princeton META",
-		nation = 97,
+		t_level = 1,
 		id = 970603,
 		t_level_1 = 11,
-		t_level = 1,
+		nation = 97,
 		ships = {
 			970603
 		}
@@ -3627,10 +3683,10 @@ pg.fleet_tech_ship_class = {
 	[970701] = {
 		shiptype = 7,
 		name = "Hiryuu META",
-		nation = 97,
+		t_level = 1,
 		id = 970701,
 		t_level_1 = 9,
-		t_level = 1,
+		nation = 97,
 		ships = {
 			970701
 		}
@@ -3638,10 +3694,10 @@ pg.fleet_tech_ship_class = {
 	[970702] = {
 		shiptype = 7,
 		name = "Ark Royal META",
-		nation = 97,
+		t_level = 1,
 		id = 970702,
 		t_level_1 = 10,
-		t_level = 1,
+		nation = 97,
 		ships = {
 			970702
 		}
@@ -3649,21 +3705,32 @@ pg.fleet_tech_ship_class = {
 	[970703] = {
 		shiptype = 7,
 		name = "Souryuu META",
-		nation = 97,
+		t_level = 4,
 		id = 970703,
 		t_level_1 = 3,
-		t_level = 4,
+		nation = 97,
 		ships = {
 			970703
+		}
+	},
+	[970704] = {
+		shiptype = 7,
+		name = "Béarn META",
+		t_level = 4,
+		id = 970704,
+		t_level_1 = 5,
+		nation = 97,
+		ships = {
+			970704
 		}
 	},
 	[970801] = {
 		shiptype = 8,
 		name = "U-556 META",
-		nation = 97,
+		t_level = 4,
 		id = 970801,
 		t_level_1 = 4,
-		t_level = 4,
+		nation = 97,
 		ships = {
 			970801
 		}
@@ -3671,10 +3738,10 @@ pg.fleet_tech_ship_class = {
 	[971201] = {
 		shiptype = 12,
 		name = "Vestal META",
-		nation = 97,
+		t_level = 2,
 		id = 971201,
 		t_level_1 = 3,
-		t_level = 2,
+		nation = 97,
 		ships = {
 			971201
 		}
@@ -3682,10 +3749,10 @@ pg.fleet_tech_ship_class = {
 	[971301] = {
 		shiptype = 13,
 		name = "Erebus META",
-		nation = 97,
+		t_level = 3,
 		id = 971301,
 		t_level_1 = 7,
-		t_level = 3,
+		nation = 97,
 		ships = {
 			971301
 		}
@@ -3945,9 +4012,11 @@ pg.fleet_tech_ship_class = {
 		80203,
 		80301,
 		80302,
+		80303,
 		80501,
 		80502,
 		80503,
+		80504,
 		80701,
 		80702,
 		80801,
@@ -3955,6 +4024,8 @@ pg.fleet_tech_ship_class = {
 		90101,
 		90103,
 		90104,
+		90105,
+		90106,
 		90201,
 		90301,
 		90302,
@@ -3982,6 +4053,7 @@ pg.fleet_tech_ship_class = {
 		970207,
 		970301,
 		970302,
+		970303,
 		970401,
 		970402,
 		970403,
@@ -3997,6 +4069,7 @@ pg.fleet_tech_ship_class = {
 		970701,
 		970702,
 		970703,
+		970704,
 		970801,
 		971201,
 		971301

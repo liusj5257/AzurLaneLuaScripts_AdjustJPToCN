@@ -1,6 +1,6 @@
 slot0 = class("AnniversarySixLoginPage", import(".TemplatePage.LoginTemplatePage"))
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	setActive(slot0.item, false)
 	slot0.itemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -23,7 +23,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	setText(slot0.bg:Find("Text"), slot0.nday .. "/" .. slot0.Day)
 end

@@ -1,6 +1,6 @@
 slot0 = class("ChapterMissileExplodeAction")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.actType = slot1.act_type
 	slot0.line = {
 		row = slot1.ai_pos.row,
@@ -28,12 +28,12 @@ function slot0.Ctor(slot0, slot1)
 	end)
 end
 
-function slot0.SetTargetLine(slot0, slot1)
+slot0.SetTargetLine = function(slot0, slot1)
 	slot0.targetLine = slot1
 	slot0.flagStrategy = true
 end
 
-function slot0.applyTo(slot0, slot1, slot2)
+slot0.applyTo = function(slot0, slot1, slot2)
 	if not slot2 then
 		slot3 = 0
 		slot4 = 0
@@ -80,7 +80,7 @@ function slot0.applyTo(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
+slot0.PlayAIAction = function(slot0, slot1, slot2, slot3)
 	slot4 = nil
 
 	if slot0.targetLine then
@@ -88,7 +88,7 @@ function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
 			slot0.targetLine
 		}
 	else
-		function slot5(slot0)
+		slot5 = function(slot0)
 			return uv0:GetRawChapterCell(slot0.row, slot0.column) and table.contains(slot1:GetFlagList(), ChapterConst.FlagMissleAiming) and not table.contains(slot0.flag_list, ChapterConst.FlagMissleAiming)
 		end
 

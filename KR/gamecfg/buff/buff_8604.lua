@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2019年2月世界BOSS二阶段易伤",
 	time = 0,
-	color = "yellow",
+	name = "2019年2月世界BOSS二阶段易伤",
+	init_effect = "",
+	id = 8604,
 	picture = "",
 	desc = "航空易伤",
 	stack = 1,
-	id = 8604,
+	color = "yellow",
 	icon = 2120,
 	last_effect = "Darkness",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = 0.05
+				number = 0.05,
+				attr = "injureRatioByAir"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = -0.1
+				number = -0.1,
+				attr = "injureRatioByCannon"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = -0.1
+				number = -0.1,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

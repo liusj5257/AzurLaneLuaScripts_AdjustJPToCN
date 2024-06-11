@@ -1,12 +1,12 @@
 return {
-	id = "W209000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W209000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "You must secure 8 zones in this sector before another search can be started.",
 			typewriter = {
 				speed = 0.05,

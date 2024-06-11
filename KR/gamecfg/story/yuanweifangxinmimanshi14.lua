@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"파티날 밤의 악몽",
@@ -14,8 +14,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = false,
+			mode = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
 			sequence = {
@@ -36,9 +36,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_154",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_154",
 			actor = 702012,
 			actorName = "아브로라？",
 			say = "\"상황은 대충 파악했다. 계속해서 임무를 수행해라.\"",
@@ -63,8 +63,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_154",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			actor = 702012,
 			actorName = "아브로라？",
 			say = "\"한 번 더 말하는데, 꼭 산 채로 데려가라. 알겠나?\"",
@@ -84,10 +84,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
+			side = 2,
 			say = "자연스럽게 명령을 내린 후 아브로라(?)는 이제야 이쪽을 알아차린 듯 말을 걸어왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -168,11 +168,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "아브로라？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라？",
 			say = "\"흥, 모르는 척할 셈이냐? 아니면 아직 수면제의 효과가 가시지 않는 건가?\"",
 			painting = {
 				alpha = 0.3,
@@ -187,11 +187,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "아브로라？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라？",
 			say = "\"그런 뻔한 대답은 매일 신물이 날 정도로 듣고 있다고…\"",
 			painting = {
 				alpha = 0.3,
@@ -257,8 +257,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -267,8 +267,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			say = "아브로라, 그만!",
@@ -283,8 +283,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			say = "아니지, 침착해… 이런 자가 아브로라일리가 없어!",
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			say = "그렇다는 건…",
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -341,12 +341,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_154",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			actor = 702012,
 			actorName = "아브로라？",
+			actor = 702012,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_154",
 			say = "\"호오, 어떻게 내 이름을 아는 거지? 아무래도 내통자가 있는 모양이군!\"",
 			flashout = {
 				dur = 0.15,
@@ -381,11 +381,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "아브로라？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라？",
 			say = "\"오히려 잘됐어… 자, 그 내통자가 누군지도 어서 불어라!\"",
 			painting = {
 				alpha = 0.3,
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -434,11 +434,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "아브로라？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라？",
 			say = "\"훗… 이렇게 근성 있는 녀석은 오랜만이군. 갑자기 흥분되는걸?\"",
 			painting = {
 				alpha = 0.3,
@@ -453,11 +453,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "아브로라？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라？",
 			say = "\"얼마나 버틸 수 있으려나? 우후후후~♪\"",
 			painting = {
 				alpha = 0.3,
@@ -469,11 +469,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_154",
-			hidePaintObj = true,
 			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "으악!",
 			flashout = {
 				dur = 0.15,
@@ -504,11 +504,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "아브로라？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "아브로라？",
 			say = "\"울어라! 발버둥 쳐라! 그리고 이 피로시키의 먹이가 되거라!\"",
 			painting = {
 				alpha = 0.3,
@@ -520,14 +520,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			side = 2,
-			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "star_level_bg_107",
 			bgm = "story-richang-4",
 			actor = 702010,
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관님… 신음을… 많이 힘드신가…?",
 			painting = {
@@ -539,17 +539,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -557,12 +557,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "우으… 무릎베개로 내어드린 다리가 저려오네…",
 			painting = {
 				alpha = 0.3,
@@ -574,12 +574,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇지만 지휘관님을 위해서라면 이 정도는……",
 			painting = {
 				alpha = 0.3,
@@ -591,8 +591,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "아브로라, 그만!",
@@ -607,12 +607,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…?! 네?!",
 			painting = {
 				alpha = 0.3,
@@ -624,16 +624,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -642,12 +642,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관님, 대체 어떤 꿈을…?",
 			painting = {
 				alpha = 0.3,

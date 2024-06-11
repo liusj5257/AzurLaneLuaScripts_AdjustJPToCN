@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "I56XIAOFU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "I56XIAOFU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"외톨이 해바라기\n\n<size=45>4. lasst uns gehen!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 408070,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "어? U101, 어딜 가는데 그렇게 서둘러?",
 			bgm = "story-1",
+			actor = 408070,
+			nameColor = "#a9f548",
+			say = "어? U101, 어딜 가는데 그렇게 서둘러?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			nameColor = "#a9f548",
 			say = "응, 재미있는 일 없나 하고. 같이 놀래?",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "오오!...어, 미안...나 좀 바빠서...다음에!",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "히히, 바다에 좀 나가려고~고기떼가 난류를 타고 이동중이거든. 계산대로면 곧 항구 근처 해역을 지나 갈거야~",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "늦으면 그 아름다운 장면을 놓칠테니!",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			nameColor = "#a9f548",
 			say = "아, 그거 재밌어 보인다. 나도 갈래!",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = 1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "재밌을 것 같아! 56, 우리도 갈래?",
 			typewriter = {
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "나, 나는...",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -263,8 +263,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = 1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "난 정말 이56이랑 같이 보고 싶은걸...",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "……(!)",
 			typewriter = {
@@ -297,8 +297,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "(이, 이건...가능할지도...!)",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "흥, 특별히 개조한 내 대상어를 무시하지 말라구!",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "(나, 나 아직 간다고 한 적 없는데?)",
 			typewriter = {
@@ -412,8 +412,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "(갑자기 왜 일이 이렇게 된거야?!)",
 			typewriter = {
@@ -429,9 +429,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
 			blackBg = true,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "그럼, 출발! lasst uns gehen!",
 			typewriter = {
@@ -444,8 +444,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "聖堂の島",
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
-			say = "聖堂の島",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ffff4d",
 			say = "……な、なるほど、これがアルジェリーさんの作戦…！",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ffff4d",
 			say = "確かに、ロイヤルはともかく、アイリスとの戦いをできるだけ避けたいのはわかるけど…",
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ffff4d",
 			say = "このまま艦隊を島の埠頭に引っ込めてっていくらなんでもねー……",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "じゃあヴォークランちゃんの「撃って出て、華麗なる槍捌きで敵をすべて倒す」のが作戦とでも？ロイヤルは躊躇いなく撃ってくるはずよ",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ffff4d",
 			say = "だからそれは冗談だって……なんというか、このまま降参するのは、なんだかね…",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ffff4d",
 			say = "ロイヤルより、やっぱり鉄血のほうが好きだよ。わたし",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ffff4d",
 			say = "そこはリシュリュー様を説得して一回引き上げさせてからこっちが撃って出て挟み撃ちして華麗なる槍捌きでロイヤルを倒すってことで！",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ffff4d",
 			say = "いやいや今のは冗談だから真に受けないってばー！！",
 			typewriter = {
@@ -190,8 +190,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -203,8 +203,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "はいはい、ちょっと真面目にやるわよー",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "例の秘密兵器の子…ダメね。戦闘に参加してくれても使いこなせる自信がないわ",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "聖堂の防御施設の強化は完了したけど、制空権がない状態ではこちらの援護に集中させることができないわ。結局正面切って戦うのは無理ってことね",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ffff4d",
 			say = "……やっぱり降参したほうがよくない？",
 			typewriter = {
@@ -287,8 +287,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "それはできない。ヴィシアの護教騎士の掟もそうだし、ダンケルクとジャン・バールたちの今の状態では、鉄血に疑われるようなことになるとまずいわ",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "だから枢機卿…アイリスの子たちが私たちと戦いたくない、という思いを利用するしかないのよ",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "それと、ロイヤルの戦力を分断させるわ。そしたら勝つことはできなくても、ある程度の実績を鉄血に示してヴィシアの立場を保てるの",
 			typewriter = {
@@ -338,8 +338,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ffff4d",
 			say = "つまり…交渉する姿勢を見せて、まずロイヤルとアイリスの侵攻スピードを緩める",
 			typewriter = {
@@ -355,8 +355,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ffff4d",
 			say = "そして、敵の戦力を分断させた上で一気にロイヤル艦隊を叩くってこと？",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "そうよ。それにロイヤルの戦力を撃破すれば、枢機卿たちともじっくり話せるわ",
 			typewriter = {
@@ -389,8 +389,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ffff4d",
 			say = "じっくり話す……？",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ffff4d",
 			say = "願わくばあのオルレアンの戦いのように勝ってみたいわね。ふふふ",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ffff4d",
 			say = "なるほど！さすがアルジェリーさんよく考えているのね～",
 			typewriter = {
@@ -469,8 +469,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -482,8 +482,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ffff4d",
 			say = "…あっ、そう言えばジャンヌ・ダルクは今、向こうなんだ…",
 			typewriter = {
@@ -499,8 +499,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ffff4d",
 			say = "ふふ、はははははは！",
 			typewriter = {
@@ -513,8 +513,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -523,11 +523,11 @@ return {
 			}
 		},
 		{
-			actor = 903020,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			nameColor = "#ffff4d",
 			dir = 1,
+			actor = 903020,
+			nameColor = "#ffff4d",
 			say = "ふぅ…とりあえず作戦の概要は今言った通りよ。こんなに考えることになるなんて、本当に疲れたわ…",
 			typewriter = {
 				speed = 0.05,
@@ -539,8 +539,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -549,9 +549,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "手を軽く叩いて、アルジェリーは笑顔でみんなを解散させた。",
 			typewriter = {
 				speed = 0.05,
@@ -563,9 +563,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "…戦いにはまだ迷いがある、見習い騎士のヴォークラン。",
 			typewriter = {
 				speed = 0.05,
@@ -577,9 +577,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "戦闘になれば「楽しいから」と手が付けられなくなるラ・ガリソニエール。",
 			typewriter = {
 				speed = 0.05,

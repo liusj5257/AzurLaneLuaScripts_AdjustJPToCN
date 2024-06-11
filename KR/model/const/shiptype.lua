@@ -46,21 +46,21 @@ slot0.AllShipType = {
 	24
 }
 slot0.SpecificTypeTable = {
+	torpedo = "TORP",
 	auxiliary = "AUX",
-	gunner = "GNR",
-	torpedo = "TORP"
+	gunner = "GNR"
 }
 slot0.SpecificTableTips = {
-	GNR = "breakout_tip_ultimatebonus_gunner",
+	AUX = "breakout_tip_ultimatebonus_aux",
 	TORP = "breakout_tip_ultimatebonus_torpedo",
-	AUX = "breakout_tip_ultimatebonus_aux"
+	GNR = "breakout_tip_ultimatebonus_gunner"
 }
 
-function slot0.Type2Name(slot0)
+slot0.Type2Name = function(slot0)
 	return pg.ship_data_by_type[slot0].type_name
 end
 
-function slot0.Type2Print(slot0)
+slot0.Type2Print = function(slot0)
 	if not uv0.prints then
 		uv0.prints = {
 			"quzhu",
@@ -94,7 +94,7 @@ function slot0.Type2Print(slot0)
 	return uv0.prints[slot0]
 end
 
-function slot0.Type2BattlePrint(slot0)
+slot0.Type2BattlePrint = function(slot0)
 	if not uv0.bprints then
 		uv0.bprints = {
 			"battle_quzhu",
@@ -128,7 +128,7 @@ function slot0.Type2BattlePrint(slot0)
 	return uv0.bprints[slot0]
 end
 
-function slot0.Type2CNLabel(slot0)
+slot0.Type2CNLabel = function(slot0)
 	if not uv0.cnLabel then
 		uv0.cnLabel = {
 			"label_1",
@@ -202,7 +202,7 @@ slot0.BundleList = {
 	}
 }
 
-function slot0.BundleType2CNLabel(slot0)
+slot0.BundleType2CNLabel = function(slot0)
 	if not uv0.bundleLabel then
 		uv0.bundleLabel = {
 			zhong = "label_13",
@@ -217,7 +217,7 @@ function slot0.BundleType2CNLabel(slot0)
 	return uv0.bundleLabel[slot0]
 end
 
-function slot0.ContainInLimitBundle(slot0, slot1)
+slot0.ContainInLimitBundle = function(slot0, slot1)
 	if type(slot0) == "string" then
 		for slot5, slot6 in ipairs(uv0.BundleList[slot0]) do
 			if slot6 == slot1 then
@@ -237,7 +237,7 @@ slot0.CloakShipTypeList = {
 	slot0.DaoQuM
 }
 
-function slot0.CloakShipType(slot0)
+slot0.CloakShipType = function(slot0)
 	return table.contains(uv0.CloakShipTypeList, slot0)
 end
 
@@ -247,11 +247,11 @@ for slot4, slot5 in ipairs(slot0.BundleList.quzhu) do
 	slot0.QuZhuShipType[slot5] = true
 end
 
-function slot0.IsTypeQuZhu(slot0)
+slot0.IsTypeQuZhu = function(slot0)
 	return uv0.QuZhuShipType[slot0]
 end
 
-function slot0.FilterOverQuZhuType(slot0)
+slot0.FilterOverQuZhuType = function(slot0)
 	slot1 = false
 
 	return underscore.filter(slot0, function (slot0)
@@ -271,11 +271,11 @@ for slot4, slot5 in ipairs(slot0.BundleList.fengfan) do
 	slot0.FengFanType[slot5] = true
 end
 
-function slot0.IsTypeFengFan(slot0)
+slot0.IsTypeFengFan = function(slot0)
 	return uv0.FengFanType[slot0]
 end
 
-function slot0.FilterOverFengFanType(slot0)
+slot0.FilterOverFengFanType = function(slot0)
 	slot1 = false
 
 	return underscore.filter(slot0, function (slot0)
@@ -289,7 +289,7 @@ function slot0.FilterOverFengFanType(slot0)
 	end)
 end
 
-function slot0.MergeFengFanType(slot0, slot1, slot2)
+slot0.MergeFengFanType = function(slot0, slot1, slot2)
 	slot3 = uv0.BundleList.fengfan[1]
 
 	if underscore.all(uv0.BundleList.fengfan, function (slot0)

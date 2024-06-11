@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING43",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING43",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -53,10 +53,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "All factions have concluded that this incident was a surprise attack coordinated by the Arbiters.",
 			painting = {
 				alpha = 0.3,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "At the Commander's suggestion, Marco Polo, Clemenceau, and their cohorts have been officially suspended for aiding and abetting a Siren conspiracy.",
 			painting = {
 				alpha = 0.3,
@@ -88,10 +88,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And everyone was happy in the end. Are you really fine with that?",
 			painting = {
 				alpha = 0.3,
@@ -145,10 +145,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Veneto, uh, I'm pretty sure we still haven't found Marco Polo.",
 			painting = {
 				alpha = 0.3,
@@ -163,10 +163,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...It's been days by now. Isn't it likely that she's already...?",
 			painting = {
 				alpha = 0.3,
@@ -205,10 +205,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Gotcha.",
 			painting = {
 				alpha = 0.3,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			say = "Veneto hung up and let out a deep sigh.",
@@ -234,10 +234,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You know, it'll take more than that to sink her. Or... are you worried about how much of headache she'll be once she comes back?",
 			painting = {
 				alpha = 0.3,
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -301,10 +301,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hmm? Seems like the call's for you, Veneto.",
 			painting = {
 				alpha = 0.3,
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			say = "Veneto hung up the line, then connected to the Sardegnian search party once again.",
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			say = "After giving her order in a painfully monotone voice, she changed course for home and began humming a carefree tune.",
@@ -455,10 +455,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...What? But I could've sworn Clemenceau said the words \"recover\" and \"comatose\" in your conversation.",
 			painting = {
 				alpha = 0.3,

@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN21",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "star_level_bg_1100",
-			nameColor = "#ffa500",
+			expression = 1,
 			dir = 1,
 			bgmDelay = 1,
-			expression = 1,
+			actorName = "？？？",
 			bgm = "deepblue-image",
 			actor = 900315,
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
+			bgName = "star_level_bg_1100",
 			say = "サンフランシスコにアーチャーフィッシュ、信濃、指揮官、そして「私」まで…",
 			flashin = {
 				delay = 1,
@@ -30,9 +30,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -56,9 +56,9 @@ return {
 			say = "汝も妾の存在を……？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -74,17 +74,17 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "あなたが遠くまで「観測」できている分、私もあなたのことがわかるわ",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -108,9 +108,9 @@ return {
 			say = "この「夢」に妾の体が存在せず…縁のある存在でしか妾を認識できないはず……",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -126,18 +126,18 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "「夢」のことは認識できていないわ。ただここの制御を抑えている以上、あなたの「存在」が分かるの",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -161,9 +161,9 @@ return {
 			say = "…………",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -179,16 +179,16 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "な、何がどうなっている？わけがわからないけど…",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -214,16 +214,16 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "っていうかあんた誰？？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -239,18 +239,18 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "私は影、もう一つの――",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -266,16 +266,16 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "ストップ！はい！セイレーンと信濃だけで十分だから、これ以上リドラーみのあるやつを増やすのはNGな！",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -301,17 +301,17 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "……ど、どういうこと？「りどらー」…？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -327,10 +327,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ちゃんと喋らずにいちいち相手に意味を当てさせる面倒くさいキャラのことだよ！",
 			dialogShake = {
 				speed = 0.09,
@@ -339,9 +339,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -357,18 +357,18 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "……違うと思うわ…",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -384,16 +384,16 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "いいから素直に喋れってこと！",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -419,17 +419,17 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "……え、ええと…指揮官…あなたが指揮官なら私が誰だか……",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -445,16 +445,16 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "指揮官は答えなくていいから！こいつはバットで一回バコンとやっておくに限るって！",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -469,14 +469,14 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintObj = true,
 			say = "謎の少女の正体は――",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			options = {
@@ -506,18 +506,18 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "ハズレよ。…どうやらまだ指揮官には明かさない方がよさそうね…",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -533,18 +533,18 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "話を戻すわ。あなたたちはここから脱出したいんでしょ？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -564,9 +564,9 @@ return {
 			say = "もちろん。このままここに閉じ込められた末路は考えるまでもない。",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -582,16 +582,16 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "おっ、脱出させてくれるなんて優しいやつゥ！なんて言うとでも思ったか！",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -607,15 +607,15 @@ return {
 			actor = 103140,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "まずは敵か味方か言うのが先でしょ？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -631,18 +631,18 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "私はあなたたちの仲間よ",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -658,16 +658,16 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 103140,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 103140,
+			hidePaintObj = true,
 			say = "（躊躇いもなく即答した？…とりあえず様子だけ見ておくか）",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -683,17 +683,17 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			dir = 1,
 			actor = 900315,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "ヘレナなら分かるでしょ？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -709,15 +709,15 @@ return {
 			actor = 102050,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "私？ええと……急にそう言われても…",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -733,16 +733,16 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
+			actor = 108060,
 			dir = 1,
 			nameColor = "#a9f548",
-			actor = 108060,
+			hidePaintObj = true,
 			say = "とりあえず脱出させてくれるならやってみてよ、もう",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -758,15 +758,15 @@ return {
 			actor = 103140,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "変なことしたらパコンと1発お見舞いしてやるからね（ニコッ",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -782,18 +782,18 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			paintingNoise = true,
-			dir = 1,
-			actorName = "？？？",
-			actor = 900315,
 			nameColor = "#ffa500",
+			dir = 1,
+			paintingNoise = true,
+			actor = 900315,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "――ミラーハッキング、空間ロック解除。",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -809,18 +809,18 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
 			actor = 900315,
-			actorName = "？？？",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "もうここから出てもいいわ",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {

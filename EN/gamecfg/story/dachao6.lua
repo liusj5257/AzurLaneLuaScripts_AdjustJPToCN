@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Gentle and Sweet Ooshio!\n\n<size=45>Catgirl Tea Party</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Near the Sakura Empire Dormitory",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Near the Sakura Empire Dormitory",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Ooshio invited me to a tea party with the girls from Destroyer Division 8 on my day off.",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Asashio, Ooshio, Michishio, and Arashio were under a big cherry tree, sitting on a picnic blanket and having an enjoyable time.",
 			typewriter = {
 				speed = 0.05,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Ooshio guided me to a place to sit on the blanket.",
 			typewriter = {
 				speed = 0.05,
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			say = "Have all the snacks ya want♪ If yer outta tea then let me know~",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Have all the snacks ya want♪ If yer outta tea then let me know~",
+			actor = 301640,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "I took a sip from my small cup of tea then examined the destroyer sitting next to me.",
 			typewriter = {
 				speed = 0.05,
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Asashio was sitting on the side of the blanket and munching on a bear-shaped cookie.",
 			typewriter = {
 				speed = 0.05,
@@ -228,12 +228,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			say = "Aahhh~ Yer so cute when yer eatin', Asashio~ I just gotta stroke them ears~",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Aahhh~ Yer so cute when yer eatin', Asashio~ I just gotta stroke them ears~",
+			actor = 301640,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -248,9 +248,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Ooshio started delicately stroking Asashio's ears.",
 			typewriter = {
 				speed = 0.05,
@@ -258,11 +258,11 @@ return {
 			}
 		},
 		{
-			actor = 301630,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301630,
+			nameColor = "#a9f548",
 			say = "Stop... that tickles...",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -316,15 +316,15 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "So, Commander, how ya like our tea party~?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -381,9 +381,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "It felt like I was sitting in a bubble where time itself was moving slowly. A soothing bubble...",
 			typewriter = {
 				speed = 0.05,

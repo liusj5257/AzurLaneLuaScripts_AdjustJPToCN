@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-1-11",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg7",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-10",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-1-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "TB、ちゃんと言うこと聞くから……",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			say = "TBは前と比べて、よりちゃんとした言葉を喋れるようになった。",
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			say = "しかし、言葉が長くなったせいか、彼女のあの無機質なトーンが一層奇妙に感じた。",
@@ -86,32 +86,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "うん……？",
 			voice = "event:/educate/tb/educate-tb-story-1-12",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "TB",
-			bgName = "bg_project_tb_cg7",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "音が……",
-			voice = "event:/educate/tb/educate-tb-story-1-13",
+			say = "うん……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,8 +104,26 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			side = 2,
+			bgName = "bg_project_tb_cg7",
+			dir = 1,
+			voice = "event:/educate/tb/educate-tb-story-1-13",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "音が……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			say = "園内のチャイムが鳴り始めた。",
@@ -145,14 +145,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "ばいばい……？",
 			voice = "event:/educate/tb/educate-tb-story-1-14",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "ばいばい……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			say = "こっちの動きを真似て、彼女も軽く手を振った。",
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg7",
 			hidePaintObj = true,
 			say = "春の風が暖かく、桜並木の花びらが空を舞い、まるでTBの周りを回っているかのように見えた。",

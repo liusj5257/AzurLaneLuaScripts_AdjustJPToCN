@@ -4,7 +4,7 @@ slot2 = string
 
 module("protobuf.type_checkers")
 
-function TypeChecker(slot0)
+TypeChecker = function(slot0)
 	slot1 = slot0
 
 	return function (slot0)
@@ -16,7 +16,7 @@ function TypeChecker(slot0)
 	end
 end
 
-function Int32ValueChecker()
+Int32ValueChecker = function()
 	slot0 = -2147483648
 	slot1 = 2147483647
 
@@ -31,7 +31,7 @@ function Int32ValueChecker()
 	end
 end
 
-function Uint32ValueChecker(slot0)
+Uint32ValueChecker = function(slot0)
 	slot1 = 0
 	slot2 = 4294967295.0
 
@@ -46,7 +46,7 @@ function Uint32ValueChecker(slot0)
 	end
 end
 
-function UnicodeValueChecker()
+UnicodeValueChecker = function()
 	return function (slot0)
 		if uv0(slot0) ~= "string" then
 			uv1(uv2.format("%s has type %s, but expected one of: string", slot0, uv0(slot0)))

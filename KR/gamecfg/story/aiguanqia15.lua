@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA15",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA15",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 1,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "하아… 하아… 겨우… 쓰러트렸어…",
 			typewriter = {
@@ -115,8 +115,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "이카즈치쨩은 뭐든 알고 있네~ 옳지 옳지♪",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "정말~ 귀여워라~ 오구오구~",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			actor = 10400030,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "키즈나 아이",
 			dir = 1,
+			actorName = "키즈나 아이",
 			say = "앗, 그랬었지! 좋~아, 다들 잘 봐~!",
 			typewriter = {
 				speed = 0.05,
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "키즈나 아이",
 			dir = 1,
+			actor = 10400040,
+			actorName = "키즈나 아이",
 			say = "짜잔~! 버츄얼 게이머 키즈나 아이, 등장~!",
 			flashN = {
 				color = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400040,
 			dir = 1,
+			actor = 10400040,
 			actorName = "키즈나 아이",
 			say = "훗훗후~, 다들 안심하고 맡겨주라구!",
 			typewriter = {

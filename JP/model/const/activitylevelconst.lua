@@ -1,6 +1,6 @@
 slot0 = class("ActivityLevelConst")
 
-function slot0.getExtraChapterSocre(slot0, slot1, slot2, slot3)
+slot0.getExtraChapterSocre = function(slot0, slot1, slot2, slot3)
 	if not slot3 or slot3:isEnd() then
 		return 0, 0
 	end
@@ -19,7 +19,7 @@ function slot0.getExtraChapterSocre(slot0, slot1, slot2, slot3)
 	return math.floor(slot5), math.floor(slot3:getData1() or 0)
 end
 
-function slot0.getShipsPower(slot0)
+slot0.getShipsPower = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0) do

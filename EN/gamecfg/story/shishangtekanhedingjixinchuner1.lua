@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection: Spring Festival II\n\n<size=45>1 Fireworks Adorn the Night Sky</size>",
@@ -14,14 +14,14 @@ return {
 			}
 		},
 		{
-			live2d = "main2",
+			hidePaintObj = true,
 			side = 2,
-			bgName = "star_level_bg_128",
 			dir = 1,
+			bgName = "star_level_bg_128",
 			bgm = "main-chunjie3",
 			actor = 206072,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "main2",
 			say = "\"A thousand flowers bloom in the wake of the Eastern wind.\"",
 			painting = {
 				alpha = 0.3,
@@ -32,17 +32,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "\"Petals fall as a shower of stars, their aroma left in the trails of carriages passing through.\"",
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "\"The flutes composed, the moonlight bright. Fireworks adorn the night sky, leaping like carp on a waterfall.\"",
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			say = "A silver-haired girl lingers on the veranda and quietly recites a poem to herself.",
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			say = "Her sheer dress dances in the night breeze, and the lights blend into the dark of night, but they pale before her radiance.",
@@ -108,11 +108,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "Commander... You've been quiet for a while now. Is something wrong?",
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Did I... make a mistake in my poetry reading?",
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "B-beautiful...",
@@ -174,11 +174,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Well, thank you for that...",
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			say = "Albion looks down just slightly and thanks me.",
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			say = "Despite being the one who invited me here, she's awfully nervous.",
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
 			say = "Are you not bored here, or anything...?",
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "If you are... you could, say, wander around the city.",
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "It's lively there, a-and there's much more fun to be had...",
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_128",
 			hidePaintObj = true,
 			say = "Albion tries her hardest to come up with something, only becoming more nervous in the process. I should console her somehow.",
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "Oh, Hai Tien taught me this poem.",
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "If we ever got a moment alone together tonight...",
@@ -339,11 +339,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "I was thinking I'd recite it with the resplendent night sky at my back, or...",
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "But... Hai Tien says there's a second half to the poem.",
@@ -375,11 +375,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "I was hoping to spice up the conversation by having you teach me the rest...",
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "Well... Not exactly...",
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "Umm... The text makes it sound like a bustling city. I think it's describing a festival, or something.",
@@ -477,11 +477,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "The vibrant city is backed by a night sky adorned with fireworks...",
@@ -495,11 +495,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Colorful lanterns, folks enjoying a night on the town...",
@@ -513,11 +513,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "...It sounds a lot like the port right now, heehee.",
@@ -567,11 +567,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "How pretty...",
@@ -609,11 +609,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
 			say = "I can feel the author's heart wavering...",
@@ -627,11 +627,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "The laughter and joy in the poem are so far removed from them...",
@@ -645,11 +645,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "They search single-mindedly for a certain someone, but they come up short...",
@@ -663,11 +663,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "When they finally turn around, in the dim light, they finally find that someone...",
@@ -693,11 +693,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "C-Commander...",
@@ -723,11 +723,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "N-no... I think I'd like you to stay here with me, if that's okay.",
@@ -741,11 +741,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "The city may be vibrant, but there's a certain atmosphere to here and now.",
@@ -759,11 +759,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "Besides... The flowers just outside the veranda are in full bloom.",
@@ -777,11 +777,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "And the tea inside has the perfect aroma...",
@@ -795,11 +795,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Here, Commander. Have some tea.",
@@ -813,11 +813,11 @@ return {
 			}
 		},
 		{
-			actor = 206072,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_128",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206072,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "Why don't we let it mark a fresh start to our night together?",

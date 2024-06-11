@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA8",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			actorName = "劇中旁白",
-			stopbgm = true,
 			bgm = "cw-story",
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			hidePaintObj = true,
 			say = "那是一個炎炎夏日。晴空萬里，艷陽高照。",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -43,10 +43,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 101490,
 			actorName = "謎之聲A",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊！旁白的聲音換了？",
 			typewriter = {
 				speed = 0.05,
@@ -57,10 +57,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301890,
 			actorName = "謎之聲B",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這次主角不也換了嗎……本場劇目的主角是指揮官，我們只是觀眾而已嘛！",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 501020,
 			actorName = "謎之聲C",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "噓，別出聲，好好看！",
 			typewriter = {
 				speed = 0.05,
@@ -85,10 +85,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 307080,
 			actorName = "劇中旁白",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "咳……那麼妾身繼續。",
 			typewriter = {
 				speed = 0.05,
@@ -99,10 +99,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			paintingNoise = true,
-			actorName = "劇中旁白",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "此刻，大軍正沿著林間道路行走著。而領軍的大將正坐在轎子中，略顯疲憊地瞇著眼。",
 			typewriter = {
@@ -111,28 +111,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……轎子？這場劇目是古裝劇……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -143,10 +143,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			paintingNoise = true,
-			actorName = "劇中旁白",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "不錯。領軍的大將正坐在豪華的轎子中，身邊被無數古玩珍寶所包圍。",
 			typewriter = {
@@ -194,10 +194,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "跑得很快的近侍",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "報、報告主公！前線戰況進展十分順利！",
 			typewriter = {
 				speed = 0.05,
@@ -234,10 +234,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301900,
 			actorName = "得意的近侍",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "反而是對面，非但不投降，居然還敢抵抗~真是不識好歹！",
 			typewriter = {
 				speed = 0.05,
@@ -274,10 +274,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "跑得很快的近侍",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "似乎是在得知大軍會行經此處後，自發組織起來為我們準備了美食美酒，以犒慰我軍的辛勞！",
 			typewriter = {
 				speed = 0.05,
@@ -288,10 +288,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301900,
 			actorName = "得意的近侍",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哦~這些村民還真是識大體啊。那我們就乾脆停下來休息一下好了！",
 			typewriter = {
 				speed = 0.05,
@@ -302,10 +302,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301820,
 			actorName = "優雅的近侍",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "是啊大人……現在天氣那麼熱，，周圍的村民們又盛情難卻，我們不如停下來休息一下吧？",
 			typewriter = {
 				speed = 0.05,
@@ -316,10 +316,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301820,
 			actorName = "優雅的近侍",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "休息的地方……就選附近山腳下的平整區域如何？雖然面積不大，不過也足夠本陣紮營了。",
 			typewriter = {
 				speed = 0.05,
@@ -352,11 +352,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "劇中旁白",
 			optionFlag = 1,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "就這樣，大軍紮好了營帳，在村民提供的美食與美酒中放鬆休息了起來。",
 			typewriter = {
@@ -394,11 +394,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "劇中旁白",
 			optionFlag = 2,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "就這樣，大軍紮好了營帳，在村民提供的美食與美酒中放鬆休息了起來。",
 			typewriter = {
@@ -433,27 +433,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_111",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_111",
 			say = "此刻，我正坐在一頂豪華的大帳篷中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -461,8 +461,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			say = "除了無數美食之外，身旁的帳篷中還有衣架、刀架、書架、寶物櫃，甚至……寵物？",
@@ -538,10 +538,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 107030,
 			actorName = "魅力四射的舞女",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "有道理……那大人，接下來想對我們做什麼呢……啊，大人！",
 			typewriter = {
 				speed = 0.05,
@@ -552,10 +552,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 107030,
 			actorName = "魅力四射的舞女",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "為什麼您一直盯著她看？看看我嘛！您看我還特意起了名字，“魅力四射的舞女”！",
 			typewriter = {
 				speed = 0.05,
@@ -590,13 +590,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
+			soundeffect = "event:/ui/dalei",
 			bgm = "musashi-2",
+			actor = 307080,
 			actorName = "劇中旁白",
 			paintingNoise = true,
-			soundeffect = "event:/ui/dalei",
-			actor = 307080,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "祥和的氛圍突然被一聲驚雷打破。",
 			typewriter = {
@@ -604,17 +604,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -647,10 +647,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_508",
-			paintingNoise = true,
-			actorName = "劇中旁白",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "轉瞬間，暴雨傾盆。",
 			typewriter = {
@@ -722,10 +722,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "跑得很快的近侍",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "真沒想到，剛剛還是萬里晴空，現在卻突降大雨，主公您還是在帳篷裡避雨吧！",
 			typewriter = {
 				speed = 0.05,
@@ -796,11 +796,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			paintingNoise = true,
-			actorName = "劇中旁白",
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "與此同時，借助雷雨的掩護，一支騎兵部隊已經悄然來到了山頂的進攻位置。",
 			typewriter = {
@@ -808,17 +808,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -928,28 +928,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -970,11 +970,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "劇中旁白",
 			optionFlag = 1,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "呵呵，您能喜歡就好。",
 			typewriter = {
@@ -986,10 +986,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			actorName = "劇中旁白",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "咳……妾身曾聽說，只要騎著東西，都可以被算作騎兵。",
 			typewriter = {
@@ -1001,10 +1001,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			paintingNoise = true,
-			actorName = "劇中旁白",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "嗯……因為出戰匆忙，這支騎兵部隊的馬匹裝備並不統一。",
 			typewriter = {
@@ -1016,10 +1016,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 307080,
 			actorName = "劇中旁白",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不過其中的每一個人都在主公的帶領下散發著無窮鬥志。",
 			typewriter = {
 				speed = 0.05,
@@ -1030,10 +1030,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "可愛又得意的主公",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "親愛的已經在山下擺好陣勢等我們了呢~",
 			typewriter = {
 				speed = 0.05,
@@ -1044,10 +1044,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "可愛又得意的主公",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "全軍注意，準備戰鬥！",
 			typewriter = {
 				speed = 0.05,
@@ -1058,10 +1058,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "可愛又得意的主公",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "目標只有——親愛的一個人！",
 			typewriter = {
 				speed = 0.05,
@@ -1069,11 +1069,11 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不妙，形勢非常不妙……紮營在四周的大軍因為突發暴雨無法及時趕到。",
 			effects = {
 				{
@@ -1086,17 +1086,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1116,8 +1116,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "轉瞬間，喊殺聲便來到了華麗的帳篷外。",
@@ -1127,8 +1127,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "帳篷的門簾被挑開，全副武裝的敵方主公走上前來。",
@@ -1153,10 +1153,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "可愛又得意的主公",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "親愛的~你已經無處可逃了哦！",
 			typewriter = {
 				speed = 0.05,
@@ -1167,10 +1167,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "可愛又得意的主公",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "親愛的————",
 			typewriter = {
 				speed = 0.05,
@@ -1178,8 +1178,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "然後敵方主將，徑直撲了上來……？",
@@ -1191,11 +1191,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actorName = "劇中旁白",
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			bgm = "cw-story",
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "就這樣，戰鬥結束了，和平重新降臨了這片土地。",
 			typewriter = {
@@ -1203,17 +1203,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1223,11 +1223,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "劇中旁白",
 			blackBg = true,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "全劇終——",
 			typewriter = {
@@ -1255,12 +1255,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "辛苦的秘書",
 			dir = 1,
 			blackBg = true,
+			actor = 102160,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "好了好了……戲演完了就別貼得那麼近了！",
 			painting = {
@@ -1292,12 +1292,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "辛苦的秘書",
 			dir = 1,
 			blackBg = true,
+			actor = 102160,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "從一開始就在了啊！",
 			painting = {

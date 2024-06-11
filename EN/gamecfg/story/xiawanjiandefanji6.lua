@@ -1,17 +1,17 @@
 return {
-	id = "XIAWANJIANDEFANJI6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI6",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401180,
 			nameColor = "#ff5c5c",
 			side = 0,
-			bgm = "level02",
 			dir = 1,
 			say = "Z19! There you are! What happened to you?",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

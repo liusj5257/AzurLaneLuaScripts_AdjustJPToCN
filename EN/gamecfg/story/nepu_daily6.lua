@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>Chapter 6 - Game Night With The Girls!</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "And now I'd like to announce the first Annual Gaming Party as having officially begun!",
 			bgm = "story-nepu2",
+			actor = 10100010,
+			nameColor = "#a9f548",
+			say = "And now I'd like to announce the first Annual Gaming Party as having officially begun!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,9 +34,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "HOORAAAAAAAY! DA-DA-DADA",
 			typewriter = {
 				speed = 0.05,
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "HOORAAAAAAAY! DA-DA-DADA",
 			typewriter = {
 				speed = 0.05,
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "I didn't provide anything for free, nya. I will get my share of the profits you earn from this event down to the last cent. Capiche?",
 			typewriter = {
@@ -103,11 +103,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "Hum hum, I'd never come across gaming technology from another dimension before... But now that I have, I can say it was an invigorating experience! Could I use these as reference for designing some new equipment?",
 			typewriter = {
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "W-well, it's only natural a CPU from Gamindustri would have some spare games on her... Ahahahaha... (Now I can't go and tell them I just happened to bring them with me...)",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "W-well, it's only natural a CPU from Gamindustri would have some spare games on her... Ahahahaha... (Now I can't go and tell them I just happened to bring them with me...)",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -172,9 +172,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "HOORAAAAAAAY! DA-DA-DADA!",
 			typewriter = {
 				speed = 0.05,
@@ -198,13 +198,13 @@ return {
 			}
 		},
 		{
-			actor = 301110,
+			say = "It's amazing they're able to hold an event as big as this... I see! Noire really knows her stuff! This must be why they call it \"item management\"!",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
 			actorName = "{namecode:13}",
-			say = "It's amazing they're able to hold an event as big as this... I see! Noire really knows her stuff! This must be why they call it \"item management\"!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = -1,
+			actor = 301120,
 			actorName = "{namecode:14}",
 			say = "I am amazed as well... After all, planning something is easy, but to realize it is not.",
 			typewriter = {
@@ -396,13 +396,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "BANG! BANG BANG! POW! BA-BOOOOM!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -455,11 +455,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "You'll have to do something about that on your own... Things are only getting worse for me over here as well!",
 			typewriter = {
@@ -472,12 +472,12 @@ return {
 			}
 		},
 		{
-			actor = 10100040,
+			say = "Ohoho... I see you have much to learn. You're both newbies, aren't you? Did you really think you could beat me in a tactical shooter?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Ohoho... I see you have much to learn. You're both newbies, aren't you? Did you really think you could beat me in a tactical shooter?",
+			actor = 10100040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -492,11 +492,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "...I guess you're really good at this after all, Vert...!",
 			typewriter = {
@@ -573,11 +573,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "That's not fair! You play dirty, Vert...!",
 			typewriter = {
@@ -606,11 +606,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "I see... Then we will call for some reinforcements as well!",
 			typewriter = {
@@ -655,9 +655,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "KABOOOOOOOM!",
 			typewriter = {
 				speed = 0.05,
@@ -729,16 +729,16 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			actorName = "{namecode:13}",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 301110,
 			nameColor = "#a9f548",
 			say = "I see! So at this corner you do a four-wheel drift!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -763,13 +763,13 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "That was good, Ikazuchi. It seems you picked a model with good steering.",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
 			actorName = "{namecode:14}",
-			say = "That was good, Ikazuchi. It seems you picked a model with good steering.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -800,12 +800,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "I think it's because you can't handle all that speed.",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I think it's because you can't handle all that speed.",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -868,11 +868,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301110,
 			actorName = "{namecode:13}",
 			say = "And while Nep-Nep's busy with that, I'm gonna slamdunk that finish line! It's victory lap time!",
 			typewriter = {
@@ -885,13 +885,13 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "Bravo, Ikazuchi... I'm just behind you... It seems we will never lose first and second place. I think it's time for some victory champagne...",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
 			actorName = "{namecode:14}",
-			say = "Bravo, Ikazuchi... I'm just behind you... It seems we will never lose first and second place. I think it's time for some victory champagne...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -922,12 +922,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "You can try again all you want but you're just gonna lose every time.",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "You can try again all you want but you're just gonna lose every time.",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -990,12 +990,12 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
+			say = "Sure thing, Lizzy! Whaddya wanna play?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Sure thing, Lizzy! Whaddya wanna play?",
+			actor = 10100010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

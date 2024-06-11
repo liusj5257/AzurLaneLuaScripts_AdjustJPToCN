@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG20",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG20",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304050,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
+			actor = 304050,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "長門さま、ご機嫌麗しゅうございます",
 			flashin = {
 				delay = 1,
@@ -40,12 +40,12 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			say = "天城か。余を訪れたのは何用じゃ",
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "天城か。余を訪れたのは何用じゃ",
+			actor = 305050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -62,10 +62,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "僭越ながら、加賀について一つを意見具申を申し上げたく存じます",
 			typewriter = {
 				speed = 0.05,
@@ -95,10 +95,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "条約に基づいた戦艦・加賀の処分の撤回をお願い申し上げます",
 			typewriter = {
 				speed = 0.05,
@@ -128,10 +128,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "誰かが加賀の身代わりにならない限り……ですね？",
 			typewriter = {
 				speed = 0.05,
@@ -177,10 +177,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "今加賀に任せるのでしたら、少なくともこの病体でも最後まで重桜に奉公できると……",
 			typewriter = {
 				speed = 0.05,
@@ -242,10 +242,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "勝手を申しまして誠に恐れ多いことですが、何卒ご賢慮いただきますようお願い申し上げます",
 			typewriter = {
 				speed = 0.05,
@@ -291,10 +291,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "ご英断感謝いたします",
 			typewriter = {
 				speed = 0.05,
@@ -324,10 +324,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "あの二人の素質でしたらきっと重桜を支える主力になりましょう……げほげほ",
 			typewriter = {
 				speed = 0.05,
@@ -357,10 +357,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "恐れ入ります",
 			typewriter = {
 				speed = 0.05,

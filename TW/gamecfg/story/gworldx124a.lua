@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDX124A",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDX124A",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "在通常海域中可以使用潛艇支援指令了。",
 			typewriter = {
 				speed = 0.05,

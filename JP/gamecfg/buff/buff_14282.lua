@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 14282,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14282,
+	color = "red",
 	icon = 14280,
 	last_effect = "",
 	effect_list = {
@@ -26,8 +26,8 @@ return {
 				"onFoeDying"
 			},
 			arg_list = {
-				countTarget = 2,
 				killer = "self",
+				countTarget = 2,
 				countType = 14280
 			}
 		},
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 14280,
+				target = "TargetSelf",
 				countType = 14280
 			}
 		}

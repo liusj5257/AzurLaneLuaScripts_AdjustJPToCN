@@ -1,12 +1,12 @@
 return {
-	id = "W300001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W300001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "You've unlocked a confidential file. Proceed to the next zone and clear it to unlock another.",
 			typewriter = {
 				speed = 0.05,

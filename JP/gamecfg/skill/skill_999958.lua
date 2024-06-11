@@ -2,23 +2,23 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 0,
-	id = 999958,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 999958,
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				spawnData = {
 					monsterTemplateID = 300991,
-					moveCast = true,
-					delay = 0,
 					score = 0,
+					delay = 0,
+					moveCast = true,
 					corrdinate = {
 						5,
 						0,
@@ -32,16 +32,16 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				spawnData = {
 					monsterTemplateID = 300991,
-					moveCast = true,
-					delay = 0,
 					score = 0,
+					delay = 0,
+					moveCast = true,
 					corrdinate = {
 						5,
 						0,
@@ -55,16 +55,16 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				spawnData = {
 					monsterTemplateID = 300991,
-					moveCast = true,
-					delay = 0,
 					score = 0,
+					delay = 0,
+					moveCast = true,
 					corrdinate = {
 						5,
 						0,

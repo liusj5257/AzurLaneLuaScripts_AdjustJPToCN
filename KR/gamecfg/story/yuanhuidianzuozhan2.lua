@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "며칠간의 항해 끝에 블뤼허와 Z1은 드디어 임무서에 표시된 해역에 도착했다.",
 			bgm = "bsm-7",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "며칠간의 항해 끝에 블뤼허와 Z1은 드디어 임무서에 표시된 해역에 도착했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "끝이 보이지 않는 잔잔한 바다에서 순식간에 대량의 기계로 만들어진 인공 시설이 나타났다.",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "이곳은 거울 해역의 내부. 바깥쪽과는 전혀 다른 풍경이다.",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "메탈 블러드 실험장·휴게실",
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "블뤼허는 휴게실에 있는 커다란 소파로 곧장 뛰어가 지령서를 꺼내 들었다.",
@@ -237,9 +237,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "무섭다, 무서워...",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
 			say = "블뤼허가 지령서를 연구하고 있을 때 Z16은 만족한 표정으로 식당을 둘러보고 있었다.",
@@ -321,9 +321,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 401160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "블뤼허! 듣고 있어?",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -550,10 +550,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "빨리 먹어! 다 먹고 난 뒤에 도크로 가서 전투에 참여할 함대를 준비시켜놔야 하니까!",
 			typewriter = {
 				speed = 0.05,

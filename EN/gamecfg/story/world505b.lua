@@ -1,19 +1,19 @@
 return {
-	id = "WORLD505B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD505B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/16/tb-16",
+			dir = 1,
 			bgm = "main-arbitrationsystem-theme",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Warning: Abnormal weather detected ahead. Maintaining distance from the anomaly is recommended.",
-			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "I mean, we've seen a lot of extreme weather before when dealing with Sirens. How can you tell it's a Singularity?",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "Extreme weather that's larger in scope than a Mirror Sea... That makes me think...",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "The shipgirls who created the Bermuda Singularity... The Ashes... Who created the Singularity over here...?",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "TB, can you analyze the structure of this stuff?",
 			typewriter = {
 				speed = 0.05,
@@ -210,11 +210,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Orders received. Beginning analysis.",
 			voice = "event:/tb/17/tb-17",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "Orders received. Beginning analysis.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,11 +227,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Analysis complete. This material shares similarities with the material used to analyze the Ashes' coordinates, though it is structurally slightly different.",
 			voice = "event:/tb/38/tb-38",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "Analysis complete. This material shares similarities with the material used to analyze the Ashes' coordinates, though it is structurally slightly different.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,8 +245,8 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "My conclusion is that the Ashes have battled here.",
 			typewriter = {
 				speed = 0.05,
@@ -275,9 +275,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Lemme guess... This is what you wanted to see for yourself?",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -331,9 +331,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I'm pretty sure the Commander gets out more than you do, but hey...",
 			typewriter = {
 				speed = 0.05,
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -387,14 +387,14 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Warning: High energy readings have been detected at the eye of the storm. Evacuate immediately.",
-			voice = "event:/tb/16/tb-16",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -451,11 +451,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "The weather anomaly is expanding at a rate exceeding our speed. It is recommended to brace for impact.",
-			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,8 +481,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"Wait... The storm isn't expanding into us, it's dragging us inside it!\"",
 			typewriter = {
 				speed = 0.05,
@@ -506,9 +506,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "There's no escaping its pull...! Hang on to whatever you can!",
 			dialogShake = {
 				speed = 0.08,

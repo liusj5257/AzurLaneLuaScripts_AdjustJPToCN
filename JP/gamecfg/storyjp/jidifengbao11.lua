@@ -1,17 +1,17 @@
 return {
-	id = "JIDIFENGBAO11",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO11",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackFg = 1,
-			bgmDelay = 1,
 			typewriterTime = 0.05,
+			bgmDelay = 1,
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
@@ -29,13 +29,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
+			nameColor = "#A9F548FF",
 			say = "作戦開始してすぐに、現れるはずのないオーロラが艦船たちの頭上の空に広がった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,10 +56,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "昼なのに……こんなオーロラが現れるはずないでしょ？",
 			painting = {
 				alpha = 0.3,
@@ -74,10 +74,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "セイレーンの気象制御装置。本当に恐ろしいね……",
 			painting = {
 				alpha = 0.3,
@@ -92,10 +92,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "オーロラを作り出せるとなると、気象装置もジャミング装置も磁場に関係があるようね",
 			painting = {
 				alpha = 0.3,
@@ -110,8 +110,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 799010,
 			dir = 1,
+			actor = 799010,
 			nameColor = "#A9F548FF",
 			say = "となると……",
 			painting = {
@@ -127,8 +127,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "チカロフ先生、なにか見解でも？",
 			painting = {
@@ -144,10 +144,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「磁気逆転」という言葉、知っている？",
 			painting = {
 				alpha = 0.3,
@@ -162,8 +162,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "聞いたことはあるが、流石に詳しくはないな",
 			painting = {
@@ -179,8 +179,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "星の両極の磁気が相対的に弱くなり、最終的に向きが南北逆転するって話だったか？",
 			painting = {
@@ -196,8 +196,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "それがセイレーン…オーロラと関係があると？",
 			painting = {
@@ -213,10 +213,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあゆっくり聞いてちょうだい。実は星の磁気の極が北極点ではなく、むしろ日々北極点に移動しているのが観測でわかっているわ",
 			painting = {
 				alpha = 0.3,
@@ -231,10 +231,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "だからこそある程度移動先を計算でき、磁極に吸引される電子と陽子…ええと、つまりオーロラの出現位置と時期、強度も予測できる",
 			painting = {
 				alpha = 0.3,
@@ -249,10 +249,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "問題なのは、この場所にオーロラが出現することは、セイレーンが作り出した幻でなければありえないってことよ",
 			painting = {
 				alpha = 0.3,
@@ -267,10 +267,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "しかも北極点にセイレーンの基地があるとすれば、まあ大変ってことかしら？",
 			painting = {
 				alpha = 0.3,
@@ -285,10 +285,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "オーロラが本当であれば、セイレーンが惑星規模の磁気を操作している可能性があるということ。……言いたかったのはこれよ",
 			painting = {
 				alpha = 0.3,
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "なんとも荒唐無稽な話だな",
 			painting = {
@@ -320,8 +320,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "まさかとは思うが、チカロフ先生が作戦に参加したのはこれを調査するためか？",
 			painting = {
@@ -337,10 +337,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "別に？そんなことじゃないけど？",
 			painting = {
 				alpha = 0.3,
@@ -355,10 +355,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "現場で見ないと課題にはしない主義でね。実際目にしたことでようやく仮説を立てられただけよ",
 			painting = {
 				alpha = 0.3,
@@ -373,10 +373,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "変なこと言ってすまないわね。同志ベラルーシア",
 			painting = {
 				alpha = 0.3,
@@ -391,8 +391,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "かまわないさ。それで？「現場」ではなく、作戦の現場に入った感想は？",
 			painting = {
@@ -408,10 +408,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "何も変わらないわ。戦場が変わっても給料を貰って仕事する、どっちも同じじゃない？",
 			painting = {
 				alpha = 0.3,
@@ -426,10 +426,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあ、準備はちゃんとしといたから安心なさい。ふふふ",
 			painting = {
 				alpha = 0.3,
@@ -443,11 +443,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_hms_8",
 			actor = 705010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "同志たち！「王冠」が見えてきたぞ！",
 			painting = {
 				alpha = 0.3,
@@ -458,17 +458,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -476,8 +476,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			say = "水平線の向こうに、氷の「王冠」が聳え立つ。",
 			typewriter = {
@@ -486,8 +486,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			say = "その先端に浮かぶ無数の氷塊が雲上の世界に影を落とし、奇妙な光景を醸し出している。",
 			typewriter = {
@@ -499,10 +499,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「王冠」……「余燼」の「コードG」が開いたとされる、世界の「特異点」……",
 			painting = {
 				alpha = 0.3,
@@ -517,10 +517,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "セイレーンに制圧されていると聞いたけど、まさかこんな近くで観察できるなんて",
 			painting = {
 				alpha = 0.3,
@@ -535,10 +535,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "中がどうなっているか気になってしょうがないわね",
 			painting = {
 				alpha = 0.3,
@@ -553,10 +553,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官が言っていたNA海域のものと同じか、それとも鉄血の「ミッドガルドの塔」のように違う鏡面海域へとつなぐ通路になるのか",
 			painting = {
 				alpha = 0.3,
@@ -571,10 +571,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 799010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "機会があればじっくりと調査したいわね",
 			painting = {
 				alpha = 0.3,
@@ -589,8 +589,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "残念だがそれはまた今度にしてもらおう。チカロフ",
 			painting = {
@@ -606,8 +606,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "王冠の調査は大事だが、今の作戦目標は暴れてオミッター本体を引き付けることだ",
 			painting = {
@@ -623,8 +623,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "資料にも書いてあるが、やつの戦力は絶大だ。余計のことを考える余裕などない――同志たちよ、それでも我々は勝てる思うか？",
 			painting = {
@@ -640,10 +640,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "問題ない。どんなに強い相手でも、キエフは戦う。もちろん、勝てる",
 			painting = {
 				alpha = 0.3,
@@ -658,10 +658,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ははははは！その心意気だ！",
 			painting = {
 				alpha = 0.3,
@@ -673,8 +673,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -686,10 +686,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "このガングート、「王冠」が開かれる前からここで戦っていた！もちろん勝てるとも！",
 			painting = {
 				alpha = 0.3,
@@ -704,8 +704,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 799010,
 			dir = 1,
+			actor = 799010,
 			nameColor = "#A9F548FF",
 			say = "私は初めてだけど、まあ大船に乗ったつもりで協力させてもらうわ",
 			painting = {
@@ -721,8 +721,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 799010,
 			dir = 1,
+			actor = 799010,
 			nameColor = "#A9F548FF",
 			say = "一応特別計画艦だし、オミッター相手でも驚かせられる程度には働けるのよ",
 			painting = {
@@ -738,9 +738,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 705040,
 			dir = 1,
 			blackBg = true,
+			actor = 705040,
 			nameColor = "#A9F548FF",
 			say = "よし、「王冠」に向けて進撃し、オミッターを誘き出そうじゃないか！",
 			painting = {
@@ -753,8 +753,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN26",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "While Mary Celeste and São Martinho engage Tester in battle, the rest of the girls board the ship she's keeping me on.",
 			bgm = "theme-tempest-up",
+			say = "While Mary Celeste and São Martinho engage Tester in battle, the rest of the girls board the ship she's keeping me on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			say = "Royal Fortune sees that I'm okay, and immediately runs over to hug me.",
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I was just so glad I couldn't help myself! Thank god you're alright!",
@@ -78,11 +78,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "Investor",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "And to think you were so down just a minute ago~",
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Shut up! I'm Tempesta's leader. We'd be screwed if I lost my cool.",
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Um... Thank you...",
@@ -195,21 +195,21 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			bgName = "bg_jufengv1_cg5",
+			mode = 1,
 			bgm = "battle-temepest-1",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -227,12 +227,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "The Invincible Crown",
-			nameColor = "#A9F548FF",
-			say = "Surrender. You have nowhere left to flee.",
-			actor = 9600020,
+			withoutPainting = true,
 			actorName = "São Martinho",
+			actor = 9600020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "Surrender. You have nowhere left to flee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,12 +243,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "A Lake Reflection",
+			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			actor = 900011,
 			actorName = "Tester",
+			hidePaintObj = true,
 			say = "Heheh... Hahahaha!",
-			actor = 900011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,12 +259,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "A Lake Reflection",
-			actorName = "Tester",
-			say = "If this is how it ends, I'm taking you with me!",
-			actor = 900011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			actor = 900011,
+			actorName = "Tester",
+			hidePaintObj = true,
+			say = "If this is how it ends, I'm taking you with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,12 +275,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "The Risen Tempesta",
-			nameColor = "#A9F548FF",
-			say = "What's she doing?",
-			actor = 9600050,
-			actorName = "Whydah",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Whydah",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "What's she doing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,12 +292,12 @@ return {
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "A Ghost",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "...Trying to summon a storm. A really, really big one!",
-			actor = 9600040,
-			actorName = "Mary Celeste",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Mary Celeste",
+			actor = 9600040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "...Trying to summon a storm. A really, really big one!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,12 +312,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "The Invincible Crown",
-			nameColor = "#A9F548FF",
-			say = "Then we must stop her!",
-			actor = 9600020,
-			actorName = "São Martinho",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "São Martinho",
+			actor = 9600020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Then we must stop her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,12 +328,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "The Invincible Crown",
-			nameColor = "#A9F548FF",
-			say = "She must be getting a great amount of power from somewhere...",
-			actor = 9600020,
+			withoutPainting = true,
 			actorName = "São Martinho",
+			actor = 9600020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "She must be getting a great amount of power from somewhere...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,12 +344,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "The Risen Tempesta",
+			withoutPainting = true,
+			actorName = "Whydah",
+			actor = 9600050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's gotta be the Fountain of Youth!",
-			actor = 9600050,
-			actorName = "Whydah",
-			hidePaintObj = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,12 +360,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "The Risen Tempesta",
-			nameColor = "#A9F548FF",
-			say = "That big machine tower is the source!",
-			actor = 9600050,
-			actorName = "Whydah",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Whydah",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "That big machine tower is the source!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,12 +377,12 @@ return {
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "Investor",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Let's just destroy that, then!",
-			actor = 9600030,
+			withoutPainting = true,
 			actorName = "Golden Hind",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "Let's just destroy that, then!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,12 +398,12 @@ return {
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "The Rising Star",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "Royal Fortune",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "How? It's humongous!",
-			actor = 9600010,
-			actorName = "Royal Fortune",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,12 +419,12 @@ return {
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "The Rising Star",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Think, think... Oh, I know! Whydah, can you use your grimoire to summon more meteors?",
-			actor = 9600010,
-			actorName = "Royal Fortune",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Royal Fortune",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Think, think... Oh, I know! Whydah, can you use your grimoire to summon more meteors?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,12 +439,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "The Risen Tempesta",
-			nameColor = "#A9F548FF",
-			say = "Uhh, let me ask!",
-			actor = 9600050,
-			actorName = "Whydah",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Whydah",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Uhh, let me ask!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,20 +455,20 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "The Risen Tempesta",
-			nameColor = "#A9F548FF",
-			say = "Terminal, you still with me?",
-			actor = 9600050,
-			actorName = "Whydah",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Whydah",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Terminal, you still with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "Grimoire Terminal",
+			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "Ancient Artifact",
 			hidePaintObj = true,
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Grimoire Terminal",
+			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "Ancient Artifact",
 			hidePaintObj = true,
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Grimoire Terminal",
+			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "Ancient Artifact",
 			hidePaintObj = true,
@@ -506,8 +506,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Grimoire Terminal",
+			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "Ancient Artifact",
 			hidePaintObj = true,
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Grimoire Terminal",
+			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "Ancient Artifact",
 			nameColor = "#A9F548FF",
@@ -538,30 +538,30 @@ return {
 			}
 		},
 		{
-			actorName = "Grimoire Terminal",
-			side = 2,
-			bgName = "bg_jufengv1_cg5",
 			factiontag = "Ancient Artifact",
+			side = 2,
+			actorName = "Grimoire Terminal",
+			bgName = "bg_jufengv1_cg5",
+			bgm = "battle-temepest-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Firing command received.",
-			bgm = "battle-temepest-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -573,12 +573,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "The Risen Tempesta",
-			nameColor = "#A9F548FF",
-			say = "It... actually worked!",
-			actor = 9600050,
+			withoutPainting = true,
 			actorName = "Whydah",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "It... actually worked!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,12 +589,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "A Lake Reflection",
+			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			actor = 900011,
 			actorName = "Tester",
+			hidePaintObj = true,
 			say = "What is that...?",
-			actor = 900011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,12 +605,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "A Lake Reflection",
-			actorName = "Tester",
-			say = "No! This can't be! That treasure belongs to ME!",
-			actor = 900011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			actor = 900011,
+			actorName = "Tester",
+			hidePaintObj = true,
+			say = "No! This can't be! That treasure belongs to ME!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,12 +622,12 @@ return {
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "A Ghost",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Now! Keep up the pressure!",
-			actor = 9600040,
-			actorName = "Mary Celeste",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Mary Celeste",
+			actor = 9600040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Now! Keep up the pressure!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,8 +638,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg5",
 			hidePaintObj = true,
 			say = "Tester tries her best to protect herself against the attacks while the \"meteors\" break through the storm and impact the Fountain of Youth.",
@@ -649,21 +649,21 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			bgName = "bg_jufengv1_cg6",
+			mode = 1,
 			bgm = "theme-seaandsun-soft",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg6",
 			hidePaintObj = true,
 			say = "Then, just like that, the storm dissipates.",
@@ -688,8 +688,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg6",
 			hidePaintObj = true,
 			say = "With her power source annihilated, Tester squirms a final few times before she sinks beneath the waves.",
@@ -704,12 +704,12 @@ return {
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "A Ghost",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Is it over?",
-			actor = 9600040,
-			actorName = "Mary Celeste",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Mary Celeste",
+			actor = 9600040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Is it over?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,12 +724,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "The Invincible Crown",
-			nameColor = "#A9F548FF",
-			say = "Yes. It's over.",
-			actor = 9600020,
-			actorName = "São Martinho",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "São Martinho",
+			actor = 9600020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Yes. It's over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,12 +741,12 @@ return {
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "Investor",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Looks like it is.",
-			actor = 9600030,
+			withoutPainting = true,
 			actorName = "Golden Hind",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "Looks like it is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,12 +762,12 @@ return {
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "The Rising Star",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "Royal Fortune",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah! Get in there! We're having a victory banquet tonight!",
-			actor = 9600010,
-			actorName = "Royal Fortune",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,12 +783,12 @@ return {
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "The Rising Star",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Galley, can we host it at Shipwreck Point? We haven't tried the seafood we left there!",
-			actor = 9600010,
+			withoutPainting = true,
 			actorName = "Royal Fortune",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "Galley, can we host it at Shipwreck Point? We haven't tried the seafood we left there!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,12 +804,12 @@ return {
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "Retiree",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "Adventure Galley",
+			actor = 9600060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Seafood? You mean the creature inside that ship?",
-			actor = 9600060,
-			actorName = "Adventure Galley",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -825,12 +825,12 @@ return {
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "Retiree",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "You know what? Knock yourselves out...",
-			actor = 9600060,
-			actorName = "Adventure Galley",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "Adventure Galley",
+			actor = 9600060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "You know what? Knock yourselves out...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -841,8 +841,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg6",
 			hidePaintObj = true,
 			say = "And so, our adventure reaches its conclusion.",
@@ -852,8 +852,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg6",
 			hidePaintObj = true,
 			say = "But our story, that has only just begun...",

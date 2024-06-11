@@ -14,15 +14,21 @@ return {
 		{
 			alpha = 0.19,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 104.87,
 				posX = 4.77,
 				text = slot0[1]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/formationButton",
 				pathIndex = -1,
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/1/formation"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/right/formationButton"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -36,8 +42,8 @@ return {
 			alpha = 0.414,
 			waitScene = "FormationUI",
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[2]
@@ -46,15 +52,15 @@ return {
 		{
 			alpha = 0.385,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 240,
 				posX = -88.52,
 				text = slot0[3]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/vanguard_3/tip",
 				pathIndex = -1,
+				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/GridFrame/vanguard_3/tip",
 				triggerType = {
 					1
 				},
@@ -67,18 +73,18 @@ return {
 		{
 			alpha = 0.279,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[4]
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
 				pathIndex = "#",
+				path = "UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
 				image = {
-					isChild = true,
 					source = "content/ship_icon",
+					isChild = true,
 					target = "content/ship_icon",
 					isRelative = true
 				},
@@ -94,15 +100,15 @@ return {
 		{
 			alpha = 0.293,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 0,
 				posX = 239.42,
 				text = slot0[5]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/blur_panel/select_panel/confirm_button",
 				triggerType = {
 					1
 				},
@@ -116,8 +122,8 @@ return {
 			alpha = 0.441,
 			waitScene = "FormationUI",
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[6]
@@ -126,15 +132,15 @@ return {
 		{
 			alpha = 0.462,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 226.21,
 				posX = -130.49,
 				text = slot0[7]
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/FormationUI(Clone)/blur_panel/top/back_btn",
 				pathIndex = -1,
+				path = "UICamera/Canvas/UIMain/FormationUI(Clone)/blur_panel/top/back_btn",
 				triggerType = {
 					1
 				},

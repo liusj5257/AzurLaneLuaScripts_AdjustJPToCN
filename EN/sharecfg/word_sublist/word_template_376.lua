@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_376 = {}
 slot1 = slot0.word_template_376
 
-function temp()
+temp = function()
 	uv0["坏"] = {
 		["哥"] = {
 			["哥"] = {
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["凹"] = {
 		["凸"] = {
 			["视"] = {
@@ -55,7 +55,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["盾"] = {
 		["卡"] = {
 			["交"] = {
@@ -69,7 +69,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.y = {
 		h = {
 			k = {
@@ -129,7 +129,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["镁"] = {
 		["粉"] = {
 			["燃"] = {
@@ -145,7 +145,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.H = {
 		["幼"] = {
 			this = true,
@@ -289,7 +289,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["幺"] = {
 		["力"] = {
 			["女"] = {

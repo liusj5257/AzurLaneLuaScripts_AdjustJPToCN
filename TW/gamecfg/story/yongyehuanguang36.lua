@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG36",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG36",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -54,8 +54,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "是！這裡是主力艦隊-------",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "終於通暢了......司令部也該考慮研發一些更抗干擾的通訊器了。",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "等等…終止一切任務？那支援艦隊怎麼辦？！而且不是要接指揮官回來嗎？！",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -153,8 +153,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "簡直一團糟…豪，把通訊器給我！",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "說話的是厭戰嗎？現在到底是什麼情況，告訴我們斯卡帕灣到底出什麼事了？",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -219,8 +219,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "什…麼？！這是怎麼回事！我都沒聽說過她有這個行程，鐵血是怎麼知道的？！",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -259,8 +259,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -278,8 +278,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "知道了，我們這就回去！",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "......原來這才是鐵血主力艦隊的真正目的嗎，真是被狠狠擺了一道啊…！",
 			typewriter = {
@@ -328,9 +328,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205090,
 			dir = 1,
 			blackBg = true,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "千萬要平安無事啊，陛下…！",
 			typewriter = {

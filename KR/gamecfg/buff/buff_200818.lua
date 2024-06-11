@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024罗德尼meta 触发终结技失败的提示",
 	time = 0.1,
-	color = "yellow",
+	name = "2024罗德尼meta 触发终结技失败的提示",
+	init_effect = "",
+	id = 200818,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200818,
+	color = "yellow",
 	icon = 200818,
 	last_effect = "",
 	effect_list = {

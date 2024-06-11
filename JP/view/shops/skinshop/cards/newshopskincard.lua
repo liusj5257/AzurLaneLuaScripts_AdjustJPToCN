@@ -1,6 +1,6 @@
 slot0 = class("NewShopSkinCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0._content = slot0._tf:Find("frame/content")
@@ -66,7 +66,7 @@ slot11 = {
 	}
 }
 
-function slot12(slot0, slot1)
+slot12 = function(slot0, slot1)
 	slot2 = slot0.buyCount == 0
 
 	if slot1 and slot2 then
@@ -92,7 +92,7 @@ function slot12(slot0, slot1)
 	end
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3)
+slot0.Update = function(slot0, slot1, slot2, slot3)
 	slot0.commodity = slot1
 	slot0.isReturn = slot3
 	slot4 = slot1:getSkinId()
@@ -160,7 +160,7 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	slot0:UpdateSelected(slot2)
 end
 
-function slot0.UpdateSelected(slot0, slot1)
+slot0.UpdateSelected = function(slot0, slot1)
 	if slot0.isSelected ~= slot1 then
 		slot0.isSelected = slot1
 		slot0._content.localPosition = Vector3(0, slot1 and -26 or -126, 0)
@@ -170,7 +170,7 @@ function slot0.UpdateSelected(slot0, slot1)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:UpdateSelected(false)
 
 	slot0._icon.transform.localScale = Vector3.one

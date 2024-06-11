@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUNUO2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUNUO2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201020,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = -1,
+			nameColor = "#92fc63",
 			say = "후아아아암…",
 			shake = {
 				speed = 1,
@@ -93,8 +93,8 @@ return {
 			hideOther = true,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 201030,
 			dir = 1,
+			actor = 201030,
 			say = "글로리어스씨, 고마워! 하지만 할 일은 제대로 해야지. 아카스타, 우리는 레이더를 가지고 있지 않으니, 적을 조기에 발견할 수 있도록 앞으로 나가는 편이 좋을거라구.",
 			typewriter = {
 				speed = 0.05,
@@ -121,14 +121,14 @@ return {
 			}
 		},
 		{
-			actor = 201030,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201030,
+			nameColor = "#92fc63",
 			say = "글로리어스씨의 속도는 17노트, 풍력은 2에서 3 정도, 풍향은 남동… 시야 양호… 좀 느린 것 같은데, 순조로운 거 맞지…?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -190,8 +190,8 @@ return {
 			actor = 201020,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "아덴트  &  아카스타",
 			dir = -1,
+			actorName = "아덴트  &  아카스타",
 			say = "네!",
 			typewriter = {
 				speed = 0.05,

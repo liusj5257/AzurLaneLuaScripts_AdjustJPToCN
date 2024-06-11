@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU8",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"第三楽章\n\n<size=45>「苦悩と情熱」</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			blackBg = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
 			actor = 408040,
 			nameColor = "#ffde38",
+			blackBg = true,
 			say = "ビスマルクさま、ビスマルクさま、お待ち下さい！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -60,12 +60,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
+			say = "潜水艦の子か。うむ、おはよう",
 			side = 1,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "潜水艦の子か。うむ、おはよう",
+			actor = 405010,
+			nameColor = "#ffde38",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,10 +82,10 @@ return {
 		{
 			expression = 2,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "あの！ええとビスマルクさまの昨日の演説が素晴らしくて、このU-556、一生忘れられそうにないんです！",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -109,10 +109,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -126,10 +126,10 @@ return {
 		{
 			expression = 3,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "つ、つまりはですね！ビスマルクさま！ひとつだけお願いできないでしょうか！",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,10 +185,10 @@ return {
 		{
 			expression = 1,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "あたしの好きなおとぎ話的にね！ええと、「今日からこのU-556、尊き騎士ことサー・パーシヴァルのように、海を駆け巡る！」……ど、どうですか？",
 			typewriter = {
 				speed = 0.05,
@@ -202,10 +202,10 @@ return {
 		{
 			expression = 1,
 			side = 1,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "おめでとう。鉄血のために力を尽くしなさい",
 			typewriter = {
 				speed = 0.05,
@@ -235,10 +235,10 @@ return {
 		{
 			expression = 3,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "ビスマルクさまから出陣のご祝福をいただければこのU-556、より一層粉骨砕身して頑張りたいと思います！",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,10 +262,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "……………",
 			typewriter = {
 				speed = 0.05,
@@ -295,10 +295,10 @@ return {
 		{
 			expression = 1,
 			side = 0,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "ええい！逆立ち潜航！",
 			typewriter = {
 				speed = 0.05,
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = -1000
@@ -319,8 +319,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "どぼーん、とU-556はバク転して海に突っ込んだ。",
 			typewriter = {
@@ -335,10 +335,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "…………ふふっ",
 			typewriter = {
 				speed = 0.05,
@@ -350,8 +350,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -360,8 +360,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "よくわからないと定評のある特技に、流石にビスマルクも頬を綻ばせた。",
 			typewriter = {
@@ -392,10 +392,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "ううん、なんかほかの子とは違って少し感心したわ",
 			typewriter = {
 				speed = 0.05,
@@ -409,10 +409,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "ビスマルクさま、すごく威厳があって近づき難いって聞いたけど……",
 			typewriter = {
 				speed = 0.05,
@@ -426,10 +426,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "全然そんなことないです…潜水艦のあたしもこうして会話できるし、本当は親切なお方なんですね！",
 			typewriter = {
 				speed = 0.05,
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "心の中でそう思っていながらも、ビスマルクは笑顔を引っ込めて、海の中から顔を出しているU-556に別れを告げた。",
 			typewriter = {
@@ -473,10 +473,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "あなたの願い、しかと聞き入れた。では",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "U-556一人が海に残された。",
 			typewriter = {
@@ -502,13 +502,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "翌日――",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -551,10 +551,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "うん…………",
 			typewriter = {
 				speed = 0.05,
@@ -568,10 +568,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "ビスマルクさま、出陣の祝福をしてくれると約束したのに、まだ来ていないよね…",
 			typewriter = {
 				speed = 0.05,
@@ -601,10 +601,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "うん…そうよね。戦果を上げて、いつかビスマルクさまに柏葉勲章をつけてもらって……",
 			typewriter = {
 				speed = 0.05,
@@ -618,10 +618,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 408040,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 408040,
+			nameColor = "#ffde38",
 			say = "そう！憧れの柏葉騎士章！それこそこの海のパーシヴァルであるU-556に相応しい！ふふん！",
 			typewriter = {
 				speed = 0.05,
@@ -649,8 +649,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "視線の先に饅頭たちが集まっているのに気づく。そして――",
@@ -666,12 +666,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
-			say = "我が鉄血艦隊の新しい仲間が、今初陣に挑もうとしている",
 			bgm = "bsm-7",
+			actor = 405010,
+			nameColor = "#ffde38",
+			say = "我が鉄血艦隊の新しい仲間が、今初陣に挑もうとしている",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -700,10 +700,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			actor = 405010,
+			nameColor = "#ffde38",
 			say = "さあ、新たな勇者よ！このビスマルクは鉄血艦隊を代表して、そなたに出陣の祝福を捧げよう！",
 			typewriter = {
 				speed = 0.05,
@@ -787,12 +787,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "ビスマルクさま…！",
 			typewriter = {
 				speed = 0.05,
@@ -819,12 +819,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "ビスマルクさま、せ、センエツながらもう一つお願いが……",
 			typewriter = {
 				speed = 0.05,
@@ -836,12 +836,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ビスマルク",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "欲張りな子ね。なんのお願いかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -853,12 +853,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "あの……「アネキ」と呼ばせてください！",
 			typewriter = {
 				speed = 0.05,
@@ -870,12 +870,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ビスマルク",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "………ん？",
 			typewriter = {
 				speed = 0.05,
@@ -902,12 +902,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "はい！感謝と尊敬を込めて…ええと、「ビスマルクのアネキ」と呼んでもいいでしょうか！",
 			typewriter = {
 				speed = 0.05,
@@ -919,12 +919,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ビスマルク",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "まあ……うん、いいわ",
 			typewriter = {
 				speed = 0.05,
@@ -936,12 +936,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "び、ビスマルクのアネキ！ありがとうございます！",
 			typewriter = {
 				speed = 0.05,
@@ -953,12 +953,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ビスマルク",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "……っ/// ",
 			typewriter = {
 				speed = 0.05,
@@ -985,12 +985,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "あっ、ビスマルクのアネキ、出撃の前にこれをお渡ししたいと思います！",
 			typewriter = {
 				speed = 0.05,
@@ -1017,12 +1017,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ビスマルク",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "これは……？",
 			typewriter = {
 				speed = 0.05,
@@ -1034,12 +1034,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "昨日書かせてもらいました誓いの証明書です！",
 			typewriter = {
 				speed = 0.05,
@@ -1051,12 +1051,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "では、誓います！――いつでもどこでもビスマルクのアネキをお守りします！",
 			typewriter = {
 				speed = 0.05,
@@ -1083,12 +1083,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "あ！ごめんなさい！今は出撃ですね！……ビスマルクのアネキ、先に行ってきます！",
 			typewriter = {
 				speed = 0.05,
@@ -1100,12 +1100,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "U-556",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "また今度お願いします！U-556、発進！",
 			typewriter = {
 				speed = 0.05,
@@ -1132,12 +1132,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ビスマルク",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "妹、か…悪くないわね……",
 			typewriter = {
 				speed = 0.05,
@@ -1149,12 +1149,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ビスマルク",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -1166,12 +1166,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ビスマルク",
+			side = 2,
 			bgName = "bg_bsm_1",
-			nameColor = "#ffde38",
 			dir = 1,
 			useBg2 = true,
+			nameColor = "#ffde38",
 			say = "ティルピッツも大丈夫かしら………",
 			typewriter = {
 				speed = 0.05,
@@ -1214,18 +1214,18 @@ return {
 			}
 		},
 		{
-			bgm = "bsm-1",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
-			seDelay = 2,
 			dir = 1,
 			bgmDelay = 2,
-			soundeffect = "event:/battle/boom2",
-			actor = 204010,
 			nameColor = "#a9f548",
+			bgm = "bsm-1",
+			actor = 204010,
 			say = "ロイヤルネイビーH部隊所属――巡洋戦艦レナウン、貴艦の要撃の命により参りました！無駄な抵抗をやめてください！",
+			seDelay = 2,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1285,10 +1285,10 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ffde38",
-			actor = 405010,
 			dir = -1,
-			say = "くっ…！新手か…！",
 			soundeffect = "event:/battle/boom2",
+			actor = 405010,
+			say = "くっ…！新手か…！",
 			flashN = {
 				color = {
 					1,
@@ -1349,8 +1349,8 @@ return {
 			actor = 405010,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = -1,
+			nameColor = "#ffde38",
 			say = "……どうやら一つ見落としていることがあるようだな",
 			typewriter = {
 				speed = 0.05,
@@ -1380,8 +1380,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "悪いが、翻弄させてもらう！全速前進！",
 			typewriter = {
 				speed = 0.05,
@@ -1426,9 +1426,9 @@ return {
 			actor = 207020,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "ソードフィッシュ隊、発進！ビスマルクを取っ捕まえるぞ！",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

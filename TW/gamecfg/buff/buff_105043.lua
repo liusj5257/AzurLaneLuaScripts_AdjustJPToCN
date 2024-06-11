@@ -149,9 +149,9 @@ return {
 			}
 		}
 	},
-	time = 8,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 8,
 	picture = "",
 	desc = "航速提升8S",
 	stack = 1,

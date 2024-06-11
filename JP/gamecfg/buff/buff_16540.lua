@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 16540,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16540,
+	color = "red",
 	icon = 16540,
 	last_effect = "",
 	effect_list = {
@@ -40,8 +40,8 @@ return {
 			},
 			arg_list = {
 				quota = 6,
-				target = "TargetSelf",
 				skill_id = 16540,
+				target = "TargetSelf",
 				countType = 16540
 			}
 		}

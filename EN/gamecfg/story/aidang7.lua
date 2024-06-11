@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDANG7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AIDANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Date With Atago\n\n<size=45>Chapter 7: Advance Bravely!</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
 			mode = 1,
+			bgm = "story-2",
 			sequence = {
 				{
 					"Back then, if our flagship was still there, unflagging and decisive...",
@@ -39,16 +39,16 @@ return {
 			}
 		},
 		{
-			actor = 303120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
+			actor = 303120,
+			nameColor = "#a9f548",
 			say = "The thing that I want most is you, Commander.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -105,13 +105,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "My vision went dark, and then I felt a warm, soft sensation press against me.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "At that moment, it became clear to me. This was not craze or obsession. For Atago, this was her raison d'etre, the thing that gave her the will to survive another day, nothing more.",
 			typewriter = {

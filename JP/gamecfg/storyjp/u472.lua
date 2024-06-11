@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U472",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U472",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"やさしくて静かであたたかくて\n\n<size=45>二 静かな来訪者</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "執務室で仕事をしていると、突然扉をノックする音が響いた。",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "執務室で仕事をしていると、突然扉をノックする音が響いた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "珍しい時間の来客だと思いながら、どうぞと声をかける。すると――",
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-47は入ってくるなり部屋の中を不思議そうに見回し始めた。何か用事だろうか――",
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "そこまで忙しいというほどでもないので、気の済むまで居ていいよと告げるとU-47はこくりと頷いた。",
@@ -144,15 +144,15 @@ return {
 			}
 		},
 		{
-			actor = 408020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408020,
+			nameColor = "#a9f548",
 			say = "…………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "ずっと仕事に没頭したまま、かなり時間が経った気がする……。お互い終始無言だったが気を遣わせてしまっただろうか？",
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-47は応接用のソファーに座っているはずだった。ずっと静かなので様子を見てみると――",
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "どうやら読書の途中で眠くなってそのまま寝てしまったようだ。寝息も静かな子だから気が付かなかった。",
@@ -254,8 +254,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "読んでいた本のタイトルに目を向ける。……さすがにこの本は彼女には少々難解すぎるものだ。",
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "眠気を誘ったものが何だったのか判明したところで、U-47 にそっとシーツをかけてあげる。",
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 408020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408020,
+			nameColor = "#a9f548",
 			say = "……ん",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 30,
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "まずい、起こしてしまったか――と思ったが彼女は小さく寝返りをうっただけであった。",
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

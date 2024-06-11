@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGTINGLIAOFA32",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-boss-4",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "海に爆音が響く。",
 			dir = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "battle-boss-4",
+			say = "海に爆音が響く。",
 			flashN = {
 				color = {
 					1,
@@ -60,14 +60,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_xiangting_3",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			say = "硝煙、炎、残骸、破壊の跡。",
-			side = 2,
-			bgName = "bg_xiangting_3",
-			dir = 1,
-			soundeffect = "event:/battle/boom2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -92,14 +92,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_xiangting_3",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			say = "たったひとりの、彼女の「戦い」が続いていた。",
-			side = 2,
-			bgName = "bg_xiangting_3",
-			dir = 1,
-			soundeffect = "event:/battle/boom2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_xiangting_3",
-			actorName = "オブザーバー",
 			dir = 1,
+			actorName = "オブザーバー",
 			say = "おめでとう。これでこの海域のセイレーンは全部撃破されたわ～",
 			effects = {
 				{
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "オブザーバー",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -162,10 +162,10 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
+			actor = 900072,
 			dir = 1,
 			actorName = "？？？",
 			say = "……関係のない人を巻き込むなと言った",
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_xiangting_3",
-			actorName = "オブザーバー",
 			dir = 1,
+			actorName = "オブザーバー",
 			say = "「ヒト」ね……あなたの言うソレはどういう意味かしら？",
 			effects = {
 				{
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "オブザーバー",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "オブザーバー",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "オブザーバー",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -255,10 +255,10 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
+			actor = 900072,
 			dir = 1,
 			actorName = "？？？",
 			say = "……",
@@ -278,11 +278,11 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900072,
 			actorName = "？？？",
 			say = "あなた達を絶対に止める",
 			typewriter = {
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_xiangting_3",
-			actorName = "オブザーバー",
 			dir = 1,
+			actorName = "オブザーバー",
 			say = "あら、そう言わないで？プロトであるあなたさえよければ、私たちはいつでも仲直りできるのよ？",
 			effects = {
 				{
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "オブザーバー",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "オブザーバー",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -349,10 +349,10 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
+			actor = 900072,
 			dir = 1,
 			actorName = "？？？",
 			say = "…黙れ",
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900072,
 			actorName = "？？？",
 			say = "……………余計なことをするな",
 			typewriter = {
@@ -389,11 +389,11 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900072,
 			actorName = "？？？",
 			say = "今この場の状況を全て主機に報告する以外あなたにできることはなにもない",
 			typewriter = {
@@ -406,11 +406,11 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900072,
 			actorName = "？？？",
 			say = "私をもう一度止める力も、権限も、あなたにはないはずだ",
 			typewriter = {
@@ -423,14 +423,14 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900072,
 			actorName = "？？？",
 			say = "――消えろ",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,

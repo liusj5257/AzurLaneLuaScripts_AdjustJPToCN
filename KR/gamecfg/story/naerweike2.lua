@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401180,
 			nameColor = "#92fc63",
 			side = 1,
-			bgm = "level02",
 			dir = -1,
 			say = "한스, 지금 막 도착했습니다☆",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "정보가 틀렸었나…… 고생했어.",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,8 +142,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "문제는 이 다음이야. 우린 회항할 연료 보급도 여의치 않은 상황이라고. 게다가…",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "아마도…… 로열 네이비는 당장이라도 달려오려고 하겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -229,8 +229,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "그래, 지금은 적에 대비해서 쉬는 편이 좋겠어.",
 			typewriter = {
 				speed = 0.05,
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 401180,
 			nameColor = "#92fc63",
 			side = 2,
-			hideOther = true,
+			actor = 401180,
 			dir = -1,
+			hideOther = true,
 			actorName = "모두",
 			say = "네!",
 			subActors = {

@@ -4,9 +4,9 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "舰队的耐久值恢复了！",
 			typewriter = {
 				speed = 0.05,
@@ -18,9 +18,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "舰队的破损状态修复成功！",
 			typewriter = {
 				speed = 0.05,

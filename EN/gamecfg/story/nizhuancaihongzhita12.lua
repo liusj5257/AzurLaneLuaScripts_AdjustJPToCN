@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIZHUANCAIHONGZHITA12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIZHUANCAIHONGZHITA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			bgName = "bg_midgard_3",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-midgard-hunting",
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -48,10 +48,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 406020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "There's probably still a battle going on around here! Just look at all the fresh wreckage!",
 			typewriter = {
 				speed = 0.05,
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 408120,
 			side = 2,
 			bgName = "bg_midgard_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 408120,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Right-o! Over here, everyone! Wait, what the heck, is there even more rubble and debris than before?",
 			typewriter = {
 				speed = 0.05,
@@ -83,10 +83,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 406020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Of course! That's the proof that we're getting closer to the middle of the action!",
 			typewriter = {
 				speed = 0.05,
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actor = 402060,
 			side = 2,
 			bgName = "bg_midgard_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Think we'll run into an actual monster?",
 			typewriter = {
 				speed = 0.05,
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			actor = 406020,
 			side = 2,
 			bgName = "bg_midgard_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406020,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Th-there's no such thing as monsters!",
 			typewriter = {
 				speed = 0.05,
@@ -135,10 +135,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 403100,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Then what is it, Elbe?",
 			typewriter = {
 				speed = 0.05,
@@ -153,10 +153,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 406020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Well, whatever it is, it's not showing up on my radars, it's fighting against the Sirens, and it's freakin' powerful!",
 			typewriter = {
 				speed = 0.05,
@@ -171,10 +171,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_midgard_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 403100,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That can only mean one thing...",
 			typewriter = {
 				speed = 0.05,

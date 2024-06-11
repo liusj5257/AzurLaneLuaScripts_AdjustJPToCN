@@ -1,6 +1,6 @@
 slot0 = class("GuildEventBasePage", import("....base.BaseSubView"))
 
-function slot0.Show(slot0, slot1, slot2, slot3)
+slot0.Show = function(slot0, slot1, slot2, slot3)
 	slot0:UpdateData(slot1, slot2, slot3)
 	uv0.super.Show(slot0)
 	assert(slot0._tf)
@@ -18,18 +18,18 @@ function slot0.Show(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.SetHideCallBack(slot0, slot1)
+slot0.SetHideCallBack = function(slot0, slot1)
 	slot0.exitCallback = slot1
 end
 
-function slot0.UpdateData(slot0, slot1, slot2, slot3)
+slot0.UpdateData = function(slot0, slot1, slot2, slot3)
 	slot0.guild = slot1
 	slot0.player = slot2
 	slot0.extraData = slot3
 end
 
-function slot0.Hide(slot0, slot1)
-	function slot2()
+slot0.Hide = function(slot0, slot1)
+	slot2 = function()
 		uv0.inAnim = false
 
 		uv1.super.Hide(uv0)
@@ -51,11 +51,11 @@ function slot0.Hide(slot0, slot1)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide(true)
 end
 
-function slot0.emit(slot0, ...)
+slot0.emit = function(slot0, ...)
 	if slot0.inAnim then
 		return
 	end
@@ -63,15 +63,15 @@ function slot0.emit(slot0, ...)
 	uv0.super.emit(slot0, ...)
 end
 
-function slot0.EnterAnim(slot0, slot1)
+slot0.EnterAnim = function(slot0, slot1)
 	slot1()
 end
 
-function slot0.ExistAnim(slot0, slot1)
+slot0.ExistAnim = function(slot0, slot1)
 	slot1()
 end
 
-function slot0.OnShow(slot0)
+slot0.OnShow = function(slot0)
 end
 
 return slot0

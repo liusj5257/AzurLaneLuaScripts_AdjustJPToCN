@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_44 = {}
 slot1 = slot0.word_template_44
 
-function temp()
+temp = function()
 	uv0.g = {
 		o = {
 			n = {
@@ -172,7 +172,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["核"] = {
 		["工"] = {
 			["业"] = {
@@ -228,7 +228,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["铀"] = {
 		this = {
 			this = true
@@ -238,7 +238,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["原"] = {
 		["子"] = {
 			["弹"] = {

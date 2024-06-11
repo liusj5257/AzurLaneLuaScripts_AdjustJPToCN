@@ -9,9 +9,9 @@ return {
 			target_choise = "TargetSelf",
 			type = "BattleSkillFusion",
 			arg_list = {
+				fusion_id = 900808,
 				duration = 15,
 				ship_skin_id = 10800120,
-				fusion_id = 900808,
 				element_tag_list = {
 					"YUME"
 				},

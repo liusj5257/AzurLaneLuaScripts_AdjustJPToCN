@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-ucnf-image",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "An hour later, Princeton META returned from her visit to the flagship.",
-			bgm = "theme-ucnf-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -36,10 +36,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Sorry, that took longer than I expected.",
 			painting = {
 				alpha = 0.3,
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Was your access issue resolved?",
@@ -72,10 +72,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Uh, more or less. As embarrassing as it is to admit, it happened because of another malfunction.",
 			painting = {
 				alpha = 0.3,
@@ -90,10 +90,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now, it's pretty late, so shall we have dinner?",
 			painting = {
 				alpha = 0.3,
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Princeton stood up and suddenly noticed that on the low table behind her, there was a small heap of snacks piled up.",
@@ -119,10 +119,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is... Is that Oxy-cola Classic?!",
 			painting = {
 				alpha = 0.3,
@@ -137,10 +137,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And tortillas, and chips, and fruits, too!",
 			painting = {
 				alpha = 0.3,
@@ -155,10 +155,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Are these all yours?",
 			painting = {
 				alpha = 0.3,
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yup. We heard all your food is rations that put shelf life over taste, so we thought we'd bring out some food we took with us.",
@@ -191,10 +191,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...You use precious storage space on treats and snacks when you're going into battle?",
 			painting = {
 				alpha = 0.3,
@@ -266,10 +266,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*sigh*... We have to settle for synthetic food when we're on active duty.",
 			painting = {
 				alpha = 0.3,
@@ -284,10 +284,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "To tell the truth, I don't know how many years since I last had real snacks or fruit...",
 			painting = {
 				alpha = 0.3,
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Princeton looked at the cans of cola with a longing twinkle in her eyes.",
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Well, now you can have as much as you like. Don't be shy.",
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "There is more than enough to go around.",
@@ -349,10 +349,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Really? Oh, man! Don't mind if I do!",
 			painting = {
 				alpha = 0.3,
@@ -366,11 +366,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Phew! That hits the spot! I've missed this taste!",
 			painting = {
 				alpha = 0.3,
@@ -381,17 +381,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -402,10 +402,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I've tried again and again to replicate it ever since they changed the recipe, but I never got it right.",
 			painting = {
 				alpha = 0.3,
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "They changed Oxy-cola's recipe?",
@@ -438,10 +438,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah... If only the recipe hadn't been lost in the war...",
 			painting = {
 				alpha = 0.3,
@@ -475,10 +475,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Err! I misspoke! There was no war!",
 			painting = {
 				alpha = 0.3,
@@ -512,10 +512,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Yeah. No use in trying to hide it from you.",
 			painting = {
 				alpha = 0.3,
@@ -530,10 +530,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "See, we have this brilliant scientist on board.",
 			painting = {
 				alpha = 0.3,
@@ -548,10 +548,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She told me you have to be very cautious when dealing with a space-time anomaly.",
 			painting = {
 				alpha = 0.3,
@@ -566,10 +566,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Anything I do could have a butterfly effect, so the range of things I can discuss with you is extremely limited.",
 			painting = {
 				alpha = 0.3,
@@ -600,12 +600,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -620,10 +620,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, it looks like the lady herself wants to greet you. Fortress, reroute the comms lines to me.",
 			painting = {
 				alpha = 0.3,
@@ -661,11 +661,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Is that a codename? Are you silver like the color of your hair, and a fox because you're as cunning as one?",
@@ -705,11 +705,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Ah. If I may ask, would it be possible for us to speak to you in person?",
@@ -762,11 +762,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I see... Sorry for the sudden question, but do you believe in fate?",
@@ -876,11 +876,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You can chalk that up to random chance, sure, but I believe in miracles even so.",
@@ -933,11 +933,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I mean...",
@@ -1035,11 +1035,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I can only hope and pray your repairs go well. That beacon may be our key to getting home.",
@@ -1085,11 +1085,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But, I'd hate to completely pass on this golden opportunity. Can't we just ask a few questions and no more than that?",
@@ -1256,11 +1256,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "This way, the initiative is all yours. You can control how much or how little information we exchange.",
@@ -1351,11 +1351,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(Nice quick thinking, Guam!)",
@@ -1369,11 +1369,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(Heh. Good improv skills are a must in my line of work!)",
@@ -1454,10 +1454,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Fortress, defend the base. I'll take the fleet and deal with it.",
 			painting = {
 				alpha = 0.3,
@@ -1491,10 +1491,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ms. Silver Fox, do we let them?",
 			painting = {
 				alpha = 0.3,
@@ -1522,10 +1522,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay. Everyone, prepare for battle and follow me!",
 			painting = {
 				alpha = 0.3,

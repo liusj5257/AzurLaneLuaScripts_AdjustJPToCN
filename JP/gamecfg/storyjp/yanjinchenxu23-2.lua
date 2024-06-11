@@ -6,11 +6,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ffa500",
-			actor = 900353,
 			dir = 1,
+			bgm = "battle-whaling-normal",
+			actor = 900353,
 			stopbgm = true,
 			say = "おーい、黒の騎士の座標を確認できたよ",
-			bgm = "battle-whaling-normal",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -24,8 +24,8 @@ return {
 			expression = 4,
 			side = 2,
 			paintingNoise = true,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "損傷は４、5割程度か…",
 			painting = {
@@ -41,8 +41,8 @@ return {
 			expression = 3,
 			side = 2,
 			paintingNoise = true,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "あいつ、あんな数の量産艦にずっと囲まれていたのに、よく戦ってられてるね",
 			painting = {
@@ -58,8 +58,8 @@ return {
 			actor = 900353,
 			side = 2,
 			nameColor = "#ffa500",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "あなたたちはどうする？今ちょうどぼっちで動いているから、叩くなら今のうちじゃない？",
 			painting = {
 				alpha = 0.3,
@@ -89,8 +89,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "前衛のほうは私も同行します。インプラカブルさん、ベアルンのことを少しの間お願いしてもよろしいですか？",
 			painting = {
 				alpha = 0.3,
@@ -105,8 +105,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "かまわないわよ。ロイヤル・オークは前衛で砲撃戦の指揮を執って、アイリス艦隊・余燼と一緒に正面から黒の騎士を攻撃しなさい",
 			painting = {
 				alpha = 0.3,
@@ -150,9 +150,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			actor = 205140,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "は、はい！ロイヤルナイトの名に恥じぬ戦いをしてみせる！",
 			painting = {
 				alpha = 0.3,
@@ -164,8 +164,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

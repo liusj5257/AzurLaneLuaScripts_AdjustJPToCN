@@ -1,10 +1,10 @@
 slot0 = class("BuildingUpgradeLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BuildingUpgradePanel"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.btnUpgrade = slot0:findTF("window/frame/upgrade_btn")
 
 	setText(slot0:findTF("window/frame/costback/label"), i18n("word_consume"))
@@ -13,11 +13,11 @@ function slot0.init(slot0)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.UpdateActivity(slot0, slot1)
+slot0.UpdateActivity = function(slot0, slot1)
 	slot0.activity = slot1
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	onButton(slot0, slot0:findTF("window/top/btnBack"), function ()
 		uv0:closeView()
@@ -28,7 +28,7 @@ function slot0.didEnter(slot0)
 	slot0:Set(slot0.activity)
 end
 
-function slot0.Set(slot0, slot1, slot2)
+slot0.Set = function(slot0, slot1, slot2)
 	slot2 = slot2 or slot0.contextData.buildingID
 	slot3 = pg.activity_event_building[slot2]
 
@@ -92,7 +92,7 @@ function slot0.Set(slot0, slot1, slot2)
 	setButtonEnabled(slot0.btnUpgrade, not slot9)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 

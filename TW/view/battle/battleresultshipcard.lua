@@ -1,12 +1,12 @@
 slot0 = class("BattleResultShipCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._expTF = slot1
 
 	slot0:init()
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._expContent = findTF(slot0._expTF, "content")
 	slot0._expInfo = findTF(slot0._expContent, "exp")
 	slot0._nameTxt = findTF(slot0._expContent, "info/name_mask/name")
@@ -29,7 +29,7 @@ function slot0.init(slot0)
 	SetActive(slot0._expTF, false)
 end
 
-function slot0.SetShipVO(slot0, slot1, slot2, slot3, slot4)
+slot0.SetShipVO = function(slot0, slot1, slot2, slot3, slot4)
 	flushShipCard(slot0._expTF, slot1)
 
 	slot0._oldShipVO = slot1
@@ -40,7 +40,7 @@ function slot0.SetShipVO(slot0, slot1, slot2, slot3, slot4)
 	slot0:setShipInfo()
 end
 
-function slot0.RegisterPreEXPTF(slot0, slot1)
+slot0.RegisterPreEXPTF = function(slot0, slot1)
 	slot2 = slot1:GetTF()
 	slot2 = slot2:GetComponent(typeof(DftAniEvent))
 
@@ -49,7 +49,7 @@ function slot0.RegisterPreEXPTF(slot0, slot1)
 	end)
 end
 
-function slot0.ConfigCallback(slot0, slot1)
+slot0.ConfigCallback = function(slot0, slot1)
 	slot2 = slot0._expTF
 	slot2 = slot2:GetComponent(typeof(DftAniEvent))
 
@@ -58,14 +58,14 @@ function slot0.ConfigCallback(slot0, slot1)
 	end)
 end
 
-function slot0.setShipInfo(slot0)
+slot0.setShipInfo = function(slot0)
 	setScrollText(slot0._nameTxt, slot0._oldShipVO:GetColorName())
 	setActive(findTF(slot0._expContent, "mvp"), slot0._isMVP)
 	SetActive(slot0._expBuff, slot0._buffName ~= nil)
 	setScrollText(slot0._expBuff, slot0._buffName or "")
 end
 
-function slot0.expAnimation(slot0)
+slot0.expAnimation = function(slot0)
 	SetActive(slot0._expInfo, true)
 	SetActive(slot0._intimacyUpFX, slot0._oldShipVO:getIntimacy() < slot0._newShipVO:getIntimacy())
 	SetActive(slot0._intimacyDownFX, slot0._newShipVO:getIntimacy() < slot0._oldShipVO:getIntimacy())
@@ -104,7 +104,7 @@ function slot0.expAnimation(slot0)
 	end
 end
 
-function slot0.loopAnimation(slot0, slot1, slot2, slot3, slot4)
+slot0.loopAnimation = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = slot0._oldShipVO
 	slot5 = getExpByRarityFromLv1(slot6:getConfig("rarity"), slot0._newShipVO.level)
 	slot6 = LeanTween.value(go(slot0._expTF), slot1, slot2, slot3)
@@ -131,7 +131,7 @@ function slot0.loopAnimation(slot0, slot1, slot2, slot3, slot4)
 	end))
 end
 
-function slot0.levelUpEffect(slot0)
+slot0.levelUpEffect = function(slot0)
 	SetActive(slot0._lvUp, true)
 	SetActive(slot0._lvFX, true)
 
@@ -150,11 +150,11 @@ function slot0.levelUpEffect(slot0)
 	end
 end
 
-function slot0.Play(slot0)
+slot0.Play = function(slot0)
 	setActive(slot0._expTF, true)
 end
 
-function slot0.SkipAnimation(slot0)
+slot0.SkipAnimation = function(slot0)
 	slot0._expTF:GetComponent(typeof(Animator)).enabled = false
 
 	SetActive(slot0._expTF, true)
@@ -197,11 +197,11 @@ function slot0.SkipAnimation(slot0)
 	SetActive(slot0._lvUp, false)
 end
 
-function slot0.GetTF(slot0)
+slot0.GetTF = function(slot0)
 	return slot0._expTF
 end
 
-function slot0.playAnimation(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.playAnimation = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = LeanTween.value(slot0.gameObject, slot1, slot2, slot3)
 	slot6 = slot6:setDelay(slot4)
 
@@ -210,7 +210,7 @@ function slot0.playAnimation(slot0, slot1, slot2, slot3, slot4, slot5)
 	end))
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0._oldShipVO = nil
 	slot0._newShipVO = nil
 end

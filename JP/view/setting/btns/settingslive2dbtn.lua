@@ -1,10 +1,10 @@
 slot0 = class("SettingsLive2DBtn", import(".SettingsDownloadableBtn"))
 
-function slot0.GetDownloadGroup(slot0)
+slot0.GetDownloadGroup = function(slot0)
 	return "L2D"
 end
 
-function slot0.GetLocaltion(slot0, slot1, slot2)
+slot0.GetLocaltion = function(slot0, slot1, slot2)
 	slot3 = ""
 
 	if slot1 == DownloadState.None then
@@ -58,7 +58,7 @@ function slot0.GetLocaltion(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("setting_resdownload_title_live2d")
 end
 

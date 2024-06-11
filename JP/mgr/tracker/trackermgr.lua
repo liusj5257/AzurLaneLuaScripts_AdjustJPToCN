@@ -44,7 +44,7 @@ TRACKING_CLASS_LEVEL_UP_8 = "class_level_up_8"
 TRACKING_CLASS_LEVEL_UP_9 = "class_level_up_9"
 TRACKING_CLASS_LEVEL_UP_10 = "class_level_up_10"
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot1 = nil
 
 	if PLATFORM_CODE == PLATFORM_CH then
@@ -64,13 +64,13 @@ function slot0.Ctor(slot0)
 	end
 end
 
-function slot0.Call(slot0, slot1, ...)
+slot0.Call = function(slot0, slot1, ...)
 	if slot0.instance and slot0.instance[slot1] then
 		slot0.instance[slot1](slot0.instance, ...)
 	end
 end
 
-function slot0.Tracking(slot0, slot1, slot2, slot3)
+slot0.Tracking = function(slot0, slot1, slot2, slot3)
 	slot5 = getProxy(UserProxy) ~= nil and slot4:getData() or nil
 
 	if (slot5 ~= nil and slot5.uid or nil) == nil then

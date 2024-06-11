@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "战列蛋船Tag",
 	time = 0,
+	name = "战列蛋船Tag",
+	init_effect = "",
 	picture = "",
 	desc = "战列蛋船存在Tag标记",
 	stack = 1,

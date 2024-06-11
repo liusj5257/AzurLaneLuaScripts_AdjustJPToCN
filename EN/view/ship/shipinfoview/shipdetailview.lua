@@ -2,25 +2,25 @@ slot0 = class("ShipDetailView", import("...base.BaseSubView"))
 slot1 = require("view.equipment.EquipmentSortCfg")
 slot2 = {
 	equipCampIndex = 2047,
+	equipAmmoIndex2 = 3,
+	typeIndex = 2047,
+	extraIndex = 0,
 	equipPropertyIndex = 4095,
 	equipPropertyIndex2 = 4095,
 	equipAmmoIndex1 = 15,
-	equipAmmoIndex2 = 3,
-	extraIndex = 0,
-	typeIndex = 2047,
 	rarityIndex = 31
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShipDetailView"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:InitDetail()
 	slot0:InitEvent()
 end
 
-function slot0.InitDetail(slot0)
+slot0.InitDetail = function(slot0)
 	slot0.mainPanel = slot0._parentTf.parent
 	slot0.detailPanel = slot0._tf
 	slot0.attrs = slot0.detailPanel:Find("attrs")
@@ -117,7 +117,7 @@ function slot0.InitDetail(slot0)
 	end
 end
 
-function slot0.InitEvent(slot0)
+slot0.InitEvent = function(slot0)
 	onButton(slot0, slot0.fashionToggle, function ()
 		uv0:emit(ShipViewConst.SWITCH_TO_PAGE, ShipViewConst.PAGE.FASHION)
 	end, SFX_PANEL)
@@ -256,15 +256,15 @@ function slot0.InitEvent(slot0)
 		end
 	end, SFX_PANEL)
 
-	function slot0.list.onInitItem(slot0)
+	slot0.list.onInitItem = function(slot0)
 		ClearTweenItemAlphaAndWhite(slot0)
 	end
 
-	function slot0.list.onReturnItem(slot0, slot1)
+	slot0.list.onReturnItem = function(slot0, slot1)
 		ClearTweenItemAlphaAndWhite(slot1)
 	end
 
-	function slot0.list.onUpdateItem(slot0, slot1)
+	slot0.list.onUpdateItem = function(slot0, slot1)
 		setActive(findTF(tf(slot1), "IconTpl/icon_bg/icon"), false)
 		TweenItemAlphaAndWhite(slot1)
 
@@ -353,7 +353,7 @@ function slot0.InitEvent(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.changeEquip(slot0, slot1)
+slot0.changeEquip = function(slot0, slot1)
 	if {
 		quickFlag = true,
 		type = EquipmentInfoMediator.TYPE_REPLACE,
@@ -395,11 +395,11 @@ function slot0.changeEquip(slot0, slot1)
 	end
 end
 
-function slot0.SetShareData(slot0, slot1)
+slot0.SetShareData = function(slot0, slot1)
 	slot0.shareData = slot1
 end
 
-function slot0.GetShipVO(slot0)
+slot0.GetShipVO = function(slot0)
 	if slot0.shareData and slot0.shareData.shipVO then
 		return slot0.shareData.shipVO
 	end
@@ -407,7 +407,7 @@ function slot0.GetShipVO(slot0)
 	return nil
 end
 
-function slot0.OnSelected(slot0, slot1)
+slot0.OnSelected = function(slot0, slot1)
 	slot2 = pg.UIMgr.GetInstance()
 
 	if slot1 then
@@ -432,7 +432,7 @@ function slot0.OnSelected(slot0, slot1)
 	end
 end
 
-function slot0.UpdateUI(slot0)
+slot0.UpdateUI = function(slot0)
 	slot1 = slot0:GetShipVO()
 
 	slot0:UpdateIntimacy(slot1)
@@ -442,12 +442,12 @@ function slot0.UpdateUI(slot0)
 	slot0:UpdatePreferenceTag()
 end
 
-function slot0.UpdateIntimacy(slot0, slot1)
+slot0.UpdateIntimacy = function(slot0, slot1)
 	setActive(slot0.intimacyTF, not LOCK_PROPOSE)
 	setIntimacyIcon(slot0.intimacyTF, slot1:getIntimacyIcon())
 end
 
-function slot0.UpdateDetail(slot0, slot1)
+slot0.UpdateDetail = function(slot0, slot1)
 	slot0.shipDetailLogicPanel:flush(slot1)
 	removeOnButton(slot0.shipDetailLogicPanel.attrs:Find("icons/hunting_range/bg"))
 
@@ -467,11 +467,11 @@ function slot0.UpdateDetail(slot0, slot1)
 	setActive(slot0.profileBtn, not slot1:isActivityNpc())
 end
 
-function slot0.UpdateFashionTag(slot0)
-	setActive(slot0.fashionTag, #PaintingConst.GetPaintingNameListByShipVO(slot0:GetShipVO()) > 0)
+slot0.UpdateFashionTag = function(slot0)
+	setActive(slot0.fashionTag, #PaintingGroupConst.GetPaintingNameListByShipVO(slot0:GetShipVO()) > 0)
 end
 
-function slot0.UpdateEquipments(slot0, slot1)
+slot0.UpdateEquipments = function(slot0, slot1)
 	slot0:clearListener()
 	removeAllChildren(slot0.equipmentsGrid)
 
@@ -584,7 +584,7 @@ function slot0.UpdateEquipments(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.selectedEquipItem(slot0, slot1)
+slot0.selectedEquipItem = function(slot0, slot1)
 	if not slot1 then
 		if slot0.selectedEquip then
 			slot0.selectedEquip = nil
@@ -599,7 +599,7 @@ function slot0.selectedEquipItem(slot0, slot1)
 	end
 end
 
-function slot0.updateQuickPanel(slot0, slot1)
+slot0.updateQuickPanel = function(slot0, slot1)
 	setActive(slot0.selectTitle, not slot0.selectedEquip)
 
 	if slot0.isShowQuick and slot0.selectedEquip then
@@ -624,7 +624,7 @@ function slot0.updateQuickPanel(slot0, slot1)
 	end
 end
 
-function slot0.updateQuickEquipments(slot0)
+slot0.updateQuickEquipments = function(slot0)
 	slot0:setListCount(0, 0)
 
 	slot0.fillterEquipments = slot0:getEquipments()
@@ -638,19 +638,19 @@ function slot0.updateQuickEquipments(slot0)
 	slot0:setListCount(#slot0.fillterEquipments + (slot0.selectedEquip.empty and 0 or 1), 0)
 end
 
-function slot0.setListCount(slot0, slot1, slot2)
+slot0.setListCount = function(slot0, slot1, slot2)
 	if slot0.onSelected and isActive(slot0._tf) and slot0.list then
 		slot0.list:SetTotalCount(slot1, slot2)
 	end
 end
 
-function slot0.getEquipments(slot0)
+slot0.getEquipments = function(slot0)
 	slot1 = getProxy(BayProxy)
 	slot2 = slot0:GetShipVO()
 	slot6 = getProxy(EquipmentProxy):getEquipmentsByFillter(slot2:getShipType(), pg.ship_data_template[slot2.configId]["equip_" .. slot0.selectedEquip.index])
 
 	if slot0.equipingFlag then
-		function slot10(slot0, slot1)
+		slot10 = function(slot0, slot1)
 			return uv0.id ~= slot1 and not uv0:isForbiddenAtPos(slot0, uv1.selectedEquip.index)
 		end
 
@@ -681,11 +681,11 @@ function slot0.getEquipments(slot0)
 	return slot7
 end
 
-function slot0.checkFillter(slot0, slot1, slot2)
+slot0.checkFillter = function(slot0, slot1, slot2)
 	return (slot1.count > 0 or slot1.shipId and slot0.equipingFlag) and IndexConst.filterEquipByType(slot1, slot0.indexData.typeIndex) and IndexConst.filterEquipByProperty(slot1, slot2) and IndexConst.filterEquipAmmo1(slot1, slot0.indexData.equipAmmoIndex1) and IndexConst.filterEquipAmmo2(slot1, slot0.indexData.equipAmmoIndex2) and IndexConst.filterEquipByCamp(slot1, slot0.indexData.equipCampIndex) and IndexConst.filterEquipByRarity(slot1, slot0.indexData.rarityIndex) and IndexConst.filterEquipByExtra(slot1, slot0.indexData.extraIndex)
 end
 
-function slot0.UpdateLock(slot0)
+slot0.UpdateLock = function(slot0)
 	if slot0:GetShipVO():GetLockState() == slot0:GetShipVO().LOCK_STATE_UNLOCK then
 		setActive(slot0.lockBtn, true)
 		setActive(slot0.unlockBtn, false)
@@ -695,7 +695,7 @@ function slot0.UpdateLock(slot0)
 	end
 end
 
-function slot0.displayQuickPanel(slot0)
+slot0.displayQuickPanel = function(slot0)
 	if not slot0:GetShipVO() then
 		return
 	end
@@ -707,7 +707,7 @@ function slot0.displayQuickPanel(slot0)
 	slot0:updateQuickPanel()
 end
 
-function slot0.quickSelectEmpty(slot0)
+slot0.quickSelectEmpty = function(slot0)
 	if not slot0.selectedEquip and slot0.equipItems then
 		for slot4 = 1, #slot0.equipItems do
 			if slot0.equipItems[slot4].empty then
@@ -721,7 +721,7 @@ end
 
 slot3 = 0.2
 
-function slot0.displayRecordPanel(slot0)
+slot0.displayRecordPanel = function(slot0)
 	if not slot0:GetShipVO() then
 		return
 	end
@@ -750,7 +750,7 @@ function slot0.displayRecordPanel(slot0)
 	slot0:UpdateRecordSpWeapons()
 end
 
-function slot0.CloseRecordPanel(slot0, slot1)
+slot0.CloseRecordPanel = function(slot0, slot1)
 	if slot1 then
 		slot0.isShowRecord = nil
 
@@ -764,7 +764,7 @@ function slot0.CloseRecordPanel(slot0, slot1)
 	end
 end
 
-function slot0.CloseQuickPanel(slot0)
+slot0.CloseQuickPanel = function(slot0)
 	slot0.isShowQuick = nil
 
 	slot0:selectedEquipItem(nil)
@@ -784,7 +784,7 @@ function slot0.CloseQuickPanel(slot0)
 	slot0:updateQuickPanel()
 end
 
-function slot0.UpdateRecordEquipments(slot0, slot1)
+slot0.UpdateRecordEquipments = function(slot0, slot1)
 	slot2 = slot0.recordEquipmentsTFs[slot1]
 	slot4 = slot0:GetShipVO():getEquipmentRecord(slot0.shareData.player.id)[slot1] or {}
 
@@ -815,7 +815,7 @@ function slot0.UpdateRecordEquipments(slot0, slot1)
 	end
 end
 
-function slot0.UpdateRecordSpWeapons(slot0, slot1)
+slot0.UpdateRecordSpWeapons = function(slot0, slot1)
 	if LOCK_SP_WEAPON then
 		return
 	end
@@ -855,15 +855,15 @@ function slot0.UpdateRecordSpWeapons(slot0, slot1)
 	end)
 end
 
-function slot0.UpdatePreferenceTag(slot0)
+slot0.UpdatePreferenceTag = function(slot0)
 	triggerToggle(slot0.commonTagToggle, slot0:GetShipVO().preferenceTag == Ship.PREFERENCE_TAG_COMMON)
 end
 
-function slot0.DoLeveUpAnim(slot0, slot1, slot2, slot3)
+slot0.DoLeveUpAnim = function(slot0, slot1, slot2, slot3)
 	slot0.shipDetailLogicPanel:doLeveUpAnim(slot1, slot2, slot3)
 end
 
-function slot0.clearListener(slot0)
+slot0.clearListener = function(slot0)
 	if slot0.equipItems then
 		for slot4 = 1, #slot0.equipItems do
 			if slot0.equipItems[slot4].tf then
@@ -874,7 +874,7 @@ function slot0.clearListener(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:clearListener()
 	removeAllChildren(slot0.equipmentsGrid)
 
@@ -883,7 +883,7 @@ function slot0.OnDestroy(slot0)
 
 		slot1:SetTotalCount(0)
 
-		function slot0.list.onUpdateItem()
+		slot0.list.onUpdateItem = function()
 		end
 	end
 

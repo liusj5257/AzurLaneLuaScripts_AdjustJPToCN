@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg3",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "大棋盤·長門控制區第一回合",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "應該沒這麼複雜吧，比叡姐？按照座次決定順序也算是常見規則啦。",
 			painting = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "妳覺得其中有陰謀嗎？",
 			painting = {
@@ -121,8 +121,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "應該會和大前輩、赤城一樣，優先進攻一個邊界據點吧？那裡難度適中且可以穩固防禦。",
 			painting = {
@@ -138,8 +138,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "諸位，輪到吾等的行動輪了。",
 			painting = {
@@ -155,8 +155,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "吾作出如下部署，榛名移動至J5，春月移動至I5，在邊界處阻礙武藏的推進。",
 			painting = {
@@ -172,8 +172,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "量產型艦隊填充到I3至G5一線。",
 			painting = {
@@ -189,8 +189,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "比叡、江風、翔鶴依次進入IJ34據點的控制區內。",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "吾也會用指揮卡支援汝等的行動，以上。",
 			painting = {
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "在長門結束通訊的同時，眾人身上各自出現了一個淡藍色的護盾。",
 			typewriter = {
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "沒想到我猜錯了，居然是先從領域內的小據點開始清理嗎。",
 			painting = {
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "大棋盤·IJ34據點控制區",
 			typewriter = {
@@ -386,17 +386,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "所謂據點控制區，是指與據點所在菱形格相接的四個棋盤格。",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "只有在據點控制區內放入自己棋子的勢力才能對其發動進攻。",
 			typewriter = {
@@ -443,8 +443,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "執棋者嗎？如果只是這種量產型號，感覺會很輕鬆啊……",
 			painting = {
@@ -492,8 +492,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "這個棋盤規則居然這麼厲害啊……",
 			painting = {

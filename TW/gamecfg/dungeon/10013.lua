@@ -1,16 +1,16 @@
 return {
 	lose_condition = 1,
 	win_condition = 1,
-	id = 10011,
-	type = 1,
 	map_id = 10001,
+	type = 1,
+	id = 10011,
 	stages = {
 		{
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 61,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "重点防护",
 	time = 8,
+	name = "重点防护",
+	init_effect = "",
 	picture = "",
 	desc = "重点防护",
 	stack = 1,
@@ -17,9 +17,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 10,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -53,9 +53,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 10,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

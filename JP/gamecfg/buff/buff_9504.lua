@@ -2,12 +2,12 @@ return {
 	desc_get = "",
 	name = "海雾效果",
 	init_effect = "",
+	id = 9504,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9504,
+	color = "blue",
 	icon = 9502,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = -500
+				number = -500,
+				attr = "attackRating"
 			}
 		}
 	}

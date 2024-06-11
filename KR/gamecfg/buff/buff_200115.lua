@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 SP净化者召唤小怪（三个组合随机一个）",
 	time = 12,
-	color = "red",
+	name = "2022莱莎联动 SP净化者召唤小怪（三个组合随机一个）",
+	init_effect = "",
+	id = 200115,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200115,
+	color = "red",
 	icon = 200115,
 	last_effect = "",
 	effect_list = {

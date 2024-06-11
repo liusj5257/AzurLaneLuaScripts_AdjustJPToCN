@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_39 = {}
 slot1 = slot0.word_template_39
 
-function temp()
+temp = function()
 	uv0["精"] = {
 		["液"] = {
 			this = true,
@@ -251,7 +251,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.X = {
 		i = {
 			J = {
@@ -375,7 +375,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["6"] = {
 		["月"] = {
 			["4"] = {
@@ -954,7 +954,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["啊"] = {
 		["扁"] = {
 			["涛"] = {
@@ -973,7 +973,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["哎"] = {
 		["吔"] = {
 			["女"] = {
@@ -989,7 +989,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["哀"] = {
 		["淫"] = {
 			["隶"] = {
@@ -1009,7 +1009,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["埃"] = {
 		["裏"] = {
 			["克"] = {

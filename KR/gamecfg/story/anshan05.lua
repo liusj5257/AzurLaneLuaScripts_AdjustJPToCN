@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ANSHAN05",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ANSHAN05",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"안샨의 그림 교실\n\n<size=45>제5장 안샨의 그림 수첩</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "음… 그럼 이 다음은 이렇게…",
 			bgm = "story-china",
+			actor = 501010,
+			nameColor = "#92fc63",
+			say = "음… 그럼 이 다음은 이렇게…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,11 +34,11 @@ return {
 			}
 		},
 		{
-			actor = 501040,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
 			actorName = "푸슌&창춘&타이위안",
-			side = 0,
+			actor = 501040,
 			hideOther = true,
 			nameColor = "#92fc63",
 			say = "마지막 그림이 완성됐다!",
@@ -66,10 +66,10 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			actorName = "핑하이&닝하이",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 502030,
 			hideOther = true,
 			nameColor = "#92fc63",
 			say = "축하해~!",
@@ -123,12 +123,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
+			say = "…결국 안샨 언니가 제일 몰두했었네…",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "…결국 안샨 언니가 제일 몰두했었네…",
+			actor = 501030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -239,12 +239,12 @@ return {
 			}
 		},
 		{
-			actor = 502020,
+			say = "얏센 언니!? 여긴 어떻게 온 거야?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "얏센 언니!? 여긴 어떻게 온 거야?",
+			actor = 502020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -499,14 +499,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 0,
 			actorName = "모두",
 			say = "오오오~~!",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

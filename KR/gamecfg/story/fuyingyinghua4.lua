@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "nagato-boss",
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "역시 일당백의 1항전 선배님들… 제가 졌습니다.",
-			bgm = "nagato-boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "아카기님, 카가님. 그리고 멀리서 오신 손님 여러분. 시게미츠섬에 오신 것을 환영합니다.",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "과찬이십니다, 아카기님. 아직 부족한 것이 많아요. 방금 전투에서도 확실히 깨달았습니다……",
 			typewriter = {
 				speed = 0.05,
@@ -151,9 +151,9 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "과한 말씀이십니다…",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.25,
 					x = 20,
@@ -178,8 +178,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "역시 아카기님은 기억 속 그대로 지혜와 힘이 가득하신 모습이군요.",
 			typewriter = {
 				speed = 0.05,
@@ -223,9 +223,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "네! 앞으로도 아카기님을 목표로 열심히 수련하겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,14 +324,14 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "아카기님의 당부를 위해서 앞으로 계속 노력하겠습니다!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

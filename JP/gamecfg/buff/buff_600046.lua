@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 0.2
+					number = 0.2,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.2
+					number = 0.2,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 0.3
+					number = 0.3,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.3
+					number = 0.3,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 0.4
+					number = 0.4,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "dodgeRateExtra",
-					number = 0.4
+					number = 0.4,
+					attr = "dodgeRateExtra"
 				}
 			}
 		}
@@ -87,12 +87,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 600046,
 	time = 10,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 600046,
+	color = "yellow",
 	icon = 600040,
 	last_effect = "",
 	effect_list = {}

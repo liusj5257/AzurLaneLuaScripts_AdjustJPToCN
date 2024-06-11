@@ -1,13 +1,13 @@
 slot0 = class("SettingsResRepairBtn")
 
-function slot0.InitTpl(slot0, slot1)
+slot0.InitTpl = function(slot0, slot1)
 	slot0._tf = cloneTplTo(slot1.tpl, slot1.container, "REPAIR")
 	slot0._go = slot0._tf.gameObject
 
 	setImageSprite(slot0._tf:Find("icon"), slot1.iconSP)
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0:InitTpl(slot1)
 	pg.DelegateInfo.New(slot0)
 
@@ -23,14 +23,14 @@ function slot0.Ctor(slot0, slot1)
 	slot0:Init()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0:UpdateRepairStatus()
 	onButton(slot0, slot0._tf, function ()
 		pg.RepairResMgr.GetInstance():Repair()
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateRepairStatus(slot0)
+slot0.UpdateRepairStatus = function(slot0)
 	setSlider(slot0.Progress, 0, 1, 0)
 	setActive(slot0.Dot, false)
 	setActive(slot0.Loading, false)
@@ -46,7 +46,7 @@ function slot0.UpdateRepairStatus(slot0)
 	setActive(slot0.LabelNew, false)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 

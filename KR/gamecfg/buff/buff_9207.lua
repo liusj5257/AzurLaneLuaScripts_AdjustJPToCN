@@ -1,12 +1,12 @@
 return {
-	init_effect = "jinengchufared",
 	name = "龙宫机关-生命 技能弹条",
 	time = 10,
+	init_effect = "jinengchufared",
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 9207,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	blink = {
 		1,
 		0,

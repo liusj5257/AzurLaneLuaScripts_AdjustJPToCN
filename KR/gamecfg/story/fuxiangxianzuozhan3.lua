@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "메탈 블러드 부도 요새·B3 부도-P011 항구",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
+			say = "메탈 블러드 부도 요새·B3 부도-P011 항구",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -59,8 +59,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "이번 업그레이드로 부도 공항은 생산력을 얻었을 뿐 아니라 더욱 정확한 진영 데이터를 통해서 \"적\"을 좀 더 현실에 가깝게 만들 수 있게 됐어.",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "페터, 질문이 있어.",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "에?!! 그래? 어디 보자... 진짜네!",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,8 +184,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "페터... 그래도 동맹의 데이터를 주요 타격 목표로 사용하는 것은 좀...",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "이 데이터는 벽람항로 보다 훨씬 정확해. 그러니 부도 공항이 얼마나 정확하게 만들 수 있는지 확인해보고 싶어.",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "그렇다면야...",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "이해한 걸로 알게. 다른 사람들은 질문 있어?",
 			typewriter = {
@@ -265,10 +265,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_fuxiangxian_1",
 			side = 0,
+			bgName = "bg_fuxiangxian_1",
+			hideOther = true,
 			dir = 1,
 			actor = 406010,
 			actorName = "베저&Z46",
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "이번 훈련은 그렇게 복잡하지 않아. 지정 해역에서 전투를 하고, 하늘에서 나타나는 적이 더 이상 나타나지 않을 때까지 처치하면 돼.",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "스파르타식 훈련이다...",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "훈련에서 다친다면 실전에서 죽게 돼.",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "그러니까... 매일 이렇게 살았지. 페터, 훈련 시작해도 돼? 새로운 \"적\"을 상대하고 싶어서 몸이 근질거려!",
 			typewriter = {
@@ -391,8 +391,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -417,16 +417,16 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
+			actor = 403090,
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "출발~~~ 아이젠, 가속! 장갑함 돌격~!",
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.8,
 					dur = 0.5,
 					x = 2500
@@ -451,8 +451,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "......전 개시......",
 			effects = {
@@ -474,9 +474,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
 			blackBg = true,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "어쨌든, 「매일 이렇게 살았으니까」.",
 			typewriter = {

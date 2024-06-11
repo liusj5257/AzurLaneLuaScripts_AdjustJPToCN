@@ -1,18 +1,18 @@
 return {
-	id = "XIAWANJIANDEFANJI13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI13",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "level02",
 			actor = 201320,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "んん……",
-			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "ウォースパイト様？戦いはもう終わったの？",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "Z2とZ18たちは……",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "難しいことはよくわからないけど、要はみんないい方向に向かってるってことね――",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "ふはー、ちょっと眠いかも…今度母港でZ2たちと出会ったら遊んでみたいな……",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

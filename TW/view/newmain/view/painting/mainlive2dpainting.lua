@@ -1,6 +1,6 @@
 slot0 = class("MainLive2dPainting", import(".MainBasePainting"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0.live2dContainer = slot1:Find("live2d")
@@ -19,13 +19,15 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.GetHalfBodyOffsetY(slot0)
+slot0.GetHalfBodyOffsetY = function(slot0)
 	slot1 = slot0.container.parent
 
 	return slot1.rect.height * -0.5 - (slot0.live2dContainer.rect.height * -0.5 * slot0.live2dContainer.localScale.y + slot1:InverseTransformPoint(slot0.live2dContainer.position).y)
 end
 
-function slot0.OnLoad(slot0, slot1)
+slot0.OnLoad = function(slot0, slot1)
+	slot0:SetContainerVisible(true)
+
 	slot0.cg.blocksRaycasts = true
 	slot0.live2dChar = Live2D.New(Live2D.GenerateData({
 		loadPrefs = true,
@@ -43,7 +45,15 @@ function slot0.OnLoad(slot0, slot1)
 	slot0:AddScreenChangeTimer()
 end
 
-function slot0.AdJustOrderInLayer(slot0, slot1)
+slot0.ResetState = function(slot0)
+	if not slot0.live2dChar then
+		return
+	end
+
+	slot0.live2dChar:resetL2dData()
+end
+
+slot0.AdJustOrderInLayer = function(slot0, slot1)
 	if slot0.container:GetComponent(typeof(Canvas)) and slot2.overrideSorting and slot2.sortingOrder ~= 0 then
 		ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot1._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), slot2.sortingOrder)
 
@@ -51,7 +61,7 @@ function slot0.AdJustOrderInLayer(slot0, slot1)
 	end
 end
 
-function slot0.ResetOrderInLayer(slot0)
+slot0.ResetOrderInLayer = function(slot0)
 	if not slot0.live2dChar then
 		return
 	end
@@ -59,7 +69,7 @@ function slot0.ResetOrderInLayer(slot0)
 	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot0.live2dChar._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), 0)
 end
 
-function slot0.AddScreenChangeTimer(slot0)
+slot0.AddScreenChangeTimer = function(slot0)
 	slot0:RemoveScreenChangeTimer()
 
 	if not slot0:IslimitYPos() then
@@ -79,7 +89,7 @@ function slot0.AddScreenChangeTimer(slot0)
 	slot0.screenTimer:Start()
 end
 
-function slot0.RemoveScreenChangeTimer(slot0)
+slot0.RemoveScreenChangeTimer = function(slot0)
 	if slot0.screenTimer then
 		slot0.screenTimer:Stop()
 
@@ -87,16 +97,16 @@ function slot0.RemoveScreenChangeTimer(slot0)
 	end
 end
 
-function slot0.UpdateContainerPosition(slot0)
+slot0.UpdateContainerPosition = function(slot0)
 	slot2 = slot0.live2dContainer.localPosition
 	slot0.live2dContainer.localPosition = Vector3(slot2.x, slot0:IslimitYPos() and slot0:GetHalfBodyOffsetY() or 0, slot2.z)
 end
 
-function slot0.ResetContainerPosition(slot0)
+slot0.ResetContainerPosition = function(slot0)
 	slot0.live2dContainer.localPosition = Vector3(slot0.live2dContainer.localPosition.x, 0, 0)
 end
 
-function slot0.OnUnload(slot0)
+slot0.OnUnload = function(slot0)
 	if slot0.live2dChar then
 		slot0:RemoveScreenChangeTimer()
 		slot0:ResetContainerPosition()
@@ -115,7 +125,7 @@ function slot0.OnUnload(slot0)
 	end
 end
 
-function slot0.OnClick(slot0)
+slot0.OnClick = function(slot0)
 	slot1 = nil
 
 	if slot0.live2dChar and slot0.live2dChar.state == Live2D.STATE_INITED and not slot0.live2dChar.ignoreReact then
@@ -137,7 +147,7 @@ function slot0.OnClick(slot0)
 	end
 end
 
-function slot0._TriggerEvent(slot0, slot1)
+slot0._TriggerEvent = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -148,7 +158,7 @@ function slot0._TriggerEvent(slot0, slot1)
 
 	slot2 = slot0:GetEventConfig(slot1)
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		if slot0 then
 			if uv0.dialog ~= "" then
 				uv1:DisplayWord(uv0.dialog)
@@ -186,7 +196,7 @@ function slot0._TriggerEvent(slot0, slot1)
 	end
 end
 
-function slot0.PlayCV(slot0, slot1, slot2, slot3, slot4)
+slot0.PlayCV = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:RemoveSeTimer()
 
 	if slot1 then
@@ -200,7 +210,7 @@ function slot0.PlayCV(slot0, slot1, slot2, slot3, slot4)
 	slot0.cvLoader:Load(pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.ship.skinId)), slot3, slot2, slot4)
 end
 
-function slot0.RemoveSeTimer(slot0)
+slot0.RemoveSeTimer = function(slot0)
 	if slot0.seTimer then
 		slot0.seTimer:Stop()
 
@@ -208,10 +218,10 @@ function slot0.RemoveSeTimer(slot0)
 	end
 end
 
-function slot0.OnDisplayWorld(slot0)
+slot0.OnDisplayWorld = function(slot0)
 end
 
-function slot0.OnPuase(slot0)
+slot0.OnPuase = function(slot0)
 	slot0:RemoveScreenChangeTimer()
 	slot0:ResetContainerPosition()
 
@@ -220,20 +230,25 @@ function slot0.OnPuase(slot0)
 	slot0.live2dChar:SetVisible(false)
 end
 
-function slot0.OnUpdateShip(slot0, slot1)
+slot0.OnUpdateShip = function(slot0, slot1)
 	if slot1 then
 		slot0.live2dChar:updateShip(slot1)
 	end
 end
 
-function slot0.OnResume(slot0)
+slot0.SetContainerVisible = function(slot0, slot1)
+	setActive(slot0.live2dContainer, slot1)
+end
+
+slot0.OnResume = function(slot0)
+	slot0:SetContainerVisible(true)
 	slot0:AddScreenChangeTimer()
 	slot0:UpdateContainerPosition()
 	slot0.live2dChar:SetVisible(true)
 	slot0.live2dChar:UpdateAtomSource()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 	slot0:RemoveSeTimer()
 	slot0:RemoveScreenChangeTimer()
@@ -243,15 +258,15 @@ function slot0.Dispose(slot0)
 	end
 end
 
-function slot0.GetOffset(slot0)
+slot0.GetOffset = function(slot0)
 	return slot0.live2dContainer.localPosition.x
 end
 
-function slot0.GetCenterPos(slot0)
-	return slot0.chatTf.parent:InverseTransformPoint(slot0.live2dContainer.position)
+slot0.GetCenterPos = function(slot0)
+	return slot0.live2dContainer.position
 end
 
-function slot0.IslimitYPos(slot0)
+slot0.IslimitYPos = function(slot0)
 	return slot0.ship:getPainting() == "biaoqiang" or slot1 == "z23" or slot1 == "lafei" or slot1 == "lingbo" or slot1 == "mingshi" or slot1 == "xuefeng"
 end
 

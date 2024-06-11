@@ -8,7 +8,7 @@ slot1 = {
 slot2 = nil
 slot3 = "ui/activityuipage/skinguide5page_atlas"
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.ad = slot0:findTF("AD")
 
 	if PLATFORM_CODE == PLATFORM_JP then
@@ -60,7 +60,7 @@ function slot0.OnInit(slot0)
 	end, sound, guideData)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskList = slot0.activity:getConfig("config_data")
 	slot0.totalCnt = #slot0.taskList
@@ -103,7 +103,7 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.selectItem(slot0, slot1)
+slot0.selectItem = function(slot0, slot1)
 	for slot5 = 1, #slot0.skinDatas do
 		if LeanTween.isTweening(go(slot0.skinDatas[slot5].item)) then
 			return
@@ -168,7 +168,7 @@ function slot0.selectItem(slot0, slot1)
 	slot0.selectIndex = slot1
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0.usedCnt = slot0.activity:getData1()
 	slot0.unlockCnt = pg.TimeMgr.GetInstance():DiffDay(slot0.activity:getStartTime(), pg.TimeMgr.GetInstance():GetServerTime()) + 1
 	slot0.unlockCnt = slot0.totalCnt < slot0.unlockCnt and slot0.totalCnt or slot0.unlockCnt
@@ -189,7 +189,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0:updateItemData()
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.taskList) do
@@ -230,7 +230,7 @@ end
 
 slot4 = 215
 
-function slot0.updateItemPos(slot0, slot1, slot2)
+slot0.updateItemPos = function(slot0, slot1, slot2)
 	slot3 = Vector2(-uv0, 0)
 	slot4 = Vector2((#slot0.skinDatas - 1) * uv0, 0)
 
@@ -262,7 +262,7 @@ function slot0.updateItemPos(slot0, slot1, slot2)
 	end
 end
 
-function slot0.tweenItem(slot0, slot1, slot2)
+slot0.tweenItem = function(slot0, slot1, slot2)
 	if #slot2 >= 2 then
 		slot3 = slot1.anchoredPosition
 		slot4 = table.remove(slot2, 1)
@@ -281,13 +281,13 @@ function slot0.tweenItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateItemData(slot0)
+slot0.updateItemData = function(slot0)
 	for slot4 = 1, #slot0.skinDatas do
 		setActive(findTF(slot0.skinDatas[slot4].item, "got"), slot0.taskProxy:getFinishTaskById(slot0.skinDatas[slot4].task) or false)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	for slot4 = 1, #slot0.skinDatas do
 		if LeanTween.isTweening(go(slot0.skinDatas[slot4].item)) then
 			LeanTween.cancel(go(slot5), false)

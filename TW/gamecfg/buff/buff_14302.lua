@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.055
+					number = -0.055,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.06
+					number = -0.06,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.065
+					number = -0.065,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.07
+					number = -0.07,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.075
+					number = -0.075,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.08
+					number = -0.08,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.085
+					number = -0.085,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.09
+					number = -0.09,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "掩护救援",
 	init_effect = "jinengchufared",
-	color = "blue",
+	id = 14302,
+	time = 0,
 	picture = "",
 	desc = "减少受到的鱼雷伤害",
 	stack = 1,
-	id = 14302,
+	color = "blue",
 	icon = 14302,
 	last_effect = "",
 	blink = {
@@ -174,8 +174,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = -0.05
+				number = -0.05,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

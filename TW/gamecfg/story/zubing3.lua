@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"前進吧，{namecode:144}！\n\n<size=45>三 揮劍吧，{namecode:144}！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某日，從學院準備返回指揮室時，聽到了{namecode:144}的聲音——",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "某日，從學院準備返回指揮室時，聽到了{namecode:144}的聲音——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 303090,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 303090,
 			say = "接招！",
 			flashN = {
 				color = {
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			actor = 303070,
+			say = "很好，氣勢不錯！",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "很好，氣勢不錯！",
+			actor = 303070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -167,8 +167,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -193,12 +193,12 @@ return {
 			}
 		},
 		{
-			actor = 303070,
+			say = "有破綻！",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "有破綻！",
+			actor = 303070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -216,8 +216,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "糟了！",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "啪——",
 			typewriter = {
 				speed = 0.05,
@@ -250,15 +250,15 @@ return {
 			}
 		},
 		{
-			actor = 303070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303070,
+			nameColor = "#a9f548",
 			say = "今天的對練就到此為止吧。{namecode:144}，妳進步了許多呢",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,10 +286,10 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 303090,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "等等，{namecode:63}姐，我還可以繼續——",
+			dir = 1,
+			actor = 303090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -323,8 +323,8 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "唔……我知道了。",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "{namecode:64}姐，謝謝了！",
 			typewriter = {
@@ -421,8 +421,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "欸欸？妳，妳是怎麼知道的——",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -512,8 +512,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "喔喔！明白了！我也不想再給指揮官添麻煩了，我會加油的！",
 			typewriter = {

@@ -1,7 +1,7 @@
 slot0 = class("MainTechnologySequence")
 slot0.DontNotifyBluePrintTaskAgain = false
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	if not getProxy(TechnologyProxy):getBuildingBluePrint() then
 		slot1()
 
@@ -41,7 +41,7 @@ function slot0.Execute(slot0, slot1)
 	end
 end
 
-function slot0.TriggerTask(slot0, slot1)
+slot0.TriggerTask = function(slot0, slot1)
 	if not getProxy(TaskProxy):isFinishPrevTasks(slot1) then
 		return
 	end

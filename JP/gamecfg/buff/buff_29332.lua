@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行10次攻击，触发专属弹幕-凯旋II",
 	name = "专属弹幕-凯旋II",
 	init_effect = "",
+	id = 29332,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行10次攻击，触发专属弹幕-凯旋II",
 	stack = 1,
-	id = 29332,
+	color = "red",
 	icon = 29330,
 	last_effect = "",
 	effect_list = {
@@ -20,9 +20,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countType = 29330,
-				countTarget = 10,
 				gunnerBonus = true,
+				countTarget = 10,
+				countType = 29330,
 				index = {
 					1
 				}
@@ -34,10 +34,10 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				maxTargetNumber = 0,
-				skill_id = 29332,
 				target = "TargetSelf",
 				countType = 29330,
+				maxTargetNumber = 0,
+				skill_id = 29332,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"
@@ -54,9 +54,9 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 29333,
 				target = "TargetSelf",
 				countType = 29330,
+				skill_id = 29333,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

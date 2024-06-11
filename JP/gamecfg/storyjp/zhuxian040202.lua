@@ -1,17 +1,17 @@
 return {
-	id = "ZHUXIAN040202",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "ZHUXIAN040202",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 103080,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-1",
 			dir = 1,
 			say = "まずいわねこれ…敵の援軍がどんどん出てくるし",
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -167,8 +167,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -195,8 +195,8 @@ return {
 			actor = 303010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "古鷹？",
 			dir = 1,
+			actorName = "古鷹？",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -268,9 +268,9 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			nameColor = "#a9f548",
 			side = 0,
+			actor = 103100,
 			hideOther = true,
 			dir = 1,
 			actorName = "二人",

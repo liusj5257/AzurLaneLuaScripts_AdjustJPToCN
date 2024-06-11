@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 100
+					number = 100,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 100
+					number = 100,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -27,8 +27,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.01
+					number = -0.01,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -38,8 +38,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.01
+					number = -0.01,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -52,8 +52,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 200
+					number = 200,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -62,8 +62,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 200
+					number = 200,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -72,8 +72,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.02
+					number = -0.02,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.02
+					number = -0.02,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -97,8 +97,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 300
+					number = 300,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -107,8 +107,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 300
+					number = 300,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -117,8 +117,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.03
+					number = -0.03,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.03
+					number = -0.03,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -142,8 +142,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 400
+					number = 400,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -152,8 +152,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 400
+					number = 400,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -162,8 +162,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.04
+					number = -0.04,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -173,8 +173,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.04
+					number = -0.04,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -187,8 +187,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 500
+					number = 500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -197,8 +197,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 500
+					number = 500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -207,8 +207,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -232,8 +232,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 600
+					number = 600,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -242,8 +242,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 600
+					number = 600,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -252,8 +252,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.06
+					number = -0.06,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -263,8 +263,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.06
+					number = -0.06,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -277,8 +277,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 700
+					number = 700,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -287,8 +287,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 700
+					number = 700,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -297,8 +297,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.07
+					number = -0.07,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -308,8 +308,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.07
+					number = -0.07,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -322,8 +322,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 800
+					number = 800,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -332,8 +332,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 800
+					number = 800,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -342,8 +342,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.08
+					number = -0.08,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -353,8 +353,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.08
+					number = -0.08,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -367,8 +367,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 900
+					number = 900,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -377,8 +377,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 900
+					number = 900,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -387,8 +387,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.09
+					number = -0.09,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -398,8 +398,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.09
+					number = -0.09,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -412,8 +412,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1000
+					number = 1000,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -422,8 +422,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1000
+					number = 1000,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -432,8 +432,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByCannon"
 				}
 			},
 			{
@@ -443,15 +443,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatioByBulletTorpedo",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByBulletTorpedo"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "炮击、命中提升",
 	stack = 1,
@@ -472,8 +472,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 100
+				number = 100,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -482,8 +482,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 100
+				number = 100,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -492,8 +492,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = -0.01
+				number = -0.01,
+				attr = "injureRatioByCannon"
 			}
 		},
 		{
@@ -503,8 +503,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = -0.01
+				number = -0.01,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MENGFEISIWANSHENG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MENGFEISIWANSHENG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"혼돈의 핼러윈 나이트\n\n<size=45>4. 파티 전 변장</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 213021,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "테러는... 옷 다 갈아 입었어, 홀가분하네. 언니, 다 됐어?",
 			bgm = "story-1",
+			actor = 213021,
+			nameColor = "#a9f548",
+			say = "테러는... 옷 다 갈아 입었어, 홀가분하네. 언니, 다 됐어?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -103,8 +103,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 213021,
 			dir = 1,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "테러는... 언니랑 같이 핼러윈 파티에 가고 싶어...",
 			typewriter = {
@@ -133,13 +133,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -167,8 +167,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 213012,
 			dir = 1,
+			actor = 213012,
 			nameColor = "#a9f548",
 			say = "이러면... 되겠지?",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 213021,
 			dir = 1,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "응응... 핼러윈 마녀라... 정말 잘 어울려.",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 213021,
 			dir = 1,
+			actor = 213021,
 			nameColor = "#a9f548",
 			say = "드디어 언니랑 같이 핼러윈 파티에 가는구나. 테러는 너무 신나.",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 213012,
 			dir = 1,
+			actor = 213012,
 			nameColor = "#a9f548",
 			say = "...테러가 기쁘면 됐어.",
 			typewriter = {
@@ -234,14 +234,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_night",
 			actor = 404021,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "언니... 정말 같이 안 갈 거에요?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -285,8 +285,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			actor = 404021,
 			dir = 1,
+			actor = 404021,
 			nameColor = "#a9f548",
 			say = "...알겠어요.",
 			typewriter = {
@@ -315,15 +315,15 @@ return {
 			}
 		},
 		{
-			actor = 301411,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301411,
+			nameColor = "#a9f548",
 			say = "폴짝~ 폴짝~ 핼러윈 나이트 이벤트 장소가...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -348,8 +348,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -374,15 +374,15 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "헤헤헷~ 곧 시작이다! 올해 장난 대마왕은 반드시 내가 차지할 거야!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -423,11 +423,11 @@ return {
 			}
 		},
 		{
-			actor = 213041,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 213041,
+			nameColor = "#a9f548",
 			say = "후드 아줌마!? 아아... 없네, 없어. 흥, 난 안 무서워~ 타다닥~",
 			typewriter = {
 				speed = 0.05,
@@ -439,8 +439,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

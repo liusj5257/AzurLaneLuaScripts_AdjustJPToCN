@@ -1,12 +1,12 @@
 return {
-	id = "W1100",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1100",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーンの脅威を解除したが……エリアの雰囲気がまた変わったようだ。",
 			typewriter = {
 				speed = 0.05,

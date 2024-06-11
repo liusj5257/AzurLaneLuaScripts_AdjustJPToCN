@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA13",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Immense powers collided, and the resultant burst of light engulfed both assailant and protector alike.",
 			side = 2,
 			bgName = "bg_xinnong_cg2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-4",
+			say = "Immense powers collided, and the resultant burst of light engulfed both assailant and protector alike.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "Despite the assailant's tremendous power, she fell to her knees, and the battle was decided.",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "Akagi turned around. Floating above her palm was a black box, glowing with a sinister light.",
 			typewriter = {
 				speed = 0.05,
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307020,
+			nameColor = "#a9f548",
 			say = "Akagi... What are you saying...?",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -255,9 +255,9 @@ return {
 			actor = 307010,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "I won't permit... anyone... to get in the way of my love!!",
 			effects = {
 				{

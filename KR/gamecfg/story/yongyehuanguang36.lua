@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG36",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG36",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -54,8 +54,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = " 응! 여기는 주력 함대------",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,8 +151,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "정말 엉망진창이네…하우, 통신기 나에게 줘!",
 			typewriter = {
@@ -168,8 +168,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = " 말하는 사람, 워스파이트야? 지금 도대체 무슨 상황이야? 스캐퍼플로에 대체 무슨 일이 발생한 건지 우리에게 알려줘!",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -217,8 +217,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "뭐…?! 이게 어떻게 된 일이야! 나도 이런 일정이 있다고 들은 적이 없는데, 메탈 블러드는 어떻게 안거야?!",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_hms_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -276,8 +276,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = " 알았어. 우리 이대로 돌아갈게!",
 			typewriter = {
@@ -322,12 +322,12 @@ return {
 			}
 		},
 		{
-			actor = 205090,
 			side = 2,
 			bgName = "bg_hms_9",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205090,
+			nameColor = "#a9f548",
 			say = "제발 무사하셔야 할 텐데, 폐하…!",
 			typewriter = {
 				speed = 0.05,

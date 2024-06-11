@@ -14,7 +14,7 @@ slot0.GUIDE_CHECK = "EducateProxy.GUIDE_CHECK"
 slot0.MAIN_SCENE_ADD_LAYER = "EducateProxy.MAIN_SCENE_ADD_LAYER"
 slot0.CLEAR_NEW_TIP = "EducateProxy.CLEAR_NEW_TIP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.planProxy = EducatePlanProxy.New(slot0)
 	slot0.eventProxy = EducateEventProxy.New(slot0)
 	slot0.shopProxy = EducateShopProxy.New(slot0)
@@ -38,7 +38,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.initData(slot0, slot1)
+slot0.initData = function(slot0, slot1)
 	slot0:sendNotification(GAME.EDUCATE_GET_ENDINGS)
 
 	slot0.exsitEnding = slot1.child.is_ending == 1 or false
@@ -86,11 +86,11 @@ function slot0.initData(slot0, slot1)
 	slot0.requestDataEnd = true
 end
 
-function slot0.CheckDataRequestEnd(slot0)
+slot0.CheckDataRequestEnd = function(slot0)
 	return slot0.requestDataEnd
 end
 
-function slot0.initItems(slot0, slot1)
+slot0.initItems = function(slot0, slot1)
 	slot0.itemData = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -98,7 +98,7 @@ function slot0.initItems(slot0, slot1)
 	end
 end
 
-function slot0.initOptions(slot0, slot1)
+slot0.initOptions = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -112,7 +112,7 @@ function slot0.initOptions(slot0, slot1)
 	end
 end
 
-function slot0.initRandomOpts(slot0, slot1)
+slot0.initRandomOpts = function(slot0, slot1)
 	slot0.siteRandomOpts = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -120,11 +120,11 @@ function slot0.initRandomOpts(slot0, slot1)
 	end
 end
 
-function slot0.NeedRequestOptsData(slot0)
+slot0.NeedRequestOptsData = function(slot0)
 	return not slot0.siteRandomOpts
 end
 
-function slot0.initBuffs(slot0, slot1)
+slot0.initBuffs = function(slot0, slot1)
 	slot0.buffData = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -132,7 +132,7 @@ function slot0.initBuffs(slot0, slot1)
 	end
 end
 
-function slot0.initPolaroids(slot0, slot1)
+slot0.initPolaroids = function(slot0, slot1)
 	slot0.polaroidData = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -140,17 +140,17 @@ function slot0.initPolaroids(slot0, slot1)
 	end
 end
 
-function slot0.SetEndings(slot0, slot1)
+slot0.SetEndings = function(slot0, slot1)
 	slot0.endings = slot1
 
 	slot0:updateSecretaryIDs()
 end
 
-function slot0.IsFirstGame(slot0)
+slot0.IsFirstGame = function(slot0)
 	return slot0.gameCount == 1
 end
 
-function slot0.UpdateGameStatus(slot0)
+slot0.UpdateGameStatus = function(slot0)
 	slot0.gameStatus = EducateConst.STATUES_NORMAL
 
 	if slot0.exsitEnding then
@@ -162,11 +162,11 @@ function slot0.UpdateGameStatus(slot0)
 	end
 end
 
-function slot0.GetGameStatus(slot0)
+slot0.GetGameStatus = function(slot0)
 	return slot0.gameStatus
 end
 
-function slot0.initVirtualStage(slot0)
+slot0.initVirtualStage = function(slot0)
 	slot2 = slot0.char:GetStage()
 
 	if getProxy(EducateProxy):GetTaskProxy():GetTargetId() ~= 0 and pg.child_target_set[slot1].stage == slot2 + 1 then
@@ -176,15 +176,15 @@ function slot0.initVirtualStage(slot0)
 	end
 end
 
-function slot0.SetVirtualStage(slot0, slot1)
+slot0.SetVirtualStage = function(slot0, slot1)
 	slot0.isVirtualStage = slot1
 end
 
-function slot0.InVirtualStage(slot0)
+slot0.InVirtualStage = function(slot0)
 	return slot0.isVirtualStage
 end
 
-function slot0.Reset(slot0, slot1)
+slot0.Reset = function(slot0, slot1)
 	EducateTipHelper.ClearAllRecord()
 	slot0:GetPlanProxy():ClearLocalPlansData()
 	slot0:sendNotification(GAME.EDUCATE_REQUEST, {
@@ -192,7 +192,7 @@ function slot0.Reset(slot0, slot1)
 	})
 end
 
-function slot0.Refresh(slot0, slot1)
+slot0.Refresh = function(slot0, slot1)
 	EducateTipHelper.ClearAllRecord()
 	slot0:GetPlanProxy():ClearLocalPlansData()
 	slot0:sendNotification(GAME.EDUCATE_REQUEST, {
@@ -200,11 +200,11 @@ function slot0.Refresh(slot0, slot1)
 	})
 end
 
-function slot0.GetCurTime(slot0)
+slot0.GetCurTime = function(slot0)
 	return slot0.curTime
 end
 
-function slot0.UpdateTime(slot0)
+slot0.UpdateTime = function(slot0)
 	slot0.curTime.week = slot0.curTime.week + 1
 
 	if slot0.curTime.week > 4 then
@@ -213,7 +213,7 @@ function slot0.UpdateTime(slot0)
 	end
 end
 
-function slot0.OnNextWeek(slot0)
+slot0.OnNextWeek = function(slot0)
 	slot0:SetVirtualStage(false)
 	slot0:UpdateTime()
 	slot0.char:OnNewWeek(slot0.curTime)
@@ -230,67 +230,67 @@ function slot0.OnNextWeek(slot0)
 	slot0:sendNotification(uv0.TIME_UPDATED)
 end
 
-function slot0.GetCharData(slot0)
+slot0.GetCharData = function(slot0)
 	return slot0.char
 end
 
-function slot0.GetPersonalityId(slot0)
+slot0.GetPersonalityId = function(slot0)
 	return slot0.char:GetPersonalityId()
 end
 
-function slot0.UpdateRes(slot0, slot1, slot2)
+slot0.UpdateRes = function(slot0, slot1, slot2)
 	slot0.char:UpdateRes(slot1, slot2)
 	slot0:sendNotification(uv0.RESOURCE_UPDATED)
 end
 
-function slot0.ReduceResForPlans(slot0)
+slot0.ReduceResForPlans = function(slot0)
 	slot1, slot2 = slot0.planProxy:GetCost()
 
 	slot0:UpdateRes(EducateChar.RES_MONEY_ID, -slot1)
 	slot0:UpdateRes(EducateChar.RES_MOOD_ID, -slot2)
 end
 
-function slot0.ReduceResForCosts(slot0, slot1)
+slot0.ReduceResForCosts = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0:UpdateRes(slot6.id, -slot6.num)
 	end
 end
 
-function slot0.UpdateAttr(slot0, slot1, slot2)
+slot0.UpdateAttr = function(slot0, slot1, slot2)
 	slot0.char:UpdateAttr(slot1, slot2)
 	slot0:sendNotification(uv0.ATTR_UPDATED)
 end
 
-function slot0.CheckExtraAttr(slot0)
+slot0.CheckExtraAttr = function(slot0)
 	return slot0.char:CheckExtraAttrAdd()
 end
 
-function slot0.AddExtraAttr(slot0, slot1)
+slot0.AddExtraAttr = function(slot0, slot1)
 	slot0:UpdateAttr(slot1, slot0.char:getConfig("attr_2_add"))
 	slot0.char:SetIsAddedExtraAttr(true)
 end
 
-function slot0.GetPlanProxy(slot0)
+slot0.GetPlanProxy = function(slot0)
 	return slot0.planProxy
 end
 
-function slot0.GetEventProxy(slot0)
+slot0.GetEventProxy = function(slot0)
 	return slot0.eventProxy
 end
 
-function slot0.GetShopProxy(slot0)
+slot0.GetShopProxy = function(slot0)
 	return slot0.shopProxy
 end
 
-function slot0.GetTaskProxy(slot0)
+slot0.GetTaskProxy = function(slot0)
 	return slot0.taskProxy
 end
 
-function slot0.GetFinishEndings(slot0)
+slot0.GetFinishEndings = function(slot0)
 	return slot0.endings
 end
 
-function slot0.AddEnding(slot0, slot1)
+slot0.AddEnding = function(slot0, slot1)
 	slot0.exsitEnding = true
 
 	slot0:UpdateGameStatus()
@@ -305,7 +305,7 @@ function slot0.AddEnding(slot0, slot1)
 	slot0:sendNotification(uv0.ENDING_ADDED)
 end
 
-function slot0.IsEndingTime(slot0)
+slot0.IsEndingTime = function(slot0)
 	if slot0.endTime[1] <= slot0:GetCurTime().month and slot0.endTime[2] <= slot1.week and slot0.endTime[3] <= slot1.day then
 		return true
 	end
@@ -313,7 +313,7 @@ function slot0.IsEndingTime(slot0)
 	return false
 end
 
-function slot0.GetEndingResult(slot0)
+slot0.GetEndingResult = function(slot0)
 	slot1 = underscore.detect(pg.child_ending.all, function (slot0)
 		return uv0.char:CheckEndCondition(pg.child_ending[slot0].condition)
 	end)
@@ -323,11 +323,11 @@ function slot0.GetEndingResult(slot0)
 	return slot1
 end
 
-function slot0.GetBuffData(slot0)
+slot0.GetBuffData = function(slot0)
 	return slot0.buffData
 end
 
-function slot0.GetBuffList(slot0)
+slot0.GetBuffList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.buffData) do
@@ -337,7 +337,7 @@ function slot0.GetBuffList(slot0)
 	return slot1
 end
 
-function slot0.AddBuff(slot0, slot1)
+slot0.AddBuff = function(slot0, slot1)
 	if slot0.buffData[slot1] then
 		slot0.buffData[slot1]:ResetEndTime()
 	else
@@ -349,7 +349,7 @@ function slot0.AddBuff(slot0, slot1)
 	slot0:sendNotification(uv0.BUFF_ADDED)
 end
 
-function slot0.RefreshBuffs(slot0)
+slot0.RefreshBuffs = function(slot0)
 	for slot4, slot5 in pairs(slot0.buffData) do
 		if slot5:IsEnd() then
 			slot0.buffData[slot5.id] = nil
@@ -357,7 +357,7 @@ function slot0.RefreshBuffs(slot0)
 	end
 end
 
-function slot0.GetAttrBuffEffects(slot0, slot1)
+slot0.GetAttrBuffEffects = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.buffData) do
@@ -369,7 +369,7 @@ function slot0.GetAttrBuffEffects(slot0, slot1)
 	return EducateBuff.GetBuffEffects(slot2)
 end
 
-function slot0.GetResBuffEffects(slot0, slot1)
+slot0.GetResBuffEffects = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.buffData) do
@@ -381,17 +381,17 @@ function slot0.GetResBuffEffects(slot0, slot1)
 	return EducateBuff.GetBuffEffects(slot2)
 end
 
-function slot0.GetOptionById(slot0, slot1)
+slot0.GetOptionById = function(slot0, slot1)
 	return slot0.siteOptionData[slot1]
 end
 
-function slot0.UpdateOptionData(slot0, slot1)
+slot0.UpdateOptionData = function(slot0, slot1)
 	slot0.siteOptionData[slot1.id] = slot1
 
 	slot0:sendNotification(uv0.OPTION_UPDATED)
 end
 
-function slot0.RefreshOptions(slot0)
+slot0.RefreshOptions = function(slot0)
 	slot1 = slot0:GetCurTime()
 
 	for slot5, slot6 in pairs(slot0.siteOptionData) do
@@ -399,13 +399,13 @@ function slot0.RefreshOptions(slot0)
 	end
 end
 
-function slot0.GetShowSiteIds(slot0)
+slot0.GetShowSiteIds = function(slot0)
 	return underscore.select(pg.child_site.all, function (slot0)
 		return pg.child_site[slot0].type == 1 and EducateHelper.IsSiteUnlock(slot0, uv0:IsFirstGame())
 	end)
 end
 
-function slot0.GetOptionsBySiteId(slot0, slot1)
+slot0.GetOptionsBySiteId = function(slot0, slot1)
 	slot3 = slot0:GetCurTime()
 	slot5 = {}
 
@@ -441,11 +441,11 @@ function slot0.GetOptionsBySiteId(slot0, slot1)
 	return slot4
 end
 
-function slot0.GetItemData(slot0)
+slot0.GetItemData = function(slot0)
 	return slot0.itemData
 end
 
-function slot0.GetItemList(slot0)
+slot0.GetItemList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.itemData) do
@@ -455,7 +455,7 @@ function slot0.GetItemList(slot0)
 	return slot1
 end
 
-function slot0.AddItem(slot0, slot1, slot2)
+slot0.AddItem = function(slot0, slot1, slot2)
 	if slot0.itemData[slot1] then
 		slot0.itemData[slot1]:AddCount(slot2)
 	else
@@ -468,15 +468,15 @@ function slot0.AddItem(slot0, slot1, slot2)
 	slot0:sendNotification(uv0.ITEM_ADDED)
 end
 
-function slot0.GetItemCntById(slot0, slot1)
+slot0.GetItemCntById = function(slot0, slot1)
 	return slot0.itemData[slot1] and slot0.itemData[slot1].count or 0
 end
 
-function slot0.GetPolaroidData(slot0)
+slot0.GetPolaroidData = function(slot0)
 	return slot0.polaroidData
 end
 
-function slot0.GetPolaroidList(slot0)
+slot0.GetPolaroidList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.polaroidData) do
@@ -486,7 +486,7 @@ function slot0.GetPolaroidList(slot0)
 	return slot1
 end
 
-function slot0.GetPolaroidIdList(slot0)
+slot0.GetPolaroidIdList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.polaroidData) do
@@ -496,7 +496,7 @@ function slot0.GetPolaroidIdList(slot0)
 	return slot1
 end
 
-function slot0.AddPolaroid(slot0, slot1)
+slot0.AddPolaroid = function(slot0, slot1)
 	if slot0.polaroidData[slot1] then
 		return
 	end
@@ -512,19 +512,19 @@ function slot0.AddPolaroid(slot0, slot1)
 	slot0:sendNotification(uv0.POLAROID_ADDED)
 end
 
-function slot0.IsExistPolaroidByGroup(slot0, slot1)
+slot0.IsExistPolaroidByGroup = function(slot0, slot1)
 	return underscore.any(pg.child_polaroid.get_id_list_by_group[slot1], function (slot0)
 		return uv0.polaroidData[slot0]
 	end)
 end
 
-function slot0.CanGetPolaroidByGroup(slot0, slot1)
+slot0.CanGetPolaroidByGroup = function(slot0, slot1)
 	return underscore.any(pg.child_polaroid.get_id_list_by_group[slot1], function (slot0)
 		return uv0:CanGetPolaroidById(slot0)
 	end)
 end
 
-function slot0.CanGetPolaroidById(slot0, slot1)
+slot0.CanGetPolaroidById = function(slot0, slot1)
 	slot3 = slot0:GetPersonalityId()
 
 	if table.contains(pg.child_polaroid[slot1].stage, slot0.char:GetStage()) then
@@ -538,7 +538,7 @@ function slot0.CanGetPolaroidById(slot0, slot1)
 	return false
 end
 
-function slot0.GetPolaroidGroupCnt(slot0)
+slot0.GetPolaroidGroupCnt = function(slot0)
 	slot1 = 0
 	slot2 = 0
 
@@ -553,11 +553,11 @@ function slot0.GetPolaroidGroupCnt(slot0)
 	return slot1, slot2
 end
 
-function slot0.GetMemories(slot0)
+slot0.GetMemories = function(slot0)
 	return slot0.memories
 end
 
-function slot0.AddMemory(slot0, slot1)
+slot0.AddMemory = function(slot0, slot1)
 	if table.contains(slot0.memories, slot1) then
 		return
 	end
@@ -567,17 +567,17 @@ function slot0.AddMemory(slot0, slot1)
 	slot0:sendNotification(uv0.MEMORY_ADDED)
 end
 
-function slot0.CheckGuide(slot0, slot1)
+slot0.CheckGuide = function(slot0, slot1)
 	slot0:sendNotification(uv0.GUIDE_CHECK, {
 		view = slot1
 	})
 end
 
-function slot0.MainAddLayer(slot0, slot1)
+slot0.MainAddLayer = function(slot0, slot1)
 	slot0:sendNotification(uv0.MAIN_SCENE_ADD_LAYER, slot1)
 end
 
-function slot0.initUnlockSecretary(slot0, slot1)
+slot0.initUnlockSecretary = function(slot0, slot1)
 	slot0.isUnlockSecretary = slot1
 	slot0.unlockSecretaryTaskId = (function ()
 		for slot3, slot4 in ipairs(pg.secretary_special_ship.all) do
@@ -595,17 +595,17 @@ function slot0.initUnlockSecretary(slot0, slot1)
 	end
 end
 
-function slot0.GetUnlockSecretaryTaskId(slot0)
+slot0.GetUnlockSecretaryTaskId = function(slot0)
 	return slot0.unlockSecretaryTaskId
 end
 
-function slot0.SetSecretaryUnlock(slot0)
+slot0.SetSecretaryUnlock = function(slot0)
 	slot0.isUnlockSecretary = true
 
 	slot0:updateSecretaryIDs()
 end
 
-function slot0.CheckNewSecretaryTip(slot0)
+slot0.CheckNewSecretaryTip = function(slot0)
 	if table.contains(slot0.unlcokTipByPolaroidCnt, slot0:GetPolaroidGroupCnt()) then
 		slot0:updateSecretaryIDs()
 		slot0:sendNotification(uv0.UNLCOK_NEW_SECRETARY_BY_CNT)
@@ -616,7 +616,7 @@ function slot0.CheckNewSecretaryTip(slot0)
 	return false
 end
 
-function slot0.checkSecretaryID(slot0, slot1, slot2)
+slot0.checkSecretaryID = function(slot0, slot1, slot2)
 	if slot2 == "or" then
 		for slot6, slot7 in ipairs(slot1) do
 			if table.contains(slot0.endings, slot7[1]) then
@@ -638,7 +638,7 @@ function slot0.checkSecretaryID(slot0, slot1, slot2)
 	return false
 end
 
-function slot0.updateSecretaryIDs(slot0)
+slot0.updateSecretaryIDs = function(slot0)
 	if not slot0:IsUnlockSecretary() then
 		slot0.unlockSecretaryIds = {}
 
@@ -677,7 +677,7 @@ function slot0.updateSecretaryIDs(slot0)
 	end
 end
 
-function slot0.GetEducateGroupList(slot0)
+slot0.GetEducateGroupList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(pg.secretary_special_ship.get_id_list_by_group) do
@@ -687,23 +687,23 @@ function slot0.GetEducateGroupList(slot0)
 	return slot1
 end
 
-function slot0.GetStoryInfo(slot0)
+slot0.GetStoryInfo = function(slot0)
 	return slot0.char:GetPaintingName(), slot0.char:GetCallName(), slot0.char:GetBGName()
 end
 
-function slot0.GetSecretaryIDs(slot0)
+slot0.GetSecretaryIDs = function(slot0)
 	return slot0.unlockSecretaryIds
 end
 
-function slot0.GetPolaroidCnt(slot0)
+slot0.GetPolaroidCnt = function(slot0)
 	return #slot0:GetPolaroidIdList()
 end
 
-function slot0.IsUnlockSecretary(slot0)
+slot0.IsUnlockSecretary = function(slot0)
 	return slot0.isUnlockSecretary
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 end
 
 return slot0

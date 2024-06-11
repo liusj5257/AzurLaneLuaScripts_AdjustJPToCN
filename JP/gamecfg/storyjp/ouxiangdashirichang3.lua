@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIRICHANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIRICHANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"海に響くアイドルの歌-日常編\n\n<size=45>三 レッスンについて</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・会議室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・会議室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 201010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201010,
+			nameColor = "#a9f548",
 			say = "今回はアイドル特別顧問の律子と伊織にも参加してもらってるわ。２人とも、今日はよろしくな！",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,13 +92,13 @@ return {
 			}
 		},
 		{
-			actor = 10700030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "遠慮なく何でも聞いていいわよ。このスーパーアイドル伊織ちゃんが、バッチリ答えてあげるから。にひひっ♪",
 			hidePaintEquip = true,
+			actor = 10700030,
+			nameColor = "#a9f548",
+			say = "遠慮なく何でも聞いていいわよ。このスーパーアイドル伊織ちゃんが、バッチリ答えてあげるから。にひひっ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,13 +109,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "アイドルの先輩として、できる限りアドバイスするわ。よろしくね！",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "アイドルの先輩として、できる限りアドバイスするわ。よろしくね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,13 +158,13 @@ return {
 			}
 		},
 		{
-			actor = 10700030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そうね……まず、歌とダンスは欠かせないわね。",
 			hidePaintEquip = true,
+			actor = 10700030,
+			nameColor = "#a9f548",
+			say = "そうね……まず、歌とダンスは欠かせないわね。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -188,11 +188,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700050,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700050,
 			nameColor = "#a9f548",
 			say = "それに表現力も重要よ。歌やダンス、バラエティにも生かせる大事な要素ね。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,13 +267,13 @@ return {
 			}
 		},
 		{
-			actor = 10700030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そうね～……はじめのうちはイメージしづらいかもしれないわね",
 			hidePaintEquip = true,
+			actor = 10700030,
+			nameColor = "#a9f548",
+			say = "そうね～……はじめのうちはイメージしづらいかもしれないわね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,13 +316,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "短期目標を考えてみればいいんじゃないかしら？",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "短期目標を考えてみればいいんじゃないかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,11 +352,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700050,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700050,
 			nameColor = "#a9f548",
 			say = "そう。最終的な目標を達成するために、段階的に目指す目標を立てるの",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -377,13 +377,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "例えば、最終目標がトップアイドルとして輝けるようになることなら、短期目標は一つ一つのライブや仕事を成功させること、みたいな感じね",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "例えば、最終目標がトップアイドルとして輝けるようになることなら、短期目標は一つ一つのライブや仕事を成功させること、みたいな感じね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,11 +397,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700050,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700050,
 			nameColor = "#a9f548",
 			say = "私たちはそれを達成する為に、ライブや仕事に合わせてレッスンを組んでもらっているわ",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,11 +415,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700050,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700050,
 			nameColor = "#a9f548",
 			say = "同じように、あなたたちも短期目標を立てて、それに合わせて計画してみれば良いんじゃないかしら？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,13 +430,13 @@ return {
 			}
 		},
 		{
-			actor = 10700030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "（さすがは律子ね。いいアドバイスをするじゃない）",
 			hidePaintEquip = true,
+			actor = 10700030,
+			nameColor = "#a9f548",
+			say = "（さすがは律子ね。いいアドバイスをするじゃない）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,11 +479,11 @@ return {
 			}
 		},
 		{
-			actor = 201010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201010,
+			nameColor = "#a9f548",
 			say = "…んん！？",
 			typewriter = {
 				speed = 0.05,
@@ -495,8 +495,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -521,13 +521,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "それじゃあ……まずは、メンバーそれぞれがライブで歌う曲と振付を覚えるところから始めましょうか。",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "それじゃあ……まずは、メンバーそれぞれがライブで歌う曲と振付を覚えるところから始めましょうか。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,11 +541,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "えっ？　ち、ちょっと、律子？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,11 +559,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "（なんで話に乗っちゃうワケ！？）",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,13 +606,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ええ、その通りよ！",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "ええ、その通りよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,8 +623,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -636,11 +636,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "（こ、このままじゃ……）",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,11 +651,11 @@ return {
 			}
 		},
 		{
-			actor = 201010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201010,
+			nameColor = "#a9f548",
 			say = "（話がおかしな方向に…！！）",
 			typewriter = {
 				speed = 0.05,
@@ -667,8 +667,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -677,13 +677,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "それと、そういうときに、私たちが気をつけているレッスンのポイントがあるんだけど……",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "それと、そういうときに、私たちが気をつけているレッスンのポイントがあるんだけど……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,12 +697,12 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			hideOther = true,
-			dir = 1,
-			actorName = "水瀬伊織・アマゾン",
-			hidePaintEquip = true,
 			actor = 10700030,
+			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintEquip = true,
+			hideOther = true,
+			actorName = "水瀬伊織・アマゾン",
 			say = "ちょ、ちょっとストーップ！！",
 			subActors = {
 				{
@@ -722,8 +722,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -735,11 +735,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "２人とも、一旦話を止めなさい！少し突っ走りすぎよ！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,9 +753,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201010,
 			dir = 1,
 			blackBg = true,
+			actor = 201010,
 			nameColor = "#a9f548",
 			say = "そうだ！なんで2ヶ月後にライブを開くことになってるの？！そんな計画、全然なかったわ！？",
 			typewriter = {
@@ -768,8 +768,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -845,13 +845,13 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 10700030,
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			actorName = "水瀬伊織・アマゾン",
-			hidePaintEquip = true,
-			hideOther = true,
 			nameColor = "#a9f548",
+			hidePaintEquip = true,
+			actor = 10700030,
+			actorName = "水瀬伊織・アマゾン",
 			say = "だーかーらー！勝手に話を進めないでー！！",
 			subActors = {
 				{
@@ -871,8 +871,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

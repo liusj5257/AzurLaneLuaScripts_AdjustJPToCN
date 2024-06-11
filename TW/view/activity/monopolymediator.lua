@@ -7,7 +7,7 @@ slot0.MONOPOLY_OP_LAST = "MonopolyGame:MONOPOLY_OP_LAST"
 slot0.ON_STOP = "MonopolyGame:MONOPOLY_ON_STOP"
 slot0.AWARDS = {}
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(MonopolyPtMediator.ON_STOP, function (slot0, slot1, slot2)
 		if not uv0.viewComponent.autoFlag and #MonopolyPtMediator.AWARDS > 0 then
 			uv0:emit(BaseUI.ON_ACHIEVE, MonopolyPtMediator.AWARDS, slot2)
@@ -61,13 +61,13 @@ function slot0.register(slot0)
 	end
 end
 
-function slot0.getLeftRpCount()
+slot0.getLeftRpCount = function()
 	slot0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MONOPOLY)
 
 	return slot0.data2_list[1] - slot0.data2_list[2]
 end
 
-function slot0.onAward(slot0, slot1, slot2)
+slot0.onAward = function(slot0, slot1, slot2)
 	for slot6 = 1, #slot1 do
 		table.insert(MonopolyPtMediator.AWARDS, slot1[slot6])
 	end
@@ -85,7 +85,7 @@ function slot0.onAward(slot0, slot1, slot2)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		ActivityProxy.ACTIVITY_UPDATED,
 		ActivityProxy.ACTIVITY_ADDED,
@@ -93,7 +93,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 	slot4 = slot1:getType()
 
@@ -108,7 +108,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.updateGameUI(slot0)
+slot0.updateGameUI = function(slot0)
 	if not slot0._activityId then
 		return
 	end
@@ -118,7 +118,7 @@ function slot0.updateGameUI(slot0)
 	slot0.viewComponent:updataActivity(slot0._activity)
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	if slot0.viewComponent then
 		MonopolyPtMediator.AWARDS = {}
 	end

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOYIXI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOYIXI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ティラミス・マーマレード\n\n<size=45>二  ルーキー秘書官艦</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			hidePaintObj = true,
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "お、おはよう指揮官…今日から、よろしくおねがいします…",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（深呼吸、深呼吸……）",
 			typewriter = {
 				speed = 0.05,
@@ -103,15 +103,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "秘書艦のお仕事はまずこれだよね…？わかった",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -169,10 +169,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "委託関連の資料が完成したよ",
 			typewriter = {
 				speed = 0.05,
@@ -201,15 +201,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官、そろそろお昼の時間だよ…？飲み物とか、いかがでしょうか…？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -234,12 +234,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "栄養ドリンク…？ええと、指揮官、軽めの飲み物のほうがいいよ…？",
 			typewriter = {
 				speed = 0.05,
@@ -269,10 +269,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "も、潜るのが趣味で……",
 			typewriter = {
 				speed = 0.05,
@@ -284,12 +284,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "でも、潜水艦じゃないから、潜るとしてもほんの少しだけ……",
 			typewriter = {
 				speed = 0.05,
@@ -322,12 +322,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "んー、どうしてって…",
 			typewriter = {
 				speed = 0.05,
@@ -342,10 +342,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "時々何もかも忘れて、一人になりたい気分……指揮官も感じたことある？",
 			typewriter = {
 				speed = 0.05,
@@ -372,12 +372,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "海の中にいると、なんだか時間が止まっているような気がして",
 			typewriter = {
 				speed = 0.05,
@@ -392,10 +392,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "それに海の中だと、サンゴ礁とか、ウミガメさんとか…",
 			typewriter = {
 				speed = 0.05,
@@ -410,10 +410,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "お魚さんがいると、一緒に泳いだり、いないときは海の中の景色を静かに眺めたり…いい感じ…",
 			typewriter = {
 				speed = 0.05,

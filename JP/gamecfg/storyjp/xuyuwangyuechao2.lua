@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "過去　重桜・大神木の聖域",
 			bgm = "theme-unzen",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "過去　重桜・大神木の聖域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -45,13 +45,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
-			withoutActorName = true,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "bg_yunxian_1",
+			withoutActorName = true,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "神木から手のひらに温かく、優しい「感触」が流れてくる。",
 			typewriter = {
 				speed = 0.05,
@@ -59,13 +59,13 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			oldPhoto = true,
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
-			withoutActorName = true,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "bg_yunxian_1",
+			withoutActorName = true,
+			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…が、しばらくすると、「感触」が針に刺されたような痛みに変わった。",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -104,14 +104,14 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yunxian_1",
 			oldPhoto = true,
-			side = 2,
+			hidePaintEquip = true,
+			actor = 303190,
 			actorName = "仙哲",
 			say = "心当たりがあります。武蔵さん",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,11 +121,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			actorName = "仙哲",
 			hidePaintEquip = true,
 			actor = 303190,
-			nameColor = "#A9F548FF",
+			actorName = "仙哲",
 			say = "「北天より落つる星あり」",
 			typewriter = {
 				speed = 0.05,
@@ -133,14 +133,14 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yunxian_1",
 			oldPhoto = true,
-			side = 2,
+			hidePaintEquip = true,
+			actor = 303190,
 			actorName = "仙哲",
 			say = "「星の落ちし海より闇が出づる時、瑞穂の水天を震わし泣かせしむ」",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,11 +150,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			actorName = "仙哲",
 			hidePaintEquip = true,
 			actor = 303190,
-			nameColor = "#A9F548FF",
+			actorName = "仙哲",
 			say = "「星は重桜の涙に申し訳なく思ひ、己を燃やし光放ち、災いの闇靄を駆除し聖域に封印せり」",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_1",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
@@ -200,13 +200,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "bg_yunxian_1",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我が重桜の宝器「ワタツミ」、そしてその故事を記した書物『綿津抄』…",
 			painting = {
 				alpha = 0.3,
@@ -240,10 +240,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "まさしく。御狐さま、武蔵さん",
 			typewriter = {
@@ -252,13 +252,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "bg_yunxian_1",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "ここまで来る途中、なぜ大神木の聖域まで案内したのかと聞きましたね？",
 			typewriter = {
 				speed = 0.05,
@@ -269,10 +269,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "『綿津抄』にある御伽は荒唐無稽なれど、その中には真実が隠されています",
 			typewriter = {
@@ -284,10 +284,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "この聖域――正確に言えば「大神木」の中に、かつて北天より落ちた星の破片が眠っています",
 			typewriter = {
@@ -296,13 +296,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "bg_yunxian_1",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "星の破片は神木の力で封印し、災いの闇靄を封じてきましたが…",
 			typewriter = {
 				speed = 0.05,
@@ -313,10 +313,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "それでも漏れ出す穢れによって神木の力が弱まりつつあります",
 			typewriter = {
@@ -325,13 +325,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "bg_yunxian_1",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "もしケガレを払い封印の力を回復できなければ、故事にある災いの闇靄が再び訪れるでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_1",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
@@ -419,10 +419,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "仰るとおりです",
 			typewriter = {
@@ -434,10 +434,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "なので、あくまで重桜の術式を用いて異変を解決すべきだと存じます",
 			typewriter = {
@@ -446,13 +446,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "bg_yunxian_1",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "封印を強化し、願わくば闇靄を「かき消す」ことができれば、と",
 			typewriter = {
 				speed = 0.05,
@@ -460,8 +460,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_1",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
@@ -499,8 +499,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -511,8 +511,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -523,8 +523,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -535,8 +535,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -550,10 +550,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "はい、準備はすでに整っております",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_1",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
@@ -601,13 +601,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "bg_yunxian_1",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "お褒めに預かり光栄です。ですがこれでも心許ないです",
 			typewriter = {
 				speed = 0.05,
@@ -634,8 +634,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -646,8 +646,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -661,10 +661,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "……覚悟はできているようですね",
 			typewriter = {
@@ -676,10 +676,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "これより星の破片――「ワタツミ」のところに案内させていただきます",
 			typewriter = {
@@ -688,13 +688,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "bg_yunxian_1",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "そして御狐さまに封印の中に入ってもらい、「ワタツミ」と直接対面していただきます",
 			typewriter = {
 				speed = 0.05,
@@ -705,10 +705,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "道中は神木に蓄積されたケガレがありますが、この結界の力が防いでくれましょう",
 			typewriter = {
@@ -720,10 +720,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "しかし一度封印の中に入ると、「ワタツミ」の影と化した闇靄が襲いかかってくるはずです",
 			typewriter = {
@@ -754,10 +754,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "…ありがとうございます。武蔵さん",
 			typewriter = {
@@ -766,13 +766,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "bg_yunxian_1",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "重桜の信仰を預かる「御狐」たる長門さまには、「ワタツミ」に触れていただきます",
 			typewriter = {
 				speed = 0.05,
@@ -783,10 +783,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "封印の概念が強くとも、重桜の代表である御狐さまなら無事たどり着けるでしょう",
 			typewriter = {
@@ -798,10 +798,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "これだけは他の方では決してなし得ないことです",
 			typewriter = {
@@ -810,13 +810,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "bg_yunxian_1",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "短い間なら長門さまは「ワタツミ」の残った力を行使できるはずです",
 			typewriter = {
 				speed = 0.05,
@@ -827,10 +827,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "「ワタツミ」の力で一度闇靄を鎮め、その間に「ワタツミ」に代わる存在として封印の礎を設置できれば、異変を解決できます",
 			typewriter = {
@@ -839,13 +839,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "bg_yunxian_1",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "………そして、封印の礎は私がなります",
 			typewriter = {
 				speed = 0.05,
@@ -856,10 +856,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "武蔵さん。術式が完了するまで、どうか長門さまを守ってください",
 			typewriter = {
@@ -868,13 +868,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "bg_yunxian_1",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "上手くいって闇靄を滅ぼせられれば、封印も不要になりましょう",
 			typewriter = {
 				speed = 0.05,
@@ -885,10 +885,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "その時は星の破片…ワタツミの破片を預けましょう",
 			typewriter = {
@@ -897,13 +897,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "bg_yunxian_1",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "力を使い果たした抜け殻ではありますが、それでも重桜の未来を変えてくれるはずです",
 			typewriter = {
 				speed = 0.05,
@@ -914,10 +914,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "長門さま、武蔵さん……どうか重桜の未来を守ってくださいませ",
 			typewriter = {
@@ -929,10 +929,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "最後に………",
 			typewriter = {
@@ -941,13 +941,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "bg_yunxian_1",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "武蔵さん、約束は果たさせてもらいます",
 			typewriter = {
 				speed = 0.05,
@@ -955,13 +955,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			oldPhoto = true,
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
-			withoutActorName = true,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "bg_yunxian_1",
+			withoutActorName = true,
+			actor = 303190,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「仙哲」は袖の中から小さい箱を取り出し、武蔵に渡した。",
 			typewriter = {
 				speed = 0.05,
@@ -972,10 +972,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "リュウコツを修復する手がかりはこちらにあります",
 			typewriter = {
@@ -984,8 +984,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -996,8 +996,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			oldPhoto = true,

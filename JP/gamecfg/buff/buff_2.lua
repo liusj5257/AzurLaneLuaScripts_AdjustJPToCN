@@ -9,16 +9,16 @@ return {
 				},
 				arg_list = {
 					rant = 10000,
-					target = "TargetSelf",
 					skill_id = 2,
+					target = "TargetSelf",
 					time = 1
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "主炮连射",
 	time = 0,
+	name = "主炮连射",
+	init_effect = "",
 	picture = "",
 	desc = "重型主炮开火时有几率发动，额外进行二轮攻击",
 	stack = 1,
@@ -33,8 +33,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
 				skill_id = 2,
+				target = "TargetSelf",
 				time = 1
 			}
 		}

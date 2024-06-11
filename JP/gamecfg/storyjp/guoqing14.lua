@@ -179,13 +179,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			side = 2,
+			hideOther = true,
 			nameColor = "#a9f548",
+			soundeffect = "event:/battle/boom2",
 			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "翔鶴姉！…こんなの…絶対に二度と繰り返さないわ！",
-			soundeffect = "event:/battle/boom2",
 			flashout = {
 				dur = 1,
 				alpha = {

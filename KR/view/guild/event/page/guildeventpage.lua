@@ -1,10 +1,10 @@
 slot0 = class("GuildEventPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildEventPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.eventList = UIItemList.New(slot0:findTF("eventlist/content"), slot0:findTF("eventlist/content/tpl"))
 	slot0.reportBtn = slot0:findTF("report_btn")
 	slot0.reportTip = slot0.reportBtn:Find("tip")
@@ -28,7 +28,7 @@ function slot0.OnLoaded(slot0)
 	slot0.timeView = GuildEventTimerView.New()
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.reportBtn, function ()
 		uv0:emit(GuildEventMediator.ON_OPEN_REPORT)
 	end, SFX_PANEL)
@@ -37,13 +37,13 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnReportUpdated(slot0)
+slot0.OnReportUpdated = function(slot0)
 	slot0.reports = getProxy(GuildProxy):GetReports()
 
 	slot0:UpdateReportBtn()
 end
 
-function slot0.Show(slot0, slot1, slot2, slot3)
+slot0.Show = function(slot0, slot1, slot2, slot3)
 	uv0.super.Show(slot0)
 	slot0:UpdateData(slot1, slot2, slot3)
 	slot0:SwitchPage()
@@ -51,7 +51,7 @@ function slot0.Show(slot0, slot1, slot2, slot3)
 	slot0._tf:SetAsFirstSibling()
 end
 
-function slot0.UpdateData(slot0, slot1, slot2, slot3)
+slot0.UpdateData = function(slot0, slot1, slot2, slot3)
 	slot0.guildVO = slot1
 	slot0.player = slot2
 	slot0.events = slot3
@@ -60,7 +60,7 @@ function slot0.UpdateData(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.SwitchPage(slot0)
+slot0.SwitchPage = function(slot0)
 	if slot0.contextData.editFleet then
 		triggerButton(slot0.formationBtn)
 	end
@@ -84,7 +84,7 @@ function slot0.SwitchPage(slot0)
 	setActive(slot0.titleTF, not slot2)
 end
 
-function slot0.UpdateReportBtn(slot0)
+slot0.UpdateReportBtn = function(slot0)
 	slot3 = #_.select(_.values(slot0.reports), function (slot0)
 		return slot0:CanSubmit()
 	end) > 0 and not slot0.guildVO:getMemberById(slot0.player.id):IsRecruit()
@@ -96,7 +96,7 @@ function slot0.UpdateReportBtn(slot0)
 	end
 end
 
-function slot0.InitEvents(slot0)
+slot0.InitEvents = function(slot0)
 	slot0.bg.sprite = GetSpriteFromAtlas("commonbg/guild_event_bg", "")
 	slot0.displays = {}
 	slot1 = {}
@@ -130,7 +130,7 @@ slot1 = {
 	"hard"
 }
 
-function slot0.UpdateEvent(slot0, slot1, slot2)
+slot0.UpdateEvent = function(slot0, slot1, slot2)
 	slot3 = slot0.activeEvent
 	slot1:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("guildevent/" .. (slot2 and slot2.id or 0), "")
 	slot5 = slot1:Find("tag")
@@ -191,7 +191,7 @@ function slot0.UpdateEvent(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.OnRefreshNode(slot0, slot1, slot2)
+slot0.OnRefreshNode = function(slot0, slot1, slot2)
 	if not slot0.nodes then
 		return
 	end
@@ -209,13 +209,13 @@ function slot0.OnRefreshNode(slot0, slot1, slot2)
 	end
 end
 
-function slot0.EnterActiveNode(slot0)
+slot0.EnterActiveNode = function(slot0)
 	if slot0.contextData.mission then
 		slot0:emit(GuildEventLayer.ON_OPEN_MISSION, slot0.contextData.mission)
 	end
 end
 
-function slot0.CheckBossNode(slot0)
+slot0.CheckBossNode = function(slot0)
 	if slot0.nodes[#slot0.nodes]:ParentIsFinishByServer() and not slot1:IsActive() then
 		slot0:emit(GuildEventMediator.ON_GET_BOSS_INFO)
 	elseif slot1:ParentIFinish() and not slot1:IsActive() then
@@ -223,12 +223,12 @@ function slot0.CheckBossNode(slot0)
 	end
 end
 
-function slot0.InitView(slot0)
+slot0.InitView = function(slot0)
 	slot0.bg.sprite = GetSpriteFromAtlas("GuildMission/" .. slot0.gevent:GetTheme(), "")
 	slot0.nameTxt.text = slot0.gevent:GetName()
 end
 
-function slot0.BuildTree(slot0, slot1)
+slot0.BuildTree = function(slot0, slot1)
 	slot0.gevent = slot1
 	slot0.missions = {}
 	slot0.bossPosition = slot0.gevent:GetBossMission():GetPosition()
@@ -250,7 +250,7 @@ function slot0.BuildTree(slot0, slot1)
 	}
 end
 
-function slot0.RefreshLatelyNode(slot0)
+slot0.RefreshLatelyNode = function(slot0)
 	if slot0.lastPosition <= 0 or slot0.lastPosition == slot0.bossPosition then
 		return
 	end
@@ -273,7 +273,7 @@ function slot0.RefreshLatelyNode(slot0)
 	end)
 end
 
-function slot0.AddRefreshTime(slot0)
+slot0.AddRefreshTime = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -288,7 +288,7 @@ function slot0.AddRefreshTime(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.GenTree(slot0)
+slot0.GenTree = function(slot0)
 	slot0.nodes = {}
 
 	for slot4, slot5 in pairs(slot0.missions) do
@@ -302,7 +302,7 @@ function slot0.GenTree(slot0)
 	end
 end
 
-function slot0.CreateNode(slot0, slot1, slot2, slot3)
+slot0.CreateNode = function(slot0, slot1, slot2, slot3)
 	slot4 = GuildViewMissionNode.New({
 		go = slot1.gameObject,
 		slot = slot2,
@@ -347,7 +347,7 @@ function slot0.CreateNode(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.InitTree(slot0)
+slot0.InitTree = function(slot0)
 	slot1 = {
 		0,
 		0
@@ -387,8 +387,8 @@ function slot0.InitTree(slot0)
 	end
 end
 
-function slot0.CreateLinkLine(slot0, slot1)
-	function slot2(slot0, slot1)
+slot0.CreateLinkLine = function(slot0, slot1)
+	slot2 = function(slot0, slot1)
 		slot2 = Instantiate(slot0)
 		slot2.name = slot1
 
@@ -416,11 +416,11 @@ function slot0.CreateLinkLine(slot0, slot1)
 	end
 end
 
-function slot0.SetScrollRect(slot0, slot1)
+slot0.SetScrollRect = function(slot0, slot1)
 	slot0.pathContains.sizeDelta = Vector2(slot1[1] + 100, slot1[2] * 2 + 100)
 end
 
-function slot0.ShowDesc(slot0, slot1)
+slot0.ShowDesc = function(slot0, slot1)
 	slot1:Selected(true)
 	setActive(slot0.descPanel, true)
 
@@ -442,7 +442,7 @@ function slot0.ShowDesc(slot0, slot1)
 	slot5 = slot1.data
 	slot0.descPanelTag.sprite = GetSpriteFromAtlas("ui/GuildMissionUI_atlas", "tag" .. slot5:GetTag())
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		if not slot0:IsUnLock() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("guild_event_is_lock"))
 
@@ -481,7 +481,7 @@ function slot0.ShowDesc(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.HideDesc(slot0, slot1)
+slot0.HideDesc = function(slot0, slot1)
 	slot1:Selected(false)
 
 	if slot0.chcheSizeDelta then
@@ -491,7 +491,7 @@ function slot0.HideDesc(slot0, slot1)
 	setActive(slot0.descPanel, false)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 

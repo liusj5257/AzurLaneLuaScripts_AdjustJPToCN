@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"빛나는 아이리스\n\n<size=45>'대립'의 자매</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "마침 잘 됐다, 트리옹팡의 고민 해결을 위해, 포르뱅과 르 마르스의 관계에 대해 물어보자……",
 			typewriter = {
 				speed = 0.05,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 801010,
+			say = "지, 지휘관님??",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "지, 지휘관님??",
+			actor = 801010,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -190,14 +190,14 @@ return {
 			}
 		},
 		{
-			actor = 901010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
+			actor = 901010,
 			say = "포르뱅이 불렀다기에 왔습니다! 응? 트리옹팡 씨도?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -349,10 +349,10 @@ return {
 			say = "정말, 누가 근육뇌에요!?",
 			action = {
 				{
-					number = 1,
+					y = 22.5,
 					dur = 0.15,
-					type = "shake",
-					y = 22.5
+					number = 1,
+					type = "shake"
 				}
 			},
 			typewriter = {

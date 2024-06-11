@@ -7,14 +7,14 @@ return {
 			style = {
 				text = "새로운 장소가 오픈되었습니다.",
 				mode = 2,
-				posY = -406.14,
-				char = 1,
 				dir = 1,
+				char = 1,
+				posY = -406.14,
 				posX = 223.4
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/blur_panel/bottom/right/EducateBottomPanel(Clone)/content/btns/map",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/blur_panel/bottom/right/EducateBottomPanel(Clone)/content/btns/map",
 				fingerPos = {
 					posY = 61.34,
 					posX = -90.1
@@ -26,14 +26,14 @@ return {
 			style = {
 				text = "이번에는 \"리조트\"로 이동하겠습니다.",
 				mode = 2,
-				posY = -290.9,
-				char = 1,
 				dir = 1,
+				char = 1,
+				posY = -290.9,
 				posX = -82.76
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/EducateMapUI(Clone)/map/content/120",
 				pathIndex = -1,
+				path = "UICamera/Canvas/UIMain/EducateMapUI(Clone)/map/content/120",
 				fingerPos = {
 					posY = -15.38,
 					posX = 71.24
@@ -45,15 +45,15 @@ return {
 			style = {
 				text = "\"리조트\"를 잠시 산책하며 기분 전환을 합니다.",
 				mode = 2,
-				posY = -150.4,
-				char = 1,
 				dir = 1,
+				char = 1,
+				posY = -150.4,
 				posX = 546.5
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/anim_root/window/options/content/3",
+				pathIndex = -1,
 				eventPath = "/OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/anim_root/window/options/content/3",
-				pathIndex = -1
+				path = "OverlayCamera/Overlay/UIMain/EducateSiteDetailUI(Clone)/anim_root/window/options/content/3"
 			}
 		}
 	}

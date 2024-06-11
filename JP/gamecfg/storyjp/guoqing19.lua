@@ -87,14 +87,14 @@ return {
 			}
 		},
 		{
-			actor = 900011,
+			withoutPainting = true,
 			side = 0,
+			actorName = "システム",
+			dir = 0,
 			soundeffect = "event:/ui/alarm",
-			actorName = "システム",
-			dir = 0,
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "――カイシュウシーケンスキドウ――サギョウエリアヨリシキュウタイヒシテクダサイ――",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.02,
 				speedUp = 0.01
@@ -105,13 +105,13 @@ return {
 			}
 		},
 		{
-			actor = 900011,
-			side = 0,
-			nameColor = "#ff0000",
-			actorName = "システム",
-			dir = 0,
-			withoutPainting = true,
 			say = "――クリカエシマス――カイシュウシーケンスキドウ――サギョウエリアヨリシキュウタイヒシテクダサイ――",
+			side = 0,
+			nameColor = "#ff0000",
+			dir = 0,
+			actor = 900011,
+			actorName = "システム",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.02,
 				speedUp = 0.01
@@ -122,13 +122,13 @@ return {
 			}
 		},
 		{
-			actor = 900011,
+			say = "――カイシュウシーケンスキドウ――サギョウエリアヨリシキュウタイヒシテクダサイ――",
 			side = 0,
 			nameColor = "#ff0000",
-			actorName = "システム",
 			dir = 0,
+			actor = 900011,
+			actorName = "システム",
 			withoutPainting = true,
-			say = "――カイシュウシーケンスキドウ――サギョウエリアヨリシキュウタイヒシテクダサイ――",
 			typewriter = {
 				speed = 0.02,
 				speedUp = 0.01
@@ -199,11 +199,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "テスター",
 			side = 2,
-			nameColor = "#ff0000",
 			blackBg = true,
+			actor = 900011,
+			nameColor = "#ff0000",
 			say = "試験場γ…テスト完了。",
 			flashout = {
 				dur = 1.5,

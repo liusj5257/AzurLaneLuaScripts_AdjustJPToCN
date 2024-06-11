@@ -16,7 +16,7 @@ slot0.BUILD = "CommanderCatMediator:BUILD"
 slot0.GET = "CommanderCatMediator:GET"
 slot0.USE_QUICKLY_TOOL = "CommanderCatMediator:USE_QUICKLY_TOOL"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.USE_QUICKLY_TOOL, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.USE_ITEM, {
 			id = slot1,
@@ -143,7 +143,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.COMMANDER_RESERVE_BOX_DONE,
 		GAME.COMMANDER_QUICKLY_FINISH_BOXES_ERROR,
@@ -165,7 +165,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.COMMANDER_RESERVE_BOX_DONE then
@@ -215,7 +215,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.BatchDisplayCommander(slot0, slot1, slot2)
+slot0.BatchDisplayCommander = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1) do
@@ -253,7 +253,7 @@ function slot0.BatchDisplayCommander(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.DisplayNewCommander(slot0, slot1, slot2)
+slot0.DisplayNewCommander = function(slot0, slot1, slot2)
 	slot0:addSubLayers(Context.New({
 		viewComponent = NewCommanderScene,
 		mediator = NewCommanderMediator,
@@ -264,7 +264,7 @@ function slot0.DisplayNewCommander(slot0, slot1, slot2)
 	}))
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	if pg.ConnectionMgr.GetInstance():isConnected() then
 		slot0:sendNotification(GAME.OPEN_OR_CLOSE_CATTERY, {
 			open = false

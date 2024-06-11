@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 赤城",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 赤城",
+	init_effect = "",
+	id = 200858,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200858,
+	color = "yellow",
 	icon = 200858,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 2,
+				target = "TargetSelf",
 				skill_id = 200858
 			}
 		}

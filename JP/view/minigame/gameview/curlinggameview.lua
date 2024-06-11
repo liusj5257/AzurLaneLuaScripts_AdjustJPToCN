@@ -27,18 +27,18 @@ slot14 = {
 slot15 = 0.2
 slot16 = false
 slot17 = {
-	walker = 0.1,
+	cube = 0.2,
 	miner = 0.2,
-	wall = 0,
+	walker = 0.1,
 	oil = 0.2,
-	cube = 0.2
+	wall = 0
 }
 slot18 = {
-	walker = 2,
+	cube = 2,
 	miner = 2,
-	wall = 0,
+	walker = 2,
 	oil = 2,
-	cube = 2
+	wall = 0
 }
 slot19 = {
 	0.5,
@@ -69,11 +69,11 @@ slot32 = 2
 slot33 = 3
 slot34 = 4
 slot35 = {
-	walker = 900,
+	cube = 300,
 	miner = 300,
-	wall = 100,
+	walker = 900,
 	oil = 300,
-	cube = 300
+	wall = 100
 }
 slot36 = 1
 slot37 = {
@@ -118,8 +118,8 @@ slot37 = {
 	}
 }
 slot38 = {
-	cube = 3.5,
 	miner = 3.5,
+	cube = 3.5,
 	walker = 4.5,
 	oil = 3.5
 }
@@ -133,7 +133,7 @@ slot45 = "event_game_pause"
 slot46 = "event_game_resume"
 slot47 = "event_add_score"
 
-function slot48(slot0, slot1)
+slot48 = function(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -256,7 +256,7 @@ function slot48(slot0, slot1)
 	return slot2
 end
 
-function slot49(slot0, slot1, slot2)
+slot49 = function(slot0, slot1, slot2)
 	slot3 = {
 		Ctor = function (slot0)
 			slot0.tpls = uv0
@@ -458,7 +458,7 @@ function slot49(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot50(slot0, slot1)
+slot50 = function(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -501,7 +501,7 @@ function slot50(slot0, slot1)
 	return slot2
 end
 
-function slot51(slot0, slot1)
+slot51 = function(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -538,7 +538,7 @@ function slot51(slot0, slot1)
 	return slot2
 end
 
-function slot52(slot0, slot1)
+slot52 = function(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -602,7 +602,7 @@ function slot52(slot0, slot1)
 	return slot2
 end
 
-function slot53(slot0, slot1)
+slot53 = function(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -781,11 +781,11 @@ function slot53(slot0, slot1)
 	return slot2
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CurlingGameUI"
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initEvent()
 	slot0:initData()
 	slot0:initUI()
@@ -796,7 +796,7 @@ function slot0.didEnter(slot0)
 	slot0:AutoFitScreen()
 end
 
-function slot0.AutoFitScreen(slot0)
+slot0.AutoFitScreen = function(slot0)
 	slot6 = nil
 	slot6 = (1.7777777777777777 > Screen.width / Screen.height or math.clamp(1080 * slot1 / 2331, 1, 2)) and math.clamp(1920 / slot1 / slot0:findTF("bg_back").rect.height, 1, 2)
 
@@ -807,7 +807,7 @@ function slot0.AutoFitScreen(slot0)
 	})
 end
 
-function slot0.initEvent(slot0)
+slot0.initEvent = function(slot0)
 	slot0:bind(uv0, function (slot0, slot1, slot2)
 		if slot1.result ~= uv0 then
 			uv1:addScore(uv2[slot1.result])
@@ -827,7 +827,7 @@ function slot0.initEvent(slot0)
 	end)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	if (Application.targetFrameRate or 60) > 60 then
 		slot1 = 60
 	end
@@ -845,7 +845,7 @@ function slot0.initData(slot0)
 	end, 1 / slot1, -1)
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.clickMask = slot0:findTF("ui/click_mask")
 	slot0.mainUI = slot0:findTF("ui/main_ui")
 	slot0.listScrollRect = GetComponent(findTF(slot0.mainUI, "item_list"), typeof(ScrollRect))
@@ -960,7 +960,7 @@ function slot0.initUI(slot0)
 	UpdateBeat:AddListener(slot0.handle)
 end
 
-function slot0.initGameUI(slot0)
+slot0.initGameUI = function(slot0)
 	slot0.gameUI = slot0:findTF("ui/game_ui")
 	slot0.roundTF = slot0:findTF("score_panel/round_text", slot0.gameUI)
 	slot0.scoreTF = slot0:findTF("score_panel/score_text", slot0.gameUI)
@@ -979,7 +979,7 @@ function slot0.initGameUI(slot0)
 	setActive(slot0:findTF("bg_front/wall"), uv0)
 end
 
-function slot0.initController(slot0)
+slot0.initController = function(slot0)
 	slot0.scene = slot0:findTF("scene")
 	slot0.gridTF = slot0:findTF("ui/grid")
 	slot0.player = uv0(slot0:findTF("player", slot0.scene), slot0)
@@ -998,7 +998,7 @@ function slot0.initController(slot0)
 	slot0.cubeGroups = slot0:findTF("cube_groups", slot0.obsTF)
 end
 
-function slot0.updateMainUI(slot0)
+slot0.updateMainUI = function(slot0)
 	slot1 = slot0:getGameUsedTimes()
 	slot2 = slot0:getGameTimes()
 
@@ -1026,7 +1026,7 @@ function slot0.updateMainUI(slot0)
 	slot0:checkGet()
 end
 
-function slot0.checkGet(slot0)
+slot0.checkGet = function(slot0)
 	if slot0:getUltimate() == 0 then
 		if slot0:getGameUsedTimes() < slot0:getGameTotalTime() then
 			return
@@ -1040,13 +1040,13 @@ function slot0.checkGet(slot0)
 	end
 end
 
-function slot0.openMainUI(slot0)
+slot0.openMainUI = function(slot0)
 	setActive(slot0.gameUI, false)
 	setActive(slot0.mainUI, true)
 	slot0:updateMainUI()
 end
 
-function slot0.readyStart(slot0)
+slot0.readyStart = function(slot0)
 	setActive(slot0.mainUI, false)
 	setActive(slot0.countUI, true)
 	slot0.countAnimator:Play("count")
@@ -1054,7 +1054,7 @@ function slot0.readyStart(slot0)
 	slot0:resetGame()
 end
 
-function slot0.resetGame(slot0)
+slot0.resetGame = function(slot0)
 	slot0.gameStartFlag = false
 	slot0.gamePause = false
 	slot0.gameEndFlag = false
@@ -1068,7 +1068,7 @@ function slot0.resetGame(slot0)
 	slot0.walker:Reset()
 end
 
-function slot0.startGame(slot0)
+slot0.startGame = function(slot0)
 	setActive(slot0.gameUI, true)
 	slot0:CoordinateGrid(slot0.gridTF)
 
@@ -1083,7 +1083,7 @@ function slot0.startGame(slot0)
 	slot0:timerStart()
 end
 
-function slot0.staticObsStart(slot0)
+slot0.staticObsStart = function(slot0)
 	setActive(slot0.obsTF, true)
 
 	slot0.obsCanvas.alpha = 1
@@ -1124,7 +1124,7 @@ function slot0.staticObsStart(slot0)
 			}
 		end
 
-		function slot5(slot0)
+		slot5 = function(slot0)
 			for slot4, slot5 in ipairs(uv0) do
 				if slot0 == slot5 then
 					return true
@@ -1205,7 +1205,7 @@ function slot0.staticObsStart(slot0)
 	end
 end
 
-function slot0.obsFadeOut(slot0)
+slot0.obsFadeOut = function(slot0)
 	slot1 = slot0:managedTween(LeanTween.value, function ()
 		setActive(uv0.obsTF, false)
 	end, go(slot0.obsTF), 1, 0, 0.5)
@@ -1215,11 +1215,11 @@ function slot0.obsFadeOut(slot0)
 	end))
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:AddDebugInput()
 end
 
-function slot0.AddDebugInput(slot0)
+slot0.AddDebugInput = function(slot0)
 	if slot0.gamePause or slot0.gameEndFlag then
 		return
 	end
@@ -1229,33 +1229,33 @@ function slot0.AddDebugInput(slot0)
 	end
 end
 
-function slot0.changeSpeed(slot0, slot1)
+slot0.changeSpeed = function(slot0, slot1)
 end
 
-function slot0.onTimer(slot0)
+slot0.onTimer = function(slot0)
 	slot0.curling:Step()
 	slot0.walker:Step()
 	slot0:updateGameUI()
 end
 
-function slot0.timerStart(slot0)
+slot0.timerStart = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
 end
 
-function slot0.timerStop(slot0)
+slot0.timerStop = function(slot0)
 	if slot0.timer.running then
 		slot0.timer:Stop()
 	end
 end
 
-function slot0.updateGameUI(slot0)
+slot0.updateGameUI = function(slot0)
 	setText(slot0.scoreTF, slot0.scoreNum)
 	setText(slot0.roundTF, "Round " .. slot0.roundNum)
 end
 
-function slot0.addScore(slot0, slot1, slot2)
+slot0.addScore = function(slot0, slot1, slot2)
 	slot3 = cloneTplTo(slot0:findTF("score_tf", slot0.gameUI), slot0.scoreGroup)
 
 	if slot2 then
@@ -1271,7 +1271,7 @@ function slot0.addScore(slot0, slot1, slot2)
 	slot0.scoreNum = slot0.scoreNum + slot1
 end
 
-function slot0.pauseGame(slot0)
+slot0.pauseGame = function(slot0)
 	slot0.gamePause = true
 
 	slot0:timerStop()
@@ -1280,7 +1280,7 @@ function slot0.pauseGame(slot0)
 	slot0:emit(uv0)
 end
 
-function slot0.resumeGame(slot0)
+slot0.resumeGame = function(slot0)
 	slot0.gamePause = false
 
 	slot0:changeSpeed(1)
@@ -1289,7 +1289,7 @@ function slot0.resumeGame(slot0)
 	slot0:emit(uv0)
 end
 
-function slot0.nextRoundGame(slot0)
+slot0.nextRoundGame = function(slot0)
 	removeAllChildren(slot0.scoreGroup)
 
 	if slot0.roundNum == 3 then
@@ -1303,7 +1303,7 @@ function slot0.nextRoundGame(slot0)
 	end
 end
 
-function slot0.endGame(slot0)
+slot0.endGame = function(slot0)
 	if slot0.gameEndFlag then
 		return
 	end
@@ -1322,7 +1322,7 @@ function slot0.endGame(slot0)
 	end, 0.1, nil)
 end
 
-function slot0.showEndUI(slot0)
+slot0.showEndUI = function(slot0)
 	setActive(slot0.endUI, true)
 
 	slot2 = slot0.scoreNum
@@ -1344,7 +1344,7 @@ function slot0.showEndUI(slot0)
 	end
 end
 
-function slot0.CoordinateGrid(slot0, slot1)
+slot0.CoordinateGrid = function(slot0, slot1)
 	slot2 = Vector2(150, 150)
 	slot3 = slot1.rect.width
 	slot4 = slot1.rect.height
@@ -1361,23 +1361,23 @@ function slot0.CoordinateGrid(slot0, slot1)
 	end
 end
 
-function slot0.getGameTimes(slot0)
+slot0.getGameTimes = function(slot0)
 	return slot0:GetMGHubData().count
 end
 
-function slot0.getGameUsedTimes(slot0)
+slot0.getGameUsedTimes = function(slot0)
 	return slot0:GetMGHubData().usedtime
 end
 
-function slot0.getUltimate(slot0)
+slot0.getUltimate = function(slot0)
 	return slot0:GetMGHubData().ultimate
 end
 
-function slot0.getGameTotalTime(slot0)
+slot0.getGameTotalTime = function(slot0)
 	return slot0:GetMGHubData():getConfig("reward_need")
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if not slot0.gameStartFlag then
 		slot0:emit(uv0.ON_BACK_PRESSED)
 	else
@@ -1394,7 +1394,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 	end

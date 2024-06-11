@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUANBO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUANBO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Beaming Smile!\n\n<size=45>Makinami to the Rescue!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The hours fly by and it's gotten late by the time I realize it.",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Makinami went to the archives to fetch some documents, but still isn't back yet.",
 			typewriter = {
 				speed = 0.05,
@@ -78,13 +78,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "......",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I hear a conversation coming from the dark hallway outside.",
 			typewriter = {
 				speed = 0.05,
@@ -164,14 +164,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 301800,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "See? There's nothing scary about the dark!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			actor = 301800,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301800,
+			nameColor = "#a9f548",
 			say = "You have nothing to fear as long as I'm with you!",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -225,8 +225,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301540,
 			dir = 1,
+			actor = 301540,
 			nameColor = "#a9f548",
 			say = "Thanks for coming along...",
 			typewriter = {
@@ -242,8 +242,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "Oh, on that note, why are you here anyway?",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301540,
 			dir = 1,
+			actor = 301540,
 			nameColor = "#a9f548",
 			say = "Doing covert blackouts at sea isn't scary, but back at port... the darkness spooks me, especially when I'm alone...",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301540,
 			dir = 1,
+			actor = 301540,
 			nameColor = "#a9f548",
 			say = "Whew... Thank goodness I found you, Makinami...",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301540,
 			dir = 1,
+			actor = 301540,
 			nameColor = "#a9f548",
 			say = "Now I'm curious: why are *you* here? Do secretaries have to work this late into the night?",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "No, not really? It's just that the Commander's been overtiming more than a faulty stopwatch recently, so I decided to put in more hours too!",
 			typewriter = {
@@ -343,8 +343,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "It's gotta be tough for the Commander... Stuck in a chair all day, reading and writing documents...",
 			typewriter = {
@@ -360,8 +360,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301540,
 			dir = 1,
+			actor = 301540,
 			nameColor = "#a9f548",
 			say = "I-it definitely sounds tough... But I'm sure it's not all that bad with you for company!",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "Mhm! Now if I can just bring a smile to the Commander's face, everything will be fine!",
 			typewriter = {
@@ -394,14 +394,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "Hey, I see the dormitory now! Let's have a race to the– Wah?! Oopsies!",
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 0
@@ -417,9 +417,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Makinami breaks into a sprint, slips, and just barely avoids falling over.",
 			typewriter = {
 				speed = 0.05,
@@ -434,8 +434,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301540,
 			dir = 1,
+			actor = 301540,
 			nameColor = "#a9f548",
 			say = "Oh gosh, are you okay?",
 			typewriter = {
@@ -451,8 +451,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 301800,
 			dir = 1,
+			actor = 301800,
 			nameColor = "#a9f548",
 			say = "Yeah, I'm fine! I've gotten used to it! Hehehe~",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

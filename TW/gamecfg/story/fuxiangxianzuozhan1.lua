@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "某日·塔蘭托港",
 			side = 2,
 			bgName = "bg_port_talantuo",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-italy",
+			say = "某日·塔蘭托港",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "原來如此……閣下此次前來是專程向我們發出前往太平洋鐵血基地的“邀請”嗎？",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "……妳們確定要在這種時候展開遠洋航行嗎？",
 			typewriter = {
@@ -109,8 +109,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "說到往太平洋的鐵血基地……那裡不是在很久之前就在塞壬的進攻下盡數失守了嗎？",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "不過很遺憾，如今地中海的局勢風雲變幻，我與維內托實在是無法在這種時候離開。",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "當然！這絕對不是薩丁帝國要拒絕此番好意邀請的意思。",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "放心，所選之人是維內托的貼身護衛，閣下對我與維內托的信任可以等同於對她的信任。",
 			typewriter = {
@@ -270,15 +270,15 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "bg_guild_red",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 601020,
+			nameColor = "#a9f548",
 			say = "打擾了！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -303,8 +303,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "利托里奧大人，請問您有何吩咐？",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "龍騎兵，仔細聽好，接下來有一件非常重要的機密任務要交給妳——",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>座標設定：█°█′S  ███°██′E</size>",
@@ -385,8 +385,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"もうひとりのカリスマ？\n\n<size=45>二　愛すべき個性とは…？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・広場",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・広場",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 205060,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "あの朝のことをプリンス・オブ・ウェールズに説明した。",
 			typewriter = {
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 205060,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "プリンス・オブ・ウェールズはなぜか笑いだした。",
 			typewriter = {
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "……天敵？",
 			typewriter = {
 				speed = 0.05,
@@ -174,15 +174,15 @@ return {
 			}
 		},
 		{
-			actor = 105130,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105130,
+			nameColor = "#a9f548",
 			say = "姉さん、まだそんなことに気にしてんのか？？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -239,10 +239,10 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_113",
 			side = 2,
+			bgName = "star_level_bg_113",
+			actor = 205050,
 			dir = 1,
 			actorName = "？？？",
 			say = "よかったら、相談に乗ってあげてもいいぞ？",
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 105130,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105130,
+			nameColor = "#a9f548",
 			say = "お前は……ロイヤルのキングジョージ5世？！",
 			effects = {
 				{
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "つまり、あなたの個性はあなた自身が認めなければ、そもそも何も始まらないのではないか？",
 			typewriter = {
@@ -336,8 +336,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "ならば私が認めてやろう！",
 			typewriter = {
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 105120,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105120,
+			nameColor = "#a9f548",
 			say = "え？",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -379,8 +379,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "なにを戸惑っている？あなたの個性はこの私が保証するというのだ",
 			typewriter = {
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 105130,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105130,
+			nameColor = "#a9f548",
 			say = "……（必死に笑いを堪えている）",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -451,9 +451,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,

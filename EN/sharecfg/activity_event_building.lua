@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.activity_event_building = {
 	{
-		id = 1,
 		name = "Manjuu Café",
+		id = 1,
 		desc = "A café with tastes from around the world: coffee from the Royal Navy, bread from the Northern Parliament, and pizza from Sardegna.",
 		buff = {
 			13,
@@ -27,8 +27,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 2,
 		name = "Dumpling House",
+		id = 2,
 		desc = "Piping-hot soup dumplings, bursting with authentic Dragon Empery flavors. Step right up and get a basket!",
 		buff = {
 			16,
@@ -53,8 +53,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 3,
 		name = "Burger Joint",
+		id = 3,
 		desc = "The trifecta of happiness: a tasty hamburger, ice-cold cola, and crispy fries.",
 		buff = {
 			19,
@@ -79,8 +79,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 4,
 		name = "Dango Shop",
+		id = 4,
 		desc = "These commemorative dangos from the Sakura Empire almost look too beautiful to eat.",
 		buff = {
 			22,
@@ -105,8 +105,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 5,
 		name = "Manjuu Bookstore",
+		id = 5,
 		desc = "My friend asked me to pick something up! S-seriously, I'm not into this kind of literature...",
 		buff = {
 			13,
@@ -131,8 +131,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 6,
 		name = "Manjuju Game Shop",
+		id = 6,
 		desc = "Wow, what a spectacular array of games they have this month... This ghost's wallet isn't going to survive...",
 		buff = {
 			16,
@@ -157,8 +157,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 7,
 		name = "Manjuu Capsule Shop",
+		id = 7,
 		desc = "No longer shall the gacha gods deny me!!!",
 		buff = {
 			19,
@@ -183,8 +183,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 8,
 		name = "Juju Café",
+		id = 8,
 		desc = "Slightly rebranded, same delicious flavors.",
 		buff = {
 			22,
@@ -209,8 +209,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 9,
 		name = "Dizzy Manjuu",
+		id = 9,
 		desc = "It's a need for speed, not a need for angular velocity! Arrrrgh...!",
 		buff = {
 			13,
@@ -235,8 +235,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 10,
 		name = "Cloud-Chasing Manjuu",
+		id = 10,
 		desc = "Manjuus may be flightless, but roller coasters have given them a taste of their true potential.",
 		buff = {
 			16,
@@ -261,8 +261,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 11,
 		name = "Xtreme Bunjuu",
+		id = 11,
 		desc = "I fear no heights. But gachas? Those scare me...",
 		buff = {
 			19,
@@ -287,8 +287,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 12,
 		name = "Manjuu Pirate Ship",
+		id = 12,
 		desc = "C'mon, you should know by now that this game is all about the booty.",
 		buff = {
 			22,
@@ -313,8 +313,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 13,
 		name = "Manjuu Waverider",
+		id = 13,
 		desc = "The wildest and wettest ride of your life!",
 		buff = {
 			13,
@@ -339,8 +339,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 14,
 		name = "Manjuu Diver",
+		id = 14,
 		desc = "Remember to shout \"Geronimooooo\"!",
 		buff = {
 			16,
@@ -365,8 +365,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 15,
 		name = "Slippy Slide",
+		id = 15,
 		desc = "High speeds and crazy turns with a splashing climax!",
 		buff = {
 			19,
@@ -391,8 +391,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 16,
 		name = "Mini Waterfall",
+		id = 16,
 		desc = "Will you take the plunge?",
 		buff = {
 			22,
@@ -417,8 +417,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 17,
 		name = "Royal Navy Teahouse",
+		id = 17,
 		desc = "A teahouse with a classy atmosphere. It beckons you inside with the scent of fragrant herbs and creamy pastries.",
 		buff = {
 			49,
@@ -459,8 +459,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 18,
 		name = "Iron Blood Café",
+		id = 18,
 		desc = "A café with a laid-back atmosphere. It tempts you with the promise of hot coffee and savory food.",
 		buff = {
 			54,
@@ -501,8 +501,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 19,
 		name = "Manjuu Schoolhouse",
+		id = 19,
 		desc = "\"Myoukou, how many times do I have to tell you not to run in the hallway...?\" – Upgrade this facility to improve its benefits.",
 		buff = {
 			13,
@@ -527,8 +527,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 20,
 		name = "Manjuu Fortune Teller",
+		id = 20,
 		desc = "\"Hey, stop flipping over the tarot cards without me telling you to!\" – Upgrade this facility to improve its benefits.",
 		buff = {
 			16,
@@ -553,8 +553,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 21,
 		name = "Manjuu Stage",
+		id = 21,
 		desc = "\"Stop it, Cygnet! You can't go to the stalls until AFTER the concert!\" – Upgrade this facility to improve its benefits.",
 		buff = {
 			19,
@@ -579,8 +579,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 22,
 		name = "Manjuu School Shops",
+		id = 22,
 		desc = "\"Thank you for your patronyage. Heh heh heh.\" – Upgrade this facility to improve its benefits.",
 		buff = {
 			22,
@@ -605,8 +605,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 23,
 		name = "Living Quarters",
+		id = 23,
 		desc = "",
 		buff = {
 			126,
@@ -639,8 +639,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 24,
 		name = "Crafting Station",
+		id = 24,
 		desc = "",
 		buff = {
 			130,
@@ -673,8 +673,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 25,
 		name = "Expedition Squad",
+		id = 25,
 		desc = "",
 		buff = {
 			134,
@@ -707,8 +707,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 26,
 		name = "Dining Area",
+		id = 26,
 		desc = "",
 		buff = {
 			138,
@@ -741,8 +741,8 @@ pg.activity_event_building = {
 		}
 	},
 	{
-		id = 27,
 		name = "Base Camp",
+		id = 27,
 		desc = "",
 		buff = {
 			110,

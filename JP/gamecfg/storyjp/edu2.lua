@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "EDU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "EDU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"守られし悪しき剣\n\n<size=45>二 頑張ったご褒美</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task_2",
 			dir = 1,
+			bgName = "bg_story_task_2",
 			bgm = "story-richang-2",
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はあ……こうしてつまらない仕事がまた始まりましたね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,12 +53,12 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もぉ無理…書類の山を見ただけで眠ってしまいそう……",
 			painting = {
 				alpha = 0.3,
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "仕事をやってくれているル・マランだが、仕事をする時以外のぐーたら具合を遺憾なく発揮している。",
@@ -84,10 +84,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よし、10分頑張った。そろそろ自分にご褒美をやらなくちゃ！",
 			painting = {
 				alpha = 0.3,
@@ -102,10 +102,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そう！20分の休憩時間です！",
 			painting = {
 				alpha = 0.3,
@@ -117,8 +117,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "仕事への愚痴とサボりは隠すことなく正々堂々、しかもエレガントに行うル・マランだが――",
@@ -131,10 +131,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…って、これ以上休んだら間に合わなくなりますよ…！",
 			painting = {
 				alpha = 0.3,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,12 +156,12 @@ return {
 			}
 		},
 		{
-			actor = 901110,
-			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふぅ……なんとか今日中に終わらせられましたね。頑張りましたね。わたし",
 			painting = {
 				alpha = 0.3,
@@ -172,17 +172,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -193,10 +193,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「なんで最初から一気にこなさないのか」と言いたそうな顔ですね",
 			painting = {
 				alpha = 0.3,
@@ -208,12 +208,12 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それはもちろんいいですが、しかしこのル・マランにはできない相談です",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "だってお仕事は疲れちゃいますから……",
 			painting = {
 				alpha = 0.3,
@@ -243,12 +243,12 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "むしろこちらこそ、なんで指揮官は毎日仕事し続けられるかを聞きたいぐらいですよ",
 			painting = {
 				alpha = 0.3,
@@ -263,10 +263,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ご褒美がないのに頑張るのは無理です！",
 			painting = {
 				alpha = 0.3,
@@ -281,10 +281,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "無理なものは無理なんです！絶対無理です！",
 			painting = {
 				alpha = 0.3,
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "ル・マランは執務室のソファで手足をバタバタさせた。",
@@ -367,13 +367,13 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ですが！この程度では頑張るにはまだ――",
 			painting = {
 				alpha = 0.3,
@@ -385,8 +385,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -435,13 +435,13 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ですが！この程度では頑張るにはまだ――",
 			painting = {
 				alpha = 0.3,
@@ -453,8 +453,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -465,12 +465,12 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "取引成立です",
 			painting = {
 				alpha = 0.3,
@@ -485,10 +485,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あとでやっぱりなしと言っても聞かないですからね！！",
 			painting = {
 				alpha = 0.3,
@@ -500,8 +500,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "……なんだか上手く口車に乗せられたような気がした…",
@@ -514,10 +514,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "くくく…一気に仕事をこなしたらダンケルクさんのお菓子を食べてソファでゴロゴロできる……",
 			painting = {
 				alpha = 0.3,
@@ -532,10 +532,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "考えるだけでやる気が湧いてきました…！",
 			painting = {
 				alpha = 0.3,
@@ -550,10 +550,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 901110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よし！明日から頑張りますよー！",
 			painting = {
 				alpha = 0.3,
@@ -565,27 +565,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "真面目に仕事をこなすル・マラン、お菓子を頬張るル・マラン、ソファでゴロゴロするル・マラン――どれも彼女に変わりないのだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

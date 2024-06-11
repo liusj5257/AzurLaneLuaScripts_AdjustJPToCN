@@ -8,7 +8,7 @@ slot0.ON_FINISH_ONE_ANIM = "NewNavalTacticsMediator:ON_FINISH_ONE_ANIM"
 slot0.ON_CANCEL_ADD_STUDENT = "NewNavalTacticsMediator:ON_CANCEL_ADD_STUDENT"
 slot0.ON_QUICK_FINISH = "NavalTacticsMediator:ON_QUICK_FINISH"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_CANCEL_ADD_STUDENT, function (slot0)
 		uv0:sendNotification(uv1.ON_CANCEL_ADD_STUDENT)
 	end)
@@ -60,7 +60,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetStudents(getProxy(NavalAcademyProxy):RawGetStudentList())
 end
 
-function slot0.SelectShip(slot0, slot1)
+slot0.SelectShip = function(slot0, slot1)
 	slot2 = {}
 
 	for slot7, slot8 in pairs(getProxy(NavalAcademyProxy):RawGetStudentList()) do
@@ -112,7 +112,7 @@ function slot0.SelectShip(slot0, slot1)
 	}))
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		NavalAcademyProxy.SKILL_CLASS_POS_UPDATED,
 		GAME.START_TO_LEARN_TACTICS_DONE,
@@ -126,7 +126,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == NavalAcademyProxy.SKILL_CLASS_POS_UPDATED then

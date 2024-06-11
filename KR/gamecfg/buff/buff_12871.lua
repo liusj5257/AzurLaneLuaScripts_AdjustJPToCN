@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "龙凤2",
 	time = 0,
-	color = "yellow",
+	name = "龙凤2",
+	init_effect = "",
+	id = 12871,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12871,
+	color = "yellow",
 	icon = 12870,
 	last_effect = "",
 	effect_list = {
@@ -43,8 +43,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 12871
+				skill_id = 12871,
+				target = "TargetSelf"
 			}
 		},
 		{

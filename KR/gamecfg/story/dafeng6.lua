@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"비서함 다이호의 헌신\n\n<size=45>의존증?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "언제부터인가 다이호가 비서함이 되어주는 것에 익숙해졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -108,15 +108,15 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#92fc63",
 			say = "지휘관님, 오늘 하루도 수고하셨습니다. 차를 준비해두었으니 식기 전에…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -205,9 +205,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "지금 이 대화도, 언젠가는 일상이 되겠지. 그렇게 막 생각한 찰나……",
 			typewriter = {
 				speed = 0.05,
@@ -215,9 +215,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "약간 과하다 싶을(?) 때도 있지만, 비서함으로써의 다이호는 나무랄 데가 없다. 다만……",
 			typewriter = {
 				speed = 0.05,
@@ -225,9 +225,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "가끔은 자신을 생각하는 편이 좋지 않을까…?",
 			typewriter = {
 				speed = 0.05,
@@ -235,9 +235,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그런 생각으로, 다이호에게 하루 휴가를 써보길 권유했다.",
 			typewriter = {
 				speed = 0.05,
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그녀의 표정에 기쁨과 감사함 말고도, 처음 보는 쓸쓸함이 느껴졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

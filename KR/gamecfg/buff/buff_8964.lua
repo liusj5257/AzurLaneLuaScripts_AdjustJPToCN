@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "公海舰队活动 B3/D3机制弹条",
 	time = 0,
+	name = "公海舰队活动 B3/D3机制弹条",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

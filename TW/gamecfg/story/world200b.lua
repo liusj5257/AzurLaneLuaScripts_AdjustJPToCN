@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD200B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD200B",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "利物浦港近海·皇家艦隊集結地",
 			side = 2,
 			bgName = "bg_port_liwupu",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-richang",
+			say = "利物浦港近海·皇家艦隊集結地",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -147,8 +147,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#a9f548",
 			say = "不過自由鳶尾會派艦隊來有些意外啊，黎胥留那邊自己的戰況都這麼緊張......況且這次和赤色協商她們不也是明確反對的嗎？",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#a9f548",
 			say = "原來如此......黎胥留考慮的很周密呢。",
 			typewriter = {
@@ -197,8 +197,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "現在進行通訊測試。胡德小姐，這裡是LD司令部的紐卡斯爾，通訊器的狀況沒問題吧。",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "嗯，通訊狀況良好。要是深入塞壬控制區之後通訊還能維持著這樣的狀態就好了...",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "我們會盡最大努力支援前方作戰的。而且指揮部專門強化了通訊設備，塞壬想要干擾我們也沒有以前那麼輕鬆了。",
 			typewriter = {
@@ -248,8 +248,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#a9f548",
 			say = "這倒是個好消息，以前可沒少在通訊干擾方面吃苦頭啊。",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "之後將由我在作戰中向各位傳達司令部的指令。在沒有明確指令的時候，胡德小姐可以根據戰場情況自由決斷。",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "另外...女王陛下那邊一旦有了進展，我也會第一時間通知大家。",
 			typewriter = {
@@ -312,11 +312,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "我宣布，皇家此刻正式開始執行對塞壬大型作戰，各艦隊按照計劃行動，祝各位武運隆昌，天佑女王！",
 			effects = {
 				{

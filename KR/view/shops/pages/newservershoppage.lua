@@ -1,10 +1,10 @@
 slot0 = class("NewServerShopPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewServerShopPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.scrollrect = slot0:findTF("scrollView"):GetComponent("LScrollRect")
 	slot1 = slot0:findTF("res_pt/Text")
 	slot0.resTxt = slot1:GetComponent(typeof(Text))
@@ -20,7 +20,7 @@ function slot0.OnLoaded(slot0)
 	slot0._tf.localPosition = Vector3(-6, -25)
 end
 
-function slot0.UpdateRes(slot0)
+slot0.UpdateRes = function(slot0)
 	slot0.resTxt.text = getProxy(PlayerProxy):getRawData():getResource(slot0.shop:GetPtId())
 
 	if not slot0.isInitResIcon then
@@ -33,21 +33,21 @@ function slot0.UpdateRes(slot0)
 	end
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.cards = {}
 
-	function slot0.scrollrect.onInitItem(slot0)
+	slot0.scrollrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 
-	function slot0.scrollrect.onUpdateItem(slot0, slot1)
+	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
 	slot0:Flush()
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = NewServerGoodsCard.New(slot1)
 
 	onButton(slot0, slot2._tf, function ()
@@ -57,7 +57,7 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnClickCard(slot0, slot1)
+slot0.OnClickCard = function(slot0, slot1)
 	slot3, slot4 = slot1.commodity:IsOpening(slot0.shop:GetStartTime())
 
 	if not slot3 then
@@ -88,7 +88,7 @@ function slot0.OnClickCard(slot0, slot1)
 	end
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 	end
@@ -96,7 +96,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot0.cards[slot2]:Update(slot0.displays[slot1 + 1], slot0.shop)
 end
 
-function slot0.FetchShop(slot0, slot1)
+slot0.FetchShop = function(slot0, slot1)
 	if not getProxy(ShopsProxy):GetNewServerShop() then
 		pg.m02:sendNotification(GAME.GET_NEW_SERVER_SHOP, {
 			callback = slot1
@@ -106,11 +106,11 @@ function slot0.FetchShop(slot0, slot1)
 	end
 end
 
-function slot0.SetShop(slot0, slot1)
+slot0.SetShop = function(slot0, slot1)
 	slot0.shop = slot1
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	if slot0.shop then
 		slot0:Show()
 		slot0:UpdatePageFooters()
@@ -130,7 +130,7 @@ function slot0.Flush(slot0)
 	end
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	if not slot0.pagefooters[slot1] then
 		slot3 = slot0.pagefooters[1]
 		slot0.pagefooters[slot1] = Object.Instantiate(slot3, slot3.parent)
@@ -141,7 +141,7 @@ function slot1(slot0, slot1)
 	return slot2
 end
 
-function slot0.UpdatePageFooters(slot0)
+slot0.UpdatePageFooters = function(slot0)
 	slot0.pagefooterTrs = {}
 
 	for slot6 = 1, #slot0.shop:GetPhases() do
@@ -161,7 +161,7 @@ end
 
 slot2 = 0
 
-function slot0.UpdatePageFooter(slot0, slot1, slot2)
+slot0.UpdatePageFooter = function(slot0, slot1, slot2)
 	setAnchoredPosition(slot1, {
 		x = slot0.pagefooterStartPosX + (uv0 + slot0.pagefooterWid) * (slot2 - 1)
 	})
@@ -186,10 +186,10 @@ function slot0.UpdatePageFooter(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.OnSwitch(slot0, slot1, slot2, slot3)
+slot0.OnSwitch = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("mark")
 
-	function slot5()
+	slot5 = function()
 		if uv0.markTr then
 			setActive(uv0.markTr, false)
 		end
@@ -209,7 +209,7 @@ function slot0.OnSwitch(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot0.SwitchPhase(slot0, slot1)
+slot0.SwitchPhase = function(slot0, slot1)
 	slot2 = slot0.shop
 	slot0.displays = slot2:GetOpeningGoodsList(slot2:GetPhases()[slot1])
 
@@ -227,12 +227,12 @@ function slot0.SwitchPhase(slot0, slot1)
 	slot0:updateLocalRedDotData(slot1)
 end
 
-function slot0.Refresh(slot0)
+slot0.Refresh = function(slot0)
 	slot0:SwitchPhase(slot0.openIndex)
 	slot0:UpdateRes()
 end
 
-function slot0.isPhaseTip(slot0, slot1)
+slot0.isPhaseTip = function(slot0, slot1)
 	if not slot0.playerId then
 		slot0.playerId = getProxy(PlayerProxy):getData().id
 	end
@@ -240,14 +240,14 @@ function slot0.isPhaseTip(slot0, slot1)
 	return slot1 ~= 1 and slot0.shop:IsOpenPhase(slot1) and PlayerPrefs.GetInt("newserver_shop_phase_" .. slot1 .. "_" .. slot0.playerId) == 0
 end
 
-function slot0.updateLocalRedDotData(slot0, slot1)
+slot0.updateLocalRedDotData = function(slot0, slot1)
 	if slot0:isPhaseTip(slot1) then
 		PlayerPrefs.SetInt("newserver_shop_phase_" .. slot1 .. "_" .. slot0.playerId, 1)
 		slot0:emit(NewServerCarnivalMediator.UPDATE_SHOP_RED_DOT)
 	end
 end
 
-function slot0.isTip(slot0)
+slot0.isTip = function(slot0)
 	if not slot0.playerId then
 		slot0.playerId = getProxy(PlayerProxy):getData().id
 	end
@@ -265,7 +265,7 @@ function slot0.isTip(slot0)
 	return false
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.scrollrect.onInitItem = nil
 	slot0.scrollrect.onUpdateItem = nil
 

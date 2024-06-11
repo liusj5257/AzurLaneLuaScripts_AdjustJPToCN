@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_2",
+			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sea of Stars – Galactic Core Control Room",
-			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			say = "The control room was the heart of the Sea of Stars and one of its most secure areas.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			say = "All the facility's cutting-edge technologies – including the Reality Lens – could be managed from this room. Access was restricted to only a handful of shipgirls.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_2",
 			hidePaintObj = true,
 			say = "Two people were inside. TB, who watched the torrent of incoming data, and a certain shipgirl...",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Anchorage",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Advanced KAN-SEN Research and Planning Department",
 			dir = 1,
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Main Terminal",
 			hidePaintObj = true,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Main Terminal",
 			hidePaintObj = true,
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Anchorage",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Advanced KAN-SEN Research and Planning Department",
 			dir = 1,
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Main Terminal",
 			hidePaintObj = true,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Main Terminal",
 			hidePaintObj = true,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Anchorage",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Advanced KAN-SEN Research and Planning Department",
 			dir = 1,
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Anchorage",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Advanced KAN-SEN Research and Planning Department",
 			dir = 1,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Main Terminal",
 			hidePaintObj = true,
@@ -213,8 +213,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -230,8 +230,8 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Rigging Design Department",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "Laffey II",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Enemy fleet defeated.",
 			painting = {
@@ -249,9 +249,9 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 101510,
 			actorName = "Laffey II",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "TB, I like this new rigging.",
 			painting = {
@@ -269,9 +269,9 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 101510,
 			actorName = "Laffey II",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Spawn more enemies. There were too few of them and I wanna fight more.",
 			painting = {
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Main Terminal",
 			hidePaintObj = true,
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Main Terminal",
 			hidePaintObj = true,
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -327,8 +327,8 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Anti-Siren Force",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "Langley II",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "TB, do you read me?",
 			painting = {
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Main Terminal",
 			hidePaintObj = true,
@@ -359,8 +359,8 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Anti-Siren Force",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "Langley II",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sorry for interrupting the simulation, but I have to speak to you.",
 			painting = {
@@ -378,8 +378,8 @@ return {
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Anti-Siren Force",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "Langley II",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Could you call Northampton over? Yorktown said she wanted her help with an off-the-cuff test.",
 			painting = {
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_zhuguang_cg1",
 			factiontag = "Main Terminal",
 			hidePaintObj = true,
@@ -405,28 +405,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_2",
+			bgm = "theme-aostelab",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "NY City Simulation - Testing Area",
-			bgm = "theme-aostelab",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -434,11 +434,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...Alright. Got it.",
@@ -612,11 +612,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "Rigging Design Department",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "I got the files, too. Target: the Devil's vessel... Prepare for battle!",
 			painting = {

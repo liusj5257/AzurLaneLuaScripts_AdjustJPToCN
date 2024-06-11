@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAILUNNA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAILUNNA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Cinnamon Roll on a Rainy Day\n\n<size=45>2 A Storm is Coming</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Later that evening, a drizzle descended upon the port.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Later that evening, a drizzle descended upon the port.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "It's starting to rain, Commander. Should we call it a day now, before it gets worse?",
 			typewriter = {
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"There's still work left to do. I can't leave before it's all done.\"",
 			typewriter = {
 				speed = 0.05,
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"You can go home early if you want to, though. You've already finished your job.\"",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "I could, but... I'd hate to leave without you...",
 			typewriter = {
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"And I'd feel bad if I let you down. I'll try to finish up quick, then.\"",
 			typewriter = {
 				speed = 0.05,
@@ -126,13 +126,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "While I was chipping away at my work, the rain had whipped up into a complete downpour.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -157,9 +157,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Gales rattled the windows while thunder boomed in the distance. What began as an evening shower had grown into a storm.",
 			typewriter = {
 				speed = 0.05,
@@ -171,9 +171,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"Now I remember... Yesterday's forecast warned there could be a big storm coming.\"",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "A storm? Oh god...",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Don't be sorry, it's fine. We can just wait for it to pass.",
 			typewriter = {
@@ -225,9 +225,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Thunder rumbled outside, and my stomach growled almost as if it were echoing it.",
 			typewriter = {
 				speed = 0.05,
@@ -239,9 +239,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"Hmm... I think it's time for dinner. I've got instant noodles and snacks in my drawer...\"",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Oh. Yes, please.",
 			typewriter = {
@@ -276,9 +276,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Helena and I both reached for the instant noodles, and our hands made contact.",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Err... I-I'd like to do the preparation. It's what a secretary should do...",
 			typewriter = {
@@ -323,9 +323,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She again flipped through her notes while seemingly reciting a recipe.",
 			typewriter = {
 				speed = 0.05,
@@ -337,9 +337,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "It seemed like she'd written down tips for every plausible occasion...",
 			typewriter = {
 				speed = 0.05,
@@ -353,14 +353,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 102050,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Dinner is served. Bon appetit, Commander.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -385,9 +385,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"Wow, this is really good!\"",
 			typewriter = {
 				speed = 0.05,
@@ -399,9 +399,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "\"Seriously, this is great. Where'd you learn to cook like this?\"",
 			typewriter = {
 				speed = 0.05,
@@ -416,8 +416,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Well, it's actually a recipe I got from a Sakura Empire friend of mine. Dried plums and potato chips have surprising culinary utility.",
 			typewriter = {
@@ -430,9 +430,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The fact she even knew what snacks I keep around the office shows just how far she went to gather intel to prepare for the job.",
 			typewriter = {
 				speed = 0.05,
@@ -447,8 +447,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "If you'd like, I could ask around for more recipes to add to my–",
 			typewriter = {
@@ -461,9 +461,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "BRRZT...",
 			typewriter = {
 				speed = 0.05,
@@ -478,8 +478,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "*gasp*! Wh-what was that?",
 			typewriter = {
@@ -492,8 +492,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

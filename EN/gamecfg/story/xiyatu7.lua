@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIYATU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIYATU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Party for the Ages\n\n<size=45>7.A Morning Like Any Other</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			say = "Office - A morning unlike any other",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
+			say = "Office - A morning unlike any other",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "...Except it's actually not.",
 			typewriter = {
@@ -56,12 +56,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Mornin', Commander!",
 			painting = {
 				alpha = 0.3,
@@ -73,8 +73,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,10 +92,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You had breakfast yet? If not, you want some of this?",
 			painting = {
 				alpha = 0.3,
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "Seattle places a tray lined with Sardegnian dishes onto my desk.",
 			typewriter = {
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "As has become a morning routine, she's pushing a new, tasty breakfast meal onto me.",
 			typewriter = {
@@ -142,10 +142,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yup-yup! Got these from the food stand Veneto and da Vinci opened in response to the Empery's li'l joint!",
 			painting = {
 				alpha = 0.3,
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,10 +170,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Apparently, she also came up with a new invention – the Pizza Ovenator. Group activities like parties inspire people in surprising ways!",
 			painting = {
 				alpha = 0.3,
@@ -185,12 +185,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Speaking of, how'd you like the party on the whole?",
 			painting = {
 				alpha = 0.3,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "\"It was awesome. Hopefully we can do something like it again.\"",
 			typewriter = {
@@ -212,12 +212,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah! Glad to hear you liked it, 'cause I really wanted to make it something memorable!",
 			painting = {
 				alpha = 0.3,
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,10 +242,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Can you tell me something specific you liked?",
 			painting = {
 				alpha = 0.3,
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "\"I'd have to say...\"",
 			typewriter = {
@@ -296,13 +296,13 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You mean like, you liked my expertise as a party organizer, or...?",
 			painting = {
 				alpha = 0.3,
@@ -374,10 +374,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hang on, don't say anything! I need a second to sort my thoughts out! I'll just, uhh...",
 			painting = {
 				alpha = 0.3,
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -402,10 +402,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'll be right back!",
 			painting = {
 				alpha = 0.3,
@@ -417,8 +417,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.6,
 					x = -2500
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "Several minutes later...",
 			typewriter = {
@@ -435,17 +435,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -456,10 +456,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Back! Whew... Okay, I'm as ready as I'll ever be!",
 			painting = {
 				alpha = 0.3,
@@ -471,8 +471,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -484,10 +484,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, I like you too. I had way more fun walking around at the party with you than I normally do!",
 			painting = {
 				alpha = 0.3,
@@ -499,12 +499,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, guess I've got something else to plan today, besides my next party.",
 			painting = {
 				alpha = 0.3,
@@ -519,10 +519,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That being, our da–",
 			painting = {
 				alpha = 0.3,
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "I interrupt her before she can throw a wrench into my schedule.",
 			typewriter = {
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "\"I'm up for a date, but only after I've finished work.\"",
 			typewriter = {
@@ -557,10 +557,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...",
 			painting = {
 				alpha = 0.3,
@@ -591,8 +591,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

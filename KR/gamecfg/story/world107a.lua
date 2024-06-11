@@ -1,17 +1,17 @@
 return {
-	id = "WORLD107A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD107A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 103160,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bsm-1",
 			dir = 1,
 			say = "NA 해역 내부로 깊게 들어왔는데, 뭔가 이상해. 적의 숫자가 너무 적어...",
+			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "또 해도 하나를 버려야겠군.",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "지금까지 경험으로 비추어 보면, 세이렌은 함대의 지휘 시스템이 타격을 받았을 때 이렇게 행동했어.",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "하지만 어떻게 이렇게 큰 범위에서 세이렌 지휘 시스템에 타격을 입힌 건지...",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "중추 지휘 시스템에 문제가 생겼다면 가능하지. 만약 그렇다면 효율 저하는 물론 이상한 배치의 이유도 설명이 가능해.",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "하지만 막 버뮤다 해역에 들어왔을 때는 엄청 고전했잖아? 그 세이렌들은 분명 더 높은 등급의 세이렌에게 지휘를 받고 있는 것 같아.",
 			typewriter = {
 				speed = 0.05,
@@ -161,9 +161,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "흐흥, 어쨌든 지금은 NA 해역을 탈환할 최고의 적기야. 지휘부의 선택은 정말 탁월했어!",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,8 +185,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "응, 맞아. 싸우면서 세이렌이 이상해진 원인을 찾아보도록 하자.",
 			typewriter = {
 				speed = 0.05,

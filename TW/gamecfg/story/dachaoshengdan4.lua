@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"聖誕禮物大作戰！\n\n<size=45>四　聖誕節的陰影（下）</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "在薩拉托加的帶領之下，二人來到了某個房間的門前",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "在薩拉托加的帶領之下，二人來到了某個房間的門前",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 102123,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102123,
+			nameColor = "#a9f548",
 			say = "哇！不……不要隨便進人家房間啊！",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,12 +92,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "這……這難道就是魯魯醬要給指揮官的驚喜嘛？！",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "這……這難道就是魯魯醬要給指揮官的驚喜嘛？！",
+			actor = 107030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_room",
-			actor = 102123,
 			dir = 1,
+			actor = 102123,
 			nameColor = "#a9f548",
 			say = "才……才不是！這……這個只是，最近很流行的……那個，COSPLAY！對對，COSPLAY啦！",
 			typewriter = {
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 102123,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102123,
+			nameColor = "#a9f548",
 			say = "變……變裝成馴鹿，站在指揮官的指揮室裝作玩偶，然後突然對指揮官說“哈！我是聖誕禮物哦！”之類的奇怪的事情完全是薩拉托加妳腦補出來的罷了！",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -174,8 +174,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102123,
 			dir = 1,
+			actor = 102123,
 			nameColor = "#a9f548",
 			say = "喂！剛才的話絕對不允許告訴任何人啊！",
 			typewriter = {
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "還沒等火奴魯魯說完，薩拉托加便一把拉住旁邊僵住的皇家二人逃出了房間。",
 			typewriter = {
 				speed = 0.05,
@@ -198,15 +198,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "嗯……變裝成馴鹿，把自己打包成玩偶送給指揮官……嗎？也算是比較新奇的點子吧……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -231,12 +231,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "前……前輩！請不要做那樣奇怪的事情啦！",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "前……前輩！請不要做那樣奇怪的事情啦！",
+			actor = 201100,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -293,9 +293,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "砰地一聲，大門打開了。",
 			typewriter = {
 				speed = 0.05,
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 107061,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107061,
+			nameColor = "#a9f548",
 			say = "Merry Christmas! 聖誕老人為大家帶回了禮物哦！",
 			effects = {
 				{
@@ -325,11 +325,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "出現了！是姐姐！該來的總是要來的！",
 			effects = {
 				{
@@ -347,8 +347,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -405,12 +405,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "在選擇的矛盾中出現的救星！企業，我們需要妳的幫助！",
 			typewriter = {
 				speed = 0.05,

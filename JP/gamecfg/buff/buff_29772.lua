@@ -5,12 +5,12 @@ return {
 	desc_get = "",
 	name = "专属弹幕-马格德堡",
 	init_effect = "",
+	id = 29772,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 29772,
+	color = "red",
 	icon = 29770,
 	last_effect = "",
 	effect_list = {
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29772,
+				target = "TargetSelf",
 				countType = 29770
 			}
 		}

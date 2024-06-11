@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG28",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG28",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900219,
 			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "They're still fighting back...?!",
 			bgm = "bgm-cccp",
+			actor = 900219,
+			nameColor = "#ff5c5c",
+			say = "They're still fighting back...?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,11 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "You cannot escape your demise! I will be back...!",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -65,9 +65,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "Omitter pointed her finger to the sky, and disappeared in a flash of light.",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "Welp, I guess that's that. After spending all that time blathering nonsense...",
 			typewriter = {
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "(RUMBLE...!!!)",
 			dialogShake = {
 				speed = 0.09,
@@ -134,8 +134,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "The entire stronghold is starting to collapse! We need to get out of here!",
 			typewriter = {
@@ -148,15 +148,15 @@ return {
 			}
 		},
 		{
-			say = "...In a thunderous roar, the stronghold crumbled and sank beneath the waves.",
 			side = 2,
 			bgName = "bg_cccp_8",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bgm-cccp2",
+			say = "...In a thunderous roar, the stronghold crumbled and sank beneath the waves.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -181,9 +181,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "Shortly afterwards, the Mirror Sea began to dissipate. The storms stopped, and the warm light of the winter sun spilled through the clouds once more.",
 			typewriter = {
 				speed = 0.05,
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "The calm that spread before my eyes was reminescent of the first time I saw it, but something was also different.",
 			typewriter = {
 				speed = 0.05,
@@ -257,9 +257,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "She was right. A lot had happened in a short amount of time, and I felt like I had changed.",
 			typewriter = {
 				speed = 0.05,
@@ -271,9 +271,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "Finally, we would be able to return home to port.",
 			typewriter = {
 				speed = 0.05,
@@ -285,9 +285,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "At least, that's what I thought...",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "Comrade, could I ask you to stay with the Northern Parliament for a bit longer?",
 			typewriter = {

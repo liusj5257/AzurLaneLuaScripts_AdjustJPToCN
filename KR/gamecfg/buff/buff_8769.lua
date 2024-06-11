@@ -1,12 +1,12 @@
 return {
-	init_effect = "jinengchufablue",
-	name = "偶像大师联动 fever 减伤BUFF",
 	time = 3,
-	color = "blue",
+	name = "偶像大师联动 fever 减伤BUFF",
+	init_effect = "jinengchufablue",
+	id = 8769,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8769,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Melancholy of a Princess Chevalier\n\n<size=45>Chapter 6 - Feuding Sisters</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Commander's Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Commander's Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Good timing. I'd like to ask you something about you and Le Mars.",
 			typewriter = {
 				speed = 0.05,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 801010,
+			say = "C-Commander?!",
 			side = 0,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "C-Commander?!",
+			actor = 801010,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -190,14 +190,14 @@ return {
 			}
 		},
 		{
-			actor = 901010,
 			side = 1,
 			bgName = "bg_story_task",
 			dir = -1,
+			actor = 901010,
 			say = "I heard Forbin calling for me! Huh? Le Triomphant too?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -349,10 +349,10 @@ return {
 			say = "Who the heck are you callin' a blockhead?",
 			action = {
 				{
-					number = 1,
+					y = 22.5,
 					dur = 0.15,
-					type = "shake",
-					y = 22.5
+					number = 1,
+					type = "shake"
 				}
 			},
 			typewriter = {

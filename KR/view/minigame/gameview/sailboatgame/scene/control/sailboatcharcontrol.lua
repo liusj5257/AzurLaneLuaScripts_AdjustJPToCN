@@ -1,7 +1,7 @@
 slot0 = class("SailBoatCharControl")
 slot1 = nil
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0 = SailBoatGameVo
 	slot0._bgContent = slot1
 	slot0._eventCall = slot2
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._char:setContent(slot0._charContent, uv0.char_start_pos)
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	uv0.SetGameChar(slot0._char)
 
 	slot0._fireIndex = uv0.fire_step
@@ -51,7 +51,7 @@ function slot0.start(slot0)
 	slot0._ableFire = true
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	slot3 = 0
 	slot4 = 0
 	slot5 = 0
@@ -94,7 +94,7 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.checkCharEnemyFire(slot0, slot1, slot2)
+slot0.checkCharEnemyFire = function(slot0, slot1, slot2)
 	slot4 = slot1:getWeaponMaxDistance()
 	slot6 = slot1:getPosition().x < slot2:getPosition().x and 1 or -1
 
@@ -149,7 +149,7 @@ function slot0.checkCharEnemyFire(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getCharNextTouchFlag(slot0, slot1, slot2, slot3, slot4)
+slot0.getCharNextTouchFlag = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0._char:getNextPosition(slot1, slot2)
 	slot6 = slot0._char:getBoundData()
 	slot7 = slot0._char:getColliderMinPosition()
@@ -170,7 +170,7 @@ function slot0.getCharNextTouchFlag(slot0, slot1, slot2, slot3, slot4)
 	return false
 end
 
-function slot0.checkLeave(slot0, slot1, slot2, slot3, slot4)
+slot0.checkLeave = function(slot0, slot1, slot2, slot3, slot4)
 	slot5, slot6 = nil
 	slot7 = false
 	slot8, slot9 = nil
@@ -194,23 +194,23 @@ function slot0.checkLeave(slot0, slot1, slot2, slot3, slot4)
 	return slot7
 end
 
-function slot0.ableFire(slot0)
+slot0.ableFire = function(slot0)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 end
 
-function slot0.stop(slot0)
+slot0.stop = function(slot0)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
-function slot0.useSkill(slot0)
+slot0.useSkill = function(slot0)
 	slot0._char:useSkill()
 end
 
-function slot0.onEventCall(slot0, slot1, slot2)
+slot0.onEventCall = function(slot0, slot1, slot2)
 	if slot1 == SailBoatGameEvent.PLAYER_EVENT_DAMAGE then
 		slot0._char:damage(slot2)
 	elseif slot1 == SailBoatGameEvent.USE_ITEM then

@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA44",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA44",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-control",
 			dir = 1,
 			say = "シオンをレジスタンス基地に移動し、ピュリっちに挑発カウンターを置いてターンエンド、です",
+			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actorName = "ピュリっち",
 			say = "え！？私！？ちょっと待て！なんで私がタンク役！？",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			actorName = "名探偵フブキ？",
 			say = "さすがは普段からゲームをしてるだけあって、さっそくルールを把握しましたね",
 			typewriter = {
@@ -58,8 +58,8 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "名探偵フブキ？",
 			dir = 1,
+			actorName = "名探偵フブキ？",
 			say = "でもこれはどうかな？フィールド魔法「溶岩の海」の効果でピュリっちをタップします！さらに鏡面海域国力4で【セイレーン技術・大量生産】を発動です！",
 			typewriter = {
 				speed = 0.05,
@@ -74,8 +74,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			actorName = "名探偵フブキ？",
 			say = "さらに【コイン】を使用してマナ1、【量産型】2枚捨てて星と月コストゲット、私のリンク先を3枠まで増やします！",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -116,8 +116,8 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "名探偵フブキ？",
 			dir = 1,
+			actorName = "名探偵フブキ？",
 			say = "ソリティアは開発者特権です！戻ってこい、山田・ハーマイオニー、燕子花なきり、澪川イイ代！",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "あくあちゃん！気をつけて！偽ブブキはまだ進化権を1回持ってるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			actorName = "名探偵フブキ？",
 			say = "もう遅い！ダメージによりバースト発動、【名探偵フブキの謎掛け】！",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			actorName = "名探偵フブキ？",
 			say = "「駒」たちを全部生贄にして、ゲームから除外！これにより私の最強のしもべを召喚します！",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "あれはモンスターではない…フブキよ！",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			actorName = "名探偵フブキ？",
 			say = "あっちのフブキさえ倒せばこっちの勝ちです！さあ、ホロライブ本社の崇高なる力の前にひれ伏すがいい！",
 			typewriter = {
@@ -267,8 +267,8 @@ return {
 		{
 			actor = 10500010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "……それはどうかな？",
 			effects = {
 				{
@@ -319,8 +319,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "速攻魔法発動！家具【奥義のマジックブースター】と私自身を融合させるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "この効果は異世界でのみ発動可能！相手のダイレクトアタックを一回無効にし、受けるはずのダメージを弾き返す！",
 			typewriter = {
 				speed = 0.05,
@@ -348,11 +348,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actor = 900021,
+			actorName = "ピュリっち",
 			say = "カードのテキストに書いていない、隠された効果…だと！？",
 			dialogShake = {
 				speed = 0.09,
@@ -372,8 +372,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			actorName = "名探偵フブキ？",
 			say = "そ、そんな……そんなのあるわけ……！ぐはっ！",
 			typewriter = {
@@ -386,8 +386,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 0.8,
 					dur = 0.7,
 					x = 0
@@ -395,10 +395,10 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "江風が無言で峰打ちで敵を気絶させた！？",
 			flashout = {
 				dur = 1,

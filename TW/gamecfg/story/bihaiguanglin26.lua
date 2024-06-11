@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN26",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,8 +38,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "簡直比煙火大會還熱鬧！巨浪捲著火焰把敵人全都燒光了哦！",
 			typewriter = {
@@ -55,10 +55,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "連同機關上的封印也被一起破壞了，敵人的增援也停止了！",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#ffff4d",
 			say = "那還真是壯觀，沒能親眼看到有些遺憾呢。",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "謎之音",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "謎之音",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -122,10 +122,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "那是當然！島風已經迫不及待了~！",
 			typewriter = {
 				speed = 0.05,
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,12 +147,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "築摩閣下，駿河閣下，你們也聽到謎之音說的話了吧！",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#ffff4d",
 			say = "說不定只是塞壬製作的貼心導航呢。已經到這一步了，我覺得還是乾脆接受這個設定比較好哦。",
 			typewriter = {

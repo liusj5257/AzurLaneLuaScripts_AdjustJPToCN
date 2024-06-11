@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					rant = 2000,
-					skill_id = 800521,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 800521
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 				},
 				arg_list = {
 					rant = 2330,
-					skill_id = 800521,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 800521
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 				},
 				arg_list = {
 					rant = 2660,
-					skill_id = 800521,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 800521
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 				},
 				arg_list = {
 					rant = 2990,
-					skill_id = 800521,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 800521
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 				},
 				arg_list = {
 					rant = 3320,
-					skill_id = 800521,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 800521
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 				},
 				arg_list = {
 					rant = 3650,
-					skill_id = 800521,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 800521
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 				},
 				arg_list = {
 					rant = 3980,
-					skill_id = 800521,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 800521
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 				},
 				arg_list = {
 					rant = 4310,
-					skill_id = 800521,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 800521
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 				},
 				arg_list = {
 					rant = 4640,
-					skill_id = 800521,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 800521
 				}
 			}
 		}
@@ -143,8 +143,8 @@ return {
 				},
 				arg_list = {
 					rant = 5000,
-					skill_id = 800521,
-					target = "TargetSelf"
+					target = "TargetSelf",
+					skill_id = 800521
 				}
 			}
 		}
@@ -152,12 +152,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 800522,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800522,
+	color = "red",
 	icon = 800520,
 	last_effect = "",
 	effect_list = {
@@ -168,8 +168,8 @@ return {
 			},
 			arg_list = {
 				rant = 2000,
-				skill_id = 800521,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				skill_id = 800521
 			}
 		}
 	}

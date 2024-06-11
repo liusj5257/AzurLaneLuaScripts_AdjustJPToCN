@@ -1,6 +1,6 @@
 slot0 = class("GetSeasonInfoCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = pg.ConnectionMgr.GetInstance()
 
 	slot2:Send(18001, {

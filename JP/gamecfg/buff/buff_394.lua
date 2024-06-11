@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -15,13 +15,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0,
 				attr = "cannonPower",
-				exposeGroup = 1,
 				time = 1,
 				cloakExpose = 36,
-				number = 81,
+				exposeGroup = 1,
 				dotType = 1,
-				k = 0
+				number = 81
 			}
 		},
 		{

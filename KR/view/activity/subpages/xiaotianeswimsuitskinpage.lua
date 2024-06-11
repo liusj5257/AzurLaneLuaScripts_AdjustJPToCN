@@ -1,13 +1,13 @@
 slot0 = class("XiaotianeSwimsuitSkinPage", import(".TemplatePage.SkinTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.rtDayImage = slot0.bg:Find("day_image")
 	slot0.rtCharacter = slot0.bg:Find("character")
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 	setText(slot0.dayTF, i18n("activity_permanent_progress") .. slot0.nday .. "/" .. #slot0.taskGroup)
 	GetImageSpriteFromAtlasAsync("ui/activityuipage/xiaotianeswimsuitskinpage_atlas", tostring(slot0.nday), slot0.rtDayImage, true)
@@ -29,7 +29,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.model then
 		PoolMgr.GetInstance():ReturnSpineChar("xiaotiane_2", slot0.model)
 

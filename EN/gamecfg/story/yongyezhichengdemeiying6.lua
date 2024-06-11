@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEZHICHENGDEMEIYING6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEZHICHENGDEMEIYING6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Tales From the Count's Castle\n\n<size=45>6 You Never Expect Them</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "A short walk later, I arrived in the third hall.",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet-reborn",
+			say = "A short walk later, I arrived in the third hall.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 404041,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ah, the human's here. Your little escapade has well and truly messed this whole castle up.",
 			typewriter = {
 				speed = 0.05,
@@ -70,10 +70,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Then again, I don't really care one way or the other because I want to get outta this place too.",
 			typewriter = {
 				speed = 0.05,
@@ -88,10 +88,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "The princess is obsessed with the outside world, but she's forbidden to leave, you see. The bedlam you've caused today serves as her getaway opportunity.",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 404041,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "So let's set our differences aside. What matters is that we share the same goal.",
 			typewriter = {
 				speed = 0.05,
@@ -123,10 +123,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You don't know the way out, do you? Well, I do, heehee. Follow me.",
 			typewriter = {
 				speed = 0.05,
@@ -138,13 +138,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
+			dir = 1,
 			say = "I followed Lützow and Thüringen through the great hall.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -169,9 +169,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "It was quiet. Too quiet...",
 			typewriter = {
 				speed = 0.05,
@@ -183,9 +183,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "FWOMP!",
 			dialogShake = {
 				speed = 0.08,
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "Without any warning, Lützow wrapped her arms around me.",
 			typewriter = {
 				speed = 0.05,
@@ -219,10 +219,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ugghhh... I'm already beat just trying to keep pace with you. You've gotta give me some of your juice, or we'll never make it out.",
 			typewriter = {
 				speed = 0.05,
@@ -237,10 +237,10 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "All I need is a little. C'mon, let me have a taste, human~",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			optionFlag = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -334,14 +334,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "...Is what it felt like. While she didn't pierce my skin, she did leave a small mark.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -642,16 +642,16 @@ return {
 			}
 		},
 		{
-			actor = 404041,
-			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 404041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Here we are. Just keep going down this long-ass corridor and you'll be out of the woods.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -679,10 +679,10 @@ return {
 			expression = 13,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "(Little does the Commander know there's another puzzle coming in hot right abooout... now!)",
 			typewriter = {
 				speed = 0.05,
@@ -694,11 +694,11 @@ return {
 			}
 		},
 		{
-			say = "FWOOOOSH!",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "FWOOOOSH!",
 			flashN = {
 				color = {
 					1,
@@ -748,9 +748,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "Someone threw a smoke grenade at us from the other end of the corridor.",
 			typewriter = {
 				speed = 0.05,
@@ -762,9 +762,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "Through the veil of the smoke, I could just barely make out two people – Seydlitz and Sheffield.",
 			typewriter = {
 				speed = 0.05,
@@ -776,12 +776,12 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404031,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Halt! You're going nowhere!",
 			dialogShake = {
 				speed = 0.08,
@@ -801,10 +801,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Vampire hunters?! They must've snuck in amid the chaos. Dammit... This is about to get ugly.",
 			typewriter = {
 				speed = 0.05,
@@ -816,12 +816,12 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404031,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You vampires and your filthy vassal shall face divine judgment! Choose a god and pray!",
 			typewriter = {
 				speed = 0.05,
@@ -833,12 +833,12 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202084,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I'm afraid this is the end for you.",
 			typewriter = {
 				speed = 0.05,
@@ -850,12 +850,12 @@ return {
 			}
 		},
 		{
-			actor = 405041,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Vassal? So you think the human is our vassal because we brought it with us?",
 			typewriter = {
 				speed = 0.05,
@@ -870,10 +870,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Whatever, we can just skedaddle outta here. Try to catch us if you can.",
 			typewriter = {
 				speed = 0.05,

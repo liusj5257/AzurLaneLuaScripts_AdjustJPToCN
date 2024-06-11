@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	time = 3,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 3,
 	picture = "",
 	desc = "无敌",
 	stack = 1,
@@ -34,8 +34,8 @@ return {
 			},
 			arg_list = {
 				group = 109244,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{

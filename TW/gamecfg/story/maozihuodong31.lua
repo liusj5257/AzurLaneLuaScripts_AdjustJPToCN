@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG31",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG31",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level02",
+			say = "數日後·紐約司令部",
 			side = 2,
 			bgName = "bg_story_newyork",
 			dir = 1,
 			bgmDelay = 2,
-			say = "數日後·紐約司令部",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "指揮部居然在這個時候調指揮官去北方聯合，真是搞不懂到底在想什麼。",
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "八九不離十吧。算了…她應該知道自己在做什麼。",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "不知不覺間，北方聯合對於心智魔方的研究似乎走在前面了。",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "唔~以前只是懷疑，但看了這些情報之後基本可以認定北方聯合在極北之地發現什麼東西了。",
 			typewriter = {
@@ -187,12 +187,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			actorName = "？？？",
-			bgName = "bg_xiangting_3",
-			stopbgm = true,
-			dir = 1,
 			side = 2,
+			dir = 1,
+			stopbgm = true,
+			bgName = "bg_xiangting_3",
+			actor = 900227,
 			nameColor = "#a9f548",
 			say = "……指揮官去往北",
 			flashout = {
@@ -220,12 +220,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			side = 2,
+			actor = 900227,
 			stopbgm = true,
 			say = "…方聯合乃終末…",
 			typewriter = {
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			side = 2,
+			actor = 900227,
 			stopbgm = true,
 			say = "之序曲的開始……",
 			typewriter = {
@@ -258,9 +258,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_newyork",
 			actor = 107030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "企業…妳剛剛說什麼？",
 			flashout = {
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "…？剛剛出現的，是什麼？",
 			typewriter = {
 				speed = 0.05,

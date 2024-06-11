@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "蜂鸟直升机",
 	init_effect = "",
+	id = 12210,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12210,
+	color = "red",
 	icon = 12210,
 	last_effect = "",
 	effect_list = {
@@ -28,9 +28,9 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				minWeaponNumber = 1,
 				time = 10,
 				check_weapon = true,
+				minWeaponNumber = 1,
 				skill_id = 12210,
 				weapon_group = {
 					740

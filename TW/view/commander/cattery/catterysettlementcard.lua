@@ -1,7 +1,7 @@
 slot0 = class("CatterySettlementCard")
 slot1 = 1
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.tr = slot1
 	slot0.go = slot1.gameObject
 	slot0.emptyTF = findTF(slot0.tr, "empty")
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.levelTxt = findTF(slot0.commanderTF, "level"):GetComponent(typeof(Text))
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.cattery = slot1
 	slot0.exp = slot2
 
@@ -25,7 +25,7 @@ function slot0.Update(slot0, slot1, slot2)
 	setActive(slot0.commanderTF, slot3)
 end
 
-function slot0.UpdateCommander(slot0)
+slot0.UpdateCommander = function(slot0)
 	slot3 = slot0.cattery:GetCommander()
 	slot4 = slot0:GetOldCommander(slot3, slot0.exp)
 	slot0.oldCommander = slot4
@@ -39,7 +39,7 @@ function slot0.UpdateCommander(slot0)
 	slot0.nameTxt.text = slot4:getName()
 end
 
-function slot0.InitAnim(slot0, slot1)
+slot0.InitAnim = function(slot0, slot1)
 	slot5 = slot0.commander.exp / slot0.commander:getNextLevelExp()
 
 	if slot0.oldCommander:getLevel() < slot0.commander:getLevel() then
@@ -53,7 +53,7 @@ function slot0.InitAnim(slot0, slot1)
 	end
 end
 
-function slot0.Action(slot0, slot1)
+slot0.Action = function(slot0, slot1)
 	if not slot0.commander then
 		slot1()
 
@@ -66,7 +66,7 @@ function slot0.Action(slot0, slot1)
 	parallelAsync(slot2, slot1)
 end
 
-function slot0.DoUpgradeAnim(slot0, slot1)
+slot0.DoUpgradeAnim = function(slot0, slot1)
 	slot2 = slot0.commander
 	slot2 = slot2:getLevel()
 	slot3 = slot0.oldCommander
@@ -75,7 +75,7 @@ function slot0.DoUpgradeAnim(slot0, slot1)
 	slot5 = slot0.commander
 	slot6 = slot0.commander.exp / slot5:getNextLevelExp()
 
-	function slot7()
+	slot7 = function()
 		uv0 = uv0 + 1
 		uv1.levelTxt.text = "LV." .. uv0
 	end
@@ -114,7 +114,7 @@ function slot0.DoUpgradeAnim(slot0, slot1)
 	seriesAsync(slot8, slot1)
 end
 
-function slot0.LoadCommander(slot0, slot1)
+slot0.LoadCommander = function(slot0, slot1)
 	slot0:ReturnCommander()
 
 	slot0.painting = slot1:getPainting()
@@ -122,7 +122,7 @@ function slot0.LoadCommander(slot0, slot1)
 	setCommanderPaintingPrefab(slot0.char, slot0.painting, "result")
 end
 
-function slot0.ReturnCommander(slot0)
+slot0.ReturnCommander = function(slot0)
 	if slot0.painting then
 		retCommanderPaintingPrefab(slot0.char, slot0.painting)
 
@@ -130,7 +130,7 @@ function slot0.ReturnCommander(slot0)
 	end
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if LeanTween.isTweening(go(slot0.slider)) then
 		LeanTween.cancel(go(slot0.slider))
 	end
@@ -140,12 +140,12 @@ function slot0.Clear(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Clear()
 	slot0:ReturnCommander()
 end
 
-function slot0.GetOldCommander(slot0, slot1, slot2)
+slot0.GetOldCommander = function(slot0, slot1, slot2)
 	slot3 = Clone(slot1)
 
 	slot3:ReduceExp(slot2)
@@ -153,7 +153,7 @@ function slot0.GetOldCommander(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.AddExpAnim(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.AddExpAnim = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	parallelAsync({
 		function (slot0)
 			LeanTween.value(go(uv0.slider), uv1, uv2, uv3):setOnUpdate(System.Action_float(function (slot0)
@@ -172,7 +172,7 @@ function slot0.AddExpAnim(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end)
 end
 
-function slot0.GetColor(slot0)
+slot0.GetColor = function(slot0)
 	return "#9f9999"
 end
 

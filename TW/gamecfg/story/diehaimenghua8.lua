@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA8",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 302210,
 			dir = 1,
+			bgm = "battle-boss-4",
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "戰況不利…！紀伊，請允許我單獨突圍出鏡面海域。千歲的艦隊應該還沒走遠，我去找她們回來！",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,8 +28,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "這裡距離天岩島也不遠，只要能發出求援訊息的話，天岩島的艦隊也能前來參戰！",
 			typewriter = {
@@ -45,8 +45,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "不行！敵人太多了，只靠妳一個人是不可能突圍成功的。",
 			typewriter = {
@@ -62,8 +62,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "而且現在還沒有找到正確的出路，就算妳能一時擺脫敵人，也繞不出鏡面海域吧……",
 			typewriter = {
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "可是……！",
 			dialogShake = {
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "沒辦法，只有在這裡消滅測試者，從正面突破鏡面海域這一個選擇了。",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "直取敵將嗎！唔…如果只是測試者的話靠我們的陣容還可以勉強一戰，不過在加上那一圈護衛的艦隊可就頭疼了呢…",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "汝等負責解決護衛艦隊………測試者，交給妾身。",
 			typewriter = {
@@ -168,8 +168,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "哎，可是，信濃大人，您的力量還……",
 			typewriter = {
@@ -185,8 +185,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "無妨，妾身自有辦法。",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "守護重櫻，為重櫻帶來希望和輝煌是妾身的使命，不論在什麼情況下也不會改變。",
 			typewriter = {
@@ -235,9 +235,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 305120,
 			dir = 1,
 			blackBg = true,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "我明白了。我們會竭盡全力掩護您，請盡情作戰，讓狂妄之敵感受一下重櫻最強航母的威力吧！",
 			typewriter = {

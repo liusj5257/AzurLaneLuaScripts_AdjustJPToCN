@@ -1,15 +1,15 @@
 return {
-	id = "WORLD500B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD500B",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "blueocean-image",
 			say = "前面的好像是曼非斯和，謝菲爾德……？",
+			side = 2,
+			dir = 1,
+			bgm = "blueocean-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "感覺謝菲爾德一直有一種與皇家女僕隊其他成員不同的神秘氣場，不知道她們正在聊些什麼。",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 2,
 			say = "既然會議已經結束，曼非斯和謝菲爾德也許是在談一些私人話題，就不打擾她們了。",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 2,
 			say = "啊，被發現了。",
 			typewriter = {
@@ -87,14 +87,14 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "事情就拜託妳了，我還要趕去其他地方，就先……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "謝菲爾德頭也不回的離開了……",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "指揮官，今天一天也辛苦了~現在是在散步中？",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "稍微散散心……妳們在討論什麼事情嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "雖然不是什麼需要向指揮官保密的事，不過我想等到有確切結論之後再跟你說。",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "是和今天會議上發生的事有關嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "差不多吧……再怎麼說今天也太過分了。",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +275,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "沒錯。一場原本應該是總攻計劃討論會的會議，卻在到場之後發現變為了META與塞壬研究討論會。",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "趨勢，是指？",
 			typewriter = {
 				speed = 0.05,
@@ -319,8 +319,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "本次作戰開始至今，戰鬥進展非常順利。不論是對於塞壬，還是對於新出現的餘燼，我們都在節節勝利。",
 			typewriter = {
 				speed = 0.05,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "狂歡……明明每次都是餘燼主動避免纏鬥我們才能平安返回的吧。",
 			typewriter = {
 				speed = 0.05,
@@ -363,8 +363,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "餘燼的實力與壓迫力……這些事情就算作為情報知道了，不親身經歷一下也不會有什麼實感的。",
 			typewriter = {
 				speed = 0.05,
@@ -394,8 +394,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "在這種氣氛的推動下，原本還算冷靜的各地司令部和指揮部中也出現了很多希望推進對於塞壬研究的聲音。",
 			typewriter = {
 				speed = 0.05,
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "甚至連“塞壬的戰鬥力不值一提，指揮部應該將科研任務的優先級擺在作戰任務之上。”這種極端觀點也在不知不覺中出現了。",
 			typewriter = {
 				speed = 0.05,
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "沒想到事情居然嚴重到了這種程度……",
 			typewriter = {
 				speed = 0.05,
@@ -451,8 +451,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "想要從塞壬手中奪回海洋——對於艦船來說，我們只有這一個願望。",
 			typewriter = {
 				speed = 0.05,
@@ -467,8 +467,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "相信指揮部和各地司令部也一定是這樣想的。",
 			typewriter = {
 				speed = 0.05,
@@ -495,8 +495,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "謝菲爾德會來特意通知，說明伊莉莎白已經知道這個情況了……她是想讓我們解決這個問題嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -570,9 +570,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哇啊啊，謝菲？！不要突然嚇人呀……妳不是走了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -584,8 +584,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -639,8 +639,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "說起來，最近開會一次也沒有見過伊莉莎白……她究竟打算做什麼事？",
 			typewriter = {
 				speed = 0.05,
@@ -712,8 +712,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "確實可能會出現這種情況……",
 			typewriter = {
 				speed = 0.05,
@@ -740,8 +740,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,

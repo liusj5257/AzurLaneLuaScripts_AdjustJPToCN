@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN23",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "演習海域にて・7ターン目（武蔵）",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "武蔵の手番が回ってくると、長門の艦隊と一緒に休息していた酒匂たちの通信機から新しい指示が連絡された。",
 			typewriter = {
@@ -81,8 +81,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "長門さまの気持ちが伝わったと思います！もう戦わなくていいですよ！",
 			painting = {
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "演習場の中心にある最大の拠点「塔」。赤城たちの威力偵察が行われたが、ダメージが入ったように見えなかった。",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "しばらくすると、各艦隊の艦船たちが塔の根元に続々と到着し始めた。",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#A9F548FF",
 			say = "光が点滅しているのは見ればわかるから、生きているとかそんな怖すぎる例えを言わないでってば！",
 			painting = {
@@ -201,8 +201,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "この「塔」ももしかして、その「再現」を再現してるだけだったりして！",
 			painting = {
@@ -218,8 +218,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#A9F548FF",
 			say = "「再現」を再現とかわけが分からないよ…千歳姉、敵に私たちの連携の力、見せてやろう！",
 			painting = {
@@ -251,8 +251,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "あ！ここに来て皆必殺技を披露する流れですか？しょうがない、じゃあ酒匂も――",
 			painting = {
@@ -268,8 +268,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "こほん！……貫ける青海波、鳴動する羅刹の一斬り、唸れ「酒匂鬼神斬」！",
 			painting = {
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "若月の時と同じく、酒匂の艤装からも巨大な光の斬撃が「塔」に向けて放たれた。",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "それと同時に、千歳と千代田の航空攻撃も塔の根元の外壁に着弾し、豪快に轟炎が吹き上がった。",
 			typewriter = {
@@ -302,8 +302,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "次の瞬間、「塔」から艦船に向けて無形の衝撃波が放たれた。",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "それだけで判断するのは早計だ。あの塔が本当に指揮官の言う「再現」で確認したセイレーン施設が元だとすれば……",
 			painting = {
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "武蔵の艦隊の攻撃が止んだその瞬間――塔の先端から光と共に今までになかった巨大な衝撃が海を席巻した。",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "な、なにこれ……塔からの反撃…！？",
 			painting = {
@@ -439,8 +439,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "皆気をつけて！演習場で威力が調整されていようと、当たったら大変なことになりますわ！",
 			painting = {
@@ -453,8 +453,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "塔の反撃が止んだ頃、その根元には霧島、涼月、千代田、山城の姿はなく、代わりに「セイレーン」が姿を現した。",
 			typewriter = {
@@ -462,17 +462,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -494,8 +494,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "霧島たちを……一撃で？！",
 			painting = {
@@ -511,8 +511,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "酒匂たちの攻撃を数倍の威力で返してくる…これが「塔」の力か…",
 			painting = {
@@ -528,8 +528,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "指揮官たちはこんな敵と戦っていたのか…",
 			painting = {
@@ -545,8 +545,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "今の一撃で武蔵の「部下」は3人も戦闘不能判定が出たのか。ここにいないのは結界の力で外に送り出されたようだ",
 			painting = {
@@ -562,8 +562,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "しかし、自分の「部下」に行かせたのは演習の仕様を自身も知らなかった、と言わんとしたいのだろうか",
 			painting = {
@@ -579,8 +579,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "だ、大先輩、あの「セイレーン」は……",
 			painting = {
@@ -596,8 +596,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "NA海域で現れた「アビータ」……",
 			painting = {
@@ -661,8 +661,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "しかし驚きましたわ。上位個体とは聞いてましたけど、「オブザーバー」よりも強力な「アビータ」のスペアボディを用意してくるなんて",
 			painting = {
@@ -694,8 +694,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "あの時はよくもあんなゲスな真似をしてくださったわね…天城姉さまの幻を作って…あんなことを……",
 			painting = {
@@ -711,8 +711,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "ふふふ、ふふふふふ…スペアボディでも絶対許しませんわ……",
 			painting = {

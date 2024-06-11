@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA30",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA30",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-4",
 			dir = 1,
 			say = "つ、強い…っ！！",
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "彼女の判断は正しかったようだな…",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "『アンチエックス』に隠されたこの時間軸、確かに我々の見たどの時間軸とも異なる",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "それもひとえに指揮官、そなたがいるからだろう",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "NYシティへの襲撃は『アンチエックス』……あの機械どもが、そなたらを我々に鉢あわさせるために仕掛けたことに過ぎん",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "拙者も彼女も燃え尽きかけた残滓、そなたらが気にかけるほどの存在ではあらぬ",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "彼女の業を知らぬのであらば、我らの進む道を阻まぬことだ",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "……そうすれば、再び相見えることも無かろう",
 			typewriter = {
 				speed = 0.05,
@@ -165,13 +165,13 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
-			say = "………！",
 			soundeffect = "event:/battle/boom2",
+			actor = 900192,
+			actorName = "？？",
+			say = "………！",
 			flashN = {
 				color = {
 					1,
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "「特異点を作り出した元凶なる『艦船』を排除せよ」――確かに本部からの命令ではそう書いてある――",
 			typewriter = {
 				speed = 0.05,
@@ -253,10 +253,10 @@ return {
 			}
 		},
 		{
+			say = "―――――！！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "―――――！！",
 			flashN = {
 				color = {
 					1,
@@ -319,10 +319,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "―――――！！",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "―――――！！",
 			flashN = {
 				color = {
 					1,
@@ -399,8 +399,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "……そなたなら彼女たちを導ける存在やもしれぬ、そう信じていたが――",
 			typewriter = {
 				speed = 0.05,
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			say = "疾走する砲弾が謎の艦に直撃しようとするその矢先に――",
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
 			soundeffect = "event:/battle/boom2",
+			say = "疾走する砲弾が謎の艦に直撃しようとするその矢先に――",
 			flashN = {
 				color = {
 					1,
@@ -467,8 +467,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "どうしても我々を阻むなら、見せてしんぜよう",
 			typewriter = {
 				speed = 0.05,
@@ -483,8 +483,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "『アンチエックス』どもがそなたらに貸し与えた力の極限だ",
 			typewriter = {
 				speed = 0.05,
@@ -499,8 +499,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "――悪・即・斬",
 			typewriter = {
 				speed = 0.05,
@@ -512,10 +512,10 @@ return {
 			}
 		},
 		{
+			say = "剣刃一閃。",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "剣刃一閃。",
 			flashN = {
 				color = {
 					1,
@@ -578,10 +578,10 @@ return {
 			}
 		},
 		{
+			say = "迸る力の奔流が、砲弾を、艦載機を、そして海をも斬った。",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "迸る力の奔流が、砲弾を、艦載機を、そして海をも斬った。",
 			flashN = {
 				color = {
 					1,
@@ -629,10 +629,10 @@ return {
 			}
 		},
 		{
+			say = "その威力は、まるでかのビスマルクの時と同じくか、それ以上に――",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "その威力は、まるでかのビスマルクの時と同じくか、それ以上に――",
 			flashN = {
 				color = {
 					1,
@@ -698,8 +698,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "元を正せば「■■■」……そなたをここで斬れば、彼女も悲しむことはなかろう",
 			typewriter = {
 				speed = 0.05,
@@ -711,8 +711,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "絶死の斬撃は、今度はこちらに襲ってくる。",
 			typewriter = {
 				speed = 0.05,
@@ -727,8 +727,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "ならば……！",
 			typewriter = {
 				speed = 0.05,
@@ -755,8 +755,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -765,13 +765,13 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			actorName = "？？？",
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "目的は達成した。これ以上の長居は不要",
 			soundeffect = "event:/battle/boom2",
+			actor = 900072,
+			nameColor = "#ff5c5c",
+			say = "目的は達成した。これ以上の長居は不要",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -800,8 +800,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -816,8 +816,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
+			actorName = "？？",
 			say = "…………すまぬ。手を",
 			typewriter = {
 				speed = 0.05,
@@ -832,8 +832,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "ああ。この程度なら…大したことない",
 			typewriter = {
 				speed = 0.05,
@@ -848,8 +848,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "設置は完了した。これで中層プログラムとも対抗できよう",
 			typewriter = {
 				speed = 0.05,
@@ -864,8 +864,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "こいつらの相手をするのもここまでだ",
 			typewriter = {
 				speed = 0.05,
@@ -910,8 +910,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "……誤解するな",
 			typewriter = {
 				speed = 0.05,
@@ -926,8 +926,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "指揮官への攻撃を止めたのではない",
 			typewriter = {
 				speed = 0.05,
@@ -942,8 +942,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "私は…もう一度後悔したくないだけだ",
 			typewriter = {
 				speed = 0.05,
@@ -991,8 +991,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "仲間たちの面影を持つ、絶大な力を示した謎の艦船は……",
 			typewriter = {
 				speed = 0.05,
@@ -1004,8 +1004,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ためらうことなく、そして顧みぬこともなく、光の中にその姿を消した。",
 			typewriter = {
 				speed = 0.05,
@@ -1017,8 +1017,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "程なくして光は消え、そしてジャミングされた通信機からの音、吹き荒れる風、そして空を覆う積乱雲が次々と消えていく",
 			typewriter = {
 				speed = 0.05,
@@ -1030,8 +1030,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "………………まるで何事も起きなかったように、バミューダを覆う「特異点」が完全に消滅した。",
 			typewriter = {
 				speed = 0.05,
@@ -1088,8 +1088,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "危機こそ脱したものの、謎は深まるばかりだ。",
 			typewriter = {
 				speed = 0.05,
@@ -1101,8 +1101,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "まず本部は間違いなく、特異点を発生させたのが「艦船」だと分かっていた。それにも関わらず、それ以外の情報を一切伝えてこなかった",
 			typewriter = {
 				speed = 0.05,
@@ -1114,8 +1114,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "『アンチエックス』、そして「余燼」と自称する謎の艦船たち……",
 			typewriter = {
 				speed = 0.05,

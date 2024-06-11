@@ -11,9 +11,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
-					rant = 1500,
-					time = 5,
 					skill_id = 2061,
+					time = 5,
+					rant = 1500,
 					target = "TargetSelf",
 					index = {
 						1
@@ -34,9 +34,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
-					rant = 1610,
-					time = 5,
 					skill_id = 2061,
+					time = 5,
+					rant = 1610,
 					target = "TargetSelf",
 					index = {
 						1
@@ -57,9 +57,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
-					rant = 1720,
-					time = 5,
 					skill_id = 2061,
+					time = 5,
+					rant = 1720,
 					target = "TargetSelf",
 					index = {
 						1
@@ -80,9 +80,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
-					rant = 1830,
-					time = 5,
 					skill_id = 2061,
+					time = 5,
+					rant = 1830,
 					target = "TargetSelf",
 					index = {
 						1
@@ -103,9 +103,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
-					rant = 1940,
-					time = 5,
 					skill_id = 2061,
+					time = 5,
+					rant = 1940,
 					target = "TargetSelf",
 					index = {
 						1
@@ -126,9 +126,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
-					rant = 2050,
-					time = 5,
 					skill_id = 2061,
+					time = 5,
+					rant = 2050,
 					target = "TargetSelf",
 					index = {
 						1
@@ -149,9 +149,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
-					rant = 2160,
-					time = 5,
 					skill_id = 2061,
+					time = 5,
+					rant = 2160,
 					target = "TargetSelf",
 					index = {
 						1
@@ -172,9 +172,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
-					rant = 2270,
-					time = 5,
 					skill_id = 2061,
+					time = 5,
+					rant = 2270,
 					target = "TargetSelf",
 					index = {
 						1
@@ -195,9 +195,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
-					rant = 2380,
-					time = 5,
 					skill_id = 2061,
+					time = 5,
+					rant = 2380,
 					target = "TargetSelf",
 					index = {
 						1
@@ -218,9 +218,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
-					rant = 2500,
-					time = 5,
 					skill_id = 2061,
+					time = 5,
+					rant = 2500,
 					target = "TargetSelf",
 					index = {
 						1
@@ -232,12 +232,12 @@ return {
 	desc_get = "主炮攻击时有15.0%(满级25.0%)的概率额外发射1组炮弹",
 	name = "主炮连射",
 	init_effect = "",
+	id = 2061,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮攻击时有$1的概率额外发射1组炮弹",
 	stack = 1,
-	id = 2061,
+	color = "red",
 	icon = 2060,
 	last_effect = "",
 	effect_list = {
@@ -247,9 +247,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				rant = 1500,
-				time = 5,
 				skill_id = 2061,
+				time = 5,
+				rant = 1500,
 				target = "TargetSelf",
 				index = {
 					1

@@ -6,7 +6,7 @@ slot3 = class("BattleTrackingAAMissileUnit", slot0.Battle.BattleBulletUnit)
 slot3.__name = "BattleTrackingAAMissileUnit"
 slot0.Battle.BattleTrackingAAMissileUnit = slot3
 
-function slot3.doAccelerate(slot0, slot1)
+slot3.doAccelerate = function(slot0, slot1)
 	slot2, slot3 = slot0:GetAcceleration(slot1)
 
 	if slot2 == 0 and slot3 == 0 then
@@ -30,7 +30,7 @@ function slot3.doAccelerate(slot0, slot1)
 	slot0._speedCross:Cross2(uv0)
 end
 
-function slot3.doTrack(slot0)
+slot3.doTrack = function(slot0)
 	if slot0:getTrackingTarget() == nil and uv0.TargetWeightiest(slot0, nil, slot0:GetFilteredList())[1] ~= nil then
 		slot0:setTrackingTarget(slot2)
 	end
@@ -60,17 +60,17 @@ function slot3.doTrack(slot0)
 	slot0._speed:Set(slot0._speed.x * slot8 + slot0._speed.z * slot9, 0, slot0._speed.z * slot8 - slot0._speed.x * slot9)
 end
 
-function slot3.doNothing(slot0)
+slot3.doNothing = function(slot0)
 	if slot0._gravity ~= 0 then
 		slot0._verticalSpeed = slot0._verticalSpeed + slot0._gravity * slot0:GetSpeedRatio()
 	end
 end
 
-function slot3.GetFilteredList(slot0)
+slot3.GetFilteredList = function(slot0)
 	return slot0:FilterAngle(slot0:FilterRange(uv0.TargetAllHarm(slot0)))
 end
 
-function slot3.FilterRange(slot0, slot1)
+slot3.FilterRange = function(slot0, slot1)
 	if not slot0._trackDist then
 		return slot1
 	end
@@ -84,7 +84,7 @@ function slot3.FilterRange(slot0, slot1)
 	return slot1
 end
 
-function slot3.IsOutOfRange(slot0, slot1)
+slot3.IsOutOfRange = function(slot0, slot1)
 	if not slot0._trackDist then
 		return true
 	end
@@ -92,7 +92,7 @@ function slot3.IsOutOfRange(slot0, slot1)
 	return slot0._trackDist < slot0:GetDistance(slot1)
 end
 
-function slot3.FilterAngle(slot0, slot1)
+slot3.FilterAngle = function(slot0, slot1)
 	if not slot0._trackAngle or slot0._trackAngle >= 360 then
 		return slot1
 	end
@@ -106,7 +106,7 @@ function slot3.FilterAngle(slot0, slot1)
 	return slot1
 end
 
-function slot3.IsOutOfAngle(slot0, slot1)
+slot3.IsOutOfAngle = function(slot0, slot1)
 	if not slot0._trackAngle or slot0._trackAngle >= 360 then
 		return false
 	end
@@ -116,11 +116,11 @@ function slot3.IsOutOfAngle(slot0, slot1)
 	return slot0._trackRadian < math.acos(Vector3.Dot(slot4, slot0._speedNormal) / slot4:Magnitude()) or slot7 < -slot0._trackRadian
 end
 
-function slot3.SetTrackingFXData(slot0, slot1)
+slot3.SetTrackingFXData = function(slot0, slot1)
 	slot0._trackingFXData = slot1
 end
 
-function slot3.InitSpeed(slot0, slot1)
+slot3.InitSpeed = function(slot0, slot1)
 	if slot0._yAngle == nil then
 		if slot0._targetPos ~= nil then
 			slot0._yAngle = slot1 + slot0._barrageAngle
@@ -133,7 +133,7 @@ function slot3.InitSpeed(slot0, slot1)
 
 	slot2 = {}
 
-	function slot3(slot0, slot1)
+	slot3 = function(slot0, slot1)
 		for slot5, slot6 in ipairs(uv0) do
 			slot6(slot0, slot1)
 		end
@@ -176,7 +176,7 @@ function slot3.InitSpeed(slot0, slot1)
 	slot0.updateSpeed = slot3
 end
 
-function slot3.CleanAimMark(slot0)
+slot3.CleanAimMark = function(slot0)
 	if slot0:getTrackingTarget() and slot1 ~= -1 and slot0._trackingFXData.aimingFX then
 		if uv0.Battle.BattleState.GetInstance():GetSceneMediator():GetCharacter(slot1:GetUniqueID()) then
 			slot3:RemoveFX(slot0._trackingFXData.aimingFX)
@@ -186,7 +186,7 @@ function slot3.CleanAimMark(slot0)
 	end
 end
 
-function slot3.OutRange(slot0, ...)
+slot3.OutRange = function(slot0, ...)
 	slot0:CleanAimMark()
 	uv0.super.OutRange(slot0, ...)
 end

@@ -1,15 +1,13 @@
 slot0 = class("ShipGroup", import(".BaseVO"))
 slot0.REQ_INTERVAL = 60
 
-function slot0.GetGroupConfig(slot0)
-	for slot4, slot5 in ipairs(pg.ship_data_group.all) do
-		if pg.ship_data_group[slot5].group_type == slot0 then
-			return slot6
-		end
-	end
+slot0.GetGroupConfig = function(slot0)
+	return checkExist(pg.ship_data_group.get_id_list_by_group_type[slot0], {
+		1
+	}) and pg.ship_data_group[slot1] or nil
 end
 
-function slot0.getDefaultShipConfig(slot0)
+slot0.getDefaultShipConfig = function(slot0)
 	slot1 = nil
 
 	for slot5 = 4, 1, -1 do
@@ -21,19 +19,19 @@ function slot0.getDefaultShipConfig(slot0)
 	return slot1
 end
 
-function slot0.getDefaultShipNameByGroupID(slot0)
+slot0.getDefaultShipNameByGroupID = function(slot0)
 	return uv0.getDefaultShipConfig(slot0).name
 end
 
-function slot0.IsBluePrintGroup(slot0)
+slot0.IsBluePrintGroup = function(slot0)
 	return tobool(pg.ship_data_blueprint[slot0])
 end
 
-function slot0.IsMetaGroup(slot0)
+slot0.IsMetaGroup = function(slot0)
 	return tobool(pg.ship_strengthen_meta[slot0])
 end
 
-function slot0.IsMotGroup(slot0)
+slot0.IsMotGroup = function(slot0)
 	return uv0.getDefaultShipConfig(slot0).nationality == Nation.MOT
 end
 
@@ -43,7 +41,7 @@ slot0.STATE_UNLOCK = 2
 slot0.ENABLE_SKIP_TO_CHAPTER = true
 slot1 = pg.ship_data_group
 
-function slot0.getState(slot0, slot1, slot2)
+slot0.getState = function(slot0, slot1, slot2)
 	if uv0.ENABLE_SKIP_TO_CHAPTER then
 		if slot2 and not slot1 then
 			return uv0.STATE_NOTGET
@@ -94,7 +92,7 @@ function slot0.getState(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.star = slot1.star
 	slot0.hearts = slot1.heart_count
@@ -125,7 +123,7 @@ function slot0.Ctor(slot0, slot1)
 	})
 end
 
-function slot0.getName(slot0, slot1)
+slot0.getName = function(slot0, slot1)
 	slot2 = slot0.shipConfig.name
 
 	if slot1 and slot0.trans then
@@ -135,11 +133,11 @@ function slot0.getName(slot0, slot1)
 	return slot2
 end
 
-function slot0.getNation(slot0)
+slot0.getNation = function(slot0)
 	return slot0.shipConfig.nationality
 end
 
-function slot0.getRarity(slot0, slot1)
+slot0.getRarity = function(slot0, slot1)
 	slot2 = slot0.shipConfig.rarity
 
 	if slot1 and slot0.trans then
@@ -149,11 +147,11 @@ function slot0.getRarity(slot0, slot1)
 	return slot2
 end
 
-function slot0.getTeamType(slot0)
+slot0.getTeamType = function(slot0)
 	return TeamType.GetTeamFromShipType(slot0:getShipType())
 end
 
-function slot0.getPainting(slot0, slot1)
+slot0.getPainting = function(slot0, slot1)
 	slot2 = slot0.shipConfig.skin_id
 
 	if slot1 and slot0.trans then
@@ -167,7 +165,7 @@ function slot0.getPainting(slot0, slot1)
 	return slot3.painting
 end
 
-function slot0.getShipType(slot0, slot1)
+slot0.getShipType = function(slot0, slot1)
 	slot2 = slot0.shipConfig.type
 
 	if slot1 and slot0.trans and Ship.getTransformShipId(slot0.shipConfig.id) then
@@ -177,7 +175,7 @@ function slot0.getShipType(slot0, slot1)
 	return slot2
 end
 
-function slot0.getShipConfigId(slot0, slot1)
+slot0.getShipConfigId = function(slot0, slot1)
 	slot2 = slot0.shipConfig.id
 
 	if slot1 and slot0.trans and Ship.getTransformShipId(slot0.shipConfig.id) then
@@ -187,18 +185,18 @@ function slot0.getShipConfigId(slot0, slot1)
 	return slot2
 end
 
-function slot0.getSkinList(slot0)
+slot0.getSkinList = function(slot0)
 	return ShipSkin.GetAllSkinByGroup(slot0)
 end
 
-function slot0.getDisplayableSkinList(slot0)
+slot0.getDisplayableSkinList = function(slot0)
 	slot1 = {}
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		return slot0.skin_type == ShipSkin.SKIN_TYPE_OLD or slot0.skin_type == ShipSkin.SKIN_TYPE_NOT_HAVE_HIDE and not getProxy(ShipSkinProxy):hasSkin(slot0.id)
 	end
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		return getProxy(ShipSkinProxy):InShowTime(slot0)
 	end
 
@@ -211,15 +209,15 @@ function slot0.getDisplayableSkinList(slot0)
 	return slot1
 end
 
-function slot0.getDefaultSkin(slot0)
+slot0.getDefaultSkin = function(slot0)
 	return ShipSkin.GetSkinByType(slot0, ShipSkin.SKIN_TYPE_DEFAULT)
 end
 
-function slot0.getProposeSkin(slot0)
+slot0.getProposeSkin = function(slot0)
 	return ShipSkin.GetSkinByType(slot0, ShipSkin.SKIN_TYPE_PROPOSE)
 end
 
-function slot0.getModSkin(slot0)
+slot0.getModSkin = function(slot0)
 	if pg.ship_data_trans[slot0] then
 		return pg.ship_skin_template[slot1.skin_id]
 	end
@@ -227,7 +225,7 @@ function slot0.getModSkin(slot0)
 	return nil
 end
 
-function slot0.GetSkin(slot0, slot1)
+slot0.GetSkin = function(slot0, slot1)
 	if not slot1 then
 		return uv0.getDefaultSkin(slot0.id)
 	else
@@ -235,25 +233,25 @@ function slot0.GetSkin(slot0, slot1)
 	end
 end
 
-function slot0.updateMaxIntimacy(slot0, slot1)
+slot0.updateMaxIntimacy = function(slot0, slot1)
 	slot0.maxIntimacy = math.max(slot1, slot0.maxIntimacy)
 end
 
-function slot0.updateMarriedFlag(slot0)
+slot0.updateMarriedFlag = function(slot0)
 	slot0.married = 1
 end
 
-function slot0.isBluePrintGroup(slot0)
+slot0.isBluePrintGroup = function(slot0)
 	return uv0.IsBluePrintGroup(slot0.id)
 end
 
-function slot0.getBluePrintChangeSkillList(slot0)
+slot0.getBluePrintChangeSkillList = function(slot0)
 	assert(slot0:isBluePrintGroup(), "ShipGroup " .. slot0.id .. "isn't BluePrint")
 
 	return pg.ship_data_blueprint[slot0.id].change_skill
 end
 
-function slot0.GetNationTxt(slot0)
+slot0.GetNationTxt = function(slot0)
 	slot1 = slot0.shipConfig.nationality
 
 	return Nation.Nation2facionName(slot1) .. "-" .. Nation.Nation2Name(slot1)
@@ -264,7 +262,7 @@ slot0.CONDITION_CLEAR = 0
 slot0.CONDITION_INTIMACY = 1
 slot0.CONDITION_MARRIED = 2
 
-function slot0.VoiceReplayCodition(slot0, slot1)
+slot0.VoiceReplayCodition = function(slot0, slot1)
 	slot2 = true
 	slot3 = ""
 
@@ -295,11 +293,11 @@ function slot0.VoiceReplayCodition(slot0, slot1)
 	return slot2, slot3
 end
 
-function slot0.GetMaxIntimacy(slot0)
+slot0.GetMaxIntimacy = function(slot0)
 	return slot0.maxIntimacy / 100 + (slot0.married and slot0.married * 1000 or 0)
 end
 
-function slot0.isSpecialFilter(slot0)
+slot0.isSpecialFilter = function(slot0)
 	for slot4, slot5 in ipairs(slot0.shipConfig.tag_list) do
 		if slot5 == "special" then
 			return true
@@ -309,15 +307,15 @@ function slot0.isSpecialFilter(slot0)
 	return false
 end
 
-function slot0.getGroupId(slot0)
+slot0.getGroupId = function(slot0)
 	return slot0.id
 end
 
-function slot0.isRemoulded(slot0)
+slot0.isRemoulded = function(slot0)
 	return slot0.remoulded
 end
 
-function slot0.isMetaGroup(slot0)
+slot0.isMetaGroup = function(slot0)
 	return uv0.IsMetaGroup(slot0.id)
 end
 
@@ -325,12 +323,12 @@ slot2 = {
 	feeling2 = true,
 	feeling3 = true,
 	feeling5 = true,
-	feeling4 = true,
 	propose = true,
+	feeling4 = true,
 	feeling1 = true
 }
 
-function slot0.getIntimacyName(slot0, slot1)
+slot0.getIntimacyName = function(slot0, slot1)
 	if not uv0[slot1] then
 		return
 	end
@@ -342,7 +340,7 @@ function slot0.getIntimacyName(slot0, slot1)
 	end
 end
 
-function slot0.getProposeType(slot0)
+slot0.getProposeType = function(slot0)
 	if slot0:isMetaGroup() then
 		return "meta"
 	elseif slot0:IsXIdol() then
@@ -352,27 +350,27 @@ function slot0.getProposeType(slot0)
 	end
 end
 
-function slot0.IsXIdol(slot0)
+slot0.IsXIdol = function(slot0)
 	return slot0:getNation() == Nation.IDOL_LINK
 end
 
-function slot0.CanUseShareSkin(slot0)
+slot0.CanUseShareSkin = function(slot0)
 	return slot0.groupConfig.share_group_id and #slot0.groupConfig.share_group_id > 0
 end
 
-function slot0.rarity2bgPrint(slot0, slot1)
+slot0.rarity2bgPrint = function(slot0, slot1)
 	return shipRarity2bgPrint(slot0:getRarity(slot1), slot0:isBluePrintGroup(), slot0:isMetaGroup())
 end
 
-function slot0.rarity2bgPrintForGet(slot0, slot1, slot2)
+slot0.rarity2bgPrintForGet = function(slot0, slot1, slot2)
 	return skinId2bgPrint(slot2 or slot0:GetSkin(slot1).id) or slot0:rarity2bgPrint(slot1)
 end
 
-function slot0.setEquipCodes(slot0, slot1)
+slot0.setEquipCodes = function(slot0, slot1)
 	slot0.equipCodes = slot1
 end
 
-function slot0.getEquipCodes(slot0)
+slot0.getEquipCodes = function(slot0)
 	return slot0.equipCodes
 end
 

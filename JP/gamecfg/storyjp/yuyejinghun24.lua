@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN24",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "海天",
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "海天",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "暗闇の中、さすがに近づいてくる相手の正体は視認できませんでしたが…",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -81,9 +81,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まだ思い出せていない技能があるのを思い出し、あなたは自分が「忍び足」のエキスパートではないかと思い始めました",
 			typewriter = {
@@ -96,9 +96,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "だがそんな予想とは裏腹に、しばらく待っても何も起こりませんでした。ええ、あなたは闇に紛れる技能を持ち合わせていなかったのです",
 			typewriter = {
@@ -242,9 +242,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "海天",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "意気揚々とあなたは銃を取り出し、自ら光に向けて飛び出しました",
 			typewriter = {
@@ -257,9 +257,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "海天",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "危険がすぐそこまで迫ってきていることを知りながらも、あなたは静かに成り行きを見守ることにしました",
 			typewriter = {
@@ -272,9 +272,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "海天",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そしてランプに照らされ、あなたは見つかってしまいました",
 			typewriter = {
@@ -285,11 +285,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_156",
+			actor = 9600010,
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "…探索者、ここで何やっているの？",
 			typewriter = {
@@ -297,17 +297,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -315,11 +315,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			side = 2,
+			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "一人だと迷子になって書斎に辿り着けないかもってウィダーが心配して、私を案内役に遣わせたよ",
@@ -333,9 +333,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "折り返してランプを持ってきたから時間がかかったの",
 			typewriter = {
@@ -344,11 +344,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			side = 2,
+			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "探索者のその感じ…心配が的中したようね。ついてきて、書斎はもうすぐそこよ",
@@ -382,11 +382,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			side = 2,
+			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "…じっと見つめてどうしたの？なんか変なものでもついてた？",
@@ -400,9 +400,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "…なんだか優しくなった？",
 			typewriter = {
@@ -415,9 +415,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "こほん…それは…実は探索者のことを、今まで来た名ばかりのインチキと同じだと思ってたから",
 			typewriter = {
@@ -426,11 +426,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			side = 2,
+			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "でもさっき、ウィダーから色々教えてもらってね",
@@ -444,9 +444,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "まだ認めたわけではないけど…ウィダーがあなたを信用するなら、わたしも信じてもいいかなって",
 			typewriter = {
@@ -455,11 +455,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			side = 2,
+			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "賢いウィダーについていけば間違いなしっ！どうか…この事件を解決してみんなを救ってあげて",
@@ -483,13 +483,13 @@ return {
 			}
 		},
 		{
-			actorName = "ロイヤル・フォーチュン",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
 			optionFlag = 1,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "じゃあお願い～",
 			typewriter = {
@@ -502,10 +502,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
+			nameColor = "#A9F548FF",
 			optionFlag = 3,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "ふふん、あくまでビジネスでやっている、ということね",
 			typewriter = {
@@ -514,13 +514,13 @@ return {
 			}
 		},
 		{
-			actorName = "ロイヤル・フォーチュン",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
 			optionFlag = 3,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "安心して。依頼された業務から離れたものなら、もちろん追加で報酬をあげる♪",
 			typewriter = {
@@ -561,9 +561,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "やばっ、早く逃げないと。多分ゴールデン・ハインドたちだから、万が一鉢合わせたらまずいよ",
 			typewriter = {
@@ -624,13 +624,13 @@ return {
 			}
 		},
 		{
-			actorName = "ロイヤル・フォーチュン",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
 			optionFlag = 1,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "ちょっと探索者！いくらなんでもゴールデン・ハインドに銃を向けるのはあんまりだよ",
 			typewriter = {
@@ -643,9 +643,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "海天",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "彼女の真面目そうな口調から、あなたはやや「殺意」を感じ取りました",
 			typewriter = {
@@ -791,11 +791,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			side = 2,
+			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "今だ！早く逃げよう！",
@@ -819,8 +819,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

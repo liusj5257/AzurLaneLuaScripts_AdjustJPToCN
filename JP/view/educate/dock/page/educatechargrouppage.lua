@@ -1,6 +1,6 @@
 slot0 = class("EducateCharGroupPage", import("view.base.BaseEventLogic"))
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	pg.DelegateInfo.New(slot0)
 	uv0.super.Ctor(slot0, slot2)
 
@@ -18,7 +18,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0:RegisterEvent()
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	onButton(slot0, slot0.profileBtn, function ()
 		uv0:emit(EducateCharDockMediator.GO_PROFILE)
 	end, SFX_PANEL)
@@ -27,24 +27,24 @@ function slot0.RegisterEvent(slot0)
 	end)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:InitList()
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	setActive(slot0.tf, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	setActive(slot0.tf, false)
 	slot0:RemoveAllTimer()
 end
 
-function slot0.GetSelectedId(slot0)
+slot0.GetSelectedId = function(slot0)
 	return getProxy(PlayerProxy):getRawData():GetEducateCharacter()
 end
 
-function slot0.InitList(slot0)
+slot0.InitList = function(slot0)
 	slot0.cards = {}
 	slot0.selectedId = slot0:GetSelectedId()
 	slot1 = getProxy(EducateProxy):GetEducateGroupList()
@@ -66,7 +66,7 @@ function slot0.InitList(slot0)
 	slot0.uiItemList:align(#slot1)
 end
 
-function slot0.FlushList(slot0, slot1)
+slot0.FlushList = function(slot0, slot1)
 	slot0.selectedId = slot1
 
 	for slot5, slot6 in pairs(slot0.cards) do
@@ -74,7 +74,7 @@ function slot0.FlushList(slot0, slot1)
 	end
 end
 
-function slot0.InitCard(slot0, slot1, slot2, slot3)
+slot0.InitCard = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("anim_root")
 	slot5 = slot4:Find("label/Text"):GetComponent(typeof(Image))
 	slot5.sprite = GetSpriteFromAtlas("ui/EducateDockUI_atlas", slot2:GetSpriteName())
@@ -112,7 +112,7 @@ function slot0.InitCard(slot0, slot1, slot2, slot3)
 	slot0.timers[slot3]:Start()
 end
 
-function slot0.UpdateCard(slot0, slot1, slot2)
+slot0.UpdateCard = function(slot0, slot1, slot2)
 	slot3 = slot1:Find("anim_root")
 
 	setActive(slot3:Find("lock"), slot2:IsLock())
@@ -121,7 +121,7 @@ function slot0.UpdateCard(slot0, slot1, slot2)
 	setActive(slot3:Find("tip"), slot2:ShouldTip())
 end
 
-function slot0.RemoveAllTimer(slot0)
+slot0.RemoveAllTimer = function(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot5:Stop()
 
@@ -131,7 +131,7 @@ function slot0.RemoveAllTimer(slot0)
 	slot0.timers = {}
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	slot1 = pairs
 	slot2 = slot0.cards or {}
 

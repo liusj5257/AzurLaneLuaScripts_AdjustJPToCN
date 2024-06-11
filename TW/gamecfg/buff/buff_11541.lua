@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.1,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -20,8 +20,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
 					number = 0.2,
+					attr = "criDamage",
 					index = {
 						1
 					}
@@ -37,8 +37,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.122,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -50,8 +50,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
 					number = 0.233,
+					attr = "criDamage",
 					index = {
 						1
 					}
@@ -67,8 +67,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.144,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -80,8 +80,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
 					number = 0.266,
+					attr = "criDamage",
 					index = {
 						1
 					}
@@ -97,8 +97,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.166,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -110,8 +110,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
 					number = 0.299,
+					attr = "criDamage",
 					index = {
 						1
 					}
@@ -127,8 +127,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.188,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -140,8 +140,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
 					number = 0.332,
+					attr = "criDamage",
 					index = {
 						1
 					}
@@ -157,8 +157,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.21,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -170,8 +170,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
 					number = 0.365,
+					attr = "criDamage",
 					index = {
 						1
 					}
@@ -187,8 +187,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.232,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -200,8 +200,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
 					number = 0.398,
+					attr = "criDamage",
 					index = {
 						1
 					}
@@ -217,8 +217,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.254,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -230,8 +230,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
 					number = 0.431,
+					attr = "criDamage",
 					index = {
 						1
 					}
@@ -247,8 +247,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.276,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -260,8 +260,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
 					number = 0.464,
+					attr = "criDamage",
 					index = {
 						1
 					}
@@ -277,8 +277,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.3,
+					attr = "cri",
 					index = {
 						1
 					}
@@ -290,8 +290,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "criDamage",
 					number = 0.5,
+					attr = "criDamage",
 					index = {
 						1
 					}
@@ -299,9 +299,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "最后的炮火",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 3,
@@ -322,8 +322,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 0.1,
+				attr = "cri",
 				index = {
 					1
 				}
@@ -335,8 +335,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "criDamage",
 				number = 0.2,
+				attr = "criDamage",
 				index = {
 					1
 				}

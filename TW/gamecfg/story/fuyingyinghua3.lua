@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "story-4",
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "諸位，請留步。",
-			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "好久不見，{namecode:91}大人，{namecode:92}大人。",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "“向神明展現勇武，向神明納奉才智，向神明給予信仰”",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "{namecode:179}號航空母艦，參上！",
 			typewriter = {
 				speed = 0.05,

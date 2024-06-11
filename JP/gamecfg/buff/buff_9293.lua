@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "白龙剧情战 触发龙宫机关-回复技能 buff4：回血效果",
 	time = 999,
-	color = "yellow",
+	name = "白龙剧情战 触发龙宫机关-回复技能 buff4：回血效果",
+	init_effect = "",
+	id = 9293,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9293,
+	color = "yellow",
 	icon = 9293,
 	last_effect = "Health",
 	effect_list = {

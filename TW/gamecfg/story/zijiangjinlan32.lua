@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN32",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg14",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "大棋盤·三笠&長門控制區第十回合",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "武藏大人引發的的日蝕……有點不祥的感覺。",
 			painting = {
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "是啊，古時候都是這麼認為的呢。不過隨著時代的發展，大家都知道這只是普通的天文現象了。",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "雖然看上去確實有點滲人……",
 			painting = {
@@ -106,8 +106,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "也不要把古人想的太愚昧了，其實當時的人自然也知道這是天文現象的。",
 			painting = {
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "所謂日蝕象徵災禍，多數還是用於勸諫之時的藉口。",
 			painting = {
@@ -140,8 +140,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "具體到武藏這次的用意上來……",
 			painting = {
@@ -173,8 +173,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "恐怕其意為此吧。",
 			painting = {
@@ -190,8 +190,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "有點複雜……",
 			painting = {
@@ -207,8 +207,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "呵呵，等對局結束之後帶著問題去問旗風吧，我就先賣個關子。",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "三笠前輩，日蝕的效果與海霧不同，日蝕之下所有人的攻擊距離都會受到影響，這回合不用太擔心空襲的問題了吧。",
 			painting = {
@@ -257,8 +257,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "只是武藏那邊……唉，她是每回合行動的最後一人還真是不方便進行判斷……",
 			painting = {
@@ -308,8 +308,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "現在是第十回合中盤，棋局將在十二回合結束，赤城既然選擇開始進攻中心據點，就不太可能再來與我們相互爭鬥。",
 			painting = {
@@ -341,8 +341,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "如果赤城受到我的挑釁全力打我，那她們就不太可能在十二回合全部結束前佔領中心據點了。",
 			painting = {
@@ -374,8 +374,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "赤城若堅定自己的計劃不受挑釁，那也沒有大礙。赤城與加賀的技能雖然沒有公開，但毫無疑問會用在中心據點的攻略上。",
 			painting = {
@@ -407,8 +407,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "目前最大的變數就是武藏，她還有一張指揮卡沒有用，本人也沒有入場。",
 			painting = {
@@ -424,8 +424,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "武藏不入場，我們就沒機會弄清楚她的戰略究竟是什麼。",
 			painting = {
@@ -491,8 +491,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "現在繼續防守武藏入侵已經沒有意義了，因此讓江風也去參與爭奪據點。",
 			painting = {
@@ -524,8 +524,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "榛名和比叡去進攻最後一個可進攻的據點GH910。",
 			painting = {
@@ -541,8 +541,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "雖然本回合全員的攻擊射程被縮減，但她們二人的技能組合可以相互配合進行一輪爆發式打擊。",
 			painting = {
@@ -576,8 +576,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "榛名的則是「烈光的武勳艦」，本回合所有屬性翻倍，但是下回合無法進行任何移動。",
 			painting = {
@@ -627,8 +627,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "總之，現在已經不用考慮下回合的事了，這回合就把火力全部傾瀉掉，拿掉所有能拿的積分。",
 			painting = {
@@ -660,8 +660,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "在上述攻略結束之後，你擁有的積分就是16分，我7分，赤城8分，武藏6分。",
 			painting = {
@@ -693,8 +693,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "而這一部署可以在武藏行動之前完成，接下來不論她留的指揮卡是什麼，是否入場，都已經沒意義了。",
 			painting = {
@@ -744,8 +744,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "長門，妳從頭到尾堅持貫徹自己的理念，終於要迎來開花結果的時候了。",
 			painting = {
@@ -761,8 +761,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "不過，在真正勝利之前我們不能放鬆警惕。",
 			painting = {
@@ -794,8 +794,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "不論赤城加賀下回合想做什麼，憑藉她們現在的戰鬥力，想一回合消滅中心據點還是太異想天開了。",
 			painting = {
@@ -827,8 +827,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "只要妳我接力進攻，收下勝利絕非妄談！",
 			painting = {

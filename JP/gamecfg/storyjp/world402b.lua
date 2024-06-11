@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD402B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD402B",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "鉄血艦隊はこちらと合流する気がなさそうね。共同作戦とは一体どういうことなのかしら？",
 			bgm = "bsm-7",
+			actor = 307010,
+			nameColor = "#a9f548",
+			say = "鉄血艦隊はこちらと合流する気がなさそうね。共同作戦とは一体どういうことなのかしら？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -85,8 +85,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "プリンツ・オイゲンならわかるかもしれませんが",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "いいえ、そんなことをする必要はありませんわ。元々単独行動を想定していましたし、NA海域にいるというのならどこかで会えるはずよ",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,8 +192,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "はい、すぐ準備します。しかし本当にいいのですか？鉄血技術のデモンストレーション、明日にも予定が……",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "配慮いただきありがとうございます。申し訳ございません。ええ",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "そのため、よかったらこの鉄血製の最新型通信装置をお持ちください",
 			typewriter = {
@@ -323,8 +323,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "ええ、そのために用意したものですので",
 			typewriter = {
@@ -356,9 +356,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
 			blackBg = true,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "補給はこちらへ",
 			typewriter = {

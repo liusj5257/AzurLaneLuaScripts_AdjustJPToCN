@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "毁灭模式·原型",
 	init_effect = "",
+	id = 12280,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12280,
+	color = "blue",
 	icon = 12280,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 12281,
-				time = 20,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 20
 			}
 		}
 	}

@@ -10,16 +10,16 @@ return {
 		{
 			alpha = 0,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = -301,
 				posX = 422,
 				text = slot0[1]
 			},
 			ui = {
 				hideChildEvent = true,
-				path = "/OverlayCamera/Overlay/UIMain/EquipUpgradeUI(Clone)/finish_panel/bg",
 				pathIndex = -1,
+				path = "/OverlayCamera/Overlay/UIMain/EquipUpgradeUI(Clone)/finish_panel/bg",
 				triggerType = {
 					1
 				},
@@ -33,9 +33,9 @@ return {
 			alpha = 0,
 			ui = {
 				hideChildEvent = true,
+				pathIndex = -1,
 				delay = 0.5,
 				path = "/OverlayCamera/Overlay/UIMain/EquipUpgradeUI(Clone)/bg",
-				pathIndex = -1,
 				triggerType = {
 					1
 				},
@@ -48,15 +48,15 @@ return {
 		{
 			alpha = 0.344,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 211.84,
 				posX = -105.86,
 				text = slot0[2]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back_btn",
 				triggerType = {
 					1
 				},
@@ -70,15 +70,15 @@ return {
 			alpha = 0.376,
 			waitScene = "DockyardScene",
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 230.33,
 				posX = -231.7,
 				text = slot0[3]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/blur_panel/adapt/top/back",
 				triggerType = {
 					1
 				},

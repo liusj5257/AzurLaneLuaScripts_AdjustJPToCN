@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEZHICHENGDEMEIYING5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEZHICHENGDEMEIYING5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"영야의 성의 그림자\n\n<size=45>5. 운명의 갈림길</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "방 전체를 뒤져보니, 조각상으로 위장된 정수기와 컵을 하나 발견했다. 그렇지만…",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet-reborn",
+			say = "방 전체를 뒤져보니, 조각상으로 위장된 정수기와 컵을 하나 발견했다. 그렇지만…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "빨간색으로 된 음료나 다른 비슷한 뱀파이어가 먹을 수 있을 만한 음식 같은 건 찾지 못했다.",
 			typewriter = {
 				speed = 0.05,
@@ -64,14 +64,14 @@ return {
 			}
 		},
 		{
-			actor = 402081,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
-			say = "(지휘관은 분명 저주받은 물건을 찾지 못할 거야…)",
 			fontsize = 40,
+			actor = 402081,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "(지휘관은 분명 저주받은 물건을 찾지 못할 거야…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,14 +82,14 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
-			say = "(엘빙… 조용히 좀 해… 아직… 대사가 남았다구…)",
 			fontsize = 40,
+			actor = 408024,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "(엘빙… 조용히 좀 해… 아직… 대사가 남았다구…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,8 +119,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,10 +132,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402081,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "인간, 우리에게 주어진 시간은 많지 않다… '영야의 주인'의 숨결이 점점 가까워지는 게 느껴져…",
 			typewriter = {
 				speed = 0.05,
@@ -147,9 +147,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "심지어 시간제한까지 있는 스테이지였다니… 그렇다면 이제——",
 			typewriter = {
 				speed = 0.05,
@@ -186,14 +186,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "문 뒤에는 좁고 긴, 구불구불하고 어두운 복도가 있었다. 복도에는 많은 갈림길이 있었지만, 어느 길로 가든 다시 이 복도로 돌아왔다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -233,12 +233,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			optionFlag = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -261,14 +261,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "완전히 갇혀버렸어, 이럴 줄 알았으면 그렇게 충동적으로 결정하진 않았을 텐데…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -293,13 +293,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "여기…",
 			typewriter = {
 				speed = 0.05,
@@ -326,13 +326,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관, 여기야, 여기~",
 			typewriter = {
 				speed = 0.05,
@@ -344,13 +344,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "딱 봐도 조급함 때문에 모든 걸 지휘관의 운에 맡긴 모양이네.",
 			typewriter = {
 				speed = 0.05,
@@ -362,13 +362,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "하지만 유감스럽게도 이 복도는 수수께끼를 완전히 풀지 않으면 어떤 문으로 나가도 베드 엔딩이라구~",
 			typewriter = {
 				speed = 0.05,
@@ -380,13 +380,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이 작은 십자가를 들고 날 따라와~",
 			typewriter = {
 				speed = 0.05,
@@ -398,13 +398,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "자, 이건 원래 이번 스테이지를 통과하면 받는 보상이야, 나중에 쓸 일이 생길 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -416,11 +416,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			optionFlag = 1,
+			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
@@ -529,13 +529,13 @@ return {
 			}
 		},
 		{
-			actor = 402081,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 402081,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "꿀꺽… 꿀꺽…",
 			typewriter = {
 				speed = 0.05,
@@ -615,13 +615,13 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 408024,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "인간, 이걸 가져가. 이건 '영야의 주인'이 우리 주인님의 힘을 억제할 때 쓰던 도구야. 이젠 우리 주인님한테 전혀 효력이 없으니 너한테 선물로 줄게.",
 			typewriter = {
 				speed = 0.05,
@@ -648,11 +648,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			optionFlag = 2,
+			blackBg = true,
 			actor = 402081,
 			nameColor = "#a9f548",
 			hidePaintObj = true,

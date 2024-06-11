@@ -10,17 +10,17 @@ slot2 = {
 	[EducateSpecialEvent.TAG_END] = "7C7E81"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateNewsUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.curTime = getProxy(EducateProxy):GetCurTime()
 	slot0.finishEvents = getProxy(EducateProxy):GetEventProxy():GetFinishSpecEventIds()
 	slot0.importEvents = {}
@@ -38,7 +38,7 @@ function slot0.initData(slot0)
 	end
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
 	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
 
@@ -64,13 +64,13 @@ function slot0.findUI(slot0)
 	setText(slot0:findTF("empty/Text", slot0.otherTF), i18n("child_news_other_empty"))
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0:findTF("anim_root/bg"), function ()
 		uv0:_close()
 	end, SFX_PANEL)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		groupName = slot0:getGroupNameFromData(),
 		weight = slot0:getWeightFromData() + 1
@@ -79,7 +79,7 @@ function slot0.didEnter(slot0)
 	slot0:updateNewsList()
 end
 
-function slot0.initNewsList(slot0)
+slot0.initNewsList = function(slot0)
 	slot1 = slot0.importUIList
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -97,7 +97,7 @@ function slot0.initNewsList(slot0)
 	end)
 end
 
-function slot0.updateEventItem(slot0, slot1, slot2, slot3)
+slot0.updateEventItem = function(slot0, slot1, slot2, slot3)
 	slot4 = slot3 and slot0.importEvents[slot1 + 1] or slot0.otherEvents[slot1 + 1]
 	slot5 = slot4:GetTag(slot0.finishEvents, slot0.curTime.week)
 	slot6 = EducateSpecialEvent.TAG2NAME[slot5]
@@ -111,7 +111,7 @@ function slot0.updateEventItem(slot0, slot1, slot2, slot3)
 	setText(slot0:findTF("time/Text", slot2), slot4:GetTimeDesc())
 end
 
-function slot0.updateNewsList(slot0)
+slot0.updateNewsList = function(slot0)
 	slot1 = CompareFuncs({
 		function (slot0)
 			return slot0:GetTag(uv0.finishEvents, uv0.curTime.week)
@@ -129,15 +129,15 @@ function slot0.updateNewsList(slot0)
 	slot0.otherUIList:align(#slot0.otherEvents)
 end
 
-function slot0._close(slot0)
+slot0._close = function(slot0)
 	slot0.anim:Play("anim_educate_newsUI_out")
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:_close()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end

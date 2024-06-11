@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"素直になれないキモチ\n\n<size=45>二  見透かさないでよ！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ネルソンが任務から戻ってきた日の翌日――",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ネルソンが任務から戻ってきた日の翌日――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "――って……ロ、ロドニー！？　そっちこそ、急に声をかけるほうが危ないのっ",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -127,8 +127,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "急にも何も、まっすぐ歩いてきただけです。先ほど指揮官に任務完了の報告をしてきた帰りなので",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "はい、肩を揉んであげただけです",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "ふふふ",
 			typewriter = {
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "返事を聞くこともなく、ネルソンは足早にロドニーの元を離れて歩き出した。",
 			typewriter = {
 				speed = 0.05,
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "はぁ……指揮官に「いつもお疲れ様」くらい言ってやろうかしら",
 			typewriter = {
 				speed = 0.05,

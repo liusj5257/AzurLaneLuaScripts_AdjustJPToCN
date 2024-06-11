@@ -1,6 +1,6 @@
 slot0 = class("OpenMailCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if getProxy(MailProxy):getMailById(slot1:getBody()) == nil then
 		print("邮件不存在: " .. slot2)
 

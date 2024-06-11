@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG22",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG22",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 705010,
 			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あはははは！いいぞユニオン空母！その活躍、華奢な体躯にしては天晴だ！",
 			bgm = "bgm-cccp",
+			actor = 705010,
+			nameColor = "#a9f548",
+			say = "あはははは！いいぞユニオン空母！その活躍、華奢な体躯にしては天晴だ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "言い方がすごく気に入らないけど、そちらの実力も中々だわね",
 			typewriter = {
@@ -60,8 +60,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "早く指揮官と合流しないとね！",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "おう！そこは我がひらめきと、北方連合の技術に頼っていい！",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "キーロフ、どうした？",
 			typewriter = {

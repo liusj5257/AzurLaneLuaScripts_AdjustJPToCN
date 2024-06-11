@@ -1,16 +1,16 @@
 slot0 = class("PublicGuildMainScene", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "PublicGuildMainUI"
 end
 
-function slot0.OnUpdateDonateList(slot0)
+slot0.OnUpdateDonateList = function(slot0)
 	if slot0.page and isa(slot0.page, PublicGuildOfficePage) and slot0.page:GetLoaded() then
 		slot0.page:Flush()
 	end
 end
 
-function slot0.OnPlayerUpdate(slot0, slot1)
+slot0.OnPlayerUpdate = function(slot0, slot1)
 	slot0:SetPlayer(slot1)
 
 	if slot0.resPage and slot0.resPage:GetLoaded() then
@@ -18,27 +18,27 @@ function slot0.OnPlayerUpdate(slot0, slot1)
 	end
 end
 
-function slot0.OnTechGroupUpdate(slot0, slot1)
+slot0.OnTechGroupUpdate = function(slot0, slot1)
 	if slot0.page and isa(slot0.page, PublicGuildTechnologyPage) and slot0.page:GetLoaded() then
 		slot0.page:OnTechGroupUpdate(slot1)
 	end
 end
 
-function slot0.RefreshAll(slot0)
+slot0.RefreshAll = function(slot0)
 	if slot0.page and slot0.page:GetLoaded() then
 		slot0.page:Show(slot0.publicGuild)
 	end
 end
 
-function slot0.SetPublicGuild(slot0, slot1)
+slot0.SetPublicGuild = function(slot0, slot1)
 	slot0.publicGuild = slot1
 end
 
-function slot0.SetPlayer(slot0, slot1)
+slot0.SetPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._playerResOb = slot0:findTF("blur_panel/adapt/top/res")
 	slot0.resPage = PublicGuildResPage.New(slot0._playerResOb, slot0.event)
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
@@ -54,7 +54,7 @@ function slot0.init(slot0)
 	}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = pg.GuildPaintingMgr.GetInstance()
 
 	slot1:Enter(slot0:findTF("bg/painting"))
@@ -66,7 +66,7 @@ function slot0.didEnter(slot0)
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_PANEL)
 
-	function slot4()
+	slot4 = function()
 		if isa(uv0.page, PublicGuildOfficePage) then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
@@ -97,7 +97,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.SwitchPage(slot0, slot1)
+slot0.SwitchPage = function(slot0, slot1)
 	slot2 = slot0.pages[slot1]
 
 	if slot0.page then
@@ -109,7 +109,7 @@ function slot0.SwitchPage(slot0, slot1)
 	slot0.page = slot2
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.GuildPaintingMgr.GetInstance():Exit()
 	slot0.resPage:Destroy()
 

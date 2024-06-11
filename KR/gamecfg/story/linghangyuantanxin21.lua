@@ -7,12 +7,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_project_tb_room1",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "story-richang-flexible",
-			actor = 1002,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room1",
+			bgm = "story-richang-flexible",
+			tbActor = true,
+			actor = 1002,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "? 창문 밖에……",
 			typewriter = {
@@ -20,17 +20,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "TB가 창문 밖을 손가락으로 가리키고 있다.",
@@ -52,10 +52,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1002,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "별? 물고기? 말?",
 			typewriter = {
@@ -67,10 +67,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room1",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1002,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "항공모함? 전함…?",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "TB가 손가락으로 가리킨 곳을 보니……",
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			say = "아! 정말이네! 아카시는 대체 뭘 기준으로 이 버추얼 타운을 만든 거야…?",

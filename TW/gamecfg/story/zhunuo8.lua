@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUNUO8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUNUO8",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 404010,
 			side = 2,
-			nameColor = "#D6341D",
 			dir = 1,
 			blackBg = true,
+			actor = 404010,
+			nameColor = "#D6341D",
 			stopBGM = true,
 			say = "格奈森瑙，對手怎麼樣？",
 			typewriter = {
@@ -24,12 +24,12 @@ return {
 			}
 		},
 		{
-			actor = 404020,
+			say = "不先關心自己的妹妹，反而是詢問對手的實力，不愧是我的姐姐啊……",
 			side = 1,
-			nameColor = "#D6341D",
 			dir = -1,
 			blackBg = true,
-			say = "不先關心自己的妹妹，反而是詢問對手的實力，不愧是我的姐姐啊……",
+			actor = 404020,
+			nameColor = "#D6341D",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

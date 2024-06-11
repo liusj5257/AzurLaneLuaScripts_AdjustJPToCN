@@ -1,12 +1,12 @@
 return {
-	id = "W710035",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710035",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "所有棋子都被消除了......看起来空间恢复了稳定",
 			typewriter = {
 				speed = 0.05,

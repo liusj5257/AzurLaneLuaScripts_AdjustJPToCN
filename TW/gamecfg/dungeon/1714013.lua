@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,
@@ -82,9 +82,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 16504001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -97,9 +97,9 @@ return {
 						},
 						{
 							monsterTemplateID = 16504102,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -108,9 +108,9 @@ return {
 						},
 						{
 							monsterTemplateID = 16504001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -135,8 +135,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 16504103,
-							reinforceDelay = 6,
 							score = 0,
+							reinforceDelay = 6,
 							delay = 0,
 							moveCast = true,
 							corrdinate = {
@@ -149,9 +149,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 16504001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -164,9 +164,9 @@ return {
 						},
 						{
 							monsterTemplateID = 16504002,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								3,
 								0,
@@ -179,9 +179,9 @@ return {
 						},
 						{
 							monsterTemplateID = 16504002,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								3,
 								0,
@@ -194,9 +194,9 @@ return {
 						},
 						{
 							monsterTemplateID = 16504001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -234,9 +234,9 @@ return {
 						{
 							score = 0,
 							reinforceDelay = 6,
-							monsterTemplateID = 16504301,
 							delay = 0.1,
 							moveCast = true,
+							monsterTemplateID = 16504301,
 							corrdinate = {
 								-5,
 								0,
@@ -249,9 +249,9 @@ return {
 							},
 							phase = {
 								{
-									index = 0,
 									switchParam = 0.1,
 									switchTo = 1,
+									index = 0,
 									switchType = 1,
 									addWeapon = {
 										3054301
@@ -259,10 +259,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchType = 1,
+									switchParam = 6.5,
 									switchTo = 2,
 									index = 1,
-									switchParam = 6.5,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {
 										3054302
@@ -270,9 +270,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 2,
 									switchParam = 6,
 									switchTo = 3,
+									index = 2,
 									switchType = 1,
 									addWeapon = {
 										3054303
@@ -282,10 +282,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 10,
 									switchTo = 4,
 									index = 3,
-									switchParam = 10,
+									switchType = 1,
 									setAI = 75027,
 									addWeapon = {
 										3054304,
@@ -300,10 +300,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 1,
 									switchTo = 5,
 									index = 4,
-									switchParam = 1,
+									switchType = 1,
 									setAI = 70093,
 									addWeapon = {
 										3054301
@@ -315,9 +315,9 @@ return {
 									}
 								},
 								{
-									index = 5,
 									switchParam = 0.1,
 									switchTo = 6,
+									index = 5,
 									switchType = 1,
 									addWeapon = {
 										3054308
@@ -325,10 +325,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchType = 1,
+									switchParam = 10,
 									switchTo = 7,
 									index = 6,
-									switchParam = 10,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
 										3054309,
@@ -339,10 +339,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 1,
 									switchTo = 1,
 									index = 7,
-									switchParam = 1,
+									switchType = 1,
 									setAI = 70093,
 									addWeapon = {},
 									removeWeapon = {
@@ -357,9 +357,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 16504001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								12,
 								0,
@@ -372,9 +372,9 @@ return {
 						},
 						{
 							monsterTemplateID = 16504001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								12,
 								0,
@@ -403,9 +403,9 @@ return {
 						{
 							score = 0,
 							reinforceDelay = 6,
-							monsterTemplateID = 16504302,
 							delay = 0.1,
 							moveCast = true,
+							monsterTemplateID = 16504302,
 							corrdinate = {
 								-5,
 								0,
@@ -418,17 +418,17 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 1.5,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 1.5,
 									setAI = 20006
 								},
 								{
-									switchType = 1,
+									switchParam = 5,
 									switchTo = 2,
 									index = 1,
-									switchParam = 5,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
 										3054311,
@@ -437,9 +437,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 2,
 									switchParam = 12,
 									switchTo = 3,
+									index = 2,
 									switchType = 1,
 									addWeapon = {
 										3054312
@@ -450,10 +450,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 3,
 									switchTo = 4,
 									index = 3,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70125,
 									addWeapon = {
 										3054314,
@@ -464,10 +464,10 @@ return {
 									}
 								},
 								{
-									index = 4,
 									switchType = 1,
-									switchTo = 5,
 									switchParam = 2,
+									index = 4,
+									switchTo = 5,
 									addBuff = {
 										200341
 									},
@@ -477,10 +477,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 5,
 									switchType = 1,
-									switchTo = 6,
 									switchParam = 2,
+									index = 5,
+									switchTo = 6,
 									addBuff = {
 										200342
 									},
@@ -492,9 +492,9 @@ return {
 									}
 								},
 								{
-									index = 6,
 									switchParam = 2,
 									switchTo = 7,
+									index = 6,
 									switchType = 1,
 									addWeapon = {
 										3054314,
@@ -503,9 +503,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 7,
 									switchParam = 3,
 									switchTo = 8,
+									index = 7,
 									switchType = 1,
 									addWeapon = {
 										3054316
@@ -513,10 +513,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 8,
 									switchType = 1,
-									switchTo = 9,
 									switchParam = 2.5,
+									index = 8,
+									switchTo = 9,
 									addBuff = {
 										200342
 									},
@@ -528,9 +528,9 @@ return {
 									}
 								},
 								{
-									index = 9,
 									switchParam = 2,
 									switchTo = 10,
+									index = 9,
 									switchType = 1,
 									addWeapon = {
 										3054314,
@@ -539,9 +539,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 10,
 									switchParam = 7,
 									switchTo = 11,
+									index = 10,
 									switchType = 1,
 									addWeapon = {
 										3054316
@@ -549,10 +549,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 11,
 									switchType = 1,
-									switchTo = 12,
 									switchParam = 3,
+									index = 11,
+									switchTo = 12,
 									addBuff = {
 										200342
 									},
@@ -564,10 +564,10 @@ return {
 									}
 								},
 								{
-									index = 12,
 									switchType = 1,
-									switchTo = 13,
 									switchParam = 8,
+									index = 12,
+									switchTo = 13,
 									addBuff = {
 										200344
 									},
@@ -578,9 +578,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 13,
 									switchParam = 0.5,
 									switchTo = 1,
+									index = 13,
 									switchType = 1,
 									addWeapon = {},
 									removeWeapon = {
@@ -594,9 +594,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 16504001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								12,
 								0,
@@ -609,9 +609,9 @@ return {
 						},
 						{
 							monsterTemplateID = 16504001,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								12,
 								0,
@@ -636,8 +636,8 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 16504007,
-							moveCast = true,
 							delay = 5,
+							moveCast = true,
 							corrdinate = {
 								5,
 								0,
@@ -648,11 +648,11 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 180,
+									switchType = 1,
 									dive = "STATE_RAID",
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 180,
 									setAI = 20009
 								}
 							}
@@ -674,9 +674,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 16506001,
-							moveCast = true,
-							delay = 6,
 							deadFX = "none",
+							delay = 6,
+							moveCast = true,
 							corrdinate = {
 								-35,
 								0,
@@ -699,9 +699,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 16506002,
-							moveCast = true,
-							delay = 6,
 							deadFX = "none",
+							delay = 6,
+							moveCast = true,
 							corrdinate = {
 								-35,
 								0,
@@ -724,9 +724,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 16506003,
-							moveCast = true,
-							delay = 6,
 							deadFX = "none",
+							delay = 6,
+							moveCast = true,
 							corrdinate = {
 								-35,
 								0,

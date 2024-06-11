@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Denver's Quest!\n\n<size=45>2.First Quest, First Party</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 102150,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Could you help me look for some quests, Commander? I want ones that'll score me as much rep as Cleveland.",
 			bgm = "story-1",
+			actor = 102150,
+			nameColor = "#a9f548",
+			say = "Could you help me look for some quests, Commander? I want ones that'll score me as much rep as Cleveland.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Attaining Cleveland's level of prestige is a lofty ambition indeed.",
 			typewriter = {
 				speed = 0.05,
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "In any case, solving practical problems around the port is part of my job. With that in mind, I agreed to help her. Denver started scouring the quest board, while I went asking around.",
 			typewriter = {
 				speed = 0.05,
@@ -80,13 +80,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "Around ten minutes later, Denver came to me with printed copies of some promising tasks from the quest board.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "\"They might sound like odd jobs, but I think your best strategy is to be open to all kinds of quests, regardless of what they involve.\"",
 			typewriter = {
 				speed = 0.05,
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "She had a point. These quests seemed closer to busywork than calls for urgent assistance.",
 			typewriter = {
 				speed = 0.05,
@@ -203,9 +203,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "I presented what quests I had found on my own, hoping one of them might live up to her expectations.",
 			typewriter = {
 				speed = 0.05,
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "Ooh! Storehouse pest control! You won't find a more perfect quest for me than this!",
 			typewriter = {
 				speed = 0.05,
@@ -249,8 +249,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -275,9 +275,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Denver's hardworking ethic and desire to help others are two of her greatest qualities.",
 			typewriter = {
 				speed = 0.05,
@@ -337,9 +337,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "For better or worse, I had no other plans in particular on that day, so I thought \"why not\" and agreed to help her.",
 			typewriter = {
 				speed = 0.05,
@@ -351,11 +351,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "I knew I could count on you!",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -393,9 +393,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "She balled her hand into a fist and extended her arm towards me. She held it like that, waiting for my response.",
 			typewriter = {
 				speed = 0.05,
@@ -407,9 +407,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "I realized what she was going for, and did a fist bump with her.",
 			typewriter = {
 				speed = 0.05,
@@ -437,12 +437,12 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "All right then, let's go!",
 			typewriter = {
 				speed = 0.05,

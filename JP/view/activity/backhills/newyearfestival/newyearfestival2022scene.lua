@@ -1,6 +1,6 @@
 slot0 = class("NewYearFestival2022Scene", import("..TemplateMV.BackHillTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewyearFestival2022UI"
 end
 
@@ -12,7 +12,7 @@ slot0.Buildings = {
 	[17.0] = "royalmaid"
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.top = slot0:findTF("top")
@@ -41,7 +41,7 @@ function slot0.init(slot0)
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.NewyearFestival2022Graph"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("top/back"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
@@ -95,7 +95,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.RegisterDataResponse(slot0)
+slot0.RegisterDataResponse = function(slot0)
 	slot0.Respones = ResponsableTree.CreateShell({})
 
 	slot0.Respones:SetRawData("view", slot0)
@@ -163,7 +163,7 @@ function slot0.RegisterDataResponse(slot0)
 	end)
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot1 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF)
 
 	for slot5, slot6 in pairs(slot0.Buildings) do
@@ -189,7 +189,7 @@ function slot0.UpdateView(slot0)
 	slot0:TryPlayStory()
 end
 
-function slot0.TryPlayStory(slot0)
+slot0.TryPlayStory = function(slot0)
 	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF).data1KeyValueList[2][17] or 1
 	slot3 = slot1.data1KeyValueList[2][18] or 1
 	slot5 = pg.NewStoryMgr.GetInstance()
@@ -212,13 +212,13 @@ function slot0.TryPlayStory(slot0)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:clearStudents()
 	slot0:ClearEffectFirework()
 	uv0.super.willExit(slot0)
 end
 
-function slot0.PlayFirework(slot0, slot1)
+slot0.PlayFirework = function(slot0, slot1)
 	slot1 = slot1 or {
 		0,
 		0,
@@ -273,7 +273,7 @@ function slot0.PlayFirework(slot0, slot1)
 	slot0.fireworkTimer2:Start()
 end
 
-function slot0.ClearEffectFirework(slot0)
+slot0.ClearEffectFirework = function(slot0)
 	slot0:StopSE()
 	slot0.loader:ClearRequest("Firework")
 	slot0.loader:ClearRequest("Firework2")
@@ -292,7 +292,7 @@ function slot0.ClearEffectFirework(slot0)
 	end
 end
 
-function slot0.PlaySE(slot0)
+slot0.PlaySE = function(slot0)
 	if slot0.SETimer then
 		return
 	end
@@ -311,7 +311,7 @@ function slot0.PlaySE(slot0)
 	slot0.SETimer:Start()
 end
 
-function slot0.StopSE(slot0)
+slot0.StopSE = function(slot0)
 	if slot0.SETimer then
 		pg.CriMgr.GetInstance():StopSEBattle_V3()
 		slot0.SETimer:Stop()

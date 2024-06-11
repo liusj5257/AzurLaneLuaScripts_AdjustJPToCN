@@ -22,8 +22,8 @@ return {
 				},
 				arg_list = {
 					rant = 1500,
-					target = "TargetSelf",
 					skill_id = 10600,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -52,8 +52,8 @@ return {
 				},
 				arg_list = {
 					rant = 1660,
-					target = "TargetSelf",
 					skill_id = 10600,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -82,8 +82,8 @@ return {
 				},
 				arg_list = {
 					rant = 1820,
-					target = "TargetSelf",
 					skill_id = 10600,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -112,8 +112,8 @@ return {
 				},
 				arg_list = {
 					rant = 1980,
-					target = "TargetSelf",
 					skill_id = 10600,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -142,8 +142,8 @@ return {
 				},
 				arg_list = {
 					rant = 2140,
-					target = "TargetSelf",
 					skill_id = 10600,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -172,8 +172,8 @@ return {
 				},
 				arg_list = {
 					rant = 2300,
-					target = "TargetSelf",
 					skill_id = 10600,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -202,8 +202,8 @@ return {
 				},
 				arg_list = {
 					rant = 2460,
-					target = "TargetSelf",
 					skill_id = 10600,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -232,8 +232,8 @@ return {
 				},
 				arg_list = {
 					rant = 2640,
-					target = "TargetSelf",
 					skill_id = 10600,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -262,8 +262,8 @@ return {
 				},
 				arg_list = {
 					rant = 2820,
-					target = "TargetSelf",
 					skill_id = 10600,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -292,8 +292,8 @@ return {
 				},
 				arg_list = {
 					rant = 3000,
-					target = "TargetSelf",
 					skill_id = 10600,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -302,12 +302,12 @@ return {
 	desc_get = "自身装填值提高15.0%(满级25.0%)，每次使用鱼雷时有15.0%(满级30.0%)的概率再次发射一轮",
 	name = "万夜·忉利天",
 	init_effect = "",
+	id = 10600,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "自身装填值提高$1，每次使用鱼雷时有$2的概率再次发射一轮",
 	stack = 1,
-	id = 10600,
+	color = "red",
 	icon = 10600,
 	last_effect = "",
 	effect_list = {
@@ -327,8 +327,8 @@ return {
 			},
 			arg_list = {
 				rant = 1500,
-				target = "TargetSelf",
 				skill_id = 10600,
+				target = "TargetSelf",
 				time = 10
 			}
 		}

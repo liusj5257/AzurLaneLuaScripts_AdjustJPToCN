@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Centaur and the Port \"Elders\"\n\n<size=45>Chapter 5 - Centaur's Image</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 207020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "You've managed to attain everything I've ever wished for in life... Oh, how I envy you...",
 			bgm = "story-1",
+			actor = 207020,
+			nameColor = "#a9f548",
+			say = "You've managed to attain everything I've ever wished for in life... Oh, how I envy you...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Oh, r- really...?",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -79,12 +79,12 @@ return {
 			}
 		},
 		{
-			actor = 207040,
+			say = "Envying the youth is not a good look for you, Ark Royal.",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Envying the youth is not a good look for you, Ark Royal.",
+			actor = 207040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#a9f548",
 			say = "But that's everything I've ever wanted!",
 			effects = {
 				{
@@ -124,8 +124,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Ah! Good morning, Elder Victorious!",
 			effects = {
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "Morning. Here's my mission report, Commander. Please look it over.",
 			typewriter = {
 				speed = 0.05,
@@ -182,12 +182,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "You think so too, Victorious? I'm glad I'm not the only one...",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "You think so too, Victorious? I'm glad I'm not the only one...",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -218,16 +218,16 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#a9f548",
 			say = "Absolutely not! It's more that this air of familiarity emanating from Centaur has me wanting to get closer to her... at which point we can address the prior issue...",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1,
 					dur = 0.4,
 					x = 22.5,
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "Commander, would you mind lending me your secretary for a tick?",
 			typewriter = {
 				speed = 0.05,
@@ -314,13 +314,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "......",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -360,8 +360,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Indeed. Actually, I was somewhat surprised when I noticed I was a bit different from my Elders.",
 			typewriter = {
@@ -374,12 +374,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "That's true. They're not even like the animal ears on the Sakura girls. Really something special.",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "That's true. They're not even like the animal ears on the Sakura girls. Really something special.",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -394,12 +394,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "Any idea why that is, Commander?",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Any idea why that is, Commander?",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -436,12 +436,12 @@ return {
 			}
 		},
 		{
-			actor = 207040,
+			say = "Oh? And what is it?",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh? And what is it?",
+			actor = 207040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -459,8 +459,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Might it have something to do with my name? A centaur is a mythological creature from deep in the forest, after all.",
 			typewriter = {
@@ -476,8 +476,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Perhaps that forms an association in the collective consciousness with the race of forest-dwelling Elves...?",
 			typewriter = {
@@ -509,8 +509,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Elder Akashi and Elder Yuubari? I'll have to be sure to ask them about it next time I see them.",
 			typewriter = {
@@ -542,8 +542,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "That would be fine...",
 			typewriter = {
@@ -572,16 +572,16 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#a9f548",
 			say = "I should be going as well. But Centaur, the next time you play with the destroyer girls, why don't you, um, well, invite me along...?",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1.5,
 					dur = 0.4,
 					x = 22.5,
@@ -598,12 +598,12 @@ return {
 			}
 		},
 		{
-			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
+			nameColor = "#a9f548",
 			say = "Certainly! Thank you very much, Elders!",
 			typewriter = {
 				speed = 0.05,

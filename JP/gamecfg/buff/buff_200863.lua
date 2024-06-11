@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 克莱蒙梭",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 克莱蒙梭",
+	init_effect = "",
+	id = 200863,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200863,
+	color = "yellow",
 	icon = 200863,
 	last_effect = "Darkness",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.15
+				number = 0.15,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -27,9 +27,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200863,
 				time = 5,
-				target = "TargetSelf",
-				skill_id = 200863
+				target = "TargetSelf"
 			}
 		},
 		{

@@ -1,7 +1,7 @@
 slot0 = class("SpWeaponItemView")
 slot1 = 0.5
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.go = slot1
 	slot0.bg = findTF(slot1, "frame/bg")
 	slot0.mask = findTF(slot1, "frame/bg/mask")
@@ -18,7 +18,7 @@ function slot0.Ctor(slot0, slot1)
 	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 
-function slot0.update(slot0, slot1, slot2)
+slot0.update = function(slot0, slot1, slot2)
 	setActive(slot0.equiped, false)
 	setActive(slot0.unloadBtn, not slot1)
 	setActive(slot0.bg, tobool(slot1))
@@ -49,10 +49,10 @@ function slot0.update(slot0, slot1, slot2)
 	end
 
 	setActive(slot0.specialFrame, not slot1:IsReal())
-	GetImageSpriteFromAtlasAsync("weaponframes", slot1.owned and "frame6_owned" or "frame6", slot0.specialFrame)
+	GetImageSpriteFromAtlasAsync("weaponframes", slot1.owned and "frame_design_owned" or "frame_design", slot0.specialFrame)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	ClearTweenItemAlphaAndWhite(slot0.go)
 end
 

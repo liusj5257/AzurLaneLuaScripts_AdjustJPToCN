@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT23",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夢幻の邂逅-日常編\n\n<size=45>その六　負けず嫌いの宴</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "──ドガガガッ！ズガガガガガッ！ズゴォォォォォ……ンッ！！",
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level-uta",
+			say = "──ドガガガッ！ズガガガガガッ！ズゴォォォォォ……ンッ！！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
+			dir = 1,
 			say = "──グォォォォ……ドンドンドンッ！ドッゴォォォォォォォォォ！！",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "アレと一緒にしたら、いくら何でも失礼……なんだろうけど、否定できない",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "ヤクトワルトさんがいたら、もっと大変なことになってたでしょうか……？",
 			typewriter = {
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "どうだろ？あのヒトはとびきり強いけど、あれに参加するほど好戦的ってわけじゃないから。もっとも、シノノン絡みでなければ、だけど",
 			typewriter = {
@@ -318,8 +318,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "綾波さまが……鬼神？女の子にそのあだ名は……どうかと思います",
 			typewriter = {
@@ -383,8 +383,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "負けず嫌いっていうか……ネコネは幼いからって色々と認められなかったこともあったからね",
 			typewriter = {
@@ -415,16 +415,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_chuansong",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_chuansong",
 			bgm = "story-uta",
 			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "はぁ、はぁ、はぁ……やりました！全部で２８仕留めたのです！これはわたしの一人勝ちのはずです！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -465,11 +465,11 @@ return {
 			}
 		},
 		{
-			actor = 305040,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305040,
+			nameColor = "#a9f548",
 			say = "見くびるなよ、姉さん！私だって２８だぞ！あれ？ってことは……",
 			typewriter = {
 				speed = 0.05,
@@ -481,8 +481,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -510,8 +510,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "そんなぁ……残念、引き分けなのです",
 			typewriter = {
@@ -639,8 +639,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "いや、武器もそのままだし、艤装にも再装填してるよね！？日向さん、それダメかな！",
 			typewriter = {
@@ -653,8 +653,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.15,
 					x = 0,
@@ -730,8 +730,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "焼き芋できた",
 			typewriter = {
@@ -747,10 +747,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "シグニットさんからいただいたサツマイモロロというのを焼いてみました。戦闘も一段落したので、おやつにいたしましょう",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -832,8 +832,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "フフフ、やんちゃな子たちも、おやつの時間は食卓につきますものね",
 			typewriter = {
@@ -849,8 +849,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "暴れん坊はまず胃袋を掴んでおくこと、ってね",
 			typewriter = {
@@ -882,10 +882,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "わたし達も主様の三食をご用意して、その胃袋をわし掴みにしております",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -916,12 +916,12 @@ return {
 			}
 		},
 		{
-			actor = 305040,
+			say = "姉さん、これかい──ほら、芋焼酎",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "姉さん、これかい──ほら、芋焼酎",
+			actor = 305040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1048,12 +1048,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "にゃあ……酔っ払いの暴れん坊で収拾つかないにゃ……",
 			typewriter = {
 				speed = 0.05,

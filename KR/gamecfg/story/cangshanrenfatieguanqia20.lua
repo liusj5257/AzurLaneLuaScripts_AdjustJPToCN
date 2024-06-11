@@ -1,25 +1,25 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA20",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "풍운 아카시 성, 천수각",
-			blackBg = true,
+			nameColor = "#A9F548FF",
 			bgm = "sk-az-battle-2",
+			blackBg = true,
+			say = "풍운 아카시 성, 천수각",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "콰당!",
 			typewriter = {
@@ -46,10 +46,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 11000010,
-			nameColor = "#A9F548FF",
 			dir = 1,
 			blackBg = true,
+			actor = 11000010,
+			nameColor = "#A9F548FF",
 			say = "잠깐, 아카츠키! 거기… 누군가 있어!",
 			painting = {
 				alpha = 0.3,
@@ -75,9 +75,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_111",
 			actor = 11000050,
-			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "……",
 			painting = {
@@ -89,17 +89,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -110,8 +110,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "후부키 씨?!",
 			painting = {
@@ -163,8 +163,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "이 자식! 움직이지 마라! 두 동강을 내주마!",
 			painting = {
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "재미있는 것…이라구요?!",
 			painting = {
@@ -254,27 +254,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_111",
-			say = "쿠구구구구……",
 			bgm = "sk-az-battle-boss",
+			nameColor = "#A9F548FF",
+			say = "쿠구구구구……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -287,15 +287,15 @@ return {
 			}
 		},
 		{
-			actorName = "테스터",
 			nameColor = "#A9F548FF",
+			actorName = "테스터",
 			bgName = "star_level_bg_111",
 			side = 2,
 			say = "이게 이번 '신작'이야. 마음껏 즐겨.",
 			movableNode = {
 				{
-					time = 2.6,
 					name = "shanluan_boss",
+					time = 2.6,
 					spine = {
 						action = "move",
 						scale = 1

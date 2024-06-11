@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHUIXINGJINIAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHUIXINGJINIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Work Hard, Play Harder!\n\n<size=45>3 First Day on the Job</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "story-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The sun's brilliant rays shine through the office windows.",
-			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Today is supposed to be Pamiat's first day as my secretary. Noon has rolled around, but she is still nowhere to be seen.",
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Hopefully nothing bad happened to her...",
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "I was just about to call Avrora when I hear the familiar sound of boots clopping down the hallway.",
@@ -82,10 +82,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yoohoo, Commander! Morning!",
 			painting = {
 				alpha = 0.3,
@@ -145,8 +145,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "I'm starting to wonder if punctuality means nothing to this girl.",
@@ -175,10 +175,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahah! I knew it! You can't stop thinking about me after all, can you~?",
 			painting = {
 				alpha = 0.3,
@@ -193,10 +193,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's simple, actually~ I stayed up all night playing games so I overslept!",
 			painting = {
 				alpha = 0.3,
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "\"...At least try to make an excuse for yourself.\"",
@@ -222,10 +222,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Why would I do that? You never said anything about a specific time I had to be in your office, so that's on you~",
 			painting = {
 				alpha = 0.3,
@@ -240,10 +240,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You can lecture me if you want, but it won't change the facts! Might as well look on the bright side – now I'm here and ready to work!",
 			painting = {
 				alpha = 0.3,
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "\"Ugh. I was a fool for thinking you had run into trouble...\"",
@@ -269,10 +269,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahaha♪ In my defense, I had to do a ton of stuff to prepare for my new position.",
 			painting = {
 				alpha = 0.3,
@@ -287,10 +287,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I promise I won't be late again! Go easy on me this one time and I'll make myself real useful from here on out!",
 			painting = {
 				alpha = 0.3,
@@ -302,8 +302,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "\"...\"",
@@ -316,10 +316,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Great~ Let's start on this stack of documents then!",
 			painting = {
 				alpha = 0.3,
@@ -334,10 +334,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Come on, don't just sit on your butt, Commander! We've both got work to do!",
 			painting = {
 				alpha = 0.3,

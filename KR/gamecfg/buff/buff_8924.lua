@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "毛系V3活动敌方标识TAG",
 	time = 0,
+	name = "毛系V3活动敌方标识TAG",
+	init_effect = "",
 	picture = "",
 	desc = "标记",
 	stack = 1,

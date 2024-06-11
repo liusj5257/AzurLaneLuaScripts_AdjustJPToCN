@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN13",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "大棋盤·長門控制區第三回合",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,15 +36,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
+			nameColor = "#A9F548FF",
 			say = "就在長門隊的眾人還在思考下回合的策略時，武藏的侍從已經穿越了沒能被長門及時攻占的邊界據點，",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#A9F548FF",
 			say = "……春月，江風，武藏大人的侍從好像向著妳們的方向衝過去了。",
 			painting = {
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "兩名高速疾馳的少女突破迷霧，分別停在了江風和春月所在的棋盤格上。",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "長門大人的侍從，妳們好~！",
 			painting = {
@@ -148,8 +148,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "我是酒匂，旁邊的是若月，我們來找妳們玩囉~",
 			painting = {
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "武藏大人只下了命令讓我們過來，沒說讓我們戰鬥。",
 			painting = {
@@ -230,8 +230,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "而且我們剛打完據點，也沒有攻擊次數啦。",
 			painting = {
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "春月有些如釋重負的垂下了神樂杖，不過江風的手依然警惕地握在刀把上。",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "哦~很有自信嘛。早就聽說過長門大人的護衛江風劍術高超，要是等一下有機會切磋的話務必讓我見識一下哦！",
 			painting = {
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "遠方，比叡正利用即時地圖關注著前線的發展。",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "在眾人聊天之際，武藏的行動結束了。但是回合計數並沒有來到第四回合，而是進入了一個新的階段。",
 			typewriter = {
@@ -454,8 +454,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "抱歉，我要收回前言，沒想到戰鬥的時機這麼快就到來了。",
 			painting = {
@@ -467,17 +467,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -485,11 +485,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
-			soundeffect = "event:/battle/boom2",
+			side = 2,
 			say = "轟——————————！",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -535,8 +535,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "伴隨著炮擊聲，酒匂突然著春月高速駛去。",
 			typewriter = {
@@ -548,8 +548,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "覺悟吧，春月，武藏隊的第一個戰果就由我酒匂拔得頭籌！",
 			painting = {
@@ -581,8 +581,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "看起來「海霧彌散」在回合結束時設置了效果，回合結束時處於同一格的人之間要發生強制戰鬥哦~",
 			painting = {
@@ -627,8 +627,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg8",
 			say = "長門擺好架勢，劍氣環繞在她身邊，在面前之敵出手之前，劍鋒就會先一步將來犯之敵一刀兩斷。",
 			typewriter = {
@@ -640,8 +640,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "專門用於護衛他人的劍法嗎，很有趣！那就讓我們切磋一下吧~",
 			painting = {
@@ -657,8 +657,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "也不要忘了我哦~若月，參上！",
 			painting = {
@@ -671,9 +671,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg8",
+			nameColor = "#A9F548FF",
 			say = "炮火對炮火，劍對劍，就當一場不可避免的大混戰即將到來之際。",
 			effects = {
 				{
@@ -687,8 +687,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgName = "bg_wuzang_cg2",
 			bgm = "nagato-map",
 			flashout = {
@@ -714,8 +714,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg2",
 			say = "——————汝等，就到此為止吧。",
 			typewriter = {
@@ -724,8 +724,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg2",
 			say = "橙色的閃光出現在戰場中心，在飄散的櫻花雨中，長門出現在水面上。",
 			typewriter = {
@@ -734,8 +734,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_cg2",
 			say = "粉紅的櫻花構成了一道屏障阻擋在春月與炮彈之間，覆蓋了蓄勢待發的江風，也讓酒匂停下了腳步。",
 			typewriter = {
@@ -744,8 +744,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:157}",
+			side = 2,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -760,8 +760,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:74}",
+			side = 1,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -776,8 +776,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:158}",
+			side = 2,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -792,8 +792,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:74}",
+			side = 1,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -808,8 +808,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:74}",
+			side = 1,
 			bgName = "bg_wuzang_cg2",
 			nameColor = "#A9F548FF",
 			dir = 1,
@@ -827,8 +827,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "欸……？長門大人？那個……我不是想要欺負春月的。",
 			painting = {
@@ -844,8 +844,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "就是，現在不是像演習的狀況一樣嗎……？而且武藏大人說了可以讓我們享受棋局……",
 			painting = {
@@ -861,8 +861,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "非常抱歉……長門大人。",
 			painting = {
@@ -878,8 +878,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "汝等誤會了。吾並非在指責汝等，汝等做的沒錯，亦無需道歉。",
 			painting = {
@@ -943,8 +943,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "啊哈哈，長門大人說的是。",
 			painting = {
@@ -960,8 +960,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "既然如此，為何您還要親自下場來阻止我們呢？",
 			painting = {
@@ -977,8 +977,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "這是吾與棋盤外之人的較量，是吾的自我要求，與汝等無關。",
 			painting = {
@@ -1010,8 +1010,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "倒不如說，應該道歉的是吾，唐突打斷了汝與江風的切磋。",
 			painting = {
@@ -1027,8 +1027,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "沒事沒事，能見到長門大人在櫻花雨中瀟灑登場的絕美景色也不算虧啦！",
 			painting = {
@@ -1060,8 +1060,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg8",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "沒想到武藏用棋盤實現的如此漂亮……可惜吾的櫻之結界只會在入場時生效一次。",
 			painting = {

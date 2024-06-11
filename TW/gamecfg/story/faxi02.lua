@@ -1,17 +1,17 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI02",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI02",
 	occlusion = 2,
 	scripts = {
 		{
 			actor = 207020,
 			side = 0,
-			bgm = "level03",
-			dir = 1,
 			say = "偵察機報告稱，凱比爾港內共有4艘戰列艦、1艘小型航母和6艘驅逐艦，均處於非戰鬥狀態",
+			dir = 1,
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			dir = 1,
 			say = "果然，曾經的海上騎士們如今也淪落到和塞壬為伍了嗎？真是令人唏噓呀…",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

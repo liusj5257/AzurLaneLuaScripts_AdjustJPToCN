@@ -1,6 +1,6 @@
 slot0 = class("BossRushSeriesData", import("model.vo.baseVO"))
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.activity_series_enemy
 end
 
@@ -11,11 +11,11 @@ slot0.TYPE = {
 	SP = 2
 }
 slot0.MODE = {
-	SINGLE = 1,
-	MULTIPLE = 2
+	MULTIPLE = 2,
+	SINGLE = 1
 }
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.configId = slot0.id
@@ -23,59 +23,59 @@ function slot0.Ctor(slot0, slot1)
 	slot0.battleStatistics = {}
 end
 
-function slot0.PassStage(slot0, slot1)
+slot0.PassStage = function(slot0, slot1)
 	table.insert(slot0.battleStatistics, slot1)
 
 	slot0.stageLevel = slot0.stageLevel + 1
 end
 
-function slot0.GetBattleStatistics(slot0)
+slot0.GetBattleStatistics = function(slot0)
 	return slot0.battleStatistics
 end
 
-function slot0.GetStaegLevel(slot0)
+slot0.GetStaegLevel = function(slot0)
 	return slot0.stageLevel
 end
 
-function slot0.GetNextStage(slot0)
+slot0.GetNextStage = function(slot0)
 	return {
 		stageId = 1
 	}
 end
 
-function slot0.GetMode(slot0)
+slot0.GetMode = function(slot0)
 	assert(slot0.mode)
 
 	return slot0.mode
 end
 
-function slot0.AddFinalResults(slot0, slot1)
+slot0.AddFinalResults = function(slot0, slot1)
 	slot0.battleResults = slot1
 end
 
-function slot0.GetFinalResults(slot0)
+slot0.GetFinalResults = function(slot0)
 	return slot0.battleResults
 end
 
-function slot0.AddEXScore(slot0, slot1)
+slot0.AddEXScore = function(slot0, slot1)
 	slot0.exScores = slot0.exScores or {}
 
 	table.insert(slot0.exScores, slot1.score)
 end
 
-function slot0.GetEXScores(slot0)
+slot0.GetEXScores = function(slot0)
 	return slot0.exScores or {}
 end
 
-function slot0.GetFleets(slot0)
+slot0.GetFleets = function(slot0)
 	return getProxy(FleetProxy):GetBossRushFleets(slot0.actId, slot0:GetFleetIds())
 end
 
-function slot0.GetExpeditionIds(slot0)
+slot0.GetExpeditionIds = function(slot0)
 	return slot0:getConfig("expedition_id")
 end
 
-function slot0.GetFleetIds(slot0)
+slot0.GetFleetIds = function(slot0)
 	if slot0.fleetIds then
 		return slot0.fleetIds
 	end
@@ -85,75 +85,75 @@ function slot0.GetFleetIds(slot0)
 	return slot0.fleetIds
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return slot0:getConfig("type")
 end
 
-function slot0.GetPreSeriesId(slot0)
+slot0.GetPreSeriesId = function(slot0)
 	return slot0:getConfig("pre_chapter")
 end
 
-function slot0.IsUnlock(slot0, slot1)
+slot0.IsUnlock = function(slot0, slot1)
 	return slot0:GetPreSeriesId() == 0 or slot1:HasPassSeries(slot2)
 end
 
-function slot0.GetSeriesCode(slot0)
+slot0.GetSeriesCode = function(slot0)
 	return slot0:getConfig("chapter_name")
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0:getConfig("name")
 end
 
-function slot0.GetLimitations(slot0)
+slot0.GetLimitations = function(slot0)
 	return slot0:getConfig("limitation")
 end
 
-function slot0.GetOilCost(slot0)
+slot0.GetOilCost = function(slot0)
 	return slot0:getConfig("oil")
 end
 
-function slot0.GetDescription(slot0)
+slot0.GetDescription = function(slot0)
 	return slot0:getConfig("profiles")
 end
 
-function slot0.IsSingleFight(slot0)
+slot0.IsSingleFight = function(slot0)
 	return slot0:getConfig("whether_singlefight") == 1
 end
 
-function slot0.GetBossIcons(slot0)
+slot0.GetBossIcons = function(slot0)
 	return slot0:getConfig("boss_icon")
 end
 
-function slot0.GetPassAwards(slot0)
+slot0.GetPassAwards = function(slot0)
 	return slot0:getConfig("pass_awards_display")
 end
 
-function slot0.GetAdditionalAwards(slot0)
+slot0.GetAdditionalAwards = function(slot0)
 	return slot0:getConfig("additional_awards_display")
 end
 
-function slot0.GetDefeatStories(slot0)
+slot0.GetDefeatStories = function(slot0)
 	return slot0:getConfig("defeat_story")
 end
 
-function slot0.GetDefeatStoriesCount(slot0)
+slot0.GetDefeatStoriesCount = function(slot0)
 	return slot0:getConfig("defeat_story_count")
 end
 
-function slot0.GetMaxBonusCount(slot0)
+slot0.GetMaxBonusCount = function(slot0)
 	return slot0:getConfig("count")
 end
 
-function slot0.GetOilLimit(slot0)
+slot0.GetOilLimit = function(slot0)
 	return slot0:getConfig("use_oil_limit")
 end
 
-function slot0.GetEXParamater(slot0)
+slot0.GetEXParamater = function(slot0)
 	return slot0:getConfig("ex_count")
 end
 
-function slot0.StaticCalculateFleetIds(slot0, slot1)
+slot0.StaticCalculateFleetIds = function(slot0, slot1)
 	assert(slot1 <= 10, "expedition List Too long")
 
 	return _.map(_.range(slot1 + 1), function (slot0)

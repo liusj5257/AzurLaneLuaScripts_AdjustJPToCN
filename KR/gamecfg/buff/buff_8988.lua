@@ -1,12 +1,12 @@
 return {
-	init_effect = "darkness",
-	name = "黑反击BOSS战 计数累计触发",
 	time = 0,
+	name = "黑反击BOSS战 计数累计触发",
+	init_effect = "darkness",
+	picture = "",
 	stack = 99,
 	id = 8988,
-	picture = "",
-	last_effect = "",
 	icon = 8988,
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffCount",

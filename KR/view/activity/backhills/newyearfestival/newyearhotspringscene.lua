@@ -1,12 +1,12 @@
 slot0 = class("NewYearHotSpringScene", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewYearHotSpringUI"
 end
 
 slot1 = 0.85
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.scrollRect = slot0._tf:Find("ScrollRect")
 	slot0.scrollContent = slot0.scrollRect:GetComponent(typeof(ScrollRect)).content
 	slot0.slotTFs = _.map(_.range(4, 13), function (slot0)
@@ -74,7 +74,7 @@ function slot0.init(slot0)
 	slot0.washMaterial:SetFloat("_Height", 0.5)
 end
 
-function slot0.SetActivity(slot0, slot1)
+slot0.SetActivity = function(slot0, slot1)
 	slot0.activity = slot1
 
 	if not slot0.activity then
@@ -88,7 +88,7 @@ function slot0.SetActivity(slot0, slot1)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf:Find("Top/Back"), function ()
 		uv0:closeView()
 	end, SOUND_BACK)
@@ -152,13 +152,13 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.top)
 end
 
-function slot0.UpdateScrollContent(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateScrollContent = function(slot0, slot1, slot2, slot3, slot4)
 	setAnchoredPosition(slot2, {
 		x = slot1 * slot3 + slot4
 	})
 end
 
-function slot0.InitSlots(slot0)
+slot0.InitSlots = function(slot0)
 	slot0:CleanSpines()
 	table.Foreach(slot0.slotTFs, function (slot0, slot1)
 		onButton(uv0, slot1:Find("Usable"), function ()
@@ -220,7 +220,7 @@ function slot0.InitSlots(slot0)
 
 			setParent(uv1, uv3, true)
 
-			function slot4()
+			slot4 = function()
 				if uv0._lastDragBeginPosition ~= nil then
 					uv1.anchoredPosition = uv0._lastDragBeginPosition
 				end
@@ -248,23 +248,23 @@ function slot0.InitSlots(slot0)
 	end)
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot0:UpdateSlots()
 	setText(slot0.top:Find("Ticket/Text"), slot0.activity:GetCoins())
 end
 
-function slot0.UpdateSlots(slot0)
+slot0.UpdateSlots = function(slot0)
 	slot0:CleanSpines()
 	table.Foreach(slot0.slotTFs, function (slot0, slot1)
 		uv0:UpdateSlot(slot0, slot1)
 	end)
 end
 
-function slot0.RectContainsRect(slot0, slot1)
+slot0.RectContainsRect = function(slot0, slot1)
 	return slot0:Contains(slot1.min) and slot0:Contains(slot1.max)
 end
 
-function slot0.UpdateSlot(slot0, slot1, slot2)
+slot0.UpdateSlot = function(slot0, slot1, slot2)
 	setActive(slot2:Find("Lock"), math.clamp(slot1 - slot0.activity:GetSlotCount(), 0, 2) == 2)
 	setActive(slot2:Find("Usable"), slot3 == 1)
 
@@ -291,13 +291,13 @@ function slot0.UpdateSlot(slot0, slot1, slot2)
 	end
 end
 
-function slot0.SetSpineWash(slot0, slot1)
+slot0.SetSpineWash = function(slot0, slot1)
 	slot1:SetAction("wash")
 	slot1:ChangeMaterial(Object.Instantiate(slot0.washMaterial))
 	slot1._modleGraphic.material:SetFloat("_PositionY", slot1.model.transform.position.y + 1.5)
 end
 
-function slot0.CleanSpines(slot0)
+slot0.CleanSpines = function(slot0)
 	slot0:ForceDropChar()
 	table.Foreach(slot0.spineRoles, function (slot0, slot1)
 		slot1:Dispose()
@@ -306,7 +306,7 @@ function slot0.CleanSpines(slot0)
 	slot0.spineRoles = {}
 end
 
-function slot0.ForceDropChar(slot0)
+slot0.ForceDropChar = function(slot0)
 	if slot0._currentDragDelegate then
 		slot0._forceDropCharacter = true
 
@@ -314,7 +314,7 @@ function slot0.ForceDropChar(slot0)
 	end
 end
 
-function slot0.GetRecordPos(slot0)
+slot0.GetRecordPos = function(slot0)
 	slot3 = {}
 
 	for slot7 = 1, #_.map(string.split(PlayerPrefs.GetString("hotspring_ship_pos", ""), ";"), function (slot0)
@@ -326,7 +326,7 @@ function slot0.GetRecordPos(slot0)
 	return slot3
 end
 
-function slot0.RecordPos(slot0, slot1)
+slot0.RecordPos = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -339,7 +339,7 @@ function slot0.RecordPos(slot0, slot1)
 	end), ";"))
 end
 
-function slot0.LoadingOn(slot0)
+slot0.LoadingOn = function(slot0)
 	if slot0.animating then
 		return
 	end
@@ -349,7 +349,7 @@ function slot0.LoadingOn(slot0)
 	pg.UIMgr.GetInstance():LoadingOn(false)
 end
 
-function slot0.LoadingOff(slot0)
+slot0.LoadingOff = function(slot0)
 	if not slot0.animating then
 		return
 	end
@@ -359,7 +359,7 @@ function slot0.LoadingOff(slot0)
 	slot0.animating = false
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.top, slot0._tf)
 	Object.Destroy(slot0.washMaterial)
 	slot0:RecordPos(slot0.slotShipPos)

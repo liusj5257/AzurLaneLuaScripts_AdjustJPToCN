@@ -19,10 +19,10 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "お、お兄ちゃん……ユニコーンがいいよと言うまで、目を開けちゃ…めっ、だよ",
+			nameColor = "#a9f548",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,10 +35,10 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "うぅ…やっぱり……",
+			nameColor = "#a9f548",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,10 +51,10 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "星の歌姫さま……ユニコーンに勇気を……",
+			nameColor = "#a9f548",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,10 +67,10 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "……お兄ちゃん……もういいよ？",
+			nameColor = "#a9f548",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,8 +86,8 @@ return {
 			nameColor = "#a9f548",
 			say = "～♪",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -173,8 +173,8 @@ return {
 			nameColor = "#a9f548",
 			say = "ふぅ…よかった……お兄ちゃん…だいじょうぶみたい……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

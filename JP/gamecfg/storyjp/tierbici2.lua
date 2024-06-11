@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIERBICI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIERBICI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「Schmelzen」\n\n<size=45>二　任務</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ティルピッツは古い装備を夕張のいる科学部に運ぼうとしていた。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ティルピッツは古い装備を夕張のいる科学部に運ぼうとしていた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,13 +62,13 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "困ったあなたに正義登場！お助けビーバーズ隊、ただいま見参！",
 			actorName = "???",
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			nameColor = "#a9f548",
 			bgm = "story-1",
-			say = "困ったあなたに正義登場！お助けビーバーズ隊、ただいま見参！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,13 +91,13 @@ return {
 			}
 		},
 		{
-			actor = 101110,
+			say = "これを夕張のところに運びたいってことね！",
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101110,
 			actorName = "???",
-			say = "これを夕張のところに運びたいってことね！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -128,11 +128,11 @@ return {
 			}
 		},
 		{
-			actor = 101110,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 101110,
 			actorName = "???",
 			say = "私は正義の味方、リトルビーバーズの隊長チャールズ・オースバーンよ！ちょっと待ってて、今みんなを集めてくる！",
 			typewriter = {
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 101110,
+			say = "ビーバーズ隊、全員集合――！",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ビーバーズ隊、全員集合――！",
+			actor = 101110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -165,8 +165,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -175,12 +175,12 @@ return {
 			}
 		},
 		{
-			actor = 101130,
+			say = "はーい、来たよー",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "はーい、来たよー",
+			actor = 101130,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -195,8 +195,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -205,11 +205,11 @@ return {
 			}
 		},
 		{
-			actor = 101150,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101150,
+			nameColor = "#a9f548",
 			say = "な、なにがあったのでしょうか！？",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 101140,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101140,
+			nameColor = "#a9f548",
 			say = "めんどい…",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#a9f548",
 			say = "待って、これは秘書艦の仕事よ。私ひとりで…",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.05,
 					x = 0,
@@ -299,9 +299,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ティルピッツの言葉を遮るように、ビーバーズ隊の子たちはせっせと装備を特殊仕様の台車に載せて出発した。",
 			typewriter = {
 				speed = 0.05,
@@ -309,9 +309,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "一緒に運ぶティルピッツはなにかを考えているようだ……",
 			typewriter = {
 				speed = 0.05,
@@ -319,13 +319,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "母港・科学部",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -362,12 +362,12 @@ return {
 			}
 		},
 		{
-			actor = 405020,
+			say = "感謝する。手伝ってくれたことは指揮官に伝えるわ。",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "感謝する。手伝ってくれたことは指揮官に伝えるわ。",
+			actor = 405020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -414,12 +414,12 @@ return {
 			}
 		},
 		{
-			actor = 101110,
+			say = "じゃあ失礼！正義がまだ私たちを待っているわ！",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "じゃあ失礼！正義がまだ私たちを待っているわ！",
+			actor = 101110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -434,12 +434,12 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 405020,
+			nameColor = "#a9f548",
 			say = "私は、仲間……わかったわ。",
 			typewriter = {
 				speed = 0.05,
@@ -451,14 +451,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "ビーバーズ隊がいなくなるまで見送ってから、ティルピッツは再び歩き始めた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

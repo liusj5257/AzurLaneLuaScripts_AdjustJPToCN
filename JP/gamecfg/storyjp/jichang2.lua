@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "母港・演習海域",
 			dir = 1,
 			bgm = "level",
+			nameColor = "#a9f548",
+			say = "母港・演習海域",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -51,8 +51,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "名付けて、「μ兵装実験テスト」という作戦について、だ",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "つまり、私たち以外にも同じ装備…いや、もしかしたら更に強力な兵装を装備しているチームがいる",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "…そしてそのほかに、もちろん「μ兵装」装備以外の仲間たちも参加しているのさ",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "かつてない作戦に挑もうとする少女たち。大戦の前の緊張感がピリピリと――伝わってこないように見えた。",
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "そ、そうだな…あははは。すまん、ちょっと緊張しすぎていたようだ",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "まあユニオンも同じ連絡を受けてるよ。こっちはサラトガちゃんからだけどね",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "メイド長が予め、量産艦の使用許可を陛下より頂いています",
 			typewriter = {
@@ -514,8 +514,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "ホロターゲット？",
 			typewriter = {
@@ -595,8 +595,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "敗北判定にされちゃいそうです…",
 			typewriter = {
@@ -628,8 +628,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "そうだよ！とりあえず皆演習海域へ、レッツゴー！",
 			typewriter = {
@@ -642,8 +642,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -655,9 +655,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			blackBg = true,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "はい。皆様、どうぞこちらへ",
 			typewriter = {

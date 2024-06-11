@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA30",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bgm-cccp3",
+			say = "",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -59,8 +59,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "The Commander's attunement to Wisdom Cubes not only affects shipgirls, but also devices powered by Wisdom Cubes.",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Lasting changes have already been observed in the Sanctum, something we could not bring about despite all our efforts.",
 			typewriter = {
@@ -109,8 +109,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "I cannot say for sure. We may arrive at a clearer understanding after analyzing all the data we've collected.",
 			typewriter = {
@@ -126,8 +126,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Whether or not the Commander will become this seed... is not something that we can decide.",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Now that there are no outsiders here, I shall speak frankly.",
 			typewriter = {
@@ -160,8 +160,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "As long as the endless war between the Northern Parliament and the Sirens persists, there can be no future for our people.",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Even with the advantages we have currently, the Sirens' infinite adaptability will eventually overwhelm us.",
 			typewriter = {
@@ -194,8 +194,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "We've used everything to try to secure our future. The aid of the Azur Lane. The technology of the Crimson Axis. Even the secrets of the Sirens and the Ashes.",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "But now we know, the Commander has gained the \"Key\" from the Arcana Sanctum.",
 			typewriter = {
@@ -228,8 +228,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "We must now turn this key together and grasp the possibilities that open up before us.",
 			typewriter = {
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "If that is the case, why didn't we pull some strings to keep the Commander here a bit longer?",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "The Royal Navy and the Eagle Union have not yet grasped the Commander's true worth. Were they to do so... I fear we may not ever meet again.",
 			typewriter = {
@@ -279,8 +279,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "We are viewed with distrust from the outside, but the Commander has given us a way forward.",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "...You're right. We can't squander this opportunity that the Commander earned for us.",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "For the sake of the Northern Parliament, nay, for humanity itself, we must seek every advantage.",
 			typewriter = {
@@ -330,8 +330,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "To these ends, the Commander's assistance is indispensable, and we must squeeze everything we can from this \"Key.\"",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "But that is something reserved for the future. For now, we must be practical and do the things we ought to do. ",
 			typewriter = {
@@ -364,9 +364,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900218,
 			dir = 1,
 			blackBg = true,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Study these materials well. Do not waste the light of dawn that the Commander has given us—",
 			typewriter = {

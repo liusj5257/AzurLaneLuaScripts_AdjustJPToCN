@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIERBICI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIERBICI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"녹아내리는 얼음\n\n<size=45>제6장 - 북쪽의 여왕의 미소</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 지휘실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "오늘 업무는 평소보다 훨씬 많네, 저녁까지 했는데도 전부 마치지 못했어.",
 			typewriter = {
 				speed = 0.05,
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#92fc63",
 			say = "혹시 피곤하면 먼저 들어가 쉬어도 돼. 남은 업무는 내게 맡기고.",
 			typewriter = {
 				speed = 0.05,
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 405020,
+			nameColor = "#92fc63",
 			say = "곧잘 남들과 어울린다고? 그것 또한 비서함의 업무일 뿐이다.",
 			typewriter = {
 				speed = 0.05,
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 405020,
 			stopbgm = true,
 			say = "！！",
 			typewriter = {
@@ -197,15 +197,15 @@ return {
 			}
 		},
 		{
-			say = "티르피츠는 돌연 무언가를 깨달은 듯, 몹시 놀란 표정을 지었다.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "티르피츠는 돌연 무언가를 깨달은 듯, 몹시 놀란 표정을 지었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -322,9 +322,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "티르피츠가 웃었다.",
 			typewriter = {
 				speed = 0.05,

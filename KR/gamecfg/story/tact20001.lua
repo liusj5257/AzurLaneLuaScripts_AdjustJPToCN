@@ -46,17 +46,17 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 2,
-			actorName = "???",
-			mode = 2,
 			dir = 0,
 			blackBg = true,
+			mode = 2,
+			actorName = "???",
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "「갬빗」…255번이나 실패했는데도, 자연 연산 시스템이 가져다주는 진화라는 건 역시 이 정도로 재미없는 것인가?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,13 +85,13 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 1,
-			mode = 2,
 			actorName = "???",
-			nameColor = "#ff0000",
-			blackBg = true,
+			mode = 2,
 			say = "내 예상보다 훨씬 빠르지 않은가! 인간, 아니, '자연진화'는 끈기를 가져야 한다고~",
+			blackBg = true,
+			actor = 900012,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 0,
-			actorName = "???",
 			mode = 2,
+			actorName = "???",
 			dir = 0,
 			blackBg = true,
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "하지만 「심판」 은 이 정도로 만족하지 않아. 좀 더 「체스말<Piece>」를……우리가 제조한 「거울상」을 보내지 않는 한……",
 			shake = {
@@ -132,12 +132,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 1,
-			actorName = "???",
 			mode = 2,
-			nameColor = "#ff0000",
+			actorName = "???",
 			blackBg = true,
+			actor = 900012,
+			nameColor = "#ff0000",
 			say = "괜찮아, 「그녀」들…아니, 「녀석들」이 지시대로 움직여줄 거야.",
 			shake = {
 				speed = 1,
@@ -153,12 +153,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 1,
-			actorName = "???",
 			mode = 2,
-			nameColor = "#ff0000",
+			actorName = "???",
 			blackBg = true,
+			actor = 900012,
+			nameColor = "#ff0000",
 			say = "「몰드」가 백업 되어 있는 한, 이쪽의 제조 속도는 모든 실험 항목을 충족시킬 수 있겠어.",
 			shake = {
 				speed = 1,
@@ -174,12 +174,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 0,
-			actorName = "???",
 			mode = 2,
+			actorName = "???",
 			dir = 0,
 			blackBg = true,
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "뭐, 그런 것도 나쁘진 않지. 다만……",
 			shake = {
@@ -196,12 +196,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 0,
-			actorName = "???",
 			mode = 2,
+			actorName = "???",
 			dir = 0,
 			blackBg = true,
+			actor = 900011,
 			nameColor = "#ff0000",
 			say = "이번의 「백<White>」, 단순한 착각이었으면 좋겠는데……",
 			shake = {

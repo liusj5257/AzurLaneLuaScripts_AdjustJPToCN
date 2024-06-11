@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
+			bgm = "theme-merkuriameta",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "엘리베이터가 감속하면서 천천히 '지정된' 층에 멈추었다.",
-			bgm = "theme-merkuriameta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "하지만 이는 행선지인 데이터 센터가 아닌, 어디까지나 환승을 위한 짧은 통로에 도착했을 뿐이다.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "본래는 아무런 특색 없는 복도로, 다른 장소와 차이가 있다고 하면 벽에 있는 통로 번호 정도여야 했지만……",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "별다른 변화없이 똑같은 풍경이 이어질 것이라고 예상한 일행의 예측은 엇나가고 말았다.",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "이제까지 맞닥뜨린 통로와는 완전히 다른 느낌이었다.",
@@ -77,12 +77,12 @@ return {
 			}
 		},
 		{
-			actor = 701110,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어라? 여기 통로에는 반짝거리는 벽지까지 붙어있네.",
 			painting = {
 				alpha = 0.3,
@@ -94,8 +94,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -107,10 +107,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "카펫에 샹들리에… 굉장히 비싸보이는 가구까지…",
 			painting = {
 				alpha = 0.3,
@@ -122,12 +122,12 @@ return {
 			}
 		},
 		{
-			actor = 705080,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흠… 꽤 값이 나갈 것 같은 것들뿐이네.",
 			painting = {
 				alpha = 0.3,
@@ -142,10 +142,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "소유즈, 여긴 무슨 대피소의 예술품 보관 구역 같은 거야?",
 			painting = {
 				alpha = 0.3,
@@ -157,12 +157,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "예술품 보관 구역… 확실히 그런 구역이 있기는 합니다만…",
 			painting = {
 				alpha = 0.3,
@@ -177,10 +177,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그건 다른 곳에 있고… 그곳도 이런 식으로 예술품을 그냥 전시해 두지는 않습니다.",
 			painting = {
 				alpha = 0.3,
@@ -195,10 +195,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "굳이 예술품을 여기 옮겨야 할 이유도 없을 텐데요…",
 			painting = {
 				alpha = 0.3,
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "길게 이어진 복도 벽에는 여러 그림이 장식되어 마치 화랑과도 같은 모습이었다.",
@@ -224,10 +224,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어떻게 할까, 소유즈? 그래도 일단은 갈 수밖에 없잖아?",
 			painting = {
 				alpha = 0.3,
@@ -242,10 +242,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "모처럼이니까 겸사겸사 예술품도 감상하고 말이야.",
 			painting = {
 				alpha = 0.3,
@@ -260,10 +260,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇군요. 잠깐만 둘러볼까요?",
 			painting = {
 				alpha = 0.3,
@@ -278,10 +278,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(복도에 놓인 가구는 모두 노스 유니온이 성립되기 전인 제국 시대의 골동품으로 보여.)",
 			painting = {
 				alpha = 0.3,
@@ -296,10 +296,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(하지만 벽에 장식된 비싸 보이는 그림이 어느 시대의 것인지는 전혀 짐작이 안 가.)",
 			painting = {
 				alpha = 0.3,
@@ -311,12 +311,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(설마 대피소에 침입한 존재가 이걸 우리에게 보여주려고 일부러…?)",
 			painting = {
 				alpha = 0.3,
@@ -328,12 +328,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(음… 그러면 지금은 일단 그 의도에 순순히 따라주자. 이 그림들을 통해 어쩌면 그 존재의 정체를 알 수 있을지도 몰라…)",
 			painting = {
 				alpha = 0.3,
@@ -348,10 +348,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……이동하지요.",
 			painting = {
 				alpha = 0.3,
@@ -363,27 +363,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_115",
 			say = "함선들은 '화랑'으로 탈바꿈한 통로로 진입했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -391,8 +391,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			recallOption = true,
@@ -421,8 +421,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -434,8 +434,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -466,13 +466,13 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "'제국' 시대를 그린 그림으로 보이기는 합니다만……",
 			painting = {
 				alpha = 0.3,
@@ -503,8 +503,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -516,8 +516,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -548,8 +548,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -615,8 +615,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -628,8 +628,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -660,8 +660,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -673,8 +673,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -724,27 +724,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_115",
 			say = "함선들은 \"화랑\" 속을 계속 나아갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -752,8 +752,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			recallOption = true,
@@ -782,8 +782,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -795,8 +795,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -827,13 +827,13 @@ return {
 			}
 		},
 		{
-			actor = 705080,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 705080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그러게. 예전에는 항로가 막혀서 물건이 많이 부족했지만, 지금은 항로를 탈환해서 사정이 많이 나아졌지.",
 			painting = {
 				alpha = 0.3,
@@ -864,8 +864,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -877,8 +877,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -947,8 +947,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -960,8 +960,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1011,8 +1011,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1024,8 +1024,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1094,27 +1094,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_115",
 			say = "함선들은 \"화랑\" 속을 계속 나아갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1122,8 +1122,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			recallOption = true,
@@ -1152,8 +1152,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1165,8 +1165,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1178,8 +1178,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1191,8 +1191,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1204,8 +1204,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1217,8 +1217,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1230,8 +1230,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1243,8 +1243,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1256,8 +1256,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1269,8 +1269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1282,8 +1282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1295,8 +1295,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1308,8 +1308,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "예술품 소개문",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1323,11 +1323,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_115",
 			actor = 705080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "주제대로 이상적인 세상의 풍경… 즉, 유토피아가 그려져 있네.",
 			painting = {
 				alpha = 0.3,
@@ -1338,17 +1338,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1359,10 +1359,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "우리들이 열심히 목표로 삼는 것이기도 하죠!",
 			painting = {
 				alpha = 0.3,
@@ -1377,10 +1377,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아, 그런데… 세이렌과의 공존도 우리 목표에 들어가 있던가?",
 			painting = {
 				alpha = 0.3,
@@ -1395,10 +1395,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이 '화랑'의 그림… 소유즈는 어떻게 생각해?",
 			painting = {
 				alpha = 0.3,
@@ -1410,12 +1410,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "작가의 아이디어는 높은 평가를 받을만하고, 회화 기술도 예술품으로 충분히 보존할 만한 수준이라고 봅니다.",
 			painting = {
 				alpha = 0.3,
@@ -1430,10 +1430,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "다만… 그 중 경계가 필요한 내용이 일부 섞여있고, 황당한 부분도 있지요.",
 			painting = {
 				alpha = 0.3,
@@ -1445,12 +1445,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어디까지나 이는 예술이기에 제 개인의 평가가 그렇게 중요할 것 같지는 않습니다만……",
 			painting = {
 				alpha = 0.3,
@@ -1465,10 +1465,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래서? 그거 말고는 없어?",
 			painting = {
 				alpha = 0.3,
@@ -1483,10 +1483,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그거 말고……?",
 			painting = {
 				alpha = 0.3,
@@ -1498,12 +1498,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이 그림을 장식한 '누군가'를 말씀하시는 거라면, 솔직히 이렇다 할 고찰은 어렵습니다.",
 			painting = {
 				alpha = 0.3,
@@ -1518,10 +1518,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아니… 정확히 말하면, 아직 정보가 불충분합니다.",
 			painting = {
 				alpha = 0.3,
@@ -1533,12 +1533,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "슬슬 데이터 센터로 향하는 편이 좋겠군요.",
 			painting = {
 				alpha = 0.3,
@@ -1553,10 +1553,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……잠깐만, 소유즈!",
 			painting = {
 				alpha = 0.3,
@@ -1571,10 +1571,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흠… 알았어! 앞으로 나아가자구!",
 			painting = {
 				alpha = 0.3,

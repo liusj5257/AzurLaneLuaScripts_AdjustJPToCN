@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESIBOSS2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESIBOSS2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Air Raid Drills With Essex\n\n<size=45>2: Independence's Battle</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_nepu1",
 			bgm = "level",
 			actor = 107220,
 			nameColor = "#a9f548",
 			say = "Gah... Coordinating a fleet is harder than I expected...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "Is there some limit to the commanding and operational abilities of light carriers...?",
 			typewriter = {
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			say = "If I may say something, Independence...",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "If I may say something, Independence...",
+			actor = 107380,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -125,8 +125,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = -1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Yes. I beg your pardon, but as the observer, I'd like to break the problems that you're currently facing...",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = -1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Aren't you... acting a bit rash? I'm afraid you'll rush headfirst into trouble if you press forward with the way things are right now...",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "I'm... being rash? I see. Thank you for your advice.",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "(I'm going to have to prioritize that if I want a shot at taking on Essex. But how do I do that...?)",
 			typewriter = {
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "Hmm? Whatcha doing, Independence? You look like something's really bothering you.",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 67.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -267,8 +267,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "(Cleveland...? I wonder if I should ask her for some tips... As the lead ship of her class, I'm sure she knows something...)",
 			typewriter = {
@@ -297,17 +297,17 @@ return {
 			}
 		},
 		{
-			actor = 102090,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Gotcha. So you want to improve the fleet's teamwork...",
 			bgm = "story-1",
+			actor = 102090,
+			nameColor = "#a9f548",
+			say = "Gotcha. So you want to improve the fleet's teamwork...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -332,11 +332,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "About that...",
 			typewriter = {
 				speed = 0.05,
@@ -348,8 +348,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -390,11 +390,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "Huh? When'd you all get here?",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -499,8 +499,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "Huh, right now? But the drill's right after--",
 			typewriter = {
@@ -513,8 +513,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -542,8 +542,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "F-fine...",
 			typewriter = {
@@ -572,11 +572,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "...Wait, what the heck! She was asking me for advice, and I couldn't come up with anything useful at all!",
 			typewriter = {
 				speed = 0.05,
@@ -588,8 +588,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

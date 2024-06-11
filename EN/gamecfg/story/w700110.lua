@@ -1,12 +1,12 @@
 return {
-	id = "W700110",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700110",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Scan in progress. Jamming frequencies of Siren origin detected. Locate and destroy the sources of the interference.",
 			typewriter = {
 				speed = 0.05,

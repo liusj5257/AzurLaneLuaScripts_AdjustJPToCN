@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 24067,
 	time = 8,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 24067,
+	color = "red",
 	icon = 17470,
 	last_effect = "",
 	blink = {
@@ -35,9 +35,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 8,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

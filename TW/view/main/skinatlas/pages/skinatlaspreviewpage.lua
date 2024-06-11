@@ -2,11 +2,11 @@ slot0 = class("SkinAtlasPreviewPage", import("....base.BaseSubView"))
 slot0.ON_BG_SWITCH_DONE = "SkinAtlasScene:ON_BG_SWITCH_DONE"
 slot0.ON_L2D_SWITCH_DONE = "SkinAtlasScene:ON_L2D_SWITCH_DONE"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SkinAtlasPreviewPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.paintingTr = slot0:findTF("paint")
 	slot0.live2dContainer = slot0:findTF("paint/live2d")
 	slot0.mainImg = slot0:findTF("main"):GetComponent(typeof(UnityEngine.UI.Graphic))
@@ -31,7 +31,7 @@ function slot0.OnLoaded(slot0)
 	slot0.selectShipPage = ChangeShipSkinPage.New(slot0._parentTf, slot0.event)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -99,7 +99,7 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.OnNext(slot0)
+slot0.OnNext = function(slot0)
 	if slot0.loading then
 		return
 	end
@@ -107,7 +107,7 @@ function slot0.OnNext(slot0)
 	slot0:emit(SkinAtlasScene.ON_NEXT_SKIN, slot0.index)
 end
 
-function slot0.OnPrev(slot0)
+slot0.OnPrev = function(slot0)
 	if slot0.loading then
 		return
 	end
@@ -115,7 +115,7 @@ function slot0.OnPrev(slot0)
 	slot0:emit(SkinAtlasScene.ON_PREV_SKIN, slot0.index)
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
 	slot0.index = slot2
@@ -137,12 +137,12 @@ function slot0.Show(slot0, slot1, slot2)
 	setActive(slot0.obtainBtn, not slot0.skin:OwnShip())
 end
 
-function slot0.Flush(slot0, slot1, slot2)
+slot0.Flush = function(slot0, slot1, slot2)
 	slot0:Clear()
 	slot0:Show(slot1, slot2)
 end
 
-function slot0.UpdateMain(slot0, slot1)
+slot0.UpdateMain = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0.btns) do
@@ -173,7 +173,7 @@ function slot0.UpdateMain(slot0, slot1)
 	end)
 end
 
-function slot0.UpdatePainting(slot0, slot1, slot2)
+slot0.UpdatePainting = function(slot0, slot1, slot2)
 	if slot0.l2dFlag then
 		slot0:InitL2D(slot1, slot2)
 	else
@@ -181,7 +181,7 @@ function slot0.UpdatePainting(slot0, slot1, slot2)
 	end
 end
 
-function slot0.InitPainting(slot0, slot1, slot2)
+slot0.InitPainting = function(slot0, slot1, slot2)
 	slot0:ClearPainting(slot1)
 	setActive(slot0.live2dContainer, false)
 
@@ -190,7 +190,7 @@ function slot0.InitPainting(slot0, slot1, slot2)
 	setPaintingPrefabAsync(slot0.paintingTr, slot0.painting, "chuanwu", slot2)
 end
 
-function slot0.InitL2D(slot0, slot1, slot2)
+slot0.InitL2D = function(slot0, slot1, slot2)
 	slot0:ClearPainting(slot1)
 
 	slot0.live2d = SkinAtlasLive2dView.New(slot1, slot0.live2dContainer, slot2)
@@ -198,7 +198,7 @@ function slot0.InitL2D(slot0, slot1, slot2)
 	slot0.live2d.live2dChar:changeTriggerFlag(false)
 end
 
-function slot0.UpdateChar(slot0, slot1, slot2)
+slot0.UpdateChar = function(slot0, slot1, slot2)
 	slot4 = PoolMgr.GetInstance()
 
 	slot4:GetSpineChar(slot1:getPrefab(), true, function (slot0)
@@ -213,7 +213,7 @@ function slot0.UpdateChar(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.ClearPainting(slot0, slot1)
+slot0.ClearPainting = function(slot0, slot1)
 	if slot0.live2d then
 		slot0.live2d:Dispose()
 
@@ -225,7 +225,7 @@ function slot0.ClearPainting(slot0, slot1)
 	end
 end
 
-function slot0.ClearChar(slot0, slot1)
+slot0.ClearChar = function(slot0, slot1)
 	if slot0.modelTf then
 		PoolMgr.GetInstance():ReturnSpineChar(slot1:getPrefab(), slot0.modelTf.gameObject)
 
@@ -233,7 +233,7 @@ function slot0.ClearChar(slot0, slot1)
 	end
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if slot0.ship then
 		slot0:ClearPainting(slot1)
 		slot0:ClearChar(slot1)
@@ -242,7 +242,7 @@ function slot0.Clear(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	slot0:Clear()
 
@@ -255,15 +255,15 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.IsShowSelectShipView(slot0)
+slot0.IsShowSelectShipView = function(slot0)
 	return slot0.selectShipPage and slot0.selectShipPage:GetLoaded() and slot0.selectShipPage:isShowing()
 end
 
-function slot0.CloseSelectShipView(slot0)
+slot0.CloseSelectShipView = function(slot0)
 	slot0.selectShipPage:Hide()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end

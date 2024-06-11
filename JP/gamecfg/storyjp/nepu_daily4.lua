@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>第四話　『部屋とゲーマーと私』</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 10100040,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "お邪魔しまーす…あら、素敵なゲーミングＰＣですわね！",
 			bgm = "story-nepu2",
+			actor = 10100040,
+			nameColor = "#a9f548",
+			say = "お邪魔しまーす…あら、素敵なゲーミングＰＣですわね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "いらっしゃ～い。ようこそゲーム愛好会へ～",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "いらっしゃ～い。ようこそゲーム愛好会へ～",
+			actor = 106011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "ここはゲームを愛し、自堕落を愛し、任務から解放された一時は干物として過ごす者たちの憩いの場……歓迎するぞ！",
 			typewriter = {
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "むむむ、なんて深みのある言葉……おまえ、プロだな？",
 			typewriter = {
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "──カタカタカタカタカタカタ……ターンッ！",
 			typewriter = {
 				speed = 0.05,
@@ -226,13 +226,13 @@ return {
 			}
 		},
 		{
-			actor = 302010,
+			say = "ハンティングゲームなら裸でソロ…むむむ、しかもノーダメクリア！？",
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "ハンティングゲームなら裸でソロ…むむむ、しかもノーダメクリア！？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -263,11 +263,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 1,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "陸、海、空……あらゆる軍事シミュレーションを制覇した！",
 			typewriter = {
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 1,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "すかさず、ポテチを食べる……恐るべき、プレイスタイル！",
 			typewriter = {
@@ -313,9 +313,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "──カタカタカタカタカタカタ……ターンッ！",
 			typewriter = {
 				speed = 0.05,
@@ -339,12 +339,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "お姉さん……まさに神！ゲーマーの神だよ、すごいよぉ……",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "お姉さん……まさに神！ゲーマーの神だよ、すごいよぉ……",
+			actor = 106011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "夕張も感服したぞ！おまえこそ…この世界に舞い降りた、ゲーマーの神……！",
 			typewriter = {
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "むむむ、そうなると、もう少し参加者がほしいな……",
 			typewriter = {
@@ -489,12 +489,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
+			say = "失礼させてもらうわね。陛下が一度、見学したいというものだから……",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "失礼させてもらうわね。陛下が一度、見学したいというものだから……",
+			actor = 205020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -509,11 +509,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "……あ、参加者が来たかな？",
 			typewriter = {
@@ -590,11 +590,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "話が噛み合ってないけど…いいのか？",
 			typewriter = {
@@ -655,11 +655,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "あ、この人……アーク・ロイヤルと同じ匂いがする！",
 			typewriter = {

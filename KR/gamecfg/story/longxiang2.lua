@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"경항공모함 류조 참전!\n\n<size=45>2. 특훈! 전력을 다하는 건 사쿠라 엠파이어의 미덕</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 연습전 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "모항 - 연습전 해역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 306050,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 306050,
+			nameColor = "#92fc63",
 			say = "아…안 되겠다……내 이제 팔이 안 올라간다……",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307040,
+			nameColor = "#92fc63",
 			say = "하아……하아……더 이상은 어려울지도……",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -114,15 +114,15 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#92fc63",
 			say = "선배님들, 평소보다 더 열심이시네요……아, 쇼카쿠 언니! 비아냥 거리는 건 나중에!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 306060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 306060,
+			nameColor = "#92fc63",
 			say = "아직 할 수 있습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,8 +240,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#92fc63",
 			say = "아까 카가가 말한 대로 입니다! 이 정도는, 사쿠라 엠파이어의 항공모함에겐 아무것도 아닙니다!",
 			typewriter = {
@@ -286,12 +286,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
+			say = "그렇지만……",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그렇지만……",
+			actor = 307020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -341,8 +341,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#92fc63",
 			say = "자, 다들 힘내자고요! 노력과 근성, 감투정신으로!",
 			typewriter = {
@@ -355,10 +355,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "모두",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			hideOther = true,
 			dir = 1,
 			actor = 307060,
 			nameColor = "#92fc63",

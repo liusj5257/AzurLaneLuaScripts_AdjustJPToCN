@@ -1,12 +1,12 @@
 return {
-	id = "W1113",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1113",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "통제 장치 활성화, 기관이 제거되었습니다!",
 			typewriter = {
 				speed = 0.05,

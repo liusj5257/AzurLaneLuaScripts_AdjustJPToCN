@@ -5,15 +5,15 @@ slot0.Fields = {
 	rtSairenFog = "userdata"
 }
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.map = slot1
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Clear()
 end
 
-function slot0.Load(slot0, slot1)
+slot0.Load = function(slot0, slot1)
 	slot2 = {}
 	slot3 = slot0.map
 
@@ -44,7 +44,7 @@ function slot0.Load(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.Unload(slot0)
+slot0.Unload = function(slot0)
 	if slot0.rtDarkFog then
 		PoolMgr.GetInstance():ReturnUI("darkfog", slot0.rtDarkFog.gameObject)
 

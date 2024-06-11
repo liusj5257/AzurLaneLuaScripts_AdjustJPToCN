@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U476",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U476",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"溫柔、安靜又溫暖\n\n<size=45>六  獨狼</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "——演習當天。",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "——演習當天。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,8 +54,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "啊! 她來了！U-47，這裡這裡！",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -129,11 +129,11 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
-			dir = 1,
-			actorName = "U-81&U-557",
-			hideOther = true,
 			nameColor = "#a9f548",
+			dir = 1,
+			hideOther = true,
+			actor = 408010,
+			actorName = "U-81&U-557",
 			say = "…………？",
 			subActors = {
 				{
@@ -233,12 +233,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
-			soundeffect = "event:/ui/alarm",
-			dir = 1,
 			say = "伴隨著一聲響亮的汽笛聲——模擬演習開始了。",
+			dir = 1,
+			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,8 +252,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "U-47先行前進，伏擊敵人!",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,8 +295,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "發揮妳的個性，像獨狼一樣行動吧~我們會配合妳的節奏的！",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			say = "U-47若有所思的緩緩潛入水下。",
@@ -388,14 +388,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "——演習結束，三人小隊的作戰成功了。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			blackBg = true,

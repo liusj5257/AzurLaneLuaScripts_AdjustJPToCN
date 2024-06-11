@@ -4,18 +4,18 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "story-richang-2",
+			side = 2,
 			say = "辺境の街・鍛冶屋",
+			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "システム文言",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "この先、更なる戦いに備えて、ここで装備を強化しておきましょう。",
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "システム文言",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "100ゴールド払い、残りの所持金は100ゴールドになった。戦士の斧+1　をてにいれた。",
 			typewriter = {
@@ -83,17 +83,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "システム文言",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "100ゴールド払い、残りの所持金は0ゴールドになった。戦士の斧+1　をロストした。",
 			typewriter = {
@@ -160,17 +160,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -214,8 +214,8 @@ return {
 			expression = 7,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "…せ、戦士の斧がロスト！？",
 			painting = {
 				alpha = 0.3,
@@ -230,8 +230,8 @@ return {
 			expression = 6,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "所持金も…ゼロになっちゃった！？",
 			painting = {
 				alpha = 0.3,
@@ -246,8 +246,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "あ、あははは…",
 			painting = {
 				alpha = 0.3,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "お金を一から稼ぎ直さないと…うぅぅ…",
 			painting = {
 				alpha = 0.3,

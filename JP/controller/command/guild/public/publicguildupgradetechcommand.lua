@@ -1,6 +1,6 @@
 slot0 = class("PublicGuildUpgradeTechCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot7 = getProxy(PlayerProxy):getData()
 
 	if not getProxy(GuildProxy):GetPublicGuild():GetTechnologyById(slot1:getBody().id) then

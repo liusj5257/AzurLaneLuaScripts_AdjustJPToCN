@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU1",
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
 			bgName = "bg_firedust_1",
-			asideType = 3,
-			typewriterTime = 0.05,
 			bgmDelay = 2,
 			bgm = "theme-vichy-church",
+			stopbgm = true,
+			asideType = 3,
+			typewriterTime = 0.05,
 			sequence = {
 				{
 					"南大洋・聖堂の島「ケルゲレン」",
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ロイヤル・オークさん、なにか異常がおありで？",
 			painting = {
 				alpha = 0.3,
@@ -58,17 +58,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "情報によればそのはずなんですけど…",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でも私たちがやってくる前にもう撤収したらしいですね",
 			painting = {
 				alpha = 0.3,
@@ -152,10 +152,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もしかしたら、ロイヤル・オークさんと同じようにここの雰囲気に耐えられなくなったのかも",
 			painting = {
 				alpha = 0.3,
@@ -189,10 +189,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でも価値のある情報はなにも見つかってないですね",
 			painting = {
 				alpha = 0.3,
@@ -204,12 +204,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "陛下はもちろん、分隊指揮のインプラカブルさんからも「どんな小さなことでも見逃さないで」って言われてますのに…",
 			painting = {
 				alpha = 0.3,
@@ -224,10 +224,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私たちは施設の間取り図らしきもの以外特に何も見つけられていませんね",
 			painting = {
 				alpha = 0.3,
@@ -261,10 +261,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そんなことはないですよっ。ええと、手がかりを見つけられていないのはアーガスもです…",
 			painting = {
 				alpha = 0.3,
@@ -314,12 +314,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（「一緒に頑張りましょう」と言いたかったですけど、なんだか話がずれているような……）",
 			painting = {
 				alpha = 0.3,
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -344,10 +344,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "だ、大丈夫ですよロイヤル・オークさん！皆あなたのことを信頼していますから！",
 			painting = {
 				alpha = 0.3,
@@ -362,10 +362,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ほら、分艦隊の旗艦だってもともと陛下がロイヤル・オークさんを指名したではありませんか",
 			painting = {
 				alpha = 0.3,
@@ -380,10 +380,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（でも「私なんて無理です」って、インプラカブルさんに譲ったんですよね…）",
 			painting = {
 				alpha = 0.3,
@@ -436,10 +436,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ロイヤル・オークさん、そんなに自分を悪く言わないでくださいませ",
 			painting = {
 				alpha = 0.3,
@@ -451,12 +451,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "陛下も仰ったじゃないですか？南極海域の近くにある聖堂施設にわざわざ量産艦の守備隊が配置されている――「絶対に何かある」と",
 			painting = {
 				alpha = 0.3,
@@ -471,10 +471,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "調査を続けさえすれば、いつかきっと収穫があるはず……あっ",
 			painting = {
 				alpha = 0.3,
@@ -486,12 +486,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ロイヤル・オークさん、すみません、今そちらの近くで何かが動きませんでしたか？なんか警報が出ているようです…",
 			painting = {
 				alpha = 0.3,
@@ -506,10 +506,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "え？流れ弾とかじゃなく、何かが「動いて」…っ！？",
 			painting = {
 				alpha = 0.3,
@@ -521,8 +521,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -534,10 +534,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「我がアルゴスの目がすべてを見通しているゆえ、落ち着け！」……ですっ！",
 			painting = {
 				alpha = 0.3,
@@ -549,8 +549,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -584,12 +584,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そういえば…ヴィシアの審判廷の施設には幽霊が出没する噂が何度も……",
 			painting = {
 				alpha = 0.3,
@@ -620,8 +620,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -639,10 +639,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あっ！すみません幽霊の事を言いたかったわけではありません…！",
 			painting = {
 				alpha = 0.3,
@@ -663,10 +663,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今監視カメラを確認して…確かロイヤル・オークさんがいる区画は…よし！見つかりました",
 			painting = {
 				alpha = 0.3,
@@ -678,12 +678,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そして監視カメラの映像をこの部屋につなげて…",
 			painting = {
 				alpha = 0.3,
@@ -698,10 +698,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ん？接続できないようですね…",
 			painting = {
 				alpha = 0.3,
@@ -734,9 +734,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
+			bgName = "bg_story_task",
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -750,17 +750,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -768,12 +768,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さっき警報は止みました。でも監視カメラがまだ復旧していなくて…",
 			painting = {
 				alpha = 0.3,
@@ -826,10 +826,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "施設の担当の手が回らなかったのでしょうか…？",
 			painting = {
 				alpha = 0.3,
@@ -863,10 +863,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この施設は大昔のセイレーン侵攻後の「海軍の休日」時期に建設されたものらしいです",
 			painting = {
 				alpha = 0.3,
@@ -881,10 +881,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でもさっき、ロイヤル・オークさんは物音が聞こえたんですよね…？",
 			painting = {
 				alpha = 0.3,
@@ -918,10 +918,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こ、こちらロイヤルネイビー騎士隊のロイヤル・オークよ！誰かいるなら姿を見せなさい！",
 			painting = {
 				alpha = 0.3,
@@ -939,8 +939,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -952,10 +952,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "？！敵を見つけたのですか…！？",
 			painting = {
 				alpha = 0.3,
@@ -995,10 +995,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ、あはは…そうですね。ではちょっとここの設備を一度チェックしてみましょうか",
 			painting = {
 				alpha = 0.3,
@@ -1013,10 +1013,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええと、ここがこうなってるから…多分こう……",
 			painting = {
 				alpha = 0.3,
@@ -1028,12 +1028,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "聖堂施設、全設備自動検査シーケンス、起動――",
 			painting = {
 				alpha = 0.3,
@@ -1045,8 +1045,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "システム音声",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
 			say = "「オーダーを受領しました。ただいま自動検査シーケンスが起動しました。所要時間3600000秒」",
@@ -1059,10 +1059,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "相当時間がかかるみたいですね……",
 			painting = {
 				alpha = 0.3,
@@ -1074,8 +1074,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1106,10 +1106,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええと、モニターに何か書いてありますよ",
 			painting = {
 				alpha = 0.3,
@@ -1121,12 +1121,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "聖堂施設の緊急時制御システム…管理者の権限設定と…施設内自動防衛システムの起動と…",
 			painting = {
 				alpha = 0.3,
@@ -1141,10 +1141,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なるほど、できそうです！登録者、アーガスとロイヤル・オーク、制御システムを限定起動して…",
 			painting = {
 				alpha = 0.3,
@@ -1159,10 +1159,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よし。施設内の防衛システムを起動すれば、誰か入ってきてきたときはすぐわかりますよ",
 			painting = {
 				alpha = 0.3,
@@ -1196,10 +1196,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………オーダーを入力して…うん、これで",
 			painting = {
 				alpha = 0.3,
@@ -1211,8 +1211,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "システム音声",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
 			say = "「オーダーを受領しました。緊急制御システム起動します。工場区画の起動を――」",
@@ -1222,12 +1222,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……？",
 			painting = {
 				alpha = 0.3,
@@ -1242,10 +1242,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ロイヤル・オークさん、工場区画にもエラーが出ているようです…！",
 			painting = {
 				alpha = 0.3,
@@ -1257,8 +1257,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1289,10 +1289,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "数が増えていってます！ど、どうしよう…聖堂施設のあちこちから……",
 			painting = {
 				alpha = 0.3,
@@ -1304,8 +1304,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "システム音声",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
 			say = "「緊急制御システム、故障発生」",
@@ -1315,8 +1315,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "システム音声",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
 			say = "「復元プログラムの起動に失敗……再起動…再起動…」",
@@ -1326,8 +1326,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "システム音声",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
 			say = "「警告…警告…破損…上位決裁システムの承認を……」",
@@ -1340,10 +1340,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "やってしまいました…え、ええと、制御権限の更新を……",
 			painting = {
 				alpha = 0.3,
@@ -1358,10 +1358,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「管理者より上の権限が必要」…？でもそんな権限をどうやって……",
 			painting = {
 				alpha = 0.3,
@@ -1373,12 +1373,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（もしかしてこの施設はヴィシア…アイリスのではい？？）",
 			painting = {
 				alpha = 0.3,
@@ -1393,10 +1393,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ロイヤル・オークさん、何か様子がおかしいです！すぐ脱出して合流しましょう！",
 			painting = {
 				alpha = 0.3,
@@ -1408,8 +1408,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1418,8 +1418,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ロイヤル・オーク",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			say = "……ダメ……大量に……わ……",
@@ -1434,8 +1434,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ロイヤル・オーク",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			say = "……撃してき……戦闘中……",
@@ -1453,10 +1453,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ロイヤル・オークさん、応答してください！何が起きたんですか…？！",
 			painting = {
 				alpha = 0.3,
@@ -1471,10 +1471,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（通信がジャミングされている……まさかこれは……鏡面海域！？）",
 			painting = {
 				alpha = 0.3,
@@ -1486,8 +1486,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1496,8 +1496,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "theme-kerguelen",
 			sequence = {
 				{
@@ -1535,11 +1535,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

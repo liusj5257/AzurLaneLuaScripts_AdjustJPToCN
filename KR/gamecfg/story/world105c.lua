@@ -1,19 +1,19 @@
 return {
-	id = "WORLD105C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD105C",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/41/tb-41",
+			dir = 1,
 			bgm = "story-richang",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "분석 모듈 동기화 중. 적 함대 소멸, 먼 곳에서 세이렌 증원 함대를 발견했습니다. 긴장을 풀지 마십시오.",
-			voice = "event:/tb/41/tb-41",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "윽, 확실히 평소랑은 좀 다르네. 이제 막 버뮤다 해역에 들어왔는데, 이렇게 함대를 보내서 우리를 환영해 주다니.",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -83,8 +83,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "버뮤다의 비밀...",
 			typewriter = {
 				speed = 0.05,
@@ -98,12 +98,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_banama_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
 			actor = 107060,
 			nameColor = "#a9f548",
+			bgName = "bg_banama_2",
 			say = "이 환영은, 대체 뭐지…?",
 			effects = {
 				{
@@ -155,8 +155,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_2",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "언제, 어디서의 기록이지?",
 			typewriter = {
@@ -217,13 +217,13 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "...엔터프라이즈, 무슨 생각 해?",
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "story-richang",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "...엔터프라이즈, 무슨 생각 해?",
 			effects = {
 				{
 					active = false,

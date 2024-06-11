@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA21",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			bgm = "sk-az-battle-boss",
 			side = 2,
 			bgName = "bg_kagura_2",
+			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
 			say = "――――！！！",
-			bgm = "sk-az-battle-boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,8 +61,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "痛っ！そんな攻撃、卑怯だよ！",
 			painting = {
@@ -78,8 +78,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "卑怯って叫んでも手加減してくれる相手じゃないだろう！？ぐだぐだ言ってないでなんとか押し返せ！",
 			painting = {
@@ -95,8 +95,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "夕焼！そっちは押さえておけるか！？",
 			painting = {
@@ -112,8 +112,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000070,
 			dir = 1,
+			actor = 11000070,
 			nameColor = "#A9F548FF",
 			say = "なんとかしてやるが、そんなに長くは保たねぇぞ！さっさとやり込める方法を考えろ！",
 			painting = {
@@ -129,8 +129,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
 			say = "くっ、やりにくいわね～。攻撃方法が変わらないのに、全然効果が違う！一体どうなっているの…？！",
 			painting = {
@@ -146,8 +146,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 402080,
 			dir = 1,
+			actor = 402080,
 			nameColor = "#A9F548FF",
 			say = "意図的にリズムをずらして、タイミングをとられないようにしてるわ。これって…ニンジャの攻撃に似てない？",
 			painting = {
@@ -163,8 +163,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
 			say = "「戦ニン機甲武装」って名前でしたっけ？戦い方はニンジャなのに威力はテスターと同格だなんて…！",
 			painting = {
@@ -180,8 +180,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
 			say = "まったくもう…どうにかしないと…！",
 			painting = {
@@ -196,9 +196,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "ならばこちらも、新たに身につけたニンジュツで対応すればいいでござる！ゆけー、榴弾分身の術！",
 			painting = {
 				alpha = 0.3,
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#A9F548FF",
 			say = "ならリノは、紫たちに協力してもらって開発した新装備をお披露目するよ！無限マキビシ散布砲！ファイヤー！",
 			painting = {
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "ふむ、分身手裏剣は教えたが、あのような形に仕立て直してくるとは…実は結構才能あるんじゃないのか？",
 			painting = {
@@ -247,8 +247,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "あのマギビシ発射機すごく便利そう！もう少し小型化して、私たちにも使えるように出来ないかな？",
 			painting = {
@@ -264,8 +264,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
 			say = "もー！これ以上アイツらを調子にのせないの！",
 			painting = {

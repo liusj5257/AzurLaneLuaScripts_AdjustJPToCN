@@ -26,8 +26,8 @@ pg.guildset = {
 		key_value = 100
 	},
 	store_refresh = {
-		key_value = 0,
 		key = "store_refresh",
+		key_value = 0,
 		key_args = {
 			1,
 			5
@@ -134,8 +134,8 @@ pg.guildset = {
 		key_value = 4
 	},
 	operation_member_dispatch_reset = {
-		key_value = 0,
 		key = "operation_member_dispatch_reset",
+		key_value = 0,
 		key_args = {
 			6,
 			12,
@@ -204,8 +204,8 @@ pg.guildset = {
 		key_value = 2
 	},
 	public_level_initial = {
-		key_value = 0,
 		key = "public_level_initial",
+		key_value = 0,
 		key_args = {
 			1,
 			1,
@@ -215,8 +215,8 @@ pg.guildset = {
 		}
 	},
 	public_level_priority = {
-		key_value = 0,
 		key = "public_level_priority",
+		key_value = 0,
 		key_args = {
 			2,
 			3,
@@ -226,8 +226,8 @@ pg.guildset = {
 		}
 	},
 	public_level_limit = {
-		key_value = 0,
 		key = "public_level_limit",
+		key_value = 0,
 		key_args = {
 			30,
 			30,

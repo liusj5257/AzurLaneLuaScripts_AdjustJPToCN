@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQITOUPIAOXINPIANZHANG13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQITOUPIAOXINPIANZHANG13",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 201210,
-			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "サブステージでも3回目があるんだ…",
 			bgm = "votefes-start",
+			actor = 201210,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "サブステージでも3回目があるんだ…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -24,17 +24,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "セイレーン、METAの次は何だろう？",
 			painting = {
 				alpha = 0.3,
@@ -59,12 +59,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あっち見て…",
 			painting = {
 				alpha = 0.3,
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ、ベルちゃんたちだ！",
 			painting = {
 				alpha = 0.3,
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…ほかの子も全員いるです",
 			painting = {
 				alpha = 0.3,
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なるほど…勢揃いすると可愛さが反則ですね…彼女たちのために特別回が必要なわけですね",
 			painting = {
 				alpha = 0.3,
@@ -127,12 +127,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今回ばかりは、TBさんが参加者のプロモをシミュレートする必要はないですね",
 			painting = {
 				alpha = 0.3,
@@ -144,12 +144,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…前回の間違い連発のシーンは、まだ思い出せるです",
 			painting = {
 				alpha = 0.3,
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ、あの子たちはステージに向かってるみたい！早く見に行こう！",
 			painting = {
 				alpha = 0.3,

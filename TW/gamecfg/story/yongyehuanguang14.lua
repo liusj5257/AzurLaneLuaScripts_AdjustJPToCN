@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG14",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -35,11 +35,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#ff5c5c",
 			say = "啊啊啊啊！這些艦載機太煩人了！",
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -77,15 +77,15 @@ return {
 			}
 		},
 		{
-			actor = 201230,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201230,
+			nameColor = "#a9f548",
 			say = "呼~動力受損的希佩爾應該一段時間動彈不得了，暫時脫離險境~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 201230,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201230,
+			nameColor = "#a9f548",
 			say = "什麼！？戰列艦編隊怎麼可能跑得這麼快...？！",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,8 +171,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "嗯，絕對沒錯。",
 			typewriter = {
@@ -204,8 +204,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "…我覺得幾艘偵察機不可能對主力艦造成有效的損害。不過既然妳這麼說的話，稍等一下——",
 			typewriter = {
@@ -220,14 +220,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_hms_7",
 			actor = 206060,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "唔…？鐵必制對於偵察機的攻擊沒有任何回應，位於兩側的沙恩霍斯特和格奈森瑙也是一樣。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "對於攻擊沒有回應、高速的移動的主力艦隊……難道說…！",
 			dialogShake = {
 				speed = 0.09,
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_7",
+			dir = 1,
 			say = "話音剛落，謝菲爾德便急迫地掉頭，向著鐵血主力艦隊的方向衝了過去。",
 			typewriter = {
 				speed = 0.05,

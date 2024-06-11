@@ -4,23 +4,23 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -42,24 +42,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-vichy-church",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "As I expected, Clemenceau immediately approved my request to borrow the Tribunal's base.",
-			bgm = "theme-vichy-church",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "I finished my call with Saratoga and went to the command center. There, I saw that the Eagle Union and Northern Parliament were already done setting up a chain of command.",
@@ -85,10 +85,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, I set up a new rendezvous route for Saratoga's and Soyuz's fleets, like you asked.",
 			painting = {
 				alpha = 0.3,
@@ -103,10 +103,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Also, the research station is orchestrating an evacuation as we speak. It's going smoothly so far.",
 			painting = {
 				alpha = 0.3,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "*clap clap clap clap*",
@@ -144,10 +144,10 @@ return {
 			portrait = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "Clemenceau",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Winning a battle thousands of kilometers away. Imagine that.",
 			painting = {
 				alpha = 0.3,
@@ -162,10 +162,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This has been a magnificent display of your legendary leadership skills, Commander. If you ever retire and become a politician, you'll be the face of your party.",
 			painting = {
 				alpha = 0.3,
@@ -216,10 +216,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes. Just as you asked, I've prepared a closed comms channel to her. That's what I came here to tell you.",
 			painting = {
 				alpha = 0.3,
@@ -234,10 +234,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's over in our secret room. Nobody else will be able to hear what you say.",
 			painting = {
 				alpha = 0.3,
@@ -264,10 +264,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heehee. I don't know what you mean♪",
 			painting = {
 				alpha = 0.3,
@@ -282,10 +282,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She's on the line, but I can reschedule the call if now is a bad time for you.",
 			painting = {
 				alpha = 0.3,
@@ -312,10 +312,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Of course. Right this way.",
 			painting = {
 				alpha = 0.3,
@@ -327,28 +327,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_blue",
+			bgm = "story-commander-up",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Tribunal Headquarters - Secret Room",
-			bgm = "story-commander-up",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -378,10 +378,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "While we have publically spoken face-to-face before, well, as you may know...",
 			painting = {
 				alpha = 0.3,
@@ -415,10 +415,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I will say, I'm surprised you'd go out of your way to contact me like this.",
 			painting = {
 				alpha = 0.3,
@@ -464,10 +464,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "All she told me was that this was about sharing intel and cooperating in Antarctica. Her tone was quite \"figure out the rest yourself.\"",
 			painting = {
 				alpha = 0.3,
@@ -524,9 +524,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_guild_blue",
 			paintingNoise = true,
-			dir = 1,
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -540,17 +540,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -613,10 +613,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's no wonder why Friedrich would sing your praises on a daily basis. Hahahah.",
 			painting = {
 				alpha = 0.3,
@@ -765,10 +765,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Here's what's going to happen.",
 			painting = {
 				alpha = 0.3,
@@ -895,10 +895,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Thank you. Until next time.",
 			painting = {
 				alpha = 0.3,
@@ -910,28 +910,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-vichy-church",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Tribunal Headquarters - Corridor",
-			bgm = "theme-vichy-church",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -942,10 +942,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, you got done sooner than I expected.",
 			painting = {
 				alpha = 0.3,
@@ -960,10 +960,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Seems like it went exceedingly well. Color me impressed.",
 			painting = {
 				alpha = 0.3,
@@ -975,12 +975,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Who could have predicted she'd give you THAT much leeway, hmm?",
 			painting = {
 				alpha = 0.3,
@@ -1043,10 +1043,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But enough joking around. I got in touch with the Royal Navy's fleet.",
 			painting = {
 				alpha = 0.3,
@@ -1061,10 +1061,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It seems they anticipated the Gazers' arrival, though they're still scrambling to figure out what to do.",
 			painting = {
 				alpha = 0.3,
@@ -1076,12 +1076,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "PTSD from the events of the World Expo, perhaps.",
 			painting = {
 				alpha = 0.3,
@@ -1096,10 +1096,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Won't you be a dear and get them to calm down?",
 			painting = {
 				alpha = 0.3,
@@ -1114,10 +1114,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Remember, you can always pull the Antarctic Treaty on them.",
 			painting = {
 				alpha = 0.3,
@@ -1132,10 +1132,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Say something like – \"As the Commander of the Azur Lane, I have unrivaled authority over Antarctica and its ocean.\"",
 			painting = {
 				alpha = 0.3,
@@ -1150,10 +1150,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"I request that you transfer control of your fleet to me immediately and that you cooperate with other fleets under my command until the battle is over.\"",
 			painting = {
 				alpha = 0.3,
@@ -1168,10 +1168,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Not to be pushy or anything, but I could send that message on your behalf.",
 			painting = {
 				alpha = 0.3,
@@ -1198,10 +1198,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Aww. That's too bad♪",
 			painting = {
 				alpha = 0.3,

@@ -1,10 +1,10 @@
 slot0 = class("GuildMissionBossPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildMissionBossPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.hp = slot0:findTF("hp/bar")
 	slot0.hpProgress = slot0:findTF("hp/bar/Text"):GetComponent(typeof(Text))
 	slot0.hpL = slot0.hp.rect.width
@@ -30,7 +30,7 @@ function slot0.OnLoaded(slot0)
 	slot0.timeView = GuildEventTimerView.New()
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.assaultBtn, function ()
 		uv0:emit(GuildEventLayer.OPEN_BOSS_ASSULT)
 	end, SFX_PANEL)
@@ -60,11 +60,11 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateMission(slot0, slot1)
+slot0.UpdateMission = function(slot0, slot1)
 	slot0.bossMission = slot1
 end
 
-function slot0.OnReportUpdated(slot0)
+slot0.OnReportUpdated = function(slot0)
 	setActive(slot0.reportTip, #_.select(_.values(getProxy(GuildProxy):GetReports()), function (slot0)
 		return slot0:CanSubmit()
 	end) > 0)
@@ -74,7 +74,7 @@ function slot0.OnReportUpdated(slot0)
 	end
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0:UpdateMission(slot1)
 	slot0:InitRanks()
 	slot0:UpdateView()
@@ -93,7 +93,7 @@ function slot0.Show(slot0, slot1)
 	slot0.timeView:Flush(slot0.eventTimerTxt, getProxy(GuildProxy):getRawData():GetActiveEvent())
 end
 
-function slot0.CheckFleetShipState(slot0)
+slot0.CheckFleetShipState = function(slot0)
 	slot1 = slot0.bossMission
 	slot3 = {}
 
@@ -125,7 +125,7 @@ function slot0.CheckFleetShipState(slot0)
 	end
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	if getProxy(GuildProxy):ShouldRefreshBoss() then
 		slot0:emit(GuildEventMediator.ON_GET_BOSS_INFO)
 	else
@@ -135,7 +135,7 @@ function slot0.UpdateView(slot0)
 	end
 end
 
-function slot0.UpdatePainting(slot0)
+slot0.UpdatePainting = function(slot0)
 	if slot0.bossMission:GetPainting() and slot2 ~= "" then
 		setGuildPaintingPrefab(slot0.paintingTF, slot2, "chuanwu", nil)
 	else
@@ -164,7 +164,7 @@ function slot0.UpdatePainting(slot0)
 	setActive(slot0.prefabTF, not slot3)
 end
 
-function slot0.UpdateBossInfo(slot0)
+slot0.UpdateBossInfo = function(slot0)
 	slot1 = slot0.bossMission
 	slot4 = slot1:GetHp() / math.max(slot1:GetTotalHp(), 1)
 	slot6 = tf(slot0.hp)
@@ -174,7 +174,7 @@ function slot0.UpdateBossInfo(slot0)
 	slot0.cntTxt.text = "<color=" .. (slot1:GetCanUsageCnt() > 0 and COLOR_GREEN or COLOR_RED) .. ">" .. slot7 .. "</color>/" .. GuildConst.MISSION_BOSS_MAX_CNT()
 end
 
-function slot0.InitRanks(slot0)
+slot0.InitRanks = function(slot0)
 	if getProxy(GuildProxy):ShouldRefreshBossRank() then
 		slot0:emit(GuildEventMediator.ON_REFRESH_BOSS_RANK)
 	else
@@ -183,7 +183,7 @@ function slot0.InitRanks(slot0)
 	end
 end
 
-function slot0.UpdateRank(slot0)
+slot0.UpdateRank = function(slot0)
 	slot1 = getProxy(GuildProxy)
 	slot1 = slot1:GetBossRank()
 
@@ -211,11 +211,11 @@ function slot0.UpdateRank(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.ExistActiveEvent(slot0)
+slot0.ExistActiveEvent = function(slot0)
 	return getProxy(GuildProxy):getRawData():GetActiveEvent() and not slot1:IsExpired()
 end
 
-function slot0.AddRankTimer(slot0)
+slot0.AddRankTimer = function(slot0)
 	if not slot0:ExistActiveEvent() then
 		return
 	end
@@ -234,7 +234,7 @@ function slot0.AddRankTimer(slot0)
 	slot0.rankTimer:Start()
 end
 
-function slot0.AddBossTimer(slot0)
+slot0.AddBossTimer = function(slot0)
 	if not slot0:ExistActiveEvent() then
 		return
 	end
@@ -252,7 +252,7 @@ function slot0.AddBossTimer(slot0)
 	slot0.bossTimer:Start()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.rankTimer then
 		slot0.rankTimer:Stop()
 

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"半人馬與港區的“前輩”們\n\n<size=45>五　幻想的半人馬</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 207020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "妳已經得到了本人夢寐以求的東西，真是何等令人羨慕的後輩……",
 			bgm = "story-1",
+			actor = 207020,
+			nameColor = "#a9f548",
+			say = "妳已經得到了本人夢寐以求的東西，真是何等令人羨慕的後輩……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "欸，是、是這樣嗎？",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -79,12 +79,12 @@ return {
 			}
 		},
 		{
-			actor = 207040,
+			say = "嫉妒後輩可不是前輩所為呢，皇家方舟。",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嫉妒後輩可不是前輩所為呢，皇家方舟。",
+			actor = 207040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#a9f548",
 			say = "但是，那可是本人夢寐以求的東西啊！",
 			effects = {
 				{
@@ -124,8 +124,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "啊，勝利前輩，妳好。",
 			effects = {
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "嗯，妳也好。指揮官，這是任務報告，請過目一下。",
 			typewriter = {
 				speed = 0.05,
@@ -182,12 +182,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "咦，勝利妳也這麼想嗎，本人也有這種感覺……",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "咦，勝利妳也這麼想嗎，本人也有這種感覺……",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -218,16 +218,16 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#a9f548",
 			say = "不是，本人是覺得半人馬有親近感才會接近她的，結果就看到了令人羨慕的一幕……",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1,
 					dur = 0.4,
 					x = 22.5,
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "指揮官，借用一下你的秘書艦哦？",
 			typewriter = {
 				speed = 0.05,
@@ -314,13 +314,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "三個人於是坐下聊起了天。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -360,8 +360,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "是的，其實一開始發現我和前輩們長相都不一樣，我也有些驚訝呢。",
 			typewriter = {
@@ -374,12 +374,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "確實，和重櫻那種獸耳也不一樣，本人也有些好奇。",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "確實，和重櫻那種獸耳也不一樣，本人也有些好奇。",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -394,12 +394,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "指揮官有什麼頭緒嗎？",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官有什麼頭緒嗎？",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -436,12 +436,12 @@ return {
 			}
 		},
 		{
-			actor = 207040,
+			say = "哦？說來聽聽。",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哦？說來聽聽。",
+			actor = 207040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -459,8 +459,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "會不會是因為我的名字是神話中的生物，而且和森林也有著挺深的關係。",
 			typewriter = {
@@ -476,8 +476,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "所以在認知上就容易讓人聯想到同為森林中的幻想種族“精靈”了呢…？",
 			typewriter = {
@@ -509,8 +509,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "{namecode:37}前輩和{namecode:98}前輩嗎…下次遇到的時候也和她們聊聊吧~",
 			typewriter = {
@@ -542,8 +542,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "沒問題~",
 			typewriter = {
@@ -572,16 +572,16 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#a9f548",
 			say = "那本人也該回去了。半人馬，下次和驅逐艦們一起玩的時候能不能那個，呃，就是，叫一下本人？",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1.5,
 					dur = 0.4,
 					x = 22.5,
@@ -598,12 +598,12 @@ return {
 			}
 		},
 		{
-			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
+			nameColor = "#a9f548",
 			say = "好的~兩位前輩回見。",
 			typewriter = {
 				speed = 0.05,

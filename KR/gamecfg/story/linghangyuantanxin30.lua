@@ -8,13 +8,13 @@ return {
 	},
 	scripts = {
 		{
-			tbActor = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
 			bgm = "story-richang-flexible",
+			tbActor = true,
 			actor = 1007,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "…… (아까부터 TB가 흘끔흘끔 내쪽을 보고 있다.)",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -55,10 +55,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1007,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "아뇨. {tb}, TB… 좀 변한 것 같지 않아요?",
 			typewriter = {
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "TB를 찬찬히 살펴봤지만, 특별히 달라진 부분은 보이지 않았다.",
@@ -105,10 +105,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1007,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……머리카락, 5밀리 정도 짧아졌어요.",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "그 후 TB는 조금 토라진 모습이었다.",

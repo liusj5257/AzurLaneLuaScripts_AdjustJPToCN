@@ -1,13 +1,13 @@
 return {
-	id = "W730030",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W730030",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "是否派遣當前艦隊進入海域中央？ （海域中央不會發生戰鬥，進入後其他艦隊無法進入）",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "I56XIAOFU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "I56XIAOFU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Wallflower in the Corner\n\n<size=45>Chapter 2 - Misunderstandings and Making Friends</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_103",
 			bgm = "story-1",
 			actor = 308051,
 			nameColor = "#a9f548",
 			say = "Eek!!!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2,
 					dur = 0.1,
 					x = 0,
@@ -66,10 +66,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 308041,
-			dir = -1,
-			nameColor = "#a9f548",
 			say = "Woah?! Am... I really that scary...",
+			dir = -1,
+			actor = 308041,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "It's n-nothing... I j-just thought the grass here feels pretty cool...",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = -1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "Oh... It's Iroha and Hammann. Going at it again, huh...",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = -1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "Were you... spying on them?",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "Um... Mhm...",
 			typewriter = {
@@ -168,11 +168,11 @@ return {
 			}
 		},
 		{
-			actor = 308041,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 308041,
+			nameColor = "#a9f548",
 			say = "Aha, I knew it! So that's what's going on.",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -197,8 +197,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "Huh? What?",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = -1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "Well, you always go on missions alone, and you're always by yourself at school.",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "Well, that's because...",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = -1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "Don't be shy! Hehe~ I'll be your first friend... how does that sound?",
 			typewriter = {
@@ -297,8 +297,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "Huh? Th-there's no need, I didn't...",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 308041,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 308041,
+			nameColor = "#a9f548",
 			say = "All right, that's decided! From now on, we're going to be best friends!",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 900
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "Urkkk...",
 			typewriter = {
 				speed = 0.05,
@@ -362,8 +362,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -388,11 +388,11 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "*gasp* ... Boobs... Can't breathe...",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -417,10 +417,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 308041,
-			dir = -1,
-			nameColor = "#a9f548",
 			say = "Ah, sorry... 26 keeps telling me that I scare people away. I didn't scare you, did I?",
+			dir = -1,
+			actor = 308041,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -451,8 +451,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -467,11 +467,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "Cannonbaaall!",
 			dialogShake = {
 				speed = 0.09,
@@ -488,11 +488,11 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "Eeeek!",
 			typewriter = {
 				speed = 0.05,
@@ -504,8 +504,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

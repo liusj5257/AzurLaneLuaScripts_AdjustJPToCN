@@ -62,12 +62,12 @@ return {
 	desc_get = "每隔30秒，生成2面旋转的护盾，每个护盾阻挡8发子弹，被击破时对周围敌方造成较小伤害，护盾持续5秒(满级15秒)",
 	name = "潘多拉的魔盒",
 	init_effect = "",
+	id = 10120,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "每隔30秒，生成2面旋转的护盾，每个护盾阻挡8发子弹，被击破时对周围敌方造成较小伤害，护盾持续$1秒",
 	stack = 1,
-	id = 10120,
+	color = "blue",
 	icon = 10120,
 	last_effect = "",
 	effect_list = {
@@ -77,9 +77,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 10120,
 				time = 30,
-				target = "TargetSelf",
-				skill_id = 10120
+				target = "TargetSelf"
 			}
 		}
 	}

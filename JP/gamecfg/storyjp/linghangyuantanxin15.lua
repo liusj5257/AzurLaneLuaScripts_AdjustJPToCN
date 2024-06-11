@@ -7,12 +7,12 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "bg_project_tb_room3",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "qe-ova-10",
-			actor = 1201,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room3",
+			bgm = "qe-ova-10",
+			tbActor = true,
+			actor = 1201,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……宿題も、今日の家事も終わらせました",
 			typewriter = {
@@ -20,17 +20,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -38,14 +38,14 @@ return {
 			}
 		},
 		{
-			actor = 1201,
 			nameColor = "#A9F548FF",
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			actorName = "TB",
 			side = 2,
-			say = "（じ――――）",
+			bgName = "bg_project_tb_room3",
 			tbActor = true,
+			actor = 1201,
+			actorName = "TB",
+			hidePaintObj = true,
+			say = "（じ――――）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,10 +67,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1201,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……こういう場合は普通、何か奨励か褒美があるはずです",
 			typewriter = {
@@ -94,10 +94,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1201,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……違います。そちらの勘違いです。別に甘えてなんかいません",
 			typewriter = {
@@ -121,10 +121,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1201,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……別にご褒美が欲しくてやったわけではありませんけど…目玉焼きは黄身を焼きすぎないようにお願いします",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "はぁ、年頃の子は難しい…",

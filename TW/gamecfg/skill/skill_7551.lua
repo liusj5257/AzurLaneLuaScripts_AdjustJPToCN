@@ -2,20 +2,20 @@ return {
 	uiEffect = "",
 	name = "传颂之物后排减伤3%",
 	cd = 0,
-	painting = "salana",
-	id = 7551,
 	picture = "0",
 	aniEffect = "",
 	desc = "传颂之物后排减伤3%",
+	painting = "salana",
+	id = 7551,
 	castCV = {
-		skinID = 10300050,
-		key = "skill"
+		key = "skill",
+		skinID = 10300050
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerMainFleet"
 			},

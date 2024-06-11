@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong2_3",
-			actorName = "{namecode:182}",
 			dir = 1,
 			bgmDelay = 1,
-			say = "……근처에, 다른 사람들이 있구나.",
 			bgm = "story-4",
+			actorName = "{namecode:182}",
+			say = "……근처에, 다른 사람들이 있구나.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:80}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:27}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:80}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:60}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:60}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:27}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:50}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:60}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -178,8 +178,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:50}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:50}",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(이렇게 약해진 나에게 모두를 빙빙 돌아가게 할 가치가 있는 것인가…)",
 			typewriter = {
@@ -246,8 +246,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "운명이 다른 항로를 그리고 있구나. 시작점이 달랐으니 종착점도 달라야 하는 법이지.",
 			typewriter = {
@@ -260,11 +260,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "그렇구나! ……스즈츠키, 방금 시나노님이 한 말이 무슨 뜻이야……?",
 			typewriter = {
 				speed = 0.05,
@@ -276,8 +276,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -305,8 +305,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "어쨌든 각자 갈 길 가자는 거겠지? 음, 재미있는 일이 또 줄었네…",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "여기는 치토세. 본섬으로 향하는 운송 임무를 수행하고 있다. 너희와 만나서 매우 반갑군.",
 			typewriter = {
@@ -371,8 +371,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "여기는 키이. 우리도 본섬으로 향하고 있다. 병참 보조 운송도 전투 못지 않게 중요한 일이니, 너희도 수고가 많아.",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 301820,
 			dir = 1,
+			actor = 301820,
 			nameColor = "#a9f548",
 			say = "혹시 그쪽의 항공모함은 설마… 엣?! 시나노님?!",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "우와! 시나노님의 첫 항해를 보게 되다니, 럭키!!!",
 			typewriter = {
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -450,8 +450,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "오랜만…? 에엣, 설마 시나노님과 만난 적이 있었던건가?",
 			typewriter = {
@@ -464,8 +464,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -477,8 +477,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "아니, 현세에서 일어난 일이 아니니… 만나서 반갑다는 것이 맞겠지.",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "후후후, 깨어있는 상태에서는 처음 뵙네요. 오랜만에 보는 것도, 만나서 반갑다는 것도 전부 맞는 말이죠~",
 			typewriter = {
@@ -511,8 +511,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "기분은 좀 어떠세요? 몸 상태는 괜찮으신가요? 불편한 점은 없으세요?",
 			typewriter = {
@@ -546,8 +546,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "에~ 제가 해야할 일이었을 뿐이에요. 감사하지 않으셔도 돼요.",
 			typewriter = {
@@ -563,8 +563,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "그러면 시나노님, 우리는 가보도록 하지. 이런 곳에서 만날 수 있어서 영광이었다. 평안한 항해 되기를.",
 			typewriter = {

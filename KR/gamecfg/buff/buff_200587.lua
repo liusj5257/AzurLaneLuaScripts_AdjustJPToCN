@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023云仙活动 根源加护",
 	time = 0,
+	name = "2023云仙活动 根源加护",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -25,9 +25,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				time = 20,
-				skill_id = 200587,
-				target = "TargetSelf"
+				skill_id = 200587
 			}
 		}
 	}

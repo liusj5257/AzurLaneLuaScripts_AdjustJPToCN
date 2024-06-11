@@ -7,11 +7,11 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
-			actor = 805010,
 			dir = 1,
+			bgm = "battle-whaling-normal",
+			actor = 805010,
 			stopbgm = true,
 			say = "インプラカブルさん、赤の騎士がこちらに接近してきています",
-			bgm = "battle-whaling-normal",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -40,8 +40,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "（しかもどういうわけか完全な状態に回復している…これは苦戦しそうね…）",
 			painting = {
 				alpha = 0.3,
@@ -91,8 +91,8 @@ return {
 			expression = 5,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "（というか、「余燼」に加勢してもらわないとさすがに危ない状況よ）",
 			painting = {
 				alpha = 0.3,
@@ -122,8 +122,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "あたしの戦い方はあたしが決めるよ。頭脳派は頭脳派らしく策を考えたら？",
 			painting = {
 				alpha = 0.3,
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "あなたたちはやつを引き付けて。あたしは側面から弱点がないか確かめてくる♪",
 			painting = {
 				alpha = 0.3,
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.4,
 					dur = 1,
 					x = -2500
@@ -177,9 +177,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 207070,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "さっきより調子に乗ってない？この「余燼」",
 			painting = {
 				alpha = 0.3,
@@ -199,8 +199,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "背中を任せるほどの信頼を持ち合わせていないということですよ",
 			painting = {
 				alpha = 0.3,
@@ -230,8 +230,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "…………ロイヤル艦隊、正面突破よ",
 			painting = {
 				alpha = 0.3,
@@ -246,8 +246,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "女王陛下の栄光のご加護があるわ！全力で戦い、敵に我らの力を思い知らせなさい！",
 			painting = {
 				alpha = 0.3,

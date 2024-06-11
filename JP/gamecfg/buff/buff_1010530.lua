@@ -12,12 +12,12 @@ return {
 	desc_get = "炮击有5%概率发动，8秒内自身炮击提升30.0%(满级60.0%)",
 	name = "铁血先锋 +",
 	init_effect = "",
+	id = 1010530,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "炮击有5%概率发动，8秒内自身炮击提升$1",
 	stack = 1,
-	id = 1010530,
+	color = "red",
 	icon = 10530,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				rant = 500,
-				target = "TargetSelf",
 				skill_id = 1010530,
+				target = "TargetSelf",
 				time = 5
 			}
 		},

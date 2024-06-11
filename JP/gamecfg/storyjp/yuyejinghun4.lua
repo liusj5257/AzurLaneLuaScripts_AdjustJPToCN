@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
 			actorName = "エセックス",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ガチャ、と扉を開ける音が響き、あなたは誰かが部屋に入ってきたことに気づきました",
 			typewriter = {
@@ -37,9 +37,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "ん？しき…探索者？なんで使用人ルームにいるの？",
 			typewriter = {
@@ -48,11 +48,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			side = 2,
+			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "あ！分かった！もう探索し始めたの？ふむふむ、さすが一流の探索者ね！",
@@ -66,9 +66,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "……迷子になっただけ？",
 			typewriter = {
@@ -81,9 +81,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "まあ確かにここの通路は入り組んでるからね～。ずっとここに生活してなきゃ迷子になるのはわかるなー",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "通信機から再びKPたちの声が響いた。",
@@ -143,11 +143,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			side = 2,
+			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "ん？探索者、なんできょろきょろしているの？",
@@ -273,9 +273,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "どうしたの？お腹でも痛くなった？客間に運ぼうか？",
 			typewriter = {

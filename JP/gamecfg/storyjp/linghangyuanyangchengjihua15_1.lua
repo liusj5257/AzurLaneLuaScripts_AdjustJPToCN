@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-2-4",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg10",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-1",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-2-4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……もう少しお小遣いをくれるにゃ？少しだけでいいにゃ～",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			say = "今にも泣きそうなTBの姿はとても保護欲をそそるものだ。",
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			say = "しかし、この聞き慣れた口調は……",
@@ -62,14 +62,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg10",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "せんせーが言っていました。保護者が同意しない場合は、このような口調で言うとよいにゃ～",
 			voice = "event:/educate/tb/educate-tb-story-2-5",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "せんせーが言っていました。保護者が同意しない場合は、このような口調で言うとよいにゃ～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			say = "そう言いながら、彼女は服の裾をつかんできた。",
@@ -91,14 +91,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg10",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "お小遣いにゃ……",
 			voice = "event:/educate/tb/educate-tb-story-2-6",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "お小遣いにゃ……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,14 +121,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg10",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "TBの勝ちにゃ～",
 			voice = "event:/educate/tb/educate-tb-story-2-7",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "TBの勝ちにゃ～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			say = "困ったな……後で明石に説明してもらわないと。",
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg10",
 			hidePaintObj = true,
 			say = "……こどもの授業でこんなことを教えるなんて！",

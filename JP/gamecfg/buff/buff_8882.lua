@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "美系V4 我方黑海伦娜支援",
 	time = 5,
-	color = "yellow",
+	name = "美系V4 我方黑海伦娜支援",
+	init_effect = "",
+	id = 8882,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8882,
+	color = "yellow",
 	icon = 8882,
 	last_effect = "",
 	effect_list = {

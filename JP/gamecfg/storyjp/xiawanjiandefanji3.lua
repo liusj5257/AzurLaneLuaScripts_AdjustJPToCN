@@ -1,17 +1,17 @@
 return {
-	id = "XIAWANJIANDEFANJI3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401190,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-boss-1",
 			dir = 1,
 			say = "……みんなとはぐれちゃった……",
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "……………………",
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -150,8 +150,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "簡単には逃さないのだよー！トライバル級駆逐艦エスキモー、アタック！",
 			typewriter = {
 				speed = 0.05,

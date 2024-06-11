@@ -15,7 +15,7 @@ slot11 = slot6.varint_decoder
 slot13 = slot6.varint_decoder64
 ReadTag = slot6.read_tag
 
-function slot15(slot0, slot1)
+slot15 = function(slot0, slot1)
 	return function (slot0, slot1, slot2, slot3, slot4)
 		if slot2 then
 			slot5 = uv0
@@ -85,7 +85,7 @@ function slot15(slot0, slot1)
 	end
 end
 
-function slot16(slot0, slot1, slot2)
+slot16 = function(slot0, slot1, slot2)
 	return uv0(slot0, function (slot0, slot1)
 		slot2, slot3 = uv0(slot0, slot1)
 
@@ -93,7 +93,7 @@ function slot16(slot0, slot1, slot2)
 	end)
 end
 
-function slot17(slot0, slot1, slot2)
+slot17 = function(slot0, slot1, slot2)
 	slot3 = uv0.struct_unpack
 
 	return uv1(slot0, function (slot0, slot1)
@@ -118,7 +118,7 @@ BoolDecoder = slot16(slot8.WIRETYPE_VARINT, slot6.varint_decoder, function (slot
 	return slot0 ~= 0
 end)
 
-function StringDecoder(slot0, slot1, slot2, slot3, slot4)
+StringDecoder = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0
 	slot6 = uv1.sub
 
@@ -163,7 +163,7 @@ function StringDecoder(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function BytesDecoder(slot0, slot1, slot2, slot3, slot4)
+BytesDecoder = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0
 	slot6 = uv1.sub
 
@@ -208,7 +208,7 @@ function BytesDecoder(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function MessageDecoder(slot0, slot1, slot2, slot3, slot4)
+MessageDecoder = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0
 	slot6 = uv1.sub
 
@@ -261,14 +261,14 @@ function MessageDecoder(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function _SkipVarint(slot0, slot1, slot2)
+_SkipVarint = function(slot0, slot1, slot2)
 	slot3 = nil
 	slot3, slot5 = uv0(slot0, slot1)
 
 	return slot5
 end
 
-function _SkipFixed64(slot0, slot1, slot2)
+_SkipFixed64 = function(slot0, slot1, slot2)
 	if slot2 < slot1 + 8 then
 		uv0("Truncated message.")
 	end
@@ -276,7 +276,7 @@ function _SkipFixed64(slot0, slot1, slot2)
 	return slot1
 end
 
-function _SkipLengthDelimited(slot0, slot1, slot2)
+_SkipLengthDelimited = function(slot0, slot1, slot2)
 	slot3 = nil
 	slot4, slot5 = uv0(slot0, slot1)
 
@@ -287,7 +287,7 @@ function _SkipLengthDelimited(slot0, slot1, slot2)
 	return slot1
 end
 
-function _SkipFixed32(slot0, slot1, slot2)
+_SkipFixed32 = function(slot0, slot1, slot2)
 	if slot2 < slot1 + 4 then
 		uv0("Truncated message.")
 	end
@@ -295,11 +295,11 @@ function _SkipFixed32(slot0, slot1, slot2)
 	return slot1
 end
 
-function _RaiseInvalidWireType(slot0, slot1, slot2)
+_RaiseInvalidWireType = function(slot0, slot1, slot2)
 	uv0("Tag had invalid wire type.")
 end
 
-function _FieldSkipper()
+_FieldSkipper = function()
 	slot0 = {
 		_SkipVarint,
 		_SkipFixed64,

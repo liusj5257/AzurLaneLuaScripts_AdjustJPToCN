@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK49903",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK49903",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 499030,
 			dir = 1,
+			actor = 499030,
 			say = "흥, 놀란 얼굴을 하기는, 칭찬할 만한 사람에게 칭찬하는 것은 당연한 일 아닌가?",
 			typewriter = {
 				speed = 0.05,

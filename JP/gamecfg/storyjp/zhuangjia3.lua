@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUANGJIA3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUANGJIA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>第三話  自責</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_night",
-			say = "この反応…お前は私たちに倒されたはず……！",
 			dir = 1,
 			bgm = "story-5",
+			actor = 107060,
+			say = "この反応…お前は私たちに倒されたはず……！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -134,14 +134,14 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 307060,
 			say = "翔鶴姉！？…くっ、卑怯な！",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -169,8 +169,8 @@ return {
 			actor = 307050,
 			side = 1,
 			bgName = "bg_night",
-			dir = 1,
 			say = "……。",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -185,14 +185,14 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_night",
 			dir = -1,
+			actor = 107060,
 			say = "ヨークタウン姉さん……やはりそう来たか。",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -220,8 +220,8 @@ return {
 			actor = 107050,
 			side = 1,
 			bgName = "bg_night",
-			dir = 1,
 			say = "……。",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -236,14 +236,14 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 303030,
 			say = "衣笠…最上…熊野……",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -271,8 +271,8 @@ return {
 			actor = 302100,
 			side = 1,
 			bgName = "bg_night",
-			dir = 1,
 			say = "……。",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -287,14 +287,14 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 403030,
 			say = "今の長距離砲撃はあなただったのね。ティルピッツ…。",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -322,8 +322,8 @@ return {
 			actor = 405020,
 			side = 1,
 			bgName = "bg_night",
-			dir = 1,
 			say = "……。",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -338,14 +338,14 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 301160,
 			say = "時雨、やっぱりお前が出てきたのか！いつもいつもいつも、この雪風様の邪魔ばかりして！",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -370,8 +370,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -383,8 +383,8 @@ return {
 			actor = 301150,
 			side = 1,
 			bgName = "bg_night",
-			dir = 1,
 			say = "……。",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -399,14 +399,14 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 312010,
 			say = "いや、明石は不知火を出されても、なんとも思わないにゃ。",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -431,8 +431,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1,
 					dur = 0.4,
 					x = 15,
@@ -444,8 +444,8 @@ return {
 			actor = 301180,
 			side = 1,
 			bgName = "bg_night",
-			dir = 1,
 			say = "……。",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -475,8 +475,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 15,
@@ -501,14 +501,14 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 312010,
 			say = "み、みんな！呆けている場合じゃないにゃ！敵が攻撃してくるにゃ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -533,8 +533,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 2,
 					dur = 0.1,
 					x = 0,
@@ -558,14 +558,14 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 307060,
 			say = "くっ…飛行甲板が…。流石に臨時の混成艦隊じゃ無理だというのか…。",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -590,8 +590,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -600,14 +600,14 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 303030,
 			say = "最上、熊野…ごめん…わたし……。",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -632,8 +632,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -642,14 +642,14 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 403030,
 			say = "ティルピッツ、こっちのあなたも鏡に映されたものなのね。いいわ、かかってきなさい。",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -674,8 +674,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -684,14 +684,14 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 107060,
 			say = "まだ赤城でも来ればやる気も出るんだがな…。",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -716,8 +716,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -726,14 +726,14 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 301160,
 			say = "ふん、この雪風様と決着をつけるときが来たようだな。",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -758,8 +758,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -768,14 +768,14 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 107060,
 			say = "しかし多勢に無勢か。次々と艦載機が落とされていく…。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -803,8 +803,8 @@ return {
 			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
-			dir = 1,
 			say = "敵の攻撃を防ぐだけで手一杯よ…。目の前の翔鶴姉が違うと分かっていても…。",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -822,8 +822,8 @@ return {
 			actor = 307060,
 			side = 0,
 			bgName = "bg_night",
-			dir = 1,
 			say = "隙をついて離脱しようにも無理ね。離脱しようにもティルピッツの砲撃に捕まるわ…。",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -868,8 +868,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -909,14 +909,14 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
+			say = "（ドカーン）",
 			stopbgm = true,
 			bgName = "bg_night",
-			say = "（ドカーン）",
+			soundeffect = "event:/battle/boom2",
 			flash = {
+				wait = 0.2,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.2,
 				number = 1,
 				alpha = {
 					0,
@@ -1006,11 +1006,11 @@ return {
 			}
 		},
 		{
-			say = "疲弊する仲間たち。苦闘の果てにやってきた援軍は思いも寄らぬ珍客だった。それは夢か真か幻か？次回「反抗」。漆黒の海に緑の閃光が疾駆する。",
 			blackBg = true,
+			say = "疲弊する仲間たち。苦闘の果てにやってきた援軍は思いも寄らぬ珍客だった。それは夢か真か幻か？次回「反抗」。漆黒の海に緑の閃光が疾駆する。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

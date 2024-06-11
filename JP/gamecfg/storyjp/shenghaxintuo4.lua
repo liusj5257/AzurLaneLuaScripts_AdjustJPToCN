@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"疲労回復の秘訣とは⁉\n\n<size=45>四 眠る姫を起こす方法</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "戸惑うインディペンデンスをどうにか帰らせると、サン・ジャシントは合同演習に向かい、こちらは引き続き仕事に没頭した。",
 			bgm = "story-richang-6",
+			say = "戸惑うインディペンデンスをどうにか帰らせると、サン・ジャシントは合同演習に向かい、こちらは引き続き仕事に没頭した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "午後になると、テーブルの上の書類もだいぶ減ってきた。",
@@ -73,27 +73,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_outdoor",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_outdoor",
 			say = "合同帰着の埠頭を探したが、彼女の姿がどこにも見当たらない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			say = "探してる最中、ふと見覚えのある人影が目に入った。",
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 107220,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官？なんでここに？確かまだ……こほん",
 			painting = {
 				alpha = 0.3,
@@ -168,10 +168,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107220,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あれ？会っていないのか？",
 			painting = {
 				alpha = 0.3,
@@ -186,10 +186,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107220,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "演習が終わるとすぐに大急ぎで執務室に戻ったよ",
 			painting = {
 				alpha = 0.3,
@@ -201,12 +201,12 @@ return {
 			}
 		},
 		{
-			actor = 107220,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あんな急いでるサン・ジャシント、初めて見た気がする…",
 			painting = {
 				alpha = 0.3,
@@ -233,10 +233,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107220,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……そ、そうね…////",
 			painting = {
 				alpha = 0.3,
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			say = "サン・ジャシントと行き違いになったと知り、急いで執務室に戻ることにした。",
@@ -271,27 +271,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "執務室に戻ると、机に積み上がっていた書類の山が少し減っているようだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "サン・ジャシントは机でうつぶせになって寝ている。少し微笑んでいるその顔は絵になるように感じた。",
@@ -334,8 +334,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "ソファまで運んで横にさせること自体は難しくない。",
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "…が、「彼女を起こさずに」それを成し遂げるのはさすがに難易度が高すぎる…",
@@ -356,8 +356,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "いろいろ考えて、お姫様抱っこして運ぶことにした。",
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "サン・ジャシントを椅子からゆっくりと抱き上げ、そっとソファに下ろした。",
@@ -390,8 +390,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "彼女の元から去ろうとした瞬間、眠っていたはずの少女の手に袖が引っ張られた。",
@@ -404,10 +404,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さん、ずるいですよ～",
 			painting = {
 				alpha = 0.3,
@@ -446,10 +446,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もちろん、演習終了後の「夜通し」ですよ？指揮官さんは忘れちゃいましたか？",
 			painting = {
 				alpha = 0.3,
@@ -473,12 +473,12 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……仮眠するのは確かに疲労回復にはいいですけど～",
 			painting = {
 				alpha = 0.3,
@@ -493,10 +493,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さんって、本当にそれだけでよかったんですか？",
 			painting = {
 				alpha = 0.3,
@@ -523,10 +523,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「眠り姫」にはまず愛の魔法――つまり甘いキスをするのではなくて？",
 			painting = {
 				alpha = 0.3,
@@ -541,10 +541,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "おとぎ話ではそんな展開なのに…",
 			painting = {
 				alpha = 0.3,
@@ -559,10 +559,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "お姫様抱っこまでして、眠ってるのを放置して仕事に戻るなんてひどいです～",
 			painting = {
 				alpha = 0.3,

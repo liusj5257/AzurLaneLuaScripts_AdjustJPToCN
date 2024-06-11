@@ -1,6 +1,6 @@
 slot0 = class("NewNavalTacticsAdditionSkillCard", import(".NewNavalTacticsSkillCard"))
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot3 = slot1.level
 	slot4 = slot1:GetNextLevelExp()
 	slot5 = slot1:GetExp()

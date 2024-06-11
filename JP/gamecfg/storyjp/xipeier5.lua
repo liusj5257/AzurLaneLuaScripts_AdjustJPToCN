@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIPEIER5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIPEIER5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"幸せテンプレート\n\n<size=45>五 振り回されてしまうのは(?)</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ある日・寮舎にて",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ある日・寮舎にて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "艦船たちだけの作戦会議（？）が開催されていた",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "っていうワケなんだけど、どう思う？",
 			typewriter = {
@@ -73,11 +73,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403030,
 			actorName = "プリンツ・オイゲン",
 			say = "……姉さん。それ本気で言ってるの？",
 			typewriter = {
@@ -90,11 +90,11 @@ return {
 			}
 		},
 		{
-			actor = 201140,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 201140,
 			actorName = "グローウォーム",
 			say = "グローウォームはよくわからない！",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "あんたは黙って聞いていればいいっての",
 			typewriter = {
@@ -134,11 +134,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "話を戻すわよ。…ええと、つまり最近はどうもあいつと一緒だと、調子出ないのよ。今まではこんなことなかったはずなのに",
 			typewriter = {
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "一緒にいると落ち着かなかったりとか、なんて話すか浮かばなかったりとか、もう、ワケわかんないっての！あいつに翻弄されるなんて、どうかしてるっ！",
 			typewriter = {
@@ -168,11 +168,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403030,
 			actorName = "プリンツ・オイゲン",
 			say = "確かにそのようね。…で、どうすればいいか姉さんはもちろんわかってるわね？",
 			typewriter = {
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "わかってたらあんた達に相談してないっての！",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 201140,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 201140,
 			actorName = "グローウォーム",
 			say = "あ！さっき「黙って聞いていればいい」って言ってたのに！",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403030,
 			actorName = "プリンツ・オイゲン",
 			say = "まあ気持ちは理解できるわ。ほら、姉さんは骨の髄までツンデレまな板だもの",
 			typewriter = {
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "まな板は関係ないってんの！",
 			typewriter = {
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -283,11 +283,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "策士のあんたはいいわよね、もしこういう場面になったとしても策を立てられるだろうから",
 			typewriter = {
@@ -300,15 +300,15 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -50,
+					type = "move",
 					delay = 0,
 					dur = 0.3,
 					x = 0
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.4,
 					dur = 0.3,
 					x = 0
@@ -316,11 +316,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "その策士様は何かいいアイディアないの？",
 			typewriter = {
@@ -333,11 +333,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403030,
 			actorName = "プリンツ・オイゲン",
 			say = "そうね。そういう時はね、逆に姉さんから誘惑してあげるのよ",
 			typewriter = {
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403030,
 			actorName = "プリンツ・オイゲン",
 			say = "……って、姉さんにはちょっと無理ね",
 			typewriter = {
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "はあ、本当に相談するんじゃなかったっての…もうやけだわ！グローウォーム！あんたはどう思うの？",
 			typewriter = {
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 201140,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 201140,
 			actorName = "グローウォーム",
 			say = "グローウォームなら、悩んでる暇があったら突撃だよ！",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -411,11 +411,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403030,
 			actorName = "プリンツ・オイゲン",
 			say = "うーん、恋のかけひきってのは、そういう話じゃ……",
 			typewriter = {
@@ -428,11 +428,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "こ、恋とかじゃないっての！それに、グローウォームの考えは気に入ったわ！勇気を持って突っ込む！あんたらしいじゃないの！",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -455,11 +455,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403030,
 			actorName = "プリンツ・オイゲン",
 			say = "それもありってところかしら？姉さんもそれでやられたし、ふふふ",
 			typewriter = {
@@ -472,11 +472,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403010,
 			actorName = "アドミラル・ヒッパー",
 			say = "よ……よし！そうと決まれば、行ってくるわっ！",
 			typewriter = {
@@ -489,8 +489,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.7,
 					x = 3750
@@ -498,11 +498,11 @@ return {
 			}
 		},
 		{
-			actor = 201140,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 201140,
 			actorName = "グローウォーム",
 			say = "もう行っちゃった。うまくいくかな？",
 			typewriter = {
@@ -515,11 +515,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
 			dir = 1,
+			actor = 403030,
 			actorName = "プリンツ・オイゲン",
 			say = "ふふっ……心配ないわ。だってもうとっくに、結果は見えてるものね",
 			typewriter = {

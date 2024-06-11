@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK19901",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK19901",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199010,
 			dir = 1,
+			actor = 199010,
 			say = "哈哈，我現在迫不及待地想要把大家聚集起來開個大型派對呢！",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199010,
 			dir = 1,
+			actor = 199010,
 			say = "不過，總覺得還有一些缺憾……嗯……就是說，我感覺我應該還能變得更強一點？",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199010,
 			dir = 1,
+			actor = 199010,
 			say = "哎呀，不管了，大型派對就等到那個時候好了，今天先開個小派對吧！",
 			typewriter = {
 				speed = 0.05,

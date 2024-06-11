@@ -1,12 +1,12 @@
 return {
-	id = "WTask000C",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask000C",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "You’ve cleaned up all the trash in the vicinity of the port. Mission complete!",
 			typewriter = {
 				speed = 0.05,

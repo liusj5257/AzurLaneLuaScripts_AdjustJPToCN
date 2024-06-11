@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "단순히 적을 항구에서 멀리 끌어내는 작전이었지만, 잔향 함대와의 전투는 시작부터 치열했다.",
 			bgm = "story-temepest-2",
+			say = "단순히 적을 항구에서 멀리 끌어내는 작전이었지만, 잔향 함대와의 전투는 시작부터 치열했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "인정사정 봐주면서 싸워줄 적이 아니라는 건 잘 알고 있다. 전장에서 고를 수 있는 유일한 선택지는 오로지 포화를 주고받는 것뿐이다.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "폭풍 속에서의 전투와 마찬가지로 상 마르티뉴는 선봉에 서서 고군분투하고 있다.",
@@ -57,8 +57,8 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_504",
 			factiontag = "무적의 월계관",
+			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -69,17 +69,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -128,8 +128,8 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_504",
 			factiontag = "무적의 월계관",
+			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -140,17 +140,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -197,28 +197,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_504",
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "거센 파도처럼 밀려드는 적에게 한발짝도 물러서지 않고 '무적의 월계관'은 그 무용을 뽐내고 있다.",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "안 돼, 아직 때가 아니야.",
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이럴 때 적에게 등을 보이는 건 자살행위나 마찬가지라고.",
@@ -434,11 +434,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지금이야, 지휘관님~",
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "골든 하인드에게 받은 신호탄을 쏘아올렸다.",
@@ -469,11 +469,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아하~ 또 엄청난 걸 준비했네.",
@@ -506,11 +506,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "내 친구 말대로 제대로 작동만 한다면……",
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "―――!!",
@@ -536,9 +536,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_504",
 			factiontag = "투자자",
 			dir = 1,
+			bgName = "star_level_bg_504",
 			bgm = "story-temepest-1",
 			actor = 9600030,
 			nameColor = "#A9F548FF",
@@ -553,17 +553,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -571,8 +571,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "조명탄으로 발사된 빛이 찾아온 함대를 어느새 밝게 비추었다.",
@@ -641,11 +641,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "정확히 말하면 원군은 이 아이 하나야~",
@@ -735,11 +735,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그래, 이제 알았으니까 그만! 뭐, 친구의 친구는 내 친구나 다름없잖아? 와~ 내 부자 친구들, 대단하다~",
@@ -772,11 +772,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "위다, 이쪽이야~",

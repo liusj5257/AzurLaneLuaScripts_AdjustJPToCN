@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDAN04",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENGDAN04",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -16,8 +16,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			say = "Port - Sakura Empire Dormitory",
 			typewriter = {
 				speed = 0.05,
@@ -29,10 +29,10 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			actorShadow = true,
-			actorName = "{namecode:78}&{namecode:79}",
 			side = 0,
+			actorName = "{namecode:78}&{namecode:79}",
+			actor = 305010,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "I'm home!",
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "Indeed! Outstanding work today, Yamashiro!",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:82}",
 			dir = 1,
-			say = "Indeed! Outstanding work today, Yamashiro!",
+			actor = 305110,
+			actorName = "{namecode:82}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -92,8 +92,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "Mutsuki and... Mikasa-senpai? What's this about?",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:82}",
 			dir = 1,
+			actorName = "{namecode:82}",
 			say = "Ah, everyone's preoccupied with preparations for this so-called \"Crissmoss\" festival... I offered to assist, but they declined and told me \"please let us handle this one, Mikasa-senpai\"...",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:82}",
 			dir = 1,
+			actorName = "{namecode:82}",
 			say = "It's good that everyone respects me, but being respected this much makes me feel pretty lonely...",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "Mikasa-senpai...",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:82}",
 			dir = 1,
+			actorName = "{namecode:82}",
 			say = "But so be it! I shall try to watch over the young ones here.",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			actor = 305110,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:82}",
 			dir = 1,
+			actorName = "{namecode:82}",
 			say = "Certainly. What shall we play? Do you want to ride on my back, or do you want an upsy-daisy?",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:78}",
 			dir = 1,
+			actorName = "{namecode:78}",
 			say = "I've heard that Mikasa-senpai is cool and dignified on the battlefield...",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "But outside of it, she's like this...",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:78}",
 			dir = 1,
+			actorName = "{namecode:78}",
 			say = "Ahahah, who would've thought!",
 			typewriter = {
 				speed = 0.05,
@@ -248,15 +248,15 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			actorName = "{namecode:82}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "There! I hereby declare the Sakura Empire Crissmoss Party as having started!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -284,8 +284,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "Merry Christmas, everyone!",
 			typewriter = {
 				speed = 0.05,
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			actor = 305010,
+			say = "And merry Christmas to you, Yamashiro!",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:78}",
 			dir = 1,
-			say = "And merry Christmas to you, Yamashiro!",
+			actor = 305010,
+			actorName = "{namecode:78}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -320,8 +320,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "I wonder if milord is still in his office...",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:78}",
 			dir = 1,
+			actorName = "{namecode:78}",
 			say = "If it's making you anxious, why not go there to see him? You could even show him your Christmas costume while you're there.",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "N-nee-sama...",
 			typewriter = {
 				speed = 0.05,
@@ -368,8 +368,8 @@ return {
 			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:78}",
 			dir = 1,
+			actorName = "{namecode:78}",
 			say = "You're very important to me, you know. After all, what kind of sister I be if I didn't support you at times like these?",
 			typewriter = {
 				speed = 0.05,
@@ -399,8 +399,8 @@ return {
 			actor = 305022,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "O-okay...! It'd be dangerous to let Mutsuki go alone, so I'll take her with me!",
 			typewriter = {
 				speed = 0.05,
@@ -415,8 +415,8 @@ return {
 			actor = 305010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:78}",
 			dir = 1,
+			actorName = "{namecode:78}",
 			say = "Of course... Good luck, and don't lose sight of Mutsuki. Hahah~",
 			typewriter = {
 				speed = 0.05,

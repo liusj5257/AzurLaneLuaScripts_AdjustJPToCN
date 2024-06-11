@@ -7,11 +7,11 @@ slot5 = 3
 slot6 = 5
 slot7 = 2
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MusicGameUI"
 end
 
-function slot0.MyGetRuntimeData(slot0)
+slot0.MyGetRuntimeData = function(slot0)
 	slot0.achieve_times = checkExist(slot0:GetMGData():GetRuntimeData("elements"), {
 		1
 	}) or 0
@@ -27,7 +27,7 @@ function slot0.MyGetRuntimeData(slot0)
 	slot0:updatSelectview()
 end
 
-function slot0.MyStoreDataToServer(slot0)
+slot0.MyStoreDataToServer = function(slot0)
 	slot2 = {
 		slot0.achieve_times,
 		1
@@ -42,7 +42,7 @@ function slot0.MyStoreDataToServer(slot0)
 	slot0:StoreDataToServer(slot2)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.UIMgr = pg.UIMgr.GetInstance()
 	slot0.useGetKey_flag = true
 	slot0.game_playingflag = false
@@ -120,7 +120,7 @@ function slot0.init(slot0)
 	slot0:updateMusic(uv0)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = 0
 
 	LeanTween.delayedCall(go(slot0.selectview), 2, System.Action(function ()
@@ -210,7 +210,7 @@ function slot0.didEnter(slot0)
 			end
 
 			if slot0 >= 0 and slot1 > 0 then
-				function slot2(slot0)
+				slot2 = function(slot0)
 					if slot0 < 10 then
 						return "0" .. slot0
 					else
@@ -317,7 +317,7 @@ function slot0.didEnter(slot0)
 	GetOrAddComponent(slot0.selectview, "CanvasGroup").blocksRaycasts = true
 end
 
-function slot0.updateBg(slot0)
+slot0.updateBg = function(slot0)
 	if slot0.isLoading then
 		slot0:dynamicBgHandler(slot0.bgGo, function ()
 			setParent(uv0.bgGo, uv0.bg)
@@ -351,7 +351,7 @@ function slot0.updateBg(slot0)
 	end)
 end
 
-function slot0.dynamicBgHandler(slot0, slot1, slot2)
+slot0.dynamicBgHandler = function(slot0, slot1, slot2)
 	if IsNil(slot1) then
 		return
 	end
@@ -361,7 +361,7 @@ function slot0.dynamicBgHandler(slot0, slot1, slot2)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if not slot0.countingfive_flag and not slot0.firstview_timerRunflag then
 		if slot0.game_playingflag then
 			if not isActive(slot0.top:Find("pause_above")) then
@@ -373,13 +373,13 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.OnApplicationPaused(slot0, slot1)
+slot0.OnApplicationPaused = function(slot0, slot1)
 	if slot1 and not slot0.countingfive_flag and not slot0.firstview_timerRunflag and slot0.game_playingflag and not isActive(slot0.top:Find("pause_above")) then
 		triggerButton(slot0.top:Find("pause"))
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.isLoading = false
 
 	if slot0.bgGo and slot0.bgName then
@@ -487,7 +487,7 @@ function slot0.willExit(slot0)
 	pg.BgmMgr.GetInstance():ContinuePlay()
 end
 
-function slot0.clearSDModel(slot0)
+slot0.clearSDModel = function(slot0)
 	if not slot0.SDmodel or not slot0.SDname or slot0.SDname == "" or slot0.SDname == "none" then
 		return
 	end
@@ -501,12 +501,12 @@ function slot0.clearSDModel(slot0)
 	slot0.SDmodel = {}
 end
 
-function slot0.list_push(slot0, slot1, slot2)
+slot0.list_push = function(slot0, slot1, slot2)
 	slot1[slot1[0] + 1] = slot2
 	slot1[0] = slot1[0] + 1
 end
 
-function slot0.list_pop(slot0, slot1)
+slot0.list_pop = function(slot0, slot1)
 	if slot1[0] == 0 then
 		return
 	end
@@ -522,7 +522,7 @@ function slot0.list_pop(slot0, slot1)
 	return slot2
 end
 
-function slot0.game_start(slot0)
+slot0.game_start = function(slot0)
 	slot0:game_before()
 	slot0:effect_play("prepare")
 
@@ -547,7 +547,7 @@ function slot0.game_start(slot0)
 	end
 end
 
-function slot0.game_before(slot0)
+slot0.game_before = function(slot0)
 	slot0:effect_play("nothing")
 
 	slot0.nowS_flag = false
@@ -672,19 +672,19 @@ function slot0.game_before(slot0)
 	slot0:scoresliderAcombo_update()
 end
 
-function slot0.stopTimer(slot0)
+slot0.stopTimer = function(slot0)
 	if slot0.timer.running then
 		slot0.timer:Stop()
 	end
 end
 
-function slot0.startTimer(slot0)
+slot0.startTimer = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
 end
 
-function slot0.loadSDModel(slot0, slot1)
+slot0.loadSDModel = function(slot0, slot1)
 	if not slot0.SDname[slot1] or slot0.SDname[slot1] == "" or slot0.SDname[slot1] == "none" then
 		slot0.SDmodel[slot1] = false
 
@@ -741,7 +741,7 @@ function slot0.loadSDModel(slot0, slot1)
 	end)
 end
 
-function slot0.SDmodeljump_btnup(slot0)
+slot0.SDmodeljump_btnup = function(slot0)
 	if slot0.downingright_flag or slot0.downingleft_flag then
 		slot0.SDmodel_jumpcount = slot0.SDmodel_jumpcount + slot0.time_interval
 		slot0.SDmodel_jumpcount = slot0.SDmodel_jumpcount > 1 and 1 or slot0.SDmodel_jumpcount
@@ -765,7 +765,7 @@ function slot0.SDmodeljump_btnup(slot0)
 	end
 end
 
-function slot0.setActionSDmodel(slot0, slot1, slot2)
+slot0.setActionSDmodel = function(slot0, slot1, slot2)
 	slot2 = slot2 or 0
 
 	for slot6 = 1, #slot0.SDmodel do
@@ -775,7 +775,7 @@ function slot0.setActionSDmodel(slot0, slot1, slot2)
 	end
 end
 
-function slot0.loadAndPlayMusic(slot0, slot1, slot2)
+slot0.loadAndPlayMusic = function(slot0, slot1, slot2)
 	uv0 = uv0 + 1
 	slot4 = CriWareMgr.Inst
 
@@ -813,7 +813,7 @@ function slot0.loadAndPlayMusic(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.getStampTime(slot0)
+slot0.getStampTime = function(slot0)
 	if slot0.aheadtime_count then
 		return (slot0.aheadtime_count - 2) * 1000
 	elseif slot0.criInfo then
@@ -823,7 +823,7 @@ function slot0.getStampTime(slot0)
 	return nil
 end
 
-function slot0.pauseBgm(slot0)
+slot0.pauseBgm = function(slot0)
 	if slot0.criInfo then
 		slot0.pauseTime = slot0.criInfo:GetTime()
 
@@ -835,7 +835,7 @@ function slot0.pauseBgm(slot0)
 	end
 end
 
-function slot0.resumeBgm(slot0)
+slot0.resumeBgm = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
@@ -844,7 +844,7 @@ function slot0.resumeBgm(slot0)
 	end, slot0.pauseTime)
 end
 
-function slot0.rec_scorce(slot0)
+slot0.rec_scorce = function(slot0)
 	slot0.score_number = 0
 	slot0.combo_link = 0
 	slot0.combo_number = 0
@@ -860,7 +860,7 @@ function slot0.rec_scorce(slot0)
 	setText(slot0.game_content:Find("combo_n/" .. slot0.musicData.content_type), 0)
 end
 
-function slot0.effect_play(slot0, slot1, slot2)
+slot0.effect_play = function(slot0, slot1, slot2)
 	if slot1 == "nothing" then
 		setActive(slot0.yinyuePefectLoop, false)
 		setActive(slot0.top:Find("scoreContent/S/liubianxing"), false)
@@ -893,7 +893,7 @@ function slot0.effect_play(slot0, slot1, slot2)
 	end
 end
 
-function slot0.scoresliderAcombo_update(slot0)
+slot0.scoresliderAcombo_update = function(slot0)
 	slot2 = 0
 
 	setText(slot0.gameScoreTf, slot0.score_number)
@@ -928,7 +928,7 @@ function slot0.scoresliderAcombo_update(slot0)
 	setText(slot0.game_content:Find("combo_n/" .. slot0.musicData.content_type), slot0.combo_link)
 end
 
-function slot0.score_update(slot0, slot1)
+slot0.score_update = function(slot0, slot1)
 	slot2 = slot0.game_content:Find("evaluate")
 
 	for slot6 = 1, 3 do
@@ -1002,7 +1002,7 @@ function slot0.score_update(slot0, slot1)
 	end
 end
 
-function slot0.count_five(slot0, slot1)
+slot0.count_five = function(slot0, slot1)
 	if slot0.countingfive_flag then
 		return
 	end
@@ -1078,7 +1078,7 @@ function slot0.count_five(slot0, slot1)
 	slot0.count_timer:Start()
 end
 
-function slot0.showSelevtView(slot0)
+slot0.showSelevtView = function(slot0)
 	if slot0.isFirstgame == 0 then
 		slot0:Firstshow(slot0.firstview, function ()
 		end, 1)
@@ -1179,7 +1179,7 @@ function slot0.showSelevtView(slot0)
 	slot0:clickSongBtns(slot5, 1)
 end
 
-function slot0.updateMusic(slot0, slot1)
+slot0.updateMusic = function(slot0, slot1)
 	slot0.musicData = slot0.musicDatas[slot1]
 	slot0.selectIndex = slot1
 	slot0.game_music = slot0.musicData.id
@@ -1235,13 +1235,13 @@ function slot0.updateMusic(slot0, slot1)
 	slot0:updateEffectTf()
 end
 
-function slot0.setTfChildVisible(slot0, slot1, slot2)
+slot0.setTfChildVisible = function(slot0, slot1, slot2)
 	for slot6 = 1, slot1.childCount do
 		setActive(slot1:GetChild(slot6 - 1), false)
 	end
 end
 
-function slot0.updateEffectTf(slot0)
+slot0.updateEffectTf = function(slot0)
 	for slot5 = 1, findTF(slot0.game_content, "effect").childCount do
 		setActive(slot1:GetChild(slot5 - 1), false)
 	end
@@ -1258,7 +1258,7 @@ function slot0.updateEffectTf(slot0)
 	slot0.yinyuePefectLoop = slot0.game_content:Find("effect/" .. slot2 .. "/yinyue_perfect_loop02")
 end
 
-function slot0.getBeatGameMusicData(slot0, slot1)
+slot0.getBeatGameMusicData = function(slot0, slot1)
 	for slot5 = 1, #slot0.musicDatas do
 		if slot0.musicDatas[slot5].id == slot1 then
 			return slot0.musicDatas[slot5]
@@ -1268,7 +1268,7 @@ function slot0.getBeatGameMusicData(slot0, slot1)
 	return nil
 end
 
-function slot0.clickSongBtns(slot0, slot1, slot2)
+slot0.clickSongBtns = function(slot0, slot1, slot2)
 	if uv0 > 0 then
 		return
 	end
@@ -1283,7 +1283,7 @@ function slot0.clickSongBtns(slot0, slot1, slot2)
 	setActive(slot1:Find("song" .. slot0.musicData.picture), true)
 end
 
-function slot0.changeLocalpos(slot0, slot1)
+slot0.changeLocalpos = function(slot0, slot1)
 	slot3 = slot0.music_amount_middle - slot1
 	slot4 = 0.5
 	slot5 = {}
@@ -1347,7 +1347,7 @@ function slot0.changeLocalpos(slot0, slot1)
 	slot0.changeLocalpos_timer:Start()
 end
 
-function slot0.addRingDragListenter(slot0)
+slot0.addRingDragListenter = function(slot0)
 	slot1 = GetOrAddComponent(slot0.selectview, "EventTriggerListener")
 	slot2 = nil
 	slot3 = 0
@@ -1381,7 +1381,7 @@ function slot0.addRingDragListenter(slot0)
 	end)
 end
 
-function slot0.getNextPreSelectId(slot0)
+slot0.getNextPreSelectId = function(slot0)
 	slot1, slot2 = nil
 	slot3 = slot0.game_music + 1
 
@@ -1406,7 +1406,7 @@ function slot0.getNextPreSelectId(slot0)
 	return slot1, slot2
 end
 
-function slot0.Firstshow(slot0, slot1, slot2, slot3)
+slot0.Firstshow = function(slot0, slot1, slot2, slot3)
 	slot0.count = 0
 
 	setActive(slot1, true)
@@ -1414,7 +1414,7 @@ function slot0.Firstshow(slot0, slot1, slot2, slot3)
 		GetComponent(findTF(uv0.firstview, "num/img1"), typeof(Image)).sprite = slot0
 	end)
 
-	function slot7(slot0)
+	slot7 = function(slot0)
 		GetComponent(findTF(uv0.firstview, "num/img2"), typeof(Image)).sprite = slot0
 	end
 
@@ -1455,7 +1455,7 @@ function slot0.Firstshow(slot0, slot1, slot2, slot3)
 	slot0.firstview_timer:Start()
 end
 
-function slot0.updatSelectview(slot0)
+slot0.updatSelectview = function(slot0)
 	if not slot0.song_btns or #slot0.song_btns <= 0 or not slot0.selectview then
 		return
 	end
@@ -1491,7 +1491,7 @@ function slot0.updatSelectview(slot0)
 	end
 end
 
-function slot0.setSelectview_pj(slot0, slot1, slot2)
+slot0.setSelectview_pj = function(slot0, slot1, slot2)
 	if slot1 == "e" then
 		setActive(slot0.song_btns[slot2]:Find("song/c"), false)
 		setActive(slot0.song_btns[slot2]:Find("song/b"), false)
@@ -1508,7 +1508,7 @@ function slot0.setSelectview_pj(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateScoreUIContent(slot0)
+slot0.updateScoreUIContent = function(slot0)
 	for slot5 = 1, findTF(slot0.scoreview, "ui").childCount do
 		setActive(slot1:GetChild(slot5 - 1), false)
 	end
@@ -1522,7 +1522,7 @@ function slot0.updateScoreUIContent(slot0)
 	setActive(slot0.scoreUIContent, true)
 end
 
-function slot0.locadScoreView(slot0)
+slot0.locadScoreView = function(slot0)
 	slot0:updateScoreUIContent()
 	slot0:effect_play("nothing")
 
@@ -1594,7 +1594,7 @@ function slot0.locadScoreView(slot0)
 	setActive(slot0.scoreUIContent:Find("scoreList/fullCombo"), slot0.miss_number == 0)
 	setActive(slot0.scoreUIContent:Find("scoreImg/perfect/noMiss"), slot0.miss_number == 0 and slot0.good_number == 0)
 
-	function slot8(slot0, slot1, slot2)
+	slot8 = function(slot0, slot1, slot2)
 		LeanTween.value(go(uv0.scoreview), 0, slot1, 0.6):setOnUpdate(System.Action_float(function (slot0)
 			setText(uv0, math.round(slot0))
 		end)):setOnComplete(System.Action(function ()
@@ -1717,7 +1717,7 @@ function slot0.locadScoreView(slot0)
 	end, SFX_UI_CLICK)
 end
 
-function slot0.setScoceview_pj(slot0, slot1)
+slot0.setScoceview_pj = function(slot0, slot1)
 	setActive(slot0.scoreUIContent:Find("scoreImg/square/c"), false)
 	setActive(slot0.scoreUIContent:Find("scoreImg/square/b"), false)
 	setActive(slot0.scoreUIContent:Find("scoreImg/square/a"), false)
@@ -1736,7 +1736,7 @@ function slot0.setScoceview_pj(slot0, slot1)
 	end
 end
 
-function slot0.Scoceview_ani(slot0)
+slot0.Scoceview_ani = function(slot0)
 	slot1 = 0
 
 	setActive(slot0.scoreUIContent:Find("btnList/reselect"), false)
@@ -1771,7 +1771,7 @@ function slot0.Scoceview_ani(slot0)
 	slot0.Scoceview_timer:Start()
 end
 
-function slot0.gameStart(slot0)
+slot0.gameStart = function(slot0)
 	if not slot0.timer then
 		slot0.timer = Timer.New(function ()
 			uv0:gameStepNew()
@@ -1816,17 +1816,17 @@ function slot0.gameStart(slot0)
 	end)
 end
 
-function slot0.getMusicBgm(slot0, slot1)
+slot0.getMusicBgm = function(slot0, slot1)
 	slot2 = "bgm-song"
 
 	return slot1.bgm < 10 and slot2 .. "0" .. tostring(slot1.bgm) or slot2 .. tostring(slot1.bgm)
 end
 
-function slot0.getMusicNote(slot0, slot1, slot2)
+slot0.getMusicNote = function(slot0, slot1, slot2)
 	return "view/miniGame/gameView/musicGame/bgm_song" .. "0" .. slot1.note .. "_" .. slot2
 end
 
-function slot0.gameStepNew(slot0)
+slot0.gameStepNew = function(slot0)
 	slot1 = slot0.game_dgree
 	slot0.gameStepTime = slot0:getStampTime()
 	slot0.downingright_lastflag = slot0.downingright_flag
@@ -1920,7 +1920,7 @@ function slot0.gameStepNew(slot0)
 
 		slot0.game_playingflag = false
 
-		function slot2()
+		slot2 = function()
 			uv0:locadScoreView()
 		end
 
@@ -1971,11 +1971,11 @@ function slot0.gameStepNew(slot0)
 	end
 end
 
-function slot0.onStateCallback(slot0, slot1)
+slot0.onStateCallback = function(slot0, slot1)
 	slot0:score_update(slot1)
 end
 
-function slot0.onLongTimeCallback(slot0, slot1)
+slot0.onLongTimeCallback = function(slot0, slot1)
 	if slot0.drupTime and Time.realtimeSinceStartup - slot0.drupTime < 2 then
 		return
 	end

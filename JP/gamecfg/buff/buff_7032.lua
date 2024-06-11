@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "序章欧根旋转盾",
 	time = 999,
+	name = "序章欧根旋转盾",
+	init_effect = "",
 	picture = "",
 	desc = "概率触发",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
-				skill_id = 7032
+				skill_id = 7032,
+				target = "TargetSelf"
 			}
 		}
 	}

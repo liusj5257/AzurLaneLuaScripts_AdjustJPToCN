@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NVPUGONGDOUSANQI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NVPUGONGDOUSANQI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"戦え！ロイヤルメイド隊？\n\n<size=45>一 3回目の演習</size>",
@@ -17,18 +17,18 @@ return {
 			}
 		},
 		{
-			hidePaintEquip = true,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			bgm = "story-richang",
+			side = 2,
+			dir = 1,
+			bgName = "bg_story_task",
+			hidePaintEquip = true,
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "イラストリアス、いい？今回の演習は新型空母の戦力をテストする貴重な機会よ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -59,14 +59,14 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "双方に空母3人ずつ！…それと護衛艦隊を少々ね",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,14 +77,14 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 205010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "過去2回の演習でメイド隊は我がロイヤルの風格をしっかりと見せつけたけど、今回も演習を盛り上げて成功を収められるようよろしく頼むわよ！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,14 +95,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 205010,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "航空母艦の対抗演習なんだから女王であるわたしは不参加よ！下僕も指揮しないようにね！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,14 +113,14 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "と、陛下からの伝言は以上になりますわ",
 			hidePaintEquip = true,
+			actor = 207030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "と、陛下からの伝言は以上になりますわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,14 +137,14 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "ロイヤルの演習艦隊はセントー、パーシュース、アルビオンを中心に編成されています",
 			hidePaintEquip = true,
+			actor = 207030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "ロイヤルの演習艦隊はセントー、パーシュース、アルビオンを中心に編成されています",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "空母での対抗演習か…適切な候補が多くいるからこそ、選ぼうとすると悩みどころだ。",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "とりあえずエセックスの意見を聞くことにした。",
 			typewriter = {
@@ -194,14 +194,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はい。演習ならエセックス級が経験豊富ですし、ロイヤルのいい相手になれると思います",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,14 +212,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "人選的には…イントレピッド、シャングリラ、バンカー・ヒルでどうでしょう？",
 			hidePaintEquip = true,
+			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "人選的には…イントレピッド、シャングリラ、バンカー・ヒルでどうでしょう？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,8 +230,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "（トントン）",
 			typewriter = {
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "いま母港にいるサディア帝国の空母はアクィラとインペロがいるな。あとは…",
 			typewriter = {
@@ -288,14 +288,14 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "残りの一名はユニオンに任せるとも。ユニオンとサディアの混成空母機動艦隊、というのはどうだろうか？エセックス",
 			hidePaintEquip = true,
+			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "残りの一名はユニオンに任せるとも。ユニオンとサディアの混成空母機動艦隊、というのはどうだろうか？エセックス",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,14 +325,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "指揮官が問題ないようでしたら、エセックスは異論なしです",
 			hidePaintEquip = true,
+			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "指揮官が問題ないようでしたら、エセックスは異論なしです",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,8 +343,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "決まりだな。それで残りのユニオンの空母は……",
 			typewriter = {
@@ -353,14 +353,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "イントレピッドはどうでしょう？",
 			hidePaintEquip = true,
+			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "イントレピッドはどうでしょう？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,8 +371,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "特に問題のない人選だ。ついでに艦隊の指揮もエセックスに任せよう",
 			typewriter = {
@@ -400,8 +400,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -448,14 +448,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええと……イラストリアスさん、ロイヤル艦隊の護衛艦隊の人選は決まっているのでしょうか？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,14 +466,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 207030,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はい、ロイヤルメイド隊のマンチェスターと、メイド体験に参加中のジェーナスが中心ですね",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,14 +484,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "なるほど。ではこちらの軽巡洋艦はリノにしましょう。駆逐艦は……",
 			hidePaintEquip = true,
+			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "なるほど。ではこちらの軽巡洋艦はリノにしましょう。駆逐艦は……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "メイド姿で執務室の掃除をしている艦船の方向へと振り返った。",
 			typewriter = {
@@ -550,8 +550,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "とはいっても、別にジャーヴィスが演習に参加できないという理由ではないが…",
 			typewriter = {
@@ -560,8 +560,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "エセックスとイラストリアスの意見も聞いてみた。",
 			typewriter = {
@@ -570,14 +570,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "指揮官の判断にエセックス、異存ありません！",
 			hidePaintEquip = true,
+			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "指揮官の判断にエセックス、異存ありません！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,8 +607,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "どうやらこれで決まったようだ。",
 			typewriter = {

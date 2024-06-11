@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN18-3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN18-3",
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "battle-siren-centraltower",
 			actor = 405050,
-			nameColor = "#A9F548FF",
-			say = "正前方，齐射！",
+			stopbgm = true,
+			say = "正前方，齊射！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -31,10 +31,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_5",
-			say = "巨炮轰鸣，灼热的废气似乎令海水蒸腾。",
+			side = 2,
+			say = "巨炮轟鳴，灼熱的廢氣似乎令海水蒸騰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,10 +50,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
-			say = "它的装甲撕裂了！攻击有效，只要再来几轮，肯定就——",
+			say = "它的裝甲撕裂了！攻擊有效，只要再來幾輪，肯定就——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_5",
-			say = "轰————————————！",
 			soundeffect = "event:/battle/boom2",
+			say = "轟————————————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,8 +117,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "？！",
 			painting = {
@@ -134,10 +134,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "……从侧翼传来的炮击声？",
+			say = "……側翼傳來的炮擊聲？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,12 +150,12 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_bsmre_5",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_bsmre_5",
 			actor = 9708010,
-			actorName = "{namecode:515}？",
-			say = "不好了，{namecode:435}姐姐，那些看不清楚的神秘敌人正在向我们发动进攻！",
+			actorName = "U-556·META？",
+			say = "不好了，俾斯麥姐姐，那些看不清楚的神秘敵人正在向我們發動攻擊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -179,10 +179,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_5",
+			dir = 1,
 			actor = 405030,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "神秘敌人……什么时候接近到这个距离的？！",
+			say = "神秘敵人……什麼時候接近到這個距離的？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,10 +196,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
+			dir = 1,
 			actor = 9704010,
-			dir = 1,
 			nameColor = "#ffa500",
-			say = "就算在这个距离也不能看清其轮廓细节……不太妙。",
+			say = "就算在這個距離也不能看清其輪廓細節……不太妙。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,10 +213,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "{namecode:434}，新出现的那些就交给你……",
+			say = "格奈森瑙，新出現的那些就交給妳……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "革律翁",
+			side = 2,
 			bgName = "bg_bsmre_5",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*警惕地低吼*██▌",
+			say = "▂▃▄▅▆▇███*警戒的低吼*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,10 +245,10 @@ return {
 		{
 			actor = 405050,
 			side = 2,
-			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯？……等等，这个感觉，还有这个强度……",
+			bgName = "bg_bsmre_5",
+			say = "嗯？……等等，這個感覺，還有這個強度……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,10 +262,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "全员立刻向我身后移动！革律翁！",
+			say = "全員立刻向我身後移動！革律翁！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,11 +287,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "革律翁",
+			side = 2,
 			bgName = "bg_bsmre_5",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*愤怒地咆哮*██▌",
+			say = "▂▃▄▅▆▇███*憤怒的咆哮*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,10 +303,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_5",
-			say = "革律翁猛然向前方飞去，咆哮着张开双翼，仿佛要在众人面前形成一道屏障。",
+			side = 2,
+			say = "革律翁猛然向前方飛去，咆哮著張開雙翼，彷彿要在眾人面前形成一道屏障。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,10 +319,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_5",
-			say = "电子仪器发出滋滋杂音，危险正在急速迫近。",
+			say = "電子儀器發出滋滋雜音，危險正急速迫近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,10 +332,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "准备迎接冲击！",
+			say = "準備迎接衝擊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,27 +357,27 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			stopbgm = true,
-			say = "黑色的冲击之下，她们艰难地稳住身体。",
+			say = "黑色的衝擊之下，她們艱難地穩住身體。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -391,60 +391,60 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1100",
-			say = "众人的身形在冲击中越发模糊，革律翁发出阵阵怒吼。",
+			say = "眾人的身形在衝擊中越發模糊，革律翁發出陣陣怒吼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1100",
-			say = "黑色的气息在革律翁的双翼表面逐渐形成黑色的沉积。",
+			say = "黑色的氣息在革律翁的雙翼表面逐漸形成黑色的沉積。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1100",
-			say = "在奔涌而来的洪流前，革律翁的屏障就像是湍流中的孤舟——",
+			say = "在奔湧而來的洪流前，革律翁的屏障就像是湍流中的孤舟——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1100",
-			say = "——但它终究没有倾覆。",
+			say = "——但它終究沒有傾覆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1100",
-			say = "随着冲击的消散，那些沉积以肉眼可见的速度消失了。",
+			say = "隨著衝擊的消散，那些沉積以肉眼可見的速度消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1100",
-			say = "呼啸停止，海面重归平静。",
+			say = "呼嘯停止，海面重歸平靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,13 +453,13 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_bsmre_5",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgmDelay = 2,
+			stopbgm = true,
 			bgm = "battle-siren-centraltower",
 			actor = 406030,
-			stopbgm = true,
+			nameColor = "#A9F548FF",
+			bgName = "bg_bsmre_5",
 			say = "呼——哈——",
 			painting = {
 				alpha = 0.3,
@@ -470,17 +470,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -491,10 +491,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
-			say = "还、还以为要死了……",
+			say = "還以為要死了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,8 +505,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -518,10 +518,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 401990,
 			dir = 1,
+			actor = 401990,
 			nameColor = "#A9F548FF",
-			say = "结束了么？！真的结束了么！？！",
+			say = "結束了嗎？！真的結束了嗎！？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,8 +532,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -545,11 +545,11 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "赫米忒量产机、塞壬IV型号还有那些未知敌人的反应都消失了……",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "赫米忒量產機、塞壬IV型號還有那些未知敵人的反應都消失了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,11 +563,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "只有我们幸免于难，革律翁，了不起！",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "只有我們倖免於難，革律翁，了不起！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,11 +578,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "革律翁",
+			side = 2,
 			bgName = "bg_bsmre_5",
 			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇███*愉快地轻哼*██▌",
+			say = "▂▃▄▅▆▇███*愉快的輕哼*██▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,10 +591,10 @@ return {
 		{
 			actor = 307060,
 			side = 2,
-			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "虽然也存在重伤撤退的可能性。",
+			bgName = "bg_bsmre_5",
+			say = "雖然也存在重傷撤退的可能性。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,10 +607,10 @@ return {
 		{
 			actor = 307060,
 			side = 2,
-			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过考虑到它刚才单纯的战术，应该真的是被消灭了哦！",
+			bgName = "bg_bsmre_5",
+			say = "不過考慮到它剛才單純的戰術，應該真的是被消滅了喔！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,8 +627,8 @@ return {
 			nameColor = "#ffa500",
 			dir = 1,
 			actor = 9708010,
-			actorName = "{namecode:515}？",
-			say = "呼……这样一来米德加尔特之塔的锁定也应该解除了。",
+			actorName = "U-556·META？",
+			say = "呼……這樣一來米德加爾特之塔的鎖定也應該解除了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,13 +639,13 @@ return {
 			}
 		},
 		{
-			actor = 9708010,
 			nameColor = "#ffa500",
-			bgName = "bg_bsmre_5",
 			side = 2,
+			bgName = "bg_bsmre_5",
 			dir = 1,
-			actorName = "{namecode:515}？",
-			say = "{namecode:435}姐姐，我们要离开这里么？",
+			actor = 9708010,
+			actorName = "U-556·META？",
+			say = "俾斯麥姐姐，我們要離開這裡嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,10 +658,10 @@ return {
 		{
 			actor = 405030,
 			side = 2,
-			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "等等，{namecode:435}阁下，继续启动米德加尔特之塔也许会前往仲裁机关的主机位置。",
+			bgName = "bg_bsmre_5",
+			say = "等等，俾斯麥閣下，繼續啟動米德加爾特之塔也許會前往仲裁機關的主機位置。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -674,10 +674,10 @@ return {
 		{
 			actor = 405050,
 			side = 2,
-			bgName = "bg_bsmre_5",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "也就是那座倒悬都市的内部么……",
+			bgName = "bg_bsmre_5",
+			say = "也就是那座倒懸都市的內部嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,10 +691,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "巨大的危险同时意味着巨大的收获——虽然我想这么说，不过实际情况是我们现在别无选择。",
+			say = "巨大的危險同時意味著巨大的收穫——雖然我想這麼說，但實際情況是我們現在別無選擇。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,10 +708,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "我们前往出发区吧。",
+			say = "我們前往出發區吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,12 +722,12 @@ return {
 			}
 		},
 		{
-			actor = 9704010,
-			side = 2,
 			bgName = "bg_bsmre_5",
-			nameColor = "#ffa500",
+			side = 2,
 			dir = 1,
-			say = "{namecode:435}大人，刚刚的冲击……就算是余烬的{namecode:433}也未必能挡住。",
+			actor = 9704010,
+			nameColor = "#ffa500",
+			say = "俾斯麥大人，剛剛的衝擊……就算是餘燼的沙恩霍斯特也未必能擋住。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -737,17 +737,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -758,10 +758,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
-			say = "我能确定的只有……现在的您并没有META化。",
+			say = "我能確定的只有……現在的您並沒有META化。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -775,10 +775,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
-			say = "但其他就，完全弄不清了，在您的身上究竟发生了什么……",
+			say = "但其他就，完全弄不清了，在您的身上究竟發生了什麼事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,10 +792,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "我曾去地狱徘徊了一圈，而这就是我从地狱中带回来的力量。",
+			say = "我曾經去地獄徘徊了一圈，而這就是我從地獄帶回來的力量。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -809,10 +809,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_5",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "——能够扫清一切阻碍，带领铁血前进的力量。",
+			say = "——能夠掃清一切阻礙，帶領鐵血前進的力量。",
 			painting = {
 				alpha = 0.3,
 				time = 1

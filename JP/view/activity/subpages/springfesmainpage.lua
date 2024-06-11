@@ -1,6 +1,6 @@
 slot0 = class("SpringFesMainPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.go1 = slot0:findTF("1", slot0.bg)
 	slot0.go2 = slot0:findTF("2", slot0.bg)
@@ -8,7 +8,7 @@ function slot0.OnInit(slot0)
 	slot0.go4 = slot0:findTF("4", slot0.bg)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.go1, function ()
 		uv0:emit(ActivityMediator.SELECT_ACTIVITY, 470)
 	end)

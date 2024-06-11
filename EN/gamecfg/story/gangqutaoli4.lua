@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Escape from the Port?\n\n<size=45>Chapter 4 - Final Destination!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202180,
-			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "And here is the pier. Everyone gathers here before going on sortie or commission.",
 			bgm = "story-1",
+			actor = 202180,
+			nameColor = "#a9f548",
+			say = "And here is the pier. Everyone gathers here before going on sortie or commission.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "A-ahem! Yes, you, Little Bel or whatever! Thank you!",
 			typewriter = {
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "If you have any other requests, please call upon me at any time. *curtsies*",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -22.5,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -114,8 +114,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "Ah... um, Little Bel?",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "Let us disappear from this place and sail the azur waves together!",
 			typewriter = {
@@ -260,8 +260,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "Wh-what...!",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "Erm...",
 			typewriter = {
@@ -323,9 +323,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "Phew...",
 			typewriter = {
 				speed = 0.05,
@@ -401,14 +401,14 @@ return {
 			}
 		},
 		{
-			actor = 304060,
+			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actorName = "Zeppy & Hiei-chan",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			nameColor = "#a9f548",
+			actor = 304060,
+			actorName = "Zeppy & Hiei-chan",
 			say = "Those people are...?!",
 			subActors = {
 				{
@@ -428,8 +428,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

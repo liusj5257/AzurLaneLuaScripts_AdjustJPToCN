@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGBAORICHANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGBAORICHANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Spring Festival Party\n\n<size=45>The Mother of All Firecrackers</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "At night, right before the start of the Lunar New Year...",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-china",
+			say = "At night, right before the start of the Lunar New Year...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "There, I've lit the fuse! Everyone, scamper!",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,10 +92,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 0,
+			bgName = "star_level_bg_102",
+			hideOther = true,
 			dir = 1,
 			actor = 501031,
 			actorName = "Chang Chun & Yukikaze & Mutsuki",
@@ -127,9 +127,9 @@ return {
 			hideOther = true,
 			side = 2,
 			bgName = "star_level_bg_102",
-			soundeffect = "event:/battle/firework",
-			dir = 1,
 			say = "Fu Shun's homemade firecracker went off with a loud bang, followed by several crackles.",
+			dir = 1,
+			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,8 +143,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301162,
 			dir = 1,
+			actor = 301162,
 			nameColor = "#a9f548",
 			say = "How can a firecracker go off with the flash of a small firework?! That's ridiculous!",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,8 +170,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301323,
 			dir = 1,
+			actor = 301323,
 			nameColor = "#a9f548",
 			say = "Wooow!",
 			typewriter = {
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "It's the result of my sweat and tears and Chang Chun's technical know-how!",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -229,8 +229,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301323,
 			dir = 1,
+			actor = 301323,
 			nameColor = "#a9f548",
 			say = "I wanna light one too!",
 			typewriter = {
@@ -246,8 +246,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301162,
 			dir = 1,
+			actor = 301162,
 			nameColor = "#a9f548",
 			say = "Do you have more of them? Yukikaze the Great demands to get to set one off!",
 			typewriter = {
@@ -260,8 +260,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -302,10 +302,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 0,
+			bgName = "star_level_bg_102",
+			hideOther = true,
 			dir = 1,
 			actor = 301323,
 			actorName = "Mutsuki & Yukikaze",
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "We need to prototype the Mega An Shan #1! It's the grandmother of all firecrackers!",
 			effects = {
 				{
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 501031,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501031,
+			nameColor = "#a9f548",
 			say = "Hang on, isn't that the one that's just a can stuffed with gunpowder? Still... I *am* curious to see how it'll explode.",
 			effects = {
 				{
@@ -388,11 +388,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "FUUUUUU SHUUUUUUN!",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,11 +446,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "Ow! Okay, I'll do it! Ow! OWW! Stop dragging me by my ear, you're gonna rip it off!",
 			typewriter = {
 				speed = 0.05,
@@ -462,16 +462,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 2500
@@ -479,10 +479,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 0,
+			bgName = "star_level_bg_102",
+			hideOther = true,
 			dir = 1,
 			actor = 501031,
 			actorName = "Chang Chun & Yukikaze & Mutsuki",
@@ -529,10 +529,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 0,
+			bgName = "star_level_bg_102",
+			hideOther = true,
 			dir = 1,
 			actor = 301323,
 			actorName = "Yukikaze & Mutsuki",
@@ -555,8 +555,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -565,14 +565,14 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			hideOther = true,
 			say = "Meanwhile, just a short walk away...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -600,8 +600,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 403044,
 			dir = 1,
+			actor = 403044,
 			nameColor = "#a9f548",
 			say = "Setting off firecrackers, are they? Those little cracklers are no more than playthings for lowly animals.",
 			typewriter = {
@@ -617,8 +617,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 404011,
 			dir = 1,
+			actor = 404011,
 			nameColor = "#a9f548",
 			say = "Pretty much. If they want a loud bang, just do a damn cannon salute. I've gotta say though, that mega-whatever they spoke of has a jury-rigged charm to it.",
 			typewriter = {
@@ -634,8 +634,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 404011,
 			dir = 1,
+			actor = 404011,
 			nameColor = "#a9f548",
 			say = "That's why I hoped to see it go off. Speaking of which, isn't that the whole reason you came here? To watch the firecrackers go off?",
 			typewriter = {
@@ -651,9 +651,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 403044,
 			dir = 1,
 			blackBg = true,
+			actor = 403044,
 			nameColor = "#a9f548",
 			say = "N-No! Why would I?!",
 			typewriter = {

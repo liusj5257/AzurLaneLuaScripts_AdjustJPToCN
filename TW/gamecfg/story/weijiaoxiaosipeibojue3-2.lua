@@ -6,11 +6,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "login-2022401us",
 			actor = 102200,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "大家開火的時候注意，不要打到甜點運輸船了！",
-			bgm = "login-2022401us",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -24,8 +24,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 102190,
 			dir = 1,
+			actor = 102190,
 			say = "……那些裂縫好像不是我們打的……是小施佩自己在破壞那些運輸船！",
 			painting = {
 				alpha = 0.3,
@@ -40,8 +40,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 102210,
 			dir = 1,
+			actor = 102210,
 			say = "啊啊啊啊，運輸船都裂開了，甜點都流進海裡了！",
 			painting = {
 				alpha = 0.3,
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207090,
 			dir = 1,
+			actor = 207090,
 			say = "……然後海水本身正在變成甜點？！",
 			painting = {
 				alpha = 0.3,
@@ -72,8 +72,8 @@ return {
 			expression = 7,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 304070,
 			dir = 1,
+			actor = 304070,
 			say = "…………好甜，好好喝……（咕嚕）",
 			painting = {
 				alpha = 0.3,
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 307090,
 			dir = 1,
+			actor = 307090,
 			say = "嗚啊啊天城姐姐，這個不能喝啊！",
 			painting = {
 				alpha = 0.3,
@@ -104,8 +104,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 107990,
 			dir = 1,
+			actor = 107990,
 			say = "這究竟是……妳究竟做了什麼？！",
 			painting = {
 				alpha = 0.3,
@@ -156,8 +156,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 102200,
 			dir = 1,
+			actor = 102200,
 			say = "……等！",
 			painting = {
 				alpha = 0.3,
@@ -181,25 +181,25 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "就這樣，甜點危機得到了解決。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "在小施佩自沉的地方，到現在也會湧出源源不斷的甜點，成為了廣受好評的旅遊勝地。",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "至於小施佩，有人說她已經前往甜點的世界了，有人說她被小歐根救了回去。",
 			typewriter = {
 				speed = 0.05,
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "不論如何，沒有人再見過她的身影。",
 			typewriter = {
 				speed = 0.05,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "總而言之，有些故事沒有開端，有些故事沒有結尾。而有些故事，就是這樣結束了————",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "——THE END——",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"主演：小施佩",

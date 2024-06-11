@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENGLIFU6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANCHENGLIFU6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Special Banquet\n\n<size=45>Chapter 6: Anniversary Orchestra</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Banquet Hall",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Banquet Hall",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 201011,
+			say = "Well, we all want Her Majesty to have a good time. We wanted to throw the best banquet possible for everyone, so it wasn't really hard work at all~",
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Well, we all want Her Majesty to have a good time. We wanted to throw the best banquet possible for everyone, so it wasn't really hard work at all~",
+			actor = 201011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "But Amazon, you don't look very happy yourself.",
 			typewriter = {
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "Plus, when does our orchestra even get to play?",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "Ack... So you've noticed...",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "*sigh*...",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "The reason is pretty simple. The most important person hasn't shown up yet, and we can't start playing until that person shows up.",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "Good grief... Half of this banquet was prepared for that idiot who still hasn't shown up...",
 			typewriter = {
@@ -241,8 +241,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "I see... That's unfortunate...",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "... Though that idiot is unreliable, this fleet has been running smoothly all this time. We might not say it, but I think everyone knows how much we all owe...",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "Putting in so much work every day, managing all that paperwork, and still having time to spend with all of us...",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "Without that idiot, we wouldn't even be able to have a celebration like this...",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "... *Hmph*! As if. It's just some basic human courtesy I'd give to anyone.",
 			typewriter = {
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "So this orchestra was formed just for tonight?",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "Incorrect! It's almost the other way around - you can't have a proper banquet without live music!",
 			typewriter = {
@@ -441,11 +441,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "So that's why you want Commander to take it easy and relax just for this evening?",
 			typewriter = {
@@ -477,8 +477,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "We even made a promise... and I had a surprise prepared...",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "If it takes any longer, I'm going to...",
 			typewriter = {
@@ -526,8 +526,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
 					x = 0,
@@ -539,8 +539,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "Woah! What's the matter, Fubuki? You surprised me!",
 			typewriter = {
@@ -553,8 +553,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
 					x = 0,
@@ -563,11 +563,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "I just saw Commander! With Taihou and Yamashiro...",
 			typewriter = {
@@ -601,8 +601,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#a9f548",
 			say = "Huhh? Well, they're heading this way, right?",
 			typewriter = {
@@ -615,11 +615,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "Yes!",
 			typewriter = {
@@ -632,8 +632,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -658,11 +658,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "Just leave it to me!",
 			typewriter = {

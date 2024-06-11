@@ -1,15 +1,15 @@
 return {
-	id = "BULIZHISHI2-3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BULIZHISHI2-3",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-1",
 			say = "Together, the two Bulins were able to rival Purifier's might. However, it would still take more than that to turn the tides of battle in their favor...",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The three Bulins formed a circle around Purifier in the blink of an eye and commenced a battle of attrition against her.",
 			typewriter = {
 				speed = 0.05,

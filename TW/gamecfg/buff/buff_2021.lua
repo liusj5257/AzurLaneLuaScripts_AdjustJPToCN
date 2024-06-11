@@ -62,12 +62,12 @@ return {
 	desc_get = "每隔20秒，有25%的概率发动，提高全队5.0%(满级25.0%)装填，持续8秒，同技能效果不叠加",
 	name = "装填号令",
 	init_effect = "",
+	id = 2021,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "每隔20秒，有25%的概率发动，提高全队$1装填，持续8秒，同技能效果不叠加",
 	stack = 1,
-	id = 2021,
+	color = "yellow",
 	icon = 2020,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 2022,
-				time = 20,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 20
 			}
 		}
 	}

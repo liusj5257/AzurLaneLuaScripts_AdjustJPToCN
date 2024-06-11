@@ -2,19 +2,19 @@ slot0 = class("GuildTechnologyGroup", import("..BaseVO"))
 slot0.STATE_STOP = 0
 slot0.STATE_START = 1
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot2 = slot0:bindConfigTable().get_id_list_by_group[slot0.id][1]
 
 	slot0:update({
-		state = 0,
 		progress = 0,
+		state = 0,
 		id = slot2,
 		fake_id = slot2
 	})
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	slot0.pid = slot1.id
 	slot0.configId = slot0.pid
 	slot0.state = slot1.state or 0
@@ -22,7 +22,7 @@ function slot0.update(slot0, slot1)
 	slot0.fakeId = slot1.fake_id or slot0.fakeId or slot1.id
 end
 
-function slot0.AddProgress(slot0, slot1)
+slot0.AddProgress = function(slot0, slot1)
 	slot0.progress = slot0.progress + slot1
 
 	if slot0:GetTargetProgress() <= slot0.progress then
@@ -30,7 +30,7 @@ function slot0.AddProgress(slot0, slot1)
 	end
 end
 
-function slot0.LevelUp(slot0)
+slot0.LevelUp = function(slot0)
 	slot0:update({
 		progress = 0,
 		id = slot0:GetNextId(),
@@ -39,7 +39,7 @@ function slot0.LevelUp(slot0)
 	})
 end
 
-function slot0.GetNextId(slot0)
+slot0.GetNextId = function(slot0)
 	if slot0:getConfig("next_tech") == 0 then
 		return slot0.pid
 	else
@@ -47,47 +47,47 @@ function slot0.GetNextId(slot0)
 	end
 end
 
-function slot0.GetState(slot0)
+slot0.GetState = function(slot0)
 	return slot0.state
 end
 
-function slot0.GetTargetProgress(slot0)
+slot0.GetTargetProgress = function(slot0)
 	return slot0:getConfig("exp")
 end
 
-function slot0.GetProgress(slot0)
+slot0.GetProgress = function(slot0)
 	return slot0.progress
 end
 
-function slot0.GetFakeLevel(slot0)
+slot0.GetFakeLevel = function(slot0)
 	return slot0:bindConfigTable()[slot0.fakeId].level
 end
 
-function slot0.GetLevel(slot0)
+slot0.GetLevel = function(slot0)
 	return slot0:getConfig("level")
 end
 
-function slot0.GetMaxLevel(slot0)
+slot0.GetMaxLevel = function(slot0)
 	return slot0:getConfig("level_max")
 end
 
-function slot0.isMaxLevel(slot0)
+slot0.isMaxLevel = function(slot0)
 	return slot0:GetMaxLevel() <= slot0:GetLevel()
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.guild_technology_template
 end
 
-function slot0.GuildMemberCntType(slot0)
+slot0.GuildMemberCntType = function(slot0)
 	return slot0:getConfig("effect_args")[1] == GuildConst.TYPE_GUILD_MEMBER_CNT
 end
 
-function slot0.isStarting(slot0)
+slot0.isStarting = function(slot0)
 	return slot0.state == uv0.STATE_START
 end
 
-function slot0.GetDesc(slot0)
+slot0.GetDesc = function(slot0)
 	slot1 = slot0:bindConfigTable()
 	slot2 = slot1[slot0.pid].next_tech
 
@@ -102,11 +102,11 @@ function slot0.GetDesc(slot0)
 	end
 end
 
-function slot0.Stop(slot0)
+slot0.Stop = function(slot0)
 	slot0.state = uv0.STATE_STOP
 end
 
-function slot0.Start(slot0)
+slot0.Start = function(slot0)
 	slot0.state = uv0.STATE_START
 end
 

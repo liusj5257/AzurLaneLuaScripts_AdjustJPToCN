@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "大棋盤·三笠控制區第四回合",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "看起來是意圖拿下我們與長門大人之間的連接處啊……",
 			painting = {
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "真是一次長距離的機動，把大前輩設計的事件效果完全利用了。",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "……我們的區域據點還沒拿下……這時候受到夾擊的話就太被動了！",
 			painting = {
@@ -106,8 +106,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "不用擔心，三笠前輩手裡有足以應付當前狀況的指揮卡。",
 			painting = {
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg9",
 			say = "金剛的話音未落，遠方的一處邊界據點就被覆蓋上了一座宛如牢籠的灰幕。",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "果然，三笠前輩用的是這張卡！",
 			painting = {
@@ -182,8 +182,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#A9F548FF",
 			say = "……封鎖的是距離中心較遠的EF12，而不是EF34，為什麼？",
 			painting = {
@@ -231,8 +231,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "可是我們雙方實力相同，這時候把對面分成兩部分可能反而會對我們形成箝制。",
 			painting = {
@@ -344,8 +344,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "不愧是大前輩，真是滴水不漏的作戰……",
 			painting = {
@@ -361,8 +361,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "不過武藏大人進攻區域據點用了三回合，我們也差不多要三回合吧。",
 			painting = {
@@ -378,8 +378,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "可惜這回合的移動力要浪費了……沒想到沒有利用上大前輩事件卡的竟是我們自己。",
 			painting = {
@@ -427,8 +427,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "已經到了第四回合，差不多能用一次了！",
 			painting = {
@@ -444,8 +444,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "主攻就交給我這個金剛級光榮的一番艦，大家在拿下這裡之後向據點EF34全線移動，阻止入侵之敵的繼續深入！",
 			painting = {

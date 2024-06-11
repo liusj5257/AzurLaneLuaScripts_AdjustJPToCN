@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"——시스템 기동 중",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "슈퍼 드릴 MKII 시스템",
+			side = 2,
 			bgName = "bg_bigbuli",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -81,12 +81,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "황금 시대의 위광이 강림했다, 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "내 진정한 힘을 보여줄 때가 왔어, 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나랑 같이 세상을 뒤흔드는 거야, 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -132,12 +132,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "시제형 슈퍼 드릴 MKII, 기동! 푸링!",
 			painting = {
 				alpha = 0.3,

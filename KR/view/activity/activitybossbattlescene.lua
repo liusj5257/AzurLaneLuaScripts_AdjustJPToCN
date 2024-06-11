@@ -1,19 +1,19 @@
 slot0 = class("ActivityBossBattleScene", import("..base.BaseUI"))
 slot1 = pg.expedition_data_template
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ActivityBossBattleUI"
 end
 
-function slot0.setTaskAct(slot0, slot1)
+slot0.setTaskAct = function(slot0, slot1)
 	slot0.taskAct = slot1
 end
 
-function slot0.setFleet(slot0, slot1)
+slot0.setFleet = function(slot0, slot1)
 	slot0.fleet = slot1
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 
 	slot0._resPanel:setResources(slot1)
@@ -21,7 +21,7 @@ function slot0.setPlayer(slot0, slot1)
 	slot0.pt = slot0.player:getResource(113)
 end
 
-function slot0.setActivity(slot0, slot1)
+slot0.setActivity = function(slot0, slot1)
 	slot0.activity = slot1
 	slot2 = slot0.activity.data1KeyValueList[1] or {}
 	slot0.stages = _.map(slot1:getConfig("config_data")[4], function (slot0)
@@ -44,7 +44,7 @@ function slot0.setActivity(slot0, slot1)
 	slot0:initStages()
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("top/back")
 	slot0.mainTF = slot0:findTF("main")
 	slot0.forewordTF = slot0:findTF("foreword")
@@ -72,7 +72,7 @@ function slot0.init(slot0)
 	setActive(slot0.bonusWindow, false)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.awardBtn, function ()
 		uv0:showAwards()
 	end)
@@ -97,7 +97,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.initStages(slot0)
+slot0.initStages = function(slot0)
 	slot1 = table.contains(slot0.activity.data1_list, slot0.fStage.config.id)
 
 	setActive(slot0.mainTF, slot1)
@@ -110,7 +110,7 @@ function slot0.initStages(slot0)
 	end
 end
 
-function slot0.updateMain(slot0)
+slot0.updateMain = function(slot0)
 	slot2 = pg.extraenemy_template[slot0.bossId]
 
 	slot0.stageList:make(function (slot0, slot1, slot2)
@@ -155,11 +155,11 @@ function slot0.updateMain(slot0)
 	setActive(slot0.label2, slot3)
 end
 
-function slot0.updateForwrod(slot0)
+slot0.updateForwrod = function(slot0)
 	slot1 = slot0.fleet:GetCostSum()
 end
 
-function slot0.showAwards(slot0)
+slot0.showAwards = function(slot0)
 	setActive(slot0.bonusWindow, true)
 
 	if not slot0.awardList then
@@ -201,9 +201,9 @@ function slot0.showAwards(slot0)
 			setActive(slot2:Find("award/mask_can"), slot8 and slot8:isFinish() and not slot8:isReceive())
 			onButton(uv1, slot2, function ()
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					yesText = "text_confirm",
 					hideNo = true,
 					content = "",
-					yesText = "text_confirm",
 					type = MSGBOX_TYPE_SINGLE_ITEM,
 					drop = uv0
 				})
@@ -214,11 +214,11 @@ function slot0.showAwards(slot0)
 	slot0.awardList:align(#slot0.taskAct:getConfig("config_data"))
 end
 
-function slot0.closeAwards(slot0)
+slot0.closeAwards = function(slot0)
 	setActive(slot0.bonusWindow, false)
 end
 
-function slot0.updateTaskBtn(slot0)
+slot0.updateTaskBtn = function(slot0)
 	slot1 = slot0.taskAct:getConfig("config_data")
 	slot2 = _.any(slot1, function (slot0)
 		return getProxy(TaskProxy):getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
@@ -241,7 +241,7 @@ function slot0.updateTaskBtn(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

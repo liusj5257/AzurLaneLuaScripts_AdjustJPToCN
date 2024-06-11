@@ -1,20 +1,20 @@
 slot0 = class("SculptureAwardInfoPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SculptureAwardInfoUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.uilist = UIItemList.New(slot0:findTF("frame/scrollrect/content"), slot0:findTF("frame/scrollrect/content/tpl"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
 	slot0.activity = slot1
@@ -23,7 +23,7 @@ function slot0.Show(slot0, slot1)
 	setText(slot0:findTF("frame/tip"), i18n("sculpture_close_tip"))
 end
 
-function slot0.UpdateList(slot0)
+slot0.UpdateList = function(slot0)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateCard(uv1[slot1 + 1], slot2)
@@ -32,7 +32,7 @@ function slot0.UpdateList(slot0)
 	slot0.uilist:align(#slot0.activity:getConfig("config_data"))
 end
 
-function slot0.UpdateCard(slot0, slot1, slot2)
+slot0.UpdateCard = function(slot0, slot1, slot2)
 	slot5 = slot2:Find("icon/mask/image"):GetComponent(typeof(Image))
 
 	LoadSpriteAtlasAsync("SculptureRole/" .. slot0.activity:GetResorceName(slot1) .. "_normal", nil, function (slot0)
@@ -66,7 +66,7 @@ function slot0.UpdateCard(slot0, slot1, slot2)
 	setActive(slot2:Find("mask"), slot0.activity:GetSculptureState(slot1) == SculptureActivity.STATE_FINSIH)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

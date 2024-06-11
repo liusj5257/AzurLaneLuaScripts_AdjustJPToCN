@@ -7,23 +7,23 @@ return {
 	},
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -45,24 +45,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_545",
+			bgm = "story-commander-up",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "적성 존재의 반응을 나타내는 붉은 빛이 남극 대륙 작전맵을 가득 채우고 있다.",
-			bgm = "story-commander-up",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			say = "평온했던 남극 대륙이 마치 거짓말처럼 위기 상황에 빠졌다.",
@@ -150,10 +150,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "만약 같은 방식으로 침입해 왔다면… 또 다른 누군가가 '신의 흔적'을 전개했다는 말이겠지.",
 			painting = {
 				alpha = 0.3,
@@ -187,10 +187,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "서, 설마 소유즈 쪽이랑 관련이 있는 건……?",
 			painting = {
 				alpha = 0.3,
@@ -260,10 +260,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "조금 속도를 줄이고는 있지만, 다들 아직 '융설 구역'으로 나아가고 있는 것 같아.",
 			painting = {
 				alpha = 0.3,
@@ -316,10 +316,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관, 더는 못 기다려! 전장 지휘에 개입해야겠어!",
 			painting = {
 				alpha = 0.3,
@@ -355,28 +355,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xuejing_2",
+			bgm = "theme-sovietunion",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "남극 대륙, 융설 구역",
-			bgm = "theme-sovietunion",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -384,12 +384,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_xuejing_2",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "―――――!!!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,9 +437,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_2",
 			say = "돌파구를 만들었습니다. 노스 유니온 동지 여러분, 저를 따르세요!",
 			painting = {
 				alpha = 0.3,
@@ -454,8 +454,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "손상을 입더라도 전진 속도를 늦춰선 안 됩니다! 이대로 잠항함 합류 지점까지 직행하겠습니다!",
 			painting = {
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일행들",
+			side = 2,
 			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			say = "알았어!",
@@ -484,8 +484,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			say = "―――――――",
@@ -497,9 +497,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_2",
 			say = "……통신 연락?",
 			painting = {
 				alpha = 0.3,
@@ -514,8 +514,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "지휘관… 동지?!",
 			painting = {
@@ -531,8 +531,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705080,
 			dir = 1,
+			actor = 705080,
 			nameColor = "#A9F548FF",
 			say = "지휘관?! 왜 이런 타이밍에?",
 			painting = {
@@ -547,9 +547,9 @@ return {
 		{
 			actor = 705080,
 			side = 2,
-			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_2",
 			say = "쾨니히스베르크가 분명 외부 통신은 재밍을 받고 있어서 못 쓴다고 하지 않았어?",
 			painting = {
 				alpha = 0.3,
@@ -563,9 +563,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_2",
 			say = "지휘관 동지니까 분명 다른 방법을 찾았을 겁니다. 그나저나 어떻게 지금……",
 			painting = {
 				alpha = 0.3,
@@ -580,8 +580,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "그렇군요… 지금 지휘관 동지는 여기 전황을 모니터링하고 있고, 곧 전술 지휘를 해주실 모양입니다.",
 			painting = {
@@ -597,8 +597,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "처음에 연락한 건 아마 최전선의 정보를 파악하기 위함이었겠지요.",
 			painting = {
@@ -614,8 +614,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "후후후, 그럼… 힘을 합쳐서 함께 싸우죠. 지휘관 동지.",
 			painting = {
@@ -628,23 +628,23 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -666,25 +666,25 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "(……의도적으로 만들어진 특수 광물, 옵저버의 SOS, 그리고…)",
+			side = 2,
 			bgm = "story-commander-up",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "(……의도적으로 만들어진 특수 광물, 옵저버의 SOS, 그리고…)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -936,8 +936,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -951,10 +951,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관, 소유즈랑 연락은 잘했어? 다음은 뭘 하면 돼?",
 			painting = {
 				alpha = 0.3,
@@ -1017,10 +1017,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "뭐? 심판정 시설…? 설마……",
 			painting = {
 				alpha = 0.3,
@@ -1066,10 +1066,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그럼 끊을게, 지휘관! 무운을 빌어!",
 			painting = {
 				alpha = 0.3,
@@ -1081,28 +1081,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――그럼 다음은……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

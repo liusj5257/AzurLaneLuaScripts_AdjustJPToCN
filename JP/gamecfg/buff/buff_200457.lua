@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023俾斯麦Z活动 剧情战BOSS",
 	time = 0,
-	color = "blue",
+	name = "2023俾斯麦Z活动 剧情战BOSS",
+	init_effect = "",
+	id = 200457,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200457,
+	color = "blue",
 	icon = 200457,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.3,
-				target = "TargetSelf",
 				skill_id = 200460,
+				target = "TargetSelf",
 				quota = 1
 			}
 		},

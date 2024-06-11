@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-拉菲-技能",
 	time = 0,
+	name = "测试-拉菲-技能",
+	init_effect = "",
 	picture = "",
 	desc = "狂暴",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				rant = 1500,
-				target = "TargetSelf",
 				skill_id = 60007,
+				target = "TargetSelf",
 				time = 8
 			}
 		}

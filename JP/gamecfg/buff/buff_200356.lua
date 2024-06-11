@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 剧情战2 我方定时触发",
 	time = 0,
-	color = "yellow",
+	name = "2023英系活动 剧情战2 我方定时触发",
+	init_effect = "",
+	id = 200356,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200356,
+	color = "yellow",
 	icon = 200356,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 35,
+				target = "TargetSelf",
 				skill_id = 200353
 			}
 		},
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200350,
-				target = "TargetAllHarm",
 				time = 37,
+				target = "TargetAllHarm",
 				quota = 1
 			}
 		}

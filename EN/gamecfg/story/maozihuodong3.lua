@@ -1,15 +1,15 @@
 return {
-	id = "MAOZIHUODONG3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bgm-cccp2",
 			say = "After sailing a bit further, the fleet reached the naval base at the Aleutian defense line.",
+			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "Huh? Avrora? Weren't you in charge of securing aid and supplies between the Royal Navy?",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "Huh? Oooh~ So you're the legendary commander who led the defense of NY Harbor? Mmm~ hmm~ Not bad, not bad.",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "I heard that last time, you were viciously attacked as soon as you arrived at port and didn't even have a chance to catch a breath. How awful of them, hehe~",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +181,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "But don't worry, that won't happen here. That snowy stronghold over there won't attack until we get within a certain distance, so there's no chance of them launching an offensive here.",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "Don't worry about it! See, you have backup now~!",
 			typewriter = {
 				speed = 0.05,
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102100,
 			dir = 1,
+			actor = 102100,
 			say = "I've gotta say, the view here is pretty nice. A bit cold for my tastes though, hehe~",
 			typewriter = {
 				speed = 0.05,
@@ -317,8 +317,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "Oops, sorry about that~ You see, this commander was spacing out on the way here!",
 			typewriter = {
 				speed = 0.05,
@@ -330,8 +330,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Eh...? It's my fault?",
 			typewriter = {
 				speed = 0.05,
@@ -361,8 +361,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "Umm... Are you two the only ones here from the Northern Parliament?",
 			typewriter = {
 				speed = 0.05,

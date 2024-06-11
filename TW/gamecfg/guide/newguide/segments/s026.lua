@@ -11,15 +11,21 @@ return {
 			alpha = 0.491,
 			code = 2,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -42,
 				posX = 243,
 				text = slot0[1]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/combatBtn",
 				pathIndex = -1,
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/1/battle"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/right/combatBtn"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -30,18 +36,18 @@ return {
 			}
 		},
 		{
-			alpha = 0.406,
 			waitScene = "LevelScene",
+			alpha = 0.406,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -200,
 				posX = -190,
 				text = slot0[2]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/normal/func_button",
 				pathIndex = -1,
+				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/normal/func_button",
 				triggerType = {
 					1
 				},
@@ -58,15 +64,15 @@ return {
 		{
 			alpha = 0.409,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -68.93,
 				posX = 241.87,
 				text = slot0[3]
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/ChapterPreCombatUI(Clone)/right/start",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/ChapterPreCombatUI(Clone)/right/start",
 				triggerType = {
 					1
 				},

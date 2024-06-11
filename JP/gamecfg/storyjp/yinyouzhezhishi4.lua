@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_158",
+			bgm = "ryza-az-theme",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "翌日。村の入口の柵",
-			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -38,9 +38,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「優雅なレディたち、私の歌の続きにどうか傾聴を」",
 			painting = {
@@ -58,9 +58,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「4つの塔――南、西、東、北」",
 			painting = {
@@ -78,9 +78,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「過ぎ去った日々は蒼狗に化す白雲のよう」",
 			painting = {
@@ -98,9 +98,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「南の塔、守護者はすでに追い出されり」",
 			painting = {
@@ -118,9 +118,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「西の塔、氷雪の湖に着底す」",
 			painting = {
@@ -138,9 +138,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「東の塔、バラード城の礎となる」",
 			painting = {
@@ -158,9 +158,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「北の塔、謎に包まれたまま」",
 			painting = {
@@ -178,9 +178,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「現れては隠れ、その在り処は知られることなく」",
 			painting = {
@@ -198,9 +198,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「塔に住む魔女、その素性も知られることなく」",
 			painting = {
@@ -218,9 +218,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「一つ確かなのは、彼女はヒトの友なり」",
 			painting = {
@@ -238,9 +238,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「それも永遠に――」",
 			painting = {
@@ -255,12 +255,12 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			bgName = "star_level_bg_158",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "以上。塔に関するすべての物語だった",
 			painting = {
@@ -272,17 +272,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -295,9 +295,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "…みんなの格好は…一体……？",
 			painting = {
@@ -391,9 +391,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "……確かに、一理ある",
 			painting = {
@@ -411,9 +411,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "しかし、魔王討伐の旅は命の危険も伴う",
 			painting = {
@@ -431,9 +431,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "それに、討伐に成功したとしても、いずれ新たな魔王が誕生する",
 			painting = {
@@ -451,9 +451,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "紀元が移りゆけど、これだけは変わらなかった",
 			painting = {
@@ -509,9 +509,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "その志は褒めるべき。幸運を祈ろう",
 			painting = {
@@ -529,9 +529,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "では――",
 			painting = {
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_158",
 			hidePaintObj = true,
 			say = "吟遊詩人は少し考え込み、歌を続けた。",
@@ -560,9 +560,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「魔王の財宝には気をつけよ」",
 			painting = {
@@ -580,9 +580,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「魅力的な宝の華には、死の罠の棘がある」",
 			painting = {
@@ -600,9 +600,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「うかつに手を出せば、不幸に見舞われよう」",
 			painting = {
@@ -639,9 +639,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "最後に、このフルートを持っていってほしい",
 			painting = {
@@ -678,9 +678,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "大丈夫だ。予備も持っている",
 			painting = {
@@ -698,9 +698,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "それに、あなたたちの旅の役に立てる",
 			painting = {
@@ -732,11 +732,11 @@ return {
 			}
 		},
 		{
-			actor = 201217,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "新人勇者",
 			dir = 1,
+			actor = 201217,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ、そういえば名前を聞いてなかったね！",
@@ -755,9 +755,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "……私の名前？",
 			painting = {
@@ -775,9 +775,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "分からない",
 			painting = {
@@ -795,9 +795,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "己の名前を探している吟遊詩人だと思ってくれれば、それでいい",
 			painting = {
@@ -815,9 +815,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "では、さらば――",
 			painting = {
@@ -835,9 +835,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "吟遊詩人",
 			dir = 1,
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "未来の勇者たちよ",
 			painting = {

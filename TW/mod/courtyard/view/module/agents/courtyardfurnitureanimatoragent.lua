@@ -1,6 +1,6 @@
 slot0 = class("CourtYardFurnitureAnimatorAgent", import(".CourtYardAgent"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.maskSpineAnimUIs = {}
@@ -15,7 +15,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:SetState(CourtYardFurniture.STATE_IDLE)
 end
 
-function slot0.State2Action(slot0, slot1)
+slot0.State2Action = function(slot0, slot1)
 	if slot1 == CourtYardFurniture.STATE_IDLE then
 		return slot0.data:GetFirstSlot():GetSpineDefaultAction(), true
 	elseif slot1 == CourtYardFurniture.STATE_TOUCH then
@@ -27,7 +27,7 @@ function slot0.State2Action(slot0, slot1)
 	end
 end
 
-function slot0.SetState(slot0, slot1)
+slot0.SetState = function(slot0, slot1)
 	slot2, slot3 = slot0:State2Action(slot1)
 
 	if not slot2 or slot2 == "" then
@@ -45,15 +45,15 @@ function slot0.SetState(slot0, slot1)
 	end
 end
 
-function slot0.GetNormalAnimationName(slot0)
+slot0.GetNormalAnimationName = function(slot0)
 	return slot0:State2Action(CourtYardFurniture.STATE_IDLE)
 end
 
-function slot0.RestartAnimation(slot0, slot1)
+slot0.RestartAnimation = function(slot0, slot1)
 	slot0.spineAnimUI:SetAction(slot1, 0)
 end
 
-function slot0._PlayAction(slot0, slot1, slot2, slot3)
+slot0._PlayAction = function(slot0, slot1, slot2, slot3)
 	slot0.spineAnimUI:SetActionCallBack(not slot2 and function (slot0)
 		if slot0 == "finish" then
 			uv0.spineAnimUI:SetActionCallBack(nil)
@@ -63,7 +63,7 @@ function slot0._PlayAction(slot0, slot1, slot2, slot3)
 	slot0.spineAnimUI:SetAction(slot1, 0)
 end
 
-function slot0.PlayInteractioAnim(slot0, slot1)
+slot0.PlayInteractioAnim = function(slot0, slot1)
 	parallelAsync({
 		function (slot0)
 			uv0:PlayMaskAction(uv1, slot0)
@@ -76,7 +76,7 @@ function slot0.PlayInteractioAnim(slot0, slot1)
 	end)
 end
 
-function slot0.PlayMaskAction(slot0, slot1, slot2)
+slot0.PlayMaskAction = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0.maskSpineAnimUIs) do
@@ -94,7 +94,7 @@ function slot0.PlayMaskAction(slot0, slot1, slot2)
 	parallelAsync(slot3, slot2)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.spineAnimUI:SetActionCallBack(nil)
 	Object.Destroy(slot0.spineAnimUI)
 

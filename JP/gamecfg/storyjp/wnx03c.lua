@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "同时只能派遣一支舰队进行战前测试。",
 			typewriter = {
 				speed = 0.05,

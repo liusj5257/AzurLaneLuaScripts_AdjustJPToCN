@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_53 = {}
 slot1 = slot0.word_template_53
 
-function temp()
+temp = function()
 	uv0["傅"] = {
 		["作"] = {
 			["义"] = {
@@ -24,7 +24,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["干"] = {
 		b = {
 			i = {
@@ -219,7 +219,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["膏"] = {
 		["药"] = {
 			["旗"] = {
@@ -236,7 +236,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["戈"] = {
 		["瑞"] = {
 			this = true,

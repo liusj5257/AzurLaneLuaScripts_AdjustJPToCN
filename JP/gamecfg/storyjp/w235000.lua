@@ -1,12 +1,12 @@
 return {
-	id = "W235000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W235000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "エリア内のイベントはすべて終了しました。ダカール港に戻ります。",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーン作戦5章を進行させるには、クエストが進行するエリアに進入してください。",
 			typewriter = {
 				speed = 0.05,

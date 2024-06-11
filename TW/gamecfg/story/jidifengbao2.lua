@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIDIFENGBAO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIDIFENGBAO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 0.5,
-			say = "遠離戰場的辦公室中，厚厚的牆壁隔絕了外面的風雪。",
 			bgm = "battle-deepecho",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "遠離戰場的辦公室中，厚厚的牆壁隔絕了外面的風雪。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -30,8 +30,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue",
 			say = "通訊器的燈熄滅了，不過另一端的螢幕此時亮了起來。",
 			typewriter = {
@@ -43,8 +43,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "在積蓄了這麼久的力量之後，行動終於要開始了……",
 			painting = {
@@ -72,8 +72,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "最後還是沒有執行讓指揮官同志來指揮的方案？",
 			painting = {
@@ -137,8 +137,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "一切正常。會場這邊維持著日復一日和平與悠閒，沒有什麼波瀾。",
 			painting = {
@@ -154,8 +154,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "硬要說的話，指揮官同志會來參加閉幕式的消息倒是引發了一陣“小小的騷動“？",
 			painting = {
@@ -195,8 +195,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "那邊的話……貌似在消息傳來之前就已經離開博覽會會場了。",
 			painting = {
@@ -212,8 +212,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "事到如今也不可能再折回來，只能說是……非常遺憾。",
 			painting = {
@@ -229,8 +229,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "不過，現在還是多關心一下眼前的作戰吧，蘇維埃聯盟。",
 			painting = {
@@ -258,8 +258,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "那麼，雖然現在我遠在薩丁帝國，但還是祝妳們旗開得勝，同志。",
 			painting = {
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue",
 			say = "螢幕閃爍了一下，暗了下去。",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue",
 			say = "蘇維埃聯盟在略微沉思之後，接入了戰役指揮系統。",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_guild_blue",
 			blackBg = true,
 			say = "而牆外的風雪，仍在呼嘯——",

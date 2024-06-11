@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "Z驱减伤",
 	init_effect = "",
+	time = 0,
 	picture = "",
 	desc = "减伤",
 	stack = 1,
@@ -22,8 +22,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.3
+				number = -0.3,
+				attr = "injureRatio"
 			}
 		}
 	}

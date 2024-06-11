@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "不破之盾 +",
 	init_effect = "",
+	id = 1010390,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1010390,
+	color = "blue",
 	icon = 10390,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 1010391,
-				target = "TargetSelf",
-				time = 20
+				time = 20,
+				target = "TargetSelf"
 			}
 		},
 		{

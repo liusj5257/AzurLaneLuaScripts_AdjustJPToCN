@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN14",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "眾人在築摩選擇的航線上穿行著，最初十分順利繞開了戰鬥力低下但防禦力奇高的敵艦。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-longgong",
+			nameColor = "#a9f548",
+			say = "眾人在築摩選擇的航線上穿行著，最初十分順利繞開了戰鬥力低下但防禦力奇高的敵艦。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			dir = 1,
 			say = "但隨著不斷前進，敵人的密度越來越高。",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			dir = 1,
 			say = "最終，居然出現了船連著船將寬廣的航路徹底堵死的情況。",
@@ -66,8 +66,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "簡直就像擋在河道上的群山一樣……",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "不可理喻，這裡的機關太不可理喻了吧？！",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "駿河，接下來就請妳全開火力，讓我們見識一下重櫻精銳的力量吧。",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "沒問題，我會竭盡全力的。",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
 			say = "咳、我們現在正在趕時間，礙事的傢伙能不能讓出條道路來！",
 			typewriter = {
 				speed = 0.05,
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "轟————————！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -242,8 +242,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（……等打完這些船，島風說不定都從中心繞一圈過來了吧……）",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "（是隨口說了不管遇到什麼機關都好的我的報應嗎，運氣真差……）",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "……{namecode:175}？",
 			typewriter = {
@@ -290,12 +290,12 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 305140,
+			nameColor = "#a9f548",
 			say = "沒什麼……大家開火吧——！",
 			typewriter = {
 				speed = 0.05,

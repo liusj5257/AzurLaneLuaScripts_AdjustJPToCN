@@ -1,15 +1,15 @@
 return {
-	id = "LUCK19903",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK19903",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199030,
 			dir = 1,
+			actor = 199030,
 			say = "アンカレッジ…ちからがいっぱい…！せんせー…ありがとう…！",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199030,
 			dir = 1,
+			actor = 199030,
 			say = "わるいこ…こわくないから…せんせーも…こわがらないで…",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199030,
 			dir = 1,
+			actor = 199030,
 			say = "アンカレッジ…せんせー…ずっといっしょ…！",
 			typewriter = {
 				speed = 0.05,

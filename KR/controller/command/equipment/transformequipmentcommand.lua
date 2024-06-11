@@ -1,6 +1,6 @@
 slot0 = class("TransformEquipmentCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().candicate
 
 	seriesAsync({
@@ -103,7 +103,7 @@ function slot0.execute(slot0, slot1)
 	})
 end
 
-function slot0.ExecuteEquipTransform(slot0, slot1)
+slot0.ExecuteEquipTransform = function(slot0, slot1)
 	slot2 = slot1.shipId
 	slot3 = slot2
 	slot4 = slot1.pos
@@ -136,7 +136,7 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 	slot10 = {}
 	slot11 = {}
 
-	function slot12()
+	slot12 = function()
 		slot0 = getProxy(BagProxy)
 		slot1 = getProxy(PlayerProxy)
 
@@ -166,7 +166,7 @@ function slot0.ExecuteEquipTransform(slot0, slot1)
 
 	slot13 = slot5
 
-	function slot14()
+	slot14 = function()
 		uv0()
 
 		slot3 = (not uv1 or getProxy(BayProxy):getShipById(uv1):getEquip(uv2)) and getProxy(EquipmentProxy):getEquipmentById(uv3)

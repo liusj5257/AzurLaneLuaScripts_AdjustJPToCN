@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "story-mmorpg",
 			side = 2,
 			bgName = "star_level_bg_518",
+			soundeffect = "event:/battle/boom2",
+			bgm = "story-mmorpg",
 			nameColor = "#A9F548FF",
 			say = "―――！！！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -108,11 +108,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "あなたたちが来てくれなければ、多大な被害を被っていたことでしょう",
 			painting = {
@@ -125,11 +125,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "とんでもない！勇者パーティーとして当然のことをしたまで！",
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "まさか要塞からこんなに近い場所でさえ、魔王軍の襲撃が来るなんて……",
 			painting = {
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はい！なんなりと！",
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "見張りの長城は光明と正義の神など、神々の加護を受けています。魔王ですらたやすく越えられませんから、通常の魔物ならなおさらです",
 			painting = {
@@ -340,11 +340,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "今すぐ要塞に向かい、軍の配置を行いたいですが……故郷を襲撃された村人たちをみすみす見捨てることはできません",
 			painting = {
@@ -393,11 +393,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "すみません、魔物を駆逐するクエストを、あなた方に任せてもいいですか？",
 			painting = {
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 501070,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "フリード村長",
 			dir = 1,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			say = "冒険者の方々、絶対絶対飛雲の村を助けてぇ！",
 			painting = {
@@ -427,8 +427,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -437,11 +437,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…魔物を退治して村を救う…勇者にもってこいのクエストが来たね！",
@@ -455,11 +455,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官、どう思う？",
@@ -502,12 +502,12 @@ return {
 			}
 		},
 		{
-			actor = 501070,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "フリード村長",
 			dir = 1,
 			optionFlag = 2,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			say = "も、もちろんだよ…クエストをクリアしてくれたらたんまりと報酬を弾むよ！",
 			painting = {
@@ -520,12 +520,12 @@ return {
 			}
 		},
 		{
-			actor = 501070,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "フリード村長",
 			dir = 1,
 			optionFlag = 2,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			say = "クリアさえできればね…くっくっくー",
 			painting = {
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "んじゃあ安心して勇者パーティーに任せて！",
@@ -556,11 +556,11 @@ return {
 			}
 		},
 		{
-			actor = 501070,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "フリード村長",
 			dir = 1,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			say = "うんうん！安寧と守護の神のご加護がありますように…！",
 			painting = {

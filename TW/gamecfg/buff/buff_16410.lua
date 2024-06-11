@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16410,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16410,
+	color = "red",
 	icon = 16410,
 	last_effect = "",
 	effect_list = {
@@ -42,9 +42,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 16410,
 				time = 12,
-				target = "TargetSelf",
-				skill_id = 16410
+				target = "TargetSelf"
 			}
 		}
 	}

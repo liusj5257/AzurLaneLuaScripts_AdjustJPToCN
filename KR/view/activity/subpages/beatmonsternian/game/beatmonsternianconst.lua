@@ -5,31 +5,31 @@ slot0.ACTION_NAME_R = "R"
 slot0.ACTION_NAME_A = "A"
 slot0.ACTION_NAME_B = "B"
 slot0.MotionCombinations = {
-	BLB = "isAttack7",
+	BRB = "isAttack8",
 	BRA = "isAttack6",
 	ARA = "isAttack6",
 	BBB = "isAttack1",
 	ABB = "isAttack4",
 	RBA = "isAttack8",
-	LRB = "isAttack6",
+	LLA = "isAttack1",
 	LBA = "isAttack8",
 	RAB = "isAttack4",
 	AAA = "isAttack1",
-	LLA = "isAttack1",
-	ALB = "isAttack7",
+	BLB = "isAttack7",
+	LRB = "isAttack6",
 	RLA = "isAttack2",
-	LLB = "isAttack5",
+	LAA = "isAttack3",
 	LAB = "isAttack4",
-	BRB = "isAttack8",
+	ALB = "isAttack7",
 	ARB = "isAttack8",
 	RRA = "isAttack1",
-	BBA = "isAttack2",
-	LRA = "isAttack2",
-	BAB = "isAttack3",
 	LBB = "isAttack7",
+	LRA = "isAttack2",
+	LLB = "isAttack5",
+	BBA = "isAttack2",
 	ABA = "isAttack3",
 	AAB = "isAttack2",
-	LAA = "isAttack3",
+	BAB = "isAttack3",
 	ALA = "isAttack5",
 	RAA = "isAttack3",
 	RLB = "isAttack6",
@@ -39,15 +39,15 @@ slot0.MotionCombinations = {
 	RRB = "isAttack5"
 }
 
-function slot0.MatchAction(slot0)
+slot0.MatchAction = function(slot0)
 	return uv0.MotionCombinations[slot0] ~= nil
 end
 
-function slot0.GetMatchAction(slot0)
+slot0.GetMatchAction = function(slot0)
 	return uv0.MotionCombinations[slot0]
 end
 
-function slot0.GetMonsterAction(slot0)
+slot0.GetMonsterAction = function(slot0)
 	return "isAttack"
 end
 

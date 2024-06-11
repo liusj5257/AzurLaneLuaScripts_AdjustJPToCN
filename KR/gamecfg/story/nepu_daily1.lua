@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>제1화 - 다른 차원으로의 웜홀?</size>",
@@ -33,12 +33,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "이스투와르한테 온 연락대로네. 보아하니 공간이 왜곡시킨 웜홀 같은데… 왜 이런 곳에 갑자기 생긴 걸까?",
 			side = 1,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
-			say = "이스투와르한테 온 연락대로네. 보아하니 공간이 왜곡시킨 웜홀 같은데… 왜 이런 곳에 갑자기 생긴 걸까?",
+			actor = 10100020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 10100010,
+			nameColor = "#92fc63",
 			say = "네푸우~~~~~~?!",
 			flashout = {
 				dur = 1,
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "느와아~~~~~~?!",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "느와아~~~~~~?!",
+			actor = 10100020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "──풍더어어어어엉!!",
 			typewriter = {
 				speed = 0.05,
@@ -274,11 +274,11 @@ return {
 			}
 		},
 		{
-			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 10100060,
+			nameColor = "#92fc63",
 			say = "여신화해서 날면 되잖아.",
 			flashout = {
 				dur = 0.5,
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 10100050,
+			nameColor = "#92fc63",
 			say = "후우… 일단, 어떻게든 됐네.",
 			flashout = {
 				dur = 0.5,
@@ -480,9 +480,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "──퍼어어어어어어엉!!",
 			typewriter = {
 				speed = 0.05,
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 10100050,
 			nameColor = "#ff0000",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 10100050,
 			actorName = "？？？",
 			say = "…………",
 			typewriter = {
@@ -555,11 +555,11 @@ return {
 			}
 		},
 		{
-			actor = 10100060,
 			nameColor = "#ff0000",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 10100060,
 			actorName = "？？？",
 			say = "…………",
 			typewriter = {
@@ -575,8 +575,8 @@ return {
 			hideOther = true,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 10100060,
 			dir = 1,
+			actor = 10100060,
 			nameColor = "#92fc63",
 			say = "뭐야, 저거…… 우리들이, 있어?",
 			typewriter = {
@@ -749,17 +749,17 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = -1,
 			bgmDelay = 2,
-			say = "……그렇게 된 거지, 우리들 엄청 험한 꼴 당했다구!",
 			bgm = "story-nepu1",
+			actor = 10100010,
+			nameColor = "#92fc63",
+			say = "……그렇게 된 거지, 우리들 엄청 험한 꼴 당했다구!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -784,12 +784,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			say = "하아… 그래……",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "하아… 그래……",
+			actor = 101170,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1060,12 +1060,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "뭔가 떠들썩하네요… 새로 배속받은 분들인가요?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "뭔가 떠들썩하네요… 새로 배속받은 분들인가요?",
+			actor = 401230,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -1144,11 +1144,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/alarm",
+			say = "──위잉! 위잉! 위잉!",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "──위잉! 위잉! 위잉!",
+			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1171,12 +1171,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "긴급출격? 설마…… 적의 습격?!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "긴급출격? 설마…… 적의 습격?!",
+			actor = 401230,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1191,11 +1191,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "다들, 여기 있었군요… 찾았어요.",
 			typewriter = {
@@ -1208,11 +1208,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "본부로부터 긴급무전, 이에요. 학원 근해에 돌연, 거울해역이 발생…속히 정찰부대를 파견하라고 합니다. Z23, 부탁해요.",
 			typewriter = {
@@ -1273,15 +1273,15 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 10100010,
+			nameColor = "#92fc63",
 			say = "……어라, 다들 가버렸네.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1306,12 +1306,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "거울해역인지 뭔지…… 신경 쓰이는 얘길 들었네.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "거울해역인지 뭔지…… 신경 쓰이는 얘길 들었네.",
+			actor = 10100020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1358,16 +1358,16 @@ return {
 			}
 		},
 		{
-			actor = 900076,
 			actorName = "？？？",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 900076,
 			nameColor = "#92fc63",
 			say = "……따라잡았다고 생각했더니, 벌써 사라졌네…… 하아, 가만히 있질 못한다니깐.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1392,13 +1392,13 @@ return {
 			}
 		},
 		{
-			actor = 900077,
+			say = "저 둘에겐 가만히 있으라고 하는 편이 더 어렵겠죠.",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 900077,
 			actorName = "？？？",
-			say = "저 둘에겐 가만히 있으라고 하는 편이 더 어렵겠죠.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

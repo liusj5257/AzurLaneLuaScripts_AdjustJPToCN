@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Mysterious Rabbit Alien?!\n\n<size=45>VI 「The Rabbit Alien Has Arrived?!」</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port area, City Square",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port area, City Square",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "According to reports, there will be a meteor shower tonight.",
 			typewriter = {
 				speed = 0.05,
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "….and so on and so forth, looks like the girls are very interested in meteor showers.",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "It seems like Bailey is in a happier mood than her usual self.",
 			typewriter = {
 				speed = 0.05,
@@ -172,9 +172,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "...so that’s what she is actually thinking.",
 			typewriter = {
 				speed = 0.05,
@@ -182,9 +182,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Sadly, no matter how much Bailey hopes for it, I don’t think the Rabbit Planet will send a spaceship out for her…",
 			typewriter = {
 				speed = 0.05,
@@ -224,11 +224,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "Akashi gave her scientific opinion while passing by.",
 			typewriter = {
@@ -247,11 +247,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "….ah, although, meow, Akashi did not see very clearly. Perhaps there was a spaceship mixed in all that meteor shower! Nyaa~",
 			typewriter = {
 				speed = 0.05,
@@ -263,16 +263,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Also, for the Rabbit Planet, perhaps it exists in another galaxy far away, nyaa!",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -307,9 +307,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Although Akashi is remedying her words, the atmosphere has become awkward.",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,

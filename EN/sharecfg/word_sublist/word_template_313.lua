@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_313 = {}
 slot1 = slot0.word_template_313
 
-function temp()
+temp = function()
 	uv0["押"] = {
 		["大"] = {
 			this = true
@@ -16,7 +16,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鸦"] = {
 		["片"] = {
 			this = true,
@@ -32,7 +32,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鸭"] = {
 		["之"] = {
 			["一"] = {
@@ -53,7 +53,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鴉"] = {
 		["片"] = {
 			this = true
@@ -63,7 +63,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["芽"] = {
 		["子"] = {
 			["碱"] = {
@@ -75,7 +75,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["雅"] = {
 		["蠛"] = {
 			["蝶"] = {
@@ -99,7 +99,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["亚"] = {
 		["甫"] = {
 			["泉"] = {

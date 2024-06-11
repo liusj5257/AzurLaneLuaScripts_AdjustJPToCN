@@ -1,8 +1,8 @@
-function printf(slot0, ...)
+printf = function(slot0, ...)
 	print(string.format(tostring(slot0), ...))
 end
 
-function AssureTable(slot0)
+AssureTable = function(slot0)
 	if type(slot0) ~= "table" then
 		slot0 = {}
 	end
@@ -10,25 +10,25 @@ function AssureTable(slot0)
 	return slot0
 end
 
-function checknumber(slot0, slot1)
+checknumber = function(slot0, slot1)
 	return tonumber(slot0, slot1) or 0
 end
 
-function math.round(slot0)
+math.round = function(slot0)
 	return math.floor(checknumber(slot0) + 0.5)
 end
 
-function checkint(slot0)
+checkint = function(slot0)
 	return math.round(checknumber(slot0))
 end
 
-function handler(slot0, slot1)
+handler = function(slot0, slot1)
 	return function (...)
 		return uv0(uv1, ...)
 	end
 end
 
-function handlerArg1(slot0, slot1, slot2)
+handlerArg1 = function(slot0, slot1, slot2)
 	return function (...)
 		return uv0(uv1, uv2, ...)
 	end
@@ -43,7 +43,7 @@ slot5 = pairs
 slot6 = tostring
 slot7 = next
 
-function print_r(slot0)
+print_r = function(slot0)
 	slot1 = {
 		[slot0] = "."
 	}

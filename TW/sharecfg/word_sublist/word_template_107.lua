@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_107 = {}
 slot1 = slot0.word_template_107
 
-function temp()
+temp = function()
 	uv0["魅"] = {
 		["惑"] = {
 			["巨"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["街"] = {
 		["头"] = {
 			["扒"] = {
@@ -48,7 +48,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["莲"] = {
 		["花"] = {
 			["逼"] = {
@@ -60,7 +60,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["洗"] = {
 		["肠"] = {
 			["射"] = {

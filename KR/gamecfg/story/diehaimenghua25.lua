@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA25",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -45,11 +45,11 @@ return {
 			}
 		},
 		{
-			say = "펑-----------------!",
 			side = 2,
 			bgName = "bg_xinnong_cg3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "펑-----------------!",
 			flashN = {
 				color = {
 					1,
@@ -97,17 +97,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
-			bgName = "bg_underwater",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "어떻게…… 사방에서 어뢰가 날아온다면…………",
+			bgName = "bg_underwater",
 			bgm = "bsm-2",
+			nameColor = "#a9f548",
+			say = "어떻게…… 사방에서 어뢰가 날아온다면…………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:182}",
 			nameColor = "#a9f548",
+			actorName = "{namecode:182}",
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:182}",
 			nameColor = "#a9f548",
+			actorName = "{namecode:182}",
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
@@ -164,8 +164,8 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:182}",
 			nameColor = "#a9f548",
+			actorName = "{namecode:182}",
 			bgName = "bg_underwater",
 			side = 2,
 			dir = 1,
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_xinnong2_6",
-			actorName = "{namecode:182}",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "{namecode:182}",
 			say = "계속 침몰하고 있어. 꿈이 계속되고 있는 건가…?",
 			flashout = {
 				dur = 1,
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -242,12 +242,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_6",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "저기는……",
 			typewriter = {
 				speed = 0.05,
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
-			stopbgm = true,
 			bgName = "bg_white",
+			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			flashout = {

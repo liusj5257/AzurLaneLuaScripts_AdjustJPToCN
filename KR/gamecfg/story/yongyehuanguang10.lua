@@ -1,18 +1,18 @@
 return {
-	id = "YONGYEHUANGUANG10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG10",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			actor = 206060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "말에 따르면 노스 유니온은 지금 각자 움직일 수 있는 군함을 이미 최전선 전투에 투입했대. 지휘관님도 당연히 벌써 극지 함대의 지휘관으로서 최전선으로 향하셨겠지.",
-			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,8 +86,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "...모두 주의해. 극지 함대의 보호 아래에 있는 지휘관보다 더 걱정해야할 긴급한 일이 있을 것 같아.",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "정찰 함대가 방금 메탈 블러드의 주력 함대를 발견했어. 이 규모는… 해수면 위의 블록을 엎어버릴 정도야.",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "주력 함대만 해도 티르피츠, 샤른호르스트, 그나이제나우, 도이칠란트 및 아드미랄 그라프 슈피까지 다섯 척이야.",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "그리고 중순양함 프린츠 오이겐과 아드미랄 히퍼, 대량의 경순양함과 구축함까지….",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -220,8 +220,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "항로는…현재 우리 쪽으로 직진하는 것 같아…",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "설마…정보 유출…?",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = " …이미 들킨거라면 계속 무통신 상태를 유지하는 것도 의미가 없어졌어. ",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = " 지금부터 무통신 상태를 해제하고, 사령부와 그외 각 함대에 연락해. 지금부터 메탈 블러드 주력 부대 섬멸 작전을 시작한다!",
 			typewriter = {
 				speed = 0.05,

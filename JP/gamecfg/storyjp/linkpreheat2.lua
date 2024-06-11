@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT2",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT2",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10300010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-uta",
 			dir = 1,
 			say = "あの顔色の悪いコたちは……追い払えた、かな？",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,10 +38,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "こちらを取り巻いていた気配は去りました。ひとまず、危機を脱したようです",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "こちらを取り巻いていた気配は去りました。ひとまず、危機を脱したようです",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -59,8 +59,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "そうみたいだね。フミルィルの偽物も倒せたし……",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			stopbgm = true,
 			say = "クーちゃん──いけませんよ",
 			typewriter = {
@@ -151,11 +151,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "main-uta",
 			actor = 10300010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "フミルィル！？ほ、本物、だよね？……良かった、無事だったんだね！",
-			bgm = "main-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,8 +169,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "はい、この通り。私は無事ですから安心してください",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "このコたち、猫神さまの知り合いかな？",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -365,8 +365,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "私はクオン──よろしくね",
 			typewriter = {
 				speed = 0.05,

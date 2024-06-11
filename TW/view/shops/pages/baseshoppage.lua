@@ -1,6 +1,6 @@
 slot0 = class("BaseShopPage", import("...base.BaseSubView"))
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	uv0.super.Ctor(slot0, slot1, slot2, slot3)
 
 	slot0.lScrollrect = slot4
@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	assert(slot0.lScrollrect)
 end
 
-function slot0.Load(slot0)
+slot0.Load = function(slot0)
 	if slot0._state ~= uv0.STATES.NONE then
 		return
 	end
@@ -31,30 +31,30 @@ function slot0.Load(slot0)
 	end
 end
 
-function slot0.Loaded(slot0, slot1)
+slot0.Loaded = function(slot0, slot1)
 	slot0.canvasGroup = slot1:GetComponent(typeof(CanvasGroup))
 
 	assert(slot0.canvasGroup)
 	uv0.super.Loaded(slot0, slot1)
 end
 
-function slot0.SetShop(slot0, slot1)
+slot0.SetShop = function(slot0, slot1)
 	slot0.shop = slot1
 end
 
-function slot0.SetPlayer(slot0, slot1)
+slot0.SetPlayer = function(slot0, slot1)
 	slot0.player = slot1
 
 	slot0:OnUpdatePlayer()
 end
 
-function slot0.SetItems(slot0, slot1)
+slot0.SetItems = function(slot0, slot1)
 	slot0.items = slot1
 
 	slot0:OnUpdateItems()
 end
 
-function slot0.SetUp(slot0, slot1, slot2, slot3)
+slot0.SetUp = function(slot0, slot1, slot2, slot3)
 	slot0:SetShop(slot1)
 	slot0:Show()
 	slot0:SetPlayer(slot2)
@@ -64,7 +64,7 @@ function slot0.SetUp(slot0, slot1, slot2, slot3)
 	slot0:SetPainting()
 end
 
-function slot0.InitCommodities(slot0)
+slot0.InitCommodities = function(slot0)
 	slot0.cards = {}
 	slot0.displays = slot0.shop:GetCommodities()
 
@@ -72,12 +72,12 @@ function slot0.InitCommodities(slot0)
 	setActive(slot0.scrollbar, #slot0.displays > 10)
 end
 
-function slot0.Show(slot0)
-	function slot0.lScrollrect.onInitItem(slot0)
+slot0.Show = function(slot0)
+	slot0.lScrollrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 
-	function slot0.lScrollrect.onUpdateItem(slot0, slot1)
+	slot0.lScrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
@@ -87,7 +87,7 @@ function slot0.Show(slot0)
 	slot0:ShowOrHideResUI(true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end
@@ -103,7 +103,7 @@ function slot0.Hide(slot0)
 	slot0:ShowOrHideResUI(false)
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end
@@ -111,7 +111,7 @@ function slot0.Destroy(slot0)
 	uv0.super.Destroy(slot0)
 end
 
-function slot0.SetPainting(slot0)
+slot0.SetPainting = function(slot0)
 	slot1, slot2, slot3 = slot0:GetPaintingName()
 
 	if slot0.contextData.paintingView.name ~= slot1 then
@@ -130,7 +130,7 @@ function slot0.SetPainting(slot0)
 	end
 end
 
-function slot0.UpdateShop(slot0, slot1)
+slot0.UpdateShop = function(slot0, slot1)
 	slot0:SetShop(slot1)
 	pg.MsgboxMgr.GetInstance():hide()
 
@@ -145,7 +145,7 @@ function slot0.UpdateShop(slot0, slot1)
 	slot0:OnUpdateAll()
 end
 
-function slot0.UpdateCommodity(slot0, slot1, slot2)
+slot0.UpdateCommodity = function(slot0, slot1, slot2)
 	slot0:SetShop(slot1)
 
 	if DROP_TYPE_SHIP == slot1:GetCommodityById(slot2):getConfig("commodity_type") then
@@ -165,7 +165,7 @@ function slot0.UpdateCommodity(slot0, slot1, slot2)
 	slot0.contextData.paintingView:Chat(slot4, slot5, slot6, true)
 end
 
-function slot0.OnClickCommodity(slot0, slot1, slot2)
+slot0.OnClickCommodity = function(slot0, slot1, slot2)
 	if Drop.New({
 		type = slot1:getConfig("commodity_type"),
 		id = slot1:getConfig("commodity_id"),
@@ -219,14 +219,14 @@ function slot0.OnClickCommodity(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.TipPurchase(slot0, slot1, slot2, slot3, slot4)
+slot0.TipPurchase = function(slot0, slot1, slot2, slot3, slot4)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("pt_reconfirm", slot3 or "??"),
 		onYes = slot4
 	})
 end
 
-function slot0.getSpecialRule(slot0, slot1)
+slot0.getSpecialRule = function(slot0, slot1)
 	if slot1:getConfig("commodity_type") == DROP_TYPE_ITEM and slot0.shop.type == ShopArgs.ShopFragment and Item.getConfigData(slot1:getConfig("commodity_id")) and slot3.type == 7 and #slot3.shiptrans_id > 0 then
 		slot4 = getProxy(BayProxy)
 
@@ -242,64 +242,64 @@ function slot0.getSpecialRule(slot0, slot1)
 	return true
 end
 
-function slot0.CanOpen(slot0, slot1, slot2)
+slot0.CanOpen = function(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.GetPaintingName(slot0)
+slot0.GetPaintingName = function(slot0)
 	return "buzhihuo_shop"
 end
 
-function slot0.GetPaintingEnterVoice(slot0)
+slot0.GetPaintingEnterVoice = function(slot0)
 	slot2 = string.split(pg.navalacademy_shoppingstreet_template[1].words_enter, "|")
 	slot3 = math.random(#slot2)
 
 	return slot2[slot3], "enter_" .. slot3, false
 end
 
-function slot0.GetPaintingCommodityUpdateVoice(slot0)
+slot0.GetPaintingCommodityUpdateVoice = function(slot0)
 	slot2 = string.split(pg.navalacademy_shoppingstreet_template[1].words_buy, "|")
 	slot3 = math.random(#slot2)
 
 	return slot2[slot3], "buy_" .. slot3, false
 end
 
-function slot0.GetPaintingAllPurchaseVoice(slot0)
+slot0.GetPaintingAllPurchaseVoice = function(slot0)
 	return nil, , 
 end
 
-function slot0.GetPaintingTouchVoice(slot0)
+slot0.GetPaintingTouchVoice = function(slot0)
 	slot2 = string.split(pg.navalacademy_shoppingstreet_template[1].words_touch, "|")
 	slot3 = math.random(#slot2)
 
 	return slot2[slot3], "touch_" .. slot3, false
 end
 
-function slot0.GetBg(slot0, slot1)
+slot0.GetBg = function(slot0, slot1)
 end
 
-function slot0.OnSetUp(slot0)
+slot0.OnSetUp = function(slot0)
 end
 
-function slot0.OnUpdateAll(slot0)
+slot0.OnUpdateAll = function(slot0)
 end
 
-function slot0.OnUpdateCommodity(slot0, slot1)
+slot0.OnUpdateCommodity = function(slot0, slot1)
 end
 
-function slot0.OnUpdatePlayer(slot0)
+slot0.OnUpdatePlayer = function(slot0)
 end
 
-function slot0.OnUpdateItems(slot0)
+slot0.OnUpdateItems = function(slot0)
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 end
 
-function slot0.CanOpenPurchaseWindow(slot0, slot1)
+slot0.CanOpenPurchaseWindow = function(slot0, slot1)
 	return slot1:canPurchase()
 end
 

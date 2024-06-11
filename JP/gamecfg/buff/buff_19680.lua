@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 19680,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19680,
+	color = "red",
 	icon = 19680,
 	last_effect = "",
 	effect_list = {
@@ -68,8 +68,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 19683,
-				target = "TargetSelf",
-				time = 20
+				time = 20,
+				target = "TargetSelf"
 			}
 		},
 		{

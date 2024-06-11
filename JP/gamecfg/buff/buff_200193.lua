@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 战斗BUFF 损管效果LV2 旗舰控制回血",
 	time = 0,
-	color = "red",
+	name = "2022莱莎联动 战斗BUFF 损管效果LV2 旗舰控制回血",
+	init_effect = "",
+	id = 200193,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200193,
+	color = "red",
 	icon = 200192,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				skill_id = 200193,
-				target = "TargetHelpLeastHP"
+				target = "TargetHelpLeastHP",
+				skill_id = 200193
 			}
 		},
 		{

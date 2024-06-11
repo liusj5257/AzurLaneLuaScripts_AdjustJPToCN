@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "防鱼雷隔舱T2",
 	time = 0,
-	color = "yellow",
+	name = "防鱼雷隔舱T2",
+	init_effect = "",
+	id = 6020,
 	picture = "",
 	desc = "受到鱼雷伤害减少20%，同类效果取最大值，不可叠加",
 	stack = 1,
-	id = 6020,
+	color = "yellow",
 	icon = 6020,
 	last_effect = "",
 	effect_list = {

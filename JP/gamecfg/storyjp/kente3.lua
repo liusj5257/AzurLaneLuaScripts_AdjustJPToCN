@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KENTE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KENTE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"GO！ポジティブ・メイド！\n\n<size=45>三 感謝のキモチ！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "……今日は、いつもよりもケントがやってくるのが遅い。メイド隊の仕事が忙しいのだろうか。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "……今日は、いつもよりもケントがやってくるのが遅い。メイド隊の仕事が忙しいのだろうか。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,15 +50,15 @@ return {
 			}
 		},
 		{
-			actor = 203030,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "――Sorry！指揮官！今日はメイドの仕事が立て込んじゃって遅くなっちゃった！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "慌てるケントを見て、すかさず立ち上がり首を振る。",
 			typewriter = {
 				speed = 0.05,
@@ -134,11 +134,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "S,Stop！！指揮官ってば……確かに、否定はできないんだけどさ……。",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そう言ってケントは、胸を撫でながらゆっくりとソファーに腰を下ろした。",
 			typewriter = {
 				speed = 0.05,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "むしろ訊いてみたいことがある。",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ケントは可笑しそうに笑ってから、両手に拳を作りながら天井に向かって突き出した。",
 			typewriter = {
 				speed = 0.05,
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "こだわりなんて――ないよっ！！",
 			effects = {
 				{
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "ただ、こういった勢いで元気よく話しかけたら、きっと聞いてる相手も元気な気分になるかなって。",
 			effects = {
 				{
@@ -310,9 +310,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "なんでもないように告げるケント。でもきっと彼女なりに少なからず相手を思う配慮があるのだろう。",
 			typewriter = {
 				speed = 0.05,
@@ -324,11 +324,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "Oh！そうだ！せっかくなら指揮官もケント選手の真似して、何か英語をつけて話しかけてみてよ！",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -350,9 +350,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "急に無茶ぶりをしてきたケントに、動揺しながらもなんて言おうか考えてみる……そして",
 			typewriter = {
 				speed = 0.05,
@@ -370,9 +370,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……と、言ってみた。",
 			typewriter = {
 				speed = 0.05,
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "……！？",
 			dialogShake = {
 				speed = 0.09,
@@ -405,11 +405,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "お……終わり終わり！指揮官ってば直球すぎるというか……もう！喉乾いてきたから紅茶淹れるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -421,8 +421,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -431,9 +431,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "照れながら立ち上がったケントを見て、慌てて立ち上がる。",
 			typewriter = {
 				speed = 0.05,

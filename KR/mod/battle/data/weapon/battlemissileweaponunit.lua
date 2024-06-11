@@ -6,11 +6,11 @@ slot3 = class("BattleMissileWeaponUnit", slot0.Battle.BattleWeaponUnit)
 slot0.Battle.BattleMissileWeaponUnit = slot3
 slot3.__name = "BattleMissileWeaponUnit"
 
-function slot3.CalculateFixedExplodePosition(slot0, slot1)
+slot3.CalculateFixedExplodePosition = function(slot0, slot1)
 	return Vector3(slot0._host:GetPosition().x + (slot0._host:GetDirection() == uv0.UnitDir.RIGHT and 1 or -1) * slot1._range, 0, 0)
 end
 
-function slot3.CalculateRandTargetPosition(slot0, slot1, slot2)
+slot3.CalculateRandTargetPosition = function(slot0, slot1, slot2)
 	slot3 = slot2:GetCLDZCenterPosition()
 	slot6 = 0
 
@@ -33,7 +33,7 @@ function slot3.CalculateRandTargetPosition(slot0, slot1, slot2)
 	return Vector3(slot3.x + slot7 + (slot4.targetOffsetX or 0), 0, slot3.z + slot8 + (slot4.targetOffsetZ or 0))
 end
 
-function slot3.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
+slot3.createMajorEmitter = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	return uv0.super.createMajorEmitter(slot0, slot1, slot2, slot3, function (slot0, slot1, slot2, slot3, slot4)
 		slot6 = uv0:Spawn(uv0._emitBulletIDList[uv1], slot4, uv2.INTERNAL)
 
@@ -45,7 +45,7 @@ function slot3.createMajorEmitter(slot0, slot1, slot2, slot3, slot4, slot5)
 	end, nil)
 end
 
-function slot3.ChoiceOntheAir(slot0, slot1)
+slot3.ChoiceOntheAir = function(slot0, slot1)
 	return function ()
 		slot0 = uv0:GetMissileTargetPosition()
 		slot1, slot2, slot3 = uv0:GetRotateInfo()

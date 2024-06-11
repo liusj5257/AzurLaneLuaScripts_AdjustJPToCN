@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN14",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307050,
-			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "鉄血の艦載機、中々しつこいわね…瑞鶴、このまま撹乱し続ければいいの？",
 			bgm = "xinnong-2",
+			actor = 307050,
+			nameColor = "#a9f548",
+			say = "鉄血の艦載機、中々しつこいわね…瑞鶴、このまま撹乱し続ければいいの？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -41,11 +41,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "はい、翔鶴姉！敵の陣形をバラバラにして、数の利を活かして敵を各個撃破よ！",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,8 +134,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "私は艦隊の位置が心配ですわ。海霧を抜けたと思ったら更に大規模な鏡面海域だなんて、今はどこまで来ているのでしょう…",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "全くありませんわ。南方大陸航路にこんなに島が密集しているところなんてありませんもの",
 			typewriter = {
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "鏡面海域に迷い込んでしまいました…金剛ちゃん、どうしよう",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -226,8 +226,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "どうもこうもありませんわ。セイレーンの実験場やら海霧やら鏡面海域は現実に違いありませんっ",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "鉄血艦載機の追跡から逃げる間に島々の位置も把握してちょうだい。戦わずして偵察できるチャンスは今だけかもしれませんわ",
 			typewriter = {
@@ -305,12 +305,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "翔鶴姉、頼んだよ！みんな、引き続き警戒陣形で行こう！",
 			typewriter = {
 				speed = 0.05,

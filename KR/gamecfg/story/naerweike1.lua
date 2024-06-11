@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401210,
 			side = 2,
-			nameColor = "#92fc63",
-			say = "왜 하필 이런 데로 임무가 나온 거야!",
 			dir = 1,
 			bgm = "level02",
+			actor = 401210,
+			nameColor = "#92fc63",
+			say = "왜 하필 이런 데로 임무가 나온 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,8 +97,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -125,8 +125,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "기함은 Z21, 휘하로 Z2, Z9, Z11, Z12, Z13, Z18, Z19, Z21, Z22, 합계 10척을 전력으로 한다.",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "중립이었던 나르비크의 방위 전력은 대단치 않아. 충분히 대응 가능할 것으로 보여.",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "점령 자체는 쉽겠지만, 문제는 그 다음이야. 그래, 우선은 지금 작전목표에 집중하자.",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "……바보 같은 소리 마.",
 			typewriter = {
 				speed = 0.05,

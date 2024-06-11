@@ -4,11 +4,11 @@ slot0.Battle.BattleBuffWorldVariable = class("BattleBuffWorldVariable", slot0.Ba
 slot0.Battle.BattleBuffWorldVariable.__name = "BattleBuffWorldVariable"
 slot1 = slot0.Battle.BattleBuffWorldVariable
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._variable = slot0._tempData.arg_list.variable
 	slot0._key = slot0._tempData.arg_list.key
 	slot0._number = slot0._tempData.arg_list.number
@@ -16,7 +16,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._speedFactorName = "buff_" .. slot0._tempData.id
 end
 
-function slot1.onAttach(slot0, slot1, slot2)
+slot1.onAttach = function(slot0, slot1, slot2)
 	slot3 = uv0.Battle.BattleVariable
 
 	if slot0._key then
@@ -26,7 +26,7 @@ function slot1.onAttach(slot0, slot1, slot2)
 	end
 end
 
-function slot1.onRemove(slot0, slot1, slot2)
+slot1.onRemove = function(slot0, slot1, slot2)
 	slot3 = uv0.Battle.BattleVariable
 
 	if slot0._key then

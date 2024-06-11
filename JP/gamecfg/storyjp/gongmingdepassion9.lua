@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,8 +40,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -53,10 +53,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そんな乱暴なパフォーマンスで通用するわけないでしょう？相手はきっと対策を立てていますわ",
 			painting = {
 				alpha = 0.3,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,10 +81,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101176,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Zzzz……ラフィー、もう寝る……",
 			painting = {
 				alpha = 0.3,
@@ -99,10 +99,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502023,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ボイシ、バオズでもどう？出来立ての熱々よ♪",
 			painting = {
 				alpha = 0.3,
@@ -117,10 +117,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふぅ、ふぅ…はぁ……あ、ありがとう……",
 			painting = {
 				alpha = 0.3,
@@ -135,10 +135,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 304080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -153,10 +153,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 304080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ステージパフォーマンスでの「戦い方」を話していただけなのに、どうしてこうなったんですの…",
 			painting = {
 				alpha = 0.3,
@@ -171,10 +171,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 304080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まったく、優雅じゃありませんわ！",
 			painting = {
 				alpha = 0.3,
@@ -186,12 +186,12 @@ return {
 			}
 		},
 		{
-			actor = 801090,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 801090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私はいいと思うよ？みんなでいっっぱい盛り上げるのが人を元気づけるアイドルだもん！",
 			painting = {
 				alpha = 0.3,
@@ -203,12 +203,12 @@ return {
 			}
 		},
 		{
-			actor = 304080,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 304080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それもそうですわね……",
 			painting = {
 				alpha = 0.3,
@@ -223,10 +223,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 801090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でしょでしょ♪これが私たち「青組」の強さだと思うんだ～",
 			painting = {
 				alpha = 0.3,
@@ -241,10 +241,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 801090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "明るく、楽しく、希望に溢れる――「Cyanidin」のいきいきとした活力と同じなんだから！",
 			painting = {
 				alpha = 0.3,
@@ -259,10 +259,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 801090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……えへへ…みんながそう思ってくれてるかどうかはわからないけど…",
 			painting = {
 				alpha = 0.3,
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			actor = 801090,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 801090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でも大丈夫！ありのままの自分を貫くこともライブには大切…かもしれないよ！",
 			painting = {
 				alpha = 0.3,

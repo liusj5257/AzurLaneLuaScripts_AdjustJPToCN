@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "归航引导",
 	time = 0,
-	color = "yellow",
+	name = "归航引导",
+	init_effect = "",
+	id = 6311,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6311,
+	color = "yellow",
 	icon = 6310,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				type = "airAssist",
-				number = -0.04
+				number = -0.04,
+				type = "airAssist"
 			}
 		}
 	}

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "薩丁帝國塔蘭托港 ·宴會廳",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bsm-7",
+			say = "薩丁帝國塔蘭托港 ·宴會廳",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,10 +35,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "唔……終於連熱鬧的宴會廳也變得冷清下來了……",
 			typewriter = {
 				speed = 0.05,
@@ -53,10 +53,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "宴會終有結束之時，別太失落了，西南風。",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哎……如果皇家和重櫻也能按計劃出席該多好啊……明明準備得那麼辛苦！還有那麼多好吃的！",
 			typewriter = {
 				speed = 0.05,
@@ -89,10 +89,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "是啊~要是我肯定走不了！眼前就有這麼華麗的宴會，不享受一下實在是太可惜了~！",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "相比之下，我覺得還是鐵血的腓特烈大帝更有氣度一些。",
 			typewriter = {
 				speed = 0.05,
@@ -134,10 +134,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "嗯，腓特烈大帝好像沒傳說中那麼可怕！雖然有著一股上位者的威嚴，但是一直都在微笑，說話舉止也很有修養！",
 			typewriter = {
 				speed = 0.05,
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "沒錯，她是一位和俾斯麥不相上下的優秀外交官與領導者。",
 			typewriter = {
 				speed = 0.05,
@@ -169,10 +169,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "維內托大人，歡迎回來~您辛苦了！",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "呵呵，相比要繼續護送下去的利托里奧，我只是在近海稍微送了鐵血艦隊一段路而已，不算辛苦哦。",
 			typewriter = {
 				speed = 0.05,
@@ -214,10 +214,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "腓特烈大帝已經返回鐵血了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -232,10 +232,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不，她說突然想來一場羅馬之旅，順便去和元老院商量一些東西。",
 			typewriter = {
 				speed = 0.05,
@@ -250,10 +250,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……這是、臨時決定的行程？",
 			typewriter = {
 				speed = 0.05,
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "看起來是的，真是一個隨性的人啊~",
 			typewriter = {
 				speed = 0.05,
@@ -285,10 +285,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "鐵血馬上就要和重櫻進行聯合作戰了，這麼悠閒沒問題吧……",
 			typewriter = {
 				speed = 0.05,
@@ -303,10 +303,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不也挺好嘛~有種整個世界都在停戰協議生效之後變得和平的感覺~真想趁這個時候來個世界巡游啊！",
 			typewriter = {
 				speed = 0.05,
@@ -321,10 +321,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "我記得、停火協議的範圍僅限於NA海域內……",
 			typewriter = {
 				speed = 0.05,
@@ -339,10 +339,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哎？！是這樣嗎……等等，那我們的地中海要怎麼辦啊！？",
 			typewriter = {
 				speed = 0.05,
@@ -354,8 +354,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -364,12 +364,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "放心，地中海也是位於停火協議覆蓋範圍內的……啊，稍等一下。",
 			typewriter = {
 				speed = 0.05,
@@ -384,10 +384,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "怎麼了，利托里奧，鐵血艦隊那邊出什麼問題了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -402,10 +402,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "鐵血艦隊一切正常，倒是我們這邊出了點突發情況……",
 			typewriter = {
 				speed = 0.05,
@@ -420,10 +420,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "資料也發到妳那裡去了，詳細情況面談吧。我現在正在返航途中，妳在會議廳裡稍微等一下哦。",
 			typewriter = {
 				speed = 0.05,
@@ -438,10 +438,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "明白了。諸位，看來發生了一些需要我去處理的緊急事件，暫且失陪。",
 			typewriter = {
 				speed = 0.05,
@@ -456,10 +456,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "嗯！這裡的收拾工作交給我們，維內托大人就放心去忙吧~",
 			typewriter = {
 				speed = 0.05,
@@ -473,15 +473,15 @@ return {
 		{
 			expression = 0,
 			side = 2,
-			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "star_level_bg_115",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "西北風西北風！妳覺得到底出了情況呀？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -509,10 +509,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "不清楚。不過也許……妳想要出門航行的計劃可能很快就要實現了……",
 			typewriter = {
 				speed = 0.05,
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「七丘之上，有過一個偉大帝國。」</size>",
@@ -574,12 +574,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

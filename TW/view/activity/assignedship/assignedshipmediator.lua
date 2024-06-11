@@ -1,7 +1,7 @@
 slot0 = class("AssignedShipMediator", import("...base.ContextMediator"))
 slot0.ON_USE_ITEM = "AssignedShipMediator:ON_USE_ITEM"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_USE_ITEM, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.USE_ITEM, {
 			id = slot1,
@@ -12,13 +12,13 @@ function slot0.register(slot0)
 	slot0.viewComponent:setItemVO(slot0.contextData.itemVO)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.USE_ITEM_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.USE_ITEM_DONE then

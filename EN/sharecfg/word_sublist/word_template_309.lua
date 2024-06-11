@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_309 = {}
 slot1 = slot0.word_template_309
 
-function temp()
+temp = function()
 	uv0["羞"] = {
 		["耻"] = {
 			["母"] = {
@@ -40,7 +40,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["秀"] = {
 		["舞"] = {
 			["表"] = {
@@ -61,7 +61,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["须"] = {
 		["藤"] = {
 			["温"] = {
@@ -75,7 +75,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["虚"] = {
 		["拟"] = {
 			["5"] = {
@@ -122,7 +122,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["虛"] = {
 		["弱"] = {
 			["圖"] = {
@@ -147,7 +147,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["頊"] = {
 		this = {
 			this = true
@@ -157,7 +157,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["需"] = {
 		["要"] = {
 			["假"] = {

@@ -14,7 +14,7 @@ slot0.Buildings = {
 	"heguozidian"
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.loader = AutoLoader.New()
 	slot0.top = slot0:findTF("top")
 	slot0._map = slot0:findTF("map")
@@ -48,7 +48,7 @@ function slot0.init(slot0)
 	slot0:RegisterDataResponse()
 end
 
-function slot0.RegisterDataResponse(slot0)
+slot0.RegisterDataResponse = function(slot0)
 	slot0.Respones = ResponsableTree.CreateShell({})
 
 	slot0.Respones:SetRawData("view", slot0)
@@ -125,7 +125,7 @@ function slot0.RegisterDataResponse(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("top/return_btn"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end)
@@ -141,7 +141,7 @@ function slot0.didEnter(slot0)
 
 	slot5 = "top/help_btn"
 
-	function slot4()
+	slot4 = function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.qingdianguangchang_help.tip
@@ -180,7 +180,7 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.top, false)
 end
 
-function slot0.UpdateActivity(slot0, slot1)
+slot0.UpdateActivity = function(slot0, slot1)
 	slot0.activity = slot1
 	slot0.Respones.nvpukafeiting = slot1.data1KeyValueList[2][1] or 1
 	slot0.Respones.xiaolongbaodian = slot1.data1KeyValueList[2][2] or 1
@@ -191,7 +191,7 @@ function slot0.UpdateActivity(slot0, slot1)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot0.Respones.nvpukafeitingTip = slot0:UpdateBuildingTip(slot0.activity, 1)
 	slot0.Respones.xiaolongbaodianTip = slot0:UpdateBuildingTip(slot0.activity, 2)
 	slot0.Respones.zhajihanbaodianTip = slot0:UpdateBuildingTip(slot0.activity, 3)
@@ -208,7 +208,7 @@ function slot0.UpdateView(slot0)
 	end
 end
 
-function slot0.UpdateHubData(slot0, slot1)
+slot0.UpdateHubData = function(slot0, slot1)
 	slot0.Respones.hubData.count = slot1.count
 	slot0.Respones.hubData.usedtime = slot1.usedtime
 	slot0.Respones.hubData.id = slot1.id
@@ -216,7 +216,7 @@ function slot0.UpdateHubData(slot0, slot1)
 	slot0.Respones:PropertyChange("hubData")
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.top, slot0._tf)
 	slot0:clearStudents()
 

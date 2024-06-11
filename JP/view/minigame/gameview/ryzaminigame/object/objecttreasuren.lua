@@ -1,6 +1,6 @@
 slot0 = class("ObjectTreasureN", import("view.miniGame.gameView.RyzaMiniGame.object.ObjectBreakable"))
 
-function slot0.InitRegister(slot0, slot1)
+slot0.InitRegister = function(slot0, slot1)
 	uv0.super.InitRegister(slot0, slot1)
 	slot0:Register("touch", function ()
 		uv0:DeregisterAll()

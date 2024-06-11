@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"36年Z組 ニーミ先生\n\n<size=45>その四 禁断のダブルイタズラ！</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ううぅ…こ、今度こそ絶対うまくやらなきゃ――",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "ううぅ…こ、今度こそ絶対うまくやらなきゃ――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,13 +66,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "数分後・教室外",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "よし、サラトガさんはここにいるようね。それでは・・・",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "よし、サラトガさんはここにいるようね。それでは・・・",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -193,9 +193,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "（ポン！）",
 			typewriter = {
 				speed = 0.05,
@@ -219,12 +219,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "ふふん、黒板消しはあくまで囮！本命は黒板消しの裏にある艦載機の精密投下！これぞサラトガちゃんオリジナル、禁断のダブルイタズラ！へへへ、今のでびっくりした？",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ふふん、黒板消しはあくまで囮！本命は黒板消しの裏にある艦載機の精密投下！これぞサラトガちゃんオリジナル、禁断のダブルイタズラ！へへへ、今のでびっくりした？",
+			actor = 107030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -303,12 +303,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "レキシントンさん…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "レキシントンさん…",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

@@ -1,12 +1,12 @@
 return {
-	id = "W267000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W267000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "大型作戰第五章劇情已全部結束，未被選擇的結局可以前往回憶中進行查看。請前往情報面板確認後續任務。",
 			typewriter = {
 				speed = 0.05,

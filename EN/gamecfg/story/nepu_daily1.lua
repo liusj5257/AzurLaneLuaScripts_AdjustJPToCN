@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>Chapter 1 - A Wormhole To Another Dimension</size>",
@@ -33,12 +33,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "It's just as Histoire said in her message. It appears to be a wormhole that's bending space itself... But why has it popped into existence here of all places?",
 			side = 1,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "It's just as Histoire said in her message. It appears to be a wormhole that's bending space itself... But why has it popped into existence here of all places?",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 10100010,
+			nameColor = "#a9f548",
 			say = "Nep nep?!",
 			flashout = {
 				dur = 1,
@@ -180,12 +180,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "Noiiiiiiiiire?!",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Noiiiiiiiiire?!",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "SPLASSSSSHHHHH!",
 			typewriter = {
 				speed = 0.05,
@@ -274,11 +274,11 @@ return {
 			}
 		},
 		{
-			actor = 10100060,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10100060,
+			nameColor = "#a9f548",
 			say = "We can just turn into CPUs and fly to safety.",
 			flashout = {
 				dur = 0.5,
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 10100050,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10100050,
+			nameColor = "#a9f548",
 			say = "Phew... This will have to do, for now.",
 			flashout = {
 				dur = 0.5,
@@ -480,9 +480,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "KA-BAAAANG!",
 			typewriter = {
 				speed = 0.05,
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 10100050,
 			nameColor = "#ff0000",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 10100050,
 			actorName = "？？？",
 			say = "......",
 			typewriter = {
@@ -555,11 +555,11 @@ return {
 			}
 		},
 		{
-			actor = 10100060,
 			nameColor = "#ff0000",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 10100060,
 			actorName = "？？？",
 			say = "......",
 			typewriter = {
@@ -575,8 +575,8 @@ return {
 			hideOther = true,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 10100060,
 			dir = 1,
+			actor = 10100060,
 			nameColor = "#a9f548",
 			say = "Is that... Are they... Us?",
 			typewriter = {
@@ -749,17 +749,17 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = -1,
 			bgmDelay = 2,
-			say = "...And that's the gist of it. We were in some serious trouble!",
 			bgm = "story-nepu1",
+			actor = 10100010,
+			nameColor = "#a9f548",
+			say = "...And that's the gist of it. We were in some serious trouble!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -784,12 +784,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			say = "I see... Serious trouble, huh...",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I see... Serious trouble, huh...",
+			actor = 101170,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1060,12 +1060,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "There seems to be a lot of commotion going on over here... Were you two just assigned here?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "There seems to be a lot of commotion going on over here... Were you two just assigned here?",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -1144,11 +1144,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/alarm",
+			say = "WEEEEEH! WEEEEEH! WEEEEEH! ",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
-			say = "WEEEEEH! WEEEEEH! WEEEEEH! ",
+			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1171,12 +1171,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "The emergency attack siren? There's... an enemy raid incoming?!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "The emergency attack siren? There's... an enemy raid incoming?!",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1191,11 +1191,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "So this is where you all were... I was looking for you.",
 			typewriter = {
@@ -1208,11 +1208,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "I have an emergency telegram from HQ. A Mirror Sea has appeared in the vicinity of the academy's shore... A fleet must be dispatched to scout the area immediately. They're counting on us, Z23.",
 			typewriter = {
@@ -1273,15 +1273,15 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 10100010,
+			nameColor = "#a9f548",
 			say = "...Welp, they all went to fight whatever, I guess.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1306,12 +1306,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "A Mirror Sea... Those words caught my attention.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "A Mirror Sea... Those words caught my attention.",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1358,16 +1358,16 @@ return {
 			}
 		},
 		{
-			actor = 900076,
 			actorName = "？？？",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 900076,
 			nameColor = "#a9f548",
 			say = "...Just when I thought we'd caught up to them, they disappear... Sigh, can't I just catch a break for once?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1392,13 +1392,13 @@ return {
 			}
 		},
 		{
-			actor = 900077,
+			say = "I am fairly certain that as long as those two are involved, there will be breaks to catch for nobody.",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900077,
 			actorName = "？？？",
-			say = "I am fairly certain that as long as those two are involved, there will be breaks to catch for nobody.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

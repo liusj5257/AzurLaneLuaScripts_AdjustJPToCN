@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			bgm = "bgm-cccp2",
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "…ふぅ。あんたが指揮官のようね。北方連合所属の重巡タリンよ、今日はあんたじゃなくてベラルーシアの指揮下に入るわ",
-			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -54,8 +54,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "Здравствуйте、指揮官～ふふ、やっぱり通信より直接見たほうがはっきり見えますね～",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "そしてこの子はグロームキィ、今日は私達と同行するわ",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "はじめまして同志指揮官！北方連合所属のグロームキィよ！今日はよろしく！",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "又聞きとはいえ、一応あんたの指揮能力は聞き及んでいるわ。合流を決断してくれたのは英断ね",
 			typewriter = {
@@ -145,9 +145,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "自分は意見を出しただけだが、認めてくれるのは素直に嬉しい。",
 			typewriter = {
 				speed = 0.05,
@@ -175,9 +175,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "……やはり手厳しいな。",
 			typewriter = {
 				speed = 0.05,
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "「秘密領域」の場所を聞くことにした。",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "ああ、「秘密領域」はここだぞ",
 			typewriter = {
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "……あたりを見渡しても、特に景色が北方連合の極地海域から変わったわけでもない。",
 			typewriter = {
 				speed = 0.05,
@@ -234,9 +234,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "浮氷に氷山、微かに降っている雪、白一色の空。",
 			typewriter = {
 				speed = 0.05,
@@ -248,9 +248,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "「研究施設」とは聞いていたが、人工的な建築物がどこにも見当たらない。",
 			typewriter = {
 				speed = 0.05,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "……「秘密領域」が「ここ」という意味は一体…",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "指揮官に何も言ってなかったの？",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "こっちよ。そろそろ出てくると思うけど",
 			typewriter = {
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "専用の指揮艦が必要というわけか。しかし、そんなものはどこにも…",
 			typewriter = {
 				speed = 0.05,
@@ -356,9 +356,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "氷の下…？",
 			typewriter = {
 				speed = 0.05,
@@ -370,11 +370,11 @@ return {
 			}
 		},
 		{
-			say = "――――――！！！",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――――！！！",
 			flashN = {
 				color = {
 					1,
@@ -422,9 +422,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "乗っている量産艦にもなにか巨大な存在が浮かび上がった衝撃が伝わってきた…！",
 			typewriter = {
 				speed = 0.05,
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			say = "――――――",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――――",
 			flashN = {
 				color = {
 					1,

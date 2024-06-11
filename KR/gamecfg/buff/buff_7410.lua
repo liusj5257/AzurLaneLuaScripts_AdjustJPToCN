@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "贝法 监听BUFF",
 	time = 0,
+	name = "贝法 监听BUFF",
+	init_effect = "",
+	picture = "",
 	stack = 1,
 	id = 7410,
-	picture = "",
-	last_effect = "",
 	icon = 7410,
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",

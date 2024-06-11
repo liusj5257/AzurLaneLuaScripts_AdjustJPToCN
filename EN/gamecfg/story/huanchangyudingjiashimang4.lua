@@ -4,20 +4,20 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "Port - Freshwater Lake",
 			bgm = "main-chunjie3",
+			say = "Port - Freshwater Lake",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "Huan Ch'ang led the way, bringing us beneath a canopy by the lakeside.",
@@ -43,10 +43,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whoa! I never knew we had a place like this by the lake!",
 			painting = {
 				alpha = 0.3,
@@ -61,10 +61,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This looks like a great spot for fishing!",
 			painting = {
 				alpha = 0.3,
@@ -79,10 +79,10 @@ return {
 			expression = 16,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, shoot! Lady Yuen forgot to bring a fishing rod!",
 			painting = {
 				alpha = 0.3,
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "Huan Ch'ang produces a fishing rod seemingly out of nowhere.",
@@ -134,10 +134,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's a looong rod!",
 			painting = {
 				alpha = 0.3,
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 501060,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hey, do you come here to fish often, Huan?",
 			painting = {
 				alpha = 0.3,
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "Huan Ch'ang shoots me a glance.",
@@ -224,10 +224,10 @@ return {
 			expression = 15,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh! The Commander brought one, too!",
 			painting = {
 				alpha = 0.3,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -252,10 +252,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hang on, there's not just a tackle box under the canopy. There's a cooking stove and a fridge as well!",
 			painting = {
 				alpha = 0.3,
@@ -270,10 +270,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You could set up camp here, or cook food for a picnic!",
 			painting = {
 				alpha = 0.3,
@@ -288,10 +288,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Gosh. Huan Ch'ang's \"divination\" sure led us to a special spot, hm?",
 			painting = {
 				alpha = 0.3,
@@ -319,10 +319,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It IS a nice place. It's got a great atmosphere, it's compact, and it has all the equipment you need.",
 			painting = {
 				alpha = 0.3,
@@ -337,10 +337,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Say, do you come here often with the Commander?",
 			painting = {
 				alpha = 0.3,
@@ -368,10 +368,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Right. \"Occasionally.\"",
 			painting = {
 				alpha = 0.3,
@@ -480,10 +480,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahh, no wonder...",
 			painting = {
 				alpha = 0.3,
@@ -498,10 +498,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Wait, \"couldn't go home emptyhanded\"? You didn't catch a single fish that day?",
 			painting = {
 				alpha = 0.3,
@@ -542,10 +542,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I don't...",
 			painting = {
 				alpha = 0.3,
@@ -560,11 +560,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actor = 504010,
-			say = "It's fine if you don't...",
 			fontsize = 24,
+			actor = 504010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "It's fine if you don't...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,10 +574,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Enough talking! Can I fish now, Huan?",
 			painting = {
 				alpha = 0.3,
@@ -605,10 +605,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Lady Yuen wants to try, too!",
 			painting = {
 				alpha = 0.3,
@@ -629,10 +629,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yay! Thanks, Commander!",
 			painting = {
 				alpha = 0.3,
@@ -646,11 +646,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_142",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heheh! Watch this! I'm gonna catch the biggest fish you've ever seen!",
 			painting = {
 				alpha = 0.3,
@@ -661,17 +661,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -708,10 +708,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nibble! I got a nibble!",
 			painting = {
 				alpha = 0.3,
@@ -726,10 +726,10 @@ return {
 			expression = 17,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Me too!",
 			painting = {
 				alpha = 0.3,
@@ -741,8 +741,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "Huan Ch'ang's advice is interrupted by the girls both getting something on the hook. They reel in their catches – two large fish.",
@@ -755,9 +755,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 504010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "WHAT?!",
 			typewriter = {
 				speed = 0.05,
@@ -786,10 +786,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's ginormous! You were right, Huan! These are good fish!",
 			painting = {
 				alpha = 0.3,
@@ -803,11 +803,11 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_142",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Got another on the hook!",
 			painting = {
 				alpha = 0.3,
@@ -818,17 +818,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -862,8 +862,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "Shocked by their success, Huan Ch'ang starts quickly divinating.",
@@ -954,10 +954,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Go ahead!",
 			painting = {
 				alpha = 0.3,
@@ -972,10 +972,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 501060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You're on, Huan! Let's see who can catch the biggest fish!",
 			painting = {
 				alpha = 0.3,
@@ -990,11 +990,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actor = 504010,
-			say = "Heheh. I won't go easy on you.",
 			fontsize = 24,
+			actor = 504010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Heheh. I won't go easy on you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1004,11 +1004,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actor = 504010,
-			say = "I've fished with the Commander so much that I'm a fishing master now!",
 			fontsize = 24,
+			actor = 504010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I've fished with the Commander so much that I'm a fishing master now!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1039,8 +1039,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "Just like that, a fishing competition began between these two.",
@@ -1050,12 +1050,12 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, I think the moral of this story is...",
 			painting = {
 				alpha = 0.3,
@@ -1066,17 +1066,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1099,9 +1099,9 @@ return {
 			portrait = 504010,
 			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			actorName = "Huan Ch'ang",
 			blackBg = true,
+			actorName = "Huan Ch'ang",
+			hidePaintObj = true,
 			say = "Commandeeer!",
 			typewriter = {
 				speed = 0.05,

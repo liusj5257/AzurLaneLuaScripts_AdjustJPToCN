@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_345 = {}
 slot1 = slot0.word_template_345
 
-function temp()
+temp = function()
 	uv0["振"] = {
 		["蛋"] = {
 			this = true
@@ -20,7 +20,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["赈"] = {
 		["灾"] = {
 			["晚"] = {
@@ -38,7 +38,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["震"] = {
 		["棒"] = {
 			this = true
@@ -78,7 +78,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["镇"] = {
 		["压"] = {
 			this = true,
@@ -112,7 +112,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鎮"] = {
 		["壓"] = {
 			this = true
@@ -122,7 +122,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["爭"] = {
 		["鳴"] = {
 			["論"] = {
@@ -136,7 +136,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["正"] = {
 		["大"] = {
 			["光"] = {

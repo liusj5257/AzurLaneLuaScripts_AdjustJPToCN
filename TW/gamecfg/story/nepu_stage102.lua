@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE102",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE102",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "回来了……累了，睡一会…",
 			bgm = "story-nepu1",
+			actor = 101170,
+			nameColor = "#a9f548",
+			say = "回来了……累了，睡一会…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,12 +24,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			say = "拉菲酱先别睡，侦查任务在回到港区前都不算完啦！",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "拉菲酱先别睡，侦查任务在回到港区前都不算完啦！",
+			actor = 201210,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "刚在其他的侦察任务里碰上她们，就带到这边来了",
 			typewriter = {
@@ -365,11 +365,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "说起来…{namecode:98}她正在找涅普涅普妳们呢",
 			typewriter = {
@@ -382,16 +382,16 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			actorName = "{namecode:98}",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "大致情况了解了喵。各位女神，在这个世界似乎没法施展全力喵？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -416,12 +416,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "{namecode:98}知道该怎么办吗？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:98}知道该怎么办吗？",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "很简单喵，入乡随俗――制作女神们专用的舰装就好了喵",
 			typewriter = {
@@ -453,11 +453,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "这下大家就可以一起出击了喵",
 			typewriter = {
@@ -502,11 +502,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "嗯......今天估计来不及了，大家先休息喵",
 			typewriter = {
@@ -519,11 +519,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "{namecode:98}一晚上就能做好喵。好好期待喵！",
 			typewriter = {

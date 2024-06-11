@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG12",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Uncharted Summer\n\n<size=45>Coconut Desserts</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			say = "Back when I'd looked around the island before, I noticed a palm forest to the east.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "bar-soft",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Back when I'd looked around the island before, I noticed a palm forest to the east.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "When I hear that the Royal Maids were collecting ingredients for dessert there, I decide to go there myself.",
@@ -58,12 +58,12 @@ return {
 			}
 		},
 		{
-			actor = 202090,
-			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 202090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "La la la la laaaa~♪",
 			painting = {
 				alpha = 0.3,
@@ -74,17 +74,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -95,10 +95,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ooh! Are you here for ingredients, too, Master?",
 			painting = {
 				alpha = 0.3,
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -123,10 +123,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You're not? You just came to watch us work?",
 			painting = {
 				alpha = 0.3,
@@ -141,10 +141,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okaaay... But I'm happy to see you, Master!",
 			painting = {
 				alpha = 0.3,
@@ -159,10 +159,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, yeah! How about you taste-test the fresh-baked sweets me and the others made?",
 			painting = {
 				alpha = 0.3,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "Not far from Manchester, I spot the food truck the maids use for cooking on-the-go.",
@@ -185,8 +185,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "On the counter sits a drink that glows red for some reason and a dessert served in a coconut shell.",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "(\"Me and the others\"? That must mean one of those ISN'T made by Manchester!)",
@@ -215,10 +215,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Overindulging on sweets is bad for you, so pick just one, Master!",
 			painting = {
 				alpha = 0.3,
@@ -230,8 +230,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "Noticing my gaze, she brings both of the items over to me.",
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "(Manchester's food is so dangerous that she's usually forbidden from cooking. In that case...)",
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -339,8 +339,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -399,8 +399,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -411,8 +411,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -423,8 +423,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -435,13 +435,13 @@ return {
 			}
 		},
 		{
-			actor = 202090,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 202090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, Sirius made this one!",
 			painting = {
 				alpha = 0.3,
@@ -453,8 +453,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -501,8 +501,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			optionFlag = 2,

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "装填指挥·轻航",
 	cd = 0,
+	picture = "0",
+	desc = "提高舰队中轻航的装填属性",
 	painting = 1,
 	id = 1037,
-	picture = "0",
 	castCV = "skill",
-	desc = "提高舰队中轻航的装填属性",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerByType",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerByType",
 			arg_list = {
 				buff_id = 1030,
 				shipType = 6

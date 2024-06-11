@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG11",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401350,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ehh?! Funf isn't allowed to participate?",
 			bgm = "azumaster-ins",
+			actor = 401350,
+			nameColor = "#a9f548",
+			say = "Ehh?! Funf isn't allowed to participate?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 401360,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401360,
+			nameColor = "#a9f548",
 			say = "Is this the fate of those who bear the cursed eye...?! Gahh, it's so frustrating!",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 401360,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401360,
+			nameColor = "#a9f548",
 			say = "Yeah! That's a great idea!",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,14 +198,14 @@ return {
 			}
 		},
 		{
-			actor = 307100,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307100,
+			nameColor = "#a9f548",
 			say = "(Gascogne's emotion module... might be a good starting point.)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -278,8 +278,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "Oh? What are you looking at?",
 			typewriter = {
 				speed = 0.05,
@@ -293,9 +293,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 403070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "The Iron Blood's social media feed... Hey, who gave you permission to look over my shoulder?!",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -320,8 +320,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "Ah, sorry 'bout that! I didn't see anything! Come to think of it, Juustagram has been blowing up recently, hasn't it?",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "Miss Saratoga advised the idols to pay more attention to their advertising, so this is likely a product of that.",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "Disclosure of personal information in a publicly visible setting cannot be determined as invalid.",
 			typewriter = {
 				speed = 0.05,
@@ -413,8 +413,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "...",
 			typewriter = {
 				speed = 0.05,

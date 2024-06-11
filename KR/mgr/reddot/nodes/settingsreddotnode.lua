@@ -2,12 +2,12 @@ slot0 = class("SettingsRedDotNode", import(".RedDotNode"))
 slot0.CVChecked = false
 slot0.CanUpdateCV = false
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 	slot0:CheckCV()
 end
 
-function slot0.CheckCV(slot0)
+slot0.CheckCV = function(slot0)
 	if uv0.CVChecked then
 		return
 	end
@@ -31,7 +31,7 @@ function slot0.CheckCV(slot0)
 	end, 0.5, -1):Start()
 end
 
-function slot0.SetData(slot0, slot1)
+slot0.SetData = function(slot0, slot1)
 	if IsNil(slot0.gameObject) then
 		return
 	end

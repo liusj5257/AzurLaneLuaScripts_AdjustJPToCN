@@ -18,11 +18,11 @@ slot0.EFFECT_DELAY = 2
 slot0.ANIMATION_DELAY = 1
 slot0.STORY_DELAY = 3
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SecretShipyardUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.activity = getProxy(ActivityProxy):getActivityById(uv0.ACT_ID)
 	slot0.count = 0
 	slot0.bgId = 1
@@ -45,7 +45,7 @@ function slot0.init(slot0)
 	slot0.effect = slot0:findTF("effect", slot0.bg)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.buttonBack, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -83,7 +83,7 @@ function slot0.didEnter(slot0)
 	slot0:PlayStory()
 end
 
-function slot0.UpdateTask(slot0, slot1, slot2)
+slot0.UpdateTask = function(slot0, slot1, slot2)
 	slot4 = slot0:findTF("item", slot2)
 	slot6 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.count][slot1 + 1]) or slot0.taskProxy:getFinishTaskById(slot5)
 
@@ -122,7 +122,7 @@ function slot0.UpdateTask(slot0, slot1, slot2)
 	setActive(slot0:findTF("mask", slot2), slot0.taskProxy:getFinishTaskById(slot5) ~= nil)
 end
 
-function slot0.updateTaskLayers(slot0)
+slot0.updateTaskLayers = function(slot0)
 	updateActivityTaskStatus(slot0.activity)
 
 	slot0.activity = getProxy(ActivityProxy):getActivityById(uv0.ACT_ID)
@@ -130,7 +130,7 @@ function slot0.updateTaskLayers(slot0)
 	slot0:OnUpdateFlush()
 end
 
-function slot0.CheckBgId(slot0)
+slot0.CheckBgId = function(slot0)
 	slot1 = slot0.activity.data3
 
 	if slot0.taskProxy:getFinishTaskById(slot0.taskGroup[slot0.count][1]) ~= nil and slot0.taskProxy:getFinishTaskById(slot0.taskGroup[slot0.count][2]) ~= nil then
@@ -140,7 +140,7 @@ function slot0.CheckBgId(slot0)
 	return slot1
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.count = slot0.activity.data3
 
 	if slot0.bgId ~= slot0:CheckBgId() then
@@ -158,7 +158,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0.uilist:align(#slot0.taskGroup[slot0.count])
 end
 
-function slot0.ChangeBackground(slot0)
+slot0.ChangeBackground = function(slot0)
 	LeanTween.cancel(go(slot0._tf))
 	setActive(slot0.effect, true)
 	LeanTween.delayedCall(go(slot0._tf), uv0.ANIMATION_DELAY, System.Action(function ()
@@ -172,7 +172,7 @@ function slot0.ChangeBackground(slot0)
 	end))
 end
 
-function slot0.PlayStory(slot0)
+slot0.PlayStory = function(slot0)
 	if checkExist(slot0.activity:getConfig("config_client").story, {
 		slot0.bgId - 1
 	}, {
@@ -182,7 +182,7 @@ function slot0.PlayStory(slot0)
 	end
 end
 
-function slot0.checkTaskFinish(slot0)
+slot0.checkTaskFinish = function(slot0)
 	if slot0.count < #slot0.taskGroup then
 		return false
 	end
@@ -196,11 +196,11 @@ function slot0.checkTaskFinish(slot0)
 	return true
 end
 
-function slot0.checkMinigame(slot0)
+slot0.checkMinigame = function(slot0)
 	return pg.mini_game[uv0.GAME_ID] ~= nil
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	LeanTween.cancel(go(slot0._tf))
 end
 

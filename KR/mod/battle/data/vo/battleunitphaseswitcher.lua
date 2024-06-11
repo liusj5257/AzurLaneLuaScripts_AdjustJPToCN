@@ -6,7 +6,7 @@ slot0.Battle.BattleUnitPhaseSwitcher = class("BattleUnitPhaseSwitcher")
 slot0.Battle.BattleUnitPhaseSwitcher.__name = "BattleUnitPhaseSwitcher"
 slot3 = slot0.Battle.BattleUnitPhaseSwitcher
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	slot0._client = slot1
 
 	slot0._client:AddPhaseSwitcher(slot0)
@@ -14,7 +14,7 @@ function slot3.Ctor(slot0, slot1)
 	slot0._randomWeaponList = {}
 end
 
-function slot3.Update(slot0)
+slot3.Update = function(slot0)
 	slot1 = true
 	slot2 = nil
 
@@ -50,7 +50,7 @@ function slot3.Update(slot0)
 	end
 end
 
-function slot3.UpdateHP(slot0, slot1)
+slot3.UpdateHP = function(slot0, slot1)
 	slot2 = true
 	slot3 = nil
 
@@ -71,7 +71,7 @@ function slot3.UpdateHP(slot0, slot1)
 	end
 end
 
-function slot3.SetTemplateData(slot0, slot1)
+slot3.SetTemplateData = function(slot0, slot1)
 	slot0._phaseList = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -81,11 +81,11 @@ function slot3.SetTemplateData(slot0, slot1)
 	slot0:switch(0)
 end
 
-function slot3.ForceSwitch(slot0, slot1)
+slot3.ForceSwitch = function(slot0, slot1)
 	slot0:switch(slot1)
 end
 
-function slot3.switch(slot0, slot1)
+slot3.switch = function(slot0, slot1)
 	if slot1 == -1 or slot0._phaseList[slot1] == nil then
 		return
 	end
@@ -165,7 +165,7 @@ function slot3.switch(slot0, slot1)
 	end
 end
 
-function slot3.packagePhaseSwitchParam(slot0, slot1)
+slot3.packagePhaseSwitchParam = function(slot0, slot1)
 	slot0._currentPhaseSwitchParam = {}
 
 	if type(slot1.switchType) == "table" then

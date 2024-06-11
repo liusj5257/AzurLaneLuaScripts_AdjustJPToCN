@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "场地buff",
 	time = 0,
-	color = "yellow",
+	name = "场地buff",
+	init_effect = "",
+	id = 800642,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800642,
+	color = "yellow",
 	icon = 800642,
 	last_effect = "",
 	effect_list = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"我的美好回憶\n\n<size=45>一 小小的午餐會</size>",
@@ -17,9 +17,9 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgName = "bg_story_school",
 			say = "某日，港區・學園中庭",
+			bgName = "bg_story_school",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			say = "利安得做的菜果然還是那麼好吃呢。",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "利安得做的菜果然還是那麼好吃呢。",
+			actor = 202030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 202010,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202010,
+			nameColor = "#a9f548",
 			say = "阿賈克斯妳也該學學做飯了吧？每次都讓指揮官做…",
 			typewriter = {
 				speed = 0.05,
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "不過本人也樂在其中，其實也沒什麼不好的嘛？",
 			typewriter = {
 				speed = 0.05,
@@ -105,12 +105,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "對吧？別看這樣，我家的指揮官可是很能幹的呢。",
 			typewriter = {
 				speed = 0.05,
@@ -122,12 +122,12 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "是、是這樣嗎…？",
 			typewriter = {
 				speed = 0.05,
@@ -139,12 +139,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "呵呵♪究竟是怎麼回事呢～？",
 			typewriter = {
 				speed = 0.05,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "阿賈克斯說著把剛喝了一口的寶特瓶遞了過來",
 			typewriter = {
 				speed = 0.05,
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#a9f548",
 			say = "來喝一口？還是說…想要我餵你喝？",
 			typewriter = {
 				speed = 0.05,
@@ -303,9 +303,9 @@ return {
 			actor = 202030,
 			side = 2,
 			bgName = "bg_story_school",
-			hideOther = true,
 			dir = 1,
 			blackBg = true,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "敬請期待吧，呵呵呵♪",
 			typewriter = {

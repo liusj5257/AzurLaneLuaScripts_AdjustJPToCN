@@ -1,18 +1,18 @@
 return {
-	id = "WEICENGHUNHE7",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "hunhe-battle",
 			actor = 101440,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "不值一提，不值一提~塞壬艦隊全部消滅乾淨囉~",
-			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "嗯…無畏收到，企業前輩行蹤也麻煩妳們留意一下",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "我也讓布雷默頓她們留意企業前輩的動向了，不過要塞方面匯報這段時間並沒有企業通過運河的跡象…",
 			typewriter = {
 				speed = 0.05,
@@ -102,15 +102,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 101440,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哎、哎？奇怪，以今天的天氣來說，現在不該出現這麼濃厚的海霧啊。",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -133,9 +133,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "不知不覺中，原本晴朗的海面被厚重的海霧覆蓋了。",
 			typewriter = {
 				speed = 0.05,
@@ -164,9 +164,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "巴爾的摩艦隊失踪之前也曾經遭遇了大面積的海霧…難道說？ ！",
 			dialogShake = {
 				speed = 0.09,

@@ -1,6 +1,6 @@
 slot0 = class("SkinTemplatePage", import("view.base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.dayTF = slot0:findTF("day", slot0.bg)
 	slot0.item = slot0:findTF("item", slot0.bg)
@@ -10,7 +10,7 @@ function slot0.OnInit(slot0)
 	setActive(slot0.item, false)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.nday = 0
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskGroup = slot0.activity:getConfig("config_data")
@@ -18,7 +18,7 @@ function slot0.OnDataSetting(slot0)
 	return updateActivityTaskStatus(slot0.activity)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = slot0.uilist
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -28,7 +28,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.UpdateTask(slot0, slot1, slot2)
+slot0.UpdateTask = function(slot0, slot1, slot2)
 	slot4 = slot0:findTF("item", slot2)
 	slot6 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.nday][slot1 + 1]) or slot0.taskProxy:getFinishTaskById(slot5)
 
@@ -61,7 +61,7 @@ function slot0.UpdateTask(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.nday = slot0.activity.data3
 
 	slot0:PlayStory()
@@ -73,7 +73,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0.uilist:align(#slot0.taskGroup[slot0.nday])
 end
 
-function slot0.PlayStory(slot0)
+slot0.PlayStory = function(slot0)
 	if checkExist(slot0.activity:getConfig("config_client").story, {
 		slot0.nday
 	}, {
@@ -83,13 +83,13 @@ function slot0.PlayStory(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	eachChild(slot0.items, function (slot0)
 		Destroy(slot0)
 	end)
 end
 
-function slot0.GetProgressColor(slot0)
+slot0.GetProgressColor = function(slot0)
 	return nil
 end
 

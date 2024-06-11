@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"벚꽃놀이 대소동\n\n<size=45>제1장 - 이른 봄 날씨</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "하아……모르는 새 금방 또 따뜻해졌네……",
 			bgm = "story-1",
+			actor = 307030,
+			nameColor = "#92fc63",
+			say = "하아……모르는 새 금방 또 따뜻해졌네……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actor = 307040,
+			say = "우와! 호쇼 씨, 대단해요! 이렇게까지 인기척을 지울 수 있다니!",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "우와! 호쇼 씨, 대단해요! 이렇게까지 인기척을 지울 수 있다니!",
+			actor = 307040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

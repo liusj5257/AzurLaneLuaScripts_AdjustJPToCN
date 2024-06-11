@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Set Sail! An Inspiration-Seeking Journey\n\n<size=45>1 Writer's Block</size>",
@@ -14,28 +14,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Port - Office",
-			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -46,10 +46,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, I've brought you the itinerary for next week. Please go over it.",
 			painting = {
 				alpha = 0.3,
@@ -61,8 +61,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Hai Tien, the newly-appointed secretary ship, hands me a schedule for the upcoming week as well as the corresponding task list.",
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "The schedule is packed with detailed notes, and the task list is numbered in order of priority. Everything is logically arranged and beyond reproach.",
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "However–",
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "The super-focused girl doesn't seem to notice that there are some peculiar strips of paper stuck to the documents she just handed me.",
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "After gathering my thoughts, I decide to...",
@@ -241,10 +241,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh? What do you mean by...",
 			painting = {
 				alpha = 0.3,
@@ -259,10 +259,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "D-did I do something to displease you? Have I failed to meet your expectations as secretary ship in any way?",
 			painting = {
 				alpha = 0.3,
@@ -301,10 +301,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Umm... If that's the case, I will accept your gracious offer.",
 			painting = {
 				alpha = 0.3,
@@ -318,11 +318,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_story_task_2",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...So that's basically the gist of things.",
 			painting = {
 				alpha = 0.3,
@@ -333,17 +333,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -354,10 +354,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I've been going through a bit of writer's block, and now I can't come up with anything remotely satisfying anymore...",
 			painting = {
 				alpha = 0.3,
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "The girl shakes her head helplessly.",
@@ -395,10 +395,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I already tried that, but it didn't do anything.",
 			painting = {
 				alpha = 0.3,

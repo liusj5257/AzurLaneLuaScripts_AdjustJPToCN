@@ -1,15 +1,15 @@
 return {
-	id = "W1005",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1005",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "素材が不足しているため、装置を起動できません",
 			typewriter = {
 				speed = 0.05,

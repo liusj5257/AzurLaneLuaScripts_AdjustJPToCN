@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE29",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_starsea_core_1",
-			stopbgm = true,
-			say = "Beep... Beep... Beep...",
 			bgmDelay = 2,
 			bgm = "battle-starsea-elec",
+			stopbgm = true,
+			say = "Beep... Beep... Beep...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -27,17 +27,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "(Things don't feel off like they do inside the Reality Lens. I must be back in the Sea of Stars.)",
 			typewriter = {
@@ -58,10 +58,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander?! Thank goodness... You're finally awake!",
 			painting = {
 				alpha = 0.3,
@@ -73,8 +73,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -86,10 +86,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Vital check complete. The Commander's mind and body seem to be in perfect shape.",
 			painting = {
 				alpha = 0.3,
@@ -104,10 +104,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, this is wonderful news... Welcome home, Commander.",
 			painting = {
 				alpha = 0.3,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "...............",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "(It feels like I just had the longest dream.)",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "(But I remember everything clearly, as if it happened in reality.)",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "(Still, there's someone I'm more worried about than myself.)",
 			typewriter = {
@@ -174,10 +174,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She's fine. She woke up before you, and is doing perfectly fine.",
 			painting = {
 				alpha = 0.3,
@@ -192,10 +192,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The aberrant data in her hull is all gone now too.",
 			painting = {
 				alpha = 0.3,
@@ -207,12 +207,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
-			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But seriously, when are you going to worry about yourself before you worry about other people?",
 			painting = {
 				alpha = 0.3,
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -237,10 +237,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A lot has happened here while you were in the Reality Lens, Commander.",
 			painting = {
 				alpha = 0.3,
@@ -255,10 +255,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 112010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Someone gave Helena the access code to the Sea of Stars, allowing us to halt the Reality Lens.",
 			painting = {
 				alpha = 0.3,
@@ -273,10 +273,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's what allowed us to save you. So... Helena, would you like to explain?",
 			painting = {
 				alpha = 0.3,
@@ -291,10 +291,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Umm...",
 			painting = {
 				alpha = 0.3,
@@ -306,8 +306,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"It was the other Helena, right? Helena META told you?\"",
 			typewriter = {
@@ -319,10 +319,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Y-yes, Commander! How did you know that?",
 			painting = {
 				alpha = 0.3,
@@ -334,8 +334,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"Let's just say, a lot has happened to me, too.\"",
 			typewriter = {
@@ -347,10 +347,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is she one of the META shipgirls you met alongside New Jersey?",
 			painting = {
 				alpha = 0.3,
@@ -362,8 +362,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"Like I said, a lot has happened.\"",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"We can talk more about it later.\"",
 			typewriter = {
@@ -382,8 +382,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"TB, are you there?\"",
 			typewriter = {
@@ -392,13 +392,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
 			voice = "event:/tb/15/tb-15",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "I am here.",
 			painting = {
@@ -411,8 +411,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"Does the name Zero sound familiar to you?\"",
 			typewriter = {
@@ -421,13 +421,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "Query received. Searching data.",
 			painting = {
@@ -440,13 +440,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			nameColor = "#A9F548FF",
-			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "TB",
 			side = 2,
+			bgName = "bg_starsea_core_1",
+			dir = 1,
+			actor = 900284,
+			actorName = "TB",
+			hidePaintObj = true,
 			say = "5,320,000,000 results found. I suggest narrowing down your search.",
 			painting = {
 				alpha = 0.3,
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"Can you narrow it down to individuals you personally know?\"",
 			typewriter = {
@@ -468,13 +468,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "Query received. Searching data.",
 			painting = {
@@ -487,13 +487,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			nameColor = "#A9F548FF",
-			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "TB",
 			side = 2,
+			bgName = "bg_starsea_core_1",
+			dir = 1,
+			actor = 900284,
+			actorName = "TB",
+			hidePaintObj = true,
 			say = "No results found. No individual with those features exists in my records.",
 			painting = {
 				alpha = 0.3,
@@ -505,8 +505,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"I guess it couldn't be that easy...\"",
 			typewriter = {
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"One more question. I think this one's something a bit more manageable.\"",
 			typewriter = {
@@ -525,8 +525,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"TB, do you have any logs or data concerning my time in the Reality Lens?\"",
 			typewriter = {
@@ -535,13 +535,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
 			voice = "event:/tb/15/tb-15",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "Due to data overflows that occurred during the experiment, searching and analyzing the logs would be time-consuming at this point.",
 			painting = {
@@ -554,13 +554,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			nameColor = "#A9F548FF",
-			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "TB",
 			side = 2,
+			bgName = "bg_starsea_core_1",
+			dir = 1,
+			actor = 900284,
+			actorName = "TB",
+			hidePaintObj = true,
 			say = "Once I have organized the data in question, I can begin analysis.",
 			painting = {
 				alpha = 0.3,
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"Is there anything on... Type II rigging?\"",
 			typewriter = {
@@ -582,13 +582,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "Query received. Searching data.",
 			painting = {
@@ -601,13 +601,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			dir = 1,
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "Found analyzed data regarding Type II rigging.",
 			painting = {
@@ -620,13 +620,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			nameColor = "#A9F548FF",
-			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "TB",
 			side = 2,
+			bgName = "bg_starsea_core_1",
+			dir = 1,
+			actor = 900284,
+			actorName = "TB",
+			hidePaintObj = true,
 			say = "The data is broken up into five blocks based on the current naming schemes: Yorktown, Hornet, Langley, Northampton, and Hammann.",
 			painting = {
 				alpha = 0.3,
@@ -638,8 +638,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"Anything on Laffey?\"",
 			typewriter = {
@@ -648,13 +648,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			nameColor = "#A9F548FF",
-			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "TB",
 			side = 2,
+			bgName = "bg_starsea_core_1",
+			dir = 1,
+			actor = 900284,
+			actorName = "TB",
+			hidePaintObj = true,
 			say = "No data exists on Type II rigging concerning Laffey. Would you like me to conduct another search?",
 			painting = {
 				alpha = 0.3,
@@ -666,8 +666,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "(Unlike the others, I only interacted with her for a moment. It made sense that there would be no data on her.)",
 			typewriter = {
@@ -676,8 +676,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "(But that's no problem. With this data...)",
 			typewriter = {
@@ -686,12 +686,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_starsea_core_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander... What's a Type II rigging?",
 			painting = {
 				alpha = 0.3,
@@ -703,8 +703,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "...............",
 			typewriter = {
@@ -723,8 +723,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"Anyway, we need to call Saratoga and have her come to the Sea of Stars ASAP.\"",
 			typewriter = {
@@ -733,8 +733,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "\"We're going to save Yorktown and Lexington.\"",
 			typewriter = {

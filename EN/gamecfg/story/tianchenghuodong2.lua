@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "nagato-map",
 			dir = 1,
 			say = "I am Nagato, the flagship of the Combined Fleet! I will be the referee for this year's Naval Exercises!",
+			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,9 +70,9 @@ return {
 		{
 			actor = 305050,
 			nameColor = "#a9f548",
+			dir = 1,
 			withoutActorName = true,
 			side = 2,
-			dir = 1,
 			say = "The flagship of the Combined Fleet and shrine maiden of the Sakura Empire, Nagato, gazed at all the ships in attendance for the wargames.",
 			typewriter = {
 				speed = 0.05,
@@ -99,10 +99,10 @@ return {
 			}
 		},
 		{
-			actorName = "Audience",
 			nameColor = "#a9f548",
-			side = 2,
+			actorName = "Audience",
 			dir = 1,
+			side = 2,
 			say = "!!!",
 			dialogShake = {
 				speed = 0.09,
@@ -122,8 +122,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "Nagato-sama's... next flagship?!",
 			typewriter = {
 				speed = 0.05,

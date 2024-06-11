@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA22",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			bgm = "sk-az-battle",
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "やったぁ！",
-			bgm = "sk-az-battle",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -40,8 +40,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "後はお前だけだ！覚悟しろよ！！",
 			painting = {
@@ -80,9 +80,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_kagura_2",
 			actor = 11000030,
-			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "あ、待て！逃がすかっ！！",
 			painting = {
@@ -94,17 +94,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -124,27 +124,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
-			say = "天守閣奥の間",
 			bgm = "sk-az-battle",
+			say = "天守閣奥の間",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -155,8 +155,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "雪不帰さん、大丈夫ですか！？",
 			painting = {
@@ -171,9 +171,9 @@ return {
 		{
 			actor = 11000050,
 			side = 2,
-			bgName = "star_level_bg_111",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_111",
 			say = "ううん……",
 			painting = {
 				alpha = 0.3,
@@ -188,8 +188,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "はいはい、ちょっと見せてね…瞳孔反応、良し。脈拍、良し。呼吸、良し",
 			painting = {
@@ -205,8 +205,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "……うん、軽微な傷は見られるけど、無事よ。母港でしばらく休養したらすぐ治るわ",
 			painting = {
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "本当に…良かった……",
 			painting = {
@@ -239,8 +239,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
 			say = "さぁ、余計なことが起こる前にここから脱出よっ！",
 			painting = {
@@ -256,8 +256,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
 			say = "死なば諸共ぉ～とか、最後の最後でお城大爆発！とか…セイレーンのことだから無いとは言えないし！",
 			painting = {
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			say = "――",
 			typewriter = {
@@ -283,8 +283,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000060,
 			dir = 1,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "え？なんですか……！？雪不帰さんの…身体…が……",
 			painting = {
@@ -300,8 +300,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "雪不帰さん、気がついて…キャー！",
 			painting = {
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,11 +324,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
-			say = "―――――！！！",
 			soundeffect = "event:/battle/boom2",
+			say = "―――――！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,9 +376,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_111",
 			actor = 11000040,
-			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "雪不帰さんが…私たちに…攻撃…を…！？",
 			painting = {
@@ -390,17 +390,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -411,8 +411,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "いえ、彼女はまだ覚醒していないわ。しかし、操られている様子もない…本能か…何か自動的な……",
 			painting = {
@@ -428,8 +428,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
 			say = "くっ、やっぱあったじゃないセイレーンの置き土産！",
 			painting = {
@@ -445,8 +445,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#A9F548FF",
 			say = "もぅっ！それも爆破崩壊オチじゃなくて味方暴走オチとか……安っぽいにも程があるっ！！",
 			painting = {
@@ -462,8 +462,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "雪不帰さん！気を確かに！",
 			painting = {

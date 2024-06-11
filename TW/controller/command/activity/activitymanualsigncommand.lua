@@ -1,6 +1,6 @@
 slot0 = class("ActivityManualSignCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if not getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id) or slot4:isEnd() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 
@@ -48,7 +48,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.HandleSign(slot0, slot1)
+slot0.HandleSign = function(slot0, slot1)
 	slot2 = getProxy(ActivityProxy)
 	slot3 = slot2:getActivityById(slot1)
 
@@ -56,7 +56,7 @@ function slot0.HandleSign(slot0, slot1)
 	slot2:updateActivity(slot3)
 end
 
-function slot0.HandleGetAward(slot0, slot1)
+slot0.HandleGetAward = function(slot0, slot1)
 	slot2 = getProxy(ActivityProxy)
 	slot3 = slot2:getActivityById(slot1)
 

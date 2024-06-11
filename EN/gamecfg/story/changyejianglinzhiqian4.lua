@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHANGYEJIANGLINZHIQIAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHANGYEJIANGLINZHIQIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -31,26 +31,26 @@ return {
 			}
 		},
 		{
-			bgm = "story-roma-outside",
+			hidePaintEquip = true,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			bgmDelay = 1,
+			bgm = "story-roma-outside",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Inside the breakroom, the Vichya Dominion shipgirl Foch was diligently mopping the floor.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "Sitting by a window not far from her was Joffre, engrossed in a book and completely indifferent to the girl trying to get her attention.",
 			hidePaintEquip = true,
+			say = "Sitting by a window not far from her was Joffre, engrossed in a book and completely indifferent to the girl trying to get her attention.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,14 +133,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I would argue it's tidy enough as it is.",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I would argue it's tidy enough as it is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,14 +170,14 @@ return {
 			}
 		},
 		{
-			actor = 903010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Therefore, we shouldn't bother? Are you implying you've heard something through the Tribunal's grapevine?",
 			hidePaintEquip = true,
+			actor = 903010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Therefore, we shouldn't bother? Are you implying you've heard something through the Tribunal's grapevine?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,14 +188,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I'm not. I'm simply speculating based on recent events.",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I'm not. I'm simply speculating based on recent events.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,14 +225,14 @@ return {
 			}
 		},
 		{
-			actor = 903010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 903010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Last I heard, she's on a sightseeing tour in Sardegna.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,14 +243,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_502",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 903010,
-			side = 2,
-			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And, in two days, she's expected to appear for the Expo's closing ceremony.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,14 +261,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Mhm. Do you know when Kersaint will arrive?",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Mhm. Do you know when Kersaint will arrive?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,14 +355,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Why? Because she's Lady Clemenceau's right-hand woman. She never acts alone under normal circumstances.",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Why? Because she's Lady Clemenceau's right-hand woman. She never acts alone under normal circumstances.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,14 +373,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Unless...",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Unless...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,14 +410,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "It has happened before. The last time was when she acted alone in Toulon, a few years ago.",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "It has happened before. The last time was when she acted alone in Toulon, a few years ago.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,14 +447,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "What's more, Lady Jean Bart also traveled to Toulon a few days prior at Lady Clemenceau's request.",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "What's more, Lady Jean Bart also traveled to Toulon a few days prior at Lady Clemenceau's request.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,11 +468,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actor = 903010,
-			say = "Huh. Yeah, that's an eyebrow-raiser... So, armed with this information, what do you want me to do?",
 			hidePaintEquip = true,
+			actor = 903010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Huh. Yeah, that's an eyebrow-raiser... So, armed with this information, what do you want me to do?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,14 +498,14 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Secondly...",
 			hidePaintEquip = true,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Secondly...",
 			painting = {
 				alpha = 0.3,
 				time = 1

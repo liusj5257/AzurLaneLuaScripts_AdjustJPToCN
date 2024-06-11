@@ -1,7 +1,7 @@
 return {
-	time = 10,
-	name = "极限充能",
 	init_effect = "",
+	name = "极限充能",
+	time = 10,
 	stack = 1,
 	id = 542030,
 	picture = "",
@@ -13,8 +13,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.4
+				number = 0.4,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.4
+				number = 0.4,
+				attr = "injureRatio"
 			}
 		}
 	}

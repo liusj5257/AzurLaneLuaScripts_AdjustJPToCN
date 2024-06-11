@@ -1,10 +1,10 @@
 slot0 = class("ShipHuntingRangeView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShipHuntingRangeView"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.huntingRange = slot0._tf
 
 	setActive(slot0.huntingRange, false)
@@ -18,11 +18,11 @@ function slot0.OnInit(slot0)
 	slot0.onSelected = false
 end
 
-function slot0.SetShareData(slot0, slot1)
+slot0.SetShareData = function(slot0, slot1)
 	slot0.shareData = slot1
 end
 
-function slot0.GetShipVO(slot0)
+slot0.GetShipVO = function(slot0)
 	if slot0.shareData and slot0.shareData.shipVO then
 		return slot0.shareData.shipVO
 	end
@@ -30,7 +30,7 @@ function slot0.GetShipVO(slot0)
 	return nil
 end
 
-function slot0.DisplayHuntingRange(slot0)
+slot0.DisplayHuntingRange = function(slot0)
 	slot0.onSelected = true
 	slot1 = slot0:GetShipVO()
 
@@ -50,7 +50,7 @@ function slot0.DisplayHuntingRange(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.huntingRange)
 end
 
-function slot0.UpdateHuntingRange(slot0, slot1, slot2)
+slot0.UpdateHuntingRange = function(slot0, slot1, slot2)
 	for slot7 = 0, slot0.cellRoot.childCount - 1 do
 		setActive(slot0:findTF("activate", slot3:GetChild(slot7)), false)
 	end
@@ -82,14 +82,14 @@ function slot0.UpdateHuntingRange(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.HideHuntingRange(slot0)
+slot0.HideHuntingRange = function(slot0)
 	setActive(slot0.huntingRange, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.huntingRange, slot0._tf)
 
 	slot0.onSelected = false
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:HideHuntingRange()
 
 	slot0.shareData = nil

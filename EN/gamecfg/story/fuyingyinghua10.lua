@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA10",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "story-4",
 			actor = 302210,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Visitors from Iron Blood, I bid you welcome to the Diadem of Light.",
-			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "I am Noshiro, Agano-class light cruiser. I've been waiting for your arrival.",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "It is our honor as fellow members of the Crimson Axis to have been invited here.",
 			paintingFadeOut = {
 				time = 0.5,
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "We are glad to hear it. Now, if you would please follow me, I shall guide you to your accommodations for the–",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "However, that is only required of citizens of the Sakura Empire. We will not force our guests to take part in such a thing.",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "That would be difficult to make happen...",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "...Difficult, but not impossible. Without a doubt, a host's job is to make their guests feel welcome. And if that is what you desire, then we can do so.",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "However, I'm a little rusty, so you'll have to forgive me. Please brace yourselves for combat.",
 			typewriter = {
 				speed = 0.05,

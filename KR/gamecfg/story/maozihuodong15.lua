@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MAOZIHUODONG15",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701030,
 			dir = 1,
+			bgm = "bgm-cccp",
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "오래 기다렸지! 노스 유니온 주력 함대, 중요한 시기에 등장!",
-			bgm = "bgm-cccp",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,8 +28,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "…아 그래. 대 핀치라는 거지. 타슈켄트가 구해줄게.",
 			typewriter = {
@@ -45,8 +45,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "하하하하! 이게 바로 신형 세이렌이라는 건가. 꽤 괜찮아 보이는데!",
 			typewriter = {
@@ -62,8 +62,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			nameColor = "#a9f548",
 			say = "кролик убийца, 몸이 근질근질해.",
 			typewriter = {
@@ -79,8 +79,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "아브로라, 파먀티 메르쿠리야. 미안하다. 저쪽을 처리하는데 생각보다 시간이 많이 걸렸어. 하지만 제때 도착한 모양이다.",
 			typewriter = {
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -126,8 +126,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "후후, 지휘관이 놀라서 굳어버린 모양이네? 우리가 왔다는 충격이 너무 큰걸까?",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "드디어 왔구나! 하마터면 큰일날 뻔했다구. 우우우…",
 			typewriter = {
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccp_7",
-			actorName = "노스 유니온",
 			dir = 1,
+			actorName = "노스 유니온",
 			say = "Ура!",
 			effects = {
 				{

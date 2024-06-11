@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENDUHUIYIN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENDUHUIYIN25",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "「фатальная ошибка」",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "echo-loop",
+			say = "「фатальная ошибка」",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "「███解除：89.9％」",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_deepecho_10",
+			side = 2,
+			dir = 1,
 			say = "喀琅施塔得睜開雙眼，這裡是蘇麗珂號的科研艙。",
 			flashin = {
 				delay = 1,
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "眼前依然是熟悉的場景，不過似乎有哪裡不太一樣了。",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "無人回應。",
 			typewriter = {
 				speed = 0.05,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "在一片昏暗之中，只能聽到設備運行發出的低沉噪音。",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -206,13 +206,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_deepecho_10",
+			side = 2,
+			dir = 1,
 			say = "蘇麗珂號·控制室",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -237,8 +237,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -285,13 +285,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_deepecho_10",
+			side = 2,
+			dir = 1,
 			say = "在所有試圖與外界取得聯繫的手段均以失敗告終後，喀琅施塔得返回了科研艙。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -412,9 +412,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "螢幕上的一行行代碼不斷刷新著，同步程序再一次啟動了。",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -442,9 +442,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "畫面定格在最終的確認介面，喀琅施塔得的手懸停在按鈕上方。",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -472,8 +472,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -520,8 +520,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			bgName = "star_level_bg_1104",
 			flashin = {
 				delay = 1,

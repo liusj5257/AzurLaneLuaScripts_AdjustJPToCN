@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA31",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA31",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "holo-inochi-inst",
 			dir = 1,
 			say = "「ほんとにいいの？」「もう間に合わないよ？」「この先は地獄だよ？」",
+			bgm = "holo-inochi-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +55,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "ちょっと待って…まつりが作った看板には「ほんとにいいの？」「まだ間に合う」「もう次はないよ」って書いてあるはず…",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "それってまさか……",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			actor = 10500040,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "夏色まつり、ホロライブの中で一番好きな女の子を答えよ！",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "あれは……まつりの偽物！？",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "ま　つ　り",
 			say = "偽物？本物ならこの質問に答えるはずよ？さあ、ホロライブで一番好きな女の子はだれか答えよ！",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "うーん……",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "ま　つ　り",
 			say = "答えられないわね！それはつまりあなたこそ……",
 			typewriter = {
@@ -199,11 +199,11 @@ return {
 			expression = 2,
 			side = 1,
 			actorName = "ま　つ　り",
-			actor = 10500040,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 10500040,
 			nameColor = "#ff5c5c",
 			say = "うにゃ！？",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "ま　つ　り",
 			say = "惑わされなかった…だと…？嘘だ！！",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "この鏡面海域の謎を解いて、そしてこの「ま　つ　り」とかいう偽物を倒して、ホロライブのみんなのところに戻るよ！",
 			typewriter = {
 				speed = 0.05,

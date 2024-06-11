@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10500040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-tokiwa",
 			dir = 1,
 			say = "ただいま隊長〜ピュリっちたちは元気？",
+			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "まつりちゃん！ずっと帰ってこなくて心配したよ。フブキちゃんとミオちゃんも無事でよかった！",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち？",
 			dir = 1,
+			actorName = "ピュリっち？",
 			say = "おおまつり帰ってきた！あくあの艤装もテスト終了したばかりよ～隣にいるのははぐれた子かな？",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "うん！こちらは白上フブキと大神ミオだよ。",
 			typewriter = {
 				speed = 0.05,
@@ -74,8 +74,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "そしてこちらは戦いで助けてくれた江風さんと瑞鶴さん、新しくレジスタンスに参加する戦力だよ！",
 			typewriter = {
 				speed = 0.05,
@@ -90,8 +90,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち？",
 			dir = 1,
+			actorName = "ピュリっち？",
 			say = "ウェルカーーーム！これでまた戦力アップだ！",
 			typewriter = {
 				speed = 0.05,
@@ -163,14 +163,14 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "ピュリファイアーが…記憶喪失？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -213,8 +213,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち？",
 			dir = 1,
+			actorName = "ピュリっち？",
 			say = "それからまつりとあくあを助けてこの基地にやってきたってわけ",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "ちょっと待って！こんなに可愛いピュリっちがそんな事するわけないよ！きっとよく似た誰かがやったんだよ！",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち？",
 			dir = 1,
+			actorName = "ピュリっち？",
 			say = "あのぉ、私って本当にひどいことしてたの？ま、別にボディ一つぐらいどうでもいいし、味方だって証明した方がいいなら今から外にいるテスっちと心中してもいいけど？",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "よかった。さっきの江風にはびっくりしちゃったよ…今はみんな仲間だよね？",
 			typewriter = {
 				speed = 0.05,
@@ -412,8 +412,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち？",
 			dir = 1,
+			actorName = "ピュリっち？",
 			say = "ん？これから二人の艤装も用意するよ？調査は人手が多いほうがいいでしょ？ほかにも仲間がはぐれてるらしいし",
 			typewriter = {
 				speed = 0.05,
@@ -458,8 +458,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "あやめちゃんには鬼神の力があるし、シオンちゃんは魔法が使えるから、この二人はきっと大丈夫。そら先輩は…そら先輩だからきっと大丈夫！なんとなくね",
 			typewriter = {
 				speed = 0.05,
@@ -489,8 +489,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち？",
 			dir = 1,
+			actorName = "ピュリっち？",
 			say = "んじゃ決まりね！艤装ありの子は出払って仲間捜索、可哀想なピュリっちはお留守番。ミオとフブキの艤装も作らなきゃならんしね",
 			typewriter = {
 				speed = 0.05,
@@ -520,8 +520,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "物資回収は得意だから、このあくあさまに任せて〜",
 			typewriter = {
 				speed = 0.05,
@@ -551,8 +551,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "ジャベリンちゃん、きっと良いお嫁さんになるな……",
 			typewriter = {
 				speed = 0.05,

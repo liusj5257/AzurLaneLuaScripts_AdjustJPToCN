@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"新年的祝福\n\n<size=45>七 新年之祝</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 312011,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "呼喵！不知不覺，時間已經很晚了喵！",
 			bgm = "main-newyear",
+			actor = 312011,
+			nameColor = "#a9f548",
+			say = "呼喵！不知不覺，時間已經很晚了喵！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -105,8 +105,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 102141,
 			dir = 1,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "新年的願望嗎？如果真的能實現的話……",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			actor = 102141,
 			dir = 1,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "嗯嗯（搖搖頭）沒什麼。新年我也會繼續以大姐頭為目標加油的！",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -230,15 +230,15 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_101",
-			actorName = "{namecode:151}",
 			dir = 1,
+			actorName = "{namecode:151}",
+			bgName = "star_level_bg_101",
 			actor = 399021,
 			nameColor = "#a9f548",
 			say = "港區的神社我還是第一次來，沒想到竟然如此氣派！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,11 +263,11 @@ return {
 			}
 		},
 		{
-			actor = 399011,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 2,
+			bgName = "star_level_bg_101",
 			dir = 1,
+			actor = 399011,
 			actorName = "{namecode:152}",
 			say = "港區之內也有如此虔誠的信徒，神明大人一定會護佑我們的。",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -347,9 +347,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_101",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -357,15 +357,15 @@ return {
 			}
 		},
 		{
-			actor = 102132,
 			side = 2,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102132,
+			nameColor = "#a9f548",
 			say = "啊呀，大家都用了差不多的時間呢！都許了什麼樣的願望呀？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -409,8 +409,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_101",
-			actor = 205062,
 			dir = 1,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "無論在哪裡，祈禱快樂和健康這一點都是不會變的吧。新年快樂！",
 			typewriter = {
@@ -423,11 +423,11 @@ return {
 			}
 		},
 		{
-			actor = 399011,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 2,
+			bgName = "star_level_bg_101",
 			dir = 1,
+			actor = 399011,
 			actorName = "{namecode:152}",
 			say = "是啊，希望今年也能在大家的努力下，度過平安祥和的一年",
 			typewriter = {
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "……呵呵呵",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -482,8 +482,8 @@ return {
 			}
 		},
 		{
-			actorName = "眾人",
 			nameColor = "#a9f548",
+			actorName = "眾人",
 			bgName = "star_level_bg_101",
 			side = 2,
 			dir = 1,
@@ -499,12 +499,12 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "喵♪今年似乎也會是生意興隆的一年喵！新年快樂喵！",
 			typewriter = {
 				speed = 0.05,

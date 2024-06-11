@@ -1,10 +1,10 @@
 slot0 = class("DestroyConfirmView", import("..base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "StoreHouseDestroyConfirmView"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot0.destroyBonusList = slot1:Find("frame/bg/scrollview/list")
 	slot1 = slot0.destroyBonusList
@@ -30,21 +30,21 @@ function slot0.OnInit(slot0)
 	end, SFX_UI_EQUIPMENT_RESOLVE)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	setActive(slot0._tf, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	setActive(slot0._tf, false)
 end
 
-function slot0.SetConfirmBtnCB(slot0, slot1)
+slot0.SetConfirmBtnCB = function(slot0, slot1)
 	slot0.confirmBtnCB = slot1
 end
 
-function slot0.DisplayDestroyBonus(slot0, slot1)
+slot0.DisplayDestroyBonus = function(slot0, slot1)
 	slot0.selectedIds = slot1
 	slot2 = {}
 	slot3 = 0

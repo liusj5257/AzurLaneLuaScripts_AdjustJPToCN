@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=45>Chapter 2 - Do AIs Dream fo Electric Dolphins?</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "??? - Ruined City",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,13 +48,13 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Woah... it's all bombed out buildings. That's pretty dark.",
 			bgm = "story-1",
+			actor = 301050,
+			nameColor = "#a9f548",
+			say = "Woah... it's all bombed out buildings. That's pretty dark.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "Wahhh... this is the kind of place you'd have a real ghost pop out at you!",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wahhh... this is the kind of place you'd have a real ghost pop out at you!",
+			actor = 106011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "Where are we...? And when did we change outfits!?",
 			typewriter = {
@@ -102,9 +102,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "OooooOOOoooo! OOOOoooOOooo!",
 			typewriter = {
 				speed = 0.05,
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "Aaaaaaaaaaa!!!!",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,11 +143,11 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106011,
+			nameColor = "#a9f548",
 			say = "WAAAAAAAaaaaaaaahhh! What is that!? A ghost!? A monster!?!",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -185,12 +185,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "Everybody calm down. There's some weapons over there we can take. This is how we survive...!",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Everybody calm down. There's some weapons over there we can take. This is how we survive...!",
+			actor = 301050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -205,11 +205,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "How can you stay calm at a time like this!? I m-mean, roger!",
 			typewriter = {
@@ -222,16 +222,16 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			actorName = "Kizuna AI",
-			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_room",
+			actor = 10400040,
 			nameColor = "#a9f548",
 			say = "Here we go! SAY HELLO TO MY LITTLE FRIEND!!!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,9 +256,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "*BAM BAM! RATATATATATATATAAA!!*",
 			typewriter = {
 				speed = 0.05,
@@ -334,9 +334,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "ROoooooOOOAAAaaar!!!",
 			typewriter = {
 				speed = 0.05,
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "Huh?! It's just a video game boss? Ahahahahaa!",
 			typewriter = {
@@ -397,11 +397,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "And why would the last boss be here of all places?! We just got here!",
 			typewriter = {
@@ -430,11 +430,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "Hey! There's a ROCKET LAUNCHER over here!!",
 			typewriter = {
@@ -447,11 +447,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "Urk! It's so heavy!!",
 			typewriter = {
@@ -480,11 +480,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "Got it! Here I go! WITNESS MEEEEEEEE!!!",
 			typewriter = {
@@ -497,9 +497,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "*KABOOOOOOOM*",
 			typewriter = {
 				speed = 0.05,
@@ -511,15 +511,15 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "Now we wait for the dust to clear to see if we won.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -544,11 +544,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "Woah, Ayanami! Don't jinx us here....",
 			typewriter = {
@@ -593,11 +593,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "AAAAAAAAAaaaaaaaa! It's a FLAAAAAAAAAAAAAG!!!",
 			typewriter = {
@@ -610,9 +610,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "GAAAAAAAAAAAAAAAAAAAAAHHHH!!!",
 			typewriter = {
 				speed = 0.05,
@@ -640,11 +640,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "Ok- okay.... everyone's... everyone's gone....",
 			typewriter = {
@@ -657,16 +657,16 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			actorName = "Kizuna AI",
-			bgName = "bg_story_room",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_room",
+			actor = 10400040,
 			nameColor = "#a9f548",
 			say = "Umm... sorry, everybody. That one's on me.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -691,11 +691,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "....hm?",
 			typewriter = {
@@ -708,11 +708,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "System Message",
+			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Continue?",
 			typewriter = {
 				speed = 0.05,
@@ -734,12 +734,12 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "SO IS THIS A GAME OR NOT!?",
 			typewriter = {

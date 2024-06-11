@@ -1,6 +1,6 @@
 slot0 = class("KillEnemyAwardWindow", import(".PtAwardWindow"))
 
-function slot1(slot0, slot1, slot2, slot3)
+slot1 = function(slot0, slot1, slot2, slot3)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
@@ -24,7 +24,7 @@ function slot1(slot0, slot1, slot2, slot3)
 	slot0.UIlist:align(#slot1)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0(slot0, slot1.dropList, slot1.descs, slot1.finishedIndex)
 	setActive(slot0.ptTF, false)
 	setActive(slot0._tf, true)

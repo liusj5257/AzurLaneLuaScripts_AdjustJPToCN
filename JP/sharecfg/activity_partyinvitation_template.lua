@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.activity_partyinvitation_template = {
 	{
-		groupid = 10706,
-		ungift = "指揮官、今日のパーティーはとても賑やかだ。\nこうして指揮官と二人っきりで過ごすのは久しぶりだな……\nん？これは…私にプレゼント…？",
 		skinId = 107065,
+		groupid = 10706,
 		getletter_story = "YUANWEIFANGXINMIMANSHI2",
 		getgift = "綺麗なブローチ…。このモチーフは…イーグルか？\n普段のイメージと違い、造形がだいぶ柔らかく感じるな\n大事にする…ありがとう、指揮官",
+		ungift = "指揮官、今日のパーティーはとても賑やかだ。\nこうして指揮官と二人っきりで過ごすのは久しぶりだな……\nん？これは…私にプレゼント…？",
 		getgift_story = "YUANWEIFANGXINMIMANSHI10",
 		getletter = "パーティーに招待してくれて感謝する。\n…が、もうすぐ始まってしまうな。\nとにかくすぐに準備を始める。指揮官、後ほど会場で会おう。",
 		id = 1,
@@ -38,11 +38,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 10709,
-		ungift = "指揮官…どうかしましたか？服の中に何か入っています？\n…！これはまさか、ずっと欲しかった…\nなんて。そんな都合のいいことなんてあるわけないですよね。",
 		skinId = 107092,
+		groupid = 10709,
 		getletter_story = "YUANWEIFANGXINMIMANSHI3",
 		getgift = "！！本当にそのバイクの模型だったなんて！\n指揮官はその、心が読めるエスパーだったりして……\nとにかく、とても嬉しいです！すぐに開封しても大丈夫ですか？",
+		ungift = "指揮官…どうかしましたか？服の中に何か入っています？\n…！これはまさか、ずっと欲しかった…\nなんて。そんな都合のいいことなんてあるわけないですよね。",
 		getgift_story = "YUANWEIFANGXINMIMANSHI11",
 		getletter = "これは…招待状？あ、そういえば大事な日でした…！\n皆もちろん参加しますよね？\nよかったです…！いろいろと期待が膨らみますね！",
 		id = 2,
@@ -75,11 +75,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 30510,
-		ungift = "汝、その様子は…どうかした？\n妾を単独で呼び出すなんてどういった要件で？\n望みがあるなら言ってごらん。妾の前では遠慮など不要よ。",
 		skinId = 305101,
+		groupid = 30510,
 		getletter_story = "YUANWEIFANGXINMIMANSHI4",
 		getgift = "あら、オルゴールね。作りが精巧で音もなかなか…\nこのセンス、さすが指揮官というべきかしら\n大事にいただくとして…さて、お返しは…ふふふ",
+		ungift = "汝、その様子は…どうかした？\n妾を単独で呼び出すなんてどういった要件で？\n望みがあるなら言ってごらん。妾の前では遠慮など不要よ。",
 		getgift_story = "YUANWEIFANGXINMIMANSHI12",
 		getletter = "招待状をしかと受け取ったわ。\n出席の手配はこのあとするとして…\n今は遠慮せず、妾と二人でお茶を楽しみましょう。",
 		id = 3,
@@ -112,11 +112,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 90501,
-		ungift = "プレゼントを受け取れるほどのことをしていない。\nむしろこのパーティーで指揮官をもてなせたらいいが…\n返礼ではなく、オレのため…？そ、そうか…？",
 		skinId = 905011,
+		groupid = 90501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI5",
 		getgift = "コンパス？懐かしい日々を思い出すな\n……ありがとう。とても気に入った\nそれはそうと。お返しを考えねば…うーん…",
+		ungift = "プレゼントを受け取れるほどのことをしていない。\nむしろこのパーティーで指揮官をもてなせたらいいが…\n返礼ではなく、オレのため…？そ、そうか…？",
 		getgift_story = "YUANWEIFANGXINMIMANSHI13",
 		getletter = "招待状は確かに受け取った。それで参加の準備だが――\n何を着ていくか悩んでしまうな。\nとにかく、会場でまた会おう。",
 		id = 4,
@@ -149,11 +149,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 70201,
-		ungift = "ふぅ…指揮官と一緒のパーティーはとても楽しいですね。\n指揮官…？何を取り出して…\n私へのプレゼント？うふふ、これはワクワクしますね。",
 		skinId = 702010,
+		groupid = 70201,
 		getletter_story = "YUANWEIFANGXINMIMANSHI6",
 		getgift = "わぁ、可愛いクマちゃんですね～\n大事なプレゼント、かわいいかわいいクマちゃん…なでなで～\nふふふ。別に別に酔ってはいませんよ？",
+		ungift = "ふぅ…指揮官と一緒のパーティーはとても楽しいですね。\n指揮官…？何を取り出して…\n私へのプレゼント？うふふ、これはワクワクしますね。",
 		getgift_story = "YUANWEIFANGXINMIMANSHI14",
 		getletter = "私への招待状でしたか。ありがとうございます。\nもちろん、パーティーには指揮官も出席しますよね？\nうふふ。指揮官の踊る姿、楽しみにしていますよ。",
 		id = 5,
@@ -186,11 +186,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 20501,
-		ungift = "何をコソコソと…さてはプレゼントでしょう？\n毎日たくさんプレゼントをもらっているから、これぐらい分かるわよ！\nまあ下僕からのプレゼントなら…ちょっとだけ期待してあげるわ。",
 		skinId = 205011,
+		groupid = 20501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI8",
 		getgift = "クリスタルのワンド…下僕がこれを選ぶとはね…\nワンドなんて、本当は専用の部屋があるぐらい持っているんだけど\n下僕のは一番目立つ場所に飾ってやるわ",
+		ungift = "何をコソコソと…さてはプレゼントでしょう？\n毎日たくさんプレゼントをもらっているから、これぐらい分かるわよ！\nまあ下僕からのプレゼントなら…ちょっとだけ期待してあげるわ。",
 		getgift_story = "YUANWEIFANGXINMIMANSHI16",
 		getletter = "パーティーの招待ね…わかったわ。\nベル、メイド隊のみんなに準備を始めるように伝えといて。\nもうこの下僕！まだ離れていいなんて言ってないわよ！",
 		id = 6,
@@ -223,11 +223,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 40501,
-		ungift = "指揮官のおかげでパーティーを楽しめたわ。感謝する。\nしかし、プレゼントまでくれるとは…\n今日は本当にいい日ね。ふふふ",
 		skinId = 405011,
+		groupid = 40501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI7",
 		getgift = "レコード？曲は指揮官のチョイス？\nこれは………どれも私が好きな曲……\n聞く度に指揮官の顔が思い浮かびそうね。ふふふ",
+		ungift = "指揮官のおかげでパーティーを楽しめたわ。感謝する。\nしかし、プレゼントまでくれるとは…\n今日は本当にいい日ね。ふふふ",
 		getgift_story = "YUANWEIFANGXINMIMANSHI15",
 		getletter = "ああ、パーティーに出席すると約束しよう。\n最近は色々と詰め込み過ぎたから、考えの整理も必要ね。\nとにかく、会場でまた会いましょう。指揮官。",
 		id = 7,

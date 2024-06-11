@@ -1,6 +1,6 @@
 slot0 = class("FragResolvePanel", BaseSubPanel)
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "FragResolveUI"
 end
 
@@ -9,7 +9,7 @@ slot1 = {
 	"resolve"
 }
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bagProxy = getProxy(BagProxy)
 	slot0.technologyProxy = getProxy(TechnologyProxy)
 	slot0.toggles = {}
@@ -63,21 +63,21 @@ function slot0.OnInit(slot0)
 	slot0:Trigger("control")
 end
 
-function slot0.OnShow(slot0)
+slot0.OnShow = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.OnHide(slot0)
+slot0.OnHide = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	if slot0.resolveItems then
 		table.clear(slot0.resolveItems)
 	end
 end
 
-function slot0.Resetcontrol(slot0)
+slot0.Resetcontrol = function(slot0)
 	slot0.blueprintItems = slot0.GetAllBluePrintStrengthenItems()
 	slot2 = slot0.controlPanel
 
@@ -175,7 +175,7 @@ function slot0.Resetcontrol(slot0)
 	slot0:Updatecontrol()
 end
 
-function slot0.Updatecontrol(slot0)
+slot0.Updatecontrol = function(slot0)
 	slot1 = slot0.controlPanel
 	slot2 = slot1:Find("got/list")
 
@@ -194,7 +194,7 @@ function slot0.Updatecontrol(slot0)
 	setButtonEnabled(slot6, slot3 and #slot3 > 0)
 end
 
-function slot0.Resetresolve(slot0)
+slot0.Resetresolve = function(slot0)
 	slot1 = slot0.resolvePanel
 	slot2 = slot1:Find("preview/got/list")
 	slot3 = slot1:Find("result/got/list")
@@ -253,7 +253,7 @@ function slot0.Resetresolve(slot0)
 	end)
 end
 
-function slot0.GetAllBluePrintStrengthenItems()
+slot0.GetAllBluePrintStrengthenItems = function()
 	slot0 = {}
 	slot1 = getProxy(TechnologyProxy)
 	slot2 = getProxy(BagProxy)
@@ -281,14 +281,14 @@ function slot0.GetAllBluePrintStrengthenItems()
 	return slot0
 end
 
-function slot0.Trigger(slot0, slot1)
+slot0.Trigger = function(slot0, slot1)
 	if slot0.toggles[slot1] then
 		slot0.buffer:Show()
 		triggerToggle(slot2, true)
 	end
 end
 
-function slot0.Back(slot0)
+slot0.Back = function(slot0)
 	if getToggleState(slot0.toggles.resolve) then
 		triggerToggle(slot0.toggles.control, true)
 	elseif getToggleState(slot0.toggles.control) then

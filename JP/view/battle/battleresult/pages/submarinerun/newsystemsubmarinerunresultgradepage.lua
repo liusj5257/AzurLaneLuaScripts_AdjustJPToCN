@@ -1,6 +1,6 @@
 slot0 = class("NewSystemSubmarineRunResultGradePage", import("..dodgem.NewDodgemResultGradePage"))
 
-function slot0.GetFlagShip(slot0)
+slot0.GetFlagShip = function(slot0)
 	return Ship.New({
 		id = 9999,
 		configId = 900180,
@@ -8,7 +8,7 @@ function slot0.GetFlagShip(slot0)
 	})
 end
 
-function slot0.RegisterEvent(slot0, slot1)
+slot0.RegisterEvent = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			uv0:LoadPainitingContainer(slot0)
@@ -23,7 +23,7 @@ function slot0.RegisterEvent(slot0, slot1)
 	end)
 end
 
-function slot0.GetGetObjectives(slot0)
+slot0.GetGetObjectives = function(slot0)
 	return {}
 end
 

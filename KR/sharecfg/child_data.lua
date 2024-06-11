@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.child_data = {
 	{
-		attr_2_add = 5,
 		name = "TB",
-		id = 1,
-		favor_level = 7,
+		attr_2_add = 5,
 		default_target = 99,
+		favor_level = 7,
+		id = 1,
 		stage = {
 			{
 				{

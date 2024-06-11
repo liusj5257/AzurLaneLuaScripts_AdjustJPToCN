@@ -7,7 +7,7 @@ slot0.EDUCATE_ON_ITEM = "EDUCATE_ON_ITEM"
 slot0.EDUCATE_ON_MSG_TIP = "EDUCATE_ON_MSG_TIP"
 slot0.EDUCATE_ON_UNLOCK_TIP = "EDUCATE_ON_UNLOCK_TIP"
 
-function slot0.getGroupName(slot0)
+slot0.getGroupName = function(slot0)
 	return LayerWeightConst.GROUP_EDUCATE
 end
 

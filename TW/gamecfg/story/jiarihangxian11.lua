@@ -1,18 +1,18 @@
 return {
-	id = "JIARIHANGXIAN11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN11",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "doa_boss",
 			actor = 10600010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "穗香，快躲開！",
-			bgm = "doa_boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,9 +25,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10600020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "好、好的！（晃動）",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,9 +81,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10600020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "……嘿！（晃動）",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -123,8 +123,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600010,
 			dir = 1,
+			actor = 10600010,
 			say = "機會來了！穗香，一起進攻！",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "確實，從從各種意義上來說，都是一場十分厲害的巔峰對決……",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "{namecode:98}小姐！？",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600010,
 			dir = 1,
+			actor = 10600010,
 			say = "呼…果然沒那麼容易從女僕長大人那取得優勢呢~",
 			typewriter = {
 				speed = 0.05,

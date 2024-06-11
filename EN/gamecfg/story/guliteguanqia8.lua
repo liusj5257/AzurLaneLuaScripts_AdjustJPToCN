@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GULITEGUANQIA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GULITEGUANQIA8",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "School—Clinic",
 			side = 2,
 			bgName = "star_level_bg_138",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "ssss-az-story",
+			say = "School—Clinic",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,11 +43,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800040,
 			nameColor = "#a9f548",
 			say = "Aaand welcome to the clinic~! We made it through the crisis unharmed. Hooray!",
-			hidePaintEquip = true,
 			effects = {
 				{
 					active = true,
@@ -67,11 +67,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800030,
 			nameColor = "#a9f548",
 			say = "Say cheese! Let's snap a quick pic of this touching reunion!",
-			hidePaintEquip = true,
 			effects = {
 				{
 					active = false,
@@ -88,13 +88,13 @@ return {
 			}
 		},
 		{
-			actor = 10800010,
 			side = 2,
 			bgName = "star_level_bg_138",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hass! Namiko! You guys are here too?",
 			hidePaintEquip = true,
+			actor = 10800010,
+			nameColor = "#a9f548",
+			say = "Hass! Namiko! You guys are here too?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,8 +105,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -118,11 +118,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800040,
 			nameColor = "#a9f548",
 			say = "Did you hit your head, Rikka? We were with you this morning!",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,11 +136,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800030,
 			nameColor = "#a9f548",
 			say = "Well, we're not in the same class, but still. We went to the plaza together before we came to school!",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,11 +154,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800010,
 			nameColor = "#a9f548",
 			say = "Now that you mention it... Wait, how is that possible? I'm so confused...",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,11 +172,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 306060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "There's no need to rush, Rikka! Now that we're onto the Sirens' tricks, we just need some time to sort out our memories.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,11 +190,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 306060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "At least, I'm glad that I remember all my friends from the Port!",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -218,11 +218,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 306060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "I can't believe I let myself get fooled by these cheap illusions though... Who knows what would've happened to me if you girls weren't here!",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,13 +233,13 @@ return {
 			}
 		},
 		{
-			actor = 10800010,
 			side = 2,
 			bgName = "star_level_bg_138",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "By the way, why are the two of you at the clinic? Did you get hurt?",
 			hidePaintEquip = true,
+			actor = 10800010,
+			nameColor = "#a9f548",
+			say = "By the way, why are the two of you at the clinic? Did you get hurt?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,11 +253,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800040,
 			nameColor = "#a9f548",
 			say = "Nothin' but a scratch! It's all Hass's fault, too. She was throwing a fit, saying she was HAD to go take some pictures of the kaiju.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,11 +271,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800030,
 			nameColor = "#a9f548",
 			say = "Well yeah, who'd pass up a chance like that?!",
-			hidePaintEquip = true,
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -294,11 +294,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800010,
 			nameColor = "#a9f548",
 			say = "Just... don't push your luck like that. Next time, safety first. Got it?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,11 +312,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800030,
 			nameColor = "#a9f548",
 			say = "My bad, my bad~",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,10 +330,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102163,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "And then you ran into Ryuujou?",
 			typewriter = {
 				speed = 0.05,
@@ -348,11 +348,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800040,
 			nameColor = "#a9f548",
 			say = "Yep. She brought us over to the clinic.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,8 +363,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -373,12 +373,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ryuujou's sense of justice really comes from her soul, huh? She went out of her way to look after you two and brought you to the clinic while not even realizing that she's a shipgirl. That's incredible.",
 			typewriter = {
 				speed = 0.05,
@@ -390,13 +390,13 @@ return {
 			}
 		},
 		{
-			actor = 306060,
 			side = 2,
 			bgName = "star_level_bg_138",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Protecting the weak is the duty of a warrior such as I!",
 			hidePaintEquip = true,
+			actor = 306060,
+			nameColor = "#a9f548",
+			say = "Protecting the weak is the duty of a warrior such as I!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,8 +407,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -417,13 +417,13 @@ return {
 			}
 		},
 		{
-			actor = 10800040,
 			side = 2,
 			bgName = "star_level_bg_138",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Thanks to Ryuujou, we were able to make it here safely. After getting patched up, we were just about to leave, and that's when all of you showed up.",
 			hidePaintEquip = true,
+			actor = 10800040,
+			nameColor = "#a9f548",
+			say = "Thanks to Ryuujou, we were able to make it here safely. After getting patched up, we were just about to leave, and that's when all of you showed up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,11 +437,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800040,
 			nameColor = "#a9f548",
 			say = "Yup. And after hearing Akane tell me what's going on, my memories started to come back as well.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,11 +455,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800040,
 			nameColor = "#a9f548",
 			say = "Oh, right. The Purifier that's calling herself Miss Purity? She's being held over here.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,12 +470,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_138",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "What?! You managed to capture a Siren?",
 			typewriter = {
 				speed = 0.05,

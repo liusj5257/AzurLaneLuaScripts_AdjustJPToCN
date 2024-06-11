@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN14",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_600",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
 			bgm = "qe-ova-15",
-			actorName = "エセックス",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "その時、ギャレーからふと強い視線を感じました",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -55,9 +55,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "っ！ご、ごめんなさい…ちょっと探索者がゴールデン・ハインドの…幼馴染饅頭とよく似ているなと思って…",
 			typewriter = {
@@ -70,9 +70,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "…（小声）設定なんだけど、一応どっちも顔が良くて…",
 			typewriter = {
@@ -159,9 +159,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "探索者…いきなりこんなことを言う柄ではないけど、あ、あたし…もう救いようがないほどあなたに心を奪われたわ！",
 			typewriter = {
@@ -219,9 +219,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "アナタの頼みなら…わかったわ。ついてきて",
 			typewriter = {
@@ -326,11 +326,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_156",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#FF9B93",
 			bgm = "story-oldcastle-carnival",
-			actorName = "エセックス",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "気が付くと、あなたたちはキッチンに着きました",
 			typewriter = {
@@ -338,17 +338,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -447,9 +447,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			actor = 9600061,
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "ア・ナ・タ…どこに行こうとしてるの？",
 			typewriter = {
@@ -634,11 +634,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：コック",
-			side = 2,
+			actor = 9600061,
 			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "ああ～探索者、あたしの愛しいヒト…愛している…誰にも渡さないわ。今度こそ、あたしのものに…",
@@ -652,9 +652,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			actor = 9600061,
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "あでも…んー確か生贄？ゴールデン・ハインドの願い？云々が…んんー",
 			typewriter = {
@@ -667,9 +667,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			actor = 9600061,
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "別にいいか。生贄なんてまた探せばいいだけ…うふふふふ…",
 			typewriter = {
@@ -678,11 +678,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：コック",
-			side = 2,
+			actor = 9600061,
 			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "永遠に一緒よ～～～",
@@ -734,8 +734,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -750,8 +750,8 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――ということは、フルコースにされたと…？",
 			bgm = "theme-ijndailymeeting",
+			say = "――ということは、フルコースにされたと…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -852,28 +852,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
+			blackBg = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			blackBg = true,
 			say = "――フルコースってまさか……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -885,8 +885,8 @@ return {
 			side = 2,
 			actorName = "海天",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
 			blackBg = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そ、そんなことはないですよ！？あははは……",
 			typewriter = {

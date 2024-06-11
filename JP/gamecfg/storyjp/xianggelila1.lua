@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"紀行のサフラン\n\n<size=45>一　思い出</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "朝・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "朝・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "秘書艦のシャングリラと一緒に作業していた",
 			typewriter = {
 				speed = 0.05,
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "――なにか困っていることでもあるのでしょうか…？",
 			typewriter = {
 				speed = 0.05,
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "なるほど、昨夜確認した書類はどこに置いたかお忘れになったのですね ",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "慌てても何も変わりませんから、とりあえず落ち着きましょう。サフランティーを用意しましたので、まずはこちらでもどうぞ",
 			typewriter = {
@@ -116,15 +116,15 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "……その書類の特徴でも教えていただけませんか？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -181,9 +181,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "シャングリラを秘書艦に任命して以来、こうして彼女が「記録」したことに色々と助けられてきた",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "……思えばこの母港に来てから、いろんな仲間と出会ったのですね",
 			typewriter = {
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "シャングリラはアルバムを持ち出して、一枚の写真の取り出す",
 			typewriter = {
@@ -251,12 +251,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "名前は「仲間」、コメントは「シャングリラ、はじめて拗ねた時の始末」",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "今思えば本当におかしかったのですね。ふふふ",
 			typewriter = {
@@ -317,9 +317,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確かに、母港に着任したばかりの彼女は一もニも「エセックス」のことだった。",
 			typewriter = {
 				speed = 0.05,

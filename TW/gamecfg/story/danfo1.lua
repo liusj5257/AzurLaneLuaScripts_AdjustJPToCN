@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"丹佛的港區委託！\n\n<size=45>一 接受委託！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 102150,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "指揮官，這幾天大家都在討論可不可以設立一個能夠委託他人進行港區內日常工作的機制。",
 			bgm = "story-1",
+			actor = 102150,
+			nameColor = "#a9f548",
+			say = "指揮官，這幾天大家都在討論可不可以設立一個能夠委託他人進行港區內日常工作的機制。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,13 +84,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "……基於以上原因，港區內設立了可以委託別人幫忙工作的渠道——任務佈告欄。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "然後……佈告欄上就被來自大家的委託書釘滿了。",
 			typewriter = {
 				speed = 0.05,
@@ -161,9 +161,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "我站在丹佛身旁看著上面的委託書，發現裡面有幾張已經蓋上了『任務完成』的印章。",
 			typewriter = {
 				speed = 0.05,
@@ -175,9 +175,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "明明這個佈告欄還沒設立多久，就已經有不少委託被完成了。到底是誰的速度這麼快……",
 			typewriter = {
 				speed = 0.05,
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "我看了看接受委託者的名字——裡面竟然發現了丹佛的大姐，克里夫蘭的名字。",
 			typewriter = {
 				speed = 0.05,
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "……真不愧是克里夫蘭姐姐啊。同為海上騎士，我也要向大姐頭看齊才行！",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "正如丹佛所說，除了這張之外，幾乎所有其他已完成的委託書上都寫著克里夫蘭的名字……！",
 			typewriter = {
 				speed = 0.05,

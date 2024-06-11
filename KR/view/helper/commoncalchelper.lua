@@ -1,6 +1,6 @@
 slot0 = class("CommonCalcHelper")
 
-function slot0.CalcDungeonHp(slot0, slot1)
+slot0.CalcDungeonHp = function(slot0, slot1)
 	slot2 = 0
 	slot3 = {}
 

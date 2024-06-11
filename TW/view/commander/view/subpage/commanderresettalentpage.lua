@@ -1,10 +1,10 @@
 slot0 = class("CommanderResetTalentPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderCatResetTalentUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.resetCancelBtn = slot0:findTF("bg/frame/cancel_btn")
 	slot0.resetConfirmBtn = slot0:findTF("bg/frame/confirm_btn")
 	slot0.resetCloseBtn = slot0:findTF("bg/frame/close_btn")
@@ -21,7 +21,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("bg/frame/bg/tip/texts1/label1"), " " .. slot4[2])
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -56,7 +56,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	slot0._tf:SetAsLastSibling()
 
@@ -65,7 +65,7 @@ function slot0.Show(slot0, slot1)
 	slot0:Flush()
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot1 = slot0.commanderVO
 
 	slot0.resetList:make(function (slot0, slot1, slot2)
@@ -81,7 +81,7 @@ function slot0.Flush(slot0)
 	GetComponent(slot0.resetGoldTxt, typeof(Outline)).enabled = slot0.total <= slot3.gold
 end
 
-function slot0.UpdateTalentCard(slot0, slot1, slot2)
+slot0.UpdateTalentCard = function(slot0, slot1, slot2)
 	slot3 = slot1:Find("unlock")
 	slot4 = slot1:Find("lock")
 
@@ -105,7 +105,7 @@ function slot0.UpdateTalentCard(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

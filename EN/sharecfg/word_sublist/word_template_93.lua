@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_93 = {}
 slot1 = slot0.word_template_93
 
-function temp()
+temp = function()
 	uv0["发"] = {
 		p = {
 			i = {
@@ -179,7 +179,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["発"] = {
 		["妻"] = {
 			this = true
@@ -192,7 +192,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["發"] = {
 		["工"] = {
 			["資"] = {
@@ -254,7 +254,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["廢"] = {
 		["墟"] = {
 			["守"] = {
@@ -281,7 +281,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["砝"] = {
 		["仑"] = {
 			["大"] = {
@@ -301,7 +301,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["珐"] = {
 		["."] = {
 			["輪"] = {
@@ -329,7 +329,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["翻"] = {
 		["牌"] = {
 			["机"] = {

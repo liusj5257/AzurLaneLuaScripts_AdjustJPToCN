@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_yunxian",
-					number = -0.01
+					number = -0.01,
+					attr = "DMG_FROM_TAG_1_yunxian"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_yunxian",
-					number = -0.01
+					number = -0.01,
+					attr = "DMG_FROM_TAG_2_yunxian"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_3_yunxian",
-					number = -0.01
+					number = -0.01,
+					attr = "DMG_FROM_TAG_3_yunxian"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_4_yunxian",
-					number = -0.01
+					number = -0.01,
+					attr = "DMG_FROM_TAG_4_yunxian"
 				}
 			},
 			{
@@ -52,8 +52,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_5_yunxian",
-					number = -0.01
+					number = -0.01,
+					attr = "DMG_FROM_TAG_5_yunxian"
 				}
 			}
 		}
@@ -67,8 +67,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_yunxian",
-					number = -0.02
+					number = -0.02,
+					attr = "DMG_FROM_TAG_1_yunxian"
 				}
 			},
 			{
@@ -78,8 +78,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_yunxian",
-					number = -0.02
+					number = -0.02,
+					attr = "DMG_FROM_TAG_2_yunxian"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_3_yunxian",
-					number = -0.02
+					number = -0.02,
+					attr = "DMG_FROM_TAG_3_yunxian"
 				}
 			},
 			{
@@ -100,8 +100,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_4_yunxian",
-					number = -0.02
+					number = -0.02,
+					attr = "DMG_FROM_TAG_4_yunxian"
 				}
 			},
 			{
@@ -111,8 +111,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_5_yunxian",
-					number = -0.02
+					number = -0.02,
+					attr = "DMG_FROM_TAG_5_yunxian"
 				}
 			}
 		}
@@ -126,8 +126,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_yunxian",
-					number = -0.03
+					number = -0.03,
+					attr = "DMG_FROM_TAG_1_yunxian"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_yunxian",
-					number = -0.03
+					number = -0.03,
+					attr = "DMG_FROM_TAG_2_yunxian"
 				}
 			},
 			{
@@ -148,8 +148,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_3_yunxian",
-					number = -0.03
+					number = -0.03,
+					attr = "DMG_FROM_TAG_3_yunxian"
 				}
 			},
 			{
@@ -159,8 +159,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_4_yunxian",
-					number = -0.03
+					number = -0.03,
+					attr = "DMG_FROM_TAG_4_yunxian"
 				}
 			},
 			{
@@ -170,8 +170,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_5_yunxian",
-					number = -0.03
+					number = -0.03,
+					attr = "DMG_FROM_TAG_5_yunxian"
 				}
 			}
 		}
@@ -185,8 +185,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_yunxian",
-					number = -0.04
+					number = -0.04,
+					attr = "DMG_FROM_TAG_1_yunxian"
 				}
 			},
 			{
@@ -196,8 +196,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_yunxian",
-					number = -0.04
+					number = -0.04,
+					attr = "DMG_FROM_TAG_2_yunxian"
 				}
 			},
 			{
@@ -207,8 +207,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_3_yunxian",
-					number = -0.04
+					number = -0.04,
+					attr = "DMG_FROM_TAG_3_yunxian"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_4_yunxian",
-					number = -0.04
+					number = -0.04,
+					attr = "DMG_FROM_TAG_4_yunxian"
 				}
 			},
 			{
@@ -229,8 +229,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_5_yunxian",
-					number = -0.04
+					number = -0.04,
+					attr = "DMG_FROM_TAG_5_yunxian"
 				}
 			}
 		}
@@ -244,8 +244,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_yunxian",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_1_yunxian"
 				}
 			},
 			{
@@ -255,8 +255,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_yunxian",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_2_yunxian"
 				}
 			},
 			{
@@ -266,8 +266,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_3_yunxian",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_3_yunxian"
 				}
 			},
 			{
@@ -277,8 +277,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_4_yunxian",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_4_yunxian"
 				}
 			},
 			{
@@ -288,8 +288,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_5_yunxian",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_5_yunxian"
 				}
 			}
 		}
@@ -303,8 +303,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_yunxian",
-					number = -0.06
+					number = -0.06,
+					attr = "DMG_FROM_TAG_1_yunxian"
 				}
 			},
 			{
@@ -314,8 +314,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_yunxian",
-					number = -0.06
+					number = -0.06,
+					attr = "DMG_FROM_TAG_2_yunxian"
 				}
 			},
 			{
@@ -325,8 +325,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_3_yunxian",
-					number = -0.06
+					number = -0.06,
+					attr = "DMG_FROM_TAG_3_yunxian"
 				}
 			},
 			{
@@ -336,8 +336,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_4_yunxian",
-					number = -0.06
+					number = -0.06,
+					attr = "DMG_FROM_TAG_4_yunxian"
 				}
 			},
 			{
@@ -347,8 +347,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_5_yunxian",
-					number = -0.06
+					number = -0.06,
+					attr = "DMG_FROM_TAG_5_yunxian"
 				}
 			}
 		}
@@ -362,8 +362,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_yunxian",
-					number = -0.07
+					number = -0.07,
+					attr = "DMG_FROM_TAG_1_yunxian"
 				}
 			},
 			{
@@ -373,8 +373,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_yunxian",
-					number = -0.07
+					number = -0.07,
+					attr = "DMG_FROM_TAG_2_yunxian"
 				}
 			},
 			{
@@ -384,8 +384,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_3_yunxian",
-					number = -0.07
+					number = -0.07,
+					attr = "DMG_FROM_TAG_3_yunxian"
 				}
 			},
 			{
@@ -395,8 +395,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_4_yunxian",
-					number = -0.07
+					number = -0.07,
+					attr = "DMG_FROM_TAG_4_yunxian"
 				}
 			},
 			{
@@ -406,8 +406,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_5_yunxian",
-					number = -0.07
+					number = -0.07,
+					attr = "DMG_FROM_TAG_5_yunxian"
 				}
 			}
 		}
@@ -421,8 +421,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_yunxian",
-					number = -0.08
+					number = -0.08,
+					attr = "DMG_FROM_TAG_1_yunxian"
 				}
 			},
 			{
@@ -432,8 +432,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_yunxian",
-					number = -0.08
+					number = -0.08,
+					attr = "DMG_FROM_TAG_2_yunxian"
 				}
 			},
 			{
@@ -443,8 +443,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_3_yunxian",
-					number = -0.08
+					number = -0.08,
+					attr = "DMG_FROM_TAG_3_yunxian"
 				}
 			},
 			{
@@ -454,8 +454,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_4_yunxian",
-					number = -0.08
+					number = -0.08,
+					attr = "DMG_FROM_TAG_4_yunxian"
 				}
 			},
 			{
@@ -465,8 +465,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_5_yunxian",
-					number = -0.08
+					number = -0.08,
+					attr = "DMG_FROM_TAG_5_yunxian"
 				}
 			}
 		}
@@ -480,8 +480,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_yunxian",
-					number = -0.09
+					number = -0.09,
+					attr = "DMG_FROM_TAG_1_yunxian"
 				}
 			},
 			{
@@ -491,8 +491,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_yunxian",
-					number = -0.09
+					number = -0.09,
+					attr = "DMG_FROM_TAG_2_yunxian"
 				}
 			},
 			{
@@ -502,8 +502,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_3_yunxian",
-					number = -0.09
+					number = -0.09,
+					attr = "DMG_FROM_TAG_3_yunxian"
 				}
 			},
 			{
@@ -513,8 +513,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_4_yunxian",
-					number = -0.09
+					number = -0.09,
+					attr = "DMG_FROM_TAG_4_yunxian"
 				}
 			},
 			{
@@ -524,8 +524,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_5_yunxian",
-					number = -0.09
+					number = -0.09,
+					attr = "DMG_FROM_TAG_5_yunxian"
 				}
 			}
 		}
@@ -539,8 +539,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_1_yunxian",
-					number = -0.1
+					number = -0.1,
+					attr = "DMG_FROM_TAG_1_yunxian"
 				}
 			},
 			{
@@ -550,8 +550,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_2_yunxian",
-					number = -0.1
+					number = -0.1,
+					attr = "DMG_FROM_TAG_2_yunxian"
 				}
 			},
 			{
@@ -561,8 +561,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_3_yunxian",
-					number = -0.1
+					number = -0.1,
+					attr = "DMG_FROM_TAG_3_yunxian"
 				}
 			},
 			{
@@ -572,8 +572,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_4_yunxian",
-					number = -0.1
+					number = -0.1,
+					attr = "DMG_FROM_TAG_4_yunxian"
 				}
 			},
 			{
@@ -583,19 +583,19 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_FROM_TAG_5_yunxian",
-					number = -0.1
+					number = -0.1,
+					attr = "DMG_FROM_TAG_5_yunxian"
 				}
 			}
 		}
 	},
-	color = "red",
+	id = 17032,
 	name = "",
 	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17032,
+	color = "red",
 	icon = 17030,
 	last_effect = "",
 	effect_list = {
@@ -606,8 +606,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_1_yunxian",
-				number = -0.01
+				number = -0.01,
+				attr = "DMG_FROM_TAG_1_yunxian"
 			}
 		},
 		{
@@ -617,8 +617,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_2_yunxian",
-				number = -0.01
+				number = -0.01,
+				attr = "DMG_FROM_TAG_2_yunxian"
 			}
 		},
 		{
@@ -628,8 +628,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_3_yunxian",
-				number = -0.01
+				number = -0.01,
+				attr = "DMG_FROM_TAG_3_yunxian"
 			}
 		},
 		{
@@ -639,8 +639,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_4_yunxian",
-				number = -0.01
+				number = -0.01,
+				attr = "DMG_FROM_TAG_4_yunxian"
 			}
 		},
 		{
@@ -650,8 +650,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_5_yunxian",
-				number = -0.01
+				number = -0.01,
+				attr = "DMG_FROM_TAG_5_yunxian"
 			}
 		}
 	}

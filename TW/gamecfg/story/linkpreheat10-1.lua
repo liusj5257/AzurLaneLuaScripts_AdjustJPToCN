@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT10-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT10-1",
+	fadein = 1,
 	scripts = {
 		{
-			actor = 10300010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "这样的话——不如就让我来吧",
 			dir = 1,
 			bgm = "level-uta",
+			actor = 10300010,
+			nameColor = "#a9f548",
+			say = "这样的话——不如就让我来吧",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -63,8 +63,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "我跑的那么快，带着她们到处逃这种小事不是信手拈来么",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "就算真的出了什么事……我也还留着杀手锏呢",
 			typewriter = {
 				speed = 0.05,

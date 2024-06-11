@@ -1,7 +1,7 @@
 return {
-	time = 8,
 	name = "所罗门的战神 +",
 	init_effect = "jinengchufablue",
+	time = 8,
 	picture = "",
 	desc = "航速",
 	stack = 1,

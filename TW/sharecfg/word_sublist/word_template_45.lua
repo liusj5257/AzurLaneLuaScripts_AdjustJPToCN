@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_45 = {}
 slot1 = slot0.word_template_45
 
-function temp()
+temp = function()
 	uv0["氢"] = {
 		["弹"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["导"] = {
 		["弹"] = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["大"] = {
 		["参"] = {
 			["考"] = {
@@ -432,7 +432,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["内"] = {
 		["蒙"] = {
 			["古"] = {

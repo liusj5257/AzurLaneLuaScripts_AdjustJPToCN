@@ -1,16 +1,16 @@
 return {
-	id = "WORLD300A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD300A",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level02",
+			say = "NA海域·白鷹控制區",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "NA海域·白鷹控制區",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "我們的任務為穩步清理C戰區，也就是西北NA海域，然後建立兩處為總攻準備的前哨站。",
 			typewriter = {
 				speed = 0.05,
@@ -69,9 +69,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "現在白鷹的實力已經今非昔比了，其中的變化就讓塞壬好好領教一下吧！",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,8 +156,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "沒錯！突破皇家封鎖線的鐵血艦隊至今行蹤不明，對於戰役全局來說是個巨大的隱患......",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "就是這一點我一直覺得很奇怪！鐵血艦隊好不容易突破了封鎖卻沒有繼續擴大戰果，反而只是在大洋裡找了個地方躲了起來？",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "指揮部正在對內部進行徹查，不過戰場上的調查就只能我們來做了。",
 			typewriter = {
 				speed = 0.05,

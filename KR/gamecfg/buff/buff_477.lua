@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 5,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "减速+道具命中",
 	stack = 1,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「幻想と真実の二重奏」-日常編\n\n<size=45>三 属性の類似について</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_room",
 			bgm = "holo-mio",
 			actor = 900215,
 			nameColor = "#a9f548",
 			say = "ところで、うちにも新しいお友達ができたんだよ。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,11 +53,11 @@ return {
 			}
 		},
 		{
-			actor = 900209,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			say = "ええっ、ミオちゃんにも！？いつの間にそんなことが！？",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,8 +82,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "大げさだよフブキ……。フリードリヒ・デア・グローセって艦船でね、うちとすごく気が合うんだ～",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "フリ……あのフリードリヒ・デア・グローセ！？ミオちゃんと、どこが気があったの！？",
 			typewriter = {
@@ -113,8 +113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -126,8 +126,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "ちっちゃい子の扱いとか？",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "ミオちゃんがラスボスっぽくなったり、ダーク系になっちゃうのかと思ったよ～",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,8 +186,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "あはは……確かに近づきがたいオーラはあるかもね。でも、面倒見がよくて、優しいんだよ。",
 			typewriter = {
@@ -232,17 +232,17 @@ return {
 			}
 		},
 		{
-			actor = 202120,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "ご歓談中申し訳ございません。",
 			bgm = "holo-sora",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "ご歓談中申し訳ございません。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -267,11 +267,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "ときのそら様、イラストリアス様からそろそろお茶会の時間との伝言です。",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -325,12 +325,12 @@ return {
 			}
 		},
 		{
-			actor = 900210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 3,
+			actor = 900210,
+			nameColor = "#a9f548",
 			say = "みんな、ごめんね～。わたしはこれからロイヤルのお茶会に行くから、ここで失礼するね。",
 			typewriter = {
 				speed = 0.05,
@@ -377,8 +377,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "あ、はい！是非お願いします、ベルファスト先輩！",
 			typewriter = {
@@ -391,8 +391,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -2500
@@ -400,17 +400,17 @@ return {
 			}
 		},
 		{
-			actor = 900209,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1.5,
-			say = "あくあちゃんがロイヤルメイドトレーニングを！メイドの先輩後輩！いや～、よさみが深いですね～。うんうん！",
 			bgm = "holo-shion",
+			actor = 900209,
+			nameColor = "#a9f548",
+			say = "あくあちゃんがロイヤルメイドトレーニングを！メイドの先輩後輩！いや～、よさみが深いですね～。うんうん！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -438,8 +438,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "普段あんまりメイドらしいことしていないから、ちょーっと苦労するかもねぇ……それもまた尊い……！",
 			typewriter = {
@@ -516,11 +516,11 @@ return {
 			}
 		},
 		{
-			actor = 900209,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			say = "おお～！ルピニャートちゃん！アイリスの、自称マホウツカイの駆逐艦ですね！本当に魔法が使えるの！？",
 			typewriter = {
 				speed = 0.05,
@@ -532,8 +532,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -545,8 +545,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "ふふん♪シオンは知らない～",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "実装した時からずっと気になってるんですよー！教えてー！",
 			typewriter = {
@@ -579,8 +579,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "やだ～！それは魔法使いの間の秘密なんだから！",
 			typewriter = {
@@ -596,8 +596,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "ああっ、魔法使いコンビ尊い～！いやそうじゃなくて、シオンちゃん～！教えてよ～！",
 			typewriter = {
@@ -610,8 +610,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -623,9 +623,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900214,
 			dir = 1,
 			blackBg = true,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "だ・め！べーだ！",
 			typewriter = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"丹佛的港區委託！\n\n<size=45>四 騎士姐妹</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "在丹佛進行委託的時候，有時也會有其他同伴加入其中。",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "在丹佛進行委託的時候，有時也會有其他同伴加入其中。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "比方說，自立又嚴格的輕巡洋艦伯明罕——",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "……丹佛。到任時我已經和指揮官打過招呼了，不需要介紹。",
 			typewriter = {
@@ -131,14 +131,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			actor = 102230,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "……看來你有著足以被克里夫蘭大姐認可的實力呢。但是，我可不像丹佛那麼天真。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -163,9 +163,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "就在她向我投來直視的目光，彷彿在說：“就讓我在這裡試試你”的那一刻——",
 			typewriter = {
 				speed = 0.05,
@@ -193,10 +193,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			hideOther = true,
 			dir = 1,
 			actor = 102230,
 			actorName = "伯明翰&丹佛",
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "嘿嘿，看來大家都和我一樣在做委託呀！",
 			typewriter = {
@@ -236,9 +236,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "在說話的功夫，克里夫蘭又在一份完成的委託表上蓋了個章。",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "嗯？也沒什麼特別的啦~就是一個打掃港區外圍海域某處設施的委託而已。",
 			typewriter = {
@@ -283,11 +283,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "清掃任務……克里夫蘭姐姐果然超級厲害！",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -312,8 +312,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "……嗯，我也是這麼覺得的。",
 			typewriter = {
@@ -329,8 +329,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "哎？？我只是單純地打掃了一下某個囤積有科學部門實驗材料的倉庫區而已啊？",
 			typewriter = {
@@ -375,9 +375,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "丹佛的騎士……不，是勇者之心又燃起來了。",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "（耳語）抱歉，指揮官，她總是這樣嗎？",
 			typewriter = {
@@ -415,8 +415,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "（耳語）辛苦你照顧她了……",
 			typewriter = {
@@ -429,9 +429,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "無視了正在熱烈演講的丹佛與愣在一旁的克里夫蘭，伯明罕略帶些尷尬的感謝了我。",
 			typewriter = {
 				speed = 0.05,

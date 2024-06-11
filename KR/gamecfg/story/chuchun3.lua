@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHUCHUN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHUCHUN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"하츠하루의 고민\n\n<size=45>하츠하루, 힘내!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "잠시 후, 사쿠라 엠파이어 숙소",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "잠시 후, 사쿠라 엠파이어 숙소",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 301210,
+			say = "아으… 나, 난 그저 자신감을 가지고 싶어서, 좀 더 모두에게 도움이 되고 싶을 뿐인데… 분명 어디선가부터 잘못 돼버린 걸 거야…",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아으… 나, 난 그저 자신감을 가지고 싶어서, 좀 더 모두에게 도움이 되고 싶을 뿐인데… 분명 어디선가부터 잘못 돼버린 걸 거야…",
+			actor = 301210,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "아으으……",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 45,
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 301230,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301230,
+			nameColor = "#92fc63",
 			say = "아! 방금 엄청 예쁜 나비가!",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = -3750
@@ -213,11 +213,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "와카바, 뛰면 위험해!",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 301230,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301230,
+			nameColor = "#92fc63",
 			say = "잡았… 다! 우와아!?",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -3000,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 0
@@ -376,11 +376,11 @@ return {
 			}
 		},
 		{
-			actor = 301240,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301240,
+			nameColor = "#92fc63",
 			say = "비서함이야. 지휘관에게 비서함으로 임명되면 싫어도 매일 얘기하게 돼. 마침 지금 공석이기도 하고.",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -418,11 +418,11 @@ return {
 			}
 		},
 		{
-			actor = 306010,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 306010,
+			nameColor = "#92fc63",
 			say = "안돼. 여기서 그만두면 낯가림은 언제까지고 고쳐지지 않을 거야.",
 			effects = {
 				{
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301210,
+			nameColor = "#92fc63",
 			say = "……으, 으응, 해볼게!",
 			effects = {
 				{
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 67.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -472,14 +472,14 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			nameColor = "#92fc63",
 			side = 0,
 			bgName = "bg_story_room",
-			actorName = "{namecode:141}&{namecode:129}",
+			actor = 301230,
 			dir = 1,
 			blackBg = true,
-			actor = 301230,
-			nameColor = "#92fc63",
+			hideOther = true,
+			actorName = "{namecode:141}&{namecode:129}",
 			say = "힘내, 하츠하루 언니! / 힘내, 하츠하루!",
 			subActors = {
 				{

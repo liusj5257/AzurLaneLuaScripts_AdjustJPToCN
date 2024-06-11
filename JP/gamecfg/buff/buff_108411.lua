@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 15,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 108411,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 108411,
+	color = "red",
 	icon = 108410,
 	last_effect = "bodongquan02",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 108415,
-				target = "TargetSelf",
 				time = 1,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

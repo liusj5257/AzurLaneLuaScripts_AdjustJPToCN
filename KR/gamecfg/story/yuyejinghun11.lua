@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN11",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_156",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "에식스",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "집사는 협조적인 태도를 보였지만, 당신은 그녀가 정말로 도와줄지 확신을 가질 수 없습니다.",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "탐정",
+			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -80,10 +80,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
-			actorName = "상 마르티뉴",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "……그건 어렵겠군.",
 			typewriter = {
@@ -92,13 +92,13 @@ return {
 			}
 		},
 		{
-			actorName = "상 마르티뉴",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
 			optionFlag = 1,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "아까 큰 아가씨께 볼일이 끝나면 와달라고 분부를 받은 상태다.",
 			typewriter = {
@@ -111,10 +111,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
-			actorName = "상 마르티뉴",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "그리고 방 청소가 아직 덜 끝나서 말이지… 우선은 다른 곳부터 탐색해 봐라.",
 			typewriter = {
@@ -123,13 +123,13 @@ return {
 			}
 		},
 		{
-			actorName = "상 마르티뉴",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
 			optionFlag = 1,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "그럼 이만, 먼저 실례하지.",
 			typewriter = {
@@ -177,13 +177,13 @@ return {
 			}
 		},
 		{
-			actorName = "상 마르티뉴",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
 			optionFlag = 2,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "상관없다. 공용 공간이라…… 주방이나 정원이라면 1층에 있다.",
 			typewriter = {
@@ -196,10 +196,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
-			actorName = "상 마르티뉴",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "2층에는 도서실과 컬렉션 방이 있는데, 아마 모두 잠겨 있을 거다.",
 			typewriter = {
@@ -221,13 +221,13 @@ return {
 			}
 		},
 		{
-			actorName = "상 마르티뉴",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
 			optionFlag = 2,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "좋아. 그럼 천천히 둘러봐라. 난 큰 아가씨께서 기다리고 계셔서 이만…",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "탐정",
+			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -292,11 +292,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "하이티엔",
 			bgName = "star_level_bg_501",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#FF9B93",
 			bgm = "story-oldcastle-carnival",
-			actorName = "하이티엔",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "방에 들어서자, 마치 박물관 속에 던져진 것 같은 경치가 눈앞에 펼쳐졌습니다.",
 			typewriter = {
@@ -304,17 +304,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -362,8 +362,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			say = "찰칵",
@@ -638,8 +638,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -653,9 +653,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			bgm = "theme-ijndailymeeting",
 			actorName = "하이티엔",
+			bgm = "theme-ijndailymeeting",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "어휴, 지휘관님. 주인의 동의 없이 방에 들어가시면 안 되죠.",
 			typewriter = {

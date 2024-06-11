@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD401A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD401A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			bgm = "story-italy",
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "앞에 보이는 것이 타란토 항이야. 응? 저 깃발은... 로열 네이비가 먼저 와있었군.",
-			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,14 +27,14 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			dir = 1,
 			bgName = "bg_port_talantuo",
 			actor = 605020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "이건 정말... 여왕 폐하를 기다리게 하다니, 큰 죄를 저질렀군.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,8 +78,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "기분이 안 좋아 보이는데, 오는 길에 무슨 일이라도 있었어?",
 			typewriter = {
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			nameColor = "#ffff4d",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#ffff4d",
 			say = "무슨 일...? 그걸 지금 말이라고 해? 로열 네이비 본섬에서 출발해서 산크트 페터를 들린 다음에, 켈, 그리고 툴롱, 마지막으로 타란토 항에 도착했다고!",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			nameColor = "#ffff4d",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#ffff4d",
 			say = "너...!",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#ffff4d",
 			say = "부족한 점을 지적해 줘서 고마워. 이글 유니온이 AF에 대한 상황을 알게 된 것처럼 정보전을 펼칠 수 있도록 개선 작업을 진행하도록 하지.",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "윽... 다들 진정해. 싸우러 온 게 아니라 평화를 위해서 타란토에 모인 거잖아?",
 			typewriter = {
@@ -309,9 +309,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
 			blackBg = true,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "프리드리히 데어 그로세도 오는 중이니까, 다들 기다리면서 사르데냐의 풍경을 즐겨줘.",
 			typewriter = {

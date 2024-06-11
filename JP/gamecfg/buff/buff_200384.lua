@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023北联SP 敌方支援弹幕SP",
 	time = 5,
-	color = "blue",
+	name = "2023北联SP 敌方支援弹幕SP",
+	init_effect = "",
+	id = 200384,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200384,
+	color = "blue",
 	icon = 200384,
 	last_effect = "",
 	effect_list = {

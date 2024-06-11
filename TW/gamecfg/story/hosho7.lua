@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequenceSpd = 2,
 			BgFade = true,
 			sequence = {

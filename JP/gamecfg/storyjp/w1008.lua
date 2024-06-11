@@ -1,15 +1,15 @@
 return {
-	id = "W1008",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1008",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "走査装置が稼働しています。……………あっ",
 			typewriter = {
 				speed = 0.05,
@@ -23,9 +23,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "海域に隠密行動中のセイレーン艦隊を発見しました",
 			typewriter = {
 				speed = 0.05,

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023海盗活动 EX逃课机制",
 	time = 0,
+	name = "2023海盗活动 EX逃课机制",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = -0.97
+				number = -0.97,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -25,8 +25,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 1
+				number = 1,
+				attr = "injureRatio"
 			}
 		}
 	}

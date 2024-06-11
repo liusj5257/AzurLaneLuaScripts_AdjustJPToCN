@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"盛夏の射手座\n\n<size=45>二　夏の秘密兵器？</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "平海ちゃんと時雨ちゃん！二人もスイカを取りに？",
 			bgm = "story-1",
+			actor = 201212,
+			nameColor = "#a9f548",
+			say = "平海ちゃんと時雨ちゃん！二人もスイカを取りに？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 502031,
+			say = "うん、スイカは美味しい。",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "うん、スイカは美味しい。",
+			actor = 502031,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 301151,
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301151,
+			nameColor = "#a9f548",
 			say = "ジャベリン？そうよ。そっちは新人さんを連れて母港の案内中？",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -127,8 +127,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "おはようございます。時雨先輩、平海先輩。",
 			typewriter = {
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 301151,
+			say = "ふん！先輩呼びとはわかってるじゃない、これからはこの時雨様が面倒を見てやるわ！",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ふん！先輩呼びとはわかってるじゃない、これからはこの時雨様が面倒を見てやるわ！",
+			actor = 301151,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "ほ、本当！？",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -277,12 +277,12 @@ return {
 			}
 		},
 		{
-			actor = 301151,
+			say = "それはどうかな？もう山城姉さんと遊びに行く時間だから、そんなに気になるならあとで私に聞きに来なさいな～",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "それはどうかな？もう山城姉さんと遊びに行く時間だから、そんなに気になるならあとで私に聞きに来なさいな～",
+			actor = 301151,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -332,8 +332,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "「スクミズ」って奥が深いですね……",
 			typewriter = {
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "まさか重桜にこんな秘密兵器があったとは……",
 			typewriter = {
 				speed = 0.05,
@@ -362,8 +362,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -375,8 +375,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ジャベリン先輩……？",
 			typewriter = {
@@ -389,11 +389,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "わ、私は大丈夫！紹介の続きをするね！",
 			typewriter = {
 				speed = 0.05,
@@ -405,8 +405,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -431,13 +431,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			say = "ほらほら～",
 			side = 0,
 			bgName = "star_level_bg_106",
-			actor = 201212,
+			hideOther = true,
 			dir = 1,
+			actor = 201212,
 			nameColor = "#a9f548",
-			say = "ほらほら～",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -463,8 +463,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "さすがフッド先輩、座っているだけで絵になりますね。",
 			typewriter = {
@@ -477,12 +477,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "でも今年新たに参加したアイリスとヴィシアも水着を用意したらしいし、鉄血も別の水着を準備してるらしいから……うんうん、今年もいい戦いになりそう。",
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "でも今年新たに参加したアイリスとヴィシアも水着を用意したらしいし、鉄血も別の水着を準備してるらしいから……うんうん、今年もいい戦いになりそう。",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -497,8 +497,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -510,8 +510,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "あの……ジャベリン先輩の言ってる「戦い」とは……？",
 			typewriter = {
@@ -543,8 +543,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "は、はい！",
 			typewriter = {
@@ -557,8 +557,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -583,11 +583,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "戦争よ！",
 			effects = {
 				{
@@ -608,10 +608,10 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
-			nameColor = "#a9f548",
 			say = "そ、そうなのですか！？",
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -632,8 +632,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -693,9 +693,9 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "な、なるほどです……",
 			typewriter = {

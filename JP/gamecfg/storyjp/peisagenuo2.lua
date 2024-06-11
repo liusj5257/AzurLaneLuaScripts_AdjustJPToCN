@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "PEISAGENUO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "PEISAGENUO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"あなたと共に見る風景\n\n<size=45>二 レンズ越しの風景</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_task_2",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "bg_story_task_2",
 			bgm = "story-richang-2",
 			actor = 601090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官、今日のお仕事はこれで終わり…？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "手元の書類を軽く確認してみる。…ざっとこんなところか。",
@@ -68,10 +68,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "じゃあ…その…",
 			painting = {
 				alpha = 0.3,
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "エマは隅っこに置いている望遠鏡に目を向けた。",
@@ -97,10 +97,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "じー…（もじもじ）",
 			painting = {
 				alpha = 0.3,
@@ -115,10 +115,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "じぃー…（そわそわ）",
 			painting = {
 				alpha = 0.3,
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "エマはいそいそと準備を済ますと、望遠鏡の使い方を説明してくれた。",
@@ -211,10 +211,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…こんな感じ。指揮官がいきなり手動でピントを合わせるのは大変だろうから、オートフォーカスをオンにするね",
 			painting = {
 				alpha = 0.3,
@@ -229,10 +229,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はい。どうぞごゆっくり",
 			painting = {
 				alpha = 0.3,
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_day",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "望遠鏡を覗き込むと、遠くにある母港の景色がまるで手の届く距離で広がった。",
 			effects = {
@@ -260,17 +260,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			say = "青い空に白い雲、往来で賑わっている埠頭と…こそこそしている――アルフレード・オリアーニ。",
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			say = "草むらに身を潜めて…散策中のエリザベスをこっそり撮っている？",
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			say = "おっと、アルフレードがシリアスに見つかってしまったようだ。",
@@ -350,8 +350,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			say = "なんとかその場から逃げようとじわじわと下がり続けたアルフレードだが、その退路はシェフィールドに塞がれた！アルフレード、大ピンチ！",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			say = "ざんねん！アルフレードの大スクープはここで終わってしまった！",
@@ -398,8 +398,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			say = "面白くてなかなか目が離せない…これもある意味「見入った」と言えるかもしれない。",
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			say = "あまりにも長く一人占めするわけにもいかず、名残惜しいが望遠鏡をエマに返した。",
@@ -420,9 +420,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「景色」を見たエマは眉をひそめた。",
 			effects = {
@@ -436,17 +436,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -457,10 +457,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あれは…アルフレード？どうしてメイド隊のみんなに連行されてるの？",
 			painting = {
 				alpha = 0.3,
@@ -475,10 +475,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…それにこっちに向かって、ピースサイン…？",
 			painting = {
 				alpha = 0.3,
@@ -493,10 +493,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…も、もしかしてわたしたちを仲間だと思ったの？？",
 			painting = {
 				alpha = 0.3,
@@ -511,10 +511,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………それよりも指揮官、さっき夢中で見てたのはこれなの…？",
 			painting = {
 				alpha = 0.3,
@@ -529,10 +529,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もぉ…",
 			painting = {
 				alpha = 0.3,
@@ -547,10 +547,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふぅ…気を取り直して…",
 			painting = {
 				alpha = 0.3,
@@ -565,10 +565,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今度はわたしがちゃんと「景色」が映るように調整するから",
 			painting = {
 				alpha = 0.3,
@@ -580,8 +580,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "望遠鏡を設置し直して、彼女は夢中で覗き込んだ。",
@@ -594,10 +594,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うんうん…この景色…きれい…",
 			painting = {
 				alpha = 0.3,
@@ -609,8 +609,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "体をかすかに動かし細かく調整するエマは笑みを見せた――すっかり風景の虜になったようだ。",
@@ -626,12 +626,12 @@ return {
 			}
 		},
 		{
-			actor = 601090,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いいの？じゃあ…すぐに出発しよう？",
 			painting = {
 				alpha = 0.3,
@@ -643,8 +643,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "少女は楽しそうに微笑んだ。どうやら美しい風景は、望遠鏡の彼方以外にも存在しているようだ――",

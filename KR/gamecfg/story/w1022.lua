@@ -1,15 +1,15 @@
 return {
-	id = "W1022",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1022",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "에너지 모듈 확인. 설비 가동 성공, 분석 중......",
 			typewriter = {
 				speed = 0.05,
@@ -24,8 +24,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "분석 성공. 분석 완료된 정보는 함대의 추후 작전에 도움을 줄 수 있습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -39,9 +39,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "업그레이드할 적응력 유형을 선택하세요:",
 			typewriter = {
 				speed = 0.05,

@@ -1,6 +1,6 @@
 slot0 = class("WorldBossArchivesAutoBattleCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().id
 
 	if not nowWorld():GetBossProxy():GetSelfBoss() or slot5:isDeath() then

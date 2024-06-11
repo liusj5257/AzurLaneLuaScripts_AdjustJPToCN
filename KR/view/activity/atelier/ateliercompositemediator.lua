@@ -1,7 +1,7 @@
 slot0 = class("AtelierCompositeMediator", import("view.base.ContextMediator"))
 slot0.OPEN_FORMULA = "OPEN_FORMULA"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(GAME.COMPOSITE_ATELIER_RECIPE, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.COMPOSITE_ATELIER_RECIPE, {
 			formulaId = uv0.contextData.formulaId,
@@ -23,7 +23,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetActivity(slot3)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.COMPOSITE_ATELIER_RECIPE_DONE,
 		ActivityProxy.ACTIVITY_UPDATED,
@@ -31,7 +31,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.COMPOSITE_ATELIER_RECIPE_DONE then
@@ -45,7 +45,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 end
 
 return slot0

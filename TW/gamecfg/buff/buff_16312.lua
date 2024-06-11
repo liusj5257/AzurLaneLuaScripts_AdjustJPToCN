@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 16312,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 6,
-	id = 16312,
+	color = "blue",
 	icon = 16310,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.02
+				number = -0.02,
+				attr = "injureRatio"
 			}
 		},
 		{

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIBEIERFASITE",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIBEIERFASITE",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"SPストーリー\n\n<size=45>完璧なる従者</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "……さま、ご主人様。",
 			typewriter = {
 				speed = 0.05,
@@ -43,18 +43,18 @@ return {
 			}
 		},
 		{
-			bgmDelay = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			optionFlag = 1,
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-2",
 			actor = 202120,
 			nameColor = "#a9f548",
 			say = "おはようございます。ご主人様",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -79,18 +79,18 @@ return {
 			}
 		},
 		{
-			bgmDelay = 2,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			optionFlag = 2,
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-2",
 			actor = 202120,
 			nameColor = "#a9f548",
 			say = "ご主人様、そろそろお茶の時間でございます",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "目を開くと、そこにはメイド長の美しい顔があった。",
 			typewriter = {
 				speed = 0.05,
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "ベルファストの膝枕、ご満足いただけたでしょうか。",
 			typewriter = {
 				speed = 0.05,
@@ -187,9 +187,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……！？",
 			dialogShake = {
 				speed = 0.09,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ベルファストの口元は若干緩んでいた。どうやらこの会話を楽しんでいるようだ",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "あれ、何の日なんだろ……？",
 			typewriter = {
 				speed = 0.05,
@@ -296,9 +296,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ベルファストは優しく微笑んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "目をつむって、彼女は穏やかな口調で語り続けた。",
 			typewriter = {
 				speed = 0.05,
@@ -468,9 +468,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ベルファストは首を傾げて、考え込む。",
 			typewriter = {
 				speed = 0.05,
@@ -482,9 +482,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そしてなにか思いついたようで、その顔はいつもの彼女に戻り――",
 			typewriter = {
 				speed = 0.05,
@@ -512,9 +512,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "両手でこちらの体を起こして、身なりを整え、昼食の支度をし始めた。",
 			typewriter = {
 				speed = 0.05,
@@ -542,9 +542,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "優雅な動きで、ベルファストが机と椅子、備え付けの日傘、そしてお菓子を盛り付けた食器を目の前に用意してくれた。",
 			typewriter = {
 				speed = 0.05,
@@ -572,9 +572,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "美味しいケーキに香ばしい紅茶。そしてそばにいるメイドの彼女。",
 			typewriter = {
 				speed = 0.05,
@@ -586,9 +586,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "秋の気配をほんのり感じる晩夏の午後。風になびく銀色の髪に見惚れてしまいそうな美しさだった。",
 			typewriter = {
 				speed = 0.05,
@@ -664,9 +664,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "彼女の視線を追っていくと、青き海と白い水平線の向こうに、仲間たちの姿がちらほら見える。",
 			typewriter = {
 				speed = 0.05,
@@ -710,9 +710,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "優雅で軽やかな足取りでこちらに近づき、軽い会釈をして、手に持っているティーポットを高く上げた。",
 			typewriter = {
 				speed = 0.05,
@@ -724,9 +724,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "完璧なメイドの作法で、こちらのティーカップに紅茶を注いだ。",
 			typewriter = {
 				speed = 0.05,
@@ -754,12 +754,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "貴方といる幸せな夢を、これからも、ずっと見続けられますように――",
 			typewriter = {
 				speed = 0.05,

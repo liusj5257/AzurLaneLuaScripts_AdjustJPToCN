@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "受到不明影响，电路断开了。",
 			typewriter = {
 				speed = 0.05,

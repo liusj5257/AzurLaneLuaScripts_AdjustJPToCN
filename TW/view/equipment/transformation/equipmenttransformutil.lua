@@ -1,4 +1,4 @@
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	for slot6, slot7 in ipairs({
 		{
 			"icon_bg/slv"

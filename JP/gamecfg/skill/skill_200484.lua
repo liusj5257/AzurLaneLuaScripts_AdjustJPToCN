@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023意大利共斗 EX难度 召唤大型沙尘龙卷-四周封锁",
 	cd = 0,
-	painting = 0,
-	id = 200484,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200484,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -23,27 +23,27 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 1.5,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 1.5,
 							setAI = 20006
 						},
 						{
-							switchType = 1,
+							switchParam = 20,
 							switchTo = 2,
 							index = 1,
-							switchParam = 20,
+							switchType = 1,
 							setAI = 70221,
 							addWeapon = {
 								3065408
 							}
 						},
 						{
-							switchType = 1,
+							switchParam = 300,
 							switchTo = 1,
 							index = 2,
-							switchParam = 300,
+							switchType = 1,
 							setAI = 20006,
 							addBuff = {
 								200440
@@ -68,27 +68,27 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 1.5,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 1.5,
 							setAI = 20006
 						},
 						{
-							switchType = 1,
+							switchParam = 20,
 							switchTo = 2,
 							index = 1,
-							switchParam = 20,
+							switchType = 1,
 							setAI = 70222,
 							addWeapon = {
 								3065409
 							}
 						},
 						{
-							switchType = 1,
+							switchParam = 300,
 							switchTo = 1,
 							index = 2,
-							switchParam = 300,
+							switchType = 1,
 							setAI = 20006,
 							addBuff = {
 								200440
@@ -113,27 +113,27 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 1.5,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 1.5,
 							setAI = 20006
 						},
 						{
-							switchType = 1,
+							switchParam = 20,
 							switchTo = 2,
 							index = 1,
-							switchParam = 20,
+							switchType = 1,
 							setAI = 70223,
 							addWeapon = {
 								3065410
 							}
 						},
 						{
-							switchType = 1,
+							switchParam = 300,
 							switchTo = 1,
 							index = 2,
-							switchParam = 300,
+							switchType = 1,
 							setAI = 20006,
 							addBuff = {
 								200440
@@ -158,27 +158,27 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 1.5,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 1.5,
 							setAI = 20006
 						},
 						{
-							switchType = 1,
+							switchParam = 20,
 							switchTo = 2,
 							index = 1,
-							switchParam = 20,
+							switchType = 1,
 							setAI = 70224,
 							addWeapon = {
 								3065411
 							}
 						},
 						{
-							switchType = 1,
+							switchParam = 300,
 							switchTo = 1,
 							index = 2,
-							switchParam = 300,
+							switchType = 1,
 							setAI = 20006,
 							addBuff = {
 								200440

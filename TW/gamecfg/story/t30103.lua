@@ -7,10 +7,10 @@ return {
 	fadeType = 2,
 	scripts = {
 		{
-			actor = 307020,
 			side = 2,
-			actorName = "{namecode:92}",
 			mode = 2,
+			actorName = "{namecode:92}",
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = "居然會和計算出現這麼大的偏差……無念",
 			shake = {
@@ -27,10 +27,10 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
-			actorName = "{namecode:92}",
 			mode = 2,
+			actorName = "{namecode:92}",
+			actor = 307020,
 			nameColor = "#ff0000",
 			say = "…{namecode:91}……",
 			shake = {
@@ -47,9 +47,9 @@ return {
 			}
 		},
 		{
+			bgName = "bg_story_8",
 			bgspeed = 2,
 			blackBg = true,
-			bgName = "bg_story_8",
 			say = "猶如神助",
 			typewriter = {
 				speed = 0.02,

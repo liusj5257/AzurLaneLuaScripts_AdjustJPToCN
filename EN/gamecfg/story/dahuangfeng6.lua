@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAHUANGFENG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAHUANGFENG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Duelling Sunshine!\n\n<size=45>6 Be Yourself</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Next day at the Practice Area ",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
+			say = "Next day at the Practice Area ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "The practice area at the port. After a few exercises, Hornet and Zuikaku stood there, waiting.",
@@ -61,12 +61,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "And soon, the signal flare signifying the start of the match was shot up.",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#a9f548",
+			say = "And soon, the signal flare signifying the start of the match was shot up.",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "Immediately, the two began to move. The practice had started.",
@@ -99,14 +99,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 107070,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Haa... Haa... She really is a tough cookie to beat...!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "But, the same goes for me! I've trained hard so that I can beat you, and the Grey Ghost herself!",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -173,8 +173,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "Just as Enterprise had predicted, Hornet had the upper hand early on, but as Zuikaku adapted to the battle, Hornet was slowly being driven into a corner.",
@@ -223,8 +223,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Of course there are parts I've copied, trying to catch up to her...",
 			typewriter = {
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "But I'm not just copying her while following in her footsteps! I'm my own person! I'm the youngest of the Yorktown-class, the dashing, brilliant Hornet!",
 			effects = {
 				{
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "...That's the spirit! Now, show me what you're made of!",
 			effects = {
 				{
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "After deploying her main air force, Hornet sped directly toward Zuikaku.",
 			effects = {
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "Lightning. Dodging Zuikaku's attack by a hair's breadth, Hornet instantly changed her stance and slipped into Zuikaku's reach...",
@@ -333,11 +333,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "Wh...at?!",
 			typewriter = {
 				speed = 0.05,
@@ -349,8 +349,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -359,12 +359,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "Wow!!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "Wow!!",
 			flashN = {
 				color = {
 					1,
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "Hornet, who managed to score a direct hit on Zuikaku, ended the practice just like that.",
@@ -432,8 +432,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Ahaha~ I did it! What a success!",
 			typewriter = {
@@ -446,8 +446,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -458,9 +458,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
+			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
 			say = "\"Pretend to copy Enty's tricks, and then mix things up.\"",
 			effects = {
@@ -494,8 +494,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -507,8 +507,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "That's why you had me train with Enty...",
 			typewriter = {
@@ -524,8 +524,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "It just might work on her, seeing how obsessed she is with my sister...",
 			typewriter = {
@@ -541,8 +541,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "I see... You didn't have Enty train me just because I was her sister...",
 			typewriter = {
@@ -558,8 +558,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "\"Copying your sister isn't bad, but don't just copy her. Use her power as a basis for your own skills and show off your own strength.\"",
 			typewriter = {
@@ -575,8 +575,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "I see.. You should've told me earlier! Even if you're the type to speak in a roundabout way like that, I'm not!",
 			typewriter = {
@@ -589,8 +589,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -602,8 +602,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "I might have been a bit down earlier, but pretend you didn't see anything! You didn't, right? Ugh... This is so embarrassing!",
 			dialogShake = {
@@ -623,9 +623,9 @@ return {
 		{
 			actor = 307060,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Pretending to use Enterprise's tricks to fool me... I guess I lost because I was too focused on them.",
 			effects = {
 				{
@@ -674,11 +674,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "But this isn't the end! I won't fall for such a trick twice!",
 			typewriter = {
 				speed = 0.05,
@@ -690,8 +690,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -716,11 +716,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "What did you say?!",
 			typewriter = {
 				speed = 0.05,
@@ -732,8 +732,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -758,11 +758,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "Then, until we can fight with our strength instead of relying on tricks! Now, come at me, Hornet!",
 			effects = {
 				{
@@ -796,11 +796,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Hornet and Zuikaku continued to spar...",
 			effects = {
 				{

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -17,23 +17,23 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "며칠 후. 체육관",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "며칠 후. 체육관",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
 			actorScale = 0.6,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "하아...... 하아...... 늦어서 미안!",
 			effects = {
 				{
@@ -51,8 +51,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -68,8 +68,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
 					number = 3
@@ -85,8 +85,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 3,
 					dur = 0.1,
 					number = 3
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "모두들 농구 대항전을 위해 열심히 연습할 때, 팀장 클리블랜드가 뜻밖에 지각을 했다.",
 			effects = {
 				{
@@ -126,30 +126,30 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "꿀꺽꿀꺽...... 하! 사실은 방금 오는 길에——",
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
 					number = 1
@@ -165,15 +165,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "아아! 샌디에이고 기숙사 뒷마당에 밀이 가득 자랐다고!? ......그럼 마침 식량을 보충할 수 있는거 아닌가......",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -230,16 +230,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "됐어 됐어! 다같이 수확이나 하자. 날 다시는 형님이라고 부르지마!",
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -255,15 +255,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "그래서 이글 유니온 기숙사로 도우러 갔어...... 정말 미안!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -288,9 +288,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "클리블랜드는 두 손을 모으며 사과했다. 함대에 함께 오래 있었으니, 아무래도 이것들에 대해서도 벌써 익숙해진 것 같다.",
 			typewriter = {
 				speed = 0.05,
@@ -314,12 +314,12 @@ return {
 			}
 		},
 		{
-			actor = 102150,
+			say = "고마워 언니! 정말 배려심이 많다니깐!",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "고마워 언니! 정말 배려심이 많다니깐!",
+			actor = 102150,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -334,11 +334,11 @@ return {
 			}
 		},
 		{
-			actor = 102100,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 102100,
+			nameColor = "#92fc63",
 			say = "언니 너무 무디다~ 헬레나의 도시락은 좋지만, 가끔은 클리블랜드의 손재주도 맛보고 싶다고, 맞지 지휘관?",
 			typewriter = {
 				speed = 0.05,
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "지, 진짜? 그럼 다음에 헬레나한테 물어볼게...... 지휘관이 원하니까 하는거야!",
 			typewriter = {
 				speed = 0.05,

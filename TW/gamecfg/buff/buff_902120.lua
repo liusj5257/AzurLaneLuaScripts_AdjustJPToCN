@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "旗帜之下",
 	init_effect = "jinengchufablue",
-	color = "yellow",
+	id = 902120,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902120,
+	color = "yellow",
 	icon = 902120,
 	last_effect = "",
 	blink = {

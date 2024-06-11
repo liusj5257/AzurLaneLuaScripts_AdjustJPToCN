@@ -1,6 +1,6 @@
 slot0 = class("ChapterBoxAction", import(".ChapterCommonAction"))
 
-function slot0.applyTo(slot0, slot1, slot2)
+slot0.applyTo = function(slot0, slot1, slot2)
 	if slot2 then
 		return true
 	end
@@ -12,7 +12,7 @@ function slot0.applyTo(slot0, slot1, slot2)
 	return uv0.super.applyTo(slot0, slot1, slot2)
 end
 
-function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
+slot0.PlayAIAction = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1.fleet.line
 	slot6 = pg.box_data_template[slot1:getChapterCell(slot4.row, slot4.column).attachmentId]
 

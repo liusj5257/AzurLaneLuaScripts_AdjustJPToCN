@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 3,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 109091,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 109091,
+	color = "red",
 	icon = 109090,
 	last_effect = "",
 	effect_list = {
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				maxTargetNumber = 0,
 				fleetAttr = "ReisalinAP>=10",
+				maxTargetNumber = 0,
 				skill_id = 109090,
 				check_target = {
 					"TargetSelf",

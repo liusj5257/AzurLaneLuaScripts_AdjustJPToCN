@@ -19,10 +19,10 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "O-Onii-chan... before Unicorn says so, Onii-chan cannot open his eyes!",
+			nameColor = "#a9f548",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,10 +35,10 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "Ugh... it’s still like this...",
+			nameColor = "#a9f548",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,10 +51,10 @@ return {
 		{
 			actor = 206030,
 			side = 2,
-			nameColor = "#a9f548",
-			withoutPainting = true,
-			blackBg = true,
 			say = "Lady Stardust… please give Unicorn courage...",
+			nameColor = "#a9f548",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,8 +70,8 @@ return {
 			nameColor = "#a9f548",
 			say = "(Singing)...",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -157,8 +157,8 @@ return {
 			nameColor = "#a9f548",
 			say = "Sigh... thank goodness... Onii-chan is alright...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_78 = {}
 slot1 = slot0.word_template_78
 
-function temp()
+temp = function()
 	uv0["當"] = {
 		["官"] = {
 			["的"] = {
@@ -39,7 +39,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["挡"] = {
 		["不"] = {
 			["住"] = {
@@ -78,7 +78,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["档"] = {
 		["案"] = {
 			["局"] = {
@@ -111,7 +111,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["党"] = {
 		["卑"] = {
 			["鄙"] = {
@@ -469,7 +469,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["谠"] = {
 		["亡"] = {
 			this = true
@@ -486,7 +486,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["黨"] = {
 		["都"] = {
 			["不"] = {
@@ -508,7 +508,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["氹"] = {
 		this = {
 			this = true

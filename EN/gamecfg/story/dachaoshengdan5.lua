@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Operation: Christmas!\n\n<size=45>Chapter 5: Warspite's Wish</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "You see, I'm struggling to come up with good presents for my Royal Navy friends.",
 			bgm = "story-1",
+			actor = 205020,
+			nameColor = "#a9f548",
+			say = "You see, I'm struggling to come up with good presents for my Royal Navy friends.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			say = "That's not an issue. It should hardly take any time to go to the store and purchase things.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "That's not an issue. It should hardly take any time to go to the store and purchase things.",
+			actor = 107061,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -168,11 +168,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "Ah, the thought behind it... I see now. It's not about the item itself, but the feelings it represents!",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -258,11 +258,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "It's a spare one, so we would be delighted to see it put to use!",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -332,12 +332,12 @@ return {
 			}
 		},
 		{
-			actor = 107061,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107061,
+			nameColor = "#a9f548",
 			say = "The Royal Navy will surely have an interesting Christmas with Santa Clauspite around. Hahahah!",
 			typewriter = {
 				speed = 0.05,

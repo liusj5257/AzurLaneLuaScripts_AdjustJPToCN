@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOYIXI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOYIXI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"맛있는 티라미수\n\n<size=45>1. 인어 공주?</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			say = "저녁 무렵, 업무의 피로를 풀기 위해 해변에 왔다.",
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			hidePaintObj = true,
+			say = "저녁 무렵, 업무의 피로를 풀기 위해 해변에 왔다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -81,16 +81,16 @@ return {
 			}
 		},
 		{
-			actor = 102290,
+			withoutActorName = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 102290,
+			hidePaintObj = true,
 			say = "푸른색 실루엣이 바다 속에서 튀어 올라 주변에 바닷물의 흔적을 남겼다. 굉장히 부드러워 보이면서도 활력이 넘쳤다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -133,10 +133,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "후... 하... 야간 잠수는 시간 계산을 조금 더 해봐야겠네...",
 			typewriter = {
 				speed = 0.05,
@@ -151,10 +151,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지, 지휘관?! 여기에는 대체 왜...",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -206,12 +206,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관이 있는 줄 알았다면 조금 더 조심해서 나왔을 거야...",
 			typewriter = {
 				speed = 0.05,
@@ -241,10 +241,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "지휘관... 그렇게 계속 쳐다보면 조금 긴장되는데...",
 			typewriter = {
 				speed = 0.05,
@@ -274,10 +274,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "벼, 별다른 용건이 없다면...",
 			typewriter = {
 				speed = 0.05,
@@ -292,10 +292,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "먼저 가볼게...!",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2500
@@ -331,14 +331,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			hidePaintObj = true,
 			say = "해변에서 지휘실로 돌아오는 길에 계속 보이시에 대해 생각했다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

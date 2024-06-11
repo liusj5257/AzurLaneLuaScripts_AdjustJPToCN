@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA31",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "結論呢？",
 			bgm = "bsm-2",
+			actor = 900136,
+			nameColor = "#ff5c5c",
+			say = "結論呢？",
 			flashin = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					1,
 					0
@@ -83,10 +83,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "或許不是主動的轉移，而是被動的交匯……",
 			typewriter = {
 				speed = 0.05,
@@ -116,10 +116,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "我明白。",
 			typewriter = {
 				speed = 0.05,
@@ -165,10 +165,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "就這樣繼續隱秘觀察。不要干涉實驗機關到行動，也不要被發現。關鍵點G那邊，我派遣了其他仲裁機關進行處理。",
 			typewriter = {
 				speed = 0.05,
@@ -182,10 +182,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "這裡是一處需要被格外精密的對待的場所，有很多自然演算系統都無法確定其影響的變量正在匯聚其中……",
 			typewriter = {
 				speed = 0.05,
@@ -199,10 +199,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "…………………………",
 			typewriter = {
 				speed = 0.05,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_242 = {}
 slot1 = slot0.word_template_242
 
-function temp()
+temp = function()
 	uv0["銎"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["窮"] = {
 		["逼"] = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["丘"] = {
 		["垂"] = {
 			["貞"] = {
@@ -35,7 +35,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["邱"] = {
 		["学"] = {
 			["强"] = {
@@ -47,7 +47,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["秋"] = {
 		["本"] = {
 			["由"] = {
@@ -99,7 +99,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["萩"] = {
 		["原"] = {
 			["舞"] = {
@@ -111,7 +111,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["求"] = {
 		["购"] = {
 			this = true,

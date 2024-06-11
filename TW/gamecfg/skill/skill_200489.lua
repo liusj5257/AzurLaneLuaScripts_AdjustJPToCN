@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023古立特联动复刻 TSS1 南梦芽 古利特召唤",
 	cd = 0,
-	painting = 0,
-	id = 200489,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200489,
 	effect_list = {
 		{
 			type = "BattleSkillPhaseJump",
@@ -19,10 +19,10 @@ return {
 			arg_list = {}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				buff_id = 200440,
 				exceptCaster = true
@@ -45,8 +45,8 @@ return {
 				delay = 0.1,
 				effect = "shanshuo",
 				casterRelativeCorrdinate = {
-					hrz = 0,
-					vrt = 0
+					vrt = 0,
+					hrz = 0
 				}
 			}
 		}

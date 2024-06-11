@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA9",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA9",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
@@ -22,11 +22,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			dir = 1,
-			actor = 10400010,
 			withoutActorName = true,
-			say = "(콰앙~!)",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 10400010,
+			say = "(콰앙~!)",
 			flashN = {
 				color = {
 					1,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 0
@@ -111,8 +111,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "가짜 키즈나 아이",
 			say = "………",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "키즈나 아이",
 			say = "이대로 간다면 식은 죽 먹기겠네요♪ 나 혼자서도 충분할지도?",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "키즈나 아이",
 			say = "이, 이제 그런 무리는 하지 않아요! 아까 같은 전철은 밟지 않는다구요!",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -202,8 +202,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "키즈나 아이",
 			say = "…그래도 역시 만전을 기해서, 여러분과 함께 가도록 하죠!",
 			typewriter = {

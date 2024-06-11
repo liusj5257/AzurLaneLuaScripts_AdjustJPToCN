@@ -6,7 +6,7 @@ slot0.STATUS_CART = 3
 slot0.HIT_DELTA = 15
 slot0.HIT_MOVE_TIME = 0.5
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.binder = slot1
 	slot0._tf = slot2
 	slot0.collisionMgr = slot3
@@ -14,7 +14,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0:Init()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0.uiMgr = pg.UIMgr.GetInstance()
 
 	slot0.collisionMgr:SetAkashiObject(slot0)
@@ -32,7 +32,7 @@ function slot0.Init(slot0)
 	slot0.aabb = OreGameHelper.GetAABBWithTF(slot0.aabbTF)
 end
 
-function slot0.AddListener(slot0)
+slot0.AddListener = function(slot0)
 	slot1 = slot0.binder
 
 	slot1:bind(OreGameConfig.EVENT_DO_CARRY, function (slot0, slot1)
@@ -54,7 +54,7 @@ function slot0.AddListener(slot0)
 	end)
 end
 
-function slot0.AddDftAniEvent(slot0)
+slot0.AddDftAniEvent = function(slot0)
 	slot2 = slot0._tf
 
 	eachChild(slot2:Find("main"), function (slot0)
@@ -84,7 +84,7 @@ function slot0.AddDftAniEvent(slot0)
 	end)
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	setAnchoredPosition(slot0._tf, Vector2(0, -100))
 
 	slot0.invincible = nil
@@ -93,7 +93,7 @@ function slot0.Reset(slot0)
 	slot0.mainTF:Find("main/Image"):GetComponent(typeof(Animator)):Play("Idle_S_0")
 end
 
-function slot0.ResetData(slot0)
+slot0.ResetData = function(slot0)
 	slot0.oreAnimName = ""
 	slot0.toolAnimName = ""
 	slot0.mainAnimName = ""
@@ -108,7 +108,7 @@ function slot0.ResetData(slot0)
 	slot0:ResetStatus()
 end
 
-function slot0.ResetStatus(slot0)
+slot0.ResetStatus = function(slot0)
 	slot0:SetStatus(uv0.STATUS_NULL)
 
 	slot0.oreList = {}
@@ -157,7 +157,7 @@ slot1 = {
 	}
 }
 
-function slot0.PlayEffect(slot0, slot1)
+slot0.PlayEffect = function(slot0, slot1)
 	if slot0.animDir == "N" then
 		return
 	end
@@ -173,7 +173,7 @@ function slot0.PlayEffect(slot0, slot1)
 	setActive(slot3, true)
 end
 
-function slot0.AddOre(slot0, slot1)
+slot0.AddOre = function(slot0, slot1)
 	if slot0.status == uv0.STATUS_WOOD_BOX and #slot0.oreList >= 6 then
 		return
 	end
@@ -207,7 +207,7 @@ function slot0.AddOre(slot0, slot1)
 	end)
 end
 
-function slot0.CheckStatus(slot0)
+slot0.CheckStatus = function(slot0)
 	slot1 = false
 
 	if slot0.status == uv0.STATUS_NULL then
@@ -226,7 +226,7 @@ function slot0.CheckStatus(slot0)
 	end
 end
 
-function slot0.SetStatus(slot0, slot1)
+slot0.SetStatus = function(slot0, slot1)
 	slot0.status = slot1
 	slot3 = slot0._tf
 
@@ -241,7 +241,7 @@ function slot0.SetStatus(slot0, slot1)
 	slot0.speed = OreGameConfig.SPEED[slot0.status]
 end
 
-function slot0.SetAnimDir(slot0, slot1)
+slot0.SetAnimDir = function(slot0, slot1)
 	slot0.animDir = slot1
 	slot3 = slot0._tf
 
@@ -256,7 +256,7 @@ function slot0.SetAnimDir(slot0, slot1)
 	end)
 end
 
-function slot0.PlayHitAnim(slot0, slot1, slot2, slot3)
+slot0.PlayHitAnim = function(slot0, slot1, slot2, slot3)
 	slot0.invincible = 0
 
 	setActive(slot0._tf:Find("effect/EF_Clash_" .. slot1), true)
@@ -290,7 +290,7 @@ function slot0.PlayHitAnim(slot0, slot1, slot2, slot3)
 	slot0:ResetStatus()
 end
 
-function slot0.PlayDeliver(slot0)
+slot0.PlayDeliver = function(slot0)
 	slot0.isDeliver = true
 
 	setActive(slot0.mainTF:Find("tool"), false)
@@ -298,7 +298,7 @@ function slot0.PlayDeliver(slot0)
 	slot0.mainTF:Find("main/Image"):GetComponent(typeof(Animator)):Play("Deliver")
 end
 
-function slot0.CheckDeliver(slot0)
+slot0.CheckDeliver = function(slot0)
 	if slot0._tf.anchoredPosition.y < OreGameConfig.RANGE_Y[1] + 2 and slot0._tf.anchoredPosition.x > -100 and slot0._tf.anchoredPosition.x < 100 and slot0.animDir == "S" and slot0.weight > 0 then
 		slot0:PlayDeliver()
 		slot0.binder:emit(OreGameConfig.EVENT_DELIVER, {
@@ -310,7 +310,7 @@ function slot0.CheckDeliver(slot0)
 	end
 end
 
-function slot0.OnTimer(slot0, slot1)
+slot0.OnTimer = function(slot0, slot1)
 	if slot0.invincible then
 		slot0.invincible = slot0.invincible + slot1
 
@@ -349,7 +349,7 @@ function slot0.OnTimer(slot0, slot1)
 	end
 end
 
-function slot0.UpdateAnim(slot0, slot1)
+slot0.UpdateAnim = function(slot0, slot1)
 	slot3 = false
 
 	if OreGameHelper.GetFourDirLabel(slot1) == "STAND" then
@@ -433,7 +433,7 @@ slot0.oreAnimOffset = {
 	}
 }
 
-function slot0.UpdatePosition(slot0, slot1)
+slot0.UpdatePosition = function(slot0, slot1)
 	slot3 = OreGameHelper.GetEightDirVector(slot1) * OreGameConfig.TIME_INTERVAL * slot0.speed
 
 	slot0:SetPosition({
@@ -442,7 +442,7 @@ function slot0.UpdatePosition(slot0, slot1)
 	})
 end
 
-function slot0.SetPosition(slot0, slot1)
+slot0.SetPosition = function(slot0, slot1)
 	if OreGameHelper.CheckRemovable(slot1) then
 		setAnchoredPosition(slot0._tf, slot1)
 
@@ -450,26 +450,26 @@ function slot0.SetPosition(slot0, slot1)
 	end
 end
 
-function slot0.IsInvincible(slot0)
+slot0.IsInvincible = function(slot0)
 	return slot0.invincible
 end
 
-function slot0.GetAnimDirLabel(slot0)
+slot0.GetAnimDirLabel = function(slot0)
 	return slot0.animDir
 end
 
-function slot0.GetAABB(slot0)
+slot0.GetAABB = function(slot0)
 	return slot0.aabb
 end
 
-function slot0.GetCarryTriggerOffset(slot0)
+slot0.GetCarryTriggerOffset = function(slot0)
 	return {
 		0,
 		10
 	}
 end
 
-function slot0.GetCollisionInfo(slot0)
+slot0.GetCollisionInfo = function(slot0)
 	return {
 		pos = {
 			x = slot0._tf.anchoredPosition.x + slot0.aabbTF.anchoredPosition.x,

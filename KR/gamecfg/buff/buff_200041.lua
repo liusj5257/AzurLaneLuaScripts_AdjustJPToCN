@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑声望 蓄力成功/失败监听",
 	time = 0,
-	color = "yellow",
+	name = "黑声望 蓄力成功/失败监听",
+	init_effect = "",
+	id = 200041,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200041,
+	color = "yellow",
 	icon = 200041,
 	last_effect = "",
 	effect_list = {

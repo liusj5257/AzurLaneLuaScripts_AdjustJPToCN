@@ -36,20 +36,20 @@ slot3.AIR_UNIT_TYPE = {
 	slot2.UnitType.UAV_UNIT
 }
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 end
 
-function slot3.Init(slot0, slot1)
+slot3.Init = function(slot0, slot1)
 	slot0._allBundlePool = {}
 	slot0._activeList = {}
 	slot0._popSkin = slot1
 end
 
-function slot3.GetPopSkin(slot0)
+slot3.GetPopSkin = function(slot0)
 	return slot0._popSkin
 end
 
-function slot3.InitialBundlePool(slot0, slot1)
+slot3.InitialBundlePool = function(slot0, slot1)
 	slot0._allBundlePool[uv0.Battle.BattlePopNumBundle.PRO] = pg.LuaObPool.New(uv0.Battle.BattlePopNumBundle, {
 		containerTpl = slot1,
 		type = uv0.Battle.BattlePopNumBundle.PRO
@@ -60,7 +60,7 @@ function slot3.InitialBundlePool(slot0, slot1)
 	}, 4)
 end
 
-function slot3.InitialScorePool(slot0, slot1)
+slot3.InitialScorePool = function(slot0, slot1)
 	slot0._allBundlePool[uv0.Battle.BattlePopNumBundle.PRO] = pg.LuaObPool.New(uv0.Battle.BattlePopNumBundle, {
 		score = true,
 		containerTpl = slot1,
@@ -73,7 +73,7 @@ function slot3.InitialScorePool(slot0, slot1)
 	}, 2)
 end
 
-function slot3.Clear(slot0)
+slot3.Clear = function(slot0)
 	for slot4, slot5 in pairs(slot0._allBundlePool) do
 		slot5:Dispose()
 	end
@@ -82,11 +82,11 @@ function slot3.Clear(slot0)
 	slot0._activeList = {}
 end
 
-function slot3.GetBundle(slot0, slot1)
+slot3.GetBundle = function(slot0, slot1)
 	return slot0._allBundlePool[uv0.getBundleType(slot1)]:GetObject()
 end
 
-function slot3.getType(slot0, slot1, slot2, slot3)
+slot3.getType = function(slot0, slot1, slot2, slot3)
 	slot4 = 1
 	slot5 = nil
 
@@ -106,13 +106,13 @@ function slot3.getType(slot0, slot1, slot2, slot3)
 	return slot5, slot4
 end
 
-function slot3.getBundleType(slot0)
+slot3.getBundleType = function(slot0)
 	slot1 = nil
 
 	return (not table.contains(uv0.AIR_UNIT_TYPE, slot0) or uv1.Battle.BattlePopNumBundle.SLIM) and uv1.Battle.BattlePopNumBundle.PRO
 end
 
-function slot3.generateTempPool(slot0, slot1, slot2, slot3, slot4)
+slot3.generateTempPool = function(slot0, slot1, slot2, slot3, slot4)
 	return pg.LuaObPool.New(uv0.Battle.BattlePopNum, {
 		template = slot3.transform:Find(slot1).gameObject,
 		parentTF = slot2,
@@ -120,7 +120,7 @@ function slot3.generateTempPool(slot0, slot1, slot2, slot3, slot4)
 	}, slot4)
 end
 
-function slot3.resetPopParent(slot0, slot1, slot2)
+slot3.resetPopParent = function(slot0, slot1, slot2)
 	slot6 = slot2
 
 	slot1:UpdateInfo("parentTF", slot6)

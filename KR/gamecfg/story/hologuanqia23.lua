@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA23",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA23",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 1,
 			actorName = "{namecode:96}",
+			side = 1,
 			stopbgm = true,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "네가 무슨 걱정 하는지는 알아. 나도 쇼카쿠 언니의 모습을 한 장기말을 처치해본 적이 있으니까…",
 			flashin = {
 				delay = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -96,15 +96,15 @@ return {
 			}
 		},
 		{
-			side = 0,
 			nameColor = "#a9f548",
-			actorName = "시라카미 후부키",
+			side = 0,
 			dir = 1,
 			blackBg = true,
+			actorName = "시라카미 후부키",
 			say = "으음… 라피쨩… 쇼카쿠쨩… 미오쨩…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "시라카미 후부키",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "시라카미 후부키",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -161,15 +161,15 @@ return {
 			}
 		},
 		{
-			say = "깊은 밤-레지스탕스 기지",
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-tokiwa",
+			say = "깊은 밤-레지스탕스 기지",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "그 아쿠아쨩은… 진짜 아쿠아쨩이 아닌거지…",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "적이라면… 싸울 수밖에 없어.",
 			typewriter = {
@@ -264,8 +264,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "…정말 싸워야 하는걸까? 다음 번에… 내가 그럴 수 있을까?",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "다시 만나게 된다면… 나는 어떻게 해야…",
 			typewriter = {
@@ -298,14 +298,14 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
 			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "………………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -333,9 +333,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500010,
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "소라 선배는 어디서든 상냥한 소라 선배구나.",
 			typewriter = {

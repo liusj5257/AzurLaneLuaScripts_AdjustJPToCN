@@ -14,9 +14,9 @@ return {
 			style = {
 				text = "可以在此購買戰役訊息記錄儀。",
 				mode = 2,
-				posY = 84.9,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 84.9,
 				posX = -662.56
 			},
 			showSign = {

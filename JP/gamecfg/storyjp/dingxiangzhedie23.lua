@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE23",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhedie_7",
-			stopbgm = true,
-			say = "お互いの艦隊が予定位置に到着し、今にも対抗演習が始まろうとしている。",
 			bgmDelay = 2,
 			bgm = "theme-aostelab",
+			stopbgm = true,
+			say = "お互いの艦隊が予定位置に到着し、今にも対抗演習が始まろうとしている。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			say = "指揮艦の甲板で海を眺めていると、さっきまで作戦を打ち合わせていたヨークタウンが歩み寄ってきた。",
 			typewriter = {
@@ -41,10 +41,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官様、ここにいたのね",
 			painting = {
 				alpha = 0.3,
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			say = "何か言いたそうな表情だ。",
 			typewriter = {
@@ -69,10 +69,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふ、指揮官様に隠し事なんてできないわね",
 			painting = {
 				alpha = 0.3,
@@ -87,10 +87,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "実は指揮官様に、改めてお礼を言いに来たわ",
 			painting = {
 				alpha = 0.3,
@@ -102,12 +102,12 @@ return {
 			}
 		},
 		{
-			actor = 107100,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官様の知っての通り、昔の私はずっと悲しんでばかりだった",
 			painting = {
 				alpha = 0.3,
@@ -122,10 +122,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官様と出会って、指揮官様と一緒に時間を過ごすことで、ようやく心の闇から抜け出すことができた",
 			painting = {
 				alpha = 0.3,
@@ -140,10 +140,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でも最近、このまま毎日を過ごしてもいいのかなって、時々思うようになっちゃって……",
 			painting = {
 				alpha = 0.3,
@@ -158,10 +158,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "せっかく指揮官様が光へと導いてくれたというのに、私が闇に戻ったらどうしようと、悩むこともあって",
 			painting = {
 				alpha = 0.3,
@@ -176,10 +176,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "その時、指揮官様は「Ⅱ」型艤装を用意してくれた",
 			painting = {
 				alpha = 0.3,
@@ -194,10 +194,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "新しい力はもちろんだけど、この艤装からは…指揮官様が大切に想ってくれてる、その心を感じるわ",
 			painting = {
 				alpha = 0.3,
@@ -212,10 +212,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふ、ごめんなさい。私、つい恥ずかしいことを言っちゃって",
 			painting = {
 				alpha = 0.3,
@@ -230,10 +230,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あっ、たとえこの艤装がなくても、指揮官様の想いはちゃんと伝わっているわ",
 			painting = {
 				alpha = 0.3,
@@ -248,10 +248,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "だからその…ええと…もしかしたら、これが「Ⅱ」型艤装のせいなのかな……",
 			painting = {
 				alpha = 0.3,
@@ -263,12 +263,12 @@ return {
 			}
 		},
 		{
-			actor = 107100,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "前よりは積極的になっちゃったけど、まだ…慣れていなくて……",
 			painting = {
 				alpha = 0.3,
@@ -280,8 +280,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			say = "ヨークタウンに幸せになって欲しい、その願いをメンタルキューブに込めて作った「Ⅱ」型艤装。",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			say = "例えこの仮想空間での「仮初のヨークタウン」に対しても、自分の想いは変わらない。",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			say = "むしろ、今の彼女こそ、「再現」で倒れた「現実のヨークタウン」の、幸せな姿を具現化したものだろう。",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			say = "もし可能なら、今度は――",
 			typewriter = {
@@ -342,10 +342,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "おっ、いい雰囲気じゃないの？ヨークタウン姉、あとでちゃんとプレゼントを指揮官に渡しなよ♪",
 			painting = {
 				alpha = 0.3,
@@ -360,10 +360,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ほ、ホーネット！？いつの間に…？",
 			painting = {
 				alpha = 0.3,
@@ -378,10 +378,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "しまった…通信回線を切ってなかったわ…！",
 			painting = {
 				alpha = 0.3,
@@ -393,8 +393,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -425,10 +425,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "い、今の全部聞いてたの？",
 			painting = {
 				alpha = 0.3,
@@ -443,10 +443,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ヒュー♪これはめっちゃ進んだ予感！",
 			painting = {
 				alpha = 0.3,
@@ -461,10 +461,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あぅ……………………………………………………………………………………",
 			painting = {
 				alpha = 0.3,
@@ -476,8 +476,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			say = "ヨークタウンはあまりの気恥ずかしさで俯いてしまった。",
 			typewriter = {
@@ -495,10 +495,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "え？い、今のはホーネットが適当に言っただけよっ。指揮官様、ええと、本気にしないで？",
 			painting = {
 				alpha = 0.3,
@@ -510,8 +510,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -523,10 +523,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ホーネット、そろそろ演習が始まっちゃうから、変なことを言わないのっ…",
 			painting = {
 				alpha = 0.3,
@@ -560,10 +560,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ほかに誰もいないし、誰にも観測されない、言ったところで減るもんじゃないわ",
 			painting = {
 				alpha = 0.3,
@@ -597,10 +597,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "メンフィス………？急にどうしたの…？",
 			painting = {
 				alpha = 0.3,
@@ -615,10 +615,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "声が震えているわ…ごめんなさい。私こそ、指揮官様に変なことを言っちゃって……",
 			painting = {
 				alpha = 0.3,
@@ -652,10 +652,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "すべてが終わってからぐっすり寝て、目覚めればもとに戻るわ",
 			painting = {
 				alpha = 0.3,
@@ -686,8 +686,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			say = "吹っ切れたかのような、それとも全てを諦めたかのような口調で、「メンフィス」は語った。",
 			typewriter = {
@@ -696,8 +696,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			say = "間違いなく、彼女はこの世界が仮初の夢であることを知っている。",
 			typewriter = {
@@ -706,8 +706,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			say = "だが、彼女は一体誰なのか、自分の知っている「メンフィス」じゃないなら――",
 			typewriter = {
@@ -719,10 +719,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "賛成！全部終わったら思いっきり休暇を楽しむわよ！",
 			painting = {
 				alpha = 0.3,
@@ -734,8 +734,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -747,10 +747,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官と一緒に海を楽しんで、映画を見まくって、バンカー・ヒルのやつのように昼夜逆転生活しても大丈夫！",
 			painting = {
 				alpha = 0.3,
@@ -800,8 +800,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_7",
 			say = "戦いが今始まる。",
 			typewriter = {

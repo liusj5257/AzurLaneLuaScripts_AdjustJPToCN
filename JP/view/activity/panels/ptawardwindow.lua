@@ -1,6 +1,6 @@
 slot0 = class("PtAwardWindow")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0.binder = slot2
 	slot3 = slot0._tf
@@ -32,7 +32,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateList = function(slot0, slot1, slot2, slot3, slot4)
 	assert(#slot1 == #slot2)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
@@ -78,7 +78,7 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4)
 	scrollTo(slot0.scrollPanel, 0, 1 - slot3 * 166 / (#slot2 * 166 + 20 - 570))
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot6 = slot1.resId
 	slot0.resIcon = nil
 
@@ -93,7 +93,7 @@ function slot0.Show(slot0, slot1)
 	setActive(slot0._tf, true)
 end
 
-function slot0.UpdateTitle(slot0, slot1)
+slot0.UpdateTitle = function(slot0, slot1)
 	slot2 = ""
 
 	if slot1 == 2 then
@@ -119,7 +119,7 @@ function slot0.UpdateTitle(slot0, slot1)
 	end
 end
 
-function slot0.updateResIcon(slot0, slot1, slot2, slot3)
+slot0.updateResIcon = function(slot0, slot1, slot2, slot3)
 	if slot3 == 2 or slot3 ~= 3 and slot3 ~= 4 and slot3 ~= 5 and slot3 ~= 6 then
 		if slot1 then
 			slot0.resIcon = Drop.New({
@@ -139,11 +139,11 @@ function slot0.updateResIcon(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	setActive(slot0._tf, false)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Hide()
 	removeOnButton(slot0._tf)
 	removeOnButton(slot0.closeBtn)

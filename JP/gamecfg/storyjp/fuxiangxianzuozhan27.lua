@@ -1,18 +1,18 @@
 return {
-	id = "FUXIANGXIANZUOZHAN27",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN27",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-executor-type1",
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "オイゲン！大丈夫！？怪我してない？",
-			bgm = "battle-executor-type1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -93,8 +93,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -118,10 +118,10 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 403090,
 			say = "そうね！よぉし、プリンツ・ハインリヒ、いっくわよー！",
 			effects = {
 				{
@@ -141,12 +141,12 @@ return {
 		{
 			actor = 307050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "まさか鉄血がここまですごい施設を隠し持っているとは驚きましたわね…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -255,8 +255,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			say = "私達は南大陸を経由してNA海域に向かう途中で巻き込まれましたわ",
 			typewriter = {
 				speed = 0.05,
@@ -421,8 +421,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			say = "……？",
 			typewriter = {
 				speed = 0.05,

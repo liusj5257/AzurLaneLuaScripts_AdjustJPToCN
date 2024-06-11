@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_cg5",
+			bgm = "theme-theloversvi",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Location unknown - Outer defensive line",
-			bgm = "theme-theloversvi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "This was the outer perimeter, where the Lovers and the Empress had erected a defensive line against X's impending assault.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "Countless interceptor weapons filled the sky, accompanied by floating fortresses as far as the eye could see.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "From land, to sea, to even the heavens, a curtain of steel rose high.",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "It was like a hive of epic proportions, ANTI-X's fleets moving to and fro between defensive structures like worker bees.",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "There were humanoid units on patrol, warships of every size, massive ships for moving cargo, swarms of drones and unmanned aircraft...",
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "This massive orchestra with guns in place of instruments was conducted silently by one girl, her skin pale and her eyes emotionless.",
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "Reflected in those eyes was a horizon, and a dark audience. Her gaze was unflinchingly focused on it.",
@@ -110,29 +110,29 @@ return {
 			}
 		},
 		{
-			actor = 900322,
-			side = 2,
 			bgName = "bg_zhuguang_6",
-			hidePaintObj = true,
-			nameColor = "#BDBDBD",
-			say = "Ahah! It's been a while since you brought out the good stuff, ANTI-X.",
+			side = 2,
 			bgm = "theme-richard",
+			actor = 900322,
+			nameColor = "#BDBDBD",
+			hidePaintObj = true,
+			say = "Ahah! It's been a while since you brought out the good stuff, ANTI-X.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

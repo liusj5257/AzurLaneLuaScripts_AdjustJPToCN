@@ -5,7 +5,7 @@ slot0.OnOpenAllocateLayer = "WorldInventoryMediator.OnOpenAllocateLayer"
 slot0.OPEN_MODULEINFO_LAYER = "WorldInventoryMediator:OPEN_MODULEINFO_LAYER"
 slot0.OPEN_EQUIPMENT_INDEX = "OPEN_EQUIPMENT_INDEX"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.OnUseItem, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.WORLD_ITEM_USE, {
 			itemID = slot1,
@@ -63,7 +63,7 @@ function slot0.register(slot0)
 	}))
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		EquipmentProxy.EQUIPMENT_UPDATED,
 		GAME.USE_ITEM_DONE,
@@ -76,7 +76,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == EquipmentProxy.EQUIPMENT_UPDATED then

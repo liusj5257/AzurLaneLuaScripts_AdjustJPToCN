@@ -1,10 +1,10 @@
 slot0 = class("SupportShipPoolPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SupportShipPoolPageUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.medalCount = slot0._tf:Find("gallery/res_items/medal")
 	slot0.patingTF = slot0:findTF("painting")
 	slot0.bg = slot0:findTF("gallery/bg")
@@ -14,13 +14,13 @@ function slot0.OnLoaded(slot0)
 	slot0.startBtn = slot0:findTF("gallery/start_btn")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.shopBtn, function ()
 		uv0:emit(BuildShipMediator.ON_SUPPORT_SHOP)
 	end, SFX_PANEL)
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot0:UpdateMedal()
 
 	slot1 = getProxy(BuildShipProxy)
@@ -64,11 +64,11 @@ function slot0.Flush(slot0)
 	end, SFX_UI_BUILDING_STARTBUILDING)
 end
 
-function slot0.UpdateMedal(slot0)
+slot0.UpdateMedal = function(slot0)
 	setText(slot0.medalCount:Find("Text"), getProxy(BagProxy):getItemCountById(ITEM_ID_SILVER_HOOK))
 end
 
-function slot0.UpdateBuildPoolPaiting(slot0)
+slot0.UpdateBuildPoolPaiting = function(slot0)
 	if slot0.painting ~= slot0.contextData.falgShip:getPainting() then
 		slot2 = pg.UIMgr
 		slot2 = slot2:GetInstance()
@@ -82,7 +82,7 @@ function slot0.UpdateBuildPoolPaiting(slot0)
 	end
 end
 
-function slot0.ShowOrHide(slot0, slot1)
+slot0.ShowOrHide = function(slot0, slot1)
 	if slot1 then
 		slot0:Show()
 	else
@@ -90,7 +90,7 @@ function slot0.ShowOrHide(slot0, slot1)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

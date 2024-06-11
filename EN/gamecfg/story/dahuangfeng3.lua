@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAHUANGFENG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAHUANGFENG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Duelling Sunshine!\n\n<size=45>3 The Topic of Sisters</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Port—Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,8 +68,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Commander, I'm done on this side! How are you doing?",
 			typewriter = {
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Yay~ Another day's work, completed!",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -133,8 +133,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Commander, would you like to chat for a bit? How about our interests? That should make working together a lot easier.",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -157,8 +157,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "She wants to chat, huh... What should we talk about...",
@@ -175,8 +175,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Then, how about talking about my distinguished sisters in the Yorktown class?",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "...I'd be lying if I denied it...",
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Hehe, I hit the bullseye, didn't I~",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,8 +249,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Hehehe, there's no need to be embarrassed. It's understandable to be taken in by my sisters.",
 			typewriter = {
@@ -263,8 +263,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "So, which one are you interested in the most, Commander? As the youngest sister, I'm willing to provide you with some special insider info~",
 			typewriter = {
 				speed = 0.05,
@@ -303,12 +303,12 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Yorktown, huh... She's the gentlest one out of us all.",
 			typewriter = {
 				speed = 0.05,
@@ -323,9 +323,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
 			optionFlag = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "But from time to time, she has a pained expression... and even I'm not sure of the reason why...",
 			typewriter = {
@@ -338,12 +338,12 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Commander, I hope you're able to make her smi... err, happy!",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -368,9 +368,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
 			optionFlag = 2,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Going after Enty... You've got discerning eyes, Commander.",
 			typewriter = {
@@ -383,12 +383,12 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Having an aura that radiates strength, but not haughty. Always willing to do her best, and respected not only by the other ships in the Union but also by her rivals...",
 			typewriter = {
 				speed = 0.05,
@@ -403,9 +403,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
 			optionFlag = 2,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Well, she does push herself too hard at times... Do something about that side of her first, and then we can talk!",
 			typewriter = {
@@ -421,9 +421,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
 			optionFlag = 3,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Hornet, huh... Let's see...",
 			typewriter = {
@@ -439,9 +439,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
 			optionFlag = 3,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Wait a second, Hornet? You're talking about me!",
 			typewriter = {
@@ -454,8 +454,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -467,9 +467,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
 			optionFlag = 3,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Heh~♪ Unfortunately for you, information about the great Hornet is off limits~",
 			typewriter = {
@@ -485,8 +485,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Ehehe, is there anything else you were curious about? I'm willing to talk about anything I know about.",
 			typewriter = {
@@ -499,8 +499,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "\"I'm curious how you feel about your sisters.\"",
@@ -533,8 +533,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Especially since Enty is unbelievably famous, and I've become famous by association.",
 			typewriter = {
@@ -550,8 +550,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "I get called \"Enterprise's sister\" a lot... It sure is hard having a sister that famous, you know.",
 			typewriter = {
@@ -564,8 +564,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

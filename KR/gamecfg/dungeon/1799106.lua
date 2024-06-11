@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 600,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -415,14 +415,14 @@ return {
 	fleet_prefab = {
 		vanguard_unitList = {
 			{
-				exp = 10,
-				configId = 900413,
-				tmpID = 900413,
-				skinId = 900413,
 				oil_at_end = 10,
+				configId = 900413,
+				energy = 10,
+				skinId = 900413,
+				exp = 10,
+				tmpID = 900413,
 				id = 1,
 				level = 120,
-				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -430,12 +430,12 @@ return {
 				},
 				properties = {
 					cannon = 750,
-					air = 0,
-					antiaircraft = 300,
-					torpedo = 550,
-					durability = 20000,
 					reload = 200,
 					dodge = 120,
+					torpedo = 550,
+					durability = 20000,
+					air = 0,
+					antiaircraft = 300,
 					speed = 25,
 					luck = 25,
 					hit = 200
@@ -448,14 +448,14 @@ return {
 				}
 			},
 			{
-				exp = 10,
-				configId = 900421,
-				tmpID = 900421,
-				skinId = 900421,
 				oil_at_end = 10,
+				configId = 900421,
+				energy = 10,
+				skinId = 900421,
+				exp = 10,
+				tmpID = 900421,
 				id = 2,
 				level = 150,
-				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -463,12 +463,12 @@ return {
 				},
 				properties = {
 					cannon = 900,
-					air = 0,
-					antiaircraft = 300,
-					torpedo = 750,
-					durability = 20000,
 					reload = 200,
 					dodge = 150,
+					torpedo = 750,
+					durability = 20000,
+					air = 0,
+					antiaircraft = 300,
 					speed = 25,
 					luck = 80,
 					hit = 250
@@ -483,11 +483,11 @@ return {
 		},
 		main_unitList = {
 			{
-				tmpID = 900414,
 				configId = 900414,
+				level = 120,
 				skinId = 900414,
 				id = 1,
-				level = 120,
+				tmpID = 900414,
 				equipment = {
 					false,
 					false,
@@ -495,12 +495,12 @@ return {
 				},
 				properties = {
 					cannon = 450,
-					air = 700,
-					antiaircraft = 300,
-					torpedo = 0,
-					durability = 5000,
 					reload = 300,
 					dodge = 25,
+					torpedo = 0,
+					durability = 5000,
+					air = 700,
+					antiaircraft = 300,
 					speed = 1,
 					luck = 25,
 					hit = 200
@@ -513,11 +513,11 @@ return {
 				}
 			},
 			{
-				tmpID = 900415,
 				configId = 900415,
+				level = 120,
 				skinId = 900415,
 				id = 2,
-				level = 120,
+				tmpID = 900415,
 				equipment = {
 					false,
 					false,
@@ -525,12 +525,12 @@ return {
 				},
 				properties = {
 					cannon = 540,
-					air = 800,
-					antiaircraft = 300,
-					torpedo = 0,
-					durability = 4000,
 					reload = 300,
 					dodge = 25,
+					torpedo = 0,
+					durability = 4000,
+					air = 800,
+					antiaircraft = 300,
 					speed = 1,
 					luck = 25,
 					hit = 200
@@ -543,11 +543,11 @@ return {
 				}
 			},
 			{
-				tmpID = 900416,
 				configId = 900416,
+				level = 120,
 				skinId = 900416,
 				id = 3,
-				level = 120,
+				tmpID = 900416,
 				equipment = {
 					false,
 					false,
@@ -555,12 +555,12 @@ return {
 				},
 				properties = {
 					cannon = 1000,
-					air = 0,
-					antiaircraft = 300,
-					torpedo = 0,
-					durability = 6000,
 					reload = 300,
 					dodge = 25,
+					torpedo = 0,
+					durability = 6000,
+					air = 0,
+					antiaircraft = 300,
 					speed = 1,
 					luck = 25,
 					hit = 200

@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -71,9 +71,9 @@ return {
 					spawn = {
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583001,
-							sickness = 0.3,
 							corrdinate = {
 								5,
 								0,
@@ -88,9 +88,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583003,
-							sickness = 0.3,
 							corrdinate = {
 								0,
 								0,
@@ -105,9 +105,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583003,
-							sickness = 0.3,
 							corrdinate = {
 								0,
 								0,
@@ -122,9 +122,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583001,
-							sickness = 0.3,
 							corrdinate = {
 								5,
 								0,
@@ -143,8 +143,8 @@ return {
 							interval = 5,
 							onceNumber = 4,
 							formation = 10006,
-							delay = 0,
 							templateID = 1007083,
+							delay = 0,
 							totalNumber = 12,
 							weaponID = {
 								1007093,
@@ -160,8 +160,8 @@ return {
 							interval = 5,
 							onceNumber = 2,
 							formation = 10006,
-							delay = 0,
 							templateID = 1007088,
+							delay = 0,
 							totalNumber = 6,
 							weaponID = {
 								1007103,
@@ -188,9 +188,9 @@ return {
 					spawn = {
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583001,
-							sickness = 0.3,
 							corrdinate = {
 								-13,
 								0,
@@ -205,9 +205,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583003,
-							sickness = 0.3,
 							corrdinate = {
 								0,
 								0,
@@ -222,9 +222,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0.5,
 							monsterTemplateID = 16583005,
-							sickness = 0.3,
 							corrdinate = {
 								-5,
 								0,
@@ -239,9 +239,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583003,
-							sickness = 0.3,
 							corrdinate = {
 								0,
 								0,
@@ -256,9 +256,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583001,
-							sickness = 0.3,
 							corrdinate = {
 								-13,
 								0,
@@ -274,8 +274,8 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
 					key = true,
+					triggerType = 0,
 					waveIndex = 103,
 					conditionType = 0,
 					preWaves = {
@@ -286,10 +286,10 @@ return {
 					spawn = {
 						{
 							deadFX = "udf_shanshuo",
-							reinforceDelay = 6,
-							monsterTemplateID = 16583005,
 							sickness = 0.3,
 							delay = 0.5,
+							monsterTemplateID = 16583005,
+							reinforceDelay = 6,
 							corrdinate = {
 								-10,
 								0,
@@ -306,9 +306,9 @@ return {
 					reinforcement = {
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583002,
-							sickness = 0.3,
 							corrdinate = {
 								-13,
 								0,
@@ -323,9 +323,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583001,
-							sickness = 0.3,
 							corrdinate = {
 								-5,
 								0,
@@ -340,9 +340,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583001,
-							sickness = 0.3,
 							corrdinate = {
 								-5,
 								0,
@@ -357,9 +357,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583002,
-							sickness = 0.3,
 							corrdinate = {
 								-13,
 								0,
@@ -378,8 +378,8 @@ return {
 							interval = 5,
 							onceNumber = 4,
 							formation = 10006,
-							delay = 0,
 							templateID = 1007083,
+							delay = 0,
 							totalNumber = 12,
 							weaponID = {
 								1007093,
@@ -395,8 +395,8 @@ return {
 							interval = 5,
 							onceNumber = 2,
 							formation = 10006,
-							delay = 0,
 							templateID = 1007088,
+							delay = 0,
 							totalNumber = 6,
 							weaponID = {
 								1007103,
@@ -411,8 +411,8 @@ return {
 					}
 				},
 				{
-					triggerType = 0,
 					key = true,
+					triggerType = 0,
 					waveIndex = 104,
 					conditionType = 0,
 					preWaves = {
@@ -424,10 +424,10 @@ return {
 					spawn = {
 						{
 							deadFX = "udf_shanshuo",
-							reinforceDelay = 6,
-							monsterTemplateID = 16583007,
 							sickness = 1.5,
 							delay = 0,
+							monsterTemplateID = 16583007,
+							reinforceDelay = 6,
 							corrdinate = {
 								-10,
 								0,
@@ -444,9 +444,9 @@ return {
 					reinforcement = {
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583003,
-							sickness = 0.3,
 							corrdinate = {
 								-5,
 								0,
@@ -461,9 +461,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583003,
-							sickness = 0.3,
 							corrdinate = {
 								-5,
 								0,
@@ -478,9 +478,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583002,
-							sickness = 0.3,
 							corrdinate = {
 								2,
 								0,
@@ -495,9 +495,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16583002,
-							sickness = 0.3,
 							corrdinate = {
 								2,
 								0,
@@ -516,8 +516,8 @@ return {
 							interval = 5,
 							onceNumber = 4,
 							formation = 10006,
-							delay = 0,
 							templateID = 1007083,
+							delay = 0,
 							totalNumber = 12,
 							weaponID = {
 								1007093,
@@ -533,8 +533,8 @@ return {
 							interval = 5,
 							onceNumber = 2,
 							formation = 10006,
-							delay = 0,
 							templateID = 1007088,
+							delay = 0,
 							totalNumber = 6,
 							weaponID = {
 								1007103,

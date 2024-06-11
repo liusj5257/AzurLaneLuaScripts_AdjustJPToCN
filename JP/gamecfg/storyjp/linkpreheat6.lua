@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT6",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT6",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10300010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-uta",
 			dir = 1,
 			say = "ネコネ！大丈夫！？怪我はない！？",
+			bgm = "battle-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,10 +68,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "怪我がなくて幸いです。これで私たちも主様に顔向けできます",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "怪我がなくて幸いです。これで私たちも主様に顔向けできます",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -103,10 +103,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "姉さま、来てくれるって信じてました……信じて、１人でも頑張ってました……",
+			dir = 1,
 			actor = 10300020,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "姉さま、来てくれるって信じてました……信じて、１人でも頑張ってました……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -139,8 +139,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			say = "えへへ……あ、そちらは猫神さまと……",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "red",
+	id = 106311,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 106311,
+	color = "red",
 	icon = 106310,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 1500
+				number = 1500,
+				attr = "antiAirPower"
 			}
 		}
 	}

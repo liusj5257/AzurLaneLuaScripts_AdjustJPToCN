@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YADE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YADE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「いい子」とのおサボりタイム\n\n<size=45>二 レッツおサボり！</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			say = "ヤーデと「サボり」を約束した日が訪れた。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "ヤーデと「サボり」を約束した日が訪れた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,12 +47,12 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "お待たせしましたぁー",
 			painting = {
 				alpha = 0.3,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "声のする方に振り向けると、たくさんのお菓子を抱えたヤーデが姿を現した。",
@@ -78,10 +78,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一回目の「サボり」の内容はとてもシンプルですわ",
 			painting = {
 				alpha = 0.3,
@@ -96,10 +96,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "題して「罪悪感MAX、食べ放題お菓子祭り」！",
 			painting = {
 				alpha = 0.3,
@@ -116,12 +116,12 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ、いい子のヤーデは指揮官が好きなお菓子をお持ちしましたの",
 			painting = {
 				alpha = 0.3,
@@ -136,10 +136,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ、でも指揮官がたらふく食べて働くなってしまったら、ヤーデが指揮官の仕事を邪魔する悪い子になってしまうんじゃないですの？",
 			painting = {
 				alpha = 0.3,
@@ -154,10 +154,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "というわけで指揮官、まずは我慢して一種類選んでくださいね",
 			painting = {
 				alpha = 0.3,
@@ -183,13 +183,13 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "へぇーこの前シュペーが薦めてくれたものね。指揮官はこういうのが好みですの？",
 			painting = {
 				alpha = 0.3,
@@ -244,8 +244,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -299,13 +299,13 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まぁ、指揮官ならとーぜん、これぐらいどうってことないでしょうけど",
 			painting = {
 				alpha = 0.3,
@@ -379,13 +379,13 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 3,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふ、指揮官にとって少し甘すぎるかもだけど、とりあえず食べてみて？",
 			painting = {
 				alpha = 0.3,
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "選んだお菓子を口に入れようとすると――",
@@ -411,10 +411,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あっ、ちょっと待って",
 			painting = {
 				alpha = 0.3,
@@ -429,10 +429,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「指揮官は何もせず、ぜーんぶヤーデに任せればいい」と言ったじゃないですの。だから、ここもヤーデが――",
 			painting = {
 				alpha = 0.3,
@@ -447,10 +447,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、あーん？",
 			painting = {
 				alpha = 0.3,
@@ -462,8 +462,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "予想外の展開に少しうろたえてしまった。",
@@ -473,12 +473,12 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ほら、いい子らしくあーん、して？",
 			painting = {
 				alpha = 0.3,
@@ -490,8 +490,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "……どうやら言う通りにしたほうが良さそうだ。",
@@ -501,27 +501,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "うん。中々イケる味だ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -532,10 +532,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「いける」って顔ですわね。なら、もう一個いっちゃいます？",
 			painting = {
 				alpha = 0.3,
@@ -550,10 +550,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はい、あーん",
 			painting = {
 				alpha = 0.3,
@@ -568,10 +568,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふ、まるで小動物に餌付けしているようですの",
 			painting = {
 				alpha = 0.3,
@@ -583,12 +583,12 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ところで、喉は乾いてませんか？ヤーデはジュースとソーダも持ってきましたの。指揮官はどれがいい？",
 			painting = {
 				alpha = 0.3,
@@ -618,10 +618,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "オッケー。じゃあヤーデはもう片方のにします",
 			painting = {
 				alpha = 0.3,
@@ -633,12 +633,12 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ついでに缶を開けてくださいます？",
 			painting = {
 				alpha = 0.3,
@@ -650,8 +650,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "二つ返事で開けてあげた。",
@@ -664,10 +664,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ありがとうですの。指揮官はやっぱりいい子ですわ♪",
 			painting = {
 				alpha = 0.3,
@@ -682,10 +682,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふぅ――お菓子に飲み物だけだと、ちょっと物足りなく感じますの",
 			painting = {
 				alpha = 0.3,
@@ -700,10 +700,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "何か面白い話を知らないですの？例えば執務室に隠されているお宝とかそういうの",
 			painting = {
 				alpha = 0.3,
@@ -718,10 +718,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふ、あくまで例えですわ。いい子のヤーデは指揮官のプライベートについて問い詰めたりはしませんよ？",
 			painting = {
 				alpha = 0.3,
@@ -733,12 +733,12 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "んー、じゃあ面白い話題を思いつくまで、さっきの続きをしません？",
 			painting = {
 				alpha = 0.3,
@@ -753,10 +753,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はい、指揮官、あーん",
 			painting = {
 				alpha = 0.3,
@@ -771,10 +771,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まだまだ時間があるから、ゆっくりまったり行きますわよ。ね♪",
 			painting = {
 				alpha = 0.3,

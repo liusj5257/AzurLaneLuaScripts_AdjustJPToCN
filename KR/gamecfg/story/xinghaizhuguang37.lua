@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"—내가 아까 '은빛 여우' 여사한테 콜라를 전달하러 갔을 때...",
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

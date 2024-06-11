@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行24次攻击，触发专属弹幕-庞培·马格诺I"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 29831,
 	picture = "",
 	desc = "主炮每进行24次攻击，触发专属弹幕-庞培·马格诺I",
 	stack = 1,
-	id = 29831,
+	color = "red",
 	icon = 29830,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29831,
+				target = "TargetSelf",
 				countType = 29830
 			}
 		}

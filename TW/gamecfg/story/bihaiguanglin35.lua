@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN35",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN35",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			say = "重櫻近海某處 數月前",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-2",
+			nameColor = "#a9f548",
+			say = "重櫻近海某處 數月前",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -52,8 +52,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#ffff4d",
 			say = "心情很好啊，歐根。",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#ffff4d",
 			say = "我們航行的速度也太慢了些，放鬆下來請等到歸國之後再放鬆。",
 			typewriter = {
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#ffff4d",
-			bgName = "bg_xinnong_cg1",
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
+			actor = 403030,
 			stopbgm = true,
 			say = "……哎？",
 			typewriter = {
@@ -230,16 +230,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 0.5,
+			bgName = "bg_xinnong_cg1",
 			bgm = "theme-longgong",
 			actor = 305080,
 			nameColor = "#a9f548",
 			say = "鐵血的諸位客人請留步。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -299,8 +299,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305080,
 			dir = 1,
+			actor = 305080,
 			nameColor = "#a9f548",
 			say = "不、我是來轉達某位大人給予各位的提案的。",
 			typewriter = {
@@ -345,12 +345,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "大和級最了解大和級。赤城大人參加祭典和請你們來的目的，很容易被猜出來。",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "大和級最了解大和級。赤城大人參加祭典和請你們來的目的，很容易被猜出來。",
+			actor = 301120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -416,8 +416,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305080,
 			dir = 1,
+			actor = 305080,
 			nameColor = "#a9f548",
 			say = "請，那位大人正在頻道上等您。",
 			typewriter = {
@@ -430,12 +430,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#ffff4d",
 			say = "感覺事情好像變得更加有趣了……沒問題，就讓我們談談吧~",
 			typewriter = {
 				speed = 0.05,

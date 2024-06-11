@@ -1,12 +1,12 @@
 return {
-	id = "W209001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W209001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "We should investigate what’s going on at the Siren Research Facility.",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Let’s check the Missions panel to see what there is to do.",
 			typewriter = {
 				speed = 0.05,

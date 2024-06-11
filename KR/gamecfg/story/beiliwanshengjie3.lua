@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILIWANSHENGJIE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILIWANSHENGJIE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"장난스런 핼러윈\n\n<size=45>유령이 무서운 마녀</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "얼마 전……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,13 +50,13 @@ return {
 			}
 		},
 		{
-			actor = 302040,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "이스즈, 왜 그래? 쇼호가 말한 유령이 신경쓰여서?",
 			dir = -1,
 			blackBg = true,
 			bgm = "story-1",
+			actor = 302040,
+			nameColor = "#a9f548",
+			say = "이스즈, 왜 그래? 쇼호가 말한 유령이 신경쓰여서?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,12 +69,12 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			say = "엥? 나가라 언니, 어떻게 안 거야……?",
 			nameColor = "#a9f548",
-			actor = 302051,
 			dir = 1,
 			blackBg = true,
+			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "엥? 나가라 언니, 어떻게 안 거야……?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -108,9 +108,9 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 302051,
 			dir = 1,
 			blackBg = true,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "……아, 난 역시 안 되겠어……유령 같은 건 무리니까……",
 			typewriter = {
@@ -174,9 +174,9 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 302051,
 			dir = 1,
 			blackBg = true,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "……그, 그렇지만……",
 			typewriter = {
@@ -205,13 +205,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			say = "그리고 현재……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "새로운 마녀 발견! 안녕~!",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.1,
 					x = 0,
@@ -295,8 +295,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "우왓! 까, 깜짝 놀랐네……",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -324,9 +324,9 @@ return {
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
+			say = "하아하아…베, 베일리? 이 옷은…마녀야?",
 			actor = 302051,
 			actorName = "{namecode:48}",
-			say = "하아하아…베, 베일리? 이 옷은…마녀야?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -360,8 +360,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "있잖아, 베일리가 아까 유령이 모항의 폐창고에 있다는 걸 들었거든!",
 			typewriter = {
@@ -392,11 +392,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "그럼 베일리도 같이 찾을게! 자, 폐창고로 렛츠고~!",
 			typewriter = {
 				speed = 0.05,
@@ -408,8 +408,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -418,11 +418,11 @@ return {
 			}
 		},
 		{
-			actor = 302051,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 1,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 302051,
 			actorName = "{namecode:48}",
 			say = "으, 응! 같이 가자!",
 			typewriter = {
@@ -438,11 +438,11 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			actorName = "{namecode:48}",
 			dir = 1,
 			blackBg = true,
 			actor = 302051,
-			actorName = "{namecode:48}",
+			nameColor = "#a9f548",
 			say = "(동료가 있으면……그렇게 무섭진 않을 거야…!)",
 			typewriter = {
 				speed = 0.05,

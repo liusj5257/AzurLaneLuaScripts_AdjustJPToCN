@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "重巡竞技场加成",
 	time = 0,
+	name = "重巡竞技场加成",
+	init_effect = "",
 	picture = "",
 	desc = "免伤15%%",
 	stack = 1,
@@ -19,8 +19,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.15
+				number = -0.15,
+				attr = "injureRatio"
 			}
 		}
 	}

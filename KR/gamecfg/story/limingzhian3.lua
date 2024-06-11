@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "파먀티와 아브로라의 호송 아래 미코얀호 쇄빙선은 무사히 노스 유니온 군항에 도착했다.",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			bgm = "blueocean-image",
+			say = "파먀티와 아브로라의 호송 아래 미코얀호 쇄빙선은 무사히 노스 유니온 군항에 도착했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "굉장히 인상 깊다구. 성대하게 시작해서는 끝이 참담했으니까…",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "극지 함대가 생긴 지 얼마 되지 않았을 때 자신만만하게 극지의 미지에 대한 탐색을 계획했잖아.",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "… 처음 극지 함대의 주력 함대, 실험용 잠수함, 그리고 이 미코얀 함대까지, 참여한 모든 인원과 설비, 심지어는 규모가 거대한 기지도 사라졌어.",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "이건 처음 듣는 얘긴데, 그렇게 당황하는 모습은 그녀와 어울리지 않는걸…",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "하지만… 이해가 안 되는 건 아니야, 내 기억으론 그 작전은 그녀가 직접 함대를 출항시킨 거로 기억하니까…",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "에…? 우리의 탐색 기지가 처음부터 거울 해역 특수한 장소에 지어졌다는 말이야?",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "가능성이 없는 건 아닌 것 같아…! 이번 미코얀호가 거울 해역에서 발견된 걸 보면.",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "근데 왜 미코얀호만 거울 해역에서 발견된 건지가 설명이 안 돼.",
 			typewriter = {
@@ -450,8 +450,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "… 잡음 사건?",
 			typewriter = {
@@ -531,8 +531,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "'마침'이라니…. 그렇다는 건 통신 기기가 아직도 어딘가에서 작동 중일 거라는 뜻이야?!",
 			typewriter = {
@@ -564,8 +564,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "너무 말이 안 되는 것 같아… 마치 누가 일부러 이쯤에서 발견하게 만든 것 같달까.",
 			typewriter = {
@@ -597,8 +597,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "메탈 블러드에 있다던 믿음직한 정보원이 정말 대단한 일을 했네~",
 			typewriter = {
@@ -659,12 +659,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "그게 바로 소비에츠키 소유즈가 원하는 '해답'이겠죠….",
 			typewriter = {
 				speed = 0.05,

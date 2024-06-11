@@ -1,18 +1,18 @@
 return {
-	id = "BIHAIGUANGLIN20",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN20",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-longgong",
 			actor = 303060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "島風の話によると、先に進むには仕掛けを破壊するか解くかするしかないようです",
-			bgm = "battle-boss-longgong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "そして仕掛けに攻撃できる位置まで行くには、この邪魔な硬い敵を押しのける必要があって…",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "こうして火力を集中して、一体ずつ倒してきましたわ",
 			typewriter = {
 				speed = 0.05,
@@ -117,9 +117,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ありがとうございます。それは一体…",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			say = "これで大丈夫ですか？",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（どこか目立たないところに避難しようとしただけよ…！）",
 			typewriter = {
 				speed = 0.05,

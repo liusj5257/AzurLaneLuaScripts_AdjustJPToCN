@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TUOLICHAILI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TUOLICHAILI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"日陰のトリチェリ\n\n<size=45>一 やる気のない彼女？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			say = "とある休日の執務室。窓から太陽の光が差し込み、金色の欠片となって床一面を彩っている。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
+			say = "とある休日の執務室。窓から太陽の光が差し込み、金色の欠片となって床一面を彩っている。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "そう、今日は本来穏やかな休日になるはずだったが……",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "デスクに積み上げられた書類が目に入り、ため息をついた。休暇なのにやるべきことはまだまだ山積みのようだ。",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "せっかくの休暇に仕事に追われるようになった原因は、隅っこで静かに引きこもっているあの少女ではないだろうか——",
 			typewriter = {
@@ -79,10 +79,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "——秘書艦のトリチェリ。今は部屋の隅で静かに佇んでいて、黙々と何か考え事をしているようだ。",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "時々実験のレポートと思わしきメモを取り出し何かしら書き込んでいる彼女。こちらから声をかけなければ、率先して話しかけてくることはないようだ。",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "その姿はまるで部屋の隅に黙々と生えているキノコのよう……",
 			typewriter = {
@@ -127,10 +127,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今日の観察テーマは——「執務室内のレイアウト」にしよう、ふふふふ……",
 			painting = {
 				alpha = 0.3,
@@ -145,8 +145,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#A9F548FF",
 			say = "……ん？指揮官？",
 			painting = {
@@ -159,8 +159,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -169,8 +169,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "トリチェリはこちらの視線に気づいたか、ゆっくりと頭を上げた——",
 			typewriter = {
@@ -188,10 +188,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この前の仕事……？書類の仕分け？",
 			painting = {
 				alpha = 0.3,
@@ -203,8 +203,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -216,10 +216,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もう終わってるよ。あんなの単純作業ってだけだよ………ふふふ…指揮官はわたしの能力を疑ってる…？",
 			painting = {
 				alpha = 0.3,
@@ -234,10 +234,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "整理済みのリストならここだよ",
 			painting = {
 				alpha = 0.3,
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "トリチェリから渡されたリストに軽く目を通す。きちんと整理されており、注意書きもシンプルで読みやすい、ただ――",
 			typewriter = {
@@ -262,10 +262,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "何で渡さなかったのかって？……聞かれなかったから…",
 			painting = {
 				alpha = 0.3,
@@ -280,10 +280,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この手の連絡は苦手で……だから…サ、サボってなんかいないよ…",
 			painting = {
 				alpha = 0.3,
@@ -298,10 +298,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官が気にしないなら、このまま一人で静かに引きこもるね",
 			painting = {
 				alpha = 0.3,
@@ -316,10 +316,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "むふふふ……一人で静かに引きこもるのは、「指揮官が一人で書類を処理するための協力」ってことにならない…？",
 			painting = {
 				alpha = 0.3,
@@ -334,10 +334,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "変わった感じかもしれないけど、これはこれで秘書艦として指揮官に協力しているよ…",
 			painting = {
 				alpha = 0.3,
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			optionFlag = 1,
 			say = "整理済みのリストをトリチェリに返すと、彼女はまた隅っこの影に佇んだ…",
@@ -446,8 +446,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -525,11 +525,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task_2",
-			blackBg = true,
 			optionFlag = 2,
+			blackBg = true,
 			say = "整理済みのリストをトリチェリに返すと、彼女はまた隅っこの影に佇んだ…",
 			typewriter = {
 				speed = 0.05,

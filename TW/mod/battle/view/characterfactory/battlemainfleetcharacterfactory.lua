@@ -4,18 +4,18 @@ slot0.Battle.BattleMainFleetCharacterFactory = singletonClass("BattleMainFleetCh
 slot0.Battle.BattleMainFleetCharacterFactory.__name = "BattleMainFleetCharacterFactory"
 slot1 = slot0.Battle.BattleMainFleetCharacterFactory
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0.ARROW_BAR_NAME = "EnemyArrowContainer/MainArrow"
 end
 
-function slot1.MakeCharacter(slot0)
+slot1.MakeCharacter = function(slot0)
 	return uv0.Battle.BattleMainFleetCharacter.New()
 end
 
-function slot1.MakeModel(slot0, slot1, slot2)
-	function slot3(slot0)
+slot1.MakeModel = function(slot0, slot1, slot2)
+	slot3 = function(slot0)
 		uv0:AddModel(slot0)
 		uv0:CameraOrthogonal(uv2.Battle.BattleCameraUtil.GetInstance():GetCamera())
 		uv1:GetSceneMediator():AddPlayerCharacter(uv0)

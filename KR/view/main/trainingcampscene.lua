@@ -1,10 +1,10 @@
 slot0 = class("TrainingCampScene", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TrainingCampUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:findUI()
 	slot0:initData()
 	slot0:addListener()
@@ -20,7 +20,7 @@ function slot0.init(slot0)
 	slot0:closeMsgBox()
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.adaptPanel = slot0:findTF("blur_panel/adapt")
 	slot0.panelContainer = slot0:findTF("PanelContainer")
 	slot0.normalPanel = slot0:findTF("NormalPanel", slot0.panelContainer)
@@ -36,7 +36,7 @@ function slot0.findUI(slot0)
 	GetComponent(findTF(slot0.titleTf, "img"), typeof(Image)):SetNativeSize()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.normalTaskactivity = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_GUIDE_TASKS)
@@ -46,7 +46,7 @@ function slot0.initData(slot0)
 	slot0.activity = nil
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0:findTF("top/back_button", slot0.adaptPanel), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_PANEL)
@@ -74,18 +74,18 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updateSwitchBtns()
 	slot0:updateSwitchBtnsTag()
 	slot0:autoSelectPanel()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	LeanTween.cancel(go(slot0.normalPanel))
 	LeanTween.cancel(go(slot0.tecPanel))
 end
 
-function slot0.updateSwitchBtns(slot0)
+slot0.updateSwitchBtns = function(slot0)
 	slot1, slot2 = TrainingCampScene.isNormalActOn()
 	slot3, slot4 = TrainingCampScene.isTecActOn()
 
@@ -101,7 +101,7 @@ function slot0.updateSwitchBtns(slot0)
 	setActive(slot0:findTF("Tag", slot0.switchToTecBtn), slot4)
 end
 
-function slot0.updateSwitchBtnsTag(slot0)
+slot0.updateSwitchBtnsTag = function(slot0)
 	slot1, slot2 = TrainingCampScene.isNormalActOn()
 	slot3, slot4 = TrainingCampScene.isTecActOn()
 
@@ -116,12 +116,12 @@ function slot0.updateSwitchBtnsTag(slot0)
 	end
 end
 
-function slot0.resetSwitchBtnsLight(slot0)
+slot0.resetSwitchBtnsLight = function(slot0)
 	slot0.switchToNormalLight.enabled = false
 	slot0.switchToTecLight.enabled = false
 end
 
-function slot0.autoSelectPanel(slot0)
+slot0.autoSelectPanel = function(slot0)
 	slot1, slot2 = TrainingCampScene.isNormalActOn()
 	slot3, slot4 = TrainingCampScene.isTecActOn()
 
@@ -136,7 +136,7 @@ function slot0.autoSelectPanel(slot0)
 	end
 end
 
-function slot0.initNormalPanel(slot0)
+slot0.initNormalPanel = function(slot0)
 	slot1 = slot0:findTF("ToggleList", slot0.normalPanel)
 	slot0.normalToggles = {
 		slot0:findTF("Phase1", slot1),
@@ -162,7 +162,7 @@ function slot0.initNormalPanel(slot0)
 	end
 end
 
-function slot0.updateNormalPanel(slot0, slot1)
+slot0.updateNormalPanel = function(slot0, slot1)
 	slot0.cachePageID = slot1
 	slot3 = slot0.normalTaskactivity:getConfig("config_data")[3]
 	slot4 = slot3[slot1][1]
@@ -172,7 +172,7 @@ function slot0.updateNormalPanel(slot0, slot1)
 	slot0:updateNormalProgressPanel(slot1, slot3[slot1][2], slot4)
 end
 
-function slot0.updateNormalProgressPanel(slot0, slot1, slot2, slot3)
+slot0.updateNormalProgressPanel = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getTask(slot1, slot2)
 
 	if slot1 == slot0.phaseId and slot0:isMissTask(slot3) then
@@ -243,7 +243,7 @@ function slot0.updateNormalProgressPanel(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot0.initTecPanel(slot0)
+slot0.initTecPanel = function(slot0)
 	slot7 = "Phase1"
 	slot0.tecToggles = {
 		slot0:findTF(slot7, slot0:findTF("ToggleList", slot0.tecPanel))
@@ -259,16 +259,9 @@ function slot0.initTecPanel(slot0)
 
 	for slot7 = 1, slot2 do
 		slot8 = slot3:GetChild(slot7 - 1)
-		slot9 = slot0:findTF("TextImg", slot8)
 
-		print(tostring(slot8))
-		print(tostring(slot9))
-		setText(slot9, i18n("tec_catchup_" .. slot7))
-
-		slot9 = slot0:findTF("Selected/TextImage", slot8)
-
-		print(tostring(slot9))
-		setText(slot9, i18n("tec_catchup_" .. slot7))
+		setText(slot0:findTF("TextImg", slot8), i18n("tec_catchup_" .. slot7))
+		setText(slot0:findTF("Selected/TextImage", slot8), i18n("tec_catchup_" .. slot7))
 	end
 
 	slot8 = "ScrollRect/TaskTpl"
@@ -290,7 +283,7 @@ function slot0.initTecPanel(slot0)
 	end
 end
 
-function slot0.updateTecPanel(slot0, slot1)
+slot0.updateTecPanel = function(slot0, slot1)
 	slot0.cachePageID = slot1
 	slot3 = slot0.tecTaskActivity:getConfig("config_data")[3]
 	slot4 = slot3[slot1][1]
@@ -300,7 +293,7 @@ function slot0.updateTecPanel(slot0, slot1)
 	slot0:updateTecProgressPanel(slot1, slot3[slot1][2], slot4)
 end
 
-function slot0.updateTecProgressPanel(slot0, slot1, slot2, slot3)
+slot0.updateTecProgressPanel = function(slot0, slot1, slot2, slot3)
 	slot5 = nil
 
 	if not slot0:isFinishedAll(slot3) then
@@ -396,13 +389,13 @@ function slot0.updateTecProgressPanel(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot0.updateToggleDisable(slot0, slot1)
+slot0.updateToggleDisable = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		setActive(slot6:Find("Disable"), slot0.phaseId < slot5)
 	end
 end
 
-function slot0.updateTaskUIItemList(slot0, slot1, slot2, slot3)
+slot0.updateTaskUIItemList = function(slot0, slot1, slot2, slot3)
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:updateTask(uv1[slot1 + 1], slot2, uv2)
@@ -411,7 +404,7 @@ function slot0.updateTaskUIItemList(slot0, slot1, slot2, slot3)
 	slot1:align(#slot2)
 end
 
-function slot0.updateTask(slot0, slot1, slot2, slot3)
+slot0.updateTask = function(slot0, slot1, slot2, slot3)
 	setActive(slot2:Find("Get"), slot0:getTask(slot3, slot1) and slot7:isFinish() and not slot7:isReceive())
 	setActive(slot2:Find("Got"), slot7 and slot7:isReceive())
 	setActive(slot2:Find("Go"), not slot7 or slot7 and not slot7:isFinish())
@@ -446,7 +439,7 @@ function slot0.updateTask(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot0.getTask(slot0, slot1, slot2, slot3)
+slot0.getTask = function(slot0, slot1, slot2, slot3)
 	slot4 = nil
 
 	if slot0.phaseId <= slot1 then
@@ -466,7 +459,7 @@ function slot0.getTask(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.getTaskState(slot0, slot1)
+slot0.getTaskState = function(slot0, slot1)
 	if slot1:isReceive() then
 		return 0
 	elseif slot1:isFinish() then
@@ -478,7 +471,7 @@ function slot0.getTaskState(slot0, slot1)
 	return -1
 end
 
-function slot0.sortTaskIDList(slot0, slot1)
+slot0.sortTaskIDList = function(slot0, slot1)
 	table.sort(slot1, function (slot0, slot1)
 		if uv0:getTaskState(uv0.taskProxy:getTaskVO(slot0) or Task.New({
 			id = slot0
@@ -494,19 +487,19 @@ function slot0.sortTaskIDList(slot0, slot1)
 	return slot1
 end
 
-function slot0.isFinishedAll(slot0, slot1)
+slot0.isFinishedAll = function(slot0, slot1)
 	return _.all(slot1, function (slot0)
 		return uv0.taskProxy:getTaskVO(slot0) and slot1:isReceive() or false
 	end)
 end
 
-function slot0.isMissTask(slot0, slot1)
+slot0.isMissTask = function(slot0, slot1)
 	return _.any(slot1, function (slot0)
 		return uv0.taskProxy:getTaskVO(slot0) == nil
 	end)
 end
 
-function slot0.setPhrase(slot0)
+slot0.setPhrase = function(slot0)
 	if slot0.lockFirst == true then
 		slot0.phaseId = 1
 
@@ -516,7 +509,7 @@ function slot0.setPhrase(slot0)
 	slot1 = 1
 	slot2 = slot0.activity
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		if slot0 > 1 then
 			return uv1.taskProxy:getFinishTaskById(uv0[slot0 - 1][2]) ~= nil
 		end
@@ -535,7 +528,7 @@ function slot0.setPhrase(slot0)
 	slot0.phaseId = slot1
 end
 
-function slot0.isNormalActOn()
+slot0.isNormalActOn = function()
 	slot2 = false
 	slot3 = false
 
@@ -550,7 +543,7 @@ function slot0.isNormalActOn()
 	return slot1 and slot2, slot3
 end
 
-function slot0.isTecActOn()
+slot0.isTecActOn = function()
 	slot4 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "ShipBluePrintMediator")
 	slot5 = false
 	slot6 = false
@@ -566,10 +559,12 @@ function slot0.isTecActOn()
 	return slot1 and slot5 and slot4, slot6
 end
 
-function slot0.switchPanel(slot0, slot1, slot2)
+slot0.switchPanel = function(slot0, slot1, slot2)
 	slot0.activity = slot1
 
 	if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_GUIDE_TASKS then
+		slot0:setPhrase()
+
 		if slot2 then
 			slot0:aniOnSwitch(slot0.normalPanel, slot0.tecPanel)
 		else
@@ -577,10 +572,11 @@ function slot0.switchPanel(slot0, slot1, slot2)
 			setActive(slot0.tecPanel, false)
 		end
 
-		slot0:setPhrase()
 		slot0:updateToggleDisable(slot0.normalToggles)
 		triggerToggle(slot0.normalToggles[slot0.phaseId], true)
 	elseif slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP then
+		slot0:setPhrase()
+
 		if slot2 then
 			slot0:aniOnSwitch(slot0.tecPanel, slot0.normalPanel)
 		else
@@ -588,13 +584,12 @@ function slot0.switchPanel(slot0, slot1, slot2)
 			setActive(slot0.tecPanel, true)
 		end
 
-		slot0:setPhrase()
 		slot0:updateToggleDisable(slot0.tecToggles)
 		triggerToggle(slot0.tecToggles[slot0.phaseId], true)
 	end
 end
 
-function slot0.switchPageByMediator(slot0)
+slot0.switchPageByMediator = function(slot0)
 	if slot0.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_GUIDE_TASKS then
 		slot0:switchPanel(slot0.normalTaskactivity)
 	elseif slot0.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP then
@@ -602,7 +597,7 @@ function slot0.switchPageByMediator(slot0)
 	end
 end
 
-function slot0.aniOnSwitch(slot0, slot1, slot2)
+slot0.aniOnSwitch = function(slot0, slot1, slot2)
 	slot0.isOnSwitchAni = true
 
 	slot1:SetAsLastSibling()
@@ -617,7 +612,7 @@ function slot0.aniOnSwitch(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.openMsgbox(slot0, slot1)
+slot0.openMsgbox = function(slot0, slot1)
 	setActive(slot0.switchToNormalBtn, false)
 	setActive(slot0.switchToTecBtn, false)
 	setActive(slot0.awardMsg, true)
@@ -646,13 +641,13 @@ function slot0.openMsgbox(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.closeMsgBox(slot0)
+slot0.closeMsgBox = function(slot0)
 	setActive(slot0.awardMsg, false)
 	setActive(slot0.normalPanel, true)
 	slot0:updateSwitchBtns()
 end
 
-function slot0.tryShowTecFixTip(slot0)
+slot0.tryShowTecFixTip = function(slot0)
 	if slot0.isSubmitTecFirstTaskTag == true then
 		slot0.isSubmitTecFirstTaskTag = false
 		slot1 = slot0.tecTaskActivity

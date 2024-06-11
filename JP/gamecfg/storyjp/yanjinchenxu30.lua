@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU30",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ffa500",
+			side = 2,
 			bgName = "bg_burningsea_1",
-			stopbgm = true,
-			say = "？？？·？？？",
 			bgmDelay = 1,
 			bgm = "battle-whaling-normal",
+			stopbgm = true,
+			say = "？？？·？？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,11 +28,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#ffa500",
 			side = 2,
+			nameColor = "#ffa500",
 			bgName = "bg_burningsea_1",
-			say = "—————————！",
 			soundeffect = "event:/battle/boom2",
+			say = "—————————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,9 +80,9 @@ return {
 		{
 			actor = 9702030,
 			side = 2,
-			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_burningsea_1",
 			say = "遅くなりまして申し訳ございません。状況はいかがですか？",
 			painting = {
 				alpha = 0.3,
@@ -97,8 +97,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "一足遅れた。「クジラ」は逃げた。残ったのはザコだけ",
 			painting = {
@@ -114,8 +114,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "残念です。他に収穫はありますか？",
 			painting = {
@@ -131,8 +131,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "うん。回収した情報はここ。…見る？",
 			painting = {
@@ -148,8 +148,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "……………無作為と思われた「回遊」、やはり何かの目的があったのですね",
 			painting = {
@@ -165,8 +165,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "何をしているかさっぱりわからない……シンパンシャの計画は進められる？",
 			painting = {
@@ -181,9 +181,9 @@ return {
 		{
 			actor = 9701010,
 			side = 2,
-			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_burningsea_1",
 			say = "それとも、こうなったのもシンパンシャの計画のうち？",
 			painting = {
 				alpha = 0.3,
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "なぜ私にそれを聞くのですか？",
 			painting = {
@@ -215,8 +215,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "シェフィールドは……うん、いい過去を持っているから",
 			painting = {
@@ -232,8 +232,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "私よりもっといい方は何人もいましょう。どうしても知りたいのでしたら、「ミスD」にでも聞いてください",
 			painting = {
@@ -249,8 +249,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "聞いたよ。「クジラ」を捕まえなければなにも教えないって",
 			painting = {
@@ -265,9 +265,9 @@ return {
 		{
 			actor = 9702030,
 			side = 2,
-			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_burningsea_1",
 			say = "わかりました。追跡の方は任せてください",
 			painting = {
 				alpha = 0.3,
@@ -282,8 +282,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "うん",
 			painting = {
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "帰りましょう。陛下が待っています",
 			painting = {
@@ -313,13 +313,13 @@ return {
 			}
 		},
 		{
-			bgName = "bg_burningsea_1",
-			mode = 1,
 			spacing = 30,
-			stopbgm = true,
-			asideType = 4,
+			mode = 1,
+			bgName = "bg_burningsea_1",
 			bgmDelay = 0.5,
 			bgm = "theme-shallowoftheworld",
+			stopbgm = true,
+			asideType = 4,
 			rectOffset = {
 				100,
 				100,
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

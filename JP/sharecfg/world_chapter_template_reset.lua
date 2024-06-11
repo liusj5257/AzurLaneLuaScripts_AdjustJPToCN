@@ -1,9 +1,9 @@
 pg = pg or {}
 pg.world_chapter_template_reset = {
 	[8000] = {
-		id = 8000,
 		transport = 1,
 		transport_colormask = 1,
+		id = 8000,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>NY港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			800
@@ -13,9 +13,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8030] = {
-		id = 8030,
 		transport = 1,
 		transport_colormask = 1,
+		id = 8030,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>NY港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			803
@@ -25,9 +25,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8060] = {
-		id = 8060,
 		transport = 1,
 		transport_colormask = 1,
+		id = 8060,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>NY港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			806
@@ -37,9 +37,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8090] = {
-		id = 8090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 8090,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>NY港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			809
@@ -49,9 +49,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8200] = {
-		id = 8200,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8200,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			820
@@ -61,9 +61,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8230] = {
-		id = 8230,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8230,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			823
@@ -73,9 +73,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8260] = {
-		id = 8260,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8260,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			826
@@ -85,9 +85,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8290] = {
-		id = 8290,
 		transport = 0,
 		transport_colormask = 0,
+		id = 8290,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			829
@@ -97,9 +97,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8400] = {
-		id = 8400,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8400,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			840,
@@ -110,9 +110,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8410] = {
-		id = 8410,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8410,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			840,
@@ -123,9 +123,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8430] = {
-		id = 8430,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8430,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			843,
@@ -136,9 +136,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8440] = {
-		id = 8440,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8440,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			843,
@@ -149,9 +149,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8460] = {
-		id = 8460,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8460,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			846,
@@ -162,9 +162,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8470] = {
-		id = 8470,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8470,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			846,
@@ -175,9 +175,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8490] = {
-		id = 8490,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8490,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			849,
@@ -188,9 +188,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8500] = {
-		id = 8500,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8500,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			849,
@@ -201,9 +201,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8600] = {
-		id = 8600,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8600,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			860
@@ -213,9 +213,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8630] = {
-		id = 8630,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8630,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			863
@@ -225,9 +225,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8660] = {
-		id = 8660,
 		transport = 2,
 		transport_colormask = 2,
+		id = 8660,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			866
@@ -242,9 +242,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[8690] = {
-		id = 8690,
 		transport = 0,
 		transport_colormask = 0,
+		id = 8690,
 		tip = "セイレーンエリアから離脱し、<color=#92fc63>リバープール港</color>近海に戻りますか？（セイレーンの配置がリセットされます）",
 		reset_map = {
 			869
@@ -254,9 +254,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[110000] = {
-		id = 110000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 110000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -294,9 +294,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[110010] = {
-		id = 110010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 110010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -334,9 +334,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[110020] = {
-		id = 110020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 110020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -374,9 +374,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[110030] = {
-		id = 110030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 110030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -414,9 +414,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[110040] = {
-		id = 110040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 110040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -454,9 +454,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[110050] = {
-		id = 110050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 110050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -494,9 +494,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[110060] = {
-		id = 110060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 110060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -534,9 +534,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[110070] = {
-		id = 110070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 110070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -574,9 +574,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[110080] = {
-		id = 110080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 110080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -614,9 +614,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[110090] = {
-		id = 110090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 110090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -654,9 +654,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[111000] = {
-		id = 111000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 111000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -694,9 +694,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[111010] = {
-		id = 111010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 111010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -734,9 +734,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[111020] = {
-		id = 111020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 111020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -774,9 +774,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[111030] = {
-		id = 111030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 111030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -814,9 +814,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[111040] = {
-		id = 111040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 111040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -854,9 +854,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[111050] = {
-		id = 111050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 111050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -894,9 +894,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[111060] = {
-		id = 111060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 111060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -934,9 +934,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[111070] = {
-		id = 111070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 111070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -974,9 +974,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[111080] = {
-		id = 111080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 111080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1014,9 +1014,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[111090] = {
-		id = 111090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 111090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1054,9 +1054,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[112000] = {
-		id = 112000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 112000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1094,9 +1094,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[112010] = {
-		id = 112010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 112010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1134,9 +1134,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[112020] = {
-		id = 112020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 112020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1174,9 +1174,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[112030] = {
-		id = 112030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 112030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1214,9 +1214,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[112040] = {
-		id = 112040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 112040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1254,9 +1254,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[112050] = {
-		id = 112050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 112050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1294,9 +1294,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[112060] = {
-		id = 112060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 112060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1334,9 +1334,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[112070] = {
-		id = 112070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 112070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1374,9 +1374,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[112080] = {
-		id = 112080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 112080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1414,9 +1414,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[112090] = {
-		id = 112090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 112090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1454,9 +1454,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[113000] = {
-		id = 113000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 113000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1494,9 +1494,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[113010] = {
-		id = 113010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 113010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1534,9 +1534,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[113020] = {
-		id = 113020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 113020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1574,9 +1574,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[113030] = {
-		id = 113030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 113030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1614,9 +1614,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[113040] = {
-		id = 113040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 113040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1654,9 +1654,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[113050] = {
-		id = 113050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 113050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1694,9 +1694,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[113060] = {
-		id = 113060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 113060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1734,9 +1734,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[113070] = {
-		id = 113070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 113070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1774,9 +1774,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[113080] = {
-		id = 113080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 113080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1814,9 +1814,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[113090] = {
-		id = 113090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 113090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1854,9 +1854,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[114000] = {
-		id = 114000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 114000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1894,9 +1894,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[114010] = {
-		id = 114010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 114010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1934,9 +1934,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[114020] = {
-		id = 114020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 114020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -1974,9 +1974,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[114030] = {
-		id = 114030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 114030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2014,9 +2014,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[114040] = {
-		id = 114040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 114040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2054,9 +2054,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[114050] = {
-		id = 114050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 114050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2094,9 +2094,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[114060] = {
-		id = 114060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 114060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2134,9 +2134,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[114070] = {
-		id = 114070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 114070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2174,9 +2174,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[114080] = {
-		id = 114080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 114080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2214,9 +2214,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[114090] = {
-		id = 114090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 114090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2254,9 +2254,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[115000] = {
-		id = 115000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 115000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2294,9 +2294,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[115010] = {
-		id = 115010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 115010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2334,9 +2334,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[115020] = {
-		id = 115020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 115020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2374,9 +2374,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[115030] = {
-		id = 115030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 115030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2414,9 +2414,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[115040] = {
-		id = 115040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 115040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2454,9 +2454,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[115050] = {
-		id = 115050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 115050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2494,9 +2494,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[115060] = {
-		id = 115060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 115060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2534,9 +2534,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[115070] = {
-		id = 115070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 115070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2574,9 +2574,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[115080] = {
-		id = 115080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 115080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2614,9 +2614,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[115090] = {
-		id = 115090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 115090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2654,9 +2654,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[120000] = {
-		id = 120000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 120000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2694,9 +2694,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[120010] = {
-		id = 120010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 120010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2734,9 +2734,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[120020] = {
-		id = 120020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 120020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2774,9 +2774,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[120030] = {
-		id = 120030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 120030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2814,9 +2814,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[120040] = {
-		id = 120040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 120040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2854,9 +2854,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[120050] = {
-		id = 120050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 120050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2894,9 +2894,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[120060] = {
-		id = 120060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 120060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2934,9 +2934,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[120070] = {
-		id = 120070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 120070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -2974,9 +2974,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[120080] = {
-		id = 120080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 120080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3014,9 +3014,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[120090] = {
-		id = 120090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 120090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3054,9 +3054,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[121000] = {
-		id = 121000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 121000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3094,9 +3094,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[121010] = {
-		id = 121010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 121010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3134,9 +3134,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[121020] = {
-		id = 121020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 121020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3174,9 +3174,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[121030] = {
-		id = 121030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 121030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3214,9 +3214,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[121040] = {
-		id = 121040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 121040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3254,9 +3254,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[121050] = {
-		id = 121050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 121050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3294,9 +3294,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[121060] = {
-		id = 121060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 121060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3334,9 +3334,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[121070] = {
-		id = 121070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 121070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3374,9 +3374,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[121080] = {
-		id = 121080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 121080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3414,9 +3414,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[121090] = {
-		id = 121090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 121090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3454,9 +3454,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[122000] = {
-		id = 122000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 122000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3494,9 +3494,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[122010] = {
-		id = 122010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 122010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3534,9 +3534,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[122020] = {
-		id = 122020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 122020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3574,9 +3574,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[122030] = {
-		id = 122030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 122030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3614,9 +3614,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[122040] = {
-		id = 122040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 122040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3654,9 +3654,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[122050] = {
-		id = 122050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 122050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3694,9 +3694,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[122060] = {
-		id = 122060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 122060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3734,9 +3734,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[122070] = {
-		id = 122070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 122070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3774,9 +3774,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[122080] = {
-		id = 122080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 122080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3814,9 +3814,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[122090] = {
-		id = 122090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 122090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3854,9 +3854,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[123000] = {
-		id = 123000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 123000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3894,9 +3894,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[123010] = {
-		id = 123010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 123010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3934,9 +3934,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[123020] = {
-		id = 123020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 123020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -3974,9 +3974,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[123030] = {
-		id = 123030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 123030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4014,9 +4014,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[123040] = {
-		id = 123040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 123040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4054,9 +4054,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[123050] = {
-		id = 123050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 123050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4094,9 +4094,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[123060] = {
-		id = 123060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 123060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4134,9 +4134,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[123070] = {
-		id = 123070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 123070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4174,9 +4174,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[123080] = {
-		id = 123080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 123080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4214,9 +4214,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[123090] = {
-		id = 123090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 123090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4254,9 +4254,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[124000] = {
-		id = 124000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 124000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4294,9 +4294,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[124010] = {
-		id = 124010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 124010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4334,9 +4334,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[124020] = {
-		id = 124020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 124020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4374,9 +4374,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[124030] = {
-		id = 124030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 124030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4414,9 +4414,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[124040] = {
-		id = 124040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 124040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4454,9 +4454,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[124050] = {
-		id = 124050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 124050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4494,9 +4494,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[124060] = {
-		id = 124060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 124060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4534,9 +4534,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[124070] = {
-		id = 124070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 124070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4574,9 +4574,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[124080] = {
-		id = 124080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 124080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4614,9 +4614,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[124090] = {
-		id = 124090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 124090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4654,9 +4654,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[125000] = {
-		id = 125000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 125000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4694,9 +4694,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[125010] = {
-		id = 125010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 125010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4734,9 +4734,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[125020] = {
-		id = 125020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 125020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4774,9 +4774,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[125030] = {
-		id = 125030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 125030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4814,9 +4814,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[125040] = {
-		id = 125040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 125040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4854,9 +4854,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[125050] = {
-		id = 125050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 125050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4894,9 +4894,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[125060] = {
-		id = 125060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 125060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4934,9 +4934,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[125070] = {
-		id = 125070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 125070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -4974,9 +4974,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[125080] = {
-		id = 125080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 125080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5014,9 +5014,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[125090] = {
-		id = 125090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 125090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5054,9 +5054,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[130000] = {
-		id = 130000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 130000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5094,9 +5094,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[130010] = {
-		id = 130010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 130010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5134,9 +5134,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[130020] = {
-		id = 130020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 130020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5174,9 +5174,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[130030] = {
-		id = 130030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 130030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5214,9 +5214,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[130040] = {
-		id = 130040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 130040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5254,9 +5254,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[130050] = {
-		id = 130050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 130050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5294,9 +5294,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[130060] = {
-		id = 130060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 130060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5334,9 +5334,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[130070] = {
-		id = 130070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 130070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5374,9 +5374,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[130080] = {
-		id = 130080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 130080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5414,9 +5414,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[130090] = {
-		id = 130090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 130090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5454,9 +5454,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[131000] = {
-		id = 131000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 131000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5494,9 +5494,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[131010] = {
-		id = 131010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 131010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5534,9 +5534,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[131020] = {
-		id = 131020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 131020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5574,9 +5574,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[131030] = {
-		id = 131030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 131030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5614,9 +5614,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[131040] = {
-		id = 131040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 131040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5654,9 +5654,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[131050] = {
-		id = 131050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 131050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5694,9 +5694,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[131060] = {
-		id = 131060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 131060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5734,9 +5734,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[131070] = {
-		id = 131070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 131070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5774,9 +5774,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[131080] = {
-		id = 131080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 131080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5814,9 +5814,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[131090] = {
-		id = 131090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 131090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5854,9 +5854,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[132000] = {
-		id = 132000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 132000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5894,9 +5894,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[132010] = {
-		id = 132010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 132010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5934,9 +5934,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[132020] = {
-		id = 132020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 132020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -5974,9 +5974,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[132030] = {
-		id = 132030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 132030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6014,9 +6014,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[132040] = {
-		id = 132040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 132040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6054,9 +6054,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[132050] = {
-		id = 132050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 132050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6094,9 +6094,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[132060] = {
-		id = 132060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 132060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6134,9 +6134,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[132070] = {
-		id = 132070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 132070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6174,9 +6174,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[132080] = {
-		id = 132080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 132080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6214,9 +6214,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[132090] = {
-		id = 132090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 132090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6254,9 +6254,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[133000] = {
-		id = 133000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 133000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6294,9 +6294,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[133010] = {
-		id = 133010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 133010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6334,9 +6334,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[133020] = {
-		id = 133020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 133020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6374,9 +6374,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[133030] = {
-		id = 133030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 133030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6414,9 +6414,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[133040] = {
-		id = 133040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 133040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6454,9 +6454,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[133050] = {
-		id = 133050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 133050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6494,9 +6494,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[133060] = {
-		id = 133060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 133060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6534,9 +6534,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[133070] = {
-		id = 133070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 133070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6574,9 +6574,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[133080] = {
-		id = 133080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 133080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6614,9 +6614,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[133090] = {
-		id = 133090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 133090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6654,9 +6654,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[134000] = {
-		id = 134000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 134000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6694,9 +6694,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[134010] = {
-		id = 134010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 134010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6734,9 +6734,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[134020] = {
-		id = 134020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 134020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6774,9 +6774,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[134030] = {
-		id = 134030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 134030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6814,9 +6814,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[134040] = {
-		id = 134040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 134040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6854,9 +6854,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[134050] = {
-		id = 134050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 134050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6894,9 +6894,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[134060] = {
-		id = 134060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 134060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6934,9 +6934,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[134070] = {
-		id = 134070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 134070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -6974,9 +6974,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[134080] = {
-		id = 134080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 134080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -7014,9 +7014,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[134090] = {
-		id = 134090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 134090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -7054,9 +7054,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[135000] = {
-		id = 135000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 135000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -7094,9 +7094,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[135010] = {
-		id = 135010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 135010,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -7134,9 +7134,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[135020] = {
-		id = 135020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 135020,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -7174,9 +7174,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[135030] = {
-		id = 135030,
 		transport = 0,
 		transport_colormask = 0,
+		id = 135030,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -7214,9 +7214,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[135040] = {
-		id = 135040,
 		transport = 0,
 		transport_colormask = 0,
+		id = 135040,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -7254,9 +7254,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[135050] = {
-		id = 135050,
 		transport = 0,
 		transport_colormask = 0,
+		id = 135050,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -7294,9 +7294,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[135060] = {
-		id = 135060,
 		transport = 0,
 		transport_colormask = 0,
+		id = 135060,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -7334,9 +7334,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[135070] = {
-		id = 135070,
 		transport = 0,
 		transport_colormask = 0,
+		id = 135070,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -7374,9 +7374,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[135080] = {
-		id = 135080,
 		transport = 0,
 		transport_colormask = 0,
+		id = 135080,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -7414,9 +7414,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[135090] = {
-		id = 135090,
 		transport = 0,
 		transport_colormask = 0,
+		id = 135090,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {
@@ -7454,9 +7454,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[140000] = {
-		id = 140000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 140000,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7464,9 +7464,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[140004] = {
-		id = 140004,
 		transport = 0,
 		transport_colormask = 0,
+		id = 140004,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7474,9 +7474,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[140005] = {
-		id = 140005,
 		transport = 0,
 		transport_colormask = 0,
+		id = 140005,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7484,9 +7484,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[140006] = {
-		id = 140006,
 		transport = 0,
 		transport_colormask = 0,
+		id = 140006,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7494,9 +7494,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[200000] = {
-		id = 200000,
 		transport = 1,
 		transport_colormask = 1,
+		id = 200000,
 		tip = "情報海域（情報エリア）から離脱しますか？\n（クリアせず離脱すると、エリア内の敵艦隊がすべて復活します）",
 		reset_map = {
 			20020
@@ -7508,9 +7508,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[200010] = {
-		id = 200010,
 		transport = 1,
 		transport_colormask = 1,
+		id = 200010,
 		tip = "情報海域（情報エリア）から離脱しますか？\n（クリアせず離脱すると、エリア内の敵艦隊がすべて復活します）",
 		reset_map = {
 			20020
@@ -7522,9 +7522,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[200020] = {
-		id = 200020,
 		transport = 1,
 		transport_colormask = 1,
+		id = 200020,
 		tip = "情報海域（情報エリア）から離脱しますか？\n（クリアせず離脱すると、エリア内の敵艦隊がすべて復活します）",
 		reset_map = {
 			20020
@@ -7536,9 +7536,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[200030] = {
-		id = 200030,
 		transport = 1,
 		transport_colormask = 1,
+		id = 200030,
 		tip = "情報海域（情報エリア）から離脱しますか？\n（クリアせず離脱すると、エリア内の敵艦隊がすべて復活します）",
 		reset_map = {
 			20020
@@ -7550,9 +7550,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[200040] = {
-		id = 200040,
 		transport = 1,
 		transport_colormask = 1,
+		id = 200040,
 		tip = "情報海域（情報エリア）から離脱しますか？\n（クリアせず離脱すると、エリア内の敵艦隊がすべて復活します）",
 		reset_map = {
 			20020
@@ -7564,9 +7564,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[200100] = {
-		id = 200100,
 		transport = 1,
 		transport_colormask = 1,
+		id = 200100,
 		tip = "情報海域（情報エリア）から離脱しますか？\n（クリアせず離脱すると、エリア内の敵艦隊がすべて復活します）",
 		reset_map = {
 			20021
@@ -7578,9 +7578,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[200110] = {
-		id = 200110,
 		transport = 1,
 		transport_colormask = 1,
+		id = 200110,
 		tip = "情報海域（情報エリア）から離脱しますか？\n（クリアせず離脱すると、エリア内の敵艦隊がすべて復活します）",
 		reset_map = {
 			20021
@@ -7592,9 +7592,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[200120] = {
-		id = 200120,
 		transport = 1,
 		transport_colormask = 1,
+		id = 200120,
 		tip = "情報海域（情報エリア）から離脱しますか？\n（クリアせず離脱すると、エリア内の敵艦隊がすべて復活します）",
 		reset_map = {
 			20021
@@ -7606,9 +7606,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[200130] = {
-		id = 200130,
 		transport = 1,
 		transport_colormask = 1,
+		id = 200130,
 		tip = "情報海域（情報エリア）から離脱しますか？\n（クリアせず離脱すると、エリア内の敵艦隊がすべて復活します）",
 		reset_map = {
 			20021
@@ -7620,9 +7620,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[200140] = {
-		id = 200140,
 		transport = 1,
 		transport_colormask = 1,
+		id = 200140,
 		tip = "情報海域（情報エリア）から離脱しますか？\n（クリアせず離脱すると、エリア内の敵艦隊がすべて復活します）",
 		reset_map = {
 			20021
@@ -7634,9 +7634,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[200200] = {
-		id = 200200,
 		transport = 1,
 		transport_colormask = 1,
+		id = 200200,
 		tip = "情報海域（情報エリア）から離脱しますか？\n（クリアせず離脱すると、エリア内の敵艦隊がすべて復活します）",
 		reset_map = {
 			20022
@@ -7648,9 +7648,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[890140] = {
-		id = 890140,
 		transport = 0,
 		transport_colormask = 0,
+		id = 890140,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7658,9 +7658,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[890150] = {
-		id = 890150,
 		transport = 0,
 		transport_colormask = 0,
+		id = 890150,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7668,9 +7668,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[890160] = {
-		id = 890160,
 		transport = 0,
 		transport_colormask = 0,
+		id = 890160,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7678,9 +7678,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[890170] = {
-		id = 890170,
 		transport = 0,
 		transport_colormask = 0,
+		id = 890170,
 		tip = "このセイレーンエリアから離脱しますか？\n（離脱後、再びエリアに進入出来ません）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7688,9 +7688,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[430000] = {
-		id = 430000,
 		transport = 0,
 		transport_colormask = 0,
+		id = 430000,
 		tip = "ノーマル：アビータ・TemperanceXⅣ戦を終了しますか？\n（終了すると攻略進捗が保存され、今月中再度挑戦可能）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7698,9 +7698,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[430010] = {
-		id = 430010,
 		transport = 0,
 		transport_colormask = 0,
+		id = 430010,
 		tip = "ノーマル：アビータ・StrengthVIII戦を終了しますか？\n（終了すると攻略進捗が保存され、今月中再度挑戦可能）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7708,9 +7708,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[430020] = {
-		id = 430020,
 		transport = 0,
 		transport_colormask = 0,
+		id = 430020,
 		tip = "ノーマル：アビータ・HermitⅨ戦を終了しますか？\n（終了すると攻略進捗が保存され、今月中再度挑戦可能）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7718,9 +7718,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[430100] = {
-		id = 430100,
 		transport = 0,
 		transport_colormask = 0,
+		id = 430100,
 		tip = "ハード：アビータ・TemperanceXⅣ戦を終了しますか？\n（終了すると敵の状態が初期化されます。一度手に入れた報酬は再度入手できません）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7728,9 +7728,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[430110] = {
-		id = 430110,
 		transport = 0,
 		transport_colormask = 0,
+		id = 430110,
 		tip = "ハード：アビータ・StrengthVIII戦を終了しますか？\n（終了すると敵の状態が初期化されます。一度手に入れた報酬は再度入手できません）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7738,9 +7738,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[430120] = {
-		id = 430120,
 		transport = 0,
 		transport_colormask = 0,
+		id = 430120,
 		tip = "ハード：アビータ・HermitⅨ戦を終了しますか？\n（終了すると敵の状態が初期化されます。一度手に入れた報酬は再度入手できません）",
 		reset_map = {},
 		reset_trigger = {},
@@ -7748,9 +7748,9 @@ pg.world_chapter_template_reset = {
 		reset_buff = {}
 	},
 	[430200] = {
-		id = 430200,
 		transport = 0,
 		transport_colormask = 0,
+		id = 430200,
 		tip = "ハード模擬戦：アビータを終了しますか？\n（終了すると敵の状態が初期化されます）",
 		reset_map = {},
 		reset_trigger = {},

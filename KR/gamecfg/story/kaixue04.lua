@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUE04",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUE04",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"사쿠라 로맨스 - 새 학기\n\n<size=45>제4장　도서관의 요정</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 101060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "진짜 있다니까요! 그 도서관에!",
 			bgm = "story-1",
+			actor = 101060,
+			nameColor = "#92fc63",
+			say = "진짜 있다니까요! 그 도서관에!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,13 +34,13 @@ return {
 			}
 		},
 		{
-			actor = 301010,
+			say = "아! 사실은 나도 나도!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301010,
 			actorName = "{namecode:2}",
-			say = "아! 사실은 나도 나도!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 301010,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_103",
 			side = 1,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 301010,
 			actorName = "{namecode:2}",
 			say = "목소리가 들려 따라가 봤더니 아무도 없었다던지…",
 			typewriter = {
@@ -104,10 +104,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "크레이븐&{namecode:2}",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
+			hideOther = true,
 			actor = 101060,
 			nameColor = "#92fc63",
 			say = "'도서관의 요정' 이 틀림없어요! 지휘관!",
@@ -129,13 +129,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 0,
+			nameColor = "#92fc63",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,15 +146,15 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
+			withoutPainting = true,
 			side = 2,
-			say = "이렇게 된 계기로, 도서관에 오게 되었습니다.",
 			dir = 1,
 			blackBg = true,
-			withoutPainting = true,
+			stopbgm = true,
+			say = "이렇게 된 계기로, 도서관에 오게 되었습니다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -175,15 +175,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorShadow = true,
+			side = 2,
+			withoutPainting = true,
+			nameColor = "#92fc63",
+			dir = 1,
+			blackBg = true,
+			actor = 202110,
 			actorName = "？？？",
 			say = "왜 그 녀석은 나랑 같이 학교에 오지 않는 거야!",
-			dir = 1,
-			blackBg = true,
-			actor = 202110,
-			nameColor = "#92fc63",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,15 +194,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorShadow = true,
+			side = 2,
+			withoutPainting = true,
+			nameColor = "#92fc63",
+			dir = 1,
+			blackBg = true,
+			actor = 202110,
 			actorName = "？？？",
 			say = "정말이지, \"저는 폐하께 봉사하는 메이드니까요\" 같은 소리나 하고…",
-			dir = 1,
-			blackBg = true,
-			actor = 202110,
-			nameColor = "#92fc63",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,15 +213,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorShadow = true,
+			side = 2,
+			withoutPainting = true,
+			nameColor = "#92fc63",
+			dir = 1,
+			blackBg = true,
+			actor = 202110,
 			actorName = "？？？",
 			say = "역시 그 녀석이 없으면 재미가 없는 걸…",
-			dir = 1,
-			blackBg = true,
-			actor = 202110,
-			nameColor = "#92fc63",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,15 +232,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorShadow = true,
+			side = 2,
+			withoutPainting = true,
+			nameColor = "#92fc63",
+			dir = 1,
+			blackBg = true,
+			actor = 202110,
 			actorName = "？？？",
 			say = "뭐, 이 도서관에 오게 된 게 불행 중 다행이려나…",
-			dir = 1,
-			blackBg = true,
-			actor = 202110,
-			nameColor = "#92fc63",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,15 +251,15 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorShadow = true,
+			side = 0,
+			withoutPainting = true,
+			nameColor = "#92fc63",
+			dir = 1,
+			blackBg = true,
+			actor = 202110,
 			actorName = "？？？",
 			say = "조용하고 넓고, 가끔 오는 구축함들을 놀려주는 것도 재미있고...후후훗",
-			dir = 1,
-			blackBg = true,
-			actor = 202110,
-			nameColor = "#92fc63",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,13 +270,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
-			nameColor = "#92fc63",
-			say = "……！",
 			dir = 1,
 			blackBg = true,
-			withoutPainting = true,
+			actor = 0,
+			nameColor = "#92fc63",
+			say = "……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
+			optionFlag = 1,
 			side = 2,
-			blackBg = true,
 			nameColor = "#92fc63",
 			dir = 1,
-			optionFlag = 1,
+			blackBg = true,
+			actor = 202110,
 			say = "아와와앗!",
 			flashN = {
 				color = {
@@ -346,16 +346,16 @@ return {
 			}
 		},
 		{
-			actor = 202110,
-			side = 2,
-			optionFlag = 2,
-			nameColor = "#92fc63",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			optionFlag = 2,
+			actor = 202110,
+			nameColor = "#92fc63",
 			say = "벨파스트 녀석... 내가 언니인데…",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -380,12 +380,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
-			side = 2,
-			optionFlag = 2,
-			nameColor = "#92fc63",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			optionFlag = 2,
+			actor = 202110,
+			nameColor = "#92fc63",
 			say = "그러고 보니 매번 오던 구축함들, 슬슬 올 때가 됐는데…",
 			typewriter = {
 				speed = 0.05,
@@ -397,12 +397,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
-			side = 2,
-			optionFlag = 2,
-			nameColor = "#92fc63",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			optionFlag = 2,
+			actor = 202110,
+			nameColor = "#92fc63",
 			say = "아와와앗!",
 			typewriter = {
 				speed = 0.05,
@@ -430,16 +430,16 @@ return {
 			}
 		},
 		{
-			actor = 101060,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
-			say = "역시, 에든버러씨가 요정이었군요~",
 			bgm = "story-1",
+			actor = 101060,
+			nameColor = "#92fc63",
+			say = "역시, 에든버러씨가 요정이었군요~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -464,13 +464,13 @@ return {
 			}
 		},
 		{
-			actor = 301010,
+			say = "다, 다행이다... 무서운 게 아니라서…",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301010,
 			actorName = "{namecode:2}",
-			say = "다, 다행이다... 무서운 게 아니라서…",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -501,13 +501,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 0,
+			nameColor = "#92fc63",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,12 +518,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 202110,
+			nameColor = "#92fc63",
 			say = "벨파스트한테 솔직히 얘기하라고요?! 그, 그것만은 제발~!!",
 			typewriter = {
 				speed = 0.05,

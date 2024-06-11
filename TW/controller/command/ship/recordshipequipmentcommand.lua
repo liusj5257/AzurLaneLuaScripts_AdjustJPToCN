@@ -7,7 +7,7 @@ slot1 = {
 	"#EE799F"
 }
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.shipId
 	slot4 = slot2.index
@@ -56,7 +56,7 @@ function slot0.execute(slot0, slot1)
 			return
 		end
 
-		function slot14(slot0, slot1)
+		slot14 = function(slot0, slot1)
 			if uv0[slot0] and uv0[slot0].id == slot1 then
 				return true
 			end
@@ -84,7 +84,7 @@ function slot0.execute(slot0, slot1)
 			slot16 = slot11:GetSameTypeSpWeapon(slot13)
 		end
 
-		function slot17(slot0)
+		slot17 = function(slot0)
 			slot1 = {}
 
 			for slot5, slot6 in ipairs(slot0) do

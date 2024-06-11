@@ -1,37 +1,43 @@
 slot0 = class("NavalAcademyScene", import("..base.BaseUI"))
 slot0.WARP_TO_TACTIC = "WARP_TO_TACTIC"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return pg.naval_academy_theme[pg.activity_banner[_.filter(pg.activity_banner.get_id_list_by_type[GAMEUI_BANNER_13], function (slot0)
 		return pg.TimeMgr.GetInstance():inTime(pg.activity_banner[slot0].time)
 	end)[1]] and slot3.pic] and slot5.resource_path or "NavalAcademyUI"
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return true
 end
 
-function slot0.SetOilResField(slot0, slot1)
+slot0.SetOilResField = function(slot0, slot1)
 	slot0.oilResField = slot1
 end
 
-function slot0.SetGoldResField(slot0, slot1)
+slot0.SetGoldResField = function(slot0, slot1)
 	slot0.goldResField = slot1
 end
 
-function slot0.SetClassResField(slot0, slot1)
+slot0.SetClassResField = function(slot0, slot1)
 	slot0.classResField = slot1
 end
 
-function slot0.SetPlayer(slot0, slot1)
+slot0.SetPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.UpdatePlayer(slot0, slot1)
+slot0.UpdatePlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.init(slot0)
+slot0.onUILoaded = function(slot0, slot1)
+	slot1.name = "NavalAcademyUI"
+
+	uv0.super.onUILoaded(slot0, slot1)
+end
+
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("blur_container/adapt/top/title/back")
 	slot0._blurLayer = slot0:findTF("blur_container")
 	slot1 = slot0._blurLayer
@@ -51,7 +57,7 @@ function slot0.init(slot0)
 	slot0.resPage = ResourcePage.New(slot0._tf, slot0.event)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:ExitAnim()
 		uv0:emit(uv1.ON_BACK, nil, 0.3)
@@ -67,24 +73,24 @@ function slot0.didEnter(slot0)
 	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0)
 end
 
-function slot0.InitBuildings(slot0)
+slot0.InitBuildings = function(slot0)
 	for slot4, slot5 in ipairs(slot0.buildings) do
 		slot5:Init()
 	end
 end
 
-function slot0.EnterAnim(slot0)
+slot0.EnterAnim = function(slot0)
 	setAnchoredPosition(slot0._topPanel, {
 		y = 84
 	})
 	shiftPanel(slot0._topPanel, nil, 0, 0.3, 0, true, true)
 end
 
-function slot0.ExitAnim(slot0)
+slot0.ExitAnim = function(slot0)
 	shiftPanel(slot0._topPanel, nil, slot0._topPanel.rect.height, 0.3, 0, true, true)
 end
 
-function slot0.OpenDefaultLayer(slot0)
+slot0.OpenDefaultLayer = function(slot0)
 	slot0.warp = slot0.contextData.warp
 	slot0.contextData.warp = nil
 
@@ -93,12 +99,12 @@ function slot0.OpenDefaultLayer(slot0)
 	end
 end
 
-function slot0.LoadEffects(slot0)
+slot0.LoadEffects = function(slot0)
 	slot0:LoadWaveEffect()
 	slot0:LoadMainEffect()
 end
 
-function slot0.LoadWaveEffect(slot0)
+slot0.LoadWaveEffect = function(slot0)
 	slot0:GetEffect("xueyuan02", function (slot0)
 		setParent(slot0, uv0.bg)
 
@@ -106,22 +112,22 @@ function slot0.LoadWaveEffect(slot0)
 	end)
 end
 
-function slot0.LoadMainEffect(slot0)
+slot0.LoadMainEffect = function(slot0)
 end
 
-function slot0.InitChars(slot0)
+slot0.InitChars = function(slot0)
 	slot0.shipsView:Init()
 end
 
-function slot0.OpenGoldResField(slot0)
+slot0.OpenGoldResField = function(slot0)
 	slot0.resPage:ExecuteAction("Flush", slot0.goldResField)
 end
 
-function slot0.OpenOilResField(slot0)
+slot0.OpenOilResField = function(slot0)
 	slot0.resPage:ExecuteAction("Flush", slot0.oilResField)
 end
 
-function slot0.OnAddLayer(slot0)
+slot0.OnAddLayer = function(slot0)
 	slot0.layerCnt = (slot0.layerCnt or 0) + 1
 
 	if slot0.layerCnt == 1 then
@@ -129,7 +135,7 @@ function slot0.OnAddLayer(slot0)
 	end
 end
 
-function slot0.OnRemoveLayer(slot0, slot1)
+slot0.OnRemoveLayer = function(slot0, slot1)
 	slot0.layerCnt = (slot0.layerCnt or 0) - 1
 
 	if slot0.layerCnt <= 0 then
@@ -143,7 +149,7 @@ function slot0.OnRemoveLayer(slot0, slot1)
 	end
 end
 
-function slot0.EnableEffects(slot0, slot1)
+slot0.EnableEffects = function(slot0, slot1)
 	if slot0.waveEffect then
 		setActive(slot0.waveEffect, slot1)
 	end
@@ -153,13 +159,13 @@ function slot0.EnableEffects(slot0, slot1)
 	end
 end
 
-function slot0.OnGetRes(slot0, slot1, slot2)
+slot0.OnGetRes = function(slot0, slot1, slot2)
 	if slot0.buildings[slot1] then
 		slot0.buildings[slot1]:PlayGetResAnim(slot2)
 	end
 end
 
-function slot0.OnStartUpgradeResField(slot0, slot1)
+slot0.OnStartUpgradeResField = function(slot0, slot1)
 	slot2 = nil
 
 	if isa(slot1, OilResourceField) then
@@ -181,19 +187,19 @@ function slot0.OnStartUpgradeResField(slot0, slot1)
 	end
 end
 
-function slot0.OnResFieldLevelUp(slot0, slot1)
+slot0.OnResFieldLevelUp = function(slot0, slot1)
 	slot0:OnStartUpgradeResField(slot1)
 end
 
-function slot0.OnCollectionUpdate(slot0)
+slot0.OnCollectionUpdate = function(slot0)
 	slot0.buildings[4]:RefreshTip()
 end
 
-function slot0.RefreshChars(slot0)
+slot0.RefreshChars = function(slot0)
 	slot0.shipsView:Refresh()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	for slot4, slot5 in ipairs(slot0.buildings) do
 		slot5:Dispose()
 	end
@@ -231,7 +237,7 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.GetEffect(slot0, slot1, slot2)
+slot0.GetEffect = function(slot0, slot1, slot2)
 	slot3 = ResourceMgr.Inst
 
 	slot3:getAssetAsync("ui/" .. slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)

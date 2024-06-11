@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT3",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT3",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-uta",
 			dir = 1,
 			say = "……所以，果然大家记忆还是很暧昧吗？",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "是呀。大家本来都在去大和国的路上……回过神来就发现自己被丢进了这片海里",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +54,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "一眼望去全是海水，既看不到陆地也没有可以停靠的地方……差点就溺死了",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "一眼望去全是海水，既看不到陆地也没有可以停靠的地方……差点就溺死了",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "真是和遇难了一样呢",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -341,8 +341,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "……来了",
 			typewriter = {
 				speed = 0.05,
@@ -356,10 +356,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "话就说到这吧。是新的敌人",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "话就说到这吧。是新的敌人",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -392,8 +392,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			actorName = "久远？",
 			say = "……",
 			typewriter = {
@@ -409,8 +409,8 @@ return {
 			actor = 10300020,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "猫音？",
 			dir = 1,
+			actorName = "猫音？",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -440,8 +440,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "我就算了，连猫音也不放过……真是恶趣味！",
 			typewriter = {
 				speed = 0.05,

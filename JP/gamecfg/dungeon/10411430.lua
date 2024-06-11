@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -130,8 +130,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 104005,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								28,
 								0,
@@ -144,8 +144,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104005,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								28,
 								0,
@@ -158,8 +158,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104005,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,
@@ -172,8 +172,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104000,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-15,
 								0,
@@ -186,8 +186,8 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							delay = 0,
 							templateID = 31300,
+							delay = 0,
 							totalNumber = 6,
 							weaponID = {
 								190001
@@ -252,8 +252,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 104011,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								28,
 								0,
@@ -266,8 +266,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104011,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,
@@ -280,8 +280,8 @@ return {
 						},
 						{
 							monsterTemplateID = 104011,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								8,
 								0,
@@ -298,8 +298,8 @@ return {
 							interval = 10,
 							onceNumber = 2,
 							formation = 10006,
-							delay = 0,
 							templateID = 31102,
+							delay = 0,
 							totalNumber = 4,
 							weaponID = {
 								190003

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGCAIDEZHONGMUQU23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGCAIDEZHONGMUQU23",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "NA海域·斯卡帕灣近海",
 			side = 2,
 			bgName = "bg_endingsong_4",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-highseasfleet",
+			say = "NA海域·斯卡帕灣近海",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官，在斯卡帕灣外發現了鐵血總旗艦腓特烈大帝的蹤跡。",
 			typewriter = {
 				speed = 0.05,
@@ -52,10 +52,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "其正與重櫻艦隊以及一支未知鐵血艦隊一同向著您所在的方向緩慢前進。",
 			typewriter = {
 				speed = 0.05,
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "達卡港的重櫻艦隊果然還是加入戰鬥了啊……",
 			typewriter = {
 				speed = 0.05,
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "不過突然出現的未知艦隊……？難道這就是腓特烈大帝拖延時間的原因嗎。",
 			typewriter = {
 				speed = 0.05,
@@ -98,10 +98,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 705050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官同志…………即將…………抵達…………",
 			typewriter = {
 				speed = 0.05,
@@ -113,9 +113,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "嗯…………？通訊出現干擾了？",
 			typewriter = {
 				speed = 0.05,
@@ -127,9 +127,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "埃爾德里奇，有什麼異常情況嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 101260,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101260,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……通訊系統，無異常。指揮官，我們沒有被干擾。",
 			typewriter = {
 				speed = 0.05,
@@ -158,9 +158,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "也就是出問題的是北方聯合艦隊那邊……",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -201,9 +201,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "塞壬……？ NA海域的塞壬不是隨著核心區的攻陷已經基本被清理乾淨了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -218,10 +218,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "我也不知道這些塞壬是從哪裡冒出來的……",
 			typewriter = {
 				speed = 0.05,
@@ -255,10 +255,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "北方聯合艦隊最先被波及的，詳細情況正在評估中！",
 			typewriter = {
 				speed = 0.05,
@@ -346,9 +346,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "不用著急，優先保護好自己。周邊護衛艦隊優先保證航空編隊的安全！",
 			typewriter = {
 				speed = 0.05,
@@ -363,10 +363,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105130,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "命令收到，現在開始調整航線。",
 			typewriter = {
 				speed = 0.05,
@@ -381,10 +381,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "可惡……指揮官，我們無法及時趕到航空艦隊的位置。突然出現的大量塞壬人型精英阻斷了我們的航線！",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "各艦隊推進速度放緩，不要優先向著斯卡帕灣前進了。",
 			typewriter = {
 				speed = 0.05,
@@ -410,9 +410,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "航線受阻的艦隊就近與身邊的友軍匯合，優先清理身邊的敵人與鏡面海域，自主決定行動目標。",
 			typewriter = {
 				speed = 0.05,
@@ -427,10 +427,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "到底是怎麼回事……如此多的鏡面海域肯定是早就設置好的……",
 			typewriter = {
 				speed = 0.05,
@@ -476,9 +476,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "如果有可用艦隊的話也讓她們立刻出動。",
 			typewriter = {
 				speed = 0.05,
@@ -490,9 +490,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "相信皇家為了護衛本土安全，肯定在附近多少留了一些艦隊的。",
 			typewriter = {
 				speed = 0.05,
@@ -523,9 +523,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "喬治亞，妳那裡情況怎麼樣？",
 			typewriter = {
 				speed = 0.05,
@@ -540,10 +540,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 199020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官，我正在觀察戰場。",
 			typewriter = {
 				speed = 0.05,
@@ -593,9 +593,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "明白了，我這就讓航空力量展開重點搜索。",
 			typewriter = {
 				speed = 0.05,
@@ -607,9 +607,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "企業，薩拉托加，能收到嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -621,12 +621,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "通訊器",
+			hidePaintObj = true,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -638,9 +638,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "已經因為海霧阻斷失去聯繫了麼……",
 			typewriter = {
 				speed = 0.05,
@@ -655,10 +655,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "白鷹海軍最大最強的Black Dragon，紐澤西登場！",
 			typewriter = {
 				speed = 0.05,
@@ -689,9 +689,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "紐澤西，來得正好！妳那邊情況怎麼樣？",
 			typewriter = {
 				speed = 0.05,
@@ -706,10 +706,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "雖然有一半艦隊暫時因為鏡面海域失聯，不過我帶著另一半趕過來了哦！",
 			typewriter = {
 				speed = 0.05,
@@ -724,10 +724,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107090,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官，對於構建者的偵察就交給我們吧，我們一定會在最短時間內把它找出來的！",
 			typewriter = {
 				speed = 0.05,
@@ -739,9 +739,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "幫大忙了。",
 			typewriter = {
 				speed = 0.05,
@@ -775,10 +775,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "我注意到了哦，塞壬只盯著我們發動攻擊。撤離的鐵血艦隊就被它們直接放過去了。",
 			typewriter = {
 				speed = 0.05,
@@ -841,10 +841,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107110,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官，我們發現構建者的位置了！",
 			typewriter = {
 				speed = 0.05,
@@ -897,10 +897,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "紐澤西艦隊，全速出擊~！",
 			typewriter = {
 				speed = 0.05,
@@ -912,9 +912,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -926,9 +926,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "塞壬也許會干涉本次作戰，這種事態已經事先已經想到了。",
 			typewriter = {
 				speed = 0.05,
@@ -940,9 +940,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "所以才從本土帶來了大量艦隊，並從星海中帶來了喬治亞與埃爾德里奇……",
 			typewriter = {
 				speed = 0.05,

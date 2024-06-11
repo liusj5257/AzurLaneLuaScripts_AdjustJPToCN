@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "弹药匮乏",
 	time = 0,
-	color = "yellow",
+	name = "弹药匮乏",
+	init_effect = "",
+	id = 211,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 211,
+	color = "yellow",
 	icon = 211,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = -0.5
+				number = -0.5,
+				attr = "damageRatioBullet"
 			}
 		},
 		{

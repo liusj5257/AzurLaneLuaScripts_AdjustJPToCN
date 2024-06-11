@@ -9,18 +9,18 @@ return {
 				},
 				arg_list = {
 					check_target = "TargetHelpLeastHP",
-					minTargetNumber = 1,
+					skill_id = 13,
 					targetMaxHPRatio = 0.99,
+					minTargetNumber = 1,
 					time = 5,
-					target = "TargetSelf",
-					skill_id = 13
+					target = "TargetSelf"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "维修Lv4",
 	time = 0,
+	name = "维修Lv4",
+	init_effect = "",
 	picture = "",
 	desc = "每5秒回复20点耐久",
 	stack = 1,
@@ -35,11 +35,11 @@ return {
 			},
 			arg_list = {
 				check_target = "TargetHelpLeastHP",
-				minTargetNumber = 1,
+				skill_id = 13,
 				targetMaxHPRatio = 0.99,
+				minTargetNumber = 1,
 				time = 5,
-				target = "TargetSelf",
-				skill_id = 13
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -1,7 +1,7 @@
 slot0 = class("CourtYardShipModule", import("..CourtYardPlaceableModule"))
 slot1 = 1
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	uv0 = CourtYardConst.SHIP_SCALE
 
 	uv1.super.Ctor(slot0, slot1, slot2)
@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.role = slot3
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	pg.ViewUtils.SetLayer(slot0._tf, Layer.UI)
 	slot0._tf:SetParent(slot0.floor)
@@ -46,19 +46,19 @@ function slot0.OnInit(slot0)
 	setActive(slot0.shadow, true)
 end
 
-function slot0.AdjustYForInteraction(slot0)
+slot0.AdjustYForInteraction = function(slot0)
 	slot0.model.localPosition = Vector3(0, 0, 0)
 end
 
-function slot0.ResetYForInteraction(slot0)
+slot0.ResetYForInteraction = function(slot0)
 	slot0.model.localPosition = Vector3(0, 25, 0)
 end
 
-function slot0.GetSpine(slot0)
+slot0.GetSpine = function(slot0)
 	return slot0.spineAnimUI.gameObject.transform
 end
 
-function slot0.AddListeners(slot0)
+slot0.AddListeners = function(slot0)
 	slot0:AddListener(CourtYardEvent.SHIP_STATE_CHANGE, slot0.OnStateChange)
 	slot0:AddListener(CourtYardEvent.SHIP_MOVE, slot0.OnMove)
 	slot0:AddListener(CourtYardEvent.SHIP_POSITION_CHANGE, slot0.OnUpdatePosition)
@@ -71,7 +71,7 @@ function slot0.AddListeners(slot0)
 	slot0:AddListener(CourtYardEvent.SHIP_STOP_INTERACTION, slot0.StopInterAction)
 end
 
-function slot0.RemoveListeners(slot0)
+slot0.RemoveListeners = function(slot0)
 	slot0:RemoveListener(CourtYardEvent.SHIP_STATE_CHANGE, slot0.OnStateChange)
 	slot0:RemoveListener(CourtYardEvent.SHIP_MOVE, slot0.OnMove)
 	slot0:RemoveListener(CourtYardEvent.SHIP_POSITION_CHANGE, slot0.OnUpdatePosition)
@@ -84,7 +84,7 @@ function slot0.RemoveListeners(slot0)
 	slot0:RemoveListener(CourtYardEvent.SHIP_STOP_INTERACTION, slot0.StopInterAction)
 end
 
-function slot0.InitAttachment(slot0)
+slot0.InitAttachment = function(slot0)
 	onButton(slot0, slot0.clickTF, function ()
 		uv0:Emit("TouchShip", uv0.data.id)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_CLICK)
@@ -97,7 +97,7 @@ function slot0.InitAttachment(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnBeginDrag(slot0)
+slot0.OnBeginDrag = function(slot0)
 	if not slot0:GetView():GetCurrStorey():AllModulesAreCompletion() then
 		return
 	end
@@ -106,19 +106,19 @@ function slot0.OnBeginDrag(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_BOAT_DRAG)
 end
 
-function slot0.OnDragging(slot0, slot1)
+slot0.OnDragging = function(slot0, slot1)
 	slot0:Emit("DragingShip", slot0.data.id, slot1)
 end
 
-function slot0.OnDragEnd(slot0, slot1)
+slot0.OnDragEnd = function(slot0, slot1)
 	slot0:Emit("DragShipEnd", slot0.data.id, slot1)
 end
 
-function slot0.OnUpdatePosition(slot0, slot1, slot2)
+slot0.OnUpdatePosition = function(slot0, slot1, slot2)
 	slot0:UpdatePosition(slot1, slot2)
 end
 
-function slot0.OnStateChange(slot0, slot1, slot2)
+slot0.OnStateChange = function(slot0, slot1, slot2)
 	if slot1 ~= CourtYardShip.STATE_MOVING_ZERO and slot1 ~= CourtYardShip.STATE_MOVING_HALF and slot1 ~= CourtYardShip.STATE_MOVING_ONE then
 		slot0:ClearMove()
 	end
@@ -131,7 +131,7 @@ function slot0.OnStateChange(slot0, slot1, slot2)
 	end
 end
 
-function slot0.PlayChatAnim(slot0, slot1, slot2, slot3)
+slot0.PlayChatAnim = function(slot0, slot1, slot2, slot3)
 	slot4 = LeanTween.scale(go(slot0.chatTF), defaultValue(slot1, Vector3(2, 2, 2)), 0.5):setEase(LeanTweenType.easeOutBack):setDelay(defaultValue(slot2, 0))
 
 	if not defaultValue(slot3, true) then
@@ -143,7 +143,7 @@ function slot0.PlayChatAnim(slot0, slot1, slot2, slot3)
 	end))
 end
 
-function slot0.ClearChatAnimation(slot0)
+slot0.ClearChatAnimation = function(slot0)
 	if LeanTween.isTweening(go(slot0.chatTF)) then
 		LeanTween.cancel(go(slot0.chatTF))
 	end
@@ -151,15 +151,15 @@ function slot0.ClearChatAnimation(slot0)
 	slot0.chatTF.localScale = Vector3.zero
 end
 
-function slot0.OnUpdateInteraction(slot0, slot1)
+slot0.OnUpdateInteraction = function(slot0, slot1)
 	slot0.animator:PlayInteractioAnim(slot1.action)
 end
 
-function slot0.OnAnimtionFinish(slot0, slot1)
+slot0.OnAnimtionFinish = function(slot0, slot1)
 	slot0:Emit("ShipAnimtionFinish", slot0.data.id, slot1)
 end
 
-function slot0.OnMove(slot0, slot1, slot2)
+slot0.OnMove = function(slot0, slot1, slot2)
 	slot0:ClearMove()
 
 	slot4 = CourtYardCalcUtil.Map2Local(slot1)
@@ -175,7 +175,7 @@ function slot0.OnMove(slot0, slot1, slot2)
 	slot0.interactionTF.localScale = slot0.model.transform.localScale
 end
 
-function slot0.OnAddAward(slot0, slot1, slot2)
+slot0.OnAddAward = function(slot0, slot1, slot2)
 	if slot2 == 3 and slot1 <= 0 then
 		return
 	end
@@ -219,7 +219,7 @@ function slot0.OnAddAward(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.UpdateBubble(slot0, slot1, slot2)
+slot0.UpdateBubble = function(slot0, slot1, slot2)
 	setActive(slot1, slot2 ~= 0)
 
 	if LeanTween.isTweening(slot1.gameObject) then
@@ -235,22 +235,22 @@ function slot0.UpdateBubble(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnInimacyChange(slot0, slot1)
+slot0.OnInimacyChange = function(slot0, slot1)
 	slot0:UpdateBubble(slot0.inimacyBubble, slot1)
 end
 
-function slot0.OnCoinChange(slot0, slot1)
+slot0.OnCoinChange = function(slot0, slot1)
 	slot0:UpdateBubble(slot0.moneyBubble, slot1)
 end
 
-function slot0.ClearMove(slot0)
+slot0.ClearMove = function(slot0)
 	LeanTween.cancel(slot0._go)
 end
 
-function slot0.WillInterAction(slot0, slot1)
+slot0.WillInterAction = function(slot0, slot1)
 end
 
-function slot0.StartInterAction(slot0, slot1)
+slot0.StartInterAction = function(slot0, slot1)
 	setActive(slot0.shadow, false)
 	setAnchoredPosition(slot0._tf, slot1:GetOffset())
 
@@ -260,24 +260,24 @@ function slot0.StartInterAction(slot0, slot1)
 	slot0:AdjustYForInteraction()
 end
 
-function slot0.StopInterAction(slot0)
+slot0.StopInterAction = function(slot0)
 	setActive(slot0.shadow, true)
 	slot0:ResetTransform()
 	slot0:ResetYForInteraction()
 end
 
-function slot0.ResetTransform(slot0)
+slot0.ResetTransform = function(slot0)
 	slot0._tf.localScale = Vector3(uv0, uv0, 1)
 	slot0._tf.localEulerAngles = Vector3.zero
 end
 
-function slot0.HideAttachment(slot0, slot1)
+slot0.HideAttachment = function(slot0, slot1)
 	if slot0.role then
 		slot0.role:SetVisible(not slot1)
 	end
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 	uv0.super.OnDispose(slot0)
 	slot0:ClearChatAnimation()
 	slot0:ResetTransform()
@@ -303,7 +303,7 @@ function slot0.OnDispose(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:GetView().poolMgr:GetShipPool():Enqueue(slot0._go)
 end
 

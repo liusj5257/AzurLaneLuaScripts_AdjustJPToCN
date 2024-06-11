@@ -4,23 +4,23 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -42,24 +42,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_542",
+			bgm = "story-commander-up",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It would be another sleepless night, just as I had been fearing.",
-			bgm = "story-commander-up",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "Amidst victory celebrations, reports of Siren attacks started blowing in like a snowstorm.",
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "Large Siren fleets had been sighted nearly everywhere, from the South Atlantic to the Antarctic and its surrounding ocean.",
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "They were all converging upon a single point in the Southern Ocean.",
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "It seemed like repelling Pamiat' Merkuria META gave Observer the breathing room to launch a counterattack.",
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "To make matters worse, the Gazers were still lurking somewhere beneath the snow. We would have to take care of them before moving on to the Sirens.",
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "However, I could not let the shipgirls remain in Antarctica. If they did, the fighting would surely get chaotic.",
@@ -137,8 +137,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "For that reason, I ordered the immediate withdrawal of all forces present on the continent.",
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "I instructed the Combined Azur Lane fleet to move to safe waters, then spread out and return to their faction's area of control.",
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			say = "Now, having done all this, it was time to contact the girl who'd helped me so much during this operation...",
@@ -170,28 +170,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_chongdong",
+			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I closed my eyes and allowed the cognitive influence into my mind. A galaxy full of stars spread out before me.",
-			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -202,10 +202,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Hey. Here to ask me something?",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Mhm. They were just bait Observer used to lure you.",
 			painting = {
 				alpha = 0.3,
@@ -274,10 +274,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "I think that was just another trick on Observer's part. Seeing is believing, and she made you believe by removing what was inhibiting Soyuz. It was the quickest way.",
 			painting = {
 				alpha = 0.3,
@@ -316,10 +316,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "\"Resculpting\" is... Well, it's a special stage of METAmorphosis, fraught with danger and instability. I don't want to tell you too much.",
 			painting = {
 				alpha = 0.3,
@@ -334,10 +334,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "But, to give you a hint – by now, you've met several girls whose METAmorphosis changed them somehow.",
 			painting = {
 				alpha = 0.3,
@@ -349,12 +349,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Why do you think they changed? Where do the energy and data that turned them into what they are come from?",
 			painting = {
 				alpha = 0.3,
@@ -429,10 +429,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "I can't, since I don't know what things you truly saw in there.",
 			painting = {
 				alpha = 0.3,
@@ -444,12 +444,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "If we ever get the chance, though, I'd like to see it with you.",
 			painting = {
 				alpha = 0.3,
@@ -464,10 +464,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "The sun's activity is on the rise, so I know this won't be our last meeting.",
 			painting = {
 				alpha = 0.3,
@@ -506,10 +506,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Correct. Conceptually, it represents weakening, and weakening facilitates coalescence.",
 			painting = {
 				alpha = 0.3,
@@ -521,12 +521,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "It comes with some danger, but also with opportunities.",
 			painting = {
 				alpha = 0.3,
@@ -541,10 +541,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Sorry for being so vague on the details. I'll tell you everything in due time.",
 			painting = {
 				alpha = 0.3,
@@ -559,10 +559,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "...I have to ask – are you really not worried about that Pamiat'?",
 			painting = {
 				alpha = 0.3,
@@ -577,10 +577,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "She told you herself. She'll attack again whenever she sees the chance.",
 			painting = {
 				alpha = 0.3,
@@ -607,10 +607,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "I sure hope so. Your branch is currently under constant threat.",
 			painting = {
 				alpha = 0.3,
@@ -625,10 +625,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "You stopped her from accomplishing her first objective. She still has two more.",
 			painting = {
 				alpha = 0.3,
@@ -643,10 +643,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Be on your guard, Commander.",
 			painting = {
 				alpha = 0.3,
@@ -661,10 +661,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "The battle isn't over yet.",
 			painting = {
 				alpha = 0.3,

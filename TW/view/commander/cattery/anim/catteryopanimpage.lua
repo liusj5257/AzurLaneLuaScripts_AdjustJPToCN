@@ -1,18 +1,18 @@
 slot0 = class("CatteryOpAnimPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CatteryOPAnimUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.homeExpAnim = CatteryAddHomeExpAnim.New(slot0:findTF("bg/single"))
 	slot0.homeAndCommanderAnim = CattertAddHomeExpAndCommanderExpAnim.New(slot0:findTF("bg/both"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 end
 
-function slot0.AddPlan(slot0, slot1)
+slot0.AddPlan = function(slot0, slot1)
 	slot0:RemoveTimer()
 	slot0:Show()
 
@@ -48,7 +48,7 @@ function slot0.AddPlan(slot0, slot1)
 	slot0.player = slot6
 end
 
-function slot0.ParseData(slot0, slot1)
+slot0.ParseData = function(slot0, slot1)
 	slot2 = false
 	slot3 = false
 
@@ -65,7 +65,7 @@ function slot0.ParseData(slot0, slot1)
 	return slot1.commanderExps, slot1.homeExp, slot2, slot3
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -73,7 +73,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:RemoveTimer()
 
 	slot0.doAnim = nil

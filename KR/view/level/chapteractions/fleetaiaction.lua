@@ -1,6 +1,6 @@
 slot0 = class("FleetAIAction")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.actType = slot1.act_type
 	slot0.line = {
 		row = slot1.ai_pos.row,
@@ -31,7 +31,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.commanderSkillEffectId = slot1.commander_skill_effect_id
 end
 
-function slot0.applyTo(slot0, slot1, slot2)
+slot0.applyTo = function(slot0, slot1, slot2)
 	if slot1:getFleet(FleetType.Normal, slot0.line.row, slot0.line.column) then
 		return slot0:applyToFleet(slot1, slot3, slot2)
 	end
@@ -39,7 +39,7 @@ function slot0.applyTo(slot0, slot1, slot2)
 	return false, "can not find any fleet at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 end
 
-function slot0.applyToFleet(slot0, slot1, slot2, slot3)
+slot0.applyToFleet = function(slot0, slot1, slot2, slot3)
 	if not slot2:isValid() then
 		return false, "fleet " .. slot2.id .. " is invalid."
 	end
@@ -95,7 +95,7 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 	return true, slot4
 end
 
-function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
+slot0.PlayAIAction = function(slot0, slot1, slot2, slot3)
 	assert(slot1:getFleetIndex(FleetType.Normal, slot0.line.row, slot0.line.column))
 
 	if slot1:isPlayingWithBombEnemy() then

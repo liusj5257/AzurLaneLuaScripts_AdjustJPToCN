@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUINU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUINU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"As Cool As A Demon\n\n<size=45>1 Freeze!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "I was back in my office, having just wrapped up a strategy meeting with the Sakura Empire. Upon opening the door, I felt a light breeze brush against my cheek.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "I was back in my office, having just wrapped up a strategy meeting with the Sakura Empire. Upon opening the door, I felt a light breeze brush against my cheek.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The curtains by my desk flapped in the wind. Evidently, I'd forgotten to close the window before I left.",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Right after I shut the window, there was a knock-knock on the door.",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Kinu entered before I could answer the knocks. I turned around to face her, and that's when I had the life scared out of me.",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "...Stay still. Hold it right there and don't move a muscle.",
 			effects = {
@@ -147,9 +147,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Her face was wrinkled into a ghastly look. Intimidated by her commanding tone, I froze in place almost instinctively.",
 			effects = {
 				{
@@ -186,8 +186,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "You're not in danger, it's just there's a wasp resting on your– Hey! I said hold still!",
 			typewriter = {
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Beads of cold sweat ran down my body, whereas Kinu was the spitting image of calmness. She came over and quietly threw open the window.",
 			typewriter = {
 				speed = 0.05,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "While I did my best statue impression, she gently put a hand to my collar and allowed the wasp to walk onto it.",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "There. All done... It worries me to think a little wasp could get the better of someone in your position.",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "I mean it when I say this: you need to get stronger. Otherwise, how do you expect to control a demon such as I?",
 			typewriter = {

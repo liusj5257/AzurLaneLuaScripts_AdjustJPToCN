@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_400 = {}
 slot1 = slot0.word_template_400
 
-function temp()
+temp = function()
 	uv0["休"] = {
 		["整"] = {
 			["路"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["糠"] = {
 		["米"] = {
 			["军"] = {
@@ -27,7 +27,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["兆"] = {
 		["家"] = {
 			["心"] = {
@@ -52,7 +52,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["境"] = {
 		["外"] = {
 			["有"] = {
@@ -92,7 +92,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["臘"] = {
 		["禸"] = {
 			this = true
@@ -102,7 +102,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["菠"] = {
 		["犀"] = {
 			["来"] = {
@@ -119,7 +119,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["笠"] = {
 		["战"] = {
 			["书"] = {
@@ -131,7 +131,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["茗"] = {
 		["泽"] = {
 			["溪"] = {
@@ -143,7 +143,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["珖"] = {
 		["掂"] = {
 			["总"] = {
@@ -157,7 +157,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["琴"] = {
 		["城"] = {
 			["监"] = {
@@ -171,7 +171,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["寡"] = {
 		["人"] = {
 			["只"] = {
@@ -204,7 +204,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["化"] = {
 		["锅"] = {
 			["风"] = {
@@ -216,7 +216,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["闽"] = {
 		["江"] = {
 			["新"] = {
@@ -230,7 +230,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["浦"] = {
 		["江"] = {
 			["新"] = {
@@ -244,7 +244,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["画"] = {
 		["〇"] = {
 			["的"] = {
@@ -260,7 +260,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["紫"] = {
 		["禅"] = {
 			["接"] = {
@@ -285,7 +285,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["钲"] = {
 		["国"] = {
 			["级"] = {
@@ -297,7 +297,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.O = {
 		["2"] = {
 			A = {
@@ -329,7 +329,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["佈"] = {
 		["熙"] = {
 			["涞"] = {
@@ -341,7 +341,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["荷"] = {
 		["韵"] = {
 			["诗"] = {
@@ -353,7 +353,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["储"] = {
 		["阳"] = {
 			this = true
@@ -363,7 +363,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["灬"] = {
 		["占"] = {
 			["占"] = {
@@ -379,7 +379,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["填"] = {
 		["空"] = {
 			["题"] = {
@@ -415,7 +415,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["滋"] = {
 		["磁"] = {
 			["也"] = {
@@ -439,7 +439,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["*"] = {
 		["*"] = {
 			["也"] = {
@@ -526,7 +526,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["甚"] = {
 		["精"] = {
 			this = true
@@ -536,7 +536,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["谷"] = {
 		["景"] = {
 			["生"] = {
@@ -564,7 +564,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["头"] = {
 		["上"] = {
 			s = {
@@ -614,7 +614,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["淮"] = {
 		["\\"] = {
 			x = {
@@ -666,7 +666,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["Ξ"] = {
 		["大"] = {
 			this = true
@@ -676,7 +676,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["笑"] = {
 		["贫"] = {
 			["酮"] = {
@@ -739,7 +739,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["芝"] = {
 		["麻"] = {
 			["猪"] = {
@@ -751,7 +751,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["扬"] = {
 		["上"] = {
 			["昆"] = {
@@ -812,7 +812,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["企"] = {
 		["国"] = {
 			["同"] = {
@@ -826,7 +826,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鲤"] = {
 		["虹"] = {
 			["智"] = {
@@ -838,7 +838,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["腊"] = {
 		["哥"] = {
 			this = true
@@ -853,7 +853,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蚉"] = {
 		["化"] = {
 			["大"] = {
@@ -869,7 +869,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.R = {
 		M = {
 			["正"] = {
@@ -982,7 +982,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蔷"] = {
 		["仔"] = {
 			["说"] = {
@@ -998,7 +998,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["薇"] = {
 		["羽"] = {
 			["看"] = {
@@ -1037,7 +1037,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["睿"] = {
 		["眼"] = {
 			["看"] = {
@@ -1053,7 +1053,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["牆"] = {
 		["囻"] = {
 			["籠"] = {
@@ -1077,7 +1077,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["冮"] = {
 		["译"] = {
 			["珉"] = {
@@ -1089,7 +1089,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["^"] = {
 		["8"] = {
 			["8"] = {
@@ -1115,7 +1115,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["《"] = {
 		["赢"] = {
 			["麻"] = {
@@ -1269,7 +1269,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["咒"] = {
 		["雍"] = {
 			["炕"] = {
@@ -1281,7 +1281,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["资"] = {
 		["产"] = {
 			["转"] = {
@@ -1312,7 +1312,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["孝"] = {
 		["子"] = {
 			["北"] = {
@@ -1332,7 +1332,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["↑"] = {
 		["面"] = {
 			["自"] = {
@@ -1350,7 +1350,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["裕"] = {
 		["达"] = {
 			["国"] = {
@@ -1364,7 +1364,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["量"] = {
 		["子"] = {
 			["少"] = {
@@ -1384,7 +1384,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["牌"] = {
 		["席"] = {
 			["痘"] = {
@@ -1398,7 +1398,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["拥"] = {
 		["习"] = {
 			["反"] = {
@@ -1412,7 +1412,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蛭"] = {
 		["畜"] = {
 			["是"] = {
@@ -1430,7 +1430,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["饥"] = {
 		["荒"] = {
 			["饿"] = {
@@ -1460,7 +1460,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["櫈"] = {
 		["\\"] = {
 			S = {
@@ -1484,7 +1484,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["敌"] = {
 		["在"] = {
 			["东"] = {
@@ -1502,7 +1502,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["咏"] = {
 		["芝"] = {
 			this = true
@@ -1512,7 +1512,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["然"] = {
 		["后"] = {
 			["把"] = {
@@ -1558,7 +1558,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["彻"] = {
 		["底"] = {
 			["地"] = {
@@ -1588,7 +1588,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["膜"] = {
 		["法"] = {
 			["师"] = {
@@ -1600,7 +1600,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["佟"] = {
 		["姥"] = {
 			["老"] = {
@@ -1643,7 +1643,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["厦"] = {
 		["门"] = {
 			["特"] = {
@@ -1661,7 +1661,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["减"] = {
 		["薪"] = {
 			["办"] = {
@@ -1673,7 +1673,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["棺"] = {
 		["猿"] = {
 			this = true
@@ -1683,7 +1683,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["葛"] = {
 		["亦"] = {
 			["民"] = {
@@ -1746,7 +1746,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["刃"] = {
 		["支"] = {
 			this = true
@@ -1756,7 +1756,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["踏"] = {
 		["稻"] = {
 			["无"] = {
@@ -1770,7 +1770,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["憋"] = {
 		["侃"] = {
 			["金"] = {
@@ -1790,7 +1790,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["晰"] = {
 		["镜"] = {
 			["贫"] = {
@@ -1802,7 +1802,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["腾"] = {
 		["宇"] = {
 			this = true
@@ -1812,7 +1812,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["モ"] = {
 		["沢"] = {
 			["鸫"] = {
@@ -1824,7 +1824,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["犹"] = {
 		["记"] = {
 			["太"] = {
@@ -1864,7 +1864,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鲐"] = {
 		["湾"] = {
 			["国"] = {
@@ -1876,7 +1876,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["篮"] = {
 		v = {
 			["团"] = {
@@ -1890,7 +1890,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["啞"] = {
 		["啞"] = {
 			this = true
@@ -1900,7 +1900,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["烽"] = {
 		["火"] = {
 			["戏"] = {
@@ -1922,7 +1922,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["桶"] = {
 		["里"] = {
 			["牙"] = {
@@ -1934,7 +1934,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["忄"] = {
 		["真"] = {
 			["氵"] = {
@@ -1952,7 +1952,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["亻"] = {
 		["冬"] = {
 			["粒"] = {
@@ -1966,7 +1966,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["菇"] = {
 		["武"] = {
 			["门"] = {
@@ -1978,7 +1978,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["舍"] = {
 		["汇"] = {
 			["煮"] = {
@@ -1992,7 +1992,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["馆"] = {
 		["猿"] = {
 			this = true
@@ -2002,7 +2002,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["夕"] = {
 		["夕"] = {
 			["踢"] = {
@@ -2023,7 +2023,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["燥"] = {
 		["仔"] = {
 			["\\"] = {
@@ -2051,7 +2051,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["皓"] = {
 		["海"] = {
 			["东"] = {
@@ -2063,7 +2063,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["丑"] = {
 		["港"] = {
 			this = true
@@ -2073,7 +2073,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["缑"] = {
 		["利"] = {
 			["过"] = {
@@ -2106,7 +2106,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["句"] = {
 		["禾"] = {
 			["囗"] = {
@@ -2126,7 +2126,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["玖"] = {
 		["平"] = {
 			["共"] = {
@@ -2142,7 +2142,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["悔"] = {
 		["相"] = {
 			["稻"] = {
@@ -2176,7 +2176,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["轁"] = {
 		["上"] = {
 			["飝"] = {
@@ -2188,7 +2188,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["韬"] = {
 		["上"] = {
 			["飝"] = {
@@ -2200,7 +2200,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["笳"] = {
 		["Ⅰ"] = {
 			["妙"] = {
@@ -2212,7 +2212,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["伶"] = {
 		["计"] = {
 			["划"] = {
@@ -2224,7 +2224,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["扽"] = {
 		["孝"] = {
 			["平"] = {
@@ -2236,7 +2236,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["怔"] = {
 		["帼"] = {
 			["级"] = {
@@ -2248,7 +2248,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["惯"] = {
 		["性"] = {
 			["谎"] = {
@@ -2262,7 +2262,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["倡"] = {
 		["民"] = {
 			["主"] = {
@@ -2294,7 +2294,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["樑"] = {
 		["稼"] = {
 			["訶"] = {
@@ -2306,7 +2306,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.Y = {
 		G = {
 			z = {
@@ -2334,7 +2334,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["涡"] = {
 		["潍"] = {
 			["涨"] = {
@@ -2354,7 +2354,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["卧"] = {
 		["位"] = {
 			["漳"] = {
@@ -2374,7 +2374,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["牲"] = {
 		["口"] = {
 			["红"] = {
@@ -2388,7 +2388,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["荀"] = {
 		["涖"] = {
 			["囯"] = {
@@ -2410,7 +2410,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["螿"] = {
 		["蠌"] = {
 			["蛤"] = {
@@ -2422,7 +2422,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["丷"] = {
 		["久"] = {
 			["哖"] = {
@@ -2448,7 +2448,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["枸"] = {
 		["栗"] = {
 			["果"] = {
@@ -2468,7 +2468,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["膊"] = {
 		["茜"] = {
 			["来"] = {
@@ -2480,7 +2480,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["责"] = {
 		["丼"] = {
 			this = true
@@ -2490,7 +2490,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["楚"] = {
 		["辰"] = {
 			["接"] = {
@@ -2504,7 +2504,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["骏"] = {
 		["屏"] = {
 			this = true
@@ -2514,7 +2514,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["苔"] = {
 		["毒"] = {
 			this = true
@@ -2524,7 +2524,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["底"] = {
 		["线"] = {
 			["橡"] = {
@@ -2540,7 +2540,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["⺼"] = {
 		["莫"] = {
 			["铪"] = {
@@ -2552,7 +2552,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["旒"] = {
 		["四"] = {
 			["事"] = {
@@ -2566,7 +2566,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["居"] = {
 		["榕"] = {
 			["基"] = {
@@ -2578,7 +2578,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["绪"] = {
 		["一"] = {
 			["妙"] = {
@@ -2590,7 +2590,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["嘘"] = {
 		["一"] = {
 			["喵"] = {
@@ -2602,7 +2602,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["怒"] = {
 		["斥"] = {
 			["二"] = {
@@ -2620,7 +2620,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["返"] = {
 		["拱"] = {
 			this = true
@@ -2630,7 +2630,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["钞"] = {
 		["票"] = {
 			["上"] = {
@@ -2650,7 +2650,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["総"] = {
 		["書"] = {
 			["计"] = {
@@ -2662,7 +2662,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["雊"] = {
 		["栗"] = {
 			["过"] = {
@@ -2682,7 +2682,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["孛"] = {
 		["檄"] = {
 			["来"] = {
@@ -2694,7 +2694,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蹈"] = {
 		["上"] = {
 			["灰"] = {
@@ -2706,7 +2706,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["ピ"] = {
 		["リ"] = {
 			["ピ"] = {
@@ -2732,7 +2732,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["钆"] = {
 		["的"] = {
 			["事"] = {
@@ -2751,7 +2751,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["也"] = {
 		["非"] = {
 			["罗"] = {
@@ -2772,7 +2772,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["ろ"] = {
 		["く"] = {
 			["じ"] = {
@@ -2792,7 +2792,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["乇"] = {
 		["尺"] = {
 			["西"] = {
@@ -2804,7 +2804,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["锅"] = {
 		["加"] = {
 			["整"] = {
@@ -2818,7 +2818,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鉌"] = {
 		["锌"] = {
 			["价"] = {
@@ -2834,7 +2834,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["Ⅵ"] = {
 		["肆"] = {
 			this = true
@@ -2844,7 +2844,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["闰"] = {
 		["年"] = {
 			["第"] = {
@@ -2864,7 +2864,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["茳"] = {
 		["青"] = {
 			this = true
@@ -2874,7 +2874,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["瓜"] = {
 		["瓜"] = {
 			["是"] = {
@@ -2892,7 +2892,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["俩"] = {
 		h = {
 			u = {
@@ -2906,7 +2906,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["评"] = {
 		["论"] = {
 			["区"] = {
@@ -2922,7 +2922,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["陶"] = {
 		["某"] = {
 			["文"] = {
@@ -2940,7 +2940,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["渔"] = {
 		["勾"] = {
 			["中"] = {
@@ -2954,7 +2954,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鱼"] = {
 		["钩"] = {
 			["中"] = {
@@ -2973,7 +2973,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["泸"] = {
 		["国"] = {
 			this = true
@@ -2983,7 +2983,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.I = {
 		F = {
 			C = {
@@ -2999,7 +2999,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["闯"] = {
 		["王"] = {
 			["进"] = {
@@ -3024,7 +3024,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["龚"] = {
 		["惨"] = {
 			["挡"] = {
@@ -3036,7 +3036,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["汁"] = {
 		["腊"] = {
 			["猪"] = {
@@ -3048,7 +3048,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["丿"] = {
 		["\\"] = {
 			[" "] = {
@@ -3066,7 +3066,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["崴"] = {
 		["脚"] = {
 			["布"] = {
@@ -3078,7 +3078,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["豆"] = {
 		["包"] = {
 			["和"] = {
@@ -3131,7 +3131,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["馅"] = {
 		["饼"] = {
 			["和"] = {
@@ -3164,7 +3164,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["戏"] = {
 		["子"] = {
 			["不"] = {
@@ -3213,7 +3213,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["丧"] = {
 		["事"] = {
 			["喜"] = {
@@ -3227,7 +3227,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["沪"] = {
 		c = {
 			a = {
@@ -3315,7 +3315,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["郎"] = {
 		["咸"] = {
 			["平"] = {
@@ -3331,7 +3331,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["币"] = {
 		["棺"] = {
 			["嗦"] = {
@@ -3345,7 +3345,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["掩"] = {
 		["耳"] = {
 			["到"] = {
@@ -3359,7 +3359,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["辟"] = {
 		["谣"] = {
 			["爆"] = {
@@ -3371,7 +3371,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["猾"] = {
 		["媋"] = {
 			["赢"] = {
@@ -3383,7 +3383,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["虹"] = {
 		["口"] = {
 			["区"] = {
@@ -3413,7 +3413,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["茹"] = {
 		["仙"] = {
 			["·"] = {
@@ -3431,7 +3431,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["豿"] = {
 		["狸"] = {
 			["蝈"] = {
@@ -3445,7 +3445,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["玺"] = {
 		["帝"] = {
 			["登"] = {
@@ -3459,7 +3459,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["乎"] = {
 		["字"] = {
 			["理"] = {
@@ -3481,7 +3481,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["挑"] = {
 		["小"] = {
 			["麦"] = {
@@ -3493,7 +3493,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["灾"] = {
 		["区"] = {
 			["都"] = {
@@ -3511,7 +3511,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["雍"] = {
 		["正"] = {
 			["即"] = {
@@ -3525,7 +3525,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["汲"] = {
 		["取"] = {
 			["血"] = {
@@ -3585,7 +3585,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["韦"] = {
 		["将"] = {
 			["军"] = {
@@ -3613,7 +3613,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["著"] = {
 		["名"] = {
 			["捂"] = {
@@ -3631,7 +3631,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["很"] = {
 		["酷"] = {
 			["，"] = {
@@ -3651,7 +3651,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["驱"] = {
 		["除"] = {
 			["鞑"] = {
@@ -3692,7 +3692,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["演"] = {
 		["讲"] = {
 			["仙"] = {
@@ -3706,7 +3706,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["啵"] = {
 		["袭"] = {
 			["来"] = {
@@ -3718,7 +3718,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["构"] = {
 		["例"] = {
 			["埚"] = {
@@ -3732,7 +3732,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["拷"] = {
 		["打"] = {
 			["小"] = {
@@ -3746,7 +3746,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["煲"] = {
 		["鳇"] = {
 			this = true
@@ -3756,7 +3756,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["攻"] = {
 		["打"] = {
 			["天"] = {
@@ -3772,7 +3772,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鉭"] = {
 		["\\"] = {
 			x = {
@@ -3810,7 +3810,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["莉"] = {
 		["卡"] = {
 			["醤"] = {
@@ -3822,7 +3822,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["目"] = {
 		["击"] = {
 			["者"] = {
@@ -3888,7 +3888,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["夠"] = {
 		["栗"] = {
 			["果"] = {
@@ -3902,7 +3902,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["糸"] = {
 		["统"] = {
 			this = true
@@ -3912,7 +3912,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鉆"] = {
 		this = {
 			this = true
@@ -3922,7 +3922,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["舰"] = {
 		["姬"] = {
 			this = true
@@ -3932,7 +3932,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["玳"] = {
 		["柑"] = {
 			this = true
@@ -3942,7 +3942,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["忪"] = {
 		["众"] = {
 			this = true
@@ -3955,7 +3955,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["侧"] = {
 		["滑"] = {
 			this = true
@@ -3965,7 +3965,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["昊"] = {
 		["钊"] = {
 			["燮"] = {

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 剧情战2 敌方定时触发",
 	time = 25,
-	color = "yellow",
+	name = "2023英系活动 剧情战2 敌方定时触发",
+	init_effect = "",
+	id = 200353,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200353,
+	color = "yellow",
 	icon = 200353,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			arg_list = {
 				buff_id = 200356,
 				minTargetNumber = 1,
-				target = "TargetShipTag",
 				isBuffStackByCheckTarget = true,
+				target = "TargetShipTag",
 				check_target = {
 					"TargetAllHarm",
 					"TargetShipTag"
@@ -36,8 +36,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200354,
-				target = "TargetSelf",
 				time = 21,
+				target = "TargetSelf",
 				quota = 1
 			}
 		},
@@ -48,8 +48,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 21,
+				target = "TargetSelf",
 				skill_id = 200354
 			}
 		}

@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIONGYINGDEXUSHIGE32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIONGYINGDEXUSHIGE32",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			stopbgm = true,
-			say = "鏡面海域・コロッセオ直下",
+			bgName = "bg_underwater",
 			bgm = "battle-roma-image",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "鏡面海域・コロッセオ直下",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,10 +45,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "ゴォォォ……",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "ゴォォォ……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,17 +322,17 @@ return {
 			nameColor = "#A9F548FF",
 			say = "ふぅ…これでローマさんを閉じ込めている装置はあとちょっとで水面まで浮上するね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -383,10 +383,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――――――！！！！",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――――――！！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,8 +429,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -474,10 +474,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――――――！！！！",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――――――！！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,21 +587,21 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "コロッセオと深海の巨大装置のどちらが鏡面海域の中枢につながっていたかは定かではないが、どちらも破壊されたことで、幽霊船、「駒」、「緑の鷲」は瞬く間に消えてなくなった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -668,9 +668,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "げほげほ…ふぅ……ここは…？",
 			painting = {
 				alpha = 0.3,
@@ -685,9 +685,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なんだか長い夢を見ていたような……",
 			painting = {
 				alpha = 0.3,
@@ -750,9 +750,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうでした…これはすり替わっていたレプリカの展示品、古の大図書館のタイル…",
 			painting = {
 				alpha = 0.3,
@@ -767,9 +767,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一目でおかしいと思いましたが…やっぱり、か",
 			painting = {
 				alpha = 0.3,
@@ -800,9 +800,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "アルフレード？あの飛んでいる飛行船は…？",
 			painting = {
 				alpha = 0.3,
@@ -849,9 +849,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "楽しい思い出話になりそうですね…ふん、私もその場にいたら一緒に戦えたのに…",
 			painting = {
 				alpha = 0.3,
@@ -962,9 +962,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "え……！？",
 			painting = {
 				alpha = 0.3,
@@ -1011,10 +1011,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_11",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "パシャリ――――！",
 			soundeffect = "event:/ui/kuaimen",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "パシャリ――――！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1025,12 +1025,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アルフレード・オリアーニ",
+			side = 2,
 			bgName = "bg_white",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふぅ～、作戦完了！皆…帰るよ！",
 			flashout = {
 				dur = 0.5,

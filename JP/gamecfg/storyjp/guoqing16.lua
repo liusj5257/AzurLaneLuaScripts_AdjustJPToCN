@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
+			soundeffect = "event:/battle/boom2",
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "…！！　翔鶴…姉…？",
-			soundeffect = "event:/battle/boom2",
 			flashout = {
 				dur = 0.3,
 				alpha = {
@@ -96,19 +96,19 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 1,
-			nameColor = "#a9f548",
-			actorName = "{namecode:95}",
 			say = "ヤクソク……マモル……ずっと……！",
+			nameColor = "#a9f548",
+			actor = 307050,
+			actorName = "{namecode:95}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
 			say = "「駒」が……",
 			shake = {
 				speed = 1,
@@ -167,11 +167,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "なるほど、妹をかばおうとしたわね",
 			shake = {
 				speed = 1,
@@ -187,11 +187,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "（例え「駒」でも、大切な存在を守ろうとする…）",
 			shake = {
 				speed = 1,
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
 			say = "これは…「覚醒反応」ということか…然るべき場所で深層精神の伝承を再現した時の…",
 			shake = {
 				speed = 1,
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "加賀、ここは一旦引きましょう。覚醒した「駒」が現れたら、「ログ」を報告することが最優先よ。",
 			shake = {
 				speed = 1,
@@ -247,11 +247,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
 			say = "了解。",
 			shake = {
 				speed = 1,

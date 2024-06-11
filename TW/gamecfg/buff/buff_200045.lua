@@ -1,12 +1,12 @@
 return {
-	init_effect = "DEF",
-	name = "黑声望 沉寂二阶段BUFF",
 	time = 0,
-	color = "blue",
+	name = "黑声望 沉寂二阶段BUFF",
+	init_effect = "DEF",
+	id = 200045,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200045,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.3
+				number = -0.3,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -27,8 +27,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = -2000
+				number = -2000,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -38,8 +38,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = -0.25
+				number = -0.25,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

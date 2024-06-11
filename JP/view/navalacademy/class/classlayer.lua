@@ -1,22 +1,22 @@
 slot0 = class("ClassLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ClassUI"
 end
 
-function slot0.SetStudents(slot0, slot1)
+slot0.SetStudents = function(slot0, slot1)
 	slot0.shipGroups = slot1
 end
 
-function slot0.SetCourse(slot0, slot1)
+slot0.SetCourse = function(slot0, slot1)
 	slot0.course = slot1
 end
 
-function slot0.SetClass(slot0, slot1)
+slot0.SetClass = function(slot0, slot1)
 	slot0.resClass = slot1
 end
 
-function slot0.OnUpdateResField(slot0, slot1)
+slot0.OnUpdateResField = function(slot0, slot1)
 	if not isa(slot1, ClassResourceField) then
 		return
 	end
@@ -29,7 +29,7 @@ function slot0.OnUpdateResField(slot0, slot1)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/back")
 	slot0.lessonTxt = slot0:findTF("blur_panel/adapt/bottom/lesson/mask/Text"):GetComponent("ScrollText")
 	slot0.tranSpeedTxt = slot0:findTF("blur_panel/adapt/bottom/progress/proficiency/value"):GetComponent(typeof(Text))
@@ -61,7 +61,7 @@ function slot0.init(slot0)
 	slot0.resFieldPage = ClassResourcePage.New(slot0._tf, slot0.event)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(BaseUI.ON_BACK)
 	end, SFX_CANCEL)
@@ -86,7 +86,7 @@ function slot0.didEnter(slot0)
 	slot0:LoadClassRoom()
 end
 
-function slot0.DisplayChatContent(slot0)
+slot0.DisplayChatContent = function(slot0)
 	setActive(slot0.chatProficiency, true)
 	setButtonEnabled(slot0.exp2ProficiencyRatio, false)
 
@@ -106,7 +106,7 @@ function slot0.DisplayChatContent(slot0)
 	end))
 end
 
-function slot0.FilterStudents(slot0)
+slot0.FilterStudents = function(slot0)
 	slot1 = {}
 	slot2 = slot0.course:getConfig("type")
 
@@ -123,7 +123,7 @@ function slot0.FilterStudents(slot0)
 	return slot1
 end
 
-function slot0.InitClassInfo(slot0)
+slot0.InitClassInfo = function(slot0)
 	slot1 = slot0.resClass
 	slot2 = slot0.course
 
@@ -145,7 +145,7 @@ function slot0.InitClassInfo(slot0)
 	slot0.exp2ProficiencyRatioTxt.text = slot1:GetExp2ProficiencyRatio() * slot2:getExtraRate() .. "%"
 end
 
-function slot0.LoadClassRoom(slot0)
+slot0.LoadClassRoom = function(slot0)
 	slot1 = {}
 	slot5 = #slot0.studentSeats
 
@@ -182,7 +182,7 @@ function slot0.LoadClassRoom(slot0)
 	end)
 end
 
-function slot0.AddStudent(slot0, slot1, slot2)
+slot0.AddStudent = function(slot0, slot1, slot2)
 	slot3 = slot1.transform
 	slot3.localScale = Vector3(-0.9, 0.9, 1)
 	slot3.localPosition = Vector3(37, 62, 0)
@@ -193,7 +193,7 @@ function slot0.AddStudent(slot0, slot1, slot2)
 	slot3:SetSiblingIndex(0)
 end
 
-function slot0.AddTeacher(slot0, slot1, slot2)
+slot0.AddTeacher = function(slot0, slot1, slot2)
 	slot3 = slot1.transform
 	slot3.localScale = Vector3(0.9, 0.9, 1)
 	slot3.localPosition = Vector3(0, 0, 0)
@@ -202,14 +202,14 @@ function slot0.AddTeacher(slot0, slot1, slot2)
 	slot1:GetComponent("SpineAnimUI"):SetAction("stand2", 0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:ClearChars()
 	slot0.resFieldPage:Destroy()
 
 	slot0.resFieldPage = nil
 end
 
-function slot0.LoadChar(slot0, slot1, slot2)
+slot0.LoadChar = function(slot0, slot1, slot2)
 	slot3 = PoolMgr.GetInstance()
 
 	slot3:GetSpineChar(slot1, true, function (slot0)
@@ -227,7 +227,7 @@ function slot0.LoadChar(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.ClearChars(slot0)
+slot0.ClearChars = function(slot0)
 	for slot4, slot5 in pairs(slot0.chars) do
 		PoolMgr.GetInstance():ReturnSpineChar(slot4, slot5)
 	end
@@ -235,7 +235,7 @@ function slot0.ClearChars(slot0)
 	slot0.chars = {}
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.resFieldPage and slot0.resFieldPage:GetLoaded() and slot0.resFieldPage:isShowing() then
 		slot0.resFieldPage:Hide()
 

@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN26",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "メアリー・セレストとサン・マルチーニョがテスターと戦っている間に、ロイヤル・フォーチュンたちが船に乗り込んできた。",
 			bgm = "theme-tempest-up",
+			say = "メアリー・セレストとサン・マルチーニョがテスターと戦っている間に、ロイヤル・フォーチュンたちが船に乗り込んできた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			say = "こちらの無事を確認できたためか、ロイヤル・フォーチュンがいきなり抱きついてきた。",
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嬉しかったから！とにかく無事でよかった！",
@@ -78,11 +78,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "投資者",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "さっきは凹んでいたくせに～♪",
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "こらこら、わたしはテンペスタのリーダーでしょ？慌ててどうする……",
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "海の新星",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ、ありがとう…///",
@@ -195,21 +195,21 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			bgName = "bg_jufengv1_cg5",
+			mode = 1,
 			bgm = "battle-temepest-1",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -227,12 +227,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "無敵の桂冠",
-			nameColor = "#A9F548FF",
-			say = "降参しろ。もはや逃げ場はない",
-			actor = 9600020,
+			withoutPainting = true,
 			actorName = "サン・マルチーニョ",
+			actor = 9600020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "降参しろ。もはや逃げ場はない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,12 +243,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "湖の倒影",
+			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			actor = 900011,
 			actorName = "てすたー",
+			hidePaintObj = true,
 			say = "く…ククク……！",
-			actor = 900011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,12 +259,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "湖の倒影",
-			actorName = "てすたー",
-			say = "私と同じく海の藻屑となるがいい。さらばだ！！",
-			actor = 900011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			actor = 900011,
+			actorName = "てすたー",
+			hidePaintObj = true,
+			say = "私と同じく海の藻屑となるがいい。さらばだ！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,12 +275,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "名誉リーダー",
-			nameColor = "#A9F548FF",
-			say = "なにをする気……？",
-			actor = 9600050,
-			actorName = "ウィダー",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "ウィダー",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "なにをする気……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,12 +292,12 @@ return {
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "幽霊",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "…嵐よ。こいつとんでもない嵐を呼び込もうとしている！",
-			actor = 9600040,
-			actorName = "メアリー・セレスト",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "メアリー・セレスト",
+			actor = 9600040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "…嵐よ。こいつとんでもない嵐を呼び込もうとしている！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,12 +312,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "無敵の桂冠",
-			nameColor = "#A9F548FF",
-			say = "ならば止めねば…！",
-			actor = 9600020,
-			actorName = "サン・マルチーニョ",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "サン・マルチーニョ",
+			actor = 9600020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "ならば止めねば…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,12 +328,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "無敵の桂冠",
-			nameColor = "#A9F548FF",
-			say = "こんなに凄まじい力だ。きっとどこかにその源となるものが――",
-			actor = 9600020,
+			withoutPainting = true,
 			actorName = "サン・マルチーニョ",
+			actor = 9600020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "こんなに凄まじい力だ。きっとどこかにその源となるものが――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,12 +344,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "名誉リーダー",
+			withoutPainting = true,
+			actorName = "ウィダー",
+			actor = 9600050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "分かった！「若返りの泉」だよ！",
-			actor = 9600050,
-			actorName = "ウィダー",
-			hidePaintObj = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,12 +360,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "名誉リーダー",
-			nameColor = "#A9F548FF",
-			say = "あの機械の塔がやつの力の源だよ！",
-			actor = 9600050,
-			actorName = "ウィダー",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "ウィダー",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "あの機械の塔がやつの力の源だよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,12 +377,12 @@ return {
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "投資者",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "それを破壊すればいいわけね…！",
-			actor = 9600030,
+			withoutPainting = true,
 			actorName = "ゴールデン・ハインド",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "それを破壊すればいいわけね…！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,12 +398,12 @@ return {
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "海の新星",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "ロイヤル・フォーチュン",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でもあんなに大きい建物をどうやって…",
-			actor = 9600010,
-			actorName = "ロイヤル・フォーチュン",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,12 +419,12 @@ return {
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "海の新星",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "…ええと…えっと…そうだ！ウィダー、「たーみなる」で呼べる「流星」はまだ使える？！",
-			actor = 9600010,
-			actorName = "ロイヤル・フォーチュン",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "ロイヤル・フォーチュン",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "…ええと…えっと…そうだ！ウィダー、「たーみなる」で呼べる「流星」はまだ使える？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,12 +439,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "名誉リーダー",
-			nameColor = "#A9F548FF",
-			say = "……き、聞いてみるよ！",
-			actor = 9600050,
-			actorName = "ウィダー",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "ウィダー",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……き、聞いてみるよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,20 +455,20 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "名誉リーダー",
-			nameColor = "#A9F548FF",
-			say = "たーみなる、まだいる？",
-			actor = 9600050,
-			actorName = "ウィダー",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "ウィダー",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "たーみなる、まだいる？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "魔導書「たーみなる」",
+			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "古の遺産",
 			hidePaintObj = true,
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "魔導書「たーみなる」",
+			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "古の遺産",
 			hidePaintObj = true,
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "魔導書「たーみなる」",
+			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "古の遺産",
 			hidePaintObj = true,
@@ -506,8 +506,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "魔導書「たーみなる」",
+			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "古の遺産",
 			hidePaintObj = true,
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "魔導書「たーみなる」",
+			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "古の遺産",
 			nameColor = "#A9F548FF",
@@ -538,30 +538,30 @@ return {
 			}
 		},
 		{
-			actorName = "魔導書「たーみなる」",
-			side = 2,
-			bgName = "bg_jufengv1_cg5",
 			factiontag = "古の遺産",
+			side = 2,
+			actorName = "魔導書「たーみなる」",
+			bgName = "bg_jufengv1_cg5",
+			bgm = "battle-temepest-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "発射オーダーを確認しました",
-			bgm = "battle-temepest-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -573,12 +573,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "名誉リーダー",
-			nameColor = "#A9F548FF",
-			say = "せ、成功した……！",
-			actor = 9600050,
+			withoutPainting = true,
 			actorName = "ウィダー",
+			actor = 9600050,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "せ、成功した……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,12 +589,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "湖の倒影",
+			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			actor = 900011,
 			actorName = "てすたー",
+			hidePaintObj = true,
 			say = "あれは私の……！？",
-			actor = 900011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,12 +605,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "湖の倒影",
-			actorName = "てすたー",
-			say = "そんな…あのお宝の主は私のはず…！",
-			actor = 900011,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			actor = 900011,
+			actorName = "てすたー",
+			hidePaintObj = true,
+			say = "そんな…あのお宝の主は私のはず…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,12 +622,12 @@ return {
 			bgName = "bg_jufengv1_cg5",
 			factiontag = "幽霊",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "今だ！攻撃を続け！",
-			actor = 9600040,
-			actorName = "メアリー・セレスト",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "メアリー・セレスト",
+			actor = 9600040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "今だ！攻撃を続け！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,8 +638,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg5",
 			hidePaintObj = true,
 			say = "テスターが仲間の攻撃を必死に防ごうとしている間に、「流星」が嵐の壁雲を突き抜けて、「若返りの泉」に着弾した。",
@@ -649,21 +649,21 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			bgName = "bg_jufengv1_cg6",
+			mode = 1,
 			bgm = "theme-seaandsun-soft",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg6",
 			hidePaintObj = true,
 			say = "―――嵐が消えた。",
@@ -688,8 +688,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg6",
 			hidePaintObj = true,
 			say = "エネルギー供給が切れたのか、テスターは少しもがき、そして海の奥深くに沈んでいった。",
@@ -704,12 +704,12 @@ return {
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "幽霊",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "…終わった……？",
-			actor = 9600040,
-			actorName = "メアリー・セレスト",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "メアリー・セレスト",
+			actor = 9600040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "…終わった……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -724,12 +724,12 @@ return {
 			side = 2,
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "無敵の桂冠",
-			nameColor = "#A9F548FF",
-			say = "ああ。終わった",
-			actor = 9600020,
-			actorName = "サン・マルチーニョ",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "サン・マルチーニョ",
+			actor = 9600020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "ああ。終わった",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,12 +741,12 @@ return {
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "投資者",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "そうみたいね",
-			actor = 9600030,
+			withoutPainting = true,
 			actorName = "ゴールデン・ハインド",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "そうみたいね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,12 +762,12 @@ return {
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "海の新星",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "ロイヤル・フォーチュン",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よっしゃああ！祝勝の宴会だー！",
-			actor = 9600010,
-			actorName = "ロイヤル・フォーチュン",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,12 +783,12 @@ return {
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "海の新星",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "場所は「沈寂の地」でいい？あそこの食材をまだ食べてないよ！",
-			actor = 9600010,
+			withoutPainting = true,
 			actorName = "ロイヤル・フォーチュン",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "場所は「沈寂の地」でいい？あそこの食材をまだ食べてないよ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -804,12 +804,12 @@ return {
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "隠居者",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "アドベンチャー・ギャリー",
+			actor = 9600060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あの水棲生物の「船」のこと……？えぇ…",
-			actor = 9600060,
-			actorName = "アドベンチャー・ギャリー",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -825,12 +825,12 @@ return {
 			bgName = "bg_jufengv1_cg6",
 			factiontag = "隠居者",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……もうどうだっていいわ……",
-			actor = 9600060,
-			actorName = "アドベンチャー・ギャリー",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "アドベンチャー・ギャリー",
+			actor = 9600060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……もうどうだっていいわ……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -841,8 +841,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg6",
 			hidePaintObj = true,
 			say = "こうして、一つの冒険が幕を閉じた。",
@@ -852,8 +852,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg6",
 			hidePaintObj = true,
 			say = "一つの物語はまだ、始まったばかり――",

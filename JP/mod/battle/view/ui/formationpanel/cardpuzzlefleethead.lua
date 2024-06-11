@@ -6,7 +6,7 @@ slot0.Battle.CardPuzzleFleetHead = class("CardPuzzleFleetHead")
 slot3 = slot0.Battle.CardPuzzleFleetHead
 slot3.__name = "CardPuzzleFleetHead"
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot0._go.transform
 	slot0._mainIcon = slot0._tf:Find("main/icon")
@@ -17,7 +17,7 @@ function slot3.Ctor(slot0, slot1)
 	slot0._loader = AutoLoader.New()
 end
 
-function slot3.SetCardPuzzleComponent(slot0, slot1)
+slot3.SetCardPuzzleComponent = function(slot0, slot1)
 	uv0.EventListener.AttachEventListener(slot0)
 
 	slot0._info = slot1
@@ -28,10 +28,10 @@ function slot3.SetCardPuzzleComponent(slot0, slot1)
 	end
 end
 
-function slot3.Update(slot0)
+slot3.Update = function(slot0)
 end
 
-function slot3.UpdateShipIcon(slot0, slot1)
+slot3.UpdateShipIcon = function(slot0, slot1)
 	slot2, slot3 = nil
 
 	if slot1 == TeamType.TeamPos.FLAG_SHIP then
@@ -45,10 +45,10 @@ function slot3.UpdateShipIcon(slot0, slot1)
 	slot0._loader:GetSprite("cardtowerselectships/" .. CardPuzzleShip.getPaintingName(slot2:GetTemplate().id) .. "_select", "", slot3)
 end
 
-function slot3.UpdateShipBuff(slot0)
+slot3.UpdateShipBuff = function(slot0)
 end
 
-function slot3.onUpdateFleetAttr(slot0)
+slot3.onUpdateFleetAttr = function(slot0)
 	for slot5, slot6 in pairs(slot0._info:GetAttrManager()._attrList) do
 		if slot0._testAttrList[slot5] == nil then
 			slot7 = cloneTplTo(slot0._testAttrTpl, slot0._testAttrContainer)
@@ -61,10 +61,10 @@ function slot3.onUpdateFleetAttr(slot0)
 	end
 end
 
-function slot3.updateHPBar(slot0)
+slot3.updateHPBar = function(slot0)
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	slot0._mainIcon = nil
 	slot0._scoutIcon = nil
 	slot0._testAttrContainer = nil

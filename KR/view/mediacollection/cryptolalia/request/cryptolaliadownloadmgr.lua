@@ -2,7 +2,7 @@ slot0 = class("CryptolaliaDownloadMgr")
 slot0.PROGRESS_FINISH = -99
 slot0.PROGRESS_ERROR = -100
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.callbacks = {}
 	slot1 = pg.CipherGroupMgr
 	slot0.mgr = slot1:GetInstance()
@@ -35,7 +35,7 @@ function slot0.Ctor(slot0)
 	})
 end
 
-function slot0.Request(slot0, slot1, slot2)
+slot0.Request = function(slot0, slot1, slot2)
 	slot0.callbacks[string.lower(slot1[#slot1])] = slot2
 	slot4 = GroupHelper.GetGroupMgrByName("CIPHER")
 	slot6 = table.concat(slot1, ",")
@@ -47,13 +47,13 @@ function slot0.Request(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ReConnection(slot0, slot1, slot2)
+slot0.ReConnection = function(slot0, slot1, slot2)
 	if slot0:IsDownloadState(slot1[#slot1]) then
 		slot0.callbacks[string.lower(slot3)] = slot2
 	end
 end
 
-function slot0.IsDownloadState(slot0, slot1)
+slot0.IsDownloadState = function(slot0, slot1)
 	slot1 = string.lower(slot1)
 
 	for slot7 = slot0.mgr.curIndex, #slot0.mgr.downloadList do
@@ -65,7 +65,7 @@ function slot0.IsDownloadState(slot0, slot1)
 	return false
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.callbacks = {}
 
 	slot0.mgr:SetCallBack({})

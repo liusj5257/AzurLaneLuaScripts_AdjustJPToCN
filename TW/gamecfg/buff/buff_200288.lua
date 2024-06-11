@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX 第二波 随机攻击",
 	time = 1,
-	color = "blue",
+	name = "2023英系活动 EX 第二波 随机攻击",
+	init_effect = "",
+	id = 200288,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200288,
+	color = "blue",
 	icon = 200288,
 	last_effect = "",
 	effect_list = {

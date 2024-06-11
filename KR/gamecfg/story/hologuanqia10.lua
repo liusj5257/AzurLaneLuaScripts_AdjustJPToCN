@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-control-inst",
 			dir = 1,
 			say = "……재블린, 왜 여기에 있지?",
+			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,15 +84,15 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 10500040,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "후부키! 미오! 무사해서 다행이야!",
 			bgm = "holo-matsuri",
+			actor = 10500040,
+			nameColor = "#a9f548",
+			say = "후부키! 미오! 무사해서 다행이야!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "응, 너도 무사해서 다행이야. (국어책 읽기)",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "맞아. 나는 hololive에서 가장 청순한 여고생——나츠이로 마츠리라구!",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +181,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "아, 네가 카와카제지? 알고 있어. 저기, 꼬리 만져봐도 돼? 허그 해봐도 돼? 나랑 데이트 해줄래?",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -223,8 +223,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "장비는 퓨리가 줬어.",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "응. 퓨리. 위기의 순간에 나와 아쿠아를 구해주고, 장비를 만들어준 퓨리!",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,8 +295,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "맞아. 초 큐트한 미소녀라구!",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "퓨리랑 아쿠아가 레지스탕스 기지에서 방어벽을 세우고 있어. 마츠리와 재블린은 밖에서 사라진 동료들을 찾고 있었고.",
 			typewriter = {
 				speed = 0.05,

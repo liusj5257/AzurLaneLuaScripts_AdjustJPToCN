@@ -1,6 +1,6 @@
 slot0 = class("CourtyardFurnitureState")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._tf = slot1.transform
 	slot0.rectTF = slot2
 	slot0.rootTF = slot0._tf.parent
@@ -11,7 +11,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.cantPlaceMat = slot5
 end
 
-function slot0.Init(slot0, slot1, slot2)
+slot0.Init = function(slot0, slot1, slot2)
 	slot3 = pg.UIMgr.GetInstance()
 
 	slot3:LoadingOn(false)
@@ -37,20 +37,20 @@ function slot0.Init(slot0, slot1, slot2)
 	end), true, true)
 end
 
-function slot0.OnInit(slot0, slot1, slot2)
+slot0.OnInit = function(slot0, slot1, slot2)
 	slot0:Init(slot1, slot2)
 	setParent(slot0._tf, slot0.rectTF)
 end
 
-function slot0.OnUpdateScale(slot0, slot1)
+slot0.OnUpdateScale = function(slot0, slot1)
 	slot0._tf.localScale = Vector3(CourtYardCalcUtil.GetSign(slot1._tf.localScale.x), 1, 1)
 end
 
-function slot0.OnUpdate(slot0, slot1)
+slot0.OnUpdate = function(slot0, slot1)
 	slot0._tf.localPosition = slot1:GetCenterPoint()
 end
 
-function slot0.OnCantPlace(slot0)
+slot0.OnCantPlace = function(slot0)
 	if slot0.furnitureStateImg.material ~= slot0.cantPlaceMat then
 		slot0.furnitureStateImg.material = slot0.cantPlaceMat
 
@@ -58,7 +58,7 @@ function slot0.OnCantPlace(slot0)
 	end
 end
 
-function slot0.OnCanPlace(slot0)
+slot0.OnCanPlace = function(slot0)
 	if slot0.furnitureStateImg.material ~= slot0.canPlaceMat then
 		slot0.furnitureStateImg.material = slot0.canPlaceMat
 
@@ -66,7 +66,7 @@ function slot0.OnCanPlace(slot0)
 	end
 end
 
-function slot0.OnReset(slot0)
+slot0.OnReset = function(slot0)
 	if slot0.furnitureStateImg.material ~= slot0.selectedMat then
 		slot0.furnitureStateImg.material = slot0.selectedMat
 
@@ -74,7 +74,7 @@ function slot0.OnReset(slot0)
 	end
 end
 
-function slot0.OnClear(slot0)
+slot0.OnClear = function(slot0)
 	slot0.furnitureStateAnim:Stop()
 
 	slot0.furnitureStateImg.sprite = nil

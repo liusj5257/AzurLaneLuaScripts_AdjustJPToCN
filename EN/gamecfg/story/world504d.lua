@@ -1,18 +1,18 @@
 return {
-	id = "WORLD504D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD504D",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-4",
 			actor = 204030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Commander, we have successfully eliminated all Sirens in the area.",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			actor = 207050,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "Their aircraft proved a tad troublesome to bring down, but they never stood a chance against our combined air force.",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			actor = 207010,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "Mhm. Once you take out the carriers, their planes lose most of their bite.",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			actor = 206060,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "Well, we're moving on to the next area then. Good luck over there, or whatever.",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"Was that Eagle and Perseus just now? I thought they were deployed in the north?\"",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

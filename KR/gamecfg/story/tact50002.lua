@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"",
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "연기가 개인 후, 바다는 다시금 고요해졌다. 시카고가 엄호해준 덕분에 바글리는 탈출할 수 있었지만, 그 대가로 시카고는 {namecode:54}와 {namecode:56}의 공격을 받아 퇴각할 수밖에 없게 되었다. 하지만 구축함인 바글리만으로 전세를 뒤집기는 역부족이었다…",
 			typewriter = {
@@ -50,8 +50,8 @@ return {
 			actor = 303020,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:54}",
 			say = "그렇네, 이번엔 함대를 굉장히 촉박하게 편성했으니… {namecode:94}, {namecode:37}, {namecode:153}의 전투력에도 한계가 있는데다 적들의 종합 전투력도 우리보다 월등한 상황… 저들에게 숨돌릴 틈을 줄 순 없어.",
+			actorName = "{namecode:54}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

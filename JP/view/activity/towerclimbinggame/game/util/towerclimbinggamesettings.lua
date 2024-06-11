@@ -261,7 +261,7 @@ slot0.GROUND_RISE_UP_SPEED = {
 	}
 }
 
-function slot0.GetBlockInitCnt(slot0)
+slot0.GetBlockInitCnt = function(slot0)
 	return math.ceil((slot0 - uv0.BLOCK_START_POSITION.y) / uv0.BLOCK_INTERVAL_HEIGHT) + 2
 end
 

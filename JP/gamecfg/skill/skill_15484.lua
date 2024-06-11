@@ -21,10 +21,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillEditTag",
-			casterAniEffect = "",
-			target_choise = "TargetSameToLastEffect",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillEditTag",
+			target_choise = "TargetSameToLastEffect",
 			arg_list = {
 				tag = "lvzuofuxunbao",
 				operation = -1

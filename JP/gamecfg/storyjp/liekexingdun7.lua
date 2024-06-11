@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIEKEXINGDUN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIEKEXINGDUN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"青き海と仲間のための\n\n<size=45>七 蒼き海に捧ぐ歌</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "あの日からずっと、レキシントンは何かを準備しているようだった。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "azumaster-ins",
+			nameColor = "#A9F548FF",
+			say = "あの日からずっと、レキシントンは何かを準備しているようだった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "そしてついに、サラトガと「約束」したライブの日がやってきた——",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_120",
 			say = "母港・ライブ会場",
 			typewriter = {
@@ -65,17 +65,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_120",
 			say = "チケットをもらったから観客での参加になるが、レキシントンは想像以上にノリノリのようだ。",
 			typewriter = {
@@ -93,11 +93,11 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 107020,
+			nameColor = "#A9F548FF",
 			say = "指揮官、サイリウム～♪",
 			painting = {
 				alpha = 0.3,
@@ -115,8 +115,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -127,9 +127,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_120",
 			say = "指揮官と一緒だし、それに「いたずら」の準備もできたからね",
 			painting = {
 				alpha = 0.3,
@@ -143,9 +143,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_120",
 			say = "ええ、今日は指揮官にちょっとしたサプライズを用意したわ",
 			painting = {
 				alpha = 0.3,
@@ -159,9 +159,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_120",
 			say = "あ、サラトガちゃんがステージに上がったわ、私も準備しないと",
 			painting = {
 				alpha = 0.3,
@@ -173,14 +173,14 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_120",
 			side = 2,
+			bgName = "star_level_bg_120",
 			dir = 1,
+			bgm = "theme",
+			actor = 107030,
 			stopbgm = true,
 			say = "次はサラトガちゃんたちのユニットの出番だよー！なんでユニットだって？ふっふ～ん、なんでかな～？じゃあ、みんなで私の相棒を当ててみて？",
-			bgm = "theme",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -200,17 +200,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -220,9 +220,9 @@ return {
 		{
 			actor = 107030,
 			side = 2,
-			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_120",
 			say = "あれれ？当てられないの？仕方ないわねー",
 			painting = {
 				alpha = 0.3,
@@ -236,9 +236,9 @@ return {
 		{
 			actor = 107030,
 			side = 2,
-			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_120",
 			say = "じゃあ私が答えを発表しちゃうね♪",
 			painting = {
 				alpha = 0.3,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_120",
 			say = "ぱちんとサラトガが指を鳴らすと共に、スポットライトが隣にいるレキシントンを照らした。",
 			typewriter = {
@@ -262,9 +262,9 @@ return {
 		{
 			actor = 107030,
 			side = 2,
-			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_120",
 			say = "次の曲は、久々のサラトガちゃんとお姉ちゃんのデュオでお届け！",
 			painting = {
 				alpha = 0.3,
@@ -276,8 +276,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_120",
 			say = "観客席から歓声が沸き上がった。",
 			typewriter = {
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107020,
+			nameColor = "#A9F548FF",
 			say = "ふふふ、最高のライブをお届けするわ",
 			painting = {
 				alpha = 0.3,
@@ -313,12 +313,12 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107020,
+			nameColor = "#A9F548FF",
 			say = "ふふふ、私たちの「いたずら」に驚いちゃった？",
 			painting = {
 				alpha = 0.3,
@@ -332,9 +332,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_120",
 			say = "レキシントンたちのステージの風景、ぜひ楽しんでね",
 			painting = {
 				alpha = 0.3,
@@ -348,9 +348,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_120",
 			say = "行ってくるわ♪",
 			painting = {
 				alpha = 0.3,
@@ -362,8 +362,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_120",
 			say = "レキシントンが観衆席に向けて手を振ったその瞬間、仲間たちの歓声は天を衝くほどに響いた。",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_120",
 			say = "さすが実力派アイドルユニット…！",
 			typewriter = {
@@ -382,11 +382,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#A9F548FF",
 			say = "お久しぶりのお姉ちゃんのスペシャルステージ！どう？みんな驚いた？",
 			painting = {
 				alpha = 0.3,
@@ -398,8 +398,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -410,9 +410,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_120",
 			say = "熱い応援を本当にありがとう！…サラトガちゃん、次の曲にいくわよ♪",
 			painting = {
 				alpha = 0.3,
@@ -424,11 +424,11 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 107020,
+			nameColor = "#A9F548FF",
 			say = "さあ、この真心の情熱と愛を蒼き海に！",
 			painting = {
 				alpha = 0.3,
@@ -446,9 +446,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_120",
+			side = 2,
 			say = "ステージに登った皆のアイドル、レキシントン。",
 			typewriter = {
 				speed = 0.05,
@@ -462,8 +462,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_120",
 			say = "彼女がステージを輝かせている――",
 			typewriter = {

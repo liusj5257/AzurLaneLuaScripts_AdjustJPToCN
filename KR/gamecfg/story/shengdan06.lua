@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDAN06",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENGDAN06",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -16,8 +16,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "모항 - 로열 네이비 숙소",
 			typewriter = {
 				speed = 0.05,
@@ -78,14 +78,14 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "크, 크리스마스 디너…… 케이크…… 푸딩…… 연어…… 자, 잘 먹겠습니다!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,14 +110,14 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "마, 맛있어!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -142,14 +142,14 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "이것도 맛있어!!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -174,14 +174,14 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "하아~ 살아있어서 다행이야~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -206,14 +206,14 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201080,
+			nameColor = "#92fc63",
 			say = "시그넷이 잔뜩 먹는 모습을 볼 때 마다, 지는 왠지 좀 부럽슈……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -396,14 +396,14 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#92fc63",
 			say = "다음은 선물 교환의 시간이에요. 모두들, 여기에 둔 선물상자에서 하나를 골라주세요. 아참, 다시 되돌려 놓는 건 금지랍니다?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -492,14 +492,14 @@ return {
 			}
 		},
 		{
-			actor = 201102,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201102,
+			nameColor = "#92fc63",
 			say = "어, 어때요…?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "鹰之顽抗",
 	init_effect = "",
+	id = 11260,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 11260,
+	color = "red",
 	icon = 11260,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				quota = 2,
-				target = "TargetSelf",
-				skill_id = 11260
+				skill_id = 11260,
+				target = "TargetSelf"
 			}
 		}
 	}

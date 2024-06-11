@@ -1,10 +1,10 @@
 slot0 = class("SixthAnniversaryIslandShopWindowLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SixthAnniversaryIslandGoodsWindow"
 end
 
-function slot0.setGoods(slot0, slot1)
+slot0.setGoods = function(slot0, slot1)
 	slot0.goods = slot1
 	slot0.singleCost = slot1:getConfig("resource_num")
 	slot0.max = math.floor(Drop.New({
@@ -17,7 +17,7 @@ function slot0.setGoods(slot0, slot1)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:BlurPanel(slot0._tf)
@@ -74,14 +74,14 @@ function slot0.init(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.updateCount(slot0, slot1)
+slot0.updateCount = function(slot0, slot1)
 	slot0.count = math.clamp(slot0.count + slot1, 1, math.max(slot0.max, 1))
 
 	setText(slot0.rtCount, slot0.count)
 	setText(slot0.rtCost, slot0.count * slot0.singleCost)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = slot0.goods
 	slot2 = {
 		type = slot1:getConfig("commodity_type"),
@@ -112,7 +112,7 @@ function slot0.didEnter(slot0)
 	slot0:updateCount(0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 

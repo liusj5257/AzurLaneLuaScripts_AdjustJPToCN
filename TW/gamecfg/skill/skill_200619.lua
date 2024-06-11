@@ -2,17 +2,17 @@ return {
 	uiEffect = "",
 	name = "2023海盗活动 传奇旗舰Lv1",
 	cd = 0,
-	painting = "huangjiacaifu",
-	id = 200619,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = "huangjiacaifu",
+	id = 200619,
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -28,23 +28,23 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 1.5,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 1.5,
 							setAI = 20006
 						},
 						{
-							switchParam = 4,
+							switchType = 1,
 							switchTo = 2,
 							index = 1,
-							switchType = 1,
+							switchParam = 4,
 							setAI = 70227
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 0,
+							index = 2,
 							switchParam = 300,
 							addWeapon = {
 								3099050,

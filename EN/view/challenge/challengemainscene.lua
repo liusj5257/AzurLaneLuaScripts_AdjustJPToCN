@@ -2,17 +2,17 @@ slot0 = class("ChallengeMainScene", import("..base.BaseUI"))
 slot0.BOSS_NUM = 5
 slot0.FADE_TIME = 5
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ChallengeMainUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:findUI()
 	slot0:initData()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updateGrade(slot0.challengeInfo:getGradeList())
 	slot0:updateTimePanel()
 	slot0:updateSwitchModBtn()
@@ -32,7 +32,7 @@ function slot0.didEnter(slot0)
 	slot0:tryPlayGuide()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	LeanTween.cancel(go(slot0.modTipTF))
 
 	if slot0.timer then
@@ -42,7 +42,7 @@ function slot0.willExit(slot0)
 	slot0:destroyCommanderPanel()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.fleetSelect) then
 		slot0:hideFleetEdit()
 	else
@@ -50,10 +50,10 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.setFleet(slot0, slot1)
+slot0.setFleet = function(slot0, slot1)
 	slot0.fleets = {}
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		uv0.fleets[slot0] = {
 			uv1[slot0 + 1],
 			[11] = uv1[slot0 + 11]
@@ -64,7 +64,7 @@ function slot0.setFleet(slot0, slot1)
 	slot2(ChallengeProxy.MODE_INFINITE)
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.northTF = slot0:findTF("ForNorth")
 	slot0.paintingListTF = slot0:findTF("PaintingList")
 	slot0.backBtn = slot0:findTF("top/back_button", slot0.northTF)
@@ -136,31 +136,31 @@ function slot0.findUI(slot0)
 	slot0.fleetSelect = slot0:findTF("LevelFleetSelectView")
 	slot0.fleetEditPanel = ActivityFleetPanel.New(slot0.fleetSelect.gameObject)
 
-	function slot0.fleetEditPanel.onCancel()
+	slot0.fleetEditPanel.onCancel = function()
 		uv0:hideFleetEdit()
 	end
 
-	function slot0.fleetEditPanel.onCommit()
+	slot0.fleetEditPanel.onCommit = function()
 		uv0:commitEdit()
 	end
 
-	function slot0.fleetEditPanel.onCombat()
+	slot0.fleetEditPanel.onCombat = function()
 		uv0:commitEdit()
 		uv0:emit(ChallengeMainMediator.ON_PRECOMBAT, uv0.curMode)
 	end
 
-	function slot0.fleetEditPanel.onLongPressShip(slot0, slot1)
+	slot0.fleetEditPanel.onLongPressShip = function(slot0, slot1)
 		uv0:openShipInfo(slot0, slot1)
 	end
 
 	slot0:buildCommanderPanel()
 end
 
-function slot0.tryPlayGuide(slot0)
+slot0.tryPlayGuide = function(slot0)
 	pg.SystemGuideMgr.GetInstance():Play(slot0)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.challengeProxy = getProxy(ChallengeProxy)
 	slot0.challengeInfo = slot0.challengeProxy:getChallengeInfo()
 	slot0.userChallengeInfoList = slot0.challengeProxy:getUserChallengeInfoList()
@@ -171,7 +171,7 @@ function slot0.initData(slot0)
 	slot0.openedCommanerSystem = true
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_PANEL)
@@ -267,7 +267,7 @@ function slot0.addListener(slot0)
 	end)
 end
 
-function slot0.updateData(slot0)
+slot0.updateData = function(slot0)
 	slot0.curMode = slot0.challengeProxy:getCurMode()
 	slot0.curModeInfo = slot0.userChallengeInfoList[slot0.curMode]
 	slot0.timeOverTag = false
@@ -318,7 +318,7 @@ function slot0.updateData(slot0)
 	end
 end
 
-function slot0.updatePaintingList(slot0, slot1, slot2)
+slot0.updatePaintingList = function(slot0, slot1, slot2)
 	slot3 = slot1 or slot0.nameList
 	slot5 = slot0.curLevel
 
@@ -330,7 +330,7 @@ function slot0.updatePaintingList(slot0, slot1, slot2)
 		slot5 = slot5 % ChallengeConst.BOSS_NUM == 0 and ChallengeConst.BOSS_NUM or slot5 % ChallengeConst.BOSS_NUM
 	end
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		slot1 = slot0.material
 
 		slot1:SetFloat("_LineGray", 0.3)
@@ -457,7 +457,7 @@ function slot0.updatePaintingList(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateRoundText(slot0, slot1)
+slot0.updateRoundText = function(slot0, slot1)
 	slot2 = slot1 or slot0.showingIndex
 
 	if slot0.curMode == ChallengeProxy.MODE_CASUAL and ChallengeConst.BOSS_NUM < slot2 then
@@ -469,7 +469,7 @@ function slot0.updateRoundText(slot0, slot1)
 	setText(slot0.roundText_2, "Round" .. slot2 + 2)
 end
 
-function slot0.updateSlider(slot0, slot1)
+slot0.updateSlider = function(slot0, slot1)
 	slot3 = slot0.curLevel
 
 	if ChallengeConst.BOSS_NUM < (slot1 or slot0.showingIndex) then
@@ -488,19 +488,19 @@ function slot0.updateSlider(slot0, slot1)
 		slot5 = uv0:findTF("Challengeing", slot2)
 		slot6 = uv0:findTF("Arrow", slot2)
 
-		function slot7()
+		slot7 = function()
 			setActive(uv0, true)
 			setActive(uv1, false)
 			setActive(uv2, false)
 		end
 
-		function slot8()
+		slot8 = function()
 			setActive(uv0, false)
 			setActive(uv1, true)
 			setActive(uv2, false)
 		end
 
-		function slot9()
+		slot9 = function()
 			setActive(uv0, false)
 			setActive(uv1, false)
 			setActive(uv2, true)
@@ -525,14 +525,14 @@ function slot0.updateSlider(slot0, slot1)
 	slot0.squareList:align(ChallengeConst.BOSS_NUM)
 end
 
-function slot0.updateGrade(slot0, slot1)
+slot0.updateGrade = function(slot0, slot1)
 	setText(slot0.seasonBestPointText, slot1.seasonMaxScore)
 	setText(slot0.activityBestPointText, slot1.activityMaxScore)
 	setText(slot0.seasonLevelNumText, slot1.seasonMaxLevel)
 	setText(slot0.activityLevelNumText, slot1.activityMaxLevel)
 end
 
-function slot0.updateTimePanel(slot0)
+slot0.updateTimePanel = function(slot0)
 	setText(slot0.activityTimeText, pg.TimeMgr.GetInstance():STimeDescS(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).stopTime, "%Y.%m.%d"))
 
 	slot5 = pg.TimeMgr.GetInstance()
@@ -562,7 +562,7 @@ function slot0.updateTimePanel(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.updateSwitchModBtn(slot0)
+slot0.updateSwitchModBtn = function(slot0)
 	if not slot0:isFinishedCasualMode() then
 		setActive(slot0.infiniteModBtn, false)
 	else
@@ -584,7 +584,7 @@ function slot0.updateSwitchModBtn(slot0)
 
 		slot0 = uv0.curModeInfo and uv0.curModeInfo:getLevel() or 0
 
-		function slot1()
+		slot1 = function()
 			uv0.challengeProxy:setCurMode(ChallengeProxy.MODE_CASUAL)
 			setActive(uv0.casualModBtnBG, true)
 			setActive(uv0.infiniteModBtnBG, false)
@@ -623,7 +623,7 @@ function slot0.updateSwitchModBtn(slot0)
 
 		slot0 = uv0.curModeInfo and uv0.curModeInfo:getScore() or uv0.challengeInfo:getGradeList().seasonMaxScore
 
-		function slot1()
+		slot1 = function()
 			uv0.challengeProxy:setCurMode(ChallengeProxy.MODE_INFINITE)
 			setActive(uv0.casualModBtnBG, false)
 			setActive(uv0.infiniteModBtnBG, true)
@@ -656,7 +656,7 @@ function slot0.updateSwitchModBtn(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateResetBtn(slot0)
+slot0.updateResetBtn = function(slot0)
 	if slot0.userChallengeInfoList[slot0.curMode] then
 		setActive(slot0.resetBtn, true)
 		SetActive(slot0.resetBtnBanned, false)
@@ -666,7 +666,7 @@ function slot0.updateResetBtn(slot0)
 	end
 end
 
-function slot0.updateStartBtn(slot0)
+slot0.updateStartBtn = function(slot0)
 	if slot0.userChallengeInfoList[slot0.curMode] then
 		if slot0.curMode == ChallengeProxy.MODE_CASUAL and ChallengeConst.BOSS_NUM < slot1:getLevel() then
 			SetActive(slot0.startBtn, false)
@@ -681,12 +681,12 @@ function slot0.updateStartBtn(slot0)
 	end
 end
 
-function slot0.updateFuncBtns(slot0)
+slot0.updateFuncBtns = function(slot0)
 	slot0:updateResetBtn()
 	slot0:updateStartBtn()
 end
 
-function slot0.updateAwardPanel(slot0)
+slot0.updateAwardPanel = function(slot0)
 	slot4 = getProxy(TaskProxy):getTaskById(pg.activity_template[pg.activity_template[getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id].config_data[1]].config_data[1]) or getProxy(TaskProxy):getFinishTaskById(slot3)
 
 	setText(slot0.scoreText, slot0.challengeInfo:getGradeList().activityMaxScore .. " / " .. slot4:getConfig("target_num"))
@@ -722,7 +722,7 @@ function slot0.updateAwardPanel(slot0)
 	slot10 = nil
 end
 
-function slot0.showSLResetMsgBox(slot0)
+slot0.showSLResetMsgBox = function(slot0)
 	slot1 = false
 	slot2, slot3 = nil
 
@@ -760,7 +760,7 @@ function slot0.showSLResetMsgBox(slot0)
 	end
 end
 
-function slot0.showTipText(slot0)
+slot0.showTipText = function(slot0)
 	slot1 = nil
 
 	setText(slot0.modTipText, i18n(slot0.curMode == ChallengeProxy.MODE_CASUAL and "challenge_normal_tip" or "challenge_unlimited_tip"))
@@ -776,14 +776,14 @@ function slot0.showTipText(slot0)
 	setActive(slot0.modTipText, true)
 end
 
-function slot0.doOnFleetPanel(slot0)
+slot0.doOnFleetPanel = function(slot0)
 	slot0.fleetEditPanel:attach(slot0)
 	slot0.fleetEditPanel:setFleets(slot0.fleets[slot0.curMode])
 	slot0.fleetEditPanel:set(1, 1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.fleetEditPanel._tf)
 end
 
-function slot0.isFinishedCasualMode(slot0)
+slot0.isFinishedCasualMode = function(slot0)
 	slot1 = false
 	slot3 = slot0.userChallengeInfoList[ChallengeProxy.MODE_CASUAL]
 
@@ -812,7 +812,7 @@ function slot0.isFinishedCasualMode(slot0)
 	return slot1
 end
 
-function slot0.isCrossedSeason(slot0)
+slot0.isCrossedSeason = function(slot0)
 	slot1 = false
 
 	if slot0.timeOverTag == true then
@@ -828,34 +828,34 @@ function slot0.isCrossedSeason(slot0)
 	return slot1
 end
 
-function slot0.commitEdit(slot0)
+slot0.commitEdit = function(slot0)
 	slot0:emit(ChallengeMainMediator.ON_COMMIT_FLEET)
 end
 
-function slot0.openShipInfo(slot0, slot1, slot2)
+slot0.openShipInfo = function(slot0, slot1, slot2)
 	slot0:emit(ChallengeMainMediator.ON_FLEET_SHIPINFO, {
 		shipId = slot1,
 		shipVOs = slot2
 	})
 end
 
-function slot0.hideFleetEdit(slot0)
+slot0.hideFleetEdit = function(slot0)
 	setActive(slot0.fleetSelect, false)
 	slot0:closeCommanderPanel()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.fleetSelect, slot0._tf)
 	setParent(slot0.fleetSelect, slot0._tf, false)
 end
 
-function slot0.updateEditPanel(slot0)
+slot0.updateEditPanel = function(slot0)
 	slot0.fleetEditPanel:setFleets(slot0.fleets[slot0.curMode])
 	slot0.fleetEditPanel:updateFleets()
 end
 
-function slot0.setCommanderPrefabs(slot0, slot1)
+slot0.setCommanderPrefabs = function(slot0, slot1)
 	slot0.commanderPrefabs = slot1
 end
 
-function slot0.openCommanderPanel(slot0, slot1, slot2)
+slot0.openCommanderPanel = function(slot0, slot1, slot2)
 	slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE).id
 
 	slot0.levelCMDFormationView:setCallback(function (slot0)
@@ -885,29 +885,29 @@ function slot0.openCommanderPanel(slot0, slot1, slot2)
 	slot0.levelCMDFormationView:ActionInvoke("Show")
 end
 
-function slot0.closeCommanderPanel(slot0)
+slot0.closeCommanderPanel = function(slot0)
 	if slot0.levelCMDFormationView:isShowing() then
 		slot0.levelCMDFormationView:ActionInvoke("Hide")
 	end
 end
 
-function slot0.updateCommanderFleet(slot0, slot1)
+slot0.updateCommanderFleet = function(slot0, slot1)
 	if slot0.levelCMDFormationView:isShowing() then
 		slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot1)
 	end
 end
 
-function slot0.updateCommanderPrefab(slot0)
+slot0.updateCommanderPrefab = function(slot0)
 	if slot0.levelCMDFormationView:isShowing() then
 		slot0.levelCMDFormationView:ActionInvoke("updatePrefabs", slot0.commanderPrefabs)
 	end
 end
 
-function slot0.buildCommanderPanel(slot0)
+slot0.buildCommanderPanel = function(slot0)
 	slot0.levelCMDFormationView = LevelCMDFormationView.New(slot0.fleetSelect, slot0.event, slot0.contextData)
 end
 
-function slot0.destroyCommanderPanel(slot0)
+slot0.destroyCommanderPanel = function(slot0)
 	slot0.levelCMDFormationView:Destroy()
 
 	slot0.levelCMDFormationView = nil

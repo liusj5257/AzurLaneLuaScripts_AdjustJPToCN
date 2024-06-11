@@ -1,12 +1,12 @@
 return {
-	id = "W1203",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1203",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "海域の敵反応が全て消滅したようだ…",
 			typewriter = {
 				speed = 0.05,

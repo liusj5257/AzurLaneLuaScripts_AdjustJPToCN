@@ -10,15 +10,21 @@ return {
 		{
 			alpha = 0.375,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 0,
 				posX = 0,
 				text = slot0[1]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/buildButton",
 				pathIndex = -1,
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/bottom/frame/build"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/bottom/buildButton"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -31,15 +37,15 @@ return {
 		{
 			alpha = 0.408,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = 0,
 				posX = 205.91,
 				text = slot0[2]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/start_btn",
 				pathIndex = -1,
+				path = "/UICamera/Canvas/UIMain/BuildShipUI(Clone)/BuildShipPoolsPageUI(Clone)/gallery/start_btn",
 				triggerType = {
 					1
 				},
@@ -52,15 +58,15 @@ return {
 		{
 			alpha = 0.318,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 0,
 				posX = 0,
 				text = slot0[3]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/BuildShipMsgBoxUI(Clone)/window/btns/confirm_btn",
 				pathIndex = -1,
+				path = "/OverlayCamera/Overlay/UIMain/BuildShipMsgBoxUI(Clone)/window/btns/confirm_btn",
 				triggerType = {
 					1
 				},

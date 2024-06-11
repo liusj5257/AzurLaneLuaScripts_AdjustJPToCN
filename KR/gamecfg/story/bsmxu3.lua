@@ -1,8 +1,8 @@
 return {
-	id = "BSMXU3",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "BSMXU3",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900180,
@@ -50,10 +50,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
-			soundeffect = "event:/battle/dididi",
 			say = "―――",
+			dir = 1,
+			soundeffect = "event:/battle/dididi",
 			effects = {
 				{
 					active = true,
@@ -72,9 +72,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 900180,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "응? 방금, 묘한 구조신호를 수신했는데…",
 			effects = {
 				{
@@ -129,8 +129,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900180,
 			dir = 1,
+			actor = 900180,
 			say = "게다가 이 타이밍이라면, 혹시 비스마르크 언니에게 무슨 일이 생긴 건…",
 			typewriter = {
 				speed = 0.05,
@@ -144,9 +144,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 900180,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이렇게 가만있을 순 없어! 상황 좀 보고 올게!",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER7",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"36年Z組 ニーミ先生\n\n<size=45>その七 教えてニーミ先生！</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ニーミがここに要ると聞いて……",
 			bgm = "story-1",
+			actor = 101170,
+			nameColor = "#a9f548",
+			say = "ニーミがここに要ると聞いて……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			say = "特別補習ってなんかすごく楽しそー！",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "特別補習ってなんかすごく楽しそー！",
+			actor = 201210,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -86,10 +86,10 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			actorShadow = true,
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 101170,
 			actorName = "三人",
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -134,15 +134,15 @@ return {
 			}
 		},
 		{
-			actor = 401231,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401231,
+			nameColor = "#a9f548",
 			say = "ここは重点です！ちゃんとメモ取らないと、ニーミ先生がお仕置きしちゃいますよ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

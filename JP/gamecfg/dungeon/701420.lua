@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -83,8 +83,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 7003,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-12,
 								0,
@@ -111,8 +111,8 @@ return {
 						},
 						{
 							monsterTemplateID = 7019,
-							moveCast = true,
 							delay = 1,
+							moveCast = true,
 							corrdinate = {
 								-4,
 								0,
@@ -125,8 +125,8 @@ return {
 						},
 						{
 							monsterTemplateID = 7003,
-							moveCast = true,
 							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								4,
 								0,
@@ -152,8 +152,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 7017,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-11,
 								0,
@@ -177,8 +177,8 @@ return {
 						},
 						{
 							monsterTemplateID = 7017,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-11,
 								0,
@@ -193,8 +193,8 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 7023,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -207,8 +207,8 @@ return {
 						},
 						{
 							monsterTemplateID = 7023,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -234,8 +234,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 7019,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-18,
 								0,
@@ -248,8 +248,8 @@ return {
 						},
 						{
 							monsterTemplateID = 7019,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -273,8 +273,8 @@ return {
 						},
 						{
 							monsterTemplateID = 7021,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								20,
 								0,
@@ -300,8 +300,8 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 7002,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -314,8 +314,8 @@ return {
 						},
 						{
 							monsterTemplateID = 7002,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,

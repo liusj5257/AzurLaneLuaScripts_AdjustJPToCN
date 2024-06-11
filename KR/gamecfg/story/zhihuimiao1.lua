@@ -1,8 +1,8 @@
 return {
-	id = "ZHIHUIMIAO1",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "ZHIHUIMIAO1",
+	fadein = 1.5,
 	scripts = {
 		{
 			bgName = "bg_story_task",
@@ -19,11 +19,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "냐냥! 멋대로 뛰어다니면 안 된다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -39,10 +39,10 @@ return {
 			},
 			action = {
 				{
-					type = "move",
+					y = 0,
 					dur = 0.5,
 					x = 750,
-					y = 0
+					type = "move"
 				}
 			}
 		},
@@ -65,13 +65,13 @@ return {
 		{
 			actor = 312010,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
-			dir = 1,
 			say = "지휘관 덕분에 살았다냥…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -118,13 +118,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			say = "이름하여, ‘지휘냥’ 이다냥!",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			withoutPainting = true,
-			say = "이름하여, ‘지휘냥’ 이다냥!",
 			effects = {
 				{
 					active = true,
@@ -144,9 +144,9 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#92fc63",
 			say = "아카시가 소개해 주겠다냥!",
 			effects = {
 				{

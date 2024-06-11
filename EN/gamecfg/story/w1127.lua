@@ -1,12 +1,12 @@
 return {
-	id = "W1127",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1127",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The Siren communications device has stopped running. It must've run out of power.",
 			typewriter = {
 				speed = 0.05,

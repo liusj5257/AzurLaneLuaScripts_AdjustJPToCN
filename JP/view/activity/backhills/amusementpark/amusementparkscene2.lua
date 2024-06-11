@@ -4,14 +4,14 @@ slot0.edge2area = {
 	default = "map_middle"
 }
 slot0.Buildings = {
-	[13.0] = "jiujiuchonglang",
-	[15.0] = "huahuashijie",
 	[16.0] = "jiujiupubu",
+	[15.0] = "huahuashijie",
+	[13.0] = "jiujiuchonglang",
 	[14.0] = "jiujiutiaoshui"
 }
 slot1 = 23
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.top = slot0:findTF("Top")
 	slot0._map = slot0:findTF("map")
 
@@ -47,7 +47,7 @@ function slot0.init(slot0)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.RegisterDataResponse(slot0)
+slot0.RegisterDataResponse = function(slot0)
 	slot0.Respones = ResponsableTree.CreateShell({})
 
 	slot0.Respones:SetRawData("view", slot0)
@@ -116,7 +116,7 @@ function slot0.RegisterDataResponse(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot3 = slot0.top
 
 	onButton(slot0, slot3:Find("Back"), function ()
@@ -141,7 +141,7 @@ function slot0.didEnter(slot0)
 	slot3 = slot0.top
 	slot5 = "Invitation"
 
-	function slot4()
+	slot4 = function()
 		if getProxy(ActivityProxy):getActivityById(ActivityConst.JP_CEREMONY_INVITATION_ID) and not slot0:isEnd() then
 			uv0:emit(BackHillMediatorTemplate.GO_SCENE, SCENE.ACTIVITY, {
 				id = slot0.id
@@ -175,7 +175,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateActivity(slot0, slot1)
+slot0.UpdateActivity = function(slot0, slot1)
 	slot0.activity = slot1
 
 	for slot5, slot6 in pairs(slot0.Buildings) do
@@ -187,7 +187,7 @@ function slot0.UpdateActivity(slot0, slot1)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot1 = nil
 
 	for slot5, slot6 in pairs(slot0.Buildings) do
@@ -199,7 +199,7 @@ function slot0.UpdateView(slot0)
 	slot0:UpdateHubData(slot3)
 end
 
-function slot0.UpdateHubData(slot0, slot1)
+slot0.UpdateHubData = function(slot0, slot1)
 	slot0.Respones.hubData.count = slot1.count
 	slot0.Respones.hubData.usedtime = slot1.usedtime
 	slot0.Respones.hubData.id = slot1.id
@@ -207,7 +207,7 @@ function slot0.UpdateHubData(slot0, slot1)
 	slot0.Respones:PropertyChange("hubData")
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)
 end

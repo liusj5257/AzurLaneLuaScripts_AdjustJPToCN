@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN22",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg11",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "演習海域にて・7ターン目（長門）",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "うむ、三笠大先輩が予めあっちの敵を討ってくれたからな",
 			painting = {
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg11",
 			say = "合流を阻む「守り手」が全部倒されたことを確認すると、長門は緊張した面持ちで通信機を取り出した。",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "うむ、そうだ",
 			painting = {
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "か、感謝するぞ…",
 			painting = {
@@ -148,8 +148,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "なに、気にするな。少し気分転換しにやってきただけだ",
 			painting = {
@@ -183,8 +183,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "う、うむ。そうだな……",
 			painting = {
@@ -218,8 +218,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "この演習は「心象」を語るもの、己が意志を強く持たねば向こうに気圧されて、劣勢に立たされるぞ",
 			painting = {
@@ -235,8 +235,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "自分を貫く……なら遠慮せず、この拠点をいただくぞ",
 			painting = {
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg11",
 			say = "通信を終えた長門は軽く息を吐き、三笠の言葉を脳裏に何度も繰り返した。",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "ふぅ……江風と翔鶴はこのまま前進し大先輩と合流してまだ占拠していない拠点を手に入れよ",
 			painting = {
@@ -295,8 +295,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "春月は余と一緒に深雪と酒匂に会いに行くぞ。緊急修理材が残っていれば分け与えるのだ",
 			painting = {
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg11",
 			say = "御幣を片手にした春月が懸命に祈りを捧げると、深雪と酒匂は艤装の損傷がちょっとだけ回復したように感じた。",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "なんだか温かい感じ……あ、ありがとう……",
 			painting = {
@@ -403,8 +403,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "武蔵がお主を遣わした理由は分かる。しかし何度試しても、余の心は変わらぬぞ",
 			painting = {
@@ -420,8 +420,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "はい、武蔵さんもきっと分かってくれると思います！なんたって攻撃してきた相手を回復してくれましたからね",
 			painting = {
@@ -453,8 +453,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "わわ、手加減できなくなるってことですか！？気をつけますっ！",
 			painting = {
@@ -504,8 +504,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "んー武蔵さんから何か任務を指示されたと聞きましたけど、それ以外は…",
 			painting = {
@@ -555,8 +555,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "…ふむ、これで余のこのターンの「采配」は終わりだな",
 			painting = {

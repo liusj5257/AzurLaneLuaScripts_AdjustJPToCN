@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "毒雾debuff",
 	time = 0,
-	color = "yellow",
+	name = "毒雾debuff",
+	init_effect = "",
+	id = 79030,
 	picture = "",
 	desc = "减速，降低炮击，造成dot伤害",
 	stack = 1,
-	id = 79030,
+	color = "yellow",
 	icon = 4971,
 	last_effect = "poison_buff",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = -15
+				number = -15,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -42,12 +42,12 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				attr = "cannonPower",
+				time = 1.2,
 				currentHPRatio = 0.01,
 				k = 0.3,
-				time = 1.2,
-				number = 20,
 				dotType = 1,
-				attr = "cannonPower"
+				number = 20
 			}
 		}
 	}

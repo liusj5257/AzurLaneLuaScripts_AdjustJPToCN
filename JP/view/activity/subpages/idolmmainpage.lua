@@ -1,6 +1,6 @@
 slot0 = class("IDOLMMainPage", import(".TemplatePage.PreviewTemplatePage"))
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
 	slot0.mountainBtn = slot0:findTF("mountain", slot0.btnList)

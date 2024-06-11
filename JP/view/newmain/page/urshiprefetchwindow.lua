@@ -1,10 +1,10 @@
 slot0 = class("UrShipRefetchWindow", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "UrShipReFetchWindow"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.shipTpl = slot0:findTF("window/content/ships/itemtpl")
 	slot0.contentTxt = slot0:findTF("window/content/Text"):GetComponent(typeof(Text))
 	slot0.cntTxt = slot0:findTF("window/content/count"):GetComponent(typeof(Text))
@@ -14,7 +14,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0.confirmBtn:Find("pic"), i18n("word_take"))
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	slot0:UpdateUrShipAndContent(slot1)
 	slot0:RegisterEvent(slot1)
@@ -23,17 +23,17 @@ function slot0.Show(slot0, slot1)
 	})
 end
 
-function slot1(slot0)
+slot1 = function(slot0)
 	slot2 = pg.ship_data_create_exchange[slot0:getConfig("config_id")]
 
 	return slot0.data1, math.min(slot2.exchange_available_times, slot0.data2 + 1) * slot2.exchange_request, slot2.exchange_ship_id[1]
 end
 
-function slot2(slot0)
+slot2 = function(slot0)
 	return slot0.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.UpdateUrShipAndContent(slot0, slot1)
+slot0.UpdateUrShipAndContent = function(slot0, slot1)
 	slot3 = getProxy(ActivityProxy):getActivityById(slot1)
 	slot4, slot5, slot6 = uv0(slot3)
 
@@ -47,7 +47,7 @@ function slot0.UpdateUrShipAndContent(slot0, slot1)
 	slot0:AddTimer(slot3, slot4, slot5)
 end
 
-function slot0.AddTimer(slot0, slot1, slot2, slot3)
+slot0.AddTimer = function(slot0, slot1, slot2, slot3)
 	slot0:RemoveTimer()
 
 	slot0.timer = Timer.New(function ()
@@ -58,7 +58,7 @@ function slot0.AddTimer(slot0, slot1, slot2, slot3)
 	slot0.timer.func()
 end
 
-function slot0.UpdateTimeTxt(slot0, slot1, slot2, slot3)
+slot0.UpdateTimeTxt = function(slot0, slot1, slot2, slot3)
 	if slot1 == 0 then
 		pg.m02:sendNotification(MainUrShipReFetchSequence.ON_TIME_UP)
 
@@ -69,7 +69,7 @@ function slot0.UpdateTimeTxt(slot0, slot1, slot2, slot3)
 	slot0.cntTxt.text = i18n("urdraw_complement", slot2 .. "/" .. slot3, slot4 == 0 and slot5 == 0 and slot6 == 0 and slot7 > 0 and slot7 .. i18n("word_second") or slot4 .. i18n("word_date") .. slot5 .. i18n("word_hour") .. slot6 .. i18n("word_minute"))
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -77,7 +77,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.RegisterEvent(slot0, slot1)
+slot0.RegisterEvent = function(slot0, slot1)
 	onButton(slot0, slot0.confirmBtn, function ()
 		pg.m02:sendNotification(GAME.GRAFTING_ACT_OP, {
 			cmd = 2,
@@ -86,14 +86,14 @@ function slot0.RegisterEvent(slot0, slot1)
 	end, SFX_CONFIRM)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	removeOnButton(slot0.confirmBtn)
 	slot0:RemoveTimer()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end

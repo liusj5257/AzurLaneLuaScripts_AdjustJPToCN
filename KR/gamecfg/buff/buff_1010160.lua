@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "最强之盾 +",
 	init_effect = "",
+	id = 1010160,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1010160,
+	color = "blue",
 	icon = 10160,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 10,
+				target = "TargetSelf",
 				skill_id = 1010160
 			}
 		},
@@ -40,8 +40,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 1010162,
-				target = "TargetSelf",
-				time = 10
+				time = 10,
+				target = "TargetSelf"
 			}
 		}
 	}

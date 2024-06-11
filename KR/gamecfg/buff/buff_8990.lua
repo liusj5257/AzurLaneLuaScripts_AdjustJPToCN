@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑反击BOSS战 第二层破盾处理",
 	time = 0,
+	name = "黑反击BOSS战 第二层破盾处理",
+	init_effect = "",
+	picture = "",
 	stack = 1,
 	id = 8990,
-	picture = "",
-	last_effect = "",
 	icon = 8990,
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",
@@ -15,8 +15,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.12
+				number = 0.12,
+				attr = "damageRatioBullet"
 			}
 		},
 		{

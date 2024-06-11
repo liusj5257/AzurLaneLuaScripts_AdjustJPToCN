@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "约克公爵2技能",
 	cd = 0,
+	picture = "0",
+	desc = "约克公爵2技能",
 	painting = 1,
 	id = 11110,
-	picture = "0",
 	castCV = "skill",
-	desc = "约克公爵2技能",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

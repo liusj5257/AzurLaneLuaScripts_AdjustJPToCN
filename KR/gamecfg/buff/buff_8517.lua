@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "正面装甲挡10发",
 	time = 0,
+	name = "正面装甲挡10发",
+	init_effect = "",
 	picture = "",
 	desc = "正面装甲挡10发",
 	stack = 1,
@@ -16,9 +16,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 10,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

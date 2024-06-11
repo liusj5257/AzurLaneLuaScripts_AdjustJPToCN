@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN35",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN35",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			say = "Somewhere in the Sakura Empire, months later...",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-2",
+			nameColor = "#a9f548",
+			say = "Somewhere in the Sakura Empire, months later...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -52,8 +52,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#ffff4d",
 			say = "You're in an unusually good mood today. Gross.",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#ffff4d",
 			say = "I'm going to have gray hairs by the time we make it back home at this rate.",
 			typewriter = {
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#ffff4d",
-			bgName = "bg_xinnong_cg1",
 			side = 2,
+			bgName = "bg_xinnong_cg1",
 			dir = 1,
+			actor = 403030,
 			stopbgm = true,
 			say = "...Oh?",
 			typewriter = {
@@ -230,16 +230,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 0.5,
+			bgName = "bg_xinnong_cg1",
 			bgm = "theme-longgong",
 			actor = 305080,
 			nameColor = "#a9f548",
 			say = "Hold, Iron Blood guest.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -299,8 +299,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305080,
 			dir = 1,
+			actor = 305080,
 			nameColor = "#a9f548",
 			say = "There seems to be some misunderstanding. I'm not Akagi's messenger.",
 			typewriter = {
@@ -345,12 +345,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "We know all about what you and Z2 did at the Diadem of Light.",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "We know all about what you and Z2 did at the Diadem of Light.",
+			actor = 301120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -416,8 +416,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305080,
 			dir = 1,
+			actor = 305080,
 			nameColor = "#a9f548",
 			say = "We won't take too much of your time.",
 			typewriter = {
@@ -430,12 +430,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#ffff4d",
 			say = "So be it. I guess we'll see soon enough... whether it's a serpent or a demon that comes out of that cave.",
 			typewriter = {
 				speed = 0.05,

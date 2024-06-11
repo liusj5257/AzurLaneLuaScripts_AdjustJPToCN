@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301790,
 			nameColor = "#ff0000",
 			side = 1,
-			bgm = "battle-boss-tiancheng",
 			dir = -1,
 			say = "おや？赤の旗艦であるあなたが出てくるとはね",
+			bgm = "battle-boss-tiancheng",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "どうでしょう。確かに私は策を練るのが好きですが、戦うことに関して不得意とは一度も申したことありませんね",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "ふむふむ……お主が敵じゃなくてよかったと、つくづく思わせてくれるな",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "通りたければこの旗風を倒すがよい！",
 			typewriter = {
 				speed = 0.05,

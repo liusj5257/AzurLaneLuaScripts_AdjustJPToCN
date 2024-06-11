@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE301",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE301",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>『이색 해역 WHITE』</size>",
@@ -20,9 +20,9 @@ return {
 			actor = 10100010,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level-nep",
 			dir = -1,
 			say = "스테이지 2도 무난히 클리어~! 이걸로 사건 해결은 시간 문제아냐? ",
+			bgm = "level-nep",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,13 +33,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "그럴 리가, 그게 그렇게 마음처럼 쉽진 않죠.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "그럴 리가, 그게 그렇게 마음처럼 쉽진 않죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,8 +102,8 @@ return {
 			actor = 301050,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "아, 혹시…… 아직 부족해, 인가요?",
 			typewriter = {
 				speed = 0.05,
@@ -115,13 +115,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "네, 정답이에요. 데이터가 많이 부족합니다.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "네, 정답이에요. 데이터가 많이 부족합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,13 +147,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "그것도 있습니다만, 여러분…… 데이터를 카피한 가짜 여신들의 정보도, 웜홀을 열기 위해 필요하다는 것이 밝혀졌습니다.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "그것도 있습니다만, 여러분…… 데이터를 카피한 가짜 여신들의 정보도, 웜홀을 열기 위해 필요하다는 것이 밝혀졌습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,13 +179,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "그렇습니다…… 그래서, 이대로 거울해역 조사의 속행과, 정보를 카피한 가짜 여신들의 토벌을 부탁드립니다. 그럼 이만.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "그렇습니다…… 그래서, 이대로 거울해역 조사의 속행과, 정보를 카피한 가짜 여신들의 토벌을 부탁드립니다. 그럼 이만.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,8 +248,8 @@ return {
 			actor = 301050,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "……조금, 우리 지휘관과 닮았습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -336,16 +336,16 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "테스터 α",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			nameColor = "#ff0000",
 			say = "……저쪽 차원에서도 간섭하는 자가 있는 모양이네.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -370,12 +370,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "테스터 α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "테스터 α",
 			say = "설마, 이쪽의 정보 방벽 '파이어월' 을 빠져나가 실험 데이터나 거울해역에 관해서도 조사하려 하다니……",
 			typewriter = {
 				speed = 0.05,
@@ -387,12 +387,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "테스터 α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "테스터 α",
 			say = "……방심할 수 없겠네, 우리들과 동급……아니, 그 이상일지도……?",
 			typewriter = {
 				speed = 0.05,
@@ -404,12 +404,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "테스터 α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "테스터 α",
 			say = "후훗……마침 잘 됐어, 상대가 되어주도록 할까……",
 			typewriter = {
 				speed = 0.05,

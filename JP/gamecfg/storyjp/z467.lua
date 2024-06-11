@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z467",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z467",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"白き詩\n\n<size=45>七　純白</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "「それは違う」兵器として否定された。ならば私は灰色ではない。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "「フィーゼは思いも願いも持っている、ヒトである」エゴなき純粋にあらず。ならば私は透明でもなく。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "「フィーゼ自身を大切にすべきだ」仮初の名前を有するだけの存在は、大切にすべき「私」を、確かに持っている。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "では、問おう。",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,15 +65,15 @@ return {
 			}
 		},
 		{
-			actor = 401460,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "愛しい人よ、私は一体何色だろうか？",
 			bgmDelay = 2,
 			bgm = "story-2",
+			actor = 401460,
+			say = "愛しい人よ、私は一体何色だろうか？",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1

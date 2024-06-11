@@ -1,10 +1,10 @@
 slot0 = class("FeastMakeTicketPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "FeastPuzzlePage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.back = slot0:findTF("back")
 	slot0.finishTr = slot0:findTF("finish")
 	slot0.envelopesAnim = slot0.finishTr:Find("envelopes"):GetComponent(typeof(SpineAnimUI))
@@ -22,13 +22,13 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("failed_tip/Text"), i18n("feast_label_make_ticket_failed_tip"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:bind(FeastScene.ON_MAKE_TICKET, function (slot0, slot1)
 		uv0:OnMakeTicket(slot1)
 	end)
 end
 
-function slot0.OnMakeTicket(slot0, slot1)
+slot0.OnMakeTicket = function(slot0, slot1)
 	if slot0.feastShip and slot0.feastShip.id == slot1 then
 		setActive(slot0.finishTr, true)
 		setActive(slot0.tipTopTr, false)
@@ -48,7 +48,7 @@ function slot0.OnMakeTicket(slot0, slot1)
 	end
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	Input.multiTouchEnabled = false
 
 	uv0.super.Show(slot0)
@@ -68,7 +68,7 @@ function slot0.Show(slot0, slot1)
 	end)
 end
 
-function slot0.LoadPuzzleRes(slot0, slot1, slot2)
+slot0.LoadPuzzleRes = function(slot0, slot1, slot2)
 	slot3 = ResourceMgr.Inst
 
 	slot3:getAssetAsync("FeastPuzzle/" .. slot1, slot1, typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -93,11 +93,11 @@ function slot0.LoadPuzzleRes(slot0, slot1, slot2)
 	end), true, true)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	return LuaHelper.ScreenToLocal(slot0:GetComponent("RectTransform"), slot1, pg.UIMgr.GetInstance().overlayCameraComp)
 end
 
-function slot0.InitPuzzle(slot0, slot1)
+slot0.InitPuzzle = function(slot0, slot1)
 	slot0.dragging = false
 
 	for slot5, slot6 in ipairs(slot0.items) do
@@ -139,7 +139,7 @@ function slot0.InitPuzzle(slot0, slot1)
 	end
 end
 
-function slot0.ShowTip(slot0)
+slot0.ShowTip = function(slot0)
 	slot0:CloseTip()
 	setActive(slot0.failedTip, true)
 
@@ -150,7 +150,7 @@ function slot0.ShowTip(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.CloseTip(slot0)
+slot0.CloseTip = function(slot0)
 	if slot0.timer then
 		setActive(slot0.failedTip, false)
 		slot0.timer:Stop()
@@ -159,11 +159,11 @@ function slot0.CloseTip(slot0)
 	end
 end
 
-function slot0.CheckFinish(slot0)
+slot0.CheckFinish = function(slot0)
 	return slot0.rect.childCount == 1
 end
 
-function slot0.Merge(slot0, slot1, slot2, slot3)
+slot0.Merge = function(slot0, slot1, slot2, slot3)
 	if slot2.level < slot1.level then
 		slot1.tr.localPosition = slot3
 
@@ -185,11 +185,11 @@ function slot0.Merge(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	return getBounds(slot0.tr):Intersects(getBounds(slot1.tr))
 end
 
-function slot3(slot0, slot1)
+slot3 = function(slot0, slot1)
 	if slot0.level < slot1.level then
 		return slot0.isCompletion
 	else
@@ -197,7 +197,7 @@ function slot3(slot0, slot1)
 	end
 end
 
-function slot0.FindMatcher(slot0, slot1)
+slot0.FindMatcher = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.items) do
 		if (slot1.level + 1 == slot6.level or slot1.level - 1 == slot6.level) and uv0(slot1, slot6) and uv1(slot1, slot6) then
 			return slot6
@@ -207,7 +207,7 @@ function slot0.FindMatcher(slot0, slot1)
 	return nil
 end
 
-function slot0.OnPass(slot0)
+slot0.OnPass = function(slot0)
 	for slot4, slot5 in ipairs(slot0.items) do
 		slot0:ClearEvent(slot5.tr)
 	end
@@ -216,7 +216,7 @@ function slot0.OnPass(slot0)
 	slot0:emit(FeastMediator.MAKE_TICKET, slot0.feastShip.tid)
 end
 
-function slot0.RegisterEvent(slot0, slot1)
+slot0.RegisterEvent = function(slot0, slot1)
 	onButton(slot0, slot0.back, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -235,7 +235,7 @@ function slot0.RegisterEvent(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.ShowDesc(slot0, slot1)
+slot0.ShowDesc = function(slot0, slot1)
 	slot0.isShowDesc = true
 	slot2 = pg.UIMgr.GetInstance()
 
@@ -251,7 +251,7 @@ function slot0.ShowDesc(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.HideDesc(slot0)
+slot0.HideDesc = function(slot0)
 	if not slot0.isShowDesc then
 		return
 	end
@@ -269,7 +269,7 @@ function slot0.HideDesc(slot0)
 	setActive(slot0.descTr, false)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0.envelopesAnim:SetActionCallBack(nil)
 	slot0:CloseTip()
 
@@ -298,7 +298,7 @@ function slot0.Clear(slot0)
 	slot0:HideDesc()
 end
 
-function slot0.ClearEvent(slot0, slot1)
+slot0.ClearEvent = function(slot0, slot1)
 	slot2 = slot1:GetComponent(typeof(EventTriggerListener))
 
 	slot2:AddBeginDragFunc(nil)
@@ -311,14 +311,14 @@ function slot0.ClearEvent(slot0, slot1)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	Input.multiTouchEnabled = true
 
 	uv0.super.Hide(slot0)
 	slot0:Clear()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.exited = true
 
 	slot0:Clear()

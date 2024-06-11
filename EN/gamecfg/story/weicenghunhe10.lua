@@ -1,16 +1,16 @@
 return {
-	id = "WEICENGHUNHE10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE10",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgm = "hunhe-battle",
-			dir = 1,
+			side = 2,
 			say = "Canal Stronghold - Out at sea",
+			dir = 1,
+			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "Heh. I might not be as good as Baltimore, but there's nothing impressive about smashing up foes like this.",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "Well, thanks. I certainly wasn't there, but I'll take credit for it anyway.",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "Having that said, I was looking forward to fighting alongside Baltimore...",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "That's natural. You're friends, after all.",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "Bremerton's expression seemed pained for a moment, but she quickly went back to her characteristically bright, smiling self..",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "If it's that Baltimore we're talking about, she's probably smashing up the Sirens' home as we speak.",
 			typewriter = {
 				speed = 0.05,
@@ -175,16 +175,16 @@ return {
 			}
 		},
 		{
-			actor = 107170,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 107170,
 			say = "Wait... Is that... mist?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -199,11 +199,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/noice",
 			actor = 106550,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "...Bremerton ...ker Hill... can you hear...",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,11 +216,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/noice",
 			actor = 106550,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "...the mist is... Sirens... the bay is...",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,11 +233,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/noice",
 			actor = 106550,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "...Hurry... run away...",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,12 +248,12 @@ return {
 			}
 		},
 		{
-			side = 2,
+			soundeffect = "event:/ui/noice",
 			actorName = "Narration",
+			side = 2,
+			dir = 1,
 			nameColor = "#a9f548",
 			say = "Various parts that looked like they were from Enterprise's rigging were scattered in the water.......",
-			dir = 1,
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,11 +279,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_3",
-			actorName = "Bremerton",
 			dir = 1,
+			actorName = "Bremerton",
 			say = "And it seems like the Sirens are trying to invade the bay. Guess we're not looking in the right place either.",
 			effects = {
 				{
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bremerton",
+			side = 2,
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bunker Hill",
+			side = 2,
 			bgName = "bg_banama_3",
 			nameColor = "#a9f548",
 			dir = 1,

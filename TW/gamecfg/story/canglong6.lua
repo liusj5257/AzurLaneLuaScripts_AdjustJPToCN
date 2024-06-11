@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"與{namecode:93}共度的時光\n\n<size=45>六 不變與變化（中）</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "港區·廣場 ",
 			dir = 1,
 			bgmDelay = 2,
+			blackBg = true,
 			bgm = "story-1",
+			say = "港區·廣場 ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -63,9 +63,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "雖然有些突然，事情突然演變成了和{namecode:93}的約會",
 			typewriter = {
 				speed = 0.05,
@@ -105,9 +105,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "不愧是{namecode:93}，準備萬全",
 			typewriter = {
 				speed = 0.05,
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "我們就買這些，{namecode:20}，麻煩妳包裝一下。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "在不可思議的目光中，和{namecode:93}離開了店鋪。",
 			typewriter = {
 				speed = 0.05,
@@ -210,15 +210,15 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307040,
+			nameColor = "#a9f548",
 			say = "啊，姐……姐？！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -243,8 +243,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -253,12 +253,12 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			say = "{namecode:94}，怎麼了？",
 			side = 1,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:94}，怎麼了？",
+			actor = 307030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -321,9 +321,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "也不是不能理解大家的驚訝呢……畢竟{namecode:93}從出發的時候就一直挽著自己的手臂……",
 			typewriter = {
 				speed = 0.05,
@@ -331,15 +331,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "讓妳準備這一頓晚餐真是不好意思呢，{namecode:71}。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -380,9 +380,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "{namecode:71}帶著毫不掩飾的笑容離開了。",
 			typewriter = {
 				speed = 0.05,
@@ -390,11 +390,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "指揮官，這一天的約會你還滿意嗎？",
 			typewriter = {
 				speed = 0.05,

@@ -1,15 +1,15 @@
 return {
-	id = "FUYINGYINGHUA21",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA21",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-2",
 			say = "Diadem of Light",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,8 +155,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Yamashiro's tail went rigid with shock.",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.25,
 					x = 20,
@@ -235,9 +235,9 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Y-yes ma'am!",
 			typewriter = {
 				speed = 0.05,
@@ -249,16 +249,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 2,
 					dur = 0.5,
 					x = 2250
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Hibiki dashed out of the building.",
 			typewriter = {
 				speed = 0.05,
@@ -462,8 +462,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			say = "One divine object, coming through!",
 			typewriter = {
 				speed = 0.05,
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Upon hearing her words, the people gathered in the hall turned their eyes to Watatsumi, the atmosphere getting noticeably louder and more tense.",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "And with that, the others in the hall began to move towards another ceremonial site.",
 			typewriter = {
 				speed = 0.05,
@@ -583,8 +583,8 @@ return {
 			say = "Nnh... huh......?",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 20,

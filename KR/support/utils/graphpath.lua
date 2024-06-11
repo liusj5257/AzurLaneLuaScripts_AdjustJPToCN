@@ -1,7 +1,7 @@
 slot0 = class("GraphPath")
 GraphPath = slot0
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.points = {}
 	slot0.edges = {}
 
@@ -31,16 +31,16 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.getRandomPoint(slot0)
+slot0.getRandomPoint = function(slot0)
 	slot1 = _.values(slot0.points)
 
 	return slot1[math.random(1, #slot1)]
 end
 
-function slot0.getPoint(slot0, slot1)
+slot0.getPoint = function(slot0, slot1)
 	return slot0.points[slot1]
 end
 
-function slot0.getEdge(slot0, slot1, slot2)
+slot0.getEdge = function(slot0, slot1, slot2)
 	return slot0.edges[slot1] and slot0.edges[slot1][slot2]
 end

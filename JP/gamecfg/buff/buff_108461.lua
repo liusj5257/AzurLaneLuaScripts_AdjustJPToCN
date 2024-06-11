@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "炎龙显现",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 108461,
+	time = 0,
 	picture = "",
 	desc = "提高属性",
 	stack = 1,
-	id = 108461,
+	color = "red",
 	icon = 108460,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 800
+				number = 800,
+				attr = "airPower"
 			}
 		}
 	}

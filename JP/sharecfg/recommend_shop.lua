@@ -1,18 +1,18 @@
 pg = pg or {}
 pg.recommend_shop = {
 	{
-		shop_id = 1,
+		pic = "",
 		time = "always",
 		shop_type = 1,
 		id = 1,
-		pic = "",
+		shop_id = 1,
 		order = 6
 	},
 	{
-		shop_id = 1014,
+		pic = "",
 		shop_type = 1,
 		id = 2,
-		pic = "",
+		shop_id = 1014,
 		order = 7,
 		time = {
 			{
@@ -42,17 +42,17 @@ pg.recommend_shop = {
 		}
 	},
 	[5] = {
-		shop_id = 65,
+		pic = "",
 		shop_type = 1,
 		id = 5,
-		pic = "",
+		shop_id = 69,
 		order = 3,
 		time = {
 			{
 				{
 					2024,
-					1,
-					30
+					5,
+					21
 				},
 				{
 					0,
@@ -63,8 +63,8 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					2,
-					21
+					6,
+					12
 				},
 				{
 					23,
@@ -75,16 +75,49 @@ pg.recommend_shop = {
 		}
 	},
 	[6] = {
-		shop_id = 66,
+		pic = "",
 		shop_type = 1,
 		id = 6,
-		pic = "",
+		shop_id = 70,
 		order = 4,
 		time = {
 			{
 				{
 					2024,
-					1,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[7] = {
+		pic = "",
+		shop_type = 1,
+		id = 7,
+		shop_id = 71,
+		order = 1,
+		time = {
+			{
+				{
+					2024,
+					5,
 					30
 				},
 				{
@@ -96,41 +129,8 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					2,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	[7] = {
-		shop_id = 58,
-		shop_type = 1,
-		id = 7,
-		pic = "",
-		order = 1,
-		time = {
-			{
-				{
-					2024,
-					2,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					3,
-					13
+					6,
+					12
 				},
 				{
 					23,
@@ -141,17 +141,17 @@ pg.recommend_shop = {
 		}
 	},
 	[8] = {
-		shop_id = 59,
+		pic = "",
 		shop_type = 1,
 		id = 8,
-		pic = "",
+		shop_id = 72,
 		order = 2,
 		time = {
 			{
 				{
 					2024,
-					2,
-					29
+					5,
+					30
 				},
 				{
 					0,
@@ -162,8 +162,8 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					3,
-					13
+					6,
+					12
 				},
 				{
 					23,

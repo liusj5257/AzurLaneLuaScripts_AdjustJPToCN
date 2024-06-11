@@ -1,11 +1,11 @@
 slot0 = class("NewHpShareActBossResultStatisticsPage", import("..activityBoss.NewActivityBossResultStatisticsPage"))
 
-function slot0.UpdateGrade(slot0)
+slot0.UpdateGrade = function(slot0)
 	LoadImageSpriteAsync("battlescore/grade_label_clear", slot0.gradeTxt, false)
 	setActive(slot0.gradeIcon, false)
 end
 
-function slot0.UpdateTicket(slot0, slot1)
+slot0.UpdateTicket = function(slot0, slot1)
 	uv0.super.UpdateTicket(slot0, slot1)
 
 	slot2 = slot1:Find("playAgain/ticket/checkbox")
@@ -14,11 +14,11 @@ function slot0.UpdateTicket(slot0, slot1)
 	setToggleEnabled(slot2, false)
 end
 
-function slot0.EnoughTicketCount(slot0)
+slot0.EnoughTicketCount = function(slot0)
 	return getProxy(PlayerProxy):getRawData():getResource(slot0:GetTicketItemID(slot0.contextData.actId)) > 0
 end
 
-function slot0.OnPlayAgain(slot0, slot1)
+slot0.OnPlayAgain = function(slot0, slot1)
 	if slot0:IsLastBonus() then
 		slot0:PassMsgbox("lastBonus", {
 			content = i18n("expedition_drop_use_out")

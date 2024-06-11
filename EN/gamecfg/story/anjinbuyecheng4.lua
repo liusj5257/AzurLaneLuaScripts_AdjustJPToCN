@@ -4,19 +4,19 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_131",
-			say = "Sleepless City - Block 33 Security Office",
 			bgm = "story-antarctica-serious",
+			say = "Sleepless City - Block 33 Security Office",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_131",
 			say = "35 minutes later...",
 			typewriter = {
@@ -25,11 +25,11 @@ return {
 			}
 		},
 		{
-			actor = 703012,
 			side = 2,
 			bgName = "star_level_bg_131",
 			factiontag = "Security Chief",
 			dir = 1,
+			actor = 703012,
 			nameColor = "#FF9B93",
 			say = "Yes? This is Block 33's security office.",
 			painting = {
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 703012,
 			side = 2,
 			bgName = "star_level_bg_131",
 			factiontag = "Security Chief",
 			dir = 1,
+			actor = 703012,
 			nameColor = "#FF9B93",
 			say = "So the criminal has escaped through the sewer and is escaping through this block.",
 			painting = {
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_131",
 			factiontag = "Security Officer",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "Understood. I'll take care of it.",
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			say = "Block 33 highway entrance 3 minutes later...",
 			typewriter = {
@@ -176,17 +176,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Security Officer",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = "home",
 			say = "Tallinn, I'm at the target area... But I don't see anything unusual.",
@@ -249,11 +249,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Security Officer",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "I'll scan the area again. If they've already escaped to another block–",
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			say = "Noticing that she's receiving communication from someone else, Kirov pulls off a quick drift to a stop on her bike.",
 			typewriter = {
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Security Officer",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "Who is this?!",
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Security Officer",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "Empty words. From my perspective, all you're doing is interrupting our pursuit of a dangerous criminal.",
@@ -783,11 +783,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Security Officer",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = "main2",
 			say = "Tallinn?",

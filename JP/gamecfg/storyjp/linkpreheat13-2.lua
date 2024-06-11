@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT13-2",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT13-2",
+	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
-			say = "おやおや～？なんか１人だけ飛び出してきた奴がいるねぇ？　",
 			bgm = "battle-boss-uta",
+			actor = 900021,
+			actorName = "ピュリファイアー",
+			say = "おやおや～？なんか１人だけ飛び出してきた奴がいるねぇ？　",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "あははははははははっ！いいね、粋の良い奴は大好きだよ！そういう奴こそデータの取り甲斐があるってもんさ！",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			actor = 10300040,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ウルゥル？",
 			dir = 1,
+			actorName = "ウルゥル？",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "さあ、自分とまったく同じ存在を相手に踊りなさいな！",
 			typewriter = {
 				speed = 0.05,

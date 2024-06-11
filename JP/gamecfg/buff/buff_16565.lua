@@ -1,7 +1,7 @@
 return {
-	time = 5,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 5,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,

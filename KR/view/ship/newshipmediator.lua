@@ -5,7 +5,7 @@ slot0.ON_SKILLINFO = "NewShipMediator:ON_SKILLINFO"
 slot0.ON_EVALIATION = "NewShipMediator:ON_EVALIATION"
 slot0.ON_SKIP_BATCH = "NewShipMediator:ON_SKIP_BATCH"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = slot0.contextData.ship
 	slot0.fromRemould = slot0.contextData.fromRemould
 
@@ -57,14 +57,14 @@ function slot0.register(slot0)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.UPDATE_LOCK_DONE,
 		GAME.FETCH_EVALUATION_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.UPDATE_LOCK_DONE then

@@ -1,7 +1,7 @@
 slot0 = class("OtherworldMapMediator", import("view.activity.BossSingle.BossSingleMediatorTemplate"))
 slot0.ON_EVENT_TRIGGER = "OtherworldMapMediator.ON_EVENT_TRIGGER"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:BindBattleEvents()
 	slot0:bind(uv0.ON_EVENT_TRIGGER, function (slot0, slot1)
 		uv0:sendNotification(GAME.SINGLE_EVENT_TRIGGER, {
@@ -25,7 +25,7 @@ function slot0.register(slot0)
 	slot0.contextData.resId = pg.activity_random_award_template[slot3:getConfig("config_data")[1]].resource_type
 end
 
-function slot0.initNotificationHandleDic(slot0)
+slot0.initNotificationHandleDic = function(slot0)
 	slot0.handleDic = {
 		[GAME.BEGIN_STAGE_DONE] = function (slot0, slot1)
 			slot2 = slot1:getBody()
@@ -94,7 +94,7 @@ function slot0.initNotificationHandleDic(slot0)
 	}
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 end
 
 return slot0

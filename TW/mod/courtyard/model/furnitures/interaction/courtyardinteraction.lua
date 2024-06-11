@@ -1,27 +1,27 @@
 slot0 = class("CourtYardInteraction")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.host = slot1
 	slot0.isReset = false
 
 	slot0:Clear()
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot0.loop = slot1
 
 	slot0:InitData()
 	slot0:DoPreheatStep(slot0.ownerPreheat, slot0.userPreheat)
 end
 
-function slot0.InitData(slot0)
+slot0.InitData = function(slot0)
 	slot1, slot0.userActions, slot0.closeBodyMask, slot0.ownerPreheat, slot0.userPreheat, slot0.tailAction = slot0.host:GetActions()
 	slot0.ownerActions = slot1
 	slot0.total = #slot1
 	slot0.index = 0
 end
 
-function slot0.DoPreheatStep(slot0, slot1, slot2)
+slot0.DoPreheatStep = function(slot0, slot1, slot2)
 	slot0.preheatProcess = false
 
 	if slot1 then
@@ -37,7 +37,7 @@ function slot0.DoPreheatStep(slot0, slot1, slot2)
 	end
 end
 
-function slot0.DoStep(slot0)
+slot0.DoStep = function(slot0)
 	if slot0.total <= slot0.index then
 		slot0:AllStepEnd()
 
@@ -54,22 +54,22 @@ function slot0.DoStep(slot0)
 	slot0.isReset = false
 end
 
-function slot0.GetUserAction(slot0)
+slot0.GetUserAction = function(slot0)
 	return slot0.userActions[slot0.index]
 end
 
-function slot0.GetOwnerAction(slot0)
+slot0.GetOwnerAction = function(slot0)
 	return slot0.ownerActions[slot0.index]
 end
 
-function slot0.DoTailStep(slot0)
+slot0.DoTailStep = function(slot0)
 	slot0.index = 0
 
 	slot0.host:GetUser():UpdateInteraction(slot0:PackData(slot0.tailAction))
 	slot0.host:GetOwner():UpdateInteraction(slot0:PackData(slot0.tailAction))
 end
 
-function slot0.PackData(slot0, slot1)
+slot0.PackData = function(slot0, slot1)
 	return {
 		action = slot1,
 		slot = slot0.host,
@@ -81,7 +81,7 @@ function slot0.PackData(slot0, slot1)
 	}
 end
 
-function slot0.StepEnd(slot0, slot1)
+slot0.StepEnd = function(slot0, slot1)
 	if slot0.preheatProcess then
 		slot0:DoStep()
 	else
@@ -95,7 +95,7 @@ function slot0.StepEnd(slot0, slot1)
 	end
 end
 
-function slot0.AllStepEnd(slot0)
+slot0.AllStepEnd = function(slot0)
 	if slot0.loop and slot0.total > 1 then
 		slot0.isReset = true
 		slot0.index = 0
@@ -111,36 +111,36 @@ function slot0.AllStepEnd(slot0)
 	end
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0.index = 0
 	slot0.states = {}
 	slot0.total = 0
 	slot0.loop = nil
 end
 
-function slot0.GetIndex(slot0)
+slot0.GetIndex = function(slot0)
 	return slot0.index
 end
 
-function slot0.IsCompleteStep(slot0)
+slot0.IsCompleteStep = function(slot0)
 	return slot0:IsCompleteUserStep() and slot0:IsCompleteOwnerStep()
 end
 
-function slot0.IsCompleteUserStep(slot0)
+slot0.IsCompleteUserStep = function(slot0)
 	return slot0.states[slot0.host.user] == true
 end
 
-function slot0.IsCompleteOwnerStep(slot0)
+slot0.IsCompleteOwnerStep = function(slot0)
 	return slot0.states[slot0.host.owner] == true
 end
 
-function slot0.OnStepEnd(slot0)
+slot0.OnStepEnd = function(slot0)
 	if slot0:IsCompleteStep() then
 		slot0:DoStep()
 	end
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 end
 
 return slot0

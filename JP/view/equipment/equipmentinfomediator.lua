@@ -18,7 +18,7 @@ slot0.ON_REVERT = "EquipmentInfoMediator:ON_REVERT"
 slot0.ON_MOVE = "EquipmentInfoMediator:ON_MOVE"
 slot0.OPEN_LAYER = "OPEN LAYER"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	if getProxy(ContextProxy):getCurrentContext().scene == SCENE.EQUIPSCENE then
 		slot0.viewComponent.fromEquipmentView = true
 	end
@@ -147,7 +147,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setPlayer(getProxy(PlayerProxy):getData())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.DESTROY_EQUIPMENTS_DONE,
 		GAME.EQUIP_TO_SHIP_DONE,
@@ -155,7 +155,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.DESTROY_EQUIPMENTS_DONE or slot2 == GAME.EQUIP_TO_SHIP_DONE or slot2 == GAME.REVERT_EQUIPMENT_DONE then

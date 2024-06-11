@@ -3,7 +3,7 @@ slot0.ConfigSkillCD = 10
 slot0.ConfigSkillCount = 3
 slot0.ImpackRange = 20
 
-function slot0.InitUI(slot0, slot1)
+slot0.InitUI = function(slot0, slot1)
 	uv0.super.InitUI(slot0, slot1)
 
 	slot0.hp = slot1.hp or 2
@@ -48,7 +48,7 @@ function slot0.InitUI(slot0, slot1)
 	slot0.impackCount = 0
 end
 
-function slot0.TimeTrigger(slot0, slot1)
+slot0.TimeTrigger = function(slot0, slot1)
 	uv0.super.TimeTrigger(slot0, slot1)
 
 	slot0.skillCD = slot0.skillCD - slot1
@@ -60,7 +60,7 @@ function slot0.TimeTrigger(slot0, slot1)
 		slot0.skillCenterPos = slot0.responder.reactorRyza.realPos
 	end
 
-	function slot2()
+	slot2 = function()
 		if uv0.responder.reactorRyza.hide then
 			return false
 		else

@@ -1,6 +1,6 @@
 slot0 = class("OpenOrCloseCatteryCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(25036, {
 		is_open = slot1:getBody().open and 0 or 1
 	})

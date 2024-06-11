@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_80 = {}
 slot1 = slot0.word_template_80
 
-function temp()
+temp = function()
 	uv0["到"] = {
 		["我"] = {
 			["这"] = {
@@ -45,7 +45,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["悼"] = {
 		["念"] = {
 			this = true,
@@ -85,7 +85,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["道"] = {
 		["教"] = {
 			this = true
@@ -129,7 +129,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["盜"] = {
 		["撮"] = {
 			this = true
@@ -144,7 +144,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["稻"] = {
 		["草"] = {
 			["人"] = {
@@ -178,7 +178,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["纛"] = {
 		this = {
 			this = true
@@ -188,7 +188,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["得"] = {
 		["谁"] = {
 			["跟"] = {

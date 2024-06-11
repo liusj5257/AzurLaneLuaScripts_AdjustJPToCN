@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "I56XIAOFU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "I56XIAOFU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Wallflower in the Corner\n\n<size=45>Chapter 4 - Let's Go!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 408070,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Woah, U-101?! What's the big hurry?",
 			bgm = "story-1",
+			actor = 408070,
+			nameColor = "#a9f548",
+			say = "Woah, U-101?! What's the big hurry?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			nameColor = "#a9f548",
 			say = "Sure am. We're looking for some excitement! Wanna come along?",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "Oh! Um... I'm sorry, I'm in a rush, so maybe next time!",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "You bet! A large school of rare fish is going to migrate through here, and I can't afford to miss it!",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "I heard it's a breathtaking view, but if you miss out, you'll have to wait a whole 'nother year...",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			nameColor = "#a9f548",
 			say = "Sounds like fun, so count me in!",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = 1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "I-56, what do you want to do?",
 			typewriter = {
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "I, um...",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -263,8 +263,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = 1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "Um, I'd like to go see it with you, after all, I-56...",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "*gasp!*",
 			typewriter = {
@@ -297,8 +297,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "(Did I finally manage... to get through to her...?)",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "Heheh! Great Shark has been souped-up especially for times like these!",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "(Um, wait... Did I really agree to getting roped into this...?)",
 			typewriter = {
@@ -412,8 +412,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "(How did this end up happening...?!)",
 			typewriter = {
@@ -429,9 +429,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408060,
 			dir = 1,
 			blackBg = true,
+			actor = 408060,
 			nameColor = "#a9f548",
 			say = "Let's go! Lass uns gehen!",
 			typewriter = {
@@ -444,8 +444,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

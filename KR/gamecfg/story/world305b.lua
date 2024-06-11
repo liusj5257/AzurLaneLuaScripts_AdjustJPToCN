@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD305B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD305B",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level02",
+			say = "NA 해역 남서쪽·전초 기지",
 			side = 2,
 			bgName = "bg_port_chuanwu1",
 			dir = 1,
-			say = "NA 해역 남서쪽·전초 기지",
+			bgm = "level02",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -50,8 +50,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "흐흥~ 내가 힘을 좀 썼지~ 수고할 만한 일이었어!",
 			typewriter = {
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "후아~ 너무 좋아...",
 			typewriter = {
@@ -94,8 +94,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "새러토가... 이미 소파에 붙잡혔네요...",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "대단해... 한잔 줘!",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,8 +186,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "그러면... 저도 한 잔 주세요.",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "좋아, 휴식도 중요하다고. 이런 건 절대 너희 엔터프라이즈 선배를 배우면 안 된다?",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "휴식 모듈 외에도 동력 모듈, 거주 모듈, 보급 모듈, 수리 모듀르 방어 모듈, 지휘 모듈이 있어.",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "앞으로 필요하다면 조금의 개조를 거쳐서 바다 위의 영구 거점으로 삼는 것도 가능해.",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "대단하다는 말 밖에는 할 수가 없네...",
 			typewriter = {
@@ -287,8 +287,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "흐흐흥~ 세이렌에게 당할 만큼 당했잖아? 이제는 우리의 기술이 더 낫다는 것을 보여주자고.",
 			typewriter = {
@@ -301,12 +301,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "총공격 전에 일단 푹 쉬도록 해~!",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

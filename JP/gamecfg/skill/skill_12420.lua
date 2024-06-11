@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "重点打击",
 	cd = 0,
+	picture = "0",
+	desc = "主炮造成2倍伤害",
 	painting = 1,
 	id = 12420,
-	picture = "0",
 	castCV = "skill",
-	desc = "主炮造成2倍伤害",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 12423
 			}

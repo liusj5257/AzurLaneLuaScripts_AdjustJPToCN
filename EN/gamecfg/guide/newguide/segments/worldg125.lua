@@ -6,9 +6,9 @@ return {
 			style = {
 				text = "You now have access to the navigation system. An overview of your current zone will be displayed here.",
 				mode = 2,
-				posY = 211.02,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 211.02,
 				posX = 328.22,
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/top/adapt/right_stage/compass_panel"
@@ -19,9 +19,9 @@ return {
 			style = {
 				text = "The total number of battles you've taken in this zone is displayed here! Use it for your own reference and to check whether your skills will take effect!",
 				mode = 2,
-				posY = 211.02,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 211.02,
 				posX = 328.22
 			},
 			showSign = {
@@ -48,11 +48,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 56.19,
+					rotateY = 0,
 					posY = -43.7,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 56.19
 				}
 			}
 		},
@@ -73,11 +73,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 0,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 0
 				}
 			}
 		},
@@ -89,11 +89,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 0,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 0
 				}
 			}
 		}

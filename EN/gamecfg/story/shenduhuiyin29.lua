@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENDUHUIYIN29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENDUHUIYIN29",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			bgName = "star_level_bg_1104",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
@@ -38,10 +38,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(Huh...?)",
 			typewriter = {
 				speed = 0.05,
@@ -53,12 +53,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(What... happened to me...)",
 			typewriter = {
 				speed = 0.05,
@@ -70,9 +70,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1104",
+			dir = 1,
 			say = "The black tornado was no longer there. Nor were Richard, the wrecks, or the exercise area.",
 			typewriter = {
 				speed = 0.05,
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1104",
+			dir = 1,
 			say = "Kronshtadt instead found herself in a strange, concrete hall.",
 			typewriter = {
 				speed = 0.05,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1104",
+			dir = 1,
 			say = "Columns of lamps illuminated her surroundings with a faint light.",
 			typewriter = {
 				speed = 0.05,
@@ -115,10 +115,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(Maybe I've finally arrived at the gates of heaven...)",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1104",
+			dir = 1,
 			say = "Kronshtadt wandered out of the hall without any sense of purpose, trudging into a corridor. Suddenly, a plain wooden door caught her attention.",
 			typewriter = {
 				speed = 0.05,
@@ -144,12 +144,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(Huh, I wonder what's in here...)",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "The moment her fingertips brushed against the doorknob, the white concrete hall transformed into a dimly-lit room.",
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Books and scraps of paper littered the floor, and opposite her in this horribly cluttered room sat a woman at her desk, writing something.",
@@ -191,13 +191,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "I don't understand... How did this happen?",
 			typewriter = {
@@ -210,13 +210,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Her Wisdom Cube... Why did that happen...?",
 			typewriter = {
@@ -229,13 +229,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "I've never seen anything like it before...",
 			typewriter = {
@@ -248,13 +248,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "I don't understand... I just don't understand...",
 			typewriter = {
@@ -267,8 +267,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "BANG! She swung her fist without thinking, knocking over a stack of books.",
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Kronshtadt instinctively rushed over to shield the woman from the falling books, but they slipped through her body and crashed all over the desk and the floor.",
@@ -316,13 +316,13 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffa500",
 			oldPhoto = true,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(What...?!)",
 			typewriter = {
 				speed = 0.05,
@@ -334,13 +334,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Damnit... That hurt...",
 			typewriter = {
@@ -353,13 +353,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "If only I could see the test data... But I don't have any clearance anymore...",
 			typewriter = {
@@ -372,13 +372,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "I'll have to count on Dr. Aoste then... and focus on doing what I can do right here!",
 			typewriter = {
@@ -391,13 +391,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Don't give up! If anyone can crack this problem, it's you, Anzeel!",
 			typewriter = {
@@ -410,9 +410,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Kronshtadt tried to reach out to the woman, but the moment she did so, the scenery around her warped and whisked her back to the previous hallway.",
 			typewriter = {
 				speed = 0.05,
@@ -424,12 +424,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(Was that a researcher? What a slovenly lifestyle... Not that I have any right to judge others though...)",
 			typewriter = {
 				speed = 0.05,
@@ -444,10 +444,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(I don't know who she is or what she's doing, but I hope she succeeds.)",
 			typewriter = {
 				speed = 0.05,
@@ -459,9 +459,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Continuing down the corridor, she came across another door.",
 			typewriter = {
 				speed = 0.05,
@@ -473,12 +473,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(What's behind this one? Another vision?)",
 			typewriter = {
 				speed = 0.05,
@@ -490,8 +490,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "This room was lit even more dimly than the last. Kronshtadt could just make out the silhouettes of an adult man and a young girl.",
@@ -505,13 +505,13 @@ return {
 			}
 		},
 		{
-			actor = 900323,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 900323,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Magister, your calculation has been completed.",
 			typewriter = {
 				speed = 0.05,
@@ -523,13 +523,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 900307,
-			actorName = "Male Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "It's finally done?! What are the results?",
 			typewriter = {
@@ -542,13 +542,13 @@ return {
 			}
 		},
 		{
-			actor = 900323,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 900323,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "The results indicate that the proposed safety lock mechanism is able to satisfy project specifications.",
 			typewriter = {
 				speed = 0.05,
@@ -560,13 +560,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 900307,
-			actorName = "Male Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "I see... This is great news. We've finally done it.",
 			typewriter = {
@@ -579,13 +579,13 @@ return {
 			}
 		},
 		{
-			actor = 900323,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 900323,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I will consider the task complete, then. However, I could perform further calculations if you would like a more stable alternative.",
 			typewriter = {
 				speed = 0.05,
@@ -597,13 +597,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 900307,
-			actorName = "Male Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "No need. What we've got now strikes the perfect balance between stability and energy output ratio.",
 			typewriter = {
@@ -616,13 +616,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 900307,
-			actorName = "Male Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Stability comes at the cost of output – limiting it too much would be to put the cart before the horse.",
 			typewriter = {
@@ -635,13 +635,13 @@ return {
 			}
 		},
 		{
-			actor = 900323,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 900323,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Do you not have faith in Antiochus as a contingency plan?",
 			typewriter = {
 				speed = 0.05,
@@ -653,13 +653,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 900307,
-			actorName = "Male Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "That's not what I'm saying. I'm just biased towards those girls, perhaps because Anzeel sees so much in them.",
 			typewriter = {
@@ -672,13 +672,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 900307,
-			actorName = "Male Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Her incessant gushing has piqued my curiosity. Now I, too, want to observe this \"Awakening\" process that unlocks their latent potential.",
 			typewriter = {
@@ -691,13 +691,13 @@ return {
 			}
 		},
 		{
-			actor = 900323,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 900323,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "What of the Bon Homme Richard incident? Do you believe it to be an example of an Awakening?",
 			typewriter = {
 				speed = 0.05,
@@ -709,13 +709,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 900307,
-			actorName = "Male Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Don't be ridiculous. That was the opposite of an Awakening – it was more akin to the girls reverting to their original selves.",
 			typewriter = {
@@ -728,13 +728,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 900307,
-			actorName = "Male Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "That is to say, their Wisdom Cubes underwent the process of degenerating into Origin Cubes. Knowing Anzeel, she's brainstorming a snappy term for it as we speak.",
 			typewriter = {
@@ -747,13 +747,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 900307,
-			actorName = "Male Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "And if she is, she really should be working on something more important.",
 			typewriter = {
@@ -766,13 +766,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 900307,
-			actorName = "Male Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "You know how it goes. When Anzeel slacks, I have to watch her back.",
 			typewriter = {
@@ -785,13 +785,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			actorName = "Male Researcher",
 			dir = 1,
 			actor = 900307,
-			actorName = "Male Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Oh, that reminds me. It's about time I had a talk with our assistant.",
 			typewriter = {
@@ -804,9 +804,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1104",
+			dir = 1,
 			say = "When the conversation in the dimly-lit room wrapped up, Kronshtadt found herself back in the white corridor once more.",
 			typewriter = {
 				speed = 0.05,
@@ -818,12 +818,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(Another researcher? Huh... Who was that \"assistant\" he mentioned?)",
 			typewriter = {
 				speed = 0.05,
@@ -838,10 +838,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(Surely not the little girl? She looked young enough to be his daughter. Far too young to be a lab assistant.)",
 			typewriter = {
 				speed = 0.05,
@@ -853,12 +853,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(Beyond that, I didn't get a word of what they were talking about. Sigh... If only Soobrazitelny were here. She could make sense of it.)",
 			typewriter = {
 				speed = 0.05,
@@ -873,10 +873,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(Wait... If only who were here? Who's Soobrazitelny?)",
 			typewriter = {
 				speed = 0.05,
@@ -888,12 +888,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(I've never heard that name before, and yet... It feels familiar, for some reason.)",
 			typewriter = {
 				speed = 0.05,
@@ -908,10 +908,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "(Soobrazitelny... Soobra...zitelny... Oh!)",
 			typewriter = {
 				speed = 0.05,
@@ -923,9 +923,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1104",
+			dir = 1,
 			say = "Repeating the name buried in the back of her mind caused an unexpected third door to appear right before her.",
 			typewriter = {
 				speed = 0.05,
@@ -937,8 +937,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "The vision on the other side seemed to be set in some sort of assembly hall, or a theater.",
@@ -952,13 +952,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Should we leave some sort of message here?",
 			typewriter = {
@@ -971,8 +971,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			oldPhoto = true,
 			dir = 1,
@@ -988,13 +988,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "I mean, why not write something at least? It'll be like a fun little Easter egg.",
 			typewriter = {
@@ -1007,13 +1007,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "They might read it and gain the strength they need to overcome a great tragedy.",
 			typewriter = {
@@ -1026,8 +1026,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			oldPhoto = true,
 			dir = 1,
@@ -1043,8 +1043,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			oldPhoto = true,
 			dir = 1,
@@ -1060,13 +1060,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Oof... Dumping the toughest task on me, huh?",
 			typewriter = {
@@ -1079,13 +1079,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "\"Heya, little shipgirl! Good job finding this message! Hope you have a great day!\"",
 			typewriter = {
@@ -1098,8 +1098,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			oldPhoto = true,
 			dir = 1,
@@ -1115,13 +1115,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Yeah, I guess you're right... Okay, how about this:",
 			typewriter = {
@@ -1134,13 +1134,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "\"Hang in there, child of the Creator.\"",
 			typewriter = {
@@ -1153,13 +1153,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "\"Your very existence is a miracle born from the hopes and hearts of countless people.\"",
 			typewriter = {
@@ -1172,13 +1172,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "\"Face the darkness, but don't let it consume you! Mama's cheering for you!\"",
 			typewriter = {
@@ -1191,13 +1191,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Better?",
 			typewriter = {
@@ -1210,8 +1210,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			oldPhoto = true,
 			dir = 1,
@@ -1227,13 +1227,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Look, I'm a researcher, not a writer! This is the best I can do!",
 			typewriter = {
@@ -1246,13 +1246,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Now it's your turn to write something!",
 			typewriter = {
@@ -1265,8 +1265,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			oldPhoto = true,
 			dir = 1,
@@ -1282,13 +1282,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
+			actorName = "Female Researcher",
 			dir = 1,
 			actor = 900308,
-			actorName = "Female Researcher",
+			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Nuh-uh, you're not getting off that easy! You're doing it right now!",
 			typewriter = {
@@ -1301,8 +1301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			oldPhoto = true,
 			dir = 1,
@@ -1344,8 +1344,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			optionFlag = 1,
@@ -1383,8 +1383,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			optionFlag = 3,
@@ -1481,13 +1481,13 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
-			bgName = "bg_cccpv2_9",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#ffa500",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_9",
+			dir = 1,
+			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "I recognize one of them. She's the female researcher from before, I think.",
 			typewriter = {
 				speed = 0.05,
@@ -1575,13 +1575,13 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
-			bgName = "bg_cccpv2_9",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "bg_cccpv2_9",
+			dir = 1,
+			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yes! I remember now! I remember all of it!",
 			typewriter = {
 				speed = 0.05,
@@ -1669,9 +1669,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "FATAL ERROR.",
 			flashout = {
 				dur = 1,
@@ -1690,9 +1690,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "ORIGINATION PROGRESS: 99.7%",
 			typewriter = {
 				speed = 0.05,
@@ -1704,9 +1704,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "ORIGINATION PROGRESS: 83.5%",
 			typewriter = {
 				speed = 0.05,
@@ -1718,9 +1718,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "ORIGINATION PROGRESS: 65.9%",
 			typewriter = {
 				speed = 0.05,
@@ -1732,9 +1732,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "ORIGINATION PROGRESS: 41.6%",
 			typewriter = {
 				speed = 0.05,
@@ -1746,9 +1746,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "ORIGINATION PROGRESS: 10.2%",
 			typewriter = {
 				speed = 0.05,
@@ -1760,9 +1760,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "ORIGINATION PROGRESS: 0.0%",
 			typewriter = {
 				speed = 0.05,
@@ -1774,11 +1774,11 @@ return {
 			}
 		},
 		{
-			bgm = "battle-boss-deepecho",
+			say = "Kronshtadt's fractured senses pieced themselves back together, her consciousness clawing its way out of the void.",
 			side = 2,
 			bgName = "bg_deepecho_11",
 			dir = 1,
-			say = "Kronshtadt's fractured senses pieced themselves back together, her consciousness clawing its way out of the void.",
+			bgm = "battle-boss-deepecho",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -1797,9 +1797,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_11",
+			dir = 1,
 			say = "Next came her humanity, then her emotions, flooding back into her being.",
 			typewriter = {
 				speed = 0.05,
@@ -1811,12 +1811,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Kronshtadt",
+			hidePaintObj = true,
 			say = "*cough* *cough*! Wh-which loop is this?!",
 			typewriter = {
 				speed = 0.05,
@@ -1828,12 +1828,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Kronshtadt",
+			hidePaintObj = true,
 			say = "Enough is enough, please... I think I've endured enough punishment already...",
 			typewriter = {
 				speed = 0.05,
@@ -1845,12 +1845,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Arkhangelsk",
+			hidePaintObj = true,
 			say = "Kronshtadt! You came back to us!",
 			typewriter = {
 				speed = 0.05,
@@ -1862,12 +1862,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Arkhangelsk",
+			hidePaintObj = true,
 			say = "You wouldn't believe how long you slept. Frankly, I considered waking you with brute force more than a few times.",
 			typewriter = {
 				speed = 0.05,
@@ -1879,12 +1879,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Kronshtadt",
+			hidePaintObj = true,
 			say = "That explains why my whole body hurts... Violence is never the answer, Arkhangelsk.",
 			typewriter = {
 				speed = 0.05,
@@ -1896,12 +1896,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Arkhangelsk",
+			hidePaintObj = true,
 			say = "I only said I considered it. Maybe I'll give you a friendly whupping after we've returned to reality, though.",
 			typewriter = {
 				speed = 0.05,
@@ -1913,12 +1913,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Kronshtadt",
+			hidePaintObj = true,
 			say = "Heheh. Hit me with your best shot.",
 			typewriter = {
 				speed = 0.05,
@@ -1930,12 +1930,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Arkhangelsk",
+			hidePaintObj = true,
 			say = "So, what now? Everyone's gathered in one place – do you have a plan?",
 			typewriter = {
 				speed = 0.05,
@@ -1947,12 +1947,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Kronshtadt",
+			hidePaintObj = true,
 			say = "Yes. I've gathered all the intel we'll need. All that's left is to finish this just the way I like it.",
 			typewriter = {
 				speed = 0.05,
@@ -1964,12 +1964,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Volga",
+			hidePaintObj = true,
 			say = "Please pace yourself, okay? We'll gladly take part of the burden off your back.",
 			typewriter = {
 				speed = 0.05,
@@ -1981,12 +1981,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Soobrazitelny",
+			hidePaintObj = true,
 			say = "Exactly! You have a genius mechanic at your disposal – use her!",
 			typewriter = {
 				speed = 0.05,
@@ -1998,12 +1998,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Kiev",
+			hidePaintObj = true,
 			say = "All we have to do is beat this big thing up, right?",
 			typewriter = {
 				speed = 0.05,
@@ -2015,12 +2015,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Kronshtadt",
+			hidePaintObj = true,
 			say = "No, we're not doing that. You can't beat a force of nature.",
 			typewriter = {
 				speed = 0.05,
@@ -2032,12 +2032,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Soobrazitelny",
+			hidePaintObj = true,
 			say = "Then what? If we don't strike now while it's sitting around, it'll overwhelm us with its waves again!",
 			typewriter = {
 				speed = 0.05,
@@ -2049,9 +2049,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_11",
+			dir = 1,
 			say = "The black tornado was still spinning, but its intimidating presence and air of madness were gone. Now it was no more than a destructive storm.",
 			typewriter = {
 				speed = 0.05,
@@ -2063,12 +2063,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Kronshtadt",
+			hidePaintObj = true,
 			say = "(It's lost its menacing edge... You've shown me everything you had to show, is that it?)",
 			typewriter = {
 				speed = 0.05,
@@ -2080,12 +2080,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Kronshtadt",
+			hidePaintObj = true,
 			say = "(Or is this just the aftermath of it all, and it's our job to take care of it?)",
 			typewriter = {
 				speed = 0.05,
@@ -2097,12 +2097,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Kronshtadt",
+			hidePaintObj = true,
 			say = "(If so, it's a humiliating reminder of how stupid I was to think I could fight a tornado with cannon fire.)",
 			typewriter = {
 				speed = 0.05,
@@ -2114,12 +2114,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Kronshtadt",
+			hidePaintObj = true,
 			say = "It doesn't matter. I will finish this mission no matter what and go home with my comrades and the data we gathered!",
 			typewriter = {
 				speed = 0.05,
@@ -2131,12 +2131,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Kronshtadt",
+			hidePaintObj = true,
 			say = "And if anything or anyone tries to stand in our way, we will fight until it is no more!",
 			typewriter = {
 				speed = 0.05,
@@ -2148,12 +2148,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_11",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Kronshtadt",
+			hidePaintObj = true,
 			say = "All ships! Aim for the tornado's center! Hit it with everything you've got!",
 			typewriter = {
 				speed = 0.05,
@@ -2165,11 +2165,11 @@ return {
 			}
 		},
 		{
-			say = "\"Prototype submarine Suliko approaching maximum depth.\"",
 			side = 2,
 			bgName = "bg_deepecho_12",
 			dir = 1,
 			bgm = "bgm-cccp2",
+			say = "\"Prototype submarine Suliko approaching maximum depth.\"",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -2195,9 +2195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
+			dir = 1,
 			say = "\"Impact in 3... 2... 1...\"",
 			typewriter = {
 				speed = 0.05,
@@ -2209,9 +2209,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
+			dir = 1,
 			say = "\"......\"",
 			typewriter = {
 				speed = 0.05,
@@ -2223,9 +2223,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
+			dir = 1,
 			say = "The Suliko hit the seafloor, sending out shockwaves that rippled through the meteorite and the surrounding environment.",
 			typewriter = {
 				speed = 0.05,
@@ -2237,9 +2237,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
+			dir = 1,
 			say = "Seemingly in response, the Sirens in the area adopted more aggressive behavioral protocols.",
 			typewriter = {
 				speed = 0.05,
@@ -2251,9 +2251,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
+			dir = 1,
 			say = "The raised threat level posed a significant challenge for search parties in the area. This, coupled with the confidential nature of the mission, put a temporary stop to major rescue efforts.",
 			typewriter = {
 				speed = 0.05,
@@ -2265,9 +2265,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
+			dir = 1,
 			say = "But, at no point did any shipgirl from the Northern Parliament forget that their comrades were out here, somewhere.",
 			typewriter = {
 				speed = 0.05,
@@ -2279,9 +2279,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
+			dir = 1,
 			say = "Their search continued for any lead that might lead them to the girls' whereabouts. They waited, restlessly, for a chance to rescue their missing comrades.",
 			typewriter = {
 				speed = 0.05,

@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT8",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT8",
+	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900011,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "测试者",
 			dir = 1,
-			say = "哎呀，妳们成功汇合了啊……挺不错嘛，小姑娘们",
 			bgm = "level-uta",
+			actor = 900011,
+			actorName = "测试者",
+			say = "哎呀，妳们成功汇合了啊……挺不错嘛，小姑娘们",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "承您吉言…妳以为我会这么说吗",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			actor = 900011,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "测试者",
 			dir = 1,
+			actorName = "测试者",
 			say = "这次我可什么都……我们的目的自始至终从未改变",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			actor = 900011,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "测试者",
 			dir = 1,
+			actorName = "测试者",
 			say = "只是不断重复我们的实验罢了——这次也不过是其中的一环而已",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "我们的假货呢",
 			typewriter = {
 				speed = 0.05,
@@ -103,10 +103,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "妳们盗用我们的世界的技术，打开了通向这个世界的通道也就算了，还造出了这么个诡异的空间，这都是妳们的实验吗！",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "妳们盗用我们的世界的技术，打开了通向这个世界的通道也就算了，还造出了这么个诡异的空间，这都是妳们的实验吗！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -169,8 +169,8 @@ return {
 			actor = 900011,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "测试者",
 			dir = 1,
+			actorName = "测试者",
 			say = "哼哼哼，第六感很灵敏嘛……“猫神大人”？",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			actor = 900011,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "测试者",
 			dir = 1,
+			actorName = "测试者",
 			say = "想知道的话就尽管过来吧——到这片海的深处来",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			say = "那个面色铁青的女人是怎么回事啊？",
 			typewriter = {
 				speed = 0.05,
@@ -232,8 +232,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "总之算是……我们的敌人，吧？",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "谁让我们是一条绳上的蚂蚱呢",
 			typewriter = {
 				speed = 0.05,
@@ -351,11 +351,11 @@ return {
 			}
 		},
 		{
-			actor = 10300060,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 10300060,
 			dir = 1,
+			hideOther = true,
 			actorName = "众人",
 			say = "哦哦！",
 			subActors = {
@@ -397,11 +397,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 201210,
 			dir = 1,
+			hideOther = true,
 			actorName = "众人",
 			say = "哦哦——！",
 			subActors = {

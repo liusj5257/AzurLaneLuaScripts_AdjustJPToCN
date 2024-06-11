@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "复纵阵回避",
 	time = 0,
-	color = "yellow",
+	name = "复纵阵回避",
+	init_effect = "",
+	id = 111,
 	picture = "",
 	desc = "机动提高30%，炮击和雷击降低5%",
 	stack = 1,
-	id = 111,
+	color = "yellow",
 	icon = 111,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = -500
+				number = -500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = -500
+				number = -500,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -36,8 +36,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 3000
+				number = 3000,
+				attr = "dodgeRate"
 			}
 		}
 	}

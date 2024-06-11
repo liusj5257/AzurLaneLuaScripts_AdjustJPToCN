@@ -1,79 +1,45 @@
 slot0 = class("MainReddotView")
 
-function slot0.Ctor(slot0, slot1)
-	slot0._tf = tf(slot1)
+slot0.Ctor = function(slot0)
 	slot0.listener = {}
 	slot0.redDotMgr = pg.RedDotMgr.GetInstance()
-	slot0.nodes = {
-		RedDotNode.New(slot0._tf:Find("main/frame/bottom/taskButton/tip"), {
-			pg.RedDotMgr.TYPES.TASK
-		}),
-		MailRedDotNode.New(slot0._tf:Find("main/frame/right/mailButton")),
-		RedDotNode.New(slot0._tf:Find("main/frame/bottom/buildButton/tip"), {
-			pg.RedDotMgr.TYPES.BUILD
-		}),
-		RedDotNode.New(slot0._tf:Find("main/frame/bottom/guildButton/tip"), {
-			pg.RedDotMgr.TYPES.GUILD
-		}),
-		RedDotNode.New(slot0._tf:Find("main/frame/top/tip"), {
-			pg.RedDotMgr.TYPES.ATTIRE
-		}),
-		RedDotNode.New(slot0._tf:Find("main/frame/right/memoryButton/tip"), {
-			pg.RedDotMgr.TYPES.MEMORY_REVIEW
-		}),
-		RedDotNode.New(slot0._tf:Find("main/frame/right/collectionButton/tip"), {
-			pg.RedDotMgr.TYPES.COLLECTION
-		}),
-		RedDotNode.New(slot0._tf:Find("main/frame/right/friendButton/tip"), {
-			pg.RedDotMgr.TYPES.FRIEND
-		}),
-		RedDotNode.New(slot0._tf:Find("main/frame/left/commissionButton/tip"), {
-			pg.RedDotMgr.TYPES.COMMISSION
-		}),
-		SettingsRedDotNode.New(slot0._tf:Find("main/frame/right/settingButton/tip"), {
-			pg.RedDotMgr.TYPES.SETTTING
-		}),
-		RedDotNode.New(slot0._tf:Find("main/frame/right/noticeButton/tip"), {
-			pg.RedDotMgr.TYPES.SERVER
-		}),
-		RedDotNode.New(slot0._tf:Find("main/frame/bottom/technologyButton/tip"), {
-			pg.RedDotMgr.TYPES.BLUEPRINT
-		}),
-		RedDotNode.New(slot0._tf:Find("main/frame/right/combatBtn/tip"), {
-			pg.RedDotMgr.TYPES.EVENT
-		}),
-		RedDotNode.New(slot0._tf:Find("main/frame/bottom/liveButton/tip"), {
-			pg.RedDotMgr.TYPES.COURTYARD,
-			pg.RedDotMgr.TYPES.SCHOOL,
-			pg.RedDotMgr.TYPES.COMMANDER
-		})
-	}
+	slot0.nodes = {}
+end
+
+slot0.Init = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		table.insert(slot0.nodes, slot6)
+	end
 
 	slot0.redDotMgr:RegisterRedDotNodes(slot0.nodes)
 end
 
-function slot0.AddNode(slot0, slot1)
+slot0.AddNode = function(slot0, slot1)
 	table.insert(slot0.nodes, slot1)
 	slot0.redDotMgr:RegisterRedDotNode(slot1)
 	slot1:RefreshSelf()
 end
 
-function slot0.RemoveNode(slot0, slot1)
+slot0.RemoveNode = function(slot0, slot1)
 	table.removebyvalue(slot0.nodes, slot1)
 	slot0.redDotMgr:UnRegisterRedDotNode(slot1)
 end
 
-function slot0.Refresh(slot0)
+slot0.Refresh = function(slot0)
 	for slot4, slot5 in ipairs(slot0.nodes) do
 		if slot5.Resume then
 			slot5:Resume()
 		end
 	end
 
+	slot0:_Refresh()
+end
+
+slot0._Refresh = function(slot0)
 	slot0.redDotMgr:_NotifyAll()
 end
 
-function slot0.Disable(slot0)
+slot0.Disable = function(slot0)
 	for slot4, slot5 in ipairs(slot0.nodes) do
 		if slot5.Puase then
 			slot5:Puase()
@@ -81,7 +47,7 @@ function slot0.Disable(slot0)
 	end
 end
 
-function slot0.GetNotifyType(slot0)
+slot0.GetNotifyType = function(slot0)
 	if not slot0.listener or #slot0.listener == 0 then
 		slot0.listener = {
 			[pg.RedDotMgr.TYPES.ATTIRE] = {
@@ -125,7 +91,8 @@ function slot0.GetNotifyType(slot0)
 				ServerNoticeProxy.SERVER_NOTICES_UPDATE
 			},
 			[pg.RedDotMgr.TYPES.BLUEPRINT] = {
-				TechnologyConst.UPDATE_REDPOINT_ON_TOP
+				TechnologyConst.UPDATE_REDPOINT_ON_TOP,
+				GAME.REMOVE_LAYERS
 			},
 			[pg.RedDotMgr.TYPES.EVENT] = {
 				GAME.EVENT_LIST_UPDATE
@@ -142,7 +109,7 @@ function slot0.GetNotifyType(slot0)
 	return slot0.listener
 end
 
-function slot0.Notify(slot0, slot1)
+slot0.Notify = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0:GetNotifyType()) do
 		for slot10, slot11 in ipairs(slot6) do
 			if slot11 == slot1 then
@@ -152,8 +119,14 @@ function slot0.Notify(slot0, slot1)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Clear = function(slot0)
 	slot0.redDotMgr:UnRegisterRedDotNodes(slot0.nodes)
+
+	slot0.nodes = {}
+end
+
+slot0.Dispose = function(slot0)
+	slot0:Clear()
 
 	slot0.listener = nil
 end

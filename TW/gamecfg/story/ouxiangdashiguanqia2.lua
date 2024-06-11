@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港區·演出海域",
 			side = 2,
 			bgName = "bg_map_idom",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Appeal",
+			say = "港區·演出海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "我是克里夫蘭，能看到這邊的影像嗎？",
 			typewriter = {
@@ -60,11 +60,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700060,
 			nameColor = "#a9f548",
 			say = "好厲害——海上居然出現了城市！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,13 +75,13 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_map_idom",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哇，好漂亮……",
 			hidePaintEquip = true,
+			actor = 10700010,
+			nameColor = "#a9f548",
+			say = "哇，好漂亮……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,11 +95,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700050,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700050,
 			nameColor = "#a9f548",
 			say = "……話說，那片城市裡能看到“765事務所”的大字招牌啊。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,11 +113,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700050,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700050,
 			nameColor = "#a9f548",
 			say = "唔……我想確認下，“這個世界”也存在“765事務所”嗎？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,11 +147,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700060,
 			nameColor = "#a9f548",
 			say = "這就是傳說中的“神隱”？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,11 +165,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "不不，應該是“異世界轉生”吧？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,11 +183,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "所以說，這到底是什麼情況？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,8 +219,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			nameColor = "#a9f548",
 			say = "我們沒必要隱瞞什麼，跟她們好好說說明一下吧。",
 			typewriter = {
@@ -254,8 +254,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "說是這麼說，其實也就搭建了一個主舞台，加上大量為了營造氛圍而安放的投影器材。",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "而投影出的景象…就如妳們所見…",
 			typewriter = {
@@ -288,11 +288,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "意思是說，整座城市都是投影出來的嗎…？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,8 +306,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			nameColor = "#a9f548",
 			say = "似乎是這樣的。甚至投影出了妳們熟悉的事務所標記。",
 			typewriter = {
@@ -339,11 +339,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_map_idom",
-			actor = 10700020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700020,
 			nameColor = "#a9f548",
 			say = "這些現像很可能就是我們回到原來世界的線索…",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

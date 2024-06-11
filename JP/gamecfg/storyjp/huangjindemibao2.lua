@@ -1,17 +1,17 @@
 return {
-	id = "HUANGJINDEMIBAO2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUANGJINDEMIBAO2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 100000,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-1",
 			dir = 1,
 			say = "こ、ここがヒントの場所だプリン？！",
+			bgm = "battle-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴゴ",
 			dialogShake = {
 				speed = 0.09,
@@ -72,8 +72,8 @@ return {
 		{
 			actor = 100010,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "じゃあ姉ちゃんを倒してみるがいい！本当に強いブリだけが秘宝を手にできるプリン！",
 			dialogShake = {
 				speed = 0.09,

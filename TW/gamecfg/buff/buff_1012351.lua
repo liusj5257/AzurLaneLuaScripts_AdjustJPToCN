@@ -299,14 +299,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "倔强",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 1012351,
+	time = 0,
 	picture = "",
 	desc = "提高炮击、雷击属性",
 	stack = 1,
-	id = 1012351,
+	color = "red",
 	icon = 12350,
 	last_effect = "",
 	blink = {

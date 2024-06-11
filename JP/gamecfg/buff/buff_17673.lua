@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = -500
+					number = -500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -33,8 +33,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = -590
+					number = -590,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -58,8 +58,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = -680
+					number = -680,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -83,8 +83,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = -800
+					number = -800,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -108,8 +108,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = -890
+					number = -890,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -133,8 +133,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = -980
+					number = -980,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -158,8 +158,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = -1100
+					number = -1100,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -183,8 +183,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = -1220
+					number = -1220,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -208,8 +208,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = -1340
+					number = -1340,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -233,8 +233,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = -1500
+					number = -1500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -252,12 +252,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 17673,
 	time = 8,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17673,
+	color = "red",
 	icon = 17670,
 	last_effect = "",
 	effect_list = {
@@ -268,8 +268,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = -500
+				number = -500,
+				attr = "attackRating"
 			}
 		},
 		{

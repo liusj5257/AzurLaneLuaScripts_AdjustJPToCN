@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_2",
-			say = "Dragon Palace - Outer Ring",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "Dragon Palace - Outer Ring",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,10 +36,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Um... I'm afraid we shouldn't be going so deep without waiting for instructions...",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +54,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "It'll be fine! This place is totally empty! Look!",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,10 +82,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Rooooooooooooaar!!",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_2",
 			dir = 1,
 			say = "Yamakaze suddenly let out a roar that resounded across the palace's walls.",
@@ -120,10 +120,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Y-Yamakaze! Wh-what if you woke somebody up...",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_2",
 			dir = 1,
 			say = "...But nothing happened at all.",
@@ -163,10 +163,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "There's nobody here except for us, yeah? It probably got abandoned a long time ago.",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_daofeng_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -197,8 +197,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "This is Chikuma. I've arrived at the entrance of a place that appears to match the Dragon Palace you were describing. Katsuragi, Shimakaze, please copy.",
 			typewriter = {
@@ -214,10 +214,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Chikuma?! And Yura as well as Suruga too? What are you all...",
 			typewriter = {
 				speed = 0.05,
@@ -268,10 +268,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "S-sorry for acting without waiting for orders! What would you have me do?",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(Wouldn't the obvious thing be to meet up first? Good grief, one look at this thing and it clearly has the Sirens' tentacle-prints all over it...)",
 			typewriter = {
@@ -357,10 +357,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I'm so sorry! I just got caught up in the excitement of exploration...",
 			typewriter = {
 				speed = 0.05,
@@ -372,8 +372,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -385,10 +385,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Now that you mention it, I did end up pretty far from the entrance, huh... I'll turn around and head back right away!",
 			typewriter = {
 				speed = 0.05,
@@ -421,8 +421,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "If this really is some kind of Siren facility, there's probably no way for us to destroy it from the outside.",
 			typewriter = {
@@ -474,8 +474,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "But in any case, gathering intel should be our first priority. Shall we meet up first?",
 			typewriter = {
@@ -506,13 +506,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_2",
-			stopbgm = true,
 			dir = 1,
-			say = "––––––!!!",
 			soundeffect = "event:/battle/boom2",
+			stopbgm = true,
+			say = "––––––!!!",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -528,12 +528,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_2",
-			bgm = "battle-longgong",
-			dir = 1,
 			say = "Without warning, the Dragon Palace began to shudder violently.",
+			dir = 1,
+			bgm = "battle-longgong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,10 +547,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Mweeehhhh?! An earthquake?!",
 			typewriter = {
 				speed = 0.05,
@@ -562,8 +562,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -593,8 +593,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "Wh-what do you mean by \"starting to sink\"...?! I'm an aircraft carrier, not a submarine! There's no way I'd be able to handle going underwater!",
 			typewriter = {
@@ -610,10 +610,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Even at my top speed, there's no way we'd be able to make it to the entrance in time!",
 			typewriter = {
 				speed = 0.05,
@@ -646,8 +646,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "Seal? I'm not sure I know what you're talking about, but we're all gonna drown if we can't make it to the entr–– Oh hey, the water level's not rising at all~",
 			typewriter = {
@@ -663,8 +663,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "So I guess the entire Dragon Palace is diving? Wait, won't that create a huge whirlpool that sucks everyone outside under?!",
 			typewriter = {
@@ -680,8 +680,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_daofeng_2",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "That would appear to be the case... Suruga, Yura, we'll have to enter this Dragon Palace, like it or not!",
 			typewriter = {

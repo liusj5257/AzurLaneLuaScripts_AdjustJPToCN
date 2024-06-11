@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_DETE",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_DETE"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_DETE",
-					number = 0.091
+					number = 0.091,
+					attr = "DMG_TAG_EHC_DETE"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_DETE",
-					number = 0.102
+					number = 0.102,
+					attr = "DMG_TAG_EHC_DETE"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_DETE",
-					number = 0.113
+					number = 0.113,
+					attr = "DMG_TAG_EHC_DETE"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_DETE",
-					number = 0.124
+					number = 0.124,
+					attr = "DMG_TAG_EHC_DETE"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_DETE",
-					number = 0.135
+					number = 0.135,
+					attr = "DMG_TAG_EHC_DETE"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_DETE",
-					number = 0.146
+					number = 0.146,
+					attr = "DMG_TAG_EHC_DETE"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_DETE",
-					number = 0.157
+					number = 0.157,
+					attr = "DMG_TAG_EHC_DETE"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_DETE",
-					number = 0.168
+					number = 0.168,
+					attr = "DMG_TAG_EHC_DETE"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_DETE",
-					number = 0.18
+					number = 0.18,
+					attr = "DMG_TAG_EHC_DETE"
 				}
 			}
 		}
@@ -142,12 +142,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 19541,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19541,
+	color = "red",
 	icon = 19540,
 	last_effect = "",
 	blink = {
@@ -164,8 +164,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_DETE",
-				number = 0.08
+				number = 0.08,
+				attr = "DMG_TAG_EHC_DETE"
 			}
 		}
 	}

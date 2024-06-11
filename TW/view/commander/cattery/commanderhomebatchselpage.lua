@@ -1,17 +1,17 @@
 slot0 = class("CommanderHomeBatchSelPage", import(".CommanderHomeBaseSelPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CatteryBatchSelPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.scrollrect = slot0:findTF("page/frame/scrollrect"):GetComponent("LScrollRect")
 	slot0.okBtn = slot0:findTF("page/frame/ok_button")
 	slot0.uiList = UIItemList.New(slot0:findTF("page/frame/list/content"), slot0:findTF("page/frame/comanderTF"))
 	slot0.closeBtn = slot0:findTF("page/close_btn")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
@@ -24,7 +24,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Filter(slot0)
+slot0.Filter = function(slot0)
 	slot1 = slot0.home:GetCatteries()
 	slot2 = {}
 
@@ -54,7 +54,7 @@ function slot0.Filter(slot0)
 	seriesAsync(slot3)
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot0:Show()
 
 	slot0.home = slot1
@@ -64,12 +64,12 @@ function slot0.Update(slot0, slot1)
 	slot0:UpdateSelectedList()
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	slot0:emit(CommanderHomeLayer.DESC_PAGE_OPEN)
 end
 
-function slot0.InitList(slot0)
+slot0.InitList = function(slot0)
 	slot0.maxCnt = 0
 	slot0.displayCatteries = {}
 
@@ -95,11 +95,11 @@ function slot0.InitList(slot0)
 	end)
 end
 
-function slot0.UpdateSelectedList(slot0)
+slot0.UpdateSelectedList = function(slot0)
 	slot0.uiList:align(#slot0.displayCatteries)
 end
 
-function slot0.UpdateSelectedCard(slot0, slot1, slot2)
+slot0.UpdateSelectedCard = function(slot0, slot1, slot2)
 	if getProxy(CommanderProxy):RawGetCommanderById(slot0.displayCatteries[slot1].commanderId) then
 		CommanderCard.New(slot2):update(slot5)
 		setActive(slot2:Find("info/home"), not slot0:CheckIncludeSelf(slot5.id))
@@ -123,7 +123,7 @@ function slot0.UpdateSelectedCard(slot0, slot1, slot2)
 	setActive(slot2:Find("up"), false)
 end
 
-function slot0.CheckIncludeSelf(slot0, slot1)
+slot0.CheckIncludeSelf = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0.home:GetCatteries()) do
 		if slot7:GetCommanderId() == slot1 then
 			return false
@@ -133,7 +133,7 @@ function slot0.CheckIncludeSelf(slot0, slot1)
 	return true
 end
 
-function slot0.GetSelectedCommanderList(slot0)
+slot0.GetSelectedCommanderList = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.displayCatteries) do
@@ -145,7 +145,7 @@ function slot0.GetSelectedCommanderList(slot0)
 	return slot1
 end
 
-function slot0.GetEmptyPosIndex(slot0)
+slot0.GetEmptyPosIndex = function(slot0)
 	for slot4, slot5 in pairs(slot0.displayCatteries) do
 		if not slot5.isLock and slot5.commanderId == 0 then
 			return slot4
@@ -155,7 +155,7 @@ function slot0.GetEmptyPosIndex(slot0)
 	return -1
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	uv0.super.OnUpdateItem(slot0, slot1, slot2)
 
 	slot4 = slot0.displays[slot1 + 1]
@@ -168,7 +168,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnSelected(slot0, slot1)
+slot0.OnSelected = function(slot0, slot1)
 	if slot0:GetEmptyPosIndex() <= 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("commander_selected_max", slot0.maxCnt))
 
@@ -195,7 +195,7 @@ function slot0.OnSelected(slot0, slot1)
 	slot0:UpdateSelectedList()
 end
 
-function slot0.UpdateCardSelected(slot0)
+slot0.UpdateCardSelected = function(slot0)
 	slot1 = slot0:GetSelectedCommanderList()
 
 	for slot5, slot6 in pairs(slot0.cards) do
@@ -203,7 +203,7 @@ function slot0.UpdateCardSelected(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0:emit(CommanderHomeLayer.DESC_PAGE_CLOSE)
 	uv0.super.Hide(slot0)
 end

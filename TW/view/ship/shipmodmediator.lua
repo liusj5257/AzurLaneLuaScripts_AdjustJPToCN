@@ -5,7 +5,7 @@ slot0.MOD_SHIP = "ShipModMediator:MOD_SHIP"
 slot0.ON_SKILL = "ShipModMediator:ON_SKILL"
 slot0.LOADEND = "ShipModMediator:LOADEND"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = getProxy(BayProxy)
 	slot3 = slot0.viewComponent
 
@@ -19,9 +19,9 @@ function slot0.register(slot0)
 
 		table.insert(slot1, 1, uv0.contextData.shipId)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
+			selectedMin = 0,
 			blockLock = true,
 			destroyCheck = true,
-			selectedMin = 0,
 			selectedMax = 12,
 			leftTopInfo = i18n("word_equipment_intensify"),
 			mode = DockyardScene.MODE_MOD,
@@ -69,13 +69,13 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.MOD_SHIP_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.MOD_SHIP_DONE then

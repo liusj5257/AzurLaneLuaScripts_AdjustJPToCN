@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_53 = {}
 slot1 = slot0.word_template_53
 
-function temp()
+temp = function()
 	uv0["冰"] = {
 		["."] = {
 			["麻"] = {
@@ -218,7 +218,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["丙"] = {
 		["吡"] = {
 			["兰"] = {
@@ -240,7 +240,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["病"] = {
 		["不"] = {
 			["起"] = {
@@ -267,7 +267,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["拨"] = {
 		["开"] = {
 			["她"] = {
@@ -300,7 +300,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["波"] = {
 		["霸"] = {
 			this = true,
@@ -411,7 +411,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["玻"] = {
 		["璃"] = {
 			["壶"] = {
@@ -445,7 +445,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["伯"] = {
 		["莱"] = {
 			["塔"] = {

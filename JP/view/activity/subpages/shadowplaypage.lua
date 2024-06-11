@@ -1,19 +1,19 @@
 slot0 = class("ShadowPlayPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.getBtn = slot0:findTF("AD/get")
 	slot0.gotBtn = slot0:findTF("AD/got")
 	slot0.urlBtn = slot0:findTF("AD/url")
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.urlBtn, function ()
 		Application.OpenURL(uv0.activity:getConfig("config_client"))
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot3 = getProxy(TaskProxy):getTaskById(slot0.activity:getConfig("config_data")[1]) or slot2:getFinishTaskById(slot1) or Task.New({
 		id = slot1
 	})
@@ -28,7 +28,7 @@ function slot0.OnUpdateFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

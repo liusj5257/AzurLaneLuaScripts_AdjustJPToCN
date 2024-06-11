@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "夜战灯塔点亮时添加flag",
 	time = 0,
-	color = "yellow",
+	name = "夜战灯塔点亮时添加flag",
+	init_effect = "",
+	id = 9600,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9600,
+	color = "yellow",
 	icon = 9600,
 	last_effect = "",
 	effect_list = {

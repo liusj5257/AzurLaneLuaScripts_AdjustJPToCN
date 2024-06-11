@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ご令嬢の小さな提案\n\n<size=45>四 ドキドキ!?スキンシップ</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ユニコーンが見つけてくれたのはとても高級感のあるパラソルであった。さっそく取付しようとすると。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ユニコーンが見つけてくれたのはとても高級感のあるパラソルであった。さっそく取付しようとすると。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "これなら安全にできる作業だろう――ということでユニコーンに取付を手伝ってもらうことにした。",
 			typewriter = {
 				speed = 0.05,
@@ -80,15 +80,15 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "できた……！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -113,8 +113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -123,9 +123,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "パラソルをうまく立てることができると、ユニコーンはさっそくテーブルに並べられたイスに座った。",
 			typewriter = {
 				speed = 0.05,
@@ -137,9 +137,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "お手伝いができたのがとても嬉しいのだろう。態度は控えめだがその思いはちゃんと伝わってくる。",
 			typewriter = {
 				speed = 0.05,
@@ -167,9 +167,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "イラストリアスは隣で一緒になってユニコーンを見つめながらそう微笑んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -213,9 +213,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "だがそんなユニコーンだって、ちゃんとイラストリアスのことを信じて頼っているはずーー",
 			typewriter = {
 				speed = 0.05,
@@ -243,9 +243,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "無垢な笑顔を見せるイラストリアス。眩しい彼女の表情に、ついつい照れ臭くなって目を背けてしまう。",
 			typewriter = {
 				speed = 0.05,
@@ -289,9 +289,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "腕のストレッチをしながらイラストリアスの話を聞いていると、彼女は申し訳なさそうに眉尻を下げた。",
 			typewriter = {
 				speed = 0.05,
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "イラストリアスからの思ってもない提案に、ドキドキしながらも了承する。",
 			typewriter = {
 				speed = 0.05,
@@ -365,9 +365,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "きゅっと細い彼女の指が絡まる感触に緊張しながら、ゆっくりと手を引かれていく。",
 			typewriter = {
 				speed = 0.05,
@@ -379,9 +379,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "そのまま流されるようにイスに座ると、背後に立ったイラストリアスの手がそっと肩に触れた。",
 			typewriter = {
 				speed = 0.05,
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確かに艤装を装備していないときの彼女の力では、マッサージの効果は低いかもしれない",
 			typewriter = {
 				speed = 0.05,
@@ -439,9 +439,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "正直、肩のマッサージのことはーー全く頭に入らなかった",
 			typewriter = {
 				speed = 0.05,
@@ -453,9 +453,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……背中に柔らかい何かが当たってそちらにばかり気が取られてしまう……",
 			typewriter = {
 				speed = 0.05,

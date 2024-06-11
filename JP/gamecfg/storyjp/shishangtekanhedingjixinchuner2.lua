@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"着せ替え特集　春節2023　②\n\n<size=45>二 春光のリラクゼーション</size>",
@@ -17,27 +17,27 @@ return {
 			portrait = 206062,
 			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			actorName = "？？？",
 			blackBg = true,
-			say = "指揮官、起きた？",
 			bgm = "story-china",
+			actorName = "？？？",
+			hidePaintObj = true,
+			say = "指揮官、起きた？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -56,28 +56,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――ここは…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "やっと起きてくれたわね",
@@ -103,11 +103,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "どうやら今日の指揮官は腹ペコの小鳥のようね",
@@ -133,11 +133,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "もう指揮官ったら、忘れた？",
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "今朝、新年の贈り物を届けに来てくれて――",
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "今着ている衣装がそれね",
@@ -187,11 +187,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "着替え終わって戻ってきたら、サボり屋の小鳥――つまり指揮官がベッドで居眠りしていたってわけよ",
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			say = "寝ぼけた頭がようやく動き始めた。言われてみれば…確かにそのようだ。",
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "いいわよ。別に謝らなくたって",
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "こんなうららかな日は少しぐらいサボってもバチは当たらないわ",
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			say = "それもそうか。でも…",
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "私？",
@@ -315,11 +315,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "それはもちろん、寝坊する虫のつもりよ",
@@ -345,11 +345,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "そうよ。ほかに聞きたいことがないなら、このまま二度寝を…",
@@ -363,11 +363,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "指揮官が言ってた春節の挨拶とやらは…起きたら相手になってあげるわ",
@@ -381,11 +381,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "早起きはね…二度寝をより楽しませるためにあるのよ…Zzzz",
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "早起きの虫は鳥に捕らえられる…早起きの鳥は虫に捕らえられる…Zzzz",
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			say = "薄暗い部屋にいるせいか、それともパーシュースからスヤスヤと聞こえる寝息のせいか。",
@@ -464,8 +464,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			say = "黒甜郷裡にいざ、旅立とう――",
@@ -477,11 +477,11 @@ return {
 		{
 			portrait = 206062,
 			side = 2,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#A9F548FF",
 			actorName = "パーシュース",
+			hidePaintObj = true,
 			say = "ふふふ…",
 			painting = {
 				alpha = 0.3,
@@ -492,17 +492,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -513,10 +513,10 @@ return {
 			portrait = 206062,
 			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			actorName = "パーシュース",
+			hidePaintObj = true,
 			say = "これで早起きの虫も小鳥も、布団という名の忌まわしき悪魔の腹の中よ…",
 			painting = {
 				alpha = 0.3,
@@ -531,10 +531,10 @@ return {
 			portrait = 206062,
 			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			actorName = "パーシュース",
+			hidePaintObj = true,
 			say = "たっぷり休んで。パーシュースの大好きな指揮官……",
 			painting = {
 				alpha = 0.3,

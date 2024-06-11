@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection: Spring Festival I\n\n<size=45>2 Ascendant Dragon's Spring Feast</size>",
@@ -14,23 +14,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
-			say = "It is the eve of the New Year's banquet, and a lone girl is sitting down, looking anxious.",
 			bgm = "main-chunjie3",
+			say = "It is the eve of the New Year's banquet, and a lone girl is sitting down, looking anxious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "mail",
 			say = "Mumble, mumble... Grumble...",
@@ -44,11 +44,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Dang it all! I'm so worried!",
@@ -84,14 +84,14 @@ return {
 			}
 		},
 		{
-			live2d = "touch",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
 			dir = 1,
 			optionFlag = 1,
 			actor = 501051,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "touch",
 			say = "No, I'm not okay!",
 			painting = {
 				alpha = 0.3,
@@ -103,14 +103,14 @@ return {
 			}
 		},
 		{
-			live2d = true,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
 			dir = 1,
 			optionFlag = 2,
 			actor = 501051,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "That's the thing! I couldn't even get in!",
 			painting = {
 				alpha = 0.3,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "Earlier this morning, everyone chased me out of the kitchen and forbade me from entering. They said they were preparing a surprise for me...",
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "But... Aaaggghhh! I'm worried out of my mind!",
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "There's all these dishes to cook, and I don't know if Ning Hai and Ping Hai can do it!",
@@ -176,11 +176,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "What if something goes wrong and they mess it up?",
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "There's also the fact that we all have different tastes and seasoning preferences, so in the worst case scenario...",
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			say = "Lung Wu's face turns more and more pale as she imagines everything that could possibly go wrong.",
@@ -223,11 +223,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "No! I need to go check on them!",
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "Huh? Potatoes? What on Earth are you talking about?",
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "I don't get what baozis have to do with anything... but if you say so, I'll try one...",
@@ -355,11 +355,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "Om, nom... Mmm!",
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "The texture of this dough! The seasoning in the bean paste! I... I hate to admit it, but Ping and Ning sure cook a good baozi!",
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "Om, nom... Mmm!",
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "It's sweet and juicy... Did they use the Shaoxing wine I took out of the cellar? This has just the perfect amount of soy sauce, too!",
@@ -493,9 +493,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_165",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I end up so distracted by the delicious drunken crab that... when I come to, I realize that Lung Wu has disappeared.",
 			typewriter = {
@@ -503,17 +503,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -543,8 +543,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -555,8 +555,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -567,27 +567,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_165",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_165",
 			say = "Before long, the final dish of the banquet – spring rolls – is served.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -595,8 +595,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			say = "That marks the completion of my mission to keep Lung Wu in check.",
@@ -606,11 +606,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "Commander, spring rolls are a must during the New Year's festivities! Give this one a try.",
@@ -624,8 +624,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			say = "When I put it in my mouth, chew, and taste the spring roll... spiciness beyond words assaults my senses!",
@@ -649,11 +649,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "Heh heh heh... Spicy, huh? That's the good stuff!",
@@ -667,11 +667,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Those are my special recipe – flaming hot spring rolls! I snuck into the kitchen to make them!",
@@ -688,10 +688,10 @@ return {
 			portrait = 501060,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "Hu Pen",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Flaming hot?!",
 			painting = {
 				alpha = 0.3,
@@ -706,10 +706,10 @@ return {
 			portrait = 501060,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "Hu Pen",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ack! Eating all that drunken crab turned her into a drunken Lung Wu...",
 			painting = {
 				alpha = 0.3,
@@ -724,10 +724,10 @@ return {
 			portrait = 501060,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "Hu Pen",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Come on, Commander! When she's drunk, she can't cook anything but spicy food!",
 			painting = {
 				alpha = 0.3,

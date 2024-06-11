@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "十字缔结",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "使得主炮的子弹暴击率提高100%",
 	stack = 1,

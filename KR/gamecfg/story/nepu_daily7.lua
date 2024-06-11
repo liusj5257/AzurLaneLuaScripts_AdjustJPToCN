@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>제7장 - 그럼, 또 만나~♪</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			actorName = "이스투아르",
+			say = "……네, 왠지 놀기만 한 느낌이 들지만, 제대로 조사해주신 모양이네요. 모두, 수고하셨습니다.",
 			side = 2,
 			bgName = "bg_story_school",
-			withoutPainting = true,
+			nameColor = "#92fc63",
 			dir = 1,
 			bgm = "story-nepu1",
 			actor = 0,
-			nameColor = "#92fc63",
-			say = "……네, 왠지 놀기만 한 느낌이 들지만, 제대로 조사해주신 모양이네요. 모두, 수고하셨습니다.",
+			actorName = "이스투아르",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,14 +36,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 0,
 			actorName = "이스투아르",
 			say = "덕분에 게임업계와 이 차원과의 관계성, 그 친화성도 거의 다 파악할 수 있었습니다. 앞으로는 언제라도 자유롭게 액세스 가능해지겠죠.",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,12 +70,12 @@ return {
 			}
 		},
 		{
-			actor = 10100030,
+			say = "……무슨 말을 하는 거야? 그럴 리가 없잖아.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "……무슨 말을 하는 거야? 그럴 리가 없잖아.",
+			actor = 10100030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -106,14 +106,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 0,
 			actorName = "이스투아르",
 			say = "그렇습니다. 앞으로는 내키실 때 언제든 가실 수 있으니, 일단은 모두들 이곳으로 돌아와 주세요. 넵튠 씨도요.",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,12 +140,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "한때는 정말 어떻게 되나 했는데…… 어떻게든 됐네. 이것도 다 너희 덕분이야. 여러모로 도와줘서 고마워.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "한때는 정말 어떻게 되나 했는데…… 어떻게든 됐네. 이것도 다 너희 덕분이야. 여러모로 도와줘서 고마워.",
+			actor = 10100020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "겨우 친해졌는데…… 유감이에요.",
 			typewriter = {
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "……네푸네푸, 꿀꺽꿀꺽 마셨어요. 우리랑 같은 입맛?",
 			typewriter = {
@@ -434,14 +434,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 0,
 			actorName = "이스투아르",
 			say = "그럼 여러분, 슬슬 웜홀에 들어가주세요.",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,14 +452,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 0,
 			actorName = "이스투아르",
 			say = "이 이상 차원의 벽에 구멍이 열린 상태가 지속되는 건 좋지 않습니다. 작별인사가 끝나셨으면, 일단 닫도록 하겠습니다.",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,14 +470,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 0,
 			actorName = "이스투아르",
 			say = "이곳에 용무가 있을 때는 다시 열 수 있으니 걱정하지 마세요.",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,12 +504,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "저야말로, 뭐라 감사의 말씀을 드려야할지… 감사합니다, 느와르 씨.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "저야말로, 뭐라 감사의 말씀을 드려야할지… 감사합니다, 느와르 씨.",
+			actor = 401230,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -524,11 +524,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "아야나미도 즐거웠어, 에요. 바이바이, 느와르.",
 			typewriter = {
@@ -557,11 +557,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "응, 벨 언니, 사탕 약속 꼭꼭!",
 			typewriter = {
@@ -574,11 +574,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "기다릴게…… 빠이빠이, 벨 언니.",
 			typewriter = {
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301350,
 			actorName = "{namecode:137}",
 			say = "빠이빠이~♪",
 			typewriter = {

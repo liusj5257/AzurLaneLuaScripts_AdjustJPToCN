@@ -1,13 +1,13 @@
 pg = pg or {}
 pg.world_chapter_colormask = {
 	{
-		locked_icon = 0,
-		chapter = 1,
 		world = 1,
-		color_id = 101,
-		id = 1,
-		serial_number = "1",
+		locked_icon = 0,
 		port_map_icon = 1,
+		chapter = 1,
+		color_id = 101,
+		serial_number = "1",
+		id = 1,
 		regions = 3,
 		color = {
 			100,
@@ -35,13 +35,13 @@ pg.world_chapter_colormask = {
 		target_drop_show = {}
 	},
 	{
-		locked_icon = 0,
-		chapter = 2,
 		world = 1,
-		color_id = 102,
-		id = 2,
-		serial_number = "2",
+		locked_icon = 0,
 		port_map_icon = 2,
+		chapter = 2,
+		color_id = 102,
+		serial_number = "2",
+		id = 2,
 		regions = 2,
 		color = {
 			100,
@@ -69,13 +69,13 @@ pg.world_chapter_colormask = {
 		target_drop_show = {}
 	},
 	{
-		locked_icon = 0,
-		chapter = 3,
 		world = 1,
-		color_id = 103,
-		id = 3,
-		serial_number = "3",
+		locked_icon = 0,
 		port_map_icon = 3,
+		chapter = 3,
+		color_id = 103,
+		serial_number = "3",
+		id = 3,
 		regions = 4,
 		color = {
 			200,
@@ -104,13 +104,13 @@ pg.world_chapter_colormask = {
 		target_drop_show = {}
 	},
 	{
-		locked_icon = 0,
-		chapter = 4,
 		world = 1,
-		color_id = 104,
-		id = 4,
-		serial_number = "4",
+		locked_icon = 0,
 		port_map_icon = 4,
+		chapter = 4,
+		color_id = 104,
+		serial_number = "4",
+		id = 4,
 		regions = 2,
 		color = {
 			200,
@@ -138,13 +138,13 @@ pg.world_chapter_colormask = {
 		target_drop_show = {}
 	},
 	{
-		locked_icon = 0,
-		chapter = 5,
 		world = 1,
-		color_id = 105,
-		id = 5,
-		serial_number = "5",
+		locked_icon = 0,
 		port_map_icon = 5,
+		chapter = 5,
+		color_id = 105,
+		serial_number = "5",
+		id = 5,
 		regions = 2,
 		color = {
 			200,
@@ -172,13 +172,13 @@ pg.world_chapter_colormask = {
 		target_drop_show = {}
 	},
 	{
-		locked_icon = 0,
-		chapter = 6,
 		world = 1,
-		color_id = 106,
-		id = 6,
-		serial_number = "6",
+		locked_icon = 0,
 		port_map_icon = 6,
+		chapter = 6,
+		color_id = 106,
+		serial_number = "6",
+		id = 6,
 		regions = 4,
 		color = {
 			0,
@@ -206,13 +206,13 @@ pg.world_chapter_colormask = {
 		target_drop_show = {}
 	},
 	{
-		locked_icon = 0,
-		chapter = 7,
 		world = 1,
-		color_id = 107,
-		id = 7,
-		serial_number = "7",
+		locked_icon = 0,
 		port_map_icon = 7,
+		chapter = 7,
+		color_id = 107,
+		serial_number = "7",
+		id = 7,
 		regions = 2,
 		color = {
 			100,
@@ -240,13 +240,13 @@ pg.world_chapter_colormask = {
 		target_drop_show = {}
 	},
 	{
-		locked_icon = 0,
-		chapter = 8,
 		world = 1,
-		color_id = 108,
-		id = 8,
-		serial_number = "8",
+		locked_icon = 0,
 		port_map_icon = 8,
+		chapter = 8,
+		color_id = 108,
+		serial_number = "8",
+		id = 8,
 		regions = 4,
 		color = {
 			255,
@@ -274,13 +274,13 @@ pg.world_chapter_colormask = {
 		target_drop_show = {}
 	},
 	[11] = {
-		locked_icon = 0,
-		chapter = 11,
 		world = 1,
-		color_id = 63,
-		id = 11,
-		serial_number = "11",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 11,
+		color_id = 63,
+		serial_number = "11",
+		id = 11,
 		regions = 3,
 		color = {
 			210,
@@ -369,13 +369,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[12] = {
-		locked_icon = 0,
-		chapter = 12,
 		world = 1,
-		color_id = 70,
-		id = 12,
-		serial_number = "12",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 12,
+		color_id = 70,
+		serial_number = "12",
+		id = 12,
 		regions = 3,
 		color = {
 			230,
@@ -466,13 +466,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[13] = {
-		locked_icon = 0,
-		chapter = 13,
 		world = 1,
-		color_id = 71,
-		id = 13,
-		serial_number = "13",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 13,
+		color_id = 71,
+		serial_number = "13",
+		id = 13,
 		regions = 3,
 		color = {
 			230,
@@ -563,13 +563,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[14] = {
-		locked_icon = 0,
-		chapter = 14,
 		world = 1,
-		color_id = 72,
-		id = 14,
-		serial_number = "14",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 14,
+		color_id = 72,
+		serial_number = "14",
+		id = 14,
 		regions = 3,
 		color = {
 			240,
@@ -665,13 +665,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[21] = {
-		locked_icon = 0,
-		chapter = 21,
 		world = 1,
-		color_id = 35,
-		id = 21,
-		serial_number = "21",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 21,
+		color_id = 35,
+		serial_number = "21",
+		id = 21,
 		regions = 3,
 		color = {
 			110,
@@ -764,13 +764,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[22] = {
-		locked_icon = 0,
-		chapter = 22,
 		world = 1,
-		color_id = 45,
-		id = 22,
-		serial_number = "22",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 22,
+		color_id = 45,
+		serial_number = "22",
+		id = 22,
 		regions = 3,
 		color = {
 			150,
@@ -863,13 +863,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[23] = {
-		locked_icon = 0,
-		chapter = 23,
 		world = 1,
-		color_id = 46,
-		id = 23,
-		serial_number = "23",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 23,
+		color_id = 46,
+		serial_number = "23",
+		id = 23,
 		regions = 3,
 		color = {
 			150,
@@ -966,13 +966,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[24] = {
-		locked_icon = 0,
-		chapter = 24,
 		world = 1,
-		color_id = 64,
-		id = 24,
-		serial_number = "24",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 24,
+		color_id = 64,
+		serial_number = "24",
+		id = 24,
 		regions = 3,
 		color = {
 			210,
@@ -1071,13 +1071,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[25] = {
-		locked_icon = 0,
-		chapter = 25,
 		world = 1,
-		color_id = 47,
-		id = 25,
-		serial_number = "25",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 25,
+		color_id = 47,
+		serial_number = "25",
+		id = 25,
 		regions = 3,
 		color = {
 			150,
@@ -1171,13 +1171,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[31] = {
-		locked_icon = 0,
-		chapter = 31,
 		world = 1,
-		color_id = 57,
-		id = 31,
-		serial_number = "31",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 31,
+		color_id = 57,
+		serial_number = "31",
+		id = 31,
 		regions = 3,
 		color = {
 			190,
@@ -1282,13 +1282,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[32] = {
-		locked_icon = 0,
-		chapter = 32,
 		world = 1,
-		color_id = 58,
-		id = 32,
-		serial_number = "32",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 32,
+		color_id = 58,
+		serial_number = "32",
+		id = 32,
 		regions = 3,
 		color = {
 			190,
@@ -1404,13 +1404,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[33] = {
-		locked_icon = 0,
-		chapter = 33,
 		world = 1,
-		color_id = 65,
-		id = 33,
-		serial_number = "33",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 33,
+		color_id = 65,
+		serial_number = "33",
+		id = 33,
 		regions = 3,
 		color = {
 			210,
@@ -1515,13 +1515,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[34] = {
-		locked_icon = 0,
-		chapter = 34,
 		world = 1,
-		color_id = 66,
-		id = 34,
-		serial_number = "34",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 34,
+		color_id = 66,
+		serial_number = "34",
+		id = 34,
 		regions = 3,
 		color = {
 			220,
@@ -1617,13 +1617,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[41] = {
-		locked_icon = 0,
-		chapter = 41,
 		world = 1,
-		color_id = 26,
-		id = 41,
-		serial_number = "41",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 41,
+		color_id = 26,
+		serial_number = "41",
+		id = 41,
 		regions = 1,
 		color = {
 			80,
@@ -1731,13 +1731,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[42] = {
-		locked_icon = 0,
-		chapter = 42,
 		world = 1,
-		color_id = 34,
-		id = 42,
-		serial_number = "42",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 42,
+		color_id = 34,
+		serial_number = "42",
+		id = 42,
 		regions = 3,
 		color = {
 			110,
@@ -1829,13 +1829,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[43] = {
-		locked_icon = 0,
-		chapter = 43,
 		world = 1,
-		color_id = 27,
-		id = 43,
-		serial_number = "43",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 43,
+		color_id = 27,
+		serial_number = "43",
+		id = 43,
 		regions = 1,
 		color = {
 			90,
@@ -1931,13 +1931,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[44] = {
-		locked_icon = 1,
-		chapter = 44,
 		world = 1,
-		color_id = 44,
-		id = 44,
-		serial_number = "44",
+		locked_icon = 1,
 		port_map_icon = 0,
+		chapter = 44,
+		color_id = 44,
+		serial_number = "44",
+		id = 44,
 		regions = 3,
 		color = {
 			140,
@@ -2020,13 +2020,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[51] = {
-		locked_icon = 0,
-		chapter = 51,
 		world = 1,
-		color_id = 59,
-		id = 51,
-		serial_number = "51",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 51,
+		color_id = 59,
+		serial_number = "51",
+		id = 51,
 		regions = 4,
 		color = {
 			190,
@@ -2123,13 +2123,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[52] = {
-		locked_icon = 0,
-		chapter = 52,
 		world = 1,
-		color_id = 60,
-		id = 52,
-		serial_number = "52",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 52,
+		color_id = 60,
+		serial_number = "52",
+		id = 52,
 		regions = 4,
 		color = {
 			200,
@@ -2238,13 +2238,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[53] = {
-		locked_icon = 0,
-		chapter = 53,
 		world = 1,
-		color_id = 67,
-		id = 53,
-		serial_number = "53",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 53,
+		color_id = 67,
+		serial_number = "53",
+		id = 53,
 		regions = 4,
 		color = {
 			220,
@@ -2340,13 +2340,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[54] = {
-		locked_icon = 0,
-		chapter = 54,
 		world = 1,
-		color_id = 68,
-		id = 54,
-		serial_number = "54",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 54,
+		color_id = 68,
+		serial_number = "54",
+		id = 54,
 		regions = 4,
 		color = {
 			220,
@@ -2447,13 +2447,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[61] = {
-		locked_icon = 0,
-		chapter = 61,
 		world = 1,
-		color_id = 53,
-		id = 61,
-		serial_number = "61",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 61,
+		color_id = 53,
+		serial_number = "61",
+		id = 61,
 		regions = 4,
 		color = {
 			170,
@@ -2559,13 +2559,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[62] = {
-		locked_icon = 0,
-		chapter = 62,
 		world = 1,
-		color_id = 55,
-		id = 62,
-		serial_number = "62",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 62,
+		color_id = 55,
+		serial_number = "62",
+		id = 62,
 		regions = 4,
 		color = {
 			180,
@@ -2660,13 +2660,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[63] = {
-		locked_icon = 0,
-		chapter = 63,
 		world = 1,
-		color_id = 61,
-		id = 63,
-		serial_number = "63",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 63,
+		color_id = 61,
+		serial_number = "63",
+		id = 63,
 		regions = 4,
 		color = {
 			200,
@@ -2772,13 +2772,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[64] = {
-		locked_icon = 0,
-		chapter = 64,
 		world = 1,
-		color_id = 69,
-		id = 64,
-		serial_number = "64",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 64,
+		color_id = 69,
+		serial_number = "64",
+		id = 64,
 		regions = 4,
 		color = {
 			230,
@@ -2870,13 +2870,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[65] = {
-		locked_icon = 0,
-		chapter = 65,
 		world = 1,
-		color_id = 54,
-		id = 65,
-		serial_number = "65",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 65,
+		color_id = 54,
+		serial_number = "65",
+		id = 65,
 		regions = 4,
 		color = {
 			180,
@@ -2978,13 +2978,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[66] = {
-		locked_icon = 0,
-		chapter = 66,
 		world = 1,
-		color_id = 62,
-		id = 66,
-		serial_number = "66",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 66,
+		color_id = 62,
+		serial_number = "66",
+		id = 66,
 		regions = 4,
 		color = {
 			200,
@@ -3081,13 +3081,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[71] = {
-		locked_icon = 0,
-		chapter = 71,
 		world = 1,
-		color_id = 42,
-		id = 71,
-		serial_number = "71",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 71,
+		color_id = 42,
+		serial_number = "71",
+		id = 71,
 		regions = 4,
 		color = {
 			140,
@@ -3178,13 +3178,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[72] = {
-		locked_icon = 0,
-		chapter = 72,
 		world = 1,
-		color_id = 43,
-		id = 72,
-		serial_number = "72",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 72,
+		color_id = 43,
+		serial_number = "72",
+		id = 72,
 		regions = 4,
 		color = {
 			140,
@@ -3279,13 +3279,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[73] = {
-		locked_icon = 0,
-		chapter = 73,
 		world = 1,
-		color_id = 56,
-		id = 73,
-		serial_number = "73",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 73,
+		color_id = 56,
+		serial_number = "73",
+		id = 73,
 		regions = 4,
 		color = {
 			180,
@@ -3380,13 +3380,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[81] = {
-		locked_icon = 0,
-		chapter = 81,
 		world = 1,
-		color_id = 28,
-		id = 81,
-		serial_number = "81",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 81,
+		color_id = 28,
+		serial_number = "81",
+		id = 81,
 		regions = 1,
 		color = {
 			90,
@@ -3485,13 +3485,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[82] = {
-		locked_icon = 0,
-		chapter = 82,
 		world = 1,
-		color_id = 29,
-		id = 82,
-		serial_number = "82",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 82,
+		color_id = 29,
+		serial_number = "82",
+		id = 82,
 		regions = 1,
 		color = {
 			90,
@@ -3592,13 +3592,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[83] = {
-		locked_icon = 0,
-		chapter = 83,
 		world = 1,
-		color_id = 36,
-		id = 83,
-		serial_number = "83",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 83,
+		color_id = 36,
+		serial_number = "83",
+		id = 83,
 		regions = 1,
 		color = {
 			120,
@@ -3696,13 +3696,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[84] = {
-		locked_icon = 0,
-		chapter = 84,
 		world = 1,
-		color_id = 6,
-		id = 84,
-		serial_number = "84",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 84,
+		color_id = 6,
+		serial_number = "84",
+		id = 84,
 		regions = 1,
 		color = {
 			20,
@@ -3807,13 +3807,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[85] = {
-		locked_icon = 0,
-		chapter = 85,
 		world = 1,
-		color_id = 37,
-		id = 85,
-		serial_number = "85",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 85,
+		color_id = 37,
+		serial_number = "85",
+		id = 85,
 		regions = 1,
 		color = {
 			120,
@@ -3911,13 +3911,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[91] = {
-		locked_icon = 0,
-		chapter = 91,
 		world = 1,
-		color_id = 11,
-		id = 91,
-		serial_number = "91",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 91,
+		color_id = 11,
+		serial_number = "91",
+		id = 91,
 		regions = 1,
 		color = {
 			30,
@@ -4022,13 +4022,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[92] = {
-		locked_icon = 0,
-		chapter = 92,
 		world = 1,
-		color_id = 7,
-		id = 92,
-		serial_number = "92",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 92,
+		color_id = 7,
+		serial_number = "92",
+		id = 92,
 		regions = 1,
 		color = {
 			20,
@@ -4120,13 +4120,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[93] = {
-		locked_icon = 1,
-		chapter = 93,
 		world = 1,
-		color_id = 10,
-		id = 93,
-		serial_number = "93",
+		locked_icon = 1,
 		port_map_icon = 0,
+		chapter = 93,
+		color_id = 10,
+		serial_number = "93",
+		id = 93,
 		regions = 1,
 		color = {
 			30,
@@ -4223,13 +4223,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[94] = {
-		locked_icon = 0,
-		chapter = 94,
 		world = 1,
-		color_id = 9,
-		id = 94,
-		serial_number = "94",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 94,
+		color_id = 9,
+		serial_number = "94",
+		id = 94,
 		regions = 1,
 		color = {
 			30,
@@ -4321,13 +4321,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[95] = {
-		locked_icon = 0,
-		chapter = 95,
 		world = 1,
-		color_id = 8,
-		id = 95,
-		serial_number = "95",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 95,
+		color_id = 8,
+		serial_number = "95",
+		id = 95,
 		regions = 1,
 		color = {
 			20,
@@ -4413,13 +4413,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[101] = {
-		locked_icon = 0,
-		chapter = 101,
 		world = 1,
-		color_id = 2,
-		id = 101,
-		serial_number = "101",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 101,
+		color_id = 2,
+		serial_number = "101",
+		id = 101,
 		regions = 1,
 		color = {
 			0,
@@ -4509,13 +4509,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[102] = {
-		locked_icon = 0,
-		chapter = 102,
 		world = 1,
-		color_id = 1,
-		id = 102,
-		serial_number = "102",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 102,
+		color_id = 1,
+		serial_number = "102",
+		id = 102,
 		regions = 1,
 		color = {
 			0,
@@ -4605,13 +4605,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[103] = {
-		locked_icon = 0,
-		chapter = 103,
 		world = 1,
-		color_id = 3,
-		id = 103,
-		serial_number = "103",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 103,
+		color_id = 3,
+		serial_number = "103",
+		id = 103,
 		regions = 1,
 		color = {
 			0,
@@ -4701,13 +4701,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[104] = {
-		locked_icon = 0,
-		chapter = 104,
 		world = 1,
-		color_id = 4,
-		id = 104,
-		serial_number = "104",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 104,
+		color_id = 4,
+		serial_number = "104",
+		id = 104,
 		regions = 1,
 		color = {
 			10,
@@ -4798,13 +4798,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[105] = {
-		locked_icon = 0,
-		chapter = 105,
 		world = 1,
-		color_id = 5,
-		id = 105,
-		serial_number = "105",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 105,
+		color_id = 5,
+		serial_number = "105",
+		id = 105,
 		regions = 1,
 		color = {
 			10,
@@ -4905,13 +4905,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[106] = {
-		locked_icon = 0,
-		chapter = 106,
 		world = 1,
-		color_id = 25,
-		id = 106,
-		serial_number = "106",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 106,
+		color_id = 25,
+		serial_number = "106",
+		id = 106,
 		regions = 1,
 		color = {
 			80,
@@ -5000,13 +5000,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[111] = {
-		locked_icon = 0,
-		chapter = 111,
 		world = 1,
-		color_id = 32,
-		id = 111,
-		serial_number = "111",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 111,
+		color_id = 32,
+		serial_number = "111",
+		id = 111,
 		regions = 2,
 		color = {
 			100,
@@ -5099,13 +5099,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[112] = {
-		locked_icon = 1,
-		chapter = 112,
 		world = 1,
-		color_id = 33,
-		id = 112,
-		serial_number = "112",
+		locked_icon = 1,
 		port_map_icon = 0,
+		chapter = 112,
+		color_id = 33,
+		serial_number = "112",
+		id = 112,
 		regions = 2,
 		color = {
 			110,
@@ -5199,13 +5199,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[113] = {
-		locked_icon = 0,
-		chapter = 113,
 		world = 1,
-		color_id = 40,
-		id = 113,
-		serial_number = "113",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 113,
+		color_id = 40,
+		serial_number = "113",
+		id = 113,
 		regions = 2,
 		color = {
 			130,
@@ -5309,13 +5309,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[114] = {
-		locked_icon = 0,
-		chapter = 114,
 		world = 1,
-		color_id = 41,
-		id = 114,
-		serial_number = "114",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 114,
+		color_id = 41,
+		serial_number = "114",
+		id = 114,
 		regions = 2,
 		color = {
 			130,
@@ -5412,13 +5412,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[121] = {
-		locked_icon = 0,
-		chapter = 121,
 		world = 1,
-		color_id = 24,
-		id = 121,
-		serial_number = "121",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 121,
+		color_id = 24,
+		serial_number = "121",
+		id = 121,
 		regions = 2,
 		color = {
 			80,
@@ -5508,13 +5508,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[122] = {
-		locked_icon = 0,
-		chapter = 122,
 		world = 1,
-		color_id = 20,
-		id = 122,
-		serial_number = "122",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 122,
+		color_id = 20,
+		serial_number = "122",
+		id = 122,
 		regions = 2,
 		color = {
 			60,
@@ -5609,13 +5609,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[123] = {
-		locked_icon = 0,
-		chapter = 123,
 		world = 1,
-		color_id = 73,
-		id = 123,
-		serial_number = "123",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 123,
+		color_id = 73,
+		serial_number = "123",
+		id = 123,
 		regions = 2,
 		color = {
 			250,
@@ -5702,13 +5702,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[124] = {
-		locked_icon = 0,
-		chapter = 124,
 		world = 1,
-		color_id = 23,
-		id = 124,
-		serial_number = "124",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 124,
+		color_id = 23,
+		serial_number = "124",
+		id = 124,
 		regions = 2,
 		color = {
 			70,
@@ -5799,13 +5799,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[125] = {
-		locked_icon = 0,
-		chapter = 125,
 		world = 1,
-		color_id = 22,
-		id = 125,
-		serial_number = "125",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 125,
+		color_id = 22,
+		serial_number = "125",
+		id = 125,
 		regions = 2,
 		color = {
 			70,
@@ -5893,13 +5893,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[131] = {
-		locked_icon = 0,
-		chapter = 131,
 		world = 1,
-		color_id = 13,
-		id = 131,
-		serial_number = "131",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 131,
+		color_id = 13,
+		serial_number = "131",
+		id = 131,
 		regions = 2,
 		color = {
 			40,
@@ -6000,13 +6000,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[132] = {
-		locked_icon = 0,
-		chapter = 132,
 		world = 1,
-		color_id = 19,
-		id = 132,
-		serial_number = "132",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 132,
+		color_id = 19,
+		serial_number = "132",
+		id = 132,
 		regions = 2,
 		color = {
 			60,
@@ -6104,13 +6104,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[133] = {
-		locked_icon = 0,
-		chapter = 133,
 		world = 1,
-		color_id = 12,
-		id = 133,
-		serial_number = "133",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 133,
+		color_id = 12,
+		serial_number = "133",
+		id = 133,
 		regions = 2,
 		color = {
 			40,
@@ -6205,13 +6205,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[134] = {
-		locked_icon = 0,
-		chapter = 134,
 		world = 1,
-		color_id = 16,
-		id = 134,
-		serial_number = "134",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 134,
+		color_id = 16,
+		serial_number = "134",
+		id = 134,
 		regions = 2,
 		color = {
 			50,
@@ -6314,13 +6314,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[135] = {
-		locked_icon = 0,
-		chapter = 135,
 		world = 1,
-		color_id = 15,
-		id = 135,
-		serial_number = "135",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 135,
+		color_id = 15,
+		serial_number = "135",
+		id = 135,
 		regions = 2,
 		color = {
 			50,
@@ -6418,13 +6418,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[141] = {
-		locked_icon = 0,
-		chapter = 141,
 		world = 1,
-		color_id = 14,
-		id = 141,
-		serial_number = "141",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 141,
+		color_id = 14,
+		serial_number = "141",
+		id = 141,
 		regions = 2,
 		color = {
 			40,
@@ -6522,13 +6522,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[142] = {
-		locked_icon = 0,
-		chapter = 142,
 		world = 1,
-		color_id = 18,
-		id = 142,
-		serial_number = "142",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 142,
+		color_id = 18,
+		serial_number = "142",
+		id = 142,
 		regions = 2,
 		color = {
 			60,
@@ -6624,13 +6624,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[143] = {
-		locked_icon = 0,
-		chapter = 143,
 		world = 1,
-		color_id = 17,
-		id = 143,
-		serial_number = "143",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 143,
+		color_id = 17,
+		serial_number = "143",
+		id = 143,
 		regions = 2,
 		color = {
 			50,
@@ -6725,13 +6725,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[144] = {
-		locked_icon = 0,
-		chapter = 144,
 		world = 1,
-		color_id = 21,
-		id = 144,
-		serial_number = "144",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 144,
+		color_id = 21,
+		serial_number = "144",
+		id = 144,
 		regions = 2,
 		color = {
 			70,
@@ -6823,13 +6823,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[151] = {
-		locked_icon = 0,
-		chapter = 151,
 		world = 1,
-		color_id = 30,
-		id = 151,
-		serial_number = "151",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 151,
+		color_id = 30,
+		serial_number = "151",
+		id = 151,
 		regions = 5,
 		color = {
 			100,
@@ -6919,13 +6919,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[152] = {
-		locked_icon = 0,
-		chapter = 152,
 		world = 1,
-		color_id = 31,
-		id = 152,
-		serial_number = "152",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 152,
+		color_id = 31,
+		serial_number = "152",
+		id = 152,
 		regions = 5,
 		color = {
 			100,
@@ -7015,13 +7015,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[153] = {
-		locked_icon = 0,
-		chapter = 153,
 		world = 1,
-		color_id = 38,
-		id = 153,
-		serial_number = "153",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 153,
+		color_id = 38,
+		serial_number = "153",
+		id = 153,
 		regions = 5,
 		color = {
 			120,
@@ -7112,13 +7112,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[154] = {
-		locked_icon = 0,
-		chapter = 40000,
 		world = 1,
-		color_id = 49,
-		id = 154,
-		serial_number = "154",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 40000,
+		color_id = 49,
+		serial_number = "154",
+		id = 154,
 		regions = 5,
 		color = {
 			160,
@@ -7162,13 +7162,13 @@ pg.world_chapter_colormask = {
 		target_drop_show = {}
 	},
 	[155] = {
-		locked_icon = 0,
-		chapter = 155,
 		world = 1,
-		color_id = 48,
-		id = 155,
-		serial_number = "155",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 155,
+		color_id = 48,
+		serial_number = "155",
+		id = 155,
 		regions = 5,
 		color = {
 			160,
@@ -7260,13 +7260,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[156] = {
-		locked_icon = 0,
-		chapter = 156,
 		world = 1,
-		color_id = 50,
-		id = 156,
-		serial_number = "156",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 156,
+		color_id = 50,
+		serial_number = "156",
+		id = 156,
 		regions = 5,
 		color = {
 			160,
@@ -7363,13 +7363,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[157] = {
-		locked_icon = 0,
-		chapter = 157,
 		world = 1,
-		color_id = 39,
-		id = 157,
-		serial_number = "157",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 157,
+		color_id = 39,
+		serial_number = "157",
+		id = 157,
 		regions = 5,
 		color = {
 			130,
@@ -7465,13 +7465,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[158] = {
-		locked_icon = 0,
-		chapter = 158,
 		world = 1,
-		color_id = 51,
-		id = 158,
-		serial_number = "158",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 158,
+		color_id = 51,
+		serial_number = "158",
+		id = 158,
 		regions = 5,
 		color = {
 			170,
@@ -7561,13 +7561,13 @@ pg.world_chapter_colormask = {
 		}
 	},
 	[159] = {
-		locked_icon = 0,
-		chapter = 159,
 		world = 1,
-		color_id = 52,
-		id = 159,
-		serial_number = "159",
+		locked_icon = 0,
 		port_map_icon = 0,
+		chapter = 159,
+		color_id = 52,
+		serial_number = "159",
+		id = 159,
 		regions = 5,
 		color = {
 			170,

@@ -1,12 +1,12 @@
 return {
-	id = "W1127",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1127",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "エネルギーが切れたか、セイレーン通信装置が停止したようだ。",
 			typewriter = {
 				speed = 0.05,

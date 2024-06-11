@@ -4,11 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
-			say = "10분 후……",
 			bgm = "story-antarctica-serious",
+			say = "10분 후……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 705021,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "레지스탕스 에이전트",
 			dir = 1,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "보안국의 방어선을 정면으로 돌파하는 건 너무도 무모합니다. 우회하는 편이 좋겠습니다.",
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			say = "이미 겪어본 무중력 감각을 견디며, 소비에츠키 소유즈와 함께 '만쥬 타워'의 최상층 사무실로 뛰어들었다.",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "와장창!!!",
 			typewriter = {
@@ -229,17 +229,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "????",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
 			say = "후후후, 아이디어 하나는 기발하네요.",
@@ -339,8 +339,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "????",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
 			say = "하지만… 너무 허술해요.",
@@ -350,8 +350,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "????",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
 			say = "'배달'해주셔서 감사합니다. 에이전트 '북극토끼', 아니… 소비에츠키 소유즈.",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "사무실 한가운데에 있는 가죽 의자가 빙그르르 회전했고, 이윽고 앉아 있는 인물의 모습이 드러났다.",
 			typewriter = {
@@ -421,11 +421,11 @@ return {
 			}
 		},
 		{
-			actor = 705021,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "레지스탕스 에이전트",
 			dir = 1,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "서, 설마… 혹시……",
@@ -439,11 +439,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "레지스탕스 리더",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "상황 판단이 빠르네요.",
 			painting = {
@@ -493,11 +493,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "레지스탕스 리더",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "협력? ……그런 건 아니에요.",
 			painting = {
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "레지스탕스 리더",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "'레지스탕스'가 없었다면 거리의 질서는 진작에 무너졌을 텐데 말이죠.",
 			painting = {
@@ -563,11 +563,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "레지스탕스 리더",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "하지만 유감스럽게도 만쥬는 우리를 버리고, 이번에는 마피아 쪽에 손을 뻗고 있어요……",
 			painting = {
@@ -604,11 +604,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "레지스탕스 리더",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "후후후, 처리라니요. 누가 들으면 오해하겠어요. 딱히 총을 쏜 것도 아닌걸요?",
 			painting = {
@@ -639,11 +639,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "레지스탕스 리더",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "'기사'님이랑 소꿉놀이 할 시간은 이제 끝났으니, 슬슬 '어센션 박스'를 넘겨주시는 게 어때요?",
 			painting = {
@@ -680,11 +680,11 @@ return {
 			}
 		},
 		{
-			actor = 702012,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "레지스탕스 리더",
 			dir = 1,
+			actor = 702012,
 			nameColor = "#FF9B93",
 			say = "'북극토끼'! 처리하세요!",
 			painting = {
@@ -716,11 +716,11 @@ return {
 			}
 		},
 		{
-			actor = 705021,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "레지스탕스 에이전트",
 			dir = 1,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "…………",
@@ -775,8 +775,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "아브로라가 소유즈를 향해 돌아선 순간, 이미 소유즈가 던진 섬광탄이 그녀의 코앞까지 다가와 있었다.",
 			typewriter = {
@@ -785,11 +785,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "――――!!!",
 			soundeffect = "event:/battle/boom2",
+			say = "――――!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -872,8 +872,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"만쥬 타워 엘리베이터를 이용해 주셔서 감사합니다. 최상층으로 이동하겠습니다.\"",
 			typewriter = {
@@ -881,17 +881,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -899,8 +899,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"액세스 키를 입력하시기 바랍니다.\"",
 			typewriter = {
@@ -928,11 +928,11 @@ return {
 			}
 		},
 		{
-			actor = 705021,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "레지스탕스 에이전트",
 			dir = 1,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "벌써 시간이……?!",
@@ -946,8 +946,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "바람을 가르는 소리와 함께 엘리베이터 룸으로 추격자의 총탄이 날아왔다.",
 			typewriter = {
@@ -999,8 +999,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "'어센션 박스'를 사용했다.",
 			typewriter = {
@@ -1017,8 +1017,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "어서 오세요, 관리자님. 오늘도 좋은 하루 되십시오.",
 			typewriter = {
@@ -1045,8 +1045,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "아브로라는 총을 겨누고 몇 발 쏘았지만, 간발의 차로 닫히던 엘리베이터 문에 막혔다.",
 			typewriter = {
@@ -1055,8 +1055,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "엘리베이터 문은 그렇게 천천히, 그리고 완전히 닫혔다.",
 			typewriter = {
@@ -1067,10 +1067,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 9702070,
 			factiontag = "기사의 환영",
 			dir = 1,
 			blackBg = true,
+			actor = 9702070,
 			nameColor = "#A9F548FF",
 			say = "모든 걸 끝낼 시간이야, '기사'.",
 			painting = {
@@ -1082,17 +1082,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1100,8 +1100,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "…………",
 			typewriter = {
@@ -1110,8 +1110,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "……",
 			typewriter = {

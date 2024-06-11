@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHICHENG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Red Spider Lily's Love\n\n<size=45>Chapter 1 - The Secretary in Red</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "Port - Office",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "(Knock knock)",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "Gah! I-it's you, Enterprise...",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					dur = 0.1,
 					x = 0,
 					number = 1
@@ -127,12 +127,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "Oh, it's you, Akagi...",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh, it's you, Akagi...",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -147,9 +147,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Akagi gently clenched her fist. Suddenly, the mood in the office was getting tense...",
 			typewriter = {
 				speed = 0.05,
@@ -167,12 +167,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "Commander... Hmph. Enterprise, seeing as we're on the same side now. If you're here to report to the Commander then would you please get on with it?",
 			typewriter = {
 				speed = 0.05,
@@ -184,13 +184,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "Yeah, no need to tell me...",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
-			say = "Yeah, no need to tell me...",
+			actor = 107060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -205,17 +205,17 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "Grrrrrrrrrrrrrr...",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.15,
 					x = 15,
 					number = 4
@@ -242,15 +242,15 @@ return {
 			}
 		},
 		{
-			actor = 107060,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "That's all I've got. I don't want to overstay my welcome, so I'll be taking my leave now.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -275,9 +275,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "(Thud)",
 			typewriter = {
 				speed = 0.05,
@@ -301,12 +301,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "Right! Akagi will deal with that pest later and make you mine... but here in the office... Aka—I will stay calm, okay?",
 			typewriter = {
 				speed = 0.05,

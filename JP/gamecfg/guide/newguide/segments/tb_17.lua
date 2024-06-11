@@ -7,14 +7,14 @@ return {
 			style = {
 				text = "「思い出」の「エンディング」では、解放したエンディングと各エンディングの達成条件を確認できます",
 				mode = 2,
-				posY = -325.4,
-				char = 1,
 				dir = -1,
+				char = 1,
+				posY = -325.4,
 				posX = -609.8,
 				ui = {
+					pathIndex = -1,
 					lineMode = 1,
-					path = "OverlayCamera/Overlay/UIMain/blur_panel/bottom/left/btns/book",
-					pathIndex = -1
+					path = "OverlayCamera/Overlay/UIMain/blur_panel/bottom/left/btns/book"
 				}
 			}
 		},
@@ -23,14 +23,14 @@ return {
 			style = {
 				text = "「リスタート」をタップすると、最初からTBを育成し直すことができます",
 				mode = 2,
-				posY = -184.51,
-				char = 1,
 				dir = 1,
+				char = 1,
+				posY = -184.51,
 				posX = 375.48,
 				ui = {
+					pathIndex = -1,
 					lineMode = 2,
-					path = "OverlayCamera/Overlay/UIMain/blur_panel/bottom/right/EducateBottomPanel(Clone)/content/btns/reset",
-					pathIndex = -1
+					path = "OverlayCamera/Overlay/UIMain/blur_panel/bottom/right/EducateBottomPanel(Clone)/content/btns/reset"
 				}
 			}
 		}

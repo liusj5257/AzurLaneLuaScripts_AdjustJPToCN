@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 500
+					number = 500,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 610
+					number = 610,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 720
+					number = 720,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 830
+					number = 830,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 940
+					number = 940,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1050
+					number = 1050,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1160
+					number = 1160,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1270
+					number = 1270,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1380
+					number = 1380,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -133,20 +133,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1500
+					number = 1500,
+					attr = "igniteReduce"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 17662,
+	time = 0,
 	picture = "",
 	desc = "点燃伤害降低",
 	stack = 1,
-	id = 17662,
+	color = "blue",
 	icon = 17660,
 	last_effect = "",
 	blink = {
@@ -163,8 +163,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "igniteReduce",
-				number = 500
+				number = 500,
+				attr = "igniteReduce"
 			}
 		}
 	}

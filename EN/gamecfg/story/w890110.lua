@@ -1,12 +1,12 @@
 return {
-	id = "W890110",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W890110",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Completing objectives in zones marked as Siren Research Facilities can yield great rewards. What should we do?",
 			typewriter = {
 				speed = 0.05,

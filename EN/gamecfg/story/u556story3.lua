@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U556STORY3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U556STORY3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Knight's Promise\n\n<size=45>Chapter 3 - I Found You, Commander!</size>",
@@ -20,8 +20,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "S- sorry...",
 			effects = {
@@ -39,8 +39,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "I totally gave the thing to Akashi! But on my way back, I ran into U-81 playing with the girls and I kinda got caught up with them and forgot I was supposed to be working...",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "But I definitely won't make that mistake again!",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "Oh yeah! Tomorrow's a day off so why don't you come play with us, Commander? You know working all the time is bad for you!",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "And so thanks to U-556's weird apology-turned-invitation, I ended up going to U-81's hide-and-seek party.---",
 			effects = {
 				{
@@ -117,13 +117,13 @@ return {
 			}
 		},
 		{
-			actor = 408010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Okay, everybody come draw straws to decide who's \"it\"!",
 			bgm = "story-1",
+			actor = 408010,
+			nameColor = "#a9f548",
+			say = "Okay, everybody come draw straws to decide who's \"it\"!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,8 +137,8 @@ return {
 			actor = 408040,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "One... two...",
 			subActors = {
@@ -168,8 +168,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "Ooh! It's me! I'm \"it\"!",
 			typewriter = {
@@ -185,8 +185,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "Heh heh. You just wait and see. I'll catch you all! 60, 59, 58...",
 			typewriter = {
@@ -199,9 +199,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "I thought carefully about where I should hide.",
 			typewriter = {
 				speed = 0.05,
@@ -242,14 +242,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "I made my way back to the office and quietly closed the door. Locking it would be against the rules, but I was already confident I had a perfect hiding spot.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -379,14 +379,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_105",
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
 			say = "It turned out she wanted to hide... underwater!?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -540,9 +540,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 408040,
 			dir = 1,
 			optionFlag = 3,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "......",
 			typewriter = {
@@ -555,12 +555,12 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 408040,
+			nameColor = "#a9f548",
 			say = "Commander? Did you think I wouldn't see you or what?",
 			typewriter = {
 				speed = 0.05,
@@ -587,13 +587,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_outdoor",
+			side = 2,
+			dir = 1,
 			say = "Thus ended the first round of hide-and-seek. Everyone gathered up once more.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -637,8 +637,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "That's just because you guys had really good hiding spots!",
 			typewriter = {
@@ -651,8 +651,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -680,8 +680,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "But why did she only find the Commander? And why so fast?",
 			typewriter = {
@@ -697,8 +697,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "... Hehehe. I'm thinking maybe you two have a special thing going, hmmmmm?",
 			typewriter = {

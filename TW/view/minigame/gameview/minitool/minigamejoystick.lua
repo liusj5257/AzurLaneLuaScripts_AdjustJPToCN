@@ -1,6 +1,6 @@
 slot0 = class("MiniGameJoyStick")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0.smoothX = 0.01
 	slot0.smoothY = 0.01
@@ -50,7 +50,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:setTargetPos(Vector2(0, 0))
 end
 
-function slot0.setTargetPos(slot0, slot1)
+slot0.setTargetPos = function(slot0, slot1)
 	slot2 = slot0.startPos
 
 	if slot0.maxDistance < math.sqrt(math.pow(slot1.x - slot2.x, 2) + math.pow(slot1.y - slot2.y, 2)) then
@@ -62,11 +62,11 @@ function slot0.setTargetPos(slot0, slot1)
 	end
 end
 
-function slot0.getOffset(slot0, slot1, slot2)
+slot0.getOffset = function(slot0, slot1, slot2)
 	return Vector2(slot1.x - slot2.x, slot1.y - slot2.y)
 end
 
-function slot0.setting(slot0, slot1)
+slot0.setting = function(slot0, slot1)
 	slot0.smoothX = slot1.smoothX
 	slot0.smoothY = slot1.smoothY
 	slot0.maxDistance = slot1.maxDistance
@@ -74,11 +74,11 @@ function slot0.setting(slot0, slot1)
 	slot0.maxDeadNum = slot1.maxDeadNum
 end
 
-function slot0.show(slot0, slot1)
+slot0.show = function(slot0, slot1)
 	setActive(slot0._tf, slot1)
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	slot0.currentPos = slot0._joyTf.anchoredPosition
 	slot0.currentX, slot0.currentXSmooth = Mathf.SmoothDamp(slot0.currentPos.x, slot0.targetPos.x, slot0.currentXSmooth, slot0.smoothX)
 	slot0.currentY, slot0.currentYSmooth = Mathf.SmoothDamp(slot0.currentPos.y, slot0.targetPos.y, slot0.currentYSmooth, slot0.smoothY)
@@ -125,7 +125,7 @@ function slot0.step(slot0)
 	end
 end
 
-function slot0.setDirectTarget(slot0, slot1)
+slot0.setDirectTarget = function(slot0, slot1)
 	if slot0.dragActive then
 		return
 	end
@@ -147,15 +147,15 @@ function slot0.setDirectTarget(slot0, slot1)
 	end
 end
 
-function slot0.setValueCallback(slot0, slot1)
+slot0.setValueCallback = function(slot0, slot1)
 	slot0.valueCallback = slot1
 end
 
-function slot0.setActiveCallback(slot0, slot1)
+slot0.setActiveCallback = function(slot0, slot1)
 	slot0.activeCallback = slot1
 end
 
-function slot0.getValue(slot0)
+slot0.getValue = function(slot0)
 	slot1 = 0
 	slot2 = 0
 

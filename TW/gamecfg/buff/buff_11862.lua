@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 100
+					number = 100,
+					attr = "airPower"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.01
+					number = 0.01,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -27,8 +27,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_2",
-					number = 0.01
+					number = 0.01,
+					attr = "accuracyToShipType_2"
 				}
 			},
 			{
@@ -37,8 +37,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_3",
-					number = 0.01
+					number = 0.01,
+					attr = "accuracyToShipType_3"
 				}
 			},
 			{
@@ -47,8 +47,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_18",
-					number = 0.01
+					number = 0.01,
+					attr = "accuracyToShipType_18"
 				}
 			},
 			{
@@ -57,8 +57,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.01
+					number = 0.01,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -67,8 +67,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.01
+					number = 0.01,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -81,8 +81,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 200
+					number = 200,
+					attr = "airPower"
 				}
 			},
 			{
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.02
+					number = 0.02,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -101,8 +101,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_2",
-					number = 0.02
+					number = 0.02,
+					attr = "accuracyToShipType_2"
 				}
 			},
 			{
@@ -111,8 +111,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_3",
-					number = 0.02
+					number = 0.02,
+					attr = "accuracyToShipType_3"
 				}
 			},
 			{
@@ -121,8 +121,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_18",
-					number = 0.02
+					number = 0.02,
+					attr = "accuracyToShipType_18"
 				}
 			},
 			{
@@ -131,8 +131,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.02
+					number = 0.02,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -141,8 +141,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.02
+					number = 0.02,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -155,8 +155,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 300
+					number = 300,
+					attr = "airPower"
 				}
 			},
 			{
@@ -165,8 +165,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.03
+					number = 0.03,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_2",
-					number = 0.03
+					number = 0.03,
+					attr = "accuracyToShipType_2"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_3",
-					number = 0.03
+					number = 0.03,
+					attr = "accuracyToShipType_3"
 				}
 			},
 			{
@@ -195,8 +195,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_18",
-					number = 0.03
+					number = 0.03,
+					attr = "accuracyToShipType_18"
 				}
 			},
 			{
@@ -205,8 +205,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.03
+					number = 0.03,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -215,8 +215,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.03
+					number = 0.03,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -229,8 +229,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 400
+					number = 400,
+					attr = "airPower"
 				}
 			},
 			{
@@ -239,8 +239,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.04
+					number = 0.04,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -249,8 +249,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_2",
-					number = 0.04
+					number = 0.04,
+					attr = "accuracyToShipType_2"
 				}
 			},
 			{
@@ -259,8 +259,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_3",
-					number = 0.04
+					number = 0.04,
+					attr = "accuracyToShipType_3"
 				}
 			},
 			{
@@ -269,8 +269,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_18",
-					number = 0.04
+					number = 0.04,
+					attr = "accuracyToShipType_18"
 				}
 			},
 			{
@@ -279,8 +279,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.04
+					number = 0.04,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -289,8 +289,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.04
+					number = 0.04,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -303,8 +303,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 500
+					number = 500,
+					attr = "airPower"
 				}
 			},
 			{
@@ -313,8 +313,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.05
+					number = 0.05,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -323,8 +323,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_2",
-					number = 0.05
+					number = 0.05,
+					attr = "accuracyToShipType_2"
 				}
 			},
 			{
@@ -333,8 +333,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_3",
-					number = 0.05
+					number = 0.05,
+					attr = "accuracyToShipType_3"
 				}
 			},
 			{
@@ -343,8 +343,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_18",
-					number = 0.05
+					number = 0.05,
+					attr = "accuracyToShipType_18"
 				}
 			},
 			{
@@ -353,8 +353,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.05
+					number = 0.05,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -363,8 +363,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.05
+					number = 0.05,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -377,8 +377,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 600
+					number = 600,
+					attr = "airPower"
 				}
 			},
 			{
@@ -387,8 +387,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.06
+					number = 0.06,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -397,8 +397,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_2",
-					number = 0.06
+					number = 0.06,
+					attr = "accuracyToShipType_2"
 				}
 			},
 			{
@@ -407,8 +407,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_3",
-					number = 0.06
+					number = 0.06,
+					attr = "accuracyToShipType_3"
 				}
 			},
 			{
@@ -417,8 +417,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_18",
-					number = 0.06
+					number = 0.06,
+					attr = "accuracyToShipType_18"
 				}
 			},
 			{
@@ -427,8 +427,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.06
+					number = 0.06,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -437,8 +437,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.06
+					number = 0.06,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -451,8 +451,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 700
+					number = 700,
+					attr = "airPower"
 				}
 			},
 			{
@@ -461,8 +461,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.07
+					number = 0.07,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -471,8 +471,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_2",
-					number = 0.07
+					number = 0.07,
+					attr = "accuracyToShipType_2"
 				}
 			},
 			{
@@ -481,8 +481,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_3",
-					number = 0.07
+					number = 0.07,
+					attr = "accuracyToShipType_3"
 				}
 			},
 			{
@@ -491,8 +491,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_18",
-					number = 0.07
+					number = 0.07,
+					attr = "accuracyToShipType_18"
 				}
 			},
 			{
@@ -501,8 +501,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.07
+					number = 0.07,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -511,8 +511,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.07
+					number = 0.07,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -525,8 +525,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 800
+					number = 800,
+					attr = "airPower"
 				}
 			},
 			{
@@ -535,8 +535,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.08
+					number = 0.08,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -545,8 +545,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_2",
-					number = 0.08
+					number = 0.08,
+					attr = "accuracyToShipType_2"
 				}
 			},
 			{
@@ -555,8 +555,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_3",
-					number = 0.08
+					number = 0.08,
+					attr = "accuracyToShipType_3"
 				}
 			},
 			{
@@ -565,8 +565,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_18",
-					number = 0.08
+					number = 0.08,
+					attr = "accuracyToShipType_18"
 				}
 			},
 			{
@@ -575,8 +575,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.08
+					number = 0.08,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -585,8 +585,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.08
+					number = 0.08,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -599,8 +599,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 900
+					number = 900,
+					attr = "airPower"
 				}
 			},
 			{
@@ -609,8 +609,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.09
+					number = 0.09,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -619,8 +619,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_2",
-					number = 0.09
+					number = 0.09,
+					attr = "accuracyToShipType_2"
 				}
 			},
 			{
@@ -629,8 +629,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_3",
-					number = 0.09
+					number = 0.09,
+					attr = "accuracyToShipType_3"
 				}
 			},
 			{
@@ -639,8 +639,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_18",
-					number = 0.09
+					number = 0.09,
+					attr = "accuracyToShipType_18"
 				}
 			},
 			{
@@ -649,8 +649,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.09
+					number = 0.09,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -659,8 +659,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.09
+					number = 0.09,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -673,8 +673,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "airPower",
-					number = 1000
+					number = 1000,
+					attr = "airPower"
 				}
 			},
 			{
@@ -683,8 +683,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.1
+					number = 0.1,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -693,8 +693,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_2",
-					number = 0.1
+					number = 0.1,
+					attr = "accuracyToShipType_2"
 				}
 			},
 			{
@@ -703,8 +703,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_3",
-					number = 0.1
+					number = 0.1,
+					attr = "accuracyToShipType_3"
 				}
 			},
 			{
@@ -713,8 +713,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_18",
-					number = 0.1
+					number = 0.1,
+					attr = "accuracyToShipType_18"
 				}
 			},
 			{
@@ -723,8 +723,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.1
+					number = 0.1,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -733,20 +733,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.1
+					number = 0.1,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "苍狼之印",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 11862,
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
-	id = 11862,
+	color = "red",
 	icon = 11860,
 	last_effect = "",
 	blink = {
@@ -763,8 +763,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "accuracyToShipType_3",
-				number = 0.01
+				number = 0.01,
+				attr = "accuracyToShipType_3"
 			}
 		}
 	}

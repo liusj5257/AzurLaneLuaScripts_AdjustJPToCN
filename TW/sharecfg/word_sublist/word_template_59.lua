@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_59 = {}
 slot1 = slot0.word_template_59
 
-function temp()
+temp = function()
 	uv0["观"] = {
 		["世"] = {
 			["音"] = {
@@ -22,7 +22,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["文"] = {
 		["殊"] = {
 			this = true
@@ -72,7 +72,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["地"] = {
 		["藏"] = {
 			this = true
@@ -89,7 +89,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["河"] = {
 		["殇"] = {
 			this = true

@@ -1,22 +1,22 @@
 return {
-	id = "WORLD405A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD405A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 302010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "助かった……むむ、この数字は……霧の濃度がだいぶ下がっているね",
 			dir = 1,
 			bgm = "battle-boss-italy",
+			nameColor = "#a9f548",
+			say = "助かった……むむ、この数字は……霧の濃度がだいぶ下がっているね",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -129,14 +129,14 @@ return {
 			}
 		},
 		{
-			actor = 302130,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302130,
+			nameColor = "#a9f548",
 			say = "……今はもはや策を論ずるべきではありません。この身を捨てて全力突撃するのみです",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -301,8 +301,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

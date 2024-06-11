@@ -1,21 +1,21 @@
 return {
-	id = "WEICENGHUNHE22",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE22",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/plane",
 			side = 2,
-			bgm = "hunhe-battle",
-			dir = 1,
 			say = "――――",
+			dir = 1,
+			soundeffect = "event:/battle/plane",
+			bgm = "hunhe-battle",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -45,11 +45,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 102260,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Just leave it to me!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The enemy's aerial ambush was quickly mowed down by the combined anti-air fire of the Atlanta and Oakland-class ships.",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			say = "Thanks for covering us, Reno.",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "We've destroyed the enemies over here too!",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "No luck over here... Doesn't look like this was the enemy's command ship either.",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "Another miss. The mist still hasn't cleared up.",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "Shh... I hear something...",
 			typewriter = {
 				speed = 0.05,
@@ -222,9 +222,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 106550,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "What?! Everyone, look out, it's a tsunami!",
 			typewriter = {
 				speed = 0.05,
@@ -242,9 +242,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 103240,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "How does a huge wave like this appear out of nowhere?! Hang on, everyone!",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The ships were desperately hanging on as a wall of water began to swallow the mass-produced Sirens.",
 			typewriter = {
 				speed = 0.05,

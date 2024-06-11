@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU30-2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU30-2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			say = "KABOOOOM!",
+			side = 2,
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -79,8 +79,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "I'm being pushed back...?! Impossible!",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "Don't you dare underestimate me! With the Dragon Palace's power flowing through me, with this blade in my hands... I'll crush you like insects!",
 			typewriter = {
 				speed = 0.05,
@@ -111,8 +111,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "But just in case! Just in case you somehow manage to win, I'll uphold my side of the deal and let you leave!",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "What about the control device and the \"treasure\"?",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "I'd be fine with that, but... How am I supposed to give you something I don't have?",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "Simple. If you are the master of the Dragon Palace... then we will take you.",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "...What?",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "Well, whatever. If you can beat me, you can take whatever you want.",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "(Woah, the mask sure comes off fast when it comes to treasure...)",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 301290,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I see! In that case...",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -276,8 +276,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:204}",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -308,8 +308,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -324,8 +324,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:204}",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -356,8 +356,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -372,8 +372,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:204}",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -388,8 +388,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:204}",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:204}",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -452,8 +452,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:204}",
+			side = 2,
 			bgName = "bg_daofeng_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -484,12 +484,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:18}",
+			side = 1,
 			bgName = "bg_daofeng_7",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Let's do this, everyone! Suruga!",
 			typewriter = {
 				speed = 0.05,

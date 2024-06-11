@@ -1,17 +1,17 @@
 slot0 = class("WorldMapFleet", import(".WorldBaseFleet"))
 slot0.Fields = {
-	lossFlag = "number",
-	column = "number",
-	catSalvageList = "table",
-	catSalvageStep = "number",
-	index = "number",
 	ammo = "number",
-	damageLevel = "number",
-	ammoMax = "number",
-	row = "number",
-	buffs = "table",
-	defeatEnemies = "number",
+	lossFlag = "number",
+	catSalvageList = "table",
 	skills = "table",
+	index = "number",
+	column = "number",
+	buffs = "table",
+	catSalvageStep = "number",
+	row = "number",
+	damageLevel = "number",
+	defeatEnemies = "number",
+	ammoMax = "number",
 	catSalvageFrom = "number",
 	carries = "table"
 }
@@ -26,11 +26,11 @@ slot0.EventUpdateDamageLevel = "WorldMapFleet.EventUpdateDamageLevel"
 slot0.EventUpdateDefeat = "WorldMapFleet.EventUpdateDefeat"
 slot0.EventUpdateCatSalvage = "WorldMapFleet.EventUpdateCatSalvage"
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return "fleet_" .. slot0
 end
 
-function slot0.DebugPrint(slot0)
+slot0.DebugPrint = function(slot0)
 	slot3, slot12 = slot0:GetAmmo()
 	slot5 = string.format("[第%s舰队] [id: %s] [位置: %s, %s] [弹药: %s/%s] [携带物: %s] [战损: %s] [buff: %s]", slot0.index, slot0.id, slot0.row, slot0.column, slot3, slot12, table.concat(_.map(slot0.carries, function (slot0)
 		return "carries"
@@ -56,13 +56,13 @@ function slot0.DebugPrint(slot0)
 	return slot5 .. "\n" .. table.concat(slot7, "\n")
 end
 
-function slot0.Build(slot0)
+slot0.Build = function(slot0)
 	uv0.super.Build(slot0)
 
 	slot0.carries = {}
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.id = slot1.id
 
 	slot0:UpdateShips(_.map(slot1.ship_list, function (slot0)
@@ -110,7 +110,7 @@ function slot0.Setup(slot0, slot1)
 	end
 end
 
-function slot0.GetCost(slot0)
+slot0.GetCost = function(slot0)
 	return {
 		gold = 0,
 		oil = 0
@@ -120,15 +120,15 @@ function slot0.GetCost(slot0)
 	}
 end
 
-function slot0.GetFleetIndex(slot0)
+slot0.GetFleetIndex = function(slot0)
 	return slot0.index
 end
 
-function slot0.GetDefaultName(slot0)
+slot0.GetDefaultName = function(slot0)
 	return Fleet.DEFAULT_NAME[#slot0[TeamType.Submarine] > 0 and slot0.index + 10 or slot0.index]
 end
 
-function slot0.FormationEqual(slot0, slot1)
+slot0.FormationEqual = function(slot0, slot1)
 	slot7 = #_.map(slot1:GetShips(true), function (slot0)
 		return slot0.id
 	end)
@@ -144,7 +144,7 @@ function slot0.FormationEqual(slot0, slot1)
 	return true
 end
 
-function slot0.GetPropertiesSum(slot0)
+slot0.GetPropertiesSum = function(slot0)
 	slot1 = {
 		cannon = 0,
 		antiAir = 0,
@@ -163,7 +163,7 @@ function slot0.GetPropertiesSum(slot0)
 	return slot1
 end
 
-function slot0.GetGearScoreSum(slot0, slot1)
+slot0.GetGearScoreSum = function(slot0, slot1)
 	slot2 = 0
 	slot3 = slot1 and slot0:GetTeamShipVOs(slot1) or slot0:GetShipVOs()
 
@@ -174,7 +174,7 @@ function slot0.GetGearScoreSum(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetLevelCount(slot0)
+slot0.GetLevelCount = function(slot0)
 	underscore.each(slot0:GetShipVOs(), function (slot0)
 		uv0 = uv0 + slot0.level
 	end)
@@ -182,7 +182,7 @@ function slot0.GetLevelCount(slot0)
 	return 0
 end
 
-function slot0.AddShip(slot0, slot1, slot2)
+slot0.AddShip = function(slot0, slot1, slot2)
 	assert(slot1.class == WorldMapShip)
 	assert(not _.any(slot0:GetShips(true), function (slot0)
 		return slot0.id == uv0.id
@@ -199,7 +199,7 @@ function slot0.AddShip(slot0, slot1, slot2)
 	slot0:DispatchEvent(uv0.EventAddShip, slot1)
 end
 
-function slot0.RemoveShip(slot0, slot1)
+slot0.RemoveShip = function(slot0, slot1)
 	slot2 = WorldConst.FetchRawShipVO(slot1)
 
 	assert(slot2, "ship not exist: " .. slot1)
@@ -216,7 +216,7 @@ function slot0.RemoveShip(slot0, slot1)
 	end
 end
 
-function slot0.ReplaceShip(slot0, slot1, slot2)
+slot0.ReplaceShip = function(slot0, slot1, slot2)
 	assert(slot0:GetShip(slot1))
 
 	if slot0:GetShip(slot2.id) then
@@ -228,7 +228,7 @@ function slot0.ReplaceShip(slot0, slot1, slot2)
 	end
 end
 
-function slot0.SwitchShip(slot0, slot1, slot2)
+slot0.SwitchShip = function(slot0, slot1, slot2)
 	slot4 = WorldConst.FetchRawShipVO(slot2)
 
 	assert(WorldConst.FetchRawShipVO(slot1) and slot4)
@@ -254,7 +254,7 @@ function slot0.SwitchShip(slot0, slot1, slot2)
 	end
 end
 
-function slot0.CheckRemoveShip(slot0, slot1)
+slot0.CheckRemoveShip = function(slot0, slot1)
 	if #slot0:GetTeamShips(slot1:getTeamType(), true) == 1 then
 		return false, i18n("ship_formationUI_removeError_onlyShip", slot1:getConfig("name"), "", Fleet.C_TEAM_NAME[slot2])
 	end
@@ -262,7 +262,7 @@ function slot0.CheckRemoveShip(slot0, slot1)
 	return true
 end
 
-function slot0.CheckChangeShip(slot0, slot1, slot2)
+slot0.CheckChangeShip = function(slot0, slot1, slot2)
 	if not (slot1 and WorldConst.FetchWorldShip(slot1.id).fleetId == WorldConst.FetchWorldShip(slot2.id).fleetId) and (not slot1 or not slot1:isSameKind(slot2)) and _.any(slot0:GetShips(true), function (slot0)
 		return WorldConst.FetchRawShipVO(slot0.id):isSameKind(uv0)
 	end) then
@@ -272,23 +272,23 @@ function slot0.CheckChangeShip(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.GetAmmo(slot0)
+slot0.GetAmmo = function(slot0)
 	return slot0.ammo, slot0.ammoMax
 end
 
-function slot0.UseAmmo(slot0)
+slot0.UseAmmo = function(slot0)
 	assert(slot0.ammo > 0, "without ammo")
 
 	slot0.ammo = slot0.ammo - 1
 end
 
-function slot0.GetTotalAmmo(slot0)
+slot0.GetTotalAmmo = function(slot0)
 	return _.reduce(slot0:GetShips(true), 0, function (slot0, slot1)
 		return slot0 + slot1:GetImportWorldShipVO():getShipAmmo()
 	end)
 end
 
-function slot0.RepairSubmarine(slot0)
+slot0.RepairSubmarine = function(slot0)
 	_.each(slot0:GetTeamShips(TeamType.Submarine, true), function (slot0)
 		slot0:Repair()
 	end)
@@ -297,7 +297,7 @@ function slot0.RepairSubmarine(slot0)
 	slot0.ammoMax = slot0.ammo
 end
 
-function slot0.GetSpeed(slot0)
+slot0.GetSpeed = function(slot0)
 	slot1 = pg.gameset.world_move_initial_step.key_value
 
 	if #slot0:GetBuffsByTrap(WorldBuff.TrapVortex) > 0 then
@@ -313,7 +313,7 @@ function slot0.GetSpeed(slot0)
 	return slot1
 end
 
-function slot0.GetStepDurationRate(slot0)
+slot0.GetStepDurationRate = function(slot0)
 	slot1 = 1
 	slot5 = WorldBuff.TrapCripple
 
@@ -324,7 +324,7 @@ function slot0.GetStepDurationRate(slot0)
 	return 1 / slot1
 end
 
-function slot0.GetFOVRange(slot0)
+slot0.GetFOVRange = function(slot0)
 	slot1 = 1
 	slot5 = WorldBuff.TrapCripple
 
@@ -335,22 +335,22 @@ function slot0.GetFOVRange(slot0)
 	return math.floor(WorldConst.GetFOVRadius() * slot1)
 end
 
-function slot0.GetCarries(slot0)
+slot0.GetCarries = function(slot0)
 	return slot0.carries
 end
 
-function slot0.ExistCarry(slot0, slot1)
+slot0.ExistCarry = function(slot0, slot1)
 	return _.any(slot0.carries, function (slot0)
 		return slot0.id == uv0
 	end)
 end
 
-function slot0.AddCarry(slot0, slot1)
+slot0.AddCarry = function(slot0, slot1)
 	table.insert(slot0.carries, slot1)
 	slot0:DispatchEvent(WorldMapFleet.EventAddCarry, slot1)
 end
 
-function slot0.RemoveCarry(slot0, slot1)
+slot0.RemoveCarry = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.carries) do
 		if slot6.id == slot1 then
 			for slot10 = #slot0.carries, slot5 + 1, -1 do
@@ -365,7 +365,7 @@ function slot0.RemoveCarry(slot0, slot1)
 	end
 end
 
-function slot0.RemoveAllCarries(slot0)
+slot0.RemoveAllCarries = function(slot0)
 	slot1 = nil
 
 	for slot5 = #slot0.carries, 1, -1 do
@@ -373,7 +373,7 @@ function slot0.RemoveAllCarries(slot0)
 	end
 end
 
-function slot0.BuildCarryPath(slot0, slot1, slot2, slot3)
+slot0.BuildCarryPath = function(slot0, slot1, slot2, slot3)
 	slot5 = table.indexof(slot0:GetCarries(), slot1)
 
 	assert(slot5, "can not find carry item: " .. slot1.id)
@@ -408,11 +408,11 @@ function slot0.BuildCarryPath(slot0, slot1, slot2, slot3)
 	return slot6
 end
 
-function slot0.HasDamageLevel(slot0)
+slot0.HasDamageLevel = function(slot0)
 	return slot0.damageLevel > 0
 end
 
-function slot0.IncDamageLevel(slot0, slot1)
+slot0.IncDamageLevel = function(slot0, slot1)
 	if math.min(#WorldConst.DamageBuffList, slot0.damageLevel + (pg.world_expedition_data[slot1:GetBattleStageId()].failed_morale or 1)) ~= slot0.damageLevel then
 		slot0.damageLevel = slot3
 
@@ -420,7 +420,7 @@ function slot0.IncDamageLevel(slot0, slot1)
 	end
 end
 
-function slot0.ClearDamageLevel(slot0)
+slot0.ClearDamageLevel = function(slot0)
 	if 0 ~= slot0.damageLevel then
 		slot0.damageLevel = slot1
 
@@ -428,7 +428,7 @@ function slot0.ClearDamageLevel(slot0)
 	end
 end
 
-function slot0.GetDamageBuff(slot0)
+slot0.GetDamageBuff = function(slot0)
 	if slot0.damageLevel > 0 then
 		slot1 = WorldBuff.New()
 
@@ -441,13 +441,13 @@ function slot0.GetDamageBuff(slot0)
 	end
 end
 
-function slot0.GetBuffList(slot0)
+slot0.GetBuffList = function(slot0)
 	return table.mergeArray(_.filter(_.values(slot0.buffs), function (slot0)
 		return slot0:GetFloor() > 0
 	end), nowWorld():GetActiveMap():GetBuffList(WorldMap.FactionSelf))
 end
 
-function slot0.UpdateBuffs(slot0, slot1)
+slot0.UpdateBuffs = function(slot0, slot1)
 	if slot0.buffs ~= slot1 then
 		if not nowWorld().isAutoFight then
 			slot3 = slot2:GetActiveMap()
@@ -468,17 +468,17 @@ function slot0.UpdateBuffs(slot0, slot1)
 	end
 end
 
-function slot0.GetBuff(slot0, slot1)
+slot0.GetBuff = function(slot0, slot1)
 	return slot0.buffs[slot1]
 end
 
-function slot0.GetBuffsByTrap(slot0, slot1)
+slot0.GetBuffsByTrap = function(slot0, slot1)
 	return underscore.filter(slot0:GetBuffList(), function (slot0)
 		return slot0:GetTrapType() == uv0
 	end)
 end
 
-function slot0.HasTrapBuff(slot0)
+slot0.HasTrapBuff = function(slot0)
 	for slot4, slot5 in ipairs(slot0:GetBuffList()) do
 		if slot5:GetTrapType() ~= 0 then
 			return true
@@ -488,7 +488,7 @@ function slot0.HasTrapBuff(slot0)
 	return false
 end
 
-function slot0.GetBuffFxList(slot0)
+slot0.GetBuffFxList = function(slot0)
 	_.each(slot0:GetBuffList(), function (slot0)
 		if slot0.config.buff_fx and #slot0.config.buff_fx > 0 then
 			table.insert(uv0, slot0.config.buff_fx)
@@ -498,7 +498,7 @@ function slot0.GetBuffFxList(slot0)
 	return {}
 end
 
-function slot0.GetWatchingBuff(slot0)
+slot0.GetWatchingBuff = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(pg.gameset.world_sairenbuff_fleeticon.description) do
@@ -514,7 +514,7 @@ function slot0.GetWatchingBuff(slot0)
 	return nil
 end
 
-function slot0.AddDefeatEnemies(slot0, slot1)
+slot0.AddDefeatEnemies = function(slot0, slot1)
 	if slot1 then
 		slot0.defeatEnemies = slot0.defeatEnemies + 1
 
@@ -522,17 +522,17 @@ function slot0.AddDefeatEnemies(slot0, slot1)
 	end
 end
 
-function slot0.ClearDefeatEnemies(slot0)
+slot0.ClearDefeatEnemies = function(slot0)
 	slot0.defeatEnemies = 0
 
 	slot0:DispatchEvent(uv0.EventUpdateDefeat)
 end
 
-function slot0.getDefeatCount(slot0)
+slot0.getDefeatCount = function(slot0)
 	return slot0.defeatEnemies
 end
 
-function slot0.getMapAura(slot0)
+slot0.getMapAura = function(slot0)
 	slot1 = {}
 	slot5 = true
 
@@ -543,7 +543,7 @@ function slot0.getMapAura(slot0)
 	return slot1
 end
 
-function slot0.getMapAid(slot0)
+slot0.getMapAid = function(slot0)
 	slot1 = {}
 	slot5 = true
 
@@ -558,7 +558,7 @@ function slot0.getMapAid(slot0)
 	return slot1
 end
 
-function slot0.outputCommanders(slot0)
+slot0.outputCommanders = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.commanderIds) do
@@ -572,7 +572,7 @@ function slot0.outputCommanders(slot0)
 	return slot1
 end
 
-function slot0.getCommanders(slot0, slot1)
+slot0.getCommanders = function(slot0, slot1)
 	slot2 = {}
 
 	if not slot1 or not slot0:IsCatSalvage() then
@@ -584,11 +584,11 @@ function slot0.getCommanders(slot0, slot1)
 	return slot2
 end
 
-function slot0.getCommanderByPos(slot0, slot1)
+slot0.getCommanderByPos = function(slot0, slot1)
 	return slot0:getCommanders()[slot1]
 end
 
-function slot0.updateCommanderByPos(slot0, slot1, slot2)
+slot0.updateCommanderByPos = function(slot0, slot1, slot2)
 	if slot2 then
 		slot0.commanderIds[slot1] = slot2.id
 	else
@@ -598,7 +598,7 @@ function slot0.updateCommanderByPos(slot0, slot1, slot2)
 	slot0:updateCommanderSkills()
 end
 
-function slot0.getCommandersAddition(slot0)
+slot0.getCommandersAddition = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(CommanderConst.PROPERTIES) do
@@ -619,7 +619,7 @@ function slot0.getCommandersAddition(slot0)
 	return slot1
 end
 
-function slot0.getCommandersTalentDesc(slot0)
+slot0.getCommandersTalentDesc = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0:getCommanders()) do
@@ -639,7 +639,7 @@ function slot0.getCommandersTalentDesc(slot0)
 	return slot1
 end
 
-function slot0.findCommanderBySkillId(slot0, slot1)
+slot0.findCommanderBySkillId = function(slot0, slot1)
 	for slot6, slot7 in pairs(slot0:getCommanders()) do
 		if _.any(slot7:getSkills(), function (slot0)
 			return _.any(slot0:GetTacticSkillForWorld(), function (slot0)
@@ -651,7 +651,7 @@ function slot0.findCommanderBySkillId(slot0, slot1)
 	end
 end
 
-function slot0.updateCommanderSkills(slot0)
+slot0.updateCommanderSkills = function(slot0)
 	slot1 = #slot0.skills
 
 	while slot1 > 0 do
@@ -671,27 +671,27 @@ function slot0.updateCommanderSkills(slot0)
 	end
 end
 
-function slot0.getSkills(slot0)
+slot0.getSkills = function(slot0)
 	return slot0.skills
 end
 
-function slot0.getSkill(slot0, slot1)
+slot0.getSkill = function(slot0, slot1)
 	return _.detect(slot0:getSkills(), function (slot0)
 		return slot0.id == uv0
 	end)
 end
 
-function slot0.findSkills(slot0, slot1)
+slot0.findSkills = function(slot0, slot1)
 	return _.filter(slot0:getSkills(), function (slot0)
 		return slot0:GetType() == uv0
 	end)
 end
 
-function slot0.IsCatSalvage(slot0)
+slot0.IsCatSalvage = function(slot0)
 	return slot0.catSalvageFrom and slot0.catSalvageFrom > 0
 end
 
-function slot0.UpdateCatSalvage(slot0, slot1, slot2, slot3)
+slot0.UpdateCatSalvage = function(slot0, slot1, slot2, slot3)
 	slot0.catSalvageStep = slot1
 	slot0.catSalvageList = slot2
 	slot0.catSalvageFrom = slot3
@@ -706,15 +706,15 @@ function slot0.UpdateCatSalvage(slot0, slot1, slot2, slot3)
 	slot0:DispatchEvent(uv0.EventUpdateCatSalvage)
 end
 
-function slot0.IsSalvageFinish(slot0)
+slot0.IsSalvageFinish = function(slot0)
 	return slot0.catSalvageStep == #slot0.catSalvageList
 end
 
-function slot1(slot0)
+slot1 = function(slot0)
 	return pg.world_catsearch_node[slot0].special_drop == 1
 end
 
-function slot0.GetRarityState(slot0)
+slot0.GetRarityState = function(slot0)
 	if slot0.catSalvageStep == 0 then
 		return 0
 	end
@@ -732,7 +732,7 @@ function slot0.GetRarityState(slot0)
 	return 0
 end
 
-function slot0.GetSalvageScoreRarity(slot0)
+slot0.GetSalvageScoreRarity = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.catSalvageList) do
@@ -752,7 +752,7 @@ function slot0.GetSalvageScoreRarity(slot0)
 	return slot2
 end
 
-function slot0.GetDisplayCommander(slot0)
+slot0.GetDisplayCommander = function(slot0)
 	slot1 = slot0:getCommanders()
 
 	for slot5 = 1, 2 do
@@ -762,7 +762,7 @@ function slot0.GetDisplayCommander(slot0)
 	end
 end
 
-function slot0.HasCommander(slot0, slot1)
+slot0.HasCommander = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.commanderIds) do
 		if slot1 == slot6 then
 			return true
@@ -772,7 +772,7 @@ function slot0.HasCommander(slot0, slot1)
 	return false
 end
 
-function slot0.switchShip(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.switchShip = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:SwitchShip(slot4, slot5)
 end
 

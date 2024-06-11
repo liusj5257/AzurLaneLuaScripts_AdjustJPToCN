@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 800651,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800651,
+	color = "red",
 	icon = 800651,
 	last_effect = "",
 	effect_list = {
@@ -45,8 +45,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.3,
-				target = "TargetSelf",
-				skill_id = 800655
+				skill_id = 800655,
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -55,8 +55,8 @@ return {
 				"onTakeDamage"
 			},
 			arg_list = {
-				maxHPRatio = 0.3,
-				countType = 800650
+				countType = 800650,
+				maxHPRatio = 0.3
 			}
 		},
 		{
@@ -65,8 +65,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 800655,
+				target = "TargetSelf",
 				countType = 800650
 			}
 		}

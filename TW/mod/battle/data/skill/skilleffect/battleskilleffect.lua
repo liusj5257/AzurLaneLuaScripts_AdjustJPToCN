@@ -6,7 +6,7 @@ slot0.Battle.BattleSkillEffect = class("BattleSkillEffect")
 slot0.Battle.BattleSkillEffect.__name = "BattleSkillEffect"
 slot3 = slot0.Battle.BattleSkillEffect
 
-function slot3.Ctor(slot0, slot1, slot2)
+slot3.Ctor = function(slot0, slot1, slot2)
 	slot0._tempData = slot1
 	slot0._type = slot0._tempData.type
 	slot0._targetChoise = slot0._tempData.target_choise or "TargetNull"
@@ -19,11 +19,11 @@ function slot3.Ctor(slot0, slot1, slot2)
 	slot0._level = slot2
 end
 
-function slot3.SetCommander(slot0, slot1)
+slot3.SetCommander = function(slot0, slot1)
 	slot0._commander = slot1
 end
 
-function slot3.Effect(slot0, slot1, slot2, slot3)
+slot3.Effect = function(slot0, slot1, slot2, slot3)
 	if slot2 and #slot2 > 0 then
 		for slot7, slot8 in ipairs(slot2) do
 			slot0:AniEffect(slot1, slot8)
@@ -34,15 +34,15 @@ function slot3.Effect(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot3.IsFinaleEffect(slot0)
+slot3.IsFinaleEffect = function(slot0)
 	return false
 end
 
-function slot3.SetFinaleCallback(slot0, slot1)
+slot3.SetFinaleCallback = function(slot0, slot1)
 	slot0._finaleCallback = slot1
 end
 
-function slot3.AniEffect(slot0, slot1, slot2)
+slot3.AniEffect = function(slot0, slot1, slot2)
 	slot3 = slot2:GetPosition()
 	slot4 = slot1:GetPosition()
 
@@ -50,7 +50,7 @@ function slot3.AniEffect(slot0, slot1, slot2)
 		slot6 = nil
 
 		if slot0._casterAniEffect.posFun then
-			function slot6(slot0)
+			slot6 = function(slot0)
 				return uv0.posFun(uv1, uv2, slot0)
 			end
 		end
@@ -66,7 +66,7 @@ function slot3.AniEffect(slot0, slot1, slot2)
 		slot6 = nil
 
 		if slot0._targetAniEffect.posFun then
-			function slot6(slot0)
+			slot6 = function(slot0)
 				return uv0.posFun(uv1, uv2, slot0)
 			end
 		end
@@ -79,7 +79,7 @@ function slot3.AniEffect(slot0, slot1, slot2)
 	end
 end
 
-function slot3.DataEffect(slot0, slot1, slot2, slot3)
+slot3.DataEffect = function(slot0, slot1, slot2, slot3)
 	if slot0._delay > 0 then
 		slot4 = nil
 		slot5 = slot0._timerIndex + 1
@@ -100,10 +100,10 @@ function slot3.DataEffect(slot0, slot1, slot2, slot3)
 	slot0:DoDataEffect(slot1, slot2, slot3)
 end
 
-function slot3.DoDataEffect(slot0, slot1, slot2, slot3)
+slot3.DoDataEffect = function(slot0, slot1, slot2, slot3)
 end
 
-function slot3.DataEffectWithoutTarget(slot0, slot1, slot2)
+slot3.DataEffectWithoutTarget = function(slot0, slot1, slot2)
 	if slot0._delay > 0 then
 		slot3 = nil
 		slot4 = slot0._timerIndex + 1
@@ -124,10 +124,10 @@ function slot3.DataEffectWithoutTarget(slot0, slot1, slot2)
 	slot0:DoDataEffectWithoutTarget(slot1, slot2)
 end
 
-function slot3.DoDataEffectWithoutTarget(slot0, slot1, slot2)
+slot3.DoDataEffectWithoutTarget = function(slot0, slot1, slot2)
 end
 
-function slot3.GetTarget(slot0, slot1, slot2)
+slot3.GetTarget = function(slot0, slot1, slot2)
 	if type(slot0._targetChoise) == "string" then
 		if slot0._targetChoise == "TargetSameToLastEffect" then
 			return slot2._lastEffectTarget
@@ -145,10 +145,10 @@ function slot3.GetTarget(slot0, slot1, slot2)
 	end
 end
 
-function slot3.Interrupt(slot0)
+slot3.Interrupt = function(slot0)
 end
 
-function slot3.Clear(slot0)
+slot3.Clear = function(slot0)
 	for slot4, slot5 in pairs(slot0._timerList) do
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot5)
 
@@ -158,7 +158,7 @@ function slot3.Clear(slot0)
 	slot0._commander = nil
 end
 
-function slot3.calcCorrdinate(slot0, slot1, slot2)
+slot3.calcCorrdinate = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot0.absoulteCorrdinate then
@@ -198,6 +198,6 @@ function slot3.calcCorrdinate(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot3.GetDamageSum(slot0)
+slot3.GetDamageSum = function(slot0)
 	return 0
 end

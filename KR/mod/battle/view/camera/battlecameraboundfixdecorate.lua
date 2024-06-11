@@ -6,10 +6,10 @@ slot0.Battle.BattleCameraBoundFixDecorate = class("BattleCameraBoundFixDecorate"
 slot0.Battle.BattleCameraBoundFixDecorate.__name = "BattleCameraBoundFixDecorate"
 slot3 = slot0.Battle.BattleCameraBoundFixDecorate
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 end
 
-function slot3.SetMapData(slot0, slot1, slot2, slot3, slot4)
+slot3.SetMapData = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._cameraUpperBound = slot1 + 30
 	slot0._cameraLowerBound = slot2 - 5
 	slot0._cameraLeftBound = slot3 - 3
@@ -22,7 +22,7 @@ function slot3.SetMapData(slot0, slot1, slot2, slot3, slot4)
 	return slot0._cameraUpperBound, slot0._cameraLowerBound, slot0._cameraLeftBound, slot0._cameraRightBound
 end
 
-function slot3.GetCameraPos(slot0, slot1)
+slot3.GetCameraPos = function(slot0, slot1)
 	slot2 = slot1.y / uv0._camera_radian_x_tan + slot0._projectionConst
 
 	if slot1.z < slot0._cameraLowerBound then
@@ -40,7 +40,7 @@ function slot3.GetCameraPos(slot0, slot1)
 	return slot1
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	slot0._cameraUpperBound = nil
 	slot0._cameraLowerBound = nil
 	slot0._cameraLeftBound = nil

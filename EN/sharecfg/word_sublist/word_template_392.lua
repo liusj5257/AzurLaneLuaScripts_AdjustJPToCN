@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_392 = {}
 slot1 = slot0.word_template_392
 
-function temp()
+temp = function()
 	uv0["兔"] = {
 		["子"] = {
 			["开"] = {
@@ -24,7 +24,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["②"] = {
 		["時"] = {
 			["大"] = {
@@ -36,7 +36,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["="] = {
 		["+"] = {
 			["大"] = {
@@ -48,7 +48,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["贰"] = {
 		["零"] = {
 			["大"] = {
@@ -72,7 +72,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["悉"] = {
 		["数"] = {
 			["尽"] = {
@@ -95,7 +95,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["时"] = {
 		["俊"] = {
 			["萍"] = {
@@ -150,7 +150,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["岿"] = {
 		["然"] = {
 			["不"] = {

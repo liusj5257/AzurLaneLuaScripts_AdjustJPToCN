@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 150
+					number = 150,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.015
+					number = -0.015,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 180
+					number = 180,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.018
+					number = -0.018,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 210
+					number = 210,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.021
+					number = -0.021,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 250
+					number = 250,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.025
+					number = -0.025,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 280
+					number = 280,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.028
+					number = -0.028,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 310
+					number = 310,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.031
+					number = -0.031,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 350
+					number = 350,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.035
+					number = -0.035,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 390
+					number = 390,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.039
+					number = -0.039,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 430
+					number = 430,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.043
+					number = -0.043,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 500
+					number = 500,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -253,15 +253,15 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "联结·阿萨姆",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "属性提升",
 	stack = 3,
@@ -283,8 +283,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 150
+				number = 150,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -294,8 +294,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = -0.015
+				number = -0.015,
+				attr = "injureRatioByCannon"
 			}
 		}
 	}

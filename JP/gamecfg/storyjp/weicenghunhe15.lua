@@ -1,23 +1,23 @@
 return {
-	id = "WEICENGHUNHE15",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE15",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
 			actor = 107110,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Pushing on！一気に突破するよ！",
 			bgm = "hunhe-battle",
+			nameColor = "#a9f548",
+			say = "Pushing on！一気に突破するよ！",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -33,8 +33,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "イントレピッド、危ない！",
 			typewriter = {
 				speed = 0.05,
@@ -46,10 +46,10 @@ return {
 			}
 		},
 		{
+			say = "―――！！！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "―――！！！",
 			flashN = {
 				color = {
 					1,
@@ -100,8 +100,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "せ、潜水艦？！",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "さあ、こそこそ覗いてないでさっさと上がってき・や・が・れ！",
 			typewriter = {
 				speed = 0.05,
@@ -144,10 +144,10 @@ return {
 			}
 		},
 		{
+			say = "…………！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "…………！",
 			flashN = {
 				color = {
 					1,
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーン潜水艦の航跡を発見したマーブルヘッドが大量の爆雷を一気に投下した。",
 			typewriter = {
 				speed = 0.05,
@@ -210,9 +210,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 101440,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "そんなに一気に？！",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -237,8 +237,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "潜水艦は一隻見たら三隻いると思えって聞いたことあるんですよね～",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "よし、浮上したやつが現れた！艦載機たち、攻撃開始！",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "マーブルヘッド、クーパー、引き続きソナーでの索敵を頼むよ！",
 			typewriter = {
 				speed = 0.05,

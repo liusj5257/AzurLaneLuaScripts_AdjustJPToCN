@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIJUNZHU",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIJUNZHU",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"명예의 전당\n\n<size=45>카페의 고양이</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_104",
-			say = "한낮의 밝은 햇살을 느끼며 소파에서 조용히 기다리고 있다. 시간이 거의 다 되었을 것이다.——",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "한낮의 밝은 햇살을 느끼며 소파에서 조용히 기다리고 있다. 시간이 거의 다 되었을 것이다.——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "코트 차림을 한 붉은 머리의 여성이 늠름하게 테이블로 다가오며, 다소 정체된 카페에 서늘한 바람을 가져왔다.",
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 299020,
+			nameColor = "#a9f548",
 			say = "너의 초청을 받게 되어 영광이긴 하지만, 초청장에 초청한 이유를 빠뜨렸더군.",
 			typewriter = {
 				speed = 0.05,
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 299020,
+			nameColor = "#a9f548",
 			say = "아, 고마워, 실례하겠다.",
 			typewriter = {
 				speed = 0.05,
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 299020,
+			nameColor = "#a9f548",
 			say = "물론이지. 너의 요구라면 설령 연옥의 불바다에 가더라도 전혀 개의치 않아…… 카페는 더욱 말할 것도 없지.",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "평소 전투와 업무에 몰두하면서 모항의 변화를 살피는 데는 소홀했던 것으로 보인다.",
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "모나크는 다른 로열의 레이디들과는 생활 방식이 다르다고 늘 느껴왔다.",
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "엘리자베스와 여러 로열의 동료들에게 다과회에 자주 불려 다니면서 배우게 된 것도 있다.",
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "오늘의 이 카페조차도 엘리자베스가 강력 추천해 준 곳이었다.",
@@ -346,8 +346,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "(사실 이 카페가 생긴 것 자체가 엘리자베스와는 떼려야 뗄 수 없는 관계가 있다……)",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "하지만 참여했던 다과회에서 모나크를 본 적은 거의 없다.",
@@ -418,8 +418,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "그럼, 이유는 역시……",
@@ -465,8 +465,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "모나크의 시선이 유리창 너머로 향했다. 한 무리의 떠들썩한 사람들이 거리에서 이쪽을 향해 오고 있었다.",
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "엘리자베스의 바다처럼 변덕스러운 기분 때문에, 가까운 카페에 들어가 애프터눈 티를 마시는 상황은 발생하지 않았다.",
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 299020,
+			nameColor = "#a9f548",
 			say = "그러니까 지휘관, 오늘 날 초대한 이유가 대체————앗!??",
 			typewriter = {
 				speed = 0.05,
@@ -607,8 +607,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -617,8 +617,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "구석진 곳에서 불쑥 튀어나온 검은 그림자가 곧장 모나크에게 달려들어 그녀의 질문을 끊었다.",
@@ -632,11 +632,11 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 299020,
+			nameColor = "#a9f548",
 			say = "…… 고양이!? 대체 어디서 나온 거지? 얼른 내려가렴…… 얼른……",
 			typewriter = {
 				speed = 0.05,
@@ -648,8 +648,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -658,8 +658,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "검은 고양이는 모나크를 향해 고개를 갸우뚱하더니 몸을 날려 멀리 달아났다.",
@@ -721,8 +721,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "갑작스럽게 출현한 고양이의 습격으로 모나크는 아직까지 약간 당황해하고 있는 것 같았다.",
@@ -736,8 +736,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "카페에 고양이가 있을 줄은 나에게도 예상 밖이었다. 하지만 이로 인해 모나크의 또 다른 모습을 보게 되었으니, 나쁘지 않았다.",
@@ -767,11 +767,11 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 299020,
+			nameColor = "#a9f548",
 			say = "잠깐…… 고양이가 늘었어!? 오지 마!",
 			typewriter = {
 				speed = 0.05,
@@ -783,8 +783,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -793,8 +793,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "방금 전 떠났던 고양이가 모나크의 뜻을 오해한 듯 이번엔 다른 친구들을 데리고 와서 함께 날아오르듯이 달려들었다.",
@@ -840,8 +840,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "모나크는 잠시 망설인 후에 태도를 다시 가다듬고 우아하게 앉는 자세를 유지하면서 앞에 있는 고양이 두 마리를 부드럽게 쓰다듬었다.",
@@ -887,8 +887,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "굳이 말하자면, 이 상황의 근원은 이런 정보를 뻔히 알면서도 카페를 추천할 때 애써 숨긴 엘리자베스에게 돌아가야 한다——",
@@ -902,8 +902,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "어떻게 대답해야 할지 생각하던 때, 또 다른 고양이가 황급히 달려들었다——이번엔 내가 놀랄 차례였다.",
@@ -949,8 +949,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "모나크는 고양이를 부드럽게 안았다.",
@@ -964,8 +964,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "어느새 또 다가온 두 마리까지 더해, 지금 그녀는 다섯 마리의 고양이에 둘러싸여 마치 고양이의 바다에 빠진 듯한 모습이었다.",
@@ -979,8 +979,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "그 후, 우리는 또 한가롭게 많은 이야기를 나누었다. 모나크는 더 이상 내가 그녀를 초대한 이유를 묻지 않았고, 나도 딱히 대답하려 하지 않았다.",
@@ -994,8 +994,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			blackBg = true,

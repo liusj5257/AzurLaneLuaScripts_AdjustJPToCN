@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHONGQIU5",
-	once = true,
 	fadeType = 1,
-	fadein = 1.5,
+	once = true,
+	id = "ZHONGQIU5",
 	updateOnBegin = 1,
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 502032,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Ping Hai",
 			dir = 1,
+			actorName = "Ping Hai",
 			say = "Ta-da~~~~ Here is the debut of Ping Hai's Mid-Autumn Festival attire!",
 			typewriter = {
 				speed = 0.05,
@@ -24,12 +24,12 @@ return {
 			}
 		},
 		{
-			actor = 502022,
+			say = "I'm so s-shy...Yat Sen's gift...",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "Ning Hai",
 			dir = 1,
-			say = "I'm so s-shy...Yat Sen's gift...",
+			actor = 502022,
+			actorName = "Ning Hai",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -122,8 +122,8 @@ return {
 			actor = 502022,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "Ning Hai",
 			dir = 1,
+			actorName = "Ning Hai",
 			say = "In any case, let's start the meal! I want to drink that osmanthus wine!",
 			typewriter = {
 				speed = 0.05,
@@ -150,14 +150,14 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107020,
+			nameColor = "#a9f548",
 			say = "So is this...is this Sara's mooncakes?......",
 			flashout = {
-				black = true,
 				dur = 0.75,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -219,8 +219,8 @@ return {
 			actor = 502022,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "Ning Hai",
 			dir = 1,
+			actorName = "Ning Hai",
 			say = "One look and you can tell that it's not edible... yet you swallowed it… such close sibling affection!",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			actor = 502032,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "Ping Hai",
 			dir = 1,
+			actorName = "Ping Hai",
 			say = "Lady Lex's mooncakes looks delicious, ~nibbles~ but still the taste is not the same as lady Yat Sen's.",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			actor = 502032,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "Ping Hai",
 			dir = 1,
+			actorName = "Ping Hai",
 			say = "Hehehe~ Sara borrowed the mooncake molds from me… I like to eat steamed buns so it doesn't matter, I can eat all of these by myself!",
 			typewriter = {
 				speed = 0.05,
@@ -372,8 +372,8 @@ return {
 			actor = 502022,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "Ning Hai",
 			dir = 1,
+			actorName = "Ning Hai",
 			say = "Ping Hai, let's share these.",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			actor = 502032,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "Ning Hai",
 			dir = 1,
+			actorName = "Ning Hai",
 			say = "Sister...",
 			typewriter = {
 				speed = 0.05,
@@ -419,8 +419,8 @@ return {
 			actor = 502022,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "Ning Hai",
 			dir = 1,
+			actorName = "Ning Hai",
 			say = "Mmmm, so fragrant….",
 			typewriter = {
 				speed = 0.05,
@@ -522,13 +522,13 @@ return {
 			}
 		},
 		{
-			actor = 107020,
+			say = "Moon Goddess, here's a toast to everyone who, whether being here or not, I wish that everyone can be united with their loved ones.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Everyone",
 			dir = -1,
+			actor = 107020,
+			actorName = "Everyone",
 			withoutPainting = true,
-			say = "Moon Goddess, here's a toast to everyone who, whether being here or not, I wish that everyone can be united with their loved ones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

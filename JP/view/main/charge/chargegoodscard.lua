@@ -1,6 +1,6 @@
 slot0 = class("ChargeGoodsCard", import("...shops.cards.GoodsCard"))
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	slot0.goodsVO = slot1
 
 	setActive(slot0.mask, not slot0.goodsVO:canPurchase())

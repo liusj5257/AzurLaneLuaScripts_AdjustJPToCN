@@ -1,35 +1,35 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING24",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "With the fall of Marco Polo's throne, everything had changed in an instant.",
 			bgm = "theme-thehierophantV",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "With the fall of Marco Polo's throne, everything had changed in an instant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "The sky went dark at once, as if a purple curtain had been drawn over it. Beneath the artificial night sky, fear and uncertainty continued to grow despite the \"victory.\"",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "Clearly, things had not gone back to normal even with Marco Polo's defeat.",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "Danger was still growing within the darkness.",
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, umm, we seem to have a call from Clemenceau.",
 			painting = {
 				alpha = 0.3,
@@ -178,10 +178,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But alas, who could've anticipated all of this to happen?",
 			painting = {
 				alpha = 0.3,
@@ -193,12 +193,12 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "How shameless... Acting like you weren't a part of this.",
 			painting = {
 				alpha = 0.3,
@@ -210,12 +210,12 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You were also the one who sicced those mass-produced ships and Gazers on us, weren't you?",
 			painting = {
 				alpha = 0.3,
@@ -227,12 +227,12 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Right before they landed, you transferred all of your own Vichya ships away!",
 			painting = {
 				alpha = 0.3,
@@ -244,12 +244,12 @@ return {
 			}
 		},
 		{
-			actor = 702020,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You're not going to giggle and say all of this was just an act, are you?",
 			painting = {
 				alpha = 0.3,
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She's right! You better give us a believable explanation for everything that happened!",
 			painting = {
 				alpha = 0.3,
@@ -300,10 +300,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's cute. Heehee.",
 			painting = {
 				alpha = 0.3,
@@ -361,10 +361,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The situation necessitated the emergency transfer.",
 			painting = {
 				alpha = 0.3,
@@ -398,10 +398,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Likewise with the Tribunal's mass-produced ships. They were all a façade to convince her that I was on her side.",
 			painting = {
 				alpha = 0.3,
@@ -451,12 +451,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In other words... You knew her plan from the start, and you've been pretending to work with her all this time.",
 			painting = {
 				alpha = 0.3,
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "All to stop her in the end...?",
 			painting = {
 				alpha = 0.3,
@@ -488,10 +488,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Exactly. I feigned cooperation until her plan reached its very climax.",
 			painting = {
 				alpha = 0.3,
@@ -506,10 +506,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Didn't you think the shot that perfectly picturesque?",
 			painting = {
 				alpha = 0.3,
@@ -524,10 +524,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I must admit, it was quite magnificent... But what was that golden-armored machine?",
 			painting = {
 				alpha = 0.3,
@@ -542,10 +542,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is it related to the divine machines you were talking about?",
 			painting = {
 				alpha = 0.3,
@@ -560,10 +560,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Somewhat. That is a weapon called the Mechanicus Harbinger, developed in secret by the Tribunal.",
 			painting = {
 				alpha = 0.3,
@@ -578,10 +578,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You may be able to trace its roots back to Marco Polo, but rest assured that it is under my control.",
 			painting = {
 				alpha = 0.3,
@@ -663,10 +663,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Even knowing her plans, do you think I had the capacity to stand up to the power she wielded?",
 			painting = {
 				alpha = 0.3,
@@ -681,10 +681,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If there was even the slightest leak, her first order of business would be eliminating the Tribunal, given our specialty in information manipulation.",
 			painting = {
 				alpha = 0.3,
@@ -718,10 +718,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'll have my subordinates recover her. For now, shall we meet face-to-face?",
 			painting = {
 				alpha = 0.3,
@@ -736,10 +736,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Though I'll have you know that I'm already on my way to the Vichya pavilion.",
 			painting = {
 				alpha = 0.3,
@@ -757,8 +757,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "\"We just learned that Jean Bart's fleet has been struggling to fight off the enemy assault for some time now.\"",
@@ -768,8 +768,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "\"A Royal Navy fleet is on their way to reinforce them, but the enemies on the way have slowed them down. We don't know how well that secret passage will continue to function, either.\"",
@@ -779,8 +779,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "\"If the Tribunal has mobile forces to put to work, then I expect you to stop the enemy reinforcements heading to Toulon.\"",
@@ -812,10 +812,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Toulon is in Iris territory, and Jean Bart is a sister ship of mine. I'll see it done right away.",
 			painting = {
 				alpha = 0.3,
@@ -849,10 +849,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "As for the Royal Navy's fleet, why don't we... Actually, let's discuss this in person later.",
 			painting = {
 				alpha = 0.3,
@@ -883,8 +883,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -898,10 +898,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Aaand she hung up. She really does march to the beat of her own drum...",
 			painting = {
 				alpha = 0.3,
@@ -913,12 +913,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In a way, she's like Prinz Eugen. Or... worse, even.",
 			painting = {
 				alpha = 0.3,
@@ -930,8 +930,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -942,12 +942,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Another call? This time, it's... Cardinal Richelieu?",
 			painting = {
 				alpha = 0.3,
@@ -959,12 +959,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Suspicious timing. Is it related to that hidden passage the Commander mentioned?",
 			painting = {
 				alpha = 0.3,
@@ -985,10 +985,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This is Richelieu speaking.",
 			painting = {
 				alpha = 0.3,
@@ -1022,10 +1022,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Our fleet has already arrived at Toulon and confirmed the safety of Jean Bart's fleet.",
 			painting = {
 				alpha = 0.3,
@@ -1056,8 +1056,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "(It seems like they made it to Toulon through their hidden passage without issue.)",
@@ -1080,10 +1080,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We initially went to Saint Helena to secure the Crown of the Holy See and rescue Marseillaise.",
 			painting = {
 				alpha = 0.3,
@@ -1117,10 +1117,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "One of the topics of interest was a network of \"highways\" that Compiler used to rapidly move across the ocean.",
 			painting = {
 				alpha = 0.3,
@@ -1154,10 +1154,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "While it is just normal fog, the activation of the device turns the microlayer particles comprising it into a gateway of sorts that allows us to move en-masse to distant locations.",
 			painting = {
 				alpha = 0.3,
@@ -1210,10 +1210,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It also explains how they've always seemed to appear out of thin air, and were able to attack areas that should've been inaccessible to them.",
 			painting = {
 				alpha = 0.3,
@@ -1247,10 +1247,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "For whatever reason, following Compiler's defeat, we have been able to gain access into the network.",
 			painting = {
 				alpha = 0.3,
@@ -1284,10 +1284,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We understand the inherent risks in using Siren technology and planned to report our findings first, but the situation changed when we learned that fierce fighting had broken out in Toulon.",
 			painting = {
 				alpha = 0.3,
@@ -1318,8 +1318,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "(It sounds to me like Clemenceau ordered the Tribunal to tell Richelieu the location of the Crown of the Holy See.)",
@@ -1329,8 +1329,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "(The crown might have ended up in Marco Polo's hands, but this alone is probably proof enough that Clemenceau isn't our enemy.)",
@@ -1340,8 +1340,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "(Tell her about Clemenceau.)",
@@ -1351,8 +1351,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "\"I think you might not have a full grasp of the situation either, but we want to know as much as possible before we come face-to-face with Clemenceau.\"",
@@ -1384,10 +1384,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Very well. I will tell you what I know.",
 			painting = {
 				alpha = 0.3,
@@ -1402,10 +1402,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Before setting sail, Clemenceau told me a part of her plan.",
 			painting = {
 				alpha = 0.3,
@@ -1439,10 +1439,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...And by making herself the villain, she would protect Jean Bart.",
 			painting = {
 				alpha = 0.3,
@@ -1466,12 +1466,12 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = ".........",
 			painting = {
 				alpha = 0.3,
@@ -1483,12 +1483,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Comrades, if I may offer my opinion–",
 			painting = {
 				alpha = 0.3,
@@ -1500,12 +1500,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Clemenceau's actions may still be suspicious, but I believe that we should have faith in our Commander and in Richelieu.",
 			painting = {
 				alpha = 0.3,
@@ -1517,12 +1517,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "With the situation in the Mediterranean Sea—no, the entire world—as it is, the Tribunal's power and knowledge will be essential.",
 			painting = {
 				alpha = 0.3,
@@ -1534,12 +1534,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "While they might have been split up as a product of the Reenactments, let us not forget that they once sailed under the single banner of the Iris Orthodoxy.",
 			painting = {
 				alpha = 0.3,
@@ -1551,12 +1551,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Let's leave our doubt and our worries of a betrayal that may have never happened aside. We must focus on the danger before us.",
 			painting = {
 				alpha = 0.3,
@@ -1568,8 +1568,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "\"Thanks for your input, Avrora.\"",
@@ -1607,10 +1607,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Oh. It seems enemy reinforcements have arrived.",
 			painting = {
 				alpha = 0.3,
@@ -1644,10 +1644,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Considering Clemenceau's behavior so far, I understand your reluctance to trust her.",
 			painting = {
 				alpha = 0.3,
@@ -1662,10 +1662,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 805010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But still... I ask that you look after her all the same, Commander.",
 			painting = {
 				alpha = 0.3,

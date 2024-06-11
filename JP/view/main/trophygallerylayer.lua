@@ -5,19 +5,19 @@ slot0.Filter = {
 	"unclaim"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TrophyGalleryUI"
 end
 
-function slot0.setTrophyGroups(slot0, slot1)
+slot0.setTrophyGroups = function(slot0, slot1)
 	slot0.trophyGroups = slot1
 end
 
-function slot0.setTrophyList(slot0, slot1)
+slot0.setTrophyList = function(slot0, slot1)
 	slot0.trophyList = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._bg = slot0:findTF("bg")
 	slot0._blurPanel = slot0:findTF("blur_panel")
 	slot0._topPanel = slot0:findTF("adapt/top", slot0._blurPanel)
@@ -36,7 +36,7 @@ function slot0.init(slot0)
 	slot0._trophyTFList = {}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SUB, slot0._tf, {
 		weight = LayerWeightConst.SECOND_LAYER
 	})
@@ -59,7 +59,7 @@ function slot0.didEnter(slot0)
 	slot0:updateTrophyCounter()
 end
 
-function slot0.updateTrophyList(slot0)
+slot0.updateTrophyList = function(slot0)
 	slot0._trophyTFList = {}
 
 	removeAllChildren(slot0._trophyContainer)
@@ -111,7 +111,7 @@ function slot0.updateTrophyList(slot0)
 	end
 end
 
-function slot0.PlayTrophyClaim(slot0, slot1)
+slot0.PlayTrophyClaim = function(slot0, slot1)
 	slot3 = slot0._trophyTFList[slot1]
 	slot5 = slot0._reminderRes
 
@@ -121,17 +121,17 @@ function slot0.PlayTrophyClaim(slot0, slot1)
 	end)
 end
 
-function slot0.updateTrophyByGroup(slot0, slot1)
+slot0.updateTrophyByGroup = function(slot0, slot1)
 	slot0._trophyTFList[slot1]:UpdateTrophyGroup(slot0.trophyGroups[slot1])
 end
 
-function slot0.openTrophyDetail(slot0, slot1, slot2)
+slot0.openTrophyDetail = function(slot0, slot1, slot2)
 	slot0._trophyDetailPanel:SetTrophyGroup(slot1)
 	slot0._trophyDetailPanel:UpdateTrophy(slot2)
 	slot0._trophyDetailPanel:SetActive(true)
 end
 
-function slot0.updateTrophyCounter(slot0)
+slot0.updateTrophyCounter = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.trophyList) do
@@ -143,7 +143,7 @@ function slot0.updateTrophyCounter(slot0)
 	setText(slot0._trophyCounter, slot1)
 end
 
-function slot0.onFilter(slot0)
+slot0.onFilter = function(slot0)
 	slot0._filterIndex = slot0._filterIndex + 1
 
 	if slot0._filterIndex > #uv0.Filter then
@@ -157,7 +157,7 @@ function slot0.onFilter(slot0)
 	slot0:updateTrophyList()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0._trophyDetailPanel:IsActive() then
 		slot0._trophyDetailPanel:SetActive(false)
 	else
@@ -165,7 +165,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._blurPanel, slot0._tf)
 	slot0._trophyDetailPanel:Dispose()
 end

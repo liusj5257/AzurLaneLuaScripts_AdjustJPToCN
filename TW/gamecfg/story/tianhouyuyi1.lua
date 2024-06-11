@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANHOUYUYI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANHOUYUYI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"大家的夏日祭\n\n<size=45>一 準備夏日祭典吧！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301110,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "電醬電醬，又到了每年的這個時候了呢！",
 			bgm = "story-1",
+			actor = 301110,
+			nameColor = "#a9f548",
+			say = "電醬電醬，又到了每年的這個時候了呢！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "祭典！祭典！吃到飽玩到飽的那個！",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "哇…祭典祭典！",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 900195,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900195,
+			nameColor = "#a9f548",
 			say = "沒有的話，就從今年開始養成習慣吧！",
 			effects = {
 				{
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			actor = 301120,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "{namecode:13}&{namecode:14}",
 			say = "北風醬！",
@@ -219,8 +219,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900195,
 			dir = 1,
+			actor = 900195,
 			nameColor = "#a9f548",
 			say = "呼呼，聽到了好事呢…說到重櫻、說到夏天！",
 			typewriter = {
@@ -252,8 +252,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 900195,
 			dir = 1,
+			actor = 900195,
 			nameColor = "#a9f548",
 			say = "不愧是瑞鹤，跟北風想到一塊了！",
 			typewriter = {
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "啊哈哈，這麼誇我我會不好意思的啦~",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -324,10 +324,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 307060,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:96}&{namecode:164}",
@@ -366,15 +366,15 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "…如此這般……我們來辦夏日祭典吧！指揮官！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -399,9 +399,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -461,11 +461,11 @@ return {
 			}
 		},
 		{
-			actor = 308020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308020,
+			nameColor = "#a9f548",
 			say = "夏日祭典呀，一定會很有趣的指揮官！來辦嘛！",
 			typewriter = {
 				speed = 0.05,
@@ -477,8 +477,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -487,9 +487,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…嗯，難得的夏天，聽起來似乎也不錯…",
 			typewriter = {
 				speed = 0.05,
@@ -510,8 +510,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900195,
 			dir = 1,
+			actor = 900195,
 			nameColor = "#a9f548",
 			say = "不愧是指揮官，通情達理…！",
 			typewriter = {
@@ -556,11 +556,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
-			actorName = "眾人",
 			dir = 1,
+			actorName = "眾人",
 			say = "哦！",
 			dialogShake = {
 				speed = 0.09,

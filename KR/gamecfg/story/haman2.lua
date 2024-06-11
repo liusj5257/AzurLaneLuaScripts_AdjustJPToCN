@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAMAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAMAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"허먼 관찰일기\n\n<size=45>2. 기쁘지 않은 이유·상</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "허먼에게 지휘실에서 쫓겨난지 1분 뒤——",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "허먼에게 지휘실에서 쫓겨난지 1분 뒤——",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,14 +38,14 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			actor = 101250,
 			say = "그 바보! 허먼이 모처럼 도와준다고 했는데 '너무 무리해도 좋지 않아'라니?!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -70,10 +70,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -108,14 +108,14 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -15,
 					dur = 0.6,
-					type = "shake",
-					y = -15
+					number = 1,
+					type = "shake"
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1.2,
 					dur = 0.1,
 					number = 3
@@ -159,10 +159,10 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
@@ -182,14 +182,14 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -15,
 					dur = 0.6,
-					type = "shake",
-					y = -15
+					number = 1,
+					type = "shake"
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1.2,
 					dur = 0.1,
 					number = 3
@@ -212,14 +212,14 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -15,
 					dur = 0.6,
-					type = "shake",
-					y = -15
+					number = 1,
+					type = "shake"
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1.2,
 					dur = 0.1,
 					number = 3
@@ -242,10 +242,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = -30,
 					dur = 1,
-					type = "shake",
-					y = -30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.6,
 					x = 15,
 					number = 1
@@ -340,11 +340,11 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
+			actor = 101250,
 			say = "왜 지휘관을 쫓아낸 거지!!",
 			typewriter = {
 				speed = 0.05,
@@ -356,10 +356,10 @@ return {
 			},
 			action = {
 				{
-					number = 3,
+					y = 30,
 					dur = 0.15,
-					type = "shake",
-					y = 30
+					number = 3,
+					type = "shake"
 				}
 			}
 		}

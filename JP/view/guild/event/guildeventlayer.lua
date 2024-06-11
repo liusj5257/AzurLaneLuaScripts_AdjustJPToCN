@@ -8,15 +8,15 @@ slot0.ON_OPEN_BOSS_FORMATION = "GuildEventLayer:ON_OPEN_BOSS_FORMATION"
 slot0.OPEN_BOSS_ASSULT = "GuildEventLayer:OPEN_BOSS_ASSULT"
 slot0.SHOW_SHIP_EQUIPMENTS = "GuildEventLayer:SHOW_SHIP_EQUIPMENTS"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildEmptyUI"
 end
 
-function slot0.SetPlayer(slot0, slot1)
+slot0.SetPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.SetGuild(slot0, slot1)
+slot0.SetGuild = function(slot0, slot1)
 	slot0.guildVO = slot1
 	slot0.events = {}
 	slot0.activeEvent = nil
@@ -26,20 +26,20 @@ function slot0.SetGuild(slot0, slot1)
 	slot0.myAssaultFleet = slot1:getMemberById(slot0.player.id):GetExternalAssaultFleet()
 end
 
-function slot0.SetEvents(slot0, slot1)
+slot0.SetEvents = function(slot0, slot1)
 	slot0.events = slot1
 	slot0.activeEvent = _.detect(slot0.events, function (slot0)
 		return slot0:IsActive()
 	end)
 end
 
-function slot0.UpdateFleet(slot0)
+slot0.UpdateFleet = function(slot0)
 	if slot0.formationPage:GetLoaded() then
 		slot0.formationPage:ExecuteAction("OnFleetUpdated", slot0.myAssaultFleet)
 	end
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			pg.m02:sendNotification(GAME.GET_GUILD_REPORT, {
@@ -64,7 +64,7 @@ function slot0.preload(slot0, slot1)
 	}, slot1)
 end
 
-function slot0.UpdateGuild(slot0, slot1)
+slot0.UpdateGuild = function(slot0, slot1)
 	slot0:SetGuild(slot1)
 
 	if slot0.formationPage and slot0.formationPage:GetLoaded() then
@@ -86,7 +86,7 @@ function slot0.UpdateGuild(slot0, slot1)
 	end
 end
 
-function slot0.RefreshMission(slot0, slot1)
+slot0.RefreshMission = function(slot0, slot1)
 	slot2 = slot0.activeEvent:GetMissionById(slot1)
 
 	if slot0.eventPage and slot0.eventPage:GetLoaded() then
@@ -102,7 +102,7 @@ function slot0.RefreshMission(slot0, slot1)
 	end
 end
 
-function slot0.RefreshBossMission(slot0, slot1)
+slot0.RefreshBossMission = function(slot0, slot1)
 	slot2 = slot0.activeEvent:GetBossMission()
 
 	if slot0.eventPage and slot0.eventPage:GetLoaded() then
@@ -115,7 +115,7 @@ function slot0.RefreshBossMission(slot0, slot1)
 	end
 end
 
-function slot0.OnBossRankUpdate(slot0)
+slot0.OnBossRankUpdate = function(slot0)
 	slot1 = slot0.activeEvent:GetBossMission()
 
 	if slot0.missionBossPage and slot0.missionBossPage:GetLoaded() then
@@ -124,7 +124,7 @@ function slot0.OnBossRankUpdate(slot0)
 	end
 end
 
-function slot0.OnBossMissionFormationChanged(slot0)
+slot0.OnBossMissionFormationChanged = function(slot0)
 	slot1 = slot0.activeEvent:GetBossMission()
 
 	if slot0.missionBossPage and slot0.missionBossPage:GetLoaded() then
@@ -136,25 +136,25 @@ function slot0.OnBossMissionFormationChanged(slot0)
 	end
 end
 
-function slot0.OnMemberAssultFleetUpdate(slot0)
+slot0.OnMemberAssultFleetUpdate = function(slot0)
 	if slot0.showAssultShipPage and slot0.showAssultShipPage:GetLoaded() then
 		slot0.showAssultShipPage:UpdateData(slot0.guildVO, slot0.player)
 	end
 end
 
-function slot0.OnMyAssultFleetUpdate(slot0)
+slot0.OnMyAssultFleetUpdate = function(slot0)
 	if slot0.formationPage and slot0.formationPage:GetLoaded() then
 		slot0.formationPage:OnFleetUpdated(slot0.myAssaultFleet)
 	end
 end
 
-function slot0.OnMyAssultFleetFormationDone(slot0)
+slot0.OnMyAssultFleetFormationDone = function(slot0)
 	if slot0.formationPage and slot0.formationPage:GetLoaded() then
 		slot0.formationPage:OnFleetFormationDone()
 	end
 end
 
-function slot0.OnReportUpdated(slot0)
+slot0.OnReportUpdated = function(slot0)
 	if slot0.eventPage and slot0.eventPage:GetLoaded() then
 		slot0.eventPage:OnReportUpdated()
 	end
@@ -164,43 +164,43 @@ function slot0.OnReportUpdated(slot0)
 	end
 end
 
-function slot0.OnMissionFormationDone(slot0)
+slot0.OnMissionFormationDone = function(slot0)
 	if slot0.missionFormationPage and slot0.missionFormationPage:GetLoaded() and slot0.missionFormationPage:isShowing() then
 		slot0.missionFormationPage:OnFormationDone()
 	end
 end
 
-function slot0.OnMemberDeleted(slot0)
+slot0.OnMemberDeleted = function(slot0)
 	if slot0.missionBossPage and slot0.missionBossPage:GetLoaded() then
 		slot0.missionBossPage:CheckFleetShipState()
 	end
 end
 
-function slot0.OnAssultShipBeRecommanded(slot0, slot1)
+slot0.OnAssultShipBeRecommanded = function(slot0, slot1)
 	if slot0.showAssultShipPage and slot0.showAssultShipPage:GetLoaded() then
 		slot0.showAssultShipPage:OnAssultShipBeRecommanded(slot1)
 	end
 end
 
-function slot0.OnRefreshAllAssultShipRecommandState(slot0)
+slot0.OnRefreshAllAssultShipRecommandState = function(slot0)
 	if slot0.showAssultShipPage and slot0.showAssultShipPage:GetLoaded() then
 		slot0.showAssultShipPage:OnRefreshAll()
 	end
 end
 
-function slot0.OnBossCommanderFormationChange(slot0)
+slot0.OnBossCommanderFormationChange = function(slot0)
 	if slot0.missBossForamtionPage and slot0.missBossForamtionPage:GetLoaded() then
 		slot0.missBossForamtionPage:OnBossCommanderFormationChange()
 	end
 end
 
-function slot0.OnBossCommanderPrefabFormationChange(slot0)
+slot0.OnBossCommanderPrefabFormationChange = function(slot0)
 	if slot0.missBossForamtionPage and slot0.missBossForamtionPage:GetLoaded() then
 		slot0.missBossForamtionPage:OnBossCommanderPrefabFormationChange()
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:bind(uv0.OPEN_EVENT_INFO, function (slot0, slot1)
 		uv0.eventInfoPage:ExecuteAction("Show", uv0.guildVO, uv0.player, {
 			gevent = slot1
@@ -249,7 +249,7 @@ function slot0.init(slot0)
 	slot0.helpBtn = slot0:findTF("frame/help")
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	getProxy(GuildProxy):SetBattleBtnRecord()
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -261,11 +261,11 @@ function slot0.didEnter(slot0)
 	slot0:TryPlayGuide()
 end
 
-function slot0.TryPlayGuide(slot0)
+slot0.TryPlayGuide = function(slot0)
 	pg.SystemGuideMgr.GetInstance():PlayGuildAssaultFleet()
 end
 
-function slot0.EnterEvent(slot0)
+slot0.EnterEvent = function(slot0)
 	if not slot0:isLoaded() then
 		return
 	end
@@ -291,16 +291,16 @@ function slot0.EnterEvent(slot0)
 	end
 end
 
-function slot0.OnEventEnd(slot0)
+slot0.OnEventEnd = function(slot0)
 	slot0:EnterEvent()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 	slot0:emit(uv0.ON_BACK)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.eventInfoPage then
 		slot0.eventInfoPage:Destroy()
 	end

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024愚人节 金布里机甲激光",
 	time = 2.5,
-	color = "yellow",
+	name = "2024愚人节 金布里机甲激光",
+	init_effect = "",
+	id = 200894,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200894,
+	color = "yellow",
 	icon = 200894,
 	last_effect = "",
 	effect_list = {

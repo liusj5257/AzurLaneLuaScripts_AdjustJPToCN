@@ -18,8 +18,8 @@ return {
 			style = {
 				text = "가입할 진영을 선택하세요.",
 				mode = 2,
-				posY = -189.51,
 				dir = -1,
+				posY = -189.51,
 				posX = 0
 			}
 		}

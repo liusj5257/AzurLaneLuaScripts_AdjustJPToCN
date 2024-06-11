@@ -6,11 +6,11 @@ slot4 = "event:/ui/tiji"
 slot5 = "event:/ui/baozha1"
 slot6 = "event:/ui/break_out_full"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "Fushun3GameView"
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initEvent()
 	slot0:initData()
 	slot0:initUI()
@@ -20,7 +20,7 @@ function slot0.didEnter(slot0)
 	slot0:openMenuUI()
 end
 
-function slot0.initEvent(slot0)
+slot0.initEvent = function(slot0)
 	slot0:bind(Fushun3GameEvent.create_item_call, function (slot0, slot1, slot2)
 		if uv0.itemController then
 			uv0.itemController:createItem(slot1.name, slot1.pos)
@@ -112,10 +112,10 @@ function slot0.initEvent(slot0)
 	end)
 end
 
-function slot0.onEventHandle(slot0, slot1)
+slot0.onEventHandle = function(slot0, slot1)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	Fushun3GameVo.ChangeTimeType(math.random() < 0.5 and Fushun3GameConst.day_type or Fushun3GameConst.night_type)
 
 	slot0.dayTimeFlag = Fushun3GameVo.GetTimeFlag()
@@ -129,7 +129,7 @@ function slot0.initData(slot0)
 	end, 1 / slot1, -1)
 end
 
-function slot0.initController(slot0)
+slot0.initController = function(slot0)
 	slot0.charTf = findTF(slot0._tf, "sceneContainer/scene/char")
 	slot0.rectCollider = RectCollider.New(slot0.charTf, {}, slot0)
 	slot1 = slot0.rectCollider
@@ -168,7 +168,7 @@ function slot0.initController(slot0)
 	slot0.effectController = Fushun3EffectController.New(findTF(slot0._tf, "tpls/efTpls"), findTF(slot0.sceneTf, "effect"), slot0)
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.backSceneTf = findTF(slot0._tf, "sceneContainer/scene_background")
 	slot0.frontSceneTf = findTF(slot0._tf, "sceneContainer/scene_front")
 	slot0.sceneTf = findTF(slot0._tf, "sceneContainer/scene")
@@ -271,7 +271,7 @@ function slot0.initUI(slot0)
 	UpdateBeat:AddListener(slot0.handle)
 end
 
-function slot0.initGameUI(slot0)
+slot0.initGameUI = function(slot0)
 	slot0.gameUI = findTF(slot0._tf, "ui/gameUI")
 	slot0.powerProgress = findTF(slot0.gameUI, "top/powerProgress")
 	slot0.powerProgressSlider = GetComponent(slot0.powerProgress, typeof(Slider))
@@ -281,7 +281,7 @@ function slot0.initGameUI(slot0)
 		setActive(uv0.pauseUI, true)
 	end)
 
-	function slot4()
+	slot4 = function()
 		uv0:stopGame()
 		setActive(uv0.leaveUI, true)
 	end
@@ -319,11 +319,11 @@ function slot0.initGameUI(slot0)
 	setText(findTF(slot0._tf, "pop/pauseUI/ad/desc/n"), i18n(Fushun3GameConst.mini_game_pause))
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:AddDebugInput()
 end
 
-function slot0.AddDebugInput(slot0)
+slot0.AddDebugInput = function(slot0)
 	if slot0.gameStop or slot0.settlementFlag then
 		return
 	end
@@ -333,7 +333,7 @@ function slot0.AddDebugInput(slot0)
 	end
 end
 
-function slot0.updateMenuUI(slot0)
+slot0.updateMenuUI = function(slot0)
 	slot1 = slot0:getGameUsedTimes()
 	slot2 = slot0:getGameTimes()
 
@@ -368,7 +368,7 @@ function slot0.updateMenuUI(slot0)
 	slot0:updateDayNightUI()
 end
 
-function slot0.CheckGet(slot0)
+slot0.CheckGet = function(slot0)
 	setActive(findTF(slot0.menuUI, "got"), false)
 
 	if slot0:getUltimate() and slot0:getUltimate() ~= 0 then
@@ -389,7 +389,7 @@ function slot0.CheckGet(slot0)
 	end
 end
 
-function slot0.openMenuUI(slot0)
+slot0.openMenuUI = function(slot0)
 	setActive(findTF(slot0._tf, "sceneContainer/scene_front"), false)
 	setActive(findTF(slot0._tf, "sceneContainer/scene_background"), false)
 	setActive(findTF(slot0._tf, "sceneContainer/scene"), false)
@@ -399,7 +399,7 @@ function slot0.openMenuUI(slot0)
 	slot0:updateMenuUI()
 end
 
-function slot0.clearUI(slot0)
+slot0.clearUI = function(slot0)
 	setActive(slot0.sceneTf, false)
 	setActive(slot0.settlementUI, false)
 	setActive(slot0.countUI, false)
@@ -407,13 +407,13 @@ function slot0.clearUI(slot0)
 	setActive(slot0.gameUI, false)
 end
 
-function slot0.readyStart(slot0)
+slot0.readyStart = function(slot0)
 	setActive(slot0.countUI, true)
 	slot0.countAnimator:Play("count")
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0)
 end
 
-function slot0.gameStart(slot0)
+slot0.gameStart = function(slot0)
 	setActive(findTF(slot0._tf, "sceneContainer/scene_front"), true)
 	setActive(findTF(slot0._tf, "sceneContainer/scene_background"), true)
 	setActive(findTF(slot0._tf, "sceneContainer/scene"), true)
@@ -441,23 +441,23 @@ function slot0.gameStart(slot0)
 	slot0:timerStart()
 end
 
-function slot0.getGameTimes(slot0)
+slot0.getGameTimes = function(slot0)
 	return slot0:GetMGHubData().count
 end
 
-function slot0.getGameUsedTimes(slot0)
+slot0.getGameUsedTimes = function(slot0)
 	return slot0:GetMGHubData().usedtime
 end
 
-function slot0.getUltimate(slot0)
+slot0.getUltimate = function(slot0)
 	return slot0:GetMGHubData().ultimate
 end
 
-function slot0.getGameTotalTime(slot0)
+slot0.getGameTotalTime = function(slot0)
 	return slot0:GetMGHubData():getConfig("reward_need")
 end
 
-function slot0.updateDayNightUI(slot0)
+slot0.updateDayNightUI = function(slot0)
 	slot0.dayTimeFlag = Fushun3GameVo.GetTimeFlag()
 
 	setActive(findTF(slot0._tf, "bg/n"), not slot0.dayTimeFlag)
@@ -530,11 +530,11 @@ function slot0.updateDayNightUI(slot0)
 	end
 end
 
-function slot0.onTimer(slot0)
+slot0.onTimer = function(slot0)
 	slot0:gameStep()
 end
 
-function slot0.gameStep(slot0)
+slot0.gameStep = function(slot0)
 	slot0.gameOverTime = slot0.gameOverTime + Time.deltaTime
 	slot0.gameTime = slot0.gameTime - Time.deltaTime
 
@@ -571,19 +571,19 @@ function slot0.gameStep(slot0)
 	end
 end
 
-function slot0.timerStart(slot0)
+slot0.timerStart = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
 end
 
-function slot0.timerStop(slot0)
+slot0.timerStop = function(slot0)
 	if slot0.timer.running then
 		slot0.timer:Stop()
 	end
 end
 
-function slot0.updateGameUI(slot0)
+slot0.updateGameUI = function(slot0)
 	slot1 = slot0.charController:getHeart()
 
 	for slot5 = 1, #slot0.hearts do
@@ -600,7 +600,7 @@ function slot0.updateGameUI(slot0)
 	setText(slot0.gameTimeS, math.ceil(slot0.gameTime))
 end
 
-function slot0.addScore(slot0, slot1)
+slot0.addScore = function(slot0, slot1)
 	slot0.scoreNum = slot0.scoreNum + slot1
 
 	if slot0.scoreNum < 0 then
@@ -608,7 +608,7 @@ function slot0.addScore(slot0, slot1)
 	end
 end
 
-function slot0.onControllerCallback(slot0, slot1, slot2)
+slot0.onControllerCallback = function(slot0, slot1, slot2)
 	if slot1 == Fushun3GameEvent.catch_item_call then
 		if slot2.data.type == Fushun3GameConst.item_type_score then
 			slot0:addScore(slot3.score)
@@ -620,7 +620,7 @@ function slot0.onControllerCallback(slot0, slot1, slot2)
 	end
 end
 
-function slot0.onGameOver(slot0)
+slot0.onGameOver = function(slot0)
 	if slot0.settlementFlag then
 		return
 	end
@@ -643,7 +643,7 @@ function slot0.onGameOver(slot0)
 	})
 end
 
-function slot0.showSettlement(slot0)
+slot0.showSettlement = function(slot0)
 	setActive(slot0.settlementUI, true)
 	GetComponent(findTF(slot0.settlementUI, "ad"), typeof(Animator)):Play("settlement", -1, 0)
 
@@ -668,20 +668,20 @@ function slot0.showSettlement(slot0)
 	end
 end
 
-function slot0.resumeGame(slot0)
+slot0.resumeGame = function(slot0)
 	slot0.gameStop = false
 
 	setActive(slot0.leaveUI, false)
 	slot0:timerStart()
 end
 
-function slot0.stopGame(slot0)
+slot0.stopGame = function(slot0)
 	slot0.gameStop = true
 
 	slot0:timerStop()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if not slot0.gameStartFlag then
 		slot0:emit(uv0.ON_BACK_PRESSED)
 	else
@@ -698,7 +698,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.charController then
 		slot0.charController:dispose()
 	end

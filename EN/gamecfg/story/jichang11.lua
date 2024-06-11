@@ -1,15 +1,15 @@
 return {
-	id = "JICHANG11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JICHANG11",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idol-inorinouta-inst",
 			say = "Competition Area",
+			side = 2,
+			dir = 1,
+			bgm = "idol-inorinouta-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 		{
 			actor = 103250,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "All right. So far, so good.",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202280,
 			dir = 1,
+			actor = 202280,
 			say = "I was able to complete that lesson without a problem...!",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202280,
 			dir = 1,
+			actor = 202280,
 			say = "(If I can keep this up until the end, I can be useful to Master...!)",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 108050,
 			dir = 1,
+			actor = 108050,
 			say = "Don't you think we'll be facing a formidable foe next?",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207110,
 			dir = 1,
+			actor = 207110,
 			say = "Why...?",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901120,
 			dir = 1,
+			actor = 901120,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701050,
 			dir = 1,
+			actor = 701050,
 			say = "(Albacore said she thinks it would be a formidable foe. But won't this be an easy victory?)",
 			typewriter = {
 				speed = 0.05,
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_jichang_4",
+			side = 2,
+			dir = 1,
 			say = "SHWIIING!",
 			flashout = {
 				dur = 1,
@@ -221,8 +221,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Le Malin μ",
+			side = 2,
 			bgName = "bg_jichang_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -237,8 +237,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Le Malin μ",
+			side = 2,
 			bgName = "bg_jichang_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Le Malin μ",
+			side = 2,
 			bgName = "bg_jichang_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "SHWIIING!",
 			flashout = {
 				dur = 1,
@@ -300,8 +300,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207110,
 			dir = 1,
+			actor = 207110,
 			say = "...What a brilliant light...!",
 			typewriter = {
 				speed = 0.05,
@@ -315,10 +315,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 103250,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Everyone, be careful. This Le Malin is different from usual...!",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202280,
 			dir = 1,
+			actor = 202280,
 			say = "Understood...!",
 			typewriter = {
 				speed = 0.05,

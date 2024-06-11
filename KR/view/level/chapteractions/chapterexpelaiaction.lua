@@ -1,6 +1,6 @@
 slot0 = class("ChapterExpelAIAction")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.actType = slot1.act_type
 	slot0.line = {
 		row = slot1.ai_pos.row,
@@ -28,12 +28,12 @@ function slot0.Ctor(slot0, slot1)
 	end)
 end
 
-function slot0.SetTargetLine(slot0, slot1, slot2)
+slot0.SetTargetLine = function(slot0, slot1, slot2)
 	slot0.sourceLine = slot1
 	slot0.targetLine = slot2
 end
 
-function slot0.applyTo(slot0, slot1, slot2)
+slot0.applyTo = function(slot0, slot1, slot2)
 	if not slot2 then
 		slot3 = 0
 		slot4 = 0
@@ -86,7 +86,7 @@ function slot0.applyTo(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
+slot0.PlayAIAction = function(slot0, slot1, slot2, slot3)
 	seriesAsync({
 		function (slot0)
 			uv0.viewComponent.levelStageView:SwitchBottomStagePanel(false)

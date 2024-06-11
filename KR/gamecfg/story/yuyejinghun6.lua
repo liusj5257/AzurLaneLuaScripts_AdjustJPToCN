@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_156",
 			bgm = "theme-highseasfleet-reborn",
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "왜 그래? 배 아파? 손님방으로 데려다줄까?",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -115,13 +115,13 @@ return {
 			}
 		},
 		{
-			actorName = "로열 포춘",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
 			optionFlag = 2,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "그래? 그럼, 통로는 저기 있으니까 나중에 가 봐. 거기서 집사가 무슨 할 말이 있다나 봐.",
 			typewriter = {
@@ -134,10 +134,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "방금 전에도 말했지만, 여기 통로는 꽤 복잡하니까 길을 잃지 않도록 조심해.",
 			typewriter = {
@@ -150,9 +150,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "에식스",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "로열 포춘은 말을 마치고 바로 방에서 나갔습니다. 아무래도 여기 오래 머무를 생각은 없는 듯했습니다.",
 			typewriter = {
@@ -174,27 +174,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_156",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_156",
 			say = "잠시 후……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "어라, 탐정이잖아? 여기서 뭐 해~?",
@@ -258,9 +258,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "길을 잃은 거야? 손님방까지 안내해 줄까?",
 			typewriter = {
@@ -307,11 +307,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "알았어♪ 날 따라 와~",
@@ -323,11 +323,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_115",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
 			bgm = "qe-ova-15",
-			actorName = "에식스",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "로열 포춘은 호화로운 장식으로 꾸며진 손님방으로 당신을 안내했습니다.",
 			typewriter = {
@@ -335,17 +335,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -381,9 +381,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "그나저나 아직 자신을 고용한 사람이 누군지는 조사하지 않은 거지?",
 			typewriter = {
@@ -392,11 +392,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "당신의 고용주이자 이 성의 주인인 만쥬 경은 단순한 자산가가 아니야.",
@@ -410,9 +410,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "평범한 자산가라면 이 정도 성을 유지할 수도 없고, 당신에게 줄 보수도 감당할 수 없겠지. 당신은 일류 탐정이라서 좋겠네~",
 			typewriter = {
@@ -451,9 +451,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "연속으로 실종 사건이 발생해서 지금은 하인들도 대부분 일을 그만뒀어.",
 			typewriter = {
@@ -466,9 +466,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "남은 건 나랑 집사, 요리사뿐… 그러니 꼭 진상을 밝혀주길 바라. 지난번 사기꾼들과는 다르게 말이야… 음흠.",
 			typewriter = {
@@ -491,11 +491,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "집사가 곧 올 테니까, 기다리고 있어.",
@@ -509,9 +509,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "그럼 이만 실례할게~",
 			typewriter = {
@@ -804,11 +804,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_156",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "에식스",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "단편적인 정보를 어떻게든 잘 조합해 보려던 와중, 당신은 갑자기 맹렬한 불안감에 사로잡혔습니다.",
 			typewriter = {
@@ -816,17 +816,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -876,8 +876,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

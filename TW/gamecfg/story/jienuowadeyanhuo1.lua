@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「每當教國陷入危難，吾輩的鷲旗便會迎風飄揚」</size>",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			say = "某日·鳶尾教國軍港內",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-french1",
+			say = "某日·鳶尾教國軍港內",
 			effects = {
 				{
 					active = false,
@@ -116,8 +116,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "這也是一直以來的歷史規律了嘛。",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "道理是這樣……不過至少希望薩丁帝國可以裝作“中立”，哪怕冷眼旁觀吧。",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "事情已經發生，現在說什麼都晚了！",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "放輕鬆些啊阿爾及利亞，這麼眉頭緊皺唉聲嘆氣太不像妳的風格了。",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "……突然有些好奇在妳眼裡我是什麼樣的風格了。",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "嗯……要更加優雅，更加胸有成竹一些？",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "現在我們處於鐵血和薩丁的兩面夾擊之中，局勢上恐怕沒有多少優雅的餘地了…",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "猜猜看我為什麼突然過來？",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "猜~猜~看~嘛——",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -311,8 +311,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "妳這次過來就是為了將這份計劃變為行動的。",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "好準？！就是準到這種程度反而有些沒意思了……",
 			typewriter = {
@@ -342,8 +342,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -355,8 +355,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "……不是妳讓我猜的嗎。言歸正傳，行動的具體內容是什麼？",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "薩丁帝國艦隊的優勢與弱點我們都很清楚，如果能在這種時候破壞她們的補給的話——",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "一段時間內薩丁的艦隊就別想出門了。考慮到她們的佈防情況……確實有可乘之機。",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "只不過……皇家海軍呢，這一次也得不到她們的支援嗎？",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "這次又是怎麼說的……？",
 			typewriter = {
@@ -472,8 +472,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "“鑑於每況日下的局勢，在本土的支援抵達之前，皇家艦隊沒有參與計劃外作戰行動的能力。”",
 			typewriter = {
@@ -489,8 +489,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "她們甚至還建議我們要謹慎考慮作戰計劃，不要輕舉妄動呢。",
 			typewriter = {
@@ -522,8 +522,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "雖說是奇襲行動，但也不至於到需要讓妳這個大參謀親自參與的程度吧。",
 			typewriter = {
@@ -539,8 +539,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "審判庭的事我也不清楚，大概是有其他任務吧，而且最近的教廷司令部經常喜歡做一些神神秘秘的部署……",
 			typewriter = {
@@ -556,8 +556,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "……看來，這次只能靠我們了啊。",
 			typewriter = {
@@ -573,8 +573,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "應該說“至少還有我們”才對吧！而且這次我可是主動請纓的，不要搞錯了~",
 			typewriter = {
@@ -590,8 +590,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "我也承認這次多少有些冒險的成分在裡面，不過這已經是我們能夠選擇的範圍內戰機最好的一個了哦。",
 			typewriter = {
@@ -607,8 +607,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "還有！剛剛那個“大參謀”的稱呼是什麼啊！",
 			typewriter = {
@@ -621,8 +621,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -634,8 +634,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "我確實最近在司令部待的時間比較長，也確實偶爾會參與些作戰計劃的制定……不過和大參謀還差得遠呢！",
 			typewriter = {
@@ -651,8 +651,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "相比參謀力，我覺得還是我的作戰力更突出一些~",
 			typewriter = {
@@ -700,8 +700,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "那到時候我就好好期待一下妳的實力了哦，“大參謀”。",
 			typewriter = {
@@ -717,8 +717,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "所·以·說——“大參謀”這個稱呼！",
 			typewriter = {
@@ -731,8 +731,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -744,8 +744,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "呵呵~好像一不小心叫習慣了，暫時改不過來了哦，“大參謀”？",
 			typewriter = {

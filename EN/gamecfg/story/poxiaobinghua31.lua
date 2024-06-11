@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA31",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "And the conclusion...?",
 			bgm = "bsm-2",
+			actor = 900136,
+			nameColor = "#ff5c5c",
+			say = "And the conclusion...?",
 			flashin = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					1,
 					0
@@ -83,10 +83,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "This timeline did not diverge then, but rather is being pruned...",
 			typewriter = {
 				speed = 0.05,
@@ -116,10 +116,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "Indeed.",
 			typewriter = {
 				speed = 0.05,
@@ -165,10 +165,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "Continue to monitor the experiment, and stay concealed. You are forbidden from interfering in it. Another Arbiter will be sent to deal with Code G.",
 			typewriter = {
 				speed = 0.05,
@@ -182,10 +182,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "A large number of variables that cannot be empirically determined have begun to converge upon a single timeline. We must handle this situation with extreme caution.",
 			typewriter = {
 				speed = 0.05,
@@ -199,10 +199,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = ".........",
 			typewriter = {
 				speed = 0.05,

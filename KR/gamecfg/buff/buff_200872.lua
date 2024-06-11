@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 伊丽莎白",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 伊丽莎白",
+	init_effect = "",
+	id = 200872,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200872,
+	color = "yellow",
 	icon = 200872,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200872,
 				time = 10,
-				target = "TargetSelf",
-				skill_id = 200872
+				target = "TargetSelf"
 			}
 		},
 		{

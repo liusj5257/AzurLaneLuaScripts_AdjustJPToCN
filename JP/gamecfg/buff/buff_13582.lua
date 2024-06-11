@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 13582,
 	picture = "",
 	desc = "属性降低，受伤上升",
 	stack = 3,
-	id = 13582,
+	color = "yellow",
 	icon = 13582,
 	last_effect = "Darkness",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = -300
+				number = -300,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = -300
+				number = -300,
+				attr = "airPower"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = -300
+				number = -300,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -50,8 +50,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = -300
+				number = -300,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -61,8 +61,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.03
+				number = 0.03,
+				attr = "injureRatio"
 			}
 		},
 		{

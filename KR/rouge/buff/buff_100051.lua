@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "卡牌 损管小队",
 	time = 3,
+	name = "卡牌 损管小队",
+	init_effect = "",
 	picture = "",
 	desc = "在15秒内缓慢回复我方耐久，每3秒回复$1%",
 	stack = 1,

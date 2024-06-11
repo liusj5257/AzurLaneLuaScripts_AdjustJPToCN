@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "遁入雨云",
 	cd = 0,
+	picture = "1",
+	desc = "技能是挂载免伤BUFF",
 	painting = 1,
 	id = 13710,
-	picture = "1",
 	castCV = "",
-	desc = "技能是挂载免伤BUFF",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 13711
 			}

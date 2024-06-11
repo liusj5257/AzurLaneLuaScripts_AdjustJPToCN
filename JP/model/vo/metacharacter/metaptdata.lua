@@ -1,6 +1,6 @@
 slot0 = class("MetaPTData")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot2 = slot1.group_id
 	slot0.groupID = slot2
 
@@ -14,7 +14,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.curLevel = slot0.level + 1
 end
 
-function slot0.initFromServerData(slot0, slot1)
+slot0.initFromServerData = function(slot0, slot1)
 	slot0.count = slot1.pt or 0
 
 	if #slot1.fetch_list > 0 then
@@ -38,50 +38,50 @@ function slot0.initFromServerData(slot0, slot1)
 	slot0.curLevel = math.min(slot0.level + 1, #slot0.targets)
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	slot0.count = slot1.pt or slot0.count
 	slot0.level = slot1.level or slot0.level
 	slot0.curLevel = slot0.level + 1
 end
 
-function slot0.updateLevel(slot0, slot1)
+slot0.updateLevel = function(slot0, slot1)
 	slot0.level = slot1
 	slot0.curLevel = math.min(slot0.level + 1, #slot0.targets)
 end
 
-function slot0.addPT(slot0, slot1)
+slot0.addPT = function(slot0, slot1)
 	slot0.count = slot0.count + slot1
 end
 
-function slot0.GetResProgress(slot0)
+slot0.GetResProgress = function(slot0)
 	slot1 = slot0.count
 	slot2 = slot0.targets[slot0.curLevel]
 
 	return slot1, slot2, slot1 / slot2
 end
 
-function slot0.GetLevelProgress(slot0)
+slot0.GetLevelProgress = function(slot0)
 	slot1 = slot0.curLevel
 	slot2 = #slot0.targets
 
 	return slot1, slot2, slot1 / slot2
 end
 
-function slot0.CanGetAward(slot0)
+slot0.CanGetAward = function(slot0)
 	slot1, slot2, slot3 = slot0:GetResProgress()
 
 	return slot0:CanGetNextAward() and slot3 >= 1
 end
 
-function slot0.CanGetNextAward(slot0)
+slot0.CanGetNextAward = function(slot0)
 	return slot0.level < #slot0.targets
 end
 
-function slot0.GetTotalResRequire(slot0)
+slot0.GetTotalResRequire = function(slot0)
 	return slot0.targets[#slot0.targets]
 end
 
-function slot0.IsMaxPt(slot0)
+slot0.IsMaxPt = function(slot0)
 	return slot0:GetTotalResRequire() <= slot0.count
 end
 

@@ -1,18 +1,18 @@
 return {
-	id = "SHENGYONGQU14",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU14",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "level-french2",
 			actor = 902010,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "出鼻をくじかれた感じ？",
-			bgm = "level-french2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			actor = 903020,
 			side = 2,
 			expression = 3,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "ええそうよ。向こうに降参する気がないから",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -67,8 +67,8 @@ return {
 			actor = 903020,
 			side = 2,
 			expression = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "変わってないわよ。凛として、自分を曲げず、ただ強大な存在感を放つカリスマ",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			actor = 902010,
 			side = 2,
 			expression = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "ロイヤルにいじめられてないって確認できてよかったね",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			actor = 902010,
 			side = 2,
 			expression = 1,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "……リシュリューがいるから？それとも何かな？",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			actor = 903020,
 			side = 2,
 			expression = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "ええ、この聖堂のおかげで勝つ算段が立ったわよ。もうちょっと調べる必要があるけど…",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			actor = 902010,
 			side = 2,
 			expression = 3,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "いくらそれがあっても流石に一人では無理だよ…本当に大丈夫なの？",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			actor = 903020,
 			side = 2,
 			expression = 3,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "ロイヤルも彼女が指揮を取っている限り変な動きができないわ",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			actor = 903020,
 			side = 2,
 			expression = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "よし、もうちょっとあの子たちを引きつけてくるから、待機位置まで移動をお願いね",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			actor = 902010,
 			side = 2,
 			expression = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "はいはーい、そっちも気をつけてね。アルジェリー",
 			typewriter = {
 				speed = 0.05,

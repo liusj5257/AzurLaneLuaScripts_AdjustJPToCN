@@ -30,7 +30,7 @@ slot1 = {
 	}
 }
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._go = go(slot1)
 	slot0._tf = slot1
 	slot0._type = slot2
@@ -49,7 +49,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	ClearTweenItemAlphaAndWhite(slot0._go)
 end
 
-function slot0.update(slot0, slot1, slot2)
+slot0.update = function(slot0, slot1, slot2)
 	slot0.rankVO = slot1
 	slot0.nameTF.text = slot1.name
 	slot3 = slot1.rank
@@ -116,7 +116,7 @@ function slot0.update(slot0, slot1, slot2)
 	TweenItemAlphaAndWhite(slot0._go)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	ClearTweenItemAlphaAndWhite(slot0._go)
 
 	if not IsNil(slot0.notonlistTF) then
@@ -127,7 +127,7 @@ function slot0.clear(slot0)
 	slot0.numberTF.text = 0
 end
 
-function slot0.dispose(slot0, ...)
+slot0.dispose = function(slot0, ...)
 end
 
 return slot0

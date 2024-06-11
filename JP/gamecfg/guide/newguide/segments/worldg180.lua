@@ -14,9 +14,9 @@ return {
 			style = {
 				text = "燃料を消費すれば、「セイレーン海域情報」を購入できます。",
 				mode = 2,
-				posY = 84.9,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 84.9,
 				posX = -662.56
 			},
 			showSign = {

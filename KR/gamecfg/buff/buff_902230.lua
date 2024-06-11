@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "飓风的加护",
 	time = 0,
-	color = "blue",
+	name = "飓风的加护",
+	init_effect = "",
+	id = 902230,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902230,
+	color = "blue",
 	icon = 902230,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.15
+				number = -0.15,
+				attr = "injureRatioByAir"
 			}
 		},
 		{

@@ -1,17 +1,17 @@
 return {
-	id = "JIDIFENGBAO19",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO19",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackFg = 1,
-			bgmDelay = 1,
 			typewriterTime = 0.05,
+			bgmDelay = 1,
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
@@ -32,14 +32,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We should be safe here.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -64,10 +64,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now, we should hide and trail them from a far enough distance that they don't detect us.",
 			painting = {
 				alpha = 0.3,
@@ -82,10 +82,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I think I see how you're thinking now!",
 			painting = {
 				alpha = 0.3,
@@ -100,10 +100,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whatever this anomalous wavelength we're looking for is, it must be something important to the Sirens.",
 			painting = {
 				alpha = 0.3,
@@ -118,10 +118,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And if that META keeps on wreaking havoc after what she did to those Siren ships, they're sure to come and try to stop her.",
 			painting = {
 				alpha = 0.3,
@@ -136,10 +136,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Which means if we back off, we can let the META weaken the Sirens first!",
 			painting = {
 				alpha = 0.3,
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -164,10 +164,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You are correct. We pit the META and Sirens against each other.",
 			painting = {
 				alpha = 0.3,
@@ -182,10 +182,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The other units are doing well. We have time.",
 			painting = {
 				alpha = 0.3,
@@ -200,10 +200,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Has the anomalous wavelength moved?",
 			painting = {
 				alpha = 0.3,
@@ -218,10 +218,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It hasn't moved yet. Maybe she's already fighting Sirens?",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Good. We don't know how much of a fight the Sirens will put up against her...",
 			painting = {
 				alpha = 0.3,
@@ -254,10 +254,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But let's wait and watch for now. I'll have Flea continue to monitor them.",
 			painting = {
 				alpha = 0.3,
@@ -269,12 +269,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "*bzzzzzt*...",
 			soundeffect = "event:/ui/noice",
+			say = "*bzzzzzt*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,10 +284,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Hm? I can't make out what's being said.",
 			painting = {
 				alpha = 0.3,
@@ -302,10 +302,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The jamming device should be destroyed by now... Is the communicator broken?",
 			painting = {
 				alpha = 0.3,
@@ -320,10 +320,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Here. Let me try this really smart method Soobrazitelny taught me.",
 			painting = {
 				alpha = 0.3,
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			say = "*pow!* *bang!* *crash!*",
 			typewriter = {
@@ -350,13 +350,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			actorName = "Communicator",
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			side = 2,
 			stopbgm = true,
-			say = "Soyuz... Read me...",
 			soundeffect = "event:/ui/noice",
+			say = "Soyuz... Read me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,8 +382,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -411,48 +411,48 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
+			soundeffect = "event:/ui/noice",
 			say = "Current situation... We are... Fully...",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
+			soundeffect = "event:/ui/noice",
 			say = "Must terminate... Mission at once...",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
+			soundeffect = "event:/ui/noice",
 			say = "Whole fleet... Assemble at... I repeat...",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "*bzzzzzt*...",
 			soundeffect = "event:/ui/noice",
+			say = "*bzzzzzt*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,10 +481,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I couldn't hear that well, but she said we're terminating the mission, right?!",
 			painting = {
 				alpha = 0.3,
@@ -499,10 +499,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'll contact Soyuz. We need to figure out what's happening.",
 			painting = {
 				alpha = 0.3,
@@ -517,10 +517,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...No answer.",
 			painting = {
 				alpha = 0.3,
@@ -535,10 +535,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What about the port and dock?",
 			painting = {
 				alpha = 0.3,
@@ -553,10 +553,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Likewise. No Western Europa base is picking up.",
 			painting = {
 				alpha = 0.3,
@@ -571,10 +571,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "There's no choice. We need to contact Comrade Commander!",
 			painting = {
 				alpha = 0.3,
@@ -589,10 +589,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I tried that, too... Still no luck.",
 			painting = {
 				alpha = 0.3,
@@ -645,10 +645,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This is Voroshilov of the Wolf unit! We can hear you!",
 			painting = {
 				alpha = 0.3,
@@ -701,10 +701,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes, though intermittently, due to interference. What in the world is going on?",
 			painting = {
 				alpha = 0.3,
@@ -833,10 +833,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Understood... I suppose this is our only choice for now.",
 			painting = {
 				alpha = 0.3,
@@ -870,10 +870,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Right. See you there.",
 			painting = {
 				alpha = 0.3,

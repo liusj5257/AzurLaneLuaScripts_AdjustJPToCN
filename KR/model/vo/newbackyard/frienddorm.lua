@@ -1,6 +1,6 @@
 slot0 = class("FriendDorm", import(".Dorm"))
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	if getProxy(PlayerProxy):getRawData():ShouldCheckCustomName() then
 		return i18n("nodisplay_player_home_name")
 	else
@@ -8,7 +8,7 @@ function slot0.GetName(slot0)
 	end
 end
 
-function slot0.GetShips(slot0)
+slot0.GetShips = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.shipIds) do

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG38",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG38",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = " 로열 네이비·스캐퍼플로· 어느 시설· 조금 전",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-richang",
+			say = " 로열 네이비·스캐퍼플로· 어느 시설· 조금 전",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -112,17 +112,17 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
-			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "스캐퍼플로…맞습니까?",
+			bgName = "star_level_bg_115",
 			bgm = "bsm-2",
+			actor = 202080,
+			nameColor = "#a9f548",
+			say = "스캐퍼플로…맞습니까?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -187,13 +187,13 @@ return {
 		{
 			actor = 205010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = " 수면 아래 남겨진 과거가 가상의 허망함을 부유하고 있어. 쯧, 메탈 블러드는 이미 절반 성공했을까…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			say = " 우우웅-----------!",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
+			say = " 우우웅-----------!",
 			flashN = {
 				color = {
 					1,
@@ -327,12 +327,12 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 202120,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "폐하, 스캐퍼플로 주변에 대량의 메탈 블러드 군함이 나타났습니다. 정박지로 공격을 개시하려는 중입니다!",
 			bgm = "bsm-3",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "폐하, 스캐퍼플로 주변에 대량의 메탈 블러드 군함이 나타났습니다. 정박지로 공격을 개시하려는 중입니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,10 +361,10 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 202120,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = " 메탈 블러드가 어떤 방법을 썼는지 모르겠지만, 우리의 정찰기를 속인 것 같습니다. 폐하, 어서 철수하십시오!",
 			typewriter = {
 				speed = 0.05,
@@ -376,15 +376,15 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#ff5c5c",
 			say = " 잠깐! 로열 네이비의 엘리자베스 여왕! 이곳에서 만나게 될 줄은 몰랐는데, 하하하하하!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -537,12 +537,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = " 뜻대로 하십시오, 폐하.",
 			typewriter = {
 				speed = 0.05,
@@ -554,8 +554,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,

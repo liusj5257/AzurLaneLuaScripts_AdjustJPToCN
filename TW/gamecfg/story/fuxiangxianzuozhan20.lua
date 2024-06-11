@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN20",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			soundeffect = "event:/battle/boom2",
-			dir = 1,
 			bgm = "battle-executor-type1",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 403090,
 			nameColor = "#a9f548",
 			say = "哈啊……妳們這群冒牌貨，雖然打的不準，跑的倒是夠快……再吃我一輪炮擊！",
@@ -66,11 +66,11 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 401240,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "庫庫庫……居然有被冒牌貨叫冒牌貨的一天，世界要到毀滅之日了嗎！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -137,8 +137,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "………咦？歐根？！妳怎麼會在這裡？！",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -180,8 +180,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "歐根，我們按照要求把她拖過來了，現在可以說明究竟發生什麼事了吧？",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "咦？！！！！！！！我明明還專門確認過了，看妳們沒回覆通訊才動手的啊！",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,8 +240,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "我們這邊也一樣。沒收到回覆才判定攻擊的對象為棋子……",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "奇怪，我們彼此之間的通訊明明是正常的…？只有對其他艦隊的外部聯絡被干擾了嗎……！",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "怎、怎麼會這樣……非常抱歉！我這就跟彼得聯繫，讓她停止接下來的攻擊行動！",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,12 +378,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "呵呵呵，每次都被塞壬玩弄於股掌之中，也是時候來一次計劃之外的反擊了……",
 			typewriter = {
 				speed = 0.05,

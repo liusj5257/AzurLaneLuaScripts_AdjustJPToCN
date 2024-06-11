@@ -21,9 +21,9 @@ return {
 		{
 			actor = 303120,
 			side = 0,
-			nameColor = "#92fc63",
-			dir = 1,
 			say = "우후훗, 타카오는 여전히 성질이 급하다니깐. 저쪽엔 프린스 오브 웨일즈라는 최신 정예함이 있어. 콘고와 하루나라도 당해내기 어려울 거야.",
+			dir = 1,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

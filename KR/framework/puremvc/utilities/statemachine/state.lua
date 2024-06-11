@@ -1,6 +1,6 @@
 slot0 = class("State")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.name = slot1
 
 	if slot2 ~= nil then
@@ -18,7 +18,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.transitions = {}
 end
 
-function slot0.defineTrans(slot0, slot1, slot2)
+slot0.defineTrans = function(slot0, slot1, slot2)
 	assert(slot1, "action should not be nil at " .. slot0.name)
 	assert(slot2, "target should not be nil at " .. slot0.name)
 
@@ -29,11 +29,11 @@ function slot0.defineTrans(slot0, slot1, slot2)
 	slot0.transitions[slot1] = slot2
 end
 
-function slot0.removeTrans(slot0, slot1)
+slot0.removeTrans = function(slot0, slot1)
 	slot0.transitions[slot1] = nil
 end
 
-function slot0.getTarget(slot0, slot1)
+slot0.getTarget = function(slot0, slot1)
 	return slot0.transitions[slot1]
 end
 

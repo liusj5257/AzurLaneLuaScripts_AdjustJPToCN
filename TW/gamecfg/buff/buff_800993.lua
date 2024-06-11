@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 800993,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800993,
+	color = "yellow",
 	icon = 800990,
 	last_effect = "",
 	effect_list = {
@@ -27,10 +27,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minTargetNumber = 1,
-				skill_id = 800993,
 				target = "TargetSelf",
+				minTargetNumber = 1,
 				nationality = 97,
+				skill_id = 800993,
 				check_target = {
 					"TargetPlayerFlagShip",
 					"TargetNationality"

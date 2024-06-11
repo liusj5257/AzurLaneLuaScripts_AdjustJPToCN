@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE11",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhedie_3",
-			bgm = "theme-aostelab",
-			stopbgm = true,
-			bgmDelay = 2,
-			say = "KABOOOM!",
+			side = 2,
 			soundeffect = "event:/battle/boom2",
+			bgmDelay = 2,
+			bgm = "theme-aostelab",
+			bgName = "bg_zhedie_3",
+			stopbgm = true,
+			say = "KABOOOM!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "All designated command ships have been successfully eliminated! The enemy line is in shambles!",
 			painting = {
 				alpha = 0.3,
@@ -107,10 +107,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now that the enemy's been crippled, we'll ride the momentum and push forward as one, right?",
 			painting = {
 				alpha = 0.3,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"That's the plan. We'll still need to take out enemies sequentially, according to their relative levels of risk. I'll re-assess the situation from that point.\"",
 			typewriter = {
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "As far as I can tell from the data links, Memphis' main fleet has been completely destroyed.",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "And yet, she's not said a word to us over the radio.",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "That's a bad omen. She's got to be planning a comeback.",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "If I was able to figure out her fleet's weakness, she's surely figured out mine as well.",
 			typewriter = {
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "That being, our carriers have an immense presence, but their protection is critically lacking.",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "I have successfully divided up her forces. However...",
 			typewriter = {
@@ -306,8 +306,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "If she regroups outside our recon range, then launches a focused assault on us, we'll be in serious trouble.",
 			typewriter = {
@@ -319,10 +319,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107270,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Status update. The blue team's main fleet has been destroyed. While our shipgirls have sustained no damage, we have lost 40% of our aircraft.",
 			painting = {
 				alpha = 0.3,
@@ -334,12 +334,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Memphis has yet to make a clear move. What shall we do?",
 			painting = {
 				alpha = 0.3,
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"For now, regroup in anticipation of an enemy ambush. Afterwards, we'll reorganize our groups.\"",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"Hammann, Langley, you'll swap places and turn on your electronic warfare gear.\"",
 			typewriter = {
@@ -371,8 +371,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"Langley, I need you to send out a duplicate of Hammann's signal near Yorktown, while Hammann turns her signal off altogether.\"",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "I've read all the materials about the Type II that I could get my hands on, and I'm still not sure if my proposal is actually doable...",
 			typewriter = {
@@ -391,12 +391,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
 			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Understood. I can do that.",
 			painting = {
 				alpha = 0.3,
@@ -446,8 +446,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"Correct. It will lure Memphis into attacking me while giving your group more fighting power.\"",
 			typewriter = {
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"It's a risky plan, but it's worth a shot.\"",
 			typewriter = {
@@ -485,12 +485,12 @@ return {
 			}
 		},
 		{
-			actor = 107270,
-			side = 2,
 			bgName = "bg_zhedie_3",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 107270,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Looking at the radar, it seems we have a bite already. She's sending her reserve fleet this way.",
 			painting = {
 				alpha = 0.3,
@@ -502,8 +502,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_3",
 			say = "\"Our aircraft will make short work of them before they get here, and she must know that. This reeks of a distraction to me...\"",
 			typewriter = {

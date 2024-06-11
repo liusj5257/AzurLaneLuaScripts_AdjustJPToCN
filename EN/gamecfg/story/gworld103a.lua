@@ -1,20 +1,20 @@
 return {
-	id = "GWORLD103A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "GWORLD103A",
 	skipTip = false,
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/8/tb-8",
+			dir = 1,
 			bgm = "level02",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Tutorial commencing. Transferring data...",
-			voice = "event:/tb/8/tb-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,11 +27,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/29/tb-29",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Data transfer complete. I will now explain my tactical assistance features.",
-			voice = "event:/tb/29/tb-29",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

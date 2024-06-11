@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUNUO8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUNUO8",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 404010,
 			side = 2,
-			nameColor = "#D6341D",
 			dir = 1,
 			blackBg = true,
+			actor = 404010,
+			nameColor = "#D6341D",
 			stopBGM = true,
 			say = "どんな相手だった？",
 			typewriter = {
@@ -24,12 +24,12 @@ return {
 			}
 		},
 		{
-			actor = 404020,
+			say = "妹の損傷より敵の情報を先に聞くなんて、さすがはシャルンホルスト姉さんですね。",
 			side = 1,
-			nameColor = "#D6341D",
 			dir = -1,
 			blackBg = true,
-			say = "妹の損傷より敵の情報を先に聞くなんて、さすがはシャルンホルスト姉さんですね。",
+			actor = 404020,
+			nameColor = "#D6341D",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

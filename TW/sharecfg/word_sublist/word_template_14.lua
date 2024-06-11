@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_14 = {}
 slot1 = slot0.word_template_14
 
-function temp()
+temp = function()
 	uv0["袭"] = {
 		["近"] = {
 			["平"] = {
@@ -21,7 +21,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["和"] = {
 		["锅"] = {
 			["枪"] = {
@@ -45,7 +45,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["粥"] = {
 		["永"] = {
 			["康"] = {
@@ -62,7 +62,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["轴"] = {
 		["永"] = {
 			["康"] = {

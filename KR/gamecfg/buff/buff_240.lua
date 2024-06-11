@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "制空权buff-1",
 	time = 0,
-	color = "yellow",
+	name = "制空权buff-1",
+	init_effect = "",
+	id = 240,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 240,
+	color = "yellow",
 	icon = 240,
 	last_effect = "",
 	effect_list = {

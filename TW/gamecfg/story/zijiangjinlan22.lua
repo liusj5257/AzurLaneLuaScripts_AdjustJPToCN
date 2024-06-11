@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN22",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg11",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "大棋盤·長門控制區第七回合",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "非也，那裏是故意而為之……",
 			painting = {
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg11",
 			say = "長門看向三笠的方向，有些猶豫地打開了通訊器。",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "正是。",
 			painting = {
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "非常感謝……",
 			painting = {
@@ -148,8 +148,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "無妨，反正在裡面坐的時間也夠長了。",
 			painting = {
@@ -183,8 +183,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "最後……抱歉。",
 			painting = {
@@ -218,8 +218,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "有什麼事等贏了之後再說。現在還在戰場之上，大將猶豫不定成何體統？貫徹妳的路線堅定行動吧。",
 			painting = {
@@ -235,8 +235,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "好，那吾就不客氣了。",
 			painting = {
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg11",
 			say = "通訊結束，長門深吁了一口氣，原先的猶豫逐漸褪去，變成了一副堅毅的神色。",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "呼…………江風前往F2，配合翔鶴拿下邊界據點EF12。",
 			painting = {
@@ -295,8 +295,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "春月就地展開回復結界，讓所有人都休息一下。",
 			painting = {
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg11",
 			say = "春月輕輕舞動起手中的神樂杖，如同春風一般的綠色雨點從天空落下，將周圍的所有人都籠罩其中。",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "呼啊~感覺身上有種暖洋洋的感覺……謝謝春月。",
 			painting = {
@@ -403,8 +403,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "吾認為，相互戰鬥沒有益處，吾想尋找一條不相互爭鬥也能取勝的道路，僅此而已。",
 			painting = {
@@ -420,8 +420,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "如此胸襟，不愧是長門大人……不過，如果武藏大人有命令的話，我還是不會手下留情哦。",
 			painting = {
@@ -453,8 +453,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "哎嘿嘿……那我就不客氣了。",
 			painting = {
@@ -504,8 +504,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "不知道欸……她之前被武藏大人派出去執行任務就沒回來，我也不知道去哪裡了。",
 			painting = {
@@ -555,8 +555,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "……這樣一來，吾的行動也結束了。",
 			painting = {

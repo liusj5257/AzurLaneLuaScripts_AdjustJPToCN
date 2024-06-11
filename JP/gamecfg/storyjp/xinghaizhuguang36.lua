@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_cg5",
+			bgm = "theme-theloversvi",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "？？？・外周防衛ライン",
-			bgm = "theme-theloversvi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "「エックス」の襲来に備えて、アビータ「ラバーズ」「エンプレス」がここに防衛ラインを構築した。",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "無数の迎撃武装、見渡す限りどこまでも伸びていく要塞施設群。",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "地上、水上、空中――天穹の彼方まで鋼の城壁がそびえ立つ。",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "何重に張り巡らされている要塞線の間を、アンチエックスの艦隊がまるで働き蜂のようにせっせと行き来している。",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "哨戒する人型個体に量産艦、運搬用大型工作機械搭載艦、無人艦載機にドローン――",
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "「少女」はまるで指揮者のように、無言でこの黒鉄でできた楽団で壮大な交響曲を奏でている。",
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
 			say = "その目は、水平線の向こうから近寄る観客を……「闇」をじっと見つめながら――",
@@ -110,29 +110,29 @@ return {
 			}
 		},
 		{
-			actor = 900322,
-			side = 2,
 			bgName = "bg_zhuguang_6",
-			hidePaintObj = true,
-			nameColor = "#DFDFDF",
-			say = "……あは♪久しぶりにイイモノ出すじゃない。アンチエックス",
+			side = 2,
 			bgm = "theme-richard",
+			actor = 900322,
+			nameColor = "#DFDFDF",
+			hidePaintObj = true,
+			say = "……あは♪久しぶりにイイモノ出すじゃない。アンチエックス",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

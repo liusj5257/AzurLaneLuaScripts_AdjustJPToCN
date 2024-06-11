@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"オペレーション・クリスマス！\n\n<size=45>七　オペレーション・クリスマス！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 205021,
-			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = -1,
 			bgmDelay = 2,
-			say = "よし！これでプレゼントは全部運べた！",
 			bgm = "main-christmas",
+			actor = 205021,
+			nameColor = "#a9f548",
+			say = "よし！これでプレゼントは全部運べた！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 201102,
+			say = "はあ、はあ……つ、疲れたぁああ……うち、役に立てて本当によかったぁ……",
 			side = 1,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "はあ、はあ……つ、疲れたぁああ……うち、役に立てて本当によかったぁ……",
+			actor = 201102,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -75,8 +75,8 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "後はロイヤルの皆に配るのみ！ふん、オールドレディの手さばきを見せてやるわ！",
 			typewriter = {
@@ -105,15 +105,15 @@ return {
 			}
 		},
 		{
-			actor = 205021,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 205021,
+			nameColor = "#a9f548",
 			say = "ふぅ…これで全部だ。あとは陛下にこの巨大ぬいぐるみを届ければ……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "ウォースパイト…私にプレゼントを用意してくれたの！？",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -164,12 +164,12 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			say = "陛下、メリークリスマス！この巨大饅頭ぬいぐるみはお気に召されたでしょうか…？",
 			side = 0,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "陛下、メリークリスマス！この巨大饅頭ぬいぐるみはお気に召されたでしょうか…？",
+			actor = 205021,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "…………べ、別にそんなに好きじゃないわ！うん！全然好きじゃないわよ！",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "お気に召さなかったようでしたら、このウォースパイト、直ちに処分いたします！",
 			typewriter = {
@@ -261,14 +261,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = -1,
 			bgName = "star_level_bg_100",
 			actor = 205021,
-			dir = -1,
 			nameColor = "#a9f548",
 			say = "これでみんなは楽しくクリスマスを過ごせるのかしら……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -296,8 +296,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "うん？この箱は……？",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "中から物音！？これは一体？？",
 			typewriter = {
@@ -330,8 +330,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 101312,
 			dir = 1,
+			actor = 101312,
 			nameColor = "#a9f548",
 			say = "おはよー――あ、あれー",
 			typewriter = {
@@ -344,12 +344,12 @@ return {
 			}
 		},
 		{
-			actor = 205021,
+			say = "ニコラス？なぜここに？",
 			side = 0,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "ニコラス？なぜここに？",
+			actor = 205021,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -364,8 +364,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -393,8 +393,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = -1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "そ、そうか……",
 			typewriter = {
@@ -407,11 +407,11 @@ return {
 			}
 		},
 		{
-			actor = 107061,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107061,
+			nameColor = "#a9f548",
 			say = "ウォースパイト、すまない！先程まで私と一緒にいたニコラスを見かけなかったか？",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -452,8 +452,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 101312,
 			dir = 1,
+			actor = 101312,
 			nameColor = "#a9f548",
 			say = "あれー、わたし、プレゼントになったー？エンタープライズにならいいよー",
 			typewriter = {
@@ -466,12 +466,12 @@ return {
 			}
 		},
 		{
-			actor = 205021,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
+			actor = 205021,
+			nameColor = "#a9f548",
 			say = "メリークリスマス！",
 			typewriter = {
 				speed = 0.05,

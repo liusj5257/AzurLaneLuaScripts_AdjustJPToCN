@@ -1,16 +1,16 @@
 return {
-	id = "YONGYEHUANGUANG37",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG37",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp3",
+			say = "無數冰柱彷彿被巨大的力量牽引一般，不自然的匯聚到一起，由海面延伸至天空，扭曲成一座詭異的巨型結構體。",
 			side = 2,
 			bgName = "bg_hms_0",
 			dir = 1,
-			say = "無數冰柱彷彿被巨大的力量牽引一般，不自然的匯聚到一起，由海面延伸至天空，扭曲成一座詭異的巨型結構體。",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "這裡是已經成為極地塞壬外圍據點的，曾經由餘燼開啟過的第一個奇異點------“王冠”。",
 			typewriter = {
 				speed = 0.05,
@@ -35,9 +35,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "面向“王冠”的方向，無窮無盡的塞壬正在由遠及近侵蝕著視野中的海面，景象宛如末日降臨一般。",
 			typewriter = {
 				speed = 0.05,
@@ -129,9 +129,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "雖然這次的難度確實有點高，但是......撤退、投降、逃跑的選項從來都不存在。",
 			typewriter = {
 				speed = 0.05,
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "帶領艦隊進行戰鬥，然後取得勝利。這是作為指揮官的職責、義務…和使命。",
 			typewriter = {
 				speed = 0.05,
@@ -158,17 +158,17 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "下達出擊指令",
-					autochoice = 1
+					autochoice = 1,
+					content = "下達出擊指令"
 				}
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccp_3",
-			actorName = "北方聯合眾人",
 			dir = 1,
+			actorName = "北方聯合眾人",
 			say = "γpa！！！！",
 			dialogShake = {
 				speed = 0.09,
@@ -185,15 +185,15 @@ return {
 			}
 		},
 		{
-			actor = 900218,
 			side = 2,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 900218,
+			nameColor = "#ffff4d",
 			say = "γpa…讓我們開始戰鬥吧，指揮官同志。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

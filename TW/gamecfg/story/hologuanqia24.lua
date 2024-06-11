@@ -1,15 +1,15 @@
 return {
-	id = "HOLOGUANQIA24",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA24",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "holo-fff-inst",
 			say = "次日",
+			side = 2,
+			dir = 1,
+			bgm = "holo-fff-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,11 +35,11 @@ return {
 			}
 		},
 		{
-			actor = 10500050,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 10500050,
 			dir = 1,
+			hideOther = true,
 			actorName = "万组",
 			say = "是，Z23老师！",
 			subActors = {
@@ -69,8 +69,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "是，Z23老师！",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
 			dir = 1,
+			actorName = "净化亲",
 			say = "来啦，虽然我也不是很确定，不过海域的核心控制装置通常位于整片海域概念上最重要的位置，而不是物理意义上的海域中心。",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
 			dir = 1,
+			actor = 900021,
+			actorName = "净化亲",
 			say = "真的失忆啦！！不过，只有对镜像海域的知识比较完整地保留了下来，我也不太清楚怎么回事",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -182,8 +182,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "holo服务器概念上的中心……难道是指hololive本社大楼么？！毕竟我们所有人都属于hololive呀",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "不过前方的海域倒是找到了一座明明昨天还没有出现的大迷宫，也许隐藏了什么东西也说不定。",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "虽然很感谢Z23妳的好意，但是，请让我也去前线吧。",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "咱、咱也要和吹雪一起去！咱是迷宫的建造者，对里面每一处机关都了如指掌，带路包在我身上吧！",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "那——",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "呜呜，我还想赌上反抗军队长的尊严，最先找到本社大楼的位置呢…",
 			typewriter = {
 				speed = 0.05,
@@ -410,8 +410,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "这种情况下就先放一放那些东西吧，阿库娅。",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
 			dir = 1,
+			actorName = "净化亲",
 			say = "（期待的目光）",
 			typewriter = {
 				speed = 0.05,
@@ -497,11 +497,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "净化亲",
 			dir = 1,
+			actor = 900021,
+			actorName = "净化亲",
 			say = "欸欸欸？！",
 			typewriter = {
 				speed = 0.05,
@@ -513,8 +513,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -538,10 +538,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "所有人",
+			side = 2,
 			dir = 1,
+			actorName = "所有人",
 			say = "噢！",
 			dialogShake = {
 				speed = 0.09,

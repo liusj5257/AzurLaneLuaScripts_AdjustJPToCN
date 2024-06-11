@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD402A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD402A",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307020,
-			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "前方就是達卡港.......？聽說這裡是維希教廷在非洲的一處重要軍事港口，怎麼會如此冷清......",
 			bgm = "bsm-7",
+			actor = 307020,
+			nameColor = "#a9f548",
+			say = "前方就是達卡港.......？聽說這裡是維希教廷在非洲的一處重要軍事港口，怎麼會如此冷清......",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -68,14 +68,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_port_dakaer",
 			actor = 401020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "歡迎來到達卡港，我是驅逐艦Z2，根據鐵血司令部的命令在此等候各位的到來。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "欸？達卡港只有妳一個人在嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -145,8 +145,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "我們就簡潔高效一些，直奔正題好了。各位請跟我來。",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2500
@@ -184,15 +184,15 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "鐵血正在進行的實驗路線，居然與我們完全不一樣.......",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "（呵，果然要取得真正有用的東西還是要靠自己的行動......）",
 			typewriter = {
 				speed = 0.05,

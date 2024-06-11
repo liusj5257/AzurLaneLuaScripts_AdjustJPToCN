@@ -1,6 +1,6 @@
 slot0 = class("BaseFormation")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._mainTf = slot1
 	slot0._heroContainer = slot2
 	slot0._heroInfoTpl = slot3
@@ -15,19 +15,19 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	pg.DelegateInfo.New(slot0)
 end
 
-function slot0.SetFleetVO(slot0, slot1)
+slot0.SetFleetVO = function(slot0, slot1)
 	slot0._currentFleetVO = slot1
 end
 
-function slot0.SetShipVOs(slot0, slot1)
+slot0.SetShipVOs = function(slot0, slot1)
 	slot0._shipVOs = slot1
 end
 
-function slot0.DisableTip(slot0)
+slot0.DisableTip = function(slot0)
 	slot0._disableTip = true
 end
 
-function slot0.ForceDropChar(slot0)
+slot0.ForceDropChar = function(slot0)
 	if slot0._currentDragDelegate then
 		slot0._forceDropCharacter = true
 
@@ -35,74 +35,74 @@ function slot0.ForceDropChar(slot0)
 	end
 end
 
-function slot0.AddHeroInfoModify(slot0, slot1)
+slot0.AddHeroInfoModify = function(slot0, slot1)
 	slot0._heroInfoModifyCb = slot1
 end
 
-function slot0.AddLongPress(slot0, slot1)
+slot0.AddLongPress = function(slot0, slot1)
 	slot0._longPressCb = slot1
 end
 
-function slot0.AddClick(slot0, slot1)
+slot0.AddClick = function(slot0, slot1)
 	slot0._click = slot1
 end
 
-function slot0.AddBeginDrag(slot0, slot1)
+slot0.AddBeginDrag = function(slot0, slot1)
 	slot0._beginDrag = slot1
 end
 
-function slot0.AddEndDrag(slot0, slot1)
+slot0.AddEndDrag = function(slot0, slot1)
 	slot0._endDrag = slot1
 end
 
-function slot0.AddCheckBeginDrag(slot0, slot1)
+slot0.AddCheckBeginDrag = function(slot0, slot1)
 	slot0._checkBeginDrag = slot1
 end
 
-function slot0.AddShiftOnly(slot0, slot1)
+slot0.AddShiftOnly = function(slot0, slot1)
 	slot0._shiftOnly = slot1
 end
 
-function slot0.AddRemoveShip(slot0, slot1)
+slot0.AddRemoveShip = function(slot0, slot1)
 	slot0._removeShip = slot1
 end
 
-function slot0.AddCheckRemove(slot0, slot1)
+slot0.AddCheckRemove = function(slot0, slot1)
 	slot0._checkRemove = slot1
 end
 
-function slot0.AddCheckSwitch(slot0, slot1)
+slot0.AddCheckSwitch = function(slot0, slot1)
 	slot0._checkSwitch = slot1
 end
 
-function slot0.AddSwitchToDisplayMode(slot0, slot1)
+slot0.AddSwitchToDisplayMode = function(slot0, slot1)
 	slot0._switchToDisplayModeHandler = slot1
 end
 
-function slot0.AddSwitchToShiftMode(slot0, slot1)
+slot0.AddSwitchToShiftMode = function(slot0, slot1)
 	slot0._switchToShiftModeHandler = slot1
 end
 
-function slot0.AddSwitchToPreviewMode(slot0, slot1)
+slot0.AddSwitchToPreviewMode = function(slot0, slot1)
 	slot0._swtichToPreviewModeHandler = slot1
 end
 
-function slot0.AddGridTipClick(slot0, slot1)
+slot0.AddGridTipClick = function(slot0, slot1)
 	slot0._gridTipClick = slot1
 end
 
-function slot0.AddLoadComplete(slot0, slot1)
+slot0.AddLoadComplete = function(slot0, slot1)
 	slot0._loadComplete = slot1
 end
 
-function slot0.GenCharInfo(slot0, slot1, slot2)
+slot0.GenCharInfo = function(slot0, slot1, slot2)
 	return {
 		heroInfoTF = slot1,
 		spineRole = slot2
 	}
 end
 
-function slot0.ClearHeroContainer(slot0)
+slot0.ClearHeroContainer = function(slot0)
 	if slot0._characterList then
 		slot0:RecycleCharacterList(slot0._currentFleetVO:getTeamByName(TeamType.Main), slot0._characterList[TeamType.Main])
 		slot0:RecycleCharacterList(slot0._currentFleetVO:getTeamByName(TeamType.Vanguard), slot0._characterList[TeamType.Vanguard])
@@ -112,7 +112,7 @@ function slot0.ClearHeroContainer(slot0)
 	removeAllChildren(slot0._heroContainer)
 end
 
-function slot0.LoadAllCharacter(slot0)
+slot0.LoadAllCharacter = function(slot0)
 	slot0:ClearHeroContainer()
 
 	slot0._characterList = {
@@ -121,7 +121,7 @@ function slot0.LoadAllCharacter(slot0)
 		[TeamType.Submarine] = {}
 	}
 
-	function slot1(slot0, slot1, slot2, slot3)
+	slot1 = function(slot0, slot1, slot2, slot3)
 		if uv0._exited then
 			return
 		end
@@ -203,7 +203,7 @@ function slot0.LoadAllCharacter(slot0)
 
 			uv1:SetAction("stand")
 
-			function slot3()
+			slot3 = function()
 				uv0:SwitchToDisplayMode()
 				uv0:SortSiblingIndex()
 
@@ -218,7 +218,7 @@ function slot0.LoadAllCharacter(slot0)
 				return
 			end
 
-			function slot4()
+			slot4 = function()
 				for slot3, slot4 in ipairs(uv0) do
 					if slot4.heroInfoTF == uv1 then
 						slot4.spineRole:Dispose()
@@ -258,7 +258,7 @@ function slot0.LoadAllCharacter(slot0)
 
 	slot2 = {}
 
-	function slot3(slot0, slot1)
+	slot3 = function(slot0, slot1)
 		for slot5, slot6 in ipairs(slot0) do
 			table.insert(uv0, function (slot0)
 				slot1 = SpineRole.New(uv0._shipVOs[uv1])
@@ -296,7 +296,7 @@ function slot0.LoadAllCharacter(slot0)
 	end)
 end
 
-function slot0.GetShipPos(slot0, slot1, slot2)
+slot0.GetShipPos = function(slot0, slot1, slot2)
 	if not slot2 then
 		return
 	end
@@ -304,7 +304,7 @@ function slot0.GetShipPos(slot0, slot1, slot2)
 	return table.indexof(slot1:getTeamByName(slot2:getTeamType()), slot2.id) or -1, slot3
 end
 
-function slot0.SetAllCharacterPos(slot0)
+slot0.SetAllCharacterPos = function(slot0)
 	_.each({
 		TeamType.Main,
 		TeamType.Vanguard,
@@ -316,7 +316,7 @@ function slot0.SetAllCharacterPos(slot0)
 	end)
 end
 
-function slot0.SetCharacterPos(slot0, slot1, slot2, slot3)
+slot0.SetCharacterPos = function(slot0, slot1, slot2, slot3)
 	assert(slot0._gridTFs[slot1], "没有找到编队显示对象_teamType:" .. tostring(slot1))
 
 	slot5 = slot3.spineRole
@@ -335,7 +335,7 @@ function slot0.SetCharacterPos(slot0, slot1, slot2, slot3)
 	slot5:resumeRole()
 end
 
-function slot0.ResetGrid(slot0, slot1, slot2)
+slot0.ResetGrid = function(slot0, slot1, slot2)
 	if not slot0._gridTFs[slot1] then
 		return
 	end
@@ -374,7 +374,7 @@ function slot0.ResetGrid(slot0, slot1, slot2)
 	end
 end
 
-function slot0.SwitchToShiftMode(slot0, slot1, slot2)
+slot0.SwitchToShiftMode = function(slot0, slot1, slot2)
 	assert(slot0._gridTFs[slot2], "没有找到编队显示对象_teamType:" .. tostring(slot2))
 
 	if slot0._switchToShiftModeHandler then
@@ -433,12 +433,12 @@ function slot0.SwitchToShiftMode(slot0, slot1, slot2)
 	end
 end
 
-function slot0.SwitchToDisplayMode(slot0)
+slot0.SwitchToDisplayMode = function(slot0)
 	if slot0._switchToDisplayModeHandler then
 		slot0._switchToDisplayModeHandler()
 	end
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			slot6 = slot5.heroInfoTF
 			slot7 = slot5.spineRole
@@ -463,7 +463,7 @@ function slot0.SwitchToDisplayMode(slot0)
 	slot0._shiftIndex = nil
 end
 
-function slot0.SwitchToPreviewMode(slot0)
+slot0.SwitchToPreviewMode = function(slot0)
 	if slot0._swtichToPreviewModeHandler then
 		slot0._swtichToPreviewModeHandler()
 	end
@@ -475,7 +475,7 @@ function slot0.SwitchToPreviewMode(slot0)
 	slot0:SetEnableForSpineInterface(false)
 end
 
-function slot0.TurnOffPreviewMode(slot0)
+slot0.TurnOffPreviewMode = function(slot0)
 	slot0:ResetGrid(TeamType.Vanguard)
 	slot0:ResetGrid(TeamType.Main)
 	slot0:ResetGrid(TeamType.Submarine)
@@ -483,7 +483,7 @@ function slot0.TurnOffPreviewMode(slot0)
 	slot0:SetEnableForSpineInterface(true)
 end
 
-function slot0.SetEnableForSpineInterface(slot0, slot1)
+slot0.SetEnableForSpineInterface = function(slot0, slot1)
 	_.each({
 		TeamType.Main,
 		TeamType.Vanguard,
@@ -499,7 +499,7 @@ function slot0.SetEnableForSpineInterface(slot0, slot1)
 	end)
 end
 
-function slot0.Shift(slot0, slot1, slot2, slot3)
+slot0.Shift = function(slot0, slot1, slot2, slot3)
 	assert(slot0._gridTFs[slot3], "没有找到编队显示对象_teamType:" .. tostring(slot3))
 
 	slot4 = slot0._characterList[slot3]
@@ -517,7 +517,7 @@ function slot0.Shift(slot0, slot1, slot2, slot3)
 	slot0._shiftIndex = slot2
 end
 
-function slot0.SortSiblingIndex(slot0)
+slot0.SortSiblingIndex = function(slot0)
 	slot1 = 0
 
 	for slot6, slot7 in ipairs({
@@ -557,7 +557,7 @@ function slot0.SortSiblingIndex(slot0)
 	end
 end
 
-function slot0.UpdateGridVisibility(slot0)
+slot0.UpdateGridVisibility = function(slot0)
 	slot1 = slot0._currentFleetVO
 	slot1 = slot1:getFleetType()
 
@@ -572,7 +572,7 @@ function slot0.UpdateGridVisibility(slot0)
 	end)
 end
 
-function slot0.RecycleCharacterList(slot0, slot1, slot2)
+slot0.RecycleCharacterList = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot1) do
 		if slot2[slot6] then
 			slot8.spineRole:Dispose()
@@ -582,7 +582,7 @@ function slot0.RecycleCharacterList(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	slot0._exited = true
 
 	slot0:RecycleCharacterList(slot0._currentFleetVO:getTeamByName(TeamType.Main), slot0._characterList[TeamType.Main])

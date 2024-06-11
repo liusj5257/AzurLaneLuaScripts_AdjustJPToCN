@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 5,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "属性降低",
 	stack = 1,
@@ -26,8 +26,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = -500
+				number = -500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -37,8 +37,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = -500
+				number = -500,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -48,8 +48,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = -500
+				number = -500,
+				attr = "airPower"
 			}
 		}
 	}

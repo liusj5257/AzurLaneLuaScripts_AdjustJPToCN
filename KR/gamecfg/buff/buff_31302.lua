@@ -8,16 +8,16 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 31302,
 					time = 10,
-					target = "TargetSelf",
-					skill_id = 31302
+					target = "TargetSelf"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "重樱敌人技能弹幕II",
 	time = 0,
+	name = "重樱敌人技能弹幕II",
+	init_effect = "",
 	picture = "",
 	desc = "每隔10秒，释放1次技能弹幕",
 	stack = 1,
@@ -31,9 +31,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 31302,
 				time = 10,
-				target = "TargetSelf",
-				skill_id = 31302
+				target = "TargetSelf"
 			}
 		}
 	}

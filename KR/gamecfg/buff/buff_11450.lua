@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "过载炮击",
 	init_effect = "",
+	id = 11450,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 11450,
+	color = "red",
 	icon = 11450,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 11451,
-				target = "TargetSelf",
-				time = 20
+				time = 20,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG27",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_hms_8",
-			nameColor = "#ff5c5c",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "呵呵呵呵，果然很震驚啊~！最開始見到的時候我也被嚇了一跳哦。",
 			bgm = "bsm-5",
+			actor = 403030,
+			nameColor = "#ff5c5c",
+			say = "呵呵呵呵，果然很震驚啊~！最開始見到的時候我也被嚇了一跳哦。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#ff5c5c",
 			say = "哦。那麼就請全知全能的歐根大人告訴無知的我，現在主力艦隊的偽裝已經被識破了，接下來應該怎麼辦呢？",
 			typewriter = {
@@ -182,9 +182,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 401020,
 			dir = 1,
 			blackBg = true,
+			actor = 401020,
 			nameColor = "#ff5c5c",
 			say = "真是歪理......我知道了，現在對艦隊下達作戰指令。各艦就位，準備戰鬥。",
 			typewriter = {

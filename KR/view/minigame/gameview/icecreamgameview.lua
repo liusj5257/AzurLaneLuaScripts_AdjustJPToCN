@@ -83,7 +83,7 @@ slot15 = {
 }
 slot16 = nil
 
-function slot17(slot0)
+slot17 = function(slot0)
 	if uv0 then
 		uv0:Pause(not slot0)
 	elseif slot0 then
@@ -97,24 +97,24 @@ function slot17(slot0)
 	end
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "IceCreamGameUI"
 end
 
-function slot0.initTimer(slot0)
+slot0.initTimer = function(slot0)
 	slot0.timer = Timer.New(function ()
 		uv0:onTimer()
 	end, uv0, -1)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initTimer()
 	slot0:initUI()
 	slot0:initGameUI()
 	slot0:openMainUI()
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.clickMask = slot0:findTF("ui/click_mask")
 	slot0.rtResource = slot0._tf:Find("Resource")
 	slot0.mainUI = slot0:findTF("ui/main_ui")
@@ -225,10 +225,10 @@ function slot0.initUI(slot0)
 	UpdateBeat:AddListener(slot0.handle)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 end
 
-function slot0.initGameUI(slot0)
+slot0.initGameUI = function(slot0)
 	slot0.gameUI = slot0:findTF("ui/game_ui")
 	slot0.timeTF = slot0.gameUI:Find("Score/time/Text")
 	slot0.scoreTF = slot0.gameUI:Find("Score/point/Text")
@@ -240,7 +240,7 @@ function slot0.initGameUI(slot0)
 		setActive(uv0.pauseUI, true)
 	end)
 
-	function slot4()
+	slot4 = function()
 		uv0:pauseGame()
 		pg.UIMgr.GetInstance():OverlayPanel(uv0.returnUI)
 		setActive(uv0.returnUI, true)
@@ -298,7 +298,7 @@ function slot0.initGameUI(slot0)
 	end)
 end
 
-function slot0.updateMainUI(slot0)
+slot0.updateMainUI = function(slot0)
 	slot1 = slot0:getGameUsedTimes()
 	slot2 = slot0:getGameTimes()
 
@@ -333,7 +333,7 @@ function slot0.updateMainUI(slot0)
 	slot0:checkGet()
 end
 
-function slot0.checkGet(slot0)
+slot0.checkGet = function(slot0)
 	if slot0:getUltimate() == 0 then
 		if slot0:getGameUsedTimes() < slot0:getGameTotalTime() then
 			return
@@ -347,13 +347,13 @@ function slot0.checkGet(slot0)
 	end
 end
 
-function slot0.openMainUI(slot0)
+slot0.openMainUI = function(slot0)
 	setActive(slot0.gameUI, false)
 	setActive(slot0.mainUI, true)
 	slot0:updateMainUI()
 end
 
-function slot0.readyStart(slot0)
+slot0.readyStart = function(slot0)
 	setActive(slot0.mainUI, false)
 	setActive(slot0.countUI, true)
 	slot0.countAnimator:Play("count")
@@ -361,7 +361,7 @@ function slot0.readyStart(slot0)
 	slot0:resetGame()
 end
 
-function slot0.resetGame(slot0)
+slot0.resetGame = function(slot0)
 	slot0.gameStartFlag = false
 	slot0.gamePause = false
 	slot0.gameEndFlag = false
@@ -377,8 +377,8 @@ function slot0.resetGame(slot0)
 	}
 	slot0.effectTrigger = {
 		bullet_time = {
-			waitTime = 0,
-			doingTime = 0
+			doingTime = 0,
+			waitTime = 0
 		},
 		wait_time_boost = {
 			count = 0
@@ -398,7 +398,7 @@ function slot0.resetGame(slot0)
 	slot0:setAnimatorSpeed(slot0._tf, 1)
 end
 
-function slot18(slot0, slot1, slot2, slot3)
+slot18 = function(slot0, slot1, slot2, slot3)
 	slot4 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -447,7 +447,7 @@ function slot18(slot0, slot1, slot2, slot3)
 		end
 	}
 
-	function slot5(slot0, slot1)
+	slot5 = function(slot0, slot1)
 		for slot5 = math.max(#slot1[1], 2), 1, -1 do
 			setActive(slot0:Find(slot5), slot1[1][slot5])
 
@@ -472,7 +472,7 @@ function slot18(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.CreateTarget(slot0, slot1)
+slot0.CreateTarget = function(slot0, slot1)
 	slot2 = table.remove(slot0.targetNameList, math.random(#slot0.targetNameList))
 
 	setAnchoredPosition(cloneTplTo(slot0.rtResource:Find("Character/" .. slot2), slot0.rtWalk, slot2), {
@@ -516,7 +516,7 @@ function slot0.CreateTarget(slot0, slot1)
 	table.insert(slot0.targetList, uv2(slot3, slot0, slot4, math.clamp(uv1[#slot4[1]][2] - slot0.countList[#slot4[1]], unpack(uv1[#slot4[1]]))))
 end
 
-function slot0.RemoveTarget(slot0)
+slot0.RemoveTarget = function(slot0)
 	assert(#slot0.targetList > 0)
 
 	slot1 = table.remove(slot0.targetList, 1)
@@ -526,7 +526,7 @@ function slot0.RemoveTarget(slot0)
 	Destroy(slot1._tf)
 end
 
-function slot0.ResultTarget(slot0, slot1, slot2, ...)
+slot0.ResultTarget = function(slot0, slot1, slot2, ...)
 	assert(#slot0.targetList > 0)
 	slot0:addScore(math.ceil(slot1 * slot0.targetList[slot0.targetIndex].pointBoost / 100), slot2)
 	slot0.targetList[slot0.targetIndex]:Result(slot2, ...)
@@ -548,7 +548,7 @@ function slot0.ResultTarget(slot0, slot1, slot2, ...)
 	end
 end
 
-function slot0.TriggerSpecialEffect(slot0, slot1, slot2)
+slot0.TriggerSpecialEffect = function(slot0, slot1, slot2)
 	if slot1 == 3 then
 		slot3 = slot0.targetList[slot0.targetIndex + 1]
 		slot4 = slot0.effectTrigger.bullet_time
@@ -582,7 +582,7 @@ function slot0.TriggerSpecialEffect(slot0, slot1, slot2)
 	end
 end
 
-function slot19(slot0, slot1, slot2, slot3, slot4)
+slot19 = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -634,7 +634,7 @@ function slot19(slot0, slot1, slot2, slot3, slot4)
 				}
 			}
 
-			function slot4(slot0, slot1, slot2)
+			slot4 = function(slot0, slot1, slot2)
 				slot0[slot1] = slot0[slot1] + slot2
 
 				return math.abs(slot0[slot1]) - math.abs(slot0[slot1])
@@ -878,7 +878,7 @@ function slot19(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot0.DoIceCream(slot0)
+slot0.DoIceCream = function(slot0)
 	setActive(slot0.rtTime, true)
 	setActive(slot0.rtMake, true)
 
@@ -908,7 +908,7 @@ function slot0.DoIceCream(slot0)
 	end
 end
 
-function slot0.startGame(slot0)
+slot0.startGame = function(slot0)
 	setActive(slot0.gameUI, true)
 
 	slot0.gameStartFlag = true
@@ -921,7 +921,7 @@ function slot0.startGame(slot0)
 	slot0:timerStart()
 end
 
-function slot0.RandomBG(slot0)
+slot0.RandomBG = function(slot0)
 	slot0.poolBG = slot0.poolBG or {
 		GroupD = {
 			1
@@ -973,7 +973,7 @@ function slot0.RandomBG(slot0)
 	end
 end
 
-function slot0.getIntervalTime(slot0)
+slot0.getIntervalTime = function(slot0)
 	if slot0.effectTrigger.bullet_time.doingTime > 0 then
 		return uv0 * uv1.bullet_time[1]
 	else
@@ -981,7 +981,7 @@ function slot0.getIntervalTime(slot0)
 	end
 end
 
-function slot0.onTimer(slot0)
+slot0.onTimer = function(slot0)
 	if slot0.effectTrigger.bullet_time.doingTime > 0 then
 		slot1.doingTime = slot1.doingTime - uv0
 
@@ -1018,7 +1018,7 @@ function slot0.onTimer(slot0)
 	end
 end
 
-function slot0.updateWalker(slot0)
+slot0.updateWalker = function(slot0)
 	for slot4 = #slot0.targetList, 1, -1 do
 		slot5 = slot0.targetList[slot4]
 		slot7 = slot5._tf:GetComponent(typeof(Animator)):GetCurrentAnimatorStateInfo(0)
@@ -1071,13 +1071,13 @@ function slot0.updateWalker(slot0)
 	end
 end
 
-function slot0.setAnimatorSpeed(slot0, slot1, slot2)
+slot0.setAnimatorSpeed = function(slot0, slot1, slot2)
 	for slot7 = 0, slot1:GetComponentsInChildren(typeof(Animator), true).Length - 1 do
 		slot3[slot7].speed = slot2
 	end
 end
 
-function slot0.timerStart(slot0)
+slot0.timerStart = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
@@ -1094,7 +1094,7 @@ function slot0.timerStart(slot0)
 	end
 end
 
-function slot0.timerStop(slot0)
+slot0.timerStop = function(slot0)
 	if slot0.timer.running then
 		slot0.timer:Stop()
 	end
@@ -1106,7 +1106,7 @@ function slot0.timerStop(slot0)
 	end
 end
 
-function slot0.addScore(slot0, slot1, slot2)
+slot0.addScore = function(slot0, slot1, slot2)
 	slot0.scoreNum = slot0.scoreNum + slot1
 
 	setText(slot0.scoreTF, slot0.scoreNum)
@@ -1127,21 +1127,21 @@ function slot0.addScore(slot0, slot1, slot2)
 	end
 end
 
-function slot0.pauseGame(slot0)
+slot0.pauseGame = function(slot0)
 	slot0.gamePause = true
 
 	slot0:timerStop()
 	slot0:pauseManagedTween()
 end
 
-function slot0.resumeGame(slot0)
+slot0.resumeGame = function(slot0)
 	slot0.gamePause = false
 
 	slot0:timerStart()
 	slot0:resumeManagedTween()
 end
 
-function slot0.endGame(slot0)
+slot0.endGame = function(slot0)
 	if slot0.gameEndFlag then
 		return
 	end
@@ -1160,7 +1160,7 @@ function slot0.endGame(slot0)
 	end, 0.1, nil)
 end
 
-function slot0.showEndUI(slot0)
+slot0.showEndUI = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.endUI)
 	setActive(slot0.endUI, true)
 
@@ -1183,23 +1183,23 @@ function slot0.showEndUI(slot0)
 	end
 end
 
-function slot0.getGameTimes(slot0)
+slot0.getGameTimes = function(slot0)
 	return slot0:GetMGHubData().count
 end
 
-function slot0.getGameUsedTimes(slot0)
+slot0.getGameUsedTimes = function(slot0)
 	return slot0:GetMGHubData().usedtime
 end
 
-function slot0.getUltimate(slot0)
+slot0.getUltimate = function(slot0)
 	return slot0:GetMGHubData().ultimate
 end
 
-function slot0.getGameTotalTime(slot0)
+slot0.getGameTotalTime = function(slot0)
 	return slot0:GetMGHubData():getConfig("reward_need")
 end
 
-function slot0.OnApplicationPaused(slot0, slot1)
+slot0.OnApplicationPaused = function(slot0, slot1)
 	if slot1 and not slot0.gameEndFlag and slot0.gameStartFlag and not slot0.gamePause then
 		slot0:pauseGame()
 		pg.UIMgr.GetInstance():OverlayPanel(slot0.pauseUI)
@@ -1207,7 +1207,7 @@ function slot0.OnApplicationPaused(slot0, slot1)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.gameEndFlag then
 		return
 	end
@@ -1243,7 +1243,7 @@ function slot0.onBackPressed(slot0)
 	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 	end

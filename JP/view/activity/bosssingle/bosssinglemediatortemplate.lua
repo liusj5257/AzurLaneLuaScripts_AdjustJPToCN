@@ -12,7 +12,7 @@ slot0.COMMANDER_FORMATION_OP = "BossSingleMediatorTemplate:COMMANDER_FORMATION_O
 slot0.ON_COMMANDER_SKILL = "BossSingleMediatorTemplate:ON_COMMANDER_SKILL"
 slot0.ON_PERFORM_COMBAT = "BossSingleMediatorTemplate:ON_PERFORM_COMBAT"
 
-function slot0.GetPairedFleetIndex(slot0)
+slot0.GetPairedFleetIndex = function(slot0)
 	if slot0 < Fleet.SUBMARINE_FLEET_ID then
 		return slot0 + 10
 	else
@@ -20,7 +20,7 @@ function slot0.GetPairedFleetIndex(slot0)
 	end
 end
 
-function slot0.BindBattleEvents(slot0)
+slot0.BindBattleEvents = function(slot0)
 	slot0.contextData.mediatorClass = slot0.class
 	slot1 = getProxy(FleetProxy)
 
@@ -147,9 +147,9 @@ function slot0.BindBattleEvents(slot0)
 		slot7, slot8, slot9 = uv0.getDockCallbackFuncs4ActicityFleet(slot3, slot1.fleetIndex, slot5)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			selectedMax = 1,
-			useBlackBlock = true,
 			selectedMin = 0,
+			useBlackBlock = true,
+			selectedMax = 1,
 			leastLimitMsg = i18n("ship_formationMediator_leastLimit"),
 			quitTeam = slot3 ~= nil,
 			teamFilter = slot5,
@@ -246,7 +246,7 @@ function slot0.BindBattleEvents(slot0)
 	end)
 end
 
-function slot0.GetBattleHanldDic(slot0)
+slot0.GetBattleHanldDic = function(slot0)
 	return {
 		[GAME.BEGIN_STAGE_DONE] = function (slot0, slot1)
 			slot2 = slot1:getBody()
@@ -273,7 +273,7 @@ function slot0.GetBattleHanldDic(slot0)
 	}
 end
 
-function slot0.getDockCallbackFuncs4ActicityFleet(slot0, slot1, slot2)
+slot0.getDockCallbackFuncs4ActicityFleet = function(slot0, slot1, slot2)
 	slot3 = getProxy(BayProxy)
 	slot4 = getProxy(FleetProxy)
 	slot5 = getProxy(ActivityProxy)

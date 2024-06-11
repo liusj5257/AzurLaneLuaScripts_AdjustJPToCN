@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "致命打击",
 	time = 0,
+	name = "致命打击",
+	init_effect = "",
 	picture = "",
 	desc = "序章俾斯麦使用大招",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
-				skill_id = 90002
+				skill_id = 90002,
+				target = "TargetSelf"
 			}
 		}
 	}

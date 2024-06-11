@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG10",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 1,
-			side = 2,
-			bgName = "bg_jichang_1",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 1,
+			bgName = "bg_jichang_1",
 			bgm = "idol-WISHNESS-inst",
 			actor = 312010,
 			nameColor = "#a9f548",
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "The powerhouse from last year, expert users of the Muse System! Here's Polaris, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 905030,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 905030,
+			nameColor = "#a9f548",
 			say = "Failed to process purpose of introduction. Requesting elaboration.",
 			effects = {
 				{
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 101253,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101253,
+			nameColor = "#a9f548",
 			say = "Ugh, it's so embarrassing... d-don't take pictures, you perverts!",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -338,8 +338,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "My Commander, are you watching me...?",
 			typewriter = {
@@ -419,10 +419,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103250,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Everyone, how are you all doing!!!",
 			typewriter = {
 				speed = 0.05,
@@ -450,12 +450,12 @@ return {
 			}
 		},
 		{
-			actor = 207110,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Unicorn, will you be all right by yourself?",
 			typewriter = {
 				speed = 0.05,
@@ -467,12 +467,12 @@ return {
 			}
 		},
 		{
-			actor = 206035,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206035,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Mhm, I'll be fine. Do your best too, okay?",
 			typewriter = {
 				speed = 0.05,
@@ -484,12 +484,12 @@ return {
 			}
 		},
 		{
-			actor = 207110,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yes, let's all do our best.",
 			typewriter = {
 				speed = 0.05,
@@ -501,12 +501,12 @@ return {
 			}
 		},
 		{
-			actor = 701050,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Wasn't that introduction too full of spirit?",
 			typewriter = {
 				speed = 0.05,
@@ -518,12 +518,12 @@ return {
 			}
 		},
 		{
-			actor = 108050,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That's what makes it fun, after all!",
 			typewriter = {
 				speed = 0.05,
@@ -535,12 +535,12 @@ return {
 			}
 		},
 		{
-			actor = 202280,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202280,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Everyone, it's almost time to get ready.",
 			typewriter = {
 				speed = 0.05,
@@ -552,13 +552,13 @@ return {
 			}
 		},
 		{
-			actor = 103250,
 			side = 2,
 			bgName = "bg_jichang_1",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 103250,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yeah. Let's go!",
 			typewriter = {
 				speed = 0.05,

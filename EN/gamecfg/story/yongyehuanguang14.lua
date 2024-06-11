@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG14",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -35,11 +35,11 @@ return {
 			}
 		},
 		{
-			actor = 403010,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 403010,
+			nameColor = "#ff5c5c",
 			say = "Don't worry, it's not your fault. There's only so much you can do with all those planes circling over us.",
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -77,15 +77,15 @@ return {
 			}
 		},
 		{
-			actor = 201230,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201230,
+			nameColor = "#a9f548",
 			say = "Thanks for holding Hipper back. We should be safe for a while.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -126,11 +126,11 @@ return {
 			}
 		},
 		{
-			actor = 201230,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201230,
+			nameColor = "#a9f548",
 			say = "How are their battleships moving that fast?!",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,8 +171,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "What do you mean...? I'm sure I saw a ship in the distance.",
 			typewriter = {
@@ -204,8 +204,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "I don't mind, but that runs the risk of it getting shot down... Wait, what's this?",
 			typewriter = {
@@ -220,14 +220,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_hms_7",
 			actor = 206060,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Tirpitz and Scharnhorst's anti-air guns aren't responding...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_hms_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "I knew it. The \"main fleet\" is actually a bunch of dummies.",
 			dialogShake = {
 				speed = 0.09,
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_7",
+			dir = 1,
 			say = "The evidence was clear. A speed that was inconsistent with that of a battleship. Anti-air weapons that didn't react... In other words, \"Tirpitz is not here.\"",
 			typewriter = {
 				speed = 0.05,

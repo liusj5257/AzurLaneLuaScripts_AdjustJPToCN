@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENGLIFU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANCHENGLIFU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Special Banquet\n\n<size=45>Chapter 5: The Pianist of the Banquet Hall</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Banquet Hall",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Banquet Hall",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -81,8 +81,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 105141,
 			dir = 1,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "The old me that knew only the sound of battle... would never have imagined a day like this...",
 			typewriter = {
@@ -114,10 +114,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 105141,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Aurora, is everything set up for the performance?",
+			dir = 1,
+			actor = 105141,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -135,8 +135,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 202152,
 			dir = 1,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "Yes, sorry to keep you waiting.",
 			typewriter = {
@@ -168,8 +168,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 105141,
 			dir = 1,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "That's fine by me. Let's continue where we left off.",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 202152,
 			dir = 1,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "But, we weren't born just to fight...",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 105141,
 			dir = 1,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "This is the most important lesson that I've learned since joining the fleet.",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 202152,
 			dir = 1,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "It's not just you who has changed. We all meet a bunch of different people, exchange ideas, and become better as a result.",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 202152,
 			dir = 1,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "I think you're much more approachable now than you were at first.",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 105141,
 			dir = 1,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "... I'll take that as a compliment.",
 			typewriter = {
@@ -318,8 +318,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 105141,
 			dir = 1,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "It was Massachusetts's recommendation. At first, I thought that the elegance of the piano was a poor match for someone as stolid as me...",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 105141,
 			dir = 1,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "For someone like me, who is not good at expressing emotions, music was actually the most suitable fit for me.",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 202152,
 			dir = 1,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "After hearing all that, it sounds like you and the piano were an unexpected match made in heaven.",
 			typewriter = {
@@ -417,8 +417,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 105141,
 			dir = 1,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "But, let's move on from the piano... Um, this dress doesn't look weird on me, does it?",
 			typewriter = {
@@ -434,8 +434,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 105141,
 			dir = 1,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "It's too different from what I normally wear... I feel like I can't settle down at all...",
 			typewriter = {
@@ -448,8 +448,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -461,8 +461,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 202152,
 			dir = 1,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "Hehehe... South Dakota, I don't think you're aware of your own charms yet~",
 			typewriter = {
@@ -478,8 +478,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 105141,
 			dir = 1,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "... What?",
 			typewriter = {
@@ -495,8 +495,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 202152,
 			dir = 1,
+			actor = 202152,
 			nameColor = "#a9f548",
 			say = "Don't worry about it. When Commander gets here, you can ask for yourself~",
 			typewriter = {
@@ -512,8 +512,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 105141,
 			dir = 1,
+			actor = 105141,
 			nameColor = "#a9f548",
 			say = "*sigh*...",
 			typewriter = {
@@ -558,12 +558,12 @@ return {
 			}
 		},
 		{
-			actor = 105141,
+			say = "South Dakota drew a deep breath...",
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "South Dakota drew a deep breath...",
+			actor = 105141,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2

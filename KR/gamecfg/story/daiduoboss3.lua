@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAIDUOBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAIDUOBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"싸워라! 로열 메이드 2nd\n\n<size=45>자매의 방어선</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202220,
-			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "언니, 이쪽은 아직 싸울 수 있어요! 지휘관님께 로열 메이드단의 저력을——",
 			bgm = "battle-boss-5",
+			actor = 202220,
+			nameColor = "#a9f548",
+			say = "언니, 이쪽은 아직 싸울 수 있어요! 지휘관님께 로열 메이드단의 저력을——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202210,
 			dir = 1,
+			actor = 202210,
 			nameColor = "#a9f548",
 			say = "자아~ 여기까지♪ 다이도의 계획에 전력을 다하라는 말은 없었으니, 우리도 힘을 좀 남겨두는 것이 어떨까요?",
 			typewriter = {
@@ -119,9 +119,9 @@ return {
 		{
 			actor = 202120,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "갑자기 이런 임무를 맡겨서 죄송합니다.",
 			flashout = {
 				dur = 0.25,
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "아니요, 오히려 메이드장께 감사드려야 하는걸요.",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "뉴페이스인 제가 이렇게 주인님과 모항을 위해 큰일을 할 수 있다니, 영광이에요.",
 			typewriter = {
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 202040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202040,
+			nameColor = "#a9f548",
 			say = "네…!",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -248,9 +248,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
+			bgName = "bg_story_nepu2",
 			actor = 202040,
 			nameColor = "#a9f548",
 			say = "기대… 받아 버렸다…",
@@ -288,9 +288,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
 			blackBg = true,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "……그래도 역시, 다이도는……",
 			typewriter = {

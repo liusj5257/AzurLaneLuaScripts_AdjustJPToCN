@@ -1,6 +1,6 @@
 slot0 = class("OreEnemiesControl")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.binder = slot1
 	slot0.collisionMgr = slot3
 	slot0._tf = slot2
@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0:Init()
 end
 
-function slot0.AddListener(slot0)
+slot0.AddListener = function(slot0)
 	slot1 = slot0.binder
 
 	slot1:bind(OreGameConfig.EVENT_ENEMY_DESTROY, function (slot0, slot1)
@@ -19,7 +19,7 @@ function slot0.AddListener(slot0)
 	end)
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0:AddListener()
 
 	slot0.roadTFs = {
@@ -33,8 +33,8 @@ function slot0.Init(slot0)
 	slot0:Reset()
 end
 
-function slot0.InitCreatList(slot0)
-	function slot1(slot0, slot1)
+slot0.InitCreatList = function(slot0)
+	slot1 = function(slot0, slot1)
 		if not uv0.createList[slot0] then
 			uv0.createList[slot0] = {
 				slot1
@@ -44,7 +44,7 @@ function slot0.InitCreatList(slot0)
 		end
 	end
 
-	function slot2(slot0, slot1, slot2)
+	slot2 = function(slot0, slot1, slot2)
 		assert(OreGameConfig.CREATE_CONFIG[slot2].num <= #Clone(OreGameConfig.CREATE_CONFIG[slot2].enemy), "create cfg illegal. ID: " .. slot2)
 
 		slot5 = slot0
@@ -85,7 +85,7 @@ function slot0.InitCreatList(slot0)
 	end
 end
 
-function slot0.CreateEnemy(slot0, slot1)
+slot0.CreateEnemy = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot7 = slot0.indexTags[slot6.roadID] + 1
 		slot0.indexTags[slot6.roadID] = slot7
@@ -105,7 +105,7 @@ function slot0.CreateEnemy(slot0, slot1)
 	end
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	slot0.time = 0
 	slot0.createList = {}
 
@@ -133,7 +133,7 @@ function slot0.Reset(slot0)
 	removeAllChildren(slot0.poolTF)
 end
 
-function slot0.OnTimer(slot0, slot1)
+slot0.OnTimer = function(slot0, slot1)
 	slot0.time = slot0.time + slot1
 
 	for slot5, slot6 in pairs(slot0.createList) do
@@ -151,7 +151,7 @@ function slot0.OnTimer(slot0, slot1)
 	end
 end
 
-function slot0.GetEnemy(slot0, slot1)
+slot0.GetEnemy = function(slot0, slot1)
 	if slot0.pools[slot1] and #slot0.pools[slot1] > 0 then
 		return table.remove(slot0.pools[slot1])
 	end
@@ -159,7 +159,7 @@ function slot0.GetEnemy(slot0, slot1)
 	return tf(Instantiate(findTF(slot0.tpls, slot1)))
 end
 
-function slot0.ReturnEnemy(slot0, slot1, slot2)
+slot0.ReturnEnemy = function(slot0, slot1, slot2)
 	if not slot0.pools[slot2] then
 		slot0.pools[slot2] = {}
 	end

@@ -7,14 +7,14 @@ slot4 = class("BattleEnvironmentBehaviourSpawn", slot0.Battle.BattleEnvironmentB
 slot0.Battle.BattleEnvironmentBehaviourSpawn = slot4
 slot4.__name = "BattleEnvironmentBehaviourSpawn"
 
-function slot4.Ctor(slot0)
+slot4.Ctor = function(slot0)
 	slot0._moveEndTime = nil
 	slot0._targetIndex = 0
 
 	uv0.super.Ctor(slot0)
 end
 
-function slot4.SetTemplate(slot0, slot1)
+slot4.SetTemplate = function(slot0, slot1)
 	uv0.super.SetTemplate(slot0, slot1)
 
 	slot0._content = slot1.content
@@ -23,7 +23,7 @@ function slot4.SetTemplate(slot0, slot1)
 	slot0._rounds = slot1.rounds
 end
 
-function slot4.doBehaviour(slot0)
+slot4.doBehaviour = function(slot0)
 	slot0._targetIndex = slot0._targetIndex + 1
 
 	if slot0._targetIndex <= slot0._rounds then
@@ -89,7 +89,7 @@ function slot4.doBehaviour(slot0)
 	slot0:doExpire()
 end
 
-function slot4.RemoveAlertTimer(slot0)
+slot4.RemoveAlertTimer = function(slot0)
 	if slot0._alertTimer then
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._alertTimer)
 	end
@@ -97,7 +97,7 @@ function slot4.RemoveAlertTimer(slot0)
 	slot0._alertTimer = nil
 end
 
-function slot4.PlayAlert(slot0, slot1)
+slot4.PlayAlert = function(slot0, slot1)
 	slot2 = slot0.range
 
 	if not slot0.alert_fx then
@@ -118,7 +118,7 @@ end
 
 slot5 = math
 
-function slot4.GenerateRandomRectanglePosition(slot0, slot1, slot2, slot3)
+slot4.GenerateRandomRectanglePosition = function(slot0, slot1, slot2, slot3)
 	slot4 = uv0.ceil(uv0.sqrt(slot2))
 	slot5 = {}
 
@@ -164,7 +164,7 @@ slot6 = {
 	Vector2(-0.33, -0.58)
 }
 
-function slot4.GenerateRandomCirclePosition(slot0, slot1, slot2)
+slot4.GenerateRandomCirclePosition = function(slot0, slot1, slot2)
 	slot3 = 1
 	slot4 = 1
 	slot5 = slot0
@@ -216,7 +216,7 @@ function slot4.GenerateRandomCirclePosition(slot0, slot1, slot2)
 	return slot7
 end
 
-function slot4.Dispose(slot0)
+slot4.Dispose = function(slot0)
 	slot0:RemoveAlertTimer()
 	table.clear(slot0)
 	uv0.super.Dispose(slot0)

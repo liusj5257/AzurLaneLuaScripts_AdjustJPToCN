@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 106161,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 106161,
+	color = "red",
 	icon = 106160,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				type = "airAssist",
-				number = -0.5
+				number = -0.5,
+				type = "airAssist"
 			}
 		},
 		{

@@ -1,11 +1,11 @@
 slot0 = class("WSMapPath", import("...BaseEntity"))
 slot0.Fields = {
-	wsObject = "table",
+	path = "table",
 	startPos = "table",
 	upOffset = "number",
 	theme = "table",
 	moveAction = "string",
-	path = "table",
+	wsObject = "table",
 	twId = "number",
 	paused = "boolean",
 	dirType = "number",
@@ -15,11 +15,11 @@ slot0.EventStartTrip = "WSMapPath.EventStartTrip"
 slot0.EventArrivedStep = "WSMapPath.EventArrivedStep"
 slot0.EventArrived = "WSMapPath.EventArrived"
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.theme = slot1
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.twId then
 		LeanTween.cancel(slot0.twId)
 	end
@@ -27,21 +27,21 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.UpdateObject(slot0, slot1)
+slot0.UpdateObject = function(slot0, slot1)
 	assert(slot1.GetModelAngles and slot1.UpdateModelAngles and slot1.UpdateModelAction)
 
 	slot0.wsObject = slot1
 end
 
-function slot0.UpdateAction(slot0, slot1)
+slot0.UpdateAction = function(slot0, slot1)
 	slot0.moveAction = slot1
 end
 
-function slot0.UpdateDirType(slot0, slot1)
+slot0.UpdateDirType = function(slot0, slot1)
 	slot0.dirType = slot1
 end
 
-function slot0.StartMove(slot0, slot1, slot2, slot3)
+slot0.StartMove = function(slot0, slot1, slot2, slot3)
 	slot0.startPos = slot1
 	slot0.path = slot2
 	slot0.upOffset = slot3 or 0
@@ -53,7 +53,7 @@ function slot0.StartMove(slot0, slot1, slot2, slot3)
 	slot0:MoveStep()
 end
 
-function slot0.MoveStep(slot0)
+slot0.MoveStep = function(slot0)
 	slot2 = slot0.path
 	slot3 = slot0.step > 0 and slot2[slot0.step] or slot0.startPos
 	slot4 = slot2[slot0.step + 1]
@@ -116,7 +116,7 @@ function slot0.MoveStep(slot0)
 	slot0:FlushPaused()
 end
 
-function slot0.UpdatePaused(slot0, slot1)
+slot0.UpdatePaused = function(slot0, slot1)
 	if slot0.paused ~= slot1 then
 		slot0.paused = slot1
 
@@ -124,7 +124,7 @@ function slot0.UpdatePaused(slot0, slot1)
 	end
 end
 
-function slot0.FlushPaused(slot0)
+slot0.FlushPaused = function(slot0)
 	if slot0.paused then
 		LeanTween.pause(slot0.twId)
 		slot0.wsObject:UpdateModelAction(WorldConst.ActionIdle)
@@ -134,13 +134,13 @@ function slot0.FlushPaused(slot0)
 	end
 end
 
-function slot0.CalcUpOffset(slot0, slot1, slot2)
+slot0.CalcUpOffset = function(slot0, slot1, slot2)
 	slot4 = math.clamp(math.sin((slot1 + slot2) / #slot0.path * math.pi), 0, 1) * slot0.upOffset
 
 	return Vector3(0, slot0.theme.cosAngle * slot4, -slot0.theme.sinAngle * slot4), slot4
 end
 
-function slot0.IsMoving(slot0)
+slot0.IsMoving = function(slot0)
 	return slot0.twId ~= nil
 end
 

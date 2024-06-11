@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2024 同盟活动EX 开场检测",
 	time = 3,
+	name = "2024 同盟活动EX 开场检测",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200762,
-				maxTargetNumber = 1,
 				target = "TargetSelf",
+				maxTargetNumber = 1,
 				check_target = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet"
@@ -31,8 +31,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200763,
-				minTargetNumber = 2,
 				target = "TargetSelf",
+				minTargetNumber = 2,
 				check_target = {
 					"TargetAllHelp",
 					"TargetPlayerVanguardFleet"

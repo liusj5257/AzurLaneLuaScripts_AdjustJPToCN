@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN27",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_xiangting_0",
-			stopbgm = true,
-			say = "ホワイトアウトした視界が元に戻り、目の前には荒廃した世界の風景が広がっていた。",
 			bgmDelay = 2,
 			bgm = "Beverly_short_inst",
+			stopbgm = true,
+			say = "ホワイトアウトした視界が元に戻り、目の前には荒廃した世界の風景が広がっていた。",
 			flashout = {
 				delay = 1,
 				dur = 1,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "倒壊し、半分海に沈んでいる文明の廃墟。ビスマルクは前方に人影があることに気づいた。",
 			typewriter = {
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "修道女の格好をしたその女性は背中を見せており、灰色の太陽がそんな彼女の寂しい姿の影を水面に落としていた。",
 			typewriter = {
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "影の周りでは、キラキラとしたものが散らばっている。",
 			typewriter = {
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自律艤装「ゲリュオン」",
+			side = 2,
 			bgName = "bg_xiangting_0",
 			nameColor = "#ffa500",
 			say = "…………………",
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………あの子は一体……",
 			painting = {
 				alpha = 0.3,
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "艤装に待機を命じ、ビスマルクは後ろから女性の横に回った。",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "雰囲気と同じく寂しい表情。そして水面にあったのは――",
 			typewriter = {
@@ -116,10 +116,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "メンタル……キューブ？！",
 			painting = {
 				alpha = 0.3,
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "理由もなく、女性の足元にある輝きの正体がビスマルクの脳裏に浮かび上がった。",
 			typewriter = {
@@ -144,10 +144,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			actorName = "？？？",
+			nameColor = "#a020f0",
 			dir = 1,
 			actor = 9712010,
-			nameColor = "#a020f0",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "どうして…こんなことに……",
 			painting = {
@@ -160,13 +160,13 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			nameColor = "#a020f0",
-			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "bg_xiangting_0",
+			dir = 1,
+			actor = 9712010,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "私……何もできなかった……",
 			painting = {
 				alpha = 0.3,
@@ -181,10 +181,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			actorName = "？？？",
+			nameColor = "#a020f0",
 			dir = 1,
 			actor = 9712010,
-			nameColor = "#a020f0",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "ごめんなさい…ごめんなさい……",
 			painting = {
@@ -200,10 +200,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			actorName = "？？？",
+			nameColor = "#a020f0",
 			dir = 1,
 			actor = 9712010,
-			nameColor = "#a020f0",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "あなたたちが戦っていたのに……どうして私だけが生き残って……",
 			painting = {
@@ -219,10 +219,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			actorName = "？？？",
+			nameColor = "#a020f0",
 			dir = 1,
 			actor = 9712010,
-			nameColor = "#a020f0",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "治すべきなのに……",
 			painting = {
@@ -238,10 +238,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			actorName = "？？？",
+			nameColor = "#a020f0",
 			dir = 1,
 			actor = 9712010,
-			nameColor = "#a020f0",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "あなたたちを全員治さないといけなかったのに……",
 			painting = {
@@ -254,13 +254,13 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			nameColor = "#a020f0",
-			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "bg_xiangting_0",
+			dir = 1,
+			actor = 9712010,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "私だけが生き残っては……",
 			painting = {
 				alpha = 0.3,
@@ -275,10 +275,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			actorName = "？？？",
+			nameColor = "#a020f0",
 			dir = 1,
 			actor = 9712010,
-			nameColor = "#a020f0",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "私だけでは意味がないじゃありませんか……",
 			painting = {
@@ -293,11 +293,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_xiangting_0",
-			actorName = "？？？",
-			dir = 1,
-			actor = 9712010,
 			nameColor = "#a020f0",
+			dir = 1,
+			bgName = "bg_xiangting_0",
+			actor = 9712010,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "…まだ、間に合います",
 			painting = {
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -320,13 +320,13 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			nameColor = "#a020f0",
-			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "？？？",
 			side = 2,
+			bgName = "bg_xiangting_0",
+			dir = 1,
+			actor = 9712010,
+			actorName = "？？？",
+			hidePaintObj = true,
 			say = "かけらをこれだけ集めました……",
 			painting = {
 				alpha = 0.3,
@@ -341,10 +341,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			actorName = "？？？",
+			nameColor = "#a020f0",
 			dir = 1,
 			actor = 9712010,
-			nameColor = "#a020f0",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "組み合わせて、元通りにしたら…！",
 			painting = {
@@ -360,10 +360,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			actorName = "？？？",
+			nameColor = "#a020f0",
 			dir = 1,
 			actor = 9712010,
-			nameColor = "#a020f0",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "たとえそれがテセウスの船だったとしても……！！！",
 			painting = {
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "独り言をこぼしていた女性は突然しゃがみ込み、必死に輝きを発するかけらを集め始めた。",
 			typewriter = {
@@ -391,12 +391,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "大丈夫か！しっかりして！",
 			painting = {
 				alpha = 0.3,
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "返事はない。",
 			typewriter = {
@@ -423,8 +423,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "手に怪我があり、血が流れていても、必死に続けている。",
 			typewriter = {
@@ -436,10 +436,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（この子…幻ではなく、ここに閉じ込められている艦船なの…？）",
 			painting = {
 				alpha = 0.3,
@@ -451,12 +451,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "すまないが、話を聞いてもらうぞ",
 			painting = {
 				alpha = 0.3,
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "ウルリッヒの時と同じく相手が怪我しないように、ゲリュオンに耳元で咆哮するよう指示した。",
 			typewriter = {
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "自分以外の存在に今まで気づかなかったようで、女性ははっとなってビスマルクの方へと振り向いた。",
 			typewriter = {
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "一瞬驚きを見せたものの――すぐさっきまでの虚しい表情に戻り作業に戻った。",
 			typewriter = {
@@ -498,12 +498,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "……このNYシティにまだ艦船が訪れるんですね",
 			painting = {
 				alpha = 0.3,
@@ -518,10 +518,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "あなたが今踏んでいるところは、かつて栄華を極めた都会の中心地",
 			painting = {
 				alpha = 0.3,
@@ -536,10 +536,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "そしてあなたがやってきた方角は、ランドマークとなる建物が多かった港エリア",
 			painting = {
 				alpha = 0.3,
@@ -554,10 +554,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "……今となってはもう何一つ面影もありませんね",
 			painting = {
 				alpha = 0.3,
@@ -572,10 +572,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "私は艦船――工作艦ヴェスタル",
 			painting = {
 				alpha = 0.3,
@@ -587,12 +587,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "鉄血所属の戦艦、ビスマルクだ。そちらは「META」…で相違ないな？",
 			painting = {
 				alpha = 0.3,
@@ -607,10 +607,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "はい。よくご存知で",
 			painting = {
 				alpha = 0.3,
@@ -622,12 +622,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……どうしてこんなところに？",
 			painting = {
 				alpha = 0.3,
@@ -639,12 +639,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "こっちのセリフです。あなたはどうしてここに訪れたのですか？",
 			painting = {
 				alpha = 0.3,
@@ -659,10 +659,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "仲間たちを助けるためだ",
 			painting = {
 				alpha = 0.3,
@@ -677,10 +677,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "……自分ではないのですか？",
 			painting = {
 				alpha = 0.3,
@@ -692,8 +692,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "「META」のヴェスタルは片手を伸ばし、ビスマルクの艤装に軽く触れた。",
 			typewriter = {
@@ -705,10 +705,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "なるほど。ほかの子と変わっていますね",
 			painting = {
 				alpha = 0.3,
@@ -720,8 +720,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "興味が湧いたのか、ヴェスタルは立ち上がりビスマルクをまっすぐ見据えた。",
 			typewriter = {
@@ -733,10 +733,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "頑張っているようですが、一時しのぎであることを理解していますね",
 			painting = {
 				alpha = 0.3,
@@ -748,12 +748,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………ああ。そのつもりだ",
 			painting = {
 				alpha = 0.3,
@@ -765,12 +765,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "ならばいいですが…念のために医者として説明しますね",
 			painting = {
 				alpha = 0.3,
@@ -785,10 +785,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "リュウコツは大きく損傷しており、侵食の状況も最悪です",
 			painting = {
 				alpha = 0.3,
@@ -803,10 +803,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "私の知る限り、それを直す方法は存在しません",
 			painting = {
 				alpha = 0.3,
@@ -821,10 +821,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "そこであなたはリュウコツの「概念」で補強し、さらにその概念に「ビスマルク」が受けた損傷…侵食を転嫁しています",
 			painting = {
 				alpha = 0.3,
@@ -839,10 +839,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "合っていますか？",
 			painting = {
 				alpha = 0.3,
@@ -857,10 +857,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そこまで分かるのか…",
 			painting = {
 				alpha = 0.3,
@@ -875,10 +875,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "補強をするにしても、使われる「概念」はリュウコツと同格のものでなければ効果も数段落ちます",
 			painting = {
 				alpha = 0.3,
@@ -890,12 +890,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "素晴らしい発想ですが、それでもあなたが戦い続ける限り、リュウコツの侵食を止めることはできません",
 			painting = {
 				alpha = 0.3,
@@ -910,10 +910,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "たとえそれがどんなに遅くても、必ず進行するのです",
 			painting = {
 				alpha = 0.3,
@@ -925,8 +925,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "ヴェスタルは黒鉄の艤装を優しく撫でた。",
 			typewriter = {
@@ -935,8 +935,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xiangting_0",
 			say = "まるで警戒を解いた小動物のように、艤装――ゲリュオンはただ無言で首を軽く傾かせた。",
 			typewriter = {
@@ -945,12 +945,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……なにかしたのか？",
 			painting = {
 				alpha = 0.3,
@@ -965,10 +965,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "戦士にして心優しき牛飼い――いい名前ですね。同じ「概念」が3つあるところもピッタリです",
 			painting = {
 				alpha = 0.3,
@@ -980,12 +980,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "侵食の許容量が増えるよう、少しフレームを補強しました。お代はいりません",
 			painting = {
 				alpha = 0.3,
@@ -997,12 +997,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（それだけじゃない。今ので艤装の調子まで整った…）",
 			painting = {
 				alpha = 0.3,
@@ -1017,10 +1017,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（これが彼女の「META」としての力だというのか？）",
 			painting = {
 				alpha = 0.3,
@@ -1037,12 +1037,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "それより、ほかに聞きたいこともありますね？",
 			painting = {
 				alpha = 0.3,
@@ -1054,12 +1054,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "無粋だと思うが…あなたはこの場所が夢の中だと気づいているか？",
 			painting = {
 				alpha = 0.3,
@@ -1074,10 +1074,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "ええ、おかげさまで。ここは――「ミッドガルドの塔」が作った夢の中でしょう？",
 			painting = {
 				alpha = 0.3,
@@ -1092,10 +1092,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "「塔」に異常があることに気づいてここにやってきたのですが、見ての通り夢に囚われています",
 			painting = {
 				alpha = 0.3,
@@ -1107,12 +1107,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ならいいけど……これからどうするつもり？",
 			painting = {
 				alpha = 0.3,
@@ -1127,10 +1127,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "…………………………",
 			painting = {
 				alpha = 0.3,
@@ -1145,10 +1145,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "特に予定はないですね…",
 			painting = {
 				alpha = 0.3,
@@ -1163,10 +1163,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "この鏡面海域の異変を作り出したものは私の手に負えそうにありませんし、ここからの脱出も叶いません",
 			painting = {
 				alpha = 0.3,
@@ -1178,12 +1178,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "仲間ならこの状況を切り抜けるかもしれませんが、私ではどうすることもできません",
 			painting = {
 				alpha = 0.3,
@@ -1198,10 +1198,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "もし外に連絡できれば、あるいは助かるかもしれませんが",
 			painting = {
 				alpha = 0.3,
@@ -1216,10 +1216,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "今はどうしようもありませんね",
 			painting = {
 				alpha = 0.3,
@@ -1234,10 +1234,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "つまりこちらが協力を申し出せば受け入れてくれる…ということか？",
 			painting = {
 				alpha = 0.3,
@@ -1252,10 +1252,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "断る理由はないですね",
 			painting = {
 				alpha = 0.3,
@@ -1267,12 +1267,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "予め言っておきますが、私は「余燼」ではありません。あなたたちの前に痕跡を残したり、あなたたちの会話を聞いたりしたのは不本意です",
 			painting = {
 				alpha = 0.3,
@@ -1287,10 +1287,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……………鏡面海域にいたもう一人の正体不明の「META」はあなただったのね",
 			painting = {
 				alpha = 0.3,
@@ -1305,10 +1305,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "はい。フリードリヒの行方を教えられず、申し訳ございません",
 			painting = {
 				alpha = 0.3,
@@ -1320,12 +1320,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こっちの事情を聞いたのはよしとしよう。「砂時計」の「くびれ」……分かるか？",
 			painting = {
 				alpha = 0.3,
@@ -1337,12 +1337,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "逆さまの街のことですね。あなたたちはそれを見たのですか？",
 			painting = {
 				alpha = 0.3,
@@ -1357,10 +1357,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "中心にある「塔」もな。それの正体を教えてくれるか？",
 			painting = {
 				alpha = 0.3,
@@ -1375,10 +1375,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "おそらくはこの鏡面海域の中枢施設でしょう",
 			painting = {
 				alpha = 0.3,
@@ -1393,10 +1393,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "しかし解せないですね。なぜあなたはそこを調べなかったのですか？",
 			painting = {
 				alpha = 0.3,
@@ -1411,10 +1411,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はぁ…「砂時計」の構造も判明したばかりだ。そんな無茶は言わないでほしいのだが",
 			painting = {
 				alpha = 0.3,
@@ -1426,12 +1426,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "隠すものでもないが――正直そこへの行き方を探している途中だ",
 			painting = {
 				alpha = 0.3,
@@ -1446,10 +1446,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「ミッドガルドの塔」にある「扉」を通れば、侵食を拡散させるだけで、あそこには現状たどり着く方法がわからない",
 			painting = {
 				alpha = 0.3,
@@ -1464,10 +1464,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "ですから、こうして「夢」の中で答えを求めているのですね。私も同じです",
 			painting = {
 				alpha = 0.3,
@@ -1482,10 +1482,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それのことだが…実は一つ手がかりがある",
 			painting = {
 				alpha = 0.3,
@@ -1497,12 +1497,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あなたがどこまでセイレーンの情報を掴んでいるのかによって、理解も変わるが…",
 			painting = {
 				alpha = 0.3,
@@ -1514,12 +1514,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "………教えてください",
 			painting = {
 				alpha = 0.3,
@@ -1534,10 +1534,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "分かった。では――",
 			painting = {
 				alpha = 0.3,
@@ -1549,14 +1549,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a020f0",
+			stopbgm = true,
 			side = 2,
-			bgName = "bg_xiangting_0",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_xiangting_0",
 			bgm = "story-bismark-determination",
 			actor = 9712010,
-			stopbgm = true,
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "ここにたどり着いたように、「侵食」と同じ「心象」で転移する……？",
 			painting = {
@@ -1568,17 +1568,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1589,10 +1589,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "ヘレナも似たようなことをしていましたね…「心象」かどうかは怪しいところですが…",
 			painting = {
 				alpha = 0.3,
@@ -1604,12 +1604,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……ヘレナ？",
 			painting = {
 				alpha = 0.3,
@@ -1624,10 +1624,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "いいえ、あなたが提案したことは一理あると思います",
 			painting = {
 				alpha = 0.3,
@@ -1639,12 +1639,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "心象を具現化させた夢ですから、その出口もまた想いによって作られましょう",
 			painting = {
 				alpha = 0.3,
@@ -1659,10 +1659,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "キューブの力、この鏡面海域の構造さえ許してくれれば、実現できる話です",
 			painting = {
 				alpha = 0.3,
@@ -1677,10 +1677,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「結界」と同じ方法での転移……ね",
 			painting = {
 				alpha = 0.3,
@@ -1695,10 +1695,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "はい。そうだと思います",
 			painting = {
 				alpha = 0.3,
@@ -1710,12 +1710,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "確かあなたがここにたどり着くまで、二通りの夢を見ていましたのね",
 			painting = {
 				alpha = 0.3,
@@ -1730,10 +1730,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "それを更に「辿る」ことができれば、もしかしたら侵食が通る「くびれ」に行けるかもしれません",
 			painting = {
 				alpha = 0.3,
@@ -1748,10 +1748,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "すみませんが…まずあなたたちの夢に案内してもらえますか",
 			painting = {
 				alpha = 0.3,
@@ -1763,12 +1763,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_xiangting_0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もちろん。ゲリュオン、そろそろ戻る時間だ――",
 			painting = {
 				alpha = 0.3,

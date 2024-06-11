@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_153",
+			nameColor = "#A9F548FF",
 			actorName = "극중 내레이션",
-			stopbgm = true,
-			paintingNoise = true,
+			bgName = "star_level_bg_153",
 			bgm = "cw-story",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
+			paintingNoise = true,
 			hidePaintObj = true,
 			say = "\"하얀 안개가 걷히자, 나그네는 자신이 개쩌는 설산 속에 있다는 걸 깨달았다!\"",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -41,11 +41,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_153",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……가, 갑자기 배경이 설산으로 바뀌었어!",
@@ -100,10 +100,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"현실고증 갓벽한 눈보라의 기세에 나그네는 체력이 점점 고갈되어 갔다.\"",
 			typewriter = {
@@ -115,10 +115,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"아니, 대체 누가 이런 날씨에 산을 오른대? 진짜 어이 상실~\"",
 			typewriter = {
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_153",
 			factiontag = "독점욕이 강한 작은 악마",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그것보다 지금 이거, 오와리 목소리 맞지? 대체 뭐 하는 거야?",
@@ -167,10 +167,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"난 오와리가 아니라 해설자야!\"",
 			typewriter = {
@@ -182,10 +182,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"그리고 하츠… 아니 당신들은 극 중 등장인물이라고!\"",
 			typewriter = {
 				speed = 0.05,
@@ -193,11 +193,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_153",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아하! 이게 바로 요괴 극단이 제공하는 여흥 거리구나!",
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_153",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "참가형? ……재밌겠다!",
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -261,10 +261,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"그럼 계속한다?\"",
 			typewriter = {
 				speed = 0.05,
@@ -275,10 +275,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"음… 나그네는 후덜덜한 눈보라 속을 필사적으로 걸었다. 뿌엥~\"",
 			typewriter = {
@@ -290,10 +290,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"근데 체력이 완전 바닥이라 의식이 날아갈랑 말랑 했다!\"",
 			typewriter = {
@@ -305,10 +305,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"그때! 눈앞에 웬 산장이 보였다!\"",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -366,11 +366,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			paintingNoise = true,
-			actorName = "극중 내레이션",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"나그네들은 떨리는 손으로 문을 열고, 산장으로 들어갔다. 그런데…\"",
 			typewriter = {
@@ -378,17 +378,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -399,10 +399,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"개고생한 보람이 있었는지 산장 내부는 완전 쩔었다. 벽은 두꺼우면서도 튼튼했고, 먹을 것도 장작도 충분했다!\"",
 			typewriter = {
 				speed = 0.05,
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "다행이다… 장작으로 불을 피우면 금방 따뜻해질 거야!",
@@ -428,11 +428,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "둥실이와 함께",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "먹을 것도 있으니까, 배고플 걱정도 없어.",
@@ -465,11 +465,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "괜찮아, 카스미! 산장은 원래 그러라고 만든 곳이야!",
@@ -483,11 +483,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "에헤헷, 그럼 바로 고기를 구워서…… 오~ 딱 좋은데!",
@@ -501,8 +501,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -511,11 +511,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그럼 배고프니까 나 먼저 먹을게! 맛있겠다~",
@@ -532,10 +532,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"구사일생으로 눈보라에서 빠져나온 나그네들은 모닥불을 둘러싸고 맛있는 음식을 먹으며 이야기를 나누었다.\"",
 			typewriter = {
 				speed = 0.05,
@@ -546,10 +546,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_165",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"바로 그때! 쿵! 하는 소리와 함께 문이 활짝 열려, 눈 섞인 바람이 산장 안을 휘몰아쳤다.\"",
 			typewriter = {
@@ -558,11 +558,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "으아아앗! 빨리 문을 닫아! 어서!",
@@ -576,8 +576,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -608,27 +608,27 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"겨우 문을 닫은 나그네들. 산장은 다시 평화를 되찾았다.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -639,10 +639,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "극중 내레이션",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"안심하고 있던 그때, 어느샌가 사람이 하나 늘어나 있었다!\"",
 			typewriter = {
 				speed = 0.05,
@@ -650,8 +650,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "화난 설녀",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "이번에는 설녀 연극 작전 중",
 			nameColor = "#A9F548FF",
@@ -690,11 +690,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "응? 나는 아무 말도 안 했는데?",
@@ -708,8 +708,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "화난 설녀",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "이번에는 설녀 연극 작전 중",
 			nameColor = "#A9F548FF",
@@ -729,8 +729,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "화난 설녀",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "이번에는 설녀 연극 작전 중",
 			nameColor = "#A9F548FF",
@@ -769,8 +769,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -779,11 +779,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하츠즈키, 진정해! 여기가 당신 집이라는 증거 있어?",
@@ -797,8 +797,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "화난 설녀",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "이번에는 설녀 연극 작전 중",
 			nameColor = "#A9F548FF",
@@ -818,11 +818,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "모두? 토지 권리증명서는 있어? 이 산장의 건축 허가서는? 그것도 없으면서 내 거니 뭐니 하는 건 아니겠지?",
@@ -836,8 +836,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "화난 설녀",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "이번에는 설녀 연극 작전 중",
 			nameColor = "#A9F548FF",
@@ -860,10 +860,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_165",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"그때! 쿵!하고 문이 활짝 열리며 눈 섞인 바람이 다시 산장 안으로 들이쳤다!\"",
 			typewriter = {
@@ -894,10 +894,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "성실하고 드센 설녀",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "바보 같은 인간! 누가 맘대로 산장에 들어오라고 했어? 벌로 얼음덩이로 만들어 주겠어♪",
 			typewriter = {
 				speed = 0.05,
@@ -905,11 +905,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "둥실이와 함께",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "사카와?",
@@ -926,10 +926,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "성실하고 드센 설녀",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "정말 이 바보가! 나는 설녀! 사카와가 아니라구!",
 			typewriter = {
 				speed = 0.05,
@@ -969,11 +969,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하아… 설녀가 두 명이라니… 이거 괜찮은 거야?",
@@ -990,10 +990,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "성실하고 드센 설녀",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "내가 유일한 설녀야! 자, 두려움에 벌벌 떨라구! 너희의 함선 능력은 여기선 발휘할 수……",
 			typewriter = {
 				speed = 0.05,
@@ -1001,11 +1001,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "자, 잠깐! 그래서 누가 진짜 설녀라는 건데?",
@@ -1019,8 +1019,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "화난 설녀",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "이번에는 설녀 연극 작전 중",
 			nameColor = "#A9F548FF",
@@ -1043,10 +1043,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "성실하고 드센 설녀",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이 녀석은 가짜고 내가 진짜야!",
 			typewriter = {
 				speed = 0.05,
@@ -1057,10 +1057,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "성실하고 드센 설녀",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(작은 목소리로)…라고 각본에 적혀 있잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -1068,8 +1068,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "화난 설녀",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "이번에는 설녀 연극 작전 중",
 			nameColor = "#A9F548FF",
@@ -1092,10 +1092,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_165",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"엥? …뭐, 이렇게 설녀는 두 사람이 되었는데……\"",
 			typewriter = {
@@ -1107,10 +1107,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_165",
-			paintingNoise = true,
-			actorName = "극중 내레이션",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "극중 내레이션",
 			hidePaintObj = true,
 			say = "\"그때! 또 쿵! 하고 문이 열리는 소리가 들렸다!\"",
 			typewriter = {
@@ -1151,11 +1151,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "둥실이와 함께",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……얼려줄 거라고?",
@@ -1172,10 +1172,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301040,
 			actorName = "의욕이 바닥인 설녀",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아, 응… 얼려줄 거야…",
 			typewriter = {
 				speed = 0.05,
@@ -1205,10 +1205,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301040,
 			actorName = "의욕이 바닥인 설녀",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "미, 미유키가 아니라… 설녀라니깐……",
 			typewriter = {
 				speed = 0.05,
@@ -1235,11 +1235,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "롤 100의 탐색자",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "얼리고 싶다는 사람이 벌써 두 명이나 와 있거든.",
@@ -1256,10 +1256,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301040,
 			actorName = "의욕이 바닥인 설녀",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "저, 정말…? 그렇지만 내가 진짜 설녀인데……",
 			typewriter = {
 				speed = 0.05,
@@ -1270,10 +1270,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "성실하고 드센 설녀",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "가짜가 무슨 소리를 하는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -1281,8 +1281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -1291,8 +1291,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "화난 설녀",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "이번에는 설녀 연극 작전 중",
 			nameColor = "#A9F548FF",
@@ -1382,12 +1382,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_165",
-			hidePaintObj = true,
-			actorName = "성실하고 드센 설녀",
 			side = 2,
+			bgName = "star_level_bg_165",
+			actor = 302230,
+			actorName = "성실하고 드센 설녀",
+			hidePaintObj = true,
 			say = "뭐라고? 내가 아니라?",
 			typewriter = {
 				speed = 0.05,
@@ -1395,8 +1395,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -1456,11 +1456,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "독점욕이 강한 작은 악마",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "첫 번째 설녀는 배역에 맞는 모습을 하고 있으니까 진짜인 거고!",
@@ -1474,13 +1474,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			actorName = "푸슌&브리스톨",
 			side = 0,
 			bgName = "star_level_bg_165",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			actor = 501020,
-			actorName = "푸슌&브리스톨",
+			dir = 1,
+			hideOther = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그랬구나~!",
 			dialogShake = {

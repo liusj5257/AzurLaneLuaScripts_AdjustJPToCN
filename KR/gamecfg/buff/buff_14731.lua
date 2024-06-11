@@ -7,9 +7,9 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
+					number = 2000,
 					convertAttr = "torpedoPower",
-					number = 2000
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -18,8 +18,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 500
+					number = 500,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -32,9 +32,9 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
+					number = 2330,
 					convertAttr = "torpedoPower",
-					number = 2330
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -43,8 +43,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 610
+					number = 610,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -57,9 +57,9 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
+					number = 2660,
 					convertAttr = "torpedoPower",
-					number = 2660
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -68,8 +68,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 720
+					number = 720,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -82,9 +82,9 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
+					number = 2990,
 					convertAttr = "torpedoPower",
-					number = 2990
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -93,8 +93,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 830
+					number = 830,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -107,9 +107,9 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
+					number = 3320,
 					convertAttr = "torpedoPower",
-					number = 3320
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -118,8 +118,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 940
+					number = 940,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -132,9 +132,9 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
+					number = 3650,
 					convertAttr = "torpedoPower",
-					number = 3650
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1050
+					number = 1050,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -157,9 +157,9 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
+					number = 3980,
 					convertAttr = "torpedoPower",
-					number = 3980
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -168,8 +168,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1160
+					number = 1160,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -182,9 +182,9 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
+					number = 4310,
 					convertAttr = "torpedoPower",
-					number = 4310
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -193,8 +193,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1270
+					number = 1270,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -207,9 +207,9 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
+					number = 4640,
 					convertAttr = "torpedoPower",
-					number = 4640
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -218,8 +218,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1380
+					number = 1380,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -232,9 +232,9 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
+					number = 5000,
 					convertAttr = "torpedoPower",
-					number = 5000
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -243,15 +243,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 1500
+					number = 1500,
+					attr = "igniteReduce"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -272,9 +272,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "antiAirPower",
+				number = 2000,
 				convertAttr = "torpedoPower",
-				number = 2000
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -283,8 +283,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "igniteReduce",
-				number = 500
+				number = 500,
+				attr = "igniteReduce"
 			}
 		}
 	}

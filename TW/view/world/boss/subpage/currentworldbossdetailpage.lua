@@ -1,10 +1,10 @@
 slot0 = class("CurrentWorldBossDetailPage", import(".BaseWorldBossDetailPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CurrentWorldBossDetailUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
 	slot0.listBtn = slot0:findTF("list_btn")
@@ -15,7 +15,7 @@ function slot0.OnLoaded(slot0)
 	slot0.ptBtn = WorldbossPtBtn.New(slot0:findTF("point"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	onButton(slot0, slot0.listBtn, function ()
 		uv0:emit(WorldBossScene.ON_SWITCH, WorldBossScene.PAGE_CHALLENGE)
@@ -40,29 +40,29 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateRes(slot0)
+slot0.OnUpdateRes = function(slot0)
 	slot1, slot2, slot3 = WorldBossConst.GetCurrBossConsume()
 	slot0.currProgressTxt.text = WorldBossConst.GetCurrBossItemProgress() .. "/" .. slot3
 end
 
-function slot0.OnUpdatePt(slot0)
+slot0.OnUpdatePt = function(slot0)
 	if slot0.ptBtn then
 		slot0.ptBtn:Update()
 	end
 end
 
-function slot0.OnRescue(slot0)
+slot0.OnRescue = function(slot0)
 	if slot0.helpWindow then
 		slot0.helpWindow:ExecuteAction("Update", slot0.boss)
 	end
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	slot0:TryPlayGuide()
 end
 
-function slot0.TryPlayGuide(slot0)
+slot0.TryPlayGuide = function(slot0)
 	if pg.NewStoryMgr.GetInstance():IsPlayed("WorldG191") then
 		WorldGuider.GetInstance():PlayGuide("WorldG191_1")
 	end
@@ -74,7 +74,7 @@ function slot0.TryPlayGuide(slot0)
 	CurrentWorldBossDetailPage.formDock = false
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
 
 	if slot0.helpWindow then

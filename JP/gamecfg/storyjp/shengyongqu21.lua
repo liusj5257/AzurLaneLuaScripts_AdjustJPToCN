@@ -1,15 +1,15 @@
 return {
-	id = "SHENGYONGQU21",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU21",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bsm-3",
 			say = "聖堂の島・近海",
+			side = 2,
+			dir = 1,
+			bgm = "bsm-3",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -47,8 +47,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "フォーチュンを狙う動向が見られましたものの、損傷は軽微、戦闘継続に問題なし――と。",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "（さっきベアルンからもロイヤルが調査を始めていると聞きましたし…隠し通すのはやはり難しいでしょうか）",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "実は、聖堂には私たちアイリスの「秘蹟」が――",
 			typewriter = {
 				speed = 0.05,
@@ -137,8 +137,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "リシュリューが話し出そうとした瞬間、聖堂の島を中心に、眩しい光が放たれ、周辺海域に降り注いだ。",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "見上げると、空には光のドーム――まるで聖堂の穹窿（きゅうりゅう）のように辺りを覆いながら、絢爛で神々しく輝いている。",
 			flashout = {
 				dur = 0.5,
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "――まさしく神の御業だと錯覚させるような美しい光景だ。",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "連合艦隊のメンバーたちは、この超常現象に目を奪われ、思わず航行を止めた。",
 			typewriter = {
 				speed = 0.05,
@@ -264,8 +264,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -277,8 +277,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "その可能性はあります。……本当に、実在するとは思いませんでした…",
 			typewriter = {
 				speed = 0.05,
@@ -293,8 +293,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "（鉄血の技術でそれに似せたようなものを作った、という線もありますが……しかしなぜ……）",
 			typewriter = {
 				speed = 0.05,
@@ -309,8 +309,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "リシュリューさん、この壁は…アイリスの「神穹の壁」は実在したのですか？！こちらの進路が完全に塞がれました！",
 			typewriter = {
 				speed = 0.05,
@@ -325,8 +325,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "落ち着いてください。ジャンヌ・ダルク",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "は、はい！……すみません、取り乱してしまいました…",
 			typewriter = {
 				speed = 0.05,
@@ -372,8 +372,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "ですが私たちの知っている限り、そのような兵器の存在は確認できていません。したがって、ここは外見に惑わされることなく、状況で考えるべきです",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "「神穹の壁」に決して触れないでください。落ち着いて聖堂への道を探しましょう。そこで合流です",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "はい！了解しました！",
 			typewriter = {
 				speed = 0.05,
@@ -447,8 +447,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -460,8 +460,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "ええ、たしか「神の光が全てを焼き尽くす」と書かれていましたが…今の状況を見る限り、にわかに「そんなことありえない」とは言い切れませんね",
 			typewriter = {
 				speed = 0.05,
@@ -491,8 +491,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "私たちの全滅、です",
 			typewriter = {
 				speed = 0.05,

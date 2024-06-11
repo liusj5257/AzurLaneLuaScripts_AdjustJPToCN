@@ -3,7 +3,7 @@ slot1 = 18
 slot2 = -15
 slot3 = 100
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.tpl = slot2
 	slot0.container = slot1
 	slot0.angle = uv0
@@ -29,13 +29,13 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:AddListener()
 end
 
-function slot0.Make(slot0, slot1, slot2, slot3)
+slot0.Make = function(slot0, slot1, slot2, slot3)
 	slot0.OnInit = slot1
 	slot0.OnSwitch = slot2
 	slot0.OnRelease = slot3
 end
 
-function slot0.ClearTweens(slot0)
+slot0.ClearTweens = function(slot0)
 	for slot4, slot5 in ipairs(slot0.tweens) do
 		if LeanTween.isTweening(slot5) then
 			LeanTween.cancel(slot5)
@@ -45,7 +45,7 @@ function slot0.ClearTweens(slot0)
 	slot0.tweens = {}
 end
 
-function slot0.Align(slot0, slot1, slot2)
+slot0.Align = function(slot0, slot1, slot2)
 	slot0:ClearTweens()
 
 	slot0.childs = {}
@@ -71,7 +71,7 @@ function slot0.Align(slot0, slot1, slot2)
 	slot0:InitList()
 end
 
-function slot0.InitList(slot0)
+slot0.InitList = function(slot0)
 	for slot4 = 1, slot0.capacity do
 		slot5 = slot0.container:GetChild(slot4 - 1)
 		slot5.localScale = Vector3.one
@@ -104,14 +104,14 @@ function slot0.InitList(slot0)
 	slot0.animTime = 0.05
 end
 
-function slot0.AddListener(slot0)
+slot0.AddListener = function(slot0)
 	slot1 = Vector2.zero
 	slot2 = 0
 	slot3 = 0
 	slot4 = 0
 	slot5 = true
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		if slot0 > 0 then
 			return uv0.index < uv0.ranges[2] - 1
 		else
@@ -182,7 +182,7 @@ function slot0.AddListener(slot0)
 	end)
 end
 
-function slot0.RefreshChildPos(slot0, slot1)
+slot0.RefreshChildPos = function(slot0, slot1)
 	slot0.padding = 0
 	slot0.animFlag = true
 	slot2 = slot0.midIndex
@@ -228,7 +228,7 @@ function slot0.RefreshChildPos(slot0, slot1)
 	end
 end
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	if slot1 then
 		table.insert(slot0.childs, slot1 > 0 and #slot0.childs + 1 or 1, table.remove(slot0.childs, slot1 > 0 and 1 or #slot0.childs))
 
@@ -269,7 +269,7 @@ function slot0.Switch(slot0, slot1)
 	end
 end
 
-function slot0.SliceTo(slot0, slot1)
+slot0.SliceTo = function(slot0, slot1)
 	if slot0.animFlag then
 		return
 	end
@@ -304,7 +304,7 @@ function slot0.SliceTo(slot0, slot1)
 	end)
 end
 
-function slot0.Release(slot0)
+slot0.Release = function(slot0)
 	slot1 = slot0.childs[slot0.midIndex]
 
 	if slot0.OnRelease ~= nil then
@@ -312,7 +312,7 @@ function slot0.Release(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:ClearTweens()
 
 	slot0.OnSwitch = nil

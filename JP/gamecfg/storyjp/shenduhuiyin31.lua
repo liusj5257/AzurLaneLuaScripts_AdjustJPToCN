@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENDUHUIYIN31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENDUHUIYIN31",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方連合にて",
 			side = 2,
 			bgName = "bg_deepecho_13",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bgm-cccp",
+			say = "北方連合にて",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_13",
+			dir = 1,
 			say = "北方連合で行われた閲兵式の裏で、ソビエツキー・ソユーズはクロンシュタットと再会した。",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_13",
+			dir = 1,
 			say = "深海からの帰還は多くの仲間たちを喜ばせただけでなく、隕石…そして「接続」によって得られた貴重なデータも北方連合の未来に新たな道筋を示すことになった。",
 			typewriter = {
 				speed = 0.05,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツキー・ソユーズ",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツキー・ソユーズ",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツキー・ソユーズ",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -204,8 +204,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツキー・ソユーズ",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツキー・ソユーズ",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツキー・ソユーズ",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツキー・ソユーズ",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ソビエツキー・ソユーズ",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_13",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -348,12 +348,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_13",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "……待たせたわね！",
 			typewriter = {
 				speed = 0.05,

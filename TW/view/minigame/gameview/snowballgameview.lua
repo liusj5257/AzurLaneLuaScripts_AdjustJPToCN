@@ -156,11 +156,11 @@ slot23 = "event:/ui/ddldaoshu2"
 slot24 = "event:/ui/sou"
 slot25 = "event:/ui/xueqiu"
 
-function slot26(slot0)
+slot26 = function(slot0)
 	print(slot0)
 end
 
-function slot27(slot0)
+slot27 = function(slot0)
 	slot1 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -328,7 +328,7 @@ function slot27(slot0)
 	return slot1
 end
 
-function slot28(slot0, slot1, slot2, slot3, slot4)
+slot28 = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {
 		_tf = slot0,
 		_moveDirect = slot1,
@@ -436,7 +436,7 @@ function slot28(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot29(slot0, slot1)
+slot29 = function(slot0, slot1)
 	return {
 		_snowballContainer = slot0,
 		_tplSnowball = slot1,
@@ -506,7 +506,7 @@ function slot29(slot0, slot1)
 	}
 end
 
-function slot30(slot0, slot1, slot2, slot3, slot4)
+slot30 = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {
 		_tf = slot1,
 		_index = slot2,
@@ -585,7 +585,7 @@ function slot30(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot31(slot0, slot1, slot2, slot3, slot4)
+slot31 = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {
 		_tf = slot1,
 		_index = slot2,
@@ -699,7 +699,7 @@ function slot31(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot32(slot0, slot1)
+slot32 = function(slot0, slot1)
 	slot2 = {
 		_tplCharactorDic = slot1,
 		_charactorContainer = slot0,
@@ -964,7 +964,7 @@ function slot32(slot0, slot1)
 	return slot2
 end
 
-function slot33(slot0, slot1, slot2, slot3)
+slot33 = function(slot0, slot1, slot2, slot3)
 	slot4 = {
 		_player = slot1,
 		_charactorCtrl = slot3,
@@ -1014,39 +1014,39 @@ function slot33(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SnowballGameUI"
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	return "backyard"
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.timer = Timer.New(function ()
 		uv0:onTimer()
 	end, 0.016666666666666666, -1)
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.sceneTf = findTF(slot0._tf, "scene")
 	slot0.clickMask = findTF(slot0._tf, "clickMask")
 	slot0.player = uv0(findTF(slot0._tf, "scene/luao"))
 
-	function slot0.player.throwCallback(slot0)
+	slot0.player.throwCallback = function(slot0)
 		uv0:onPlayerThrowSnowball(slot0)
 	end
 
-	function slot0.player.damageCallback()
+	slot0.player.damageCallback = function()
 		uv0:onPlayerDamage()
 	end
 
-	function slot0.player.gameOverCallback()
+	slot0.player.gameOverCallback = function()
 		uv0:onGameOver()
 	end
 
@@ -1073,8 +1073,8 @@ function slot0.initUI(slot0)
 
 	slot0.charactorController = uv3(slot0.charactorContainer, slot2)
 
-	function slot0.charactorController.throwCallback(slot0, slot1)
-		function uv0.charactorController.charactorDamageCallback(slot0, slot1)
+	slot0.charactorController.throwCallback = function(slot0, slot1)
+		uv0.charactorController.charactorDamageCallback = function(slot0, slot1)
 			uv0:onHitEnemy(slot1, slot0)
 		end
 
@@ -1084,7 +1084,7 @@ function slot0.initUI(slot0)
 	slot7 = slot0.charactorController
 	slot0.colliderController = uv5(slot0.sceneTf, slot0.player, slot0.snowballController, slot7)
 
-	function slot0.colliderController.hitEnemyCallback(slot0, slot1, slot2, slot3)
+	slot0.colliderController.hitEnemyCallback = function(slot0, slot1, slot2, slot3)
 		uv0:onHitEnemy(slot2, slot3)
 	end
 
@@ -1252,11 +1252,11 @@ function slot0.initUI(slot0)
 	UpdateBeat:AddListener(slot0.handle)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:AddDebugInput()
 end
 
-function slot0.AddDebugInput(slot0)
+slot0.AddDebugInput = function(slot0)
 	if slot0.gameStop or slot0.settlementFlag then
 		return
 	end
@@ -1276,7 +1276,7 @@ function slot0.AddDebugInput(slot0)
 	end
 end
 
-function slot0.getCurrentDiff(slot0)
+slot0.getCurrentDiff = function(slot0)
 	for slot4 = #uv0, 1, -1 do
 		if uv0[slot4] < slot0.gameStepTime then
 			return slot4
@@ -1284,7 +1284,7 @@ function slot0.getCurrentDiff(slot0)
 	end
 end
 
-function slot0.updateMenuUI(slot0)
+slot0.updateMenuUI = function(slot0)
 	slot1 = slot0:getGameUsedTimes()
 	slot2 = slot0:getGameTimes()
 
@@ -1316,7 +1316,7 @@ function slot0.updateMenuUI(slot0)
 	slot0:CheckGet()
 end
 
-function slot0.CheckGet(slot0)
+slot0.CheckGet = function(slot0)
 	setActive(findTF(slot0.menuUI, "got"), false)
 
 	if slot0:getUltimate() and slot0:getUltimate() ~= 0 then
@@ -1337,7 +1337,7 @@ function slot0.CheckGet(slot0)
 	end
 end
 
-function slot0.openMenuUI(slot0)
+slot0.openMenuUI = function(slot0)
 	setActive(findTF(slot0._tf, "scene_front"), false)
 	setActive(findTF(slot0._tf, "scene_background"), false)
 	setActive(findTF(slot0._tf, "scene"), false)
@@ -1346,7 +1346,7 @@ function slot0.openMenuUI(slot0)
 	slot0:updateMenuUI()
 end
 
-function slot0.clearUI(slot0)
+slot0.clearUI = function(slot0)
 	setActive(slot0.sceneTf, false)
 	setActive(slot0.settlementUI, false)
 	setActive(slot0.countUI, false)
@@ -1354,7 +1354,7 @@ function slot0.clearUI(slot0)
 	setActive(slot0.gameUI, false)
 end
 
-function slot0.OnSendMiniGameOPDone(slot0, slot1)
+slot0.OnSendMiniGameOPDone = function(slot0, slot1)
 	if slot0.sendSuccessFlag then
 		pg.m02:sendNotification(GAME.MODIFY_MINI_GAME_DATA, {
 			id = MiniGameDataCreator.NewYearShrineGameID,
@@ -1367,13 +1367,13 @@ function slot0.OnSendMiniGameOPDone(slot0, slot1)
 	end
 end
 
-function slot0.readyStart(slot0)
+slot0.readyStart = function(slot0)
 	setActive(slot0.countUI, true)
 	slot0.countAnimator:Play("count")
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0)
 end
 
-function slot0.gameStart(slot0)
+slot0.gameStart = function(slot0)
 	setActive(findTF(slot0._tf, "scene_front"), true)
 	setActive(findTF(slot0._tf, "scene_background"), true)
 	setActive(findTF(slot0._tf, "scene"), true)
@@ -1398,27 +1398,27 @@ function slot0.gameStart(slot0)
 	slot0:timerStart()
 end
 
-function slot0.onPlayerDamage(slot0)
+slot0.onPlayerDamage = function(slot0)
 	slot0:updateGameUI()
 end
 
-function slot0.getGameTimes(slot0)
+slot0.getGameTimes = function(slot0)
 	return slot0:GetMGHubData().count
 end
 
-function slot0.getGameUsedTimes(slot0)
+slot0.getGameUsedTimes = function(slot0)
 	return slot0:GetMGHubData().usedtime
 end
 
-function slot0.getUltimate(slot0)
+slot0.getUltimate = function(slot0)
 	return slot0:GetMGHubData().ultimate
 end
 
-function slot0.getGameTotalTime(slot0)
+slot0.getGameTotalTime = function(slot0)
 	return slot0:GetMGHubData():getConfig("reward_need")
 end
 
-function slot0.changeSpeed(slot0, slot1)
+slot0.changeSpeed = function(slot0, slot1)
 	slot0.player:setSpeed(slot1)
 
 	slot0.specialAniamtor.speed = slot1
@@ -1426,7 +1426,7 @@ function slot0.changeSpeed(slot0, slot1)
 	slot0.charactorController:setSpeed(slot1)
 end
 
-function slot0.onTimer(slot0)
+slot0.onTimer = function(slot0)
 	slot0.player:step()
 	slot0.snowballController:step()
 	slot0.charactorController:step()
@@ -1434,7 +1434,7 @@ function slot0.onTimer(slot0)
 	slot0:gameStep()
 end
 
-function slot0.gameStep(slot0)
+slot0.gameStep = function(slot0)
 	slot0.gameStepTime = slot0.gameStepTime + Time.deltaTime
 	slot0.skilTime = slot0.skilTime + Time.deltaTime
 
@@ -1471,29 +1471,29 @@ function slot0.gameStep(slot0)
 	end
 end
 
-function slot0.timerStart(slot0)
+slot0.timerStart = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
 end
 
-function slot0.timerStop(slot0)
+slot0.timerStop = function(slot0)
 	if slot0.timer.running then
 		slot0.timer:Stop()
 	end
 end
 
-function slot0.movePlayerTo(slot0, slot1)
+slot0.movePlayerTo = function(slot0, slot1)
 	slot0.player:move(slot0.playerMoveVecs[slot1])
 end
 
-function slot0.updateGameUI(slot0)
+slot0.updateGameUI = function(slot0)
 	setSlider(slot0.lifeProgress, 0, 1, slot0.player:getLife() / uv0)
 	setText(slot0.textLife, slot0.player:getLife() .. "/" .. uv0)
 	setText(slot0.textScore, slot0.scoreNum)
 end
 
-function slot0.throwSnowballTo(slot0, slot1, slot2, slot3)
+slot0.throwSnowballTo = function(slot0, slot1, slot2, slot3)
 	slot0.throwTarget = slot1
 	slot0.targetIndex = slot2
 
@@ -1508,7 +1508,7 @@ function slot0.throwSnowballTo(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.onPlayerThrowSnowball(slot0, slot1)
+slot0.onPlayerThrowSnowball = function(slot0, slot1)
 	if slot0.throwTarget then
 		slot0.snowballController:createSnowball(slot0.sceneTf:InverseTransformPoint(slot1.x, slot1.y, 0), slot0.throwTarget, uv0, uv1, slot0.targetIndex)
 
@@ -1517,13 +1517,13 @@ function slot0.onPlayerThrowSnowball(slot0, slot1)
 	end
 end
 
-function slot0.onEnemyThrowSnowball(slot0, slot1, slot2, slot3)
+slot0.onEnemyThrowSnowball = function(slot0, slot1, slot2, slot3)
 	slot5 = slot0.player:getTargetPosition()
 
 	slot0.snowballController:createSnowball(slot0.sceneTf:InverseTransformPoint(slot1.x, slot1.y, 0), slot0.sceneTf:InverseTransformPoint(slot5.x, slot5.y, 0), slot3, uv0, slot2)
 end
 
-function slot0.usePlayerSkill(slot0)
+slot0.usePlayerSkill = function(slot0)
 	Time.timeScale = 0.05
 
 	LeanTween.delayedCall(go(slot0.specialTf), 3, System.Action(function ()
@@ -1543,7 +1543,7 @@ function slot0.usePlayerSkill(slot0)
 	setActive(slot0.specialEffect, true)
 end
 
-function slot0.specialComplete(slot0)
+slot0.specialComplete = function(slot0)
 	Time.timeScale = 1
 
 	setActive(slot0.specialTf, false)
@@ -1552,15 +1552,15 @@ function slot0.specialComplete(slot0)
 	slot0.specialIndex = 0
 end
 
-function slot0.dropSpeedUp(slot0)
+slot0.dropSpeedUp = function(slot0)
 end
 
-function slot0.onHitEnemy(slot0, slot1, slot2)
+slot0.onHitEnemy = function(slot0, slot1, slot2)
 	slot0:addScore(slot1, slot2)
 	slot0:updateGameUI()
 end
 
-function slot0.addScore(slot0, slot1, slot2)
+slot0.addScore = function(slot0, slot1, slot2)
 	slot0.scoreNum = slot0.scoreNum + slot1
 
 	if slot0.scoreNum < 0 then
@@ -1587,7 +1587,7 @@ function slot0.addScore(slot0, slot1, slot2)
 	setActive(slot3, true)
 end
 
-function slot0.onGameOver(slot0)
+slot0.onGameOver = function(slot0)
 	slot0:timerStop()
 
 	slot0.settlementFlag = true
@@ -1604,7 +1604,7 @@ function slot0.onGameOver(slot0)
 	end))
 end
 
-function slot0.showSettlement(slot0)
+slot0.showSettlement = function(slot0)
 	setActive(slot0.settlementUI, true)
 	GetComponent(findTF(slot0.settlementUI, "ad"), typeof(Animator)):Play("settlement", -1, 0)
 
@@ -1624,7 +1624,7 @@ function slot0.showSettlement(slot0)
 	end
 end
 
-function slot0.resumeGame(slot0)
+slot0.resumeGame = function(slot0)
 	slot0.gameStop = false
 
 	setActive(slot0.leaveUI, false)
@@ -1632,14 +1632,14 @@ function slot0.resumeGame(slot0)
 	slot0:timerStart()
 end
 
-function slot0.stopGame(slot0)
+slot0.stopGame = function(slot0)
 	slot0.gameStop = true
 
 	slot0:timerStop()
 	slot0:changeSpeed(0)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if not slot0.gameStartFlag then
 		slot0:emit(uv0.ON_BACK_PRESSED)
 	else
@@ -1656,7 +1656,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 	end

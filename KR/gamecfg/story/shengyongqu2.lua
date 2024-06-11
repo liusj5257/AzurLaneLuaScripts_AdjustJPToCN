@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level03",
+			say = "이곳은 아프리카 대륙에서 떨어진 섬. 외진 곳이기 때문에 전쟁의 포화가 이곳까지 미치지 않는다.",
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
-			say = "이곳은 아프리카 대륙에서 떨어진 섬. 외진 곳이기 때문에 전쟁의 포화가 이곳까지 미치지 않는다.",
+			bgm = "level03",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -31,9 +31,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "초록빛 밀림과 붉게 풍화된 이곳의 마크를 생각하면 모두들 바오밥 나무와 펭귄을 떠올리게 될 것이다.",
 			typewriter = {
 				speed = 0.05,
@@ -45,9 +45,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "하지만 동전에도 두가지 면이 있는 것처럼, 평화 뒤에도 위험이 도사리고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -59,9 +59,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "지금 이 순간에도 먼 길을 달려온 연합 함대가 고요한 해협을 건너 외딴 섬을 향하고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -73,9 +73,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_2",
+			dir = 1,
 			say = "아프리카·모잠비크 해협",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "포춘",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "잔 다르크",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "잔 다르크",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "베아른",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -199,8 +199,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -247,8 +247,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -263,8 +263,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -279,8 +279,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "리슐리외 ",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -295,9 +295,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_2",
+			dir = 1,
 			say = "리슐리외는 눈을 감고 씁쓸하게 웃었다.",
 			typewriter = {
 				speed = 0.05,
@@ -309,12 +309,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스",
+			side = 2,
 			bgName = "bg_qiongding_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "우리도 아이리스 교국의 통일을 진심으로 바라고 있어요. 그러니 로열 네이비와 벽람항로 모두 여러분의 힘이 되어드리겠습니다. 추기경 리슐리외.",
 			typewriter = {
 				speed = 0.05,

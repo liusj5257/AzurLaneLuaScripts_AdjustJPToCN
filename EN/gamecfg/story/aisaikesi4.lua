@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Enterprise Troubles\n\n<size=45>Chapter 4: Essex Versus Enterprise</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Training Area",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "Training Area",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,13 +46,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "This is the last round! Congratulations for making it through all the competition. I'd expect nothing less from you.",
 			soundeffect = "event:/battle/plane",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "This is the last round! Congratulations for making it through all the competition. I'd expect nothing less from you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,10 +66,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "I would congratulate you too, but you don't seem to have broken a sweat.",
+			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			actor = 107090,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "Essex&Enterprise",
 			say = "<size=45>Haaaaaah!!</size>",
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Woah... things are getting intense~",
 			effects = {
 				{
@@ -183,13 +183,13 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "How's this!",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,13 +200,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_nepu1",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 107060,
-			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
-			side = 2,
-			dir = 1,
 			say = "Not bad! But you've still got a long way to go!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -249,13 +249,13 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "I've already seen through your attacks! Now it's my turn!",
 			soundeffect = "event:/battle/boom2",
+			actor = 107090,
+			say = "I've already seen through your attacks! Now it's my turn!",
 			flashN = {
 				color = {
 					1,
@@ -298,9 +298,9 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/plane",
-			bgName = "bg_story_nepu1",
 			say = "——！！",
+			bgName = "bg_story_nepu1",
+			soundeffect = "event:/battle/plane",
 			flashN = {
 				color = {
 					1,

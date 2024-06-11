@@ -1,12 +1,12 @@
 slot0 = class("TaskProgressUpdateCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	slot0:CheckAndSubmitVoteTask()
 end
 
-function slot0.CheckAndSubmitVoteTask(slot0, slot1)
+slot0.CheckAndSubmitVoteTask = function(slot0, slot1)
 	for slot6, slot7 in pairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_VOTE)) do
 		if not slot7:isEnd() then
 			slot0:SubmitTaskList(slot0:GetCanSubmitVoteTaskList(slot7))
@@ -14,7 +14,7 @@ function slot0.CheckAndSubmitVoteTask(slot0, slot1)
 	end
 end
 
-function slot0.GetCanSubmitVoteTaskList(slot0, slot1)
+slot0.GetCanSubmitVoteTaskList = function(slot0, slot1)
 	slot2 = slot1:getConfig("config_id")
 	slot3 = pg.activity_vote[slot2]
 
@@ -31,7 +31,7 @@ function slot0.GetCanSubmitVoteTaskList(slot0, slot1)
 	return slot5
 end
 
-function slot0.SubmitTaskList(slot0, slot1)
+slot0.SubmitTaskList = function(slot0, slot1)
 	if #slot1 <= 0 then
 		return
 	end

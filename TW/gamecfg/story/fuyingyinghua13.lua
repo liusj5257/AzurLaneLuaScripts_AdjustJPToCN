@@ -1,14 +1,14 @@
 return {
-	once = true,
-	mode = 2,
-	id = "FUYINGYINGHUA13",
-	continueBgm = true,
 	fadeType = 1,
+	mode = 2,
+	continueBgm = true,
+	once = true,
+	id = "FUYINGYINGHUA13",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>長夜仍在繼續</size>",
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -70,27 +70,27 @@ return {
 			}
 		},
 		{
-			bgm = "story-6",
-			side = 2,
 			bgName = "bg_xinnong_cg3",
-			say = "數日前，某處鏡面海域內。",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			soundeffect = "event:/battle/boom2",
+			bgm = "story-6",
+			say = "數日前，某處鏡面海域內。",
 			effects = {
 				{
 					active = false,
 					name = "logo_sakura"
 				},
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
+			dir = 1,
 			say = "空氣中瀰漫著硝煙，水面覆蓋著殘骸。",
 			effect = {
 				{
@@ -135,9 +135,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_xinnong_cg3",
+			side = 2,
+			dir = 1,
 			say = "又一處塞壬據點被徹底摧毀了。",
 			typewriter = {
 				speed = 0.05,
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "…清理完畢，下一處目標在——",
 			typewriter = {
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "………………",
 			typewriter = {
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "……沒有和妳溝通的必要。",
 			typewriter = {
@@ -326,11 +326,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "原來是來打聽她的計劃的……與妳無關，消失吧。",
 			typewriter = {
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "……",
 			typewriter = {
@@ -468,11 +468,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "要說的話說完了？",
 			typewriter = {
@@ -539,11 +539,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "？！",
 			typewriter = {
@@ -574,11 +574,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "………",
 			typewriter = {
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "如果是因為過度依賴神明而導致的災難，那也是人們咎由自取的",
 			typewriter = {
@@ -662,9 +662,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_xinnong_cg3",
+			side = 2,
+			dir = 1,
 			say = "通訊被單方面切斷了",
 			typewriter = {
 				speed = 0.05,
@@ -676,11 +676,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "等！",
 			typewriter = {
@@ -693,11 +693,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "……………",
 			typewriter = {
@@ -710,11 +710,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "看來，又得繞一次遠路了啊",
 			typewriter = {

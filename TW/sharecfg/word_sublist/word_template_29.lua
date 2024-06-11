@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_29 = {}
 slot1 = slot0.word_template_29
 
-function temp()
+temp = function()
 	uv0["两"] = {
 		["会"] = {
 			this = true
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["中"] = {
 		["国"] = {
 			["茉"] = {
@@ -657,7 +657,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.M = {
 		L = {
 			this = true,
@@ -763,7 +763,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["梅"] = {
 		["花"] = {
 			["革"] = {

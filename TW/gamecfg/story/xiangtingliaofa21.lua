@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA21",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA21",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-4",
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哈啊…終於結束了！",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,10 +26,10 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			say = "戰鬥中收集了許多惡劣海況下的作戰數據，回去之後要好好分析一下……",
+			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "戰鬥中收集了許多惡劣海況下的作戰數據，回去之後要好好分析一下……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -77,8 +77,8 @@ return {
 			actor = 107380,
 			side = 0,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "一連數日，狂風呼嘯、浪濤翻捲，導航儀器全部失靈。如果不是哥倫布航海經驗豐富，恐怕就要葬身於此了吧。",
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "難道說，早在幾百年前塞壬就已經潛伏在深海之中了？！",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -164,8 +164,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "幽靈船、大海怪、不明飛行物，海上的種種傳說和怪談也許都被塞壬利用了。",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "歸根究底，“塞壬”……究竟是什麼呢",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 16934,
+	time = 0,
 	picture = "",
 	desc = "提高炮击属性",
 	stack = 3,
-	id = 16934,
+	color = "red",
 	icon = 16930,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 500
+				number = 500,
+				attr = "cannonPower"
 			}
 		}
 	}

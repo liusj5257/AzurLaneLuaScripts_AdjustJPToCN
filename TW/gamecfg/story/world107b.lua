@@ -1,18 +1,18 @@
 return {
-	id = "WORLD107B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD107B",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "bsm-1",
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "等、大家稍等一下！偵察機發現了一支行蹤異常的艦隊！",
-			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -66,8 +66,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "與我們航線相反，正在向著百慕達海域方向前進。她們應該還沒有注意到我們的存在。",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "畢竟航空力量薄弱可是鐵血艦隊的特色之一呢。",
 			typewriter = {
 				speed = 0.05,
@@ -163,11 +163,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/8/tb-8",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "指令已確認：正在向指揮部發送情報中。",
-			voice = "event:/tb/8/tb-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "NA海域中的局勢已經非常複雜了，現在讓衝突進一步升級和整體戰役的方針相違背。",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "百慕達海域中確實存在著異常現象，鐵血艦隊的目標也許只是在那裡也說不定......",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "用艦載機掠過鐵血艦隊上空示警一下怎麼樣？",
 			typewriter = {
 				speed = 0.05,
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "艦隊調整航向，同時從空中對鐵血艦隊發出警告。",
 			typewriter = {
 				speed = 0.05,
@@ -280,11 +280,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/21/tb-21",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "指令已確認：目標設定為鐵血艦隊，正在規劃最佳的交戰航線————",
-			voice = "event:/tb/21/tb-21",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

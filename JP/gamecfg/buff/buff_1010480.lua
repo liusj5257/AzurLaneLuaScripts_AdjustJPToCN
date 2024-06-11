@@ -12,12 +12,12 @@ return {
 	desc_get = "与平海同在一个舰队时，炮击性能提高15.0%(满级35.0%)",
 	name = "姐妹同心 +",
 	init_effect = "",
+	id = 1010480,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "与平海同在一个舰队时，炮击性能提高$1",
 	stack = 1,
-	id = 1010480,
+	color = "yellow",
 	icon = 10480,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 1010480,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

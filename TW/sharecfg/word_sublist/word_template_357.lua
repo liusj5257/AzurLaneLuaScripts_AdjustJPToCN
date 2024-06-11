@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_357 = {}
 slot1 = slot0.word_template_357
 
-function temp()
+temp = function()
 	uv0["说"] = {
 		["母"] = {
 			["语"] = {
@@ -21,7 +21,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["悼"] = {
 		["念"] = {
 			["自"] = {
@@ -37,7 +37,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["祈"] = {
 		["祷"] = {
 			["达"] = {
@@ -96,7 +96,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["桑"] = {
 		["东"] = {
 			["仁"] = {

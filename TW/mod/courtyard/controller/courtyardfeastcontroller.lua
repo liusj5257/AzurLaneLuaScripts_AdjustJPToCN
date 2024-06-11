@@ -1,6 +1,6 @@
 slot0 = class("CourtYardFeastController", import(".CourtYardController"))
 
-function slot0.ShipBubbleInterActionFinish(slot0, slot1)
+slot0.ShipBubbleInterActionFinish = function(slot0, slot1)
 	if slot0.storey:GetShip(slot1) then
 		slot0:SendNotification(CourtYardEvent._FEAST_INTERACTION, {
 			groupId = slot1,
@@ -9,7 +9,7 @@ function slot0.ShipBubbleInterActionFinish(slot0, slot1)
 	end
 end
 
-function slot0.UpdateBubble(slot0, slot1, slot2)
+slot0.UpdateBubble = function(slot0, slot1, slot2)
 	slot3 = slot0.storey:GetShip(slot1)
 
 	assert(slot3, slot1)
@@ -19,7 +19,7 @@ function slot0.UpdateBubble(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateChatBubble(slot0, slot1, slot2)
+slot0.UpdateChatBubble = function(slot0, slot1, slot2)
 	slot3 = slot0.storey:GetShip(slot1)
 
 	assert(slot3, slot1)
@@ -29,13 +29,13 @@ function slot0.UpdateChatBubble(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ExitAllShip(slot0)
+slot0.ExitAllShip = function(slot0)
 	for slot4, slot5 in pairs(slot0.storey.ships) do
 		slot0.storey:ExitShip(slot4)
 	end
 end
 
-function slot0.AddShipWithSpecialPosition(slot0, slot1)
+slot0.AddShipWithSpecialPosition = function(slot0, slot1)
 	if not slot0.storey then
 		return
 	end
@@ -52,7 +52,7 @@ function slot0.AddShipWithSpecialPosition(slot0, slot1)
 	end
 end
 
-function slot0.ShipEnterFeast(slot0, slot1)
+slot0.ShipEnterFeast = function(slot0, slot1)
 	if slot0.storey:GetShip(slot1) then
 		slot2:EnterFeast()
 	end

@@ -1,12 +1,12 @@
 return {
-	id = "W823010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W823010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーンの情報収集装置は稼働していないようだ。",
 			typewriter = {
 				speed = 0.05,

@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 600,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -183,9 +183,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 296100,
+							moveCast = true,
 							score = 0,
 							delay = 0,
-							moveCast = true,
 							affix = true,
 							corrdinate = {
 								0,
@@ -198,10 +198,10 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 4.5,
 									switchTo = 1,
 									index = 0,
-									switchParam = 4.5,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {
 										2033000,
@@ -209,45 +209,45 @@ return {
 									}
 								},
 								{
-									switchParam = 1,
+									switchType = 1,
 									switchTo = 2,
 									index = 1,
-									switchType = 1,
+									switchParam = 1,
 									story = "WORLD508B"
 								},
 								{
-									switchType = 1,
+									switchParam = 18,
 									switchTo = 3,
 									index = 2,
-									switchParam = 18,
+									switchType = 1,
 									setAI = 100012,
 									addBuff = {
 										78100
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 1,
 									switchTo = 4,
 									index = 3,
-									switchParam = 1,
+									switchType = 1,
 									story = "WORLD508C",
 									addWeapon = {
 										2033020
 									}
 								},
 								{
-									index = 4,
 									switchType = 1,
 									switchTo = 5,
+									index = 4,
 									switchParam = 3,
 									addBuff = {
 										78110
 									}
 								},
 								{
-									index = 5,
 									switchType = 1,
 									switchTo = 0,
+									index = 5,
 									switchParam = 180,
 									addBuff = {
 										78020
@@ -257,8 +257,8 @@ return {
 						},
 						{
 							monsterTemplateID = 296110,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -270,8 +270,8 @@ return {
 						},
 						{
 							monsterTemplateID = 296110,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -294,9 +294,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 296101,
+							moveCast = true,
 							score = 0,
 							delay = 0,
-							moveCast = true,
 							affix = true,
 							corrdinate = {
 								-5,
@@ -309,23 +309,23 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 1,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 1,
 									setAI = 20006
 								},
 								{
-									switchParam = 1,
+									switchType = 1,
 									switchTo = 2,
 									index = 1,
-									switchType = 1,
+									switchParam = 1,
 									story = "WORLD508D"
 								},
 								{
-									index = 2,
 									switchParam = 25,
 									switchTo = 3,
+									index = 2,
 									switchType = 1,
 									addWeapon = {
 										2033110,
@@ -336,53 +336,53 @@ return {
 									}
 								},
 								{
-									switchParam = 1,
+									switchType = 1,
 									switchTo = 4,
 									index = 3,
-									switchType = 1,
+									switchParam = 1,
 									story = "WORLD508E"
 								},
 								{
-									index = 4,
 									switchType = 1,
 									switchTo = 5,
+									index = 4,
 									switchParam = 6,
 									addBuff = {
 										78130
 									}
 								},
 								{
-									switchType = 1,
-									story = "WORLD508F",
+									setAI = 10001,
+									switchParam = 3,
 									switchTo = 100,
 									index = 5,
-									switchParam = 3,
-									setAI = 10001,
+									switchType = 1,
+									story = "WORLD508F",
 									addWeapon = {
 										2033140,
 										2033130
 									}
 								},
 								{
-									index = 100,
 									switchType = 1,
 									switchTo = 6,
+									index = 100,
 									switchParam = 17,
 									addBuff = {
 										78140
 									}
 								},
 								{
-									switchParam = 1.5,
+									switchType = 1,
 									switchTo = 7,
 									index = 6,
-									switchType = 1,
+									switchParam = 1.5,
 									story = "WORLD508G"
 								},
 								{
-									index = 7,
-									switchParam = 900,
 									switchTo = 0,
+									switchParam = 900,
+									index = 7,
 									switchType = 1,
 									addBuff = {
 										78020
@@ -396,8 +396,8 @@ return {
 						},
 						{
 							monsterTemplateID = 296111,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -409,10 +409,10 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 900,
 									switchTo = 0,
 									index = 0,
-									switchParam = 900,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {
 										2033100
@@ -422,8 +422,8 @@ return {
 						},
 						{
 							monsterTemplateID = 296111,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -435,10 +435,10 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 900,
 									switchTo = 0,
 									index = 0,
-									switchParam = 900,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {
 										2033100
@@ -459,9 +459,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 296102,
+							moveCast = true,
 							score = 0,
 							delay = 0,
-							moveCast = true,
 							affix = true,
 							corrdinate = {
 								-5,
@@ -474,17 +474,17 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 1,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 1,
 									setAI = 20006
 								},
 								{
+									switchType = 1,
 									switchParam = 10,
 									switchTo = 2,
 									index = 1,
-									switchType = 1,
 									setAI = 10001,
 									addBuff = {
 										78150
@@ -495,19 +495,19 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 12,
 									switchTo = 3,
 									index = 2,
-									switchParam = 12,
+									switchType = 1,
 									story = "WORLD508H",
 									addBuff = {
 										78170
 									}
 								},
 								{
-									index = 3,
 									switchType = 1,
 									switchTo = 4,
+									index = 3,
 									switchParam = 900,
 									addBuff = {
 										78180
@@ -517,8 +517,8 @@ return {
 						},
 						{
 							monsterTemplateID = 296112,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-18,
 								0,
@@ -529,10 +529,10 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 900,
 									switchTo = 0,
 									index = 0,
-									switchParam = 900,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {
 										2033200
@@ -542,8 +542,8 @@ return {
 						},
 						{
 							monsterTemplateID = 296112,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-18,
 								0,
@@ -554,17 +554,17 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 1.5,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 1.5,
 									setAI = 20006
 								},
 								{
-									switchType = 1,
+									switchParam = 900,
 									switchTo = 0,
 									index = 1,
-									switchParam = 900,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {
 										2033200
@@ -590,14 +590,14 @@ return {
 						},
 						vanguard_unitList = {
 							{
-								exp = 10,
-								configId = 900341,
-								tmpID = 900341,
-								skinId = 202110,
 								oil_at_end = 55,
+								configId = 900341,
+								energy = 10,
+								skinId = 202110,
+								exp = 10,
+								tmpID = 900341,
 								id = 2,
 								level = 120,
-								energy = 10,
 								equipment = {
 									32250,
 									800100,
@@ -605,28 +605,28 @@ return {
 								},
 								properties = {
 									cannon = 800,
-									air = 0,
-									antiaircraft = 450,
+									reload = 900,
+									luck = 70,
 									torpedo = 600,
 									durability = 20000,
-									reload = 900,
-									armor = 98,
+									air = 0,
 									dodge = 320,
+									antiaircraft = 450,
 									speed = 32.5,
-									luck = 70,
+									armor = 98,
 									hit = 140
 								},
 								skills = {}
 							},
 							{
-								exp = 10,
-								configId = 900342,
-								tmpID = 900342,
-								skinId = 202200,
 								oil_at_end = 55,
+								configId = 900342,
+								energy = 10,
+								skinId = 202200,
+								exp = 10,
+								tmpID = 900342,
 								id = 3,
 								level = 120,
-								energy = 10,
 								equipment = {
 									22270,
 									800101,
@@ -634,15 +634,15 @@ return {
 								},
 								properties = {
 									cannon = 800,
-									air = 0,
-									antiaircraft = 400,
+									reload = 900,
+									luck = 70,
 									torpedo = 600,
 									durability = 20000,
-									reload = 900,
-									armor = 98,
+									air = 0,
 									dodge = 320,
+									antiaircraft = 400,
 									speed = 35,
-									luck = 70,
+									armor = 98,
 									hit = 140
 								},
 								skills = {}
@@ -650,11 +650,11 @@ return {
 						},
 						main_unitList = {
 							{
-								tmpID = 900345,
 								configId = 900345,
+								level = 120,
 								skinId = 205020,
 								id = 1,
-								level = 120,
+								tmpID = 900345,
 								equipment = {
 									14350,
 									101,
@@ -662,15 +662,15 @@ return {
 								},
 								properties = {
 									cannon = 1200,
-									air = 1200,
-									antiaircraft = 300,
+									reload = 1100,
+									luck = 38,
 									torpedo = 1200,
 									durability = 30000,
-									reload = 1100,
-									armor = 1150,
+									air = 1200,
 									dodge = 0,
+									antiaircraft = 300,
 									speed = 31,
-									luck = 38,
+									armor = 1150,
 									hit = 140
 								},
 								skills = {
@@ -681,11 +681,11 @@ return {
 								}
 							},
 							{
-								tmpID = 900343,
 								configId = 900343,
+								level = 120,
 								skinId = 107090,
 								id = 2,
-								level = 120,
+								tmpID = 900343,
 								equipment = {
 									17270,
 									19150,
@@ -693,15 +693,15 @@ return {
 								},
 								properties = {
 									cannon = 200,
-									air = 400,
-									antiaircraft = 300,
+									reload = 1200,
+									luck = 38,
 									torpedo = 0,
 									durability = 20000,
-									reload = 1200,
-									armor = 1150,
+									air = 400,
 									dodge = 0,
+									antiaircraft = 300,
 									speed = 31,
-									luck = 38,
+									armor = 1150,
 									hit = 140
 								},
 								skills = {
@@ -720,11 +720,11 @@ return {
 								}
 							},
 							{
-								tmpID = 900344,
 								configId = 900344,
+								level = 120,
 								skinId = 107380,
 								id = 3,
-								level = 120,
+								tmpID = 900344,
 								equipment = {
 									17270,
 									19150,
@@ -732,15 +732,15 @@ return {
 								},
 								properties = {
 									cannon = 230,
-									air = 500,
-									antiaircraft = 300,
+									reload = 1,
+									luck = 14,
 									torpedo = 0,
 									durability = 20000,
-									reload = 1,
-									armor = 850,
+									air = 500,
 									dodge = 96,
+									antiaircraft = 300,
 									speed = 28.3,
-									luck = 14,
+									armor = 850,
 									hit = 140
 								},
 								skills = {
@@ -769,14 +769,14 @@ return {
 						},
 						vanguard_unitList = {
 							{
-								exp = 10,
-								configId = 900340,
-								tmpID = 900340,
-								skinId = 202120,
 								oil_at_end = 55,
+								configId = 900340,
+								energy = 10,
+								skinId = 202120,
+								exp = 10,
+								tmpID = 900340,
 								id = 1,
 								level = 120,
-								energy = 10,
 								equipment = {
 									32250,
 									800100,
@@ -784,15 +784,15 @@ return {
 								},
 								properties = {
 									cannon = 1200,
-									air = 0,
-									antiaircraft = 310,
+									reload = 750,
+									luck = 70,
 									torpedo = 600,
 									durability = 20000,
-									reload = 750,
-									armor = 98,
+									air = 0,
 									dodge = 320,
+									antiaircraft = 310,
 									speed = 26.4,
-									luck = 70,
+									armor = 98,
 									hit = 140
 								},
 								skills = {}
@@ -809,14 +809,14 @@ return {
 					triggerParams = {
 						sub_unitList = {
 							{
-								exp = 10,
-								configId = 900346,
-								tmpID = 900346,
-								skinId = 408020,
 								oil_at_end = 55,
+								configId = 900346,
+								energy = 10,
+								skinId = 408020,
+								exp = 10,
+								tmpID = 900346,
 								id = 1,
 								level = 120,
-								energy = 10,
 								equipment = {
 									800102,
 									800102,
@@ -825,14 +825,14 @@ return {
 								properties = {
 									cannon = 500,
 									oxy_max = 99999,
-									antiaircraft = 310,
+									luck = 70,
 									torpedo = 800,
 									durability = 80000,
 									air = 0,
-									armor = 98,
 									dodge = 164,
+									antiaircraft = 310,
 									speed = 25,
-									luck = 70,
+									armor = 98,
 									reload = 800,
 									hit = 140
 								},
@@ -862,14 +862,14 @@ return {
 	fleet_prefab = {
 		vanguard_unitList = {
 			{
-				exp = 10,
-				configId = 900330,
-				tmpID = 900330,
-				skinId = 103160,
 				oil_at_end = 55,
+				configId = 900330,
+				energy = 10,
+				skinId = 103160,
+				exp = 10,
+				tmpID = 900330,
 				id = 1,
 				level = 120,
-				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -877,15 +877,15 @@ return {
 				},
 				properties = {
 					cannon = 1200,
-					air = 0,
-					antiaircraft = 310,
+					reload = 460,
+					luck = 70,
 					torpedo = 0,
 					durability = 50000,
-					reload = 460,
-					armor = 98,
+					air = 0,
 					dodge = 164,
+					antiaircraft = 310,
 					speed = 26.4,
-					luck = 70,
+					armor = 98,
 					hit = 140
 				},
 				skills = {
@@ -900,14 +900,14 @@ return {
 				}
 			},
 			{
-				exp = 10,
-				configId = 900331,
-				tmpID = 900331,
-				skinId = 102090,
 				oil_at_end = 55,
+				configId = 900331,
+				energy = 10,
+				skinId = 102090,
+				exp = 10,
+				tmpID = 900331,
 				id = 2,
 				level = 120,
-				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -915,15 +915,15 @@ return {
 				},
 				properties = {
 					cannon = 900,
-					air = 0,
-					antiaircraft = 450,
+					reload = 1000,
+					luck = 70,
 					torpedo = 0,
 					durability = 50000,
-					reload = 1000,
-					armor = 98,
+					air = 0,
 					dodge = 164,
+					antiaircraft = 450,
 					speed = 32.5,
-					luck = 70,
+					armor = 98,
 					hit = 140
 				},
 				skills = {
@@ -938,14 +938,14 @@ return {
 				}
 			},
 			{
-				exp = 10,
-				configId = 900332,
-				tmpID = 900332,
-				skinId = 102160,
 				oil_at_end = 55,
+				configId = 900332,
+				energy = 10,
+				skinId = 102160,
+				exp = 10,
+				tmpID = 900332,
 				id = 3,
 				level = 120,
-				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -953,15 +953,15 @@ return {
 				},
 				properties = {
 					cannon = 800,
-					air = 0,
-					antiaircraft = 400,
+					reload = 900,
+					luck = 70,
 					torpedo = 600,
 					durability = 50000,
-					reload = 900,
-					armor = 98,
+					air = 0,
 					dodge = 164,
+					antiaircraft = 400,
 					speed = 35,
-					luck = 70,
+					armor = 98,
 					hit = 140
 				},
 				skills = {
@@ -974,11 +974,11 @@ return {
 		},
 		main_unitList = {
 			{
-				tmpID = 900335,
 				configId = 900335,
+				level = 120,
 				skinId = 107060,
 				id = 1,
-				level = 120,
+				tmpID = 900335,
 				equipment = {
 					false,
 					false,
@@ -986,15 +986,15 @@ return {
 				},
 				properties = {
 					cannon = 1200,
-					air = 1200,
-					antiaircraft = 300,
+					reload = 850,
+					luck = 38,
 					torpedo = 0,
 					durability = 80000,
-					reload = 850,
-					armor = 1150,
+					air = 1200,
 					dodge = 0,
+					antiaircraft = 300,
 					speed = 31,
-					luck = 38,
+					armor = 1150,
 					hit = 140
 				},
 				skills = {
@@ -1005,11 +1005,11 @@ return {
 				}
 			},
 			{
-				tmpID = 900333,
 				configId = 900333,
+				level = 120,
 				skinId = 9707010,
 				id = 2,
-				level = 120,
+				tmpID = 900333,
 				equipment = {
 					false,
 					false,
@@ -1017,25 +1017,25 @@ return {
 				},
 				properties = {
 					cannon = 200,
-					air = 400,
-					antiaircraft = 300,
+					reload = 1120,
+					luck = 38,
 					torpedo = 0,
 					durability = 60000,
-					reload = 1120,
-					armor = 1150,
+					air = 400,
 					dodge = 0,
+					antiaircraft = 300,
 					speed = 31,
-					luck = 38,
+					armor = 1150,
 					hit = 140
 				},
 				skills = {}
 			},
 			{
-				tmpID = 900334,
 				configId = 900334,
+				level = 120,
 				skinId = 9707020,
 				id = 3,
-				level = 120,
+				tmpID = 900334,
 				equipment = {
 					false,
 					false,
@@ -1043,15 +1043,15 @@ return {
 				},
 				properties = {
 					cannon = 230,
-					air = 400,
-					antiaircraft = 300,
+					reload = 1680,
+					luck = 14,
 					torpedo = 0,
 					durability = 60000,
-					reload = 1680,
-					armor = 1890,
+					air = 400,
 					dodge = 96,
+					antiaircraft = 300,
 					speed = 28.3,
-					luck = 14,
+					armor = 1890,
 					hit = 140
 				},
 				skills = {}

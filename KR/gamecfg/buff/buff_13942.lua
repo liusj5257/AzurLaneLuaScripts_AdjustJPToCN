@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 800
+					number = 800,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -32,8 +32,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 910
+					number = 910,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -57,8 +57,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1020
+					number = 1020,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -82,8 +82,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1130
+					number = 1130,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -107,8 +107,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1240
+					number = 1240,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -132,8 +132,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1350
+					number = 1350,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -157,8 +157,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1460
+					number = 1460,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -182,8 +182,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1570
+					number = 1570,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -207,8 +207,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1680
+					number = 1680,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -232,8 +232,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 1800
+					number = 1800,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -249,9 +249,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "狼群战术-U37",
 	time = 0,
+	name = "狼群战术-U37",
+	init_effect = "",
 	picture = "",
 	desc = "属性提升",
 	stack = 5,

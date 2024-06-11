@@ -5,23 +5,23 @@ slot0.TRIGGER_TYPE = {
 	SERIES_PASSED = 2
 }
 slot0.NODE_TYPE = {
-	EVENT = 2,
+	BATTLE = 3,
 	NORMAL = 1,
-	BATTLE = 3
+	EVENT = 2
 }
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.activity_series_enemy_story
 end
 
-function slot0.Ctor(slot0, slot1, ...)
+slot0.Ctor = function(slot0, slot1, ...)
 	uv0.super.Ctor(slot0, slot1, ...)
 
 	slot0.configId = slot0.id
 end
 
-function slot0.GetTriggers(slot0)
-	function slot1(slot0)
+slot0.GetTriggers = function(slot0)
+	slot1 = function(slot0)
 		if type(slot0) ~= "table" then
 			return {}
 		end
@@ -41,23 +41,23 @@ function slot0.GetTriggers(slot0)
 	return {}
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return slot0:getConfig("type")
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0:getConfig("name")
 end
 
-function slot0.GetIconName(slot0)
+slot0.GetIconName = function(slot0)
 	return slot0:getConfig("icon")
 end
 
-function slot0.GetStory(slot0)
+slot0.GetStory = function(slot0)
 	return slot0:getConfig("story")
 end
 
-function slot0.GetActiveLink(slot0)
+slot0.GetActiveLink = function(slot0)
 	return slot0:getConfig("line")
 end
 

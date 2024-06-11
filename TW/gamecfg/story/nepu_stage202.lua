@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE202",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE202",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -31,13 +31,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "啊ー，喂喂ー大家好，听的见吗ー？",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "啊ー，喂喂ー大家好，听的见吗ー？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,13 +63,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "谁是空气啊！是我。伊斯特瓦尔。",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "谁是空气啊！是我。伊斯特瓦尔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,13 +95,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "恩，想了点办法让通讯先恢复了。之后回游戏业界的方法应该也能准备好了。",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "恩，想了点办法让通讯先恢复了。之后回游戏业界的方法应该也能准备好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,13 +127,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "这个现在实现起来有点困难......要准备的话需要不少时间。大家再等一下",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "这个现在实现起来有点困难......要准备的话需要不少时间。大家再等一下",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,13 +159,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "啊啊，果然出现了嘛......这么说那个痕迹也与这个有关",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "啊啊，果然出现了嘛......这么说那个痕迹也与这个有关",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,13 +191,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "其实......大家大概是在穿越那个虫洞的期间被采集了数据",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "其实......大家大概是在穿越那个虫洞的期间被采集了数据",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,13 +242,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "总之，这边会尽全力让虫洞再次开启。大家也一定要小心",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "总之，这边会尽全力让虫洞再次开启。大家也一定要小心",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "一定，是塞壬...搞的鬼",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:6}",
 			dir = 1,
-			say = "一定，是塞壬...搞的鬼",
+			actor = 301050,
+			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -357,8 +357,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "喔喔，这不知从哪来的满满的自信...!",
 			typewriter = {
 				speed = 0.05,

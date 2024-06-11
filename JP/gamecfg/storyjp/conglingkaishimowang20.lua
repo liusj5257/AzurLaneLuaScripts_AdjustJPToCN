@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "枯れの森。西の拠点に向かう道中にて――",
 			bgm = "story-mmorpg",
+			say = "枯れの森。西の拠点に向かう道中にて――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -69,11 +69,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "薬師",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "普通のスイーツと味が違うなら大丈夫じゃない",
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それと色も形も！",
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "色と形を変えるほうが大事だと思う！",
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "色は……まずはカラフルにしないと！虹みたいなカラーリングがいいんじゃない！",
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "形もダイナミックなほうがいいね！一目で目立つようなやつ！",
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "例えば……「カラフル時限爆弾饅頭スライムビッグケーキ」なんてのはどう！？",
@@ -446,27 +446,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "勇者パーティーは「カラフル時限爆弾饅頭スライムビッグケーキ」を掲げながら、堂々と西の拠点に接近した。",
 			bgm = "story-oldcastle-carnival",
+			say = "勇者パーティーは「カラフル時限爆弾饅頭スライムビッグケーキ」を掲げながら、堂々と西の拠点に接近した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -474,8 +474,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "道中、邪魔をするモンスターは一匹もいなかった。",
 			typewriter = {
@@ -556,11 +556,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ふふん！うまくいった！やっぱりケーキに気を取られた！",
@@ -574,8 +574,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "作る過程がどんなにハチャメチャでも、少なくともケーキは役割を果たしてくれた。",
 			typewriter = {
@@ -584,8 +584,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "エルビングは無防備にも勇者撫順の前に歩み寄り、注意力がすべてケーキに引かれたその瞬間――",
 			typewriter = {
@@ -594,8 +594,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "影に潜んでいたヴァンパイアハンターが、魔王からの解放とも言えるクリーンヒットを見舞ったのだ！",
 			typewriter = {
@@ -606,12 +606,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "吸血鬼次女",
 			dir = 1,
-			actorName = "エルビング",
-			actor = 402080,
 			nameColor = "#FF9B93",
+			bgName = "star_level_bg_156",
+			actor = 402080,
+			actorName = "エルビング",
 			say = "ああ……エルビングの生命の力が流れていく……",
 			painting = {
 				alpha = 0.3,
@@ -622,17 +622,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -640,12 +640,12 @@ return {
 			}
 		},
 		{
-			actor = 402080,
 			nameColor = "#FF9B93",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "吸血鬼次女",
 			dir = 1,
-			side = 2,
+			actor = 402080,
 			actorName = "エルビング",
 			say = "の、呪いの力も消えていく……",
 			painting = {
@@ -663,9 +663,9 @@ return {
 			bgName = "star_level_bg_156",
 			factiontag = "吸血鬼次女",
 			dir = 1,
-			actorName = "エルビング",
-			actor = 402080,
 			nameColor = "#FF9B93",
+			actor = 402080,
+			actorName = "エルビング",
 			say = "ついに解放されたのね……",
 			painting = {
 				alpha = 0.3,
@@ -682,9 +682,9 @@ return {
 			bgName = "star_level_bg_156",
 			factiontag = "吸血鬼次女",
 			dir = 1,
-			actorName = "エルビング",
-			actor = 402080,
 			nameColor = "#FF9B93",
+			actor = 402080,
+			actorName = "エルビング",
 			say = "……とても目新しいケーキを見ることができた",
 			painting = {
 				alpha = 0.3,
@@ -701,9 +701,9 @@ return {
 			bgName = "star_level_bg_156",
 			factiontag = "吸血鬼次女",
 			dir = 1,
-			actorName = "エルビング",
-			actor = 402080,
 			nameColor = "#FF9B93",
+			actor = 402080,
+			actorName = "エルビング",
 			say = "……本当に嬉しかった……",
 			painting = {
 				alpha = 0.3,
@@ -720,9 +720,9 @@ return {
 			bgName = "star_level_bg_156",
 			factiontag = "吸血鬼次女",
 			dir = 1,
-			actorName = "エルビング",
-			actor = 402080,
 			nameColor = "#FF9B93",
+			actor = 402080,
+			actorName = "エルビング",
 			say = "どうか…お姉ちゃんもメイド長も助けて……",
 			painting = {
 				alpha = 0.3,
@@ -739,10 +739,10 @@ return {
 			bgName = "star_level_bg_156",
 			factiontag = "吸血鬼次女",
 			dir = 1,
-			paintingNoise = true,
-			actorName = "エルビング",
-			actor = 402080,
 			nameColor = "#FF9B93",
+			paintingNoise = true,
+			actor = 402080,
+			actorName = "エルビング",
 			say = "幸運を祈るよ…正義の冒険者たち……",
 			painting = {
 				alpha = 0.3,

@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "此刻的北方艦隊，三名同為紐奧良級的重巡姐妹正在快樂地交流著。",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 		{
 			actor = 103100,
 			side = 1,
-			nameColor = "#a9f548",
 			say = "而且巡邏好累好無聊……為什麼要巡邏，不是有企業姐姐她們？",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -287,12 +287,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "這時，一陣突然的強光忽然將三姐妹籠罩其中。",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -329,8 +329,8 @@ return {
 		{
 			actor = 103080,
 			side = 0,
-			nameColor = "#a9f548",
 			say = "不對！這是……敵襲！昆西，文森尼斯，準備戰鬥！",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

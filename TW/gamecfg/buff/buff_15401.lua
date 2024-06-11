@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.1
+					number = 0.1,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.111
+					number = 0.111,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.122
+					number = 0.122,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.133
+					number = 0.133,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.144
+					number = 0.144,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.155
+					number = 0.155,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.166
+					number = 0.166,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.177
+					number = 0.177,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.188
+					number = 0.188,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -133,20 +133,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.2
+					number = 0.2,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 15401,
+	time = 0,
 	picture = "",
 	desc = "受到穿甲弹伤害降低",
 	stack = 1,
-	id = 15401,
+	color = "blue",
 	icon = 15400,
 	last_effect = "",
 	blink = {
@@ -163,8 +163,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageReduceFromAmmoType_2",
-				number = 0.1
+				number = 0.1,
+				attr = "damageReduceFromAmmoType_2"
 			}
 		}
 	}

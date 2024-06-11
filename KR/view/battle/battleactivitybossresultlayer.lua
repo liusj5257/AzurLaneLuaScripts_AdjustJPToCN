@@ -1,6 +1,6 @@
 slot0 = class("BattleActivityBossResultLayer", import(".BattleResultLayer"))
 
-function slot0.showRightBottomPanel(slot0)
+slot0.showRightBottomPanel = function(slot0)
 	setActive(slot0._blurConatiner:Find("activitybossConfirmPanel"), true)
 	uv0.super.showRightBottomPanel(slot0)
 	SetActive(slot0._rightBottomPanel, false)
@@ -127,7 +127,7 @@ function slot0.showRightBottomPanel(slot0)
 	end)
 end
 
-function slot0.PassMsgbox(slot0, slot1, slot2)
+slot0.PassMsgbox = function(slot0, slot1, slot2)
 	getProxy(ContextProxy):GetPrevContext(1).data.msg = {
 		type = slot1,
 		param = slot2
@@ -136,7 +136,7 @@ function slot0.PassMsgbox(slot0, slot1, slot2)
 	pg.m02:sendNotification(GAME.GO_BACK)
 end
 
-function slot0.HideConfirmPanel(slot0)
+slot0.HideConfirmPanel = function(slot0)
 	setActive(slot0._blurConatiner:Find("activitybossConfirmPanel"), false)
 end
 

@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行8次攻击，触发全弹发射-新奥尔良级II"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 20242,
 	picture = "",
 	desc = "主炮每进行8次攻击，触发全弹发射-新奥尔良级II",
 	stack = 1,
-	id = 20242,
+	color = "red",
 	icon = 20200,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 20242,
+				target = "TargetSelf",
 				countType = 20240
 			}
 		}

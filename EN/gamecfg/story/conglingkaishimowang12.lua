@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
-			say = "Friede Village – it gets its name from the word Frieden, which means \"peace.\"",
 			bgm = "xinnong-3",
+			say = "Friede Village – it gets its name from the word Frieden, which means \"peace.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			say = "A rather ironic name since it is now engulfed in the flames of war.",
 			typewriter = {
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Who are YOU calling a bandit?!",
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I am the hero, and this is my party! We're on a journey to defeat the Demon King! Now who are you?",
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "Knight Banneret",
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "Ah... Adventurers.",
 			painting = {
@@ -157,9 +157,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_506",
 			factiontag = "Knight Banneret",
 			dir = 1,
+			bgName = "star_level_bg_506",
 			bgm = "theme-camelot",
 			actor = 205130,
 			nameColor = "#A9F548FF",
@@ -173,17 +173,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "Knight Banneret",
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "I came after receiving word that Friede was under attack.",
 			painting = {
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yes, and... now you've kind of left us with nothing to do.",
@@ -280,11 +280,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "No rewards for this side quest, I guess.",
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You know what that means, Commander. Back to the main quest.",
@@ -461,11 +461,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,11 +585,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We'll back you up!",
@@ -603,8 +603,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

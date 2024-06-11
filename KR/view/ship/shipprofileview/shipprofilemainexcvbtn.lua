@@ -1,6 +1,6 @@
 slot0 = class("ShipProfileMainExCvBtn", import(".ShipProfileCvBtn"))
 
-function slot0.Init(slot0, slot1, slot2, slot3, slot4)
+slot0.Init = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.shipGroup = slot1
 	slot0.isLive2d = slot3
 	slot0.skin = slot2
@@ -11,8 +11,8 @@ function slot0.Init(slot0, slot1, slot2, slot3, slot4)
 		slot0.voice.voice_name = slot7
 	else
 		slot0.voice = {
-			profile_index = 5,
 			spine_action = "normal",
+			profile_index = 5,
 			l2d_action = "main_3",
 			key = slot5,
 			voice_name = slot7,
@@ -55,7 +55,7 @@ function slot0.Init(slot0, slot1, slot2, slot3, slot4)
 	}
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot2 = slot0.voice.unlock_condition[1] < 0
 	slot3 = slot0.wordData.textContent == nil or slot0.wordData.textContent == "nil" or slot0.wordData.textContent == ""
 
@@ -74,7 +74,7 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.UpdateCvBtn(slot0)
+slot0.UpdateCvBtn = function(slot0)
 	slot1 = slot0.voice
 	slot2 = slot0.shipGroup
 	slot4 = nil

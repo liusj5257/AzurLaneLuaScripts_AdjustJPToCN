@@ -1,6 +1,6 @@
 slot0 = class("SettingsMainGroupBtn")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 	slot0:initData()
 	slot0:findUI(slot1)
@@ -8,7 +8,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0:check()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 
 	if slot0.timer then
@@ -18,11 +18,11 @@ function slot0.Dispose(slot0)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.mgr = pg.MainGroupMgr:GetInstance()
 end
 
-function slot0.findUI(slot0, slot1)
+slot0.findUI = function(slot0, slot1)
 	slot0._tf = slot1
 	slot2 = findTF(slot0._tf, "Content")
 	slot0.titleText = findTF(slot2, "Title")
@@ -36,7 +36,7 @@ function slot0.findUI(slot0, slot1)
 	setText(slot0.titleText, i18n("setting_resdownload_title_main_group"))
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		if uv0.mgr:GetState() == DownloadState.CheckFailure then
 			uv0.mgr:StartCheckD()
@@ -53,7 +53,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.check(slot0)
+slot0.check = function(slot0)
 	if slot0.mgr:GetState() == DownloadState.None then
 		slot0.mgr:StartCheckD()
 	end
@@ -66,7 +66,7 @@ function slot0.check(slot0)
 	slot0:updateUI()
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	if slot0.mgr:GetState() == DownloadState.None then
 		setText(slot0.btnText, "无状态")
 		setActive(slot0.loadingIcon, false)

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU4",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			bgm = "level02",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 408080,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "두 번째 보급선, 격침. U-110은 타고난 헌터야. 캬오—",
-			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -102,8 +102,8 @@ return {
 			say = "...꾸르꾸르(잠수 시작)",
 			action = {
 				{
-					type = "move",
 					y = -1000,
+					type = "move",
 					delay = 0.5,
 					dur = 2,
 					x = 0
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -146,19 +146,19 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			say = "기관포 탄알이 수면에서 물보라를 일으켰다. U-110은 내켜하지 않았지만 물속에서 고개를 내밀었다.",
+			withoutActorName = true,
 			dir = 1,
 			actor = 408080,
-			withoutActorName = true,
 			nameColor = "#a9f548",
-			say = "기관포 탄알이 수면에서 물보라를 일으켰다. U-110은 내켜하지 않았지만 물속에서 고개를 내밀었다.",
 			actorPosition = {
 				x = 0,
 				y = -1000
 			},
 			action = {
 				{
-					type = "move",
 					y = 1000,
+					type = "move",
 					delay = 2,
 					dur = 1,
 					x = 0
@@ -177,8 +177,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "정말 사나운 로열 여자애네...",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -237,8 +237,8 @@ return {
 			say = "U-110은 상어야, 아주 사납지.",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -257,9 +257,9 @@ return {
 		{
 			actor = 408080,
 			nameColor = "#a9f548",
+			dir = 1,
 			withoutActorName = true,
 			side = 2,
-			dir = 1,
 			say = "등 뒤에서 에니그마 암호기를 꺼낸 U-110은 키보드를 두드릴 준비를 한다.",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			say = "...너희 도대체 뭐라는 거야?...",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,9 +388,9 @@ return {
 		{
 			actor = 408080,
 			nameColor = "#a9f548",
+			dir = 1,
 			withoutActorName = true,
 			side = 2,
-			dir = 1,
 			say = "U-110은 불독에게 위협적인 포효(?)를 했다.",
 			typewriter = {
 				speed = 0.05,
@@ -420,8 +420,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "U-110은 마늘 머리가 아니라 상어야—",
 			typewriter = {
 				speed = 0.05,
@@ -470,8 +470,8 @@ return {
 			say = "앗?",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

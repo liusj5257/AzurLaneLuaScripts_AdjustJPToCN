@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_13 = {}
 slot1 = slot0.word_template_13
 
-function temp()
+temp = function()
 	uv0["瘟"] = {
 		["家"] = {
 			["宝"] = {
@@ -18,7 +18,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["假"] = {
 		["庆"] = {
 			["林"] = {
@@ -250,7 +250,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["甲"] = {
 		["庆"] = {
 			["林"] = {
@@ -349,7 +349,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["离"] = {
 		["长"] = {
 			["春"] = {

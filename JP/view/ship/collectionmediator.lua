@@ -2,7 +2,7 @@ slot0 = class("CollectionMediator", import("..base.ContextMediator"))
 slot0.EVENT_OBTAIN_SKIP = "CollectionMediator:EVENT_OBTAIN_SKIP"
 slot0.EVENT_OPEN_FULL_SCREEN_PIC_VIEW = "CollectionMediator:EVENT_OPEN_FULL_SCREEN_PIC_VIEW"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.collectionProxy = getProxy(CollectionProxy)
 
 	slot0.viewComponent:setShipGroups(slot0.collectionProxy:getGroups())
@@ -48,7 +48,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:updateCollectNotices(slot0.collectionProxy:hasFinish())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		CollectionProxy.AWARDS_UPDATE,
 		GAME.COLLECT_GET_AWARD_DONE,
@@ -58,7 +58,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == CollectionProxy.AWARDS_UPDATE then

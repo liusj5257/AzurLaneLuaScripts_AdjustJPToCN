@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG20",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG20",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307100,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "azumaster-ins",
 			dir = 1,
 			say = "I think I understand the power behind this equipment.",
+			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "Indeed. Although there are some slight differences in performance, there is no point in changing the fundamental framework of our equipment.",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "Well, there are only so many changes that can be made at one time. Our hulls somewhat limit what is possible...",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "Comparing these two side by side, the second use has demonstrated significantly better performance, which means...",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "...Plausibility of Akagi's hypothesis: High.",
 			typewriter = {
 				speed = 0.05,
@@ -180,8 +180,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "Historical analysis shows that the Muse System was developed not to defeat Sirens, but rather to counteract the Sirens's song. Therefore, its functionality is not to serve as a weapon, but as an instrument.",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "Anthropological analysis shows that playing musical instruments and enjoying music with good company are hallmarks of human emotion.",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "Therefore, one can infer that that the strength of Muse System scales directly with the strength of one's emotions.",
 			typewriter = {
 				speed = 0.05,
@@ -227,9 +227,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 905030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Akagi, this concludes the analysis...!",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -294,8 +294,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "Yeah, I think we've already established that. Right?",
 			typewriter = {
 				speed = 0.05,
@@ -310,8 +310,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "Indeed. To be frank, while we may describe these activities as \"battles,\" there are no winners or losers because in the end, this is just an armament trial run.",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "Affirmative. We participated in this event as Polaris, a group of warships.",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "But as \"people\" who experience emotions, we should not leave behind any regrets...",
 			typewriter = {
 				speed = 0.05,
@@ -372,9 +372,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 905030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Therefore, let us fight with all our might, and have fun at the same time!",
 			effects = {
 				{
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

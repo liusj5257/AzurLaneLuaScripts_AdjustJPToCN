@@ -27,11 +27,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
-			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
 			say = "對不起，{namecode:95}姐現在危在旦夕，沒有時間陪妳玩遊戲了，速戰速決吧",
+			actorName = "{namecode:96}",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

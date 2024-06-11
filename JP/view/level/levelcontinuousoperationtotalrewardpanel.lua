@@ -1,18 +1,18 @@
 slot0 = class("LevelContinuousOperationTotalRewardPanel", import("view.level.LevelStageTotalRewardPanel"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LevelContinuousOperationTotalRewardPanel"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	uv0.super.UpdateView(slot0)
 	setActive(slot0.boxView, true)
 	setActive(slot0.emptyTip, false)
@@ -24,7 +24,7 @@ function slot0.UpdateView(slot0)
 			PlayerPrefs.SetInt("autoFight_firstUse_sp", 1)
 			PlayerPrefs.Save()
 
-			function slot2()
+			slot2 = function()
 				uv0.contextData.spItemID = nil
 
 				uv0:UpdateSPItem()
@@ -75,7 +75,7 @@ function slot0.UpdateView(slot0)
 	setText(slot0.window:Find("RetryTimes/Text"), i18n("multiple_sorties_retry_desc", slot4))
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	uv0.super.willExit(slot0)
 end
 

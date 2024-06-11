@@ -1,17 +1,17 @@
 return {
-	id = "FUXIANGXIANZUOZHAN13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN13",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 407030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-heroines-image",
 			dir = 1,
 			say = "신중한 적이네... 습격이 끝났지만 우리 반격에는 별다른 반응 없이 빠르게 해산했어.",
+			bgm = "battle-heroines-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "안 돼, 전부 쫓을 수는 없어... 적 항공모함의 위치를 알 수 없어. 그쪽은 어때?",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "항공모함은 없어. 하지만... 사쿠라 엠파이어 양산형 함대는 보이네. 페터, 함재기나 체스말 몇 개로 끝날 문제가 아니야.",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "나도 그렇게 생각해. 예감이 현실이 되다니...",
 			typewriter = {
 				speed = 0.05,

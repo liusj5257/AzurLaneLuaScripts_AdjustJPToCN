@@ -1,16 +1,16 @@
 return {
-	id = "WORLD300A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD300A",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level02",
+			say = "NA海域・ユニオン担当エリア",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "NA海域・ユニオン担当エリア",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "そして私たちの任務はNA海域の北西――ここのエリアを確保し、前哨基地の設立を行ってセイレーン中枢への足掛かりを作ることよ",
 			typewriter = {
 				speed = 0.05,
@@ -69,9 +69,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "今回はユニオンも戦力をガッツリ用意したからね！",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,8 +156,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "ええ、ティルピッツたちとは思えないけど、タイミングがあまりにもあからさますぎるわ。セイレーンの「駒」であるかどうか確認する前に消えたし",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "そもそも鉄血艦隊がユニオンの担当区域にいること自体ちょっとよくわからないわね",
 			typewriter = {
 				speed = 0.05,
@@ -233,8 +233,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "…こうして作戦中にエリアを確保しながら、ね",
 			typewriter = {
 				speed = 0.05,

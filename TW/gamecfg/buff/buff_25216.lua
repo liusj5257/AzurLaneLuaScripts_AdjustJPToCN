@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行4次攻击，触发全弹发射-特伦托级II"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 25216,
 	picture = "",
 	desc = "主炮每进行4次攻击，触发全弹发射-特伦托级II",
 	stack = 1,
-	id = 25216,
+	color = "red",
 	icon = 20200,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 25214,
+				target = "TargetSelf",
 				countType = 25210
 			}
 		}

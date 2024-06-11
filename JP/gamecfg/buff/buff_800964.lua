@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 800964,
 	time = 10,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800964,
+	color = "red",
 	icon = 800964,
 	last_effect = "zhuoshao",
 	effect_list = {
@@ -27,13 +27,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0.35,
 				attr = "airPower",
-				exposeGroup = 1,
 				time = 3,
 				cloakExpose = 36,
-				number = 5,
+				exposeGroup = 1,
 				dotType = 1,
-				k = 0.35
+				number = 5
 			}
 		},
 		{

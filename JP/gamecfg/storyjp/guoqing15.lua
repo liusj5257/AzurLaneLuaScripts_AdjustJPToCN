@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "カミからもっと恩恵を授けてもらうには、優秀な「イケニエ」が必要なのよ",
 			shake = {
 				speed = 1,
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "うふふふ、その前に目の前の「敵」がどうなるかよく考えてごらんなさい？",
 			shake = {
 				speed = 1,
@@ -258,11 +258,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "「カミ」より授かった「駒」でも、貴方を倒すには十分だわ！",
 			shake = {
 				speed = 1,

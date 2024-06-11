@@ -1,6 +1,6 @@
 slot0 = class("AprilFoolDiscoveryPage", import("view.base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.bgName = nil
 	slot0.itemList = slot0:findTF("AD/list")
@@ -15,7 +15,7 @@ function slot0.OnInit(slot0)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	if slot0.activity.data1 == 0 and slot0.activity.data3 == 1 then
 		slot0.activity.data3 = 0
 
@@ -39,7 +39,7 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = pg.activity_event_picturepuzzle[slot0.activity.id]
 
 	assert(slot1, "Can't Find activity_event_picturepuzzle 's ID : " .. slot0.activity.id)
@@ -88,7 +88,7 @@ slot1 = {
 	"unlock"
 }
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot2 = #slot0.activity.data2_list == #slot0.keyList
@@ -147,12 +147,12 @@ function slot0.OnUpdateFlush(slot0)
 	slot0:UpdateSelection()
 end
 
-function slot0.UpdateSelection(slot0)
+slot0.UpdateSelection = function(slot0)
 	setText(slot0.tip, table.contains(slot0.activity.data3_list, slot0.keyList[slot0.selectIndex]) and i18n("bulin_tip" .. slot0.selectIndex) or "")
 	slot0:CreateCDTimer()
 end
 
-function slot0.CreateCDTimer(slot0)
+slot0.CreateCDTimer = function(slot0)
 	if slot0.CDTimer then
 		return
 	end
@@ -184,7 +184,7 @@ function slot0.CreateCDTimer(slot0)
 	slot0.CDTimer.func()
 end
 
-function slot0.RemoveCDTimer(slot0)
+slot0.RemoveCDTimer = function(slot0)
 	if slot0.CDTimer then
 		slot0.CDTimer:Stop()
 
@@ -192,7 +192,7 @@ function slot0.RemoveCDTimer(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.loader:Clear()
 	slot0:RemoveCDTimer()
 	uv0.super.OnDestroy(slot0)

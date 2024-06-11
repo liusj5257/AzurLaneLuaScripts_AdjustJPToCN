@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"오오시오의 선물♪\n\n<size=45>여자아이가 좋아?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 해안",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "모항 - 해안",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "비서함인 오오시오와 함께 함대의 훈련을 시찰했다.",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "오오시오와 함께 나무 그늘에 서있기로 했다. 바닷바람의 선선함도 더해져 쾌적한 느낌이다.",
 			typewriter = {
 				speed = 0.05,
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#92fc63",
 			say = "앗, 딴 사람 고생해쌌는 거 즐기는 게 아이다! 오오시오는 귀여운 여자애들이 좋을 뿐이데이~",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -172,15 +172,15 @@ return {
 			}
 		},
 		{
-			say = "오늘의 훈련이 끝났다.",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "오늘의 훈련이 끝났다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,9 +201,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "모두가 숙소로 향하는 걸 지켜보던 중, 오오시오가 좀 더 산책을 하는 건 어떻겠냐고 제안해주었다.",
 			typewriter = {
 				speed = 0.05,
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "이쪽 답을 듣자마자, 오오시오는 훈련을 마친 모두를 부르러 달려갔다.",
 			typewriter = {
 				speed = 0.05,

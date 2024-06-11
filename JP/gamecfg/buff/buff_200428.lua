@@ -1,12 +1,12 @@
 return {
-	time = 1,
-	name = "2023俾斯麦Z活动 HTS2女灶神meta 召唤小怪 随机列表",
 	init_effect = "",
+	name = "2023俾斯麦Z活动 HTS2女灶神meta 召唤小怪 随机列表",
+	time = 1,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200428,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCleanse",

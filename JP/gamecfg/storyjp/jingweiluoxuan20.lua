@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN20",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "？？·？？",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-xinnong-image",
+			hidePaintObj = true,
+			say = "？？·？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -25,9 +25,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -43,10 +43,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "「敵艦隊ガ損傷ヲ受ケ戦闘カラ離脱シマシタ」",
 			typewriter = {
 				speed = 0.05,
@@ -80,10 +80,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "「飛龍モ損傷ヲ受ケ航行能力ヲ喪失。急ギ救援行動ヲ」",
 			typewriter = {
 				speed = 0.05,
@@ -117,10 +117,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "「作戦目標デアル、AF基地ノ攻略、敵空母機動艦隊ノ撃破ニ失敗シマシタ」",
 			typewriter = {
 				speed = 0.05,
@@ -135,10 +135,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "「――テスト『AF作戦』、通信ログ再生終了」",
 			typewriter = {
 				speed = 0.05,
@@ -172,10 +172,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 302130,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "「データノアップロードヲ行ッタ後、次ノ『再現』ノ準備ニトリカカル――」",
 			typewriter = {
 				speed = 0.05,
@@ -190,10 +190,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ようやく終わった…これで「駒」たちが処分？でもされちゃうのか…？",
 			typewriter = {
 				speed = 0.05,
@@ -246,10 +246,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900317,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "で、なにか気になる情報でもあったの？",
 			typewriter = {
 				speed = 0.05,
@@ -336,10 +336,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そこが一番重要じゃないの～こちらで何もできないんじゃどうしようもないけど",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -364,10 +364,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そういう話題を信濃から持ち出したってことは、さては脱出方法でも分かったのかな？",
 			typewriter = {
 				speed = 0.05,
@@ -420,12 +420,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actorName = "？？？",
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#ffa500",
+			actorName = "？？？",
 			actor = 900315,
-			stopbgm = true,
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "……流石端末の力の一端を備えているだけあって、察しがいいわ",
 			typewriter = {

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_124 = {}
 slot1 = slot0.word_template_124
 
-function temp()
+temp = function()
 	uv0["灝"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["喝"] = {
 		["杯"] = {
 			["奶"] = {
@@ -145,7 +145,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["何"] = {
 		["春"] = {
 			["传"] = {
@@ -212,7 +212,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["河"] = {
 		["粉"] = {
 			["米"] = {
@@ -278,7 +278,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["曷"] = {
 		this = {
 			this = true
@@ -288,7 +288,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["核"] = {
 		["弹"] = {
 			this = true
@@ -352,7 +352,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["翮"] = {
 		this = {
 			this = true

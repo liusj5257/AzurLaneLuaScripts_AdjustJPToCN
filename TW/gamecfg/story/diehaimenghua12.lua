@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 302080,
-			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "可惡，到此為止了嗎…！",
 			bgm = "xinnong-4",
+			actor = 302080,
+			nameColor = "#a9f548",
+			say = "可惡，到此為止了嗎…！",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "這、到底是什麼……",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "……抱歉，信濃大人。",
 			typewriter = {
@@ -68,9 +68,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "量產型戰艦…只需一刀，岸防堡壘…只需一炮。驅逐艦、輕巡洋艦、輕型航母…若被命中了，也只需一炮。",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "這是完全不能稱之為戰鬥的戰鬥。但是，脆弱的防線依然在抵抗著。",
 			typewriter = {
 				speed = 0.05,
@@ -192,15 +192,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "呵呵呵……很好…就是要這種程度的記錄，這種程度的靈魂才行！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -225,11 +225,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "盡情地戰鬥吧，然後在毀滅之中起舞吧！",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -251,14 +251,14 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			actorName = "？？？",
-			bgName = "bg_xinnong_cg2",
 			side = 2,
+			bgName = "bg_xinnong_cg2",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900192,
 			nameColor = "#ffa500",
 			say = "…………不要礙事。",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307020,
+			nameColor = "#a9f548",
 			say = "姐姐小心！！",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

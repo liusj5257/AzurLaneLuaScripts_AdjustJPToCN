@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOYIXI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOYIXI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"香醇的提拉米蘇\n\n<size=45>七  黑糖味的喜悅</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			say = "晚餐時間，按照與{namecode:197}的約定來到了白鷹宿舍的小餐吧內。",
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			hidePaintObj = true,
+			say = "晚餐時間，按照與{namecode:197}的約定來到了白鷹宿舍的小餐吧內。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:197}",
+			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指、指揮官……",
 			typewriter = {
 				speed = 0.05,
@@ -116,10 +116,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "呼……呼……（深呼吸、深呼吸）",
 			typewriter = {
 				speed = 0.05,
@@ -134,10 +134,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "按照指揮官的要求，{namecode:197}摘下面具了……",
 			typewriter = {
 				speed = 0.05,
@@ -152,15 +152,15 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官……要、要喝點什麼嗎……",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -207,12 +207,12 @@ return {
 			}
 		},
 		{
-			actor = 102291,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102291,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "我和路易斯打了個賭……根據賭約，如果指揮官這週內希望我摘下面具的話，我就要穿上這身衣服和指揮官約會……",
 			typewriter = {
 				speed = 0.05,
@@ -227,10 +227,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "如果沒有的話……路易斯就要告訴我怎樣給指揮官挑禮物……",
 			typewriter = {
 				speed = 0.05,
@@ -260,10 +260,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指、指揮官…一直這樣盯著我的話…我會不知道應該說什麼的…",
 			typewriter = {
 				speed = 0.05,
@@ -293,10 +293,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "呼…深呼吸……感覺稍微好一點了…",
 			typewriter = {
 				speed = 0.05,
@@ -308,17 +308,17 @@ return {
 			}
 		},
 		{
-			actor = 102291,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102291,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指、指揮官，擔任秘書艦以來一直承蒙關照了……",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -335,12 +335,12 @@ return {
 			}
 		},
 		{
-			actor = 102291,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102291,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "能待在指揮官的身邊，{namecode:197}感覺很幸福…雖然之前因為各種原因也給你添了不少麻煩……",
 			typewriter = {
 				speed = 0.05,
@@ -355,10 +355,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "即便如此……如果指揮官依然願意接納{namecode:197}的話……{namecode:197}一定會努力在更多的地方上幫到你的……",
 			typewriter = {
 				speed = 0.05,
@@ -388,10 +388,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102291,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "對了…現在還是晚餐時間……",
 			typewriter = {
 				speed = 0.05,

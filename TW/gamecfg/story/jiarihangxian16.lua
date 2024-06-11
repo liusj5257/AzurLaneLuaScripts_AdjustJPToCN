@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIAN16",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIAN16",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900232,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			nameColor = "#ff5c5c",
 			say = "哼哼，姑且算是記錄到了不太一樣的數據吧。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -41,12 +41,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "測試者",
 			say = "不過…通過像這樣“遊戲”一般的戰鬥，真的能得到什麼有意義的數據嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -76,10 +76,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 900233,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
+			nameColor = "#ff5c5c",
 			say = "啊啊~沒勁，沒有出擊的機會，只能默默等待數據的感覺真是太沒勁了~",
 			typewriter = {
 				speed = 0.05,
@@ -91,12 +91,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "測試者",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -142,10 +142,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 900233,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900233,
+			nameColor = "#ff5c5c",
 			say = "……還是算了吧。",
 			typewriter = {
 				speed = 0.05,

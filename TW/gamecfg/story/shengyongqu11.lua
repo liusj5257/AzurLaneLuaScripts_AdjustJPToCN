@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU11",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "莫三比克海峽·維希教廷控制區",
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "level-french1",
+			say = "莫三比克海峽·維希教廷控制區",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "伴隨著戰鬥的開始，猛烈的轟鳴與毀滅的爆音在海域中迴盪著。",
 			typewriter = {
 				speed = 0.05,
@@ -49,8 +49,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "嗚哇！差點就被雜魚打中了！明明都是些量產型而已，怎麼這麼難纏啊！",
 			typewriter = {
@@ -63,8 +63,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -76,8 +76,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "而且還有大量聖堂的防衛設施提供掩護射擊…看來還是先躲避到射程之外戰鬥比較好…",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "現在的我可不敢說熟悉這裡了…除了對已有的設施的部署調整外，維希還修建了一大批新的設施。",
 			typewriter = {
@@ -142,8 +142,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "按照以前的布防印象前進反而會被帶入陷阱裡面…這是專門針對我而的做設計啊。",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "阿爾及利亞就算在聖教騎士中也屬於心思縝密的人，再加上作為條約型的最強重巡之一。",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "以前作為隊友的時候只能感受到安心與可靠，沒想到作為對手的時候會這麼難纏啊…",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "…而且不光是戰術上的應對。大家注意到了嗎，維希派出量產型本身就有些奇怪的地方。",
 			typewriter = {
@@ -242,8 +242,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "有些量產型在型號沒有明顯區別的情況下，火力、機動都比正常的型號提高了三四成，綜合的船體強度至少提高了一倍以上…",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "這些外表差不多的特殊型號混在正常的編隊裡，導致了對面艦隊強度的整體提升。",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "如果說異常的地方的話…對，我從它們身上感受到了一絲熟悉的氣息。",
 			typewriter = {
@@ -325,8 +325,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "這些量產型，難道說…使用了心智魔方作為能量來源嗎？",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "心智魔方還能用在量產型身上嗎……？",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "我可從來沒有在任何記錄上見到過類似的事情存在啊…",
 			typewriter = {
@@ -488,8 +488,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "原來如此，這樣就說得通了…啊？！我們也做過類似的研究嗎！",
 			typewriter = {
@@ -502,8 +502,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -531,8 +531,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "那現在這些奇怪的教廷量產型到底是怎麼回事…難道是使用了某種塞壬的技術？",
 			typewriter = {
@@ -548,8 +548,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "我確實也沒有感覺到這些量產型內部直接存在有心智魔方，只是感覺到有一種氣息…",
 			typewriter = {
@@ -581,8 +581,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "彷彿我們進入到了一個巨大而又稀疏的心智魔方內部一樣…",
 			typewriter = {
@@ -611,11 +611,11 @@ return {
 			}
 		},
 		{
-			actor = 201120,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201120,
+			nameColor = "#a9f548",
 			say = "我、我也有感覺到…！",
 			typewriter = {
 				speed = 0.05,
@@ -627,8 +627,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -640,8 +640,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "哎？ ！命運女神妳也感覺到了嗎？魯莽完全沒有任何感覺哦！",
 			typewriter = {
@@ -657,8 +657,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "我也沒感覺到有什麼不同，難道我的魔法水平下降了…？",
 			typewriter = {
@@ -722,8 +722,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "維希教廷在拿到它們之後，與鐵血合作重啟實驗的可能性不能排除，這也是我一直在擔心的事。",
 			typewriter = {
@@ -752,11 +752,11 @@ return {
 			}
 		},
 		{
-			actor = 201120,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201120,
+			nameColor = "#a9f548",
 			say = "哎？ ！會、會遭到神秘兵器的攻擊嗎…",
 			typewriter = {
 				speed = 0.05,
@@ -768,8 +768,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -794,12 +794,12 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_qiongding_6",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "話雖如此…既然研究被重啟了，控制在維希手中的聖堂依舊是一個危險的隱患。我們的行動得加速了…",
 			typewriter = {
 				speed = 0.05,

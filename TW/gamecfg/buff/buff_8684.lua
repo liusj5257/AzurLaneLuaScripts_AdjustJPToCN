@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "法系V2加斯科涅技能弹条",
 	time = 0,
-	color = "blue",
+	name = "法系V2加斯科涅技能弹条",
+	init_effect = "",
+	id = 8684,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8684,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{
@@ -26,8 +26,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8685,
-				target = "TargetSelf",
-				time = 25
+				time = 25,
+				target = "TargetSelf"
 			}
 		}
 	}

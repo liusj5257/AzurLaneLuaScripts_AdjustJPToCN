@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIDIFENGBAO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIDIFENGBAO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 2,
-			say = "雪に覆われた北海の氷の中、砕氷船に導かれながら量産型の補給船団が一列で海を進んでいる。",
 			bgm = "bgm-cccp3",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "雪に覆われた北海の氷の中、砕氷船に導かれながら量産型の補給船団が一列で海を進んでいる。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_jidifengbao_map",
 			say = "北の絶海の戦いは未だ続いているものの、大規模の船団が作戦行動を起こすことはあまりない。",
 			typewriter = {
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_jidifengbao_map",
 			say = "――通信機の音が鳴り響くと、作戦前の最終連絡を行う「彼女」の声が届けられた。",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#A9F548FF",
 			say = "はっ。必ずや任務を完遂する",
 			painting = {
@@ -386,8 +386,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "ああ。任された",
 			painting = {
@@ -523,9 +523,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actor = 900218,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "速やかに所定の位置まで移動して、作戦開始に備えてください",
 			typewriter = {
 				speed = 0.05,
@@ -541,10 +541,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_jidifengbao_map",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			blackBg = true,
 			actor = 900218,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "革命の仲間たちに、ご武運を――",
 			typewriter = {
 				speed = 0.05,

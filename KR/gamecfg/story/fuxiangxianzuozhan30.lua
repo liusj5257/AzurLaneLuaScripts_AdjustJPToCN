@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN30",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "battle-seiren-theme",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			say = "펑————————!",
 			dir = 1,
-			bgm = "battle-seiren-theme",
+			soundeffect = "event:/battle/boom2",
+			say = "펑————————!",
 			flashN = {
 				color = {
 					1,
@@ -63,8 +63,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "컴파일러의 실드가 드디어 파괴됐어.",
 			typewriter = {
@@ -80,8 +80,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "좋아, 이제 마지막 일격을————",
 			typewriter = {
@@ -97,8 +97,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "외부 실드 회복 완료. 내부 실드, 가동————",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "이건 반칙이야~~!!!! 다들 조심해, 바퀴벌레의 실드가 또 생겼어!!!!",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -141,8 +141,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "이 힘은...",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "방금 전투가 무의미해졌어요. 어떻게 이럴 수가...",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "메탈 블러드, 사르데냐 제국의 친구 여러분. 저희 도움이 필요한 것 같네요.",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 307060,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "포기하긴 일러! 계속 포위하면 분명히 깰 수 있을 거야! 언니, 준비됐어?",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "후후, 이미 공중에서 조준 중이랍니다. 여러분의 공로를 빼앗고 싶지는 않았지만 그냥 보고 있을 수는 없네요.",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 305020,
 			dir = 1,
+			actor = 305020,
 			nameColor = "#a9f548",
 			say = "저도 준비 끝났어요... 여러분, 가요!",
 			typewriter = {
@@ -240,11 +240,11 @@ return {
 			}
 		},
 		{
-			say = "펑————————!",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "펑————————!",
 			flashN = {
 				color = {
 					1,
@@ -295,8 +295,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "실드에게 최후의 일격을 가하는 건 저예요!",
 			typewriter = {
@@ -312,11 +312,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 900230,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "................",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -367,14 +367,14 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "실드 격파 확인~! 자, 지금이야! 장갑함 돌격!",
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2500
@@ -390,8 +390,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -419,8 +419,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "아니, 도망 못 간다니까—— 에에에?!!",
 			typewriter = {
@@ -433,8 +433,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,8 +446,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "무슨 일이지 하인리히? 갑자기 목표가 보이지 않는데!",
 			typewriter = {
@@ -463,8 +463,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "잠수... 컴파일러가 갑자기 잠수해서 사라졌어요! 저렇게 큰 몸을 하고서!",
 			typewriter = {
@@ -480,8 +480,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "에?! 이동 모듈이라고 했잖아. 왜 잠수하는 거야!!!",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -524,8 +524,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "이 약삭빠른 바퀴벌레, 거기 서!!!",
 			typewriter = {
@@ -538,8 +538,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -548,15 +548,15 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "결국 물속으로 도망가는 건가, 컴파일러. 후후후... U-37, 거기 있지? 요격해!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -584,9 +584,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_134",
-			actor = 408100,
 			dir = 1,
 			blackBg = true,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "U-37, 라져! 헤헤, 물속은 나에게 맡겨줘!",
 			typewriter = {

@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 100
+					number = 100,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -29,8 +29,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 17331,
+					target = "TargetSelf",
 					countType = 17332
 				}
 			}
@@ -45,8 +45,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 140
+					number = 140,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -66,8 +66,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 17331,
+					target = "TargetSelf",
 					countType = 17332
 				}
 			}
@@ -82,8 +82,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 180
+					number = 180,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -103,8 +103,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 17331,
+					target = "TargetSelf",
 					countType = 17332
 				}
 			}
@@ -119,8 +119,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 220
+					number = 220,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -140,8 +140,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 17331,
+					target = "TargetSelf",
 					countType = 17332
 				}
 			}
@@ -156,8 +156,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 260
+					number = 260,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -177,8 +177,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 17331,
+					target = "TargetSelf",
 					countType = 17332
 				}
 			}
@@ -193,8 +193,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 300
+					number = 300,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -214,8 +214,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 17331,
+					target = "TargetSelf",
 					countType = 17332
 				}
 			}
@@ -230,8 +230,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 350
+					number = 350,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -251,8 +251,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 17331,
+					target = "TargetSelf",
 					countType = 17332
 				}
 			}
@@ -267,8 +267,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 400
+					number = 400,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -288,8 +288,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 17331,
+					target = "TargetSelf",
 					countType = 17332
 				}
 			}
@@ -304,8 +304,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 450
+					number = 450,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -325,8 +325,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 17331,
+					target = "TargetSelf",
 					countType = 17332
 				}
 			}
@@ -341,8 +341,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 500
+					number = 500,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -362,20 +362,20 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 17331,
+					target = "TargetSelf",
 					countType = 17332
 				}
 			}
 		}
 	},
-	id = 17332,
 	name = "防空提升",
 	time = 0,
+	color = "red",
 	picture = "",
 	desc = "防空提高",
 	stack = 5,
-	color = "red",
+	id = 17332,
 	icon = 17330,
 	last_effect = "",
 	blink = {
@@ -400,8 +400,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 100
+				number = 100,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -421,8 +421,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 17331,
+				target = "TargetSelf",
 				countType = 17332
 			}
 		}

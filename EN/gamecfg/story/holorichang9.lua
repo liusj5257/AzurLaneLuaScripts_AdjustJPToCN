@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 9: The Great Castle</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301490,
-			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "... Lady Nagato appears to still be in the midst of her nap.",
 			bgm = "holo-tokiwa",
+			actor = 301490,
+			nameColor = "#a9f548",
+			say = "... Lady Nagato appears to still be in the midst of her nap.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
+			dir = 1,
 			say = "（door opens）",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 305051,
 			dir = 1,
+			actor = 305051,
 			nameColor = "#a9f548",
 			say = "Kawakaze... are they already here? I still require my midday respite...",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "So cute!",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -113,8 +113,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "Ahhh~ What is this adorable creature? No, she's an angel! An angel, I tell you!",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Yes indeed! For once, I'll admit that I agree with Matsuri!",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 305051,
 			dir = 1,
+			actor = 305051,
 			nameColor = "#a9f548",
 			say = "... ... ...",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 305051,
 			dir = 1,
+			actor = 305051,
 			nameColor = "#a9f548",
 			say = "Gah...?! Wh-who are you?!",
 			typewriter = {
@@ -194,8 +194,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,15 +204,15 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "My sincerest apologies for my reaction earlier. I must offer my apologies as the Priestess of the Sakura Empire.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,8 +256,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "She no longer seems like she's being put on a pedestal. If anything, she's way more approachable this way.",
 			typewriter = {
@@ -273,8 +273,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "She looks just like a cute little girl from the neighborhood~",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900212,
 			dir = 1,
+			actor = 900212,
 			nameColor = "#a9f548",
 			say = "Hnnnggghhhh...",
 			typewriter = {
@@ -304,15 +304,15 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "I see. You saw Fusou and Yamashiro's Kagura dance, as well as Ise and Hyuuga's war dance.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -372,8 +372,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "Not at all! Don't worry about it. Thank you for your concern.",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Want to play with us, Lady Nagato?",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900210,
 			dir = 1,
+			actor = 900210,
 			nameColor = "#a9f548",
 			say = "You should come play with us, cutie~♪",
 			typewriter = {
@@ -468,11 +468,11 @@ return {
 			}
 		},
 		{
-			actor = 305060,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305060,
+			nameColor = "#a9f548",
 			say = "Nagato, why didn't you tell me that your guests were already here? And why didn't you let me throw a welcoming party for them? I was trying really hard to come up with something too...",
 			typewriter = {
 				speed = 0.05,
@@ -484,8 +484,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -526,11 +526,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "Nnnnh... F-fine, if you insist...",
 			typewriter = {
 				speed = 0.05,
@@ -542,8 +542,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -552,11 +552,11 @@ return {
 			}
 		},
 		{
-			actor = 305060,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305060,
+			nameColor = "#a9f548",
 			say = "Yaay~!",
 			typewriter = {
 				speed = 0.05,
@@ -568,8 +568,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -612,14 +612,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_111",
 			actor = 900214,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "... Hmm, does that girl named Mutsu not seem quite precocious? She reminds me of myself.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -663,8 +663,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900213,
 			dir = 1,
+			actor = 900213,
 			nameColor = "#a9f548",
 			say = "And she is much cuter than Shion.",
 			typewriter = {
@@ -680,8 +680,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "What?! Nonsense! She's at most just as cute as I am! And probably not quite as smart as me!",
 			typewriter = {
@@ -694,8 +694,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -768,11 +768,11 @@ return {
 			}
 		},
 		{
-			actor = 900209,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			say = "Yeah, we already knew that! Nagato's selling point is her gap moe!",
 			typewriter = {
 				speed = 0.05,
@@ -784,8 +784,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -810,9 +810,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
+			dir = 1,
 			say = "The girls' joyful voices resounded from the building protected by the towering walls of the castle.",
 			typewriter = {
 				speed = 0.05,

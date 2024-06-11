@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "PANGPEI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "PANGPEI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Captain Pompey Has You Covered!\n\n<size=45>1 The All-Capable Secretary</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "As the morning sunlight peeked in through the office windows, there was a soft knock on the office door.",
 			bgm = "story-1",
+			say = "As the morning sunlight peeked in through the office windows, there was a soft knock on the office door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,10 +32,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Captain Pompey the Great has arrived! I'll be serving as your secretary, moving forward.",
 			painting = {
 				alpha = 0.3,
@@ -47,8 +47,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -72,10 +72,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Of course! So, what's on the schedule today? Not that it matters, I'll take care of it all!",
 			painting = {
 				alpha = 0.3,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -123,9 +123,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task_2",
 			dir = 1,
 			optionFlag = 1,
+			bgName = "bg_story_task_2",
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -139,17 +139,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -243,13 +243,13 @@ return {
 			}
 		},
 		{
-			actor = 601070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 601070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -280,8 +280,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -341,13 +341,13 @@ return {
 			}
 		},
 		{
-			actor = 601070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 601070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "B-but I'm just... I can't...",
 			painting = {
 				alpha = 0.3,
@@ -442,8 +442,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -484,13 +484,13 @@ return {
 			}
 		},
 		{
-			actor = 601070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 601070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(Though I wish I could have you by my side...)",
 			painting = {
 				alpha = 0.3,
@@ -579,13 +579,13 @@ return {
 			}
 		},
 		{
-			actor = 601070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 601070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Please don't put more pressure on me than there already is!",
 			painting = {
 				alpha = 0.3,
@@ -629,8 +629,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -639,8 +639,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "A soft breeze fluttered a curtain as Pompeo left the office and closed the door behind her.",
@@ -650,8 +650,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "Chatting casually, she and the Commander walked through the corridor, their voices growing more and more distant.",

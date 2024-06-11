@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"渡假村神秘事件調查\n\n<size=45>番外篇：動如脫兔！</size>",
@@ -17,47 +17,47 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			say = "這是在正式演出開始前發生的，某一幕故事的後續——",
-			hidePaintObj = true,
-			blackBg = true,
 			bgm = "stopbgm",
+			hidePaintObj = true,
+			side = 2,
+			blackBg = true,
+			say = "這是在正式演出開始前發生的，某一幕故事的後續——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_in",
+			bgm = "cw-level",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "溫泉渡假村·？？？",
-			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "其疾如風！",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……駿河閣下妳快看前面！",
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_in",
 			hidePaintObj = true,
 			say = "少女環顧四周，但並沒有發現駿河的身影。",
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "在溫泉開party！",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "在溫泉開party！",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
@@ -193,11 +193,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "其疾如風！",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……咦？是在喊島風嗎？",
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "在溫泉開party！",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
@@ -232,8 +232,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "在溫泉開party！",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "在溫泉開party！",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
@@ -278,8 +278,8 @@ return {
 			mode = 1,
 			movableNode = {
 				{
-					time = 2,
 					name = "story_denglonggui",
+					time = 2,
 					spine = {
 						action = "move",
 						scale = 8
@@ -361,8 +361,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 2500
@@ -370,10 +370,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "河童",
-			bgName = "bg_village_in",
+			side = 2,
 			factiontag = "為了不再怕人……",
+			bgName = "bg_village_in",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……演出時間……收到……",
@@ -390,17 +390,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "河童",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "為了不再怕人……",
 			nameColor = "#A9F548FF",
@@ -467,8 +467,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -477,10 +477,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雪女",
-			bgName = "bg_village_in",
+			side = 2,
 			factiontag = "雪女作戰中",
+			bgName = "bg_village_in",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哎呀，真是可愛的小兔子~多謝妳來通知我。",
@@ -497,17 +497,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雪女",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "雪女作戰中",
 			nameColor = "#A9F548FF",
@@ -555,10 +555,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自稱小生的老者",
-			bgName = "bg_village_in",
+			side = 2,
 			factiontag = "自稱小生的老者",
+			bgName = "bg_village_in",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "多謝妳趕來通知，接下來是————",
@@ -575,17 +575,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -612,8 +612,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自稱小生的老者",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "自稱小生的老者",
 			nameColor = "#A9F548FF",
@@ -643,11 +643,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
-			bgName = "bg_village_in",
 			factiontag = "其疾如風！",
 			dir = 1,
+			bgName = "bg_village_in",
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "呼……呼……呼…………終於全部通知完了！",
@@ -660,17 +660,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -735,8 +735,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -745,8 +745,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "經常壞的通訊器",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "經常壞的經常壞的通訊器",
 			hidePaintObj = true,
@@ -796,8 +796,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1003,11 +1003,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "其疾如風！",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官和其他同伴們一定會喜歡的！！",
@@ -1040,8 +1040,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 2500
@@ -1049,10 +1049,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			hidePaintObj = true,
 			blackBg = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "此時的少女們並不知道——",
 			effects = {
 				{
@@ -1065,17 +1065,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1083,8 +1083,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "她們所準備的驚喜，在不久的將來會變成一份“驚嚇”，狠狠地砸在同伴們的身上——！",

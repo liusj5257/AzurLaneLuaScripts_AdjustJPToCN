@@ -1,13 +1,13 @@
 pg = pg or {}
 pg.world_joint_boss_template = {
 	{
-		state = "always",
 		name = "Hiryuu META",
-		painting = "feilong",
 		boss_level_id = 1,
-		id = 1,
-		meta_id = 970701,
+		state = "always",
 		item_id = 100000,
+		painting = "feilong",
+		meta_id = 970701,
+		id = 1,
 		description = {
 			{
 				"[Cards of Light and Dark]",
@@ -30,13 +30,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "Ark Royal META",
-		painting = "huangjiafangzhou",
 		boss_level_id = 16,
-		id = 2,
-		meta_id = 970702,
+		state = "always",
 		item_id = 100000,
+		painting = "huangjiafangzhou",
+		meta_id = 970702,
+		id = 2,
 		description = {
 			{
 				"[Renegade Sniper]",
@@ -59,13 +59,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "Helena META",
-		painting = "hailunna",
 		boss_level_id = 31,
-		id = 3,
-		meta_id = 970201,
+		state = "always",
 		item_id = 100000,
+		painting = "hailunna",
+		meta_id = 970201,
+		id = 3,
 		description = {
 			{
 				"[Scanner Hacking]",
@@ -92,13 +92,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "Souryuu META",
-		painting = "canglong",
 		boss_level_id = 46,
-		id = 4,
-		meta_id = 970703,
+		state = "always",
 		item_id = 100000,
+		painting = "canglong",
+		meta_id = 970703,
+		id = 4,
 		description = {
 			{
 				"Akatan of Blossoming Flame",
@@ -125,13 +125,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "Gneisenau META",
-		painting = "genaisennao",
 		boss_level_id = 61,
-		id = 5,
-		meta_id = 970401,
+		state = "always",
 		item_id = 100000,
+		painting = "genaisennao",
+		meta_id = 970401,
+		id = 5,
 		description = {
 			{
 				"Seething Chains",
@@ -154,13 +154,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "Scharnhorst META",
-		painting = "shaenhuosite",
 		boss_level_id = 76,
-		id = 6,
-		meta_id = 970402,
+		state = "always",
 		item_id = 100000,
+		painting = "shaenhuosite",
+		meta_id = 970402,
+		id = 6,
 		description = {
 			{
 				"Iron Whip",
@@ -183,13 +183,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "Repulse META",
-		painting = "fanji",
 		boss_level_id = 91,
-		id = 7,
-		meta_id = 970403,
+		state = "always",
 		item_id = 100000,
+		painting = "fanji",
+		meta_id = 970403,
+		id = 7,
 		description = {
 			{
 				"Repulsing Pyrotechnics",
@@ -221,13 +221,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "Renown META",
-		painting = "shengwang",
 		boss_level_id = 106,
-		id = 8,
-		meta_id = 970404,
+		state = "always",
 		item_id = 100000,
+		painting = "shengwang",
+		meta_id = 970404,
+		id = 8,
 		description = {
 			{
 				"Meteor Shower",
@@ -264,13 +264,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "Arizona META",
-		painting = "yalisangna",
 		boss_level_id = 121,
-		id = 9,
-		meta_id = 970503,
+		state = "always",
 		item_id = 100000,
+		painting = "yalisangna",
+		meta_id = 970503,
+		id = 9,
 		description = {
 			{
 				"Contagious Lament",
@@ -297,13 +297,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
 		name = "Queen Elizabeth META",
-		painting = "yilishabainvwang",
 		boss_level_id = 136,
-		id = 10,
-		meta_id = 970504,
+		state = "stop",
 		item_id = 100000,
+		painting = "yilishabainvwang",
+		meta_id = 970504,
+		id = 10,
 		description = {
 			{
 				"Dominion Expansion",
@@ -330,13 +330,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
 		name = "Algérie META",
-		painting = "aerjiliya",
 		boss_level_id = 151,
-		id = 11,
-		meta_id = 970302,
+		state = "stop",
 		item_id = 100000,
+		painting = "aerjiliya",
+		meta_id = 970302,
+		id = 11,
 		description = {
 			{
 				"Pillar of Sin",
@@ -363,13 +363,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
 		name = "Jintsuu META",
-		painting = "shentong",
 		boss_level_id = 166,
-		id = 12,
-		meta_id = 970205,
+		state = "stop",
 		item_id = 100000,
+		painting = "shentong",
+		meta_id = 970205,
+		id = 12,
 		description = {
 			{
 				"Ironclad Ultimatum",
@@ -401,13 +401,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
 		name = "Kirov META",
-		painting = "jiluofu",
 		boss_level_id = 181,
-		id = 13,
-		meta_id = 970206,
+		state = "stop",
 		item_id = 100000,
+		painting = "jiluofu",
+		meta_id = 970206,
+		id = 13,
 		description = {
 			{
 				"Mechanized Support",
@@ -434,12 +434,12 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
 		name = "Rodney META",
-		painting = "luodeni",
 		boss_level_id = 196,
-		id = 14,
+		item_id = 100000,
+		painting = "luodeni",
 		meta_id = 970505,
+		id = 14,
 		description = {
 			{
 				"Dimensional Transcendence",

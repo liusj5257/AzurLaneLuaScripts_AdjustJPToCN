@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_2",
+			bgm = "theme-ucnf-beacon",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Coral Sea Simulation - Mission Area",
-			bgm = "theme-ucnf-beacon",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_2",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Flasher, you done yet?",
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_zhuguang_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -182,8 +182,8 @@ return {
 			bgName = "bg_zhuguang_2",
 			factiontag = "Data Retrieval Department",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "Constellation",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Do you read me? The radio silence command is hereby lifted. If you read me, please respond...",
 			painting = {
@@ -881,8 +881,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_zhuguang_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -931,11 +931,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_2",
 			factiontag = "Special Operations Force",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I know... Everything that's happened to Lexington must be weighing heavily on her...",

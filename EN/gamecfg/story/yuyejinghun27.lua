@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN27",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_515",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
 			bgm = "xinnong-3",
-			actorName = "Essex",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The maid steels herself and runs out of the study. You hear the commotion outside the door intensify. You know for certain that she won't hold them back for long.",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -534,11 +534,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "Hai Tien",
 			bgName = "star_level_bg_130",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
 			bgm = "theme-shallowoftheworld",
-			actorName = "Hai Tien",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You continue moving forward, trusting the lantern's faint light. After walking for some time, you find yourself inside a burial chamber. In a flash, an eerie magic circle appears before your eyes.",
 			typewriter = {
@@ -546,17 +546,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -782,9 +782,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Your conscience takes a hit the moment you say those words.",
 			typewriter = {
@@ -797,9 +797,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yes. You have deduced that Lord Manjuu is behind these disappearances, and yet all you seem to care about is your payment.",
 			typewriter = {
@@ -812,9 +812,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You are better than that. Something as meaningless as money cannot sway your iron spirit.",
 			typewriter = {
@@ -923,11 +923,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "Hai Tien",
 			bgName = "star_level_bg_161",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
 			bgm = "story-richang-10",
-			actorName = "Hai Tien",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You eventually found an exit out of the secret room and escaped from the castle.",
 			typewriter = {
@@ -935,17 +935,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1149,8 +1149,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -1160,8 +1160,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			effects = {
 				{
 					active = true,

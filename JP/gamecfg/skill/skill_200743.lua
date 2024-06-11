@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023关岛活动EX 二阶段半血时转三阶段 瞬移回初始",
 	cd = 0,
-	painting = 0,
-	id = 200743,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200743,
 	effect_list = {
 		{
 			type = "BattleSkillPhaseJump",
@@ -36,8 +36,8 @@ return {
 				delay = 0.1,
 				effect = "shanshuo",
 				casterRelativeCorrdinate = {
-					hrz = 0,
-					vrt = 0
+					vrt = 0,
+					hrz = 0
 				}
 			}
 		}

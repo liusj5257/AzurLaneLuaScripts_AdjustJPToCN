@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"從內到外魅力MAX！\n\n<size=45>四　紀伊型意味著什麼</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-2",
+			say = "港區·演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "感謝各位在今天聚集在此。",
 			typewriter = {
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "重櫻智囊團之一的天城，淺咳著現身了。",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "也歡迎主上。感謝您的親自出席。",
 			typewriter = {
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "邀請我來這裡的緣由，我也是十分清楚的。",
 			typewriter = {
 				speed = 0.05,
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "來自重櫻的艦船們將在此處進行演習，而自己就是本次演習的裁判。",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "哼哼！駿河，來得好！我就先誇你沒有不戰而逃吧！",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,8 +156,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "{namecode:80}……",
 			typewriter = {
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "一對一的擬真實戰。從規格上來看紀伊和駿河兩人旗鼓相當，可實際上紀伊似乎更佔上風。",
 			typewriter = {
 				speed = 0.05,
@@ -216,15 +216,15 @@ return {
 			}
 		},
 		{
-			actor = 304050,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "差不多是時候了。主上，拜託您了。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -249,9 +249,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "感受著會場觀眾的熱情，還有駿河和紀伊蓄勢待發的氣勢，宣布了演習的開始。",
 			typewriter = {
 				speed = 0.05,
@@ -291,11 +291,11 @@ return {
 			}
 		},
 		{
-			say = "紀伊間不容髮地動身了。她邊接近駿河邊發出連射，打算一口氣打倒對方。",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "紀伊間不容髮地動身了。她邊接近駿河邊發出連射，打算一口氣打倒對方。",
 			effects = {
 				{
 					active = false,
@@ -367,9 +367,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "駿河發出了此前在相處中從未出現過的銳利聲音，同時巧妙地躲避著紀伊的猛攻。",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "怎麼會？！駿河，怎麼了！！這可不像你ー！！",
 			effects = {
@@ -404,8 +404,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -414,9 +414,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "與面對超出預料狀況卻仍有餘力的紀伊形成鮮明對比，駿河正邊喘著氣邊嘗試著反擊。",
 			effects = {
 				{
@@ -450,9 +450,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "她那對勝利的執念之深切，甚至傳達到了觀眾席這邊。",
 			typewriter = {
 				speed = 0.05,
@@ -464,9 +464,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "儘管紀伊的氣勢很強，但駿河此時完全不輸於她，同樣地引人注目。",
 			typewriter = {
 				speed = 0.05,
@@ -478,11 +478,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
 			say = "嘿呀啊啊啊！！",
 			effects = {
 				{
@@ -500,11 +500,11 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305120,
+			nameColor = "#a9f548",
 			say = "……哼哼！",
 			effects = {
 				{
@@ -522,12 +522,12 @@ return {
 			}
 		},
 		{
-			actor = 304050,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "——看來，這下要決出勝負了。",
 			typewriter = {
 				speed = 0.05,

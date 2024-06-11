@@ -3,13 +3,13 @@ slot2 = "com.hkmanjuu.azurlane.gp.mc"
 slot3 = "com.hkmanjuu.azurlane.gp"
 slot4 = "com.hkmanjuu.azurlane.ios1"
 
-function StartSdkLogin()
+StartSdkLogin = function()
 	Timer.New(function ()
 		uv0:OnLoginTimeOut()
 	end, 30, 1):Start()
 end
 
-function GoLoginScene()
+GoLoginScene = function()
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -20,7 +20,7 @@ function GoLoginScene()
 	gcAll()
 end
 
-function SDKLogined(slot0, slot1, slot2, slot3)
+SDKLogined = function(slot0, slot1, slot2, slot3)
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -40,7 +40,7 @@ function SDKLogined(slot0, slot1, slot2, slot3)
 	})
 end
 
-function SDKLogouted(slot0)
+SDKLogouted = function(slot0)
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -52,7 +52,7 @@ function SDKLogouted(slot0)
 	})
 end
 
-function PaySuccess(slot0, slot1)
+PaySuccess = function(slot0, slot1)
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -67,7 +67,7 @@ function PaySuccess(slot0, slot1)
 	})
 end
 
-function PayFailed(slot0, slot1)
+PayFailed = function(slot0, slot1)
 	if not pg.m02 then
 		originalPrint("game is not start")
 
@@ -86,13 +86,13 @@ function PayFailed(slot0, slot1)
 	})
 end
 
-function GetUserInfoSuccess()
+GetUserInfoSuccess = function()
 end
 
-function GetUserInfoFailed()
+GetUserInfoFailed = function()
 end
 
-function slot5(slot0, slot1, slot2)
+slot5 = function(slot0, slot1, slot2)
 	if slot0 == YongshiSdkUserBindInfo.FACEBOOK then
 		pg.TipsMgr.GetInstance():ShowTips(slot1 .. "facebook" .. slot2)
 	elseif slot0 == YongshiSdkUserBindInfo.APPLE then
@@ -110,12 +110,12 @@ function slot5(slot0, slot1, slot2)
 	end
 end
 
-function BindSuccess(slot0)
+BindSuccess = function(slot0)
 	uv0(slot0, "綁定", "成功")
 	pg.m02:sendNotification(GAME.CHT_SOCIAL_LINK_STATE_CHANGE, slot0)
 end
 
-function BindFailed(slot0, slot1)
+BindFailed = function(slot0, slot1)
 	if slot1 and slot1 ~= "" then
 		pg.TipsMgr.GetInstance():ShowTips(slot1)
 	else
@@ -123,12 +123,12 @@ function BindFailed(slot0, slot1)
 	end
 end
 
-function UnBindSuccess(slot0)
+UnBindSuccess = function(slot0)
 	uv0(slot0, "解綁", "成功")
 	pg.m02:sendNotification(GAME.CHT_SOCIAL_LINK_STATE_CHANGE)
 end
 
-function UnBindFailed(slot0, slot1)
+UnBindFailed = function(slot0, slot1)
 	if slot1 and slot1 ~= "" then
 		pg.TipsMgr.GetInstance():ShowTips(slot1)
 	else
@@ -136,7 +136,7 @@ function UnBindFailed(slot0, slot1)
 	end
 end
 
-function OnDeepLinking(slot0)
+OnDeepLinking = function(slot0)
 	pg.YongshiDeepLinkingMgr.GetInstance():SetData(slot0)
 end
 

@@ -1,10 +1,10 @@
 slot0 = class("CommanderUsageTalentPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderCatUsageTalentUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.usageList = UIItemList.New(slot0:findTF("bg/frame/bg/talents/content"), slot0:findTF("bg/frame/bg/talents/content/talent"))
 	slot0.usageCancelBtn = slot0:findTF("bg/frame/cancel_btn")
 	slot0.usageConfirmBtn = slot0:findTF("bg/frame/confirm_btn")
@@ -22,7 +22,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("bg/frame/consume/label"), i18n("word_consume"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:RegisterEvent()
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
@@ -44,7 +44,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	slot0:bind(CommanderCatScene.MSG_FETCH_TALENT_LIST, function (slot0)
 		if uv0.commanderVO then
 			uv0:Flush(getProxy(CommanderProxy):getCommanderById(uv0.commanderVO.id))
@@ -63,14 +63,14 @@ function slot0.RegisterEvent(slot0)
 	end)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	slot0._tf:SetAsLastSibling()
 	slot0:Flush(slot1)
 	slot0:UpdateStyle()
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0.commanderVO = slot1
 
 	if not slot1:getNotLearnedList() or #slot2 == 0 then
@@ -80,16 +80,16 @@ function slot0.Flush(slot0, slot1)
 	end
 end
 
-function slot0.UpdateStyle(slot0)
+slot0.UpdateStyle = function(slot0)
 	setActive(slot0.usageCostIconTF, false)
 	setActive(slot0.usageCostTxtTF, false)
 end
 
-function slot0.FetchList(slot0)
+slot0.FetchList = function(slot0)
 	slot0:emit(CommanderCatMediator.FETCH_NOT_LEARNED_TALENT, slot0.commanderVO.id)
 end
 
-function slot0.UpdateList(slot0)
+slot0.UpdateList = function(slot0)
 	slot0.usageList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv1:UpdateCard(uv0[slot1 + 1], slot2)
@@ -102,7 +102,7 @@ function slot0.UpdateList(slot0)
 	slot0.usageList:align(#slot0.commanderVO:getNotLearnedList())
 end
 
-function slot0.UpdateCard(slot0, slot1, slot2)
+slot0.UpdateCard = function(slot0, slot1, slot2)
 	slot3 = slot0.commanderVO
 
 	setActive(slot2:Find("up"), slot3:hasTalent(slot1))
@@ -123,7 +123,7 @@ function slot0.UpdateCard(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateTalentCard(slot0, slot1, slot2)
+slot0.UpdateTalentCard = function(slot0, slot1, slot2)
 	slot3 = slot1:Find("unlock")
 	slot4 = slot1:Find("lock")
 
@@ -147,7 +147,7 @@ function slot0.UpdateTalentCard(slot0, slot1, slot2)
 	end
 end
 
-function slot0.CanBack(slot0)
+slot0.CanBack = function(slot0)
 	if slot0.replacePage and slot0.replacePage:GetLoaded() and slot0.replacePage:isShowing() then
 		slot0.replacePage:Hide()
 
@@ -157,7 +157,7 @@ function slot0.CanBack(slot0)
 	return true
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.replacePage then
 		slot0.replacePage:Destroy()
 

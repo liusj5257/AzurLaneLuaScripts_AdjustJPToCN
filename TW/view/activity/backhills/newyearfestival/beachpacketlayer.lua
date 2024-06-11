@@ -1,23 +1,23 @@
 slot0 = class("BeachPacketLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BeachPacketUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updateUI()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot1 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKET_LOTTER)
 	slot0.activityID = slot1.id
@@ -51,7 +51,7 @@ function slot0.initData(slot0)
 	slot0:updateActData()
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot1 = slot0:findTF("Adapt")
 	slot0.backBtn = slot0:findTF("BackBtn", slot1)
 	slot0.homeBtn = slot0:findTF("HomeBtn", slot1)
@@ -83,7 +83,7 @@ function slot0.findUI(slot0)
 
 	slot0.awardTFList = {}
 
-	function slot6(slot0, slot1, slot2)
+	slot6 = function(slot0, slot1, slot2)
 		for slot7, slot8 in ipairs(uv0:getAwardListByLevel(slot0)) do
 			uv0.awardTFList[slot8.awardID] = cloneTplTo(slot1, slot2)
 		end
@@ -99,7 +99,7 @@ function slot0.findUI(slot0)
 	slot0.aniSC = GetComponent(slot0.aniTF, "SpineAnimUI")
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_PANEL)
@@ -114,7 +114,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateActData(slot0)
+slot0.updateActData = function(slot0)
 	slot1 = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKET_LOTTER)
 	slot2 = pg.TimeMgr.GetInstance()
 	slot10 = slot1.data2
@@ -137,7 +137,7 @@ function slot0.updateActData(slot0)
 	end
 end
 
-function slot0.updatePacketTpl(slot0, slot1, slot2)
+slot0.updatePacketTpl = function(slot0, slot1, slot2)
 	slot5 = slot0:findTF("Selected", slot2)
 	slot6 = slot0:isPacketIndexGot(slot1)
 
@@ -154,13 +154,13 @@ function slot0.updatePacketTpl(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.updatePacketList(slot0)
+slot0.updatePacketList = function(slot0)
 	for slot4, slot5 in ipairs(slot0.packetTFList) do
 		slot0:updatePacketTpl(slot4, slot5)
 	end
 end
 
-function slot0.updateAwardTpl(slot0, slot1, slot2)
+slot0.updateAwardTpl = function(slot0, slot1, slot2)
 	updateDrop(slot0:findTF("Icon/IconTpl(Clone)", slot2), slot0.awardList[slot1])
 	setActive(slot0:findTF("Got", slot2), slot0:isAwardGot(slot1))
 	onButton(slot0, slot2, function ()
@@ -173,19 +173,19 @@ function slot0.updateAwardTpl(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.updateAwardList(slot0)
+slot0.updateAwardList = function(slot0)
 	for slot4, slot5 in ipairs(slot0.awardTFList) do
 		slot0:updateAwardTpl(slot4, slot5)
 	end
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	slot0:updatePacketList()
 	slot0:updateAwardList()
 	setText(slot0.countText, slot0.curCount)
 end
 
-function slot0.playAni(slot0, slot1)
+slot0.playAni = function(slot0, slot1)
 	slot0.isPlaying = true
 
 	setActive(slot0.aniPanel, true)
@@ -214,28 +214,28 @@ function slot0.playAni(slot0, slot1)
 	slot0.aniSC:SetAction("4", 0)
 end
 
-function slot0.isPacketIndexGot(slot0, slot1)
+slot0.isPacketIndexGot = function(slot0, slot1)
 	return table.contains(slot0.gotIndexList, slot1)
 end
 
-function slot0.isAwardGot(slot0, slot1)
+slot0.isAwardGot = function(slot0, slot1)
 	return table.contains(slot0.gotIDList, slot1)
 end
 
-function slot0.getAwardCountByLevel(slot0, slot1)
+slot0.getAwardCountByLevel = function(slot0, slot1)
 	return #slot0:getAwardListByLevel(slot1)
 end
 
-function slot0.getAwardListByLevel(slot0, slot1)
+slot0.getAwardListByLevel = function(slot0, slot1)
 	return slot0.awardListMap[slot1]
 end
 
-function slot0.onSubmitFinished(slot0)
+slot0.onSubmitFinished = function(slot0)
 	slot0:updateActData()
 	slot0:updateUI()
 end
 
-function slot0.isShowRedPoint()
+slot0.isShowRedPoint = function()
 	slot0 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKET_LOTTER)
 	slot1 = pg.TimeMgr.GetInstance()
 	slot3 = slot0.data2

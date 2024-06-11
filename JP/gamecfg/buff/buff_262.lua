@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "战术分析",
 	time = 0,
-	color = "yellow",
+	name = "战术分析",
+	init_effect = "",
+	id = 262,
 	picture = "",
 	desc = "舰队伤害降低50%",
 	stack = 1,
-	id = 262,
+	color = "yellow",
 	icon = 262,
 	last_effect = "",
 	effect_list = {

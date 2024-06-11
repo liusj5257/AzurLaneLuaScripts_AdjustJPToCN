@@ -1,15 +1,15 @@
 return {
-	id = "WORLD504A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD504A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "SailAwayJustice-inst",
 			say = "NA海域　中心部周辺海域",
+			side = 2,
+			dir = 1,
+			bgm = "SailAwayJustice-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "セイレーンは中心部に大規模な艦隊と、強固な要塞群を配置していると偵察情報で判明している",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "小細工は一切なし、堅実かつ徹底的に外堀を埋めていき、中心部のセイレーンを一隻残らず殲滅する……",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "まあ、今回の総力戦に充てた艦船の数を考えれば連携を取るのも精一杯だからね",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "だって私たちには指揮官だけじゃなく、ロイヤルの女王陛下もいるしね～",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "やっぱり全艦隊で少しずつ防衛戦を突破するしかないわね",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "―――――――――",
@@ -238,8 +238,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "通信が繋がりましたわ。ロイヤル艦隊、巡洋戦艦フッド、指揮官様に代わって作戦宣言を執り行わせていただきます",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "「かつてセイレーンの猛威に成すすべもなく、人々は碧き海が奪われるのをただ見ることしかできなかった、絶望の時代を過ごしてきました」",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "「しかし私達は、どれほど苦しかろうと、迫ってくるセイレーンの攻勢に決して屈することなく、また数々の失敗にも決して打ちのめされませんでした」",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "「この絶望に抗おうとする意思をもって、私達はもう一度勇気を振り絞り、再びセイレーンに立ち向かうことができました」",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "「そして、アズールレーンの一員として、全ては自由と平和の象徴であるかつての海を取り戻すという信念を胸に、今日まで戦い抜いてきました」",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "「今、NA海域のセイレーンは混乱に陥っています。残り全ての艦隊を、この嵐によって守られる中心部に集結させ、要害の地で最後まで抵抗しようとしています」",
 			typewriter = {
 				speed = 0.05,
@@ -334,8 +334,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "「セイレーンにとっては最後の悪あがき、私達にとっては目前にある勝利――」",
 			typewriter = {
 				speed = 0.05,
@@ -350,8 +350,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "「この戦いの主導権を握っているのは、セイレーンではなく、私達、アズールレーン」",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "「今一度、力を、勇気を、決心を、すべてを……セイレーンにぶつけるのです！」",
 			typewriter = {
 				speed = 0.05,
@@ -381,9 +381,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "「セイレーンに奪われた海を奪還し――真の栄光をこの手に！」",
 			dialogShake = {
 				speed = 0.08,
@@ -403,8 +403,8 @@ return {
 			actor = 204030,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "「指揮官様、作戦開始のご命令を！」",
 			typewriter = {
 				speed = 0.05,
@@ -418,11 +418,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/46/tb-46",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "作戦時刻になりました。各艦隊、準備完了です",
-			voice = "event:/tb/46/tb-46",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,8 +433,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "——",
 			typewriter = {
 				speed = 0.05,

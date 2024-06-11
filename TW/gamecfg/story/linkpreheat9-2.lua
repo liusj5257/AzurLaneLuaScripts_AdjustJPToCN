@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT9-2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINKPREHEAT9-2",
 	jumpto = "LINKPREHEAT10-1",
 	fadein = 1.5,
 	scripts = {
@@ -11,9 +11,9 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-uta",
 			dir = -1,
 			say = "有谁能把那玩意儿引开一段时间吗喵",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,9 +180,9 @@ return {
 		{
 			compulsory = true,
 			side = 2,
+			dir = -1,
 			actor = 312010,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "虽然我也知道这很强人所难……不过能拜托妳们吗喵",
 			typewriter = {
 				speed = 0.05,
@@ -220,14 +220,14 @@ return {
 			}
 		},
 		{
-			jumpto = "LINKPREHEAT10-1",
 			side = 2,
+			jumpto = "LINKPREHEAT10-1",
 			dir = 1,
 			optionFlag = 1,
 			say = "选择久远",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -239,14 +239,14 @@ return {
 			}
 		},
 		{
-			jumpto = "LINKPREHEAT12-1",
 			side = 2,
+			jumpto = "LINKPREHEAT12-1",
 			dir = 1,
 			optionFlag = 2,
 			say = "选择猫音",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -258,14 +258,14 @@ return {
 			}
 		},
 		{
-			jumpto = "LINKPREHEAT11-1",
 			side = 2,
+			jumpto = "LINKPREHEAT11-1",
 			dir = 1,
 			optionFlag = 3,
 			say = "选择露露缇耶",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -277,14 +277,14 @@ return {
 			}
 		},
 		{
-			jumpto = "LINKPREHEAT13-1",
 			side = 2,
+			jumpto = "LINKPREHEAT13-1",
 			dir = 1,
 			optionFlag = 4,
 			say = "选择乌璐露",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -296,14 +296,14 @@ return {
 			}
 		},
 		{
-			jumpto = "LINKPREHEAT14-1",
 			side = 2,
+			jumpto = "LINKPREHEAT14-1",
 			dir = 1,
 			optionFlag = 5,
 			say = "选择萨拉娜",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -315,14 +315,14 @@ return {
 			}
 		},
 		{
-			jumpto = "LINKPREHEAT15-1",
 			side = 2,
+			jumpto = "LINKPREHEAT15-1",
 			dir = 1,
 			optionFlag = 6,
 			say = "选择芙米露露",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

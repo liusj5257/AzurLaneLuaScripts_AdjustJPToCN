@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			bgName = "bg_mmorpg_cg3",
+			mode = 1,
 			bgm = "theme-shallowoftheworld",
 			sequence = {
 				{
@@ -14,17 +14,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "메가 플레임 드래곤",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			nameColor = "#FF9B93",
 			say = "――――!!",
@@ -75,8 +75,8 @@ return {
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "전설의 격투가",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "아야나미",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "비늘이 너무 두꺼워요…… 다이나믹 킥, 2연격!",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "전설의 대마법사",
 			dir = 1,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "전설의 전사",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "메가 플레임 드래곤",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			nameColor = "#FF9B93",
 			say = "――――!!",
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "전설의 전사",
 			dir = 1,
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "전설의 용사",
 			dir = 1,
@@ -204,8 +204,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "용사",
 			dir = 1,
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "약사",
 			dir = 1,
@@ -245,8 +245,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "약사",
 			dir = 1,
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "전장의 후방에서 상태 화면 너머로 전황을 모니터링했다.",
 			typewriter = {
@@ -277,17 +277,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "지금 파티의 전투력이라면 메가 플레임 드래곤을 쓰러뜨리는 건 가능하다.",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "하지만 상대는 교활하게도 하급 마물을 이용해 전장을 교란시키고, 그 틈을 타서 부상을 회복하고 있다.",
 			typewriter = {
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "전투는 완전히 교착 상태에 빠졌다.",
 			typewriter = {
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "잔 다르크",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "잔 다르크",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
@@ -425,8 +425,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "잔 다르크",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
@@ -484,8 +484,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "메가 플레임 드래곤",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			nameColor = "#FF9B93",
 			say = "――――?!",
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "폭발 아이템이 갑자기 비처럼 쏟아질 줄은 드래곤도 예상하지 못했는지 당황한 기색이 역력했다.",
 			typewriter = {
@@ -531,17 +531,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -549,8 +549,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "황급히 피했지만, 회복할 기회를 완전히 놓치고 말았다.",
 			typewriter = {
@@ -559,8 +559,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "팽팽하던 교착 상태가 드디어 무너졌다. 이제는 이쪽에서 몰아세울 차례다.",
 			typewriter = {
@@ -569,8 +569,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "몇 턴이 채 지나지 않아, 메가 플레임 드래곤은 완전히 패배했다.",
 			typewriter = {
@@ -581,9 +581,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_176",
 			factiontag = "전설의 전사",
 			dir = 1,
+			bgName = "star_level_bg_176",
 			bgm = "ryza-az-theme",
 			actor = 431232,
 			nameColor = "#A9F548FF",
@@ -598,17 +598,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -659,11 +659,11 @@ return {
 			}
 		},
 		{
-			actor = 131171,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "전설의 대마법사",
 			dir = 1,
+			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "라피, 예전에도 그런 말을 들은 것 같아…",
@@ -715,11 +715,11 @@ return {
 			}
 		},
 		{
-			actor = 201217,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "전설의 용사",
 			dir = 1,
+			actor = 201217,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "봐, 오늘만 해도 너희랑 같이 싸웠잖아~?",
@@ -794,9 +794,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_176",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			bgName = "star_level_bg_176",
 			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "안녕히… 전설 속 영웅들…",
@@ -809,17 +809,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -839,11 +839,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아! 지휘관! 하나 중요한 걸 까먹었잖아!",
@@ -869,11 +869,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그래! 아직 쉬기는 일러! 드래곤의 보물을 모조리 긁어와야지!",

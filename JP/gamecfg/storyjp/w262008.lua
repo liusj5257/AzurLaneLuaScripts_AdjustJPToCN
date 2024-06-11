@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "能源矩阵放置完毕，所有电力方阵都重新开始运转了！",
 			typewriter = {
 				speed = 0.05,
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "....",
 			typewriter = {
 				speed = 0.05,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "！？",
 			typewriter = {
 				speed = 0.05,

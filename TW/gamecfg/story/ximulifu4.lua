@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"祈願與祝福之宴\n\n<size=45>四　未知的晚會</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "宴會場的另一邊——",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "宴會場的另一邊——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "哼哼哼，今天就讓皇家的那幫傢伙們見識一下我妹妹有多麼可愛！我這邊還有點事，施佩先自己轉轉，好好享受一下宴會吧！",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 20,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,8 +143,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403053,
 			dir = 1,
+			actor = 403053,
 			nameColor = "#a9f548",
 			say = "等等，姐姐，啊…走掉了。",
 			typewriter = {
@@ -160,8 +160,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403053,
 			dir = 1,
+			actor = 403053,
 			nameColor = "#a9f548",
 			say = "享受宴會…究竟該怎麼做比較好？",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403053,
 			dir = 1,
+			actor = 403053,
 			nameColor = "#a9f548",
 			say = "…那是…？重櫻的…{namecode:32}小姐？",
 			typewriter = {
@@ -194,8 +194,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301263,
 			dir = 1,
+			actor = 301263,
 			nameColor = "#a9f548",
 			say = "{namecode:31}姐姐……唔啊！是鐵血的施佩小姐…對、對不起，果汁差點就潑到了…",
 			typewriter = {
@@ -224,12 +224,12 @@ return {
 			}
 		},
 		{
-			actor = 301263,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301263,
+			nameColor = "#a9f548",
 			say = "其實是…",
 			typewriter = {
 				speed = 0.05,

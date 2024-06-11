@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA14",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA14",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
@@ -83,8 +83,8 @@ return {
 			actor = 10400030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "绊爱",
 			dir = 1,
+			actorName = "绊爱",
 			say = "没问题的啦～毕竟总是穿着这套衣服又唱又跳的呢～！",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			expression = 6,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "绊爱",
 			say = "啊，一直这么闲聊可不行，大家要注意！不知道什么时候BOSS就会突然出现的！",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "咚！",
 			dialogShake = {
 				speed = 0.09,
@@ -164,8 +164,8 @@ return {
 			expression = 2,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = -1,
+			actor = 10400030,
 			actorName = "绊爱",
 			say = "好疼！",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -191,8 +191,8 @@ return {
 			expression = 6,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10400040,
 			dir = 1,
+			actor = 10400040,
 			actorName = "绊爱(伪)",
 			say = "………",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			actor = 10400030,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "绊爱",
 			dir = -1,
+			actorName = "绊爱",
 			say = "………",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			expression = 2,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = -1,
+			actor = 10400030,
 			actorName = "绊爱",
 			say = "啊啊啊啊啊啊啊啊啊啊啊啊！",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -281,8 +281,8 @@ return {
 			expression = 3,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = -1,
+			actor = 10400030,
 			actorName = "绊爱",
 			say = "拉菲酱不要这么说啦～～～～救救我呜呜呜～～",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -323,8 +323,8 @@ return {
 			expression = 6,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = -1,
+			actor = 10400030,
 			actorName = "绊爱",
 			say = "真是的～！怎么又是我的冒牌货啦！？就算3D模型免费开源，也有该做和不该做的事情的吧！！",
 			typewriter = {
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

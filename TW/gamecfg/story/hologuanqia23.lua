@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA23",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA23",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 1,
 			actorName = "{namecode:96}",
+			side = 1,
 			stopbgm = true,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "我知道妳在担心什么…我们都亲手击败过无数同伴的棋子…",
 			flashin = {
 				delay = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -96,15 +96,15 @@ return {
 			}
 		},
 		{
-			side = 0,
 			nameColor = "#a9f548",
-			actorName = "白上吹雪",
+			side = 0,
 			dir = 1,
 			blackBg = true,
+			actorName = "白上吹雪",
 			say = "唔…拉菲酱…{namecode:95}酱…澪酱…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "白上吹雪",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "白上吹雪",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -161,15 +161,15 @@ return {
 			}
 		},
 		{
-			say = "深夜·反抗军基地外",
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-tokiwa",
+			say = "深夜·反抗军基地外",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "那个阿库娅酱…不是真正的阿库娅酱吗…",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "是敌人的话…就只能战斗了吧",
 			typewriter = {
@@ -264,8 +264,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "…真的只能战斗么？下次…我能坦然开火么…？",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "如果再一次遇到她们，我应该怎么办才好......",
 			typewriter = {
@@ -298,14 +298,14 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
 			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "………………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -333,9 +333,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500010,
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "果然空前辈，在哪里都是温柔的空前辈啊。",
 			typewriter = {

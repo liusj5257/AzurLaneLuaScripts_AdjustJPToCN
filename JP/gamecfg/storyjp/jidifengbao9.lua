@@ -1,17 +1,17 @@
 return {
-	id = "JIDIFENGBAO9",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO9",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackFg = 1,
-			bgmDelay = 1,
 			typewriterTime = 0.05,
+			bgmDelay = 1,
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
@@ -29,13 +29,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_8",
+			nameColor = "#A9F548FF",
 			say = "作戦開始の配置拠点から出発してまもなく、穏やかだった天気は一変し、猛烈な吹雪となった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#A9F548FF",
 			say = "ロシアたちが氷山要塞で一度セイレーンを倒してからというもの、この海域の天気はずっと安定しないね…",
 			painting = {
@@ -73,8 +73,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#A9F548FF",
 			say = "オミッターのやつ、もしかしたらあのときから変な企みをしてたのかも！",
 			painting = {
@@ -90,8 +90,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "ならば、やつがまだ防御を十分に固めていないタイミングで攻め入るのは、またとない好機といえよう",
 			painting = {
@@ -107,8 +107,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			nameColor = "#A9F548FF",
 			say = "っぷ。うしろのめがでたってこと？",
 			painting = {
@@ -124,8 +124,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "裏目に出た、ということだ",
 			painting = {
@@ -141,10 +141,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うん。敵を倒して、装置を叩き割って、天気をよくする",
 			painting = {
 				alpha = 0.3,
@@ -159,10 +159,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "本当に天気がよくなるんだよね……？",
 			painting = {
 				alpha = 0.3,
@@ -177,8 +177,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "確証はない。ただ規模と情報からすれば、我々の目標となる施設は気象制御装置の本体がある可能性が高い",
 			painting = {
@@ -194,8 +194,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#A9F548FF",
 			say = "じゃあ早く――うわああ！風が…！！",
 			painting = {
@@ -208,8 +208,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			say = "帽子を押さえ必死に主機を動かすグロームキィ。天候はまるで艦船たちを先へと進ませまいとばかりに吹雪いている。",
 			typewriter = {
@@ -231,10 +231,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "要塞にたどり着かないと雪を止められないけど、この雪だとグロズヌイたち、多分要塞にはたどり着けない……",
 			painting = {
 				alpha = 0.3,
@@ -249,8 +249,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "安心しろ。手はある",
 			painting = {
@@ -266,10 +266,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "手？ヒミツヘイキ？",
 			painting = {
 				alpha = 0.3,
@@ -284,8 +284,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "ああ。一時的ではあるが、セイレーンによる異常気象に対抗できる装置だ",
 			painting = {
@@ -301,8 +301,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "「携行型異常気象安定装置」――起動すれば、この異常気象による影響を多少軽減してくれるはず",
 			painting = {
@@ -318,10 +318,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "けいこうがた……なに？",
 			painting = {
 				alpha = 0.3,
@@ -336,8 +336,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "私も詳しくないが、ヴォロシーロフ曰く「永久凍土を居住可能な環境に改造するための気象調整装置」で……",
 			painting = {
@@ -353,10 +353,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "えいきゅうとうど……？",
 			painting = {
 				alpha = 0.3,
@@ -371,8 +371,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "クロンシュタットに言わせれば「どーんと頼れる北方連合の簡易版気象兵器」だ",
 			painting = {
@@ -388,8 +388,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "とはいえ、こいつはその巨大さゆえに量産艦にしか搭載できないし、またエネルギーの供給面でも長くは使えない",
 			painting = {
@@ -405,8 +405,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "起動タイミングは私が決める。その隙に一気に駆け抜ける",
 			painting = {
@@ -422,8 +422,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "それ以外の道筋はすまないが、このまま我慢してもらおう",
 			painting = {
@@ -439,8 +439,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "我々の勝利への意志に課された試練だと思え。たとえこの装置なしでも北方連合の前進は止められないと、思い知らせてやるのだ！",
 			painting = {
@@ -456,8 +456,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			say = "今回の作戦で、我らが力をセイレーンに見せてやる！",
 			painting = {
@@ -478,10 +478,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "おー！グロズヌイ、頑張って我慢するよー！",
 			painting = {
 				alpha = 0.3,
@@ -496,9 +496,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 701080,
 			dir = 1,
 			blackBg = true,
+			actor = 701080,
 			nameColor = "#A9F548FF",
 			say = "分かった！グロームキィも！",
 			painting = {
@@ -511,8 +511,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

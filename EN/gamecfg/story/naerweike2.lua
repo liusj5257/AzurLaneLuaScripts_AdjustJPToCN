@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401180,
 			nameColor = "#a9f548",
 			side = 1,
-			bgm = "level02",
 			dir = -1,
 			say = "I'm back!",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Intel was wrong...? Thanks anyway.",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,8 +142,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Like I said, the hard part comes after. Only one of our two scheduled supply ships arrived. We don't have enough to get us back. Also...",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "They're... coming.",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -229,8 +229,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Okay, save it for the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 401180,
 			nameColor = "#a9f548",
 			side = 2,
-			hideOther = true,
+			actor = 401180,
 			dir = -1,
+			hideOther = true,
 			actorName = "Z-Class",
 			say = "Aye!",
 			subActors = {

@@ -1,14 +1,14 @@
 slot0 = class("WorldMediaCollectionFilePreviewLayer", import("view.base.BaseUI"))
 
-function slot0.__index(slot0, slot1)
+slot0.__index = function(slot0, slot1)
 	return rawget(uv0, slot1) or uv0.super[slot1] or WorldMediaCollectionFileDetailLayer[slot1]
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldMediaCollectionFilePreviewUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.canvasGroup = slot0._tf:GetComponent(typeof(CanvasGroup))
 
 	slot0:InitDocument()
@@ -25,7 +25,7 @@ function slot0.init(slot0)
 	setText(slot0.animBar:Find("Text"), i18n("world_collection_back"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot1 = WorldCollectionProxy.GetCollectionTemplate(slot0.contextData.collectionId)
@@ -45,13 +45,13 @@ function slot0.didEnter(slot0)
 	slot4.text = tostring(slot1.name or "")
 	slot2.preferredWidth = math.min(slot4.preferredWidth, slot0.animBar:Find("Anim/Frame/Mask"):GetComponent(typeof(LayoutElement)).preferredWidth)
 
-	function slot6()
+	slot6 = function()
 		onButton(uv0, uv0._tf, function ()
 			uv0:closeView()
 		end)
 	end
 
-	function slot7()
+	slot7 = function()
 		if uv1 < uv0.preferredWidth then
 			uv2.pivot = Vector2(0.5, 0.5)
 			uv2.anchorMin = Vector2(0.5, 0.5)
@@ -80,7 +80,7 @@ function slot0.didEnter(slot0)
 	setImageSprite(slot0.animBar:Find("Anim/Icon"), LoadSprite("ui/WorldMediaCollectionFilePreviewUI_atlas", WorldCollectionProxy.GetCollectionFileGroupTemplate(WorldCollectionProxy.GetCollectionGroup(slot1.id)).type))
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	slot0.loader:Clear()
 

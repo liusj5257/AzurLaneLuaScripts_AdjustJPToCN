@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU33",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "메탈 블러드의 어느 항구·작전이 끝난 어느날",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
+			say = "메탈 블러드의 어느 항구·작전이 끝난 어느날",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#ff5c5c",
 			backBg = true,
 			say = "계획은 순조로워. 그러니까 다음 번에는 직접 메탈 블러드의 연회에 와주길 바라.'",
 			typewriter = {

@@ -1,15 +1,15 @@
 return {
-	id = "LUCK19903",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK19903",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199030,
 			dir = 1,
+			actor = 199030,
 			say = "앵커리지…… 힘이 넘쳐……! 선생님…… 고마워……!",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199030,
 			dir = 1,
+			actor = 199030,
 			say = "나쁜 녀석들…… 무섭지 않아. 선생님…… 두려워 할 필요 없어……!",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199030,
 			dir = 1,
+			actor = 199030,
 			say = "앵커리지는 선생님과…… 언제나 함께야……!",
 			typewriter = {
 				speed = 0.05,

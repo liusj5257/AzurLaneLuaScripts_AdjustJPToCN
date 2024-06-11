@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT21",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"꿈의 만남 - 일상편\n\n<size=45>언니에게…</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 204030,
-			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "처음 뵙겠습니다, 다른 세계에서 오신 여러분……오늘, 응원에 참여하게 된 로열 네이비의 영광, 후드라고 합니다. 이쪽은 저와 함께 자리한……",
 			bgm = "story-uta",
+			actor = 204030,
+			nameColor = "#92fc63",
+			say = "처음 뵙겠습니다, 다른 세계에서 오신 여러분……오늘, 응원에 참여하게 된 로열 네이비의 영광, 후드라고 합니다. 이쪽은 저와 함께 자리한……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "에에……지, 지는……시그넷라고 혀유. 저기, 그……잘 부탁혀유……",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "에에……지, 지는……시그넷라고 혀유. 저기, 그……잘 부탁혀유……",
+			actor = 201100,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -107,8 +107,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#92fc63",
 			say = "어머나, 또 자매처럼 사이가 좋은 두 분과 말씀 나누게 되었네요. 친근감이 넘쳐흐르는 것 같아요.",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "그런……가?",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#92fc63",
 			say = "……저 두 분을 보고 있자면, 쿠온님과 네코네님 같은 느낌이 드는 것 같은데요?",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "조금 더 자연스럽지 않나……그치, 네코네?",
 			typewriter = {
@@ -236,12 +236,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "후, 후드 언니, 그렇게 지를……어, 어라? 왜 갑자기 들러붙고 그러셔유……",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "후, 후드 언니, 그렇게 지를……어, 어라? 왜 갑자기 들러붙고 그러셔유……",
+			actor = 201100,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "후에에에……후드 언니, 너무 가깝다니까요! 그렇게 가까이 들러 붙으면 부끄럽다니까유……",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#92fc63",
 			say = "저, 저기! 아무리 여자끼리라곤 하지만, 나, 남들 앞에서 손길이 너무 과하신 거 아닌가요……?!",
 			typewriter = {
@@ -315,8 +315,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -360,8 +360,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#92fc63",
 			say = "미묘한 연령.",
 			typewriter = {
@@ -377,10 +377,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "여자란 언제까지나 소녀의 마음을 잊지 않는 법……어머니께선 종종 이렇게 말씀하셨습니다.",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -571,12 +571,12 @@ return {
 			}
 		},
 		{
-			actor = 204030,
+			say = "전장에 있어 군량의 보급은 소홀히 해선 절대 안 되는 법이죠……잘 하셨어요, 시그넷.",
 			side = 0,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "전장에 있어 군량의 보급은 소홀히 해선 절대 안 되는 법이죠……잘 하셨어요, 시그넷.",
+			actor = 204030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -674,8 +674,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "……뭐랄까, 시그넷을 보고 있으면 왠지 남 같지가 않아.",
 			typewriter = {
@@ -784,11 +784,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			withoutActorName = true,
-			dir = 1,
+			actor = 204030,
 			nameColor = "#92fc63",
 			say = "(찌릿!)",
 			typewriter = {
@@ -836,8 +836,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#92fc63",
 			say = "침묵.",
 			typewriter = {
@@ -853,10 +853,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "그 단어를 전부 말하는 순간, 위찰네미티아의 분노에 필적하는 무언가가 해방되는 것을 감지했습니다. 부디 자제를.",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -906,9 +906,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
 			blackBg = true,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "……정말, 카루라 어머……아니 언니가 생각나네……",
 			typewriter = {

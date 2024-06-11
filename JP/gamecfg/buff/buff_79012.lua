@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "司特莲库斯雷电屏障buff",
 	time = 0,
-	color = "yellow",
+	name = "司特莲库斯雷电屏障buff",
+	init_effect = "",
+	id = 79012,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 79012,
+	color = "yellow",
 	icon = 8636,
 	last_effect = "sairenboss6_buff",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.25
+				number = -0.25,
+				attr = "injureRatioByAir"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = -0.25
+				number = -0.25,
+				attr = "injureRatioByCannon"
 			}
 		},
 		{
@@ -36,8 +36,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = -0.15
+				number = -0.15,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -47,8 +47,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 79012
+				skill_id = 79012,
+				target = "TargetSelf"
 			}
 		}
 	}

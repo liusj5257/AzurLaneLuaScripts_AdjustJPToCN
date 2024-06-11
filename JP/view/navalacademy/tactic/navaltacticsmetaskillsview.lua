@@ -1,10 +1,10 @@
 slot0 = class("NavalTacticsMetaSkillsView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NavalTacticsMetaSkillsPanel"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initUITip()
 	slot0:initUI()
 	slot0:addListener()
@@ -13,23 +13,23 @@ function slot0.OnInit(slot0)
 	slot0:Show()
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.BASE_LAYER
 	})
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 
-function slot0.setData(slot0, slot1, slot2)
+slot0.setData = function(slot0, slot1, slot2)
 	slot0.metaShipID = slot1 or slot0.metaShipID
 	slot0.metaShipVO = getProxy(BayProxy):getShipById(slot0.metaShipID)
 	slot0.closeCB = slot2 or slot0.closeCB
@@ -38,7 +38,7 @@ function slot0.setData(slot0, slot1, slot2)
 	slot0.selectSkillID = slot0.selectSkillID or nil
 end
 
-function slot0.initUITip(slot0)
+slot0.initUITip = function(slot0)
 	slot1 = slot0:findTF("frame/bg/title_bg/title")
 
 	setText(slot0:findTF("frame/buttons/detail_btn/Image"), i18n("meta_tactics_detail"))
@@ -46,7 +46,7 @@ function slot0.initUITip(slot0)
 	setText(slot0:findTF("frame/buttons/switch_btn/Image"), i18n("meta_tactics_switch"))
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.bg = slot0:findTF("print")
 	slot1 = slot0:findTF("frame")
 	slot0.skillTpl = slot0:findTF("skilltpl", slot1)
@@ -58,7 +58,7 @@ function slot0.initUI(slot0)
 	slot0.skillUIItemList = UIItemList.New(slot0.skillContainer, slot0.skillTpl)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.bg, function ()
 		uv0:Hide()
 
@@ -91,7 +91,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateSkillTF(slot0, slot1, slot2)
+slot0.updateSkillTF = function(slot0, slot1, slot2)
 	slot3 = slot0:findTF("frame", slot1)
 	slot4 = slot0:findTF("skillInfo", slot3)
 	slot5 = slot0:findTF("empty", slot3)
@@ -136,7 +136,7 @@ function slot0.updateSkillTF(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.updateSkillList(slot0)
+slot0.updateSkillList = function(slot0)
 	slot0.skillUIItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot1 = slot1 + 1
@@ -149,7 +149,7 @@ function slot0.updateSkillList(slot0)
 	slot0.skillUIItemList:align(#MetaCharacterConst.getTacticsSkillIDListByShipConfigID(slot0.metaShipVO.configId))
 end
 
-function slot0.updateButtons(slot0, slot1)
+slot0.updateButtons = function(slot0, slot1)
 	slot2 = slot1 or slot0.selectSkillID
 	slot4 = slot0.metaShipVO:getMetaSkillLevelBySkillID(slot2) > 0
 	slot5 = slot0.metaShipVO:isSkillLevelMax(slot2)
@@ -169,7 +169,7 @@ function slot0.updateButtons(slot0, slot1)
 	end
 end
 
-function slot0.reUpdate(slot0, slot1, slot2)
+slot0.reUpdate = function(slot0, slot1, slot2)
 	slot0:setData(slot1, slot2)
 	slot0:updateSkillList()
 	slot0:updateButtons()

@@ -1,6 +1,6 @@
 slot0 = class("CheckCustomNameShip", import("model.vo.Ship"))
 
-function slot0.getName(slot0)
+slot0.getName = function(slot0)
 	if getProxy(PlayerProxy):getRawData():ShouldCheckCustomName() then
 		return slot0:GetDefaultName()
 	else

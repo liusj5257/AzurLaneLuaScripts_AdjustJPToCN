@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGHAIJINGLEI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGHAIJINGLEI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"静海遠雷\n\n<size=45>七 違える道</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_map_tiancheng",
+			bgm = "battle-inthememory",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "重桜本島・某所",
-			bgm = "battle-inthememory",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,12 +46,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_map_tiancheng",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "鉄血の「再現」、それに特異点の向こうで見たもの……私の動きも含めてフリードリヒの狙い通りね",
 			painting = {
 				alpha = 0.3,
@@ -66,10 +66,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_tiancheng",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官様に会えたのはいいですが、あの全て手のひらの上で動かされる感じ……不気味すぎるわ",
 			painting = {
 				alpha = 0.3,
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_endingsong_15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "特異点・鏡面海域内",
 			effects = {
@@ -104,8 +104,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -113,12 +113,12 @@ return {
 			}
 		},
 		{
-			actor = 499020,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "楽章を綺麗に奏でるには、全ての楽器が正しく鳴り響く必要があるのよ",
 			painting = {
 				alpha = 0.3,
@@ -133,10 +133,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そのためには、より可能性を広げ、緻密に調律する必要があるわ",
 			painting = {
 				alpha = 0.3,
@@ -151,10 +151,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "赤城、あなたも一緒に来てくれるかしら？",
 			painting = {
 				alpha = 0.3,
@@ -169,10 +169,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あなたの計画にはもう興味がありませんし、これ以上踊らされるのは御免被りますわ",
 			painting = {
 				alpha = 0.3,
@@ -187,10 +187,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あなたの楽章はここで一段落なのでしょうけど、私にはまだたくさんやることがありますのよ",
 			painting = {
 				alpha = 0.3,
@@ -205,10 +205,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここでお別れよ。フリードリヒ・デア・グローセ",
 			painting = {
 				alpha = 0.3,
@@ -223,10 +223,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "かまわないわ。あなたには違う道があるのは承知の上よ",
 			painting = {
 				alpha = 0.3,
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actor = 499020,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "仲間たちの未来を切り開こうとするあなた、大切なものを救う望みを叶えたいあなた、愛するものを包んであげたいあなた――",
 			painting = {
 				alpha = 0.3,
@@ -258,10 +258,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "矛盾に満ちているその協奏も、また人を楽しませられるものよ",
 			painting = {
 				alpha = 0.3,
@@ -276,10 +276,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "またどこかで会いましょう、赤城。それまでご健勝で。ふふふ",
 			painting = {
 				alpha = 0.3,
@@ -294,10 +294,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "【ワタツミ】は重桜の地に持ち帰ったし、鉄血の情報…そして指揮官様の情報も十分手に入れた",
 			effects = {
 				{
@@ -321,8 +321,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -333,10 +333,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "NA海域の中心部にこそ入れなかったものの、成果は十分すぎるぐらい今回の作戦は成功したわ",
 			painting = {
 				alpha = 0.3,
@@ -348,12 +348,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これからはこの赤城が動く番よ。フリードリヒ・デア・グローセ",
 			painting = {
 				alpha = 0.3,
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_endingsong_15",
 			hidePaintObj = true,
 			say = "その時、窓の外から青い炎をまとう鳥の式神が部屋に入り、赤城の前のテーブルに止まった。",
@@ -379,10 +379,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "加賀？…連絡の伝言のようね",
 			painting = {
 				alpha = 0.3,
@@ -492,10 +492,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そう……苦労をかけたわね。加賀",
 			painting = {
 				alpha = 0.3,
@@ -510,10 +510,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あの時もし指揮官さまが現れなければ、私も加賀も……",
 			painting = {
 				alpha = 0.3,
@@ -528,10 +528,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "天城姉さま、やっぱり私はあなたにはなれないわ。私は……私はこうしなければ………",
 			painting = {
 				alpha = 0.3,
@@ -546,10 +546,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………………………",
 			painting = {
 				alpha = 0.3,
@@ -564,10 +564,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "家族が睦み合うことを意味する、睦まじい「睦月」…",
 			painting = {
 				alpha = 0.3,
@@ -582,10 +582,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なるほど、あなたはそれを考えていたのね",
 			painting = {
 				alpha = 0.3,
@@ -597,12 +597,12 @@ return {
 			}
 		},
 		{
-			actor = 302130,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302130,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "赤城さん、失礼します",
 			painting = {
 				alpha = 0.3,
@@ -617,10 +617,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……！神通？どういうこと？",
 			painting = {
 				alpha = 0.3,
@@ -632,12 +632,12 @@ return {
 			}
 		},
 		{
-			actor = 302130,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302130,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どうやらタイミングが悪かったようですね。…武蔵さんから伝言を預かったという子が参りました",
 			painting = {
 				alpha = 0.3,
@@ -649,12 +649,12 @@ return {
 			}
 		},
 		{
-			actor = 302130,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302130,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いかがなさいます？私が代わりに応対しても構いませんが…",
 			painting = {
 				alpha = 0.3,
@@ -669,10 +669,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "大丈夫よ。通しなさい。武蔵の伝言なら私が直に拝聴するのが道理よ",
 			painting = {
 				alpha = 0.3,
@@ -687,10 +687,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "やっぱりそう来ましたわね。武蔵",
 			painting = {
 				alpha = 0.3,
@@ -702,12 +702,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あなたが進んで買って出るというのなら、私も私の計画を推し進めるわ",
 			painting = {
 				alpha = 0.3,
@@ -719,13 +719,13 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_endingsong_15",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "新しい演目の始まりよ。ふふふ、ふふふふふふ……",
 			painting = {
 				alpha = 0.3,

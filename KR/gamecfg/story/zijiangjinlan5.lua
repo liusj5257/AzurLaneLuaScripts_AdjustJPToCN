@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg3",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "장기판 경기장·나가토 통제 구역 제1 라운드",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "설마 그렇게 복잡할라구? 히에이 언니, 앉은 순서대로 진행하는 건 일반적인 게임 규칙이야.",
 			painting = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "설마 이 순서에도 무슨 음모가 숨겨져있다고 생각하는 거야?",
 			painting = {
@@ -121,8 +121,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "대선배님과 아카기처럼 우선적으로 경계선에 위치한 거점을 공략하지 않을까? 난이도도 적당하고 수비하는데도 도움이 될테니 말이야.",
 			painting = {
@@ -138,8 +138,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "모두, 드디어 우리 차례가 왔다네.",
 			painting = {
@@ -155,8 +155,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "그럼 명령을 내리겠네! 하루나는 J5로, 하루츠키는 I5로 이동한 뒤 경계선 근처에서 무사시의 전진을 막는다.",
 			painting = {
@@ -172,8 +172,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "양산형 함대는 I3에서 G5까지 배치한다.",
 			painting = {
@@ -189,8 +189,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "히에이, 카와카제, 쇼카쿠 순으로 IJ34 거점의 통제 구역 안으로 진입.",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "나 역시 지휘 카드로 너희들의 작전을 지원하겠다, 이상이네.",
 			painting = {
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "나가토의 통신이 종료됨과 동시에 그들의 몸엔 하늘색 방패가 나타났다.",
 			typewriter = {
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "내 예상이 틀렸다니. 영역 내 작은 거점부터 시작인 건가.",
 			painting = {
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "장기판 경기장·IJ34 거점 통제 구역",
 			typewriter = {
@@ -386,17 +386,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "거점 통제 구역이란, 거점이 위치한 격자와 연결된 네개의 격자를 말한다.",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "거점 통제 구역에 자신의 선수가 있는 팀만 해당 거점을 향해 공격을 개시할 수 있게 된다.",
 			typewriter = {
@@ -443,8 +443,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "만약 일반적인 양산형이라면, 쓰러트리는 건 식은 죽 먹기지만….",
 			painting = {
@@ -492,8 +492,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "이렇게 엄청난 룰이라니….",
 			painting = {

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA8",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈哈，就算在槍林彈雨中也能保持沉著鎮定的指揮官同志，也在看到這個之後也嚇了一跳吧！",
 			bgm = "bgm-cccp",
+			nameColor = "#a9f548",
+			say = "哈哈哈，就算在槍林彈雨中也能保持沉著鎮定的指揮官同志，也在看到這個之後也嚇了一跳吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,9 +24,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "確實……在意料之外的地方出現了意料之外的存在……",
 			typewriter = {
 				speed = 0.05,
@@ -38,9 +38,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "伴隨著滾滾轟鳴，一艘巨大的……艦艇？穿破厚重的冰層出現在原本空無一物的視野中。",
 			typewriter = {
 				speed = 0.05,
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "機器的轟鳴聲、冰層的碎裂聲、海浪的激盪聲、各種聲音相互交雜，伴隨著劇烈的震動，給人一種正與某種巨獸對視的錯覺。",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "破冰潛航艦……指揮部和其他陣營的編制中都沒有見過類似的艦艇存在。",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -160,8 +160,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "擁有潛對潛能力的巨大水下戰鬥平台……在剛才的戰鬥中它也在水下消滅了徘徊的塞壬潛艇群嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "需要用到潛航艦就意味著……難道我們要去的“密室”是某處位於水下的設施？",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "塔林",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -252,12 +252,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "走吧，指揮官同志。前往“密室”的旅途，從現在開始才算真正開始呢~",
 			typewriter = {
 				speed = 0.05,

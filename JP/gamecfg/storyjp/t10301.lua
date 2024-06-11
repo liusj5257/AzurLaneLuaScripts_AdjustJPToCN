@@ -4,12 +4,12 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = -1,
 			side = 0,
+			say = "「所属不明艦に告ぐ！お前たちは我が領海を侵犯している！直ちに武装解除し投降せよ！」",
 			nameColor = "#a9f548",
+			actor = -1,
 			actorName = "通信",
 			withoutPainting = true,
-			say = "「所属不明艦に告ぐ！お前たちは我が領海を侵犯している！直ちに武装解除し投降せよ！」",
 			shake = {
 				speed = 1,
 				number = 3

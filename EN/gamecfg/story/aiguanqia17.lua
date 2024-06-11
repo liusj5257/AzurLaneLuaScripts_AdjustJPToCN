@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA17",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA17",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 403038,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "Prinz-chan",
 			dir = 1,
+			actorName = "Prinz-chan",
 			say = "This is as far as you go. We won't let you get any closer to Kizuna AI.",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Shou-chan",
 			dir = 1,
+			actorName = "Shou-chan",
 			say = "Ahaha~♪ We've come here to protect our beloved Kizuna AI.",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Chune-Chune",
 			dir = -1,
+			actorName = "Chune-Chune",
 			say = "Um... We won't let you lay a finger on Miss AI ><",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			actor = 303118,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Takao-chan",
 			dir = 1,
+			actorName = "Takao-chan",
 			say = "They call us the \"Kizuna AI Fleet.\" We shall be your opponents!",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 303118,
 			dir = 1,
+			actor = 303118,
 			actorName = "Takao-chan",
 			say = "P-Please don't mind that...",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Prinz-chan",
 			dir = 1,
+			actorName = "Prinz-chan",
 			say = "What do you think? In any case, we won't allow you to touch our Commander, Kizuna AI. If you still insist on coming, steel yourselves!",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Prinz-chan",
 			dir = 1,
+			actorName = "Prinz-chan",
 			say = "I'm afraid that's not possible.",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -281,8 +281,8 @@ return {
 			actor = 303118,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Takao-chan",
 			dir = 1,
+			actorName = "Takao-chan",
 			say = "Milady's true desire right now is to destroy this world. As her vassals, we must carry out her will.",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Chune-Chune",
 			dir = -1,
+			actorName = "Chune-Chune",
 			say = "We... we've already made up our mind ><",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Shou-chan",
 			dir = 1,
+			actorName = "Shou-chan",
 			say = "Ara? Then, maybe we should do you a favor and let you go? Just kidding~♪ I'd never, ever let you get away~ ",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -384,8 +384,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Chune-Chune",
 			dir = -1,
+			actorName = "Chune-Chune",
 			say = "We won't let you get any closer to AI!",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 303118,
 			dir = 1,
+			actor = 303118,
 			actorName = "Takao-chan",
 			say = "You'll never be able to escape us while fighting off all our other forces!",
 			typewriter = {
@@ -429,8 +429,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

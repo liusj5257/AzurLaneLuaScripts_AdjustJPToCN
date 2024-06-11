@@ -12,8 +12,8 @@ return {
 		{
 			alpha = 0.332,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[1]
@@ -22,10 +22,10 @@ return {
 		{
 			alpha = 0.413,
 			style = {
-				scene = "BIANDUI",
 				mode = 2,
-				posY = 0,
 				dir = -1,
+				scene = "BIANDUI",
+				posY = 0,
 				posX = 0,
 				text = slot0[2]
 			}
@@ -33,16 +33,16 @@ return {
 		{
 			alpha = 0.462,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 87,
 				posX = 228.09,
 				text = slot0[3]
 			},
 			ui = {
+				pathIndex = -1,
 				hideAnimtor = true,
 				path = "/UICamera/Canvas/UIMain/FormationUI(Clone)/nextPage",
-				pathIndex = -1,
 				triggerType = {
 					1
 				},
@@ -55,8 +55,8 @@ return {
 		{
 			alpha = 0.442,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 121.8,
 				posX = 0,
 				text = slot0[4]
@@ -65,8 +65,8 @@ return {
 		{
 			alpha = 0.44,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 0,
 				posX = 0,
 				text = slot0[5]

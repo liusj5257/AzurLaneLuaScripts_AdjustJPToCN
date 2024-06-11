@@ -10,9 +10,9 @@ return {
 			style = {
 				text = "新しいコンテンツを確認します。メイン画面にもどりましょう。",
 				mode = 2,
-				posY = -160,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -160,
 				posX = -460
 			},
 			showSign = {
@@ -49,9 +49,9 @@ return {
 			style = {
 				text = "ほかの指揮官と共闘し、META艦船に挑む新コンテンツ「META戦」が開放されました。",
 				mode = 2,
-				posY = -279.2,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -279.2,
 				posX = 498.7
 			},
 			ui = {
@@ -60,11 +60,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 128.2,
+					rotateY = 0,
 					posY = -42,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 128.2
 				}
 			}
 		},
@@ -83,9 +83,9 @@ return {
 			style = {
 				text = "開催中のMETA戦はこちらになります",
 				mode = 2,
-				posY = -375.9,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -375.9,
 				posX = -776.6
 			},
 			ui = {
@@ -94,11 +94,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 0,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 0
 				}
 			}
 		},
@@ -107,9 +107,9 @@ return {
 			style = {
 				text = "META戦は不定期で開催します。ここには今回の開催時間が表示されます。",
 				mode = 2,
-				posY = 294,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 294,
 				posX = -448.3,
 				ui = {
 					path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossEmptyUI(Clone)/time"
@@ -120,9 +120,9 @@ return {
 			style = {
 				text = "開催終了すると、「META座標」を消費して解放したMETA戦はなくなります。また、セイレーン作戦でMETA座標を新た入手できなくなります。",
 				mode = 2,
-				posY = 1.5,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 1.5,
 				posX = -402.4,
 				ui = {
 					path = "/UICamera/Canvas/UIMain/WorldBossUI(Clone)/pages/CurrentWorldBossEmptyUI(Clone)/time"
@@ -133,9 +133,9 @@ return {
 			style = {
 				text = "「解析」をタップし、「META戦」を開放しましょう。",
 				mode = 2,
-				posY = -284,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -284,
 				posX = -495
 			},
 			ui = {
@@ -144,11 +144,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 0,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 0
 				}
 			}
 		}

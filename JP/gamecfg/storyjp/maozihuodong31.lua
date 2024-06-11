@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG31",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG31",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level02",
+			say = "NYシティにて",
 			side = 2,
 			bgName = "bg_story_newyork",
 			dir = 1,
 			bgmDelay = 2,
-			say = "NYシティにて",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "指揮官が北方連合に滞在してるって、どういうことなの？",
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "そんなところね。まあ指揮官は別にユニオン所属じゃないし、ロイヤルや、鉄血と重桜の子もみんな分かってるし",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "メンタルキューブの技術研究も、向こうが進んでるみたいよ",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_newyork",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "あの艤装もそうだし、きっと北方連合はなにか見つけたに違いないわ",
 			typewriter = {
@@ -187,12 +187,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			actorName = "？？？",
-			bgName = "bg_xiangting_3",
-			stopbgm = true,
-			dir = 1,
 			side = 2,
+			dir = 1,
+			stopbgm = true,
+			bgName = "bg_xiangting_3",
+			actor = 900227,
 			nameColor = "#a9f548",
 			say = "――へ行ったのは",
 			flashout = {
@@ -220,12 +220,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			side = 2,
+			actor = 900227,
 			stopbgm = true,
 			say = "終末の序――",
 			typewriter = {
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#a9f548",
 			dir = 1,
-			side = 2,
+			actor = 900227,
 			stopbgm = true,
 			say = "曲の始まりだ――",
 			typewriter = {
@@ -258,9 +258,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_newyork",
 			actor = 107030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "エンタープライズ、なんか言った？",
 			flashout = {
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_newyork",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "いや……（今のは…なんだ？）",
 			typewriter = {
 				speed = 0.05,

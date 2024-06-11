@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN6",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"騎士與獎賞\n\n<size=45>六 奮發努力！</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "體育館的休息室裡。克里夫蘭和隊員們嘴上雖不說，每個人臉上都是愁雲滿佈。",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "體育館的休息室裡。克里夫蘭和隊員們嘴上雖不說，每個人臉上都是愁雲滿佈。",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,9 +114,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "被氣呼呼的克里夫蘭所感染，大家的表情也恢復了生氣。",
 			typewriter = {
 				speed = 0.05,
@@ -124,16 +124,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "各位！比賽還沒有結束！讓她們見識見識我們“海上騎士團”真正的實力吧！ ！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -149,18 +149,18 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			actorName = "丹佛＆蒙彼利埃",
-			bgName = "star_level_bg_103",
 			side = 0,
+			actor = 102150,
 			dir = -1,
+			bgName = "star_level_bg_103",
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "噢噢噢！ ！ ！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -201,17 +201,17 @@ return {
 			}
 		},
 		{
-			actor = 303070,
 			actorName = "{namecode:63}",
-			bgName = "star_level_bg_103",
 			side = 2,
 			dir = -1,
+			bgName = "star_level_bg_103",
+			bgm = "battle-boss-6",
+			actor = 303070,
 			nameColor = "#a9f548",
 			say = "這樣下去要被反超了！一定要截住她們的傳球！",
-			bgm = "battle-boss-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -242,13 +242,13 @@ return {
 			}
 		},
 		{
-			actor = 302120,
+			say = "！要是讓她們配合成功，我們的戰術就沒用了…！",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302120,
 			actorName = "{namecode:38}",
-			say = "！要是讓她們配合成功，我們的戰術就沒用了…！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -279,9 +279,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "（咣！！！）",
 			typewriter = {
 				speed = 0.05,
@@ -295,9 +295,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "隨著終場哨聲的響起，克里夫蘭的一記猛烈的灌籃，宣告了比賽的結束。",
 			typewriter = {
 				speed = 0.05,
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -331,9 +331,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "打進致勝一球的克里夫蘭朝這邊飛奔而來。",
 			typewriter = {
 				speed = 0.05,
@@ -357,9 +357,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "——少女的身體雖嬌弱，分享勝利喜悅的擁抱卻充滿了力量。",
 			typewriter = {
 				speed = 0.05,

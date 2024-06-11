@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YIXIANGPIANZHEN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YIXIANGPIANZHEN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"分極する空想の因果\n\n<size=45>二 屈折する光</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "ユニオン極秘研究基地「星の海」臨時執務室 現実空間",
 			bgm = "battle-deepecho",
+			say = "ユニオン極秘研究基地「星の海」臨時執務室 現実空間",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "机の上に、科学技術に長けた仲間から送られてきた報告書が広げられている。",
 			typewriter = {
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "やや離れたところで、手伝ってくれているメンフィスもその報告書のコピーに目を通し始めた。",
 			typewriter = {
@@ -68,10 +68,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「……特別計画艦の精神的安定性と、指揮官と接触後の時間経過との関連性について」",
 			painting = {
 				alpha = 0.3,
@@ -83,12 +83,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「……リュウコツの特殊性が、特別計画艦の特殊性と関連付けられるという研究が既に裏付けられているものの、精神的安定性との関係性について確証は得られていない……」",
 			painting = {
 				alpha = 0.3,
@@ -103,10 +103,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「……特に、アンカレッジのパーソナリティについては精神分析では説明できない部分があり、リュウコツを構成する情報要素に一部不規則な離散パターンが存在し……」",
 			painting = {
 				alpha = 0.3,
@@ -118,12 +118,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「……情報要素の離散現象はほかの特別計画艦でも観測されるが、指揮官との接触後の時間経過によってリュウコツを補強する部分として再構成されると観測されなくなり……」",
 			painting = {
 				alpha = 0.3,
@@ -138,10 +138,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「……これらの情報要素の解析が、彼女のアイデンティティ並びに他者理解に関する知見を得るには非常に重要である……」",
 			painting = {
 				alpha = 0.3,
@@ -156,10 +156,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "と、わかりにくくて悪いけど、要するにそういう見解もあるってことよ",
 			painting = {
 				alpha = 0.3,
@@ -171,12 +171,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ただ、わかりやすく説明すると",
 			painting = {
 				alpha = 0.3,
@@ -191,10 +191,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "アンカレッジはそのリュウコツの特殊性から、指揮官をちゃんと「指揮官」として認識できているかわからない、ということね",
 			painting = {
 				alpha = 0.3,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "同じ艦船ではあるものの、特別計画艦のリュウコツ――彼女たちを構成する情報要素の一部分に「よくわからないもの」が多く観測される。",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "みんなそれぞれ違うし、またこういった「よくわからないもの」も、一緒に戦っていく内に「観測されなくなる」ことが多い。",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "しかしアンカレッジは、時間が経ってもまだ観測されている。",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "そもそもこの「よくわからないもの」は一体何なのか、その検証も必要、だそうだ。",
 			typewriter = {
@@ -256,13 +256,13 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "別にそうではないわ。「よくわからないもの」が出るのはもう日常茶飯事ね",
 			painting = {
 				alpha = 0.3,
@@ -293,13 +293,13 @@ return {
 			}
 		},
 		{
-			actor = 102160,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここに来る途中も様子を見たけど、何も変わりなかったし、具合もどこも悪くなかったの",
 			painting = {
 				alpha = 0.3,
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -340,13 +340,13 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "特に異常はないわよ。至って健康ね",
 			painting = {
 				alpha = 0.3,
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			optionFlag = 2,
 			say = "フッドの一件もあるし、何もなければいいんだが…",
@@ -407,13 +407,13 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうね。でもあの子、ここがどんな場所か、私たちが何を心配しているのかも理解していないわ",
 			painting = {
 				alpha = 0.3,
@@ -425,8 +425,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "だからといってアンカレッジのことは放っておくわけにはいかない。",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "「星の海」の設備は充実しているし、TBや仲間たちもいる。調べられるなら調べておくに越したことはない。",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "そしてここで得た知識や技術は、他の陣営の仲間たちも助けられる。",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "なにかアプローチできる方法は……",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "「星の海」で見た数々の実験を頭の中で思い出し、今の状況と照らし合わせる――",
 			typewriter = {
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "……………あった。",
 			typewriter = {
@@ -491,13 +491,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			voice = "event:/tb/12/tb-12",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "オーダーを受領しました。「リアリティレンズ」のシチューション対処に関する諸情報を分析中です",
 			painting = {
@@ -510,8 +510,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "ヒトのイメージを明晰夢の形に「具現化」できる、メンタルキューブ技術を汲み取った「リアリティレンズ」。",
 			typewriter = {
@@ -520,8 +520,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "思いを形作り、霧のように離散する情報要素を一箇所に収束させることができれば、もしかしたら解析ができるかもしれない。",
 			typewriter = {
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "しかしまだ問題がある。「リアリティレンズ」が艦船に使えるかどうかは未知数だ。",
 			typewriter = {
@@ -540,8 +540,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "自分が余計なことをして逆にアンカレッジを危険な状況に追い込んだら元も子もない。",
 			typewriter = {
@@ -550,13 +550,13 @@ return {
 			}
 		},
 		{
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			voice = "event:/tb/29/tb-29",
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "提案：指揮官が「リアリティレンズ」を使用して、アンカレッジのリュウコツへと接続させることは可能です",
 			painting = {
@@ -569,13 +569,13 @@ return {
 			}
 		},
 		{
-			actor = 900284,
 			nameColor = "#A9F548FF",
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "TB",
 			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 900284,
+			actorName = "TB",
+			hidePaintObj = true,
 			say = "注意：当該工程をテストしたことはないため、「星の海」にあるプロトタイプで実行するには、演算シーケンスの調整が必要です",
 			painting = {
 				alpha = 0.3,
@@ -587,12 +587,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まさか指揮官……あなた……",
 			painting = {
 				alpha = 0.3,
@@ -604,8 +604,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "メンフィスはびっくりして顔をこちらに向けた。",
 			typewriter = {
@@ -617,10 +617,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「テストしたことがない」って、TBが言ってたわよね？どう考えても大丈夫じゃないでしょ",
 			painting = {
 				alpha = 0.3,
@@ -632,12 +632,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "キューブ適正がある指揮官の時間を確保できなかったこともあって、テストを進められていないのはこちらのせいだけど…",
 			painting = {
 				alpha = 0.3,
@@ -652,10 +652,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どう考えても見切り発車で決めるには無理がある内容よ？私じゃなくて他の人でもそう思うはず",
 			painting = {
 				alpha = 0.3,
@@ -670,10 +670,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "確かに演算シーケンスのほうはだいぶ改善されてきてるけど、艦船のリュウコツと接続するにはまだ早いんじゃない？",
 			painting = {
 				alpha = 0.3,
@@ -685,8 +685,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "それもそうだ……",
 			typewriter = {
@@ -695,8 +695,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "もし「リアリティレンズ」が解析に役に立てられそうなら、さっきの報告書で仲間が提案してくれたはず。",
 			typewriter = {
@@ -705,8 +705,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "しかし現状ほかの案がないし、時間だって無限じゃない。ここで取るべき手は――",
 			typewriter = {
@@ -715,8 +715,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "「星の海」のリソースを実験の演算シーケンス改修に回し、優先レベルを最高にする。",
 			typewriter = {
@@ -725,8 +725,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "予算の話はこちらでするとして、手伝ってくれる仲間たちにも声をかけておく。",
 			typewriter = {
@@ -735,8 +735,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "……可能な限り、「リアリティレンズ」を早く次の段階に進めよう。",
 			typewriter = {
@@ -748,10 +748,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官がそう言うのなら異論はないわ",
 			painting = {
 				alpha = 0.3,
@@ -763,12 +763,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあ、指揮官のバックアップがあってもメンタルキューブに関する研究だからね。付け焼き刃ならなおさら時間がかかるわよ",
 			painting = {
 				alpha = 0.3,
@@ -783,10 +783,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あと指揮官にかかってるから、こっちだけで早くしようとしても無理よ",
 			painting = {
 				alpha = 0.3,
@@ -801,10 +801,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "忙しいのはわかっているけど、そこはなんとかしてくれるのよね？",
 			painting = {
 				alpha = 0.3,
@@ -816,8 +816,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "もちろんだ。仲間のためだから。",
 			typewriter = {
@@ -826,8 +826,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "このあと仕事が一段落ついたらアンカレッジの様子を見に行こう。",
 			typewriter = {
@@ -839,10 +839,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふぅ…さて次の報告書よ。今度は疑似環境構築シミュレーターの話だけど――",
 			painting = {
 				alpha = 0.3,

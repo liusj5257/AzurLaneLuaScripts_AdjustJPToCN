@@ -4,11 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "battle-arcticocean",
 			soundeffect = "event:/battle/boom2",
 			say = "콰과광——",
-			bgm = "battle-arcticocean",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이걸로 끝이다!",
 			painting = {
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "용사 슬래시, 받아라!",
 			painting = {
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -100,9 +100,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_177",
 			factiontag = "지혜의 마녀",
 			dir = 1,
+			bgName = "star_level_bg_177",
 			bgm = "theme-ijndailymeeting",
 			actor = 705062,
 			nameColor = "#FEF15E",
@@ -116,17 +116,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -134,11 +134,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "에헤헤~ 이 푸슌에게 불가능이란 없다고!",
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "지혜의 마녀",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "모든 비밀을 알고 있는 마녀니까, 이 세상에 존재하지 않는 마물을 조종하거나 상급 저주를 사용해도 이상할 거 없잖아?",
 			painting = {
@@ -261,11 +261,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "약사",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "스승님! 이제 적당히 좀 해!",
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			say = "아르한겔스크가 살짝 손을 들자, 정교하게 만들어진 피리가 나타났다.",
 			typewriter = {
@@ -325,11 +325,11 @@ return {
 			}
 		},
 		{
-			actor = 705062,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "지혜의 마녀",
 			dir = 1,
+			actor = 705062,
 			nameColor = "#FEF15E",
 			say = "이건 '시간의 플루트'야… 옛날 대마법사가 몸담았던 용사 파티 대장의 유품이지.",
 			painting = {
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "신난다~! 중요한 아이템이 손에 들어왔어!",
@@ -426,11 +426,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관, 멍하니 있지 말고 빨리 출발하자!",
@@ -444,11 +444,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_177",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "끝없는 수해로 돌아가서, 대마법사에게 걸린 저주를 풀어주자고!",
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

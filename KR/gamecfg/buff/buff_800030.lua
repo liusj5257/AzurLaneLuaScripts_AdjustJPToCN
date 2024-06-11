@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "皇家方舟技能3",
 	init_effect = "",
+	id = 800030,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800030,
+	color = "yellow",
 	icon = 800030,
 	last_effect = "",
 	effect_list = {
@@ -36,10 +36,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 800031,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 800031,
 				label = {
 					"HMS",
 					"CV"
@@ -52,10 +52,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				maxWeaponNumber = 0,
-				skill_id = 800033,
 				target = "TargetSelf",
+				maxWeaponNumber = 0,
 				check_weapon = true,
+				skill_id = 800033,
 				label = {
 					"HMS",
 					"CV"

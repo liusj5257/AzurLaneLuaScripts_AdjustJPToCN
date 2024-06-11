@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MENGFEISIWANSHENG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MENGFEISIWANSHENG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"カオティック・ハロウィンナイト\n\n<size=45>一 まだ混沌にならなかった頃</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 404020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "必要な資材や道具、備品、食料品その他のリストはチェック済みです。そのまま購買に発注して問題ありません",
 			bgm = "story-1",
+			actor = 404020,
+			nameColor = "#a9f548",
+			say = "必要な資材や道具、備品、食料品その他のリストはチェック済みです。そのまま購買に発注して問題ありません",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "さすがはグナイゼナウ、本当に助かったわ。感謝する",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "ふふ、今のは褒め言葉としてありがたく頂戴するわ",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "ちょっと！ハロウィンのお菓子を準備した私のことを忘れてない？",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,8 +148,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "いいえ！エディンバラもお菓子の準備ご苦労さまよ！母港には甘い物が好きな子がたくさんいるからね…",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "ふふん、どうよ？この衣装はこのエディンバラ様が自らデザインしたのですよ！で、せっかくのハロウィンだから満を持して着てみたってわけ！",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "（まあ本当はベルにも作るときに手伝ってもらったけどね）",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "雰囲気にも合っていいんじゃない？",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "でしょでしょ？本当はベルにも見せたかったけど、メイド隊のお仕事があるって来てくれないの！",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "困ったような困ってないような…",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202112,
 			dir = 1,
+			actor = 202112,
 			nameColor = "#a9f548",
 			say = "たまには姉さんと一緒に祝日を楽しんでくれればいいのに～",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -293,8 +293,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "（気持ちは理解できるけど、ね…）",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "ん？グナイゼナウさんもこういうコスプレに興味ある？なんかちょっと意外ね…",
 			typewriter = {
@@ -372,10 +372,10 @@ return {
 			}
 		},
 		{
-			actor = 202112,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 202112,
 			dir = 1,
 			hideOther = true,
 			actorName = "二人",
@@ -418,16 +418,16 @@ return {
 			}
 		},
 		{
-			actor = 900202,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900202,
+			nameColor = "#a9f548",
 			say = "イッヒッヒ……ハロウィンのお菓子……これは面白くなりそうだね…！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

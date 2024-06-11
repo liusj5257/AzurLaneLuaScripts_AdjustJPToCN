@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_170 = {}
 slot1 = slot0.word_template_170
 
-function temp()
+temp = function()
 	uv0["俄"] = {
 		["罗"] = {
 			["斯"] = {
@@ -47,7 +47,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["兼"] = {
 		["职"] = {
 			["女"] = {
@@ -81,7 +81,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["财"] = {
 		["税"] = {
 			["代"] = {
@@ -104,7 +104,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["匕"] = {
 		["首"] = {
 			["麻"] = {

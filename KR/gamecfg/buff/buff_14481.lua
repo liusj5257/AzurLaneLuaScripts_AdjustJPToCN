@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 100
+					number = 100,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 200
+					number = 200,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 300
+					number = 300,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 400
+					number = 400,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 500
+					number = 500,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 600
+					number = 600,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 700
+					number = 700,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 800
+					number = 800,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 900
+					number = 900,
+					attr = "igniteEnhance"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "igniteEnhance",
-					number = 1000
+					number = 1000,
+					attr = "igniteEnhance"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "起火伤害提高",
 	stack = 1,
@@ -162,8 +162,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "igniteEnhance",
-				number = 100
+				number = 100,
+				attr = "igniteEnhance"
 			}
 		}
 	}

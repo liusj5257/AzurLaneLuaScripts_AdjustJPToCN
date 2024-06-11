@@ -1,6 +1,6 @@
 slot0 = class("CourtYardRandomControllerSlot", import(".CourtYardFurnitureBaseSlot"))
 
-function slot0.OnInit(slot0, slot1)
+slot0.OnInit = function(slot0, slot1)
 	slot0.name = slot1[1][1]
 	slot0.defaultAction = slot1[1][2]
 	slot0.mask = slot1[2] and slot1[2][1]
@@ -20,7 +20,7 @@ function slot0.OnInit(slot0, slot1)
 	end
 end
 
-function slot0.SetAnimators(slot0, slot1)
+slot0.SetAnimators = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1[1]) do
 		table.insert(slot0.animators, {
 			key = slot0.id .. "_" .. slot5,
@@ -29,15 +29,15 @@ function slot0.SetAnimators(slot0, slot1)
 	end
 end
 
-function slot0.GetSpineDefaultAction(slot0)
+slot0.GetSpineDefaultAction = function(slot0)
 	return slot0.defaultAction
 end
 
-function slot0.GetSpineMaskDefaultAcation(slot0)
+slot0.GetSpineMaskDefaultAcation = function(slot0)
 	return slot0.maskDefaultAction
 end
 
-function slot0.OnAwake(slot0)
+slot0.OnAwake = function(slot0)
 	slot1 = slot0.actions[math.random(1, #slot0.actions)]
 	slot0.animatorIndex = 0
 
@@ -50,7 +50,7 @@ function slot0.OnAwake(slot0)
 	slot0.actionData = slot1
 end
 
-function slot0.OnStart(slot0)
+slot0.OnStart = function(slot0)
 	slot1 = slot0.actionData
 
 	slot0.user:UpdateInteraction({
@@ -63,13 +63,13 @@ function slot0.OnStart(slot0)
 	})
 end
 
-function slot0.OnContinue(slot0, slot1)
+slot0.OnContinue = function(slot0, slot1)
 	if slot1 == slot0.owner then
 		slot0:End()
 	end
 end
 
-function slot0.Clear(slot0, slot1)
+slot0.Clear = function(slot0, slot1)
 	uv0.super.Clear(slot0, slot1)
 
 	slot0.actionData = nil

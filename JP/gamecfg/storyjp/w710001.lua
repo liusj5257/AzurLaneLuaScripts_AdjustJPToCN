@@ -1,12 +1,12 @@
 return {
-	id = "W710001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "舰队集合点，是否将其他舰队调动到集合点？",
 			typewriter = {
 				speed = 0.05,

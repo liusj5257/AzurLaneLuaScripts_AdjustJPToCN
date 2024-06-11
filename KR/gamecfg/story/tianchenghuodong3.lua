@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301790,
 			nameColor = "#ff0000",
 			side = 1,
-			bgm = "battle-boss-tiancheng",
 			dir = -1,
 			say = "어라? 홍군 기함인 당신이 나올줄은 몰랐는데.",
+			bgm = "battle-boss-tiancheng",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 304050,
 			dir = -1,
+			actor = 304050,
 			say = "글쎄요. 확실히 전 계책을 구사하는 걸 좋아하지만, 정면 승부에 능하지 못하다곤 말한 적이 한 번도 없답니다.",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "흠흠……그대가 적이 아니라 다행이군, 거기까지 생각할 줄이야.",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			nameColor = "#ff0000",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "지나가고 싶다면 이 하타카제를 쓰러뜨리는 게 좋을게다!",
 			typewriter = {
 				speed = 0.05,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_125 = {}
 slot1 = slot0.word_template_125
 
-function temp()
+temp = function()
 	uv0["贺"] = {
 		["国"] = {
 			["强"] = {
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["賀"] = {
 		["國"] = {
 			["強"] = {
@@ -46,7 +46,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["赫"] = {
 		["蒂"] = {
 			["彻"] = {
@@ -75,7 +75,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["黑"] = {
 		["暗"] = {
 			["圣"] = {
@@ -442,7 +442,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["嗨"] = {
 		["死"] = {
 			["总"] = {
@@ -462,7 +462,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["狠"] = {
 		["肏"] = {
 			this = true
@@ -484,7 +484,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["横"] = {
 		["财"] = {
 			["暴"] = {

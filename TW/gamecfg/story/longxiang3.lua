@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LONGXIANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"輕型航母{namecode:90}參上！\n\n<size=45>三 專心！未達目標絕不停歇</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區・倉庫工位",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區・倉庫工位",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "兩人正在清點搬過來的資材，那是剛剛送來的委託報酬。",
 			typewriter = {
 				speed = 0.05,
@@ -91,10 +91,10 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 306060,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "這樣啊。好的，下一個",
+			dir = 1,
+			actor = 306060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -128,8 +128,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "這樣哦，那這個也拜託了",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "嗯。還剩兩個……這次也是大成功呢！",
 			typewriter = {
@@ -191,11 +191,11 @@ return {
 			}
 		},
 		{
-			actor = 306060,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 306060,
+			nameColor = "#a9f548",
 			say = "拜託了。……喂，那不是我這個秘書艦的工作嗎！？",
 			typewriter = {
 				speed = 0.05,
@@ -207,8 +207,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -217,14 +217,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "兩人的工作總算是磕磕絆絆順利完成了——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "{namecode:86}，話說在前面，妳可不能把主公強行拉去和妳約會哦……",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 306060,
 			dir = 1,
+			actor = 306060,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -329,10 +329,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 306060,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 306060,
+			nameColor = "#a9f548",
 			say = "（小聲）……與主公、約會……",
 			typewriter = {
 				speed = 0.05,
@@ -346,10 +346,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 306060,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 306060,
+			nameColor = "#a9f548",
 			say = "（小聲）到底是什麼感覺呢……",
 			typewriter = {
 				speed = 0.05,

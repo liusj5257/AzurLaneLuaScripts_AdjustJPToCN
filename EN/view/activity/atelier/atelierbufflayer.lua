@@ -1,10 +1,10 @@
 slot0 = class("AtelierBuffLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AtelierBuffUI"
 end
 
-function slot0.SetActivity(slot0, slot1)
+slot0.SetActivity = function(slot0, slot1)
 	slot0.activity = slot1
 	slot2 = slot1:GetItems()
 	slot0.buffItems = _.map(_.filter(AtelierMaterial.bindConfigTable().all, function (slot0)
@@ -16,7 +16,7 @@ function slot0.SetActivity(slot0, slot1)
 	end)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.slotTfs = _.map({
 		1,
 		2,
@@ -39,7 +39,7 @@ function slot0.init(slot0)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf:Find("Top/Back"), function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
@@ -69,7 +69,7 @@ function slot0.didEnter(slot0)
 				return
 			end
 
-			function slot3(slot0, slot1)
+			slot3 = function(slot0, slot1)
 				if uv0.count < slot1 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("ryza_tip_control_buff_not_obtain_tip"))
 
@@ -112,7 +112,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot2 = _.all(slot0.activity:GetSlots(), function (slot0)
 		return slot0[1] > 0
 	end)
@@ -196,11 +196,11 @@ function slot0.UpdateView(slot0)
 	end
 end
 
-function slot0.PlayFullEffect(slot0)
+slot0.PlayFullEffect = function(slot0)
 	slot0:LoadingOn()
 end
 
-function slot0.UpdateSlot(slot0, slot1, slot2)
+slot0.UpdateSlot = function(slot0, slot1, slot2)
 	slot3 = slot0.activity:GetSlots()[slot2]
 	slot4 = slot3[1]
 	slot5 = slot3[2]
@@ -237,12 +237,12 @@ function slot0.UpdateSlot(slot0, slot1, slot2)
 	setActive(slot1:Find("Link/1"), not slot9 and slot5 > 0)
 end
 
-function slot0.OnUpdateAtelierBuff(slot0)
+slot0.OnUpdateAtelierBuff = function(slot0)
 	slot0:UpdateView()
 	slot0:PlayLevelUpAnim()
 end
 
-function slot0.PlayLevelUpAnim(slot0)
+slot0.PlayLevelUpAnim = function(slot0)
 	slot0:CleanTween()
 
 	slot1 = slot0.slotTfs[slot0.contextData.selectIndex]
@@ -271,7 +271,7 @@ function slot0.PlayLevelUpAnim(slot0)
 	end)).id
 end
 
-function slot0.CleanTween(slot0)
+slot0.CleanTween = function(slot0)
 	if not slot0.tweenId then
 		return
 	end
@@ -279,7 +279,7 @@ function slot0.CleanTween(slot0)
 	LeanTween.cancel(slot0.tweenId, true)
 end
 
-function slot0.LoadingOn(slot0)
+slot0.LoadingOn = function(slot0)
 	if slot0.animating then
 		return
 	end
@@ -289,7 +289,7 @@ function slot0.LoadingOn(slot0)
 	pg.UIMgr.GetInstance():LoadingOn(false)
 end
 
-function slot0.LoadingOff(slot0)
+slot0.LoadingOff = function(slot0)
 	if not slot0.animating then
 		return
 	end
@@ -299,7 +299,7 @@ function slot0.LoadingOff(slot0)
 	slot0.animating = false
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.loader:Clear()
 	slot0:CleanTween()
 	slot0:LoadingOff()

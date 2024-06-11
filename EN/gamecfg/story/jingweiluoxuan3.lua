@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "PH Harbor - Temporary Office, Hours Later",
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			hidePaintObj = true,
+			say = "PH Harbor - Temporary Office, Hours Later",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,10 +36,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hey there, Puddin'! Your new office is looking hella spiffy~",
 			typewriter = {
 				speed = 0.05,
@@ -84,10 +84,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Oh, did Ticonderoga already hook you up with the goods?",
 			typewriter = {
 				speed = 0.05,
@@ -117,10 +117,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Jeez, that girl sure moves fast, huh... What the heck's with this handwriting? Look at these hearts and curlicues!",
 			effects = {
 				{
@@ -159,12 +159,12 @@ return {
 			}
 		},
 		{
-			actor = 103140,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That's only barely scratching the surface, I tell you. If you know how to interpret these things, there's a whole bunch of hints from the way these papers are ordered to how the pages are folded.",
 			typewriter = {
 				speed = 0.05,
@@ -194,10 +194,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Haha, you're way too dense, Puddin'~ But that's part of what makes you so delicious~♪",
 			typewriter = {
 				speed = 0.05,
@@ -227,10 +227,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "A girl's gotta make her mark, yeah? Tell ya what, hang out with me for a while, and I'll teach you how to become popular!",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -270,10 +270,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ahaha! I can't believe you'd fall for that! All these documents were typed up to begin with!",
 			typewriter = {
 				speed = 0.05,
@@ -303,10 +303,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Anyway, if these documents are straight from the Naval HQ, is the Crimson Axis somehow involved?",
 			typewriter = {
 				speed = 0.05,
@@ -351,10 +351,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Do you think it's because the Sakura Empire's fleet also appeared during the last Reenactment?",
 			typewriter = {
 				speed = 0.05,
@@ -369,10 +369,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Commander, I've received a message from NY City.",
 			typewriter = {
 				speed = 0.05,
@@ -512,10 +512,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Woah, speak of the devil...",
 			typewriter = {
 				speed = 0.05,
@@ -530,10 +530,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Weren't we supposed to be working together in staving off the Sirens, though?",
 			typewriter = {
 				speed = 0.05,
@@ -601,10 +601,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Anyway, that's all from Sister Sara! Be careful out there, Commander~ Mwah!",
 			typewriter = {
 				speed = 0.05,
@@ -619,10 +619,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I have a bad feeling about this...",
 			typewriter = {
 				speed = 0.05,
@@ -634,8 +634,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -662,10 +662,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That's not what I'm talking about... Why's that girl– Well, whatever, I'm not gonna let it keep me up at night!",
 			typewriter = {
 				speed = 0.05,
@@ -680,10 +680,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Catch ya later, Puddin'~ Keep me posted if anything new happens!",
 			typewriter = {
 				speed = 0.05,
@@ -724,8 +724,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -734,13 +734,13 @@ return {
 			}
 		},
 		{
-			actor = 103140,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 103140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "If you want these back so badly, you'll have to follow me back to the bedroom~♪ Ahaha!",
 			typewriter = {
 				speed = 0.05,
@@ -771,15 +771,15 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			stopbgm = true,
+			hidePaintObj = true,
 			say = "When I woke up the next day...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

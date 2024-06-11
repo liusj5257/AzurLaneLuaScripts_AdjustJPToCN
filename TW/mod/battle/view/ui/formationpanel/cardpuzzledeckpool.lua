@@ -6,13 +6,13 @@ slot0.Battle.CardPuzzleDeckPool = class("CardPuzzleDeckPool")
 slot3 = slot0.Battle.CardPuzzleDeckPool
 slot3.__name = "CardPuzzleDeckPool"
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 
 	slot0:init()
 end
 
-function slot3.SetCardPuzzleComponent(slot0, slot1)
+slot3.SetCardPuzzleComponent = function(slot0, slot1)
 	slot0._cardPuzzleInfo = slot1
 	slot0._deck = slot0._cardPuzzleInfo:GetDeck()
 
@@ -20,11 +20,11 @@ function slot3.SetCardPuzzleComponent(slot0, slot1)
 	slot0:onUpdateDeckCard()
 end
 
-function slot3.onUpdateDeckCard(slot0, slot1)
+slot3.onUpdateDeckCard = function(slot0, slot1)
 	setText(slot0._deckCountLabel, slot0._deck:GetLength())
 end
 
-function slot3.init(slot0)
+slot3.init = function(slot0)
 	uv0.EventListener.AttachEventListener(slot0)
 
 	slot0._tf = slot0._go.transform
@@ -33,7 +33,7 @@ function slot3.init(slot0)
 	setText(slot0._tf:Find("label"), i18n("card_puzzle_deck"))
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	slot0._deckCountLabel = nil
 	slot0._tf = nil
 end

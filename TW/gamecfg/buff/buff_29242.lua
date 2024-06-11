@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行8次攻击，触发专属弹幕-罗恩II",
 	name = "专属弹幕-罗恩II",
 	init_effect = "",
+	id = 29242,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行8次攻击，触发专属弹幕-罗恩II",
 	stack = 1,
-	id = 29242,
+	color = "red",
 	icon = 29240,
 	last_effect = "",
 	effect_list = {
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29242,
+				target = "TargetSelf",
 				countType = 29240
 			}
 		}

@@ -1,12 +1,12 @@
 return {
-	id = "W700201",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700201",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "今月のアビータボディの撃破目標を達成しました。再度エリアに進入すると、ハード：アビータ戦にチャレンジすることができます",
 			typewriter = {
 				speed = 0.05,

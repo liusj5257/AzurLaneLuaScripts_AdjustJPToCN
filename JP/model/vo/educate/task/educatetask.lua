@@ -16,7 +16,7 @@ slot0.STATUS_UNFINISH = 0
 slot0.STATUS_FINISH = 1
 slot0.STATUS_RECEIVE = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.progress = slot1.progress or 0
@@ -25,76 +25,76 @@ function slot0.Ctor(slot0, slot1)
 	slot0:initCfgTime()
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.child_task
 end
 
-function slot0.initCfgTime(slot0)
+slot0.initCfgTime = function(slot0)
 	slot0.startTime, slot0.endTime = EducateHelper.CfgTime2Time(slot0:getConfig("time_limit"))
 end
 
-function slot0.GetSystemType(slot0)
+slot0.GetSystemType = function(slot0)
 	return slot0:getConfig("type_1")
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return slot0:getConfig("type_2")
 end
 
-function slot0.IsMind(slot0)
+slot0.IsMind = function(slot0)
 	return slot0:GetSystemType() == uv0.SYSTEM_TYPE_MIND
 end
 
-function slot0.IsTarget(slot0)
+slot0.IsTarget = function(slot0)
 	return slot0:GetSystemType() == uv0.SYSTEM_TYPE_TARGET
 end
 
-function slot0.IsMain(slot0)
+slot0.IsMain = function(slot0)
 	return slot0:GetSystemType() == uv0.STSTEM_TYPE_MAIN
 end
 
-function slot0.NeedAddProgressFromSiteEnter(slot0)
+slot0.NeedAddProgressFromSiteEnter = function(slot0)
 	return slot0:GetType() == uv0.TYPE_SITE_ENTER and not slot0:IsFinish()
 end
 
-function slot0.NeedAddProgressFromPerform(slot0)
+slot0.NeedAddProgressFromPerform = function(slot0)
 	return slot0:GetType() == uv0.TYPE_PERFORM and not slot0:IsFinish()
 end
 
-function slot0.InTime(slot0, slot1)
+slot0.InTime = function(slot0, slot1)
 	return EducateHelper.InTime(slot1 or getProxy(EducateProxy):GetCurTime(), slot0.startTime, slot0.endTime)
 end
 
-function slot0.GetRemainTime(slot0, slot1)
+slot0.GetRemainTime = function(slot0, slot1)
 	return EducateHelper.GetDaysBetweenTimes(slot1 or getProxy(EducateProxy):GetCurTime(), slot0.endTime)
 end
 
-function slot0.IsFinish(slot0)
+slot0.IsFinish = function(slot0)
 	return slot0:GetFinishNum() <= slot0:GetProgress()
 end
 
-function slot0.GetProgress(slot0)
+slot0.GetProgress = function(slot0)
 	return math.min(slot0.progress, slot0:GetFinishNum())
 end
 
-function slot0.GetFinishNum(slot0)
+slot0.GetFinishNum = function(slot0)
 	return slot0:getConfig("arg")
 end
 
-function slot0.GetTargetProgress(slot0)
+slot0.GetTargetProgress = function(slot0)
 	return slot0:getConfig("task_target_progress")
 end
 
-function slot0.SetRecieve(slot0)
+slot0.SetRecieve = function(slot0)
 	slot0.isReceive = true
 	slot0.progress = slot0:GetFinishNum()
 end
 
-function slot0.IsReceive(slot0)
+slot0.IsReceive = function(slot0)
 	return slot0.isReceive
 end
 
-function slot0.GetTaskStatus(slot0)
+slot0.GetTaskStatus = function(slot0)
 	if slot0:IsReceive() then
 		return uv0.STATUS_RECEIVE
 	end
@@ -106,11 +106,11 @@ function slot0.GetTaskStatus(slot0)
 	return uv0.STATUS_UNFINISH
 end
 
-function slot0.updateProgress(slot0, slot1)
+slot0.updateProgress = function(slot0, slot1)
 	slot0.progress = slot1
 end
 
-function slot0.GetAwardShow(slot0)
+slot0.GetAwardShow = function(slot0)
 	slot1 = slot0:getConfig("drop_display")
 
 	return {

@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 0.5
+					number = 0.5,
+					attr = "chargeBulletAccuracy"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 300
+					number = 300,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -27,8 +27,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.03
+					number = 0.03,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -37,8 +37,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.03
+					number = 0.03,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -47,8 +47,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.03
+					number = 0.03,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -61,8 +61,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 1
+					number = 1,
+					attr = "chargeBulletAccuracy"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 380
+					number = 380,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -81,8 +81,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.038
+					number = 0.038,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.038
+					number = 0.038,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -101,8 +101,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.038
+					number = 0.038,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -115,8 +115,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 1.5
+					number = 1.5,
+					attr = "chargeBulletAccuracy"
 				}
 			},
 			{
@@ -125,8 +125,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 460
+					number = 460,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -135,8 +135,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.046
+					number = 0.046,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -145,8 +145,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.046
+					number = 0.046,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -155,8 +155,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.046
+					number = 0.046,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -169,8 +169,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 2
+					number = 2,
+					attr = "chargeBulletAccuracy"
 				}
 			},
 			{
@@ -179,8 +179,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 560
+					number = 560,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -189,8 +189,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.056
+					number = 0.056,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -199,8 +199,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.056
+					number = 0.056,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.056
+					number = 0.056,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -223,8 +223,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 2.5
+					number = 2.5,
+					attr = "chargeBulletAccuracy"
 				}
 			},
 			{
@@ -233,8 +233,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 680
+					number = 680,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -243,8 +243,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.068
+					number = 0.068,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -253,8 +253,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.068
+					number = 0.068,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -263,8 +263,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.068
+					number = 0.068,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -277,8 +277,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3
+					number = 3,
+					attr = "chargeBulletAccuracy"
 				}
 			},
 			{
@@ -287,8 +287,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 800
+					number = 800,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -297,8 +297,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.08
+					number = 0.08,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -307,8 +307,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.08
+					number = 0.08,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -317,8 +317,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.08
+					number = 0.08,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -331,8 +331,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3.5
+					number = 3.5,
+					attr = "chargeBulletAccuracy"
 				}
 			},
 			{
@@ -341,8 +341,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 950
+					number = 950,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -351,8 +351,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.095
+					number = 0.095,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -361,8 +361,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.095
+					number = 0.095,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -371,8 +371,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.095
+					number = 0.095,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -385,8 +385,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 4
+					number = 4,
+					attr = "chargeBulletAccuracy"
 				}
 			},
 			{
@@ -395,8 +395,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1100
+					number = 1100,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -405,8 +405,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.11
+					number = 0.11,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -415,8 +415,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.11
+					number = 0.11,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -425,8 +425,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.11
+					number = 0.11,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -439,8 +439,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 4.5
+					number = 4.5,
+					attr = "chargeBulletAccuracy"
 				}
 			},
 			{
@@ -449,8 +449,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1300
+					number = 1300,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -459,8 +459,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.13
+					number = 0.13,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -469,8 +469,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.13
+					number = 0.13,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -479,8 +479,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.13
+					number = 0.13,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
@@ -493,8 +493,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 5
+					number = 5,
+					attr = "chargeBulletAccuracy"
 				}
 			},
 			{
@@ -503,8 +503,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1500
+					number = 1500,
+					attr = "cannonPower"
 				}
 			},
 			{
@@ -513,8 +513,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_1",
-					number = 0.15
+					number = 0.15,
+					attr = "accuracyToShipType_1"
 				}
 			},
 			{
@@ -523,8 +523,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_20",
-					number = 0.15
+					number = 0.15,
+					attr = "accuracyToShipType_20"
 				}
 			},
 			{
@@ -533,15 +533,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "accuracyToShipType_21",
-					number = 0.15
+					number = 0.15,
+					attr = "accuracyToShipType_21"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "皇家传奇",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,

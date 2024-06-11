@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN23",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "鉄血浮島要塞D12防衛区画",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-2",
+			say = "鉄血浮島要塞D12防衛区画",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "こちらの準備はできているわ。D13区画にいる「駒」たちの状況は？",
 			typewriter = {
@@ -78,8 +78,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "…待って。おかしい…量産型の艦隊が急に動き出した。今要塞のほうに向かっているわ",
 			typewriter = {
@@ -95,8 +95,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "要塞へ……機密施設を狙ってくるつもり！？",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "…こっちもいいタイミングで中枢制御権を取り戻したわ。機密を狙うつもりなら、後悔する時間を与える間もなく楽にしてやる",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "ええ、今試してみたら各飛行場の制御権も一緒に戻ってきたわ。これで火力不足の心配はない",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "浮島要塞より、飛行場A1からB3まで、支援航空機隊・全機発進！",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "目標、D13区画にある暴走した「駒」と量産艦たち――",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "さあ、木っ端微塵よッ！！！",
 			typewriter = {

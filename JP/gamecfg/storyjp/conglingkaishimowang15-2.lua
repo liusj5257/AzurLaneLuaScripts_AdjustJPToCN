@@ -4,12 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#FF9B93",
+			side = 2,
 			bgName = "star_level_bg_176",
+			bgm = "battle-ash-strong",
 			actorName = "バーサーク饅頭スライムウォリアー",
 			say = "ピョピョピョ！",
-			bgm = "battle-ash-strong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 2.2,
 					name = "jiulaimu_zhongxun",
+					time = 2.2,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -40,9 +40,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "jiulaimu_zhongxun",
 					time = 2.6,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -59,9 +59,9 @@ return {
 					}
 				},
 				{
-					delay = 1,
 					name = "jiulaimu_zhongxun",
 					time = 2.4,
+					delay = 1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -80,23 +80,23 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "爆弾饅頭スライム",
+			side = 2,
 			bgName = "star_level_bg_176",
 			nameColor = "#FF9B93",
 			say = "ピョ！ピョ！",
@@ -115,8 +115,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 1.1,
 					name = "jiulaimu_zibao",
+					time = 1.1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -133,9 +133,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "jiulaimu_zibao",
 					time = 1.6,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -152,9 +152,9 @@ return {
 					}
 				},
 				{
-					delay = 0.2,
 					name = "jiulaimu_zibao",
 					time = 1.2,
+					delay = 0.2,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ま、魔物の数が多すぎる！倒しても倒してもキリがないよ！",
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "プリースト",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "こっちも……",
@@ -234,11 +234,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "薬師",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "むっ、このポーションでMPを回復して！回復ポーションはまだ残ってるからここはヌビアンにまかせて！",
@@ -324,10 +324,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "？？？",
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			bgm = "battle-highseasfleet-reborn",
 			actor = 202084,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "魔物をかく乱する煙幕を張りました。今のうちに回復を",
 			typewriter = {
@@ -342,23 +342,23 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -366,11 +366,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "？？？",
-			side = 2,
+			actor = 202084,
 			actorName = "？？？",
 			hidePaintObj = true,
 			say = "……パーティーは…",
@@ -384,9 +384,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "？？？",
-			actorName = "？？？",
-			actor = 202084,
 			nameColor = "#A9F548FF",
+			actor = 202084,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "勇者、フリーストが2人、薬師、指揮官、それと…",
 			typewriter = {
@@ -395,11 +395,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "？？？",
-			side = 2,
+			actor = 202084,
 			actorName = "？？？",
 			hidePaintObj = true,
 			say = "王国軍の聖女ではありませんか",
@@ -445,11 +445,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "ただの噂にすぎないものだと思ってました",
 			painting = {
@@ -466,9 +466,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "？？？",
-			actorName = "？？？",
-			actor = 202084,
 			nameColor = "#A9F548FF",
+			actor = 202084,
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "一部の人にとってフィクションのままのほうが都合がいいからでしょう",
 			typewriter = {
@@ -515,11 +515,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "古い領土を捨て、冒険者たちを誑かして死に行かせ、壁の中で生きながらえることだけを考える卑怯者に成り果てたと思っていましたが",
@@ -533,11 +533,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "王国軍の戦士たちを侮辱するのは許しません！",
 			painting = {
@@ -624,11 +624,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あなたが生まれてから一度でも行われたのですか？",
@@ -679,11 +679,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ん？そうだったの！？",
@@ -697,11 +697,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ってことは……撫順たち、聖女の脱走を匿う容疑者に？！",
@@ -715,11 +715,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "王国軍に捕まったら……ううう、今度こそ牢屋にぶち込まれるんじゃ…！",
@@ -769,11 +769,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "すべての責任は私一人で負います。皆さんを絶対に巻き込みません",
 			painting = {
@@ -857,12 +857,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "神聖教会聖女",
 			dir = 1,
 			optionFlag = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "確かに……そこまで考えていたのですか？！",
 			painting = {
@@ -894,8 +894,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -924,8 +924,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -985,11 +985,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そろそろ回復が終わりましたか？",

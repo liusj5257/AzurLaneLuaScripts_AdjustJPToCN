@@ -4,19 +4,19 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			say = "BOOOOOOOOOOOM!",
+			side = 2,
 			soundeffect = "event:/battle/boom2",
+			say = "BOOOOOOOOOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			flashN = {
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "A shell fired from behind landed dangerously close to the pair.",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It came from behind us. Are we surrounded...?",
 			painting = {
 				alpha = 0.3,
@@ -88,10 +88,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "D-did our mass-produced ships mistake us for the enemy?!",
 			painting = {
 				alpha = 0.3,
@@ -105,10 +105,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Umm... We're in danger, right?",
 			painting = {
 				alpha = 0.3,
@@ -122,10 +122,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Can't blame them... The Siren jamming is so strong, and this weather definitely isn't helping.",
 			painting = {
 				alpha = 0.3,
@@ -137,8 +137,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "Rendezvous point... Contact... Coordinates...",
 			typewriter = {
@@ -149,10 +149,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That was Rossiya's voice! Thank goodness the communicator is working...",
 			painting = {
 				alpha = 0.3,
@@ -166,10 +166,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Phew... Oh! It's cool that the communicator is fixed, but look. The snow is thinning out, too.",
 			painting = {
 				alpha = 0.3,
@@ -183,10 +183,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Maybe the Weasel unit cleared their objective! Ugh, thank the stars for that...",
 			painting = {
 				alpha = 0.3,
@@ -200,10 +200,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This is Minsk. Volga and I have joined up again, and our communication line seems to be recovering! Please give us the coordinates of the rendezvous point!",
 			painting = {
 				alpha = 0.3,
@@ -217,10 +217,10 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 705050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This is Sovetskaya Rossiya. I've sent the coordinates.",
 			painting = {
 				alpha = 0.3,
@@ -234,10 +234,10 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 705050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Perhaps due to the weakening interference, Omitter's vessel has retreated for the time being.",
 			painting = {
 				alpha = 0.3,
@@ -251,10 +251,10 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 705050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We will continue the mission. Once we've all regathered, we resume our march toward the Polar North stronghold.",
 			painting = {
 				alpha = 0.3,
@@ -268,10 +268,10 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Roger that!",
 			painting = {
 				alpha = 0.3,
@@ -285,10 +285,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Everyone's okay!",
 			painting = {
 				alpha = 0.3,
@@ -302,11 +302,11 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
 			BlackBg = true,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah! Let's go meet them right away!",
 			painting = {
 				alpha = 0.3,

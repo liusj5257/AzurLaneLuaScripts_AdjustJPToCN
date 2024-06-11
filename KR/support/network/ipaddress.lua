@@ -106,7 +106,7 @@ slot3 = {
 	}
 }
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	slot0:ConvertIPRange()
 
 	slot0.requestUrl = uv0
@@ -119,7 +119,7 @@ function slot1.Ctor(slot0)
 	end
 end
 
-function slot1.IsIPString(slot0, slot1)
+slot1.IsIPString = function(slot0, slot1)
 	if type(slot1) ~= "string" then
 		return false
 	end
@@ -164,14 +164,14 @@ function slot1.IsIPString(slot0, slot1)
 	return true
 end
 
-function slot1.IP2Int(slot0, slot1)
+slot1.IP2Int = function(slot0, slot1)
 	slot2 = 0
 	slot3, slot4, slot5, slot6 = slot1:match("(%d+)%.(%d+)%.(%d+)%.(%d+)")
 
 	return 16777216 * slot3 + 65536 * slot4 + 256 * slot5 + slot6
 end
 
-function slot1.ConvertIPRange(slot0)
+slot1.ConvertIPRange = function(slot0)
 	slot0.IPRangeIntList = {}
 
 	for slot4, slot5 in ipairs(uv0) do
@@ -188,7 +188,7 @@ function slot1.ConvertIPRange(slot0)
 	end
 end
 
-function slot1.CheckExportIP(slot0)
+slot1.CheckExportIP = function(slot0)
 	if not slot0.exportIP or not slot0:IsIPString(slot0.exportIP) then
 		return false
 	end
@@ -204,16 +204,16 @@ function slot1.CheckExportIP(slot0)
 	return false
 end
 
-function slot1.GetExportIPString(slot0)
+slot1.GetExportIPString = function(slot0)
 	return slot0.exportIP
 end
 
-function slot1.GetLocalIP(slot0)
+slot1.GetLocalIP = function(slot0)
 	slot0.localIP = ReflectionHelp.RefGetProperty(typeof("UnityEngine.NetworkPlayer"), "ipAddress", ReflectionHelp.RefGetProperty(typeof("UnityEngine.Network"), "player"))
 
 	return slot0.localIP
 end
 
-function slot1.IsSpecialIP(slot0)
+slot1.IsSpecialIP = function(slot0)
 	return slot0.isSpecialIP
 end

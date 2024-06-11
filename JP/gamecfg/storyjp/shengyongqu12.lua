@@ -1,15 +1,15 @@
 return {
-	id = "SHENGYONGQU12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU12",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level-french1",
 			say = "聖堂の島・外周海域",
+			side = 2,
+			dir = 1,
+			bgm = "level-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "戦闘はまだ続いている。",
 			typewriter = {
 				speed = 0.05,
@@ -36,8 +36,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			say = "…分かったよ！これ強いのではなくて、とにかく硬い！倒すのに時間がかかっちゃう！",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "簡単に倒せる「マホウ」はないのね…アルジェリーさん、なんでこんな量産型なんかを…",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "お言葉ですが、アルジェリーはこちらを疲弊させようとしている、という意図なのでは？",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "分かっています。交渉するにしても、こちらの手札を増やさないといけませんから",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "（危害を与えるつもりなら、最初の通信で誘い込んで奇襲を仕掛けるのが上策ですから、死力を尽くしてまで戦う気は無いはず）",
 			typewriter = {
 				speed = 0.05,
@@ -176,8 +176,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "幸い、敵の数はそんなにありませんので、こっちの戦力も削られることがありませんが",
 			typewriter = {
 				speed = 0.05,
@@ -206,9 +206,9 @@ return {
 		{
 			expression = 10,
 			side = 2,
+			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "アルジェリーさん、早く出てこないかな…",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -248,8 +248,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "今の状態を狙っているのでしたら、そろそろ出てくる頃だと思います",
 			typewriter = {
 				speed = 0.05,

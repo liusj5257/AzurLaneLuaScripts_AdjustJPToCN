@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIDINGBAO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIDINGBAO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"나\"만의 가치\n\n<size=45>6. 동고동락</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "세미나 당일——",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "세미나 당일——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "보아하니 문제가 생긴다면 그건 에든버러 쪽일 것이다…… 그녀는 지금 비서함으로 임명된 첫날로 되돌아간 것 같이 긴장해 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "에든버러, 하고 싶은 말이 있으면, 괜찮으니까 모두 입밖으로 얘기해.",
 			typewriter = {
 				speed = 0.05,
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "쌓인 감정을 다 풀어놓으면 긴장이 풀릴 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -204,9 +204,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "조금도 망설임 없이 고개를 끄덕였다.",
 			typewriter = {
 				speed = 0.05,
@@ -266,9 +266,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "에든버러는 그래도 조금 긴장되어 보였다…… 그래도 지금은 무대에 오르는데 문제는 없을 것이다.",
 			typewriter = {
 				speed = 0.05,
@@ -312,9 +312,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "음악이 울리고, 동시에 두 사람의 무대가 펼쳐졌다——",
 			typewriter = {
 				speed = 0.05,
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_107",
+			side = 2,
+			dir = 1,
 			say = "무대가 끝나자 박수 소리가 가득 울려 퍼졌다.",
 			flashout = {
 				dur = 0.5,
@@ -355,11 +355,11 @@ return {
 			}
 		},
 		{
-			actor = 201290,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201290,
+			nameColor = "#a9f548",
 			say = "에든버러씨 역시 대단해요! 지휘관씨와 함께 반짝반짝 빛나고 있어요!",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

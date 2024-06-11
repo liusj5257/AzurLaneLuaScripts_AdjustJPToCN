@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"春風的十字星\n\n<size=45>二  中斷的線索</size>",
@@ -19,13 +19,13 @@ return {
 			}
 		},
 		{
-			actor = 201110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼哼，這種時候，就交給我吧！",
 			bgm = "story-1",
+			actor = 201110,
+			nameColor = "#a9f548",
+			say = "哼哼，這種時候，就交給我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,10 +36,10 @@ return {
 			}
 		},
 		{
-			actor = 201101,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 201101,
 			dir = 1,
 			hideOther = true,
 			actorName = "小天鵝&彗星&新月",
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "狐提醬…好像汪——",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "狐提醬…好像汪——",
+			actor = 201101,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -120,10 +120,10 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 201080,
 			dir = 1,
 			hideOther = true,
 			actorName = "彗星&新月",
@@ -162,15 +162,15 @@ return {
 			}
 		},
 		{
-			actor = 201110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201110,
+			nameColor = "#a9f548",
 			say = "氣味到這裡就沒了呢…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -195,12 +195,12 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "這、這裡是……",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "這、這裡是……",
+			actor = 201101,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

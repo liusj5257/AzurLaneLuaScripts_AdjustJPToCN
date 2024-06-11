@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MIWUZHIXIA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MIWUZHIXIA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-6",
 			side = 2,
 			bgName = "bg_battle_night",
-			dir = 1,
 			say = "運河要塞・東部",
+			dir = 1,
+			bgm = "story-6",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -29,9 +29,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "海霧に覆われた海。見渡す限り、どこまでも「白」が続いている。",
 			typewriter = {
 				speed = 0.05,
@@ -43,11 +43,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "まさか鏡面海域が突然発生するとは……",
 			typewriter = {
 				speed = 0.05,
@@ -59,8 +59,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -69,13 +69,13 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "各員、距離を維持しつつ防衛陣形を取れ！セイレーンの奇襲に備えよう！",
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "各員、距離を維持しつつ防衛陣形を取れ！セイレーンの奇襲に備えよう！",
 			flashN = {
 				color = {
 					1,
@@ -123,9 +123,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "運河要塞へ前進中のユニオン艦隊が突如出現した鏡面海域に覆われ、セイレーンの襲来に警戒していた。",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "さっきから何も映らないの…",
 			typewriter = {
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "セイレーンの艦船は確実にいる。だがレーダーには何も映らない",
 			dialogShake = {
 				speed = 0.09,
@@ -194,8 +194,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "鏡面海域ではレーダー波がジャミングを受けるから、目視とセンサーによる戦闘を強いられるけど",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "この霧ではそれも難しい…このままでは……",
 			typewriter = {
@@ -228,8 +228,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "ええ、海霧が突如発生したとの連絡を受けた時から鏡面海域の可能性を考えたけど",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "仕方ないわよ。進行上通らなければならないもの。…で、これからどうする？",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "そうね。戦って勝つに越したことはないけど…",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "ヘレナ、無理だと思うけど、念の為に運河要塞に通信してみてもらえないかしら？",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "連絡なら無事に送れたわ！ジャミングを受けている様子は無いみたい！",
 			typewriter = {
@@ -361,9 +361,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
 			blackBg = true,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "通信が無事？！今までの鏡面海域と違う……これは一体……",
 			typewriter = {

@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "현재, '대신목'의 성역",
 			bgm = "story-afterrain-soft",
+			say = "현재, '대신목'의 성역",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "'대신목'의 성역 한쪽에서 보초를 서는 함선들이 즐겁게 업무를 보고 있다.",
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "초소의 뜰을 지루한 듯 청소하고 있는 소녀가 '대신목' 쪽을 바라보았다.",
@@ -57,10 +57,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오와리를 찾으러 간다고는 했지만, 사실 그냥 지루해서 도망간 거겠지.",
 			painting = {
 				alpha = 0.3,
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 301900,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301900,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "안색? 으하핫!",
 			painting = {
 				alpha = 0.3,
@@ -104,10 +104,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나쁜 꿈에 밤새 시달렸으니, 안색이 나빠지는 건 당연하지!",
 			painting = {
 				alpha = 0.3,
@@ -148,10 +148,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "즈이호는 걱정이 참 많구나.",
 			painting = {
 				alpha = 0.3,
@@ -163,12 +163,12 @@ return {
 			}
 		},
 		{
-			actor = 301900,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301900,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이런 시시한 초소에서 무슨 사건이 일어나겠느냐.",
 			painting = {
 				alpha = 0.3,
@@ -183,10 +183,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "여기는 사쿠라 엠파이어의 성지인 '대신목'의 성지다.",
 			painting = {
 				alpha = 0.3,
@@ -198,12 +198,12 @@ return {
 			}
 		},
 		{
-			actor = 301900,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301900,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "게다가 여우님의 결계로 지켜지는 곳이지.",
 			painting = {
 				alpha = 0.3,
@@ -218,10 +218,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어디 한번 혼자 나가서 놀아보거라. 위험한 일이 생기나, 안 생기나.",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그리고 말이지, 이렇게 아무 일도 없는 게 가장 좋은 거다.",
 			painting = {
 				alpha = 0.3,
@@ -342,10 +342,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "호오, 그랬군. 그런 사정이……",
 			painting = {
 				alpha = 0.3,
@@ -357,12 +357,12 @@ return {
 			}
 		},
 		{
-			actor = 301900,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301900,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아니, 그건 임무를 진지하게 생각하는 게 아니라, 그냥 여기 환경이 마음에 든 것뿐이잖느냐!",
 			painting = {
 				alpha = 0.3,
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "그때, 초소 밖에서 소녀가 외치는 소리가 들려왔다.",
@@ -435,8 +435,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "검붉은색의 옷을 걸친 소녀가 수평선에서 뛰어 올라, 빠른 속도로 뜰을 향해 달려왔다.",
@@ -462,10 +462,10 @@ return {
 			portrait = 301900,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
+			actorName = "아사나기",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "아사나기",
+			hidePaintObj = true,
 			say = "저기! 하츠즈키다!",
 			painting = {
 				alpha = 0.3,
@@ -506,10 +506,10 @@ return {
 			portrait = 900402,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301890,
 			actorName = "즈이호",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "통신기가 울리고 있어!",
 			typewriter = {
 				speed = 0.05,
@@ -546,10 +546,10 @@ return {
 			portrait = 301890,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			actorName = "하츠즈키",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			portraitNoise = true,
-			nameColor = "#A9F548FF",
+			actorName = "하츠즈키",
 			hidePaintObj = true,
 			say = "……어, 어서 준비해……!",
 			painting = {
@@ -591,10 +591,10 @@ return {
 			portrait = 301890,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			actorName = "하츠즈키",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			portraitNoise = true,
-			nameColor = "#A9F548FF",
+			actorName = "하츠즈키",
 			hidePaintObj = true,
 			say = "이러다… 늦겠어……!",
 			painting = {
@@ -610,10 +610,10 @@ return {
 			portrait = 301890,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			actorName = "하츠즈키",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			portraitNoise = true,
-			nameColor = "#A9F548FF",
+			actorName = "하츠즈키",
 			hidePaintObj = true,
 			say = "즈이호! 아사나기 씨! 내 말 들려?!",
 			painting = {
@@ -626,13 +626,13 @@ return {
 			}
 		},
 		{
-			actor = 301900,
+			withoutActorName = true,
 			side = 0,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
-			withoutActorName = true,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "둘을 향해 다가오는 하츠즈키의 맹렬한 기세에 정신이 팔려, 두 사람은 통신기의 목소리에 신경을 쓸 수가 없었다.",
 			subActors = {
 				{
@@ -677,10 +677,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "의장을 장착한 채로 저렇게 달리다니……",
 			painting = {
 				alpha = 0.3,
@@ -704,8 +704,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -742,10 +742,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "하아… 하아… 하아아아……",
 			painting = {
 				alpha = 0.3,
@@ -757,12 +757,12 @@ return {
 			}
 		},
 		{
-			actor = 900402,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 900402,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "즈이호는 크게 숨을 고르는 그녀를 향해 손에 빗자루를 든 채로 서둘러 달려가려고…",
 			typewriter = {
 				speed = 0.05,
@@ -774,8 +774,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 2500
@@ -799,10 +799,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이미 늦었어…….",
 			painting = {
 				alpha = 0.3,
@@ -830,10 +830,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "완전히 늦었다구!",
 			painting = {
 				alpha = 0.3,
@@ -845,8 +845,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -858,10 +858,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나가토 님에 무사시 씨… 그리고 또 다른 누군가가……",
 			painting = {
 				alpha = 0.3,
@@ -876,10 +876,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이 '대신목'의 성역에 찾아왔어!",
 			painting = {
 				alpha = 0.3,
@@ -891,8 +891,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -901,12 +901,12 @@ return {
 			}
 		},
 		{
-			actor = 301900,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301900,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나가토 님에 무사시? ……흥, 농담 마라.",
 			painting = {
 				alpha = 0.3,
@@ -921,10 +921,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그 두 사람이 갑자기 이런 곳에 올 리가 없잖느냐.",
 			painting = {
 				alpha = 0.3,
@@ -951,10 +951,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흥, 거짓말 아니거든. 내 눈으로 직접 봤다구.",
 			painting = {
 				alpha = 0.3,
@@ -969,10 +969,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오와리 씨를 찾다가 나가토 님 일행이 항행하는 걸 봤어.",
 			painting = {
 				alpha = 0.3,
@@ -987,10 +987,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사쿠라 엠파이어를 수호하는 여우님의 함선을 착각할 리가 없잖아.",
 			painting = {
 				alpha = 0.3,
@@ -1005,10 +1005,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……노, 농담한 거 아니었느냐?!",
 			painting = {
 				alpha = 0.3,
@@ -1020,8 +1020,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1033,10 +1033,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301890,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "거짓말 아니라니까! 오히려 잘못 본 거였으면 좋았을 텐데…",
 			painting = {
 				alpha = 0.3,
@@ -1060,8 +1060,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1133,10 +1133,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301900,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "알았다! 바로 움직이마!",
 			painting = {
 				alpha = 0.3,
@@ -1148,8 +1148,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			say = "평화로웠던 자그마한 초소는 갑자기 방문한 손님으로 분주해졌다.",

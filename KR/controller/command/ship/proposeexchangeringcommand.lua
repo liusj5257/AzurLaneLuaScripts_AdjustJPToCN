@@ -1,6 +1,6 @@
 slot0 = class("ProposeExchangeRingCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if getProxy(BagProxy):getItemCountById(pg.gameset.vow_prop_conversion.description[1]) < 1 then

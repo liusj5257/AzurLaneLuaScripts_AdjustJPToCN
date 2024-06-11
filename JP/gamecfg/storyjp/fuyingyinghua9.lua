@@ -1,15 +1,15 @@
 return {
-	id = "FUYINGYINGHUA9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA9",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-1",
 			say = "祭儀の島・近海",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,30 +1,30 @@
 slot0 = class("GatewayNoticeLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GatewayNoticeUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.trFrame = slot0:findTF("frame")
 	slot0.txtTitle = slot0:findTF("frame/title"):GetComponent("Text")
 	slot0.txtContent = slot0:findTF("frame/content"):GetComponent("RichText")
 	slot0.btnBack = slot0:findTF("frame/title_pop/btnBack")
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnBack, function ()
 		uv0:showNext()
 	end)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false)
 end
 
-function slot0.updateNotices(slot0, slot1)
+slot0.updateNotices = function(slot0, slot1)
 	slot0.notices = slot1
 
 	slot0:showNext()
 end
 
-function slot0.showNext(slot0)
+slot0.showNext = function(slot0)
 	if slot0.notice then
 		slot0.notice:markAsRead()
 	end
@@ -49,7 +49,7 @@ function slot0.showNext(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	LeanTween.cancel(go(slot0.trFrame))
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end

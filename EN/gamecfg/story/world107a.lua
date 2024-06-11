@@ -1,17 +1,17 @@
 return {
-	id = "WORLD107A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD107A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 103160,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bsm-1",
 			dir = 1,
 			say = "There’s hardly any Sirens in this zone. Something fishy’s going on...",
+			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Perhaps those reports were way out of date.",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "you're right. The Sirens only attack like this once They've been stripped of their command. They become like headless chickens.",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "Under normal circumstances, we’d probably have run into several major Siren fleets by now. And yet, we've not seen anything close to that...",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "Guessing they must've taken some major losses for this happen.",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "It just doesn't add up... No sign that any of the Ashes have come through here, either.",
 			typewriter = {
 				speed = 0.05,
@@ -161,9 +161,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Whatever happened, it’s worked out in our favor. Let’s not pass up this opportunity to seize an easy victory.",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,8 +185,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Baltimore is right. This is the most favorable situation possible for us. Let’s use it to reclaim this sector!",
 			typewriter = {
 				speed = 0.05,

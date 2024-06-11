@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "额外鱼雷",
 	cd = 0,
+	picture = "0",
+	desc = "额外一轮,本轮无锁定，有重甲增伤,延迟3秒",
 	painting = 0,
 	id = 19581,
-	picture = "0",
 	castCV = "skill",
-	desc = "额外一轮,本轮无锁定，有重甲增伤,延迟3秒",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillWeaponFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillWeaponFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 3,
 				weaponType = "TorpedoWeapon",
@@ -28,10 +28,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 19582,
 				delay = 3

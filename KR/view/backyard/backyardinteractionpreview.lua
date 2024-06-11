@@ -1,12 +1,12 @@
 slot0 = class("BackYardInteractionPreview")
 slot1 = 0.5
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.container = slot1
 	slot0.initPosition = slot2
 end
 
-function slot0.Flush(slot0, slot1, slot2, slot3, slot4)
+slot0.Flush = function(slot0, slot1, slot2, slot3, slot4)
 	if slot0.furnitureId == slot2 and slot0.shipSkinId == slot1 then
 		return
 	end
@@ -25,7 +25,7 @@ function slot0.Flush(slot0, slot1, slot2, slot3, slot4)
 	slot0.furnitureId = slot2
 end
 
-function slot0.StartLoad(slot0, slot1, slot2)
+slot0.StartLoad = function(slot0, slot1, slot2)
 	slot0:UnloadSpines()
 
 	slot3 = pg.UIMgr.GetInstance()
@@ -46,7 +46,7 @@ function slot0.StartLoad(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.LoadShip(slot0, slot1, slot2)
+slot0.LoadShip = function(slot0, slot1, slot2)
 	slot4 = pg.PoolMgr.GetInstance()
 
 	slot4:GetSpineChar(pg.ship_skin_template[slot1].prefab, true, function (slot0)
@@ -65,7 +65,7 @@ function slot0.LoadShip(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.LoadFurniture(slot0, slot1, slot2)
+slot0.LoadFurniture = function(slot0, slot1, slot2)
 	slot3 = pg.furniture_data_template
 	slot4 = slot3[slot1].spine[1][1]
 	slot5 = nil
@@ -132,12 +132,12 @@ function slot0.LoadFurniture(slot0, slot1, slot2)
 	}, slot2)
 end
 
-function slot0.AdjustTranform(slot0, slot1)
+slot0.AdjustTranform = function(slot0, slot1)
 	slot1.transform.localScale = Vector3(slot0.scale, slot0.scale, 1)
 	slot1.transform.localPosition = slot0.position
 end
 
-function slot0.StartInteraction(slot0, slot1, slot2, slot3)
+slot0.StartInteraction = function(slot0, slot1, slot2, slot3)
 	slot5 = pg.furniture_data_template[slot1].spine_action_replace
 	slot6 = {}
 	slot7 = {}
@@ -163,7 +163,7 @@ function slot0.StartInteraction(slot0, slot1, slot2, slot3)
 	slot3()
 end
 
-function slot0.GetReplaceAction(slot0, slot1, slot2, slot3, slot4)
+slot0.GetReplaceAction = function(slot0, slot1, slot2, slot3, slot4)
 	if not slot1 or slot1 == "" or #slot1 == 0 then
 		return slot3, slot4
 	end
@@ -185,11 +185,11 @@ function slot0.GetReplaceAction(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.StartActions(slot0, slot1, slot2, slot3)
+slot0.StartActions = function(slot0, slot1, slot2, slot3)
 	slot5 = 0
 	slot6 = nil
 
-	function slot7()
+	slot7 = function()
 		uv0 = uv0 + 1
 
 		if uv0 == 3 then
@@ -229,7 +229,7 @@ function slot0.StartActions(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.StartFollowBone(slot0, slot1)
+slot0.StartFollowBone = function(slot0, slot1)
 	if not pg.furniture_data_template[slot1].followBone then
 		return
 	end
@@ -239,7 +239,7 @@ function slot0.StartFollowBone(slot0, slot1)
 	slot0.loadedShip.transform.localPosition = Vector3(0, 0, 0)
 end
 
-function slot0.PlayAction(slot0, slot1, slot2, slot3)
+slot0.PlayAction = function(slot0, slot1, slot2, slot3)
 	slot4 = GetOrAddComponent(slot1, typeof(SpineAnimUI))
 
 	slot4:SetActionCallBack(function (slot0)
@@ -251,7 +251,7 @@ function slot0.PlayAction(slot0, slot1, slot2, slot3)
 	slot4:SetAction(slot2, 0)
 end
 
-function slot0.UnloadSpines(slot0)
+slot0.UnloadSpines = function(slot0)
 	if not IsNil(slot0.loadedShip) then
 		pg.PoolMgr.GetInstance():ReturnSpineChar(slot0.loadedShip.name, slot0.loadedShip)
 	end
@@ -272,11 +272,11 @@ function slot0.UnloadSpines(slot0)
 	slot0.furnitureId = nil
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:UnloadSpines()
 end
 
-function slot0.LoadRes(slot0, slot1, slot2)
+slot0.LoadRes = function(slot0, slot1, slot2)
 	slot3 = ResourceMgr.Inst
 
 	slot3:getAssetAsync(slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)

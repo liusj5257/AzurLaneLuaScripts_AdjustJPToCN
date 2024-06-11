@@ -1,6 +1,6 @@
 slot0 = class("ShioSkinRePage", import(".TemplatePage.SkinTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.dayTF = slot0:findTF("day", slot0.bg)
 	slot0.item1TF = slot0:findTF("item1", slot0.bg)
@@ -11,10 +11,10 @@ function slot0.OnInit(slot0)
 	}
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.nday = slot0.activity.data3
 	slot1 = #slot0.activity:getConfig("config_data")
 
@@ -69,7 +69,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

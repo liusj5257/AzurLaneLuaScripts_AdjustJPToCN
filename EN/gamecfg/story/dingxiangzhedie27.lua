@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE27",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhedie_11",
-			bgm = "theme-thedevilXV",
-			stopbgm = true,
-			bgmDelay = 2,
-			say = "KABOOOM!",
+			side = 2,
 			soundeffect = "event:/battle/boom2",
+			bgmDelay = 2,
+			bgm = "theme-thedevilXV",
+			bgName = "bg_zhedie_11",
+			stopbgm = true,
+			say = "KABOOOM!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -89,9 +89,9 @@ return {
 		{
 			actor = 900335,
 			side = 2,
-			bgName = "bg_zhedie_11",
 			nameColor = "#ff5c5c",
 			dir = 1,
+			bgName = "bg_zhedie_11",
 			say = "Tch.",
 			painting = {
 				alpha = 0.3,
@@ -103,11 +103,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,8 +193,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 103260,
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			say = "I'm fine! Hammann, focus on your mission!",
 			painting = {
@@ -245,11 +245,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,13 +295,13 @@ return {
 			}
 		},
 		{
-			actor = 900335,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhedie_11",
 			side = 2,
+			bgName = "bg_zhedie_11",
 			dir = 1,
-			say = "*cough* *cough*... What...?!",
 			soundeffect = "event:/battle/boom2",
+			actor = 900335,
+			say = "*cough* *cough*... What...?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,8 +373,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
 			say = "Well done, Hammann!",
 			painting = {
@@ -409,8 +409,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "I'm hacking her now... Done!",
 			painting = {
@@ -426,8 +426,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "I've disconnected Devil's vessel and her Enforcers!",
 			painting = {
@@ -443,8 +443,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702020,
 			dir = 1,
+			actor = 9702020,
 			nameColor = "#a020f0",
 			say = "I can't believe... you really did it...",
 			painting = {
@@ -460,8 +460,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "What, did you doubt the Commander and me?",
 			painting = {
@@ -477,8 +477,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702020,
 			dir = 1,
+			actor = 9702020,
 			nameColor = "#a020f0",
 			say = "I guess not... Pfft, hahaha...",
 			painting = {
@@ -494,8 +494,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "Commander, it's time to focus our fire on the Devil's vessel and destroy it.",
 			painting = {
@@ -510,9 +510,9 @@ return {
 		{
 			actor = 9702010,
 			side = 2,
-			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_zhedie_11",
 			say = "With the Arbiter's connection severed, I'll be able to bring the Sea of Stars and the Reality Lens back under our control.",
 			painting = {
 				alpha = 0.3,
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "\"So it's finally time to go back home. Yorktown...\"",
 			typewriter = {
@@ -537,8 +537,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
 			say = "It's okay. I know.",
 			painting = {
@@ -554,8 +554,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107120,
 			dir = 1,
+			actor = 107120,
 			nameColor = "#A9F548FF",
 			say = "It was exciting to get to know each other, but... Turns out we were just being manipulated to put you in danger, huh?",
 			painting = {
@@ -568,8 +568,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "\"The battle isn't over. We're not entirely out of danger yet.\"",
 			typewriter = {
@@ -578,8 +578,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "\"But Helena is right. We should at least be able to escape from here.\"",
 			typewriter = {
@@ -593,9 +593,9 @@ return {
 			bgName = "bg_zhedie_11",
 			paintingNoise = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107120,
 			stopbgm = true,
+			actor = 107120,
+			nameColor = "#A9F548FF",
 			say = "Wait, what's going on up there? It looks like... the sky's tearing apart?!",
 			painting = {
 				alpha = 0.3,
@@ -645,8 +645,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "A brilliant blue-white light pours out from the gash above us, splashing across the darkened evening sky.",
 			typewriter = {
@@ -655,8 +655,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "A mysterious machine reaches through the rift, as if forcibly pushing itself into this world.",
 			typewriter = {
@@ -668,8 +668,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "Damn it... This entire virtual space is about to get purged...",
 			painting = {
@@ -682,8 +682,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "\"Is that what happens when you forcibly shut down the Reality Lens from the outside?\"",
 			typewriter = {
@@ -695,8 +695,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "No. This is something else...",
 			painting = {
@@ -709,8 +709,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "Countless rays of light burst from the rift, devouring everything from heaven to earth.",
 			typewriter = {
@@ -719,8 +719,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "Everything grinds to a halt beneath their radiant glow. The Enforcers, the formless enemies, even the land itself.",
 			typewriter = {
@@ -803,8 +803,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "Hornet's voice cuts off abruptly. I look down at my battlefield monitor, and her signal is gone.",
 			typewriter = {
@@ -819,8 +819,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "But, my voice reaches no one. One by one, their signals disappear. Everything around me collapses faster than my eyes can keep track of.",
 			typewriter = {
@@ -844,8 +844,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "First Hammann, then Northampton, Hornet, then Langley... The ones furthest from us are the first to go.",
 			typewriter = {
@@ -857,8 +857,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "Yorktown! Stay close to the Commander!",
 			painting = {
@@ -874,8 +874,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "Forget about the others, it's too late for them!",
 			painting = {
@@ -891,8 +891,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
 			say = "Helena? What's happening?",
 			painting = {
@@ -908,8 +908,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
 			say = "...Hornet? Are you there? Answer me!",
 			painting = {
@@ -925,8 +925,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
 			say = "Northampton! Do you read me?",
 			painting = {
@@ -942,8 +942,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
 			say = "Langley! Where have you gone?",
 			painting = {
@@ -959,8 +959,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
 			say = "Hammann! Please... Please talk to me...",
 			painting = {
@@ -973,8 +973,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "I hardly recognize my own voice.",
 			typewriter = {
@@ -983,8 +983,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "All that remains is an eerie, pure-white silence.",
 			typewriter = {
@@ -1005,9 +1005,9 @@ return {
 		{
 			actor = 9702010,
 			side = 2,
-			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_zhedie_11",
 			say = "Calm down. Let me explain.",
 			painting = {
 				alpha = 0.3,
@@ -1022,8 +1022,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "The Devil isn't the only Arbiter connected to this virtual space. The Tower is, too.",
 			painting = {
@@ -1039,8 +1039,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "Though limited in scope, the Tower has the ability to access the Natural Calculation System.",
 			painting = {
@@ -1053,8 +1053,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "\"So we basically walked right into her 'home,' and those rays of light are her way of purging intruders?'",
 			typewriter = {
@@ -1066,8 +1066,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "Not quite. The rays of light are part of the Reorigination System. More accurately, she's trying to wipe the slate clean altogether.",
 			painting = {
@@ -1083,8 +1083,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "When I first hacked into the Reality Lens, I made sure that the Tower would not be alerted.",
 			painting = {
@@ -1100,8 +1100,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "While the Devil theoretically had access to the Reorigination System, she would not have been able to use it without purging herself in the process.",
 			painting = {
@@ -1116,9 +1116,9 @@ return {
 		{
 			actor = 9702010,
 			side = 2,
-			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_zhedie_11",
 			say = "However, now that she has been disconnected and the aberrations are running rampant in this space, there's no way we would continue to avoid the Tower's gaze.",
 			painting = {
 				alpha = 0.3,
@@ -1133,8 +1133,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "And what do the Sirens do when they encounter a bug in the Natural Calculation System? They eliminate it.",
 			painting = {
@@ -1150,8 +1150,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "For the Tower, that's just as easy as you stepping on a bug.",
 			painting = {
@@ -1164,8 +1164,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "\"Isn't there anything you can do to stop her?\"",
 			typewriter = {
@@ -1177,8 +1177,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "Sadly, no.",
 			painting = {
@@ -1194,8 +1194,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "The Tower is different from other Arbiters. She is not some kind of program you can hack or a person you can talk to.",
 			painting = {
@@ -1211,8 +1211,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "Commander, you've been aware this whole time that this world is nothing but a replicated virtual space, right?",
 			painting = {
@@ -1227,9 +1227,9 @@ return {
 		{
 			actor = 9702010,
 			side = 2,
-			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_zhedie_11",
 			say = "No matter how interconnected our lives may be within this world, no matter what experiences we might have, everything in this space is nothing more than an array of data for the Tower.",
 			painting = {
 				alpha = 0.3,
@@ -1244,8 +1244,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "We are but programs within this data space. When bugs appear in the data or programs malfunction, you go in and fix them.",
 			painting = {
@@ -1260,9 +1260,9 @@ return {
 		{
 			actor = 9702010,
 			side = 2,
-			bgName = "bg_zhedie_11",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_zhedie_11",
 			say = "After all, you wouldn't sit down and try to talk it out with a computer bug, would you?",
 			painting = {
 				alpha = 0.3,
@@ -1277,8 +1277,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
 			say = "Helena... So you're saying that...",
 			painting = {
@@ -1294,8 +1294,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
 			say = "I'm just a bunch of data created by this world?",
 			painting = {
@@ -1311,8 +1311,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "I'm afraid so. To the best of my knowledge, the real Yorktown's hull is not connected to this space.",
 			painting = {
@@ -1328,8 +1328,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
 			say = "What about Hornet, Hammann, and the others?",
 			painting = {
@@ -1345,8 +1345,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "Same story.",
 			painting = {
@@ -1362,8 +1362,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
 			say = "What about Dr. Anzeel then, and Dr. Aoste?",
 			painting = {
@@ -1379,8 +1379,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "Same story.",
 			painting = {
@@ -1396,8 +1396,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "With the exception of me, Memphis, the Commander, and Anchorage, wherever she is... Everything else is a fabrication.",
 			painting = {
@@ -1413,8 +1413,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
 			say = "My feelings... My memories... Are they all fake?",
 			painting = {
@@ -1427,8 +1427,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1446,8 +1446,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
 			say = "Everything I know... is a lie?",
 			painting = {
@@ -1463,8 +1463,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702010,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#ffa500",
 			say = "I... I'm sorry. I don't know what to tell you.",
 			painting = {
@@ -1486,8 +1486,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			actor = 9702020,
 			dir = 1,
+			actor = 9702020,
 			nameColor = "#a020f0",
 			say = "Helena! The Reorigination System is about to catch up to us!",
 			painting = {
@@ -1500,8 +1500,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "\"Yorktown! Look out––\"",
 			typewriter = {
@@ -1510,14 +1510,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a020f0",
+			stopbgm = true,
 			side = 2,
-			bgName = "bg_port_chongdong",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_port_chongdong",
 			bgm = "theme-starsea-core",
 			actor = 900316,
-			stopbgm = true,
+			nameColor = "#a020f0",
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -1535,8 +1535,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1547,8 +1547,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "Who are you? Where... am I?",
 			painting = {
@@ -1564,8 +1564,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "Was my data... deleted from the system?",
 			painting = {
@@ -1580,9 +1580,9 @@ return {
 		{
 			actor = 900316,
 			side = 2,
-			bgName = "bg_port_chongdong",
 			nameColor = "#a020f0",
 			dir = 1,
+			bgName = "bg_port_chongdong",
 			say = "No, not quite. Helena took special measures to protect you.",
 			painting = {
 				alpha = 0.3,
@@ -1597,8 +1597,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "As for who I am, I'm sure you already know.",
 			painting = {
@@ -1614,8 +1614,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "And I have something to tell you.",
 			painting = {
@@ -1631,8 +1631,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "......",
 			painting = {
@@ -1648,8 +1648,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "You're me... You're Yorktown.",
 			painting = {
@@ -1664,9 +1664,9 @@ return {
 		{
 			actor = 107100,
 			side = 2,
-			bgName = "bg_port_chongdong",
 			nameColor = "#a020f0",
 			dir = 1,
+			bgName = "bg_port_chongdong",
 			say = "The Yorktown that holds the future's \"memories of ruination,\" as Memphis mentioned.",
 			painting = {
 				alpha = 0.3,
@@ -1681,8 +1681,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "And I... am the blessed \"Yorktown,\" given life in this virtual space.",
 			painting = {
@@ -1698,8 +1698,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "Yes. I remember everything now.",
 			painting = {
@@ -1715,8 +1715,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "That's right. In this virtual space, countless memories and thoughts are woven together, simulated, and given new form.",
 			painting = {
@@ -1732,8 +1732,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "Sorry for making you suffer this in my place... But, you were never meant to last for long.",
 			painting = {
@@ -1749,8 +1749,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "...It's alright. It's not your fault.",
 			painting = {
@@ -1766,8 +1766,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "If anything, I am glad I got to experience this fleeting happiness. With my friends, with Dr. Anzeel, and with the Commander...",
 			painting = {
@@ -1783,8 +1783,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "They will live on in the Commander's memory. The Commander will remember all of us.",
 			painting = {
@@ -1800,8 +1800,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "Thank you... for telling me.",
 			painting = {
@@ -1817,8 +1817,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "You're right. Even when this world is no more, the Commander will still remember.",
 			painting = {
@@ -1834,8 +1834,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "I promise you, these memories will help the Commander forge a brighter future.",
 			painting = {
@@ -1851,8 +1851,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "For Hornet, Northampton, Langley, Hammann... and at least one Yorktown.",
 			painting = {
@@ -1868,8 +1868,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "As you've yourself shown, happiness finds its way to those who connect with the Commander.",
 			painting = {
@@ -1885,8 +1885,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "...But to ensure that future comes to pass, you have to pull the Commander out of here?",
 			painting = {
@@ -1902,8 +1902,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "Mhm. The Commander has to awaken from this dream.",
 			painting = {
@@ -1919,8 +1919,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "\"Fight until the last light has faded\"...",
 			painting = {
@@ -1935,9 +1935,9 @@ return {
 		{
 			actor = 107100,
 			side = 2,
-			bgName = "bg_port_chongdong",
 			nameColor = "#a020f0",
 			dir = 1,
+			bgName = "bg_port_chongdong",
 			say = "Tell me. What can I do to help?",
 			painting = {
 				alpha = 0.3,
@@ -1952,8 +1952,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "Only one thing.",
 			painting = {
@@ -1969,8 +1969,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "Fight until the waves take you – until your light has faded – so the Commander may be saved.",
 			painting = {
@@ -1986,8 +1986,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "Then that's what I will do. It's what you would want as well.",
 			painting = {
@@ -2002,9 +2002,9 @@ return {
 		{
 			actor = 107100,
 			side = 2,
-			bgName = "bg_port_chongdong",
 			nameColor = "#a020f0",
 			dir = 1,
+			bgName = "bg_port_chongdong",
 			say = "But is that really all I have to do? Do you know how to save the Commander?",
 			painting = {
 				alpha = 0.3,
@@ -2019,8 +2019,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "Yes. Helena is working hard on it, but she needs more time.",
 			painting = {
@@ -2036,8 +2036,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "I'm so sorry for sacrificing you like this... I wish I could help...",
 			painting = {
@@ -2053,11 +2053,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			fontsize = 45,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "Don't be like that, me. I'm fine with it.",
-			fontsize = 45,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2068,8 +2068,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -2081,8 +2081,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "If you really wish to help... then there's one favor you could do for me.",
 			painting = {
@@ -2098,8 +2098,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "I bought a present for the Commander. Will you deliver it for me?",
 			painting = {
@@ -2115,8 +2115,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 900316,
 			dir = 1,
+			actor = 900316,
 			nameColor = "#a020f0",
 			say = "I will. I swear it.",
 			painting = {
@@ -2132,8 +2132,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			actor = 107100,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#a020f0",
 			say = "Then thank you, and goodbye, other me. My final battle awaits.",
 			painting = {
@@ -2146,8 +2146,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgName = "bg_zhedie_12",
 			bgm = "battle-inthememory",
 			flashin = {
@@ -2167,8 +2167,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_12",
 			say = "In the midst of all-consuming light, Yorktown begins to move again as enemies close in on us.",
 			typewriter = {
@@ -2177,8 +2177,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Yorktown II",
+			side = 1,
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "Don't worry, Commander. I'm just fine.",
@@ -2188,8 +2188,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Yorktown II",
+			side = 1,
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "Thanks to Helena and the Type II rigging you gave me, I'm able to move a little now.",
@@ -2199,15 +2199,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Helena META",
+			side = 2,
 			bgName = "bg_zhedie_12",
 			nameColor = "#ffa500",
 			say = "You met her, didn't you? The other you."
 		},
 		{
-			side = 1,
 			actorName = "Yorktown II",
+			side = 1,
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "Helena, how's the progress on your end?",
@@ -2217,8 +2217,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Helena META",
+			side = 2,
 			bgName = "bg_zhedie_12",
 			nameColor = "#ffa500",
 			say = "Everything's on track. I've linked up with the Helena on the other side and have secured an escape route.",
@@ -2228,8 +2228,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Helena META",
+			side = 2,
 			bgName = "bg_zhedie_12",
 			nameColor = "#ffa500",
 			say = "Memphis will lead the way. Yorktown, you and I will keep the enemies from pursuing.",
@@ -2239,8 +2239,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Yorktown II",
+			side = 1,
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "Heehee, did you hear that? It's time to go home, Commander.",
@@ -2250,8 +2250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_12",
 			say = "\"Doesn't that mean you—\"",
 			typewriter = {
@@ -2260,8 +2260,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Yorktown II",
+			side = 1,
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "Didn't I tell you not to worry?",
@@ -2271,8 +2271,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Yorktown II",
+			side = 1,
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "There's still time before the reset gets me. Besides, Helena is here with me too.",
@@ -2282,8 +2282,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Yorktown II",
+			side = 1,
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "We won't let the enemy pass. Not until you've made it home.",
@@ -2293,8 +2293,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Yorktown II",
+			side = 1,
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "\"Fight until the last light has faded,\" right?",
@@ -2304,8 +2304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_12",
 			say = "\"But...\"",
 			typewriter = {
@@ -2314,8 +2314,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Yorktown II",
+			side = 1,
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "It's okay. Don't say a word.",
@@ -2325,8 +2325,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Yorktown II",
+			side = 1,
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			say = "The Yorktown you desire has the strength to see this through. Please... Honor my decision.",
@@ -2336,8 +2336,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_12",
 			say = "......",
 			typewriter = {
@@ -2346,8 +2346,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Helena META",
+			side = 2,
 			bgName = "bg_zhedie_12",
 			nameColor = "#ffa500",
 			say = "The entrance to the Marine Research Institute on Samos Island. That is your escape route.",
@@ -2357,19 +2357,19 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Helena META",
+			side = 2,
 			bgName = "bg_zhedie_12",
 			nameColor = "#ffa500",
 			dir = 1,
 			say = "Hurry, Commander."
 		},
 		{
-			side = 2,
 			actorName = "Memphis META",
-			bgName = "bg_zhedie_12",
+			side = 2,
 			nameColor = "#a020f0",
 			dir = 1,
+			bgName = "bg_zhedie_12",
 			say = "Yeah. I'm gonna go fast, so make sure you keep up.",
 			painting = {
 				alpha = 0.3,
@@ -2381,16 +2381,16 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Yorktown II",
+			side = 1,
 			bgName = "bg_zhedie_12",
 			nameColor = "#a020f0",
 			dir = 1,
 			say = "Farewell, dear Commander. I hope we'll meet again—as the Yorktown you desire."
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "...............",
 			typewriter = {
@@ -2398,17 +2398,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -2416,8 +2416,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "The sounds of roaring engines and thundering cannons gradually dwindle.",
 			typewriter = {
@@ -2426,8 +2426,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "We press on, never looking back even as the virtual space crumbles around us.",
 			typewriter = {
@@ -2436,8 +2436,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "The memory of her angelic figure still lingers in my mind.",
 			typewriter = {
@@ -2446,8 +2446,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "As light surrounds me, I make a vow–",
 			typewriter = {
@@ -2456,8 +2456,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "To forever engrave her into my heart.",
 			typewriter = {

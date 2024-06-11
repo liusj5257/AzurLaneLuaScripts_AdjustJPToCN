@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,
@@ -58,8 +58,8 @@ return {
 					spawn = {
 						{
 							score = 0,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							monsterTemplateID = 16576004,
 							corrdinate = {
 								-5,
@@ -73,10 +73,10 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 1,
 									switchTo = 99,
 									index = 0,
-									switchParam = 1,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {
 										3108001
@@ -84,10 +84,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchType = 1,
+									switchParam = 6,
 									switchTo = 2,
 									index = 99,
-									switchParam = 6,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
 										3108302
@@ -95,9 +95,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 2,
 									switchParam = 6,
 									switchTo = 98,
+									index = 2,
 									switchType = 1,
 									addWeapon = {
 										3108301
@@ -108,9 +108,9 @@ return {
 									}
 								},
 								{
-									index = 98,
 									switchParam = 3,
 									switchTo = 33,
+									index = 98,
 									switchType = 1,
 									addWeapon = {
 										3108303,
@@ -120,9 +120,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 33,
 									switchParam = 8,
 									switchTo = 5,
+									index = 33,
 									switchType = 1,
 									addWeapon = {},
 									removeWeapon = {
@@ -130,9 +130,9 @@ return {
 									}
 								},
 								{
-									index = 5,
 									switchParam = 7,
 									switchTo = 6,
+									index = 5,
 									switchType = 1,
 									addWeapon = {
 										3108310
@@ -140,10 +140,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchType = 1,
+									switchParam = 1,
 									switchTo = 99,
 									index = 6,
-									switchParam = 1,
+									switchType = 1,
 									setAI = 70093,
 									removeWeapon = {
 										3108310,

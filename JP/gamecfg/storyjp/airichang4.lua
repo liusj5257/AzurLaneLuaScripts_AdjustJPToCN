@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「仮想繋げし共時性」-日常編\n\n<size=45>四 世知辛かったらスナック愛へ！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・スナック愛（食堂）",
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・スナック愛（食堂）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "（チャランチャラーン）",
 			typewriter = {
 				speed = 0.05,
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "アイママ",
 			say = "おー？どんな悩みなん？うちに聞かせて～？",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "ああああれ？ここここのベンソンちゃん悩みなんてなーんにもないよ？（ガクガク）",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,9 +194,9 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
+			say = "（あー、これはキャラ作ってるわ。なるほどなー、ここはうちもひとはだぬぐか。）",
 			actor = 900179,
 			actorName = "アイママ",
-			say = "（あー、これはキャラ作ってるわ。なるほどなー、ここはうちもひとはだぬぐか。）",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 0,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "アイママ",
 			say = "なりたい自分とか、見せたい自分があるわけやもんな。ただ、それがそのまま伝わってるかは、相手じゃないとわからんわけやから。",
 			typewriter = {
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 0,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "アイママ",
 			say = "きっと指揮官もイヤだとは思ってないはずやから、むしろ逆に今まで以上に「超絶パワフル最カワ美少女」なベンソンちゃんになればええんやない？",
 			typewriter = {
@@ -495,11 +495,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "あは☆ベンソンちゃんわかっちゃったかも！アイママ！ラフィー！二人ともありがと☆",
 			typewriter = {
 				speed = 0.05,
@@ -511,8 +511,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -521,11 +521,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "アイママ",
 			say = "ええでー、きにせんといてー、スッキリできたみたいでよかったわ。ベンソンちゃんがんばってな～",
 			typewriter = {
@@ -554,11 +554,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "そうと決まれば早速かわいくなるための修行に出ちゃうぞ～♡二人ともまたね～！",
 			typewriter = {
 				speed = 0.05,
@@ -570,8 +570,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 2250
@@ -579,11 +579,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "アイママ",
 			say = "またな～、あ、そこ段差あるから、気を付けてかえりーやー",
 			typewriter = {
@@ -596,9 +596,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "（ズコー！）",
 			dialogShake = {
 				speed = 0.09,
@@ -683,14 +683,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_104",
 			actor = 10400010,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "後日、より磨きのかかったウザ絡みをして、指揮官から説教をされてしまうベンソンちゃんなのであった――",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -718,9 +718,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 10400010,
 			dir = 1,
 			blackBg = true,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "まぁ、そういうこともありますよね！",
 			typewriter = {

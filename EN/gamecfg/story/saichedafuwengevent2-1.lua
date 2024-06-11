@@ -1,8 +1,8 @@
 return {
-	id = "SAICHEDAFUWENGEVENT2-1",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "SAICHEDAFUWENGEVENT2-1",
+	skipTip = false,
 	scripts = {
 		{
 			say = "You hopped on Great Shark and helped Akashi with an oil transport mission! Received 10 Oil!",

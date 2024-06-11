@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "最后的荣耀",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "武器开火的时候获得子弹增伤效果",
 	stack = 1,

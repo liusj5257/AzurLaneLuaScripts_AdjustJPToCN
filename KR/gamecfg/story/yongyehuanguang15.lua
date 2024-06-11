@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG15",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG15",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "바렌츠해·로열 네이비 호위 함대",
 			side = 2,
 			bgName = "bg_hms_5",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bgm-royalnavy",
+			say = "바렌츠해·로열 네이비 호위 함대",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "이카로스",
+			side = 2,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "하우",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "이카로스",
+			side = 2,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "하우",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "밸리언트",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "에든버러",
+			side = 2,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "밸리언트",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "하우",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "밸리언트",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -210,8 +210,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "그렇게 긴 시간 동안 실패를 겪었는데, 메탈 블러드가 쓸 수 있는 배가 더 있다 하더라도 정말 먼저 우리에게 도전할 용기가 있을까요...? ",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "하하하… 아니면 저희가 먼저 방송으로 메탈 블러드를 도발하고 당당하게 나아가요.",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = " 앗!?잠,잠깐! 이거 어떻게 얘기해도 너무 과격한데! 적을 경시하면 안된다고 지금까지 말한 건 어쩌고!?",
 			typewriter = {
@@ -306,8 +306,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

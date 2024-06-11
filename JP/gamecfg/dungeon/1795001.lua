@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-80,
 				20,
@@ -95,17 +95,17 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 1,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 1,
 									setAI = 70125
 								},
 								{
-									switchParam = 15.5,
-									switchTo = 2,
-									index = 1,
 									switchType = 1,
+									switchParam = 15.5,
+									index = 1,
+									switchTo = 2,
 									setAI = 70252,
 									addBuff = {
 										8836
@@ -118,10 +118,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchParam = 3,
-									switchTo = 3,
-									index = 2,
 									switchType = 1,
+									switchParam = 3,
+									index = 2,
+									switchTo = 3,
 									setAI = 70125,
 									addBuff = {
 										200769
@@ -134,9 +134,9 @@ return {
 									}
 								},
 								{
-									index = 3,
 									switchParam = 1,
 									switchTo = 4,
+									index = 3,
 									switchType = 1,
 									addWeapon = {
 										3125025
@@ -144,10 +144,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchParam = 21,
-									switchTo = 5,
-									index = 4,
 									switchType = 1,
+									switchTo = 5,
+									switchParam = 21,
+									index = 4,
 									setAI = 70252,
 									removeBuff = {
 										200769
@@ -155,10 +155,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchParam = 2,
-									switchTo = 6,
-									index = 5,
 									switchType = 1,
+									switchTo = 6,
+									switchParam = 2,
+									index = 5,
 									setAI = 70125,
 									addBuff = {
 										200769
@@ -168,9 +168,9 @@ return {
 									}
 								},
 								{
-									index = 6,
 									switchType = 1,
 									switchTo = 7,
+									index = 6,
 									switchParam = 35.5,
 									addWeapon = {
 										3125027,
@@ -179,9 +179,9 @@ return {
 									}
 								},
 								{
-									index = 7,
-									switchParam = 2,
 									switchTo = 1,
+									switchParam = 2,
+									index = 7,
 									switchType = 1,
 									removeBuff = {
 										200769
@@ -224,17 +224,17 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 1,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 1,
 									setAI = 70125
 								},
 								{
-									switchParam = 15.5,
-									switchTo = 2,
-									index = 1,
 									switchType = 1,
+									switchParam = 15.5,
+									index = 1,
+									switchTo = 2,
 									setAI = 70252,
 									addBuff = {
 										8836
@@ -248,10 +248,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchParam = 3,
-									switchTo = 3,
-									index = 2,
 									switchType = 1,
+									switchParam = 3,
+									index = 2,
+									switchTo = 3,
 									setAI = 70125,
 									addBuff = {
 										200769
@@ -265,9 +265,9 @@ return {
 									}
 								},
 								{
-									index = 3,
 									switchParam = 1,
 									switchTo = 4,
+									index = 3,
 									switchType = 1,
 									addWeapon = {
 										3125005,
@@ -276,10 +276,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchParam = 21,
-									switchTo = 5,
-									index = 4,
 									switchType = 1,
+									switchTo = 5,
+									switchParam = 21,
+									index = 4,
 									setAI = 70252,
 									removeBuff = {
 										200769
@@ -287,10 +287,10 @@ return {
 									removeWeapon = {}
 								},
 								{
-									switchParam = 2,
-									switchTo = 6,
-									index = 5,
 									switchType = 1,
+									switchTo = 6,
+									switchParam = 2,
+									index = 5,
 									setAI = 70125,
 									addBuff = {
 										200769
@@ -301,9 +301,9 @@ return {
 									}
 								},
 								{
-									index = 6,
 									switchType = 1,
 									switchTo = 7,
+									index = 6,
 									switchParam = 35.5,
 									addWeapon = {
 										3125007,
@@ -312,9 +312,9 @@ return {
 									}
 								},
 								{
-									index = 7,
-									switchParam = 2,
 									switchTo = 1,
+									switchParam = 2,
+									index = 7,
 									switchType = 1,
 									removeBuff = {
 										200769
@@ -347,8 +347,8 @@ return {
 						100
 					},
 					triggerParams = {
-						op = 0,
-						key = "warning"
+						key = "warning",
+						op = 0
 					}
 				}
 			}

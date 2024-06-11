@@ -1,12 +1,12 @@
 return {
-	time = 2,
-	name = "教程维修",
 	init_effect = "",
+	name = "教程维修",
+	time = 2,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 999984,
-	picture = "",
 	last_effect = "Health",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",

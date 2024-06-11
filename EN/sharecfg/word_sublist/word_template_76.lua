@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_76 = {}
 slot1 = slot0.word_template_76
 
-function temp()
+temp = function()
 	uv0["傣"] = {
 		["肌"] = {
 			["松"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["代"] = {
 		["办"] = {
 			this = true,
@@ -419,7 +419,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["带"] = {
 		["蛋"] = {
 			this = true
@@ -459,7 +459,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["帶"] = {
 		["根"] = {
 			["吊"] = {
@@ -478,7 +478,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["紿"] = {
 		this = {
 			this = true
@@ -488,7 +488,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["戴"] = {
 		["海"] = {
 			["静"] = {
@@ -518,7 +518,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["丹"] = {
 		["铁"] = {
 			["神"] = {

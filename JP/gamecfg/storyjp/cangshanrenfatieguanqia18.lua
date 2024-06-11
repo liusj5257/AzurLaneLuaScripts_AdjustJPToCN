@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA18",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_kagura_2",
-			say = "第三の扉 内海",
 			bgm = "sk-az-battle-2",
+			say = "第三の扉 内海",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,9 +20,9 @@ return {
 		{
 			actor = 11000010,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "…………",
 			painting = {
 				alpha = 0.3,
@@ -37,8 +37,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "あら、飛鳥さん、どうかして？",
 			painting = {
@@ -53,9 +53,9 @@ return {
 		{
 			actor = 11000010,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "いえ…特にはっきりした根拠があるわけじゃないんですけど…誰かに見られているような気がして……",
 			painting = {
 				alpha = 0.3,
@@ -70,8 +70,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "レーダーには特に目立った敵影は見られないけど…雪泉さんはどう？",
 			painting = {
@@ -86,9 +86,9 @@ return {
 		{
 			actor = 11000040,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "私も…はっきりはしないですが、何か違和感を感じています。視線というか…観察されているというか……",
 			painting = {
 				alpha = 0.3,
@@ -103,8 +103,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "そうなの？う～ん、とはいえレーダーは何も捉えていないのよね……",
 			painting = {
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "ニンジャの持つ特別な感覚みたいなものかしら…それとも超常的な能力？",
 			painting = {
@@ -137,8 +137,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "そんなたいそうなものではないですが…修行を続けるとやっぱり人の気配なんかには聡くなりますね",
 			painting = {
@@ -153,9 +153,9 @@ return {
 		{
 			actor = 11000010,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "忍は隠れることこそ本来の仕事…みたいなところもありますし",
 			painting = {
 				alpha = 0.3,
@@ -170,8 +170,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "私たちからすれば、このレーダーみたいに周辺の敵をはっきりと示してくれる方がすごい！って思っちゃいます",
 			painting = {
@@ -187,8 +187,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "もう、あるのとないのでは戦いやすさが全然違いますよ！",
 			painting = {
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "とはいえ、これが忍同士の戦いに使えるかは分からないけど……",
 			painting = {
@@ -221,8 +221,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "「こういうものがある！」ってなれば、きっとそこから隠れる術を開発したりするでしょうし",
 			painting = {
@@ -238,8 +238,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "それは私たちも変わらないわ。隠れて見つけて隠れて見つけて…ずっと研究の連続よ",
 			painting = {
@@ -255,8 +255,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "そうなんですね！やっぱりどこでも日々修行なんだなぁ……",
 			painting = {
@@ -272,8 +272,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "――ってことは、さっきから私たちを観察してる人の目的って……",
 			painting = {
@@ -288,9 +288,9 @@ return {
 		{
 			actor = 11000010,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "私たち忍の感覚を、新しいレーダー開発に生かそう、とか考えてるのかもしれませんね",
 			painting = {
 				alpha = 0.3,
@@ -305,8 +305,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "……確かにその可能性はあるわ。あなたたちをわざわざ元の世界から「招待」してきたくらいだもの",
 			painting = {
@@ -322,8 +322,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "研ぎ澄まされた超常の感覚を持つ生体レーダーとか…ちょっと笑えないわよ……",
 			painting = {

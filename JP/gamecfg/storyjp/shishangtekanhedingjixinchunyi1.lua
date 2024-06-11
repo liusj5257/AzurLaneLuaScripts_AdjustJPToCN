@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"着せ替え特集　春節2023　①\n\n<size=45>月下憐舞</size>",
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "新春の宴の前にぶらぶらしていたら、まさかこんな光景を目にするとは。",
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "こういう時は…",
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "パキッと、踏まれた枝が儚い命の絶唱をあげ――",
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 504011,
 			side = 2,
 			bgName = "star_level_bg_152",
 			spine = true,
 			dir = 1,
+			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "——！！！",
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "街中に飾られている灯籠のように、彼女の顔はみるみるうちに真っ赤になった。",
@@ -337,8 +337,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "……その後、ここで見たことを秘密にすると約束すると、寰昌はようやく安堵の表情を見せた。",
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "顔色もいつもの様子に戻った。が…まだ何か悩んでいるようだ。",
@@ -468,9 +468,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_152",
 			spine = true,
-			dir = 1,
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -484,17 +484,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -578,9 +578,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_152",
 			spine = true,
-			dir = 1,
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -594,17 +594,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -681,27 +681,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_152",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_152",
 			say = "だいぶ時間がかかったが、悩みに悩んだ寰昌はやっと合いそうなマスクをいくつか選び出せた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -709,8 +709,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "新しい立ち振舞いも練習して、今度こそ彼女の「威厳」をよく出せているようだ。",

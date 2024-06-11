@@ -1,18 +1,18 @@
 return {
-	id = "HOLOGUANQIA13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA13",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "holo-tokiwa",
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "舰装真是神奇的装备呢。发射起来有这么大的威力，操作起来却可以轻松上手。",
-			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "有了舰装，就算是祭这样前一秒还是手无缚鸡之力的清纯JK，也能瞬间拥有强大的战斗力哎。",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			expression = 0,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "原因先不论，结果上来说，祭也有了守护同伴的力量了！",
 			typewriter = {
 				speed = 0.05,
@@ -92,8 +92,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "之前从吹雪那里听说过这里的一些事…如果人人都能像祭这样使用舰装与塞壬进行战斗的话……",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "就算对手是塞壬，也会在一瞬间被打败吧~",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "{namecode:158}外表虽然很可爱，个性却好酷啊，这就是所谓的反差萌？",
 			typewriter = {
 				speed = 0.05,
@@ -169,9 +169,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "祭对这个世界还不是很了解，也不太了解战斗，随便说了奇怪的话真的很抱歉！",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -210,9 +210,9 @@ return {
 		{
 			expression = 3,
 			side = 0,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哼哼哼，其实祭本来就是反抗军成员哦，只是没想到真的能等到成功反抗的一天，老实说激动的不行呢！",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

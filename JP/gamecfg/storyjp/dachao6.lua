@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"大潮よりお届け♪\n\n<size=45>六　ミミっ子たちのお茶会</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・重桜寮近く",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・重桜寮近く",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "休日、大潮に第八駆逐隊のお茶会に誘われた。",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "大きなサクラの木の下で、朝潮と大潮、満潮、そして荒潮の四人がピクニックシートでお茶会に興じていた。",
 			typewriter = {
 				speed = 0.05,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "大潮に案内されてシートに腰を下ろす。",
 			typewriter = {
 				speed = 0.05,
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			say = "お菓子はお好きにどうぞ♪　お茶が足りんかったらあたしに声かけないな～",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "お菓子はお好きにどうぞ♪　お茶が足りんかったらあたしに声かけないな～",
+			actor = 301640,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "小さいカップに注がれたお茶を一口飲んで、駆逐艦たちの様子を見わたすと――",
 			typewriter = {
 				speed = 0.05,
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "朝潮は正座して、可愛らしいクマちゃん印のせんべいを",
 			typewriter = {
 				speed = 0.05,
@@ -228,12 +228,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			say = "んん～食べている時の朝潮も可愛らしいんやな～ナデナデ、ナデナデ～",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "んん～食べている時の朝潮も可愛らしいんやな～ナデナデ、ナデナデ～",
+			actor = 301640,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -248,9 +248,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "大潮は執拗（？）に朝潮のミミをナデナデしていた。",
 			typewriter = {
 				speed = 0.05,
@@ -258,11 +258,11 @@ return {
 			}
 		},
 		{
-			actor = 301630,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301630,
+			nameColor = "#a9f548",
 			say = "大潮……ぐすぐったいよ……",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -316,15 +316,15 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "指揮官、今日のお茶会はどうなん～？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -381,9 +381,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "時間の流れすら遅くなるような、癒やしの空間だ……",
 			typewriter = {
 				speed = 0.05,

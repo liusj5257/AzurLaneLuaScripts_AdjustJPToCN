@@ -27,11 +27,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
-			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
 			say = "그렇지 않아. 상대가 나빴을 뿐이야.",
+			actorName = "{namecode:96}",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

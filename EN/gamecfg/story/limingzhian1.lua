@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Northern Parliament Base, Location Unknown",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			bgm = "blueocean-image",
+			say = "Northern Parliament Base, Location Unknown",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Oh, hey Avrora! I'm glad to be back!",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Will you be joining the upcoming operation as well?",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "Having that said... Isn't it weird that old-timers like us with our rickety rigging have to participate in such a dangerous operation?",
 			typewriter = {
@@ -156,9 +156,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_bsmlevel",
 			actor = 702020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Err, that's not what I mean... Y'know, even if we've been modernized, our designs are what they are.",
 			flashout = {
@@ -205,8 +205,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Well, yeah. I'm definitely stronger than I was before, even if I'm not some brand-new, completely different ship.",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "For better or for worse, we've incorporated some pretty sketchy technology into our riggings.",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Yeah... Seems like the tech made its way around the other major factions a while ago.",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Well, we've found our own ways by now, right? After we explored the Arctic Stronghold and the Arcana Sanctum~",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "But, whether or not we incorporate that technology depends on the higher-ups, as well as the compatibility of our riggings.",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "After all, during the last Great War, you were the only reason the Azur Lane––",
 			typewriter = {
@@ -403,8 +403,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Fiiiiine, though I don't see why it matters since there's nobody else around... Well, let's move on then!",
 			typewriter = {
@@ -420,8 +420,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Besides, it's not like I know the details either. When'd you find out about the Cubes anyway?",
 			typewriter = {
@@ -453,8 +453,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "You really don't plan on telling me anything, huh? Well, fine, I didn't want to know anyway!",
 			typewriter = {
@@ -483,8 +483,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -554,8 +554,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "So according to the operation packet, we're supposedly carrying out a raid on a Siren facility in Iron Blood-controlled waters.",
 			typewriter = {
@@ -571,8 +571,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Now that the ceasefire agreement has been signed over the situation in the NA Ocean, wouldn't this operation land us in hot water?",
 			typewriter = {
@@ -606,8 +606,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Alright... If that's the case, how do we know so much about this facility?",
 			typewriter = {
@@ -641,8 +641,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Huh... I wonder who that could be...",
 			typewriter = {
@@ -726,8 +726,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Right, I've got another question. If we're attacking a Siren facility, will we have enough firepower with just me and Avrora?",
 			typewriter = {
@@ -761,8 +761,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Did you also learn this from your trustworthy informant?",
 			typewriter = {
@@ -932,8 +932,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Now that the defenses in the Iron Blood-controlled areas are thin and the Sirens are reeling from their defeat in the NA Ocean, this is our best time to strike.",
 			typewriter = {
@@ -1001,8 +1001,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "I don't think I've ever seen Soyuz look unsure of herself before. Guess there's a first for everything.",
 			typewriter = {
@@ -1034,8 +1034,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "What's the matter, Avrora?",
 			typewriter = {
@@ -1064,12 +1064,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "(How long has it been since I last saw her make that expression? ...We'd better prepare for all contingencies.)",
 			typewriter = {
 				speed = 0.05,

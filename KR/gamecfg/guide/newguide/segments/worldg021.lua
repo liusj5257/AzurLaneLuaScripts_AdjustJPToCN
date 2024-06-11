@@ -24,9 +24,9 @@ return {
 			style = {
 				text = "맵 밖의 지역을 터치하여 작전 총람 화면에 진입할 수 있습니다.",
 				mode = 2,
-				posY = -160,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -160,
 				posX = 450
 			},
 			showSign = {
@@ -67,9 +67,9 @@ return {
 			style = {
 				text = "작전 총람에서 맵의 빛나는 해역을 터치하세요.",
 				mode = 2,
-				posY = -300,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -300,
 				posX = 200
 			},
 			showSign = {
@@ -113,9 +113,9 @@ return {
 			style = {
 				text = "터치하여 진입하면 지도 이동 완료. 붉은색 광류는 메인 임무 해역이며, 일반 해역을 확보하고 메인 임무를 향해 나아가세요!",
 				mode = 2,
-				posY = 0,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 0,
 				posX = 300
 			}
 		},
@@ -124,9 +124,9 @@ return {
 			style = {
 				text = "여기를 터치하여 작전 해역으로 돌아가세요.",
 				mode = 2,
-				posY = 245.23,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 245.23,
 				posX = -552.4
 			},
 			ui = {
@@ -135,11 +135,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = -76.32,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 238.9,
-					rotateY = 0
+					posX = -76.32
 				}
 			}
 		},

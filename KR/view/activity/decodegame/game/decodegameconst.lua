@@ -154,17 +154,17 @@ slot0.AWARD = {
 }
 slot0.STORYID = "MAOZIPT"
 slot0.UNLOCK_STORYID = {
-	[20.0] = "LIMINGZHIAN1",
 	[40.0] = "LIMINGZHIAN2",
+	[20.0] = "LIMINGZHIAN1",
 	[60.0] = "LIMINGZHIAN3"
 }
 slot0.LAST_STORYID = "LIMINGZHIAN4"
 
-function slot0.Vect2Index(slot0, slot1)
+slot0.Vect2Index = function(slot0, slot1)
 	return (slot0 - 1) * DecodeGameConst.MAP_COLUMN + slot1
 end
 
-function slot0.Index2Vect(slot0)
+slot0.Index2Vect = function(slot0)
 	slot1 = math.ceil(slot0 / uv0.MAP_COLUMN)
 
 	return slot1, slot0 - (slot1 - 1) * uv0.MAP_COLUMN

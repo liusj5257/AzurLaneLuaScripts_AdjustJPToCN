@@ -1,7 +1,7 @@
 return {
-	time = 9.1,
-	name = "极限充能",
 	init_effect = "",
+	name = "极限充能",
+	time = 9.1,
 	stack = 1,
 	id = 542020,
 	picture = "",
@@ -14,8 +14,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 542021,
-				time = 3,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 3
 			}
 		}
 	}

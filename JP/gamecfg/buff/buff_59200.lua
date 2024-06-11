@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "时间叠加增益",
 	time = 0,
-	color = "red",
+	name = "时间叠加增益",
+	init_effect = "",
+	id = 59200,
 	picture = "",
 	desc = "特殊效果用例,登场后,每15秒提升自己的全属性10%,最高5层",
 	stack = 1,
-	id = 59200,
+	color = "red",
 	icon = 59200,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 59201,
-				time = 15,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 15
 			}
 		}
 	}

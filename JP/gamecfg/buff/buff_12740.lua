@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "赤城1",
 	init_effect = "",
+	id = 12740,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12740,
+	color = "blue",
 	icon = 12740,
 	last_effect = "",
 	effect_list = {
@@ -29,8 +29,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 12741,
-				target = "TargetSelf",
 				maxTargetNumber = 1,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -48,8 +48,8 @@ return {
 			arg_list = {
 				minTargetNumber = 3,
 				buff_id = 12741,
-				target = "TargetSelf",
 				maxTargetNumber = 3,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -67,8 +67,8 @@ return {
 			arg_list = {
 				minTargetNumber = 5,
 				buff_id = 12741,
-				target = "TargetSelf",
 				maxTargetNumber = 5,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -86,8 +86,8 @@ return {
 			arg_list = {
 				minTargetNumber = 7,
 				buff_id = 12741,
-				target = "TargetSelf",
 				maxTargetNumber = 7,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -105,8 +105,8 @@ return {
 			arg_list = {
 				minTargetNumber = 9,
 				buff_id = 12741,
-				target = "TargetSelf",
 				maxTargetNumber = 9,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -124,8 +124,8 @@ return {
 			arg_list = {
 				minTargetNumber = 2,
 				buff_id = 12742,
-				target = "TargetSelf",
 				maxTargetNumber = 2,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -143,8 +143,8 @@ return {
 			arg_list = {
 				minTargetNumber = 4,
 				buff_id = 12742,
-				target = "TargetSelf",
 				maxTargetNumber = 4,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -162,8 +162,8 @@ return {
 			arg_list = {
 				minTargetNumber = 6,
 				buff_id = 12742,
-				target = "TargetSelf",
 				maxTargetNumber = 6,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -181,8 +181,8 @@ return {
 			arg_list = {
 				minTargetNumber = 8,
 				buff_id = 12742,
-				target = "TargetSelf",
 				maxTargetNumber = 8,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

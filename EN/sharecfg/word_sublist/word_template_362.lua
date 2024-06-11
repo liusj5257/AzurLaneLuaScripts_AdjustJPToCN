@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_362 = {}
 slot1 = slot0.word_template_362
 
-function temp()
+temp = function()
 	uv0["嘴"] = {
 		["边"] = {
 			["奉"] = {
@@ -26,7 +26,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["最"] = {
 		["不"] = {
 			["愿"] = {
@@ -349,7 +349,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["罪"] = {
 		["恶"] = {
 			["之"] = {
@@ -370,7 +370,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["醉"] = {
 		["妃"] = {
 			["粉"] = {
@@ -394,7 +394,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["尊"] = {
 		["爵"] = {
 			["粉"] = {
@@ -422,7 +422,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["嘬"] = {
 		this = {
 			this = true
@@ -432,7 +432,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["阝"] = {
 		this = {
 			this = true

@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 600047,
 	time = 6,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 600047,
+	color = "yellow",
 	icon = 600040,
 	last_effect = "",
 	effect_list = {
@@ -56,8 +56,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.4
+				number = -0.4,
+				attr = "injureRatio"
 			}
 		}
 	}

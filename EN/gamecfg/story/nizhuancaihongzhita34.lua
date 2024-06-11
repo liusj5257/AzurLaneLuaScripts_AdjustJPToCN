@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIZHUANCAIHONGZHITA34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIZHUANCAIHONGZHITA34",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "theme-theloversVI",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_midgard_6",
-			say = "KABOOM–––––––!!",
 			dir = 1,
 			bgmDelay = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "theme-theloversVI",
+			say = "KABOOM–––––––!!",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "The combined onslaught of the Iron Blood ships began to take a toll on the Arbiter Vessel.",
 			typewriter = {
 				speed = 0.05,
@@ -86,9 +86,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "Blow after blow rained down until finally, the armor split apart.",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "The Arbiter, as if unable to comprehend the damage she had taken, stared at the place where her armor had been pierced.",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 403100,
 			dir = 1,
+			actor = 403100,
 			nameColor = "#a9f548",
 			say = "Don't get ahead of yourself. As long as we're inside the Singularity, she can continuously repair off any damage we do inflict.",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 403100,
 			dir = 1,
+			actor = 403100,
 			nameColor = "#a9f548",
 			say = "Wait... Look where her muzzle is pointed... She's trying to destroy the Midgard Tower!",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 499030,
 			dir = 1,
+			actor = 499030,
 			nameColor = "#a9f548",
 			say = "As a bridge between worlds, getting hit from one side shouldn't be enough to collapse it...",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 499030,
 			dir = 1,
+			actor = 499030,
 			nameColor = "#a9f548",
 			say = "You're right... Roon, Ulrich, we need to pull back, lest the unthinkable actually does occur.",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_6",
-			actor = 403100,
 			dir = 1,
+			actor = 403100,
 			nameColor = "#a9f548",
 			say = "Sure~ Then I'll be heading out first.",
 			typewriter = {
@@ -279,9 +279,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "Protected by the fire of the mass-produced ships and her allies, Adalbert disappeared in the torrent of light.",
 			typewriter = {
 				speed = 0.05,
@@ -293,9 +293,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "And after her were Ulrich, Magdeburg, Elbe, U-1206, and Mainz...",
 			typewriter = {
 				speed = 0.05,
@@ -307,9 +307,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "The last one left was Roon, who used the impact from one of the Enforcer's attacks to push her through the exit in the nick of time.",
 			typewriter = {
 				speed = 0.05,
@@ -321,9 +321,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "The torrent of energy held together by the Towers at both ends of the Singularity suddenly distorted, instantly atomizing the Enforcer that had approached too closely.",
 			typewriter = {
 				speed = 0.05,
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_6",
+			dir = 1,
 			say = "Both the gateway and the Tower... Bifröst itself – like a fleeting rainbow in the sky – vanished without a trace, as if it had never existed at all.",
 			typewriter = {
 				speed = 0.05,
@@ -351,16 +351,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_midgard_2",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "bg_midgard_2",
 			bgm = "bsm-4",
 			actor = 403090,
 			nameColor = "#a9f548",
 			say = "The emergency cutoff was a success! Th-that was too much for my heart... I thought we were all going to get squished into space dust...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -388,8 +388,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "But we got everyone back safely, right? Wait, Adalbert's unconscious...?",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Roon and Mainz too! Ahhhhh! Did something go wrong during the transfer?!",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Y-yeah! All's well that ends well, right?",
 			typewriter = {
@@ -471,8 +471,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Oh, Roon twitched a bit right now! What a relief...",
 			typewriter = {
@@ -584,8 +584,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_midgard_2",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Help meeee, Viersechs! I'll never be able to write an apology note all by myself! Save meeee!",
 			typewriter = {
@@ -646,12 +646,12 @@ return {
 			}
 		},
 		{
-			actor = 401460,
+			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
 			withoutActorName = true,
-			dir = 1,
 			actorScale = 0.6,
+			actor = 401460,
 			say = "When Adalbert woke up, she saw the familiar sight of the facility in the floating fortress.",
 			effects = {
 				{
@@ -669,8 +669,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -686,8 +686,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.1,
 					number = 3
@@ -703,8 +703,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					number = 3
@@ -720,8 +720,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 10,
+					type = "shake",
 					delay = 0.7,
 					dur = 0.1,
 					number = 3
@@ -729,9 +729,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_2",
+			dir = 1,
 			say = "Relieved, she promptly fell back down, exhausted from the mission.",
 			effects = {
 				{
@@ -749,8 +749,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Heinrich",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -765,8 +765,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Adalbert",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -781,8 +781,8 @@ return {
 			}
 		},
 		{
-			bgm = "bsm-6",
 			mode = 1,
+			bgm = "bsm-6",
 			sequence = {
 				{
 					"\"So this is how the Tower's functionality test concludes.\"",
@@ -823,8 +823,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,

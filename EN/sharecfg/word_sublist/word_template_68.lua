@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_68 = {}
 slot1 = slot0.word_template_68
 
-function temp()
+temp = function()
 	uv0["瘳"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["筹"] = {
 		["码"] = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["雠"] = {
 		this = {
 			this = true
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["籌"] = {
 		["碼"] = {
 			this = true
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["臭"] = {
 		["7"] = {
 			["8"] = {
@@ -125,7 +125,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["初"] = {
 		["夜"] = {
 			["无"] = {
@@ -235,7 +235,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["除"] = {
 		["疤"] = {
 			["痕"] = {

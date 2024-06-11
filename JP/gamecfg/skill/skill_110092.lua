@@ -2,17 +2,17 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 0,
 	id = 110092,
-	picture = "0",
 	castCV = "",
-	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillChangeDiveState",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillChangeDiveState",
+			target_choise = "TargetSelf",
 			arg_list = {
 				state = "STATE_RAID"
 			}

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_211 = {}
 slot1 = slot0.word_template_211
 
-function temp()
+temp = function()
 	uv0["母"] = {
 		["爱"] = {
 			["包"] = {
@@ -77,7 +77,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["牡"] = {
 		["丹"] = {
 			["花"] = {
@@ -94,7 +94,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["木"] = {
 		["村"] = {
 			["佳"] = {
@@ -184,7 +184,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["暮"] = {
 		["春"] = {
 			["堂"] = {
@@ -207,7 +207,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["穆"] = {
 		["罕"] = {
 			["默"] = {
@@ -276,7 +276,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["拿"] = {
 		["车"] = {
 			["那"] = {
@@ -349,7 +349,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["哪"] = {
 		["个"] = {
 			["让"] = {

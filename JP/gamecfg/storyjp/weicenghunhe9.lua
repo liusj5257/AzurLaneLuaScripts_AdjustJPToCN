@@ -1,17 +1,17 @@
 return {
-	id = "WEICENGHUNHE9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE9",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_1",
-			bgm = "hunhe-story",
-			dir = 1,
 			say = "運河要塞・湾内",
+			dir = 1,
+			bgm = "hunhe-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "しっかし、まさかここまでのものとは思わなかったよ。運河要塞って",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "試しにゲートを通ったけど、もう圧倒的過ぎて敵わないわ～今日の艦船通信のネタは決まりね",
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "昔セイレーンが襲来した時に大いに役立ったって聞きました",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "で、その要塞を今私たちが守らなければならないってことね。道理でボルチモアがやる気なわけよ",
 			typewriter = {
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "やる気があるのはいいこと。ヒーローは戦場を選ばない！",
 			typewriter = {
@@ -165,13 +165,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "「要塞周辺海域にセイレーン艦隊の反応を探知！各員至急戦闘態勢を！」",
 			bgm = "airRaidAlarm",
+			nameColor = "#a9f548",
+			say = "「要塞周辺海域にセイレーン艦隊の反応を探知！各員至急戦闘態勢を！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -201,8 +201,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "……………",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "まあ空気を読んだらヴィランじゃないしね…",
 			typewriter = {
@@ -264,10 +264,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_banama_1",
 			side = 0,
+			bgName = "bg_banama_1",
+			hideOther = true,
 			dir = 1,
 			actor = 102260,
 			actorName = "リノ＆カサブランカ",
@@ -305,8 +305,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			nameColor = "#a9f548",
 			say = "……何を見ているんだ？",
 			typewriter = {
@@ -322,8 +322,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "別に？目つきが悪いって言われているけど、カッコいいところもあるんじゃないって思って",
 			typewriter = {
@@ -339,8 +339,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "でもセイレーン艦隊かぁ…ちょうど運動したかったところよ",
 			typewriter = {

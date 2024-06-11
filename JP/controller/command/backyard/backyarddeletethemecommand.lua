@@ -1,6 +1,6 @@
 slot0 = class("BackYardDeleteThemeCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if not getProxy(DormProxy):getThemeById(slot1:getBody()) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_theme_no_exist"))
 

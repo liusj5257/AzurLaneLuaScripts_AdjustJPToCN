@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU28",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			stopbgm = true,
 			bgmDelay = 1,
-			say = "█ █ █·█ █ █ █ █ █",
 			bgm = "theme-vichy-church",
+			stopbgm = true,
+			say = "█ █ █·█ █ █ █ █ █",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,9 +29,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			}
 		},
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "インプラカブルの声には誰も答えず、ただ空に黒い太陽が燃え盛っていた。",
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "黒い太陽を眺めながら、インプラカブルはある決心をした。",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "足を踏み出そうとしたその瞬間、背中から気配が伝わってきた。",
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			nameColor = "#696969",
+			side = 2,
 			bgName = "bg_firedust_5",
 			actorShadow = true,
 			dialogueBgAlpha = 0.6,
-			side = 2,
+			actor = 205010,
 			actorName = "█ █ █ █ █",
 			say = "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂▁▅▎▌█▊▇▊▇",
 			typewriter = {
@@ -183,14 +183,14 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
+			actorName = "█ █ █ █ █",
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
+			actorShadow = true,
 			dir = 1,
-			nameColor = "#696969",
+			dialogueBgAlpha = 0.6,
 			actor = 205010,
-			actorName = "█ █ █ █ █",
+			nameColor = "#696969",
 			say = "▅▁▂▋▄▊■▆▎▅▁▂▋▄▊■▆▎▇▆▅■",
 			painting = {
 				alpha = 0.3,
@@ -221,8 +221,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？？",
+			side = 2,
 			bgName = "bg_firedust_5",
 			nameColor = "#ffa500",
 			dialogueBgAlpha = 0.6,
@@ -233,8 +233,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？？",
+			side = 2,
 			bgName = "bg_firedust_5",
 			nameColor = "#ffa500",
 			dialogueBgAlpha = 0.6,
@@ -250,12 +250,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "—————————！",
 			soundeffect = "event:/battle/boom2",
+			say = "—————————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "爆音のあと、さっきまで語りかけてきていた黒い靄に覆われた「エリザベス」は消えた。",
@@ -312,8 +312,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "代わりに現れたのは……",
@@ -323,13 +323,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "？？？？",
+			dialogueBgAlpha = 0.6,
 			dir = 1,
 			actor = 900352,
-			nameColor = "#ffa500",
+			actorName = "？？？？",
 			hidePaintObj = true,
 			say = "何よ、ジロジロ見て",
 			painting = {
@@ -364,11 +364,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "クイーン·エリザベス(META)",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "クイーン·エリザベス(META)",
 			hidePaintObj = true,
 			say = "そんなに驚くことないでしょ？呼びかけてきたのはあんたじゃない",
 			painting = {
@@ -384,11 +384,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "クイーン·エリザベス(META)",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "クイーン·エリザベス(META)",
 			hidePaintObj = true,
 			say = "「META」になっていないわね…変なの",
 			painting = {
@@ -404,11 +404,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "クイーン·エリザベス(META)",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "クイーン·エリザベス(META)",
 			hidePaintObj = true,
 			say = "私にどうやって連絡してきたの？さっきのやつらにどうやってつけられた？",
 			painting = {
@@ -424,11 +424,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "クイーン·エリザベス(META)",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "クイーン·エリザベス(META)",
 			hidePaintObj = true,
 			say = "ふーん……なるほど、面白いじゃない………",
 			painting = {
@@ -460,13 +460,13 @@ return {
 			}
 		},
 		{
-			actor = 207070,
-			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
+			dir = 1,
+			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここは夢？",
 			painting = {
 				alpha = 0.3,
@@ -478,13 +478,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "クイーン・エリザベス(META)",
+			dialogueBgAlpha = 0.6,
 			dir = 1,
 			actor = 900352,
-			nameColor = "#ffa500",
+			actorName = "クイーン・エリザベス(META)",
 			hidePaintObj = true,
 			say = "どっちもイエスよ！何を考えているの！",
 			painting = {
@@ -500,11 +500,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "クイーン・エリザベス(META)",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "クイーン・エリザベス(META)",
 			hidePaintObj = true,
 			say = "……さっさと起きなさい。ここはあなたが来るべき場所なんかじゃないわ",
 			painting = {
@@ -539,11 +539,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "クイーン・エリザベス(META)",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "クイーン・エリザベス(META)",
 			hidePaintObj = true,
 			say = "二度も言わせないで。私が帰れと言ったら帰るの",
 			painting = {
@@ -559,11 +559,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "クイーン・エリザベス(META)",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "クイーン・エリザベス(META)",
 			hidePaintObj = true,
 			say = "「元いた場所に戻りなさい」",
 			painting = {

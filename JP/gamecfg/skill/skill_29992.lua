@@ -2,20 +2,20 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 170052,
 					emitter = "BattleBulletEmitter"
 				}
 			},
 			{
-				type = "BattleSkillFire",
-				casterAniEffect = "",
-				target_choise = "TargetNil",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillFire",
+				target_choise = "TargetNil",
 				arg_list = {
 					weapon_id = 170053,
 					emitter = "BattleBulletEmitter"
@@ -26,10 +26,10 @@ return {
 	uiEffect = "",
 	name = "专属弹幕-伏罗希洛夫II",
 	cd = 0,
-	painting = 1,
-	id = 29992,
 	picture = "0",
 	desc = "专属弹幕-伏罗希洛夫II",
+	painting = 1,
+	id = 29992,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -40,10 +40,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				weapon_id = 170052,
 				emitter = "BattleBulletEmitter"

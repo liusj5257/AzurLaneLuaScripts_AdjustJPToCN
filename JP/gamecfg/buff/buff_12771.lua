@@ -29,9 +29,9 @@ return {
 	{
 		time = 15
 	},
-	init_effect = "",
-	name = "希佩尔2",
 	time = 1,
+	name = "希佩尔2",
+	init_effect = "",
 	picture = "",
 	desc = "希佩尔2",
 	stack = 1,
@@ -47,9 +47,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 10,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -83,9 +83,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 10,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

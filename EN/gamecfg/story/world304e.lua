@@ -1,19 +1,19 @@
 return {
-	id = "WORLD304E",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD304E",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900286,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "It seems a lone Enforcer will not suffice. Then let us add another...",
 			bgm = "xinnong-2",
+			actor = 900286,
+			nameColor = "#ff5c5c",
+			say = "It seems a lone Enforcer will not suffice. Then let us add another...",
 			flashin = {
 				delay = 0.1,
 				dur = 0.1,
@@ -33,12 +33,12 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900287,
+			actorName = "？？？",
 			say = "Temperance, we've found a clue as to Code G's whereabouts. It's time to stop playing around.",
 			typewriter = {
 				speed = 0.05,
@@ -52,10 +52,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 900286,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900286,
+			nameColor = "#ff5c5c",
 			say = "At last. Enforcer, disappear.",
 			typewriter = {
 				speed = 0.05,
@@ -67,16 +67,16 @@ return {
 			}
 		},
 		{
-			actor = 105140,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "The Sirens... vanished.",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
+			actor = 105140,
+			nameColor = "#a9f548",
+			say = "The Sirens... vanished.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -129,8 +129,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "If they've got all that, then it's no wonder we didn't detect them until they were right in our faces.",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "I remember Tester having access to optic camouflage as well, but that's not on the same scale as concealing an entire fleet of mass-produced units...",
 			typewriter = {
 				speed = 0.05,
@@ -160,11 +160,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/26/tb-26",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Jamming countermeasure has been devised. System will reboot momentarily. Do you wish to send a data log of your previous battle to the Commander?",
-			voice = "event:/tb/26/tb-26",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,8 +208,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "Hey... Am I imagining things, or did almost every Siren wreck just... disappear?",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "Once we establish an Outpost and gain a foothold in this zone, we'll be able to repair our electronics. We just have to keep going until then.",
 			typewriter = {
 				speed = 0.05,

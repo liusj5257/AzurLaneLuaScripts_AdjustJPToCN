@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「虚拟链接的共时性」日常編\n\n<size=45>四 世道冷暖，尽在小食酒吧-爱！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港区·小食酒吧-爱(食堂)",
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港区·小食酒吧-爱(食堂)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "（锵啦锵啦）",
 			typewriter = {
 				speed = 0.05,
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "爱妈妈",
 			say = "哦？有什么烦恼吗？说来听听～？",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "奇奇奇奇怪了？班、班班班班森怎么可能会有烦恼呢？",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,9 +194,9 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#a9f548",
 			dir = 1,
+			say = "（啊，这是装出来的性格吧。原来如此，这里就再再进一步——）",
 			actor = 900179,
 			actorName = "爱妈妈",
-			say = "（啊，这是装出来的性格吧。原来如此，这里就再再进一步——）",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 0,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "爱妈妈",
 			say = "每个人都会有自己想成为的模样，或者说想要让人看到的模样呢。不过，如果就这样原原本本的表现出来，基本上是不会那么容易让人理解的呢",
 			typewriter = {
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 0,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "爱妈妈",
 			say = "指挥官肯定不会觉得讨厌的，不如就照着这样继续下去，变成比现在更“超绝可爱”的美少女不是更好吗？",
 			typewriter = {
@@ -495,11 +495,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "啊哈☆我明白了！爱妈妈！拉菲！谢谢妳们☆",
 			typewriter = {
 				speed = 0.05,
@@ -511,8 +511,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -521,11 +521,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "爱妈妈",
 			say = "没关系，不用客气。看来已经想开了呢，班森酱，加油吧～",
 			typewriter = {
@@ -554,11 +554,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#a9f548",
 			say = "既然想清楚了，就马上开始修炼吧～♡两位拜拜啦～！",
 			typewriter = {
 				speed = 0.05,
@@ -570,8 +570,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 2250
@@ -579,11 +579,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "爱妈妈",
 			say = "再见～啊，那边有台阶，要小心哦～",
 			typewriter = {
@@ -596,9 +596,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "（咚！）",
 			dialogShake = {
 				speed = 0.09,
@@ -683,14 +683,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_104",
 			actor = 10400010,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "之后，变得加倍烦人的班森酱被指挥官抓着训了很久——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -718,9 +718,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 10400010,
 			dir = 1,
 			blackBg = true,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "嘛，也是会有这种情况的吧！",
 			typewriter = {

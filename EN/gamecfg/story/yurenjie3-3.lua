@@ -4,10 +4,10 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "login-2022401us",
+			side = 2,
 			say = "The Ultra Rainbow Hammer's mighty attacks wore away at the Lord of Evil's will to battle.",
+			bgm = "login-2022401us",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -17,8 +17,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "Lord of Evil",
 			say = "Screw it! This is unfair! I'm outta here!",
 			painting = {
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -71,10 +71,10 @@ return {
 			}
 		},
 		{
-			actor = 100020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 100020,
+			nameColor = "#A9F548FF",
 			say = "Hope you like the taste of rainbow punch, bulin!",
 			painting = {
 				alpha = 0.3,
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -112,8 +112,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -127,9 +127,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_megaburin",
+			nameColor = "#A9F548FF",
 			actorName = "All Three Bulins",
 			say = "- This is the blow that pierces the earth, bulin! - This is the blow that pierces the heavens, bulin! - This is the blow that strikes down the stars, bulin!",
 			typewriter = {
@@ -149,9 +149,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
+			side = 2,
 			say = "The hammer glowed with all the colors of the rainbow, and the Bulin sisters' strength converged into a single beam of light that outshone even the stars.",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
-			say = "KABOOOOOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOOOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,8 +230,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "......",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = ".........",
 			typewriter = {
@@ -250,14 +250,14 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			nameColor = "#A9F548FF",
-			bgName = "bg_unnamearea_1",
 			side = 2,
 			dir = 1,
+			bgName = "bg_unnamearea_1",
+			bgm = "story-richang-1",
+			actor = 100010,
 			stopbgm = true,
 			say = "Victory is ours, bulin! We vanquished the big baddie, bulin!",
-			bgm = "story-richang-1",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,8 +274,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -283,8 +283,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -296,8 +296,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#A9F548FF",
 			say = "But at what cost, bulin? The hammer's light is gone, bulin...",
 			painting = {
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -322,9 +322,9 @@ return {
 		{
 			actor = 100000,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			say = "Oh no... Did it break, bulin?",
 			painting = {
 				alpha = 0.3,
@@ -339,8 +339,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#A9F548FF",
 			say = "Oh well, it's still a nice trophy, bulin! Besides, our combined strength felt stronger than even the hammer, bulin!",
 			painting = {
@@ -353,8 +353,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -365,9 +365,9 @@ return {
 		{
 			actor = 100020,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			say = "Now we have to celebrate our triumph, bulin. Let's go for barbecue, bulin!",
 			painting = {
 				alpha = 0.3,
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			nameColor = "#A9F548FF",
-			bgName = "bg_unnamearea_1",
 			side = 0,
 			dir = 1,
+			actor = 100000,
+			bgName = "bg_unnamearea_1",
 			hideOther = true,
 			actorName = "<size=28>Universal Bulin & Prototype Bulin MKII</size>",
 			say = "Hooray, bulin!",
@@ -405,8 +405,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -421,9 +421,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
+			side = 2,
 			say = "And so, the Bulin sisters left to treat themselves to first-rate barbecue.",
 			typewriter = {
 				speed = 0.05,
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "As for the legend that inspired their adventure... It remains only a tale to this day.",
 			typewriter = {

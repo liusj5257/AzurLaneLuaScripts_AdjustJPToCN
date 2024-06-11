@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOYIXI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOYIXI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Me and the Boise\n\n<size=45>1.Mermaid?</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			say = "One evening, I found myself strolling along the beach to alleviate the stress from a long day's work.",
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			hidePaintObj = true,
+			say = "One evening, I found myself strolling along the beach to alleviate the stress from a long day's work.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -81,16 +81,16 @@ return {
 			}
 		},
 		{
-			actor = 102290,
+			withoutActorName = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 102290,
+			hidePaintObj = true,
 			say = "A beautiful girl emerged from the water, droplets cascading under the moonlight as her emerald hair fluttered in the sea breeze.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -133,10 +133,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Huff... Puff...... I think I spent too long underwater... I need to be more careful next time...",
 			typewriter = {
 				speed = 0.05,
@@ -151,10 +151,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "C-Commander...? What are you doing here...?",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -206,12 +206,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "H-had I known you were here, I would've been more careful when I surfaced...",
 			typewriter = {
 				speed = 0.05,
@@ -241,10 +241,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Um, Commander... I'm getting nervous from how much you're staring at me...",
 			typewriter = {
 				speed = 0.05,
@@ -274,10 +274,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Um, if you don't need anything...",
 			typewriter = {
 				speed = 0.05,
@@ -292,10 +292,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I'll be off then...!",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2500
@@ -331,14 +331,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			hidePaintObj = true,
 			say = "Even after returning to my office, I couldn't stop thinking about our new companion. I started to sift through the stacks of documents sitting on my desk.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

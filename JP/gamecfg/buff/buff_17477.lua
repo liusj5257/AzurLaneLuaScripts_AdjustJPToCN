@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 17477,
 	time = 8,
-	color = "",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17477,
+	color = "",
 	icon = 17470,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.05
+				number = 0.05,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -38,8 +38,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.05
+				number = 0.05,
+				attr = "injureRatio"
 			}
 		}
 	}

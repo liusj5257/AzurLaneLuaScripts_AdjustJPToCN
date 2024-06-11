@@ -3,8 +3,8 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "마침 당신의 손에는 숲에서 채집한 사과가 있었고, 사과 한 개를 여우에게 먹인다.",
 			typewriter = {
 				speed = 0.05,
@@ -12,8 +12,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "여우는 허겁지겁 사과를 먹은 뒤 여전히 배가 고픈 듯 당신을 바라봤다.",
 			typewriter = {
 				speed = 0.05,

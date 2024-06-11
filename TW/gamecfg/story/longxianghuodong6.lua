@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LONGXIANGHUODONG6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LONGXIANGHUODONG6",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level",
 			dir = 1,
 			say = "那是……",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,14 +23,14 @@ return {
 			}
 		},
 		{
-			actor = 305060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 305060,
+			nameColor = "#a9f548",
 			say = "為什麼都是戰艦，我的速度會比{namecode:71}和{namecode:73}慢那麼多呢？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,14 +85,14 @@ return {
 			}
 		},
 		{
-			actor = 103060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103060,
+			nameColor = "#a9f548",
 			say = "……雖然不如印第，不過好像也是個出色的妹妹呢！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

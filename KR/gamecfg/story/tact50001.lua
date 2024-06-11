@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "적의 병력은 많은 편이 아니었지만, 홀로 적진에 뛰어든 셈이 된 시카고와 바글리는 이 과정에서 적지 않은 부상을 입었다……",
 			typewriter = {

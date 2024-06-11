@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIERBOSS4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIERBOSS4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"戦え！ロイヤルメイド隊\n\n<size=45>四　正面防衛線</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "演習海域・正面防衛線",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "演習海域・正面防衛線",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
+			say = "ベル、私達は負けそうなんだよ？なんで逆に嬉しそうなの？",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "ベル、私達は負けそうなんだよ？なんで逆に嬉しそうなの？",
+			actor = 202110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "私、もうへとへとだよ……",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "そ、そう？しょうがない！ここは姉さんらしく一肌脱いてやろうじゃない！",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -336,12 +336,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			actorShadow = true,
+			side = 2,
 			bgName = "bg_story_nepu1",
 			nameColor = "#a9f548",
 			dir = 1,
-			side = 2,
+			actor = 202190,
 			actorName = "？？？",
 			say = "そうですね。先輩である私もメイド隊に恥をかかせるわけにはいきません",
 			typewriter = {
@@ -354,12 +354,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			say = "ニューカッスルさん、よくぞ来てくださいました。ほかの子は？",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ニューカッスルさん、よくぞ来てくださいました。ほかの子は？",
+			actor = 202120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -438,12 +438,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "ロイヤルメイド隊・メイド長ベルファスト――ここは最後の抵抗とさせていただきます",
 			typewriter = {
 				speed = 0.05,

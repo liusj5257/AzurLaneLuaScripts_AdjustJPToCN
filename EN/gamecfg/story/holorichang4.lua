@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Looking Glass of Fact and Fiction - Funsies\n\n<size=45>Chapter 4: A Peaceful World</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_outdoor",
 			bgm = "holo-fbk",
 			actor = 900214,
 			nameColor = "#a9f548",
 			say = "Owww...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -98,8 +98,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "But there were only a few enemies, so I thought I'd be fine...",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "Sorry...",
 			typewriter = {
@@ -180,10 +180,10 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Ahaha... We'll need some time to get used to a new environment after all. Mmhmm!",
+			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -249,8 +249,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "So, when we came to this world and were told that we have to fight, we didn't really know what to think...",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Sorry... Even though we know that the enemy is right in front of us, we can't really get ourselves to attack without hesitation like you can...",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Huh?",
 			typewriter = {
@@ -476,8 +476,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Ehehe~ Even though you're always cool and collected, you really care about the commander, don't you, Kawakaze? Whew~!",
 			typewriter = {
@@ -525,8 +525,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "Hey, you have an injured person here still! Shouldn't you be taking care of me more...?!",
 			typewriter = {
@@ -539,8 +539,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -549,11 +549,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "... If you can yell that loudly, you probably aren't that injured. Anyway, try to rest up for the time being, since we will have more missions later.",
 			typewriter = {
 				speed = 0.05,
@@ -565,8 +565,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -2500
@@ -609,8 +609,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "Is that so...",
 			typewriter = {
@@ -626,8 +626,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "Ah, but I already knew that because I gave Kawakaze a pledge ring a long time ago in the game. She's super nice and friendly, you know!",
 			typewriter = {
@@ -643,9 +643,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 900214,
 			dir = 1,
 			blackBg = true,
+			actor = 900214,
 			nameColor = "#a9f548",
 			say = "All that buildup was just for that...?!",
 			typewriter = {
@@ -658,8 +658,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,6 +1,6 @@
 slot0 = class("MainCrusingActSequence")
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	slot4 = {}
 
 	if getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot3:isEnd() then
@@ -19,7 +19,7 @@ function slot0.Execute(slot0, slot1)
 	seriesAsync(slot4, slot1)
 end
 
-function slot0.ShowWindow(slot0, slot1)
+slot0.ShowWindow = function(slot0, slot1)
 	pg.m02:sendNotification(GAME.LOAD_LAYERS, {
 		parentContext = getProxy(ContextProxy):getCurrentContext(),
 		context = Context.New({
@@ -32,7 +32,7 @@ function slot0.ShowWindow(slot0, slot1)
 	})
 end
 
-function slot0.CheckCrusingAct(slot0, slot1, slot2)
+slot0.CheckCrusingAct = function(slot0, slot1, slot2)
 	slot3 = PlayerPrefs.GetInt(string.format("crusing_%d_last_time", slot1.id), 3)
 	slot4 = slot1.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
 
@@ -44,7 +44,7 @@ function slot0.CheckCrusingAct(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ShowMsg(slot0, slot1, slot2, slot3)
+slot0.ShowMsg = function(slot0, slot1, slot2, slot3)
 	if slot2 < 86400 then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,

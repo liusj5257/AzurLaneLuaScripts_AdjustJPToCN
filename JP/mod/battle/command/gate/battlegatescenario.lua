@@ -2,7 +2,7 @@ slot0 = class("BattleGateScenario")
 ys.Battle.BattleGateScenario = slot0
 slot0.__name = "BattleGateScenario"
 
-function slot0.Entrance(slot0, slot1)
+slot0.Entrance = function(slot0, slot1)
 	if BeginStageCommand.DockOverload() then
 		getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.DOCK_OVERLOADED)
 
@@ -88,7 +88,7 @@ function slot0.Entrance(slot0, slot1)
 	end)
 end
 
-function slot0.Exit(slot0, slot1)
+slot0.Exit = function(slot0, slot1)
 	if slot1.CheaterVertify() then
 		return
 	end

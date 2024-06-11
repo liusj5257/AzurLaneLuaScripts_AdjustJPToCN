@@ -4,7 +4,7 @@ slot0.checkList = {
 	[14224.0] = 20120
 }
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.layer = slot0:findTF("layer")
 	slot0.btn = slot0:findTF("btn", slot0.layer)
@@ -15,7 +15,7 @@ function slot0.OnInit(slot0)
 	slot0.award = slot0:findTF("award", slot0.layer)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = slot0.activity
 
 	onButton(slot0, slot0.bonusList, function ()
@@ -27,11 +27,11 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0:flush_task_list_pt_xiaobeifa()
 end
 
-function slot0.flush_task_list_pt_xiaobeifa(slot0)
+slot0.flush_task_list_pt_xiaobeifa = function(slot0)
 	slot0:flush_task_list_pt()
 
 	slot1 = slot0.activity
@@ -42,7 +42,7 @@ function slot0.flush_task_list_pt_xiaobeifa(slot0)
 	end
 end
 
-function slot0.getDoingTask(slot0, slot1, slot2)
+slot0.getDoingTask = function(slot0, slot1, slot2)
 	slot3 = getProxy(TaskProxy)
 	slot4 = _.flatten(slot1:getConfig("config_data"))
 	slot5, slot6 = nil
@@ -72,7 +72,7 @@ function slot0.getDoingTask(slot0, slot1, slot2)
 	return table.indexof(slot4, slot5), slot5, slot6
 end
 
-function slot0.flush_task_list_pt(slot0)
+slot0.flush_task_list_pt = function(slot0)
 	slot1 = slot0.activity
 	slot3, slot4, slot5 = slot0:getDoingTask(slot1)
 	slot7 = getProxy(ActivityProxy):getActivityById(slot1:getConfig("config_client").rank_act_id).data1
@@ -114,11 +114,11 @@ function slot0.flush_task_list_pt(slot0)
 	end
 end
 
-function slot0.TaskSubmitCheck(slot0, slot1)
+slot0.TaskSubmitCheck = function(slot0, slot1)
 	return true
 end
 
-function slot0.setImportantProgress(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.setImportantProgress = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = slot2:Find("award_display")
 	slot8 = getProxy(TaskProxy)
 
@@ -167,7 +167,7 @@ function slot0.setImportantProgress(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHALA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHALA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"彼岸的玫瑰\n\n<size=45>七 夜空璀璨</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 603020,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "好了，就這裡吧。這裡位置剛剛好呢。",
 			bgm = "story-2",
+			actor = 603020,
+			nameColor = "#a9f548",
+			say = "好了，就這裡吧。這裡位置剛剛好呢。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "原本以為還有什麼體力活的我，被扎拉拉到一張長椅上，一起看著天空",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "也作為今天讓你當了一天苦力的答謝和致​歉吧，呵呵，指揮官不會放在心上的吧？",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "盯——",
 			typewriter = {
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "扎拉一直盯著我的臉。",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "“想讓她看到我英俊的一面，而不是被捉弄時的狼狽的樣子”……是這樣想的吧？結果每次都沒能成功呢。",
 			typewriter = {
@@ -179,9 +179,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "到頭來，自己還是一直被扎拉牽著鼻子走。每當想要反擊的時候，總是被制服得服服貼貼的。",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "雖然這麼說好像有點過分，不過比起瀟灑自如的艦隊統領者，我還是更喜歡那個中了圈套之後不知所措的你呢。",
 			typewriter = {
@@ -306,16 +306,16 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "所以——",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -332,9 +332,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "手臂突然被抱住了。",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "也許確實是累了吧，扎拉就這樣靠在了自己懷裡",
 			typewriter = {
 				speed = 0.05,
@@ -408,12 +408,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "不過…再稍微這樣保持一會…一會就好…好嗎？",
 			typewriter = {
 				speed = 0.05,

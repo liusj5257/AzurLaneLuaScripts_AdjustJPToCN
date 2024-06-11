@@ -1,10 +1,10 @@
 slot0 = class("FeastInvitationPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "FeastInvitationUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.backBtn = slot0:findTF("return")
 	slot0.scrollrect = slot0:findTF("left/scrollrect")
 	slot0.uilist = UIItemList.New(slot0:findTF("left/scrollrect/conent"), slot0:findTF("left/scrollrect/conent/tpl"))
@@ -31,7 +31,7 @@ function slot0.OnLoaded(slot0)
 	slot0.homeBtn = slot0:findTF("home")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:bind(FeastScene.ON_SKIP_GIVE_GIFT, function (slot0, slot1)
 		uv0.giveTicketPage:ExecuteAction("Show", slot1)
 	end)
@@ -54,7 +54,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnFlush(slot0)
+slot0.OnFlush = function(slot0)
 	if slot0.feastShip then
 		slot0:UpdateMain(slot0.feastShip)
 	end
@@ -62,7 +62,7 @@ function slot0.OnFlush(slot0)
 	slot0:UpdateFeastShips(getProxy(FeastProxy):getRawData():GetInvitedFeastShipList())
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 	slot0:UpdateFeastShips(getProxy(FeastProxy):getRawData():GetInvitedFeastShipList())
@@ -71,7 +71,7 @@ function slot0.Show(slot0)
 	scrollTo(slot0.scrollrect, 0, 1)
 end
 
-function slot0.UpdateRes(slot0)
+slot0.UpdateRes = function(slot0)
 	slot1 = getProxy(FeastProxy)
 	slot1, slot2 = slot1:GetConsumeList()
 	slot3 = getProxy(ActivityProxy)
@@ -89,7 +89,7 @@ function slot0.UpdateRes(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateFeastShips(slot0, slot1)
+slot0.UpdateFeastShips = function(slot0, slot1)
 	slot0.toggles = {}
 
 	slot0.uilist:make(function (slot0, slot1, slot2)
@@ -119,7 +119,7 @@ slot1 = {
 	i18n("feast_label_give_invitation")
 }
 
-function slot0.UpdateMain(slot0, slot1)
+slot0.UpdateMain = function(slot0, slot1)
 	setActive(slot0.ticketMarkTr, slot1:GotTicket())
 	setActive(slot0.giftMarkTr, slot1:GotGift())
 
@@ -170,7 +170,7 @@ function slot0.UpdateMain(slot0, slot1)
 	slot0.feastShip = slot1
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, slot0._parentTf)
 
 	if slot0.puzzlePage and slot0.puzzlePage:GetLoaded() and slot0.puzzlePage:isShowing() then
@@ -194,7 +194,7 @@ function slot0.Hide(slot0)
 	slot0.feastShip = nil
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.puzzlePage and slot0.puzzlePage:GetLoaded() and slot0.puzzlePage:isShowing() then
 		slot0.puzzlePage:Hide()
 
@@ -232,7 +232,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.puzzlePage then
 		slot0.puzzlePage:Destroy()
 

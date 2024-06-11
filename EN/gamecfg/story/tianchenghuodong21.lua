@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANCHENGHUODONG21",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304050,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
+			actor = 304050,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Kaga, this jade brooch is for you. Wear it, and it shall keep you safe.",
 			flashin = {
 				delay = 1,
@@ -42,10 +42,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "Actually, I also have another one for Akagi. The one I'm giving you is pair- I mean, a spare.",
 			typewriter = {
 				speed = 0.05,
@@ -59,11 +59,11 @@ return {
 		{
 			expression = 1,
 			side = 0,
-			actor = 305070,
-			nameColor = "#a9f548",
+			say = "(Amagi, why are you giving me something like this all of a sudden... ? Don't tell me...)",
 			dir = -1,
 			blackBg = true,
-			say = "(Amagi, why are you giving me something like this all of a sudden... ? Don't tell me...)",
+			actor = 305070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -80,10 +80,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "What's with that conflicted expression? I just picked it up while passing by a flea market. Don't think too hard about it~",
 			typewriter = {
 				speed = 0.05,
@@ -113,10 +113,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "Yes, I'd appreciate it if you wore it at all times~",
 			typewriter = {
 				speed = 0.05,
@@ -146,13 +146,13 @@ return {
 		{
 			actor = 307020,
 			side = 2,
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			nameColor = "#ff0000",
 			say = "(The era of aircraft carriers, huh... It's just as you said, Amagi.)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "Hehehe, it looks like a little mouse has snuck into our \"Sanctuary\"... Tester, have you located them yet?",
 			typewriter = {
 				speed = 0.05,
@@ -313,12 +313,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
-			bgName = "bg_story_tiancheng7",
 			side = 2,
+			bgName = "bg_story_tiancheng7",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
 			actorName = "？？？",
 			say = "Wide-range monitoring... this is something I have quite a bit of experience with, ahaha!",
 			typewriter = {
@@ -331,12 +331,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "Fifth Carrier Division, you foolish children... You do not know anything yet...",
 			typewriter = {
 				speed = 0.05,
@@ -348,12 +348,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_tiancheng7",
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "Let me test your abilities with this weapon that transcends the Gods!",
 			typewriter = {
 				speed = 0.05,

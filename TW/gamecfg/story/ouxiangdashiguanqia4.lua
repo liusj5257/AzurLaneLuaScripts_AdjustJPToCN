@@ -1,15 +1,15 @@
 return {
-	id = "OUXIANGDASHIGUANQIA4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "OUXIANGDASHIGUANQIA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idom-Speed",
 			say = "―――！！",
+			side = 2,
+			dir = 1,
+			bgm = "idom-Speed",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -28,8 +28,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			expression = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			nameColor = "#a9f548",
 			say = "幹得不錯…嘛！",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 30,
@@ -55,8 +55,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			expression = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			nameColor = "#a9f548",
 			say = "沒想到對方居然這麼厲害…",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			expression = 4,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			nameColor = "#a9f548",
 			say = "演唱・舞蹈・視覺——確認對方的演出處於全方位的優勢",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			actor = 403070,
 			side = 2,
 			paintingNoise = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "接下來怎麼辦，{namecode:91}？這麼僵持下去也不是辦法。",
 			typewriter = {
 				speed = 0.05,
@@ -105,8 +105,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307100,
 			dir = 1,
+			actor = 307100,
 			say = "……撤退吧。雖然很不甘心，這場演出的確是我們輸了。",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……………",
 			typewriter = {
 				speed = 0.05,
@@ -133,11 +133,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "……輸了呢。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,11 +150,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "討厭，明明只差一點點了~",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,8 +183,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401236,
 			dir = 1,
+			actor = 401236,
 			say = "沒、沒關係的啦！大家都沒受傷，之後再來挑戰就好！",
 			typewriter = {
 				speed = 0.05,
@@ -243,11 +243,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "那個冒牌貨怎麼回事嘛！……不可原諒！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,8 +258,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -270,11 +270,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "真是抱歉，為了我們…",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,11 +287,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "（大家的演出水準其實並不差，但是怎麼說呢…）",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,11 +304,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "沒有傳達出“為了誰而歌唱”的心…",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,11 +321,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "千早，妳有什麼在意的地方嗎？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,11 +338,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "嗯…有點……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,11 +355,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "雖說輸給那樣的對手情有可原…但是，單純只把歌唱出口，是沒法打動人心的。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,9 +373,9 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			side = 2,
-			hidePaintEquip = true,
 			dir = 1,
 			say = "剛才的“失敗”應該就是這個原因吧。",
+			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,11 +388,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "原來如此……現在重要的是先搞清了“為誰而唱，想要傳達什麼”，再進行表演是吧。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,9 +406,9 @@ return {
 			actor = 10700050,
 			nameColor = "#a9f548",
 			side = 2,
-			hidePaintEquip = true,
 			dir = 1,
 			say = "身為偶像的我們，時刻都意識著何謂能夠打動人心的表演。如果艦船的的大家也能做出打動人心的表演，應該就能改變現在這個狀況？",
+			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "全員",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "……………！",
@@ -434,11 +434,11 @@ return {
 			}
 		},
 		{
-			actor = 205012,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actor = 205012,
+			actorName = "？？？",
 			say = "事情的經過，本王了解了！",
 			typewriter = {
 				speed = 0.05,
@@ -450,8 +450,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -463,8 +463,8 @@ return {
 			actor = 202250,
 			side = 2,
 			paintingNoise = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "陛下…！",
 			typewriter = {
 				speed = 0.05,
@@ -479,8 +479,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205012,
 			dir = 1,
+			actor = 205012,
 			say = "我是皇家的女王陛下，伊莉莎白女王！妳們這樣下去可不行啊！",
 			typewriter = {
 				speed = 0.05,
@@ -507,8 +507,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -532,8 +532,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -545,8 +545,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205012,
 			dir = 1,
+			actor = 205012,
 			say = "765事務所的偶像們，能否助我們一臂之力呢？",
 			typewriter = {
 				speed = 0.05,
@@ -560,11 +560,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "欸？是在問我們嗎……？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,11 +577,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哎呀~怎麼辦呢……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,8 +610,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205022,
 			dir = 1,
+			actor = 205022,
 			say = "對啊！陛下，不管怎麼說這也…",
 			typewriter = {
 				speed = 0.05,
@@ -638,8 +638,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -666,9 +666,9 @@ return {
 			actor = 10700020,
 			nameColor = "#a9f548",
 			side = 2,
-			hidePaintEquip = true,
 			dir = 1,
 			say = "明白了……我們會幫忙的。如果我們能幫上忙的話。",
+			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,12 +679,12 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "好像很有趣的樣子，亞美也會幫妳們的！",
 			dir = 1,
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "好像很有趣的樣子，亞美也會幫妳們的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,8 +695,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -707,11 +707,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "異世界偶像…聽上去就好帥啊！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -740,9 +740,9 @@ return {
 			actor = 10700040,
 			nameColor = "#a9f548",
 			side = 2,
-			hidePaintEquip = true,
 			dir = 1,
 			say = "我也會加油幫忙的。",
+			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,9 +756,9 @@ return {
 			actor = 10700030,
 			nameColor = "#a9f548",
 			side = 2,
-			hidePaintEquip = true,
 			dir = 1,
 			say = "就交給超級偶像伊織醬我吧！嘻嘻嘻♪",
+			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,11 +771,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "“碧藍航線”的各位，請多多關照！一起加油吧！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,8 +786,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -796,15 +796,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "哼哼哼…………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -848,8 +848,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401236,
 			dir = 1,
+			actor = 401236,
 			say = "想什麼呢…她們只是“顧問”而已。",
 			typewriter = {
 				speed = 0.05,
@@ -864,8 +864,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401236,
 			dir = 1,
+			actor = 401236,
 			say = "她們只是來幫我們進行訓練和彩排而已，可別給她們安排什麼奇怪的任務哦？",
 			typewriter = {
 				speed = 0.05,
@@ -880,9 +880,9 @@ return {
 			actor = 10700050,
 			nameColor = "#a9f548",
 			side = 2,
-			hidePaintEquip = true,
 			dir = 1,
 			say = "二位是{namecode:98}…還有Z23…對吧？現在方便嗎？",
+			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -910,11 +910,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 10700050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "其實我有點在意，那個冒牌“伊織”身上的機械一樣的東西……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

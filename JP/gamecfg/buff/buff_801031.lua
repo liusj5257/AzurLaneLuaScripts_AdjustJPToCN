@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -20,8 +20,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1000
+					number = 1000,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -47,8 +47,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1110
+					number = 1110,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -61,8 +61,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -74,8 +74,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1220
+					number = 1220,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -88,8 +88,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -101,8 +101,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1330
+					number = 1330,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -115,8 +115,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -128,8 +128,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1440
+					number = 1440,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -142,8 +142,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -155,8 +155,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1550
+					number = 1550,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -169,8 +169,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -182,8 +182,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1660
+					number = 1660,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -196,8 +196,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -209,8 +209,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1770
+					number = 1770,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -223,8 +223,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -236,8 +236,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1880
+					number = 1880,
+					attr = "dodgeRate"
 				}
 			}
 		}
@@ -250,8 +250,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 75,
 					weaponRange = 75,
+					bulletRange = 75,
 					index = {
 						1
 					}
@@ -263,20 +263,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 2000
+					number = 2000,
+					attr = "dodgeRate"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 14181,
 	picture = "",
 	desc = "主炮射程提升，对轻甲伤害提高",
 	stack = 1,
-	id = 14181,
+	color = "red",
 	icon = 14180,
 	last_effect = "",
 	effect_list = {
@@ -286,8 +286,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				bulletRange = 75,
 				weaponRange = 75,
+				bulletRange = 75,
 				index = {
 					1
 				}
@@ -299,8 +299,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 1000
+				number = 1000,
+				attr = "dodgeRate"
 			}
 		}
 	}

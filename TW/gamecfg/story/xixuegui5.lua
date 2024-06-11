@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIXUEGUI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIXUEGUI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"白衣天使or惡魔？\n\n<size=45>五　專業護士吸血鬼</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301320,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "指揮官……",
 			bgm = "story-1",
+			actor = 301320,
+			nameColor = "#a9f548",
+			say = "指揮官……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "{namecode:33}她沒事吧？",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:33}她沒事吧？",
+			actor = 301330,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "嗯…和女灶神說的一樣，是普通的發燒呢。不過也不能掉以輕心。能去拿一盆水和兩條濕毛巾過來嗎，小{namecode:34}？",
 			typewriter = {
@@ -105,15 +105,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "基本沒有問題了喵，睡醒應該就能恢復精神了，看起來沒有{namecode:98}出場的機會了喵？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -141,10 +141,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "呼……太好了",
+			dir = 1,
+			actor = 201232,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "……還是算了，人家其實一點也不懂護理，只是書上看來了一些，之前還給大家添了麻煩……",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "什麼？！妳妳妳，妳從哪裡知道的？！",
 			typewriter = {
@@ -225,10 +225,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -252,8 +252,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "……是嗎",
 			typewriter = {
@@ -266,12 +266,12 @@ return {
 			}
 		},
 		{
-			actor = 201232,
+			say = "指揮官，人家可以繼續穿著這件衣服嗎？人家保證，不僅僅會用來誘惑你，還會好好貫徹身為護士的職責的~",
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官，人家可以繼續穿著這件衣服嗎？人家保證，不僅僅會用來誘惑你，還會好好貫徹身為護士的職責的~",
+			actor = 201232,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2

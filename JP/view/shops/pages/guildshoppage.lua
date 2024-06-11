@@ -1,14 +1,14 @@
 slot0 = class("GuildShopPage", import(".MilitaryShopPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildShop"
 end
 
-function slot0.CanOpen(slot0)
+slot0.CanOpen = function(slot0)
 	return true
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.refreshBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_shop_refresh_all_tip", uv0.shop:GetResetConsume(), i18n("word_guildgold")),
@@ -27,7 +27,7 @@ function slot0.OnInit(slot0)
 	slot0.purchaseWindow = GuildShopPurchasePanel.New(slot0._tf, slot0.event)
 end
 
-function slot0.UpdateShop(slot0, ...)
+slot0.UpdateShop = function(slot0, ...)
 	uv0.super.UpdateShop(slot0, ...)
 
 	if slot0.purchaseWindow:isShowing() then
@@ -35,20 +35,20 @@ function slot0.UpdateShop(slot0, ...)
 	end
 end
 
-function slot0.OnUpdatePlayer(slot0)
+slot0.OnUpdatePlayer = function(slot0)
 	slot0.exploitTF.text = slot0.player:getResource(PlayerConst.ResGuildCoin)
 end
 
-function slot0.OnSetUp(slot0)
+slot0.OnSetUp = function(slot0)
 	uv0.super.OnSetUp(slot0)
 	slot0:UpdateRefreshBtn()
 end
 
-function slot0.UpdateRefreshBtn(slot0)
+slot0.UpdateRefreshBtn = function(slot0)
 	setButtonEnabled(slot0.refreshBtn, slot0.shop:CanRefresh())
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = GuildGoodsCard.New(slot1)
 
 	onButton(slot0, slot2._go, function ()
@@ -64,7 +64,7 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnCardClick(slot0, slot1)
+slot0.OnCardClick = function(slot0, slot1)
 	if slot1.goods:Selectable() then
 		slot0.purchaseWindow:ExecuteAction("Show", {
 			id = slot1.goods.id,
@@ -91,11 +91,11 @@ function slot0.OnCardClick(slot0, slot1)
 	end
 end
 
-function slot0.OnTimeOut(slot0)
+slot0.OnTimeOut = function(slot0)
 	slot0:emit(NewShopsMediator.REFRESH_GUILD_SHOP, false)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
 	slot0.purchaseWindow:Destroy()
 end

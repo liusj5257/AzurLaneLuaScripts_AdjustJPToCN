@@ -7,27 +7,27 @@ return {
 			portrait = 900405,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actorName = "War Protocol Fortress",
-			say = "Princeton, unidentified forces are approaching our location.",
 			bgm = "theme-ucnf-flagship",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Princeton, unidentified forces are approaching our location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -38,10 +38,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Unidentified? They must be from that floating island base!",
 			painting = {
 				alpha = 0.3,
@@ -56,10 +56,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's been dormant this whole time, so why are they showing themselves now?",
 			painting = {
 				alpha = 0.3,
@@ -99,11 +99,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_zhuguang_4",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "They look like low-level ANTI-X combat units, but I've never seen models like these before...",
 			painting = {
 				alpha = 0.3,
@@ -114,17 +114,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -135,10 +135,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Do you recognize them, Fortress?",
 			painting = {
 				alpha = 0.3,
@@ -242,10 +242,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Enforcers...? I've never heard of those before.",
 			painting = {
 				alpha = 0.3,
@@ -257,12 +257,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(I have read about the Lovers in an ANTI-X plan proposal before...)",
 			painting = {
 				alpha = 0.3,
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(But that's all it should be – a proposal.)",
 			painting = {
 				alpha = 0.3,
@@ -294,10 +294,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Fortress, can you communicate with those units?",
 			painting = {
 				alpha = 0.3,
@@ -351,10 +351,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Wait, they shot it down? But they're your fellow ANTI-X... It must have been some kind of mistake.",
 			painting = {
 				alpha = 0.3,
@@ -369,10 +369,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Huh? A call from Ms. Silver Fox?",
 			painting = {
 				alpha = 0.3,
@@ -384,12 +384,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Okay. Got it.",
 			painting = {
 				alpha = 0.3,
@@ -420,12 +420,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Those \"Sirens\" are not our allies.",
 			painting = {
 				alpha = 0.3,
@@ -437,12 +437,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She said, \"stand back and let them and the corrosion entities fight each other, then finish off what remains.\"",
 			painting = {
 				alpha = 0.3,
@@ -473,12 +473,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That she did. Probably so it would be easier for you to follow.",
 			painting = {
 				alpha = 0.3,
@@ -493,10 +493,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Also, she said that we're allowed to fight back if they attack us.",
 			painting = {
 				alpha = 0.3,
@@ -508,12 +508,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...I admire her swift decision-making skills.",
 			painting = {
 				alpha = 0.3,
@@ -528,10 +528,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Sorry, I'm getting sidetracked. Let's change positions and watch the battle from afar.",
 			painting = {
 				alpha = 0.3,

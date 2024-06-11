@@ -1,10 +1,14 @@
 slot0 = class("GuildThemePage", import("...base.GuildBasePage"))
 
-function slot0.getTargetUI(slot0)
-	return "GuildThemeBlueUI", "GuildThemeRedUI"
+slot0.getTargetUI = function(slot0)
+	if getProxy(SettingsProxy):IsMellowStyle() then
+		return "GuildThemeBlueUI4Mellow", "GuildThemeRedUI4Mellow"
+	else
+		return "GuildThemeBlueUI", "GuildThemeRedUI"
+	end
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.top = slot0:findTF("top")
 	slot0.chatBtn = slot0:findTF("chat_bg")
 	slot0.chatBtnTip = slot0.chatBtn:Find("tip")
@@ -45,7 +49,7 @@ function slot0.OnLoaded(slot0)
 	slot0.chatBubbles = {}
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.battleEvent, function ()
 		triggerToggle(uv0.contextData.toggles[GuildMainScene.TOGGLE_TAG[6]], true)
 	end, SFX_PANEL)
@@ -69,7 +73,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3)
+slot0.Update = function(slot0, slot1, slot2, slot3)
 	slot0:UpdateData(slot1, slot2, slot3)
 	slot0:UpdateMainInfo()
 	slot0:UpdateChatBtn()
@@ -77,13 +81,13 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	slot0:Show()
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return {
 		showType = PlayerResUI.TYPE_ALL
 	}
 end
 
-function slot0.UpdateData(slot0, slot1, slot2, slot3)
+slot0.UpdateData = function(slot0, slot1, slot2, slot3)
 	slot0:UpdateGuild(slot1)
 
 	slot0.playerVO = slot2
@@ -91,15 +95,15 @@ function slot0.UpdateData(slot0, slot1, slot2, slot3)
 	slot0.isAdmin = slot1:IsAdministrator()
 end
 
-function slot0.UpdateGuild(slot0, slot1)
+slot0.UpdateGuild = function(slot0, slot1)
 	slot0.guildVO = slot1
 end
 
-function slot0.RefreshReportBtn(slot0)
+slot0.RefreshReportBtn = function(slot0)
 	slot0:UpdateBattleBtn()
 end
 
-function slot0.UpdateBattleBtn(slot0)
+slot0.UpdateBattleBtn = function(slot0)
 	setActive(slot0.battleEvent, slot0.guildVO:GetActiveEvent() ~= nil)
 	setActive(slot0.battleEventTip, false)
 
@@ -115,7 +119,7 @@ function slot0.UpdateBattleBtn(slot0)
 	end
 end
 
-function slot0.UpdateChatBtn(slot0)
+slot0.UpdateChatBtn = function(slot0)
 	slot2 = getProxy(GuildProxy):GetNewChatMsgCnt() > 0
 
 	setActive(slot0.chatBtnTip, slot2)
@@ -125,7 +129,7 @@ function slot0.UpdateChatBtn(slot0)
 	end
 end
 
-function slot0.InitChatWindow(slot0)
+slot0.InitChatWindow = function(slot0)
 	if slot0.isInitChatWindow then
 		return
 	end
@@ -209,17 +213,17 @@ function slot0.InitChatWindow(slot0)
 	setButtonEnabled(slot0.noticeMask, slot0.isAdmin)
 end
 
-function slot0.UpdateChatWindow(slot0)
+slot0.UpdateChatWindow = function(slot0)
 	slot0:UpdateNotice()
 	slot0:UpdateAllLog(slot0.guildVO.logInfo)
 	slot0:UpdateAllChat(slot0.chatMsgs)
 end
 
-function slot0.UpdateNotice(slot0)
+slot0.UpdateNotice = function(slot0)
 	slot0.noticeScrollTxt:SetText((not slot0.guildVO:GetAnnounce() or slot2 == "") and i18n("guild_not_exist_notifycation") or slot2)
 end
 
-function slot0.UpdateAllLog(slot0, slot1)
+slot0.UpdateAllLog = function(slot0, slot1)
 	removeAllChildren(slot0.logContent)
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -227,7 +231,7 @@ function slot0.UpdateAllLog(slot0, slot1)
 	end
 end
 
-function slot0.AppendLog(slot0, slot1, slot2)
+slot0.AppendLog = function(slot0, slot1, slot2)
 	if not slot0.isInitChatWindow then
 		return
 	end
@@ -255,7 +259,7 @@ function slot0.AppendLog(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateAllChat(slot0, slot1)
+slot0.UpdateAllChat = function(slot0, slot1)
 	removeAllChildren(slot0.chatContent)
 
 	slot3 = {}
@@ -277,7 +281,7 @@ function slot0.UpdateAllChat(slot0, slot1)
 	end)
 end
 
-function slot0.Append(slot0, slot1, slot2, slot3)
+slot0.Append = function(slot0, slot1, slot2, slot3)
 	slot0:UpdateChatBtn()
 
 	if not slot0.isInitChatWindow then
@@ -293,15 +297,15 @@ function slot0.Append(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.ShowChatTip(slot0)
+slot0.ShowChatTip = function(slot0)
 	setActive(slot0.newMsgTip, true)
 end
 
-function slot0.ClearChatTip(slot0)
+slot0.ClearChatTip = function(slot0)
 	setActive(slot0.newMsgTip, false)
 end
 
-function slot0.AddWorldBossMsg(slot0, slot1, slot2, slot3)
+slot0.AddWorldBossMsg = function(slot0, slot1, slot2, slot3)
 	slot5 = Clone(slot1).player
 
 	if not slot3 then
@@ -318,7 +322,7 @@ function slot0.AddWorldBossMsg(slot0, slot1, slot2, slot3)
 	table.insert(slot0.chatBubbles, slot7)
 end
 
-function slot0.AppendWorld(slot0, slot1, slot2, slot3)
+slot0.AppendWorld = function(slot0, slot1, slot2, slot3)
 	slot6 = slot0.prefabOthers
 
 	if Clone(slot1).player.id == slot0.playerVO.id then
@@ -349,7 +353,7 @@ function slot0.AppendWorld(slot0, slot1, slot2, slot3)
 	table.insert(slot0.chatBubbles, slot8)
 end
 
-function slot0.UpdateMainInfo(slot0)
+slot0.UpdateMainInfo = function(slot0)
 	slot1 = slot0.guildVO
 	slot0.nameTxt.text = slot1:getName()
 	slot0.factionTxt.text = slot1:getFactionName()
@@ -374,7 +378,7 @@ function slot0.UpdateMainInfo(slot0)
 	end
 end
 
-function slot0.ShowOrHideChatWindow(slot0, slot1)
+slot0.ShowOrHideChatWindow = function(slot0, slot1)
 	if LeanTween.isTweening(go(slot0.chatPanel)) then
 		return
 	end
@@ -429,7 +433,7 @@ function slot0.ShowOrHideChatWindow(slot0, slot1)
 	end))
 end
 
-function slot0.EnterOrExitPreView(slot0, slot1)
+slot0.EnterOrExitPreView = function(slot0, slot1)
 	if LeanTween.isTweening(go(slot0.top)) or LeanTween.isTweening(go(slot0.bottomPanel)) or LeanTween.isTweening(go(slot0.chatPanel)) or LeanTween.isTweening(go(slot0.chatBtn)) then
 		return
 	end
@@ -493,11 +497,11 @@ function slot0.EnterOrExitPreView(slot0, slot1)
 	end
 end
 
-function slot0.InsertEmojiToInputText(slot0, slot1)
+slot0.InsertEmojiToInputText = function(slot0, slot1)
 	slot0.msgInput.text = slot0.msgInput.text .. string.gsub(ChatConst.EmojiIconCode, "code", slot1)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.isShowChatWindow then
 		pg.UIMgr.GetInstance():UnOverlayPanel(slot0.chatPanel, slot0._tf)
 	end

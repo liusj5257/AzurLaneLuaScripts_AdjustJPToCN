@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.3,
+					attr = "damageRatioBullet",
 					index = {
 						2
 					}
@@ -44,8 +44,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.322,
+					attr = "damageRatioBullet",
 					index = {
 						2
 					}
@@ -81,8 +81,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.344,
+					attr = "damageRatioBullet",
 					index = {
 						2
 					}
@@ -118,8 +118,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.366,
+					attr = "damageRatioBullet",
 					index = {
 						2
 					}
@@ -155,8 +155,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.388,
+					attr = "damageRatioBullet",
 					index = {
 						2
 					}
@@ -192,8 +192,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.41,
+					attr = "damageRatioBullet",
 					index = {
 						2
 					}
@@ -229,8 +229,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.432,
+					attr = "damageRatioBullet",
 					index = {
 						2
 					}
@@ -266,8 +266,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.454,
+					attr = "damageRatioBullet",
 					index = {
 						2
 					}
@@ -303,8 +303,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.476,
+					attr = "damageRatioBullet",
 					index = {
 						2
 					}
@@ -340,8 +340,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.5,
+					attr = "damageRatioBullet",
 					index = {
 						2
 					}
@@ -369,14 +369,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "鱼雷伤害上升",
 	init_effect = "jinengchufared",
-	color = "blue",
+	id = 106021,
+	time = 0,
 	picture = "",
 	desc = "鱼雷伤害上升",
 	stack = 1,
-	id = 106021,
+	color = "blue",
 	icon = 106020,
 	last_effect = "",
 	blink = {

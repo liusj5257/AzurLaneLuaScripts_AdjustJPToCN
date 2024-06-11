@@ -1,6 +1,6 @@
 slot0 = class("GuildRequestCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.tf = tf(slot1)
 	slot0.nameTF = slot0.tf:Find("frame/request_info/name"):GetComponent(typeof(Text))
 	slot0.levelTF = slot0.tf:Find("frame/request_info/level"):GetComponent(typeof(Text))
@@ -14,7 +14,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.accpetBtn = slot0.tf:Find("frame/accpet_btn")
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot0:Clear()
 
 	slot0.requestVO = slot1
@@ -57,7 +57,7 @@ function slot0.Update(slot0, slot1)
 	end
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if slot0.circle.childCount > 0 then
 		slot1 = slot0.circle:GetChild(0)
 		slot2 = slot1.gameObject.name
@@ -66,7 +66,7 @@ function slot0.Clear(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Clear()
 end
 

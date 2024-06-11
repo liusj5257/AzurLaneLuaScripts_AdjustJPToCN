@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"新年的祝福\n\n<size=45>五 來自{namecode:98}的盛裝</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·重櫻宿舍",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "港區·重櫻宿舍",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "這樣的話……只能把準備上架的新年服裝先拿出來給大家換上了喵！",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -140,15 +140,15 @@ return {
 			}
 		},
 		{
-			actor = 102132,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102132,
+			nameColor = "#a9f548",
 			say = "重櫻風格的服飾……是叫和服嗎？呼呼……用的布料真是華麗呀。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -176,8 +176,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 201103,
 			dir = 1,
+			actor = 201103,
 			nameColor = "#a9f548",
 			say = "哇哇……這件衣服……比想像的要暖和呢。",
 			typewriter = {
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 399021,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 399021,
 			actorName = "{namecode:151}",
 			say = "如同火焰一般的赤色錦緞，還有這絲毫不妨礙拔刀的設計，不錯！",
 			typewriter = {
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 399011,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 399011,
 			actorName = "{namecode:152}",
 			say = "我這件是普通的和服呢，穿起來感覺很安心",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 205062,
 			dir = 1,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "原來如此沒想到這件衣服竟能融合不同陣營的風格元素，真是別出心裁啊",
 			typewriter = {
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "…這、這個是……？！",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -299,11 +299,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "我、我突然想起來還有點急事先走了！！！",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.3,
 					dur = 1,
 					x = -2250
@@ -356,11 +356,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "欸？！",
 			typewriter = {
 				speed = 0.05,
@@ -372,8 +372,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -382,15 +382,15 @@ return {
 			}
 		},
 		{
-			actor = 102141,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102141,
+			nameColor = "#a9f548",
 			say = "（這就是重櫻的服飾嗎…感覺是哥倫比亞和丹佛會喜歡的類型）",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -463,12 +463,12 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "大、大家都換好衣服了嗎？大家趕快坐下，準備開飯吧喵！",
 			typewriter = {
 				speed = 0.05,
@@ -480,8 +480,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

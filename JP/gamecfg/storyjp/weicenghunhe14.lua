@@ -1,22 +1,22 @@
 return {
-	id = "WEICENGHUNHE14",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE14",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107110,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "「こちらクーパー。巡回中の紫に発光している新型のセイレーン量産艦を発見」",
 			dir = 1,
 			bgm = "hunhe-battle",
+			nameColor = "#a9f548",
+			say = "「こちらクーパー。巡回中の紫に発光している新型のセイレーン量産艦を発見」",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -31,9 +31,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "「なんか強そうだし、ぼくのサイクロンスマッシャーが効かなそうだけど頑張る」",
 			typewriter = {
 				speed = 0.05,
@@ -45,8 +45,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -58,8 +58,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "「でも多分勝てないから、増援をお願い！助けて！」",
 			typewriter = {
 				speed = 0.05,
@@ -74,8 +74,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "あの子、やっぱりぶっ飛んでるよね…",
 			typewriter = {
 				speed = 0.05,
@@ -134,11 +134,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Roger！",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,19 +1,19 @@
 return {
-	id = "WORLD504B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD504B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/16/tb-16",
+			dir = 1,
 			bgm = "battle-boss-4",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Warning: Large Siren defense structure detected ahead. Readings suggest it is a stronghold cannon.",
-			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"We have to destroy it before it destroys us. The question is how...\"",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "Yes, Your Highness. We are loaded and ready to fire.",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			paintingNoise = true,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "Commander, let us battleships take care of that cannon.",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			actor = 205070,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "No matter how sturdy the Sirens fancy their defences, our precise volleys shall render them into naught but dust.",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			actor = 205060,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "Target acquired. King George V's, blow it to kingdom come!",
 			typewriter = {
 				speed = 0.05,
@@ -149,11 +149,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 205090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Take aim! FIRE!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,

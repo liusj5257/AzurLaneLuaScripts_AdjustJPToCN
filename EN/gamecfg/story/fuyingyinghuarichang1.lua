@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUARICHANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUYINGYINGHUARICHANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Blessings and Tidings\n\n<size=45>Chapter 1: Greetings and Meetings?</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_104",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_104",
 			bgm = "newyear2",
 			actor = 305052,
 			nameColor = "#a9f548",
 			say = "Mhm... That should be the last item on the shopping list.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "\"Lady Nagato, you mustn't sully your hands with common work; please leave it to us and return to the castle.\"",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -83,8 +83,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "Kawakaze and the others can be so stiff at times... I, too, wish to assist everyone in the New Year's preparations.",
 			typewriter = {
@@ -100,10 +100,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 499021,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "The Guardian Fox of the Sakura Empire... perhaps us meeting here is a \"sign\" of the things to come.",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "Friedrich der Große of the Iron Blood... Hmm, what in the world is with that outfit...?",
 			typewriter = {
@@ -135,10 +135,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 499021,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yes, this is a kimono from your own Sakura Empire. Exquisitely crafted, comfortable to the touch, and elegantly designed, this is indeed a product of the highest caliber.",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "(Since when did they make kimonos that looked like this...?!)",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "(First Akagi, then St. Louis... Now everyone is dressing like this...? Ugh... I feel like I've lost something valuable...)",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "Geh?! ...Ahem! You're from the Royal Maids?",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -230,8 +230,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 202071,
 			dir = 1,
+			actor = 202071,
 			nameColor = "#a9f548",
 			say = "Um... former maid... That place was a bit too hectic for me~",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 202071,
 			dir = 1,
+			actor = 202071,
 			nameColor = "#a9f548",
 			say = "I'm now one of the Royal Knights!",
 			typewriter = {
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -274,8 +274,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "I see...",
 			typewriter = {
@@ -291,10 +291,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 499021,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "You're also dressed in a kimono... The Royal Navy also seems to come prepared...",
 			typewriter = {
 				speed = 0.05,
@@ -309,8 +309,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 202071,
 			dir = 1,
+			actor = 202071,
 			nameColor = "#a9f548",
 			say = "I am honoured by your praise! Lady Friedrich der Große, your appearance is also... most striking...",
 			typewriter = {
@@ -323,8 +323,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -336,8 +336,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "I am glad that both of your factions have taken interest in our customs. As such, I welcome you both to come to our shrine to celebrate Shougatsu with us.",
 			typewriter = {
@@ -353,10 +353,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 499021,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Shougatsu...? If I recall, that was the Sakura Empire's ceremony to welcome in the coming year?",
 			typewriter = {
 				speed = 0.05,
@@ -368,11 +368,11 @@ return {
 			}
 		},
 		{
-			actor = 202071,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202071,
+			nameColor = "#a9f548",
 			say = "Oh, Cleveland mentioned something about that and a sport called \"hanetsuki,\" right? I somehow ended up being dragged in to serve as a referee.",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -397,8 +397,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "(Th-they're talking right past each other...! What a fearsome display of a culture gap...!)",
 			typewriter = {
@@ -414,9 +414,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 305052,
 			dir = 1,
 			blackBg = true,
+			actor = 305052,
 			nameColor = "#a9f548",
 			say = "Hanetsuki sounds like f– I mean... Ahem! Perhaps if the opportunity arises...",
 			typewriter = {

@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					rant = 5000,
-					target = "TargetSelf",
 					skill_id = 800664,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -24,8 +24,8 @@ return {
 				},
 				arg_list = {
 					rant = 5000,
-					target = "TargetSelf",
 					skill_id = 800664,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -40,8 +40,8 @@ return {
 				},
 				arg_list = {
 					rant = 5000,
-					target = "TargetSelf",
 					skill_id = 800664,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -56,8 +56,8 @@ return {
 				},
 				arg_list = {
 					rant = 5000,
-					target = "TargetSelf",
 					skill_id = 800664,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -72,8 +72,8 @@ return {
 				},
 				arg_list = {
 					rant = 5000,
-					target = "TargetSelf",
 					skill_id = 800664,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -88,8 +88,8 @@ return {
 				},
 				arg_list = {
 					rant = 5000,
-					target = "TargetSelf",
 					skill_id = 800664,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -104,8 +104,8 @@ return {
 				},
 				arg_list = {
 					rant = 5000,
-					target = "TargetSelf",
 					skill_id = 800664,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -120,8 +120,8 @@ return {
 				},
 				arg_list = {
 					rant = 5000,
-					target = "TargetSelf",
 					skill_id = 800664,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -136,8 +136,8 @@ return {
 				},
 				arg_list = {
 					rant = 5000,
-					target = "TargetSelf",
 					skill_id = 800664,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
@@ -152,16 +152,16 @@ return {
 				},
 				arg_list = {
 					rant = 5000,
-					target = "TargetSelf",
 					skill_id = 800664,
+					target = "TargetSelf",
 					time = 12
 				}
 			}
 		}
 	},
-	init_effect = "jinengchufablue",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "jinengchufablue",
 	picture = "",
 	desc = "属性变化",
 	stack = 1,
@@ -176,8 +176,8 @@ return {
 			},
 			arg_list = {
 				rant = 5000,
-				target = "TargetSelf",
 				skill_id = 800664,
+				target = "TargetSelf",
 				time = 12
 			}
 		}

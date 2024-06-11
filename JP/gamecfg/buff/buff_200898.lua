@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024愚人节 自机锁血",
 	time = 0,
-	color = "yellow",
+	name = "2024愚人节 自机锁血",
+	init_effect = "",
+	id = 200898,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200898,
+	color = "yellow",
 	icon = 200898,
 	last_effect = "",
 	effect_list = {

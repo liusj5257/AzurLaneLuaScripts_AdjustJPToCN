@@ -1,12 +1,12 @@
 return {
-	id = "W744000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W744000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "进入了深层空间。",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "寻找海域中的目标方阵。",
 			typewriter = {
 				speed = 0.05,

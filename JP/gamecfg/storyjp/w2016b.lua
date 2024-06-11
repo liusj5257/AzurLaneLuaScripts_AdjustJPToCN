@@ -1,12 +1,12 @@
 return {
-	id = "W2016B",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2016B",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "資源スポットのレベルが上ったようだ。",
 			typewriter = {
 				speed = 0.05,

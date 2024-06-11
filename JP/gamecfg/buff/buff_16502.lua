@@ -9,8 +9,8 @@ return {
 				},
 				arg_list = {
 					group = 16500,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -44,8 +44,8 @@ return {
 				},
 				arg_list = {
 					group = 16500,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -79,8 +79,8 @@ return {
 				},
 				arg_list = {
 					group = 16500,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -114,8 +114,8 @@ return {
 				},
 				arg_list = {
 					group = 16500,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 				},
 				arg_list = {
 					group = 16500,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -184,8 +184,8 @@ return {
 				},
 				arg_list = {
 					group = 16500,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -219,8 +219,8 @@ return {
 				},
 				arg_list = {
 					group = 16500,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -254,8 +254,8 @@ return {
 				},
 				arg_list = {
 					group = 16500,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -289,8 +289,8 @@ return {
 				},
 				arg_list = {
 					group = 16500,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -324,8 +324,8 @@ return {
 				},
 				arg_list = {
 					group = 16500,
-					attr = "isInvincible",
-					number = 1
+					number = 1,
+					attr = "isInvincible"
 				}
 			},
 			{
@@ -349,9 +349,9 @@ return {
 			}
 		}
 	},
-	time = 3,
 	name = "oak皇家共享不沉",
 	init_effect = "jinengchufablue",
+	time = 3,
 	picture = "",
 	desc = "无敌",
 	stack = 1,
@@ -374,8 +374,8 @@ return {
 			},
 			arg_list = {
 				group = 16500,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{

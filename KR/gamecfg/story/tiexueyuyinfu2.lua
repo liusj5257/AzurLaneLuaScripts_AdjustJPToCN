@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>서장에서부터 이어짐</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			say = "작전 해역【■■■■■】- 새벽",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-1",
+			say = "작전 해역【■■■■■】- 새벽",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -96,10 +96,10 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			say = "적을 얕보지 마. 로열 네이비가 이대로 얌전히 손을 뗄 거라 생각하진 않아.",
+			dir = -1,
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = -1,
-			say = "적을 얕보지 마. 로열 네이비가 이대로 얌전히 손을 뗄 거라 생각하진 않아.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -177,8 +177,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "오이겐, 대열을 유지해.",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "너……!",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			expression = 1,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "……이럴 때만은 너를 당해내지 못하겠네, 오이겐.",
 			typewriter = {
 				speed = 0.05,

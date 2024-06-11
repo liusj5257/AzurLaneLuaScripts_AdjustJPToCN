@@ -1,6 +1,6 @@
 slot0 = class("CourtYardTransportSlot", import(".CourtYardFurnitureBaseSlot"))
 
-function slot0.OnInit(slot0, slot1)
+slot0.OnInit = function(slot0, slot1)
 	slot0.name = slot1[1][1]
 	slot0.defaultAction = slot1[1][2]
 	slot0.actions = {}
@@ -16,7 +16,7 @@ function slot0.OnInit(slot0, slot1)
 	slot0.animators = {}
 end
 
-function slot0.SetAnimators(slot0, slot1)
+slot0.SetAnimators = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		table.insert(slot0.animators, {
 			key = slot0.id .. "_" .. slot5,
@@ -25,15 +25,15 @@ function slot0.SetAnimators(slot0, slot1)
 	end
 end
 
-function slot0.GetSpineDefaultAction(slot0)
+slot0.GetSpineDefaultAction = function(slot0)
 	return slot0.defaultAction
 end
 
-function slot0.OnAwake(slot0)
+slot0.OnAwake = function(slot0)
 	slot0.animatorIndex = slot0.index
 end
 
-function slot0.OnStart(slot0)
+slot0.OnStart = function(slot0)
 	slot1 = slot0.actions[slot0.index]
 
 	slot0.user:UpdateInteraction({
@@ -49,19 +49,19 @@ function slot0.OnStart(slot0)
 	end, slot1.time, 1):Start()
 end
 
-function slot0.Occupy(slot0, slot1, slot2, slot3)
+slot0.Occupy = function(slot0, slot1, slot2, slot3)
 	slot0.index = 1
 
 	uv0.super.Occupy(slot0, slot1, slot2, slot3)
 end
 
-function slot0.Link(slot0, slot1, slot2, slot3)
+slot0.Link = function(slot0, slot1, slot2, slot3)
 	slot0.index = 2
 
 	uv0.super.Occupy(slot0, slot1, slot2, slot3)
 end
 
-function slot0.IsFirstTime(slot0)
+slot0.IsFirstTime = function(slot0)
 	return slot0.index == 1
 end
 

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "自身伤害",
 	time = 0,
+	name = "自身伤害",
+	init_effect = "",
 	picture = "",
 	desc = "判定",
 	stack = 1,

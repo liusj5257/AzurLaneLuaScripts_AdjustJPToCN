@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN33",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			stopbgm = true,
-			say = "铁血浮岛要塞群·A1浮岛-办公区",
 			bgmDelay = 2,
 			bgm = "story-midgard",
+			stopbgm = true,
+			say = "鐵血浮島要塞群·A1浮島-辦公區",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,13 +28,13 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
-			say = "这样就算告一段落了。",
+			hidePaintObj = true,
+			say = "這樣就算告一段落了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -48,11 +48,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……不知道伊丽莎白那边的问题解决了没有。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……不知道伊莉莎白那邊的問題解決了沒有。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,11 +66,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "联系一下她好了。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "聯絡一下她好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,20 +81,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
-			say = "{namecode:435}打开通讯频道。",
+			say = "俾斯麥打開通訊頻道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
-			say = "但在按下呼叫键之后，回应她的只有杂音。",
+			say = "但在按下呼叫鍵之後，回應她的只有雜音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,10 +104,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……嗯？",
 			painting = {
 				alpha = 0.3,
@@ -119,20 +119,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
-			say = "{namecode:435}又分别试着呼叫本土司令部与驻扎在博览会会场的{namecode:427}。",
+			say = "俾斯麥又分別試著呼叫本土司令部與駐紮在博覽會會場的歐根親王。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
-			say = "通讯器中依然只有杂音。",
+			say = "通訊器中依然只有雜音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,11 +142,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "外部通讯依然没有恢复……？有些奇怪……",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "外部通訊依然沒有恢復……？有點奇怪……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,11 +160,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
-			say = "{namecode:435}大人，我这边的检查结束了。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "俾斯麥大人，我這邊的檢查結束了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,11 +178,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "情况怎么样？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "情況怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 402100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……位于医疗室中的同伴们依然在昏睡中。",
+			say = "……位於醫療室中的同伴們依然在昏睡中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,11 +215,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……除此之外还有其他异常么？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……除此之外還有其他異常嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			actor = 402100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有，医疗检查结果显示没有任何异常状况。",
+			say = "沒有，醫療檢查結果顯示沒有任何異常狀況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			actor = 402100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就像……普通地睡着了而已。",
+			say = "就像……普通地睡著了而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,13 +268,13 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
-			say = "我明白了，继续保持观察。",
+			hidePaintObj = true,
+			say = "我明白了，繼續保持觀察。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			actor = 402100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遵命，{namecode:516}通讯结束。",
+			say = "遵命，雷根斯堡通訊結束。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,33 +304,33 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
-			say = "从办公区的窗外望去，米德加尔特之塔的光芒逐渐减弱。",
+			say = "從辦公區的窗外望去，米德加爾特之塔的光芒逐漸減弱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
-			say = "这是装置正在被关闭的证明。",
+			say = "這是裝置正在關閉的證明。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
-			say = "事件的所有影响……也应该随之消失才对。",
+			hidePaintObj = true,
+			say = "事件的所有影響……也應該隨之消失才對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,11 +344,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "……看来必须要摧毁它了么。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……看來必須要摧毀它了嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,22 +359,22 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_fuxiangxian_3",
-			say = "{namecode:435}凝视着陷入沉寂的米德加尔特之塔，良久。",
+			say = "俾斯麥凝視著陷入沉寂的米德加爾特之塔，良久。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……………………",
 			painting = {
 				alpha = 0.3,
@@ -389,11 +389,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "…………{namecode:464}，能听到么？",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "…………烏爾里希，能聽到嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没问题，阁下有什么事？",
+			say = "沒問題，閣下有什麼事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,13 +423,13 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
-			say = "米德加尔特之塔检查怎么样了？",
+			hidePaintObj = true,
+			say = "米德加爾特之塔檢查怎麼樣了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正在进行中，彻底检查还没有结束。",
+			say = "正在進行中，徹底檢查還沒結束。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过只看初步结论的话，它看上去已经恢复如初了。",
+			say = "不過只看初步結論的話，它看起來已經恢復如初了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,12 +500,12 @@ return {
 			paintingNoise = true,
 			side = 0,
 			bgName = "bg_fuxiangxian_3",
-			hideOther = true,
-			dir = 1,
-			actorName = "{namecode:464}&{namecode:435}",
 			actor = 405030,
+			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:435}阁下——\n{namecode:464}——",
+			hideOther = true,
+			actorName = "{namecode:464}&{namecode:435}",
+			say = "俾斯麥閣下——\n烏爾里希——",
 			subActors = {
 				{
 					actor = 405010,
@@ -528,11 +528,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "…………看来我们想说的是同一件事。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "…………看來我們想說的是同一件事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真的要炸么？",
+			say = "……真的要炸嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,10 +565,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……炸吧。",
 			painting = {
 				alpha = 0.3,
@@ -583,11 +583,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "米德加尔特之塔的使命已经结束了，换成{namecode:441}也会做相同的决定的……",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "米德加爾特之塔的使命已經結束了，換成腓特烈也會做相同的決定的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,11 +601,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "不过……再从米德加尔特之塔中读取一次数据，然后检查一下项目的所有资料。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不過……再從米德加爾特之塔讀取一次數據，然後檢查一下項目的所有資料，",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,11 +619,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
-			say = "确认完整并进行备份后……再进行爆破拆除。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "確認完整並進行備份後……再進行爆破拆除。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			actor = 405030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我明白了，立刻着手进行。",
+			say = "我明白了，立刻著手進行。",
 			painting = {
 				alpha = 0.3,
 				time = 1

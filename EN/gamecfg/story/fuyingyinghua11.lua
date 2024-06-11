@@ -1,27 +1,27 @@
 return {
-	id = "FUYINGYINGHUA11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			actorName = "Prinz Eugen",
-			say = "Come on. I thought you were a cutting-edge cruiser, but this is all you have?",
 			bgm = "story-4",
+			actorName = "Prinz Eugen",
+			hidePaintObj = true,
+			say = "Come on. I thought you were a cutting-edge cruiser, but this is all you have?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Prinz Eugen",
 			nameColor = "#ff5c5c",
+			actorName = "Prinz Eugen",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -36,10 +36,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "Noshiro",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Noshiro",
+			hidePaintObj = true,
 			say = "(We may have used exercise shells, but she didn't fight like this was an exercise! She held nothing back...!)",
 			typewriter = {
 				speed = 0.05,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			actorName = "Noshiro",
 			nameColor = "#a9f548",
+			actorName = "Noshiro",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -63,10 +63,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "Noshiro",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Noshiro",
+			hidePaintObj = true,
 			say = "You fought wonderfully, Prinz Eugen. It is no wonder you have recieved so many medals.",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			actorName = "Prinz Eugen",
 			nameColor = "#ff5c5c",
+			actorName = "Prinz Eugen",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			actorName = "Prinz Eugen",
 			nameColor = "#ff5c5c",
+			actorName = "Prinz Eugen",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -107,15 +107,15 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "Noshiro",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Noshiro",
+			hidePaintObj = true,
 			say = "(This woman... You're really trying my patience now...!)",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -131,10 +131,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "Noshiro",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Noshiro",
+			hidePaintObj = true,
 			say = "Is that so? Well, I am honored that you held nothing back on me, as this was merely an exercise battle.",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			actorName = "Prinz Eugen",
 			nameColor = "#ff5c5c",
+			actorName = "Prinz Eugen",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			actorName = "Prinz Eugen",
 			nameColor = "#ff5c5c",
+			actorName = "Prinz Eugen",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -171,10 +171,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "Noshiro",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Noshiro",
+			hidePaintObj = true,
 			say = "（............）",
 			typewriter = {
 				speed = 0.05,
@@ -185,10 +185,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "Noshiro",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Noshiro",
+			hidePaintObj = true,
 			say = "You're not going anywhere, Prinz Eugen!",
 			typewriter = {
 				speed = 0.05,
@@ -199,10 +199,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "Noshiro",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Noshiro",
+			hidePaintObj = true,
 			say = "If you so desperately want to see why I am a cutting-edge light cruiser, then I'll be more than glad to show you.",
 			typewriter = {
 				speed = 0.05,
@@ -213,10 +213,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "Noshiro",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Noshiro",
+			hidePaintObj = true,
 			say = "Insulting me is one thing, but I will not let your affront to the Sakura Empire go unpunished!",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			actorName = "Prinz Eugen",
 			nameColor = "#ff5c5c",
+			actorName = "Prinz Eugen",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -237,17 +237,17 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Prinz Eugen",
+			side = 0,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "Now, give me the fight I came here for!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

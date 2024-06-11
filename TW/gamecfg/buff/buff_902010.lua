@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "防空掩护",
 	time = 0,
-	color = "red",
+	name = "防空掩护",
+	init_effect = "",
+	id = 902010,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902010,
+	color = "red",
 	icon = 902010,
 	last_effect = "",
 	effect_list = {

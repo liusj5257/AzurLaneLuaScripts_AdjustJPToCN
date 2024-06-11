@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN25",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
-			bgm = "qe-ova-15",
 			actorName = "에식스",
+			bgm = "qe-ova-15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "간신히 서재에 도착한 메이드와 당신은 문을 굳게 잠그고 거친 숨을 몰아쉬었습니다.",
 			typewriter = {
@@ -139,10 +139,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "로열 포춘",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "큰 아가씨의 애독서라… 아마 책장 하나에 다 모아뒀을 텐데… 아마 이 근처에… 찾았다!",
 			typewriter = {
 				speed = 0.05,
@@ -203,9 +203,9 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "하이티엔",
 			bgName = "star_level_bg_515",
 			factiontag = "문학소녀 마스터",
-			actorName = "하이티엔",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 책장 앞으로 왔습니다.",
@@ -214,17 +214,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -558,9 +558,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…설마 직접 쓴 작품이 세트 도구에 섞여 들어간 건가요?",
 			typewriter = {
@@ -573,9 +573,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "전설적인 탐정 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "브리스톨",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아… 음… 뭐랄까, 그윽한 시 같아서 멋있네!",
 			typewriter = {
@@ -588,9 +588,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "하이티엔",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "으아아아…!! 예, 예리한 당신은 메이드의 움직임이 멈춘 것을 깨달았습니다! 아무래도 그녀가 무언가 단서를 찾은 모양입니다!!",
 			typewriter = {
@@ -608,9 +608,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "하이티엔",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 결심했습니다! 어서 그 따위 책은 내던지고 그녀의 상태를 확인하러 가기로!",
 			typewriter = {
@@ -623,9 +623,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "하이티엔",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "휴우… 자신이 맡은 책장 부분을 다시 확인해 봤지만, 눈에 띄는 점은 특별히 발견하지 못했습니다.",
 			typewriter = {
@@ -638,9 +638,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "하이티엔",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그때, 예리한 당신은 메이드의 움직임이 멈춘 것을 깨달았습니다. 아무래도 그녀가 무언가 단서를 찾은 모양입니다.",
 			typewriter = {
@@ -704,10 +704,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "로열 포춘",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…옛날에 사모님께서 살아계셨을 때는 성도 지금처럼 차가운 곳이 아니었어.",
 			typewriter = {
 				speed = 0.05,
@@ -718,10 +718,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "로열 포춘",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사모님은 상냥하고 명랑한 분이셔서, 항상 태양처럼 주위 사람들을 비추고 미소를 지어 주셨지.",
 			typewriter = {
 				speed = 0.05,
@@ -732,10 +732,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "로열 포춘",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래서 성주님 일가는 늘 떠들썩했고, 웃음이 끊이지 않았어. …사모님께서 젊은 나이에 병을 얻기 전까지는 말이야.",
 			typewriter = {
 				speed = 0.05,
@@ -746,10 +746,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "로열 포춘",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그 후부터… 성주님은 자선과 의료 사업에 매달리셔서, 옛날만큼 아가씨들과 함께 시간을 보내지 않게 되셨어.",
 			typewriter = {
 				speed = 0.05,
@@ -798,10 +798,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "로열 포춘",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사모님처럼 갑자기 세상을 떠났지. 그래서 큰 아가씨는 좀처럼 충격에서 벗어나질 못했어. 거기다 부인을 잃은 성주님까지 매일 아가씨의 행실에 사사건건 트집을 잡았지.",
 			typewriter = {
 				speed = 0.05,
@@ -812,10 +812,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "로열 포춘",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그러던 어느 날, 큰 아가씨는 마음의 안식을 위해… 어떤 교단에 들어가게 돼.",
 			typewriter = {
 				speed = 0.05,
@@ -826,10 +826,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "로열 포춘",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇지만 그 교단은… 아무리 봐도 너무 수상해… 큰 아가씨에 이어 들어간 집사와 요리사까지 이상해지고 말았거든.",
 			typewriter = {
 				speed = 0.05,
@@ -839,11 +839,11 @@ return {
 		{
 			portrait = 101490,
 			side = 2,
+			actorName = "브리스톨",
 			bgName = "star_level_bg_515",
 			factiontag = "전설적인 탐정 마스터",
-			nameColor = "#A9F548FF",
 			bgm = "xinnong-3",
-			actorName = "브리스톨",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "쿵쿵쿵! 쿵! 쿵! 쿵! 철커덩!",
 			typewriter = {
@@ -851,17 +851,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -886,10 +886,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "로열 포춘",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이런, 우리가 여기 있다는 걸 알아챈 것 같아…",
 			typewriter = {
 				speed = 0.05,
@@ -900,10 +900,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "로열 포춘",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "작은 아가씨랑 다른 사람들… 잘 부탁해.",
 			typewriter = {
 				speed = 0.05,
@@ -927,10 +927,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "로열 포춘",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이 램프는 소중히 여기라며 작은 아가씨가 준 거지만… 당신에게 줄게. 분명 도움이 될 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -954,10 +954,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_515",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 9600010,
 			actorName = "로열 포춘",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "부탁이야… 우리를 구해줘!",
 			typewriter = {
 				speed = 0.05,

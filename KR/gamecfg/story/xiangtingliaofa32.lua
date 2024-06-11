@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGTINGLIAOFA32",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-boss-4",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "쾅────!",
 			dir = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "battle-boss-4",
+			say = "쾅────!",
 			flashN = {
 				color = {
 					1,
@@ -60,14 +60,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_xiangting_3",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			say = "쾅──────!",
-			side = 2,
-			bgName = "bg_xiangting_3",
-			dir = 1,
-			soundeffect = "event:/battle/boom2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -92,14 +92,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_xiangting_3",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			say = "쾅────────!",
-			side = 2,
-			bgName = "bg_xiangting_3",
-			dir = 1,
-			soundeffect = "event:/battle/boom2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_xiangting_3",
-			actorName = "관찰자",
 			dir = 1,
+			actorName = "관찰자",
 			say = "이대로면 전 구역의 세이렌의 무장은 전부 해제되겠군, 축하해~",
 			effects = {
 				{
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "관찰자",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -162,10 +162,10 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
+			actor = 900072,
 			dir = 1,
 			actorName = "？？？",
 			say = "말했을텐데, 무관한 인간을 끌어들이지 말라고.",
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_xiangting_3",
-			actorName = "관찰자",
 			dir = 1,
+			actorName = "관찰자",
 			say = "그 \"인간\"이란 단어는 조금 정의하기 어렵군.",
 			effects = {
 				{
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "관찰자",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "관찰자",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "관찰자",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -255,10 +255,10 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
+			actor = 900072,
 			dir = 1,
 			actorName = "？？？",
 			say = "……",
@@ -278,11 +278,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_xiangting_3",
-			actorName = "관찰자",
 			dir = 1,
+			actorName = "관찰자",
 			say = "그렇게 고집부리지 마. 원한다면 우린 언제든 화해할 수 있어.",
 			effects = {
 				{
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "관찰자",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "관찰자",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -332,10 +332,10 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
+			actor = 900072,
 			dir = 1,
 			actorName = "？？？",
 			say = "닥쳐라",
@@ -355,11 +355,11 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900072,
 			actorName = "？？？",
 			say = "……",
 			typewriter = {
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900072,
 			actorName = "？？？",
 			say = "내 행적을 터미널에 보고하는 게 네 임무다.",
 			typewriter = {
@@ -389,11 +389,11 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900072,
 			actorName = "？？？",
 			say = "더는 내게 상관 마라, 넌 다시는 날 막을 수 없어",
 			typewriter = {
@@ -406,14 +406,14 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900072,
 			actorName = "？？？",
 			say = "사라져라",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,

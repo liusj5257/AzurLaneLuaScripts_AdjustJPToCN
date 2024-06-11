@@ -1,10 +1,10 @@
 slot0 = class("EquipCodeShareLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EquipCodeShareUI"
 end
 
-function slot0.setShipGroup(slot0, slot1)
+slot0.setShipGroup = function(slot0, slot1)
 	slot0.shipGroup = slot1
 	slot0.codes = slot1:getEquipCodes()
 	slot2 = {}
@@ -36,7 +36,7 @@ function slot0.setShipGroup(slot0, slot1)
 	end)
 end
 
-function slot1(slot0, slot1, slot2)
+slot1 = function(slot0, slot1, slot2)
 	setActive(slot0:Find("IconTpl"), tobool(slot1))
 
 	if not slot1 then
@@ -58,7 +58,7 @@ function slot1(slot0, slot1, slot2)
 	setImageSprite(slot0:Find("IconTpl/icon_bg/equip_flag/Image"), LoadSprite("qicon/" .. slot2:getPainting()))
 end
 
-function slot2(slot0, slot1, slot2)
+slot2 = function(slot0, slot1, slot2)
 	setActive(slot0:Find("Icon"), slot1)
 	setActive(slot0:Find("IconShadow"), slot1)
 
@@ -93,8 +93,8 @@ slot3 = {
 	groupList = {
 		{
 			dropdown = false,
-			titleTxt = "indexsort_label",
 			titleENTxt = "indexsort_labeleng",
+			titleTxt = "indexsort_label",
 			tags = {
 				"labelIndex"
 			}
@@ -102,7 +102,7 @@ slot3 = {
 	}
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	onButton(slot0, slot0._tf:Find("BG"), function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -176,7 +176,7 @@ function slot0.init(slot0)
 				if uv0.afterLike then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("equipcode_like_limited"))
 				else
-					function uv1.successCallback()
+					uv1.successCallback = function()
 						uv0.successCallback = nil
 
 						setText(uv1:Find("right/like/Text"), uv2.like)
@@ -208,7 +208,7 @@ function slot0.init(slot0)
 	})
 end
 
-function slot0.refreshLikeCommand(slot0, slot1, slot2)
+slot0.refreshLikeCommand = function(slot0, slot1, slot2)
 	slot3 = underscore.detect(slot0.codes, function (slot0)
 		return slot0.id == uv0
 	end)
@@ -218,7 +218,7 @@ function slot0.refreshLikeCommand(slot0, slot1, slot2)
 	existCall(slot0.successCallback)
 end
 
-function slot0.initImpeachPanel(slot0)
+slot0.initImpeachPanel = function(slot0)
 	slot1 = slot0._tf
 	slot0.impackPanel = slot1:Find("impeachPanel")
 	slot2 = slot0.impackPanel
@@ -271,7 +271,7 @@ function slot0.initImpeachPanel(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.impackPanel) then
 		setActive(slot0.rtMainPanel, true)
 		setActive(slot0.impackPanel, false)
@@ -282,7 +282,7 @@ function slot0.onBackPressed(slot0)
 	slot0:closeView()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:flushShip()
 
 	slot0.refreshCount = 0
@@ -290,7 +290,7 @@ function slot0.didEnter(slot0)
 	slot0:refreshCodes()
 end
 
-function slot0.flushShip(slot0)
+slot0.flushShip = function(slot0)
 	slot0.head = slot0.rtMainPanel:Find("left_panel/ship_tpl")
 	slot0.iconType = slot0.head:Find("content/main_bg/type_mask/type_icon"):GetComponent(typeof(Image))
 	slot0.imageBg = slot0.head:Find("content/icon_bg"):GetComponent(typeof(Image))
@@ -327,19 +327,19 @@ function slot0.flushShip(slot0)
 	end
 end
 
-function slot0.isDefaultFilter(slot0)
+slot0.isDefaultFilter = function(slot0)
 	return underscore(slot0.indexData):chain():keys():all(function (slot0)
 		return uv0.indexData[slot0] == uv1.customPanels[slot0].options[1]
 	end):value()
 end
 
-function slot0.codesFilter(slot0, slot1)
+slot0.codesFilter = function(slot0, slot1)
 	return underscore.filter(slot1, function (slot0)
 		return IndexConst.filterEquipCodeByLable(slot0, uv0.indexData.labelIndex)
 	end)
 end
 
-function slot0.refreshCodes(slot0)
+slot0.refreshCodes = function(slot0)
 	slot0.refreshCount = slot0.refreshCount + 1
 	slot0.filterCodes = {}
 
@@ -405,7 +405,7 @@ function slot0.refreshCodes(slot0)
 	setActive(slot0.rtMainPanel:Find("right_panel/content/nothing"), #slot0.filterCodes == 0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 

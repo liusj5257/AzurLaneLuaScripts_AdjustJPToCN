@@ -11,8 +11,8 @@ return {
 		{
 			alpha = 0.433,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -223,
 				posX = 495.2,
 				text = slot0[1]
@@ -21,8 +21,8 @@ return {
 		{
 			alpha = 0.433,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -223,
 				posX = 495.2,
 				text = slot0[2]
@@ -31,8 +31,8 @@ return {
 		{
 			alpha = 0.433,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -223,
 				posX = 495.2,
 				text = slot0[3]
@@ -43,19 +43,19 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 166.9,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 166.9
 				}
 			}
 		},
 		{
 			alpha = 0.383,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = 267.65,
 				posX = 17.53,
 				text = slot0[4]
@@ -66,11 +66,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 166.9,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 166.9
 				}
 			}
 		}

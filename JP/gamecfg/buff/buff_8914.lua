@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2021年底铁血潜艇精英5.5秒后上浮",
 	time = 15,
-	color = "blue",
+	name = "2021年底铁血潜艇精英5.5秒后上浮",
+	init_effect = "",
+	id = 8914,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8914,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8913,
-				target = "TargetSelf",
 				time = 5.5,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

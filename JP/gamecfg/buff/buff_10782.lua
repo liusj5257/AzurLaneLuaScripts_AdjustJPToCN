@@ -29,9 +29,9 @@ return {
 	{
 		time = 10
 	},
-	time = 5,
 	name = "幸运暴击",
 	init_effect = "jinengchufared",
+	time = 5,
 	picture = "",
 	desc = "暴击提升，暴击伤害提升",
 	stack = 1,
@@ -52,8 +52,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
-				number = 0.2
+				number = 0.2,
+				attr = "cri"
 			}
 		},
 		{
@@ -62,8 +62,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "criDamage",
-				number = 0.5
+				number = 0.5,
+				attr = "criDamage"
 			}
 		}
 	}

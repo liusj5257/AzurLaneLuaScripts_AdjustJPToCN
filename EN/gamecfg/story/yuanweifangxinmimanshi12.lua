@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANWEIFANGXINMIMANSHI12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANWEIFANGXINMIMANSHI12",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Orthodoxy's Banquet\n\n<size=45>Hard Work is Rewarded</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_134",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "Musashi invites me onto a small boat. We'll follow the canal to get to the banquet.",
 			bgm = "story-richang-6",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "Musashi invites me onto a small boat. We'll follow the canal to get to the banquet.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,11 +49,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_134",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_134",
 			actor = 305101,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hmm? You have a curious expression on you.",
 			painting = {
 				alpha = 0.3,
@@ -64,17 +64,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -85,10 +85,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_134",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305101,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is it my kimono you're drawn to? It's my only one, at the moment.",
 			painting = {
 				alpha = 0.3,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			say = "Dressing appropriately for the banquet is a must... and for some reason, she decided to change into a more traditional outfit.",
@@ -119,10 +119,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_134",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305101,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm sure you recognize it. It's what I wore at our pop-up café.~",
 			painting = {
 				alpha = 0.3,
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -147,10 +147,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_134",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305101,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's one of the reserve garments I packed in case something happened. I didn't expect to actually use it.",
 			painting = {
 				alpha = 0.3,
@@ -165,10 +165,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_134",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305101,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But enough about me – I've heard you're not only a guest at the banquet, but also something of an organizer as well.",
 			painting = {
 				alpha = 0.3,
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			say = "\"You've heard correctly. Who told you that, though?\"",
@@ -194,10 +194,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_134",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305101,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No one. It was merely a deduction based on your character. You are someone we can always turn to for help with anything.",
 			painting = {
 				alpha = 0.3,
@@ -212,10 +212,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_134",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305101,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "On top of you working all day, you just helped with that luggage. You must be quite exhausted, no?",
 			painting = {
 				alpha = 0.3,
@@ -294,8 +294,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -307,10 +307,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_134",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305101,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No one can see us aboard this boat, much less interrupt.",
 			painting = {
 				alpha = 0.3,
@@ -325,10 +325,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_134",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305101,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You may seek comfort beside me without fear of being judged.",
 			painting = {
 				alpha = 0.3,
@@ -343,10 +343,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_134",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305101,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...No response? Is there something that prevents you from relaxing?",
 			painting = {
 				alpha = 0.3,
@@ -358,8 +358,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			say = "\"Not really. My work for the day is done, so it's not that. It's just...\"",
@@ -372,10 +372,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_134",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305101,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "There is no need for \"justs.\" You deserve a break after a tiring day, simple as that.",
 			painting = {
 				alpha = 0.3,
@@ -390,10 +390,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_134",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305101,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now, close your eyes.",
 			painting = {
 				alpha = 0.3,
@@ -411,8 +411,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -421,8 +421,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = false,
+			mode = 1,
 			bgmDelay = 1,
 			bgm = "story-richang-6",
 			sequence = {
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			say = "A brief, relaxing eternity passes aboard the boat. It really was what I needed.",

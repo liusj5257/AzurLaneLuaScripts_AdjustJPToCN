@@ -1,7 +1,7 @@
 slot0 = class("ShamShoppingCommand", pm.SimpleCommand)
 slot0.SHAM_SHOP = 1
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = slot2.type
 	slot7 = getProxy(PlayerProxy):getRawData()

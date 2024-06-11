@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "모항・연습 해역",
 			dir = 1,
 			bgm = "level",
+			nameColor = "#a9f548",
+			say = "모항・연습 해역",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -51,8 +51,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "이번 작전의 이름은 「μ장비 실험 테스트」다.",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "그러니까 우리 외의 다른 진영도 같은 장비를 가지고 있다는 뜻이지…… 아니, 어쩌면 더 강할지도 몰라.",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "물론, μ장비를 사용하지 않는 동료들도 테스트에 참여할 거야.",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "소녀들은 유례없는 작전에 도전할 예정이었다. 전투 직전의 긴장된 분위기가 감돌고…… 아니, 전혀 감돌지 않고 있었다.",
@@ -213,8 +213,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "그, 그래…… 아하하, 미안. 내가 생각해도 너무 긴장했네.",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "이글 유니온도 같은 연락을 받았어. 이쪽은 새러토가가 해준 얘기였지.",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "메이드장을 통해서 여왕 폐하께 양산형 사용 허가를 받아두었어요.",
 			typewriter = {
@@ -514,8 +514,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "홀로그램?",
 			typewriter = {
@@ -595,8 +595,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "격침 당할지도 몰라요……",
 			typewriter = {
@@ -628,8 +628,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "어쨌든 연습 해역으로 가자, Let's go!",
 			typewriter = {
@@ -642,8 +642,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -655,9 +655,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202040,
 			dir = 1,
 			blackBg = true,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "알겠어요. 모두, 저를 따라오세요.",
 			typewriter = {

@@ -1,12 +1,12 @@
 return {
-	id = "W800100",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W800100",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーン海域の謎を解けるにはTBの力を借りる必要があるようだ（TBがエリアのギミックをクリア状態にしてくれる）",
 			typewriter = {
 				speed = 0.05,

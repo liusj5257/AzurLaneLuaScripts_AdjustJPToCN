@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT20",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夢幻の邂逅-日常編\n\n<size=45>その三　いい湯だな！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "──ズドドドッ！ドッカーン！",
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-uta",
+			say = "──ズドドドッ！ドッカーン！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,8 +129,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "注意",
 			typewriter = {
@@ -146,10 +146,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "そちらの銀髪の女性の意味深長な笑みに警戒心を覚えます",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -183,8 +183,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "うーん……どこのお姉さまも何かしら問題を抱えてるものなのかなぁ？",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "クーちゃん、何か言いましたか？",
 			typewriter = {
@@ -278,13 +278,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_chuansong",
+			side = 2,
+			dir = 1,
 			say = "──チャポーン",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -324,8 +324,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "すごいすごい！露営のお風呂でこんな大きいの初めてーっ！アハハハハー！",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "ラ、ラフィーさま、湯船の中で眠ったりしたら溺れちゃいます！",
 			typewriter = {
@@ -582,8 +582,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "大きなお風呂？それ、興味あるかも",
 			typewriter = {
@@ -615,8 +615,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "お風呂好きできれい好きって大切ですよね…ウフフ……",
 			typewriter = {
@@ -741,12 +741,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "何やら思い詰める相手がいるご様子、言葉の端々からその思いを感じます",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "何やら思い詰める相手がいるご様子、言葉の端々からその思いを感じます",
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -812,8 +812,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "うーん……悪口ってわけじゃないけど、言いたいことが山ほどある人は１人だけ心当たりがあるかな？",
 			typewriter = {
@@ -826,10 +826,10 @@ return {
 			}
 		},
 		{
-			actor = 10300040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_chuansong",
 			side = 0,
+			bgName = "bg_story_chuansong",
+			actor = 10300040,
 			dir = 1,
 			hideOther = true,
 			actorName = "ウルゥル＆サラァナ",
@@ -916,12 +916,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "私たちで言うところの……指揮官みたいな人、なのかもね",
 			typewriter = {
 				speed = 0.05,

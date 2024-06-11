@@ -1,17 +1,17 @@
 slot0 = class("AccountDeletePanel", import(".MsgboxSubPanel"))
 slot0.ConfigData = {}
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AccountDeleteBox"
 end
 
-function slot0.UpdateView(slot0, slot1)
+slot0.UpdateView = function(slot0, slot1)
 	slot2 = slot1.onYes
 
 	print("onYesFunc", tostring(slot2))
 
 	if slot2 then
-		function slot1.onYes()
+		slot1.onYes = function()
 			uv1(getInputText(uv0.inputField))
 		end
 	end

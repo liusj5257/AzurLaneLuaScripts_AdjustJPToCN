@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "枯れの森、中央の拠点に向かう途中――",
 			bgm = "story-mmorpg",
+			say = "枯れの森、中央の拠点に向かう途中――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "シェフィ？",
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "チャンスだ！指揮官、早く様子を見に行こうよ！",
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -193,27 +193,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "中央の拠点の要塞に入ると、戦闘がすでに終わっていた。",
 			bgm = "story-oldcastle-carnival",
+			say = "中央の拠点の要塞に入ると、戦闘がすでに終わっていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "きゅ、吸血鬼2体をもう倒した！？",
@@ -277,8 +277,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -313,11 +313,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "…誰！？",
 			painting = {
@@ -345,9 +345,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "究極で完璧な吸血鬼",
 			dir = 1,
+			bgName = "star_level_bg_156",
 			bgm = "login-2022401us",
 			actor = 201233,
 			nameColor = "#FF9B93",
@@ -362,17 +362,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "究極で完璧な吸血鬼",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "魔王さまの命により、この要塞を引き継がせてもらったの",
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ですが負傷しており、言うほど余裕がありません",
@@ -473,11 +473,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "ヴァンパイアハンター",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ですが自己再生力は驚異的なので、攻撃するなら今のうちです",
@@ -497,8 +497,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "情報分析によれば、確かに「弱点が存在しない」強力な吸血鬼だ。",
 			typewriter = {
@@ -506,17 +506,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "だが今のHPはせいぜい最大値の半分にすぎない。",
 			typewriter = {
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "おまけに、部屋の中にはある仕掛けが存在しているようだ。",
 			typewriter = {
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "究極で完璧な吸血鬼",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "ふふーん、わたしに挑んでくる気？全く命知らずね",
@@ -598,11 +598,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "究極で完璧な吸血鬼",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "完璧で究極な吸血鬼の力を汝らに見せてあげる――！",

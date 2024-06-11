@@ -1,16 +1,16 @@
 return {
-	id = "HOLOGUANQIA30",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA30",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "holo-matsuri",
+			say = "全員の努力によって、入口の巨大なダイヤの十字はあっという間に見つかった。",
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
-			say = "全員の努力によって、入口の巨大なダイヤの十字はあっという間に見つかった。",
+			bgm = "holo-matsuri",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
+			dir = 1,
 			say = "検討した後、湊あくあと紫咲シオンは基地に残り、他の皆は突入組と支援組に分かれて別行動をとることに決めた。",
 			typewriter = {
 				speed = 0.05,
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "鏡面海域・地下通路",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,8 +68,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actorName = "ピュリっち",
 			say = "…なんで私まで連れてきてんの",
 			typewriter = {
 				speed = 0.05,
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actor = 900021,
+			actorName = "ピュリっち",
 			say = "別にサボってなんかないよぉ～ほかに基地の防衛施設の増設とか壁の補強とか色々やることあるんじゃなぁい？",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -125,8 +125,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actorName = "ピュリっち",
 			say = "皆の裏方を務めるの、私好きなんだぜ？",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actorName = "ピュリっち",
 			say = "攻撃誘導カカシ、数多くのトラップに迷路、緑の村人発生機にTNTブロックキャノン――いやぁ、意外と面白いなこれえええ！",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "秘密基地に手を出していないだけでもう自重してくれてると思うけどね…",
 			typewriter = {
 				speed = 0.05,
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
 			dir = 1,
+			actor = 900021,
+			actorName = "ピュリっち",
 			say = "でもぉ、私ってセイレーンだよ？ここに混ぜて何するのさ～",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -244,8 +244,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "ここはセイレーンだからこそ力になってほしいんだよ？経験値さえ気にしなければボスキャラのゲスト参戦は積極的に使ったほうが効率いいし",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "ピュリっちもテスっちに一泡吹かせたい立場なら、ここはぜひ共闘をお願いしたいわね",
 			typewriter = {
 				speed = 0.05,
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち",
+			actor = 900021,
 			dir = 1,
+			actorName = "ピュリっち",
 			say = "ま、元々こねこねクラフトするのに飽きてきちゃってるし、そこまで言うなら別に手伝ってあげなくもないよ？",
 			effects = {
 				{
@@ -312,9 +312,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "（この女…ちょろい）",
 			effects = {
 				{

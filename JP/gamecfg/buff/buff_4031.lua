@@ -62,12 +62,12 @@ return {
 	desc_get = "每隔25秒，回复自身5.0%(满级15.0%)的耐久",
 	name = "损害管制",
 	init_effect = "",
+	id = 4031,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "每隔25秒，回复自身$1的耐久",
 	stack = 1,
-	id = 4031,
+	color = "blue",
 	icon = 4030,
 	last_effect = "",
 	effect_list = {
@@ -77,9 +77,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 4031,
 				target = "TargetSelf",
-				time = 25,
-				skill_id = 4031
+				time = 25
 			}
 		}
 	}

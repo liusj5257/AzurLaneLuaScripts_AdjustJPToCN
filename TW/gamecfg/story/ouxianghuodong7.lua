@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Polaris的各位和薩拉托加妹妹都加油啊！",
 			bgm = "azumaster-ins",
+			actor = 101020,
+			nameColor = "#a9f548",
+			say = "Polaris的各位和薩拉托加妹妹都加油啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,11 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 101020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101020,
+			nameColor = "#a9f548",
 			say = "哇哇！？對、對不起！我有點太興奮了……",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 101020,
 			side = 2,
 			bgName = "star_level_bg_120",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101020,
+			nameColor = "#a9f548",
 			say = "嗯！我一想自己是在和列星頓小姐一起加油，我就感覺全身都有無窮的力氣！",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -126,13 +126,13 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 403070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "說起來，一開始練習的時候我就想問了，為什麼是我們幾個被選到Polaris裡了？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -190,8 +190,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102240,
 			dir = 1,
+			actor = 102240,
 			say = "說起來是這樣的……不過聽說不是隨機嗎",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "加斯科涅擁有根據各種狀況替換行動模式的功能，很適合用於兵裝性能測試",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			say = "另外關於歌聲，可以根據龍骨微調整稍微改變外形及音域，對於音樂和艦裝的測試皆有裨益",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "雖然我不大懂妳的意思，不過妳說的就是妳自己的事吧",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			say = "我不像俾斯麥這方面沒什麼知識，只能猜就是",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			say = "也就是說就這樣繼續就好了吧",
 			typewriter = {
 				speed = 0.05,

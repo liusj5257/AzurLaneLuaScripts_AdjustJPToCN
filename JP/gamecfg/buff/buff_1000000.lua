@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "提速",
 	time = 240,
+	name = "提速",
+	init_effect = "",
 	picture = "",
 	desc = "6s减速",
 	stack = 1,
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "velocity",
-				number = 8000
+				number = 8000,
+				attr = "velocity"
 			}
 		}
 	}

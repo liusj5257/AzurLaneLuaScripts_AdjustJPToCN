@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA8",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			actorName = "In-Story Narration",
-			stopbgm = true,
 			bgm = "cw-story",
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			hidePaintObj = true,
 			say = "It was a fervid summer day... The skies were clear, and the sun hung high in the sky...",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -43,10 +43,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 101490,
 			actorName = "Mysterious Voice 1",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hey! They got a new narrator!",
 			typewriter = {
 				speed = 0.05,
@@ -57,10 +57,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301890,
 			actorName = "Mysterious Voice 2",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And new actors, too. The Commander's the lead now, and it's our turn to watch the play.",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 501020,
 			actorName = "Mysterious Voice 3",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We should be quiet then! Like audience members are supposed to!",
 			typewriter = {
 				speed = 0.05,
@@ -85,10 +85,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 307080,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ahem... As this one was saying...",
 			typewriter = {
 				speed = 0.05,
@@ -99,10 +99,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "An army marched the path through the woodlands. Their general – the Commander – was resting inside a sedan chair, carried by the troops...",
 			typewriter = {
@@ -111,28 +111,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Wait, a sedan chair? Is this story set during the Warring States period?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -143,10 +143,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "Indeed... The Commander's sedan chair was large and highly ornate, filled with curiosities and antiques – more than one could count...",
 			typewriter = {
@@ -194,10 +194,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "Fleet-Footed Retainer",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I-I bring you a report, Milord! Our battle on the front is unfolding smoothly!",
 			typewriter = {
 				speed = 0.05,
@@ -234,10 +234,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301900,
 			actorName = "Boastful Retainer",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Our foes would be wise to surrender, and instead they struggle like imbeciles! They must be taught a lesson!",
 			typewriter = {
 				speed = 0.05,
@@ -274,10 +274,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "Fleet-Footed Retainer",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "They knew of Milord's coming and are offering alcohol and rations to thank Milord's army!",
 			typewriter = {
 				speed = 0.05,
@@ -288,10 +288,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301900,
 			actorName = "Boastful Retainer",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So the commoners embrace the tides of change. Milord, shall we halt and savor a moment's respite?",
 			typewriter = {
 				speed = 0.05,
@@ -302,10 +302,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301820,
 			actorName = "Graceful Retainer",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I support this idea. It's sweltering, and the villagers are extending their goodwill. Let us stop and rest.",
 			typewriter = {
 				speed = 0.05,
@@ -316,10 +316,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301820,
 			actorName = "Graceful Retainer",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "As for where... Yes, I think the flat plain by the side of the mountain shall do. It's not the most spacious, but it's adequate to set up camp.",
 			typewriter = {
 				speed = 0.05,
@@ -352,11 +352,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "In-Story Narration",
 			optionFlag = 1,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "The army set up camp by the mountain, gorged themselves on the offerings of the villagers, and enjoyed their break...",
 			typewriter = {
@@ -394,11 +394,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "In-Story Narration",
 			optionFlag = 2,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "The army set up camp by the mountain, gorged themselves on the offerings of the villagers, and enjoyed their break...",
 			typewriter = {
@@ -433,27 +433,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_111",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_111",
 			say = "Moments later, the scene changes to a massive encampment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -461,8 +461,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			say = "A feast of delectable dishes is lined up before me. I look around me and see swords, books, treasures... and even exotic animals around the camp.",
@@ -538,10 +538,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 107030,
 			actorName = "Attractive Dancer",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Good point! The only question is – WHAT would you do, hmm? Heehee♥",
 			typewriter = {
 				speed = 0.05,
@@ -552,10 +552,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 107030,
 			actorName = "Attractive Dancer",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Excuse me, why won't you look at me?! My script says I'm the attractive dancer!",
 			typewriter = {
 				speed = 0.05,
@@ -590,13 +590,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
+			soundeffect = "event:/ui/dalei",
 			bgm = "musashi-2",
+			actor = 307080,
 			actorName = "In-Story Narration",
 			paintingNoise = true,
-			soundeffect = "event:/ui/dalei",
-			actor = 307080,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The lovely mood was suddenly disrupted by the rumble of lightning...",
 			typewriter = {
@@ -604,17 +604,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -647,10 +647,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_508",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "In mere moments, a rainstorm had swept over the camp...",
 			typewriter = {
@@ -722,10 +722,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "Fleet-Footed Retainer",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's shocking how quickly rain came upon us, when the skies were clear just moments ago... An unfortunate change of weather.",
 			typewriter = {
 				speed = 0.05,
@@ -796,11 +796,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			paintingNoise = true,
-			actorName = "In-Story Narration",
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "Meanwhile, under the cover of the thunderstorm, a cavalry unit had gathered in an attacking position atop the mountain...",
 			typewriter = {
@@ -808,17 +808,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -928,28 +928,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hmm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -970,11 +970,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "In-Story Narration",
 			optionFlag = 1,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "Apologies, but we lacked the resources for a complete cavalry unit...",
 			typewriter = {
@@ -986,10 +986,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			actorName = "In-Story Narration",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "Some say that a soldier atop any vehicle of war may be considered cavalry...",
 			typewriter = {
@@ -1001,10 +1001,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 307080,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 307080,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "Ahem. Unfortunately, we did not have sufficient time to provide uniform equipment for the cavalry unit...",
 			typewriter = {
@@ -1016,10 +1016,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 307080,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Regardless, they all exhibit a burning fighting spirit under their lord's leadership...",
 			typewriter = {
 				speed = 0.05,
@@ -1030,10 +1030,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "Adorable Lord",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "My Owner's waiting for us down there~♪",
 			typewriter = {
 				speed = 0.05,
@@ -1044,10 +1044,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "Adorable Lord",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Troops, hear me! Go get 'em!",
 			typewriter = {
 				speed = 0.05,
@@ -1058,10 +1058,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "Adorable Lord",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Your target is my Owner, and my Owner alone!",
 			typewriter = {
 				speed = 0.05,
@@ -1069,11 +1069,11 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "My troops camped nearby won't be able to make it here in time due to the rainstorm...",
 			effects = {
 				{
@@ -1086,17 +1086,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1116,8 +1116,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "I can already hear rallying cries calling out from outside my tent.",
@@ -1127,8 +1127,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "Then, the opposing lord lifts the flap and comes running into my tent!",
@@ -1153,10 +1153,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "Adorable Lord",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Owneeeeer! There's no escaping your fate!",
 			typewriter = {
 				speed = 0.05,
@@ -1167,10 +1167,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 299033,
 			actorName = "Adorable Lord",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Come heeeere!",
 			typewriter = {
 				speed = 0.05,
@@ -1178,8 +1178,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "She lunges at me like a cat, arms outstretched... without a weapon!",
@@ -1191,11 +1191,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actorName = "In-Story Narration",
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			bgm = "cw-story",
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "The battle was over, and peace was restored to the lands...",
 			typewriter = {
@@ -1203,17 +1203,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1223,11 +1223,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			actorName = "In-Story Narration",
 			blackBg = true,
 			actor = 307080,
-			nameColor = "#A9F548FF",
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "And so, the curtains fall on this act...",
 			typewriter = {
@@ -1255,12 +1255,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "Perpetually Overworked",
 			dir = 1,
 			blackBg = true,
+			actor = 102160,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's over now. You can stop hugging the Commander to death...",
 			painting = {
@@ -1292,12 +1292,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "Perpetually Overworked",
 			dir = 1,
 			blackBg = true,
+			actor = 102160,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I've been here this whole time!",
 			painting = {

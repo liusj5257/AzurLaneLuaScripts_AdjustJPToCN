@@ -1,6 +1,6 @@
 slot0 = class("Fushun3MonsterController")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._tpl = slot1
 	slot0._parent = slot2
 	slot0._event = slot4
@@ -15,14 +15,14 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.monsterPool = {}
 end
 
-function slot0.setDiff(slot0, slot1)
+slot0.setDiff = function(slot0, slot1)
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0:clearMonster()
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	for slot4 = 1, #slot0.monsters do
 		if not slot0.monsters[slot4].damage then
 			slot0.monsters[slot4].rect:step()
@@ -32,7 +32,7 @@ function slot0.step(slot0)
 	slot0:removeOutMonster()
 end
 
-function slot0.removeOutMonster(slot0)
+slot0.removeOutMonster = function(slot0)
 	for slot4 = #slot0.monsters, 1, -1 do
 		if slot0.monsters[slot4].tf.anchoredPosition.x <= math.abs(slot0._sceneTf.anchoredPosition.x) - 1920 then
 			slot0:returnMonsterToPool(table.remove(slot0.monsters, slot4))
@@ -40,7 +40,7 @@ function slot0.removeOutMonster(slot0)
 	end
 end
 
-function slot0.createMonster(slot0, slot1)
+slot0.createMonster = function(slot0, slot1)
 	if slot0:getOrCreateMonster(slot0.monsterDatas[math.random(1, #slot0.monsterDatas)].id) then
 		slot3.damage = false
 
@@ -50,7 +50,7 @@ function slot0.createMonster(slot0, slot1)
 	end
 end
 
-function slot0.getOrCreateMonster(slot0, slot1)
+slot0.getOrCreateMonster = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6 = 1, #slot0.monsterPool do
@@ -99,7 +99,7 @@ function slot0.getOrCreateMonster(slot0, slot1)
 	return slot2
 end
 
-function slot0.checkPlayerDamage(slot0, slot1, slot2)
+slot0.checkPlayerDamage = function(slot0, slot1, slot2)
 	for slot6 = 1, #slot0.monsters do
 		if slot0.monsters[slot6].tf == slot1 and slot7.damage then
 			slot2(true)
@@ -111,7 +111,7 @@ function slot0.checkPlayerDamage(slot0, slot1, slot2)
 	slot2(false)
 end
 
-function slot0.checkMonsterDamage(slot0, slot1, slot2, slot3)
+slot0.checkMonsterDamage = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1.bounds
 
 	for slot8 = 1, #slot0.monsters do
@@ -134,7 +134,7 @@ function slot0.checkMonsterDamage(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.damageMonster(slot0, slot1, slot2, slot3)
+slot0.damageMonster = function(slot0, slot1, slot2, slot3)
 	for slot7 = #slot0.monsters, 1, -1 do
 		if slot0.monsters[slot7].tf == slot1 then
 			if not slot0.monsters[slot7].damage then
@@ -166,7 +166,7 @@ function slot0.damageMonster(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.removeMonster(slot0, slot1)
+slot0.removeMonster = function(slot0, slot1)
 	for slot5 = 1, #slot0.monsters do
 		if slot0.monsters[slot5] == slot1 then
 			slot0:returnMonsterToPool(table.remove(slot0.monsters, slot5))
@@ -176,12 +176,12 @@ function slot0.removeMonster(slot0, slot1)
 	end
 end
 
-function slot0.returnMonsterToPool(slot0, slot1)
+slot0.returnMonsterToPool = function(slot0, slot1)
 	setActive(slot1.tf, false)
 	table.insert(slot0.monsterPool, slot1)
 end
 
-function slot0.clearMonster(slot0)
+slot0.clearMonster = function(slot0)
 	for slot4 = #slot0.monsters, 1, -1 do
 		slot0:returnMonsterToPool(table.remove(slot0.monsters, slot4))
 	end

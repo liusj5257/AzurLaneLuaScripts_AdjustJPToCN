@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO3",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			actor = 903020,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "포슈, 한 소규모 함대가 우릴 향해 접근 중이야.",
 			bgm = "level-french1",
+			actor = 903020,
+			nameColor = "#a9f548",
+			say = "포슈, 한 소규모 함대가 우릴 향해 접근 중이야.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -37,8 +37,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			say = "계획이 들통나면 안 돼. 혹시 사르데냐 엠파이어의 회항 중인 순찰대인가.",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			say = "도중에 맞닥뜨리다니, 정말……",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			say = "모든 목격자를 소멸시키면, 여전히 완벽한 기습 작전이 되겠지————",
 			typewriter = {
 				speed = 0.05,
@@ -97,14 +97,14 @@ return {
 			}
 		},
 		{
-			actor = 603010,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 603010,
+			nameColor = "#ff5c5c",
 			say = "너희는…… 아이리스 교국의 함대?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,8 +132,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			say = "그만 멈추세요. 당신들도 이미 저희의 현재 입장을 알고 있다고 생각을 합니다.",
 			typewriter = {
 				speed = 0.05,
@@ -160,10 +160,10 @@ return {
 			}
 		},
 		{
+			say = "쾅——————————！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "쾅——————————！",
 			flashN = {
 				color = {
 					1,

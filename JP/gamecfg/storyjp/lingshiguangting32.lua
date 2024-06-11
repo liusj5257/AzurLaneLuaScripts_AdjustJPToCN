@@ -1,17 +1,17 @@
 return {
-	id = "LINGSHIGUANGTING32",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "LINGSHIGUANGTING32",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "エリザベス艦隊の本隊が「敵」を突破し、「扉」へとたどり着いたそのとき――",
 			side = 2,
 			bgName = "bg_camelot_13",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-camelot",
+			say = "エリザベス艦隊の本隊が「敵」を突破し、「扉」へとたどり着いたそのとき――",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -34,8 +34,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "「扉」の維持はまだ大丈夫のようです！陛下！",
 			typewriter = {
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 203049,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 203049,
 			actorName = "サフォーク改",
 			say = "陛下、助けに来ました！",
 			typewriter = {
@@ -113,11 +113,11 @@ return {
 			}
 		},
 		{
-			actor = 207029,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 207029,
 			actorName = "アーク・ロイヤル改",
 			say = "インドミタブル、航空戦力は十分か？",
 			typewriter = {
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 206039,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 206039,
 			actorName = "ユニコーン改",
 			say = "ユニコーンも、みんなのために頑張る…！",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 202039,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 202039,
 			actorName = "エイジャックス改",
 			say = "敵がもう目の前に来ていますわね…本当にいいタイミングでしたわ",
 			typewriter = {
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "「扉」からの通信で陛下救出の報せが届くや否や、スカパ・フローから転送装置で送り届けられる限りの最大戦力が投入された。",
 			typewriter = {
 				speed = 0.05,
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト改",
 			say = "スカパ・フローの全艦隊を投入しようとしましたが、ジョージに止められまして…",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "係留保存施設を「再現」している鏡面海域もあるなんて…アンチエックス、一体何を考えて……",
 			typewriter = {
@@ -329,8 +329,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "ええと、エリザベス……陛下？",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "「余燼」所属のレナウンとレパルスです。縁あってロイヤル艦隊と共に行動しています",
 			typewriter = {
@@ -363,8 +363,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "突然ですみませんが、私達も共闘させてくださいませ",
 			typewriter = {
@@ -396,8 +396,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900327,
 			dir = 1,
+			actor = 900327,
 			nameColor = "#ffa500",
 			say = "では、エリザベス女王…はちょっと長いかな。エリザベス様でいいですか？",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "ここの施設と風景をうっすら覚えている程度です。ただ、私たちの記憶にはあんな「黒い竜巻」はなかったはずです",
 			typewriter = {
@@ -462,8 +462,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "陛下！ピュリファイアーの艦隊が消失しました！黒い竜巻の本体がこちらに向かってきています！",
 			typewriter = {
@@ -540,11 +540,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "真正面から食い止めるわ！「キャメロット」のエネルギー供給を上げなさい！",
 			effects = {
 				{
@@ -562,9 +562,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "女王の指示と共に「扉」の構造は変化し、やがて膨大なエネルギー波が放出され、竜巻が放つエネルギーを相殺した。",
 			typewriter = {
 				speed = 0.05,
@@ -643,8 +643,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "間違いありません！でもなぜあの子が……",
 			typewriter = {
@@ -676,8 +676,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "私たちのいた「枝」の艦船の一人で、アンチエックスの管理端末「零」が唯一素体に接続できない存在です",
 			typewriter = {
@@ -693,8 +693,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "どんなに過去の情報にアクセスしても、「ボノム・リシャール」だけは絶対に「再現」できません",
 			typewriter = {
@@ -710,8 +710,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "そして私たちの知っている限り、どの「枝」にも「ボノム・リシャール」が出現したことはありません…",
 			typewriter = {
@@ -727,8 +727,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "私たちも…あの子が「事件」を起こして以来初めて見ました",
 			typewriter = {
@@ -744,8 +744,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "彼女はなぜ貴方たちを追っているのですか…？",
 			typewriter = {
@@ -921,8 +921,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "うん。あの子からは違和感を感じます。とてつもない違和感が……",
 			typewriter = {
@@ -938,8 +938,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "META艦船とは違う「なにか」…ヘレナがいればあるいは分かるかもしれませんが…",
 			typewriter = {
@@ -971,8 +971,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "申し訳ありませんが、私たちは貴方の知っている「レナウン」「レパルス」ではありません",
 			typewriter = {
@@ -988,8 +988,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 900326,
 			dir = 1,
+			actor = 900326,
 			nameColor = "#ffa500",
 			say = "ここにいるのは…艦船として、そしてロイヤルナイトとしての「レナウン」と「レパルス」です！",
 			typewriter = {
@@ -1034,9 +1034,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_camelot_13",
+			dir = 1,
 			say = "黒い竜巻が再び咆哮を上げると、中から無数の「敵」が出現した。",
 			typewriter = {
 				speed = 0.05,
@@ -1096,11 +1096,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト改",
 			say = "陛下、私たちにお任せください！一匹たりとも通しはしません！",
 			typewriter = {
@@ -1113,11 +1113,11 @@ return {
 			}
 		},
 		{
-			actor = 207029,
 			nameColor = "#a9f548",
-			bgName = "bg_camelot_13",
 			side = 2,
+			bgName = "bg_camelot_13",
 			dir = 1,
+			actor = 207029,
 			actorName = "アーク・ロイヤル改",
 			say = "そうですよ陛下！さあ、何匹でも来るがいい！",
 			typewriter = {
@@ -1133,8 +1133,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "一気に雪崩込んできたら対応しきれない！敵が来る前に数を減らす！",
 			typewriter = {
@@ -1214,9 +1214,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_13",
-			actor = 205130,
 			dir = 1,
 			blackBg = true,
+			actor = 205130,
 			nameColor = "#a9f548",
 			say = "はい！ロイヤルナイト、このヴァンガードに続け！",
 			typewriter = {

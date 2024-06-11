@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESICAIDAN",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AISAIKESICAIDAN",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>特殊指令驗證</size>",

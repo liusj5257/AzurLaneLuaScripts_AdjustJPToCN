@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DEYIZHI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DEYIZHI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Cloudy Mask\n\n<size=45>Chapter 3: Dissonance</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 203010,
-			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "I shall now announce the exercise winners in descending order of performance.",
 			bgm = "story-1",
+			actor = 203010,
+			nameColor = "#a9f548",
+			say = "I shall now announce the exercise winners in descending order of performance.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "Listen closely, slave. Wait for the moment my name, Deutschland – the most magnificent armored ship in the world – is read aloud!",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Listen closely, slave. Wait for the moment my name, Deutschland – the most magnificent armored ship in the world – is read aloud!",
+			actor = 403040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "Not so fast! What about me?!",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 203010,
+			say = "You were faster than all others in the moving target shelling category, but there is room for improvement in your accuracy and firing posture.",
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "You were faster than all others in the moving target shelling category, but there is room for improvement in your accuracy and firing posture.",
+			actor = 203010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -230,9 +230,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "London continues reading out names where she left off.",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "I don't... need to...",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -288,11 +288,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "Slave! I'm more powerful than anyone, aren't I?! Yes, I'm just in bad shape today! That's all it is, right?!",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -314,11 +314,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			withoutActorName = true,
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			withoutActorName = true,
+			actor = 403040,
 			nameColor = "#a9f548",
 			say = "She's on the brink of tears. I'd better...",
 			typewriter = {
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "Ahah, eheheh, hahahahaha...",
 			typewriter = {
 				speed = 0.05,
@@ -385,8 +385,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.3,
 					dur = 1.5,
 					x = -2250

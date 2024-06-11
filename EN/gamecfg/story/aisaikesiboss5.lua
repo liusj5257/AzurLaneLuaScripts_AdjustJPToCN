@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESIBOSS5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESIBOSS5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Air Raid Drills With Essex\n\n<size=45>5: Best Memories</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107060,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Essex, Shangri-La, Independence, and all the participants of the special exercise--",
 			bgm = "story-1",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "Essex, Shangri-La, Independence, and all the participants of the special exercise--",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
-			actorName = "Crowd",
 			dir = 1,
+			actorName = "Crowd",
 			say = "Cheers!",
 			dialogShake = {
 				speed = 0.09,
@@ -105,15 +105,15 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "Essex, when you decided to take on the role of the enemy, I didn't think you'd launch such a comprehensive attack... But thanks to that, we were able to fully achieve the purpose of this exercise.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -157,8 +157,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "I, I simply did what was expected of me! If you were in my position, you would've certainly done a better job...",
 			typewriter = {
@@ -189,14 +189,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107380,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "I took a lot of photos of this exercise for our future records. Why don't we look through them together?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,8 +256,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Ehh?! R-really?!",
 			typewriter = {
@@ -273,8 +273,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "(How embarrassing!!)",
 			typewriter = {
@@ -306,8 +306,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "...How unsightly of me...",
 			typewriter = {
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Hey, I wasn't slacking off at all!",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -413,8 +413,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "But there's one photo that I haven't taken yet. Yes, how about one last group photo of all the participants?",
 			typewriter = {
@@ -446,8 +446,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "Woah! Why am I being put in front?!",
 			typewriter = {
@@ -460,8 +460,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -473,8 +473,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "You're the leader of the red group, of course you have to stand in the front. Essex, if you would as well.",
 			typewriter = {
@@ -487,15 +487,15 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "Everyone, on the count of 3... 3, 2, 1--",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -520,13 +520,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Cheese!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -551,8 +551,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			blackNg = true,
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "And thus concluded the Eagle Union's special air drills.",

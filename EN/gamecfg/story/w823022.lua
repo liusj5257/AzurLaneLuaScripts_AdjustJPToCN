@@ -1,12 +1,12 @@
 return {
-	id = "W823022",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W823022",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Our fleet retreated to the entry point to avoid being scanned by the Data Logging Tower. The Energy Matrix returned to its starting position as a result.",
 			typewriter = {
 				speed = 0.05,

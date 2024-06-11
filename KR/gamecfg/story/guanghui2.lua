@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"숙녀의 작은 제안\n\n<size=45>2. 고민상담</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "업무를 마치고 사무실을 떠나려 할 때, 입구에서 기다리고 있는 일러스트리어스를 발견했다.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "업무를 마치고 사무실을 떠나려 할 때, 입구에서 기다리고 있는 일러스트리어스를 발견했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "기회는 얻기 어려우니, 승낙한 김에 무엇을 도와줄 수 있는지 물어보았다.",
 			typewriter = {
 				speed = 0.05,
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "괜찮다고 하면서 일러스트리어스와 함께 다과회에 필요한 것들을 준비하겠다고 결정한다.",
 			typewriter = {
 				speed = 0.05,
@@ -142,13 +142,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "우선 흰색 테이블과 의자 몇 개를 날라왔다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "준비 작업은 상상했던 것보다 더 힘들었다. 두 사람은 가져온 의자에 앉아 잠시 휴식을 취했다.",
 			typewriter = {
 				speed = 0.05,
@@ -203,9 +203,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "일러스트리어스는 어떤 생각에 빠진 것 같았다.",
 			typewriter = {
 				speed = 0.05,
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "하지만 당시에 너무 바빠서, 제때 답장을 못했어요. 그래서 어떻게 하면 좋을지 조금 고민이에요...",
 			typewriter = {
 				speed = 0.05,
@@ -289,9 +289,9 @@ return {
 		{
 			actor = 207050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "초대해 줘서 정말 기쁘지만, 그날 로큰... 음악을 감상해야 해요——",
 			effects = {
 				{
@@ -309,11 +309,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "——그렇게 거절당했어요......",
 			effects = {
 				{
@@ -347,9 +347,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "쉬는 시간을 통해, 일러스트리어스와 함께 어떻게 리토리오에게 답장을 보내고, 포미더블을 움직이게 할지 생각해봐야겠다...",
 			typewriter = {
 				speed = 0.05,
@@ -393,9 +393,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "일러스트리어스는 의자를 당기고 자연스럽게 다가왔다. 서로의 손등이 찰싹 달라붙는 것 같았고, 가슴이 두근거렸다.",
 			typewriter = {
 				speed = 0.05,

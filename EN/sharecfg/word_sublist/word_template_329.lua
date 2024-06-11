@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_329 = {}
 slot1 = slot0.word_template_329
 
-function temp()
+temp = function()
 	uv0["尤"] = {
 		["比"] = {
 			["亞"] = {
@@ -79,7 +79,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["由"] = {
 		["喜"] = {
 			["貴"] = {
@@ -91,7 +91,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["邮"] = {
 		["政"] = {
 			["局"] = {
@@ -103,7 +103,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["铀"] = {
 		this = {
 			this = true
@@ -120,7 +120,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["游"] = {
 		["蕩"] = {
 			["的"] = {
@@ -241,7 +241,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鈾"] = {
 		this = {
 			this = true
@@ -251,7 +251,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["有"] = {
 		["偿"] = {
 			["捐"] = {

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "While Baltimore and the others were preparing for the competition...",
 			side = 2,
 			bgName = "bg_jichang_1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "idol-BlueSpirit-inst",
+			say = "While Baltimore and the others were preparing for the competition...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -115,8 +115,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "Oh, my dear Commander. How sinful you are, showing my perfect, idol self to others... Even though you were supposed to be the only one allowed to see me like this...",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -164,8 +164,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 403080,
 			dir = 1,
+			actor = 403080,
 			nameColor = "#a9f548",
 			say = "In other words, if you want the Commander to be your captive audience, you're going to need to put in more effort.",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "...It's just as you say. All I'll need to do is focus solely on the Commander, and my performance will be flawless.",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 403080,
 			dir = 1,
+			actor = 403080,
 			nameColor = "#a9f548",
 			say = "You mean, *our* performance.",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "Yeah, that's right. Our performance, powered by the Muse System... Hehehe♡",
 			typewriter = {
@@ -229,15 +229,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_jichang_1",
-			actorName = "？？？",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "？？？",
 			say = "Man raises acclaim, while the beloved, God's idol be.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
+			dir = 1,
 			say = "Hmm...",
 			typewriter = {
 				speed = 0.05,
@@ -311,11 +311,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
+			actorName = "Le Triomphant",
 			dir = 1,
 			blackBg = true,
 			actor = 901120,
-			actorName = "Le Triomphant",
+			nameColor = "#a9f548",
 			say = "Sister, please show everyone the majestic elegance of Iris.",
 			typewriter = {
 				speed = 0.05,

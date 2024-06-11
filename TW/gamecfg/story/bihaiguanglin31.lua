@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN31",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_6",
-			actorName = "{namecode:18}",
 			dir = 1,
 			bgmDelay = 1,
-			say = "謎之音小姐，我來啦~這次的問題是什麼？",
 			bgm = "battle-longgong",
+			actorName = "{namecode:18}",
+			say = "謎之音小姐，我來啦~這次的問題是什麼？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "謎之音",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "謎之音",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:18}",
+			side = 2,
 			bgName = "bg_daofeng_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "謎之音",
+			side = 2,
 			bgName = "bg_daofeng_6",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#ffff4d",
 			say = "「了然。烈焰之秘寶向勇者獻上，繼續前進吧」",
 			typewriter = {
 				speed = 0.05,

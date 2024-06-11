@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENGLIFU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANCHENGLIFU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Special Banquet\n\n<size=45>Chapter 1: Preparations Done, Nya!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Kitchen",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Kitchen",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "I'm wiped, nya... It's not easy setting up an event for everyone here at port, nya...",
 			typewriter = {
@@ -81,13 +81,13 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "That should be obvious... Anyway, you should get down from there before you get your new clothes dirty.",
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "That should be obvious... Anyway, you should get down from there before you get your new clothes dirty.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "I see that you two are working hard.",
 			typewriter = {
@@ -152,9 +152,9 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
+			say = "Thanks for staffing the kitchen, Hiei. Tonight's ingredients should have all arrived by now, nya.",
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "Thanks for staffing the kitchen, Hiei. Tonight's ingredients should have all arrived by now, nya.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "Indeed. I appreciate it.",
 			typewriter = {
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "A banquet's success isn't solely determined by its glitz or glamor. The hard work behind the scenes is far more important.",
 			typewriter = {
@@ -221,11 +221,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "For me, being able to put in this kind of work is the essence of being a good host.",
 			typewriter = {
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 1,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "You have a point... We're only able to have extravagant events like this because of everyone's hard work...",
 			typewriter = {
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 1,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "You're as energetic as ever... Well, I even entered that cooking contest. Heheh, it was more memorable than I first thought.",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -318,11 +318,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "She was very close to advancing to the finals, but she lost to Matsukaze's home-style cooking in the semifinals...",
 			typewriter = {
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 1,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "Matsukaze's motherly meals were truly tremendous... I stood no chance...",
 			typewriter = {
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "Hehe, I was one of the judges for the match. It was an amazing round.",
 			typewriter = {
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "Nowhere else except in this fleet would you be able to see so many various cuisines placed together side-to-side.",
 			typewriter = {
@@ -404,11 +404,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 1,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "Before you ask, you're not mooching a free meal off of me.",
 			typewriter = {
@@ -439,19 +439,19 @@ return {
 			},
 			action = {
 				{
-					type = "move",
+					y = 0,
 					dur = 0.7,
 					x = 675,
-					y = 0
+					type = "move"
 				}
 			}
 		},
 		{
-			actor = 312012,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 312012,
 			actorName = "{namecode:20}",
 			say = "You cheapscat! Get your paws off me! Let go!",
 			subActors = {
@@ -472,8 +472,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -482,11 +482,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "Fine, fine, have it your way! Just this time, I'll bring you something.",
 			typewriter = {
@@ -499,8 +499,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -509,11 +509,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "That's more like it, nya!",
 			typewriter = {
@@ -526,11 +526,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "Hehe~ I'm glad you two get along so well.",
 			typewriter = {
@@ -543,11 +543,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "But... Shiranui made an important point. We're only able to celebrate like this because of everyone's hard work.",
 			typewriter = {
@@ -560,13 +560,13 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "That's right. Even now, there's still someone buried in work...",
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "That's right. Even now, there's still someone buried in work...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -581,11 +581,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "Oh my. Shiranui, are you worried about Commander?",
 			typewriter = {
@@ -598,11 +598,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 1,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "... As if. I just hope that Commander doesn't forget about the banquet due to having too much work.",
 			typewriter = {
@@ -615,11 +615,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "Hehe. I'm sure everyone knows just how hard Commander is working. We can all see the lights of the office glowing through the night.",
 			typewriter = {
@@ -632,11 +632,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "We just need to do our part so that everyone can have a good time at the banquet.",
 			typewriter = {
@@ -649,11 +649,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = -1,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "That's right, nya~ I've had enough of a break, so I'm off to the banquet, nya!",
 			typewriter = {
@@ -666,8 +666,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 1500
@@ -675,11 +675,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "I'm not a fan of crowded places, so I'll help out from here.",
 			typewriter = {
@@ -692,12 +692,12 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "Hehe~ Your help is much appreciated~",
 			typewriter = {

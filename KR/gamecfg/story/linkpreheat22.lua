@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT22",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"꿈의 만남 - 일상편\n\n<size=45>누구를 위해 그대는 싸우는가</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "……당신들은 무엇을 위해 싸우는 거지?",
 			bgm = "story-uta",
+			actor = 403030,
+			nameColor = "#92fc63",
+			say = "……당신들은 무엇을 위해 싸우는 거지?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "그건 우리들을 향한 질문이라 이해해도 되겠습니까?",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그건 우리들을 향한 질문이라 이해해도 되겠습니까?",
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -171,8 +171,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "으~음, 부하인지 하인인지……어째서 이 둘이 그 사람 밑에 붙게 된 건지는, 우리도 잘은 모르지 않나?",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#92fc63",
 			say = "……불결한 거에요.",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#92fc63",
 			say = "그, 그건 본인들이 그렇게 말할 뿐이에요……그 분은 부정하고 있고, 하고 있는 건 일상적인 시중 정도로……",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#92fc63",
 			say = "우리들은 주인님만의 것.",
 			typewriter = {
@@ -255,10 +255,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "우리들은 주인님의 모든 것을 섬기고, 영원한 충성을 맹세한 몸……육체도 정신도, 혼까지도 주인님을 섬겼습니다.",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -276,8 +276,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#92fc63",
 			say = "다시 말해, 육인형.",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			nameColor = "#92fc63",
 			say = "주인님의 명이 있으면, 설령 불속이든 물속이든……일어날 때 부터 잠이 들 때까지, 침대에서도 욕실에서도 변소에서도……주인님을 위해 모든 시중을 들고 있습니다.",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "정말이지……그 대사도 이미 질리게 들었달까나.",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#92fc63",
 			say = "치, 치치치, 침대에, 욕실에……변소까지……(털썩)",
 			typewriter = {
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -370,8 +370,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#92fc63",
 			say = "…………불결한 거에요.",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#92fc63",
 			say = "저도 쿠온을 위해서라면 기꺼이 봉사할 수 있습니다만?",
 			typewriter = {
@@ -484,8 +484,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#92fc63",
 			say = "미래영겁, 주인님과 함께……",
 			typewriter = {
@@ -501,10 +501,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "우리들은 언제까지나, 길이길이 주인님의 곁을 모시는 자. 사슬의 무녀라는 이름처럼, 우리들의 운명은 주인님과 단단한 사슬로 얽혀있습니다.",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -586,8 +586,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#92fc63",
 			say = "닮았다? 쌍둥이와 Z23 일행이……? 그건 무슨 말일까나?",
 			typewriter = {
@@ -760,12 +760,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "그렇군요, 확실히 당신들의 삶과 우리들의 삶은 겹치는 부분이 있습니다.",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그렇군요, 확실히 당신들의 삶과 우리들의 삶은 겹치는 부분이 있습니다.",
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -831,8 +831,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#92fc63",
 			say = "우문.",
 			typewriter = {
@@ -848,10 +848,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "주인님은 우리들이 스스로 선택한 분. 우리들은 진심으로 주인님을 연모하고 있습니다.",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -885,8 +885,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#92fc63",
 			say = "당신도 동류.",
 			typewriter = {
@@ -902,10 +902,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "오이겐님, 당신도 그렇진 않습니까? 지휘관이라는 사람을 마음속 깊은 곳에서 부터 인정하고, 우리들과 같은 생각을……",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1048,12 +1048,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "오이겐님이 저희들에게 공감한 것처럼, 저희들도 당신과 닮은 듯한 냄새를 느끼고 있었습니다.",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "오이겐님이 저희들에게 공감한 것처럼, 저희들도 당신과 닮은 듯한 냄새를 느끼고 있었습니다.",
+			actor = 10300050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1148,12 +1148,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#92fc63",
 			say = "그런 사람을 '리더' 라고 하는 거야.",
 			typewriter = {
 				speed = 0.05,

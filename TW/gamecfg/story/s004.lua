@@ -11,9 +11,9 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_1",
 			side = 0,
-			bgm = "story-5",
 			bgSpeed = 1.5,
 			say = "胡德！！！",
+			bgm = "story-5",
 			effects = {
 				{
 					active = true,
@@ -25,8 +25,8 @@ return {
 			actor = 900006,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "啊———這股不尋常的力量是…果然妳們也染指了……",
 			subBgName = "bg_story_1_sub",
+			say = "啊———這股不尋常的力量是…果然妳們也染指了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,10 +87,10 @@ return {
 			actor = 900010,
 			nameColor = "#ff0000",
 			bgName = "bg_story_3",
-			side = 1,
-			bgFade = true,
-			blackBg = true,
 			say = "吾之榮譽即忠誠——唯有強大的力量，才能拯救更多的人類，我們…只不過是選擇了一條不同的道路罷了。",
+			side = 1,
+			blackBg = true,
+			bgFade = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,12 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			mode = 2,
 			dir = -1,
 			blackBg = true,
+			actor = 900011,
+			mode = 2,
 			say = "…人類真是有趣的生物，只不過施捨了他們冰山一角的力量，歷史就要開始重演了",
 			shake = {
 				speed = 1,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			mode = 2,
 			blackBg = true,
+			actor = 900012,
+			mode = 2,
 			say = "先繼續觀察一段時間吧，我對他們的未來發展可是很期待的喲~",
 			shake = {
 				speed = 1,
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			mode = 2,
 			blackBg = true,
+			actor = 900012,
+			mode = 2,
 			say = "畢竟如果不這麼做的話，我們回到這個時代不就沒有意義了嗎？呵呵呵~",
 			shake = {
 				speed = 1,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{

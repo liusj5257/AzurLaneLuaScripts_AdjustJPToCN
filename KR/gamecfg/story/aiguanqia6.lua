@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA6",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA6",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
@@ -38,8 +38,8 @@ return {
 			actor = 10400010,
 			side = 1,
 			expression = 4,
-			nameColor = "#92fc63",
 			dir = 1,
+			nameColor = "#92fc63",
 			say = "다들 무사해서 다행이야~!",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			expression = 5,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "하지만…… 으응~ 역시 자기 자신을 쓰러트리는 건 뭔가 이상한 기분이 드네.",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			expression = 6,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "아! 뭔가 힘이 솟는 기분이 드는 것 같기도!? 지금이라면 변신할 수 있을 것 같아!",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			expression = 4,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "다들 잘 봐줘~ 변~ …신!",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "쿠구구구구구구구구궁……!",
 			typewriter = {
 				speed = 0.05,
@@ -287,8 +287,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "키즈나 아이",
 			say = "훙후후~웅♪ 자, 여러분! 쇠뿔은 단김에 빼라 했어요. 얼른 가보도록 해요♪",
 			typewriter = {

@@ -1,17 +1,17 @@
 return {
-	id = "WORLD203D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD203D",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101330,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "亞特蘭大，快看，皇家的救援隊來了！",
 			dir = 1,
 			bgm = "story-french1",
+			actor = 101330,
+			nameColor = "#a9f548",
+			say = "亞特蘭大，快看，皇家的救援隊來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -65,8 +65,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "這裡應該不是白鷹的作戰區域才對，妳們為什麼會來到這裡，發生什麼事了？",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "...科研任務？現在整片NA海域已經被劃歸為前線戰區了哦！",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -197,8 +197,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "皇家方舟根本不在這片區域執行任務，況且她一個人也不可能鬧出這麼大動靜。果然是剛才感覺到的餘燼...",
 			typewriter = {
 				speed = 0.05,
@@ -227,9 +227,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "我也想問我也想問，從剛才開始妳們就一直談到的餘燼是什麼啊！",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -254,8 +254,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "NY司令部什麼都沒說就派妳們來這裡執行科研任務了嗎？！",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "可畏，餘燼的情報依然是保密事項，她們不清楚也正常。",
 			typewriter = {
 				speed = 0.05,
@@ -301,8 +301,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "......唉，至少叮囑一下進入海域作戰的艦隊啊，真是的。",
 			typewriter = {
 				speed = 0.05,
@@ -317,8 +317,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "之前摧毀了塞壬艦隊的那個酷似皇家方舟的人就是餘燼。她們擁有與我們相似的外表，擁有強大的力量，不會被雷達捕捉，而且基本拒絕交流，行動也難以預測。",
 			typewriter = {
 				speed = 0.05,
@@ -348,8 +348,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "因為保密義務，我不能向妳們透露更多餘燼的情報了，詳細的事等妳們回去直接問NY司令部好了。",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "是...！呃…真的能去問嗎…？",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -405,8 +405,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "好了，這裡不是能悠閒談話的地方，就由我們護送妳們前往皇家港口吧，詳細的事等回去再說。",
 			typewriter = {
 				speed = 0.05,
@@ -435,9 +435,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "說什麼傻話，靠妳們現在的狀況，回頭只會成為鯊魚的美餐哦。",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -462,8 +462,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "這裡是LD司令部管轄的海域，妳們聽從命令，立刻隨我們返回皇家港口修整。",
 			typewriter = {
 				speed = 0.05,
@@ -493,8 +493,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "嗯，這才對~大家組成護衛陣型，準備出發。救援任務還沒結束，不要放鬆警惕哦！",
 			typewriter = {
 				speed = 0.05,

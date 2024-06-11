@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN37",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN37",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg16",
+			nameColor = "#A9F548FF",
+			bgm = "theme-shinanometa",
 			stopbgm = true,
 			say = "演習場・中心部",
-			bgm = "theme-shinanometa",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "観測した結果はどうかしら？",
 			painting = {
@@ -92,8 +92,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "うまくいったようね。…いいえ、本当にうまくいったのかしら",
 			painting = {
@@ -121,8 +121,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "あの黒いキューブのことね…しかし、この「力」は赤城のリュウコツにどう影響するのかしら？",
 			painting = {
@@ -174,8 +174,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "根本的な解決に至っていないわ。これは単なる延命処置、自我を喪失するまでの時間を伸ばすだけね",
 			painting = {
@@ -203,8 +203,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "汝もその犠牲になった、ということかしら",
 			painting = {
@@ -232,8 +232,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "その体になってまで……汝の存在こそ、この技術の危険性を物語っているようなものだと思わないの？",
 			painting = {
@@ -273,8 +273,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "「ワタツミ」を使った決戦兵器……か",
 			painting = {
@@ -290,8 +290,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "汝たちはそんな兵器を有していながら、なぜあの「エックス」には負けたの？",
 			painting = {
@@ -343,8 +343,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "妾たち、いいえ、この「枝」に賭けるつもりかしら。汝の提案は安心させるようでありながら危険な匂いもするわ",
 			painting = {
@@ -360,8 +360,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "いざという時、赤城を止めるためにも……",
 			painting = {

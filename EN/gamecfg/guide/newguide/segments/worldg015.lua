@@ -23,8 +23,8 @@ return {
 			style = {
 				text = "Fleets can move between zones by heading towards tiles at the edges of each zone.",
 				mode = 2,
-				posY = 296.05,
 				dir = -1,
+				posY = 296.05,
 				posX = -417.84
 			}
 		},
@@ -82,8 +82,8 @@ return {
 			style = {
 				text = "A red cell means that the current zone is too difficult",
 				mode = 2,
-				posY = 296.05,
 				dir = -1,
+				posY = 296.05,
 				posX = -417.84
 			}
 		},
@@ -141,8 +141,8 @@ return {
 			style = {
 				text = "A stop indication means that your fleet cannot move into another zone from that edge of the map.",
 				mode = 2,
-				posY = 296.05,
 				dir = -1,
+				posY = 296.05,
 				posX = -417.84
 			}
 		},
@@ -199,8 +199,8 @@ return {
 			style = {
 				text = "All right, please follow the indicated directions and head to a new zone!",
 				mode = 2,
-				posY = 296.05,
 				dir = -1,
+				posY = 296.05,
 				posX = -417.84
 			}
 		}

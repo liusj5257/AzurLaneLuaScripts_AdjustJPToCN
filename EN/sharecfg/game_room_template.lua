@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.game_room_template = {
 	{
+		id = 1,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
 		coin_max = 5,
 		game_id = 1002,
-		add_type = 12,
-		type = 11,
-		id = 1,
-		add_base = 200,
 		icon = "diediele",
 		order = 1,
 		unlock_time = {
@@ -69,12 +69,12 @@ Over 30 points: 260 Game Tickets
 		}
 	},
 	{
+		id = 2,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
 		coin_max = 5,
 		game_id = 1003,
-		add_type = 12,
-		type = 11,
-		id = 2,
-		add_base = 200,
 		icon = "sanxiao",
 		order = 2,
 		unlock_time = {
@@ -114,26 +114,26 @@ Over 30 points: 260 Game Tickets
 		game_help = {
 			{
 				icon = {
-					atlas = "helpbg/3match_1",
-					path = ""
+					path = "",
+					atlas = "helpbg/3match_1"
 				}
 			},
 			{
 				icon = {
-					atlas = "helpbg/3match_2",
-					path = ""
+					path = "",
+					atlas = "helpbg/3match_2"
 				}
 			},
 			{
 				icon = {
-					atlas = "helpbg/3match_3",
-					path = ""
+					path = "",
+					atlas = "helpbg/3match_3"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			ImageMode = true,
 			defaultpage = 1,
+			ImageMode = true,
 			windowSize = {
 				x = 1263,
 				y = 873
@@ -152,12 +152,12 @@ Over 30 points: 260 Game Tickets
 		}
 	},
 	{
+		id = 3,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
 		coin_max = 5,
 		game_id = 1004,
-		add_type = 12,
-		type = 11,
-		id = 3,
-		add_base = 200,
 		icon = "sheji",
 		order = 3,
 		unlock_time = {
@@ -221,12 +221,12 @@ Over 30 points: 260 Game Tickets
 		}
 	},
 	{
+		id = 4,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
 		coin_max = 5,
 		game_id = 1005,
-		add_type = 12,
-		type = 11,
-		id = 4,
-		add_base = 200,
 		icon = "xiaochi",
 		order = 4,
 		unlock_time = {
@@ -293,12 +293,12 @@ Over 20 points: 260 Game Tickets
 		}
 	},
 	{
+		id = 5,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
 		coin_max = 5,
 		game_id = 1006,
-		add_type = 12,
-		type = 11,
-		id = 5,
-		add_base = 200,
 		icon = "xiuxing",
 		order = 5,
 		unlock_time = {
@@ -338,20 +338,20 @@ Over 20 points: 260 Game Tickets
 		game_help = {
 			{
 				icon = {
-					atlas = "helpbg/guinu_help1",
-					path = ""
+					path = "",
+					atlas = "helpbg/guinu_help1"
 				}
 			},
 			{
 				icon = {
-					atlas = "helpbg/guinu_help2",
-					path = ""
+					path = "",
+					atlas = "helpbg/guinu_help2"
 				}
 			},
 			disableScroll = true,
 			pageMode = true,
-			ImageMode = true,
 			defaultpage = 1,
+			ImageMode = true,
 			windowSize = {
 				x = 1263,
 				y = 873

@@ -1,11 +1,11 @@
 slot0 = class("EducateShopProxy")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.binder = slot1
 	slot0.data = {}
 end
 
-function slot0.SetUp(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	slot2 = {}
 	slot3 = ipairs
 	slot4 = slot1.shops or {}
@@ -29,32 +29,32 @@ function slot0.SetUp(slot0, slot1)
 	end
 end
 
-function slot0.GetShopWithId(slot0, slot1)
+slot0.GetShopWithId = function(slot0, slot1)
 	return slot0.data[slot1]
 end
 
-function slot0.UpdateShop(slot0, slot1)
+slot0.UpdateShop = function(slot0, slot1)
 	slot0.data[slot1.id] = slot1
 end
 
-function slot0.GetDiscountData(slot0)
+slot0.GetDiscountData = function(slot0)
 	return slot0.discountData
 end
 
-function slot0.IsDiscountById(slot0, slot1)
+slot0.IsDiscountById = function(slot0, slot1)
 	return slot0.discountData[slot1]
 end
 
-function slot0.GetDiscountById(slot0, slot1)
+slot0.GetDiscountById = function(slot0, slot1)
 	return slot0.discountData[slot1] and slot2:GetDiscountRatio() or 0
 end
 
-function slot0.AddDiscountEventById(slot0, slot1)
+slot0.AddDiscountEventById = function(slot0, slot1)
 	slot2 = EducateSpecialEvent.New(slot1)
 	slot0.discountData[slot2:GetDiscountShopId()] = slot2
 end
 
-function slot0.OnNewWeek(slot0, slot1)
+slot0.OnNewWeek = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.data) do

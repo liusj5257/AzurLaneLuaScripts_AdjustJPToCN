@@ -1,6 +1,6 @@
 slot0 = class("ChallengeShareMediator", import("..base.ContextMediator"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot2 = getProxy(ChallengeProxy):getUserChallengeInfo(slot0.contextData.mode)
 
 	slot0.viewComponent:setLevel(slot2:getLevel())

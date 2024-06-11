@@ -1,13 +1,13 @@
 slot0 = class("WorldConst")
 slot0.Debug = false
 
-function slot0.Print(...)
+slot0.Print = function(...)
 	if uv0.Debug then
 		warning(...)
 	end
 end
 
-function slot0.DebugPrintAttachmentCell(slot0, slot1)
+slot0.DebugPrintAttachmentCell = function(slot0, slot1)
 	if not uv0.Debug then
 		return
 	end
@@ -25,7 +25,7 @@ end
 
 slot0.DefaultAtlas = 1
 
-function slot0.GetProgressAtlas(slot0)
+slot0.GetProgressAtlas = function(slot0)
 	return uv0.DefaultAtlas
 end
 
@@ -114,7 +114,7 @@ slot0.DirRight = 2
 slot0.DirDown = 3
 slot0.DirLeft = 4
 
-function slot0.DirToLine(slot0)
+slot0.DirToLine = function(slot0)
 	if slot0 == uv0.DirNone then
 		return {
 			row = 0,
@@ -147,29 +147,29 @@ end
 
 slot0.DefaultMapOffset = Vector3(0, -1000, -1000)
 
-function slot0.InFOVRange(slot0, slot1, slot2, slot3, slot4)
+slot0.InFOVRange = function(slot0, slot1, slot2, slot3, slot4)
 	slot4 = slot4 or uv0.GetFOVRadius()
 
 	return (slot0 - slot2) * (slot0 - slot2) + (slot1 - slot3) * (slot1 - slot3) <= slot4 * slot4
 end
 
-function slot0.GetFOVRadius()
+slot0.GetFOVRadius = function()
 	return pg.gameset.world_move_initial_view.key_value
 end
 
-function slot0.IsRookieMap(slot0)
+slot0.IsRookieMap = function(slot0)
 	return _.any(pg.gameset.world_guide_map_list.description, function (slot0)
 		return uv0 == slot0
 	end)
 end
 
-function slot0.GetRealmRookieId(slot0)
+slot0.GetRealmRookieId = function(slot0)
 	assert(slot0 and slot0 > 0)
 
 	return unpack(pg.gameset.world_default_entrance.description[slot0])
 end
 
-function slot0.ParseConfigDir(slot0, slot1)
+slot0.ParseConfigDir = function(slot0, slot1)
 	if slot0 == -1 then
 		return WorldConst.DirUp
 	elseif slot0 == 1 then
@@ -183,7 +183,7 @@ function slot0.ParseConfigDir(slot0, slot1)
 	assert(false)
 end
 
-function slot0.Pos2FogRes(slot0, slot1)
+slot0.Pos2FogRes = function(slot0, slot1)
 	return "miwu0" .. slot0 % 3 * 3 + slot1 % 3 + 1
 end
 
@@ -204,7 +204,7 @@ slot0.TerrainPoisonRes = {
 	"poison02"
 }
 
-function slot0.GetTerrainEffectRes(slot0, slot1, slot2)
+slot0.GetTerrainEffectRes = function(slot0, slot1, slot2)
 	if slot0 == WorldMapCell.TerrainStream then
 		slot3 = uv0.TerrainStreamRes[slot1]
 
@@ -224,17 +224,17 @@ function slot0.GetTerrainEffectRes(slot0, slot1, slot2)
 	assert(false)
 end
 
-function slot0.GetWindEffect()
+slot0.GetWindEffect = function()
 	return "world/object/longjuanfeng", "longjuanfeng"
 end
 
-function slot0.GetBuffEffect(slot0)
+slot0.GetBuffEffect = function(slot0)
 	return "ui/" .. slot0, slot0
 end
 
 slot0.PoisonEffect = "san_low"
 
-function slot0.ArrayEffectOrder(slot0, slot1)
+slot0.ArrayEffectOrder = function(slot0, slot1)
 	slot2 = {}
 
 	for slot7 = 0, slot0:GetComponentsInChildren(typeof(Renderer), true).Length - 1 do
@@ -267,7 +267,7 @@ slot0.WindScale = {
 	1
 }
 
-function slot0.GetWindScale(slot0)
+slot0.GetWindScale = function(slot0)
 	slot1 = slot0 and uv0.WindScale[slot0] or 1
 
 	return Vector3(slot1, slot1, slot1)
@@ -275,7 +275,7 @@ end
 
 slot0.BaseMoveDuration = 0.35
 
-function slot0.GetTerrainMoveStepDuration(slot0)
+slot0.GetTerrainMoveStepDuration = function(slot0)
 	uv0.MoveStepDuration = uv0.MoveStepDuration or {
 		[WorldMapCell.TerrainNone] = uv0.BaseMoveDuration,
 		[WorldMapCell.TerrainWind] = uv0.BaseMoveDuration / 2,
@@ -299,7 +299,7 @@ slot0.DirType1 = 1
 slot0.DirType2 = 2
 slot0.DirType4 = 4
 
-function slot0.CalcModelPosition(slot0, slot1)
+slot0.CalcModelPosition = function(slot0, slot1)
 	return Vector3((slot0.config.area_pos[1] - slot1.x / 2) / PIXEL_PER_UNIT, 0, (slot0.config.area_pos[2] - slot1.y / 2) / PIXEL_PER_UNIT)
 end
 
@@ -307,7 +307,7 @@ slot0.BrokenBuffId = pg.gameset.world_death_buff.key_value
 slot0.MoveLimitBuffId = pg.gameset.world_move_buff_desc.key_value
 slot0.DamageBuffList = pg.gameset.world_buff_morale.description
 
-function slot0.ExtendPropertiesRatesFromBuffList(slot0, slot1)
+slot0.ExtendPropertiesRatesFromBuffList = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		assert(slot6.class == WorldBuff)
 
@@ -321,7 +321,7 @@ function slot0.ExtendPropertiesRatesFromBuffList(slot0, slot1)
 	end
 end
 
-function slot0.AppendPropertiesFromBuffList(slot0, slot1, slot2)
+slot0.AppendPropertiesFromBuffList = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2) do
 		assert(slot7.class == WorldBuff)
 
@@ -354,13 +354,13 @@ slot0.TransportDisplayGuideEnable = 1
 slot0.TransportDisplayGuideDanger = 2
 slot0.TransportDisplayGuideForbid = 3
 
-function slot0.CalcRelativeRectPos(slot0, slot1, slot2, slot3)
+slot0.CalcRelativeRectPos = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2.x + slot1.width / 2
 	slot5 = slot2.x + slot2.width - slot1.width / 2
 	slot6 = slot2.y + slot1.height / 2
 	slot7 = slot2.y + slot2.height - slot1.height / 2
 
-	function slot8(slot0)
+	slot8 = function(slot0)
 		return uv0 <= slot0.x and slot0.x <= uv1 and uv2 <= slot0.y and slot0.y <= uv3
 	end
 
@@ -386,7 +386,7 @@ function slot0.CalcRelativeRectPos(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.GetMapIconState(slot0)
+slot0.GetMapIconState = function(slot0)
 	if slot0 == 1 then
 		return "normal"
 	elseif slot0 == 2 then
@@ -398,7 +398,7 @@ function slot0.GetMapIconState(slot0)
 	end
 end
 
-function slot0.HasDangerConfirm(slot0)
+slot0.HasDangerConfirm = function(slot0)
 	if slot0 == 1 then
 		return false
 	elseif slot0 == 2 then
@@ -434,7 +434,7 @@ slot0.SystemAutoFight_2 = 20
 slot0.SystemAutoSwitch = 21
 slot0.SystemDailyTask = 22
 
-function slot0.BuildHelpTips(slot0)
+slot0.BuildHelpTips = function(slot0)
 	slot1 = i18n("world_stage_help")
 	slot3 = 1
 
@@ -456,7 +456,7 @@ end
 
 slot0.AnimRadar = "RadarEffectUI"
 
-function slot0.FindStageTemplates(slot0)
+slot0.FindStageTemplates = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(pg.world_stage_template.all) do
@@ -468,7 +468,7 @@ function slot0.FindStageTemplates(slot0)
 	return slot1
 end
 
-function slot0.GetRookieBattleLoseStory()
+slot0.GetRookieBattleLoseStory = function()
 	return pg.gameset.world_story_special_2.description[1]
 end
 
@@ -476,7 +476,7 @@ slot0.FOVMapSight = 1
 slot0.FOVEventEffect = 2
 slot0.GuideEnemyEnd = false
 
-function slot0.IsWorldGuideEnemyId(slot0)
+slot0.IsWorldGuideEnemyId = function(slot0)
 	if uv0.GuideEnemyEnd then
 		return false
 	end
@@ -484,7 +484,7 @@ function slot0.IsWorldGuideEnemyId(slot0)
 	return table.contains(pg.gameset.world_guide_enemy_id.description, slot0)
 end
 
-function slot0.WorldLevelCorrect(slot0, slot1)
+slot0.WorldLevelCorrect = function(slot0, slot1)
 	for slot5, slot6 in ipairs(pg.gameset.world_expedition_level.description) do
 		for slot10, slot11 in ipairs(slot6[1]) do
 			if slot1 == slot11 then
@@ -496,13 +496,13 @@ function slot0.WorldLevelCorrect(slot0, slot1)
 	return math.max(slot0, 1)
 end
 
-function slot0.GetAreaFocusPos(slot0)
+slot0.GetAreaFocusPos = function(slot0)
 	slot1 = pg.world_regions_data[slot0].regions_pos
 
 	return Vector2(slot1[1], slot1[2])
 end
 
-function slot0.GetTransportBlockEvent()
+slot0.GetTransportBlockEvent = function()
 	if not uv0.blockEventDic then
 		uv0.blockEventDic = {}
 
@@ -514,7 +514,7 @@ function slot0.GetTransportBlockEvent()
 	return uv0.blockEventDic
 end
 
-function slot0.GetTransportStoryEvent()
+slot0.GetTransportStoryEvent = function()
 	if not uv0.blockStoryDic then
 		uv0.blockStoryDic = {}
 
@@ -526,7 +526,7 @@ function slot0.GetTransportStoryEvent()
 	return uv0.blockStoryDic
 end
 
-function slot0.IsWorldHelpNew(slot0, slot1)
+slot0.IsWorldHelpNew = function(slot0, slot1)
 	if slot1 then
 		PlayerPrefs.SetInt("world_help_progress", slot0)
 		PlayerPrefs.Save()
@@ -553,7 +553,7 @@ function slot0.IsWorldHelpNew(slot0, slot1)
 	end
 end
 
-function slot0.ParsingBuffs(slot0)
+slot0.ParsingBuffs = function(slot0)
 	_.each(slot0, function (slot0)
 		slot1 = WorldBuff.New()
 
@@ -570,7 +570,7 @@ function slot0.ParsingBuffs(slot0)
 	return {}
 end
 
-function slot0.CompareBuffs(slot0, slot1)
+slot0.CompareBuffs = function(slot0, slot1)
 	slot3 = {}
 	slot4 = _.extend({}, slot1)
 
@@ -589,7 +589,7 @@ function slot0.CompareBuffs(slot0, slot1)
 	}
 end
 
-function slot0.FetchWorldShip(slot0)
+slot0.FetchWorldShip = function(slot0)
 	slot1 = nowWorld():GetShip(slot0)
 
 	assert(slot1, "world ship not exist: " .. slot0)
@@ -597,7 +597,7 @@ function slot0.FetchWorldShip(slot0)
 	return slot1
 end
 
-function slot0.FetchShipVO(slot0)
+slot0.FetchShipVO = function(slot0)
 	slot2 = getProxy(BayProxy):getShipById(slot0)
 
 	assert(slot2, "ship not exist: " .. slot0)
@@ -605,7 +605,7 @@ function slot0.FetchShipVO(slot0)
 	return slot2
 end
 
-function slot0.FetchRawShipVO(slot0)
+slot0.FetchRawShipVO = function(slot0)
 	slot2 = getProxy(BayProxy):getRawData()[slot0]
 
 	assert(slot2, "ship not exist: " .. slot0)
@@ -613,7 +613,7 @@ function slot0.FetchRawShipVO(slot0)
 	return slot2
 end
 
-function slot0.ReqWorldCheck(slot0)
+slot0.ReqWorldCheck = function(slot0)
 	slot1 = {}
 
 	if nowWorld().type == World.TypeBase then
@@ -635,7 +635,7 @@ function slot0.ReqWorldCheck(slot0)
 	seriesAsync(slot1, slot0)
 end
 
-function slot0.ReqWorldForServer()
+slot0.ReqWorldForServer = function()
 	slot0 = pg.ConnectionMgr.GetInstance()
 
 	slot0:Send(33000, {
@@ -660,15 +660,15 @@ slot0.ObstacleType = {
 	"pass"
 }
 
-function slot0.GetObstacleKey(slot0)
+slot0.GetObstacleKey = function(slot0)
 	return bit.lshift(1, #uv0.ObstacleType - table.indexof(uv0.ObstacleType, slot0))
 end
 
-function slot0.GetObstacleConfig(slot0, slot1)
+slot0.GetObstacleConfig = function(slot0, slot1)
 	return bit.band(uv0.ObstacleConfig[slot0], uv0.GetObstacleKey(slot1)) > 0
 end
 
-function slot0.RangeCheck(slot0, slot1, slot2)
+slot0.RangeCheck = function(slot0, slot1, slot2)
 	for slot6 = slot0.row - slot1, slot0.row + slot1 do
 		for slot10 = slot0.column - slot1, slot0.column + slot1 do
 			if uv0.InFOVRange(slot0.row, slot0.column, slot6, slot10, slot1) then
@@ -678,11 +678,11 @@ function slot0.RangeCheck(slot0, slot1, slot2)
 	end
 end
 
-function slot0.CheckWorldStorySkip(slot0)
+slot0.CheckWorldStorySkip = function(slot0)
 	return table.contains(pg.gameset.world_quickmode_skiplua.description, slot0) and getProxy(SettingsProxy):GetWorldFlag("story_tips") and pg.NewStoryMgr.GetInstance():IsPlayed(slot0)
 end
 
-function slot0.GetNShopTimeStamp()
+slot0.GetNShopTimeStamp = function()
 	if not uv0.nShopTimestamp then
 		slot1, slot2, slot3 = unpack(getGameset("world_newshop_date")[2])
 		uv0.nShopTimestamp = pg.TimeMgr.GetInstance():Table2ServerTime({

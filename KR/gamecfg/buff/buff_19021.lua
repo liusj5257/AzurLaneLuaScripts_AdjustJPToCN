@@ -1,12 +1,12 @@
 return {
-	time = 15,
 	name = "海之女神",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 19021,
+	time = 15,
 	picture = "",
 	desc = "提高装填属性",
 	stack = 1,
-	id = 19021,
+	color = "red",
 	icon = 19021,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 3000
+				number = 3000,
+				attr = "loadSpeed"
 			}
 		}
 	}

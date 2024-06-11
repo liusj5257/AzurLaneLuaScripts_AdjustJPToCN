@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA23",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA23",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 1,
 			actorName = "{namecode:96}",
+			side = 1,
 			stopbgm = true,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Even knowing they're just copycats, fighting enemies that look like your allies takes its toll on you. I would know.",
 			flashin = {
 				delay = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:96}",
+			nameColor = "#a9f548",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -96,15 +96,15 @@ return {
 			}
 		},
 		{
-			side = 0,
 			nameColor = "#a9f548",
-			actorName = "Shirakami Fubuki",
+			side = 0,
 			dir = 1,
 			blackBg = true,
+			actorName = "Shirakami Fubuki",
 			say = "Mmhh... Laffey... Zuikaku... Mio...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "Shirakami Fubuki",
+			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "Shirakami Fubuki",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -161,15 +161,15 @@ return {
 			}
 		},
 		{
-			say = "Late at night - Outside the Resistance Base",
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-tokiwa",
+			say = "Late at night - Outside the Resistance Base",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "......",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "If we meet that Aqua clone again...",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "I guess we've got no choice but to fight her...",
 			typewriter = {
@@ -264,8 +264,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "But... can I actually do it? Can I fight someone who looks like her, even knowing she's the enemy? What if they make clones out of everyone...",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "Will I... be able to do anything?",
 			typewriter = {
@@ -298,14 +298,14 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
 			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "......",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -333,9 +333,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500010,
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "Miss Sora... You're so kind...",
 			typewriter = {

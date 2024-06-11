@@ -1,12 +1,12 @@
 slot0 = class("YingxiV3FramePage", import(".TemplatePage.NewFrameTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.gotTag = slot0:findTF("AD/switcher/phase2/got")
 end
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	slot0.isSwitching = true
 	slot2, slot3 = nil
 

@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_158",
-			say = "테마르크 마을… 온천을 의미하는 'Thermalquelle'에서 따온 이름이다.",
 			bgm = "story-richang-4",
+			say = "테마르크 마을… 온천을 의미하는 'Thermalquelle'에서 따온 이름이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_158",
 			say = "끝없는 수해의 가장자리에 위치한, 일년 내내 따뜻한 김이 솟아오르는 마을.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_158",
 			say = "마을에 들어서자마자 광장에 우뚝 솟은 가마솥 옆에서 퀘스트의 목표 인물을 발견했다.",
 			typewriter = {
@@ -160,11 +160,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "프리스트",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…이 아이인 것 같지?",
@@ -178,11 +178,11 @@ return {
 			}
 		},
 		{
-			actor = 236031,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "견습 프리스트",
 			dir = 1,
+			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "오빠… 무서워…",
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "괜찮아~ 약사는 원래 다들 이런 느낌이야! 아마…",
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "겉모습이나 언행이나 딱 전형적인 약사네!",
@@ -245,9 +245,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "약사",
 			dir = 1,
+			bgName = "star_level_bg_158",
 			bgm = "story-richang-5",
 			actor = 201371,
 			nameColor = "#A9F548FF",
@@ -262,17 +262,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -280,11 +280,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "약사",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "흐흑… 그토록 오랜 세월이 흘렀는데, 아직도 그녀를 기억하고 있는 분들이 있다니…",
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "가, 갑자기 울기 시작했어…?!",
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -345,11 +345,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "약사",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "계속 그녀의 저주를 풀려고 노력은 하고 있지만…",
@@ -482,11 +482,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "약사",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "애시당초 누비안은 약사라서, 저주를 푸는 건 사실 전문 분야가 아니거든.",
@@ -519,11 +519,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "저주에 정면으로 충돌해서 해제하겠다는 거야? 뭐, 확실히 괜찮은 아이디어이긴 하네…",
@@ -625,11 +625,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "파티에 프리스트가 두 명이나 있으니까, 포션 한 병 정도는 괜찮을 거야!",
@@ -643,11 +643,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "어서, 지휘관!",
@@ -661,8 +661,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -685,8 +685,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_158",
 			say = "결심을 굳히고 누비안에게 건네받은 포션을 단숨에 들이켰다.",
 			typewriter = {
@@ -694,17 +694,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -712,8 +712,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모험 패널",
+			side = 2,
 			bgName = "star_level_bg_158",
 			nameColor = "#A9F548FF",
 			say = "\"시스템: 새로운 스킬 [독내성 B랭크]를 획득했습니다.\"",
@@ -850,11 +850,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "와아! 그럼 누비안은 지혜의 여신의 제자를 스승으로 모시고 있는 거네?!",
@@ -868,11 +868,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그런 대단한 뒷배경이 있었다니!",
@@ -886,11 +886,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그럼 바로 그 스승님을 만나러 가보자!",
@@ -904,8 +904,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -914,11 +914,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "약사",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "음… 그런데 좀 문제가 있어…",
@@ -989,11 +989,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "걱정할 거 없어!",
@@ -1007,11 +1007,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "마을 사람들이 필요로 하는 건 병을 고치는 거지, 병을 고치는 '사람'은 아니잖아?",
@@ -1025,11 +1025,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "만능 치료 포션만 잔뜩 준비해 두면, 잠시 마을을 비워도 별 문제는 없을 거야!",
@@ -1062,11 +1062,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "에헤헤, 다른 사람보다 조금 모험의 경험치가 높을 뿐이야~♪",
@@ -1111,11 +1111,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "약사",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "방금 말한 것처럼 나는 마을을 오래 떠날 수는 없어서…",
@@ -1148,11 +1148,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "으윽……",

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "赫米忒毒雾",
 	time = 0,
-	color = "yellow",
+	name = "赫米忒毒雾",
+	init_effect = "",
+	id = 79130,
 	picture = "",
 	desc = "减速，降低前排单位命中",
 	stack = 1,
-	id = 79130,
+	color = "yellow",
 	icon = 4971,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = -200
+				number = -200,
+				attr = "attackRating"
 			}
 		}
 	}

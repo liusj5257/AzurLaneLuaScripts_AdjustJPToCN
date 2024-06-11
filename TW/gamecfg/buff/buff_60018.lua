@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-休斯敦-技能触发被动",
 	time = 0,
+	name = "测试-休斯敦-技能触发被动",
+	init_effect = "",
 	picture = "",
 	desc = "弹射",
 	stack = 1,
@@ -15,11 +15,11 @@ return {
 				"onChargeWeaponBulletCreate"
 			},
 			arg_list = {
-				target = "TargetHarmNearest",
+				damageRant = 0.7,
 				range = 200,
 				count = 3,
 				deltaDamageRant = -0.1,
-				damageRant = 0.7,
+				target = "TargetHarmNearest",
 				barrageID = 10001
 			}
 		}

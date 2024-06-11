@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIAHAIBAO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIAHAIBAO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"青き海のアイドル\n\n<size=45>五 伝説のアザラシちゃん</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ちょっとしたトラブルはあったものの、サラトガちゃんたちによるチャリティーライブは無事に終わった。",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ちょっとしたトラブルはあったものの、サラトガちゃんたちによるチャリティーライブは無事に終わった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "「伝説のアザラシちゃん」――本当は普通のアザラシちゃんがサラトガの足にキスしていた。",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "だーかーらー、「アザラシちゃん」を保護するにしても、急にやりだしてどうするの？こういうのは毎日頑張ってやらないといけないんだから♪",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "自分が知っていれば、もっと早くから協力できたはずなのに…",
 			typewriter = {
 				speed = 0.05,
@@ -165,9 +165,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "あれ？まだ何かあるのか？",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "ちょっと遅くなっちゃったけど、実は今日は東煌と重桜の七夕でもあるよ",
 			typewriter = {
@@ -228,13 +228,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ふふふ、この子たちをびっくりさせないように頑張って作った、特別な花火もあるにゃ～",
 			soundeffect = "event:/battle/firework",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "ふふふ、この子たちをびっくりさせないように頑張って作った、特別な花火もあるにゃ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,8 +296,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "ああそうだ！この子の名前を決めるの忘れてた！",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -336,9 +336,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "サラトガちゃんが用意したチャリティーイベントの主役、みんなで守る海の宝であるこの子の名前は――",
 			typewriter = {
 				speed = 0.05,
@@ -353,8 +353,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "「サラっち」…「サラちゃん」！いい響き！",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "ええと、じゃあ指揮官、これからもこの青い海をサラトガちゃんと――",
 			typewriter = {
@@ -387,9 +387,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107034,
 			dir = 1,
 			blackBg = true,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "「サラちゃん」と一緒に、頑張って守ろうね！",
 			typewriter = {

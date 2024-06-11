@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.25
+				number = -0.25,
+				attr = "injureRatio"
 			}
 		}
 	}

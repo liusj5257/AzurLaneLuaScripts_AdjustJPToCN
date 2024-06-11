@@ -4,7 +4,7 @@ slot0.directDown = Vector3(0, -1, 0)
 slot0.directRight = Vector3(1, 0, 0)
 slot0.directLeft = Vector3(-1, 0, 0)
 
-function slot0.DescendSlope(slot0, slot1, slot2)
+slot0.DescendSlope = function(slot0, slot1, slot2)
 	slot3 = slot2.bottomLeft
 	slot4 = slot2.bottomRight
 	slot5 = Vector3(0, -1, 0)
@@ -49,7 +49,7 @@ function slot0.DescendSlope(slot0, slot1, slot2)
 	end
 end
 
-function slot0.slideDownMaxSlope(slot0, slot1, slot2)
+slot0.slideDownMaxSlope = function(slot0, slot1, slot2)
 	if slot0 and slot1.y ~= 0 and slot2.config.maxSlopeAngle < Vector3.Angle(slot0.normal, Vector3.up) then
 		slot4 = Mathf.Sign(slot1.y)
 
@@ -64,7 +64,7 @@ function slot0.slideDownMaxSlope(slot0, slot1, slot2)
 	end
 end
 
-function slot0.VerticalCollisions(slot0, slot1, slot2)
+slot0.VerticalCollisions = function(slot0, slot1, slot2)
 	slot4 = Mathf.Sign(slot0.y) == 1 and uv0.directUp or uv0.directDown
 	slot5 = Mathf.Abs(slot0.y) + slot2.skinWidth * 2
 	slot6 = Vector3(0, 0, 0)

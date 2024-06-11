@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_255 = {}
 slot1 = slot0.word_template_255
 
-function temp()
+temp = function()
 	uv0["善"] = {
 		["."] = {
 			["恶"] = {
@@ -22,7 +22,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["伤"] = {
 		["追"] = {
 			["之"] = {
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["赏"] = {
 		["波"] = {
 			["赏"] = {
@@ -63,7 +63,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["上"] = {
 		["▲"] = {
 			["份"] = {
@@ -639,7 +639,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["尚"] = {
 		["福"] = {
 			["林"] = {
@@ -695,7 +695,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["烧"] = {
 		["出"] = {
 			["腐"] = {
@@ -716,7 +716,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["少"] = {
 		["妇"] = {
 			this = true,

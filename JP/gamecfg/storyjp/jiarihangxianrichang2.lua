@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIANRICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIANRICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"バケーションレーン-日常編\n\n<size=45>二 いきなり砂城作り大会</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_106",
 			bgm = "doa_story3",
 			actor = 900300,
 			nameColor = "#a9f548",
 			say = "よーし！　ほのか、一緒にすごいの作ろうね！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -146,8 +146,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900301,
 			dir = 1,
+			actor = 900301,
 			nameColor = "#a9f548",
 			say = "指揮官さんには、審査員になってもらいますね！",
 			typewriter = {
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "なんだかんだで、「砂城作り大会」が始まった……",
 			typewriter = {
 				speed = 0.05,
@@ -174,13 +174,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
+			dir = 1,
 			say = "暫くすると、みんなの作品が完成した",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -208,8 +208,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "マリーとほのかの作品は…これです！じゃっじゃーん！",
 			effects = {
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "巨大な球体のような…そしてネクタイとネイビーハット…これは……",
 			effects = {
 				{
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "ふむ、まるまるとして、饅頭のように美味そうじゃ♪　猫のようにも見えるが…",
 			typewriter = {
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "ほう、これは…天守閣かのう、よい味が出ておるではないか♪",
 			typewriter = {
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "ガスコーニュのほうは……",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "す、すごい…！アーチのような建物に…模様も彫ってあります！",
 			typewriter = {
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -390,8 +390,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "ふむ、こちらも良くできておる。おもしろいのう♪ふふふ",
 			typewriter = {
@@ -407,8 +407,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "指揮官さん！これからが、指揮官さんの出番ですよ♪",
 			typewriter = {
@@ -424,8 +424,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900301,
 			dir = 1,
+			actor = 900301,
 			nameColor = "#a9f548",
 			say = "ふふっ、ここはやっぱり、審査員の指揮官さんに決めてもらわないとですね！",
 			typewriter = {

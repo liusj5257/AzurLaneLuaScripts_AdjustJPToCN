@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHANGYEJIANGLINZHIQIAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHANGYEJIANGLINZHIQIAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			soundeffect = "event:/ui/fengling",
-			say = "あるかもしれない「今」。そんな「夢」を信濃が「観」ていた。",
+			stopbgm = true,
 			seDelay = 1,
+			soundeffect = "event:/ui/fengling",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "あるかもしれない「今」。そんな「夢」を信濃が「観」ていた。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,19 +29,19 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			bgm = "bgm-waterwave",
 			say = "風鈴の音のあと、耳元で波音が鳴り響く。",
+			bgm = "bgm-waterwave",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
 			say = "晦冥なる空の下で、鮮やかな色の鳥居が立っている。",
@@ -63,10 +63,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "虚ろと真実の狭間、夢へと続く休息の幻界……",
 			painting = {
 				alpha = 0.3,
@@ -78,12 +78,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "普段は……直に「夢」を観ることが多いが…",
 			painting = {
 				alpha = 0.3,
@@ -98,10 +98,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この幻界に訪れる機も……幾度となく…",
 			painting = {
 				alpha = 0.3,
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
 			say = "まるで鳥居によって世界そのものが2つに分けられたように、自然の摂理に反してそれぞれ逆方向から流れてくる波がぶつかりあう。",
@@ -127,10 +127,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "幻がゆえに、静かな時も、騒がしい時も……",
 			painting = {
 				alpha = 0.3,
@@ -142,12 +142,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今夜は……少々荒れる姿を見せるやも……",
 			painting = {
 				alpha = 0.3,
@@ -162,10 +162,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妾がこれから観る夢も…良き夢にあらず……",
 			painting = {
 				alpha = 0.3,
@@ -177,30 +177,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "「夢」の中で、信濃はとある「過去」の光景を目にした。",
 			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "「夢」の中で、信濃はとある「過去」の光景を目にした。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -239,13 +239,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……よろしい！だけど",
 			painting = {
 				alpha = 0.3,
@@ -276,13 +276,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どこに隠れたかさえ分かれば、あとは行動するだけのことよ",
 			painting = {
 				alpha = 0.3,
@@ -294,13 +294,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "鉄血とロイヤル？どういう話？",
 			painting = {
 				alpha = 0.3,
@@ -312,13 +312,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あら、私の計画を邪魔するかも、ということを心配しているの？",
 			painting = {
 				alpha = 0.3,
@@ -349,13 +349,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "しかし！ビスマルクも女王陛下も私を出し抜ける存在ではないことくらい、君はとっくに知っているでしょ？",
 			painting = {
 				alpha = 0.3,
@@ -386,13 +386,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "わかったわ。どうにかする",
 			painting = {
 				alpha = 0.3,
@@ -423,13 +423,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「そしてかの者たちに罰が降り、言葉を乱され、地に散らされた」",
 			painting = {
 				alpha = 0.3,
@@ -460,13 +460,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私の野望が実現した暁には、君の願いも必ず実現できると信じて――",
 			painting = {
 				alpha = 0.3,
@@ -481,8 +481,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_501",
-			oldPhoto = true,
 			dir = 1,
+			oldPhoto = true,
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -496,17 +496,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -533,13 +533,13 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（かの声……サディアのマルコ・ポーロ……）",
 			painting = {
 				alpha = 0.3,
@@ -551,13 +551,13 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（されど彼女と喋る相手の声……聞き取れず……）",
 			painting = {
 				alpha = 0.3,
@@ -588,13 +588,13 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（重苦しさはあれど、騒がしさはなく、妾が感じた兆しとは合致せず……）",
 			painting = {
 				alpha = 0.3,
@@ -625,18 +625,18 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
 			side = 2,
 			bgName = "bg_firedust_5",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "観ている光景が変転し、燃ゆる黒い太陽が、静かに空に佇んでいる。",
+			dialogueBgAlpha = 0.6,
 			soundeffect = "event:/ui/fengling",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "観ている光景が変転し、燃ゆる黒い太陽が、静かに空に佇んでいる。",
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			},
 			typewriter = {
@@ -644,17 +644,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -662,8 +662,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -731,8 +731,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -781,8 +781,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -812,11 +812,11 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
 			bgName = "bg_roma_6",
-			hidePaintObj = true,
+			oldPhoto = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「――裁きの時来たれり」",
 			effects = {
 				{
@@ -829,17 +829,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -847,8 +847,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_6",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -859,8 +859,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			soundeffect = "event:/ui/fengling",
 			sequence = {

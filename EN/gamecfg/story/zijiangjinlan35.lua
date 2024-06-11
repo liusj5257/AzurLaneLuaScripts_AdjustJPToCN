@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN35",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN35",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg0",
+			nameColor = "#A9F548FF",
+			bgm = "story-mayrain",
 			stopbgm = true,
 			say = "The day after the exercise, the seas and skies were serene as could be, as if the prior storm had been nothing but an illusion.",
-			bgm = "story-mayrain",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "It was nice having you over. Do remember to come visit every now and then.",
 			painting = {
@@ -136,8 +136,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "Ah, about that... I received an urgent call from the main island last night, and those two had to head back immediately.",
 			painting = {
@@ -153,8 +153,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "And you let them sail back through the storm? I hope nothing happened to them...",
 			painting = {
@@ -170,8 +170,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "I, of course, implored them to stay. But, you know how stubborn Akagi can be.",
 			painting = {
@@ -187,8 +187,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "So, would you or Nagato care for another round of Go? Just the normal variety this time.",
 			painting = {
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "Speaking of which, I have a few other things here other than that board that you might be interested in.",
 			painting = {
@@ -221,8 +221,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "Haha... I really appreciate your kindness, but I have business to attend to as well. That was quite an interesting game though. I wouldn't mind playing with you again some other time.",
 			painting = {
@@ -238,8 +238,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "What about you, Guardian Fox? I promised to show you the capabilities of a Siren-reinforced mass-produced ship yesterday, didn't I?",
 			painting = {
@@ -255,8 +255,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "I would take you up on that offer, but our game yesterday dragged on for a bit too long. I apologize, but we'll have to find some other time for that.",
 			painting = {
@@ -272,8 +272,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "If you need to contact me, just send a message to Yamakaze. Now, if you'll excuse me...",
 			painting = {
@@ -289,8 +289,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "I'm sorry, Mikasa... If I ordered an attack on Kaga back then, we...",
 			painting = {
@@ -302,17 +302,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -323,8 +323,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "Don't worry about it, Nagato. It's just a game.",
 			painting = {
@@ -372,8 +372,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "But, I suppose there's one thing she was right about. If we were in the dark about everything, how could we possibly have gotten any useful answers out of her?",
 			painting = {
@@ -405,8 +405,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "There are still too many things to be investigated. The only answer we got was Akagi's \"true feelings.\"",
 			painting = {
@@ -422,8 +422,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "Considering we lost, I suppose that's a good enough consolation prize...",
 			painting = {

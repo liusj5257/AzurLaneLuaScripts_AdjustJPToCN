@@ -1,10 +1,10 @@
 slot0 = class("MetaQuickTacticsLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MetaQuickTacticsUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initUITextTips()
 	slot0:initData()
 	slot0:initUI()
@@ -12,24 +12,24 @@ function slot0.init(slot0)
 	slot0:overlayPanel(true)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initSkillInfoPanel()
 	slot0:initUIItemList()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:overlayPanel(false)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:closeView()
 end
 
-function slot0.initUITextTips(slot0)
+slot0.initUITextTips = function(slot0)
 	setText(slot0:findTF("Content/SkillInfo/UseTip"), i18n("metaskill_up"))
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.metaProxy = getProxy(MetaCharacterProxy)
 	slot0.bagProxy = getProxy(BagProxy)
 	slot0.bayProxy = getProxy(BayProxy)
@@ -54,7 +54,7 @@ function slot0.initData(slot0)
 	end
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.tpl = slot0:findTF("TacticsTpl")
 	slot1 = slot0:findTF("Content")
@@ -76,8 +76,8 @@ function slot0.initUI(slot0)
 	slot0.confirmBtn = slot0:findTF("ConfirmBtn", slot5)
 end
 
-function slot0.addListener(slot0)
-	function slot1()
+slot0.addListener = function(slot0)
+	slot1 = function()
 		uv0:closeView()
 	end
 
@@ -112,7 +112,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.overlayPanel(slot0, slot1)
+slot0.overlayPanel = function(slot0, slot1)
 	if slot1 and slot0._tf then
 		pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 			groupName = LayerWeightConst.GROUP_META,
@@ -123,7 +123,7 @@ function slot0.overlayPanel(slot0, slot1)
 	end
 end
 
-function slot0.initSkillInfoPanel(slot0)
+slot0.initSkillInfoPanel = function(slot0)
 	slot1 = slot0.skillID
 	slot3 = slot0.bayProxy:getShipById(slot0.shipID):getMetaSkillLevelBySkillID(slot1)
 
@@ -140,7 +140,7 @@ function slot0.initSkillInfoPanel(slot0)
 	setSlider(slot0.progressBar, 0, slot9, slot7)
 end
 
-function slot0.initUIItemList(slot0)
+slot0.initUIItemList = function(slot0)
 	slot0.uiitemList = UIItemList.New(slot0.containerTF, slot0.tpl)
 
 	slot0.uiitemList:make(function (slot0, slot1, slot2)
@@ -151,11 +151,11 @@ function slot0.initUIItemList(slot0)
 	slot0.uiitemList:align(#slot0.bookIDList)
 end
 
-function slot0.updateUIItemList(slot0)
+slot0.updateUIItemList = function(slot0)
 	slot0.uiitemList:align(#slot0.bookIDList)
 end
 
-function slot0.updateTpl(slot0, slot1, slot2)
+slot0.updateTpl = function(slot0, slot1, slot2)
 	slot3 = slot0:findTF("IconTpl", slot2)
 	slot4 = slot0:findTF("Name", slot2)
 	slot5 = slot0:findTF("MinusTenBtn", slot2)
@@ -201,7 +201,7 @@ function slot0.updateTpl(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.updateAfterModifyUseCount(slot0)
+slot0.updateAfterModifyUseCount = function(slot0)
 	for slot4, slot5 in ipairs(slot0.bookIDList) do
 		setText(slot0.useCountTextDict[slot5], slot0.useCountDict[slot5])
 	end
@@ -224,7 +224,7 @@ function slot0.updateAfterModifyUseCount(slot0)
 	end
 end
 
-function slot0.updateAfterUse(slot0)
+slot0.updateAfterUse = function(slot0)
 	setText(slot0.skillLevelText, "LEVEL:" .. slot0.bayProxy:getShipById(slot0.shipID):getMetaSkillLevelBySkillID(slot0.skillID))
 
 	if slot0:isMaxLevel() then
@@ -235,7 +235,7 @@ function slot0.updateAfterUse(slot0)
 	slot0:updateUIItemList()
 end
 
-function slot0.getBookItem(slot0, slot1)
+slot0.getBookItem = function(slot0, slot1)
 	return slot0.bagProxy:getItemById(slot1) or Drop.New({
 		count = 0,
 		type = DROP_TYPE_ITEM,
@@ -243,7 +243,7 @@ function slot0.getBookItem(slot0, slot1)
 	})
 end
 
-function slot0.resetUseData(slot0)
+slot0.resetUseData = function(slot0)
 	slot0.useCountDict = slot0.useCountDict or {}
 	slot0.maxCountDict = slot0.maxCountDict or {}
 
@@ -253,7 +253,7 @@ function slot0.resetUseData(slot0)
 	end
 end
 
-function slot0.tryModifyUseCount(slot0, slot1, slot2)
+slot0.tryModifyUseCount = function(slot0, slot1, slot2)
 	slot4 = slot0.useCountDict[slot1]
 
 	if slot0.maxCountDict[slot1] <= 0 then
@@ -276,7 +276,7 @@ function slot0.tryModifyUseCount(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getLevelTotalExp(slot0, slot1)
+slot0.getLevelTotalExp = function(slot0, slot1)
 	slot2 = slot0.skillID
 	slot3 = slot0.bayProxy:getShipById(slot0.shipID)
 	slot4 = pg.skill_data_template[slot2].max_level
@@ -294,13 +294,13 @@ function slot0.getLevelTotalExp(slot0, slot1)
 	return slot6
 end
 
-function slot0.getCurLevelExp(slot0)
+slot0.getCurLevelExp = function(slot0)
 	slot1 = slot0.skillID
 
 	return slot0:getLevelTotalExp(slot0.bayProxy:getShipById(slot0.shipID):getMetaSkillLevelBySkillID(slot1)) + slot0.metaProxy:getMetaTacticsInfoByShipID(slot0.shipID):getSkillExp(slot1)
 end
 
-function slot0.calcAwardExp(slot0)
+slot0.calcAwardExp = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.bookIDList) do
@@ -310,7 +310,7 @@ function slot0.calcAwardExp(slot0)
 	return slot1
 end
 
-function slot0.calcLevelWithAwardExp(slot0, slot1)
+slot0.calcLevelWithAwardExp = function(slot0, slot1)
 	slot3 = slot0:getCurLevelExp() + slot1
 	slot6 = 1
 
@@ -326,11 +326,11 @@ function slot0.calcLevelWithAwardExp(slot0, slot1)
 	return slot6
 end
 
-function slot0.isCanUpMax(slot0)
+slot0.isCanUpMax = function(slot0)
 	return slot0:getLevelTotalExp(pg.skill_data_template[slot0.skillID].max_level) <= slot0:getCurLevelExp() + slot0:calcAwardExp()
 end
 
-function slot0.preCalcExpOverFlow(slot0, slot1, slot2)
+slot0.preCalcExpOverFlow = function(slot0, slot1, slot2)
 	slot9 = false
 	slot10 = nil
 
@@ -341,7 +341,7 @@ function slot0.preCalcExpOverFlow(slot0, slot1, slot2)
 	return slot9, slot10
 end
 
-function slot0.oneStep(slot0)
+slot0.oneStep = function(slot0)
 	if slot0:isMaxLevel() then
 		return
 	end
@@ -379,7 +379,7 @@ function slot0.oneStep(slot0)
 	end
 end
 
-function slot0.isMaxLevel(slot0)
+slot0.isMaxLevel = function(slot0)
 	return slot0.bayProxy:getShipById(slot0.shipID):isSkillLevelMax(slot0.skillID)
 end
 

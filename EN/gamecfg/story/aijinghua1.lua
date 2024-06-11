@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIJINGHUA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIJINGHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"Virtual Connection Synchronicity\" - Purification\n\n<size=45>Chapter 1 - Random Word Generator</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
+			stopbgm = true,
 			bgm = "story-1",
 			actor = 10400010,
-			stopbgm = true,
+			nameColor = "#a9f548",
+			bgName = "bg_story_outdoor",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -73,8 +73,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Ah! Ayanami. I was just trying to get rid of these viruses in my random word generator.",
 			typewriter = {
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "Hmm. Virus removal is kind of hard, isn't it?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -219,8 +219,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Thanks! That's one virus down. We'll wipe 'em out like this!",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "Oooh! We got some Kizuna Points! I'm sure you're familiar with the concept by now: you use these to get event limited items! ♪",
 			typewriter = {
 				speed = 0.05,
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "Let's see... what should I get? How about a little \"Pyoko-Pyoko\" something something...",
 			typewriter = {
 				speed = 0.05,
@@ -302,12 +302,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "I like the look of those \"Mental Units.\"",
 			typewriter = {
 				speed = 0.05,
@@ -319,12 +319,12 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "I want some gold equipment boxes, and not the repainted ones!!",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -346,12 +346,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "Nice! Let's keep knocking out those viruses and earn those Kizuna Points! ♪",
 			typewriter = {
 				speed = 0.05,
@@ -366,9 +366,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Simple! I was a commander myself back where I'm from! A survivor of countless hard-fought battles!",
 			typewriter = {
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "Wow! So you were just like our Commander!?",
 			typewriter = {
 				speed = 0.05,
@@ -398,8 +398,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -408,12 +408,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "Miss AI's true form is that of the Commander... I never would have guessed.",
 			typewriter = {
 				speed = 0.05,
@@ -428,9 +428,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Anyway, now that we know how important these Kizuna Points are, let's make sure we collect tons of 'em! ♪",
 			typewriter = {
@@ -443,9 +443,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "*shutter click*",
 			flashN = {
 				color = {
@@ -480,8 +480,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Who's taking pictures!?",
 			typewriter = {
@@ -513,8 +513,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Genius!? Y- yeah! That's me!!",
 			typewriter = {
@@ -527,8 +527,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -540,8 +540,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "I'm that Intelligent Super A.I. everybody's talking about. Me. Kizuna AI. Nice to meet you.",
 			typewriter = {
@@ -589,8 +589,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Oh? Laffey-chan asked you!?",
 			typewriter = {
@@ -670,8 +670,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Well, just make sure I look cute and we won't have a problem.",
 			typewriter = {
@@ -684,12 +684,12 @@ return {
 			}
 		},
 		{
-			actor = 101050,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 101050,
+			nameColor = "#a9f548",
 			say = "You got it!",
 			typewriter = {
 				speed = 0.05,

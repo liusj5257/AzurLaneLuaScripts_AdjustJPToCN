@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"'Tis the Season of Love!\n\n<size=45>7.That Scared Me Half to Death!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 202260,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202260,
+			nameColor = "#a9f548",
 			say = "(......What an absolutely dreamy situation...)",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "...Geh?! Oh, Master?! Is something the matter?",
 			dialogShake = {
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "Oh, you’ve been calling for me, but I haven’t been responding? ...It, it’s nothing at all! I just had something on my mind...",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "I, I’ll fulfill my duties as your secretary, so don’t you fret!",
 			typewriter = {
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I was a bit worried about how flustered she looked... But because the quality of her work was impeccable as ever, I decided not to say anything.",
 			typewriter = {
 				speed = 0.05,
@@ -156,9 +156,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Instead, I tell her not to stress herself out too much, and then return to my work.",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "(Haah... That scared me half to death! How could I let myself daydream in the middle of work...)",
 			typewriter = {
@@ -219,9 +219,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Glasgow seems to be mumbling something while going through the materials related to the next operation.",
 			typewriter = {
 				speed = 0.05,
@@ -233,9 +233,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Maybe I’ve been overworking her... Perhaps it’d be a good idea to invite her out somewhere to get work off her mind...",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "(On my next day off, I should take the initiative and ask the commander out on a date... No, I simply must!)",
 			typewriter = {
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "(Then, I’ll be sure to be more gentle... and comforting. Ah, and then... “Suddenly, the wind blows—”)",
 			typewriter = {
@@ -297,9 +297,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "“I wonder if a day will come when our hearts grow closer, just like in those wondrous fantasies.”",
 			typewriter = {
 				speed = 0.05,

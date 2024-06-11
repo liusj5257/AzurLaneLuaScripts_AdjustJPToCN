@@ -1,17 +1,17 @@
 return {
-	id = "WORLD508O",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508O",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900285,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-executor-type1",
 			dir = 1,
 			say = "自動修復機能、作動",
+			bgm = "battle-executor-type1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "潜水艦たちが与えたダメージが見る見るうちに修復されました！",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "サラトガの言う通り、このままでは艦隊がジリ貧になる。",
 			typewriter = {
 				speed = 0.05,
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "せめてなんとか撤退することができれば……",
 			typewriter = {
 				speed = 0.05,
@@ -137,8 +137,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "撤退するなら先にどうぞ。こちらは退く気などありませんので",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "仲間が開いてくれた特異点を死守し、敵を一網打尽にするのがこちらの目的です。それが達成されるまで撤退という選択肢はありませんよ",
 			typewriter = {
 				speed = 0.05,
@@ -168,9 +168,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "じゃあやっぱり、この特異点はあなたたちが作ったのね",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -210,8 +210,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "心当たりがあったとしても憶測の域を出ないわ。さっきの話を聞くまではね",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "（NA海域がこうなったのは余燼のせいではない…ううん、むしろこの特異点ができたことで、私たちはセイレーン作戦を決行できたってことかしら）",
 			typewriter = {
 				speed = 0.05,
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "そちらには関係ない——と、言いたいところだが…",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "全くの無関係でもありません、ね",
 			typewriter = {
 				speed = 0.05,
@@ -288,9 +288,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 9707020,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "飛龍！これ以上は…",
 			dialogShake = {
 				speed = 0.08,
@@ -310,8 +310,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "分かっています。これ以上言う気はありません",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "ここはお互い素直になりましょう。指揮官",
 			typewriter = {
 				speed = 0.05,
@@ -342,8 +342,8 @@ return {
 			expression = 7,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "アビータが狙っているのはあくまでぼくたちです。それにあなたたちはこの特異点を死守する必要もありません",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "先に撤退するというなら止めません。ここから脱出する方法も教えます",
 			typewriter = {
 				speed = 0.05,
@@ -373,9 +373,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "どうです？背中を襲う真似などしないと、二航戦の名にかけて保証します",
 			typewriter = {
 				speed = 0.05,
@@ -395,11 +395,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "battle-executor-type1",
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "そうですね。仲間たちのことを思えば、それも当然でしょう",
-			bgm = "battle-executor-type1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,8 +413,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "ではここでお別れです。無事ここから離脱できるよう祈ります",
 			typewriter = {
 				speed = 0.05,
@@ -429,8 +429,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -442,8 +442,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "上層部と通信可能になり次第、援軍要請を出す。",
 			typewriter = {
 				speed = 0.05,
@@ -458,8 +458,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "指揮官ならそう言うだろうと分かっていました。ですが、遠慮させてください",
 			typewriter = {
 				speed = 0.05,
@@ -474,8 +474,8 @@ return {
 			expression = 7,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "全力の戦いに足手まといは不要です。さあ、早く逃げてください",
 			typewriter = {
 				speed = 0.05,
@@ -487,8 +487,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "全艦に告ぐ：アビータとの交戦から離脱し、艦隊針路を変更――これより特異点を脱出する",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "幸運を祈ります。「指揮官」",
 			typewriter = {
 				speed = 0.05,
@@ -518,15 +518,15 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			stopbgm = true,
-			actor = 9707010,
 			dir = 1,
+			stopbgm = true,
+			bgm = "main-ashes-theme",
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "これですっきりしましたね。高雄の気持ちがわかりましたか？アーク・ロイヤル",
-			bgm = "main-ashes-theme",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -554,8 +554,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -585,8 +585,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "戦場の情勢を正確に読み取り、何よりも艦船たちを大事にする――",
 			typewriter = {
 				speed = 0.05,
@@ -601,8 +601,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "それ故の選択だと、分かっていますが…",
 			typewriter = {
 				speed = 0.05,
@@ -632,8 +632,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "こちらが同じ立場でも、きっと同じ選択をしたでしょう…",
 			typewriter = {
 				speed = 0.05,
@@ -648,8 +648,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "ああ、それも躊躇いすらしないだろうな",
 			typewriter = {
 				speed = 0.05,
@@ -664,8 +664,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "飛龍、短い間だったが、いい夢を見せてくれてありがとう",
 			typewriter = {
 				speed = 0.05,
@@ -680,8 +680,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "どういたしまして。まぁついでにやっただけですがね",
 			typewriter = {
 				speed = 0.05,
@@ -696,8 +696,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "指揮官をわざわざこちらに誘導しておいて白々しかったぞ。回りくどくするとはあなたらしくもない",
 			typewriter = {
 				speed = 0.05,
@@ -712,8 +712,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "ははは、そうですね…姉さまじゃあるまいし、似合わないことをしてしまいましたね",
 			typewriter = {
 				speed = 0.05,
@@ -728,8 +728,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "もしや、このような短い接触でも、「指揮官」は私たちに「影響」を与えたんだろうか？",
 			typewriter = {
 				speed = 0.05,
@@ -744,8 +744,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "かもしれません。…ですが、もうぼくたちと関わることはないでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -760,8 +760,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "………",
 			typewriter = {
 				speed = 0.05,
@@ -776,8 +776,8 @@ return {
 			expression = 7,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "アーク・ロイヤル、出力開放の準備だ。エンタープライズが戻るまで耐え抜かねば",
 			typewriter = {
 				speed = 0.05,
@@ -792,8 +792,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "…ああ。分かっている",
 			typewriter = {
 				speed = 0.05,
@@ -805,8 +805,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アーク・ロイヤル(META)",
+			side = 2,
 			bgName = "bg_nacorearea_2",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -821,8 +821,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アーク・ロイヤル(META)",
+			side = 2,
 			bgName = "bg_nacorearea_2",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -837,8 +837,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アーク・ロイヤル(META)",
+			side = 2,
 			bgName = "bg_nacorearea_2",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -853,8 +853,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アーク・ロイヤル(META)",
+			side = 2,
 			bgName = "bg_nacorearea_2",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -869,11 +869,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffa500",
+			side = 2,
 			bgName = "bg_nacorearea_2",
-			actorName = "アーク・ロイヤル(META)",
 			dir = 1,
+			actorName = "アーク・ロイヤル(META)",
 			say = "私の全ての思いを込めたこの一撃、とくと味わうがいい！！",
 			effects = {
 				{
@@ -891,11 +891,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "爆発による衝撃波で海が荒れ、眩しい光で視界が覆われた。",
-			dir = 1,
 			bgm = "main-ashes-theme",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "爆発による衝撃波で海が荒れ、眩しい光で視界が覆われた。",
 			effects = {
 				{
 					active = false,
@@ -966,8 +966,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "全てが収まると、そこには死のような静寂さだけが残されていた。",
 			typewriter = {
 				speed = 0.05,
@@ -981,9 +981,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "こほこほ…指揮官、大丈夫？",
 			typewriter = {
 				speed = 0.05,
@@ -995,8 +995,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1005,8 +1005,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "体はどうやら無事のようだ。他の仲間の様子が心配だ…",
 			typewriter = {
 				speed = 0.05,
@@ -1036,8 +1036,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "ただ、工作艦たち後詰めの部隊の損傷は少なく、緊急手当てしてくれているから、脱落者は出ていないわ",
 			typewriter = {
 				speed = 0.05,
@@ -1064,8 +1064,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "しかし、この規模の爆発…余燼でも無事でいられるはずは……",
 			typewriter = {
 				speed = 0.05,
@@ -1107,8 +1107,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "余燼がせっかく作ってくれたチャンス、無下にはできない……",
 			typewriter = {
 				speed = 0.05,
@@ -1120,8 +1120,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "今は一刻も早く特異点の出口にたどり着き、外にいる仲間たちと合流しなければならない。",
 			typewriter = {
 				speed = 0.05,
@@ -1133,8 +1133,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "それから戦力を再度集結させて特異点内部の調査を行い、願わくばNA海域を元に――青い海へと戻す。",
 			typewriter = {
 				speed = 0.05,
@@ -1146,8 +1146,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "それまで、みんな持ちこたえてくれ…っ！",
 			typewriter = {
 				speed = 0.05,
@@ -1159,8 +1159,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -1172,8 +1172,8 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

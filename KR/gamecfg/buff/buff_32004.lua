@@ -29,9 +29,9 @@ return {
 	{
 		desc = "每20秒，有40%概率触发护盾，一定时间内取消子弹，护盾持续8秒"
 	},
-	init_effect = "",
-	name = "不破之盾",
 	time = 0,
+	name = "不破之盾",
+	init_effect = "",
 	picture = "",
 	desc = "每20秒触发护盾，一定时间内取消子弹，护盾持续8秒",
 	stack = 1,
@@ -45,9 +45,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 32004,
 				time = 20,
-				target = "TargetSelf",
-				skill_id = 32004
+				target = "TargetSelf"
 			}
 		}
 	}

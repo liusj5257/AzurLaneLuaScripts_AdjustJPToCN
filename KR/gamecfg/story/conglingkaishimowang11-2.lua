@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "story-mmorpg",
 			side = 2,
 			bgName = "star_level_bg_518",
+			soundeffect = "event:/battle/boom2",
+			bgm = "story-mmorpg",
 			nameColor = "#A9F548FF",
 			say = "―――!!!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -108,11 +108,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "여러분이 와주지 않으셨다면 엄청난 피해를 입었을 겁니다.",
 			painting = {
@@ -125,11 +125,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "천만의 말씀! 용사 파티로서 이 정도는 당연하지!",
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "설마 마왕군이 요새에서 이렇게 가까운 곳을 습격하다니……",
 			painting = {
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "응! 뭐든지 말해!",
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "수호의 장성은 광명과 정의의 신 등, 여러 신의 가호를 받고 있습니다. 마왕도 쉽사리 돌파할 수 없는 곳이라, 일반적인 마물이라면 엄두도 못 내는 곳이지요.",
 			painting = {
@@ -340,11 +340,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "마음 같아서는 당장이라도 요새로 가서 군을 배치하고 싶습니다만… 삶의 터전을 잃은 마을 사람들을 외면할 수는 없는 노릇입니다.",
 			painting = {
@@ -393,11 +393,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "정말 죄송하지만, 마물을 퇴치하는 퀘스트를 여러분께 맡겨도 될지요?",
 			painting = {
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 501070,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "프리드 마을 촌장",
 			dir = 1,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			say = "모험가들! 부탁이야! 페이윈의 마을을 구해줘!",
 			painting = {
@@ -427,8 +427,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -437,11 +437,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "마물을 퇴치하고 마을을 구한다… 그야말로 용사에게 안성맞춤인 퀘스트가 드디어 왔네!",
@@ -455,11 +455,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관, 어때?",
@@ -502,12 +502,12 @@ return {
 			}
 		},
 		{
-			actor = 501070,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "프리드 마을 촌장",
 			dir = 1,
 			optionFlag = 2,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			say = "무, 물론이지… 퀘스트를 클리어하면 보수도 듬뿍 챙겨줄게!",
 			painting = {
@@ -520,12 +520,12 @@ return {
 			}
 		},
 		{
-			actor = 501070,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "프리드 마을 촌장",
 			dir = 1,
 			optionFlag = 2,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			say = "클리어만 한다면 말이야… 흐흐흐…",
 			painting = {
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "좋아, 그럼 안심하고 우리 파티한테 맡겨!",
@@ -556,11 +556,11 @@ return {
 			}
 		},
 		{
-			actor = 501070,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "프리드 마을 촌장",
 			dir = 1,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			say = "응! 평화와 수호의 신의 가호가 있기를…!",
 			painting = {

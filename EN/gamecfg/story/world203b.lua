@@ -1,18 +1,18 @@
 return {
-	id = "WORLD203B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD203B",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "You really can't see anything from this distance, huh... Can't even tell what kind of ship might’ve sent that signal.",
-			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201130,
 			dir = 1,
+			actor = 201130,
 			say = "We'll have to take a closer look after all.",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "I don't see any friendly ships here, but there aren't many Sirens either...",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "All I'm seeing are the destroyed husks of Siren ships, but I don't think any Royal Navy ships passed through this area.",
 			typewriter = {
 				speed = 0.05,
@@ -74,8 +74,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "If a force large enough to wipe out all these Sirens really did pass through here, Hood must've heard about it by now.",
 			typewriter = {
 				speed = 0.05,
@@ -89,9 +89,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 201130,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Good point. What could've happened here?",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -115,13 +115,13 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "...Did the three of you take out all these Sirens...??",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -149,8 +149,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "That’s some real magic if I've ever seen it.",
 			typewriter = {
 				speed = 0.05,
@@ -164,9 +164,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 201130,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Eh...? N-no, it wasn't us! This place was already like this when we came here! This place is covered with destroyed Siren ships and facilities, and there’s no fleet in distress here as far as I can tell...",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -206,8 +206,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "Even this Siren battleship has been cut cleanly apart.",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "This isn't something that Warspite would do...",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "Hm... What’s that over there? It’s a clean puncture. Almost could pass for a porthole...",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "Wales, do we have any weapons that are capable of that?",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "Not that I know of... This kind of damage looks as if it was caused by Purifier’s laser weapon...",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201130,
 			dir = 1,
+			actor = 201130,
 			say = "Sirens turning against each other? Is something like that possible...?",
 			typewriter = {
 				speed = 0.05,

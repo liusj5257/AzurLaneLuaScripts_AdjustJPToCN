@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA30",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA30",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-4",
 			dir = 1,
 			say = "Sh-she's strong...!",
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "It appears her judgment was correct...",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "This timeline - hidden out of sight by Antiochus - differs from all others we've seen.",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "Perhaps it is because of the human with you - that commander.",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "The attack on NY City... was no more than a ploy devised by the Antiochus. Its true purpose was for us to meet one another.",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "As for us, we are but Ember and Ash in the wind. You need not concern yourself with our names.",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "You cannot even begin to fathom the burden that we shoulder.",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "Leave us be, and pray that our paths never cross again.",
 			typewriter = {
 				speed = 0.05,
@@ -165,13 +165,13 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
-			say = "... ...!",
 			soundeffect = "event:/battle/boom2",
+			actor = 900192,
+			actorName = "？？？",
+			say = "... ...!",
 			flashN = {
 				color = {
 					1,
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"Locate and neutralize the ship responsible for the singularity\"... I'm pretty sure that's what our orders from headquarters were...",
 			typewriter = {
 				speed = 0.05,
@@ -253,10 +253,10 @@ return {
 			}
 		},
 		{
+			say = "KABOOM!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "KABOOM!",
 			flashN = {
 				color = {
 					1,
@@ -319,10 +319,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "KABOOM!",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOM!",
 			flashN = {
 				color = {
 					1,
@@ -399,8 +399,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "... I had begun to believe you may be able to lead these girls...",
 			typewriter = {
 				speed = 0.05,
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			say = "Shells were speeding through the air, all targeting the mysterious ship. However, just as they were about to hit–",
 			side = 2,
 			dir = 1,
 			optionFlag = 2,
 			soundeffect = "event:/battle/boom2",
+			say = "Shells were speeding through the air, all targeting the mysterious ship. However, just as they were about to hit–",
 			flashN = {
 				color = {
 					1,
@@ -467,8 +467,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "But if you truly insist on standing in our way, then I will have to show you...",
 			typewriter = {
 				speed = 0.05,
@@ -483,8 +483,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "... the limits of the strength which Antiochus has leased you!",
 			typewriter = {
 				speed = 0.05,
@@ -499,8 +499,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "Swift death unto evil!",
 			typewriter = {
 				speed = 0.05,
@@ -512,10 +512,10 @@ return {
 			}
 		},
 		{
+			say = "There was a glimmer, followed by the sharp, swift sound of a sword's swing.",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "There was a glimmer, followed by the sharp, swift sound of a sword's swing.",
 			flashN = {
 				color = {
 					1,
@@ -578,10 +578,10 @@ return {
 			}
 		},
 		{
+			say = "A surging wave of energy came forth from the ship's sword, slashing shells, planes, and the very sea in twain.",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "A surging wave of energy came forth from the ship's sword, slashing shells, planes, and the very sea in twain.",
 			flashN = {
 				color = {
 					1,
@@ -629,10 +629,10 @@ return {
 			}
 		},
 		{
+			say = "This immense power was like that of Bismarck's, possibly even stronger.",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "This immense power was like that of Bismarck's, possibly even stronger.",
 			flashN = {
 				color = {
 					1,
@@ -698,8 +698,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "This... is the reason why she suffers so... If I was to destroy it...",
 			typewriter = {
 				speed = 0.05,
@@ -711,8 +711,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The swordswoman faced me, seemingly preparing to attack.",
 			typewriter = {
 				speed = 0.05,
@@ -727,8 +727,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "... If I was to destroy it...!",
 			typewriter = {
 				speed = 0.05,
@@ -755,8 +755,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -765,13 +765,13 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			actorName = "？？？",
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "That's enough, we've already finished what we needed to do here.",
 			soundeffect = "event:/battle/boom2",
+			actor = 900072,
+			nameColor = "#ff5c5c",
+			say = "That's enough, we've already finished what we needed to do here.",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -800,8 +800,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "... ...",
 			typewriter = {
 				speed = 0.05,
@@ -816,8 +816,8 @@ return {
 			actor = 900192,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "... Pardon. I let myself go.",
 			typewriter = {
 				speed = 0.05,
@@ -832,8 +832,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "It's fine. It won't matter in the long run.",
 			typewriter = {
 				speed = 0.05,
@@ -848,8 +848,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "I've finished installing the Beacons. We should now be able to oppose \"them.\"",
 			typewriter = {
 				speed = 0.05,
@@ -864,8 +864,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "There's no need to fight these people anymore.",
 			typewriter = {
 				speed = 0.05,
@@ -910,8 +910,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -926,8 +926,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "Don't start making assumptions... I just...",
 			typewriter = {
 				speed = 0.05,
@@ -942,8 +942,8 @@ return {
 			actor = 900072,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "... Don't want to experience that regret twice...",
 			typewriter = {
 				speed = 0.05,
@@ -991,8 +991,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Those two mysterious ships, so foreign but so familiar... Had I seen them before...?",
 			typewriter = {
 				speed = 0.05,
@@ -1004,8 +1004,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "They seemed to stop to look at me. Without a word or a trace of hesitation, they turned and vanished into the light.",
 			typewriter = {
 				speed = 0.05,
@@ -1017,8 +1017,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "As the light faded, the winds began to slow, the waters became placid, and the whirring of electronics returning to life could be heard throughout the fleet.",
 			typewriter = {
 				speed = 0.05,
@@ -1030,8 +1030,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The singularity which had covered the Bermuda Triangle was completely gone, as if nothing had ever happened.",
 			typewriter = {
 				speed = 0.05,
@@ -1088,8 +1088,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The danger was over, but the mystery was only getting deeper.",
 			typewriter = {
 				speed = 0.05,
@@ -1101,8 +1101,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "We immediately contacted headquarters to inform them that the source of singularity was undoubtedly a ship. And yet, that was all the information we even could give them.",
 			typewriter = {
 				speed = 0.05,
@@ -1114,8 +1114,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "We know nothing about this \"Antiochus\" or the ships that call themselves \"Ember and Ash\"...",
 			typewriter = {
 				speed = 0.05,

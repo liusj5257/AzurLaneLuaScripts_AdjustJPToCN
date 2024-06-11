@@ -7,23 +7,23 @@ return {
 	},
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -45,24 +45,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_545",
+			bgm = "story-commander-up",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "敵性存在の反応を示す赤い光が、南極大陸作戦マップを埋め尽くさんとしている。",
-			bgm = "story-commander-up",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			say = "平穏だった南極大陸がまるで嘘みたいに危機的状況に陥っている。",
@@ -150,10 +150,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もし同じ方法で侵入してきてるなら、彼女とは別の誰かが「神の痕」を展開していた、ということになるわ",
 			painting = {
 				alpha = 0.3,
@@ -187,10 +187,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "も、もしかしてソユーズたちが関わってるとか……？",
 			painting = {
 				alpha = 0.3,
@@ -260,10 +260,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "少し速度を落としているけど、みんなはどうやらまだ「メルトエリア」に向かって進んでいるみたい…",
 			painting = {
 				alpha = 0.3,
@@ -316,10 +316,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、これ以上待てないわ！戦場指揮の介入をお願い！",
 			painting = {
 				alpha = 0.3,
@@ -355,28 +355,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xuejing_2",
+			bgm = "theme-sovietunion",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "南極大陸・メルトエリア",
-			bgm = "theme-sovietunion",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -384,12 +384,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_xuejing_2",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "―――――！！！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,9 +437,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_2",
 			say = "突破口は作りました。北方連合の同志たちよ、私に続いて！",
 			painting = {
 				alpha = 0.3,
@@ -454,8 +454,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "損傷を受けても前進速度を維持しなさい！潜航艦の合流地点まで直行します！",
 			painting = {
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			say = "はい！",
@@ -484,8 +484,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			say = "―――――――",
@@ -497,9 +497,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_2",
 			say = "……通信連絡？",
 			painting = {
 				alpha = 0.3,
@@ -514,8 +514,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "これは……同志指揮官！？",
 			painting = {
@@ -531,8 +531,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705080,
 			dir = 1,
+			actor = 705080,
 			nameColor = "#A9F548FF",
 			say = "指揮官！？どうしてこのタイミングで？",
 			painting = {
@@ -547,9 +547,9 @@ return {
 		{
 			actor = 705080,
 			side = 2,
-			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_2",
 			say = "ケーニヒスベルクは外との通信がジャミングを受けてるって言ってたわよね？",
 			painting = {
 				alpha = 0.3,
@@ -563,9 +563,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_2",
 			say = "同志指揮官のことですからきっと何か方法があったんでしょう。でも確かにタイミングが……",
 			painting = {
 				alpha = 0.3,
@@ -580,8 +580,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "やっぱり。同志指揮官はこちらの戦況をモニタリングしており、じきに戦術指揮をしてくださるようです",
 			painting = {
@@ -597,8 +597,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "最初に私たちに連絡してきたのはおそらく、まず最前線の情報が知りたいのでしょう",
 			painting = {
@@ -614,8 +614,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "ふふふ。では…共に戦いましょう。同志指揮官",
 			painting = {
@@ -628,23 +628,23 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -666,25 +666,25 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（……作られた特殊鉱物、オブザーバーのSOS、そして…）",
+			side = 2,
 			bgm = "story-commander-up",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "（……作られた特殊鉱物、オブザーバーのSOS、そして…）",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -936,8 +936,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -951,10 +951,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、ソユーズとの連絡はもう大丈夫ね？次は何をすればいい？",
 			painting = {
 				alpha = 0.3,
@@ -1017,10 +1017,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "え？審判廷施設…？それって……",
 			painting = {
 				alpha = 0.3,
@@ -1066,10 +1066,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "連絡は切るわね。指揮官、ご武運を…！",
 			painting = {
 				alpha = 0.3,
@@ -1081,28 +1081,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――さて……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

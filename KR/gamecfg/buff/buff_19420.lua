@@ -182,12 +182,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 19420,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19420,
+	color = "red",
 	icon = 19420,
 	last_effect = "",
 	effect_list = {
@@ -197,9 +197,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				skill_id = 19420,
 				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 19420,
 				index = {
 					1
 				},
@@ -215,9 +215,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				skill_id = 19420,
 				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 19420,
 				index = {
 					1
 				},
@@ -233,9 +233,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				skill_id = 19421,
 				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 19421,
 				index = {
 					1
 				},
@@ -251,9 +251,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				skill_id = 19422,
 				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 19422,
 				index = {
 					1
 				},

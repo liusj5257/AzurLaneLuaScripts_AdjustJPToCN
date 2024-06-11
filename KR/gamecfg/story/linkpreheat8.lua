@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT8",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT8",
+	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900011,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "테스터",
 			dir = 1,
-			say = "어머, 무사히 합류했구나……잘 됐네, 아가씨들.",
 			bgm = "level-uta",
+			actor = 900011,
+			actorName = "테스터",
+			say = "어머, 무사히 합류했구나……잘 됐네, 아가씨들.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "걱정해줘서 고마워……라는 말 따윈 안 할 테니까 말야!",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			actor = 900011,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "테스터",
 			dir = 1,
+			actorName = "테스터",
 			say = "이번에도 뭐든지……우리들의 행동이야 늘 한결같지.",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			actor = 900011,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "테스터",
 			dir = 1,
+			actorName = "테스터",
 			say = "단순한 시행착오의 반복……이번에도 그 일환에 불과해.",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "우리를 베꼈어.",
 			typewriter = {
 				speed = 0.05,
@@ -103,10 +103,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "우리의 세계에 전해지는 기술을 훔쳐와서, 이쪽 세계로의 '길' 을 연 것만으로도 모자라, 이런 이질의 극치를 달리는 공간을 만든 것도……실험이라고 하는 겁니까?",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#92fc63",
-			dir = 1,
-			say = "우리의 세계에 전해지는 기술을 훔쳐와서, 이쪽 세계로의 '길' 을 연 것만으로도 모자라, 이런 이질의 극치를 달리는 공간을 만든 것도……실험이라고 하는 겁니까?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -169,8 +169,8 @@ return {
 			actor = 900011,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "테스터",
 			dir = 1,
+			actorName = "테스터",
 			say = "후후후, 의의로 감이 좋구나……'고양이신님'?",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			actor = 900011,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "테스터",
 			dir = 1,
+			actorName = "테스터",
 			say = "알고 싶다면 따라 와 보라고……이 해역 깊숙한 곳까지 말야.",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			say = "뭔가요, 저 안색 나빠 보이는 기분 나쁜 여자는?",
 			typewriter = {
 				speed = 0.05,
@@ -232,8 +232,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "아무튼……우리가 쓰러뜨려야 할 적, 이란 걸까나?",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "응, 우린 다 한배를 탄 사이인걸. 마지막까지 함께라고.",
 			typewriter = {
 				speed = 0.05,
@@ -351,11 +351,11 @@ return {
 			}
 		},
 		{
-			actor = 10300060,
 			nameColor = "#92fc63",
 			side = 0,
-			hideOther = true,
+			actor = 10300060,
 			dir = 1,
+			hideOther = true,
 			actorName = "<칭송받는 자> 일행",
 			say = "오오오!",
 			subActors = {
@@ -397,11 +397,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#92fc63",
 			side = 0,
-			hideOther = true,
+			actor = 201210,
 			dir = 1,
+			hideOther = true,
 			actorName = "<벽람항로> 일행",
 			say = "오오오!",
 			subActors = {

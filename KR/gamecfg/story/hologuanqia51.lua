@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA51",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA51",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "퓨리, 사라졌어요……",
 			bgm = "holo-tokiwa",
+			actor = 301050,
+			nameColor = "#a9f548",
+			say = "퓨리, 사라졌어요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "정말 모든게 끝났네…",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			nameColor = "#a9f548",
 			say = "돌아가서 보고서를 써야한다고 했는데, 괜찮을까…?",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "일단 이 해역을 떠나서 우리도 돌아갈 방법을 찾아보자.",
 			typewriter = {
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_holosaba2",
+			dir = 1,
 			say = "뚜뚜뚜… 뚜뚜뚜…",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "들려요? 즈이카쿠? 즈이카쿠인가요?",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "다행이다. 드디어 연결됐군요! 함대에 무슨 일이라도 생겼나요?",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "몇 주? 무슨 소리죠?",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "연락이 끊긴지 24시간이 채 지나지 않았는데요?",
 			typewriter = {
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "아직 하루도 안 지났다고요?!",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "이런 일은 설마… 거울 해역에서 흐르는 시간은 다른 곳과 차이가 있다는 건가?!",
 			typewriter = {
@@ -348,8 +348,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "이론 상으로 완전히 불가능하지는 않다냥~",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "그러고 보니 옆에 계신 분들은…?",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "이세계에서 온 손님… 알겠다냥… 무슨 상황인지 이해했다냥…",
 			typewriter = {
@@ -431,8 +431,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "걱정마라냥! 거울 해역에 세이렌이 남겨둔 장치를 어떻게 해보면 분명 답이 있을거다냥!",
 			typewriter = {
@@ -448,8 +448,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "아무래도 돌아와서 들을 말이 많은 것 같네요. 하지만…",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "수고 많았어요.",
 			typewriter = {
@@ -482,9 +482,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
 			blackBg = true,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "어서 집으로 돌아오세요. 그리고… 이 세계에 오신것을 환영해요~",
 			typewriter = {

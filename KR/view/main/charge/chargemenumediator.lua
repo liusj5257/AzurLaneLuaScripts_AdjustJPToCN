@@ -3,11 +3,11 @@ slot0.GO_SKIN_SHOP = "ChargeMenuMediator:GO_SKIN_SHOP"
 slot0.GO_SUPPLY_SHOP = "ChargeMenuMediator:GO_SUPPLY_SHOP"
 slot0.GO_CHARGE_SHOP = "ChargeMenuMediator:GO_CHARGE_SHOP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bindEvent()
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		PlayerProxy.UPDATED,
 		GAME.CHARGE_SUCCESS,
@@ -16,7 +16,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then
@@ -38,7 +38,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.bindEvent(slot0)
+slot0.bindEvent = function(slot0)
 	slot0:bind(uv0.GO_SKIN_SHOP, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
 	end)

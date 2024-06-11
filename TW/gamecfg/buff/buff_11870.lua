@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "神射手·改",
 	init_effect = "",
+	id = 11870,
 	time = 15,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 11870,
+	color = "red",
 	icon = 11870,
 	last_effect = "",
 	effect_list = {
@@ -27,9 +27,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 11871,
 				target = "TargetSelf",
-				time = 10,
-				skill_id = 11871
+				time = 10
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 11872,
-				time = 10,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 10
 			}
 		},
 		{

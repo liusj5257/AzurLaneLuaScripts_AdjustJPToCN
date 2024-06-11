@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN33",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "塔蘭托港 數日後",
 			side = 2,
 			bgName = "bg_guild_red",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-italy",
+			say = "塔蘭托港 數日後",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "以上，就是本次訪問的全部經過。",
 			typewriter = {
@@ -78,8 +78,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "利托里奧大人，關於鐵血延長訪問期限的請求，請問我應該如何答覆？",
 			typewriter = {
@@ -95,8 +95,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "這個啊~最近地中海局勢平和，既然鐵血盛情邀約，我們也沒有拒絕的必要，就辛苦妳再待一段時間吧。",
 			typewriter = {
@@ -112,8 +112,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "是，保證完成任務，龍騎兵通訊結束。",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "鐵血居然隱藏了這等規模的艦隊和要塞群，這還真是……………………",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "唔，接下來怎麼辦好呢………………",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605050,
 			dir = 1,
+			actor = 605050,
 			nameColor = "#a9f548",
 			say = "利托里奧，重櫻艦隊正在通過蘇伊士運河，預計將在本日午間進入地中海。",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605050,
 			dir = 1,
+			actor = 605050,
 			nameColor = "#a9f548",
 			say = "收到，加富爾伯爵通訊結束。",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "………………唉，算了。麻煩的事等麻煩的時候再想。",
 			typewriter = {
@@ -245,12 +245,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_guild_red",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 605020,
+			nameColor = "#a9f548",
 			say = "今天是屬於宴會的時間，是時候去迎接遠道而來的客人了~",
 			typewriter = {
 				speed = 0.05,

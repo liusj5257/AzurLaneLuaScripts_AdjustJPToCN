@@ -1,7 +1,7 @@
 slot0 = class("SailBoatGamePopUI")
 slot1 = nil
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0._event = slot2
 	uv0 = SailBoatGameVo
@@ -12,7 +12,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:initSettlementUI()
 end
 
-function slot0.initCountUI(slot0)
+slot0.initCountUI = function(slot0)
 	slot0.countUI = findTF(slot0._tf, "pop/CountUI")
 	slot0.countAnimator = GetComponent(findTF(slot0.countUI, "count"), typeof(Animator))
 	slot0.countDft = GetOrAddComponent(findTF(slot0.countUI, "count"), typeof(DftAniEvent))
@@ -28,7 +28,7 @@ function slot0.initCountUI(slot0)
 	end)
 end
 
-function slot0.initLeavelUI(slot0)
+slot0.initLeavelUI = function(slot0)
 	slot0.leaveUI = findTF(slot0._tf, "pop/LeaveUI")
 
 	setActive(slot0.leaveUI, false)
@@ -42,7 +42,7 @@ function slot0.initLeavelUI(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.initPauseUI(slot0)
+slot0.initPauseUI = function(slot0)
 	slot0.pauseUI = findTF(slot0._tf, "pop/pauseUI")
 
 	setActive(slot0.pauseUI, false)
@@ -52,7 +52,7 @@ function slot0.initPauseUI(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.initSettlementUI(slot0)
+slot0.initSettlementUI = function(slot0)
 	slot0.settlementUI = findTF(slot0._tf, "pop/SettleMentUI")
 
 	setActive(slot0.settlementUI, false)
@@ -62,7 +62,7 @@ function slot0.initSettlementUI(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.updateSettlementUI(slot0)
+slot0.updateSettlementUI = function(slot0)
 	GetComponent(findTF(slot0.settlementUI, "ad"), typeof(Animator)):Play("settlement", -1, 0)
 
 	slot3 = uv0.scoreNum
@@ -79,7 +79,7 @@ function slot0.updateSettlementUI(slot0)
 	slot0._event:emit(SailBoatGameView.SUBMIT_GAME_SUCCESS)
 end
 
-function slot0.backPressed(slot0)
+slot0.backPressed = function(slot0)
 	if isActive(slot0.pauseUI) then
 		slot0:resumeGame()
 		slot0._event:emit(SailBoatGameView.PAUSE_GAME, false)
@@ -94,12 +94,12 @@ function slot0.backPressed(slot0)
 	end
 end
 
-function slot0.resumeGame(slot0)
+slot0.resumeGame = function(slot0)
 	setActive(slot0.leaveUI, false)
 	setActive(slot0.pauseUI, false)
 end
 
-function slot0.popLeaveUI(slot0)
+slot0.popLeaveUI = function(slot0)
 	if isActive(slot0.pauseUI) then
 		setActive(slot0.pauseUI, false)
 	end
@@ -107,7 +107,7 @@ function slot0.popLeaveUI(slot0)
 	setActive(slot0.leaveUI, true)
 end
 
-function slot0.popPauseUI(slot0)
+slot0.popPauseUI = function(slot0)
 	if isActive(slot0.leaveUI) then
 		setActive(slot0.leaveUI, false)
 	end
@@ -115,26 +115,26 @@ function slot0.popPauseUI(slot0)
 	setActive(slot0.pauseUI, true)
 end
 
-function slot0.updateGameUI(slot0, slot1)
+slot0.updateGameUI = function(slot0, slot1)
 	setText(slot0.scoreTf, slot1.scoreNum)
 	setText(slot0.gameTimeS, math.ceil(slot1.gameTime))
 end
 
-function slot0.readyStart(slot0)
+slot0.readyStart = function(slot0)
 	slot0:popCountUI(true)
 	slot0.countAnimator:Play("count")
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0.SFX_COUNT_DOWN)
 end
 
-function slot0.popCountUI(slot0, slot1)
+slot0.popCountUI = function(slot0, slot1)
 	setActive(slot0.countUI, slot1)
 end
 
-function slot0.popSettlementUI(slot0, slot1)
+slot0.popSettlementUI = function(slot0, slot1)
 	setActive(slot0.settlementUI, slot1)
 end
 
-function slot0.clearUI(slot0)
+slot0.clearUI = function(slot0)
 	setActive(slot0.settlementUI, false)
 	setActive(slot0.countUI, false)
 end

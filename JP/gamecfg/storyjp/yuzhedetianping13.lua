@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING13",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -31,18 +31,18 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "うわー！たんぽぽが落ちてきてるー！",
 			bgm = "story-clemenceau-judgement",
+			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "うわー！たんぽぽが落ちてきてるー！",
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -59,12 +59,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "たんぽぽじゃないでしょう！でもこれは一体何なの…",
 			painting = {
 				alpha = 0.3,
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "タラント周辺はもうごちゃごちゃですね…ヴェネトさんとリットリオさんにも連絡がつきません…",
 			painting = {
 				alpha = 0.3,
@@ -108,10 +108,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "アブルッツィ、やっぱりアクィラたちも出撃したほうが……",
 			painting = {
 				alpha = 0.3,
@@ -148,12 +148,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうですね…もしかしたらすぐ連絡が来るかもしれません",
 			painting = {
 				alpha = 0.3,
@@ -165,30 +165,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
-			actorName = "通信",
 			stopbgm = true,
-			say = "―――――！！！",
 			bgm = "theme-marcopolo",
+			actorName = "通信",
+			hidePaintObj = true,
+			say = "―――――！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -199,10 +199,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "こちらマルコ・ポーロ、誰か聞こえてる？",
 			painting = {
 				alpha = 0.3,
@@ -217,10 +217,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあ！マルコ・ポーロさん！",
 			painting = {
 				alpha = 0.3,
@@ -235,10 +235,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "良かったです。こちらアクィラ、マルコ・ポーロさんはまだ会場ですか？",
 			painting = {
 				alpha = 0.3,
@@ -250,12 +250,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そちらは大丈夫ですか？一体何が起きているんですか…？",
 			painting = {
 				alpha = 0.3,
@@ -270,10 +270,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "やはりそちらにも異変が起きているようね",
 			painting = {
 				alpha = 0.3,
@@ -288,10 +288,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "見ての通り、サディア全域が大変なのよ",
 			painting = {
 				alpha = 0.3,
@@ -306,10 +306,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "非常事態対応案に沿って、これからはこのマルコ・ポーロが事態に対処するわ",
 			painting = {
 				alpha = 0.3,
@@ -324,10 +324,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "非常事態対応が解除されない限り、サディアのあらゆる戦力はこのマルコ・ポーロの指揮下に入るの",
 			painting = {
 				alpha = 0.3,
@@ -342,10 +342,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "アクィラ、そしてタラントにいる艦船たちはすぐ世界博覧会会場に向かい、戦闘準備をして次の命令を待って",
 			painting = {
 				alpha = 0.3,
@@ -360,10 +360,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "会場の救援ですね？了解しました",
 			painting = {
 				alpha = 0.3,
@@ -375,12 +375,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あれ？そういえば非常事態対応案の優先順位は総旗艦であるヴェネトさんが先のような……",
 			painting = {
 				alpha = 0.3,
@@ -395,10 +395,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もしかしてヴェネトさんがマルコ・ポーロさんに譲ったのでしょうか？",
 			painting = {
 				alpha = 0.3,
@@ -413,10 +413,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "ヴェネトヴェネトヴェネト…なんでどこもヴェネトなの？",
 			painting = {
 				alpha = 0.3,
@@ -431,10 +431,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "だからこそ私はこの道を進むしかないわ",
 			painting = {
 				alpha = 0.3,
@@ -449,10 +449,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "君たちのことはもう知らない！ふん！",
 			painting = {
 				alpha = 0.3,
@@ -464,8 +464,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_underheaven_1",
 			hidePaintObj = true,
 			nameColor = "#ffff4d",
@@ -479,10 +479,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ん？ど、どうしたのマルコ・ポーロさん…",
 			painting = {
 				alpha = 0.3,
@@ -497,10 +497,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "何が起きたかも教えてくれないんですか…？",
 			painting = {
 				alpha = 0.3,
@@ -616,10 +616,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "戦闘準備しましょう！アブルッツィ、レッコちゃん！",
 			painting = {
 				alpha = 0.3,

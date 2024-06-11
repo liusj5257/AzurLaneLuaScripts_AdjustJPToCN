@@ -14,11 +14,11 @@ slot12 = "other_world_temple_pay"
 slot13 = "temple_consume_not_enough"
 slot14 = 30
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "OtherWorldTempleUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.templeIds = pg.activity_template[ActivityConst.OTHER_WORLD_TERMINAL_LOTTERY_ID].config_data
 	slot0.shopDatas = {}
 
@@ -44,7 +44,7 @@ function slot0.init(slot0)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = findTF(slot0._tf, "ad")
 	slot2 = findTF(slot0._tf, "pop")
 	slot0.picTf = findTF(slot1, "pic")
@@ -53,7 +53,7 @@ function slot0.didEnter(slot0)
 		uv0:closeView()
 	end, SFX_CANCEL)
 
-	function slot6()
+	slot6 = function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.other_world_temple_tip.tip
@@ -97,7 +97,7 @@ function slot0.didEnter(slot0)
 					arg1 = uv0.templeIds[uv0._selectIndex]
 				})
 
-				function uv0._payToLotterCallback()
+				uv0._payToLotterCallback = function()
 					uv0:payToLottery(uv1)
 				end
 			else
@@ -136,7 +136,7 @@ function slot0.didEnter(slot0)
 	slot0:updateActivity()
 end
 
-function slot0.payToLottery(slot0, slot1)
+slot0.payToLottery = function(slot0, slot1)
 	if slot0.waitActivityUpdate == true then
 		return
 	end
@@ -153,7 +153,7 @@ function slot0.payToLottery(slot0, slot1)
 	})
 end
 
-function slot0.selectPage(slot0, slot1)
+slot0.selectPage = function(slot0, slot1)
 	slot0._lastSelectIndex = slot0._selectIndex
 	slot0._selectIndex = slot1
 
@@ -180,7 +180,7 @@ function slot0.selectPage(slot0, slot1)
 	LoadImageSpriteAsync(slot2, findTF(slot0._tf, "ad/btnPay/img/icon"), false)
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	slot0.lotteryCount = math.min(math.min(slot0.activityPools[slot0.templeIds[slot0._selectIndex]]:getleftItemCount(), uv0), math.floor(slot0:getResCount() / slot0:getConsume()))
 
 	if slot0.lotteryCount <= 0 then
@@ -203,22 +203,22 @@ function slot0.updateUI(slot0)
 	end)
 end
 
-function slot0.getResCount(slot0)
+slot0.getResCount = function(slot0)
 	return getProxy(PlayerProxy):getData():getResById(pg.activity_random_award_template[slot0.templeIds[slot0._selectIndex]].resource_type) or 0
 end
 
-function slot0.getConsume(slot0)
+slot0.getConsume = function(slot0)
 	return pg.activity_random_award_template[slot0.templeIds[slot0._selectIndex]].resource_num
 end
 
-function slot0.getResIconPath(slot0)
+slot0.getResIconPath = function(slot0)
 	return Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = pg.activity_random_award_template[slot0.templeIds[slot0._selectIndex]].resource_type
 	}):getIcon()
 end
 
-function slot0.updateActivity(slot0)
+slot0.updateActivity = function(slot0)
 	slot0.activity = getProxy(ActivityProxy):getActivityById(ActivityConst.OTHER_WORLD_TERMINAL_LOTTERY_ID)
 	slot0.awardInfos = slot0.activity:getAwardInfos()
 	slot0.activityPools = {}
@@ -246,7 +246,7 @@ function slot0.updateActivity(slot0)
 	slot0.waitActivityUpdate = false
 end
 
-function slot0.displayTempleCharAward(slot0)
+slot0.displayTempleCharAward = function(slot0)
 	if slot0.checkCharAward then
 		if slot0.activityPools[slot0.templeIds[slot0._selectIndex]]:getFetchCount() == slot0.poolFetchCount then
 			return

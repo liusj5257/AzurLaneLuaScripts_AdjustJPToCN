@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN9",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "大棋盤·赤城控制區第三回合",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg5",
 			say = "伴隨著事件「海霧彌散」的觸發提示，棋盤中的所有水域上都憑空出現了一層厚厚的海霧。",
 			typewriter = {
@@ -46,17 +46,17 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#A9F548FF",
 			say = "嗚哇！起霧啦……！出、出什麼事了！",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,8 +178,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "雖然棋中之人無法了解事件卡的具體效果，不過這張卡是赤城設計的，所以我很清楚。",
 			painting = {
@@ -211,8 +211,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "阻礙消失可是個好消息，我們不用因為注意陣型而繞遠路了。",
 			painting = {
@@ -244,8 +244,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "但是諸位，切忌因此而得意忘形。在自己行動結束之後，一定要停在空曠的海域格內。",
 			painting = {
@@ -261,8 +261,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "作為侍從，一切聽從赤城大人的安排就是了。",
 			painting = {
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "\"侍從必須按照大將指令行動\"這一規則，僅僅適用於大將還未入場的時候。",
 			painting = {
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "如果大將進入了棋盤之中，情況就要發生些許變化了……",
 			painting = {
@@ -344,8 +344,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "我感覺姐姐很快就要親自進場大鬧一番了，到時候的形式也許又要發生變化吧……",
 			painting = {

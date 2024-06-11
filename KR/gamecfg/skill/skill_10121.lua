@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "潘多拉的魔盒",
 	cd = 0,
-	painting = 1,
-	id = 10121,
 	picture = "0",
 	desc = "爆炸",
+	painting = 1,
+	id = 10121,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,10 +16,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetSelf",
 			arg_list = {
 				weapon_id = 61005,
 				emitter = "BattleBulletEmitter"

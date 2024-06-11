@@ -1,10 +1,10 @@
 slot0 = class("NewProbabilitySkinShopScene", import(".NewSkinShopScene"))
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return false
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.contextData.mode = NewSkinShopScene.MODE_OVERVIEW
@@ -13,7 +13,7 @@ function slot0.init(slot0)
 	slot0.chargeTipWindow = ChargeTipWindow.New(slot0._tf, slot0.event)
 end
 
-function slot0.GetCommodity(slot0, slot1)
+slot0.GetCommodity = function(slot0, slot1)
 	slot2 = Goods.Create({
 		shop_id = slot1
 	}, Goods.TYPE_CHARGE)
@@ -23,7 +23,7 @@ function slot0.GetCommodity(slot0, slot1)
 	return slot2
 end
 
-function slot0.OnChargeSuccess(slot0, slot1)
+slot0.OnChargeSuccess = function(slot0, slot1)
 	slot2 = slot0:GetCommodity(slot1)
 	slot0.commodity = slot2
 
@@ -34,7 +34,7 @@ function slot0.OnChargeSuccess(slot0, slot1)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 	setActive(slot0.atlasBtn, false)
 	setActive(slot0:findTF("overlay/left/mask"), false)
@@ -54,15 +54,15 @@ function slot0.didEnter(slot0)
 	setActive(slot0.changeBtn, false)
 end
 
-function slot0.UpdateCouponBtn(slot0)
+slot0.UpdateCouponBtn = function(slot0)
 	slot0.couponTr.localScale = Vector3(0, 0, 0)
 end
 
-function slot0.UpdateVoucherBtn(slot0)
+slot0.UpdateVoucherBtn = function(slot0)
 	slot0.voucherTr.localScale = Vector3(0, 0, 0)
 end
 
-function slot0.UpdateTitle(slot0, slot1)
+slot0.UpdateTitle = function(slot0, slot1)
 	slot0.title.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", "probabilityshop")
 
 	slot0.title:SetNativeSize()
@@ -72,25 +72,25 @@ function slot0.UpdateTitle(slot0, slot1)
 	setActive(slot0.titleEn.gameObject, false)
 end
 
-function slot0.GetAllCommodity(slot0)
+slot0.GetAllCommodity = function(slot0)
 	return getProxy(ShipSkinProxy):GetProbabilitySkins(slot0.commodity:GetSkinProbability())
 end
 
-function slot0.GetSkinProbability(slot0)
+slot0.GetSkinProbability = function(slot0)
 	return getProxy(ShipSkinProxy):GetSkinProbabilitys(slot0.commodity:GetSkinProbability())
 end
 
-function slot0.GetSkinClassify(slot0, slot1, slot2)
+slot0.GetSkinClassify = function(slot0, slot1, slot2)
 	return {
 		NewSkinShopScene.PAGE_ALL
 	}
 end
 
-function slot0.IsType(slot0, slot1, slot2)
+slot0.IsType = function(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.UpdateCommodities(slot0, slot1, slot2, slot3)
+slot0.UpdateCommodities = function(slot0, slot1, slot2, slot3)
 	slot0.skinProbabilityList = slot0:GetSkinProbability()
 
 	seriesAsync({
@@ -103,12 +103,12 @@ function slot0.UpdateCommodities(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
-function slot0.FlushItemView(slot0, slot1)
+slot0.FlushItemView = function(slot0, slot1)
 	slot0.itemView:ExecuteAction("Show", slot0.commodity)
 	slot1()
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	uv0.super.OnUpdateItem(slot0, slot1, slot2)
 
 	slot4 = slot0.cards[slot2].commodity.buyCount == 0
@@ -125,7 +125,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3.txt.text = " " .. string.format("%0.1f", (slot0.skinProbabilityList[slot3.commodity:getSkinId()] or 0) / 100) .. "%"
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.itemView then
 		slot0.itemView:Destroy()
 

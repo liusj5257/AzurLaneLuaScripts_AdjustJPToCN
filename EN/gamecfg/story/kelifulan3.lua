@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -17,23 +17,23 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "A few days later - At the gymnasium",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "A few days later - At the gymnasium",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			actorScale = 0.6,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "*Pant*... *Pant*... Sorry I'm late!",
 			effects = {
 				{
@@ -51,8 +51,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 3
@@ -68,8 +68,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 1.5,
 					dur = 0.1,
 					number = 3
@@ -85,8 +85,8 @@ return {
 					}
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 3,
 					dur = 0.1,
 					number = 3
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "While everyone was training hard for the basketball tournament, something rather unusual happened: Cleveland arrived late.",
 			effects = {
 				{
@@ -126,30 +126,30 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "*Glug*... *Gug*... Ahhh! Just what I needed! Okay, okay, I'm late because I was just about done with my shift and...",
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
 					number = 1
@@ -165,15 +165,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "... And I was like, \"What?! San Diego's responsible for a forest of wheat growing in the lawn behind the dorm?\" ... But, like, what's wrong with that? Why don't they get you can make food with the wheat...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -230,16 +230,16 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "But I, like, gotta go, you know, so I just said, \"Okay, fine! I've got stuff to do, so we'll just have to harvest all that wheat super quickly! And stop calling me Clevebro!...\"",
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -255,15 +255,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "In short, some of the girls from the Eagle Union dorm asked me to help... I'm really sorry I wasn't on time!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -288,9 +288,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Cleveland apologized a few times before she settled down. She's been a part of my fleet for a long time, so I'd gotten pretty used to her doing that.",
 			typewriter = {
 				speed = 0.05,
@@ -314,12 +314,12 @@ return {
 			}
 		},
 		{
-			actor = 102150,
+			say = "Thanks, sis! I owe you one!",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Thanks, sis! I owe you one!",
+			actor = 102150,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -334,11 +334,11 @@ return {
 			}
 		},
 		{
-			actor = 102100,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 102100,
+			nameColor = "#a9f548",
 			say = "Oh, sis, when will you learn? Helena's are great, don't get me wrong, but sometimes you just wanna eat one of Cleveland's lunches. Y'know what I mean, Commander?",
 			typewriter = {
 				speed = 0.05,
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "H-huh, really? Then maybe I'll ask Helena about it next time... But only because you said you want it, Commander!",
 			typewriter = {
 				speed = 0.05,

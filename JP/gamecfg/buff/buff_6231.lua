@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "Z字旗·三笠",
 	time = 1,
+	name = "Z字旗·三笠",
+	init_effect = "",
 	picture = "",
 	desc = "触发器",
 	stack = 1,

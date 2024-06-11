@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIJINGHUA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIJINGHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「버츄얼 연결고리의 공시성」 -정화편\n\n<size=45>3. 위기 발생!?</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "바이러스 퇴치 완료! 지휘관님도 꽤 익숙해지셨네요.",
 			bgm = "story-1",
+			actor = 10400010,
+			nameColor = "#92fc63",
+			say = "바이러스 퇴치 완료! 지휘관님도 꽤 익숙해지셨네요.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "오오? …이, 이건! '랜덤 워드'!!!",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,8 +120,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "...였을 터지만, 어째서인지 여러 가지 공간과 이어져 버려, 물질을 데이터로 변환하는 기능까지 있다는 게 판명된 슈퍼 테크놀로지의 결정체!",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "참고로 제가 만들었습니다(엣헴)",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "(완전 무시당했다……) 그, 글쎄. 예를 들면……",
 			typewriter = {
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301120,
+			nameColor = "#92fc63",
 			say = "큰일이에요, 쉬는 날인데 '모항에 표착한 잔불을 청소하라'는 명령이 내려졌어요.",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -213,8 +213,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "우와아, 그렇게 서두르지 않아도…",
 			typewriter = {
@@ -278,8 +278,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "아이쨩 위기일발!'",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,8 +321,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "전혀 써먹지 못할 것 같네요… 자, 이카즈치쨩도 뽑아 봐!",
 			typewriter = {
@@ -351,12 +351,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "네, 그럼… 두구두구… 짠. '쥬쥬'인가요. 먹을 것보다는 도움이 될 것 같네요.",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "네, 그럼… 두구두구… 짠. '쥬쥬'인가요. 먹을 것보다는 도움이 될 것 같네요.",
+			actor = 301120,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#92fc63",
 			say = "과연! 이게 바로 '하드코어 겜'이란 거네! 이카즈치, 전혀 모르겠어!",
 			typewriter = {
 				speed = 0.05,
@@ -403,8 +403,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -416,8 +416,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "라무네', '산소 콜라', '쥬쥬'…… 알았다!",
 			typewriter = {
@@ -481,8 +481,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "<size=97.5>콰앙~!</size>",
 			effects = {
@@ -500,8 +500,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "네! 위기 회피~!",
 			effects = {
@@ -555,8 +555,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "큭, 맞는 말…, 그럼 이렇게 하면 되겠네요!",
 			typewriter = {
@@ -601,12 +601,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 10400010,
+			nameColor = "#92fc63",
 			say = "다들 고마워! 다 같이 힘을 합쳐서 힘내자! 가자~~~! 오~~~!",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
-	id = "SHENSHENGDEBEIXIJU7",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU7",
+	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-italy",
 			say = "晚間19:30:00",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -19,12 +19,12 @@ return {
 			}
 		},
 		{
-			actor = 203070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "怎..怎麼回事！？哪裡來的攻擊？！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 203070,
+			nameColor = "#a9f548",
+			say = "怎..怎麼回事！？哪裡來的攻擊？！",
 			flashN = {
 				color = {
 					1,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "此時，約克等人才發現自己已被四面八方湧來的量產型帝國艦艇包圍了",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			actor = 900197,
 			side = 2,
 			expression = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "對不起，真的是任務需要，所以…",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -234,8 +234,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 1,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "....欸？",
 			typewriter = {
 				speed = 0.05,
@@ -292,12 +292,12 @@ return {
 			}
 		},
 		{
-			actor = 203070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "去吧，魔炮彈——Bethlehem！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 203070,
+			nameColor = "#a9f548",
+			say = "去吧，魔炮彈——Bethlehem！",
 			flashN = {
 				color = {
 					1,
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "隨著炮火聲，一朵紅色的巨大禮花彈在高空中綻放，發出的耀眼光芒照亮了數十海里的夜空",
 			typewriter = {
 				speed = 0.05,
@@ -361,8 +361,8 @@ return {
 			actor = 603020,
 			side = 2,
 			expression = 1,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "什麼？！主炮裡居然裝填著禮花彈！",
 			typewriter = {
 				speed = 0.05,
@@ -404,14 +404,14 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "噴嚏——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -439,8 +439,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "厭戰",
 			say = "紅色訊號嗎…真可惜，本以為還有機會能夠挽留一個盟友的——",
 			typewriter = {
@@ -471,8 +471,8 @@ return {
 			actor = 205029,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "厭戰",
 			dir = 1,
+			actorName = "厭戰",
 			say = "了解，非常感謝您能親自來前線支援，光輝女士",
 			typewriter = {
 				speed = 0.05,
@@ -486,13 +486,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "情況不妙，作戰計劃洩露了，必須立刻通知主力艦隊！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -517,10 +517,10 @@ return {
 			}
 		},
 		{
+			say = "轟---！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟---！",
 			flashN = {
 				color = {
 					1,

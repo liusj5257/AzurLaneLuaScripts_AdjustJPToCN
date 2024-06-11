@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection: Spring Festival I\n\n<size=45>1 Dance Beneath the Moonlight</size>",
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "I'm taking a casual stroll before the Lunar New Year banquet, and it seems I've caught Huan Ch'ang unaware.",
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "She's busy with something, so I should...",
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "With a hollow crack, a fallen branch snaps under my foot.",
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 504011,
 			side = 2,
 			bgName = "star_level_bg_152",
 			spine = true,
 			dir = 1,
+			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Oh, god...",
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "Her face immediately turns bright red, like the paper lanterns decorating the streets.",
@@ -337,8 +337,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "I swear on my honor that I won't tell a living soul, and only then does calm finally return to her expression.",
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "Likewise, the color of her face also goes back to normal. Even so, I can tell something still bothers her.",
@@ -468,9 +468,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_152",
 			spine = true,
-			dir = 1,
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -484,17 +484,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -578,9 +578,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_152",
 			spine = true,
-			dir = 1,
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -594,17 +594,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -681,27 +681,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_152",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_152",
 			say = "After considerable deliberation and doubt, Huan Ch'ang finally settled on a few masks that would look good on her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -709,8 +709,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			say = "She further practiced her deportment as well. She most definitely projects a stately aura now.",

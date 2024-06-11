@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "北方的孤独女王·监控场上友军战列",
 	time = 0,
+	name = "北方的孤独女王·监控场上友军战列",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

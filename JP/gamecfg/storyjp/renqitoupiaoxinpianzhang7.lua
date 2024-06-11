@@ -1,34 +1,34 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQITOUPIAOXINPIANZHANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQITOUPIAOXINPIANZHANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
+			bgm = "votefes-start",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "夜になり、会場がますます盛り上がっていく。",
-			bgm = "votefes-start",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "会場が歓声に包まれる中、日程を示すモニターがゆっくりと光り始めた。",
@@ -47,12 +47,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "モニター…ついた……",
 			painting = {
 				alpha = 0.3,
@@ -64,12 +64,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "つまり…予選がいよいよ始まるってこと？",
 			painting = {
 				alpha = 0.3,
@@ -81,12 +81,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うん！ついに開幕したね！",
 			painting = {
 				alpha = 0.3,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -108,12 +108,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うぅ…ドキドキドキドキ…緊張する…",
 			painting = {
 				alpha = 0.3,
@@ -125,12 +125,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "落ち着くです。序盤は力を蓄えておくべきです…",
 			painting = {
 				alpha = 0.3,
@@ -142,12 +142,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "夜ご飯を食べてから確認したほうがいいです？",
 			painting = {
 				alpha = 0.3,
@@ -159,12 +159,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いいですね！グルメ屋台も始まりましたし、まずは食べてからゆっくり楽しみましょう！",
 			painting = {
 				alpha = 0.3,
@@ -176,12 +176,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ラフィー、投票券任務をこなしてきてもいい…？",
 			painting = {
 				alpha = 0.3,
@@ -193,12 +193,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…そんなの明日でいいから！",
 			painting = {
 				alpha = 0.3,

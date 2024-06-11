@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.guild_contribution_template = {
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "資金拠出",
 		type = 1,
 		type_id = 1,
@@ -12,8 +12,8 @@ pg.guild_contribution_template = {
 		id = 1
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "燃料拠出",
 		type = 1,
 		type_id = 2,
@@ -23,8 +23,8 @@ pg.guild_contribution_template = {
 		id = 2
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "食料拠出",
 		type = 2,
 		type_id = 50001,
@@ -34,8 +34,8 @@ pg.guild_contribution_template = {
 		id = 3
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "食料拠出",
 		type = 2,
 		type_id = 50002,
@@ -45,8 +45,8 @@ pg.guild_contribution_template = {
 		id = 4
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出I",
 		type = 2,
 		type_id = 17001,
@@ -56,8 +56,8 @@ pg.guild_contribution_template = {
 		id = 5
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出I",
 		type = 2,
 		type_id = 17011,
@@ -67,8 +67,8 @@ pg.guild_contribution_template = {
 		id = 6
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出I",
 		type = 2,
 		type_id = 17021,
@@ -78,8 +78,8 @@ pg.guild_contribution_template = {
 		id = 7
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出I",
 		type = 2,
 		type_id = 17031,
@@ -89,8 +89,8 @@ pg.guild_contribution_template = {
 		id = 8
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出I",
 		type = 2,
 		type_id = 17041,
@@ -100,8 +100,8 @@ pg.guild_contribution_template = {
 		id = 9
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出Ⅱ",
 		type = 2,
 		type_id = 17002,
@@ -111,8 +111,8 @@ pg.guild_contribution_template = {
 		id = 10
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出Ⅱ",
 		type = 2,
 		type_id = 17012,
@@ -122,8 +122,8 @@ pg.guild_contribution_template = {
 		id = 11
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出Ⅱ",
 		type = 2,
 		type_id = 17022,
@@ -133,8 +133,8 @@ pg.guild_contribution_template = {
 		id = 12
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出Ⅱ",
 		type = 2,
 		type_id = 17032,
@@ -144,8 +144,8 @@ pg.guild_contribution_template = {
 		id = 13
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出Ⅱ",
 		type = 2,
 		type_id = 17042,
@@ -155,8 +155,8 @@ pg.guild_contribution_template = {
 		id = 14
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出Ⅲ",
 		type = 2,
 		type_id = 17003,
@@ -166,8 +166,8 @@ pg.guild_contribution_template = {
 		id = 15
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出Ⅲ",
 		type = 2,
 		type_id = 17013,
@@ -177,8 +177,8 @@ pg.guild_contribution_template = {
 		id = 16
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出Ⅲ",
 		type = 2,
 		type_id = 17023,
@@ -188,8 +188,8 @@ pg.guild_contribution_template = {
 		id = 17
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出Ⅲ",
 		type = 2,
 		type_id = 17033,
@@ -199,8 +199,8 @@ pg.guild_contribution_template = {
 		id = 18
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "素材拠出Ⅲ",
 		type = 2,
 		type_id = 17043,
@@ -210,8 +210,8 @@ pg.guild_contribution_template = {
 		id = 19
 	},
 	{
-		award_tech_exp = 2,
 		award_capital = 1,
+		award_tech_exp = 2,
 		name = "戦果拠出",
 		type = 1,
 		type_id = 3,

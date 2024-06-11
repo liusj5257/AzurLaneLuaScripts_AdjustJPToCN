@@ -1,11 +1,11 @@
 return {
-	init_effect = "",
-	name = "2022构建者护盾",
 	time = 3,
-	color = "yellow",
+	name = "2022构建者护盾",
+	init_effect = "",
+	id = 9532,
 	picture = "",
 	stack = 1,
-	id = 9532,
+	color = "yellow",
 	icon = 9532,
 	last_effect = "",
 	effect_list = {

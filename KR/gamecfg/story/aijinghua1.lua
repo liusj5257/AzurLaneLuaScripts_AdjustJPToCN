@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIJINGHUA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIJINGHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「버츄얼 연결고리의 공시성」 -정화편\n\n<size=45>1. 랜덤 워드 생성기</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
 			bgmDelay = 2,
+			stopbgm = true,
 			bgm = "story-1",
 			actor = 10400010,
-			stopbgm = true,
+			nameColor = "#92fc63",
+			bgName = "bg_story_outdoor",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -73,8 +73,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "앗, 아야나미쨩! 지금 막 랜덤 워드 생성기의 바이러스를 퇴치하고 있었어~",
 			typewriter = {
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#92fc63",
 			say = "으응~ 바이러스 퇴치란 건 힘드네요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -219,8 +219,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "다들 고마워! 이래저래 바이러스를 없앨 수 있었네! 지금처럼 쭉쭉 바이러스를 퇴치해 나가자~!",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 10400010,
+			nameColor = "#92fc63",
 			say = "오오~ 'PT-키즈나'를 손에 넣었다~! 이거 그거죠, 늘 하는 거요~, 이걸로 이벤트 한정 아이템을 손에 넣을 수 있다구요♪",
 			typewriter = {
 				speed = 0.05,
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 10400010,
+			nameColor = "#92fc63",
 			say = "네에~! 뭐로 교환할까요? 개인적으론 머리띠인 '표코표코'가 좋다고 생각하는데요~",
 			typewriter = {
 				speed = 0.05,
@@ -302,12 +302,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 301120,
+			nameColor = "#92fc63",
 			say = "이나즈마는 \"인텔리전트 팁\"이 신경쓰여요.",
 			typewriter = {
 				speed = 0.05,
@@ -319,12 +319,12 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 301110,
+			nameColor = "#92fc63",
 			say = "이카즈치는 금색 장비 상자를 더 많이 가지고 싶어~ 물론 도금한 거 말고 진짜 말야!",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -346,12 +346,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 10400010,
+			nameColor = "#92fc63",
 			say = "좋아~! 이대로 힘내서 바이러스를 퇴치하자! 'PT-키즈나'를 왕창 벌어들이는 거야♪",
 			typewriter = {
 				speed = 0.05,
@@ -366,9 +366,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "그야 물론! 저도 원래 세계에서는 지휘관이었으니까요! 수많은 격전을 헤쳐왔다구요~?",
 			typewriter = {
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 2,
+			actor = 301110,
+			nameColor = "#92fc63",
 			say = "에에!? 아이쨩도 '지휘관'이었어!?",
 			typewriter = {
 				speed = 0.05,
@@ -398,8 +398,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -408,12 +408,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 2,
+			actor = 301120,
+			nameColor = "#92fc63",
 			say = "아이상의 정체가 '지휘관'이었다니… 놀랐어요.",
 			typewriter = {
 				speed = 0.05,
@@ -428,9 +428,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "에헴~! 뭐 어쨌든, PT-키즈나가 얼마나 중요한지는 잘 알고 있으니까, 힘내서 모으도록 하죠♪",
 			typewriter = {
@@ -443,9 +443,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "(찰칵)",
 			flashN = {
 				color = {
@@ -480,8 +480,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "누가 사진 찍었어!?",
 			typewriter = {
@@ -513,8 +513,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "천재!? 그, 그 말대로~!",
 			typewriter = {
@@ -527,8 +527,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -540,8 +540,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "내가 바로 모항에서 소문난 인텔리전트한 슈퍼 AI키즈나 아이입니다! 잘 부탁해!",
 			typewriter = {
@@ -589,8 +589,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "에, 라피쨩… 그런 거였어!?",
 			typewriter = {
@@ -670,8 +670,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "정말~ 어쩔 수 없네~ 제대로 귀엽게 찍어달라구요!",
 			typewriter = {
@@ -684,12 +684,12 @@ return {
 			}
 		},
 		{
-			actor = 101050,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 101050,
+			nameColor = "#92fc63",
 			say = "맡겨둬~!",
 			typewriter = {
 				speed = 0.05,

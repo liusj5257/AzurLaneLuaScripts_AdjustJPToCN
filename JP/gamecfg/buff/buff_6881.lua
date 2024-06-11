@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "偶像手环",
 	time = 65,
-	color = "red",
+	name = "偶像手环",
+	init_effect = "",
+	id = 6881,
 	picture = "",
 	desc = "受到伤害降低",
 	stack = 1,
-	id = 6881,
+	color = "red",
 	icon = 6881,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.07
+				number = -0.07,
+				attr = "injureRatio"
 			}
 		}
 	}

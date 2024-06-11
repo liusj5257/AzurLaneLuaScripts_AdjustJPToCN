@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHUIXINGJINIAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHUIXINGJINIAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Work Hard, Play Harder!\n\n<size=45>2 A Lifestyle In Need of Correction</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "Northern Parliament Dormitory - After dinner",
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			say = "Northern Parliament Dormitory - After dinner",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "If I remember properly, this is where her room should be...",
 			typewriter = {
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "*knock* *knock*",
 			typewriter = {
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			say = "Come in! The door's unlocked!",
@@ -76,22 +76,22 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			say = "I open her door, and immediately feel like I'm stepping into a warzone. Candy bar wrappers and empty bottles of soda are strewn all over the place, and her shelves look like they haven't been organized in ages.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			say = "Pamiat' is sitting there on a big Manjuu cushion, gaming away without a care in the world.",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "Oh hey, Commander! Evenin'!",
 			painting = {
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			say = "\"...At least you still have some perception of time.\"",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "Well yeah, duh. It's dark outside!",
 			painting = {
@@ -160,8 +160,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "Hey, you wanna play some co-op? This game came out just last week and it's amaaazing~",
 			painting = {
@@ -177,8 +177,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "Wait, hold up, what are you doing?!",
 			painting = {
@@ -194,8 +194,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "Nuooooh! I'm gonna die! Commander, waaaait!",
 			painting = {
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
-			soundeffect = "event:/battle/boom2",
+			side = 2,
 			say = "The speakers play a meaty, stabbing sound.",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -258,8 +258,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			say = "After an alarmingly realistic cutscene, the phrase \"YOU DIED\" appears in big red letters on the center of the screen.",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "I seriously just died to a random monster and it's all your fault, Commander!",
 			painting = {
@@ -294,8 +294,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "Hmph. I AM taking breaks! What do you think I'm doing right now?",
 			painting = {
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "There are a million ways to relax! Gaming is obviously one of them!",
 			painting = {
@@ -328,8 +328,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "As for getting enough sleep, that was just a one-off! I, I'll work on it! Hmph...",
 			painting = {
@@ -342,8 +342,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			say = "Pamiat' being who she is, I know it takes more than a single lecture to get her to change her stubborn ways.",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "Whaaat?! Just like that?! You've already got Avrora filling that role!",
 			painting = {
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			say = "\"Yes. We discussed swapping you in and she supports the idea.\"",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "While I'd love to work my butt off for you, I'd love it more if you worked YOUR butt off for me...",
 			painting = {
@@ -405,8 +405,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "Hmm, you know what?",
 			painting = {
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			say = "She shoves a game controller into my hands.",
 			typewriter = {
@@ -432,8 +432,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "I'll do as you say! If you can beat me in a game, that is!",
 			painting = {
@@ -449,8 +449,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "Hehehe~ Don't expect me to go easy on you~",
 			painting = {
@@ -463,22 +463,22 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			say = "Ten minutes later...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -493,8 +493,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "That doesn't count! You just got lucky! Come on, rematch! Best of three!",
 			painting = {
@@ -509,24 +509,24 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			bgName = "star_level_bg_109",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
+			bgName = "star_level_bg_109",
 			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "Another ten minutes later, Pamiat' throws herself at her cushion in defeat. Whether out of resignation or rage, no one knows.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -545,8 +545,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "Urgh... I was THIS close, too! This blows...",
 			painting = {
@@ -559,8 +559,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			say = "What is clear to me is that she's not quite the gamer she makes herself out to be.",
 			typewriter = {
@@ -572,8 +572,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actor = 702022,
 			dir = 1,
+			actor = 702022,
 			nameColor = "#A9F548FF",
 			say = "Ugh... Dasvidaniya, my easygoing life...",
 			painting = {

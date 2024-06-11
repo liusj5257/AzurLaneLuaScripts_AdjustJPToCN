@@ -2,23 +2,23 @@ return {
 	uiEffect = "",
 	name = "信浓活动梦境力量支援弹幕",
 	cd = 0,
-	painting = 0,
-	id = 8733,
 	picture = "0",
 	aniEffect = "",
 	desc = "第三波弹幕",
+	painting = 0,
+	id = 8733,
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				emitter = "BattleBulletEmitter",
 				weapon_id = 698003,
 				attack_attribute_convert = {
-					attr_type = "fleetGS",
 					A = 80,
+					attr_type = "fleetGS",
 					B = 400
 				}
 			}

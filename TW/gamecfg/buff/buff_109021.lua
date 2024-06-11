@@ -16,8 +16,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.05,
+					attr = "cri",
 					index = {
 						109
 					}
@@ -29,8 +29,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ITEMHIT",
-					number = 0.01
+					number = 0.01,
+					attr = "DMG_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -52,8 +52,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.066,
+					attr = "cri",
 					index = {
 						109
 					}
@@ -65,8 +65,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ITEMHIT",
-					number = 0.02
+					number = 0.02,
+					attr = "DMG_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -88,8 +88,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.082,
+					attr = "cri",
 					index = {
 						109
 					}
@@ -101,8 +101,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ITEMHIT",
-					number = 0.03
+					number = 0.03,
+					attr = "DMG_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -124,8 +124,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.1,
+					attr = "cri",
 					index = {
 						109
 					}
@@ -137,8 +137,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ITEMHIT",
-					number = 0.04
+					number = 0.04,
+					attr = "DMG_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -160,8 +160,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.116,
+					attr = "cri",
 					index = {
 						109
 					}
@@ -173,8 +173,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ITEMHIT",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -196,8 +196,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.132,
+					attr = "cri",
 					index = {
 						109
 					}
@@ -209,8 +209,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ITEMHIT",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -232,8 +232,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.15,
+					attr = "cri",
 					index = {
 						109
 					}
@@ -245,8 +245,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ITEMHIT",
-					number = 0.07
+					number = 0.07,
+					attr = "DMG_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -268,8 +268,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.166,
+					attr = "cri",
 					index = {
 						109
 					}
@@ -281,8 +281,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ITEMHIT",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -304,8 +304,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.182,
+					attr = "cri",
 					index = {
 						109
 					}
@@ -317,8 +317,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ITEMHIT",
-					number = 0.09
+					number = 0.09,
+					attr = "DMG_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
@@ -340,8 +340,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 0.2,
+					attr = "cri",
 					index = {
 						109
 					}
@@ -353,20 +353,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_ITEMHIT",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_ITEMHIT"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 109021,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 109021,
+	color = "red",
 	icon = 109020,
 	last_effect = "",
 	effect_list = {
@@ -385,8 +385,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 0.05,
+				attr = "cri",
 				index = {
 					109
 				}
@@ -398,8 +398,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_ITEMHIT",
-				number = 0.01
+				number = 0.01,
+				attr = "DMG_TAG_EHC_ITEMHIT"
 			}
 		}
 	}

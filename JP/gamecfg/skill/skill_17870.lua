@@ -2,16 +2,16 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetRandom"
 				},
 				arg_list = {
-					maxHPRatio = 0.015,
-					randomCount = 1
+					randomCount = 1,
+					maxHPRatio = 0.015
 				}
 			}
 		}
@@ -19,16 +19,16 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetRandom"
 				},
 				arg_list = {
-					maxHPRatio = 0.018,
-					randomCount = 1
+					randomCount = 1,
+					maxHPRatio = 0.018
 				}
 			}
 		}
@@ -36,16 +36,16 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetRandom"
 				},
 				arg_list = {
-					maxHPRatio = 0.021,
-					randomCount = 1
+					randomCount = 1,
+					maxHPRatio = 0.021
 				}
 			}
 		}
@@ -53,16 +53,16 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetRandom"
 				},
 				arg_list = {
-					maxHPRatio = 0.025,
-					randomCount = 1
+					randomCount = 1,
+					maxHPRatio = 0.025
 				}
 			}
 		}
@@ -70,16 +70,16 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetRandom"
 				},
 				arg_list = {
-					maxHPRatio = 0.028,
-					randomCount = 1
+					randomCount = 1,
+					maxHPRatio = 0.028
 				}
 			}
 		}
@@ -87,16 +87,16 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetRandom"
 				},
 				arg_list = {
-					maxHPRatio = 0.031,
-					randomCount = 1
+					randomCount = 1,
+					maxHPRatio = 0.031
 				}
 			}
 		}
@@ -104,16 +104,16 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetRandom"
 				},
 				arg_list = {
-					maxHPRatio = 0.035,
-					randomCount = 1
+					randomCount = 1,
+					maxHPRatio = 0.035
 				}
 			}
 		}
@@ -121,16 +121,16 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetRandom"
 				},
 				arg_list = {
-					maxHPRatio = 0.039,
-					randomCount = 1
+					randomCount = 1,
+					maxHPRatio = 0.039
 				}
 			}
 		}
@@ -138,16 +138,16 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetRandom"
 				},
 				arg_list = {
-					maxHPRatio = 0.043,
-					randomCount = 1
+					randomCount = 1,
+					maxHPRatio = 0.043
 				}
 			}
 		}
@@ -155,16 +155,16 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetPlayerVanguardFleet",
 					"TargetRandom"
 				},
 				arg_list = {
-					maxHPRatio = 0.05,
-					randomCount = 1
+					randomCount = 1,
+					maxHPRatio = 0.05
 				}
 			}
 		}
@@ -185,16 +185,16 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
 			target_choise = {
 				"TargetPlayerVanguardFleet",
 				"TargetRandom"
 			},
 			arg_list = {
-				maxHPRatio = 0.015,
-				randomCount = 1
+				randomCount = 1,
+				maxHPRatio = 0.015
 			}
 		}
 	}

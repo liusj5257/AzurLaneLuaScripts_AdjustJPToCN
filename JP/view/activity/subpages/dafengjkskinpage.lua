@@ -1,6 +1,6 @@
 slot0 = class("DaFengJKSkinPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.getBtn = slot0:findTF("available", slot0.bg)
 	slot0.unavailableTF = slot0:findTF("unavailable", slot0.bg)
@@ -10,13 +10,13 @@ function slot0.OnInit(slot0)
 	slot0.itemList = UIItemList.New(slot0.items, slot0.item)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskList = slot0.activity:getConfig("config_data")[1]
 	slot0.submitVO = nil
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	setActive(slot0.item, false)
 
 	slot1 = slot0.itemList
@@ -51,7 +51,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = 0
 	slot2 = 0
 
@@ -81,7 +81,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0.itemList:align(#slot0.taskList)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

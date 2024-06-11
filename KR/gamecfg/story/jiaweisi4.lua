@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIAWEISI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIAWEISI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"좋아한다고 말해\n\n<size=45>4. 저비스와 재너스</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항·지휘실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항·지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "똑똑똑—— (문을 두드리는 소리)",
 			typewriter = {
 				speed = 0.05,
@@ -66,15 +66,15 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "실, 실례하겠습니다!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -109,9 +109,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "방문객은 저비스와 같은 J급 구축함 재너스였다.",
 			typewriter = {
 				speed = 0.05,
@@ -126,10 +126,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "재너스? 지휘관에게 볼일이라도 있으신가요?",
 			typewriter = {
 				speed = 0.05,
@@ -144,10 +144,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "네, 맞, 맞아요!",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -172,10 +172,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "긴장하지 말고 심호흡을 하세요——",
 			typewriter = {
 				speed = 0.05,
@@ -190,10 +190,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "후우——",
 			typewriter = {
 				speed = 0.05,
@@ -208,10 +208,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "이제 좀 나아졌죠?",
 			typewriter = {
 				speed = 0.05,
@@ -226,10 +226,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "네, 저비스 고마워요.",
 			typewriter = {
 				speed = 0.05,
@@ -244,10 +244,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그, 그게, 훈련 신청서를 제출하러 왔습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -272,10 +272,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "여기 신청서예요. 받아주세요….",
 			typewriter = {
 				speed = 0.05,
@@ -290,10 +290,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 201340,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "네, 신청서는 제가 받아놓을게요. 지휘관의 승인을 받은 뒤 구체적인 일정을 알려 드리겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -308,10 +308,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "그, 그럼 전 이만 실례하겠습니다! 지휘관님 그리고 저비스, 일 화이팅이에요!",
 			typewriter = {
 				speed = 0.05,
@@ -326,10 +326,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900328,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "저도 훈련을 잘 준비해야겠어요!",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -351,13 +351,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "재너스가 떠난 뒤 저비스는 모처럼 집중을 못 하는 모습이었다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -382,9 +382,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "재너스가 훈련에 참가하게 된 일 때문인 건가?",
 			typewriter = {
 				speed = 0.05,
@@ -502,9 +502,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			optionFlag = 2,
-			dir = 1,
 			blackBg = true,
+			dir = 1,
+			optionFlag = 2,
 			actor = 201340,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
@@ -519,8 +519,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

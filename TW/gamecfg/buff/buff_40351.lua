@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "进入战斗时，若旗舰为轻航或正航,战斗开始后15秒触发额外舰载机编队",
 	time = 0,
-	color = "yellow",
+	name = "进入战斗时，若旗舰为轻航或正航,战斗开始后15秒触发额外舰载机编队",
+	init_effect = "",
+	id = 40351,
 	picture = "",
 	desc = "该入口提供战外挂载到战内",
 	stack = 1,
-	id = 40351,
+	color = "yellow",
 	icon = 40350,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 40352,
-				time = 15,
 				target = "TargetSelf",
+				time = 15,
 				quota = 1
 			}
 		}

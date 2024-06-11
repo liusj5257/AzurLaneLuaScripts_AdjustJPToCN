@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_158",
+			bgm = "ryza-az-theme",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "다음 날, 마을 입구의 울타리",
-			bgm = "ryza-az-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -38,9 +38,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"우아한 아가씨들이여, 다음 노래를 경청하라♪\"",
 			painting = {
@@ -58,9 +58,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"동서남북의 네 개의 탑♪\"",
 			painting = {
@@ -78,9 +78,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"지나간 나날은 검푸른 개로 변한 흰 구름과도 같으니♪\"",
 			painting = {
@@ -98,9 +98,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"그 중 남쪽 탑의 수호자는 쫓겨나고♪\"",
 			painting = {
@@ -118,9 +118,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"서쪽 탑은 빙설의 호수에 가라앉고♪\"",
 			painting = {
@@ -138,9 +138,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"동쪽 탑은 발라드 성의 초석이 되었으며♪\"",
 			painting = {
@@ -158,9 +158,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"북쪽 탑은 아직 수수께끼에 싸인 채라네♪\"",
 			painting = {
@@ -178,9 +178,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"나타났다 사라지며, 그 위치는 알려지지 않았으니♪\"",
 			painting = {
@@ -198,9 +198,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"탑에 사는 마녀의 정체도 알려지지 않았네♪\"",
 			painting = {
@@ -218,9 +218,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"하나 분명한 것은 그녀는 사람의 친구라는 것♪\"",
 			painting = {
@@ -238,9 +238,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"그것도 영원토록……♪\"",
 			painting = {
@@ -255,12 +255,12 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			bgName = "star_level_bg_158",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "탑에 관련된 이야기는 이게 끝이다.",
 			painting = {
@@ -272,17 +272,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -295,9 +295,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "그나저나 다들… 그 모습은 대체……?",
 			painting = {
@@ -391,9 +391,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "확실히 일리는 있군.",
 			painting = {
@@ -411,9 +411,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "하지만 마왕을 토벌하는 여정을 떠나면 자칫하면 목숨을 잃을 수도 있다.",
 			painting = {
@@ -431,9 +431,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "게다가 토벌에 성공했다손 치더라도, 곧 새로운 마왕이 탄생할 테지.",
 			painting = {
@@ -451,9 +451,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "그건 어느 역사에서나 찾아볼 수 있는 분명한 사실이다.",
 			painting = {
@@ -509,9 +509,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "훌륭한 마음가짐이로군. 행운을 비마.",
 			painting = {
@@ -529,9 +529,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "그럼……",
 			painting = {
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_158",
 			hidePaintObj = true,
 			say = "음유시인은 잠시 생각한 후, 노래를 계속했다.",
@@ -560,9 +560,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"마왕의 보물을 조심하라♪\"",
 			painting = {
@@ -580,9 +580,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"매력적인 보물 뒤에는 죽음의 덫이 도사리고 있다네♪\"",
 			painting = {
@@ -600,9 +600,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"자칫 잘못해서 손을 대면 불행이 찾아오리라♪\"",
 			painting = {
@@ -639,9 +639,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "마지막으로 이 플루트를 주마.",
 			painting = {
@@ -678,9 +678,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "괜찮다. 예비용으로 하나 더 가지고 있으니.",
 			painting = {
@@ -698,9 +698,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "분명 너희 여정에 도움이 될 거다.",
 			painting = {
@@ -732,11 +732,11 @@ return {
 			}
 		},
 		{
-			actor = 201217,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "신인 용자",
 			dir = 1,
+			actor = 201217,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아, 그러고 보니 이름도 아직 못 들었네!",
@@ -755,9 +755,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "……내 이름?",
 			painting = {
@@ -775,9 +775,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "나도 모르겠군.",
 			painting = {
@@ -795,9 +795,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "자신의 이름이 무언지 찾고 있는 음유시인이라고만 기억해 주면 돼.",
 			painting = {
@@ -815,9 +815,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "그럼, 무운을 비마.",
 			painting = {
@@ -835,9 +835,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "미래의 용사들이여.",
 			painting = {

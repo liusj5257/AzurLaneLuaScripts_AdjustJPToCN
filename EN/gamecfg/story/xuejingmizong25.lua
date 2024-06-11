@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "story-commander-up",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Tribunal Headquarters - Temporary Command Center",
-			bgm = "story-commander-up",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Helena's defense against the cognitive influence and Soyuz's decisive action in battle gave us the edge we needed to fend off Pamiat' META's attacks.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "As we'd reasoned out, the thin layer of ice was hardly an obstacle to our fleet.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Simply firing at it with machine guns or even raising their main engine output and moving a bit more vigorously was enough to break through it with ease.",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "To compare this Pamiat' Merkuria to other META we'd encountered so far, she was probably between Scharnhorst and Hiryuu.",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "A powerful foe, yes, but nothing compared to the awesome might of the Arbiters.",
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Our allies continued to strike down Gazers, all the while cornering the mastermind.",
@@ -126,10 +126,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "Haha... Ahahaha...",
 			painting = {
 				alpha = 0.3,
@@ -141,8 +141,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -160,10 +160,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702070,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "AHAHAHAHAHAHAH!",
 			painting = {
 				alpha = 0.3,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -185,10 +185,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
+			side = 2,
 			say = "Her eerie laughter echoed through my mind.",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Helena was protecting me from Pamiat' META's attacks on my mind, yes, but ONLY me.",
@@ -213,8 +213,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "What if Pamiat' META attacked the command structure itself instead?",
@@ -248,8 +248,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "For just a moment, I heard interference in the communicator.",
@@ -295,28 +295,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Did that light just flicker?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -324,12 +324,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hm? There are some odd readings on my monitor...",
 			painting = {
 				alpha = 0.3,
@@ -344,10 +344,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Excuse me, Algérie? Can you help me troubleshoot this right away?",
 			painting = {
 				alpha = 0.3,
@@ -359,12 +359,12 @@ return {
 			}
 		},
 		{
-			actor = 903020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh? It was fine during my daily checks this morning... What in the world?",
 			painting = {
 				alpha = 0.3,
@@ -378,11 +378,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Umm, hey... Is it just me, or is there black mist oozing out?",
 			painting = {
 				alpha = 0.3,
@@ -393,17 +393,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -414,10 +414,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Black mist?",
 			painting = {
 				alpha = 0.3,
@@ -432,10 +432,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Tch... Everyone, get away from the communicator!",
 			painting = {
 				alpha = 0.3,
@@ -447,12 +447,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's an enemy attack! Algérie, sound the alarms!",
 			painting = {
 				alpha = 0.3,
@@ -467,10 +467,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Lock down this facility at once!",
 			painting = {
 				alpha = 0.3,
@@ -485,10 +485,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 903020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes, ma'am!",
 			painting = {
 				alpha = 0.3,
@@ -500,28 +500,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			soundeffect = "event:/ui/alarm",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Under Clemenceau's command, our Iris allies began an emergency evacuation.",
-			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -529,8 +529,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Black mist gradually filled the command center.",
@@ -564,8 +564,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "Seemingly alerted to my presence, the black mist turned its tendrils to me.",
@@ -575,29 +575,29 @@ return {
 			}
 		},
 		{
-			bgm = "bgm-waterwave",
+			soundeffect = "event:/ui/fengling",
 			side = 2,
+			blackBg = true,
+			bgm = "bgm-waterwave",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "While my consciousness turned hazy, I heard the faint sound of wind chimes.",
-			blackBg = true,
-			soundeffect = "event:/ui/fengling",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -605,28 +605,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_505",
+			bgm = "theme-underheaven",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "In a world of pure white, at the far end of my vision, stood a single door.",
-			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -661,10 +661,10 @@ return {
 			portrait = 705020,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "Sovetsky Soyuz",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Comrade Commander?",
 			painting = {
 				alpha = 0.3,
@@ -679,10 +679,10 @@ return {
 			portrait = 705020,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "Sovetsky Soyuz",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Are you there, Comrade?!",
 			painting = {
 				alpha = 0.3,
@@ -719,10 +719,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes, it's me. And I'm relieved to see that it really is you, Comrade Commander.",
 			painting = {
 				alpha = 0.3,
@@ -737,10 +737,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Something uncanny is happening, that much is clear.",
 			painting = {
 				alpha = 0.3,
@@ -755,10 +755,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I was in Antarctica, and you were in Europa – and yet we've been warped to the same place at the same time.",
 			painting = {
 				alpha = 0.3,
@@ -785,10 +785,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Actually, yes. The enemy META released a black shockwave.",
 			painting = {
 				alpha = 0.3,
@@ -800,12 +800,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The power of the impact did more than just break our formation – it knocked out our communication systems.",
 			painting = {
 				alpha = 0.3,
@@ -832,10 +832,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And before you knew it, you were here. Just like me.",
 			painting = {
 				alpha = 0.3,
@@ -847,12 +847,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It would be reasonable to presume this is the result of an enemy attack, then.",
 			painting = {
 				alpha = 0.3,
@@ -879,10 +879,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is that so? Incidentally, so do I.",
 			painting = {
 				alpha = 0.3,
@@ -894,12 +894,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Shortly after I came to Antarctica, when I touched that strange crystal, I was warped here.",
 			painting = {
 				alpha = 0.3,
@@ -914,10 +914,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I went through that door and witnessed an unusual sight...",
 			painting = {
 				alpha = 0.3,
@@ -929,12 +929,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Comrade Commander, if you have any clues regarding the truth of this place... I'd certainly appreciate you sharing.",
 			painting = {
 				alpha = 0.3,
@@ -973,10 +973,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Data preserved in the Wisdom Cube? Does that mean... that what we know to be \"essence\" is an account of things that actually happened?",
 			painting = {
 				alpha = 0.3,
@@ -1039,10 +1039,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Comrade Commander...",
 			painting = {
 				alpha = 0.3,
@@ -1057,10 +1057,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_505",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nothing will happen if we just sit here. Let's think of a way to escape.",
 			painting = {
 				alpha = 0.3,

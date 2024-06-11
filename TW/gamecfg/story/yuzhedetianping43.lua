@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING43",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING43",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			sequence = {
 				{
@@ -53,10 +53,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "所有陣營已經一致決定，將本事件定性為馬可波羅在受到仲裁機關影響後所做出的非理性獨斷行為。",
 			painting = {
 				alpha = 0.3,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我們的祖國平安無事，重新召開的閉幕式也成功結束。",
 			painting = {
 				alpha = 0.3,
@@ -88,10 +88,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "總的來說，算是皆大歡喜吧？",
 			painting = {
 				alpha = 0.3,
@@ -145,10 +145,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "維內托，搜尋還是一無所獲。",
 			painting = {
 				alpha = 0.3,
@@ -163,10 +163,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……已經這麼多天了，要能找到早就該找到了吧？",
 			painting = {
 				alpha = 0.3,
@@ -205,10 +205,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 607020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "是——",
 			painting = {
 				alpha = 0.3,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			say = "通訊結束後，維內托深深嘆了一口氣。",
@@ -234,10 +234,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妳是擔心找不到她，還是擔心真的找到她之後怎麼辦？",
 			painting = {
 				alpha = 0.3,
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -301,10 +301,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "維內托，有人在找妳。",
 			painting = {
 				alpha = 0.3,
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			say = "維內托掛斷了通訊，然後向著海域中正在執行搜索任務的薩丁艦隊下達了命令。",
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_14",
 			hidePaintObj = true,
 			say = "維內托如釋負重般切斷了通訊器，開始進行返航準備。",
@@ -455,10 +455,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_underheaven_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……等等，我明明依稀聽到了「昏迷」和「保護」之類的詞？",
 			painting = {
 				alpha = 0.3,

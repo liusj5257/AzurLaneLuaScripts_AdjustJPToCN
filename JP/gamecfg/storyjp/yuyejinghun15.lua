@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN15",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_600",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
 			bgm = "qe-ova-15",
-			actorName = "エセックス",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "その時、ギャレーからふと強い視線を感じました",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -55,9 +55,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "っ！ご、ごめんなさい…ちょっと探索者がゴールデン・ハインドの…設定的に幼馴染饅頭とよく似ているなと思って…",
 			typewriter = {
@@ -70,9 +70,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "…（小声）設定なんだけど、一応どっちも顔が良くて…",
 			typewriter = {
@@ -122,10 +122,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "そ、それは…",
 			typewriter = {
@@ -138,9 +138,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "エセックス",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ギャレーが取り乱しました。あなたが口にした名前がなにかの禁忌に触れたようです",
 			typewriter = {
@@ -153,10 +153,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "あ、あたしはその、勝手に城主饅頭の家庭事情を口にできる立場ではないので！",
 			typewriter = {
@@ -169,10 +169,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "さっきのはあたしの失言だったわ。お仕事を邪魔しては悪いから、また後で来るわ",
 			typewriter = {
@@ -224,9 +224,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "海天",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ロール100、99…ふ、こほん、ちょっと見るに堪えない結果になりましたね…",
 			typewriter = {
@@ -239,9 +239,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "海天",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これはどう展開を作るべきか……ええと、ちょっと考えてみます……ふふふ♪",
 			typewriter = {
@@ -254,9 +254,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "海天",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "海天…ではなくあなたは知恵を絞り、ある東煌のことわざ「大道は至りて簡し」を思い出しました",
 			typewriter = {
@@ -269,9 +269,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "海天",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "策も小細工もありません。あなたはこの美しいレディーに目で訴え、要望をまっすぐ投げかけてみました",
 			typewriter = {
@@ -284,9 +284,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "海天",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――「宴会ホールの鍵が欲しい」",
 			typewriter = {
@@ -299,9 +299,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "海天",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "伝え終えると、あなたは満足そうに頷き、片手を差し出しました",
 			typewriter = {
@@ -314,10 +314,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "…はい？サン・マルチーニョの同意がないと鍵は渡せないわ",
 			typewriter = {
@@ -330,10 +330,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "役：コック",
-			actorName = "アドヴェンチャー・ギャレー",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "アドヴェンチャー・ギャレー",
 			hidePaintObj = true,
 			say = "まあ、その…お仕事を邪魔しては悪いから、また後で来るわ",
 			typewriter = {
@@ -346,9 +346,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "海天",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "残念なことに、期待通りの展開にはなりませんでした。あなたは何も手に入らず、彼女が去っていくのを見送るしかありませんでした",
 			typewriter = {
@@ -372,9 +372,9 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_600",
 			factiontag = "真面目なKP後輩",
-			actorName = "エセックス",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "コックはそそくさとワゴンを押しながら、ダイニングルームを後にしました",
@@ -383,17 +383,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			say = "……カチッ",
@@ -516,8 +516,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

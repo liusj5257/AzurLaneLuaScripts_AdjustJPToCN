@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「버츄얼 연결고리의 공시성」 -일상편\n\n<size=45>7. 모두와 이어지는, 인연(키즈나)을 찾아</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 사쿠라 엠파이어 축제 회장",
 			side = 2,
 			bgName = "star_level_bg_114",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "모항 - 사쿠라 엠파이어 축제 회장",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -197,8 +197,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#92fc63",
 			say = "네, 네! 감사합니다!",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#92fc63",
 			say = "오오, 타코야키! 좋네~ 근데 나, AI라서 먹을 수가 없단 말이지~ 어라? 그래도 지금은 벽람 세계에 있고 먹을 수 있는 건가? 으~음…?",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#92fc63",
 			say = "좋~아, 모든 가게를 제패해버리자~!",
 			typewriter = {
@@ -309,15 +309,15 @@ return {
 			}
 		},
 		{
-			actor = 10400011,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 10400011,
+			nameColor = "#92fc63",
 			say = "천재 AI인 제 손에 걸리면, 금붕어 잡는 건 식은 죽 먹기죠~!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -406,15 +406,15 @@ return {
 			}
 		},
 		{
-			actor = 399010,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 399010,
+			nameColor = "#92fc63",
 			say = "곧 불꽃놀이가 시작해요. 모두 저쪽에 모여있어요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -506,8 +506,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#92fc63",
 			say = "헬레나 씨, 나중에 봐! 프린쨩도 과음에는 주의해~! 보쌈당해버릴지도 몰라~! ……나한테.",
 			typewriter = {
@@ -555,8 +555,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#92fc63",
 			say = "예쁘다… 이렇게 오랫동안 이쪽 세계 있으면 말이야, 언젠가 돌아갈 그날이 왠지 힘들어져 버릴 것 같아……",
 			typewriter = {
@@ -620,8 +620,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_114",
-			actor = 10400011,
 			dir = 1,
+			actor = 10400011,
 			nameColor = "#92fc63",
 			say = "(불꽃은 선명하게 피어나 흩어져 가지만, 모두와 함께 불꽃놀이를 봤던 것은 잊지 않을 거야. 멀리 떨어진다고 해도, 피어난 인연은 꼭… 계속 남을 거야!)",
 			typewriter = {
@@ -650,9 +650,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_114",
+			dir = 1,
 			say = "(찰칵)",
 			flashN = {
 				color = {
@@ -686,14 +686,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_114",
 			actor = 10400011,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "그런 이유로, 이걸로 당신도 Kizuner의 일원! 'A.I.Channel'로 검색! 채널 구독 잘 부탁드립니다!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -750,12 +750,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 2,
 			bgName = "star_level_bg_114",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 301120,
+			nameColor = "#92fc63",
 			say = "틈만 있으면 선전을 빠뜨리지 않는다…… 버츄얼 유튜버의 본보기네요.",
 			typewriter = {
 				speed = 0.05,

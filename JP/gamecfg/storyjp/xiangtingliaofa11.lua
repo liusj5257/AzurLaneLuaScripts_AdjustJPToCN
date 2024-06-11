@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 103160,
-			side = 0,
-			bgm = "story-6",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "くっ！硬いにもほどがある！そろそろぶっ倒れろ！",
 			soundeffect = "event:/battle/boom2",
+			side = 0,
+			dir = 1,
+			bgm = "story-6",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "くっ！硬いにもほどがある！そろそろぶっ倒れろ！",
 			flashN = {
 				color = {
 					1,
@@ -64,8 +64,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "やだこっわー！っていうかさ、私相手に油を売ってる時間なんてあるわけ？あっちはそろそろ落ちそうになってるよ？",
 			typewriter = {
 				speed = 0.05,
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,8 +120,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "？！！",
 			typewriter = {
 				speed = 0.05,
@@ -133,10 +133,10 @@ return {
 			}
 		},
 		{
+			say = "（ドゴォォォォォォォォ）",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "（ドゴォォォォォォォォ）",
 			flashN = {
 				color = {
 					1,
@@ -187,8 +187,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "背中から機関部を狙って…！？くっ、この小娘がァ！！",
 			typewriter = {
 				speed = 0.05,
@@ -200,12 +200,12 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "捨て台詞はあの世でほざいてな！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "捨て台詞はあの世でほざいてな！",
 			flashN = {
 				color = {
 					1,
@@ -268,8 +268,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -281,8 +281,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "ジュノー、よくやった",
 			typewriter = {
 				speed = 0.05,
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -319,8 +319,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "NYシティへ急行するよう仲間たちに指示し、状況を整理をしてみる。",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ピュリファイアーの言っていた「主役」とは一体……",
 			typewriter = {
 				speed = 0.05,

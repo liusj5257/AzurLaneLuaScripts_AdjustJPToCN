@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "空特效BUFF",
 	time = 0,
-	color = "yellow",
+	name = "空特效BUFF",
+	init_effect = "",
+	id = 8794,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8794,
+	color = "yellow",
 	icon = 8794,
 	last_effect = "",
 	effect_list = {}

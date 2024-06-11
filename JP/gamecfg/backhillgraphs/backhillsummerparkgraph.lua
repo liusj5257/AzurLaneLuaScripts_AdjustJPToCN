@@ -20,9 +20,9 @@ return {
 	},
 	Edges = {
 		["1_2"] = {
-			p2 = 2,
+			bezier_control_point = 3,
 			p1 = 1,
-			bezier_control_point = 3
+			p2 = 2
 		}
 	}
 }

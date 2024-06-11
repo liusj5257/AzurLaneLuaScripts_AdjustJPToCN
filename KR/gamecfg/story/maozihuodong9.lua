@@ -1,15 +1,15 @@
 return {
-	id = "MAOZIHUODONG9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bgm-cccp2",
 			say = "로열 군도에는 다그다의 솥이라는 보물에서 끊이지 않고 음식이 생겨난다는 신화가 있다.",
+			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "지금 세이렌의 요새가 바로 그 보물과 같은 상태였다.",
 			typewriter = {
 				speed = 0.05,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "모든 사람들이 전투에 집중하고 있었다. 심지어 새러토가마저 장난을 칠 새가 없었다.",
 			typewriter = {
 				speed = 0.05,
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "전장은 어느새 교착 상태에 접어들다못해 악화되고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "으… 이렇게 팽팽해지다니, 너무 의기양양했어.",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "걱정하지 마! 양산형은 알류산 방어선으로 보충할 수 있어. 지원도 곧 도착할 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "저 기세등등한 세이렌이 우리가 도망간다고 해서 쉽게 놓아줄 것 같지 않은데?",
 			typewriter = {
 				speed = 0.05,
@@ -184,9 +184,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "그쪽 지휘관, 이제 어떡하지?",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그런가… 그렇다면 가지고 있는 수단으로 이길 수 밖에!",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "오~ 이게 지휘관의 박력이라는 걸까?",
 			typewriter = {
 				speed = 0.05,

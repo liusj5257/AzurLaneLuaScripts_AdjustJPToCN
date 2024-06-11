@@ -10,12 +10,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_project_tb_room2",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "story-richang-flexible",
-			actor = 1008,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room2",
+			bgm = "story-richang-flexible",
+			tbActor = true,
+			actor = 1008,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "{tb}, this dish looks interesting.",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "TB points at the TV. It's playing an episode of a show called \"Kitchen Blunders: Your Food is Cooked.\"",
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "They're showing a dish that, to put it nicely, makes you wonder what was going through the chef's mind.",
@@ -66,10 +66,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1008,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "I'd like to replicate this.",
 			typewriter = {
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "The food's color is offputtingly vivid, and it's prepared in an alien way. I break into a cold sweat.",
@@ -101,8 +101,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "I change the channel and distract her with a cartoon episode.",

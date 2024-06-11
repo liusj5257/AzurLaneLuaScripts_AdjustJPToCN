@@ -8,16 +8,16 @@ return {
 	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 5,
 				spawnData = {
 					score = 0,
-					moveCast = true,
 					monsterTemplateID = 300001,
+					moveCast = true,
 					corrdinate = {
 						-5,
 						0,
@@ -31,16 +31,16 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 5,
 				spawnData = {
 					score = 0,
-					moveCast = true,
 					monsterTemplateID = 300001,
+					moveCast = true,
 					corrdinate = {
 						-5,
 						0,
@@ -54,16 +54,16 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 15,
 				spawnData = {
 					score = 0,
-					moveCast = true,
 					monsterTemplateID = 300001,
+					moveCast = true,
 					corrdinate = {
 						-5,
 						0,
@@ -77,16 +77,16 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 15,
 				spawnData = {
 					score = 0,
-					moveCast = true,
 					monsterTemplateID = 300001,
+					moveCast = true,
 					corrdinate = {
 						-5,
 						0,
@@ -100,16 +100,16 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 13,
 				spawnData = {
 					score = 0,
-					moveCast = true,
 					monsterTemplateID = 300006,
+					moveCast = true,
 					corrdinate = {
 						30,
 						0,

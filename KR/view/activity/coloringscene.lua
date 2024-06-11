@@ -5,7 +5,7 @@ slot3 = 812.5
 slot4 = 1200
 slot5 = Vector2(49, -436.12)
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLORING_ALPHA) and AcessWithinNull(slot1:getConfig("config_client"), "ui") then
 		return slot2
 	end
@@ -13,19 +13,19 @@ function slot0.getUIName(slot0)
 	assert(false, "Not Set PixelDraw Activity config_client ID: " .. (slot1 and slot1.id or 0))
 end
 
-function slot0.setActivity(slot0, slot1)
+slot0.setActivity = function(slot0, slot1)
 	slot0.activity = slot1
 end
 
-function slot0.setColorItems(slot0, slot1)
+slot0.setColorItems = function(slot0, slot1)
 	slot0.colorItems = slot1
 end
 
-function slot0.setColorGroups(slot0, slot1)
+slot0.setColorGroups = function(slot0, slot1)
 	slot0.colorGroups = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.topPanel = slot0:findTF("top")
 	slot0.btnBack = slot0:findTF("top/btnBack")
 	slot0.title = slot0:findTF("center/title_bar/text")
@@ -52,7 +52,7 @@ function slot0.init(slot0)
 	setActive(slot0.barExtra, false)
 end
 
-function slot0.DidMediatorRegisterDone(slot0)
+slot0.DidMediatorRegisterDone = function(slot0)
 	slot0.colorPlates = CustomIndexLayer.Clone2Full(slot0:findTF("content", slot0.scrollColor), #slot0.colorGroups[1]:getConfig("color_id_list"))
 	slot0.coloringUIGroupName = "ColoringUIGroupSize" .. #slot0.colorGroups
 
@@ -77,7 +77,7 @@ function slot0.DidMediatorRegisterDone(slot0)
 	end))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnBack, function ()
 		if uv0.exited then
 			return
@@ -106,17 +106,17 @@ function slot0.didEnter(slot0)
 	slot0:updatePage()
 end
 
-function slot0.uiStartAnimating(slot0)
+slot0.uiStartAnimating = function(slot0)
 	slot0.topPanel.anchoredPosition = Vector2(0, slot0.topPanel.rect.height)
 
 	shiftPanel(slot0.topPanel, nil, 0, 0.3, 0, true, true, nil)
 end
 
-function slot0.uiExitAnimating(slot0)
+slot0.uiExitAnimating = function(slot0)
 	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, 0.3, 0, true, true, nil)
 end
 
-function slot0.initColoring(slot0)
+slot0.initColoring = function(slot0)
 	onButton(slot0, slot0.btnEraserAll, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("coloring_erase_all_warning"),
@@ -155,7 +155,7 @@ function slot0.initColoring(slot0)
 	triggerButton(slot0.paintsgroup[Mathf.Min(slot1, #slot0.paintsgroup)])
 end
 
-function slot0.initInteractive(slot0)
+slot0.initInteractive = function(slot0)
 	for slot4, slot5 in pairs(slot0.paintsgroup) do
 		slot7 = slot0.colorGroups[slot4]
 
@@ -205,7 +205,7 @@ function slot0.initInteractive(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.SelectColoBar(slot0, slot1)
+slot0.SelectColoBar = function(slot0, slot1)
 	if slot0.selectedColorIndex ~= 0 and slot0.selectedColorIndex ~= slot1 then
 		slot3 = slot0:findTF("icon", slot0.colorPlates[slot0.selectedColorIndex])
 		slot4 = slot3.sizeDelta
@@ -223,7 +223,7 @@ function slot0.SelectColoBar(slot0, slot1)
 	end
 end
 
-function slot0.updatePage(slot0)
+slot0.updatePage = function(slot0)
 	for slot4, slot5 in ipairs(slot0.paintsgroup) do
 		setActive(slot5:Find("lock"), slot0.colorGroups[slot4]:getState() == ColorGroup.StateLock)
 		setActive(slot5:Find("get"), slot7 == ColorGroup.StateAchieved)
@@ -247,7 +247,7 @@ function slot0.updatePage(slot0)
 	slot0:TryPlayStory()
 end
 
-function slot0.updateSelectedColoring(slot0)
+slot0.updateSelectedColoring = function(slot0)
 	slot2 = slot0.colorGroups[slot0.selectedIndex]:getConfig("color_id_list")
 
 	for slot6 = 1, #slot0.colorPlates do
@@ -275,7 +275,7 @@ function slot0.updateSelectedColoring(slot0)
 	getProxy(ColoringProxy):SetViewedPage(slot0.selectedIndex or 1)
 end
 
-function slot0.updateCells(slot0)
+slot0.updateCells = function(slot0)
 	slot2, slot3 = unpack(slot0.colorGroups[slot0.selectedIndex]:getConfig("theme"))
 
 	for slot7 = 0, slot2 do
@@ -308,7 +308,7 @@ function slot0.updateCells(slot0)
 		slot4 = math.floor(slot2.x / uv2.cellSize.x)
 
 		if uv0:getState() == ColorGroup.StateColoring then
-			function slot5()
+			slot5 = function()
 				uv0:emit(ColoringMediator.EVENT_COLORING_CELL, {
 					activityId = uv0.activity.id,
 					id = uv1.id,
@@ -352,7 +352,7 @@ function slot0.updateCells(slot0)
 	end)
 end
 
-function slot0.updateCell(slot0, slot1, slot2)
+slot0.updateCell = function(slot0, slot1, slot2)
 	slot3 = slot0.colorGroups[slot0.selectedIndex]
 	slot4 = slot3:getCell(slot1, slot2)
 	slot5 = slot3:getFill(slot1, slot2)
@@ -384,14 +384,14 @@ function slot0.updateCell(slot0, slot1, slot2)
 	end
 end
 
-function slot0.calcCellSize(slot0)
+slot0.calcCellSize = function(slot0)
 	slot2, slot3 = unpack(slot0.colorGroups[slot0.selectedIndex]:getConfig("theme"))
 	slot4 = slot0.bg.rect
 
 	return Vector2.New(slot4.width / slot3, slot4.height / slot2)
 end
 
-function slot0.updateLines(slot0)
+slot0.updateLines = function(slot0)
 	slot2, slot3 = unpack(slot0.colorGroups[slot0.selectedIndex]:getConfig("theme"))
 
 	for slot7 = 1, slot3 - 1 do
@@ -407,7 +407,7 @@ function slot0.updateLines(slot0)
 	end
 end
 
-function slot0.searchColoringCells(slot0, slot1, slot2, slot3, slot4)
+slot0.searchColoringCells = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {
 		row = slot2,
 		column = slot3,
@@ -490,7 +490,7 @@ function slot0.searchColoringCells(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.SearchValidDiagonalColoringCells(slot0, slot1, slot2, slot3)
+slot0.SearchValidDiagonalColoringCells = function(slot0, slot1, slot2, slot3)
 	assert(slot1)
 
 	slot4 = {}
@@ -526,7 +526,7 @@ function slot0.SearchValidDiagonalColoringCells(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.TryPlayStory(slot0)
+slot0.TryPlayStory = function(slot0)
 	slot2 = slot0.selectedIndex
 
 	table.SerialIpairsAsync({}, function (slot0, slot1, slot2)
@@ -538,12 +538,12 @@ function slot0.TryPlayStory(slot0)
 	end)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 	triggerButton(slot0.btnBack)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	PoolMgr.GetInstance():ReturnUI(slot0.coloringUIGroupName, slot0.colorgroupbehind)
 end
 

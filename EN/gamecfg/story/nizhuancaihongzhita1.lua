@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIZHUANCAIHONGZHITA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIZHUANCAIHONGZHITA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "–––– ??? ––––",
 			side = 2,
 			bgName = "bg_midgard_1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bsm-6",
+			say = "–––– ??? ––––",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "In a space engulfed by darkness, Friedrich der Große – blueprint ship, and the executor of Bismarck's will – sat and quietly mulled over the reports of her peers.",
 			typewriter = {
 				speed = 0.05,
@@ -49,10 +49,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Tirpitz",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Tirpitz",
+			hidePaintObj = true,
 			say = "Since we secured Scapa Flow from the Royal Navy, none of the other factions have made any major moves.",
 			typewriter = {
 				speed = 0.05,
@@ -67,10 +67,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Tirpitz",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Tirpitz",
+			hidePaintObj = true,
 			say = "Across the NA Ocean and in the Bermudas, we are cooperating in joint operations and research ventures as instructed.",
 			typewriter = {
 				speed = 0.05,
@@ -85,10 +85,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Tirpitz",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Tirpitz",
+			hidePaintObj = true,
 			say = "From what circumstantial evidence we've gathered, the leaders of the other factions are still unaware of our purpose for doing so.",
 			typewriter = {
 				speed = 0.05,
@@ -103,10 +103,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Tirpitz",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Tirpitz",
+			hidePaintObj = true,
 			say = "...This concludes my report. We will continue to \"stand by.\"",
 			typewriter = {
 				speed = 0.05,
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "The connection with Tirpitz was cut off, and another incoming call took its place on the display.",
 			typewriter = {
 				speed = 0.05,
@@ -132,9 +132,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "Friedrich der Große tapped the panel lightly––",
 			typewriter = {
 				speed = 0.05,
@@ -149,10 +149,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "U-47",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "U-47",
+			hidePaintObj = true,
 			say = "It's U-47. Oh, yeah... About that Arbiter investigation... No progress yet.",
 			typewriter = {
 				speed = 0.05,
@@ -167,10 +167,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "U-47",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "U-47",
+			hidePaintObj = true,
 			say = "I ran into one of their vessels, but we weren't able to squeeze any information out of it.",
 			typewriter = {
 				speed = 0.05,
@@ -185,10 +185,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "U-47",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "U-47",
+			hidePaintObj = true,
 			say = "I'll keep doing what I can.",
 			typewriter = {
 				speed = 0.05,
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "She listened to each report in absolute silence. None of them were worth a response.",
 			typewriter = {
 				speed = 0.05,
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "She simply let the tides of information flow around her, drawing from them what she needed – just as Bismarck did.",
 			typewriter = {
 				speed = 0.05,
@@ -231,10 +231,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Peter Strasser",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Peter Strasser",
+			hidePaintObj = true,
 			say = "The resources and combat forces required for the Tower of Midgard have already been shipped out.",
 			typewriter = {
 				speed = 0.05,
@@ -249,10 +249,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Peter Strasser",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Peter Strasser",
+			hidePaintObj = true,
 			say = "The active camouflage is operational, and there are no signs of interference from enemies. These are the best possible work conditions.",
 			typewriter = {
 				speed = 0.05,
@@ -267,10 +267,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Peter Strasser",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Peter Strasser",
+			hidePaintObj = true,
 			say = "That being the case, what is the judgment of this plan's chessmaster?",
 			typewriter = {
 				speed = 0.05,
@@ -282,12 +282,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "Start assembling your forces. I'll send your next instructions soon.",
 			typewriter = {
 				speed = 0.05,
@@ -302,10 +302,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Peter Strasser",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Peter Strasser",
+			hidePaintObj = true,
 			say = "Understood.",
 			typewriter = {
 				speed = 0.05,
@@ -317,9 +317,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "She absorbed the information flowing around her, processed it, and issued commands that would lead to her desired outcomes. Exacting fidelity, like a maestro conducting a symphony.",
 			typewriter = {
 				speed = 0.05,
@@ -331,9 +331,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "But there was another maestro as well... the person advising her.",
 			typewriter = {
 				speed = 0.05,
@@ -348,10 +348,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Prinz Eugen",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Prinz Eugen",
+			hidePaintObj = true,
 			say = "So, all the pieces are finally starting to fall into place. Are you sure you don't need me out there?",
 			typewriter = {
 				speed = 0.05,
@@ -363,12 +363,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "I cannot afford to waste a single point of our limited resources.",
 			typewriter = {
 				speed = 0.05,
@@ -380,12 +380,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "Should you fail, Bismarck's will would not be fully enacted.",
 			typewriter = {
 				speed = 0.05,
@@ -400,10 +400,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Prinz Eugen",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Prinz Eugen",
+			hidePaintObj = true,
 			say = "Is that really such a big deal? ...It's not like everything would be for naught, right?",
 			typewriter = {
 				speed = 0.05,
@@ -415,12 +415,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "What do you think?",
 			typewriter = {
 				speed = 0.05,
@@ -435,10 +435,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Prinz Eugen",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Prinz Eugen",
+			hidePaintObj = true,
 			say = "......Well, I'll trust in your plan.",
 			typewriter = {
 				speed = 0.05,
@@ -453,10 +453,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Prinz Eugen",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Prinz Eugen",
+			hidePaintObj = true,
 			say = "I wonder if we can give our dear clients in the Sakura Empire a glimpse of the future.",
 			typewriter = {
 				speed = 0.05,
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "I don't mind. However, just know that I cannot guarantee the stability of the transmission.",
 			typewriter = {
 				speed = 0.05,
@@ -488,10 +488,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Prinz Eugen",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Prinz Eugen",
+			hidePaintObj = true,
 			say = "Of course. The fact that this IS a risky operation only makes me want to show off more.",
 			typewriter = {
 				speed = 0.05,
@@ -506,10 +506,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Prinz Eugen",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Prinz Eugen",
+			hidePaintObj = true,
 			say = "Considering how important our findings are to them, I'm sure they won't complain even if we do run into some technical difficulties.",
 			typewriter = {
 				speed = 0.05,
@@ -521,12 +521,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "Exercise your best judgment.",
 			typewriter = {
 				speed = 0.05,
@@ -541,10 +541,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Prinz Eugen",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Prinz Eugen",
+			hidePaintObj = true,
 			say = "Best of luck to you too. Signing off.",
 			typewriter = {
 				speed = 0.05,
@@ -556,12 +556,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "............",
 			typewriter = {
 				speed = 0.05,
@@ -573,9 +573,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "For a brief moment, a tinge of melancholy flashed across Friedrich's face. But almost as quickly as it had come, her lips curled into their usual smile as she connected her next call.",
 			typewriter = {
 				speed = 0.05,
@@ -587,9 +587,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "\"Royal Navy\" and \"Northern Parliament.\" She reached for the panels bearing the insignias of the two factions.",
 			typewriter = {
 				speed = 0.05,
@@ -601,9 +601,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "––The Naval HQ's instructions were for the Crimson Axis and Azur Lane to remain at war.",
 			typewriter = {
 				speed = 0.05,
@@ -615,9 +615,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "As soon as Friedrich finished her conversations with the representatives of the other factions, she turned her attention to a new call that had unexpectedly cut in.",
 			typewriter = {
 				speed = 0.05,
@@ -632,10 +632,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Marco Polo",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Marco Polo",
+			hidePaintObj = true,
 			say = "Thank you for your kind invitation, Friedrich der Große.",
 			typewriter = {
 				speed = 0.05,
@@ -647,12 +647,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "Marco Polo of Sardegna. You arrived earlier than planned.",
 			typewriter = {
 				speed = 0.05,
@@ -667,10 +667,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Marco Polo",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Marco Polo",
+			hidePaintObj = true,
 			say = "So? Who cares if I'm a few minutes early or late? I'm also busy here, so let's not sweat the small details.",
 			typewriter = {
 				speed = 0.05,
@@ -685,10 +685,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Marco Polo",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Marco Polo",
+			hidePaintObj = true,
 			say = "......Wait, so I really am too early?",
 			typewriter = {
 				speed = 0.05,
@@ -700,12 +700,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "Yes. And this channel is for emergency communications only.",
 			typewriter = {
 				speed = 0.05,
@@ -720,10 +720,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Marco Polo",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Marco Polo",
+			hidePaintObj = true,
 			say = "Eh?! My, I'm terribly sorry for that!",
 			typewriter = {
 				speed = 0.05,
@@ -735,12 +735,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "Let's not sweat the small details.",
 			typewriter = {
 				speed = 0.05,
@@ -752,9 +752,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "Friedrich smiled wryly at the two panels that had been closed just moments before the Sardegnian ship's interjection. A narrowly averted disaster.",
 			typewriter = {
 				speed = 0.05,
@@ -769,10 +769,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Marco Polo",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Marco Polo",
+			hidePaintObj = true,
 			say = "Anyway, I'm looking forward to seeing the results of your operation.",
 			typewriter = {
 				speed = 0.05,
@@ -787,10 +787,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Marco Polo",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Marco Polo",
+			hidePaintObj = true,
 			say = "But you'd probably have to give me the details after the fact though. I can't really find the time to follow things as they unfold.",
 			typewriter = {
 				speed = 0.05,
@@ -802,12 +802,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "How unfortunate. I would've liked you to come witness it in person.",
 			typewriter = {
 				speed = 0.05,
@@ -822,10 +822,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
+			actorName = "Marco Polo",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "Marco Polo",
+			hidePaintObj = true,
 			say = "I appreciate the sentiment, but we've got our hands full with the Vichya right now.",
 			typewriter = {
 				speed = 0.05,
@@ -837,12 +837,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "I have little to offer you in support right now, but... may you take their power and spread the glory of Sardegna.",
 			typewriter = {
 				speed = 0.05,
@@ -854,9 +854,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "\"As it stands, Sardegna seems to have their interests elsewhere and will not be participating in the operation.\"",
 			typewriter = {
 				speed = 0.05,
@@ -868,9 +868,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "Friedrich wrote a brief reminder for herself before directing her attention towards the final contact – the one in charge of carrying out the operation.",
 			typewriter = {
 				speed = 0.05,
@@ -882,9 +882,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "Only two panels remained to shed light across the dark space.",
 			typewriter = {
 				speed = 0.05,
@@ -896,9 +896,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_midgard_1",
+			dir = 1,
 			say = "............",
 			typewriter = {
 				speed = 0.05,
@@ -910,12 +910,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "The time has finally come for the operation to be set into motion.",
 			typewriter = {
 				speed = 0.05,
@@ -927,12 +927,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "The stage has been set, and the actors are in place. All that remains is to lift the curtains.",
 			typewriter = {
 				speed = 0.05,
@@ -944,13 +944,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_midgard_1",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			actorName = "Friedrich der Große",
+			hidePaintObj = true,
 			say = "Let us relish in the sights and sounds of the show to come––",
 			typewriter = {
 				speed = 0.05,
@@ -1011,8 +1011,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

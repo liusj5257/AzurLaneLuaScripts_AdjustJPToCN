@@ -12,7 +12,7 @@ slot0.PosList = {
 }
 slot0.Icecream_Save_Tag_Pre = "Icecream_Tag_"
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	uv0.super.OnDataSetting(slot0)
 
 	slot0.specialPhaseList = slot0.activity:getConfig("config_data")
@@ -21,7 +21,7 @@ function slot0.OnDataSetting(slot0)
 	slot0.curSelectIndex = 0
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	slot0:findUI()
 	slot0:initMainPanel()
@@ -29,7 +29,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0:initSD()
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot1, slot2, slot3 = slot0.ptData:GetLevelProgress()
@@ -46,7 +46,7 @@ function slot0.OnUpdateFlush(slot0)
 	setActive(slot0.shareBtn, slot0:isFinished())
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.spine then
 		slot0.spine.transform.localScale = Vector3.one
 
@@ -62,7 +62,7 @@ function slot0.OnDestroy(slot0)
 	end
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.shareBtn = slot0:findTF("Logo/share_btn", slot0.bg)
 	slot0.icecreamTF = slot0:findTF("Icecream", slot0.bg)
 	slot0.openBtn = slot0:findTF("open_btn", slot0.bg)
@@ -126,7 +126,7 @@ function slot0.findUI(slot0)
 	end
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	if IsUnityEditor then
 		onButton(slot0, slot0:findTF("Logo", slot0.bg), function ()
 			for slot3 = 1, 4 do
@@ -181,8 +181,8 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.initMainPanel(slot0)
-	function slot4()
+slot0.initMainPanel = function(slot0)
+	slot4 = function()
 		uv0:closeSpecial()
 
 		if uv0:isFinished() then
@@ -288,7 +288,7 @@ function slot0.initMainPanel(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.openMainPanel(slot0, slot1)
+slot0.openMainPanel = function(slot0, slot1)
 	slot0.selectedList = slot0:getSelectedList()
 
 	setActive(slot0.displayBtn, false)
@@ -332,7 +332,7 @@ function slot0.openMainPanel(slot0, slot1)
 	end))
 end
 
-function slot0.closeMainPanel(slot0)
+slot0.closeMainPanel = function(slot0)
 	slot1 = LeanTween.value(go(slot0.mainPanel), 1, 0, uv0.Menu_Ani_Close_Time)
 	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		uv0.mainPanelCG.alpha = slot0
@@ -364,7 +364,7 @@ function slot0.closeMainPanel(slot0)
 	end))
 end
 
-function slot0.openSecondPanel(slot0)
+slot0.openSecondPanel = function(slot0)
 	setActive(slot0.secondPanel, true)
 
 	slot1 = LeanTween.value(go(slot0.secondPanel), 0, 1, uv0.Menu_Ani_Open_Time)
@@ -390,7 +390,7 @@ function slot0.openSecondPanel(slot0)
 	end))
 end
 
-function slot0.closeSecondPanel(slot0)
+slot0.closeSecondPanel = function(slot0)
 	slot1 = LeanTween.value(go(slot0.secondPanel), 1, 0, uv0.Menu_Ani_Close_Time)
 	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		uv0.secondPanelCG.alpha = slot0
@@ -418,7 +418,7 @@ function slot0.closeSecondPanel(slot0)
 	end))
 end
 
-function slot0.openSelectBtn(slot0)
+slot0.openSelectBtn = function(slot0)
 	setLocalPosition(slot0.selectBtn, {
 		x = 287
 	})
@@ -434,7 +434,7 @@ function slot0.openSelectBtn(slot0)
 	end))
 end
 
-function slot0.closeSelectBtn(slot0)
+slot0.closeSelectBtn = function(slot0)
 	slot1 = LeanTween.value(go(slot0.selectBtn), 1, 0, uv0.Menu_Ani_Close_Time)
 	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
 		setImageAlpha(uv0.selectBtn, slot0)
@@ -446,12 +446,12 @@ function slot0.closeSelectBtn(slot0)
 	end))
 end
 
-function slot0.closeSpecial(slot0)
+slot0.closeSpecial = function(slot0)
 	slot0:closeSelectBtn()
 	slot0:closeSecondPanel()
 end
 
-function slot0.updateIcecream(slot0, slot1)
+slot0.updateIcecream = function(slot0, slot1)
 	slot2 = slot1 or slot0.selectedList
 
 	setActive(slot0.icecreamTF, slot2[1] > 0)
@@ -491,7 +491,7 @@ function slot0.updateIcecream(slot0, slot1)
 	end
 end
 
-function slot0.updateMainSelectPanel(slot0)
+slot0.updateMainSelectPanel = function(slot0)
 	for slot4 = 1, 4 do
 		setActive(slot0.mainToggleUnlockTF[slot4], slot0.selectedList[slot4] and slot0.selectedList[slot4] > 0)
 	end
@@ -529,17 +529,17 @@ function slot0.updateMainSelectPanel(slot0)
 	end
 end
 
-function slot0.isFinished(slot0)
+slot0.isFinished = function(slot0)
 	return #slot0.activity.data2_list == 4
 end
 
-function slot0.changeIndexSelect(slot0)
+slot0.changeIndexSelect = function(slot0)
 	slot0.selectedList[slot0.curSelectOrder] = slot0.curSelectIndex
 
 	PlayerPrefs.SetInt(uv0.Icecream_Save_Tag_Pre .. slot0.curSelectOrder, slot0.curSelectIndex)
 end
 
-function slot0.getSelectedList(slot0)
+slot0.getSelectedList = function(slot0)
 	slot0.selectedList = {
 		0,
 		0,
@@ -564,13 +564,13 @@ function slot0.getSelectedList(slot0)
 	return slot0.selectedList
 end
 
-function slot0.saveSelectedList(slot0)
+slot0.saveSelectedList = function(slot0)
 	for slot4 = 1, 4 do
 		PlayerPrefs.SetInt(uv0.Icecream_Save_Tag_Pre .. slot4, slot0.selectedList[slot4])
 	end
 end
 
-function slot0.share(slot0)
+slot0.share = function(slot0)
 	slot1 = PoolMgr.GetInstance()
 
 	slot1:GetUI("IcecreamSharePage", false, function (slot0)
@@ -608,7 +608,7 @@ function slot0.share(slot0)
 	end)
 end
 
-function slot0.initSD(slot0)
+slot0.initSD = function(slot0)
 	slot0.sdContainer = slot0:findTF("sdcontainer", slot0.bg)
 	slot0.spine = nil
 	slot0.spineLRQ = GetSpineRequestPackage.New("salatuojia_8", function (slot0)

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2024愚人节 BOSS召唤自爆船",
 	cd = 0,
-	painting = 0,
-	id = 200895,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200895,
 	effect_list = {
 		{
 			target_choise = "TargetNil",

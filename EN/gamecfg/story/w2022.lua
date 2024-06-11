@@ -1,12 +1,12 @@
 return {
-	id = "W2022",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2022",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Vestal is offering to restore our fleets back to perfect condition.%。",
 			typewriter = {
 				speed = 0.05,

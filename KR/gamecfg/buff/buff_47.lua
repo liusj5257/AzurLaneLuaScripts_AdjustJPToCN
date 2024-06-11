@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "绝地反击",
 	time = 0,
+	name = "绝地反击",
+	init_effect = "",
 	picture = "",
 	desc = "每堆叠1层，伤害、装填提高5%",
 	stack = 5,
@@ -17,8 +17,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 500
+				number = 500,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.05
+				number = 0.05,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

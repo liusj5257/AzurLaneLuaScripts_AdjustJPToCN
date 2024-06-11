@@ -7,11 +7,11 @@ slot5 = 4
 slot6 = 5
 slot7 = 10
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.state = uv0
 end
 
-function slot0.Load(slot0)
+slot0.Load = function(slot0)
 	slot0.state = uv0
 	slot0.parentTF = pg.NewStoryMgr.GetInstance().frontTr
 	slot1 = ResourceMgr.Inst
@@ -27,19 +27,19 @@ function slot0.Load(slot0)
 	end), true, true)
 end
 
-function slot0.IsEmptyOrUnload(slot0)
+slot0.IsEmptyOrUnload = function(slot0)
 	return slot0.state == uv0 or slot0.state == uv1
 end
 
-function slot0.IsLoading(slot0)
+slot0.IsLoading = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.IsShowing(slot0)
+slot0.IsShowing = function(slot0)
 	return slot0.state == uv0
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.pageAnim = slot0._tf:GetComponent(typeof(Animation))
@@ -56,6 +56,7 @@ function slot0.Init(slot0, slot1)
 	slot0.contentSizeFitter = slot0._tf:Find("content"):GetComponent(typeof(ContentSizeFitter))
 
 	onButton(nil, slot0.closeBtn, function ()
+		setButtonEnabled(uv0.closeBtn, false)
 		uv0:Hide()
 	end, SFX_PANEL)
 	slot0.pageAniEvent:SetEndEvent(function ()
@@ -67,7 +68,7 @@ function slot0.Init(slot0, slot1)
 	slot0:UpdateAll()
 end
 
-function slot0.UpdateAll(slot0)
+slot0.UpdateAll = function(slot0)
 	slot0.cg.blocksRaycasts = false
 
 	seriesAsync({
@@ -91,8 +92,9 @@ function slot0.UpdateAll(slot0)
 	end)
 end
 
-function slot8(slot0)
+slot8 = function(slot0)
 	setActive(slot0._tf, true)
+	setButtonEnabled(slot0.closeBtn, true)
 	slot0.pageAnim:Play("anim_storyrecordUI_record_in")
 
 	slot0.state = uv0
@@ -100,7 +102,7 @@ function slot8(slot0)
 	slot0:UpdateAll()
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.displays = slot1:GetContentList()
 
 	if slot0:IsEmptyOrUnload() then
@@ -110,7 +112,7 @@ function slot0.Show(slot0, slot1)
 	end
 end
 
-function slot9(slot0)
+slot9 = function(slot0)
 	slot1 = nil
 	slot2 = false
 
@@ -126,7 +128,7 @@ function slot9(slot0)
 	return slot1, slot2
 end
 
-function slot10(slot0, slot1)
+slot10 = function(slot0, slot1)
 	setActive(slot1, false)
 
 	GetOrAddComponent(slot1, typeof(CanvasGroup)).alpha = 1
@@ -138,7 +140,7 @@ function slot10(slot0, slot1)
 	end
 end
 
-function slot0.UpdateList(slot0, slot1)
+slot0.UpdateList = function(slot0, slot1)
 	if not slot0:IsShowing() then
 		return
 	end
@@ -195,7 +197,7 @@ function slot0.UpdateList(slot0, slot1)
 	seriesAsync(slot3, slot1)
 end
 
-function slot0.PlayAnimation(slot0, slot1)
+slot0.PlayAnimation = function(slot0, slot1)
 	slot3 = #slot0.displays < uv0 and #slot2 or uv0
 	slot4 = {}
 
@@ -215,7 +217,7 @@ function slot0.PlayAnimation(slot0, slot1)
 	slot1()
 end
 
-function slot0.UpdateRecord(slot0, slot1, slot2)
+slot0.UpdateRecord = function(slot0, slot1, slot2)
 	GetOrAddComponent(slot1, typeof(CanvasGroup)).alpha = 1
 
 	setActive(slot1:Find("icon"), slot2.icon)
@@ -251,21 +253,22 @@ function slot0.UpdateRecord(slot0, slot1, slot2)
 	slot4.container:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup)).padding = slot7
 end
 
-function slot0.OnHide(slot0)
+slot0.OnHide = function(slot0)
 	slot0:Clear()
 	slot0:UnblurPanel()
 	setActive(slot0._tf, false)
+	setButtonEnabled(slot0.closeBtn, true)
 
 	slot0.state = uv0
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	if slot0:IsShowing() then
 		slot0.pageAnim:Play("anim_storyrecordUI_record_out")
 	end
 end
 
-function slot0.BlurPanel(slot0)
+slot0.BlurPanel = function(slot0)
 	setParent(pg.NewStoryMgr.GetInstance()._tf, pg.UIMgr.GetInstance().UIMain)
 
 	slot0.hideNodes = {}
@@ -282,7 +285,7 @@ function slot0.BlurPanel(slot0)
 	})
 end
 
-function slot0.UnblurPanel(slot0)
+slot0.UnblurPanel = function(slot0)
 	setParent(pg.NewStoryMgr.GetInstance()._tf, pg.UIMgr.GetInstance().OverlayToast)
 
 	if slot0.hideNodes and #slot0.hideNodes > 0 then
@@ -296,7 +299,7 @@ function slot0.UnblurPanel(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.parentTF)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	for slot4, slot5 in ipairs(slot0.usingTpls) do
 		uv0(slot0, slot5)
 	end
@@ -304,7 +307,7 @@ function slot0.Clear(slot0)
 	slot0.usingTpls = {}
 end
 
-function slot0.Unload(slot0)
+slot0.Unload = function(slot0)
 	if uv0 < slot0.state then
 		slot0.state = uv1
 
@@ -321,7 +324,7 @@ function slot0.Unload(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Hide()
 	slot0:Unload()
 end

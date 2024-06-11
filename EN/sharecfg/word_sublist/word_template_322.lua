@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_322 = {}
 slot1 = slot0.word_template_322
 
-function temp()
+temp = function()
 	uv0["已"] = {
 		["婚"] = {
 			["女"] = {
@@ -45,7 +45,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["以"] = {
 		["财"] = {
 			["大"] = {
@@ -323,7 +323,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["倚"] = {
 		["天"] = {
 			["屠"] = {
@@ -341,7 +341,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["椅"] = {
 		["子"] = {
 			["一"] = {
@@ -361,7 +361,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["亿"] = {
 		["万"] = {
 			["勇"] = {
@@ -388,7 +388,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["艺"] = {
 		["术"] = {
 			["家"] = {
@@ -448,7 +448,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["异"] = {
 		["丁"] = {
 			["腈"] = {

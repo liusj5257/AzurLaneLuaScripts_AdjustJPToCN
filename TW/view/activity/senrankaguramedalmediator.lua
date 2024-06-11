@@ -3,7 +3,7 @@ slot0.SUBMIT_TASK_ALL = "activity submit task all"
 slot0.SUBMIT_TASK = "activity submit task "
 slot0.TASK_GO = "task go "
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.SUBMIT_TASK, function (slot0, slot1)
 		uv0.displayAwards = {}
 		slot2 = uv0
@@ -61,7 +61,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.SUBMIT_TASK_DONE,
 		ActivityProxy.ACTIVITY_UPDATED,
@@ -71,7 +71,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SUBMIT_TASK_DONE then
@@ -96,7 +96,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.checkShowTaskAward(slot0)
+slot0.checkShowTaskAward = function(slot0)
 	if #slot0.displayAwards > 0 then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot0.displayAwards)
 	end

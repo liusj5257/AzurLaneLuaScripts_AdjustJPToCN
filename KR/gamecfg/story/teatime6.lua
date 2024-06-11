@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME6",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -348,8 +348,8 @@ return {
 		{
 			say = "며칠 뒤, 다과회에서",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -558,11 +558,11 @@ return {
 			}
 		},
 		{
-			say = "한편, 아카츠키는……",
 			blackBg = true,
+			say = "한편, 아카츠키는……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -587,8 +587,8 @@ return {
 			}
 		},
 		{
-			say = "【S71°W100°】",
 			blackBg = true,
+			say = "【S71°W100°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,12 +599,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "눈과 얼음의 대륙…… 역시 틀리지 않았어! 노스 유니온! 히비키, 안심해. 언니가 곧 갈게!",
 			typewriter = {
 				speed = 0.05,

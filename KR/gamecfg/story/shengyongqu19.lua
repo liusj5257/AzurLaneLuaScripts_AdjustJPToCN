@@ -1,18 +1,18 @@
 return {
-	id = "SHENGYONGQU19",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU19",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 6,
 			side = 2,
+			dir = -1,
+			bgm = "hunhe-battle",
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			dir = -1,
 			say = "하--하하. 뭐야, 로피니아트르? 오늘의 '마법'은 상태가 별로 좋지 않나봐?",
-			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "하마터면 깜빡할 뻔했네요…… 공교롭게도 오늘 마법은 아주 완벽하답니다. 이리 오세요. 진짜 마법이 뭔지 보여드리죠!",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.7,
 					dur = 0.5,
 					x = -2500
@@ -63,10 +63,10 @@ return {
 			}
 		},
 		{
+			say = "펑------!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "펑------!",
 			flashN = {
 				color = {
 					1,
@@ -117,8 +117,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "윽, 일부러 거리를 두고 빙글빙글 돌고 있어서 동력 시스템을 조준하기가 힘들어!",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "하지만, 그래도 상관은 없습니다. 계속 포위합시다. 동력 시스템만 파괴하면 우리의 승리입니다!",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "행동 전에 현재 부상 상황을 보고하세요.",
 			typewriter = {
 				speed = 0.05,
@@ -180,8 +180,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "일단 나는 괜찮아~ 약간 까진 것만 제외하면 말이지!",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "저도 그렇습니다. 사소한 찰과상은 입었지만, 전투에 영향을 주지는 않아요.",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -237,8 +237,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "에?! 그럴 수가……",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "보클랭, 괴롭히면 안 돼…",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "어쩔 수 없습니다. 계획을 변경해야겠군요. 동력 시스템이 아니라 화력 시스템이나 중요하지 않은 모듈도 공격합니다. 다들 괜찮겠지요?",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "네. 로열 네이비도 우리의 동료입니다. 동료가 부상을 입었는데 사사로운 감정에 흔들릴 수는 없어요!",
 			typewriter = {
 				speed = 0.05,

@@ -7,9 +7,9 @@ return {
 			actor = 900233,
 			nameColor = "#ff5c5c",
 			actorName = "魔王",
+			say = "嚯嚯嚯，居然活著來到我的城堡了嗎。",
 			side = 2,
 			bgm = "login-2022401jp",
-			say = "嚯嚯嚯，居然活著來到我的城堡了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

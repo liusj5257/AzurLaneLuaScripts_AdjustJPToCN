@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA19",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_kagura_2",
-			say = "天守閣前",
 			bgm = "sk-az-battle-2",
+			say = "天守閣前",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,8 +21,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "いっちばんのり～…って、あれ？",
 			painting = {
@@ -37,9 +37,9 @@ return {
 		{
 			actor = 11000030,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "遅えぞ、飛鳥。なにのろのろやってきてんだ。お前の前世は亀か？",
 			painting = {
 				alpha = 0.3,
@@ -54,8 +54,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "あれ、焔ちゃん？ってことは、負けちゃったかぁ～、悔しい！…って亀だったら、逆に勝ってたことにならない？",
 			painting = {
@@ -83,8 +83,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000060,
 			dir = 1,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "あの…さっきから…ここにいました…",
 			painting = {
@@ -112,8 +112,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "えぇ、まだこの先から気配を感じます。ただ……",
 			painting = {
@@ -129,8 +129,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "う～ん、あの天守閣から上がる黒煙…誰が見ても何かあったと思うよ……",
 			painting = {
@@ -146,8 +146,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "ということで、きっとグズグズしてはいられない状況なんだと思う！準備が整い次第、突入しましょう！",
 			painting = {
@@ -162,9 +162,9 @@ return {
 		{
 			actor = 301090,
 			side = 2,
-			bgName = "bg_kagura_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_kagura_2",
 			say = "こっちは準備万端！後は仕上げをご覧じろ…で、ござる！",
 			painting = {
 				alpha = 0.3,
@@ -179,8 +179,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "よしっ！それじゃ…行くよ！！",
 			painting = {

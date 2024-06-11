@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_119 = {}
 slot1 = slot0.word_template_119
 
-function temp()
+temp = function()
 	uv0["裙"] = {
 		["内"] = {
 			["偷"] = {
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["丝"] = {
 		["诱"] = {
 			this = true
@@ -81,7 +81,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.s = {
 		m = {
 			this = true,
@@ -380,7 +380,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["旅"] = {
 		["馆"] = {
 			["自"] = {

@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "炮击提高II",
 	init_effect = "",
-	color = "red",
+	id = 70110,
+	time = 0,
 	picture = "",
 	desc = "属性增益类型用例,炮击提高100%",
 	stack = 1,
-	id = 70110,
+	color = "red",
 	icon = 70110,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 10000
+				number = 10000,
+				attr = "cannonPower"
 			}
 		}
 	}

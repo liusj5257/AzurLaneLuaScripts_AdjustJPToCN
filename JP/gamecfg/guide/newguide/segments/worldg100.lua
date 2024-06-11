@@ -28,9 +28,9 @@ return {
 			style = {
 				text = "マップ外のマスをタップすることで「エリア一覧」画面に切り替えられます",
 				mode = 2,
-				posY = -160,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -160,
 				posX = -460
 			},
 			showSign = {
@@ -71,9 +71,9 @@ return {
 			style = {
 				text = "エリアを確保する度に、探索できるエリアが増えます。今はストーリーを進めます。",
 				mode = 2,
-				posY = -150,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = -150,
 				posX = 100
 			}
 		},
@@ -82,9 +82,9 @@ return {
 			style = {
 				text = "ここをタップし、メイン画面に戻ってください",
 				mode = 2,
-				posY = 245.23,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 245.23,
 				posX = -552.4
 			},
 			ui = {
@@ -93,11 +93,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = -76.32,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 238.9,
-					rotateY = 0
+					posX = -76.32
 				}
 			}
 		},

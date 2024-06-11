@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024偶像活动三期 欧根盾",
 	time = 3,
-	color = "yellow",
+	name = "2024偶像活动三期 欧根盾",
+	init_effect = "",
+	id = 200912,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200912,
+	color = "yellow",
 	last_effect = "",
 	effect_list = {
 		{

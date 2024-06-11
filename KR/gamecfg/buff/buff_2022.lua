@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "装填号令",
 	time = 15,
-	color = "red",
+	name = "装填号令",
+	init_effect = "",
+	id = 2022,
 	picture = "",
 	desc = "15%的概率发动",
 	stack = 1,
-	id = 2022,
+	color = "red",
 	icon = 2020,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				rant = 2500,
-				skill_id = 2021,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				skill_id = 2021
 			}
 		}
 	}

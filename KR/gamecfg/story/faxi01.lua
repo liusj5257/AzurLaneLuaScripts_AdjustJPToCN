@@ -1,14 +1,14 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI01",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI01",
 	occlusion = 2,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>……빛이 있는 곳에 그림자 있으리.</size>",
@@ -39,8 +39,8 @@ return {
 		{
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,8 +85,8 @@ return {
 		{
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -109,10 +109,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level03",
 			say = "「메디떼라네 (Méditerranée)」……세계 최대의 지중해로, 여름엔 덥고 건조하며 겨울은 따뜻하고 비가 많이 내리는, 세계 어디에서도 찾아보기 힘든 독특한 기후를 지닌 곳이다.",
+			side = 2,
+			dir = 1,
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,8 +185,8 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			dir = 1,
 			say = "본부도 생각이 있는 거겠죠. 무엇보다 메탈 블러드에 점거당한 이 나라를 더 이상 함께 싸우는 아군이라고 부를 수는 없지 않겠어요?",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -287,9 +287,9 @@ return {
 		{
 			actor = 202130,
 			side = 0,
-			soundeffect = "event:/ui/alarm",
-			dir = 1,
 			say = "세이렌의 신호를 감지! 이그제큐터급의 신형함으로 추정!",
+			dir = 1,
+			soundeffect = "event:/ui/alarm",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

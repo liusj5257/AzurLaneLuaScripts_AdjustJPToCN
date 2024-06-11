@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT14-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT14-1",
+	fadein = 1,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "level-uta",
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "わたしが参りましょう",
-			bgm = "level-uta",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			say = "いいえ、ここはわたし一人にお任せください",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			say = "わたし一人で遠距離から大火力で攻撃を行い、敵の注意をできるだけ引きつけます",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "サラァナ……気を付けて",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			say = "はい、心得ております",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			say = "承知いたしました。では──参ります",
 			typewriter = {
 				speed = 0.05,

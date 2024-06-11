@@ -1,56 +1,56 @@
 slot0 = class("LevelCellView")
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.go = nil
 	slot0.tf = nil
 	slot0.orderTable = {}
 end
 
-function slot0.SetActive(slot0, slot1)
+slot0.SetActive = function(slot0, slot1)
 	setActive(slot0.go, slot1)
 end
 
-function slot0.GetOrder(slot0)
+slot0.GetOrder = function(slot0)
 	return ChapterConst.CellPriorityNone
 end
 
-function slot0.SetLoader(slot0, slot1)
+slot0.SetLoader = function(slot0, slot1)
 	assert(not slot0.loader, "repeatly Set loader")
 
 	slot0.loader = slot1
 end
 
-function slot0.GetLoader(slot0)
+slot0.GetLoader = function(slot0)
 	slot0.loader = slot0.loader or AutoLoader.New()
 
 	return slot0.loader
 end
 
-function slot0.ClearLoader(slot0)
+slot0.ClearLoader = function(slot0)
 	if slot0.loader then
 		slot0.loader:Clear()
 	end
 end
 
-function slot0.GetLine(slot0)
+slot0.GetLine = function(slot0)
 	return slot0.line
 end
 
-function slot0.SetLine(slot0, slot1)
+slot0.SetLine = function(slot0, slot1)
 	slot0.line = {
 		row = slot1.row,
 		column = slot1.column
 	}
 end
 
-function slot0.OverrideCanvas(slot0)
+slot0.OverrideCanvas = function(slot0)
 	pg.ViewUtils.SetLayer(tf(slot0.go), Layer.UI)
 
 	slot0.canvas = GetOrAddComponent(slot0.go, typeof(Canvas))
 	slot0.canvas.overrideSorting = true
 end
 
-function slot0.ResetCanvasOrder(slot0)
+slot0.ResetCanvasOrder = function(slot0)
 	if not slot0.canvas then
 		return
 	end
@@ -58,11 +58,11 @@ function slot0.ResetCanvasOrder(slot0)
 	pg.ViewUtils.SetSortingOrder(slot0.tf, slot0.line.row * ChapterConst.PriorityPerRow + slot0:GetOrder())
 end
 
-function slot0.GetCurrentOrder(slot0)
+slot0.GetCurrentOrder = function(slot0)
 	return slot0.line.row * ChapterConst.PriorityPerRow + slot0:GetOrder()
 end
 
-function slot0.AddCanvasOrder(slot0, slot1, slot2)
+slot0.AddCanvasOrder = function(slot0, slot1, slot2)
 	for slot7 = 0, tf(slot1):GetComponents(typeof(Renderer)).Length - 1 do
 		slot3[slot7].sortingOrder = (slot0.orderTable[slot3[slot7]] or 0) + slot2
 	end
@@ -76,7 +76,7 @@ function slot0.AddCanvasOrder(slot0, slot1, slot2)
 	end
 end
 
-function slot0.RecordCanvasOrder(slot0, slot1)
+slot0.RecordCanvasOrder = function(slot0, slot1)
 	for slot6 = 0, tf(slot1):GetComponents(typeof(Renderer)).Length - 1 do
 		slot7 = slot2[slot6]
 		slot0.orderTable[slot2[slot6]] = slot2[slot6].sortingOrder
@@ -91,7 +91,7 @@ function slot0.RecordCanvasOrder(slot0, slot1)
 	end
 end
 
-function slot0.RefreshLinePosition(slot0, slot1, slot2)
+slot0.RefreshLinePosition = function(slot0, slot1, slot2)
 	if slot2 then
 		slot0:SetLine(slot2)
 		slot0:ResetCanvasOrder()
@@ -100,7 +100,7 @@ function slot0.RefreshLinePosition(slot0, slot1, slot2)
 	slot0.tf.anchoredPosition = slot1.theme:GetLinePosition(slot0.line.row, slot0.line.column)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	for slot4, slot5 in pairs(slot0.orderTable) do
 		if not IsNil(slot4) then
 			slot4.sortingOrder = slot5

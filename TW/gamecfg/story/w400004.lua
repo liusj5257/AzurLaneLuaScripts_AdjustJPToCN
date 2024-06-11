@@ -1,12 +1,12 @@
 return {
-	id = "W400004",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W400004",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "離開後將無法再次返回該處海域，是否確認離開？",
 			typewriter = {
 				speed = 0.05,
@@ -19,8 +19,8 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "確認",
-					autochoice = 1
+					autochoice = 1,
+					content = "確認"
 				},
 				{
 					content = "取消",

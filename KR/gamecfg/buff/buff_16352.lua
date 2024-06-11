@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.01
+					number = -0.01,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.02
+					number = -0.02,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.03
+					number = -0.03,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.04
+					number = -0.04,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.06
+					number = -0.06,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.07
+					number = -0.07,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.08
+					number = -0.08,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.09
+					number = -0.09,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByCannon",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByCannon"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "",
+	time = 0,
 	picture = "",
 	desc = "炮击减伤",
 	stack = 1,
@@ -162,8 +162,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByCannon",
-				number = -0.01
+				number = -0.01,
+				attr = "injureRatioByCannon"
 			}
 		}
 	}

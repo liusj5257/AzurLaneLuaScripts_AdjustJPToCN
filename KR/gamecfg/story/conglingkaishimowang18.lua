@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
-			say = "옛 왕성의 폐허, 왕궁.",
 			bgm = "story-mmorpg",
+			say = "옛 왕성의 폐허, 왕궁.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,11 +32,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "지휘관님, 정말 왕궁의 폐허에서 충분한 금화를 찾을 수 있을 거라 생각하시나요?",
 			painting = {
@@ -129,9 +129,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_500",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			bgName = "star_level_bg_500",
 			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "여러분, 저기 벽에 반짝이는 돌이…!",
@@ -144,17 +144,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "설마… 숨겨진 방이라도 있는 걸까요?",
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "장치가 작동하여 중후한 벽이 천천히 움직이자, 그 뒤에 오랜 세월 동안 봉해진 서재가 보였다.",
 			typewriter = {
@@ -189,17 +189,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "공기에서는 오래된 냄새가 나고, 바닥에는 먼지로 뒤덮인 융단이 깔려 있다. 마력으로 작동하는 조명은 작동은 하지만, 그 빛은 어두컴컴하다.",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "안쪽 서재의 책상 위에는 금빛 마법구가 조용히 떠 있다.",
 			typewriter = {
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "이 마법은… 세월로 인한 열화를 막는 궁정 마법…",
 			painting = {
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "마법구를 만지자 마법진이 해체되면서 수백 년간 지켜진 것들이 일행 앞에 모습을 드러냈다.",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "그것은 한 묶음의 문서와 편지 한 통이었다.",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "뱀파이어 수장",
 			dir = 1,
@@ -300,17 +300,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -375,12 +375,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "뱀파이어 수장",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "한 달 전, 기묘한 병이 우리 일족 사이에서 퍼지기 시작했어.",
 			painting = {
@@ -412,12 +412,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "뱀파이어 수장",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "그렇지만 그 병에 걸린 흡혈귀는… 점점 일족과의 유대를 끊고, 다른 목소리에 귀를 기울이기 시작했지.",
 			painting = {
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "뱀파이어 수장",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "지금 이 순간, 내가 사랑하던 왕성은 흡혈귀가 저지른 '배신'으로 불타고 있어.",
 			painting = {
@@ -543,12 +543,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "뱀파이어 수장",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "진실이 감춰진 이 비밀의 방을 지킬 수 있을지도 몰라.",
 			painting = {
@@ -580,12 +580,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "뱀파이어 수장",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "그리고 책상 위에는 '영야의 어둠'을 푸는 술식과 흡혈귀를 멸할 수 있는 술식서가 있지.",
 			painting = {
@@ -617,12 +617,12 @@ return {
 			}
 		},
 		{
-			actor = 205072,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_501",
 			factiontag = "뱀파이어 수장",
 			dir = 1,
-			side = 2,
+			actor = 205072,
 			nameColor = "#FEF15E",
 			say = "부디 올바른 길을 관철하고, 내 권속들을 해방시켜 주길 바라…",
 			painting = {
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			say = "점점 난잡해지던 편지의 글자는 이 부분에서 끊겨 있었다.",
 			typewriter = {
@@ -644,17 +644,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -662,11 +662,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "흡혈귀 일족은 배신한 게 아니라… 마왕에게 조종당하고 있었다…",
@@ -699,11 +699,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하아… 이 진실을 어떻게 받아들여야 할지 모르겠군요…",
@@ -786,11 +786,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_500",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…어서 세 요새를 전부 함락시켜야 해요.",
@@ -804,27 +804,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			say = "비밀의 방을 나와, 그곳에서 찾은 옛 왕국의 금화를 모두 템페스타 해적단에게 전달했다.",
 			bgm = "theme-tempest-up",
+			say = "비밀의 방을 나와, 그곳에서 찾은 옛 왕국의 금화를 모두 템페스타 해적단에게 전달했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -832,11 +832,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "템페스타 해적단",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			say = "이, 이렇게나 많이…?!",
 			painting = {
@@ -867,11 +867,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "템페스타 해적단",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			say = "위대한 모험가는… 정말 통이 크구나~",
 			painting = {
@@ -938,8 +938,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모험 패널",
+			side = 2,
 			bgName = "star_level_bg_525",
 			nameColor = "#A9F548FF",
 			say = "\"시스템: 새로운 스킬 [파도의 나팔 SSS]를 획득했습니다.\"",
@@ -957,8 +957,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모험 패널",
+			side = 2,
 			bgName = "star_level_bg_525",
 			nameColor = "#A9F548FF",
 			say = "\"시스템: 현재 학습할 수 있는 스킬 수가 최대치에 도달했습니다. 스킬을 교체하거나, 획득한 스킬을 포기하세요.\"",
@@ -1012,8 +1012,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "'달리기' 스킬을 눌러 새로운 스킬로 교체했다.",
 			typewriter = {

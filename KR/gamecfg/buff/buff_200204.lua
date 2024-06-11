@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑亚利桑那 触发珍珠之泪后试图取消毒奶效果",
 	time = 1,
-	color = "red",
+	name = "黑亚利桑那 触发珍珠之泪后试图取消毒奶效果",
+	init_effect = "",
+	id = 200204,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200204,
+	color = "red",
 	icon = 200204,
 	last_effect = "",
 	effect_list = {

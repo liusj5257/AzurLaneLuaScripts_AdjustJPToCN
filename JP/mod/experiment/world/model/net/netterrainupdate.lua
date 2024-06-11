@@ -7,11 +7,11 @@ slot0.Fields = {
 	terrainStrong = "number"
 }
 
-function slot0.DebugPrint(slot0)
+slot0.DebugPrint = function(slot0)
 	return "{" .. slot0.row .. "," .. slot0.column .. "} " .. slot0.terrain
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.row = slot1.pos.row
 	slot0.column = slot1.pos.column
 	slot0.terrain = slot1.type
@@ -28,7 +28,7 @@ function slot0.Setup(slot0, slot1)
 	end
 end
 
-function slot0.GetTerrain(slot0)
+slot0.GetTerrain = function(slot0)
 	return slot0.terrain
 end
 

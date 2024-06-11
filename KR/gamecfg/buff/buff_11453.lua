@@ -2,12 +2,12 @@ return {
 	desc_get = "",
 	name = "过载炮击",
 	init_effect = "",
+	id = 11453,
 	time = 3,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 11453,
+	color = "red",
 	icon = 11450,
 	last_effect = "Darkness",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = -10000
+				number = -10000,
+				attr = "loadSpeed"
 			}
 		}
 	}

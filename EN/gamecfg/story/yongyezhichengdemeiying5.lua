@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEZHICHENGDEMEIYING5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEZHICHENGDEMEIYING5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Tales From the Count's Castle\n\n<size=45>5 The Crossroads of Faith</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "After searching every nook and cranny, all I managed to find was a water cooler disguised as a statue and some paper cups.",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet-reborn",
+			say = "After searching every nook and cranny, all I managed to find was a water cooler disguised as a statue and some paper cups.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "That was it. No food a vampire might eat, not even a red-colored beverage.",
 			typewriter = {
 				speed = 0.05,
@@ -64,14 +64,14 @@ return {
 			}
 		},
 		{
-			actor = 402081,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
-			say = "(The Commander's never going to guess it's that cursed thing...)",
 			fontsize = 40,
+			actor = 402081,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "(The Commander's never going to guess it's that cursed thing...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,14 +82,14 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
-			say = "(Shh! Also, it's time to say the line.)",
 			fontsize = 40,
+			actor = 408024,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "(Shh! Also, it's time to say the line.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,8 +119,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,10 +132,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402081,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Time is nearly out, human. Emden and her underlings draw near. I can sense it...",
 			typewriter = {
 				speed = 0.05,
@@ -147,9 +147,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "Nobody had told me there was a time limit. I had to make a choice, and quick...",
 			typewriter = {
 				speed = 0.05,
@@ -186,14 +186,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "The door led into a long, dark, cramped corridor. Following it brought me to a big crossroads, but all the paths only led back to the same dark corridor.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -233,12 +233,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			optionFlag = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -261,14 +261,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "I'd gotten myself hopelessly lost. I shouldn't have left it up to chance...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -293,13 +293,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Psst, over here.",
 			typewriter = {
 				speed = 0.05,
@@ -326,13 +326,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Behind you, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -344,13 +344,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Seems you panicked and made a poor decision.",
 			typewriter = {
 				speed = 0.05,
@@ -362,13 +362,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "This corridor is rigged, you see. All the doors in the hall lead to a bad ending if you don't solve the riddle first.",
 			typewriter = {
 				speed = 0.05,
@@ -380,13 +380,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Follow the sound of my voice. Oh, and take this small cross.",
 			typewriter = {
 				speed = 0.05,
@@ -398,13 +398,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "It's your prize for getting through this trial. It'll be useful later.",
 			typewriter = {
 				speed = 0.05,
@@ -416,11 +416,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			optionFlag = 1,
+			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
@@ -529,13 +529,13 @@ return {
 			}
 		},
 		{
-			actor = 402081,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 402081,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Now take that and dissolve it in water. Yeah, like that.",
 			typewriter = {
 				speed = 0.05,
@@ -615,13 +615,13 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 408024,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Human, take this. The crones used it to inhibit my master's powers, though now it is beyond useless. You may have it.",
 			typewriter = {
 				speed = 0.05,
@@ -648,11 +648,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			optionFlag = 2,
+			blackBg = true,
 			actor = 402081,
 			nameColor = "#a9f548",
 			hidePaintObj = true,

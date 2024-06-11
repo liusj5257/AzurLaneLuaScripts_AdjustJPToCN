@@ -2,25 +2,25 @@ slot0 = class("ReturnerActivity", import(".Activity"))
 slot0.TYPE_INVITER = 1
 slot0.TYPE_RETURNER = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.roleType = slot0.data1
 end
 
-function slot0.IsPush(slot0)
+slot0.IsPush = function(slot0)
 	return slot0.data2_list[1] == 1
 end
 
-function slot0.IsInviter(slot0)
+slot0.IsInviter = function(slot0)
 	return slot0.roleType == uv0.TYPE_INVITER
 end
 
-function slot0.IsReturner(slot0)
+slot0.IsReturner = function(slot0)
 	return slot0.roleType == uv0.TYPE_RETURNER
 end
 
-function slot0.ShouldAcceptTasks(slot0)
+slot0.ShouldAcceptTasks = function(slot0)
 	if slot0:IsInviter() then
 		return slot0:ShouldAcceptTasksIfInviter()
 	elseif slot0:IsReturner() then
@@ -28,7 +28,7 @@ function slot0.ShouldAcceptTasks(slot0)
 	end
 end
 
-function slot0.ShouldAcceptTasksIfInviter(slot0)
+slot0.ShouldAcceptTasksIfInviter = function(slot0)
 	if slot0:IsPush() then
 		slot2 = slot0:getDayIndex()
 		slot3 = getProxy(TaskProxy)
@@ -50,11 +50,11 @@ function slot0.ShouldAcceptTasksIfInviter(slot0)
 	return false
 end
 
-function slot0.GetTask(slot0, slot1)
+slot0.GetTask = function(slot0, slot1)
 	return getProxy(TaskProxy):getTaskById(slot1) or slot2:getFinishTaskById(slot1)
 end
 
-function slot0.ShouldAcceptTasksIfReturner(slot0)
+slot0.ShouldAcceptTasksIfReturner = function(slot0)
 	slot1 = slot0.data4
 
 	if slot0.data2 == 0 then
@@ -77,7 +77,7 @@ function slot0.ShouldAcceptTasksIfReturner(slot0)
 	end)()
 end
 
-function slot0.getDataConfigTable(slot0, slot1)
+slot0.getDataConfigTable = function(slot0, slot1)
 	if slot0:IsInviter() then
 		return pg.activity_template_headhunting[slot0.id][slot1]
 	elseif slot0:IsReturner() then

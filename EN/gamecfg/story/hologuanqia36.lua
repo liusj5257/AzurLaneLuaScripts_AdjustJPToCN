@@ -1,18 +1,18 @@
 return {
-	id = "HOLOGUANQIA36",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA36",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 10500020,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Miss Sora?",
 			dir = 1,
-			say = "Ayame, your main guns are far to inaccurate. When attacking, consider the overall balance of your equipment.",
 			bgm = "holo-inochi",
+			actor = 10500020,
+			actorName = "Miss Sora?",
+			say = "Ayame, your main guns are far to inaccurate. When attacking, consider the overall balance of your equipment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,9 +25,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = -1,
 			actor = 10500050,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "Y-yes!",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -52,8 +52,8 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			actorName = "Miss Sora?",
 			say = "Shion, controlling your aircraft is certainly important, but you must remember to observe your surroundings.",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "I see! Thank you, Sora!",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -110,8 +110,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "We're completely at her mercy...",
 			typewriter = {
 				speed = 0.05,
@@ -126,8 +126,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500020,
 			dir = -1,
+			actor = 10500020,
 			say = "Wh-what's with that incredible gravitas...",
 			typewriter = {
 				speed = 0.05,
@@ -142,11 +142,11 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			bgm = "holo-inochi",
+			actor = 10500020,
 			actorName = "Miss Sora?",
 			say = "My being was made with you as a template. If you strive to improve yourself, you will be able to surpass me one day. However, you'll have to defeat me here first.",
-			bgm = "holo-inochi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,9 +159,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = -1,
 			actor = 10500020,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "Eh? Um, I'll do my best!",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,9 +185,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Even the real Miss Sora is getting caught up by her?!",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -209,13 +209,13 @@ return {
 			}
 		},
 		{
-			actor = 10500020,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Miss Sora?",
 			dir = 1,
-			say = "Thanks to the help of everyone in Azur Lane, you've all learned how to control your riggings.",
 			bgm = "holo-inochi",
+			actor = 10500020,
+			actorName = "Miss Sora?",
+			say = "Thanks to the help of everyone in Azur Lane, you've all learned how to control your riggings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,11 +229,11 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			bgm = "holo-inochi",
+			actor = 10500020,
 			actorName = "Miss Sora?",
 			say = "Oh, and Aqua? Did you just poke fun of me with one of my own lines?",
-			bgm = "holo-inochi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,9 +246,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "E-eh?",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -272,12 +272,12 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			soundeffect = "event:/battle/boom2",
-			nameColor = "#ff5c5c",
-			dir = 1,
 			bgm = "holo-inochi",
-			actor = 10500020,
+			dir = 1,
 			actorName = "Miss Sora?",
+			soundeffect = "event:/battle/boom2",
+			actor = 10500020,
+			nameColor = "#ff5c5c",
 			say = "\"SO YOU'RE THE ENEMY, THEN?\"",
 			flashN = {
 				color = {
@@ -329,8 +329,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "Eep?!",
 			typewriter = {
 				speed = 0.05,
@@ -344,9 +344,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I'm sorry, Miss Sora, I'm so very sorry! I'm so sorry, so please don't bomb me. I'm sorry! I'm very, very sorry!",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,11 +371,11 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			bgm = "holo-inochi",
+			actor = 10500020,
 			actorName = "Miss Sora?",
 			say = "Nope, not good enough~♪",
-			bgm = "holo-inochi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,9 +388,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "AAAAAAAAAAAAAHHHH!!!!!",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -460,8 +460,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "Heeh~ Purity doesn't really know what's going on, but for an enemy to be this strong, surely there's some external factor involved? For example, an energy supply or something~",
 			typewriter = {
 				speed = 0.05,
@@ -488,10 +488,10 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 301050,
 			say = "I saw something flashing red on her riggings early.",
 			effects = {
 				{
@@ -524,13 +524,13 @@ return {
 			}
 		},
 		{
-			actor = 10500020,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Miss Sora?",
 			dir = 1,
-			say = "Time's up... Regrettably, it's your win this time.",
 			bgm = "holo-inochi",
+			actor = 10500020,
+			actorName = "Miss Sora?",
+			say = "Time's up... Regrettably, it's your win this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,11 +544,11 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			bgm = "holo-inochi",
+			actor = 10500020,
 			actorName = "Miss Sora?",
 			say = "Umm, I have a message from the ruler of space and time herself. \"Everyone, keep going and don't stop for anything!\"",
-			bgm = "holo-inochi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,8 +559,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "In a flash of light, the clone of Tokino Sora disappeared.",
 			flashout = {
 				dur = 1,
@@ -640,9 +640,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I'm sorry! I'm very sorry! I got ahead of myself! I'm so very sorry...",
 			typewriter = {
 				speed = 0.05,
@@ -654,8 +654,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -667,8 +667,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "It's okay, Aqua. Here, here. *pats*",
 			typewriter = {
 				speed = 0.05,
@@ -683,8 +683,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "As expected, there was an amplification device. Moreover, this was a custom device attuned for this specific part of the Mirror Sea.",
 			typewriter = {
 				speed = 0.05,
@@ -699,8 +699,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Purity",
 			dir = 1,
+			actorName = "Purity",
 			say = "(... Well done, Tessy! I didn't think you'd be able to activate all these functions so quickly!)",
 			typewriter = {
 				speed = 0.05,
@@ -730,8 +730,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Hmm... we won't have time to slowly look around then...",
 			typewriter = {
 				speed = 0.05,

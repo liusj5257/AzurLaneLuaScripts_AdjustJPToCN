@@ -1,12 +1,12 @@
 return {
-	id = "W761002",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W761002",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "天氣十分炎熱！凍結的種子上的冰雪逐漸融化了。",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "獲得了椰子樹的種子！",
 			typewriter = {
 				speed = 0.05,

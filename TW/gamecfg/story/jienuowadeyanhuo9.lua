@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO9",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,8 +38,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "嗯……時間也已經接近拂曉，夜幕對我們的掩護很快要消失了。",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "需要聯繫第二艦隊嗎？",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "很好，那我們只要顧好自己就行了。",
 			typewriter = {
@@ -118,12 +118,12 @@ return {
 			}
 		},
 		{
-			actor = 903020,
 			side = 2,
 			bgName = "bg_renaya",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 903020,
+			nameColor = "#a9f548",
 			say = "作戰行動已經結束。各艦注意，掉轉航向停止射擊，我們返航——",
 			typewriter = {
 				speed = 0.05,

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "铁底湾之夜",
 	time = 0,
+	name = "铁底湾之夜",
+	init_effect = "",
 	picture = "",
 	desc = "受到致命伤害时不会阵亡，5秒内回避所有伤害",
 	stack = 1,

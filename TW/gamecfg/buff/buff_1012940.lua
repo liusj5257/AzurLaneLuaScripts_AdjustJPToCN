@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "黛朵2",
 	init_effect = "",
+	id = 1012940,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1012940,
+	color = "yellow",
 	icon = 12940,
 	last_effect = "",
 	effect_list = {
@@ -42,8 +42,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 1012941,
 				target = "TargetSelf",
+				skill_id = 1012941,
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

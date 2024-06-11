@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "파커 피크 해·메탈 블러드 부도 요새 주변",
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
 			dir = 1,
 			bgm = "bsm-5",
+			say = "파커 피크 해·메탈 블러드 부도 요새 주변",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,8 +42,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "두두둥! 다들 집중해! 곧 메탈 블러드의 비밀 기지 통제 구역이야!",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "응? 여기가 우리 목적지인가. 하지만 내 눈에는 메탈 블러드의 기지 같은 건 보이지 않는데요...",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "저도 그래요. 어쩌면 항로를 잘못 찾은 걸까요... U-37?",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401280,
 			dir = 1,
+			actor = 401280,
 			nameColor = "#a9f548",
 			say = "어쩌면 아이들의 비밀 기지일 수도 있어요. 사실 우리는 휴가를 왔다거나...?",
 			typewriter = {
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 401240,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401240,
+			nameColor = "#a9f548",
 			say = "크크크, 아니지! 어둠 속에서 몰래, 있는 듯 없는 듯한 그 공포! 그것이 바로 메탈 블러드의 오의! 우리의 비밀이 있는 곳이지!",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -146,8 +146,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "그, 그런 건가요...? 아무래도 관찰력을 더 길러야 할 것 같은데요...",
 			typewriter = {
@@ -160,11 +160,11 @@ return {
 			}
 		},
 		{
-			actor = 402050,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 402050,
+			nameColor = "#a9f548",
 			say = "엣? Z24, 비밀 기지에 대해 알고 있나요?",
 			typewriter = {
 				speed = 0.05,
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "물론이지. 어둠 속에서 밝게 빛나는 고양이의 눈동자처럼, 벌써 알아버렸어, 통찰해 버렸다고...",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401280,
 			dir = 1,
+			actor = 401280,
 			nameColor = "#a9f548",
 			say = "저기... Z24, 대체 뭘 알았다는 건가요...!",
 			typewriter = {
@@ -223,8 +223,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "그, 그게... 어둠은 반드시 빛을 받아야 하는 것처럼, 나의 통찰 결과도 그렇다는 거지...",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -266,8 +266,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "오이겐, 네 녀석...!",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -309,8 +309,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "음... 이 해역은 분명 수십 년 전에는 메탈 블러드의 구역이었지만, 세이렌이 나타난 이후로는 함락되었다고 들었는데요...",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "너무 멀고 벽람항로와의 전쟁이 시작된 이후, 가치가 없다고 생각해서 이곳에서 철수한지 오래예요.",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "후후, 비밀 기지가 정말 멀지 않은 곳에 있는 거 아닐까? 너무 완벽하게 숨겨서 안 보이는 거지!",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "...엣?! 어떤 기술로 숨긴 거죠?!",
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -483,8 +483,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "오이겐, 조금 이상해... 마중 온 사람은 없는데.",
 			typewriter = {
@@ -532,8 +532,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "...혹시 연습을 하고 있느라 못 본건 아니고?",
 			typewriter = {
@@ -565,8 +565,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "(너무 제멋대로인거 아닐까요...)",
 			typewriter = {
@@ -614,8 +614,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "오케이! 처음 왔으니까 간단하게 설명해 줄게. 이 요새는 군도 안에 있어. 기능에 따라 수백 개의 모듈로 나눠져 있지",
 			typewriter = {
@@ -628,11 +628,11 @@ return {
 			}
 		},
 		{
-			actor = 408100,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408100,
+			nameColor = "#a9f548",
 			say = "항로가 복잡해서 지금까지 많은 방어 모듈들이 다 실탄을 장전하고 대기하는 상태야. 그러니까 어디 가지 말고 잘 따라와!",
 			typewriter = {
 				speed = 0.05,
@@ -644,8 +644,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

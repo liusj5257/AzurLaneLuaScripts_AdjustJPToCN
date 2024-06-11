@@ -1,10 +1,10 @@
 slot0 = class("EducateTopPanel", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateTopPanel"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.helpBtn = slot0:findTF("content/btns/help")
 	slot0.homeBtn = slot0:findTF("content/btns/home")
 	slot0.refresh = slot0:findTF("content/btns/refresh")
@@ -12,7 +12,7 @@ function slot0.OnInit(slot0)
 	slot0:addListener()
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.refresh, function ()
 		uv0:emit(EducateBaseUI.EDUCATE_ON_MSG_TIP, {
 			content = i18n("child_refresh_sure_tip"),
@@ -32,7 +32,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

@@ -1,40 +1,40 @@
 slot0 = class("World", import("...BaseEntity"))
 slot0.Fields = {
-	colorDic = "table",
+	isAutoFight = "boolean",
 	stepCount = "number",
 	cdTimeList = "table",
 	type = "number",
-	inventoryProxy = "table",
-	staminaMgr = "table",
-	taskProxy = "table",
-	autoInfos = "table",
+	resetAward = "table",
+	realm = "number",
+	progress = "number",
+	resetLimitTip = "boolean",
 	roundIndex = "number",
-	fleets = "table",
-	expiredTime = "number",
+	lowestHP = "table",
+	treasureCount = "number",
 	activateCount = "number",
-	pressingAwardDic = "table",
+	activateTime = "number",
 	achievements = "table",
-	submarineSupport = "boolean",
+	baseShipIds = "table",
 	collectionProxy = "table",
 	goodDic = "table",
 	achieveEntranceStar = "table",
 	baseCmdIds = "table",
-	resetAward = "table",
+	colorDic = "table",
 	gobalFlag = "table",
 	forceLock = "boolean",
-	resetLimitTip = "boolean",
+	inventoryProxy = "table",
 	atlas = "table",
 	worldBossProxy = "table",
-	progress = "number",
+	staminaMgr = "table",
 	globalBuffDic = "table",
-	lowestHP = "table",
-	treasureCount = "number",
+	taskProxy = "table",
+	autoInfos = "table",
 	defaultFleets = "table",
-	realm = "number",
+	fleets = "table",
 	isAutoSwitch = "boolean",
-	isAutoFight = "boolean",
-	baseShipIds = "table",
-	activateTime = "number"
+	expiredTime = "number",
+	pressingAwardDic = "table",
+	submarineSupport = "boolean"
 }
 slot0.EventUpdateSubmarineSupport = "World.EventUpdateSubmarineSupport"
 slot0.EventSwitchMap = "World.EventSwitchMap"
@@ -62,7 +62,7 @@ slot0.InheritNameList = {
 	end
 }
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0)
 
 	slot0.type = slot1
@@ -70,7 +70,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:InheritReset(slot2)
 end
 
-function slot0.Build(slot0)
+slot0.Build = function(slot0)
 	slot0.atlas = WorldAtlas.New(WorldConst.DefaultAtlas)
 	slot0.realm = 0
 	slot0.fleets = {}
@@ -110,7 +110,7 @@ function slot0.Build(slot0)
 	slot0.baseCmdIds = {}
 end
 
-function slot0.Dispose(slot0, slot1)
+slot0.Dispose = function(slot0, slot1)
 	(slot1 and {
 		realm = slot0.realm,
 		defaultFleets = slot0.defaultFleets,
@@ -138,7 +138,7 @@ function slot0.Dispose(slot0, slot1)
 	return slot2
 end
 
-function slot0.InheritReset(slot0, slot1)
+slot0.InheritReset = function(slot0, slot1)
 	if (slot1 or {}).progress then
 		slot0:UpdateProgress(slot1.progress)
 
@@ -156,15 +156,15 @@ function slot0.InheritReset(slot0, slot1)
 	end
 end
 
-function slot0.UsePortNShop(slot0)
+slot0.UsePortNShop = function(slot0)
 	return slot0:IsReseted() and WorldConst.GetNShopTimeStamp() <= slot0.activateTime
 end
 
-function slot0.IsReseted(slot0)
+slot0.IsReseted = function(slot0)
 	return slot0.activateCount > (slot0:IsActivate() and 1 or 0)
 end
 
-function slot0.IsActivate(slot0)
+slot0.IsActivate = function(slot0)
 	if slot0.type == World.TypeBase then
 		return #slot0.baseShipIds > 0
 	else
@@ -172,39 +172,39 @@ function slot0.IsActivate(slot0)
 	end
 end
 
-function slot0.CheckResetProgress(slot0)
+slot0.CheckResetProgress = function(slot0)
 	return pg.gameset.world_resetting_stage.key_value <= slot0.progress
 end
 
-function slot0.GetResetWaitingTime(slot0)
+slot0.GetResetWaitingTime = function(slot0)
 	return slot0.expiredTime - pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.CheckReset(slot0, slot1)
+slot0.CheckReset = function(slot0, slot1)
 	return slot0:IsActivate() and (slot1 or slot0:CheckResetProgress()) and slot0:GetResetWaitingTime() < 0
 end
 
-function slot0.GetAtlas(slot0)
+slot0.GetAtlas = function(slot0)
 	return slot0.atlas
 end
 
-function slot0.GetEntrance(slot0, slot1)
+slot0.GetEntrance = function(slot0, slot1)
 	return slot0.atlas:GetEntrance(slot1)
 end
 
-function slot0.GetActiveEntrance(slot0)
+slot0.GetActiveEntrance = function(slot0)
 	return slot0.atlas:GetActiveEntrance()
 end
 
-function slot0.GetMap(slot0, slot1)
+slot0.GetMap = function(slot0, slot1)
 	return slot0.atlas:GetMap(slot1)
 end
 
-function slot0.GetActiveMap(slot0)
+slot0.GetActiveMap = function(slot0)
 	return slot0.atlas:GetActiveMap()
 end
 
-function slot0.OnSwitchMap(slot0)
+slot0.OnSwitchMap = function(slot0)
 	slot0:ResetRound()
 
 	if slot0.submarineSupport then
@@ -217,19 +217,19 @@ function slot0.OnSwitchMap(slot0)
 	print("switch 2 map: " .. slot0:GetActiveMap().id .. ", " .. tostring(slot0:GetActiveMap().gid))
 end
 
-function slot0.GetRound(slot0)
+slot0.GetRound = function(slot0)
 	return slot0.roundIndex % 2
 end
 
-function slot0.IncRound(slot0)
+slot0.IncRound = function(slot0)
 	slot0.roundIndex = slot0.roundIndex + 1
 end
 
-function slot0.ResetRound(slot0)
+slot0.ResetRound = function(slot0)
 	slot0.roundIndex = 0
 end
 
-function slot0.UpdateProgress(slot0, slot1)
+slot0.UpdateProgress = function(slot0, slot1)
 	if slot0.progress < slot1 then
 		slot0.progress = slot1
 
@@ -238,73 +238,73 @@ function slot0.UpdateProgress(slot0, slot1)
 	end
 end
 
-function slot0.GetProgress(slot0)
+slot0.GetProgress = function(slot0)
 	return slot0.progress
 end
 
-function slot0.SetRealm(slot0, slot1)
+slot0.SetRealm = function(slot0, slot1)
 	if slot0.realm ~= slot1 then
 		slot0.realm = slot1
 	end
 end
 
-function slot0.GetRealm(slot0)
+slot0.GetRealm = function(slot0)
 	return 1
 end
 
-function slot0.CanCallSubmarineSupport(slot0)
+slot0.CanCallSubmarineSupport = function(slot0)
 	return slot0:GetSubmarineFleet()
 end
 
-function slot0.IsSubmarineSupporting(slot0)
+slot0.IsSubmarineSupporting = function(slot0)
 	return slot0.submarineSupport
 end
 
-function slot0.UpdateSubmarineSupport(slot0, slot1)
+slot0.UpdateSubmarineSupport = function(slot0, slot1)
 	slot0.submarineSupport = slot1
 
 	slot0:DispatchEvent(uv0.EventUpdateSubmarineSupport)
 end
 
-function slot0.GetSubAidFlag(slot0)
+slot0.GetSubAidFlag = function(slot0)
 	return slot0:IsSubmarineSupporting() and slot0:GetSubmarineFleet():GetAmmo() > 0
 end
 
-function slot0.ResetSubmarine(slot0)
+slot0.ResetSubmarine = function(slot0)
 	if slot0:GetSubmarineFleet() then
 		slot1:RepairSubmarine()
 	end
 end
 
-function slot0.SetFleets(slot0, slot1)
+slot0.SetFleets = function(slot0, slot1)
 	slot0.fleets = slot1
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inWorld")
 end
 
-function slot0.GetFleets(slot0)
+slot0.GetFleets = function(slot0)
 	return _.rest(slot0.fleets, 1)
 end
 
-function slot0.GetFleet(slot0, slot1)
+slot0.GetFleet = function(slot0, slot1)
 	return slot1 and _.detect(slot0.fleets, function (slot0)
 		return slot0.id == uv0
 	end) or slot0:GetActiveMap():GetFleet()
 end
 
-function slot0.GetNormalFleets(slot0)
+slot0.GetNormalFleets = function(slot0)
 	return _.filter(slot0.fleets, function (slot0)
 		return slot0:GetFleetType() == FleetType.Normal
 	end)
 end
 
-function slot0.GetSubmarineFleet(slot0)
+slot0.GetSubmarineFleet = function(slot0)
 	return _.detect(slot0.fleets, function (slot0)
 		return slot0:GetFleetType() == FleetType.Submarine
 	end)
 end
 
-function slot0.GetShips(slot0)
+slot0.GetShips = function(slot0)
 	_.each(slot0:GetFleets(), function (slot0)
 		_.each(slot0:GetShips(true), function (slot0)
 			table.insert(uv0, slot0)
@@ -314,7 +314,7 @@ function slot0.GetShips(slot0)
 	return {}
 end
 
-function slot0.GetShipVOs(slot0)
+slot0.GetShipVOs = function(slot0)
 	if slot0.type == World.TypeBase then
 		return underscore.map(slot0.baseShipIds, function (slot0)
 			return WorldConst.FetchShipVO(slot0)
@@ -326,37 +326,37 @@ function slot0.GetShipVOs(slot0)
 	end
 end
 
-function slot0.GetShip(slot0, slot1)
+slot0.GetShip = function(slot0, slot1)
 	return _.detect(slot0:GetShips(), function (slot0)
 		return slot0.id == uv0
 	end)
 end
 
-function slot0.GetShipVO(slot0, slot1)
+slot0.GetShipVO = function(slot0, slot1)
 	return slot0:GetShip(slot1) and WorldConst.FetchShipVO(slot2.id)
 end
 
-function slot0.SetDefaultFleets(slot0, slot1)
+slot0.SetDefaultFleets = function(slot0, slot1)
 	slot0.defaultFleets = slot1
 end
 
-function slot0.GetDefaultFleets(slot0)
+slot0.GetDefaultFleets = function(slot0)
 	return underscore.rest(slot0.defaultFleets, 1)
 end
 
-function slot0.TransDefaultFleets(slot0)
+slot0.TransDefaultFleets = function(slot0)
 	slot0.defaultFleets = underscore.map(slot0.fleets, function (slot0)
 		return slot0:Trans(WorldBaseFleet)
 	end)
 end
 
-function slot0.GetLevel(slot0)
+slot0.GetLevel = function(slot0)
 	return _(slot0:GetFleets()):chain():map(function (slot0)
 		return slot0:GetLevel()
 	end):max():value()
 end
 
-function slot0.GetWorldPower(slot0)
+slot0.GetWorldPower = function(slot0)
 	underscore.each(slot0.fleets, function (slot0)
 		uv0 = uv0 + slot0:GetGearScoreSum()
 	end)
@@ -364,7 +364,7 @@ function slot0.GetWorldPower(slot0)
 	return math.floor(0 * (1 + slot0:GetWorldMapBuffAverageLevel() / pg.gameset.world_strength_correct.key_value))
 end
 
-function slot0.GetWorldRank(slot0)
+slot0.GetWorldRank = function(slot0)
 	slot1 = 0
 	slot3 = pg.gameset.world_level_correct.description
 
@@ -392,23 +392,23 @@ function slot0.GetWorldRank(slot0)
 	return slot5
 end
 
-function slot0.GetBossProxy(slot0)
+slot0.GetBossProxy = function(slot0)
 	return slot0.worldBossProxy
 end
 
-function slot0.GetTaskProxy(slot0)
+slot0.GetTaskProxy = function(slot0)
 	return slot0.taskProxy
 end
 
-function slot0.GetInventoryProxy(slot0)
+slot0.GetInventoryProxy = function(slot0)
 	return slot0.inventoryProxy
 end
 
-function slot0.GetCollectionProxy(slot0)
+slot0.GetCollectionProxy = function(slot0)
 	return slot0.collectionProxy
 end
 
-function slot0.VerifyFormation(slot0)
+slot0.VerifyFormation = function(slot0)
 	slot1 = {}
 
 	_.each(slot0:GetShips(), function (slot0)
@@ -418,7 +418,7 @@ function slot0.VerifyFormation(slot0)
 	end)
 end
 
-function slot0.CalcRepairCost(slot0, slot1)
+slot0.CalcRepairCost = function(slot0, slot1)
 	slot3 = WorldConst.FetchShipVO(slot1.id).level - slot0:GetLevel()
 
 	if slot1:IsBroken() then
@@ -438,7 +438,7 @@ function slot0.CalcRepairCost(slot0, slot1)
 	return 0
 end
 
-function slot0.GetMoveRange(slot0, slot1)
+slot0.GetMoveRange = function(slot0, slot1)
 	if slot0:GetActiveMap():CanLongMove(slot1) then
 		return slot2:GetLongMoveRange(slot1)
 	else
@@ -446,11 +446,11 @@ function slot0.GetMoveRange(slot0, slot1)
 	end
 end
 
-function slot0.IsRookie(slot0)
+slot0.IsRookie = function(slot0)
 	return slot0.activateCount == 0 and slot0.progress <= 0
 end
 
-function slot0.EntranceToReplacementMapList(slot0, slot1)
+slot0.EntranceToReplacementMapList = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1.config.stage_chapter) do
@@ -500,7 +500,7 @@ function slot0.EntranceToReplacementMapList(slot0, slot1)
 	end)
 end
 
-function slot0.ReplacementMapType(slot0, slot1)
+slot0.ReplacementMapType = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.config.stage_chapter) do
 		if slot6[3] == slot1.id then
 			return "stage_chapter", i18n("area_zhuxian")
@@ -540,11 +540,11 @@ function slot0.ReplacementMapType(slot0, slot1)
 	return "test_chapter", i18n("area_unkown")
 end
 
-function slot0.FindTreasureEntrance(slot0, slot1)
+slot0.FindTreasureEntrance = function(slot0, slot1)
 	return underscore.values(slot0.atlas:GetTreasureDic(slot1))[1]
 end
 
-function slot0.TreasureMap2ItemId(slot0, slot1, slot2)
+slot0.TreasureMap2ItemId = function(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(slot0:GetEntrance(slot2).config.teasure_chapter) do
 		if slot8[2] == slot1 then
 			return slot8[1]
@@ -552,20 +552,20 @@ function slot0.TreasureMap2ItemId(slot0, slot1, slot2)
 	end
 end
 
-function slot0.CheckFleetMovable(slot0)
+slot0.CheckFleetMovable = function(slot0)
 	return slot0:GetRound() == WorldConst.RoundPlayer and slot1:CheckFleetMovable(slot0:GetActiveMap():GetFleet()) and not slot1:CheckInteractive()
 end
 
-function slot0.SetAchieveSuccess(slot0, slot1, slot2)
+slot0.SetAchieveSuccess = function(slot0, slot1, slot2)
 	slot0.achieveEntranceStar[slot1] = slot0.achieveEntranceStar[slot1] or {}
 	slot0.achieveEntranceStar[slot1][slot2] = true
 end
 
-function slot0.GetMapAchieveStarDic(slot0, slot1)
+slot0.GetMapAchieveStarDic = function(slot0, slot1)
 	return slot0.achieveEntranceStar[slot1] or {}
 end
 
-function slot0.GetAchievement(slot0, slot1)
+slot0.GetAchievement = function(slot0, slot1)
 	if not slot0.achievements[slot1] then
 		slot0.achievements[slot1] = WorldAchievement.New()
 
@@ -575,7 +575,7 @@ function slot0.GetAchievement(slot0, slot1)
 	return slot0.achievements[slot1]
 end
 
-function slot0.GetAchievements(slot0, slot1)
+slot0.GetAchievements = function(slot0, slot1)
 	_.each(slot1.config.normal_target, function (slot0)
 		table.insert(uv0, uv1:GetAchievement(slot0))
 	end)
@@ -586,11 +586,11 @@ function slot0.GetAchievements(slot0, slot1)
 	return {}
 end
 
-function slot0.IsNormalAchievementAchieved(slot0, slot1)
+slot0.IsNormalAchievementAchieved = function(slot0, slot1)
 	return slot0:CountAchievements(slot1) >= #slot1.config.normal_target
 end
 
-function slot0.AnyUnachievedAchievement(slot0, slot1)
+slot0.AnyUnachievedAchievement = function(slot0, slot1)
 	slot2 = slot0:GetMapAchieveStarDic(slot1.id)
 
 	if _.detect(slot1:GetAchievementAwards(), function (slot0)
@@ -602,7 +602,7 @@ function slot0.AnyUnachievedAchievement(slot0, slot1)
 	end
 end
 
-function slot0.GetFinishAchievements(slot0, slot1)
+slot0.GetFinishAchievements = function(slot0, slot1)
 	slot1 = slot1 or slot0.atlas:GetAchEntranceList()
 	slot2 = {}
 	slot3 = {}
@@ -630,7 +630,7 @@ function slot0.GetFinishAchievements(slot0, slot1)
 	return slot2, slot3
 end
 
-function slot0.CountAchievements(slot0, slot1)
+slot0.CountAchievements = function(slot0, slot1)
 	slot2 = 0
 	slot3 = 0
 	slot4 = 0
@@ -653,7 +653,7 @@ function slot0.CountAchievements(slot0, slot1)
 	return slot2, slot3, slot4
 end
 
-function slot1()
+slot1 = function()
 	return {
 		[TeamType.Main] = {},
 		[TeamType.Vanguard] = {},
@@ -662,7 +662,7 @@ function slot1()
 	}
 end
 
-function slot0.BuildFormationIds(slot0)
+slot0.BuildFormationIds = function(slot0)
 	slot1 = {
 		[FleetType.Normal] = {},
 		[FleetType.Submarine] = {}
@@ -731,7 +731,7 @@ function slot0.BuildFormationIds(slot0)
 	return slot4 and WorldConst.FleetExpansion or WorldConst.FleetRedeploy, slot1, slot6
 end
 
-function slot0.FormationIds2NetIds(slot0, slot1)
+slot0.FormationIds2NetIds = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs({
@@ -765,7 +765,7 @@ function slot0.FormationIds2NetIds(slot0, slot1)
 	return slot2
 end
 
-function slot0.CompareRedeploy(slot0, slot1)
+slot0.CompareRedeploy = function(slot0, slot1)
 	slot2 = {
 		TeamType.Main,
 		TeamType.Vanguard,
@@ -820,7 +820,7 @@ function slot0.CompareRedeploy(slot0, slot1)
 	return false
 end
 
-function slot0.IsSystemOpen(slot0, slot1)
+slot0.IsSystemOpen = function(slot0, slot1)
 	slot2 = slot0:GetRealm()
 
 	for slot6, slot7 in ipairs(pg.world_stage_template.all) do
@@ -832,19 +832,19 @@ function slot0.IsSystemOpen(slot0, slot1)
 	return true
 end
 
-function slot0.CalcCDTimeCost(slot0, slot1, slot2)
+slot0.CalcCDTimeCost = function(slot0, slot1, slot2)
 	return math.floor(slot0[1] * math.max(slot0[2] - math.max(pg.TimeMgr.GetInstance():GetServerTime() - slot1, 0), 0) / slot0[2] * math.max(10000 - slot2, 0) / 10000)
 end
 
-function slot0.GetReqCDTime(slot0, slot1)
+slot0.GetReqCDTime = function(slot0, slot1)
 	return slot0.cdTimeList[slot1] or 0
 end
 
-function slot0.SetReqCDTime(slot0, slot1, slot2)
+slot0.SetReqCDTime = function(slot0, slot1, slot2)
 	slot0.cdTimeList[slot1] = slot2
 end
 
-function slot0.InitWorldShopGoods(slot0)
+slot0.InitWorldShopGoods = function(slot0)
 	slot0.goodDic = {}
 
 	for slot4, slot5 in ipairs({
@@ -857,7 +857,7 @@ function slot0.InitWorldShopGoods(slot0)
 	end
 end
 
-function slot0.UpdateWorldShopGoods(slot0, slot1)
+slot0.UpdateWorldShopGoods = function(slot0, slot1)
 	_.each(slot1, function (slot0)
 		assert(uv0.goodDic[slot0.goods_id], "without this good in id " .. slot0.goods_id)
 
@@ -866,11 +866,11 @@ function slot0.UpdateWorldShopGoods(slot0, slot1)
 	slot0:DispatchEvent(uv0.EventUpdateShopGoods, slot0.goodDic)
 end
 
-function slot0.GetWorldShopGoodsDictionary(slot0)
+slot0.GetWorldShopGoodsDictionary = function(slot0)
 	return slot0.goodDic
 end
 
-function slot0.InitWorldColorDictionary(slot0)
+slot0.InitWorldColorDictionary = function(slot0)
 	slot0.colorDic = {}
 
 	_.each(pg.world_chapter_colormask.all, function (slot0)
@@ -879,11 +879,11 @@ function slot0.InitWorldColorDictionary(slot0)
 	end)
 end
 
-function slot0.ColorToEntrance(slot0, slot1)
+slot0.ColorToEntrance = function(slot0, slot1)
 	return slot0.colorDic[slot1:ToHex()] and slot0:GetEntrance(slot0.colorDic[slot1:ToHex()])
 end
 
-function slot0.GetGlobalBuff(slot0, slot1)
+slot0.GetGlobalBuff = function(slot0, slot1)
 	if not slot0.globalBuffDic[slot1] then
 		slot2 = WorldBuff.New()
 
@@ -898,13 +898,13 @@ function slot0.GetGlobalBuff(slot0, slot1)
 	return slot0.globalBuffDic[slot1]
 end
 
-function slot0.AddGlobalBuff(slot0, slot1, slot2)
+slot0.AddGlobalBuff = function(slot0, slot1, slot2)
 	assert(slot1 and slot2)
 	slot0:GetGlobalBuff(slot1):AddFloor(slot2)
 	slot0:DispatchEvent(uv0.EventUpdateGlobalBuff)
 end
 
-function slot0.RemoveBuff(slot0, slot1, slot2)
+slot0.RemoveBuff = function(slot0, slot1, slot2)
 	assert(slot1)
 
 	slot3 = slot0:GetGlobalBuff(slot1)
@@ -918,13 +918,13 @@ function slot0.RemoveBuff(slot0, slot1, slot2)
 	slot0:DispatchEvent(uv0.EventUpdateGlobalBuff)
 end
 
-function slot0.GetWorldMapBuffLevel(slot0)
+slot0.GetWorldMapBuffLevel = function(slot0)
 	return _.map(pg.gameset.world_mapbuff_list.description, function (slot0)
 		return uv0:GetGlobalBuff(slot0).floor
 	end)
 end
 
-function slot0.GetWorldMapBuffAverageLevel(slot0)
+slot0.GetWorldMapBuffAverageLevel = function(slot0)
 	slot1 = slot0:GetWorldMapBuffLevel()
 
 	underscore.each(slot1, function (slot0)
@@ -934,17 +934,17 @@ function slot0.GetWorldMapBuffAverageLevel(slot0)
 	return 0 / #slot1
 end
 
-function slot0.GetWorldMapBuffs(slot0)
+slot0.GetWorldMapBuffs = function(slot0)
 	return _.map(pg.gameset.world_mapbuff_list.description, function (slot0)
 		return uv0:GetGlobalBuff(slot0)
 	end)
 end
 
-function slot0.GetWorldMapDifficultyBuffLevel(slot0)
+slot0.GetWorldMapDifficultyBuffLevel = function(slot0)
 	return pg.gameset.world_difficult_value.description[slot0:GetActiveMap().config.difficulty]
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2, slot3)
+slot0.OnUpdateItem = function(slot0, slot1, slot2, slot3)
 	if slot3:getWorldItemType() == WorldItem.UsageWorldMap and slot0.atlas then
 		slot0.atlas:UpdateTreasure(slot3.id)
 	end
@@ -952,31 +952,31 @@ function slot0.OnUpdateItem(slot0, slot1, slot2, slot3)
 	slot0.taskProxy:doUpdateTaskByItem(slot3)
 end
 
-function slot0.OnUpdateTask(slot0, slot1, slot2, slot3)
+slot0.OnUpdateTask = function(slot0, slot1, slot2, slot3)
 	if slot0.atlas then
 		slot0.atlas:UpdateTask(slot3)
 	end
 end
 
-function slot0.GetPressingAward(slot0, slot1)
+slot0.GetPressingAward = function(slot0, slot1)
 	return slot0.pressingAwardDic[slot1]
 end
 
-function slot0.FlagMapPressingAward(slot0, slot1)
+slot0.FlagMapPressingAward = function(slot0, slot1)
 	if slot0:GetPressingAward(slot1) then
 		slot2.flag = false
 	end
 end
 
-function slot0.IsMapPressingAwardFlag(slot0, slot1)
+slot0.IsMapPressingAwardFlag = function(slot0, slot1)
 	return slot0:GetPressingAward(slot1) and slot2.flag == false
 end
 
-function slot0.CheckAreaUnlock(slot0, slot1)
+slot0.CheckAreaUnlock = function(slot0, slot1)
 	return pg.world_regions_data[slot1].open_stage[1] <= slot0.progress
 end
 
-function slot0.CheckTaskLockMap(slot0)
+slot0.CheckTaskLockMap = function(slot0)
 	slot1 = slot0.taskProxy
 	slot2 = slot0:GetActiveMap().gid
 
@@ -987,7 +987,7 @@ function slot0.CheckTaskLockMap(slot0)
 	end)
 end
 
-function slot0.CheckResetAward(slot0, slot1)
+slot0.CheckResetAward = function(slot0, slot1)
 	slot0.resetAward = slot1
 
 	if getProxy(PlayerProxy):getData():getResource(WorldConst.ResourceID) == pg.gameset.world_resource_max.key_value then
@@ -995,12 +995,12 @@ function slot0.CheckResetAward(slot0, slot1)
 	end
 end
 
-function slot0.ClearResetAward(slot0)
+slot0.ClearResetAward = function(slot0)
 	slot0.resetAward = nil
 	slot0.resetLimitTip = nil
 end
 
-function slot0.GetTargetMapPressingCount(slot0, slot1)
+slot0.GetTargetMapPressingCount = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot1) do
@@ -1012,17 +1012,17 @@ function slot0.GetTargetMapPressingCount(slot0, slot1)
 	return slot2
 end
 
-function slot0.ClearAllFleetDefeatEnemies(slot0)
+slot0.ClearAllFleetDefeatEnemies = function(slot0)
 	underscore.each(slot0:GetFleets(), function (slot0)
 		slot0:ClearDefeatEnemies()
 	end)
 end
 
-function slot0.GetAreaEntranceIds(slot0, slot1)
+slot0.GetAreaEntranceIds = function(slot0, slot1)
 	return slot0.atlas.areaEntranceList[slot1]
 end
 
-function slot0.CalcOrderCost(slot0, slot1)
+slot0.CalcOrderCost = function(slot0, slot1)
 	slot2 = 0
 
 	if slot1 == WorldConst.OpReqRedeploy then
@@ -1044,7 +1044,7 @@ function slot0.CalcOrderCost(slot0, slot1)
 	end
 end
 
-function slot0.GetDisplayPressingCount(slot0)
+slot0.GetDisplayPressingCount = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.atlas.pressingMapList) do
@@ -1056,7 +1056,7 @@ function slot0.GetDisplayPressingCount(slot0)
 	return slot1
 end
 
-function slot0.CheckCommanderInFleet(slot0, slot1)
+slot0.CheckCommanderInFleet = function(slot0, slot1)
 	if slot0.type == World.TypeBase then
 		return underscore.any(slot0.baseCmdIds, function (slot0)
 			return slot0 == uv0
@@ -1072,11 +1072,11 @@ function slot0.CheckCommanderInFleet(slot0, slot1)
 	end
 end
 
-function slot0.CheckSkipBattle(slot0)
+slot0.CheckSkipBattle = function(slot0)
 	return getProxy(PlayerProxy):getRawData():CheckIdentityFlag() and world_skip_battle == 1
 end
 
-function slot0.IsMapVisioned(slot0, slot1)
+slot0.IsMapVisioned = function(slot0, slot1)
 	if slot0:GetActiveMap().id == slot1 then
 		slot4, slot5 = uv0.ReplacementMapType(slot0:GetActiveEntrance(), slot2)
 
@@ -1090,13 +1090,13 @@ function slot0.IsMapVisioned(slot0, slot1)
 	return slot0:IsMapPressingAwardFlag(slot1)
 end
 
-function slot0.HasAutoFightDrops(slot0)
+slot0.HasAutoFightDrops = function(slot0)
 	return #slot0.autoInfos.drops > 0 or underscore.any(slot1.salvage, function (slot0)
 		return #slot0 > 0
 	end) or #slot1.buffs > 0 or #slot1.message > 0
 end
 
-function slot0.AddAutoInfo(slot0, slot1, slot2)
+slot0.AddAutoInfo = function(slot0, slot1, slot2)
 	if slot1 == "drops" then
 		slot0.autoInfos.drops = table.mergeArray(slot0.autoInfos.drops, slot2)
 	elseif slot1 == "salvage" then
@@ -1112,7 +1112,7 @@ function slot0.AddAutoInfo(slot0, slot1, slot2)
 	end
 end
 
-function slot0.InitAutoInfos(slot0)
+slot0.InitAutoInfos = function(slot0)
 	slot0.autoInfos = {
 		drops = {},
 		salvage = {
@@ -1125,7 +1125,7 @@ function slot0.InitAutoInfos(slot0)
 	}
 end
 
-function slot0.TriggerAutoFight(slot0, slot1)
+slot0.TriggerAutoFight = function(slot0, slot1)
 	if tobool(slot1 and slot0:GetActiveMap():CanAutoFight()) ~= tobool(slot0.isAutoFight) then
 		slot0.isAutoFight = slot1
 
@@ -1154,7 +1154,7 @@ function slot0.TriggerAutoFight(slot0, slot1)
 	end
 end
 
-function slot0.TriggerAutoSwitch(slot0, slot1)
+slot0.TriggerAutoSwitch = function(slot0, slot1)
 	if tobool(slot1) ~= tobool(slot0.isAutoSwitch) then
 		slot0.isAutoSwitch = slot1
 
@@ -1162,11 +1162,11 @@ function slot0.TriggerAutoSwitch(slot0, slot1)
 	end
 end
 
-function slot0.GetHistoryLowestHP(slot0, slot1)
+slot0.GetHistoryLowestHP = function(slot0, slot1)
 	return slot0.lowestHP[slot1] or 10000
 end
 
-function slot0.SetHistoryLowestHP(slot0, slot1, slot2)
+slot0.SetHistoryLowestHP = function(slot0, slot1, slot2)
 	slot0.lowestHP[slot1] = slot2
 end
 
@@ -1174,11 +1174,11 @@ slot2 = {
 	treasure_flag = 1
 }
 
-function slot0.SetGlobalFlag(slot0, slot1, slot2)
+slot0.SetGlobalFlag = function(slot0, slot1, slot2)
 	slot0.gobalFlag[uv0[slot1]] = slot2
 end
 
-function slot0.GetGobalFlag(slot0, slot1)
+slot0.GetGobalFlag = function(slot0, slot1)
 	return slot0.gobalFlag[uv0[slot1]]
 end
 

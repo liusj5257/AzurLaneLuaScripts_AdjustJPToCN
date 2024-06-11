@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-声望-主炮额外一轮攻击3",
 	time = 0,
+	name = "测试-声望-主炮额外一轮攻击3",
+	init_effect = "",
 	picture = "",
 	desc = "触发:主炮额外一轮攻击3",
 	stack = 1,

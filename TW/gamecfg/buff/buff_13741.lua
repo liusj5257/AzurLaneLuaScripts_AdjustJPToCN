@@ -29,9 +29,9 @@ return {
 	{
 		time = 15
 	},
-	init_effect = "",
-	name = "",
 	time = 5,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -47,9 +47,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				count = 8,
-				effect = "shield06",
 				damage = 50,
+				effect = "shield06",
+				count = 8,
 				attack_attribute = 1,
 				cld_list = {
 					{
@@ -83,9 +83,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				count = 8,
-				effect = "shield06",
 				damage = 50,
+				effect = "shield06",
+				count = 8,
 				attack_attribute = 1,
 				cld_list = {
 					{
@@ -119,9 +119,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				count = 8,
-				effect = "shield06",
 				damage = 50,
+				effect = "shield06",
+				count = 8,
 				attack_attribute = 1,
 				cld_list = {
 					{
@@ -155,9 +155,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 8,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -191,9 +191,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 8,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

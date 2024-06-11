@@ -1,20 +1,20 @@
 slot0 = class("HololiveMedalCollectionView", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "HololiveMedalCollectionUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:InitData()
 	slot0:FindUI()
 	slot0:AddListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.InitData(slot0)
+slot0.InitData = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.actMedal = getProxy(ActivityProxy):getActivityById(ActivityConst.HOLOLIVE_MEDAL_COLLECTION)
 	slot0.allIDList = slot0.actMedal:getConfig("config_data")
@@ -46,7 +46,7 @@ slot2 = {
 	5
 }
 
-function slot0.FindUI(slot0)
+slot0.FindUI = function(slot0)
 	slot0.bg = slot0:findTF("bg")
 	slot0.top = slot0:findTF("top")
 	slot0.backBtn = slot0:findTF("back", slot0.top)
@@ -74,7 +74,7 @@ function slot0.FindUI(slot0)
 	slot0.materialGray = LoadAny("ui/HololiveMedalCollectionUI_atlas", "gray.mat")
 end
 
-function slot0.AddListener(slot0)
+slot0.AddListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
@@ -95,7 +95,7 @@ function slot0.AddListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.DataSetting(slot0)
+slot0.DataSetting = function(slot0)
 	if #slot0.activatableIDList > 0 then
 		slot1 = 1
 		slot2 = nil
@@ -121,7 +121,7 @@ function slot0.DataSetting(slot0)
 	end
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot0:InitData()
 
 	if slot0:DataSetting() then
@@ -184,7 +184,7 @@ function slot0.UpdateView(slot0)
 	setActive(slot0.medalGot, slot2)
 end
 
-function slot0.GetFinal(slot0)
+slot0.GetFinal = function(slot0)
 	if #slot0.activeIDList == #slot0.allIDList and slot0.actMedal.data1 ~= 1 then
 		pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
 			cmd = 1,
@@ -193,7 +193,7 @@ function slot0.GetFinal(slot0)
 	end
 end
 
-function slot0.PlayStory(slot0, slot1)
+slot0.PlayStory = function(slot0, slot1)
 	if slot0.actMedal:getConfig("config_client").story then
 		pg.NewStoryMgr.GetInstance():Play(slot2, slot1)
 	else
@@ -201,7 +201,7 @@ function slot0.PlayStory(slot0, slot1)
 	end
 end
 
-function slot0.IsTip()
+slot0.IsTip = function()
 	slot1 = getProxy(TaskProxy)
 
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.HOLOLIVE_MEDAL_COLLECTION) and not slot2:isEnd() then

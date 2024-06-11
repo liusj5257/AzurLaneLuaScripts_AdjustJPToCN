@@ -1,10 +1,10 @@
 slot0 = class("CommanderCatTalentPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderCatTalentui"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.resetFrame = slot0:findTF("frame/point/reset_frame")
 	slot0.resetTimeTF = slot0:findTF("frame/point/reset_frame/reset_time")
 	slot0.resetTimeTxt = slot0:findTF("frame/point/reset_frame/reset_time/Text"):GetComponent(typeof(Text))
@@ -18,7 +18,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/point/Text"), i18n("commander_level_up_tip"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:RegisterEvent()
 	onButton(slot0, slot0.resetTimeBtn, function ()
 		if uv0.commanderVO:IsSameTalent() then
@@ -54,7 +54,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	slot0:bind(CommanderCatScene.EVENT_FOLD, function (slot0, slot1)
 		if slot1 then
 			LeanTween.moveX(rtf(uv0._tf), 1000, 0.5)
@@ -67,12 +67,12 @@ function slot0.RegisterEvent(slot0)
 	end)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	slot0:Flush(slot1)
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0.commanderVO = slot1
 	slot0.inChapter = CommanderCatUtil.CommanderInChapter(slot0.commanderVO)
 
@@ -83,7 +83,7 @@ function slot0.Flush(slot0, slot1)
 	slot0:UpdateTalents()
 end
 
-function slot0.UpdateTalents(slot0)
+slot0.UpdateTalents = function(slot0)
 	slot2 = slot0.commanderVO:GetDisplayTalents()
 
 	slot0.uilist:make(function (slot0, slot1, slot2)
@@ -100,7 +100,7 @@ function slot0.UpdateTalents(slot0)
 	slot0.uilist:align(CommanderConst.MAX_TELENT_COUNT)
 end
 
-function slot0.UpdateTalentCard(slot0, slot1, slot2)
+slot0.UpdateTalentCard = function(slot0, slot1, slot2)
 	slot3 = slot1:Find("unlock")
 	slot4 = slot1:Find("lock")
 
@@ -124,7 +124,7 @@ function slot0.UpdateTalentCard(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateTimer(slot0)
+slot0.UpdateTimer = function(slot0)
 	slot1 = slot0.commanderVO
 	slot4 = slot1:getPt() > 0 or pg.TimeMgr.GetInstance():GetServerTime() < slot1:GetNextResetAbilityTime()
 
@@ -133,7 +133,7 @@ function slot0.UpdateTimer(slot0)
 	slot0:AddTimer()
 end
 
-function slot0.AddTimer(slot0)
+slot0.AddTimer = function(slot0)
 	if slot0.commanderVO:GetNextResetAbilityTime() <= pg.TimeMgr.GetInstance():GetServerTime() then
 		slot0.resetTimeTxt.text = i18n("commander_reset_talent")
 
@@ -158,15 +158,15 @@ function slot0.AddTimer(slot0)
 	slot0.timer.func()
 end
 
-function slot0.UpdatePoint(slot0)
+slot0.UpdatePoint = function(slot0)
 	slot0.pointTxt.text = slot0.commanderVO:getTalentPoint()
 end
 
-function slot0.UpdateStyle(slot0)
+slot0.UpdateStyle = function(slot0)
 	setActive(slot0.resetFrame, not slot0.commanderVO:IsRegularTalent())
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -174,7 +174,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.CanBack(slot0)
+slot0.CanBack = function(slot0)
 	if slot0.usagePanel and slot0.usagePanel:GetLoaded() and slot0.usagePanel.CanBack and not slot0.usagePanel:CanBack() then
 		return false
 	end
@@ -194,7 +194,7 @@ function slot0.CanBack(slot0)
 	return true
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:RemoveTimer()
 
 	if slot0.usagePanel then

@@ -2,16 +2,16 @@ return {
 	uiEffect = "",
 	name = "喵喵治愈",
 	cd = 0,
-	painting = 0,
-	id = 6170,
 	picture = "0",
 	aniEffect = "",
 	desc = "喵喵治愈",
+	painting = 0,
+	id = 6170,
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetSelf",
 				"TargetShipTag"

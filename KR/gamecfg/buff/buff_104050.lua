@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "FutureBase",
 	time = 0,
-	color = "red",
+	name = "FutureBase",
+	init_effect = "",
+	id = 104050,
 	picture = "",
 	desc = "FutureBase",
 	stack = 1,
-	id = 104050,
+	color = "red",
 	icon = 104050,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
+				target = "TargetSelf",
 				time = 30,
-				target = "TargetSelf",
 				skill_id = 104050
 			}
 		},
@@ -39,8 +39,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
+				target = "TargetSelf",
 				time = 45,
-				target = "TargetSelf",
 				skill_id = 104050
 			}
 		},
@@ -51,8 +51,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 60,
 				target = "TargetSelf",
+				time = 60,
 				skill_id = 104050
 			}
 		}

@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -72,9 +72,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16602003,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16602003,
 							corrdinate = {
 								-5,
 								0,
@@ -88,9 +88,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16602002,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16602002,
 							corrdinate = {
 								0,
 								0,
@@ -104,9 +104,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16602003,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16602003,
 							corrdinate = {
 								-5,
 								0,
@@ -132,11 +132,11 @@ return {
 					spawn = {
 						{
 							deadFX = "idol_bomb_stg",
-							reinforceDelay = 6,
-							score = 0,
 							monsterTemplateID = 16602102,
+							score = 0,
 							delay = 0,
 							moveCast = true,
+							reinforceDelay = 6,
 							corrdinate = {
 								0,
 								0,
@@ -148,9 +148,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16602003,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16602003,
 							corrdinate = {
 								3,
 								0,
@@ -164,9 +164,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16602001,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16602001,
 							corrdinate = {
 								8,
 								0,
@@ -180,9 +180,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16602003,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16602003,
 							corrdinate = {
 								3,
 								0,
@@ -208,11 +208,11 @@ return {
 					spawn = {
 						{
 							deadFX = "idol_bomb_stg",
-							reinforceDelay = 6,
-							score = 0,
 							monsterTemplateID = 16602103,
+							score = 0,
 							delay = 0,
 							moveCast = true,
+							reinforceDelay = 6,
 							corrdinate = {
 								0,
 								0,
@@ -224,9 +224,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16602002,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16602002,
 							corrdinate = {
 								0,
 								0,
@@ -240,9 +240,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16602003,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16602003,
 							corrdinate = {
 								0,
 								0,
@@ -256,9 +256,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16602002,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16602002,
 							corrdinate = {
 								0,
 								0,
@@ -272,9 +272,9 @@ return {
 						{
 							deadFX = "idol_bomb_stg",
 							score = 0,
-							monsterTemplateID = 16602003,
 							delay = 0,
 							moveCast = true,
+							monsterTemplateID = 16602003,
 							corrdinate = {
 								0,
 								0,

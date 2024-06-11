@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "随机外观",
 	cd = 0,
+	picture = "0",
+	desc = "随机外观",
 	painting = 0,
 	id = 6397,
-	picture = "0",
 	castCV = "",
-	desc = "随机外观",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetSelf"
 			},

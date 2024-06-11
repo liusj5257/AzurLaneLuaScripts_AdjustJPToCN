@@ -1,15 +1,15 @@
 return {
-	id = "W1128",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1128",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "My scanning mode can be used to locate hidden materials out at sea.",
 			typewriter = {
 				speed = 0.05,

@@ -1,15 +1,15 @@
 return {
-	id = "LUCK49907",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK49907",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 499070,
 			dir = 1,
+			actor = 499070,
 			say = "なぁんだ。結局わたしがいいの？やっぱりわたしなしじゃ何もできないのね～",
 			painting = {
 				alpha = 0.3,
@@ -24,8 +24,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 499070,
 			dir = 1,
+			actor = 499070,
 			say = "わたしがお願いしたから…ふん！そんなの知らないわよ！決めたのはあんたでしょ？",
 			painting = {
 				alpha = 0.3,
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 499070,
 			dir = 1,
+			actor = 499070,
 			say = "ほら、さっさとあんたはわたしのものだって認めなさい！でないと好きで手伝ってやらないからね！",
 			painting = {
 				alpha = 0.3,

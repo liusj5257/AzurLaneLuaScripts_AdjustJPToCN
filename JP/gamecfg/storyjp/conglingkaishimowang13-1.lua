@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
-			say = "黒雲のように空を覆っていた魔物の大群が、スコールのような勢いで急降下し始めた。",
 			bgm = "battle-boss-camelot",
+			say = "黒雲のように空を覆っていた魔物の大群が、スコールのような勢いで急降下し始めた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			say = "剣と魔法、機械と鎧が絡み合い、ぶつかり合う。",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 3,
 					name = "jiulaimu_quzhu",
+					time = 3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -60,9 +60,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "jiulaimu_qingxun",
 					time = 3,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -79,9 +79,9 @@ return {
 					}
 				},
 				{
-					delay = 1,
 					name = "jiulaimu_hangmu",
 					time = 3,
+					delay = 1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -98,9 +98,9 @@ return {
 					}
 				},
 				{
-					delay = 1.8,
 					name = "jiulaimu_zhanlie",
 					time = 3,
+					delay = 1.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			say = "一行が駆けつけた時、長城の上は既に混沌とした戦場と化していた。",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 3,
 					name = "jiulaimu_qingxun",
+					time = 3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -147,9 +147,9 @@ return {
 					}
 				},
 				{
-					delay = 0.3,
 					name = "jiulaimu_qingxun",
 					time = 3,
+					delay = 0.3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -166,9 +166,9 @@ return {
 					}
 				},
 				{
-					delay = 0.8,
 					name = "jiulaimu_quzhu",
 					time = 3,
+					delay = 0.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -185,9 +185,9 @@ return {
 					}
 				},
 				{
-					delay = 1.6,
 					name = "jiulaimu_hangmu",
 					time = 3,
+					delay = 1.6,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -204,9 +204,9 @@ return {
 					}
 				},
 				{
-					delay = 0.8,
 					name = "jiulaimu_zhanlie",
 					time = 3,
+					delay = 0.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -243,11 +243,11 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "王国軍ガードナイト",
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
 			say = "これは厳しい戦いになりますね……",
 			painting = {
@@ -260,11 +260,11 @@ return {
 			}
 		},
 		{
-			actor = 901130,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "王国軍ガードナイト",
 			dir = 1,
+			actor = 901130,
 			nameColor = "#A9F548FF",
 			say = "王国軍の守護騎士は決して屈さぬ！",
 			painting = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 903020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "王国軍バナレットナイト",
 			dir = 1,
+			actor = 903020,
 			nameColor = "#A9F548FF",
 			say = "陣を守れ！魔物を一匹たりとも通すな！",
 			painting = {
@@ -312,18 +312,18 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "renqitoupiao_daoguang",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_545",
 			factiontag = "王国軍バナレットナイト",
 			dir = 1,
+			bgName = "star_level_bg_545",
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "すまない。遅くなった！",
@@ -336,17 +336,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -498,11 +498,11 @@ return {
 			}
 		},
 		{
-			actor = 903020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "王国軍バナレットナイト",
 			dir = 1,
+			actor = 903020,
 			nameColor = "#A9F548FF",
 			say = "長城を守るのは、領内の人々を魔王軍の脅威から防ぐためでしょ？",
 			painting = {
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "王国軍バナレットナイト",
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "村の問題は解決したし、今度はこっちの問題を解決する番",
 			painting = {
@@ -622,11 +622,11 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "王国軍バナレットナイト",
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "ドラゴンロード……ふん、ちょうどいい",
 			painting = {
@@ -659,9 +659,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_545",
 			factiontag = "ドラゴンロード",
 			dir = 1,
+			bgName = "star_level_bg_545",
 			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "にゃーーーはっはっはっは☆",
@@ -674,17 +674,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -836,11 +836,11 @@ return {
 			}
 		},
 		{
-			actor = 403022,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "ドラゴンロード",
 			dir = 1,
+			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "にゃははは☆王国軍は冒険者まで駆り出して長城の守りにつかせるの？",
 			painting = {
@@ -853,8 +853,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -943,11 +943,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "了解！そろそろこの勇者の剣を鞘から抜く時間だ！",

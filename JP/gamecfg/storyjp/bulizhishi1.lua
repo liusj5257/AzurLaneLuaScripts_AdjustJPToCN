@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULIZHISHI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULIZHISHI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ブリの誓い\n\n<size=45>一 ブリたちの結義？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "コツコツと一日の仕事を終えたブリたちは、泥のように眠った…",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "コツコツと一日の仕事を終えたブリたちは、泥のように眠った…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,16 +50,16 @@ return {
 			}
 		},
 		{
-			actor = 502010,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "俗に言う、時代が英雄を生む――今こそ偉業を成し遂げ、功績を遺す時ですわ",
 			bgm = "level02",
+			actor = 502010,
+			nameColor = "#a9f548",
+			say = "俗に言う、時代が英雄を生む――今こそ偉業を成し遂げ、功績を遺す時ですわ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -103,8 +103,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#a9f548",
 			say = "ため息なんかついてどうしたプリン？なんかあったプリン？",
 			typewriter = {
@@ -133,11 +133,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 100000,
+			nameColor = "#a9f548",
 			say = "わあ！な、なんと装備箱T5だプリン！",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,8 +178,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#a9f548",
 			say = "ちょっと、それはわたしのものプリン！",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -221,8 +221,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#a9f548",
 			say = "つべこべ言わずにハンマーで決めるプリン――",
 			typewriter = {
@@ -267,10 +267,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			hideOther = true,
 			dir = 1,
 			actor = 100000,
 			actorName = "汎用型ブリ&特装型ブリMKⅢ",
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 100000,
+			nameColor = "#a9f548",
 			say = "いいかもプリン！今日から姉ちゃんたちと生死も苦難も共にするプリン！",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -361,9 +361,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "そしてブリたちは桃の木の下に集い、武器を手に契りを結んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -375,10 +375,10 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 100000,
 			dir = 1,
 			hideOther = true,
 			actorName = "ブリたち",

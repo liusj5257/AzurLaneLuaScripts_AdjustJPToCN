@@ -1,16 +1,16 @@
 return {
-	id = "HUAPOHAIKONGZHIYI7",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUAPOHAIKONGZHIYI7",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 2,
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
 			say = "瑞鶴、大鳳が魚雷の被害に遭ったそうよ。",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,15 +92,15 @@ return {
 			}
 		},
 		{
-			say = "SP島西側海域　プリンストン艦隊",
 			side = 2,
 			bgName = "bg_map_maliyana",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level",
+			say = "SP島西側海域　プリンストン艦隊",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -128,8 +128,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "しかし、こうしてクリーブランド級のみんなが集まっているのは意外と楽しいわね",
 			typewriter = {
@@ -145,8 +145,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "楽しい？",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "ビロクシたちもそうだけど、本当はもう少しクリーブランド級の皆を知りたくて…でもそういった機会が意外となかったわ",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "姉貴たち、か。私もコロンビアたちほど知っているわけではないが、それでもよければ…",
 			typewriter = {
@@ -212,8 +212,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "まずはクリーブランド。いつも陽気で自信に満ちあふれている、皆のかっこいい姉貴だ",
 			typewriter = {
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "次は次女のコロンビア。彼女は姉貴と比べると気楽というか…姉貴をよくからかっている気がする",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "そしてモントピリアとデンバー。二人とも姉貴を慕い、姉貴を目標としているが、二人のベクトルはちょっと違う感じだな",
 			typewriter = {
@@ -292,15 +292,15 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107230,
+			nameColor = "#a9f548",
 			say = "（モントピリアがクリーブランドの背中を…まるで、私とサラトガさんみたい…）",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -328,9 +328,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
 			blackBg = true,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "（ふふっ、彼女とは話が合うかもね）",
 			typewriter = {

@@ -1,17 +1,17 @@
 return {
-	id = "SHENGYONGQU9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 802020,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level03",
 			dir = 1,
 			say = "How strange... We've advanced this far and nothing has shown up... Not even a mass-produced ship.",
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "If Algérie is the one in command, then why would she...",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "They also don't want to fight us, right...?",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "That is one possibility. Another is that they're waiting inside the Basilica.",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio Message",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "――――",
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "We're receiving a broadcast from the Vichya forces.",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "A broadcast...? Let me hear it.",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio Message",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "Message from Algérie of the Vichya Templar Knights to the intruders...",
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio Message",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "Any further trespass upon Vichya waters shall not be permitted.",
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio Message",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "Change courses immediately. Any further advance shall be considered an act of aggression against the Vichya Dominion.",
@@ -165,8 +165,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "...I'll issue a response.",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "\"This is Richelieu, Cardinal of Iris Libre. Algérie of the Templar Knights, we wish to speak directly without any intention of hostilities.\"",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio Message",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "From Algérie of the Vichya Templar Knights to the intruders...",
@@ -209,8 +209,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Radio Message",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "\"Any further trespass upon Vichya waters shall not be permitted. Change courses immediately. Any further advance shall...\"",
@@ -227,8 +227,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "The message seems to have been pre-recorded...",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = ".........…",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			actor = 807010,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "The Vichya has begun to deploy their mass-produced forces, and their defense systems are activating as well... By the looks of things, they're not in the mood to talk.",
 			typewriter = {
 				speed = 0.05,
@@ -274,9 +274,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "N-no way...",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -301,8 +301,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Tem...",
 			typewriter = {
 				speed = 0.05,

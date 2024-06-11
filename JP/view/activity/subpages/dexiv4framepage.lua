@@ -1,6 +1,6 @@
 slot0 = class("DexiV4FramePage", import(".TemplatePage.FrameTemplatePage"))
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	slot0.isSwitching = true
 	slot2 = GetOrAddComponent(slot0.phases[1], typeof(CanvasGroup))
 

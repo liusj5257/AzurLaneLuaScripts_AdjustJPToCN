@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN32",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_bsmre_11",
-			stopbgm = true,
-			say = "The Mirror Sea began to change immediately following the destruction of The Hermit's vessel.",
 			bgmDelay = 2,
 			bgm = "theme-arbitrator-tower",
+			stopbgm = true,
+			say = "The Mirror Sea began to change immediately following the destruction of The Hermit's vessel.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_11",
 			say = "Massive metallic rings suddenly emerged from the red sea, surrounding the Tower of Midgard from all sides.",
 			typewriter = {
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_11",
 			say = "Meanwhile, in the sky, Bismarck began descending back down and saw the ring fuse itself to the big cubes floating above the surface.",
 			typewriter = {
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_11",
 			say = "In only a matter of moments, the ring and the cubes had merged into one single structure.",
 			typewriter = {
@@ -60,9 +60,9 @@ return {
 		{
 			actor = 405050,
 			side = 2,
-			bgName = "bg_bsmre_11",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_bsmre_11",
 			say = "I assume this is the work of that friend Vestal spoke about.",
 			painting = {
 				alpha = 0.3,
@@ -77,8 +77,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_11",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
 			say = "She wields powers far beyond what I imagined...",
 			painting = {
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_11",
 			say = "Immediately upon landing, Bismarck was hit with an overpowering sense of dizziness that brought her to her knees.",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_11",
-			actor = 9708010,
 			dir = 1,
+			actor = 9708010,
 			nameColor = "#ffa500",
 			say = "Lord Bismarck! Are you okay?!",
 			painting = {
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_11",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
 			say = "Stay back!",
 			painting = {
@@ -153,8 +153,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_11",
-			actor = 9708010,
 			dir = 1,
+			actor = 9708010,
 			nameColor = "#ffa500",
 			say = "But... Lord Bismarck... Look at me.",
 			painting = {
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_11",
 			say = "U-556 came closer, despite Bismarck's clear order. Black mist was coiling around the little girl.",
 			typewriter = {
@@ -179,9 +179,9 @@ return {
 		{
 			actor = 9708010,
 			side = 2,
-			bgName = "bg_bsmre_11",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_bsmre_11",
 			say = "Umm... Looks like I got a bit too excited...",
 			painting = {
 				alpha = 0.3,
@@ -196,8 +196,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_11",
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
 			say = "There are still Enforcers around... can you fight?",
 			painting = {
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 9708010,
-			side = 2,
 			bgName = "bg_bsmre_11",
-			nameColor = "#ffa500",
+			side = 2,
 			dir = 1,
+			actor = 9708010,
+			nameColor = "#ffa500",
 			say = "Sure!",
 			painting = {
 				alpha = 0.3,
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,9 +295,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "bg_bsmre_11",
-			nameColor = "#a020f0",
 			dir = 1,
+			nameColor = "#a020f0",
+			bgName = "bg_bsmre_11",
 			actor = 900325,
 			actorName = "544845544F574552",
 			say = "45 78 65 63 75 74 65 63 6F 6E 74 72 6F 6C 70 72 6F 74 6F 63 6F 6C 2E",
@@ -317,8 +317,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.2,
 				dur = 0.2,
+				delay = 0.2,
 				alpha = {
 					1,
 					0
@@ -344,8 +344,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "The giant ring encasing the Tower of Midgard began glowing, rapidly increasing in intensity until everything was dyed a blinding white.",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "Little by little, the light dimmed until it was possible to see again.",
 			typewriter = {
@@ -373,13 +373,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_bsmre_13",
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_bsmre_13",
 			bgm = "theme-bismark-reborn",
 			actor = 402100,
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "What was that?! The red sea is completely gone!",
 			painting = {
@@ -402,8 +402,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
 			say = "The Sirens all went up in smoke too...",
 			painting = {
@@ -419,8 +419,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
 			say = "And that's not all...!",
 			painting = {
@@ -436,8 +436,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			actor = 401990,
 			dir = 1,
+			actor = 401990,
 			nameColor = "#A9F548FF",
 			say = "Bismarck! U-556! Are you alright?",
 			painting = {
@@ -450,8 +450,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -462,9 +462,9 @@ return {
 		{
 			actor = 405050,
 			side = 2,
-			bgName = "bg_bsmre_13",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_bsmre_13",
 			say = "Where... am I...?",
 			painting = {
 				alpha = 0.3,
@@ -476,8 +476,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
 			say = "Indeed, the red sea had disappeared entirely, as though by magic.",
 			typewriter = {
@@ -486,8 +486,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
 			say = "As was the noxious air signifying the presence of corruption.",
 			typewriter = {
@@ -496,8 +496,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
 			say = "U-556 and Bismarck regained their footing and listened to the META girls' conversation.",
 			typewriter = {
@@ -508,9 +508,9 @@ return {
 		{
 			actor = 9712010,
 			side = 2,
-			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
+			bgName = "bg_bsmre_13",
 			say = "Arizona... You...",
 			painting = {
 				alpha = 0.3,
@@ -525,8 +525,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
 			say = "You used the tower? Why?",
 			painting = {
@@ -561,8 +561,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
 			say = "And Helena? Where is she?",
 			painting = {
@@ -575,8 +575,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -624,9 +624,9 @@ return {
 		{
 			actor = 9712010,
 			side = 2,
-			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
+			bgName = "bg_bsmre_13",
 			say = "Tend to– Oh my god...",
 			painting = {
 				alpha = 0.3,
@@ -638,8 +638,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
 			say = "Vestal regained her bearings and turned her attention to Bismarck and U-556.",
 			typewriter = {
@@ -648,8 +648,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
 			say = "The black mist had all but completely enveloped them.",
 			typewriter = {
@@ -660,9 +660,9 @@ return {
 		{
 			actor = 9712010,
 			side = 2,
-			bgName = "bg_bsmre_13",
 			nameColor = "#a020f0",
 			dir = 1,
+			bgName = "bg_bsmre_13",
 			say = "You've been exposed to extreme amounts of corrosion!",
 			painting = {
 				alpha = 0.3,
@@ -677,8 +677,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
 			say = "What happened?! What did you do?!",
 			painting = {
@@ -697,11 +697,11 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
-			side = 2,
 			bgName = "bg_bsmre_13",
-			nameColor = "#a020f0",
+			side = 2,
 			dir = 1,
+			actor = 9712010,
+			nameColor = "#a020f0",
 			say = "...You disabled your limiters, didn't you?!",
 			painting = {
 				alpha = 0.3,
@@ -713,8 +713,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -726,8 +726,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
 			say = "Why would you do that?! You nearly got yourself killed!",
 			painting = {
@@ -740,9 +740,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
+			side = 2,
 			say = "Visibly shocked by the state they were in, Vestal rushed to their side.",
 			typewriter = {
 				speed = 0.05,
@@ -756,11 +756,11 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
-			side = 2,
 			bgName = "bg_bsmre_13",
-			nameColor = "#a020f0",
+			side = 2,
 			dir = 1,
+			actor = 9712010,
+			nameColor = "#a020f0",
 			say = "You have to stay awake! Can you talk?!",
 			painting = {
 				alpha = 0.3,
@@ -772,8 +772,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -785,10 +785,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Don't worry about me...",
 			painting = {
 				alpha = 0.3,
@@ -803,10 +803,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I took measures against the corrosion... It'll be fine...",
 			painting = {
 				alpha = 0.3,
@@ -821,10 +821,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "My rigging will absorb it...",
 			painting = {
 				alpha = 0.3,
@@ -839,10 +839,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Focus on U-556... She's the one who needs help...",
 			painting = {
 				alpha = 0.3,
@@ -857,8 +857,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
 			say = "...If you say so. I'll take care of her.",
 			painting = {
@@ -874,8 +874,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
 			say = "U-556? Can you hear me?",
 			painting = {
@@ -891,8 +891,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			actor = 9708010,
 			dir = 1,
+			actor = 9708010,
 			nameColor = "#ffa500",
 			say = "It's so dark... Lord Bismarck... where are you...?",
 			painting = {
@@ -908,8 +908,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
 			say = "......",
 			painting = {
@@ -925,10 +925,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is it... too late... for her...?",
 			painting = {
 				alpha = 0.3,
@@ -943,8 +943,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
 			say = "...No, it is not.",
 			painting = {
@@ -960,8 +960,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
 			say = "She can still be saved.",
 			painting = {
@@ -977,17 +977,17 @@ return {
 			bgName = "bg_bsmre_cg13",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1001,8 +1001,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg13",
 			say = "Vestal kneeled by U-556's side and opened her hand, manifesting a cube which glowed with a soft blue light.",
 			typewriter = {
@@ -1011,8 +1011,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg13",
 			say = "Dozens more appeared shortly after, forming a loose circle that slowly swirled around her and U-556.",
 			typewriter = {
@@ -1021,8 +1021,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg13",
 			say = "Little by little, the cubes absorbed the black mist enveloping U-556.",
 			typewriter = {
@@ -1031,8 +1031,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg13",
 			say = "After being treated for a while, the pained look on her face eased while the black deposits gradually discolored the cubes.",
 			typewriter = {
@@ -1044,17 +1044,17 @@ return {
 			bgName = "bg_bsmre_cg14",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1068,19 +1068,19 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg14",
-			say = "CRACK...",
 			soundeffect = "event:/ui/glassbroken",
+			say = "CRACK...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg14",
 			say = "The cube in Vestal's hand first turned a red color, then crumbled to pieces.",
 			typewriter = {
@@ -1089,8 +1089,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg14",
 			say = "Her facial muscles contorted with pain.",
 			typewriter = {
@@ -1099,8 +1099,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Vestal",
+			side = 1,
 			bgName = "bg_bsmre_cg14",
 			hidePaintObj = true,
 			nameColor = "#a020f0",
@@ -1116,8 +1116,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Zuikaku",
+			side = 2,
 			bgName = "bg_bsmre_cg14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1128,8 +1128,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Vestal",
+			side = 1,
 			bgName = "bg_bsmre_cg14",
 			hidePaintObj = true,
 			nameColor = "#a020f0",
@@ -1140,8 +1140,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Vestal",
+			side = 1,
 			bgName = "bg_bsmre_cg14",
 			hidePaintObj = true,
 			nameColor = "#a020f0",
@@ -1152,8 +1152,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
 			say = "Zuikaku offered Vestal a hand, but she politely shook her head and stood up on her own.",
 			typewriter = {
@@ -1161,17 +1161,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1179,8 +1179,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
 			say = "The next time eyes turned on U-556 again, she had reverted to her regular appearance. All external signs of the corrosion were gone.",
 			typewriter = {
@@ -1192,10 +1192,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 408040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nngh...",
 			painting = {
 				alpha = 0.3,
@@ -1210,10 +1210,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She's finally back to normal!",
 			painting = {
 				alpha = 0.3,
@@ -1225,8 +1225,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1237,11 +1237,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_bsmre_13",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "U-556!",
 			painting = {
 				alpha = 0.3,
@@ -1253,8 +1253,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1272,10 +1272,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 408040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whoa, hey! I'm soaking wet right now! Hugging me just feels icky!",
 			painting = {
 				alpha = 0.3,
@@ -1296,10 +1296,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Give her some space. She needs to recover.",
 			painting = {
 				alpha = 0.3,
@@ -1314,10 +1314,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Right. My bad...",
 			painting = {
 				alpha = 0.3,
@@ -1332,10 +1332,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You had me worried sick, you know... I thought you'd never be the same again.",
 			painting = {
 				alpha = 0.3,
@@ -1350,10 +1350,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 408040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, now I am, so it's all good!",
 			painting = {
 				alpha = 0.3,
@@ -1408,10 +1408,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "Yes... It's all here. I'll take care of it.",
 			painting = {
 				alpha = 0.3,
@@ -1445,10 +1445,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -1460,12 +1460,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So, this is it? It's over?",
 			painting = {
 				alpha = 0.3,
@@ -1480,10 +1480,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "Yes. I got what I was looking for.",
 			painting = {
 				alpha = 0.3,
@@ -1495,12 +1495,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "All you need to do now is activate the Tower of Midgard's gate one last time, and you should be sent back home.",
 			painting = {
 				alpha = 0.3,
@@ -1515,10 +1515,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "...I still cannot believe the corrosion can be purged.",
 			painting = {
 				alpha = 0.3,
@@ -1533,10 +1533,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "Although, I suppose doing so requires a sacrifice. It still has to go somewhere.",
 			painting = {
 				alpha = 0.3,
@@ -1548,12 +1548,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "While your hull remains intact, the same cannot be said for those merged with it... Geryon will be out of commission for quite some time.",
 			painting = {
 				alpha = 0.3,
@@ -1568,10 +1568,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I suppose so. What do you plan to do next?",
 			painting = {
 				alpha = 0.3,
@@ -1586,10 +1586,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm guessing you're not thinking about coming with us.",
 			painting = {
 				alpha = 0.3,
@@ -1604,10 +1604,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "Unfortunately, no. I have other things I must do.",
 			painting = {
 				alpha = 0.3,
@@ -1622,10 +1622,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "Truth be told, I must ask you for a favor. Once you're back home, please see to it the Tower of Midgard in your world is destroyed.",
 			painting = {
 				alpha = 0.3,
@@ -1637,12 +1637,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "It was the reason why this whole near-disaster happened in the first place.",
 			painting = {
 				alpha = 0.3,
@@ -1657,10 +1657,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Destroy it? Are you serious?",
 			painting = {
 				alpha = 0.3,
@@ -1675,10 +1675,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Do you know the ungodly amount of resources we poured into it?",
 			painting = {
 				alpha = 0.3,
@@ -1693,10 +1693,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "Yes, I do.",
 			painting = {
 				alpha = 0.3,
@@ -1708,12 +1708,12 @@ return {
 			}
 		},
 		{
-			actor = 9712010,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9712010,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "I also know this is an extremely hard decision to make, but it must be done.",
 			painting = {
 				alpha = 0.3,
@@ -1728,10 +1728,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "The Tower of Midgard's exact location is already out there now. Simply closing the gate won't prevent future incidents.",
 			painting = {
 				alpha = 0.3,
@@ -1746,10 +1746,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "Leave it intact, and one day, the corrosion will come flooding through the gate and spread through your whole world.",
 			painting = {
 				alpha = 0.3,
@@ -1764,10 +1764,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "If you don't want that to happen, you must destroy it.",
 			painting = {
 				alpha = 0.3,
@@ -1782,10 +1782,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Very well. I swear the Tower of Midgard will be destroyed as soon as possible.",
 			painting = {
 				alpha = 0.3,
@@ -1800,10 +1800,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "Good. You should get moving now, while the Arbiters have their eyes on me.",
 			painting = {
 				alpha = 0.3,
@@ -1815,8 +1815,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
 			say = "At the Mirror Sea's heart, the open gate shone with a bright blue light.",
 			typewriter = {
@@ -1824,17 +1824,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1842,8 +1842,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
 			say = "The massive machine rumbled and roared, presenting the girls with a way home.",
 			typewriter = {
@@ -1855,10 +1855,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 408040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Vestal, thank you for everythiiing!",
 			painting = {
 				alpha = 0.3,
@@ -1870,8 +1870,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
 			say = "With a final goodbye from U-556, the Iron Blood girls' long excursion was finally over.",
 			typewriter = {
@@ -1883,10 +1883,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "I'm sure our paths will cross again.",
 			painting = {
 				alpha = 0.3,
@@ -1898,8 +1898,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_13",
 			say = "A while after Vestal watched the group disappear in the light, the communicator in her hand started beeping.",
 			typewriter = {
@@ -1911,10 +1911,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "...I wondered when you were going to call me.",
 			painting = {
 				alpha = 0.3,
@@ -1929,10 +1929,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "...So, tell me, The Tower XVI...",
 			painting = {
 				alpha = 0.3,
@@ -1947,10 +1947,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_13",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9712010,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "What will you do now?",
 			painting = {
 				alpha = 0.3,

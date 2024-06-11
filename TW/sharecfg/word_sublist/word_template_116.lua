@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_116 = {}
 slot1 = slot0.word_template_116
 
-function temp()
+temp = function()
 	uv0["叫"] = {
 		["床"] = {
 			this = true
@@ -27,7 +27,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.p = {
 		o = {
 			r = {
@@ -229,7 +229,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["Ｘ"] = {
 		["到"] = {
 			["噴"] = {
@@ -245,7 +245,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["按"] = {
 		["摩"] = {
 			["棒"] = {

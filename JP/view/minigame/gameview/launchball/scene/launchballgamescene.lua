@@ -42,7 +42,7 @@ slot0.SPLIT_BUFF_ENEMY = "split buff enemy"
 slot0.SLASH_ENEMY = "slash enemy"
 slot0.PLAYER_EFFECT = "player effect"
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0._event = slot2
 	slot0.sceneMask = findTF(slot0._tf, "sceneMask")
@@ -64,7 +64,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 		uv0:joystickActive(slot0)
 	end)
 
-	function slot3(slot0, slot1)
+	slot3 = function(slot0, slot1)
 		uv0.launchBallAmulet:eventCall(slot0, slot1)
 		uv0.launchBallPlayer:eventCall(slot0, slot1)
 		uv0.launchBallEnemy:eventCall(slot0, slot1)
@@ -116,7 +116,7 @@ end
 slot14 = 50
 slot16 = 500 / 50
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0:prepareScene()
 	slot0.launchBallAmulet:start()
 	slot0.launchBallPlayer:start()
@@ -133,7 +133,7 @@ function slot0.start(slot0)
 	slot0.timeSlash = nil
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	slot0.joyStick:step()
 
 	LaunchBallGameVo.joyStickData = slot0.joyStick:getValue()
@@ -252,38 +252,38 @@ function slot0.step(slot0)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0.launchBallAmulet:clear()
 	slot0.launchBallPlayer:clear()
 	slot0.launchBallEnemy:clear()
 end
 
-function slot0.stop(slot0)
+slot0.stop = function(slot0)
 end
 
-function slot0.resume(slot0)
+slot0.resume = function(slot0)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
-function slot0.prepareScene(slot0)
+slot0.prepareScene = function(slot0)
 	slot0:showContainer(true)
 end
 
-function slot0.showContainer(slot0, slot1)
+slot0.showContainer = function(slot0, slot1)
 	setActive(slot0.sceneMask, slot1)
 end
 
-function slot0.useSkill(slot0)
+slot0.useSkill = function(slot0)
 	slot0.launchBallPlayer:useSkill()
 end
 
-function slot0.press(slot0, slot1)
+slot0.press = function(slot0, slot1)
 	slot0.launchBallEnemy:press(slot1)
 end
 
-function slot0.joystickActive(slot0, slot1)
+slot0.joystickActive = function(slot0, slot1)
 	slot0.launchBallPlayer:joystickActive(slot1)
 end
 

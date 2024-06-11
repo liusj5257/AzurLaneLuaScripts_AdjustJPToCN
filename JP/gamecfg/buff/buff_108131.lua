@@ -139,14 +139,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 8,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 108131,
 	picture = "",
 	desc = "FULLBURSTBEAM",
 	stack = 1,
-	id = 108131,
+	color = "red",
 	icon = 108130,
 	last_effect = "",
 	effect_list = {

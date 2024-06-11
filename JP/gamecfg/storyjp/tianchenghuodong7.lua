@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG7",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 304050,
 			nameColor = "#a9f548",
 			side = 0,
-			stopbgm = true,
 			dir = -1,
+			stopbgm = true,
 			say = "なぜか皆急いでいるようですね…朝からどうしましたの？",
 			typewriter = {
 				speed = 0.05,
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 301790,
 			dir = -1,
+			actor = 301790,
 			say = "ようやく来てくれたか。天城、ちょっとまずいことになった、付いてきてくれ",
 			typewriter = {
 				speed = 0.05,
@@ -57,17 +57,17 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
-			bgName = "bg_story_tiancheng2",
-			actorName = "{namecode:92}",
+			side = 1,
 			dir = 1,
 			bgmDelay = 2,
-			say = "お前は間抜けか？",
+			bgName = "bg_story_tiancheng2",
 			bgm = "story-tiancheng",
+			actorName = "{namecode:92}",
+			say = "お前は間抜けか？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -160,8 +160,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:91}",
 			nameColor = "#a9f548",
+			actorName = "{namecode:91}",
 			bgName = "bg_story_tiancheng2",
 			side = 0,
 			dir = 1,
@@ -201,8 +201,8 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:92}",
 			nameColor = "#a9f548",
+			actorName = "{namecode:92}",
 			bgName = "bg_story_tiancheng2",
 			side = 1,
 			dir = 1,
@@ -218,9 +218,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng2",
+			dir = 1,
 			say = "――カン！",
 			dialogShake = {
 				speed = 0.09,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:92}",
 			nameColor = "#a9f548",
+			actorName = "{namecode:92}",
 			bgName = "bg_story_tiancheng2",
 			side = 1,
 			dir = 1,
@@ -270,9 +270,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng2",
+			dir = 1,
 			say = "今にも喧嘩しそうな二人は、突然現れた猛烈な殺気を前に一瞬にして沈黙した。",
 			typewriter = {
 				speed = 0.05,
@@ -280,8 +280,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -304,9 +304,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng2",
+			dir = 1,
 			say = "――カン！",
 			dialogShake = {
 				speed = 0.09,
@@ -339,8 +339,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -363,9 +363,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "天城はニコニコしながら二人の手を強引に繋げさせた。",
 			typewriter = {
 				speed = 0.05,
@@ -373,9 +373,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "……二人の頭にタンコブもできてしまったが。",
 			typewriter = {
 				speed = 0.05,
@@ -383,9 +383,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "――この人、本当に怖いんだ。",
 			typewriter = {
 				speed = 0.05,
@@ -393,9 +393,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "慈愛あふれる笑顔に隠された鋼の巨獣すら怯えさせる殺気を浴びた人々は、確実にこの事実を認識できた。",
 			typewriter = {
 				speed = 0.05,
@@ -403,8 +403,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -415,9 +415,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "赤城と加賀が涙目になった。",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:161}",
+			side = 0,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -449,9 +449,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "握りしめた手に少しずつ力が入り、どうやら完全には納得していない様子の二人だったが――",
 			typewriter = {
 				speed = 0.05,
@@ -459,9 +459,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "それでも天城の無言の殺気に圧され、渋々と手を離し、相反する方向に歩き出した。",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:92}",
+			side = 1,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -481,8 +481,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:91}",
+			side = 0,
 			bgName = "bg_story_tiancheng3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -493,9 +493,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "周りにいた野次馬たちも少しずつ離れ、そして――",
 			typewriter = {
 				speed = 0.05,
@@ -503,9 +503,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_tiancheng3",
+			dir = 1,
 			say = "最後までその場に残った天城だけが静かに何かを思い耽けていた。",
 			typewriter = {
 				speed = 0.05,

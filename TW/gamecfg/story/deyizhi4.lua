@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DEYIZHI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DEYIZHI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"德意志的憂鬱\n\n<size=45>四　失落</size>",
@@ -17,9 +17,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……德意志今天沒來指揮室，有些擔心，去看看她吧。",
 			typewriter = {
 				speed = 0.05,
@@ -27,14 +27,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
-			bgName = "bg_story_room",
+			stopbgm = true,
 			dir = 1,
+			bgName = "bg_story_room",
 			say = "德意志的宿舍",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,13 +55,13 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "是僕人啊，來找我有什麼事嗎？",
 			bgm = "story-2",
+			actor = 403040,
+			nameColor = "#a9f548",
+			say = "是僕人啊，來找我有什麼事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "德意志一個縮在房間的角落，往日的霸氣全無。",
 			typewriter = {
 				speed = 0.05,
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "樣子有點讓人擔心…",
 			typewriter = {
 				speed = 0.05,
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "她們說我很強，我就以為我真的很強，我覺得自己高人一等，對誰都趾高氣揚的……",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "……手被她一把揮開。",
 			typewriter = {
 				speed = 0.05,
@@ -174,11 +174,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "別靠近我！",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "指揮官你肯定也是吧，從一開始就沒有指望我能幫上忙，只是抱著看我笑話的心態讓我擔任秘書艦。",
 			typewriter = {
 				speed = 0.05,
@@ -270,9 +270,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "看來現在說什麼德意志都不會聽進去了。",
 			typewriter = {
 				speed = 0.05,

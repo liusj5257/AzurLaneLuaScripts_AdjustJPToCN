@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_599",
+			bgm = "theme-seaandsun-soft",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "어슴푸레한 방안의 난로에서 장작이 타닥타닥, 타들어가고 있다.",
-			bgm = "theme-seaandsun-soft",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "방의 주인은 조용히 흔들의자에 몸을 맡기고――",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "팔 안에 웅크린 고양이를 쓰다듬으며 사라져가는 저녁놀을 바라보고 있다.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "갑자기 먼 옛날의 추억이 머릿속에 떠오른다.",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "머나먼 옛 기억……",
@@ -77,8 +77,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "자신의 운명이 바뀐 순간.",
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			say = "크고도 비극적인 사건이 일어난 그날의 기억……",
@@ -99,13 +99,13 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
 			asideType = 1,
+			stopbgm = true,
 			flashin = {
-				delay = 0,
 				dur = 1,
 				black = true,
+				delay = 0,
 				alpha = {
 					1,
 					0
@@ -119,28 +119,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuiluo_2",
+			bgm = "login-2022401us",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그날은 평소와 마찬가지로 하늘이 저녁노을로 붉게 물든 평범한 휴일이었다.",
-			bgm = "login-2022401us",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "'쇠발톱의 악마'가 아무런 조짐도 없이 갑자기 나타나기 전까지는.",
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "'쇠발톱의 악마'가 나타난 건 단 5분이라는 짧은 시간이었지만, 섬 전체에 막대한 '피해'를 초래하기에는 충분했다.",
@@ -170,8 +170,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "디저트 가게가 모두 전멸했을 뿐만 아니라, 창고 내 120개에 달하는 디저트 비축분 또한 순식간에 사라졌다.",
@@ -181,12 +181,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그, 그럴 수가… 푸링…",
 			painting = {
 				alpha = 0.3,
@@ -198,12 +198,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "한 발 늦었네, 푸링…",
 			painting = {
 				alpha = 0.3,
@@ -215,12 +215,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이런 중죄를 저지른 녀석은 대체 누구야, 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -271,12 +271,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어쩌다 '쇠발톱의 악마'가 된 거야, 푸링…?",
 			painting = {
 				alpha = 0.3,
@@ -418,12 +418,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "무시무시한 힘의 소유자네, 푸링…",
 			painting = {
 				alpha = 0.3,
@@ -435,12 +435,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "동생들도 없는데…",
 			painting = {
 				alpha = 0.3,
@@ -452,12 +452,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나 혼자만의 힘으론…",
 			painting = {
 				alpha = 0.3,
@@ -469,12 +469,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아무것도 못해, 푸링…",
 			painting = {
 				alpha = 0.3,
@@ -489,10 +489,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "황금의 신",
+			nameColor = "#FEF15E",
 			bgm = "login_0401",
 			actor = 202110,
-			nameColor = "#FEF15E",
+			actorName = "황금의 신",
 			hidePaintObj = true,
 			say = "정말 아무것도 못해?",
 			typewriter = {
@@ -500,17 +500,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -518,8 +518,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "절망에 빠진 시제형 부린. 그녀의 눈앞에 황금빛 그림자가 나타났다.",
@@ -529,12 +529,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "다, 당신은… 설마… 황금의 신이야, 푸링?!",
 			painting = {
 				alpha = 0.3,
@@ -549,10 +549,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
+			nameColor = "#FEF15E",
 			actor = 202110,
 			actorName = "황금의 신",
-			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "정답! 이 휘황찬란한 모습을 보면 알잖아?",
 			typewriter = {
 				speed = 0.05,
@@ -563,10 +563,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
+			nameColor = "#FEF15E",
 			actor = 202110,
 			actorName = "황금의 신",
-			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "자, 기억해 내 봐. 네 힘을…",
 			typewriter = {
 				speed = 0.05,
@@ -577,10 +577,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
+			nameColor = "#FEF15E",
 			actor = 202110,
 			actorName = "황금의 신",
-			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "황금빛 힘을…",
 			typewriter = {
 				speed = 0.05,
@@ -591,10 +591,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
+			nameColor = "#FEF15E",
 			actor = 202110,
 			actorName = "황금의 신",
-			nameColor = "#FEF15E",
+			hidePaintObj = true,
 			say = "황금 시대부터 전해져 온 황금 일족의 힘을!",
 			typewriter = {
 				speed = 0.05,
@@ -602,12 +602,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "황금빛 힘, 푸링…",
 			painting = {
 				alpha = 0.3,
@@ -619,12 +619,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "알았다, 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -636,12 +636,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "황금 시대부터 전해져 온 골든 메카, 시제형 슈퍼 드릴 MKII를 말하는 거구나, 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -653,12 +653,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "기동 비밀번호를 까먹어서, 창고에 계속 처박아둔 상태지만, 푸링…",
 			painting = {
 				alpha = 0.3,
@@ -670,12 +670,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "푸링! 그래도 비밀번호만 기억해 내면 '쇠발톱의 악마'를 무찌를 수 있어!",
 			painting = {
 				alpha = 0.3,
@@ -687,8 +687,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "황금의 신은 미소를 지으며 끄덕이고는 그대로 모습을 감추었다.",
@@ -698,8 +698,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "그렇게 시제형 부린 MKII는 악마를 무찌르기 위해 비밀번호를 찾는 모험을 떠났다. 그녀를 기다리고 있는 것은 과연…!",

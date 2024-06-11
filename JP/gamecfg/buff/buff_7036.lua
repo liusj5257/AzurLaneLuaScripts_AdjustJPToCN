@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "序章欧根旋转盾",
 	time = 99999,
+	name = "序章欧根旋转盾",
+	init_effect = "",
 	picture = "",
 	desc = "序章欧根旋转盾",
 	stack = 1,

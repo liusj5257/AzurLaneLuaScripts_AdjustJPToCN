@@ -40,11 +40,11 @@ slot0.rarityColor = {
 	}
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TechnologyUI"
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.contextData.selectedIndex then
 		slot0:cancelSelected()
 
@@ -60,24 +60,24 @@ function slot0.onBackPressed(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return true
 end
 
-function slot0.setTechnologys(slot0, slot1, slot2)
+slot0.setTechnologys = function(slot0, slot1, slot2)
 	slot0.technologyVOs = slot1
 	slot0.technologyQueue = slot2
 end
 
-function slot0.setRefreshFlag(slot0, slot1)
+slot0.setRefreshFlag = function(slot0, slot1)
 	slot0.flag = slot1
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0._tf:Find("blur_panel/adapt/top/back")
 	slot0.basePage = slot0._tf:Find("main/base_page")
 	slot0.srcollView = slot0.basePage:Find("srcoll_rect/content")
@@ -123,7 +123,7 @@ function slot0.init(slot0)
 	slot0.queueCardTimer = {}
 end
 
-function slot0.updateSettingsBtn(slot0)
+slot0.updateSettingsBtn = function(slot0)
 	slot1 = slot0:findTF("RedPoint", slot0.settingsBtn)
 
 	setText(slot0:findTF("TipText", slot0.settingsBtn), i18n("tec_settings_btn_word"))
@@ -221,7 +221,7 @@ function slot0.updateSettingsBtn(slot0)
 	end
 end
 
-function slot0.updateSettingBtnVersion(slot0)
+slot0.updateSettingBtnVersion = function(slot0)
 	setActive(slot0.settingsBtn:Find("tag"), getProxy(TechnologyProxy):getTendency(2) > 0)
 
 	if slot1 > 0 then
@@ -229,7 +229,7 @@ function slot0.updateSettingBtnVersion(slot0)
 	end
 end
 
-function slot0.setPage(slot0, slot1)
+slot0.setPage = function(slot0, slot1)
 	slot0.contextData.page = slot1
 
 	setActive(slot0.basePage, slot1 == uv0.PageBase)
@@ -260,7 +260,7 @@ function slot0.setPage(slot0, slot1)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initTechnologys()
 	slot0:initQueue()
 	slot0:setPage(slot0.contextData.page or uv0.PageBase)
@@ -302,7 +302,7 @@ function slot0.didEnter(slot0)
 	slot0:updateSettingsBtn()
 end
 
-function slot0.initTechnologys(slot0)
+slot0.initTechnologys = function(slot0)
 	slot0.technologyCards = {}
 	slot0.lastButtonListener = slot0.lastButtonListener or {}
 
@@ -348,7 +348,7 @@ function slot0.initTechnologys(slot0)
 	setActive(slot0.srcollView, true)
 end
 
-function slot0.initQueue(slot0)
+slot0.initQueue = function(slot0)
 	if not slot0.queueItemList then
 		slot3 = slot0.btnQueue
 		slot0.queueItemList = UIItemList.New(slot0.btnQueue, slot3:GetChild(0))
@@ -428,11 +428,11 @@ function slot0.initQueue(slot0)
 	setActive(slot0.btnAwardQueueDisable, not isActive(slot0.btnAwardQueue))
 end
 
-function slot0.updateRefreshBtn(slot0, slot1)
+slot0.updateRefreshBtn = function(slot0, slot1)
 	setButtonEnabled(slot0.refreshBtn, slot1 == 0)
 end
 
-function slot0.onSelected(slot0, slot1, slot2)
+slot0.onSelected = function(slot0, slot1, slot2)
 	if not slot2 then
 		return
 	end
@@ -456,7 +456,7 @@ function slot0.onSelected(slot0, slot1, slot2)
 		uv0[tonumber(slot0.name)] = slot0
 	end)
 
-	function slot4(slot0, slot1)
+	slot4 = function(slot0, slot1)
 		slot2 = {}
 		slot3 = slot0
 		slot4 = uv0[slot0].localPosition.x
@@ -492,7 +492,7 @@ function slot0.onSelected(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.cancelSelected(slot0)
+slot0.cancelSelected = function(slot0)
 	if not slot0.technologyVOs[slot0.contextData.selectedIndex or 0] then
 		return
 	end
@@ -526,7 +526,7 @@ function slot0.cancelSelected(slot0)
 	end
 end
 
-function slot0.updateTechnology(slot0, slot1)
+slot0.updateTechnology = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in ipairs(slot0.technologyVOs) do
@@ -545,7 +545,7 @@ function slot0.updateTechnology(slot0, slot1)
 	end
 end
 
-function slot0.updateQueueChange(slot0)
+slot0.updateQueueChange = function(slot0)
 	slot0.queueItemList:align(#slot0.technologyQueue)
 	slot0.queueCardItemList:align(TechnologyConst.QUEUE_TOTAL_COUNT)
 	setActive(slot0.btnAwardQueue, slot0.technologyQueue[1] and slot0.technologyQueue[1]:isCompleted())
@@ -556,7 +556,7 @@ function slot0.updateQueueChange(slot0)
 	end
 end
 
-function slot0.updateTechnologyTF(slot0, slot1, slot2, slot3)
+slot0.updateTechnologyTF = function(slot0, slot1, slot2, slot3)
 	slot4 = nil
 
 	if slot3 == "queue" then
@@ -846,7 +846,7 @@ function slot0.updateTechnologyTF(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.dfs(slot0, slot1, slot2)
+slot0.dfs = function(slot0, slot1, slot2)
 	if slot1.name ~= "item_tpl" then
 		for slot6 = 1, slot1.childCount do
 			slot0:dfs(slot1:GetChild(slot6 - 1), slot2)
@@ -861,7 +861,7 @@ slot1 = {
 	tag_blue = "2541E3FF"
 }
 
-function slot0.updateInfo(slot0, slot1, slot2, slot3)
+slot0.updateInfo = function(slot0, slot1, slot2, slot3)
 	setImageSprite(slot1:Find("frame"), GetSpriteFromAtlas("technologycard", slot2:getConfig("bg") .. (slot3 == "desc" and "_l" or "")))
 	setImageSprite(slot1:Find("frame/icon_mask/icon"), GetSpriteFromAtlas("technologyshipicon/" .. slot2:getConfig("bg_icon"), slot2:getConfig("bg_icon")), true)
 	setImageSprite(slot1:Find("frame/top/label"), GetSpriteFromAtlas("technologycard", slot2:getConfig("label")))
@@ -894,11 +894,11 @@ function slot0.updateInfo(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.updateInfoVersionPickUp(slot0, slot1, slot2)
+slot0.updateInfoVersionPickUp = function(slot0, slot1, slot2)
 	setActive(slot1:Find("frame/top/pick_up"), getProxy(TechnologyProxy):getTendency(2) == slot2:getConfig("blueprint_version"))
 end
 
-function slot0.updateItem(slot0, slot1, slot2, slot3)
+slot0.updateItem = function(slot0, slot1, slot2, slot3)
 	updateDrop(slot1, setmetatable({
 		count = 0
 	}, {
@@ -934,7 +934,7 @@ function slot0.updateItem(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot0.updatePickUpVersionChange(slot0)
+slot0.updatePickUpVersionChange = function(slot0)
 	slot0:updateSettingBtnVersion()
 
 	for slot4, slot5 in ipairs(slot0.technologyCards) do
@@ -946,7 +946,7 @@ function slot0.updatePickUpVersionChange(slot0)
 	end
 end
 
-function slot0.clearTimer(slot0, ...)
+slot0.clearTimer = function(slot0, ...)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -990,7 +990,7 @@ function slot0.clearTimer(slot0, ...)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:clearTimer()
 
 	slot0.cardtimer = nil

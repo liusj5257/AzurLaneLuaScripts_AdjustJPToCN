@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"蒼龍さんと一緒\n\n<size=45>七 変化・下</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 307030,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "今日はずっと、みんな不思議そうな目でこちらを見ていましたね",
 			bgm = "story-2",
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "今日はずっと、みんな不思議そうな目でこちらを見ていましたね",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "今日の蒼龍が普段からは考えられない姿だったのは確かだ。",
 			typewriter = {
 				speed = 0.05,
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "蒼龍はメガネを少し上げて、こっちを見つめる。",
 			typewriter = {
@@ -175,11 +175,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "とてつもなく大胆な告白をしているにもかかわらず、蒼龍は少したりとも恥ずかしがっていない様子。",
 			typewriter = {
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "指揮官、この間飛龍と話したことをまだ覚えていますか？",
 			typewriter = {
 				speed = 0.05,
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "自分が彼女に影響されたように、彼女もまた自分に考えを改めさせられたか……",
 			typewriter = {
@@ -263,11 +263,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#a9f548",
 			say = "蒼龍への思いは、もはや語るまでもない。ただ、この流れで言うのは……",
 			typewriter = {
@@ -286,11 +286,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "……フッ",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -328,12 +328,12 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "もし指揮官が私に一回でも勝てたら、なんでも答えてあげますよ？",
 			typewriter = {
 				speed = 0.05,

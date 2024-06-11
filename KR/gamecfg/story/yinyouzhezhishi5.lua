@@ -6,14 +6,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			portrait = 401466,
-			bgm = "ryza-az-theme",
 			nameColor = "#FEF15E",
+			bgm = "ryza-az-theme",
+			bgName = "star_level_bg_158",
+			actorName = "음유시인",
 			hidePaintObj = true,
+			portrait = 401466,
 			say = "\"겨울이 지나 봄이 찾아오고, 만물이 움트네♪\"",
 			painting = {
 				alpha = 0.3,
@@ -24,17 +24,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -47,9 +47,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
+			nameColor = "#FEF15E",
 			portrait = 401466,
 			actorName = "음유시인",
-			nameColor = "#FEF15E",
 			hidePaintObj = true,
 			say = "\"신들의 이름으로 이 세상에 축복을――♪\"",
 			painting = {
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_158",
 			hidePaintObj = true,
 			say = "한 마을의 큰길 건너에서 노랫소리가 들려온다.",
@@ -75,12 +75,12 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			bgName = "star_level_bg_158",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"좋은 계절에 다시 찾아온 추억 속 여행지♪\"",
 			painting = {
@@ -92,17 +92,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -115,9 +115,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"옛 영광과 함께 흘러간 수많은 세월♪\"",
 			painting = {
@@ -135,9 +135,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"새로운 어둠이 다가오고♪\"",
 			painting = {
@@ -155,9 +155,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"새로운 이야기가 시작되네♪\"",
 			painting = {
@@ -175,9 +175,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"그 주인공은――♪\"",
 			painting = {
@@ -195,9 +195,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "음유시인",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "음유시인",
 			hidePaintObj = true,
 			say = "\"어쩌면 당신일지도――♪\"",
 			painting = {

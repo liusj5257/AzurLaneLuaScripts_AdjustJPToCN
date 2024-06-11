@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "太平洋·鐵血浮島要塞群周邊",
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
 			dir = 1,
 			bgm = "bsm-5",
+			say = "太平洋·鐵血浮島要塞群周邊",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,8 +42,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "叮叮叮！大家注意，我們即將進入鐵血秘密基地的控制區了！",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "嗯？這裡就是我們的目的地嗎，恕在下眼拙，我並沒有看到類似鐵血基地之類的建築設施……",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "我也沒有看到……是不是搞錯了航線呀，U-37？",
 			typewriter = {
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401280,
 			dir = 1,
+			actor = 401280,
 			nameColor = "#a9f548",
 			say = "或者說秘密基地指的是孩子們那樣的秘密基地，其實我們是來這裡度假之類的……？",
 			typewriter = {
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 401240,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401240,
+			nameColor = "#a9f548",
 			say = "庫庫庫，非也！隱匿於黑暗之中，看似不在，卻又無所不在的恐怖，這才是吾等鐵血奧義之真諦，吾等鐵血秘所之所在！",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -146,8 +146,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "原來、原來如此……？看來我還需要進一步磨煉觀察力啊……",
 			typewriter = {
@@ -160,11 +160,11 @@ return {
 			}
 		},
 		{
-			actor = 402050,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 402050,
+			nameColor = "#a9f548",
 			say = "咦？ Z24知道秘密基地的情報嗎？！",
 			typewriter = {
 				speed = 0.05,
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "那是自然，如同只有在黑夜之中才能發出光芒的黑貓之瞳，吾已經察覺到了，洞悉到了……",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401280,
 			dir = 1,
+			actor = 401280,
 			nameColor = "#a9f548",
 			say = "那……Z24，妳洞悉到的結果究竟是……！",
 			typewriter = {
@@ -223,8 +223,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "那、那個……如同黑夜必將吞噬白日一樣，吾所洞悉之處結果也是如此必然……",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -266,8 +266,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 401240,
 			dir = 1,
+			actor = 401240,
 			nameColor = "#a9f548",
 			say = "歐根，妳這傢伙……！",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -309,8 +309,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "唔…這片群島我記得確實數十年前的話確實是鐵血的控制區，不過在塞壬出現後這裡很快就淪陷了……",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "因為地處偏遠，再加上之後與碧藍航線開戰，統帥部判斷沒有奪回的價值，我們的軍事人員應該早就全部撤離了才對……",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "呼呼，其實秘密基地真的就在前方不遠處哦~只不過被完美的隱藏了起來，妳們現在看不到而已~",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "……什麼？！究竟是用到什麼樣的技術才把整座基地藏起來？！",
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -483,8 +483,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "歐根，有點奇怪……我沒有見到任何前來接應的人。",
 			typewriter = {
@@ -532,8 +532,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "……她們也許是因為正在進行的演習才沒有收到消息哦？",
 			typewriter = {
@@ -565,8 +565,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 402050,
 			dir = 1,
+			actor = 402050,
 			nameColor = "#a9f548",
 			say = "（這樣會不會太隨意了一點……）",
 			typewriter = {
@@ -614,8 +614,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "沒問題！諸位都是第一次來這裡，我先來簡單介紹一下。這處鐵血要塞坐落在群島之中，根據功能不同分為大小數百個模組。",
 			typewriter = {
@@ -628,11 +628,11 @@ return {
 			}
 		},
 		{
-			actor = 408100,
 			side = 2,
 			bgName = "bg_fuxiangxian_0",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408100,
+			nameColor = "#a9f548",
 			say = "其間航道複雜，很多防禦模組也一直處於實彈待機狀態。請諸位務必緊跟我，千萬不要亂走哦！",
 			typewriter = {
 				speed = 0.05,
@@ -644,8 +644,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN33",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg15",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "演習海域にて",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg15",
 			say = "三笠と長門の艦隊が粛々と「塔」の攻略の準備を進めている中……",
 			typewriter = {
@@ -49,8 +49,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "武蔵さん、動きがないっすね…采配を諦めたっすか…？",
 			painting = {
@@ -66,8 +66,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "そんなわけありませんわよ。あの武蔵ですもの、最後まで戦うに決まっていますわ",
 			painting = {
@@ -99,8 +99,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#A9F548FF",
 			say = "武蔵さんからの指示通り、これより中央拠点にいるアビータのスペアボディに攻撃を開始する……",
 			painting = {
@@ -112,17 +112,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -133,8 +133,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "千歳さん、若月も助力致す！",
 			painting = {
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "うん！もうだいぶ損傷しているから、いつまでもつかはわかりませんけど…千歳さんは？",
 			painting = {
@@ -183,8 +183,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#A9F548FF",
 			say = "さっきの攻撃で艦載機はほとんど使い切った…アビータにろくにダメージを与えられないかも…",
 			painting = {
@@ -200,8 +200,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "しょうがないですね…最後に一つ活躍したかったですけど、武蔵さんの指示とあらば若月、心置きなく突貫出来ます！",
 			painting = {
@@ -217,8 +217,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#A9F548FF",
 			say = "う、うん…千歳も十分楽しめた…そろそろ千代田に会いたい…かも…",
 			painting = {
@@ -234,8 +234,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#A9F548FF",
 			say = "最後の結果は…千代田と一緒にお菓子を食べながら見ようかな……",
 			painting = {
@@ -251,8 +251,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "お菓子なら武蔵さんからの差し入れが休憩室に置いてありますよ！えへへ、若月が先に退場したらお皿とかも用意してみんなを待ってようと思ってましたけど…",
 			painting = {
@@ -268,8 +268,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "せっかくの美味しいお菓子ですからみんなで食べたくて！あ、ぷー太に全部食べられてないといいですね！",
 			painting = {
@@ -285,8 +285,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#A9F548FF",
 			say = "じゃ、じゃあ早く休憩室に行かないと……！",
 			painting = {
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg15",
-			soundeffect = "event:/battle/boom2",
+			side = 2,
 			say = "ーーーーーー！",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -360,8 +360,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg15",
 			say = "武蔵艦隊の若月と千歳はアビータの攻撃で戦闘不能と判定され、演習場外に転移させられた。",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg15",
 			say = "時を同じくして…",
 			typewriter = {
@@ -383,8 +383,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "すみません加賀さん、武蔵さんからの指示で……",
 			painting = {
@@ -400,8 +400,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "大丈夫だ。これもきっと赤城の作戦のうちだろう",
 			painting = {
@@ -446,11 +446,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg15",
-			soundeffect = "event:/battle/boom2",
+			side = 2,
 			say = "ーーーーーー！",
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -496,8 +496,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg15",
 			say = "酒匂が放つ攻撃が加賀に着弾し、艤装から蒼き幽焔（ゆうえん）が浮かび上がる。",
 			typewriter = {
@@ -506,8 +506,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg15",
 			say = "攻撃を一切回避せずただただアビータ、そして酒匂の攻撃を一身に受けてきた加賀はゆっくりと手を上げた。",
 			typewriter = {
@@ -516,8 +516,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg15",
 			say = "すると、空舞う幽焔はだんだんと集まり、巨大な狐火の形へと化した。",
 			typewriter = {
@@ -560,8 +560,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg15",
 			say = "式鬼が吠える。辺り一面が蒼き炎に包まれた。",
 			typewriter = {
@@ -573,8 +573,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "酒匂が戦闘不能に……？この炎は加賀の攻撃によるものか！？",
 			painting = {
@@ -606,8 +606,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "そして武蔵さんの敗北により、武蔵さんが占拠している拠点もがら空きになりました。そこを赤城さんたちが制圧してしまえば、長門さまの得点に迫りますわね",
 			painting = {
@@ -623,8 +623,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "うっ…だが作戦は変わらぬぞ。余たちは中心拠点を落とせば赤城の逆転を阻止できる！",
 			painting = {
@@ -640,8 +640,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "そうだな。武蔵が敗退した以上、彼女自身が赤城に加勢することはできん。つまり赤城側にも余力がないということだ",
 			painting = {
@@ -673,8 +673,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "余たちが戦力を分けて赤城の後ろに回り込む間にもし赤城が中央拠点を攻略したら、余たちの遊兵を狙うのも容易…",
 			painting = {
@@ -690,8 +690,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "次の攻撃で先に中心拠点を攻略できるかどうか…それに賭けよう！",
 			painting = {
@@ -707,8 +707,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "それに後ろに回り込もうとしても加賀さんがいるっすね…",
 			painting = {
@@ -724,8 +724,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "あの式鬼のことか……！",
 			painting = {
@@ -775,8 +775,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "そういうことだ。そして仲間たちの退場により赤城姉さまはついに本音を語ることができる",
 			painting = {
@@ -792,8 +792,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "「部下」を減らす…お主たちも武蔵と同じ考えなのだな",
 			painting = {
@@ -809,8 +809,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "いや、赤城の言っていた「仲間を巻き込まない」ということか？艦船が少ないほうが彼女にとって都合がいい",
 			painting = {
@@ -826,8 +826,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "確かにこの演習場は我々の艤装の性能が制限される、逆に言えば、制限されるのはあくまで「艤装の性能」だ",
 			painting = {
@@ -843,8 +843,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "お主たちが「塔」を攻撃するのも、なにも我と長門に協力するだけではない……",
 			painting = {
@@ -860,8 +860,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "赤城、お主には「塔」を落とせる切り札があるのだろ？",
 			painting = {
@@ -877,8 +877,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "当たりですわ。三笠大先輩",
 			painting = {
@@ -910,8 +910,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "中央拠点を攻撃するのは私からの意思表明――共通の敵がいるなら協力するのもやぶさかではない――ということ",
 			painting = {
@@ -943,8 +943,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "お主一人の力であのアビータを倒し、塔も破壊するというのか？まさか……",
 			painting = {
@@ -976,8 +976,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "力が伴わない覚悟は無力だ。そして無力なる者は戦に敗北し、その未来は閉ざされる",
 			painting = {
@@ -1011,8 +1011,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "姉さまを阻止したければ、この加賀の心象がなす「白面九尾」を倒してみせろ！",
 			painting = {
@@ -1028,8 +1028,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "加賀！お主どこまでも………全艦、加賀を狙って……くっ！！",
 			painting = {
@@ -1045,8 +1045,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "ふふふ、やはり未熟ですわね…これで勝利はこの赤城のものになりますわ",
 			painting = {
@@ -1062,8 +1062,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg15",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "さあ、見せてあげますわ。これぞ赤城の「心象」、赤城の選んだ道、未来への暁風よ！",
 			painting = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"無法坦率的心意\n\n<size=45>四  這個話題到此為止！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "那是陽光明媚的某一天——",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "那是陽光明媚的某一天——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "哎呀，居然能在這裡遇到您，還真是稀奇呢。指揮官今天有外出工作嗎？",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "哦~原來是這樣啊。呼呼~和指揮官說過的話納爾遜都記得很牢呢~",
 			typewriter = {
@@ -132,9 +132,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "羅德尼和納爾遜似乎正朝著白鷹生活區過去，看起來不像單純散步的樣子。",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "我也覺得指揮官來一下比較好哦，畢竟涉及到各陣營的協同行動…",
 			typewriter = {
@@ -179,9 +179,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "白鷹和皇家戰列艦之間的聯合演習嗎……確實有一看的價值。",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "感覺這段時間，指揮官每天都在高強度工作呢…",
 			typewriter = {
@@ -245,8 +245,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "在作戰會議開始前，羅德尼會先準備一些冰紅茶，請慢慢享用哦~",
 			typewriter = {
@@ -291,11 +291,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "咳！我什麼都沒說！這個話題到此為止！",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -317,9 +317,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "納爾遜強行結束了對話，向著前方飛快地邁開了步子。",
 			typewriter = {
 				speed = 0.05,

@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行10次攻击，触发专属弹幕-{namecode:18}II",
 	name = "专属弹幕-{namecode:18}II",
 	init_effect = "",
+	id = 29142,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行10次攻击，触发专属弹幕-{namecode:18}II",
 	stack = 1,
-	id = 29142,
+	color = "red",
 	icon = 29140,
 	last_effect = "",
 	effect_list = {
@@ -20,9 +20,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countType = 29140,
-				countTarget = 10,
 				gunnerBonus = true,
+				countTarget = 10,
+				countType = 29140,
 				index = {
 					1
 				}
@@ -34,8 +34,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29142,
+				target = "TargetSelf",
 				countType = 29140
 			}
 		}

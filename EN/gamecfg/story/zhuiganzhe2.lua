@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Moments with the Young Miss\n\n<size=45>2 Novel Tea Novelty</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "We were both pretty parched from being outside in the heat, and Chaser went to pour some iced barley tea.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "We were both pretty parched from being outside in the heat, and Chaser went to pour some iced barley tea.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -70,8 +70,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "Hmm... this is barley tea, not black tea? I don’t think I’ve ever had this before. Hehe, how interesting~",
 			typewriter = {
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Chaser poured the barley tea into a teacup rather than a regular cup, and sat down in front of me, face-to-face across the desk.",
@@ -118,8 +118,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "Did you know I received an order from Queen Elizabeth the other day?",
 			typewriter = {
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "If I recalled properly... it was an order to send a representative from the Royal Navy to each camp to facilitate communication.",
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "Of course, our friends from the other camps will also be visiting us as well, for the sake of strengthening our cooperation.",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "As she spoke, Chaser passed me a letter from Queen Elizabeth.",
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "I opened the envelope carefully, revealing the luxurious stationery within. I could practically hear the Queen’s words in my head as I read the contents.",
@@ -242,11 +242,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "Chaser is rather new at this, though, so I would have you, my loyal servant, support her. Won’t you?",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -271,8 +271,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "―Well? What did Her Majesty write?",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "I explained the contents of the letter to Chaser.",
@@ -303,8 +303,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "Hmm. Really, I’d prefer to go on my own, if I might. But I wouldn’t want to get it from the Commander on the back end either.",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "Alright, it’s a boon from Her Majesty, after all. I will accept it with gratitude. Of course, that’s assuming you aren’t too busy, Commander?",
 			typewriter = {
@@ -334,8 +334,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "It was no trouble at all. I picked up my teacup, took a sip, and prepared to set off.",
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "It had the makings of an interesting time.",
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Chaser let slip a little chuckle.",
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "Then, as if suddenly remembering something, she raised the milk jug she was carrying and poured it into her tea.",
@@ -413,8 +413,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "What’s the matter, Commander? Milk makes tea so much better. That’s just common sense, no?",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "She sipped at her milk barley tea as she spoke.",
@@ -445,8 +445,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "...Indeed, a tea of subtle flavour.",
 			typewriter = {
@@ -459,8 +459,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

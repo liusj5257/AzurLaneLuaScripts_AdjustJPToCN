@@ -1,12 +1,12 @@
 return {
-	id = "W1010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "設備能量耗盡，這裡已經沒有任何有價值的東西了。",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,

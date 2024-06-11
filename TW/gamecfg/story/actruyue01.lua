@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ACTRUYUE01",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ACTRUYUE01",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"炎夏的火锅大会？！\n\n<size=45>一  火锅大会喵！</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			say = "某日·港区",
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			bgm = "story-1",
+			side = 2,
+			dir = 1,
+			bgName = "bg_story_task",
+			say = "某日·港区",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,11 +45,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "呜…怎么办才好喵……",
 			typewriter = {
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 15,
@@ -72,13 +72,13 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "呜…究竟是哪里弄错了…",
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "呜…究竟是哪里弄错了…",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -93,11 +93,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "是那个喵…前不久那批本来应该取消的食材订单喵…",
 			typewriter = {
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "我记得…妳说回头就处理掉的",
 			typewriter = {
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "{namecode:98}此生最大的失误喵…大出血喵…",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 15,
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "这些食材要怎么办呢…放着不管的话很快就要过期了…而且还是夏天…",
 			typewriter = {
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "冷藏库也已经放不下了…",
 			typewriter = {
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "夏天…冷藏库…食材…",
 			typewriter = {
@@ -205,11 +205,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "既、既然如此，就来开个火锅大会喵！",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "火、火锅大会？！刚才那几个词究竟是怎么让妳联想到这个的…",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "不、不要吐槽喵！不可以浪费粮食喵！就算是夏天，好吃的东西还是好吃的喵！",
 			typewriter = {
@@ -276,11 +276,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "就算妳这么说…真的会有人来参加吗…盛夏的火锅大会…",
 			typewriter = {
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "一定会有的喵！{namecode:98}去邀请大家，{namecode:20}就一边做准备吧！食材的处理还有其他各种各样的准备喵！",
 			typewriter = {
@@ -310,12 +310,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "好、好吧……",
 			typewriter = {

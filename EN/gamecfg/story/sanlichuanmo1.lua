@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SANLICHUANMO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SANLICHUANMO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Mikasa's Model Museum\n\n<size=45>Chapter 1: A Collection Destroyed</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "One day, at the port...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "One day, at the port...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "Wow... So this is the legendary...",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "Mikasa's model collection!",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Mikasa's model collection!",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -92,8 +92,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
-			actorName = "Mikasa",
 			dir = 1,
+			actorName = "Mikasa",
 			say = "However, I have finally overcome all that! Step up! Have a look-see! Feast your eyes upon the collection I poured my blood, sweat, and tears into!",
 			effects = {
 				{
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mikasa",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "This is incredible! Who knew Mikasa was collecting all these model ships?",
 			effects = {
 				{
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "She's even got models of our esteemed seeeniors from the First Carrier Division~",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "She's even got models of our esteemed seeeniors from the First Carrier Division~",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -294,15 +294,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_sanli_cg_2",
-			actorName = "Kisaragi",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "Kisaragi",
 			say = "Mu-Mutsuki, let go...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -327,12 +327,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mutsuki",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "Hurry, Kisaragi, c'mere! She's got models of us Mutsuki-class ships~",
+			dir = 1,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kisaragi",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mikasa",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -395,15 +395,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_sanli_cg_3",
-			actorName = "Mutsuki",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "Mutsuki",
 			say = "Huh? What's that?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -428,12 +428,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kisaragi",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "Aaaahhh! Mu-Mutsuki, don't push it... That button says \"Danger, do not push\"...",
+			dir = 1,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -448,8 +448,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mutsuki",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -464,8 +464,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mutsuki",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -480,12 +480,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
 			bgName = "bg_sanli_cg_2",
-			soundeffect = "event:/battle/boom1",
-			dir = 1,
 			say = "A heavy rumbling sound echoed throughout the room as the floor began to shake violently.",
+			dir = 1,
+			side = 2,
+			soundeffect = "event:/battle/boom1",
 			flashN = {
 				color = {
 					1,
@@ -524,13 +524,13 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh no. That sound... it's the self-destruct system?!",
 			soundeffect = "event:/battle/boom1",
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "Oh no. That sound... it's the self-destruct system?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,8 +541,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "Wh-why does your collection have a self-destruct system?!",
 			typewriter = {
 				speed = 0.05,
@@ -567,8 +567,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -577,12 +577,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "For... well... you need to be prepared, just in case...",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "For... well... you need to be prepared, just in case...",
+			actor = 305110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -597,14 +597,14 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			actorName = "{namecode:96}",
 			dir = 1,
-			side = 2,
-			say = "Look out, Mikasa!",
 			soundeffect = "event:/battle/boom1",
+			actor = 305110,
+			say = "Look out, Mikasa!",
 			flashN = {
 				color = {
 					1,
@@ -655,16 +655,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = -900,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 1500
@@ -672,8 +672,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:82}",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -684,8 +684,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "With another loud rumble, the entire collection room began to crumble.",
 			typewriter = {
@@ -710,17 +710,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "bg_sanli_cg_4",
-			actorName = "Mikasa",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "But... but why...? Waaaahhhh!",
+			bgName = "bg_sanli_cg_4",
 			bgm = "story-1",
+			actorName = "Mikasa",
+			say = "But... but why...? Waaaahhhh!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -745,8 +745,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mikasa",
+			side = 2,
 			bgName = "bg_sanli_cg_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -761,8 +761,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Zuikaku",
+			side = 2,
 			bgName = "bg_sanli_cg_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -809,12 +809,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "Good idea, Shoukaku! I'm on my way!",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Good idea, Shoukaku! I'm on my way!",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -829,8 +829,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -839,8 +839,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Mikasa spent the entire day completely inconsolable.",
 			typewriter = {
@@ -849,8 +849,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "When Zuikaku brought news of what had happened to the other Sakura ships, they all came together for the common purpose of restoring their former flagship's collection to its former glory.",
 			typewriter = {

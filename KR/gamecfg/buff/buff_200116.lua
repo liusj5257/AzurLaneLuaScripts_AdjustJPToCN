@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动 BOSS技能 冲裂波",
 	time = 1,
-	color = "red",
+	name = "2022莱莎联动 BOSS技能 冲裂波",
+	init_effect = "",
+	id = 200116,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200116,
+	color = "red",
 	icon = 200116,
 	last_effect = "",
 	effect_list = {

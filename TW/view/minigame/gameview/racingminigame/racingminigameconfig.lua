@@ -1,11 +1,11 @@
 return {
+	TIME_INTERVAL = 0.016666666666666666,
 	ALL_TIME = 45,
+	OBSTACLE_POWER_BLOCK = 20,
+	INVINCIBLE_TIME = 5,
 	BOOST_BUTTON_TYPE_CHANGE = false,
 	Y_OBSTACLE_REDUCE = 0.1,
 	Y_COVER_TIME = 0.28,
-	INVINCIBLE_TIME = 5,
-	OBSTACLE_POWER_BLOCK = 20,
-	TIME_INTERVAL = 0.016666666666666666,
 	ITEM_ADD_TIME = 5,
 	BOOST_RATE = {
 		-40,
@@ -54,9 +54,9 @@ return {
 	},
 	FIELD_CONFIG = {
 		{
+			time = 0,
 			bye_plus = 0.2,
 			recharge_dis = 1700,
-			time = 0,
 			continue_reduce = 0.03,
 			obstacle_distribution = {
 				{
@@ -100,9 +100,9 @@ return {
 			}
 		},
 		{
+			time = 10,
 			bye_plus = 0.09,
 			recharge_dis = 1600,
-			time = 10,
 			continue_reduce = 0.05,
 			obstacle_distribution = {
 				{
@@ -146,9 +146,9 @@ return {
 			}
 		},
 		{
+			time = 25,
 			bye_plus = 0.14,
 			recharge_dis = 1600,
-			time = 25,
 			continue_reduce = 0.1,
 			obstacle_distribution = {
 				{

@@ -1,16 +1,16 @@
 slot0 = class("ContextMediator", pm.Mediator)
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0:initNotificationHandleDic()
 	uv0.super.Ctor(slot0, nil, slot1)
 end
 
-function slot0.initNotificationHandleDic(slot0)
-	slot0.handElse = nil
+slot0.initNotificationHandleDic = function(slot0)
+	slot0.handleElse = nil
 	slot0.handleDic = nil
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	if slot0.handleDic then
 		return underscore.keys(slot0.handleDic)
 	else
@@ -18,15 +18,15 @@ function slot0.listNotificationInterests(slot0)
 	end
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	if slot0.handleDic then
-		switch(slot1:getName(), slot0.handleDic, slot0.handElse, slot0, slot1)
+		switch(slot1:getName(), slot0.handleDic, slot0.handleElse, slot0, slot1)
 	else
 		uv0.super.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.onRegister(slot0)
+slot0.onRegister = function(slot0)
 	slot0.event = {}
 
 	slot0:bind(BaseUI.ON_BACK_PRESSED, function (slot0, slot1)
@@ -102,7 +102,7 @@ function slot0.onRegister(slot0)
 		seriesAsync(slot2, slot1.removeFunc)
 	end)
 
-	function slot1(slot0, slot1)
+	slot1 = function(slot0, slot1)
 		slot4 = {}
 
 		for slot8, slot9 in pairs(getProxy(BayProxy):getNewShip(true)) do
@@ -151,7 +151,7 @@ function slot0.onRegister(slot0)
 		end
 	end
 
-	function slot2(slot0, slot1)
+	slot2 = function(slot0, slot1)
 		for slot5, slot6 in pairs(slot0) do
 			if slot6.type == DROP_TYPE_SKIN and pg.ship_skin_template[slot6.id].skin_type ~= ShipSkin.SKIN_TYPE_REMAKE and not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot6.id) then
 				table.insert(slot1, function (slot0)
@@ -191,7 +191,7 @@ function slot0.onRegister(slot0)
 		end
 	end
 
-	function slot3(slot0, slot1)
+	slot3 = function(slot0, slot1)
 		slot2 = 0
 
 		for slot6, slot7 in ipairs(slot0) do
@@ -280,7 +280,7 @@ function slot0.onRegister(slot0)
 	slot0:register()
 end
 
-function slot0.commonBind(slot0)
+slot0.commonBind = function(slot0)
 	uv0.CommonBindDic = uv0.CommonBindDic or {
 		[BaseUI.ON_DROP] = function (slot0, slot1, slot2, slot3)
 			if slot2.type == DROP_TYPE_EQUIP then
@@ -419,17 +419,17 @@ function slot0.commonBind(slot0)
 	end
 end
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 end
 
-function slot0.onUIAvalible(slot0)
+slot0.onUIAvalible = function(slot0)
 end
 
-function slot0.setContextData(slot0, slot1)
+slot0.setContextData = function(slot0, slot1)
 	slot0.contextData = slot1
 end
 
-function slot0.bind(slot0, slot1, slot2)
+slot0.bind = function(slot0, slot1, slot2)
 	slot0.viewComponent.event:connect(slot1, slot2)
 	table.insert(slot0.event, {
 		event = slot1,
@@ -437,7 +437,7 @@ function slot0.bind(slot0, slot1, slot2)
 	})
 end
 
-function slot0.onRemove(slot0)
+slot0.onRemove = function(slot0)
 	slot0:remove()
 
 	for slot4, slot5 in ipairs(slot0.event) do
@@ -447,20 +447,16 @@ function slot0.onRemove(slot0)
 	slot0.event = {}
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 end
 
-function slot0.addSubLayers(slot0, slot1, slot2, slot3, slot4)
+slot0.addSubLayers = function(slot0, slot1, slot2, slot3, slot4)
 	assert(isa(slot1, Context), "should be an instance of Context")
 
 	slot5 = slot0:GetContext()
 
 	if slot2 then
 		while slot5.parent do
-			slot5 = slot5.parent
-		end
-	elseif not slot1.data.isSubView then
-		while slot5.data.isSubView do
 			slot5 = slot5.parent
 		end
 	end
@@ -478,7 +474,7 @@ function slot0.addSubLayers(slot0, slot1, slot2, slot3, slot4)
 	slot0:sendNotification(GAME.LOAD_LAYERS, slot6)
 end
 
-function slot0.switchLayersOnParent(slot0, slot1, slot2)
+slot0.switchLayersOnParent = function(slot0, slot1, slot2)
 	assert(isa(slot1, Context), "should be an instance of Context")
 
 	slot4 = slot0:GetContext().parent
@@ -504,11 +500,11 @@ function slot0.switchLayersOnParent(slot0, slot1, slot2)
 	slot0:sendNotification(GAME.LOAD_LAYERS, slot5)
 end
 
-function slot0.GetContext(slot0)
+slot0.GetContext = function(slot0)
 	return getProxy(ContextProxy):getCurrentContext():getContextByMediator(slot0.class)
 end
 
-function slot0.blockEvents(slot0)
+slot0.blockEvents = function(slot0)
 	if slot0.event then
 		for slot4, slot5 in ipairs(slot0.event) do
 			slot0.viewComponent.event:block(slot5.event, slot5.callback)
@@ -516,7 +512,7 @@ function slot0.blockEvents(slot0)
 	end
 end
 
-function slot0.unblockEvents(slot0)
+slot0.unblockEvents = function(slot0)
 	if slot0.event then
 		for slot4, slot5 in ipairs(slot0.event) do
 			slot0.viewComponent.event:unblock(slot5.event, slot5.callback)
@@ -524,7 +520,7 @@ function slot0.unblockEvents(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0, slot1)
+slot0.onBackPressed = function(slot0, slot1)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	slot2 = getProxy(ContextProxy)
@@ -538,7 +534,7 @@ function slot0.onBackPressed(slot0, slot1)
 	end
 end
 
-function slot0.removeSubLayers(slot0, slot1, slot2)
+slot0.removeSubLayers = function(slot0, slot1, slot2)
 	assert(isa(slot1, uv0), "should be a ContextMediator Class")
 
 	if not getProxy(ContextProxy):getContextByMediator(slot0.class or slot0) then

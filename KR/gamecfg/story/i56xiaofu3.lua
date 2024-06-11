@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "I56XIAOFU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "I56XIAOFU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"외톨이 해바라기\n\n<size=45>3. 새로운 동료?</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_103",
 			bgm = "story-1",
 			actor = 308041,
 			nameColor = "#a9f548",
 			say = "앗, 너...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "어어어억(엉덩이에 깔렸어)...나, 난 이56이야.",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -114,10 +114,10 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 408070,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "갑자기 튀어나와서 놀랐지? 미안해.",
+			dir = 1,
+			actor = 408070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -183,8 +183,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			nameColor = "#a9f548",
 			say = "히히, 마침 재미있는 일 없나 하던 중이었거든. 뭔가 아이디어 있으면 이야기 해주지 않을래?",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = 1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "재미있는 일이라...글쎄...없는 것 같은데...56은 어때?",
 			typewriter = {
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 408070,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408070,
+			nameColor = "#a9f548",
 			say = "흥~학교에 재미있는 일이 뭐가 있어?",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -275,8 +275,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "이26은 U81이랑 숨바꼭질을 하거나 데이스랑 훈련을 하더라고...",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 308051,
 			dir = 1,
+			actor = 308051,
 			nameColor = "#a9f548",
 			say = "U73이랑 이19는 모든 사람이랑 잘 어울리고, 이13은 항모들이랑 잘 놀아. 그래서 좀...음...",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 308041,
 			dir = 1,
+			actor = 308041,
 			nameColor = "#a9f548",
 			say = "...56, 너 생각보다 사람들한테 관심이 많았구나...",
 			typewriter = {
@@ -374,8 +374,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			nameColor = "#a9f548",
 			say = "좋아! 다음에 학교 오면 알바코어랑 놀아야지~!",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 35,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -398,11 +398,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "큰일났다! 늦겠어!",
 			dialogShake = {
 				speed = 0.09,
@@ -425,11 +425,11 @@ return {
 			}
 		},
 		{
-			actor = 308051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 308051,
+			nameColor = "#a9f548",
 			say = "또, 또 누구야?",
 			effects = {
 				{
@@ -447,8 +447,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

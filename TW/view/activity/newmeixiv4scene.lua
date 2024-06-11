@@ -1,14 +1,14 @@
 slot0 = class("NewMeixiV4Scene", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewMeixiV4UI"
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return true
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.ani = slot0:findTF("TV01")
 	slot0.progress = slot0:findTF("progress/Text")
 	slot0.nodes = slot0:findTF("nodes")
@@ -23,7 +23,7 @@ function slot0.init(slot0)
 	slot0.memoryGroup = slot1.config_client.memoryGroup
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("top/back_btn"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SOUND_BACK)
@@ -41,17 +41,17 @@ function slot0.didEnter(slot0)
 	slot0:updateNodes()
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 
 	slot0:onUpdateRes(slot1)
 end
 
-function slot0.onUpdateRes(slot0, slot1)
+slot0.onUpdateRes = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.playAni(slot0)
+slot0.playAni = function(slot0)
 	SetActive(slot0.ani, true)
 	slot0.ani:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
 		SetActive(uv0.ani, false)
@@ -59,7 +59,7 @@ function slot0.playAni(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_WARNING)
 end
 
-function slot0.setCurIndex(slot0)
+slot0.setCurIndex = function(slot0)
 	slot0.curIndex = 1
 	slot0.clearTaskNum = 0
 	slot0.clearTaskNum = (function ()
@@ -85,7 +85,7 @@ function slot0.setCurIndex(slot0)
 	slot0.curIndex = slot0.curIndex + slot0.clearTaskNum
 end
 
-function slot0.updateNodes(slot0)
+slot0.updateNodes = function(slot0)
 	slot0:setCurIndex()
 	setText(slot0.titleTxt, "POSITION " .. string.format("%02d", slot0.curIndex))
 	setText(slot0.titleNum, string.format("%02d", slot0.curIndex))
@@ -100,7 +100,7 @@ function slot0.updateNodes(slot0)
 	slot0:updateNodeInfo(slot0.curIndex)
 end
 
-function slot0.nodeInfoTween(slot0, slot1)
+slot0.nodeInfoTween = function(slot0, slot1)
 	slot2 = tf(slot0:findTF(tostring(slot1), slot0.nodes)).localPosition
 
 	if slot1 == 9 then
@@ -111,13 +111,13 @@ function slot0.nodeInfoTween(slot0, slot1)
 		slot2.y = slot2.y - 20
 	end
 
-	function slot3()
+	slot3 = function()
 		setLocalPosition(uv0.nodeInfo, Vector3(uv1.x, uv1.y + 120, 0))
 		setLocalScale(uv0.nodeInfo, Vector3(0, 0, 0))
 		LeanTween.scale(tf(uv0.nodeInfo), Vector3.one, 0.1)
 	end
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		setLocalScale(uv0.nodeInfo, Vector3(1, 1, 1))
 
 		slot1 = LeanTween.scale(tf(uv0.nodeInfo), Vector3.zero, 0.1)
@@ -137,7 +137,7 @@ function slot0.nodeInfoTween(slot0, slot1)
 	end
 end
 
-function slot0.updateNodeInfo(slot0, slot1)
+slot0.updateNodeInfo = function(slot0, slot1)
 	updateActivityTaskStatus(getProxy(ActivityProxy):getActivityById(ActivityConst.NEWMEIXIV4_SKIRMISH_ID))
 
 	slot4 = slot0.taskProxy:getTaskById(slot0.contextData.taskList[slot1]) or slot0.taskProxy:getFinishTaskById(slot3)
@@ -178,7 +178,7 @@ function slot0.updateNodeInfo(slot0, slot1)
 	slot0:nodeInfoTween(slot1)
 end
 
-function slot0.onUpdateTask(slot0)
+slot0.onUpdateTask = function(slot0)
 	slot1 = slot0.contextData.taskList[slot0.curIndex]
 
 	for slot5, slot6 in pairs(slot0.storyGroup) do
@@ -190,7 +190,7 @@ function slot0.onUpdateTask(slot0)
 	slot0:updateNodes()
 end
 
-function slot0.getStory(slot0, slot1, slot2)
+slot0.getStory = function(slot0, slot1, slot2)
 	setActive(slot0.storyTip, true)
 
 	slot4 = pg.NewStoryMgr.GetInstance()
@@ -222,7 +222,7 @@ function slot0.getStory(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	setActive(slot0.storyTip, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.storyTip)
 end

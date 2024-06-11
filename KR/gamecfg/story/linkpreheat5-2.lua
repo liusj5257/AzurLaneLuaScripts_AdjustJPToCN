@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT5-2",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT5-2",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level-uta",
 			dir = 1,
 			say = "아앗! 저기 보이는 건! 적 함대에요!",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,8 +118,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			actorName = "우루루？",
 			say = "…………",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10300050,
 			dir = 1,
+			actor = 10300050,
 			actorName = "사라나?",
 			say = "…………",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "쟤네들 가짜.",
 			typewriter = {
 				speed = 0.05,
@@ -167,10 +167,10 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			say = "역시, 저희의 모습과 능력을 따라한 환영이군요. 혼에 색깔이 없습니다.",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#92fc63",
-			dir = 1,
-			say = "역시, 저희의 모습과 능력을 따라한 환영이군요. 혼에 색깔이 없습니다.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

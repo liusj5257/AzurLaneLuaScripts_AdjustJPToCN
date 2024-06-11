@@ -6,8 +6,8 @@ return {
 		{
 			actor = 107060,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = -1,
+			nameColor = "#92fc63",
 			say = "\"AF는 담수 부족이라는 문제가 있으므로, 공격 계획은 이를 고려할 것.\"이라고? 대어가 낚였군.",
 			shake = {
 				speed = 1,
@@ -23,11 +23,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 1,
-			nameColor = "#92fc63",
-			dir = -1,
 			say = "아무리 약삭빠른 여우라도 꼬리마저 감추진 못하는 거네, 헤헤헤.",
+			dir = -1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -66,8 +66,8 @@ return {
 		{
 			actor = 107060,
 			side = 0,
-			nameColor = "#92fc63",
 			dir = -1,
+			nameColor = "#92fc63",
 			say = "하지만 요크타운 언니, 언니의 부상은 아직...",
 			shake = {
 				speed = 1,
@@ -121,8 +121,8 @@ return {
 		{
 			actor = 107060,
 			side = 0,
-			nameColor = "#92fc63",
 			dir = -1,
+			nameColor = "#92fc63",
 			say = "아아, 뭐......",
 			shake = {
 				speed = 1,
@@ -156,10 +156,10 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			actorShadow = true,
-			actorName = "엔터프라이즈＆호넷",
 			side = 0,
+			actorName = "엔터프라이즈＆호넷",
+			actor = 107060,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#92fc63",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			sequenceSpd = 2,
 			mode = 1,
+			sequenceSpd = 2,
 			bgFade = true,
 			effects = {
 				{

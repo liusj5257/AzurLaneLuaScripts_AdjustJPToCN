@@ -5,28 +5,28 @@ return {
 	id = "LINGHANGYUANYANGCHENGJIHUA17",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room2",
+			bgm = "qe-ova-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The school is hosting a camping trip for the students, which of course includes TB.",
-			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -49,9 +49,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-2-shock1",
+			dir = 1,
+			tbActor = true,
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -69,9 +69,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-2-answer2",
+			dir = 1,
+			tbActor = true,
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "She certainly has grown, but she's still too young to be left alone in a place with gas flames and sharp knives.",
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-2-answer3",
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-2-answer3",
+			tbActor = true,
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "She has a point, actually. I let her do it once when she was younger, and she's only grown since then.",
@@ -163,27 +163,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_project_tb_room2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_project_tb_room2",
 			say = "40 minutes later...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -191,14 +191,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Hey... How come the egg always burns when I try to fry it?",
 			voice = "event:/educate/tb/educate-tb-story-2-15",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Hey... How come the egg always burns when I try to fry it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,17 +208,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
 			say = "Shaking the pan, she shoots me a confused look. The surface of the still-soft yolk breaks and the inside spills out everywhere.",
@@ -237,14 +237,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I'm doing it EXACTLY like you showed me...",
 			voice = "event:/educate/tb/educate-tb-story-2-16",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I'm doing it EXACTLY like you showed me...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,8 +267,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
 			say = "She gives a sideways glance to the plate of failed previous attempts and a look of hopelessness creeps through on her face.",
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
 			say = "I taught her how to do it in detail and took precautions so she wouldn't hurt herself...",
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
 			say = "Even so, she's at risk of being burned by the fire and the drops of sizzling oil flying everywhere, which she doesn't seem to fear in the least. I'm worried that her sense of danger may be underdeveloped.",
@@ -312,27 +312,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_project_tb_room2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_project_tb_room2",
 			say = "Determined not to let food go to waste, TB ate all the fried eggs she burned over her many attempts.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "I think she won't want to even hear the word \"egg\" for a while.",

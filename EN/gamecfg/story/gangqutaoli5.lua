@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Escape from the Port?\n\n<size=45>Chapter 5 - Mission Failed...?</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 407010,
-			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "In other words, your high-energy laser experiment went awry, and accidentally created these kids?",
 			bgm = "story-1",
+			actor = 407010,
+			nameColor = "#a9f548",
+			say = "In other words, your high-energy laser experiment went awry, and accidentally created these kids?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,8 +135,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "So I was the one who was wrong... I hate... being so immature...!",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "G-got it, nya! I'm sorry, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "A grown up version of me... I'm sure she's even more amazing at cooking...",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "Impossible... Even though I'm supposed to be the first carrier of the Iron Blood... there are actually two...?",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -373,15 +373,15 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 304060,
+			nameColor = "#a9f548",
 			say = "I suppose that's one thing taken care of... But moving forward, I don't know if I'll be able to fit in...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -486,17 +486,17 @@ return {
 			}
 		},
 		{
-			actor = 307090,
 			actorName = "???",
-			blackBg = true,
 			side = 2,
 			dir = 1,
 			stopngm = true,
+			blackBg = true,
+			actor = 307090,
 			nameColor = "#a9f548",
 			say = "——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -521,12 +521,12 @@ return {
 			}
 		},
 		{
-			actor = 307090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "???",
 			dir = 1,
 			blackBg = true,
+			actor = 307090,
+			actorName = "???",
 			say = "Of course, ahaha...",
 			typewriter = {
 				speed = 0.05,

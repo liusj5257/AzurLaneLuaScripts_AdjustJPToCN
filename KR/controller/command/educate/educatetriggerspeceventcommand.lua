@@ -1,6 +1,6 @@
 slot0 = class("EducateTriggerSpecEventCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody() and slot2.callback
 	slot4 = slot2.eventId
 	slot5 = pg.child_event_special[slot4].type

@@ -1,16 +1,16 @@
 slot0 = class("ChargeGiftShopView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ChargeGiftShopUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:Show()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot1 = pairs
 	slot2 = slot0.chargeCardTable or {}
 
@@ -21,7 +21,7 @@ function slot0.OnDestroy(slot0)
 	slot0:removeUpdateTimer()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.giftGoodsVOList = {}
 	slot0.giftGoodsVOListForShow = {}
 	slot0.updateTime = nil
@@ -31,7 +31,7 @@ function slot0.initData(slot0)
 	slot0:updateData()
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.lScrollRect = GetComponent(slot0._tf, "LScrollRect")
 	slot0.chargeCardTable = {}
 
@@ -39,10 +39,10 @@ function slot0.initUI(slot0)
 	slot0:updateScrollRect()
 end
 
-function slot0.initScrollRect(slot0, slot1, slot2, slot3)
+slot0.initScrollRect = function(slot0, slot1, slot2, slot3)
 	slot0.chargeCardTable = {}
 
-	function slot0.lScrollRect.onInitItem(slot0)
+	slot0.lScrollRect.onInitItem = function(slot0)
 		slot1 = ChargeCard.New(slot0)
 
 		onButton(uv0, slot1.tr, function ()
@@ -70,7 +70,7 @@ function slot0.initScrollRect(slot0, slot1, slot2, slot3)
 		uv0.chargeCardTable[slot0] = slot1
 	end
 
-	function slot0.lScrollRect.onUpdateItem(slot0, slot1)
+	slot0.lScrollRect.onUpdateItem = function(slot0, slot1)
 		if not uv0.chargeCardTable[slot1] then
 			uv1(slot1)
 
@@ -83,11 +83,11 @@ function slot0.initScrollRect(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateScrollRect(slot0)
+slot0.updateScrollRect = function(slot0)
 	slot0.lScrollRect:SetTotalCount(#slot0.giftGoodsVOListForShow, slot0.lScrollRect.value)
 end
 
-function slot0.confirm(slot0, slot1)
+slot0.confirm = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -200,9 +200,9 @@ function slot0.confirm(slot0, slot1)
 		end
 
 		slot0:emit(ChargeMediator.OPEN_CHARGE_ITEM_PANEL, {
-			isMonthCard = false,
 			isChargeType = false,
 			isLocalPrice = false,
+			isMonthCard = false,
 			icon = slot4.icon,
 			name = slot4.name,
 			tipExtra = i18n("charge_title_getitem"),
@@ -221,7 +221,7 @@ function slot0.confirm(slot0, slot1)
 	end
 end
 
-function slot0.updateGiftGoodsVOList(slot0)
+slot0.updateGiftGoodsVOList = function(slot0)
 	slot0.giftGoodsVOList = {}
 	slot1 = RefluxShopView.getAllRefluxPackID()
 
@@ -248,7 +248,7 @@ function slot0.updateGiftGoodsVOList(slot0)
 	end
 end
 
-function slot0.sortGiftGoodsVOList(slot0)
+slot0.sortGiftGoodsVOList = function(slot0)
 	slot0.giftGoodsVOListForShow = {}
 
 	for slot4, slot5 in ipairs(slot0.giftGoodsVOList) do
@@ -281,7 +281,7 @@ function slot0.sortGiftGoodsVOList(slot0)
 		end
 	end
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		slot2 = 0
 
 		return type(slot0:getConfig("time")) == "string" and slot2 + 999999999999.0 or type(slot1) == "table" and (pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[2]) - pg.TimeMgr.GetInstance():GetServerTime() > 0 and slot2 or 999999999999.0) or slot2 + 999999999999.0
@@ -324,28 +324,28 @@ function slot0.sortGiftGoodsVOList(slot0)
 	}))
 end
 
-function slot0.updateGoodsData(slot0)
+slot0.updateGoodsData = function(slot0)
 	slot0.firstChargeIds = slot0.contextData.firstChargeIds
 	slot0.chargedList = slot0.contextData.chargedList
 	slot0.normalList = slot0.contextData.normalList
 	slot0.normalGroupList = slot0.contextData.normalGroupList
 end
 
-function slot0.setGoodData(slot0, slot1, slot2, slot3, slot4)
+slot0.setGoodData = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.firstChargeIds = slot1
 	slot0.chargedList = slot2
 	slot0.normalList = slot3
 	slot0.normalGroupList = slot4
 end
 
-function slot0.updateData(slot0)
+slot0.updateData = function(slot0)
 	slot0.player = getProxy(PlayerProxy):getData()
 
 	slot0:updateGiftGoodsVOList()
 	slot0:sortGiftGoodsVOList()
 end
 
-function slot0.addUpdateTimer(slot0, slot1)
+slot0.addUpdateTimer = function(slot0, slot1)
 	slot3 = pg.TimeMgr.GetInstance():Table2ServerTime(slot1)
 
 	if slot0.updateTime and slot2:Table2ServerTime(slot0.updateTime) < slot3 then
@@ -367,7 +367,7 @@ function slot0.addUpdateTimer(slot0, slot1)
 	slot0.updateTimer.func()
 end
 
-function slot0.removeUpdateTimer(slot0)
+slot0.removeUpdateTimer = function(slot0)
 	if slot0.updateTimer then
 		slot0.updateTimer:Stop()
 
@@ -375,12 +375,12 @@ function slot0.removeUpdateTimer(slot0)
 	end
 end
 
-function slot0.reUpdateAll(slot0)
+slot0.reUpdateAll = function(slot0)
 	slot0:updateData()
 	slot0:updateScrollRect()
 end
 
-function slot0.fliteTecShipGift(slot0, slot1)
+slot0.fliteTecShipGift = function(slot0, slot1)
 	if slot1:isChargeType() and slot1:isTecShipShowGift() then
 		if slot1:isLevelLimit(slot0.player.level, true) then
 			return false

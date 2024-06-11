@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "볼티모어 일행이 라이브 준비를 하고 있던 때——",
 			side = 2,
 			bgName = "bg_jichang_1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "idol-BlueSpirit-inst",
+			say = "볼티모어 일행이 라이브 준비를 하고 있던 때——",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -115,8 +115,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "아아, 지휘관님. 아이돌 다이호의 모습을 다른 아이들에게 선보여 버렸답니다. 너무 아쉬운 점이에요…… 이런 모습은 지휘관님에게만 보여야 하는 것인데……",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -164,8 +164,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 403080,
 			dir = 1,
+			actor = 403080,
 			nameColor = "#a9f548",
 			say = "지휘관님의 시선을 사로잡으려면 그래선 안 돼요.",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "……맞는 말이네요. 그러니 지휘관님을 생각하기만 한다면, 제 무대는 완벽할 거예요.",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 403080,
 			dir = 1,
+			actor = 403080,
 			nameColor = "#a9f548",
 			say = "「우리의 무대」, 겠지요?",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "네, 맞아요. 우리의「μ장비」공연…… 후후♡",
 			typewriter = {
@@ -229,15 +229,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_jichang_1",
-			actorName = "？？？",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "？？？",
 			say = "「인간이 바치는 노래에, 신을 경외하는 감정이 가득 담기니.」",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_jichang_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
+			dir = 1,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -311,11 +311,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
+			actorName = "르 트리옹팡",
 			dir = 1,
 			blackBg = true,
 			actor = 901120,
-			actorName = "르 트리옹팡",
+			nameColor = "#a9f548",
 			say = "「언니, 아이리스의 우아함을 모두에게 보여주세요.」",
 			typewriter = {
 				speed = 0.05,

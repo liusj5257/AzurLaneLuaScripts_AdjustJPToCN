@@ -1,19 +1,19 @@
 return {
-	id = "MAOZIHUODONG21",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG21",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			bgm = "bgm-cccp",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 705010,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "啊哈哈哈哈！全都成為我等революция(革命)的基石吧！",
-			bgm = "bgm-cccp",
 			flashN = {
 				color = {
 					1,
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			say = "哼，又是塞壬的棋子嗎？吃我一炮！",
 			typewriter = {
 				speed = 0.05,
@@ -107,10 +107,10 @@ return {
 			}
 		},
 		{
+			say = "轟——！",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "轟——！",
 			flashN = {
 				color = {
 					1,
@@ -161,8 +161,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			say = "哦？還挺敏捷的，直接躲開了砲彈，那就再來一炮——",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -216,15 +216,15 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 107030,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "我！說！幹嘛突然向我們開火啊！萬一誤傷了怎麼辦啊！",
 			bgm = "xinnong-3",
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "我！說！幹嘛突然向我們開火啊！萬一誤傷了怎麼辦啊！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,8 +252,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			say = "啊哈哈哈！早就聽說白鷹的損管裝置世界第一，就算不小心命中了，也不會有太大問題吧！",
 			typewriter = {
 				speed = 0.05,
@@ -267,9 +267,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "妳這個邏輯本身就很有問題啊！",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,8 +324,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "就算是為了確認身份…難道北方聯合相互之間確認相互身份的時候，都是用這種方式的嗎？！",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "啊，那倒是不會，我們一般都用通訊聯絡…",
 			typewriter = {
 				speed = 0.05,
@@ -355,9 +355,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "啊啊啊啊！氣死我了！！",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -427,8 +427,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "對了，在指揮官同志不在的時候是妳在指揮作戰嗎，白鷹的…驅逐艦？",
 			typewriter = {
 				speed = 0.05,
@@ -442,9 +442,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "…噗！",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -469,8 +469,8 @@ return {
 			expression = 4,
 			side = 2,
 			actor = 107030,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "妳·說·誰·是·驅·逐·艦啊啊啊啊啊啊啊啊！！！",
 			effects = {
 				{
@@ -495,9 +495,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "也許妳們在北方聯合的時候沒見過，這個是航空甲板，看到了嗎！我可是名副其實的航空母艦啊！",
 			effects = {
 				{
@@ -515,8 +515,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -528,8 +528,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "欸？！竟然是航空母艦嗎？！感覺和驅逐艦差不多呢，跟傳聞中的不太一樣，看上去也不怎麼強",
 			typewriter = {
 				speed = 0.05,
@@ -543,9 +543,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "氣死我了啊啊啊啊！！！！！！要不比比看這波塞壬艦隊哪邊消滅得更多？讓妳們親眼見識下白鷹正規航母的實力！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -557,8 +557,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -582,10 +582,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "北方聯合眾人",
+			side = 2,
 			dir = 1,
+			actorName = "北方聯合眾人",
 			say = "Ура!",
 			effects = {
 				{

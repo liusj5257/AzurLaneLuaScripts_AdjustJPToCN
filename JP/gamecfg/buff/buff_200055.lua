@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "2022武藏活动 海雾弥散 敌我双方航母以外的单位的命中率下降",
 	init_effect = "field_mistSTG",
+	name = "2022武藏活动 海雾弥散 敌我双方航母以外的单位的命中率下降",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200055,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffField",

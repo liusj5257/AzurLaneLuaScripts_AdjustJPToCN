@@ -1,18 +1,18 @@
 slot0 = class("SelectTechnologyLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SelectTechnologyUI"
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return true
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.playerVO = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		weight = LayerWeightConst.LOWER_LAYER
 	})
@@ -43,7 +43,7 @@ function slot0.init(slot0)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:checkSystemOpen("ShipBluePrintMediator", slot0.bluePrintBtn)
 	slot0:checkSystemOpen("TechnologyMediator", slot0.technologyBtn)
 	slot0:checkSystemOpen("EquipmentTransformTreeMediator", slot0.transformBtn)
@@ -81,7 +81,7 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.checkSystemOpen(slot0, slot1, slot2)
+slot0.checkSystemOpen = function(slot0, slot1, slot2)
 	if slot1 == "MetaCharacterMediator" then
 		slot3 = true
 
@@ -125,27 +125,27 @@ function slot0.checkSystemOpen(slot0, slot1, slot2)
 	end
 end
 
-function slot0.notifyTechnology(slot0, slot1)
+slot0.notifyTechnology = function(slot0, slot1)
 	setActive(slot0.technologyBtnTip, slot1)
 end
 
-function slot0.notifyBlueprint(slot0, slot1)
+slot0.notifyBlueprint = function(slot0, slot1)
 	setActive(slot0.bluePrintBtnTip, slot1)
 end
 
-function slot0.notifyFleet(slot0, slot1)
+slot0.notifyFleet = function(slot0, slot1)
 	setActive(slot0.fleetBtnTip, slot1)
 end
 
-function slot0.notifyTransform(slot0, slot1)
+slot0.notifyTransform = function(slot0, slot1)
 	setActive(slot0.transformBtnTip, slot1)
 end
 
-function slot0.notifyMeta(slot0, slot1)
+slot0.notifyMeta = function(slot0, slot1)
 	setActive(slot0.metaBtnTip, slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

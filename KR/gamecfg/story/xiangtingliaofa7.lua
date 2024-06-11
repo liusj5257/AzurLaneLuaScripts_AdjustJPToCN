@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "story-6",
 			actor = 102230,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이상해…너무 쉽잖아.",
-			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "설마.....",
 			typewriter = {
 				speed = 0.05,
@@ -70,10 +70,10 @@ return {
 			}
 		},
 		{
+			say = "쿵──────",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "쿵──────",
 			flashN = {
 				color = {
 					1,
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "♪~",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "즉시 요새 근해로 철수한다. 고된 전투가 시작되겠어.",
 			typewriter = {
 				speed = 0.05,

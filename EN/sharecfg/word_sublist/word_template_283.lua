@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_283 = {}
 slot1 = slot0.word_template_283
 
-function temp()
+temp = function()
 	uv0["透"] = {
 		s = {
 			h = {
@@ -113,7 +113,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["凸"] = {
 		["你"] = {
 			this = true
@@ -160,7 +160,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["禿"] = {
 		["鷹"] = {
 			["氣"] = {
@@ -183,7 +183,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["秃"] = {
 		["鹰"] = {
 			q = {
@@ -302,7 +302,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["突"] = {
 		["厥"] = {
 			["斯"] = {
@@ -324,7 +324,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["图"] = {
 		["释"] = {
 			["世"] = {
@@ -396,7 +396,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["徒"] = {
 		["弟"] = {
 			["会"] = {

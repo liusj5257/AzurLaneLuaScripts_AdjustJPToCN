@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023英系活动 EX 第二波 随机攻击-正前方",
 	cd = 0,
-	painting = 0,
-	id = 200289,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200289,
 	effect_list = {
 		{
 			type = "BattleSkillEditCustomWarning",

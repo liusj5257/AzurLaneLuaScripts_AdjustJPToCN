@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Operation: Christmas!\n\n<size=45>Chapter 4: The Shadow over Christmas, Pt. 2</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Saratoga led the two before the door to a room.",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Saratoga led the two before the door to a room.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 102123,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102123,
+			nameColor = "#a9f548",
 			say = "Eeeeek! K-knock before you enter someone else's room!",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,12 +92,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "What are you wearing?! Are you going to offer yourself as a kinky present to the Commander?!",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "What are you wearing?! Are you going to offer yourself as a kinky present to the Commander?!",
+			actor = 107030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_room",
-			actor = 102123,
 			dir = 1,
+			actor = 102123,
 			nameColor = "#a9f548",
 			say = "It's not what you think! Th-this is a... you know, that thing people do... A cosplay! That's the word!",
 			typewriter = {
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 102123,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102123,
+			nameColor = "#a9f548",
 			say = "You couldn't be more wrong if you think I was going to hide in a box wearing this reindeer outfit then pop out and say \"I'll be your present!\" when the Commander opens it!",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -174,8 +174,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102123,
 			dir = 1,
+			actor = 102123,
 			nameColor = "#a9f548",
 			say = "You'd better! And don't speak a word of this to anyone!",
 			typewriter = {
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "Saratoga took the Royal Navy girls and quickly left the room.",
 			typewriter = {
 				speed = 0.05,
@@ -198,15 +198,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "Getting in a box and giving yourself as a present to the Commander... That's an interesting, if unusual idea.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -231,12 +231,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "Warspite, please! It's too bizarre to be worth considering!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Warspite, please! It's too bizarre to be worth considering!",
+			actor = 201100,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -293,9 +293,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "(Fwoosh)",
 			typewriter = {
 				speed = 0.05,
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 107061,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107061,
+			nameColor = "#a9f548",
 			say = "Merry Christmas! Santa's brought presents for you nice girls!",
 			effects = {
 				{
@@ -325,11 +325,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Enty! You're back!",
 			effects = {
 				{
@@ -347,8 +347,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -405,12 +405,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "Not at all, you actually came at the perfect time! We need your help!",
 			typewriter = {
 				speed = 0.05,

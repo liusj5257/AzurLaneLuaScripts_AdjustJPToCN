@@ -14,8 +14,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			say = "「アヤナミ」凄いな…まさか幽霊さんとここまでやりあえるなんて～",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			say = "フッフッフッ,「アヤナミ」の成長を楽しみにしてるよ～",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			say = "で,これから何するのかな？うーん生放送巡り？新番アニメチェック？むむむ悩ましいの…",
@@ -89,9 +89,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			nameColor = "#92fc63",
 			side = 2,
+			dir = 1,
 			say = "（トントン）",
 			typewriter = {
 				speed = 0.05,

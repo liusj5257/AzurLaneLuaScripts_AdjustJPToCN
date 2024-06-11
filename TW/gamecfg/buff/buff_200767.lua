@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "2024同盟活动EX 地狱模式下逐渐变得脆弱",
 	init_effect = "Bossbomb_red",
+	name = "2024同盟活动EX 地狱模式下逐渐变得脆弱",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200767,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200768,
-				target = "TargetSelf",
-				time = 5
+				time = 5,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULVXIEER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULVXIEER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"大大大大好きアタック！\n\n<size=45>三 サンシャインよりも、熱く</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_main_day",
-			hidePaintEquip = true,
 			dir = 1,
 			bgm = "story-richang-2",
+			hidePaintEquip = true,
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_main_day",
 			say = "天気は晴れ！今日もブリュッヒャーとデートして！にゃは☆",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "珍しく2日連続で非番日。朝からブリュッヒャーに母港の商店街に連れてこられた。",
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			say = "せっかくの非番日だからゆっくり休まないか、とブリュッヒャーに聞いてみた。",
 			typewriter = {
@@ -84,14 +84,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "にゃは☆別にへーきよ？指揮官のそばにいるのが、ブリュッヒャーにとっていっちばんの休憩なんだから！",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "にゃは☆別にへーきよ？指揮官のそばにいるのが、ブリュッヒャーにとっていっちばんの休憩なんだから！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,9 +108,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
+			side = 2,
 			say = "まぁいい。ここは彼女に付き合ってあげよう。",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			say = "まずはタピオカ店――",
 			typewriter = {
@@ -152,17 +152,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -170,14 +170,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "にゃは☆はぁい、指揮官の～",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "にゃは☆はぁい、指揮官の～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_104",
 			say = "ブリュッヒャーから押し付けられたミルキィ饅頭に口をつけた。……砂糖マシマシの味でとても甘かった。",
 			typewriter = {
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "次は遊園地――",
 			typewriter = {
@@ -283,17 +283,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -301,14 +301,14 @@ return {
 			}
 		},
 		{
-			actor = 403020,
-			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "にゃは☆指揮官、一緒にあれに乗ろうよ！なんだかすごく楽しそう！",
 			hidePaintEquip = true,
+			actor = 403020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "にゃは☆指揮官、一緒にあれに乗ろうよ！なんだかすごく楽しそう！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,8 +319,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "おしゃべりが好きなブリュッヒャーなら最初はメリーゴーランドに乗るだろうと思っていたが、意外なことにジェットコースターが選ばれた。",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "こういうのは確か「吊り橋効果」って言うんだったか。",
 			typewriter = {
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			say = "とはいえ、嵐の中の指揮艦に比べればジェットコースター程度ではそんなに動じることはないだろう。",
 			typewriter = {
@@ -416,8 +416,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "最後は映画館――",
 			typewriter = {
@@ -454,17 +454,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "傑作と言えるいい映画だが、なぜか海難事故がモチーフだった…",
 			typewriter = {
@@ -539,8 +539,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "手のひらに柔らかい感触。ブリュッヒャーが手を握ってきた。",
 			typewriter = {
@@ -599,8 +599,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

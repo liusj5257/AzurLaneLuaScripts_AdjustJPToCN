@@ -1,12 +1,12 @@
 return {
-	id = "W300001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W300001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "情報を開放しました。次の情報エリアに進入すると、新しい情報を開放できます",
 			typewriter = {
 				speed = 0.05,

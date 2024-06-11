@@ -64,8 +64,8 @@ return {
 				effect = "qingdan_yuanxing_shuixia",
 				speed_x = 0,
 				damage_param_b = 2,
-				damage_buff_id = 400,
 				life_time = 0.2,
+				damage_buff_id = 400,
 				damage_param_a = 10,
 				damage_tag_list = {
 					"spweek_beifa"
@@ -100,10 +100,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 7403
 			}

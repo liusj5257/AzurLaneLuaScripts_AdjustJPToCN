@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Set Sail! An Inspiration-Seeking Journey\n\n<size=45>7 Wellspring of Inspiration</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "Perhaps it was the heat from the bonfire, or perhaps it was the warmth of our bodies pressed together.",
 			bgm = "story-china",
+			say = "Perhaps it was the heat from the bonfire, or perhaps it was the warmth of our bodies pressed together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "I'm not sure when it was that we fell asleep, but when I next open my eyes, the rain had already stopped.",
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "The girl next to me still has her eyes shut, her lips curled into a slight smile, a look of contentment on her face.",
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "As I call out to her, she slowly begins to stir.",
@@ -71,12 +71,12 @@ return {
 			}
 		},
 		{
-			actor = 502070,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh...? Commander?",
 			painting = {
 				alpha = 0.3,
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "When she realizes how \"close\" the two of us are, a familiar blush once again spreads across her cheek.s",
@@ -102,10 +102,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Um, I'm so sorry for what just happened... I don't know what came over me...",
 			painting = {
 				alpha = 0.3,
@@ -129,12 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 502070,
 			side = 2,
 			bgName = "star_level_bg_500",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "C-Commander... Since the rain has stopped, umm.. sh-should we put out the fire and head back?",
 			painting = {
 				alpha = 0.3,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			say = "The embarrassment from her words is so thick that it's almost palpable.",
@@ -169,28 +169,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_518",
+			bgm = "story-richang-10",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We step out from the cave, back into the picturesque scenery we had accidentally discovered.",
-			bgm = "story-richang-10",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			say = "After the rain, the sun shines brightly once more. A rainbow streaks across the clear, blue sky.",
@@ -212,10 +212,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"The seven-colored bridge cleaves the rain, the autumnal sky pristine and clear. Upon the mounts' brow, fresh verdance doth appear.\"",
 			painting = {
 				alpha = 0.3,
@@ -230,10 +230,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Though the seasons don't quite line up, the scene that this poem describes really resonates with me.",
 			painting = {
 				alpha = 0.3,
@@ -248,10 +248,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm so glad that I was able to enjoy such a splendid view together with you, Commander. Going on this camping trip truly was a worthwhile experience.",
 			painting = {
 				alpha = 0.3,
@@ -266,10 +266,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Last but not least, I've found the inspiration to continue my story.",
 			painting = {
 				alpha = 0.3,
@@ -296,10 +296,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes, that's right.",
 			painting = {
 				alpha = 0.3,
@@ -314,10 +314,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The inspiration only came to me because I was with you.",
 			painting = {
 				alpha = 0.3,
@@ -332,10 +332,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "More importantly... When love nestles within your heart, words will flow forth freely like a fountain.",
 			painting = {
 				alpha = 0.3,
@@ -350,10 +350,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 502070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In other words, the wellspring of my inspiration... is none other than you, Commander.",
 			painting = {
 				alpha = 0.3,
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			say = "Hai Tien takes my left hand and gently strokes the ring that she had woven herself. Her adorable smile blooms as brightly as any flower.",

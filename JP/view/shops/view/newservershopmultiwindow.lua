@@ -1,6 +1,6 @@
 slot0 = class("NewServerShopMultiWindow", import("..msgbox.ShopMultiWindow"))
 
-function slot0.InitWindow(slot0, slot1, slot2)
+slot0.InitWindow = function(slot0, slot1, slot2)
 	slot3 = {
 		id = slot1:getConfig("goods")[1],
 		type = slot1:getConfig("type"),

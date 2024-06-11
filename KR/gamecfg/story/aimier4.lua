@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIMIER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIMIER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"무희 천사 에밀\n\n<size=45>참아야 하느니라!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = "1",
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#92fc63",
 			say = "……이번 임무 보고서 제출할게. 지휘관, 확인해줘.",
 			typewriter = {
@@ -63,9 +63,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "보고서와 함께, 됭케르크가 과자가 든 작은 상자를 건넸다.",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			expression = "1",
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#92fc63",
 			say = "그리고… 과자를 좀 만들어봤는데, 지휘관, 먹을래?",
 			typewriter = {
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……그나저나, 됭케르크는 매일 맛있어 보이는 과자를 만드는군……",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			expression = "2",
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#92fc63",
 			say = "어머, 에밀도 있었어? 이리 와서 다 같이 먹지 않을래?",
 			typewriter = {
@@ -142,8 +142,8 @@ return {
 			expression = "2",
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#92fc63",
 			say = "그래…? 아, 미안해, 오늘은 간식 금지일이었나. 그럼 다음에, 먹고 싶어지면 말해줘.",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = "1",
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			nameColor = "#92fc63",
 			say = "그럼 여기 놔둘게. 지휘관, 맛있게 먹어.",
 			typewriter = {
@@ -189,9 +189,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "됭케르크가 집무실에서 나갔다. 그럼, 이 과자는 어쩔까…",
 			typewriter = {
 				speed = 0.05,
@@ -209,12 +209,12 @@ return {
 			}
 		},
 		{
-			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 802010,
+			nameColor = "#92fc63",
 			say = "지휘관, 나…… 저, 절대 지지 않을 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -226,12 +226,12 @@ return {
 			}
 		},
 		{
-			actor = 802010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 2,
+			actor = 802010,
+			nameColor = "#92fc63",
 			say = "지휘관, 나 신경 쓰지 않아도 되는데……",
 			typewriter = {
 				speed = 0.05,
@@ -291,9 +291,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "에밀 답지 않게, 고뇌에 빠진 모습이다.",
 			typewriter = {
 				speed = 0.05,

@@ -4,19 +4,19 @@ slot1.ACTION = slot1.NAME .. "/notes/action"
 slot1.CHANGED = slot1.NAME .. "/notes/changed"
 slot1.CANCEL = slot1.NAME .. "/notes/cancel"
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.super.Ctor(slot0, uv0.NAME, null)
 
 	slot0.states = {}
 end
 
-function slot1.onRegister(slot0)
+slot1.onRegister = function(slot0)
 	if slot0.initial ~= nil then
 		slot0:transitionTo(slot0.initial, null)
 	end
 end
 
-function slot1.registerState(slot0, slot1, slot2)
+slot1.registerState = function(slot0, slot1, slot2)
 	if slot1 == nil or slot0.states[slot1.name] ~= nil then
 		return
 	end
@@ -28,11 +28,11 @@ function slot1.registerState(slot0, slot1, slot2)
 	end
 end
 
-function slot1.retrieveState(slot0, slot1)
+slot1.retrieveState = function(slot0, slot1)
 	return slot0.states[slot1]
 end
 
-function slot1.removeState(slot0, slot1)
+slot1.removeState = function(slot0, slot1)
 	if slot0.states[slot1] == nil then
 		return
 	end
@@ -40,7 +40,7 @@ function slot1.removeState(slot0, slot1)
 	slot0.states[slot1] = nil
 end
 
-function slot1.transitionTo(slot0, slot1, slot2)
+slot1.transitionTo = function(slot0, slot1, slot2)
 	if slot1 == nil then
 		return
 	end
@@ -76,14 +76,14 @@ function slot1.transitionTo(slot0, slot1, slot2)
 	slot0:sendNotification(uv0.CHANGED, slot2, slot1.name)
 end
 
-function slot1.listNotificationInterests(slot0)
+slot1.listNotificationInterests = function(slot0)
 	return {
 		uv0.ACTION,
 		uv0.CANCEL
 	}
 end
 
-function slot1.handleNotification(slot0, slot1)
+slot1.handleNotification = function(slot0, slot1)
 	if slot1:getName() == uv0.ACTION then
 		if slot0:getCurrentState():getTarget(slot1:getType()) ~= nil then
 			if slot0.states[slot4] ~= nil then
@@ -99,11 +99,11 @@ function slot1.handleNotification(slot0, slot1)
 	end
 end
 
-function slot1.getCurrentState(slot0)
+slot1.getCurrentState = function(slot0)
 	return slot0.viewComponent
 end
 
-function slot1.setCurrentState(slot0, slot1)
+slot1.setCurrentState = function(slot0, slot1)
 	slot0.viewComponent = slot1
 end
 

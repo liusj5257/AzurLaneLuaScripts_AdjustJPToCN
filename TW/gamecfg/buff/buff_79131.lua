@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "致盲后视野测试",
 	time = 0,
+	name = "致盲后视野测试",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"First Movement\n\n<size=45>Sunrise</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
-			bgName = "bg_bsm_4",
-			nameColor = "#ffde38",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Attention, all Iron Blood personnel!",
+			bgName = "bg_bsm_4",
 			bgm = "bsm-4",
+			nameColor = "#ffde38",
+			say = "Attention, all Iron Blood personnel!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -171,8 +171,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_4",
 			nameColor = "#ffde38",
 			dir = 1,
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffde38",
+			side = 2,
 			bgName = "bg_bsm_4",
-			actorName = "The Fleet",
 			dir = 1,
+			actorName = "The Fleet",
 			say = "VICTORY TO US!",
 			effects = {
 				{
@@ -246,12 +246,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "The Fleet",
+			side = 2,
 			bgName = "bg_bsm_4",
-			nameColor = "#ffde38",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#ffde38",
 			say = "LONG LIVE IRON BLOOD!",
 			dialogShake = {
 				speed = 0.12,
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			effects = {
 				{
 					active = false,
@@ -285,8 +285,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

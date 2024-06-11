@@ -6,11 +6,11 @@ slot3 = class("BattleEnvironmentBehaviourDamage", slot0.Battle.BattleEnvironment
 slot0.Battle.BattleEnvironmentBehaviourDamage = slot3
 slot3.__name = "BattleEnvironmentBehaviourDamage"
 
-function slot3.Ctor(slot0)
+slot3.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot3.SetTemplate(slot0, slot1)
+slot3.SetTemplate = function(slot0, slot1)
 	uv0.super.SetTemplate(slot0, slot1)
 
 	slot0._rate = slot0._tmpData.hp_rate or 0
@@ -18,7 +18,7 @@ function slot3.SetTemplate(slot0, slot1)
 	slot0._offset = slot0._tmpData.offset or 0
 end
 
-function slot3.doBehaviour(slot0)
+slot3.doBehaviour = function(slot0)
 	for slot4, slot5 in ipairs(slot0._cldUnitList) do
 		slot7, slot8 = slot5:GetHP()
 

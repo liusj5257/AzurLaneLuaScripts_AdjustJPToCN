@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "白鹰精英损管",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "8s无敌后死亡",
 	stack = 1,
@@ -34,8 +34,8 @@ return {
 			},
 			arg_list = {
 				group = 6752,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{

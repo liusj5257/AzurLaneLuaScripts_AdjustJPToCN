@@ -1,27 +1,27 @@
 return {
-	id = "FUYINGYINGHUA11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			actorName = "歐根親王",
-			say = "怎麼了，重櫻新銳巡洋艦只有這點實力嗎？",
 			bgm = "story-4",
+			actorName = "歐根親王",
+			hidePaintObj = true,
+			say = "怎麼了，重櫻新銳巡洋艦只有這點實力嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "歐根親王",
 			nameColor = "#ff5c5c",
+			actorName = "歐根親王",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -36,10 +36,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "{namecode:50}",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:50}",
+			hidePaintObj = true,
 			say = "（肆意釋放的力量，毫不掩飾的殺意…歐根親王這傢伙來真的？！）",
 			typewriter = {
 				speed = 0.05,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:50}",
 			nameColor = "#a9f548",
+			actorName = "{namecode:50}",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -63,10 +63,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "{namecode:50}",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:50}",
+			hidePaintObj = true,
 			say = "……實在是漂亮的戰術，不愧是擁有豐富經驗的歷戰之艦。",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			actorName = "歐根親王",
 			nameColor = "#ff5c5c",
+			actorName = "歐根親王",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			actorName = "歐根親王",
 			nameColor = "#ff5c5c",
+			actorName = "歐根親王",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -107,15 +107,15 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "{namecode:50}",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:50}",
+			hidePaintObj = true,
 			say = "（…得寸進尺！但是，冷靜下來…想想招待客人的禮儀………）",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 20,
@@ -131,10 +131,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "{namecode:50}",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:50}",
+			hidePaintObj = true,
 			say = "請您理解，重櫻的演武，並不是上升到實戰程度的廝殺…",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			actorName = "歐根親王",
 			nameColor = "#ff5c5c",
+			actorName = "歐根親王",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			actorName = "歐根親王",
 			nameColor = "#ff5c5c",
+			actorName = "歐根親王",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -171,10 +171,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "{namecode:50}",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:50}",
+			hidePaintObj = true,
 			say = "（…………啊啊啊啊，不管了。這種狀態下動真格，想必{namecode:182}大人也不會怪罪吧！）",
 			typewriter = {
 				speed = 0.05,
@@ -185,10 +185,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "{namecode:50}",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:50}",
+			hidePaintObj = true,
 			say = "不要太過分了，歐根親王！",
 			typewriter = {
 				speed = 0.05,
@@ -199,10 +199,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "{namecode:50}",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:50}",
+			hidePaintObj = true,
 			say = "雖然是預定之外的事，既然妳這麼念念不忘，就切身體會一下重櫻新銳巡洋艦的威力吧。",
 			typewriter = {
 				speed = 0.05,
@@ -213,10 +213,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
+			actorName = "{namecode:50}",
 			dir = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:50}",
+			hidePaintObj = true,
 			say = "我的事怎麼都好，侮辱重櫻的事，可不能就這麼算了！",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			actorName = "歐根親王",
 			nameColor = "#ff5c5c",
+			actorName = "歐根親王",
 			bgName = "bg_xinnong_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -237,17 +237,17 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "歐根親王",
+			side = 0,
 			bgName = "bg_xinnong_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "讓我們開始愉快的第二回合吧~！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

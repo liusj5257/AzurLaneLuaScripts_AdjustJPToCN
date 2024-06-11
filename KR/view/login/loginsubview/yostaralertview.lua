@@ -1,17 +1,17 @@
 slot0 = class("YostarAlertView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "YostarAlertView"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 end
 
-function slot0.SetShareData(slot0, slot1)
+slot0.SetShareData = function(slot0, slot1)
 	slot0.shareData = slot1
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.yostarAlert = slot0._tf
 	slot0.yostarEmailTxt = slot0:findTF("email_input_txt", slot0.yostarAlert)
 	slot0.yostarCodeTxt = slot0:findTF("code_input_txt", slot0.yostarAlert)
@@ -36,7 +36,7 @@ function slot0.OnInit(slot0)
 	slot0:InitEvent()
 end
 
-function slot0.InitEvent(slot0)
+slot0.InitEvent = function(slot0)
 	onButton(slot0, slot0.yostarAlert, function ()
 		setActive(uv0.yostarAlert, false)
 
@@ -68,7 +68,7 @@ function slot0.InitEvent(slot0)
 	slot0:CheckAiriGenCodeCounter()
 end
 
-function slot0.CheckAiriGenCodeCounter(slot0)
+slot0.CheckAiriGenCodeCounter = function(slot0)
 	if GetAiriGenCodeTimeRemain() > 0 then
 		setButtonEnabled(slot0.yostarGenCodeBtn, false)
 
@@ -85,7 +85,7 @@ function slot0.CheckAiriGenCodeCounter(slot0)
 	end
 end
 
-function slot0.ClearAiriGenCodeTimer(slot0)
+slot0.ClearAiriGenCodeTimer = function(slot0)
 	setButtonEnabled(slot0.yostarGenCodeBtn, true)
 
 	if slot0.genCodeTimer then
@@ -95,7 +95,7 @@ function slot0.ClearAiriGenCodeTimer(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:ClearAiriGenCodeTimer()
 end
 

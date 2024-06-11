@@ -1,10 +1,10 @@
 pg = pg or {}
 pg.ship_meta_skilltask = {
 	{
+		level = 1,
 		id = 1,
 		need_exp = 4000,
 		skill_ID = 800040,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -86,10 +86,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 2,
 		need_exp = 5000,
 		skill_ID = 800040,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -165,10 +165,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 3,
 		need_exp = 8000,
 		skill_ID = 800040,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -244,10 +244,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 4,
 		need_exp = 12000,
 		skill_ID = 800040,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -328,10 +328,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 5,
 		need_exp = 16000,
 		skill_ID = 800040,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -417,10 +417,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 6,
 		need_exp = 20000,
 		skill_ID = 800040,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -506,10 +506,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 7,
 		need_exp = 26000,
 		skill_ID = 800040,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -600,10 +600,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 8,
 		need_exp = 38000,
 		skill_ID = 800040,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -694,10 +694,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 9,
 		need_exp = 60000,
 		skill_ID = 800040,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -788,10 +788,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 10,
 		need_exp = 4000,
 		skill_ID = 800050,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -873,10 +873,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 11,
 		need_exp = 5000,
 		skill_ID = 800050,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -952,10 +952,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 12,
 		need_exp = 8000,
 		skill_ID = 800050,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -1031,10 +1031,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 13,
 		need_exp = 12000,
 		skill_ID = 800050,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -1115,10 +1115,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 14,
 		need_exp = 16000,
 		skill_ID = 800050,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -1204,10 +1204,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 15,
 		need_exp = 20000,
 		skill_ID = 800050,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -1293,10 +1293,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 16,
 		need_exp = 26000,
 		skill_ID = 800050,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -1387,10 +1387,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 17,
 		need_exp = 38000,
 		skill_ID = 800050,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -1481,10 +1481,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 18,
 		need_exp = 60000,
 		skill_ID = 800050,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -1575,10 +1575,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 19,
 		need_exp = 4000,
 		skill_ID = 800060,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -1660,10 +1660,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 20,
 		need_exp = 5000,
 		skill_ID = 800060,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -1739,10 +1739,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 21,
 		need_exp = 8000,
 		skill_ID = 800060,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -1818,10 +1818,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 22,
 		need_exp = 12000,
 		skill_ID = 800060,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -1902,10 +1902,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 23,
 		need_exp = 16000,
 		skill_ID = 800060,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -1991,10 +1991,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 24,
 		need_exp = 20000,
 		skill_ID = 800060,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -2080,10 +2080,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 25,
 		need_exp = 26000,
 		skill_ID = 800060,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -2174,10 +2174,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 26,
 		need_exp = 38000,
 		skill_ID = 800060,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -2268,10 +2268,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 27,
 		need_exp = 60000,
 		skill_ID = 800060,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -2362,10 +2362,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 28,
 		need_exp = 4000,
 		skill_ID = 800010,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -2447,10 +2447,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 29,
 		need_exp = 5000,
 		skill_ID = 800010,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -2526,10 +2526,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 30,
 		need_exp = 8000,
 		skill_ID = 800010,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -2605,10 +2605,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 31,
 		need_exp = 12000,
 		skill_ID = 800010,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -2689,10 +2689,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 32,
 		need_exp = 16000,
 		skill_ID = 800010,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -2778,10 +2778,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 33,
 		need_exp = 20000,
 		skill_ID = 800010,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -2867,10 +2867,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 34,
 		need_exp = 26000,
 		skill_ID = 800010,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -2961,10 +2961,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 35,
 		need_exp = 38000,
 		skill_ID = 800010,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -3055,10 +3055,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 36,
 		need_exp = 60000,
 		skill_ID = 800010,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -3149,10 +3149,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 37,
 		need_exp = 4000,
 		skill_ID = 800020,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -3234,10 +3234,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 38,
 		need_exp = 5000,
 		skill_ID = 800020,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -3313,10 +3313,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 39,
 		need_exp = 8000,
 		skill_ID = 800020,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -3392,10 +3392,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 40,
 		need_exp = 12000,
 		skill_ID = 800020,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -3476,10 +3476,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 41,
 		need_exp = 16000,
 		skill_ID = 800020,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -3565,10 +3565,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 42,
 		need_exp = 20000,
 		skill_ID = 800020,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -3654,10 +3654,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 43,
 		need_exp = 26000,
 		skill_ID = 800020,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -3748,10 +3748,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 44,
 		need_exp = 38000,
 		skill_ID = 800020,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -3842,10 +3842,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 45,
 		need_exp = 60000,
 		skill_ID = 800020,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -3936,10 +3936,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 46,
 		need_exp = 4000,
 		skill_ID = 800030,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -4021,10 +4021,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 47,
 		need_exp = 5000,
 		skill_ID = 800030,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -4100,10 +4100,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 48,
 		need_exp = 8000,
 		skill_ID = 800030,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -4179,10 +4179,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 49,
 		need_exp = 12000,
 		skill_ID = 800030,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -4263,10 +4263,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 50,
 		need_exp = 16000,
 		skill_ID = 800030,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -4352,10 +4352,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 51,
 		need_exp = 20000,
 		skill_ID = 800030,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -4441,10 +4441,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 52,
 		need_exp = 26000,
 		skill_ID = 800030,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -4535,10 +4535,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 53,
 		need_exp = 38000,
 		skill_ID = 800030,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -4629,10 +4629,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 54,
 		need_exp = 60000,
 		skill_ID = 800030,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -4723,10 +4723,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 55,
 		need_exp = 4000,
 		skill_ID = 800090,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -4808,10 +4808,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 56,
 		need_exp = 5000,
 		skill_ID = 800090,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -4887,10 +4887,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 57,
 		need_exp = 8000,
 		skill_ID = 800090,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -4966,10 +4966,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 58,
 		need_exp = 12000,
 		skill_ID = 800090,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -5050,10 +5050,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 59,
 		need_exp = 16000,
 		skill_ID = 800090,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -5139,10 +5139,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 60,
 		need_exp = 20000,
 		skill_ID = 800090,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -5228,10 +5228,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 61,
 		need_exp = 26000,
 		skill_ID = 800090,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -5322,10 +5322,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 62,
 		need_exp = 38000,
 		skill_ID = 800090,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -5416,10 +5416,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 63,
 		need_exp = 60000,
 		skill_ID = 800090,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -5510,10 +5510,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 64,
 		need_exp = 4000,
 		skill_ID = 800100,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -5595,10 +5595,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 65,
 		need_exp = 5000,
 		skill_ID = 800100,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -5674,10 +5674,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 66,
 		need_exp = 8000,
 		skill_ID = 800100,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -5753,10 +5753,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 67,
 		need_exp = 12000,
 		skill_ID = 800100,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -5837,10 +5837,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 68,
 		need_exp = 16000,
 		skill_ID = 800100,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -5926,10 +5926,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 69,
 		need_exp = 20000,
 		skill_ID = 800100,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -6015,10 +6015,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 70,
 		need_exp = 26000,
 		skill_ID = 800100,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -6109,10 +6109,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 71,
 		need_exp = 38000,
 		skill_ID = 800100,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -6203,10 +6203,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 72,
 		need_exp = 60000,
 		skill_ID = 800100,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -6297,10 +6297,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 73,
 		need_exp = 4000,
 		skill_ID = 800110,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -6382,10 +6382,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 74,
 		need_exp = 5000,
 		skill_ID = 800110,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -6461,10 +6461,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 75,
 		need_exp = 8000,
 		skill_ID = 800110,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -6540,10 +6540,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 76,
 		need_exp = 12000,
 		skill_ID = 800110,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -6624,10 +6624,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 77,
 		need_exp = 16000,
 		skill_ID = 800110,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -6713,10 +6713,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 78,
 		need_exp = 20000,
 		skill_ID = 800110,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -6802,10 +6802,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 79,
 		need_exp = 26000,
 		skill_ID = 800110,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -6896,10 +6896,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 80,
 		need_exp = 38000,
 		skill_ID = 800110,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -6990,10 +6990,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 81,
 		need_exp = 60000,
 		skill_ID = 800110,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -7084,10 +7084,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 82,
 		need_exp = 4000,
 		skill_ID = 800130,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -7169,10 +7169,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 83,
 		need_exp = 5000,
 		skill_ID = 800130,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -7248,10 +7248,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 84,
 		need_exp = 8000,
 		skill_ID = 800130,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -7327,10 +7327,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 85,
 		need_exp = 12000,
 		skill_ID = 800130,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -7411,10 +7411,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 86,
 		need_exp = 16000,
 		skill_ID = 800130,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -7500,10 +7500,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 87,
 		need_exp = 20000,
 		skill_ID = 800130,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -7589,10 +7589,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 88,
 		need_exp = 26000,
 		skill_ID = 800130,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -7683,10 +7683,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 89,
 		need_exp = 38000,
 		skill_ID = 800130,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -7777,10 +7777,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 90,
 		need_exp = 60000,
 		skill_ID = 800130,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -7871,10 +7871,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 91,
 		need_exp = 4000,
 		skill_ID = 800140,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -7956,10 +7956,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 92,
 		need_exp = 5000,
 		skill_ID = 800140,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -8035,10 +8035,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 93,
 		need_exp = 8000,
 		skill_ID = 800140,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -8114,10 +8114,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 94,
 		need_exp = 12000,
 		skill_ID = 800140,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -8198,10 +8198,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 95,
 		need_exp = 16000,
 		skill_ID = 800140,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -8287,10 +8287,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 96,
 		need_exp = 20000,
 		skill_ID = 800140,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -8376,10 +8376,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 97,
 		need_exp = 26000,
 		skill_ID = 800140,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -8470,10 +8470,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 98,
 		need_exp = 38000,
 		skill_ID = 800140,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -8564,10 +8564,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 99,
 		need_exp = 60000,
 		skill_ID = 800140,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -8658,10 +8658,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 100,
 		need_exp = 4000,
 		skill_ID = 800150,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -8743,10 +8743,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 101,
 		need_exp = 5000,
 		skill_ID = 800150,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -8822,10 +8822,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 102,
 		need_exp = 8000,
 		skill_ID = 800150,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -8901,10 +8901,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 103,
 		need_exp = 12000,
 		skill_ID = 800150,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -8985,10 +8985,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 104,
 		need_exp = 16000,
 		skill_ID = 800150,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -9074,10 +9074,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 105,
 		need_exp = 20000,
 		skill_ID = 800150,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -9163,10 +9163,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 106,
 		need_exp = 26000,
 		skill_ID = 800150,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -9257,10 +9257,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 107,
 		need_exp = 38000,
 		skill_ID = 800150,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -9351,10 +9351,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 108,
 		need_exp = 60000,
 		skill_ID = 800150,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -9445,10 +9445,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 109,
 		need_exp = 4000,
 		skill_ID = 800170,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -9530,10 +9530,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 110,
 		need_exp = 5000,
 		skill_ID = 800170,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -9609,10 +9609,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 111,
 		need_exp = 8000,
 		skill_ID = 800170,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -9688,10 +9688,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 112,
 		need_exp = 12000,
 		skill_ID = 800170,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -9772,10 +9772,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 113,
 		need_exp = 16000,
 		skill_ID = 800170,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -9861,10 +9861,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 114,
 		need_exp = 20000,
 		skill_ID = 800170,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -9950,10 +9950,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 115,
 		need_exp = 26000,
 		skill_ID = 800170,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -10044,10 +10044,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 116,
 		need_exp = 38000,
 		skill_ID = 800170,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -10138,10 +10138,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 117,
 		need_exp = 60000,
 		skill_ID = 800170,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -10232,10 +10232,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 118,
 		need_exp = 4000,
 		skill_ID = 800180,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -10317,10 +10317,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 119,
 		need_exp = 5000,
 		skill_ID = 800180,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -10396,10 +10396,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 120,
 		need_exp = 8000,
 		skill_ID = 800180,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -10475,10 +10475,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 121,
 		need_exp = 12000,
 		skill_ID = 800180,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -10559,10 +10559,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 122,
 		need_exp = 16000,
 		skill_ID = 800180,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -10648,10 +10648,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 123,
 		need_exp = 20000,
 		skill_ID = 800180,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -10737,10 +10737,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 124,
 		need_exp = 26000,
 		skill_ID = 800180,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -10831,10 +10831,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 125,
 		need_exp = 38000,
 		skill_ID = 800180,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -10925,10 +10925,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 126,
 		need_exp = 60000,
 		skill_ID = 800180,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -11019,10 +11019,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 127,
 		need_exp = 4000,
 		skill_ID = 800190,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -11104,10 +11104,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 128,
 		need_exp = 5000,
 		skill_ID = 800190,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -11183,10 +11183,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 129,
 		need_exp = 8000,
 		skill_ID = 800190,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -11262,10 +11262,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 130,
 		need_exp = 12000,
 		skill_ID = 800190,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -11346,10 +11346,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 131,
 		need_exp = 16000,
 		skill_ID = 800190,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -11435,10 +11435,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 132,
 		need_exp = 20000,
 		skill_ID = 800190,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -11524,10 +11524,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 133,
 		need_exp = 26000,
 		skill_ID = 800190,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -11618,10 +11618,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 134,
 		need_exp = 38000,
 		skill_ID = 800190,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -11712,10 +11712,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 135,
 		need_exp = 60000,
 		skill_ID = 800190,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -11806,10 +11806,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 136,
 		need_exp = 4000,
 		skill_ID = 800220,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -11891,10 +11891,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 137,
 		need_exp = 5000,
 		skill_ID = 800220,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -11970,10 +11970,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 138,
 		need_exp = 8000,
 		skill_ID = 800220,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -12049,10 +12049,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 139,
 		need_exp = 12000,
 		skill_ID = 800220,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -12133,10 +12133,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 140,
 		need_exp = 16000,
 		skill_ID = 800220,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -12222,10 +12222,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 141,
 		need_exp = 20000,
 		skill_ID = 800220,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -12311,10 +12311,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 142,
 		need_exp = 26000,
 		skill_ID = 800220,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -12405,10 +12405,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 143,
 		need_exp = 38000,
 		skill_ID = 800220,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -12499,10 +12499,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 144,
 		need_exp = 60000,
 		skill_ID = 800220,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -12593,10 +12593,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 145,
 		need_exp = 4000,
 		skill_ID = 800230,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -12678,10 +12678,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 146,
 		need_exp = 5000,
 		skill_ID = 800230,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -12757,10 +12757,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 147,
 		need_exp = 8000,
 		skill_ID = 800230,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -12836,10 +12836,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 148,
 		need_exp = 12000,
 		skill_ID = 800230,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -12920,10 +12920,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 149,
 		need_exp = 16000,
 		skill_ID = 800230,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -13009,10 +13009,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 150,
 		need_exp = 20000,
 		skill_ID = 800230,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -13098,10 +13098,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 151,
 		need_exp = 26000,
 		skill_ID = 800230,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -13192,10 +13192,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 152,
 		need_exp = 38000,
 		skill_ID = 800230,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -13286,10 +13286,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 153,
 		need_exp = 60000,
 		skill_ID = 800230,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -13380,10 +13380,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 154,
 		need_exp = 4000,
 		skill_ID = 800240,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -13465,10 +13465,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 155,
 		need_exp = 5000,
 		skill_ID = 800240,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -13544,10 +13544,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 156,
 		need_exp = 8000,
 		skill_ID = 800240,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -13623,10 +13623,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 157,
 		need_exp = 12000,
 		skill_ID = 800240,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -13707,10 +13707,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 158,
 		need_exp = 16000,
 		skill_ID = 800240,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -13796,10 +13796,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 159,
 		need_exp = 20000,
 		skill_ID = 800240,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -13885,10 +13885,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 160,
 		need_exp = 26000,
 		skill_ID = 800240,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -13979,10 +13979,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 161,
 		need_exp = 38000,
 		skill_ID = 800240,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -14073,10 +14073,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 162,
 		need_exp = 60000,
 		skill_ID = 800240,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -14167,10 +14167,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 163,
 		need_exp = 4000,
 		skill_ID = 800260,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -14252,10 +14252,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 164,
 		need_exp = 5000,
 		skill_ID = 800260,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -14331,10 +14331,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 165,
 		need_exp = 8000,
 		skill_ID = 800260,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -14410,10 +14410,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 166,
 		need_exp = 12000,
 		skill_ID = 800260,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -14494,10 +14494,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 167,
 		need_exp = 16000,
 		skill_ID = 800260,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -14583,10 +14583,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 168,
 		need_exp = 20000,
 		skill_ID = 800260,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -14672,10 +14672,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 169,
 		need_exp = 26000,
 		skill_ID = 800260,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -14766,10 +14766,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 170,
 		need_exp = 38000,
 		skill_ID = 800260,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -14860,10 +14860,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 171,
 		need_exp = 60000,
 		skill_ID = 800260,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -14954,10 +14954,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 172,
 		need_exp = 4000,
 		skill_ID = 800270,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -15039,10 +15039,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 173,
 		need_exp = 5000,
 		skill_ID = 800270,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -15118,10 +15118,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 174,
 		need_exp = 8000,
 		skill_ID = 800270,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -15197,10 +15197,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 175,
 		need_exp = 12000,
 		skill_ID = 800270,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -15281,10 +15281,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 176,
 		need_exp = 16000,
 		skill_ID = 800270,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -15370,10 +15370,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 177,
 		need_exp = 20000,
 		skill_ID = 800270,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -15459,10 +15459,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 178,
 		need_exp = 26000,
 		skill_ID = 800270,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -15553,10 +15553,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 179,
 		need_exp = 38000,
 		skill_ID = 800270,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -15647,10 +15647,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 180,
 		need_exp = 60000,
 		skill_ID = 800270,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -15741,10 +15741,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 181,
 		need_exp = 4000,
 		skill_ID = 800280,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -15826,10 +15826,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 182,
 		need_exp = 5000,
 		skill_ID = 800280,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -15905,10 +15905,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 183,
 		need_exp = 8000,
 		skill_ID = 800280,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -15984,10 +15984,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 184,
 		need_exp = 12000,
 		skill_ID = 800280,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -16068,10 +16068,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 185,
 		need_exp = 16000,
 		skill_ID = 800280,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -16157,10 +16157,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 186,
 		need_exp = 20000,
 		skill_ID = 800280,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -16246,10 +16246,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 187,
 		need_exp = 26000,
 		skill_ID = 800280,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -16340,10 +16340,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 188,
 		need_exp = 38000,
 		skill_ID = 800280,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -16434,10 +16434,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 189,
 		need_exp = 60000,
 		skill_ID = 800280,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -16528,10 +16528,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 190,
 		need_exp = 4000,
 		skill_ID = 800300,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -16613,10 +16613,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 191,
 		need_exp = 5000,
 		skill_ID = 800300,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -16692,10 +16692,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 192,
 		need_exp = 8000,
 		skill_ID = 800300,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -16771,10 +16771,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 193,
 		need_exp = 12000,
 		skill_ID = 800300,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -16855,10 +16855,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 194,
 		need_exp = 16000,
 		skill_ID = 800300,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -16944,10 +16944,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 195,
 		need_exp = 20000,
 		skill_ID = 800300,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -17033,10 +17033,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 196,
 		need_exp = 26000,
 		skill_ID = 800300,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -17127,10 +17127,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 197,
 		need_exp = 38000,
 		skill_ID = 800300,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -17221,10 +17221,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 198,
 		need_exp = 60000,
 		skill_ID = 800300,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -17315,10 +17315,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 199,
 		need_exp = 4000,
 		skill_ID = 800310,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -17400,10 +17400,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 200,
 		need_exp = 5000,
 		skill_ID = 800310,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -17479,10 +17479,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 201,
 		need_exp = 8000,
 		skill_ID = 800310,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -17558,10 +17558,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 202,
 		need_exp = 12000,
 		skill_ID = 800310,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -17642,10 +17642,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 203,
 		need_exp = 16000,
 		skill_ID = 800310,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -17731,10 +17731,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 204,
 		need_exp = 20000,
 		skill_ID = 800310,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -17820,10 +17820,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 205,
 		need_exp = 26000,
 		skill_ID = 800310,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -17914,10 +17914,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 206,
 		need_exp = 38000,
 		skill_ID = 800310,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -18008,10 +18008,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 207,
 		need_exp = 60000,
 		skill_ID = 800310,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -18102,10 +18102,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 208,
 		need_exp = 4000,
 		skill_ID = 800320,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -18187,10 +18187,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 209,
 		need_exp = 5000,
 		skill_ID = 800320,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -18266,10 +18266,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 210,
 		need_exp = 8000,
 		skill_ID = 800320,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -18345,10 +18345,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 211,
 		need_exp = 12000,
 		skill_ID = 800320,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -18429,10 +18429,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 212,
 		need_exp = 16000,
 		skill_ID = 800320,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -18518,10 +18518,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 213,
 		need_exp = 20000,
 		skill_ID = 800320,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -18607,10 +18607,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 214,
 		need_exp = 26000,
 		skill_ID = 800320,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -18701,10 +18701,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 215,
 		need_exp = 38000,
 		skill_ID = 800320,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -18795,10 +18795,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 216,
 		need_exp = 60000,
 		skill_ID = 800320,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -18889,10 +18889,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 217,
 		need_exp = 4000,
 		skill_ID = 800340,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -18974,10 +18974,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 218,
 		need_exp = 5000,
 		skill_ID = 800340,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -19053,10 +19053,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 219,
 		need_exp = 8000,
 		skill_ID = 800340,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -19132,10 +19132,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 220,
 		need_exp = 12000,
 		skill_ID = 800340,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -19216,10 +19216,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 221,
 		need_exp = 16000,
 		skill_ID = 800340,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -19305,10 +19305,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 222,
 		need_exp = 20000,
 		skill_ID = 800340,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -19394,10 +19394,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 223,
 		need_exp = 26000,
 		skill_ID = 800340,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -19488,10 +19488,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 224,
 		need_exp = 38000,
 		skill_ID = 800340,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -19582,10 +19582,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 225,
 		need_exp = 60000,
 		skill_ID = 800340,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -19676,10 +19676,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 226,
 		need_exp = 4000,
 		skill_ID = 800350,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -19761,10 +19761,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 227,
 		need_exp = 5000,
 		skill_ID = 800350,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -19840,10 +19840,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 228,
 		need_exp = 8000,
 		skill_ID = 800350,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -19919,10 +19919,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 229,
 		need_exp = 12000,
 		skill_ID = 800350,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -20003,10 +20003,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 230,
 		need_exp = 16000,
 		skill_ID = 800350,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -20092,10 +20092,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 231,
 		need_exp = 20000,
 		skill_ID = 800350,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -20181,10 +20181,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 232,
 		need_exp = 26000,
 		skill_ID = 800350,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -20275,10 +20275,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 233,
 		need_exp = 38000,
 		skill_ID = 800350,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -20369,10 +20369,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 234,
 		need_exp = 60000,
 		skill_ID = 800350,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -20463,10 +20463,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 235,
 		need_exp = 4000,
 		skill_ID = 800360,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -20548,10 +20548,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 236,
 		need_exp = 5000,
 		skill_ID = 800360,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -20627,10 +20627,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 237,
 		need_exp = 8000,
 		skill_ID = 800360,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -20706,10 +20706,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 238,
 		need_exp = 12000,
 		skill_ID = 800360,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -20790,10 +20790,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 239,
 		need_exp = 16000,
 		skill_ID = 800360,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -20879,10 +20879,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 240,
 		need_exp = 20000,
 		skill_ID = 800360,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -20968,10 +20968,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 241,
 		need_exp = 26000,
 		skill_ID = 800360,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -21062,10 +21062,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 242,
 		need_exp = 38000,
 		skill_ID = 800360,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -21156,10 +21156,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 243,
 		need_exp = 60000,
 		skill_ID = 800360,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -21250,10 +21250,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 244,
 		need_exp = 4000,
 		skill_ID = 800380,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -21335,10 +21335,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 245,
 		need_exp = 5000,
 		skill_ID = 800380,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -21414,10 +21414,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 246,
 		need_exp = 8000,
 		skill_ID = 800380,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -21493,10 +21493,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 247,
 		need_exp = 12000,
 		skill_ID = 800380,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -21577,10 +21577,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 248,
 		need_exp = 16000,
 		skill_ID = 800380,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -21666,10 +21666,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 249,
 		need_exp = 20000,
 		skill_ID = 800380,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -21755,10 +21755,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 250,
 		need_exp = 26000,
 		skill_ID = 800380,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -21849,10 +21849,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 251,
 		need_exp = 38000,
 		skill_ID = 800380,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -21943,10 +21943,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 252,
 		need_exp = 60000,
 		skill_ID = 800380,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -22037,10 +22037,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 253,
 		need_exp = 4000,
 		skill_ID = 800390,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -22122,10 +22122,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 254,
 		need_exp = 5000,
 		skill_ID = 800390,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -22201,10 +22201,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 255,
 		need_exp = 8000,
 		skill_ID = 800390,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -22280,10 +22280,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 256,
 		need_exp = 12000,
 		skill_ID = 800390,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -22364,10 +22364,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 257,
 		need_exp = 16000,
 		skill_ID = 800390,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -22453,10 +22453,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 258,
 		need_exp = 20000,
 		skill_ID = 800390,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -22542,10 +22542,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 259,
 		need_exp = 26000,
 		skill_ID = 800390,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -22636,10 +22636,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 260,
 		need_exp = 38000,
 		skill_ID = 800390,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -22730,10 +22730,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 261,
 		need_exp = 60000,
 		skill_ID = 800390,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -22824,10 +22824,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 262,
 		need_exp = 4000,
 		skill_ID = 800400,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -22909,10 +22909,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 263,
 		need_exp = 5000,
 		skill_ID = 800400,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -22988,10 +22988,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 264,
 		need_exp = 8000,
 		skill_ID = 800400,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -23067,10 +23067,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 265,
 		need_exp = 12000,
 		skill_ID = 800400,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -23151,10 +23151,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 266,
 		need_exp = 16000,
 		skill_ID = 800400,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -23240,10 +23240,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 267,
 		need_exp = 20000,
 		skill_ID = 800400,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -23329,10 +23329,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 268,
 		need_exp = 26000,
 		skill_ID = 800400,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -23423,10 +23423,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 269,
 		need_exp = 38000,
 		skill_ID = 800400,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -23517,10 +23517,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 270,
 		need_exp = 60000,
 		skill_ID = 800400,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -23611,10 +23611,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 271,
 		need_exp = 4000,
 		skill_ID = 800420,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -23696,10 +23696,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 272,
 		need_exp = 5000,
 		skill_ID = 800420,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -23775,10 +23775,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 273,
 		need_exp = 8000,
 		skill_ID = 800420,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -23854,10 +23854,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 274,
 		need_exp = 12000,
 		skill_ID = 800420,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -23938,10 +23938,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 275,
 		need_exp = 16000,
 		skill_ID = 800420,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -24027,10 +24027,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 276,
 		need_exp = 20000,
 		skill_ID = 800420,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -24116,10 +24116,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 277,
 		need_exp = 26000,
 		skill_ID = 800420,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -24210,10 +24210,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 278,
 		need_exp = 38000,
 		skill_ID = 800420,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -24304,10 +24304,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 279,
 		need_exp = 60000,
 		skill_ID = 800420,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -24398,10 +24398,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 280,
 		need_exp = 4000,
 		skill_ID = 800430,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -24483,10 +24483,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 281,
 		need_exp = 5000,
 		skill_ID = 800430,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -24562,10 +24562,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 282,
 		need_exp = 8000,
 		skill_ID = 800430,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -24641,10 +24641,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 283,
 		need_exp = 12000,
 		skill_ID = 800430,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -24725,10 +24725,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 284,
 		need_exp = 16000,
 		skill_ID = 800430,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -24814,10 +24814,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 285,
 		need_exp = 20000,
 		skill_ID = 800430,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -24903,10 +24903,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 286,
 		need_exp = 26000,
 		skill_ID = 800430,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -24997,10 +24997,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 287,
 		need_exp = 38000,
 		skill_ID = 800430,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -25091,10 +25091,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 288,
 		need_exp = 60000,
 		skill_ID = 800430,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -25185,10 +25185,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 289,
 		need_exp = 4000,
 		skill_ID = 800440,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -25270,10 +25270,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 290,
 		need_exp = 5000,
 		skill_ID = 800440,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -25349,10 +25349,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 291,
 		need_exp = 8000,
 		skill_ID = 800440,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -25428,10 +25428,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 292,
 		need_exp = 12000,
 		skill_ID = 800440,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -25512,10 +25512,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 293,
 		need_exp = 16000,
 		skill_ID = 800440,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -25601,10 +25601,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 294,
 		need_exp = 20000,
 		skill_ID = 800440,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -25690,10 +25690,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 295,
 		need_exp = 26000,
 		skill_ID = 800440,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -25784,10 +25784,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 296,
 		need_exp = 38000,
 		skill_ID = 800440,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -25878,10 +25878,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 297,
 		need_exp = 60000,
 		skill_ID = 800440,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -25972,10 +25972,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 298,
 		need_exp = 4000,
 		skill_ID = 800460,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -26057,10 +26057,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 299,
 		need_exp = 5000,
 		skill_ID = 800460,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -26136,10 +26136,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 300,
 		need_exp = 8000,
 		skill_ID = 800460,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -26215,10 +26215,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 301,
 		need_exp = 12000,
 		skill_ID = 800460,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -26299,10 +26299,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 302,
 		need_exp = 16000,
 		skill_ID = 800460,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -26388,10 +26388,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 303,
 		need_exp = 20000,
 		skill_ID = 800460,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -26477,10 +26477,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 304,
 		need_exp = 26000,
 		skill_ID = 800460,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -26571,10 +26571,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 305,
 		need_exp = 38000,
 		skill_ID = 800460,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -26665,10 +26665,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 306,
 		need_exp = 60000,
 		skill_ID = 800460,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -26759,10 +26759,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 307,
 		need_exp = 4000,
 		skill_ID = 800470,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -26844,10 +26844,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 308,
 		need_exp = 5000,
 		skill_ID = 800470,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -26923,10 +26923,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 309,
 		need_exp = 8000,
 		skill_ID = 800470,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -27002,10 +27002,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 310,
 		need_exp = 12000,
 		skill_ID = 800470,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -27086,10 +27086,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 311,
 		need_exp = 16000,
 		skill_ID = 800470,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -27175,10 +27175,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 312,
 		need_exp = 20000,
 		skill_ID = 800470,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -27264,10 +27264,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 313,
 		need_exp = 26000,
 		skill_ID = 800470,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -27358,10 +27358,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 314,
 		need_exp = 38000,
 		skill_ID = 800470,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -27452,10 +27452,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 315,
 		need_exp = 60000,
 		skill_ID = 800470,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -27546,10 +27546,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 316,
 		need_exp = 4000,
 		skill_ID = 800480,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -27631,10 +27631,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 317,
 		need_exp = 5000,
 		skill_ID = 800480,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -27710,10 +27710,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 318,
 		need_exp = 8000,
 		skill_ID = 800480,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -27789,10 +27789,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 319,
 		need_exp = 12000,
 		skill_ID = 800480,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -27873,10 +27873,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 320,
 		need_exp = 16000,
 		skill_ID = 800480,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -27962,10 +27962,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 321,
 		need_exp = 20000,
 		skill_ID = 800480,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -28051,10 +28051,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 322,
 		need_exp = 26000,
 		skill_ID = 800480,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -28145,10 +28145,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 323,
 		need_exp = 38000,
 		skill_ID = 800480,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -28239,10 +28239,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 324,
 		need_exp = 60000,
 		skill_ID = 800480,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -28333,10 +28333,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 325,
 		need_exp = 4000,
 		skill_ID = 800500,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -28418,10 +28418,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 326,
 		need_exp = 5000,
 		skill_ID = 800500,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -28497,10 +28497,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 327,
 		need_exp = 8000,
 		skill_ID = 800500,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -28576,10 +28576,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 328,
 		need_exp = 12000,
 		skill_ID = 800500,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -28660,10 +28660,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 329,
 		need_exp = 16000,
 		skill_ID = 800500,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -28749,10 +28749,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 330,
 		need_exp = 20000,
 		skill_ID = 800500,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -28838,10 +28838,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 331,
 		need_exp = 26000,
 		skill_ID = 800500,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -28932,10 +28932,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 332,
 		need_exp = 38000,
 		skill_ID = 800500,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -29026,10 +29026,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 333,
 		need_exp = 60000,
 		skill_ID = 800500,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -29120,10 +29120,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 334,
 		need_exp = 4000,
 		skill_ID = 800510,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -29205,10 +29205,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 335,
 		need_exp = 5000,
 		skill_ID = 800510,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -29284,10 +29284,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 336,
 		need_exp = 8000,
 		skill_ID = 800510,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -29363,10 +29363,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 337,
 		need_exp = 12000,
 		skill_ID = 800510,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -29447,10 +29447,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 338,
 		need_exp = 16000,
 		skill_ID = 800510,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -29536,10 +29536,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 339,
 		need_exp = 20000,
 		skill_ID = 800510,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -29625,10 +29625,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 340,
 		need_exp = 26000,
 		skill_ID = 800510,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -29719,10 +29719,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 341,
 		need_exp = 38000,
 		skill_ID = 800510,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -29813,10 +29813,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 342,
 		need_exp = 60000,
 		skill_ID = 800510,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -29907,10 +29907,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 343,
 		need_exp = 4000,
 		skill_ID = 800520,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -29992,10 +29992,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 344,
 		need_exp = 5000,
 		skill_ID = 800520,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -30071,10 +30071,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 345,
 		need_exp = 8000,
 		skill_ID = 800520,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -30150,10 +30150,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 346,
 		need_exp = 12000,
 		skill_ID = 800520,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -30234,10 +30234,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 347,
 		need_exp = 16000,
 		skill_ID = 800520,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -30323,10 +30323,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 348,
 		need_exp = 20000,
 		skill_ID = 800520,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -30412,10 +30412,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 349,
 		need_exp = 26000,
 		skill_ID = 800520,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -30506,10 +30506,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 350,
 		need_exp = 38000,
 		skill_ID = 800520,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -30600,10 +30600,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 351,
 		need_exp = 60000,
 		skill_ID = 800520,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -30694,10 +30694,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 352,
 		need_exp = 4000,
 		skill_ID = 800540,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -30779,10 +30779,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 353,
 		need_exp = 5000,
 		skill_ID = 800540,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -30858,10 +30858,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 354,
 		need_exp = 8000,
 		skill_ID = 800540,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -30937,10 +30937,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 355,
 		need_exp = 12000,
 		skill_ID = 800540,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -31021,10 +31021,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 356,
 		need_exp = 16000,
 		skill_ID = 800540,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -31110,10 +31110,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 357,
 		need_exp = 20000,
 		skill_ID = 800540,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -31199,10 +31199,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 358,
 		need_exp = 26000,
 		skill_ID = 800540,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -31293,10 +31293,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 359,
 		need_exp = 38000,
 		skill_ID = 800540,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -31387,10 +31387,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 360,
 		need_exp = 60000,
 		skill_ID = 800540,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -31481,10 +31481,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 361,
 		need_exp = 4000,
 		skill_ID = 800550,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -31566,10 +31566,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 362,
 		need_exp = 5000,
 		skill_ID = 800550,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -31645,10 +31645,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 363,
 		need_exp = 8000,
 		skill_ID = 800550,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -31724,10 +31724,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 364,
 		need_exp = 12000,
 		skill_ID = 800550,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -31808,10 +31808,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 365,
 		need_exp = 16000,
 		skill_ID = 800550,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -31897,10 +31897,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 366,
 		need_exp = 20000,
 		skill_ID = 800550,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -31986,10 +31986,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 367,
 		need_exp = 26000,
 		skill_ID = 800550,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -32080,10 +32080,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 368,
 		need_exp = 38000,
 		skill_ID = 800550,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -32174,10 +32174,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 369,
 		need_exp = 60000,
 		skill_ID = 800550,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -32268,10 +32268,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 370,
 		need_exp = 4000,
 		skill_ID = 800560,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -32353,10 +32353,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 371,
 		need_exp = 5000,
 		skill_ID = 800560,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -32432,10 +32432,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 372,
 		need_exp = 8000,
 		skill_ID = 800560,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -32511,10 +32511,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 373,
 		need_exp = 12000,
 		skill_ID = 800560,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -32595,10 +32595,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 374,
 		need_exp = 16000,
 		skill_ID = 800560,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -32684,10 +32684,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 375,
 		need_exp = 20000,
 		skill_ID = 800560,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -32773,10 +32773,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 376,
 		need_exp = 26000,
 		skill_ID = 800560,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -32867,10 +32867,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 377,
 		need_exp = 38000,
 		skill_ID = 800560,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -32961,10 +32961,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 378,
 		need_exp = 60000,
 		skill_ID = 800560,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -33055,10 +33055,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 379,
 		need_exp = 2000,
 		skill_ID = 800580,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -33140,10 +33140,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 380,
 		need_exp = 2500,
 		skill_ID = 800580,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -33219,10 +33219,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 381,
 		need_exp = 4000,
 		skill_ID = 800580,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -33298,10 +33298,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 382,
 		need_exp = 6000,
 		skill_ID = 800580,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -33382,10 +33382,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 383,
 		need_exp = 8000,
 		skill_ID = 800580,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -33471,10 +33471,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 384,
 		need_exp = 10000,
 		skill_ID = 800580,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -33560,10 +33560,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 385,
 		need_exp = 13000,
 		skill_ID = 800580,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -33654,10 +33654,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 386,
 		need_exp = 19000,
 		skill_ID = 800580,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -33748,10 +33748,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 387,
 		need_exp = 30000,
 		skill_ID = 800580,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -33842,10 +33842,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 388,
 		need_exp = 2000,
 		skill_ID = 800590,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -33927,10 +33927,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 389,
 		need_exp = 2500,
 		skill_ID = 800590,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -34006,10 +34006,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 390,
 		need_exp = 4000,
 		skill_ID = 800590,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -34085,10 +34085,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 391,
 		need_exp = 6000,
 		skill_ID = 800590,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -34169,10 +34169,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 392,
 		need_exp = 8000,
 		skill_ID = 800590,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -34258,10 +34258,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 393,
 		need_exp = 10000,
 		skill_ID = 800590,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -34347,10 +34347,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 394,
 		need_exp = 13000,
 		skill_ID = 800590,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -34441,10 +34441,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 395,
 		need_exp = 19000,
 		skill_ID = 800590,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -34535,10 +34535,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 396,
 		need_exp = 30000,
 		skill_ID = 800590,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -34629,10 +34629,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 397,
 		need_exp = 2000,
 		skill_ID = 800610,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -34714,10 +34714,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 398,
 		need_exp = 2500,
 		skill_ID = 800610,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -34793,10 +34793,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 399,
 		need_exp = 4000,
 		skill_ID = 800610,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -34872,10 +34872,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 400,
 		need_exp = 6000,
 		skill_ID = 800610,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -34956,10 +34956,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 401,
 		need_exp = 8000,
 		skill_ID = 800610,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -35045,10 +35045,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 402,
 		need_exp = 10000,
 		skill_ID = 800610,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -35134,10 +35134,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 403,
 		need_exp = 13000,
 		skill_ID = 800610,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -35228,10 +35228,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 404,
 		need_exp = 19000,
 		skill_ID = 800610,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -35322,10 +35322,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 405,
 		need_exp = 30000,
 		skill_ID = 800610,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -35416,10 +35416,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 406,
 		need_exp = 2000,
 		skill_ID = 800620,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -35501,10 +35501,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 407,
 		need_exp = 2500,
 		skill_ID = 800620,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -35580,10 +35580,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 408,
 		need_exp = 4000,
 		skill_ID = 800620,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -35659,10 +35659,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 409,
 		need_exp = 6000,
 		skill_ID = 800620,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -35743,10 +35743,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 410,
 		need_exp = 8000,
 		skill_ID = 800620,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -35832,10 +35832,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 411,
 		need_exp = 10000,
 		skill_ID = 800620,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -35921,10 +35921,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 412,
 		need_exp = 13000,
 		skill_ID = 800620,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -36015,10 +36015,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 413,
 		need_exp = 19000,
 		skill_ID = 800620,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -36109,10 +36109,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 414,
 		need_exp = 30000,
 		skill_ID = 800620,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -36203,10 +36203,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 415,
 		need_exp = 4000,
 		skill_ID = 800640,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -36288,10 +36288,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 416,
 		need_exp = 5000,
 		skill_ID = 800640,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -36367,10 +36367,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 417,
 		need_exp = 8000,
 		skill_ID = 800640,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -36446,10 +36446,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 418,
 		need_exp = 12000,
 		skill_ID = 800640,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -36530,10 +36530,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 419,
 		need_exp = 16000,
 		skill_ID = 800640,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -36619,10 +36619,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 420,
 		need_exp = 20000,
 		skill_ID = 800640,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -36708,10 +36708,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 421,
 		need_exp = 26000,
 		skill_ID = 800640,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -36802,10 +36802,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 422,
 		need_exp = 38000,
 		skill_ID = 800640,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -36896,10 +36896,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 423,
 		need_exp = 60000,
 		skill_ID = 800640,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -36990,10 +36990,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 424,
 		need_exp = 4000,
 		skill_ID = 800650,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -37075,10 +37075,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 425,
 		need_exp = 5000,
 		skill_ID = 800650,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -37154,10 +37154,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 426,
 		need_exp = 8000,
 		skill_ID = 800650,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -37233,10 +37233,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 427,
 		need_exp = 12000,
 		skill_ID = 800650,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -37317,10 +37317,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 428,
 		need_exp = 16000,
 		skill_ID = 800650,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -37406,10 +37406,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 429,
 		need_exp = 20000,
 		skill_ID = 800650,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -37495,10 +37495,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 430,
 		need_exp = 26000,
 		skill_ID = 800650,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -37589,10 +37589,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 431,
 		need_exp = 38000,
 		skill_ID = 800650,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -37683,10 +37683,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 432,
 		need_exp = 60000,
 		skill_ID = 800650,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -37777,10 +37777,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 433,
 		need_exp = 4000,
 		skill_ID = 800660,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -37862,10 +37862,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 434,
 		need_exp = 5000,
 		skill_ID = 800660,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -37941,10 +37941,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 435,
 		need_exp = 8000,
 		skill_ID = 800660,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -38020,10 +38020,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 436,
 		need_exp = 12000,
 		skill_ID = 800660,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -38104,10 +38104,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 437,
 		need_exp = 16000,
 		skill_ID = 800660,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -38193,10 +38193,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 438,
 		need_exp = 20000,
 		skill_ID = 800660,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -38282,10 +38282,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 439,
 		need_exp = 26000,
 		skill_ID = 800660,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -38376,10 +38376,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 440,
 		need_exp = 38000,
 		skill_ID = 800660,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -38470,10 +38470,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 441,
 		need_exp = 60000,
 		skill_ID = 800660,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -38564,10 +38564,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 442,
 		need_exp = 2000,
 		skill_ID = 800680,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -38649,10 +38649,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 443,
 		need_exp = 2500,
 		skill_ID = 800680,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -38728,10 +38728,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 444,
 		need_exp = 4000,
 		skill_ID = 800680,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -38807,10 +38807,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 445,
 		need_exp = 6000,
 		skill_ID = 800680,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -38891,10 +38891,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 446,
 		need_exp = 8000,
 		skill_ID = 800680,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -38980,10 +38980,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 447,
 		need_exp = 10000,
 		skill_ID = 800680,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -39069,10 +39069,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 448,
 		need_exp = 13000,
 		skill_ID = 800680,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -39163,10 +39163,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 449,
 		need_exp = 19000,
 		skill_ID = 800680,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -39257,10 +39257,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 450,
 		need_exp = 30000,
 		skill_ID = 800680,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -39351,10 +39351,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 451,
 		need_exp = 2000,
 		skill_ID = 800690,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -39436,10 +39436,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 452,
 		need_exp = 2500,
 		skill_ID = 800690,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -39515,10 +39515,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 453,
 		need_exp = 4000,
 		skill_ID = 800690,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -39594,10 +39594,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 454,
 		need_exp = 6000,
 		skill_ID = 800690,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -39678,10 +39678,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 455,
 		need_exp = 8000,
 		skill_ID = 800690,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -39767,10 +39767,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 456,
 		need_exp = 10000,
 		skill_ID = 800690,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -39856,10 +39856,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 457,
 		need_exp = 13000,
 		skill_ID = 800690,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -39950,10 +39950,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 458,
 		need_exp = 19000,
 		skill_ID = 800690,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -40044,10 +40044,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 459,
 		need_exp = 30000,
 		skill_ID = 800690,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -40138,10 +40138,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 460,
 		need_exp = 4000,
 		skill_ID = 800710,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -40223,10 +40223,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 461,
 		need_exp = 5000,
 		skill_ID = 800710,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -40302,10 +40302,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 462,
 		need_exp = 8000,
 		skill_ID = 800710,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -40381,10 +40381,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 463,
 		need_exp = 12000,
 		skill_ID = 800710,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -40465,10 +40465,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 464,
 		need_exp = 16000,
 		skill_ID = 800710,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -40554,10 +40554,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 465,
 		need_exp = 20000,
 		skill_ID = 800710,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -40643,10 +40643,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 466,
 		need_exp = 26000,
 		skill_ID = 800710,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -40737,10 +40737,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 467,
 		need_exp = 38000,
 		skill_ID = 800710,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -40831,10 +40831,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 468,
 		need_exp = 60000,
 		skill_ID = 800710,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -40925,10 +40925,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 469,
 		need_exp = 4000,
 		skill_ID = 800720,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -41010,10 +41010,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 470,
 		need_exp = 5000,
 		skill_ID = 800720,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -41089,10 +41089,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 471,
 		need_exp = 8000,
 		skill_ID = 800720,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -41168,10 +41168,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 472,
 		need_exp = 12000,
 		skill_ID = 800720,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -41252,10 +41252,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 473,
 		need_exp = 16000,
 		skill_ID = 800720,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -41341,10 +41341,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 474,
 		need_exp = 20000,
 		skill_ID = 800720,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -41430,10 +41430,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 475,
 		need_exp = 26000,
 		skill_ID = 800720,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -41524,10 +41524,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 476,
 		need_exp = 38000,
 		skill_ID = 800720,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -41618,10 +41618,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 477,
 		need_exp = 60000,
 		skill_ID = 800720,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -41712,10 +41712,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 478,
 		need_exp = 4000,
 		skill_ID = 800730,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -41797,10 +41797,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 479,
 		need_exp = 5000,
 		skill_ID = 800730,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -41876,10 +41876,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 480,
 		need_exp = 8000,
 		skill_ID = 800730,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -41955,10 +41955,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 481,
 		need_exp = 12000,
 		skill_ID = 800730,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -42039,10 +42039,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 482,
 		need_exp = 16000,
 		skill_ID = 800730,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -42128,10 +42128,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 483,
 		need_exp = 20000,
 		skill_ID = 800730,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -42217,10 +42217,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 484,
 		need_exp = 26000,
 		skill_ID = 800730,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -42311,10 +42311,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 485,
 		need_exp = 38000,
 		skill_ID = 800730,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -42405,10 +42405,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 486,
 		need_exp = 60000,
 		skill_ID = 800730,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -42499,10 +42499,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 487,
 		need_exp = 2000,
 		skill_ID = 800750,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -42584,10 +42584,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 488,
 		need_exp = 2500,
 		skill_ID = 800750,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -42663,10 +42663,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 489,
 		need_exp = 4000,
 		skill_ID = 800750,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -42742,10 +42742,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 490,
 		need_exp = 6000,
 		skill_ID = 800750,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -42826,10 +42826,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 491,
 		need_exp = 8000,
 		skill_ID = 800750,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -42915,10 +42915,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 492,
 		need_exp = 10000,
 		skill_ID = 800750,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -43004,10 +43004,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 493,
 		need_exp = 13000,
 		skill_ID = 800750,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -43098,10 +43098,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 494,
 		need_exp = 19000,
 		skill_ID = 800750,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -43192,10 +43192,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 495,
 		need_exp = 30000,
 		skill_ID = 800750,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -43286,10 +43286,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 496,
 		need_exp = 2000,
 		skill_ID = 800760,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -43371,10 +43371,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 497,
 		need_exp = 2500,
 		skill_ID = 800760,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -43450,10 +43450,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 498,
 		need_exp = 4000,
 		skill_ID = 800760,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -43529,10 +43529,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 499,
 		need_exp = 6000,
 		skill_ID = 800760,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -43613,10 +43613,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 500,
 		need_exp = 8000,
 		skill_ID = 800760,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -43702,10 +43702,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 501,
 		need_exp = 10000,
 		skill_ID = 800760,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -43791,10 +43791,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 502,
 		need_exp = 13000,
 		skill_ID = 800760,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -43885,10 +43885,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 503,
 		need_exp = 19000,
 		skill_ID = 800760,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -43979,10 +43979,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 504,
 		need_exp = 30000,
 		skill_ID = 800760,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -44073,10 +44073,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 505,
 		need_exp = 4000,
 		skill_ID = 800780,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -44158,10 +44158,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 506,
 		need_exp = 5000,
 		skill_ID = 800780,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -44237,10 +44237,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 507,
 		need_exp = 8000,
 		skill_ID = 800780,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -44316,10 +44316,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 508,
 		need_exp = 12000,
 		skill_ID = 800780,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -44400,10 +44400,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 509,
 		need_exp = 16000,
 		skill_ID = 800780,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -44489,10 +44489,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 510,
 		need_exp = 20000,
 		skill_ID = 800780,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -44578,10 +44578,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 511,
 		need_exp = 26000,
 		skill_ID = 800780,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -44672,10 +44672,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 512,
 		need_exp = 38000,
 		skill_ID = 800780,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -44766,10 +44766,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 513,
 		need_exp = 60000,
 		skill_ID = 800780,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -44860,10 +44860,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 514,
 		need_exp = 4000,
 		skill_ID = 800790,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -44945,10 +44945,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 515,
 		need_exp = 5000,
 		skill_ID = 800790,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -45024,10 +45024,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 516,
 		need_exp = 8000,
 		skill_ID = 800790,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -45103,10 +45103,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 517,
 		need_exp = 12000,
 		skill_ID = 800790,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -45187,10 +45187,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 518,
 		need_exp = 16000,
 		skill_ID = 800790,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -45276,10 +45276,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 519,
 		need_exp = 20000,
 		skill_ID = 800790,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -45365,10 +45365,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 520,
 		need_exp = 26000,
 		skill_ID = 800790,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -45459,10 +45459,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 521,
 		need_exp = 38000,
 		skill_ID = 800790,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -45553,10 +45553,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 522,
 		need_exp = 60000,
 		skill_ID = 800790,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -45647,10 +45647,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 523,
 		need_exp = 4000,
 		skill_ID = 800800,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -45732,10 +45732,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 524,
 		need_exp = 5000,
 		skill_ID = 800800,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -45811,10 +45811,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 525,
 		need_exp = 8000,
 		skill_ID = 800800,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -45890,10 +45890,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 526,
 		need_exp = 12000,
 		skill_ID = 800800,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -45974,10 +45974,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 527,
 		need_exp = 16000,
 		skill_ID = 800800,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -46063,10 +46063,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 528,
 		need_exp = 20000,
 		skill_ID = 800800,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -46152,10 +46152,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 529,
 		need_exp = 26000,
 		skill_ID = 800800,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -46246,10 +46246,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 530,
 		need_exp = 38000,
 		skill_ID = 800800,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -46340,10 +46340,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 531,
 		need_exp = 60000,
 		skill_ID = 800800,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -46434,10 +46434,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 532,
 		need_exp = 2000,
 		skill_ID = 800820,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -46519,10 +46519,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 533,
 		need_exp = 2500,
 		skill_ID = 800820,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -46598,10 +46598,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 534,
 		need_exp = 4000,
 		skill_ID = 800820,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -46677,10 +46677,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 535,
 		need_exp = 6000,
 		skill_ID = 800820,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -46761,10 +46761,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 536,
 		need_exp = 8000,
 		skill_ID = 800820,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -46850,10 +46850,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 537,
 		need_exp = 10000,
 		skill_ID = 800820,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -46939,10 +46939,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 538,
 		need_exp = 13000,
 		skill_ID = 800820,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -47033,10 +47033,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 539,
 		need_exp = 19000,
 		skill_ID = 800820,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -47127,10 +47127,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 540,
 		need_exp = 30000,
 		skill_ID = 800820,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -47221,10 +47221,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 541,
 		need_exp = 2000,
 		skill_ID = 800830,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -47306,10 +47306,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 542,
 		need_exp = 2500,
 		skill_ID = 800830,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -47385,10 +47385,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 543,
 		need_exp = 4000,
 		skill_ID = 800830,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -47464,10 +47464,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 544,
 		need_exp = 6000,
 		skill_ID = 800830,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -47548,10 +47548,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 545,
 		need_exp = 8000,
 		skill_ID = 800830,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -47637,10 +47637,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 546,
 		need_exp = 10000,
 		skill_ID = 800830,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -47726,10 +47726,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 547,
 		need_exp = 13000,
 		skill_ID = 800830,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -47820,10 +47820,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 548,
 		need_exp = 19000,
 		skill_ID = 800830,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -47914,10 +47914,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 549,
 		need_exp = 30000,
 		skill_ID = 800830,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -48008,10 +48008,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 550,
 		need_exp = 4000,
 		skill_ID = 800850,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -48093,10 +48093,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 551,
 		need_exp = 5000,
 		skill_ID = 800850,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -48172,10 +48172,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 552,
 		need_exp = 8000,
 		skill_ID = 800850,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -48251,10 +48251,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 553,
 		need_exp = 12000,
 		skill_ID = 800850,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -48335,10 +48335,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 554,
 		need_exp = 16000,
 		skill_ID = 800850,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -48424,10 +48424,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 555,
 		need_exp = 20000,
 		skill_ID = 800850,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -48513,10 +48513,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 556,
 		need_exp = 26000,
 		skill_ID = 800850,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -48607,10 +48607,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 557,
 		need_exp = 38000,
 		skill_ID = 800850,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -48701,10 +48701,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 558,
 		need_exp = 60000,
 		skill_ID = 800850,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -48795,10 +48795,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 559,
 		need_exp = 4000,
 		skill_ID = 800860,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -48880,10 +48880,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 560,
 		need_exp = 5000,
 		skill_ID = 800860,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -48959,10 +48959,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 561,
 		need_exp = 8000,
 		skill_ID = 800860,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -49038,10 +49038,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 562,
 		need_exp = 12000,
 		skill_ID = 800860,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -49122,10 +49122,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 563,
 		need_exp = 16000,
 		skill_ID = 800860,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -49211,10 +49211,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 564,
 		need_exp = 20000,
 		skill_ID = 800860,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -49300,10 +49300,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 565,
 		need_exp = 26000,
 		skill_ID = 800860,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -49394,10 +49394,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 566,
 		need_exp = 38000,
 		skill_ID = 800860,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -49488,10 +49488,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 567,
 		need_exp = 60000,
 		skill_ID = 800860,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -49582,10 +49582,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 568,
 		need_exp = 4000,
 		skill_ID = 800870,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -49667,10 +49667,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 569,
 		need_exp = 5000,
 		skill_ID = 800870,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -49746,10 +49746,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 570,
 		need_exp = 8000,
 		skill_ID = 800870,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -49825,10 +49825,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 571,
 		need_exp = 12000,
 		skill_ID = 800870,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -49909,10 +49909,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 572,
 		need_exp = 16000,
 		skill_ID = 800870,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -49998,10 +49998,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 573,
 		need_exp = 20000,
 		skill_ID = 800870,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -50087,10 +50087,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 574,
 		need_exp = 26000,
 		skill_ID = 800870,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -50181,10 +50181,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 575,
 		need_exp = 38000,
 		skill_ID = 800870,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -50275,10 +50275,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 576,
 		need_exp = 60000,
 		skill_ID = 800870,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -50369,10 +50369,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 577,
 		need_exp = 2000,
 		skill_ID = 800890,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -50454,10 +50454,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 578,
 		need_exp = 2500,
 		skill_ID = 800890,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -50533,10 +50533,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 579,
 		need_exp = 4000,
 		skill_ID = 800890,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -50612,10 +50612,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 580,
 		need_exp = 6000,
 		skill_ID = 800890,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -50696,10 +50696,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 581,
 		need_exp = 8000,
 		skill_ID = 800890,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -50785,10 +50785,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 582,
 		need_exp = 10000,
 		skill_ID = 800890,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -50874,10 +50874,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 583,
 		need_exp = 13000,
 		skill_ID = 800890,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -50968,10 +50968,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 584,
 		need_exp = 19000,
 		skill_ID = 800890,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -51062,10 +51062,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 585,
 		need_exp = 30000,
 		skill_ID = 800890,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -51156,10 +51156,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 586,
 		need_exp = 2000,
 		skill_ID = 800900,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -51241,10 +51241,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 587,
 		need_exp = 2500,
 		skill_ID = 800900,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -51320,10 +51320,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 588,
 		need_exp = 4000,
 		skill_ID = 800900,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -51399,10 +51399,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 589,
 		need_exp = 6000,
 		skill_ID = 800900,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -51483,10 +51483,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 590,
 		need_exp = 8000,
 		skill_ID = 800900,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -51572,10 +51572,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 591,
 		need_exp = 10000,
 		skill_ID = 800900,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -51661,10 +51661,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 592,
 		need_exp = 13000,
 		skill_ID = 800900,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -51755,10 +51755,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 593,
 		need_exp = 19000,
 		skill_ID = 800900,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -51849,10 +51849,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 594,
 		need_exp = 30000,
 		skill_ID = 800900,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -51943,10 +51943,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 595,
 		need_exp = 4000,
 		skill_ID = 800920,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -52028,10 +52028,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 596,
 		need_exp = 5000,
 		skill_ID = 800920,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -52107,10 +52107,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 597,
 		need_exp = 8000,
 		skill_ID = 800920,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -52186,10 +52186,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 598,
 		need_exp = 12000,
 		skill_ID = 800920,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -52270,10 +52270,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 599,
 		need_exp = 16000,
 		skill_ID = 800920,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -52359,10 +52359,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 600,
 		need_exp = 20000,
 		skill_ID = 800920,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -52448,10 +52448,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 601,
 		need_exp = 26000,
 		skill_ID = 800920,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -52542,10 +52542,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 602,
 		need_exp = 38000,
 		skill_ID = 800920,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -52636,10 +52636,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 603,
 		need_exp = 60000,
 		skill_ID = 800920,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -52730,10 +52730,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 604,
 		need_exp = 4000,
 		skill_ID = 800930,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -52815,10 +52815,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 605,
 		need_exp = 5000,
 		skill_ID = 800930,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -52894,10 +52894,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 606,
 		need_exp = 8000,
 		skill_ID = 800930,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -52973,10 +52973,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 607,
 		need_exp = 12000,
 		skill_ID = 800930,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -53057,10 +53057,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 608,
 		need_exp = 16000,
 		skill_ID = 800930,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -53146,10 +53146,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 609,
 		need_exp = 20000,
 		skill_ID = 800930,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -53235,10 +53235,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 610,
 		need_exp = 26000,
 		skill_ID = 800930,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -53329,10 +53329,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 611,
 		need_exp = 38000,
 		skill_ID = 800930,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -53423,10 +53423,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 612,
 		need_exp = 60000,
 		skill_ID = 800930,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -53517,10 +53517,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 613,
 		need_exp = 4000,
 		skill_ID = 800940,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -53602,10 +53602,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 614,
 		need_exp = 5000,
 		skill_ID = 800940,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -53681,10 +53681,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 615,
 		need_exp = 8000,
 		skill_ID = 800940,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -53760,10 +53760,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 616,
 		need_exp = 12000,
 		skill_ID = 800940,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -53844,10 +53844,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 617,
 		need_exp = 16000,
 		skill_ID = 800940,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -53933,10 +53933,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 618,
 		need_exp = 20000,
 		skill_ID = 800940,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -54022,10 +54022,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 619,
 		need_exp = 26000,
 		skill_ID = 800940,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -54116,10 +54116,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 620,
 		need_exp = 38000,
 		skill_ID = 800940,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -54210,10 +54210,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 621,
 		need_exp = 60000,
 		skill_ID = 800940,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -54304,10 +54304,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 622,
 		need_exp = 2000,
 		skill_ID = 800960,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -54389,10 +54389,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 623,
 		need_exp = 2500,
 		skill_ID = 800960,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -54468,10 +54468,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 624,
 		need_exp = 4000,
 		skill_ID = 800960,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -54547,10 +54547,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 625,
 		need_exp = 6000,
 		skill_ID = 800960,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -54631,10 +54631,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 626,
 		need_exp = 8000,
 		skill_ID = 800960,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -54720,10 +54720,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 627,
 		need_exp = 10000,
 		skill_ID = 800960,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -54809,10 +54809,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 628,
 		need_exp = 13000,
 		skill_ID = 800960,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -54903,10 +54903,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 629,
 		need_exp = 19000,
 		skill_ID = 800960,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -54997,10 +54997,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 630,
 		need_exp = 30000,
 		skill_ID = 800960,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -55091,10 +55091,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 631,
 		need_exp = 2000,
 		skill_ID = 800970,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -55176,10 +55176,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 632,
 		need_exp = 2500,
 		skill_ID = 800970,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -55255,10 +55255,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 633,
 		need_exp = 4000,
 		skill_ID = 800970,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -55334,10 +55334,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 634,
 		need_exp = 6000,
 		skill_ID = 800970,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -55418,10 +55418,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 635,
 		need_exp = 8000,
 		skill_ID = 800970,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -55507,10 +55507,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 636,
 		need_exp = 10000,
 		skill_ID = 800970,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -55596,10 +55596,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 637,
 		need_exp = 13000,
 		skill_ID = 800970,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -55690,10 +55690,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 638,
 		need_exp = 19000,
 		skill_ID = 800970,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -55784,10 +55784,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 639,
 		need_exp = 30000,
 		skill_ID = 800970,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -55878,10 +55878,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 640,
 		need_exp = 2000,
 		skill_ID = 800990,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -55963,10 +55963,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 641,
 		need_exp = 2500,
 		skill_ID = 800990,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -56042,10 +56042,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 642,
 		need_exp = 4000,
 		skill_ID = 800990,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -56121,10 +56121,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 643,
 		need_exp = 6000,
 		skill_ID = 800990,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -56205,10 +56205,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 644,
 		need_exp = 8000,
 		skill_ID = 800990,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -56294,10 +56294,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 645,
 		need_exp = 10000,
 		skill_ID = 800990,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -56383,10 +56383,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 646,
 		need_exp = 13000,
 		skill_ID = 800990,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -56477,10 +56477,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 647,
 		need_exp = 19000,
 		skill_ID = 800990,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -56571,10 +56571,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 648,
 		need_exp = 30000,
 		skill_ID = 800990,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -56665,10 +56665,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 649,
 		need_exp = 2000,
 		skill_ID = 801000,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -56750,10 +56750,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 650,
 		need_exp = 2500,
 		skill_ID = 801000,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -56829,10 +56829,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 651,
 		need_exp = 4000,
 		skill_ID = 801000,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -56908,10 +56908,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 652,
 		need_exp = 6000,
 		skill_ID = 801000,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -56992,10 +56992,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 653,
 		need_exp = 8000,
 		skill_ID = 801000,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -57081,10 +57081,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 654,
 		need_exp = 10000,
 		skill_ID = 801000,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -57170,10 +57170,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 655,
 		need_exp = 13000,
 		skill_ID = 801000,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -57264,10 +57264,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 656,
 		need_exp = 19000,
 		skill_ID = 801000,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -57358,10 +57358,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 657,
 		need_exp = 30000,
 		skill_ID = 801000,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -57452,10 +57452,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 658,
 		need_exp = 4000,
 		skill_ID = 801020,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -57537,10 +57537,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 659,
 		need_exp = 5000,
 		skill_ID = 801020,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -57616,10 +57616,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 660,
 		need_exp = 8000,
 		skill_ID = 801020,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -57695,10 +57695,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 661,
 		need_exp = 12000,
 		skill_ID = 801020,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -57779,10 +57779,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 662,
 		need_exp = 16000,
 		skill_ID = 801020,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -57868,10 +57868,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 663,
 		need_exp = 20000,
 		skill_ID = 801020,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -57957,10 +57957,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 664,
 		need_exp = 26000,
 		skill_ID = 801020,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -58051,10 +58051,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 665,
 		need_exp = 38000,
 		skill_ID = 801020,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -58145,10 +58145,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 666,
 		need_exp = 60000,
 		skill_ID = 801020,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -58239,10 +58239,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 667,
 		need_exp = 4000,
 		skill_ID = 801030,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -58324,10 +58324,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 668,
 		need_exp = 5000,
 		skill_ID = 801030,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -58403,10 +58403,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 669,
 		need_exp = 8000,
 		skill_ID = 801030,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -58482,10 +58482,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 670,
 		need_exp = 12000,
 		skill_ID = 801030,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -58566,10 +58566,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 671,
 		need_exp = 16000,
 		skill_ID = 801030,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -58655,10 +58655,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 672,
 		need_exp = 20000,
 		skill_ID = 801030,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -58744,10 +58744,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 673,
 		need_exp = 26000,
 		skill_ID = 801030,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -58838,10 +58838,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 674,
 		need_exp = 38000,
 		skill_ID = 801030,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -58932,10 +58932,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 675,
 		need_exp = 60000,
 		skill_ID = 801030,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -59026,10 +59026,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 676,
 		need_exp = 4000,
 		skill_ID = 801040,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -59111,10 +59111,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 677,
 		need_exp = 5000,
 		skill_ID = 801040,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -59190,10 +59190,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 678,
 		need_exp = 8000,
 		skill_ID = 801040,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -59269,10 +59269,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 679,
 		need_exp = 12000,
 		skill_ID = 801040,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -59353,10 +59353,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 680,
 		need_exp = 16000,
 		skill_ID = 801040,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -59442,10 +59442,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 681,
 		need_exp = 20000,
 		skill_ID = 801040,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -59531,10 +59531,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 682,
 		need_exp = 26000,
 		skill_ID = 801040,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -59625,10 +59625,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 683,
 		need_exp = 38000,
 		skill_ID = 801040,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -59719,10 +59719,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 684,
 		need_exp = 60000,
 		skill_ID = 801040,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -59813,10 +59813,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 685,
 		need_exp = 2000,
 		skill_ID = 801060,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -59898,10 +59898,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 686,
 		need_exp = 2500,
 		skill_ID = 801060,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -59977,10 +59977,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 687,
 		need_exp = 4000,
 		skill_ID = 801060,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -60056,10 +60056,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 688,
 		need_exp = 6000,
 		skill_ID = 801060,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -60140,10 +60140,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 689,
 		need_exp = 8000,
 		skill_ID = 801060,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -60229,10 +60229,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 690,
 		need_exp = 10000,
 		skill_ID = 801060,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -60318,10 +60318,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 691,
 		need_exp = 13000,
 		skill_ID = 801060,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -60412,10 +60412,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 692,
 		need_exp = 19000,
 		skill_ID = 801060,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -60506,10 +60506,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 693,
 		need_exp = 30000,
 		skill_ID = 801060,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -60600,10 +60600,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 694,
 		need_exp = 2000,
 		skill_ID = 801070,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -60685,10 +60685,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 695,
 		need_exp = 2500,
 		skill_ID = 801070,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -60764,10 +60764,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 696,
 		need_exp = 4000,
 		skill_ID = 801070,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -60843,10 +60843,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 697,
 		need_exp = 6000,
 		skill_ID = 801070,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -60927,10 +60927,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 698,
 		need_exp = 8000,
 		skill_ID = 801070,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -61016,10 +61016,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 699,
 		need_exp = 10000,
 		skill_ID = 801070,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -61105,10 +61105,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 700,
 		need_exp = 13000,
 		skill_ID = 801070,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -61199,10 +61199,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 701,
 		need_exp = 19000,
 		skill_ID = 801070,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -61293,10 +61293,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 702,
 		need_exp = 30000,
 		skill_ID = 801070,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -61387,10 +61387,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 703,
 		need_exp = 4000,
 		skill_ID = 801090,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -61472,10 +61472,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 704,
 		need_exp = 5000,
 		skill_ID = 801090,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -61551,10 +61551,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 705,
 		need_exp = 8000,
 		skill_ID = 801090,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -61630,10 +61630,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 706,
 		need_exp = 12000,
 		skill_ID = 801090,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -61714,10 +61714,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 707,
 		need_exp = 16000,
 		skill_ID = 801090,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -61803,10 +61803,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 708,
 		need_exp = 20000,
 		skill_ID = 801090,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -61892,10 +61892,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 709,
 		need_exp = 26000,
 		skill_ID = 801090,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -61986,10 +61986,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 710,
 		need_exp = 38000,
 		skill_ID = 801090,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -62080,10 +62080,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 711,
 		need_exp = 60000,
 		skill_ID = 801090,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -62174,10 +62174,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 712,
 		need_exp = 4000,
 		skill_ID = 801100,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -62259,10 +62259,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 713,
 		need_exp = 5000,
 		skill_ID = 801100,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -62338,10 +62338,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 714,
 		need_exp = 8000,
 		skill_ID = 801100,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -62417,10 +62417,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 715,
 		need_exp = 12000,
 		skill_ID = 801100,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -62501,10 +62501,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 716,
 		need_exp = 16000,
 		skill_ID = 801100,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -62590,10 +62590,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 717,
 		need_exp = 20000,
 		skill_ID = 801100,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -62679,10 +62679,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 718,
 		need_exp = 26000,
 		skill_ID = 801100,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -62773,10 +62773,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 719,
 		need_exp = 38000,
 		skill_ID = 801100,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -62867,10 +62867,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 720,
 		need_exp = 60000,
 		skill_ID = 801100,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -62961,10 +62961,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 721,
 		need_exp = 4000,
 		skill_ID = 801110,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -63046,10 +63046,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 722,
 		need_exp = 5000,
 		skill_ID = 801110,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -63125,10 +63125,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 723,
 		need_exp = 8000,
 		skill_ID = 801110,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -63204,10 +63204,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 724,
 		need_exp = 12000,
 		skill_ID = 801110,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -63288,10 +63288,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 725,
 		need_exp = 16000,
 		skill_ID = 801110,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -63377,10 +63377,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 726,
 		need_exp = 20000,
 		skill_ID = 801110,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -63466,10 +63466,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 727,
 		need_exp = 26000,
 		skill_ID = 801110,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -63560,10 +63560,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 728,
 		need_exp = 38000,
 		skill_ID = 801110,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -63654,10 +63654,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 729,
 		need_exp = 60000,
 		skill_ID = 801110,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -63748,10 +63748,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 730,
 		need_exp = 4000,
 		skill_ID = 801130,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -63833,10 +63833,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 731,
 		need_exp = 5000,
 		skill_ID = 801130,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -63912,10 +63912,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 732,
 		need_exp = 8000,
 		skill_ID = 801130,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -63991,10 +63991,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 733,
 		need_exp = 12000,
 		skill_ID = 801130,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -64075,10 +64075,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 734,
 		need_exp = 16000,
 		skill_ID = 801130,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -64164,10 +64164,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 735,
 		need_exp = 20000,
 		skill_ID = 801130,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -64253,10 +64253,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 736,
 		need_exp = 26000,
 		skill_ID = 801130,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -64347,10 +64347,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 737,
 		need_exp = 38000,
 		skill_ID = 801130,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -64441,10 +64441,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 738,
 		need_exp = 60000,
 		skill_ID = 801130,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -64535,10 +64535,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 739,
 		need_exp = 4000,
 		skill_ID = 801140,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -64620,10 +64620,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 740,
 		need_exp = 5000,
 		skill_ID = 801140,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -64699,10 +64699,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 741,
 		need_exp = 8000,
 		skill_ID = 801140,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -64778,10 +64778,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 742,
 		need_exp = 12000,
 		skill_ID = 801140,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -64862,10 +64862,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 743,
 		need_exp = 16000,
 		skill_ID = 801140,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -64951,10 +64951,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 744,
 		need_exp = 20000,
 		skill_ID = 801140,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -65040,10 +65040,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 745,
 		need_exp = 26000,
 		skill_ID = 801140,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -65134,10 +65134,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 746,
 		need_exp = 38000,
 		skill_ID = 801140,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -65228,10 +65228,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 747,
 		need_exp = 60000,
 		skill_ID = 801140,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -65322,10 +65322,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 748,
 		need_exp = 4000,
 		skill_ID = 801150,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -65407,10 +65407,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 749,
 		need_exp = 5000,
 		skill_ID = 801150,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -65486,10 +65486,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 750,
 		need_exp = 8000,
 		skill_ID = 801150,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -65565,10 +65565,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 751,
 		need_exp = 12000,
 		skill_ID = 801150,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -65649,10 +65649,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 752,
 		need_exp = 16000,
 		skill_ID = 801150,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -65738,10 +65738,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 753,
 		need_exp = 20000,
 		skill_ID = 801150,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -65827,10 +65827,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 754,
 		need_exp = 26000,
 		skill_ID = 801150,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -65921,10 +65921,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 755,
 		need_exp = 38000,
 		skill_ID = 801150,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -66015,10 +66015,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 756,
 		need_exp = 60000,
 		skill_ID = 801150,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -66109,10 +66109,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 757,
 		need_exp = 2000,
 		skill_ID = 801170,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -66194,10 +66194,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 758,
 		need_exp = 2500,
 		skill_ID = 801170,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -66273,10 +66273,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 759,
 		need_exp = 4000,
 		skill_ID = 801170,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -66352,10 +66352,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 760,
 		need_exp = 6000,
 		skill_ID = 801170,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -66436,10 +66436,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 761,
 		need_exp = 8000,
 		skill_ID = 801170,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -66525,10 +66525,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 762,
 		need_exp = 10000,
 		skill_ID = 801170,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -66614,10 +66614,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 763,
 		need_exp = 13000,
 		skill_ID = 801170,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -66708,10 +66708,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 764,
 		need_exp = 19000,
 		skill_ID = 801170,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -66802,10 +66802,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 765,
 		need_exp = 30000,
 		skill_ID = 801170,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -66896,10 +66896,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 1,
 		id = 766,
 		need_exp = 2000,
 		skill_ID = 801180,
-		level = 1,
 		skill_levelup_task = {
 			{
 				1,
@@ -66981,10 +66981,10 @@ pg.ship_meta_skilltask = {
 		}
 	},
 	{
+		level = 2,
 		id = 767,
 		need_exp = 2500,
 		skill_ID = 801180,
-		level = 2,
 		skill_levelup_task = {
 			{
 				1,
@@ -67060,10 +67060,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 3,
 		id = 768,
 		need_exp = 4000,
 		skill_ID = 801180,
-		level = 3,
 		skill_levelup_task = {
 			{
 				1,
@@ -67139,10 +67139,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 4,
 		id = 769,
 		need_exp = 6000,
 		skill_ID = 801180,
-		level = 4,
 		skill_levelup_task = {
 			{
 				1,
@@ -67223,10 +67223,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 5,
 		id = 770,
 		need_exp = 8000,
 		skill_ID = 801180,
-		level = 5,
 		skill_levelup_task = {
 			{
 				1,
@@ -67312,10 +67312,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 6,
 		id = 771,
 		need_exp = 10000,
 		skill_ID = 801180,
-		level = 6,
 		skill_levelup_task = {
 			{
 				1,
@@ -67401,10 +67401,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 7,
 		id = 772,
 		need_exp = 13000,
 		skill_ID = 801180,
-		level = 7,
 		skill_levelup_task = {
 			{
 				1,
@@ -67495,10 +67495,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 8,
 		id = 773,
 		need_exp = 19000,
 		skill_ID = 801180,
-		level = 8,
 		skill_levelup_task = {
 			{
 				1,
@@ -67589,10 +67589,10 @@ pg.ship_meta_skilltask = {
 		skill_unlock = {}
 	},
 	{
+		level = 9,
 		id = 774,
 		need_exp = 30000,
 		skill_ID = 801180,
-		level = 9,
 		skill_levelup_task = {
 			{
 				1,
@@ -67661,6 +67661,3941 @@ pg.ship_meta_skilltask = {
 			},
 			{
 				200184,
+				100,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 1,
+		id = 775,
+		need_exp = 4000,
+		skill_ID = 801200,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				30,
+				30
+			},
+			{
+				4,
+				400,
+				2
+			},
+			{
+				100191,
+				30,
+				30
+			},
+			{
+				100192,
+				40,
+				20
+			},
+			{
+				100193,
+				20,
+				40
+			},
+			{
+				5,
+				30,
+				30
+			},
+			{
+				6,
+				400,
+				2
+			},
+			{
+				200191,
+				30,
+				20
+			},
+			{
+				200192,
+				20,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {
+			{
+				2,
+				16003,
+				5
+			}
+		}
+	},
+	{
+		level = 2,
+		id = 776,
+		need_exp = 5000,
+		skill_ID = 801200,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				40,
+				30
+			},
+			{
+				4,
+				500,
+				2
+			},
+			{
+				100191,
+				40,
+				30
+			},
+			{
+				100192,
+				50,
+				20
+			},
+			{
+				100193,
+				25,
+				40
+			},
+			{
+				5,
+				40,
+				30
+			},
+			{
+				6,
+				500,
+				2
+			},
+			{
+				200191,
+				40,
+				20
+			},
+			{
+				200192,
+				30,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 3,
+		id = 777,
+		need_exp = 8000,
+		skill_ID = 801200,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				50,
+				30
+			},
+			{
+				4,
+				800,
+				2
+			},
+			{
+				100191,
+				50,
+				30
+			},
+			{
+				100192,
+				80,
+				20
+			},
+			{
+				100193,
+				40,
+				40
+			},
+			{
+				5,
+				50,
+				30
+			},
+			{
+				6,
+				800,
+				2
+			},
+			{
+				200191,
+				50,
+				20
+			},
+			{
+				200192,
+				40,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 4,
+		id = 778,
+		need_exp = 12000,
+		skill_ID = 801200,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				90,
+				20
+			},
+			{
+				4,
+				1800,
+				1
+			},
+			{
+				100191,
+				90,
+				20
+			},
+			{
+				100192,
+				90,
+				20
+			},
+			{
+				100193,
+				45,
+				40
+			},
+			{
+				5,
+				70,
+				30
+			},
+			{
+				6,
+				1000,
+				2
+			},
+			{
+				200191,
+				90,
+				20
+			},
+			{
+				200192,
+				50,
+				40
+			},
+			{
+				200193,
+				35,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 5,
+		id = 779,
+		need_exp = 16000,
+		skill_ID = 801200,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				150,
+				15
+			},
+			{
+				4,
+				2000,
+				1
+			},
+			{
+				100191,
+				150,
+				15
+			},
+			{
+				100192,
+				100,
+				20
+			},
+			{
+				100193,
+				50,
+				40
+			},
+			{
+				100194,
+				40,
+				50
+			},
+			{
+				5,
+				100,
+				30
+			},
+			{
+				6,
+				1500,
+				2
+			},
+			{
+				200191,
+				100,
+				20
+			},
+			{
+				200192,
+				75,
+				40
+			},
+			{
+				200193,
+				50,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				3,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 6,
+		id = 780,
+		need_exp = 20000,
+		skill_ID = 801200,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				170,
+				15
+			},
+			{
+				4,
+				2500,
+				1
+			},
+			{
+				100191,
+				170,
+				15
+			},
+			{
+				100192,
+				125,
+				20
+			},
+			{
+				100193,
+				65,
+				40
+			},
+			{
+				100194,
+				50,
+				50
+			},
+			{
+				5,
+				100,
+				30
+			},
+			{
+				6,
+				1500,
+				2
+			},
+			{
+				200191,
+				75,
+				20
+			},
+			{
+				200192,
+				100,
+				40
+			},
+			{
+				200193,
+				75,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				3,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 7,
+		id = 781,
+		need_exp = 26000,
+		skill_ID = 801200,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				275,
+				10
+			},
+			{
+				4,
+				2750,
+				1
+			},
+			{
+				100191,
+				275,
+				10
+			},
+			{
+				100193,
+				70,
+				40
+			},
+			{
+				100194,
+				50,
+				50
+			},
+			{
+				100195,
+				30,
+				70
+			},
+			{
+				5,
+				100,
+				30
+			},
+			{
+				6,
+				1500,
+				2
+			},
+			{
+				200191,
+				75,
+				20
+			},
+			{
+				200192,
+				100,
+				40
+			},
+			{
+				200193,
+				75,
+				60
+			},
+			{
+				200194,
+				50,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 8,
+		id = 782,
+		need_exp = 38000,
+		skill_ID = 801200,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				320,
+				10
+			},
+			{
+				4,
+				3200,
+				1
+			},
+			{
+				100191,
+				320,
+				10
+			},
+			{
+				100193,
+				80,
+				40
+			},
+			{
+				100194,
+				65,
+				50
+			},
+			{
+				100195,
+				50,
+				70
+			},
+			{
+				5,
+				150,
+				30
+			},
+			{
+				6,
+				2250,
+				2
+			},
+			{
+				200191,
+				100,
+				20
+			},
+			{
+				200192,
+				150,
+				40
+			},
+			{
+				200193,
+				100,
+				60
+			},
+			{
+				200194,
+				60,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 9,
+		id = 783,
+		need_exp = 60000,
+		skill_ID = 801200,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				400,
+				10
+			},
+			{
+				4,
+				4000,
+				1
+			},
+			{
+				100191,
+				400,
+				10
+			},
+			{
+				100193,
+				200,
+				20
+			},
+			{
+				100194,
+				100,
+				50
+			},
+			{
+				100195,
+				75,
+				70
+			},
+			{
+				5,
+				200,
+				30
+			},
+			{
+				6,
+				3000,
+				2
+			},
+			{
+				200191,
+				300,
+				20
+			},
+			{
+				200192,
+				200,
+				40
+			},
+			{
+				200193,
+				150,
+				60
+			},
+			{
+				200194,
+				100,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 1,
+		id = 784,
+		need_exp = 4000,
+		skill_ID = 801210,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				30,
+				30
+			},
+			{
+				4,
+				400,
+				2
+			},
+			{
+				100191,
+				30,
+				30
+			},
+			{
+				100192,
+				40,
+				20
+			},
+			{
+				100193,
+				20,
+				40
+			},
+			{
+				5,
+				30,
+				30
+			},
+			{
+				6,
+				400,
+				2
+			},
+			{
+				200191,
+				30,
+				20
+			},
+			{
+				200192,
+				20,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {
+			{
+				2,
+				16013,
+				5
+			}
+		}
+	},
+	{
+		level = 2,
+		id = 785,
+		need_exp = 5000,
+		skill_ID = 801210,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				40,
+				30
+			},
+			{
+				4,
+				500,
+				2
+			},
+			{
+				100191,
+				40,
+				30
+			},
+			{
+				100192,
+				50,
+				20
+			},
+			{
+				100193,
+				25,
+				40
+			},
+			{
+				5,
+				40,
+				30
+			},
+			{
+				6,
+				500,
+				2
+			},
+			{
+				200191,
+				40,
+				20
+			},
+			{
+				200192,
+				30,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 3,
+		id = 786,
+		need_exp = 8000,
+		skill_ID = 801210,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				50,
+				30
+			},
+			{
+				4,
+				800,
+				2
+			},
+			{
+				100191,
+				50,
+				30
+			},
+			{
+				100192,
+				80,
+				20
+			},
+			{
+				100193,
+				40,
+				40
+			},
+			{
+				5,
+				50,
+				30
+			},
+			{
+				6,
+				800,
+				2
+			},
+			{
+				200191,
+				50,
+				20
+			},
+			{
+				200192,
+				40,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 4,
+		id = 787,
+		need_exp = 12000,
+		skill_ID = 801210,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				90,
+				20
+			},
+			{
+				4,
+				1800,
+				1
+			},
+			{
+				100191,
+				90,
+				20
+			},
+			{
+				100192,
+				90,
+				20
+			},
+			{
+				100193,
+				45,
+				40
+			},
+			{
+				5,
+				70,
+				30
+			},
+			{
+				6,
+				1000,
+				2
+			},
+			{
+				200191,
+				90,
+				20
+			},
+			{
+				200192,
+				50,
+				40
+			},
+			{
+				200193,
+				35,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 5,
+		id = 788,
+		need_exp = 16000,
+		skill_ID = 801210,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				150,
+				15
+			},
+			{
+				4,
+				2000,
+				1
+			},
+			{
+				100191,
+				150,
+				15
+			},
+			{
+				100192,
+				100,
+				20
+			},
+			{
+				100193,
+				50,
+				40
+			},
+			{
+				100194,
+				40,
+				50
+			},
+			{
+				5,
+				100,
+				30
+			},
+			{
+				6,
+				1500,
+				2
+			},
+			{
+				200191,
+				100,
+				20
+			},
+			{
+				200192,
+				75,
+				40
+			},
+			{
+				200193,
+				50,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				3,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 6,
+		id = 789,
+		need_exp = 20000,
+		skill_ID = 801210,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				170,
+				15
+			},
+			{
+				4,
+				2500,
+				1
+			},
+			{
+				100191,
+				170,
+				15
+			},
+			{
+				100192,
+				125,
+				20
+			},
+			{
+				100193,
+				65,
+				40
+			},
+			{
+				100194,
+				50,
+				50
+			},
+			{
+				5,
+				100,
+				30
+			},
+			{
+				6,
+				1500,
+				2
+			},
+			{
+				200191,
+				75,
+				20
+			},
+			{
+				200192,
+				100,
+				40
+			},
+			{
+				200193,
+				75,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				3,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 7,
+		id = 790,
+		need_exp = 26000,
+		skill_ID = 801210,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				275,
+				10
+			},
+			{
+				4,
+				2750,
+				1
+			},
+			{
+				100191,
+				275,
+				10
+			},
+			{
+				100193,
+				70,
+				40
+			},
+			{
+				100194,
+				50,
+				50
+			},
+			{
+				100195,
+				30,
+				70
+			},
+			{
+				5,
+				100,
+				30
+			},
+			{
+				6,
+				1500,
+				2
+			},
+			{
+				200191,
+				75,
+				20
+			},
+			{
+				200192,
+				100,
+				40
+			},
+			{
+				200193,
+				75,
+				60
+			},
+			{
+				200194,
+				50,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 8,
+		id = 791,
+		need_exp = 38000,
+		skill_ID = 801210,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				320,
+				10
+			},
+			{
+				4,
+				3200,
+				1
+			},
+			{
+				100191,
+				320,
+				10
+			},
+			{
+				100193,
+				80,
+				40
+			},
+			{
+				100194,
+				65,
+				50
+			},
+			{
+				100195,
+				50,
+				70
+			},
+			{
+				5,
+				150,
+				30
+			},
+			{
+				6,
+				2250,
+				2
+			},
+			{
+				200191,
+				100,
+				20
+			},
+			{
+				200192,
+				150,
+				40
+			},
+			{
+				200193,
+				100,
+				60
+			},
+			{
+				200194,
+				60,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 9,
+		id = 792,
+		need_exp = 60000,
+		skill_ID = 801210,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				400,
+				10
+			},
+			{
+				4,
+				4000,
+				1
+			},
+			{
+				100191,
+				400,
+				10
+			},
+			{
+				100193,
+				200,
+				20
+			},
+			{
+				100194,
+				100,
+				50
+			},
+			{
+				100195,
+				75,
+				70
+			},
+			{
+				5,
+				200,
+				30
+			},
+			{
+				6,
+				3000,
+				2
+			},
+			{
+				200191,
+				300,
+				20
+			},
+			{
+				200192,
+				200,
+				40
+			},
+			{
+				200193,
+				150,
+				60
+			},
+			{
+				200194,
+				100,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 1,
+		id = 793,
+		need_exp = 4000,
+		skill_ID = 801220,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				30,
+				30
+			},
+			{
+				4,
+				400,
+				2
+			},
+			{
+				100191,
+				30,
+				30
+			},
+			{
+				100192,
+				40,
+				20
+			},
+			{
+				100193,
+				20,
+				40
+			},
+			{
+				5,
+				30,
+				30
+			},
+			{
+				6,
+				400,
+				2
+			},
+			{
+				200191,
+				30,
+				20
+			},
+			{
+				200192,
+				20,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {
+			{
+				2,
+				16023,
+				5
+			}
+		}
+	},
+	{
+		level = 2,
+		id = 794,
+		need_exp = 5000,
+		skill_ID = 801220,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				40,
+				30
+			},
+			{
+				4,
+				500,
+				2
+			},
+			{
+				100191,
+				40,
+				30
+			},
+			{
+				100192,
+				50,
+				20
+			},
+			{
+				100193,
+				25,
+				40
+			},
+			{
+				5,
+				40,
+				30
+			},
+			{
+				6,
+				500,
+				2
+			},
+			{
+				200191,
+				40,
+				20
+			},
+			{
+				200192,
+				30,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 3,
+		id = 795,
+		need_exp = 8000,
+		skill_ID = 801220,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				50,
+				30
+			},
+			{
+				4,
+				800,
+				2
+			},
+			{
+				100191,
+				50,
+				30
+			},
+			{
+				100192,
+				80,
+				20
+			},
+			{
+				100193,
+				40,
+				40
+			},
+			{
+				5,
+				50,
+				30
+			},
+			{
+				6,
+				800,
+				2
+			},
+			{
+				200191,
+				50,
+				20
+			},
+			{
+				200192,
+				40,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 4,
+		id = 796,
+		need_exp = 12000,
+		skill_ID = 801220,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				90,
+				20
+			},
+			{
+				4,
+				1800,
+				1
+			},
+			{
+				100191,
+				90,
+				20
+			},
+			{
+				100192,
+				90,
+				20
+			},
+			{
+				100193,
+				45,
+				40
+			},
+			{
+				5,
+				70,
+				30
+			},
+			{
+				6,
+				1000,
+				2
+			},
+			{
+				200191,
+				90,
+				20
+			},
+			{
+				200192,
+				50,
+				40
+			},
+			{
+				200193,
+				35,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 5,
+		id = 797,
+		need_exp = 16000,
+		skill_ID = 801220,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				150,
+				15
+			},
+			{
+				4,
+				2000,
+				1
+			},
+			{
+				100191,
+				150,
+				15
+			},
+			{
+				100192,
+				100,
+				20
+			},
+			{
+				100193,
+				50,
+				40
+			},
+			{
+				100194,
+				40,
+				50
+			},
+			{
+				5,
+				100,
+				30
+			},
+			{
+				6,
+				1500,
+				2
+			},
+			{
+				200191,
+				100,
+				20
+			},
+			{
+				200192,
+				75,
+				40
+			},
+			{
+				200193,
+				50,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				3,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 6,
+		id = 798,
+		need_exp = 20000,
+		skill_ID = 801220,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				170,
+				15
+			},
+			{
+				4,
+				2500,
+				1
+			},
+			{
+				100191,
+				170,
+				15
+			},
+			{
+				100192,
+				125,
+				20
+			},
+			{
+				100193,
+				65,
+				40
+			},
+			{
+				100194,
+				50,
+				50
+			},
+			{
+				5,
+				100,
+				30
+			},
+			{
+				6,
+				1500,
+				2
+			},
+			{
+				200191,
+				75,
+				20
+			},
+			{
+				200192,
+				100,
+				40
+			},
+			{
+				200193,
+				75,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				3,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 7,
+		id = 799,
+		need_exp = 26000,
+		skill_ID = 801220,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				275,
+				10
+			},
+			{
+				4,
+				2750,
+				1
+			},
+			{
+				100191,
+				275,
+				10
+			},
+			{
+				100193,
+				70,
+				40
+			},
+			{
+				100194,
+				50,
+				50
+			},
+			{
+				100195,
+				30,
+				70
+			},
+			{
+				5,
+				100,
+				30
+			},
+			{
+				6,
+				1500,
+				2
+			},
+			{
+				200191,
+				75,
+				20
+			},
+			{
+				200192,
+				100,
+				40
+			},
+			{
+				200193,
+				75,
+				60
+			},
+			{
+				200194,
+				50,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 8,
+		id = 800,
+		need_exp = 38000,
+		skill_ID = 801220,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				320,
+				10
+			},
+			{
+				4,
+				3200,
+				1
+			},
+			{
+				100191,
+				320,
+				10
+			},
+			{
+				100193,
+				80,
+				40
+			},
+			{
+				100194,
+				65,
+				50
+			},
+			{
+				100195,
+				50,
+				70
+			},
+			{
+				5,
+				150,
+				30
+			},
+			{
+				6,
+				2250,
+				2
+			},
+			{
+				200191,
+				100,
+				20
+			},
+			{
+				200192,
+				150,
+				40
+			},
+			{
+				200193,
+				100,
+				60
+			},
+			{
+				200194,
+				60,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 9,
+		id = 801,
+		need_exp = 60000,
+		skill_ID = 801220,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				400,
+				10
+			},
+			{
+				4,
+				4000,
+				1
+			},
+			{
+				100191,
+				400,
+				10
+			},
+			{
+				100193,
+				200,
+				20
+			},
+			{
+				100194,
+				100,
+				50
+			},
+			{
+				100195,
+				75,
+				70
+			},
+			{
+				5,
+				200,
+				30
+			},
+			{
+				6,
+				3000,
+				2
+			},
+			{
+				200191,
+				300,
+				20
+			},
+			{
+				200192,
+				200,
+				40
+			},
+			{
+				200193,
+				150,
+				60
+			},
+			{
+				200194,
+				100,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 1,
+		id = 802,
+		need_exp = 2000,
+		skill_ID = 801240,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				30,
+				30
+			},
+			{
+				4,
+				400,
+				5
+			},
+			{
+				100201,
+				30,
+				30
+			},
+			{
+				100202,
+				40,
+				20
+			},
+			{
+				100203,
+				20,
+				40
+			},
+			{
+				5,
+				30,
+				30
+			},
+			{
+				6,
+				400,
+				5
+			},
+			{
+				200201,
+				30,
+				20
+			},
+			{
+				200202,
+				20,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {
+			{
+				2,
+				16002,
+				2
+			}
+		}
+	},
+	{
+		level = 2,
+		id = 803,
+		need_exp = 2500,
+		skill_ID = 801240,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				40,
+				30
+			},
+			{
+				4,
+				500,
+				5
+			},
+			{
+				100201,
+				40,
+				30
+			},
+			{
+				100202,
+				50,
+				20
+			},
+			{
+				100203,
+				25,
+				40
+			},
+			{
+				5,
+				40,
+				30
+			},
+			{
+				6,
+				500,
+				5
+			},
+			{
+				200201,
+				40,
+				20
+			},
+			{
+				200202,
+				30,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 3,
+		id = 804,
+		need_exp = 4000,
+		skill_ID = 801240,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				50,
+				30
+			},
+			{
+				4,
+				800,
+				5
+			},
+			{
+				100201,
+				50,
+				30
+			},
+			{
+				100202,
+				80,
+				20
+			},
+			{
+				100203,
+				40,
+				40
+			},
+			{
+				5,
+				50,
+				30
+			},
+			{
+				6,
+				800,
+				5
+			},
+			{
+				200201,
+				50,
+				20
+			},
+			{
+				200202,
+				40,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 4,
+		id = 805,
+		need_exp = 6000,
+		skill_ID = 801240,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				90,
+				30
+			},
+			{
+				4,
+				1800,
+				4
+			},
+			{
+				100201,
+				90,
+				30
+			},
+			{
+				100202,
+				90,
+				20
+			},
+			{
+				100203,
+				45,
+				40
+			},
+			{
+				5,
+				70,
+				30
+			},
+			{
+				6,
+				1000,
+				4
+			},
+			{
+				200201,
+				90,
+				20
+			},
+			{
+				200202,
+				50,
+				40
+			},
+			{
+				200203,
+				35,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 5,
+		id = 806,
+		need_exp = 8000,
+		skill_ID = 801240,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				150,
+				30
+			},
+			{
+				4,
+				2000,
+				3
+			},
+			{
+				100201,
+				150,
+				30
+			},
+			{
+				100202,
+				100,
+				20
+			},
+			{
+				100203,
+				50,
+				40
+			},
+			{
+				100204,
+				40,
+				50
+			},
+			{
+				5,
+				100,
+				30
+			},
+			{
+				6,
+				1200,
+				3
+			},
+			{
+				200201,
+				100,
+				20
+			},
+			{
+				200202,
+				75,
+				40
+			},
+			{
+				200203,
+				50,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				3,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 6,
+		id = 807,
+		need_exp = 10000,
+		skill_ID = 801240,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				170,
+				30
+			},
+			{
+				4,
+				2500,
+				3
+			},
+			{
+				100201,
+				170,
+				30
+			},
+			{
+				100202,
+				125,
+				20
+			},
+			{
+				100203,
+				65,
+				40
+			},
+			{
+				100204,
+				50,
+				50
+			},
+			{
+				5,
+				120,
+				30
+			},
+			{
+				6,
+				1500,
+				3
+			},
+			{
+				200201,
+				75,
+				20
+			},
+			{
+				200202,
+				100,
+				40
+			},
+			{
+				200203,
+				75,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				3,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 7,
+		id = 808,
+		need_exp = 13000,
+		skill_ID = 801240,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				275,
+				20
+			},
+			{
+				4,
+				2750,
+				2
+			},
+			{
+				100201,
+				275,
+				30
+			},
+			{
+				100203,
+				70,
+				40
+			},
+			{
+				100204,
+				50,
+				50
+			},
+			{
+				100205,
+				30,
+				70
+			},
+			{
+				5,
+				150,
+				30
+			},
+			{
+				6,
+				1500,
+				2
+			},
+			{
+				200201,
+				75,
+				20
+			},
+			{
+				200202,
+				100,
+				40
+			},
+			{
+				200203,
+				75,
+				60
+			},
+			{
+				200204,
+				50,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 8,
+		id = 809,
+		need_exp = 19000,
+		skill_ID = 801240,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				320,
+				20
+			},
+			{
+				4,
+				3200,
+				2
+			},
+			{
+				100201,
+				320,
+				30
+			},
+			{
+				100203,
+				80,
+				40
+			},
+			{
+				100204,
+				65,
+				50
+			},
+			{
+				100205,
+				50,
+				70
+			},
+			{
+				5,
+				150,
+				30
+			},
+			{
+				6,
+				2250,
+				2
+			},
+			{
+				200201,
+				100,
+				20
+			},
+			{
+				200202,
+				150,
+				40
+			},
+			{
+				200203,
+				100,
+				60
+			},
+			{
+				200204,
+				60,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 9,
+		id = 810,
+		need_exp = 30000,
+		skill_ID = 801240,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				400,
+				20
+			},
+			{
+				4,
+				4000,
+				2
+			},
+			{
+				100201,
+				400,
+				30
+			},
+			{
+				100203,
+				200,
+				20
+			},
+			{
+				100204,
+				100,
+				50
+			},
+			{
+				100205,
+				75,
+				70
+			},
+			{
+				5,
+				200,
+				30
+			},
+			{
+				6,
+				3000,
+				2
+			},
+			{
+				200201,
+				300,
+				20
+			},
+			{
+				200202,
+				200,
+				40
+			},
+			{
+				200203,
+				150,
+				60
+			},
+			{
+				200204,
+				100,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 1,
+		id = 811,
+		need_exp = 2000,
+		skill_ID = 801250,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				30,
+				30
+			},
+			{
+				4,
+				400,
+				5
+			},
+			{
+				100201,
+				30,
+				30
+			},
+			{
+				100202,
+				40,
+				20
+			},
+			{
+				100203,
+				20,
+				40
+			},
+			{
+				5,
+				30,
+				30
+			},
+			{
+				6,
+				400,
+				5
+			},
+			{
+				200201,
+				30,
+				20
+			},
+			{
+				200202,
+				20,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {
+			{
+				2,
+				16022,
+				2
+			}
+		}
+	},
+	{
+		level = 2,
+		id = 812,
+		need_exp = 2500,
+		skill_ID = 801250,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				40,
+				30
+			},
+			{
+				4,
+				500,
+				5
+			},
+			{
+				100201,
+				40,
+				30
+			},
+			{
+				100202,
+				50,
+				20
+			},
+			{
+				100203,
+				25,
+				40
+			},
+			{
+				5,
+				40,
+				30
+			},
+			{
+				6,
+				500,
+				5
+			},
+			{
+				200201,
+				40,
+				20
+			},
+			{
+				200202,
+				30,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 3,
+		id = 813,
+		need_exp = 4000,
+		skill_ID = 801250,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				50,
+				30
+			},
+			{
+				4,
+				800,
+				5
+			},
+			{
+				100201,
+				50,
+				30
+			},
+			{
+				100202,
+				80,
+				20
+			},
+			{
+				100203,
+				40,
+				40
+			},
+			{
+				5,
+				50,
+				30
+			},
+			{
+				6,
+				800,
+				5
+			},
+			{
+				200201,
+				50,
+				20
+			},
+			{
+				200202,
+				40,
+				40
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 4,
+		id = 814,
+		need_exp = 6000,
+		skill_ID = 801250,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				90,
+				30
+			},
+			{
+				4,
+				1800,
+				4
+			},
+			{
+				100201,
+				90,
+				30
+			},
+			{
+				100202,
+				90,
+				20
+			},
+			{
+				100203,
+				45,
+				40
+			},
+			{
+				5,
+				70,
+				30
+			},
+			{
+				6,
+				1000,
+				4
+			},
+			{
+				200201,
+				90,
+				20
+			},
+			{
+				200202,
+				50,
+				40
+			},
+			{
+				200203,
+				35,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				2,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 5,
+		id = 815,
+		need_exp = 8000,
+		skill_ID = 801250,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				150,
+				30
+			},
+			{
+				4,
+				2000,
+				3
+			},
+			{
+				100201,
+				150,
+				30
+			},
+			{
+				100202,
+				100,
+				20
+			},
+			{
+				100203,
+				50,
+				40
+			},
+			{
+				100204,
+				40,
+				50
+			},
+			{
+				5,
+				100,
+				30
+			},
+			{
+				6,
+				1200,
+				3
+			},
+			{
+				200201,
+				100,
+				20
+			},
+			{
+				200202,
+				75,
+				40
+			},
+			{
+				200203,
+				50,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				3,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 6,
+		id = 816,
+		need_exp = 10000,
+		skill_ID = 801250,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				170,
+				30
+			},
+			{
+				4,
+				2500,
+				3
+			},
+			{
+				100201,
+				170,
+				30
+			},
+			{
+				100202,
+				125,
+				20
+			},
+			{
+				100203,
+				65,
+				40
+			},
+			{
+				100204,
+				50,
+				50
+			},
+			{
+				5,
+				120,
+				30
+			},
+			{
+				6,
+				1500,
+				3
+			},
+			{
+				200201,
+				75,
+				20
+			},
+			{
+				200202,
+				100,
+				40
+			},
+			{
+				200203,
+				75,
+				60
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				3,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 7,
+		id = 817,
+		need_exp = 13000,
+		skill_ID = 801250,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				275,
+				20
+			},
+			{
+				4,
+				2750,
+				2
+			},
+			{
+				100201,
+				275,
+				30
+			},
+			{
+				100203,
+				70,
+				40
+			},
+			{
+				100204,
+				50,
+				50
+			},
+			{
+				100205,
+				30,
+				70
+			},
+			{
+				5,
+				150,
+				30
+			},
+			{
+				6,
+				1500,
+				2
+			},
+			{
+				200201,
+				75,
+				20
+			},
+			{
+				200202,
+				100,
+				40
+			},
+			{
+				200203,
+				75,
+				60
+			},
+			{
+				200204,
+				50,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 8,
+		id = 818,
+		need_exp = 19000,
+		skill_ID = 801250,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				320,
+				20
+			},
+			{
+				4,
+				3200,
+				2
+			},
+			{
+				100201,
+				320,
+				30
+			},
+			{
+				100203,
+				80,
+				40
+			},
+			{
+				100204,
+				65,
+				50
+			},
+			{
+				100205,
+				50,
+				70
+			},
+			{
+				5,
+				150,
+				30
+			},
+			{
+				6,
+				2250,
+				2
+			},
+			{
+				200201,
+				100,
+				20
+			},
+			{
+				200202,
+				150,
+				40
+			},
+			{
+				200203,
+				100,
+				60
+			},
+			{
+				200204,
+				60,
+				80
+			},
+			{
+				7,
+				2,
+				500
+			},
+			{
+				301,
+				5,
+				200
+			},
+			{
+				302,
+				1,
+				500
+			}
+		},
+		skill_unlock = {}
+	},
+	{
+		level = 9,
+		id = 819,
+		need_exp = 30000,
+		skill_ID = 801250,
+		skill_levelup_task = {
+			{
+				1,
+				0,
+				15
+			},
+			{
+				2,
+				0,
+				20
+			},
+			{
+				3,
+				400,
+				20
+			},
+			{
+				4,
+				4000,
+				2
+			},
+			{
+				100201,
+				400,
+				30
+			},
+			{
+				100203,
+				200,
+				20
+			},
+			{
+				100204,
+				100,
+				50
+			},
+			{
+				100205,
+				75,
+				70
+			},
+			{
+				5,
+				200,
+				30
+			},
+			{
+				6,
+				3000,
+				2
+			},
+			{
+				200201,
+				300,
+				20
+			},
+			{
+				200202,
+				200,
+				40
+			},
+			{
+				200203,
+				150,
+				60
+			},
+			{
+				200204,
 				100,
 				80
 			},
@@ -68628,6 +72563,61 @@ pg.ship_meta_skilltask = {
 			772,
 			773,
 			774
+		},
+		[801200] = {
+			775,
+			776,
+			777,
+			778,
+			779,
+			780,
+			781,
+			782,
+			783
+		},
+		[801210] = {
+			784,
+			785,
+			786,
+			787,
+			788,
+			789,
+			790,
+			791,
+			792
+		},
+		[801220] = {
+			793,
+			794,
+			795,
+			796,
+			797,
+			798,
+			799,
+			800,
+			801
+		},
+		[801240] = {
+			802,
+			803,
+			804,
+			805,
+			806,
+			807,
+			808,
+			809,
+			810
+		},
+		[801250] = {
+			811,
+			812,
+			813,
+			814,
+			815,
+			816,
+			817,
+			818,
+			819
 		}
 	},
 	all = {
@@ -69404,6 +73394,51 @@ pg.ship_meta_skilltask = {
 		771,
 		772,
 		773,
-		774
+		774,
+		775,
+		776,
+		777,
+		778,
+		779,
+		780,
+		781,
+		782,
+		783,
+		784,
+		785,
+		786,
+		787,
+		788,
+		789,
+		790,
+		791,
+		792,
+		793,
+		794,
+		795,
+		796,
+		797,
+		798,
+		799,
+		800,
+		801,
+		802,
+		803,
+		804,
+		805,
+		806,
+		807,
+		808,
+		809,
+		810,
+		811,
+		812,
+		813,
+		814,
+		815,
+		816,
+		817,
+		818,
+		819
 	}
 }

@@ -10,19 +10,19 @@ slot4.STOP_STATE = "STOP_STATE"
 slot4.MOVE_STATE = "MOVE_STATE"
 slot4.CRASH_STATE = "CRASH_STATE"
 
-function slot4.Ctor(slot0, slot1)
+slot4.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0._dir = uv1.Battle.BattleConst.UnitDir.LEFT
 	slot0._type = uv1.Battle.BattleConst.UnitType.FUNNEL_UNIT
 end
 
-function slot4.Update(slot0, slot1)
+slot4.Update = function(slot0, slot1)
 	slot0:updateExist()
 	slot0:updatePatrol(slot1)
 end
 
-function slot4.updateExist(slot0)
+slot4.updateExist = function(slot0)
 	if not slot0._existStartTime then
 		return
 	end
@@ -32,19 +32,19 @@ function slot4.updateExist(slot0)
 	end
 end
 
-function slot4.UpdateWeapon(slot0)
+slot4.UpdateWeapon = function(slot0)
 	for slot4, slot5 in ipairs(slot0:GetWeapon()) do
 		slot5:Update()
 	end
 end
 
-function slot4.SetMotherUnit(slot0, slot1)
+slot4.SetMotherUnit = function(slot0, slot1)
 	uv0.super.SetMotherUnit(slot0, slot1)
 
 	slot0._upperBound, slot0._lowerBound, slot0._leftBound, slot0._rightBound = uv1.Battle.BattleDataProxy.GetInstance():GetFleetBoundByIFF(slot0:GetIFF() * -1)
 end
 
-function slot4.SetTemplate(slot0, slot1)
+slot4.SetTemplate = function(slot0, slot1)
 	uv0.super.SetTemplate(slot0, slot1)
 
 	slot0._existDuration = slot1.funnel_behavior.exist
@@ -67,7 +67,7 @@ function slot4.SetTemplate(slot0, slot1)
 	end
 end
 
-function slot4.changePartolState(slot0, slot1)
+slot4.changePartolState = function(slot0, slot1)
 	if slot1 == uv0.MOVE_STATE then
 		slot0:changeToMoveState()
 	elseif slot1 == uv0.STOP_STATE then
@@ -79,7 +79,7 @@ function slot4.changePartolState(slot0, slot1)
 	slot0._portalState = slot1
 end
 
-function slot4.AddCreateTimer(slot0, slot1, slot2)
+slot4.AddCreateTimer = function(slot0, slot1, slot2)
 	slot0._currentState = slot0.STATE_CREATE
 	slot0._speedDir = slot1
 	slot0._velocity = uv0.Battle.BattleFormulas.ConvertAircraftSpeed(20)
@@ -95,21 +95,21 @@ function slot4.AddCreateTimer(slot0, slot1, slot2)
 	end)
 end
 
-function slot4.updatePosition(slot0)
+slot4.updatePosition = function(slot0)
 	slot0._pos = slot0._pos + slot0._speed
 end
 
-function slot4._updateCreate(slot0)
+slot4._updateCreate = function(slot0)
 	slot0:UpdateSpeed()
 	slot0:updatePosition()
 end
 
-function slot4.nonWeaponStopState(slot0)
+slot4.nonWeaponStopState = function(slot0)
 	slot0._stopStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 	slot0.updatePatrol = slot0._updateStop
 end
 
-function slot4.stopState(slot0)
+slot4.stopState = function(slot0)
 	slot0._stopStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 
 	slot0:GetWeapon()[1]:updateMovementInfo()
@@ -123,7 +123,7 @@ function slot4.stopState(slot0)
 	end
 end
 
-function slot4._updateStop(slot0, slot1)
+slot4._updateStop = function(slot0, slot1)
 	if slot0:getStopDuration() < pg.TimeMgr.GetInstance():GetCombatTime() then
 		slot0:changePartolState(uv0.MOVE_STATE)
 	else
@@ -131,17 +131,17 @@ function slot4._updateStop(slot0, slot1)
 	end
 end
 
-function slot4.getStopDuration(slot0)
+slot4.getStopDuration = function(slot0)
 	return slot0._stopStartTime + slot0._stayDuration
 end
 
-function slot4.changeToMoveState(slot0)
+slot4.changeToMoveState = function(slot0)
 	slot0:generateMoveTargetPoint()
 
 	slot0.updatePatrol = slot0._updateMove
 end
 
-function slot4._updateMove(slot0, slot1)
+slot4._updateMove = function(slot0, slot1)
 	slot0._speed = slot0._direction * slot0:GetSpeedRatio()
 
 	slot0:updatePosition()
@@ -151,7 +151,7 @@ function slot4._updateMove(slot0, slot1)
 	end
 end
 
-function slot4.generateMoveTargetPoint(slot0)
+slot4.generateMoveTargetPoint = function(slot0)
 	slot0._moveTargetPosition = Vector3(math.random(slot0._leftBound, slot0._rightBound), slot0:GetPosition().y, math.random(slot0._upperBound, slot0._lowerBound))
 	slot3 = (slot0._moveTargetPosition - slot0._pos).normalized
 	slot3.y = 0
@@ -161,7 +161,7 @@ function slot4.generateMoveTargetPoint(slot0)
 	slot0._direction = slot3
 end
 
-function slot4.changeToCrashState(slot0)
+slot4.changeToCrashState = function(slot0)
 	slot0._existStartTime = nil
 
 	if slot0:GetIFF() == uv0.FOE_CODE then
@@ -173,7 +173,7 @@ function slot4.changeToCrashState(slot0)
 	slot0.updatePatrol = slot0._updateCrash
 end
 
-function slot4._updateCrash(slot0)
+slot4._updateCrash = function(slot0)
 	slot0:UpdateSpeed()
 	slot0:updatePosition()
 end

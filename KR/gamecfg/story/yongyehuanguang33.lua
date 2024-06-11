@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG33",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG33",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "xinnong-2",
 			dir = 1,
 			say = "쳇, 드디어 왔네. III형 함대를 한번에 뚫고 이곳에 오다니, 그래도 너희들에게 칭찬을 해줘야겠어.",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,8 +70,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "느낌이…그냥 억지부리는 것 같은데요.",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = " 매일 보고서가 그렇게 많은데 그렇게 자세하게 언제 하나하나 다봐? 에든버러. 보고서에서 지휘관님은 뭐라고 하셨어?",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = " 내가 보충하지.\" #특별주의# 함장에서의 큰 입은 비록 압박감이 매우 강해보이지만, 이번 작전에서 스캐빈저가 격파될 때까지 큰 입은 한번도 사용된 적 없어.\"",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "P.S. 비록 실력을 보류하기 위해 일부러 주무기를 사용하지 않았을 가능성도 고려한 것이지만, 스캐빈저의 성격을 연상하면 단순히 사람을 놀래키기 위해 설치된 장식품 뿐인 것으로 존재하고 있다고 해요....",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "이상입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 		{
 			actor = 900219,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = " 무슨 농담하는거야!!!!!!!",
 			dialogShake = {
 				speed = 0.09,
@@ -328,8 +328,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -353,10 +353,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "우우웅——！",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "우우웅——！",
 			effects = {
 				{
 					active = false,

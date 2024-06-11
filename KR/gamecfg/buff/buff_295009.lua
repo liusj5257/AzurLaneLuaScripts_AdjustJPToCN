@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 黑海伦娜",
 	time = 5,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 黑海伦娜",
+	init_effect = "",
+	id = 295009,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 295009,
+	color = "yellow",
 	icon = 295009,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 2,
+				target = "TargetSelf",
 				skill_id = 295009
 			}
 		}

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG11",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207040,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "특별 작전 함대 제1군, 목표 해역에 도착, 합류 완료!",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,15 +72,15 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			nameColor = "#92fc63",
 			side = 0,
 			dir = 1,
+			actor = 207040,
 			say = "…아 맞다! 이번엔 이글 유니온에서 함재기를 가져왔어!",
 			shake = {
 				speed = 5,
-				number = 3,
-				y = 20
+				y = 20,
+				number = 3
 			},
 			typewriter = {
 				speed = 0.05,
@@ -257,16 +257,16 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "……————",
 			stopbgm = true,
-			soundeffect = "event:/battle/boom1",
-			dir = 1,
+			side = 2,
 			blackBg = true,
-			say = "……————",
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -280,15 +280,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "……————",
+			side = 2,
+			blackBg = true,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -302,12 +302,12 @@ return {
 			}
 		},
 		{
-			actor = 205070,
 			side = 2,
-			nameColor = "#92fc63",
-			say = "!!! 뭐?! 제3자의 공격이라고?! 전원, 지금 즉시 피해 상황을 보고하라!",
 			dir = 1,
 			bgm = "story-6",
+			actor = 205070,
+			nameColor = "#92fc63",
+			say = "!!! 뭐?! 제3자의 공격이라고?! 전원, 지금 즉시 피해 상황을 보고하라!",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -375,8 +375,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "히히히, 설마 여기를 '특이점' 으로 삼을 줄이야, 정말 놀랐어……",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "무슨 소리야, 이렇게 큰 걸 내가 할 수 있을 리 없잖아?",
 			typewriter = {
 				speed = 0.05,
@@ -452,8 +452,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "이봐! 사람이 말을 하면 좀! 말이 전혀 안 통하는 녀석들이네……별수 없지, 놀아줄게!!!!",
 			typewriter = {
 				speed = 0.05,

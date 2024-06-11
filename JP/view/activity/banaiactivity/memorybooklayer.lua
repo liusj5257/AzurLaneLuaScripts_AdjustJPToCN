@@ -104,7 +104,7 @@ slot5 = {
 	}
 }
 
-function slot6(slot0)
+slot6 = function(slot0)
 	slot1 = {
 		Get = function (slot0)
 			slot1 = nil
@@ -146,11 +146,11 @@ function slot6(slot0)
 	return slot1
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MemoryBookUI"
 end
 
-function slot0.setActivity(slot0, slot1)
+slot0.setActivity = function(slot0, slot1)
 	slot0.activity = slot1
 	slot0.targetItems = slot0.activity:getConfig("config_data")
 	slot0.fetchItems = slot0.activity.data1_list
@@ -158,11 +158,11 @@ function slot0.setActivity(slot0, slot1)
 	slot0.awardVO = slot0.activity:getConfig("config_client")[1]
 end
 
-function slot0.getMemoryState(slot0, slot1)
+slot0.getMemoryState = function(slot0, slot1)
 	return table.contains(slot0.unlockItems, slot1) and uv0 or table.contains(slot0.fetchItems, slot1) and uv1 or uv2
 end
 
-function slot0.updateMemorys(slot0)
+slot0.updateMemorys = function(slot0)
 	slot0.memorys = {}
 
 	for slot4, slot5 in ipairs(slot0.targetItems) do
@@ -177,7 +177,7 @@ function slot0.updateMemorys(slot0)
 	slot0:updateMemoryBook(slot0.contextData.page or 1, true)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("back_btn")
 	slot0.page1 = slot0:findTF("page1")
 	slot0.page2 = slot0:findTF("page2")
@@ -196,7 +196,7 @@ function slot0.init(slot0)
 	slot0.pool = uv0(slot0._tf)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:addRingDragListenter()
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_CLOSE)
@@ -221,13 +221,13 @@ function slot0.didEnter(slot0)
 	slot0:updateProgress()
 end
 
-function slot0.getStartAndEndIndex(slot0, slot1)
+slot0.getStartAndEndIndex = function(slot0, slot1)
 	slot2 = (slot1 - 1) * uv0 + 1
 
 	return slot2, slot2 + uv0 - 1
 end
 
-function slot0.updateMemoryBook(slot0, slot1, slot2)
+slot0.updateMemoryBook = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0.gameObjects) do
 		slot0.pool:Return(slot7)
 	end
@@ -302,7 +302,7 @@ function slot0.updateMemoryBook(slot0, slot1, slot2)
 	end
 end
 
-function slot0.addRingDragListenter(slot0)
+slot0.addRingDragListenter = function(slot0)
 	slot1 = GetOrAddComponent(slot0._tf, "EventTriggerListener")
 	slot2 = 0
 	slot3 = nil
@@ -331,7 +331,7 @@ function slot0.addRingDragListenter(slot0)
 	end)
 end
 
-function slot0.updatePageTip(slot0, slot1)
+slot0.updatePageTip = function(slot0, slot1)
 	slot2, slot3 = slot0:getStartAndEndIndex(slot1)
 
 	return _.any(_.slice(slot0.memorys, slot2, uv0), function (slot0)
@@ -339,10 +339,10 @@ function slot0.updatePageTip(slot0, slot1)
 	end)
 end
 
-function slot0.updateMemoryItem(slot0, slot1, slot2)
+slot0.updateMemoryItem = function(slot0, slot1, slot2)
 	slot4 = slot0["page" .. slot1]
 
-	function slot5()
+	slot5 = function()
 		slot0 = uv0.pool:Get()
 
 		setImageSprite(slot0, uv1 == uv2 and uv0.getSprite or uv0:GetMemorySprite(uv3, uv4.index), true)
@@ -369,7 +369,7 @@ function slot0.updateMemoryItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetMemorySprite(slot0, slot1, slot2)
+slot0.GetMemorySprite = function(slot0, slot1, slot2)
 	if slot0.sprites[slot1 .. "_" .. slot2] then
 		return slot0.sprites[slot3]
 	else
@@ -380,7 +380,7 @@ function slot0.GetMemorySprite(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateProgress(slot0)
+slot0.updateProgress = function(slot0)
 	slot1 = #slot0.targetItems
 	slot2 = #slot0.unlockItems
 	slot0.slider.value = slot2 / slot1
@@ -390,7 +390,7 @@ function slot0.updateProgress(slot0)
 	slot0:updateAward(slot2 == slot1)
 end
 
-function slot0.updateAward(slot0, slot1)
+slot0.updateAward = function(slot0, slot1)
 	if not slot0.isInitAward then
 		slot0.isInitAward = true
 		slot3 = slot0.awardVO[2]
@@ -442,7 +442,7 @@ function slot0.updateAward(slot0, slot1)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.pool:Dispose()
 
 	slot0.sprites = nil

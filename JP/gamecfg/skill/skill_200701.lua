@@ -16,17 +16,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975005
@@ -36,10 +36,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975010
@@ -71,17 +71,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975005
@@ -91,10 +91,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975010
@@ -126,17 +126,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975005
@@ -146,10 +146,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975010
@@ -181,17 +181,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975006
@@ -201,10 +201,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975011
@@ -236,17 +236,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975006
@@ -256,10 +256,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975011
@@ -291,17 +291,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975006
@@ -311,10 +311,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975011
@@ -346,17 +346,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975007
@@ -366,10 +366,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975012
@@ -401,17 +401,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975007
@@ -421,10 +421,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975012
@@ -456,17 +456,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975007
@@ -476,10 +476,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975012
@@ -511,17 +511,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975008
@@ -531,10 +531,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975013
@@ -566,17 +566,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975008
@@ -586,10 +586,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975013
@@ -621,17 +621,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975008
@@ -641,10 +641,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975013
@@ -676,17 +676,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975009
@@ -696,10 +696,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975014
@@ -731,17 +731,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975009
@@ -751,10 +751,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975014
@@ -786,17 +786,17 @@ return {
 						buffList = {},
 						phase = {
 							{
-								switchParam = 1.5,
+								switchType = 1,
 								switchTo = 1,
 								index = 0,
-								switchType = 1,
+								switchParam = 1.5,
 								setAI = 20006
 							},
 							{
-								switchType = 1,
+								switchParam = 3.5,
 								switchTo = 2,
 								index = 1,
-								switchParam = 3.5,
+								switchType = 1,
 								setAI = 70236,
 								addWeapon = {
 									2975009
@@ -806,10 +806,10 @@ return {
 								}
 							},
 							{
-								switchType = 1,
+								switchParam = 4,
 								switchTo = 1,
 								index = 2,
-								switchParam = 4,
+								switchType = 1,
 								setAI = 20006,
 								addWeapon = {
 									2975014
@@ -824,10 +824,10 @@ return {
 			}
 		}
 	},
-	id = 200701,
-	name = "黑基洛夫BOSS战 召唤-闪流",
 	cd = 0,
+	name = "黑基洛夫BOSS战 召唤-闪流",
 	painting = 0,
+	id = 200701,
 	effect_list = {
 		{
 			target_choise = "TargetNil",

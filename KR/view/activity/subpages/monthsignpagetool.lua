@@ -1,10 +1,10 @@
 slot0 = class("MonthSignPageTool")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._event = slot1
 end
 
-function slot0.onAcheve(slot0, slot1, slot2)
+slot0.onAcheve = function(slot0, slot1, slot2)
 	slot3 = nil
 	slot3 = coroutine.create(function ()
 		if table.getCount(uv0) > 0 then

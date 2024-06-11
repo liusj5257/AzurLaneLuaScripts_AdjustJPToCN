@@ -3,7 +3,7 @@ slot0.SET_STOP_REMIND = "set_stop_remind"
 slot0.GO_SCENE = "go_scene"
 slot0.TRACK_OPEN_URL = "track_open_url"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = getProxy(ServerNoticeProxy)
 
 	slot1:setStopNewTip()
@@ -22,7 +22,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.initNotificationHandleDic(slot0)
+slot0.initNotificationHandleDic = function(slot0)
 	slot0.handleDic = {}
 end
 

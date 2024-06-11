@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "格奈森瑙meta 锁链减速",
 	time = 1,
+	name = "格奈森瑙meta 锁链减速",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 2,

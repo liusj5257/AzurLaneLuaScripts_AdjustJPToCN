@@ -4,15 +4,15 @@ slot0.Fields = {
 	dataop = "number",
 	buffList = "table",
 	type = "number",
-	column = "number",
-	data = "number",
-	effects = "table",
-	hp = "number",
 	row = "number",
-	finishMark = "number",
-	triggered = "boolean",
-	id = "number",
+	data = "number",
+	column = "number",
 	flag = "number",
+	effects = "table",
+	triggered = "boolean",
+	hp = "number",
+	finishMark = "number",
+	id = "number",
 	lurk = "boolean"
 }
 slot0.EventUpdateFlag = "WorldMapAttachment.EventUpdateFlag"
@@ -40,23 +40,23 @@ slot0.SortOrder = {
 	[slot0.TypeTransportFleet] = 6
 }
 
-function slot0.IsEnemyType(slot0)
+slot0.IsEnemyType = function(slot0)
 	return slot0 == uv0.TypeEnemy or slot0 == uv0.TypeEnemyAI or slot0 == uv0.TypeBoss
 end
 
-function slot0.IsHPEnemyType(slot0)
+slot0.IsHPEnemyType = function(slot0)
 	return slot0 == uv0.TypeEnemyAI or slot0 == uv0.TypeBoss
 end
 
-function slot0.IsFakeType(slot0)
+slot0.IsFakeType = function(slot0)
 	return slot0 == uv0.TypePort
 end
 
-function slot0.IsInteractiveType(slot0)
+slot0.IsInteractiveType = function(slot0)
 	return uv0.IsEnemyType(slot0) or slot0 == uv0.TypeEvent or slot0 == uv0.TypeBox
 end
 
-function slot0.MakeFakePort(slot0, slot1, slot2)
+slot0.MakeFakePort = function(slot0, slot1, slot2)
 	slot3 = WPool:Get(WorldMapAttachment)
 
 	slot3:Setup({
@@ -75,7 +75,7 @@ function slot0.MakeFakePort(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.IsClientType(slot0)
+slot0.IsClientType = function(slot0)
 	return slot0 > 1000
 end
 
@@ -129,7 +129,7 @@ slot0.SpEventFufen = 2
 slot0.SpEventEnemy = 3
 slot0.SpEventConsumeItem = 4
 
-function slot0.DebugPrint(slot0)
+slot0.DebugPrint = function(slot0)
 	if slot0.type == uv0.TypeEvent then
 		slot1 = {}
 		slot3 = ""
@@ -182,7 +182,7 @@ function slot0.DebugPrint(slot0)
 	end
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.row = slot1.pos.row
 	slot0.column = slot1.pos.column
 	slot0.type = slot1.item_type
@@ -197,7 +197,7 @@ function slot0.Setup(slot0, slot1)
 	slot0:InitData()
 end
 
-function slot0.InitConfig(slot0)
+slot0.InitConfig = function(slot0)
 	if slot0.type == uv0.TypeBox then
 		slot0.config = pg.box_data_template[slot0.id]
 
@@ -229,13 +229,13 @@ function slot0.InitConfig(slot0)
 	end
 end
 
-function slot0.InitData(slot0)
+slot0.InitData = function(slot0)
 	if slot0.type == uv0.TypeEvent then
 		slot0.dataop = #slot0.config.event_op
 	end
 end
 
-function slot0.IsAlive(slot0)
+slot0.IsAlive = function(slot0)
 	if slot0.type == uv0.TypeEvent then
 		return true
 	elseif uv0.IsEnemyType(slot0.type) then
@@ -249,7 +249,7 @@ function slot0.IsAlive(slot0)
 	return slot0.flag ~= 1
 end
 
-function slot0.IsVisible(slot0)
+slot0.IsVisible = function(slot0)
 	slot1 = not slot0.lurk
 
 	if slot0.type == uv0.TypeEvent then
@@ -261,11 +261,11 @@ function slot0.IsVisible(slot0)
 	return slot1
 end
 
-function slot0.IsFloating(slot0)
+slot0.IsFloating = function(slot0)
 	return slot0.type == uv0.TypeEvent and slot0.config.icontype == 1 or slot0.type == uv0.TypeBox
 end
 
-function slot0.UpdateFlag(slot0, slot1)
+slot0.UpdateFlag = function(slot0, slot1)
 	if slot0.flag ~= slot1 then
 		slot0.flag = slot1
 
@@ -273,7 +273,7 @@ function slot0.UpdateFlag(slot0, slot1)
 	end
 end
 
-function slot0.UpdateData(slot0, slot1, slot2)
+slot0.UpdateData = function(slot0, slot1, slot2)
 	slot0.data = slot1
 
 	if slot0.type == uv0.TypeEvent then
@@ -283,7 +283,7 @@ function slot0.UpdateData(slot0, slot1, slot2)
 	slot0:DispatchEvent(uv0.EventUpdateData)
 end
 
-function slot0.UpdateLurk(slot0, slot1)
+slot0.UpdateLurk = function(slot0, slot1)
 	if slot0.lurk ~= slot1 then
 		slot0.lurk = slot1
 
@@ -291,17 +291,17 @@ function slot0.UpdateLurk(slot0, slot1)
 	end
 end
 
-function slot0.UpdateDataOp(slot0, slot1)
+slot0.UpdateDataOp = function(slot0, slot1)
 	slot0.dataop = slot1
 end
 
-function slot0.GetEventEffect(slot0)
+slot0.GetEventEffect = function(slot0)
 	assert(slot0.type == uv0.TypeEvent, string.format("type error:%d", slot0.type))
 
 	return slot0.effects[1] and pg.world_effect_data[slot1]
 end
 
-function slot0.GetEventEffects(slot0)
+slot0.GetEventEffects = function(slot0)
 	assert(slot0.type == uv0.TypeEvent, string.format("type error:%d", slot0.type))
 
 	return _.map(slot0.effects, function (slot0)
@@ -309,11 +309,11 @@ function slot0.GetEventEffects(slot0)
 	end)
 end
 
-function slot0.RemainOpEffect(slot0)
+slot0.RemainOpEffect = function(slot0)
 	return slot0.dataop > 0
 end
 
-function slot0.GetOpEffect(slot0)
+slot0.GetOpEffect = function(slot0)
 	slot1 = slot0.config.event_op
 	slot2 = slot1[#slot1 - slot0.dataop + 1]
 
@@ -322,21 +322,21 @@ function slot0.GetOpEffect(slot0)
 	return pg.world_effect_data[slot2]
 end
 
-function slot0.GetBattleStageId(slot0)
+slot0.GetBattleStageId = function(slot0)
 	assert(uv0.IsEnemyType(slot0.type))
 
 	return slot0.id
 end
 
-function slot0.GetLimitDamageLevel(slot0)
+slot0.GetLimitDamageLevel = function(slot0)
 	return pg.world_expedition_data[slot0:GetBattleStageId()].morale_limit
 end
 
-function slot0.ShouldMarkAsLurk(slot0)
+slot0.ShouldMarkAsLurk = function(slot0)
 	return slot0.type == uv0.TypeEvent and slot0.config.visuality == 1 and slot0.config.discover_type == 2
 end
 
-function slot0.CanLeave(slot0)
+slot0.CanLeave = function(slot0)
 	if uv0.IsEnemyType(slot0.type) then
 		return false
 	elseif slot0.type == uv0.TypeEvent or slot0.type == uv0.TypeTrap then
@@ -346,7 +346,7 @@ function slot0.CanLeave(slot0)
 	end
 end
 
-function slot0.CanArrive(slot0)
+slot0.CanArrive = function(slot0)
 	if slot0.type == uv0.TypeEvent or slot0.type == uv0.TypeTrap then
 		return WorldConst.GetObstacleConfig(slot0.config.obstacle, "arrive")
 	else
@@ -354,7 +354,7 @@ function slot0.CanArrive(slot0)
 	end
 end
 
-function slot0.CanPass(slot0)
+slot0.CanPass = function(slot0)
 	if uv0.IsEnemyType(slot0.type) then
 		return false
 	elseif slot0.type == uv0.TypeEvent or slot0.type == uv0.TypeTrap then
@@ -364,7 +364,7 @@ function slot0.CanPass(slot0)
 	end
 end
 
-function slot0.IsAvatar(slot0)
+slot0.IsAvatar = function(slot0)
 	if slot0.type == uv0.TypeEvent then
 		if slot0:GetReplaceDisplayEnemyConfig() then
 			return false
@@ -378,7 +378,7 @@ function slot0.IsAvatar(slot0)
 	return false
 end
 
-function slot0.IsSign(slot0)
+slot0.IsSign = function(slot0)
 	if slot0.type == uv0.TypeEvent then
 		return slot0.config.is_guide == 1
 	end
@@ -386,11 +386,11 @@ function slot0.IsSign(slot0)
 	return false
 end
 
-function slot0.IsBoss(slot0)
+slot0.IsBoss = function(slot0)
 	return uv0.IsEnemyType(slot0.type) and WorldConst.EnemySize[slot0.config.type] == 99
 end
 
-function slot0.GetBuffList(slot0)
+slot0.GetBuffList = function(slot0)
 	return underscore.map(slot0.buffList, function (slot0)
 		slot1 = WorldBuff.New()
 
@@ -403,7 +403,7 @@ function slot0.GetBuffList(slot0)
 	end)
 end
 
-function slot0.UpdateBuffList(slot0, slot1)
+slot0.UpdateBuffList = function(slot0, slot1)
 	slot0.buffList = slot1
 
 	if slot0:GetWeaknessBuffId() ~= slot0:GetWeaknessBuffId() then
@@ -417,7 +417,7 @@ function slot0.UpdateBuffList(slot0, slot1)
 	end
 end
 
-function slot0.GetWeaknessBuffId(slot0)
+slot0.GetWeaknessBuffId = function(slot0)
 	if not uv0.IsEnemyType(slot0.type) then
 		return
 	end
@@ -437,7 +437,7 @@ function slot0.GetWeaknessBuffId(slot0)
 	end
 end
 
-function slot0.GetBattleLuaBuffs(slot0)
+slot0.GetBattleLuaBuffs = function(slot0)
 	underscore.each(slot0:GetBuffList(), function (slot0)
 		if slot0.config.lua_id > 0 then
 			table.insert(uv0, slot0.config.lua_id)
@@ -447,7 +447,7 @@ function slot0.GetBattleLuaBuffs(slot0)
 	return {}
 end
 
-function slot0.GetCompassType(slot0)
+slot0.GetCompassType = function(slot0)
 	if slot0.type == uv0.TypeEvent then
 		return slot0.config.compass_index
 	elseif uv0.IsEnemyType(slot0.type) then
@@ -463,13 +463,13 @@ function slot0.GetCompassType(slot0)
 	end
 end
 
-function slot0.GetSpEventType(slot0)
+slot0.GetSpEventType = function(slot0)
 	if slot0.type == uv0.TypeEvent then
 		return slot0.config.special_enemy
 	end
 end
 
-function slot0.GetDeviation(slot0)
+slot0.GetDeviation = function(slot0)
 	if slot0.type == uv0.TypeEvent or slot0.type == uv0.TypeArtifact then
 		slot1 = slot0.config
 
@@ -479,7 +479,7 @@ function slot0.GetDeviation(slot0)
 	return Vector2.zero
 end
 
-function slot0.GetScale(slot0, slot1)
+slot0.GetScale = function(slot0, slot1)
 	slot2 = 1
 
 	if slot0.type == uv0.TypeEvent then
@@ -498,7 +498,7 @@ function slot0.GetScale(slot0, slot1)
 	return Vector3(slot2, slot2, slot2)
 end
 
-function slot0.GetModelOrder(slot0)
+slot0.GetModelOrder = function(slot0)
 	if slot0.type == uv0.TypeTrap then
 		return WorldConst.LOEffectC
 	end
@@ -506,7 +506,7 @@ function slot0.GetModelOrder(slot0)
 	return WorldConst.LOCell
 end
 
-function slot0.GetMillor(slot0)
+slot0.GetMillor = function(slot0)
 	if slot0.type == uv0.TypeEvent then
 		return slot0.config.enemyicon % 2 == 1
 	elseif uv0.IsEnemyType(slot0.type) then
@@ -516,7 +516,7 @@ function slot0.GetMillor(slot0)
 	return false
 end
 
-function slot0.GetDirType(slot0)
+slot0.GetDirType = function(slot0)
 	if slot0:GetSpEventType() == uv0.SpEventFufen then
 		return WorldConst.DirType4
 	else
@@ -524,13 +524,13 @@ function slot0.GetDirType(slot0)
 	end
 end
 
-function slot0.GetReplaceDisplayEnemyConfig(slot0)
+slot0.GetReplaceDisplayEnemyConfig = function(slot0)
 	assert(slot0.type == uv0.TypeEvent)
 
 	return pg.expedition_data_template[slot0.config.expedition_icon]
 end
 
-function slot0.GetDebugName(slot0)
+slot0.GetDebugName = function(slot0)
 	if slot0.type == uv0.TypeEvent then
 		return "event_" .. slot0.id
 	elseif slot0.type == uv0.TypeBox then
@@ -546,15 +546,15 @@ function slot0.GetDebugName(slot0)
 	end
 end
 
-function slot0.IsTriggered(slot0)
+slot0.IsTriggered = function(slot0)
 	return slot0.triggered
 end
 
-function slot0.IsScannerAttachment(slot0)
+slot0.IsScannerAttachment = function(slot0)
 	return uv0.IsEnemyType(slot0.type) and 4 or slot0.type == uv0.TypeTrap and 3 or slot0.type == uv0.TypeEvent and slot0.config.is_scanevent > 0 and 2 or slot0.type == uv0.TypePort and 1
 end
 
-function slot0.SetHP(slot0, slot1)
+slot0.SetHP = function(slot0, slot1)
 	if uv0.IsHPEnemyType(slot0.type) then
 		slot2 = slot0.hp
 
@@ -585,7 +585,7 @@ function slot0.SetHP(slot0, slot1)
 	end
 end
 
-function slot0.GetHP(slot0)
+slot0.GetHP = function(slot0)
 	if slot0.type == uv0.TypeTransportFleet then
 		return slot0.data
 	elseif uv0.IsHPEnemyType(slot0.type) then
@@ -593,7 +593,7 @@ function slot0.GetHP(slot0)
 	end
 end
 
-function slot0.GetMaxHP(slot0)
+slot0.GetMaxHP = function(slot0)
 	if slot0.type == uv0.TypeTransportFleet then
 		return slot0.config.hp
 	elseif uv0.IsHPEnemyType(slot0.type) then
@@ -601,7 +601,7 @@ function slot0.GetMaxHP(slot0)
 	end
 end
 
-function slot0.GetArtifaceInfo(slot0)
+slot0.GetArtifaceInfo = function(slot0)
 	slot1 = slot0.config
 
 	assert(slot0.type == uv0.TypeArtifact, "type error from id: " .. slot0.id)
@@ -614,7 +614,7 @@ function slot0.GetArtifaceInfo(slot0)
 	}
 end
 
-function slot0.GetVisionRadius(slot0)
+slot0.GetVisionRadius = function(slot0)
 	if slot0.type == uv0.TypeEvent then
 		return slot0.config.event_sight
 	else
@@ -622,7 +622,7 @@ function slot0.GetVisionRadius(slot0)
 	end
 end
 
-function slot0.GetRadiationBuffs(slot0)
+slot0.GetRadiationBuffs = function(slot0)
 	if slot0.type == uv0.TypeEvent then
 		return slot0.config.map_buff
 	else
@@ -630,17 +630,17 @@ function slot0.GetRadiationBuffs(slot0)
 	end
 end
 
-function slot0.IsAttachmentFinish(slot0)
+slot0.IsAttachmentFinish = function(slot0)
 	return slot0.finishMark == slot0.data
 end
 
-function slot0.GetEventAutoPri(slot0)
+slot0.GetEventAutoPri = function(slot0)
 	assert(slot0.type == uv0.TypeEvent, "type error from id: " .. slot0.id)
 
 	return slot0.config.auto_pri
 end
 
-function slot0.IsPeriodEnemy(slot0)
+slot0.IsPeriodEnemy = function(slot0)
 	assert(uv0.IsHPEnemyType(slot0.type), string.format("enemy %d type %d error", slot0.id, slot0.type))
 
 	return pg.world_expedition_data[slot0.id] and slot1.phase_limit == 1

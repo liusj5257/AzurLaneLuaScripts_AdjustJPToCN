@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUAPOHAIKONGZHIYI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUAPOHAIKONGZHIYI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "사이판 섬 서쪽 해역, 오후",
 			side = 2,
 			bgName = "bg_map_maliyana",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level",
+			say = "사이판 섬 서쪽 해역, 오후",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -51,8 +51,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "왜 그래, 프린스턴? 별로 즐거워 보이지 않는데?",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "클리블랜드, 우리의 전략이 조금… 보수적이지 않나요?",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "지금 우리의 실력이라면 먼저 공격해도 괜찮아요.",
 			typewriter = {
@@ -115,11 +115,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "응, 큰언니. 나도 지금이 공격할 기회라고 생각해!",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -160,8 +160,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "사흘 전에 잠수함 부대로부터 보고를 받았으니, 이제 사쿠라 엠파이어의 함대는 분명 근처 해역에 도착했을 거야.",
 			typewriter = {
@@ -193,8 +193,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "구체적인 위치를 알 수 없다면 방어적인 전략을 선택하는 것이 안전하다고 생각되는군.",
 			typewriter = {
@@ -274,8 +274,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "에? 엔터프라이즈, 듣고 있었나요?",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "나도 모두의 생각을 이해하지 못하는 것은 아니다. AF전투 이후 순조롭게 여기까지 왔으니 모두가 전의와 승리에 대한 자신감으로 가득 차 있겠지. 물론 나도 예외는 아니다.",
 			typewriter = {
@@ -324,8 +324,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "그렇지 않다면 우리의 모든 노력이 수포로 돌아갈 테니까.",
 			typewriter = {
@@ -373,8 +373,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "사령부가 수비 전략을 세웠지만 그걸 고수하기만 하는 것도 이글 유니온의 스타일은 아니지.",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "엣?! 물론이에요. 맡겨주세요!",
 			typewriter = {
@@ -452,11 +452,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "큰언니! 내가 가도 돼?!",
 			typewriter = {
 				speed = 0.05,
@@ -468,8 +468,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -481,8 +481,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "음… 역시… 버밍햄이 좋겠어.",
 			typewriter = {
@@ -495,10 +495,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_map_maliyana",
 			side = 0,
+			bgName = "bg_map_maliyana",
+			hideOther = true,
 			dir = 1,
 			actor = 102230,
 			actorName = "버밍햄&몬트필리어",
@@ -545,8 +545,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "그리고 버밍햄은 평소에 너무 신중하니까 가끔은 적극적으로 움직여야 할 때도 있다고. 괜찮지?",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			nameColor = "#a9f548",
 			say = "큰언니가 그렇게 말한다면…… 괜찮아.",
 			typewriter = {
@@ -611,8 +611,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "네!",
 			typewriter = {
@@ -628,9 +628,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107230,
 			dir = 1,
 			blackBg = true,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "(해역의 비행장을 정리하는 사소한 임무지만…… 드디어 공격할 수 있게 됐어……)",
 			typewriter = {

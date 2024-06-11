@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "对战巡增伤",
 	init_effect = "",
-	color = "red",
+	id = 72400,
+	time = 0,
 	picture = "",
 	desc = "对战巡伤害提高50%",
 	stack = 1,
-	id = 72400,
+	color = "red",
 	icon = 72400,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioByShipType_4",
-				number = 0.5
+				number = 0.5,
+				attr = "damageRatioByShipType_4"
 			}
 		}
 	}

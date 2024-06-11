@@ -1,18 +1,18 @@
 return {
-	id = "FUXINGDEZANMEISHI27",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXINGDEZANMEISHI27",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-italy",
 			actor = 601050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "あいたた！マエストラーレの艤装に頭ぶつかっちゃった……",
-			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -51,8 +51,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 607010,
 			dir = 1,
+			actor = 607010,
 			say = "アブルッツィの言う通り、脅威とみなされなければ向こうも本気を出さないのですね",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "何かしないと通れない以上、これが最善策だと思うよ",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			say = "迷路の様子は大丈夫？みんな、このまま中心部まで突っ走りましょう！",
 			typewriter = {
 				speed = 0.05,

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA39",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA39",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -35,10 +35,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_mirror",
 			side = 0,
+			bgName = "bg_mirror",
+			hideOther = true,
 			dir = 1,
 			actor = 301840,
 			actorName = "{namecode:27}&{namecode:29}",
@@ -64,8 +64,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Chitose, Chiyoda, please focus on maintaining air superiority—",
 			typewriter = {
@@ -78,10 +78,10 @@ return {
 			}
 		},
 		{
-			actor = 306080,
 			nameColor = "#a9f548",
-			bgName = "bg_mirror",
 			side = 0,
+			bgName = "bg_mirror",
+			actor = 306080,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:103}&{namecode:104}",
@@ -107,8 +107,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Everyone else, please stand by—",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "Wooohooo!! ...Wait, stand by??",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Wait for Tester to turn around, and concentrate your attacks on her command module...!",
 			typewriter = {
@@ -184,9 +184,9 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Everyone, lend me your powers once more...!",
 			typewriter = {

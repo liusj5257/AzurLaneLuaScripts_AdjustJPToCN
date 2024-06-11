@@ -1,9 +1,9 @@
 return {
 	fadeOut = 2,
 	mode = 2,
-	id = "YINGHUA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINGHUA8",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			bgName = "bg_story_nagato3",
+			stopbgm = true,
 			say = "무수한 기둥과 금줄에 둘러쌓인 신목의 뿌리에, '봉인'의 수정이 있었다.",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1

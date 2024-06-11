@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "回复指令",
 	time = 3,
+	name = "回复指令",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

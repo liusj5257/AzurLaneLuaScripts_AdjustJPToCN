@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZOUXIANGYUANWEIZHIGE8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZOUXIANGYUANWEIZHIGE8",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			bgmDelay = 1,
+			mode = 1,
 			bgm = "theme-clemenceau",
 			sequence = {
 				{
@@ -67,13 +67,13 @@ return {
 			}
 		},
 		{
-			bgm = "theme-threat-typeV",
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			nameColor = "#A9F548FF",
-			bgmDelay = 2,
 			soundeffect = "event:/ui/alarm",
-			stopbgm = true,
+			bgmDelay = 2,
+			bgm = "theme-threat-typeV",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "After Marseillaise passed on that which she dedicated her life to protecting, the world she perceived around her began to crumble.",
 			typewriter = {
@@ -82,15 +82,15 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "Her vision was dyed a swirling mass of black and red, her ears rang with a writhing, squelching sound. Her wavering consciousness was swallowed up by the hazy darkness.",
@@ -103,10 +103,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "What... a terrible... noise...",
 			painting = {
 				alpha = 0.3,
@@ -121,10 +121,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "But, it'll... all be quiet soon.",
 			painting = {
 				alpha = 0.3,
@@ -139,10 +139,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "Soon... everything... will disappear...",
 			painting = {
 				alpha = 0.3,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "Her eyes started to slowly close, letting her consciousness fade into nothingness.",
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "But just before absolute silence fell, she heard a familiar yet distant voice in her ears.",
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Distant Voice",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Distant Voice",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Distant Voice",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			stopbgm = true,
+			hidePaintObj = true,
 			say = "A light cut through the endless darkness, like a beacon leading her back to her senses.",
 			typewriter = {
 				speed = 0.05,
@@ -229,9 +229,9 @@ return {
 			},
 			effects = {
 				{
-					active = false,
+					center = false,
 					name = "miwu_dark",
-					center = false
+					active = false
 				}
 			},
 			flashout = {
@@ -242,8 +242,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -254,10 +254,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "...Light?",
 			painting = {
 				alpha = 0.3,
@@ -269,13 +269,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			mode = 1,
 			side = 2,
-			bgName = "bg_masaiqu_cg2",
-			actorName = "Richelieu",
+			nameColor = "#92fc63",
 			bgmDelay = 2,
 			bgm = "theme-richelieu",
-			mode = 1,
+			bgName = "bg_masaiqu_cg2",
+			actorName = "Richelieu",
 			hidePaintObj = true,
 			say = "「于地狱之中涌现的邪恶。」",
 			flashout = {
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -353,8 +353,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -382,10 +382,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_masaiqu_cg2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_masaiqu_cg2",
 			say = "The writhing presence screeched as it faded away and disappeared, like fog dispelled by the light of dawn.",
 			typewriter = {
 				speed = 0.05,
@@ -399,8 +399,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "As the haze cleared, so too did the ominous aura clawing at the shipgirls there.",
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "Marseillaise slowly climbed to her feet and surveyed her surroundings.",
@@ -430,8 +430,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Marseillaise",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -442,8 +442,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Marseillaise",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -454,8 +454,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -466,8 +466,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Marseillaise",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -490,8 +490,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Marseillaise",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Marseillaise",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "The gnawing feeling of loneliness, the bitterness of defeat, and the damage she had sustained in battle all rushed in at once.",
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "Combined with the devastating news that just struck her, Marseillaise was overwhelmed and lost consciousness.",
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -553,27 +553,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_sainthelena2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_sainthelena2",
 			say = "Not long afterwards, the rest of the Sirens were defeated, and Marseillaise was transferred to a safe location.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -581,8 +581,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "The Crown of the Holy See had disappeared without a trace.",
@@ -592,8 +592,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "Just like the black and red haze, and the unidentifiable enemy writhing within it.",
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "Only the scarred cliffs, pummeled by intense cannonfire, quietly stood as testimony to the fierce fighting that had broken out there.",

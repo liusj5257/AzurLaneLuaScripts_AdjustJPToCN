@@ -1,10 +1,10 @@
 slot0 = class("WorldMediaCollectionMemoryLayer", import(".WorldMediaCollectionTemplateLayer"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldMediaCollectionMemoryUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 	assert(slot0.viewParent, "Need assign ViewParent for " .. slot0.__cname)
 
@@ -14,7 +14,7 @@ function slot0.OnInit(slot0)
 	setActive(slot0.memoryMask, false)
 end
 
-function slot0.GetDetailLayer(slot0)
+slot0.GetDetailLayer = function(slot0)
 	if not slot0.detailUI then
 		slot0.detailUI = WorldMediaCollectionMemoryDetailLayer.New(slot0, slot0._tf, slot0.event, slot0.contextData)
 
@@ -25,7 +25,7 @@ function slot0.GetDetailLayer(slot0)
 	return slot0.detailUI
 end
 
-function slot0.HideDetailLayer(slot0)
+slot0.HideDetailLayer = function(slot0)
 	if not slot0.detailUI then
 		return
 	end
@@ -33,7 +33,7 @@ function slot0.HideDetailLayer(slot0)
 	slot0.detailUI.buffer:Hide()
 end
 
-function slot0.CloseDetailLayer(slot0)
+slot0.CloseDetailLayer = function(slot0)
 	if slot0.detailUI then
 		slot0.detailUI:Destroy()
 
@@ -41,7 +41,7 @@ function slot0.CloseDetailLayer(slot0)
 	end
 end
 
-function slot0.GetGroupLayer(slot0)
+slot0.GetGroupLayer = function(slot0)
 	if not slot0.groupUI then
 		slot0.groupUI = WorldMediaCollectionMemoryGroupLayer.New(slot0, slot0._tf, slot0.event, slot0.contextData)
 
@@ -51,7 +51,7 @@ function slot0.GetGroupLayer(slot0)
 	return slot0.groupUI
 end
 
-function slot0.HideGroupLayer(slot0)
+slot0.HideGroupLayer = function(slot0)
 	if not slot0.groupUI then
 		return
 	end
@@ -59,7 +59,7 @@ function slot0.HideGroupLayer(slot0)
 	slot0.groupUI.buffer:Hide()
 end
 
-function slot0.CloseGroupLayer(slot0)
+slot0.CloseGroupLayer = function(slot0)
 	if slot0.groupUI then
 		slot0.groupUI:Destroy()
 
@@ -67,7 +67,7 @@ function slot0.CloseGroupLayer(slot0)
 	end
 end
 
-function slot0.SwitchBetweenGroupsAndItems(slot0, slot1)
+slot0.SwitchBetweenGroupsAndItems = function(slot0, slot1)
 	if slot0.groupUI then
 		slot0.groupUI.buffer:SetActive(slot1)
 	end
@@ -77,7 +77,7 @@ function slot0.SwitchBetweenGroupsAndItems(slot0, slot1)
 	end
 end
 
-function slot0.OnSelected(slot0)
+slot0.OnSelected = function(slot0)
 	uv0.super.OnSelected(slot0)
 
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.QIXI_ACTIVITY_ID) and not slot2:isEnd() then
@@ -105,27 +105,27 @@ function slot0.OnSelected(slot0)
 	end
 end
 
-function slot0.OnReselected(slot0)
+slot0.OnReselected = function(slot0)
 	slot0:Return2MemoryGroup()
 end
 
-function slot0.OnDeselected(slot0)
+slot0.OnDeselected = function(slot0)
 	slot0.contextData.memoryGroup = nil
 
 	uv0.super.OnDeselected(slot0)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0:HideDetailLayer()
 	slot0:HideGroupLayer()
 	uv0.super.Hide(slot0)
 end
 
-function slot0.OnBackward(slot0)
+slot0.OnBackward = function(slot0)
 	return slot0:Return2MemoryGroup()
 end
 
-function slot0.SwitchMemoryFilter(slot0, slot1)
+slot0.SwitchMemoryFilter = function(slot0, slot1)
 	if slot1 == 1 then
 		slot0.memoryFilterIndex = {
 			true,
@@ -139,7 +139,7 @@ function slot0.SwitchMemoryFilter(slot0, slot1)
 	end
 end
 
-function slot0.MemoryFilter(slot0)
+slot0.MemoryFilter = function(slot0)
 	slot1 = slot0:GetGroupLayer()
 
 	slot1.buffer:Show()
@@ -147,11 +147,11 @@ function slot0.MemoryFilter(slot0)
 	slot0:HideDetailLayer()
 end
 
-function slot0.SwitchReddotMemory(slot0)
+slot0.SwitchReddotMemory = function(slot0)
 	slot0:GetGroupLayer().buffer:SwitchReddotMemory()
 end
 
-function slot0.ShowSubMemories(slot0, ...)
+slot0.ShowSubMemories = function(slot0, ...)
 	slot1 = slot0:GetDetailLayer()
 
 	slot1.buffer:Show()
@@ -159,7 +159,7 @@ function slot0.ShowSubMemories(slot0, ...)
 	slot0:HideGroupLayer()
 end
 
-function slot0.Return2MemoryGroup(slot0)
+slot0.Return2MemoryGroup = function(slot0)
 	if not slot0.contextData.memoryGroup then
 		return
 	end
@@ -176,7 +176,7 @@ function slot0.Return2MemoryGroup(slot0)
 	return true
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot1 = nil
 
 	if not ((not slot0.contextData.memoryGroup or slot0.groupUI) and slot0.detailUI) then
@@ -186,7 +186,7 @@ function slot0.UpdateView(slot0)
 	slot1.buffer:UpdateView()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:CloseDetailLayer()
 	slot0:CloseGroupLayer()
 	uv0.super.OnDestroy(slot0)

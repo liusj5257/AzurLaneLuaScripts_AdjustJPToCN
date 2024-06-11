@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE302",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE302",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -89,8 +89,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "嗯……确实能理解。",
 			typewriter = {
 				speed = 0.05,
@@ -147,13 +147,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "大家辛苦了——新数据收集完了",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "大家辛苦了——新数据收集完了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,13 +164,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "……不过还差一点。麻烦大家再继续收集一点数据",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "……不过还差一点。麻烦大家再继续收集一点数据",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,13 +196,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "还差一点，就差一点了！具体说还差一关？就差一关就能收集全了！",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "还差一点，就差一点了！具体说还差一关？就差一关就能收集全了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,13 +213,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "就是这样拜托大家啦～",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "伊斯特瓦尔",
 			dir = 1,
+			actor = 0,
+			actorName = "伊斯特瓦尔",
 			withoutPainting = true,
-			say = "就是这样拜托大家啦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

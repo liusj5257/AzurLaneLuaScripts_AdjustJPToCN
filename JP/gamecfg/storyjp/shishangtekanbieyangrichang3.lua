@@ -7,8 +7,8 @@ return {
 	},
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"着せ替え特集  一味違う日常\n\n<size=45>三 ハプニング オン ザ シー</size>",
@@ -17,28 +17,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_539",
+			bgm = "story-richang-5",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "晴れ渡る空の下、水の中で金剛はサーフボードを抱えて、「ちょうどいい波」を待っていた。",
-			bgm = "story-richang-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -65,13 +65,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まずはパドリング。サーフボードの上に腹ばいになり、体をサーフボードの中心で安定させ、腹筋の力で上半身を支えますわ",
 			typewriter = {
@@ -99,13 +99,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――うん……コツとかは…？",
 			typewriter = {
@@ -152,13 +152,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――体を安定させるのは難しそう",
 			typewriter = {
@@ -224,13 +224,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――なるほど。ポイントは優雅、正確、滑らか……",
 			typewriter = {
@@ -354,9 +354,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_539",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_539",
 			hideRecordIco = true,
 			actor = 304014,
 			nameColor = "#A9F548FF",
@@ -367,17 +367,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -494,9 +494,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_539",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_539",
 			hideRecordIco = true,
 			actor = 304014,
 			nameColor = "#A9F548FF",
@@ -507,17 +507,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -544,11 +544,11 @@ return {
 			}
 		},
 		{
-			actor = 304014,
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			dir = 1,
+			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "本当に一瞬たりとも油断できませんわね……",
@@ -596,13 +596,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			hideRecordIco = true,
 			actor = 304014,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（……まずい、金剛のボードショーツがフィンに引っかかって……）",
 			typewriter = {
@@ -679,8 +679,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -689,11 +689,11 @@ return {
 			}
 		},
 		{
-			actor = 304014,
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			dir = 1,
+			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "し、指揮官！見ないでくださいまし……",
@@ -707,8 +707,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -718,9 +718,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_539",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_539",
 			hideRecordIco = true,
 			actor = 304014,
 			nameColor = "#A9F548FF",
@@ -731,17 +731,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -768,11 +768,11 @@ return {
 			}
 		},
 		{
-			actor = 304014,
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			dir = 1,
+			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "こ、こんなに優雅じゃない姿をお見せしてしまうとは思いませんでしたわ……",
@@ -805,11 +805,11 @@ return {
 			}
 		},
 		{
-			actor = 304014,
 			side = 2,
 			bgName = "star_level_bg_539",
 			spine = true,
 			dir = 1,
+			actor = 304014,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "秘密にしてくれるならお礼に……",

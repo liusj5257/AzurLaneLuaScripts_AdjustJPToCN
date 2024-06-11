@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA32",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA32",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "holo-matsuri",
 			dir = 1,
 			say = "戦闘力自体は大したことないが…",
+			bgm = "holo-matsuri",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "ま　つ　り",
 			say = "すーはー…すーはー…すーはー",
 			typewriter = {
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "ま　つ　り",
 			say = "まつりはやっとこんな美少女ばかりの世界に生まれ変われたから、ここで倒されるわけにはいかないの！",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -84,8 +84,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "まつりちゃん、頑張って！",
 			typewriter = {
 				speed = 0.05,
@@ -132,9 +132,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = -1,
 			actor = 10500050,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "フブキちゃんの応援が両方に効いた！？",
 			effects = {
 				{
@@ -155,8 +155,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "ま　つ　り",
 			say = "おおおおおあああ！！！",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -197,8 +197,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "え…え？",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "ま　つ　り",
 			say = "フブキ！フブキ！フブキ！フブキ！！！ああああああ！！！",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -239,9 +239,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ちょま！ま！待って！タンマ！！！",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,8 +266,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "セイレーン！晒すにしても時と場所…あと対象ってもんがあるでしょ！！！",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "配信先だけでもまつりねえさんとか、まつりちゃんとかいいキャラたくさんあるのに、なんでよりにもよってこれなの！？",
 			typewriter = {
 				speed = 0.05,
@@ -313,8 +313,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "え！？ラフィーちゃん、どうしたの、急に…なるほど！この作戦ね！",
 			typewriter = {
 				speed = 0.05,
@@ -329,8 +329,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "まつり、好きだよ♡",
 			typewriter = {
 				speed = 0.05,
@@ -345,8 +345,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "ま　つ　り",
 			say = "！！！！",
 			dialogShake = {
@@ -394,10 +394,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "江風が一撃で偽物のまつりを倒した",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -413,10 +413,10 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "やっぱり光となって消えましたね…",
 			flashout = {
 				dur = 1,
@@ -446,8 +446,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "周囲に敵の反応なし。電探ってこんな感じでしたっけ…",
 			typewriter = {
 				speed = 0.05,
@@ -462,8 +462,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "皆、引き続き進むよ〜案内はまつりちゃんに任せるね。まつりちゃん？",
 			typewriter = {
 				speed = 0.05,

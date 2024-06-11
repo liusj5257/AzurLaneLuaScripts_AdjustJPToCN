@@ -1,11 +1,11 @@
 slot0 = class("ThirdAnniversaryPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:findUI()
 	slot0:initData()
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.paintBackTF = slot0:findTF("Paints/PaintBack")
 	slot0.paintFrontTF = slot0:findTF("Paints/PaintFront")
 	slot0.skinShopBtn = slot0:findTF("BtnShop")
@@ -25,7 +25,7 @@ function slot0.findUI(slot0)
 	slot0.gridLayoutGroupCom = GetComponent(slot0.btnContainer, "GridLayoutGroup")
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.paintCount = 14
 	slot0.curPaintIndex = 1
 	slot0.paintSwitchTime = 1
@@ -41,7 +41,7 @@ function slot0.initData(slot0)
 	slot0.startAnchoredPosX = slot0.btnContainer.anchoredPosition.x
 end
 
-function slot0.switchNextPaint(slot0)
+slot0.switchNextPaint = function(slot0)
 	slot1 = slot0.frameTimer
 
 	slot1:Stop()
@@ -67,13 +67,13 @@ function slot0.switchNextPaint(slot0)
 	end))
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0:initPaint()
 	slot0:initBtnList(slot0.btnList1)
 	slot0:initTimer()
 end
 
-function slot0.initPaint(slot0)
+slot0.initPaint = function(slot0)
 	slot1 = slot0.curPaintIndex
 	slot3 = slot0.paintNamePrefix .. slot1
 
@@ -84,7 +84,7 @@ function slot0.initPaint(slot0)
 	setImageSprite(slot0.paintBackTF, LoadSprite(slot0.paintPathPrefix .. slot3, slot3))
 end
 
-function slot0.initBtnList(slot0, slot1)
+slot0.initBtnList = function(slot0, slot1)
 	onButton(slot0, slot1[1], function ()
 		uv0:emit(ActivityMediator.GO_PRAY_POOL)
 	end, SFX_PANEL)
@@ -99,7 +99,7 @@ function slot0.initBtnList(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.initTimer(slot0)
+slot0.initTimer = function(slot0)
 	slot0.paintStaticCountValue = 0
 	slot0.frameTimer = Timer.New(function ()
 		uv0.paintStaticCountValue = uv0.paintStaticCountValue + uv1
@@ -114,7 +114,7 @@ function slot0.initTimer(slot0)
 	slot0.frameTimer:Start()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.frameTimer then
 		slot0.frameTimer:Stop()
 

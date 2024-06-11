@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "进水9秒",
 	time = 9.1,
+	name = "进水9秒",
+	init_effect = "",
 	picture = "",
 	desc = "vt-18进水持续伤害",
 	stack = 1,
@@ -15,11 +15,21 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0.15,
 				attr = "airPower",
-				number = 10,
 				time = 3,
 				dotType = 2,
-				k = 0.15
+				number = 10
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "flood"
 			}
 		}
 	}

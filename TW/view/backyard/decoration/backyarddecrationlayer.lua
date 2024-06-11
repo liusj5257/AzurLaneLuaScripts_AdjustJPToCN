@@ -10,11 +10,11 @@ slot7 = 7
 slot8 = 8
 slot9 = 9
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardDecorationUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.animation = slot0._tf:GetComponent(typeof(Animation))
 	slot0.dftAniEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
 	slot0.adpter = slot0:findTF("adpter")
@@ -46,11 +46,11 @@ function slot0.init(slot0)
 	slot0.furniturePage = BackYardDecorationFurniturePage.New(slot0.pageConainer, slot0.event, slot0.contextData)
 	slot0.putListPage = BackYardDecorationPutlistPage.New(slot0.adpter, slot0.event, slot0.contextData)
 
-	function slot0.putListPage.OnShow(slot0)
+	slot0.putListPage.OnShow = function(slot0)
 		setActive(uv0.showPutListBtn, not slot0)
 	end
 
-	function slot0.putListPage.OnShowImmediately()
+	slot0.putListPage.OnShowImmediately = function()
 		setActive(uv0.showPutListBtn, false)
 	end
 
@@ -75,7 +75,7 @@ function slot0.init(slot0)
 	setText(slot0.clearBtn:Find("Text"), i18n("courtyard_label_clear"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.orderMode = BackYardDecorationFilterPanel.ORDER_MODE_DASC
 
 	onToggle(slot0, slot0.orderBtn, function (slot0)
@@ -171,11 +171,11 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.SetDorm(slot0, slot1)
+slot0.SetDorm = function(slot0, slot1)
 	slot0.dorm = slot1
 end
 
-function slot0.UpdateDorm(slot0, slot1)
+slot0.UpdateDorm = function(slot0, slot1)
 	slot0.dorm = slot1
 
 	if slot0.pageType then
@@ -187,29 +187,29 @@ function slot0.UpdateDorm(slot0, slot1)
 	end
 end
 
-function slot0.OnApplyThemeBefore(slot0)
+slot0.OnApplyThemeBefore = function(slot0)
 	if slot0.pageType then
 		slot0.pages[slot0.pageType]:ExecuteAction("OnApplyThemeBefore")
 	end
 end
 
-function slot0.OnApplyThemeAfter(slot0, slot1)
+slot0.OnApplyThemeAfter = function(slot0, slot1)
 	if slot0.pageType then
 		slot0.pages[slot0.pageType]:ExecuteAction("OnApplyThemeAfter", slot1)
 	end
 end
 
-function slot0.UpdateFurnitrue(slot0, slot1)
+slot0.UpdateFurnitrue = function(slot0, slot1)
 	if slot0.pageType then
 		slot0.pages[slot0.pageType]:ExecuteAction("FurnitureUpdated", slot1)
 	end
 end
 
-function slot0.SetThemes(slot0, slot1)
+slot0.SetThemes = function(slot0, slot1)
 	slot0.themes = slot1
 end
 
-function slot0.CustomThemeAdded(slot0, slot1)
+slot0.CustomThemeAdded = function(slot0, slot1)
 	slot0.themes[slot1.id] = slot1
 
 	if slot0.pageType then
@@ -217,7 +217,7 @@ function slot0.CustomThemeAdded(slot0, slot1)
 	end
 end
 
-function slot0.CustomThemeDeleted(slot0, slot1)
+slot0.CustomThemeDeleted = function(slot0, slot1)
 	slot0.themes[slot1] = nil
 
 	if slot0.pageType then
@@ -225,13 +225,13 @@ function slot0.CustomThemeDeleted(slot0, slot1)
 	end
 end
 
-function slot0.ThemeUpdated(slot0)
+slot0.ThemeUpdated = function(slot0)
 	if slot0.pageType then
 		slot0.pages[slot0.pageType]:ExecuteAction("ThemeUpdated")
 	end
 end
 
-function slot0.UpdateTagTF(slot0, slot1, slot2)
+slot0.UpdateTagTF = function(slot0, slot1, slot2)
 	onToggle(slot0, slot2, function (slot0)
 		if slot0 then
 			uv0:SwitchToPage(uv1)
@@ -239,7 +239,7 @@ function slot0.UpdateTagTF(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.InitPages(slot0)
+slot0.InitPages = function(slot0)
 	for slot4, slot5 in ipairs(slot0.tags) do
 		slot0:UpdateTagTF(slot4 + 1, slot5)
 	end
@@ -247,7 +247,7 @@ function slot0.InitPages(slot0)
 	triggerToggle(slot0.themeTag, true)
 end
 
-function slot0.SwitchToPage(slot0, slot1)
+slot0.SwitchToPage = function(slot0, slot1)
 	if slot0.pageType == slot1 then
 		return
 	end
@@ -270,7 +270,7 @@ function slot0.SwitchToPage(slot0, slot1)
 	setActive(slot0.filterBtn, slot0.pageType ~= uv0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.dftAniEvent:SetEndEvent(nil)
 	slot0.themePage:Destroy()
 	slot0.furniturePage:Destroy()
@@ -280,7 +280,7 @@ function slot0.willExit(slot0)
 	BackYardThemeTempalteUtil.ClearAllCache()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.themePage:OnBackPressed() then
 		return
 	end

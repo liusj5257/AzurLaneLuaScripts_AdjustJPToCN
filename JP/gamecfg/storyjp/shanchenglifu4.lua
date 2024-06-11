@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENGLIFU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANCHENGLIFU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港の特別宴会\n\n<size=45>四　女王陛下登場</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・パーティー会場",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・パーティー会場",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			say = "イラストリアス？ふん、もちろんこのパーティーを俯瞰しているのよ",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "イラストリアス？ふん、もちろんこのパーティーを俯瞰しているのよ",
+			actor = 205011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -85,8 +85,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "ふふ、陛下はこのパーティーにご満足いただけたのでしょうか",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "もちろんよ！このパーティーは会場の設計から装飾全般、食材からメニューまですべてロイヤル仕様だもの！",
 			typewriter = {
@@ -119,8 +119,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "この艦隊に来て、もう品のない建物や食事にはだいぶ慣れてきたけど……",
 			typewriter = {
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 205011,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205011,
+			nameColor = "#a9f548",
 			say = "おーほっほっほっほっほ！",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -194,8 +194,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "ふん、当たり前よ！",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "あら、ベルファストとシェフィールドはご一緒ではありませんか？",
 			typewriter = {
@@ -228,8 +228,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "あの二人は調理場へ行かせたわ。やるからには最善をつくさないといけないのよ！",
 			typewriter = {
@@ -245,8 +245,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "ここはもはや私の行宮も同然…安全について心配など不要よ！",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "……いいえ、そんな大層なことではありませんわ。パーティーそのものだって喜ばしいことですもの",
 			typewriter = {
@@ -343,8 +343,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "この巨乳め！ふん！そんなに大きくしてなんになるっていうのよ！邪魔だわ！",
 			typewriter = {
@@ -357,10 +357,10 @@ return {
 			},
 			action = {
 				{
-					type = "move",
+					y = 0,
 					dur = 0.2,
 					x = -150,
-					y = 0
+					type = "move"
 				}
 			}
 		},
@@ -368,8 +368,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "きゃっ！へ、陛下！？皆さんの前ですから、急に突っつかないでください……",
 			typewriter = {
@@ -382,8 +382,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -395,8 +395,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "本当に参加していませんっ。むしろあのような場所は少々苦手で……",
 			typewriter = {
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 2,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "よさんかエリザベス。部下いじめなどやめて、我と一杯付き合って貰えぬか？",
 			typewriter = {
@@ -426,12 +426,12 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			say = "クイーン・エリザベス女王陛下よ！何度も言わせるんじゃないわ！それにこれはいじめではなく、教育よ！",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "クイーン・エリザベス女王陛下よ！何度も言わせるんじゃないわ！それにこれはいじめではなく、教育よ！",
+			actor = 205011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -446,8 +446,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 0,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "あははは！なら……尊きクイーン・エリザベス女王陛下にお願い申し上げます。この三笠との小酌にお時間を賜ってはいただけないでしょうか？",
 			typewriter = {
@@ -489,12 +489,12 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			say = "イラストリアス、付き添いは不要よ。やるべきことをやりなさい",
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "イラストリアス、付き添いは不要よ。やるべきことをやりなさい",
+			actor = 205011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -528,8 +528,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "……なんにせよ、陛下も楽しみを見つけられたようで良かったですね",
 			typewriter = {
@@ -542,8 +542,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "???",
+			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -561,8 +561,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "……エイジャックス？陛下はもう少し敬ったほうがいいですよ",
 			typewriter = {
@@ -578,8 +578,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "陛下は陛下ですし、少しワガママでも構いませんもの",
 			typewriter = {
@@ -608,12 +608,12 @@ return {
 			}
 		},
 		{
-			actor = 207032,
+			say = "エイジャックスらしいですね～",
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "エイジャックスらしいですね～",
+			actor = 207032,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -631,8 +631,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "パーティーのほうはいかがかしら？",
 			typewriter = {
@@ -648,8 +648,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 202031,
 			dir = 1,
+			actor = 202031,
 			nameColor = "#a9f548",
 			say = "あの子豚ちゃんが働き詰めているせいで少し楽しみが減りましたけど、まあまあ楽しめてるかしら",
 			typewriter = {
@@ -681,8 +681,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "カードゲーム……？ああ、例の「デュエル」のことですね…",
 			typewriter = {
@@ -695,13 +695,13 @@ return {
 			}
 		},
 		{
-			actor = 207032,
+			say = "あら、この音は……ピアノ？",
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "あら、この音は……ピアノ？",
+			actor = 207032,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2

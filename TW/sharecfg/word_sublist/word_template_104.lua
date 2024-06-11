@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_104 = {}
 slot1 = slot0.word_template_104
 
-function temp()
+temp = function()
 	uv0["妩"] = {
 		["媚"] = {
 			["挑"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["裸"] = {
 		["体"] = {
 			["少"] = {
@@ -84,7 +84,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["射"] = {
 		["奶"] = {
 			this = true
@@ -159,7 +159,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["俏"] = {
 		["臀"] = {
 			["摄"] = {

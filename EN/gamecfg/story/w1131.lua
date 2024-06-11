@@ -1,12 +1,12 @@
 return {
-	id = "W1131",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1131",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The materials have sunk to the sea floor. They're inaccessible to us now.",
 			typewriter = {
 				speed = 0.05,

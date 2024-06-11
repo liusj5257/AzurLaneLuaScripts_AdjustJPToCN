@@ -1,10 +1,10 @@
 slot0 = class("ShipProfileDetailPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShipProfileDetailPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.detailRightBlurRect = slot0:findTF("bg")
 	slot0.propertyTF = slot0:findTF("bg/property_panel/frame")
 	slot0.skillRect = slot0:findTF("bg/skill_panel/frame/skills_rect")
@@ -14,10 +14,10 @@ function slot0.OnLoaded(slot0)
 	slot0.skillArrRight = slot0:findTF("bg/skill_panel/frame/arrow2")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 end
 
-function slot0.EnterAnim(slot0, slot1, slot2)
+slot0.EnterAnim = function(slot0, slot1, slot2)
 	slot3 = LeanTween.moveX(rtf(slot0._tf), 0, slot1)
 	slot3 = slot3:setEase(LeanTweenType.easeInOutSine)
 
@@ -28,7 +28,7 @@ function slot0.EnterAnim(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.ExistAnim(slot0, slot1, slot2)
+slot0.ExistAnim = function(slot0, slot1, slot2)
 	slot3 = LeanTween.moveX(rtf(slot0._tf), 1000, slot1)
 	slot3 = slot3:setEase(LeanTweenType.easeInOutSine)
 
@@ -41,7 +41,7 @@ function slot0.ExistAnim(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3)
+slot0.Update = function(slot0, slot1, slot2, slot3)
 	slot0:Show()
 
 	slot0.shipGroup = slot1
@@ -55,7 +55,7 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.InitProperty(slot0)
+slot0.InitProperty = function(slot0)
 	slot0.propertyPanel = PropertyPanel.New(slot0.propertyTF)
 
 	slot0.propertyPanel:initProperty(slot0.shipGroup.shipConfig.id)
@@ -65,7 +65,7 @@ function slot0.InitProperty(slot0)
 	end
 end
 
-function slot0.InitSkills(slot0)
+slot0.InitSkills = function(slot0)
 	slot2 = 0
 	slot3 = Clone(pg.ship_data_template[slot0.shipGroup:getShipConfigId(slot0.showTrans)].buff_list_display)
 
@@ -112,7 +112,7 @@ function slot0.InitSkills(slot0)
 	})
 end
 
-function slot0.UpdateSkill(slot0, slot1, slot2)
+slot0.UpdateSkill = function(slot0, slot1, slot2)
 	if slot0.shipGroup:isBluePrintGroup() then
 		for slot6, slot7 in ipairs(slot0.shipGroup:getBluePrintChangeSkillList()) do
 			if slot7[1] == slot2 then
@@ -134,7 +134,7 @@ function slot0.UpdateSkill(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

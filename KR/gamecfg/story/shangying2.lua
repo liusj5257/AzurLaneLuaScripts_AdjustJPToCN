@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"벚꽃놀이 대소동\n\n<size=45>제2장 - 벚꽃놀이 초대하기</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "그럼, 내가 다들 한 번 불러볼게.",
 			bgm = "story-1",
+			actor = 307030,
+			nameColor = "#92fc63",
+			say = "그럼, 내가 다들 한 번 불러볼게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,15 +34,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 307030,
+			nameColor = "#92fc63",
 			say = "어라, 쇼카쿠랑 즈이카쿠잖아? 마침 잘 됐네.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -67,10 +67,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			actorName = "{namecode:95}&{namecode:96}",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 307060,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#92fc63",
@@ -109,12 +109,12 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			say = "아하하하…미안, 갑자기 불러 세워서. 이번에 다 같이 벚꽃놀이라도 가볼까 하는데, 너희들도 올래?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "아하하하…미안, 갑자기 불러 세워서. 이번에 다 같이 벚꽃놀이라도 가볼까 하는데, 너희들도 올래?",
+			actor = 307030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "사탕 있어? 무츠키, 사탕 먹고 싶어!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "사탕 있어? 무츠키, 사탕 먹고 싶어!",
+			actor = 301320,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "우후후, 정말로 '소류 선생님' 이네요…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "우후후, 정말로 '소류 선생님' 이네요…",
+			actor = 307050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

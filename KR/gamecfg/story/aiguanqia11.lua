@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA11",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA11",
+	fadein = 1.5,
 	scripts = {
 		{
-			actor = 10400030,
 			nameColor = "#92fc63",
-			bgName = "bg_story_ailevel",
 			side = 2,
+			bgName = "bg_story_ailevel",
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "다들~! 이거 봐봐~!",
 			typewriter = {
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_ailevel",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "다들, 큰일이다냥! 새로운 옷 보면서 힐링할 때가 아니다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,11 +178,11 @@ return {
 			}
 		},
 		{
-			actor = 10400030,
 			nameColor = "#92fc63",
-			bgName = "bg_story_ailevel",
 			side = 2,
+			bgName = "bg_story_ailevel",
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "고마워, 아카시쨩! 다들 서둘러 가자!",
 			typewriter = {
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_ailevel",
+			dir = 1,
 			say = "버츄얼 거울 해역 - 고도 4000미터 상공",
 			flashN = {
 				color = {
@@ -229,11 +229,11 @@ return {
 			}
 		},
 		{
-			actor = 10400030,
 			nameColor = "#92fc63",
-			bgName = "bg_story_ailevel",
 			side = 2,
+			bgName = "bg_story_ailevel",
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "…………헤?",
 			typewriter = {
@@ -264,8 +264,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_ailevel",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#92fc63",
 			say = "떨~~~~~어~~~~~진~~~~~다~~~~~!!!",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 0
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_ailevel",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#92fc63",
 			say = "히야아아아아아아아아아아아아!",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 0
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 0
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_ailevel",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#92fc63",
 			say = "(기절)",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 0
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -473,8 +473,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "이젠 끝이라고 생각했어~",
 			typewriter = {
@@ -550,8 +550,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "(두근)어라…? 이 상황, 어디선가 겪은 것 같은……?",
 			typewriter = {
@@ -564,8 +564,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -577,8 +577,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "내 인텔리전트한 감이, 온 힘을 다해 해역 중심부를 향해 도망치라고 말하고 있어!!",
 			typewriter = {

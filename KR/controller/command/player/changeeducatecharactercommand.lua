@@ -1,6 +1,6 @@
 slot0 = class("ChangeEducateCharacterCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot4 = getProxy(PlayerProxy)
 	slot4 = slot4:getRawData()
 	slot5 = slot4:GetEducateCharacter()

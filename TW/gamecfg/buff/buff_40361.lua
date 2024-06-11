@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "静寂的狩猎者-大世界LV2",
 	time = 0,
-	color = "yellow",
+	name = "静寂的狩猎者-大世界LV2",
+	init_effect = "",
+	id = 40361,
 	picture = "",
 	desc = "15点额外氧气",
 	stack = 1,
-	id = 40361,
+	color = "yellow",
 	icon = 40360,
 	last_effect = "Darkness",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "oxyMax",
-				number = 15
+				number = 15,
+				attr = "oxyMax"
 			}
 		}
 	}

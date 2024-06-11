@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN14",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "Suruga and her allies continued to press forward, neutralizing the mechanisms identified by Chikuma's \"eyes\" while fending off any enemies in the way.",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-longgong",
+			nameColor = "#a9f548",
+			say = "Suruga and her allies continued to press forward, neutralizing the mechanisms identified by Chikuma's \"eyes\" while fending off any enemies in the way.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			dir = 1,
 			say = "Though they struggled to eliminate the extremely durable mass-produced ships, they continued to make progress, slow and steady.",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			dir = 1,
 			say = "However, the density of the enemy vessels continued to increase, to the point where they completely blocked off the waterway by lining up side-to-side.",
@@ -66,8 +66,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "They're blocking the way forward, just like a metal wall...",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "Damn it, why are the obstacles along our path this ridiculous?!",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "Suruga, are you able to bring your full firepower to bear?",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "Sure thing. I'm raring to go.",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305140,
+			nameColor = "#a9f548",
 			say = "I'm sick and tired of being stuck here... and I'll give a piece of my mind to anyone who blocks our way!!",
 			typewriter = {
 				speed = 0.05,
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_3",
-			say = "KABOOOOM!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -242,8 +242,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(With how long we're taking, Shimakaze's probably getting ready to lap us by now...)",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "Let's bust our way out of here, finish our mission, and then go back home already...!",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "……{namecode:175}？",
 			typewriter = {
@@ -290,12 +290,12 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 305140,
+			nameColor = "#a9f548",
 			say = "Gaaah! Forget it, let's just keep going.",
 			typewriter = {
 				speed = 0.05,

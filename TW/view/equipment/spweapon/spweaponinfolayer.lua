@@ -1,6 +1,6 @@
 slot0 = class("SpWeaponInfoLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SpWeaponInfoUI"
 end
 
@@ -35,7 +35,7 @@ slot0.SHOW_UNIQUE = {
 	4
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.toggles = {}
 
 	for slot5, slot6 in ipairs({
@@ -59,21 +59,21 @@ function slot0.init(slot0)
 	setText(slot0._tf:Find("sample/empty/Text"), i18n("spweapon_ui_empty"))
 end
 
-function slot0.setEquipment(slot0, slot1, slot2)
+slot0.setEquipment = function(slot0, slot1, slot2)
 	slot0.equipmentVO = slot1
 	slot0.oldEquipmentVO = slot2
 end
 
-function slot0.setShip(slot0, slot1, slot2)
+slot0.setShip = function(slot0, slot1, slot2)
 	slot0.shipVO = slot1
 	slot0.oldShipVO = slot2
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.checkOverGold(slot0, slot1)
+slot0.checkOverGold = function(slot0, slot1)
 	if slot0.player:GoldMax(_.detect(slot1, function (slot0)
 		return slot0.type == DROP_TYPE_RESOURCE and slot0.id == 1
 	end).count or 0) then
@@ -85,7 +85,7 @@ function slot0.checkOverGold(slot0, slot1)
 	return true
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	setActive(slot0.txtQuickEnable, slot0.contextData.quickFlag or false)
 
 	slot1 = defaultValue(slot0.contextData.type, uv0.TYPE_DEFAULT)
@@ -130,7 +130,7 @@ slot1 = {
 	}
 }
 
-function slot0.initAndSetBtn(slot0, slot1)
+slot0.initAndSetBtn = function(slot0, slot1)
 	if slot1 == uv0.TYPE_DEFAULT or slot1 == uv0.TYPE_SHIP then
 		slot0.defaultEquipTF = slot0:findTF("equipment", slot0.defaultPanel) or slot0:cloneSampleTo(slot0.defaultPanel, uv0.Middle, "equipment")
 
@@ -182,7 +182,7 @@ function slot0.initAndSetBtn(slot0, slot1)
 	end
 end
 
-function slot0.updateOperation1(slot0)
+slot0.updateOperation1 = function(slot0)
 	triggerToggle(slot0.toggles.defaultPanel, true)
 	slot0:updateEquipmentPanel(slot0.defaultEquipTF, slot0.equipmentVO, SpWeaponHelper.TransformNormalInfo(slot0.equipmentVO))
 	setActive(slot0.defaultEnhanceBtn, true)
@@ -191,7 +191,7 @@ function slot0.updateOperation1(slot0)
 	setActive(slot0.defaultModifyBtn, true)
 end
 
-function slot0.updateOperation2(slot0)
+slot0.updateOperation2 = function(slot0)
 	triggerToggle(slot0.toggles.defaultPanel, true)
 
 	slot1 = slot0.shipVO:GetSpWeapon()
@@ -208,7 +208,7 @@ function slot0.updateOperation2(slot0)
 	end
 end
 
-function slot0.updateOperation3(slot0)
+slot0.updateOperation3 = function(slot0)
 	triggerToggle(slot0.toggles.replacePanel, true)
 
 	if slot0.equipmentVO then
@@ -228,7 +228,7 @@ function slot0.updateOperation3(slot0)
 	end
 end
 
-function slot0.updateOperation4(slot0)
+slot0.updateOperation4 = function(slot0)
 	triggerToggle(slot0.toggles.displayPanel, true)
 	slot0:updateEquipmentPanel(slot0.displayEquipTF, slot0.equipmentVO, SpWeaponHelper.TransformNormalInfo(slot0.equipmentVO))
 	setActive(slot0.displayMoveBtn, slot0.shipVO)
@@ -239,7 +239,7 @@ function slot0.updateOperation4(slot0)
 	end
 end
 
-function slot0.updateOperationAward(slot0, slot1, slot2, slot3)
+slot0.updateOperationAward = function(slot0, slot1, slot2, slot3)
 	slot0.awards = slot3
 
 	if slot1.childCount == 0 then
@@ -261,7 +261,7 @@ function slot0.updateOperationAward(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3)
+slot0.updateEquipmentPanel = function(slot0, slot1, slot2, slot3)
 	setActive(slot0:findTF("info", slot1), slot2)
 	setActive(slot0:findTF("empty", slot1), not slot2)
 
@@ -294,7 +294,7 @@ function slot0.updateEquipmentPanel(slot0, slot1, slot2, slot3)
 	updateSpWeaponInfo(slot4:Find("attributes/view/content"), slot3, slot2:GetSkillGroup())
 end
 
-function slot0.cloneSampleTo(slot0, slot1, slot2, slot3, slot4)
+slot0.cloneSampleTo = function(slot0, slot1, slot2, slot3, slot4)
 	cloneTplTo(slot0.sample, slot1, slot3).localPosition = Vector3.New(uv0.pos[slot2][1], uv0.pos[slot2][2], uv0.pos[slot2][3])
 
 	if slot4 then
@@ -304,11 +304,11 @@ function slot0.cloneSampleTo(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:closeView()
 end
 

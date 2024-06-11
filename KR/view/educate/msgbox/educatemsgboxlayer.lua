@@ -10,11 +10,11 @@ slot2 = {
 	[slot0.TYPE_SINGLE_ITEM] = i18n("child_msg_title_detail")
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateMsgBoxUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.THIRD_LAYER
 	})
@@ -49,16 +49,16 @@ function slot0.init(slot0)
 	setText(slot0._yesBtn:Find("pic"), i18n("word_ok"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:ShowMsgBox(slot0.contextData)
 end
 
-function slot0.ShowMsgBox(slot0, slot1)
+slot0.ShowMsgBox = function(slot0, slot1)
 	slot0:commonSetting(slot1)
 	slot0:showByType(slot1)
 end
 
-function slot0.commonSetting(slot0, slot1)
+slot0.commonSetting = function(slot0, slot1)
 	slot0.settings = slot1
 	slot2 = slot0.settings.type or uv0.TYPE_NORMAL
 	slot0._window.sizeDelta = uv1[slot2]
@@ -111,7 +111,7 @@ function slot0.commonSetting(slot0, slot1)
 	end, SFX_CANCEL)
 end
 
-function slot0.showByType(slot0, slot1)
+slot0.showByType = function(slot0, slot1)
 	switch(slot0.settings.type or uv0.TYPE_NORMAL, {
 		[uv0.TYPE_NORMAL] = function ()
 			uv0:showNormalMsgBox()
@@ -122,13 +122,13 @@ function slot0.showByType(slot0, slot1)
 	})
 end
 
-function slot0.showNormalMsgBox(slot0)
+slot0.showNormalMsgBox = function(slot0)
 	setActive(slot0._msgPanel, true)
 
 	slot0.contentText.text = slot0.settings.content or ""
 end
 
-function slot0.showSingleItemBox(slot0)
+slot0.showSingleItemBox = function(slot0)
 	setActive(slot0._sigleItemPanel, true)
 	setActive(slot0._noBtn, false)
 	EducateHelper.UpdateDropShow(slot0.singleItemTF, slot0.settings.drop)
@@ -148,19 +148,19 @@ function slot0.showSingleItemBox(slot0)
 	end
 end
 
-function slot0.getMoodDesc(slot0, slot1)
+slot0.getMoodDesc = function(slot0, slot1)
 	return string.gsub(slot1, "$1", i18n("child_mood_desc" .. getProxy(EducateProxy):GetCharData():GetMoodStage()))
 end
 
-function slot0._close(slot0)
+slot0._close = function(slot0)
 	slot0.anim:Play("anim_educate_MsgBox_out")
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:_close()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 

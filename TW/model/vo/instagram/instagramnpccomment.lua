@@ -1,7 +1,7 @@
 slot0 = class("InstagramNpcComment", import(".InstagramComment"))
 slot1 = pg.activity_ins_ship_group_template
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot9 = slot3
 	slot10 = slot4
 
@@ -18,19 +18,19 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.config = uv1[slot0:getConfig("ship_group")]
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.activity_ins_npc_template
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0.config.name
 end
 
-function slot0.GetPainting(slot0)
+slot0.GetPainting = function(slot0)
 	return slot0.config.sculpture
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return Instagram.TYPE_NPC_COMMENT
 end
 

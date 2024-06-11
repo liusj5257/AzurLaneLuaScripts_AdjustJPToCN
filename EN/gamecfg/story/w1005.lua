@@ -1,15 +1,15 @@
 return {
-	id = "W1005",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1005",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "You have insufficient supplies. Device cannot be activated.",
 			typewriter = {
 				speed = 0.05,

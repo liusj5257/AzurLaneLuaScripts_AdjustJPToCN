@@ -1,22 +1,22 @@
 slot0 = class("EducateCollectEntranceLayer", import("..base.EducateBaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateCollectEntranceUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot1 = getProxy(EducateProxy)
 	slot0.memories = slot1:GetMemories()
 	slot0.endings = slot1:GetFinishEndings()
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
 	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
 
@@ -31,7 +31,7 @@ function slot0.findUI(slot0)
 	slot0.reviewBtn = slot0:findTF("review_btn", slot0.contentTF)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:_close()
 	end, SFX_PANEL)
@@ -71,7 +71,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	setText(slot0:findTF("Text", slot0.memoryBtn), #slot0.memories .. "/" .. #pg.child_memory.all)
 	slot0:updateMemoryTip()
 
@@ -91,21 +91,21 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.updateMemoryTip(slot0)
+slot0.updateMemoryTip = function(slot0)
 	setActive(slot0:findTF("new", slot0.memoryBtn), underscore.any(pg.child_memory.all, function (slot0)
 		return EducateTipHelper.IsShowNewTip(EducateTipHelper.NEW_MEMORY, slot0)
 	end))
 end
 
-function slot0._close(slot0)
+slot0._close = function(slot0)
 	slot0.anim:Play("anim_educate_collectentrance_out")
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:_close()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end

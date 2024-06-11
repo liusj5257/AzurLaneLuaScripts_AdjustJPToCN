@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "关闭敌方单位的角色碰撞（中弹碰撞不影响）",
 	time = 0,
+	name = "关闭敌方单位的角色碰撞（中弹碰撞不影响）",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "unitCldImmune",
-				number = 2
+				number = 2,
+				attr = "unitCldImmune"
 			}
 		}
 	}

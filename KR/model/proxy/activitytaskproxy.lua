@@ -1,11 +1,11 @@
 slot0 = class("ActivityTaskProxy", import(".NetProxy"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.actTasks = {}
 	slot0.autoSubmitTasks = {}
 end
 
-function slot0.initActList(slot0, slot1, slot2)
+slot0.initActList = function(slot0, slot1, slot2)
 	if not slot2 then
 		return {}
 	end
@@ -23,7 +23,7 @@ function slot0.initActList(slot0, slot1, slot2)
 	slot0:checkAutoSubmit()
 end
 
-function slot0.updateActList(slot0, slot1, slot2)
+slot0.updateActList = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2) do
 		for slot11 = 1, #slot0.actTasks do
 			if slot0.actTasks[slot11].actId == slot1 then
@@ -39,7 +39,7 @@ function slot0.updateActList(slot0, slot1, slot2)
 	slot0:checkAutoSubmit()
 end
 
-function slot0.addActList(slot0, slot1, slot2)
+slot0.addActList = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2) do
 		for slot11 = 1, #slot0.actTasks do
 			if slot0.actTasks[slot11].actId == slot1 then
@@ -57,7 +57,7 @@ function slot0.addActList(slot0, slot1, slot2)
 	slot0:checkAutoSubmit()
 end
 
-function slot0.checkAutoSubmit(slot0)
+slot0.checkAutoSubmit = function(slot0)
 	if not slot0.actTasks or #slot0.actTasks == 0 then
 		return
 	end
@@ -86,7 +86,7 @@ function slot0.checkAutoSubmit(slot0)
 	end
 end
 
-function slot0.removeActList(slot0, slot1, slot2)
+slot0.removeActList = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2) do
 		for slot11 = 1, #slot0.actTasks do
 			if slot0.actTasks[slot11].actId == slot1 then
@@ -106,7 +106,7 @@ function slot0.removeActList(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getTaskById(slot0, slot1)
+slot0.getTaskById = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.actTasks) do
 		if slot6.actId == slot1 then
 			return Clone(slot6.tasks)
@@ -116,7 +116,7 @@ function slot0.getTaskById(slot0, slot1)
 	return {}
 end
 
-function slot0.getFinishTasksByActId(slot0, slot1)
+slot0.getFinishTasksByActId = function(slot0, slot1)
 	if not getProxy(ActivityProxy):getActivityById(slot1) then
 		return {}
 	end
@@ -132,7 +132,7 @@ function slot0.getFinishTasksByActId(slot0, slot1)
 	end)
 end
 
-function slot0.checkTasksFinish(slot0, slot1, slot2)
+slot0.checkTasksFinish = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot7 = slot1
 
@@ -145,7 +145,7 @@ function slot0.checkTasksFinish(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.getTaskVOsByActId(slot0, slot1)
+slot0.getTaskVOsByActId = function(slot0, slot1)
 	slot2 = slot0:getTaskById(slot1)
 
 	table.insertto(slot2, slot0:getFinishTasksByActId(slot1))
@@ -153,7 +153,7 @@ function slot0.getTaskVOsByActId(slot0, slot1)
 	return slot2
 end
 
-function slot0.getActTaskTip(slot0, slot1)
+slot0.getActTaskTip = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.actTasks) do
@@ -173,11 +173,11 @@ function slot0.getActTaskTip(slot0, slot1)
 	return slot3 > 0
 end
 
-function slot0.createTask(slot0, slot1, slot2)
+slot0.createTask = function(slot0, slot1, slot2)
 	return ActivityTask.New(slot1, slot2)
 end
 
-function slot0.getFinishTasks(slot0)
+slot0.getFinishTasks = function(slot0)
 	slot1 = getProxy(ActivityProxy)
 
 	_.each(_.map(slot1:GetTaskActivities(), function (slot0)

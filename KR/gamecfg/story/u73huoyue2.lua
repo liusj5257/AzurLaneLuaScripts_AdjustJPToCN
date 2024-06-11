@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U73HUOYUE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U73HUOYUE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"이과 시험시간!\n\n<size=45>위대한 실험?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "몇 분 뒤, 학원- 이과 교실",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "몇 분 뒤, 학원- 이과 교실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "켁켁켁... 이 연기... 도대체 무슨 일이 일어난거야?",
 			typewriter = {
 				speed = 0.05,
@@ -78,16 +78,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.15,
 					x = 0,
@@ -99,8 +99,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "켁켁켁... 하하하하, 실패했군...",
 			typewriter = {
@@ -113,8 +113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,8 +126,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "그래도, 실패는 성공의 어머니라고, 다음에는 꼭 성공할거야! 음음!",
 			typewriter = {
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "U-73이였네요... 아니야, U-73! 점심에 교실해서 뭐 한거에요?! 켁켁켁...",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -265,8 +265,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "아, 너네 휴식을 방해했어? 미안해~",
 			typewriter = {
@@ -298,8 +298,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "흠흠, 들어도 놀라지마. 나는 지금 '위대한 실험'을 하고 있어!",
 			typewriter = {
@@ -315,8 +315,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "시험의 내용은 바로----",
 			typewriter = {
@@ -329,16 +329,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
-			actorName = "모두",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			bgName = "star_level_bg_103",
+			actorName = "모두",
 			say = "에에에에?!!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

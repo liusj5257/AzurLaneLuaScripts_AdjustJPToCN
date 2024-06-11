@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "防空降低",
 	time = 5,
+	name = "防空降低",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = -800
+				number = -800,
+				attr = "antiAirPower"
 			}
 		},
 		{

@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			hidePaintObj = true,
 			dir = 1,
+			stopbgm = true,
+			hidePaintObj = true,
 			say = "北方連合との共同作戦、そして海底にあるセイレーン遺跡の調査の後、ユニオン艦船と合流し次の動きに向けて備えていった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
@@ -110,8 +110,8 @@ return {
 			hidePaintObj = true,
 			say = "PH基地周辺空域に異常なし。指揮官、もうすぐで到着するわ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -139,10 +139,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "同じく潜水艦・水上艦の痕跡なしよ~",
 			typewriter = {
 				speed = 0.05,
@@ -154,12 +154,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "んんん～長く哨戒し続けると疲れるわー早く美味しいご飯食べてベッドでゴロゴロしたいー",
 			typewriter = {
 				speed = 0.05,
@@ -171,8 +171,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -184,10 +184,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "NA海域から運河を通ってからほぼ休みなしだったわね",
 			typewriter = {
 				speed = 0.05,
@@ -217,10 +217,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そういうことだよ指揮官、みんな結構頑張ったから…",
 			typewriter = {
 				speed = 0.05,
@@ -232,12 +232,12 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "何かしらのご褒美をくれてもいいんじゃないの～？",
 			typewriter = {
 				speed = 0.05,
@@ -252,10 +252,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 108060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "肩を叩いたりとかしてごまかすようなものじゃなくて、もっと本格的なご・ほ・う・び、してほしいわね～♡",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -346,8 +346,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -467,13 +467,13 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（小声）ふふふ、今のはみんなも聞こえてるから、後悔してもダメなんだからね",
 			typewriter = {
 				speed = 0.05,
@@ -520,13 +520,13 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "おっ、本気でご褒美くれるの？助かるー！",
 			typewriter = {
 				speed = 0.05,
@@ -576,13 +576,13 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "んー、どういうご褒美がいいかなー？",
 			typewriter = {
 				speed = 0.05,
@@ -648,8 +648,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -712,13 +712,13 @@ return {
 			}
 		},
 		{
-			actor = 108060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そうそう！遠慮せずみんなも呼ぼうよ！せっかく指揮官が奢ってくれるって言うしさ！",
 			typewriter = {
 				speed = 0.05,
@@ -830,16 +830,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
+			nameColor = "#a9f548",
 			actorName = "通信機",
+			hidePaintObj = true,
 			say = "「認証完了、指揮官と作戦任務艦隊」",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -864,12 +864,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "「艦隊の進入航路は事前連絡通りでお願いします」",
 			typewriter = {
 				speed = 0.05,
@@ -881,12 +881,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			bgName = "bg_story_nepu1",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "「ようこそPH基地へ」",
 			typewriter = {
 				speed = 0.05,
@@ -898,8 +898,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>人類の航路を脅かす敵、セイレーン</size>",
@@ -932,12 +932,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

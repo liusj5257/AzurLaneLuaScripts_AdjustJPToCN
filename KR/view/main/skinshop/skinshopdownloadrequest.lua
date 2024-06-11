@@ -1,14 +1,14 @@
 slot0 = class("SkinShopDownloadRequest")
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.downloadui = GameObject.Find("/OverlayCamera/Overlay/UIMain/DialogPanel")
 end
 
-function slot0.Start(slot0, slot1, slot2)
+slot0.Start = function(slot0, slot1, slot2)
 	slot0:Refresh(true, slot1, slot2)
 end
 
-function slot0.Refresh(slot0, slot1, slot2, slot3)
+slot0.Refresh = function(slot0, slot1, slot2, slot3)
 	if BundleWizard.Inst:GetGroupMgr("L2D").state == DownloadState.None or slot5 == DownloadState.CheckFailure then
 		slot4:CheckD()
 	end
@@ -34,7 +34,7 @@ function slot0.Refresh(slot0, slot1, slot2, slot3)
 		slot7 = true
 	elseif slot8 == DownloadState.UpdateSuccess then
 		slot7 = true
-		slot6 = PathMgr.FileExists(PathMgr.getAssetBundle(slot2))
+		slot6 = checkABExist(slot2)
 	end
 
 	if slot0.live2dTimer then
@@ -56,7 +56,7 @@ function slot0.Refresh(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.live2dTimer then
 		slot0.live2dTimer:Stop()
 

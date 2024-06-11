@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU8",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "level02",
 			actor = 408040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "역시 잠수함은 정면 전투를 원하는 거네, 너무 억지야...!",
-			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "꼬륵...! 긴급 잠수——!",
 			typewriter = {
 				speed = 0.05,
@@ -92,8 +92,8 @@ return {
 			say = "불독?",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 900201,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "불독",
+			actor = 900201,
 			dir = 1,
+			actorName = "불독",
 			say = "...음, 이제 문제 없겠다.",
 			effects = {
 				{
@@ -172,10 +172,10 @@ return {
 			}
 		},
 		{
-			actor = 201070,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 201070,
 			say = "아, 아마존, 괜찮아?",
 			effects = {
 				{
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "아마존은 U-556이 잠수해서 나간 쪽을 바라본다.",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "소나가 잠수함의 반응을 나타내기는 하지만 수송함의 방향과는 점점 멀어지고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "막 손에 넣은 에니그마와 코드북을 갖고 두 사람은 수송함대가 있는 해역으로 돌아갔다.",
 			typewriter = {
 				speed = 0.05,

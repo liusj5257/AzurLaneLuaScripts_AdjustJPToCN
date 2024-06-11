@@ -1,15 +1,15 @@
 return {
-	id = "WTrap311",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTrap311",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "System is being jammed. Navigation menu cannot be displayed.",
 			typewriter = {
 				speed = 0.05,

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "偶像大师联动 fever BUFF 镜头效果",
 	cd = 0,
-	painting = 0,
-	id = 8766,
 	picture = "0",
 	aniEffect = "",
 	desc = "回血",
+	painting = 0,
+	id = 8766,
 	effect_list = {
 		{
 			type = "BattleSkillPlayCameraFX",

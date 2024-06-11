@@ -2,7 +2,7 @@ slot0 = class("ShipRemouldMediator", import("..base.ContextMediator"))
 slot0.REMOULD_SHIP = "ShipRemouldMediator:REMOULD_SHIP"
 slot0.ON_SELECTE_SHIP = "ShipRemouldMediator:ON_SELECTE_SHIP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = getProxy(BayProxy)
 	slot3 = slot0.viewComponent
 
@@ -39,9 +39,9 @@ function slot0.register(slot0)
 
 		table.insert(slot3, slot1.id)
 		uv1:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			selectedMax = 1,
-			selectedMin = 1,
 			destroyCheck = true,
+			selectedMin = 1,
+			selectedMax = 1,
 			shipVOs = slot2,
 			ignoredIds = slot3,
 			selectedIds = uv1.contextData.materialShipIds or {},
@@ -77,7 +77,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.REMOULD_SHIP_DONE,
 		PlayerProxy.UPDATED,
@@ -85,7 +85,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.REMOULD_SHIP_DONE then

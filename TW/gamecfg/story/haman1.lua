@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAMAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAMAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"哈曼觀察日誌\n\n<size=45>一 愛發脾氣的秘書艦</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "港區·指揮室",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,18 +47,18 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
 			actor = 0,
-			withoutPainting = true,
-			bgName = "bg_story_task",
 			say = "哎…？",
+			bgName = "bg_story_task",
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,9 +72,9 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			bgm = "story-1",
-			dir = 1,
 			say = "哈曼提交的報告書，你還沒看嗎？",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,12 +85,12 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "一小時前就放這裡了！為什麼還不看！",
 			dir = 1,
 			bgm = "story-1",
+			actor = 101250,
+			say = "一小時前就放這裡了！為什麼還不看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,12 +111,12 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不許找藉口！",
 			dir = 1,
 			bgm = "story-1",
+			actor = 101250,
+			say = "不許找藉口！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,10 +127,10 @@ return {
 			},
 			action = {
 				{
-					number = 3,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 3,
+					type = "shake"
 				}
 			}
 		},
@@ -138,9 +138,9 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			bgm = "story-1",
-			dir = 1,
 			say = "說你沒看就是沒看！哈曼費了這麼大勁才寫好的！你怎麼賠我！",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,9 +154,9 @@ return {
 			actor = 101250,
 			side = 2,
 			bgName = "bg_story_task",
-			bgm = "story-1",
-			dir = 1,
 			say = "（小聲）還，還想說要是你好好看了就給你點獎勵呢……",
+			dir = 1,
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,9 +170,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_task",
-			withoutPainting = true,
-			dir = 1,
 			say = "怎麼突然變小聲了…",
+			dir = 1,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,10 +250,10 @@ return {
 			say = "<size=60>笨蛋！</size>",
 			action = {
 				{
-					number = 3,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 3,
+					type = "shake"
 				}
 			},
 			painting = {
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "（咚！）",
 			dialogShake = {
 				speed = 0.04,

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA24",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "흐흥, 우리의 항행 속도는 이글 유니온의 잠수함보다 빨라. 이 속도라면 쉽게 따돌릴 수 있다는 거다~",
 			bgm = "battle-boss-3",
+			actor = 301160,
+			nameColor = "#a9f548",
+			say = "흐흥, 우리의 항행 속도는 이글 유니온의 잠수함보다 빨라. 이 속도라면 쉽게 따돌릴 수 있다는 거다~",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -33,11 +33,11 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301600,
+			nameColor = "#a9f548",
 			say = "돌격~ 돌격~! 세키가하라가 앞에 있어. 정의는 서군의 것!",
 			typewriter = {
 				speed = 0.05,
@@ -49,8 +49,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "……동력 시스템이 고장난 모양이다. 전속력으로 나갈 수 없어.",
 			typewriter = {
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "이런… 시나노님의 항행 속도는, 고작 15노트?! 이러면 이글 유니온의 잠수함에게 금방 따라잡히고 말아!",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,11 +198,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/fengling",
+			say = "「——————방향을 바꿔서 잠수함의 매복을 피해.」 ",
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			dir = 1,
-			say = "「——————방향을 바꿔서 잠수함의 매복을 피해.」 ",
+			soundeffect = "event:/ui/fengling",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,9 +232,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(여기는 나의 꿈. 머릿속의 정보도 그렇게 말하고 있으니 틀리지 않을 거야…!)",
 			typewriter = {

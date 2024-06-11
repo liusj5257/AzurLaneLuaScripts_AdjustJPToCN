@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_378 = {}
 slot1 = slot0.word_template_378
 
-function temp()
+temp = function()
 	uv0["伱"] = {
 		["妈"] = {
 			this = true
@@ -16,7 +16,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鸟"] = {
 		G = {
 			M = {
@@ -42,7 +42,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["苹"] = {
 		["果"] = {
 			["日"] = {
@@ -56,7 +56,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["钱"] = {
 		["其"] = {
 			["琛"] = {

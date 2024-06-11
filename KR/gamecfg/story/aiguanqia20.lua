@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA20",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA20",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
@@ -22,12 +22,12 @@ return {
 		{
 			expression = 1,
 			side = 1,
-			actorName = "거대화 키즈나 아이",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "………",
+			actorName = "거대화 키즈나 아이",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -57,12 +57,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			nameColor = "#92fc63",
 			side = 0,
-			say = "아이상…… 미안해요!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 401230,
+			say = "아이상…… 미안해요!",
 			flashN = {
 				color = {
 					1,
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			side = 0,
 			nameColor = "#92fc63",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			actor = 10400020,
 			actorName = "키즈나 아이들",
 			say = "………",
@@ -279,10 +279,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
-			soundeffect = "event:/battle/boom2",
 			say = "투콰~앙!",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "무슨 일이 있어도 포기하지 않는다', 그렇게 결의한 순간, 굉음이 울려 퍼졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -368,13 +368,13 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			side = 2,
 			actorName = "모두",
-			hideOther = true,
+			actor = 303110,
 			dir = 1,
-			nameColor = "#92fc63",
 			say = "키즈나 아이 함대!?",
+			hideOther = true,
+			nameColor = "#92fc63",
 			effects = {
 				{
 					active = true,
@@ -415,10 +415,10 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			nameColor = "#92fc63",
 			side = 2,
 			dir = 1,
+			actor = 403030,
 			say = "…키즈나 아이 함대? 대체 무슨 말이야? 궁지에 몰리더니 환각이라도 본 거야?",
 			effects = {
 				{
@@ -573,12 +573,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "거대화 키즈나 아이",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "어째서… 나는 이 세계를 파괴하려 하고 있는데… 어째서, 그렇게까지 해주는 거야…?",
+			actorName = "거대화 키즈나 아이",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900

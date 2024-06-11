@@ -1,7 +1,7 @@
 return {
-	init_effect = "jinengchufared",
-	name = "指挥喵天赋-水雷魂",
 	time = 0,
+	name = "指挥喵天赋-水雷魂",
+	init_effect = "jinengchufared",
 	picture = "",
 	desc = "轻巡驱逐鱼雷暴击率提高3%",
 	stack = 2,

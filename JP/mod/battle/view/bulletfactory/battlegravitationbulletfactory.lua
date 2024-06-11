@@ -4,15 +4,15 @@ slot0.Battle.BattleGravitationBulletFactory = singletonClass("BattleGravitationB
 slot0.Battle.BattleGravitationBulletFactory.__name = "BattleGravitationBulletFactory"
 slot1 = slot0.Battle.BattleGravitationBulletFactory
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot1.MakeBullet(slot0)
+slot1.MakeBullet = function(slot0)
 	return uv0.Battle.BattleTorpedoBullet.New()
 end
 
-function slot1.onBulletHitFunc(slot0, slot1, slot2)
+slot1.onBulletHitFunc = function(slot0, slot1, slot2)
 	if slot0:GetBulletData():GetPierceCount() <= 0 then
 		return
 	end
@@ -92,11 +92,11 @@ function slot1.onBulletHitFunc(slot0, slot1, slot2)
 	end, true):SetDiveFilter(slot7:GetDiveFilter())
 end
 
-function slot1.onBulletMissFunc(slot0)
+slot1.onBulletMissFunc = function(slot0)
 	uv0.onBulletHitFunc(slot0)
 end
 
-function slot1.MakeModel(slot0, slot1, slot2)
+slot1.MakeModel = function(slot0, slot1, slot2)
 	slot3 = slot1:GetBulletData()
 	slot4 = slot3:GetTemplate()
 	slot5 = slot0:GetDataProxy()

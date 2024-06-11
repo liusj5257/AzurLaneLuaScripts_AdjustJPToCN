@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AERFULEIDUO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AERFULEIDUO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港ジャーナル・THE特別号！\n\n<size=45>六 素材仕分けタイム！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_night",
-			say = "ダンスパーティー後――",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "ダンスパーティー後――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "アルフレードと執務室に戻り、今日集めたものを整理し始めた。",
 			typewriter = {
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "当の彼女がなぜ、着替える時間すら惜しんで作業に取り掛かってるかというと――",
 			typewriter = {
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 601081,
-			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 601081,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "インスピレーションが消えないうちに掴み取るためだよ！",
 			painting = {
 				alpha = 0.3,
@@ -79,8 +79,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -96,10 +96,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さっきいいアイデアをいっぱい思いついたから、今のうちに形にしておかないと、明日になったら忘れちゃいそうだもん！",
 			painting = {
 				alpha = 0.3,
@@ -114,10 +114,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "だからまだ覚えているうちに整理整理っと！",
 			painting = {
 				alpha = 0.3,
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "昼間のお仕事が終わっても、夜遅くまでネタの整理……ジャーナリストは大変らしい。",
 			typewriter = {
@@ -142,10 +142,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "別に毎日こんな感じではないよ？",
 			painting = {
 				alpha = 0.3,
@@ -160,10 +160,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "山あり谷ありって感じで、忙しいときは忙しくて、忙しくないときは忙しくないというか……",
 			painting = {
 				alpha = 0.3,
@@ -175,12 +175,12 @@ return {
 			}
 		},
 		{
-			actor = 601081,
-			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 601081,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そんなことより指揮官も整理手伝って！山積みになってるよ！",
 			painting = {
 				alpha = 0.3,
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "彼女が撮った写真を一通りを目を通していく。",
 			typewriter = {
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "――母港で話題のニュース…になるかどうかはともかく、「目を引く」という点では十分撮れ高がある。",
 			typewriter = {
@@ -225,10 +225,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふっふっふー、写真の隣には、やっぱウワサ話を置いたほうがもっと人を集められるよね！",
 			painting = {
 				alpha = 0.3,
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "しかし、これほど写真を撮っていたとは思わなかった。ほとんどいつ撮ったものかすら気づかなかった…",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "もしかしたら彼女の何かしらの「特技」か…うん。これからはアルフレードの取材にもっと「用心」しないと。",
 			typewriter = {
@@ -263,10 +263,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、そろそろ全部目を通した？ええと……",
 			painting = {
 				alpha = 0.3,
@@ -281,10 +281,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "次号の『母港ジャーナル』トップ記事のタイトルを考えてみない？",
 			painting = {
 				alpha = 0.3,
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 601081,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601081,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "へーきへーき！真面目な情報誌じゃないから、気軽にいこうよ！",
 			painting = {
 				alpha = 0.3,
@@ -316,10 +316,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601081,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「アルフレードのジャーナリスト体験入門」だと思って、読者目線でタイトルを付けていいからね！",
 			painting = {
 				alpha = 0.3,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "ジャーナリストになる気はまったくないが、まあここまで言われたら――",
 			typewriter = {
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			optionFlag = 1,
 			say = "アルフレードらしいと言えばアルフレードらしいが…",
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			optionFlag = 2,
 			say = "これで褒められても複雑だが…",
@@ -459,12 +459,12 @@ return {
 			}
 		},
 		{
-			actor = 601081,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601081,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、サンキュー！アルフレードのスクープジャーナル、楽しみに待っててね！",
 			painting = {
 				alpha = 0.3,

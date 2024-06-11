@@ -1,12 +1,12 @@
 return {
-	id = "W3000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W3000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "這是？謎題空間？",
 			typewriter = {
 				speed = 0.05,

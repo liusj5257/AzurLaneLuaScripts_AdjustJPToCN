@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 80,
 					weaponRange = 80,
+					bulletRange = 80,
 					index = {
 						3
 					}
@@ -39,8 +39,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 80,
 					weaponRange = 80,
+					bulletRange = 80,
 					index = {
 						3
 					}
@@ -71,8 +71,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 80,
 					weaponRange = 80,
+					bulletRange = 80,
 					index = {
 						3
 					}
@@ -103,8 +103,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 80,
 					weaponRange = 80,
+					bulletRange = 80,
 					index = {
 						3
 					}
@@ -135,8 +135,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 80,
 					weaponRange = 80,
+					bulletRange = 80,
 					index = {
 						3
 					}
@@ -167,8 +167,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 80,
 					weaponRange = 80,
+					bulletRange = 80,
 					index = {
 						3
 					}
@@ -199,8 +199,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 80,
 					weaponRange = 80,
+					bulletRange = 80,
 					index = {
 						3
 					}
@@ -231,8 +231,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 80,
 					weaponRange = 80,
+					bulletRange = 80,
 					index = {
 						3
 					}
@@ -263,8 +263,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 80,
 					weaponRange = 80,
+					bulletRange = 80,
 					index = {
 						3
 					}
@@ -295,8 +295,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					bulletRange = 80,
 					weaponRange = 80,
+					bulletRange = 80,
 					index = {
 						3
 					}
@@ -319,14 +319,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 13342,
 	picture = "",
 	desc = "副炮射程提升，装备效率提高",
 	stack = 1,
-	id = 13342,
+	color = "red",
 	icon = 13340,
 	last_effect = "",
 	effect_list = {
@@ -336,8 +336,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				bulletRange = 80,
 				weaponRange = 80,
+				bulletRange = 80,
 				index = {
 					3
 				}

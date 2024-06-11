@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING37-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING37-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_underheaven_cg9",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
-			say = "指揮艦のモニターに、偽りの「神」の本体がはっきりと見える。",
 			bgm = "story-thehierophantV",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "指揮艦のモニターに、偽りの「神」の本体がはっきりと見える。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -36,11 +36,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#a020f0",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "メンフィス·META",
-			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "…ダメね。今の攻撃ではあの防御を貫けない",
 			painting = {
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -70,8 +70,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#a020f0",
 			actorName = "メンフィス·META",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "心当たり？あるにはあるけど…",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#a020f0",
 			actorName = "メンフィス·META",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "こっちが持っている情報だと、あの少女は「アビータ・Hierophant・V」だと思うわ",
 			painting = {
@@ -106,11 +106,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#a020f0",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "メンフィス·META",
-			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "でも識別システムに諸元と調査データを入力しても「ハイエロファント」だって識別されないの",
 			painting = {
@@ -128,8 +128,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#a020f0",
 			actorName = "メンフィス·META",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "あの見た目はそもそも偽装なのか、それとも何かが「ハイエロファント」のボディを操っているのか…",
 			painting = {
@@ -145,11 +145,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#a020f0",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "メンフィス·META",
-			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "後者なら、たぶんそれこそが偽りの「神」なのね…",
 			painting = {
@@ -167,8 +167,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "飛龍(META)",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "ぼくも同感です",
 			painting = {
@@ -186,8 +186,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "飛龍(META)",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "「余燼」は「ハイエロファント」と何回か相対したことがあります。あいつは「アビータ」の中でも話ができる方で",
 			painting = {
@@ -203,11 +203,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "飛龍(META)",
-			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "この「神」は誰かに操られたスペアボディの可能性が高いと思います",
 			painting = {
@@ -225,8 +225,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "飛龍(META)",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "……それともうひとつ、この敵からは嫌な予感がします",
 			painting = {
@@ -244,8 +244,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "飛龍(META)",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "本体だけではありません…あのドロイドも、小型の敵も、謎の物質も……",
 			painting = {
@@ -263,8 +263,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "飛龍(META)",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "嫌な予感がするのは別に珍しくありませんが、今回は余計にです",
 			painting = {
@@ -280,11 +280,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "飛龍(META)",
-			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "もしかしたらあいつこそが…「触れてはいけない」存在なのかもですね",
 			painting = {
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -336,11 +336,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "マルセイエーズ",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官、いつ総攻撃を開始しますか？",
 			painting = {
@@ -356,11 +356,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "マルセイエーズ",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……あの少女はアイリスの大切なものを持っています。奪い返さなければなりません",
 			painting = {
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -390,8 +390,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "ジャン·バール",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "聖座の冠だ。マルコ・ポーロと一緒に海に落ちたはずだが、まさかあの怪物に回収されていたとは…",
 			painting = {
@@ -407,11 +407,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "マルセイエーズ",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "マルコ・ポーロの功罪はともかくとして、「冠」を汚されたままにはできません",
 			painting = {
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -442,8 +442,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -454,8 +454,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -466,8 +466,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -493,10 +493,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			say = "魘され続けた悪夢の中で何度も現れた存在。",
 			effects = {
@@ -514,11 +514,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "メンフィス",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官？！ど、どうしたの…顔色が悪いわ…",
 			painting = {
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,

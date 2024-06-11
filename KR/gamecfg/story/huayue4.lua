@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUAYUE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUAYUE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"꽃말\n\n<size=45>4. 소녀의 진실한 마음</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-richang-7",
 			bgName = "star_level_bg_103",
 			say = "얼마나 지났을까…. 그녀가 심었던 라일락과 자스민은 잘 자라고 있으려나?",
-			bgm = "story-richang-7",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "하나즈키와의 약속이 떠올라 나도 모르게 발걸음이 화방을 향했다.",
 			typewriter = {
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_142",
 			say = "향기로운 꽃향기가 은은한 노랫소리와 함께 가까워진다——",
 			typewriter = {
@@ -64,17 +64,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -91,11 +91,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "꽃이여~♫ 꽃이여~♫",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,11 +115,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "사흘 만에 온 세상이 벚꽃으로 가득하다네~♫",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,20 +138,20 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			bgName = "star_level_bg_142",
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "…지휘관님! 하나즈키와 꽃구경을 하러 오신 거예요!?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -280,8 +280,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_142",
 			say = "시원한 바람과 햇살을 느끼며 하나즈키와 함께 꽃바다를 거닐었다.",
 			typewriter = {
@@ -289,17 +289,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -316,11 +316,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "지휘관님, 전에 같이 심었던 라일락과 자스민도 무럭무럭 자라고 있답니다.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,9 +337,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "하나즈키가 옆에서 푸른 기운을 내뿜고 있는 두 개의 꽃을 가리켰다——  물론, 아직 실제로 꽃이 피기까지는 많은 시간이 필요하겠지만.",
 			typewriter = {
 				speed = 0.05,
@@ -356,11 +356,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "저 두 꽃은 지휘관님의 도움으로 지금처럼 꽃밭에서 자랄 수 있게 되었답니다.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,13 +377,13 @@ return {
 			}
 		},
 		{
-			actor = 301820,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "하나즈키는 모든 꽃은 대체할 수 없는 고유한 특성이 있다고 생각해요.",
 			hidePaintEquip = true,
+			actor = 301820,
+			nameColor = "#A9F548FF",
+			say = "하나즈키는 모든 꽃은 대체할 수 없는 고유한 특성이 있다고 생각해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,11 +403,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "어떤 꽃들은 빨리 자라서 금방 눈부시게 빛나지만… 또 어떤 꽃들은 찬란한 순간을 위해 구석진 곳에서 힘을 비축하죠.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,11 +427,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "하지만 어느 꽃이든 때가 되면 모두 아름다운 꽃을 피울 수 있답니다.",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,11 +511,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "지휘관님, 목 안 마르세요~? 제가 꽃차를 준비해놨는데, 방에 가서 맛보시겠어요?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,11 +535,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 301820,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301820,
 			nameColor = "#A9F548FF",
 			say = "아! 그 전에 이것부터 받아주세요….",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,9 +556,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "하나즈키가 갑자기 예쁜 코스모스 한 송이를 건넸고, 핑크빛 꽃잎이 햇빛에 더욱 빛이 났다.",
 			typewriter = {
 				speed = 0.05,
@@ -572,9 +572,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "저번에 하나즈키의 잠꼬대를 들은 뒤에 조금 찾아봤는데….",
 			typewriter = {
 				speed = 0.05,
@@ -588,9 +588,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
+			side = 2,
 			say = "내 기억으로 코스모스의 꽃말은——",
 			typewriter = {
 				speed = 0.05,

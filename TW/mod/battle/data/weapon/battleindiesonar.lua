@@ -12,17 +12,17 @@ slot9 = class("BattleIndieSonar")
 slot0.Battle.BattleIndieSonar = slot9
 slot9.__name = "BattleIndieSonar"
 
-function slot9.Ctor(slot0, slot1, slot2, slot3)
+slot9.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._fleetVO = slot1
 	slot0._range = 180
 	slot0._duration = slot3
 end
 
-function slot9.SwitchHost(slot0, slot1)
+slot9.SwitchHost = function(slot0, slot1)
 	slot0._host = slot1
 end
 
-function slot9.Detect(slot0)
+slot9.Detect = function(slot0)
 	slot0._snoarStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 
 	for slot5, slot6 in ipairs(slot0:FilterTarget()) do
@@ -34,7 +34,7 @@ function slot9.Detect(slot0)
 	slot0._fleetVO:DispatchSonarScan(true)
 end
 
-function slot9.Update(slot0, slot1)
+slot9.Update = function(slot0, slot1)
 	if slot1 > slot0._snoarStartTime + slot0._duration then
 		slot0._detectedList = nil
 
@@ -42,7 +42,7 @@ function slot9.Update(slot0, slot1)
 	end
 end
 
-function slot9.FilterTarget(slot0)
+slot9.FilterTarget = function(slot0)
 	return uv0.TargetDiveState(slot0._host, {
 		diveState = uv1.OXY_STATE.DIVE
 	}, uv0.LegalTarget(slot0._host))

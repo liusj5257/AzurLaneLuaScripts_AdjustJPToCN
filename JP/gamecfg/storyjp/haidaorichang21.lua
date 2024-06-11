@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG21",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"潮風と夏の無人島\n\n<size=45>先取り温泉郷？</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
-			say = "久々に吹雪が見つけた天然温泉に訪れると、そこにはとある看板が立てられていた――",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-4",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "久々に吹雪が見つけた天然温泉に訪れると、そこにはとある看板が立てられていた――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "看板",
+			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "ご丁寧に明石の似顔絵も添えられている。どうやら例の温泉施設はまだ完成していないようだ。",
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "踵を返し帰ろうとすると、背中から聞き馴染みのある声が聞こえた――",
@@ -96,10 +96,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あいにく、まだ準備中ですわ",
 			painting = {
 				alpha = 0.3,
@@ -111,12 +111,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふ、でも急いで帰らなくても大丈夫ですわよ。指・揮・官・様♡",
 			painting = {
 				alpha = 0.3,
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "状況が掴めず首を傾げてみると――",
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "次の瞬間、満面の笑みを浮かべた赤城がピタッと傍に寄ってきていた。",
@@ -153,10 +153,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官様のような大切なお客様には、「優待」が受けられますもの",
 			painting = {
 				alpha = 0.3,
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よかったら、赤城についてきてくださいませ♪",
 			painting = {
 				alpha = 0.3,
@@ -185,8 +185,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "「よかったら」とは言っていたが、すでに腕をガッツリと絡めとられている……",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "ここは素直についていくとしよう…",
@@ -207,27 +207,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_167",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_167",
 			say = "赤城と腕を組んで、薄暗い小道をしばらく歩くと――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -235,8 +235,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			say = "何やら甘そうなアロマの匂いがしてきた。",
@@ -249,10 +249,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふ、もうすぐですわ。指揮官様",
 			painting = {
 				alpha = 0.3,
@@ -264,8 +264,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			say = "通路をもう少し進むと視界がひらけ、湯気に包まれた大浴場に入った。",
@@ -275,8 +275,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			say = "ここだけ完成しているのか…？",
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			say = "透き通った湯には桃色の花びらが浮かんでいて、辺りの装飾も繊細で趣がある。",
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			say = "恐らくここが赤城の言っていた「優待」だろう。",
@@ -308,12 +308,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官様、ご気分はいかがですか？",
 			painting = {
 				alpha = 0.3,
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			say = "…さっきから漂っている香りの影響か、心なしか体がだんだん火照ってきたような…",
@@ -336,8 +336,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			say = "その香りはまさか…",
@@ -352,12 +352,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふ、そろそろお脱ぎしてはどうです？",
 			painting = {
 				alpha = 0.3,
@@ -372,10 +372,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なんだか理解が追い付いていない様子ですわね…指揮官様は温泉に入浴しに来たんじゃありませんか～？",
 			painting = {
 				alpha = 0.3,
@@ -387,8 +387,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			say = "甘い匂いに直で当てられたせいか、頭がどんどんクラクラし、状況を冷静に考えられなくなっていく。",
@@ -401,10 +401,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あら、これは赤城が手伝ったほうがよさそうですね♡",
 			painting = {
 				alpha = 0.3,
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -428,8 +428,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -440,8 +440,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -452,8 +452,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			say = "遠のいていく意識の中で、通路の方向からガヤガヤ聞こえてきた。",
@@ -466,10 +466,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…ちっ。資材集めに行かせて人払いしたというのに…",
 			painting = {
 				alpha = 0.3,
@@ -481,8 +481,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			say = "だんだんと近づいてくる声は…翔鶴と瑞鶴？",
@@ -492,8 +492,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			say = "…それととても特徴的な喋り方の猫もいるようだ。",
@@ -503,12 +503,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ！！指揮官、やっぱここにいたのね！",
 			painting = {
 				alpha = 0.3,
@@ -525,12 +525,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふ、赤城先輩～何をしているんですかね～？",
 			painting = {
 				alpha = 0.3,
@@ -542,8 +542,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			say = "………とんでもない展開になっているようだ。",
@@ -556,10 +556,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……せっかくの雰囲気が台無しですわ",
 			painting = {
 				alpha = 0.3,
@@ -574,10 +574,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官様と二人っきりでいたかったのに…残念ですわ",
 			painting = {
 				alpha = 0.3,
@@ -592,10 +592,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はぁ…もう見ての通りこの状況ですわ。指揮官様、どうなさいます？",
 			painting = {
 				alpha = 0.3,
@@ -636,13 +636,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "えっ。ええええ？！",
 			painting = {
 				alpha = 0.3,
@@ -665,13 +665,13 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これほどの機転ができるなんて、さすがは指揮官ですね♪",
 			painting = {
 				alpha = 0.3,
@@ -708,13 +708,13 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "star_level_bg_167",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 307010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "五航戦、指揮官様のご厚意を台無しにするとは言わないでしょうね？",
 			painting = {
 				alpha = 0.3,
@@ -726,8 +726,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			hidePaintObj = true,
 			optionFlag = 2,

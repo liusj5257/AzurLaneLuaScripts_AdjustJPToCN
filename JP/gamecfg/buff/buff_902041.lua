@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -22,8 +22,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageToArmorRateEnhance_1",
 				number = -0.05,
+				attr = "damageToArmorRateEnhance_1",
 				index = {
 					1
 				}
@@ -35,8 +35,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageToArmorRateEnhance_3",
 				number = 0.05,
+				attr = "damageToArmorRateEnhance_3",
 				index = {
 					1
 				}

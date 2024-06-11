@@ -9,9 +9,9 @@ return {
 			style = {
 				text = "G.M시스템 우측 하단의 버튼을 터치하여 분석 모드 진입 가능",
 				mode = 2,
-				posY = -126,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -126,
 				posX = 540
 			},
 			ui = {
@@ -20,11 +20,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = -50,
+					rotateY = 180,
 					posY = -50,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 180
+					posX = -50
 				}
 			}
 		},
@@ -46,8 +46,8 @@ return {
 				{
 					notify = "world focus event",
 					body = {
-						eventId = 20250,
-						stayTime = 0.1
+						stayTime = 0.1,
+						eventId = 20250
 					}
 				}
 			}
@@ -107,8 +107,8 @@ return {
 				{
 					notify = "world focus event",
 					body = {
-						eventId = 20251,
-						stayTime = 0.1
+						stayTime = 0.1,
+						eventId = 20251
 					}
 				}
 			}
@@ -165,9 +165,9 @@ return {
 			style = {
 				text = "좌측 상단 버튼을 터치하여 분석기 모드 퇴장 가능",
 				mode = 2,
-				posY = 223.43,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 223.43,
 				posX = -628.88
 			},
 			ui = {
@@ -176,11 +176,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 155.02,
+					rotateY = 0,
 					posY = -72.98,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 155.02
 				}
 			}
 		},

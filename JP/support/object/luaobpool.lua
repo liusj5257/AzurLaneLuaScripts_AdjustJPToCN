@@ -3,7 +3,7 @@ slot1 = require("Mgr/Pool/PoolUtil")
 slot2 = class("LuaObPool")
 pg.LuaObPool = slot2
 
-function slot2.Ctor(slot0, slot1, slot2, slot3)
+slot2.Ctor = function(slot0, slot1, slot2, slot3)
 	assert(slot1.Init, "template should have func Init")
 	assert(slot1.Recycle, "template should have func Recycle")
 	assert(slot1.Dispose, "template should have func Dispose")
@@ -20,7 +20,7 @@ function slot2.Ctor(slot0, slot1, slot2, slot3)
 	slot0.usedEnd = 0
 end
 
-function slot2.GetObject(slot0)
+slot2.GetObject = function(slot0)
 	slot3 = nil
 
 	if slot0.usedEnd >= #slot0.list then
@@ -37,7 +37,7 @@ function slot2.GetObject(slot0)
 	return slot3
 end
 
-function slot2.Recycle(slot0, slot1)
+slot2.Recycle = function(slot0, slot1)
 	slot4 = slot0.list
 
 	slot1:Recycle()
@@ -53,11 +53,11 @@ function slot2.Recycle(slot0, slot1)
 	slot0.usedEnd = slot3 - 1
 end
 
-function slot2.UpdateInfo(slot0, slot1, slot2)
+slot2.UpdateInfo = function(slot0, slot1, slot2)
 	slot0.info[slot1] = slot2
 end
 
-function slot2.Dispose(slot0)
+slot2.Dispose = function(slot0)
 	for slot4, slot5 in ipairs(slot0.list) do
 		slot5:Dispose()
 	end

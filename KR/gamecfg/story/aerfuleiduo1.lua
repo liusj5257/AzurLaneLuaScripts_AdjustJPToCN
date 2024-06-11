@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AERFULEIDUO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AERFULEIDUO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<모항 비화> 특별판\n\n<size=45>1.활발한 특종 기자！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			say = "지휘실, 여느 때와 다름없는 평범한 아침——",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
+			say = "지휘실, 여느 때와 다름없는 평범한 아침——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "내가 책상에 앉기도 전에 손에는 이미 알프레도가 끼워준 <모항 비화>라는 최신 신문집이 쥐어져 있다.",
 			typewriter = {
@@ -59,10 +59,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "음흥흥~ 아침에는 역시 각종 가십거리들이 있어야 피곤함도 가시고 업무도 효율적일 것 같아~그렇지, 지휘관?",
 			painting = {
 				alpha = 0.3,
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -84,8 +84,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "그래, 최근에 비서함은 이 활기가 넘치는 기자 알프레도가 되었다.",
 			typewriter = {
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "굳이 말하자면 그녀 스스로 비서함이 되겠다고 떼를 썼는데... 그 이유는 평소 구하기 힘든 각종 소재를 쉽게 입수할 수 있어서였다고 한다.",
 			typewriter = {
@@ -107,10 +107,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관, 어서 펼쳐 봐봐! 이번 호는 네 특집이라고, 분명 깜짝 놀랄 걸?",
 			painting = {
 				alpha = 0.3,
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "...뭔가 불길한 예감이 든다.",
 			typewriter = {
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "\"첫 공개! 지휘관의 주간 스케줄과 휴식 배분!\"",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "\"지휘실의 비밀 이야기! 진실은 역시 항상 뒤에 숨어 있는 것일까?\"",
 			typewriter = {
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "\"모항 업무 계획 집중 탐구! 사랑받는 지휘관의 하루 일상은?\"",
 			typewriter = {
@@ -175,10 +175,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어때, <모항 비화 특별편 - 지휘관 일상 대폭로> 주제로는 훌륭하지 않아?",
 			painting = {
 				alpha = 0.3,
@@ -193,10 +193,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "헤헤, 이번 호의 모항 비화의 인기가 또 신기록을 찍겠군?",
 			painting = {
 				alpha = 0.3,
@@ -208,8 +208,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "………….",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "왠지 골치가 좀 아프면서도 그녀의 능력에 감탄했다.",
 			typewriter = {
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "모두 비서함 업무 중 사소한 일인데도 그녀가 '가공'하면 눈길을 끄는 신문기사 될 수 있다니….",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "칭찬해야 할지 주의를 줘야 할지 모르겠다.",
 			typewriter = {
@@ -251,10 +251,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흥흥, 지휘관은 기사 쓸 때 가장 어려운 부분이 뭔지 알아?",
 			painting = {
 				alpha = 0.3,
@@ -394,8 +394,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -423,12 +423,12 @@ return {
 			}
 		},
 		{
-			actor = 601080,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "뉴스는 지금 이 순간에도 끊임 없이 발생한다고! 우리에게 뉴스가 부족했던 적은 단 한 번도 없어, 단지 이슈를 발견하는 눈이 부족할 뿐!",
 			painting = {
 				alpha = 0.3,
@@ -440,8 +440,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "주변의 뉴스라…. 왠지 앞으로도 그녀의 뉴스 속 단골손님이 될 것 같군. 어쩔 수 없지, 적응할 방법을 찾을 수밖에.",
 			typewriter = {

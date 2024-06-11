@@ -1,15 +1,15 @@
 return {
-	id = "WORLD205A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD205A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-french1",
 			say = "NA海域核心區域外圍·第二處前哨站作業海域",
+			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,12 +20,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "大家注意就是這裡了！只要在向前接近一點點，妳們看————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 202110,
+			nameColor = "#a9f548",
+			say = "大家注意就是這裡了！只要在向前接近一點點，妳們看————",
 			flashN = {
 				color = {
 					1,
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "愛丁堡突然向著前方看起來毫無異狀的海面上空開了一炮。",
 			typewriter = {
 				speed = 0.05,
@@ -101,12 +101,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "還不只這樣哦，我用相同的角度在相同的位置再開一炮，大家看————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 202110,
+			nameColor = "#a9f548",
+			say = "還不只這樣哦，我用相同的角度在相同的位置再開一炮，大家看————",
 			flashN = {
 				color = {
 					1,
@@ -216,9 +216,9 @@ return {
 		{
 			expression = 14,
 			side = 2,
+			dir = 1,
 			actor = 203040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "所以這次真的不是我想摸魚哦！出現這種異常狀況，浮動船塢的很多機能都無法正常運作了，搭建工作根本無法順利展開。",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -273,8 +273,8 @@ return {
 			expression = 9,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			say = "這麼說...果然......不再進去一次不行嗎...？",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"前進吧，{namecode:144}！\n\n<size=45>五 慌亂的{namecode:144}</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 303090,
-			side = 2,
-			bgmDelay = 2,
-			nameColor = "#a9f548",
-			dir = 1,
 			blackBg = true,
-			say = "“心中的故鄉”…我一直在意的東西…沒有什麼頭緒啊",
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
 			bgm = "story-2",
+			actor = 303090,
+			nameColor = "#a9f548",
+			say = "“心中的故鄉”…我一直在意的東西…沒有什麼頭緒啊",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,10 +54,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "算了，現在不是該煩惱這個的時候。",
 			typewriter = {
 				speed = 0.05,
@@ -88,10 +88,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "自從有了{namecode:63}姐的指導，秘書艦的工作變得越來越得心應手了。",
 			typewriter = {
 				speed = 0.05,
@@ -105,10 +105,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "指揮官看起來也很高興，真的是太好了呢",
 			typewriter = {
 				speed = 0.05,
@@ -122,10 +122,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "要是能這樣保持下去的話，指揮官一定會更加關注我的吧…",
 			typewriter = {
 				speed = 0.05,
@@ -139,10 +139,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "然後就能…咦……？就能怎麼樣呢……？",
 			typewriter = {
 				speed = 0.05,
@@ -156,10 +156,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "唔唔，今天的訓練好累……感覺要睡著了……",
 			typewriter = {
 				speed = 0.05,
@@ -171,16 +171,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			actorName = "？？？",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "？？？",
+			nameColor = "#a9f548",
 			say = "居然真的還在睡……這樣睡下去可不行啊！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -205,11 +205,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "？？？",
 			say = "喂，{namecode:144}，趕緊起來啦！",
 			dialogShake = {
 				speed = 0.09,
@@ -228,10 +228,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "唔唔……怎麼了……是緊急任務嗎……",
 			typewriter = {
 				speed = 0.05,
@@ -248,9 +248,9 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
+			bgm = "story-1",
 			actor = 303090,
 			say = "啊已經這個時間了嗎！",
-			bgm = "story-1",
 			flashN = {
 				color = {
 					1,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -294,8 +294,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "要、要遲到了！（手忙腳亂）衣，衣服穿反了？怎麼會這樣？頭髮、頭髮…平時都是{namecode:63}姐幫我弄的……",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,8 +321,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "指揮官要是看到我這副樣子的話，一定會……",
 			typewriter = {
@@ -354,10 +354,10 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 303090,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "{namecode:124}、{namecode:124}前輩？妳怎麼會在這裡？",
+			dir = 1,
+			actor = 303090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -423,8 +423,8 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "……抱歉",
 			typewriter = {
@@ -504,8 +504,8 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "欸？那，那是因為——",
 			typewriter = {
@@ -534,15 +534,15 @@ return {
 			}
 		},
 		{
-			actor = 303090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -570,8 +570,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（我在意指揮官的看法？等等，我為什麼對指揮官這麼在意……）",
 			typewriter = {
@@ -587,9 +587,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（難道說，其實我……）",
 			typewriter = {

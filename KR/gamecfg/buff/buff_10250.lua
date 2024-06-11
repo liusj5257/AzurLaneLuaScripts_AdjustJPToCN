@@ -62,12 +62,12 @@ return {
 	desc_get = "炮击有5%概率发动，8秒内自身机动提升30.0%(满级60.0%)",
 	name = "标枪突袭",
 	init_effect = "",
+	id = 10250,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "炮击有5%概率发动，8秒内自身机动提升$1",
 	stack = 1,
-	id = 10250,
+	color = "blue",
 	icon = 10250,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				rant = 500,
-				target = "TargetSelf",
 				skill_id = 10250,
+				target = "TargetSelf",
 				time = 5
 			}
 		}

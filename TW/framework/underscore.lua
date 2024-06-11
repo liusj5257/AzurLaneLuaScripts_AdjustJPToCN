@@ -3,18 +3,18 @@ slot0 = {
 	__index = slot0
 }
 
-function slot0.__call(slot0, slot1)
+slot0.__call = function(slot0, slot1)
 	return uv0:new(slot1)
 end
 
-function slot0.new(slot0, slot1, slot2)
+slot0.new = function(slot0, slot1, slot2)
 	return setmetatable({
 		_val = slot1,
 		chained = slot2 or false
 	}, slot0)
 end
 
-function slot0.iter(slot0)
+slot0.iter = function(slot0)
 	if type(slot0) == "function" then
 		return slot0
 	end
@@ -26,7 +26,7 @@ function slot0.iter(slot0)
 	end)
 end
 
-function slot0.range(slot0, slot1, slot2)
+slot0.range = function(slot0, slot1, slot2)
 	if slot1 == nil then
 		slot1 = slot0
 		slot0 = 1
@@ -41,21 +41,21 @@ function slot0.range(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.identity(slot0)
+slot0.identity = function(slot0)
 	return slot0
 end
 
-function slot0.chain(slot0)
+slot0.chain = function(slot0)
 	slot0.chained = true
 
 	return slot0
 end
 
-function slot0.value(slot0)
+slot0.value = function(slot0)
 	return slot0._val
 end
 
-function slot0.funcs.each(slot0, slot1)
+slot0.funcs.each = function(slot0, slot1)
 	for slot5 in uv0.iter(slot0) do
 		slot1(slot5)
 	end
@@ -63,7 +63,7 @@ function slot0.funcs.each(slot0, slot1)
 	return slot0
 end
 
-function slot0.funcs.map(slot0, slot1)
+slot0.funcs.map = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6 in uv0.iter(slot0) do
@@ -73,7 +73,7 @@ function slot0.funcs.map(slot0, slot1)
 	return slot2
 end
 
-function slot0.funcs.reduce(slot0, slot1, slot2)
+slot0.funcs.reduce = function(slot0, slot1, slot2)
 	for slot6 in uv0.iter(slot0) do
 		slot1 = slot2(slot1, slot6)
 	end
@@ -81,7 +81,7 @@ function slot0.funcs.reduce(slot0, slot1, slot2)
 	return slot1
 end
 
-function slot0.funcs.detect(slot0, slot1)
+slot0.funcs.detect = function(slot0, slot1)
 	for slot5 in uv0.iter(slot0) do
 		if slot1(slot5) then
 			return slot5
@@ -91,7 +91,7 @@ function slot0.funcs.detect(slot0, slot1)
 	return nil
 end
 
-function slot0.funcs.select(slot0, slot1)
+slot0.funcs.select = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6 in uv0.iter(slot0) do
@@ -103,7 +103,7 @@ function slot0.funcs.select(slot0, slot1)
 	return slot2
 end
 
-function slot0.funcs.reject(slot0, slot1)
+slot0.funcs.reject = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6 in uv0.iter(slot0) do
@@ -115,7 +115,7 @@ function slot0.funcs.reject(slot0, slot1)
 	return slot2
 end
 
-function slot0.funcs.all(slot0, slot1)
+slot0.funcs.all = function(slot0, slot1)
 	slot1 = slot1 or uv0.identity
 
 	for slot5 in uv0.iter(slot0) do
@@ -127,7 +127,7 @@ function slot0.funcs.all(slot0, slot1)
 	return true
 end
 
-function slot0.funcs.any(slot0, slot1)
+slot0.funcs.any = function(slot0, slot1)
 	slot1 = slot1 or uv0.identity
 
 	for slot5 in uv0.iter(slot0) do
@@ -139,7 +139,7 @@ function slot0.funcs.any(slot0, slot1)
 	return false
 end
 
-function slot0.funcs.include(slot0, slot1)
+slot0.funcs.include = function(slot0, slot1)
 	for slot5 in uv0.iter(slot0) do
 		if slot5 == slot1 then
 			return true
@@ -149,7 +149,7 @@ function slot0.funcs.include(slot0, slot1)
 	return false
 end
 
-function slot0.funcs.invoke(slot0, slot1, ...)
+slot0.funcs.invoke = function(slot0, slot1, ...)
 	slot2 = packEx(...)
 
 	uv0.funcs.each(slot0, function (slot0)
@@ -159,13 +159,13 @@ function slot0.funcs.invoke(slot0, slot1, ...)
 	return slot0
 end
 
-function slot0.funcs.pluck(slot0, slot1)
+slot0.funcs.pluck = function(slot0, slot1)
 	return uv0.funcs.map(slot0, function (slot0)
 		return slot0[uv0]
 	end)
 end
 
-function slot0.funcs.min(slot0, slot1)
+slot0.funcs.min = function(slot0, slot1)
 	slot1 = slot1 or uv0.identity
 
 	return uv0.funcs.reduce(slot0, {}, function (slot0, slot1)
@@ -181,7 +181,7 @@ function slot0.funcs.min(slot0, slot1)
 	end).item
 end
 
-function slot0.funcs.max(slot0, slot1)
+slot0.funcs.max = function(slot0, slot1)
 	slot1 = slot1 or uv0.identity
 
 	return uv0.funcs.reduce(slot0, {}, function (slot0, slot1)
@@ -197,7 +197,7 @@ function slot0.funcs.max(slot0, slot1)
 	end).item
 end
 
-function slot0.funcs.to_array(slot0)
+slot0.funcs.to_array = function(slot0)
 	slot1 = {}
 
 	for slot5 in uv0.iter(slot0) do
@@ -207,7 +207,7 @@ function slot0.funcs.to_array(slot0)
 	return slot1
 end
 
-function slot0.funcs.reverse(slot0)
+slot0.funcs.reverse = function(slot0)
 	slot1 = {}
 
 	for slot5 in uv0.iter(slot0) do
@@ -217,7 +217,7 @@ function slot0.funcs.reverse(slot0)
 	return slot1
 end
 
-function slot0.funcs.sort(slot0, slot1)
+slot0.funcs.sort = function(slot0, slot1)
 	slot2 = slot0
 
 	if type(slot0) == "function" then
@@ -229,7 +229,7 @@ function slot0.funcs.sort(slot0, slot1)
 	return slot2
 end
 
-function slot0.funcs.first(slot0, slot1)
+slot0.funcs.first = function(slot0, slot1)
 	if slot1 == nil then
 		return slot0[1]
 	else
@@ -243,7 +243,7 @@ function slot0.funcs.first(slot0, slot1)
 	end
 end
 
-function slot0.funcs.rest(slot0, slot1)
+slot0.funcs.rest = function(slot0, slot1)
 	slot1 = slot1 or 2
 	slot2 = {}
 
@@ -254,7 +254,7 @@ function slot0.funcs.rest(slot0, slot1)
 	return slot2
 end
 
-function slot0.funcs.slice(slot0, slot1, slot2)
+slot0.funcs.slice = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot1 = math.max(slot1, 1)
 
@@ -265,7 +265,7 @@ function slot0.funcs.slice(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.funcs.unfold(slot0, slot1)
+slot0.funcs.unfold = function(slot0, slot1)
 	if type(slot0) == "table" then
 		for slot5 in uv0.iter(slot0) do
 			uv0.funcs.unfold(slot5, slot1)
@@ -275,7 +275,7 @@ function slot0.funcs.unfold(slot0, slot1)
 	end
 end
 
-function slot0.funcs.flatten(slot0)
+slot0.funcs.flatten = function(slot0)
 	uv0.funcs.unfold(slot0, function (slot0)
 		uv0[#uv0 + 1] = slot0
 	end)
@@ -283,31 +283,31 @@ function slot0.funcs.flatten(slot0)
 	return {}
 end
 
-function slot0.funcs.push(slot0, slot1)
+slot0.funcs.push = function(slot0, slot1)
 	table.insert(slot0, slot1)
 
 	return slot0
 end
 
-function slot0.funcs.pop(slot0)
+slot0.funcs.pop = function(slot0)
 	return table.remove(slot0)
 end
 
-function slot0.funcs.shift(slot0)
+slot0.funcs.shift = function(slot0)
 	return table.remove(slot0, 1)
 end
 
-function slot0.funcs.unshift(slot0, slot1)
+slot0.funcs.unshift = function(slot0, slot1)
 	table.insert(slot0, 1, slot1)
 
 	return slot0
 end
 
-function slot0.funcs.join(slot0, slot1)
+slot0.funcs.join = function(slot0, slot1)
 	return table.concat(slot0, slot1)
 end
 
-function slot0.funcs.keys(slot0)
+slot0.funcs.keys = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0) do
@@ -317,7 +317,7 @@ function slot0.funcs.keys(slot0)
 	return slot1
 end
 
-function slot0.funcs.values(slot0)
+slot0.funcs.values = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0) do
@@ -327,7 +327,7 @@ function slot0.funcs.values(slot0)
 	return slot1
 end
 
-function slot0.funcs.extend(slot0, slot1)
+slot0.funcs.extend = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot1) do
 		slot0[slot5] = slot6
 	end
@@ -335,11 +335,11 @@ function slot0.funcs.extend(slot0, slot1)
 	return slot0
 end
 
-function slot0.funcs.is_empty(slot0)
+slot0.funcs.is_empty = function(slot0)
 	return next(slot0) == nil
 end
 
-function slot0.funcs.is_equal(slot0, slot1, slot2)
+slot0.funcs.is_equal = function(slot0, slot1, slot2)
 	if type(slot0) ~= type(slot1) then
 		return false
 	end
@@ -371,8 +371,8 @@ function slot0.funcs.is_equal(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.funcs.compose(...)
-	function slot0(slot0, ...)
+slot0.funcs.compose = function(...)
+	slot0 = function(slot0, ...)
 		if #slot0 > 1 then
 			return slot0[1](uv0(_.rest(slot0), ...))
 		else
@@ -389,19 +389,19 @@ function slot0.funcs.compose(...)
 	end
 end
 
-function slot0.funcs.wrap(slot0, slot1)
+slot0.funcs.wrap = function(slot0, slot1)
 	return function (...)
 		return uv0(uv1, ...)
 	end
 end
 
-function slot0.funcs.curry(slot0, slot1)
+slot0.funcs.curry = function(slot0, slot1)
 	return function (...)
 		return uv0(uv1, ...)
 	end
 end
 
-function slot0.functions()
+slot0.functions = function()
 	return uv0.keys(uv0.funcs)
 end
 
@@ -418,7 +418,7 @@ slot0.funcs.tail = slot0.funcs.rest
 slot0.funcs.contains = slot0.funcs.include
 
 (function ()
-	function slot0(slot0)
+	slot0 = function(slot0)
 		slot1 = false
 
 		if getmetatable(slot0) == uv0 then
@@ -429,7 +429,7 @@ slot0.funcs.contains = slot0.funcs.include
 		return slot0, slot1
 	end
 
-	function slot1(slot0, slot1)
+	slot1 = function(slot0, slot1)
 		if slot1 then
 			slot0 = uv0:new(slot0, true)
 		end

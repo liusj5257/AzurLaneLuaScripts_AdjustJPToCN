@@ -4,11 +4,11 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 307040,
 			side = 2,
 			actorName = "{namecode:94}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307040,
+			nameColor = "#ff0000",
 			say = "…",
 			shake = {
 				speed = 1,
@@ -24,11 +24,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			actorName = "{namecode:94}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307040,
+			nameColor = "#ff0000",
 			say = "So, the First Carrier Division and my sister have already...",
 			shake = {
 				speed = 1,
@@ -44,11 +44,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			actorName = "{namecode:94}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307040,
+			nameColor = "#ff0000",
 			say = "But I can't let it end like this... All squadrons, attack!!",
 			shake = {
 				speed = 1,
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			actorName = "{namecode:94}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307040,
+			nameColor = "#ff0000",
 			say = "I'll show you what the Second Carrier Division is made of! This is our final counterattack!",
 			shake = {
 				speed = 1,

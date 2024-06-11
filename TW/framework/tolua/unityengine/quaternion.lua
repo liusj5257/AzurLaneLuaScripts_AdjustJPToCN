@@ -26,7 +26,7 @@ slot21 = {
 slot22 = {}
 slot23 = tolua.initget(slot22)
 
-function slot22.__index(slot0, slot1)
+slot22.__index = function(slot0, slot1)
 	if uv0(uv1, slot1) == nil and uv0(uv2, slot1) ~= nil then
 		return slot2(slot0)
 	end
@@ -34,7 +34,7 @@ function slot22.__index(slot0, slot1)
 	return slot2
 end
 
-function slot22.__newindex(slot0, slot1, slot2)
+slot22.__newindex = function(slot0, slot1, slot2)
 	if slot1 == "eulerAngles" then
 		slot0:SetEuler(slot2)
 	else
@@ -42,7 +42,7 @@ function slot22.__newindex(slot0, slot1, slot2)
 	end
 end
 
-function slot22.New(slot0, slot1, slot2, slot3)
+slot22.New = function(slot0, slot1, slot2, slot3)
 	slot4 = {
 		x = slot0 or 0,
 		y = slot1 or 0,
@@ -57,7 +57,7 @@ end
 
 slot24 = slot22.New
 
-function slot22.__call(slot0, slot1, slot2, slot3, slot4)
+slot22.__call = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {
 		x = slot1 or 0,
 		y = slot2 or 0,
@@ -70,26 +70,26 @@ function slot22.__call(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot22.Set(slot0, slot1, slot2, slot3, slot4)
+slot22.Set = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.x = slot1 or 0
 	slot0.y = slot2 or 0
 	slot0.z = slot3 or 0
 	slot0.w = slot4 or 0
 end
 
-function slot22.Clone(slot0)
+slot22.Clone = function(slot0)
 	return uv0(slot0.x, slot0.y, slot0.z, slot0.w)
 end
 
-function slot22.Get(slot0)
+slot22.Get = function(slot0)
 	return slot0.x, slot0.y, slot0.z, slot0.w
 end
 
-function slot22.Dot(slot0, slot1)
+slot22.Dot = function(slot0, slot1)
 	return slot0.x * slot1.x + slot0.y * slot1.y + slot0.z * slot1.z + slot0.w * slot1.w
 end
 
-function slot22.Angle(slot0, slot1)
+slot22.Angle = function(slot0, slot1)
 	if uv0.Dot(slot0, slot1) < 0 then
 		slot2 = -slot2
 	end
@@ -97,7 +97,7 @@ function slot22.Angle(slot0, slot1)
 	return uv1(uv2(slot2, 1)) * 2 * 57.29578
 end
 
-function slot22.AngleAxis(slot0, slot1)
+slot22.AngleAxis = function(slot0, slot1)
 	slot2 = slot1:Normalize()
 	slot0 = slot0 * uv0
 	slot3 = uv1(slot0)
@@ -105,11 +105,11 @@ function slot22.AngleAxis(slot0, slot1)
 	return uv3(slot2.x * slot3, slot2.y * slot3, slot2.z * slot3, uv2(slot0))
 end
 
-function slot22.Equals(slot0, slot1)
+slot22.Equals = function(slot0, slot1)
 	return slot0.x == slot1.x and slot0.y == slot1.y and slot0.z == slot1.z and slot0.w == slot1.w
 end
 
-function slot22.Euler(slot0, slot1, slot2)
+slot22.Euler = function(slot0, slot1, slot2)
 	slot0 = slot0 * 0.0087266462599716
 	slot1 = slot1 * 0.0087266462599716
 	slot2 = slot2 * 0.0087266462599716
@@ -131,7 +131,7 @@ function slot22.Euler(slot0, slot1, slot2)
 	return slot6
 end
 
-function slot22.SetEuler(slot0, slot1, slot2, slot3)
+slot22.SetEuler = function(slot0, slot1, slot2, slot3)
 	if slot2 == nil and slot3 == nil then
 		slot2 = slot1.y
 		slot3 = slot1.z
@@ -155,7 +155,7 @@ function slot22.SetEuler(slot0, slot1, slot2, slot3)
 	return slot0
 end
 
-function slot22.Normalize(slot0)
+slot22.Normalize = function(slot0)
 	slot1 = slot0:Clone()
 
 	slot1:SetNormalize()
@@ -163,7 +163,7 @@ function slot22.Normalize(slot0)
 	return slot1
 end
 
-function slot22.SetNormalize(slot0)
+slot22.SetNormalize = function(slot0)
 	if slot0.x * slot0.x + slot0.y * slot0.y + slot0.z * slot0.z + slot0.w * slot0.w ~= 1 and slot1 > 0 then
 		slot1 = 1 / uv0(slot1)
 		slot0.x = slot0.x * slot1
@@ -173,7 +173,7 @@ function slot22.SetNormalize(slot0)
 	end
 end
 
-function slot22.FromToRotation(slot0, slot1)
+slot22.FromToRotation = function(slot0, slot1)
 	slot2 = uv0.New()
 
 	slot2:SetFromToRotation(slot0, slot1)
@@ -181,7 +181,7 @@ function slot22.FromToRotation(slot0, slot1)
 	return slot2
 end
 
-function slot22.SetFromToRotation1(slot0, slot1, slot2)
+slot22.SetFromToRotation1 = function(slot0, slot1, slot2)
 	if uv0.Dot(slot1:Normalize(), slot2:Normalize()) > -0.999999 then
 		slot6 = uv1((1 + slot5) * 2)
 		slot8 = uv0.Cross(slot3, slot4) * 1 / slot6
@@ -202,7 +202,7 @@ function slot22.SetFromToRotation1(slot0, slot1, slot2)
 	return slot0
 end
 
-function slot25(slot0, slot1)
+slot25 = function(slot0, slot1)
 	if slot0[1][1] + slot0[2][2] + slot0[3][3] > 0 then
 		slot3 = uv0(slot2 + 1)
 		slot1.w = 0.5 * slot3
@@ -241,7 +241,7 @@ function slot25(slot0, slot1)
 	end
 end
 
-function slot22.SetFromToRotation(slot0, slot1, slot2)
+slot22.SetFromToRotation = function(slot0, slot1, slot2)
 	if uv0.Dot(slot1:Normalize(), slot2:Normalize()) > 0.999999 then
 		slot0:Set(0, 0, 0, 1)
 	elseif slot3 < -0.999999 then
@@ -326,7 +326,7 @@ function slot22.SetFromToRotation(slot0, slot1, slot2)
 	end
 end
 
-function slot22.Inverse(slot0)
+slot22.Inverse = function(slot0)
 	slot1 = uv0.New()
 	slot1.x = -slot0.x
 	slot1.y = -slot0.y
@@ -336,7 +336,7 @@ function slot22.Inverse(slot0)
 	return slot1
 end
 
-function slot22.Lerp(slot0, slot1, slot2)
+slot22.Lerp = function(slot0, slot1, slot2)
 	slot2 = uv0(slot2, 0, 1)
 	slot3 = {
 		w = 1,
@@ -363,7 +363,7 @@ function slot22.Lerp(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot22.LookRotation(slot0, slot1)
+slot22.LookRotation = function(slot0, slot1)
 	if slot0:Magnitude() < 1e-06 then
 		error("error input forward to Quaternion.LookRotation" .. tostring(slot0))
 
@@ -434,14 +434,14 @@ function slot22.LookRotation(slot0, slot1)
 	end
 end
 
-function slot22.SetIdentity(slot0)
+slot22.SetIdentity = function(slot0)
 	slot0.x = 0
 	slot0.y = 0
 	slot0.z = 0
 	slot0.w = 1
 end
 
-function slot26(slot0, slot1, slot2)
+slot26 = function(slot0, slot1, slot2)
 	if slot0.x * slot1.x + slot0.y * slot1.y + slot0.z * slot1.z + slot0.w * slot1.w < 0 then
 		slot3 = -slot3
 		slot1 = uv0({
@@ -482,7 +482,7 @@ function slot26(slot0, slot1, slot2)
 	end
 end
 
-function slot22.Slerp(slot0, slot1, slot2)
+slot22.Slerp = function(slot0, slot1, slot2)
 	if slot2 < 0 then
 		slot2 = 0
 	elseif slot2 > 1 then
@@ -492,7 +492,7 @@ function slot22.Slerp(slot0, slot1, slot2)
 	return uv0(slot0, slot1, slot2)
 end
 
-function slot22.RotateTowards(slot0, slot1, slot2)
+slot22.RotateTowards = function(slot0, slot1, slot2)
 	if uv0.Angle(slot0, slot1) == 0 then
 		return slot1
 	end
@@ -500,11 +500,11 @@ function slot22.RotateTowards(slot0, slot1, slot2)
 	return uv2(slot0, slot1, uv1(1, slot2 / slot3))
 end
 
-function slot27(slot0, slot1)
+slot27 = function(slot0, slot1)
 	return uv0(slot0 - slot1) < 1e-06
 end
 
-function slot22.ToAngleAxis(slot0)
+slot22.ToAngleAxis = function(slot0)
 	if uv1(2 * uv0(slot0.w), 0) then
 		return slot1 * 57.29578, uv2.New(1, 0, 0)
 	end
@@ -519,7 +519,7 @@ slot29 = slot28 * 0.5
 slot31 = -0.0001
 slot32 = 2 * slot28 - 0.0001
 
-function slot33(slot0)
+slot33 = function(slot0)
 	if slot0.x < uv0 then
 		slot0.x = slot0.x + uv1
 	elseif uv2 < slot0.x then
@@ -539,7 +539,7 @@ function slot33(slot0)
 	end
 end
 
-function slot22.ToEulerAngles(slot0)
+slot22.ToEulerAngles = function(slot0)
 	if 2 * (slot0.y * slot0.z - slot0.w * slot0.x) < 0.999 then
 		if slot5 > -0.999 then
 			slot6 = uv0.New(-uv1(slot5), uv2(2 * (slot1 * slot3 + slot4 * slot2), 1 - 2 * (slot1 * slot1 + slot2 * slot2)), uv2(2 * (slot1 * slot2 + slot4 * slot3), 1 - 2 * (slot1 * slot1 + slot3 * slot3)))
@@ -566,11 +566,11 @@ function slot22.ToEulerAngles(slot0)
 	end
 end
 
-function slot22.Forward(slot0)
+slot22.Forward = function(slot0)
 	return slot0:MulVec3(uv0)
 end
 
-function slot22.MulVec3(slot0, slot1)
+slot22.MulVec3 = function(slot0, slot1)
 	slot2 = uv0.New()
 	slot3 = slot0.x * 2
 	slot4 = slot0.y * 2
@@ -591,7 +591,7 @@ function slot22.MulVec3(slot0, slot1)
 	return slot2
 end
 
-function slot22.__mul(slot0, slot1)
+slot22.__mul = function(slot0, slot1)
 	if uv0 == uv1(slot1) then
 		return uv0.New(slot0.w * slot1.x + slot0.x * slot1.w + slot0.y * slot1.z - slot0.z * slot1.y, slot0.w * slot1.y + slot0.y * slot1.w + slot0.z * slot1.x - slot0.x * slot1.z, slot0.w * slot1.z + slot0.z * slot1.w + slot0.x * slot1.y - slot0.y * slot1.x, slot0.w * slot1.w - slot0.x * slot1.x - slot0.y * slot1.y - slot0.z * slot1.z)
 	elseif uv2 == uv1(slot1) then
@@ -599,19 +599,19 @@ function slot22.__mul(slot0, slot1)
 	end
 end
 
-function slot22.__unm(slot0)
+slot22.__unm = function(slot0)
 	return uv0.New(-slot0.x, -slot0.y, -slot0.z, -slot0.w)
 end
 
-function slot22.__eq(slot0, slot1)
+slot22.__eq = function(slot0, slot1)
 	return uv0.Dot(slot0, slot1) > 0.999999
 end
 
-function slot22.__tostring(slot0)
+slot22.__tostring = function(slot0)
 	return "[" .. slot0.x .. "," .. slot0.y .. "," .. slot0.z .. "," .. slot0.w .. "]"
 end
 
-function slot23.identity()
+slot23.identity = function()
 	return uv0(0, 0, 0, 1)
 end
 

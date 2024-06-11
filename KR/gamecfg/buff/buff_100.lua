@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "单纵阵突入",
 	time = 0,
-	color = "yellow",
+	name = "单纵阵突入",
+	init_effect = "",
+	id = 100,
 	picture = "",
 	desc = "炮击和雷击提高15%，机动降低10%",
 	stack = 1,
-	id = 100,
+	color = "yellow",
 	icon = 100,
 	last_effect = "",
 	effect_list = {

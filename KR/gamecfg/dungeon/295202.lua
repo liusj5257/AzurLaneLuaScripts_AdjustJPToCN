@@ -7,8 +7,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 90,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -64,9 +64,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 294212,
+							moveCast = true,
 							score = 0,
 							delay = 0,
-							moveCast = true,
 							affix = true,
 							corrdinate = {
 								0,
@@ -79,10 +79,10 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 12,
 									switchTo = 1,
 									index = 0,
-									switchParam = 12,
+									switchType = 1,
 									setAI = 10001,
 									addWeapon = {
 										2042010,
@@ -90,9 +90,9 @@ return {
 									}
 								},
 								{
-									index = 1,
 									switchParam = 7,
 									switchTo = 2,
+									index = 1,
 									switchType = 1,
 									removeWeapon = {
 										2042010,
@@ -103,9 +103,9 @@ return {
 									}
 								},
 								{
-									index = 2,
 									switchParam = 18,
 									switchTo = 3,
+									index = 2,
 									switchType = 1,
 									removeWeapon = {
 										2042040
@@ -116,10 +116,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 5,
 									switchTo = 4,
 									index = 3,
-									switchParam = 5,
+									switchType = 1,
 									setAI = 100120,
 									removeWeapon = {
 										2042100,
@@ -149,10 +149,10 @@ return {
 									}
 								},
 								{
+									switchType = 1,
 									switchParam = 100,
 									switchTo = 6,
 									index = 5,
-									switchType = 1,
 									setAI = 100121,
 									addWeapon = {
 										2042200,
@@ -164,10 +164,10 @@ return {
 									}
 								},
 								{
+									switchType = 1,
 									switchParam = 100,
 									switchTo = 1,
 									index = 6,
-									switchType = 1,
 									setAI = 20006,
 									addWeapon = {
 										2042400,
@@ -185,8 +185,8 @@ return {
 							interval = 10,
 							onceNumber = 6,
 							formation = 10009,
-							delay = 0,
 							templateID = 2200903,
+							delay = 0,
 							totalNumber = 30,
 							weaponID = {},
 							attr = {

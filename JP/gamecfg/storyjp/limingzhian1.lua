@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "北方連合・某所",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			bgm = "blueocean-image",
+			say = "北方連合・某所",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "アヴローラじゃない！本当に久しぶりね",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "アヴローラも今回の作戦に参加するの？",
 			typewriter = {
@@ -124,8 +124,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "にしても、旧式の艦船のみで作戦を行うなんて本当に大丈夫？いくらクーちゃんたちが頑張っても…",
 			typewriter = {
@@ -156,9 +156,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_bsmlevel",
 			actor = 702020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "いや、近代化改修されても旧式は旧式だよねって",
 			flashout = {
@@ -205,8 +205,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "もちろんよ。ガラリと変わるほど改修するわけじゃないけど強くはなるわ！",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "（前の大戦以降の北方連合の子たちの艤装は元々例の怪しい技術を採用しているね。いい意味でも悪い意味でも）",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "ロイヤルとか普通にいるんじゃない？あとは…",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "うちにもあるかもしれないわよ？ほら、極地要塞とか、ベラルーシアたちが行ってたとことか",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "技術を使うかどうかは上層部の決定だし、なにより艤装と同じく相性もあるし",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "前の大戦だって、アヴローラがいなければアズールレーンは……………",
 			typewriter = {
@@ -403,8 +403,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "はいはーい。他の人はいないんだし別にいいじゃない…じゃあこの話はこれでおしまいね！",
 			typewriter = {
@@ -420,8 +420,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "それで、アヴローラはいつキューブのことを知ったの？",
 			typewriter = {
@@ -453,8 +453,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "まーたごまかすー！もうこの話はおしまい！",
 			typewriter = {
@@ -483,8 +483,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_story_bsmlevel",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -554,8 +554,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "今回調査対象となるセイレーンの施設、これは鉄血の掌握海域にギリギリ入っちゃってない？",
 			typewriter = {
@@ -571,8 +571,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "クーちゃんたちが勝手に侵入したらまずくない？",
 			typewriter = {
@@ -606,8 +606,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "つぎー！この施設の場所はどうやって知ったの？",
 			typewriter = {
@@ -641,8 +641,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "信頼できる情報提供者、ねぇ…",
 			typewriter = {
@@ -726,8 +726,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "つぎー！セイレーン施設に行くなら、クーちゃんとアヴローラだけじゃ心もとなくない？",
 			typewriter = {
@@ -761,8 +761,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "それってまた例の信頼できる情報提供者から？",
 			typewriter = {
@@ -932,8 +932,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "「あの施設を調査できるのはこのタイミングしかありません。お願いします、パーミャチさん、アヴローラさん」",
 			typewriter = {
@@ -1001,8 +1001,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "ソユーズのあの雰囲気、いつぶりかしら。普通はあんな「弱い」感じにはならないのに",
 			typewriter = {
@@ -1034,8 +1034,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "アヴローラ、どうしたの？",
 			typewriter = {
@@ -1064,12 +1064,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "（このただならぬ雰囲気…慎重に進むほうが良さそうですね…）",
 			typewriter = {
 				speed = 0.05,

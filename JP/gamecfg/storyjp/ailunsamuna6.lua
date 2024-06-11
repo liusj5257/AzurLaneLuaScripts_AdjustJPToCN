@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AILUNSAMUNA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AILUNSAMUNA6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"3つ星プレミアム恋物語\n\n<size=45>六 ご褒美？へのお礼について</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "買い出しの日以来、「全力を出す」という言葉通り、仕事におけるアレンの働きは見違えるようになった。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "買い出しの日以来、「全力を出す」という言葉通り、仕事におけるアレンの働きは見違えるようになった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "書類の整理？さっき終わったじゃない。指揮官ちゃんもしかしてボケてる？",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "えへへ、ここに置いてあるよ♪",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "全く、あたしに注意ばかりして自分の仕事を忘れちゃダメだぞー~",
 			typewriter = {
@@ -101,9 +101,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "今のアレンには、注意するどころか、むしろこっちが注意される側に回ったかのようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "楽しみだね～新しいスタンプセット！",
 			typewriter = {
@@ -148,9 +148,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………確かご褒美って「三つ星プレミアムマッサージチェア」だっけ…",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "キャンペーンをやってて、家具を購入すると特典でスタンプセットを貰えるんだって！",
 			effects = {
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 101450,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101450,
+			nameColor = "#a9f548",
 			say = "ずっと欲しかったけど高くて手が出せなかったんだよ～本当にありがとう！",
 			effects = {
 				{
@@ -207,9 +207,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "楽しみにしているのはやっぱりスタンプの方なんだな",
 			effects = {
 				{
@@ -227,15 +227,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "ご購入ありがとうにゃ～饅頭に執務室に送らせたから、あとで座り心地を確認してにゃ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,8 +263,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "ありがとう、明石！指揮官ちゃん！！",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -303,9 +303,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "頑張ってくれたアレンへの「ご褒美」だから、当然――",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "いつもお仕事を頑張っている指揮官ちゃんに決まってるじゃない！",
 			typewriter = {
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "なるほどにゃ！いつも忙しそうにしている指揮官への労いかにゃ？明石感心したにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

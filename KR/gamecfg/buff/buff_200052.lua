@@ -1,12 +1,12 @@
 return {
-	time = 1,
-	name = "2022武藏活动 特定我方角色获得3%属性加成",
 	init_effect = "",
+	name = "2022武藏活动 特定我方角色获得3%属性加成",
+	time = 1,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200052,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",

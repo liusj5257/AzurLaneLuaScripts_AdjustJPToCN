@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023意大利共斗 H难度 召唤大型沙尘龙卷-持续追踪",
 	cd = 0,
-	painting = 0,
-	id = 200485,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200485,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -23,27 +23,27 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 1.5,
+							switchType = 1,
 							switchTo = 2,
 							index = 0,
-							switchType = 1,
+							switchParam = 1.5,
 							setAI = 20006
 						},
 						{
-							switchType = 1,
+							switchParam = 12,
 							switchTo = 3,
 							index = 2,
-							switchParam = 12,
+							switchType = 1,
 							setAI = 70220,
 							addWeapon = {
 								3065306
 							}
 						},
 						{
-							switchType = 1,
+							switchParam = 300,
 							switchTo = 1,
 							index = 3,
-							switchParam = 300,
+							switchType = 1,
 							setAI = 20006,
 							addBuff = {
 								200440

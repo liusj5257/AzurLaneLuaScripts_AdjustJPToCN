@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-声望-主炮额外一轮攻击2",
 	time = 0,
+	name = "测试-声望-主炮额外一轮攻击2",
+	init_effect = "",
 	picture = "",
 	desc = "触发:主炮额外一轮攻击2",
 	stack = 1,
@@ -26,8 +26,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 60031,
-				target = "TargetSelf",
-				bulletTrigger = "onBulletKill"
+				bulletTrigger = "onBulletKill",
+				target = "TargetSelf"
 			}
 		},
 		{

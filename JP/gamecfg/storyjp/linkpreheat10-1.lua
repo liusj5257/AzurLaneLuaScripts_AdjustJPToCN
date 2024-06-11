@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT10-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT10-1",
+	fadein = 1,
 	scripts = {
 		{
-			actor = 10300010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "だったら──私に任せてもらおうかな",
 			dir = 1,
 			bgm = "level-uta",
+			actor = 10300010,
+			nameColor = "#a9f548",
+			say = "だったら──私に任せてもらおうかな",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -63,8 +63,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "すばしっこい私なら、あいつらを引きつけて逃げ回るくらい朝飯前だよ",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "いざって時は……切り札もあるしね",
 			typewriter = {
 				speed = 0.05,

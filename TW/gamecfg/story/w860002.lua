@@ -1,13 +1,13 @@
 return {
-	id = "W860002",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W860002",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "使用紫色區域控制裝置可以改變海域中紫色標識區域上障礙物的狀態，是否確認使用？",
 			typewriter = {
 				speed = 0.05,

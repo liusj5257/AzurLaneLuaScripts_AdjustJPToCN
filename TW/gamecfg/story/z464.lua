@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z464",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z464",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"純白之詩\n\n<size=45>四 思考</size>",
@@ -38,13 +38,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgmDelay = 2,
-			bgName = "bg_story_outdoor",
 			say = "港區·碼頭",
+			bgName = "bg_story_outdoor",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -259,8 +259,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			bgName = "bg_story_outdoor",
+			blackBg = true,
 			say = "我——是什麼顏色？",
 			typewriter = {
 				speed = 0.05,

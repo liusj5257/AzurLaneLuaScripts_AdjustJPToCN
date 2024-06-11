@@ -6,11 +6,11 @@ slot3 = class("BattleBuffAddReloadRequirement", slot0.Battle.BattleBuffEffect)
 slot0.Battle.BattleBuffAddReloadRequirement = slot3
 slot3.__name = "BattleBuffAddReloadRequirement"
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot3.SetArgs(slot0, slot1, slot2)
+slot3.SetArgs = function(slot0, slot1, slot2)
 	slot0._weaponIndex = slot0._tempData.arg_list.index
 	slot0._weaponType = slot0._tempData.arg_list.type
 	slot0._value = slot0._tempData.arg_list.number or 0
@@ -18,7 +18,7 @@ function slot3.SetArgs(slot0, slot1, slot2)
 	slot0._convertValue = slot0._tempData.arg_list.convert_value
 end
 
-function slot3.onAttach(slot0, slot1, slot2)
+slot3.onAttach = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	if slot0._weaponType then
@@ -57,7 +57,7 @@ function slot3.onAttach(slot0, slot1, slot2)
 	slot0._targetWeaponList = slot3
 end
 
-function slot3.onRemove(slot0, slot1, slot2)
+slot3.onRemove = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0._targetWeaponList) do
 		slot7:RemoveReloadFactor(slot2)
 
@@ -71,7 +71,7 @@ function slot3.onRemove(slot0, slot1, slot2)
 	end
 end
 
-function slot3.calcFactor(slot0, slot1)
+slot3.calcFactor = function(slot0, slot1)
 	slot2 = slot0._value
 	slot3 = 0
 

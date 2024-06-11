@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA11",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA11",
+	fadein = 1.5,
 	scripts = {
 		{
-			actor = 10400030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_ailevel",
 			side = 2,
+			bgName = "bg_story_ailevel",
 			dir = 1,
+			actor = 10400030,
 			actorName = "キズナアイ",
 			say = "みんなー！見て見て～！",
 			typewriter = {
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_ailevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "みんな、大変にゃ！新しい衣装で和んでる場合じゃないにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,11 +178,11 @@ return {
 			}
 		},
 		{
-			actor = 10400030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_ailevel",
 			side = 2,
+			bgName = "bg_story_ailevel",
 			dir = 1,
+			actor = 10400030,
 			actorName = "キズナアイ",
 			say = "ありがと明石ちゃん！みんな急いで向かおう！",
 			typewriter = {
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_ailevel",
+			dir = 1,
 			say = "バーチャル鏡面海域・高度4000メートル上空",
 			flashN = {
 				color = {
@@ -229,11 +229,11 @@ return {
 			}
 		},
 		{
-			actor = 10400030,
 			nameColor = "#a9f548",
-			bgName = "bg_story_ailevel",
 			side = 2,
+			bgName = "bg_story_ailevel",
 			dir = 1,
+			actor = 10400030,
 			actorName = "キズナアイ",
 			say = "…………へ？",
 			typewriter = {
@@ -264,8 +264,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_ailevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "おーーーーーちーーーーーるーーーーー！！！",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 0
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_ailevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "ひゃあああああぁぁぁぁぁぁぁ！",
 			typewriter = {
 				speed = 0.05,
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 0
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 0
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_ailevel",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#a9f548",
 			say = "（気絶）",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0,
 					dur = 1,
 					x = 0
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -473,8 +473,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "キズナアイ",
 			say = "もうだめかと思った～",
 			typewriter = {
@@ -550,8 +550,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "キズナアイ",
 			say = "（ゾクッ）あれ…？このシチュエーション、どこかで……？",
 			typewriter = {
@@ -564,8 +564,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -577,8 +577,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "キズナアイ",
 			say = "私のインテリジェンスな勘が、全力で海域中心部に向かって逃げろって言ってる！！",
 			typewriter = {

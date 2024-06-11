@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN9",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 101490,
 			side = 2,
+			actorName = "ブリストル",
 			bgName = "star_level_bg_115",
+			bgm = "theme-highseasfleet-reborn",
 			factiontag = "伝説的な探索者KP",
 			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
-			actorName = "ブリストル",
 			hidePaintObj = true,
 			say = "ザラザラ～@#￥%……&…………シャアアア——！！",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -270,9 +270,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "え……？なるほど、そうなのぉ～？",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "（トントン）",
@@ -400,11 +400,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：メイド長だよー！",
-			side = 2,
+			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "ゴールデン・ハインド…お嬢さま、執事が探索者を客間で待っているわよ",
@@ -414,11 +414,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			side = 2,
+			actor = 9600031,
 			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "……残念だけどここまでのようね。失踪事件の調査は大事だもの",
@@ -432,9 +432,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "良い知らせを待っているわ。愛しい探索者♡",
 			typewriter = {
@@ -443,11 +443,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "役：メイド長だよー！",
-			side = 2,
+			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "はいはい、夜ももう更けているから、お嬢さまも早く部屋に戻った戻った",
@@ -485,8 +485,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO34",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "She might be the owner of this place... Should I apologize for entering without permission?",
 			bgm = "theme-unzen",
+			say = "She might be the owner of this place... Should I apologize for entering without permission?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "She seemed to speak in riddles, as if pondering to herself.",
@@ -161,8 +161,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "A brief look of astonishment flashes across her delicate features.",
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "Then, our eyes met.",
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "I saw within them something akin to joy and loneliness.",
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "Unexpectedly, I felt myself getting jittery and had to break eye contact first.",
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "She was a shipgirl, of course, but staring at each other too long might lead to misunderstandings.",
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "It felt awkward just standing there in silence, so I tried changing the subject.",
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "It didn't take long for me to regret my thoughtless offer.",
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "This was my last day at the Sakura Empire. I was supposed to start packing after the dinner party.",
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "Despite my job and ability to travel, I didn't know when I'd meet her again.",
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "Add the war with the Sirens, and this might be the last time I'd ever see this stranger.",
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "This time, she was the one to turn away bashfully.",
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "Under the moonlight, the two of us gave ourselves up to the passage of time.",
@@ -449,8 +449,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "Neither of us said a word, but we were comforted by this silent time together.",
@@ -460,8 +460,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "Eventually, I told her that I'd best get back to the dinner party. When I turned around to do just that...",
@@ -471,8 +471,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "She grabbed my hand and gestured with her eyes up to the moon in the sky.",
@@ -495,8 +495,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "Her beautiful, yet fleeting smile would be forever burned into my memory.",
@@ -506,29 +506,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "......",
+			side = 2,
 			bgm = "story-2",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -539,10 +539,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander?",
 			painting = {
 				alpha = 0.3,
@@ -554,12 +554,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, we're going to land soon.",
 			painting = {
 				alpha = 0.3,
@@ -574,10 +574,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107380,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Essex? Why are you still here?",
 			painting = {
 				alpha = 0.3,
@@ -589,12 +589,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If you want to attend Richelieu's ceremony at the Iris as an Eagle Union representative, you'll need to hurry and get ready.",
 			painting = {
 				alpha = 0.3,
@@ -609,10 +609,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107380,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I prepared new clothes for you, so let's go change, okay?",
 			painting = {
 				alpha = 0.3,
@@ -624,12 +624,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And Commander, I think you should get ready, too.",
 			painting = {
 				alpha = 0.3,
@@ -641,8 +641,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "My friends' voices faded along with their footsteps.",
@@ -691,8 +691,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "There was a loud rumbling, followed by calm. It seemed we'd landed without issue.",
@@ -702,8 +702,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "I still had far too many plans today.",
@@ -726,8 +726,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "I closed my eyes, trying to squeeze out every moment of rest.",
@@ -737,8 +737,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "The face of the woman I met that night, along with the scenery of that mysterious moonlit encounter, came to mind.",
@@ -774,8 +774,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 1,
 			blackFg = 1,
 			bgm = "theme-unzen",
@@ -803,9 +803,9 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
 			stopbgm = true,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

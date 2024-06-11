@@ -2,7 +2,7 @@ slot0 = class("BattleGateWorldBoss")
 ys.Battle.BattleGateWorldBoss = slot0
 slot0.__name = "BattleGateWorldBoss"
 
-function slot0.Entrance(slot0, slot1)
+slot0.Entrance = function(slot0, slot1)
 	if BeginStageCommand.DockOverload() then
 		return
 	end
@@ -80,7 +80,7 @@ function slot0.Entrance(slot0, slot1)
 			bossConfigId = uv7:GetConfigID()
 		})
 	end, function (slot0)
-		function slot1()
+		slot1 = function()
 			uv0:UnlockCacheBoss()
 			uv0:RemoveCacheBoss(uv1.id)
 			pg.m02:sendNotification(GAME.WORLD_BOSS_START_BATTLE_FIALED)
@@ -108,7 +108,7 @@ function slot0.Entrance(slot0, slot1)
 	end)
 end
 
-function slot0.Exit(slot0, slot1)
+slot0.Exit = function(slot0, slot1)
 	if slot1.CheaterVertify() then
 		return
 	end

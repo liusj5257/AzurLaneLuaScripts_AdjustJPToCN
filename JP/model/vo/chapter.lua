@@ -8,11 +8,11 @@ slot0.CHAPTER_STATE = {
 	i18n("level_chapter_state_safety")
 }
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.chapter_template
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.id = slot0.configId
 	slot0.active = false
@@ -52,7 +52,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.loopFlag = 0
 end
 
-function slot0.BuildEliteFleetList(slot0)
+slot0.BuildEliteFleetList = function(slot0)
 	slot1 = {
 		{},
 		{},
@@ -98,7 +98,7 @@ function slot0.BuildEliteFleetList(slot0)
 	return slot1, slot2, slot3
 end
 
-function slot0.getMaxCount(slot0)
+slot0.getMaxCount = function(slot0)
 	if #slot0:getConfig("risk_levels") == 0 then
 		return 0
 	end
@@ -106,7 +106,7 @@ function slot0.getMaxCount(slot0)
 	return slot1[1][1]
 end
 
-function slot0.hasMitigation(slot0)
+slot0.hasMitigation = function(slot0)
 	if not LOCK_MITIGATION then
 		return slot0:getConfig("mitigation_level") > 0
 	else
@@ -114,11 +114,11 @@ function slot0.hasMitigation(slot0)
 	end
 end
 
-function slot0.getRemainPassCount(slot0)
+slot0.getRemainPassCount = function(slot0)
 	return math.max(slot0:getMaxCount() - slot0.passCount, 0)
 end
 
-function slot0.getRiskLevel(slot0)
+slot0.getRiskLevel = function(slot0)
 	slot1 = slot0:getRemainPassCount()
 
 	for slot6, slot7 in ipairs(slot0:getConfig("risk_levels")) do
@@ -130,11 +130,11 @@ function slot0.getRiskLevel(slot0)
 	assert(false, "index can not be nil")
 end
 
-function slot0.getMitigationRate(slot0)
+slot0.getMitigationRate = function(slot0)
 	return math.min(slot0.passCount, slot0:getMaxCount()) * (LOCK_MITIGATION and 0 or slot0:getConfig("mitigation_rate"))
 end
 
-function slot0.getRepressInfo(slot0)
+slot0.getRepressInfo = function(slot0)
 	return {
 		repressMax = slot0:getMaxCount(),
 		repressCount = slot0.passCount,
@@ -144,7 +144,7 @@ function slot0.getRepressInfo(slot0)
 	}
 end
 
-function slot0.getChapterState(slot0)
+slot0.getChapterState = function(slot0)
 	slot1 = slot0:getRiskLevel()
 
 	assert(uv0.CHAPTER_STATE[slot1], "state desc is nil")
@@ -152,19 +152,19 @@ function slot0.getChapterState(slot0)
 	return uv0.CHAPTER_STATE[slot1]
 end
 
-function slot0.getPlayType(slot0)
+slot0.getPlayType = function(slot0)
 	return slot0:getConfig("model")
 end
 
-function slot0.isTypeDefence(slot0)
+slot0.isTypeDefence = function(slot0)
 	return slot0:getPlayType() == ChapterConst.TypeDefence
 end
 
-function slot0.IsSpChapter(slot0)
+slot0.IsSpChapter = function(slot0)
 	return getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):getMapType() == Map.ACT_EXTRA and slot0:getPlayType() == ChapterConst.TypeRange
 end
 
-function slot0.getConfig(slot0, slot1)
+slot0.getConfig = function(slot0, slot1)
 	if slot0:isLoop() then
 		slot2 = pg.chapter_template_loop[slot0.id]
 
@@ -182,27 +182,27 @@ function slot0.getConfig(slot0, slot1)
 	return uv0.super.getConfig(slot0, slot1)
 end
 
-function slot0.existLoop(slot0)
+slot0.existLoop = function(slot0)
 	return pg.chapter_template_loop[slot0.id] ~= nil
 end
 
-function slot0.canActivateLoop(slot0)
+slot0.canActivateLoop = function(slot0)
 	return slot0.progress == 100
 end
 
-function slot0.isLoop(slot0)
+slot0.isLoop = function(slot0)
 	return slot0.loopFlag == 1
 end
 
-function slot0.existAmbush(slot0)
+slot0.existAmbush = function(slot0)
 	return slot0:getConfig("is_ambush") == 1 or slot0:getConfig("is_air_attack") == 1
 end
 
-function slot0.isUnlock(slot0)
+slot0.isUnlock = function(slot0)
 	return slot0:IsCleanPrevChapter() and slot0:IsCleanPrevStory()
 end
 
-function slot0.IsCleanPrevChapter(slot0)
+slot0.IsCleanPrevChapter = function(slot0)
 	if slot0:getConfig("pre_chapter") == 0 then
 		return true
 	end
@@ -210,7 +210,7 @@ function slot0.IsCleanPrevChapter(slot0)
 	return getProxy(ChapterProxy):GetChapterItemById(slot1):isClear()
 end
 
-function slot0.IsCleanPrevStory(slot0)
+slot0.IsCleanPrevStory = function(slot0)
 	if slot0:getConfig("pre_story") == 0 then
 		return true
 	end
@@ -218,31 +218,31 @@ function slot0.IsCleanPrevStory(slot0)
 	return getProxy(ChapterProxy):GetChapterItemById(slot1):isClear()
 end
 
-function slot0.isPlayerLVUnlock(slot0)
+slot0.isPlayerLVUnlock = function(slot0)
 	return slot0:getConfig("unlocklevel") <= getProxy(PlayerProxy):getRawData().level
 end
 
-function slot0.isClear(slot0)
+slot0.isClear = function(slot0)
 	return slot0.progress >= 100
 end
 
-function slot0.ifNeedHide(slot0)
+slot0.ifNeedHide = function(slot0)
 	if table.contains(pg.chapter_setting.all, slot0.id) and pg.chapter_setting[slot0.id].hide == 1 then
 		return slot0:isClear()
 	end
 end
 
-function slot0.existAchieve(slot0)
+slot0.existAchieve = function(slot0)
 	return #slot0.achieves > 0
 end
 
-function slot0.isAllAchieve(slot0)
+slot0.isAllAchieve = function(slot0)
 	return _.all(slot0.achieves, function (slot0)
 		return ChapterConst.IsAchieved(slot0)
 	end)
 end
 
-function slot0.clearEliterFleetByIndex(slot0, slot1)
+slot0.clearEliterFleetByIndex = function(slot0, slot1)
 	if slot1 > #slot0.eliteFleetList then
 		return
 	end
@@ -250,7 +250,7 @@ function slot0.clearEliterFleetByIndex(slot0, slot1)
 	slot0.eliteFleetList[slot1] = {}
 end
 
-function slot0.wrapEliteFleet(slot0, slot1)
+slot0.wrapEliteFleet = function(slot0, slot1)
 	slot2 = {}
 	slot3 = slot1 > 2 and FleetType.Submarine or FleetType.Normal
 	slot4 = _.flatten(slot0:getEliteFleetList()[slot1])
@@ -270,29 +270,29 @@ function slot0.wrapEliteFleet(slot0, slot1)
 	})
 end
 
-function slot0.setEliteCommanders(slot0, slot1)
+slot0.setEliteCommanders = function(slot0, slot1)
 	slot0.eliteCommanderList = slot1
 end
 
-function slot0.getEliteFleetCommanders(slot0)
+slot0.getEliteFleetCommanders = function(slot0)
 	return slot0.eliteCommanderList
 end
 
-function slot0.updateCommander(slot0, slot1, slot2, slot3)
+slot0.updateCommander = function(slot0, slot1, slot2, slot3)
 	slot0.eliteCommanderList[slot1][slot2] = slot3
 end
 
-function slot0.getEliteFleetList(slot0)
+slot0.getEliteFleetList = function(slot0)
 	slot0:EliteShipTypeFilter()
 
 	return slot0.eliteFleetList
 end
 
-function slot0.setEliteFleetList(slot0, slot1)
+slot0.setEliteFleetList = function(slot0, slot1)
 	slot0.eliteFleetList = slot1
 end
 
-function slot0.IsEliteFleetLegal(slot0)
+slot0.IsEliteFleetLegal = function(slot0)
 	slot1 = 0
 	slot2 = 0
 	slot3 = 0
@@ -341,7 +341,7 @@ function slot0.IsEliteFleetLegal(slot0)
 	return true, slot6
 end
 
-function slot0.IsPropertyLimitationSatisfy(slot0)
+slot0.IsPropertyLimitationSatisfy = function(slot0)
 	slot1 = getProxy(BayProxy):getRawData()
 	slot3 = {}
 
@@ -406,19 +406,19 @@ function slot0.IsPropertyLimitationSatisfy(slot0)
 	return slot6, slot3
 end
 
-function slot0.GetNomralFleetMaxCount(slot0)
+slot0.GetNomralFleetMaxCount = function(slot0)
 	return slot0:getConfig("group_num")
 end
 
-function slot0.GetSubmarineFleetMaxCount(slot0)
+slot0.GetSubmarineFleetMaxCount = function(slot0)
 	return slot0:getConfig("submarine_num")
 end
 
-function slot0.GetSupportFleetMaxCount(slot0)
+slot0.GetSupportFleetMaxCount = function(slot0)
 	return slot0:getConfig("support_group_num")
 end
 
-function slot0.EliteShipTypeFilter(slot0)
+slot0.EliteShipTypeFilter = function(slot0)
 	if slot0:getConfig("type") == Chapter.SelectFleet then
 		for slot5, slot6 in ipairs({
 			1,
@@ -450,7 +450,7 @@ function slot0.EliteShipTypeFilter(slot0)
 		end
 	end
 
-	function slot2(slot0, slot1, slot2)
+	slot2 = function(slot0, slot1, slot2)
 		ChapterProxy.SortRecommendLimitation(Clone(slot1))
 
 		for slot6, slot7 in ipairs(slot2) do
@@ -500,7 +500,7 @@ function slot0.EliteShipTypeFilter(slot0)
 	end
 end
 
-function slot0.singleEliteFleetVertify(slot0, slot1)
+slot0.singleEliteFleetVertify = function(slot0, slot1)
 	slot2 = getProxy(BayProxy):getRawData()
 
 	if not slot0:getEliteFleetList()[slot1] or #slot3 == 0 then
@@ -577,21 +577,21 @@ function slot0.singleEliteFleetVertify(slot0, slot1)
 	return true
 end
 
-function slot0.ClearSupportFleetList(slot0, slot1)
+slot0.ClearSupportFleetList = function(slot0, slot1)
 	slot0.supportFleet = {}
 end
 
-function slot0.setSupportFleetList(slot0, slot1)
+slot0.setSupportFleetList = function(slot0, slot1)
 	slot0.supportFleet = slot1[1]
 end
 
-function slot0.getSupportFleet(slot0)
+slot0.getSupportFleet = function(slot0)
 	slot0:SupportShipTypeFilter()
 
 	return slot0.supportFleet
 end
 
-function slot0.SupportShipTypeFilter(slot0)
+slot0.SupportShipTypeFilter = function(slot0)
 	if slot0:GetSupportFleetMaxCount() < 1 then
 		table.clear(slot0.supportFleet)
 	end
@@ -605,7 +605,7 @@ function slot0.SupportShipTypeFilter(slot0)
 	end
 end
 
-function slot0.activeAlways(slot0)
+slot0.activeAlways = function(slot0)
 	if getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isActivity() and type(pg.activity_template[slot0:GetBindActID()].config_client) == "table" then
 		return table.contains(slot3.config_client.prevs or {}, slot0.id)
 	end
@@ -613,7 +613,7 @@ function slot0.activeAlways(slot0)
 	return false
 end
 
-function slot0.getPrevChapterName(slot0)
+slot0.getPrevChapterName = function(slot0)
 	slot1 = ""
 
 	if slot0:getConfig("pre_chapter") ~= 0 then
@@ -623,15 +623,15 @@ function slot0.getPrevChapterName(slot0)
 	return slot1
 end
 
-function slot0.CanQuickPlay(slot0)
+slot0.CanQuickPlay = function(slot0)
 	return pg.chapter_setting[slot0.id] and slot1.expedite > 0
 end
 
-function slot0.GetQuickPlayFlag(slot0)
+slot0.GetQuickPlayFlag = function(slot0)
 	return PlayerPrefs.GetInt("chapter_quickPlay_flag_" .. slot0.id, 0) == 1
 end
 
-function slot0.writeDrops(slot0, slot1)
+slot0.writeDrops = function(slot0, slot1)
 	_.each(slot1, function (slot0)
 		if slot0.type == DROP_TYPE_SHIP and not table.contains(uv0.dropShipIdList, slot0.id) then
 			table.insert(uv0.dropShipIdList, slot0.id)
@@ -639,7 +639,7 @@ function slot0.writeDrops(slot0, slot1)
 	end)
 end
 
-function slot0.UpdateDropShipList(slot0, slot1)
+slot0.UpdateDropShipList = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		if not table.contains(slot0.dropShipIdList, slot6) then
 			table.insert(slot0.dropShipIdList, slot6)
@@ -647,23 +647,23 @@ function slot0.UpdateDropShipList(slot0, slot1)
 	end
 end
 
-function slot0.GetDropShipList(slot0)
+slot0.GetDropShipList = function(slot0)
 	return slot0.dropShipIdList
 end
 
-function slot0.getOniChapterInfo(slot0)
+slot0.getOniChapterInfo = function(slot0)
 	return pg.chapter_capture[slot0.id]
 end
 
-function slot0.getBombChapterInfo(slot0)
+slot0.getBombChapterInfo = function(slot0)
 	return pg.chapter_boom[slot0.id]
 end
 
-function slot0.getNpcShipByType(slot0, slot1)
+slot0.getNpcShipByType = function(slot0, slot1)
 	slot2 = {}
 	slot3 = getProxy(TaskProxy)
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		if slot0 == 0 then
 			return true
 		end
@@ -695,19 +695,19 @@ function slot0.getNpcShipByType(slot0, slot1)
 	return slot2
 end
 
-function slot0.getTodayDefeatCount(slot0)
+slot0.getTodayDefeatCount = function(slot0)
 	return getProxy(DailyLevelProxy):getChapterDefeatCount(slot0.configId)
 end
 
-function slot0.isTriesLimit(slot0)
+slot0.isTriesLimit = function(slot0)
 	return slot0:getConfig("count") and slot1 > 0
 end
 
-function slot0.updateTodayDefeatCount(slot0)
+slot0.updateTodayDefeatCount = function(slot0)
 	getProxy(DailyLevelProxy):updateChapterDefeatCount(slot0.configId)
 end
 
-function slot0.enoughTimes2Start(slot0)
+slot0.enoughTimes2Start = function(slot0)
 	if slot0:isTriesLimit() then
 		return slot0:getTodayDefeatCount() < slot0:getConfig("count")
 	else
@@ -715,7 +715,7 @@ function slot0.enoughTimes2Start(slot0)
 	end
 end
 
-function slot0.GetRestDailyBonus(slot0)
+slot0.GetRestDailyBonus = function(slot0)
 	slot1 = 0
 
 	if slot0:IsRemaster() then
@@ -733,7 +733,7 @@ function slot0.GetRestDailyBonus(slot0)
 	return math.max(slot1 - slot0.todayDefeatCount, 0)
 end
 
-function slot0.GetDailyBonusQuota(slot0)
+slot0.GetDailyBonusQuota = function(slot0)
 	return slot0:GetRestDailyBonus() > 0
 end
 
@@ -742,11 +742,11 @@ slot0.OPERATION_BUFF_TYPE_REWARD = "extra_drop"
 slot0.OPERATION_BUFF_TYPE_EXP = "chapter_up"
 slot0.OPERATION_BUFF_TYPE_DESC = "desc"
 
-function slot0.GetSPOperationItemCacheKey(slot0)
+slot0.GetSPOperationItemCacheKey = function(slot0)
 	return "specialOPItem_" .. slot0
 end
 
-function slot0.GetSpItems(slot0)
+slot0.GetSpItems = function(slot0)
 	slot1 = {}
 	slot2 = getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET)
 
@@ -771,7 +771,7 @@ function slot0.GetSpItems(slot0)
 	return slot1
 end
 
-function slot0.GetSPBuffByItem(slot0)
+slot0.GetSPBuffByItem = function(slot0)
 	for slot4, slot5 in ipairs(pg.benefit_buff_template.all) do
 		buffConfig = pg.benefit_buff_template[slot5]
 
@@ -781,7 +781,7 @@ function slot0.GetSPBuffByItem(slot0)
 	end
 end
 
-function slot0.GetActiveSPItemID(slot0)
+slot0.GetActiveSPItemID = function(slot0)
 	if PlayerPrefs.GetInt(Chapter.GetSPOperationItemCacheKey(slot0.id), 0) == 0 then
 		return 0
 	end
@@ -799,7 +799,7 @@ function slot0.GetActiveSPItemID(slot0)
 	return 0
 end
 
-function slot0.GetLimitOilCost(slot0, slot1, slot2)
+slot0.GetLimitOilCost = function(slot0, slot1, slot2)
 	if not slot0:isLoop() then
 		return 9999
 	end
@@ -809,15 +809,15 @@ function slot0.GetLimitOilCost(slot0, slot1, slot2)
 	return slot0:getConfig("use_oil_limit")[slot1 and 3 or (pg.expedition_data_template[slot2].type == ChapterConst.ExpeditionTypeBoss or slot4.type == ChapterConst.ExpeditionTypeMulBoss) and 2 or 1] or 9999
 end
 
-function slot0.IsRemaster(slot0)
+slot0.IsRemaster = function(slot0)
 	return getProxy(ChapterProxy):getMapById(slot0:getConfig("map")) and slot1:isRemaster()
 end
 
-function slot0.GetBindActID(slot0)
+slot0.GetBindActID = function(slot0)
 	return slot0:getConfig("act_id")
 end
 
-function slot0.GetMaxBattleCount(slot0)
+slot0.GetMaxBattleCount = function(slot0)
 	slot1 = 0
 	slot1 = (getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):getMapType() ~= Map.ELITE or math.clamp(pg.gameset.hard_level_multiple_sorties_times.key_value, 0, getProxy(DailyLevelProxy):GetRestEliteCount())) and (not slot2:isRemaster() or math.clamp(pg.gameset.archives_level_multiple_sorties_times.key_value, 0, getProxy(ChapterProxy).remasterTickets)) and (not slot2:isActivity() or pg.gameset.activity_level_multiple_sorties_times.key_value) and pg.gameset.main_level_multiple_sorties_times.key_value
 

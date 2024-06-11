@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"36年Z組 Z23老師\n\n<size=45>三 這是誰，我在哪裡？</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗚……最後還是沒能把長島從房間裡拖出來…",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "嗚……最後還是沒能把長島從房間裡拖出來…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "是是～我在這裡～",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "是是～我在這裡～",
+			actor = 102080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "（暈眩狀）咕嘻嘻…眼前都是數字和星星…一顆、兩顆、十顆、八顆……這是誰？我在哪兒？——",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "（暈眩狀）咕嘻嘻…眼前都是數字和星星…一顆、兩顆、十顆、八顆……這是誰？我在哪兒？——",
+			actor = 102080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

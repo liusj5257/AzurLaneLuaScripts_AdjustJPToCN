@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "中飞联动一Boss减伤",
 	time = 0,
+	name = "中飞联动一Boss减伤",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageReduceFromAmmoType_2",
-				number = 0.2
+				number = 0.2,
+				attr = "damageReduceFromAmmoType_2"
 			}
 		}
 	}

@@ -1,13 +1,13 @@
 return {
-	id = "W760010",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W760010",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "是否通過傳送門前往春之幻境？",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "雷击提高",
 	init_effect = "",
-	color = "red",
+	id = 70200,
+	time = 0,
 	picture = "",
 	desc = "雷击提高50%",
 	stack = 1,
-	id = 70200,
+	color = "red",
 	icon = 70200,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 5000
+				number = 5000,
+				attr = "torpedoPower"
 			}
 		}
 	}

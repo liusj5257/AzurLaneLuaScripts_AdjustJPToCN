@@ -1,15 +1,15 @@
 slot0 = class("Shrine2022View", import("..BaseMiniGameView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "Shrine2022UI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initData()
 	slot0:updateDataView()
 	slot0:updateCardList()
@@ -17,7 +17,7 @@ function slot0.didEnter(slot0)
 	slot0:updateCommanderBuff()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.shrineSelectShipView and slot0.shrineSelectShipView:CheckState(BaseSubView.STATES.INITED) then
 		slot0.shrineSelectShipView:closeSelf()
 	elseif slot0.shrineSelectBuffView and slot0.shrineSelectBuffView:CheckState(BaseSubView.STATES.INITED) then
@@ -29,7 +29,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.OnSendMiniGameOPDone(slot0, slot1)
+slot0.OnSendMiniGameOPDone = function(slot0, slot1)
 	slot2 = slot1.argList
 	slot3 = slot2[1]
 
@@ -87,10 +87,10 @@ function slot0.OnSendMiniGameOPDone(slot0, slot1)
 	end
 end
 
-function slot0.OnModifyMiniGameDataDone(slot0, slot1)
+slot0.OnModifyMiniGameDataDone = function(slot0, slot1)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.shrineSelectShipView and slot0.shrineSelectShipView:CheckState(BaseSubView.STATES.INITED) then
 		slot0.shrineSelectShipView:Destroy()
 	elseif slot0.shrineSelectBuffView and slot0.shrineSelectBuffView:CheckState(BaseSubView.STATES.INITED) then
@@ -102,7 +102,7 @@ function slot0.willExit(slot0)
 	slot0:cleanManagedTween()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.playerProxy = getProxy(PlayerProxy)
 	slot0.miniGameProxy = getProxy(MiniGameProxy)
 	slot0.commanderGameID = slot0.contextData.miniGameId
@@ -155,7 +155,7 @@ function slot0.initData(slot0)
 	end
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot1 = slot0:findTF("Res")
 	slot0.curBuffSpriteList = {
 		getImageSprite(slot0:findTF("CurBuff1", slot1)),
@@ -179,7 +179,7 @@ function slot0.findUI(slot0)
 	slot0.curBuffImg = slot0:findTF("BuffImg", slot0.curBuffTF)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
@@ -194,7 +194,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.updateDataView(slot0)
+slot0.updateDataView = function(slot0)
 	if not slot0:isInitedCommanderGameData() then
 		slot0:PrintLog("无指挥官数据,返回")
 
@@ -211,7 +211,7 @@ function slot0.updateDataView(slot0)
 	setActive(slot0.selectBuffLight, slot1 > 0 and not slot0:isHaveCommanderBuff())
 end
 
-function slot0.updateCardList(slot0)
+slot0.updateCardList = function(slot0)
 	if not slot0:isInitedShipGameData() then
 		slot0:PrintLog("无舰娘数据,返回")
 
@@ -244,7 +244,7 @@ function slot0.updateCardList(slot0)
 	slot0.cardUIItemList:align(slot4)
 end
 
-function slot0.updateCardImg(slot0, slot1)
+slot0.updateCardImg = function(slot0, slot1)
 	slot2 = slot0.cardTFList[slot1]
 	slot3 = slot0:findTF("Empty", slot2)
 	slot4 = slot0:findTF("Ship", slot2)
@@ -259,11 +259,11 @@ function slot0.updateCardImg(slot0, slot1)
 	setActive(slot4, slot5 > 0)
 end
 
-function slot0.updateCardSelecting(slot0, slot1, slot2)
+slot0.updateCardSelecting = function(slot0, slot1, slot2)
 	setActive(slot0:findTF("Selecting", slot0.cardTFList[slot1]), slot2)
 end
 
-function slot0.updateCardBuffTag(slot0)
+slot0.updateCardBuffTag = function(slot0)
 	if not slot0:isInitedShipGameData() then
 		slot0:PrintLog("无舰娘数据,返回")
 
@@ -294,7 +294,7 @@ function slot0.updateCardBuffTag(slot0)
 	end
 end
 
-function slot0.updateCommanderBuff(slot0, slot1)
+slot0.updateCommanderBuff = function(slot0, slot1)
 	if not slot0:isInitedCommanderGameData() then
 		slot0:PrintLog("无指挥官数据,返回")
 
@@ -342,7 +342,7 @@ function slot0.updateCommanderBuff(slot0, slot1)
 	end
 end
 
-function slot0.openSelectShipView(slot0, slot1)
+slot0.openSelectShipView = function(slot0, slot1)
 	if slot0.playerProxy:getData().gold < slot0:getShipGameData():getConfig("config_data")[1] then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
@@ -395,7 +395,7 @@ function slot0.openSelectShipView(slot0, slot1)
 	slot0.shrineSelectShipView:Load()
 end
 
-function slot0.openSelectBuffView(slot0)
+slot0.openSelectBuffView = function(slot0)
 	if slot0.playerProxy:getData().gold < slot0:GetMGData():getConfig("config_data")[1] then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
@@ -431,7 +431,7 @@ function slot0.openSelectBuffView(slot0)
 	slot0.shrineSelectBuffView:Load()
 end
 
-function slot0.openShipWordView(slot0, slot1)
+slot0.openShipWordView = function(slot0, slot1)
 	slot0.shrineShipWordView = Shrine2022ShipWordView.New(slot0._tf, slot0.event, {
 		curSelectShip = slot1
 	})
@@ -440,7 +440,7 @@ function slot0.openShipWordView(slot0, slot1)
 	slot0.shrineShipWordView:Load()
 end
 
-function slot0.openFakeDrop(slot0, slot1)
+slot0.openFakeDrop = function(slot0, slot1)
 	slot2 = slot0:getShipGameData()
 	slot2 = slot2:getConfig("simple_config_data")
 
@@ -464,7 +464,7 @@ function slot0.openFakeDrop(slot0, slot1)
 	}))
 end
 
-function slot0.isInitedCommanderGameData(slot0)
+slot0.isInitedCommanderGameData = function(slot0)
 	if not slot0:GetMGData():GetRuntimeData("isInited") then
 		return false
 	else
@@ -472,7 +472,7 @@ function slot0.isInitedCommanderGameData(slot0)
 	end
 end
 
-function slot0.isInitedShipGameData(slot0)
+slot0.isInitedShipGameData = function(slot0)
 	if not slot0:getShipGameData():GetRuntimeData("isInited") then
 		return false
 	else
@@ -480,7 +480,7 @@ function slot0.isInitedShipGameData(slot0)
 	end
 end
 
-function slot0.isHaveCommanderBuff(slot0)
+slot0.isHaveCommanderBuff = function(slot0)
 	slot3 = slot0:GetMGData():getConfig("config_data")[2]
 	slot4 = nil
 
@@ -497,7 +497,7 @@ function slot0.isHaveCommanderBuff(slot0)
 	return slot4
 end
 
-function slot0.getSelectedShipByCardIndex(slot0, slot1)
+slot0.getSelectedShipByCardIndex = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0:getShipGameData():GetRuntimeData("kvpElements")[1]) do
 		if slot7.key == slot1 then
 			return slot7.value
@@ -507,7 +507,7 @@ function slot0.getSelectedShipByCardIndex(slot0, slot1)
 	return 0
 end
 
-function slot0.getCardIndexByShip(slot0, slot1)
+slot0.getCardIndexByShip = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0:getShipGameData():GetRuntimeData("kvpElements")[1]) do
 		if slot7.value == slot1 then
 			return slot7.key
@@ -517,23 +517,23 @@ function slot0.getCardIndexByShip(slot0, slot1)
 	return 0
 end
 
-function slot0.getSelectedShipCount(slot0)
+slot0.getSelectedShipCount = function(slot0)
 	slot1 = 0
 
 	return #slot0:getShipGameData():GetRuntimeData("kvpElements")[1]
 end
 
-function slot0.getShipGameData(slot0)
+slot0.getShipGameData = function(slot0)
 	return slot0.miniGameProxy:GetMiniGameData(slot0.shipGameID)
 end
 
-function slot0.PrintLog(slot0, ...)
+slot0.PrintLog = function(slot0, ...)
 	if IsUnityEditor then
 		print(...)
 	end
 end
 
-function slot0.IsNeedShowTipWithoutActivityFinalReward()
+slot0.IsNeedShowTipWithoutActivityFinalReward = function()
 	slot0 = false
 
 	if getProxy(MiniGameProxy):GetMiniGameDataByType(MiniGameConst.MG_TYPE_3) then

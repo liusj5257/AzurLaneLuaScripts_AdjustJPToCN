@@ -9,9 +9,9 @@ return {
 			style = {
 				text = "First off: head to the Depot!",
 				mode = 2,
-				posY = -229.8,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -229.8,
 				posX = 491.03
 			},
 			ui = {
@@ -20,31 +20,31 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 77.2,
+					rotateY = 0,
 					posY = -43.2,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 77.2
 				}
 			}
 		},
 		{
-			alpha = 0.3,
 			waitScene = "WorldInventoryLayer",
+			alpha = 0.3,
 			code = {
 				"openBox"
 			},
 			style = {
 				text = "Now tap the Operation Siren Data Logger!",
 				mode = 2,
-				posY = -229.8,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -229.8,
 				posX = 491.03
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_scrollview/Viewport/item_grid",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_scrollview/Viewport/item_grid",
 				conditionData = {
 					"102"
 				},
@@ -52,11 +52,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 0,
+					rotateY = 0,
 					posY = 0,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 0
 				}
 			}
 		},
@@ -65,9 +65,9 @@ return {
 			style = {
 				text = "Tap here to unlock the zone!",
 				mode = 2,
-				posY = -229.8,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -229.8,
 				posX = -375.3
 			},
 			showSign = {

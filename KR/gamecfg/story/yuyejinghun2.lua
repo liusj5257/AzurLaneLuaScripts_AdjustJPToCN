@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN2",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -11,10 +11,10 @@ return {
 			side = 2,
 			actorName = "에식스",
 			factiontag = "성실한 마스터 후배",
+			bgm = "story-oldcastle-carnival",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "D100 판정 결과는… 대실패… 이거 큰일이네요.",
-			bgm = "story-oldcastle-carnival",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

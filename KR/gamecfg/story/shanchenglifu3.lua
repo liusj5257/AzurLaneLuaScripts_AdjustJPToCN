@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENGLIFU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANCHENGLIFU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"모항의 특별 연회\n\n<size=45>3. 클리블랜드의 입장</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
 			say = "모항 - 대강당 바깥쪽",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 102092,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 102092,
+			nameColor = "#92fc63",
 			say = "나만 남장하는 건 왠지 이상하지 않으려나……",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -265,13 +265,13 @@ return {
 			}
 		},
 		{
-			actor = 102092,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "…………엄청 휘황찬란하네.",
 			bgm = "story-1",
+			actor = 102092,
+			nameColor = "#92fc63",
+			say = "…………엄청 휘황찬란하네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,14 +300,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_107",
 			actor = 207032,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "빅토리어스, 그쪽은 맡겨둘게~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -348,12 +348,12 @@ return {
 			}
 		},
 		{
-			actor = 102092,
+			say = "아하하하……일러스트리어스의 그 드레스야말로 이름처럼 빛이 나는걸.",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아하하하……일러스트리어스의 그 드레스야말로 이름처럼 빛이 나는걸.",
+			actor = 102092,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -421,8 +421,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#92fc63",
 			say = "유니콘, 히에이씨가 연회 준비를 도와달라고 해서, 전 다른 곳도 돌아봐야 할 것 같아요. 혼자 여기 있어도 괜찮죠?",
 			typewriter = {
@@ -435,12 +435,12 @@ return {
 			}
 		},
 		{
-			actor = 206030,
+			say = "응, 유니콘, 여기서 오빠를 기다릴게.",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "응, 유니콘, 여기서 오빠를 기다릴게.",
+			actor = 206030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -458,8 +458,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#92fc63",
 			say = "지휘관님 곁이 그렇게 좋나요? 유니콘도 참 한결같네요…우후후",
 			typewriter = {
@@ -522,12 +522,12 @@ return {
 			}
 		},
 		{
-			actor = 102092,
+			say = "어라? 저기는……엔터프라이즈씨인가? 되게 기분 좋아보이네, 역시 에식스씨가 있어서 그런가?",
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "어라? 저기는……엔터프라이즈씨인가? 되게 기분 좋아보이네, 역시 에식스씨가 있어서 그런가?",
+			actor = 102092,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -545,8 +545,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#92fc63",
 			say = "그렇죠, 그녀에게 있어 에식스씨는 정말 좋은 후배라는 듯하니까요. 요즘엔 늘 기분이 좋아보이더라고요.",
 			typewriter = {
@@ -575,12 +575,12 @@ return {
 			}
 		},
 		{
-			actor = 102092,
+			say = "으음……너무 호화스러워서 왠지 좀 불편하달까.",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "으음……너무 호화스러워서 왠지 좀 불편하달까.",
+			actor = 102092,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -614,8 +614,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#92fc63",
 			say = "우후후, 익숙해지겠죠.",
 			typewriter = {
@@ -631,8 +631,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#92fc63",
 			say = "일단은 연회장을 한 번 돌아볼까요? 지휘관님이 오시면 무도회가 시작될 테고 그러면 오늘 밤은 당신도 바빠질지 모르니까요~",
 			typewriter = {
@@ -661,11 +661,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#92fc63",
 			say = "아, 언니! 여기 여기~!",
 			typewriter = {
 				speed = 0.05,
@@ -677,8 +677,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -703,12 +703,12 @@ return {
 			}
 		},
 		{
-			actor = 102092,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 102092,
+			nameColor = "#92fc63",
 			say = "응, 이따 보자고.",
 			typewriter = {
 				speed = 0.05,

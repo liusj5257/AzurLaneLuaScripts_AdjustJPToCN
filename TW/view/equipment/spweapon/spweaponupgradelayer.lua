@@ -14,11 +14,11 @@ slot7 = {
 	rarityIndex = IndexConst.SpWeaponRarityAll
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SpWeaponUpgradeUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:InitUI()
 
 	slot0.consumeSpweapons = {}
@@ -26,7 +26,7 @@ function slot0.init(slot0)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.InitUI(slot0)
+slot0.InitUI = function(slot0)
 	slot0.rightPanel = slot0:findTF("Right")
 	slot0.leftPanel = slot0:findTF("Left")
 	slot0.equipmentPanel = slot0:findTF("EquipmentPanel", slot0.rightPanel)
@@ -96,23 +96,23 @@ function slot0.InitUI(slot0)
 	Canvas.ForceUpdateCanvases()
 end
 
-function slot0.setItems(slot0, slot1)
+slot0.setItems = function(slot0, slot1)
 	slot0.itemVOs = slot1
 end
 
-function slot0.updateRes(slot0, slot1)
+slot0.updateRes = function(slot0, slot1)
 	slot0.playerVO = slot1
 end
 
-function slot0.SetSpWeapon(slot0, slot1)
+slot0.SetSpWeapon = function(slot0, slot1)
 	slot0.spWeaponVO = slot1
 end
 
-function slot0.SetSpWeaponList(slot0, slot1)
+slot0.SetSpWeaponList = function(slot0, slot1)
 	slot0.spWeaponList = slot1
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf:Find("BG"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
@@ -134,16 +134,16 @@ function slot0.didEnter(slot0)
 			groupList = {
 				{
 					dropdown = false,
-					titleTxt = "indexsort_type",
 					titleENTxt = "indexsort_typeeng",
+					titleTxt = "indexsort_type",
 					tags = {
 						"typeIndex"
 					}
 				},
 				{
 					dropdown = false,
-					titleTxt = "indexsort_rarity",
 					titleENTxt = "indexsort_rarityeng",
+					titleTxt = "indexsort_rarity",
 					tags = {
 						"rarityIndex"
 					}
@@ -165,15 +165,15 @@ function slot0.didEnter(slot0)
 		uv0:UpdateAll(true)
 	end, SFX_CANCEL)
 
-	function slot0.leftPanelEquipScrollComp.onInitItem(slot0)
+	slot0.leftPanelEquipScrollComp.onInitItem = function(slot0)
 		ClearTweenItemAlphaAndWhite(slot0.gameObject)
 	end
 
-	function slot0.leftPanelEquipScrollComp.onUpdateItem(slot0, slot1)
+	slot0.leftPanelEquipScrollComp.onUpdateItem = function(slot0, slot1)
 		uv0:UpdateEquipItemByIndex(slot0, slot1)
 	end
 
-	function slot0.leftPanelEquipScrollComp.onReturnItem(slot0, slot1)
+	slot0.leftPanelEquipScrollComp.onReturnItem = function(slot0, slot1)
 		ClearTweenItemAlphaAndWhite(go(slot1))
 	end
 
@@ -182,15 +182,38 @@ function slot0.didEnter(slot0)
 
 		if slot0 == UIItemList.EventInit then
 			pressPersistTrigger(slot2:Find("IconTpl"), 0.5, function (slot0)
-				if uv0:UpdateSelectMaterial(uv0.candicateMaterials[uv1].id, 1) then
-					slot0()
-				end
+				slot3 = uv0:GetSelectMaterial(uv0.candicateMaterials[uv1].id) and slot2.count or 0
+				slot4 = uv0.itemVOs[slot1] and uv0.itemVOs[slot1].count or 0
 
-				uv0:UpdateAll(true)
+				if uv0.ptMax then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_upgrade"))
+					slot0()
+				elseif slot3 == slot4 then
+					slot0()
+				else
+					if not slot2 then
+						table.insert(uv0.consumeItems, Item.New({
+							count = 0,
+							id = slot1
+						}))
+					end
+
+					slot2.count = slot2.count + 1
+
+					uv0:UpdateAll(true)
+				end
 			end, nil, true, true, 0.15, SFX_PANEL)
 			pressPersistTrigger(slot2:Find("IconTpl/Reduce"), 0.5, function (slot0)
-				if uv0:UpdateSelectMaterial(uv0.candicateMaterials[uv1].id, -1) then
+				if (uv0:GetSelectMaterial(uv0.candicateMaterials[uv1].id) and slot2.count or 0) == 0 then
 					slot0()
+
+					return
+				end
+
+				slot2.count = slot2.count - 1
+
+				if slot2.count <= 0 then
+					table.removebyvalue(uv0.consumeItems, slot2)
 				end
 
 				uv0:UpdateAll(true)
@@ -198,11 +221,11 @@ function slot0.didEnter(slot0)
 		elseif slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.candicateMaterials[slot1]
 
-			updateDrop(slot2:Find("IconTpl"), {
+			updateDrop(slot2:Find("IconTpl"), Drop.New({
 				type = DROP_TYPE_ITEM,
 				id = slot3.id,
 				count = slot3.count
-			})
+			}))
 			setScrollText(slot2:Find("Mask/NameText"), slot3:getConfig("name"))
 			setText(slot2:Find("IconTpl/icon_bg/count"), slot3.count)
 			setActive(slot2:Find("IconTpl/mask"), slot3.count == 0)
@@ -220,12 +243,12 @@ function slot0.didEnter(slot0)
 	slot0:UpdateAll()
 end
 
-function slot0.UpdateEquipItemByIndex(slot0, slot1, slot2)
+slot0.UpdateEquipItemByIndex = function(slot0, slot1, slot2)
 	TweenItemAlphaAndWhite(slot2)
 	slot0:UpdateEquipItem(slot0.candicateSpweapons[slot1 + 1], slot2)
 end
 
-function slot0.UpdateEquipItem(slot0, slot1, slot2)
+slot0.UpdateEquipItem = function(slot0, slot1, slot2)
 	slot3 = tf(slot2)
 
 	onButton(slot0, slot3, function ()
@@ -292,7 +315,7 @@ function slot0.UpdateEquipItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateSelectPt(slot0)
+slot0.UpdateSelectPt = function(slot0)
 	slot0.nextSpWeaponVO = nil
 	slot0.upgradeType = nil
 	slot0.upgradeMaxLevel = false
@@ -307,7 +330,7 @@ function slot0.UpdateSelectPt(slot0)
 	slot6 = 0
 	slot7 = {}
 
-	function slot8(slot0)
+	slot8 = function(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			slot6 = slot5[1]
 
@@ -392,7 +415,7 @@ function slot0.UpdateSelectPt(slot0)
 	end
 end
 
-function slot0.AutoSelectMaterials(slot0)
+slot0.AutoSelectMaterials = function(slot0)
 	slot1 = slot0.spWeaponVO:GetPt() + SpWeapon.CalculateHistoryPt(slot0.consumeItems, slot0.consumeSpweapons)
 	slot2 = slot0.spWeaponVO:GetConfigID()
 	slot3 = 0
@@ -425,7 +448,7 @@ function slot0.AutoSelectMaterials(slot0)
 		return
 	end
 
-	function slot5(slot0)
+	slot5 = function(slot0)
 		return Item.getConfigData(slot0.id).usage_arg[1]
 	end
 
@@ -496,7 +519,7 @@ function slot0.AutoSelectMaterials(slot0)
 	end)
 end
 
-function slot0.UpdateAll(slot0, slot1)
+slot0.UpdateAll = function(slot0, slot1)
 	slot0.craftMode = not slot0.spWeaponVO:IsReal() and uv0 or uv1
 
 	slot0:UpdateSelectPt()
@@ -532,7 +555,7 @@ function slot0.UpdateAll(slot0, slot1)
 				configId = slot5
 			}):getPainting(), nil, slot0.equipmentPanel:Find("Ship/Icon/Image"))
 
-			function slot7()
+			slot7 = function()
 				uv0:emit(BaseUI.ON_DROP, {
 					type = DROP_TYPE_SHIP,
 					id = uv1
@@ -561,7 +584,7 @@ function slot0.UpdateAll(slot0, slot1)
 	slot0:UpdateCraftTargetCount()
 end
 
-function slot0.UpdateCraftTargetCount(slot0)
+slot0.UpdateCraftTargetCount = function(slot0)
 	setActive(slot0.craftTargetCount, slot0.craftMode == uv0)
 
 	if not slot0.craftMode == uv0 then
@@ -579,7 +602,7 @@ function slot0.UpdateCraftTargetCount(slot0)
 	end))
 end
 
-function slot0.UpdateAttrs(slot0, slot1, slot2, slot3)
+slot0.UpdateAttrs = function(slot0, slot1, slot2, slot3)
 	slot4, slot5 = nil
 
 	if slot0.craftMode == uv0 then
@@ -595,10 +618,10 @@ function slot0.UpdateAttrs(slot0, slot1, slot2, slot3)
 	slot0:UpdateSpWeaponUpgradeInfo(slot1, slot4, slot5, slot3)
 end
 
-function slot0.UpdateSpWeaponUpgradeInfo(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateSpWeaponUpgradeInfo = function(slot0, slot1, slot2, slot3, slot4)
 	removeAllChildren(slot1:Find("attrs"))
 
-	function slot6(slot0, slot1)
+	slot6 = function(slot0, slot1)
 		slot2 = slot0:Find("base")
 
 		setText(slot2:Find("name"), slot1.name)
@@ -642,7 +665,7 @@ function slot0.UpdateSpWeaponUpgradeInfo(slot0, slot1, slot2, slot3, slot4)
 		})
 	end
 
-	function slot9(slot0, slot1)
+	slot9 = function(slot0, slot1)
 		slot2 = slot0:Find("base")
 		slot4 = slot1.effect
 
@@ -700,7 +723,7 @@ function slot0.UpdateSpWeaponUpgradeInfo(slot0, slot1, slot2, slot3, slot4)
 	end)(slot1:Find("attrs"), slot5, slot8)
 end
 
-function slot0.UpdateExpBar(slot0)
+slot0.UpdateExpBar = function(slot0)
 	slot1 = slot0.upgradeMaxLevel
 
 	setActive(slot0.materialPanelExpLv, not slot1)
@@ -726,7 +749,7 @@ function slot0.UpdateExpBar(slot0)
 	end
 end
 
-function slot0.UpdateMaterials(slot0)
+slot0.UpdateMaterials = function(slot0)
 	slot1 = slot0.upgradNeedMaterials
 	slot2 = slot0.upgradNeedGold
 	slot3 = slot0.spWeaponVO:GetNextUpgradeID() == 0
@@ -824,7 +847,7 @@ function slot0.UpdateMaterials(slot0)
 	setButtonEnabled(slot0.materialPanelButton, not slot0.upgradeMaxLevel)
 end
 
-function slot0.UpdatePtMaterials(slot0, slot1)
+slot0.UpdatePtMaterials = function(slot0, slot1)
 	slot0.candicateMaterials = _.map(uv0, function (slot0)
 		return uv0.itemVOs[slot0] or Item.New({
 			count = 0,
@@ -872,7 +895,7 @@ function slot0.UpdatePtMaterials(slot0, slot1)
 	setButtonEnabled(slot0.leftPanelClearSelectButton, slot5)
 end
 
-function slot0.UpdateSelectMaterial(slot0, slot1, slot2)
+slot0.UpdateSelectMaterial = function(slot0, slot1, slot2)
 	slot4 = slot0:GetSelectMaterial(slot1) and slot3.count or 0
 	slot5 = slot0.itemVOs[slot1] and slot0.itemVOs[slot1].count or 0
 
@@ -912,24 +935,24 @@ function slot0.UpdateSelectMaterial(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetSelectMaterial(slot0, slot1)
+slot0.GetSelectMaterial = function(slot0, slot1)
 	return _.detect(slot0.consumeItems, function (slot0)
 		return slot0.id == uv0
 	end)
 end
 
-function slot0.GetSelectSpWeapon(slot0, slot1)
+slot0.GetSelectSpWeapon = function(slot0, slot1)
 	if table.contains(slot0.consumeSpweapons, slot1) then
 		return slot1
 	end
 end
 
-function slot0.ClearSelectMaterials(slot0)
+slot0.ClearSelectMaterials = function(slot0)
 	table.clear(slot0.consumeItems)
 	table.clear(slot0.consumeSpweapons)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	slot0.loader:Clear()
 end

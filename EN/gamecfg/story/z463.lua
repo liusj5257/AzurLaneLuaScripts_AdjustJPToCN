@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z463",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z463",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"White Poem\n\n<size=45>III Interlude I</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgmDelay = 2,
-			bgName = "bg_story_room",
 			say = "Port - Dormitory",
+			bgName = "bg_story_room",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			bgName = "bg_story_room",
+			blackBg = true,
 			say = "For some reason, I found it difficult; to join their discussion, delicately.",
 			typewriter = {
 				speed = 0.05,

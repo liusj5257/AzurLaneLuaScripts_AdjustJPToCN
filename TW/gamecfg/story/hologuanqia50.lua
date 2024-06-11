@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA50",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA50",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "净化亲",
+			side = 2,
 			stopbgm = true,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "眼前的白色光芒久久没有消散",
 			flashin = {
 				delay = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "净化亲",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
 			nameColor = "#a9f548",
+			actorName = "净化亲",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
 			nameColor = "#a9f548",
+			actorName = "净化亲",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
 			nameColor = "#a9f548",
+			actorName = "净化亲",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -96,18 +96,18 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
 			bgmDelay = 1,
+			side = 2,
+			dir = 1,
+			blackBg = true,
+			actorName = "观察者",
 			bgm = "holo-inochi",
 			actor = 900012,
-			actorName = "观察者",
+			nameColor = "#a9f548",
 			say = "欢迎回来哦，净化亲~？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
 			nameColor = "#a9f548",
+			actorName = "净化亲",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -149,8 +149,8 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
 			nameColor = "#a9f548",
+			actorName = "净化亲",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
 			nameColor = "#a9f548",
+			actorName = "净化亲",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -181,8 +181,8 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
 			nameColor = "#a9f548",
+			actorName = "净化亲",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -197,15 +197,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "净化亲",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "…………………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
 			nameColor = "#a9f548",
+			actorName = "净化亲",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -247,8 +247,8 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
 			nameColor = "#a9f548",
+			actorName = "净化亲",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -263,8 +263,8 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
 			nameColor = "#a9f548",
+			actorName = "净化亲",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -279,8 +279,8 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
 			nameColor = "#a9f548",
+			actorName = "净化亲",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -295,15 +295,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "净化亲",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "什么也看不到，什么也听不到了，要是能骗到她们就好了…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
 			nameColor = "#a9f548",
+			actorName = "净化亲",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			actorName = "净化亲",
 			nameColor = "#a9f548",
+			actorName = "净化亲",
 			side = 2,
 			dir = 1,
 			blackBg = true,

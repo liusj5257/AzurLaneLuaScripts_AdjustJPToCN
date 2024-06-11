@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑海伦娜 雷达扫描区域易伤效果",
 	time = 0,
-	color = "yellow",
+	name = "黑海伦娜 雷达扫描区域易伤效果",
+	init_effect = "",
+	id = 8894,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8894,
+	color = "yellow",
 	icon = 8894,
 	last_effect = "Darkness",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.25
+				number = 0.25,
+				attr = "injureRatio"
 			}
 		}
 	}

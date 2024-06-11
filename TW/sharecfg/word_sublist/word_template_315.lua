@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_315 = {}
 slot1 = slot0.word_template_315
 
-function temp()
+temp = function()
 	uv0["鰨"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["闥"] = {
 		this = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["臺"] = {
 		["盟"] = {
 			this = true
@@ -168,7 +168,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鮐"] = {
 		this = {
 			this = true

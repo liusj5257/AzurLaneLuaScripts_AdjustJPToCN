@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDS08",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDS08",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "You used the Hidden Zone Data Logger. All Hidden Zones have been scouted, and Hidden Zone Strategic Search has been unlocked.",
 			typewriter = {
 				speed = 0.05,

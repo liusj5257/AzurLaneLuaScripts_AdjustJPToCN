@@ -9,9 +9,9 @@ return {
 			style = {
 				text = "G.M시스템 우측 하단의 버튼을 터치하여 분석기 진입 가능",
 				mode = 1,
-				posY = 192.3,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 192.3,
 				posX = 353.1
 			},
 			ui = {
@@ -20,11 +20,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = -50,
+					rotateY = 180,
 					posY = -50,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 180
+					posX = -50
 				}
 			}
 		},

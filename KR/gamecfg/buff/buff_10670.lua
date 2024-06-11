@@ -62,12 +62,12 @@ return {
 	desc_get = "主力舰队中战列、战巡只存在自己一艘时（可以有其他类型舰船）伤害提升10.0%(满级30.0%)",
 	name = "北方的孤独女王",
 	init_effect = "",
+	id = 10670,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主力舰队中战列、战巡只存在自己一艘时（可以有其他类型舰船）伤害提升$1",
 	stack = 1,
-	id = 10670,
+	color = "red",
 	icon = 10670,
 	last_effect = "",
 	effect_list = {
@@ -80,8 +80,8 @@ return {
 			arg_list = {
 				check_target = "TargetShipTypeFriendly",
 				quota = 1,
-				skill_id = 10670,
 				maxTargetNumber = 1,
+				skill_id = 10670,
 				ship_type_list = {
 					4,
 					5

@@ -1,10 +1,10 @@
 slot0 = class("CardTowerCardDeckLayerCombat", CardPuzzleCardDeckLayer)
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CardTowerCardDeckCombat"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.labelCH = slot0:findTF("label/ch")
@@ -33,7 +33,7 @@ function slot0.init(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.showHand(slot0)
+slot0.showHand = function(slot0)
 	setText(slot0.labelCH, i18n("card_battle_card details_hand"))
 
 	slot0.cards = slot0.hand
@@ -41,7 +41,7 @@ function slot0.showHand(slot0)
 	slot0:RefreshCards()
 end
 
-function slot0.showDeck(slot0)
+slot0.showDeck = function(slot0)
 	setText(slot0.labelCH, i18n("card_battle_card details_deck"))
 
 	slot0.cards = slot0.deck
@@ -49,27 +49,27 @@ function slot0.showDeck(slot0)
 	slot0:RefreshCards()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	triggerToggle(slot0.switchToggle, false)
 end
 
-function slot0.SetCards(slot0, slot1, slot2)
+slot0.SetCards = function(slot0, slot1, slot2)
 	slot0.deck = slot1
 	slot0.hand = slot2
 end
 
-function slot0.RefreshCards(slot0)
+slot0.RefreshCards = function(slot0)
 	setActive(slot0.empty, #slot0.cards == 0)
 	slot0.cardListComp:SetTotalCount(#slot0.cards)
 end
 
-function slot0.OnBackward(slot0)
+slot0.OnBackward = function(slot0)
 	slot0:emit(CardPuzzleCardDeckMediator.CLOSE_LAYER)
 
 	return uv0.super.OnBackward(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

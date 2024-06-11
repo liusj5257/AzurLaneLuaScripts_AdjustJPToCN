@@ -3,12 +3,12 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
+			nameColor = "#A9F548FF",
 			stopbgm = true,
 			bgm = "battle-whaling-normal",
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "Our cannons cannot penetrate it, even at this close range?",
 			painting = {
 				alpha = 0.3,
@@ -85,10 +85,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "KABOOOM!",
+			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,9 +136,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 201360,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "Did that thing just dodge her shot? So much for being halfway dead!",
 			painting = {
 				alpha = 0.3,
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -168,9 +168,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 202330,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "It would seem our enemy's combat ability rivals that of even elite Sirens.",
 			painting = {
 				alpha = 0.3,
@@ -191,8 +191,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			say = "I can see now why La Galissonnière opted not to fight it head-on.",
 			painting = {
 				alpha = 0.3,
@@ -207,8 +207,8 @@ return {
 			expression = 5,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 205140,
 			dir = 1,
+			actor = 205140,
 			say = "This can't be happening...",
 			painting = {
 				alpha = 0.3,
@@ -223,8 +223,8 @@ return {
 			expression = 6,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 205140,
 			dir = 1,
+			actor = 205140,
 			say = "Even with Implacable, Richelieu, and support from the Ashes, we still can't defeat an injured Horseman...?",
 			painting = {
 				alpha = 0.3,
@@ -239,8 +239,8 @@ return {
 			expression = 4,
 			side = 2,
 			paintingNoise = true,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Small correction – our Ashes ally isn't doing much of anything.",
 			painting = {
@@ -256,8 +256,8 @@ return {
 			actor = 207070,
 			side = 2,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "La Galissonnière, what are you doing? Didn't you say you'd help us?",
 			painting = {
 				alpha = 0.3,
@@ -287,8 +287,8 @@ return {
 			expression = 5,
 			side = 2,
 			paintingNoise = true,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Excuse me? Don't tell me you're praying for it to give up.",
 			painting = {
@@ -304,8 +304,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "Give up? No, more like blow up! Literally!",
 			painting = {
 				alpha = 0.3,
@@ -320,8 +320,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "\"O, benevolent Iris, whose holy words I heed, whose divine will I carry out...\"",
 			painting = {
 				alpha = 0.3,
@@ -336,8 +336,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "\"Take my enemy as your own, feel my fury as your own...\"",
 			painting = {
 				alpha = 0.3,
@@ -352,8 +352,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "\"Grant me strength! Give me the power to cleanse this evil from your world!\"",
 			painting = {
 				alpha = 0.3,
@@ -365,9 +365,9 @@ return {
 			}
 		},
 		{
-			eventDelay = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
+			eventDelay = 2,
 			say = "La Galissonnière's echoing prayer swept like a rejuvenating wind across the battlefield, instantly dispersing the noxious energy that infested it.",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "At the same time, the black Horseman staggered as the tide of battle began turning in the shipgirls' favor.",
 			typewriter = {
 				speed = 0.05,
@@ -393,8 +393,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "What in the world...? The Horseman is weakening?",
 			painting = {
 				alpha = 0.3,
@@ -423,9 +423,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 900353,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "Let's see how tough you really are, skinny boy! Ahahaha!",
 			painting = {
 				alpha = 0.3,

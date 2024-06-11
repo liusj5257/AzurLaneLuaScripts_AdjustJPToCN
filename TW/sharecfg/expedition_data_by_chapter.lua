@@ -6,13 +6,13 @@ pg.expedition_data_by_chapter = {
 		chapter_name = "1-1",
 		type = 1,
 		name = "演习",
+		pos_y = "0.45",
 		chapter = 101,
 		chapter_number = 1,
-		pos_y = "0.45",
 		decorate_points = {
 			{
-				pos_x = "0.25",
-				pos_y = "0.35"
+				pos_y = "0.35",
+				pos_x = "0.25"
 			}
 		},
 		cloud = {
@@ -73,13 +73,13 @@ pg.expedition_data_by_chapter = {
 		chapter_name = "1-2",
 		type = 1,
 		name = "珍珠港",
+		pos_y = "0.33",
 		chapter = 102,
 		chapter_number = 3,
-		pos_y = "0.33",
 		decorate_points = {
 			{
-				pos_x = "0.43",
-				pos_y = "0.35"
+				pos_y = "0.35",
+				pos_x = "0.43"
 			}
 		},
 		cloud = {
@@ -161,13 +161,13 @@ pg.expedition_data_by_chapter = {
 		chapter_name = "1-3",
 		type = 1,
 		name = "拦截",
+		pos_y = "0.44",
 		chapter = 103,
 		chapter_number = 5,
-		pos_y = "0.44",
 		decorate_points = {
 			{
-				pos_x = "0.565",
-				pos_y = "0.551"
+				pos_y = "0.551",
+				pos_x = "0.565"
 			}
 		},
 		cloud = {
@@ -249,13 +249,13 @@ pg.expedition_data_by_chapter = {
 		chapter_name = "1-4",
 		type = 1,
 		name = "突破",
+		pos_y = "0.6",
 		chapter = 104,
 		chapter_number = 7,
-		pos_y = "0.6",
 		decorate_points = {
 			{
-				pos_x = "0.725",
-				pos_y = "0.65"
+				pos_y = "0.65",
+				pos_x = "0.725"
 			}
 		},
 		cloud = {
@@ -337,9 +337,9 @@ pg.expedition_data_by_chapter = {
 		chapter_name = "1-5",
 		type = 1,
 		name = "联合舰队",
+		pos_y = "0.75",
 		chapter = 105,
 		chapter_number = 8,
-		pos_y = "0.75",
 		decorate_points = {},
 		cloud = {
 			{
@@ -399,9 +399,9 @@ pg.expedition_data_by_chapter = {
 		chapter_name = "2-1",
 		type = 1,
 		name = "未定义",
+		pos_y = "0.15",
 		chapter = 201,
 		chapter_number = 1,
-		pos_y = "0.15",
 		decorate_points = {},
 		cloud = {
 			{
@@ -454,9 +454,9 @@ pg.expedition_data_by_chapter = {
 		chapter_name = "2-2",
 		type = 1,
 		name = "未定义",
+		pos_y = "0.23",
 		chapter = 202,
 		chapter_number = 2,
-		pos_y = "0.23",
 		decorate_points = {},
 		cloud = {
 			{
@@ -509,9 +509,9 @@ pg.expedition_data_by_chapter = {
 		chapter_name = "2-3",
 		type = 1,
 		name = "未定义",
+		pos_y = "0.165",
 		chapter = 203,
 		chapter_number = 3,
-		pos_y = "0.165",
 		decorate_points = {},
 		cloud = {
 			{
@@ -564,9 +564,9 @@ pg.expedition_data_by_chapter = {
 		chapter_name = "2-4",
 		type = 1,
 		name = "未定义",
+		pos_y = "0.22",
 		chapter = 204,
 		chapter_number = 4,
-		pos_y = "0.22",
 		decorate_points = {},
 		cloud = {
 			{

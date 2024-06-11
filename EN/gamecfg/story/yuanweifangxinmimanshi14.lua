@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Orthodoxy's Banquet\n\n<size=45>The Blackout Nightmare</size>",
@@ -14,8 +14,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = false,
+			mode = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
 			sequence = {
@@ -36,9 +36,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_154",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_154",
 			actor = 702012,
 			actorName = "Avrora?",
 			say = "I get the picture now. Continue with the job.",
@@ -63,8 +63,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_154",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			actor = 702012,
 			actorName = "Avrora?",
 			say = "I'll say this one last time – bring 'em back ALIVE. Got it?",
@@ -84,10 +84,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
+			side = 2,
 			say = "A figure I can only assume is Avrora barks out an order, then turns her attention to me.",
 			typewriter = {
 				speed = 0.05,
@@ -168,11 +168,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "Avrora",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "Avrora",
 			say = "What was that? Are you playing dumb with me, or are you still drugged out?",
 			painting = {
 				alpha = 0.3,
@@ -187,11 +187,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "Avrora?",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "Avrora?",
 			say = "Of course you don't. Like you don't all tell me that every single day.",
 			painting = {
 				alpha = 0.3,
@@ -257,8 +257,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -267,8 +267,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			say = "\"Avrora, no! Stop!\"",
@@ -283,8 +283,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			say = "Wait a second. Avrora would never say or do anything like this!",
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			say = "The only answer is...",
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -341,12 +341,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_154",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			actor = 702012,
 			actorName = "Avrora?",
+			actor = 702012,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_154",
 			say = "Oh? So you know my name. That means there's a rat in our ranks.~",
 			flashout = {
 				dur = 0.15,
@@ -381,11 +381,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "Avrora?",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "Avrora?",
 			say = "Thanks for the tip. That gives me two cans of beans to crack open.",
 			painting = {
 				alpha = 0.3,
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -434,11 +434,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "Avrora?",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "Avrora?",
 			say = "Hah! Been long since I dealt with someone with an actual backbone. Now you've got me excited.~",
 			painting = {
 				alpha = 0.3,
@@ -453,11 +453,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "Avrora?",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "Avrora?",
 			say = "I'm gonna enjoy finding out how long you'll last. Hehehe.",
 			painting = {
 				alpha = 0.3,
@@ -469,11 +469,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_154",
-			hidePaintObj = true,
 			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"AAAAHHHH!\"",
 			flashout = {
 				dur = 0.15,
@@ -504,11 +504,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "Avrora?",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "Avrora?",
 			say = "Cry! Scream! Eat this goddamn piroshki!~",
 			painting = {
 				alpha = 0.3,
@@ -520,14 +520,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			side = 2,
-			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "star_level_bg_107",
 			bgm = "story-richang-4",
 			actor = 702010,
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Oh dear... The Commander is tossing and turning.",
 			painting = {
@@ -539,17 +539,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -557,12 +557,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Maybe a lap pillow wasn't the brightest idea. My legs are getting numb...",
 			painting = {
 				alpha = 0.3,
@@ -574,12 +574,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Although... This is the least I can do, after that blunder.",
 			painting = {
 				alpha = 0.3,
@@ -591,8 +591,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "\"Avrora! Stop!\"",
@@ -607,12 +607,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*gasp*! St-stop what?",
 			painting = {
 				alpha = 0.3,
@@ -624,16 +624,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -642,12 +642,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What kind of awful dream did you have?",
 			painting = {
 				alpha = 0.3,

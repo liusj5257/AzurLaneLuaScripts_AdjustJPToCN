@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023古立特联动复刻 TSS2 宝多六花 急速模式",
 	time = 0,
-	id = 200492,
+	name = "2023古立特联动复刻 TSS2 宝多六花 急速模式",
+	init_effect = "",
+	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	color = "red",
+	id = 200492,
 	last_effect = "",
 	effect_list = {
 		{

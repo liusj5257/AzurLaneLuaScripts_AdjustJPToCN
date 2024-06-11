@@ -1,7 +1,7 @@
 return {
-	time = 6,
 	name = "纳尔逊的旗语",
 	init_effect = "jinengchufablue",
+	time = 6,
 	picture = "",
 	desc = "6s承受全体先锋24%伤害",
 	stack = 1,

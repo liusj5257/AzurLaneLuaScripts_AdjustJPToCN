@@ -3,15 +3,15 @@ slot1 = 3
 slot2 = 4
 slot3 = 101
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "dailylevelui"
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return true
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.topPanel = slot0:findTF("blur_panel/adapt/top")
 	slot0.backBtn = slot0:findTF("back_button", slot0.topPanel)
@@ -44,23 +44,23 @@ function slot0.init(slot0)
 	slot0:initItems()
 end
 
-function slot0.getWeek()
+slot0.getWeek = function()
 	return pg.TimeMgr.GetInstance():GetServerWeek()
 end
 
-function slot0.setDailyCounts(slot0, slot1)
+slot0.setDailyCounts = function(slot0, slot1)
 	slot0.dailyCounts = slot1
 end
 
-function slot0.setShips(slot0, slot1)
+slot0.setShips = function(slot0, slot1)
 	slot0.shipVOs = slot1
 end
 
-function slot0.updateRes(slot0, slot1)
+slot0.updateRes = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("help_btn"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
@@ -96,7 +96,7 @@ function slot0.didEnter(slot0)
 	slot0:ShowGuildTaskTip()
 end
 
-function slot0.initItems(slot0)
+slot0.initItems = function(slot0)
 	slot1 = getProxy(DailyLevelProxy)
 
 	slot1:setDailyTip(false)
@@ -132,7 +132,7 @@ function slot0.initItems(slot0)
 	end
 end
 
-function slot0.sortDailyList(slot0)
+slot0.sortDailyList = function(slot0)
 	if #slot0.dailyList % 2 ~= 1 then
 		table.insert(slot0.dailyList, uv0)
 	end
@@ -142,7 +142,7 @@ function slot0.sortDailyList(slot0)
 	end)
 end
 
-function slot0.updateShowCenter(slot0)
+slot0.updateShowCenter = function(slot0)
 	if not slot0.dailyList or #slot0.dailyList == 0 then
 		return
 	end
@@ -173,7 +173,7 @@ function slot0.updateShowCenter(slot0)
 	end
 end
 
-function slot0.displayDailyLevels(slot0)
+slot0.displayDailyLevels = function(slot0)
 	for slot4, slot5 in pairs(slot0.dailyLevelTFs) do
 		slot0:initDailyLevel(slot4)
 	end
@@ -230,7 +230,7 @@ function slot0.displayDailyLevels(slot0)
 	slot0.checkAniTimer:Start()
 end
 
-function slot0.tryOpenDesc(slot0, slot1)
+slot0.tryOpenDesc = function(slot0, slot1)
 	slot2 = slot0.dailyLevelTFs[slot1]
 
 	if table.contains(pg.expedition_daily_template[slot1].weekday, tonumber(slot0:getWeek())) then
@@ -240,7 +240,7 @@ function slot0.tryOpenDesc(slot0, slot1)
 	end
 end
 
-function slot0.CanOpenDailyLevel(slot0)
+slot0.CanOpenDailyLevel = function(slot0)
 	slot2 = false
 
 	if table.contains(pg.expedition_daily_template[slot0].weekday, tonumber(uv0.getWeek())) then
@@ -250,7 +250,7 @@ function slot0.CanOpenDailyLevel(slot0)
 	return slot2, slot1.tips
 end
 
-function slot0.getNextCardId(slot0, slot1)
+slot0.getNextCardId = function(slot0, slot1)
 	slot2 = table.indexof(slot0.dailyList, slot0.centerCardId)
 
 	if slot1 then
@@ -264,7 +264,7 @@ function slot0.getNextCardId(slot0, slot1)
 	return slot0.dailyList[slot2]
 end
 
-function slot0.initDailyLevel(slot0, slot1)
+slot0.initDailyLevel = function(slot0, slot1)
 	slot3 = slot0.dailyLevelTFs[slot1]
 
 	if table.contains(pg.expedition_daily_template[slot1].weekday, tonumber(slot0:getWeek())) then
@@ -324,7 +324,7 @@ function slot0.initDailyLevel(slot0, slot1)
 	slot0:UpdateDailyLevelCnt(slot1)
 end
 
-function slot0.UpdateDailyLevelCnt(slot0, slot1)
+slot0.UpdateDailyLevelCnt = function(slot0, slot1)
 	slot4 = findTF(slot0.dailyLevelTFs[slot1], "count")
 	slot5 = slot0.dailyCounts[slot1] or 0
 
@@ -337,14 +337,14 @@ function slot0.UpdateDailyLevelCnt(slot0, slot1)
 	setActive(slot4, slot2.limit_time > 0)
 end
 
-function slot0.openDailyDesc(slot0, slot1)
+slot0.openDailyDesc = function(slot0, slot1)
 	slot0.curId = slot1
 
 	slot0:enableDescMode(true)
 	slot0:displayStageList(slot1)
 end
 
-function slot0.UpdateDailyLevelCntForDescPanel(slot0, slot1)
+slot0.UpdateDailyLevelCntForDescPanel = function(slot0, slot1)
 	slot3 = slot0.dailyCounts[slot1] or 0
 
 	if pg.expedition_daily_template[slot1].limit_time == 0 then
@@ -354,7 +354,7 @@ function slot0.UpdateDailyLevelCntForDescPanel(slot0, slot1)
 	end
 end
 
-function slot0.displayStageList(slot0, slot1)
+slot0.displayStageList = function(slot0, slot1)
 	slot0.dailyLevelId = slot1
 	slot0.contextData.dailyLevelId = slot0.dailyLevelId
 
@@ -393,7 +393,7 @@ function slot0.displayStageList(slot0, slot1)
 	end
 end
 
-function slot0.updateStageTF(slot0, slot1, slot2)
+slot0.updateStageTF = function(slot0, slot1, slot2)
 	setText(findTF(slot1, "left_panel/name"), pg.expedition_data_template[slot2.id].name)
 	setText(findTF(slot1, "left_panel/lv/Text"), "Lv." .. slot2.level)
 	setActive(slot0:findTF("mask", slot1), slot0.player.level < slot2.level)
@@ -428,7 +428,7 @@ function slot0.updateStageTF(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.updateStage(slot0, slot1)
+slot0.updateStage = function(slot0, slot1)
 	slot2 = slot0.stageTFs[slot1.id]
 	slot2 = slot2:Find("info")
 
@@ -452,7 +452,7 @@ function slot0.updateStage(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.OnOpenPreCombat(slot0, slot1)
+slot0.OnOpenPreCombat = function(slot0, slot1)
 	if pg.expedition_daily_template[slot0.dailyLevelId].limit_time <= (slot0.dailyCounts[slot0.dailyLevelId] or 0) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_restCount_notEnough"))
 
@@ -463,7 +463,7 @@ function slot0.OnOpenPreCombat(slot0, slot1)
 	slot0:emit(DailyLevelMediator.ON_STAGE, slot1)
 end
 
-function slot0.OnSelectStage(slot0, slot1)
+slot0.OnSelectStage = function(slot0, slot1)
 	onButton(slot0, slot0.selectedPanel:Find("stagetpl/info"), function ()
 		uv0:EnableOrDisable(uv1, false)
 	end, SFX_PANEL)
@@ -473,7 +473,7 @@ function slot0.OnSelectStage(slot0, slot1)
 	slot0:EnableOrDisable(slot1, true)
 end
 
-function slot0.EnableOrDisable(slot0, slot1, slot2)
+slot0.EnableOrDisable = function(slot0, slot1, slot2)
 	slot3 = slot0.stageTFs[slot1.id]:Find("quickly")
 
 	if LeanTween.isTweening(go(slot0.stageContain)) or LeanTween.isTweening(go(slot0.selQuicklyTF)) then
@@ -495,7 +495,7 @@ function slot0.EnableOrDisable(slot0, slot1, slot2)
 	end
 end
 
-function slot0.DoSelectedAnimation(slot0, slot1, slot2, slot3)
+slot0.DoSelectedAnimation = function(slot0, slot1, slot2, slot3)
 	slot4 = math.abs(slot2) / 2000
 
 	seriesAsync({
@@ -535,7 +535,7 @@ function slot0.DoSelectedAnimation(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
-function slot0.DoUnselectAnimtion(slot0, slot1, slot2)
+slot0.DoUnselectAnimtion = function(slot0, slot1, slot2)
 	slot3 = slot0.stageContain.anchoredPosition
 
 	seriesAsync({
@@ -565,7 +565,7 @@ function slot0.DoUnselectAnimtion(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.UpdateBattleBtn(slot0, slot1)
+slot0.UpdateBattleBtn = function(slot0, slot1)
 	slot3 = slot0.selectedPanel:Find("stagetpl/info").parent:Find("quickly/bg")
 	slot6 = pg.expedition_daily_template[slot0.dailyLevelId].limit_time - (slot0.dailyCounts[slot0.dailyLevelId] or 0)
 	slot7 = slot3:Find("challenge")
@@ -596,7 +596,7 @@ function slot0.UpdateBattleBtn(slot0, slot1)
 	end
 end
 
-function slot0.OnQuickBattle(slot0, slot1, slot2)
+slot0.OnQuickBattle = function(slot0, slot1, slot2)
 	if slot2 <= 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("dailyLevel_restCount_notEnough"))
 
@@ -617,12 +617,12 @@ function slot0.OnQuickBattle(slot0, slot1, slot2)
 	end
 end
 
-function slot0.enableDescMode(slot0, slot1, slot2)
+slot0.enableDescMode = function(slot0, slot1, slot2)
 	slot0.descMode = slot1
 
 	setActive(slot0:findTF("help_btn"), not slot1)
 
-	function slot3(slot0, slot1, slot2)
+	slot3 = function(slot0, slot1, slot2)
 		if LeanTween.isTweening(go(slot0)) then
 			LeanTween.cancel(go(slot0))
 		end
@@ -637,7 +637,7 @@ function slot0.enableDescMode(slot0, slot1, slot2)
 		end))
 	end
 
-	function slot4()
+	slot4 = function()
 		for slot3, slot4 in pairs(uv0.dailyLevelTFs) do
 			setButtonEnabled(slot4, not uv1)
 
@@ -665,7 +665,7 @@ function slot0.enableDescMode(slot0, slot1, slot2)
 		end
 	end
 
-	function slot5()
+	slot5 = function()
 		setActive(uv0.listPanel, true)
 		setActive(uv0.content, true)
 		setActive(uv0.descPanel, uv1)
@@ -690,7 +690,7 @@ function slot0.enableDescMode(slot0, slot1, slot2)
 	end
 end
 
-function slot0.flipToSpecificCard(slot0, slot1)
+slot0.flipToSpecificCard = function(slot0, slot1)
 	slot2 = slot0.content:GetComponent(typeof(EnhancelScrollView))
 
 	for slot6, slot7 in pairs(slot0.dailyLevelTFs) do
@@ -700,7 +700,7 @@ function slot0.flipToSpecificCard(slot0, slot1)
 	end
 end
 
-function slot0.tryPlayGuide(slot0)
+slot0.tryPlayGuide = function(slot0)
 	slot1 = pg.SystemGuideMgr.GetInstance()
 
 	slot1:PlayDailyLevel(function ()
@@ -708,16 +708,16 @@ function slot0.tryPlayGuide(slot0)
 	end)
 end
 
-function slot0.ShowGuildTaskTip(slot0)
+slot0.ShowGuildTaskTip = function(slot0)
 	pg.GuildMsgBoxMgr.GetInstance():NotificationForDailyBattle()
 end
 
-function slot0.clearTween(slot0)
+slot0.clearTween = function(slot0)
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)
 	end
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		if LeanTween.isTweening(go(slot0)) then
 			LeanTween.cancel(go(slot0))
 		end
@@ -731,7 +731,7 @@ function slot0.clearTween(slot0)
 	slot1(slot0.descMain)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.descMode then
 		if LeanTween.isTweening(go(slot0.stageContain)) or LeanTween.isTweening(go(slot0.selQuicklyTF)) then
 			return
@@ -745,7 +745,7 @@ function slot0.onBackPressed(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.selectedStage then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.selectedPanel, slot0._tf)
 	end

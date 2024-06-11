@@ -1,25 +1,25 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GULITEGUANQIA10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GULITEGUANQIA10",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_138",
-			bgm = "ssss-az-story",
 			dir = 1,
 			bgmDelay = 2,
 			hidePaintEquip = true,
+			bgm = "ssss-az-story",
 			actor = 10800030,
 			nameColor = "#a9f548",
+			bgName = "star_level_bg_138",
 			say = "つまんないー。また私たちだけ取り残されちゃったよ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,11 +47,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800040,
 			nameColor = "#a9f548",
 			say = "外で遊びたーい",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,11 +65,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800020,
 			nameColor = "#a9f548",
 			say = "しょうがないよ。戦力外の私たちに外は危険だもんー",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,11 +83,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800010,
 			nameColor = "#a9f548",
 			say = "アカネ、今回は本当に何もできないの？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,13 +98,13 @@ return {
 			}
 		},
 		{
-			actor = 10800020,
 			side = 2,
 			bgName = "star_level_bg_138",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "うん。そうなんだー",
 			hidePaintEquip = true,
+			actor = 10800020,
+			nameColor = "#a9f548",
+			say = "うん。そうなんだー",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,11 +118,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800020,
 			nameColor = "#a9f548",
 			say = "でもピュリっち、あなた、本当にセイレーンなの？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,10 +136,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actorName = "ピュリっち",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			hidePaintObj = true,
 			say = "セイレーンだと思えば～セイレーンちゃう～？",
 			typewriter = {
@@ -155,10 +155,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actorName = "ピュリっち",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			hidePaintObj = true,
 			say = "にしても、ピュリっちってやっぱり悪いやつですね…",
 			typewriter = {
@@ -174,11 +174,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800020,
 			nameColor = "#a9f548",
 			say = "はいはいー落ち込んでる場合じゃないよー今はそれより……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,13 +189,13 @@ return {
 			}
 		},
 		{
-			actor = 10800020,
 			side = 2,
 			bgName = "star_level_bg_138",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "セイレーンの上位個体だったら、あの「約束」してくれたセイレーンのできることもできるでしょー？",
 			hidePaintEquip = true,
+			actor = 10800020,
+			nameColor = "#a9f548",
+			say = "セイレーンの上位個体だったら、あの「約束」してくれたセイレーンのできることもできるでしょー？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,10 +209,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actorName = "ピュリっち",
+			nameColor = "#a9f548",
 			dir = 1,
 			actor = 900233,
-			nameColor = "#a9f548",
+			actorName = "ピュリっち",
 			hidePaintObj = true,
 			say = "タブンネ♪",
 			typewriter = {
@@ -225,13 +225,13 @@ return {
 			}
 		},
 		{
-			actor = 10800010,
 			side = 2,
 			bgName = "star_level_bg_138",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ちょっとアカネ、まさか！",
 			hidePaintEquip = true,
+			actor = 10800010,
+			nameColor = "#a9f548",
+			say = "ちょっとアカネ、まさか！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,8 +242,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -255,11 +255,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800020,
 			nameColor = "#a9f548",
 			say = "ふふふ。面白くなるぞー",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,11 +273,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_138",
-			actor = 10800020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800020,
 			nameColor = "#a9f548",
 			say = "その手を使えば私たちも戦えるようになるでしょー？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

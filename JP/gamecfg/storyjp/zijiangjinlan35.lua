@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN35",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN35",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg0",
+			nameColor = "#A9F548FF",
+			bgm = "story-mayrain",
 			stopbgm = true,
 			say = "盤上の演習の翌日、まるで前日が嵐だったとは思えないように天気は快晴だった。",
-			bgm = "story-mayrain",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -103,8 +103,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "ええ、また今度遊びにでもいらっしゃい",
 			painting = {
@@ -136,8 +136,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "そのことだけど…昨夜急用ができたらしく、本島から連絡を受けてすぐ帰路についたわ",
 			painting = {
@@ -153,8 +153,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "ということは嵐の中を航行していったのか？無事だといいが…",
 			painting = {
@@ -170,8 +170,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "妾も引き止めたけど聞いてはくれなかったわ。随分と忙しかったようで",
 			painting = {
@@ -187,8 +187,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "して、三笠大先輩と長門さまはもう少しここで盤桓（はんかん）するのかしら？",
 			painting = {
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "かの碁盤だけでなく、ほかにもいくつか、興味を惹けるような遊具が揃っているわ",
 			painting = {
@@ -221,8 +221,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "ご厚意感謝する。が、我にも用ができてな…その楽しそうな遊戯とやらはまた今度にするぞ",
 			painting = {
@@ -238,8 +238,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 900330,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
 			say = "三笠大先輩は用があるようだけど…御狐さまはいかに？セイレーンの力を使った強化量産艦を見せるように約束してたけど",
 			painting = {
@@ -255,8 +255,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "それも今度で良い。すまんが、余も別件の用事があってこれにて失礼するぞ",
 			painting = {
@@ -272,8 +272,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "連絡があるなら山風にでも連絡してもらうと良い。では",
 			painting = {
@@ -289,8 +289,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "三笠大先輩、すまない、余があの時加賀に攻撃の命令を出していれば……",
 			painting = {
@@ -302,17 +302,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -323,8 +323,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "たかが演習だぞ。気にするな",
 			painting = {
@@ -372,8 +372,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "我々が何も知らない以上、武蔵に聞いても要領が得られぬ",
 			painting = {
@@ -405,8 +405,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "それに、今回は赤城の「本心」を聞くことができた",
 			painting = {
@@ -422,8 +422,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "赤城が持っている「力」もな。…負けたけど成果は上々、ということか",
 			painting = {

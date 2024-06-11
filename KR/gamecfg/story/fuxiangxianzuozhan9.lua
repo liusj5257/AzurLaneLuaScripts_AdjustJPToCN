@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN9",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "blueocean-image",
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			say = "펑————————!",
 			dir = 1,
-			bgm = "blueocean-image",
+			soundeffect = "event:/battle/boom2",
+			say = "펑————————!",
 			flashN = {
 				color = {
 					1,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "킹 조지 5세?",
+			side = 1,
 			bgName = "bg_fuxiangxian_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "자신감이 있는 건 좋은 일이지, 하인리히. 다음 훈련에는 로열 네이비에 일러스트리어스급 3척과 퀸 엘리자베스급 3척을 포함시키는 편이 좋겠어.",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "미안해! 방금 그 말은 잊어줘!",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,8 +171,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "음.......",
 			typewriter = {
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "아니, 계획 변경이야. 사쿠라 엠파이어 함대와 다른 훈련은 오후로 미루고, 지금은 쉬고 점심을 먹자.",
 			typewriter = {
@@ -218,11 +218,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "에? 좋아! 그럼 나 먼저 갈게~",
 			typewriter = {
 				speed = 0.05,
@@ -234,8 +234,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,8 +263,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "...아직도 통신 시스템 고장이 신경 쓰여?",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "걱정일 뿐이지만... 방어 시설을 점검하고 올게. 너도 E2 부도에 돌아서 쉬도록 해. 금방 갈게.",
 			typewriter = {
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 407030,
 			side = 2,
 			bgName = "bg_fuxiangxian_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 407030,
+			nameColor = "#a9f548",
 			say = "고마워. 그렇게 할게.",
 			typewriter = {
 				speed = 0.05,

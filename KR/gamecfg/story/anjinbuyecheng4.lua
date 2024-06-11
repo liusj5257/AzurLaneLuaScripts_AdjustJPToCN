@@ -4,19 +4,19 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_131",
-			say = "불야성, 블록33 보안국",
 			bgm = "story-antarctica-serious",
+			say = "불야성, 블록33 보안국",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_131",
 			say = "사건 발생 33분 후……",
 			typewriter = {
@@ -25,11 +25,11 @@ return {
 			}
 		},
 		{
-			actor = 703012,
 			side = 2,
 			bgName = "star_level_bg_131",
 			factiontag = "보안국 국장",
 			dir = 1,
+			actor = 703012,
 			nameColor = "#FF9B93",
 			say = "네, 블록33 보안국입니다.",
 			painting = {
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 703012,
 			side = 2,
 			bgName = "star_level_bg_131",
 			factiontag = "보안국 국장",
 			dir = 1,
+			actor = 703012,
 			nameColor = "#FF9B93",
 			say = "…그러니까 범인은 하수도로 도망쳐서 지금 이 블록에서 도주 중이라는 거지?",
 			painting = {
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_131",
 			factiontag = "보안국 경관",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "알았다, 나한테 맡겨라…",
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			say = "3분 후, 블록33 고속도로 입구",
 			typewriter = {
@@ -176,17 +176,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "보안국 경관",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = "home",
 			say = "탈린, 해당 구역에 도착했는데…… 아직 별 이상은 없군.",
@@ -249,11 +249,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "보안국 경관",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "다시 수색해 보마. 하지만 범인이 다른 블록으로 도망갔다면…",
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			say = "통화 상대가 바뀐 걸 깨닫고 키로프는 급하게 드리프트를 해서 길거리에 오토바이를 주차했다.",
 			typewriter = {
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "보안국 경관",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "……누구냐?!",
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "보안국 경관",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "궤변이로군. 내 눈에는 그저 위험한 탈옥자의 추적을 방해하고 있는 걸로 보인다만?",
@@ -783,11 +783,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "보안국 경관",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = "main2",
 			say = "……탈린?",

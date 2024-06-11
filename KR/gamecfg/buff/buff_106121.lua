@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "主炮飞行速度提高",
 	stack = 1,
@@ -22,8 +22,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "bulletSpeedRatio",
 				number = 0.1,
+				attr = "bulletSpeedRatio",
 				index = {
 					1
 				}

@@ -1,12 +1,12 @@
 return {
-	time = 15,
-	name = "",
 	init_effect = "",
+	name = "",
+	time = 15,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 999975,
-	picture = "",
 	last_effect = "act_heal",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -14,9 +14,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				time = 10,
 				skill_id = 999975,
-				target = "TargetSelf",
-				time = 10
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 999975,
 				time = 10.5,
+				skill_id = 999975,
 				target = "TargetSelf",
 				check_target = {
 					"TargetShipTag"
@@ -44,8 +44,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 999975,
 				time = 11,
+				skill_id = 999975,
 				target = "TargetSelf",
 				check_target = {
 					"TargetShipTag"
@@ -62,8 +62,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 999975,
 				time = 11.5,
+				skill_id = 999975,
 				target = "TargetSelf",
 				check_target = {
 					"TargetShipTag"

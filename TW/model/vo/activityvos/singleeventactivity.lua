@@ -1,6 +1,6 @@
 slot0 = class("SingleEventActivity", import("model.vo.Activity"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.eventData = {}
@@ -22,25 +22,25 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.GetEventById(slot0, slot1)
+slot0.GetEventById = function(slot0, slot1)
 	return slot0.eventData[slot1]
 end
 
-function slot0.GetAllEventIds(slot0)
+slot0.GetAllEventIds = function(slot0)
 	return slot0:getConfig("config_data")
 end
 
-function slot0.GetFinishMainIds(slot0)
+slot0.GetFinishMainIds = function(slot0)
 	return slot0.data1_list
 end
 
-function slot0.AddFinishMainId(slot0, slot1)
+slot0.AddFinishMainId = function(slot0, slot1)
 	if not table.contains(slot0:GetFinishMainIds(), slot1) then
 		table.insert(slot0:GetFinishMainIds(), slot1)
 	end
 end
 
-function slot0.IsFinish(slot0, slot1)
+slot0.IsFinish = function(slot0, slot1)
 	if slot0:GetEventById(slot1):IsMain() then
 		return table.contains(slot0:GetFinishMainIds(), slot1)
 	end
@@ -52,7 +52,7 @@ function slot0.IsFinish(slot0, slot1)
 	return false
 end
 
-function slot0.IsFinishAllMain(slot0)
+slot0.IsFinishAllMain = function(slot0)
 	for slot4, slot5 in pairs(slot0.eventData) do
 		if slot5:IsMain() and not slot0:IsFinish(slot5.id) then
 			return false
@@ -62,11 +62,11 @@ function slot0.IsFinishAllMain(slot0)
 	return true
 end
 
-function slot0.CheckDailyEventRequest(slot0)
+slot0.CheckDailyEventRequest = function(slot0)
 	return #slot0:GetDailyEventIds() == 0
 end
 
-function slot0.SetDailyEventIds(slot0, slot1)
+slot0.SetDailyEventIds = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.eventData) do
 		if slot6:IsDaily() then
 			slot0.eventData[slot5] = nil
@@ -88,21 +88,21 @@ function slot0.SetDailyEventIds(slot0, slot1)
 	end
 end
 
-function slot0.GetDailyEventIds(slot0)
+slot0.GetDailyEventIds = function(slot0)
 	return slot0.data2_list
 end
 
-function slot0.GetUnFinishDailyIds(slot0)
+slot0.GetUnFinishDailyIds = function(slot0)
 	return slot0.data3_list
 end
 
-function slot0.RemoveFinishDailyId(slot0, slot1)
+slot0.RemoveFinishDailyId = function(slot0, slot1)
 	if table.contains(slot0:GetUnFinishDailyIds(), slot1) then
 		table.removebyvalue(slot0:GetUnFinishDailyIds(), slot1)
 	end
 end
 
-function slot0.CheckTrigger(slot0, slot1)
+slot0.CheckTrigger = function(slot0, slot1)
 	if not slot0.eventData[slot1] then
 		return false
 	end
@@ -114,7 +114,7 @@ function slot0.CheckTrigger(slot0, slot1)
 	return slot0.eventData[slot1]:GetPreEventId() == 0 or slot0:IsFinish(slot2)
 end
 
-function slot0.AddFinishEvent(slot0, slot1)
+slot0.AddFinishEvent = function(slot0, slot1)
 	if slot0:GetEventById(slot1):IsMain() then
 		slot0:AddFinishMainId(slot1)
 	end
@@ -124,7 +124,7 @@ function slot0.AddFinishEvent(slot0, slot1)
 	end
 end
 
-function slot0.GetUnlockMapAreas(slot0)
+slot0.GetUnlockMapAreas = function(slot0)
 	underscore.each(slot0:GetFinishMainIds(), function (slot0)
 		if pg.activity_single_event[slot0].map_options == "" then
 			return
@@ -138,7 +138,7 @@ function slot0.GetUnlockMapAreas(slot0)
 	return {}
 end
 
-function slot0.GetLastShowConfig(slot0)
+slot0.GetLastShowConfig = function(slot0)
 	if #slot0:GetFinishMainIds() == 0 then
 		return {}
 	end
@@ -154,7 +154,7 @@ function slot0.GetLastShowConfig(slot0)
 	return pg.activity_single_event[slot1[1]].options
 end
 
-function slot0.GetShowConfig(slot0)
+slot0.GetShowConfig = function(slot0)
 	if #slot0:GetFinishMainIds() == 0 then
 		return {}
 	end
@@ -170,7 +170,7 @@ function slot0.GetShowConfig(slot0)
 	return pg.activity_single_event[slot1[1]].options
 end
 
-function slot0.IsShowMapAnim(slot0, slot1)
+slot0.IsShowMapAnim = function(slot0, slot1)
 	if not slot0:GetEventById(slot1):IsMain() then
 		return false
 	end

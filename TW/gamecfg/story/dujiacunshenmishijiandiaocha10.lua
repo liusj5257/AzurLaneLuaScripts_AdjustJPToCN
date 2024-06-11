@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA10",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"渡假村神秘事件調查\n\n<size=45>番外篇：於演出開始之前</size>",
@@ -17,40 +17,40 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "這是在正式演出開始前發生的，某一幕故事的後續——",
+			nameColor = "#A9F548FF",
+			bgm = "stopbgm",
 			hidePaintObj = true,
 			blackBg = true,
-			bgm = "stopbgm",
+			say = "這是在正式演出開始前發生的，某一幕故事的後續——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_517",
+			bgm = "battle-xinnong-image",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "溫泉渡假村·？？？",
-			bgm = "battle-xinnong-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",
@@ -157,8 +157,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "雖然是笑著說出了自己的疑問，然而妖怪劇團的團長——現在是劇團長zZZ並沒有從對方的話語中感覺到任何笑意。",
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_517",
 			hidePaintObj = true,
 			say = "強烈的壓迫感席捲了它的全身。",
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "蝶海夢花",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "夏日與妖怪劇團……呵呵，倒是不錯的組合。指揮官與同伴們一定會喜歡的。",
 			painting = {

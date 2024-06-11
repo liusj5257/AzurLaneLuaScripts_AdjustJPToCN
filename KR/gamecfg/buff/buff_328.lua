@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "阿尔及利亚特殊标记燃烧",
 	time = 10,
+	name = "阿尔及利亚特殊标记燃烧",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害",
 	stack = 1,
@@ -15,13 +15,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0,
 				attr = "cannonPower",
-				exposeGroup = 1,
 				time = 3,
 				cloakExpose = 36,
-				number = 8,
+				exposeGroup = 1,
 				dotType = 1,
-				k = 0
+				number = 8
 			}
 		},
 		{
@@ -31,8 +31,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 60
+				skill_id = 60,
+				target = "TargetSelf"
 			}
 		},
 		{

@@ -1,16 +1,16 @@
 return {
-	id = "MAOZIHUODONG6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "강력한 함포와 대공 지원으로 함대는 세이렌 요새를 향해 다가가고 있었다.",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
-			say = "강력한 함포와 대공 지원으로 함대는 세이렌 요새를 향해 다가가고 있었다.",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "전선이 확장될 수록 세이렌도 점점 더 강해지지만, 아직까지는 큰 위협이 되지 않고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -38,8 +38,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "대단해… 이렇게 빨리 여기까지 도착하다니. 이전 전투에서 가장 마지막으로 도달한 곳이었는데!",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "오오~ 나서서 길잡이가 되겠다는 걸까?",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "앞으로의 전투는 우리가 감당할 수 없으니, 그러면 너희에게 맡겨둘까. 이글 유니온의 기사들!",
 			typewriter = {
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "(더구나 오랜 기간 동안 세이렌과 소모전을 치르고 있던 노스 유니온의 주력 함대가 지원을 위해 온다고 해도 의문이다.)",
 			typewriter = {
 				speed = 0.05,
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "(이번 작전에 참여하는 것은 모두 믿음직스러운 동료니 노스 유니온의 주력 함대가 오지 않아도 괜찮을 거다.)",
 			typewriter = {
 				speed = 0.05,

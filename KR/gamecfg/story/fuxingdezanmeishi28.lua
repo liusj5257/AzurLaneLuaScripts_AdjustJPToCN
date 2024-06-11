@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI28",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -64,8 +64,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 607010,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
 			say = "음... 노스 유니온의 구축함으로 보여요. 정확한 것은 모르겠지만요...",
 			typewriter = {
@@ -97,8 +97,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "문제는 노스 유니온의 구축함이 왜 여기에, 그것도 우리의 미술품 운송 함대와 함께 있냐는 것인데...",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "다른 상황은 어떻습니까? 적의 규모는?",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 607010,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
 			say = "많지 않아요. 구축함 2척과 양산형으로도 상대할 수 있을 정도예요.",
 			typewriter = {
@@ -148,8 +148,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 607010,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
 			say = "하지만... 저들과 우리의 항로 사이에 바다안개가 짙게 껴있어서, 정찰을 제대로 할 수 없어요.",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 602010,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
 			say = "신화 속 잔인한 괴물 미노타우르스가 살고 있는 곳 말이지. 세이렌이 안개 속에 어떤 놀라움을 숨겨 두었을지 모르겠는데.",
 			typewriter = {
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "빈첸조가 우리 앞으로 끼어들기라도 하면 위험해집니다. 아퀼라, 속도를 줄이게 할 방법을 생각해 보십시오. 나머지는 전투에 대비합시다.",
 			typewriter = {
@@ -215,9 +215,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
 			blackBg = true,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "미궁의 중심부를 소탕해 합류할 길을 만들고 이번 작전의 목적을 달성합시다!",
 			typewriter = {

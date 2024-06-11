@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Sea Star on Shore\n\n<size=45>1: A Morning Incident</size>",
@@ -18,14 +18,14 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "Huh?!? I-It's not here?! W-What should I do...",
 			side = 2,
-			bgm = "story-1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			bgm = "story-1",
+			actor = 201101,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "Huh?!? I-It's not here?! W-What should I do...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,13 +36,13 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			withoutPainting = true,
 			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 201101,
 			nameColor = "#a9f548",
 			say = "Sob sob...Is this all I can do?",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,15 +53,15 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201080,
+			nameColor = "#a9f548",
 			say = "Cygnet?! W-What kind of equipment is this?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 201090,
+			say = "F-Force! It's my \"bare force\" set! It's force-resistant!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "F-Force! It's my \"bare force\" set! It's force-resistant!",
+			actor = 201090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -122,15 +122,15 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201080,
+			nameColor = "#a9f548",
 			say = "The clothes from your balcony...are missing?! Your drying clothes and the clothes you were going to wash...?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 201090,
+			say = "This...this is a disaster! But...(Stare--)",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "This...this is a disaster! But...(Stare--)",
+			actor = 201090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

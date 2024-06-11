@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_389 = {}
 slot1 = slot0.word_template_389
 
-function temp()
+temp = function()
 	uv0["形"] = {
 		["左"] = {
 			["实"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["泥"] = {
 		["哥"] = {
 			this = true
@@ -46,7 +46,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["0"] = {
 		["2"] = {
 			["世"] = {
@@ -129,7 +129,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["锂"] = {
 		["磕"] = {
 			["枪"] = {
@@ -141,7 +141,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["杰"] = {
 		["拉"] = {
 			["德"] = {
@@ -189,7 +189,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["苷"] = {
 		["蒽"] = {
 			this = true
@@ -199,7 +199,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["征"] = {
 		["伐"] = {
 			["高"] = {

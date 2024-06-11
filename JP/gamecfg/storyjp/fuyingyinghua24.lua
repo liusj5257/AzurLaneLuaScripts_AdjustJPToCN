@@ -1,16 +1,16 @@
 return {
-	id = "FUYINGYINGHUA24",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA24",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "xinnong-2",
-			side = 2,
-			say = "……",
-			dir = 1,
 			soundeffect = "event:/ui/kuang",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
+			say = "……",
 			flashN = {
 				color = {
 					1,
@@ -73,10 +73,10 @@ return {
 			}
 		},
 		{
+			say = "……",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/ui/kuang",
-			say = "……",
 			flashN = {
 				color = {
 					1,
@@ -124,8 +124,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "鏡面海域で、黒と白の影たちが轟音とともに舞っていた。",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "拙者はそなたたちと争うつもりはない。だが……",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "そなたたち艦船が【ワタツミ】破壊の邪魔立てをするというのなら――",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "拙者の太刀筋、とくと見るが良い！",
 			typewriter = {
 				speed = 0.05,
@@ -230,10 +230,10 @@ return {
 			}
 		},
 		{
+			say = "……",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "……",
 			flashN = {
 				color = {
 					1,
@@ -299,8 +299,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "己の艤装がもたらした異能に頼りすぎては身を滅ぼす、覚えておけ",
 			typewriter = {
 				speed = 0.05,
@@ -342,8 +342,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "「高雄」と呼ばれたとき、次の斬撃を繰り出そうとしていた「余燼」は動きを止めた。",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "…………その名前、いいや、コードネームか。久しく呼ばれていないな",
 			typewriter = {
 				speed = 0.05,
@@ -374,8 +374,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "…それにしても「高雄」か。",
 			typewriter = {
 				speed = 0.05,
@@ -390,8 +390,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "我らのリュウコツに刻印された、人の勝手な想いに過ぎぬ",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "その人たちすら消えて失くなったというのなら――",
 			typewriter = {
 				speed = 0.05,
@@ -422,8 +422,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "名前など――",
 			typewriter = {
 				speed = 0.05,
@@ -438,8 +438,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "無意味だッ！！",
 			typewriter = {
 				speed = 0.05,
@@ -451,10 +451,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/ui/kuang",
 			say = "！！",
+			dir = 1,
+			soundeffect = "event:/ui/kuang",
 			flashN = {
 				color = {
 					1,
@@ -512,8 +512,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.25,
 					x = 30,
@@ -522,10 +522,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/ui/kuang",
 			say = "！！",
+			dir = 1,
+			soundeffect = "event:/ui/kuang",
 			flashN = {
 				color = {
 					1,
@@ -571,8 +571,8 @@ return {
 			actor = 900192,
 			nameColor = "#FF5C5CFF",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "…新手か",
 			typewriter = {
 				speed = 0.05,
@@ -584,12 +584,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg5",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "鬼怒",
+			hidePaintObj = true,
 			say = "あての仲間を傷つけるな！",
 			typewriter = {
 				speed = 0.05,
@@ -601,12 +601,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg5",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "瑞鶴",
+			hidePaintObj = true,
 			say = "みんな、気をつけて！普通の相手じゃないよ！！",
 			typewriter = {
 				speed = 0.05,
@@ -618,12 +618,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "龍鳳",
+			hidePaintObj = true,
 			say = "はい！だからこそみんなで戦うのですよ！航空支援はこちらに任せて！",
 			typewriter = {
 				speed = 0.05,
@@ -635,12 +635,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "駿河",
+			hidePaintObj = true,
 			say = "勝つ手段を選んでる場合じゃないわ！瑞鶴さん！",
 			typewriter = {
 				speed = 0.05,
@@ -652,12 +652,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "霞",
+			hidePaintObj = true,
 			say = "霞も…ふわりんと一緒に頑張ります…！",
 			typewriter = {
 				speed = 0.05,
@@ -669,12 +669,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "瑞鶴",
+			hidePaintObj = true,
 			say = "ここまで人数が増えるとちょっと卑怯な気がするけど…",
 			typewriter = {
 				speed = 0.05,
@@ -686,12 +686,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong_cg7",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "瑞鶴",
+			hidePaintObj = true,
 			say = "【ワタツミ】を守るためなら仕方ないよね…！",
 			typewriter = {
 				speed = 0.05,

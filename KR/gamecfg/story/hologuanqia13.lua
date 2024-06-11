@@ -1,18 +1,18 @@
 return {
-	id = "HOLOGUANQIA13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA13",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "holo-tokiwa",
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "정말 신기한 장비네. 이렇게 강력한 위력인데 굉장히 쉽게 조작할 수 있어.",
-			bgm = "holo-tokiwa",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "장비가 있으면 아무리 마츠리처럼 청순한 여고생이라도 한 순간에 막강한 전력을 자랑할 수 있다고!",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			expression = 0,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "어쨌든 결과만 보고 말하면, 마츠리도 모두를 구할 수 있는 힘이 있다는 거니까!",
 			typewriter = {
 				speed = 0.05,
@@ -92,8 +92,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "후부키에게서 여기에 관한 이야기를 들었어… 모두가 마츠리처럼 장비를 갖고 세이렌과 맞서 싸울 수 있다면 좋은 일 아니야?",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "이쪽의 힘이 몇십 배 몇만 배 강해지면 아무리 세이렌이라도 견딜 수 없을테니까.",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "귀여운 얼굴로 냉정한 말을 하네. 이게 바로 갭모에구나!",
 			typewriter = {
 				speed = 0.05,
@@ -169,9 +169,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "마츠리는 말이야, 모든 전쟁이 같다고 생각하지 않아. 우리가 올바른 일을 하고 있으면 그건 올바른 싸움이니까~",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -210,9 +210,9 @@ return {
 		{
 			expression = 3,
 			side = 0,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "흐흐흥, 사실 마츠리는 계속 레지스탕스의 일원이었다구. 정말로 성공할 줄은 몰랐지만. 엄청 흥분돼!",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

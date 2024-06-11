@@ -1,6 +1,6 @@
 slot0 = class("ChangeMedalDisplayCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().medalList
 	slot6 = getProxy(PlayerProxy):getData().displayTrophyList
 	slot7 = 0

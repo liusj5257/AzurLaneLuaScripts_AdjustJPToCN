@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGYEDEQIYU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WANSHENGYEDEQIYU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Halloween Hijinks\n\n<size=45>4 The Witch of Hallow's Eve</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
-			say = "I arrived at a witch's fortune-telling shop.",
 			bgm = "battle-highseasfleet-reborn",
+			say = "I arrived at a witch's fortune-telling shop.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "Witches might be \"the\" Halloween costume, but there were so many people in our port who fit that descriptor that I couldn't imagine who I'd find inside.",
 			typewriter = {
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"Guess I might as well just knock.\"",
 			typewriter = {
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Witch?",
+			side = 2,
 			bgName = "star_level_bg_162",
 			nameColor = "#A9F548FF",
 			say = "Enter, pilgrim of the night.",
@@ -76,14 +76,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "What brings you here at such a late time? Are you a lost soul wandering through the Halloween night?",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "What brings you here at such a late time? Are you a lost soul wandering through the Halloween night?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,17 +93,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "All I could make out in the smoke-filled shack were a crystal ball placed on a table and Memphis, clad in a witch costume.",
 			typewriter = {
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"I didn't know you could see the future, Memphis.\"",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"Well...\"",
 			typewriter = {
@@ -217,14 +217,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Oh... I see.",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Oh... I see.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"Which shipgirl...?\"",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"I thought your fortune-telling was just another Halloween attraction.\"",
 			typewriter = {
@@ -343,14 +343,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "You're not wrong, but to be more precise, it's an attraction with a hint of reality.",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "You're not wrong, but to be more precise, it's an attraction with a hint of reality.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "Memphis handed me a witch's hat.",
 			typewriter = {
@@ -390,14 +390,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Take a broom with you, too. It'll double as a self-defense weapon, which you might just need.",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Take a broom with you, too. It'll double as a self-defense weapon, which you might just need.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"I don't understand. What the heck did you see in my future?\"",
 			typewriter = {
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"A shipgirl you'd call 'difficult'? I can't tell if I know who you're talking about or not...\"",
 			typewriter = {
@@ -452,14 +452,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I saw her just a while ago. Beats me how she snuck a real weapon into the party venue.",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I saw her just a while ago. Beats me how she snuck a real weapon into the party venue.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,8 +470,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"A real weapon...? If she got past the bag check with a weapon, then that's a real emergency. Did the Sirens do this?!\"",
 			typewriter = {
@@ -499,8 +499,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"Pirate? A pirate shipgirl? That would be...\"",
 			typewriter = {
@@ -528,8 +528,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"I'm curious what happened. Instead of just wandering around, I'd better go confront her directly and confirm that she's the one I'm thinking of.\"",
 			typewriter = {

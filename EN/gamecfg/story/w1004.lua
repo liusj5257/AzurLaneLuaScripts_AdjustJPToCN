@@ -1,12 +1,12 @@
 return {
-	id = "W1004",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1004",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "This device can be supplied with materials to commence a scan of this sector.",
 			typewriter = {
 				speed = 0.05,

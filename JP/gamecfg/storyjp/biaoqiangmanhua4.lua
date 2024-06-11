@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIAOQIANGMANHUA4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "BIAOQIANGMANHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"月刊マンガJavelin\n\n<size=45>四　ジャベリン、最後の戦いへ</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,14 +49,14 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			bgm = "story-5",
+			actor = 900183,
 			actorName = "？？？",
 			say = "「よく来たなジャベリン――我が引力に逃れられぬと知れﾆｬｽ」",
-			bgm = "story-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,11 +83,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 900183,
 			actorName = "？？？",
 			say = "「そう、我こそ夕張が改造したメンタルキューブによる意識指向の反映機能を擬似再現した力を有し、あなたの願いによって具現化されたもの――」",
 			typewriter = {
@@ -100,10 +100,10 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
+			actor = 900183,
 			dir = 1,
 			actorName = "？？？",
 			say = "「オフニャJであーーーーる！ﾆｬｽ」",
@@ -123,11 +123,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "あの手紙もあなたが送ったの！",
 			effects = {
 				{
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 900183,
 			actorName = "？？？",
 			say = "「そうよ。我はあなたの心の願いの再現、あなたの運命の人、あなたの想いと望みを実現する存在なのだ！ﾆｬｽ」",
 			typewriter = {
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "キャ―――！",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 35,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#ff5c5c",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 900183,
 			actorName = "？？？",
 			say = "「ハハハハハ！我を倒し、あなた自身を乗り越えるがいいﾆｬｽ！そうしなければあなたの成長は永遠にここで止まり続けるのだー！」",
 			typewriter = {
@@ -205,9 +205,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "オフニャがみんなに襲いかかった。",
 			typewriter = {
 				speed = 0.05,
@@ -267,11 +267,11 @@ return {
 			}
 		},
 		{
-			say = "（大爆発）",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "（大爆発）",
 			flashN = {
 				color = {
 					1,
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			nameColor = "#ff5c5c",
-			bgName = "star_level_bg_103",
 			side = 2,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 900183,
 			actorName = "？？？",
 			say = "「ば、馬鹿なーー！ﾆｬｽ　夕張様からもらったこの力がこうも簡単に押さえつけられただとーー！ﾆｬｽ」",
 			typewriter = {
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "はい！――ストライクフレーム展開、最大出力！くっらえー！",
 			typewriter = {
 				speed = 0.05,
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 2000
@@ -377,12 +377,12 @@ return {
 			}
 		},
 		{
-			actor = 900183,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#ff5c5c",
 			dir = 1,
-			side = 2,
+			actor = 900183,
 			say = "「にゃあああああああああ！」",
 			flashN = {
 				color = {
@@ -414,8 +414,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -424,16 +424,16 @@ return {
 			}
 		},
 		{
-			actor = 401460,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 401460,
+			nameColor = "#a9f548",
 			say = "…………グラーフ、見ていたのか",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -474,8 +474,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "『こうして母港の平和がまた守られた』",
 			typewriter = {
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "『行けジャベリン！アズールレーンの未来は君に任せた！』",
 			typewriter = {
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "『作：ジャベリン………………………Z１、サンディエゴ他』",
 			typewriter = {

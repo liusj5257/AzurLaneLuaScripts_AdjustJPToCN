@@ -1,15 +1,15 @@
 slot2 = class("StaticChampionCellView", DecorateClass(import(".StaticCellView"), import(".ChampionCellView")))
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	uv0.Ctor(slot0, slot1)
 	uv1.Ctor(slot0)
 end
 
-function slot2.GetOrder(slot0)
+slot2.GetOrder = function(slot0)
 	return ChapterConst.CellPriorityEnemy
 end
 
-function slot2.InitChampionCellTransform(slot0)
+slot2.InitChampionCellTransform = function(slot0)
 	uv0.InitChampionCellTransform(slot0)
 
 	slot0.textLV = slot0.tf:Find("lv/Text")
@@ -17,7 +17,7 @@ function slot2.InitChampionCellTransform(slot0)
 	slot0.tfEffectFoundBoss = slot0.tf:Find("effect_found_boss")
 end
 
-function slot2.Update(slot0)
+slot2.Update = function(slot0)
 	slot2 = slot0.config
 	slot3 = slot0.info.trait ~= ChapterConst.TraitLurk
 
@@ -58,7 +58,7 @@ function slot2.Update(slot0)
 	slot0:UpdateChampionCell(slot0.chapter, slot1)
 end
 
-function slot2.UpdateChampionCell(slot0, slot1, slot2, slot3)
+slot2.UpdateChampionCell = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2.trait ~= ChapterConst.TraitLurk and slot2.flag == ChapterConst.CellFlagActive and not slot1:existFleet(FleetType.Transport, slot2.row, slot2.column)
 
 	setActive(slot0.tfFighting, slot4 and slot1:existEnemy(ChapterConst.SubjectChampion, slot2.row, slot2.column))
@@ -84,7 +84,7 @@ function slot2.UpdateChampionCell(slot0, slot1, slot2, slot3)
 	existCall(slot3)
 end
 
-function slot2.StartEggCellView(slot0, slot1, slot2)
+slot2.StartEggCellView = function(slot0, slot1, slot2)
 	if ChapterConst.EnemySize[slot1.type] == 99 then
 		setActive(slot0.tfBossIcon, true)
 		slot0:GetLoader():GetSpriteQuiet("ui/share/ship_gizmos_atlas", "enemy_boss", slot0.tfBossIcon)
@@ -102,7 +102,7 @@ function slot2.StartEggCellView(slot0, slot1, slot2)
 	existCall(slot2)
 end
 
-function slot2.Clear(slot0)
+slot2.Clear = function(slot0)
 	uv0.Clear(slot0)
 	uv1.Clear(slot0)
 end

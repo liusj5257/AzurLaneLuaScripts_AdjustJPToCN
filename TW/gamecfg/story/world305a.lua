@@ -1,18 +1,18 @@
 return {
-	id = "WORLD305A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD305A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "xinnong-3",
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "這裡就是預定裡建立前哨站的海域啊，距離海域核心區域居然這麼近.....",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "而且預計建立的前哨站不止一處。根據規劃，整片NA海域圍繞核心區域將會建立合計六處前哨站。",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "將塞壬從四面壓縮到中心點然後一起發動總攻.....這種規模浩大的戰役我還是第一次參加呢。",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "等到總攻的時候場面一定會很壯觀吧......！",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "如果不是陷入了與赤色中軸的戰爭，我們早就可以小規模的對塞壬控制的大洋發動反擊了。",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "聽說指揮官的艦隊在A戰區發現了新的餘燼成員，餘燼看來也在向著NA海域集結兵力。",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "估計很快除了塞壬三問之後，在艦隊中也要出現餘燼三問了吧，哈哈.......",
 			typewriter = {
 				speed = 0.05,
@@ -197,8 +197,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "唔......大家注意到了嗎，在擊退了那個名字很長的仲裁機關之後，我們一路上再也沒遭遇到任何干擾了。",
 			typewriter = {
 				speed = 0.05,
@@ -243,8 +243,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "而且不是之前像清理陳舊庫存一樣敷衍的艦隊，剛剛襲來的敵人都是有一定戰鬥能力的。",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "究竟是哪種情況我還不太確定，不過鑑於它們的指揮系統從開始大型作戰之後就沒正常運轉過，也許是那個仲裁機關做了什麼事吧。",
 			typewriter = {
 				speed = 0.05,

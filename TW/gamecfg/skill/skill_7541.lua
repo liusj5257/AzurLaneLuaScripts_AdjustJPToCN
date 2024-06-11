@@ -2,20 +2,20 @@ return {
 	uiEffect = "",
 	name = "传颂之物后排航空上升3%",
 	cd = 0,
-	painting = "wululu",
-	id = 7541,
 	picture = "0",
 	aniEffect = "",
 	desc = "传颂之物后排航空上升3%",
+	painting = "wululu",
+	id = 7541,
 	castCV = {
-		skinID = 10300040,
-		key = "skill"
+		key = "skill",
+		skinID = 10300040
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerMainFleet"
 			},

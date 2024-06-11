@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"渡假村神秘事件調查\n\n<size=45>1 1.夏日！溫泉！怪談！</size>",
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "讓我們一起去尋找海怪與失落之城吧！",
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "潛航器裡根本活動不開……還是去大洋上追尋幽靈船的蹤影更好！",
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "這些事在港區就能做到嘛……既然是假日，去做些不一樣的事不是更好？",
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "海上騎士",
 			dir = 1,
+			actor = 102090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "組織艦隊去防區外巡邏，成為正義的海上騎士如何？",
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "熱情高漲",
 			dir = 1,
+			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "呃……渡假的要素呢？",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "指揮室內一片喧囂，一場關於渡假地的討論正在熱烈進行中——",
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "初月指向的似乎是……某個混雜在文件中的廣告宣傳單。",
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "沒問題沒問題，不過先讓我看看哦。",
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "不知何時，指揮室的討論聲停止了，所有人都望向正在閱讀傳單內容的初月。",
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "眾人",
+			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -466,11 +466,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "如果能見到妖怪的話，我贊成！",
@@ -484,8 +484,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -494,11 +494,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "熱情高漲",
 			dir = 1,
+			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "重櫻的妖怪傳說嗎……聽上去好有趣。",
@@ -531,8 +531,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -579,11 +579,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "蝶海夢花",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "溫泉……對撫慰積累已久的疲勞而言，確不失為良策。",
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "很遺憾，初月微弱的抗議聲淹沒在了眾人的興致高昂的討論中。",
@@ -627,8 +627,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "不出意外的，溫泉渡假村以高票勝出，正式成為了本次港區渡假目的地——",
@@ -638,9 +638,9 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
 			stopbgm = true,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

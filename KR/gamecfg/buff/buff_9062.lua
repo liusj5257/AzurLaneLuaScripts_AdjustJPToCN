@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "火力全开-LV8",
 	time = 15,
-	color = "red",
+	name = "火力全开-LV8",
+	init_effect = "",
+	id = 9062,
 	picture = "",
 	desc = "概率发动",
 	stack = 1,
-	id = 9062,
+	color = "red",
 	icon = 9060,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				rant = 5310,
-				skill_id = 9061,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				skill_id = 9061
 			}
 		}
 	}

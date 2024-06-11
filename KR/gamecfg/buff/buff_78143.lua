@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "大世界剧情战 后勤维修buff",
 	time = 15,
-	color = "yellow",
+	name = "大世界剧情战 后勤维修buff",
+	init_effect = "",
+	id = 78143,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 78143,
+	color = "yellow",
 	icon = 9297,
 	last_effect = "Health",
 	effect_list = {

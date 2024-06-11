@@ -139,14 +139,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "Engine boost",
 	time = 0,
-	color = "blue",
+	name = "Engine boost",
+	init_effect = "",
+	id = 19121,
 	picture = "",
 	desc = "机动提高",
 	stack = 1,
-	id = 19121,
+	color = "blue",
 	icon = 19120,
 	last_effect = "",
 	effect_list = {

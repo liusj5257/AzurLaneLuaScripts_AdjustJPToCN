@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 剧情战 利物浦空袭",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 剧情战 利物浦空袭",
+	init_effect = "",
+	id = 200831,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200831,
+	color = "yellow",
 	icon = 200831,
 	last_effect = "",
 	effect_list = {

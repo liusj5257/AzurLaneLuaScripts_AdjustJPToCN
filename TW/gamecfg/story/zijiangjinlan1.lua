@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "——此處乃重櫻聖地，尊貴之人所處的居所。",
 			bgm = "story-mayrain",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "——此處乃重櫻聖地，尊貴之人所處的居所。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "宏偉城池的天守閣中，黑髮的麗人正獨自眺望著遠方。",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "晨曦透過薄霧落在她的身上，於木質的地板上落下纖長的淡影。",
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "遠方的黑雲依稀可見。在將至的風暴前，喧囂的生靈已然噤聲。此方世界，只餘下一片無風的靜籟。",
@@ -86,10 +86,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "？？？",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "結界內部不會受到影響……外部，怕是要落花紛飛了。",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "就在黑髮麗人感慨之時，身邊不遠處傳來一陣鳥鳴聲。",
@@ -111,10 +111,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "？？？",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "燕子？是在尋找避雨之處嗎。",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "黑髮麗人向燕子伸出手，那燕子竟然真的抖動翅膀落在了她的指尖上。",
@@ -136,10 +136,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "？？？",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "在吾這裡感受到了安全感所以貼過來了嗎，你這沒戒心的小傢伙……",
 			typewriter = {
 				speed = 0.05,
@@ -150,10 +150,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "？？？",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "現正值季節迭換之時，晴雨更替可謂常態。不早做打算，在風暴到來前才臨時尋找避難所可不行哦。",
 			typewriter = {
 				speed = 0.05,
@@ -164,10 +164,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "？？？",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這守望遠方的天守閣，可不是給你這樣迷路的小傢伙避雨用的，知道嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "作為對於麗人話語的回應，燕子似乎點了點頭，然後繼續在麗人的手中安心梳理著羽毛。",
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "麗人之名乃為武藏，重櫻之中地位最為尊貴的大和級之一，理應掌管重櫻的軍事內政，身居高位之人。",
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "在這間絕無第二人的房間中，另一個女性的聲音從某處憑空傳來了。",
@@ -237,10 +237,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呵呵，只是一句應景的感慨罷了。客人已經來了嗎？",
 			painting = {
 				alpha = 0.3,
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 900330,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "了然。",
 			painting = {
 				alpha = 0.3,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "空蕩的房間再度恢復沉寂。武藏輕輕擺了擺手，燕子也隨即飛起，消失在窗外。",
@@ -293,8 +293,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "敲門聲————",
@@ -304,12 +304,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "武藏大人，打擾了。現在赤城大人一行已經穿過了結界，若月正在為她們引路。",
 			painting = {
 				alpha = 0.3,
@@ -324,10 +324,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我知道了。妳也去會客室接待吧，我隨後就到。",
 			painting = {
 				alpha = 0.3,
@@ -339,12 +339,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "遵命，武藏大人。",
 			painting = {
 				alpha = 0.3,
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 900330,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………………",
 			painting = {
 				alpha = 0.3,
@@ -376,10 +376,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……赤城，汝居然會如此心急。",
 			painting = {
 				alpha = 0.3,
@@ -394,10 +394,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "城內的屋簷皆可作為避雨之所……",
 			painting = {
 				alpha = 0.3,
@@ -412,10 +412,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "小傢伙，倘若風雨過後還能飛翔，還是盡快去往遠方吧——",
 			painting = {
 				alpha = 0.3,
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			bgm = "story-maystorm",
 			sequence = {
@@ -463,8 +463,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,

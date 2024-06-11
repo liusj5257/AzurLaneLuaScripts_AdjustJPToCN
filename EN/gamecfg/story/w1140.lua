@@ -1,12 +1,12 @@
 return {
-	id = "W1140",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1140",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The uncollected materials have disappeared...",
 			typewriter = {
 				speed = 0.05,

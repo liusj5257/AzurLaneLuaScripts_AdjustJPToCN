@@ -1,15 +1,15 @@
 return {
-	id = "LUCK29905",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK29905",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 299050,
 			dir = 1,
+			actor = 299050,
 			say = "Rejoice, Commander, for I have become stronger, just as you desired.",
 			painting = {
 				alpha = 0.3,
@@ -39,8 +39,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 299050,
 			dir = 1,
+			actor = 299050,
 			say = "Hmm? My cannons won't be needed...? What would you have me do instead then? Just know that there is nothing I wouldn't do for your sake.",
 			painting = {
 				alpha = 0.3,
@@ -55,8 +55,8 @@ return {
 			expression = 8,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 299050,
 			dir = 1,
+			actor = 299050,
 			say = "Yes, Commander, please be uplifted and rejoice.",
 			painting = {
 				alpha = 0.3,

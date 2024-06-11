@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU8",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "level02",
 			actor = 408040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "やっぱり潜水艦は正面切って戦えない…！",
-			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "くっ…！緊急潜航――！",
 			typewriter = {
 				speed = 0.05,
@@ -92,8 +92,8 @@ return {
 			say = "ブルドッグ？",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 900201,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ブルドッグ",
+			actor = 900201,
 			dir = 1,
+			actorName = "ブルドッグ",
 			say = "…うん、これで問題ありません",
 			effects = {
 				{
@@ -172,10 +172,10 @@ return {
 			}
 		},
 		{
-			actor = 201070,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 201070,
 			say = "あ。アマゾンさん、しっかりしてください",
 			effects = {
 				{
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "アマゾンはU-556が潜航した方角を見た。",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ソナーはまだ鉄血の潜水艦の反応をキャッチしているが、輸送艦の進路から大きくずれているようだ",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "手に入れたエニグマと暗号書を抱えながら、二人は輸送艦隊のいる海域に帰還した。",
 			typewriter = {
 				speed = 0.05,

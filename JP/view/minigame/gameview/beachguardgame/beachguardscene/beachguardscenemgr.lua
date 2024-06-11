@@ -1,6 +1,6 @@
 slot0 = class("BeachGuardSceneMgr")
 
-function slot1(slot0, slot1, slot2)
+slot1 = function(slot0, slot1, slot2)
 	slot3 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -264,7 +264,7 @@ function slot1(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -440,7 +440,7 @@ function slot2(slot0, slot1)
 	return slot2
 end
 
-function slot3(slot0, slot1)
+slot3 = function(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -602,7 +602,7 @@ function slot3(slot0, slot1)
 	return slot2
 end
 
-function slot4(slot0, slot1)
+slot4 = function(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -717,7 +717,7 @@ function slot4(slot0, slot1)
 	return slot2
 end
 
-function slot5(slot0, slot1)
+slot5 = function(slot0, slot1)
 	slot2 = {
 		Ctor = function (slot0)
 			slot0._tf = uv0
@@ -944,7 +944,7 @@ function slot5(slot0, slot1)
 	return slot2
 end
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._tf = slot1
 	slot0._event = slot3
 	slot0._gameData = slot2
@@ -956,7 +956,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0:init()
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.charTpl = findTF(slot0._tf, "sceneContainer/scene/classes/charTpl")
 	slot0.charCtrl = uv0(slot0._tf, slot0.charTpl, slot0._event)
 	slot0.lineCtrl = uv1(slot0._tf, slot0._event)
@@ -969,11 +969,11 @@ function slot0.init(slot0)
 	slot0.timer:Start()
 end
 
-function slot0.onTimer(slot0)
+slot0.onTimer = function(slot0)
 	slot0.lineCtrl:onTimer()
 end
 
-function slot0.setData(slot0, slot1)
+slot0.setData = function(slot0, slot1)
 	slot0._runningData = slot1
 	slot2 = slot0._runningData.chapter
 
@@ -992,7 +992,7 @@ function slot0.setData(slot0, slot1)
 	slot7:SetNativeSize()
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0.charCtrl:start()
 	slot0.skillCtrl:start()
 	slot0.enemyCtrl:start()
@@ -1000,7 +1000,7 @@ function slot0.start(slot0)
 	slot0.lineCtrl:start()
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	slot1 = slot0._runningData.deltaTime
 
 	slot0.charCtrl:step(slot1)
@@ -1016,14 +1016,14 @@ function slot0.step(slot0)
 	end
 end
 
-function slot0.stop(slot0)
+slot0.stop = function(slot0)
 	slot0.charCtrl:stop()
 	slot0.skillCtrl:stop()
 	slot0.enemyCtrl:stop()
 	slot0.damageCtrl:stop()
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0.charCtrl:clear()
 	slot0.lineCtrl:clear()
 	slot0.skillCtrl:clear()
@@ -1031,11 +1031,11 @@ function slot0.clear(slot0)
 	slot0.damageCtrl:clear()
 end
 
-function slot0.changeRecycles(slot0, slot1)
+slot0.changeRecycles = function(slot0, slot1)
 	slot0.charCtrl:changeRecycles(slot1)
 end
 
-function slot0.pullChar(slot0, slot1, slot2, slot3)
+slot0.pullChar = function(slot0, slot1, slot2, slot3)
 	if slot0.lineCtrl:getGridByIndex(slot2, slot3) and slot4:isEmpty() then
 		slot4:setChar(slot0.charCtrl:setGridChar(slot1, slot4))
 
@@ -1045,32 +1045,32 @@ function slot0.pullChar(slot0, slot1, slot2, slot3)
 	return false
 end
 
-function slot0.setDrag(slot0, slot1)
+slot0.setDrag = function(slot0, slot1)
 	slot0.lineCtrl:setDrag(slot1)
 end
 
-function slot0.useSkill(slot0, slot1)
+slot0.useSkill = function(slot0, slot1)
 	slot0.skillCtrl:useSkill(slot1)
 end
 
-function slot0.addEnemy(slot0, slot1)
+slot0.addEnemy = function(slot0, slot1)
 	slot0.charCtrl:addEnemyChar(slot1.id, slot0.lineCtrl:getAbleLinePos(slot1.lines))
 end
 
-function slot0.craeteCharDamage(slot0, slot1)
+slot0.craeteCharDamage = function(slot0, slot1)
 	slot0.damageCtrl:craeteCharDamage(slot1)
 end
 
-function slot0.removeChar(slot0, slot1)
+slot0.removeChar = function(slot0, slot1)
 	slot0.charCtrl:removeChar(slot1)
 	slot0.lineCtrl:removeGridChar(slot1)
 end
 
-function slot0.bulletDamage(slot0, slot1)
+slot0.bulletDamage = function(slot0, slot1)
 	slot0.damageCtrl:bulletDamage(slot1)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 

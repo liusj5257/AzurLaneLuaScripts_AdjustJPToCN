@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"모항 패션 컬렉션: 새봄 합본집[1]\n\n<size=45>3 호무영춘</size>",
@@ -14,12 +14,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "등롱과 폭죽으로 수 놓인 밤… 명절 분위기로 가득한 거리를 산책하고 있자니……",
 			bgm = "main-chunjie-pv",
+			say = "등롱과 폭죽으로 수 놓인 밤… 명절 분위기로 가득한 거리를 산책하고 있자니……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "포효소리와 함께 그늘에서 이상한 '짐승'이 뛰쳐나와 앞길을 막아섰다.",
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "울어대는 불청객… 아니 불청범이 커다란 '머리'를 좌우로 휘두르며 즐겁게 춤을 추고 있다.",
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "……아니, 사자탈을 쓰고 있으니… 불청… 사자?",
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "(다른 탈출구를 찾는 수밖에 없나…)",
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "사자탈의 입에서 득의양양한 표정으로 웃고있는 후번의 얼굴이 보였다.",
@@ -466,10 +466,10 @@ return {
 			portrait = 501050,
 			side = 2,
 			bgName = "star_level_bg_127",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "롱우",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "후번! 땡땡이 그만 치고 빨리 연습하러 와!",
 			painting = {
 				alpha = 0.3,
@@ -500,8 +500,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "후번은 사자탈을 서둘러 다시 고쳐 썼다.",
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "그렇게 말하고 후번은 씩씩하게 롱우가 있는 쪽으로 달려갔다.",
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			say = "기대되는 멋진 구경거리가 하나 더 늘어난 것 같다.",

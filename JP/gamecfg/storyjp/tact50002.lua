@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "シカゴの必死の防戦あって、バッグレイは敵の攻撃から逃れることが出来た。しかしながら集中攻撃を受けたシカゴは撤退せざる得なく、残ったバッグレイ一隻のみでは重桜の攻勢を止められるはずもなかった。",
 			typewriter = {
@@ -32,8 +32,8 @@ return {
 			actor = 303020,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:54}",
 			say = "そうね。こっちだって急造の艦隊だから、敵の戦力がこっちより上である以上、反応できる時間を与えてはならないわ。……天龍たちの戦力も少し心もとないしね。",
+			actorName = "{namecode:54}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -78,8 +78,8 @@ return {
 			actor = 303040,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:56}",
 			say = "はいはい、わかってますよ。今はSN作戦の支援に集中する、でしょう？",
+			actorName = "{namecode:56}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

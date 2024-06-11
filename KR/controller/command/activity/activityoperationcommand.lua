@@ -1,6 +1,6 @@
 slot0 = class("ActivityOperationCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id)
 
 	assert(slot3)
@@ -87,7 +87,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
+slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = getProxy(PlayerProxy)
 	slot7 = getProxy(TaskProxy)
 
@@ -530,7 +530,7 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 	return slot3
 end
 
-function slot0.performance(slot0, slot1, slot2, slot3, slot4)
+slot0.performance = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot3:getConfig("type")
 	slot6 = nil
 	slot6 = coroutine.create(function ()

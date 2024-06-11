@@ -2,7 +2,7 @@ slot0 = class("BillboardProxy", import(".NetProxy"))
 slot0.FETCH_LIST_DONE = "BillboardProxy:FETCH_LIST_DONE"
 slot0.NONTIMER = {}
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	uv0.NONTIMER = {
 		PowerRank.TYPE_MILITARY_RANK,
 		PowerRank.TYPE_BOSSRUSH
@@ -14,7 +14,7 @@ function slot0.register(slot0)
 	slot0.hashCount = 0
 end
 
-function slot0.setPlayerRankData(slot0, slot1, slot2, slot3)
+slot0.setPlayerRankData = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getHashId(slot1, slot2)
 
 	if table.contains(uv0.NONTIMER, slot1) then
@@ -24,11 +24,11 @@ function slot0.setPlayerRankData(slot0, slot1, slot2, slot3)
 	slot0.playerData[slot4] = slot3
 end
 
-function slot0.getPlayerRankData(slot0, slot1, slot2)
+slot0.getPlayerRankData = function(slot0, slot1, slot2)
 	return slot0.playerData[slot0:getHashId(slot1, slot2)]
 end
 
-function slot0.setRankList(slot0, slot1, slot2, slot3)
+slot0.setRankList = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getHashId(slot1, slot2)
 
 	if table.contains(uv0.NONTIMER, slot1) then
@@ -39,11 +39,11 @@ function slot0.setRankList(slot0, slot1, slot2, slot3)
 	slot0.timeStamps[slot4] = GetHalfHour()
 end
 
-function slot0.getRankList(slot0, slot1, slot2)
+slot0.getRankList = function(slot0, slot1, slot2)
 	return slot0.data[slot0:getHashId(slot1, slot2)]
 end
 
-function slot0.canFetch(slot0, slot1, slot2)
+slot0.canFetch = function(slot0, slot1, slot2)
 	if table.contains(uv0.NONTIMER, slot1) then
 		return true
 	end
@@ -55,7 +55,7 @@ function slot0.canFetch(slot0, slot1, slot2)
 	return false
 end
 
-function slot0.getHashId(slot0, slot1, slot2)
+slot0.getHashId = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot2 then

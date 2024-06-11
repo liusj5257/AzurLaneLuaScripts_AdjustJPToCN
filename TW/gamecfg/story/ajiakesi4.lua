@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AJIAKESI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"我的美好回憶\n\n<size=45>四 是敵是友？</size>",
@@ -17,24 +17,24 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "港區·通道",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "港區·通道",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "我經常在想…像這樣巡邏的時候，還是要有點“事件”發生才好呢…",
 			bgm = "story-1",
+			actor = 202030,
+			nameColor = "#a9f548",
+			say = "我經常在想…像這樣巡邏的時候，還是要有點“事件”發生才好呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,9 +61,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "手臂被阿賈克斯挽住了",
 			flashN = {
 				color = {
@@ -101,9 +101,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "感覺到柔軟中帶著堅硬的觸感",
 			typewriter = {
 				speed = 0.05,
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -125,9 +125,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "？在那裡的是……",
 			typewriter = {
 				speed = 0.05,
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 403050,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403050,
+			nameColor = "#a9f548",
 			say = "阿賈克斯……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			say = "哎呀，這不是施佩嗎。一個人散步嗎？",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哎呀，這不是施佩嗎。一個人散步嗎？",
+			actor = 202030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "劍拔弩張的兩人之間，彷彿空氣中都能見到擦出的火花——並沒有",
 			typewriter = {
 				speed = 0.05,
@@ -282,12 +282,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
+			say = "好啊，那家店我也挺喜歡的。不過男性禁止入內所以……小豬仔是沒法進去的呢♪",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "好啊，那家店我也挺喜歡的。不過男性禁止入內所以……小豬仔是沒法進去的呢♪",
+			actor = 202030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			blackBg = true,
 			say = "不知不覺中被阿賈克斯放置play了……",
 			typewriter = {

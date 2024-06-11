@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023伊丽莎白meta 领域崩溃反噬",
 	time = 6,
-	color = "blue",
+	name = "2023伊丽莎白meta 领域崩溃反噬",
+	init_effect = "",
+	id = 200365,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200365,
+	color = "blue",
 	icon = 200365,
 	last_effect = "xuanyun",
 	effect_list = {}

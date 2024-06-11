@@ -9,22 +9,22 @@ return {
 			bgName = "bg_project_tb_cg30",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――ケーキにクリームをまんべんなく塗るのがこんなに難しいとは……",
 			bgm = "qe-ova-12",
+			say = "――ケーキにクリームをまんべんなく塗るのがこんなに難しいとは……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg30",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "ふふふ。キレイで美味しいケーキを作るには根性が必要なんですよ",
 			voice = "event:/educate/tb/educate-tb-story-31-24",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "ふふふ。キレイで美味しいケーキを作るには根性が必要なんですよ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg30",
 			hidePaintObj = true,
 			say = "TBは卒業後、自分の趣味を仕事にした。",
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg30",
 			hidePaintObj = true,
 			say = "今は、ちょっと名の知れた料理人だ。",
@@ -57,14 +57,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg30",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "でも初心者には少し難しいですね……TBがズルいテクニックを教えてあげます",
 			voice = "event:/educate/tb/educate-tb-story-31-25",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "でも初心者には少し難しいですね……TBがズルいテクニックを教えてあげます",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,32 +87,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg30",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "ええ、作る時に気持ちを込めることです。そうすれば、簡単になりますよ",
 			voice = "event:/educate/tb/educate-tb-story-31-26",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "TB",
-			bgName = "bg_project_tb_cg30",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "こんな感じで……",
-			voice = "event:/educate/tb/educate-tb-story-31-27",
+			say = "ええ、作る時に気持ちを込めることです。そうすれば、簡単になりますよ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,8 +105,26 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			side = 2,
+			bgName = "bg_project_tb_cg30",
+			dir = 1,
+			voice = "event:/educate/tb/educate-tb-story-31-27",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "こんな感じで……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg30",
 			hidePaintObj = true,
 			say = "彼女の動きに合わせて、クリームとイチゴの甘い香りが部屋中を満たしていく。",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg30",
 			hidePaintObj = true,
 			say = "今日のケーキもきっと美味しいはず――",

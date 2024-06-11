@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023 闪乱联动 EX 终结技监听",
 	time = 10,
+	name = "2023 闪乱联动 EX 终结技监听",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -15,9 +15,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				minTargetNumber = 1,
-				time = 0.1,
 				skill_id = 200688,
+				time = 0.1,
+				minTargetNumber = 1,
 				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
@@ -34,9 +34,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				minTargetNumber = 1,
-				time = 0.1,
 				skill_id = 200690,
+				time = 0.1,
+				minTargetNumber = 1,
 				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",

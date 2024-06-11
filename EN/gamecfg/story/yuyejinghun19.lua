@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN19",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
 			actorName = "Essex",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "After taking a short break, you've recovered your strength and continue investigating.",
 			typewriter = {
@@ -59,9 +59,9 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_156",
 			factiontag = "Serious Protégé GM",
-			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You sneak through the dimly lit corridor, making several trips back and forth between Whydah's room and the collection room.",
@@ -70,17 +70,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -186,9 +186,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Hai Tien",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You try to turn the doorknob... but the door is locked and doesn't budge.",
 			typewriter = {
@@ -214,9 +214,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Hai Tien",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Roll a D100... 89, a failure. You try to use your adept lockpicking skills to open the door, but it doesn't work.",
 			typewriter = {
@@ -377,11 +377,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_146",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
 			bgm = "story-richang-10",
-			actorName = "Essex",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You enter the room, and Whydah immediately closes and locks the door behind you.",
 			typewriter = {
@@ -389,17 +389,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -957,8 +957,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -981,11 +981,11 @@ return {
 			}
 		},
 		{
-			actor = 9600051,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "Lord's 2nd Daughter",
-			side = 2,
+			actor = 9600051,
 			actorName = "Whydah",
 			say = "I've had it... I WILL beat this level, even if I have to do it myself!",
 			typewriter = {

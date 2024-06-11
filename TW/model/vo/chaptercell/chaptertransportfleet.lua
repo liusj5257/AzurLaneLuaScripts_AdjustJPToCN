@@ -1,6 +1,6 @@
 slot0 = class("ChapterTransportFleet", import(".ChapterFleet"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.line = {
 		row = slot1.pos.row,
 		column = slot1.pos.column
@@ -13,15 +13,15 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:updateShips({})
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.friendly_data_template
 end
 
-function slot0.getFleetType(slot0)
+slot0.getFleetType = function(slot0)
 	return FleetType.Transport
 end
 
-function slot0.getPrefab(slot0)
+slot0.getPrefab = function(slot0)
 	slot3 = ({
 		"merchant",
 		"merchant_1",
@@ -57,19 +57,19 @@ function slot0.getPrefab(slot0)
 	return slot3
 end
 
-function slot0.getRestHp(slot0)
+slot0.getRestHp = function(slot0)
 	return slot0.restHp
 end
 
-function slot0.setRestHp(slot0, slot1)
+slot0.setRestHp = function(slot0, slot1)
 	slot0.restHp = slot1
 end
 
-function slot0.getTotalHp(slot0)
+slot0.getTotalHp = function(slot0)
 	return slot0:getConfig("hp")
 end
 
-function slot0.isValid(slot0)
+slot0.isValid = function(slot0)
 	return slot0.restHp > 0
 end
 

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIZHUANCAIHONGZHITA36",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIZHUANCAIHONGZHITA36",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "PH Base",
 			side = 2,
 			bgName = "bg_luoxuan_1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-richang",
+			say = "PH Base",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,10 +35,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "What is all this... and that? And then more of this?!",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "Back at base, Saratoga was holding her head in her hands.",
 			typewriter = {
 				speed = 0.05,
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "Several piles of paper were scattered precariously around her, threatening to engulf the small girl at any time.",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "The lack of results was inevitable. The Iron Blood prided themselves in their secrecy, and it was impossible to know if the Naval HQ had doctored what little else was available. Nobody would be able to grasp the truth under these circumstances.",
 			typewriter = {
 				speed = 0.05,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "The only conclusion we could draw from the appearance of the Singularity, the movements of the ships, the operation that had suspiciously occurred at the same time as An Shan's investigation, was...",
 			typewriter = {
 				speed = 0.05,
@@ -154,9 +154,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "...that there wasn't enough information to draw a conclusion.",
 			typewriter = {
 				speed = 0.05,
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_luoxuan_1",
+			dir = 1,
 			say = "\"If anything, maybe we should ask the base at Antarctica for materials from that time period.\"",
 			typewriter = {
 				speed = 0.05,
@@ -299,10 +299,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Wait, hold on... You've got an emergency communication from the Northern Parliament...",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -419,10 +419,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "And looking at these contents... It'll be a huge issue if the Naval HQ and NY City find out!",
 			typewriter = {
 				speed = 0.05,
@@ -434,8 +434,8 @@ return {
 			}
 		},
 		{
-			bgm = "bgm-cccp3",
 			mode = 1,
+			bgm = "bgm-cccp3",
 			sequence = {
 				{
 					"\"Dear Comrade Commander.\"",

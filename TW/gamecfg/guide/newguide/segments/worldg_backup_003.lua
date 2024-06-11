@@ -18,14 +18,14 @@ return {
 			style = {
 				text = "任務種類已更新完畢，請指揮官進行確認。",
 				mode = 2,
-				posY = 191.87,
 				dir = -1,
+				posY = 191.87,
 				posX = 9.1
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/bottom_stage/btn/operation",
-				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/bottom_stage/btn/operation",
 				pathIndex = -1,
+				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/bottom_stage/btn/operation",
+				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/bottom_stage/btn/operation",
 				triggerType = {
 					1
 				},
@@ -43,14 +43,14 @@ return {
 			style = {
 				text = "請點擊接受按鈕，接受任務",
 				mode = 2,
-				posY = 191.87,
 				dir = -1,
+				posY = 191.87,
 				posX = 9.1
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/tasks/frame/main/scrollrect/content/task_tpl/inactive",
-				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/tasks/frame/main/scrollrect/content/task_tpl/inactive",
 				pathIndex = -1,
+				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/tasks/frame/main/scrollrect/content/task_tpl/inactive",
+				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/tasks/frame/main/scrollrect/content/task_tpl/inactive",
 				triggerType = {
 					1
 				},
@@ -75,9 +75,9 @@ return {
 				"close"
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/title/back_button",
-				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/title/back_button",
 				pathIndex = -1,
+				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/title/back_button",
+				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/title/back_button",
 				triggerType = {
 					1
 				},

@@ -8,15 +8,15 @@ slot0.Battle.BattleBuffDOT.__name = "BattleBuffDOT"
 slot4 = slot0.Battle.BattleBuffDOT
 slot4.FX_TYPE = slot0.Battle.BattleBuffEffect.FX_TYPE_DOT
 
-function slot4.Ctor(slot0, slot1)
+slot4.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot4.GetEffectType(slot0)
+slot4.GetEffectType = function(slot0)
 	return uv0.Battle.BattleBuffEffect.FX_TYPE_DOT
 end
 
-function slot4.SetArgs(slot0, slot1, slot2)
+slot4.SetArgs = function(slot0, slot1, slot2)
 	slot0._number = slot0._tempData.arg_list.number or 0
 	slot0._numberBase = slot0._number
 	slot0._time = slot0._tempData.arg_list.time or 0
@@ -52,10 +52,10 @@ function slot4.SetArgs(slot0, slot1, slot2)
 	end
 end
 
-function slot4.onStack(slot0, slot1, slot2)
+slot4.onStack = function(slot0, slot1, slot2)
 end
 
-function slot4.onUpdate(slot0, slot1, slot2, slot3)
+slot4.onUpdate = function(slot0, slot1, slot2, slot3)
 	if slot0._nextEffectTime <= slot3.timeStamp then
 		uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(nil, slot1:GetAttrByName("id"), -slot1:UpdateHP(-slot0:CalcNumber(slot1, slot2), {
 			isMiss = false,
@@ -69,7 +69,7 @@ function slot4.onUpdate(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot4.onRemove(slot0, slot1, slot2)
+slot4.onRemove = function(slot0, slot1, slot2)
 	uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(nil, slot1:GetAttrByName("id"), -slot1:UpdateHP(-slot0:CalcNumber(slot1, slot2), {
 		isMiss = false,
 		isCri = false,
@@ -77,7 +77,7 @@ function slot4.onRemove(slot0, slot1, slot2)
 	}))
 end
 
-function slot4.CalcNumber(slot0, slot1, slot2)
+slot4.CalcNumber = function(slot0, slot1, slot2)
 	if slot0._metaDot then
 		slot4 = uv0.Battle.BattleDataProxy.GetInstance():GetInitData()
 
@@ -95,14 +95,14 @@ function slot4.CalcNumber(slot0, slot1, slot2)
 	end
 end
 
-function slot4.SetOrb(slot0, slot1, slot2, slot3)
+slot4.SetOrb = function(slot0, slot1, slot2, slot3)
 	slot0._orb = slot2
 	slot0._level = slot3
 
 	slot1:SetOrbLevel(slot0._level)
 end
 
-function slot4.UpdateCloakLock(slot0)
+slot4.UpdateCloakLock = function(slot0)
 	slot2 = 0
 	slot3 = {}
 

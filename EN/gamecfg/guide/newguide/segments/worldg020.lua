@@ -18,13 +18,13 @@ return {
 			style = {
 				text = "Tap to open the Depot.",
 				mode = 2,
-				posY = -229.8,
 				dir = 1,
+				posY = -229.8,
 				posX = 491.03
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/right_stage/dock/inventory_button",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/top/right_stage/dock/inventory_button",
 				triggerType = {
 					1
 				},
@@ -41,8 +41,8 @@ return {
 				"openBox"
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_scrollview/item_grid",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_scrollview/item_grid",
 				conditionData = {
 					"251",
 					"252",
@@ -61,8 +61,8 @@ return {
 			delay = 0.2,
 			alpha = 0.3,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_usage_panel/window/actions/use_button",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/WorldInventoryUI(Clone)/item_usage_panel/window/actions/use_button",
 				triggerType = {
 					1
 				},

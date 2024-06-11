@@ -1,17 +1,17 @@
 return {
-	id = "WORLD203D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD203D",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101330,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "Atlanta, look! The Royal Navy’s rescue fleet is here!",
 			dir = 1,
 			bgm = "story-french1",
+			actor = 101330,
+			nameColor = "#a9f548",
+			say = "Atlanta, look! The Royal Navy’s rescue fleet is here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -65,8 +65,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "But to my understanding, this zone is outside of the Eagle Union’s operational area...",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "...A special research mission? What could that be about? This whole sector has turned into a warfront!",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -197,8 +197,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "Ark Royal isn't assigned to this zone, but there’s also no way your force would've been able to defeat such a large number of Sirens without help... Could it have been Ashes...?",
 			typewriter = {
 				speed = 0.05,
@@ -227,9 +227,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "I want to know too! You were talking about that too on our way here!",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -254,8 +254,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "Hmm... Did the Naval HQ really deploy you out here without telling you anything?",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "Formidable, what we know about Ashes is classified information. It’s not unusual that they wouldn't know.",
 			typewriter = {
 				speed = 0.05,
@@ -301,8 +301,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "Sure, but shouldn't they at least tell the fleets that are out here fighting?",
 			typewriter = {
 				speed = 0.05,
@@ -317,8 +317,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "It’s highly possible that the “Ark Royal” you met was not the real Ark Royal, but rather a member of an organisation known as “Ashes.” They have appearances similar to ours but have vastly greater power. They don't show up on our radars, almost completely refuse to communicate, and behave totally unpredictably.",
 			typewriter = {
 				speed = 0.05,
@@ -348,8 +348,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "I can't tell you anything more about them, but maybe the Commander or Enterprise would have some more information.",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 801030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Really? Do you think she would tell me?",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -405,8 +405,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "I'm sure she will. Anyway, there’s no point in dallying here any longer. Let’s return to one of our ports first.",
 			typewriter = {
 				speed = 0.05,
@@ -435,9 +435,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 207050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Are you daft? You won't be able to complete the mission if you sink either.",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -462,8 +462,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "You're in waters under the Royal Navy’s jurisdiction, so behave yourself and listen to us. All right?",
 			typewriter = {
 				speed = 0.05,
@@ -493,8 +493,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "Good. Let’s all get back into formation then and prepare to head back. Remember, our mission’s not over until you get back to port safely.",
 			typewriter = {
 				speed = 0.05,

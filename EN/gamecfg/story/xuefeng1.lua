@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUEFENG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUEFENG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"Call me Yukikaze the Great!\"\n\n<size=45>Chapter 1: The Lucky Star of Sasebo Arrives!</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			bgm = "story-1",
+			actor = 301160,
 			actorName = "？？？",
 			say = "Wa~hahaha!",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,14 +35,14 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					number = 3
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301160,
 			actorName = "？？？",
 			say = "Listen up! I'm the noble, lucky, invincible, magni... magnici...",
 			typewriter = {
@@ -67,11 +67,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301160,
 			actorName = "？？？",
 			say = "...mag... magni-what the heck... A-anyway! Call me Yukikaze the Great!",
 			typewriter = {
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Hmph! In any case, I am a part of this fleet from now on. Do your best to use Yukikaze the Great to her fullest potential!",
 			typewriter = {
@@ -117,9 +117,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "*sparkle!*",
 			typewriter = {
 				speed = 0.05,
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Now! Bow down before me and place me in the main fleet!",
 			typewriter = {
@@ -144,9 +144,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "*poses!*",
 			typewriter = {
 				speed = 0.05,
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			actorName = "{namecode:22}",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "Were you so starstruck by Yukikaze the Great's majesty that you are unable to speak? You are merely a lowly human after all!",
 			effects = {
@@ -168,8 +168,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -194,9 +194,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -204,9 +204,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "... ...",
 			typewriter = {
 				speed = 0.05,
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Only the sound of the wind could be heard...",
 			typewriter = {
 				speed = 0.05,
@@ -224,11 +224,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "H-huh...?",
 			typewriter = {
@@ -241,11 +241,11 @@ return {
 			}
 		},
 		{
-			actor = 301610,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301610,
 			actorName = "{namecode:128}",
 			say = "Um... Commander... turned into a rock...",
 			typewriter = {
@@ -258,13 +258,13 @@ return {
 			}
 		},
 		{
-			actor = 301620,
+			say = "Uhh... Y-Yukikaze is always like this... so don't let it bother you too much... okay?",
 			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301620,
 			actorName = "{namecode:127}",
-			say = "Uhh... Y-Yukikaze is always like this... so don't let it bother you too much... okay?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -279,11 +279,11 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = -1,
+			actor = 301600,
 			actorName = "{namecode:143}",
 			say = "S-so cool... Hey Urakaze, help me think up a wild self-introduction like that too!",
 			typewriter = {
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 301590,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = -1,
+			actor = 301590,
 			actorName = "{namecode:142}",
 			say = "Huh? How would I know how to do something like that? More importantly, Commander, is it fine to leave Yukikaze alone over there?",
 			typewriter = {
@@ -319,12 +319,12 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
 			blackBg = true,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Grrr...!! For ignoring Yukikaze the Great, even ten thousand deaths are not enough for the likes of you!",
 			typewriter = {
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

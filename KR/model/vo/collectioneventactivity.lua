@@ -1,6 +1,6 @@
 slot0 = class("CollectionEventActivity", import(".Activity"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.collections = {}
@@ -27,13 +27,13 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.getDayIndex(slot0)
+slot0.getDayIndex = function(slot0)
 	slot2 = pg.TimeMgr.GetInstance()
 
 	return slot2:DiffDay(slot0.data1, slot2:GetServerTime()) + 1
 end
 
-function slot0.GetCollectionList(slot0)
+slot0.GetCollectionList = function(slot0)
 	return slot0.collections
 end
 

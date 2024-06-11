@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>눈이 녹고, 눈이 얼어 붙는다.</size>",
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -74,14 +74,14 @@ return {
 			}
 		},
 		{
-			actor = 900220,
 			side = 2,
-			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "‘그 작전’이 드디어 시작되는 건가…",
+			black = true,
 			bgm = "bgm-cccp2",
+			actor = 900220,
+			nameColor = "#a9f548",
+			say = "‘그 작전’이 드디어 시작되는 건가…",
 			effects = {
 				{
 					active = false,
@@ -89,8 +89,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -118,8 +118,8 @@ return {
 			actor = 900221,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "후하하하하! 두근거리는 마음을 누를 수가 없군!",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			actor = 900222,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "아 그래… 지휘관, 인가… 실망하게 하지 않으면 좋겠네.",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			actor = 900223,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "후후후, 이 지휘관에게는 큰 기대를 걸고 있어.",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			actor = 900224,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "кролик убийца… 정말 흥분되는데.",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			actor = 900225,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "하하, 모두 흥분하고 있구나! 하지만 그전에, 먼저 극지 작전 임무부터 마쳐야 해.",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			actor = 900225,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "임무를 마치기 전에 우리가 맞이하러 가볼까? 어때, 아브로라?",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			actor = 702010,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "후후. 파쨩도 즐거운 모양이네.",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 3,
 			black = true,
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "당연하지. 나도 기대하고 있는걸! 좋아, 출발이다!",
 			typewriter = {

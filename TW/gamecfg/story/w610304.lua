@@ -1,12 +1,12 @@
 return {
-	id = "W610301",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W610301",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "打撈到了沉入海中的物資！",
 			typewriter = {
 				speed = 0.05,

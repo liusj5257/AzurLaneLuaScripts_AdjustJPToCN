@@ -6,14 +6,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "???",
+			nameColor = "#FEF15E",
 			bgm = "ryza-az-theme",
 			actor = 401466,
-			nameColor = "#FEF15E",
+			actorName = "???",
 			hidePaintObj = true,
+			bgName = "star_level_bg_158",
 			say = "♪ The winter has passed, the spring has come, and life begins new ♪",
 			painting = {
 				alpha = 0.3,
@@ -24,17 +24,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -47,9 +47,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "???",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "???",
 			hidePaintObj = true,
 			say = "♪ From the gods get we our blessings, and this lovely world does too ♪",
 			painting = {
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_158",
 			hidePaintObj = true,
 			say = "A village sits on a grass plain. A bard's singing can be heard from down the road.",
@@ -75,12 +75,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
+			nameColor = "#FEF15E",
+			bgName = "star_level_bg_158",
 			portrait = 401466,
 			actorName = "Bard",
-			nameColor = "#FEF15E",
 			hidePaintObj = true,
 			say = "♪ 'Tis time to shake the cobwebs, to go where one never has ♪",
 			painting = {
@@ -92,17 +92,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -115,9 +115,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
+			nameColor = "#FEF15E",
 			portrait = 401466,
 			actorName = "Bard",
-			nameColor = "#FEF15E",
 			hidePaintObj = true,
 			say = "♪ Oh, here's a slice of Paradise; a splendid town to pass♪",
 			painting = {
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You hear that? Someone's singing...",
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "A traveling bard... We've never had one of those come to the village before.",
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Heehee! What a nice voice she has!",
@@ -184,13 +184,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:6}",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
 			actor = 301059,
-			nameColor = "#A9F548FF",
+			actorName = "{namecode:6}",
 			hidePaintObj = true,
 			say = "Yes, I think she's literally singing the praises of our village.",
 			painting = {
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Ms. Bard! Thank you for the verses!",
@@ -221,11 +221,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You should come sing in our tavern, too! Should I show you the way?",
@@ -241,12 +241,12 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			bgName = "star_level_bg_158",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "Ah, Javelin... I mean, my fair lady, you are too kind.",
 			painting = {
@@ -258,17 +258,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -281,9 +281,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "However, I am simply passing through this place. I must politely reject your offer.",
 			painting = {
@@ -301,9 +301,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "For you see...",
 			painting = {
@@ -321,9 +321,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ The darkness is upon us ♪",
 			painting = {
@@ -341,9 +341,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ O villagers kind and friendly, I imploreth ye to flee ♪",
 			painting = {
@@ -361,9 +361,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "♪ My flute's sound shall lead ye, to a great sanctuary ♪",
 			painting = {
@@ -376,13 +376,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:6}",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
 			actor = 301059,
-			nameColor = "#A9F548FF",
+			actorName = "{namecode:6}",
 			hidePaintObj = true,
 			say = "Uh... \"The darkness\"?",
 			painting = {
@@ -395,11 +395,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It'll be several hours before the sun sets.",
@@ -418,9 +418,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "Ah... Of course, your village is isolated from the rest of the world.",
 			painting = {
@@ -438,9 +438,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "I assume you've not heard the news about the Demon King.",
 			painting = {
@@ -453,11 +453,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The Demon King? I have a book about her at home.",
@@ -476,9 +476,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "I speaketh not of the Demon King of fables and fairy tales.",
 			painting = {
@@ -491,13 +491,13 @@ return {
 			}
 		},
 		{
-			actorName = "Bard",
+			nameColor = "#FEF15E",
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
 			actor = 401466,
-			nameColor = "#FEF15E",
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "Hmm... I suppose this is a reason to stay the night.",
 			painting = {
@@ -515,9 +515,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "Your village seemeth to need the services of a bard.",
 			painting = {
@@ -535,9 +535,9 @@ return {
 			bgName = "star_level_bg_158",
 			factiontag = "???",
 			dir = 1,
-			actorName = "Bard",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "Bard",
 			hidePaintObj = true,
 			say = "Where be your tavern?",
 			painting = {
@@ -550,11 +550,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_158",
 			factiontag = "Villager",
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Right over here! Follow me!",

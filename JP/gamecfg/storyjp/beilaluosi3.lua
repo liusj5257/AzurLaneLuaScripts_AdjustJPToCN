@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILALUOSI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILALUOSI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"颯爽の「白」\n\n<size=45>三 ウェルカムトゥ母港！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 705040,
-			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "За здоровье！かんぱーい！",
 			bgm = "story-1",
+			actor = 705040,
+			nameColor = "#a9f548",
+			say = "За здоровье！かんぱーい！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_107",
-			actorName = "みんな",
 			dir = 1,
+			actorName = "みんな",
 			say = "かんぱーい！",
 			effects = {
 				{
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "本日の業務が終了し、北方連合の仲間たちへの歓迎会を開くことにした。",
 			effects = {
 				{
@@ -118,8 +118,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "粋な気遣い感謝するよ。同志指揮官",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "得するはずが結局出費が増えた――それで落胆した同志指揮官の顔を思えばな",
 			typewriter = {
@@ -165,9 +165,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "あのあと、ベラルーシアから一等賞の説明をされたが、その中身は意外なことにパーティーの割引券だった。",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "つまりグロームキィがそれを手に入れても、使いみちはあまりなかったということだ",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "まあ、そんなとこね。わたしたちはくじを引くときに中身が何かなんて気にしてなかったし",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "まさか中身を確認せずに30枚も買ったのか？",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "の、残りわずかって表示を見たらつい…＞＜",
 			typewriter = {
@@ -247,9 +247,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "知らないうちに良いことにした（？）気がしなくもない。",
 			typewriter = {
 				speed = 0.05,
@@ -261,15 +261,15 @@ return {
 			}
 		},
 		{
-			actor = 705040,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 705040,
+			nameColor = "#a9f548",
 			say = "さて、グロームキィたちは行ったし、同志指揮官には謝っておこう。こんな大掛かりなパーティーを開催してすまなかったな",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -297,8 +297,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "このベラルーシアという艦船は時々、自分の考えで物事を運びたがる性格であるようだ",
 			typewriter = {
@@ -314,8 +314,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "言わばじゃじゃ馬タイプなのだ。それを従えるお前には迷惑をかけてしまうこともあるが…",
 			typewriter = {
@@ -328,9 +328,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "確かに、秘書艦に任命した最初の日は驚かされたな。",
 			typewriter = {
 				speed = 0.05,
@@ -342,9 +342,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "しかしいい結果に導いてくれるうちは、彼女の自主性を強引に抑え込む必要はない。あくまでこちらでさじ加減を調整すればいい。",
 			typewriter = {
 				speed = 0.05,

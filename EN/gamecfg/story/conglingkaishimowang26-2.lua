@@ -26,17 +26,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You fiend... I am the hero! I will not fall at the last step of my journey!",
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Adventure Interface",
+			side = 2,
 			bgName = "star_level_bg_156",
 			nameColor = "#A9F548FF",
 			say = "\"Notification: Your skills Curse Resistance SSS and Blessing of Light SSS are in effect.\"",
@@ -447,11 +447,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Demon King",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "main2",
 			say = "You're telling me it WASN'T pure luck that you killed my Great Fire Dragon?!",
@@ -496,11 +496,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Demon King",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "Out of your whole party, YOU'RE the strongest by a long shot!",
@@ -514,8 +514,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "......",
 			typewriter = {
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "......",
 			typewriter = {
@@ -565,11 +565,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Demon King",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "Wait! We can still talk this out!",
@@ -602,11 +602,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Demon King",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "NO! GET AWAY FROM MEEE!",

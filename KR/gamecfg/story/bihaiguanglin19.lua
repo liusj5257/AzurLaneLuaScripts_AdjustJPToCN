@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN19",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_4",
-			say = "두 차례 사격 후, 건물의 결계가 파괴됐다. 이곳의 봉인은 양산형만큼 견고하지 않은 듯했다.",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "map-longgong",
+			nameColor = "#a9f548",
+			say = "두 차례 사격 후, 건물의 결계가 파괴됐다. 이곳의 봉인은 양산형만큼 견고하지 않은 듯했다.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_4",
 			dir = 1,
 			say = "연기가 걷힌 뒤, 모두의 앞에 나타난 것은————",
@@ -51,8 +51,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "당신은... 메탈 블러드의 프린츠 오이겐?",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "뒤에 있는 분은 누구인가요?",
 			typewriter = {
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 499040,
 			nameColor = "#ffff4d",
-			bgName = "bg_daofeng_4",
 			side = 2,
+			bgName = "bg_daofeng_4",
 			dir = 1,
+			actor = 499040,
 			actorName = "？？？",
 			say = "................",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(자신의 일을 남에게 묻지 마세요...!)",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -359,8 +359,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(이 여유로운 태도는... 분명 방금 지어낸 얘기겠죠!)",
 			typewriter = {
@@ -411,8 +411,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -440,8 +440,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "프린츠 오이겐, 당신들이 여기에 갇혀있다는 것은 이 용궁에 물이 두 번은 들어왔다는 증거겠죠.",
 			typewriter = {
@@ -588,8 +588,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "메탈 블러드와 사쿠라 엠파이어가 분명히 수색을 진행하고 있을 거예요. 여기서 지원을 기다리는 쪽이 더 안정적이지 않을까요?",
 			typewriter = {
@@ -605,8 +605,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "하지만 우리가 용궁을 따라 물 아래에 있다는 사실을 그들은 몰라요... 해수면 위에서 우리의 위치를 찾는 건 어려울 거예요.",
 			typewriter = {
@@ -654,8 +654,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -686,9 +686,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 305140,
 			dir = 1,
 			blackBg = true,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "네... 모두 화력을 집중해서 적을 처리하죠!",
 			typewriter = {

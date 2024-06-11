@@ -6,7 +6,7 @@ slot1 = {
 }
 slot2 = pg.world_collection_place_template
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.number = slot1.number or 0
@@ -16,19 +16,19 @@ function slot0.Ctor(slot0, slot1)
 	assert(slot0.config)
 end
 
-function slot0.setUnlock(slot0, slot1)
+slot0.setUnlock = function(slot0, slot1)
 	slot0.unlock = slot1
 end
 
-function slot0.isUnlock(slot0)
+slot0.isUnlock = function(slot0)
 	return slot0.unlock
 end
 
-function slot0.getNumber(slot0)
+slot0.getNumber = function(slot0)
 	return slot0.number
 end
 
-function slot0.getDesc(slot0)
+slot0.getDesc = function(slot0)
 	if slot0:isUnlock() then
 		return slot0.config.description_known
 	else
@@ -36,11 +36,11 @@ function slot0.getDesc(slot0)
 	end
 end
 
-function slot0.getCamp(slot0)
+slot0.getCamp = function(slot0)
 	return uv0[tonumber(slot0.config.type)]
 end
 
-function slot0.getName(slot0)
+slot0.getName = function(slot0)
 	if slot0:isUnlock() then
 		return slot0.config.name
 	else
@@ -48,7 +48,7 @@ function slot0.getName(slot0)
 	end
 end
 
-function slot0.getIconPath(slot0)
+slot0.getIconPath = function(slot0)
 	if slot0:isUnlock() then
 		return "shipYardIcon/abeikelongbi"
 	else
@@ -56,7 +56,7 @@ function slot0.getIconPath(slot0)
 	end
 end
 
-function slot0.getFullViewImg(slot0)
+slot0.getFullViewImg = function(slot0)
 	return "levelmap/map_1"
 end
 

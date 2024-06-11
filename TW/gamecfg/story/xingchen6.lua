@@ -78,8 +78,8 @@ return {
 			nameColor = "#a9f548",
 			say = "小小的勇氣……就是最大的魔法……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

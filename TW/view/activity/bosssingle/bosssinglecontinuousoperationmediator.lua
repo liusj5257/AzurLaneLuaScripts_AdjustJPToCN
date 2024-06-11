@@ -2,7 +2,7 @@ slot0 = class("BossSingleContinuousOperationMediator", import("view.base.Context
 slot0.CONTINUE_OPERATION = "BossSingleContinuousOperationMediator:CONTINUE_OPERATION"
 slot0.ON_REENTER = "BossSingleContinuousOperationMediator:ON_REENTER"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(GAME.PAUSE_BATTLE, function ()
 		uv0:sendNotification(GAME.PAUSE_BATTLE)
 	end)
@@ -27,14 +27,14 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		NewBattleResultMediator.ON_ENTER_BATTLE_RESULT,
 		NewBattleResultMediator.ON_COMPLETE_BATTLE_RESULT
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == NewBattleResultMediator.ON_ENTER_BATTLE_RESULT then
@@ -45,7 +45,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 end
 
 return slot0

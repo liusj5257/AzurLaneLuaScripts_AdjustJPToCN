@@ -1,10 +1,10 @@
 slot0 = class("MailLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MailBoxUI2"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.closeButton = slot0:findTF("main/top/btnBack")
 	slot0.takeAllButton = slot0:findTF("main/get_all_button")
 	slot0.deleteAllButton = slot0:findTF("main/delete_all_button")
@@ -62,19 +62,19 @@ function slot0.init(slot0)
 	end)
 end
 
-function slot0.setMailData(slot0, slot1)
+slot0.setMailData = function(slot0, slot1)
 	slot0.mailVOs = slot1
 end
 
-function slot0.setUnreadMailCount(slot0, slot1)
+slot0.setUnreadMailCount = function(slot0, slot1)
 	slot0.unreadCount = slot1
 end
 
-function slot0.setMailCount(slot0, slot1)
+slot0.setMailCount = function(slot0, slot1)
 	slot0.totalCount = slot1
 end
 
-function slot0.setOrMovePanelState(slot0, slot1, slot2)
+slot0.setOrMovePanelState = function(slot0, slot1, slot2)
 	if slot2 then
 		setAnchoredPosition(slot0.mainPanel, Vector2.zero)
 		SetActive(slot0.mainPanel, true)
@@ -109,7 +109,7 @@ function slot0.setOrMovePanelState(slot0, slot1, slot2)
 	slot0.panelState = slot1
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:setOrMovePanelState(slot0.panelState, true)
 	onButton(slot0, slot0._tf, function ()
 		uv0:emit(uv1.ON_CLOSE)
@@ -197,11 +197,11 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.UnblurMailBox(slot0)
+slot0.UnblurMailBox = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance()._normalUIMain)
 end
 
-function slot0.updateMailList(slot0)
+slot0.updateMailList = function(slot0)
 	if slot0.frozenUpdateMailList then
 		return
 	end
@@ -247,7 +247,7 @@ function slot0.updateMailList(slot0)
 	slot0:showMailTip(#slot0.mailVOs ~= slot0.totalCount)
 end
 
-function slot0.showMailTip(slot0, slot1)
+slot0.showMailTip = function(slot0, slot1)
 	setActive(slot0.mailTip, slot1)
 
 	if slot1 then
@@ -260,7 +260,7 @@ function slot0.showMailTip(slot0, slot1)
 	end
 end
 
-function slot0.setLetterContent(slot0, slot1)
+slot0.setLetterContent = function(slot0, slot1)
 	setActive(slot0.wordText, slot1)
 	setActive(slot0.lineTpl, slot1)
 
@@ -273,7 +273,7 @@ function slot0.setLetterContent(slot0, slot1)
 	slot0.wordList:align(math.floor(slot0.wordText.rect.height / slot0.lineTpl.rect.height) + 1 + 1)
 end
 
-function slot0.updateMailMark(slot0, slot1)
+slot0.updateMailMark = function(slot0, slot1)
 	if not slot0.lastOpenMailId then
 		return
 	end
@@ -285,7 +285,7 @@ function slot0.updateMailMark(slot0, slot1)
 	end
 end
 
-function slot0.openMail(slot0, slot1)
+slot0.openMail = function(slot0, slot1)
 	assert(isa(slot1, Mail), "should be an instance of Mail")
 	assert(slot1.openned, "mail should be openned")
 	slot0:updateMailMark(false)
@@ -346,7 +346,7 @@ function slot0.openMail(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.setAttachment(slot0, slot1, slot2, slot3)
+slot0.setAttachment = function(slot0, slot1, slot2, slot3)
 	setActive(slot1:Find("mask"), slot3)
 	updateDrop(slot1, {
 		type = slot2.type,
@@ -358,7 +358,7 @@ function slot0.setAttachment(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot0.updateMail(slot0, slot1)
+slot0.updateMail = function(slot0, slot1)
 	slot5 = Mail
 
 	assert(isa(slot1, slot5), "should be an instance of Mail")
@@ -421,7 +421,7 @@ function slot0.updateMail(slot0, slot1)
 	end
 end
 
-function slot0.onDelete(slot0, slot1)
+slot0.onDelete = function(slot0, slot1)
 	if slot1.attachFlag == slot1.ATTACHMENT_EXIST then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("main_mailLayer_quest_deleteNotTakeAttach"),
@@ -441,7 +441,7 @@ function slot0.onDelete(slot0, slot1)
 	end
 end
 
-function slot0.showMsgBox(slot0, slot1)
+slot0.showMsgBox = function(slot0, slot1)
 	slot0.isShowMsgBox = true
 
 	setActive(slot0.msgBoxTF, true)
@@ -472,7 +472,7 @@ function slot0.showMsgBox(slot0, slot1)
 	slot0.msgContentTF.text = i18n2(slot1.content) or ""
 end
 
-function slot0.closeMsgBox(slot0)
+slot0.closeMsgBox = function(slot0)
 	if slot0.isShowMsgBox then
 		slot0.isShowMsgBox = nil
 
@@ -480,7 +480,7 @@ function slot0.closeMsgBox(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:UnblurMailBox()
 	slot0:closeMsgBox()
 end

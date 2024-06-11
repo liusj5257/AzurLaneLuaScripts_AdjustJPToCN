@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA12",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA12",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301050,
@@ -53,8 +53,8 @@ return {
 			actor = 10400030,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "키즈나 아이",
 			dir = 1,
+			actorName = "키즈나 아이",
 			say = "다들~, 뭔가 찾았어~! 에~ 그러니까, 이건… 뭔가의 스위치인가?",
 			typewriter = {
 				speed = 0.05,
@@ -96,10 +96,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/ui/boat_drag",
 			say = "뽁",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/ui/boat_drag",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,8 +113,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "아와와! 실수로 눌러버렸어!?",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -137,11 +137,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#92fc63",
 			side = 0,
-			hideOther = true,
+			actor = 201210,
 			dir = 1,
+			hideOther = true,
 			actorName = "모두",
 			say = "……………",
 			subActors = {
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(폭발……은 안 일어났다)",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,8 +239,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "해, 해냈다~! 이제 안쪽으로 갈 수 있겠네!",
 			typewriter = {
@@ -253,11 +253,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			nameColor = "#92fc63",
 			side = 0,
-			hideOther = true,
+			actor = 301120,
 			dir = 1,
+			hideOther = true,
 			actorName = "모두",
 			say = "싸늘~~~~~",
 			subActors = {
@@ -287,8 +287,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "키즈나 아이",
 			say = "다, 다들 미안해~! 용서해줘~!",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

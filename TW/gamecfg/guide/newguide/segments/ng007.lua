@@ -10,8 +10,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -110,
 				posX = 0,
 				text = slot0[1]
@@ -27,8 +27,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -110,
 				posX = 0,
 				text = slot0[2]
@@ -40,8 +40,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -110,
 				posX = 0,
 				text = slot0[3]
@@ -49,8 +49,8 @@ return {
 		},
 		{
 			ui = {
-				scale = 1,
 				customSize = true,
+				scale = 1,
 				path = "/OverlayCamera/Overlay/UIMain/CommanderBoxesUI(Clone)/CommanderBuildPoolUI(Clone)/frame/bg/content/list/2/icon",
 				triggerType = {
 					3

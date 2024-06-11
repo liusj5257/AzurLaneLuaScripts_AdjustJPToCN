@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"平和に祈りを\n\n<size=45>四　未知の記念日</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "パーティー会場にて",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "パーティー会場にて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "ふふふ、今日こそ我が妹の可愛さでロイヤルの度肝を抜いてやるわ！シュペー、私にはまだちょっと用事があるから先に楽しんでていいわよ",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 20,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,8 +143,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403053,
 			dir = 1,
+			actor = 403053,
 			nameColor = "#a9f548",
 			say = "あっ、姉ちゃん……いなくなった",
 			typewriter = {
@@ -160,8 +160,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403053,
 			dir = 1,
+			actor = 403053,
 			nameColor = "#a9f548",
 			say = "パーティーを楽しむって…どうすればいいの？",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403053,
 			dir = 1,
+			actor = 403053,
 			nameColor = "#a9f548",
 			say = "……あそこにいるのは重桜の夕暮ちゃん？",
 			typewriter = {
@@ -194,8 +194,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 301263,
 			dir = 1,
+			actor = 301263,
 			nameColor = "#a9f548",
 			say = "有明姉さん……きゃっ！？鉄血のシュペーさんですか？すみません、ジュースをこぼしちゃいまして…",
 			typewriter = {
@@ -224,12 +224,12 @@ return {
 			}
 		},
 		{
-			actor = 301263,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301263,
+			nameColor = "#a9f548",
 			say = "は、はい！実は……",
 			typewriter = {
 				speed = 0.05,

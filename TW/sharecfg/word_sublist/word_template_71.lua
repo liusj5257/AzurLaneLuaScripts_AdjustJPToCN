@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_71 = {}
 slot1 = slot0.word_template_71
 
-function temp()
+temp = function()
 	uv0["香"] = {
 		["烟"] = {
 			["迷"] = {
@@ -146,7 +146,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["速"] = {
 		["效"] = {
 			["迷"] = {
@@ -165,7 +165,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["失"] = {
 		["身"] = {
 			["粉"] = {
@@ -177,7 +177,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["拍"] = {
 		["肩"] = {
 			["迷"] = {

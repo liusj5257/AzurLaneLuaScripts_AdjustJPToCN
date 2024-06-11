@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U556STORY7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U556STORY7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"誓ってナイト！\n\n<size=45>七　約束だよ！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "明日、一緒に海に行くって…？",
+			bgName = "bg_story_task",
 			bgm = "story-1",
+			actor = 408040,
+			nameColor = "#a9f548",
+			say = "明日、一緒に海に行くって…？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,8 +62,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "確かに約束したけど……でも本当にいいの？指揮官って忙しいでしょう？無理やりあたしに付き合わなくてもいいよ？",
 			typewriter = {
@@ -79,8 +79,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "「約束だから」って……じゃ、じゃあ決まりね！えへへ♪",
 			typewriter = {
@@ -95,13 +95,13 @@ return {
 		{
 			actor = 408040,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "海よ！あたしが来たぞー！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "あははは！",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2000,
+					type = "move",
 					delay = 0,
 					dur = 0.3,
 					x = 0
@@ -158,9 +158,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "どぼーん、とU-556は目にも留まらぬ速さで海に飛び込んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "……今日はいっぱい付き合ってあげよう。",
 			typewriter = {
 				speed = 0.05,
@@ -204,14 +204,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_106",
 			actor = 408040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "あははは！指揮官っておっそーい！",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -238,14 +238,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_106",
 			actor = 408040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "へい！指揮官、水鉄砲をくらえ！",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -270,8 +270,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -280,15 +280,15 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408040,
+			nameColor = "#a9f548",
 			say = "指揮官、対潜攻撃に失敗！U-556の反撃ィ！",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -313,14 +313,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "star_level_bg_106",
 			dir = 1,
+			stopbgm = true,
 			say = "あっという間に一日が終わった。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -348,8 +348,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "指揮官と丸一日遊ぶなんて思ってなかったよ…",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "えへへ、あたしも楽しかった！",
 			typewriter = {
@@ -414,11 +414,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 408040,
 			dir = 1,
+			bgm = "story-2",
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "……ねえ、指揮官、ちょっと聞いてくれるかな？",
-			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,8 +448,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "あの約束があるから、あたしが普段とは違うアネキを見れたり、アネキもあたしの前では楽に出来たり…",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "ひょんなことがきっかけで出来た約束かもしれないけど…でも今はあたしとアネキとを繋げるキズナなの！",
 			typewriter = {
@@ -482,8 +482,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "というわけで、指揮官、あたしたちも約束をしよう！",
 			typewriter = {
@@ -515,8 +515,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "あっ、指揮官はビスマルクのアネキじゃないから、交換条件もつけさせていただきます！",
 			typewriter = {
@@ -545,11 +545,11 @@ return {
 			}
 		},
 		{
-			actor = 408040,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
 			withoutActorName = true,
-			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -571,8 +571,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "うん！じゃあ約束ね！破ったらダメだよ！",
 			typewriter = {

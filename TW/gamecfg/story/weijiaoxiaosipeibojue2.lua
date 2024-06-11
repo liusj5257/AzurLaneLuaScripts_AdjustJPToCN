@@ -4,11 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
-			say = "幾日後——————",
 			bgm = "login-2022401us",
+			say = "幾日後——————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,8 +18,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 107990,
 			dir = 1,
+			actor = 107990,
 			nameColor = "#A9F548FF",
 			say = "海倫娜，我帶領白鷹的支援抵達了哦。",
 			painting = {
@@ -35,8 +35,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 203100,
 			dir = 1,
+			actor = 203100,
 			nameColor = "#A9F548FF",
 			say = "快看快看，皇家的支援也抵達了喲————",
 			painting = {
@@ -52,8 +52,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 204040,
 			dir = 1,
+			actor = 204040,
 			nameColor = "#A9F548FF",
 			say = "您好，海倫娜小姐，我帶來了皇家的支援與陛下的問候。",
 			painting = {
@@ -69,8 +69,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 207090,
 			dir = 1,
+			actor = 207090,
 			nameColor = "#A9F548FF",
 			say = "為了愛與和平，我們一定要盡快平息此次甜點危機才行！",
 			painting = {
@@ -85,9 +85,9 @@ return {
 		{
 			actor = 307090,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			say = "重櫻艦隊也來了哦，真沒想到會發生這種事。",
 			painting = {
 				alpha = 0.3,
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 304060,
 			dir = 1,
+			actor = 304060,
 			nameColor = "#A9F548FF",
 			say = "甜點供應減少，連宴會都要開不起來了……",
 			painting = {
@@ -119,8 +119,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 304070,
 			dir = 1,
+			actor = 304070,
 			nameColor = "#A9F548FF",
 			say = "好吃的團子也沒有了……必須要盡快，阻止事態的惡化！",
 			painting = {
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 102190,
 			dir = 1,
+			actor = 102190,
 			nameColor = "#A9F548FF",
 			say = "不愧是薩拉托加，真是很有意義的情報……",
 			painting = {
@@ -223,8 +223,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 102190,
 			dir = 1,
+			actor = 102190,
 			nameColor = "#A9F548FF",
 			say = "襲擊團伙裡還有其他人，不過另一個人究竟是……",
 			painting = {
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -286,7 +286,6 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			expression = 0,
 			dir = 1,
 			actor = 102200,
 			nameColor = "#A9F548FF",

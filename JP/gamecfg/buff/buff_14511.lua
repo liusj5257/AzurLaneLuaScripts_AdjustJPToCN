@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 0.5
+					number = 0.5,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 1
+					number = 1,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 1.5
+					number = 1.5,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 2
+					number = 2,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 2.5
+					number = 2.5,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3
+					number = 3,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 3.5
+					number = 3.5,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 4
+					number = 4,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 4.5
+					number = 4.5,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "chargeBulletAccuracy",
-					number = 5
+					number = 5,
+					attr = "chargeBulletAccuracy"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,

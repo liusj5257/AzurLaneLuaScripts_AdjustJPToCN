@@ -1,6 +1,6 @@
 slot0 = class("GuideStoryPlayer", import(".GuidePlayer"))
 
-function slot0.OnExecution(slot0, slot1, slot2)
+slot0.OnExecution = function(slot0, slot1, slot2)
 	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot1:GetStories()) do

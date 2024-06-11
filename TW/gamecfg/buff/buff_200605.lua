@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023云仙活动 剧情战 云仙蓄力",
 	time = 15,
+	name = "2023云仙活动 剧情战 云仙蓄力",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -32,9 +32,9 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				skill_id = 200605,
 				time = 4,
-				target = "TargetSelf",
-				skill_id = 200605
+				target = "TargetSelf"
 			}
 		}
 	}

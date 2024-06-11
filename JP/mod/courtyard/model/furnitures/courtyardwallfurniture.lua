@@ -1,21 +1,21 @@
 slot0 = class("CourtYardWallFurniture", import(".CourtYardFurniture"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	pg.furniture_data_template[slot2.configId or slot2.id].size[2] = 1
 
 	uv0.super.Ctor(slot0, slot1, slot2)
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0:UpdatePosition(slot1)
 end
 
-function slot0.UpdatePosition(slot0, slot1)
+slot0.UpdatePosition = function(slot0, slot1)
 	slot0:SetPosition(slot1)
 	slot0:SetDir(slot0:GetDirection())
 end
 
-function slot0.GetInitSize(slot0)
+slot0.GetInitSize = function(slot0)
 	if slot0:RightDirectionLimited() then
 		return {
 			{
@@ -44,7 +44,7 @@ function slot0.GetInitSize(slot0)
 	end
 end
 
-function slot0._GetDirection(slot0, slot1)
+slot0._GetDirection = function(slot0, slot1)
 	if slot0:RightDirectionLimited() then
 		return 2
 	elseif slot0:LeftDirectionLimited() then
@@ -56,30 +56,30 @@ function slot0._GetDirection(slot0, slot1)
 	end
 end
 
-function slot0.GetWidth(slot0)
+slot0.GetWidth = function(slot0)
 	return slot0.config.size[1]
 end
 
-function slot0.GetDirection(slot0)
+slot0.GetDirection = function(slot0)
 	return slot0:_GetDirection(slot0:GetPosition())
 end
 
-function slot0.Rotate(slot0)
+slot0.Rotate = function(slot0)
 end
 
-function slot0.InActivityRange(slot0, slot1)
+slot0.InActivityRange = function(slot0, slot1)
 	return (slot1.x == slot0:GetHost():GetStorey():GetRange().x or slot1.y == slot2.y) and slot1.x ~= slot1.y
 end
 
-function slot0.LeftDirectionLimited(slot0)
+slot0.LeftDirectionLimited = function(slot0)
 	return slot0.config.belong == 3
 end
 
-function slot0.RightDirectionLimited(slot0)
+slot0.RightDirectionLimited = function(slot0)
 	return slot0.config.belong == 4
 end
 
-function slot0.NormalizePosition(slot0, slot1, slot2)
+slot0.NormalizePosition = function(slot0, slot1, slot2)
 	slot3 = slot0:GetHost():GetStorey():GetRange().x
 	slot4 = slot0:_GetDirection(slot1) == 1
 	slot6 = math.max(slot2, math.min((slot4 and Vector2(slot1.x, slot1.y) or Vector2(slot1.y, slot1.x)).x, slot3 - slot0:GetWidth()))
@@ -90,12 +90,12 @@ function slot0.NormalizePosition(slot0, slot1, slot2)
 	return slot8
 end
 
-function slot0.SetDir(slot0, slot1)
+slot0.SetDir = function(slot0, slot1)
 	uv0.super.SetDir(slot0, slot1)
 	slot0:DispatchEvent(CourtYardEvent.ROTATE_FURNITURE, slot0.dir)
 end
 
-function slot0.CanPutChild(slot0)
+slot0.CanPutChild = function(slot0)
 	return false
 end
 

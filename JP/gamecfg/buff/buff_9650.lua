@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "敌方夜战照明弹-照明区域效果",
 	init_effect = "",
-	color = "yellow",
+	id = 9650,
+	time = 0,
 	picture = "",
 	desc = "回避率降低",
 	stack = 1,
-	id = 9650,
+	color = "yellow",
 	icon = 9650,
 	last_effect = "zhaomingdan_miaozhun",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRateExtra",
-				number = -0.25
+				number = -0.25,
+				attr = "dodgeRateExtra"
 			}
 		},
 		{
@@ -35,8 +35,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "lockAimBias",
-				number = 1
+				number = 1,
+				attr = "lockAimBias"
 			}
 		},
 		{

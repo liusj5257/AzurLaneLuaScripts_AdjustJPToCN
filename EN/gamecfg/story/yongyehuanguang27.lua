@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG27",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_hms_8",
-			nameColor = "#ff5c5c",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "So that's how this device works. It doesn't just listen in on transmissions, it actually \"catches\" them. Unbelievable.",
 			bgm = "bsm-5",
+			actor = 403030,
+			nameColor = "#ff5c5c",
+			say = "So that's how this device works. It doesn't just listen in on transmissions, it actually \"catches\" them. Unbelievable.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#ff5c5c",
 			say = "So, would the great and omniscient Prinz Eugen care to tell me what happens now that they've found about our fleet projections?",
 			typewriter = {
@@ -182,9 +182,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			actor = 401020,
 			dir = 1,
 			blackBg = true,
+			actor = 401020,
 			nameColor = "#ff5c5c",
 			say = "You're unbelievable... I'll go contact the ships.",
 			typewriter = {

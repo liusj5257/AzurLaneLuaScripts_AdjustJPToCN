@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN26",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_515",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
 			bgm = "xinnong-3",
-			actorName = "에식스",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "말을 끝낸 메이드는 결심을 굳히고 몸을 돌려 서재를 나갔습니다. 문 너머에서 나는 소음이 더 심해진 걸 보니, 그녀도 오래 버티지는 못할 것 같습니다.",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -67,9 +67,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "에식스",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "시간이 얼마 남지 않아 바로 탈출을 감행한 당신이 문고리에 손을 대자, 갑자기 뇌에서 요란한 경보음이 울렸습니다.",
 			typewriter = {
@@ -82,9 +82,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "에식스",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "문으로 당당히 걸어 나가는 것은 이 상황에서 절대 현명한 선택지가 아닙니다. 다른 탈출 방법을 찾아야 합니다.",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_515",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "에식스",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "서재의 출구는 문뿐이지만… 그렇다고 문을 통해 복도로 뛰쳐나가면 바로 잡히고 말 겁니다.",
 			typewriter = {
@@ -264,28 +264,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_521",
+			bgm = "theme-shallowoftheworld",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "잠시 후――",
-			bgm = "theme-shallowoftheworld",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -675,11 +675,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_506",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
 			bgm = "story-oldcastle-carnival",
-			actorName = "에식스",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신은 형언하기 어려운 사신의 화신을 처치하고 바로 성을 떠났습니다.",
 			typewriter = {
@@ -687,17 +687,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -873,8 +873,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -884,8 +884,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			effects = {
 				{
 					active = true,

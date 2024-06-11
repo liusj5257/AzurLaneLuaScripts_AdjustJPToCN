@@ -1,6 +1,6 @@
 slot0 = class("EnemyDeadCellView", import("view.level.cell.StaticCellView"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.config = nil
@@ -8,11 +8,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0._live2death = nil
 end
 
-function slot0.GetOrder(slot0)
+slot0.GetOrder = function(slot0)
 	return ChapterConst.CellPriorityLittle
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot1 = slot0.info
 	slot2 = slot0.config
 
@@ -46,7 +46,7 @@ function slot0.Update(slot0)
 	setActive(findTF(slot0.tf, "huoqiubaozha"), slot0._live2death)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0._live2death = nil
 	slot0.chapter = nil
 

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "维修工具T2",
 	time = 0,
-	color = "yellow",
+	name = "维修工具T2",
+	init_effect = "",
+	id = 6110,
 	picture = "",
 	desc = "每15秒0.6%缓慢回复耐久，同类效果取最大值，不可叠加",
 	stack = 1,
-	id = 6110,
+	color = "yellow",
 	icon = 6110,
 	last_effect = "",
 	effect_list = {
@@ -17,11 +17,11 @@ return {
 			},
 			arg_list = {
 				check_target = "TargetSelf",
-				minTargetNumber = 1,
+				skill_id = 6110,
 				targetMaxHPRatio = 0.99,
+				minTargetNumber = 1,
 				time = 15,
 				target = "TargetSelf",
-				skill_id = 6110,
 				group = {
 					id = 6100,
 					level = 2

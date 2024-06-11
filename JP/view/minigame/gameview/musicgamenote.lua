@@ -30,7 +30,7 @@ slot11 = 3
 slot12 = nil
 slot13 = false
 
-function slot14(slot0)
+slot14 = function(slot0)
 	slot1 = {
 		_tf = slot0,
 		type = nil,
@@ -162,7 +162,7 @@ function slot14(slot0)
 	return slot1
 end
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._tf = slot1
 	slot0.noteTpl = slot2
 	slot0.directType = slot3
@@ -171,15 +171,15 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.noteList = {}
 end
 
-function slot0.setStateCallback(slot0, slot1)
+slot0.setStateCallback = function(slot0, slot1)
 	slot0.noteStateCallback = slot1
 end
 
-function slot0.setLongTimeCallback(slot0, slot1)
+slot0.setLongTimeCallback = function(slot0, slot1)
 	slot0.longNoteCallback = slot1
 end
 
-function slot0.setStartData(slot0, slot1, slot2, slot3, slot4)
+slot0.setStartData = function(slot0, slot1, slot2, slot3, slot4)
 	uv0 = uv1[slot2]
 	slot0.puList = slot1
 	slot0.speedLevel = slot2
@@ -197,7 +197,7 @@ function slot0.setStartData(slot0, slot1, slot2, slot3, slot4)
 	slot0.lastNoteType = slot0.noteType
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	slot0.stepTime = slot1 / 1000
 
 	if #slot0.noteList > 0 and slot0:checkScoreType(slot0.noteList[1]) then
@@ -259,7 +259,7 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.checkScoreType(slot0, slot1)
+slot0.checkScoreType = function(slot0, slot1)
 	if slot0.dgree == MusicGameNote.type_dgree_easy and slot0.keyDownStepTime and slot0.keyDownStepTime and slot0.keyDownStepTime == MusicGameNote.easyTriggerStepTime then
 		slot0.keyDownTrigger = true
 	end
@@ -350,11 +350,11 @@ function slot0.checkScoreType(slot0, slot1)
 	return slot2
 end
 
-function slot0.loopTime(slot0)
+slot0.loopTime = function(slot0)
 	return slot0.loopFlag
 end
 
-function slot0.getScoreType(slot0, slot1)
+slot0.getScoreType = function(slot0, slot1)
 	if slot1 < uv0 / 2 then
 		return uv1
 	elseif slot1 < uv0 then
@@ -364,11 +364,11 @@ function slot0.getScoreType(slot0, slot1)
 	return nil
 end
 
-function slot0.pushNoteToList(slot0, slot1)
+slot0.pushNoteToList = function(slot0, slot1)
 	table.insert(slot0.noteList, slot1)
 end
 
-function slot0.checkPuShow(slot0, slot1)
+slot0.checkPuShow = function(slot0, slot1)
 	if slot1.begin_time - slot0.stepTime <= uv0 then
 		return true
 	end
@@ -376,7 +376,7 @@ function slot0.checkPuShow(slot0, slot1)
 	return false
 end
 
-function slot0.destroyNoteAll(slot0)
+slot0.destroyNoteAll = function(slot0)
 	for slot4 = #slot0.noteList, 1, -1 do
 		slot0.noteList[slot4]:dispose()
 	end
@@ -389,13 +389,13 @@ function slot0.destroyNoteAll(slot0)
 	slot0.notePool = {}
 end
 
-function slot0.clearNote(slot0)
+slot0.clearNote = function(slot0)
 	for slot4 = #slot0.noteList, 1, -1 do
 		slot0:returnNote(table.remove(slot0.noteList, slot4))
 	end
 end
 
-function slot0.getNote(slot0, slot1)
+slot0.getNote = function(slot0, slot1)
 	if #slot0.notePool == 0 then
 		table.insert(slot0.notePool, slot0:createNote())
 	end
@@ -407,12 +407,12 @@ function slot0.getNote(slot0, slot1)
 	return slot2
 end
 
-function slot0.returnNote(slot0, slot1)
+slot0.returnNote = function(slot0, slot1)
 	slot1:changeActive(false)
 	table.insert(slot0.notePool, slot1)
 end
 
-function slot0.createNote(slot0)
+slot0.createNote = function(slot0)
 	slot1 = tf(instantiate(slot0.tplNote))
 
 	setActive(slot1, false)
@@ -424,7 +424,7 @@ function slot0.createNote(slot0)
 	return uv0(slot1)
 end
 
-function slot0.onKeyDown(slot0)
+slot0.onKeyDown = function(slot0)
 	slot0.keyDown = true
 	slot0.keyUp = false
 	slot0.keyDownStepTime = slot0.stepTime
@@ -432,7 +432,7 @@ function slot0.onKeyDown(slot0)
 	slot0.keyBothDown = false
 end
 
-function slot0.onKeyUp(slot0)
+slot0.onKeyUp = function(slot0)
 	slot0.keyUp = true
 	slot0.keyDown = false
 	slot0.keyUpStepTime = slot0.stepTime
@@ -440,13 +440,13 @@ function slot0.onKeyUp(slot0)
 	slot0.keyBothUp = false
 end
 
-function slot0.bothDown(slot0)
+slot0.bothDown = function(slot0)
 	slot0.keyDownStepTime = slot0.stepTime
 	slot0.keyBothDown = true
 	slot0.keyBothUp = false
 end
 
-function slot0.bothUp(slot0)
+slot0.bothUp = function(slot0)
 	slot0.keyBothUp = true
 	slot0.keyBothDown = false
 	slot0.keyUpStepTime = slot0.stepTime

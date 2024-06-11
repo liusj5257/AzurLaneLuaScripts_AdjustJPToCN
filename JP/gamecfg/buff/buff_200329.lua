@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 圣堂统御装置-失控 波动效果",
 	time = 5,
-	color = "yellow",
+	name = "2023英系活动 圣堂统御装置-失控 波动效果",
+	init_effect = "",
+	id = 200329,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200329,
+	color = "yellow",
 	icon = 200329,
 	last_effect = "Bodongquan01",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 0.5,
+				target = "TargetSelf",
 				skill_id = 200328
 			}
 		}

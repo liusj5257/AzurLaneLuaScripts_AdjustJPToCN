@@ -1,18 +1,18 @@
 slot0 = class("FountainBuiding", import(".NavalAcademyBuilding"))
 
-function slot0.GetGameObjectName(slot0)
+slot0.GetGameObjectName = function(slot0)
 	return "fountain"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("school_title_shoucang")
 end
 
-function slot0.OnClick(slot0)
+slot0.OnClick = function(slot0)
 	slot0:emit(NavalAcademyMediator.ON_OPEN_COLLECTION)
 end
 
-function slot0.IsTip(slot0)
+slot0.IsTip = function(slot0)
 	return getProxy(CollectionProxy):unclaimTrophyCount() > 0
 end
 

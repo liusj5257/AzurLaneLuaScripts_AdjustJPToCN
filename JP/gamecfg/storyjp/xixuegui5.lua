@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIXUEGUI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIXUEGUI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"白衣の天使or悪魔？\n\n<size=45>五　プロナース・ヴァンパイア！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301320,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "しゅきかん……",
 			bgm = "story-1",
+			actor = 301320,
+			nameColor = "#a9f548",
+			say = "しゅきかん……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "睦月、だいじょうぶかな……",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "睦月、だいじょうぶかな……",
+			actor = 301330,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "ダイジョウブよ。ヴェスタルの言う通り普通の発熱ね。でも油断してはダメよ。如月ちゃん、水と冷やす用のタオルを二枚持ってきてくれない？",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "あとはお湯と……よし！体調回復用のおかゆとお薬も用意するわ！指揮官、ちょっとだけ見ていてくれない？睦月ちゃんは汝がいたほうが安心するわ。",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "睦月ちゃん、大丈夫よ。みんながずっとあなたのそばにいるよ。",
 			typewriter = {
@@ -155,15 +155,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "問題ないにゃ。目が覚めたら元気になるにゃ。……あれ？明石の出番もうないにゃ？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -191,10 +191,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "ふぅ……よかった。",
+			dir = 1,
+			actor = 201232,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -228,8 +228,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "……別に。私、ナースの看護なんてちょっと盗み見したり、適当に本をかじったりしかやっていないし。",
 			typewriter = {
@@ -261,8 +261,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "！？な、なんでロンドンが知ってるの！？",
 			typewriter = {
@@ -275,10 +275,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -318,8 +318,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "……そっか。",
 			typewriter = {
@@ -332,12 +332,12 @@ return {
 			}
 		},
 		{
-			actor = 201232,
+			say = "じゃあ指揮官、これからもこの衣装を着てもいい？ユウワク目的以外……",
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "じゃあ指揮官、これからもこの衣装を着てもいい？ユウワク目的以外……",
+			actor = 201232,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2

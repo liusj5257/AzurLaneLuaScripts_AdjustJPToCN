@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIZHUANCAIHONGZHITA30",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NIZHUANCAIHONGZHITA30",
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
-			actor = 406020,
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
-			say = "烏爾里希閣下，一支執行者IV型艦隊從側面過來了。",
 			bgm = "battle-midgard-hunting",
+			actor = 406020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "烏爾里希閣下，一支執行者IV型艦隊從側面過來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,10 +26,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 405030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "數量不多，不難應對。",
 			typewriter = {
 				speed = 0.05,
@@ -43,9 +43,9 @@ return {
 		{
 			actor = 405030,
 			nameColor = "#a9f548",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "格奈森瑙帶著沙恩霍斯特與我繼續前進，其餘人交替掩護斷後。",
 			typewriter = {
 				speed = 0.05,
@@ -57,11 +57,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
 			actorName = "鐵血眾人",
 			hidePaintObj = true,
-			dir = 1,
 			say = "是！",
 			dialogShake = {
 				speed = 0.08,

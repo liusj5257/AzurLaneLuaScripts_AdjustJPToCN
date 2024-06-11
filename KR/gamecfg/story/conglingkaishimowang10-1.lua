@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
-			say = "끝없는 수해의 심부, 대마법사가 잠든 곳.",
 			bgm = "theme-camelot",
+			say = "끝없는 수해의 심부, 대마법사가 잠든 곳.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -106,11 +106,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이젠 괜찮아, 라피! 지금 바로 저주를 풀어줄게!",
@@ -124,27 +124,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_518",
-			say = "시간의 플루트가 연주하는 맑은 음색과 함께, 라피의 몸에서 검은 기운이 스윽 빠져나갔다.",
+			side = 2,
 			bgm = "battle-boss-camelot",
+			nameColor = "#A9F548FF",
+			say = "시간의 플루트가 연주하는 맑은 음색과 함께, 라피의 몸에서 검은 기운이 스윽 빠져나갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -152,15 +152,15 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			say = "그 기척은 공중에서 얽히고설키더니, 갑자기 팽창하여 순식간에 공터 전체를 뒤덮었다.",
 			typewriter = {
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "시간의 플루트가 저주를 푼 것 같기는 한데… 뭔가 상황이 이상하지 않아?!",
@@ -263,8 +263,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			say = "검은 기운이 점차 실체화됨에 따라, 사람 형태의 마물들이 주위에 나타나 일행을 겹겹이 둘러쌌다.",
 			typewriter = {
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이, 이럴수가?! 용사의 검이 마물의 기운에 눌리고 있어…?!",
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "거, 거짓말이야! 진짜라고 해도 지금 그런 말 하면 어떻게 해!",
@@ -347,11 +347,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "으윽! 안 그래도 자신감이 많이 떨어진 상태인데…",
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -394,9 +394,9 @@ return {
 			},
 			effects = {
 				{
-					active = false,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = false
 				}
 			},
 			flashN = {

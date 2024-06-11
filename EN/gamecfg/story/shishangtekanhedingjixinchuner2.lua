@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection: Spring Festival II\n\n<size=45>2 Spring's Lackadaisical Leisure</size>",
@@ -17,27 +17,27 @@ return {
 			portrait = 206062,
 			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			actorName = "???",
 			blackBg = true,
-			say = "Commander, are you awake?",
 			bgm = "story-china",
+			actorName = "???",
+			hidePaintObj = true,
+			say = "Commander, are you awake?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -56,28 +56,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Where am I...?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "There you go. Finally.",
@@ -103,11 +103,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "You're like a hungry little birdie today, Commander.",
@@ -133,11 +133,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "You really forgot, Commander? Geez.",
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "This morning, you came to give me a New Year's gift...",
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "The outfit I'm wearing, y'know.",
@@ -187,11 +187,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "When I finished changing and came back, I saw a certain lazybones asleep in my bed.",
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			say = "My sleepy brain finally starts working. Now that she mentions it... that does seem to be the case.",
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "It's fine. You don't have to apologize.",
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "There's nothing wrong with being a little lazy on such a nice day.",
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			say = "She makes a fair point. One thing still doesn't make sense, though.",
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "Me?",
@@ -315,11 +315,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "To be a sleeping worm, of course.",
@@ -345,11 +345,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "Yep. If you're done asking questions, I'm going back to sleep...",
@@ -363,11 +363,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "As for the New Year stuff you were talking about before... We can talk about that when I wake up.",
@@ -381,11 +381,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "Waking up early... is just a way to better enjoy going back to sleep... Zzz...",
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			actor = 206062,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_175",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "The bird gets the early worm... The worm gets the early bird...",
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			say = "Is it because of the dim lighting, or is it Perseus's sleepy breathing rhythm?",
@@ -464,8 +464,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			say = "Off to dreamland I go...",
@@ -477,11 +477,11 @@ return {
 		{
 			portrait = 206062,
 			side = 2,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#A9F548FF",
 			actorName = "Perseus",
+			hidePaintObj = true,
 			say = "Heheheh...",
 			painting = {
 				alpha = 0.3,
@@ -492,17 +492,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -513,10 +513,10 @@ return {
 			portrait = 206062,
 			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			actorName = "Perseus",
+			hidePaintObj = true,
 			say = "Now the early bird and the early worm have been devoured by the evil bed...",
 			painting = {
 				alpha = 0.3,
@@ -531,10 +531,10 @@ return {
 			portrait = 206062,
 			side = 2,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			actorName = "Perseus",
+			hidePaintObj = true,
 			say = "Get some rest, my beloved Commander...",
 			painting = {
 				alpha = 0.3,

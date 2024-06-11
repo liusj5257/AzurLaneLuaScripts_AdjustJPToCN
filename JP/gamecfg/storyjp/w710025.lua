@@ -1,12 +1,12 @@
 return {
-	id = "W710025",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710025",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "火焰在飞快的缩小，要停留在这里么？",
 			typewriter = {
 				speed = 0.05,
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 0,
 			say = "火焰消失了……",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 0,
 			say = "脚下洋流开始涌动……",
 			typewriter = {

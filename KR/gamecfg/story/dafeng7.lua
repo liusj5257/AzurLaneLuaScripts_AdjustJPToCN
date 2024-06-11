@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"비서함 다이호의 헌신\n\n<size=45>사라진 다이호</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "다이호가 방에 올 때의 그 향기, 방을 청소할 때의 소리, 그리고 준비해 주는 아침 식사의 냄새조차… 전부 사라졌다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,9 +48,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "……다이호?",
 			typewriter = {
 				speed = 0.05,
@@ -58,15 +58,15 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#92fc63",
 			say = "지휘관님, 무슨 일이시죠? 안색이 굉장히 안 좋아 보이는데…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -107,13 +107,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "집무실에 들어와도, 늘 책상 위에 가지런히 놓여있는 서류가 보이지 않는다. 휴가를 떠난다고 내게 연락 한 번 없었다…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -136,19 +136,19 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			say = "지휘관?! 다행이다……빨리 와줘! 다, 다이호가…",
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#92fc63",
-			say = "지휘관?! 다행이다……빨리 와줘! 다, 다이호가…",
 			actorPosition = {
 				x = 1500,
 				y = 0
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.4,
 					x = -675
@@ -166,14 +166,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 108020,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "미안! 나, 어제 \"잡지에서 봤는데, 너무 헌신적인 여자는 미움받을 가능성이 있대~\" 하고 다이호한테 농담을 했는데,",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -201,8 +201,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "그냥 농담이니까 그땐 별 생각 없었는데, 나중에 다이호가 갑자기 방으로 쾅! 하고 들어가선, 지금까지도 나오질 않고 있어……",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#92fc63",
 			say = "부탁해 지휘관! 다이호를 방에서 꺼내줘! 아마 지휘관 말이라면 들을 거야!",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -244,13 +244,13 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			say = "일이 어떻게 된 건지 대충 짐작이 간다…",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
+			say = "일이 어떻게 된 건지 대충 짐작이 간다…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -343,8 +343,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -355,8 +355,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "흐느끼는 다이호의 목소리가 들렸다.",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:97}",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
@@ -431,8 +431,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…————",
 			typewriter = {
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "내가 대답도 하기 전에 문이 강하게 열렸다.",
 			typewriter = {
@@ -451,12 +451,12 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			actorScale = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			actorScale = 1,
+			actor = 307070,
+			nameColor = "#92fc63",
 			say = "<size=45>지휘관 니이이임!!!</size>",
 			dialogShake = {
 				speed = 0.09,
@@ -479,8 +479,8 @@ return {
 					}
 				},
 				{
-					type = "move",
 					y = -225,
+					type = "move",
 					delay = 0.01,
 					dur = 0.2,
 					x = 0
@@ -488,9 +488,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "다이호는 내 품에 안겼다.",
 			typewriter = {
 				speed = 0.05,
@@ -498,9 +498,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "질문에 따로 대답할 필요는 없겠지. 알바코어도, 다이호도, 그리고 나 자신도 잘 알고 있지 않은가……",
 			typewriter = {
 				speed = 0.05,

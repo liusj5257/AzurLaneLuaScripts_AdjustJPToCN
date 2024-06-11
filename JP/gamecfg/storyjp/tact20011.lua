@@ -44,11 +44,11 @@ return {
 			}
 		},
 		{
-			actor = 404020,
 			side = 1,
-			nameColor = "#ff0000",
-			mode = 2,
 			say = "この前の戦闘でデータを十分集めました。今度の私たちの勝率は90%超です。",
+			nameColor = "#ff0000",
+			actor = 404020,
+			mode = 2,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -85,10 +85,10 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			actorShadow = true,
-			actorName = "シャルンホルスト&グナイゼナウ",
 			side = 0,
+			actorName = "シャルンホルスト&グナイゼナウ",
+			actor = 404010,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "シャルンホルスト級巡洋戦艦・シャルンホルスト、グナイゼナウ参上！いざ、蹂躙せよ！",

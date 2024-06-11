@@ -1,17 +1,17 @@
 return {
-	id = "WEICENGHUNHE9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE9",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_1",
-			bgm = "hunhe-story",
-			dir = 1,
 			say = "Canal Stronghold Bay",
+			dir = 1,
+			bgm = "hunhe-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "Man, this canal really is a feat of engineering, any way you look at it.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "I'm totally speechless after seeing it in person. I know what I'm going to post about on Juustagram after I get back.",
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "I heard that this played an important role in staving off the Sirens in the past.",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "And, that's the reason why we're here to protect this fortress. I can see why Baltimore was so pumped up about this.",
 			typewriter = {
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "Getting pumped up is a good thing. A superhero doesn't get to pick her battles!",
 			typewriter = {
@@ -165,13 +165,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Narration",
+			side = 2,
 			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "\"Siren forces have been detected in the waters around the Canal Stronghold! All hands, prepare for battle immediately!\"",
 			bgm = "airRaidAlarm",
+			nameColor = "#a9f548",
+			say = "\"Siren forces have been detected in the waters around the Canal Stronghold! All hands, prepare for battle immediately!\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Narration",
+			side = 2,
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -201,8 +201,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "What...?",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "Damn, those villains sure know how to ruin the moment...",
 			typewriter = {
@@ -264,10 +264,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_banama_1",
 			side = 0,
+			bgName = "bg_banama_1",
+			hideOther = true,
 			dir = 1,
 			actor = 102260,
 			actorName = "Reno & Casablanca",
@@ -305,8 +305,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			nameColor = "#a9f548",
 			say = "...What are you looking at?",
 			typewriter = {
@@ -322,8 +322,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "Nothing in particular. You might have one hell of an evil eye, but even you know how to bust out the cool lines when it matters.",
 			typewriter = {
@@ -339,8 +339,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "But, taking on the Sirens, huh? That's just the exercise I was itching for!",
 			typewriter = {

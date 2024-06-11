@@ -1,11 +1,11 @@
 slot0 = class("CommanderCatDockPage", import("view.base.BaseSubView"))
 slot0.ON_SORT = "CommanderCatDockPage:ON_SORT"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderCatDockui"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.scrollRect = slot0._tf:Find("frame"):GetComponent("LScrollRect")
 	slot0.reserveBtn = slot0._tf:Find("box/reserve_btn")
 	slot0.reserveTxt = slot0.reserveBtn:Find("Text"):GetComponent(typeof(Text))
@@ -35,7 +35,7 @@ function slot0.OnLoaded(slot0)
 	slot0.catterySettlementPage = CatterySettlementPage.New(slot0._tf, slot0.event)
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	slot0:bind(uv0.ON_SORT, function (slot0)
 		uv0:OnSort()
 	end)
@@ -67,7 +67,7 @@ function slot0.RegisterEvent(slot0)
 	end)
 end
 
-function slot0.OnNextOn(slot0, slot1, slot2)
+slot0.OnNextOn = function(slot0, slot1, slot2)
 	slot3 = 0
 
 	for slot7, slot8 in ipairs(slot0.displays) do
@@ -100,7 +100,7 @@ function slot0.OnNextOn(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnSort(slot0)
+slot0.OnSort = function(slot0)
 	slot0.sortData = slot0.indexPanel.data
 	slot0.sortData.asc = slot0.sortData.asc
 
@@ -110,13 +110,13 @@ function slot0.OnSort(slot0)
 	setActive(slot0.descTr, not slot0.sortData.asc)
 end
 
-function slot0.UpdateSortTxt(slot0)
+slot0.UpdateSortTxt = function(slot0)
 	setActive(slot0.sortIdTxt, slot0.sortData.sortData == "id")
 	setActive(slot0.sortLvTxt, slot0.sortData.sortData == "Level")
 	setActive(slot0.sortRarityTxt, slot0.sortData.sortData == "Rarity")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.onCommander = slot0.contextData.onCommander or function (slot0, slot1, slot2, slot3)
 		return true
 	end
@@ -135,11 +135,11 @@ function slot0.OnInit(slot0)
 		rarityData = {}
 	}
 
-	function slot0.scrollRect.onInitItem(slot0)
+	slot0.scrollRect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 
-	function slot0.scrollRect.onUpdateItem(slot0, slot1)
+	slot0.scrollRect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
@@ -187,7 +187,7 @@ function slot0.OnInit(slot0)
 	slot0:Flush()
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot0.cards = {}
 	slot0.selectedList = slot0.contextData.selectedIds or {}
 	slot0.previewCommander = slot0.contextData.activeCommander
@@ -205,16 +205,16 @@ function slot0.Flush(slot0)
 	slot0:UpdateSortTxt()
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	setActive(slot0._tf, true)
 	CommanderCatUtil.SetActive(slot0._tf, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	CommanderCatUtil.SetActive(slot0._tf, false)
 end
 
-function slot0.UpdateStyle(slot0)
+slot0.UpdateStyle = function(slot0)
 	setActive(slot0.selectedTr, slot0.contextData.mode == CommanderCatScene.MODE_SELECT)
 	setActive(slot0.btnsTr, slot0.contextData.mode == CommanderCatScene.MODE_VIEW)
 
@@ -223,13 +223,13 @@ function slot0.UpdateStyle(slot0)
 	end
 end
 
-function slot0.TryPlayStory(slot0)
+slot0.TryPlayStory = function(slot0)
 	if slot0.contextData.fromMain then
 		pg.SystemGuideMgr.GetInstance():PlayCommander()
 	end
 end
 
-function slot0.DisplayCatterySettlement(slot0)
+slot0.DisplayCatterySettlement = function(slot0)
 	slot2 = slot0.contextData.fromMediatorName == NewMainMediator.__cname
 	slot3 = pg.NewStoryMgr.GetInstance():IsRunning() or pg.NewGuideMgr.GetInstance():IsBusy()
 
@@ -242,7 +242,7 @@ function slot0.DisplayCatterySettlement(slot0)
 	})
 end
 
-function slot0.UpdateHome(slot0)
+slot0.UpdateHome = function(slot0)
 	setActive(slot0.homeTip, getProxy(CommanderProxy):AnyCatteryExistOP() or slot1:AnyCatteryCanUse())
 
 	slot3 = ""
@@ -254,18 +254,18 @@ function slot0.UpdateHome(slot0)
 	slot0.homeTxt.text = slot3
 end
 
-function slot0.UpdateCapacity(slot0)
+slot0.UpdateCapacity = function(slot0)
 	slot0.capacityTxt.text = table.getCount(getProxy(CommanderProxy):getRawData()) .. "/" .. getProxy(PlayerProxy):getRawData().commanderBagMax
 end
 
-function slot0.UpdateReserve(slot0)
+slot0.UpdateReserve = function(slot0)
 	slot2 = getProxy(CommanderProxy):getBoxUseCnt()
 	slot0.reserveTxt.text = CommanderConst.MAX_GETBOX_CNT - slot2 .. "/" .. CommanderConst.MAX_GETBOX_CNT
 
 	setActive(slot0.reserveTip, slot2 == 0)
 end
 
-function slot0.UpdateBoxes(slot0)
+slot0.UpdateBoxes = function(slot0)
 	slot1 = getProxy(CommanderProxy):getBoxes()
 	slot0.boxesTxt.text = #_.select(slot1, function (slot0)
 		return slot0:getState() == CommanderBox.STATE_FINISHED
@@ -274,7 +274,7 @@ function slot0.UpdateBoxes(slot0)
 	setActive(slot0.boxesTip, getProxy(CommanderProxy):ShouldTipBox())
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = slot0:NewCard(slot1)
 
 	onButton(slot0, slot2.infoTF, function ()
@@ -316,7 +316,7 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnCheckBefore(slot0, slot1)
+slot0.OnCheckBefore = function(slot0, slot1)
 	if slot0.previewCommander and slot0.contextData.maxCount > 1 then
 		slot0:emit(CommanderCatScene.EVENT_SELECTED, slot0.previewCommander, true)
 	else
@@ -330,13 +330,13 @@ function slot0.OnCheckBefore(slot0, slot1)
 	end
 end
 
-function slot0.OnCheckAfter(slot0, slot1, slot2)
+slot0.OnCheckAfter = function(slot0, slot1, slot2)
 	if slot0.previewCommander and slot0.contextData.maxCount > 1 then
 		slot0:emit(CommanderCatScene.EVENT_PREVIEW_PLAY, slot0.selectedList, slot2)
 	end
 end
 
-function slot0.Check(slot0, slot1)
+slot0.Check = function(slot0, slot1)
 	slot2 = slot0.contextData.maxCount or table.getCount(slot0.commanderList)
 
 	if table.contains(slot0.selectedList, slot1.id) and slot2 == 1 then
@@ -350,7 +350,7 @@ function slot0.Check(slot0, slot1)
 		return
 	end
 
-	function slot3()
+	slot3 = function()
 		for slot3, slot4 in ipairs(uv0.selectedList) do
 			if slot4 == uv1.id then
 				table.remove(uv0.selectedList, slot3)
@@ -400,7 +400,7 @@ function slot0.Check(slot0, slot1)
 	slot0:UpdateSelected()
 end
 
-function slot0.UpdateSelected(slot0)
+slot0.UpdateSelected = function(slot0)
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:UpdateSelected(slot0.selectedList)
 	end
@@ -408,11 +408,11 @@ function slot0.UpdateSelected(slot0)
 	slot0:UpdateSelectedTxt()
 end
 
-function slot0.UpdateSelectedTxt(slot0)
+slot0.UpdateSelectedTxt = function(slot0)
 	slot0.selectedNumTxt.text = #slot0.selectedList .. "/" .. (slot0.contextData.maxCount or table.getCount(slot0.commanderList))
 end
 
-function slot0.NewCard(slot0, slot1)
+slot0.NewCard = function(slot0, slot1)
 	if slot0.contextData.mode == CommanderCatScene.MODE_VIEW or slot0.contextData.maxCount == 1 then
 		return CommanderCatCard.New(slot1, CommanderCatCard.MARK_TYPE_CIRCLE)
 	else
@@ -420,7 +420,7 @@ function slot0.NewCard(slot0, slot1)
 	end
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0.cards[slot2] = slot0:NewCard(slot2)
 	end
@@ -436,7 +436,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	end
 end
 
-function slot1(slot0, slot1, slot2)
+slot1 = function(slot0, slot1, slot2)
 	slot3 = false
 	slot4 = false
 	slot5 = slot0:getConfig("nationality")
@@ -452,8 +452,8 @@ function slot1(slot0, slot1, slot2)
 	return slot3 and slot4
 end
 
-function slot2(slot0, slot1, slot2, slot3, slot4)
-	function slot5()
+slot2 = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = function()
 		if uv0 == "id" then
 			return (uv1 and {
 				uv2.id < uv3.id
@@ -475,7 +475,7 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
-	function slot6()
+	slot6 = function()
 		if (uv0 == uv1.id and 1 or 0) == (uv0 == uv2.id and 1 or 0) then
 			return uv3()
 		else
@@ -490,7 +490,7 @@ function slot2(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.UpdateCommanders(slot0, slot1)
+slot0.UpdateCommanders = function(slot0, slot1)
 	slot3 = (slot1 or not slot0.commanderList) and CommanderCatUtil.GetCommanderList(slot0.contextData) or slot0.commanderList
 	slot0.shouldTrigger = true
 	slot0.displays = {}
@@ -542,7 +542,7 @@ function slot0.UpdateCommanders(slot0, slot1)
 	slot0.commanderList = slot3
 end
 
-function slot0.FillList(slot0)
+slot0.FillList = function(slot0)
 	if slot0.contextData.mode == CommanderCatScene.MODE_VIEW then
 		slot2 = #slot0.displays + (#slot0.displays % 4 > 0 and 4 - #slot0.displays % 4 or 0)
 		slot3 = nil
@@ -567,7 +567,7 @@ function slot0.FillList(slot0)
 	end
 end
 
-function slot0.CanBack(slot0)
+slot0.CanBack = function(slot0)
 	if slot0.boxesPanel and slot0.boxesPanel:GetLoaded() and slot0.boxesPanel.CanBack and not slot0.boxesPanel:CanBack() then
 		return false
 	end
@@ -593,7 +593,7 @@ function slot0.CanBack(slot0)
 	return true
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end

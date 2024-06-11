@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201200,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "level02",
 			dir = 1,
 			say = "The Arctic Circle... a vast expanse of pure white snow...",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "But I can't say I wouldn't like to take a hunting trip across the endless ice fields.",
 			typewriter = {
 				speed = 0.05,
@@ -41,9 +41,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = -1,
 			actor = 201160,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "What are you talking about, Hunter? We're on a mission. We have no time for you to go playing with polar bears.",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "Sure...",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "It won't be. Glowworm inflicted heavy damage upon Admiral Hipper. And the Scharnhorst Sisters were not bound for Narvik after our battle.",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "Yes, indeed... Glowworm encountered two Iron Blood destroyers before engaging Admiral Hipper. I'm afraid we will face them too. Thank you, Hunter, your analysis has put me at ease!",
 			typewriter = {
 				speed = 0.05,
@@ -261,8 +261,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "A hunter must understand her prey... And, I cannot be certain.",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "No matter. This inductive reasoning is quite enough.",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 201160,
 			dir = -1,
+			actor = 201160,
 			say = "I hope every one of you will act as she did. Exhibit the Royal Navy's tradition of bravery, no matter what you may face, do not shrink from the challenge.",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "Glowworm... may not have put that much thought into it...",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "Right. I will thank her when we get back home.",
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201200,
 			dir = 1,
+			actor = 201200,
 			say = "Okay.",
 			typewriter = {
 				speed = 0.05,
@@ -429,10 +429,10 @@ return {
 			}
 		},
 		{
-			actorName = "H-Class Ships",
 			nameColor = "#a9f548",
-			side = 2,
+			actorName = "H-Class Ships",
 			dir = 1,
+			side = 2,
 			say = "Aye!",
 			dialogShake = {
 				speed = 0.09,

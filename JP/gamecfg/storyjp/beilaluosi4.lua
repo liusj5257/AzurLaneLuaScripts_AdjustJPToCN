@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILALUOSI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILALUOSI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"颯爽の「白」\n\n<size=45>四 ベラルーシアという艦船</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "というわけで、歓迎パーティーでの挨拶ついでに、北方連合の仲間たちにベラルーシアの人となりを聞くことにした。",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "というわけで、歓迎パーティーでの挨拶ついでに、北方連合の仲間たちにベラルーシアの人となりを聞くことにした。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "今日の歓迎パーティーはもしかしたら自分が皆と一緒に飲みたいから提案したのかもしれないな！",
 			typewriter = {
@@ -86,8 +86,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "というわけだ同志指揮官！このガングートにももう一杯付き合ってもらうぞ！ははは！",
 			typewriter = {
@@ -102,14 +102,14 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_107",
 			actor = 702060,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "ベラルーシアはいい人ですよ～",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -137,8 +137,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "あんたからすればいい人じゃない子なんているの？",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "ん…そういえばいませんね～",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "はぁ…指揮官が聞きたがっているのはいい人かどうかじゃなくて、彼女の性格、接し方、艦船として戦うときの「癖」じゃない？",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "しかし自分から本人に聞くんじゃなくて、仲間にそれを聞くのね",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "違うでしょ。あの天才肌のベラルーシアだから、直接聞くと素直に答えてくれず、逆に遊ばれる可能性が高いわ",
 			typewriter = {
@@ -235,9 +235,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "正直その予感はしていた。",
 			typewriter = {
 				speed = 0.05,
@@ -283,14 +283,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_107",
 			actor = 705050,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "同志指揮官、顔色があまりよろしくないようだが、どうした？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -318,8 +318,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "………ベラルーシアについて仲間たちに聞いているのか。これは奇遇だな",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "あの子の直感は頼もしいものだが、地道な情報収集を疎かにするようなタイプではない",
 			typewriter = {
@@ -387,9 +387,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "確かにベラルーシアは時々賭けを提案してくるが、乗らないほうがいいってのは……",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "あの子は「絶対に勝てる」時にだけ「賭ける」のだ",
 			typewriter = {
@@ -421,8 +421,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "あっ、すまん、同志指揮官のグラスが空っぽになっているのに気づいてなかったな",
 			typewriter = {

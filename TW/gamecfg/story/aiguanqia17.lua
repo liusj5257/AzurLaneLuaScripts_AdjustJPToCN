@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA17",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA17",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 403038,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "欧根酱",
 			dir = 1,
+			actorName = "欧根酱",
 			say = "到此为止了哦，不会让妳们到绊爱那里去的",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:95}酱",
 			dir = 1,
+			actorName = "{namecode:95}酱",
 			say = "呵呵♪我们是为了保护绊爱才出现在这里的哦",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "运运",
 			dir = -1,
+			actorName = "运运",
 			say = "啊，不会让妳们碰爱小姐一根指头的哦＞＜",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			actor = 303118,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:66}酱",
 			dir = 1,
+			actorName = "{namecode:66}酱",
 			say = "人称“绊爱舰队”……参上！",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 303118,
 			dir = 1,
+			actor = 303118,
 			actorName = "{namecode:66}酱",
 			say = "请、请不要吐槽这点……",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "欧根酱",
 			dir = 1,
+			actorName = "欧根酱",
 			say = "妳猜？无论如何，不能让妳们把我们的“指挥官”……绊爱击败呢。想要过来的话，就做好相应的心理准备吧",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "欧根酱",
 			dir = 1,
+			actorName = "欧根酱",
 			say = "这点…做不到呢",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -281,8 +281,8 @@ return {
 			actor = 303118,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:66}酱",
 			dir = 1,
+			actorName = "{namecode:66}酱",
 			say = "爱殿下如今期望的是破坏这个世界。在下等人作为绊爱舰队，只能全力帮助她实现这个愿望",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "运运",
 			dir = -1,
+			actorName = "运运",
 			say = "命、命运早已经决定了＞＜",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:95}酱",
 			dir = 1,
+			actorName = "{namecode:95}酱",
 			say = "哎呀？那这次就特别优待，放过妳们吧？…开玩笑的♪绝对不会放妳们过去的哟？",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -384,8 +384,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "运运",
 			dir = -1,
+			actorName = "运运",
 			say = "不会让妳们靠近爱小姐的！",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 303118,
 			dir = 1,
+			actor = 303118,
 			actorName = "{namecode:66}酱",
 			say = "一边躲避敌人的追击一边和其他舰队战斗是不可能的！",
 			typewriter = {
@@ -429,8 +429,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

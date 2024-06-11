@@ -1,7 +1,7 @@
 return {
-	time = 0.1,
-	name = "过载充能",
 	init_effect = "",
+	name = "过载充能",
+	time = 0.1,
 	stack = 1,
 	id = 541020,
 	picture = "",

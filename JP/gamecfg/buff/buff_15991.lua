@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.05
+					number = 0.05,
+					attr = "hammerDamagePrevent"
 				}
 			},
 			{
@@ -36,8 +36,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.072
+					number = 0.072,
+					attr = "hammerDamagePrevent"
 				}
 			},
 			{
@@ -64,8 +64,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.094
+					number = 0.094,
+					attr = "hammerDamagePrevent"
 				}
 			},
 			{
@@ -92,8 +92,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.116
+					number = 0.116,
+					attr = "hammerDamagePrevent"
 				}
 			},
 			{
@@ -120,8 +120,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.138
+					number = 0.138,
+					attr = "hammerDamagePrevent"
 				}
 			},
 			{
@@ -148,8 +148,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.16
+					number = 0.16,
+					attr = "hammerDamagePrevent"
 				}
 			},
 			{
@@ -176,8 +176,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.182
+					number = 0.182,
+					attr = "hammerDamagePrevent"
 				}
 			},
 			{
@@ -204,8 +204,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.204
+					number = 0.204,
+					attr = "hammerDamagePrevent"
 				}
 			},
 			{
@@ -232,8 +232,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.226
+					number = 0.226,
+					attr = "hammerDamagePrevent"
 				}
 			},
 			{
@@ -260,8 +260,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "hammerDamagePrevent",
-					number = 0.25
+					number = 0.25,
+					attr = "hammerDamagePrevent"
 				}
 			},
 			{
@@ -282,11 +282,11 @@ return {
 	desc_get = "",
 	name = "",
 	time = 0,
-	color = "red",
+	id = 15991,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15991,
+	color = "red",
 	icon = 15990,
 	last_effect = "",
 	effect_list = {
@@ -297,8 +297,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "hammerDamagePrevent",
-				number = 0.05
+				number = 0.05,
+				attr = "hammerDamagePrevent"
 			}
 		},
 		{

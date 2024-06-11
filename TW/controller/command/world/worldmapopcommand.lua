@@ -1,6 +1,6 @@
 slot0 = class("WorldMapOpCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	assert(slot1:getBody().class == WorldMapOp, "command parameter should be type of WorldMapOp")
 	pg.ConnectionMgr.GetInstance():Send(33103, {
 		act = slot2.op,
@@ -70,7 +70,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.BuildAIAction(slot0, slot1)
+slot0.BuildAIAction = function(slot0, slot1)
 	slot2 = {}
 	slot3 = getProxy(WorldProxy)
 
@@ -85,7 +85,7 @@ function slot0.BuildAIAction(slot0, slot1)
 	return slot2
 end
 
-function slot0.BuildTransfer(slot0, slot1, slot2)
+slot0.BuildTransfer = function(slot0, slot1, slot2)
 	slot2.entranceId = slot1.enter_map_id
 	slot2.destMapId = slot1.id.random_id
 	slot2.destGridId = slot1.id.template_id
@@ -95,7 +95,7 @@ function slot0.BuildTransfer(slot0, slot1, slot2)
 	}
 end
 
-function slot0.BuildFleetMove(slot0, slot1, slot2)
+slot0.BuildFleetMove = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	if #slot1 > 0 then
@@ -117,7 +117,7 @@ function slot0.BuildFleetMove(slot0, slot1, slot2)
 	slot2.childOps = slot3
 end
 
-function slot0.BuildFleetPath(slot0, slot1, slot2, slot3, slot4)
+slot0.BuildFleetPath = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = nowWorld()
 	slot5 = slot5:GetActiveMap()
 	slot6 = slot5:GetFleet(slot3.id)
@@ -204,7 +204,7 @@ function slot0.BuildFleetPath(slot0, slot1, slot2, slot3, slot4)
 	slot3.locations = {}
 end
 
-function slot0.BuildFleetAction(slot0, slot1)
+slot0.BuildFleetAction = function(slot0, slot1)
 	assert(nowWorld():GetActiveMap():FindFleet(slot1.ai_pos.row, slot1.ai_pos.column), "fleet not exist at: " .. slot1.ai_pos.column .. ", " .. slot1.ai_pos.column)
 
 	slot4 = getProxy(WorldProxy):NetBuildMapAttachmentCells(slot1.pos_list)
@@ -224,7 +224,7 @@ function slot0.BuildFleetAction(slot0, slot1)
 	return slot5
 end
 
-function slot0.BuildFleetMoveAction(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+slot0.BuildFleetMoveAction = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot8 = {}
 	slot9 = slot7 and WorldMapCell.TerrainNone or slot2:GetCell(slot4, slot5):GetTerrain()
 	slot10 = slot2:GetCell(slot4, slot5).terrainStrong
@@ -289,7 +289,7 @@ function slot0.BuildFleetMoveAction(slot0, slot1, slot2, slot3, slot4, slot5, sl
 	return slot8
 end
 
-function slot0.BuildAttachmentAction(slot0, slot1)
+slot0.BuildAttachmentAction = function(slot0, slot1)
 	slot3 = slot1.ai_pos.row
 	slot4 = slot1.ai_pos.column
 	slot6 = nowWorld():GetActiveMap():GetCell(slot3, slot4):FindAliveAttachment(WorldMapAttachment.TypeEnemyAI)
@@ -318,7 +318,7 @@ function slot0.BuildAttachmentAction(slot0, slot1)
 	return slot7
 end
 
-function slot0.BuildAttachmentActionPath(slot0, slot1, slot2)
+slot0.BuildAttachmentActionPath = function(slot0, slot1, slot2)
 	slot3 = nowWorld()
 
 	assert(slot3:GetActiveMap(), "active map not exist.")
@@ -336,7 +336,7 @@ function slot0.BuildAttachmentActionPath(slot0, slot1, slot2)
 	}
 end
 
-function slot0.BuildTrapAction(slot0, slot1)
+slot0.BuildTrapAction = function(slot0, slot1)
 	slot3 = slot1.ai_pos.row
 	slot4 = slot1.ai_pos.column
 	slot6 = nowWorld():GetActiveMap():GetCell(slot3, slot4):FindAliveAttachment(WorldMapAttachment.TypeTrap)
@@ -359,7 +359,7 @@ function slot0.BuildTrapAction(slot0, slot1)
 	return slot7
 end
 
-function slot0.BuildBlinkAction(slot0, slot1, slot2)
+slot0.BuildBlinkAction = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = slot1:GetSpEventType()
 	slot5 = slot2[WorldMapCell.GetName(slot1.row, slot1.column)]
@@ -421,7 +421,7 @@ function slot0.BuildBlinkAction(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.BuildProgressAction(slot0, slot1)
+slot0.BuildProgressAction = function(slot0, slot1)
 	slot2 = {}
 	slot3 = nowWorld()
 	slot4 = slot3:GetRealm()

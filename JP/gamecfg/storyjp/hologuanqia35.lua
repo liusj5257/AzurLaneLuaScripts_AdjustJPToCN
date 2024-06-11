@@ -1,18 +1,18 @@
 return {
-	id = "HOLOGUANQIA35",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA35",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 10500020,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "そら先輩？",
 			dir = 1,
-			say = "みんな、展望台へようこそ",
 			bgm = "holo-inochi",
+			actor = 10500020,
+			actorName = "そら先輩？",
+			say = "みんな、展望台へようこそ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500020,
 			dir = -1,
+			actor = 10500020,
 			say = "え？わたしはここにいるよ",
 			typewriter = {
 				speed = 0.05,
@@ -69,10 +69,10 @@ return {
 			}
 		},
 		{
+			say = "江風はすぐに臨戦態勢を取り、艤装を構え敵に向けて砲撃を放った",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "江風はすぐに臨戦態勢を取り、艤装を構え敵に向けて砲撃を放った",
 			flashN = {
 				color = {
 					1,
@@ -123,8 +123,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			actorName = "そら先輩？",
 			say = "良い動きをしてるけど、でもまだまだですね～",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			actorName = "そら先輩？",
 			say = "この盾にはあん肝マークもついてるのよ〜可愛いでしょう～！",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500020,
 			dir = -1,
+			actor = 10500020,
 			say = "あなたは…セイレーンが作った「鏡像」？",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			actorName = "そら先輩？",
 			say = "今さら驚くことないでしょう。戦いでそんな性格じゃ損しますよ。「私」",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500020,
 			dir = -1,
+			actor = 10500020,
 			say = "わたしも頑張って成長してるんだから！",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "あっちの…そら先輩？なんだか敵の雰囲気じゃなさそう…",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			actorName = "そら先輩？",
 			say = "はい。ですから、あなたたちをここで止めます",
 			typewriter = {
@@ -283,9 +283,9 @@ return {
 		{
 			expression = 3,
 			side = 0,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "「味方じゃない？じゃ敵だね？」一回言ってみたかった！あははは！",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -309,9 +309,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "リーダー！",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -336,8 +336,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500020,
 			dir = -1,
+			actor = 10500020,
 			say = "やっぱりこうなるよね…しょうがない。みんな遠慮しないで、戦闘準備を！",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			expression = 5,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			actorName = "そら先輩？",
 			say = "全力でかかって来なさい。「私」は負けないわ！",
 			typewriter = {

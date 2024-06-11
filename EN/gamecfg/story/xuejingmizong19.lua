@@ -7,23 +7,23 @@ return {
 	},
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -45,24 +45,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_545",
+			bgm = "story-commander-up",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The Antarctic tactical map filled up with glowing red dots, indicating the presence of hostiles.",
-			bgm = "story-commander-up",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			say = "In the blink of an eye, the Antarctic situation went from peaceful to bordering on crisis.",
@@ -150,10 +150,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If they're invading using the same method, that means someone else has spread out the Divine Vestige.",
 			painting = {
 				alpha = 0.3,
@@ -187,10 +187,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Unless... It was Soyuz and her team...",
 			painting = {
 				alpha = 0.3,
@@ -260,10 +260,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Looks like they're still heading for the snowmelt area, albeit at a slower speed.",
 			painting = {
 				alpha = 0.3,
@@ -316,10 +316,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, we can't wait any longer! Take control of the battlefield!",
 			painting = {
 				alpha = 0.3,
@@ -355,28 +355,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xuejing_2",
+			bgm = "theme-sovietunion",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Antarctica - Snowmelt Area",
-			bgm = "theme-sovietunion",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -384,12 +384,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_xuejing_2",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,9 +437,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_2",
 			say = "I've created an opening! Comrades, follow me!",
 			painting = {
 				alpha = 0.3,
@@ -454,8 +454,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "Maintain speed even if you're injured! Head straight for the submarine's rendezvous point!",
 			painting = {
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Everyone",
+			side = 2,
 			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			say = "Yes, ma'am!",
@@ -484,8 +484,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			say = "BEEP BEEP!",
@@ -497,9 +497,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_2",
 			say = "A call?",
 			painting = {
 				alpha = 0.3,
@@ -514,8 +514,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "And it's from... Comrade Commander?!",
 			painting = {
@@ -531,8 +531,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705080,
 			dir = 1,
+			actor = 705080,
 			nameColor = "#A9F548FF",
 			say = "The Commander's calling?! Why now, of all times?",
 			painting = {
@@ -547,9 +547,9 @@ return {
 		{
 			actor = 705080,
 			side = 2,
-			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_2",
 			say = "Didn't Königsberg say everything's being jammed, and no communications can go in or out from Antarctica?",
 			painting = {
 				alpha = 0.3,
@@ -563,9 +563,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_2",
 			say = "I suppose Comrade Commander found another way. This timing is too perfect, though...",
 			painting = {
 				alpha = 0.3,
@@ -580,8 +580,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "Comrade Commander must have been monitoring our situation to be ready to take command at a moment's notice.",
 			painting = {
@@ -597,8 +597,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "The reason we're the first to be contacted is probably because we possess intel from the frontlines.",
 			painting = {
@@ -614,8 +614,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_2",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "Heehee... Very well. Let us fight together, Comrade Commander.",
 			painting = {
@@ -628,23 +628,23 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -666,25 +666,25 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "(The crystals being manufactured, Observer sending an SOS...)",
+			side = 2,
 			bgm = "story-commander-up",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "(The crystals being manufactured, Observer sending an SOS...)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -936,8 +936,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -951,10 +951,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, what's our next move? I'm guessing you're done talking to Soyuz.",
 			painting = {
 				alpha = 0.3,
@@ -1017,10 +1017,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What? The Tribunal's base? You mean...?",
 			painting = {
 				alpha = 0.3,
@@ -1066,10 +1066,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hanging up now. Good luck, Commander!",
 			painting = {
 				alpha = 0.3,
@@ -1081,28 +1081,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_545",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Alright...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

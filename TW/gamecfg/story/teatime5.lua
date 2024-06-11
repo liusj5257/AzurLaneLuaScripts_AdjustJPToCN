@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME5",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -215,16 +215,16 @@ return {
 			}
 		},
 		{
-			actor = 207020,
-			side = 2,
-			actorName = "？？？",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "果然，陛下在這裡！",
 			withoutPainting = true,
+			side = 2,
+			dir = 1,
+			actorName = "？？？",
+			actor = 207020,
+			nameColor = "#a9f548",
+			say = "果然，陛下在這裡！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -478,11 +478,11 @@ return {
 			}
 		},
 		{
-			say = "此刻的{namecode:11}……",
 			blackBg = true,
+			say = "此刻的{namecode:11}……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -507,8 +507,8 @@ return {
 			}
 		},
 		{
-			say = "【南緯2°西經139°】",
 			blackBg = true,
+			say = "【南緯2°西經139°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,12 +519,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "還、還沒有到嗎……我已經快虛脫了……{namecode:12}一直都生活在如此嚴苛的環境中嗎……{namecode:12}，姐姐快到了！",
 			typewriter = {
 				speed = 0.05,

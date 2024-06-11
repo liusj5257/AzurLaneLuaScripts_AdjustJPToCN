@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "飞行NG! +",
 	init_effect = "",
+	id = 18135,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 18135,
+	color = "blue",
 	icon = 18130,
 	last_effect = "",
 	effect_list = {
@@ -27,9 +27,9 @@ return {
 				"onFoeAircraftDying"
 			},
 			arg_list = {
-				target = "TargetSelf",
+				skill_id = 18132,
 				inside = 1,
-				skill_id = 18132
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -49,9 +49,9 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
+				count = 1,
 				target = "TargetSelf",
 				skill_id = 18131,
-				count = 1,
 				countType = 18130
 			}
 		}

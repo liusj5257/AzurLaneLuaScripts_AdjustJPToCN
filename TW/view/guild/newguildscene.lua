@@ -1,18 +1,18 @@
 slot0 = class("NewGuildScene", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewGuildUI"
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return true
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.playerVO = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.createPanel = slot0:findTF("create_panel")
 	slot0.factionPanel = slot0:findTF("faction_panel")
 	slot0.createBtn = slot0:findTF("create_panel/frame/create_btn")
@@ -31,7 +31,7 @@ function slot0.init(slot0)
 	slot0.mainBluePage = NewGuildMainBluePage.New(slot0._tf, slot0.event)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:startCreate()
 	onButton(slot0, slot0.createBtn, function ()
 		uv0:createGuild()
@@ -52,11 +52,11 @@ function slot0.didEnter(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.startCreate(slot0)
+slot0.startCreate = function(slot0)
 	setActive(slot0.createPanel, true)
 end
 
-function slot0.createGuild(slot0)
+slot0.createGuild = function(slot0)
 	setActive(slot0.createPanel, false)
 	setActive(slot0.factionPanel, false)
 
@@ -73,8 +73,8 @@ function slot0.createGuild(slot0)
 	slot0.createProcess()
 end
 
-function slot0.selectFaction(slot0, slot1, slot2)
-	function slot3(slot0, slot1)
+slot0.selectFaction = function(slot0, slot1, slot2)
+	slot3 = function(slot0, slot1)
 		uv0.isPlaying = true
 		slot2 = slot0:Find("bg")
 
@@ -162,14 +162,14 @@ function slot0.selectFaction(slot0, slot1, slot2)
 	setActive(slot0.topPanel, true)
 end
 
-function slot0.setDescInfo(slot0, slot1)
+slot0.setDescInfo = function(slot0, slot1)
 	if slot1:getFaction() == GuildConst.FACTION_TYPE_BLHX then
 		slot0.mainPage = slot0.mainBluePage
 	elseif slot2 == GuildConst.FACTION_TYPE_CSZZ then
 		slot0.mainPage = slot0.mainRedPage
 	end
 
-	function slot3()
+	slot3 = function()
 		if not uv0.mainPage:GetLoaded() or uv0.mainPage:IsPlaying() then
 			return
 		end
@@ -188,13 +188,13 @@ function slot0.setDescInfo(slot0, slot1)
 	onButton(slot0, slot0.backBtn, slot3, SFX_CANCEL)
 end
 
-function slot0.ClosePage(slot0)
+slot0.ClosePage = function(slot0)
 	if slot0.page and slot0.page:GetLoaded() and slot0.page:isShowing() then
 		slot0.page:Hide()
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.createProcess ~= nil then
 		triggerButton(slot0.backBtn)
 	else
@@ -202,7 +202,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.mainRedPage:Destroy()
 	slot0.mainBluePage:Destroy()
 end

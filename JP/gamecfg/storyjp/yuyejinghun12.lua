@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN12",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_156",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "エセックス",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "執事は協力的な態度を見せていますが、あなたは彼女が本当に助けてくれるか確証が持てません",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -257,9 +257,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はい。「魅惑」です",
 			typewriter = {
@@ -272,9 +272,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Z2",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "聞き間違いではありません。ええ、「魅惑」です",
 			typewriter = {
@@ -287,9 +287,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "急に代わりを頼まれたKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "わたしに代わり舞台裏のギミックルームに遊びに行った人ですね",
 			typewriter = {
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
-			side = 2,
+			actor = 9600021,
 			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "ダイニングルームには城の簡単な地図がある。必要なら持っていくといい",
@@ -370,9 +370,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
-			actorName = "サン・マルチーニョ",
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			actor = 9600021,
+			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "あ、ダイニングルームはこの渡り廊下の向こうだ。本来なら中庭を直接通っても構わないが、今は模様替え中だから回り道をするように",
 			typewriter = {
@@ -399,9 +399,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
-			actorName = "サン・マルチーニョ",
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			actor = 9600021,
+			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "ボタンが気になるのか？",
 			typewriter = {
@@ -422,11 +422,11 @@ return {
 			}
 		},
 		{
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
-			side = 2,
+			actor = 9600021,
 			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "ゴールデン・ハインドからもらったボタンだ",
@@ -480,9 +480,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
-			actorName = "サン・マルチーニョ",
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			actor = 9600021,
+			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "繰り返すが、城の内部は広い。夜にうかつに行動すれば迷子になる恐れがある。気をつけた方がいい",
 			typewriter = {
@@ -495,9 +495,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
-			actorName = "サン・マルチーニョ",
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			actor = 9600021,
+			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "それともう一回注意させてもらう。寝室などのプライベートスペースは部屋の主の同意を得てから入るように",
 			typewriter = {
@@ -506,11 +506,11 @@ return {
 			}
 		},
 		{
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
-			side = 2,
+			actor = 9600021,
 			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "ゴールデン・ハインドが待っているから、先に失礼する",
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

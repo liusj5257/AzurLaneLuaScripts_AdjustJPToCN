@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD503B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD503B",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "（コンコン）",
 			side = 2,
 			bgName = "bg_port_chuanwu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
+			say = "（コンコン）",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "そういえば、エリザベスにお茶会に招待されていたのだった。",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "……そういうところに関しても抜かりがないのがエリザベス流、か。",
 			typewriter = {
 				speed = 0.05,
@@ -140,14 +140,14 @@ return {
 			}
 		},
 		{
-			say = "前哨基地・ロイヤル宴会場",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgm = "theme-partydress",
+			say = "前哨基地・ロイヤル宴会場",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -207,8 +207,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "エリザベスさんったら、また職権乱用して～。関係ない物資を前線まで運ばせるのはサラトガちゃん的にどうかと思うー",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "むぅ！サラトガちゃんがいたずら封印してるからっていい気にぃ～",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -315,8 +315,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "まあ、士気を高めてくれるのなら、お茶会でも宴会でもなんでもいいけど♪",
 			typewriter = {
@@ -361,9 +361,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "勝手に紅茶を注文されちゃったが…まあいいか。",
 			typewriter = {
 				speed = 0.05,
@@ -378,8 +378,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "おいしい…エンタープライズも試してみない？ほら肩の力を抜いて、ロイヤルの焼きたてのお菓子はおいしいわよ？",
 			typewriter = {
@@ -424,13 +424,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_115",
+			side = 2,
+			dir = 1,
 			say = "想像以上に豪華だったロイヤルのお茶会も佳境に差し掛かり――",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -455,9 +455,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "メンフィスに加え、指揮のサポート要員にサラトガもこちらにやってくるのは心強い。",
 			typewriter = {
 				speed = 0.05,
@@ -472,8 +472,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "あっちには増援の仲間が来たからね、こっちに来ちゃった♪",
 			typewriter = {
@@ -486,9 +486,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "作戦では、こちらの手持ちの戦力とロイヤル艦隊が合流後、増援部隊の到着を経て総攻撃を始めるという手筈だった。",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "もう、指揮官ったら、お仕事の話になるとすぐこれだから！お茶会が終ったらちゃんと説明するつもりだったのに…",
 			typewriter = {
@@ -549,9 +549,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "それについても指示を出していたが、具体的に誰が来るのかは把握していなかった。",
 			typewriter = {
 				speed = 0.05,
@@ -627,9 +627,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "ああは言っていたものの、上層部がここまで迅速に決断できたのは間違いなくエリザベスによる根回しのおかげもあるだろう。",
 			typewriter = {
 				speed = 0.05,
@@ -660,8 +660,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "ってことで、これからは作戦通り指揮官に任せて、エリザベスさんは安心してお城に戻っていいよ～",
 			typewriter = {
@@ -690,11 +690,11 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102160,
+			nameColor = "#a9f548",
 			say = "えっ？女王陛下自ら中心部へ…？",
 			typewriter = {
 				speed = 0.05,
@@ -706,8 +706,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -751,8 +751,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "んーでもエリザベスさん、前線で頑張って戦う必要はないんじゃない…？",
 			typewriter = {
@@ -768,8 +768,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "そこはメイド隊に任せて、女王陛下は本陣に控えた方が安全…だと思う。今回の作戦はかなり危険だから、指揮官と陛下両方に何かあっては困るわ",
 			typewriter = {
@@ -817,8 +817,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "急に女王さまモード？？",
 			typewriter = {
@@ -831,11 +831,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "とにかく決定！下僕だけに危険を犯させるのは王家の沽券に関わるわ！",
 			typewriter = {
 				speed = 0.05,
@@ -847,8 +847,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -889,9 +889,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "とにかく、エリザベスも一緒に出撃する、ということは分かった。",
 			typewriter = {
 				speed = 0.05,
@@ -903,13 +903,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_115",
+			side = 2,
+			dir = 1,
 			say = "お茶会のあと、休憩室に戻る途中、再びシェフィールドに出会った。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -950,9 +950,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "お茶会では見かけなかったが、シェフィールドもここにいたのか。",
 			typewriter = {
 				speed = 0.05,
@@ -1012,9 +1012,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -1042,12 +1042,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "それでは、貴重なお時間をありがとうございました。良い夜をお過ごしください",
 			typewriter = {
 				speed = 0.05,

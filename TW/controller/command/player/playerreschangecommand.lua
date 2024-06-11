@@ -1,6 +1,6 @@
 slot0 = class("PlayerResChangeCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.oldPlayer
 	slot4 = slot2.newPlayer
@@ -21,7 +21,7 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-function slot0.UpdateActivies(slot0, slot1, slot2)
+slot0.UpdateActivies = function(slot0, slot1, slot2)
 	slot0.activityProxy = slot0.activityProxy or getProxy(ActivityProxy)
 	slot3 = {}
 	slot7 = ActivityConst.ACTIVITY_TYPE_PT_RANK
@@ -93,7 +93,7 @@ function slot0.UpdateActivies(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateActivity(slot0, slot1)
+slot0.UpdateActivity = function(slot0, slot1)
 	slot0 = getProxy(ActivityProxy):getActivityById(slot0.id)
 
 	if slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_RANK then

@@ -1,12 +1,12 @@
 return {
-	id = "W730020",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W730020",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "海域中央的石柱越來越擁擠了。",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "將能源矩陣歸位！",
 			typewriter = {
 				speed = 0.05,

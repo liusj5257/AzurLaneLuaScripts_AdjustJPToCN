@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YESEXIADEGUITU6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YESEXIADEGUITU6",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 904010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-french1",
 			dir = 1,
 			say = "Sorry, but we'll need you to stay quiet.",
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 0
@@ -64,9 +64,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Wasn't that amazing...? Tartu, were you watching Dunkerque just now?",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -91,8 +91,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "I saw... so stop shaking me around already...",
 			typewriter = {
 				speed = 0.05,
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "We had a numbers advantage, so this did feel a bit unfair...",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "But as Tartu said, our priority right now is to safely make it home to our friends.",
 			typewriter = {
 				speed = 0.05,
@@ -183,9 +183,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Mmhmm! The same's true for us, although we still have a ways to go! Right, Tartu?",
 			typewriter = {
 				speed = 0.05,
@@ -197,8 +197,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -207,14 +207,14 @@ return {
 			}
 		},
 		{
-			actor = 901020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 901020,
+			nameColor = "#a9f548",
 			say = "(She's kindhearted, strong, and dependable...)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,9 +256,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Tartu...!!",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

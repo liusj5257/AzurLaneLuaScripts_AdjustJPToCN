@@ -8,10 +8,10 @@ return {
 	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
@@ -23,36 +23,36 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_FLOAT",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 70156,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 5,
 							addWeapon = {
 								855007
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 12,
 							addWeapon = {
 								855008
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 1,
+							index = 3,
 							switchParam = 180,
 							addWeapon = {
 								855010
@@ -63,10 +63,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0.5,
 				spawnData = {
@@ -78,36 +78,36 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_FLOAT",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 70156,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 4.5,
 							addWeapon = {
 								855007
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 12,
 							addWeapon = {
 								855008
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 1,
+							index = 3,
 							switchParam = 180,
 							addWeapon = {
 								855010
@@ -118,10 +118,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 1,
 				spawnData = {
@@ -133,36 +133,36 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_FLOAT",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 70156,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 4,
 							addWeapon = {
 								855007
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 12,
 							addWeapon = {
 								855008
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 1,
+							index = 3,
 							switchParam = 180,
 							addWeapon = {
 								855010
@@ -173,10 +173,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 1.5,
 				spawnData = {
@@ -188,36 +188,36 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_FLOAT",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 70156,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 3.5,
 							addWeapon = {
 								855007
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 12,
 							addWeapon = {
 								855008
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 1,
+							index = 3,
 							switchParam = 180,
 							addWeapon = {
 								855010
@@ -228,10 +228,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 2,
 				spawnData = {
@@ -243,36 +243,36 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_FLOAT",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 70156,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 3,
 							addWeapon = {
 								855007
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 12,
 							addWeapon = {
 								855008
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 1,
+							index = 3,
 							switchParam = 180,
 							addWeapon = {
 								855010
@@ -283,10 +283,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 2.5,
 				spawnData = {
@@ -298,36 +298,36 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_FLOAT",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 70156,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 2.5,
 							addWeapon = {
 								855007
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 12,
 							addWeapon = {
 								855008
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 1,
+							index = 3,
 							switchParam = 180,
 							addWeapon = {
 								855010
@@ -338,10 +338,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 3,
 				spawnData = {
@@ -353,36 +353,36 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_FLOAT",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 70156,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 2,
 							addWeapon = {
 								855007
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 12,
 							addWeapon = {
 								855008
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 1,
+							index = 3,
 							switchParam = 180,
 							addWeapon = {
 								855010
@@ -393,10 +393,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 3.5,
 				spawnData = {
@@ -408,36 +408,36 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_FLOAT",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 70156,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 1.5,
 							addWeapon = {
 								855007
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 12,
 							addWeapon = {
 								855008
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 1,
+							index = 3,
 							switchParam = 180,
 							addWeapon = {
 								855010
@@ -448,10 +448,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 4,
 				spawnData = {
@@ -463,36 +463,36 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_FLOAT",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 70156,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 1,
 							addWeapon = {
 								855007
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 12,
 							addWeapon = {
 								855008
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 1,
+							index = 3,
 							switchParam = 180,
 							addWeapon = {
 								855010
@@ -503,10 +503,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 4.5,
 				spawnData = {
@@ -518,36 +518,36 @@ return {
 					},
 					phase = {
 						{
-							switchType = 1,
+							switchParam = 1,
 							dive = "STATE_FLOAT",
 							switchTo = 1,
 							index = 0,
-							switchParam = 1,
+							switchType = 1,
 							setAI = 70156,
 							addWeapon = {}
 						},
 						{
-							index = 1,
 							switchType = 1,
 							switchTo = 2,
+							index = 1,
 							switchParam = 0.5,
 							addWeapon = {
 								855007
 							}
 						},
 						{
-							index = 2,
 							switchType = 1,
 							switchTo = 3,
+							index = 2,
 							switchParam = 12,
 							addWeapon = {
 								855008
 							}
 						},
 						{
-							index = 3,
 							switchType = 1,
 							switchTo = 1,
+							index = 3,
 							switchParam = 180,
 							addWeapon = {
 								855010

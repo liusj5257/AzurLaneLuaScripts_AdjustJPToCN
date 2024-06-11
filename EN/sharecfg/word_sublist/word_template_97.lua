@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_97 = {}
 slot1 = slot0.word_template_97
 
-function temp()
+temp = function()
 	uv0["肥"] = {
 		["逼"] = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["匪"] = {
 		["警"] = {
 			this = true
@@ -52,7 +52,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["诽"] = {
 		["谤"] = {
 			["大"] = {
@@ -66,7 +66,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["废"] = {
 		["物"] = {
 			this = true
@@ -101,7 +101,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["費"] = {
 		["鴻"] = {
 			["泰"] = {
@@ -118,7 +118,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["芬"] = {
 		["太"] = {
 			["尼"] = {
@@ -130,7 +130,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["粉"] = {
 		["屄"] = {
 			this = true

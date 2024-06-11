@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULISITUOERBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULISITUOERBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"名状しがたき演習事件\n\n<size=45>三 暗号通信が解けない！</size>",
@@ -19,18 +19,18 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			oldPhoto = true,
 			dir = 1,
 			bgmDelay = 2,
+			oldPhoto = true,
 			bgm = "battle-boss-4",
 			actor = 101490,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
+			bgName = "bg_story_nepu2",
 			say = "気のせいかな…何か敵がますます増えてない！？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -74,12 +74,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			say = "————————！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "————————！",
 			flashN = {
 				color = {
 					1,
@@ -167,13 +167,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "仕方ない…リスクがあっても解読してくれることを信じて暗号化通信を行うしかないね！",
 			typewriter = {
 				speed = 0.05,
@@ -204,13 +204,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
+			nameColor = "#a9f548",
 			dir = 1,
 			actorName = "通信",
-			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -270,13 +270,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あ！そうだ！ここに来るよう連絡してくれたイングラムのチャンネルならもしかしたら通じるかも！",
 			typewriter = {
 				speed = 0.05,
@@ -422,13 +422,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "早く「傘」を届けに来てほしいの！（もう持ちこたえられそうにないから、至急支援を頼む！）",
 			typewriter = {
 				speed = 0.05,
@@ -479,8 +479,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -489,13 +489,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（しばらくやり過ごせばいい――つまりあともうちょっとだけ凌げば援軍が来るってことね！）",
 			typewriter = {
 				speed = 0.05,
@@ -526,13 +526,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "完全に理解しました！探索者、調査に戻ります！",
 			typewriter = {
 				speed = 0.05,
@@ -583,13 +583,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			side = 2,
+			bgName = "bg_story_nepu2",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "それでも基地跡に隠れてってことは、ここさえ死守すればもしかして何とかなりそうってこと？",
 			typewriter = {
 				speed = 0.05,
@@ -601,8 +601,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "ブリストルはノートを取り出し、こう記した。",
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			say = "█年█月█日、晴れ（心の中は雨´_｀）母港が攻撃される緊急事態",
@@ -631,8 +631,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			blackBg = true,

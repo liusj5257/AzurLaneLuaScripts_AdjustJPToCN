@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "",
-	color = "red",
+	id = 6671,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6671,
+	color = "red",
 	icon = 6670,
 	blink = {
 		1,
@@ -22,8 +22,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 800
+				number = 800,
+				attr = "cannonPower"
 			}
 		}
 	}

@@ -1,18 +1,18 @@
 return {
-	id = "BIHAIGUANGLIN13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN13",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
-			nameColor = "#a9f548",
-			say = "ーーーー！！！",
+			bgm = "battle-boss-longgong",
 			dir = 1,
 			bgmDelay = 0.5,
-			bgm = "battle-boss-longgong",
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#a9f548",
+			say = "ーーーー！！！",
 			flashN = {
 				color = {
 					1,
@@ -65,8 +65,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			say = "今のは至近弾だったのに、全くダメージがありませんね…",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "ただ、こちらからの攻撃もちょっと効きにくい気がしますけど",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "このまま攻撃しても戦果を望めず、と。では避けて通るしかありませんね",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（当然でしょ。島風のやつじゃあるまいしここはこっそりと避けて通るのが得策）",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（しかし駿河、このままで本当にいいの…島風たちのほうは真正面からぶつかって行ったわよ）",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "ここで筑摩に「目」を飛ばしてもらって仕掛けの場所を探して、最短距離なら――",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（しまった！口が滑って…）",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "あくまで提案ですけど、もし筑摩がよければ……",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "提案ってそんな、駿河さんと比べれば私なんて未熟なところが多いですよ",
 			typewriter = {
 				speed = 0.05,
@@ -283,9 +283,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "いやいや、今のままでいいから！",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

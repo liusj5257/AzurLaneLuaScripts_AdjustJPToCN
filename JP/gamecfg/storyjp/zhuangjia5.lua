@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUANGJIA5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUANGJIA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>第五話  絶望</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 0,
 			bgName = "bg_night",
-			say = "これ本当にマーシィドッグね…。嘘みたいな話だわ。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-5",
+			actor = 403030,
+			say = "これ本当にマーシィドッグね…。嘘みたいな話だわ。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "ようやくだね。この時を待ってたわよ！",
@@ -102,15 +102,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			say = "おおおっ、凄まじい数の水柱だにゃ！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 312010,
+			say = "おおおっ、凄まじい数の水柱だにゃ！",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -138,8 +138,8 @@ return {
 			actor = 107060,
 			side = 1,
 			bgName = "bg_night",
-			dir = 1,
 			say = "新手の敵か！",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -199,10 +199,10 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#D6341DFF",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
+			actor = 900021,
 			actorName = "ピュリファイアー",
 			say = "そうだよ！いやあ流石に人間の司令塔がいると頭も回るね！",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？（通信）",
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "「……。」",
@@ -350,12 +350,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
+			say = "おっと、確かに言いすぎちゃったね。おーい、テスター、そろそろコイツらを片づけて、じっくり調べあげてみない？",
 			side = 0,
 			bgName = "bg_night",
 			actorName = "ピュリファイアー",
+			actor = 900021,
 			nameColor = "#D6341DFF",
-			say = "おっと、確かに言いすぎちゃったね。おーい、テスター、そろそろコイツらを片づけて、じっくり調べあげてみない？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -413,8 +413,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.05,
 					x = 22.5,
@@ -423,8 +423,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？（通信）",
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "「数はこれぐらいか。大口叩いた割に大したことないんだな。」",
@@ -474,11 +474,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
+			say = "ええい、あの雪風様より幸運なやつに近づけさせないのだ！",
 			side = 0,
 			bgName = "bg_night",
 			dir = 1,
-			say = "ええい、あの雪風様より幸運なやつに近づけさせないのだ！",
+			actor = 301160,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -493,8 +493,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -539,14 +539,14 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 301160,
 			say = "おお、あの緑のやつがテスターβにたどり着いたのだ。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -571,8 +571,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -597,8 +597,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？（通信）",
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "「動きは単調だな。」",
@@ -612,10 +612,10 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#D6341DFF",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
+			actor = 900011,
 			actorName = "テスターβ",
 			say = "くっ、ちょこまかと、きゃっ…。",
 			typewriter = {
@@ -628,8 +628,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 22.5,
@@ -638,14 +638,14 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			actor = 307060,
 			say = "懐に入り込んで肉薄しながら小刻みにダメージを与えてる…。セイレーン相手にあんな戦い方ができるなんて…。",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -686,15 +686,15 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 2,
 			bgName = "bg_night",
 			actorName = "テスターβ",
+			actor = 900011,
 			nameColor = "#D6341DFF",
 			say = "この、このっ…人間のくせに！",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -755,15 +755,15 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			side = 0,
 			bgName = "bg_night",
-			actor = 307060,
 			dir = 1,
+			hideOther = true,
+			actor = 307060,
 			say = "ああっ、マーシィドッグが何発か喰らった。",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -824,8 +824,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "全員",
+			side = 0,
 			bgName = "bg_night",
 			dir = 1,
 			say = "了解！",
@@ -839,17 +839,17 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "テスターβ",
+			side = 2,
 			bgName = "bg_night",
 			stopbgm = true,
-			side = 2,
+			soundeffect = "event:/battle/boom2",
+			actor = 900011,
 			nameColor = "#D6341DFF",
 			say = "あああ、私の身体が崩れてゆく。こんなのにまた負けるなんて…。",
-			soundeffect = "event:/battle/boom2",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -889,8 +889,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -914,13 +914,13 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			actorName = "ピュリファイアー",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
+			bgm = "battle-boss-4",
+			actor = 900021,
 			nameColor = "#D6341DFF",
 			say = "ハハハ！いやいや、まさかこんな凄いだなんて！私も戦う！戦いたい！ねえねえ戦ってくれるよなぁ！！！",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -976,11 +976,11 @@ return {
 			}
 		},
 		{
-			say = "光と影、絶望と希望は交互に訪れる。彼女らの放つ光は闇を打ち砕くことができるのか？次回「交錯」。人には変えられないものがある。",
 			blackBg = true,
+			say = "光と影、絶望と希望は交互に訪れる。彼女らの放つ光は闇を打ち砕くことができるのか？次回「交錯」。人には変えられないものがある。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

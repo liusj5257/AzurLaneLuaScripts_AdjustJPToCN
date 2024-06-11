@@ -2,21 +2,21 @@ slot0 = class("EducateBagLayer", import(".base.EducateBaseUI"))
 slot1 = "FFFFFF"
 slot2 = "939495"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateBagUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.itemVOs = getProxy(EducateProxy):GetItemList()
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
 	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
 
@@ -36,7 +36,7 @@ function slot0.findUI(slot0)
 	setText(slot0:findTF("Text", slot0.emptyTF), i18n("child_bag_empty_tip"))
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0:findTF("anim_root/bg"), function ()
 		uv0:_close()
 	end, SFX_PANEL)
@@ -61,7 +61,7 @@ function slot0.addListener(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		groupName = slot0:getGroupNameFromData(),
 		weight = slot0:getWeightFromData() + 1
@@ -70,24 +70,24 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot0:findTF("0", slot0.togglesTF), true)
 end
 
-function slot0.initItems(slot0)
+slot0.initItems = function(slot0)
 	slot1 = slot0.itemView
 	slot0.itemRect = slot1:GetComponent("LScrollRect")
 
-	function slot0.itemRect.onInitItem(slot0)
+	slot0.itemRect.onInitItem = function(slot0)
 		uv0:initItem(slot0)
 	end
 
-	function slot0.itemRect.onUpdateItem(slot0, slot1)
+	slot0.itemRect.onUpdateItem = function(slot0, slot1)
 		uv0:updateItem(slot0, slot1)
 	end
 
-	function slot0.itemRect.onReturnItem(slot0, slot1)
+	slot0.itemRect.onReturnItem = function(slot0, slot1)
 		uv0:returnItem(slot0, slot1)
 	end
 end
 
-function slot0.updateItems(slot0, slot1)
+slot0.updateItems = function(slot0, slot1)
 	slot0.showVOs = {}
 	slot0.showVOs = underscore.select(slot0.itemVOs, function (slot0)
 		return slot0:IsShow() and (uv0 == 0 or slot0:GetType() == uv0)
@@ -111,10 +111,10 @@ function slot0.updateItems(slot0, slot1)
 	setActive(slot0.emptyTF, #slot0.showVOs <= 0)
 end
 
-function slot0.initItem(slot0, slot1)
+slot0.initItem = function(slot0, slot1)
 end
 
-function slot0.updateItem(slot0, slot1, slot2)
+slot0.updateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.showVOs[slot1 + 1]
 
 	EducateHelper.UpdateDropShow(slot2, slot3:GetShowInfo())
@@ -125,19 +125,19 @@ function slot0.updateItem(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.returnItem(slot0, slot1, slot2)
+slot0.returnItem = function(slot0, slot1, slot2)
 	removeOnButton(slot2)
 end
 
-function slot0._close(slot0)
+slot0._close = function(slot0)
 	slot0.anim:Play("anim_educate_bag_out")
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:_close()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end

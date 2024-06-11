@@ -1,6 +1,6 @@
 slot0 = class("IslandTaskGoCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if slot1.body.taskVO:getConfig("scene") and #slot4 > 0 then
 		if slot4[1] == "ANNIVERSARY_ISLAND_SEA" then
 			slot7 = slot4[2].nodeIds

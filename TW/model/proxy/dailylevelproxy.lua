@@ -1,7 +1,7 @@
 slot0 = class("DailyLevelProxy", import(".NetProxy"))
 slot0.ELITE_QUOTA_UPDATE = "DailyLevelProxy:ELITE_QUOTA_UPDATE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.data = {}
 	slot0.eliteCount = 0
 	slot0.chapterCountList = {}
@@ -42,33 +42,33 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.AddQuickStage(slot0, slot1)
+slot0.AddQuickStage = function(slot0, slot1)
 	slot0.quickStages[slot1] = true
 end
 
-function slot0.CanQuickBattle(slot0, slot1)
+slot0.CanQuickBattle = function(slot0, slot1)
 	return slot0.quickStages[slot1] == true
 end
 
-function slot0.clearChaptersDefeatCount(slot0)
+slot0.clearChaptersDefeatCount = function(slot0)
 	slot0.chapterCountList = {}
 end
 
-function slot0.ifShowDailyTip(slot0)
+slot0.ifShowDailyTip = function(slot0)
 	return slot0.dailyTip
 end
 
-function slot0.setDailyTip(slot0, slot1)
+slot0.setDailyTip = function(slot0, slot1)
 	slot0.dailyTip = slot1
 end
 
-function slot0.getChapterDefeatCount(slot0, slot1)
+slot0.getChapterDefeatCount = function(slot0, slot1)
 	return _.detect(slot0.chapterCountList, function (slot0)
 		return slot0.id == uv0
 	end) and slot2.count or 0
 end
 
-function slot0.updateChapterDefeatCount(slot0, slot1)
+slot0.updateChapterDefeatCount = function(slot0, slot1)
 	slot2 = slot0:getChapterDefeatCount(slot1) + 1
 
 	if _.detect(slot0.chapterCountList, function (slot0)
@@ -83,7 +83,7 @@ function slot0.updateChapterDefeatCount(slot0, slot1)
 	end
 end
 
-function slot0.resetDailyCount(slot0)
+slot0.resetDailyCount = function(slot0)
 	slot1 = pg.expedition_daily_template
 	slot2 = pg.TimeMgr.GetInstance():GetServerWeek() == 1
 
@@ -98,15 +98,15 @@ function slot0.resetDailyCount(slot0)
 	slot0:sendNotification(uv0.ELITE_QUOTA_UPDATE)
 end
 
-function slot0.GetRestEliteCount(slot0)
+slot0.GetRestEliteCount = function(slot0)
 	return math.max(0, pg.gameset.elite_quota.key_value - slot0.eliteCount)
 end
 
-function slot0.IsEliteEnabled(slot0)
+slot0.IsEliteEnabled = function(slot0)
 	return slot0:GetRestEliteCount() > 0
 end
 
-function slot0.EliteCountPlus(slot0)
+slot0.EliteCountPlus = function(slot0)
 	slot0.eliteCount = math.min(slot0.eliteCount + 1, pg.gameset.elite_quota.key_value)
 
 	slot0:sendNotification(uv0.ELITE_QUOTA_UPDATE)

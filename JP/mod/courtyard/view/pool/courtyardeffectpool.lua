@@ -1,6 +1,6 @@
 slot0 = class("CourtYardEffectPool", import(".CourtYardPool"))
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.recycleTime = slot5 or 2
 
 	pg.ViewUtils.SetLayer(tf(slot2), Layer.UI)
@@ -9,7 +9,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.timers = {}
 end
 
-function slot0.Dequeue(slot0)
+slot0.Dequeue = function(slot0)
 	slot1 = uv0.super.Dequeue(slot0)
 	slot0.timers[slot1] = Timer.New(function ()
 		uv0:Enqueue(uv1)
@@ -20,7 +20,7 @@ function slot0.Dequeue(slot0)
 	return slot1
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot0:Enqueue(slot4)
 		slot5:Stop()

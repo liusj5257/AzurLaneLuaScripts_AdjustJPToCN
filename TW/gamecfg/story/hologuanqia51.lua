@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA51",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA51",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "净化亲，消失了……",
 			bgm = "holo-tokiwa",
+			actor = 301050,
+			nameColor = "#a9f548",
+			say = "净化亲，消失了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			nameColor = "#a9f548",
 			say = "这次是真正的，彻底结束了么…",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			nameColor = "#a9f548",
 			say = "她说要回去之后写检查，没问题吧…?",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "等离开这片海域之后，我们之后也要开始寻找回家的方法了呢",
 			typewriter = {
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_holosaba2",
+			dir = 1,
 			say = "滴滴滴…滴滴滴…",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "喂？{namecode:96}？是{namecode:96}么？！",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "太好了，终于联系到妳们了！舰队发生什么事了？",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "几周？妳在说什么事？",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "从妳们两支舰队联络开始算起，到现在只有不到24小时哦？",
 			typewriter = {
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "居然还不到一天？！",
 			typewriter = {
 				speed = 0.05,
@@ -318,8 +318,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			nameColor = "#a9f548",
 			say = "这种现象难道说…那片镜面海域中的时间流逝速度和其他地方不一样么？！",
 			typewriter = {
@@ -348,8 +348,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "这种现象从原理上来说也不是完全不可能的喵~",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "说起来，旁边的几位是…？",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "异世界的访客，原来如此喵…{namecode:98}已经大致猜到状况了喵…",
 			typewriter = {
@@ -431,8 +431,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "不用担心喵！只要在那片镜面海域把塞壬留下来的装置折腾折腾，总会有办法的喵！",
 			typewriter = {
@@ -448,8 +448,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "看来回来之后要有很多话要说呢，不过…",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "这段时间以来，妳们都辛苦了。",
 			typewriter = {
@@ -482,9 +482,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_holosaba2",
-			actor = 307050,
 			dir = 1,
 			blackBg = true,
+			actor = 307050,
 			nameColor = "#a9f548",
 			say = "欢迎回家～然后，欢迎来到我们的世界~",
 			typewriter = {

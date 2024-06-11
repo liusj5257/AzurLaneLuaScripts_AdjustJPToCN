@@ -1,6 +1,6 @@
 slot0 = class("TrophyDetailPanel")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0._parent = slot2
@@ -40,11 +40,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._active = false
 end
 
-function slot0.SetTrophyGroup(slot0, slot1)
+slot0.SetTrophyGroup = function(slot0, slot1)
 	slot0._trophyGroup = slot1
 end
 
-function slot0.UpdateTrophy(slot0, slot1)
+slot0.UpdateTrophy = function(slot0, slot1)
 	if slot1 == nil then
 		return
 	end
@@ -65,7 +65,7 @@ function slot0.UpdateTrophy(slot0, slot1)
 	SetActive(slot0._lock, not slot1:isClaimed())
 	LoadImageSpriteAsync("medal/" .. slot1:getConfig("label"), slot0._nameLabel, true)
 
-	function slot2(slot0, slot1)
+	slot2 = function(slot0, slot1)
 		setText(findTF(slot0, "desc"), slot1:getConfig("condition"))
 
 		slot2, slot3 = slot1:getProgress()
@@ -90,11 +90,11 @@ function slot0.UpdateTrophy(slot0, slot1)
 	slot0:updateStepper(slot1)
 end
 
-function slot0.updateStepper(slot0, slot1)
+slot0.updateStepper = function(slot0, slot1)
 	setText(slot0._pageText, slot0._trophyGroup:getTrophyIndex(slot0._trophy) .. "/" .. slot0._trophyGroup:getTrophyCount())
 end
 
-function slot0.SetActive(slot0, slot1)
+slot0.SetActive = function(slot0, slot1)
 	SetActive(slot0._go, slot1)
 
 	slot0._active = slot1
@@ -108,11 +108,11 @@ function slot0.SetActive(slot0, slot1)
 	end
 end
 
-function slot0.IsActive(slot0)
+slot0.IsActive = function(slot0)
 	return slot0._active
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 

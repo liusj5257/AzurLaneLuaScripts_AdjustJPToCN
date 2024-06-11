@@ -12,8 +12,8 @@ return {
 				},
 				arg_list = {
 					rant = 3000,
-					target = "TargetSelf",
 					skill_id = 1090200,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -32,8 +32,8 @@ return {
 				},
 				arg_list = {
 					rant = 3220,
-					target = "TargetSelf",
 					skill_id = 1090200,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -52,8 +52,8 @@ return {
 				},
 				arg_list = {
 					rant = 3440,
-					target = "TargetSelf",
 					skill_id = 1090200,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -72,8 +72,8 @@ return {
 				},
 				arg_list = {
 					rant = 3660,
-					target = "TargetSelf",
 					skill_id = 1090200,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -92,8 +92,8 @@ return {
 				},
 				arg_list = {
 					rant = 3880,
-					target = "TargetSelf",
 					skill_id = 1090200,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -112,8 +112,8 @@ return {
 				},
 				arg_list = {
 					rant = 4100,
-					target = "TargetSelf",
 					skill_id = 1090200,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -132,8 +132,8 @@ return {
 				},
 				arg_list = {
 					rant = 4320,
-					target = "TargetSelf",
 					skill_id = 1090200,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -152,8 +152,8 @@ return {
 				},
 				arg_list = {
 					rant = 4540,
-					target = "TargetSelf",
 					skill_id = 1090200,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -172,8 +172,8 @@ return {
 				},
 				arg_list = {
 					rant = 4760,
-					target = "TargetSelf",
 					skill_id = 1090200,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -192,8 +192,8 @@ return {
 				},
 				arg_list = {
 					rant = 5000,
-					target = "TargetSelf",
 					skill_id = 1090200,
+					target = "TargetSelf",
 					time = 10
 				}
 			}
@@ -202,12 +202,12 @@ return {
 	desc_get = "每次使用鱼雷时有15.0%(满级30.0%)的概率再次发射一轮",
 	name = "鱼雷连射",
 	init_effect = "",
+	id = 1090200,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "每次使用鱼雷时有$1的概率再次发射一轮",
 	stack = 1,
-	id = 1090200,
+	color = "red",
 	icon = 2050,
 	last_effect = "",
 	effect_list = {
@@ -218,8 +218,8 @@ return {
 			},
 			arg_list = {
 				rant = 3000,
-				target = "TargetSelf",
 				skill_id = 1090200,
+				target = "TargetSelf",
 				time = 10
 			}
 		}

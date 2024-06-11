@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN11",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "エセックス",
 			bgName = "star_level_bg_156",
 			factiontag = "真面目なKP後輩",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "エセックス",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "執事は協力的な態度を見せていますが、あなたは彼女が本当に助けてくれるか確証が持てません",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "探索者",
+			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -80,10 +80,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
-			actorName = "サン・マルチーニョ",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "……それは難しい",
 			typewriter = {
@@ -92,13 +92,13 @@ return {
 			}
 		},
 		{
-			actorName = "サン・マルチーニョ",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
 			optionFlag = 1,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "さきほど、ゴールデン・ハインドからここの用事が終わったら来るようにと言われたのだ",
 			typewriter = {
@@ -111,10 +111,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
-			actorName = "サン・マルチーニョ",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "それに少し部屋の掃除が行き届いていないというか…まずはほかの場所を探してからにしてくれ",
 			typewriter = {
@@ -123,13 +123,13 @@ return {
 			}
 		},
 		{
-			actorName = "サン・マルチーニョ",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
 			optionFlag = 1,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "では失礼する。ごゆっくり",
 			typewriter = {
@@ -177,13 +177,13 @@ return {
 			}
 		},
 		{
-			actorName = "サン・マルチーニョ",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
 			optionFlag = 2,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "かまわない。パブリックスペース――例えばキッチンとガーデンは1階だ",
 			typewriter = {
@@ -196,10 +196,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
-			actorName = "サン・マルチーニョ",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "2階にも図書室とコレクションルームがあるのだが、みな鍵がかかっているな",
 			typewriter = {
@@ -221,13 +221,13 @@ return {
 			}
 		},
 		{
-			actorName = "サン・マルチーニョ",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：執事",
 			optionFlag = 2,
 			actor = 9600021,
-			nameColor = "#A9F548FF",
+			actorName = "サン・マルチーニョ",
 			hidePaintObj = true,
 			say = "分かった。ではごゆっくり。ゴールデン・ハインドが待っているから失礼させてもらう",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "探索者",
+			side = 2,
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -292,11 +292,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "海天",
 			bgName = "star_level_bg_501",
 			factiontag = "文学少女なKP",
-			nameColor = "#FF9B93",
 			bgm = "story-oldcastle-carnival",
-			actorName = "海天",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "部屋に入ったその瞬間、まるで博物館の中に身を置かれたような景色が目に映りました",
 			typewriter = {
@@ -304,17 +304,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -362,8 +362,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			say = "カチッ",
@@ -638,8 +638,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -653,9 +653,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			bgm = "theme-ijndailymeeting",
 			actorName = "海天",
+			bgm = "theme-ijndailymeeting",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "もう指揮官、断りもなく人の部屋に入ってはダメですよ？",
 			typewriter = {

@@ -1,7 +1,7 @@
 slot0 = class("Live2dDrag")
 slot1 = 4
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.live2dData = slot2
 	slot0.frameRate = Application.targetFrameRate or 60
 	slot0.id = slot1.id
@@ -40,8 +40,17 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.actionTriggerActive = slot1.action_trigger_active
 	slot0.relationParameter = slot1.relation_parameter
 	slot0.limitTime = slot1.limit_time > 0 and slot1.limit_time or uv0
+	slot0.reactCondition = slot1.react_condition and slot1.react_condition ~= "" and slot1.react_condition or {}
+	slot0.idleOn = slot0.reactCondition.idle_on and slot0.reactCondition.idle_on or {}
+	slot0.idleOff = slot0.reactCondition.idleOff and slot0.reactCondition.idleOff or {}
 	slot0.revertIdleIndex = slot1.revert_idle_index == 1 and true or false
 	slot0.revertActionIndex = slot1.revert_action_index == 1 and true or false
+	slot0.saveParameterFlag = true
+
+	if slot1.save_parameter == -1 then
+		slot0.saveParameterFlag = false
+	end
+
 	slot0.randomAttitudeIndex = L2D_RANDOM_PARAM
 	slot0._active = false
 	slot0._parameterCom = nil
@@ -62,9 +71,10 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.offsetDragTargetX = slot0.startValue
 	slot0.offsetDragTargetY = slot0.startValue
 	slot0.parameterComAdd = true
+	slot0.reactConditionFlag = false
 end
 
-function slot0.startDrag(slot0)
+slot0.startDrag = function(slot0)
 	if slot0.ignoreAction and slot0.l2dIsPlaying then
 		return
 	end
@@ -83,7 +93,7 @@ function slot0.startDrag(slot0)
 	end
 end
 
-function slot0.stopDrag(slot0)
+slot0.stopDrag = function(slot0)
 	if slot0._active then
 		slot0._active = false
 
@@ -129,11 +139,11 @@ function slot0.stopDrag(slot0)
 	end
 end
 
-function slot0.getIgnoreReact(slot0)
+slot0.getIgnoreReact = function(slot0)
 	return slot0.ignoreReact
 end
 
-function slot0.setParameterCom(slot0, slot1)
+slot0.setParameterCom = function(slot0, slot1)
 	if not slot1 then
 		print("live2dDrag id:" .. tostring(slot0.id) .. "设置了null的组件(该打印非报错)")
 	end
@@ -141,34 +151,38 @@ function slot0.setParameterCom(slot0, slot1)
 	slot0._parameterCom = slot1
 end
 
-function slot0.getParameterCom(slot0)
+slot0.getParameterCom = function(slot0)
 	return slot0._parameterCom
 end
 
-function slot0.addRelationComData(slot0, slot1, slot2)
+slot0.addRelationComData = function(slot0, slot1, slot2)
 	table.insert(slot0._relationParameterList, {
 		com = slot1,
 		data = slot2
 	})
 end
 
-function slot0.getRelationParameterList(slot0)
+slot0.getRelationParameterList = function(slot0)
 	return slot0._relationParameterList
 end
 
-function slot0.getActive(slot0)
+slot0.getReactCondition = function(slot0)
+	return slot0.reactConditionFlag
+end
+
+slot0.getActive = function(slot0)
 	return slot0._active
 end
 
-function slot0.getParameterUpdateFlag(slot0)
+slot0.getParameterUpdateFlag = function(slot0)
 	return slot0._parameterUpdateFlag
 end
 
-function slot0.setEventCallback(slot0, slot1)
+slot0.setEventCallback = function(slot0, slot1)
 	slot0._eventCallback = slot1
 end
 
-function slot0.onEventCallback(slot0, slot1, slot2, slot3)
+slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 	if slot1 == Live2D.EVENT_ACTION_APPLY then
 		slot4 = {}
 		slot5 = nil
@@ -261,7 +275,7 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 	slot0._eventCallback(slot1, slot2, slot3)
 end
 
-function slot0.fillterAction(slot0, slot1)
+slot0.fillterAction = function(slot0, slot1)
 	if type(slot1) == "table" then
 		return slot1[math.random(1, #slot0.actionTrigger.action)]
 	else
@@ -269,15 +283,15 @@ function slot0.fillterAction(slot0, slot1)
 	end
 end
 
-function slot0.setTargetValue(slot0, slot1)
+slot0.setTargetValue = function(slot0, slot1)
 	slot0.parameterTargetValue = slot1
 end
 
-function slot0.getParameter(slot0)
+slot0.getParameter = function(slot0)
 	return slot0.parameterValue
 end
 
-function slot0.getParameToTargetFlag(slot0)
+slot0.getParameToTargetFlag = function(slot0)
 	if slot0.parameterValue ~= slot0.parameterTargetValue then
 		return true
 	end
@@ -289,10 +303,10 @@ function slot0.getParameToTargetFlag(slot0)
 	return false
 end
 
-function slot0.actionApplyFinish(slot0)
+slot0.actionApplyFinish = function(slot0)
 end
 
-function slot0.stepParameter(slot0)
+slot0.stepParameter = function(slot0)
 	slot0:updateState()
 	slot0:updateTrigger()
 	slot0:updateParameterUpdateFlag()
@@ -304,7 +318,7 @@ function slot0.stepParameter(slot0)
 	slot0:checkReset()
 end
 
-function slot0.updateParameterUpdateFlag(slot0)
+slot0.updateParameterUpdateFlag = function(slot0)
 	if slot0.actionTrigger.type == Live2D.DRAG_CLICK_ACTION then
 		slot0._parameterUpdateFlag = true
 	elseif slot0.actionTrigger.type == Live2D.DRAG_RELATION_IDLE then
@@ -328,7 +342,7 @@ function slot0.updateParameterUpdateFlag(slot0)
 	end
 end
 
-function slot0.changeParameComAble(slot0, slot1)
+slot0.changeParameComAble = function(slot0, slot1)
 	if slot0.parameterComAdd == slot1 then
 		return
 	end
@@ -349,7 +363,7 @@ function slot0.changeParameComAble(slot0, slot1)
 	end
 end
 
-function slot0.updateDrag(slot0)
+slot0.updateDrag = function(slot0)
 	if not slot0.offsetX and not slot0.offsetY then
 		return
 	end
@@ -375,7 +389,7 @@ function slot0.updateDrag(slot0)
 	slot0._parameterUpdateFlag = true
 end
 
-function slot0.updateGyro(slot0)
+slot0.updateGyro = function(slot0)
 	if not slot0.gyro then
 		return
 	end
@@ -416,7 +430,7 @@ function slot0.updateGyro(slot0)
 	slot0._parameterUpdateFlag = true
 end
 
-function slot0.updateReactValue(slot0)
+slot0.updateReactValue = function(slot0)
 	if not slot0.reactX and not slot0.reactY then
 		return
 	end
@@ -441,7 +455,7 @@ function slot0.updateReactValue(slot0)
 	slot0._parameterUpdateFlag = true
 end
 
-function slot0.updateParameterValue(slot0)
+slot0.updateParameterValue = function(slot0)
 	if slot0._parameterUpdateFlag and slot0.parameterValue ~= slot0.parameterTargetValue then
 		if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.01 then
 			slot0:setParameterValue(slot0.parameterTargetValue)
@@ -455,7 +469,7 @@ function slot0.updateParameterValue(slot0)
 	end
 end
 
-function slot0.updateRelationValue(slot0)
+slot0.updateRelationValue = function(slot0)
 	for slot4, slot5 in ipairs(slot0._relationParameterList) do
 		slot6 = slot5.data
 		slot8 = slot6.relation_value
@@ -481,11 +495,11 @@ function slot0.updateRelationValue(slot0)
 	end
 end
 
-function slot0.fixRelationParameter(slot0, slot1, slot2)
+slot0.fixRelationParameter = function(slot0, slot1, slot2)
 	return slot0:fixParameterTargetValue(slot1, slot2.range or slot0.range, slot2.rangeAbs and slot2.rangeAbs == 1 or slot0.rangeAbs, slot2.dragDirect and slot2.dragDirect or slot0.dragDirect)
 end
 
-function slot0.fixParameterTargetValue(slot0, slot1, slot2, slot3, slot4)
+slot0.fixParameterTargetValue = function(slot0, slot1, slot2, slot3, slot4)
 	if slot1 < 0 and slot4 == 1 then
 		slot1 = 0
 	elseif slot1 > 0 and slot4 == 2 then
@@ -505,7 +519,7 @@ function slot0.fixParameterTargetValue(slot0, slot1, slot2, slot3, slot4)
 	return slot1
 end
 
-function slot0.checkReset(slot0)
+slot0.checkReset = function(slot0)
 	if not slot0._active and slot0.parameterToStart then
 		if slot0.parameterToStart > 0 then
 			slot0.parameterToStart = slot0.parameterToStart - Time.deltaTime
@@ -535,11 +549,11 @@ function slot0.checkReset(slot0)
 	end
 end
 
-function slot0.changeReactValue(slot0, slot1)
+slot0.changeReactValue = function(slot0, slot1)
 	slot0.reactPos = slot1
 end
 
-function slot0.setParameterValue(slot0, slot1, slot2)
+slot0.setParameterValue = function(slot0, slot1, slot2)
 	if slot1 then
 		slot0.parameterValue = slot1
 	end
@@ -549,7 +563,7 @@ function slot0.setParameterValue(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateState(slot0)
+slot0.updateState = function(slot0)
 	if not slot0.lastFrameActive and slot0._active then
 		slot0.firstActive = true
 	else
@@ -565,7 +579,7 @@ function slot0.updateState(slot0)
 	slot0.lastFrameActive = slot0._active
 end
 
-function slot0.updateTrigger(slot0)
+slot0.updateTrigger = function(slot0)
 	if not slot0:isActionTriggerAble() then
 		return
 	end
@@ -662,15 +676,13 @@ function slot0.updateTrigger(slot0)
 	end
 end
 
-function slot0.triggerAction(slot0)
-	print("set limit time = " .. slot0.limitTime)
-
+slot0.triggerAction = function(slot0)
 	slot0.nextTriggerTime = slot0.limitTime
 
 	slot0:setTriggerActionFlag(true)
 end
 
-function slot0.isActionTriggerAble(slot0)
+slot0.isActionTriggerAble = function(slot0)
 	if slot0.actionTrigger.type == nil then
 		return false
 	end
@@ -692,7 +704,7 @@ function slot0.isActionTriggerAble(slot0)
 	return true
 end
 
-function slot0.updateStateData(slot0, slot1)
+slot0.updateStateData = function(slot0, slot1)
 	if slot0.revertIdleIndex and slot0.l2dIdleIndex ~= slot1.idleIndex then
 		slot0:setTargetValue(slot0.startValue)
 	end
@@ -715,9 +727,17 @@ function slot0.updateStateData(slot0, slot1)
 	if not slot0.l2dIsPlaying and slot0.isTriggerAtion then
 		slot0:setTriggerActionFlag(false)
 	end
+
+	if slot0.l2dIdleIndex and slot0.idleOn and #slot0.idleOn > 0 then
+		slot0.reactConditionFlag = table.contains(slot0.idleOn, slot0.l2dIdleIndex)
+	end
+
+	if slot0.l2dIdleIndex and slot0.idleOff and #slot0.idleOff > 0 then
+		slot0.reactConditionFlag = not table.contains(slot0.idleOff, slot0.l2dIdleIndex)
+	end
 end
 
-function slot0.checkClickAction(slot0)
+slot0.checkClickAction = function(slot0)
 	if slot0.firstActive then
 		slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
 			ableFlag = true
@@ -754,8 +774,8 @@ function slot0.checkClickAction(slot0)
 	return false
 end
 
-function slot0.saveData(slot0)
-	if slot0.revert == -1 then
+slot0.saveData = function(slot0)
+	if slot0.revert == -1 and slot0.saveParameterFlag then
 		Live2dConst.SaveDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id, slot0.parameterTargetValue)
 	end
 
@@ -764,8 +784,8 @@ function slot0.saveData(slot0)
 	end
 end
 
-function slot0.loadData(slot0)
-	if slot0.revert == -1 and Live2dConst.GetDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) then
+slot0.loadData = function(slot0)
+	if slot0.revert == -1 and slot0.saveParameterFlag and Live2dConst.GetDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) then
 		slot0:setParameterValue(slot1)
 		slot0:setTargetValue(slot1)
 	end
@@ -775,18 +795,18 @@ function slot0.loadData(slot0)
 	end
 end
 
-function slot0.clearData(slot0)
+slot0.clearData = function(slot0)
 	if slot0.revert == -1 then
 		slot0:setParameterValue(slot0.startValue)
 		slot0:setTargetValue(slot0.startValue)
 	end
 end
 
-function slot0.setTriggerActionFlag(slot0, slot1)
+slot0.setTriggerActionFlag = function(slot0, slot1)
 	slot0.isTriggerAtion = slot1
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	slot0._active = false
 	slot0._parameterCom = nil
 	slot0.parameterValue = slot0.startValue

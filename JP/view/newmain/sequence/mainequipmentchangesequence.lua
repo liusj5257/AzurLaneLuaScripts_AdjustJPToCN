@@ -1,6 +1,6 @@
 slot0 = class("MainEquipmentChangeSequence")
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	if not ItemShowPanel.ConfigData.isOpen then
 		slot1()
 
@@ -8,7 +8,7 @@ function slot0.Execute(slot0, slot1)
 	end
 
 	if PlayerPrefs.GetInt("ItemIconChange_" .. slot2.equipID, 0) == 0 then
-		function slot5()
+		slot5 = function()
 			uv0()
 			PlayerPrefs.SetInt("ItemIconChange_" .. uv1, 1)
 		end

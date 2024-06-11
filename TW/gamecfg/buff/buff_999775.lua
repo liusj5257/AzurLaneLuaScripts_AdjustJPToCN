@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "教程 自动跨射",
 	init_effect = "",
+	name = "教程 自动跨射",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 999775,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -14,9 +14,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 999980,
 				target = "TargetSelf",
-				time = 10,
-				skill_id = 999980
+				time = 10
 			}
 		},
 		{

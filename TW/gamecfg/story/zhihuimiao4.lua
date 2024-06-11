@@ -1,8 +1,8 @@
 return {
-	id = "ZHIHUIMIAO4",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "ZHIHUIMIAO4",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…{namecode:98}急匆匆地說完就走了…還是來看看“指揮喵”究竟有些什麼能力吧……",
 			typewriter = {
 				speed = 0.05,

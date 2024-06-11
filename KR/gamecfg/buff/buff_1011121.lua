@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -32,8 +32,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_5",
-				number = 0.05
+				number = 0.05,
+				attr = "DMG_TAG_EHC_T_5"
 			}
 		}
 	}

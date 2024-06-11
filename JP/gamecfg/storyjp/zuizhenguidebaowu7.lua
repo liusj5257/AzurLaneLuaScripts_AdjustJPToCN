@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
+			bgm = "battle-boss-1",
 			actor = 408040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "U-110！大丈夫？！",
-			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "それってかなり危なかったじゃない！もうあたしが見てないスキに…",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "コホン！こうなってしまったらもうしょうがない！逃げるにしても一回反撃して向こうを怯ませるのが先よ！",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "海のパーシヴァルことこのあたし………",
 			typewriter = {
 				speed = 0.05,
@@ -103,11 +103,11 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 408040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "わわっ！？",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -147,8 +147,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -183,8 +183,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "卑怯な！こっちがまだ名乗り終わっていないのに！",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "あなたはしなくていいから！とにかく逃げるのよ！",
 			typewriter = {
 				speed = 0.05,
@@ -259,11 +259,11 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 408040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "あわわわ！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -303,8 +303,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 30,
@@ -338,14 +338,14 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 408040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "こっちがまだ名乗り終わってないよ！",
 			action = {
 				{
-					type = "shake",
 					y = 50,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,8 +399,8 @@ return {
 			say = "U-110は黙ってて！",
 			action = {
 				{
-					type = "shake",
 					y = 50,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

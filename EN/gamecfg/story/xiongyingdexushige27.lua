@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIONGYINGDEXUSHIGE27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIONGYINGDEXUSHIGE27",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900329,
 			stopbgm = true,
-			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#ffa500",
 			side = 2,
-			say = "\"Everything must come to an end.\"",
+			bgName = "bg_roma_7",
 			bgm = "theme-roma-image",
+			actor = 900329,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "\"Everything must come to an end.\"",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -154,12 +154,12 @@ return {
 			}
 		},
 		{
-			actor = 900329,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#ffa500",
 			blackBg = true,
+			actor = 900329,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "\"I shall be the one to create a new world, a new Roma––\"",
 			painting = {
 				alpha = 0.3,

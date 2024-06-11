@@ -62,12 +62,12 @@ return {
 	desc_get = "炮击时有6%概率发动，炮击、雷击、装填、机动属性上升20.0%(满级40.0%)，持续8秒",
 	name = "所罗门的噩梦",
 	init_effect = "",
+	id = 10360,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "炮击时有6%概率发动，炮击、雷击、装填、机动属性上升$1，持续8秒",
 	stack = 1,
-	id = 10360,
+	color = "red",
 	icon = 10360,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				rant = 600,
-				target = "TargetSelf",
 				skill_id = 10360,
+				target = "TargetSelf",
 				time = 5
 			}
 		}

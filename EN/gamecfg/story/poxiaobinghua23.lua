@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA23",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 701070,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hurry, Commander! We've gotten all the info we can, so it's time to get out of here!",
 			bgm = "bgm-cccp3",
+			actor = 701070,
+			nameColor = "#a9f548",
+			say = "Hurry, Commander! We've gotten all the info we can, so it's time to get out of here!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,8 +33,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "Are you serious? You're either the bravest person alive, or the dumbest, and I can't tell which.",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "Belorussiya took the others out to intercept them, but we need to hurry up and grab as many documents as we can before getting out of here.",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "...Did you forget?",
 			typewriter = {
@@ -99,9 +99,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_cccpv2_9",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
+			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			say = "We're surrounded, and we still haven't found the way out! We're in deep, deep trouble here!",
 			flashout = {
@@ -138,8 +138,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "What should we do, then? We'll be annihilated for sure if we remain here.",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "If we head in the opposite direction of the Gate, we might just find the exit. It's better than awaiting our doom, at least...",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "Then what are we waiting for? Fire up those leg-engines!",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "I can cover for myself, but I cannot guarantee the commander's safety if a firefight breaks out in these cramped corridors. We must reduce the enemy's numbers until it's safe enough to leave.",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Gremyashchy, you and Comrade Commander will stay here and gather up everything we've found! The rest of you, follow me!",
 			typewriter = {
@@ -260,9 +260,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_cccpv2_9",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
+			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			say = "Now do you remember?",
 			flashout = {
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "I do, but... why did I forget in the first place? Why did I only remember just now?",
@@ -311,11 +311,11 @@ return {
 			}
 		},
 		{
-			actor = 701070,
 			nameColor = "#a9f548",
-			bgName = "bg_cccpv2_9",
 			side = 2,
+			bgName = "bg_cccpv2_9",
 			dir = 1,
+			actor = 701070,
 			stopbgm = true,
 			say = "Never mind that, Belorussiya just gave us the signal. Come on, we have to–",
 			typewriter = {
@@ -334,12 +334,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_7",
-			bgm = "bsm-2",
-			dir = 1,
 			say = "All of a sudden, Gremyashchy vanished without a trace, as did the flashes of the firefight happening outside. They were simply gone, like they had never existed in the first place.",
+			dir = 1,
+			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,8 +350,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "Simultaneously, the auditorium's monitors sprung to life, showing me what appeared to be footage of Northern Parliament girls doing battle with strange enemies.",
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "They were enormous beasts made of black steel, but even through the high-resolution screens, their shapes were blurred as if light itself was repulsed by their grotesque forms.",
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "The Northern Parliament girls were similarly blurry. All I could tell from looking at their contours was that they were not Kirov or Belorussiya.",
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "Whatever the screens were showing me, it did not seem to be live footage of the battle outside. In any case, I had to contact Belorussiya.",
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Recorded Voice",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "That was when I realized that the button on the communicator was stuck, and no amount of pushing on it did anything. I could not contact her, and even if I could, it seemed extremely unlikely that I'd get a response.",
@@ -447,8 +447,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			blackBg = true,

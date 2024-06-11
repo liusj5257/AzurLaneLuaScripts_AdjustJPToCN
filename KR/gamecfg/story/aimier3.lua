@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIMIER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIMIER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"무희 천사 에밀\n\n<size=45>의외의 특기</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "{namecode:98}",
 			dir = -1,
+			actor = 312010,
+			actorName = "{namecode:98}",
 			say = "지휘관, 또 에밀 빌리러 왔다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -62,17 +62,17 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 22.5,
 					dur = 0.1,
-					type = "shake",
-					y = 22.5
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……이번 주만 벌써 3번째인가.",
 			typewriter = {
 				speed = 0.05,
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			actorName = "{namecode:98}",
 			dir = -1,
+			actor = 312010,
+			actorName = "{namecode:98}",
 			say = "에밀이 점원 맡아준 덕분에, 이번 달 매출이 기적처럼 치솟았다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.4,
 					x = 15,
 					number = 2
@@ -111,12 +111,12 @@ return {
 			}
 		},
 		{
-			actor = 802010,
+			say = "에? 내가 뭘했다고?",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "에? 내가 뭘했다고?",
+			actor = 802010,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "어느새 시라누이도 나타났다.",
 			typewriter = {
 				speed = 0.05,
@@ -253,12 +253,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "그리 겸손하실 필요 없사옵니다. 소녀도 에밀 씨를 빌려 가고 싶은 터라.",
 			side = 0,
 			bgName = "bg_story_task",
-			actorName = "{namecode:20}",
 			dir = -1,
-			say = "그리 겸손하실 필요 없사옵니다. 소녀도 에밀 씨를 빌려 가고 싶은 터라.",
+			actor = 301180,
+			actorName = "{namecode:20}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 802010,
+			nameColor = "#92fc63",
 			say = "그렇게까지 대단한 건 아냐! 하지만 두 사람이 그렇게까지 말한다면, 다음에는 양쪽 가게 점원을 한 번씩 해보는 건 어떨까? 지휘관?",
 			typewriter = {
 				speed = 0.05,

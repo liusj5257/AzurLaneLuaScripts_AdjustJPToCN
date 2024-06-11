@@ -1,12 +1,12 @@
 return {
-	id = "WTask370C",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask370C",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "輸送船団を目標地点まで護衛した！任務完了！",
 			typewriter = {
 				speed = 0.05,

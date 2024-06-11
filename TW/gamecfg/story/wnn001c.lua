@@ -7,8 +7,8 @@ return {
 			actor = 312010,
 			side = 2,
 			paintingNoise = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "第一处塞壬空间已探索完毕，在其他海域也发现了类似的塞壬空间入口，请指挥官前往调查",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQITIANCHENG",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQITIANCHENG",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"SP Amagi\n\n<size=45>Morning Dreamscape</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_room",
-			say = "The warm sunlight pouring through the window painted an idyllic scenery in front of me.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "The warm sunlight pouring through the window painted an idyllic scenery in front of me.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "While my consciousness was still floating about lazily, I was snapped back to reality by the sound of conversation coming from the kitchen.",
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,8 +148,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 304050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 304050,
 			actorName = "??",
 			say = "There's no need to pout. Go on now, don't keep Kaga and the others waiting.",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = ".........",
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "I remember now. Today was supposed to be my day off, and––",
@@ -333,14 +333,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			actor = 304050,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Did the miso soup go cold...?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "Amagi, who had prepared a late breakfast, checked in on me with worry in her voice.",
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "Apparently, I had overslept and missed the time I was supposed to have breakfast with Akagi and Amagi.",
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "To alleviate her concern, I dug into the savory miso soup and the carefully crafted meal.",
@@ -413,8 +413,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Ehehe, I'm glad it's to your liking, Commander.",
 			typewriter = {
@@ -446,8 +446,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Otherwise, you'll be hearing an awful lot of Akagi's grumbling every day. Just a friendly word of advice from your local Amagi~",
 			typewriter = {
@@ -460,8 +460,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "Grumbling? Knowing Akagi... she'd make me take time off, forcibly if need be.",
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "But, she has a point. I can't have Amagi of all people worrying about my health...",
@@ -493,8 +493,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "I did promise to take care of myself, but my promise doesn't end with my own health. Hehe~",
 			typewriter = {
@@ -526,8 +526,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Of course, if you're feeling too tired, you should head back and get some more sleep.",
 			typewriter = {
@@ -540,8 +540,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "I had no other plans for the day, so heading out for a stroll sounded like a good idea.",
@@ -555,8 +555,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "More importantly...",
@@ -579,8 +579,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Hehe, are you worried about me? I'm doing just fine.",
 			typewriter = {
@@ -596,8 +596,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "As you can see, there's nothing for you to worry about, Commander. Here~",
 			typewriter = {
@@ -626,8 +626,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "Amagi gingerly brought a piece of kawashi mochi to my lips.",
@@ -644,8 +644,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "...These might look a bit like Manjuus, but I assure you, they're quite delicious. Hehe~",
 			typewriter = {
@@ -674,14 +674,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "After finishing the food, Amagi and I tidied the room up, after which I accompanied her on the sofa.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -706,8 +706,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "After all the life-or-death decisions I've had to make on the battlefield, moments like these are like a dream come true...",
@@ -724,8 +724,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Mm... Being able to spend my days with Akagi, stay by your side, and enjoy this peace... Indeed, it is a bit like a \"dream,\" isn't it?",
 			typewriter = {
@@ -741,8 +741,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Even such a distant, blissful dream... will surely come to fruition one day, as long as that's what you desire. Right, Commander?",
 			typewriter = {
@@ -758,8 +758,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "Understand our past, and trascend fate. Forge new bonds, and create a new history...",
 			typewriter = {
@@ -772,8 +772,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "Her ephemeral presence felt so weighty over my shoulder.",
@@ -806,8 +806,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "May all your dreams come true.",
 			typewriter = {
@@ -823,9 +823,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 304050,
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "After all, that is something only \"people\" can do, not Cubes...",
 			typewriter = {

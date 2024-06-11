@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA7",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307060,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 307060,
 			dir = 1,
+			bgm = "holo-tokiwa",
+			hideOther = true,
 			actorName = "{namecode:96}&{namecode:158}",
 			say = "hololive反抗军基地？",
-			bgm = "holo-tokiwa",
 			subActors = {
 				{
 					actor = 301490,
@@ -35,8 +35,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "没错~如果是那里的话，充足的补给和大量的…战略物资，说不定连舰船的补给都可以解决哦~！",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -103,10 +103,10 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 1,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "难道各位所属的hololive是一个暴虐无道的高压组织…组织内的成员为了生存只能暗中成立反抗军，在夹缝之中进行反抗么！？",
 			dialogShake = {
 				speed = 0.09,
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "欸，啊，唔，在夹缝之中生存的反抗军倒是很贴切…嗯，解释起来感觉很麻烦，就当是这么回事吧。",
 			typewriter = {
 				speed = 0.05,
@@ -166,9 +166,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "好好解释啦，吹雪！",
 			typewriter = {
 				speed = 0.05,
@@ -180,8 +180,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -193,8 +193,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "那个，其实那个是朋友打着「要炸飞邪恶的运营哦」而成立的，大家一起玩闹的组织，并不是用来认真战斗的啦！",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "感觉完全被误解了，算了，之后再说吧……",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "我刚才仔细观察了一下，整个服务器现在被海水分割成无数小岛，面积变大了好多好多倍，地质环境也完全改变了，",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "（向导小姐么…明明我也是指挥官的说）",
 			typewriter = {
 				speed = 0.05,

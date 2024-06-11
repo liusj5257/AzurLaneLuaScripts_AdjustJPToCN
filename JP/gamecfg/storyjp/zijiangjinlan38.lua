@@ -1,26 +1,26 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN38",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN38",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_wuzang_bg17",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			paintingNoise = true,
+			stopbgm = true,
+			bgName = "bg_wuzang_bg17",
 			bgm = "map-longgong",
 			actor = 307080,
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			paintingNoise = true,
 			say = "「拝啓　重桜正規空母・信濃より武蔵へ」",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

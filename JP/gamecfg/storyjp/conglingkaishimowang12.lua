@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
-			say = "フリード（Frieden）村――安寧を意味するフリード（Frieden）によって名付けられた。",
 			bgm = "xinnong-3",
+			say = "フリード（Frieden）村――安寧を意味するフリード（Frieden）によって名付けられた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			say = "しかし、そんな村の安寧は今や戦火によって蹂躙されている。",
 			typewriter = {
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "野盗はそっちだ！",
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "撫順たちは魔王討伐の旅をしている勇者パーティーだ！そっちこそ何者？",
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "王国軍バナレットナイト",
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "……冒険者パーティーね…",
 			painting = {
@@ -157,9 +157,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_506",
 			factiontag = "王国軍バナレットナイト",
 			dir = 1,
+			bgName = "star_level_bg_506",
 			bgm = "theme-camelot",
 			actor = 205130,
 			nameColor = "#A9F548FF",
@@ -173,17 +173,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "王国軍バナレットナイト",
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "フリードが襲われているとの知らせを受けて救援にやってきた",
 			painting = {
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうだったんだ……その様子だともうこっちの仕事が残ってなさそう",
@@ -280,11 +280,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "サブクエスト報酬は無理かー",
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "というわけで指揮官、メインクエストに戻ろうよ",
@@ -461,11 +461,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
-			say = "――――！！",
 			soundeffect = "event:/battle/boom2",
+			say = "――――！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,11 +585,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_506",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "撫順たちも行くよ！",
@@ -603,8 +603,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

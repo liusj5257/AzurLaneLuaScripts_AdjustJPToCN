@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD402A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD402A",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307020,
-			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "Is that Dakar up ahead? I heard that this one of the Vichya Dominion’s most important ports, but it looks rather deserted...",
 			bgm = "bsm-7",
+			actor = 307020,
+			nameColor = "#a9f548",
+			say = "Is that Dakar up ahead? I heard that this one of the Vichya Dominion’s most important ports, but it looks rather deserted...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -68,14 +68,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_port_dakaer",
 			actor = 401020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Welcome to Dakar. I am the destroyer, Z2, and I have been assigned to wait for your arrival.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "Huh? You’re our entire welcoming committee?",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -145,8 +145,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "Let’s talk business. This way, please.",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2500
@@ -184,15 +184,15 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "Woah, is this an Iron Blood research lab? Now this piques my interest!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "(Nay... If there’s something you want, you must seize it yourself...)",
 			typewriter = {
 				speed = 0.05,

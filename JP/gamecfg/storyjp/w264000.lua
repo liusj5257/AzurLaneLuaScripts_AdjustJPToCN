@@ -1,12 +1,12 @@
 return {
-	id = "W264000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W264000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "击破海域中所有测试者！",
 			typewriter = {
 				speed = 0.05,

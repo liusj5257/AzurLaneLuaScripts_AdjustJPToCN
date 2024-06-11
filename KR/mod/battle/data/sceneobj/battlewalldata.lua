@@ -7,7 +7,7 @@ slot2 = slot0.Battle.BattleWallData
 slot2.CLD_OBJ_TYPE_BULLET = 1
 slot2.CLD_OBJ_TYPE_SHIP = 2
 
-function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
+slot2.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._id = slot1
 	slot0._host = slot2
 	slot0._cldFun = slot3
@@ -17,7 +17,7 @@ function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:InitCldComponent()
 end
 
-function slot2.InitCldComponent(slot0)
+slot2.InitCldComponent = function(slot0)
 	slot2 = slot0._cldOffset
 
 	if slot0._cldBox.range then
@@ -35,50 +35,50 @@ function slot2.InitCldComponent(slot0)
 	slot0:SetCldObjType()
 end
 
-function slot2.IsActive(slot0)
+slot2.IsActive = function(slot0)
 	return slot0._host:IsWallActive()
 end
 
-function slot2.DeactiveCldBox(slot0)
+slot2.DeactiveCldBox = function(slot0)
 	slot0._cldComponent:SetActive(false)
 end
 
-function slot2.GetCldBox(slot0)
+slot2.GetCldBox = function(slot0)
 	return slot0._cldComponent:GetCldBox(slot0:GetPosition())
 end
 
-function slot2.GetCldData(slot0)
+slot2.GetCldData = function(slot0)
 	return slot0._cldComponent:GetCldData()
 end
 
-function slot2.GetBoxSize(slot0)
+slot2.GetBoxSize = function(slot0)
 	return slot0._cldComponent:GetCldBoxSize()
 end
 
-function slot2.GetHost(slot0)
+slot2.GetHost = function(slot0)
 	return slot0._host
 end
 
-function slot2.GetIFF(slot0)
+slot2.GetIFF = function(slot0)
 	return slot0:GetHost():GetIFF()
 end
 
-function slot2.GetPosition(slot0)
+slot2.GetPosition = function(slot0)
 	return slot0:GetHost():GetPosition()
 end
 
-function slot2.GetUniqueID(slot0)
+slot2.GetUniqueID = function(slot0)
 	return slot0._id
 end
 
-function slot2.GetCldFunc(slot0)
+slot2.GetCldFunc = function(slot0)
 	return slot0._cldFun
 end
 
-function slot2.SetCldObjType(slot0, slot1)
+slot2.SetCldObjType = function(slot0, slot1)
 	slot0._cldObjType = slot1 or uv0.CLD_OBJ_TYPE_BULLET
 end
 
-function slot2.GetCldObjType(slot0)
+slot2.GetCldObjType = function(slot0)
 	return slot0._cldObjType
 end

@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.activity_workbench_item = {
 	{
-		rarity = 2,
 		name = "クラフト用木材",
+		rarity = 2,
 		display = "無人島の森で入手したクラフト用の木材。荒削りではあるもののいろんな用途に使える",
 		id = 1,
 		icon = "workbench_item_1",
@@ -12,8 +12,8 @@ pg.activity_workbench_item = {
 		}
 	},
 	{
-		rarity = 3,
 		name = "良質な木材",
+		rarity = 3,
 		display = "クラフトで加工された木材。磨き上げられ、加圧浸透処理を受けてより丈夫になった。残っている年輪が木材の過去を物語っている。",
 		id = 2,
 		icon = "workbench_item_2",
@@ -23,8 +23,8 @@ pg.activity_workbench_item = {
 		}
 	},
 	{
-		rarity = 3,
 		name = "クラフト用鉱石",
+		rarity = 3,
 		display = "無人島で入手したクラフト用の鉱石。宝石の原鉱に見えるが中には様々な不純物があり、濁った光を放っている。削っていけば輝く日が来るだろう――",
 		id = 3,
 		icon = "workbench_item_3",
@@ -33,8 +33,8 @@ pg.activity_workbench_item = {
 		}
 	},
 	[5] = {
-		rarity = 4,
 		name = "輝く宝石（黄）",
+		rarity = 4,
 		display = "クラフトで加工された黄色の宝石。月明かりのような涼しくて優しい光を反射している。そこそこ高く値が付きそうだ",
 		id = 5,
 		icon = "workbench_item_5",
@@ -44,8 +44,8 @@ pg.activity_workbench_item = {
 		}
 	},
 	[6] = {
-		rarity = 4,
 		name = "輝く宝石（赤）",
+		rarity = 4,
 		display = "クラフトで加工された赤色の宝石。日差しのような熱くて眩しい光を反射している。そこそこ高く値が付きそうだ",
 		id = 6,
 		icon = "workbench_item_6",
@@ -55,8 +55,8 @@ pg.activity_workbench_item = {
 		}
 	},
 	[7] = {
-		rarity = 2,
 		name = "彩る花束",
+		rarity = 2,
 		display = "艦船の花畑から採った花で作られた花束。清新な芳香を放っている。そのまま飾ってもいいが、プレゼントしたりすることで香りをより遠くへと広げるのも一興だ",
 		id = 7,
 		icon = "workbench_item_7",
@@ -68,8 +68,8 @@ pg.activity_workbench_item = {
 		}
 	},
 	[8] = {
-		rarity = 2,
 		name = "家具の設計図",
+		rarity = 2,
 		display = "家具の設計図。細部まで各部品のサイズと取り付け方が記されている。どんな巧妙な作りも、一つひとつのパーツから始まるんだ",
 		id = 8,
 		icon = "workbench_item_8",
@@ -98,8 +98,8 @@ pg.activity_workbench_item = {
 		}
 	},
 	[9] = {
-		rarity = 2,
 		name = "温泉施設：施設内装",
+		rarity = 2,
 		display = "温泉施設建設に必要な石の内装。天然の石で舗装された床は良い歩き心地だ",
 		id = 9,
 		icon = "workbench_item_9",
@@ -109,8 +109,8 @@ pg.activity_workbench_item = {
 		}
 	},
 	[10] = {
-		rarity = 3,
 		name = "温泉施設：給湯",
+		rarity = 3,
 		display = "温泉施設建設に必要な給湯装置。湯口の部分は竹の外見をしており、景色と相まって侘び寂びのココロを感じさせてくれる",
 		id = 10,
 		icon = "workbench_item_10",
@@ -120,8 +120,8 @@ pg.activity_workbench_item = {
 		}
 	},
 	[11] = {
-		rarity = 3,
 		name = "温泉施設：湯上がりお菓子",
+		rarity = 3,
 		display = "温泉施設建設に必要な…湯上がりサービス。もちもちとした団子に冷たい牛乳、火照る体にちょうどいい糖分タイム",
 		id = 11,
 		icon = "workbench_item_11",
@@ -131,8 +131,8 @@ pg.activity_workbench_item = {
 		}
 	},
 	[12] = {
-		rarity = 3,
 		name = "温泉施設：施設外装",
+		rarity = 3,
 		display = "温泉施設建設に必要な竹の外装。本当の竹ではないがその見た目と香りを忠実に再現しており、一風変わった優雅なる雰囲気を醸し出す",
 		id = 12,
 		icon = "workbench_item_12",
@@ -142,8 +142,8 @@ pg.activity_workbench_item = {
 		}
 	},
 	[13] = {
-		rarity = 3,
 		name = "温泉施設：入浴セット",
+		rarity = 3,
 		display = "温泉施設建設に必要な入浴セット。桶にタオル、そして数々の備品で快適な入浴タイムを提供してくれる",
 		id = 13,
 		icon = "workbench_item_13",
@@ -153,8 +153,8 @@ pg.activity_workbench_item = {
 		}
 	},
 	[14] = {
-		rarity = 4,
 		name = "特別招待状",
+		rarity = 4,
 		display = "母港宴会の招待状。艦船に贈って豪華報酬を手に入れよう！",
 		id = 14,
 		icon = "yanhuiyaoyue_1",
@@ -164,8 +164,8 @@ pg.activity_workbench_item = {
 		}
 	},
 	[15] = {
-		rarity = 4,
 		name = "宴会の贈り物",
+		rarity = 4,
 		display = "パーティーの記念アイテム。楽しい一時を思い出させる",
 		id = 15,
 		icon = "yanhuiyaoyue_2",

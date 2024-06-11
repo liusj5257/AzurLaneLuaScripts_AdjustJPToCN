@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN9",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "장기판 경기장·아카기 통제 구역 제3 라운드",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg5",
 			say = "걷히는 해무 사건의 촉발 알림과 함께 장기판 내 모든 물 위로 짙은 바다 안개가 피어올랐다.",
 			typewriter = {
@@ -46,17 +46,17 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#A9F548FF",
 			say = "우와! 안개예요…! 무, 무슨 일이 일어난 거지!?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,8 +178,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "경기장의 우린 사건 카드의 구체적인 효과를 알 수 없지만, 이 카드는 아카기가 설정한 것이기 때문에 내가 잘 알고 있거든.",
 			painting = {
@@ -211,8 +211,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "방해 효과가 사라지는 건 반가운 소식이네요. 방해로 인해 먼길을 돌아가지 않아도 되니까요.",
 			painting = {
@@ -244,8 +244,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "그렇다고 방심하는 건 금지야. 자신의 행동이 끝난 뒤엔 반드시 비어있는 해역 칸에 있어야 해.",
 			painting = {
@@ -261,8 +261,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "경기장의 선수로서 아카기님의 명령에 따르면 그만이지.",
 			painting = {
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "장군의 명령에 따라야 하는 룰은 장군이 아직 경기장에 입장하지 않았을 때만 적용되거든.",
 			painting = {
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "만약 장군이 장기판 경기장 안으로 들어온다면 상황이 조금은 달라질 거야….",
 			painting = {
@@ -344,8 +344,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "내가 볼 땐 언니가 곧 경기장에 들어와서 한바탕 소란을 일으킬 것 같거든. 그렇게 되면 상황이 많이 달라질 테니까….",
 			painting = {

@@ -1,6 +1,6 @@
 slot0 = class("ActivityPuzzlePicecOPCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().id or 0
 	slot4 = slot2.cmd
 	slot6 = slot2.callback

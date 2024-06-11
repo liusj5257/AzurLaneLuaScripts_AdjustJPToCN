@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA19",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900193,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Baltimore?",
 			dir = 1,
-			say = "……",
 			bgm = "battle-boss-4",
+			actor = 900193,
+			actorName = "Baltimore?",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,9 +42,9 @@ return {
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 0,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "Accursed puppet, sink to the bottom of the sea along with your nasty creators!",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Sorry, I thought I heard a voice in my head. It's probably just my imagination...",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "It's true... Just being here is making my chest feel uncomfortable.",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Sometimes I feel like something is probing inside my head, whispering...",
 			typewriter = {
 				speed = 0.05,
@@ -158,10 +158,10 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "Ah, Commander, perhaps you've been bewitched by a Siren's song? In that case, Sara will bring you to your senses with a song of her own!",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "For their sake, I can endure much more than this.",
 			typewriter = {
 				speed = 0.05,

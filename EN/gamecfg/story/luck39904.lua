@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK39904",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK39904",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399040,
 			dir = 1,
+			actor = 399040,
 			say = "I'm both honored and delighted that you've been with me on every step of this journey.",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 399040,
 			dir = 1,
+			actor = 399040,
 			say = "As long as you're happy with me, I will remain by your side, through thick and thin.",
 			typewriter = {
 				speed = 0.05,

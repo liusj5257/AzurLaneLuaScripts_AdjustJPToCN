@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_132 = {}
 slot1 = slot0.word_template_132
 
-function temp()
+temp = function()
 	uv0["针"] = {
 		["孔"] = {
 			["偷"] = {
@@ -34,7 +34,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["拳"] = {
 		["交"] = {
 			this = true
@@ -44,7 +44,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["迫"] = {
 		["奸"] = {
 			this = true
@@ -54,7 +54,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["北"] = {
 		["京"] = {
 			x = {

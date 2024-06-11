@@ -4,22 +4,22 @@ slot2 = 1
 slot3 = 2
 slot4 = 3
 
-function slot0.forceGC(slot0)
+slot0.forceGC = function(slot0)
 	return true
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LevelMainScene"
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return {
 		showType = PlayerResUI.TYPE_ALL,
 		groupName = LayerWeightConst.GROUP_LEVELUI
 	}
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	for slot6, slot7 in ipairs({
 		(function ()
 			return checkExist(uv0.contextData.chapterVO, {
@@ -64,7 +64,7 @@ slot0.optionsPath = {
 	"top/top_chapter/option"
 }
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	slot2 = getProxy(ChapterProxy)
 
 	if slot0.contextData.mapIdx and slot0.contextData.chapterId and slot2:getChapterById(slot0.contextData.chapterId):getConfig("map") == slot0.contextData.mapIdx then
@@ -90,7 +90,7 @@ function slot0.preload(slot0, slot1)
 	end
 end
 
-function slot0.GetInitializeMap(slot0)
+slot0.GetInitializeMap = function(slot0)
 	if (function ()
 		if uv0.contextData.chapterVO and slot0.active then
 			return slot0:getConfig("map")
@@ -128,14 +128,14 @@ function slot0.GetInitializeMap(slot0)
 	return slot2 or slot0:selectMap(), tobool(slot2)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:initEvents()
 	slot0:updateClouds()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.tweens = {}
 	slot0.mapWidth = 1920
 	slot0.mapHeight = 1440
@@ -151,7 +151,7 @@ function slot0.initData(slot0)
 	end
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.topPanel = slot0:findTF("top")
 	slot0.canvasGroup = slot0.topPanel:GetComponent("CanvasGroup")
 	slot0.canvasGroup.blocksRaycasts = not slot0.canvasGroup.blocksRaycasts
@@ -332,7 +332,7 @@ function slot0.initUI(slot0)
 	slot0.levelRemasterView = LevelRemasterView.New(slot0.topPanel, slot0.event, slot0.contextData)
 end
 
-function slot0.initEvents(slot0)
+slot0.initEvents = function(slot0)
 	slot0:bind(LevelUIConst.OPEN_COMMANDER_PANEL, function (slot0, slot1, slot2, slot3)
 		uv0:openCommanderPanel(slot1, slot2, slot3)
 	end)
@@ -384,7 +384,7 @@ function slot0.initEvents(slot0)
 	end)
 end
 
-function slot0.addbubbleMsgBox(slot0, slot1)
+slot0.addbubbleMsgBox = function(slot0, slot1)
 	table.insert(slot0.bubbleMsgBoxes, slot1)
 
 	if #slot0.bubbleMsgBoxes > 1 then
@@ -403,17 +403,17 @@ function slot0.addbubbleMsgBox(slot0, slot1)
 	end)()
 end
 
-function slot0.CleanBubbleMsgbox(slot0)
+slot0.CleanBubbleMsgbox = function(slot0)
 	table.clean(slot0.bubbleMsgBoxes)
 end
 
-function slot0.updatePtActivity(slot0, slot1)
+slot0.updatePtActivity = function(slot0, slot1)
 	slot0.ptActivity = slot1
 
 	slot0:updateActivityRes()
 end
 
-function slot0.updateActivityRes(slot0)
+slot0.updateActivityRes = function(slot0)
 	slot2 = findTF(slot0.ptTotal, "icon/Image")
 
 	if findTF(slot0.ptTotal, "Text") and slot2 and slot0.ptActivity then
@@ -425,11 +425,11 @@ function slot0.updateActivityRes(slot0)
 	end
 end
 
-function slot0.setCommanderPrefabs(slot0, slot1)
+slot0.setCommanderPrefabs = function(slot0, slot1)
 	slot0.commanderPrefabs = slot1
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.openedCommanerSystem = not LOCK_COMMANDER and pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "CommanderCatMediator")
 
 	onButton(slot0, slot0:findTF("back_button", slot0.topChapter), function ()
@@ -676,11 +676,11 @@ function slot0.didEnter(slot0)
 	slot0:emit(LevelMediator2.ON_DIDENTER)
 end
 
-function slot0.checkChallengeOpen(slot0)
+slot0.checkChallengeOpen = function(slot0)
 	return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "ChallengeMainMediator")
 end
 
-function slot0.tryPlaySubGuide(slot0)
+slot0.tryPlaySubGuide = function(slot0)
 	if slot0.contextData.map and slot0.contextData.map:isSkirmish() then
 		return
 	end
@@ -688,7 +688,7 @@ function slot0.tryPlaySubGuide(slot0)
 	pg.SystemGuideMgr.GetInstance():Play(slot0)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0:isfrozen() then
 		return
 	end
@@ -746,7 +746,7 @@ function slot0.onBackPressed(slot0)
 	triggerButton(slot0:findTF("back_button", slot0.topChapter))
 end
 
-function slot0.ShowEntranceUI(slot0, slot1)
+slot0.ShowEntranceUI = function(slot0, slot1)
 	setActive(slot0.entranceLayer, slot1)
 	setActive(slot0.entranceBg, slot1)
 	setActive(slot0.map, not slot1)
@@ -777,7 +777,7 @@ function slot0.ShowEntranceUI(slot0, slot1)
 	slot0:PlayBGM()
 end
 
-function slot0.PreloadLevelMainUI(slot0, slot1, slot2)
+slot0.PreloadLevelMainUI = function(slot0, slot1, slot2)
 	if slot0.preloadLevelDone then
 		existCall(slot2)
 
@@ -798,15 +798,15 @@ function slot0.PreloadLevelMainUI(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.selectMap(slot0)
+slot0.selectMap = function(slot0)
 	return slot0.contextData.mapIdx or (not Map.lastMap or not getProxy(ChapterProxy):getMapById(Map.lastMap) or not slot3:isUnlock() or Map.lastMap) and slot2:getLastUnlockMap().id
 end
 
-function slot0.setShips(slot0, slot1)
+slot0.setShips = function(slot0, slot1)
 	slot0.shipVOs = slot1
 end
 
-function slot0.updateRes(slot0, slot1)
+slot0.updateRes = function(slot0, slot1)
 	if slot0.levelStageView then
 		slot0.levelStageView:ActionInvoke("SetPlayer", slot1)
 	end
@@ -814,7 +814,7 @@ function slot0.updateRes(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.setEliteQuota(slot0, slot1, slot2)
+slot0.setEliteQuota = function(slot0, slot1, slot2)
 	slot3 = slot2 - slot1
 	slot5 = slot0:findTF("bg/Text", slot0.eliteQuota):GetComponent(typeof(Text))
 
@@ -827,18 +827,18 @@ function slot0.setEliteQuota(slot0, slot1, slot2)
 	slot5.text = slot3 .. "/" .. slot2
 end
 
-function slot0.updateEvent(slot0, slot1)
+slot0.updateEvent = function(slot0, slot1)
 	slot2 = slot1:hasFinishState()
 
 	setActive(slot0.btnSpecial:Find("tip"), slot2)
 	setActive(slot0.entranceLayer:Find("btns/btn_task/tip"), slot2)
 end
 
-function slot0.updateFleet(slot0, slot1)
+slot0.updateFleet = function(slot0, slot1)
 	slot0.fleets = slot1
 end
 
-function slot0.updateChapterVO(slot0, slot1, slot2)
+slot0.updateChapterVO = function(slot0, slot1, slot2)
 	slot3 = slot1:getConfig("map")
 
 	if not slot0.contextData.chapterVO and slot0.contextData.mapIdx == slot3 and bit.band(slot2, ChapterConst.DirtyMapItems) > 0 then
@@ -948,7 +948,7 @@ function slot0.updateChapterVO(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateClouds(slot0)
+slot0.updateClouds = function(slot0)
 	slot0.cloudRTFs = {}
 	slot0.cloudRects = {}
 	slot0.cloudTimer = {}
@@ -976,17 +976,17 @@ function slot0.updateClouds(slot0)
 	end
 end
 
-function slot0.RefreshMapBG(slot0)
+slot0.RefreshMapBG = function(slot0)
 	slot0:PlayBGM()
 	slot0:SwitchMapBG(slot0.contextData.map, slot0.lastMapIdx, true)
 end
 
-function slot0.updateCouldAnimator(slot0, slot1, slot2)
+slot0.updateCouldAnimator = function(slot0, slot1, slot2)
 	if slot1 then
 		slot3 = slot0.contextData.map
 		slot4 = slot3:getConfig("ani_controller")
 
-		function slot5(slot0)
+		slot5 = function(slot0)
 			slot1 = Vector3.one
 
 			if tf(slot0).rect.width > 0 and slot0.rect.height > 0 then
@@ -1042,7 +1042,7 @@ function slot0.updateCouldAnimator(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateMapItems(slot0)
+slot0.updateMapItems = function(slot0)
 	if slot0.contextData.map:getConfig("cloud_suffix") == "" then
 		setActive(slot0.clouds, false)
 	else
@@ -1070,14 +1070,14 @@ function slot0.updateMapItems(slot0)
 	slot0.mapBuilder.buffer:UpdateMapItems(slot1)
 end
 
-function slot0.updateDifficultyBtns(slot0)
+slot0.updateDifficultyBtns = function(slot0)
 	setActive(slot0.normalBtn, slot0.contextData.map:getConfig("type") == Map.ELITE)
 	setActive(slot0.eliteQuota, slot2 == Map.ELITE)
 	setActive(slot0.eliteBtn, slot2 == Map.SCENARIO)
 	setActive(slot0.eliteBtn:Find("pic_activity"), getProxy(ActivityProxy):getActivityById(ActivityConst.ELITE_AWARD_ACTIVITY_ID) and not slot4:isEnd())
 end
 
-function slot0.updateActivityBtns(slot0)
+slot0.updateActivityBtns = function(slot0)
 	slot1, slot2 = slot0.contextData.map:isActivity()
 	slot3 = slot0.contextData.map:isRemaster()
 	slot6 = slot0.contextData.map:getConfig("type")
@@ -1150,26 +1150,26 @@ function slot0.updateActivityBtns(slot0)
 	end
 end
 
-function slot0.updateRemasterTicket(slot0)
+slot0.updateRemasterTicket = function(slot0)
 	setText(slot0.ticketTxt, getProxy(ChapterProxy).remasterTickets .. " / " .. pg.gameset.reactivity_ticket_max.key_value)
 	slot0:emit(LevelUIConst.FLUSH_REMASTER_TICKET)
 end
 
-function slot0.updateRemasterBtnTip(slot0)
+slot0.updateRemasterBtnTip = function(slot0)
 	slot2 = getProxy(ChapterProxy):ifShowRemasterTip() or slot1:anyRemasterAwardCanReceive()
 
 	SetActive(slot0.remasterBtn:Find("tip"), slot2)
 	SetActive(slot0.entranceLayer:Find("btns/btn_remaster/tip"), slot2)
 end
 
-function slot0.updatDailyBtnTip(slot0)
+slot0.updatDailyBtnTip = function(slot0)
 	slot2 = getProxy(DailyLevelProxy):ifShowDailyTip()
 
 	SetActive(slot0.dailyBtn:Find("tip"), slot2)
 	SetActive(slot0.entranceLayer:Find("btns/btn_daily/tip"), slot2)
 end
 
-function slot0.updateRemasterInfo(slot0)
+slot0.updateRemasterInfo = function(slot0)
 	slot0:emit(LevelUIConst.FLUSH_REMASTER_INFO)
 
 	if not slot0.contextData.map then
@@ -1237,7 +1237,7 @@ function slot0.updateRemasterInfo(slot0)
 	end
 end
 
-function slot0.updateCountDown(slot0)
+slot0.updateCountDown = function(slot0)
 	slot1 = getProxy(ChapterProxy)
 
 	if slot0.newChapterCDTimer then
@@ -1287,7 +1287,7 @@ function slot0.updateCountDown(slot0)
 	end
 end
 
-function slot0.registerActBtn(slot0)
+slot0.registerActBtn = function(slot0)
 	if slot0.isRegisterBtn then
 		return
 	end
@@ -1325,7 +1325,7 @@ function slot0.registerActBtn(slot0)
 
 	slot1 = getProxy(ChapterProxy)
 
-	function slot2(slot0, slot1, slot2)
+	slot2 = function(slot0, slot1, slot2)
 		slot3 = nil
 		slot3 = _.select((not slot0:isRemaster() or uv0:getRemasterMaps(slot0.remasterId)) and uv0:getMapsByActivities(), function (slot0)
 			return slot0:getMapType() == uv0
@@ -1350,7 +1350,7 @@ function slot0.registerActBtn(slot0)
 		return slot3[slot4]
 	end
 
-	function slot3()
+	slot3 = function()
 		if uv0:isfrozen() then
 			return
 		end
@@ -1394,7 +1394,7 @@ function slot0.registerActBtn(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.initCloudsPos(slot0, slot1)
+slot0.initCloudsPos = function(slot0, slot1)
 	slot0.initPositions = {}
 	slot3 = pg.expedition_data_by_map[slot1 or 1].clouds_pos
 
@@ -1409,7 +1409,7 @@ function slot0.initCloudsPos(slot0, slot1)
 	end
 end
 
-function slot0.initMapBtn(slot0, slot1, slot2)
+slot0.initMapBtn = function(slot0, slot1, slot2)
 	onButton(slot0, slot1, function ()
 		if uv0:isfrozen() then
 			return
@@ -1437,7 +1437,7 @@ function slot0.initMapBtn(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.ShowSelectedMap(slot0, slot1, slot2)
+slot0.ShowSelectedMap = function(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
 			if uv0.contextData.entranceStatus then
@@ -1467,7 +1467,7 @@ function slot0.ShowSelectedMap(slot0, slot1, slot2)
 	}, slot2)
 end
 
-function slot0.setMap(slot0, slot1)
+slot0.setMap = function(slot0, slot1)
 	slot0.lastMapIdx = slot0.contextData.mapIdx
 	slot0.contextData.mapIdx = slot1
 	slot0.contextData.map = getProxy(ChapterProxy):getMapById(slot1)
@@ -1499,7 +1499,7 @@ slot6 = {
 	[slot5.TYPESENRANKAGURA] = "MapBuilderSenrankagura"
 }
 
-function slot0.SwitchMapBuilder(slot0, slot1)
+slot0.SwitchMapBuilder = function(slot0, slot1)
 	if slot0.mapBuilder and slot0.mapBuilder:GetType() ~= slot1 then
 		slot0.mapBuilder.buffer:Hide()
 	end
@@ -1511,7 +1511,7 @@ function slot0.SwitchMapBuilder(slot0, slot1)
 	slot2.buffer:ShowButtons()
 end
 
-function slot0.GetMapBuilderInBuffer(slot0, slot1)
+slot0.GetMapBuilderInBuffer = function(slot0, slot1)
 	if not slot0.mbDict[slot1] then
 		slot0.mbDict[slot1] = _G[uv0[slot1] or uv0.default].New(slot0._tf, slot0)
 		slot0.mbDict[slot1].isFrozen = slot0:isfrozen()
@@ -1522,11 +1522,11 @@ function slot0.GetMapBuilderInBuffer(slot0, slot1)
 	return slot0.mbDict[slot1]
 end
 
-function slot0.JudgeMapBuilderType(slot0)
+slot0.JudgeMapBuilderType = function(slot0)
 	return slot0.contextData.map:getConfig("ui_type")
 end
 
-function slot0.updateMap(slot0)
+slot0.updateMap = function(slot0)
 	slot1 = slot0.contextData.map
 
 	slot0:SwitchMapBG(slot1, slot0.lastMapIdx)
@@ -1557,7 +1557,7 @@ function slot0.updateMap(slot0)
 	end
 end
 
-function slot0.UpdateSwitchMapButton(slot0)
+slot0.UpdateSwitchMapButton = function(slot0)
 	slot1 = slot0.contextData.map
 	slot2 = getProxy(ChapterProxy)
 	slot3 = slot2:getMapById(slot1.id - 1)
@@ -1571,7 +1571,7 @@ function slot0.UpdateSwitchMapButton(slot0)
 	setImageColor(slot0.btnNextCol, slot4 and slot4:isUnlock() and Color.white or slot5)
 end
 
-function slot0.TrySwitchChapter(slot0, slot1)
+slot0.TrySwitchChapter = function(slot0, slot1)
 	if getProxy(ChapterProxy):getActiveChapter() then
 		if slot3.id == slot1.id then
 			slot0:switchToChapter(slot3)
@@ -1583,7 +1583,7 @@ function slot0.TrySwitchChapter(slot0, slot1)
 	end
 end
 
-function slot0.updateChapterTF(slot0, slot1)
+slot0.updateChapterTF = function(slot0, slot1)
 	if not slot0.mapBuilder.UpdateChapterTF then
 		return
 	end
@@ -1591,7 +1591,7 @@ function slot0.updateChapterTF(slot0, slot1)
 	slot0.mapBuilder.buffer:UpdateChapterTF(slot1)
 end
 
-function slot0.tryPlayMapStory(slot0)
+slot0.tryPlayMapStory = function(slot0)
 	if IsUnityEditor and not ENABLE_GUIDE then
 		return
 	end
@@ -1647,10 +1647,10 @@ function slot0.tryPlayMapStory(slot0)
 	})
 end
 
-function slot0.DisplaySPAnim(slot0, slot1, slot2, slot3)
+slot0.DisplaySPAnim = function(slot0, slot1, slot2, slot3)
 	slot0.uiAnims = slot0.uiAnims or {}
 
-	function slot5()
+	slot5 = function()
 		uv0.playing = true
 
 		uv0:frozen()
@@ -1691,7 +1691,7 @@ function slot0.DisplaySPAnim(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.displaySpResult(slot0, slot1, slot2)
+slot0.displaySpResult = function(slot0, slot1, slot2)
 	setActive(slot0.spResult, true)
 	slot0:DisplaySPAnim(slot1 == 1 and "SpUnitWin" or "SpUnitLose", function (slot0)
 		onButton(uv0, slot0, function ()
@@ -1704,11 +1704,11 @@ function slot0.displaySpResult(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.hideSpResult(slot0)
+slot0.hideSpResult = function(slot0)
 	setActive(slot0.spResult, false)
 end
 
-function slot0.displayBombResult(slot0, slot1)
+slot0.displayBombResult = function(slot0, slot1)
 	setActive(slot0.spResult, true)
 	slot0:DisplaySPAnim("SpBombRet", function (slot0)
 		onButton(uv0, slot0, function ()
@@ -1723,8 +1723,8 @@ function slot0.displayBombResult(slot0, slot1)
 	end)
 end
 
-function slot0.displayChapterPanel(slot0, slot1, slot2)
-	function slot3(slot0)
+slot0.displayChapterPanel = function(slot0, slot1, slot2)
+	slot3 = function(slot0)
 		if uv0.player:getMaxShipBag() <= getProxy(BayProxy):getShipCount() then
 			NoPosMsgBox(i18n("switch_to_shop_tip_noDockyard"), openDockyardClear, gotoChargeScene, openDockyardIntensify)
 
@@ -1746,7 +1746,7 @@ function slot0.displayChapterPanel(slot0, slot1, slot2)
 		end
 	end
 
-	function slot4()
+	slot4 = function()
 		uv0:hideChapterPanel()
 	end
 
@@ -1762,19 +1762,19 @@ function slot0.displayChapterPanel(slot0, slot1, slot2)
 	slot0.levelInfoView:ActionInvoke("Show")
 end
 
-function slot0.hideChapterPanel(slot0)
+slot0.hideChapterPanel = function(slot0)
 	if slot0.levelInfoView:isShowing() then
 		slot0.levelInfoView:ActionInvoke("Hide")
 	end
 end
 
-function slot0.destroyChapterPanel(slot0)
+slot0.destroyChapterPanel = function(slot0)
 	slot0.levelInfoView:Destroy()
 
 	slot0.levelInfoView = nil
 end
 
-function slot0.displayFleetSelect(slot0, slot1)
+slot0.displayFleetSelect = function(slot0, slot1)
 	slot1 = Clone(slot1)
 	slot1.loopFlag = slot0.contextData.chapterLoopFlag
 
@@ -1786,7 +1786,7 @@ function slot0.displayFleetSelect(slot0, slot1)
 	slot0.levelFleetView:ActionInvoke("Show")
 end
 
-function slot0.hideFleetSelect(slot0)
+slot0.hideFleetSelect = function(slot0)
 	if slot0.levelCMDFormationView:isShowing() then
 		slot0.levelCMDFormationView:Hide()
 	end
@@ -1796,11 +1796,11 @@ function slot0.hideFleetSelect(slot0)
 	end
 end
 
-function slot0.buildCommanderPanel(slot0)
+slot0.buildCommanderPanel = function(slot0)
 	slot0.levelCMDFormationView = LevelCMDFormationView.New(slot0.topPanel, slot0.event, slot0.contextData)
 end
 
-function slot0.destroyFleetSelect(slot0)
+slot0.destroyFleetSelect = function(slot0)
 	if not slot0.levelFleetView then
 		return
 	end
@@ -1810,7 +1810,7 @@ function slot0.destroyFleetSelect(slot0)
 	slot0.levelFleetView = nil
 end
 
-function slot0.displayFleetEdit(slot0, slot1)
+slot0.displayFleetEdit = function(slot0, slot1)
 	slot1 = Clone(slot1)
 	slot1.loopFlag = slot0.contextData.chapterLoopFlag
 
@@ -1822,15 +1822,15 @@ function slot0.displayFleetEdit(slot0, slot1)
 	slot0.levelFleetView:ActionInvoke("Show")
 end
 
-function slot0.hideFleetEdit(slot0)
+slot0.hideFleetEdit = function(slot0)
 	slot0:hideFleetSelect()
 end
 
-function slot0.destroyFleetEdit(slot0)
+slot0.destroyFleetEdit = function(slot0)
 	slot0:destroyFleetSelect()
 end
 
-function slot0.RefreshFleetSelectView(slot0, slot1)
+slot0.RefreshFleetSelectView = function(slot0, slot1)
 	if not slot0.levelFleetView then
 		return
 	end
@@ -1858,7 +1858,7 @@ function slot0.RefreshFleetSelectView(slot0, slot1)
 	end
 end
 
-function slot0.setChapter(slot0, slot1)
+slot0.setChapter = function(slot0, slot1)
 	slot2 = nil
 
 	if slot1 then
@@ -1869,7 +1869,7 @@ function slot0.setChapter(slot0, slot1)
 	slot0.contextData.chapterVO = slot1
 end
 
-function slot0.switchToChapter(slot0, slot1)
+slot0.switchToChapter = function(slot0, slot1)
 	if slot0.contextData.mapIdx ~= slot1:getConfig("map") then
 		slot0:setMap(slot1:getConfig("map"))
 	end
@@ -2043,7 +2043,7 @@ function slot0.switchToChapter(slot0, slot1)
 	slot0.levelStageView:ActionInvoke("SwitchToChapter", slot1)
 end
 
-function slot0.switchToMap(slot0, slot1)
+slot0.switchToMap = function(slot0, slot1)
 	slot0:frozen()
 	slot0:destroyGrid()
 	LeanTween.cancel(go(slot0.map))
@@ -2102,7 +2102,7 @@ function slot0.switchToMap(slot0, slot1)
 	end
 end
 
-function slot0.SwitchBG(slot0, slot1, slot2, slot3)
+slot0.SwitchBG = function(slot0, slot1, slot2, slot3)
 	if not slot1 or #slot1 <= 0 then
 		existCall(slot2)
 
@@ -2166,7 +2166,7 @@ slot9 = {
 	1420011
 }
 
-function slot0.ClearMapTransitions(slot0)
+slot0.ClearMapTransitions = function(slot0)
 	if not slot0.mapTransitions then
 		return
 	end
@@ -2182,7 +2182,7 @@ function slot0.ClearMapTransitions(slot0)
 	slot0.mapTransitions = nil
 end
 
-function slot0.SwitchMapBG(slot0, slot1, slot2, slot3)
+slot0.SwitchMapBG = function(slot0, slot1, slot2, slot3)
 	slot4, slot5, slot6 = slot0:GetMapBG(slot1, slot2)
 
 	if not slot5 then
@@ -2196,7 +2196,7 @@ function slot0.SwitchMapBG(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.GetMapBG(slot0, slot1, slot2)
+slot0.GetMapBG = function(slot0, slot1, slot2)
 	if not table.contains(uv0, slot1.id) then
 		return {
 			slot0:GetMapElement(slot1)
@@ -2271,7 +2271,7 @@ function slot0.GetMapBG(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetMapElement(slot0, slot1)
+slot0.GetMapElement = function(slot0, slot1)
 	slot2 = slot1:getConfig("bg")
 
 	if slot1:getConfig("ani_controller") and #slot3 > 0 then
@@ -2297,7 +2297,7 @@ function slot0.GetMapElement(slot0, slot1)
 	}
 end
 
-function slot0.GetMapAnimator(slot0, slot1)
+slot0.GetMapAnimator = function(slot0, slot1)
 	slot2 = slot1:getConfig("ani_name")
 
 	if slot1:getConfig("animtor") == 1 and slot2 and #slot2 > 0 then
@@ -2319,11 +2319,11 @@ function slot0.GetMapAnimator(slot0, slot1)
 	end
 end
 
-function slot0.PlayMapTransition(slot0, slot1, slot2, slot3, slot4)
+slot0.PlayMapTransition = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.mapTransitions = slot0.mapTransitions or {}
 	slot5 = nil
 
-	function slot6()
+	slot6 = function()
 		uv0:frozen()
 		existCall(uv1, uv2)
 		uv2:SetActive(true)
@@ -2353,7 +2353,7 @@ function slot0.PlayMapTransition(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot0.DestroyLevelStageView(slot0)
+slot0.DestroyLevelStageView = function(slot0)
 	if slot0.levelStageView then
 		slot0.levelStageView:Destroy()
 
@@ -2361,14 +2361,14 @@ function slot0.DestroyLevelStageView(slot0)
 	end
 end
 
-function slot0.displayAmbushInfo(slot0, slot1)
+slot0.displayAmbushInfo = function(slot0, slot1)
 	slot0.levelAmbushView = LevelAmbushView.New(slot0.topPanel, slot0.event, slot0.contextData)
 
 	slot0.levelAmbushView:Load()
 	slot0.levelAmbushView:ActionInvoke("SetFuncOnComplete", slot1)
 end
 
-function slot0.hideAmbushInfo(slot0)
+slot0.hideAmbushInfo = function(slot0)
 	if slot0.levelAmbushView then
 		slot0.levelAmbushView:Destroy()
 
@@ -2376,10 +2376,10 @@ function slot0.hideAmbushInfo(slot0)
 	end
 end
 
-function slot0.doAmbushWarning(slot0, slot1)
+slot0.doAmbushWarning = function(slot0, slot1)
 	slot0:frozen()
 
-	function slot2()
+	slot2 = function()
 		uv0.ambushWarning:SetActive(true)
 
 		slot0 = tf(uv0.ambushWarning)
@@ -2417,7 +2417,7 @@ function slot0.doAmbushWarning(slot0, slot1)
 	end
 end
 
-function slot0.destroyAmbushWarn(slot0)
+slot0.destroyAmbushWarn = function(slot0)
 	if slot0.ambushWarning then
 		PoolMgr.GetInstance():ReturnUI("ambushwarnui", slot0.ambushWarning)
 
@@ -2425,7 +2425,7 @@ function slot0.destroyAmbushWarn(slot0)
 	end
 end
 
-function slot0.displayStrategyInfo(slot0, slot1)
+slot0.displayStrategyInfo = function(slot0, slot1)
 	slot0.levelStrategyView = LevelStrategyView.New(slot0.topPanel, slot0.event, slot0.contextData)
 	slot2 = slot0.levelStrategyView
 
@@ -2466,7 +2466,7 @@ function slot0.displayStrategyInfo(slot0, slot1)
 	end)
 end
 
-function slot0.hideStrategyInfo(slot0)
+slot0.hideStrategyInfo = function(slot0)
 	if slot0.levelStrategyView then
 		slot0.levelStrategyView:Destroy()
 
@@ -2474,7 +2474,7 @@ function slot0.hideStrategyInfo(slot0)
 	end
 end
 
-function slot0.displayRepairWindow(slot0, slot1)
+slot0.displayRepairWindow = function(slot0, slot1)
 	slot2 = slot0.contextData.chapterVO
 	slot4, slot5, slot6, slot7 = nil
 	slot8, slot9, slot10 = ChapterConst.GetRepairParams()
@@ -2507,7 +2507,7 @@ function slot0.displayRepairWindow(slot0, slot1)
 	end)
 end
 
-function slot0.hideRepairWindow(slot0)
+slot0.hideRepairWindow = function(slot0)
 	if slot0.levelRepairView then
 		slot0.levelRepairView:Destroy()
 
@@ -2515,7 +2515,7 @@ function slot0.hideRepairWindow(slot0)
 	end
 end
 
-function slot0.displayRemasterPanel(slot0, slot1)
+slot0.displayRemasterPanel = function(slot0, slot1)
 	slot2 = slot0.levelRemasterView
 
 	slot2:Load()
@@ -2531,13 +2531,13 @@ function slot0.displayRemasterPanel(slot0, slot1)
 	end, slot1)
 end
 
-function slot0.hideRemasterPanel(slot0)
+slot0.hideRemasterPanel = function(slot0)
 	if slot0.levelRemasterView:isShowing() then
 		slot0.levelRemasterView:ActionInvoke("Hide")
 	end
 end
 
-function slot0.initGrid(slot0, slot1)
+slot0.initGrid = function(slot0, slot1)
 	if not slot0.contextData.chapterVO then
 		return
 	end
@@ -2558,14 +2558,14 @@ function slot0.initGrid(slot0, slot1)
 	slot0.grid:ExtendItem("arrowTpl", slot0.arrowTarget)
 	slot0.grid:ExtendItem("destinationMarkTpl", slot0.destinationMarkTpl)
 
-	function slot0.grid.onShipStepChange(slot0)
+	slot0.grid.onShipStepChange = function(slot0)
 		uv0.levelStageView:updateAmbushRate(slot0)
 	end
 
 	slot0.grid:initAll(slot1)
 end
 
-function slot0.destroyGrid(slot0)
+slot0.destroyGrid = function(slot0)
 	if slot0.grid then
 		slot0.grid:detach()
 
@@ -2577,10 +2577,10 @@ function slot0.destroyGrid(slot0)
 	end
 end
 
-function slot0.doTracking(slot0, slot1)
+slot0.doTracking = function(slot0, slot1)
 	slot0:frozen()
 
-	function slot2()
+	slot2 = function()
 		uv0.radar:SetActive(true)
 
 		slot0 = tf(uv0.radar)
@@ -2610,7 +2610,7 @@ function slot0.doTracking(slot0, slot1)
 	end
 end
 
-function slot0.destroyTracking(slot0)
+slot0.destroyTracking = function(slot0)
 	if slot0.radar then
 		PoolMgr.GetInstance():ReturnUI("RadarEffectUI", slot0.radar)
 
@@ -2618,8 +2618,8 @@ function slot0.destroyTracking(slot0)
 	end
 end
 
-function slot0.doPlayAirStrike(slot0, slot1, slot2, slot3)
-	function slot4()
+slot0.doPlayAirStrike = function(slot0, slot1, slot2, slot3)
+	slot4 = function()
 		uv0.playing = true
 
 		uv0:frozen()
@@ -2667,7 +2667,7 @@ function slot0.doPlayAirStrike(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.destroyAirStrike(slot0)
+slot0.destroyAirStrike = function(slot0)
 	if slot0.airStrike then
 		slot0.airStrike:GetComponent("DftAniEvent"):SetEndEvent(nil)
 		PoolMgr.GetInstance():ReturnUI("AirStrike", slot0.airStrike)
@@ -2676,10 +2676,10 @@ function slot0.destroyAirStrike(slot0)
 	end
 end
 
-function slot0.doPlayAnim(slot0, slot1, slot2, slot3)
+slot0.doPlayAnim = function(slot0, slot1, slot2, slot3)
 	slot0.uiAnims = slot0.uiAnims or {}
 
-	function slot5()
+	slot5 = function()
 		uv0.playing = true
 
 		uv0:frozen()
@@ -2722,7 +2722,7 @@ function slot0.doPlayAnim(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.destroyUIAnims(slot0)
+slot0.destroyUIAnims = function(slot0)
 	if slot0.uiAnims then
 		for slot4, slot5 in pairs(slot0.uiAnims) do
 			pg.UIMgr.GetInstance():UnOverlayPanel(tf(slot5), slot0._tf)
@@ -2734,8 +2734,8 @@ function slot0.destroyUIAnims(slot0)
 	end
 end
 
-function slot0.doPlayTorpedo(slot0, slot1)
-	function slot2()
+slot0.doPlayTorpedo = function(slot0, slot1)
+	slot2 = function()
 		uv0.playing = true
 
 		uv0:frozen()
@@ -2774,7 +2774,7 @@ function slot0.doPlayTorpedo(slot0, slot1)
 	end
 end
 
-function slot0.destroyTorpedo(slot0)
+slot0.destroyTorpedo = function(slot0)
 	if slot0.torpetoAni then
 		slot0.torpetoAni:GetComponent("DftAniEvent"):SetEndEvent(nil)
 		PoolMgr.GetInstance():ReturnUI("Torpeto", slot0.torpetoAni)
@@ -2783,11 +2783,11 @@ function slot0.destroyTorpedo(slot0)
 	end
 end
 
-function slot0.doPlayStrikeAnim(slot0, slot1, slot2, slot3)
+slot0.doPlayStrikeAnim = function(slot0, slot1, slot2, slot3)
 	slot0.strikeAnims = slot0.strikeAnims or {}
 	slot4, slot5, slot6 = nil
 
-	function slot7()
+	slot7 = function()
 		if coroutine.status(uv0) == "suspended" then
 			slot0, slot1 = coroutine.resume(uv0)
 
@@ -2858,7 +2858,7 @@ function slot0.doPlayStrikeAnim(slot0, slot1, slot2, slot3)
 		end
 	end)
 
-	function slot8()
+	slot8 = function()
 		if uv0.strikeAnims[uv1] and uv2 and uv3 then
 			uv4()
 		end
@@ -2888,7 +2888,7 @@ function slot0.doPlayStrikeAnim(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.destroyStrikeAnim(slot0)
+slot0.destroyStrikeAnim = function(slot0)
 	if slot0.strikeAnims then
 		for slot4, slot5 in pairs(slot0.strikeAnims) do
 			slot5:GetComponent("DftAniEvent"):SetEndEvent(nil)
@@ -2899,11 +2899,11 @@ function slot0.destroyStrikeAnim(slot0)
 	end
 end
 
-function slot0.doPlayEnemyAnim(slot0, slot1, slot2, slot3)
+slot0.doPlayEnemyAnim = function(slot0, slot1, slot2, slot3)
 	slot0.strikeAnims = slot0.strikeAnims or {}
 	slot4, slot5 = nil
 
-	function slot6()
+	slot6 = function()
 		if coroutine.status(uv0) == "suspended" then
 			slot0, slot1 = coroutine.resume(uv0)
 
@@ -2971,7 +2971,7 @@ function slot0.doPlayEnemyAnim(slot0, slot1, slot2, slot3)
 		end
 	end)
 
-	function slot7()
+	slot7 = function()
 		if uv0.strikeAnims[uv1] and uv2 then
 			uv3()
 		end
@@ -2995,10 +2995,10 @@ function slot0.doPlayEnemyAnim(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.doSignalSearch(slot0, slot1)
+slot0.doSignalSearch = function(slot0, slot1)
 	slot0:frozen()
 
-	function slot2()
+	slot2 = function()
 		uv0.playing = true
 
 		uv0.signalAni:SetActive(true)
@@ -3036,7 +3036,7 @@ function slot0.doSignalSearch(slot0, slot1)
 	end
 end
 
-function slot0.destroySignalSearch(slot0)
+slot0.destroySignalSearch = function(slot0)
 	if slot0.signalAni then
 		slot0.signalAni:GetComponent("DftAniEvent"):SetEndEvent(nil)
 		PoolMgr.GetInstance():ReturnUI("SignalUI", slot0.signalAni)
@@ -3045,7 +3045,7 @@ function slot0.destroySignalSearch(slot0)
 	end
 end
 
-function slot0.doPlayCommander(slot0, slot1, slot2)
+slot0.doPlayCommander = function(slot0, slot1, slot2)
 	slot0:frozen()
 	setActive(slot0.commanderTinkle, true)
 	setText(slot0.commanderTinkle:Find("name"), #slot1:getSkills() > 0 and slot3[1]:getConfig("name") or "")
@@ -3074,7 +3074,7 @@ function slot0.doPlayCommander(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.strikeEnemy(slot0, slot1, slot2, slot3)
+slot0.strikeEnemy = function(slot0, slot1, slot2, slot3)
 	if not slot0.grid:shakeCell(slot1) then
 		slot3()
 
@@ -3086,7 +3086,7 @@ function slot0.strikeEnemy(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.easeDamage(slot0, slot1, slot2, slot3)
+slot0.easeDamage = function(slot0, slot1, slot2, slot3)
 	slot0:frozen()
 
 	slot4 = slot0.levelCam
@@ -3119,7 +3119,7 @@ function slot0.easeDamage(slot0, slot1, slot2, slot3)
 	end))
 end
 
-function slot0.easeAvoid(slot0, slot1, slot2)
+slot0.easeAvoid = function(slot0, slot1, slot2)
 	slot0:frozen()
 
 	slot3 = slot0.levelCam
@@ -3153,7 +3153,7 @@ function slot0.easeAvoid(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.GetDamageText(slot0)
+slot0.GetDamageText = function(slot0)
 	if not table.remove(slot0.damageTextPool) then
 		slot1 = Instantiate(slot0.damageTextTemplate)
 
@@ -3167,7 +3167,7 @@ function slot0.GetDamageText(slot0)
 	return slot1
 end
 
-function slot0.ReturnDamageText(slot0, slot1)
+slot0.ReturnDamageText = function(slot0, slot1)
 	assert(slot1)
 
 	if not slot1 then
@@ -3181,15 +3181,15 @@ function slot0.ReturnDamageText(slot0, slot1)
 	setActive(slot1, false)
 end
 
-function slot0.resetLevelGrid(slot0)
+slot0.resetLevelGrid = function(slot0)
 	slot0.dragLayer.localPosition = Vector3.zero
 end
 
-function slot0.ShowCurtains(slot0, slot1)
+slot0.ShowCurtains = function(slot0, slot1)
 	setActive(slot0.curtain, slot1)
 end
 
-function slot0.frozen(slot0)
+slot0.frozen = function(slot0)
 	slot0.frozenCount = slot0.frozenCount + 1
 	slot0.canvasGroup.blocksRaycasts = slot0.frozenCount == 0
 
@@ -3198,7 +3198,7 @@ function slot0.frozen(slot0)
 	end
 end
 
-function slot0.unfrozen(slot0, slot1)
+slot0.unfrozen = function(slot0, slot1)
 	if slot0.exited then
 		return
 	end
@@ -3211,11 +3211,11 @@ function slot0.unfrozen(slot0, slot1)
 	end
 end
 
-function slot0.isfrozen(slot0)
+slot0.isfrozen = function(slot0)
 	return slot0.frozenCount > 0
 end
 
-function slot0.enableLevelCamera(slot0)
+slot0.enableLevelCamera = function(slot0)
 	slot0.levelCamIndices = math.max(slot0.levelCamIndices - 1, 0)
 
 	if slot0.levelCamIndices == 0 then
@@ -3225,7 +3225,7 @@ function slot0.enableLevelCamera(slot0)
 	end
 end
 
-function slot0.disableLevelCamera(slot0)
+slot0.disableLevelCamera = function(slot0)
 	slot0.levelCamIndices = slot0.levelCamIndices + 1
 
 	if slot0.levelCamIndices > 0 then
@@ -3235,11 +3235,11 @@ function slot0.disableLevelCamera(slot0)
 	end
 end
 
-function slot0.RecordTween(slot0, slot1, slot2)
+slot0.RecordTween = function(slot0, slot1, slot2)
 	slot0.tweens[slot1] = slot2
 end
 
-function slot0.DeleteTween(slot0, slot1)
+slot0.DeleteTween = function(slot0, slot1)
 	if slot0.tweens[slot1] then
 		LeanTween.cancel(slot2)
 
@@ -3247,7 +3247,7 @@ function slot0.DeleteTween(slot0, slot1)
 	end
 end
 
-function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
+slot0.openCommanderPanel = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2.id
 
 	slot0.levelCMDFormationView:setCallback(function (slot0)
@@ -3295,31 +3295,31 @@ function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
 	slot0.levelCMDFormationView:ActionInvoke("Show")
 end
 
-function slot0.updateCommanderPrefab(slot0)
+slot0.updateCommanderPrefab = function(slot0)
 	if slot0.levelCMDFormationView:isShowing() then
 		slot0.levelCMDFormationView:ActionInvoke("updatePrefabs", slot0.commanderPrefabs)
 	end
 end
 
-function slot0.closeCommanderPanel(slot0)
+slot0.closeCommanderPanel = function(slot0)
 	slot0.levelCMDFormationView:ActionInvoke("Hide")
 end
 
-function slot0.destroyCommanderPanel(slot0)
+slot0.destroyCommanderPanel = function(slot0)
 	slot0.levelCMDFormationView:Destroy()
 
 	slot0.levelCMDFormationView = nil
 end
 
-function slot0.setSpecialOperationTickets(slot0, slot1)
+slot0.setSpecialOperationTickets = function(slot0, slot1)
 	slot0.spTickets = slot1
 end
 
-function slot0.HandleShowMsgBox(slot0, slot1)
+slot0.HandleShowMsgBox = function(slot0, slot1)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox(slot1)
 end
 
-function slot0.updatePoisonAreaTip(slot0)
+slot0.updatePoisonAreaTip = function(slot0)
 	slot1 = slot0.contextData.chapterVO
 
 	if (function (slot0)
@@ -3344,11 +3344,11 @@ function slot0.updatePoisonAreaTip(slot0)
 	end
 end
 
-function slot0.updateVoteBookBtn(slot0)
+slot0.updateVoteBookBtn = function(slot0)
 	setActive(slot0._voteBookBtn, false)
 end
 
-function slot0.RecordLastMapOnExit(slot0)
+slot0.RecordLastMapOnExit = function(slot0)
 	if getProxy(ChapterProxy) and not slot0.contextData.noRecord then
 		if not slot0.contextData.map then
 			return
@@ -3364,7 +3364,7 @@ function slot0.RecordLastMapOnExit(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:ClearMapTransitions()
 	slot0.loader:Clear()
 

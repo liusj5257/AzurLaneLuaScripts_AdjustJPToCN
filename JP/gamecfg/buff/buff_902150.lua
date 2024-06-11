@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "防卫射击",
 	init_effect = "jinengchufared",
-	color = "",
+	id = 902150,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902150,
+	color = "",
 	icon = 902150,
 	last_effect = "",
 	blink = {

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_52 = {}
 slot1 = slot0.word_template_52
 
-function temp()
+temp = function()
 	uv0["滥"] = {
 		["交"] = {
 			this = true,
@@ -16,7 +16,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["乱"] = {
 		["交"] = {
 			this = true
@@ -36,7 +36,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["嫖"] = {
 		["妓"] = {
 			this = true,
@@ -57,7 +57,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["冯"] = {
 		["东"] = {
 			["海"] = {

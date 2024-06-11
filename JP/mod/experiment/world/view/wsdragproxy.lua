@@ -1,22 +1,22 @@
 slot0 = class("WSDragProxy", import("...BaseEntity"))
 slot0.Fields = {
 	map = "table",
-	transform = "userdata",
-	leftExtend = "number",
 	gid = "number",
-	longPressTrigger = "userdata",
 	topExtend = "number",
+	transform = "userdata",
+	longPressTrigger = "userdata",
+	leftExtend = "number",
 	twFocusId = "number",
 	dragTrigger = "userdata",
 	wsTimer = "table",
 	onDragFunction = "function",
 	isDraging = "boolean",
-	rightExtend = "number",
+	bottomExtend = "number",
 	callInfo = "table",
-	bottomExtend = "number"
+	rightExtend = "number"
 }
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.callInfo = slot1
 	slot0.dragTrigger = GetOrAddComponent(slot0.transform, typeof(EventTriggerListener))
 
@@ -36,7 +36,7 @@ function slot0.Setup(slot0, slot1)
 	slot0.longPressTrigger = GetOrAddComponent(slot0.transform, typeof(UILongPressTrigger))
 	slot2 = slot0.callInfo.longPressCall
 
-	function slot0.callInfo.longPressCall(...)
+	slot0.callInfo.longPressCall = function(...)
 		if uv0.isDraging then
 			return
 		end
@@ -49,7 +49,7 @@ function slot0.Setup(slot0, slot1)
 	slot0.longPressTrigger.enabled = true
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.transform.localPosition = Vector3.zero
 
 	if slot0.map then
@@ -69,7 +69,7 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.Focus(slot0, slot1, slot2, slot3, slot4)
+slot0.Focus = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = slot0.transform:Find("plane")
 
 	assert(slot6, "plane not exist.")
@@ -118,7 +118,7 @@ function slot0.Focus(slot0, slot1, slot2, slot3, slot4)
 	end)
 end
 
-function slot0.UpdateMap(slot0, slot1)
+slot0.UpdateMap = function(slot0, slot1)
 	if slot0.map ~= slot1 or slot0.gid ~= slot1.gid then
 		slot0.map = slot1
 		slot0.gid = slot1.gid
@@ -127,7 +127,7 @@ function slot0.UpdateMap(slot0, slot1)
 	end
 end
 
-function slot0.UpdateDrag(slot0)
+slot0.UpdateDrag = function(slot0)
 	slot1, slot2, slot3 = getSizeRate()
 	slot4 = slot0.map.theme
 	slot5 = slot3 * 0.5 / math.tan(math.deg2Rad * slot4.fov * 0.5)
@@ -153,7 +153,7 @@ function slot0.UpdateDrag(slot0)
 	end)
 end
 
-function slot0.GetDragExtend(slot0, slot1, slot2)
+slot0.GetDragExtend = function(slot0, slot1, slot2)
 	slot3 = slot0.map
 	slot5 = slot0.transform:Find("plane")
 
@@ -184,7 +184,7 @@ function slot0.GetDragExtend(slot0, slot1, slot2)
 	return 1000 - slot6, math.max(slot10 * slot11.x - slot1 * 0.5, 0) + slot6, math.max((WorldConst.MaxRow * 0.5 - slot8) * slot11.y, 0) + slot7, math.max((slot9 - WorldConst.MaxRow * 0.5) * slot11.y, 0) - slot7
 end
 
-function slot0.ShakePlane(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.ShakePlane = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot3 = math.max(slot3, 1)
 	slot4 = math.max(slot4, 1)
 	slot6 = math.pi / 180 * math.clamp(slot2, 0, 90)

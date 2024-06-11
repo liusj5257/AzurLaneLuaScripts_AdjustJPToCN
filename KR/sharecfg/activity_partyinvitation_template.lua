@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.activity_partyinvitation_template = {
 	{
-		groupid = 10706,
-		ungift = "지휘관, 오늘 파티는 무척이나 붐비는군.\n이렇게 지휘관과 단둘이 보내는 것도 참 오랜만인 듯하네…...\n응? 이건… 나에게 주는 선물…?",
 		skinId = 107065,
+		groupid = 10706,
 		getletter_story = "YUANWEIFANGXINMIMANSHI2",
 		getgift = "아름다운 브로치… 이글을 모티브로 한 건가?\n평소 이미지와는 다르게 부드러운 모습이군.\n소중히 여기도록 하마… 고맙다, 지휘관.",
+		ungift = "지휘관, 오늘 파티는 무척이나 붐비는군.\n이렇게 지휘관과 단둘이 보내는 것도 참 오랜만인 듯하네…...\n응? 이건… 나에게 주는 선물…?",
 		getgift_story = "YUANWEIFANGXINMIMANSHI10",
 		getletter = "파티에 초대해줘서 고맙다.\n…그나저나 곧 시작할 것 같군.\n일단은 바로 준비하도록 하지. 지휘관, 나중에 연회장에서 보자고.",
 		id = 1,
@@ -38,11 +38,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 10709,
-		ungift = "지휘관님… 무슨 일 있으세요? 옷 속에 뭐라도 들어간 건가요?\n…! 이건 설마, 계속 가지고 싶었던...\n농담이에요. 뭐 그런 우연이 쉽게 일어나는 일은 아니죠.",
 		skinId = 107092,
+		groupid = 10709,
 		getletter_story = "YUANWEIFANGXINMIMANSHI3",
 		getgift = "!! 설마 진짜로 그 오토바이 모형일 줄이야!\n지휘관님은 그… 마음을 읽을 수 있는 초능력이라도…...\n어쨌든 너무 기뻐요! 바로 열어봐도 될까요?",
+		ungift = "지휘관님… 무슨 일 있으세요? 옷 속에 뭐라도 들어간 건가요?\n…! 이건 설마, 계속 가지고 싶었던...\n농담이에요. 뭐 그런 우연이 쉽게 일어나는 일은 아니죠.",
 		getgift_story = "YUANWEIFANGXINMIMANSHI11",
 		getletter = "이건… 초대장? 아, 그러고 보니 중요한 날이었죠…!\n다들 당연히 참가하겠죠?\n다행이에요…! 점점 기대되네요!",
 		id = 2,
@@ -75,11 +75,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 30510,
-		ungift = "그대 그 모습은… 무슨 일인가?\n나를 단독으로 불러 내다니 무슨 요건으로…?\n원하는 바가 있다면 말해보거라. 사양할 거 없다.",
 		skinId = 305101,
+		groupid = 30510,
 		getletter_story = "YUANWEIFANGXINMIMANSHI4",
 		getgift = "어머나, 이건 오르골이로구나. 섬세한 구조에 소리도 꽤…\n이 센스, 역시 지휘관이로군.\n감사히 받기로 하고… 그럼 보답은 무엇이 좋으려나… 우후후.",
+		ungift = "그대 그 모습은… 무슨 일인가?\n나를 단독으로 불러 내다니 무슨 요건으로…?\n원하는 바가 있다면 말해보거라. 사양할 거 없다.",
 		getgift_story = "YUANWEIFANGXINMIMANSHI12",
 		getletter = "초대장 잘 받았다.\n출석 준비는 잠시 후에 하기로 하고...\n지금은 사양 말고 나와 단둘이 차를 즐기는 게 어떤가?",
 		id = 3,
@@ -112,11 +112,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 90501,
-		ungift = "선물을 받을 만한 일은 해준 적이 없는데.\n오히려 내가 이 파티에 초대해 준 지휘관을 즐겁게 해줘야 하는데...\n이건 답례가 아니라, 그저 날 위해서…? 그, 그렇군….",
 		skinId = 905011,
+		groupid = 90501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI5",
 		getgift = "나침반? 그리운 날들이 떠오르는군.\n……고맙다. 무척 맘에 들어.\n그나저나 이 보답은 어떻게 해야.. 음…",
+		ungift = "선물을 받을 만한 일은 해준 적이 없는데.\n오히려 내가 이 파티에 초대해 준 지휘관을 즐겁게 해줘야 하는데...\n이건 답례가 아니라, 그저 날 위해서…? 그, 그렇군….",
 		getgift_story = "YUANWEIFANGXINMIMANSHI13",
 		getletter = "초대장 확실히 잘 받았다. 그리고 참가 준비 말인데……\n뭘 입어야 할지 고민이 돼서 말이다.\n어쨌든 연회장에서 만나자고.",
 		id = 4,
@@ -149,11 +149,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 70201,
-		ungift = "휴우… 지휘관님과 함께 하는 파티는 무척 즐겁네요.\n지휘관님…? 무엇을 꺼내시려고...\n제게 주시는 선물? 우후후, 두근거리네요.",
 		skinId = 702010,
+		groupid = 70201,
 		getletter_story = "YUANWEIFANGXINMIMANSHI6",
 		getgift = "와아~ 귀여운 곰이네요~\n소중한 선물, 귀여운 곰돌이… 쓰담쓰담~\n후후후, 딱히 취한 건 아니랍니다?",
+		ungift = "휴우… 지휘관님과 함께 하는 파티는 무척 즐겁네요.\n지휘관님…? 무엇을 꺼내시려고...\n제게 주시는 선물? 우후후, 두근거리네요.",
 		getgift_story = "YUANWEIFANGXINMIMANSHI14",
 		getletter = "제게 주시는 초대장이었군요. 감사합니다.\n물론 파티에는 지휘관님도 참석하시죠?\n우후후, 지휘관님의 춤추는 모습, 기대하고 있을게요.",
 		id = 5,
@@ -186,11 +186,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 20501,
-		ungift = "뭘 그렇게 부스럭부스럭… 선물이지?\n선물이라면 매일 받으니까 그 정도는 알아!\n뭐, 하인이 주는 선물이라니까… 아주 조금 기대가 되기는 하네.",
 		skinId = 205011,
+		groupid = 20501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI8",
 		getgift = "크리스탈 지팡이… 하인이 이걸 고를 줄이야…\n사실 지팡이는 전용 방이 따로 있을 정도로 가지고 있긴 하지만\n하인 거는 특별히 가장 눈에 띄는 곳에 장식해 줄게.",
+		ungift = "뭘 그렇게 부스럭부스럭… 선물이지?\n선물이라면 매일 받으니까 그 정도는 알아!\n뭐, 하인이 주는 선물이라니까… 아주 조금 기대가 되기는 하네.",
 		getgift_story = "YUANWEIFANGXINMIMANSHI16",
 		getletter = "파티 초대…? 알았어.\n벨, 메이드대 애들한테 준비하라고 전해줘.\n거기 서, 하인! 아직 가도 된다고 말한 적 없다고!",
 		id = 6,
@@ -223,11 +223,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 40501,
-		ungift = "지휘관 덕에 파티가 아주 즐겁네. 고마워.\n그나저나 선물까지 줄 줄은...\n오늘은 정말 최고의 날이네, 후후후.",
 		skinId = 405011,
+		groupid = 40501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI7",
 		getgift = "레코드? 곡은 지휘관이 고른 거고?\n이건…… 다 내가 좋아하는 곡만…...\n들을 때마다 지휘관 얼굴이 떠오를 것 같네. 후후후.",
+		ungift = "지휘관 덕에 파티가 아주 즐겁네. 고마워.\n그나저나 선물까지 줄 줄은...\n오늘은 정말 최고의 날이네, 후후후.",
 		getgift_story = "YUANWEIFANGXINMIMANSHI15",
 		getletter = "응, 파티에 참석하겠다고 약속할게.\n여러모로 생각이 많아서 조금은 정리할 시간이 필요하긴 했어.\n어쨌든 연회장에서 만나, 지휘관.",
 		id = 7,

@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.055
+					number = 0.055,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.065
+					number = 0.065,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.07
+					number = 0.07,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.075
+					number = 0.075,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.085
+					number = 0.085,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.09
+					number = 0.09,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_5",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_T_5"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "胜利之歌",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "队友航母效果,对战列舰伤害提高",
 	stack = 1,
@@ -162,8 +162,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_5",
-				number = 0.05
+				number = 0.05,
+				attr = "DMG_TAG_EHC_T_5"
 			}
 		}
 	}

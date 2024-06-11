@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_58 = {}
 slot1 = slot0.word_template_58
 
-function temp()
+temp = function()
 	uv0["道"] = {
 		["教"] = {
 			this = true
@@ -16,7 +16,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["佛"] = {
 		["教"] = {
 			this = true
@@ -45,7 +45,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["释"] = {
 		["迦"] = {
 			["牟"] = {
@@ -82,7 +82,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["如"] = {
 		["来"] = {
 			this = true

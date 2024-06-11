@@ -29,9 +29,9 @@ return {
 	{
 		time = 1.5
 	},
-	init_effect = "",
-	name = "定身",
 	time = 0.5,
+	name = "定身",
+	init_effect = "",
 	picture = "",
 	desc = "敌方定身光环",
 	stack = 1,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIJINGHUA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIJINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「仮想繋げし共時性」スッキリ編\n\n<size=45>四 いつか会えるその日まで</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-2",
 			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "これをこうして…こうじゃ！……よし！全部ウィルスの駆除が完了したね！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,11 +69,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "通れるのはキズナアイだけのようだけど……むむむ、どんな世界か気になる",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -178,8 +178,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "うん！みんなのこと絶対忘れないよ！",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "あっ、そうだ！これ、私のことだと思って寮舎に飾ってくれると嬉しいな！",
 			typewriter = {
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "キズナっち親分！教えてもらったことを生かしてサンディエゴもバーチャルユーチューバー？がんばるから！親分もがんばってねー！",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -347,9 +347,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "………",
 			typewriter = {
 				speed = 0.05,
@@ -364,8 +364,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "またいつか、必ず会おうね！だから…さよならは言わないよ。みんな大好き！！！",
 			typewriter = {
@@ -378,11 +378,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 201210,
 			say = "「さよならは言わないよ」……かぁ、うん、そうだよね！その時を楽しみに待ってるよ！",
 			flashN = {
 				color = {
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "――こうして、インテリジェントなスーパーAIは、母港の皆の心に大切な思い出を刻んで去って行ったのであった。",
 			flashin = {
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "キズナアイの残したキズナを胸に前へ進んでいく、いつか会えるその日まで――",
 			typewriter = {

@@ -3,14 +3,14 @@ slot0.ShowView = "SVFloatPanel.ShowView"
 slot0.HideView = "SVFloatPanel.HideView"
 slot0.ReturnCall = "SVFloatPanel.ReturnCall"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SVFloatPanel"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot0.rtBasePoint = slot1:Find("point")
 	slot1 = slot0.rtBasePoint
@@ -143,18 +143,18 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	setActive(slot0._tf, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	setActive(slot0._tf, false)
 end
 
-function slot0.Setup(slot0, slot1, slot2, slot3, slot4)
+slot0.Setup = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.entrance = slot1
 	slot8 = slot0._tf
 	slot10 = GameObject.Find("OverlayCamera")
@@ -201,11 +201,11 @@ function slot0.Setup(slot0, slot1, slot2, slot3, slot4)
 	end)() - 1), true)
 end
 
-function slot0.setColorfulImage(slot0, slot1, slot2, slot3)
+slot0.setColorfulImage = function(slot0, slot1, slot2, slot3)
 	setImageSprite(slot1, getImageSprite(slot0.rtRes:Find(slot1.name .. "/" .. slot2)), defaultValue(slot3, true))
 end
 
-function slot0.UpdatePanel(slot0)
+slot0.UpdatePanel = function(slot0)
 	slot1 = nowWorld()
 	slot3, slot4 = World.ReplacementMapType(slot0.entrance, slot0.mapList[slot0.destIndex])
 	slot5 = slot3 == "complete_chapter" and "safe" or WorldConst.GetMapIconState(slot2.config.entrance_ui)
@@ -259,7 +259,7 @@ function slot0.UpdatePanel(slot0)
 	slot16 = slot16 or isActive(slot0.btnReturn)
 end
 
-function slot0.UpdateCost(slot0)
+slot0.UpdateCost = function(slot0)
 	slot1 = slot0.mapList[slot0.destIndex]
 	slot2 = slot0.btnEnter:Find("cost")
 
@@ -270,7 +270,7 @@ function slot0.UpdateCost(slot0)
 	setText(slot2:Find("Text"), setColorStr(slot3, slot3 < slot1.config.enter_cost and COLOR_RED or COLOR_GREEN) .. "/" .. slot4)
 end
 
-function slot0.ShowToggleMask(slot0)
+slot0.ShowToggleMask = function(slot0)
 	slot0.isTweening = true
 
 	setActive(slot0.rtMarking, false)
@@ -288,7 +288,7 @@ function slot0.ShowToggleMask(slot0)
 	setActive(slot0.btnSwitch, false)
 end
 
-function slot0.HideToggleMask(slot0)
+slot0.HideToggleMask = function(slot0)
 	slot0.isTweening = true
 
 	setActive(slot0.rtToggles, false)

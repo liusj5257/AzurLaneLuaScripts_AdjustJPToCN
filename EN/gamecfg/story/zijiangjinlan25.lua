@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN25",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "Exercise Area - Turn 8 (Akagi's Action)",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#A9F548FF",
 			say = "Woaaaah... I could've sworn I was going to sink! My head's still spinning...",
 			painting = {
 				alpha = 0.3,
@@ -126,8 +126,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "That tower almost took all four of you down in a single blow. I always had a feeling you couldn't just march right up and capture it, but I never expected something like this.",
 			painting = {
@@ -143,8 +143,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "Musashi aside, I can see Nagato and Mikasa preparing to attack this tower as well.",
 			painting = {
@@ -192,8 +192,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "After the tower's last attack, the turbulence in these waters has made it harder for certain ships to operate.",
 			painting = {
@@ -225,8 +225,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "But we're hardly old-fashioned ships prone to being battered around by the waves. This won't affect how we proceed.",
 			painting = {
@@ -242,8 +242,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "Akagi, should we continue attacking the tower?",
 			painting = {
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "No, we need to regroup and investigate the tower more thoroughly. It's clear that it cannot be captured through conventional means.",
 			painting = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "Everyone, get back into formation first. Miyuki, how's the situation over there?",
 			painting = {
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "Very well. You'll have safety in numbers around Mikasa's forces. I'll be in touch with you later, Miyuki.",
 			painting = {
@@ -328,8 +328,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "Understood!",
 			painting = {
@@ -361,8 +361,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "You don't look like you're in any condition to fight, so you might as well head back and try to capture some of the perimeter bases we skipped over, and see if you can find any emergency repairs.",
 			painting = {
@@ -410,8 +410,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "Yes ma'am! I haven't seen much action for a while, so it'll be a nice change of pace to go back and capture some bases.",
 			painting = {

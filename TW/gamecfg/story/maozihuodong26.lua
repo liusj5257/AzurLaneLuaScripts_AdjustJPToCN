@@ -1,18 +1,18 @@
 return {
-	id = "MAOZIHUODONG26",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG26",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "心懷仇怨的人，居心叵測的人，還有…無知之人！",
 			bgm = "xinnong-2",
+			nameColor = "#ff5c5c",
+			say = "心懷仇怨的人，居心叵測的人，還有…無知之人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -58,8 +58,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "…吵死了",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -91,8 +91,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "這是什麼？新型噪音攻擊？有本事出來和塔什干面對面打一架",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "不愧是塔什干，真是漂亮的應對~",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "事到如今，不要再鬼鬼祟祟藏在黑暗中了，現出身影來吧，塞壬！",
 			typewriter = {
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_cccp_7",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "咕唔唔唔……絕對讓妳們好看！",
 			dialogShake = {
 				speed = 0.09,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "轟隆隆隆隆--------",
 			dialogShake = {
 				speed = 0.09,
@@ -203,8 +203,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "哇啊啊啊！這回又是什麼！？",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "在通訊器陷入沉默的同時，伴隨著一串巨響，冰雪構成的牆壁又有了新的變化",
 			typewriter = {
 				speed = 0.05,
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "分裂與重組，冰牆分裂為數個細小單元，按照各自不同的軌跡在水面上快速移動。",
 			typewriter = {
 				speed = 0.05,
@@ -255,9 +255,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "最終將在海面上圈出了一片海域，如同決鬥場一般將所有人包圍起來",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_7",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -317,9 +317,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_5",
+			dir = 1,
 			say = "伴隨這一陣狂風，一個身影出現在了面前的海面之上",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "明斯克",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "甘古特",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -363,8 +363,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "威嚴",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "曙光",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -411,8 +411,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "清除者",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "清除者",
+			side = 2,
 			bgName = "bg_cccp_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -446,8 +446,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			say = "…這樣。原來只是個不起眼的小不點，還以為會有多可怕呢。",
 			typewriter = {
 				speed = 0.05,
@@ -489,10 +489,10 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "妳們幾個！從剛才開始就在破壞氣氛啊啊啊啊啊啊啊啊啊啊！！！！！",
 			dialogShake = {
 				speed = 0.09,
@@ -509,8 +509,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -537,8 +537,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "同志們，準備戰鬥！",
 			typewriter = {
 				speed = 0.05,

@@ -18,8 +18,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -110,
 				posX = 200,
 				text = slot0[1]
@@ -33,7 +33,13 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/taskButton"
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/bottom/frame/task"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/bottom/taskButton"
+					end
+				end
 			}
 		},
 		{
@@ -79,8 +85,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -110,
 				posX = 200,
 				text = slot0[2]
@@ -93,7 +99,13 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/formationButton"
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/1/formation"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/right/formationButton"
+					end
+				end
 			}
 		},
 		{
@@ -110,8 +122,8 @@ return {
 			ui = {
 				path = "/UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships/308031",
 				image = {
-					isChild = true,
 					source = "content/ship_icon",
+					isChild = true,
 					target = "content/ship_icon",
 					isRelative = true
 				}
@@ -125,8 +137,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -110,
 				posX = 200,
 				text = slot0[3]
@@ -135,8 +147,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -110,
 				posX = 200,
 				text = slot0[4]
@@ -149,16 +161,22 @@ return {
 		},
 		{
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/dockBtn"
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/bottom/frame/dock"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/bottom/dockBtn"
+					end
+				end
 			}
 		},
 		{
 			ui = {
-				path = "/UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
 				pathIndex = 0,
+				path = "/UICamera/Canvas/UIMain/DockyardUI(Clone)/main/ship_container/ships",
 				image = {
-					isChild = true,
 					source = "content/ship_icon",
+					isChild = true,
 					target = "content/ship_icon",
 					isRelative = true
 				}
@@ -167,8 +185,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -110,
 				posX = 200,
 				text = slot0[5]

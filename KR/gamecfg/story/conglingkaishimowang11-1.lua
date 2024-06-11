@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
-			say = "요새로 이어지는 대로변에서 치열한 전투가 벌어지고 있다.",
 			bgm = "theme-richelieu",
+			say = "요새로 이어지는 대로변에서 치열한 전투가 벌어지고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			say = "―――",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 2,
 					name = "jiulaimu_zhanlie",
+					time = 2,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "길을 비켜라―――!!",
 			painting = {
@@ -97,8 +97,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 2,
 					name = "jiulaimu_zhanlie",
+					time = 2,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -115,9 +115,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "jiulaimu_zhanlie",
 					time = 2,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -134,9 +134,9 @@ return {
 					}
 				},
 				{
-					delay = 1,
 					name = "jiulaimu_zhanlie",
 					time = 2,
+					delay = 1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -153,9 +153,9 @@ return {
 					}
 				},
 				{
-					delay = 1.8,
 					name = "jiulaimu_zhanlie",
 					time = 2,
+					delay = 1.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -246,11 +246,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "제가 마물을 유인할 테니, 두 분은 마을 사람들을 지키면서 후퇴하세요!",
 			painting = {
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "……다른 방법이 없습니다. 이건 명령입니다!",
 			painting = {
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			say = "한편, 전장 뒷편에서는…",
 			typewriter = {
@@ -307,17 +307,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -363,11 +363,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "저쪽에서 싸우고 있는 건 왕국군이야?",

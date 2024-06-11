@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU16",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU16",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"第六楽章\n\n<size=45>「再生」</size>",
@@ -19,11 +19,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "story-8",
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = 1,
 			say = "はあああああ！！",
-			bgm = "story-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,8 +34,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -47,10 +47,10 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205050,
 			dir = -1,
-			say = "くっ！装甲が…！",
 			soundeffect = "event:/battle/boom2",
+			actor = 205050,
+			say = "くっ！装甲が…！",
 			flashN = {
 				color = {
 					1,
@@ -114,8 +114,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "そこに立っているのは確かに「彼女」――ビスマルクだ。",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "その艤装にはうっすらと赤い光をまとっている。",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "一方、セイレーンのテスターはどこかに消えていった。",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "「カミハ私の願イ、叶えてくレル……」",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 4,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "「だが、カミナドイナイ……ワタシガ、カミ二ナラナイカギリ…！」",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "これは……セイレーンの力に飲み込まれたのか…！",
 			flashN = {
 				color = {
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "……ビスマルク、陣営こそ違えど、あなたのことは尊敬している",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "戦艦としての性能ではなく、鉄血艦隊を率いるカリスマでも、セイレーンの技術をいち早く取り入れるその決断力でもない。",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "仲間を守るために己の犠牲も惜しまない――その気高さこそ私が、我がロイヤルネイビーが憧れているのだ",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "このキングジョージ5世が、栄誉のある最期をくれてやろう！",
 			typewriter = {
 				speed = 0.05,

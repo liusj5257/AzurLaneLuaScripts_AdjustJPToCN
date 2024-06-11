@@ -1,15 +1,15 @@
 return {
-	id = "SHENGYONGQU8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU8",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "level03",
 			say = "莫三比克海峽·維希教廷控制區外",
+			side = 2,
+			dir = 1,
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			say = "我們成功突破了塞壬的封鎖。現在我們與聖堂之間已經沒有任何塞壬的有效抵抗力量了。",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 807010,
 			dir = 1,
+			actor = 807010,
 			say = "畢竟沒有什麼高等級的塞壬單位嘛，如果想依靠數量支撐的話，充其量也就是這種水平了。",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			say = "咦？！大家快看！剛剛飛過去塞壬艦載機居然被聖堂那邊的防空炮擊毀了！",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			say = "欸…就算是塞壬，只要入侵了維希教廷的控制區也會被無情摧毀嗎。",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "現在存在於這裡的只是幻象，只是在鐵血的允許下，假裝維希教廷還擁有最後一絲尊嚴的幻象。",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +162,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "只有將侵略者徹底趕出我們的家園，重建鳶尾教國之後，她們才能獲得真正的自由！",
 			dialogShake = {
 				speed = 0.09,
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "……不好不好，一不小心陷入演講時的狀態了啊。",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,

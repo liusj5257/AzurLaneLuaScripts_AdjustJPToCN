@@ -1,18 +1,18 @@
 slot0 = class("PublicGuildTechnologyPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "PublicGuildTechnologyPage"
 end
 
-function slot0.OnTechGroupUpdate(slot0, slot1)
+slot0.OnTechGroupUpdate = function(slot0, slot1)
 	slot0:UpdateUpgradeList()
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.upgradeList = UIItemList.New(slot0:findTF("frame/upgrade/content"), slot0:findTF("frame/upgrade/content/tpl"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0.upgradeList
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -23,14 +23,14 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.guildVO = slot1
 
 	slot0:UpdateUpgradeList()
 	uv0.super.Show(slot0)
 end
 
-function slot0.UpdateUpgradeList(slot0)
+slot0.UpdateUpgradeList = function(slot0)
 	slot0.technologyVOs = {}
 
 	for slot5, slot6 in pairs(slot0.guildVO:GetTechnologys()) do
@@ -45,7 +45,7 @@ function slot0.UpdateUpgradeList(slot0)
 	slot0.upgradeList:align(#slot0.technologyVOs)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

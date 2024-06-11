@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLOGUANQIA29",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「…金型」、「…感情」、「…暗示」</size>",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -43,8 +43,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,18 +68,18 @@ return {
 			}
 		},
 		{
-			nameColor = "#ff5c5c",
+			actorName = "テスター？",
 			side = 2,
-			blackBg = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-6",
 			actor = 900011,
-			actorName = "テスター？",
+			nameColor = "#ff5c5c",
+			blackBg = true,
 			say = "これでレジスタンスは進むことができないであろう。よくやった、フブ…「軍師」。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "軍師？",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "軍師？",
 			say = "ご安心を。あの者たちは、あなた様がエネルギー発生装置で作ったバリアを破ることはできません。",
 			typewriter = {
 				speed = 0.05,
@@ -127,12 +127,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター？",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスター？",
 			say = "しかし、この鏡面海域の制御装置は時々言うことを聞かないな。",
 			typewriter = {
 				speed = 0.05,
@@ -144,12 +144,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "軍師？",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "軍師？",
 			say = "それは…権限の認証がまだ全部できていないからじゃないでしょうか？",
 			typewriter = {
 				speed = 0.05,
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター？",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスター？",
 			say = "そこよ。時間と空間をも操るテスターこそがこの海域の支配者――にもかかわらず、何故この装置に認証されないのだ！",
 			typewriter = {
 				speed = 0.05,
@@ -178,12 +178,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "軍師？",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "軍師？",
 			say = "きっとこの前の実験のせいの不具合ですよ。より多くの機能を稼働させれば、最終的には権限は復旧するでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -195,12 +195,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター？",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスター？",
 			say = "そうね。では引き続き外部の防衛は任せる、「軍師」。",
 			typewriter = {
 				speed = 0.05,
@@ -212,15 +212,15 @@ return {
 			}
 		},
 		{
-			say = "――偽物の大神ミオを倒したが、バリアによって進路を阻まれたアズールレーンとホロライブのメンバーたち",
 			side = 2,
 			bgName = "bg_story_holosaba1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-tokiwa",
+			say = "――偽物の大神ミオを倒したが、バリアによって進路を阻まれたアズールレーンとホロライブのメンバーたち",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -245,9 +245,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
+			dir = 1,
 			say = "そんなとき、ホロライブ所属の夏色まつりから一つ、空前絶後の作戦が提案された",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "下から通ればいいじゃん！",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "水中から行くのは絶対無理だよ！このバリア、水面下にもあるから途中で行き止まりじゃない",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "うん…だから水中じゃなくて地下なの",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "ちょっと待って…まさか…嘘でしょ…",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -404,8 +404,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			nameColor = "#a9f548",
 			say = "あっちに掘って行けば、確かあの例のお墓みたいな場所まで行っちゃうよね…",
 			typewriter = {
@@ -437,8 +437,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "コホン！…それはシオンの例えよ、例え！正式名称は「ホロライブの闇」。たくさんのトラップが設置されている秘密基地なんだよ",
 			typewriter = {
@@ -454,8 +454,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			nameColor = "#a9f548",
 			say = "お化け屋敷なのに！！！",
 			typewriter = {
@@ -468,8 +468,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -481,8 +481,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "（無視）",
 			typewriter = {
@@ -530,8 +530,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "それで、元々は海底の地下にあった秘密基地の通路を使えば、もしかしたらバリアを抜けられるんじゃないかなと思う！",
 			typewriter = {
@@ -544,11 +544,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
-			bgName = "bg_story_holosaba1",
 			side = 2,
+			bgName = "bg_story_holosaba1",
 			dir = 1,
+			actor = 900021,
 			actorName = "ピュリっち",
 			say = "ふーん、たしかに私の知るテスっちなら…いや、バリアは地中のマグマ帯まで貼らないっしょ、普通",
 			typewriter = {
@@ -577,11 +577,11 @@ return {
 			}
 		},
 		{
-			actor = 10500040,
 			side = 2,
-			bgName = "bg_story_holosaba1",
 			black = true,
+			bgName = "bg_story_holosaba1",
 			dir = 1,
+			actor = 10500040,
 			nameColor = "#a9f548",
 			say = "じゃあ決まり！目標ーーホロライブの闇！作戦開始！",
 			typewriter = {

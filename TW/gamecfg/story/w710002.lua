@@ -1,12 +1,12 @@
 return {
-	id = "W710002",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710002",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "海域中縈繞著黑色的暗流，看起來無法靠近……",
 			typewriter = {
 				speed = 0.05,

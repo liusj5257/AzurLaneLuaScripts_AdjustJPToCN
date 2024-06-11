@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA12",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"温泉街神隠し事件\n\n<size=45>動くことウサギの如し！</size>",
@@ -17,47 +17,47 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			say = "「妖怪一座」による演目が開場する前に起きた、もう一つの小さな物語――",
-			hidePaintObj = true,
-			blackBg = true,
 			bgm = "stopbgm",
+			hidePaintObj = true,
+			side = 2,
+			blackBg = true,
+			say = "「妖怪一座」による演目が開場する前に起きた、もう一つの小さな物語――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_in",
+			bgm = "cw-level",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "饅頭温泉街・？？？",
-			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "うっさー！",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "駿河殿！前を！",
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_in",
 			hidePaintObj = true,
 			say = "島風は辺りを見回したが、駿河の姿はどこにもなかった。",
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "提灯オバケ",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "温泉でパーティーっす！",
 			nameColor = "#A9F548FF",
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "提灯オバケ",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "温泉でパーティーっす！",
 			nameColor = "#A9F548FF",
@@ -193,11 +193,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "うっさー！",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ん？提灯オバケさん、島風に話かけていますか？",
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "提灯オバケ",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "温泉でパーティーっす！",
 			nameColor = "#A9F548FF",
@@ -232,8 +232,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "提灯オバケ",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "温泉でパーティーっす！",
 			nameColor = "#A9F548FF",
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "提灯オバケ",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "温泉でパーティーっす！",
 			nameColor = "#A9F548FF",
@@ -278,8 +278,8 @@ return {
 			mode = 1,
 			movableNode = {
 				{
-					time = 2,
 					name = "story_denglonggui",
+					time = 2,
 					spine = {
 						action = "move",
 						scale = 8
@@ -361,8 +361,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 2500
@@ -370,10 +370,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "カッパ",
-			bgName = "bg_village_in",
+			side = 2,
 			factiontag = "人見知りを直すためと思えば",
+			bgName = "bg_village_in",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…わ、わかりました…",
@@ -390,17 +390,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "カッパ",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "人見知りを直すためと思えば",
 			nameColor = "#A9F548FF",
@@ -467,8 +467,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -477,10 +477,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雪女",
-			bgName = "bg_village_in",
+			side = 2,
 			factiontag = "今回は雪女演劇作戦",
+			bgName = "bg_village_in",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "かわいいкролик（クローリク）ちゃんね。知らせてくれてありがとう",
@@ -497,17 +497,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雪女",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "今回は雪女演劇作戦",
 			nameColor = "#A9F548FF",
@@ -555,10 +555,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "烏天狗",
-			bgName = "bg_village_in",
+			side = 2,
 			factiontag = "お年寄りを敬ってほしい",
+			bgName = "bg_village_in",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "オールドレディじゃあるまいし、人使いが荒いのね。次は――",
@@ -575,17 +575,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -612,8 +612,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "烏天狗",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "お年寄りを敬ってほしい",
 			nameColor = "#A9F548FF",
@@ -643,11 +643,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
-			bgName = "bg_village_in",
 			factiontag = "うっさー！",
 			dir = 1,
+			bgName = "bg_village_in",
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はぁ…はぁ…やっと全員分終わりました",
@@ -660,17 +660,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -735,8 +735,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -745,8 +745,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "よく壊れる通信機",
 			hidePaintObj = true,
@@ -796,8 +796,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1003,11 +1003,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "うっさー！",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官殿や仲間たちも、きっと気に入ってくれると思います！",
@@ -1040,8 +1040,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 2500
@@ -1049,10 +1049,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			hidePaintObj = true,
 			blackBg = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "だかこの時の彼女たちは知る由もなかった――",
 			effects = {
 				{
@@ -1065,17 +1065,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1083,8 +1083,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "自分たちが用意したサプライズが、街中を騒がす「事件」に変貌することを――",

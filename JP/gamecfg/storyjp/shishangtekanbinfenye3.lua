@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANBINFENYE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANBINFENYE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港ナイト\n\n<size=45>裏路地の出会い</size>",
@@ -17,20 +17,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "模擬店の裏の通路は入り組んでいて、うっかり方向を間違えてしまったせいで、店に戻れなくなってしまった。",
 			bgm = "bar-soft",
+			say = "模擬店の裏の通路は入り組んでいて、うっかり方向を間違えてしまったせいで、店に戻れなくなってしまった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "途方に暮れていたところ、すぐ隣の部屋から声が聞こえてきた。",
@@ -40,10 +40,10 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			live2d = "main1",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = "main1",
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官？ここで何してるの？",
@@ -52,17 +52,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -76,11 +76,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
 			withoutActorName = true,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "声の方向に振り向くと、そこには模擬店の衣装を着ていながらもジャケットを適当に羽織っているクリーブランドの姿が見えた。",
@@ -90,11 +90,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
 			withoutActorName = true,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "部屋はカラフルな照明に飾られ、そして彼女の足元のテレビには「PAUSE」と表示されている。",
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = true,
 			withoutActorName = true,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "もう一度ゲームパッドを手にしているクリーブランドを見る。…なるほど、サボってゲームをしているってわけか",
@@ -118,10 +118,10 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			live2d = "main3",
 			side = 2,
 			bgName = "star_level_bg_145",
-			live2d = "main3",
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ…えへへ、指揮官はその…もしかして、迷子？",
@@ -137,11 +137,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ここの通路はだいぶ入り乱れているからね。迷子になってもしょうがないよ。",
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "うん？この衣装はどうしたのかって？",
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "見ればわかることじゃないかな？へへ、今日は模擬店を手伝うってこと",
@@ -191,11 +191,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "そしてクリーブランドの秘密基地へようこそ～",
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "「指揮官への特別サービスとして、今日のスペシャルドリンクメニューを紹介しちゃおー♪」",
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "「ドリンクは大丈夫？じゃ…ほかにどんなサービスが欲しいの？♡」",
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "えへへ、どう？いい感じ？",
@@ -299,11 +299,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "ガーリッシュ…だよね！うん！",
@@ -331,14 +331,14 @@ return {
 			}
 		},
 		{
-			live2d = true,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
 			optionFlag = 2,
 			actor = 102097,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "え？今のダメだったの！？",
 			painting = {
 				alpha = 0.3,
@@ -350,14 +350,14 @@ return {
 			}
 		},
 		{
-			live2d = "touch",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
 			optionFlag = 3,
 			actor = 102097,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "touch",
 			say = "あああ！その呼び方はやめてくれー！",
 			painting = {
 				alpha = 0.3,
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "ったく、「ガーリッシュ」ってどんなものだよ…",
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ちょっとズレてるけどまあまあ悪くないって？",
@@ -405,11 +405,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "あははは…結局微妙な評価なんだ…",
@@ -423,11 +423,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "はぁ…まあいっか！",
@@ -441,11 +441,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "それで話は戻るけど、ここは私の秘密基地で、模擬店の開店前に一休みしに来てたんだ",
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "忙しいけど、ちょっと暇を見つけてかるーくゲームでリフレッシュって感じ",
@@ -477,11 +477,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "指揮官は今ひま？一緒にやってみない？",
@@ -495,11 +495,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "迷子になったんでしょ？私に勝ったら模擬店の方に案内してあげる！",
@@ -525,11 +525,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "ふふん、負けたら――",
@@ -543,11 +543,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "お店に戻るのはちょっと大変になるかもよー？",
@@ -561,11 +561,11 @@ return {
 			}
 		},
 		{
-			actor = 102097,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "さあ、勝負だ！",

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"謳歌平穩的日常\n\n<size=45>一　臨時女僕長</size>",
@@ -17,10 +17,10 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			actor = 205010,
 			dir = 1,
 			stopbgm = true,
 			say = "聽好了，本王和貝法因公要離開港區今天！",
@@ -88,17 +88,17 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "指揮官，怎麼了？",
+			bgName = "bg_story_task",
 			bgm = "story-1",
+			actor = 202190,
+			nameColor = "#a9f548",
+			say = "指揮官，怎麼了？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,8 +132,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "在秘書艦紐卡斯爾的聲音下回過神來。",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "接過紐卡斯爾整理的整整齊齊的報告書。",
 			typewriter = {
 				speed = 0.05,
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "我個人比較推薦紅茶，但是如果您有自己喜好的話我也會給您準備別的",
 			typewriter = {
 				speed = 0.05,
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "聽您吩咐",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -257,9 +257,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "不知何時，放著一套茶具的托盤被放在了桌邊。能夠微微感受到紅茶散發出來的清香和熱氣。",
 			typewriter = {
 				speed = 0.05,
@@ -283,9 +283,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "不愧是前女僕隊統籌，不管是作為秘書艦還是女僕都毫無破綻。",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
-	init_effect = "",
-	name = "AT·FIELD",
 	time = 40,
-	last_effect = "ATdun",
+	name = "AT·FIELD",
+	init_effect = "",
+	last_effect_cld_scale = true,
 	picture = "",
 	desc = "AT·FIELD",
 	stack = 1,
 	id = 30000003,
 	icon = 30000003,
-	last_effect_cld_scale = true,
+	last_effect = "ATdun",
 	effect_list = {
 		{
 			type = "BattleBuffBarrier",

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"港區逃離大作戰！\n\n<size=45>三　有如天助！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202180,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "妳好。我是愛丁堡級輕巡洋艦，皇家女僕隊見習女僕貝爾法斯特",
 			bgm = "story-1",
+			actor = 202180,
+			nameColor = "#a9f548",
+			say = "妳好。我是愛丁堡級輕巡洋艦，皇家女僕隊見習女僕貝爾法斯特",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -22.5,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
 					x = 0,
@@ -81,8 +81,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "初、初次見面。我是重櫻的戰鬥巡洋艦，我叫{namecode:71}",
 			typewriter = {
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "三人",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "我們是被指揮官誘拐來的艦船，想要逃離港區結果卻迷路了",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "這就不好說了…總之，我們想要看看海，能為我們帶帶路嗎……？",
 			typewriter = {
@@ -209,15 +209,15 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "這裡是大講堂，現在正在上課，所以大家都在教室裡哦",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "（大家在一起上課……真和平啊……）",
 			typewriter = {
@@ -307,15 +307,15 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "從這裡再往前走就是後山的重櫻神社了。新年的時候大家都會來參拜呢",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "（嗯？{namecode:71}在發抖……為什麼？）",
 			typewriter = {
@@ -439,14 +439,14 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 407020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "累、累死了……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -487,12 +487,12 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "？？妳們的港區參觀不是從碼頭開始的嗎？",
 			typewriter = {
 				speed = 0.05,

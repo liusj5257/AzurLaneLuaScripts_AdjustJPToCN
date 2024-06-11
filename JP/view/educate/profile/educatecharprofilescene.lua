@@ -1,10 +1,10 @@
 slot0 = class("EducateCharProfileScene", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateCharProfileUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("adapt/top/back")
 	slot0.homeBtn = slot0:findTF("adapt/top/home")
 	slot0.paintingTr = slot0:findTF("main/mask/painting")
@@ -17,7 +17,7 @@ function slot0.init(slot0)
 	slot0.timers = {}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_PANEL)
@@ -27,7 +27,7 @@ function slot0.didEnter(slot0)
 	slot0:InitToggles()
 end
 
-function slot0.InitToggles(slot0)
+slot0.InitToggles = function(slot0)
 	slot1 = getProxy(EducateProxy):GetEducateGroupList()
 
 	table.sort(slot1, function (slot0, slot1)
@@ -49,7 +49,7 @@ function slot0.InitToggles(slot0)
 	slot0.isInit = false
 end
 
-function slot0.UpdateToggle(slot0, slot1, slot2)
+slot0.UpdateToggle = function(slot0, slot1, slot2)
 	setImageSprite(slot1:Find("sel/Text"), GetSpriteFromAtlas("ui/EducateCharProfileUI_atlas", slot2:GetSpriteName()), true)
 	setImageSprite(slot1:Find("Text"), GetSpriteFromAtlas("ui/EducateCharProfileUI_atlas", slot2:GetSpriteName()), true)
 	setActive(slot1:Find("lock"), slot2:IsLock())
@@ -70,7 +70,7 @@ function slot0.UpdateToggle(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.GetWordList(slot0, slot1)
+slot0.GetWordList = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(pg.character_voice_special.all) do
@@ -88,7 +88,7 @@ function slot0.GetWordList(slot0, slot1)
 	return slot2
 end
 
-function slot0.InitWordList(slot0, slot1)
+slot0.InitWordList = function(slot0, slot1)
 	slot3 = pg.secretary_special_ship[slot1]
 
 	slot0:RemoveAllTimer()
@@ -100,7 +100,7 @@ function slot0.InitWordList(slot0, slot1)
 	slot0.wordUIItemList:align(#slot0:GetWordList(slot1))
 end
 
-function slot0.UpdateWordCard(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateWordCard = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1:Find("bg")
 
 	setText(slot5:Find("Text"), pg.character_voice_special[slot3].voice_name)
@@ -143,7 +143,7 @@ function slot0.UpdateWordCard(slot0, slot1, slot2, slot3, slot4)
 	slot0.timers[slot4]:Start()
 end
 
-function slot0.RemoveAllTimer(slot0)
+slot0.RemoveAllTimer = function(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot5:Stop()
 
@@ -153,7 +153,7 @@ function slot0.RemoveAllTimer(slot0)
 	slot0.timers = {}
 end
 
-function slot0.OnChatStart(slot0, slot1, slot2, slot3)
+slot0.OnChatStart = function(slot0, slot1, slot2, slot3)
 	slot0.chatting = true
 	slot0.chatTxt.text = slot2
 
@@ -164,7 +164,7 @@ function slot0.OnChatStart(slot0, slot1, slot2, slot3)
 	slot3()
 end
 
-function slot0.UpdateExpression(slot0, slot1, slot2)
+slot0.UpdateExpression = function(slot0, slot1, slot2)
 	if EducateCharWordHelper.GetExpression(slot1, slot2) and slot3 ~= "" then
 		ShipExpressionHelper.UpdateExpression(findTF(slot0.paintingTr, "fitter"):GetChild(0), slot0.paintingName, slot3)
 	else
@@ -172,15 +172,15 @@ function slot0.UpdateExpression(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnChatEnd(slot0)
+slot0.OnChatEnd = function(slot0)
 	slot0:ClearCurrentWord()
 end
 
-function slot0.PlayCV(slot0, slot1, slot2, slot3)
+slot0.PlayCV = function(slot0, slot1, slot2, slot3)
 	slot0.cvLoader:Play(slot1, slot2, 0, slot3)
 end
 
-function slot0.StartCharAnimation(slot0, slot1, slot2)
+slot0.StartCharAnimation = function(slot0, slot1, slot2)
 	slot4 = slot1 > 0 and slot1 or 3
 
 	LeanTween.scale(rtf(slot0.chatTf.gameObject), Vector3.New(1, 1, 1), 0.3):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
@@ -188,7 +188,7 @@ function slot0.StartCharAnimation(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.InitPainting(slot0, slot1)
+slot0.InitPainting = function(slot0, slot1)
 	slot0:ReturnPainting()
 
 	slot2 = pg.secretary_special_ship[slot1]
@@ -198,7 +198,7 @@ function slot0.InitPainting(slot0, slot1)
 	slot0.paintingName = slot2.prefab
 end
 
-function slot0.ReturnPainting(slot0)
+slot0.ReturnPainting = function(slot0)
 	if slot0.paintingName then
 		retPaintingPrefab(slot0.paintingTr, slot0.paintingName)
 
@@ -206,7 +206,7 @@ function slot0.ReturnPainting(slot0)
 	end
 end
 
-function slot0.ClearCurrentWord(slot0)
+slot0.ClearCurrentWord = function(slot0)
 	slot0.chatting = nil
 
 	LeanTween.cancel(slot0.chatTf.gameObject)
@@ -224,11 +224,11 @@ function slot0.ClearCurrentWord(slot0)
 	triggerToggle(slot0.selectedCard:Find("state"), false)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:ClearCurrentWord()
 	slot0:RemoveAllTimer()
 	slot0:ReturnPainting()

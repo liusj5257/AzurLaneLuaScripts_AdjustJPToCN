@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGYEDEQIYU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WANSHENGYEDEQIYU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ハロウィンの遭遇\n\n<size=45>四 ウイッチ・オブ・ハロウィン</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
-			say = "魔女の占い屋にやってきた。",
 			bgm = "battle-highseasfleet-reborn",
+			say = "魔女の占い屋にやってきた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "ハロウィンの仮装といえば「魔女」が定番だが、母港の「魔女」といえば心当たりが多すぎて中々見当がつかない。",
 			typewriter = {
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "とりあえずドアを叩いてみよう。",
 			typewriter = {
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "魔女？",
+			side = 2,
 			bgName = "star_level_bg_162",
 			nameColor = "#A9F548FF",
 			say = "入りなさい。深夜の来訪者",
@@ -76,14 +76,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "夜が更けるこんな時間に訪れるなんて。貴方はハロウィンに迷い込んだ人間かしら？",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "夜が更けるこんな時間に訪れるなんて。貴方はハロウィンに迷い込んだ人間かしら？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,17 +93,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "煙に満ちた小屋の中ではっきりと見えるのは、テーブルの上に置かれた水晶玉と、魔女の衣装を身にまとうメンフィスだけだ。",
 			typewriter = {
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "しかし、メンフィスに占いができるとは……",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "それは……………",
 			typewriter = {
@@ -217,14 +217,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "ふぅ…………なるほど",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "ふぅ…………なるほど",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "その艦船は……",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "この占いは単なるハロウィンのアトラクションじゃなかったのか…？",
 			typewriter = {
@@ -343,14 +343,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "そうだけど、まあ正確に言えば、それを含めてのアトラクションね",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "そうだけど、まあ正確に言えば、それを含めてのアトラクションね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "そう言いながら、メンフィスは魔女の帽子をこちらに手渡してきた。",
 			typewriter = {
@@ -390,14 +390,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "ホウキも持っていってはどう？いざという時は長い棒として護身に使えるわよ",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "ホウキも持っていってはどう？いざという時は長い棒として護身に使えるわよ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "状況が分からない。占いで一体何が起きたというのだ…？",
 			typewriter = {
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "メンフィスがいう「厄介な」艦船……心当たりがあるようなないような……",
 			typewriter = {
@@ -452,14 +452,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "実際さっき会ったのよ。どうやって本物の武器をこの会場に持ち込んだのか見当も付かなかったわ",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "実際さっき会ったのよ。どうやって本物の武器をこの会場に持ち込んだのか見当も付かなかったわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,8 +470,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "本物の武器…？持ち物検査をごまかしてここに来れたら緊急事態だ。まさかセイレーンの差し金か……！？",
 			typewriter = {
@@ -499,8 +499,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "海賊の子…海賊の艦船といえば……",
 			typewriter = {
@@ -528,8 +528,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "……何が起きたかは気になる。適当にぶらぶらするより、早速向かってその「相手」の正体を確かめたほうが良さそうだ。",
 			typewriter = {

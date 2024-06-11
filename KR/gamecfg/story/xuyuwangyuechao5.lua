@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "과거, 사쿠라 엠파이어, 나가토의 거처",
 			bgm = "newyear2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "과거, 사쿠라 엠파이어, 나가토의 거처",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -88,13 +88,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_142",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나도 조사를 해봤지만, 신목이 시든다는 보고는 한 건뿐인 것 같더군…",
 			painting = {
 				alpha = 0.3,
@@ -125,13 +125,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "두 분께 알려드리지 않아 죄송하다는 말씀 먼저 드립니다.",
 			typewriter = {
 				speed = 0.05,
@@ -142,10 +142,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "사실 사쿠라 엠파이어에 있는 신목의 뿌리는 모두 '대신목'과 연결되어 있습니다.",
 			typewriter = {
@@ -154,13 +154,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "'침식'으로 뿌리가 잘린다면, 아무리 신목이라고 해도 지금 모습을 유지할 수 없게 됩니다.",
 			typewriter = {
 				speed = 0.05,
@@ -168,13 +168,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "뿌리에서 오는 영양이 사라지면, 언젠가는 완전히 시들어 버리고 말겠지요.",
 			typewriter = {
 				speed = 0.05,
@@ -185,10 +185,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "무사시 씨 쪽에 보고된 이변의 원인도 따지고 보면 '대신목'에 있다고 볼 수 있습니다.",
 			typewriter = {
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -209,8 +209,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -224,10 +224,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "신목 '중앵'… 그 꽃잎 한 장을 봐도……",
 			typewriter = {
@@ -236,13 +236,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "침식이 사쿠라 엠파이어 각지의 신목으로 확산되고 있는 것이 보입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -253,10 +253,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "이대로 방치하면 '대신목'을 비롯한 모든 신목이 말라 죽고 말 겁니다.",
 			typewriter = {
@@ -308,10 +308,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "'대신목'의 어딘가에 있다는 점은 확실합니다만…",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -335,10 +335,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "'대신목' 그 자체가 침식의 근원이라고 보는 것이 맞겠지요.",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -411,13 +411,13 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			oldPhoto = true,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_142",
+			dir = 1,
+			actor = 301490,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나가토 님, 밤 연회 준비가 끝났습니다. 연회장에서 손님이 기다리고 계십니다.",
 			painting = {
 				alpha = 0.3,
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_142",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -492,13 +492,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "……잘 부탁드립니다, 여우님.",
 			typewriter = {
 				speed = 0.05,
@@ -506,8 +506,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -518,8 +518,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -545,10 +545,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "무사시 씨, 하나 더 여쭙고 싶은 것이 있습니다.",
 			typewriter = {
@@ -557,13 +557,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "시나노 씨 상태는 어떤가요?",
 			typewriter = {
 				speed = 0.05,
@@ -590,13 +590,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "죄송합니다. 혹시…… 만나 뵐 수 있을까요?",
 			typewriter = {
 				speed = 0.05,
@@ -604,13 +604,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_142",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그대가 그렇게 말한다면야…",
 			painting = {
 				alpha = 0.3,
@@ -644,10 +644,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "알겠습니다. 무사시 씨 말씀대로 하지요.",
 			typewriter = {
@@ -675,8 +675,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -687,8 +687,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -699,8 +699,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -711,8 +711,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,

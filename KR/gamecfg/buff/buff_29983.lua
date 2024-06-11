@@ -1,13 +1,13 @@
 return {
 	{},
-	init_effect = "",
-	name = "专属弹幕",
 	time = 0,
-	color = "red",
+	name = "专属弹幕",
+	init_effect = "",
+	id = 29983,
 	picture = "",
 	desc = "DD主炮每进行6次攻击，触发专属弹幕-斯库拉II",
 	stack = 1,
-	id = 29983,
+	color = "red",
 	icon = 29980,
 	last_effect = "",
 	effect_list = {
@@ -30,8 +30,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29982,
+				target = "TargetSelf",
 				countType = 29980
 			}
 		}

@@ -1,12 +1,12 @@
 return {
-	icon = 600009,
 	name = "",
 	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 600009,
-	picture = "",
+	icon = 600009,
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",

@@ -1,6 +1,6 @@
 slot0 = class("AtelierMediator", import("view.base.ContextMediator"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(GAME.UPDATE_ATELIER_BUFF, function (slot0, slot1)
 		uv0:sendNotification(GAME.UPDATE_ATELIER_BUFF, slot1)
 	end)
@@ -17,14 +17,14 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetActivity(slot1)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		ActivityProxy.ACTIVITY_UPDATED,
 		GAME.UPDATE_ATELIER_BUFF_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == nil then
@@ -38,7 +38,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 end
 
 return slot0

@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
+			soundeffect = "event:/battle/boom2",
 			side = 2,
-			bgName = "bg_yuanhuidian",
+			stopbgm = true,
 			bgm = "story-6",
+			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			say = "ーーーーー！！！",
-			soundeffect = "event:/battle/boom2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "演習エリアで始まった実験作戦の最後の戦いは愉快な雰囲気の中、繰り広げられた。",
 			typewriter = {
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "通信機から仲間のゆったりとした声がすると、三人は一斉に動きを止めた。",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			nameColor = "#A9F548FF",
 			say = "ブリュッヒャーにZ16、そしてブリュンヒルデ。あなたたちの「実験」は無事に完了したわ。これで鉄血もさらなる一歩を踏み出せることでしょう",
 			painting = {
@@ -336,8 +336,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			nameColor = "#A9F548FF",
 			say = "ふふふ。ありがとう",
 			painting = {
@@ -554,8 +554,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			blackBg = true,
 			say = "オイゲンとブリュッヒャー、姉妹の何気ない楽しそうな雑談と共に、一行の艦影は鏡面海域の出口に消えた。",

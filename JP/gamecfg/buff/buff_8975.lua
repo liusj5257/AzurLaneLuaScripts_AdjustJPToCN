@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "英系V3 奇异点波动TYPEB",
 	time = 0,
-	color = "red",
+	name = "英系V3 奇异点波动TYPEB",
+	init_effect = "",
+	id = 8975,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8975,
+	color = "red",
 	icon = 8975,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = -2000
+				number = -2000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 2000
+				number = 2000,
+				attr = "airPower"
 			}
 		}
 	}

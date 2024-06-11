@@ -3,19 +3,19 @@ slot0.OPEN_GRATITUDE_PAGE = "SculptureScene:OPEN_GRATITUDE_PAGE"
 slot1 = 5
 slot2 = 6
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SculptureUI"
 end
 
-function slot0.SetActivity(slot0, slot1)
+slot0.SetActivity = function(slot0, slot1)
 	slot0.activity = slot1
 end
 
-function slot0.GetBaseActivity(slot0)
+slot0.GetBaseActivity = function(slot0)
 	return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG)
 end
 
-function slot0.OnUpdateActivity(slot0, slot1, slot2, slot3)
+slot0.OnUpdateActivity = function(slot0, slot1, slot2, slot3)
 	slot0:SetActivity(slot3)
 
 	for slot7, slot8 in ipairs(slot0.cards) do
@@ -42,7 +42,7 @@ function slot0.OnUpdateActivity(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("back")
 	slot0.helpBtn = slot0:findTF("help")
 	slot0.awardBtn = slot0:findTF("award")
@@ -85,7 +85,7 @@ function slot0.init(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	seriesAsync({
 		function (slot0)
 			uv0:UpdateResIcon()
@@ -99,14 +99,14 @@ function slot0.didEnter(slot0)
 	})
 end
 
-function slot0.UpdateResIcon(slot0)
+slot0.UpdateResIcon = function(slot0)
 	slot0.oreIcon.sprite = LoadSprite("props/" .. pg.activity_workbench_item[uv0].icon)
 	slot0.featherIcon.sprite = LoadSprite("props/" .. pg.activity_workbench_item[uv1].icon)
 	rtf(slot0.oreIcon.gameObject).sizeDelta = Vector2(80, 80)
 	rtf(slot0.featherIcon.gameObject).sizeDelta = Vector2(80, 80)
 end
 
-function slot0.InitMainView(slot0, slot1)
+slot0.InitMainView = function(slot0, slot1)
 	slot0.cards = {}
 	slot2 = {}
 	slot6 = "config_data"
@@ -130,18 +130,18 @@ function slot0.InitMainView(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.UpdateRes(slot0)
+slot0.UpdateRes = function(slot0)
 	slot1 = slot0:GetBaseActivity()
 	slot0.oreTxt.text = slot1:getVitemNumber(uv0)
 	slot0.featherTxt.text = slot1:getVitemNumber(uv1)
 end
 
-function slot0.UpdateAward(slot0)
+slot0.UpdateAward = function(slot0)
 	slot1, slot2 = slot0.activity:GetAwardProgress()
 	slot0.awardTxt.text = slot1 .. "/" .. slot2
 end
 
-function slot0.CreateNewCard(slot0, slot1, slot2)
+slot0.CreateNewCard = function(slot0, slot1, slot2)
 	slot3 = SculptureCard.New(slot1)
 
 	slot3:Update(slot2, slot0.activity)
@@ -187,7 +187,7 @@ function slot0.CreateNewCard(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.RegisterEvent(slot0, slot1)
+slot0.RegisterEvent = function(slot0, slot1)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_PANEL)
@@ -208,11 +208,11 @@ function slot0.RegisterEvent(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.EnterDrawLinePage(slot0, slot1)
+slot0.EnterDrawLinePage = function(slot0, slot1)
 	slot0.drawLinePage:ExecuteAction("Show", slot1, slot0.activity)
 end
 
-function slot0.EnterPresentedPage(slot0, slot1)
+slot0.EnterPresentedPage = function(slot0, slot1)
 	slot2 = slot0.presentedPage
 
 	slot2:ExecuteAction("Show", slot1, slot0.activity, function ()
@@ -222,7 +222,7 @@ function slot0.EnterPresentedPage(slot0, slot1)
 	end)
 end
 
-function slot0.EnterPuzzlePage(slot0, slot1)
+slot0.EnterPuzzlePage = function(slot0, slot1)
 	slot2 = slot0.puzzlePage
 
 	slot2:ExecuteAction("Show", slot1, slot0.activity, function ()
@@ -232,11 +232,11 @@ function slot0.EnterPuzzlePage(slot0, slot1)
 	end)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	for slot4, slot5 in ipairs(slot0.cards) do
 		slot5:Dispose()
 	end

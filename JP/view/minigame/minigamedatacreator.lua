@@ -4,7 +4,7 @@ slot0.FireWorkGameID = 4
 slot0.TowerClimbingGameID = 13
 slot0.NewYearShrineGameID = 20
 
-function slot0.DataCreateFunc(slot0, slot1, slot2, slot3)
+slot0.DataCreateFunc = function(slot0, slot1, slot2, slot3)
 	if slot0 == MiniGameOPCommand.CMD_SPECIAL_GAME then
 		slot5 = slot1[2]
 		slot8 = {}

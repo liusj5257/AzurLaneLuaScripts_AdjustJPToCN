@@ -1,8 +1,8 @@
 return {
-	id = "BIHAIGUANGLIN33-4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN33-4",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -24,8 +24,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			say = "山風はバリアの中にいるから平気だけど、白龍は大変だよね…",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "3つ目の仕掛けも起動したか。面倒だな…",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			say = "白龍、回避行動を取っています…っ！",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "同じ重桜なら仲間です！白龍を傷つけるつもりはありませんから一度話し合いを！",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			say = "そうだ！あの大砲の使い方うちも知りたいのだ！",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "使い方だと？…むっ、どうやって使うか…我もこの竜宮城のことなどよくわからん！",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "お前らがもし勝ったら、我はお前らの言うことを聞いてやる！",
 			typewriter = {
 				speed = 0.05,

@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK19902",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK19902",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199020,
 			dir = 1,
+			actor = 199020,
 			say = "콜라로 오늘의 성과를 축하하자~",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 199020,
 			dir = 1,
+			actor = 199020,
 			say = "내 거대한 포로 적을 박살내 줄테니까, 같이 노력하자?",
 			typewriter = {
 				speed = 0.05,

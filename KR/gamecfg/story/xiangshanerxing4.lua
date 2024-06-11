@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_chongdong",
+			bgm = "story-darkplan",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "???, ???",
-			bgm = "story-darkplan",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			say = "눈앞에 은빛이 흩날리는 은하수가 펼쳐져 있다.",
@@ -83,10 +83,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "정답은 전자야. 지휘관의 꿈이면서 다른 사람의 꿈이기도 해.",
 			painting = {
 				alpha = 0.3,
@@ -101,10 +101,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "오랜만이야, 지휘관.",
 			painting = {
 				alpha = 0.3,
@@ -131,10 +131,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "응, 당신의 '헬레나'야.",
 			painting = {
 				alpha = 0.3,
@@ -161,10 +161,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "별말씀을. 해야 할 일을 한 것뿐인걸.",
 			painting = {
 				alpha = 0.3,
@@ -179,10 +179,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "그나저나…… 꿈이 정신개입을 당하고 있는데 아무렇지도 않은 모양이네…",
 			painting = {
 				alpha = 0.3,
@@ -197,10 +197,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "보통은 음… 좀 더 놀라지 않아?",
 			painting = {
 				alpha = 0.3,
@@ -239,10 +239,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "맞아, 난 절대 지휘관을 해치지 않아.",
 			painting = {
 				alpha = 0.3,
@@ -257,10 +257,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "……그럼 슬슬 본론으로 들어갈게.",
 			painting = {
 				alpha = 0.3,
@@ -275,10 +275,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "지휘관이 알지 못하는… 굉장히 가까운 곳에서 치열한 싸움이 벌어지고 있어.",
 			painting = {
 				alpha = 0.3,
@@ -293,10 +293,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "자세한 것까지 지휘관이 알 필요는 없으니까 생략하겠지만, 평소라면 더 간단한 통신 방법을 취했을 거라는 점은 알아줘.",
 			painting = {
 				alpha = 0.3,
@@ -308,12 +308,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "물론 이렇게 만나는 건 안전을 위해서지, 지휘관.",
 			painting = {
 				alpha = 0.3,
@@ -328,10 +328,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "그래서 말인데… 당신에게 전할 게 있어.",
 			painting = {
 				alpha = 0.3,
@@ -346,10 +346,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "데이터 전송 모드, 이동 시작……",
 			painting = {
 				alpha = 0.3,
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			say = "헬레나 주변으로 푸른빛이 나타났고, 이윽고 빛이 조각나면서 탁류처럼 내 쪽으로 밀려들어왔다.",
@@ -387,10 +387,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "특수한 정보 전달 수단이라고 생각해. 물론 이것도 다 안전을 위한 거야.",
 			painting = {
 				alpha = 0.3,
@@ -405,10 +405,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "피하려고 하지 말고 받아들여.",
 			painting = {
 				alpha = 0.3,
@@ -423,10 +423,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "이것만은 꼭 알아둬야 할 테니까.",
 			painting = {
 				alpha = 0.3,
@@ -438,27 +438,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_505",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_505",
 			say = "푸른빛이 시야를 가린다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -466,8 +466,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
 			say = "그리고 머릿속에 갑자기 '화면'이 떠올랐다.",
@@ -527,11 +527,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
+			bgName = "bg_port_chongdong",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "…어쩔 수 없지.",
 			painting = {
 				alpha = 0.3,
@@ -542,17 +542,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -563,10 +563,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "새러토가는 렉싱턴에 관한 거라면 냉정을 잃으니까.",
 			painting = {
 				alpha = 0.3,
@@ -578,12 +578,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "지휘관은…… 어떻게 할 거야?",
 			painting = {
 				alpha = 0.3,
@@ -670,10 +670,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "나도 같은 생각이야.",
 			painting = {
 				alpha = 0.3,
@@ -688,10 +688,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = " '벽람항로'의 재결성… 그걸 지휘관이 원한다면 나도 협력할게.",
 			painting = {
 				alpha = 0.3,
@@ -706,10 +706,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "어쨌든 정보는 전달했어. 어떻게 움직일지는 지휘관이 결정해.",
 			painting = {
 				alpha = 0.3,
@@ -724,10 +724,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "…지금 일어나고 있는 싸움은 실험장β, 즉 지휘관이 있는 '가지'의 운명이 달려있어.",
 			painting = {
 				alpha = 0.3,
@@ -742,10 +742,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "하고 싶은 게 있다면 빨리해두는 편이 좋을 거야.",
 			painting = {
 				alpha = 0.3,
@@ -772,10 +772,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "맞아, 후후후…",
 			painting = {
 				alpha = 0.3,
@@ -790,10 +790,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "잘 자, 지휘관. 남은 시간이나마 좋은 꿈 꿔.",
 			painting = {
 				alpha = 0.3,

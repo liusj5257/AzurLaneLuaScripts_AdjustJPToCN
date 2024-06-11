@@ -2,11 +2,11 @@ slot0 = class("ShootingGameView", import("..BaseMiniGameView"))
 slot0.animTime = 0.3333333333333333
 slot0.moveModulus = 120
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShootingGameUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.uiMGR = pg.UIMgr.GetInstance()
 	slot0.blurPanel = slot0._tf:Find("noAdaptPanel/blur_panel")
 	slot0.top = slot0.blurPanel:Find("top")
@@ -48,13 +48,13 @@ function slot0.init(slot0)
 	setActive(slot0.resultPanel, false)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.tempConfig = slot0:GetMGData():getConfig("simple_config_data")
 	slot0.tempConfig.waitCountdown = 3
 	slot0.tempConfig.half = 56
 end
 
-function slot0.addTimer(slot0, slot1, slot2, slot3)
+slot0.addTimer = function(slot0, slot1, slot2, slot3)
 	slot0.timerList = slot0.timerList or {}
 
 	assert(slot0.timerList[slot1] == nil, "error Timers")
@@ -66,7 +66,7 @@ function slot0.addTimer(slot0, slot1, slot2, slot3)
 	}
 end
 
-function slot0.updateTimers(slot0)
+slot0.updateTimers = function(slot0)
 	slot1 = Time.realtimeSinceStartup
 
 	for slot5, slot6 in pairs(slot0.timerList) do
@@ -78,7 +78,7 @@ function slot0.updateTimers(slot0)
 	end
 end
 
-function slot0.stopTimers(slot0)
+slot0.stopTimers = function(slot0)
 	slot0.isStopped = true
 	slot1 = Time.realtimeSinceStartup
 
@@ -87,7 +87,7 @@ function slot0.stopTimers(slot0)
 	end
 end
 
-function slot0.restartTimers(slot0)
+slot0.restartTimers = function(slot0)
 	slot0.isStopped = false
 	slot1 = Time.realtimeSinceStartup
 
@@ -96,11 +96,11 @@ function slot0.restartTimers(slot0)
 	end
 end
 
-function slot0.clearTimers(slot0)
+slot0.clearTimers = function(slot0)
 	slot0.timerList = {}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0.isPlaying then
 			uv0:stopTimers()
@@ -137,15 +137,15 @@ function slot0.didEnter(slot0)
 	setActive(slot0.startMaskTF, true)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	triggerButton(slot0.backBtn)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	return Vector2(math.clamp(slot0.x, -slot1.x, slot1.x), math.clamp(slot0.y, -slot1.y, slot1.y))
 end
 
-function slot0.update(slot0)
+slot0.update = function(slot0)
 	slot1 = Time.GetTimestamp()
 
 	if not slot0.isStopped then
@@ -164,7 +164,7 @@ function slot0.update(slot0)
 	slot0.sightTimeMark = slot1
 end
 
-function slot0.resetTime(slot0)
+slot0.resetTime = function(slot0)
 	slot0.countdown = slot0.tempConfig.waitCountdown
 
 	setText(slot0.countdownTF, slot0.countdown)
@@ -174,7 +174,7 @@ function slot0.resetTime(slot0)
 	setText(slot0.lastTimeTF, slot0.lastTime)
 end
 
-function slot0.gameStart(slot0)
+slot0.gameStart = function(slot0)
 	slot0.isPlaying = true
 	slot1 = UpdateBeat
 
@@ -185,7 +185,7 @@ function slot0.gameStart(slot0)
 
 	setActive(slot2:Find("word"), false)
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		slot1 = uv0
 
 		slot1:addTimer("start countdown", 1, function ()
@@ -204,7 +204,7 @@ function slot0.gameStart(slot0)
 	slot1(slot1)
 end
 
-function slot0.afterCountDown(slot0)
+slot0.afterCountDown = function(slot0)
 	slot0.isAfterCount = true
 	slot1 = slot0.uiMGR
 
@@ -218,7 +218,7 @@ function slot0.afterCountDown(slot0)
 
 	slot0:flushTarget(true)
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		slot1 = uv0
 
 		slot1:addTimer("gamefinish", 1, function ()
@@ -237,7 +237,7 @@ function slot0.afterCountDown(slot0)
 	slot1(slot1)
 end
 
-function slot0.gameFinish(slot0, slot1)
+slot0.gameFinish = function(slot0, slot1)
 	if slot0.isAfterCount then
 		slot0:setFireLink(false)
 		slot0.uiMGR:ClearStick()
@@ -270,7 +270,7 @@ function slot0.gameFinish(slot0, slot1)
 	end
 end
 
-function slot0.resultFinish(slot0)
+slot0.resultFinish = function(slot0)
 	slot2 = nil
 
 	for slot6 = 1, #slot0.tempConfig.score_level do
@@ -290,8 +290,8 @@ function slot0.resultFinish(slot0)
 	end
 end
 
-function slot0.showResultPanel(slot0, slot1, slot2)
-	function slot3()
+slot0.showResultPanel = function(slot0, slot1, slot2)
+	slot3 = function()
 		setActive(uv0.resultPanel, false)
 
 		if uv1 then
@@ -332,7 +332,7 @@ function slot0.showResultPanel(slot0, slot1, slot2)
 	setActive(slot0.resultPanel, true)
 end
 
-function slot0.updateAfterFinish(slot0)
+slot0.updateAfterFinish = function(slot0)
 	pg.m02:sendNotification(GAME.MODIFY_MINI_GAME_DATA, {
 		id = MiniGameDataCreator.ShrineGameID,
 		map = {
@@ -341,7 +341,7 @@ function slot0.updateAfterFinish(slot0)
 	})
 end
 
-function slot0.OnGetAwardDone(slot0, slot1)
+slot0.OnGetAwardDone = function(slot0, slot1)
 	if slot1.cmd == MiniGameOPCommand.CMD_COMPLETE then
 		if slot0:GetMGHubData().ultimate == 0 and slot2:getConfig("reward_need") <= slot2.usedtime then
 			pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
@@ -355,11 +355,11 @@ function slot0.OnGetAwardDone(slot0, slot1)
 	end
 end
 
-function slot0.OnSendMiniGameOPDone(slot0, slot1)
+slot0.OnSendMiniGameOPDone = function(slot0, slot1)
 	slot0:updateCount()
 end
 
-function slot0.updateCount(slot0)
+slot0.updateCount = function(slot0)
 	setText(slot0.ticketTF, slot0:GetMGHubData().count)
 
 	slot0.bestScore = checkExist(slot0:GetMGData():GetRuntimeData("elements"), {
@@ -369,7 +369,7 @@ function slot0.updateCount(slot0)
 	setText(slot0.bestScoreTF, slot0.bestScore)
 end
 
-function slot0.initFireFunc(slot0)
+slot0.initFireFunc = function(slot0)
 	slot1 = pg.TipsMgr.GetInstance()
 	slot2 = pg.TimeMgr.GetInstance()
 	slot3 = slot0.sightTF
@@ -378,7 +378,7 @@ function slot0.initFireFunc(slot0)
 	setImageAlpha(slot3:Find("sight_base"), 1)
 	setImageAlpha(slot4:Find("sight_ready"), 0)
 
-	function slot5()
+	slot5 = function()
 		setActive(uv0.corners, true)
 
 		slot0 = LeanTween.scale(uv1, Vector3(1.95, 1.95, 1), 0.1)
@@ -389,7 +389,7 @@ function slot0.initFireFunc(slot0)
 		end))
 	end
 
-	function slot6()
+	slot6 = function()
 		setActive(uv0.corners, false)
 		LeanTween.alpha(uv1, 1, 0.1)
 
@@ -400,11 +400,11 @@ function slot0.initFireFunc(slot0)
 		end))
 	end
 
-	function slot0._downFunc()
+	slot0._downFunc = function()
 		uv0()
 	end
 
-	function slot0._upFunc()
+	slot0._upFunc = function()
 		LeanTween.scale(uv0, Vector3(2, 2, 2), 0.03):setOnComplete(System.Action(function ()
 			LeanTween.scale(uv0, Vector3.one, 0.07):setOnComplete(System.Action(function ()
 				uv0()
@@ -454,14 +454,14 @@ function slot0.initFireFunc(slot0)
 		end)
 	end
 
-	function slot0._cancelFunc()
+	slot0._cancelFunc = function()
 		uv0()
 	end
 
 	slot0._emptyFunc = nil
 end
 
-function slot0.setFireLink(slot0, slot1)
+slot0.setFireLink = function(slot0, slot1)
 	if slot1 then
 		setButtonEnabled(slot0.fireBtn, true)
 
@@ -528,7 +528,7 @@ function slot0.setFireLink(slot0, slot1)
 	end
 end
 
-function slot0.flushTarget(slot0, slot1)
+slot0.flushTarget = function(slot0, slot1)
 	if slot1 then
 		slot0.targetCount = {
 			2,
@@ -574,7 +574,7 @@ function slot0.flushTarget(slot0, slot1)
 	setText(slot0.scoreTF, slot0.score)
 end
 
-function slot0.checkHit(slot0)
+slot0.checkHit = function(slot0)
 	for slot4 = 1, 3 do
 		for slot8 = 1, 6 do
 			if slot0.cell[slot4][slot8] then
@@ -589,7 +589,7 @@ function slot0.checkHit(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

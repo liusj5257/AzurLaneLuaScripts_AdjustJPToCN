@@ -1,12 +1,12 @@
 return {
-	id = "W1032",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1032",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "해역에서 행적이 기이한 세이렌 개체 발견!",
 			typewriter = {
 				speed = 0.05,

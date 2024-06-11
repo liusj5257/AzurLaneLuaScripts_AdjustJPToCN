@@ -1,23 +1,23 @@
 slot0 = class("MilitaryShopPage", import(".BaseShopPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MilitaryShop"
 end
 
-function slot0.GetPaintingCommodityUpdateVoice(slot0)
+slot0.GetPaintingCommodityUpdateVoice = function(slot0)
 end
 
-function slot0.CanOpen(slot0, slot1, slot2)
+slot0.CanOpen = function(slot0, slot1, slot2)
 	return pg.SystemOpenMgr.GetInstance():isOpenSystem(slot2.level, "MilitaryExerciseMediator")
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.exploitTF = slot0:findTF("res_exploit/bg/Text"):GetComponent(typeof(Text))
 	slot0.timerTF = slot0:findTF("timer_bg/Text"):GetComponent(typeof(Text))
 	slot0.refreshBtn = slot0:findTF("refresh_btn")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = pg.arena_data_shop[1]
 
 	onButton(slot0, slot0.refreshBtn, function ()
@@ -42,21 +42,21 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdatePlayer(slot0)
+slot0.OnUpdatePlayer = function(slot0)
 	slot0.exploitTF.text = slot0.player.exploit
 end
 
-function slot0.OnSetUp(slot0)
+slot0.OnSetUp = function(slot0)
 	slot0:RemoveTimer()
 	slot0:AddTimer()
 end
 
-function slot0.OnUpdateAll(slot0)
+slot0.OnUpdateAll = function(slot0)
 	slot0:InitCommodities()
 	slot0:OnSetUp()
 end
 
-function slot0.OnUpdateCommodity(slot0, slot1)
+slot0.OnUpdateCommodity = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in pairs(slot0.cards) do
@@ -72,7 +72,7 @@ function slot0.OnUpdateCommodity(slot0, slot1)
 	end
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = GoodsCard.New(slot1)
 
 	onButton(slot0, slot2.go, function ()
@@ -88,7 +88,7 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -98,7 +98,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3:update(slot0.displays[slot1 + 1])
 end
 
-function slot0.OnClickCommodity(slot0, slot1)
+slot0.OnClickCommodity = function(slot0, slot1)
 	slot2 = slot1
 
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -114,7 +114,7 @@ function slot0.OnClickCommodity(slot0, slot1)
 	})
 end
 
-function slot0.AddTimer(slot0)
+slot0.AddTimer = function(slot0)
 	slot1 = slot0.shop.nextTime + 1
 	slot0.timer = Timer.New(function ()
 		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() <= 0 then
@@ -129,11 +129,11 @@ function slot0.AddTimer(slot0)
 	slot0.timer.func()
 end
 
-function slot0.OnTimeOut(slot0)
+slot0.OnTimeOut = function(slot0)
 	slot0:emit(NewShopsMediator.REFRESH_MILITARY_SHOP)
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -141,7 +141,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:RemoveTimer()
 end
 

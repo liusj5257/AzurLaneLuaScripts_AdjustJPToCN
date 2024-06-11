@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_366 = {}
 slot1 = slot0.word_template_366
 
-function temp()
+temp = function()
 	uv0["承"] = {
 		["认"] = {
 			["6"] = {
@@ -19,7 +19,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["烈"] = {
 		["士"] = {
 			this = true
@@ -29,7 +29,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["争"] = {
 		["取"] = {
 			["民"] = {
@@ -43,7 +43,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["ⅵ"] = {
 		["ⅳ"] = {
 			["纪"] = {
@@ -59,7 +59,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["9"] = {
 		["8"] = {
 			["7"] = {
@@ -154,7 +154,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["皿"] = {
 		["煑"] = {
 			["謌"] = {
@@ -188,7 +188,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["“"] = {
 		["八"] = {
 			["九"] = {

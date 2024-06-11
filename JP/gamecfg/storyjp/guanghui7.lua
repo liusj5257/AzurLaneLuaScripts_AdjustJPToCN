@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ご令嬢の小さな提案\n\n<size=45>七 とっておきの二人の場所</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "――お茶会当日。",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "――お茶会当日。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "紆余曲折あったが、無事にイラストリアスが見つけた絶景スポットでお茶会が開かれることとなった。",
 			typewriter = {
 				speed = 0.05,
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "それにしても、本当にきれいに母港が見渡せるのね～",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -138,9 +138,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "他にもそれぞれの感想を聞いたが、イラストリアスが見つけたこの場所は絶賛の嵐であった。",
 			typewriter = {
 				speed = 0.05,
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "ずらりと並べられた紅茶とお菓子を味わい、楽しそうにしている皆の姿を見てほっとする。",
 			typewriter = {
 				speed = 0.05,
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "なんだか一仕事終えたような気分になると、少しだけ一人になりたくなって皆の場をそっと離れた。",
 			typewriter = {
 				speed = 0.05,
@@ -180,13 +180,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "眼下に広がる母港を眺めていると、イラストリアスが側にやってきた。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "太陽に照らされキラキラと光る海から、静かな波の音が聞こえてくる。",
 			typewriter = {
 				speed = 0.05,
@@ -289,9 +289,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "イラストリアスと視線が重なる。もはやどちらから言うでもなく手と手が絡み合った",
 			typewriter = {
 				speed = 0.05,
@@ -351,9 +351,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "イラストリアスはそう言って、とても幸せそうに笑ってみせる。",
 			typewriter = {
 				speed = 0.05,
@@ -381,9 +381,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "きっと……二人でなら、どんなに話しあっても足りないくらいの時間があるはずだ。",
 			typewriter = {
 				speed = 0.05,
@@ -395,9 +395,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "だから、何度だってここに来よう。",
 			typewriter = {
 				speed = 0.05,

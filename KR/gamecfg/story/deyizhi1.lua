@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DEYIZHI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DEYIZHI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"도이칠란트의 우울\n\n<size=45>발단</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,11 +94,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#92fc63",
 			say = "명령이야, 뭔가 재미있는 걸 좀 찾아와. 안 그러면 돌아갈 거다?!",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 403040,
 			nameColor = "#92fc63",
 			say = "도이칠란트가 계속 하고 싶다고 조르는 바람에 비서함을 맡게 해주었지만, 평소와 별반 다를 바 없구나.",
 			typewriter = {
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "싫어. 하등생물의 뒤치다꺼리 따위.",
 			typewriter = {
 				speed = 0.05,
@@ -161,11 +161,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#92fc63",
 			say = "그런 눈으로 쳐다봐도 소용없어!",
 			typewriter = {
 				speed = 0.05,
@@ -183,11 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "……흥! 자기 일을 도와달라 주인에게 부탁하다니, 정말 구제불능인 하등생물이구나!",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -209,12 +209,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "뭐 좋아. 그 부탁, 평소의 충성심을 보아 이번엔 특별히 들어주도록 하지! 나는 자비로우니까 말이야! ",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "뭐 좋아. 그 부탁, 평소의 충성심을 보아 이번엔 특별히 들어주도록 하지! 나는 자비로우니까 말이야! ",
+			actor = 403040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -229,11 +229,11 @@ return {
 			}
 		},
 		{
-			actor = 201220,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201220,
+			nameColor = "#92fc63",
 			say = "저, 저기… 지휘관?",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -255,11 +255,11 @@ return {
 			}
 		},
 		{
-			actor = 201220,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201220,
+			nameColor = "#92fc63",
 			say = "임무 보고서를 가져다 드리려고 왔어요……",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -281,12 +281,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "……",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "……",
+			actor = 403040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -301,11 +301,11 @@ return {
 			}
 		},
 		{
-			actor = 201220,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201220,
+			nameColor = "#92fc63",
 			say = "그, 그럼, 더 지시하실 일이 없으시면, 이, 이만 들어가 볼게요……",
 			typewriter = {
 				speed = 0.05,
@@ -317,15 +317,15 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					dur = 0.1,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 1500
@@ -333,9 +333,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……감사를 표하려 했지만, 주노는 이미 그 전에 일찌감치 방에서 나가버렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -343,11 +343,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#92fc63",
 			say = "아하하하하하! 하인이여, 지금 거 봤어?? 저 구축함의 겁먹은 눈!",
 			typewriter = {
 				speed = 0.05,
@@ -359,8 +359,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -401,9 +401,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "도이칠란트는 비서함의 즐거움에 눈을 뜬 모양이다.",
 			typewriter = {
 				speed = 0.05,

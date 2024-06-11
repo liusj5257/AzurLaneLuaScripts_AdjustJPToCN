@@ -5,11 +5,11 @@ slot2 = class("AutoPilotCircle", slot0.Battle.IPilot)
 slot0.Battle.AutoPilotCircle = slot2
 slot2.__name = "AutoPilotCircle"
 
-function slot2.Ctor(slot0, ...)
+slot2.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 end
 
-function slot2.SetParameter(slot0, slot1, slot2)
+slot2.SetParameter = function(slot0, slot1, slot2)
 	uv0.super.SetParameter(slot0, slot1, slot2)
 
 	slot0._referencePoint = Vector3(slot1.x, 0, slot1.z)
@@ -22,7 +22,7 @@ function slot2.SetParameter(slot0, slot1, slot2)
 	end
 end
 
-function slot2._clockWise(slot0, slot1)
+slot2._clockWise = function(slot0, slot1)
 	if slot0:IsExpired() then
 		slot0:Finish()
 
@@ -38,7 +38,7 @@ function slot2._clockWise(slot0, slot1)
 	end
 end
 
-function slot2._antiClockWise(slot0, slot1)
+slot2._antiClockWise = function(slot0, slot1)
 	if slot0._duration > 0 and slot0._duration < pg.TimeMgr.GetInstance():GetCombatTime() - slot0._startTime then
 		slot0:Finish()
 

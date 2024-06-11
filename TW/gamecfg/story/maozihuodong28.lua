@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG28",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG28",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900219,
 			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "居然這樣也能戰鬥嗎…？！",
 			bgm = "bgm-cccp",
+			actor = 900219,
+			nameColor = "#ff5c5c",
+			say = "居然這樣也能戰鬥嗎…？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,11 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "I will be back …!",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -65,9 +65,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "清除者高舉著一隻手，似乎說了些什麼，然後消失在水面之下",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "這樣…？剛剛囂張的氣焰到哪去了？見識到塔什干的厲害了吧！",
 			typewriter = {
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "轟隆隆隆隆-----！",
 			dialogShake = {
 				speed = 0.09,
@@ -134,8 +134,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "啊咧，還有後手嗎？！冰要塞殘存的結構開始崩塌了，大家注意規避！",
 			typewriter = {
@@ -148,15 +148,15 @@ return {
 			}
 		},
 		{
-			say = "天崩地裂一般的響動之後，海面上除了漂浮的塞壬艦隊的殘骸之外，要塞的存在被整個抹除了，連一絲痕跡都沒剩下。",
 			side = 2,
 			bgName = "bg_cccp_8",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bgm-cccp2",
+			say = "天崩地裂一般的響動之後，海面上除了漂浮的塞壬艦隊的殘骸之外，要塞的存在被整個抹除了，連一絲痕跡都沒剩下。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -181,9 +181,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "風暴不知何時也停止了，烏雲開始消散，幾縷陽光透過烏雲灑在海面。",
 			typewriter = {
 				speed = 0.05,
@@ -227,9 +227,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "眼前的極地之海，一片平靜，和來的時候似乎相似，卻又不盡相同。",
 			typewriter = {
 				speed = 0.05,
@@ -257,9 +257,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "沒錯，確實是坎坷曲折，甚至還一覽了傳說中北方聯合的極地艦隊的真正姿態…",
 			typewriter = {
 				speed = 0.05,
@@ -271,9 +271,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "等辦好防區交接之類的事之後，終於可以回港區好好休息一下了吧",
 			typewriter = {
 				speed = 0.05,
@@ -285,9 +285,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "正當這麼想的時候——",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "指揮官同志，如果可以的話，能稍微在北方聯合再待一陣子嗎？",
 			typewriter = {

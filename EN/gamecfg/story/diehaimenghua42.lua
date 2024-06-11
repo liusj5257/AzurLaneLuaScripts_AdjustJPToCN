@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA42",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA42",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 1,
-			side = 2,
-			bgName = "bg_mirror",
-			nameColor = "#ff5c5c",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			actorName = "Purifier",
+			dir = 1,
+			bgmDelay = 1,
+			bgName = "bg_mirror",
 			bgm = "story-5",
 			actor = 900233,
-			actorName = "Purifier",
+			nameColor = "#ff5c5c",
 			say = "Took you long enough, Observer. What's the matter, run into trouble~?",
 			flashin = {
 				delay = 1,
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900232,
 			actorName = "Observer",
 			say = "Turn each observation spot, and all processing resources into sensors. She'll be here soon.",
 			typewriter = {
@@ -53,11 +53,11 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900232,
 			actorName = "Observer",
 			say = "3... 2... 1...",
 			typewriter = {
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900232,
 			actorName = "Observer",
 			say = "Zero.",
 			typewriter = {
@@ -87,11 +87,11 @@ return {
 			}
 		},
 		{
-			actor = 900230,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900230,
 			actorName = "Compiler",
 			say = "Indeed. I am here. Three objectives. Verification complete. Energy level recording complete.",
 			typewriter = {
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900232,
 			actorName = "Observer",
 			say = "I guess it worked.",
 			typewriter = {
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900219,
 			actorName = "Omitter",
 			say = "This is an Arbiter? She's a lot shabbier than what I imagined.",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 900230,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900230,
 			actorName = "Compiler",
 			say = "How would you like to die? Crushed by waves, or drowned by storms?",
 			typewriter = {
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900219,
 			actorName = "Omitter",
 			say = "Woahh, why don't we put that menacing aura away? Real dangerous fella we've got here.",
 			typewriter = {
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "Tester",
 			say = "Arbiters function on a different program from ours, and \"Zero\" is on a lower-level program, so there's no need to share information among all of us.",
 			typewriter = {
@@ -271,11 +271,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900011,
 			actorName = "Tester",
 			say = "They are almost exclusively concerned with \"Code G,\" which means they probably won't interfere with us.",
 			typewriter = {
@@ -306,11 +306,11 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900232,
 			actorName = "Observer",
 			say = "(Why does Zero prohibit observers from exchanging information across multiple timelines? ...After all, I'm sure Zero is investing a lot of resources here.)",
 			typewriter = {
@@ -323,11 +323,11 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
+			actor = 900232,
 			actorName = "Observer",
 			say = "(More and more uncertainties appear in this timeline. And then, there is the \"Commander.\")",
 			typewriter = {
@@ -340,12 +340,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
-			bgName = "bg_mirror",
 			side = 2,
+			bgName = "bg_mirror",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "Observer",
 			say = "(At long last... the Creator and Magister may get to see their vision come to fruition. Ahahaha!)",
 			typewriter = {

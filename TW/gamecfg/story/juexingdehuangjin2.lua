@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"——系統自我檢測中。",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "——密碼認證：通過",
+			side = 2,
 			bgName = "bg_bigbuli",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -81,12 +81,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "黃金（Golden）時代的威光，在此降臨purin！",
 			painting = {
 				alpha = 0.3,
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "現在，終於是展現本大人真正力量的時刻了purin！",
 			painting = {
 				alpha = 0.3,
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "讓我們一同去撼動天地吧purin！",
 			painting = {
 				alpha = 0.3,
@@ -132,12 +132,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "試作型超級鑽頭MKII——啟動purin！",
 			painting = {
 				alpha = 0.3,

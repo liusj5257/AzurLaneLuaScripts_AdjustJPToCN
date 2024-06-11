@@ -1,18 +1,19 @@
 slot0 = class("CommissionInfoEventItem", import(".CommissionInfoItem"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0.lockTF = slot0._tf:Find("lock")
 
 	setActive(slot0.lockTF, false)
+	setText(slot0.lockTF:Find("Text"), i18n("commission_label_unlock_event_tip"))
 end
 
-function slot0.CanOpen(slot0)
+slot0.CanOpen = function(slot0)
 	return getProxy(PlayerProxy):getData().level >= 12
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0:CanOpen()
 
 	setActive(slot0.lockTF, not slot1)
@@ -25,7 +26,7 @@ function slot0.Init(slot0)
 	uv0.super.Init(slot0)
 end
 
-function slot0.GetList(slot0)
+slot0.GetList = function(slot0)
 	assert(slot0.list, "why ???")
 	table.sort(slot0.list, function (slot0, slot1)
 		return slot1.state < slot0.state
@@ -34,7 +35,7 @@ function slot0.GetList(slot0)
 	return slot0.list, 4
 end
 
-function slot0.OnFlush(slot0)
+slot0.OnFlush = function(slot0)
 	slot0.list, slot3, slot0.ongoingCounter.text, slot0.leisureCounter.text = getProxy(EventProxy):GetEventListForCommossionInfo()
 	slot0.finishedCounter.text = slot3
 
@@ -45,12 +46,12 @@ function slot0.OnFlush(slot0)
 	setActive(slot0.finishedBtn, slot3 > 0)
 end
 
-function slot0.UpdateList(slot0)
+slot0.UpdateList = function(slot0)
 	uv0.super.UpdateList(slot0)
 	slot0:UpdateActList()
 end
 
-function slot0.UpdateActList(slot0)
+slot0.UpdateActList = function(slot0)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) and not slot1:isEnd() and getProxy(EventProxy):GetEventByActivityId(slot1.id) then
 		slot3 = cloneTplTo(slot0.uilist.item, slot0.uilist.container)
 
@@ -62,7 +63,7 @@ function slot0.UpdateActList(slot0)
 	end
 end
 
-function slot0.GetChapterByCount(slot0, slot1)
+slot0.GetChapterByCount = function(slot0, slot1)
 	for slot6, slot7 in pairs(pg.chapter_template.all) do
 		if slot2[slot7].collection_team == slot1 then
 			return slot2[slot7]
@@ -70,12 +71,15 @@ function slot0.GetChapterByCount(slot0, slot1)
 	end
 end
 
-function slot0.UpdateListItem(slot0, slot1, slot2, slot3)
+slot0.UpdateListItem = function(slot0, slot1, slot2, slot3)
 	if getProxy(EventProxy).maxFleetNums < slot1 then
-		slot6 = slot0:GetChapterByCount(slot1)
+		assert(slot0:GetChapterByCount(slot1), slot1)
 
-		assert(slot6, slot1)
-		setText(slot3:Find("lock/Text"), i18n("commission_no_open") .. "\n" .. i18n("commission_open_tip", slot6.chapter_name))
+		if getProxy(SettingsProxy):IsMellowStyle() then
+			setText(slot3:Find("lock/Text"), i18n("commission_open_tip", slot6.chapter_name))
+		else
+			setText(slot3:Find("lock/Text"), i18n("commission_no_open") .. "\n" .. i18n("commission_open_tip", slot6.chapter_name))
+		end
 	else
 		slot0:UpdateEventInfo(slot3, slot2)
 	end
@@ -85,7 +89,7 @@ function slot0.UpdateListItem(slot0, slot1, slot2, slot3)
 	slot0:UpdateStyle(slot3, false, slot2)
 end
 
-function slot0.UpdateEventInfo(slot0, slot1, slot2)
+slot0.UpdateEventInfo = function(slot0, slot1, slot2)
 	if (slot2 and slot2.state or EventInfo.StateNone) == EventInfo.StateNone then
 		setText(slot1:Find("unlock/name_bg/Text"), i18n("commission_idle"))
 		onButton(slot0, slot1:Find("unlock/leisure/go_btn"), function ()
@@ -112,7 +116,7 @@ function slot0.UpdateEventInfo(slot0, slot1, slot2)
 	setActive(slot1:Find("unlock/finished"), slot3 == EventInfo.StateFinish)
 end
 
-function slot0.AddTimer(slot0, slot1, slot2)
+slot0.AddTimer = function(slot0, slot1, slot2)
 	slot0:RemoveTimer(slot1)
 
 	slot3 = slot1.finishTime + 2
@@ -133,7 +137,7 @@ function slot0.AddTimer(slot0, slot1, slot2)
 	slot0.timers[slot1.id].func()
 end
 
-function slot0.RemoveTimer(slot0, slot1)
+slot0.RemoveTimer = function(slot0, slot1)
 	if slot0.timers[slot1.id] then
 		slot0.timers[slot1.id]:Stop()
 
@@ -141,7 +145,7 @@ function slot0.RemoveTimer(slot0, slot1)
 	end
 end
 
-function slot0.UpdateStyle(slot0, slot1, slot2, slot3)
+slot0.UpdateStyle = function(slot0, slot1, slot2, slot3)
 	slot4 = slot3 and slot3.state or EventInfo.StateNone
 	slot5 = "icon_1"
 	slot6 = "icon_4"
@@ -153,7 +157,7 @@ function slot0.UpdateStyle(slot0, slot1, slot2, slot3)
 		slot5 = "icon_5"
 	end
 
-	function slot8(slot0, slot1)
+	slot8 = function(slot0, slot1)
 		slot2 = uv0:Find(string.format("unlock/%s/icon", slot0))
 		slot2.localScale = uv1 and Vector3.one or Vector3(1.2, 1.2, 1.2)
 		slot2:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot1)
@@ -171,8 +175,15 @@ function slot0.UpdateStyle(slot0, slot1, slot2, slot3)
 		slot9 = "event_bg_act"
 	end
 
-	slot1:Find("unlock/ongoging"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot9)
-	slot1:Find("unlock/finished"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot9)
+	if getProxy(SettingsProxy):IsMellowStyle() then
+		slot9 = "frame_unlock"
+		slot1:Find("unlock/ongoging"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/CommissionInfoUI4Mellow_atlas", slot9)
+		slot1:Find("unlock/finished"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/CommissionInfoUI4Mellow_atlas", slot9)
+	else
+		slot1:Find("unlock/ongoging"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot9)
+		slot1:Find("unlock/finished"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot9)
+	end
+
 	slot11 = slot2 and Color.New(0.996078431372549, 0.7568627450980392, 0.9725490196078431, 1) or Color.New(0.6039215686274509, 0.7843137254901961, 0.9607843137254902, 1)
 	slot1:Find("unlock/ongoging/print"):GetComponent(typeof(Image)).color = slot11
 	slot1:Find("unlock/finished/print"):GetComponent(typeof(Image)).color = slot11
@@ -180,11 +191,11 @@ function slot0.UpdateStyle(slot0, slot1, slot2, slot3)
 	setActive(slot1:Find("unlock/act"), slot4 == EventInfo.StateNone and slot2)
 end
 
-function slot0.OnSkip(slot0)
+slot0.OnSkip = function(slot0)
 	slot0:emit(CommissionInfoMediator.ON_ACTIVE_EVENT)
 end
 
-function slot0.OnFinishAll(slot0)
+slot0.OnFinishAll = function(slot0)
 	slot1 = {}
 	slot2 = 0
 

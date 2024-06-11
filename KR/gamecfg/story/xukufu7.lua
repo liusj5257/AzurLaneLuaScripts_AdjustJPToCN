@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUKUFU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUKUFU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"쥬르네 쉬르쿠프\n\n<size=45>지휘관의 쉬르쿠프</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 808010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "응…… 지휘관, 좋은 아침…",
 			bgm = "story-1",
+			actor = 808010,
+			nameColor = "#a9f548",
+			say = "응…… 지휘관, 좋은 아침…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "쉬르쿠프는 드물게도 초조함을 보였다.",
 			typewriter = {
 				speed = 0.05,
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "근데 내가 안 도와줘도 이렇게까지 할 수 있으니까…… 나, 비서함 실격일지도……",
 			typewriter = {
 				speed = 0.05,
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "조금 전까지 시무룩해 있던 쉬르쿠프는 활짝 웃어 보였다.",
 			typewriter = {
 				speed = 0.05,

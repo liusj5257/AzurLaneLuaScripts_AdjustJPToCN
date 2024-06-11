@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LAISHAGUANQIA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LAISHAGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			stopbgm = true,
-			say = "暗闇の中、カラはいつものように眠りについていた。",
+			side = 2,
 			blackBg = true,
 			bgm = "airRaidAlarm",
+			stopbgm = true,
+			say = "暗闇の中、カラはいつものように眠りについていた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "しかしどうやら、今日はいつも通りの夜を過ごすことはできないようだ。",
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "————————！",
 			typewriter = {
@@ -58,12 +58,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 10900060,
-			nameColor = "#A9F548FF",
 			dir = 1,
 			blackBg = true,
-			say = "んん…なんじゃ？騒がしいのう……",
 			hidePaintEquip = true,
+			actor = 10900060,
+			nameColor = "#A9F548FF",
+			say = "んん…なんじゃ？騒がしいのう……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,14 +74,14 @@ return {
 			}
 		},
 		{
-			hidePaintEquip = true,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			bgm = "story-6",
-			actor = 10900060,
 			stopbgm = true,
+			side = 2,
+			bgm = "story-6",
+			dir = 1,
+			bgName = "bg_zhuiluo_2",
+			hidePaintEquip = true,
+			actor = 10900060,
+			nameColor = "#A9F548FF",
 			say = "って、は…………………………？",
 			painting = {
 				alpha = 0.3,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "カラの目に映ったのは、見慣れた景色ではなく、風変わりな建物だった。辺りを海に囲まれていることから、ここが島だとわかる。",
 			typewriter = {
@@ -115,11 +115,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 10900060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900060,
 			nameColor = "#A9F548FF",
 			say = "はて……ここは異界か？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,11 +133,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 10900060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900060,
 			nameColor = "#A9F548FF",
 			say = "ふむ？わらわは寝ぼけているのであろうか？でなければ、とんでもないことが起こっているということになるが……",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,13 +148,13 @@ return {
 			}
 		},
 		{
-			actor = 10900060,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "辺りの建物は、得体の知れぬ金属でできておる。それに、作りも妙じゃ……",
 			hidePaintEquip = true,
+			actor = 10900060,
+			nameColor = "#A9F548FF",
+			say = "辺りの建物は、得体の知れぬ金属でできておる。それに、作りも妙じゃ……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,11 +168,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 10900060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900060,
 			nameColor = "#A9F548FF",
 			say = "…もしや、錬金術士の仕業か？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,13 +183,13 @@ return {
 			}
 		},
 		{
-			actor = 10900060,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "いや、しかし…わらわに気付かれることなく異界に転移させるなど、そんなに腕の立つ錬金術士がおるかのう",
 			hidePaintEquip = true,
+			actor = 10900060,
+			nameColor = "#A9F548FF",
+			say = "いや、しかし…わらわに気付かれることなく異界に転移させるなど、そんなに腕の立つ錬金術士がおるかのう",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,11 +203,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 10900060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900060,
 			nameColor = "#A9F548FF",
 			say = "……わらわが眠っておる場所にたまたま何か異界につながるような道が開いたのか？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,11 +218,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
-			say = "————————！",
 			soundeffect = "event:/battle/boom2",
+			say = "————————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,11 +271,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 10900060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900060,
 			nameColor = "#A9F548FF",
 			say = "今のは…爆発音か。しかもそう遠くない場所から…あの島の向こう側か！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "音を辿った先では、海に浮かぶおかしな戦船（いくさふね）と、空飛ぶ巨大な鳥（？）の間で戦闘が繰り広げられていた。",
 			typewriter = {
@@ -296,14 +296,14 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 900233,
 			actorName = "？？？",
 			say = "ふん！戦火の絶えないこの海域に、安全な場所はどこにもないんだぜ！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,11 +317,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			say = "だから機転を利かせて、お前らが現れそうなところに予め防御施設を用意しておいたのさ。ヒャッハー！中々スマートだろ？",
 			painting = {
 				alpha = 0.3,
@@ -333,13 +333,13 @@ return {
 			}
 		},
 		{
-			actor = 10900060,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "機械の巨獣に空から降ってきた少女……そなたは、何かの精霊か？",
 			hidePaintEquip = true,
+			actor = 10900060,
+			nameColor = "#A9F548FF",
+			say = "機械の巨獣に空から降ってきた少女……そなたは、何かの精霊か？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,12 +352,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_zhuiluo_2",
-			actorName = "ピュリっち",
+			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_zhuiluo_2",
 			hidePaintEquip = true,
 			actor = 900233,
-			nameColor = "#A9F548FF",
+			actorName = "ピュリっち",
 			say = "精霊じゃなくてセイレーンだよ！星の河を駆け巡り、レジスタンスを率いてセイレーン計画をぶっ壊す勇者・ピュリっち！",
 			painting = {
 				alpha = 0.3,
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -382,11 +382,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "ピュリっち",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
-			nameColor = "#A9F548FF",
+			actorName = "ピュリっち",
 			say = "…が、お前を助けたんだぞ？ほらほら、お礼の一つ、言ってもいいと思うなー",
 			painting = {
 				alpha = 0.3,
@@ -401,11 +401,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 10900060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900060,
 			nameColor = "#A9F548FF",
 			say = "ほう…「助けた」とな？「巻き込んだ」ではなく？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,11 +419,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "ピュリっち",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
-			nameColor = "#A9F548FF",
+			actorName = "ピュリっち",
 			say = "ギクッ！！す、鋭いね……",
 			painting = {
 				alpha = 0.3,
@@ -435,14 +435,14 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 900233,
 			actorName = "ピュリっち",
 			say = "コホン。確かにお前がここに送り込まれたことに対する責任が全くないわけじゃない……が、99%はテスターのせいだよ！！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,8 +453,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -466,11 +466,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "ピュリっち",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
-			nameColor = "#A9F548FF",
+			actorName = "ピュリっち",
 			say = "ピュリっちはあいつの計画をぶち壊すために、お前らが送り込まれる時間をちょっといじっただけ！",
 			painting = {
 				alpha = 0.3,
@@ -485,11 +485,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "ピュリっち",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
-			nameColor = "#A9F548FF",
+			actorName = "ピュリっち",
 			say = "…本当は転移が始まる前に全部片付けるつもりだったんだ。けど、何故かお前だけ他のやつより早くこっちにきて…だから、1％はピュリっちの責任というわけ",
 			painting = {
 				alpha = 0.3,
@@ -504,11 +504,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 10900060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900060,
 			nameColor = "#A9F548FF",
 			say = "ふむ…お主のその顔に戦場の様子からすれば、どうやら嘘ではなさそうじゃな",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,11 +522,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 10900060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900060,
 			nameColor = "#A9F548FF",
 			say = "しかし、どちらも大差なさそうに見えるがのう……ところで、先に言っておった「テスター」とやらは、お主の同胞か？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,14 +537,14 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 900233,
 			actorName = "ピュリっち",
 			say = "あー、確かにそいつもセイレーンだけど、同胞とはちょっと言いづらいな……あとで時間があったら詳しく説明しよう！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,13 +555,13 @@ return {
 			}
 		},
 		{
-			actor = 10900060,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "ふむ、ならば別の質問をしよう。お主は先ほど「お前ら」と言っておったのう。ということは、わらわの他に、この件に巻き込まれた者がおるのじゃな？",
 			hidePaintEquip = true,
+			actor = 10900060,
+			nameColor = "#A9F548FF",
+			say = "ふむ、ならば別の質問をしよう。お主は先ほど「お前ら」と言っておったのう。ということは、わらわの他に、この件に巻き込まれた者がおるのじゃな？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,11 +575,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "ピュリっち",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
-			nameColor = "#A9F548FF",
+			actorName = "ピュリっち",
 			say = "そうそう。データベースを見たら、お前以外にあと5人こっちに来ることになってたぜ。名前は確か…ライザ、クラウディア、パトリツィア、リラ、セリ…だったはず！うん！",
 			painting = {
 				alpha = 0.3,
@@ -594,11 +594,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 10900060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900060,
 			nameColor = "#A9F548FF",
 			say = "なんじゃと……！？　まったく、あやつらもこんな形で冒険…もとい事件に巻き込まれるとは夢にも思わんかったじゃろう",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,8 +609,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -622,11 +622,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "ピュリっち",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
-			nameColor = "#A9F548FF",
+			actorName = "ピュリっち",
 			say = "うわっ、全く動じねぇな……というかそもそも、普通の人間ならこの戦場を見ただけでとっくに腰が抜けてるぜ",
 			painting = {
 				alpha = 0.3,
@@ -641,11 +641,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 10900060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900060,
 			nameColor = "#A9F548FF",
 			say = "わらわは悠久の時を過ごしてきた「奏波氏族」の長、カラ・イデアス。戦場のことなら多少心得ておる",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,11 +659,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 10900060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900060,
 			nameColor = "#A9F548FF",
 			say = "……わらわの到着は予定外ではないのか？そうであれば、もう帰っても構わぬか？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,11 +677,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "ピュリっち",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
-			nameColor = "#A9F548FF",
+			actorName = "ピュリっち",
 			say = "別に？ま、簡単には帰れないけどな！テスターの軍勢を潰さなきゃ、お前が帰れないどころか、あとで来る子の身も危なくなる",
 			painting = {
 				alpha = 0.3,
@@ -693,14 +693,14 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 900233,
 			actorName = "ピュリっち",
 			say = "ってことで、どうだ？戦場に慣れてるなら、ピュリっちのレジスタンスに入って一緒に戦ってみないか？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,13 +711,13 @@ return {
 			}
 		},
 		{
-			actor = 10900060,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "ぐぬぬ……それなら仕方あるまい。異界の冒険、ということにして、お主に手を貸そう",
 			hidePaintEquip = true,
+			actor = 10900060,
+			nameColor = "#A9F548FF",
+			say = "ぐぬぬ……それなら仕方あるまい。異界の冒険、ということにして、お主に手を貸そう",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,11 +731,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 10900060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900060,
 			nameColor = "#A9F548FF",
 			say = "とはいえ、お主の言う「れじすたんす」とやらには入らんぞ。わらわにはわらわの責任と使命がある。この件を片付けたら、元の世界に戻らせてもらう",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,11 +749,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "ピュリっち",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 900233,
-			nameColor = "#A9F548FF",
+			actorName = "ピュリっち",
 			say = "がってん――構わないぜ",
 			painting = {
 				alpha = 0.3,
@@ -765,14 +765,14 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 900233,
 			actorName = "ピュリっち",
 			say = "んじゃ、まずはピュリっちの艤装に乗りな。そのままセイレーンとやり合っても勝ち目はないから、基地に行って色々準備しないと",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -783,8 +783,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -793,8 +793,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			bgm = "xinnong-3",
 			sequence = {
 				{
@@ -852,12 +852,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

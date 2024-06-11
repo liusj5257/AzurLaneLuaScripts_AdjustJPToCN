@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "2023俾斯麦Z活动 HTS2女灶神meta 召唤小怪 CD时间",
 	init_effect = "",
+	name = "2023俾斯麦Z活动 HTS2女灶神meta 召唤小怪 CD时间",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 6,
 	id = 200427,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCount",

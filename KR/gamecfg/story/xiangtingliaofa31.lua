@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA31",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA31",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102090,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level02",
 			dir = 1,
 			say = "귀항이다, 귀항~",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -171,8 +171,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "이걸로 특이점을 완전히 와해할 수 있는 방법을 찾아낼 수 있다면 좋겠어요.",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "엔터프라이즈 선배만 열심히 해주면 언젠가 우리 정말 평화의 서광을 볼 수 있을지도 몰라요.",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "저라면…세상을 돌아보고 싶어요. 진정한 샹그릴라를 찾아보는 것도 좋을지도?",
 			typewriter = {
 				speed = 0.05,
@@ -354,8 +354,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "엔터프라이즈 선배는요?",
 			typewriter = {
 				speed = 0.05,
@@ -398,8 +398,8 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "난────",
-					autochoice = 1
+					autochoice = 1,
+					content = "난────"
 				}
 			}
 		}

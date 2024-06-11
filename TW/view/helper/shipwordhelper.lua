@@ -17,46 +17,46 @@ slot0.CV_KEY_REPALCE = 0
 slot0.CV_KEY_BAN = -1
 slot0.CV_KEY_BAN_NEW = -2
 slot0.CVBattleKey = {
-	skill = "skill",
+	hp = "hp",
 	link2 = "link2",
-	lose = "lose",
+	link4 = "link4",
 	link5 = "link5",
-	mvp = "mvp",
+	link7 = "link7",
 	link3 = "link3",
 	link6 = "link6",
-	hp = "hp",
+	skill = "skill",
 	link1 = "link1",
-	link4 = "link4",
+	lose = "lose",
 	warcry = "warcry",
-	link7 = "link7"
+	mvp = "mvp"
 }
 slot7 = false
 
-function slot8(...)
+slot8 = function(...)
 	if uv0 and IsUnityEditor then
 		print(...)
 	end
 end
 
-function slot9(slot0)
+slot9 = function(slot0)
 	if not slot0 or slot0 == "" or slot0 == "nil" then
 		return true
 	end
 end
 
-function slot10(slot0)
+slot10 = function(slot0)
 	return uv0[slot0] ~= nil
 end
 
-function slot11(slot0)
+slot11 = function(slot0)
 	return uv0[slot0] ~= nil
 end
 
-function slot12(slot0)
+slot12 = function(slot0)
 	return ShipGroup.getDefaultSkin(uv0[slot0].ship_group).id
 end
 
-function slot13(slot0, slot1)
+slot13 = function(slot0, slot1)
 	if type(slot0 or "") == "table" then
 		return slot0
 	else
@@ -67,7 +67,7 @@ function slot13(slot0, slot1)
 	end
 end
 
-function slot14(slot0, slot1, slot2, slot3)
+slot14 = function(slot0, slot1, slot2, slot3)
 	slot5 = uv1(slot0) and slot0 or uv0(slot0)
 	slot6 = uv2[slot5]
 
@@ -90,7 +90,7 @@ function slot14(slot0, slot1, slot2, slot3)
 	return slot6
 end
 
-function slot15(slot0, slot1, slot2)
+slot15 = function(slot0, slot1, slot2)
 	slot1 = slot1 or 0
 	slot3 = nil
 
@@ -109,7 +109,7 @@ function slot15(slot0, slot1, slot2)
 	end
 end
 
-function slot16(slot0, slot1, slot2, slot3, slot4)
+slot16 = function(slot0, slot1, slot2, slot3, slot4)
 	if not uv2[uv1(slot0) and slot0 or uv0(slot0)] then
 		return nil
 	end
@@ -127,7 +127,7 @@ function slot16(slot0, slot1, slot2, slot3, slot4)
 	return uv4(slot8, slot3, slot2)
 end
 
-function slot17(slot0)
+slot17 = function(slot0)
 	slot1 = pg.ship_skin_words[slot0]
 	slot3 = PlayerPrefs.GetInt(CV_LANGUAGE_KEY .. uv0[slot0].ship_group)
 
@@ -141,11 +141,11 @@ function slot17(slot0)
 	return slot3
 end
 
-function slot0.GetLanguageSetting(slot0)
+slot0.GetLanguageSetting = function(slot0)
 	return uv0(slot0)
 end
 
-function slot18(slot0, slot1, slot2)
+slot18 = function(slot0, slot1, slot2)
 	slot3 = "event:/cv/" .. slot1 .. "/" .. slot0
 
 	if slot2 then
@@ -155,7 +155,7 @@ function slot18(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot19(slot0, slot1)
+slot19 = function(slot0, slot1)
 	if not uv0[slot1] then
 		return -1
 	end
@@ -169,7 +169,7 @@ function slot19(slot0, slot1)
 	return slot4
 end
 
-function slot20(slot0, slot1, slot2, slot3, slot4)
+slot20 = function(slot0, slot1, slot2, slot3, slot4)
 	if slot0 then
 		slot5, slot6 = nil
 		slot8 = uv0(slot1) == 2 and slot0.voice_key_2 or slot0.voice_key
@@ -193,11 +193,11 @@ function slot20(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot21(slot0, slot1, slot2)
+slot21 = function(slot0, slot1, slot2)
 	return uv0.ExistDifferentWord(slot0, slot1, slot2) and uv1[slot0].voice_key == uv0.CV_KEY_BAN_NEW
 end
 
-function slot22(slot0, slot1)
+slot22 = function(slot0, slot1)
 	slot1 = slot1 or -1
 
 	if not uv0[slot0] or not slot2.main_extra or slot2.main_extra == "" or type(slot2.main_extra) == "table" and #slot2.main_extra == 0 then
@@ -224,7 +224,7 @@ end
 
 slot23 = nil
 
-function slot23(slot0, slot1)
+slot23 = function(slot0, slot1)
 	if not uv0[slot0] then
 		return
 	end
@@ -242,7 +242,7 @@ function slot23(slot0, slot1)
 	end
 end
 
-function slot0.GetWordAndCV(slot0, slot1, slot2, slot3, slot4)
+slot0.GetWordAndCV = function(slot0, slot1, slot2, slot3, slot4)
 	slot5, slot6, slot7 = nil
 	slot10, slot11 = uv0(slot0, slot1, {
 		slot2
@@ -312,19 +312,19 @@ function slot0.GetWordAndCV(slot0, slot1, slot2, slot3, slot4)
 	return slot12, slot13, slot5
 end
 
-function slot0.RawGetWord(slot0, slot1)
+slot0.RawGetWord = function(slot0, slot1)
 	return uv0[slot0][slot1]
 end
 
-function slot0.RawGetCVKey(slot0)
+slot0.RawGetCVKey = function(slot0)
 	return uv1(uv0(slot0), slot0)
 end
 
-function slot0.GetDefaultSkin(slot0)
+slot0.GetDefaultSkin = function(slot0)
 	return uv0(slot0)
 end
 
-function slot0.GetMainSceneWordCnt(slot0, slot1)
+slot0.GetMainSceneWordCnt = function(slot0, slot1)
 	if not uv0[slot0] or not slot2[uv1.WORD_TYPE_MAIN] or slot2[uv1.WORD_TYPE_MAIN] == "" then
 		slot2 = uv0[uv2(slot0)]
 	end
@@ -344,7 +344,7 @@ function slot0.GetMainSceneWordCnt(slot0, slot1)
 	return slot3
 end
 
-function slot0.GetL2dCvCalibrate(slot0, slot1, slot2)
+slot0.GetL2dCvCalibrate = function(slot0, slot1, slot2)
 	if not uv0[slot0] then
 		return 0
 	end
@@ -360,7 +360,7 @@ function slot0.GetL2dCvCalibrate(slot0, slot1, slot2)
 	return slot3.l2d_voice_calibrate[slot1]
 end
 
-function slot0.GetL2dSoundEffect(slot0, slot1, slot2)
+slot0.GetL2dSoundEffect = function(slot0, slot1, slot2)
 	if not uv0[slot0] then
 		return 0
 	end
@@ -372,11 +372,11 @@ function slot0.GetL2dSoundEffect(slot0, slot1, slot2)
 	return slot3.l2d_se[slot1]
 end
 
-function slot0.ExistVoiceKey(slot0)
+slot0.ExistVoiceKey = function(slot0)
 	return uv0[slot0] and slot1.voice_key ~= uv1.CV_KEY_BAN
 end
 
-function slot0.GetCVAuthor(slot0)
+slot0.GetCVAuthor = function(slot0)
 	slot1 = uv0[slot0]
 	slot3 = uv1(slot0) == 2 and slot1.voice_actor_2 or slot1.voice_actor
 	slot4 = ""
@@ -384,7 +384,7 @@ function slot0.GetCVAuthor(slot0)
 	return slot3 == uv2.CV_KEY_BAN and "-" or uv3[slot3].actor_name
 end
 
-function slot0.GetCVList()
+slot0.GetCVList = function()
 	slot0 = {}
 
 	for slot4, slot5 in pairs(pg.character_voice) do
@@ -398,7 +398,7 @@ function slot0.GetCVList()
 	return slot0
 end
 
-function slot0.ExistDifferentWord(slot0, slot1, slot2)
+slot0.ExistDifferentWord = function(slot0, slot1, slot2)
 	if uv0(slot0) == slot0 then
 		return false
 	end
@@ -410,7 +410,7 @@ function slot0.ExistDifferentWord(slot0, slot1, slot2)
 	return slot5 and slot5 ~= "" and slot5 ~= "nil"
 end
 
-function slot0.ExistDifferentExWord(slot0, slot1, slot2, slot3)
+slot0.ExistDifferentExWord = function(slot0, slot1, slot2, slot3)
 	if slot0 == uv0(slot0) then
 		return false
 	end
@@ -428,7 +428,7 @@ function slot0.ExistDifferentExWord(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
-function slot0.ExistDifferentMainExWord(slot0, slot1, slot2, slot3)
+slot0.ExistDifferentMainExWord = function(slot0, slot1, slot2, slot3)
 	if slot0 == uv0(slot0) then
 		return false
 	end
@@ -439,7 +439,7 @@ function slot0.ExistDifferentMainExWord(slot0, slot1, slot2, slot3)
 	return not uv2(slot7) and slot7 ~= slot10
 end
 
-function slot0.ExistExCv(slot0, slot1, slot2, slot3)
+slot0.ExistExCv = function(slot0, slot1, slot2, slot3)
 	slot4, slot5 = uv0(slot0, slot1, {
 		slot2
 	}, slot3)
@@ -449,7 +449,7 @@ function slot0.ExistExCv(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.GetCvDataForShip(slot0, slot1)
+slot0.GetCvDataForShip = function(slot0, slot1)
 	if slot1 == "" then
 		return nil
 	end

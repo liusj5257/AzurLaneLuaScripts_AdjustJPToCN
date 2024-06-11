@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG38",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG38",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "皇家·斯卡帕灣錨地·某設施 稍早前",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-richang",
+			say = "皇家·斯卡帕灣錨地·某設施 稍早前",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -112,17 +112,17 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
-			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "斯卡帕灣......是嗎？",
+			bgName = "star_level_bg_115",
 			bgm = "bsm-2",
+			actor = 202080,
+			nameColor = "#a9f548",
+			say = "斯卡帕灣......是嗎？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -187,13 +187,13 @@ return {
 		{
 			actor = 205010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "“留存於水面下的往昔，浮現在假設中的虛妄”，嘖，鐵血已經成功了一半了嗎…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			say = "轟---------！",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
+			say = "轟---------！",
 			flashN = {
 				color = {
 					1,
@@ -327,12 +327,12 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 202120,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "陛下，斯卡帕灣周邊突然出現了大量鐵血軍艦，正在對錨地發動攻擊！",
 			bgm = "bsm-3",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "陛下，斯卡帕灣周邊突然出現了大量鐵血軍艦，正在對錨地發動攻擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,10 +361,10 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 202120,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "看來…鐵血不知道通過什麼方式欺騙了我們的偵察機。陛下，請您盡快撤離。",
 			typewriter = {
 				speed = 0.05,
@@ -376,15 +376,15 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#ff5c5c",
 			say = "給我等一下！皇家的伊莉莎白女王，沒想到能在這裡遇到妳啊，哈哈哈哈哈哈！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -537,12 +537,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "如您所願，陛下。",
 			typewriter = {
 				speed = 0.05,
@@ -554,8 +554,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,

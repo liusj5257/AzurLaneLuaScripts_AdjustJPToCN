@@ -4,12 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 102200,
 			side = 2,
-			nameColor = "#A9F548FF",
-			say = "잡았다! 디저트를 훔친 범인!",
 			dir = 1,
 			bgm = "login-2022401us",
+			actor = 102200,
+			nameColor = "#A9F548FF",
+			say = "잡았다! 디저트를 훔친 범인!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -20,8 +20,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -63,8 +63,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "꼬마 슈피",
 			say = "디저트는 절대 내놓지 않을 거야.",
 			painting = {
@@ -80,8 +80,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "꼬마 슈피",
 			say = "메탈 블러드에서도 맥주와 소시지 말고도 디저트도 중요한데…… 이 부분에 주목하는 사람은 많지 않아.",
 			painting = {
@@ -97,8 +97,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "꼬마 슈피",
 			say = "…… 그래서 계획을 세웠지. 바다를 디저트로 만들 수 있는 위대한 계획을!",
 			painting = {
@@ -114,8 +114,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 403130,
 			dir = 1,
+			actor = 403130,
 			actorName = "꼬마 슈피",
 			say = "이제 마지막 한 걸음만 남았어……",
 			painting = {

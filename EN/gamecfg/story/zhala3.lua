@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHALA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHALA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Zara Character Story - Storia di Rosa\n\n<size=45>Chapter 3: Caring for the Commander</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Now all that's left is the research and development budget...",
 			typewriter = {
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "*knock* *knock*",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "Pardon me~",
 			typewriter = {
@@ -101,8 +101,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Is that Trento?",
 			typewriter = {
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Zara looked uncharacteristically rattled.",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "Ah, Commander. Just who I was looking for.",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "I came to thank you for taking me to try that Sakura cuisine.",
 			typewriter = {
@@ -163,9 +163,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Huh? All I recall was showing her to the cafeteria...",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "But then it dawned on me: why, during working hours, the Commander would have to be in the command office!",
 			typewriter = {
@@ -210,9 +210,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "That certainly was a logical conclusion.",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "In any case... yay~!",
 			typewriter = {
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Hmmff?!",
 			typewriter = {
 				speed = 0.05,
@@ -255,13 +255,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Even more startling was when I found my face buried in her voluptuous bosom.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -289,8 +289,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "Good Commander, good Commander, you did great. I'm so proud of you~",
 			typewriter = {
@@ -303,9 +303,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I struggled to breathe, smothered by her pillowy chest.",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Trento, why is it you feel the need to come to the office and– HMMFF?!",
 			typewriter = {
@@ -334,14 +334,14 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "She pulled Zara right in with me.",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -361,8 +361,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603010,
 			dir = 1,
+			actor = 603010,
 			nameColor = "#a9f548",
 			say = "And how could I forget my sweet little Zara? You helped Carabiniere make friends. You deserve a reward too! Good girl, good girl~",
 			typewriter = {
@@ -377,14 +377,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 603010,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "I should take my leave now. Good luck with work, you two~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Trento closed the door behind her as she left.",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "She just comes and goes like a storm, that girl... I really have a hard time dealing with her.",
 			typewriter = {
@@ -440,9 +440,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "If she was able to even shake Zara up like this, perhaps I should be careful around her...",
 			typewriter = {
 				speed = 0.05,
@@ -457,8 +457,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "Commander, you seemed to be pretty happy cozying up to Trento earlier. Maybe you'd like to give mine a try?",
 			typewriter = {
@@ -471,9 +471,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Hmmmm?",
 			typewriter = {
 				speed = 0.05,
@@ -501,9 +501,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Despite being the second time today, I was no less startled to be once again be drowning in softness.",
 			typewriter = {
 				speed = 0.05,
@@ -518,8 +518,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "You're beet red, Commander! Now, mine or Trento's, which did you like better?",
 			typewriter = {

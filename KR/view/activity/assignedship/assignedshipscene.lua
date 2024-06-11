@@ -1,10 +1,10 @@
 slot0 = class("AssignedShipScene", import(".BaseAssignedShipScene"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AssignedShipUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.scrollrect = slot0:findTF("layer/select_panel")
@@ -12,7 +12,7 @@ function slot0.init(slot0)
 	slot0.leftBtn = slot0:findTF("layer/left")
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 
 	slot0.isZero = true
@@ -30,7 +30,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateArr()
 end
 
-function slot0.UpdateArr(slot0)
+slot0.UpdateArr = function(slot0)
 	setActive(slot0.rightBtn, not slot0.isZero)
 	setActive(slot0.leftBtn, not slot0.isOne)
 end

@@ -20,17 +20,17 @@ slot6 = {
 	"weiershiqinwang_3"
 }
 slot7 = {
-	ruihe_3 = "stand2",
-	qiye_7 = "dance",
-	gaoxiong_5 = "dance",
-	dafeng_5 = "stand2",
-	weiershiqinwang_3 = "stand2",
+	xianghe_3 = "dance",
 	baerdimo_6 = "stand2",
 	xinnong_3 = "stand2",
+	dafeng_5 = "stand2",
+	weiershiqinwang_3 = "stand2",
+	ruihe_3 = "stand2",
+	qiye_7 = "dance",
 	ougen_5 = "stand2",
 	aidang_5 = "dance",
 	yuekegongjue_2 = "stand2",
-	xianghe_3 = "dance"
+	gaoxiong_5 = "dance"
 }
 slot8 = 0.6
 slot9 = "ui/activityuipage/monopolycar2_atlas"
@@ -87,7 +87,7 @@ slot18 = {
 	}
 }
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._binder = slot1
 	slot0._tf = slot2
 	slot0._event = slot3
@@ -97,7 +97,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0:initEvent()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.leftCount = 0
 	slot0.inAnimatedFlag = false
 	slot0.mapCells = {}
@@ -116,7 +116,7 @@ function slot0.initData(slot0)
 	end
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.tplMapCell = findTF(slot0._tf, "tplMapCell")
 	slot0.mapContainer = findTF(slot0._tf, "mapContainer")
 	slot0.char = findTF(slot0._tf, "mapContainer/char")
@@ -146,7 +146,7 @@ function slot0.initUI(slot0)
 	slot0:initChar()
 end
 
-function slot0.initEvent(slot0)
+slot0.initEvent = function(slot0)
 	onButton(slot0._binder, slot0.btnStart, function ()
 		if uv0.inAnimatedFlag then
 			return
@@ -172,7 +172,7 @@ function slot0.initEvent(slot0)
 		end)
 	end, SFX_PANEL)
 
-	function slot4()
+	slot4 = function()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.help_monopoly_car_2.tip
@@ -194,7 +194,7 @@ function slot0.initEvent(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.showRollAnimated(slot0, slot1)
+slot0.showRollAnimated = function(slot0, slot1)
 	findTF(slot0.rollStep, "stepArrow").localEulerAngles = Vector3(0, 0, 0)
 	slot3 = findTF(slot0.rollStep, "progress/bg")
 	slot3:GetComponent(typeof(Image)).fillAmount = 0.1
@@ -281,7 +281,7 @@ function slot0.showRollAnimated(slot0, slot1)
 	end)
 end
 
-function slot0.checkCountStory(slot0, slot1)
+slot0.checkCountStory = function(slot0, slot1)
 	slot2 = slot0.useCount
 
 	if _.detect(slot0.activity:getDataConfig("story") or {}, function (slot0)
@@ -293,7 +293,7 @@ function slot0.checkCountStory(slot0, slot1)
 	end
 end
 
-function slot0.changeAnimeState(slot0, slot1)
+slot0.changeAnimeState = function(slot0, slot1)
 	if slot1 then
 		slot0.btnStart:GetComponent(typeof(Image)).raycastTarget = false
 		slot0.inAnimatedFlag = true
@@ -309,7 +309,7 @@ function slot0.changeAnimeState(slot0, slot1)
 	setActive(slot0.btnStart, not slot1)
 end
 
-function slot0.initMap(slot0)
+slot0.initMap = function(slot0)
 	slot0.mapCells = {}
 
 	for slot5 = 1, #uv0 do
@@ -348,7 +348,7 @@ function slot0.initMap(slot0)
 	end)
 end
 
-function slot0.initChar(slot0)
+slot0.initChar = function(slot0)
 	slot1 = PoolMgr.GetInstance()
 	slot4 = true
 
@@ -392,7 +392,7 @@ function slot0.initChar(slot0)
 	end
 end
 
-function slot0.updataCharDirect(slot0, slot1, slot2)
+slot0.updataCharDirect = function(slot0, slot1, slot2)
 	if slot0.model then
 		slot3 = slot0.mapCells[slot1].position
 		slot4 = slot1 + 1 > #slot0.mapCells and 1 or slot1 + 1
@@ -405,7 +405,7 @@ function slot0.updataCharDirect(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getMoveType(slot0, slot1, slot2, slot3)
+slot0.getMoveType = function(slot0, slot1, slot2, slot3)
 	slot5 = {}
 	slot6 = {}
 
@@ -446,7 +446,7 @@ function slot0.getMoveType(slot0, slot1, slot2, slot3)
 	return slot7, slot8
 end
 
-function slot0.checkCharActive(slot0)
+slot0.checkCharActive = function(slot0)
 	if slot0.anim then
 		if slot0.effectId and slot0.effectId > 0 then
 			slot0:changeAnimeState(true)
@@ -464,19 +464,19 @@ function slot0.checkCharActive(slot0)
 	end
 end
 
-function slot0.firstUpdata(slot0, slot1)
+slot0.firstUpdata = function(slot0, slot1)
 	slot0:activityDataUpdata(slot1)
 	slot0:updataUI()
 	slot0:updataChar()
 	slot0:checkCharActive()
 end
 
-function slot0.updataActivity(slot0, slot1)
+slot0.updataActivity = function(slot0, slot1)
 	slot0:activityDataUpdata(slot1)
 	slot0:updataUI()
 end
 
-function slot0.activityDataUpdata(slot0, slot1)
+slot0.activityDataUpdata = function(slot0, slot1)
 	slot0.activity = slot1
 	slot0.totalCnt = math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.activity.data1) / 86400) * slot0.activity:getDataConfig("daily_time") + slot0.activity.data1_list[1]
 	slot0.useCount = slot0.activity.data1_list[2]
@@ -496,7 +496,7 @@ function slot0.activityDataUpdata(slot0, slot1)
 	slot0.effectId = slot0.activity.data4
 end
 
-function slot0.checkStep(slot0, slot1)
+slot0.checkStep = function(slot0, slot1)
 	if slot0.step > 0 then
 		slot2 = slot0._event
 
@@ -523,7 +523,7 @@ function slot0.checkStep(slot0, slot1)
 	end
 end
 
-function slot0.updataUI(slot0)
+slot0.updataUI = function(slot0)
 	setText(slot0.labelLeftRpCount, "" .. slot0.leftAwardCnt)
 	slot0.commonAnim:SetInteger("count", slot0.leftAwardCnt)
 	setText(slot0.labelDropShip, "" .. slot0.turnCnt + 1)
@@ -531,7 +531,7 @@ function slot0.updataUI(slot0)
 	setText(slot0.labelLeftCount, slot0.leftCount)
 end
 
-function slot0.updataChar(slot0)
+slot0.updataChar = function(slot0)
 	slot0.char.localPosition = slot0.mapCells[slot0.pos].position
 
 	if not isActive(slot0.char) then
@@ -544,7 +544,7 @@ function slot0.updataChar(slot0)
 	end
 end
 
-function slot0.checkEffect(slot0, slot1)
+slot0.checkEffect = function(slot0, slot1)
 	if slot0.effectId > 0 then
 		slot2 = slot0.mapCells[slot0.pos]
 		slot3 = pg.activity_event_monopoly_event[slot0.effectId].story
@@ -573,7 +573,7 @@ function slot0.checkEffect(slot0, slot1)
 	end
 end
 
-function slot0.triggerEfeect(slot0, slot1)
+slot0.triggerEfeect = function(slot0, slot1)
 	slot2 = slot0._event
 
 	slot2:emit(MonopolyCar2Page.ON_TRIGGER, slot0.activity.id, function (slot0, slot1)
@@ -592,7 +592,7 @@ function slot0.triggerEfeect(slot0, slot1)
 	end)
 end
 
-function slot0.moveCarWithPaths(slot0, slot1, slot2, slot3)
+slot0.moveCarWithPaths = function(slot0, slot1, slot2, slot3)
 	if not slot1 or #slot1 <= 0 then
 		if slot3 then
 			slot3()
@@ -668,7 +668,7 @@ function slot0.moveCarWithPaths(slot0, slot1, slot2, slot3)
 	seriesAsync(slot4, slot3)
 end
 
-function slot0.toMoveCar(slot0)
+slot0.toMoveCar = function(slot0)
 	if not slot0.targetPosition then
 		return
 	end
@@ -690,7 +690,7 @@ function slot0.toMoveCar(slot0)
 	slot0.char.localPosition = Vector3(slot3.x + slot0.speedX, slot3.y + slot0.speedY, 0)
 end
 
-function slot0.checkPathTurn(slot0, slot1)
+slot0.checkPathTurn = function(slot0, slot1)
 	if slot0.mapCells[slot1 + 1 > #slot0.mapCells and 1 or slot1 + 1].col == slot0.mapCells[slot1 - 1 < 1 and #slot0.mapCells or slot1 - 1].col or slot0.mapCells[slot2].row == slot0.mapCells[slot3].row then
 		return false
 	end
@@ -698,7 +698,7 @@ function slot0.checkPathTurn(slot0, slot1)
 	return true
 end
 
-function slot0.moveCharWithPaths(slot0, slot1, slot2, slot3)
+slot0.moveCharWithPaths = function(slot0, slot1, slot2, slot3)
 	slot0:moveCarWithPaths(slot1, slot2, slot3)
 
 	return
@@ -742,7 +742,7 @@ function slot0.moveCharWithPaths(slot0, slot1, slot2, slot3)
 	seriesAsync(slot4, slot3)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	slot4 = slot0.showModel
 
 	PoolMgr.GetInstance():ReturnSpineChar(uv0, slot4)

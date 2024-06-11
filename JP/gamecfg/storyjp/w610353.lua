@@ -1,8 +1,8 @@
 return {
-	id = "W610353",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W610353",
+	skipTip = false,
 	scripts = {
 		{
 			actor = 206030,
@@ -20,8 +20,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -75,8 +75,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

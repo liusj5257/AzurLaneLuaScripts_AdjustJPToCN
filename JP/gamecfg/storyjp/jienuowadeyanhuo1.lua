@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「アイリスに苦難が訪れる度に、我らが旗は掲げられよう」</size>",
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			say = "ヴィシア聖座・拠点",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-french1",
+			say = "ヴィシア聖座・拠点",
 			effects = {
 				{
 					active = false,
@@ -116,8 +116,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "「計り知れなくも繰り返す、ヒトの歴史なり」…まあ、そういうことさ",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "本当はサディア帝国は中立を保っているわけね。向こうのことだし、本気にならないでほしいけど",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "はいはい、作戦が決まった以上、何を言おうとしょうがないさ",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "というか、アルジェリーにしては最近深刻すぎない？もう少し楽にしようよ",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "あら、「アルジェリーにしては」ってどういうことかしら？",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "ははっ、もちろん「エレガントにして麗しく、いつも余裕綽々な我らが護教騎士アルジェリー殿」のことだけど？",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "からかわないで。これもヴィシアにとって大切な作戦の一つなのではなくて？",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "それはそうだね。だからこそぼくがここにいる、わかるかい？",
 			typewriter = {
@@ -268,8 +268,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "ふーん、流石にアルジェリーには簡単な問題だったかな？",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -311,8 +311,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "その作戦といえばフォッシュ、じゃないかしら？",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "普通に当てちゃうね…ははは、ちょっと拍子抜けだよ",
 			typewriter = {
@@ -342,8 +342,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -355,8 +355,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "当てさせてくれたのはフォッシュでしょうに。それで？具体的に何をすればいいの？",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "サディアの主力艦隊の動きを観測した結果に基づいて、機に乗じてその補給拠点たる港を襲撃する",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "補給を断ち、主力艦隊の動きを無力化する……いい作戦ね",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "ロイヤルからの支援は？",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "何て書いてあるの？",
 			typewriter = {
@@ -472,8 +472,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "「現時点の情報を鑑みて、ロイヤル艦隊による再現作戦への介入は不可能と思われる」",
 			typewriter = {
@@ -489,8 +489,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "「ヴィシア聖座単独での作戦決行は避けられない」とさ",
 			typewriter = {
@@ -522,8 +522,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "それとも自称ストラテジストであるフォッシュの指示あってのことかしら？",
 			typewriter = {
@@ -539,8 +539,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "ははは、買いかぶり過ぎよ。上層部の動きなど、私達が探ってもわからないことだらけなのさ",
 			typewriter = {
@@ -556,8 +556,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "…そうね。結局深く考えたところで…",
 			typewriter = {
@@ -573,8 +573,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "大丈夫だよ。私達なら無事この戦いを乗り越えられるさ。なんだってぼくがいるんだからね！",
 			typewriter = {
@@ -590,8 +590,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "冒険には冷静な頭脳を、指揮には慎重な采配を、選べる選択肢の中では今の作戦が最善だと信じてるよ",
 			typewriter = {
@@ -607,8 +607,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "と、ストラテジストとして綺麗事をざっと並べてみたものの…",
 			typewriter = {
@@ -621,8 +621,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -634,8 +634,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "上層部から預かった「再現」はたかが艦船一人が見通せるものではない",
 			typewriter = {
@@ -651,8 +651,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "それに――ぼく、本当は頭を使うことより、戦う方が好きだって言ったらどう思う？",
 			typewriter = {
@@ -700,8 +700,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "了解よ。活躍を期待しているわ、「ストラテジスト」さん。ふふふ",
 			typewriter = {
@@ -717,8 +717,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "そう言われると照れるな～ははは",
 			typewriter = {
@@ -731,8 +731,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -744,8 +744,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "そう？じゃあこれからはフォッシュじゃなくてそれで呼んであげよっか？",
 			typewriter = {

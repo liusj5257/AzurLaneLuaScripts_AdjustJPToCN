@@ -12,11 +12,11 @@ slot4.ATTR_PRE = {
 	[slot3.WeaponDamageAttr.AIR] = "injureRatioByAir"
 }
 
-function slot4.Ctor(slot0, slot1)
+slot4.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot4.SetArgs(slot0, slot1, slot2)
+slot4.SetArgs = function(slot0, slot1, slot2)
 	slot3 = slot0._tempData.arg_list
 	slot0._convert = slot3.convert_rate
 	slot0._duration = slot3.duration
@@ -24,13 +24,13 @@ function slot4.SetArgs(slot0, slot1, slot2)
 	slot0._attrTable = {}
 end
 
-function slot4.onTakeDamage(slot0, slot1, slot2, slot3)
+slot4.onTakeDamage = function(slot0, slot1, slot2, slot3)
 	if slot3.damageAttr then
 		slot0._attrTable[slot4] = (slot0._attrTable[slot4] or 0) + slot3.damage
 	end
 end
 
-function slot4.onRemove(slot0, slot1, slot2)
+slot4.onRemove = function(slot0, slot1, slot2)
 	slot3 = 0
 	slot4 = nil
 
@@ -50,17 +50,17 @@ function slot4.onRemove(slot0, slot1, slot2)
 	slot1:AddBuff(uv1.Battle.BattleBuffSelfModifyUnit.New(slot6.id, 1, slot1, slot6))
 end
 
-function slot4.generateBuff(slot0, slot1, slot2, slot3)
+slot4.generateBuff = function(slot0, slot1, slot2, slot3)
 	return {
 		{
 			time = slot1
 		},
 		name = "代码生成buff",
 		init_effect = "jinengchufablue",
-		stack = 1,
 		picture = "",
-		last_effect = "",
 		desc = "代码生成buff-指定属性减伤",
+		stack = 1,
+		last_effect = "",
 		id = slot0,
 		icon = slot0,
 		time = slot1,

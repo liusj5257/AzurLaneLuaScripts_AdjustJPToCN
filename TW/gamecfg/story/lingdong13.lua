@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG13",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG13",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205070,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level03",
 			dir = 1,
 			say = "特攻艦隊全員注意，雖然之前遭到了一點小小的騷擾，我們也失去了同司令部的聯繫…",
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

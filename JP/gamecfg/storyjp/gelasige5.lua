@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"それは恋を呼ぶ季節\n\n<size=45>五 グラスゴーさんっていうんですね</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "放課後――",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "放課後――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "……何か企んでるんじゃないでしょうね？",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "エディンバラさんもグルになってるみたいですっごく怪しい……ホントに二人とも何か――",
 			typewriter = {
@@ -132,11 +132,11 @@ return {
 			}
 		},
 		{
-			actor = 201030,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201030,
+			nameColor = "#a9f548",
 			say = "う、うわー！このままだと間に合わなくなっちゃう！ごめんグラスゴーこの埋め合わせは必ず――！",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -161,8 +161,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "あ！待ちなさい！ちょっと――",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "……もう、私だってあんまり遅くなるとニューカッスル姉さんに迷惑かけてしまうのに",
 			typewriter = {
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "「手伝おうか？」",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "……貴方様はいいから先に帰って姉さんに遅くなると伝えてください。掃除は得意だし問題ないから",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "（……それに、さっきの壁ドンのせいで変に意識しちゃってるってのもあるし……）",
 			typewriter = {
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "顔が熱くなるのを感じながら、グラスゴーは掃除を始めた。心なしか普段よりやり方が少し荒っぽくなる。",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "貴方様！本当にここは私一人で大丈夫ですから",
 			typewriter = {
@@ -290,8 +290,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "……え？机の中に何か入ってるって？それはもしかして――手紙ですか？",
 			typewriter = {
@@ -304,9 +304,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "なんとも可愛らしいデザインの便せんであった。",
 			typewriter = {
 				speed = 0.05,
@@ -318,9 +318,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "誰のものか気になって、グラスゴーも隣に寄ってきてその送り主の名前を読んでみた。",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "ちょ、ちょっと待って！私知りませんよ！？こんな手紙見たことも書いたことも――って、",
 			typewriter = {
@@ -365,9 +365,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "手紙の封を切ってみると、そこには素直になれない少女の気持ちがなんとも赤裸々な言葉で綴られていた。",
 			typewriter = {
 				speed = 0.05,
@@ -379,9 +379,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "――愛しています　グラスゴー。",
 			typewriter = {
 				speed = 0.05,
@@ -393,11 +393,11 @@ return {
 			}
 		},
 		{
-			actor = 202261,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202261,
+			nameColor = "#a9f548",
 			say = "ち、違います！！これはニセモノよ！！絶対アーデントやエディンバラさんたちの仕業だから！！",
 			typewriter = {
 				speed = 0.05,
@@ -409,8 +409,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -435,9 +435,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "「そうか……本当じゃないんだ……」",
 			typewriter = {
 				speed = 0.05,
@@ -465,9 +465,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "突然の言葉に戸惑いの表情を浮かべるグラスゴー。",
 			typewriter = {
 				speed = 0.05,

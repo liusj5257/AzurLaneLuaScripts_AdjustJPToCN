@@ -1,12 +1,12 @@
 return {
-	id = "W1117",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1117",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "エネルギー供給が再開したようだ。これでエリアも安全になるだろう。",
 			typewriter = {
 				speed = 0.05,

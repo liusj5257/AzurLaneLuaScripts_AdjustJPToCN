@@ -1,8 +1,8 @@
 return {
-	id = "BIHAIGUANGLIN33-4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN33-4",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -24,8 +24,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			say = "Maaan, I'm lucky I at least have this barrier protecting me, but talk about a tough nut to crack...",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "A third mechanism? Cheap tricks, but troublesome nevertheless...",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			say = "She's going on the defensive...!",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "Listen to me, Hakuryuu! If we're both from the Sakura Empire, I have no desire to fight you! Let's talk things through!",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			say = "That's right! I need you to tell me how to use massive cannons like that as well!",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "How... to use...? Look, I don't know every little thing about how this place works!",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "But tell you what, if you can beat me, I'll hear you out.",
 			typewriter = {
 				speed = 0.05,

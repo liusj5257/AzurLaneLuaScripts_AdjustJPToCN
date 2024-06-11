@@ -1,6 +1,6 @@
 slot0 = class("CommanderCatteryOPCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot4 = getProxy(CommanderProxy)
 	slot4 = slot4:GetCommanderHome()
 	slot5 = pg.ConnectionMgr.GetInstance()
@@ -49,10 +49,10 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.AddCommanderExpByFeed(slot0)
+slot0.AddCommanderExpByFeed = function(slot0)
 	slot1 = {}
 
-	function slot2(slot0, slot1)
+	slot2 = function(slot0, slot1)
 		if getProxy(CommanderProxy):getCommanderById(slot0:GetCommanderId()):isMaxLevel() then
 			slot1 = 0
 		end

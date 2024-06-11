@@ -1,16 +1,16 @@
 return {
-	id = "YONGYEHUANGUANG3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgm = "bgm-cccp2",
-			dir = 1,
+			side = 2,
 			say = "바렌츠해· 로열 네이비 호송 함대",
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "?! 구식 구축함대조차 전선으로 보내다니…전세가 이미 이 정도까지 급박해졌나요!?",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "극지 세이렌이 또 한차례 대규모 공격을 시작한 것 같아. 지휘관님도 이미 직접 최전선으로 가서 전투 지휘 중이셔.",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "지휘관님조차라니... 보아하니 이번 운송 임무를 끝내더라도 전세가 호전되어야 지휘관님을 모셔갈 수 있겠네요…",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "전투 상황이 이렇게나 심각하다면…지휘관님이 꼭 스스로를 잘 챙기셨으면 좋겠네요…",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "아니면 노스 유니온을 기다렸다가, 우리가 사령부에 신청해서 최전선으로 가서 지휘관님께 힘을 보태는 것이 좋겠어.",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -159,8 +159,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "그것도 그래요... 요동치는 풍랑에, 살을 에는 듯한 찬바람까지… 바렌츠해는 올 때마다 전보다 날씨가 더 나쁜 것 같아요. 이번에는 극야에 오게 되다니…",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "이건 나쁜 것도 아냐. 메탈 블러드가 이미 연안의 군사 배치를 강화했대. 만약 메탈 블러드의 폭격기에 습격을 받는다면, 넌 아마 날씨가 나쁠수록 좋다고 생각하게 될 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "저희뿐만 아니라, 현재 주력 함대와 지원 함대 역시 적에게 발견되지 않았어요. 극야는 메탈 블러드의 정찰기에게 더 귀찮은 존재인가 보네요.",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "모두 대형을 유지하고, 경솔하게 행동하지 마. 최전선에서 싸우고 있는 동맹들은 이번 물자가 도착하기를 여전히 간절하게 기다리고 있어. 함대 중 문제라도 생긴다면 그녀들의 상황은 더욱 험난해질 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "알겠어. 모두에게 호위 함대는 예정된 항로를 따라 노스 유니온의 무르만스트 항구로 계속 접근하고 있음을 알린다. 현재 모두 이상 없음!",
 			typewriter = {
 				speed = 0.05,

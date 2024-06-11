@@ -1,6 +1,6 @@
 slot0 = class("TWCelebrationPage2", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.getBtn = slot0:findTF("AD/get_btn")
 	slot0.gotBtn = slot0:findTF("AD/got_btn")
@@ -8,10 +8,10 @@ function slot0.OnInit(slot0)
 	slot0.mark = slot0:findTF("AD/mark")
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot3 = getProxy(TaskProxy):getTaskById(slot0.activity:getConfig("config_data")[1]) or slot2:getFinishTaskById(slot1) or Task.New({
 		id = slot1
 	})

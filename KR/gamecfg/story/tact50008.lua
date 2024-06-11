@@ -22,8 +22,8 @@ return {
 			actor = 303010,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:53}",
 			say = "그래, 우린 거의 피해도 입지 않았으니 계속 싸워도 문제없다고.",
+			actorName = "{namecode:53}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -86,8 +86,8 @@ return {
 			actor = 303030,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:55}",
 			say = "누, 누구였더라…왜 난 누군지 모르겠을까~",
+			actorName = "{namecode:55}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "{namecode:69}는 고개를 돌려 과달카달 섬을 바라보았다. 열대우림으로 뒤덮여 사람의 손을 타지 않았던, 지옥과도 같이 뜨겁고 습한 열대기후의 섬… 그 섬은 앞으로 다가올 운명을 예지라도 한 듯, 달빛 아래서 고요히 이들을 지켜보고 있었다.",
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "하지만 이 고요함이 포격 굉음에 깨지기까지는, 그리 오랜 시간이 걸리지 않았다……",
 			typewriter = {

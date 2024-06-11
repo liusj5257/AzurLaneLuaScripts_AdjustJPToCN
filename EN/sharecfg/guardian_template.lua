@@ -3,8 +3,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 17,
 		guardian_painting = "lisailiu",
-		type = 1,
 		buff = 200852,
+		type = 1,
 		guardian_gain_desc = "Pray to the Statue of Power $1/10 times.",
 		guardian_desc = "Supporting barrages periodically appear during battle.",
 		id = 1,
@@ -24,8 +24,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 17,
 		guardian_painting = "chicheng",
-		type = 1,
 		buff = 200857,
+		type = 1,
 		guardian_gain_desc = "Pray to the Statue of Power $1/30 times.",
 		guardian_desc = "At the beginning of battle, all enemies are inflicted with a special Burn ailment.",
 		id = 2,
@@ -45,8 +45,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 17,
 		guardian_painting = "kelaimengsuo",
-		type = 1,
 		buff = 200863,
+		type = 1,
 		guardian_gain_desc = "Pray to the Statue of Power $1/70 times.",
 		guardian_desc = "Increases your fleet's DMG dealt by 15.0%, but causes them to lose 0.5% of their max HP every 5s.",
 		id = 3,
@@ -66,8 +66,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 17,
 		guardian_painting = "bisimaiZ",
-		type = 1,
 		buff = 200855,
+		type = 1,
 		guardian_gain_desc = "Pray to the Statue of Power $1/120 times.",
 		guardian_desc = "Summons a steel dragon to join the battle.",
 		id = 4,
@@ -87,8 +87,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 18,
 		guardian_painting = "mingshi",
-		type = 1,
 		buff = 200871,
+		type = 1,
 		guardian_gain_desc = "Pray to the Statue of Harvest $1/10 times.",
 		guardian_desc = "Increases your fleet's SPD by 10.0% and LCK by 66.",
 		id = 5,
@@ -108,8 +108,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 18,
 		guardian_painting = "yilishabai",
-		type = 1,
 		buff = 200872,
+		type = 1,
 		guardian_gain_desc = "Pray to the Statue of Harvest $1/30 times.",
 		guardian_desc = "During battle, your ships recover 1.0% of their max HP every 10s.",
 		id = 6,
@@ -129,8 +129,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 18,
 		guardian_painting = "yixian",
-		type = 1,
 		buff = 200868,
+		type = 1,
 		guardian_gain_desc = "Pray to the Statue of Harvest $1/70 times.",
 		guardian_desc = "Your flagship takes 40.0% less DMG, but will tank 20.0% of the DMG dealt to other allies.",
 		id = 7,
@@ -150,8 +150,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 18,
 		guardian_painting = "salatuojia",
-		type = 1,
 		buff = 200862,
+		type = 1,
 		guardian_gain_desc = "Pray to the Statue of Harvest $1/120 times.",
 		guardian_desc = "Changes the Armor type of all your ships to Heavy.",
 		id = 8,
@@ -171,8 +171,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 19,
 		guardian_painting = "weineituo",
-		type = 1,
 		buff = 200873,
+		type = 1,
 		guardian_gain_desc = "Pray to the Statue of Wisdom $1/10 times.",
 		guardian_desc = "Every 20s, increases the DMG dealt by a random ship in your fleet by 30.0% for 8s.",
 		id = 9,
@@ -192,8 +192,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 19,
 		guardian_painting = "huangjiacaifu",
-		type = 1,
 		buff = 200860,
+		type = 1,
 		guardian_gain_desc = "Pray to the Statue of Wisdom $1/30 times.",
 		guardian_desc = "Increases your fleet's DMG dealt by 15.0% for the first 60s after the start of battle; afterward, decreases their DMG dealt by 10.0%.",
 		id = 10,
@@ -213,8 +213,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 19,
 		guardian_painting = "tbniang",
-		type = 1,
 		buff = 200864,
+		type = 1,
 		guardian_gain_desc = "Pray to the Statue of Wisdom $1/70 times.",
 		guardian_desc = "Changes the movement algorithm of your fleet during Auto Combat.",
 		id = 11,
@@ -234,8 +234,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 19,
 		guardian_painting = "suweiaitongmengnew",
-		type = 1,
 		buff = 200865,
+		type = 1,
 		guardian_gain_desc = "Pray to the Statue of Wisdom $1/120 times.",
 		guardian_desc = "Increases your fleet's stats depending on how many different factions are represented.",
 		id = 12,
@@ -255,8 +255,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 17,
 		guardian_painting = "qiye_dark",
-		type = 2,
 		buff = 200877,
+		type = 2,
 		guardian_gain_desc = "???",
 		guardian_desc = "When the Boss appears, fires a supporting barrage that deals damage equal to 30.0% of its max HP.",
 		id = 13,
@@ -278,8 +278,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 18,
 		guardian_painting = "hailunna_alter",
-		type = 2,
 		buff = 200884,
+		type = 2,
 		guardian_gain_desc = "???",
 		guardian_desc = "When your fleet fires a Main Gun salvo, launches an airstrike, or fires torpedoes, increases the whole fleet's DMG dealt by 2.0%/2.0%/1.0%, respectively.",
 		id = 14,
@@ -301,8 +301,8 @@ pg.guardian_template = {
 	{
 		guardian_gain_pool = 19,
 		guardian_painting = "unknown2",
-		type = 2,
 		buff = 200887,
+		type = 2,
 		guardian_gain_desc = "???",
 		guardian_desc = "When the battle starts, summons a loyal and brave ally to fight for your fleet.",
 		id = 15,

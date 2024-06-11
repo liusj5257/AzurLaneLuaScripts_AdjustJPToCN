@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageRatioByAmmoType_2",
-					number = 0.1
+					number = 0.1,
+					attr = "damageRatioByAmmoType_2"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.1
+					number = 0.1,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageRatioByAmmoType_2",
-					number = 0.111
+					number = 0.111,
+					attr = "damageRatioByAmmoType_2"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.111
+					number = 0.111,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageRatioByAmmoType_2",
-					number = 0.122
+					number = 0.122,
+					attr = "damageRatioByAmmoType_2"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.122
+					number = 0.122,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageRatioByAmmoType_2",
-					number = 0.133
+					number = 0.133,
+					attr = "damageRatioByAmmoType_2"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.133
+					number = 0.133,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageRatioByAmmoType_2",
-					number = 0.144
+					number = 0.144,
+					attr = "damageRatioByAmmoType_2"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.144
+					number = 0.144,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageRatioByAmmoType_2",
-					number = 0.155
+					number = 0.155,
+					attr = "damageRatioByAmmoType_2"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.155
+					number = 0.155,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageRatioByAmmoType_2",
-					number = 0.166
+					number = 0.166,
+					attr = "damageRatioByAmmoType_2"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.166
+					number = 0.166,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageRatioByAmmoType_2",
-					number = 0.177
+					number = 0.177,
+					attr = "damageRatioByAmmoType_2"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.177
+					number = 0.177,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageRatioByAmmoType_2",
-					number = 0.188
+					number = 0.188,
+					attr = "damageRatioByAmmoType_2"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.188
+					number = 0.188,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageRatioByAmmoType_2",
-					number = 0.2
+					number = 0.2,
+					attr = "damageRatioByAmmoType_2"
 				}
 			},
 			{
@@ -253,20 +253,20 @@ return {
 				},
 				arg_list = {
 					group = 103010,
-					attr = "damageReduceFromAmmoType_2",
-					number = 0.2
+					number = 0.2,
+					attr = "damageReduceFromAmmoType_2"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "四神变幻",
 	init_effect = "",
-	color = "yellow",
+	id = 103012,
+	time = 0,
 	picture = "",
 	desc = "通常弹伤害提高",
 	stack = 1,
-	id = 103012,
+	color = "yellow",
 	icon = 103010,
 	last_effect = "",
 	blink = {
@@ -284,8 +284,8 @@ return {
 			},
 			arg_list = {
 				group = 103010,
-				attr = "damageRatioByAmmoType_2",
-				number = 0.2
+				number = 0.2,
+				attr = "damageRatioByAmmoType_2"
 			}
 		},
 		{
@@ -295,8 +295,8 @@ return {
 			},
 			arg_list = {
 				group = 103010,
-				attr = "damageReduceFromAmmoType_2",
-				number = 0.2
+				number = 0.2,
+				attr = "damageReduceFromAmmoType_2"
 			}
 		}
 	}

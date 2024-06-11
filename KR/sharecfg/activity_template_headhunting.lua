@@ -2,8 +2,8 @@ pg = pg or {}
 pg.activity_template_headhunting = {
 	[4526] = {
 		man_num = 2,
-		pt = 279,
 		id = 4526,
+		pt = 279,
 		level = 1,
 		target = {
 			25,
@@ -208,8 +208,8 @@ pg.activity_template_headhunting = {
 	},
 	[5011] = {
 		man_num = 2,
-		pt = 371,
 		id = 5011,
+		pt = 371,
 		level = 1,
 		target = {
 			25,
@@ -414,8 +414,8 @@ pg.activity_template_headhunting = {
 	},
 	[20188] = {
 		man_num = 3,
-		pt = 124,
 		id = 20188,
+		pt = 124,
 		level = 15,
 		target = {
 			25,
@@ -605,8 +605,8 @@ pg.activity_template_headhunting = {
 	},
 	[20267] = {
 		man_num = 2,
-		pt = 135,
 		id = 20267,
+		pt = 135,
 		level = 1,
 		target = {
 			25,
@@ -811,8 +811,8 @@ pg.activity_template_headhunting = {
 	},
 	[20417] = {
 		man_num = 2,
-		pt = 951,
 		id = 20417,
+		pt = 951,
 		level = 1,
 		target = {
 			25,
@@ -1017,8 +1017,8 @@ pg.activity_template_headhunting = {
 	},
 	[20542] = {
 		man_num = 2,
-		pt = 168,
 		id = 20542,
+		pt = 168,
 		level = 1,
 		target = {
 			25,
@@ -1223,8 +1223,8 @@ pg.activity_template_headhunting = {
 	},
 	[20727] = {
 		man_num = 2,
-		pt = 955,
 		id = 20727,
+		pt = 955,
 		level = 1,
 		target = {
 			25,
@@ -1429,8 +1429,8 @@ pg.activity_template_headhunting = {
 	},
 	[20990] = {
 		man_num = 2,
-		pt = 220,
 		id = 20990,
+		pt = 220,
 		level = 1,
 		target = {
 			25,
@@ -1635,8 +1635,8 @@ pg.activity_template_headhunting = {
 	},
 	[20994] = {
 		man_num = 2,
-		pt = 264,
 		id = 20994,
+		pt = 264,
 		level = 1,
 		target = {
 			25,
@@ -1841,8 +1841,8 @@ pg.activity_template_headhunting = {
 	},
 	[20999] = {
 		man_num = 2,
-		pt = 353,
 		id = 20999,
+		pt = 353,
 		level = 1,
 		target = {
 			25,

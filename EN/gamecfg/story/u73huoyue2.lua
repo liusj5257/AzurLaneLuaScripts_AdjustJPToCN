@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U73HUOYUE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U73HUOYUE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Science Rules!\n\n<size=45>Chapter 2 - A Big Experiment</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "A few minutes later - In the science room",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "A few minutes later - In the science room",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "*Cough*... What's with all this smoke...",
 			typewriter = {
 				speed = 0.05,
@@ -78,16 +78,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.15,
 					x = 0,
@@ -99,8 +99,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "*Cough*... Welp, that's one more failed experiment...",
 			typewriter = {
@@ -113,8 +113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,8 +126,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "But on the other hand, failure leads to success! The next time, I'll get it right!",
 			typewriter = {
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "So this is where you were, U-73... Wait, what were you even doing in there during the lunch break!?",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -265,8 +265,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "Ahah, guess I woke you from your little nap... Sorry 'bout that...",
 			typewriter = {
@@ -298,8 +298,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "Hahah! You'll be astonished once you know! I was, in fact, working on a big experiment!",
 			typewriter = {
@@ -315,8 +315,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "On what, you say? Why, I'm glad you asked...",
 			typewriter = {
@@ -329,16 +329,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
-			actorName = "Everyone",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			bgName = "star_level_bg_103",
+			actorName = "Everyone",
 			say = "... WHAAAAT!?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KASABULANKA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KASABULANKA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"突如其來的羅曼史\n\n<size=45>四  『難以言表』</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 106550,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "（唉……上次電影裡的女主角，為什麼選擇跟意中人分手呢……換做是我肯定不會做出這種選擇。）",
 			bgm = "story-1",
+			actor = 106550,
+			nameColor = "#a9f548",
+			say = "（唉……上次電影裡的女主角，為什麼選擇跟意中人分手呢……換做是我肯定不會做出這種選擇。）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（雖然能理解她是在考慮了對方的立場之後做出的選擇……但只要有愛，兩人之間的牆壁一定能有辦法……）",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "是啊，她看上去好像正在想事情。",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "聽說她最近當了秘書艦，可能是有什麼煩心事吧。",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（然後兩人就一直沒有互相坦白……就像我和指揮官一樣……）",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "卡薩布蘭卡，妳還好嗎？",
 			typewriter = {
@@ -172,8 +172,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "啊啊？！！",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "抱、抱歉。沒注意到附近有人……",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,8 +242,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "想什麼呢那麼專心？要是有煩惱的話可以找我商量的哦。",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（坦白自己的愛好，以及和指揮官之間的各種的……）",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（…？！我，我這是在想什麼…）",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "沒、沒什麼……也不是什麼需要商量的事……",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "就是——什麼呢？",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（自己代入了愛情電影的女主角然後想事情想過頭了……這種事實在說不出口啊……）",
 			typewriter = {
@@ -423,14 +423,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 106550,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "——就是這樣…互相隱瞞了身份的兩人，一旦暴露了原本的身份就沒法像之前那樣相處了吧？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -458,8 +458,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "原本對等交往的兩人，在身份暴露變的不平等的瞬間就將迎來悲傷的離別……不覺得太過分了嗎？",
 			typewriter = {
@@ -472,8 +472,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -485,8 +485,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "呃……在同一個港區裡真的會有離別嗎？就算所屬的地方變了，作戰的時候還是會經常見面的吧。",
 			typewriter = {
@@ -518,8 +518,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "而且，互相清楚對方的身份的話，更清晰的立場應該更有利於作戰才對……",
 			typewriter = {
@@ -535,8 +535,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "不，不是這樣的……我想說的是那種，由於至今為止的關係發生了變化，而沒辦法再像以前那樣相處的“悲傷”……",
 			typewriter = {
@@ -549,8 +549,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -559,10 +559,10 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
+			actor = 107230,
 			dir = 1,
 			hideOther = true,
 			actorName = "普林斯顿&巴丹",
@@ -588,8 +588,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "啊啊……也，也不是這個意思！",
 			typewriter = {
@@ -621,8 +621,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（指揮官和秘書艦，從一開始就該是上司和下屬的感覺…但是對著坦率詢問我的指揮官，我不知不覺間…）",
 			typewriter = {
@@ -638,9 +638,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
 			blackBg = true,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（啊啊，是我想太多了嗎……）",
 			typewriter = {
@@ -653,8 +653,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULISITUOERBOSS2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BULISITUOERBOSS2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"名状しがたき演習事件\n\n<size=45>二 探索者のエントリーだ</size>",
@@ -17,19 +17,19 @@ return {
 			}
 		},
 		{
-			bgm = "battle-boss-4",
+			soundeffect = "event:/battle/boom2",
 			oldPhoto = true,
-			bgName = "bg_story_nepu2",
-			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			soundeffect = "event:/battle/boom2",
-			nameColor = "#a9f548",
+			bgm = "battle-boss-4",
+			side = 2,
 			hidePaintObj = true,
+			bgName = "bg_story_nepu2",
+			nameColor = "#a9f548",
 			say = "————————！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "基地跡がある海域に入った途端、ブリストルに猛烈な長距離砲撃を見舞われた。",
 			typewriter = {
 				speed = 0.05,
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "——対抗演習の艦隊が既に配置済みのため、当然の結果である。",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "被弾箇所は多いが、ブリストルは実害を被っていなかった。",
 			typewriter = {
 				speed = 0.05,
@@ -211,12 +211,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_story_nepu2",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "――艦隊が使っているのは演習専用の弾薬なので、これもまた当然の結果である…しかしこの時のブリストルは知る由もなかった。",
 			typewriter = {
 				speed = 0.05,
@@ -247,17 +247,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#a9f548",
-			say = "少しの様子見の後、ブリストルは射撃をしながら離脱し、とある廃棄施設に身を隠すことにした。",
+			bgName = "star_level_bg_148",
 			bgm = "xinnong-3",
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "少しの様子見の後、ブリストルは射撃をしながら離脱し、とある廃棄施設に身を隠すことにした。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,12 +282,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "すっかり廃れたそこに人気などあるはずも無く、昼間でも陰鬱な雰囲気を漂わせていた。",
 			typewriter = {
 				speed = 0.05,
@@ -299,13 +299,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "照明――――オン！",
 			typewriter = {
 				speed = 0.05,
@@ -336,13 +336,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "敵がここまで攻め込んだとなると、母港の戦況は楽観視できないね…",
 			typewriter = {
 				speed = 0.05,
@@ -392,12 +392,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "考えようとした瞬間。吹き抜けてきた冷たい風に、ブリストルはぞっと身震いした。耳を澄ますと、風の中から微かな声がしたようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -409,13 +409,13 @@ return {
 			}
 		},
 		{
-			actor = 900321,
 			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 900321,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…ス…トル…",
 			typewriter = {
 				speed = 0.05,
@@ -427,13 +427,13 @@ return {
 			}
 		},
 		{
-			actor = 900321,
 			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 900321,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ブリ…トルちゃん…探しに来たよ…",
 			typewriter = {
 				speed = 0.05,
@@ -478,9 +478,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_148",
-			oldPhoto = true,
-			dir = 1,
 			actor = 101490,
+			dir = 1,
+			oldPhoto = true,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "ゆ、勇敢なる探索者に怖いものなし！例え知らない人から呼ばれても応えちゃいけないと、本に書いてあるもん！",
@@ -500,13 +500,13 @@ return {
 			}
 		},
 		{
-			actor = 900321,
 			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 900321,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ブリストルちゃん…",
 			typewriter = {
 				speed = 0.05,
@@ -518,12 +518,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "声がだんだんとはっきりしてくるにつれ、その声の正体の姿も見えるようになってきた。",
 			typewriter = {
 				speed = 0.05,
@@ -554,8 +554,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -583,13 +583,13 @@ return {
 			}
 		},
 		{
-			actor = 101450,
 			side = 2,
-			bgName = "star_level_bg_148",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#a9f548",
 			oldPhoto = true,
+			bgName = "star_level_bg_148",
+			dir = 1,
+			actor = 101450,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "配置変換の連絡でしょ？攻撃側の艦隊はもう移動したから、ブリストルもあたしと一緒に…",
 			typewriter = {
 				speed = 0.05,
@@ -658,8 +658,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -706,12 +706,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_148",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "呪文のようにわけのわからない言葉を発した後、ブリストルは暗闇に包まれた施設の奥へと走っていった。",
 			typewriter = {
 				speed = 0.05,
@@ -723,14 +723,14 @@ return {
 			}
 		},
 		{
-			say = "しばらくすると、休暇中のイングラハムに、演習艦隊の連絡が入った。",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			bgm = "level",
+			say = "しばらくすると、休暇中のイングラハムに、演習艦隊の連絡が入った。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -758,10 +758,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……演習海域に正体不明の艦が出現し、威嚇射撃を行った、と？",
 			typewriter = {
 				speed = 0.05,
@@ -773,12 +773,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（母港のこんな近くに敵が現れるはずがないよね…ってこれはブリストルじゃない？！）",
 			typewriter = {
 				speed = 0.05,
@@ -793,10 +793,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "うん。たぶんブリストル。出先から戻ってきたばかりでまだ本調子じゃなくて、演習に身が入らないだけかも",
 			typewriter = {
 				speed = 0.05,
@@ -830,10 +830,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ええ…変なことって何を言ってたの？",
 			typewriter = {
 				speed = 0.05,
@@ -864,12 +864,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "「帰りたい」か…もしかしてブリストルは気分が悪くなったから、演習を一時中止してほしいんじゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -884,10 +884,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101450,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そうならそうと言えばいいのに…指揮官ちゃんに聞いてくるねー",
 			typewriter = {
 				speed = 0.05,
@@ -899,12 +899,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -919,10 +919,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（ブリストル、一体何をしてたんだろう…「攻撃側の艦隊と合流して」って連絡したはずなのに）",
 			typewriter = {
 				speed = 0.05,
@@ -934,12 +934,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -954,10 +954,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101480,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（あ。もしかして…まさかあのときの通信の乱れでうまく伝わらなかったとかー！？）",
 			typewriter = {
 				speed = 0.05,
@@ -969,12 +969,12 @@ return {
 			}
 		},
 		{
-			actor = 101480,
 			side = 2,
 			bgName = "bg_main_day",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101480,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "………………………………",
 			typewriter = {
 				speed = 0.05,

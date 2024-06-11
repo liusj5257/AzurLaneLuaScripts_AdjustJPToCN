@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN8",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "Aaaand we're back, nya! The second battle will begin in just a moment, nya!",
 			dir = 1,
 			bgm = "doa_boss",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "Aaaand we're back, nya! The second battle will begin in just a moment, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -50,8 +50,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "Fighting dressed up like this... I'm not really sure what I'm supposed to be doing here, but... I'm excited to be battling side-by-side with you, big sis. Let's do our best!",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "Misaki... I don't want you to get hurt. Be careful, okay?",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "I'll be fine~ Akashi told us that we're using special ammo, remember?",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "I know, but... don't let your guard down. You're my precious little sister... I'll protect you, so make sure to stay behind me at all times!",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -244,8 +244,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "You think so? All I know is I wanna chat 'em up!",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

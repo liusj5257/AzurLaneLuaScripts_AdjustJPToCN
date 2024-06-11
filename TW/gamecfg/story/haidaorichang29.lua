@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG29",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"海風與夏日的無人島\n\n<size=45>馬可波羅的計劃</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
-			say = "火山的山腰，一支隊伍正向著那高聳入雲的峰頂前進著。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "火山的山腰，一支隊伍正向著那高聳入雲的峰頂前進著。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "除去領頭的馬可波羅之外，似乎大家都是一副愁眉苦臉的樣子……",
@@ -61,10 +61,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊……救命……登山……好累……啊……",
 			painting = {
 				alpha = 0.3,
@@ -79,10 +79,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "再堅持一下……馬上……就要到了……呼……",
 			painting = {
 				alpha = 0.3,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "……是薩丁和鐵血混編的登山隊。",
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "馬可波羅以“登山踏青”的名義，帶著她們向著這座島上的最高處——火山山頂——前進著。",
@@ -119,10 +119,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這一路上也沒碰見什麼值得取材的事情……早知道就不上來了……",
 			painting = {
 				alpha = 0.3,
@@ -134,12 +134,12 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 699010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "新聞記者不是要有著克服一切艱難險阻，去最危險最困難的地方取材的覺悟嗎？",
 			painting = {
 				alpha = 0.3,
@@ -154,10 +154,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "怎麼遇到這麼點小小的挫折就想退縮了？",
 			painting = {
 				alpha = 0.3,
@@ -172,10 +172,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "雖然但是……這次是馬可波羅大人您非要拉著我們上來的啊……",
 			painting = {
 				alpha = 0.3,
@@ -187,8 +187,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -200,10 +200,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呼……為了俾斯麥大人的任務……",
 			painting = {
 				alpha = 0.3,
@@ -218,10 +218,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "堅持，堅持……",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哼哼哼，就快了，馬上就快到山頂了~",
 			painting = {
 				alpha = 0.3,
@@ -254,10 +254,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "接下來，妳們就敬請見證吧！",
 			painting = {
 				alpha = 0.3,
@@ -272,10 +272,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "見、見證？",
 			painting = {
 				alpha = 0.3,
@@ -290,10 +290,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "見證我馬可波羅……對這座島嶼的征服——！",
 			painting = {
 				alpha = 0.3,
@@ -314,10 +314,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			actorName = "亞德",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 406030,
-			nameColor = "#A9F548FF",
+			actorName = "亞德",
 			hidePaintObj = true,
 			say = "登上島嶼最高的山峰就算征服了這座島了嗎……呃呃……",
 			painting = {
@@ -336,12 +336,12 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 699010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那當然不只是這樣。達·文西，妳那邊也已經準備好了吧！",
 			painting = {
 				alpha = 0.3,
@@ -375,10 +375,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呵呵呵，我一向是不會在這方面吝嗇的人。",
 			painting = {
 				alpha = 0.3,
@@ -393,10 +393,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "“那東西”就放在……嗯，沒錯，那個位置就好了。",
 			painting = {
 				alpha = 0.3,
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "馬可波羅環顧四周，思考片刻後用手指向了山頂邊緣一處平坦的地面。",
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "空氣中響起無人機的噪聲，而後巨大的黑影浮現在眾人的眼前。",
@@ -452,10 +452,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這、這個是……！",
 			painting = {
 				alpha = 0.3,
@@ -467,8 +467,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -477,8 +477,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "伴隨著震耳欲聾的衝撞聲，一尊巨大的紀念碑建築被安置在了火山的最高處。",
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map",
 			hidePaintObj = true,
 			say = "紀念碑的頂部，是馬可波羅的塑像。",
@@ -499,12 +499,12 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 699010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "沒錯~！這就是我為紀念此次“薩丁的征服”而定做的紀念碑~！",
 			painting = {
 				alpha = 0.3,
@@ -519,10 +519,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗚哇……！這個倒是蠻氣派的呢！",
 			painting = {
 				alpha = 0.3,
@@ -534,8 +534,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -547,10 +547,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "對對對（無關心地鼓掌）。",
 			painting = {
 				alpha = 0.3,
@@ -581,8 +581,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -638,8 +638,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -679,10 +679,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "記得要寫成一篇壯闊華麗的新聞哦？",
 			painting = {
 				alpha = 0.3,
@@ -713,8 +713,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -748,10 +748,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "怎麼樣都好了……比起這些——",
 			painting = {
 				alpha = 0.3,
@@ -766,10 +766,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_summerisland_map",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "——達·文西，妳那個巨型無人機能送我們下山嗎？",
 			painting = {
 				alpha = 0.3,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FENGBAOQIANXI3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FENGBAOQIANXI3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102150,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level02",
 			dir = 1,
 			say = "ふぅ…無事送り届けられたね…",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "みんな、船団護衛ご苦労よ",
 			typewriter = {
 				speed = 0.05,
@@ -61,8 +61,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "そんなところね…物資集積、戦力配置関連の資料作成、連絡事項…やることは山積みだわ",
 			typewriter = {
 				speed = 0.05,
@@ -76,9 +76,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "私、週末は旅行に出かけようとしていたのに……コホン。今のは聞かなかったことにしなさいな",
 			typewriter = {
 				speed = 0.05,
@@ -90,8 +90,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -118,8 +118,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "これからエンタープライズ隊はクリーブランドたちと合流して次の作戦地点に移動するわけね？",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "もちろん指揮官にも連絡済みよ。心配しないで",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "はいこれ作戦指令書よ。あとで読んでおきなさい",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "セイレーン海域での作戦だから、準備はしっかりお願いね。何かあったらこちらにも連絡して頂戴",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "どうかしら？単に忙しすぎておかしくなっただけかもしれないわよ",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "作戦の連絡も済んだし、そろそろ次の仕事があるから失礼するわ",
 			typewriter = {
 				speed = 0.05,
@@ -326,14 +326,14 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "セイレーン出現予測値（Risk）4の危険海域の偵察任務…か",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -403,14 +403,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
-			stopbgm = true,
+			side = 2,
 			dir = 1,
+			stopbgm = true,
 			say = "「ふふふ、良い船旅を――」",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

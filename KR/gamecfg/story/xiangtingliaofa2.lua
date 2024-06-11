@@ -1,15 +1,15 @@
 return {
-	id = "XIANGTINGLIAOFA2",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "XIANGTINGLIAOFA2",
+	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bsm-1",
+			say = "이…이 어디서 본듯한 느낌은 대체?",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "이…이 어디서 본듯한 느낌은 대체?",
+			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "제기랄…또 머리가 아파와, 하필 이런 때에——",
 			typewriter = {
@@ -34,14 +34,14 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "지휘관, 습격당했어. 세이렌이 우리의 레이더 대역을 해독하고 방어를 피한 모양이야.",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1

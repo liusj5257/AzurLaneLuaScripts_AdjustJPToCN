@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_46 = {}
 slot1 = slot0.word_template_46
 
-function temp()
+temp = function()
 	uv0["钓"] = {
 		["鱼"] = {
 			["岛"] = {
@@ -41,7 +41,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["暴"] = {
 		["力"] = {
 			this = true,
@@ -149,7 +149,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["购"] = {
 		["买"] = {
 			["钓"] = {
@@ -177,7 +177,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["皇"] = {
 		["军"] = {
 			this = true

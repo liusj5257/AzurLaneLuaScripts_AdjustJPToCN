@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 15301,
 	picture = "",
 	desc = "副炮每进行4次攻击，触发弹幕",
 	stack = 1,
-	id = 15301,
+	color = "red",
 	icon = 15300,
 	last_effect = "",
 	effect_list = {
@@ -29,8 +29,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 15300,
+				target = "TargetSelf",
 				countType = 15301
 			}
 		}

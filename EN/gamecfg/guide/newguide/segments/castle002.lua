@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "Let's continue exploring on the 2nd Floor!",
 				mode = 1,
-				posY = -80,
 				dir = -1,
+				posY = -80,
 				posX = -561.6
 			},
 			ui = {

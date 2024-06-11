@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16012,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16012,
+	color = "blue",
 	icon = 16010,
 	last_effect = "",
 	effect_list = {
@@ -27,11 +27,11 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
+				skill_id = 16012,
 				minTargetNumber = 1,
 				quota = 1,
-				target = "TargetSelf",
 				hpUpperBound = 0.3,
-				skill_id = 16012,
+				target = "TargetSelf",
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetShipTag"

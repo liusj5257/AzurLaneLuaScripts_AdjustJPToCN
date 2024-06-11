@@ -1,12 +1,12 @@
 return {
-	id = "W1222",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1222",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "잔불 속에서 재료들을 발견했다...",
 			typewriter = {
 				speed = 0.05,

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI02",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI02",
 	occlusion = 2,
 	scripts = {
 		{
 			actor = 207020,
 			side = 0,
-			bgm = "level03",
-			dir = 1,
 			say = "정찰기에 따르면, 케비르 항에 정박 중인 전투 함선은… 전함 4척, 경항공모함 1척, 구축함 6척이다. 아무도 전투태세를 취하지는 않은 모양이다만…",
+			dir = 1,
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 		{
 			actor = 204030,
 			side = 1,
-			dir = 1,
 			say = "호교기사단이, 세이렌과……? 어찌 이리 통탄스러운 일이……",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

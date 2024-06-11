@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHIHUIMIAO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHIHUIMIAO1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -21,11 +21,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Nyaaargh! Stop darting all over the place, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -41,10 +41,10 @@ return {
 			},
 			action = {
 				{
-					type = "move",
+					y = 0,
 					dur = 0.5,
 					x = 750,
-					y = 0
+					type = "move"
 				}
 			}
 		},
@@ -67,13 +67,13 @@ return {
 		{
 			actor = 312010,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Commander, you saved my hide, nya...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -120,13 +120,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			say = "They're called \"Meowfficers,\" nya!",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "They're called \"Meowfficers,\" nya!",
 			effects = {
 				{
 					active = true,
@@ -146,9 +146,9 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Allow me to introduce them to you!",
 			effects = {
 				{

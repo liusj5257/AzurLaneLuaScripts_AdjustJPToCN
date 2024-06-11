@@ -4,7 +4,7 @@ slot0.COMPOSE_ITEM = "ItemInfoMediator:COMPOSE_ITEM"
 slot0.SELL_BLUEPRINT = "sell blueprint"
 slot0.EXCHANGE_LOVE_LETTER_ITEM = "ItemInfoMediator.EXCHANGE_LOVE_LETTER_ITEM"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.SELL_BLUEPRINT, function (slot0, slot1)
 		uv0:sendNotification(GAME.FRAG_SELL, {
 			slot1
@@ -38,7 +38,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setDrop(slot0.contextData.drop)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		BagProxy.ITEM_UPDATED,
 		GAME.USE_ITEM_DONE,
@@ -46,7 +46,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == BagProxy.ITEM_UPDATED then

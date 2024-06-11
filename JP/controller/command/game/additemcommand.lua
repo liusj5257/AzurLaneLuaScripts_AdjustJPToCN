@@ -1,6 +1,6 @@
 slot0 = class("AddItemCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	assert(isa(slot2, Drop), "should be an instance of Drop")
@@ -8,7 +8,7 @@ function slot0.execute(slot0, slot1)
 	slot0:UpdateLinkActivity(slot2)
 end
 
-function slot0.UpdateLinkActivity(slot0, slot1)
+slot0.UpdateLinkActivity = function(slot0, slot1)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LINK_COLLECT) and not slot3:isEnd() then
 		slot4 = pg.activity_limit_item_guide.get_id_list_by_activity[slot3.id]
 		slot8 = slot3.id

@@ -9,22 +9,22 @@ slot5 = pg.puzzle_ship_template
 slot6 = pg.puzzle_combat_template
 slot7 = pg.puzzle_card_affix
 
-function slot3.GetDungeonTmpDataByID(slot0)
+slot3.GetDungeonTmpDataByID = function(slot0)
 	return require("GameCfg.dungeon." .. slot0)
 end
 
-function slot3.ClearDungeonCfg(slot0)
+slot3.ClearDungeonCfg = function(slot0)
 	package.loaded["GameCfg.dungeon." .. slot0] = nil
 end
 
-function slot3.GetSkillTemplate(slot0, slot1)
+slot3.GetSkillTemplate = function(slot0, slot1)
 	slot4 = pg.ConvertedSkill["skill_" .. slot0][slot1 or 1] or slot3[0]
 	slot4.name = getSkillName(slot0)
 
 	return slot4
 end
 
-function slot3.ConvertSkillTemplate()
+slot3.ConvertSkillTemplate = function()
 	pg.ConvertedSkill = {}
 
 	setmetatable(pg.ConvertedSkill, {
@@ -59,11 +59,11 @@ function slot3.ConvertSkillTemplate()
 	})
 end
 
-function slot3.GetBuffTemplate(slot0, slot1)
+slot3.GetBuffTemplate = function(slot0, slot1)
 	return pg.ConvertedBuff["buff_" .. slot0][slot1 or 1] or slot3[0]
 end
 
-function slot3.ConvertBuffTemplate()
+slot3.ConvertBuffTemplate = function()
 	pg.ConvertedBuff = {}
 
 	setmetatable(pg.ConvertedBuff, {
@@ -98,13 +98,13 @@ function slot3.ConvertBuffTemplate()
 	})
 end
 
-function slot3.GetBuffBulletRes(slot0, slot1, slot2, slot3, slot4)
+slot3.GetBuffBulletRes = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
 	slot6 = {}
 	slot1 = slot1 or {}
 	slot7 = uv0.GetPlayerShipModelFromID(slot0)
 
-	function slot8(slot0)
+	slot8 = function(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			slot6 = nil
 			slot6 = (not uv0[slot5] or uv0[slot5].level) and 1
@@ -149,13 +149,13 @@ function slot3.GetBuffBulletRes(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot3.getWeaponResource(slot0, slot1)
+slot3.getWeaponResource = function(slot0, slot1)
 	for slot6, slot7 in ipairs(uv0.Battle.BattleResourceManager.GetWeaponResource(slot0)) do
 		slot1[#slot1 + 1] = slot7
 	end
 end
 
-function slot3.GetResFromBuff(slot0, slot1, slot2, slot3)
+slot3.GetResFromBuff = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	if slot2[slot0 .. "_" .. slot1] then
@@ -269,7 +269,7 @@ function slot3.GetResFromBuff(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot3.GetBuffListRes(slot0, slot1, slot2)
+slot3.GetBuffListRes = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = {}
 
@@ -285,10 +285,10 @@ function slot3.GetBuffListRes(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot3.GetResFromSkill(slot0, slot1, slot2, slot3)
+slot3.GetResFromSkill = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			if slot5.type == uv0.Battle.BattleSkillGridmanFloat.__name then
 				table.insert(uv1, "UI/combatgridmanskillfloat")
@@ -371,7 +371,7 @@ function slot3.GetResFromSkill(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot3.GetShipSkillTriggerCount(slot0, slot1)
+slot3.GetShipSkillTriggerCount = function(slot0, slot1)
 	slot3 = 0 + (function (slot0)
 		slot1 = 0
 
@@ -398,7 +398,7 @@ function slot3.GetShipSkillTriggerCount(slot0, slot1)
 	return slot3 + slot2(slot6)
 end
 
-function slot3.GetSongList(slot0)
+slot3.GetSongList = function(slot0)
 	slot1 = {
 		initList = {},
 		otherList = {}
@@ -425,7 +425,7 @@ function slot3.GetSongList(slot0)
 	return slot1
 end
 
-function slot3.GetCardRes(slot0)
+slot3.GetCardRes = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(uv0.Battle.BattleCardPuzzleCard.GetCardEffectConfig(slot0).effect_list) do
@@ -443,7 +443,7 @@ function slot3.GetCardRes(slot0)
 	return slot1
 end
 
-function slot3.GetCardFXRes(slot0)
+slot3.GetCardFXRes = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0) do
@@ -465,7 +465,7 @@ function slot3.GetCardFXRes(slot0)
 	return slot1
 end
 
-function slot3.NeedSkillPainting(slot0)
+slot3.NeedSkillPainting = function(slot0)
 	slot1 = false
 
 	if uv0.GetSkillTemplate(slot0).focus_duration then
@@ -475,19 +475,19 @@ function slot3.NeedSkillPainting(slot0)
 	return slot1
 end
 
-function slot3.SkinAdaptFXID(slot0, slot1)
+slot3.SkinAdaptFXID = function(slot0, slot1)
 	return slot0 .. "_" .. slot1
 end
 
-function slot3.GetFleetReload(slot0)
+slot3.GetFleetReload = function(slot0)
 	return uv0.GetFleetReload(slot0)
 end
 
-function slot3.GetFleetTorpedoPower(slot0)
+slot3.GetFleetTorpedoPower = function(slot0)
 	return uv0.GetFleetTorpedoPower(slot0)
 end
 
-function slot3.SortFleetList(slot0, slot1)
+slot3.SortFleetList = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0) do
@@ -499,7 +499,7 @@ function slot3.SortFleetList(slot0, slot1)
 	return slot2
 end
 
-function slot3.GetLimitAttributeRange(slot0, slot1)
+slot3.GetLimitAttributeRange = function(slot0, slot1)
 	if pg.battle_attribute_range[slot0] then
 		return math.clamp(slot1, pg.battle_attribute_range[slot0].min / 10000, pg.battle_attribute_range[slot0].max / 10000)
 	end
@@ -507,25 +507,25 @@ function slot3.GetLimitAttributeRange(slot0, slot1)
 	return slot1
 end
 
-function slot3.GetPuzzleCardDataTemplate(slot0)
+slot3.GetPuzzleCardDataTemplate = function(slot0)
 	assert(uv0[slot0] ~= nil, ">>puzzle_card_template<< 找不到卡牌配置：" .. slot0)
 
 	return uv0[slot0]
 end
 
-function slot3.GetPuzzleShipDataTemplate(slot0)
+slot3.GetPuzzleShipDataTemplate = function(slot0)
 	assert(uv0[slot0] ~= nil, ">>puzzle_ship_template<< 找不到卡牌舰船配置：" .. slot0)
 
 	return uv0[slot0]
 end
 
-function slot3.GetPuzzleDungeonTemplate(slot0)
+slot3.GetPuzzleDungeonTemplate = function(slot0)
 	assert(uv0[slot0] ~= nil, ">>puzzle_combat_template<< 找不到卡牌关卡配置：" .. slot0)
 
 	return uv0[slot0]
 end
 
-function slot3.GetPuzzleCardAffixDataTemplate(slot0)
+slot3.GetPuzzleCardAffixDataTemplate = function(slot0)
 	assert(uv0[slot0] ~= nil, ">>puzzle_card_affix<< 找不到卡牌关卡配置：" .. slot0)
 
 	return uv0[slot0]

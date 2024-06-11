@@ -3,7 +3,7 @@ slot1 = require("Mgr/Pool/PoolUtil")
 slot2 = class("Pool")
 pg.Pool = slot2
 
-function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot2.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	assert(slot2, "template or transform should exist")
 
 	slot0.template = slot2
@@ -19,7 +19,7 @@ function slot2.Ctor(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0.resizeTime = slot4
 end
 
-function slot2.InitSize(slot0, slot1)
+slot2.InitSize = function(slot0, slot1)
 	slot1 = slot1 or slot0.min
 	slot2 = {}
 
@@ -34,23 +34,23 @@ function slot2.InitSize(slot0, slot1)
 	return slot0
 end
 
-function slot2.SetInitFuncs(slot0, slot1)
+slot2.SetInitFuncs = function(slot0, slot1)
 	slot0.initFunc = slot1
 end
 
-function slot2.SetRecycleFuncs(slot0, slot1)
+slot2.SetRecycleFuncs = function(slot0, slot1)
 	slot0.recycleFunc = slot1
 end
 
-function slot2.IsEmpty(slot0)
+slot2.IsEmpty = function(slot0)
 	return slot0.usedEnd == slot0.list.Tail
 end
 
-function slot2.GetRootTF(slot0)
+slot2.GetRootTF = function(slot0)
 	return slot0.parentTF
 end
 
-function slot2.GetObject(slot0)
+slot2.GetObject = function(slot0)
 	slot1 = nil
 	slot2 = slot0.usedEnd
 
@@ -88,7 +88,7 @@ function slot2.GetObject(slot0)
 	return slot1
 end
 
-function slot2.ResetParent(slot0, slot1)
+slot2.ResetParent = function(slot0, slot1)
 	slot0.parentTF = slot1
 
 	for slot5 in slot0.list:Iterator() do
@@ -96,7 +96,7 @@ function slot2.ResetParent(slot0, slot1)
 	end
 end
 
-function slot2.Recycle(slot0, slot1)
+slot2.Recycle = function(slot0, slot1)
 	if slot0.map[slot1] == nil then
 		uv0.Destroy(slot1)
 
@@ -127,13 +127,13 @@ function slot2.Recycle(slot0, slot1)
 	slot2.liveTime = uv1.TimeMgr.GetInstance():GetCombatTime() + slot0.resizeTime
 end
 
-function slot2.AllRecycle(slot0)
+slot2.AllRecycle = function(slot0)
 	for slot4, slot5 in pairs(slot0.map) do
 		slot0:Recycle(slot4)
 	end
 end
 
-function slot2.Resize(slot0)
+slot2.Resize = function(slot0)
 	if slot0.list.Count <= slot0.min then
 		return
 	end
@@ -159,7 +159,7 @@ function slot2.Resize(slot0)
 	end
 end
 
-function slot2.Dispose(slot0)
+slot2.Dispose = function(slot0)
 	for slot4 in slot0.list:Iterator() do
 		uv0.Destroy(slot4.Data)
 	end

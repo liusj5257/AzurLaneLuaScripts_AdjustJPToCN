@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN37",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN37",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_501",
-			stopbgm = true,
-			say = "房间之中，回响着祷告者的细语。",
 			bgmDelay = 2,
 			bgm = "theme-threat-typeV",
+			stopbgm = true,
+			say = "房間之中，迴響著禱告者的細語。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -31,11 +31,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「听，人们正彼此商量着。」",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "「聽，人們正彼此商量著。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,11 +49,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「他们要拿砖当石头，又要拿柏油当泥灰。」",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "「他們要拿磚塊當石頭，又要拿柏油當泥灰。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,11 +67,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「他们要建造一座城，又要建造一座塔。」",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "「他們要建造一座城，又要建造一座塔。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,11 +85,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「城市恢弘，塔顶通天。」",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "「城市恢弘，塔頂通天。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,11 +103,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "「他们要团结在一起，还要扬名天下。」",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "「他們要團結在一起，還要揚名天下。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,12 +118,12 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 699010,
 			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "————神啊。",
 			painting = {
 				alpha = 0.3,
@@ -138,11 +138,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "————您能允许这些事么？",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "————您能允許這些事嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,10 +168,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_501",
-			say = "细语声停了下来，祈祷似乎结束了。",
+			nameColor = "#A9F548FF",
+			say = "細語聲停了下來，祈禱似乎結束了。",
 			effects = {
 				{
 					active = false,
@@ -187,11 +187,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "……结束了么？",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "……結束了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,13 +202,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 699010,
 			nameColor = "#ffff4d",
-			say = "结束了。你看到了什么？",
+			hidePaintObj = true,
+			say = "結束了。妳看到了什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,11 +222,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9703010,
-			say = "摇曳的烛光……星盘的空相……逆位的塔……",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "搖曳的燭光……星盤的空相……逆位的塔……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,11 +240,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
-			say = "都是……不错的意象呢……！",
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
+			say = "都是……不錯的意象呢……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,13 +255,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 699010,
 			nameColor = "#ffff4d",
-			say = "走吧，是时候去揭开帐幕了。",
+			hidePaintObj = true,
+			say = "走吧，是時候去揭開帳幕了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,10 +275,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffff4d",
 			actor = 699010,
+			nameColor = "#ffff4d",
+			hidePaintObj = true,
 			say = "啊哈哈哈哈哈哈哈——————",
 			painting = {
 				alpha = 0.3,

@@ -1,6 +1,6 @@
 slot0 = class("EffectFire", import("view.miniGame.gameView.RyzaMiniGame.effect.TargetEffect"))
 
-function slot0.GetBaseOrder(slot0)
+slot0.GetBaseOrder = function(slot0)
 	return "floor"
 end
 
@@ -11,7 +11,7 @@ slot1 = {
 	"W"
 }
 
-function slot0.InitUI(slot0, slot1)
+slot0.InitUI = function(slot0, slot1)
 	slot0.power = slot1.power
 
 	eachChild(slot0._tf, function (slot0)
@@ -47,7 +47,7 @@ function slot0.InitUI(slot0, slot1)
 
 				uv0.lenList = slot0
 
-				function slot6(slot0)
+				slot6 = function(slot0)
 					uv0:Calling("burn", {}, slot0)
 				end
 
@@ -74,7 +74,7 @@ function slot0.InitUI(slot0, slot1)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3("ui-ryza-minigame-bomb")
 end
 
-function slot0.GetCollideRange(slot0)
+slot0.GetCollideRange = function(slot0)
 	if slot0.lenList then
 		return {
 			{

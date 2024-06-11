@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "深红AlizarinBUFF",
 	time = 0,
-	color = "yellow",
+	name = "深红AlizarinBUFF",
+	init_effect = "",
+	id = 60570,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60570,
+	color = "yellow",
 	icon = 60570,
 	last_effect = "",
 	effect_list = {

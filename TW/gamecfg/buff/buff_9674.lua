@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "蛋船冲锋",
 	time = 0,
-	color = "yellow",
+	name = "蛋船冲锋",
+	init_effect = "",
+	id = 9674,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9674,
+	color = "yellow",
 	icon = 9674,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 9675,
-				time = 4.5,
 				target = "TargetSelf",
+				time = 4.5,
 				quota = 1
 			}
 		},
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 9700,
-				time = 2,
 				target = "TargetSelf",
+				time = 2,
 				quota = 1
 			}
 		},
@@ -40,8 +40,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "immuneMaxAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneMaxAreaLimit"
 			}
 		},
 		{
@@ -52,8 +52,8 @@ return {
 			},
 			arg_list = {
 				group = 1,
-				attr = "immuneAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneAreaLimit"
 			}
 		}
 	}

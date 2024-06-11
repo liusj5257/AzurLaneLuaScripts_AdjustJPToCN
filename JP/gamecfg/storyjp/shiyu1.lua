@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"世話焼き娘はダテじゃない\n\n<size=45>一 嵐の起こった翌日に</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "――ある日の夜、母港は物凄い嵐に見舞われていた。",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "――ある日の夜、母港は物凄い嵐に見舞われていた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "嵐の被害などの対応に翌朝忙しくなるかもしれない――そう思いながら、窓に打ち付ける雨の音を聞いて就寝することにした……",
 			typewriter = {
 				speed = 0.05,
@@ -64,13 +64,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "一夜明け、外を見てみたが――",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "目の前の建物から見慣れた子が出てきた。",
 			typewriter = {
 				speed = 0.05,
@@ -141,9 +141,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "確かに色々と考えごとをしていたせいで、ここが重桜寮の前だというのも気がつかずに歩いていた……。",
 			typewriter = {
 				speed = 0.05,
@@ -155,9 +155,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "寮の建物に被害はないかと思い顔をあげてみると――なんと驚いたことにまったくの無傷の状態だった！",
 			typewriter = {
 				speed = 0.05,
@@ -185,9 +185,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "さすがの幸運艦というべきだろうか。しかもこの寮にはもう一人、幸運艦の雪風もいる。",
 			typewriter = {
 				speed = 0.05,
@@ -199,11 +199,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "…ちょっと！今、雪風のことも考えていたわね！あくまで寮が無事なのはこの時雨様のご加護だから！",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -257,9 +257,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "どうやら時雨の中では妙に競争心を燃え滾らせているようだが、放っておこう…",
 			typewriter = {
 				speed = 0.05,
@@ -287,9 +287,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "確かに寮と違って重桜の神社は造りが頑丈とまではいかないはず…様子を見に行った方が良さそうである。",
 			typewriter = {
 				speed = 0.05,
@@ -301,9 +301,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "なにより神社といえば辺りに生い茂る鎮守の森がある。嵐の影響で荒れている可能性がかなり高い。",
 			typewriter = {
 				speed = 0.05,
@@ -315,11 +315,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "その様子だと一緒に来てくれるのね？それじゃさっそく出発するわよ！",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

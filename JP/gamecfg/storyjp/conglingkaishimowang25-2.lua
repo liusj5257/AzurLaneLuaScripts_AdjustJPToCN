@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			bgName = "bg_mmorpg_cg3",
+			mode = 1,
 			bgm = "theme-shallowoftheworld",
 			sequence = {
 				{
@@ -14,17 +14,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "メガフレイムドラゴン",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			nameColor = "#FF9B93",
 			say = "――――！！",
@@ -75,8 +75,8 @@ return {
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "伝説の格闘家",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "綾波",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "装甲が厚い……ダイナミックキック・二連撃―――！",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "伝説の大魔法使い",
 			dir = 1,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "伝説の戦士",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "メガフレイムドラゴン",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			nameColor = "#FF9B93",
 			say = "――――！！",
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "伝説の戦士",
 			dir = 1,
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "伝説の勇者",
 			dir = 1,
@@ -204,8 +204,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "勇者",
 			dir = 1,
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "薬師",
 			dir = 1,
@@ -245,8 +245,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "薬師",
 			dir = 1,
@@ -268,8 +268,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "戦場の後方で、ステータス画面越しに戦況をモニタリングしていた。",
 			typewriter = {
@@ -277,17 +277,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "今のパーティーの戦闘力なら、メガフレイムドラゴンを倒せるはず。",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "だがしかし相手は狡猾にも下級魔物を利用して場を撹乱し、その隙に回復し続けている。",
 			typewriter = {
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "戦闘は完全に膠着状態に陥っていた。",
 			typewriter = {
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャンヌ·ダルク",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "神聖教会聖女",
 			dir = 1,
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャンヌ·ダルク",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "神聖教会聖女",
 			dir = 1,
@@ -425,8 +425,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャンヌ·ダルク",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "神聖教会聖女",
 			dir = 1,
@@ -484,8 +484,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "メガフレイムドラゴン",
+			side = 2,
 			bgName = "bg_mmorpg_cg3",
 			nameColor = "#FF9B93",
 			say = "―――？！",
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "突如として降り注いだ爆発アイテムの雨は、明らかにメガフレイムドラゴンの予想を超えていた。",
 			typewriter = {
@@ -531,17 +531,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -549,8 +549,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "慌てて回避行動を取るが、回復のチャンスを逃してしまった。",
 			typewriter = {
@@ -559,8 +559,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "拮抗していた戦況が一度崩れてしまえば、あとは圧倒していくだけだ。",
 			typewriter = {
@@ -569,8 +569,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg3",
 			say = "数ターンが過ぎ、ついにメガフレイムドラゴンは完全に倒れた。",
 			typewriter = {
@@ -581,9 +581,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_176",
 			factiontag = "伝説の戦士",
 			dir = 1,
+			bgName = "star_level_bg_176",
 			bgm = "ryza-az-theme",
 			actor = 431232,
 			nameColor = "#A9F548FF",
@@ -598,17 +598,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -659,11 +659,11 @@ return {
 			}
 		},
 		{
-			actor = 131171,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "伝説の大魔法使い",
 			dir = 1,
+			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ラフィー、前も言われた気がする……",
@@ -715,11 +715,11 @@ return {
 			}
 		},
 		{
-			actor = 201217,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "伝説の勇者",
 			dir = 1,
+			actor = 201217,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ほら、今日だってみんなと一緒に戦ったじゃないですか～",
@@ -794,9 +794,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_176",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			bgName = "star_level_bg_176",
 			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "さようなら、伝説の英雄たち……",
@@ -809,17 +809,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -839,11 +839,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ！指揮官！一つ大切なことを忘れているよ！",
@@ -869,11 +869,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうだよ！休むにはまだ早い！ドラゴンのお宝をがっぽり手に入れなくちゃ！",

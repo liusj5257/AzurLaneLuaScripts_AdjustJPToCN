@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA27",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_cccpv2_11",
-			say = "…………………………",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bgm-cccp2",
+			nameColor = "#a9f548",
+			say = "…………………………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "이곳은……………… 제어장치가 있는 홀?",
@@ -59,8 +59,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_11",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "…………zZZZZZ",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccpv2_11",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "……음…………zZZZ",
 			typewriter = {
@@ -106,8 +106,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "홀에 흩어져 누워있는 노스 유니온. 어떤 상처도, 아픈 기운도 없이 곤히 잠들어 있다.",
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "다들 무사해…………",
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "기억하기로 \"대문\"에 진입한 후………………",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "그래, \"대문\"…………",
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "기억과는 달리 홀 끝에 평평하고 매끄러웠던 빙벽은 언제 무너질지 모르는 균열이 생겼다.",
@@ -226,8 +226,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "뭔가 기억이 희미한데…… \"대문\"에 들어서자마자 만난 찬란한 도시들, 작전 지휘실 탐색, 마지막으로 겪은 전투들은 설마————",
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "……………………분명 꿈이라고 하기엔 그리 간단하지 않아.",
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "\"대문\"에 있던 지휘함에서와 마찬가지로, 전투에서 의식을 잃기 전 옆에 놓여있던 작은 자료함 하나가 지금 바로 내 옆에 놓여 있다.",
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			say = "자료함을 열었더니 안에 있던 자료도 온전했다.",
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_11",
 			dir = 1,
 			blackBg = true,

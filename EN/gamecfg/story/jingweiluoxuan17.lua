@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN17",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN17",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Within the Mirror Sea...",
-			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
+			hidePaintObj = true,
+			say = "Within the Mirror Sea...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,10 +36,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Um, I hope we're heading in the right direction... The radar's not beeping at all, but Mr. Bear says...",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +54,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I can't believe... we're trusting your stuffed animal over our navigational equipment...",
 			typewriter = {
 				speed = 0.05,
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 101470,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101470,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Don't worry... Mr. Bear is almost always right, except if we get too far away...",
 			typewriter = {
 				speed = 0.05,
@@ -89,10 +89,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Um, Mr. Bear... Can you try to calibrate your sensors again towards the direction the communication signals came from?",
 			typewriter = {
 				speed = 0.05,
@@ -107,10 +107,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Oh... If you find a Pawn fleet, don't let Mr. Bear engage them on his own...",
 			typewriter = {
 				speed = 0.05,
@@ -125,10 +125,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Of course! I'll be sure to consult with New Jersey first—",
 			typewriter = {
 				speed = 0.05,
@@ -143,10 +143,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Wait, we're picking something up!",
 			typewriter = {
 				speed = 0.05,
@@ -158,12 +158,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Did you find them...?",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,13 +185,13 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			nameColor = "#ffff4d",
-			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "Hammann?",
 			side = 2,
+			bgName = "bg_luoxuan_2",
+			dir = 1,
+			actor = 101250,
+			actorName = "Hammann?",
+			hidePaintObj = true,
 			say = "「………………」",
 			typewriter = {
 				speed = 0.05,
@@ -206,10 +206,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hammann?",
 			typewriter = {
 				speed = 0.05,
@@ -224,10 +224,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "No, it can't be... That's a Siren Pawn!",
 			typewriter = {
 				speed = 0.05,
@@ -239,12 +239,12 @@ return {
 			}
 		},
 		{
-			actor = 101470,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101470,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Get a hold of New Jersey! We're going to chase after it!",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			stopbgm = true,
 			sequence = {
 				{
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

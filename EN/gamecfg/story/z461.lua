@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z461",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z461",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"White Poem\n\n<size=45>I Birth</size>",
@@ -42,13 +42,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgmDelay = 2,
-			bgName = "bg_story_task",
 			say = "Port - Command Office",
+			bgName = "bg_story_task",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			bgName = "bg_story_task",
+			blackBg = true,
 			say = "Even if you must call me by this name; show this Klarheit, me, colors of the world.",
 			typewriter = {
 				speed = 0.05,

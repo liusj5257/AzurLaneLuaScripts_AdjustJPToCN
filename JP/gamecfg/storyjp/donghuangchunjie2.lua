@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ワイワイ旧正月！\n\n<size=45>二 旧倉庫の新発見</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・学園広場",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
+			say = "母港・学園広場",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "あぅ……撫順姉さん、一体どこで火薬を……？",
 			typewriter = {
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "えっへん……実は私もよくわからないんだよね！とりあえず誰かに聞いてみようよ！",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "えっへん……実は私もよくわからないんだよね！とりあえず誰かに聞いてみようよ！",
+			actor = 501020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "綾波とラフィー、夕暮の新しい衣装……みんなかわいいです…",
 			typewriter = {
@@ -218,11 +218,11 @@ return {
 			}
 		},
 		{
-			actor = 301054,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "予想よりも時間かかったです……でも春節に間に合ったから大丈夫、です",
 			typewriter = {
@@ -267,11 +267,11 @@ return {
 			}
 		},
 		{
-			actor = 301054,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "……この前のお祭りのときの花火用の火薬なら、旧倉庫にあるはずです",
 			typewriter = {
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "おお！旧倉庫か！へへへ、まさかこんなに早く見つかるとはね～",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -313,8 +313,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 101173,
 			dir = 1,
+			actor = 101173,
 			nameColor = "#a9f548",
 			say = "バクチクって……なに？",
 			typewriter = {
@@ -413,13 +413,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "母港・旧倉庫",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -494,11 +494,11 @@ return {
 			}
 		},
 		{
-			actor = 301054,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "綾波は見たことあるのです。「すごろく」盤……です？",
 			typewriter = {
@@ -527,11 +527,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "あ、これって「陞官図（しょうかんず）」…いやいや、確かユニオンで言うところの「モノポリー」、重桜で言うところの「すごろく」のボード、だよね？",
 			typewriter = {
 				speed = 0.05,
@@ -543,8 +543,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -553,10 +553,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			hideOther = true,
 			dir = 1,
 			actor = 101173,
 			actorName = "綾波＆撫順＆ラフィー",
@@ -588,8 +588,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "撫順姉さん、爆竹じゃなくて、みんなで一緒にこれを――",
 			typewriter = {
@@ -602,11 +602,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "よし、それじゃ爆竹を作ったら、みんなこれで遊ぼう！へへっ、こういうゲームは得意なんだよね！",
 			typewriter = {
 				speed = 0.05,
@@ -618,8 +618,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -628,10 +628,10 @@ return {
 			}
 		},
 		{
-			actor = 101173,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 101173,
 			dir = 1,
 			hideOther = true,
 			actorName = "ラフィー＆綾波",
@@ -657,9 +657,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 501041,
 			dir = 1,
 			blackBg = true,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "えっ、ええええ――！？",
 			typewriter = {
@@ -672,8 +672,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 67.5,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,

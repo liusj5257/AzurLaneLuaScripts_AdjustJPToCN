@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHISHANGTEKANHEDINGJIYI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHISHANGTEKANHEDINGJIYI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港着せ替え特集！その①\n\n<size=45>葉月の恋模様</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			live2d = "main2",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
 			dir = 1,
 			bgm = "story-richang-5",
 			actor = 301891,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "main2",
 			say = "えへへ、やっと来てくれたんだ。指揮官",
 			painting = {
 				alpha = 0.3,
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "初月はね？ずっっっとここで待ってたんだよ？",
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "遅く来た罰としてぇ…今日はずっと初月に付き合ってもらうんだから♪",
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			live2d = true,
 			withoutActorName = true,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "雲一つなく晴れ渡った日、初月の思い付きでウォーターパークにやってきたのだが――",
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
 			say = "あ、そういえば水着の感想は？",
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "home",
 			say = "じゃーん。今日のために用意した水着よ。どぉ？♪",
@@ -132,14 +132,14 @@ return {
 			}
 		},
 		{
-			live2d = true,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
 			dir = 1,
 			optionFlag = 1,
 			actor = 301891,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "えへへ♪そうでしょう♪",
 			painting = {
 				alpha = 0.3,
@@ -151,14 +151,14 @@ return {
 			}
 		},
 		{
-			live2d = true,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
 			dir = 1,
 			optionFlag = 1,
 			actor = 301891,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "若月にちょっと大人っぽすぎるって言われたけど、選んで良かった！",
 			painting = {
 				alpha = 0.3,
@@ -170,14 +170,14 @@ return {
 			}
 		},
 		{
-			live2d = true,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
 			dir = 1,
 			optionFlag = 2,
 			actor = 301891,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "す、すき…",
 			painting = {
 				alpha = 0.3,
@@ -189,14 +189,14 @@ return {
 			}
 		},
 		{
-			live2d = "touch",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
 			dir = 1,
 			optionFlag = 2,
 			actor = 301891,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "touch",
 			say = "（こ、こんなド直球を投げてくるとは思わなかった……/////）",
 			painting = {
 				alpha = 0.3,
@@ -208,14 +208,14 @@ return {
 			}
 		},
 		{
-			live2d = true,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
 			dir = 1,
 			optionFlag = 2,
 			actor = 301891,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "こ、コホン！ま、まあ初月にハマっているもんね♪うんうん",
 			painting = {
 				alpha = 0.3,
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "って…指揮官、顔をそんなに赤くして～",
@@ -245,11 +245,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "もしかして照れてるの？",
@@ -263,11 +263,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "えへへ♪初月の水着姿、指揮官には刺激的過ぎたみたい？",
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ほら、せっかく気に入ってくれたみたいだし、初月の水着姿をもっと撮ってー？",
@@ -299,11 +299,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "可愛く撮れたら待ち受けに設定してね。あ、携帯だけじゃなく他の端末も♪",
@@ -317,11 +317,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			live2d = true,
 			withoutActorName = true,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そう言って、初月は頑張ってファッション誌のモデルのようなポーズを真似てみた――",
@@ -331,11 +331,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "どう？かわいいでしょう？",
@@ -349,11 +349,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "もしこうして欲しいとか、ポーズのリクエストがあれば受け付けるよ？",
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "初月の体は柔らかいんだから、何だって…きゃっ！",
@@ -385,11 +385,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			live2d = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			live2d = true,
 			withoutActorName = true,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "バランスを崩しかけた初月を間一髪のところで抱きかかえた。",
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
 			say = "（はわわわわわ/////）",
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "（て、手が当たってる！ううん、手じゃなくて、もう体が密着して…）",
@@ -447,11 +447,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "……………………………………ふ",
@@ -477,11 +477,11 @@ return {
 			}
 		},
 		{
-			actor = 301891,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_117",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ふつつか者ですが初月のことを末永くよろしくお願いします！！",

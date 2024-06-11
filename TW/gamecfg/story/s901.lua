@@ -1,7 +1,7 @@
 return {
 	id = "S901",
-	type = 2,
 	skippable = true,
+	type = 2,
 	scripts = {
 		{
 			actor = 101030,

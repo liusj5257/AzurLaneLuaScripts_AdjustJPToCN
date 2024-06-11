@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN28",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg13",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "Exercise Area - Turn 9 (Akagi's Action)",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg13",
 			say = "As more ships began to drop out of the game from the intensifying battles, the waters continued to become more turbulent as if reflecting the participants' anxiousness.",
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg13",
 			say = "Everyone waited with bated breaths for the next command to be issued, each move feeling less and less like a game.",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "Musashi's turn has ended, but I still can't figure out why she'd attack Miyuki like that.",
 			painting = {
@@ -108,8 +108,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "I'd imagine so. Miyuki was cut off from the rest of us anyway, so Musashi likely saw her as a liability.",
 			painting = {
@@ -141,8 +141,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "We'll consolidate our forces and prepare to attack the tower as before. However, I do have a special task for you.",
 			painting = {
@@ -158,8 +158,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "Now that Musashi's tipped her hand, two can play at her game.",
 			painting = {
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "Wait, if we do that, it'll trigger another shockwave... Isn't Hatakaze still in range of the tower?",
 			painting = {
@@ -208,8 +208,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "Precisely. If we don't engage in combat with another shipgirl, we can do some damage while bypassing Mikasa and Nagato's pesky defenses.",
 			painting = {
@@ -273,8 +273,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg13",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "That's right, I still need you to soak up damage for me later, so don't get yourself knocked out!",
 			painting = {

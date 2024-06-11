@@ -1,17 +1,17 @@
 return {
-	id = "JIDIFENGBAO8",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO8",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackFg = 1,
-			bgmDelay = 1,
 			typewriterTime = 0.05,
+			bgmDelay = 1,
 			bgm = "battle-deepecho2",
 			sequence = {
 				{
@@ -29,13 +29,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_deepecho_12",
+			nameColor = "#A9F548FF",
 			say = "水平線に目標地点――北方連合に放棄された調査基地跡の尖塔が見えた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,10 +56,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "調査基地よ！天才メカニック・ソオブラジーテリヌイが戻ってきた！",
 			painting = {
 				alpha = 0.3,
@@ -71,8 +71,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -84,10 +84,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……ってあまり変わっていないみたいね",
 			painting = {
 				alpha = 0.3,
@@ -102,10 +102,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "セイレーンの建物の見た目については別に好き嫌いなんてないけど、一度奪還した施設を普通そのままにするかな？",
 			painting = {
 				alpha = 0.3,
@@ -120,8 +120,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "外見じゃなくて中をガッツリ改修したって線もあるわ",
 			painting = {
@@ -137,8 +137,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "それに調査基地じゃなくて、近くで発見されたオミッターの量産艦の生産施設が本命よ",
 			painting = {
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "そこを叩けばほかの分艦隊を邪魔する敵も減るし、作戦が終わっても戦いやすくなるわ",
 			painting = {
@@ -171,10 +171,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあ全部倒さなくても、それだけセイレーンの注意を引き付けることができるし",
 			painting = {
 				alpha = 0.3,
@@ -189,10 +189,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ジャミングと気象制御装置を破壊する分艦隊の助けになるよ",
 			painting = {
 				alpha = 0.3,
@@ -207,10 +207,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いつも防戦ばっかやってたし、そろそろこちらも打って出てオミッターに北方連合の力を見せてやろっと！",
 			painting = {
 				alpha = 0.3,
@@ -222,8 +222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -235,8 +235,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "そうね。私も同意見よ",
 			painting = {
@@ -252,8 +252,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "あっ。セイレーンの要塞守備隊が出てきましたよ",
 			painting = {
@@ -269,8 +269,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#A9F548FF",
 			say = "いち、にぃ、さん…うん、三方向から接近してきています～",
 			painting = {
@@ -286,10 +286,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はっはっはー！ならば！",
 			painting = {
 				alpha = 0.3,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_deepecho_12",
 			say = "迎撃の陣形を整え始めるタリンたちだが、ソオブラジーテリヌイが突然量産艦に一つの指示を飛ばした。",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_deepecho_12",
 			say = "すると、普段緩慢な動きの巨艦たちがなぜか突如我先にと動き始め、セイレーンが攻撃位置に到着するよりも前に陣形を形成した。",
 			typewriter = {
@@ -324,8 +324,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "これは一体……メカニック、何をやったの？",
 			painting = {
@@ -346,10 +346,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "量産艦に過負荷をかけてるんだ！長くは持たないけど瞬発力はあるぞ！",
 			painting = {
 				alpha = 0.3,
@@ -361,8 +361,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -374,10 +374,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まだ効いているうちにセイレーンの守備隊を突破し、生産施設を破壊して増援が出てくるのを防ごう！",
 			painting = {
 				alpha = 0.3,
@@ -392,8 +392,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "待って。効果時間が過ぎたらどうなるの？",
 			painting = {
@@ -409,10 +409,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "その時は量産艦をセイレーンの艦隊に突っ込んで自爆させる！副次的ダメージも期待できるよ！",
 			painting = {
 				alpha = 0.3,
@@ -427,8 +427,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "………その過負荷とやら、ほかの分艦隊は知っている？",
 			painting = {
@@ -444,10 +444,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ううん、あくまでこの分艦隊の量産艦のみに搭載したよ！",
 			painting = {
 				alpha = 0.3,
@@ -462,10 +462,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあ実戦テストして結果がよければ、上申してうちの量産艦全艦を改装しようと思って！",
 			painting = {
 				alpha = 0.3,
@@ -480,8 +480,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#A9F548FF",
 			say = "よくもそんな改装を思いついたものね…ソユーズにはさすがに連絡してあるでしょうね？",
 			painting = {
@@ -497,10 +497,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……多分知ってると思うよ？",
 			painting = {
 				alpha = 0.3,
@@ -515,10 +515,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この話はええと……科学部の報告の1873ページ目の下にある脚注で小さい文字だけど記載したよ！？",
 			painting = {
 				alpha = 0.3,
@@ -533,10 +533,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_deepecho_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "とにかく、目の前の敵に集中しよう！集中！",
 			painting = {
 				alpha = 0.3,
@@ -548,8 +548,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -577,8 +577,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

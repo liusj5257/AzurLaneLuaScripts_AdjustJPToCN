@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "快速起飞",
 	cd = 0,
+	picture = "0",
+	desc = "快速起飞",
 	painting = 1,
 	id = 3001,
-	picture = "0",
 	castCV = "skill",
-	desc = "快速起飞",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillInstantCoolDown",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillInstantCoolDown",
+			target_choise = "TargetNil",
 			arg_list = {
 				weaponType = "AirAssist"
 			}

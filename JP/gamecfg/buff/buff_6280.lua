@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "对空搜索",
 	time = 0,
-	color = "yellow",
+	name = "对空搜索",
+	init_effect = "",
+	id = 6280,
 	picture = "",
 	desc = "受到伏击概率降低12%",
 	stack = 1,
-	id = 6280,
+	color = "yellow",
 	icon = 6280,
 	last_effect = "",
 	effect_list = {

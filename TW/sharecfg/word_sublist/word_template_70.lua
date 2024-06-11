@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_70 = {}
 slot1 = slot0.word_template_70
 
-function temp()
+temp = function()
 	uv0["迷"] = {
 		["幻"] = {
 			["药"] = {
@@ -164,7 +164,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["嗑"] = {
 		["药"] = {
 			this = true
@@ -177,7 +177,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["成"] = {
 		["人"] = {
 			["电"] = {
@@ -429,7 +429,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["淫"] = {
 		["荡"] = {
 			this = true,

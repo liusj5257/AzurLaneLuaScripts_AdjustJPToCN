@@ -77,7 +77,7 @@ slot3 = {
 	}
 }
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.historyPage = slot1
 	slot0.event = slot2
 	slot0.activityId = ActivityConst.ISLAND_TASK_ID
@@ -122,7 +122,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:selectedPage(1)
 end
 
-function slot0.selectedPage(slot0, slot1)
+slot0.selectedPage = function(slot0, slot1)
 	if slot0.startIndex + slot1 > #slot0.mapDataList then
 		return
 	end
@@ -131,7 +131,7 @@ function slot0.selectedPage(slot0, slot1)
 	slot0:updateMap(slot1)
 end
 
-function slot0.initPageUI(slot0)
+slot0.initPageUI = function(slot0)
 	for slot4 = 1, uv0 do
 		slot5 = slot0.startIndex + slot4
 
@@ -143,7 +143,7 @@ function slot0.initPageUI(slot0)
 	end
 end
 
-function slot0.updatePage(slot0, slot1)
+slot0.updatePage = function(slot0, slot1)
 	slot2 = nil
 
 	if slot0.selectedPageItem then
@@ -158,7 +158,7 @@ function slot0.updatePage(slot0, slot1)
 	setText(findTF(slot0.selectedPageItem, "num"), setColorStr(slot0.selectedIndex, "#84412A"))
 end
 
-function slot0.updateMap(slot0, slot1)
+slot0.updateMap = function(slot0, slot1)
 	slot0.showMapId = slot0.mapDataList[slot1 + slot0.startIndex]
 	slot3 = pg.activity_map_event_list[slot0.showMapId]
 	slot0.mapIndex = slot3.area
@@ -203,7 +203,7 @@ function slot0.updateMap(slot0, slot1)
 	setLocalEulerAngles(findTF(slot0.historyPage, "finalAward/arrow"), Vector3(uv1[slot0.mapIndex][1], uv1[slot0.mapIndex][2], uv1[slot0.mapIndex][3]))
 end
 
-function slot0.addTaskList(slot0, slot1)
+slot0.addTaskList = function(slot0, slot1)
 	for slot5 = 1, slot1 do
 		slot6 = tf(instantiate(slot0.taskListTpl))
 
@@ -213,7 +213,7 @@ function slot0.addTaskList(slot0, slot1)
 	end
 end
 
-function slot0.checkTaskFinish(slot0, slot1)
+slot0.checkTaskFinish = function(slot0, slot1)
 	for slot5 = 1, #slot0.finishTasks do
 		if slot0.finishTasks[slot5].id == slot1 then
 			return true
@@ -223,11 +223,11 @@ function slot0.checkTaskFinish(slot0, slot1)
 	return false
 end
 
-function slot0.setActive(slot0, slot1)
+slot0.setActive = function(slot0, slot1)
 	setActive(slot0.historyPage, slot1)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
 return slot0

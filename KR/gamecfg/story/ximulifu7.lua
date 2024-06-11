@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"평화에 기도를\n\n<size=45>불꽃을 쏘아 올려</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "모항 - 공터",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -112,15 +112,15 @@ return {
 			}
 		},
 		{
-			say = "연회장 밖",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "연회장 밖",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -145,13 +145,13 @@ return {
 			}
 		},
 		{
-			actor = 199021,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "저건…… 멋진 광경이군.",
 			soundeffect = "event:/battle/firework",
+			actor = 199021,
+			nameColor = "#a9f548",
+			say = "저건…… 멋진 광경이군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,13 +178,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_115",
+			side = 2,
+			dir = 1,
 			say = "연회장에서",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -209,13 +209,13 @@ return {
 			}
 		},
 		{
-			actor = 301152,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "오, 불꽃놀이 시작했네.",
 			soundeffect = "event:/battle/firework",
+			actor = 301152,
+			nameColor = "#a9f548",
+			say = "오, 불꽃놀이 시작했네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,16 +258,16 @@ return {
 			}
 		},
 		{
-			actor = 205051,
-			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "후후, 아카시 녀석들, 제법인데.",
 			soundeffect = "event:/battle/firework",
+			actor = 205051,
+			nameColor = "#a9f548",
+			say = "후후, 아카시 녀석들, 제법인데.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -327,8 +327,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 205051,
 			dir = 1,
+			actor = 205051,
 			nameColor = "#a9f548",
 			say = "평화, 인가……",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "유니온답게, 낙천적이네…",
 			typewriter = {
@@ -391,13 +391,13 @@ return {
 			}
 		},
 		{
-			actor = 408041,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "비스마르크 언니! 나도 그렇게 믿고 있어요!",
 			soundeffect = "event:/battle/firework",
+			actor = 408041,
+			nameColor = "#a9f548",
+			say = "비스마르크 언니! 나도 그렇게 믿고 있어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,8 +427,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 408041,
 			dir = 1,
+			actor = 408041,
 			nameColor = "#a9f548",
 			say = "응! 맛있는 것도 많이 먹고, 로열 네이비쪽 친구들이랑도 인사했어요!",
 			typewriter = {
@@ -444,8 +444,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "동료들 모두와 평화, 말인가……",
 			typewriter = {
@@ -461,8 +461,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 205051,
 			dir = 1,
+			actor = 205051,
 			nameColor = "#a9f548",
 			say = "그래, 걱정 마라. 여기 있는 동료들은 모두 함께 싸워줄 거다.",
 			typewriter = {
@@ -491,12 +491,12 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/firework",
+			say = "언젠가, 다시 한 번 모두 함께……",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			blackBg = true,
-			say = "언젠가, 다시 한 번 모두 함께……",
+			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "PH港·指揮室 七小時後",
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			hidePaintObj = true,
+			say = "PH港·指揮室 七小時後",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,10 +36,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "像一陣旋風一樣離開了呢，紐澤西。",
 			typewriter = {
 				speed = 0.05,
@@ -84,10 +84,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "這些真的不是提康德羅加幫她整理的嘛~",
 			typewriter = {
 				speed = 0.05,
@@ -117,10 +117,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哼哼，指揮官缺乏觀察力了吧。但是名偵探舊金山已經注意到了，筆記上的兩種不同字體就是毋庸置疑的事實！",
 			effects = {
 				{
@@ -159,12 +159,12 @@ return {
 			}
 		},
 		{
-			actor = 103140,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官和紐澤西認識很久了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -194,10 +194,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "同期生？",
 			typewriter = {
 				speed = 0.05,
@@ -227,10 +227,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "那就是訪問留學生了！？",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -270,10 +270,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "真棒啊~青春美妙的學院生活，我也好想體驗一下啊~！",
 			typewriter = {
 				speed = 0.05,
@@ -303,10 +303,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "真遺憾啊~我們還要像這樣和重櫻對峙多久？指揮部有什麼方針嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -351,10 +351,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "話雖如此，太平洋內的塞壬在那次襲擊之後就牢牢控制了大片水域。重櫻想過來恐怕也很困難吧~",
 			typewriter = {
 				speed = 0.05,
@@ -369,10 +369,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官，深夜打擾了。收到了來自NY司令部的緊急通訊聯絡。",
 			typewriter = {
 				speed = 0.05,
@@ -512,10 +512,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "這麼氣勢洶洶的艦隊調動——不像是能夠突然決定的行動呢…",
 			typewriter = {
 				speed = 0.05,
@@ -530,10 +530,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "因為在NA海域中沒能成功進入中心區域，所以憤怒的重櫻打算從太平洋方向進行一場打擊行動？",
 			typewriter = {
 				speed = 0.05,
@@ -601,10 +601,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "那就這樣，薩拉托加通訊結束。",
 			typewriter = {
 				speed = 0.05,
@@ -619,10 +619,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "一回來就碰到不得了的大事件了啊~",
 			typewriter = {
 				speed = 0.05,
@@ -634,8 +634,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -662,10 +662,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "今天時間已經很晚了，指揮官，先睡覺！剩下的事明天再說嘛~",
 			typewriter = {
 				speed = 0.05,
@@ -680,10 +680,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103140,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "重櫻艦隊就算真有什麼打算，以那個航速過來還要好久好久呢。",
 			typewriter = {
 				speed = 0.05,
@@ -724,8 +724,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -734,13 +734,13 @@ return {
 			}
 		},
 		{
-			actor = 103140,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 103140,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "您還是放棄抵抗，乖乖跟我去休息吧！",
 			typewriter = {
 				speed = 0.05,
@@ -771,15 +771,15 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_luoxuan_1",
-			hidePaintObj = true,
 			dir = 1,
+			stopbgm = true,
+			hidePaintObj = true,
 			say = "然後翌日——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

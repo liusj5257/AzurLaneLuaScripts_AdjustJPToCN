@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-80,
 				20,
@@ -57,9 +57,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 16567501,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-15,
 								0,
@@ -90,12 +90,12 @@ return {
 	fleet_prefab = {
 		vanguard_unitList = {
 			{
-				tmpID = 900405,
-				configId = 900405,
-				energy = 10,
-				skinId = 9600010,
-				id = 1,
 				level = 90,
+				configId = 900405,
+				skinId = 9600010,
+				tmpID = 900405,
+				id = 1,
+				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -103,15 +103,15 @@ return {
 				},
 				properties = {
 					cannon = 444,
-					air = 0,
-					antiaircraft = 0,
+					reload = 300,
+					luck = 51,
 					torpedo = 0,
 					durability = 20000,
-					reload = 300,
-					armor = 0,
+					air = 0,
 					dodge = 80,
+					antiaircraft = 0,
 					speed = 20,
-					luck = 51,
+					armor = 0,
 					hit = 120
 				},
 				skills = {

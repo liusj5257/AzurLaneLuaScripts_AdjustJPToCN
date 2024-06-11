@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "进水",
 	time = 12.1,
+	name = "进水",
+	init_effect = "",
 	picture = "",
 	desc = "伏尔加技能鱼雷进水",
 	stack = 1,
@@ -15,11 +15,21 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0.3,
 				attr = "airPower",
-				number = 10,
 				time = 3,
 				dotType = 2,
-				k = 0.3
+				number = 10
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "flood"
 			}
 		}
 	}

@@ -8,11 +8,11 @@ slot5 = class("BattlePlayerCharacter", slot0.Battle.BattleCharacter)
 slot0.Battle.BattlePlayerCharacter = slot5
 slot5.__name = "BattlePlayerCharacter"
 
-function slot5.Ctor(slot0)
+slot5.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot5.SetUnitData(slot0, slot1)
+slot5.SetUnitData = function(slot0, slot1)
 	uv0.super.SetUnitData(slot0, slot1)
 
 	slot0._chargeWeaponList = {}
@@ -38,7 +38,7 @@ function slot5.SetUnitData(slot0, slot1)
 	slot0._weaponSectorList = {}
 end
 
-function slot5.AddUnitEvent(slot0)
+slot5.AddUnitEvent = function(slot0)
 	uv0.super.AddUnitEvent(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv1.WILL_DIE, slot0.onWillDie)
 	slot0._unitData:RegisterEventListener(slot0, uv1.INIT_COOL_DOWN, slot0.onInitWeaponCD)
@@ -49,7 +49,7 @@ function slot5.AddUnitEvent(slot0)
 	end
 end
 
-function slot5.RemoveUnitEvent(slot0)
+slot5.RemoveUnitEvent = function(slot0)
 	if slot0._unitData:GetFleetRangeAAWeapon() then
 		slot0:UnregisterWeaponListener(slot0._unitData:GetFleetRangeAAWeapon())
 	end
@@ -77,7 +77,7 @@ function slot5.RemoveUnitEvent(slot0)
 	uv1.super.RemoveUnitEvent(slot0)
 end
 
-function slot5.Update(slot0)
+slot5.Update = function(slot0)
 	uv0.super.Update(slot0)
 	slot0:UpdatePosition()
 	slot0:UpdateMatrix()
@@ -100,7 +100,7 @@ function slot5.Update(slot0)
 	end
 end
 
-function slot5.UpdateHpBar(slot0)
+slot5.UpdateHpBar = function(slot0)
 	uv0.super.UpdateHpBar(slot0)
 
 	if slot0._unitData.__name == uv1.Battle.BattleCardPuzzlePlayerUnit.__name then
@@ -108,15 +108,15 @@ function slot5.UpdateHpBar(slot0)
 	end
 end
 
-function slot5.UpdateOxygenBar(slot0)
+slot5.UpdateOxygenBar = function(slot0)
 	slot0._oxygenSlider.value = slot0._unitData:GetOxygenProgress()
 end
 
-function slot5.UpdateVectorBar(slot0)
+slot5.UpdateVectorBar = function(slot0)
 	slot0._vectorProgress.fillAmount = slot0._unitData:GetHPRate()
 end
 
-function slot5.UpdateUIComponentPosition(slot0)
+slot5.UpdateUIComponentPosition = function(slot0)
 	uv0.super.UpdateUIComponentPosition(slot0)
 
 	if slot0._unitData:GetBornPosition() then
@@ -130,7 +130,7 @@ function slot5.UpdateUIComponentPosition(slot0)
 	end
 end
 
-function slot5.AddArrowBar(slot0, slot1)
+slot5.AddArrowBar = function(slot0, slot1)
 	uv0.super.AddArrowBar(slot0, slot1)
 
 	slot0._vectorProgress = slot0._arrowBarTf:Find("HPBar/HPProgress"):GetComponent(typeof(Image))
@@ -144,7 +144,7 @@ function slot5.AddArrowBar(slot0, slot1)
 	slot0:UpdateVectorBar()
 end
 
-function slot5.GetReferenceVector(slot0, slot1)
+slot5.GetReferenceVector = function(slot0, slot1)
 	if slot0._inViewArea then
 		return uv0.super.GetReferenceVector(slot0, slot1)
 	else
@@ -152,25 +152,25 @@ function slot5.GetReferenceVector(slot0, slot1)
 	end
 end
 
-function slot5.DisableWeaponTrack(slot0)
+slot5.DisableWeaponTrack = function(slot0)
 	if slot0._torpedoTrack then
 		slot0._torpedoTrack:SetActive(false)
 	end
 end
 
-function slot5.SonarAcitve(slot0, slot1)
+slot5.SonarAcitve = function(slot0, slot1)
 	if uv0.Battle.BattleAttr.HasSonar(slot0._unitData) then
 		slot0._sonar:GetComponent(typeof(Animator)).enabled = slot1
 	end
 end
 
-function slot5.UpdateDiveInvisible(slot0)
+slot5.UpdateDiveInvisible = function(slot0)
 	uv0.super.UpdateDiveInvisible(slot0)
 	SetActive(slot0._diveMark, slot0._unitData:GetDiveInvisible())
 	SetActive(slot0._oxygenBar, slot0._unitData:GetOxygenVisible())
 end
 
-function slot5.Dispose(slot0)
+slot5.Dispose = function(slot0)
 	slot0._torpedoIcons = nil
 	slot0._renderer = nil
 	slot0._sonar = nil
@@ -189,29 +189,29 @@ function slot5.Dispose(slot0)
 	uv0.super.Dispose(slot0)
 end
 
-function slot5.GetModleID(slot0)
+slot5.GetModleID = function(slot0)
 	return slot0._unitData:GetTemplate().prefab
 end
 
-function slot5.OnUpdateHP(slot0, slot1)
+slot5.OnUpdateHP = function(slot0, slot1)
 	uv0.super.OnUpdateHP(slot0, slot1)
 	slot0:UpdateVectorBar()
 end
 
-function slot5.onInitWeaponCD(slot0, slot1)
+slot5.onInitWeaponCD = function(slot0, slot1)
 	slot0:onTorepedoReady()
 end
 
-function slot5.onCastBlink(slot0, slot1)
+slot5.onCastBlink = function(slot0, slot1)
 	slot0:AddFX("jineng", false, slot1.Data.timeScale, slot1.Data.callbackFunc)
 end
 
-function slot5.onTorpedoWeaponFire(slot0, slot1)
+slot5.onTorpedoWeaponFire = function(slot0, slot1)
 	slot0._torpedoTrack:SetActive(false)
 	slot0:onTorepedoReady()
 end
 
-function slot5.onTorpedoPrepar(slot0, slot1)
+slot5.onTorpedoPrepar = function(slot0, slot1)
 	slot0._torpedoTrack:SetActive(true)
 
 	slot2 = uv0.Battle.BattleDataFunction.GetBulletTmpDataFromID(slot1.Dispatcher:GetTemplateData().bullet_ID[1])
@@ -219,11 +219,11 @@ function slot5.onTorpedoPrepar(slot0, slot1)
 	slot0._torpedoTrack:SetScale(Vector3(slot2.range / uv1.SPINE_SCALE, slot2.cld_box[3] / uv1.SPINE_SCALE, 1))
 end
 
-function slot5.onTorpedoCancel(slot0, slot1)
+slot5.onTorpedoCancel = function(slot0, slot1)
 	slot0._torpedoTrack:SetActive(false)
 end
 
-function slot5.onTorepedoReady(slot0, slot1)
+slot5.onTorepedoReady = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0._torpedoWeaponList) do
@@ -237,11 +237,11 @@ function slot5.onTorepedoReady(slot0, slot1)
 	end
 end
 
-function slot5.onAAMissileWeaponFire(slot0, slot1)
+slot5.onAAMissileWeaponFire = function(slot0, slot1)
 	slot0:onAAMissileReady()
 end
 
-function slot5.onWillDie(slot0, slot1)
+slot5.onWillDie = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0._smokeList) do
 		if slot6.active == true then
 			slot6.active = false
@@ -255,7 +255,7 @@ function slot5.onWillDie(slot0, slot1)
 	end
 end
 
-function slot5.AddHPBar(slot0, slot1)
+slot5.AddHPBar = function(slot0, slot1)
 	uv0.super.AddHPBar(slot0, slot1)
 
 	slot0._torpedoIcons = slot0._HPBarTf:Find("torpedoIcons")
@@ -280,23 +280,23 @@ function slot5.AddHPBar(slot0, slot1)
 	slot0:onTorepedoReady()
 end
 
-function slot5.AddModel(slot0, slot1)
+slot5.AddModel = function(slot0, slot1)
 	uv0.super.AddModel(slot0, slot1)
 
 	slot0._renderer = slot0:GetTf():GetComponent(typeof(Renderer))
 end
 
-function slot5.AddChargeArea(slot0, slot1)
+slot5.AddChargeArea = function(slot0, slot1)
 	slot0._chargeWeaponArea = uv0.Battle.BattleChargeArea.New(slot1)
 end
 
-function slot5.AddTorpedoTrack(slot0, slot1)
+slot5.AddTorpedoTrack = function(slot0, slot1)
 	slot0._torpedoTrack = uv0.Battle.BossSkillAlert.New(slot1)
 
 	slot0._torpedoTrack:SetActive(false)
 end
 
-function slot5.AddCloakBar(slot0, slot1)
+slot5.AddCloakBar = function(slot0, slot1)
 	uv0.super.AddCloakBar(slot0, slot1)
 
 	slot0._hpCloakBar = uv1.Battle.BattleCloakBar.New(slot0._HPBarTf:Find("cloakBar"), uv1.Battle.BattleCloakBar.FORM_BAR)
@@ -306,31 +306,31 @@ function slot5.AddCloakBar(slot0, slot1)
 	slot0._hpCloakBar:SetActive(true)
 end
 
-function slot5.onUpdateCloakConfig(slot0, slot1)
+slot5.onUpdateCloakConfig = function(slot0, slot1)
 	uv0.super.onUpdateCloakConfig(slot0, slot1)
 	slot0._hpCloakBar:UpdateCloakConfig()
 end
 
-function slot5.onUpdateCloakLock(slot0, slot1)
+slot5.onUpdateCloakLock = function(slot0, slot1)
 	uv0.super.onUpdateCloakLock(slot0, slot1)
 	slot0._hpCloakBar:UpdateCloakLock()
 end
 
-function slot5.InitChargeWeapon(slot0, slot1)
+slot5.InitChargeWeapon = function(slot0, slot1)
 	slot0._chargeWeaponList[#slot0._chargeWeaponList + 1] = slot1
 
 	slot0:RegisterWeaponListener(slot1)
 	slot1:RegisterEventListener(slot0, uv0.CHARGE_WEAPON_FINISH, slot0.onCastBlink)
 end
 
-function slot5.InitAirAssit(slot0, slot1)
+slot5.InitAirAssit = function(slot0, slot1)
 	slot0._airAssistList[#slot0._airAssistList + 1] = slot1
 
 	slot1:RegisterEventListener(slot0, uv0.CHARGE_WEAPON_FINISH, slot0.onCastBlink)
 	slot1:RegisterEventListener(slot0, uv0.FIRE, slot0.onCannonFire)
 end
 
-function slot5.InitTorpedoWeapon(slot0, slot1)
+slot5.InitTorpedoWeapon = function(slot0, slot1)
 	slot0._torpedoWeaponList[#slot0._torpedoWeaponList + 1] = slot1
 
 	slot0:RegisterWeaponListener(slot1)
@@ -340,7 +340,7 @@ function slot5.InitTorpedoWeapon(slot0, slot1)
 	slot1:RegisterEventListener(slot0, uv0.TORPEDO_WEAPON_READY, slot0.onTorepedoReady)
 end
 
-function slot5.onActiveWeaponSector(slot0, slot1)
+slot5.onActiveWeaponSector = function(slot0, slot1)
 	slot2 = slot1.Data
 	slot4 = slot2.weapon
 
@@ -357,14 +357,14 @@ function slot5.onActiveWeaponSector(slot0, slot1)
 	end
 end
 
-function slot5.OnAnimatorTrigger(slot0)
+slot5.OnAnimatorTrigger = function(slot0)
 	slot0._unitData:CharacterActionTriggerCallback()
 end
 
-function slot5.OnAnimatorEnd(slot0)
+slot5.OnAnimatorEnd = function(slot0)
 	slot0._unitData:CharacterActionEndCallback()
 end
 
-function slot5.OnAnimatorStart(slot0)
+slot5.OnAnimatorStart = function(slot0)
 	slot0._unitData:CharacterActionStartCallback()
 end

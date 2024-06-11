@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLORICHANG10",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "holo-sss-inst",
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "队长，就是这个装置了！使用的方法您应该知道。",
-			bgm = "holo-sss-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "哈↑哈哈哈、哈↑哈哈哈！通过千难万险到达此地的指挥官哟。能到达这一步，说明妳也是心怀叛逆之人吧。",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "看吧，囤积在此处的TNT之海！只要我们联手，不要说hololive本社，就算指挥室也…",
 			typewriter = {
 				speed = 0.05,
@@ -59,8 +59,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "TNT？指挥室？这是在说什么话题？",
 			typewriter = {
 				speed = 0.05,
@@ -74,9 +74,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "嘶------那个...呃.....时乃空前辈，这...这是......",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 40,
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "好像说了些和火有关的危险话题呢",
 			typewriter = {
 				speed = 0.05,
@@ -116,9 +116,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 10500060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "又要来一次？！",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,8 +143,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "嘛~嘛~既然人找齐了，就快出发吧，全新的冒险正在等着我们呢~吹雪，要出发了哦？",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "好~~  就是这样，指挥官大人，不论是碧蓝航线还是hololive，从今往后也请多多关照哦~",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			bgm = "holo-fbk",
 			sequence = {
 				{
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=60>【Special Thanks】</size>",
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=60>【Special Thanks】</size>",

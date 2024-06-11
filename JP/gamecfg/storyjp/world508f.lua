@@ -1,18 +1,18 @@
 return {
-	id = "WORLD508F",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508F",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "battle-ashes-theme",
 			actor = 9707020,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "このままじゃまずい…三体のアビータが手を組んでしまったら、ハードルが3倍になるという単純な話じゃ済まないぞ！",
-			bgm = "battle-ashes-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "一応場数は踏んできた身だ。緊迫した状況ほど、冷静さを失ってはいけない。落ち着いて踏ん張れば希望は見えてくる。",
 			typewriter = {
 				speed = 0.05,
@@ -61,8 +61,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "損傷を受けた艦を後ろに下げ、工作艦に緊急修理を指示しつつ、戦線の維持に努めてみる。",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -162,8 +162,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "………",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "「余燼」の艦船の損耗も激しい。こちらの工作艦で彼女たちも――",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "気持ちだけ頂戴する。まだ実力差がわかっていないと見える",
 			typewriter = {
 				speed = 0.05,
@@ -207,8 +207,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "私たちが攻撃を止めた瞬間、あなたたちはアビータの前に全滅するぞ",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "その通りです。ぼくたちの心配をする前に、仲間の心配をしてください",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "飛龍…あなた何を言っている！？",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "大丈夫です、アーク・ロイヤル。今は「余燼」だけの戦いではなく、仲間たちとの共同作戦ですから――",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "そうだ。今は仲間として共通の敵を倒そうとしているのだ……！",
 			typewriter = {
 				speed = 0.05,

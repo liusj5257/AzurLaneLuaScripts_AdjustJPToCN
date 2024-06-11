@@ -1,24 +1,24 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GULITEGUANQIA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GULITEGUANQIA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "ssss-az-pv",
+			hidePaintEquip = true,
 			side = 2,
-			bgName = "bg_ssss_1",
 			dir = 1,
 			bgmDelay = 2,
-			hidePaintEquip = true,
+			bgName = "bg_ssss_1",
+			bgm = "ssss-az-pv",
 			actor = 10800010,
 			nameColor = "#a9f548",
 			say = "Oh, it went through.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800010,
 			nameColor = "#a9f548",
 			say = "Hello? Akane? Where are you?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,11 +64,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800020,
 			nameColor = "#a9f548",
 			say = "Rikka? Don't worry~ I've got the kaiju in check.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,12 +79,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "In check... What does she mean by that?",
 			typewriter = {
 				speed = 0.05,
@@ -99,11 +99,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800010,
 			nameColor = "#a9f548",
 			say = "Huh? What do you mean? I don't get you at all.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,11 +136,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800020,
 			nameColor = "#a9f548",
 			say = "Did you know? Roon's rigging is super awesome!",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,10 +154,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102163,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Roon? Rigging...?",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,13 +198,13 @@ return {
 			}
 		},
 		{
-			actor = 10800010,
 			side = 2,
 			bgName = "bg_ssss_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Um, as I was saying, what exactly a...",
 			hidePaintEquip = true,
+			actor = 10800010,
+			nameColor = "#a9f548",
+			say = "Um, as I was saying, what exactly a...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			say = "BOOOOOOM!!!",
 			side = 2,
 			bgName = "bg_ssss_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "BOOOOOOM!!!",
 			flashN = {
 				color = {
 					1,
@@ -272,11 +272,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800010,
 			nameColor = "#a9f548",
 			say = "Wha?! What was that sound?!",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,10 +319,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102163,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "She's right! The kaiju's stopped moving!",
 			typewriter = {
 				speed = 0.05,
@@ -334,8 +334,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -347,9 +347,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ssss_1",
-			paintingNoise = true,
-			dir = 1,
 			actor = 900318,
+			dir = 1,
+			paintingNoise = true,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "Ahahahaha! Anyone who gets in my way... will be torn apart!!",
@@ -372,11 +372,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800010,
 			nameColor = "#a9f548",
 			say = "Is that... Roon? Did she really manage to stop that thing?",
-			hidePaintEquip = true,
 			effects = {
 				{
 					active = false,
@@ -396,11 +396,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800020,
 			nameColor = "#a9f548",
 			say = "Yup. She made some kaiju-esque \"rigging\" or something appear, and it packs an insane punch! It also seems to be automated!",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,8 +411,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -462,11 +462,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800020,
 			nameColor = "#a9f548",
 			say = "Just head to some place safe and wait for me there, okay?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

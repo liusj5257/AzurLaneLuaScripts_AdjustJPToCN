@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z465",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z465",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"純白之詩\n\n<size=45>五 幕間II</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgmDelay = 2,
-			bgName = "bg_story_school",
 			say = "港區·學院",
+			bgName = "bg_story_school",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			bgName = "bg_story_school",
+			blackBg = true,
 			say = "我挖了一勺齊柏林做的便當——酸菜焗飯，送進了嘴裡。",
 			typewriter = {
 				speed = 0.05,

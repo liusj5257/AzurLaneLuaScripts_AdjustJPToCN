@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHICHENG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Red Spider Lily's Love\n\n<size=45>Chapter 2 - The Unrivaled Legends</size>",
@@ -17,20 +17,20 @@ return {
 			}
 		},
 		{
-			bgm = "story-4",
+			say = "Noon - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "Noon - Exercise Area",
+			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "The sound of planes swooping through the air intermingles with the sounds of ships being bombed and subsequently exploding.",
 			typewriter = {
 				speed = 0.05,
@@ -38,11 +38,11 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307040,
+			nameColor = "#a9f548",
 			say = "*Pant*... *Pant*... Don't you think she's being a lot stricter than usual today...?",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					dur = 0.3,
 					x = 0,
 					number = 2
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			say = "She is... I wonder if something happened to upset Akagi. It's been a long time since we had a joint exercise this intense.",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "She is... I wonder if something happened to upset Akagi. It's been a long time since we had a joint exercise this intense.",
+			actor = 307030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -179,15 +179,15 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "Is that the best you can do...? And you call yourselves part of the Sakura Empire's carrier divisions?!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -260,12 +260,12 @@ return {
 			}
 		},
 		{
-			actor = 307020,
+			say = "Akagi, everyone's lined up. And Commander, they might not look like much, but they're giving it everything they have and then some for this exercise. Don't feel bad for them.",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Akagi, everyone's lined up. And Commander, they might not look like much, but they're giving it everything they have and then some for this exercise. Don't feel bad for them.",
+			actor = 307020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -280,12 +280,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "... Now then, Commander, I must resume the joint exercise. If you wish to watch us, then please have a seat over here. *Giggle*~",
 			typewriter = {
 				speed = 0.05,

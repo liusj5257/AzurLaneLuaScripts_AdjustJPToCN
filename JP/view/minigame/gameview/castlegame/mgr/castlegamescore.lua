@@ -1,14 +1,14 @@
 slot0 = class("CastleGameScore")
 slot1 = 180
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._scoreTpl = slot1
 	slot0._event = slot2
 	slot0.scorePool = {}
 	slot0.scores = {}
 end
 
-function slot0.setContent(slot0, slot1)
+slot0.setContent = function(slot0, slot1)
 	if not slot1 then
 		print("地板的容器不能为nil")
 
@@ -18,7 +18,7 @@ function slot0.setContent(slot0, slot1)
 	slot0._content = slot1
 end
 
-function slot0.setFloor(slot0, slot1)
+slot0.setFloor = function(slot0, slot1)
 	slot0.floorIndexs = {}
 
 	for slot5 = 1, #slot1 do
@@ -28,7 +28,7 @@ function slot0.setFloor(slot0, slot1)
 	end
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0.prepareScores = {}
 
 	for slot4 = #slot0.scores, 1, -1 do
@@ -40,7 +40,7 @@ function slot0.start(slot0)
 	slot0.floorIndexs = {}
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	for slot4 = #slot0.createTime, 1, -1 do
 		if slot0.createTime[slot4].time < CastleGameVo.gameStepTime then
 			slot5 = table.remove(slot0.createTime, slot4)
@@ -89,7 +89,7 @@ function slot0.step(slot0)
 	end
 end
 
-function slot0.createScore(slot0, slot1)
+slot0.createScore = function(slot0, slot1)
 	for slot5 = 1, slot1 do
 		if #slot0.prepareScores <= 0 then
 			return
@@ -149,7 +149,7 @@ function slot0.createScore(slot0, slot1)
 	end
 end
 
-function slot0.getCreateAbleIndex(slot0)
+slot0.getCreateAbleIndex = function(slot0)
 	slot1 = {}
 
 	for slot5 = 1, #slot0.floorIndexs do
@@ -165,15 +165,15 @@ function slot0.getCreateAbleIndex(slot0)
 	end
 end
 
-function slot0.getScores(slot0)
+slot0.getScores = function(slot0)
 	return slot0.scores
 end
 
-function slot0.setItemChange(slot0, slot1)
+slot0.setItemChange = function(slot0, slot1)
 	slot0.itemChangeCallback = slot1
 end
 
-function slot0.hitScore(slot0, slot1)
+slot0.hitScore = function(slot0, slot1)
 	for slot5 = #slot0.scores, 1, -1 do
 		if slot0.scores[slot5] == slot1 then
 			slot0:returnScore(table.remove(slot0.scores, slot5))
@@ -183,7 +183,7 @@ function slot0.hitScore(slot0, slot1)
 	end
 end
 
-function slot0.returnScore(slot0, slot1)
+slot0.returnScore = function(slot0, slot1)
 	slot2 = slot1.index
 
 	for slot6 = #slot0.scoreIndexs, 1, -1 do
@@ -200,7 +200,7 @@ function slot0.returnScore(slot0, slot1)
 	table.insert(slot0.scorePool, slot1)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 end
 
 return slot0

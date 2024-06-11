@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT13-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT13-1",
+	fadein = 1,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "level-uta",
 			actor = 10300040,
 			nameColor = "#92fc63",
-			dir = 1,
 			say = "……내가 한다.",
-			bgm = "level-uta",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "에? 쌍둥이는 같이 가면 되지 않을까나?",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "안 돼, 혼자 가는 게 좋아.",
 			typewriter = {
 				speed = 0.05,
@@ -99,10 +99,10 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			say = "알 것 같아요……혼자서 눈에 띄게 날뛰어, 적의 시선을 끌어보겠다는 거군요.",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#92fc63",
-			dir = 1,
-			say = "알 것 같아요……혼자서 눈에 띄게 날뛰어, 적의 시선을 끌어보겠다는 거군요.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -164,10 +164,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "원거리에서 화력을 집중시켜 적을 유인한다. 나머지는 그 틈에 작전을 속행한다……는 겁니다, 아카시씨.",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#92fc63",
-			dir = 1,
-			say = "원거리에서 화력을 집중시켜 적을 유인한다. 나머지는 그 틈에 작전을 속행한다……는 겁니다, 아카시씨.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

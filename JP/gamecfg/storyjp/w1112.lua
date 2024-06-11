@@ -1,12 +1,12 @@
 return {
-	id = "W1112",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1112",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "装置を起動するには2つの艦隊をスイッチに操作させる必要があるようだ。艦隊を動かそう。",
 			typewriter = {
 				speed = 0.05,

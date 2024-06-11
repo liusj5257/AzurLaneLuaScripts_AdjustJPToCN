@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIGUANQIA2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "AIGUANQIA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "모항 인근 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level",
+			say = "모항 인근 해역",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -256,17 +256,17 @@ return {
 			}
 		},
 		{
-			actor = 101170,
-			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "……누가, 있어……?",
 			bgm = "story-1",
+			actor = 101170,
+			nameColor = "#92fc63",
+			say = "……누가, 있어……?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -294,8 +294,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#92fc63",
 			say = "어푸푸푸푸푸, 누가 좀 살려줘요오오오오오! 빠져버려어어어어엇!",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 90,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 0,
@@ -353,8 +353,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#92fc63",
 			say = "어푸푸푸푸푸……(어라? 그러고 보니 나 AI니까 호흡할 필요 없었지!)",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 90,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 0,
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "첨버ーーー엉!",
 			typewriter = {
 				speed = 0.05,
@@ -423,9 +423,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "전속력으로 달려간 라피가 흰색과 분홍색 옷을 입은 수수께끼의 인물을 바다에서 건져냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#92fc63",
 			say = "고마워요오오오오오! 구해줘서ーーー!",
 			typewriter = {
@@ -470,8 +470,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -483,8 +483,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#92fc63",
 			say = "……아니, 라피쨩!?",
 			typewriter = {
@@ -500,8 +500,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#92fc63",
 			say = "기뻐라~~~! 설마 진짜 라피쨩이랑 만나다니~~~!(꼬옥)",
 			typewriter = {
@@ -514,8 +514,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -559,8 +559,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#92fc63",
 			say = "에에에! 거짓말이지이이이!? 나와 수많은 고난을 극복했던 나날을! 잊어버린 거야~~~!?",
 			typewriter = {
@@ -573,8 +573,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -631,15 +631,15 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101170,
+			nameColor = "#92fc63",
 			say = "……좀 진정됐어?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -683,8 +683,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#92fc63",
 			say = "진짜 버전인 모두랑 언젠가 만나보고 싶다고 생각했었다구~!",
 			typewriter = {
@@ -713,12 +713,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "제4의 벽'이라거나…?",
 			side = 0,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "제4의 벽'이라거나…?",
+			actor = 301120,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -893,11 +893,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 900179,
+			nameColor = "#92fc63",
 			say = "훗훗후~ 그렇게까지 말한다면 보여드리죠! 두구두구~ 짠!",
 			typewriter = {
 				speed = 0.05,
@@ -909,8 +909,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.3,
 					x = 0,
@@ -922,8 +922,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#92fc63",
 			say = "……어라? 이상하네… 생성이 안 되는걸. 잠깐 고칠게! 에잇!(콩) 에잇!(콩)",
 			typewriter = {
@@ -936,8 +936,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -946,8 +946,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_story_ourdoor",
 			dir = 1,
 			say = "퍼엉~!",
@@ -1047,11 +1047,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			dir = 1,
 			say = "투쾅~!",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -1110,13 +1110,13 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아야나미, 다들, 괜찮아?",
 			bgm = "story-1",
+			actor = 303110,
+			nameColor = "#92fc63",
+			say = "아야나미, 다들, 괜찮아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1130,10 +1130,10 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "타카오쨔~~~앙! 고마워~~~!(꼬오옥~~~~)",
+			dir = 1,
+			actor = 900179,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -1215,8 +1215,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#92fc63",
 			say = "먹고 살기 힘든 아카시냥 오셨다아아아━━━━ლ(´ڡ`ლ)━━━━!!",
 			typewriter = {
@@ -1229,11 +1229,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_ourdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "우냥!? 갑자기 끌어안지 마라냥!",
 			typewriter = {
 				speed = 0.05,
@@ -1245,8 +1245,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1255,15 +1255,15 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#92fc63",
 			say = "이 '랜덤 워드 생성기'는 여러 공간과 통한다, 라네.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1336,11 +1336,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#92fc63",
 			say = "에!? 거, 거울 해역이요!? 상자 속에!?",
 			typewriter = {
 				speed = 0.05,
@@ -1352,8 +1352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1365,8 +1365,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 900179,
 			dir = 1,
+			actor = 900179,
 			nameColor = "#92fc63",
 			say = "뭐시라고요! 이건 버그를 수정하지 않고는 돌아갈 수 없다는 전개!?",
 			typewriter = {
@@ -1395,11 +1395,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#92fc63",
 			say = "들어가려고 하면 그냥 들어가진다고. 슥슥.",
 			typewriter = {
 				speed = 0.05,
@@ -1411,8 +1411,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0
@@ -1484,12 +1484,12 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 900179,
+			nameColor = "#92fc63",
 			say = "응! 고마워~ 그럼 출격이네~! 아자, 아자, 파이팅~!",
 			typewriter = {
 				speed = 0.05,
@@ -1501,8 +1501,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 0

@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"여름 바람의 십자성\n\n<size=45>제1장 - 어느 아침의 돌발사건</size>",
@@ -18,14 +18,14 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			say = "흐, 흐에엑?! 없어?! 어, 어떡하지…?!",
 			side = 2,
-			bgm = "story-1",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			bgm = "story-1",
+			actor = 201101,
+			nameColor = "#92fc63",
 			withoutPainting = true,
-			say = "흐, 흐에엑?! 없어?! 어, 어떡하지…?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,13 +36,13 @@ return {
 			}
 		},
 		{
-			actor = 201101,
+			withoutPainting = true,
 			side = 2,
+			dir = 1,
+			blackBg = true,
+			actor = 201101,
 			nameColor = "#92fc63",
 			say = "이, 이거밖에 없다고?!",
-			dir = 1,
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,15 +53,15 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201080,
+			nameColor = "#92fc63",
 			say = "시, 시그넷?! 왜 그런 옷차림이야…?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 201090,
+			say = "이 미드… 그, 그야말로 폭력이야! 폭력… 폭력 반대!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "이 미드… 그, 그야말로 폭력이야! 폭력… 폭력 반대!",
+			actor = 201090,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -122,15 +122,15 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 201080,
+			nameColor = "#92fc63",
 			say = "뭐? 베란다에 널어둔 옷이 없어졌다고? 그것도 전부?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 201090,
+			say = "그건 정말 재앙이네…그치만……(찌릿)",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그건 정말 재앙이네…그치만……(찌릿)",
+			actor = 201090,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

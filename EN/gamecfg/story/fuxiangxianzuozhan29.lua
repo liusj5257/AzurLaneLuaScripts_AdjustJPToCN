@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN29",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Though she had taken enough firepower to wipe out a fleet of regular mass-produced ships, Compiler's armor didn't have a single scratch on it.",
+			bgm = "battle-seiren-theme",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
-			bgm = "battle-seiren-theme",
+			say = "Though she had taken enough firepower to wipe out a fleet of regular mass-produced ships, Compiler's armor didn't have a single scratch on it.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -30,9 +30,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
+			dir = 1,
 			say = "Heinrich landed a solid coordinated attack with her rigging, but unfortunately... it wasn't enough to have any effect on the barrier produced by Compiler's defense module.",
 			typewriter = {
 				speed = 0.05,
@@ -47,11 +47,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "She's... not taking any damage...?!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Heinrich",
+			side = 2,
 			bgName = "bg_fuxiangxian_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -131,9 +131,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
+			dir = 1,
 			say = "The huge tentacles that were part of Compiler's rigging shot up from the water underneath Heinrich.",
 			typewriter = {
 				speed = 0.05,
@@ -145,9 +145,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
+			dir = 1,
 			say = "Though she was barely able to dodge the tentacles, the seemingly weightless tentacles instantly turned to make another attack on her, putting her in a rough spot.",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Compiler",
+			side = 1,
 			bgName = "bg_fuxiangxian_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -197,13 +197,13 @@ return {
 			}
 		},
 		{
-			actorName = "Prinz Heinrich",
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
-			nameColor = "#a9f548",
+			actorName = "Prinz Heinrich",
 			dir = 1,
-			say = "I-I told you I won't let you get away!!! ...Ugh, these tentacles are in my way!",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#a9f548",
+			say = "I-I told you I won't let you get away!!! ...Ugh, these tentacles are in my way!",
 			flashN = {
 				color = {
 					1,
@@ -254,8 +254,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "Heinrich, you can fall back now.",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "Leave the offensive to us now.",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Roger that!!!",
 			typewriter = {
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			say = "KABOOOOM!",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -357,8 +357,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "......",
 			typewriter = {
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			say = "KABOOOOM!",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -499,11 +499,11 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 601020,
+			nameColor = "#a9f548",
 			say = "Soldati-class destroyer, Carabiniere, joining the battle!",
 			typewriter = {
 				speed = 0.05,
@@ -515,8 +515,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -528,8 +528,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 401280,
 			dir = 1,
+			actor = 401280,
 			nameColor = "#a9f548",
 			say = "Heinrich, we're here to help!",
 			typewriter = {
@@ -542,8 +542,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -552,12 +552,12 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "The barrier looks like it's about to crumble! Everyone, just a bit more!",
 			typewriter = {
 				speed = 0.05,

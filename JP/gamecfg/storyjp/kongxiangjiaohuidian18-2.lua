@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN18-2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN18-2",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
+			nameColor = "#A9F548FF",
 			stopbgm = true,
 			bgm = "theme-thehermitIX",
 			say = "―――！！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,8 +60,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 401990,
 			dir = 1,
+			actor = 401990,
 			say = "ふふん、当たらないわよ！",
 			painting = {
 				alpha = 0.3,
@@ -90,10 +90,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 402100,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（御者のいない獣は所詮この程度か？それとも……？）",
 			painting = {
 				alpha = 0.3,
@@ -108,8 +108,8 @@ return {
 			expression = 2,
 			side = 2,
 			paintingNoise = true,
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
 			say = "アビータの動きが変ですの！もしかして私たちではなく、「塔」を狙っている…？",
 			painting = {
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,8 +135,8 @@ return {
 			expression = 4,
 			side = 2,
 			paintingNoise = true,
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
 			say = "ほら、さっき移動経路を割り出しましたらこんな感じですわよ？",
 			painting = {
@@ -152,8 +152,8 @@ return {
 			expression = 2,
 			side = 2,
 			paintingNoise = true,
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
 			say = "あいつが操っている艦載機、さっきからヤーデの艦載機に反撃してこないですの！",
 			painting = {
@@ -169,8 +169,8 @@ return {
 			actor = 900287,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "アビータ・Hermit・IX",
 			dir = 1,
+			actorName = "アビータ・Hermit・IX",
 			say = "……………………",
 			painting = {
 				alpha = 0.3,
@@ -185,8 +185,8 @@ return {
 			actor = 307060,
 			side = 2,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "こっちもそう思ってた！",
 			painting = {
 				alpha = 0.3,
@@ -201,8 +201,8 @@ return {
 			actor = 307060,
 			side = 2,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "でもなんで？もしかして「塔」の中に何かあるの？",
 			painting = {
 				alpha = 0.3,
@@ -217,8 +217,8 @@ return {
 			actor = 307060,
 			side = 2,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "って、それどころじゃない！あいつが「扉」の装置を破壊したら帰れなくなっちゃうよ！",
 			painting = {
 				alpha = 0.3,
@@ -248,8 +248,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "瑞鶴の言う通り、「扉」にやつを接近させてはならない",
 			painting = {
 				alpha = 0.3,
@@ -264,8 +264,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "ここで徹底的に仕留める……！",
 			painting = {
 				alpha = 0.3,
@@ -295,8 +295,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "ウルリッヒとグナイゼナウは私と一緒に砲撃戦で本体を叩く！",
 			painting = {
 				alpha = 0.3,

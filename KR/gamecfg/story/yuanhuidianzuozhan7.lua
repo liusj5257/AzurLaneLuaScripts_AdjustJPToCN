@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_yuanhuidian",
 			stopbgm = true,
+			bgName = "bg_yuanhuidian",
+			bgm = "story-6",
 			actor = 401160,
 			nameColor = "#A9F548FF",
 			say = "블뤼허, 반대편 함대가 철수하기 시작한 것 같아…!",
-			bgm = "story-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -203,8 +203,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = -2500

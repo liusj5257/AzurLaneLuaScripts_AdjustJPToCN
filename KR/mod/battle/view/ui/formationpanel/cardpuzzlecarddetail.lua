@@ -6,7 +6,7 @@ slot0.Battle.CardPuzzleCardDetail = class("CardPuzzleCardDetail")
 slot3 = slot0.Battle.CardPuzzleCardDetail
 slot3.__name = "CardPuzzleCardDetail"
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot0._go.transform
 	slot0._desc = slot0._tf:Find("Desc")
@@ -17,7 +17,7 @@ function slot3.Ctor(slot0, slot1)
 	slot0._bound = 960 - rtf(slot0._tf).rect.width * 0.5
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	slot0._affixList = nil
 	slot0._affixContainer = nil
 	slot0._affixTpl = nil
@@ -26,11 +26,11 @@ function slot3.Dispose(slot0)
 	slot0._go = nil
 end
 
-function slot3.Active(slot0, slot1)
+slot3.Active = function(slot0, slot1)
 	setActive(slot0._go, slot1)
 end
 
-function slot3.SetReferenceCard(slot0, slot1)
+slot3.SetReferenceCard = function(slot0, slot1)
 	slot3 = uv0.GetPuzzleCardDataTemplate(slot1:GetCardInfo():GetCardID())
 
 	setText(slot0._desc, slot3.discript)

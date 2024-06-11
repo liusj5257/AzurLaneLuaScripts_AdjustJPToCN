@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Loaded with Lead and Love\n\n<size=45>Chapter 1 - The Cleaning Crew</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Though I was supposed to be taking the day off, I didn't particularly have anything I wanted to do, so I soon found myself wandering aimlessly around the port.",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Though I was supposed to be taking the day off, I didn't particularly have anything I wanted to do, so I soon found myself wandering aimlessly around the port.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,15 +50,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_story_school",
-			actorName = "？？？",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "？？？",
 			say = "Hey, Suffolk! Let's have a race to see who can get across the corridor faster!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "？？？",
+			side = 1,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "I could hear the voices of Kent and Suffolk coming from the Royal Navy dormitory, but who was this third voice?",
 			typewriter = {
 				speed = 0.05,
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "Kent, though I commend your dedication towards staying active, you may find that you cannot clean the floor by running all over it.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -168,11 +168,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "I understand... it's my mistake!",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -213,8 +213,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "Eh? Y-y-you've got it wrong! I've been cleaning properly!",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,
@@ -237,9 +237,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Sure enough, it was Sheffield, who recently was assigned to secretary duties.",
 			typewriter = {
 				speed = 0.05,
@@ -299,9 +299,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Ah... as professionally merciless as ever...",
 			typewriter = {
 				speed = 0.05,
@@ -345,9 +345,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "As soon as she finished talking, Sheffield promptly returned to her cleaning. So this is the absolute professionalism that even has Belfast's seal of approval...",
 			typewriter = {
 				speed = 0.05,

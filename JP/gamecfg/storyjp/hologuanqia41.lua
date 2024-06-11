@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA41",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA41",
 	fadein = 1.5,
 	scripts = {
 		{
-			blackBg = true,
-			side = 2,
-			stopbgm = true,
-			nameColor = "#ff5c5c",
-			dir = 1,
 			bgmDelay = 2,
-			actor = 900011,
+			side = 2,
 			actorName = "テスター？",
+			dir = 1,
+			blackBg = true,
+			stopbgm = true,
+			actor = 900011,
+			nameColor = "#ff5c5c",
 			say = "レジスタンスの連中、まだ破壊されていない入口を見つけたようだ。大きな失態だな？軍師",
 			flashin = {
 				delay = 1,
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター？",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスター？",
 			say = "この間損傷した「駒」たちの修理もまだ終わっていないわね。どうする気？",
 			typewriter = {
 				speed = 0.05,
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "軍師？",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "軍師？",
 			say = "ご安心ください。全てはまだ計画通りです",
 			typewriter = {
 				speed = 0.05,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "軍師？",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "軍師？",
 			say = "ジェットコースターのレールは予め変えておきました。レジスタンスの行き先はこの本社ビルではなく、マグマの中です",
 			typewriter = {
 				speed = 0.05,
@@ -85,12 +85,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター？",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "テスター？",
 			say = "ふん、先手を打ったとはよく考えたものだ",
 			typewriter = {
 				speed = 0.05,
@@ -102,12 +102,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "軍師？",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "軍師？",
 			say = "「孔明の罠」、かなり勉強しましたので。今回は私自らレジスタンスを迎え撃ちます。引き続き、権限を取り戻すことに専念なさってください。",
 			typewriter = {
 				speed = 0.05,
@@ -119,14 +119,14 @@ return {
 			}
 		},
 		{
-			say = "ミオシオコースターにて",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-fbk",
+			say = "ミオシオコースターにて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,10 +151,10 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 201210,
 			say = "はーーーーーーやーーーーーーいーーーーーー！",
 			effects = {
 				{
@@ -175,8 +175,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "ジェットコースターも大きくなって前のより一億倍かっこいいぞおおおおおおおおおお！",
 			typewriter = {
 				speed = 0.05,

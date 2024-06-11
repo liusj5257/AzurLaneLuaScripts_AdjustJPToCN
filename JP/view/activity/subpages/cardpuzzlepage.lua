@@ -1,6 +1,6 @@
 slot0 = class("CardPuzzlePage", import("view.base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.titleTF = slot0:findTF("title", slot0.bg)
 	slot0.progressTF = slot0:findTF("progress", slot0.bg)
@@ -13,12 +13,12 @@ function slot0.OnInit(slot0)
 	slot0.uilist = UIItemList.New(slot0.items, slot0.item)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.levelList = slot0.activity:getConfig("config_data")[1]
 	slot0.awardList = slot0.activity:getConfig("config_data")[2]
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			uv0:InitItem(slot1, slot2)
@@ -39,12 +39,12 @@ function slot0.OnFirstFlush(slot0)
 	slot0:UpdateLevelInfo()
 end
 
-function slot0.InitItem(slot0, slot1, slot2)
+slot0.InitItem = function(slot0, slot1, slot2)
 	GetImageSpriteFromAtlasAsync("ui/activityuipage/cardpuzzlepage_atlas", slot1 + 1, slot0:findTF("normal/num", slot2), true)
 	GetImageSpriteFromAtlasAsync("ui/activityuipage/cardpuzzlepage_atlas", slot1 + 1, slot0:findTF("selected/num", slot2), true)
 end
 
-function slot0.UpdateItem(slot0, slot1, slot2)
+slot0.UpdateItem = function(slot0, slot1, slot2)
 	setActive(slot0:findTF("selected", slot2), slot0.selectedId == slot0.levelList[slot1 + 1])
 
 	slot5 = table.contains(slot0.finishList, slot4)
@@ -59,7 +59,7 @@ function slot0.UpdateItem(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.gotList = slot0.activity:getData1List()
 	slot0.finishList = slot0.activity.data2_list
 
@@ -83,7 +83,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0:UpdateEveryDayTip()
 end
 
-function slot0.CheckAward(slot0)
+slot0.CheckAward = function(slot0)
 	if #slot0.gotList == #slot0.awardList then
 		return nil
 	end
@@ -99,14 +99,14 @@ function slot0.CheckAward(slot0)
 	return nil
 end
 
-function slot0.UpdateLevelInfo(slot0)
+slot0.UpdateLevelInfo = function(slot0)
 	slot1 = pg.puzzle_combat_template[slot0.selectedId]
 
 	setText(slot0.titleTF, "·" .. slot1.name)
 	setText(slot0.descTF, slot1.description)
 end
 
-function slot0.GetCurLevel(slot0)
+slot0.GetCurLevel = function(slot0)
 	slot0.finishList = slot0.activity.data2_list
 
 	for slot4, slot5 in ipairs(slot0.levelList) do
@@ -118,7 +118,7 @@ function slot0.GetCurLevel(slot0)
 	return slot0.levelList[#slot0.levelList], #slot0.levelList
 end
 
-function slot0.UpdateEveryDayTip(slot0)
+slot0.UpdateEveryDayTip = function(slot0)
 	if #slot0.gotList == #slot0.awardList then
 		return
 	end

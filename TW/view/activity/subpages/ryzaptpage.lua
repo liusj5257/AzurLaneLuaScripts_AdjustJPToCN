@@ -1,7 +1,7 @@
 slot0 = class("RyzaPtPage", import(".TemplatePage.PtTemplatePage"))
 slot1 = 9
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.kalaSpine = slot0:findTF("shadow/kala", slot0.bg)
@@ -12,7 +12,7 @@ function slot0.OnInit(slot0)
 	slot0.clickMask = slot0:findTF("click_mask", slot0.bg)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	slot0:InitAnimData()
 	onButton(slot0, slot0.feedBtn, function ()
@@ -53,7 +53,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot1 = slot0.ptData:GetLevelProgress()
@@ -66,7 +66,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.UpdateSpineIdle(slot0, slot1)
+slot0.UpdateSpineIdle = function(slot0, slot1)
 	slot0.kalaAnim:SetAction("pt_ui", 0)
 
 	if slot0.puniPhaseCfg[#slot0.puniPhaseCfg] < slot1 then
@@ -79,7 +79,7 @@ function slot0.UpdateSpineIdle(slot0, slot1)
 	end
 end
 
-function slot0.PlayIdleFeedAnim(slot0, slot1, slot2)
+slot0.PlayIdleFeedAnim = function(slot0, slot1, slot2)
 	slot0:PlayKalaAnim()
 	slot0.puniAnim:SetActionCallBack(function (slot0)
 		if slot0 == "finish" then
@@ -90,7 +90,7 @@ function slot0.PlayIdleFeedAnim(slot0, slot1, slot2)
 	slot0.puniAnim:SetAction(slot1, 0)
 end
 
-function slot0.PlayFeedAnim(slot0, slot1)
+slot0.PlayFeedAnim = function(slot0, slot1)
 	setActive(slot0.clickMask, true)
 
 	slot2 = pg.UIMgr.GetInstance()
@@ -107,7 +107,7 @@ function slot0.PlayFeedAnim(slot0, slot1)
 	end)
 end
 
-function slot0.PlayKalaAnim(slot0, slot1)
+slot0.PlayKalaAnim = function(slot0, slot1)
 	slot0.kalaAnim:SetActionCallBack(function (slot0)
 		if slot0 == "finish" then
 			uv0.kalaAnim:SetActionCallBack(nil)
@@ -121,7 +121,7 @@ function slot0.PlayKalaAnim(slot0, slot1)
 	slot0.kalaAnim:SetAction("event_weishi", 0)
 end
 
-function slot0.PlayPuniChangeAnim(slot0, slot1)
+slot0.PlayPuniChangeAnim = function(slot0, slot1)
 	slot2, slot3, slot4 = slot0:GetAnimName()
 
 	slot0.puniAnim:SetActionCallBack(function (slot0)
@@ -137,7 +137,7 @@ function slot0.PlayPuniChangeAnim(slot0, slot1)
 	slot0.puniAnim:SetAction(slot3, 0)
 end
 
-function slot0.InitAnimData(slot0)
+slot0.InitAnimData = function(slot0)
 	slot0.puniPhaseCfg = slot0.activity:getConfig("config_client").puni_phase
 	slot0.specialPhase = {}
 
@@ -163,7 +163,7 @@ function slot0.InitAnimData(slot0)
 	end
 end
 
-function slot0.GetAnimName(slot0, slot1)
+slot0.GetAnimName = function(slot0, slot1)
 	if slot0.puniPhaseCfg[#slot0.puniPhaseCfg] < (slot1 and slot1 or slot0.ptData:GetLevelProgress()) then
 		return "normal_" .. math.random(uv0)
 	else
@@ -173,7 +173,7 @@ function slot0.GetAnimName(slot0, slot1)
 	end
 end
 
-function slot0.OnShowFlush(slot0)
+slot0.OnShowFlush = function(slot0)
 	slot0:UpdateSpineIdle(slot0.ptData:GetLevelProgress())
 end
 

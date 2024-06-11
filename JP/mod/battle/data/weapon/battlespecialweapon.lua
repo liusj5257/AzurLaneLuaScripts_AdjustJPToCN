@@ -4,11 +4,11 @@ slot1 = class("BattleSpecialWeapon", slot0.Battle.BattleWeaponUnit)
 slot0.Battle.BattleSpecialWeapon = slot1
 slot1.__name = "BattleSpecialWeapon"
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot1.CheckPreCast(slot0)
+slot1.CheckPreCast = function(slot0)
 	slot1 = slot0._dataProxy:GetSeqCenter()
 
 	if not slot0._tmpData.bullet_ID[1] then
@@ -35,7 +35,7 @@ function slot1.CheckPreCast(slot0)
 	return true
 end
 
-function slot1.Fire(slot0)
+slot1.Fire = function(slot0)
 	assert(slot0._castInfo ~= nil, "需要指定施法信息，有特殊需求可默认指定为{ weapon = self }")
 
 	slot2 = slot0._tmpData.bullet_ID[1]

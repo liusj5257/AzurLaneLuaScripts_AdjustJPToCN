@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGTINGLIAOFA32",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-boss-4",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "Explosions echo across the ocean.",
 			dir = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "battle-boss-4",
+			say = "Explosions echo across the ocean.",
 			flashN = {
 				color = {
 					1,
@@ -60,14 +60,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_xiangting_3",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			say = "Traces of gunpowder, flames, wrecks, and destruction.",
-			side = 2,
-			bgName = "bg_xiangting_3",
-			dir = 1,
-			soundeffect = "event:/battle/boom2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -92,14 +92,14 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_xiangting_3",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			say = "Her lonesome, solitary war continues.",
-			side = 2,
-			bgName = "bg_xiangting_3",
-			dir = 1,
-			soundeffect = "event:/battle/boom2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_xiangting_3",
-			actorName = "Observer",
 			dir = 1,
+			actorName = "Observer",
 			say = "Well, well, congratulations. You've destroyed each and every last Siren in this area.",
 			effects = {
 				{
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -162,10 +162,10 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
+			actor = 900072,
 			dir = 1,
 			actorName = "？？？",
 			say = "... I told you not to drag uninvolved people into your experiments.",
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_xiangting_3",
-			actorName = "Observer",
 			dir = 1,
+			actorName = "Observer",
 			say = "Ah, \"people\"... What exactly do you mean by \"people\"?",
 			effects = {
 				{
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -255,10 +255,10 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
+			actor = 900072,
 			dir = 1,
 			actorName = "？？？",
 			say = "……",
@@ -278,11 +278,11 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900072,
 			actorName = "？？？",
 			say = "I will stop you, no matter what it takes.",
 			typewriter = {
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
+			side = 2,
 			bgName = "bg_xiangting_3",
-			actorName = "Observer",
 			dir = 1,
+			actorName = "Observer",
 			say = "Oh, don't be like that. Being the Prototype that you are, we can always reconcile and be friends whenever you'd like.",
 			effects = {
 				{
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -349,10 +349,10 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
+			actor = 900072,
 			dir = 1,
 			actorName = "？？？",
 			say = "Silence...",
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900072,
 			actorName = "？？？",
 			say = "Mind your own business...",
 			typewriter = {
@@ -389,11 +389,11 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900072,
 			actorName = "？？？",
 			say = "Your only purpose is to report my whereabouts to the Host.",
 			typewriter = {
@@ -406,11 +406,11 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900072,
 			actorName = "？？？",
 			say = "You have neither the power nor the authority to stop me ever again.",
 			typewriter = {
@@ -423,14 +423,14 @@ return {
 			}
 		},
 		{
-			actor = 900072,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900072,
 			actorName = "？？？",
 			say = "Get lost.",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,

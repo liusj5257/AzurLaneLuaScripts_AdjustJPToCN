@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 净化者",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 净化者",
+	init_effect = "",
+	id = 200891,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200891,
+	color = "yellow",
 	icon = 200891,
 	last_effect = "",
 	effect_list = {
@@ -39,9 +39,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200891,
 				time = 2,
-				target = "TargetSelf",
-				skill_id = 200891
+				target = "TargetSelf"
 			}
 		},
 		{

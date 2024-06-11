@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"天狼星改造計畫\n\n<size=45>四 來自Big seven的建議</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202200,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "納爾遜、羅德尼，拜託妳們了",
 			bgm = "story-1",
+			actor = 202200,
+			nameColor = "#a9f548",
+			say = "納爾遜、羅德尼，拜託妳們了",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "請來了納爾遜與羅德尼，給天狼星提供一些關於上流宴會的建議。",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "參加者個人資訊的調查已經過了一遍，警衛是否有欠缺以及緊急情況時的逃脫路線的調查已經完成了九成",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "主人參會用的物品、車上與港區聯絡手段的設置、備用衣物、飲酒時的常備藥等也已經準備好了",
 			typewriter = {
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "連備用衣物和醒酒藥都準備好了，看來貝爾法斯特等人的指導確實起到了效果。",
 			typewriter = {
 				speed = 0.05,
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "如果還有什麼不備之處請儘管明言（低頭",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -75,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.3,
 					x = 0,
@@ -236,15 +236,15 @@ return {
 			}
 		},
 		{
-			actor = 205040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205040,
+			nameColor = "#a9f548",
 			say = "大概就是這些了。說起來，好像忘了一件很重要的事……禮裙怎麼辦？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -272,8 +272,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "啊……",
 			typewriter = {
@@ -286,11 +286,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "果然……我去商店那邊問問吧。從各種意義上妳和光輝她們的身材差不多，{namecode:98}的話說不定立刻能準備好",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "納爾遜、主人，太感謝了！",
 			typewriter = {

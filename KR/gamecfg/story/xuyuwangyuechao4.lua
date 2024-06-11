@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "봉인의 중심에 도착해, 술식 실행에 나서는 나가토 일행.",
 			bgm = "story-unzen",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "봉인의 중심에 도착해, 술식 실행에 나서는 나가토 일행.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -146,13 +146,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "bg_yunxian_3",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "유성…? 아니, 저건 '대현자'인가…….",
 			painting = {
 				alpha = 0.3,
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -267,14 +267,14 @@ return {
 		{
 			portrait = 305050,
 			side = 2,
-			bgName = "star_level_bg_504",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			expression = 4,
-			oldPhoto = true,
 			actorName = "나가토",
+			expression = 4,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_504",
+			oldPhoto = true,
 			say = "이건…… 환상인가?!",
 			flashN = {
 				color = {
@@ -311,17 +311,17 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -337,8 +337,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -361,11 +361,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_moran_3",
-			hidePaintObj = true,
 			oldPhoto = true,
+			hidePaintObj = true,
 			say = "――보여줄 수 있는 것은 오로지 과거의 파편뿐.",
 			flashN = {
 				color = {
@@ -402,8 +402,8 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -415,8 +415,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -427,12 +427,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mirror",
-			hidePaintObj = true,
-			actorName = "잡음",
 			oldPhoto = true,
+			actorName = "잡음",
+			hidePaintObj = true,
 			say = "(도망쳐…!!! 어서……!!!)",
 			flashN = {
 				color = {
@@ -469,8 +469,8 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -487,9 +487,9 @@ return {
 			bgName = "bg_mirror",
 			portrait = 305100,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "무사시",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이곳은…… 사쿠라 엠파이어 마을…?",
 			painting = {
@@ -507,9 +507,9 @@ return {
 			bgName = "bg_mirror",
 			portrait = 305100,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "무사시",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "나가토 님, 저것은……?!",
 			painting = {
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -546,8 +546,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -558,8 +558,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -576,9 +576,9 @@ return {
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
 			portrait = 305050,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "나가토",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……'대현자'……",
 			painting = {
@@ -591,8 +591,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -615,13 +615,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			oldPhoto = true,
-			say = "환상이 세 번 바뀌고, 이번에는 '대신목'의 성역, 봉인으로 들어가기 전에 본 봄 풍경으로 바뀌었다.",
 			bgm = "theme-unzen",
+			hidePaintObj = true,
+			say = "환상이 세 번 바뀌고, 이번에는 '대신목'의 성역, 봉인으로 들어가기 전에 본 봄 풍경으로 바뀌었다.",
 			flashN = {
 				color = {
 					1,
@@ -657,8 +657,8 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -670,8 +670,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -682,8 +682,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -714,8 +714,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
@@ -736,10 +736,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "여우님, 그리고 무사시 씨.",
 			typewriter = {
@@ -751,10 +751,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "두 분은 분명 '꿈'을 꾸셨다고 하셨지요?",
 			typewriter = {
@@ -763,13 +763,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "사람에 따라서는 '꿈'을 현실의 연장선으로 보기도 하고, 심상의 반영으로 보기도 하지요.",
 			typewriter = {
 				speed = 0.05,
@@ -780,10 +780,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "두 분의 '꿈'과 다르게 제가 꾼 '꿈'은 잠재적인 '미래'입니다.",
 			typewriter = {
@@ -795,10 +795,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "저는 그런 파멸의 미래를 몇 번이고 보았습니다.",
 			typewriter = {
@@ -810,10 +810,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "그래요…… 수백 번도 더…",
 			typewriter = {
@@ -822,13 +822,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "꿈속에서도 조금은 움직일 수 있어서, 제 나름대로 여러 가지를 조사했지요.",
 			typewriter = {
 				speed = 0.05,
@@ -839,10 +839,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "신목을 시들게 하고, 사쿠라 엠파이어에 이변을 가져온 그 '안개의 괴물'",
 			typewriter = {
@@ -854,10 +854,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "저는 그것을 '부정한 그림자'라고 부릅니다.",
 			typewriter = {
@@ -866,13 +866,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "별과 함께 떨어진 '해약'이 지혜를 주고, 힘이 되어 악을 물리치는 동안…",
 			typewriter = {
 				speed = 0.05,
@@ -883,10 +883,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "'부정한 그림자'는 안개로 재앙을 불러오지요.",
 			typewriter = {
@@ -914,13 +914,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "네. 동전의 양면처럼, 빛과 그림자처럼요.",
 			typewriter = {
 				speed = 0.05,
@@ -931,10 +931,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "빛이 있는 곳에는 어둠이 있는 법. 원래대로라면 균형을 잡아 파멸의 종말까지 이르지는 않겠지만…",
 			typewriter = {
@@ -943,13 +943,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_518",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "하지만 이변이 일어나, 그대는 '미래'를 목격했지.",
 			painting = {
 				alpha = 0.3,
@@ -964,10 +964,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "'해약'의 힘을 더 많이 사용하면, 안개가 끼치는 영향도 더 강해집니다.",
 			typewriter = {
@@ -979,10 +979,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "아니, '해약'의 힘을 사용하지 않더라도, 큐브의 힘이 더 강해지면…",
 			typewriter = {
@@ -1010,13 +1010,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_518",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그대는 '해약'과 '큐브'를 같은 존재라고 보는 건가?",
 			painting = {
 				alpha = 0.3,
@@ -1028,13 +1028,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "정확히 말하자면 비슷하면서도 다른 존재입니다. …시대가 바뀌어 '가지'가 바뀌면 호칭 또한 달라지겠죠.",
 			typewriter = {
 				speed = 0.05,
@@ -1045,10 +1045,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "어떻게 부르든 양쪽 모두 근본을 거슬러 올라가면, 용골…… 즉, '근원'적인 힘을 끌어낼 수 있는 존재입니다.",
 			typewriter = {
@@ -1060,10 +1060,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "개념을 구현하거나 공간과 질량을 무시하는 등, '근원'적인 힘은 인간의 통제 능력을 넘어서는 것이지만…",
 			typewriter = {
@@ -1072,13 +1072,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "인간이 인지할 수 있는 잣대로 측정하지 않으면, '근원'의 규모를 이 정도로 담아낼 수 없겠지요.",
 			typewriter = {
 				speed = 0.05,
@@ -1105,13 +1105,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "대현자",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
+			hidePaintObj = true,
 			say = "용골의 소망에서 실현된, 무궁무진한 이치가 자아낸 기적의 결과물.",
 			typewriter = {
 				speed = 0.05,
@@ -1122,10 +1122,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "대현자",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "대현자",
 			hidePaintObj = true,
 			say = "그것이 바로 '해약'이랍니다.",
 			typewriter = {
@@ -1134,8 +1134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1146,8 +1146,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1158,13 +1158,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			oldPhoto = true,
-			say = "―――!!!",
 			soundeffect = "event:/battle/boom2",
+			hidePaintObj = true,
+			say = "―――!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1210,28 +1210,28 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
 			bgName = "bg_yunxian_4",
-			hidePaintObj = true,
+			oldPhoto = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이렇게 '해약'은 사쿠라 엠파이어의 땅에 떨어져, 그 엄청난 힘을 사방으로 확산시켰다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1239,8 +1239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_4",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1256,9 +1256,9 @@ return {
 			bgName = "bg_yunxian_4",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "나가토",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이건…… '대신목'……",
 			typewriter = {
@@ -1272,9 +1272,9 @@ return {
 			bgName = "bg_yunxian_4",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "나가토",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "안개를 봉인하기 위한 성역……",
 			typewriter = {
@@ -1283,13 +1283,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			oldPhoto = true,
-			say = "환상은 사라지고, 나가토 일행 눈앞에는 다시 '지금' 성역의 모습이 펼쳐졌다.",
 			bgm = "story-unzen",
+			hidePaintObj = true,
+			say = "환상은 사라지고, 나가토 일행 눈앞에는 다시 '지금' 성역의 모습이 펼쳐졌다.",
 			flashN = {
 				color = {
 					1,
@@ -1325,8 +1325,8 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -1338,8 +1338,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1350,8 +1350,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1362,8 +1362,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1394,8 +1394,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1406,8 +1406,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1438,8 +1438,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1455,9 +1455,9 @@ return {
 			bgName = "bg_yuese_cg1",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
+			actorName = "나가토",
 			oldPhoto = true,
 			nameColor = "#A9F548FF",
-			actorName = "나가토",
 			hidePaintObj = true,
 			say = "상황이 이렇다면 남겨진 수단은 오로지 하나…",
 			painting = {
@@ -1470,13 +1470,13 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuese_cg1",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
+			oldPhoto = true,
 			actorName = "나가토",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "무사시, 내 마지막 힘을 그대의 칼에 맡기마. 그 일격이면 마지막 활로 정도는 필시 뚫을 수 있겠지.",
 			painting = {
@@ -1492,10 +1492,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yuese_cg1",
-			oldPhoto = true,
-			dir = 1,
-			actorName = "무사시",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			oldPhoto = true,
+			actorName = "무사시",
 			hidePaintObj = true,
 			say = "……그럴 순 없다.",
 			painting = {
@@ -1511,10 +1511,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yuese_cg1",
-			oldPhoto = true,
-			dir = 1,
-			actorName = "무사시",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			oldPhoto = true,
+			actorName = "무사시",
 			hidePaintObj = true,
 			say = "나는 탈출할 수 있어도, 나가토 님이……",
 			painting = {
@@ -1527,13 +1527,13 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuese_cg1",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
+			oldPhoto = true,
 			actorName = "나가토",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "사쿠라 엠파이어를 수호하는 것만이 무녀인 내게 맡겨진 임무다.",
 			painting = {
@@ -1551,9 +1551,9 @@ return {
 			bgName = "bg_yuese_cg1",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
+			actorName = "나가토",
 			oldPhoto = true,
 			nameColor = "#A9F548FF",
-			actorName = "나가토",
 			hidePaintObj = true,
 			say = "그러기로 이미 맹세했고, 그대에게도 대국 중에 그 각오를 보였을 터.",
 			painting = {
@@ -1571,9 +1571,9 @@ return {
 			bgName = "bg_yuese_cg1",
 			factiontag = "사쿠라 엠파이어 총 기함",
 			dir = 1,
+			actorName = "나가토",
 			oldPhoto = true,
 			nameColor = "#A9F548FF",
-			actorName = "나가토",
 			hidePaintObj = true,
 			say = "사쿠라 엠파이어를 수호하는 여우의 위광…… 똑똑히 보아라!",
 			painting = {
@@ -1586,8 +1586,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1598,8 +1598,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1613,10 +1613,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "무사시",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "나가토 님……!",
 			painting = {
 				alpha = 0.3,
@@ -1628,8 +1628,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1643,10 +1643,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……윽, 이건… 대체……?",
 			painting = {
 				alpha = 0.3,
@@ -1658,8 +1658,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "머나먼 미래, '성역'에서 일어난 일을 환상으로 목격한 소녀가 있었다.",

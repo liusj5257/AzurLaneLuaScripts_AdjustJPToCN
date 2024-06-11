@@ -1,12 +1,12 @@
 return {
-	id = "W710012",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710012",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "洋流流動了起來！",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "大部分海域看起來還是處於封鎖狀態……洋流並沒有貫通……",
 			typewriter = {
 				speed = 0.05,

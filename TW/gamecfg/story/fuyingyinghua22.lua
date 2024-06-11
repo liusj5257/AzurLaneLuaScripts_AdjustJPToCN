@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUA22",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUYINGYINGHUA22",
 	fadein = 1.5,
 	scripts = {
 		{
-			actorName = "？？？",
+			paingtingGray = true,
 			side = 2,
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
 			bgm = "battle-boss-4",
 			actor = 303110,
-			paingtingGray = true,
+			nameColor = "#a9f548",
 			say = "“第六戰隊、第三水雷戰隊！ ！從右翼包夾目標！ ！ ”",
 			effects = {
 				{
@@ -32,11 +32,11 @@ return {
 			}
 		},
 		{
-			say = "吼———————",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			soundeffect = "event:/battle/boom2",
+			say = "吼———————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "震耳欲聾的嘶吼聲撕裂了夜空",
 			typewriter = {
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 302130,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 302130,
 			paingtingGray = true,
 			say = "第二水雷戰隊崩壞…無法形成包圍網，要失手了！！！",
 			typewriter = {
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303110,
 			paingtingGray = true,
 			say = "堅持住，只要堅持到第一戰隊的支援到來就...",
 			typewriter = {
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			say = "吼————",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			soundeffect = "event:/battle/boom2",
+			say = "吼————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			paingtingGray = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "巨獸再次咆哮，海面開始晃動起來",
@@ -133,12 +133,12 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301140,
 			paingtingGray = true,
 			say = "快看，遠方的海平線，出現了一道白色城牆！",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303110,
 			paingtingGray = true,
 			say = "等等……",
 			typewriter = {
@@ -179,12 +179,12 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303110,
 			paingtingGray = true,
 			say = "這難道是…",
 			typewriter = {
@@ -197,12 +197,12 @@ return {
 			}
 		},
 		{
-			actor = 303110,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303110,
 			paingtingGray = true,
 			say = "浪？",
 			typewriter = {
@@ -215,17 +215,17 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			actorName = "？？？",
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 900192,
 			nameColor = "#a9f548",
 			say = "…………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,12 +256,12 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900192,
+			actorName = "？？？",
 			say = "不能…再次重蹈覆轍",
 			typewriter = {
 				speed = 0.05,
@@ -273,15 +273,15 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			say = "祭典儀式廳·子時",
-			dir = 1,
 			bgmDelay = 1,
+			side = 2,
+			dir = 1,
+			blackBg = true,
 			bgm = "main-newyear",
+			say = "祭典儀式廳·子時",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -306,8 +306,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "輝煌的儀式廳設計成一個中空的露天結構，入口的參道上設置了手水舍",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "露天結構中央的神龕上供奉著一塊不太起眼的海藍色石頭",
 			effects = {
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "這塊石頭被結繩所纏繞著，月光灑在上面，似乎一個符文正發出淡淡的熒光",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "眾人經過漫長的參道，終於來到此處——",
 			typewriter = {
@@ -371,9 +371,9 @@ return {
 			expression = 8,
 			side = 2,
 			actor = 301100,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "那麼，由於{namecode:179}大人一行尚未歸來，現在就由在下作為代行祭祀主持本次天宇啟戶祭的祈願環節~",
 			effects = {
 				{
@@ -393,10 +393,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 301100,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301100,
+			nameColor = "#a9f548",
 			say = "請代巫女{namecode:79}殿下上前——",
 			typewriter = {
 				speed = 0.05,
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "眾人",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "眾人",
 			say = "“向神明展現勇武，向神明納奉才智，向神明給予信仰”",
 			effects = {
 				{
@@ -462,8 +462,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "眾人",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "眾人",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -494,12 +494,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			say = "哐——",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/kuang",
+			say = "哐——",
 			flashN = {
 				color = {
 					1,
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "{namecode:79}正要伸手去觸碰神石，卻被一股無形的力量彈開了",
 			typewriter = {
@@ -547,9 +547,9 @@ return {
 			expression = 5,
 			side = 2,
 			actor = 301100,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "呃…這是什麼狀況？？",
 			effects = {
 				{
@@ -567,16 +567,16 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "大家小心！快阻止她！！",
 			dir = 1,
 			bgm = "story-7",
+			actor = 305050,
+			nameColor = "#a9f548",
+			say = "大家小心！快阻止她！！",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -593,8 +593,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "順著聲音的來源，大夥一起轉頭望向入口，是{namecode:74}與{namecode:96}一行衝進了儀式廳",
 			typewriter = {
 				speed = 0.05,
@@ -651,8 +651,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "{namecode:74}一說完，{namecode:82}、{namecode:96}、{namecode:158}等人立刻拔出了武器對準{namecode:79}的背影",
 			typewriter = {
 				speed = 0.05,
@@ -679,8 +679,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "{namecode:79}說完，背後的尾巴逐漸開始變化成多根觸手…",
 			typewriter = {
 				speed = 0.05,
@@ -695,8 +695,8 @@ return {
 			actor = 900012,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "觀察者",
 			dir = 1,
+			actorName = "觀察者",
 			say = "哎呀呀…虧我還對這次的演技很有自信的，居然在這裡出現了計算偏差",
 			typewriter = {
 				speed = 0.05,
@@ -708,9 +708,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			actorName = "眾人",
 			side = 2,
+			dir = 1,
 			say = "塞壬！！",
 			typewriter = {
 				speed = 0.05,
@@ -740,8 +740,8 @@ return {
 			actor = 900012,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "觀察者",
 			dir = 1,
+			actorName = "觀察者",
 			say = "在暗礁區埋伏的戰鬥終端居然沒辦法攔下妳們嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -756,8 +756,8 @@ return {
 			actor = 900012,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "觀察者",
 			dir = 1,
+			actorName = "觀察者",
 			say = "都怪那傢伙，消耗了太多預備品搞得可分配的部隊被削減了…",
 			typewriter = {
 				speed = 0.05,
@@ -787,8 +787,8 @@ return {
 			actor = 900012,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "觀察者",
 			dir = 1,
+			actorName = "觀察者",
 			say = "那當然是——",
 			typewriter = {
 				speed = 0.05,
@@ -815,10 +815,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "一發炮彈精確的落在了觀察者頭上，炸毀了儀式廳的大部分木結構建築",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -861,14 +861,14 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "整個大廳完全被煙霧所覆蓋，完全看不清周圍的狀況",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -881,8 +881,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "在煙霧中，{namecode:158}、{namecode:82}、{namecode:96}等人不約而同地護住了{namecode:74}的身軀",
 			typewriter = {
 				speed = 0.05,
@@ -894,11 +894,11 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "觀察者",
 			dir = 1,
+			actor = 900012,
+			actorName = "觀察者",
 			say = "這個威力的炮彈，嘴上說著不關心，但最後還是來了啊——呵呵呵",
 			typewriter = {
 				speed = 0.05,
@@ -910,8 +910,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -1250,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 0
@@ -919,8 +919,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "說完，觀察者便化身為與周圍環境一樣的顏色，隱身般的消失在了煙霧之中",
 			typewriter = {
 				speed = 0.05,
@@ -947,8 +947,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "{namecode:82}朝觀察者離去的方向開了一炮，卻沒有打中",
 			typewriter = {
 				speed = 0.05,
@@ -963,8 +963,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			say = "{namecode:82}大人，不…不好了，一個無法識別的艦船快速突破了我們的外防線...正向妳們駛去",
 			typewriter = {
 				speed = 0.05,
@@ -979,8 +979,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			say = "對不起…我…我們攔不住她…",
 			typewriter = {
 				speed = 0.05,
@@ -1025,8 +1025,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			say = "可是...如果過了子時，祭典儀式可能就要失敗了",
 			typewriter = {
 				speed = 0.05,

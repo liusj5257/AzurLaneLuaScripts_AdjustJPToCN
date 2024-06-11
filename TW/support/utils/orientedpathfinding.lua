@@ -1,7 +1,7 @@
 slot0 = class("OrientedPathFinding", PathFinding)
 OrientedPathFinding = slot0
 
-function slot0.Find(slot0, slot1, slot2)
+slot0.Find = function(slot0, slot1, slot2)
 	slot1 = {
 		row = slot1.row,
 		column = slot1.column
@@ -37,7 +37,7 @@ slot1 = {
 	}
 }
 
-function slot0._Find(slot0, slot1, slot2)
+slot0._Find = function(slot0, slot1, slot2)
 	slot3 = uv0.PrioForbidden
 	slot4 = {}
 	slot5 = {
@@ -120,7 +120,7 @@ function slot0._Find(slot0, slot1, slot2)
 	return slot3, slot4
 end
 
-function slot0.IsDirectionForbidden(slot0, slot1, slot2)
+slot0.IsDirectionForbidden = function(slot0, slot1, slot2)
 	if slot0.forbiddens == ChapterConst.ForbiddenNone then
 		return
 	end

@@ -1,24 +1,24 @@
 _G.pg.base.chapter_template_loop[101] = {
-	group_num = 1,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 3,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 1,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 101,
+	group_num = 1,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 3,
 	time = 99999999,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 101,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -162,27 +162,28 @@ _G.pg.base.chapter_template_loop[101] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[102] = {
-	group_num = 1,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 3,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 2,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 102,
+	group_num = 1,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 3,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 102,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -431,27 +432,28 @@ _G.pg.base.chapter_template_loop[102] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[103] = {
-	group_num = 1,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 3,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 2,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 103,
+	group_num = 1,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 3,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 103,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.52,
@@ -736,27 +738,28 @@ _G.pg.base.chapter_template_loop[103] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[104] = {
-	group_num = 1,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 4,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 104,
+	group_num = 1,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 4,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 104,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -1123,27 +1126,28 @@ _G.pg.base.chapter_template_loop[104] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[201] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 4,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 2,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 201,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 4,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 201,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.665,
@@ -1604,27 +1608,28 @@ _G.pg.base.chapter_template_loop[201] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[202] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 4,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 202,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 4,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 202,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.665,
@@ -2138,27 +2143,28 @@ _G.pg.base.chapter_template_loop[202] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[203] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 5,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 203,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 5,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 203,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -2649,27 +2655,28 @@ _G.pg.base.chapter_template_loop[203] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[204] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 5,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 204,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 5,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 204,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.38,
@@ -3130,27 +3137,28 @@ _G.pg.base.chapter_template_loop[204] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[301] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 6,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 301,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 6,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 301,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -3631,27 +3639,28 @@ _G.pg.base.chapter_template_loop[301] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[302] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 6,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 302,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 6,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 302,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -4156,27 +4165,28 @@ _G.pg.base.chapter_template_loop[302] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[303] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 7,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 303,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 7,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 303,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.64,
@@ -4676,27 +4686,28 @@ _G.pg.base.chapter_template_loop[303] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[304] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 7,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 304,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 7,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 304,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.53,
@@ -5182,27 +5193,28 @@ _G.pg.base.chapter_template_loop[304] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[401] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 8,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 401,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 401,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -5607,27 +5619,28 @@ _G.pg.base.chapter_template_loop[401] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[402] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 8,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 402,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 402,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.4,
@@ -6025,27 +6038,28 @@ _G.pg.base.chapter_template_loop[402] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[403] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 9,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 403,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 403,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -6388,27 +6402,28 @@ _G.pg.base.chapter_template_loop[403] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[404] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 404,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 404,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.63,
@@ -6888,27 +6903,28 @@ _G.pg.base.chapter_template_loop[404] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[501] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 10,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 501,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 501,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -7393,27 +7409,28 @@ _G.pg.base.chapter_template_loop[501] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[502] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 10,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 502,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 502,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -7836,27 +7853,28 @@ _G.pg.base.chapter_template_loop[502] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[503] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 11,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 503,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 503,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.54,
@@ -8249,27 +8267,28 @@ _G.pg.base.chapter_template_loop[503] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[504] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 504,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 504,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.51,
@@ -8687,27 +8706,28 @@ _G.pg.base.chapter_template_loop[504] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[601] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 12,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 601,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 601,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -9163,27 +9183,28 @@ _G.pg.base.chapter_template_loop[601] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[602] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 12,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 602,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 602,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.55,
@@ -9695,27 +9716,28 @@ _G.pg.base.chapter_template_loop[602] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[603] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 13,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 603,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 603,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.36,
@@ -10151,27 +10173,28 @@ _G.pg.base.chapter_template_loop[603] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[604] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 604,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 604,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.338,
@@ -10651,27 +10674,28 @@ _G.pg.base.chapter_template_loop[604] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[701] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 14,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 701,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 701,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -10974,27 +10998,28 @@ _G.pg.base.chapter_template_loop[701] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[702] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 14,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 702,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 702,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.55,
@@ -11400,27 +11425,28 @@ _G.pg.base.chapter_template_loop[702] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[703] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 15,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 703,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 703,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.36,
@@ -11896,27 +11922,28 @@ _G.pg.base.chapter_template_loop[703] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[704] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 704,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 704,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.338,
@@ -12377,27 +12404,28 @@ _G.pg.base.chapter_template_loop[704] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[801] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 16,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 801,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 801,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -12722,27 +12750,28 @@ _G.pg.base.chapter_template_loop[801] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[802] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 17,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 802,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 802,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.55,
@@ -13153,27 +13182,28 @@ _G.pg.base.chapter_template_loop[802] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[803] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 17,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 803,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 803,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.36,
@@ -13647,27 +13677,28 @@ _G.pg.base.chapter_template_loop[803] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[804] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 18,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 804,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 18,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 804,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.338,
@@ -14204,27 +14235,28 @@ _G.pg.base.chapter_template_loop[804] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[901] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 17,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 901,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 901,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.36,
@@ -14640,27 +14672,28 @@ _G.pg.base.chapter_template_loop[901] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[902] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 18,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 902,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 18,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 902,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.35,
@@ -15114,27 +15147,28 @@ _G.pg.base.chapter_template_loop[902] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[903] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 18,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 903,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 18,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 903,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -15612,27 +15646,28 @@ _G.pg.base.chapter_template_loop[903] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[904] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 19,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 904,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 19,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 904,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -16132,27 +16167,28 @@ _G.pg.base.chapter_template_loop[904] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 18,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1001,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 18,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1001,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -16586,27 +16622,28 @@ _G.pg.base.chapter_template_loop[1001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 19,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1002,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 19,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.55,
@@ -17097,27 +17134,28 @@ _G.pg.base.chapter_template_loop[1002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 19,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1003,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 19,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.36,
@@ -17625,27 +17663,28 @@ _G.pg.base.chapter_template_loop[1003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 20,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1004,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 20,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.338,
@@ -18167,27 +18206,28 @@ _G.pg.base.chapter_template_loop[1004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1101] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 19,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1101,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 19,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1101,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.38,
@@ -18670,27 +18710,28 @@ _G.pg.base.chapter_template_loop[1101] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1102] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 20,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1102,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 20,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1102,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.38,
@@ -19289,27 +19330,28 @@ _G.pg.base.chapter_template_loop[1102] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1103] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 20,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1103,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 20,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1103,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.65,
@@ -19877,27 +19919,28 @@ _G.pg.base.chapter_template_loop[1103] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1104] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 21,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1104,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 21,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1104,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.65,
@@ -20575,27 +20618,28 @@ _G.pg.base.chapter_template_loop[1104] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1201] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 20,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1201,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 20,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1201,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.35,
@@ -21057,27 +21101,28 @@ _G.pg.base.chapter_template_loop[1201] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1202] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 21,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1202,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 21,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1202,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -21651,27 +21696,28 @@ _G.pg.base.chapter_template_loop[1202] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1203] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 21,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1203,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 21,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1203,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -22281,27 +22327,28 @@ _G.pg.base.chapter_template_loop[1203] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1204] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 22,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1204,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 22,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1204,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -23027,27 +23074,28 @@ _G.pg.base.chapter_template_loop[1204] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1301] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 21,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1301,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 21,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1301,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.35,
@@ -23521,27 +23569,28 @@ _G.pg.base.chapter_template_loop[1301] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1302] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 22,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1302,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 22,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1302,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -24120,27 +24169,28 @@ _G.pg.base.chapter_template_loop[1302] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1303] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 22,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1303,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 22,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1303,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -24762,27 +24812,28 @@ _G.pg.base.chapter_template_loop[1303] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1304] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 23,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1304,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 23,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1304,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -25514,27 +25565,28 @@ _G.pg.base.chapter_template_loop[1304] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1401] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 22,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1401,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 22,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1401,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.35,
@@ -26056,27 +26108,28 @@ _G.pg.base.chapter_template_loop[1401] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1402] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 22,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1402,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 22,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1402,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -26709,27 +26762,28 @@ _G.pg.base.chapter_template_loop[1402] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1403] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 23,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1403,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 23,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1403,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -27417,27 +27471,28 @@ _G.pg.base.chapter_template_loop[1403] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1404] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 24,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1404,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 24,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1404,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -28245,28 +28300,29 @@ _G.pg.base.chapter_template_loop[1404] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10101] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 1,
-	model = 1,
-	avoid_ratio = 3,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10101,
+	group_num = 1,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 3,
 	time = 99999999,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10101,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.34,
@@ -28418,28 +28474,29 @@ _G.pg.base.chapter_template_loop[10101] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10102] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 1,
-	model = 1,
-	avoid_ratio = 3,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10102,
+	group_num = 1,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 3,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10102,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.34,
@@ -28665,28 +28722,29 @@ _G.pg.base.chapter_template_loop[10102] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10103] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 1,
-	model = 1,
-	avoid_ratio = 3,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10103,
+	group_num = 1,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 3,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10103,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.52,
@@ -28933,28 +28991,29 @@ _G.pg.base.chapter_template_loop[10103] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10104] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 1,
-	model = 1,
-	avoid_ratio = 4,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10104,
+	group_num = 1,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 4,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10104,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.66,
@@ -29218,28 +29277,29 @@ _G.pg.base.chapter_template_loop[10104] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10201] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 4,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10201,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 4,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10201,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.665,
@@ -29553,28 +29613,29 @@ _G.pg.base.chapter_template_loop[10201] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10202] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 4,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10202,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 4,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10202,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.665,
@@ -29940,28 +30001,29 @@ _G.pg.base.chapter_template_loop[10202] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10203] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 5,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10203,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 5,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10203,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.34,
@@ -30304,28 +30366,29 @@ _G.pg.base.chapter_template_loop[10203] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10204] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 5,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10204,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 5,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10204,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.38,
@@ -30638,28 +30701,29 @@ _G.pg.base.chapter_template_loop[10204] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10301] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 6,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10301,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 6,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10301,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.34,
@@ -30992,28 +31056,29 @@ _G.pg.base.chapter_template_loop[10301] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10302] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 6,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10302,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 6,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10302,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.34,
@@ -31370,28 +31435,29 @@ _G.pg.base.chapter_template_loop[10302] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10303] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 7,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10303,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 7,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10303,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.64,
@@ -31743,28 +31809,29 @@ _G.pg.base.chapter_template_loop[10303] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10304] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 7,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10304,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 7,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10304,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.53,
@@ -32102,28 +32169,29 @@ _G.pg.base.chapter_template_loop[10304] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10401] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 8,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10401,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10401,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.34,
@@ -32498,28 +32566,29 @@ _G.pg.base.chapter_template_loop[10401] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10402] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 8,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10402,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10402,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.4,
@@ -32887,28 +32956,29 @@ _G.pg.base.chapter_template_loop[10402] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10403] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 9,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10403,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10403,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.66,
@@ -33221,28 +33291,29 @@ _G.pg.base.chapter_template_loop[10403] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10404] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 9,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10404,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10404,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.63,
@@ -33691,28 +33762,29 @@ _G.pg.base.chapter_template_loop[10404] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10501] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10501,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10501,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.34,
@@ -34166,28 +34238,29 @@ _G.pg.base.chapter_template_loop[10501] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10502] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10502,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10502,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.66,
@@ -34579,28 +34652,29 @@ _G.pg.base.chapter_template_loop[10502] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10503] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 11,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10503,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10503,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.54,
@@ -34962,28 +35036,29 @@ _G.pg.base.chapter_template_loop[10503] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10504] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 11,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10504,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10504,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.51,
@@ -35370,28 +35445,29 @@ _G.pg.base.chapter_template_loop[10504] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10601] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10601,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10601,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.66,
@@ -35817,28 +35893,29 @@ _G.pg.base.chapter_template_loop[10601] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10602] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10602,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10602,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.55,
@@ -36320,28 +36397,29 @@ _G.pg.base.chapter_template_loop[10602] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10603] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10603,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10603,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.36,
@@ -36747,28 +36825,29 @@ _G.pg.base.chapter_template_loop[10603] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10604] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10604,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10604,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.338,
@@ -37218,28 +37297,29 @@ _G.pg.base.chapter_template_loop[10604] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10701] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10701,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10701,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.66,
@@ -37527,28 +37607,29 @@ _G.pg.base.chapter_template_loop[10701] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10702] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10702,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10702,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.55,
@@ -37939,28 +38020,29 @@ _G.pg.base.chapter_template_loop[10702] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10703] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10703,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10703,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.36,
@@ -38421,28 +38503,29 @@ _G.pg.base.chapter_template_loop[10703] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10704] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10704,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10704,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.338,
@@ -38888,28 +38971,29 @@ _G.pg.base.chapter_template_loop[10704] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10801] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10801,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10801,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.66,
@@ -39219,28 +39303,29 @@ _G.pg.base.chapter_template_loop[10801] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10802] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 17,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10802,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10802,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.55,
@@ -39636,28 +39721,29 @@ _G.pg.base.chapter_template_loop[10802] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10803] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 17,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10803,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10803,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.36,
@@ -40116,28 +40202,29 @@ _G.pg.base.chapter_template_loop[10803] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10804] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 18,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10804,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 18,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10804,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.338,
@@ -40659,28 +40746,29 @@ _G.pg.base.chapter_template_loop[10804] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10901] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 17,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10901,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10901,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.36,
@@ -41082,28 +41170,29 @@ _G.pg.base.chapter_template_loop[10901] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10902] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 18,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10902,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 18,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10902,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.35,
@@ -41543,28 +41632,29 @@ _G.pg.base.chapter_template_loop[10902] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10903] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 18,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10903,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 18,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10903,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.66,
@@ -42028,28 +42118,29 @@ _G.pg.base.chapter_template_loop[10903] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[10904] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 19,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 10904,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 19,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 10904,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.66,
@@ -42535,28 +42626,29 @@ _G.pg.base.chapter_template_loop[10904] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[11001] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 18,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 11001,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 18,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 11001,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.66,
@@ -42976,28 +43068,29 @@ _G.pg.base.chapter_template_loop[11001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[11002] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 19,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 11002,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 19,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 11002,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.55,
@@ -43474,28 +43567,29 @@ _G.pg.base.chapter_template_loop[11002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[11003] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 19,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 11003,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 19,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 11003,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.36,
@@ -43989,28 +44083,29 @@ _G.pg.base.chapter_template_loop[11003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[11004] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 20,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 11004,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 20,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 11004,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.338,
@@ -44518,28 +44613,29 @@ _G.pg.base.chapter_template_loop[11004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[11101] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 19,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 11101,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 19,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 11101,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.38,
@@ -45009,28 +45105,29 @@ _G.pg.base.chapter_template_loop[11101] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[11102] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 20,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 11102,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 20,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 11102,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.38,
@@ -45615,28 +45712,29 @@ _G.pg.base.chapter_template_loop[11102] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[11103] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 20,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 11103,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 20,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 11103,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.65,
@@ -46190,28 +46288,29 @@ _G.pg.base.chapter_template_loop[11103] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[11104] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 21,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 11104,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 21,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 11104,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.65,
@@ -46875,28 +46974,29 @@ _G.pg.base.chapter_template_loop[11104] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[11201] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 20,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 11201,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 20,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 11201,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.35,
@@ -47345,28 +47445,29 @@ _G.pg.base.chapter_template_loop[11201] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[11202] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 21,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 11202,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 21,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 11202,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.66,
@@ -47926,28 +48027,29 @@ _G.pg.base.chapter_template_loop[11202] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[11203] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 21,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 11203,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 21,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 11203,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.66,
@@ -48543,28 +48645,29 @@ _G.pg.base.chapter_template_loop[11203] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[11204] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 22,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 0,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 11204,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 22,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 11204,
+	submarine_num = 0,
 	uifx = "UIhuohua2",
 	scale = {
 		0.66,
@@ -49276,28 +49379,29 @@ _G.pg.base.chapter_template_loop[11204] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1050011] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 9,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1050011,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1050011,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -49775,28 +49879,29 @@ _G.pg.base.chapter_template_loop[1050011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1050012] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1050012,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1050012,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.49,
@@ -50278,28 +50383,29 @@ _G.pg.base.chapter_template_loop[1050012] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1050013] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 11,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1050013,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1050013,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.61,
@@ -50903,29 +51009,30 @@ _G.pg.base.chapter_template_loop[1050013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1070201] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 8,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1070201,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1070201,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -51392,29 +51499,30 @@ _G.pg.base.chapter_template_loop[1070201] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1070202] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 9,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1070202,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1070202,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.49,
@@ -51980,29 +52088,30 @@ _G.pg.base.chapter_template_loop[1070202] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1070203] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1070203,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1070203,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.61,
@@ -52626,28 +52735,29 @@ _G.pg.base.chapter_template_loop[1070203] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1100001] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1100001,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1100001,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -53066,28 +53176,29 @@ _G.pg.base.chapter_template_loop[1100001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1100002] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 11,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1100002,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1100002,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.65,
@@ -53563,28 +53674,29 @@ _G.pg.base.chapter_template_loop[1100002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1100003] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1100003,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1100003,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.64,
@@ -54128,28 +54240,29 @@ _G.pg.base.chapter_template_loop[1100003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1100004] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1100004,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1100004,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -54644,28 +54757,29 @@ _G.pg.base.chapter_template_loop[1100004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1100005] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1100005,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1100005,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -55262,28 +55376,29 @@ _G.pg.base.chapter_template_loop[1100005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1100006] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1100006,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1100006,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.52,
@@ -55874,28 +55989,29 @@ _G.pg.base.chapter_template_loop[1100006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1100011] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1100011,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1100011,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -56357,28 +56473,29 @@ _G.pg.base.chapter_template_loop[1100011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1100012] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1100012,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1100012,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.65,
@@ -56896,28 +57013,29 @@ _G.pg.base.chapter_template_loop[1100012] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1100013] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1100013,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1100013,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.64,
@@ -57504,28 +57622,29 @@ _G.pg.base.chapter_template_loop[1100013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1100014] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1100014,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1100014,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -58062,28 +58181,29 @@ _G.pg.base.chapter_template_loop[1100014] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1100015] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1100015,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1100015,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -58722,28 +58842,29 @@ _G.pg.base.chapter_template_loop[1100015] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1100016] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 17,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1100016,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1100016,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.52,
@@ -59375,28 +59496,29 @@ _G.pg.base.chapter_template_loop[1100016] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000001] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000001,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000001,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -59833,29 +59955,30 @@ _G.pg.base.chapter_template_loop[1000001] = {
 	chapter_strategy = {},
 	alarm_cell = {}
 }
+
 
 _G.pg.base.chapter_template_loop[1000002] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000002,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000002,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -60433,28 +60556,29 @@ _G.pg.base.chapter_template_loop[1000002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000003] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000003,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000003,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -60999,28 +61123,29 @@ _G.pg.base.chapter_template_loop[1000003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000004] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000004,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000004,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.52,
@@ -61683,28 +61808,29 @@ _G.pg.base.chapter_template_loop[1000004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000005] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000005,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000005,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -62162,28 +62288,29 @@ _G.pg.base.chapter_template_loop[1000005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000006] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000006,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000006,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -62649,28 +62776,29 @@ _G.pg.base.chapter_template_loop[1000006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000007] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000007,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000007,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -63191,28 +63319,29 @@ _G.pg.base.chapter_template_loop[1000007] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000008] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000008,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000008,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.52,
@@ -63889,28 +64018,29 @@ _G.pg.base.chapter_template_loop[1000008] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000011] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000011,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000011,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -64389,28 +64519,29 @@ _G.pg.base.chapter_template_loop[1000011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000012] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000012,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000012,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -65031,28 +65162,29 @@ _G.pg.base.chapter_template_loop[1000012] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000013] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000013,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000013,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -65638,28 +65770,29 @@ _G.pg.base.chapter_template_loop[1000013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000014] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 17,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000014,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000014,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.52,
@@ -66363,28 +66496,29 @@ _G.pg.base.chapter_template_loop[1000014] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000015] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000015,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000015,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -66883,28 +67017,29 @@ _G.pg.base.chapter_template_loop[1000015] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000016] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 17,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000016,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000016,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -67411,28 +67546,29 @@ _G.pg.base.chapter_template_loop[1000016] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000017] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 17,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000017,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000017,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -67994,28 +68130,29 @@ _G.pg.base.chapter_template_loop[1000017] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1000018] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 18,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1000018,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 18,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1000018,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.52,
@@ -68733,29 +68870,30 @@ _G.pg.base.chapter_template_loop[1000018] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120001] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120001,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -69192,29 +69330,30 @@ _G.pg.base.chapter_template_loop[1120001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120002] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120002,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -69791,29 +69930,30 @@ _G.pg.base.chapter_template_loop[1120002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120003] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120003,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -70357,29 +70497,30 @@ _G.pg.base.chapter_template_loop[1120003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120004] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120004,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -71041,29 +71182,30 @@ _G.pg.base.chapter_template_loop[1120004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120005] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120005,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -71520,29 +71662,30 @@ _G.pg.base.chapter_template_loop[1120005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120006] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120006,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -72007,29 +72150,30 @@ _G.pg.base.chapter_template_loop[1120006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120007] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120007,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120007,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -72549,29 +72693,30 @@ _G.pg.base.chapter_template_loop[1120007] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120008] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120008,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120008,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -73247,29 +73392,30 @@ _G.pg.base.chapter_template_loop[1120008] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120011] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120011,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120011,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -73747,29 +73893,30 @@ _G.pg.base.chapter_template_loop[1120011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120012] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120012,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120012,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -74389,29 +74536,30 @@ _G.pg.base.chapter_template_loop[1120012] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120013] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120013,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120013,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -74996,29 +75144,30 @@ _G.pg.base.chapter_template_loop[1120013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120014] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 17,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120014,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120014,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -75721,29 +75870,30 @@ _G.pg.base.chapter_template_loop[1120014] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120015] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120015,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120015,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -76241,29 +76391,30 @@ _G.pg.base.chapter_template_loop[1120015] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120016] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 17,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120016,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120016,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -76769,29 +76920,30 @@ _G.pg.base.chapter_template_loop[1120016] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120017] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 17,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120017,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120017,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -77352,29 +77504,30 @@ _G.pg.base.chapter_template_loop[1120017] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1120018] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 18,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1120018,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 18,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1120018,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -78091,28 +78244,29 @@ _G.pg.base.chapter_template_loop[1120018] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1150001] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 8,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1150001,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1150001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -78574,28 +78728,29 @@ _G.pg.base.chapter_template_loop[1150001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1150002] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 9,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1150002,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1150002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.65,
@@ -79118,28 +79273,29 @@ _G.pg.base.chapter_template_loop[1150002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1150003] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1150003,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1150003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.64,
@@ -79752,28 +79908,29 @@ _G.pg.base.chapter_template_loop[1150003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1150004] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 11,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1150004,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1150004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -80325,28 +80482,29 @@ _G.pg.base.chapter_template_loop[1150004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1150005] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1150005,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1150005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -81039,28 +81197,29 @@ _G.pg.base.chapter_template_loop[1150005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1150006] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1150006,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1150006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -81925,28 +82084,29 @@ _G.pg.base.chapter_template_loop[1150006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1150011] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1150011,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1150011,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -82449,28 +82609,29 @@ _G.pg.base.chapter_template_loop[1150011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1150012] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 11,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1150012,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1150012,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.65,
@@ -83034,28 +83195,29 @@ _G.pg.base.chapter_template_loop[1150012] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1150013] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1150013,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1150013,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.64,
@@ -83709,28 +83871,29 @@ _G.pg.base.chapter_template_loop[1150013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1150014] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1150014,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1150014,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -84323,28 +84486,29 @@ _G.pg.base.chapter_template_loop[1150014] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1150015] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1150015,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1150015,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -85078,28 +85242,29 @@ _G.pg.base.chapter_template_loop[1150015] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1150016] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1150016,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1150016,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -86005,27 +86170,28 @@ _G.pg.base.chapter_template_loop[1150016] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1180001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1180001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1180001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -86509,27 +86675,28 @@ _G.pg.base.chapter_template_loop[1180001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1180002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1180002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1180002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -86984,27 +87151,28 @@ _G.pg.base.chapter_template_loop[1180002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1180003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1180003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1180003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -87551,27 +87719,28 @@ _G.pg.base.chapter_template_loop[1180003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1180004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1180004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1180004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -88124,27 +88293,28 @@ _G.pg.base.chapter_template_loop[1180004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1180005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1180005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1180005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -88740,27 +88910,28 @@ _G.pg.base.chapter_template_loop[1180005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1180006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1180006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1180006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -89322,27 +89493,28 @@ _G.pg.base.chapter_template_loop[1180006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1180011] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1180011,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1180011,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -89868,27 +90040,28 @@ _G.pg.base.chapter_template_loop[1180011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1180012] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1180012,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1180012,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -90385,27 +90558,28 @@ _G.pg.base.chapter_template_loop[1180012] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1180013] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1180013,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1180013,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -90994,27 +91168,28 @@ _G.pg.base.chapter_template_loop[1180013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1180014] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1180014,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1180014,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -91609,27 +91784,28 @@ _G.pg.base.chapter_template_loop[1180014] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1180015] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1180015,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1180015,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -92269,27 +92445,28 @@ _G.pg.base.chapter_template_loop[1180015] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1180016] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1180016,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1180016,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -92895,28 +93072,29 @@ _G.pg.base.chapter_template_loop[1180016] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1190001] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 8,
-	avoid_ratio = 8,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1190001,
+	group_num = 2,
+	fightauto = 1,
+	model = 8,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1190001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -93293,28 +93471,29 @@ _G.pg.base.chapter_template_loop[1190001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1190002] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 8,
-	avoid_ratio = 9,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1190002,
+	group_num = 2,
+	fightauto = 1,
+	model = 8,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1190002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.65,
@@ -93753,28 +93932,29 @@ _G.pg.base.chapter_template_loop[1190002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1190003] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 8,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1190003,
+	group_num = 2,
+	fightauto = 1,
+	model = 8,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1190003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.64,
@@ -94303,28 +94483,29 @@ _G.pg.base.chapter_template_loop[1190003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1190004] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 8,
-	avoid_ratio = 11,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1190004,
+	group_num = 2,
+	fightauto = 1,
+	model = 8,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1190004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -94876,28 +95057,29 @@ _G.pg.base.chapter_template_loop[1190004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1190005] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 8,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1190005,
+	group_num = 2,
+	fightauto = 1,
+	model = 8,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1190005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -95467,28 +95649,29 @@ _G.pg.base.chapter_template_loop[1190005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1190006] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 8,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1190006,
+	group_num = 2,
+	fightauto = 1,
+	model = 8,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1190006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -96233,28 +96416,29 @@ _G.pg.base.chapter_template_loop[1190006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1190011] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 8,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1190011,
+	group_num = 2,
+	fightauto = 1,
+	model = 8,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1190011,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -96672,28 +96856,29 @@ _G.pg.base.chapter_template_loop[1190011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1190012] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 8,
-	avoid_ratio = 11,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1190012,
+	group_num = 2,
+	fightauto = 1,
+	model = 8,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1190012,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.65,
@@ -97173,28 +97358,29 @@ _G.pg.base.chapter_template_loop[1190012] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1190013] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 8,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1190013,
+	group_num = 2,
+	fightauto = 1,
+	model = 8,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1190013,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.64,
@@ -97764,28 +97950,29 @@ _G.pg.base.chapter_template_loop[1190013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1190014] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 8,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1190014,
+	group_num = 2,
+	fightauto = 1,
+	model = 8,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1190014,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -98378,28 +98565,29 @@ _G.pg.base.chapter_template_loop[1190014] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1190015] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 8,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1190015,
+	group_num = 2,
+	fightauto = 1,
+	model = 8,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1190015,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -99010,28 +99198,29 @@ _G.pg.base.chapter_template_loop[1190015] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1190016] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 8,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1190016,
+	group_num = 2,
+	fightauto = 1,
+	model = 8,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1190016,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -99817,27 +100006,28 @@ _G.pg.base.chapter_template_loop[1190016] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1200002] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 15,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1200002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 15,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1200002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -100442,27 +100632,28 @@ _G.pg.base.chapter_template_loop[1200002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1200003] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 18,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1200003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 18,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1200003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -101076,27 +101267,28 @@ _G.pg.base.chapter_template_loop[1200003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1200004] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 21,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1200004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 21,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1200004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -101705,28 +101897,29 @@ _G.pg.base.chapter_template_loop[1200004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1210001] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 8,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1210001,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1210001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -102211,28 +102404,29 @@ _G.pg.base.chapter_template_loop[1210001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1210002] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 9,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1210002,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1210002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -102681,28 +102875,29 @@ _G.pg.base.chapter_template_loop[1210002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1210003] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1210003,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1210003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -103249,28 +103444,29 @@ _G.pg.base.chapter_template_loop[1210003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1210004] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1210004,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1210004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -103816,28 +104012,29 @@ _G.pg.base.chapter_template_loop[1210004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1210005] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 11,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1210005,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1210005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -104433,28 +104630,29 @@ _G.pg.base.chapter_template_loop[1210005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1210006] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1210006,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1210006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -105111,28 +105309,29 @@ _G.pg.base.chapter_template_loop[1210006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1210011] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1210011,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1210011,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -105659,28 +105858,29 @@ _G.pg.base.chapter_template_loop[1210011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1210012] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1210012,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1210012,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -106171,28 +106371,29 @@ _G.pg.base.chapter_template_loop[1210012] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1210013] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1210013,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1210013,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -106781,28 +106982,29 @@ _G.pg.base.chapter_template_loop[1210013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1210014] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1210014,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1210014,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -107390,28 +107592,29 @@ _G.pg.base.chapter_template_loop[1210014] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1210015] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1210015,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1210015,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -108051,28 +108254,29 @@ _G.pg.base.chapter_template_loop[1210015] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1210016] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1210016,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1210016,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -108773,27 +108977,28 @@ _G.pg.base.chapter_template_loop[1210016] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1230001] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1230001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1230001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -109243,27 +109448,28 @@ _G.pg.base.chapter_template_loop[1230001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1230002] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1230002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1230002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -109720,27 +109926,28 @@ _G.pg.base.chapter_template_loop[1230002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1230003] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1230003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1230003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -110282,27 +110489,28 @@ _G.pg.base.chapter_template_loop[1230003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1230004] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1230004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1230004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -110849,27 +111057,28 @@ _G.pg.base.chapter_template_loop[1230004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1230005] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1230005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1230005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -111459,27 +111668,28 @@ _G.pg.base.chapter_template_loop[1230005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1230006] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1230006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1230006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -112035,27 +112245,28 @@ _G.pg.base.chapter_template_loop[1230006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1230011] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1230011,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1230011,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -112547,27 +112758,28 @@ _G.pg.base.chapter_template_loop[1230011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1230012] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1230012,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1230012,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -113066,27 +113278,28 @@ _G.pg.base.chapter_template_loop[1230012] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1230013] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1230013,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1230013,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -113670,27 +113883,28 @@ _G.pg.base.chapter_template_loop[1230013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1230014] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1230014,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1230014,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -114279,27 +114493,28 @@ _G.pg.base.chapter_template_loop[1230014] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1230015] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1230015,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1230015,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -114933,27 +115148,28 @@ _G.pg.base.chapter_template_loop[1230015] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1230016] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1230016,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1230016,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -115553,26 +115769,27 @@ _G.pg.base.chapter_template_loop[1230016] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1230017] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1230017,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1230017,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -116145,28 +116362,29 @@ _G.pg.base.chapter_template_loop[1230017] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1240001] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 8,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1240001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1240001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -116592,28 +116810,29 @@ _G.pg.base.chapter_template_loop[1240001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1240003] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 9,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1240003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1240003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -117145,28 +117364,29 @@ _G.pg.base.chapter_template_loop[1240003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1240004] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1240004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1240004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -117810,28 +118030,29 @@ _G.pg.base.chapter_template_loop[1240004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1240005] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1240005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1240005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -118269,28 +118490,29 @@ _G.pg.base.chapter_template_loop[1240005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1240007] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 11,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1240007,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1240007,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -118834,28 +119056,29 @@ _G.pg.base.chapter_template_loop[1240007] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1240008] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1240008,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1240008,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -119521,28 +119744,29 @@ _G.pg.base.chapter_template_loop[1240008] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1240011] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1240011,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1240011,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -120009,28 +120233,29 @@ _G.pg.base.chapter_template_loop[1240011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1240013] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1240013,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1240013,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -120603,28 +120828,29 @@ _G.pg.base.chapter_template_loop[1240013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1240014] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1240014,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1240014,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -121309,28 +121535,29 @@ _G.pg.base.chapter_template_loop[1240014] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1240015] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1240015,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1240015,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -121811,28 +122038,29 @@ _G.pg.base.chapter_template_loop[1240015] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1240017] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1240017,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1240017,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -122419,28 +122647,29 @@ _G.pg.base.chapter_template_loop[1240017] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1240018] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1240018,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1240018,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -123149,27 +123378,28 @@ _G.pg.base.chapter_template_loop[1240018] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1250001] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 10,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1250001,
+	group_num = 2,
+	fightauto = 1,
+	model = 10,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1250001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -123632,27 +123862,28 @@ _G.pg.base.chapter_template_loop[1250001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1250002] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 10,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1250002,
+	group_num = 2,
+	fightauto = 1,
+	model = 10,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1250002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -124164,27 +124395,28 @@ _G.pg.base.chapter_template_loop[1250002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1250003] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 10,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1250003,
+	group_num = 2,
+	fightauto = 1,
+	model = 10,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1250003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -124793,27 +125025,28 @@ _G.pg.base.chapter_template_loop[1250003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1250004] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1250004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1250004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -125319,27 +125552,28 @@ _G.pg.base.chapter_template_loop[1250004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1250005] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1250005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1250005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -125888,27 +126122,28 @@ _G.pg.base.chapter_template_loop[1250005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1250006] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1250006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1250006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -126423,27 +126658,28 @@ _G.pg.base.chapter_template_loop[1250006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1250011] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 10,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1250011,
+	group_num = 2,
+	fightauto = 1,
+	model = 10,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1250011,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -126948,27 +127184,28 @@ _G.pg.base.chapter_template_loop[1250011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1250012] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 10,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1250012,
+	group_num = 2,
+	fightauto = 1,
+	model = 10,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1250012,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -127522,27 +127759,28 @@ _G.pg.base.chapter_template_loop[1250012] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1250013] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 10,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1250013,
+	group_num = 2,
+	fightauto = 1,
+	model = 10,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1250013,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -128188,27 +128426,28 @@ _G.pg.base.chapter_template_loop[1250013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1250014] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1250014,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1250014,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -128756,27 +128995,28 @@ _G.pg.base.chapter_template_loop[1250014] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1250015] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1250015,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1250015,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -129369,27 +129609,28 @@ _G.pg.base.chapter_template_loop[1250015] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1250016] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1250016,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1250016,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -129948,27 +130189,28 @@ _G.pg.base.chapter_template_loop[1250016] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1260001] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1260001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1260001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -130425,27 +130667,28 @@ _G.pg.base.chapter_template_loop[1260001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1260002] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 10,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1260002,
+	group_num = 2,
+	fightauto = 1,
+	model = 10,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1260002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -130922,27 +131165,28 @@ _G.pg.base.chapter_template_loop[1260002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1260003] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 10,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1260003,
+	group_num = 2,
+	fightauto = 1,
+	model = 10,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1260003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -131509,27 +131753,28 @@ _G.pg.base.chapter_template_loop[1260003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1260006] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1260006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1260006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -132020,27 +132265,28 @@ _G.pg.base.chapter_template_loop[1260006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1260007] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1260007,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1260007,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -132573,27 +132819,28 @@ _G.pg.base.chapter_template_loop[1260007] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1260008] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1260008,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1260008,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -133085,27 +133332,28 @@ _G.pg.base.chapter_template_loop[1260008] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1260021] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1260021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1260021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -133604,27 +133852,28 @@ _G.pg.base.chapter_template_loop[1260021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1260022] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 10,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1260022,
+	group_num = 2,
+	fightauto = 1,
+	model = 10,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1260022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -134141,27 +134390,28 @@ _G.pg.base.chapter_template_loop[1260022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1260023] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 10,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1260023,
+	group_num = 2,
+	fightauto = 1,
+	model = 10,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1260023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -134769,27 +135019,28 @@ _G.pg.base.chapter_template_loop[1260023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1260026] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1260026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1260026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -135321,27 +135572,28 @@ _G.pg.base.chapter_template_loop[1260026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1260027] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1260027,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1260027,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -135918,27 +136170,28 @@ _G.pg.base.chapter_template_loop[1260027] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1260028] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1260028,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1260028,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -136473,27 +136726,28 @@ _G.pg.base.chapter_template_loop[1260028] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1260031] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1260031,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1260031,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -137064,27 +137318,28 @@ _G.pg.base.chapter_template_loop[1260031] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1270001] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1270001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1270001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -137539,27 +137794,28 @@ _G.pg.base.chapter_template_loop[1270001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1270002] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1270002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1270002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -138119,27 +138375,28 @@ _G.pg.base.chapter_template_loop[1270002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1270003] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1270003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1270003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -138658,27 +138915,28 @@ _G.pg.base.chapter_template_loop[1270003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1280001] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1280001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1280001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -139156,27 +139414,28 @@ _G.pg.base.chapter_template_loop[1280001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1280002] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1280002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1280002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -139746,27 +140005,28 @@ _G.pg.base.chapter_template_loop[1280002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1280003] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1280003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1280003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -140337,27 +140597,28 @@ _G.pg.base.chapter_template_loop[1280003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1280004] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1280004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1280004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -140929,27 +141190,28 @@ _G.pg.base.chapter_template_loop[1280004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1280005] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1280005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1280005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -141516,27 +141778,28 @@ _G.pg.base.chapter_template_loop[1280005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1300001] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1300001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1300001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -141993,27 +142256,28 @@ _G.pg.base.chapter_template_loop[1300001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1300002] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1300002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1300002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -142483,27 +142747,28 @@ _G.pg.base.chapter_template_loop[1300002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1300003] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1300003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1300003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -142996,27 +143261,28 @@ _G.pg.base.chapter_template_loop[1300003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1300004] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1300004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1300004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -143522,27 +143788,28 @@ _G.pg.base.chapter_template_loop[1300004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1300005] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1300005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1300005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -144097,27 +144364,28 @@ _G.pg.base.chapter_template_loop[1300005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1300006] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1300006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1300006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -144631,27 +144899,28 @@ _G.pg.base.chapter_template_loop[1300006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1300021] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1300021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1300021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -145150,27 +145419,28 @@ _G.pg.base.chapter_template_loop[1300021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1300022] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1300022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1300022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -145683,27 +145953,28 @@ _G.pg.base.chapter_template_loop[1300022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1300023] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1300023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1300023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -146239,27 +146510,28 @@ _G.pg.base.chapter_template_loop[1300023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1300024] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1300024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1300024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -146807,27 +147079,28 @@ _G.pg.base.chapter_template_loop[1300024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1300025] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1300025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1300025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -147426,27 +147699,28 @@ _G.pg.base.chapter_template_loop[1300025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1300026] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1300026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1300026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -148004,27 +148278,28 @@ _G.pg.base.chapter_template_loop[1300026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1300041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1300041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1300041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -148618,27 +148893,28 @@ _G.pg.base.chapter_template_loop[1300041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1310001] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1310001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1310001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -149106,27 +149382,28 @@ _G.pg.base.chapter_template_loop[1310001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1310002] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1310002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1310002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -149581,27 +149858,28 @@ _G.pg.base.chapter_template_loop[1310002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1310003] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1310003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1310003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -150094,27 +150372,28 @@ _G.pg.base.chapter_template_loop[1310003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1310004] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1310004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1310004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -150627,27 +150906,28 @@ _G.pg.base.chapter_template_loop[1310004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1310005] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1310005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1310005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -151105,27 +151385,28 @@ _G.pg.base.chapter_template_loop[1310005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1310006] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1310006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1310006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -151638,27 +151919,28 @@ _G.pg.base.chapter_template_loop[1310006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1310021] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1310021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1310021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -152169,27 +152451,28 @@ _G.pg.base.chapter_template_loop[1310021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1310022] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1310022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1310022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -152687,27 +152970,28 @@ _G.pg.base.chapter_template_loop[1310022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1310023] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1310023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1310023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -153242,27 +153526,28 @@ _G.pg.base.chapter_template_loop[1310023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1310024] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1310024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1310024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -153817,27 +154102,28 @@ _G.pg.base.chapter_template_loop[1310024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1310025] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1310025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1310025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -154339,27 +154625,28 @@ _G.pg.base.chapter_template_loop[1310025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1310026] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1310026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1310026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -154916,27 +155203,28 @@ _G.pg.base.chapter_template_loop[1310026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1310041] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1310041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1310041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -155518,28 +155806,29 @@ _G.pg.base.chapter_template_loop[1310041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1320001] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1320001,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1320001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -155948,28 +156237,29 @@ _G.pg.base.chapter_template_loop[1320001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1320002] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1320002,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1320002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -156439,28 +156729,29 @@ _G.pg.base.chapter_template_loop[1320002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1320003] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1320003,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1320003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -156969,26 +157260,27 @@ _G.pg.base.chapter_template_loop[1320003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1330001] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1330001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1330001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -157417,26 +157709,27 @@ _G.pg.base.chapter_template_loop[1330001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1330002] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1330002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1330002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -157894,26 +158187,27 @@ _G.pg.base.chapter_template_loop[1330002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1330003] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1330003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1330003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -158391,26 +158685,27 @@ _G.pg.base.chapter_template_loop[1330003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1330004] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1330004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1330004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -158925,26 +159220,27 @@ _G.pg.base.chapter_template_loop[1330004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1330005] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1330005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1330005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -159447,26 +159743,27 @@ _G.pg.base.chapter_template_loop[1330005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1330006] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1330006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1330006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -160037,26 +160334,27 @@ _G.pg.base.chapter_template_loop[1330006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1330021] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1330021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1330021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -160527,26 +160825,27 @@ _G.pg.base.chapter_template_loop[1330021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1330022] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1330022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1330022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -161046,26 +161345,27 @@ _G.pg.base.chapter_template_loop[1330022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1330023] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1330023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1330023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -161586,26 +161886,27 @@ _G.pg.base.chapter_template_loop[1330023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1330024] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1330024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1330024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -162162,26 +162463,27 @@ _G.pg.base.chapter_template_loop[1330024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1330025] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1330025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1330025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -162728,26 +163030,27 @@ _G.pg.base.chapter_template_loop[1330025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1330026] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1330026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1330026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -163362,26 +163665,27 @@ _G.pg.base.chapter_template_loop[1330026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1330041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1330041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
-	id = 1330041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -163885,27 +164189,28 @@ _G.pg.base.chapter_template_loop[1330041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1350001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1350001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1350001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -164400,27 +164705,28 @@ _G.pg.base.chapter_template_loop[1350001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1350002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1350002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1350002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -164975,27 +165281,28 @@ _G.pg.base.chapter_template_loop[1350002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1350003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1350003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1350003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -165547,26 +165854,27 @@ _G.pg.base.chapter_template_loop[1350003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1360001] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1360001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1360001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -166033,26 +166341,27 @@ _G.pg.base.chapter_template_loop[1360001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1360002] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1360002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1360002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -166548,26 +166857,27 @@ _G.pg.base.chapter_template_loop[1360002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1360003] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1360003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1360003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -167075,26 +167385,27 @@ _G.pg.base.chapter_template_loop[1360003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1360004] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1360004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1360004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -167592,26 +167903,27 @@ _G.pg.base.chapter_template_loop[1360004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1360005] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1360005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1360005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -168411,26 +168723,27 @@ _G.pg.base.chapter_template_loop[1360005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1360006] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1360006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1360006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -169898,26 +170211,27 @@ _G.pg.base.chapter_template_loop[1360006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1360021] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1360021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1360021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -170426,26 +170740,27 @@ _G.pg.base.chapter_template_loop[1360021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1360022] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1360022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1360022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -170983,26 +171298,27 @@ _G.pg.base.chapter_template_loop[1360022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1360023] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1360023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1360023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -171553,26 +171869,27 @@ _G.pg.base.chapter_template_loop[1360023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1360024] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1360024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1360024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -172111,26 +172428,27 @@ _G.pg.base.chapter_template_loop[1360024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1360025] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1360025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1360025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -172973,26 +173291,27 @@ _G.pg.base.chapter_template_loop[1360025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1360026] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1360026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1360026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -174503,26 +174822,27 @@ _G.pg.base.chapter_template_loop[1360026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1360041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1360041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1360041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -175581,27 +175901,28 @@ _G.pg.base.chapter_template_loop[1360041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1370001] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1370001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1370001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -176229,27 +176550,28 @@ _G.pg.base.chapter_template_loop[1370001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1370002] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1370002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1370002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -176884,27 +177206,28 @@ _G.pg.base.chapter_template_loop[1370002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1370003] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1370003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1370003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -177534,26 +177857,27 @@ _G.pg.base.chapter_template_loop[1370003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1380001] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1380001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1380001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -178112,26 +178436,27 @@ _G.pg.base.chapter_template_loop[1380001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1380002] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1380002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1380002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -178674,26 +178999,27 @@ _G.pg.base.chapter_template_loop[1380002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1380003] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1380003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1380003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -179257,26 +179583,27 @@ _G.pg.base.chapter_template_loop[1380003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1380004] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1380004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1380004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -179897,26 +180224,27 @@ _G.pg.base.chapter_template_loop[1380004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1380005] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1380005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1380005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -180562,26 +180890,27 @@ _G.pg.base.chapter_template_loop[1380005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1380006] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1380006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1380006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -181321,26 +181650,27 @@ _G.pg.base.chapter_template_loop[1380006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1380021] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1380021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1380021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -181940,26 +182270,27 @@ _G.pg.base.chapter_template_loop[1380021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1380022] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1380022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1380022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -182543,26 +182874,27 @@ _G.pg.base.chapter_template_loop[1380022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1380023] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1380023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1380023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -183167,26 +183499,27 @@ _G.pg.base.chapter_template_loop[1380023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1380024] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1380024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1380024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -183848,26 +184181,27 @@ _G.pg.base.chapter_template_loop[1380024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1380025] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1380025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1380025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -184556,26 +184890,27 @@ _G.pg.base.chapter_template_loop[1380025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1380026] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1380026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1380026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -185358,27 +185693,28 @@ _G.pg.base.chapter_template_loop[1380026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1380041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1380041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1380041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -186420,26 +186756,27 @@ _G.pg.base.chapter_template_loop[1380041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1410001] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1410001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1410001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -187111,26 +187448,27 @@ _G.pg.base.chapter_template_loop[1410001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1410002] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1410002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1410002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -187661,26 +187999,27 @@ _G.pg.base.chapter_template_loop[1410002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1410003] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1410003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1410003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -188361,26 +188700,27 @@ _G.pg.base.chapter_template_loop[1410003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1410004] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1410004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1410004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -189213,26 +189553,27 @@ _G.pg.base.chapter_template_loop[1410004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1410005] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1410005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1410005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -189943,26 +190284,27 @@ _G.pg.base.chapter_template_loop[1410005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1410006] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1410006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1410006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -190861,26 +191203,27 @@ _G.pg.base.chapter_template_loop[1410006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1410021] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1410021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1410021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -191593,26 +191936,27 @@ _G.pg.base.chapter_template_loop[1410021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1410022] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1410022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1410022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -192185,26 +192529,27 @@ _G.pg.base.chapter_template_loop[1410022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1410023] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1410023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1410023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -192927,26 +193272,27 @@ _G.pg.base.chapter_template_loop[1410023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1410024] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1410024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1410024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -193820,26 +194166,27 @@ _G.pg.base.chapter_template_loop[1410024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1410025] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1410025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1410025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -194593,26 +194940,27 @@ _G.pg.base.chapter_template_loop[1410025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1410026] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 1410026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1410026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -195555,26 +195903,27 @@ _G.pg.base.chapter_template_loop[1410026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1410041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1410041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1410041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -196476,27 +196825,28 @@ _G.pg.base.chapter_template_loop[1410041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1420001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1420001,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1420001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -196980,27 +197330,28 @@ _G.pg.base.chapter_template_loop[1420001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1420002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1420002,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1420002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -197496,27 +197847,28 @@ _G.pg.base.chapter_template_loop[1420002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1420003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1420003,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1420003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -198009,26 +198361,27 @@ _G.pg.base.chapter_template_loop[1420003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1430001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "LiveStart",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1430001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1430001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -198502,26 +198855,27 @@ _G.pg.base.chapter_template_loop[1430001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1430002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "LiveStart",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1430002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1430002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -199080,26 +199434,27 @@ _G.pg.base.chapter_template_loop[1430002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1430003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "LiveStart",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1430003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1430003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -199665,26 +200020,27 @@ _G.pg.base.chapter_template_loop[1430003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1430004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "LiveStart",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1430004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1430004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -200265,26 +200621,27 @@ _G.pg.base.chapter_template_loop[1430004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1430005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "LiveStart",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1430005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 1430005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -201077,26 +201434,27 @@ _G.pg.base.chapter_template_loop[1430005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1430041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1430041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1430041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -201654,26 +202012,27 @@ _G.pg.base.chapter_template_loop[1430041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1450001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 11,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1450001,
+	group_num = 2,
+	fightauto = 1,
+	model = 11,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1450001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -202178,27 +202537,28 @@ _G.pg.base.chapter_template_loop[1450001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1450002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 11,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1450002,
+	group_num = 2,
+	fightauto = 1,
+	model = 11,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1450002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -202758,27 +203118,28 @@ _G.pg.base.chapter_template_loop[1450002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1450003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 11,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1450003,
+	group_num = 2,
+	fightauto = 1,
+	model = 11,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1450003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -203339,27 +203700,28 @@ _G.pg.base.chapter_template_loop[1450003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1450004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 11,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1450004,
+	group_num = 2,
+	fightauto = 1,
+	model = 11,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1450004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -203997,26 +204359,27 @@ _G.pg.base.chapter_template_loop[1450004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1450041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 11,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1450041,
+	group_num = 2,
+	fightauto = 1,
+	model = 11,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1450041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -204567,26 +204930,27 @@ _G.pg.base.chapter_template_loop[1450041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1460001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1460001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1460001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -205147,26 +205511,27 @@ _G.pg.base.chapter_template_loop[1460001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1460002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1460002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1460002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -205717,26 +206082,27 @@ _G.pg.base.chapter_template_loop[1460002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1460003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1460003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1460003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -206279,26 +206645,27 @@ _G.pg.base.chapter_template_loop[1460003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1460004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1460004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1460004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -206936,26 +207303,27 @@ _G.pg.base.chapter_template_loop[1460004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1460005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1460005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1460005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -207638,26 +208006,27 @@ _G.pg.base.chapter_template_loop[1460005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1460006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1460006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1460006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -208505,26 +208874,27 @@ _G.pg.base.chapter_template_loop[1460006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1460021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1460021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1460021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -209126,26 +209496,27 @@ _G.pg.base.chapter_template_loop[1460021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1460022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1460022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1460022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -209737,26 +210108,27 @@ _G.pg.base.chapter_template_loop[1460022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1460023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1460023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1460023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -210342,26 +210714,27 @@ _G.pg.base.chapter_template_loop[1460023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1460024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1460024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1460024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -211040,26 +211413,27 @@ _G.pg.base.chapter_template_loop[1460024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1460025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1460025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1460025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -211785,26 +212159,27 @@ _G.pg.base.chapter_template_loop[1460025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1460026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1460026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1460026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -212695,26 +213070,27 @@ _G.pg.base.chapter_template_loop[1460026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1460041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1460041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1460041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -213765,26 +214141,27 @@ _G.pg.base.chapter_template_loop[1460041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1480001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1480001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1480001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -214341,26 +214718,27 @@ _G.pg.base.chapter_template_loop[1480001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1480002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1480002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1480002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -214931,26 +215309,27 @@ _G.pg.base.chapter_template_loop[1480002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1480003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1480003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1480003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -215732,26 +216111,27 @@ _G.pg.base.chapter_template_loop[1480003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1480004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1480004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1480004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -216416,26 +216796,27 @@ _G.pg.base.chapter_template_loop[1480004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1480005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1480005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1480005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -217123,26 +217504,27 @@ _G.pg.base.chapter_template_loop[1480005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1480006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1480006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1480006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -217930,26 +218312,27 @@ _G.pg.base.chapter_template_loop[1480006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1480021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1480021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1480021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -218548,26 +218931,27 @@ _G.pg.base.chapter_template_loop[1480021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1480022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1480022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1480022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -219180,26 +219564,27 @@ _G.pg.base.chapter_template_loop[1480022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1480023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1480023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1480023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -220024,26 +220409,27 @@ _G.pg.base.chapter_template_loop[1480023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1480024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1480024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1480024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -220749,26 +221135,27 @@ _G.pg.base.chapter_template_loop[1480024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1480025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1480025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1480025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -221499,26 +221886,27 @@ _G.pg.base.chapter_template_loop[1480025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1480026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1480026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1480026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -222349,26 +222737,27 @@ _G.pg.base.chapter_template_loop[1480026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1480041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1480041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1480041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -223071,26 +223460,27 @@ _G.pg.base.chapter_template_loop[1480041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1500001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1500001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1500001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -223640,26 +224030,27 @@ _G.pg.base.chapter_template_loop[1500001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1500002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1500002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1500002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -224230,26 +224621,27 @@ _G.pg.base.chapter_template_loop[1500002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1500003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1500003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1500003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -224929,26 +225321,27 @@ _G.pg.base.chapter_template_loop[1500003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1500004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1500004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1500004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -225658,26 +226051,27 @@ _G.pg.base.chapter_template_loop[1500004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1500005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1500005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1500005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -226400,26 +226794,27 @@ _G.pg.base.chapter_template_loop[1500005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1500006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1500006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1500006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -227131,26 +227526,27 @@ _G.pg.base.chapter_template_loop[1500006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1500021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1500021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1500021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -227742,26 +228138,27 @@ _G.pg.base.chapter_template_loop[1500021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1500022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1500022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1500022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -228374,26 +228771,27 @@ _G.pg.base.chapter_template_loop[1500022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1500023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1500023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1500023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -229116,26 +229514,27 @@ _G.pg.base.chapter_template_loop[1500023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1500024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1500024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1500024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -229887,26 +230286,27 @@ _G.pg.base.chapter_template_loop[1500024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1500025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1500025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1500025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -230673,26 +231073,27 @@ _G.pg.base.chapter_template_loop[1500025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1500026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1500026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1500026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -231447,26 +231848,27 @@ _G.pg.base.chapter_template_loop[1500026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1500041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1500041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1500041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -232159,26 +232561,27 @@ _G.pg.base.chapter_template_loop[1500041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1520001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1520001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1520001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -232744,26 +233147,27 @@ _G.pg.base.chapter_template_loop[1520001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1520002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1520002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1520002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -233349,26 +233753,27 @@ _G.pg.base.chapter_template_loop[1520002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1520003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1520003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1520003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -234071,26 +234476,27 @@ _G.pg.base.chapter_template_loop[1520003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1520004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1520004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1520004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -234781,26 +235187,27 @@ _G.pg.base.chapter_template_loop[1520004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1520005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1520005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1520005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -235505,26 +235912,27 @@ _G.pg.base.chapter_template_loop[1520005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1520006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1520006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1520006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -236230,26 +236638,27 @@ _G.pg.base.chapter_template_loop[1520006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1520021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1520021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1520021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -236857,26 +237266,27 @@ _G.pg.base.chapter_template_loop[1520021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1520022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1520022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1520022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -237504,26 +237914,27 @@ _G.pg.base.chapter_template_loop[1520022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1520023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1520023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1520023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -238269,26 +238680,27 @@ _G.pg.base.chapter_template_loop[1520023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1520024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1520024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1520024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -239021,26 +239433,27 @@ _G.pg.base.chapter_template_loop[1520024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1520025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1520025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1520025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -239789,26 +240202,27 @@ _G.pg.base.chapter_template_loop[1520025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1520026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1520026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1520026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -240557,26 +240971,27 @@ _G.pg.base.chapter_template_loop[1520026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1520041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1520041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1520041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -241286,26 +241701,27 @@ _G.pg.base.chapter_template_loop[1520041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1540001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 11,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1540001,
+	group_num = 2,
+	fightauto = 1,
+	model = 11,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1540001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -241817,27 +242233,28 @@ _G.pg.base.chapter_template_loop[1540001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1540002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 11,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1540002,
+	group_num = 2,
+	fightauto = 1,
+	model = 11,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1540002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -242403,27 +242820,28 @@ _G.pg.base.chapter_template_loop[1540002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1540003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 11,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1540003,
+	group_num = 2,
+	fightauto = 1,
+	model = 11,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1540003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -242990,27 +243408,28 @@ _G.pg.base.chapter_template_loop[1540003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1540004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 11,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1540004,
+	group_num = 2,
+	fightauto = 1,
+	model = 11,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1540004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -243655,26 +244074,27 @@ _G.pg.base.chapter_template_loop[1540004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1560001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1560001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1560001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -244189,26 +244609,27 @@ _G.pg.base.chapter_template_loop[1560001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1560002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1560002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1560002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -244781,26 +245202,27 @@ _G.pg.base.chapter_template_loop[1560002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1560003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1560003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1560003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -245524,26 +245946,27 @@ _G.pg.base.chapter_template_loop[1560003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1560004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1560004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1560004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -246235,26 +246658,27 @@ _G.pg.base.chapter_template_loop[1560004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1560005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1560005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1560005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -246967,26 +247391,27 @@ _G.pg.base.chapter_template_loop[1560005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1560006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1560006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1560006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -247782,26 +248207,27 @@ _G.pg.base.chapter_template_loop[1560006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1560021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1560021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1560021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -248358,26 +248784,27 @@ _G.pg.base.chapter_template_loop[1560021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1560022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1560022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1560022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -248992,26 +249419,27 @@ _G.pg.base.chapter_template_loop[1560022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1560023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1560023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1560023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -249778,26 +250206,27 @@ _G.pg.base.chapter_template_loop[1560023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1560024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1560024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1560024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -250531,26 +250960,27 @@ _G.pg.base.chapter_template_loop[1560024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1560025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1560025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1560025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -251307,26 +251737,27 @@ _G.pg.base.chapter_template_loop[1560025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1560026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1560026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1560026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -252165,26 +252596,27 @@ _G.pg.base.chapter_template_loop[1560026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1560041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1560041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1560041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -252845,27 +253277,28 @@ _G.pg.base.chapter_template_loop[1560041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1580001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1580001,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1580001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -253366,27 +253799,28 @@ _G.pg.base.chapter_template_loop[1580001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1580002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1580002,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1580002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -253936,27 +254370,28 @@ _G.pg.base.chapter_template_loop[1580002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1580003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1580003,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1580003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -254562,27 +254997,28 @@ _G.pg.base.chapter_template_loop[1580003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1590001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1590001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1590001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -255086,27 +255522,28 @@ _G.pg.base.chapter_template_loop[1590001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1590002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1590002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1590002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -255661,27 +256098,28 @@ _G.pg.base.chapter_template_loop[1590002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1590003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1590003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1590003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -256244,27 +256682,28 @@ _G.pg.base.chapter_template_loop[1590003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1590004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1590004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1590004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -256943,26 +257382,27 @@ _G.pg.base.chapter_template_loop[1590004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1590041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1590041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1590041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -257581,26 +258021,27 @@ _G.pg.base.chapter_template_loop[1590041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1600001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1600001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1600001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -258103,26 +258544,27 @@ _G.pg.base.chapter_template_loop[1600001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1600002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1600002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1600002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -258686,26 +259128,27 @@ _G.pg.base.chapter_template_loop[1600002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1600003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1600003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1600003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -259400,26 +259843,27 @@ _G.pg.base.chapter_template_loop[1600003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1600004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1600004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1600004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -260094,26 +260538,27 @@ _G.pg.base.chapter_template_loop[1600004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1600005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1600005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1600005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -260808,26 +261253,27 @@ _G.pg.base.chapter_template_loop[1600005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1600006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1600006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1600006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -261467,26 +261913,27 @@ _G.pg.base.chapter_template_loop[1600006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1600021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1600021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1600021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -262031,26 +262478,27 @@ _G.pg.base.chapter_template_loop[1600021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1600022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1600022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1600022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -262656,26 +263104,27 @@ _G.pg.base.chapter_template_loop[1600022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1600023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1600023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1600023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -263412,26 +263861,27 @@ _G.pg.base.chapter_template_loop[1600023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1600024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1600024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1600024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -264148,26 +264598,27 @@ _G.pg.base.chapter_template_loop[1600024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1600025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1600025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1600025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -264906,26 +265357,27 @@ _G.pg.base.chapter_template_loop[1600025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1600026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1600026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1600026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -265608,26 +266060,27 @@ _G.pg.base.chapter_template_loop[1600026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1600041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1600041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1600041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -266336,27 +266789,28 @@ _G.pg.base.chapter_template_loop[1600041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1610001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1610001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1610001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -266824,27 +267278,28 @@ _G.pg.base.chapter_template_loop[1610001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1610002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1610002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1610002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -267299,27 +267754,28 @@ _G.pg.base.chapter_template_loop[1610002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1610003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1610003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1610003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -267812,27 +268268,28 @@ _G.pg.base.chapter_template_loop[1610003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1610004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1610004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1610004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -268345,27 +268802,28 @@ _G.pg.base.chapter_template_loop[1610004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1610005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1610005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1610005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -268823,27 +269281,28 @@ _G.pg.base.chapter_template_loop[1610005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1610006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1610006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1610006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -269356,27 +269815,28 @@ _G.pg.base.chapter_template_loop[1610006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1610021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1610021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1610021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -269887,27 +270347,28 @@ _G.pg.base.chapter_template_loop[1610021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1610022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1610022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1610022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -270405,27 +270866,28 @@ _G.pg.base.chapter_template_loop[1610022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1610023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1610023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1610023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -270960,27 +271422,28 @@ _G.pg.base.chapter_template_loop[1610023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1610024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1610024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1610024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -271535,27 +271998,28 @@ _G.pg.base.chapter_template_loop[1610024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1610025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1610025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1610025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -272057,27 +272521,28 @@ _G.pg.base.chapter_template_loop[1610025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1610026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1610026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1610026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -272634,26 +273099,27 @@ _G.pg.base.chapter_template_loop[1610026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1620001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1620001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1620001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -273199,26 +273665,27 @@ _G.pg.base.chapter_template_loop[1620001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1620002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1620002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1620002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -273884,26 +274351,27 @@ _G.pg.base.chapter_template_loop[1620002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1620003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1620003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1620003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -274589,26 +275057,27 @@ _G.pg.base.chapter_template_loop[1620003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1620004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1620004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1620004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -275114,26 +275583,27 @@ _G.pg.base.chapter_template_loop[1620004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1620005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1620005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1620005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -275682,26 +276152,27 @@ _G.pg.base.chapter_template_loop[1620005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1620006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1620006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1620006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -276416,26 +276887,27 @@ _G.pg.base.chapter_template_loop[1620006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1620021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1620021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1620021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -277022,26 +277494,27 @@ _G.pg.base.chapter_template_loop[1620021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1620022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1620022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1620022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -277748,26 +278221,27 @@ _G.pg.base.chapter_template_loop[1620022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1620023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1620023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1620023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -278494,26 +278968,27 @@ _G.pg.base.chapter_template_loop[1620023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1620024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1620024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1620024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -279060,26 +279535,27 @@ _G.pg.base.chapter_template_loop[1620024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1620025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1620025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1620025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -279671,26 +280147,27 @@ _G.pg.base.chapter_template_loop[1620025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1620026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1620026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1620026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -280448,26 +280925,27 @@ _G.pg.base.chapter_template_loop[1620026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1620041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1620041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1620041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -281231,27 +281709,28 @@ _G.pg.base.chapter_template_loop[1620041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1630001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1630001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1630001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -281749,27 +282228,28 @@ _G.pg.base.chapter_template_loop[1630001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1630002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1630002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1630002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -282329,27 +282809,28 @@ _G.pg.base.chapter_template_loop[1630002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1630003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1630003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1630003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -282909,27 +283390,28 @@ _G.pg.base.chapter_template_loop[1630003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1630004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1630004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1630004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -283497,27 +283979,28 @@ _G.pg.base.chapter_template_loop[1630004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1630041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1630041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1630041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -284243,26 +284726,27 @@ _G.pg.base.chapter_template_loop[1630041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1640001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1640001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1640001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -284779,26 +285263,27 @@ _G.pg.base.chapter_template_loop[1640001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1640002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1640002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1640002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -285363,26 +285848,27 @@ _G.pg.base.chapter_template_loop[1640002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1640003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1640003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1640003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -286058,26 +286544,27 @@ _G.pg.base.chapter_template_loop[1640003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1640004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1640004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1640004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -286644,26 +287131,27 @@ _G.pg.base.chapter_template_loop[1640004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1640005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1640005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1640005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -287217,26 +287705,27 @@ _G.pg.base.chapter_template_loop[1640005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1640006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1640006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1640006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -287947,26 +288436,27 @@ _G.pg.base.chapter_template_loop[1640006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1640021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1640021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1640021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -288525,26 +289015,27 @@ _G.pg.base.chapter_template_loop[1640021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1640022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1640022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1640022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -289151,26 +289642,27 @@ _G.pg.base.chapter_template_loop[1640022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1640023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1640023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1640023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -289888,26 +290380,27 @@ _G.pg.base.chapter_template_loop[1640023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1640024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1640024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1640024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -290516,26 +291009,27 @@ _G.pg.base.chapter_template_loop[1640024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1640025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1640025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1640025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -291133,26 +291627,27 @@ _G.pg.base.chapter_template_loop[1640025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1640026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1640026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1640026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -291907,26 +292402,27 @@ _G.pg.base.chapter_template_loop[1640026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1640041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1640041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1640041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -292615,26 +293111,27 @@ _G.pg.base.chapter_template_loop[1640041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1650001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1650001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1650001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -293151,26 +293648,27 @@ _G.pg.base.chapter_template_loop[1650001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1650002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1650002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1650002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -293728,26 +294226,27 @@ _G.pg.base.chapter_template_loop[1650002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1650003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1650003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1650003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -294416,26 +294915,27 @@ _G.pg.base.chapter_template_loop[1650003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1650004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1650004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1650004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -294989,26 +295489,27 @@ _G.pg.base.chapter_template_loop[1650004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1650005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1650005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1650005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -295583,26 +296084,27 @@ _G.pg.base.chapter_template_loop[1650005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1650006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1650006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1650006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -296336,26 +296838,27 @@ _G.pg.base.chapter_template_loop[1650006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1650021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1650021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1650021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -296914,26 +297417,27 @@ _G.pg.base.chapter_template_loop[1650021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1650022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1650022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1650022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -297533,26 +298037,27 @@ _G.pg.base.chapter_template_loop[1650022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1650023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1650023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1650023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -298263,26 +298768,27 @@ _G.pg.base.chapter_template_loop[1650023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1650024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1650024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1650024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -298878,26 +299384,27 @@ _G.pg.base.chapter_template_loop[1650024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1650025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1650025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1650025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -299516,26 +300023,27 @@ _G.pg.base.chapter_template_loop[1650025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1650026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1650026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1650026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -300312,26 +300820,27 @@ _G.pg.base.chapter_template_loop[1650026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1650041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1650041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1650041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -300997,26 +301506,27 @@ _G.pg.base.chapter_template_loop[1650041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1660001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1660001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1660001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -301579,26 +302089,27 @@ _G.pg.base.chapter_template_loop[1660001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1660002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1660002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1660002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -302295,26 +302806,27 @@ _G.pg.base.chapter_template_loop[1660002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1660003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1660003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1660003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -302925,26 +303437,27 @@ _G.pg.base.chapter_template_loop[1660003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1660004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1660004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1660004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -303606,26 +304119,27 @@ _G.pg.base.chapter_template_loop[1660004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1660005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1660005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1660005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -304246,26 +304760,27 @@ _G.pg.base.chapter_template_loop[1660005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1660006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1660006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1660006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -304968,26 +305483,27 @@ _G.pg.base.chapter_template_loop[1660006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1660021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1660021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1660021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -305592,26 +306108,27 @@ _G.pg.base.chapter_template_loop[1660021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1660022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1660022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1660022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -306350,26 +306867,27 @@ _G.pg.base.chapter_template_loop[1660022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1660023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1660023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1660023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -307022,26 +307540,27 @@ _G.pg.base.chapter_template_loop[1660023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1660024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1660024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1660024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -307744,26 +308263,27 @@ _G.pg.base.chapter_template_loop[1660024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1660025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1660025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1660025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -308427,26 +308947,27 @@ _G.pg.base.chapter_template_loop[1660025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1660026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1660026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1660026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -309192,26 +309713,27 @@ _G.pg.base.chapter_template_loop[1660026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1660041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1660041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1660041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -310485,27 +311007,28 @@ _G.pg.base.chapter_template_loop[1660041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1670001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1670001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1670001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -311064,27 +311587,28 @@ _G.pg.base.chapter_template_loop[1670001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1670002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1670002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1670002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -311697,27 +312221,28 @@ _G.pg.base.chapter_template_loop[1670002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1670003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1670003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1670003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -312275,27 +312800,28 @@ _G.pg.base.chapter_template_loop[1670003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1670004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1670004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1670004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -312975,27 +313501,28 @@ _G.pg.base.chapter_template_loop[1670004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1670041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1670041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1670041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -313498,26 +314025,27 @@ _G.pg.base.chapter_template_loop[1670041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1680001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1680001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1680001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -314069,26 +314597,27 @@ _G.pg.base.chapter_template_loop[1680001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1680002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1680002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1680002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -314654,26 +315183,27 @@ _G.pg.base.chapter_template_loop[1680002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1680003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1680003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1680003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -315226,26 +315756,27 @@ _G.pg.base.chapter_template_loop[1680003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1680004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1680004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1680004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -315813,26 +316344,27 @@ _G.pg.base.chapter_template_loop[1680004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1680005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1680005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1680005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -316492,26 +317024,27 @@ _G.pg.base.chapter_template_loop[1680005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1680006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1680006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1680006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -317203,26 +317736,27 @@ _G.pg.base.chapter_template_loop[1680006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1680021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1680021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1680021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -317816,26 +318350,27 @@ _G.pg.base.chapter_template_loop[1680021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1680022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1680022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1680022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -318443,26 +318978,27 @@ _G.pg.base.chapter_template_loop[1680022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1680023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1680023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1680023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -319056,26 +319592,27 @@ _G.pg.base.chapter_template_loop[1680023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1680024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1680024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1680024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -319684,26 +320221,27 @@ _G.pg.base.chapter_template_loop[1680024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1680025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1680025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1680025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -320406,26 +320944,27 @@ _G.pg.base.chapter_template_loop[1680025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1680026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1680026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1680026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -321160,26 +321699,27 @@ _G.pg.base.chapter_template_loop[1680026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1680041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1680041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1680041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -321853,26 +322393,27 @@ _G.pg.base.chapter_template_loop[1680041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1690001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1690001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1690001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -322480,26 +323021,27 @@ _G.pg.base.chapter_template_loop[1690001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1690002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1690002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1690002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -323047,26 +323589,27 @@ _G.pg.base.chapter_template_loop[1690002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1690003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1690003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1690003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -323675,26 +324218,27 @@ _G.pg.base.chapter_template_loop[1690003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1690004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1690004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1690004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -324305,26 +324849,27 @@ _G.pg.base.chapter_template_loop[1690004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1690005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1690005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1690005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -324990,26 +325535,27 @@ _G.pg.base.chapter_template_loop[1690005] = {
 	}
 }
 
+
 _G.pg.base.chapter_template_loop[1690021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1690021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1690021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -325622,26 +326168,27 @@ _G.pg.base.chapter_template_loop[1690021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1690022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1690022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1690022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -326193,26 +326740,27 @@ _G.pg.base.chapter_template_loop[1690022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1690023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1690023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1690023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -326825,26 +327373,27 @@ _G.pg.base.chapter_template_loop[1690023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1690024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1690024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1690024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -327457,26 +328006,27 @@ _G.pg.base.chapter_template_loop[1690024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1690025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1690025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1690025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -328041,26 +328591,27 @@ _G.pg.base.chapter_template_loop[1690025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1690041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 24,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1690041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 24,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1690041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -328690,26 +329241,27 @@ _G.pg.base.chapter_template_loop[1690041] = {
 	}
 }
 
+
 _G.pg.base.chapter_template_loop[1700001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1700001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1700001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -329268,26 +329820,27 @@ _G.pg.base.chapter_template_loop[1700001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1700002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1700002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1700002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -329847,26 +330400,27 @@ _G.pg.base.chapter_template_loop[1700002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1700003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1700003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1700003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -330487,26 +331041,27 @@ _G.pg.base.chapter_template_loop[1700003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1700004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1700004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1700004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -331123,26 +331678,27 @@ _G.pg.base.chapter_template_loop[1700004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1700005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1700005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1700005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -331820,26 +332376,27 @@ _G.pg.base.chapter_template_loop[1700005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1700006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1700006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1700006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -332537,26 +333094,27 @@ _G.pg.base.chapter_template_loop[1700006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1700021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1700021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1700021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -333156,26 +333714,27 @@ _G.pg.base.chapter_template_loop[1700021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1700022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1700022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1700022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -333776,26 +334335,27 @@ _G.pg.base.chapter_template_loop[1700022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1700023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1700023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1700023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -334457,26 +335017,27 @@ _G.pg.base.chapter_template_loop[1700023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1700024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1700024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1700024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -335134,26 +335695,27 @@ _G.pg.base.chapter_template_loop[1700024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1700025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1700025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1700025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -335874,26 +336436,27 @@ _G.pg.base.chapter_template_loop[1700025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1700026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1700026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1700026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -336634,26 +337197,27 @@ _G.pg.base.chapter_template_loop[1700026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1700041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1700041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1700041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -337416,26 +337980,27 @@ _G.pg.base.chapter_template_loop[1700041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1710001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1710001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1710001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -338002,26 +338567,27 @@ _G.pg.base.chapter_template_loop[1710001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1710002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1710002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1710002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -338582,26 +339148,27 @@ _G.pg.base.chapter_template_loop[1710002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1710003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1710003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1710003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -339209,26 +339776,27 @@ _G.pg.base.chapter_template_loop[1710003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1710004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1710004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1710004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -339852,26 +340420,27 @@ _G.pg.base.chapter_template_loop[1710004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1710005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1710005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1710005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -340543,26 +341112,27 @@ _G.pg.base.chapter_template_loop[1710005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1710006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1710006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1710006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -341316,26 +341886,27 @@ _G.pg.base.chapter_template_loop[1710006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1710021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1710021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1710021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -341943,26 +342514,27 @@ _G.pg.base.chapter_template_loop[1710021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1710022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1710022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1710022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -342564,26 +343136,27 @@ _G.pg.base.chapter_template_loop[1710022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1710023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1710023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1710023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -343232,26 +343805,27 @@ _G.pg.base.chapter_template_loop[1710023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1710024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1710024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1710024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -343916,26 +344490,27 @@ _G.pg.base.chapter_template_loop[1710024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1710025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1710025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1710025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -344651,26 +345226,27 @@ _G.pg.base.chapter_template_loop[1710025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1710026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1710026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1710026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -345468,26 +346044,27 @@ _G.pg.base.chapter_template_loop[1710026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1710041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1710041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1710041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -346219,27 +346796,9495 @@ _G.pg.base.chapter_template_loop[1710041] = {
 	alarm_cell = {}
 }
 
-_G.pg.base.chapter_template_loop[1730001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
+
+_G.pg.base.chapter_template_loop[1720001] = {
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
-	boss_refresh = 4,
-	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
 	air_dominance_loop_rate = 80,
+	boss_refresh = 3,
+	is_limit_move = 0,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1720001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1720001,
+			15,
+			0
+		},
+		{
+			1720002,
+			20,
+			0
+		},
+		{
+			1720003,
+			30,
+			1
+		},
+		{
+			1720004,
+			15,
+			0
+		},
+		{
+			1720005,
+			20,
+			0
+		},
+		{
+			1720006,
+			30,
+			1
+		},
+		{
+			1720007,
+			15,
+			0
+		},
+		{
+			1720008,
+			20,
+			0
+		},
+		{
+			1720009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1720002,
+		1720005,
+		1720008
+	},
+	ai_expedition_list = {
+		1720301
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1720013
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		0,
+		0,
+		0
+	},
+	ai_refresh = {
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			7,
+			9,
+			false,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			6
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			false,
+			0
+		},
+		{
+			7,
+			4,
+			false,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			6
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			0,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			12
+		},
+		{
+			6,
+			5,
+			true,
+			8
+		},
+		{
+			6,
+			4,
+			true,
+			8
+		},
+		{
+			6,
+			3,
+			true,
+			12
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			6
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			16
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			16
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			false,
+			0
+		},
+		{
+			4,
+			8,
+			false,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			4
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			1
+		},
+		{
+			4,
+			4,
+			true,
+			1
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			4
+		},
+		{
+			4,
+			0,
+			false,
+			0
+		},
+		{
+			3,
+			9,
+			false,
+			0
+		},
+		{
+			3,
+			8,
+			false,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			4
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			6
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			4
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			false,
+			0
+		},
+		{
+			2,
+			1,
+			false,
+			0
+		},
+		{
+			2,
+			0,
+			false,
+			0
+		},
+		{
+			1,
+			9,
+			true,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			0
+		},
+		{
+			1,
+			7,
+			true,
+			6
+		},
+		{
+			1,
+			6,
+			true,
+			0
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			6
+		},
+		{
+			1,
+			1,
+			true,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			9,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			6
+		},
+		{
+			0,
+			2,
+			true,
+			0
+		},
+		{
+			0,
+			1,
+			true,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			7,
+			9,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		},
+		{
+			7,
+			4,
+			"bisimaiz_blue_3x1_1",
+			65,
+			-2
+		},
+		{
+			7,
+			0,
+			"bisimaiz_red_1x1_3",
+			0,
+			0
+		},
+		{
+			4,
+			0,
+			"bisimaiz_blue_1x1_1",
+			-2,
+			7
+		},
+		{
+			3,
+			8,
+			"bisimaiz_blue_2x2_2",
+			47,
+			-45
+		},
+		{
+			3,
+			4,
+			"bisimaiz_blue_sp",
+			46,
+			37
+		},
+		{
+			2,
+			0,
+			"bisimaiz_blue_3x1_1",
+			109,
+			7
+		},
+		{
+			0,
+			9,
+			"bisimaiz_red_1x1_3",
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bsmz_t1",
+		45,
+		20,
+		-282,
+		-33,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		4,
+		22,
+		102,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	wall_prefab = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[1720002] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 4,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1720002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1720101,
+			15,
+			0
+		},
+		{
+			1720102,
+			20,
+			0
+		},
+		{
+			1720103,
+			30,
+			1
+		},
+		{
+			1720104,
+			15,
+			0
+		},
+		{
+			1720105,
+			20,
+			0
+		},
+		{
+			1720106,
+			30,
+			1
+		},
+		{
+			1720107,
+			15,
+			0
+		},
+		{
+			1720108,
+			20,
+			0
+		},
+		{
+			1720109,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1720102,
+		1720105,
+		1720108
+	},
+	ai_expedition_list = {
+		1720302
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1720113
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		0,
+		0,
+		0
+	},
+	ai_refresh = {
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			false,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			12
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			12
+		},
+		{
+			7,
+			0,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			4
+		},
+		{
+			6,
+			6,
+			false,
+			0
+		},
+		{
+			6,
+			5,
+			false,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			1
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			4
+		},
+		{
+			5,
+			9,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			4
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			1
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			6
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			16
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			8
+		},
+		{
+			4,
+			4,
+			true,
+			8
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			false,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			0,
+			true,
+			6
+		},
+		{
+			3,
+			9,
+			true,
+			6
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			4
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			4
+		},
+		{
+			3,
+			2,
+			false,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			12
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			6
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			6
+		},
+		{
+			1,
+			9,
+			false,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			0
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			6
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			6
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			6
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			9,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			false,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			false,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			7,
+			0,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		},
+		{
+			6,
+			8,
+			"bisimaiz_red_1x2_1",
+			1,
+			-41
+		},
+		{
+			6,
+			5,
+			"bisimaiz_blue_3x1_2",
+			53,
+			0
+		},
+		{
+			3,
+			4,
+			"bisimaiz_blue_sp",
+			46,
+			37
+		},
+		{
+			3,
+			2,
+			"bisimaiz_blue_1x2_2",
+			-10,
+			-48
+		},
+		{
+			0,
+			8,
+			"bisimaiz_red_2x2_1",
+			54,
+			-44
+		},
+		{
+			0,
+			0,
+			"bisimaiz_red_3x1_1",
+			96,
+			5
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bsmz_t2",
+		45,
+		20,
+		-226,
+		-28,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		4,
+		22,
+		102,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {
+		200432
+	},
+	wall_prefab = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[1720003] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 4,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1720003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1720201,
+			15,
+			0
+		},
+		{
+			1720202,
+			20,
+			0
+		},
+		{
+			1720203,
+			30,
+			1
+		},
+		{
+			1720204,
+			15,
+			0
+		},
+		{
+			1720205,
+			20,
+			0
+		},
+		{
+			1720206,
+			30,
+			1
+		},
+		{
+			1720207,
+			15,
+			0
+		},
+		{
+			1720208,
+			20,
+			0
+		},
+		{
+			1720209,
+			30,
+			1
+		},
+		{
+			1720221,
+			15,
+			0
+		},
+		{
+			1720222,
+			20,
+			0
+		},
+		{
+			1720223,
+			30,
+			1
+		},
+		{
+			1720224,
+			15,
+			0
+		},
+		{
+			1720225,
+			20,
+			0
+		},
+		{
+			1720226,
+			30,
+			1
+		},
+		{
+			1720227,
+			15,
+			0
+		},
+		{
+			1720228,
+			20,
+			0
+		},
+		{
+			1720229,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1720202,
+		1720205,
+		1720208,
+		1720222,
+		1720225,
+		1720228
+	},
+	ai_expedition_list = {
+		1720304,
+		1720305
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1720213
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		0,
+		0,
+		0
+	},
+	ai_refresh = {
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			4
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			4
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			12
+		},
+		{
+			7,
+			0,
+			true,
+			0
+		},
+		{
+			6,
+			9,
+			false,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			6
+		},
+		{
+			6,
+			6,
+			false,
+			0
+		},
+		{
+			6,
+			5,
+			false,
+			0
+		},
+		{
+			6,
+			4,
+			false,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			12
+		},
+		{
+			6,
+			1,
+			false,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			8
+		},
+		{
+			5,
+			9,
+			false,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			6
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			16
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			false,
+			0
+		},
+		{
+			5,
+			0,
+			false,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			1
+		},
+		{
+			4,
+			4,
+			true,
+			1
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			12
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			4
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			6
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			4
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			4
+		},
+		{
+			2,
+			2,
+			false,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			0
+		},
+		{
+			1,
+			9,
+			true,
+			6
+		},
+		{
+			1,
+			8,
+			true,
+			6
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			0
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			false,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			6
+		},
+		{
+			0,
+			9,
+			true,
+			0
+		},
+		{
+			0,
+			8,
+			false,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			6
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			6
+		},
+		{
+			0,
+			2,
+			true,
+			0
+		},
+		{
+			0,
+			1,
+			true,
+			6
+		},
+		{
+			0,
+			0,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			6,
+			4,
+			"bisimaiz_red_3x1_1",
+			109,
+			6
+		},
+		{
+			5,
+			9,
+			"bisimaiz_red_1x2_1",
+			1,
+			-44
+		},
+		{
+			5,
+			0,
+			"bisimaiz_red_2x2_1",
+			62,
+			-42
+		},
+		{
+			3,
+			7,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		},
+		{
+			3,
+			4,
+			"bisimaiz_blue_sp",
+			46,
+			37
+		},
+		{
+			1,
+			2,
+			"bisimaiz_red_1x2_2",
+			-3,
+			-43
+		},
+		{
+			0,
+			8,
+			"bisimaiz_red_1x1_3",
+			0,
+			0
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bsmz_t3",
+		45,
+		20,
+		-282,
+		-33,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		4,
+		22,
+		102,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {
+		200432
+	},
+	wall_prefab = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[1720004] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 4,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1720004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1721001,
+			15,
+			0
+		},
+		{
+			1721002,
+			20,
+			0
+		},
+		{
+			1721003,
+			30,
+			1
+		},
+		{
+			1721004,
+			15,
+			0
+		},
+		{
+			1721005,
+			20,
+			0
+		},
+		{
+			1721006,
+			30,
+			1
+		},
+		{
+			1721007,
+			15,
+			0
+		},
+		{
+			1721008,
+			20,
+			0
+		},
+		{
+			1721009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1721002,
+		1721005,
+		1721008
+	},
+	ai_expedition_list = {
+		1721301,
+		1721302
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1721013
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		1
+	},
+	ai_refresh = {
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			7,
+			9,
+			false,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			6
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			8
+		},
+		{
+			7,
+			4,
+			true,
+			8
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			6
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			0,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			12
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			12
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			6
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			12
+		},
+		{
+			5,
+			6,
+			true,
+			16
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			16
+		},
+		{
+			5,
+			2,
+			true,
+			12
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			4
+		},
+		{
+			4,
+			7,
+			false,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			1
+		},
+		{
+			4,
+			4,
+			true,
+			1
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			4
+		},
+		{
+			4,
+			0,
+			false,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			4
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			6
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			4
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			false,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			0
+		},
+		{
+			1,
+			9,
+			true,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			6
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			0
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			6
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			9,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			6
+		},
+		{
+			0,
+			6,
+			true,
+			6
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			4
+		},
+		{
+			0,
+			2,
+			true,
+			6
+		},
+		{
+			0,
+			1,
+			true,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			7,
+			9,
+			"bisimaiz_blue_1x1_2",
+			0,
+			0
+		},
+		{
+			7,
+			0,
+			"bisimaiz_blue_1x1_3",
+			0,
+			0
+		},
+		{
+			4,
+			0,
+			"bisimaiz_blue_1x1_1",
+			-2,
+			7
+		},
+		{
+			3,
+			7,
+			"bisimaiz_red_1x2_2",
+			0,
+			-56
+		},
+		{
+			3,
+			4,
+			"bisimaiz_red_sp",
+			46,
+			37
+		},
+		{
+			2,
+			2,
+			"bisimaiz_red_1x1_3",
+			0,
+			0
+		},
+		{
+			0,
+			9,
+			"bisimaiz_blue_1x1_3",
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			"bisimaiz_blue_1x1_2",
+			0,
+			0
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bsmz_t4",
+		45,
+		20,
+		-282,
+		-33,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		5,
+		22,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {
+		200433
+	},
+	wall_prefab = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[1720005] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 5,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1720005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1721101,
+			15,
+			0
+		},
+		{
+			1721102,
+			20,
+			0
+		},
+		{
+			1721103,
+			30,
+			1
+		},
+		{
+			1721104,
+			15,
+			0
+		},
+		{
+			1721105,
+			20,
+			0
+		},
+		{
+			1721106,
+			30,
+			1
+		},
+		{
+			1721107,
+			15,
+			0
+		},
+		{
+			1721108,
+			20,
+			0
+		},
+		{
+			1721109,
+			30,
+			1
+		},
+		{
+			1721121,
+			15,
+			0
+		},
+		{
+			1721122,
+			20,
+			0
+		},
+		{
+			1721123,
+			30,
+			1
+		},
+		{
+			1721124,
+			15,
+			0
+		},
+		{
+			1721125,
+			20,
+			0
+		},
+		{
+			1721126,
+			30,
+			1
+		},
+		{
+			1721127,
+			15,
+			0
+		},
+		{
+			1721128,
+			20,
+			0
+		},
+		{
+			1721129,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1721102,
+		1721105,
+		1721108,
+		1721122,
+		1721125,
+		1721128
+	},
+	ai_expedition_list = {
+		1721303,
+		1721304
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1721113
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		1
+	},
+	ai_refresh = {
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			7,
+			9,
+			true,
+			6
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			6
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			6
+		},
+		{
+			7,
+			3,
+			true,
+			4
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			0,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			false,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			6
+		},
+		{
+			6,
+			1,
+			true,
+			6
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			false,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			6
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			4
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			4
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			4
+		},
+		{
+			4,
+			9,
+			false,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			16
+		},
+		{
+			4,
+			1,
+			true,
+			4
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			6
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			4
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			12
+		},
+		{
+			3,
+			1,
+			false,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			8
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			6
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			12
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			false,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			12
+		},
+		{
+			1,
+			9,
+			true,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			8
+		},
+		{
+			1,
+			7,
+			false,
+			0
+		},
+		{
+			1,
+			6,
+			false,
+			0
+		},
+		{
+			1,
+			5,
+			false,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			9,
+			true,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			6
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			true,
+			1
+		},
+		{
+			0,
+			1,
+			true,
+			1
+		},
+		{
+			0,
+			0,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			7,
+			0,
+			"bisimaiz_blue_1x1_2",
+			0,
+			0
+		},
+		{
+			6,
+			5,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		},
+		{
+			4,
+			9,
+			"bisimaiz_red_1x2_1",
+			13,
+			-35
+		},
+		{
+			3,
+			4,
+			"bisimaiz_red_sp",
+			46,
+			37
+		},
+		{
+			3,
+			1,
+			"bisimaiz_red_1x2_2",
+			0,
+			22
+		},
+		{
+			1,
+			5,
+			"bisimaiz_red_3x1_1",
+			120,
+			11
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bsmz_t5",
+		45,
+		20,
+		-129,
+		-377,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		5,
+		22,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {
+		200433
+	},
+	wall_prefab = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[1720006] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 5,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1720006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1721201,
+			15,
+			0
+		},
+		{
+			1721202,
+			20,
+			0
+		},
+		{
+			1721203,
+			30,
+			1
+		},
+		{
+			1721204,
+			15,
+			0
+		},
+		{
+			1721205,
+			20,
+			0
+		},
+		{
+			1721206,
+			30,
+			1
+		},
+		{
+			1721207,
+			15,
+			0
+		},
+		{
+			1721208,
+			20,
+			0
+		},
+		{
+			1721209,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1721202,
+		1721205,
+		1721208
+	},
+	ai_expedition_list = {
+		1721305,
+		1721306
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1721213
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		1
+	},
+	ai_refresh = {
+		2
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			6
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			1
+		},
+		{
+			7,
+			4,
+			true,
+			1
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			6
+		},
+		{
+			7,
+			0,
+			true,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			12
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			12
+		},
+		{
+			6,
+			1,
+			false,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			6
+		},
+		{
+			5,
+			8,
+			false,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			12
+		},
+		{
+			5,
+			5,
+			true,
+			16
+		},
+		{
+			5,
+			4,
+			true,
+			16
+		},
+		{
+			5,
+			3,
+			true,
+			12
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			false,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			6
+		},
+		{
+			4,
+			9,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			4
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			8
+		},
+		{
+			4,
+			4,
+			true,
+			8
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			4
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			4
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			4
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			4
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			4
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			6
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			6
+		},
+		{
+			1,
+			9,
+			false,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			6
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			6
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			6
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			6
+		},
+		{
+			1,
+			0,
+			false,
+			0
+		},
+		{
+			0,
+			9,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			false,
+			0
+		},
+		{
+			0,
+			7,
+			false,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			false,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			5,
+			8,
+			"bisimaiz_red_1x2_1",
+			0,
+			-52
+		},
+		{
+			5,
+			1,
+			"bisimaiz_red_1x2_1",
+			0,
+			-52
+		},
+		{
+			3,
+			4,
+			"bisimaiz_red_sp",
+			46,
+			37
+		},
+		{
+			1,
+			9,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		},
+		{
+			1,
+			0,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		},
+		{
+			0,
+			7,
+			"bisimaiz_red_3x1_1",
+			109,
+			10
+		},
+		{
+			0,
+			0,
+			"bisimaiz_red_3x1_1",
+			109,
+			10
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bsmz_t6",
+		45,
+		20,
+		-282,
+		-29,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		5,
+		22,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {
+		200434
+	},
+	wall_prefab = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[1720021] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 4,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1720021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				"zhan",
+				0,
+				0
+			},
+			{
+				"quzhu",
+				2,
+				0
+			}
+		},
+		{
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			70
+		},
+		{
+			"cannon",
+			1,
+			500
+		},
+		{
+			"torpedo",
+			1,
+			400
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1722001,
+			15,
+			0
+		},
+		{
+			1722002,
+			20,
+			0
+		},
+		{
+			1722003,
+			30,
+			1
+		},
+		{
+			1722004,
+			15,
+			0
+		},
+		{
+			1722005,
+			20,
+			0
+		},
+		{
+			1722006,
+			30,
+			1
+		},
+		{
+			1722007,
+			15,
+			0
+		},
+		{
+			1722008,
+			20,
+			0
+		},
+		{
+			1722009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1722002,
+		1722005,
+		1722008
+	},
+	ai_expedition_list = {
+		1722301,
+		1722302
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1722013
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		0
+	},
+	ai_refresh = {
+		2
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			7,
+			9,
+			false,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			6
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			false,
+			0
+		},
+		{
+			7,
+			4,
+			false,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			6
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			0,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			12
+		},
+		{
+			6,
+			5,
+			true,
+			8
+		},
+		{
+			6,
+			4,
+			true,
+			8
+		},
+		{
+			6,
+			3,
+			true,
+			12
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			6
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			16
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			16
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			false,
+			0
+		},
+		{
+			4,
+			8,
+			false,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			4
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			1
+		},
+		{
+			4,
+			4,
+			true,
+			1
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			4
+		},
+		{
+			4,
+			0,
+			false,
+			0
+		},
+		{
+			3,
+			9,
+			false,
+			0
+		},
+		{
+			3,
+			8,
+			false,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			4
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			6
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			4
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			false,
+			0
+		},
+		{
+			2,
+			1,
+			false,
+			0
+		},
+		{
+			2,
+			0,
+			false,
+			0
+		},
+		{
+			1,
+			9,
+			true,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			0
+		},
+		{
+			1,
+			7,
+			true,
+			6
+		},
+		{
+			1,
+			6,
+			true,
+			0
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			6
+		},
+		{
+			1,
+			1,
+			true,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			9,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			6
+		},
+		{
+			0,
+			2,
+			true,
+			0
+		},
+		{
+			0,
+			1,
+			true,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			7,
+			9,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		},
+		{
+			7,
+			4,
+			"bisimaiz_blue_3x1_1",
+			65,
+			-2
+		},
+		{
+			7,
+			0,
+			"bisimaiz_red_1x1_3",
+			0,
+			0
+		},
+		{
+			4,
+			0,
+			"bisimaiz_blue_1x1_1",
+			-2,
+			7
+		},
+		{
+			3,
+			8,
+			"bisimaiz_blue_2x2_2",
+			47,
+			-45
+		},
+		{
+			3,
+			4,
+			"bisimaiz_blue_sp",
+			46,
+			37
+		},
+		{
+			2,
+			0,
+			"bisimaiz_blue_3x1_1",
+			109,
+			7
+		},
+		{
+			0,
+			9,
+			"bisimaiz_red_1x1_3",
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bsmz_t1",
+		45,
+		20,
+		-282,
+		-33,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		7,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	wall_prefab = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[1720022] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 4,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1720022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				"zhan",
+				0,
+				0
+			},
+			{
+				"quzhu",
+				2,
+				0
+			}
+		},
+		{
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			75
+		},
+		{
+			"cannon",
+			1,
+			650
+		},
+		{
+			"dodge",
+			1,
+			350
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1722101,
+			15,
+			0
+		},
+		{
+			1722102,
+			20,
+			0
+		},
+		{
+			1722103,
+			30,
+			1
+		},
+		{
+			1722104,
+			15,
+			0
+		},
+		{
+			1722105,
+			20,
+			0
+		},
+		{
+			1722106,
+			30,
+			1
+		},
+		{
+			1722107,
+			15,
+			0
+		},
+		{
+			1722108,
+			20,
+			0
+		},
+		{
+			1722109,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1722102,
+		1722105,
+		1722108
+	},
+	ai_expedition_list = {
+		1722303,
+		1722304
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1722113
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		0
+	},
+	ai_refresh = {
+		2
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			false,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			12
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			12
+		},
+		{
+			7,
+			0,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			4
+		},
+		{
+			6,
+			6,
+			false,
+			0
+		},
+		{
+			6,
+			5,
+			false,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			1
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			4
+		},
+		{
+			5,
+			9,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			4
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			1
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			6
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			16
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			8
+		},
+		{
+			4,
+			4,
+			true,
+			8
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			false,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			0,
+			true,
+			6
+		},
+		{
+			3,
+			9,
+			true,
+			6
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			4
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			4
+		},
+		{
+			3,
+			2,
+			false,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			12
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			6
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			6
+		},
+		{
+			1,
+			9,
+			false,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			0
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			6
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			6
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			6
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			9,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			false,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			false,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			7,
+			0,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		},
+		{
+			6,
+			8,
+			"bisimaiz_red_1x2_1",
+			1,
+			-41
+		},
+		{
+			6,
+			5,
+			"bisimaiz_blue_3x1_2",
+			53,
+			0
+		},
+		{
+			3,
+			4,
+			"bisimaiz_blue_sp",
+			46,
+			37
+		},
+		{
+			3,
+			2,
+			"bisimaiz_blue_1x2_2",
+			-10,
+			-48
+		},
+		{
+			0,
+			8,
+			"bisimaiz_red_2x2_1",
+			54,
+			-44
+		},
+		{
+			0,
+			0,
+			"bisimaiz_red_3x1_1",
+			96,
+			5
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bsmz_t2",
+		45,
+		20,
+		-226,
+		-28,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		7,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {
+		200432
+	},
+	wall_prefab = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[1720023] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 5,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1720023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				"zhan",
+				0,
+				0
+			},
+			{
+				"quzhu",
+				2,
+				0
+			}
+		},
+		{
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			80
+		},
+		{
+			"cannon",
+			1,
+			800
+		},
+		{
+			"reload",
+			1,
+			800
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1722201,
+			15,
+			0
+		},
+		{
+			1722202,
+			20,
+			0
+		},
+		{
+			1722203,
+			30,
+			1
+		},
+		{
+			1722204,
+			15,
+			0
+		},
+		{
+			1722205,
+			20,
+			0
+		},
+		{
+			1722206,
+			30,
+			1
+		},
+		{
+			1722207,
+			15,
+			0
+		},
+		{
+			1722208,
+			20,
+			0
+		},
+		{
+			1722209,
+			30,
+			1
+		},
+		{
+			1722221,
+			15,
+			0
+		},
+		{
+			1722222,
+			20,
+			0
+		},
+		{
+			1722223,
+			30,
+			1
+		},
+		{
+			1722224,
+			15,
+			0
+		},
+		{
+			1722225,
+			20,
+			0
+		},
+		{
+			1722226,
+			30,
+			1
+		},
+		{
+			1722227,
+			15,
+			0
+		},
+		{
+			1722228,
+			20,
+			0
+		},
+		{
+			1722229,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1722202,
+		1722205,
+		1722208,
+		1722222,
+		1722225,
+		1722228
+	},
+	ai_expedition_list = {
+		1722306,
+		1722307
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1722213
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		0
+	},
+	ai_refresh = {
+		2
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			4
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			4
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			12
+		},
+		{
+			7,
+			0,
+			true,
+			0
+		},
+		{
+			6,
+			9,
+			false,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			6
+		},
+		{
+			6,
+			6,
+			false,
+			0
+		},
+		{
+			6,
+			5,
+			false,
+			0
+		},
+		{
+			6,
+			4,
+			false,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			12
+		},
+		{
+			6,
+			1,
+			false,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			8
+		},
+		{
+			5,
+			9,
+			false,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			6
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			16
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			false,
+			0
+		},
+		{
+			5,
+			0,
+			false,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			1
+		},
+		{
+			4,
+			4,
+			true,
+			1
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			12
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			4
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			6
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			4
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			4
+		},
+		{
+			2,
+			2,
+			false,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			0
+		},
+		{
+			1,
+			9,
+			true,
+			6
+		},
+		{
+			1,
+			8,
+			true,
+			6
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			0
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			false,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			6
+		},
+		{
+			0,
+			9,
+			true,
+			0
+		},
+		{
+			0,
+			8,
+			false,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			6
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			6
+		},
+		{
+			0,
+			2,
+			true,
+			0
+		},
+		{
+			0,
+			1,
+			true,
+			6
+		},
+		{
+			0,
+			0,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			6,
+			4,
+			"bisimaiz_red_3x1_1",
+			109,
+			6
+		},
+		{
+			5,
+			9,
+			"bisimaiz_red_1x2_1",
+			1,
+			-44
+		},
+		{
+			5,
+			0,
+			"bisimaiz_red_2x2_1",
+			62,
+			-42
+		},
+		{
+			3,
+			7,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		},
+		{
+			3,
+			4,
+			"bisimaiz_blue_sp",
+			46,
+			37
+		},
+		{
+			1,
+			2,
+			"bisimaiz_red_1x2_2",
+			-3,
+			-43
+		},
+		{
+			0,
+			8,
+			"bisimaiz_red_1x1_3",
+			0,
+			0
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bsmz_t3",
+		45,
+		20,
+		-282,
+		-33,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		7,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {
+		200432
+	},
+	wall_prefab = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[1720024] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 5,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1720024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				6,
+				0,
+				0
+			},
+			{
+				2,
+				"quzhu",
+				0
+			}
+		},
+		{
+			{
+				5,
+				0,
+				0
+			},
+			{
+				3,
+				"quzhu",
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			90
+		},
+		{
+			"cannon",
+			1,
+			950
+		},
+		{
+			"dodge",
+			1,
+			600
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1723001,
+			15,
+			0
+		},
+		{
+			1723002,
+			20,
+			0
+		},
+		{
+			1723003,
+			30,
+			1
+		},
+		{
+			1723004,
+			15,
+			0
+		},
+		{
+			1723005,
+			20,
+			0
+		},
+		{
+			1723006,
+			30,
+			1
+		},
+		{
+			1723007,
+			15,
+			0
+		},
+		{
+			1723008,
+			20,
+			0
+		},
+		{
+			1723009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1723002,
+		1723005,
+		1723008
+	},
+	ai_expedition_list = {
+		1723301,
+		1723302
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1723013
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		1
+	},
+	ai_refresh = {
+		2
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			7,
+			9,
+			false,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			6
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			8
+		},
+		{
+			7,
+			4,
+			true,
+			8
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			6
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			0,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			12
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			12
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			6
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			12
+		},
+		{
+			5,
+			6,
+			true,
+			16
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			16
+		},
+		{
+			5,
+			2,
+			true,
+			12
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			4
+		},
+		{
+			4,
+			7,
+			false,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			1
+		},
+		{
+			4,
+			4,
+			true,
+			1
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			4
+		},
+		{
+			4,
+			0,
+			false,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			4
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			6
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			4
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			false,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			0
+		},
+		{
+			1,
+			9,
+			true,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			6
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			0
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			6
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			9,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			6
+		},
+		{
+			0,
+			6,
+			true,
+			6
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			4
+		},
+		{
+			0,
+			2,
+			true,
+			6
+		},
+		{
+			0,
+			1,
+			true,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			7,
+			9,
+			"bisimaiz_blue_1x1_2",
+			0,
+			0
+		},
+		{
+			7,
+			0,
+			"bisimaiz_blue_1x1_3",
+			0,
+			0
+		},
+		{
+			4,
+			0,
+			"bisimaiz_blue_1x1_1",
+			-2,
+			7
+		},
+		{
+			3,
+			7,
+			"bisimaiz_red_1x2_2",
+			0,
+			-56
+		},
+		{
+			3,
+			4,
+			"bisimaiz_red_sp",
+			46,
+			37
+		},
+		{
+			2,
+			2,
+			"bisimaiz_red_1x1_3",
+			0,
+			0
+		},
+		{
+			0,
+			9,
+			"bisimaiz_blue_1x1_3",
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			"bisimaiz_blue_1x1_2",
+			0,
+			0
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bsmz_t4",
+		45,
+		20,
+		-282,
+		-33,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		9,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {
+		200433
+	},
+	wall_prefab = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[1720025] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 6,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1720025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				6,
+				0,
+				0
+			},
+			{
+				2,
+				"quzhu",
+				0
+			}
+		},
+		{
+			{
+				5,
+				0,
+				0
+			},
+			{
+				3,
+				"quzhu",
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			95
+		},
+		{
+			"cannon",
+			1,
+			1100
+		},
+		{
+			"antiaircraft",
+			1,
+			1600
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1723101,
+			15,
+			0
+		},
+		{
+			1723102,
+			20,
+			0
+		},
+		{
+			1723103,
+			30,
+			1
+		},
+		{
+			1723104,
+			15,
+			0
+		},
+		{
+			1723105,
+			20,
+			0
+		},
+		{
+			1723106,
+			30,
+			1
+		},
+		{
+			1723107,
+			15,
+			0
+		},
+		{
+			1723108,
+			20,
+			0
+		},
+		{
+			1723109,
+			30,
+			1
+		},
+		{
+			1723121,
+			15,
+			0
+		},
+		{
+			1723122,
+			20,
+			0
+		},
+		{
+			1723123,
+			30,
+			1
+		},
+		{
+			1723124,
+			15,
+			0
+		},
+		{
+			1723125,
+			20,
+			0
+		},
+		{
+			1723126,
+			30,
+			1
+		},
+		{
+			1723127,
+			15,
+			0
+		},
+		{
+			1723128,
+			20,
+			0
+		},
+		{
+			1723129,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1723102,
+		1723105,
+		1723108,
+		1723122,
+		1723125,
+		1723128
+	},
+	ai_expedition_list = {
+		1723303,
+		1723304
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1723113
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		1
+	},
+	ai_refresh = {
+		2,
+		0,
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			7,
+			9,
+			true,
+			6
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			6
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			6
+		},
+		{
+			7,
+			3,
+			true,
+			4
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			0,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			false,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			6
+		},
+		{
+			6,
+			1,
+			true,
+			6
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			false,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			6
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			4
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			4
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			4
+		},
+		{
+			4,
+			9,
+			false,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			16
+		},
+		{
+			4,
+			1,
+			true,
+			4
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			6
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			4
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			12
+		},
+		{
+			3,
+			1,
+			false,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			8
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			6
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			12
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			false,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			12
+		},
+		{
+			1,
+			9,
+			true,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			8
+		},
+		{
+			1,
+			7,
+			false,
+			0
+		},
+		{
+			1,
+			6,
+			false,
+			0
+		},
+		{
+			1,
+			5,
+			false,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			0
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			0
+		},
+		{
+			1,
+			0,
+			true,
+			0
+		},
+		{
+			0,
+			9,
+			true,
+			0
+		},
+		{
+			0,
+			8,
+			true,
+			0
+		},
+		{
+			0,
+			7,
+			true,
+			6
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			true,
+			1
+		},
+		{
+			0,
+			1,
+			true,
+			1
+		},
+		{
+			0,
+			0,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			7,
+			0,
+			"bisimaiz_blue_1x1_2",
+			0,
+			0
+		},
+		{
+			6,
+			5,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		},
+		{
+			4,
+			9,
+			"bisimaiz_red_1x2_1",
+			13,
+			-35
+		},
+		{
+			3,
+			4,
+			"bisimaiz_red_sp",
+			46,
+			37
+		},
+		{
+			3,
+			1,
+			"bisimaiz_red_1x2_2",
+			0,
+			22
+		},
+		{
+			1,
+			5,
+			"bisimaiz_red_3x1_1",
+			120,
+			11
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bsmz_t5",
+		45,
+		20,
+		-129,
+		-377,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		9,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {
+		200433
+	},
+	wall_prefab = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[1720026] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 6,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1720026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				6,
+				0,
+				0
+			},
+			{
+				2,
+				"quzhu",
+				0
+			}
+		},
+		{
+			{
+				5,
+				0,
+				0
+			},
+			{
+				3,
+				"quzhu",
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			100
+		},
+		{
+			"cannon",
+			1,
+			1600
+		},
+		{
+			"dodge",
+			1,
+			950
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1723201,
+			15,
+			0
+		},
+		{
+			1723202,
+			20,
+			0
+		},
+		{
+			1723203,
+			30,
+			1
+		},
+		{
+			1723204,
+			15,
+			0
+		},
+		{
+			1723205,
+			20,
+			0
+		},
+		{
+			1723206,
+			30,
+			1
+		},
+		{
+			1723207,
+			15,
+			0
+		},
+		{
+			1723208,
+			20,
+			0
+		},
+		{
+			1723209,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1723202,
+		1723205,
+		1723208
+	},
+	ai_expedition_list = {
+		1723305,
+		1723306
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1723213
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		1
+	},
+	ai_refresh = {
+		2,
+		0,
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			6
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			1
+		},
+		{
+			7,
+			4,
+			true,
+			1
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			6
+		},
+		{
+			7,
+			0,
+			true,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			12
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			12
+		},
+		{
+			6,
+			1,
+			false,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			6
+		},
+		{
+			5,
+			8,
+			false,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			12
+		},
+		{
+			5,
+			5,
+			true,
+			16
+		},
+		{
+			5,
+			4,
+			true,
+			16
+		},
+		{
+			5,
+			3,
+			true,
+			12
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			false,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			6
+		},
+		{
+			4,
+			9,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			4
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			8
+		},
+		{
+			4,
+			4,
+			true,
+			8
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			4
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			4
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			4
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			4
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			4
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			6
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			6
+		},
+		{
+			1,
+			9,
+			false,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			6
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			6
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			6
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			6
+		},
+		{
+			1,
+			0,
+			false,
+			0
+		},
+		{
+			0,
+			9,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			false,
+			0
+		},
+		{
+			0,
+			7,
+			false,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			false,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			5,
+			8,
+			"bisimaiz_red_1x2_1",
+			0,
+			-52
+		},
+		{
+			5,
+			1,
+			"bisimaiz_red_1x2_1",
+			0,
+			-52
+		},
+		{
+			3,
+			4,
+			"bisimaiz_red_sp",
+			46,
+			37
+		},
+		{
+			1,
+			9,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		},
+		{
+			1,
+			0,
+			"bisimaiz_red_1x1_2",
+			0,
+			0
+		},
+		{
+			0,
+			7,
+			"bisimaiz_red_3x1_1",
+			109,
+			10
+		},
+		{
+			0,
+			0,
+			"bisimaiz_red_3x1_1",
+			109,
+			10
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bsmz_t6",
+		45,
+		20,
+		-282,
+		-29,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		9,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {
+		200434
+	},
+	wall_prefab = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[1720041] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 7,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1720041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			110
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1724001,
+			15,
+			0
+		},
+		{
+			1724002,
+			20,
+			0
+		},
+		{
+			1724003,
+			30,
+			1
+		},
+		{
+			1724004,
+			15,
+			0
+		},
+		{
+			1724005,
+			20,
+			0
+		},
+		{
+			1724006,
+			30,
+			1
+		},
+		{
+			1724007,
+			15,
+			0
+		},
+		{
+			1724008,
+			20,
+			0
+		},
+		{
+			1724009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {},
+	elite_expedition_list = {
+		1724002,
+		1724005,
+		1724008
+	},
+	ai_expedition_list = {
+		1
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1724013
+	},
+	enemy_refresh = {
+		0,
+		0,
+		0,
+		0,
+		10
+	},
+	elite_refresh = {
+		0,
+		0,
+		0,
+		0,
+		4
+	},
+	ai_refresh = {
+		0
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			6
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			1
+		},
+		{
+			7,
+			4,
+			true,
+			1
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			6
+		},
+		{
+			7,
+			0,
+			true,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			false,
+			0
+		},
+		{
+			6,
+			0,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			6
+		},
+		{
+			5,
+			8,
+			false,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			16
+		},
+		{
+			5,
+			4,
+			true,
+			16
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			false,
+			0
+		},
+		{
+			5,
+			0,
+			true,
+			6
+		},
+		{
+			4,
+			9,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			4
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			8
+		},
+		{
+			4,
+			4,
+			true,
+			8
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			4
+		},
+		{
+			4,
+			0,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			4
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			4
+		},
+		{
+			3,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			0,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			6
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			0,
+			true,
+			6
+		},
+		{
+			1,
+			9,
+			false,
+			0
+		},
+		{
+			1,
+			8,
+			true,
+			6
+		},
+		{
+			1,
+			7,
+			true,
+			0
+		},
+		{
+			1,
+			6,
+			true,
+			6
+		},
+		{
+			1,
+			5,
+			true,
+			0
+		},
+		{
+			1,
+			4,
+			true,
+			0
+		},
+		{
+			1,
+			3,
+			true,
+			6
+		},
+		{
+			1,
+			2,
+			true,
+			0
+		},
+		{
+			1,
+			1,
+			true,
+			6
+		},
+		{
+			1,
+			0,
+			false,
+			0
+		},
+		{
+			0,
+			9,
+			false,
+			0
+		},
+		{
+			0,
+			8,
+			false,
+			0
+		},
+		{
+			0,
+			7,
+			false,
+			0
+		},
+		{
+			0,
+			6,
+			true,
+			0
+		},
+		{
+			0,
+			5,
+			true,
+			0
+		},
+		{
+			0,
+			4,
+			true,
+			0
+		},
+		{
+			0,
+			3,
+			true,
+			0
+		},
+		{
+			0,
+			2,
+			false,
+			0
+		},
+		{
+			0,
+			1,
+			false,
+			0
+		},
+		{
+			0,
+			0,
+			false,
+			0
+		}
+	},
+	float_items = {
+		{
+			5,
+			8,
+			"bisimaiz_blue_1x2_1",
+			0,
+			-52
+		},
+		{
+			5,
+			1,
+			"bisimaiz_blue_1x2_1",
+			0,
+			-52
+		},
+		{
+			3,
+			4,
+			"bisimaiz_blue_sp",
+			46,
+			37
+		},
+		{
+			1,
+			9,
+			"bisimaiz_blue_1x1_2",
+			0,
+			0
+		},
+		{
+			1,
+			0,
+			"bisimaiz_blue_1x1_2",
+			0,
+			0
+		},
+		{
+			0,
+			7,
+			"bisimaiz_blue_3x1_1",
+			109,
+			10
+		},
+		{
+			0,
+			0,
+			"bisimaiz_blue_3x1_1",
+			109,
+			10
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bsmz_sp",
+		45,
+		20,
+		-282,
+		-29,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		9,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {},
+	land_based = {},
+	chapter_strategy = {
+		200434
+	},
+	wall_prefab = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[1730001] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 4,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
 	id = 1730001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -346732,27 +356777,28 @@ _G.pg.base.chapter_template_loop[1730001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1730002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1730002,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1730002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -347258,27 +357304,28 @@ _G.pg.base.chapter_template_loop[1730002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1730003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1730003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1730003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -347909,26 +357956,27 @@ _G.pg.base.chapter_template_loop[1730003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1740001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1740001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1740001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -348580,26 +358628,27 @@ _G.pg.base.chapter_template_loop[1740001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1740002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1740002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1740002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -349357,26 +359406,27 @@ _G.pg.base.chapter_template_loop[1740002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1740003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1740003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1740003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -350184,26 +360234,27 @@ _G.pg.base.chapter_template_loop[1740003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1740004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1740004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1740004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -350773,26 +360824,27 @@ _G.pg.base.chapter_template_loop[1740004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1740005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1740005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1740005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -351604,26 +361656,27 @@ _G.pg.base.chapter_template_loop[1740005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1740006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1740006,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1740006,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -353097,26 +363150,27 @@ _G.pg.base.chapter_template_loop[1740006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1740021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1740021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1740021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -353809,26 +363863,27 @@ _G.pg.base.chapter_template_loop[1740021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1740022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1740022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1740022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -354627,26 +364682,27 @@ _G.pg.base.chapter_template_loop[1740022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1740023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1740023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1740023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -355495,26 +365551,27 @@ _G.pg.base.chapter_template_loop[1740023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1740024] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1740024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1740024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -356125,26 +366182,27 @@ _G.pg.base.chapter_template_loop[1740024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1740025] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1740025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1740025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -356999,26 +367057,27 @@ _G.pg.base.chapter_template_loop[1740025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1740026] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1740026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1740026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -358535,26 +368594,27 @@ _G.pg.base.chapter_template_loop[1740026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1740041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1740041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1740041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -359310,26 +369370,27 @@ _G.pg.base.chapter_template_loop[1740041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1770001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1770001,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1770001,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -359939,26 +370000,27 @@ _G.pg.base.chapter_template_loop[1770001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1770002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1770002,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1770002,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -360529,26 +370591,27 @@ _G.pg.base.chapter_template_loop[1770002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1770003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1770003,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1770003,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -361166,26 +371229,27 @@ _G.pg.base.chapter_template_loop[1770003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1770004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1770004,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1770004,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -361818,26 +371882,27 @@ _G.pg.base.chapter_template_loop[1770004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1770005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1770005,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1770005,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -362586,26 +372651,27 @@ _G.pg.base.chapter_template_loop[1770005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[1770041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 24,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 1770041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 24,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 1770041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -363409,27 +373475,28 @@ _G.pg.base.chapter_template_loop[1770041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 10,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100001,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100001,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -363854,27 +373921,28 @@ _G.pg.base.chapter_template_loop[2100001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 11,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100002,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100002,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.65,
@@ -364355,27 +374423,28 @@ _G.pg.base.chapter_template_loop[2100002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 12,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100003,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100003,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.64,
@@ -364924,27 +374993,28 @@ _G.pg.base.chapter_template_loop[2100003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100004] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 12,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100004,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100004,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -365443,27 +375513,28 @@ _G.pg.base.chapter_template_loop[2100004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100005] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 13,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100005,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100005,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -366064,27 +376135,28 @@ _G.pg.base.chapter_template_loop[2100005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100006] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 14,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100006,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100006,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.52,
@@ -366679,27 +376751,28 @@ _G.pg.base.chapter_template_loop[2100006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100011] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 14,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100011,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100011,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -367165,27 +377238,28 @@ _G.pg.base.chapter_template_loop[2100011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100012] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 15,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100012,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100012,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.65,
@@ -367707,27 +377781,28 @@ _G.pg.base.chapter_template_loop[2100012] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100013] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 16,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100013,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100013,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.64,
@@ -368318,27 +378393,28 @@ _G.pg.base.chapter_template_loop[2100013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100014] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 15,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100014,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100014,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -368879,27 +378955,28 @@ _G.pg.base.chapter_template_loop[2100014] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100015] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 16,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100015,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100015,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -369542,27 +379619,28 @@ _G.pg.base.chapter_template_loop[2100015] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100016] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 17,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100016,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100016,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.52,
@@ -370198,27 +380276,28 @@ _G.pg.base.chapter_template_loop[2100016] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100021] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100021,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100021,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -370599,27 +380678,28 @@ _G.pg.base.chapter_template_loop[2100021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100022] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100022,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100022,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.65,
@@ -371062,27 +381142,28 @@ _G.pg.base.chapter_template_loop[2100022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100023] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100023,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100023,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.64,
@@ -371615,27 +381696,28 @@ _G.pg.base.chapter_template_loop[2100023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100024] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100024,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100024,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -372191,27 +382273,28 @@ _G.pg.base.chapter_template_loop[2100024] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100025] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100025,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100025,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -372785,27 +382868,28 @@ _G.pg.base.chapter_template_loop[2100025] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100026] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100026,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100026,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -373554,27 +383638,28 @@ _G.pg.base.chapter_template_loop[2100026] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100031] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100031,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100031,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -373996,27 +384081,28 @@ _G.pg.base.chapter_template_loop[2100031] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100032] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100032,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100032,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.65,
@@ -374500,27 +384586,28 @@ _G.pg.base.chapter_template_loop[2100032] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100033] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100033,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100033,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.64,
@@ -375094,27 +385181,28 @@ _G.pg.base.chapter_template_loop[2100033] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100034] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100034,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100034,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -375711,27 +385799,28 @@ _G.pg.base.chapter_template_loop[2100034] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100035] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100035,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100035,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -376346,27 +386435,28 @@ _G.pg.base.chapter_template_loop[2100035] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100036] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100036,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100036,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -377156,28 +387246,29 @@ _G.pg.base.chapter_template_loop[2100036] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100041] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100041,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -377618,28 +387709,29 @@ _G.pg.base.chapter_template_loop[2100041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100042] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100042,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100042,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -378220,28 +388312,29 @@ _G.pg.base.chapter_template_loop[2100042] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100043] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100043,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100043,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -378789,28 +388882,29 @@ _G.pg.base.chapter_template_loop[2100043] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100044] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100044,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100044,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -379476,28 +389570,29 @@ _G.pg.base.chapter_template_loop[2100044] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100045] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100045,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100045,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -379958,28 +390053,29 @@ _G.pg.base.chapter_template_loop[2100045] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100046] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100046,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100046,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -380448,28 +390544,29 @@ _G.pg.base.chapter_template_loop[2100046] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100047] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100047,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100047,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -380993,28 +391090,29 @@ _G.pg.base.chapter_template_loop[2100047] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100048] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100048,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100048,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -381694,28 +391792,29 @@ _G.pg.base.chapter_template_loop[2100048] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100051] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100051,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100051,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -382197,28 +392296,29 @@ _G.pg.base.chapter_template_loop[2100051] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100052] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100052,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100052,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -382842,28 +392942,29 @@ _G.pg.base.chapter_template_loop[2100052] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100053] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100053,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100053,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -383452,28 +393553,29 @@ _G.pg.base.chapter_template_loop[2100053] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100054] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 17,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100054,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100054,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -384180,28 +394282,29 @@ _G.pg.base.chapter_template_loop[2100054] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100055] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100055,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100055,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -384703,28 +394806,29 @@ _G.pg.base.chapter_template_loop[2100055] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100056] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 17,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100056,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100056,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -385234,28 +395338,29 @@ _G.pg.base.chapter_template_loop[2100056] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100057] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 17,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100057,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100057,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -385820,28 +395925,29 @@ _G.pg.base.chapter_template_loop[2100057] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100058] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 18,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100058,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 18,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100058,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -386562,28 +396668,29 @@ _G.pg.base.chapter_template_loop[2100058] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100061] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 12,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100061,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 12,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100061,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -387052,28 +397159,29 @@ _G.pg.base.chapter_template_loop[2100061] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100062] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 12,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100062,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 12,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100062,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.65,
@@ -387603,28 +397711,29 @@ _G.pg.base.chapter_template_loop[2100062] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100063] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 13,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100063,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 13,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100063,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.64,
@@ -388244,28 +398353,29 @@ _G.pg.base.chapter_template_loop[2100063] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100064] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 14,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100064,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 14,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100064,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -388824,28 +398934,29 @@ _G.pg.base.chapter_template_loop[2100064] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100065] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 14,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100065,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 14,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100065,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -389545,28 +399656,29 @@ _G.pg.base.chapter_template_loop[2100065] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100066] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 15,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100066,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 15,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100066,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -390438,28 +400550,29 @@ _G.pg.base.chapter_template_loop[2100066] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100071] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 14,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100071,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 14,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100071,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -390969,28 +401082,29 @@ _G.pg.base.chapter_template_loop[2100071] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100072] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 15,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100072,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 15,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100072,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.65,
@@ -391561,28 +401675,29 @@ _G.pg.base.chapter_template_loop[2100072] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100073] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 16,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100073,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 16,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100073,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.64,
@@ -392243,28 +402358,29 @@ _G.pg.base.chapter_template_loop[2100073] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100074] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 17,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100074,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 17,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100074,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -392864,28 +402980,29 @@ _G.pg.base.chapter_template_loop[2100074] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100075] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 18,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100075,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 18,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100075,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -393626,28 +403743,29 @@ _G.pg.base.chapter_template_loop[2100075] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100076] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 19,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100076,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 19,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100076,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -394560,27 +404678,28 @@ _G.pg.base.chapter_template_loop[2100076] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100081] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100081,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100081,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -395010,27 +405129,28 @@ _G.pg.base.chapter_template_loop[2100081] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100082] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100082,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100082,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -395566,27 +405686,28 @@ _G.pg.base.chapter_template_loop[2100082] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100083] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100083,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100083,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -396234,27 +406355,28 @@ _G.pg.base.chapter_template_loop[2100083] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100084] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100084,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100084,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -396696,27 +406818,28 @@ _G.pg.base.chapter_template_loop[2100084] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100085] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100085,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100085,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -397264,27 +407387,28 @@ _G.pg.base.chapter_template_loop[2100085] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100086] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100086,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100086,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -397954,27 +408078,28 @@ _G.pg.base.chapter_template_loop[2100086] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100091] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100091,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100091,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -398445,27 +408570,28 @@ _G.pg.base.chapter_template_loop[2100091] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100092] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100092,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100092,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -399042,27 +409168,28 @@ _G.pg.base.chapter_template_loop[2100092] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100093] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100093,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100093,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -399751,27 +409878,28 @@ _G.pg.base.chapter_template_loop[2100093] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100094] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100094,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100094,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -400256,27 +410384,28 @@ _G.pg.base.chapter_template_loop[2100094] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100095] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100095,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100095,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -400867,27 +410996,28 @@ _G.pg.base.chapter_template_loop[2100095] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100096] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100096,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100096,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -401600,27 +411730,28 @@ _G.pg.base.chapter_template_loop[2100096] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100101] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100101,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100101,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -402105,27 +412236,28 @@ _G.pg.base.chapter_template_loop[2100101] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100102] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100102,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100102,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -402574,27 +412706,28 @@ _G.pg.base.chapter_template_loop[2100102] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100103] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100103,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100103,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -403141,27 +413274,28 @@ _G.pg.base.chapter_template_loop[2100103] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100104] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100104,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100104,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -403708,27 +413842,28 @@ _G.pg.base.chapter_template_loop[2100104] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100105] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100105,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100105,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -404325,27 +414460,28 @@ _G.pg.base.chapter_template_loop[2100105] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100106] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100106,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100106,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -405003,27 +415139,28 @@ _G.pg.base.chapter_template_loop[2100106] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100111] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100111,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100111,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -405550,27 +415687,28 @@ _G.pg.base.chapter_template_loop[2100111] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100112] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100112,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100112,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -406061,27 +416199,28 @@ _G.pg.base.chapter_template_loop[2100112] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100113] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100113,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100113,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -406670,27 +416809,28 @@ _G.pg.base.chapter_template_loop[2100113] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100114] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100114,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100114,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -407279,27 +417419,28 @@ _G.pg.base.chapter_template_loop[2100114] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100115] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100115,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100115,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -407940,27 +418081,28 @@ _G.pg.base.chapter_template_loop[2100115] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100116] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100116,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100116,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -408662,27 +418804,28 @@ _G.pg.base.chapter_template_loop[2100116] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100121] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100121,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100121,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -409166,27 +419309,28 @@ _G.pg.base.chapter_template_loop[2100121] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100122] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100122,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100122,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -409641,27 +419785,28 @@ _G.pg.base.chapter_template_loop[2100122] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100123] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100123,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100123,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -410208,27 +420353,28 @@ _G.pg.base.chapter_template_loop[2100123] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100124] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100124,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100124,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -410781,27 +420927,28 @@ _G.pg.base.chapter_template_loop[2100124] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100125] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100125,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100125,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -411397,27 +421544,28 @@ _G.pg.base.chapter_template_loop[2100125] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100126] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100126,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100126,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -411979,27 +422127,28 @@ _G.pg.base.chapter_template_loop[2100126] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100131] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100131,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100131,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -412525,27 +422674,28 @@ _G.pg.base.chapter_template_loop[2100131] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100132] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100132,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100132,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -413042,27 +423192,28 @@ _G.pg.base.chapter_template_loop[2100132] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100133] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100133,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100133,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -413651,27 +423802,28 @@ _G.pg.base.chapter_template_loop[2100133] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100134] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100134,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100134,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -414266,27 +424418,28 @@ _G.pg.base.chapter_template_loop[2100134] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100135] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100135,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100135,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -414926,27 +425079,28 @@ _G.pg.base.chapter_template_loop[2100135] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100136] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100136,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100136,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -415552,27 +425706,6814 @@ _G.pg.base.chapter_template_loop[2100136] = {
 	alarm_cell = {}
 }
 
-_G.pg.base.chapter_template_loop[2100201] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
+
+_G.pg.base.chapter_template_loop[2100141] = {
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100141,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1230001,
+			15,
+			0
+		},
+		{
+			1230002,
+			20,
+			0
+		},
+		{
+			1230003,
+			30,
+			1
+		},
+		{
+			1230004,
+			15,
+			0
+		},
+		{
+			1230005,
+			20,
+			0
+		},
+		{
+			1230006,
+			30,
+			1
+		},
+		{
+			1230007,
+			15,
+			0
+		},
+		{
+			1230008,
+			20,
+			0
+		},
+		{
+			1230009,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1230010,
+		1230011,
+		1230012
+	},
+	elite_expedition_list = {
+		1230005,
+		1230008
+	},
+	ai_expedition_list = {
+		1230222
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1230013
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		0,
+		0,
+		0
+	},
+	ai_refresh = {
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			8,
+			8,
+			true,
+			0
+		},
+		{
+			8,
+			7,
+			true,
+			8
+		},
+		{
+			8,
+			6,
+			true,
+			6
+		},
+		{
+			8,
+			5,
+			true,
+			0
+		},
+		{
+			8,
+			4,
+			true,
+			0
+		},
+		{
+			8,
+			3,
+			true,
+			0
+		},
+		{
+			8,
+			2,
+			true,
+			1
+		},
+		{
+			8,
+			1,
+			true,
+			1
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			12
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			6
+		},
+		{
+			7,
+			3,
+			true,
+			6
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			1
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			false,
+			0
+		},
+		{
+			6,
+			4,
+			false,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			4
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			6
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			false,
+			0
+		},
+		{
+			5,
+			4,
+			false,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			16
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			false,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			4
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			8
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			false,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			4
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			6
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			6
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			false,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			6,
+			4,
+			"2x2_1bisimai",
+			50,
+			75
+		},
+		{
+			4,
+			7,
+			"1x1_1bisimai",
+			-2,
+			5
+		},
+		{
+			4,
+			2,
+			"1x2_2bisimai",
+			0,
+			39
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bisimai",
+		45,
+		20,
+		-190,
+		103,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		4,
+		22,
+		102,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[2100142] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 4,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100142,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1230101,
+			15,
+			0
+		},
+		{
+			1230102,
+			20,
+			0
+		},
+		{
+			1230103,
+			30,
+			1
+		},
+		{
+			1230104,
+			15,
+			0
+		},
+		{
+			1230105,
+			20,
+			0
+		},
+		{
+			1230106,
+			30,
+			1
+		},
+		{
+			1230107,
+			15,
+			0
+		},
+		{
+			1230108,
+			20,
+			0
+		},
+		{
+			1230109,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1230110,
+		1230111,
+		1230112
+	},
+	elite_expedition_list = {
+		1230105,
+		1230108
+	},
+	ai_expedition_list = {
+		1230233,
+		1230234
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1230113
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		0,
+		0,
+		0
+	},
+	ai_refresh = {
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			8,
+			8,
+			true,
+			8
+		},
+		{
+			8,
+			7,
+			false,
+			0
+		},
+		{
+			8,
+			6,
+			true,
+			0
+		},
+		{
+			8,
+			5,
+			true,
+			6
+		},
+		{
+			8,
+			4,
+			true,
+			0
+		},
+		{
+			8,
+			3,
+			true,
+			1
+		},
+		{
+			8,
+			2,
+			true,
+			1
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			false,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			12
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			4
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			6
+		},
+		{
+			6,
+			2,
+			false,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			6
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			6
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			4
+		},
+		{
+			4,
+			6,
+			true,
+			6
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			16
+		},
+		{
+			4,
+			3,
+			true,
+			6
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			false,
+			0
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			6
+		},
+		{
+			2,
+			8,
+			true,
+			8
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			8,
+			7,
+			"1x2_1bisimai",
+			0,
+			46
+		},
+		{
+			6,
+			2,
+			"1x1_1bisimai",
+			0,
+			0
+		},
+		{
+			3,
+			5,
+			"1x3_1bisimai",
+			135,
+			15
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bisimai",
+		45,
+		20,
+		-280,
+		117,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		4,
+		22,
+		102,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[2100143] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 4,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100143,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1230201,
+			15,
+			0
+		},
+		{
+			1230202,
+			20,
+			0
+		},
+		{
+			1230203,
+			30,
+			1
+		},
+		{
+			1230204,
+			15,
+			0
+		},
+		{
+			1230205,
+			20,
+			0
+		},
+		{
+			1230206,
+			30,
+			1
+		},
+		{
+			1230207,
+			15,
+			0
+		},
+		{
+			1230208,
+			20,
+			0
+		},
+		{
+			1230209,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1230210,
+		1230211,
+		1230212
+	},
+	elite_expedition_list = {
+		1230205,
+		1230208
+	},
+	ai_expedition_list = {
+		1230244,
+		1230245,
+		1230246
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1230213
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		0,
+		0,
+		0
+	},
+	ai_refresh = {
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			8,
+			10,
+			true,
+			0
+		},
+		{
+			8,
+			9,
+			true,
+			0
+		},
+		{
+			8,
+			8,
+			true,
+			0
+		},
+		{
+			8,
+			7,
+			true,
+			0
+		},
+		{
+			8,
+			6,
+			true,
+			8
+		},
+		{
+			8,
+			5,
+			true,
+			0
+		},
+		{
+			8,
+			4,
+			true,
+			0
+		},
+		{
+			8,
+			3,
+			true,
+			6
+		},
+		{
+			8,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			10,
+			true,
+			0
+		},
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			6
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			false,
+			0
+		},
+		{
+			7,
+			4,
+			false,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			10,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			false,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			false,
+			0
+		},
+		{
+			6,
+			4,
+			false,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			6
+		},
+		{
+			5,
+			10,
+			true,
+			8
+		},
+		{
+			5,
+			9,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			4
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			16
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			10,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			6
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			false,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			6
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			6
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			10,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			12
+		},
+		{
+			3,
+			6,
+			false,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			1
+		},
+		{
+			2,
+			10,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			4
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			true,
+			12
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			1
+		},
+		{
+			2,
+			2,
+			true,
+			1
+		}
+	},
+	float_items = {
+		{
+			7,
+			4,
+			"2x2_1bisimai",
+			41,
+			68
+		},
+		{
+			6,
+			9,
+			"1x3_1bisimai",
+			42,
+			13
+		},
+		{
+			4,
+			6,
+			"1x2_1bisimai",
+			0,
+			55
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bisimai",
+		45,
+		20,
+		-363,
+		-182,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		4,
+		22,
+		102,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[2100144] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 4,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100144,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1230301,
+			15,
+			0
+		},
+		{
+			1230302,
+			20,
+			0
+		},
+		{
+			1230303,
+			30,
+			1
+		},
+		{
+			1230304,
+			15,
+			0
+		},
+		{
+			1230305,
+			20,
+			0
+		},
+		{
+			1230306,
+			30,
+			1
+		},
+		{
+			1230307,
+			15,
+			0
+		},
+		{
+			1230308,
+			20,
+			0
+		},
+		{
+			1230309,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1230310,
+		1230311,
+		1230312
+	},
+	elite_expedition_list = {
+		1230305,
+		1230308
+	},
+	ai_expedition_list = {
+		1230522
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1230313
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		1
+	},
+	ai_refresh = {
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			8,
+			9,
+			true,
+			0
+		},
+		{
+			8,
+			8,
+			false,
+			0
+		},
+		{
+			8,
+			7,
+			true,
+			0
+		},
+		{
+			8,
+			6,
+			true,
+			6
+		},
+		{
+			8,
+			5,
+			true,
+			0
+		},
+		{
+			8,
+			4,
+			true,
+			1
+		},
+		{
+			8,
+			3,
+			true,
+			1
+		},
+		{
+			8,
+			2,
+			false,
+			0
+		},
+		{
+			8,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			false,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			6
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			false,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			6
+		},
+		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			4
+		},
+		{
+			6,
+			5,
+			true,
+			6
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			12
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			4
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			6
+		},
+		{
+			5,
+			1,
+			true,
+			12
+		},
+		{
+			4,
+			9,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			false,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			8
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			false,
+			0
+		},
+		{
+			4,
+			4,
+			false,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			16
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			false,
+			0
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			6
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			6
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			12
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			8
+		}
+	},
+	float_items = {
+		{
+			7,
+			8,
+			"1x2_2bisimai",
+			0,
+			-23
+		},
+		{
+			7,
+			2,
+			"1x2_1bisimai",
+			0,
+			-22
+		},
+		{
+			3,
+			8,
+			"2x3_1bisimai",
+			-46,
+			-34
+		},
+		{
+			3,
+			4,
+			"2x2_1bisimai",
+			53,
+			0
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bisimai",
+		45,
+		20,
+		-216,
+		101,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		5,
+		22,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[2100145] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 5,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100145,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1230401,
+			15,
+			0
+		},
+		{
+			1230402,
+			20,
+			0
+		},
+		{
+			1230403,
+			30,
+			1
+		},
+		{
+			1230404,
+			15,
+			0
+		},
+		{
+			1230405,
+			20,
+			0
+		},
+		{
+			1230406,
+			30,
+			1
+		},
+		{
+			1230407,
+			15,
+			0
+		},
+		{
+			1230408,
+			20,
+			0
+		},
+		{
+			1230409,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1230410,
+		1230411,
+		1230412
+	},
+	elite_expedition_list = {
+		1230405,
+		1230408
+	},
+	ai_expedition_list = {
+		1230533,
+		1230534
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1230413
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		1
+	},
+	ai_refresh = {
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			8,
+			10,
+			true,
+			0
+		},
+		{
+			8,
+			9,
+			true,
+			0
+		},
+		{
+			8,
+			8,
+			true,
+			4
+		},
+		{
+			8,
+			7,
+			true,
+			0
+		},
+		{
+			8,
+			6,
+			true,
+			0
+		},
+		{
+			8,
+			5,
+			false,
+			0
+		},
+		{
+			8,
+			4,
+			true,
+			8
+		},
+		{
+			8,
+			3,
+			true,
+			0
+		},
+		{
+			8,
+			2,
+			true,
+			0
+		},
+		{
+			8,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			10,
+			false,
+			0
+		},
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			4
+		},
+		{
+			7,
+			5,
+			false,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			6
+		},
+		{
+			7,
+			2,
+			true,
+			6
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			6,
+			10,
+			true,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			6
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			16
+		},
+		{
+			6,
+			5,
+			true,
+			4
+		},
+		{
+			6,
+			4,
+			true,
+			12
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			10,
+			true,
+			6
+		},
+		{
+			5,
+			9,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			4
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			6
+		},
+		{
+			4,
+			10,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			6
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			false,
+			0
+		},
+		{
+			4,
+			5,
+			false,
+			0
+		},
+		{
+			4,
+			4,
+			false,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			10,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			6
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			8
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			false,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			12
+		},
+		{
+			2,
+			10,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			1
+		},
+		{
+			2,
+			5,
+			true,
+			1
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			false,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			8,
+			5,
+			"1x2_2bisimai",
+			0,
+			54
+		},
+		{
+			7,
+			10,
+			"1x1_1bisimai",
+			0,
+			6
+		},
+		{
+			4,
+			5,
+			"1x3_1bisimai",
+			31,
+			14
+		},
+		{
+			3,
+			2,
+			"1x2_1bisimai",
+			0,
+			43
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bisimai",
+		45,
+		20,
+		-336,
+		-69,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		5,
+		22,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[2100146] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 5,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100146,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {},
+	property_limitation = {},
+	expedition_id_weight_list = {
+		{
+			1230501,
+			15,
+			0
+		},
+		{
+			1230502,
+			20,
+			0
+		},
+		{
+			1230503,
+			30,
+			1
+		},
+		{
+			1230504,
+			15,
+			0
+		},
+		{
+			1230505,
+			20,
+			0
+		},
+		{
+			1230506,
+			30,
+			1
+		},
+		{
+			1230507,
+			15,
+			0
+		},
+		{
+			1230508,
+			20,
+			0
+		},
+		{
+			1230509,
+			30,
+			1
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1230510,
+		1230511,
+		1230512
+	},
+	elite_expedition_list = {
+		1230505,
+		1230508
+	},
+	ai_expedition_list = {
+		1230544,
+		1230545,
+		1230546
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1230513
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		1
+	},
+	ai_refresh = {
+		2
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			8,
+			9,
+			true,
+			0
+		},
+		{
+			8,
+			8,
+			true,
+			0
+		},
+		{
+			8,
+			7,
+			true,
+			6
+		},
+		{
+			8,
+			6,
+			true,
+			12
+		},
+		{
+			8,
+			5,
+			true,
+			6
+		},
+		{
+			8,
+			4,
+			true,
+			0
+		},
+		{
+			8,
+			3,
+			false,
+			0
+		},
+		{
+			8,
+			2,
+			true,
+			4
+		},
+		{
+			8,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			6
+		},
+		{
+			7,
+			4,
+			true,
+			4
+		},
+		{
+			7,
+			3,
+			false,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			4
+		},
+		{
+			6,
+			9,
+			false,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			6
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			16
+		},
+		{
+			6,
+			3,
+			true,
+			6
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			1
+		},
+		{
+			5,
+			9,
+			true,
+			8
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			false,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			4
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			false,
+			0
+		},
+		{
+			4,
+			8,
+			false,
+			0
+		},
+		{
+			4,
+			7,
+			false,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			6
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			1
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			6
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			12
+		},
+		{
+			3,
+			3,
+			true,
+			6
+		},
+		{
+			3,
+			2,
+			true,
+			4
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			12
+		}
+	},
+	float_items = {
+		{
+			8,
+			3,
+			"1x2_2bisimai",
+			0,
+			41
+		},
+		{
+			6,
+			8,
+			"1x3_1bisimai",
+			26,
+			2
+		},
+		{
+			5,
+			4,
+			"1x1_1bisimai",
+			0,
+			6
+		},
+		{
+			4,
+			8,
+			"1x3_1bisimai",
+			31,
+			18
+		},
+		{
+			2,
+			5,
+			"2x3_1bisimai",
+			-43,
+			-19
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bisimai",
+		45,
+		20,
+		-218,
+		5,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		5,
+		22,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[2100151] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 4,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100151,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				5,
+				0,
+				0
+			},
+			{
+				3,
+				0,
+				0
+			}
+		},
+		{
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			75
+		},
+		{
+			"cannon",
+			1,
+			700
+		},
+		{
+			"dodge",
+			1,
+			400
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1230601,
+			5,
+			0
+		},
+		{
+			1230602,
+			25,
+			0
+		},
+		{
+			1230603,
+			35,
+			0
+		},
+		{
+			1230604,
+			5,
+			0
+		},
+		{
+			1230605,
+			25,
+			0
+		},
+		{
+			1230606,
+			35,
+			0
+		},
+		{
+			1230607,
+			5,
+			0
+		},
+		{
+			1230608,
+			25,
+			0
+		},
+		{
+			1230609,
+			35,
+			0
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1230610,
+		1230611,
+		1230612
+	},
+	elite_expedition_list = {
+		1230606,
+		1230608
+	},
+	ai_expedition_list = {
+		1230823,
+		1230824
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1230613
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		0
+	},
+	ai_refresh = {
+		2
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			8,
+			8,
+			true,
+			0
+		},
+		{
+			8,
+			7,
+			true,
+			8
+		},
+		{
+			8,
+			6,
+			true,
+			6
+		},
+		{
+			8,
+			5,
+			true,
+			0
+		},
+		{
+			8,
+			4,
+			true,
+			0
+		},
+		{
+			8,
+			3,
+			true,
+			0
+		},
+		{
+			8,
+			2,
+			true,
+			1
+		},
+		{
+			8,
+			1,
+			true,
+			1
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			12
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			6
+		},
+		{
+			7,
+			3,
+			true,
+			6
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			1
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			false,
+			0
+		},
+		{
+			6,
+			4,
+			false,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			4
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			6
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			false,
+			0
+		},
+		{
+			5,
+			4,
+			false,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			16
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			false,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			4
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			8
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			false,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			4
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			6
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			6
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			false,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			6,
+			4,
+			"2x2_1bisimai",
+			50,
+			75
+		},
+		{
+			4,
+			7,
+			"1x1_1bisimai",
+			-2,
+			5
+		},
+		{
+			4,
+			2,
+			"1x2_2bisimai",
+			0,
+			39
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bisimai",
+		45,
+		20,
+		-190,
+		103,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		7,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[2100152] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 4,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100152,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				5,
+				0,
+				0
+			},
+			{
+				3,
+				0,
+				0
+			}
+		},
+		{
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			80
+		},
+		{
+			"cannon",
+			1,
+			800
+		},
+		{
+			"dodge",
+			1,
+			500
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1230701,
+			5,
+			0
+		},
+		{
+			1230702,
+			25,
+			0
+		},
+		{
+			1230703,
+			35,
+			0
+		},
+		{
+			1230704,
+			5,
+			0
+		},
+		{
+			1230705,
+			25,
+			0
+		},
+		{
+			1230706,
+			35,
+			0
+		},
+		{
+			1230707,
+			5,
+			0
+		},
+		{
+			1230708,
+			25,
+			0
+		},
+		{
+			1230709,
+			35,
+			0
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1230710,
+		1230711,
+		1230712
+	},
+	elite_expedition_list = {
+		1230706,
+		1230708
+	},
+	ai_expedition_list = {
+		1230834,
+		1230835,
+		1230836
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1230713
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		0
+	},
+	ai_refresh = {
+		2
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			8,
+			8,
+			true,
+			8
+		},
+		{
+			8,
+			7,
+			false,
+			0
+		},
+		{
+			8,
+			6,
+			true,
+			0
+		},
+		{
+			8,
+			5,
+			true,
+			6
+		},
+		{
+			8,
+			4,
+			true,
+			0
+		},
+		{
+			8,
+			3,
+			true,
+			1
+		},
+		{
+			8,
+			2,
+			true,
+			1
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			false,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			12
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			4
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			6
+		},
+		{
+			6,
+			2,
+			false,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			6
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			6
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			4
+		},
+		{
+			4,
+			6,
+			true,
+			6
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			16
+		},
+		{
+			4,
+			3,
+			true,
+			6
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			false,
+			0
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			6
+		},
+		{
+			2,
+			8,
+			true,
+			8
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			8,
+			7,
+			"1x2_1bisimai",
+			0,
+			46
+		},
+		{
+			6,
+			2,
+			"1x1_1bisimai",
+			0,
+			0
+		},
+		{
+			3,
+			5,
+			"1x3_1bisimai",
+			135,
+			15
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bisimai",
+		45,
+		20,
+		-280,
+		117,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		7,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[2100153] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 5,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100153,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				5,
+				0,
+				0
+			},
+			{
+				3,
+				0,
+				0
+			}
+		},
+		{
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			85
+		},
+		{
+			"cannon",
+			1,
+			950
+		},
+		{
+			"torpedo",
+			1,
+			1100
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1230801,
+			5,
+			0
+		},
+		{
+			1230802,
+			25,
+			0
+		},
+		{
+			1230803,
+			35,
+			0
+		},
+		{
+			1230804,
+			5,
+			0
+		},
+		{
+			1230805,
+			25,
+			0
+		},
+		{
+			1230806,
+			35,
+			0
+		},
+		{
+			1230807,
+			5,
+			0
+		},
+		{
+			1230808,
+			25,
+			0
+		},
+		{
+			1230809,
+			35,
+			0
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1230810,
+		1230811,
+		1230812
+	},
+	elite_expedition_list = {
+		1230806,
+		1230808
+	},
+	ai_expedition_list = {
+		1230845,
+		1230846,
+		1230847,
+		1230848
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1230813
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		0
+	},
+	ai_refresh = {
+		2
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			8,
+			10,
+			true,
+			0
+		},
+		{
+			8,
+			9,
+			true,
+			0
+		},
+		{
+			8,
+			8,
+			true,
+			0
+		},
+		{
+			8,
+			7,
+			true,
+			0
+		},
+		{
+			8,
+			6,
+			true,
+			8
+		},
+		{
+			8,
+			5,
+			true,
+			0
+		},
+		{
+			8,
+			4,
+			true,
+			0
+		},
+		{
+			8,
+			3,
+			true,
+			6
+		},
+		{
+			8,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			10,
+			true,
+			0
+		},
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			6
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			false,
+			0
+		},
+		{
+			7,
+			4,
+			false,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			10,
+			false,
+			0
+		},
+		{
+			6,
+			9,
+			false,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			0
+		},
+		{
+			6,
+			5,
+			false,
+			0
+		},
+		{
+			6,
+			4,
+			false,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			6
+		},
+		{
+			5,
+			10,
+			true,
+			8
+		},
+		{
+			5,
+			9,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			4
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			16
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			10,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			6
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			false,
+			0
+		},
+		{
+			4,
+			5,
+			true,
+			6
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			6
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			3,
+			10,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			12
+		},
+		{
+			3,
+			6,
+			false,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			1
+		},
+		{
+			2,
+			10,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			4
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			true,
+			12
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			1
+		},
+		{
+			2,
+			2,
+			true,
+			1
+		}
+	},
+	float_items = {
+		{
+			7,
+			4,
+			"2x2_1bisimai",
+			41,
+			68
+		},
+		{
+			6,
+			9,
+			"1x3_1bisimai",
+			42,
+			13
+		},
+		{
+			4,
+			6,
+			"1x2_1bisimai",
+			0,
+			55
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bisimai",
+		45,
+		20,
+		-363,
+		-182,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		7,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[2100154] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 5,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100154,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				5,
+				5,
+				0
+			},
+			{
+				3,
+				0,
+				0
+			}
+		},
+		{
+			{
+				4,
+				7,
+				0
+			},
+			{
+				2,
+				0,
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			90
+		},
+		{
+			"cannon",
+			1,
+			1200
+		},
+		{
+			"dodge",
+			1,
+			600
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1230901,
+			2,
+			0
+		},
+		{
+			1230902,
+			43,
+			0
+		},
+		{
+			1230903,
+			55,
+			0
+		},
+		{
+			1230904,
+			2,
+			0
+		},
+		{
+			1230905,
+			43,
+			0
+		},
+		{
+			1230906,
+			55,
+			0
+		},
+		{
+			1230907,
+			2,
+			0
+		},
+		{
+			1230908,
+			43,
+			0
+		},
+		{
+			1230909,
+			55,
+			0
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1230910,
+		1230911,
+		1230912
+	},
+	elite_expedition_list = {
+		1230906,
+		1230909
+	},
+	ai_expedition_list = {
+		1231223,
+		1231224
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1230913
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		1
+	},
+	ai_refresh = {
+		2
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			8,
+			9,
+			true,
+			0
+		},
+		{
+			8,
+			8,
+			false,
+			0
+		},
+		{
+			8,
+			7,
+			true,
+			0
+		},
+		{
+			8,
+			6,
+			true,
+			6
+		},
+		{
+			8,
+			5,
+			true,
+			0
+		},
+		{
+			8,
+			4,
+			true,
+			1
+		},
+		{
+			8,
+			3,
+			true,
+			1
+		},
+		{
+			8,
+			2,
+			false,
+			0
+		},
+		{
+			8,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			false,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			6
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			0
+		},
+		{
+			7,
+			2,
+			false,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			6
+		},
+		{
+			6,
+			8,
+			true,
+			0
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			4
+		},
+		{
+			6,
+			5,
+			true,
+			6
+		},
+		{
+			6,
+			4,
+			true,
+			0
+		},
+		{
+			6,
+			3,
+			true,
+			12
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			9,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			4
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			6
+		},
+		{
+			5,
+			1,
+			true,
+			12
+		},
+		{
+			4,
+			9,
+			true,
+			0
+		},
+		{
+			4,
+			8,
+			false,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			8
+		},
+		{
+			4,
+			6,
+			true,
+			0
+		},
+		{
+			4,
+			5,
+			false,
+			0
+		},
+		{
+			4,
+			4,
+			false,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			16
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			false,
+			0
+		},
+		{
+			3,
+			7,
+			false,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			6
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			false,
+			0
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			true,
+			6
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			true,
+			0
+		},
+		{
+			2,
+			4,
+			true,
+			12
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			8
+		}
+	},
+	float_items = {
+		{
+			7,
+			8,
+			"1x2_2bisimai",
+			0,
+			-23
+		},
+		{
+			7,
+			2,
+			"1x2_1bisimai",
+			0,
+			-22
+		},
+		{
+			3,
+			8,
+			"2x3_1bisimai",
+			-46,
+			-34
+		},
+		{
+			3,
+			4,
+			"2x2_1bisimai",
+			53,
+			0
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bisimai",
+		45,
+		20,
+		-216,
+		101,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		9,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[2100155] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 6,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100155,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				5,
+				5,
+				0
+			},
+			{
+				3,
+				0,
+				0
+			}
+		},
+		{
+			{
+				4,
+				7,
+				0
+			},
+			{
+				2,
+				0,
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			95
+		},
+		{
+			"air",
+			1,
+			1300
+		},
+		{
+			"antisub",
+			1,
+			650
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1231001,
+			2,
+			0
+		},
+		{
+			1231002,
+			43,
+			0
+		},
+		{
+			1231003,
+			55,
+			0
+		},
+		{
+			1231004,
+			2,
+			0
+		},
+		{
+			1231005,
+			43,
+			0
+		},
+		{
+			1231006,
+			55,
+			0
+		},
+		{
+			1231007,
+			2,
+			0
+		},
+		{
+			1231008,
+			43,
+			0
+		},
+		{
+			1231009,
+			55,
+			0
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1231010,
+		1231011,
+		1231012
+	},
+	elite_expedition_list = {
+		1231006,
+		1231009
+	},
+	ai_expedition_list = {
+		1231234,
+		1231235,
+		1231236
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1231013
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		1
+	},
+	ai_refresh = {
+		2,
+		0,
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			8,
+			10,
+			true,
+			0
+		},
+		{
+			8,
+			9,
+			true,
+			0
+		},
+		{
+			8,
+			8,
+			true,
+			4
+		},
+		{
+			8,
+			7,
+			true,
+			0
+		},
+		{
+			8,
+			6,
+			true,
+			0
+		},
+		{
+			8,
+			5,
+			false,
+			0
+		},
+		{
+			8,
+			4,
+			true,
+			8
+		},
+		{
+			8,
+			3,
+			true,
+			0
+		},
+		{
+			8,
+			2,
+			true,
+			0
+		},
+		{
+			8,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			10,
+			false,
+			0
+		},
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			4
+		},
+		{
+			7,
+			5,
+			false,
+			0
+		},
+		{
+			7,
+			4,
+			true,
+			0
+		},
+		{
+			7,
+			3,
+			true,
+			6
+		},
+		{
+			7,
+			2,
+			true,
+			6
+		},
+		{
+			7,
+			1,
+			true,
+			0
+		},
+		{
+			6,
+			10,
+			true,
+			0
+		},
+		{
+			6,
+			9,
+			true,
+			6
+		},
+		{
+			6,
+			8,
+			true,
+			6
+		},
+		{
+			6,
+			7,
+			true,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			16
+		},
+		{
+			6,
+			5,
+			true,
+			4
+		},
+		{
+			6,
+			4,
+			true,
+			12
+		},
+		{
+			6,
+			3,
+			true,
+			0
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			0
+		},
+		{
+			5,
+			10,
+			true,
+			6
+		},
+		{
+			5,
+			9,
+			true,
+			0
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			4
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			true,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			0
+		},
+		{
+			5,
+			1,
+			true,
+			6
+		},
+		{
+			4,
+			10,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			true,
+			6
+		},
+		{
+			4,
+			8,
+			true,
+			0
+		},
+		{
+			4,
+			7,
+			true,
+			0
+		},
+		{
+			4,
+			6,
+			false,
+			0
+		},
+		{
+			4,
+			5,
+			false,
+			0
+		},
+		{
+			4,
+			4,
+			false,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			0
+		},
+		{
+			3,
+			10,
+			true,
+			0
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			6
+		},
+		{
+			3,
+			7,
+			true,
+			0
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			true,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			8
+		},
+		{
+			3,
+			3,
+			true,
+			0
+		},
+		{
+			3,
+			2,
+			false,
+			0
+		},
+		{
+			3,
+			1,
+			true,
+			12
+		},
+		{
+			2,
+			10,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			1
+		},
+		{
+			2,
+			5,
+			true,
+			1
+		},
+		{
+			2,
+			4,
+			true,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			false,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			0
+		}
+	},
+	float_items = {
+		{
+			8,
+			5,
+			"1x2_2bisimai",
+			0,
+			54
+		},
+		{
+			7,
+			10,
+			"1x1_1bisimai",
+			0,
+			6
+		},
+		{
+			4,
+			5,
+			"1x3_1bisimai",
+			31,
+			14
+		},
+		{
+			3,
+			2,
+			"1x2_1bisimai",
+			0,
+			43
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bisimai",
+		45,
+		20,
+		-336,
+		-69,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		9,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[2100156] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 6,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100156,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
+	uifx = "",
+	scale = {
+		0.34,
+		0.53,
+		1.5
+	},
+	limitation = {
+		{
+			{
+				5,
+				5,
+				0
+			},
+			{
+				3,
+				0,
+				0
+			}
+		},
+		{
+			{
+				4,
+				7,
+				0
+			},
+			{
+				2,
+				0,
+				0
+			}
+		}
+	},
+	property_limitation = {
+		{
+			"level",
+			1,
+			100
+		},
+		{
+			"cannon",
+			1,
+			1500
+		},
+		{
+			"torpedo",
+			1,
+			1400
+		}
+	},
+	expedition_id_weight_list = {
+		{
+			1231101,
+			2,
+			0
+		},
+		{
+			1231102,
+			43,
+			0
+		},
+		{
+			1231103,
+			55,
+			0
+		},
+		{
+			1231104,
+			2,
+			0
+		},
+		{
+			1231105,
+			43,
+			0
+		},
+		{
+			1231106,
+			55,
+			0
+		},
+		{
+			1231107,
+			2,
+			0
+		},
+		{
+			1231108,
+			43,
+			0
+		},
+		{
+			1231109,
+			55,
+			0
+		}
+	},
+	ambush_expedition_list = {},
+	guarder_expedition_list = {
+		1231110,
+		1231111,
+		1231112
+	},
+	elite_expedition_list = {
+		1231106,
+		1231109
+	},
+	ai_expedition_list = {
+		1231245,
+		1231246,
+		1231247,
+		1231248
+	},
+	patrolai_expedition_list = {
+		1
+	},
+	submarine_expedition_list = {
+		1
+	},
+	boss_expedition_id = {
+		1231113
+	},
+	enemy_refresh = {
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
+	},
+	elite_refresh = {
+		1,
+		0,
+		1,
+		0,
+		1
+	},
+	ai_refresh = {
+		2,
+		0,
+		1
+	},
+	patrolai_refresh = {
+		0
+	},
+	submarine_refresh = {
+		0
+	},
+	grids = {
+		{
+			8,
+			9,
+			true,
+			0
+		},
+		{
+			8,
+			8,
+			true,
+			0
+		},
+		{
+			8,
+			7,
+			true,
+			6
+		},
+		{
+			8,
+			6,
+			true,
+			12
+		},
+		{
+			8,
+			5,
+			true,
+			6
+		},
+		{
+			8,
+			4,
+			true,
+			0
+		},
+		{
+			8,
+			3,
+			false,
+			0
+		},
+		{
+			8,
+			2,
+			true,
+			4
+		},
+		{
+			8,
+			1,
+			true,
+			0
+		},
+		{
+			7,
+			9,
+			true,
+			0
+		},
+		{
+			7,
+			8,
+			true,
+			0
+		},
+		{
+			7,
+			7,
+			true,
+			0
+		},
+		{
+			7,
+			6,
+			true,
+			0
+		},
+		{
+			7,
+			5,
+			true,
+			6
+		},
+		{
+			7,
+			4,
+			true,
+			4
+		},
+		{
+			7,
+			3,
+			false,
+			0
+		},
+		{
+			7,
+			2,
+			true,
+			0
+		},
+		{
+			7,
+			1,
+			true,
+			4
+		},
+		{
+			6,
+			9,
+			false,
+			0
+		},
+		{
+			6,
+			8,
+			false,
+			0
+		},
+		{
+			6,
+			7,
+			false,
+			0
+		},
+		{
+			6,
+			6,
+			true,
+			6
+		},
+		{
+			6,
+			5,
+			true,
+			0
+		},
+		{
+			6,
+			4,
+			true,
+			16
+		},
+		{
+			6,
+			3,
+			true,
+			6
+		},
+		{
+			6,
+			2,
+			true,
+			0
+		},
+		{
+			6,
+			1,
+			true,
+			1
+		},
+		{
+			5,
+			9,
+			true,
+			8
+		},
+		{
+			5,
+			8,
+			true,
+			0
+		},
+		{
+			5,
+			7,
+			true,
+			0
+		},
+		{
+			5,
+			6,
+			true,
+			0
+		},
+		{
+			5,
+			5,
+			true,
+			0
+		},
+		{
+			5,
+			4,
+			false,
+			0
+		},
+		{
+			5,
+			3,
+			true,
+			0
+		},
+		{
+			5,
+			2,
+			true,
+			4
+		},
+		{
+			5,
+			1,
+			true,
+			0
+		},
+		{
+			4,
+			9,
+			false,
+			0
+		},
+		{
+			4,
+			8,
+			false,
+			0
+		},
+		{
+			4,
+			7,
+			false,
+			0
+		},
+		{
+			4,
+			6,
+			true,
+			6
+		},
+		{
+			4,
+			5,
+			true,
+			0
+		},
+		{
+			4,
+			4,
+			true,
+			0
+		},
+		{
+			4,
+			3,
+			true,
+			0
+		},
+		{
+			4,
+			2,
+			true,
+			0
+		},
+		{
+			4,
+			1,
+			true,
+			1
+		},
+		{
+			3,
+			9,
+			true,
+			0
+		},
+		{
+			3,
+			8,
+			true,
+			0
+		},
+		{
+			3,
+			7,
+			true,
+			6
+		},
+		{
+			3,
+			6,
+			true,
+			0
+		},
+		{
+			3,
+			5,
+			false,
+			0
+		},
+		{
+			3,
+			4,
+			true,
+			12
+		},
+		{
+			3,
+			3,
+			true,
+			6
+		},
+		{
+			3,
+			2,
+			true,
+			4
+		},
+		{
+			3,
+			1,
+			true,
+			0
+		},
+		{
+			2,
+			9,
+			true,
+			0
+		},
+		{
+			2,
+			8,
+			true,
+			0
+		},
+		{
+			2,
+			7,
+			true,
+			0
+		},
+		{
+			2,
+			6,
+			true,
+			0
+		},
+		{
+			2,
+			5,
+			false,
+			0
+		},
+		{
+			2,
+			4,
+			false,
+			0
+		},
+		{
+			2,
+			3,
+			true,
+			0
+		},
+		{
+			2,
+			2,
+			true,
+			0
+		},
+		{
+			2,
+			1,
+			true,
+			12
+		}
+	},
+	float_items = {
+		{
+			8,
+			3,
+			"1x2_2bisimai",
+			0,
+			41
+		},
+		{
+			6,
+			8,
+			"1x3_1bisimai",
+			26,
+			2
+		},
+		{
+			5,
+			4,
+			"1x1_1bisimai",
+			0,
+			6
+		},
+		{
+			4,
+			8,
+			"1x3_1bisimai",
+			31,
+			18
+		},
+		{
+			2,
+			5,
+			"2x3_1bisimai",
+			-43,
+			-19
+		}
+	},
+	ambush_event_ratio = {},
+	ambush_ratio_extra = {},
+	theme = {
+		"sea_bisimai",
+		45,
+		20,
+		-218,
+		5,
+		100,
+		100,
+		4,
+		4,
+		""
+	},
+	box_list = {},
+	random_box_list = {
+		9,
+		23,
+		103,
+		1004,
+		5001
+	},
+	box_refresh = {
+		0
+	},
+	npc_data = {},
+	special_operation_list = {
+		47,
+		48
+	},
+	land_based = {},
+	chapter_strategy = {},
+	alarm_cell = {}
+}
+
+
+_G.pg.base.chapter_template_loop[2100201] = {
+	pop_pic = "",
+	air_dominance_loop_rate = 80,
+	boss_refresh = 3,
+	is_limit_move = 0,
+	bgm = "&&",
+	is_air_attack = 0,
+	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
 	id = 2100201,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
+	time = 43200,
+	slg_effect = "",
+	chapter_fx = "",
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -416029,27 +432970,28 @@ _G.pg.base.chapter_template_loop[2100201] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100202] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100202,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100202,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -416519,27 +433461,28 @@ _G.pg.base.chapter_template_loop[2100202] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100203] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100203,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100203,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -417032,27 +433975,28 @@ _G.pg.base.chapter_template_loop[2100203] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100204] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100204,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100204,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -417558,27 +434502,28 @@ _G.pg.base.chapter_template_loop[2100204] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100205] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100205,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100205,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -418133,27 +435078,28 @@ _G.pg.base.chapter_template_loop[2100205] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100206] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100206,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100206,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -418667,27 +435613,28 @@ _G.pg.base.chapter_template_loop[2100206] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100211] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100211,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100211,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -419186,27 +436133,28 @@ _G.pg.base.chapter_template_loop[2100211] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100212] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100212,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100212,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -419719,27 +436667,28 @@ _G.pg.base.chapter_template_loop[2100212] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100213] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100213,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100213,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -420275,27 +437224,28 @@ _G.pg.base.chapter_template_loop[2100213] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100214] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100214,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100214,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -420843,27 +437793,28 @@ _G.pg.base.chapter_template_loop[2100214] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100215] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100215,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100215,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -421462,27 +438413,28 @@ _G.pg.base.chapter_template_loop[2100215] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100216] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100216,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100216,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -422040,26 +438992,27 @@ _G.pg.base.chapter_template_loop[2100216] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100221] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100221,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 2100221,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -422488,26 +439441,27 @@ _G.pg.base.chapter_template_loop[2100221] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100222] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100222,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 2100222,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -422965,26 +439919,27 @@ _G.pg.base.chapter_template_loop[2100222] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100223] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100223,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 2100223,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -423462,26 +440417,27 @@ _G.pg.base.chapter_template_loop[2100223] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100224] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100224,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 2100224,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -423996,26 +440952,27 @@ _G.pg.base.chapter_template_loop[2100224] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100225] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100225,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 2100225,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -424518,26 +441475,27 @@ _G.pg.base.chapter_template_loop[2100225] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100226] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100226,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 2100226,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -425108,26 +442066,27 @@ _G.pg.base.chapter_template_loop[2100226] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100231] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100231,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 2100231,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -425598,26 +442557,27 @@ _G.pg.base.chapter_template_loop[2100231] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100232] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100232,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 2100232,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -426117,26 +443077,27 @@ _G.pg.base.chapter_template_loop[2100232] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100233] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100233,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 2100233,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -426657,26 +443618,27 @@ _G.pg.base.chapter_template_loop[2100233] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100234] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100234,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 2100234,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -427233,26 +444195,27 @@ _G.pg.base.chapter_template_loop[2100234] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100235] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100235,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 2100235,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -427799,26 +444762,27 @@ _G.pg.base.chapter_template_loop[2100235] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100236] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100236,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 2100236,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -428433,26 +445397,27 @@ _G.pg.base.chapter_template_loop[2100236] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100241] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 3,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100241,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 3,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100241,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -428919,26 +445884,27 @@ _G.pg.base.chapter_template_loop[2100241] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100242] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100242,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100242,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -429434,26 +446400,27 @@ _G.pg.base.chapter_template_loop[2100242] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100243] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100243,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100243,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -429961,26 +446928,27 @@ _G.pg.base.chapter_template_loop[2100243] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100244] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100244,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100244,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -430478,26 +447446,27 @@ _G.pg.base.chapter_template_loop[2100244] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100245] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100245,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100245,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -431297,26 +448266,27 @@ _G.pg.base.chapter_template_loop[2100245] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100246] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100246,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100246,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -432784,26 +449754,27 @@ _G.pg.base.chapter_template_loop[2100246] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100251] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100251,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100251,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -433312,26 +450283,27 @@ _G.pg.base.chapter_template_loop[2100251] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100252] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 4,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100252,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 4,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100252,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -433869,26 +450841,27 @@ _G.pg.base.chapter_template_loop[2100252] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100253] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100253,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100253,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -434439,26 +451412,27 @@ _G.pg.base.chapter_template_loop[2100253] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100254] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 5,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100254,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 5,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100254,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -434997,26 +451971,27 @@ _G.pg.base.chapter_template_loop[2100254] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100255] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100255,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100255,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -435859,26 +452834,27 @@ _G.pg.base.chapter_template_loop[2100255] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100256] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 6,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2100256,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 6,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100256,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -437389,26 +454365,27 @@ _G.pg.base.chapter_template_loop[2100256] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100301] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100301,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100301,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -437969,26 +454946,27 @@ _G.pg.base.chapter_template_loop[2100301] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100302] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100302,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100302,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -438539,26 +455517,27 @@ _G.pg.base.chapter_template_loop[2100302] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100303] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100303,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100303,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -439101,26 +456080,27 @@ _G.pg.base.chapter_template_loop[2100303] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100304] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100304,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100304,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -439758,26 +456738,27 @@ _G.pg.base.chapter_template_loop[2100304] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100305] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100305,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100305,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -440460,26 +457441,27 @@ _G.pg.base.chapter_template_loop[2100305] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100306] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100306,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100306,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -441327,26 +458309,27 @@ _G.pg.base.chapter_template_loop[2100306] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100311] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100311,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100311,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -441948,26 +458931,27 @@ _G.pg.base.chapter_template_loop[2100311] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100312] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 13,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100312,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100312,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -442559,26 +459543,27 @@ _G.pg.base.chapter_template_loop[2100312] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100313] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100313,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100313,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -443164,26 +460149,27 @@ _G.pg.base.chapter_template_loop[2100313] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100314] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100314,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100314,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -443862,26 +460848,27 @@ _G.pg.base.chapter_template_loop[2100314] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100315] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 15,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100315,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100315,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -444607,26 +461594,27 @@ _G.pg.base.chapter_template_loop[2100315] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2100316] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2100316,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2100316,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -445517,27 +462505,28 @@ _G.pg.base.chapter_template_loop[2100316] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200001] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 8,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 2,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200001,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200001,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -445822,27 +462811,28 @@ _G.pg.base.chapter_template_loop[2200001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200002] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 9,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200002,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200002,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.53,
@@ -446210,27 +463200,28 @@ _G.pg.base.chapter_template_loop[2200002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200003] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 10,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200003,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200003,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.52,
@@ -446628,27 +463619,28 @@ _G.pg.base.chapter_template_loop[2200003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200011] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 8,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200011,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200011,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -447120,27 +464112,28 @@ _G.pg.base.chapter_template_loop[2200011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200012] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 9,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200012,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200012,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.49,
@@ -447711,27 +464704,28 @@ _G.pg.base.chapter_template_loop[2200012] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200013] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 10,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200013,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200013,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.61,
@@ -448360,27 +465354,28 @@ _G.pg.base.chapter_template_loop[2200013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200021] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 9,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200021,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200021,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -448960,27 +465955,28 @@ _G.pg.base.chapter_template_loop[2200021] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200022] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 10,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200022,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200022,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.49,
@@ -449575,27 +466571,28 @@ _G.pg.base.chapter_template_loop[2200022] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200023] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 11,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200023,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200023,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.61,
@@ -450197,27 +467194,28 @@ _G.pg.base.chapter_template_loop[2200023] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200031] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 12,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200031,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200031,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -450615,27 +467613,28 @@ _G.pg.base.chapter_template_loop[2200031] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200032] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 14,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200032,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200032,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.49,
@@ -451094,27 +468093,28 @@ _G.pg.base.chapter_template_loop[2200032] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200033] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 1,
-	avoid_ratio = 16,
-	submarine_num = 0,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200033,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200033,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.61,
@@ -451612,26 +468612,27 @@ _G.pg.base.chapter_template_loop[2200033] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200041] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2200041,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
-	id = 2200041,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -452113,26 +469114,27 @@ _G.pg.base.chapter_template_loop[2200041] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200042] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2200042,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
-	id = 2200042,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -452706,26 +469708,27 @@ _G.pg.base.chapter_template_loop[2200042] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200043] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2200043,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
-	id = 2200043,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -453300,26 +470303,27 @@ _G.pg.base.chapter_template_loop[2200043] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200044] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 11,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2200044,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
-	id = 2200044,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -453895,26 +470899,27 @@ _G.pg.base.chapter_template_loop[2200044] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200045] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2200045,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
-	id = 2200045,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -454485,27 +471490,28 @@ _G.pg.base.chapter_template_loop[2200045] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200082] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 8,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 15,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2200082,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 15,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200082,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -455110,27 +472116,28 @@ _G.pg.base.chapter_template_loop[2200082] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200083] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 9,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 18,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2200083,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 18,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200083,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -455744,27 +472751,28 @@ _G.pg.base.chapter_template_loop[2200083] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200084] = {
-	group_num = 2,
-	is_ai = 1,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 10,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 21,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 2200084,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 21,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200084,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -456373,27 +473381,28 @@ _G.pg.base.chapter_template_loop[2200084] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200091] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 12,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200091,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200091,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -456888,27 +473897,28 @@ _G.pg.base.chapter_template_loop[2200091] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200092] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 14,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200092,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200092,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -457463,27 +474473,28 @@ _G.pg.base.chapter_template_loop[2200092] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[2200093] = {
-	group_num = 2,
-	is_ai = 0,
-	is_ambush = 0,
 	pop_pic = "",
-	model = 2,
-	avoid_ratio = 16,
-	submarine_num = 1,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 2200093,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 2200093,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,
@@ -458035,28 +475046,29 @@ _G.pg.base.chapter_template_loop[2200093] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100001] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100001,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100001,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -458475,28 +475487,29 @@ _G.pg.base.chapter_template_loop[5100001] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100002] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 11,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100002,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100002,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.65,
@@ -458972,28 +475985,29 @@ _G.pg.base.chapter_template_loop[5100002] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100003] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100003,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100003,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.64,
@@ -459537,28 +476551,29 @@ _G.pg.base.chapter_template_loop[5100003] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100004] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100004,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100004,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -460053,28 +477068,29 @@ _G.pg.base.chapter_template_loop[5100004] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100005] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100005,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100005,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -460671,28 +477687,29 @@ _G.pg.base.chapter_template_loop[5100005] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100006] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100006,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100006,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.52,
@@ -461283,28 +478300,29 @@ _G.pg.base.chapter_template_loop[5100006] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100011] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100011,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100011,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -461766,28 +478784,29 @@ _G.pg.base.chapter_template_loop[5100011] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100012] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100012,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100012,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.65,
@@ -462305,28 +479324,29 @@ _G.pg.base.chapter_template_loop[5100012] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100013] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100013,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100013,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.64,
@@ -462913,28 +479933,29 @@ _G.pg.base.chapter_template_loop[5100013] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100014] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100014,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100014,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -463471,28 +480492,29 @@ _G.pg.base.chapter_template_loop[5100014] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100015] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100015,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100015,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.66,
@@ -464131,28 +481153,29 @@ _G.pg.base.chapter_template_loop[5100015] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100016] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 17,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100016,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 17,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100016,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.52,
@@ -464784,28 +481807,29 @@ _G.pg.base.chapter_template_loop[5100016] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100101] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 8,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100101,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100101,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -465231,28 +482255,29 @@ _G.pg.base.chapter_template_loop[5100101] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100102] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 9,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100102,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100102,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -465784,28 +482809,29 @@ _G.pg.base.chapter_template_loop[5100102] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100103] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100103,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100103,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -466449,28 +483475,29 @@ _G.pg.base.chapter_template_loop[5100103] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100104] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100104,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100104,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -466908,28 +483935,29 @@ _G.pg.base.chapter_template_loop[5100104] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100105] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 11,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100105,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100105,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -467473,28 +484501,29 @@ _G.pg.base.chapter_template_loop[5100105] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100106] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100106,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100106,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -468160,28 +485189,29 @@ _G.pg.base.chapter_template_loop[5100106] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100111] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100111,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100111,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -468648,28 +485678,29 @@ _G.pg.base.chapter_template_loop[5100111] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100112] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100112,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100112,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -469242,28 +486273,29 @@ _G.pg.base.chapter_template_loop[5100112] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100113] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100113,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100113,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -469948,28 +486980,29 @@ _G.pg.base.chapter_template_loop[5100113] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100114] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100114,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100114,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -470450,28 +487483,29 @@ _G.pg.base.chapter_template_loop[5100114] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100115] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100115,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100115,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.66,
@@ -471058,28 +488092,29 @@ _G.pg.base.chapter_template_loop[5100115] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100116] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 2,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100116,
+	group_num = 2,
+	fightauto = 1,
+	model = 2,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100116,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.52,
@@ -471788,29 +488823,30 @@ _G.pg.base.chapter_template_loop[5100116] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100200] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 8,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100200,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100200,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.34,
@@ -472277,29 +489313,30 @@ _G.pg.base.chapter_template_loop[5100200] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100201] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 9,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100201,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100201,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.49,
@@ -472865,29 +489902,30 @@ _G.pg.base.chapter_template_loop[5100201] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5100202] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 0,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5100202,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	land_based = "",
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5100202,
+	submarine_num = 0,
 	uifx = "",
 	scale = {
 		0.61,
@@ -473511,28 +490549,29 @@ _G.pg.base.chapter_template_loop[5100202] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000301] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 8,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 5000301,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 8,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000301,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -474017,28 +491056,29 @@ _G.pg.base.chapter_template_loop[5000301] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000302] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 9,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 5000302,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 9,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000302,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -474487,28 +491527,29 @@ _G.pg.base.chapter_template_loop[5000302] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000303] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 5000303,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000303,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -475055,28 +492096,29 @@ _G.pg.base.chapter_template_loop[5000303] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000304] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 10,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 5000304,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 10,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000304,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -475622,28 +492664,29 @@ _G.pg.base.chapter_template_loop[5000304] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000305] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 11,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 5000305,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 11,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000305,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -476239,28 +493282,29 @@ _G.pg.base.chapter_template_loop[5000305] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000306] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 5000306,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000306,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -476917,28 +493961,29 @@ _G.pg.base.chapter_template_loop[5000306] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000311] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 5000311,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000311,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -477465,28 +494510,29 @@ _G.pg.base.chapter_template_loop[5000311] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000312] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 13,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 5000312,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 13,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000312,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -477977,28 +495023,29 @@ _G.pg.base.chapter_template_loop[5000312] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000313] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 5000313,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000313,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -478587,28 +495634,29 @@ _G.pg.base.chapter_template_loop[5000313] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000314] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 5000314,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000314,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -479196,28 +496244,29 @@ _G.pg.base.chapter_template_loop[5000314] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000315] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 15,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 5000315,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 15,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000315,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -479857,28 +496906,29 @@ _G.pg.base.chapter_template_loop[5000315] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000316] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 1,
 	pop_pic = "",
-	group_num = 2,
-	model = 7,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 1,
+	id = 5000316,
+	group_num = 2,
+	fightauto = 1,
+	model = 7,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000316,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -480579,28 +497629,29 @@ _G.pg.base.chapter_template_loop[5000316] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000322] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 12,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5000322,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 12,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000322,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.34,
@@ -481009,28 +498060,29 @@ _G.pg.base.chapter_template_loop[5000322] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000323] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 14,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5000323,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 14,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000323,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.49,
@@ -481500,28 +498552,29 @@ _G.pg.base.chapter_template_loop[5000323] = {
 	alarm_cell = {}
 }
 
+
 _G.pg.base.chapter_template_loop[5000324] = {
 	special_operation_list = "",
-	is_ambush = 0,
-	is_ai = 0,
 	pop_pic = "",
-	group_num = 2,
-	model = 1,
-	avoid_ratio = 16,
-	bgm = "&&",
-	fightauto = 1,
+	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
 	is_limit_move = 0,
-	investigation_ratio = 0,
-	submarine_num = 1,
-	wall_prefab = "",
-	air_dominance_loop_rate = 80,
+	bgm = "&&",
 	is_air_attack = 0,
 	friendly_id = 0,
+	is_ambush = 0,
+	is_ai = 0,
+	id = 5000324,
+	group_num = 2,
+	fightauto = 1,
+	model = 1,
+	investigation_ratio = 0,
+	wall_prefab = "",
+	avoid_ratio = 16,
 	time = 43200,
 	slg_effect = "",
 	chapter_fx = "",
-	id = 5000324,
+	submarine_num = 1,
 	uifx = "",
 	scale = {
 		0.61,

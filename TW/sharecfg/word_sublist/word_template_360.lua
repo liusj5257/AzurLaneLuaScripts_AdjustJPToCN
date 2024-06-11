@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_360 = {}
 slot1 = slot0.word_template_360
 
-function temp()
+temp = function()
 	uv0["呋"] = {
 		["替"] = {
 			["啶"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["酣"] = {
 		["乐"] = {
 			["欣"] = {
@@ -32,7 +32,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["麦"] = {
 		["司"] = {
 			["卡"] = {
@@ -54,7 +54,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["氰"] = {
 		["化"] = {
 			["镉"] = {

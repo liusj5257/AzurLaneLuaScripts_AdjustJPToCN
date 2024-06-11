@@ -1,12 +1,12 @@
 return {
-	id = "W1113",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1113",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "スイッチが上手く作動したようだ。",
 			typewriter = {
 				speed = 0.05,

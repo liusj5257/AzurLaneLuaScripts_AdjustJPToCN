@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AILUNSAMUNA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AILUNSAMUNA6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Three-Star Luxury Romance\n\n<size=45>6.A Surprise Gift</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Allen's work ethic underwent a drastic change ever since she said she'd \"give it one-hundo percent\" at the end of our shopping trip. And indeed, she did.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Allen's work ethic underwent a drastic change ever since she said she'd \"give it one-hundo percent\" at the end of our shopping trip. And indeed, she did.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "The documents you handed me? Already done! C'mon, Commander, keep it together.",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "Look! Left 'em right here~",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "Remember to do your own work too instead of focusing on making sure I do mine. Just saying.",
 			typewriter = {
@@ -101,9 +101,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She didn't need any supervision at all. In fact, the tables had turned. Now I was the one receiving reminders.",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "Boy oh boy, I can't wait to finally have my hands on that sticker set!",
 			typewriter = {
@@ -148,9 +148,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Oh yes. She had her eyes on a three-star luxury massage chair. Although...",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "There's this campaign where if you buy one of these, you get a limited-edition sticker set as a bonus!",
 			effects = {
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 101450,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101450,
+			nameColor = "#a9f548",
 			say = "I've always wanted this set, but I never had the money for it. Thanks a bunch for finally uniting me with these little beauts!",
 			effects = {
 				{
@@ -207,9 +207,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "What she really wanted was the sticker set that came with it as a bonus.",
 			effects = {
 				{
@@ -227,15 +227,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Thank you for your patronyage~ The Manjuus will have your comfy new chair set up in the office shortly, nya.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,8 +263,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "Thanks, Akashi! And you too, Commander!",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -303,9 +303,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "It was a gift for Allen, so naturally that's what I was going to say. But Allen was quicker to answer.",
 			typewriter = {
 				speed = 0.05,
@@ -320,8 +320,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "The commander, duh! You've gotta work your butt off to be worthy of sitting in a massage chair!",
 			typewriter = {
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "I thought so, nya! So it's a gift to reward the commander's hard work, nya? How touching, nya.",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

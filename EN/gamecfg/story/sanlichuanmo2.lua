@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SANLICHUANMO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SANLICHUANMO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Mikasa's Model Museum\n\n<size=45>Chapter 2: The Patient Veteran</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 305110,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "How could this have happened?",
 			bgm = "story-1",
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "How could this have happened?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "I'm so sorry, Miss Mikasaaa! Waaaahhh... I'm sorry I'm such a bad girl! Waaaaaahhhhh!",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
 					x = 0,
@@ -126,12 +126,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "Oy... It's okay, now. Settle down. No more crying, Mutsuki. There there... show me a smile. Smile for a candy~ Coochee coochee coo!",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oy... It's okay, now. Settle down. No more crying, Mutsuki. There there... show me a smile. Smile for a candy~ Coochee coochee coo!",
+			actor = 305110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "That tickles! Ahahaha... it tickles!",
 			typewriter = {
 				speed = 0.05,
@@ -162,16 +162,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.1,
 					x = 0,
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "Um... since I did something bad... I have to find some way to help fix it!",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -238,15 +238,15 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "Unnnff... Nnngg... I just have to move this... over there!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2,
 					dur = 0.2,
 					x = 0,
@@ -281,12 +281,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "Oh my, look at you, Mutsuki!",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh my, look at you, Mutsuki!",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -333,13 +333,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "Before long, Mutsuki had made it across the port.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "I'm here to help!",
 			typewriter = {
 				speed = 0.05,
@@ -376,8 +376,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					x = 0,
@@ -386,12 +386,12 @@ return {
 			}
 		},
 		{
-			actor = 304020,
+			say = "You're so enthusiastic. Our little Mutsuki is growing up.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "You're so enthusiastic. Our little Mutsuki is growing up.",
+			actor = 304020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -438,11 +438,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
+			nameColor = "#a9f548",
 			say = "Oooh! Orange flavor! I love it!",
 			typewriter = {
 				speed = 0.05,
@@ -454,8 +454,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -464,12 +464,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "But I still have a lot of work to do...",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "But I still have a lot of work to do...",
+			actor = 301320,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -484,13 +484,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "The next day...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -527,12 +527,12 @@ return {
 			}
 		},
 		{
-			actor = 301370,
+			say = "Wow! Mutsuki's really pushing it today.",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wow! Mutsuki's really pushing it today.",
+			actor = 301370,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -547,11 +547,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301350,
+			nameColor = "#a9f548",
 			say = "W... wait up. *Pant*... *pant*... so fast...",
 			typewriter = {
 				speed = 0.05,
@@ -563,8 +563,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0,
@@ -605,12 +605,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "Wow~ Mutsuki actually shared her candy with us...",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Wow~ Mutsuki actually shared her candy with us...",
+			actor = 301330,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -641,10 +641,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
+			hideOther = true,
 			dir = 1,
 			actor = 301330,
 			actorName = "{namecode:133}&{namecode:137}&{namecode:34}",

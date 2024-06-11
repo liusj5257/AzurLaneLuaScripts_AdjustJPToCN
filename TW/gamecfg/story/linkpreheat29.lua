@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT29",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"梦幻的交汇\n\n<size=45>爱担心的姐姐</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "巡视完大讲堂和战术教室，正在学院里散步的时候——",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-uta",
+			say = "巡视完大讲堂和战术教室，正在学院里散步的时候——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 10300060,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = " ",
 			typewriter = {
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "看到了微笑着的芙米露露。而她的视线正朝着——",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			actor = 10300010,
 			nameColor = "#a9f548",
 			bgName = "bg_story_school",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			side = 2,
 			say = " ",
 			typewriter = {
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "久远。",
 			typewriter = {
 				speed = 0.05,
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_school",
+			withoutActorName = true,
 			actor = 401230,
-			side = 2,
-			bgName = "bg_story_school",
-			withoutActorName = true,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = " ",
 			typewriter = {
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
+			dir = 1,
+			side = 2,
+			bgName = "bg_story_school",
+			withoutActorName = true,
 			actor = 301050,
-			side = 2,
-			bgName = "bg_story_school",
-			withoutActorName = true,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = " ",
 			typewriter = {
@@ -134,9 +134,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "久远正在和学园的孩子们开心地聊着天。看起来互相都已经很熟悉了呢",
 			typewriter = {
 				speed = 0.05,
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "芙米露露才是怎么了？比起站在远处看着，加入久远她们不是更好么",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "从小我就作为随从侍奉在久酱左右，自认为比谁都了解她",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "是与面对我时露出的表情有所不同的，只会让友人们看到的表情……我只是在守望着这样的她",
 			typewriter = {
@@ -236,9 +236,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "会觉得寂寞吗？还是说……",
 			typewriter = {
 				speed = 0.05,
@@ -249,8 +249,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "不会……久酱有我所不知道的一面……这让我觉得很高兴！",
 			typewriter = {
@@ -279,9 +279,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "那之后——陪着芙米露露聊关于久远的话题陪了大概2个小时",
 			typewriter = {
 				speed = 0.05,

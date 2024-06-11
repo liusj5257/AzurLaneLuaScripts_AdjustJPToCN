@@ -4,14 +4,14 @@ slot0.Fields = {
 	staminaLastRecoverTime = "number",
 	staminaExtra = "number",
 	transform = "userdata",
-	preSelectIndex = "number",
 	updateTimer = "table",
+	preSelectIndex = "number",
 	stamina = "number",
 	UIMain = "userdata"
 }
 slot0.EventUpdateStamina = "WorldStaminaManager.EventUpdateStamina"
 
-function slot0.Build(slot0)
+slot0.Build = function(slot0)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.UIMain = pg.UIMgr.GetInstance().OverlayMain
@@ -47,7 +47,7 @@ function slot0.Build(slot0)
 	end)
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.stamina = slot1[1]
 	slot0.staminaExtra = slot1[2]
 	slot0.staminaLastRecoverTime = slot1[3]
@@ -63,7 +63,7 @@ function slot0.Setup(slot0, slot1)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 
 	if slot0.updateTimer then
@@ -77,18 +77,18 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	slot0.stamina = slot0:GetMaxStamina()
 end
 
-function slot0.ChangeStamina(slot0, slot1, slot2)
+slot0.ChangeStamina = function(slot0, slot1, slot2)
 	slot0.stamina = slot1
 	slot0.staminaExtra = slot2
 
 	slot0:DispatchEvent(uv0.EventUpdateStamina)
 end
 
-function slot0.UpdateStamina(slot0)
+slot0.UpdateStamina = function(slot0)
 	if math.floor((pg.TimeMgr.GetInstance():GetServerTime() - slot0.staminaLastRecoverTime) / pg.gameset.world_movepower_recovery_interval.key_value) > 0 then
 		slot0.staminaLastRecoverTime = slot0.staminaLastRecoverTime + slot3 * slot1
 
@@ -100,13 +100,13 @@ function slot0.UpdateStamina(slot0)
 	end
 end
 
-function slot0.CheckUpdateShow(slot0)
+slot0.CheckUpdateShow = function(slot0)
 	if slot0:IsShowing() then
 		slot0:Show()
 	end
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	slot1 = slot0.transform:Find("window/world_stamina_panel")
 	slot2 = pg.gameset.world_movepower_recovery_interval.key_value
 
@@ -207,42 +207,42 @@ function slot0.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.transform, false)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0.preSelectIndex = nil
 
 	setActive(slot0.transform, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.transform, slot0.UIMain)
 end
 
-function slot0.IsShowing(slot0)
+slot0.IsShowing = function(slot0)
 	return slot0.transform and isActive(slot0.transform) or false
 end
 
-function slot0.GetStamina(slot0)
+slot0.GetStamina = function(slot0)
 	return slot0.stamina
 end
 
-function slot0.GetMaxStamina(slot0)
+slot0.GetMaxStamina = function(slot0)
 	return pg.gameset.world_movepower_maxvalue.key_value
 end
 
-function slot0.GetExtraStamina(slot0)
+slot0.GetExtraStamina = function(slot0)
 	return slot0.staminaExtra
 end
 
-function slot0.GetTotalStamina(slot0)
+slot0.GetTotalStamina = function(slot0)
 	return slot0:GetStamina() + slot0:GetExtraStamina()
 end
 
-function slot0.GetStepStaminaCost(slot0)
+slot0.GetStepStaminaCost = function(slot0)
 	return pg.gameset.world_cell_cost_movepower.key_value
 end
 
-function slot0.GetMaxMoveStep(slot0)
+slot0.GetMaxMoveStep = function(slot0)
 	return math.floor(slot0:GetTotalStamina() / slot0:GetStepStaminaCost())
 end
 
-function slot0.ConsumeStamina(slot0, slot1)
+slot0.ConsumeStamina = function(slot0, slot1)
 	slot0.staminaExtra = slot0.staminaExtra - slot1
 
 	if slot0.staminaExtra < 0 then
@@ -254,14 +254,14 @@ function slot0.ConsumeStamina(slot0, slot1)
 	slot0:DispatchEvent(uv0.EventUpdateStamina)
 end
 
-function slot0.GetExchangeData(slot0)
+slot0.GetExchangeData = function(slot0)
 	slot1 = pg.gameset.world_supply_value.description
 	slot2 = pg.gameset.world_supply_price.description
 
 	return slot1[math.min(#slot1, slot0.staminaExchangeTimes + 1)][1], slot2[math.min(#slot2, slot0.staminaExchangeTimes + 1)][3], #slot2 - slot0.staminaExchangeTimes, #slot2
 end
 
-function slot0.GetExchangeItems(slot0)
+slot0.GetExchangeItems = function(slot0)
 	slot1 = nowWorld():GetInventoryProxy()
 	slot2, slot3, slot4, slot5 = slot0:GetExchangeData()
 	slot6 = {
@@ -299,7 +299,7 @@ function slot0.GetExchangeItems(slot0)
 	return slot6
 end
 
-function slot0.ExchangeStamina(slot0, slot1, slot2)
+slot0.ExchangeStamina = function(slot0, slot1, slot2)
 	slot0.stamina = slot0.stamina + slot1
 
 	if slot2 then
@@ -310,7 +310,7 @@ function slot0.ExchangeStamina(slot0, slot1, slot2)
 	slot0:CheckUpdateShow()
 end
 
-function slot0.GetDisplayStanima(slot0)
+slot0.GetDisplayStanima = function(slot0)
 	return slot0:GetTotalStamina()
 end
 

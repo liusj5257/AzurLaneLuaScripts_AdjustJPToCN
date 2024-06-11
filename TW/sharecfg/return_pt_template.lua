@@ -1,9 +1,9 @@
 pg = pg or {}
 pg.return_pt_template = {
 	{
-		id = 1,
-		pt_require = 50,
 		virtual_item = 59616,
+		pt_require = 50,
+		id = 1,
 		level = {
 			{
 				10,
@@ -42,9 +42,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 2,
-		pt_require = 100,
 		virtual_item = 59616,
+		pt_require = 100,
+		id = 2,
 		level = {
 			{
 				10,
@@ -83,9 +83,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 3,
-		pt_require = 150,
 		virtual_item = 59616,
+		pt_require = 150,
+		id = 3,
 		level = {
 			{
 				10,
@@ -124,9 +124,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 4,
-		pt_require = 200,
 		virtual_item = 59616,
+		pt_require = 200,
+		id = 4,
 		level = {
 			{
 				10,
@@ -165,9 +165,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 5,
-		pt_require = 250,
 		virtual_item = 59616,
+		pt_require = 250,
+		id = 5,
 		level = {
 			{
 				10,
@@ -206,9 +206,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 6,
-		pt_require = 300,
 		virtual_item = 59616,
+		pt_require = 300,
+		id = 6,
 		level = {
 			{
 				10,
@@ -247,9 +247,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 7,
-		pt_require = 350,
 		virtual_item = 59616,
+		pt_require = 350,
+		id = 7,
 		level = {
 			{
 				10,
@@ -288,9 +288,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 8,
-		pt_require = 400,
 		virtual_item = 59616,
+		pt_require = 400,
+		id = 8,
 		level = {
 			{
 				10,
@@ -329,9 +329,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 9,
-		pt_require = 460,
 		virtual_item = 59616,
+		pt_require = 460,
+		id = 9,
 		level = {
 			{
 				10,
@@ -370,9 +370,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 10,
-		pt_require = 520,
 		virtual_item = 59616,
+		pt_require = 520,
+		id = 10,
 		level = {
 			{
 				10,
@@ -411,9 +411,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 11,
-		pt_require = 580,
 		virtual_item = 59616,
+		pt_require = 580,
+		id = 11,
 		level = {
 			{
 				10,
@@ -452,9 +452,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 12,
-		pt_require = 640,
 		virtual_item = 59616,
+		pt_require = 640,
+		id = 12,
 		level = {
 			{
 				10,
@@ -493,9 +493,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 13,
-		pt_require = 700,
 		virtual_item = 59616,
+		pt_require = 700,
+		id = 13,
 		level = {
 			{
 				10,
@@ -534,9 +534,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 14,
-		pt_require = 780,
 		virtual_item = 59616,
+		pt_require = 780,
+		id = 14,
 		level = {
 			{
 				10,
@@ -575,9 +575,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 15,
-		pt_require = 860,
 		virtual_item = 59616,
+		pt_require = 860,
+		id = 15,
 		level = {
 			{
 				10,
@@ -616,9 +616,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 16,
-		pt_require = 940,
 		virtual_item = 59616,
+		pt_require = 940,
+		id = 16,
 		level = {
 			{
 				10,
@@ -657,9 +657,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 17,
-		pt_require = 1020,
 		virtual_item = 59616,
+		pt_require = 1020,
+		id = 17,
 		level = {
 			{
 				10,
@@ -698,9 +698,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 18,
-		pt_require = 1100,
 		virtual_item = 59616,
+		pt_require = 1100,
+		id = 18,
 		level = {
 			{
 				10,
@@ -739,9 +739,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 19,
-		pt_require = 1200,
 		virtual_item = 59616,
+		pt_require = 1200,
+		id = 19,
 		level = {
 			{
 				10,
@@ -780,9 +780,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 20,
-		pt_require = 1300,
 		virtual_item = 59616,
+		pt_require = 1300,
+		id = 20,
 		level = {
 			{
 				10,
@@ -821,9 +821,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 21,
-		pt_require = 1400,
 		virtual_item = 59616,
+		pt_require = 1400,
+		id = 21,
 		level = {
 			{
 				10,
@@ -862,9 +862,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 22,
-		pt_require = 1500,
 		virtual_item = 59616,
+		pt_require = 1500,
+		id = 22,
 		level = {
 			{
 				10,
@@ -903,9 +903,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 23,
-		pt_require = 1600,
 		virtual_item = 59616,
+		pt_require = 1600,
+		id = 23,
 		level = {
 			{
 				10,
@@ -944,9 +944,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 24,
-		pt_require = 1700,
 		virtual_item = 59616,
+		pt_require = 1700,
+		id = 24,
 		level = {
 			{
 				10,
@@ -985,9 +985,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 25,
-		pt_require = 1800,
 		virtual_item = 59616,
+		pt_require = 1800,
+		id = 25,
 		level = {
 			{
 				10,
@@ -1026,9 +1026,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 26,
-		pt_require = 1920,
 		virtual_item = 59616,
+		pt_require = 1920,
+		id = 26,
 		level = {
 			{
 				10,
@@ -1067,9 +1067,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 27,
-		pt_require = 2040,
 		virtual_item = 59616,
+		pt_require = 2040,
+		id = 27,
 		level = {
 			{
 				10,
@@ -1108,9 +1108,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 28,
-		pt_require = 2160,
 		virtual_item = 59616,
+		pt_require = 2160,
+		id = 28,
 		level = {
 			{
 				10,
@@ -1149,9 +1149,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 29,
-		pt_require = 2280,
 		virtual_item = 59616,
+		pt_require = 2280,
+		id = 29,
 		level = {
 			{
 				10,
@@ -1190,9 +1190,9 @@ pg.return_pt_template = {
 		}
 	},
 	{
-		id = 30,
-		pt_require = 2400,
 		virtual_item = 59616,
+		pt_require = 2400,
+		id = 30,
 		level = {
 			{
 				10,

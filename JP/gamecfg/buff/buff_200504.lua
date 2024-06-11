@@ -1,13 +1,13 @@
 return {
-	time = 3,
-	name = "2023古立特联动复刻 TSS4 公主 一阶段",
 	init_effect = "",
-	last_effect = "ATdun_posui",
+	name = "2023古立特联动复刻 TSS4 公主 一阶段",
+	time = 3,
+	last_effect_cld_scale = true,
 	picture = "",
 	desc = "",
 	stack = 1,
 	id = 200504,
-	last_effect_cld_scale = true,
+	last_effect = "ATdun_posui",
 	effect_list = {
 		{
 			type = "BattleBuffAura",

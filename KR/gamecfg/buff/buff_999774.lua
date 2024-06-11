@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "教程 自动鱼雷",
 	time = 0,
-	stack = 1,
+	name = "教程 自动鱼雷",
+	init_effect = "",
 	id = 999774,
 	picture = "",
-	last_effect = "",
+	stack = 1,
 	color = "red",
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -14,9 +14,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 999774,
 				target = "TargetSelf",
-				time = 8,
-				skill_id = 999774
+				time = 8
 			}
 		},
 		{

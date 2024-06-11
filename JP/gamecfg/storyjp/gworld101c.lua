@@ -1,19 +1,19 @@
 return {
-	id = "GWORLD101C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "GWORLD101C",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/12/tb-12",
+			dir = 1,
 			bgm = "level02",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "ホーネットに演習弾の直撃を確認しました",
-			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "やっぱり指揮官もしっかり準備していたわね！見事だったよ！",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "指揮官も知っていると思うけど、今回の作戦の事前偵察でこれまでに「情報がない」セイレーンが観測されたの",
 			typewriter = {
 				speed = 0.05,
@@ -73,9 +73,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "例えば…突然のピンチにはどう対応するかな！？",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -99,11 +99,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/16/tb-16",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "警告です。現在の状況はこちらに不利です。戦闘から撤退してください",
-			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

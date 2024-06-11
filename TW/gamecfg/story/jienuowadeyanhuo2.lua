@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "斜陽西下，從夕暮籠罩的鳶尾教國港口中陸續駛出兩支艦隊，各自向著不同的方向前進著。",
 			side = 2,
 			bgName = "bg_renaya",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-french1",
+			say = "斜陽西下，從夕暮籠罩的鳶尾教國港口中陸續駛出兩支艦隊，各自向著不同的方向前進著。",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -35,8 +35,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "派遣第二支艦隊倒是我最開始沒想到的部分，這下也能讓薩丁帝國品嚐一下多線遇敵的滋味了。",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "哼哼~既然是突襲，自然要把出其不意的精神貫徹到底。雙份的艦隊，雙倍的驚喜~",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "趁著夜色出航吧！到時候薩丁帝國的傢伙們也許還在酣睡中也說不定。",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

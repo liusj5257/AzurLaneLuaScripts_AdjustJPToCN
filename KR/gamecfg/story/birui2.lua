@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"의전함의 연회\n\n<size=45>초대는 격식을 갖춰서</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 304020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "제 기분이 좋아…보인다고요? 그 이유가 궁금하신 건가요?",
 			bgm = "story-1",
+			actor = 304020,
+			nameColor = "#92fc63",
+			say = "제 기분이 좋아…보인다고요? 그 이유가 궁금하신 건가요?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 304020,
+			say = "어머, 고마워요~",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "어머, 고마워요~",
+			actor = 304020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "콘고로부터 금색 레이스가 달린 흰 봉투를 받았다. 무언가의 초대장인 듯하다.",
 			typewriter = {
 				speed = 0.05,
@@ -178,9 +178,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "봉투를 열어보니, 안에는 작은 카드가 들어있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "카드에는 정성스러운 손글씨가 몇 줄 적혀있다.",
 			typewriter = {
 				speed = 0.05,
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "친애하는 지휘관님께,",
 			typewriter = {
 				speed = 0.05,
@@ -208,9 +208,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "언제나 저희 함대를 위해 불철주야 고생하시는 지휘관님의 은덕에 조금이나마 보답하고자, 금요일 19시에 사쿠라 엠파이어의 연회를 개최할 예정입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -218,9 +218,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "바쁘신 와중에 이런 말씀을 드려 대단히 송구스럽습니다만 괜찮으시다면 오는 금요일, 연회에서 지휘관님을 모실 수 있는 영광을 주실 수 있으실지요?",
 			typewriter = {
 				speed = 0.05,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "부디, 연회에 꼭 참석해주시어 자리를 빛내주시길 고대하겠습니다.",
 			typewriter = {
 				speed = 0.05,

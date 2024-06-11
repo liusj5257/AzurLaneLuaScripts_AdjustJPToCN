@@ -299,14 +299,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "北风1",
 	time = 0,
-	color = "red",
+	name = "北风1",
+	init_effect = "",
+	id = 19171,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19171,
+	color = "red",
 	icon = 19170,
 	last_effect = "",
 	effect_list = {

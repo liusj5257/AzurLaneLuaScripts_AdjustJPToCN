@@ -1,6 +1,6 @@
 slot0 = class("IndexLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "IndexUI"
 end
 
@@ -27,7 +27,7 @@ slot0.panelNames = {
 	}
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.panel = slot0:findTF("index_panel")
 	slot4 = "layout/EquipSkinTheme"
 	slot0.displayTFs = {
@@ -59,7 +59,7 @@ function slot0.init(slot0)
 	slot0.yellowSprite = slot0:findTF("resource/yellow", slot0.panel):GetComponent(typeof(Image)).sprite
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnConfirm, function ()
 		if uv0.contextData.callback then
 			uv0.contextData.callback({
@@ -92,7 +92,7 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.initDisplays(slot0)
+slot0.initDisplays = function(slot0)
 	slot1 = {
 		"sort",
 		"index",
@@ -124,7 +124,7 @@ function slot0.initDisplays(slot0)
 	end
 end
 
-function slot0.initEquipSkinSort(slot0)
+slot0.initEquipSkinSort = function(slot0)
 	slot1 = {}
 
 	_.each(IndexConst.EquipSkinSortTypes, function (slot0)
@@ -154,7 +154,7 @@ function slot0.initEquipSkinSort(slot0)
 	slot0.displayList[IndexConst.DisplayEquipSkinSort] = slot3
 end
 
-function slot0.updateEquipSkinSort(slot0)
+slot0.updateEquipSkinSort = function(slot0)
 	slot1 = slot0.displayList[IndexConst.DisplayEquipSkinSort]
 	slot2 = slot0.typeList[IndexConst.DisplayEquipSkinSort]
 
@@ -165,7 +165,7 @@ function slot0.updateEquipSkinSort(slot0)
 	end)
 end
 
-function slot0.initEquipSkinIndex(slot0)
+slot0.initEquipSkinIndex = function(slot0)
 	slot1 = {}
 
 	_.each(IndexConst.EquipSkinIndexTypes, function (slot0)
@@ -195,7 +195,7 @@ function slot0.initEquipSkinIndex(slot0)
 	slot0.displayList[IndexConst.DisplayEquipSkinIndex] = slot3
 end
 
-function slot0.updateEquipSkinIndex(slot0)
+slot0.updateEquipSkinIndex = function(slot0)
 	slot1 = slot0.displayList[IndexConst.DisplayEquipSkinIndex]
 	slot2 = slot0.typeList[IndexConst.DisplayEquipSkinIndex]
 
@@ -206,7 +206,7 @@ function slot0.updateEquipSkinIndex(slot0)
 	end)
 end
 
-function slot0.initEquipSkinTheme(slot0)
+slot0.initEquipSkinTheme = function(slot0)
 	slot1 = {}
 
 	_.each(IndexConst.EquipSkinThemeTypes, function (slot0)
@@ -236,7 +236,7 @@ function slot0.initEquipSkinTheme(slot0)
 	slot0.displayList[IndexConst.DisplayEquipSkinTheme] = slot3
 end
 
-function slot0.updateEquipSkinTheme(slot0)
+slot0.updateEquipSkinTheme = function(slot0)
 	slot1 = slot0.displayList[IndexConst.DisplayEquipSkinTheme]
 	slot2 = slot0.typeList[IndexConst.DisplayEquipSkinTheme]
 
@@ -247,7 +247,7 @@ function slot0.updateEquipSkinTheme(slot0)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	LeanTween.cancel(go(slot0.panel))
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end

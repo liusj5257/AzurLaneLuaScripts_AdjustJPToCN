@@ -1,24 +1,24 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			side = 2,
-			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "doa_daozhong",
 			actor = 900300,
-			actorName = "？？？",
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_106",
 			say = "啊，霞回來了！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "我回來了~",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "啊哈哈，我先介紹一下好了，這幾位是剛才我出去探索時遇到的，Z23、標槍、{namecode:6}，以及拉菲。",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "這邊就是和我一起被帶到這裡的幾位同伴——",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "我是瑪莉蘿絲，叫我瑪莉就可以了！",
 			typewriter = {
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 900301,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900301,
+			nameColor = "#a9f548",
 			say = "初次見面，我是穗香，總之…請多指教！",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -196,8 +196,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900306,
 			dir = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "見習荷官，莫妮卡~請多指教啦，呵呵~",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "我乃女天狗，汝等似乎帶著挺有趣的東西嘛~？",
 			typewriter = {
@@ -227,13 +227,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
+			dir = 1,
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "經過一番交流，雙方都大致了解了彼此目前的狀況。",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "沒錯，一開始還真是有點慌了呢！還好島上應有的設施和物資都很齊全…",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "然後便是這封內容奇怪的信……",
 			typewriter = {
@@ -451,11 +451,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
-			actorName = "終端",
 			dir = 1,
+			actorName = "終端",
 			say = "「遠方的女神<Venus>們，歡迎來到度假之島！」",
 			dialogShake = {
 				speed = 0.09,
@@ -472,8 +472,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "終端",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "終端",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "終端",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -555,8 +555,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "啊哈哈…正好島上有小艇，我就準備在島附近轉轉看看情況，然後就遇到了妳們。",
 			typewriter = {
@@ -572,8 +572,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900306,
 			dir = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "嗯？似乎又有新的“指令”出現了…",
 			typewriter = {
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "終端",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -618,12 +618,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "總、總之就先請維納斯…？的諸位和我們一起回港區一趟吧！也得跟指揮官報告這邊的事情才行！",
 			typewriter = {
 				speed = 0.05,
@@ -635,8 +635,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

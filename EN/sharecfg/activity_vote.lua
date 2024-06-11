@@ -1,20 +1,20 @@
 pg = pg or {}
 pg.activity_vote = {
 	[29] = {
-		same_rank_by_id = 0,
 		name = "Qualifiers",
 		ticket_period = 480,
 		type = 1,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "The top 240 shipgirls will advance to the group votes.",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 240,
-		id = 29,
+		same_rank_by_id = 0,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 240,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 29,
 		time_vote = {
 			{
 				{
@@ -1024,20 +1024,20 @@ pg.activity_vote = {
 		}
 	},
 	[30] = {
-		same_rank_by_id = 20,
 		name = "Group A",
 		ticket_period = 200,
 		type = 3,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "1st to 5th place will advance to the Finals, 6th to 15th place will advance to the repechage.",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 5,
-		id = 30,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 5,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 30,
 		time_vote = {
 			{
 				{
@@ -1273,20 +1273,20 @@ pg.activity_vote = {
 		}
 	},
 	[31] = {
-		same_rank_by_id = 20,
 		name = "Group B",
 		ticket_period = 200,
 		type = 3,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "1st to 5th place will advance to the Finals, 6th to 15th place will advance to the repechage.",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 5,
-		id = 31,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 5,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 31,
 		time_vote = {
 			{
 				{
@@ -1522,20 +1522,20 @@ pg.activity_vote = {
 		}
 	},
 	[32] = {
-		same_rank_by_id = 20,
 		name = "Group C",
 		ticket_period = 200,
 		type = 3,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "1st to 5th place will advance to the Finals, 6th to 15th place will advance to the repechage.",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 5,
-		id = 32,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 5,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 32,
 		time_vote = {
 			{
 				{
@@ -1771,20 +1771,20 @@ pg.activity_vote = {
 		}
 	},
 	[33] = {
-		same_rank_by_id = 20,
 		name = "Group D",
 		ticket_period = 200,
 		type = 3,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "1st to 5th place will advance to the Finals, 6th to 15th place will advance to the repechage.",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 5,
-		id = 33,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 5,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 33,
 		time_vote = {
 			{
 				{
@@ -2020,20 +2020,20 @@ pg.activity_vote = {
 		}
 	},
 	[35] = {
-		same_rank_by_id = 20,
 		name = "Repechage",
 		ticket_period = 160,
 		type = 4,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "1st to 15th place will advance to the finals.",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 15,
-		id = 35,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 15,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 35,
 		time_vote = {
 			{
 				{
@@ -2264,20 +2264,20 @@ pg.activity_vote = {
 		}
 	},
 	[36] = {
-		same_rank_by_id = 20,
 		name = "Finals",
 		ticket_period = 280,
 		type = 5,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "20 shipgirls from the group votes and 15 from the repechage are participating.",
-		help_text = "",
 		sub_type = 0,
 		ticket_id_period = 59826,
-		next_round_number = 0,
-		id = 36,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 0,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 36,
 		time_vote = {
 			{
 				{
@@ -2527,20 +2527,20 @@ pg.activity_vote = {
 		}
 	},
 	[37] = {
-		same_rank_by_id = 20,
 		name = "Special Vote I",
 		ticket_period = 0,
 		type = 7,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "",
-		help_text = "",
 		sub_type = 1,
 		ticket_id_period = 59826,
-		next_round_number = 0,
-		id = 37,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 0,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 37,
 		time_vote = {
 			{
 				{
@@ -2633,20 +2633,20 @@ pg.activity_vote = {
 		}
 	},
 	[38] = {
-		same_rank_by_id = 20,
 		name = "Special Vote II",
 		ticket_period = 0,
 		type = 7,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "",
-		help_text = "",
 		sub_type = 2,
 		ticket_id_period = 59826,
-		next_round_number = 0,
-		id = 38,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 0,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 38,
 		time_vote = {
 			{
 				{
@@ -2758,20 +2758,20 @@ pg.activity_vote = {
 		}
 	},
 	[39] = {
-		same_rank_by_id = 20,
 		name = "Special Vote III",
 		ticket_period = 0,
 		type = 7,
-		is_in_game = 1,
-		banner = 0,
-		activity_bg = 0,
 		desc = "",
-		help_text = "",
 		sub_type = 3,
 		ticket_id_period = 59826,
-		next_round_number = 0,
-		id = 39,
+		same_rank_by_id = 20,
+		is_in_game = 1,
 		is_on_web = 0,
+		next_round_number = 0,
+		activity_bg = 0,
+		help_text = "",
+		banner = 0,
+		id = 39,
 		time_vote = {
 			{
 				{

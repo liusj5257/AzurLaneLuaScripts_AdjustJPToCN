@@ -1,18 +1,18 @@
 return {
-	id = "FUXIANGXIANZUOZHAN27",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN27",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-executor-type1",
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "오이겐, 유인 수고했어! 안 다쳤어?",
-			bgm = "battle-executor-type1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -93,8 +93,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -118,10 +118,10 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 403090,
 			say = "아이젠, 얼른 가자! 도망치게 두면 안 돼. 돌겨어어어억!!!!!",
 			effects = {
 				{
@@ -141,12 +141,12 @@ return {
 		{
 			actor = 307050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "이런 함대가 숨어있었을 줄이야... 하지만 이렇게 알려도 괜찮나요?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -255,8 +255,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			say = "로열 네이비는... 사실 많은 부분에서는 사쿠라 엠파이어와 비슷해요...",
 			typewriter = {
 				speed = 0.05,
@@ -421,8 +421,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			say = "충고...? 얼마든지요.",
 			typewriter = {
 				speed = 0.05,

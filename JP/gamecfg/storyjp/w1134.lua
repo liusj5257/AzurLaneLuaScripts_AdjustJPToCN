@@ -1,12 +1,12 @@
 return {
-	id = "W1134",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1134",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "漂流物をサルベージし、情報の断片を手に入れた。……「このエリアの西に…」？",
 			typewriter = {
 				speed = 0.05,

@@ -2,29 +2,29 @@ return {
 	uiEffect = "",
 	name = "传颂之物开场加血2%",
 	cd = 0,
-	painting = "fumilulu",
-	id = 7561,
 	picture = "0",
 	aniEffect = "",
 	desc = "传颂之物开场加血2%",
+	painting = "fumilulu",
+	id = 7561,
 	castCV = {
-		skinID = 10300060,
-		key = "skill"
+		key = "skill",
+		skinID = 10300060
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerMainFleet",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetPlayerMainFleet",
 			arg_list = {
 				maxHPRatio = 0.02
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetPlayerMainFleet"
 			},

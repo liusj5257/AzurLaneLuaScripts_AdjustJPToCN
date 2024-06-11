@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILALUOSI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILALUOSI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"White Gallantry\n\n<size=45>2 Eyes on the Prize</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - A later date",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - A later date",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "Belorussiya and I were out on an inspection around the port.",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "Dang it, that's the 30th bust in a row! I can't believe my luck!",
 			typewriter = {
@@ -84,8 +84,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "Gremyashchy, do you have any money left? If I could just buy the last ticket, we'd be guaranteed first prize!",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "Nope, I'm all out. Talk about bad luck, burning through 30 tickets then not having enough for the last one.",
 			typewriter = {
@@ -125,11 +125,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "That's RNG for you, nya! You win some, you lose some, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -151,9 +151,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "We came across Akashi, who had set up a lottery and was selling tickets.",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +181,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "There was but one lottery ticket left. We're guaranteed the first prize if we buy it, I reasoned.",
 			typewriter = {
 				speed = 0.05,
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "I felt that would be mean to Gromky and Gremyashchy, though. After all, they'd spent all their money trying to get it.",
 			typewriter = {
 				speed = 0.05,
@@ -209,9 +209,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "When I pointed this out to Belorussiya, she took on an astonished look. The next moment, her expression returned to its default nonchalant state.",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "If you won't do it, then I will do it for you. I will share the prize with our comrades, so you need not feel guilt.",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "No objections? Good. Then stay here. I'll be right back.",
 			typewriter = {
@@ -257,9 +257,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "I decided to let Belorussiya go ahead with her plan.",
 			typewriter = {
 				speed = 0.05,
@@ -273,14 +273,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_113",
 			actor = 705040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "I'm back. With first prize, of course.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "Belorussiya returned, holding a small envelope in her hand.",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "You don't exactly owe it to us... Mm, that's all.",
 			typewriter = {
@@ -368,9 +368,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "The ticket didn't cost much anyway, so I was fine with giving the prize away.",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA23",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "Mirror Sea - Deep Inside the Keep",
 			bgm = "sk-az-battle",
+			say = "Mirror Sea - Deep Inside the Keep",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,10 +22,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Fubuki, how are you feeling?!",
 			painting = {
 				alpha = 0.3,
@@ -40,10 +40,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -58,10 +58,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Fubuki! You have to wake up! Please!",
 			painting = {
 				alpha = 0.3,
@@ -76,10 +76,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yu-Yumi...?",
 			painting = {
 				alpha = 0.3,
@@ -94,10 +94,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Fubuki! Oh, thank god you're okay!",
 			painting = {
 				alpha = 0.3,
@@ -112,10 +112,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Sorry for... all the trouble.",
 			painting = {
 				alpha = 0.3,
@@ -130,10 +130,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Do you have any memory of when you fought us?",
 			painting = {
 				alpha = 0.3,
@@ -148,10 +148,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes, albeit faintly... Like I was an outsider, peering in... It felt like I was someone else entirely.",
 			painting = {
 				alpha = 0.3,
@@ -166,10 +166,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But... now I'm fine. I know for a fact the words I'm speaking are my own.",
 			painting = {
 				alpha = 0.3,
@@ -184,10 +184,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Thank god... That's such a relief.",
 			painting = {
 				alpha = 0.3,
@@ -199,28 +199,28 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			side = 2,
+			blackBg = true,
+			actor = 900232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			blackBg = true,
 			say = "It's over now. This was very enlightening. Thanks for your \"assistance.\" Heheh.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -230,11 +230,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_111",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*gasp*!",
 			painting = {
 				alpha = 0.3,
@@ -245,17 +245,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -266,10 +266,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hmm? Is something wrong, Fubuki?",
 			painting = {
 				alpha = 0.3,
@@ -284,10 +284,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 11000050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...No, it's nothing.",
 			painting = {
 				alpha = 0.3,
@@ -302,10 +302,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay, now let's REALLY get the heck outta here before something bad happens again!",
 			painting = {
 				alpha = 0.3,

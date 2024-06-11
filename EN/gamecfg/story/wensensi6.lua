@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"My Sister's Growth Spurt?!\n\n<size=45>Chapter 6: My Sister's Hard Work</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "With that discussion, Vincennes started her special secretary ship lessons.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "With that discussion, Vincennes started her special secretary ship lessons.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Originally, it was just a one-on-one tutoring session... But her sisters soon found out, and it quickly turned into group tutoring.",
 			typewriter = {
 				speed = 0.05,
@@ -60,15 +60,15 @@ return {
 			}
 		},
 		{
-			actor = 103090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103090,
+			nameColor = "#a9f548",
 			say = "First, let's talk about organizing the documents. In order to be of assistance to the commander, you'll first have to quickly understand what kind of document you're working with...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -189,15 +189,15 @@ return {
 			}
 		},
 		{
-			actor = 103080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103080,
+			nameColor = "#a9f548",
 			say = "Nnnnngh... What should I teach...? Ah, I'll tell you all about what Commander likes to eat!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 103080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103080,
+			nameColor = "#a9f548",
 			say = "You also have to make sure Commander is in top condition at all times!",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -248,11 +248,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "Got it!",
 			typewriter = {
 				speed = 0.05,
@@ -264,8 +264,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -274,15 +274,15 @@ return {
 			}
 		},
 		{
-			actor = 103130,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103130,
+			nameColor = "#a9f548",
 			say = "I'll teach you how to hunt! Wait... how did I get dragged into this?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -307,12 +307,12 @@ return {
 			}
 		},
 		{
-			actor = 103090,
+			say = "I suppose I did ask everyone in the New Orleans-class to help... But, hunting is maybe a bit excessive...",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I suppose I did ask everyone in the New Orleans-class to help... But, hunting is maybe a bit excessive...",
+			actor = 103090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -327,11 +327,11 @@ return {
 			}
 		},
 		{
-			actor = 103130,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103130,
+			nameColor = "#a9f548",
 			say = "But New Orleans herself didn't bother to show up... Oh well, if I'm not needed here, s'pose I'll head back!",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = -3750

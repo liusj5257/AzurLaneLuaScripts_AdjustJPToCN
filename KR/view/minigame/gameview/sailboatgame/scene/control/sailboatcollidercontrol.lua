@@ -1,17 +1,17 @@
 slot0 = class("SailBoatColliderControl")
 slot1 = nil
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0 = SailBoatGameVo
 	slot0._tf = slot1
 	slot0._eventCall = slot2
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0._itemMoveSpeed = uv0.item_move_speed
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	slot2 = uv0.GetGameChar()
 	slot4 = uv0.GetGameEnemys()
 	slot5, slot6 = slot2:getWorldColliderData()
@@ -56,10 +56,10 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 end
 
 return slot0

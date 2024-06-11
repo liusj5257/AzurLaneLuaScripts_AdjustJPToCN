@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行10次攻击，触发专属弹幕-英格拉罕II",
 	name = "专属弹幕-英格拉罕II",
 	init_effect = "",
+	id = 29752,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行10次攻击，触发专属弹幕-英格拉罕II",
 	stack = 1,
-	id = 29752,
+	color = "red",
 	icon = 29750,
 	last_effect = "",
 	effect_list = {
@@ -20,9 +20,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countType = 29750,
-				countTarget = 10,
 				gunnerBonus = true,
+				countTarget = 10,
+				countType = 29750,
 				index = {
 					1
 				}
@@ -34,8 +34,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29752,
+				target = "TargetSelf",
 				countType = 29750
 			}
 		}

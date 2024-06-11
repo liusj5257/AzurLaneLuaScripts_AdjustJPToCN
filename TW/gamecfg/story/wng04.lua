@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "走了蛮远的一段路，纽约港真是规模庞大。",
 			typewriter = {
 				speed = 0.05,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "G.M系统？",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "原来如此，科技的力量真是伟大呢。",
 			typewriter = {
 				speed = 0.05,

@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "GCT",
 					number = 1,
+					attr = "GCT",
 					index = {
 						16460
 					}
@@ -26,8 +26,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "GCT",
 					number = 1,
+					attr = "GCT",
 					index = {
 						16460
 					}
@@ -44,8 +44,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "GCT",
 					number = 1,
+					attr = "GCT",
 					index = {
 						16460
 					}
@@ -62,8 +62,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "GCT",
 					number = 1,
+					attr = "GCT",
 					index = {
 						16460
 					}
@@ -80,8 +80,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "GCT",
 					number = 1,
+					attr = "GCT",
 					index = {
 						16460
 					}
@@ -98,8 +98,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "GCT",
 					number = 1,
+					attr = "GCT",
 					index = {
 						16460
 					}
@@ -116,8 +116,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "GCT",
 					number = 1,
+					attr = "GCT",
 					index = {
 						16460
 					}
@@ -134,8 +134,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "GCT",
 					number = 1,
+					attr = "GCT",
 					index = {
 						16460
 					}
@@ -152,8 +152,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "GCT",
 					number = 1,
+					attr = "GCT",
 					index = {
 						16460
 					}
@@ -170,8 +170,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "GCT",
 					number = 1,
+					attr = "GCT",
 					index = {
 						16460
 					}
@@ -179,9 +179,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -196,8 +196,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "GCT",
 				number = 1,
+				attr = "GCT",
 				index = {
 					16460
 				}

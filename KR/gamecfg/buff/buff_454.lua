@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "埃姆登-减速弹",
 	time = 5,
+	name = "埃姆登-减速弹",
+	init_effect = "",
 	picture = "",
 	desc = "标记",
 	stack = 1,

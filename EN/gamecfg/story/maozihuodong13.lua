@@ -1,17 +1,17 @@
 return {
-	once = true,
-	mode = 2,
-	id = "MAOZIHUODONG13",
-	continueBgm = true,
 	fadeType = 1,
+	mode = 2,
+	continueBgm = true,
+	once = true,
+	id = "MAOZIHUODONG13",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "Waters around Siren stronghold - Eagle Union Task Force",
 			side = 2,
 			bgName = "bg_cccp_2",
 			dir = 1,
-			say = "Waters around Siren stronghold - Eagle Union Task Force",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Columbia",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Montpelier",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Cleveland",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccp_2",
-			actorName = "Saratoga",
 			dir = 1,
+			actorName = "Saratoga",
 			say = "Dizzy, but okay... And confused! Where'd this thing come from?",
 			dialogShake = {
 				speed = 0.09,
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Hornet",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "South Dakota",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Cleveland",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Columbia",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Saratoga",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			say = "BOOOOM!",
+			soundeffect = "event:/battle/cannon-air",
 			side = 2,
 			bgName = "bg_cccp_2",
 			dir = 1,
-			soundeffect = "event:/battle/cannon-air",
+			say = "BOOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Columbia",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Cleveland",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Saratoga",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Hornet",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "South Dakota",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -266,13 +266,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Meanwhile, on the other side of the iceberg...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "...",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Mrgh...",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "WAKE! UP! WE NEED YOU!",
 			effects = {
@@ -364,11 +364,11 @@ return {
 			}
 		},
 		{
-			say = "Hagh!",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
 			bgm = "bgm-cccp3",
+			say = "Hagh!",
 			effects = {
 				{
 					active = false,
@@ -393,8 +393,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "There you are, sleepyhead! Hope my wake-up call did you good.",
 			typewriter = {
@@ -407,9 +407,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "Wake-up call...? Never mind, where are the others?",
 			typewriter = {
 				speed = 0.05,
@@ -440,8 +440,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Also, I've got some good news, and some bad news for you.",
 			typewriter = {
@@ -457,8 +457,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "The bad news are: this whole region became a Mirror Sea after that iceberg showed up, and we can't establish contact with the Eagle Union girls.",
 			typewriter = {
@@ -477,11 +477,11 @@ return {
 			}
 		},
 		{
-			say = "BOOOOM!",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "BOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -548,8 +548,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "We need someone to command us, so... Do your thing!",
 			typewriter = {

@@ -1,12 +1,12 @@
 return {
-	id = "WTask3600",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask3600",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "An allied transport ship has been surrounded by Sirens!",
 			typewriter = {
 				speed = 0.05,

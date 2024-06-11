@@ -1,15 +1,15 @@
 return {
-	id = "OUXIANGDASHIGUANQIA13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "OUXIANGDASHIGUANQIA13",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idom-Appeal",
 			say = "공연 해역·중앙 무대",
+			side = 2,
+			dir = 1,
+			bgm = "idom-Appeal",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -48,8 +48,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700070,
 			dir = 1,
+			actor = 10700070,
 			say = "특히 모조품들에게는 더욱 더 질 수 없지♪",
 			typewriter = {
 				speed = 0.05,
@@ -91,8 +91,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -101,13 +101,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "백 스테이지",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,8 +135,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "아카기, 여러분, 큰일났다냥!",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -162,8 +162,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307100,
 			dir = 1,
+			actor = 307100,
 			nameColor = "#a9f548",
 			say = "… 무슨 일이죠!?",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "망했다냥! 에너지가 점점 커지고 있다냥!",
 			typewriter = {
@@ -193,8 +193,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "아카시도 정확하게 알진 못한다냥…",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "공연이 시작되고, 에너지 이상 반응이 점점 강해졌다냥.",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			nameColor = "#a9f548",
 			say = "가스코뉴도 이렇게 말했다면… 그럼, 계속 이대로 가면 어떻게 되나요?",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "에너지가 폭주한다면…… 이곳에 설치한 기계들은 물론이고…",
 			typewriter = {
@@ -306,8 +306,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "음… 무대 뿐만 아니라, 모항 전체가 잿더미로 변할 수도 있다냥!",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -333,8 +333,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			nameColor = "#a9f548",
 			say = "그, 그럼 저들에게 빨리 연락해서 공연을 멈추라고 해야…!",
 			typewriter = {
@@ -350,8 +350,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "방금 하프 타임 휴식 때도 에너지가 상승하고 있었다냥, 지금 멈춘다고 해도 폭발을 저지할 수 없다냥!",
 			typewriter = {
@@ -364,8 +364,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -377,8 +377,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			nameColor = "#a9f548",
 			say = "건의, 에너지 폭주의 위험을 경감시킬 수 있는 방법이 있다.",
 			typewriter = {
@@ -426,8 +426,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103250,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
 			say = "정말 단순명쾌한 작전이군. 전에 같이 공연을 하려고 리허설을 해봐서 다행이야.",
 			typewriter = {
@@ -472,11 +472,11 @@ return {
 			}
 		},
 		{
-			actor = 401236,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401236,
+			nameColor = "#a9f548",
 			say = "맞아요… 모두의 노력을 절대 저버려서는 안 됩니다!",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -498,14 +498,14 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700010,
+			nameColor = "#a9f548",
 			say = "이제 함선 모두들이랑 함께 무대 등장인가요?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -533,8 +533,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101176,
 			dir = 1,
+			actor = 101176,
 			say = "응… 안 그러면 전부 폭발할 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -549,8 +549,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700060,
 			dir = 1,
+			actor = 10700060,
 			say = "폭발……?",
 			typewriter = {
 				speed = 0.05,
@@ -565,8 +565,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700070,
 			dir = 1,
+			actor = 10700070,
 			say = "특별 공연이라는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -581,8 +581,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401236,
 			dir = 1,
+			actor = 401236,
 			say = "유감이지만 그게 아니에요… 무슨 일이 벌어진 거냐면……",
 			typewriter = {
 				speed = 0.05,
@@ -678,8 +678,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301057,
 			dir = 1,
+			actor = 301057,
 			say = "… 우린 여러분을 말려들게 하고 싶은게 전혀 아니에요. 다만…",
 			typewriter = {
 				speed = 0.05,
@@ -694,8 +694,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			say = "전부 여러분을 이곳으로 데려온 저희 탓이에요… 죄송해요…",
 			typewriter = {
 				speed = 0.05,
@@ -797,8 +797,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -884,9 +884,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10700010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이 세계를 위한 마지막 무대에서, 최후의 순간까지 빛나기를!",
 			effects = {
 				{

@@ -1,32 +1,32 @@
 slot0 = class("ZumaPTShopScene", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ZumaPTShopUI"
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	return "cw-story"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updatePTPanel()
 	slot0:updateGoodPanel()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:closeView()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.actID = ActivityConst.MINIGAME_ZUMA_PT_SHOP_ID
 	slot0.ptID = LaunchBallActivityMgr.GetGamePtId(ActivityConst.MINIGAME_ZUMA)
 	slot0.ptItemID = id2ItemId(slot0.ptID)
@@ -38,7 +38,7 @@ function slot0.initData(slot0)
 	slot0:updateData()
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.tpl = slot0:findTF("Tpl")
 	slot0.containerTF = slot0:findTF("Shop/Panel/ScrollView/Viewport/Content")
 	slot0.backBtn = slot0:findTF("Adapt/Back")
@@ -49,7 +49,7 @@ function slot0.findUI(slot0)
 	setText(slot0:findTF("Tip", slot0.tpl), i18n("islandshop_tips2"))
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_PANEL)
@@ -82,27 +82,27 @@ function slot0.addListener(slot0)
 	end)
 end
 
-function slot0.updateData(slot0)
+slot0.updateData = function(slot0)
 	slot0.actShopVO = ActivityShop.New(getProxy(ActivityProxy):getActivityById(slot0.actID))
 	slot0.goodVOListForShow = slot0.actShopVO:getSortGoods()
 end
 
-function slot0.getGoodVOByIndex(slot0, slot1)
+slot0.getGoodVOByIndex = function(slot0, slot1)
 	return slot0.goodVOListForShow[slot1]
 end
 
-function slot0.updatePTPanel(slot0)
+slot0.updatePTPanel = function(slot0)
 	setText(slot0.ptInfoCountText, Drop.New({
 		type = 1,
 		id = slot0.ptID
 	}):getOwnedCount())
 end
 
-function slot0.updateGoodPanel(slot0)
+slot0.updateGoodPanel = function(slot0)
 	slot0.goodUIItemList:align(#slot0.goodVOListForShow)
 end
 
-function slot0.updateTpl(slot0, slot1, slot2)
+slot0.updateTpl = function(slot0, slot1, slot2)
 	slot6 = slot0:findTF("BuyCount", slot2)
 	slot7 = slot0.goodVOListForShow[slot1]
 	slot8 = Drop.New({
@@ -129,7 +129,7 @@ function slot0.updateTpl(slot0, slot1, slot2)
 	setActive(slot0:findTF("Lock", slot11), false)
 end
 
-function slot0.updateTplByGoodID(slot0, slot1)
+slot0.updateTplByGoodID = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0.goodVOListForShow) do

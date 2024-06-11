@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGYEDEQIYU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WANSHENGYEDEQIYU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Halloween Hijinks\n\n<size=45>5 An Uninvited Guest?</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
-			say = "On the beach near the Halloween party venue, I found a pirate girl wearing a red hat.",
 			bgm = "battle-highseasfleet-reborn",
+			say = "On the beach near the Halloween party venue, I found a pirate girl wearing a red hat.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "When I addressed her...",
 			typewriter = {
@@ -55,13 +55,13 @@ return {
 			}
 		},
 		{
-			actorName = "???",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "Shh.",
 			painting = {
@@ -74,13 +74,13 @@ return {
 			}
 		},
 		{
-			actorName = "???",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "Do you hear the ocean's cries?",
 			painting = {
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "\"You mean the sound of waves hitting shore?\"",
 			typewriter = {
@@ -106,11 +106,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actorName = "???",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "Hmph. I said they're the ocean's cries! Geez!",
 			painting = {
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "The pirate girl with the hat turned around and glared at me unhappily.",
 			typewriter = {
@@ -143,13 +143,13 @@ return {
 			}
 		},
 		{
-			actorName = "???",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "Who are you?",
 			painting = {
@@ -171,12 +171,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actorName = "???",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "Aha, I see. So you're the one that my friends here... Ahem. You're the one that these lasses call the Commander.",
 			painting = {
@@ -189,14 +189,14 @@ return {
 			}
 		},
 		{
-			actorName = "???",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
 			optionFlag = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "???",
 			hidePaintObj = true,
 			say = "I am the mysterious, heartstopping shipgirl who rides wind and waves alike, searching all the seven seas for the beauties of the world...",
 			painting = {
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "\"In that get-up, you don't really stand out at a Halloween party. And pirate swords kind of look like Halloween props...\"",
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "\"Huh? Wait, are you serious about that?\"",
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "\"...Well, I definitely can't leave you alone now. I've got no choice; I'll tag along for a little while.\"",
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "\"But I haven't heard about any treasure buried in the venue...\"",
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "I read the flyer, and indeed it said, \"The first person to get the treasure gets free drinks for a week, nya!\"",
@@ -513,9 +513,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
+			side = 2,
 			optionFlag = 1,
 			say = "She raised the cutlass at her hip and charged toward the food court.",
 			typewriter = {
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "To protect the venue from the cutlass—much more dangerous than the girl wielding it—I rushed after her.",

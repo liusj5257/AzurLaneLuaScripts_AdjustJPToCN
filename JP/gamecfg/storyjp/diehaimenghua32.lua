@@ -1,17 +1,17 @@
 return {
-	id = "DIEHAIMENGHUA32",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "DIEHAIMENGHUA32",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "level02",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "―――――！！",
 			dir = 1,
-			bgm = "level02",
+			soundeffect = "event:/battle/boom2",
+			say = "―――――！！",
 			flashN = {
 				color = {
 					1,
@@ -62,8 +62,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "……目標、討ち果たしたと見ゆ……次は…",
 			typewriter = {
@@ -95,8 +95,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "おかげで指揮官も、信濃の動きに集中せざるを得ない。…今は、動ける",
 			typewriter = {
@@ -112,8 +112,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "でも流石に信濃さん一人に敵をいつまでも引きつけるわけにはいかないよね…大名出陣、危うし！",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "分かってるわ！ここは駿河みたくうまく二番手に徹する…！",
 			typewriter = {

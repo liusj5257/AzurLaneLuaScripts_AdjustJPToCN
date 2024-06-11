@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YISHIJIEWEITUO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YISHIJIEWEITUO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "A request from the mayor brought you to Thermalq Village.",
 			typewriter = {
 				speed = 0.05,
@@ -16,8 +16,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "You helped the villagers with their everyday chores!",
 			typewriter = {
 				speed = 0.05,
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "This request is done, claim the reward now!",
 			typewriter = {
 				speed = 0.05,

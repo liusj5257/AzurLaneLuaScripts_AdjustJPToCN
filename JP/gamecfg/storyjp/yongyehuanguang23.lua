@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG23",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "バレンツ海・ロイヤル護衛艦隊",
 			side = 2,
 			bgName = "bg_hms_4",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bgm-royalnavy",
+			say = "バレンツ海・ロイヤル護衛艦隊",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ハーマイオニー",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イーグル",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イーグル",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ハーマイオニー",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -96,8 +96,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イーグル",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャマイカ",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ハーマイオニー",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ハーマイオニー",
+			side = 2,
 			bgName = "bg_hms_4",
 			nameColor = "#a9f548",
 			dir = 1,

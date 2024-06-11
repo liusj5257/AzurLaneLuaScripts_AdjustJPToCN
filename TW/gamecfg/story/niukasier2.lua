@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"謳歌平穩的日常\n\n<size=45>二　完美和平靜</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "（咚咚）",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "（咚咚）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "在和紐卡斯爾一起在指揮室工作時，從外面傳來了敲門聲",
 			typewriter = {
 				speed = 0.05,
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
+			say = "關於那個倉庫的事？",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "關於那個倉庫的事？",
+			actor = 202190,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -156,9 +156,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "簡短的對話結束後，謝菲微微致了一個禮離開了房間",
 			typewriter = {
 				speed = 0.05,
@@ -268,9 +268,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確實，對別人暫且不論，貝爾法斯特對自己的工作肯定是追求完美的",
 			typewriter = {
 				speed = 0.05,
@@ -278,9 +278,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "但是實際上，也確實有不那麼追求完美，才能更加順利的進行工作的情況呢",
 			typewriter = {
 				speed = 0.05,
@@ -304,12 +304,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "我正好是不那麼追求“完美”，只要有“平穩”就能夠滿足的性格呢",
 			typewriter = {
 				speed = 0.05,

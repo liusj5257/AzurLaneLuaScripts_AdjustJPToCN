@@ -1,7 +1,7 @@
 return {
-	init_effect = "jinengchufablue",
-	name = "属性变更",
 	time = 0,
+	name = "属性变更",
+	init_effect = "jinengchufablue",
 	picture = "",
 	desc = "伤害提升",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.05
+				number = 0.05,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

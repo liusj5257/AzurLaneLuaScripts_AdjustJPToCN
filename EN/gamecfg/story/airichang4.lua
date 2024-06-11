@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"Virtual Connection Synchronicity\" - Daily Memorabilia\n\n<size=45>Chapter 4 - Sometimes You Wanna Go Where Every AI Knows Your Name!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - AI's Place (Canteen)",
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - AI's Place (Canteen)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "*woosh woosh squeak squeak*",
 			typewriter = {
 				speed = 0.05,
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "Mama AI",
 			say = "C'mon in. And if it ain't Laffey too. Thanks for comin'.",
 			typewriter = {
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "Mama AI",
 			say = "Oh? What sort of problems? Lay 'em on me.",
 			typewriter = {
@@ -178,11 +178,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "Mama AI",
 			say = "(Ah, I'm playing this character, and this is the part where I jump in to help.)",
 			typewriter = {
@@ -195,11 +195,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "Mama AI",
 			say = "I know a girl a lot like Benson here. You wanna talk about it? No pressure. In fact, feel free to call me Mama AI.",
 			typewriter = {
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "Mama AI",
 			say = "Sure. This girl, she's a real genius, but people still call her garbage just because she's always screwin' things up in a big way.",
 			typewriter = {
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "Mama AI",
 			say = "Hmm, it is pretty tough to step outside yourself and see what others see.",
 			typewriter = {
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "Mama AI",
 			say = "There's no way to know if you're lettin' out the same you that you wanna be, or that you wanna show off.",
 			typewriter = {
@@ -343,11 +343,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "Mama AI",
 			say = "But if Benson is really all about this Commander, don't you think your feelings are gonna come across in the end?",
 			typewriter = {
@@ -376,11 +376,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "Mama AI",
 			say = "I'm thinkin' your Commander's gonna be plenty happy about your feelings, so why not carry on as \"the unstoppable, the gorgeous, the adorable\" BENSON?",
 			typewriter = {
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "Mama AI",
 			say = "Haven't you heard? \"CUTE IS JUSTICE!\" Kawaii is the universal language, Benson, so keep bein' cuter and cuter and you'll impress the Commander. Right?",
 			typewriter = {
@@ -490,11 +490,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "Mama AI",
 			say = "Heh heh. Don't sweat it. I'm just glad we got it all cleared up. Knock 'em dead, Benson!",
 			typewriter = {
@@ -539,11 +539,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "Mama AI",
 			say = "Good lu- oh! Watch the threshold there, it's a little-",
 			typewriter = {
@@ -556,9 +556,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "*PLONK*",
 			typewriter = {
 				speed = 0.05,
@@ -618,11 +618,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "Mama AI",
 			say = "Look at her toughenin' up like that... our little talk worked wonders.",
 			typewriter = {
@@ -635,15 +635,15 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "Several days later, Benson was reprimanded by the Commander for being increasingly annoying.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -668,12 +668,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "Eh. These things happen. What are you gonna do?",
 			typewriter = {
 				speed = 0.05,

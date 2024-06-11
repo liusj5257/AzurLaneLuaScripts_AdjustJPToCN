@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Lunar New Year!\n\n<size=45>Chapter 3 - An Explosive New Year!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Dragon Empery Garden",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
+			say = "Port - Dragon Empery Garden",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "Alright, the firecracker is finished! I'm so good at crafting stuff!",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "Woohoo! Now witness the might of my specially made, extra large New Year's firecracker!",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = 3750
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			say = "BOOOM!",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "BOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -197,15 +197,15 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "W-what was that noise?! Was it you, Fu Shun?! I know you're up to something again!",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -259,8 +259,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 501041,
 			dir = 1,
+			actor = 501041,
 			nameColor = "#a9f548",
 			say = "Owww... Your firecrackers are scary, Fu Shun! ...I'm sorry, An Shan, I just couldn't stop her...",
 			typewriter = {
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -299,11 +299,11 @@ return {
 			}
 		},
 		{
-			actor = 301054,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 2,
+			bgName = "star_level_bg_102",
 			dir = 1,
+			actor = 301054,
 			actorName = "{namecode:6}",
 			say = "Owch... My head is spinning...",
 			typewriter = {
@@ -332,12 +332,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
+			say = "What's going on? Are we under attack?!",
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "What's going on? Are we under attack?!",
+			actor = 107060,
+			nameColor = "#a9f548",
 			actorPosition = {
 				x = 1500,
 				y = 0
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.4,
 					x = -1500
@@ -537,12 +537,12 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107020,
+			nameColor = "#a9f548",
 			say = "I wouldn't mind either. We've never tried your cuisine before, so if anything you'll have to pardon us if we unknowingly do anything impolite.",
 			typewriter = {
 				speed = 0.05,

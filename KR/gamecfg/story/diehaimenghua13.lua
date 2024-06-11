@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA13",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA13",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "굉음과 포연이 사라진 뒤에 남은 것은 산산조각난 장갑 조각이었다.",
 			side = 2,
 			bgName = "bg_xinnong_cg2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-4",
+			say = "굉음과 포연이 사라진 뒤에 남은 것은 산산조각난 장갑 조각이었다.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "장갑의 주인은 잠시 비틀대다 결국 수면에 무릎을 꿇었다.",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
+			dir = 1,
 			say = "차갑게 웃은 아카기는 아무런 반응이 없는 천수각을 돌아보며 손에서 검은 큐브를 만들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307020,
+			nameColor = "#a9f548",
 			say = "언니, 저건!!",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -255,9 +255,9 @@ return {
 			actor = 307010,
 			side = 2,
 			bgName = "bg_xinnong_cg2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "……누구도, 그 어떤 누구도 제 계획을 방해할 수는 없어요!",
 			effects = {
 				{

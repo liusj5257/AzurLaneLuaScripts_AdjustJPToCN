@@ -1,6 +1,6 @@
 slot0 = class("MainUrgencySceneSequence")
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	slot0:NextOne(1, {
 		"SkipToActivity",
 		"SkipToReFluxActivity",
@@ -8,7 +8,7 @@ function slot0.Execute(slot0, slot1)
 	}, slot1)
 end
 
-function slot0.NextOne(slot0, slot1, slot2, slot3)
+slot0.NextOne = function(slot0, slot1, slot2, slot3)
 	if not slot0[slot2[slot1]](slot0) then
 		return
 	end
@@ -20,7 +20,7 @@ function slot0.NextOne(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.SkipToActivity(slot0)
+slot0.SkipToActivity = function(slot0)
 	if getProxy(ActivityProxy):findNextAutoActivity() then
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY)
 
@@ -30,7 +30,7 @@ function slot0.SkipToActivity(slot0)
 	return true
 end
 
-function slot0.SkipToReFluxActivity(slot0)
+slot0.SkipToReFluxActivity = function(slot0)
 	if getProxy(RefluxProxy):isCanSign() and slot1:isInRefluxTime() then
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.REFLUX)
 
@@ -40,7 +40,7 @@ function slot0.SkipToReFluxActivity(slot0)
 	return true
 end
 
-function slot0.SkipToTechnology(slot0)
+slot0.SkipToTechnology = function(slot0)
 	slot1 = getProxy(PlayerProxy):getRawData().level
 
 	if not LOCK_TECHNOLOGY and pg.SystemOpenMgr.GetInstance():isOpenSystem(slot1, "TechnologyMediator") and not pg.NewStoryMgr.GetInstance():IsPlayed("FANGAN1") then

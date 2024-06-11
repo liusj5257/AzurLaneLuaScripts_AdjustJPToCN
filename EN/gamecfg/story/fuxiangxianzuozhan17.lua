@@ -1,18 +1,18 @@
 return {
-	id = "FUXIANGXIANZUOZHAN17",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN17",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "battle-executor-type1",
 			actor = 407030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Iron Blood and Sardegnian mass-produced ships are coming our way. There'll be no end to them if we don't fix the malfunctioning equipment.",
-			bgm = "battle-executor-type1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "I wonder if there's maybe some way we can turn them against other?",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "There is. Our higher-ups did something like that a long time ago, when we first seized this research facility.",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "If anyone has the ability to control who their targets are and where they're headed, it could only be the Sirens.",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "So if the Sirens feel like intervening, there's nothing we can do about it?",
 			typewriter = {
 				speed = 0.05,
@@ -105,8 +105,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "Yes, at least in the case of these Pawns and mass-produced ships. After all, the Sirens built the facilities that create them. We only \"borrowed\" them.",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "Now, to buy ourselves some time to take control back, we need to do a little bit of cleaning.",
 			typewriter = {
 				speed = 0.05,

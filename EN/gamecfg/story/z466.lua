@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z466",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z466",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"White Poem\n\n<size=45>VI Fetters</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "The combat operation has ended.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "Over ten types of mass-produced vessels. Some highly-ranking enemy \"Pieces.\" Though only classified as medium tier, the enemies proved to be difficult, for our fleet had depleted its supplies.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "With all the strength I could muster, I fought.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "My main cannons fired dozens of times. I did not cease my relentless attacks,  until my body was covered in wounds, until my overheated guns sputtered.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "My riggings and clothes had lost their color. They had been stained gray with the smoke of war.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,13 +77,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgmDelay = 2,
-			bgName = "bg_story_task",
 			say = "Port - Command Office",
+			bgName = "bg_story_task",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -214,8 +214,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			stopbgm = true,
+			blackBg = true,
 			say = "At this time I felt my heart and soul cry; if there was a way to escape this fate, bestow me a name and grant it meaning. ",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "Grant upon me, not the weapon you see, but the girl that you would want me to be. Help me bring to light my reason to fight.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "Grant upon me, you who I love dearly, a name that calls me back home to your side.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,8 +251,8 @@ return {
 			}
 		},
 		{
-			say = "Please grant me my very own color.",
 			blackBg = true,
+			say = "Please grant me my very own color.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

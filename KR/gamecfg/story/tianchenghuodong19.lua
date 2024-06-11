@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANCHENGHUODONG19",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
+			stopbgm = true,
 			bgName = "bg_story_tiancheng6",
 			dir = 1,
 			say = "…………",
@@ -47,12 +47,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
+			say = "카가, 일어났어?",
 			side = 1,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#ff0000",
 			dir = -1,
-			say = "카가, 일어났어?",
+			actor = 307010,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -243,12 +243,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			bgName = "bg_story_tiancheng6",
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "이제 조금만 더 하면, '그 분' 을 만날 수 있어…후후후……",
 			typewriter = {
 				speed = 0.05,

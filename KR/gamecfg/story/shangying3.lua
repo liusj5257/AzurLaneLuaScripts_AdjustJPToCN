@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"벚꽃놀이 대소동\n\n<size=45>제3장 - 벚꽃놀이 준비하기</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 306030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "네에~ 여기 준비도 부탁드릴게요~",
 			bgm = "story-1",
+			actor = 306030,
+			nameColor = "#92fc63",
+			say = "네에~ 여기 준비도 부탁드릴게요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,15 +34,15 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307040,
+			nameColor = "#92fc63",
 			say = "혼자 하는 건 역시 힘들겠죠…죄송합니다! 도와줄 분들을 데려왔어요!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -67,12 +67,12 @@ return {
 			}
 		},
 		{
-			actor = 306030,
+			say = "어머머, 이 분은…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "어머머, 이 분은…",
+			actor = 306030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -151,12 +151,12 @@ return {
 			}
 		},
 		{
-			actor = 306030,
+			say = "우후후, 떠들썩해졌네요.",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "우후후, 떠들썩해졌네요.",
+			actor = 306030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

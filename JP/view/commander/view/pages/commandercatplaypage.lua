@@ -1,10 +1,10 @@
 slot0 = class("CommanderCatPlayPage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderCatPlayui"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.skillTF = slot0:findTF("skill/frame")
 	slot0.skillNameTxt = slot0:findTF("name", slot0.skillTF):GetComponent(typeof(Text))
 	slot0.skillIcon = slot0:findTF("icon/Image", slot0.skillTF)
@@ -33,7 +33,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("skill_desc/title"), i18n("commander_skill_effect"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:RegisterEvent()
 	onButton(slot0, slot0.descBtn, function ()
 		if uv0.isOpenDescPage then
@@ -66,7 +66,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	slot0:bind(CommanderCatScene.EVENT_OPEN_DESC, function (slot0)
 		if uv0.isOpenDescPage then
 			triggerButton(uv0.descBtn)
@@ -103,14 +103,14 @@ function slot0.RegisterEvent(slot0)
 	end)
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0.commander = slot1
 	slot0.contextData.materialIds = {}
 
 	slot0:UpdateMaterials()
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
 	slot0.commander = slot1
@@ -122,7 +122,7 @@ function slot0.Show(slot0, slot1)
 	end
 end
 
-function slot0.UpdateMaterials(slot0)
+slot0.UpdateMaterials = function(slot0)
 	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateCard(slot1, slot2)
@@ -132,7 +132,7 @@ function slot0.UpdateMaterials(slot0)
 	slot0:UpdateMainView()
 end
 
-function slot0.UpdateMainView(slot0)
+slot0.UpdateMainView = function(slot0)
 	slot1 = slot0.contextData.materialIds or {}
 	slot2, slot3 = CommanderCatUtil.GetSkillExpAndCommanderExp(slot0.commander, slot1)
 
@@ -143,8 +143,8 @@ function slot0.UpdateMainView(slot0)
 	setActive(go(slot0.levelAdditionTxt), #slot1 > 0)
 end
 
-function slot0.UpdateDescPage(slot0)
-	function slot1(slot0, slot1)
+slot0.UpdateDescPage = function(slot0)
+	slot1 = function(slot0, slot1)
 		if not slot0 and slot1.desc_world and slot1.desc_world ~= "" then
 			return slot1.desc_world
 		else
@@ -169,11 +169,11 @@ function slot0.UpdateDescPage(slot0)
 	slot0.skillDescList:align(#slot3:GetSkillGroup())
 end
 
-function slot0.CloseDescPage(slot0)
+slot0.CloseDescPage = function(slot0)
 	setActive(slot0.descPage, false)
 end
 
-function slot0.SimulateAddSkillExp(slot0, slot1)
+slot0.SimulateAddSkillExp = function(slot0, slot1)
 	slot3 = slot0.commander:getSkills()[1]
 	slot4 = Clone(slot3)
 
@@ -182,7 +182,7 @@ function slot0.SimulateAddSkillExp(slot0, slot1)
 	return slot4, slot3
 end
 
-function slot0.UpdateSkillTF(slot0, slot1)
+slot0.UpdateSkillTF = function(slot0, slot1)
 	slot2, slot3 = slot0:SimulateAddSkillExp(slot1)
 	slot4 = slot3:getConfig("lv")
 
@@ -199,7 +199,7 @@ function slot0.UpdateSkillTF(slot0, slot1)
 	end
 end
 
-function slot0.SimulateAddCommanderExp(slot0, slot1)
+slot0.SimulateAddCommanderExp = function(slot0, slot1)
 	slot2 = slot0.commander
 	slot3 = Clone(slot2)
 
@@ -208,7 +208,7 @@ function slot0.SimulateAddCommanderExp(slot0, slot1)
 	return slot3, slot2
 end
 
-function slot0.UpdateCommanderTF(slot0, slot1)
+slot0.UpdateCommanderTF = function(slot0, slot1)
 	slot2, slot3 = slot0:SimulateAddCommanderExp(slot1)
 
 	slot0:emit(CommanderCatScene.EVENT_PREVIEW, slot2)
@@ -234,11 +234,11 @@ function slot0.UpdateCommanderTF(slot0, slot1)
 	end
 end
 
-function slot0.UpdateConsume(slot0, slot1, slot2)
+slot0.UpdateConsume = function(slot0, slot1, slot2)
 	slot0.total = CommanderCatUtil.CalcCommanderConsume(slot1)
 	slot0.consumeTxt.text = getProxy(PlayerProxy):getRawData().gold < slot0.total and "<color=" .. COLOR_RED .. ">" .. slot0.total .. "</color>" or slot0.total
 
-	function slot4()
+	slot4 = function()
 		if uv0.gold < uv1.total then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
 				{
@@ -263,7 +263,7 @@ function slot0.UpdateConsume(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.CheckTip(slot0, slot1, slot2, slot3)
+slot0.CheckTip = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	if CommanderCatUtil.AnySSRCommander(slot1) then
@@ -298,7 +298,7 @@ function slot0.CheckTip(slot0, slot1, slot2, slot3)
 	seriesAsync(slot4, slot3)
 end
 
-function slot0.UpdateCard(slot0, slot1, slot2)
+slot0.UpdateCard = function(slot0, slot1, slot2)
 	slot5 = slot2:Find("add")
 	slot6 = slot2:Find("icon")
 
@@ -332,7 +332,7 @@ function slot0.UpdateCard(slot0, slot1, slot2)
 	setActive(slot6, slot4)
 end
 
-function slot0.GenSelectData(slot0)
+slot0.GenSelectData = function(slot0)
 	return {
 		activeCommander = slot0.commander,
 		selectedIds = slot0.contextData.materialIds or {},
@@ -349,11 +349,11 @@ function slot0.GenSelectData(slot0)
 	}
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.animation then
 		slot0.animation:Dispose()
 
@@ -363,7 +363,7 @@ function slot0.OnDestroy(slot0)
 	slot0:ClearSortData()
 end
 
-function slot0.GetSortData(slot0)
+slot0.GetSortData = function(slot0)
 	if not uv0.SortData then
 		uv0.SortData = Clone(slot0.contextData.sortData) or {
 			asc = true,
@@ -376,11 +376,11 @@ function slot0.GetSortData(slot0)
 	return uv0.SortData
 end
 
-function slot0.SaveSortData(slot0, slot1)
+slot0.SaveSortData = function(slot0, slot1)
 	uv0.SortData = slot1
 end
 
-function slot0.ClearSortData(slot0)
+slot0.ClearSortData = function(slot0)
 	uv0.SortData = nil
 end
 

@@ -4,10 +4,10 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "login-2022401us",
+			side = 2,
 			say = "スーパーレインボーハンマー1号による攻撃を前に、大魔王？の戦意は喪失しつつあった。",
+			bgm = "login-2022401us",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -17,8 +17,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "恐ろしき大魔王",
 			say = "ええい！こんなの不公平だ！撤退する！",
 			painting = {
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -71,10 +71,10 @@ return {
 			}
 		},
 		{
-			actor = 100020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 100020,
+			nameColor = "#A9F548FF",
 			say = "魔王に虹色の力を見せつけてやるプリン！",
 			painting = {
 				alpha = 0.3,
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -112,8 +112,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -127,9 +127,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_megaburin",
+			nameColor = "#A9F548FF",
 			actorName = "ブリ三姉妹",
 			say = "この一撃は、大地を貫く一撃プリン！ この一撃は、天を貫く一撃プリン！ この一撃は、星を落とす一撃プリン！",
 			typewriter = {
@@ -149,9 +149,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
+			side = 2,
 			say = "スーパーレインボーハンマー1号から発せられた七色の光の下に、ブリ三姉妹の力が集まり、星をも照らす煌めく光となっていった。",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
-			say = "――チュドオオオオオン！！！",
 			soundeffect = "event:/battle/boom2",
+			say = "――チュドオオオオオン！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,8 +230,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "………………",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "………………………………",
 			typewriter = {
@@ -250,14 +250,14 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			nameColor = "#A9F548FF",
-			bgName = "bg_unnamearea_1",
 			side = 2,
 			dir = 1,
+			bgName = "bg_unnamearea_1",
+			bgm = "story-richang-1",
+			actor = 100010,
 			stopbgm = true,
 			say = "やったぁ！魔王が消滅した！私たちの勝ちプリン！",
-			bgm = "story-richang-1",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,8 +274,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -283,8 +283,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -296,8 +296,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#A9F548FF",
 			say = "おかしいプリン！スーパーレインボーハンマー1号が光らなくなったプリン…",
 			painting = {
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -322,9 +322,9 @@ return {
 		{
 			actor = 100000,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			say = "ま、まさか壊れたプリン……？",
 			painting = {
 				alpha = 0.3,
@@ -339,8 +339,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#A9F548FF",
 			say = "まあいいプリン、記念品だと思えばいいプリン！さっき、私たちが合わせた力はスーパーレインボーハンマー1号より強く感じたプリン！",
 			painting = {
@@ -353,8 +353,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -365,9 +365,9 @@ return {
 		{
 			actor = 100020,
 			side = 2,
-			bgName = "bg_unnamearea_1",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_unnamearea_1",
 			say = "勝利を祝うのはもっと大事プリン。焼肉を食べに行くプリン！",
 			painting = {
 				alpha = 0.3,
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			nameColor = "#A9F548FF",
-			bgName = "bg_unnamearea_1",
 			side = 0,
 			dir = 1,
+			actor = 100000,
+			bgName = "bg_unnamearea_1",
 			hideOther = true,
 			actorName = "汎用型ブリ&試作型ブリMKII",
 			say = "「「やったプリン！」」",
@@ -405,8 +405,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -421,9 +421,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
+			side = 2,
 			say = "こうして、ブリ姉妹たちは贅沢な焼肉を楽しんだ。",
 			typewriter = {
 				speed = 0.05,
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_1",
 			say = "あの伝説に関しては……今はまだ伝説のままだろう——",
 			typewriter = {

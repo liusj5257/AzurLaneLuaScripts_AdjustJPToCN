@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"크리스마스 선물 대작전!\n\n<size=45>4. 크리스마스의 어둠(하)</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "두 사람은 새러토가를 따라 한 방의 문 앞으로 향했다.",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "두 사람은 새러토가를 따라 한 방의 문 앞으로 향했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 102123,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102123,
+			nameColor = "#92fc63",
 			say = "꺅! 마……마음대로 남의 방에 들어오지 말란 말이야!",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,12 +92,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "이……이게 바로 호놀룰루쨩이 지휘관에게 주는 서프라이즈인가?!",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "이……이게 바로 호놀룰루쨩이 지휘관에게 주는 서프라이즈인가?!",
+			actor = 107030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_room",
-			actor = 102123,
 			dir = 1,
+			actor = 102123,
 			nameColor = "#92fc63",
 			say = "아……아니거든! 이……이건 그냥 유행하는…… 그거야, 코스프레! 맞아, 코스프레라고!",
 			typewriter = {
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 102123,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102123,
+			nameColor = "#92fc63",
 			say = "순……순록으로 변장해서 지휘실에 인형인척 서있다가 갑자기 지휘관에게 ‘하! 크리스마스 선물은 나야!’ 하는 이상한 일은 새러토가 네 머릿속 망상이라고!",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.15,
 					x = 0,
@@ -174,8 +174,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 102123,
 			dir = 1,
+			actor = 102123,
 			nameColor = "#92fc63",
 			say = "이봐! 방금 그 말, 아무에게도 하면 안 돼!",
 			typewriter = {
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "호놀룰루의 말이 끝나기도 전, 새러토가는 옆에서 굳어있던 로열의 두 사람을 끌고 방으로 뛰어 들어갔다.",
 			typewriter = {
 				speed = 0.05,
@@ -198,15 +198,15 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "음…… 순록으로 변장한 뒤 자신을 인형처럼 포장해서 지휘관에게 선물한다……지? 꽤 신기한 아이디어긴 하네……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -231,12 +231,12 @@ return {
 			}
 		},
 		{
-			actor = 201100,
+			say = "선……선배! 그런 이상한 말은 하지 말아주세요!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "선……선배! 그런 이상한 말은 하지 말아주세요!",
+			actor = 201100,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -293,9 +293,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "펑 하는 소리와 함께 문이 열렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 107061,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107061,
+			nameColor = "#92fc63",
 			say = "메리 크리스마스! 산타클로스가 선물을 가져왔다!",
 			effects = {
 				{
@@ -325,11 +325,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#92fc63",
 			say = "뿅! 언니야! 드디어 올 것이 왔어!",
 			effects = {
 				{
@@ -347,8 +347,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -405,12 +405,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 205020,
+			nameColor = "#92fc63",
 			say = "선택의 고통에서 나타난 구세주! 엔터프라이즈, 네 도움이 필요해!",
 			typewriter = {
 				speed = 0.05,

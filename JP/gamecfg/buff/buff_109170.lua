@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 109170,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 109170,
+	color = "red",
 	icon = 109170,
 	last_effect = "",
 	effect_list = {
@@ -35,9 +35,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				minTargetNumber = 1,
-				time = 5,
 				skill_id = 109170,
+				time = 5,
+				minTargetNumber = 1,
 				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
@@ -57,9 +57,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				quota = 1,
-				target = "TargetSelf",
 				skill_id = 109170,
+				target = "TargetSelf",
+				quota = 1,
 				index = {
 					1
 				}

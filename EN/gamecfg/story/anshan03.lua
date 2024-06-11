@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ANSHAN03",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ANSHAN03",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"An Shan's Coloring Book\n\n<size=45>Chapter 3 - Time For a (Lunch) Break</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "I'm back, guys! I couldn't get a hold of the Bulins... but I brought some other people with me!",
 			bgm = "story-china",
+			actor = 501020,
+			nameColor = "#a9f548",
+			say = "I'm back, guys! I couldn't get a hold of the Bulins... but I brought some other people with me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 501040,
+			say = "Oh! Why, if it isn't Ning Hai and Ping Hai!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh! Why, if it isn't Ning Hai and Ping Hai!",
+			actor = 501040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -102,12 +102,12 @@ return {
 			}
 		},
 		{
-			actor = 502020,
+			say = "Ahahahah... You're as dead-serious as usual, An Shan.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ahahahah... You're as dead-serious as usual, An Shan.",
+			actor = 502020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -138,10 +138,10 @@ return {
 			}
 		},
 		{
-			actor = 501040,
 			actorName = "Tai Yuan & Chang Chun & An Shan",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 501040,
 			hideOther = true,
 			nameColor = "#a9f548",
 			say = "Of course!",
@@ -217,12 +217,12 @@ return {
 			}
 		},
 		{
-			actor = 502030,
+			say = "Heheheh, thanks~",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Heheheh, thanks~",
+			actor = 502030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG17",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YONGYEHUANGUANG17",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
+			say = "부우우우우——",
 			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
 			soundeffect = "event:/battle/plane",
 			bgm = "bgm-royalnavy",
-			dir = 1,
-			say = "부우우우우——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,12 +23,12 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "이곳은 나에게 맡겨!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 202110,
+			nameColor = "#a9f548",
+			say = "이곳은 나에게 맡겨!",
 			flashN = {
 				color = {
 					1,
@@ -76,8 +76,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -89,8 +89,8 @@ return {
 			actor = 205100,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = " 에든버러, 반응 좋네. 으…방금 날아와 공격한 것은 세이렌의 함재기?",
 			typewriter = {
 				speed = 0.05,
@@ -104,9 +104,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 201330,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "크... 큰일 났어요! 지휘관님이 노스 유니온 최전선에서 보내온 소식인데, 일부 세이렌이 얼마 전 봉쇄가 취약한 곳을 뚫고, 바렌츠해 쪽으로 이동 중이래요!",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = " 난 벌써 봤어. 원래 방금 파리들도 그렇게 온거야.",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "...지휘관님은 방어선의 틈새를 애써 막고 계시는 중이지만, 포위를 뚫는데 성공한 세이렌을 처리할 여력은 정말 없으셔요!",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "알았어. 메탈 블러드의 함대도 서둘러 해결해야 하는데… 세이렌의 배가 노스 유니온의 봉쇄를 뚫고 끼어들려 하다니. 정말 귀찮게…",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "어쩌겠어…세이렌의 선봉 함대가 곧 바다 위로 나타날텐데, 병력을 보내 처리해버리지 않으면 어떻게 안심하고 길을 가겠어!",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "아, 지휘관님이 이번 세이렌은 예전 베링해 요새 공략 작전 중에 나타난 신형 세이렌이니, 조심해서 상대하기를 바란다고 하셨어요.",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 		{
 			actor = 205090,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = " 모두 대열을 정비하고, 적을 맞이할 준비해!",
 			dialogShake = {
 				speed = 0.09,

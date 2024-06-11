@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU30",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#ffa500",
+			side = 2,
 			bgName = "bg_burningsea_1",
-			stopbgm = true,
-			say = "？？？·？？？",
 			bgmDelay = 1,
 			bgm = "battle-whaling-normal",
+			stopbgm = true,
+			say = "？？？·？？？",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,11 +28,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#ffa500",
 			side = 2,
+			nameColor = "#ffa500",
 			bgName = "bg_burningsea_1",
-			say = "轟——————————！",
 			soundeffect = "event:/battle/boom2",
+			say = "轟——————————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,9 +80,9 @@ return {
 		{
 			actor = 9702030,
 			side = 2,
-			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_burningsea_1",
 			say = "我來幫忙了，情況如何？",
 			painting = {
 				alpha = 0.3,
@@ -97,8 +97,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "慢了一步，只剩下些雜魚，讓「鯨魚」跑了。",
 			painting = {
@@ -114,8 +114,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "可惜。有其他收穫嗎？",
 			painting = {
@@ -131,8 +131,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "給妳，這是回收的情報殘留，妳看看吧。",
 			painting = {
@@ -148,8 +148,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "…………果然，「鯨魚」看似隨機的「遊動」是存在某種目的性的。",
 			painting = {
@@ -165,8 +165,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "所以我真是完全不明白它們在搞些什麼啊……審判者計劃變成這樣子還能進行下去麼？",
 			painting = {
@@ -181,9 +181,9 @@ return {
 		{
 			actor = 9701010,
 			side = 2,
-			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_burningsea_1",
 			say = "還是說這也是審判者計畫的一環呢？",
 			painting = {
 				alpha = 0.3,
@@ -198,8 +198,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "為什麼要問我？",
 			painting = {
@@ -215,8 +215,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "因為妳有一個漂亮的履歷嘛~",
 			painting = {
@@ -232,8 +232,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "附近還有一個履歷比我更漂亮的人呢，妳如果真的好奇的話去問問「D小姐」如何？",
 			painting = {
@@ -249,8 +249,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "我當然問過啊……可是它說除非先抓住「鯨魚」，否則什麼事都不會告訴我。",
 			painting = {
@@ -265,9 +265,9 @@ return {
 		{
 			actor = 9702030,
 			side = 2,
-			bgName = "bg_burningsea_1",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_burningsea_1",
 			say = "那就繼續去抓「鯨魚」吧。",
 			painting = {
 				alpha = 0.3,
@@ -282,8 +282,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9701010,
 			dir = 1,
+			actor = 9701010,
 			nameColor = "#ffa500",
 			say = "我知道了……",
 			painting = {
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9702030,
 			dir = 1,
+			actor = 9702030,
 			nameColor = "#ffa500",
 			say = "不過不是現在，陛下叫我們回去了。",
 			painting = {
@@ -313,13 +313,13 @@ return {
 			}
 		},
 		{
-			bgName = "bg_burningsea_1",
-			mode = 1,
 			spacing = 30,
-			stopbgm = true,
-			asideType = 4,
+			mode = 1,
+			bgName = "bg_burningsea_1",
 			bgmDelay = 0.5,
 			bgm = "theme-shallowoftheworld",
+			stopbgm = true,
+			asideType = 4,
 			rectOffset = {
 				100,
 				100,
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

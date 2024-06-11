@@ -1,18 +1,18 @@
 return {
-	id = "XIAWANJIANDEFANJI1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401020,
 			side = 2,
-			nameColor = "#ff5c5c",
-			say = "ロイヤルへ奇襲を仕掛け、峡湾に突入できたところまではよかったですけど、増援が出てきて…ええ、厄介なことになりました",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level02",
+			actor = 401020,
+			nameColor = "#ff5c5c",
+			say = "ロイヤルへ奇襲を仕掛け、峡湾に突入できたところまではよかったですけど、増援が出てきて…ええ、厄介なことになりました",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -80,8 +80,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "ハンスちゃん（Z18)スマイルでも無理ですね。ええ、分かっています",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -151,8 +151,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "ええ",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "……………",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "いえ、レーベくんの真似をやってみただけです",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "レーベくんならこの場面で何をするか…ええ、私はレーベくんではありませんから、これくらいしかできませんが",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "ええ。うん……",
 			typewriter = {
 				speed = 0.05,
@@ -276,8 +276,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "ハンスちゃんは、さすがですね",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -317,8 +317,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "ええ、頑張らないといけませんね",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "みんな、撤退しますよ",
 			typewriter = {
 				speed = 0.05,

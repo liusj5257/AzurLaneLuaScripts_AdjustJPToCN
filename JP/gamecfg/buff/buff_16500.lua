@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16500,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16500,
+	color = "yellow",
 	icon = 16500,
 	last_effect = "",
 	effect_list = {
@@ -46,10 +46,10 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				target = "TargetSelf",
+				skill_id = 16507,
 				hpSigned = 0,
 				hpUpperBound = 1,
-				skill_id = 16507,
+				target = "TargetSelf",
 				hpLowerBound = 0.18
 			}
 		},
@@ -61,8 +61,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.18,
-				target = "TargetSelf",
 				skill_id = 16508,
+				target = "TargetSelf",
 				hpSigned = 0
 			}
 		}

@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Date with an Angel\n\n<size=45>2 A Prayer of Atonement</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
-			say = "And so, I accompanied Joffre to the chapel.",
 			bgm = "theme-clemenceau",
+			say = "And so, I accompanied Joffre to the chapel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			say = "Though we were supposed to be praying together, I actually ended up sitting there on the bench, watching her pray the entire time.",
@@ -39,11 +39,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "star_level_bg_507",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_507",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...The Holy Iris' blessings upon you.",
 			painting = {
 				alpha = 0.3,
@@ -54,17 +54,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			say = "She was kneeling on the ground, her two hands clasped together in front of her chest in prayer. The sunlight pouring through the high window cast a brilliant light across her serene features.",
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			say = "That enchanting sight made it seem as if she was radiating piety itself, making me hold my breath out of fear of disturbing the \"angel\" with eyes closed in front of me.",
@@ -97,10 +97,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_507",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Mm... That should do it. It's your turn next, Commander.",
 			painting = {
 				alpha = 0.3,
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			say = "She opens her eyes and turns her gaze towards me.",
@@ -126,10 +126,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_507",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Considering that you're not very familiar with the act of prayer, allow me to guide you through the process.",
 			painting = {
 				alpha = 0.3,
@@ -164,13 +164,13 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_507",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hmm, that is true. Since it's not a part of your customs, I shouldn't force it upon you.",
 			painting = {
 				alpha = 0.3,
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -213,8 +213,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -244,8 +244,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -256,13 +256,13 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_507",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The next step is...",
 			painting = {
 				alpha = 0.3,
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -405,28 +405,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_507",
-			hidePaintObj = true,
 			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Before I know it, the palms obscuring my vision are lifted, and when I turn around to look at Joffre, she seems to be deep in thought.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -434,13 +434,13 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_507",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "As expected, it's difficult to do things you're not accustomed to.",
 			painting = {
 				alpha = 0.3,
@@ -487,10 +487,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_507",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now then, a change of venues is in order. Please come with me.",
 			painting = {
 				alpha = 0.3,

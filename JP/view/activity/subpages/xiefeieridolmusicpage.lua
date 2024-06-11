@@ -10,13 +10,13 @@ slot1 = {
 	1
 }
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.masklist = slot0.bg:Find("maskList")
 	slot0.slider = slot0.bg:Find("slider")
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.HubID = slot0.activity:getConfig("config_id")
 
 	print("self.HubID:" .. slot0.HubID)
@@ -24,7 +24,7 @@ function slot0.OnDataSetting(slot0)
 	slot0.mgProxy = getProxy(MiniGameProxy)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot3 = slot0.bg
 
 	onButton(slot0, slot3:Find("battle_btn"), function ()
@@ -32,7 +32,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.hubData = slot0.mgProxy:GetHubByHubId(slot0.HubID)
 	slot0.finish_times = slot0.hubData.usedtime
 	slot0.all_times = slot0.hubData.usedtime + slot0.hubData.count
@@ -59,7 +59,7 @@ function slot0.OnUpdateFlush(slot0)
 	setActive(slot0.bg:Find("got_icon"), slot0.hubData.ultimate ~= 0)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	clearImageSprite(slot0.bg)
 end
 

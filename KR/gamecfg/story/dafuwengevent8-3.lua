@@ -1,6 +1,6 @@
 return {
-	id = "DAFUWENGEVENT8-3",
 	mode = 2,
+	id = "DAFUWENGEVENT8-3",
 	skipTip = false,
 	fadein = 1.5,
 	scripts = {

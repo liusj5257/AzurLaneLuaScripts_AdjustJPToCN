@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 4
+					number = 4,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 8
+					number = 8,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 12
+					number = 12,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 16
+					number = 16,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 20
+					number = 20,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 24
+					number = 24,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 28
+					number = 28,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 32
+					number = 32,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 36
+					number = 36,
+					attr = "oxyMax"
 				}
 			}
 		}
@@ -133,20 +133,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "oxyMax",
-					number = 40
+					number = 40,
+					attr = "oxyMax"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "额外供氧",
 	init_effect = "jinengchufablue",
-	color = "yellow",
+	id = 3510,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 3510,
+	color = "yellow",
 	icon = 3510,
 	last_effect = "",
 	blink = {
@@ -163,8 +163,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "oxyMax",
-				number = 4
+				number = 4,
+				attr = "oxyMax"
 			}
 		}
 	}

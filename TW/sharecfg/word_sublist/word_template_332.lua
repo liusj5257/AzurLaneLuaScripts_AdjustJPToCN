@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_332 = {}
 slot1 = slot0.word_template_332
 
-function temp()
+temp = function()
 	uv0["議"] = {
 		["長"] = {
 			["阿"] = {
@@ -32,7 +32,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["异"] = {
 		["見"] = {
 			["人"] = {
@@ -67,7 +67,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["易"] = {
 		["丹"] = {
 			["軒"] = {
@@ -79,7 +79,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["意"] = {
 		["志"] = {
 			["不"] = {

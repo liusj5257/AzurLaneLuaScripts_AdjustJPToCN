@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑亚利桑那 替换meta",
 	time = 0,
-	color = "red",
+	name = "黑亚利桑那 替换meta",
+	init_effect = "",
+	id = 200208,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200208,
+	color = "red",
 	icon = 200208,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				rant = 5000,
-				target = "TargetSelf",
 				skill_id = 200203,
+				target = "TargetSelf",
 				time = 12
 			}
 		}

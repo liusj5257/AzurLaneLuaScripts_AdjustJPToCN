@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			asideType = 1,
 			mode = 1,
+			asideType = 1,
 			sequence = {
 				{
 					"——システム起動中",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "試作型スーパードリルMKII",
+			side = 2,
 			bgName = "bg_bigbuli",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -81,12 +81,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ゴールデンの時代の威光、ここに降臨プリン！",
 			painting = {
 				alpha = 0.3,
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "このわたしの真の力、見せるときだプリン！",
 			painting = {
 				alpha = 0.3,
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一緒に世界を震わせてやるプリン！",
 			painting = {
 				alpha = 0.3,
@@ -132,12 +132,12 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_bigbuli",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "試作型スーパードリルMKII、起動プリン！",
 			painting = {
 				alpha = 0.3,

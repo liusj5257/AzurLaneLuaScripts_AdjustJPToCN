@@ -1,17 +1,17 @@
 slot0 = class("SailBoatWeapon")
 slot1 = nil
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0 = SailBoatGameVo
 	slot0._data = slot1
 	slot0._fireTime = nil
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0._fireTime = slot0:getConfig("cd")
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	if slot0._fireTime and slot0._fireTime > 0 then
 		slot0._fireTime = slot0._fireTime - slot1
 
@@ -23,11 +23,11 @@ function slot0.step(slot0, slot1)
 	end
 end
 
-function slot0.skillStep(slot0, slot1)
+slot0.skillStep = function(slot0, slot1)
 	slot0._fireTime = slot0._fireTime - slot1
 end
 
-function slot0.getFireAble(slot0)
+slot0.getFireAble = function(slot0)
 	if slot0._fireTime and slot0._fireTime > 0 then
 		return false
 	end
@@ -35,7 +35,7 @@ function slot0.getFireAble(slot0)
 	return true
 end
 
-function slot0.fire(slot0)
+slot0.fire = function(slot0)
 	if not slot0:getFireAble() then
 		return nil
 	end
@@ -45,35 +45,35 @@ function slot0.fire(slot0)
 	return slot0:getFireData()
 end
 
-function slot0.getFireTime(slot0)
+slot0.getFireTime = function(slot0)
 	return slot0._fireTime or 0
 end
 
-function slot0.getFireData(slot0)
+slot0.getFireData = function(slot0)
 	return Clone(slot0._data)
 end
 
-function slot0.getAngel(slot0)
+slot0.getAngel = function(slot0)
 	return slot0:getConfig("angel")
 end
 
-function slot0.getDistance(slot0)
+slot0.getDistance = function(slot0)
 	return slot0:getConfig("distance")
 end
 
-function slot0.getDamage(slot0)
+slot0.getDamage = function(slot0)
 	return slot0:getConfig("damage")
 end
 
-function slot0.getFireFlag(slot0)
+slot0.getFireFlag = function(slot0)
 	return slot0._fireTime == 0
 end
 
-function slot0.getConfig(slot0, slot1)
+slot0.getConfig = function(slot0, slot1)
 	return slot0._data[slot1]
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0._data = nil
 end
 

@@ -4,9 +4,9 @@ slot0 = pg.GuideMgr2
 slot1 = createLog("GuideMgr2", LOG_GUIDE2)
 slot0.ENABLE_GUIDE = true
 slot0.MANAGER_STATE = {
+	LOADING = 0,
 	STOP = 3,
 	IDLE = 1,
-	LOADING = 0,
 	BUSY = 2
 }
 slot2 = 0.1
@@ -21,15 +21,15 @@ slot10 = 2
 slot11 = 3
 slot12 = 6
 slot13 = {
-	MODE1 = 1,
-	MODE2 = 2
+	MODE2 = 2,
+	MODE1 = 1
 }
 slot14 = 3
 slot15 = 0.5
 slot16 = require("GameCfg.guide.style")
 slot17 = require("GameCfg.guide.commonEvent")
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	print("initializing guide2 manager...")
 	PoolMgr.GetInstance():GetUI("GuideUI", true, function (slot0)
 		uv0._go = slot0
@@ -67,7 +67,7 @@ function slot0.Init(slot0, slot1)
 	slot0.managerState = uv0.MANAGER_STATE.LOADING
 end
 
-function slot0.updateCurrentGuideStep(slot0, slot1)
+slot0.updateCurrentGuideStep = function(slot0, slot1)
 	uv0("current guide index--->" .. slot1)
 
 	if not uv1.ENABLE_GUIDE or GUIDE_FINALE <= slot1 then
@@ -107,7 +107,7 @@ function slot0.updateCurrentGuideStep(slot0, slot1)
 	slot0.curEvents = Clone(slot0.currentGuide.events)
 end
 
-function slot0.passGuider(slot0, slot1)
+slot0.passGuider = function(slot0, slot1)
 	if getProxy(slot1[1]) and not slot0:Match(slot1[3], slot2[slot1[2]](slot2, slot1[5]), slot1[4]) then
 		return false
 	end
@@ -117,7 +117,7 @@ end
 
 slot18 = 807
 
-function slot0.updateSystemGuideStep(slot0, slot1)
+slot0.updateSystemGuideStep = function(slot0, slot1)
 	uv0("load System Guider id =======" .. slot1)
 
 	slot0.currentGuide = require("GameCfg.guide.G" .. slot1)
@@ -135,7 +135,7 @@ function slot0.updateSystemGuideStep(slot0, slot1)
 	slot0.curEvents = Clone(slot0.currentGuide.events)
 end
 
-function slot0.dispatch(slot0, slot1)
+slot0.dispatch = function(slot0, slot1)
 	slot2 = slot1.func
 
 	if not slot0.curEvents then
@@ -243,7 +243,7 @@ function slot0.dispatch(slot0, slot1)
 	slot0:startGuide(slot3, slot1, slot2)
 end
 
-function slot0.startGuide(slot0, slot1, slot2, slot3)
+slot0.startGuide = function(slot0, slot1, slot2, slot3)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.waitProcess = coroutine.wrap(function ()
@@ -274,7 +274,7 @@ function slot0.startGuide(slot0, slot1, slot2, slot3)
 	slot0.waitProcess()
 end
 
-function slot0.dispatchLoaded(slot0, slot1)
+slot0.dispatchLoaded = function(slot0, slot1)
 	if slot0.checkViewHandle and slot1.viewComponent == slot0.checkViewHandle and slot0.waitProcess then
 		Canvas.ForceUpdateCanvases()
 		slot0.waitProcess()
@@ -283,7 +283,7 @@ function slot0.dispatchLoaded(slot0, slot1)
 	end
 end
 
-function slot0.condition(slot0, slot1, slot2)
+slot0.condition = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2.condition) do
 		slot8 = nil
 
@@ -309,7 +309,7 @@ function slot0.condition(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.verify(slot0, slot1)
+slot0.verify = function(slot0, slot1)
 	slot2 = slot0.currentGuide.verify.condition
 	slot3 = getProxy(slot2[1])
 
@@ -345,7 +345,7 @@ function slot0.verify(slot0, slot1)
 	return true
 end
 
-function slot0.doCurrEvent(slot0, slot1, slot2)
+slot0.doCurrEvent = function(slot0, slot1, slot2)
 	if table.getCount(slot1.action or {}) == 0 or slot3 == 1 and slot1.action.newEvent then
 		slot0:finishCurrEvent(slot1, slot2)
 		slot0:dispatchNewEvent(slot1)
@@ -395,7 +395,7 @@ function slot0.doCurrEvent(slot0, slot1, slot2)
 	end
 end
 
-function slot0.finishCurrEvent(slot0, slot1, slot2)
+slot0.finishCurrEvent = function(slot0, slot1, slot2)
 	if not slot1.openUI then
 		slot0._go:SetActive(false)
 	end
@@ -496,7 +496,7 @@ function slot0.finishCurrEvent(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateContent(slot0, slot1, slot2)
+slot0.updateContent = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	if slot1.style then
@@ -540,7 +540,7 @@ function slot0.updateContent(slot0, slot1, slot2)
 	setAnchoredPosition(slot0.guiderTF, Vector3(slot6, slot7, 0))
 end
 
-function slot0.checkTextAlign(slot0, slot1)
+slot0.checkTextAlign = function(slot0, slot1)
 	slot3 = slot1:GetComponent(typeof(Text))
 
 	if slot0:getTextRowNum(slot1) > 1 then
@@ -550,7 +550,7 @@ function slot0.checkTextAlign(slot0, slot1)
 	end
 end
 
-function slot0.getTextRowNum(slot0, slot1)
+slot0.getTextRowNum = function(slot0, slot1)
 	slot2 = slot1:GetComponent(typeof(Text))
 	slot2.text = ""
 	slot2.text = slot2.text
@@ -558,7 +558,7 @@ function slot0.getTextRowNum(slot0, slot1)
 	return math.floor(slot2.preferredHeight / slot2.preferredHeight)
 end
 
-function slot0.updateUI(slot0, slot1, slot2)
+slot0.updateUI = function(slot0, slot1, slot2)
 	slot3 = slot1.action.ui
 	slot4 = slot1.action.ui.triggerType
 
@@ -577,7 +577,7 @@ function slot0.updateUI(slot0, slot1, slot2)
 	end
 end
 
-function slot0.cloneGO(slot0, slot1, slot2, slot3)
+slot0.cloneGO = function(slot0, slot1, slot2, slot3)
 	slot4 = tf(Instantiate(slot1))
 	slot4.sizeDelta = tf(slot1).sizeDelta
 
@@ -621,7 +621,7 @@ function slot0.cloneGO(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.StartSearch(slot0, slot1, slot2)
+slot0.StartSearch = function(slot0, slot1, slot2)
 	slot3 = slot1.action.ui
 	slot4 = slot3.path
 
@@ -665,7 +665,7 @@ function slot0.StartSearch(slot0, slot1, slot2)
 	end
 end
 
-function slot0.SearchTarget(slot0, slot1, slot2, slot3)
+slot0.SearchTarget = function(slot0, slot1, slot2, slot3)
 	slot1 = tf(slot1)
 
 	if slot2.action.ui.childIndex then
@@ -731,11 +731,11 @@ function slot0.SearchTarget(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.ReSearchTarget(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.ReSearchTarget = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = 0
 	slot7 = Time.realtimeSinceStartup
 
-	function slot8()
+	slot8 = function()
 		uv0.searchTimer:Stop()
 
 		uv0.searchTimer = nil
@@ -768,7 +768,7 @@ function slot0.ReSearchTarget(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.searchTimer:Start()
 end
 
-function slot0.addTimer(slot0, slot1, slot2)
+slot0.addTimer = function(slot0, slot1, slot2)
 	if slot0.cloneTimer then
 		slot0.cloneTimer:Stop()
 
@@ -788,7 +788,7 @@ function slot0.addTimer(slot0, slot1, slot2)
 	slot0.cloneTimer:Start()
 end
 
-function slot0.setFinger(slot0, slot1, slot2, slot3)
+slot0.setFinger = function(slot0, slot1, slot2, slot3)
 	SetActive(slot0.fingerTF, true)
 
 	slot4 = slot1.sizeDelta.x / 2
@@ -810,7 +810,7 @@ function slot0.setFinger(slot0, slot1, slot2, slot3)
 	LeanTween.play(slot0.fingerTF, slot0.fingerSprites):setLoopPingPong()
 end
 
-function slot0.addTargetListener(slot0, slot1, slot2)
+slot0.addTargetListener = function(slot0, slot1, slot2)
 	slot4 = nil
 	slot4 = (not slot2.action.ui.childPath or findTF(slot1, slot3.childPath)) and (not slot3.eventPath or findTF(slot1, slot3.eventPath)) and slot1
 	slot0.lastTriggleType = slot3.triggerType and slot3.triggerType[1] or uv0
@@ -911,7 +911,7 @@ function slot0.addTargetListener(slot0, slot1, slot2)
 	end
 end
 
-function slot0.dispatchNewEvent(slot0, slot1)
+slot0.dispatchNewEvent = function(slot0, slot1)
 	uv0("newEvent ready.....")
 
 	if slot0.managerState == uv1.MANAGER_STATE.IDLE then
@@ -941,7 +941,7 @@ function slot0.dispatchNewEvent(slot0, slot1)
 	end
 end
 
-function slot0.Match(slot0, slot1, slot2, slot3)
+slot0.Match = function(slot0, slot1, slot2, slot3)
 	if slot1 == "=" then
 		return slot2 == slot3
 	elseif slot1 == "<" then
@@ -959,7 +959,7 @@ function slot0.Match(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.GetFlagShipId(slot0)
+slot0.GetFlagShipId = function(slot0)
 	if not slot0.shipId then
 		slot0.shipId = getProxy(SettingsProxy):GetSelectedShipId()
 	end
@@ -967,7 +967,7 @@ function slot0.GetFlagShipId(slot0)
 	return slot0.shipId
 end
 
-function slot0.getDailyId(slot0)
+slot0.getDailyId = function(slot0)
 	slot1 = pg.TimeMgr.GetInstance():GetServerWeek()
 
 	for slot6, slot7 in pairs(pg.expedition_daily_template.all) do
@@ -979,7 +979,7 @@ function slot0.getDailyId(slot0)
 	end
 end
 
-function slot0.onDisconnected(slot0)
+slot0.onDisconnected = function(slot0)
 	if slot0._go and uv0.MANAGER_STATE.BUSY == slot0.managerState then
 		slot0.isBreak = true
 
@@ -991,7 +991,7 @@ function slot0.onDisconnected(slot0)
 	end
 end
 
-function slot0.onReconneceted(slot0)
+slot0.onReconneceted = function(slot0)
 	if slot0._go and slot0.isBreak then
 		SetActive(slot0._go, true)
 
@@ -1003,7 +1003,7 @@ function slot0.onReconneceted(slot0)
 	end
 end
 
-function slot0.ClearGuide(slot0)
+slot0.ClearGuide = function(slot0)
 	if slot0.cloneTimer then
 		slot0.cloneTimer:Stop()
 
@@ -1042,7 +1042,7 @@ function slot0.ClearGuide(slot0)
 	end
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	uv0("RESET..................")
 
 	if uv1.ENABLE_GUIDE == false then
@@ -1052,7 +1052,7 @@ function slot0.Reset(slot0)
 	slot0.managerState = uv1.MANAGER_STATE.IDLE
 end
 
-function slot0.AbortGuide(slot0, slot1, slot2, slot3)
+slot0.AbortGuide = function(slot0, slot1, slot2, slot3)
 	uv0("Guide Abort............" .. slot1)
 	slot0:ClearGuide()
 
@@ -1067,7 +1067,7 @@ function slot0.AbortGuide(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.QuitGuide(slot0)
+slot0.QuitGuide = function(slot0)
 	uv0("Guide qiut............")
 	slot0:ClearGuide()
 

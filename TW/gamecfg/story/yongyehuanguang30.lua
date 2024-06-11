@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG30",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 206060,
-			side = 2,
 			bgName = "bg_hms_9",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "戰鬥結束，呼…稍微有些棘手呢。",
 			bgm = "bgm-royalnavy",
+			actor = 206060,
+			nameColor = "#a9f548",
+			say = "戰鬥結束，呼…稍微有些棘手呢。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "敵人和北方聯合資料中的新型號吻合，但是沒有發現類似人型的指揮單位存在。",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "新型塞壬上次也只是在冰雪要塞的最深處少量出現而已，這麼快已經有這種規模了啊…",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "啊，遠處還有部分殘存敵艦正在向護航艦隊的方向逃跑…！",
 			typewriter = {
@@ -168,8 +168,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "漏網之魚中的漏網之魚……好…讓我們去消滅這些漏網之蝦吧…！",
 			typewriter = {
@@ -230,12 +230,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_hms_9",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "(真是的，真想盡快向陛下匯報這些重要情報啊......)",
 			typewriter = {
 				speed = 0.05,

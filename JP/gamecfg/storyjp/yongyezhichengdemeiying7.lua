@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEZHICHENGDEMEIYING7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEZHICHENGDEMEIYING7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"永き城の麗しき影\n\n<size=45>七 魔城からの脱出</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "立て続けに爆発した煙幕弾に視界が阻まれながらひたすら走り続けたが、なぜか未だに最後の通路を突破できなかった。",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet-reborn",
+			say = "立て続けに爆発した煙幕弾に視界が阻まれながらひたすら走り続けたが、なぜか未だに最後の通路を突破できなかった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202084,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "大人しくお縄についてください。ヴァンパイアとその眷属の害虫も",
 			typewriter = {
 				speed = 0.05,
@@ -70,10 +70,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ははは、追いかけっこって楽しい♪",
 			typewriter = {
 				speed = 0.05,
@@ -85,9 +85,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "そうこうしているうちに、天井から巨大な金槌か何個がぶら下がってきて、廊下をいくつかに分断した。",
 			typewriter = {
 				speed = 0.05,
@@ -102,10 +102,10 @@ return {
 			expression = 13,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ちょ、ちょっと？こんなもの脚本に書いてなかったよ？",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -127,12 +127,12 @@ return {
 			}
 		},
 		{
-			actor = 405041,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "これはオイゲンと明石が直前に仕掛けたもの。リュッツォウは知らなくて当然だな",
 			typewriter = {
 				speed = 0.05,
@@ -147,10 +147,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "むっ。どうして今まで教えてくれなかったの――",
 			typewriter = {
 				speed = 0.05,
@@ -165,10 +165,10 @@ return {
 			expression = 12,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "きゃー（とてつもない緊迫感を感じない悲鳴）",
 			effects = {
 				{
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "リュッツォウはなぜか突然発動したトラップの落とし穴に落ちた。",
 			effects = {
 				{
@@ -218,10 +218,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "心配しなくていいとも。下にはクッションが敷かれているからリュッツォウは平気だ",
 			typewriter = {
 				speed = 0.05,
@@ -236,10 +236,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "私は脚本通りにここで退場しよう。床のトラップに気をつけて進むといい。うわー（悲鳴すら無い棒読み）",
 			typewriter = {
 				speed = 0.05,
@@ -251,9 +251,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "テューリンゲンも落とし穴に落ちて見えなくなった。",
 			typewriter = {
 				speed = 0.05,
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404031,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "残りは眷属だけ！さあ、観念しなさい！",
 			typewriter = {
 				speed = 0.05,
@@ -285,10 +285,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 202084,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "眷属の分際でやりますね。でもいつまで持ちますか？",
 			typewriter = {
 				speed = 0.05,
@@ -300,9 +300,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "二人から逃げ切るにはどうすればいいか、頭の中で必死に策を考えた。",
 			typewriter = {
 				speed = 0.05,
@@ -374,12 +374,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			optionFlag = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -402,17 +402,17 @@ return {
 			}
 		},
 		{
-			actor = 404031,
-			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
+			actor = 404031,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "上官殿、危ないっ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -437,8 +437,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -467,13 +467,13 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 404031,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "………上官殿、ご無事でしょうか！？",
 			typewriter = {
 				speed = 0.05,
@@ -519,13 +519,13 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 404031,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "上官殿が落ちたら、出口まで案内しようとオイゲンに言われましたが…ひとまず登って廊下に戻りましょうか",
 			typewriter = {
 				speed = 0.05,
@@ -616,13 +616,13 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 404031,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "さすが上官殿、こういう時でも落ち着いてますね",
 			typewriter = {
 				speed = 0.05,
@@ -678,10 +678,10 @@ return {
 			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ゲームクリアにゃ！指揮官、おめでとうにゃ！",
 			effects = {
 				{
@@ -699,14 +699,14 @@ return {
 			}
 		},
 		{
-			say = "数日後",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			bgm = "story-1",
+			say = "数日後",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -731,12 +731,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官からの感想と意見、全部一通りまとめたにゃ",
 			typewriter = {
 				speed = 0.05,
@@ -748,12 +748,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "これでより面白い「脱出ゲーム」が作れそうにゃ。改めて、クリアおめでとうにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -765,8 +765,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -775,12 +775,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官は何回「ばっどえんど」になったかはしらにゃいけど……",
 			typewriter = {
 				speed = 0.05,
@@ -792,12 +792,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ふふふ、そこは内緒だって約束じゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -809,12 +809,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "分かってるにゃ。みんなの「ふぃーどばっく」を反映したら、また遊びに来てにゃ",
 			typewriter = {
 				speed = 0.05,
@@ -826,12 +826,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そうね。また遊びに来てくれると嬉しいわ。参加した仲間も楽しかったって言ってるし",
 			typewriter = {
 				speed = 0.05,
@@ -843,9 +843,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "………何かと「サプライズ」の多い脱出ゲームだった。",
 			typewriter = {
 				speed = 0.05,

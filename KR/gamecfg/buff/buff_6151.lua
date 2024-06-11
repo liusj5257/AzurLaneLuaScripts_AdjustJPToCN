@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "灭火器T2",
 	time = 0,
-	color = "blue",
+	name = "灭火器T2",
+	init_effect = "",
+	id = 6021,
 	picture = "",
 	desc = "起火概率降低20%，持续时间缩短3秒，伤害降低15%",
 	stack = 1,
-	id = 6021,
+	color = "blue",
 	icon = 6021,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "igniteResist",
-				number = 0.2
+				number = 0.2,
+				attr = "igniteResist"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "igniteShorten",
-				number = 3
+				number = 3,
+				attr = "igniteShorten"
 			}
 		},
 		{
@@ -36,8 +36,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "igniteReduce",
-				number = 1500
+				number = 1500,
+				attr = "igniteReduce"
 			}
 		}
 	}

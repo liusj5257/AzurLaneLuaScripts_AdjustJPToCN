@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,
@@ -57,9 +57,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 12000031,
-							moveCast = true,
-							delay = 1,
 							score = 0,
+							delay = 1,
+							moveCast = true,
 							corrdinate = {
 								-15,
 								0,
@@ -71,25 +71,25 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 1,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 1,
 									setAI = 90004
 								},
 								{
-									index = 1,
 									switchType = 1,
 									switchTo = 2,
+									index = 1,
 									switchParam = 2.5,
 									addWeapon = {
 										608001
 									}
 								},
 								{
-									index = 2,
 									switchParam = 2.5,
 									switchTo = 202,
+									index = 2,
 									switchType = 1,
 									removeWeapon = {},
 									addWeapon = {
@@ -97,10 +97,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 2,
 									switchTo = 0,
 									index = 202,
-									switchParam = 2,
+									switchType = 1,
 									setAI = 90004,
 									removeWeapon = {}
 								}

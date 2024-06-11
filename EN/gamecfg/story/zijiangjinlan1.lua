@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "In the Sakura Empire's Sanctuary, an heir to great power stood amidst comfort and luxury.",
 			bgm = "story-mayrain",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "In the Sakura Empire's Sanctuary, an heir to great power stood amidst comfort and luxury.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "Standing in a pagoda that stretched towards the heavens, a black-haired woman rested her hand against the railing, casting her eyes across the sea of clouds below.",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "The first rays of morning's light pushed through the clouds, leaving a slender shadow across the wooden floorboards.",
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "Ominous clouds loomed on the horizon. In this still and silent world, there was no wind brushing against her cheek, no chirping of birds reaching her ears.",
@@ -86,10 +86,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "???",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The world within this barrier will not be affected... but I'm afraid the blossoms outside will be torn from their branches.",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "Alas, this was no time for her to wallow in sentimentality. Just as she was about to turn around and head back inside, she heard the cries of a lone and lost bird.",
@@ -111,10 +111,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "???",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A swallow? It must be seeking shelter.",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "She reached out to the swallow and the fragile creature came down and perched on her finger.",
@@ -136,10 +136,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "???",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If you've come here in search of shelter, I'm afraid you've made a mistake.",
 			typewriter = {
 				speed = 0.05,
@@ -150,10 +150,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "???",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "As seasons change, storms take shape – sunshine can turn into rain in the blink of an eye. One won't last long, fleeing from place to place without a plan.",
 			typewriter = {
 				speed = 0.05,
@@ -164,10 +164,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 900330,
 			actorName = "???",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The barrier surrounding this pagoda protects only the strong. It will keep me safe, but offers no relief to you.",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "Her words carried no meaning to the swallow, and yet, it nodded as though it understood.",
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "Musashi – battleship of the Yamato class now holding the seat of the Combined Fleet flagship – looked behind her.",
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "Though she should've been alone, a voice spoke to her from nearby.",
@@ -237,10 +237,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "There's no meaning to them beyond the picture they paint. More importantly, have our guests arrived yet?",
 			painting = {
 				alpha = 0.3,
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 900330,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Of course.",
 			painting = {
 				alpha = 0.3,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "Silence returned to the pagoda's top floor. Musashi extended her arm and gently shook her finger, sending the swallow away.",
@@ -293,8 +293,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg0",
 			hidePaintObj = true,
 			say = "*knock knock*",
@@ -304,12 +304,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I've come to report. Akagi and her party have arrived outside the barrier. Wakatsuki is guiding them around.",
 			painting = {
 				alpha = 0.3,
@@ -324,10 +324,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Alright. Head to the reception room. I'll be there soon.",
 			painting = {
 				alpha = 0.3,
@@ -339,12 +339,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "As you say!",
 			painting = {
 				alpha = 0.3,
@@ -356,12 +356,12 @@ return {
 			}
 		},
 		{
-			actor = 900330,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900330,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			painting = {
 				alpha = 0.3,
@@ -376,10 +376,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So you're the first to arrive, Akagi.",
 			painting = {
 				alpha = 0.3,
@@ -394,10 +394,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The barrier will not protect the weak from the storm...",
 			painting = {
 				alpha = 0.3,
@@ -412,10 +412,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg0",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900330,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So instead, I will protect you myself. Heehee.",
 			painting = {
 				alpha = 0.3,
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			bgm = "story-maystorm",
 			sequence = {
@@ -463,8 +463,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			effects = {
 				{
 					active = true,

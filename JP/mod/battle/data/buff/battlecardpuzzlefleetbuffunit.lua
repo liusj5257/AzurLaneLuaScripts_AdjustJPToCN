@@ -7,7 +7,7 @@ slot4 = class("BattleCardPuzzleFleetBuffUnit")
 slot0.Battle.BattleCardPuzzleFleetBuffUnit = slot4
 slot4.__name = "BattleCardPuzzleFleetBuffUnit"
 
-function slot4.Ctor(slot0, slot1, slot2)
+slot4.Ctor = function(slot0, slot1, slot2)
 	slot2 = slot2 or 1
 	slot0._id = slot1
 	slot0._tempData = uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1, slot2)
@@ -30,7 +30,7 @@ function slot4.Ctor(slot0, slot1, slot2)
 	slot0:SetActive()
 end
 
-function slot4.IsResponTo(slot0, slot1)
+slot4.IsResponTo = function(slot0, slot1)
 	if slot0._triggerSearchTable[slot1] ~= nil and #slot2 > 0 then
 		return true
 	end
@@ -38,7 +38,7 @@ function slot4.IsResponTo(slot0, slot1)
 	return false
 end
 
-function slot4.SetArgs(slot0, slot1)
+slot4.SetArgs = function(slot0, slot1)
 	slot0._host = slot1
 
 	for slot5, slot6 in ipairs(slot0._effectList) do
@@ -46,7 +46,7 @@ function slot4.SetArgs(slot0, slot1)
 	end
 end
 
-function slot4.setRemoveTime(slot0)
+slot4.setRemoveTime = function(slot0)
 	if slot0._tempData.time == nil then
 		return
 	end
@@ -60,7 +60,7 @@ function slot4.setRemoveTime(slot0)
 	slot0._expireTimeStamp = pg.TimeMgr.GetInstance():GetCombatTime() + slot0._duration
 end
 
-function slot4.Attach(slot0, slot1)
+slot4.Attach = function(slot0, slot1)
 	slot0._stack = 1
 
 	slot0:SetArgs(slot1)
@@ -68,7 +68,7 @@ function slot4.Attach(slot0, slot1)
 	slot0:setRemoveTime()
 end
 
-function slot4.Stack(slot0)
+slot4.Stack = function(slot0)
 	if slot0._tempData.stack == 0 then
 		slot0._stack = slot0._stack + 1
 	else
@@ -79,13 +79,13 @@ function slot4.Stack(slot0)
 	slot0:setRemoveTime()
 end
 
-function slot4.InitStack(slot0)
+slot4.InitStack = function(slot0)
 end
 
-function slot4.UpdateStack(slot0, slot1)
+slot4.UpdateStack = function(slot0, slot1)
 end
 
-function slot4.Remove(slot0)
+slot4.Remove = function(slot0)
 	slot0:onTrigger(uv0.ON_REMOVE)
 
 	slot0._host:GetBuffManager():GetCardPuzzleBuffList()[slot0._id] = nil
@@ -93,7 +93,7 @@ function slot4.Remove(slot0)
 	slot0:Clear()
 end
 
-function slot4.Update(slot0, slot1)
+slot4.Update = function(slot0, slot1)
 	if slot0:IsExpire(slot1) then
 		slot0:Remove()
 	else
@@ -101,7 +101,7 @@ function slot4.Update(slot0, slot1)
 	end
 end
 
-function slot4.onTrigger(slot0, slot1, slot2)
+slot4.onTrigger = function(slot0, slot1, slot2)
 	if slot0._triggerSearchTable[slot1] == nil or #slot3 == 0 then
 		return
 	end
@@ -117,7 +117,7 @@ function slot4.onTrigger(slot0, slot1, slot2)
 	end
 end
 
-function slot4.IsExpire(slot0, slot1)
+slot4.IsExpire = function(slot0, slot1)
 	if slot0._expireTimeStamp == nil then
 		return false
 	else
@@ -125,35 +125,35 @@ function slot4.IsExpire(slot0, slot1)
 	end
 end
 
-function slot4.IsActive(slot0)
+slot4.IsActive = function(slot0)
 	return slot0._isActive
 end
 
-function slot4.SetActive(slot0)
+slot4.SetActive = function(slot0)
 	slot0._isActive = true
 end
 
-function slot4.NotActive(slot0)
+slot4.NotActive = function(slot0)
 	slot0._isActive = false
 end
 
-function slot4.GetCaster(slot0)
+slot4.GetCaster = function(slot0)
 	return nil
 end
 
-function slot4.GetID(slot0)
+slot4.GetID = function(slot0)
 	return slot0._id
 end
 
-function slot4.GetStack(slot0)
+slot4.GetStack = function(slot0)
 	return slot0._stack
 end
 
-function slot4.GetLv(slot0)
+slot4.GetLv = function(slot0)
 	return 1
 end
 
-function slot4.GetDurationRate(slot0)
+slot4.GetDurationRate = function(slot0)
 	if slot0._expireTimeStamp == nil then
 		return 1
 	else
@@ -161,7 +161,7 @@ function slot4.GetDurationRate(slot0)
 	end
 end
 
-function slot4.Clear(slot0)
+slot4.Clear = function(slot0)
 	slot0._host = nil
 
 	for slot4, slot5 in ipairs(slot0._effectList) do

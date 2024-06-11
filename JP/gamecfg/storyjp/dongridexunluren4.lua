@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGRIDEXUNLUREN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGRIDEXUNLUREN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ウィンター・パスファインダー\n\n<size=45>四 頂上決戦？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_night",
-			say = "母港広場・セット？",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "母港広場・セット？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,12 +46,12 @@ return {
 			}
 		},
 		{
-			actor = 702050,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "やはり明石の店のコインね。特にこれといった特徴はないわ",
 			painting = {
 				alpha = 0.3,
@@ -66,10 +66,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もう少し集めれば妖精のお宝にたどり着けるはず、そのときは……",
 			painting = {
 				alpha = 0.3,
@@ -84,10 +84,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "？この箱は…？",
 			painting = {
 				alpha = 0.3,
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "眼の前の通路のど真ん中に箱が置かれていることに気づいた。",
 			typewriter = {
@@ -112,10 +112,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "アヴローラ",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "アヴローラ",
 			hidePaintObj = true,
 			say = "あーあー。……コホン。妖精のお宝を手に入れる存在はじきに現れる",
 			painting = {
@@ -131,10 +131,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "アヴローラ",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "アヴローラ",
 			hidePaintObj = true,
 			say = "しかしまだチャンスがある。それが伝えられし最後の予言",
 			painting = {
@@ -150,10 +150,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "アヴローラ",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "アヴローラ",
 			hidePaintObj = true,
 			say = "この放送を聞いているあなた、妖精からの言葉を心して聞くがいい",
 			painting = {
@@ -169,10 +169,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "アヴローラ",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "アヴローラ",
 			hidePaintObj = true,
 			say = "妖精の贈り物を手に、選ばれし「リトルウィッチ」に戦いを挑みなさい",
 			painting = {
@@ -188,10 +188,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "アヴローラ",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "アヴローラ",
 			hidePaintObj = true,
 			say = "残されし最後の希望として、宝を手に入れよ",
 			painting = {
@@ -207,10 +207,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "アヴローラ",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "アヴローラ",
 			hidePaintObj = true,
 			say = "ここから先は決戦の戦場。真理の扉をくぐることを許されるのは勝者だけ",
 			painting = {
@@ -226,10 +226,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "アヴローラ",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "アヴローラ",
 			hidePaintObj = true,
 			say = "奇跡を信じて、魔法を信じて、暁の光を信じて",
 			painting = {
@@ -245,10 +245,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_night",
-			actorName = "アヴローラ",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702010,
-			nameColor = "#A9F548FF",
+			actorName = "アヴローラ",
 			hidePaintObj = true,
 			say = "最後の勝利を目指して、前進せよ",
 			painting = {
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 702050,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妖精の贈りもの……これかしら？",
 			painting = {
 				alpha = 0.3,
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			say = "箱の裏には明石のコインが2枚、箱の底に貼りつけられてあった。",
 			typewriter = {
@@ -291,10 +291,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "放送の内容が正しければこれで最後かな",
 			painting = {
 				alpha = 0.3,
@@ -309,10 +309,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "正直良くわからなかったけど、仲間が関わっている以上、私が助ける必要がある",
 			painting = {
 				alpha = 0.3,
@@ -327,10 +327,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そして「リトルウィッチ」に戦いを挑むというのは…",
 			painting = {
 				alpha = 0.3,
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 702050,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なるほど、ロイヤルのあのシーシュースって子が相手ね",
 			painting = {
 				alpha = 0.3,
@@ -362,10 +362,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "向こうはもうお宝の場所にいるはず。一刻も早くあの子を倒して作戦を終わらせたほうがいい",
 			painting = {
 				alpha = 0.3,
@@ -380,10 +380,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "よし、向かいましょう",
 			painting = {
 				alpha = 0.3,
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			say = "一方、指揮官側――",
 			typewriter = {
@@ -404,17 +404,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -422,8 +422,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			say = "多少強引ではあるが、新しい仲間のシーシュースとクイビシェフを最後の舞台に上がらせることができたな",
 			typewriter = {
@@ -432,12 +432,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_161",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私の案を採用してくれてありがとうございます。指揮官",
 			painting = {
 				alpha = 0.3,
@@ -449,12 +449,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_161",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あのまま調査を続けさせたら、シーシュースみたいにここを見つけてしまう可能性が出てきますからね",
 			painting = {
 				alpha = 0.3,
@@ -466,12 +466,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_161",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうなったら水の泡になってしまいますから",
 			painting = {
 				alpha = 0.3,
@@ -483,12 +483,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_161",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なので、ここはとりあえず丸く収めて、みんなが疲れていないうちに――",
 			painting = {
 				alpha = 0.3,
@@ -500,28 +500,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
-			say = "母港広場・セット？",
 			bgmDelay = 1,
 			bgm = "bgm-cccp",
+			nameColor = "#A9F548FF",
+			say = "母港広場・セット？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -529,8 +529,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "明石の作ったセットの中央にある広場で、「招待者」たる宿命の二人は出会った。",
 			typewriter = {
@@ -539,8 +539,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "片方は北方連合所属のクイビシェフ。もう片方は――",
 			typewriter = {
@@ -695,9 +695,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_156",
 			actor = 206080,
 			actorName = "シーシュース",
 			say = "「リトルウィッチ」よ！ぷんぷん！",
@@ -711,8 +711,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -778,8 +778,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			actor = 702050,
 			actorName = "クイビシェフ",
 			say = "「フェアリーマジック」…妖精の宝の謎を解いてみせる！",

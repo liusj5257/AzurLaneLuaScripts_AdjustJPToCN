@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN8",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuiluo_2",
-			stopbgm = true,
-			say = "A deep red sky, a murky, jet-black sea.",
 			bgmDelay = 2,
 			bgm = "theme-bismark-reborn",
+			stopbgm = true,
+			say = "A deep red sky, a murky, jet-black sea.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "Burning wreckages smashing together before disappearing beneath the waves.",
 			typewriter = {
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "This place is...",
 			painting = {
@@ -58,8 +58,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "Yes, I remember now...",
 			painting = {
@@ -74,9 +74,9 @@ return {
 		{
 			actor = 9704010,
 			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_zhuiluo_2",
 			say = "My hunting grounds... and my grave...",
 			painting = {
 				alpha = 0.3,
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,8 +138,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "Gneisenau's cannons rang out, tearing the smoldering husks around her into fine dust that was carried away on the wind.",
 			typewriter = {
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "How long had she been fighting here all by herself? How many enemies had she sunk? None of it mattered anymore.",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "Her existence had become nothing more than wandering this vast, boundless ocean, destroying everything in sight.",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "Yes... That is the sole purpose I have left.",
 			painting = {
@@ -187,9 +187,9 @@ return {
 		{
 			actor = 9704010,
 			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_zhuiluo_2",
 			say = "I don't need to think or feel. I need only destroy my enemies.",
 			painting = {
 				alpha = 0.3,
@@ -201,8 +201,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "She never stopped treading through the smoke and flames, lest the icy water beneath her feet swallow her.",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "But suddenly, her eternal, unchanging vigil was torn by a new, alien sound.",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "The acceleration of a torpedo that should not exist. A foe that was not of Siren origin.",
 			typewriter = {
@@ -234,11 +234,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 9704010,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "New... reinforcements?",
-			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,8 +291,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "You'll need to try harder than that if you– What?!",
 			painting = {
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "She cleanly shot through the slow-moving torpedo, but from the torrent of water leapt a small, familiar figure.",
 			typewriter = {
@@ -341,8 +341,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "What?! U-556?!",
 			painting = {
@@ -360,8 +360,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "The sight of the girl left Gneisenau utterly bewildered.",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "She instinctively sidestepped the incoming submarine, but staggered in surprise as a spark of life returned to her hazy eyes.",
 			typewriter = {
@@ -383,8 +383,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "You... I thought you sank with Bismarck long ago...",
 			painting = {
@@ -400,8 +400,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "How are you here? And what became of you...?!",
 			painting = {
@@ -422,8 +422,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "You're... just like me now! A cursed husk of your former self!",
 			painting = {
@@ -454,8 +454,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -463,8 +463,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "U-556 ignored Gneisenau. She dove beneath the waves once more, heading straight towards a light in the distance.",
 			typewriter = {
@@ -476,8 +476,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "The Tower of Midgard? That can't be... It doesn't exist in my branch...",
 			painting = {
@@ -493,8 +493,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "No, I see... I understand now...",
 			painting = {
@@ -510,8 +510,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "This is just a dream. A hallucination drawn from my memories.",
 			painting = {
@@ -527,11 +527,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 9704010,
 			dir = 1,
+			soundeffect = "event:/ui/glassbroken",
+			actor = 9704010,
 			nameColor = "#ffa500",
 			say = "I've already rediscovered my reason to fight... So I don't have time to waste on these illusions!",
-			soundeffect = "event:/ui/glassbroken",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,11 +544,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_bsmre_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
+			bgName = "bg_bsmre_2",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "...How could I have been careless enough to fall prey to the Arbiter's hallucinations?",
 			painting = {
 				alpha = 0.3,
@@ -566,8 +566,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -578,10 +578,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "I must've fallen unconscious after that shockwave back in the control room...",
 			painting = {
 				alpha = 0.3,
@@ -596,10 +596,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "Right... Ulrich, Zuikaku, and the control room...",
 			painting = {
 				alpha = 0.3,
@@ -611,8 +611,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_2",
 			say = "She looked around and saw she was on the tower's outer ring.",
 			typewriter = {
@@ -621,8 +621,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_2",
 			say = "And not far from her, there was another shipgirl, lying unconscious on the ground.",
 			typewriter = {
@@ -634,10 +634,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "Looks like I'll have to make some noise to wake her up...",
 			painting = {
 				alpha = 0.3,
@@ -652,10 +652,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "I really should bring some blanks next time.",
 			painting = {
 				alpha = 0.3,
@@ -667,11 +667,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_2",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

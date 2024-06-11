@@ -1,55 +1,21 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		type = 2,
 		id = 1,
-		pic = "temp3",
-		time = "stop",
-		type = 2,
+		pic = "temp1",
 		param = {
-			"scene skinshop",
-			{}
-		}
-	},
-	{
-		id = 2,
-		pic = "temp7",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene get boat",
+			"scene charge",
 			{
-				projectName = "new",
-				page = 1
+				wrap = 2
 			}
-		}
-	},
-	{
-		param = "5301",
-		time = "stop",
-		type = 3,
-		id = 3,
-		pic = "temp2"
-	},
-	{
-		id = 4,
-		pic = "temp6",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene Cryptolalia"
-		}
-	},
-	{
-		param = "5321",
-		id = 5,
-		pic = "temp9",
-		type = 3,
+		},
 		time = {
 			{
 				{
 					2024,
-					5,
-					9
+					6,
+					6
 				},
 				{
 					0,
@@ -60,8 +26,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					5,
-					21
+					6,
+					19
 				},
 				{
 					23,
@@ -72,23 +38,45 @@ pg.activity_banner = {
 		}
 	},
 	{
-		id = 6,
+		param = "5364",
+		type = 3,
+		id = 2,
 		pic = "temp8",
-		time = "stop",
-		type = 2,
-		param = {
-			"scene court yard"
+		time = {
+			{
+				{
+					2024,
+					6,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
-		id = 7,
-		pic = "temp1",
 		type = 2,
+		id = 3,
+		pic = "temp2",
 		param = {
-			"scene equip",
+			"scene charge",
 			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
+				wrap = 2
 			}
 		},
 		time = {
@@ -96,7 +84,7 @@ pg.activity_banner = {
 				{
 					2024,
 					5,
-					9
+					30
 				},
 				{
 					0,
@@ -107,8 +95,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					5,
-					21
+					6,
+					12
 				},
 				{
 					23,
@@ -119,28 +107,237 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5311",
-		time = "stop",
+		param = "5360",
 		type = 3,
-		id = 8,
-		pic = "temp4"
+		id = 4,
+		pic = "temp5",
+		time = {
+			{
+				{
+					2024,
+					5,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
-		id = 9,
-		pic = "temp5",
-		time = "stop",
+		param = "5362",
+		type = 3,
+		id = 5,
+		pic = "temp7",
+		time = {
+			{
+				{
+					2024,
+					5,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		type = 2,
+		id = 6,
+		pic = "temp9",
 		param = {
-			"scene level",
-			{}
+			"crusing"
+		},
+		time = {
+			{
+				{
+					2024,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
+		pic = "temp3",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5331",
+		type = 3,
+		id = 8,
+		pic = "temp4",
+		time = {
+			{
+				{
+					2024,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 9,
+		pic = "temp6",
+		param = {
+			"equip transform"
+		},
+		time = {
+			{
+				{
+					2024,
+					6,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[90] = {
 		param = "",
-		time = "stop",
 		type = 9,
 		id = 90,
-		pic = "temp99"
+		pic = "temp99",
+		time = {
+			{
+				{
+					2024,
+					5,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[91] = {
 		param = "",
@@ -158,10 +355,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2024,
+					5,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "水餃子|東煌で有名な食べ物<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
@@ -182,19 +404,19 @@ pg.activity_banner = {
 		time = "always",
 		type = 13,
 		id = 201,
-		pic = "spring"
+		pic = "summer"
 	},
 	get_id_list_by_type = {
 		[2] = {
 			1,
-			2,
-			4,
+			3,
 			6,
 			7,
 			9
 		},
 		[3] = {
-			3,
+			2,
+			4,
 			5,
 			8
 		},

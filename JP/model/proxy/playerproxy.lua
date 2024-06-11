@@ -1,8 +1,7 @@
 slot0 = class("PlayerProxy", import(".NetProxy"))
 slot0.UPDATED = "PlayerProxy.UPDATED"
-slot0.RESOURCE_UPDATED = "PlayerProxy.RESOURCE_UPDATED"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0._flags = {}
 	slot0.combatFleetId = 1
 	slot0.mainBGShiftFlag = false
@@ -87,19 +86,19 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	slot0:clearTimesListener()
 end
 
-function slot0.getSummaryInfo(slot0)
+slot0.getSummaryInfo = function(slot0)
 	return slot0.summaryInfo
 end
 
-function slot0.setSummaryInfo(slot0, slot1)
+slot0.setSummaryInfo = function(slot0, slot1)
 	slot0.summaryInfo = slot1
 end
 
-function slot0.flushTimesListener(slot0)
+slot0.flushTimesListener = function(slot0)
 	slot0:clearTimesListener()
 
 	slot1 = pg.TimeMgr.GetInstance()
@@ -108,7 +107,7 @@ function slot0.flushTimesListener(slot0)
 	end)
 end
 
-function slot0.clearTimesListener(slot0)
+slot0.clearTimesListener = function(slot0)
 	if slot0.fourClockId then
 		pg.TimeMgr.GetInstance():RemoveTimer(slot0.fourClockId)
 
@@ -116,7 +115,7 @@ function slot0.clearTimesListener(slot0)
 	end
 end
 
-function slot0.updatePlayer(slot0, slot1)
+slot0.updatePlayer = function(slot0, slot1)
 	assert(isa(slot1, Player), "should be an instance of Player")
 
 	if slot0.data then
@@ -132,51 +131,58 @@ function slot0.updatePlayer(slot0, slot1)
 	slot0:sendNotification(uv0.UPDATED, slot1:clone())
 end
 
-function slot0.UpdatePlayerRes(slot0, slot1, slot2)
+slot0.UpdatePlayerRes = function(slot0, slot1)
 	if not slot0.data then
 		return
 	end
 
-	slot3 = id2res(slot1)
-	slot0.data[slot3] = math.max(slot0.data[slot3] + slot2, 0)
+	slot2 = {}
+	slot3 = {}
 
-	slot0:sendNotification(uv0.RESOURCE_UPDATED, {
-		id = slot1,
-		diff = slot2,
-		amount = slot0.data[slot3]
-	})
+	for slot7, slot8 in ipairs(slot1) do
+		slot9 = id2res(slot8.id)
+
+		if slot8.count < 0 then
+			slot3[slot9] = defaultValue(slot3[slot9], 0) - slot8.count
+		else
+			slot2[slot9] = defaultValue(slot2[slot9], 0) + slot8.count
+		end
+	end
+
+	slot0.data:addResources(slot2)
+	slot0.data:consume(slot3)
 	slot0:updatePlayer(slot0.data)
 end
 
-function slot0.updatePlayerMedalDisplay(slot0, slot1)
+slot0.updatePlayerMedalDisplay = function(slot0, slot1)
 	slot0.data.displayTrophyList = slot1
 end
 
-function slot0.getPlayerId(slot0)
+slot0.getPlayerId = function(slot0)
 	return slot0.data.id
 end
 
-function slot0.setFlag(slot0, slot1, slot2)
+slot0.setFlag = function(slot0, slot1, slot2)
 	slot0._flags[slot1] = slot2
 end
 
-function slot0.getFlag(slot0, slot1)
+slot0.getFlag = function(slot0, slot1)
 	return slot0._flags[slot1]
 end
 
-function slot0.isSelf(slot0, slot1)
+slot0.isSelf = function(slot0, slot1)
 	return slot0.data.id == slot1
 end
 
-function slot0.setInited(slot0, slot1)
+slot0.setInited = function(slot0, slot1)
 	slot0.inited = slot1
 end
 
-function slot0.getInited(slot0)
+slot0.getInited = function(slot0)
 	return slot0.inited
 end
 
-function slot0.setRefundInfo(slot0, slot1)
+slot0.setRefundInfo = function(slot0, slot1)
 	slot2 = nil
 
 	if slot1 and #slot1 > 0 then
@@ -194,7 +200,7 @@ function slot0.setRefundInfo(slot0, slot1)
 	slot0.refundInfo = slot2
 end
 
-function slot0.getRefundInfo(slot0)
+slot0.getRefundInfo = function(slot0)
 	if not slot0.refundInfo then
 		return nil
 	end
@@ -206,7 +212,7 @@ function slot0.getRefundInfo(slot0)
 	return slot0.refundInfo
 end
 
-function slot0.IsShowCommssionTip(slot0)
+slot0.IsShowCommssionTip = function(slot0)
 	slot2 = getProxy(EventProxy):hasFinishState()
 	slot3 = getProxy(NavalAcademyProxy)
 	slot4 = slot0:getRawData()

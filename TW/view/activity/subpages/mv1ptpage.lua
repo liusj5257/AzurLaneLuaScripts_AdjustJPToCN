@@ -2,11 +2,11 @@ slot0 = class("Mv1PtPage", import(".TemplatePage.SkinTemplatePage"))
 slot1 = 3
 slot2 = nil
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 end
 
-function slot0.initMv(slot0)
+slot0.initMv = function(slot0)
 	slot0.showItemNum = uv0
 	slot0.mvTf = findTF(slot0._tf, "AD/mvPage")
 
@@ -122,7 +122,7 @@ function slot0.initMv(slot0)
 		end
 	end)
 
-	function slot4()
+	slot4 = function()
 		if uv0.mvIndex < uv0.showItemNum and not uv0.isLoading then
 			uv0.mvIndex = uv0.mvIndex + 1
 
@@ -158,7 +158,7 @@ function slot0.initMv(slot0)
 	setActive(slot0.mvTf, false)
 end
 
-function slot0.UpdateTask(slot0, slot1, slot2)
+slot0.UpdateTask = function(slot0, slot1, slot2)
 	slot4 = slot0:findTF("itemMask/item", slot2)
 	slot6 = slot0.taskProxy:getTaskById(slot0.taskGroup[slot0.nday][slot1 + 1]) or slot0.taskProxy:getFinishTaskById(slot5)
 
@@ -221,12 +221,12 @@ function slot0.UpdateTask(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.pageChange(slot0)
+slot0.pageChange = function(slot0)
 	slot0:pageUpdate()
 	slot0:loadMv()
 end
 
-function slot0.pageUpdate(slot0)
+slot0.pageUpdate = function(slot0)
 	for slot4 = 1, uv0 do
 		setActive(findTF(slot0.mvTf, "page/" .. slot4 .. "/selected"), slot0.mvIndex == slot4)
 	end
@@ -243,7 +243,7 @@ function slot0.pageUpdate(slot0)
 	setActive(findTF(slot0._tf, "AD/left"), slot0.mvIndex ~= 1)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
 	slot0.mvIndex = uv1 < slot0.activity.data3 and 1 or slot0.activity.data3
@@ -251,7 +251,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0:initMv()
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.nday = slot0.activity.data3
 
 	if slot0.dayTF then
@@ -261,7 +261,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0.uilist:align(#slot0.taskGroup[slot0.nday])
 end
 
-function slot0.updateMvUI(slot0)
+slot0.updateMvUI = function(slot0)
 	slot0.showItemNum = uv0
 
 	if slot0.playHandle then
@@ -278,7 +278,7 @@ function slot0.updateMvUI(slot0)
 	end
 end
 
-function slot0.displayWindow(slot0, slot1)
+slot0.displayWindow = function(slot0, slot1)
 	if not slot1 and not slot0.blurFlag then
 		return
 	end
@@ -309,7 +309,7 @@ function slot0.displayWindow(slot0, slot1)
 	slot0.blurFlag = slot1
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	uv0.super.OnDestroy(slot0)
 
 	slot0.isLoading = false
@@ -318,7 +318,7 @@ function slot0.OnDestroy(slot0)
 	slot0:clearMovie()
 end
 
-function slot0.clearMovie(slot0)
+slot0.clearMovie = function(slot0)
 	if slot0.mvGo then
 		slot0.mvManaCpkUI:SetPlayEndHandler(nil)
 		slot0.mvManaCpkUI:StopCpk()
@@ -330,11 +330,11 @@ function slot0.clearMovie(slot0)
 	end
 end
 
-function slot0.GetProgressColor(slot0)
+slot0.GetProgressColor = function(slot0)
 	return "#FF6868", "#604D49"
 end
 
-function slot0.loadMv(slot0)
+slot0.loadMv = function(slot0)
 	slot0:clearMovie()
 
 	if slot0.isLoading then
@@ -378,7 +378,7 @@ function slot0.loadMv(slot0)
 	end)
 end
 
-function slot0.mvComplete(slot0)
+slot0.mvComplete = function(slot0)
 	print("播放完成")
 
 	slot0.mvCompleteFlag = true
@@ -390,19 +390,19 @@ function slot0.mvComplete(slot0)
 	end
 end
 
-function slot0.onPlayerEnd(slot0)
+slot0.onPlayerEnd = function(slot0)
 	setActive(slot0.btnPlay, false)
 	setActive(slot0.btnStop, false)
 	setActive(slot0.btnRepeat, true)
 end
 
-function slot0.onPlayerStop(slot0)
+slot0.onPlayerStop = function(slot0)
 	setActive(slot0.btnPlay, true)
 	setActive(slot0.btnStop, false)
 	setActive(slot0.btnRepeat, false)
 end
 
-function slot0.onPlayerStart(slot0)
+slot0.onPlayerStart = function(slot0)
 	setActive(slot0.btnPlay, false)
 	setActive(slot0.btnStop, true)
 	setActive(slot0.btnRepeat, false)

@@ -14,9 +14,9 @@ return {
 			style = {
 				text = "Oil can be used to purchase a Large-Scale Operation Combat Logger.",
 				mode = 2,
-				posY = 84.9,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 84.9,
 				posX = -662.56
 			},
 			showSign = {

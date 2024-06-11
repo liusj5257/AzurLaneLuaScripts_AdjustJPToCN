@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE401",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE401",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>이색 해역 PURPLE</size>",
@@ -20,9 +20,9 @@ return {
 			actor = 10100010,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "level-nep",
 			dir = -1,
 			say = "……이러쿵저러쿵, 블랑 일행이 잇승에게 무리한 부탁을 받은 게 어제.",
+			bgm = "level-nep",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,8 +175,8 @@ return {
 			actor = 301050,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "보여요, 혹사당하는 미래가…… 추가 근무 수당, 청구하는 겁니다.",
 			typewriter = {
 				speed = 0.05,
@@ -296,8 +296,8 @@ return {
 			actor = 301050,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "오옷……항모 이상의 포용력… 입니다!",
 			typewriter = {
 				speed = 0.05,

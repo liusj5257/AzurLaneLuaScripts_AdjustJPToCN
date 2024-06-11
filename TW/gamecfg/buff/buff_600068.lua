@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 20,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 600068,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 600068,
+	color = "yellow",
 	icon = 600068,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRateExtra",
-				number = 0.2
+				number = 0.2,
+				attr = "dodgeRateExtra"
 			}
 		}
 	}

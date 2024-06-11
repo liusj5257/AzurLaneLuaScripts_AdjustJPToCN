@@ -1,8 +1,8 @@
 return {
 	sort = {
 		{
-			type = 1,
 			spr = "sort_rarity",
+			type = 1,
 			tag = i18n("word_equipment_rarity"),
 			values = {
 				"rarity",
@@ -11,8 +11,8 @@ return {
 			}
 		},
 		{
-			type = 2,
 			spr = "sort_intensify",
+			type = 2,
 			tag = i18n("word_equipment_intensify"),
 			values = {
 				"level",

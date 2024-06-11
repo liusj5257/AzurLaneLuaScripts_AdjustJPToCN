@@ -1,21 +1,21 @@
 slot0 = class("NewNavalTacticsSkillCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0.icon = findTF(slot0._tf, "icon"):GetComponent(typeof(Image))
 	slot0.descTxt = findTF(slot0._tf, "descView/desc"):GetComponent(typeof(Text))
 	slot0.nextTxt = findTF(slot0._tf, "next"):GetComponent(typeof(Text))
 end
 
-function slot0.Enable(slot0)
+slot0.Enable = function(slot0)
 	setActive(slot0._tf, true)
 end
 
-function slot0.Disable(slot0)
+slot0.Disable = function(slot0)
 	setActive(slot0._tf, false)
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	changeToScrollText(slot0._tf:Find("name/Text"), slot1:GetName())
 
 	slot0.descTxt.text = slot1:GetTacticsDesc()
@@ -33,7 +33,7 @@ function slot0.Update(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 end
 
 return slot0

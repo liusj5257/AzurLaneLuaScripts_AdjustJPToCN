@@ -7,7 +7,7 @@ slot0.CHANGE_FLEET_SHIP = "WorldBossFormationMediator:CHANGE_FLEET_SHIPs"
 slot0.ON_AUTO = "WorldBossFormationMediator:ON_AUTO"
 slot0.CHANGE_FLEET_SHIPS_ORDER = "WorldBossFormationMediator:CHANGE_FLEET_SHIPS_ORDER"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.ships = getProxy(BayProxy):getRawData()
 
 	slot0.viewComponent:SetShips(slot0.ships)
@@ -133,7 +133,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.onAutoBtn(slot0, slot1)
+slot0.onAutoBtn = function(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_BOT, {
 		isActiveBot = slot1.isOn,
 		toggle = slot1.toggle,
@@ -141,7 +141,7 @@ function slot0.onAutoBtn(slot0, slot1)
 	})
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.BEGIN_STAGE_DONE,
 		GAME.WORLD_BOSS_START_BATTLE_FIALED,
@@ -150,7 +150,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then

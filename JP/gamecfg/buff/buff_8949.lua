@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "公海舰队活动 塔干扰-电磁干扰",
 	time = 0,
+	name = "公海舰队活动 塔干扰-电磁干扰",
+	init_effect = "",
 	picture = "",
 	desc = "视野遮蔽",
 	stack = 1,
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8965,
-				target = "TargetSelf",
-				time = 20
+				time = 20,
+				target = "TargetSelf"
 			}
 		}
 	}

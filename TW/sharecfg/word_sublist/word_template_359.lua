@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_359 = {}
 slot1 = slot0.word_template_359
 
-function temp()
+temp = function()
 	uv0["苯"] = {
 		["基"] = {
 			["甲"] = {
@@ -32,7 +32,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["咖"] = {
 		["啡"] = {
 			["碱"] = {
@@ -47,7 +47,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["缅"] = {
 		["古"] = {
 			this = true
@@ -60,7 +60,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["氨"] = {
 		["茴"] = {
 			["酸"] = {

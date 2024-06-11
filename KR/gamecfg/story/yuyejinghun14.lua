@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN14",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_600",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
 			bgm = "qe-ova-15",
-			actorName = "에식스",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "말끝을 흐리며 요리사는 당신을 뚫어져라 쳐다보았습니다.",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -55,9 +55,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "아! 미, 미안해… 당신이 큰 아가씨의… 소꿉친구랑 많이 닮은 것 같아서…",
 			typewriter = {
@@ -70,9 +70,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "(작은 목소리로) …설정이긴 한데, 일단은 둘 다 얼굴이 잘생겼고…",
 			typewriter = {
@@ -159,9 +159,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "저기 탐정… 갑자기 이런 말을 하면 이상하게 생각하겠지만, 나… 당신에게 홀딱 빠졌어!",
 			typewriter = {
@@ -219,9 +219,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "우리 자기의 부탁이라면… 알았어, 따라와.",
 			typewriter = {
@@ -326,11 +326,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_156",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#FF9B93",
 			bgm = "story-oldcastle-carnival",
-			actorName = "에식스",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "정신을 차리니 당신은 주방에 도착해 있었습니다.",
 			typewriter = {
@@ -338,17 +338,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -447,9 +447,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			actor = 9600061,
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "자~ 기~ 어딜 가려고?",
 			typewriter = {
@@ -634,11 +634,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 요리사",
-			side = 2,
+			actor = 9600061,
 			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "아아~ 탐정… 내 사랑하는 사람… 사랑해… 나 말고는 아무도 당신을 가질 수 없어. 이번에는 반드시… 내것으로…",
@@ -652,9 +652,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			actor = 9600061,
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "아, 그렇지만… 음, 제물이라고 했던가? 큰 아가씨의 부탁이라고 그랬던가…?",
 			typewriter = {
@@ -667,9 +667,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 요리사",
-			actorName = "어드벤처 갤리",
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			actor = 9600061,
+			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "뭐, 상관없어. 제물 같은 건 또 찾으면 되니까… 우후후후후…",
 			typewriter = {
@@ -678,11 +678,11 @@ return {
 			}
 		},
 		{
-			actor = 9600061,
 			nameColor = "#FF9B93",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 요리사",
-			side = 2,
+			actor = 9600061,
 			actorName = "어드벤처 갤리",
 			hidePaintObj = true,
 			say = "이제부터 영원히 함께야~~~",
@@ -734,8 +734,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -750,8 +750,8 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――아니, 지금 날 가지고 풀코스를 차린 거야…?",
 			bgm = "theme-ijndailymeeting",
+			say = "――아니, 지금 날 가지고 풀코스를 차린 거야…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -852,28 +852,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
+			blackBg = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			blackBg = true,
 			say = "――풀코스라니, 설마……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -885,8 +885,8 @@ return {
 			side = 2,
 			actorName = "하이티엔",
 			factiontag = "문학소녀 마스터",
-			nameColor = "#A9F548FF",
 			blackBg = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "후후후…… 뭘까요?",
 			typewriter = {

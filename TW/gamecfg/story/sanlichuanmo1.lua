@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SANLICHUANMO1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SANLICHUANMO1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"{namecode:82}前輩的收藏大公開\n\n<size=45>一　收藏室、崩壞</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某日的港區",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "某日的港區",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "嗚哇…這就是傳說中的——",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "{namecode:82}前輩的收藏！",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:82}前輩的收藏！",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -92,8 +92,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
 			bgName = "bg_sanli_cg_1",
-			actorName = "{namecode:82}",
+			side = 2,
 			dir = 1,
+			actorName = "{namecode:82}",
 			say = "最近終於想通了。來！盡情欣賞吧！這些可都是我千辛萬苦才收集到的收藏品哦！",
 			effects = {
 				{
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:82}",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -152,13 +152,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_sanli_cg_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "哇啊——沒想到{namecode:82}前輩一直在收集著這些船模呢！",
-			withoutPainting = true,
 			effects = {
 				{
 					active = false,
@@ -175,13 +175,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_sanli_cg_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "不過看到自己的船模，總覺得有點害羞呢…",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,15 +192,15 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "哎呀，竟然還有一航戰的“前·輩·們”的模型呢",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -241,12 +241,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "姐，姐姐……",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐，姐姐……",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -293,13 +293,13 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_sanli_cg_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "哈哈，大家都是我可愛的後輩呀！我來介紹一下吧，這邊是我們這些經受過戰火考驗的戰艦的模型，那邊是正規航母——",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,15 +310,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_sanli_cg_2",
-			actorName = "{namecode:34}",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "{namecode:34}",
 			say = "{namecode:33}，不要拉我啦…",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -339,12 +339,12 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "{namecode:34}快看快看，我們{namecode:33}級的模型在那邊呢~",
 			actorName = "{namecode:33}",
 			bgName = "bg_sanli_cg_2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "{namecode:34}快看快看，我們{namecode:33}級的模型在那邊呢~",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -355,8 +355,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:34}",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:82}",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -379,13 +379,13 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_sanli_cg_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "對了，這個收藏室姑且還是設置了防止入侵以及保護船模的裝置，所以大家還是要小心不要誤碰了哦",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,15 +396,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_sanli_cg_3",
-			actorName = "{namecode:33}",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "{namecode:33}",
 			say = "咦？那是什麼？",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "哇啊啊，{namecode:33}，不可以啦……按鈕旁寫著“危險，禁止觸摸”呢…",
 			actorName = "{namecode:34}",
 			bgName = "bg_sanli_cg_2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "哇啊啊，{namecode:33}，不可以啦……按鈕旁寫著“危險，禁止觸摸”呢…",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:33}",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:33}",
+			side = 2,
 			bgName = "bg_sanli_cg_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -473,12 +473,12 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "轟隆隆隆隆的聲音伴隨著震動從腳下傳來",
 			stopbgm = true,
 			bgName = "bg_sanli_cg_3",
-			soundeffect = "event:/battle/boom1",
 			dir = 1,
-			say = "轟隆隆隆隆的聲音伴隨著震動從腳下傳來",
+			side = 2,
+			soundeffect = "event:/battle/boom1",
 			flashN = {
 				color = {
 					1,
@@ -517,13 +517,13 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "這、這聲音，難道是自毀裝置啟動了！？",
 			soundeffect = "event:/battle/boom1",
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "這、這聲音，難道是自毀裝置啟動了！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,8 +534,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -544,11 +544,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "為、為什麼收藏室會有自毀裝置啦！！",
 			typewriter = {
 				speed = 0.05,
@@ -560,8 +560,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -570,12 +570,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "為了……為了預防萬一嘛……",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "為了……為了預防萬一嘛……",
+			actor = 305110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -590,14 +590,14 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			actorName = "{namecode:96}",
 			dir = 1,
-			side = 2,
-			say = "{namecode:82}前輩危險！",
 			soundeffect = "event:/battle/boom1",
+			actor = 305110,
+			say = "{namecode:82}前輩危險！",
 			flashN = {
 				color = {
 					1,
@@ -648,16 +648,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = -900,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 1500
@@ -665,8 +665,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "{namecode:82}",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "伴隨著轟鳴，{namecode:82}的收藏室變成了一片廢墟。",
 			typewriter = {
@@ -703,17 +703,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "bg_sanli_cg_4",
-			actorName = "{namecode:82}",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "怎麼會……怎麼會這樣……（泣）",
+			bgName = "bg_sanli_cg_4",
 			bgm = "story-1",
+			actorName = "{namecode:82}",
+			say = "怎麼會……怎麼會這樣……（泣）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -738,8 +738,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:82}",
+			side = 2,
 			bgName = "bg_sanli_cg_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -754,8 +754,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:96}",
+			side = 2,
 			bgName = "bg_sanli_cg_4",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -770,13 +770,13 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_sanli_cg_4",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "哎…在這邊不知所措也沒用，還是想想怎麼善後跟補救吧…",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,13 +787,13 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_sanli_cg_4",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "好啦，{namecode:33}{namecode:34}也不要哭啦，{namecode:96}，妳去找人來一起幫忙，接下來有得忙了",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,13 +804,13 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			withoutPainting = true,
 			side = 0,
 			bgName = "bg_sanli_cg_4",
 			say = "姐姐…嗯！我這就去！",
 			dir = 1,
+			actor = 307060,
 			nameColor = "#a9f548",
-			withoutPainting = true,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -825,8 +825,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.4,
 					dur = 0.2,
 					x = 0,
@@ -835,13 +835,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "結果{namecode:82}一整天都沒能振作起來…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -862,8 +862,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "而{namecode:96}則將這件事告訴了重櫻的其他夥伴們，大家決定齊心協力，將大前輩的收藏室和船模們悉數修復！",
 			typewriter = {

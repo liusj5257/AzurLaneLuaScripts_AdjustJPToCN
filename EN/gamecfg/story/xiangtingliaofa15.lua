@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA15",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA15",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 103160,
-			side = 0,
-			bgm = "battle-boss-4",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "Gah...! My 8-inch guns aren't enough to penetrate her armor...!",
 			soundeffect = "event:/battle/boom2",
+			side = 0,
+			dir = 1,
+			bgm = "battle-boss-4",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "Gah...! My 8-inch guns aren't enough to penetrate her armor...!",
 			flashN = {
 				color = {
 					1,
@@ -64,8 +64,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "Is that all you've got? What happened to the bravado from earlier?",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "You seem to have overlooked something, Siren.",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,9 +135,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "You're exactly where our Commander wants you to be!",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "What?!",
 			typewriter = {
 				speed = 0.05,
@@ -171,10 +171,10 @@ return {
 			}
 		},
 		{
+			say = "KABOOM!!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "KABOOM!!",
 			flashN = {
 				color = {
 					1,
@@ -222,10 +222,10 @@ return {
 			}
 		},
 		{
+			say = "KABOOM!!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "KABOOM!!",
 			flashN = {
 				color = {
 					1,
@@ -276,8 +276,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "Long-distance barrages from a 16-inch battery...?!",
 			typewriter = {
 				speed = 0.05,
@@ -289,10 +289,10 @@ return {
 			}
 		},
 		{
+			say = "KABOOOM!!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "KABOOOM!!",
 			flashN = {
 				color = {
 					1,
@@ -355,10 +355,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Alabama",
+			side = 2,
 			dir = 1,
+			actorName = "Alabama",
 			say = "Did I miss 'er? Can't tell from this distance...",
 			effects = {
 				{
@@ -378,9 +378,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "No, it was a direct hit. Well done.",
 			effects = {
 				{
@@ -398,10 +398,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Alabama",
+			side = 2,
 			dir = 1,
+			actorName = "Alabama",
 			say = "Mm... it was only possible 'cause you provoked her.",
 			effects = {
 				{
@@ -419,11 +419,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester",
+			actor = 900011,
 			dir = 1,
+			actorName = "Tester",
 			say = "... ....",
 			effects = {
 				{
@@ -444,8 +444,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "Evolution and progress necessarily bring about suffering and sacrifice. The salvation granted in the end pales before the desolation wrought through the means.",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "So much ignorance, but so much hatred. This falls within the expected behavior of this test subject.",
 			typewriter = {
 				speed = 0.05,
@@ -552,8 +552,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -565,8 +565,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "... ... ...... ...",
 			typewriter = {
 				speed = 0.05,
@@ -596,9 +596,9 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "Sister Sara has arrived on the stage! Commander, I've got your back!",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,8 +642,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "That's true... I suppose I've said too much.",
 			typewriter = {
 				speed = 0.05,
@@ -658,8 +658,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "But too bad for you. Time's already up.",
 			typewriter = {
 				speed = 0.05,
@@ -671,10 +671,10 @@ return {
 			}
 		},
 		{
+			say = "KABOOM!!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "KABOOM!!",
 			flashN = {
 				color = {
 					1,
@@ -722,10 +722,10 @@ return {
 			}
 		},
 		{
+			say = "KABOOM!!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "KABOOM!!",
 			flashN = {
 				color = {
 					1,
@@ -788,8 +788,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -813,8 +813,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -838,8 +838,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Transmitter",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "BZZZZZT...",
@@ -883,12 +883,12 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "What are you doing? Answer me, Tester!",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "What are you doing? Answer me, Tester!",
 			flashN = {
 				color = {
 					1,
@@ -939,8 +939,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "Running away? No, the experiment has only just begun.",
 			typewriter = {
 				speed = 0.05,
@@ -955,8 +955,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "This is not a \"reproduction\" of your \"history,\" but it is your reality. Do show me how you all dance, my little \"Actors.\"",
 			typewriter = {
 				speed = 0.05,
@@ -1058,8 +1058,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "... ...",
 			typewriter = {
 				speed = 0.05,
@@ -1071,8 +1071,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "An unbelievable sight unfolded before us.",
 			typewriter = {
 				speed = 0.05,
@@ -1084,8 +1084,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "There \"she\" was, standing quietly in the midst of the Siren fleet.",
 			typewriter = {
 				speed = 0.05,
@@ -1097,8 +1097,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "It was almost as if...",
 			typewriter = {
 				speed = 0.05,
@@ -1110,17 +1110,17 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			actorName = "？？",
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 900189,
 			nameColor = "#ff6100",
 			say = "The next singularity is nearing completion.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1145,12 +1145,12 @@ return {
 			}
 		},
 		{
-			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900190,
+			actorName = "？？？？",
 			say = "I see...",
 			typewriter = {
 				speed = 0.05,
@@ -1162,12 +1162,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？",
 			say = "And you're sure that the Master's target is... that person?",
 			typewriter = {
 				speed = 0.05,
@@ -1179,12 +1179,12 @@ return {
 			}
 		},
 		{
-			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900190,
+			actorName = "？？？？",
 			say = "Yes... I can feel their presence.",
 			typewriter = {
 				speed = 0.05,
@@ -1196,12 +1196,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？",
 			say = "Surely \"she\" will also be there. Are you ready to face her again?",
 			typewriter = {
 				speed = 0.05,
@@ -1213,12 +1213,12 @@ return {
 			}
 		},
 		{
-			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900190,
+			actorName = "？？？？",
 			say = "I threw away my regrets long ago...",
 			typewriter = {
 				speed = 0.05,
@@ -1230,12 +1230,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？？？",
 			say = "Very well. In that case, I shall lend you aid when the time comes.",
 			typewriter = {
 				speed = 0.05,
@@ -1247,12 +1247,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？",
 			say = "But let me warn you, you must keep moving forward...",
 			typewriter = {
 				speed = 0.05,
@@ -1264,12 +1264,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？",
 			say = "... and never look back.",
 			typewriter = {
 				speed = 0.05,

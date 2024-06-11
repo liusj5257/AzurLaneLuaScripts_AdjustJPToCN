@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING37-3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING37-3",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900357,
 			nameColor = "#BDBDBD",
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			stopbgm = true,
 			side = 2,
-			say = "「▅■停▆▅」",
+			bgName = "star_level_bg_504",
 			bgm = "story-thehierophantV",
+			actor = 900357,
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "「▅■停▆▅」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "一個沒有感情的女性機械音憑空出現在腦海中。",
@@ -35,10 +35,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "剛剛的是……什麼聲音？",
 			painting = {
 				alpha = 0.3,
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我也一樣……指揮官，恐怕艦隊全員都出現了相同的情況……！",
 			painting = {
 				alpha = 0.3,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "突如其來的聲音，如同某種精神攻擊一般影響了海域中的所有艦隊成員。",
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "簡直如同言靈一般……指揮官，汝也聽到那個聲音了吧？",
 			painting = {
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "聽的很清楚，不過身體並沒有出現與其他人相同的束縛感。",
@@ -214,8 +214,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "信濃似乎……也沒有受到影響？",
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "難道說指揮艦……",
@@ -255,8 +255,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "嗯……雖不明其原理，不過妾身確實無礙。",
 			painting = {
@@ -272,10 +272,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "本小姐感覺也還好哦，只是稍微有點手腳沉重而已~！",
 			painting = {
 				alpha = 0.3,
@@ -290,10 +290,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "奧丁同樣狀態良好，可以繼續進行作戰任務。",
 			painting = {
 				alpha = 0.3,
@@ -308,10 +308,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官……我們的量產型艦隊也只受到了輕微影響，可以繼續作戰。",
 			painting = {
 				alpha = 0.3,
@@ -323,8 +323,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "也就是說，量產型與計畫艦受到的影響較小，而META受到的影響較重。",
@@ -334,8 +334,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "而我與信濃不知出於何種原因，沒有受到任何影響……",
@@ -424,10 +424,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "妳說什麼…？妳想臨陣脫逃嗎！",
 			painting = {
 				alpha = 0.3,
@@ -515,8 +515,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "不過萬幸……計劃艦受到的影響較小。",
 			painting = {
@@ -532,8 +532,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "加斯科涅，動手！",
 			painting = {
@@ -546,19 +546,19 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
-			hidePaintObj = true,
-			stopbgm = true,
 			dialogueBgAlpha = 0.6,
-			say = "黑色的太陽，正靜靜燃燒著。",
 			bgm = "theme-vichy-church",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "黑色的太陽，正靜靜燃燒著。",
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			},
 			typewriter = {
@@ -566,17 +566,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -620,11 +620,11 @@ return {
 			}
 		},
 		{
-			actor = 905020,
-			side = 2,
 			dialogueBgAlpha = 0.6,
+			side = 2,
 			bgName = "bg_firedust_5",
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "呼……沒錯~",
 			painting = {
@@ -770,13 +770,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "自從戰鬥打響以來，「神」第一次動了起來。",
 			bgm = "battle-thehierophantV",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "自從戰鬥打響以來，「神」第一次動了起來。",
 			effects = {
 				{
 					active = false,
@@ -788,17 +788,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -806,8 +806,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "祂舉起手中的權杖，對準天空，輕輕揮了一下。",
@@ -817,8 +817,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "隨即，黑日破碎。",
@@ -828,8 +828,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "世界又回到了「神」的支配下。",
@@ -842,8 +842,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "審判的象徵……就這麼被輕易消滅了？！",
 			painting = {
@@ -859,8 +859,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 905020,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
 			say = "怎麼會有……這麼誇張的事……？",
 			painting = {
@@ -895,10 +895,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "怎麼可能……它居然可以動用仲裁者·海洛芬特·V的獨有武裝？！",
 			painting = {
 				alpha = 0.3,
@@ -932,10 +932,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "輕則被直接蒸發，重則……反正絕對不要被這東西命中就是了！",
 			painting = {
 				alpha = 0.3,
@@ -950,10 +950,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9707010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "就算妳這麼說……我們現在……又動不了了。",
 			painting = {
 				alpha = 0.3,
@@ -987,10 +987,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "我們還有量產型、審判型機甲和計畫艦可以繼續作戰！",
 			painting = {
 				alpha = 0.3,

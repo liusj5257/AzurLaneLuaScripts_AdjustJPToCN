@@ -1,7 +1,7 @@
 return {
-	time = 0,
-	name = "2023古立特联动复刻 TSS4 公主 一阶段 击破波次削弱BOSS",
 	init_effect = "",
+	name = "2023古立特联动复刻 TSS4 公主 一阶段 击破波次削弱BOSS",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 99,
@@ -16,8 +16,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = -300
+				number = -300,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -27,8 +27,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = -300
+				number = -300,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -38,8 +38,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = -300
+				number = -300,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -49,8 +49,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = -300
+				number = -300,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -60,8 +60,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = -300
+				number = -300,
+				attr = "dodgeRate"
 			}
 		}
 	}

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA8",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ahaha! A hail of cannonfire may not be enough to faze you, Comrade, but seeing this really caught you off guard, huh?",
 			bgm = "bgm-cccp",
+			nameColor = "#a9f548",
+			say = "Ahaha! A hail of cannonfire may not be enough to faze you, Comrade, but seeing this really caught you off guard, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,9 +24,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "Indeed... I never expected to see something like this here...",
 			typewriter = {
 				speed = 0.05,
@@ -38,9 +38,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "That roaring sound... is that some kind of vessel? It’s coming straight out of the ice...",
 			typewriter = {
 				speed = 0.05,
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "The mechanical roar, the violent cracking of the ice, and the surging of the ocean beneath... A symphony of sounds rushed together as the world around me shook, as if I was witnessing the summoning of an otherworldly beast.",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "An icebreaker submarine... I don’t think the Naval HQ, or any of the other factions, have ever seen a vessel like this.",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -160,8 +160,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "A huge underwater combat platform with the ability to engage in anti-submarine warfare... Is this the reason why we didn’t see many Siren submarines in the previous battle?",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_1",
+			dir = 1,
 			say = "And if we need to take a submarine, I suppose this Sanctum is underwater?",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tallinn",
+			side = 2,
 			bgName = "bg_cccpv2_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -252,12 +252,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Let’s go, Comrade! You are able to see the reason why we have brought you here!",
 			typewriter = {
 				speed = 0.05,

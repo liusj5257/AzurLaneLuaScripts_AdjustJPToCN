@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "视野限制-敌方隐藏光环-属性修改",
 	time = 10,
+	name = "视野限制-敌方隐藏光环-属性修改",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

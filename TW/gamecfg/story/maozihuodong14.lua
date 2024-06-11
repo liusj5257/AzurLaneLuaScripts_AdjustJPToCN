@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG14",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG14",
 	continueBgm = true,
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "試圖擺脫塞壬艦隊的戰鬥依然在進行著",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
-			say = "試圖擺脫塞壬艦隊的戰鬥依然在進行著",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "啊啊啊——真難纏，嗚…快撐不住了！",
 			typewriter = {
@@ -43,8 +43,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "曙光！就沒有什麼突破的好辦法嗎！",
 			typewriter = {
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -83,9 +83,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "（收到消息？通訊不是已經…消息是怎麼傳進來的…）",
 			typewriter = {
 				speed = 0.05,
@@ -97,9 +97,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "（而且主力艦隊…？難道薩拉托加她們已經突破冰牆了…？）",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "我、我知道！不過，堅持也是有極限的啦！這都已經——啊！！",
 			typewriter = {
@@ -144,12 +144,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_cccp_6",
-			say = "轟---！！！！！！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟---！！！！！！",
 			flashN = {
 				color = {
 					1,
@@ -197,13 +197,13 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_cccp_6",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "呵呵~終於來了嗎",
 			bgm = "bgm-cccp",
+			actor = 702010,
+			nameColor = "#a9f548",
+			say = "呵呵~終於來了嗎",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_cccp_3",
+			side = 2,
+			dir = 1,
 			say = "暴雪之中，突然出現了一個點——比雪花更純白，比冰塊更寒冷，戰場的喧囂彷彿瞬間都寂靜了——",
 			flashout = {
 				dur = 0.2,
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "首先是一個點，然後是一條線。驅逐艦，巡洋艦，戰列艦…",
 			typewriter = {
 				speed = 0.05,
@@ -258,9 +258,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "映入眼簾的，是不斷穿過風暴的，海面上的鋼鐵洪流",
 			typewriter = {
 				speed = 0.05,
@@ -272,9 +272,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "而在洪流之中的數個嬌小身影，則散發著比鋼鐵巨獸更大的壓迫感",
 			typewriter = {
 				speed = 0.05,
@@ -286,9 +286,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "雪白的軍帽，雪白的大衣，還有…",
 			typewriter = {
 				speed = 0.05,
@@ -300,9 +300,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "僅僅目視，就能感受到徹骨冰寒的，彷彿如同冰海之中打撈的隕鐵鍛造而成的漆黑艦裝",
 			typewriter = {
 				speed = 0.05,
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "散發著將空氣一同凍結的藍色火焰，引導著鋼鐵洪流",
 			typewriter = {
 				speed = 0.05,
@@ -328,9 +328,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "粉碎一切著擋在路上的敵人，義無反顧向戰場中心推進",
 			typewriter = {
 				speed = 0.05,
@@ -348,9 +348,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -362,9 +362,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "出現在眼前的，不是突破封鎖前來會合的白鷹艦隊",
 			typewriter = {
 				speed = 0.05,
@@ -376,9 +376,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_3",
+			dir = 1,
 			say = "而是，長期在極地與塞壬作戰的，北方聯合主力艦隊——",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	id = "W763031",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W763031",
+	skipTip = false,
 	scripts = {
 		{
-			side = 2,
 			actorName = "路过的蛮啾",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "啾啾，好想喝美味的椰子汁..",

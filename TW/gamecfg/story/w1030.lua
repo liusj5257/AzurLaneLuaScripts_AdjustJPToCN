@@ -1,12 +1,12 @@
 return {
-	id = "W1030",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1030",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "看起來似乎是一個通向未知海域的碎片入口...要去看一看嗎？",
 			typewriter = {
 				speed = 0.05,

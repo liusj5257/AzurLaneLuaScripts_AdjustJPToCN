@@ -1,15 +1,15 @@
 return {
-	id = "W1022",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1022",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "能源模組已就位，設備啟動成功，正在分析中……",
 			typewriter = {
 				speed = 0.05,
@@ -24,8 +24,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "分析成功。已解析的情報能夠為艦隊的後續作戰提供幫助。",
 			typewriter = {
 				speed = 0.05,
@@ -39,9 +39,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "請選擇需要提升的適應性類型：",
 			typewriter = {
 				speed = 0.05,

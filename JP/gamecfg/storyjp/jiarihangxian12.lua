@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "doa_daozhong",
 			dir = 1,
 			say = "うーん…進行度85%まで来てるけど、まだ発信源が特定できないにゃ……",
+			bgm = "doa_daozhong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "しかたない、とりあえず進行度100%まで待ってみるか…",
 			typewriter = {
 				speed = 0.05,
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "最後の対戦カードはまだ決まっていないようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "こちらの艦船は誰が相手をするのだろう…？",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			actor = 305110,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "うむ、ここは我が案を出すとしよう",
 			typewriter = {
 				speed = 0.05,
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,8 +135,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600060,
 			dir = 1,
+			actor = 10600060,
 			say = "ふふふ、三笠殿とはふしぎと話が合うのう",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "よし、三笠なら安心できそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600060,
 			dir = 1,
+			actor = 10600060,
 			say = "「後輩」たち…のう。よくわからんが、そなたたちの相手など戯言のようなもの。皆でかかってくるがよい♪…わらわを楽しませよ…指揮官殿❤",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "これが大先輩の貫禄ってやつか…",
 			typewriter = {
 				speed = 0.05,

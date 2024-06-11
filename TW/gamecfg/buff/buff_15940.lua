@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 15940,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15940,
+	color = "red",
 	icon = 15940,
 	last_effect = "",
 	effect_list = {
@@ -27,9 +27,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 15940,
 				time = 30,
-				target = "TargetSelf",
-				skill_id = 15940
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -40,9 +40,9 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 1,
-				hpLowerBound = 0.5,
+				hpSigned = 0,
 				skill_id = 15941,
-				hpSigned = 0
+				hpLowerBound = 0.5
 			}
 		},
 		{
@@ -53,9 +53,9 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.5,
-				hpLowerBound = 0,
+				hpSigned = 0,
 				skill_id = 15942,
-				hpSigned = 0
+				hpLowerBound = 0
 			}
 		},
 		{

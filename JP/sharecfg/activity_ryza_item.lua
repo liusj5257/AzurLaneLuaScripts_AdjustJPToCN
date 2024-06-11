@@ -1,16 +1,16 @@
 pg = pg or {}
 pg.activity_ryza_item = {
 	{
-		rarity = 4,
+		icon = "ryza_item_1",
 		display = "釣り竿の強化版。強化したことにより、魚が警戒せずに寄ってくるように改良されている",
-		name = "神竿バルムヘル",
 		type = 6,
+		rarity = 4,
+		name = "神竿バルムヘル",
 		benefit_buff = "",
-		prop_level = 1,
 		base_circle = "",
 		got_voice = "",
 		id = 1,
-		icon = "ryza_item_1",
+		prop_level = 1,
 		normal_circle = "",
 		prop = {
 			2,
@@ -22,16 +22,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_2",
 		display = "フラムロッドの強化版。先端の宝玉を青い物に変えたため、以前よりも効率的に岩や水晶を破壊することが可能となった",
-		name = "ブルーフラムロッド",
 		type = 6,
+		rarity = 4,
+		name = "ブルーフラムロッド",
 		benefit_buff = "",
-		prop_level = 1,
 		base_circle = "",
 		got_voice = "",
 		id = 2,
-		icon = "ryza_item_2",
+		prop_level = 1,
 		normal_circle = "",
 		prop = {
 			2
@@ -42,16 +42,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_3",
 		display = "切れ味や重さを細かく調整し改良を施されたため、普通の斧よりもラクに木材も薪も作れる",
-		name = "ゴールデンアックス",
 		type = 6,
+		rarity = 4,
+		name = "ゴールデンアックス",
 		benefit_buff = "",
-		prop_level = 2,
 		base_circle = "",
 		got_voice = "",
 		id = 3,
-		icon = "ryza_item_3",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			3,
@@ -63,16 +63,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_4",
 		display = "採取しやすいように改良されたこの鎌は、まるで風のように静かに軽やかに草や花を刈り取る",
-		name = "サイレントシックル",
 		type = 6,
+		rarity = 4,
+		name = "サイレントシックル",
 		benefit_buff = "",
-		prop_level = 2,
 		base_circle = "",
 		got_voice = "",
 		id = 4,
-		icon = "ryza_item_4",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			2,
@@ -84,16 +84,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_5",
 		display = "強大な握力と推力、そして灼熱の採掘レーザーを発射できるセイレーンのメカニカルアーム――錬金術の素材を採取するのに使えるかも？",
-		name = "レーザーアーム",
 		type = 6,
+		rarity = 4,
+		name = "レーザーアーム",
 		benefit_buff = "",
-		prop_level = 2,
 		base_circle = "",
 		got_voice = "",
 		id = 5,
-		icon = "ryza_item_5",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			1,
@@ -107,13 +107,13 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 2,
-		display = "砂浜に行けば比較的簡単に発見できる貝。程よい塩分があるため、そのまま火にかけるだけでも美味しく食べられる",
-		name = "プルムル",
-		type = 1,
-		id = 6,
 		icon = "ryza_item_6",
+		display = "砂浜に行けば比較的簡単に発見できる貝。程よい塩分があるため、そのまま火にかけるだけでも美味しく食べられる",
+		type = 1,
+		rarity = 2,
+		name = "プルムル",
 		benefit_buff = "",
+		id = 6,
 		prop_level = 1,
 		prop = {
 			2
@@ -150,13 +150,13 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 3,
-		display = "川や湖に囲まれた場所に生息している淡水魚。一般的な魚の一種",
-		name = "サルディン",
-		type = 1,
-		id = 7,
 		icon = "ryza_item_7",
+		display = "川や湖に囲まれた場所に生息している淡水魚。一般的な魚の一種",
+		type = 1,
+		rarity = 3,
+		name = "サルディン",
 		benefit_buff = "",
+		id = 7,
 		prop_level = 2,
 		prop = {
 			2
@@ -193,13 +193,13 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
-		display = "湖の最も深い場所に住むとされている、湖に住む魚たちのぬし",
-		name = "湖底のぬし",
-		type = 1,
-		id = 8,
 		icon = "ryza_item_8",
+		display = "湖の最も深い場所に住むとされている、湖に住む魚たちのぬし",
+		type = 1,
+		rarity = 4,
+		name = "湖底のぬし",
 		benefit_buff = "",
+		id = 8,
 		prop_level = 3,
 		prop = {
 			2
@@ -241,15 +241,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 2,
+		icon = "ryza_item_9",
 		display = "結晶のような、透明な石のかけら。様々な種類があり、ただの石から鉱石、中には高級な宝石が混ざっていることもある",
-		name = "小さな晶石",
 		type = 1,
+		rarity = 2,
+		name = "小さな晶石",
 		benefit_buff = "",
-		prop_level = 1,
 		base_circle = "",
 		id = 9,
-		icon = "ryza_item_9",
+		prop_level = 1,
 		prop = {
 			1
 		},
@@ -283,13 +283,13 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 3,
-		display = "岩などを壊した際に採取できる砂。揮発性のガスの匂いを漂わせ、火をつけると燃え上がる",
-		name = "燃える砂",
-		type = 1,
-		id = 10,
 		icon = "ryza_item_10",
+		display = "岩などを壊した際に採取できる砂。揮発性のガスの匂いを漂わせ、火をつけると燃え上がる",
+		type = 1,
+		rarity = 3,
+		name = "燃える砂",
 		benefit_buff = "",
+		id = 10,
 		prop_level = 2,
 		prop = {
 			1
@@ -326,13 +326,13 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
-		display = "溶岩鉱を砕き、粉末状にしたもの。粉末とはいえ溶岩であることに変わりないため、放置しているだけで発熱や発火の危険性がある。風に飛ばされたりすれば大惨事になるだろう",
-		name = "マグマパウダー",
-		type = 1,
-		id = 11,
 		icon = "ryza_item_11",
+		display = "溶岩鉱を砕き、粉末状にしたもの。粉末とはいえ溶岩であることに変わりないため、放置しているだけで発熱や発火の危険性がある。風に飛ばされたりすれば大惨事になるだろう",
+		type = 1,
+		rarity = 4,
+		name = "マグマパウダー",
 		benefit_buff = "",
+		id = 11,
 		prop_level = 3,
 		prop = {
 			1
@@ -369,15 +369,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 2,
+		icon = "ryza_item_12",
 		display = "ただの雑草。どこにでも生息しているということ以外に何の特徴もないため、雑草としか呼ばれていない。あまりに一般的なため、錬金術のレシピにもたびたび顔を見せる",
-		name = "ナナシ草",
 		type = 1,
+		rarity = 2,
+		name = "ナナシ草",
 		benefit_buff = "",
-		prop_level = 1,
 		base_circle = "",
 		id = 12,
-		icon = "ryza_item_12",
+		prop_level = 1,
 		prop = {
 			4
 		},
@@ -406,13 +406,13 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 3,
-		display = "鳥の翼のような形の葉っぱ。とても軽いため、風が吹くと簡単にくるくると飛んでしまう",
-		name = "ウィングプラント",
-		type = 1,
-		id = 13,
 		icon = "ryza_item_13",
+		display = "鳥の翼のような形の葉っぱ。とても軽いため、風が吹くと簡単にくるくると飛んでしまう",
+		type = 1,
+		rarity = 3,
+		name = "ウィングプラント",
 		benefit_buff = "",
+		id = 13,
 		prop_level = 2,
 		prop = {
 			4
@@ -449,13 +449,13 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
-		display = "普通のものと違い、赤黒い色をしているトーン。鉄分を含む土壌で生育していたためこの色になったと考えられている。生木であっても火に近づけるとよく燃えるという特徴がある",
-		name = "ブラッドトーン",
-		type = 1,
-		id = 14,
 		icon = "ryza_item_14",
+		display = "普通のものと違い、赤黒い色をしているトーン。鉄分を含む土壌で生育していたためこの色になったと考えられている。生木であっても火に近づけるとよく燃えるという特徴がある",
+		type = 1,
+		rarity = 4,
+		name = "ブラッドトーン",
 		benefit_buff = "",
+		id = 14,
 		prop_level = 3,
 		prop = {
 			4
@@ -497,15 +497,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 2,
+		icon = "ryza_item_15",
 		display = "雷の力を有している鉱石。雷雨の多い場所や、山などの高所で採掘されることが多い。落雷によって岩が変質し生まれた鉱石だと言われている",
-		name = "イナズマ鉱",
 		type = 1,
+		rarity = 2,
+		name = "イナズマ鉱",
 		benefit_buff = "",
-		prop_level = 1,
 		base_circle = "",
 		id = 15,
-		icon = "ryza_item_15",
+		prop_level = 1,
 		prop = {
 			3
 		},
@@ -534,13 +534,13 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 3,
-		display = "巨大隕石の欠片。この欠片には必ずつがいとなる欠片が存在し、どれだけ離れていようと空間を超えた結びつきを持っている。これを利用すれば、空間転移も可能……かもしれない",
-		name = "導きの星の欠片",
-		type = 1,
-		id = 16,
 		icon = "ryza_item_16",
+		display = "巨大隕石の欠片。この欠片には必ずつがいとなる欠片が存在し、どれだけ離れていようと空間を超えた結びつきを持っている。これを利用すれば、空間転移も可能……かもしれない",
+		type = 1,
+		rarity = 3,
+		name = "導きの星の欠片",
 		benefit_buff = "",
+		id = 16,
 		prop_level = 2,
 		prop = {
 			3
@@ -582,13 +582,13 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
-		display = "七色の光を内部に持つ、透明感のある鉱石。その強度は他の鉱石とは一線を画し、正攻法では加工そのものが不可能と言われている",
-		name = "セプトリエン",
-		type = 1,
-		id = 17,
 		icon = "ryza_item_17",
+		display = "七色の光を内部に持つ、透明感のある鉱石。その強度は他の鉱石とは一線を画し、正攻法では加工そのものが不可能と言われている",
+		type = 1,
+		rarity = 4,
+		name = "セプトリエン",
 		benefit_buff = "",
+		id = 17,
 		prop_level = 3,
 		prop = {
 			3
@@ -625,13 +625,13 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 2,
-		display = "中枢エリアで採取した謎の結晶体。硬質であらゆるエレメントのエネルギーがその中に含まれている。いい調合素材になるかも？",
-		name = "謎の結晶鉱",
-		type = 4,
-		id = 18,
 		icon = "ryza_item_18",
+		display = "中枢エリアで採取した謎の結晶体。硬質であらゆるエレメントのエネルギーがその中に含まれている。いい調合素材になるかも？",
+		type = 4,
+		rarity = 2,
+		name = "謎の結晶鉱",
 		benefit_buff = "",
+		id = 18,
 		prop_level = 1,
 		prop = {
 			1,
@@ -686,13 +686,13 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 3,
-		display = "中枢エリアにある残骸を分解して手に入れた装甲材。固くてきらびやかな表面を持つ白色の外殻はあらゆるエレメントから精錬されたと見られ、上級の調合素材として使用できるかもしれない",
-		name = "謎の装甲材",
-		type = 4,
-		id = 19,
 		icon = "ryza_item_19",
+		display = "中枢エリアにある残骸を分解して手に入れた装甲材。固くてきらびやかな表面を持つ白色の外殻はあらゆるエレメントから精錬されたと見られ、上級の調合素材として使用できるかもしれない",
+		type = 4,
+		rarity = 3,
+		name = "謎の装甲材",
 		benefit_buff = "",
+		id = 19,
 		prop_level = 2,
 		prop = {
 			1,
@@ -747,13 +747,13 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
-		display = "古代遺跡の守護者の動力源。守護者の本体から離れても、無尽蔵にエネルギーを放ち続けている",
-		name = "謎のエナジーコア",
-		type = 4,
-		id = 20,
 		icon = "ryza_item_20",
+		display = "古代遺跡の守護者の動力源。守護者の本体から離れても、無尽蔵にエネルギーを放ち続けている",
+		type = 4,
+		rarity = 4,
+		name = "謎のエナジーコア",
 		benefit_buff = "",
+		id = 20,
 		prop_level = 3,
 		prop = {
 			1,
@@ -808,16 +808,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 2,
+		icon = "ryza_item_21",
 		display = "錬金術により人工的に造りだされた精霊の力を、封じ込めた小瓶。あらゆる属性に対して適性を持つ反面、扱うには高い技術が必要とされる",
-		name = "精霊の小瓶",
 		type = 2,
+		rarity = 2,
+		name = "精霊の小瓶",
 		benefit_buff = "",
-		prop_level = 1,
 		base_circle = "",
 		got_voice = "",
 		id = 21,
-		icon = "ryza_item_21",
+		prop_level = 1,
 		prop = {
 			1,
 			2,
@@ -837,16 +837,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 3,
+		icon = "ryza_item_22",
 		display = "錬金術の調合に頻繁に出てくる基本薬。赤い液体で、火属性の素材と相性がよい",
-		name = "中和剤・赤",
 		type = 2,
+		rarity = 3,
+		name = "中和剤・赤",
 		benefit_buff = "",
-		prop_level = 2,
 		base_circle = "",
 		got_voice = "",
 		id = 22,
-		icon = "ryza_item_22",
+		prop_level = 2,
 		prop = {
 			1
 		},
@@ -863,16 +863,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 3,
+		icon = "ryza_item_23",
 		display = "錬金術の調合に頻繁に出てくる基本薬。青い液体で、氷属性の素材と相性がよい",
-		name = "中和剤・青",
 		type = 2,
+		rarity = 3,
+		name = "中和剤・青",
 		benefit_buff = "",
-		prop_level = 2,
 		base_circle = "",
 		got_voice = "",
 		id = 23,
-		icon = "ryza_item_23",
+		prop_level = 2,
 		prop = {
 			2
 		},
@@ -889,16 +889,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 3,
+		icon = "ryza_item_25",
 		display = "錬金術の調合に頻繁に出てくる基本薬。黄色い液体で、雷属性の素材と相性がよい",
-		name = "中和剤・黄",
 		type = 2,
+		rarity = 3,
+		name = "中和剤・黄",
 		benefit_buff = "",
-		prop_level = 2,
 		base_circle = "",
 		got_voice = "",
 		id = 24,
-		icon = "ryza_item_25",
+		prop_level = 2,
 		prop = {
 			3
 		},
@@ -915,16 +915,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 3,
+		icon = "ryza_item_24",
 		display = "錬金術の調合に頻繁に出てくる基本薬。緑の液体で、風属性の素材と相性がよい",
-		name = "中和剤・緑",
 		type = 2,
+		rarity = 3,
+		name = "中和剤・緑",
 		benefit_buff = "",
-		prop_level = 2,
 		base_circle = "",
 		got_voice = "",
 		id = 25,
-		icon = "ryza_item_24",
+		prop_level = 2,
 		prop = {
 			4
 		},
@@ -941,16 +941,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_26",
 		display = "４種のエレメントコアから作られる最上位素材の一つ。全属性と高い属性値を持ち、高度な調合をする際に役に立つ",
-		name = "クリスタルエレメント",
 		type = 2,
+		rarity = 4,
+		name = "クリスタルエレメント",
 		benefit_buff = "",
-		prop_level = 3,
 		base_circle = "",
 		got_voice = "",
 		id = 26,
-		icon = "ryza_item_26",
+		prop_level = 3,
 		prop = {
 			1,
 			2,
@@ -970,16 +970,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_27",
 		display = "異界の森を表す遺跡の鍵。柄には薄紅のトパーズが装飾されており、かつての鬱蒼たる森の姿を思い出させてくれる",
-		name = "遺跡の鍵・異界の森",
 		type = 3,
+		rarity = 4,
+		name = "遺跡の鍵・異界の森",
 		benefit_buff = "",
-		prop_level = 2,
 		base_circle = "",
 		got_voice = "",
 		id = 27,
-		icon = "ryza_item_27",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			3
@@ -990,16 +990,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_28",
 		display = "始まりの地を表す遺跡の鍵。柄には無瑕なダイヤモンドが装飾されている。冒険に踏み出す人々の心が、いつまでもダイヤモンドのように高潔であるように",
-		name = "遺跡の鍵・始まりの地",
 		type = 3,
+		rarity = 4,
+		name = "遺跡の鍵・始まりの地",
 		benefit_buff = "",
-		prop_level = 2,
 		base_circle = "",
 		got_voice = "",
 		id = 28,
-		icon = "ryza_item_28",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			4
@@ -1010,16 +1010,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_29",
 		display = "滅失の都を表す遺跡の鍵。柄には青緑のエメラルドが装飾されている。お宝そのものより、探し求める旅こそ冒険者の宝なり",
-		name = "遺跡の鍵・滅失の都",
 		type = 3,
+		rarity = 4,
+		name = "遺跡の鍵・滅失の都",
 		benefit_buff = "",
-		prop_level = 2,
 		base_circle = "",
 		got_voice = "",
 		id = 29,
-		icon = "ryza_item_29",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			2
@@ -1030,16 +1030,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_30",
 		display = "紛争の城を表す遺跡の鍵。柄には絢爛なルビーが装飾されている。古の残酷な真実はすでに、時間の大河に溶けてなくなっていたのかもしれない",
-		name = "遺跡の鍵・紛争の城",
 		type = 3,
+		rarity = 4,
+		name = "遺跡の鍵・紛争の城",
 		benefit_buff = "",
-		prop_level = 2,
 		base_circle = "",
 		got_voice = "",
 		id = 30,
-		icon = "ryza_item_30",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			1
@@ -1050,16 +1050,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 5,
+		icon = "ryza_item_31",
 		display = "錬金術で4本の鍵を融合させて作り出した、カードキーのような装置。中枢エリアの「扉」にある挿入口に差し込められそうだ",
-		name = "遺跡の鍵・中枢の拠",
 		type = 3,
+		rarity = 5,
+		name = "遺跡の鍵・中枢の拠",
 		benefit_buff = "",
-		prop_level = 3,
 		base_circle = "",
 		got_voice = "",
 		id = 31,
-		icon = "ryza_item_31",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1073,16 +1073,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_32",
 		display = "遺跡水晶クラスターを10000集めると入手できる記念バッジ。イベント記念アイテムの調合素材",
-		name = "バッジ・遺跡水晶クラスター",
 		type = 3,
+		rarity = 4,
+		name = "バッジ・遺跡水晶クラスター",
 		benefit_buff = "",
-		prop_level = 3,
 		base_circle = "",
 		got_voice = "",
 		id = 32,
-		icon = "ryza_item_32",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1094,16 +1094,16 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_33",
 		display = "温泉開発戦を7日間プレイすると入手できる記念バッジ。イベント記念アイテムの調合素材",
-		name = "バッジ・温泉開発戦",
 		type = 3,
+		rarity = 4,
+		name = "バッジ・温泉開発戦",
 		benefit_buff = "",
-		prop_level = 3,
 		base_circle = "",
 		got_voice = "",
 		id = 33,
-		icon = "ryza_item_33",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			2,
@@ -1115,15 +1115,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "300001",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「火力・航空・雷装ステータスUP」効果が付与される",
-		name = "攻撃力向上コア",
 		type = 5,
-		prop_level = 2,
+		rarity = 4,
+		name = "攻撃力向上コア",
 		base_circle = "",
 		got_voice = "",
 		id = 34,
-		icon = "300001",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1142,15 +1142,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "300011",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「受けるダメージを軽減する」効果が付与される",
-		name = "防御力向上コア",
 		type = 5,
-		prop_level = 2,
+		rarity = 4,
+		name = "防御力向上コア",
 		base_circle = "",
 		got_voice = "",
 		id = 35,
-		icon = "300011",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1169,15 +1169,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "300021",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘中、耐久がゆっくり回復する」効果が付与される",
-		name = "自動回復コア",
 		type = 5,
-		prop_level = 2,
+		rarity = 4,
+		name = "自動回復コア",
 		base_circle = "",
 		got_voice = "",
 		id = 36,
-		icon = "300021",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1196,15 +1196,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "300031",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「味方艦船の耐久が20％を下回った場合一度だけ回復する」効果が付与される",
-		name = "緊急回復コア",
 		type = 5,
-		prop_level = 2,
+		rarity = 4,
+		name = "緊急回復コア",
 		base_circle = "",
 		got_voice = "",
 		id = 37,
-		icon = "300031",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1223,15 +1223,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "300041",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘中、敵を炎上させる支援弾幕が出現する」効果が付与される",
-		name = "爆燃支援攻撃コア",
 		type = 5,
-		prop_level = 2,
+		rarity = 4,
+		name = "爆燃支援攻撃コア",
 		base_circle = "",
 		got_voice = "",
 		id = 38,
-		icon = "300041",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1250,15 +1250,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "300051",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘中、命中した敵の被ダメージを一定時間UPさせる支援弾幕が出現する」効果が付与される",
-		name = "破砕支援攻撃コア",
 		type = 5,
-		prop_level = 2,
+		rarity = 4,
+		name = "破砕支援攻撃コア",
 		base_circle = "",
 		got_voice = "",
 		id = 39,
-		icon = "300051",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1277,15 +1277,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "300061",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘で獲得する経験値がUP」効果が付与される",
-		name = "経験値効率向上コア",
 		type = 5,
-		prop_level = 2,
+		rarity = 4,
+		name = "経験値効率向上コア",
 		base_circle = "",
 		got_voice = "",
 		id = 40,
-		icon = "300061",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1304,15 +1304,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "300071",
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘での好感度上昇値がUP」効果が付与される",
-		name = "好感度上昇率向上コア",
 		type = 5,
-		prop_level = 2,
+		rarity = 4,
+		name = "好感度上昇率向上コア",
 		base_circle = "",
 		got_voice = "",
 		id = 41,
-		icon = "300071",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1329,15 +1329,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_42",
 		display = "特殊装備「スパークルレヴァリエ」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールスパークルレヴァリエ",
 		type = 3,
+		rarity = 4,
+		name = "モジュールスパークルレヴァリエ",
 		benefit_buff = "",
-		prop_level = 3,
 		got_voice = "",
 		id = 42,
-		icon = "ryza_item_42",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			2,
@@ -1356,15 +1356,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_43",
 		display = "特殊装備「アストルムノクス」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールアストルムノクス",
 		type = 3,
+		rarity = 4,
+		name = "モジュールアストルムノクス",
 		benefit_buff = "",
-		prop_level = 3,
 		got_voice = "",
 		id = 43,
-		icon = "ryza_item_43",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			2,
@@ -1383,15 +1383,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_44",
 		display = "特殊装備「グランデフロラシオン」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールグランデフロラシオン",
 		type = 3,
+		rarity = 4,
+		name = "モジュールグランデフロラシオン",
 		benefit_buff = "",
-		prop_level = 3,
 		got_voice = "",
 		id = 44,
-		icon = "ryza_item_44",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1410,15 +1410,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_45",
 		display = "特殊装備「エーデルシュヴァルト」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールエーデルシュヴァルト",
 		type = 3,
+		rarity = 4,
+		name = "モジュールエーデルシュヴァルト",
 		benefit_buff = "",
-		prop_level = 3,
 		got_voice = "",
 		id = 45,
-		icon = "ryza_item_45",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1437,15 +1437,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_46",
 		display = "特殊装備「エルダーリリー」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールエルダーリリー",
 		type = 3,
+		rarity = 4,
+		name = "モジュールエルダーリリー",
 		benefit_buff = "",
-		prop_level = 2,
 		got_voice = "",
 		id = 46,
-		icon = "ryza_item_46",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			2,
@@ -1464,15 +1464,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_47",
 		display = "特殊装備「オーレンへルディン」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールオーレンへルディン",
 		type = 3,
+		rarity = 4,
+		name = "モジュールオーレンへルディン",
 		benefit_buff = "",
-		prop_level = 3,
 		got_voice = "",
 		id = 47,
-		icon = "ryza_item_47",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			2,
@@ -1491,15 +1491,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_48",
 		display = "特殊装備「グランフラム」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールグランフラム",
 		type = 3,
+		rarity = 4,
+		name = "モジュールグランフラム",
 		benefit_buff = "",
-		prop_level = 3,
 		got_voice = "",
 		id = 48,
-		icon = "ryza_item_48",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			1
@@ -1517,15 +1517,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_49",
 		display = "特殊装備「クライスタルレヘルン」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールクライスタルレヘルン",
 		type = 3,
+		rarity = 4,
+		name = "モジュールクライスタルレヘルン",
 		benefit_buff = "",
-		prop_level = 3,
 		got_voice = "",
 		id = 49,
-		icon = "ryza_item_49",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			2
@@ -1543,15 +1543,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_50",
 		display = "特殊装備「ラウトプラジグ」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールラウトプラジグ",
 		type = 3,
+		rarity = 4,
+		name = "モジュールラウトプラジグ",
 		benefit_buff = "",
-		prop_level = 3,
 		got_voice = "",
 		id = 50,
-		icon = "ryza_item_50",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			3
@@ -1569,15 +1569,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_51",
 		display = "特殊装備「ヴィアベールルフト」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールヴィアベールルフト",
 		type = 3,
+		rarity = 4,
+		name = "モジュールヴィアベールルフト",
 		benefit_buff = "",
-		prop_level = 3,
 		got_voice = "",
 		id = 51,
-		icon = "ryza_item_51",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			4
@@ -1595,15 +1595,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_52",
 		display = "特殊装備「創世の槌」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュール創世の槌",
 		type = 3,
+		rarity = 4,
+		name = "モジュール創世の槌",
 		benefit_buff = "",
-		prop_level = 2,
 		got_voice = "",
 		id = 52,
-		icon = "ryza_item_52",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1622,15 +1622,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_53",
 		display = "特殊装備「泡雲の弾丸」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュール泡雲の弾丸",
 		type = 3,
+		rarity = 4,
+		name = "モジュール泡雲の弾丸",
 		benefit_buff = "",
-		prop_level = 2,
 		got_voice = "",
 		id = 53,
-		icon = "ryza_item_53",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			2,
@@ -1649,15 +1649,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_54",
 		display = "特殊装備「Ｎ／Ａ」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールＮ／Ａ",
 		type = 3,
+		rarity = 4,
+		name = "モジュールＮ／Ａ",
 		benefit_buff = "",
-		prop_level = 3,
 		got_voice = "",
 		id = 54,
-		icon = "ryza_item_54",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1676,15 +1676,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_55",
 		display = "特殊装備「アポカリプス」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールアポカリプス",
 		type = 3,
+		rarity = 4,
+		name = "モジュールアポカリプス",
 		benefit_buff = "",
-		prop_level = 3,
 		got_voice = "",
 		id = 55,
-		icon = "ryza_item_55",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1705,15 +1705,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_56",
 		display = "特殊装備「神秘の羽衣」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュール神秘の羽衣",
 		type = 3,
+		rarity = 4,
+		name = "モジュール神秘の羽衣",
 		benefit_buff = "",
-		prop_level = 2,
 		got_voice = "",
 		id = 56,
-		icon = "ryza_item_56",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			2,
@@ -1732,15 +1732,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_57",
 		display = "特殊装備「エリキシル剤」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールエリキシル剤",
 		type = 3,
+		rarity = 4,
+		name = "モジュールエリキシル剤",
 		benefit_buff = "",
-		prop_level = 3,
 		got_voice = "",
 		id = 57,
-		icon = "ryza_item_57",
+		prop_level = 3,
 		normal_circle = "",
 		prop = {
 			1,
@@ -1759,15 +1759,15 @@ pg.activity_ryza_item = {
 		}
 	},
 	{
-		rarity = 4,
+		icon = "ryza_item_58",
 		display = "特殊装備「エネルジアニカ」のコアパーツ。レシピの調合に必要な素材。調合システムにて使用可能",
-		name = "モジュールエネルジアニカ",
 		type = 3,
+		rarity = 4,
+		name = "モジュールエネルジアニカ",
 		benefit_buff = "",
-		prop_level = 2,
 		got_voice = "",
 		id = 58,
-		icon = "ryza_item_58",
+		prop_level = 2,
 		normal_circle = "",
 		prop = {
 			2,

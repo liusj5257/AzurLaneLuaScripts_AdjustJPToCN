@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_504",
+			nameColor = "#A9F548FF",
 			actorName = "In-Story Narration",
-			stopbgm = true,
-			paintingNoise = true,
+			bgName = "star_level_bg_504",
 			bgm = "cw-story",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
+			paintingNoise = true,
 			hidePaintObj = true,
 			say = "As the white mist cleared, the travelers suddenly found 'emselves aboard a big-ass wooden boat!",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -63,10 +63,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ding-ding-ding! Correctamundo.",
 			typewriter = {
 				speed = 0.05,
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Foo is Here Too",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But we were just in a hut in a snowstorm... What a strange transition.",
@@ -95,10 +95,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "Rain was pourin' down, the wind was howling, and the seas were rockin' like crazy. The travelers were starting to get some mad seasickness.",
 			typewriter = {
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Are we? I feel perfectly fine.",
@@ -125,11 +125,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Yeah, it makes no sense for shipgirls to get seasick.",
@@ -146,10 +146,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That so? Ahem... Rain was pourin' down, the wind was howling, and the seas were rockin' like crazy. Despite that, the travelers looked right as rain!",
 			typewriter = {
 				speed = 0.05,
@@ -160,10 +160,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "Clearly, they were badasses – badasses, but they were tiny compared to the ocean.",
 			typewriter = {
@@ -175,10 +175,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Especially compared to the colossal beast of the sea. Yes, an Umibouzu towered above them and their teensy fishing boats!",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Umibouzu",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Olden and Golden",
 			nameColor = "#A9F548FF",
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Umibouzu",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Olden and Golden",
 			nameColor = "#A9F548FF",
@@ -263,10 +263,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "Virtuous Fisherwoman",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You need to appease the Umibouzu, or else the storm will never let up.",
 			typewriter = {
 				speed = 0.05,
@@ -287,11 +287,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "That's so mean to the poor fisherwoman! I say we gang up on the big baddy and take it down!",
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Agreed. It doesn't matter if it's a powerful youkai – our cannons will make short work of it!",
@@ -339,10 +339,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302210,
 			actorName = "Brave Fisherwoman",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I worked like a dog for this haul! Why should I stand and watch while some youkai steals the fruits of my labor?",
 			typewriter = {
 				speed = 0.05,
@@ -353,10 +353,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "Virtuous Fisherwoman",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Goodness... Please, brave lady, simmer down!",
 			typewriter = {
 				speed = 0.05,
@@ -393,10 +393,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oookay... The brave fisherwoman took up a harpoon and leaped out of her boat, hell-bent on taking down the Umibouzu.",
 			typewriter = {
 				speed = 0.05,
@@ -407,10 +407,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "But! Just a moment later, a giant wave rose from the turbulent sea, and swallowed the unfortunate fisherwoman!",
 			typewriter = {
@@ -422,10 +422,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "Virtuous Fisherwoman",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*sigh*... See? I tried to warn you!",
 			typewriter = {
 				speed = 0.05,
@@ -484,11 +484,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Something tells me there's no way to advance without giving it something for realsies.",
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Umibouzu",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Olden and Golden",
 			nameColor = "#A9F548FF",
@@ -558,10 +558,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "Uh-oh. Looks like that wasn't enough for the Umibouzu. It sent a huge wave after the fisherwoman and sank her boat!",
 			typewriter = {
@@ -573,10 +573,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "Virtuous Fisherwoman",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh geesh, oh man... I doubt what little we have will be nearly enough to satisfy the Umibouzu!",
 			typewriter = {
 				speed = 0.05,
@@ -597,11 +597,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "So offering goods won't work, and shooting it won't either... Then what are we supposed to do?",
@@ -615,11 +615,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Little Miss Possessive Demon",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "First of all, let's search the ships for anything left of value.",
@@ -652,13 +652,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "Fu Shun & Bristol",
+			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			hideOther = true,
 			actor = 501020,
 			nameColor = "#A9F548FF",
-			side = 2,
+			hidePaintObj = true,
 			say = "That's brilliant! You're a genius!",
 			dialogShake = {
 				speed = 0.08,
@@ -683,10 +683,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "Virtuous Fisherwoman",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(Isn't that essentially what Kasumi proposed, though?)",
 			dialogShake = {
 				speed = 0.08,
@@ -701,11 +701,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			paintingNoise = true,
-			actorName = "In-Story Narration",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "The travelers took tributes from all the surroundin' boats and gathered them in one place. The Umibouzu looked at all of it with greedy eyes!",
 			typewriter = {
@@ -713,17 +713,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -731,8 +731,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Umibouzu",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Olden and Golden",
 			nameColor = "#A9F548FF",
@@ -755,10 +755,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "The Umibouzu closed in on the heap of treasure as it bellowed an order.",
 			typewriter = {
@@ -786,11 +786,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hatsuzuki, throw a few tributes into the water! Get it just a bit closer!",
@@ -804,11 +804,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Little Miss Possessive Demon",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Alright, got it!",
@@ -822,8 +822,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -851,8 +851,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -880,8 +880,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -893,10 +893,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "That's uh, lemme see... That's a will-o'-the-wisp.",
 			typewriter = {
@@ -924,8 +924,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0
@@ -936,10 +936,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "Uhh... One of the travelers was so utterly filled with fear that it gave her the strength to perform a small miracle.",
 			typewriter = {
@@ -951,10 +951,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "Like a frog juiced up on energy drinks, she jumped through the air onto another fishing boat! But, there was another surprise awaiting her there...",
 			typewriter = {
@@ -982,8 +982,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0
@@ -994,10 +994,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Shoutin' and shriekin', she leaped from boat to boat until eventually, she was face-to-face with the Umibouzu!",
 			typewriter = {
 				speed = 0.05,
@@ -1005,8 +1005,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Umibouzu",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "Olden and Golden",
 			nameColor = "#A9F548FF",
@@ -1045,8 +1045,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0
@@ -1056,11 +1056,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			paintingNoise = true,
-			actorName = "In-Story Narration",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "The Umibouzu was slain. Calm returned to the seas and the fishers were finally able to resume their peaceful lives.",
 			typewriter = {
@@ -1068,17 +1068,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1089,10 +1089,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And everyone lived happily ever after.",
 			typewriter = {
 				speed = 0.05,

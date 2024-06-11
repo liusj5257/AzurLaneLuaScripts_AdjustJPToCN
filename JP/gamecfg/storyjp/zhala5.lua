@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHALA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHALA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ローザ・ストーリア\n\n<size=45>五 悪魔？の囁き</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "ふふ、秘書官になにかご注文でも？なんでもいいわよ",
 			typewriter = {
 				speed = 0.05,
@@ -104,9 +104,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "この話しぶりじゃ…もしかして他の人にしてもらったことがないの？",
 			typewriter = {
 				speed = 0.05,
@@ -130,15 +130,15 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "じゃあ、ここで横になって。大丈夫、緊張しなくていいわ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -179,9 +179,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "アイマスク…？よくわからないけどつけてみるか",
 			typewriter = {
 				speed = 0.05,
@@ -193,13 +193,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "ザラ",
-			say = "じゃあ始めるわ。あまり動かないでね",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			bgm = "story-2",
+			actorName = "ザラ",
+			say = "じゃあ始めるわ。あまり動かないでね",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…………",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "硬い感触が耳に触った。これが…他人からやってもらう耳かき？",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "シャリシャリ…パリッ。シュッシュッシュッ…",
 			typewriter = {
@@ -261,8 +261,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "異物が耳の奥まで入ってくるという感触と、耳道にカリカリ擦れた痒さと痛みが交錯し、名状しがたい快感を生み出す。",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "耳道の最奥に侵入した耳かきがそのまま回転し始め、敏感な神経にズッズッと刺激を与えてくる。",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "アイマスクで目が見えないだけにその刺激もより増幅され、痺れる気持ちよさが後頭部から背筋、体中に伝わっていく。",
 			typewriter = {
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "気持ちが高まっていくのと同時に、意識もまた深く沈み、頭の中が真っ白になっていく。",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "ザラ",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "！？",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "耳元に急に息が吹かれ、まるで電撃を受けたかのように体が軽くビクッとした。",
 			typewriter = {
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "（や、やばいぞこれ……）",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "ザラ",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,

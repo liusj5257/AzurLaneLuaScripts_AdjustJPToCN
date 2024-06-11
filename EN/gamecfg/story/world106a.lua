@@ -1,17 +1,17 @@
 return {
-	id = "WORLD106A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD106A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 105120,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "There were so many Sirens here before, and now they're all but gone... It’s so strange.",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "we're at war with the Sirens, and the Sirens are at war with the Ashes... Add to that, the mission outline declares the Ashes group as hostile to us, too.",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "The reason for the Sirens’ unconventional deployment across the NA Ocean is getting weirder and weirder...",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "KABOOOOM!",
 			dialogShake = {
 				speed = 0.09,
@@ -147,8 +147,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "Yeah. It’s long gone by now, but the Singularity had some lasting effects on the region.",
 			typewriter = {
 				speed = 0.05,
@@ -220,11 +220,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Orders received. Fetching and analyzing data gathered by radar, sonar, and reconnaissance planes...",
-			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -277,11 +277,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/38/tb-38",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Analysis complete. Displaying results of analysis on interface screen.",
-			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,11 +294,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/46/tb-46",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Attention: There is a high likelihood of bad weather within the next 6 hours. Requesting permission to form a plan.",
-			voice = "event:/tb/46/tb-46",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "6 hours? That’s pretty specific... Anyway, We'll go ahead and let TB devise a plan for us to follow.",
 			typewriter = {
 				speed = 0.05,

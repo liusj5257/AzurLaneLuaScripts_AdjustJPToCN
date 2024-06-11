@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Another Leader?\n\n<size=45>Chapter 2 - An Affable Personality...?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Main Plaza",
 			side = 2,
 			bgName = "star_level_bg_113",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Main Plaza",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 205060,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "After what happened this morning, I went to see Prince of Wales for an explanation.",
 			typewriter = {
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 205060,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "The normally unexpressive Prince of Wales suddenly burst out into laughter.",
 			typewriter = {
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "... Nemesis?",
 			typewriter = {
 				speed = 0.05,
@@ -174,15 +174,15 @@ return {
 			}
 		},
 		{
-			actor = 105130,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105130,
+			nameColor = "#a9f548",
 			say = "Sis, are you still hung up on that one time...?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -239,10 +239,10 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_113",
 			side = 2,
+			bgName = "star_level_bg_113",
+			actor = 205050,
 			dir = 1,
 			actorName = "？？？",
 			say = "Precisely! If you'd like, I could offer some words of advice?",
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 105130,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105130,
+			nameColor = "#a9f548",
 			say = "You're... King George V, from the Royal Navy!?",
 			effects = {
 				{
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "In other words, you must first accept who you are before you can move forward.",
 			typewriter = {
@@ -336,8 +336,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "Me, of course!",
 			typewriter = {
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 105120,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105120,
+			nameColor = "#a9f548",
 			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -379,8 +379,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "What's the issue? If you are looking for someone who accepts you for who you are, then I shall be that person.",
 			typewriter = {
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 105130,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 105130,
+			nameColor = "#a9f548",
 			say = "... ... (Seems to be desperately trying to suppress her laughter)",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -451,9 +451,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
+			dir = 1,
 			say = "... ... ...",
 			typewriter = {
 				speed = 0.05,

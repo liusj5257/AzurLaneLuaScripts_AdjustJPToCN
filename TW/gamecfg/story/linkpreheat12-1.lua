@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT12-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT12-1",
+	fadein = 1,
 	scripts = {
 		{
-			actor = 10300020,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "这件事我希望能交给我呢",
 			dir = 1,
 			bgm = "level-uta",
+			actor = 10300020,
+			nameColor = "#a9f548",
+			say = "这件事我希望能交给我呢",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -48,8 +48,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			say = "我可不想被一样小不点的{namecode:6}说呢。没问题，我有自信",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			say = "毕竟有舰装这个装备在，而且真有什么事我还能召唤式鬼来帮我",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "但是猫音……千万不能勉强哦？",
 			typewriter = {
 				speed = 0.05,
@@ -171,8 +171,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			say = "姐姐大人，露露缇耶大人……好的！拜托妳们了！",
 			typewriter = {
 				speed = 0.05,

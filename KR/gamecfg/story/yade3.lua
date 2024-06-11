@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YADE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YADE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"착한 아이\"의 게으름 피우기 시간\n\n<size=45>3 함께 게으름 피워보자!</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			say = "모항·지휘실",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "모항·지휘실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,12 +47,12 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "약속한 게으름 피우기 시간이 왔답니다~",
 			painting = {
 				alpha = 0.3,
@@ -67,10 +67,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오늘은 엘베도 데리고 왔어요. 지휘관님과 게으름 피울 수 있다는 말을 듣고 엘베가 매우 좋아했답니다.",
 			painting = {
 				alpha = 0.3,
@@ -85,10 +85,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "맞아요! 지휘관님과 게으름 피우고, 업무를 끝내지 못하게 만드는 이런 나쁜 짓을 엘베가 놓칠 리 없다구요!",
 			painting = {
 				alpha = 0.3,
@@ -108,10 +108,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "우리 모두 나쁜 아이가 되어 소중한 시간을 맘껏 낭비해봅시다!",
 			painting = {
 				alpha = 0.3,
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어쨌든, 오늘의 '게으름 피우기 프로젝트'는 조금 더 활기찰 예정이에요, 바로——",
 			painting = {
 				alpha = 0.3,
@@ -181,10 +181,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"세 함선의 카드 뽑기 벌칙 게임!\"",
 			painting = {
 				alpha = 0.3,
@@ -204,10 +204,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "추가 규칙으론, 첫 번째로 카드를 낸 사람이 마지막으로 카드를 낸 사람에게 작은 벌칙을 부여할 수 있다는 겁니다.",
 			painting = {
 				alpha = 0.3,
@@ -222,10 +222,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "너무 심한 벌칙은 금지예요~",
 			painting = {
 				alpha = 0.3,
@@ -237,12 +237,12 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그럼 시작해볼까요?",
 			painting = {
 				alpha = 0.3,
@@ -254,27 +254,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "어느덧 1라운드 최종전에 돌입했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -285,10 +285,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관님, 엘베 손에 들고 있는 벌칙 카드만 안 뽑으신다면 이번 라운드는 엘베가 꼴지에요!",
 			painting = {
 				alpha = 0.3,
@@ -303,10 +303,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "하지만 벌칙 카드를 뽑는다면 지휘관님의 패배죠~",
 			painting = {
 				alpha = 0.3,
@@ -321,10 +321,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흥, 틀림없이 벌칙 카드가 걸릴 테니까 어서 뽑아보시죠!",
 			painting = {
 				alpha = 0.3,
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "탐색하듯 오른쪽으로 손을 뻗어본다——",
@@ -355,10 +355,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "!!!",
 			painting = {
 				alpha = 0.3,
@@ -375,8 +375,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "굉장히 불안해 보이는데…? 벌칙 카드가 어떤 것인지 안 봐도 뻔하잖아?",
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -408,13 +408,13 @@ return {
 			}
 		},
 		{
-			actor = 406020,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 406020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "앗싸! 이제 엘베 차례예요!",
 			painting = {
 				alpha = 0.3,
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -543,8 +543,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -598,8 +598,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -703,13 +703,13 @@ return {
 			}
 		},
 		{
-			actor = 406030,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 406030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어디 보자… 그럼 되겠다~",
 			painting = {
 				alpha = 0.3,
@@ -893,10 +893,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그럼 2라운드를 시작해볼까요!?  게으름 피우는 시간이 끝날 때까지~",
 			painting = {
 				alpha = 0.3,

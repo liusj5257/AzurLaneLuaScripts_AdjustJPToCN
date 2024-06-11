@@ -1,12 +1,12 @@
 return {
-	id = "W863012",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W863012",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "感受到了破局者的气息，应该就在附近了！",
 			typewriter = {
 				speed = 0.05,

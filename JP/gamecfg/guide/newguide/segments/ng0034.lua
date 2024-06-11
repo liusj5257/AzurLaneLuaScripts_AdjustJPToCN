@@ -19,8 +19,8 @@ return {
 			style = {
 				text = "「出撃強化」も開放されたみたいよ！",
 				mode = 1,
-				posY = -214.2,
 				dir = 1,
+				posY = -214.2,
 				posX = 477.25
 			}
 		},
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			alpha = 0,
 			waitScene = "AtelierBuffLayer",
+			alpha = 0,
 			code = {
 				1
 			},
@@ -60,8 +60,8 @@ return {
 			style = {
 				text = "強化コアは左側の円盤に配置できるわ。まずは配置する場所を選ぶわよ",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = -370.59
 			}
 		},
@@ -83,8 +83,8 @@ return {
 			style = {
 				text = "次はコアを選択してちょうだい",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 0
 			}
 		},
@@ -96,12 +96,12 @@ return {
 			style = {
 				text = "適用中の強化効果はここに表示されるわ",
 				mode = 1,
-				posY = 372.9,
 				dir = 1,
+				posY = 372.9,
 				posX = -182.6,
 				ui = {
-					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Effects/ScrollView",
-					lineMode = true
+					lineMode = true,
+					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Effects/ScrollView"
 				}
 			}
 		},
@@ -113,12 +113,12 @@ return {
 			style = {
 				text = "強化コアは調合システムで入手できるわよ",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 461.5,
 				ui = {
-					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Items/List/1",
-					lineMode = true
+					lineMode = true,
+					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Items/List/1"
 				}
 			}
 		}

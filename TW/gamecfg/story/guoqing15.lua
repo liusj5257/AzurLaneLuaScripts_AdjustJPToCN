@@ -27,11 +27,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
-			actorName = "{namecode:96}",
-			nameColor = "#a9f548",
 			say = "{namecode:95}姐！！！妳平安無事真是太好…",
+			actorName = "{namecode:96}",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "如果想要神明賜予更多恩惠，獻上優質的祭品是理所應當的吧~",
 			shake = {
 				speed = 1,
@@ -241,11 +241,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "呵呵呵，在此之前，不如好好想想怎麼對付妳眼前的這個對手吧～",
 			shake = {
 				speed = 1,
@@ -261,11 +261,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "就算是沒有靈魂的軀殼，也將會成為妳旅途的終點",
 			shake = {
 				speed = 1,

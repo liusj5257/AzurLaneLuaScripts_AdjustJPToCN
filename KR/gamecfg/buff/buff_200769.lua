@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "2024同盟活动EX 防止乱动",
 	init_effect = "",
+	name = "2024同盟活动EX 防止乱动",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 99,
 	id = 200769,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",

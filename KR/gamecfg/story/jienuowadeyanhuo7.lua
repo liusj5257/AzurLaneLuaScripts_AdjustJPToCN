@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIENUOWADEYANHUO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIENUOWADEYANHUO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-boss-italy",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_renaya",
-			say = "콰앙——————————！",
 			dir = 1,
 			bgmDelay = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "battle-boss-italy",
+			say = "콰앙——————————！",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "와…… 이번엔 통신과 동력 모듈 뿐만 아니라, 전력 시스템에까지 피해를 입혔어.",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "쟤는 돌아가서 크게 손보지 않으면 안되겠는 걸……",
 			typewriter = {
@@ -109,8 +109,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "이게 내 실력이야. 가장 우수한 중순양함이라는 건 말 뿐이 아니라고.",
 			typewriter = {
@@ -142,8 +142,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "당연하지! 나도 성좌의 기사라고. 어디서 무슨 일은 하든, 전투 능력은 떨어져선 안 되지.",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "그래도 너랑은 차이가 나는 걸…… 이미 차이를 뼈저리게 느겼어!",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,8 +186,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "후후~ 계속 힘내서 화이팅해.",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "우리는 전투를 기대하지 않지만, 전쟁의 불은 이미 타올랐어——",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "성좌의 기사로서 우리가 할 수 있는 것은 오직 목숨을 다해 싸우는 것. 적에게 정의라는 심판을 내리고 조국에 승리와 개선을 가져오자.",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "그럼——방금 너에게 당한 그 적은 어떻게 할 거야?",
 			typewriter = {
@@ -254,8 +254,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "……넌 어떻게 하는 게 좋겠어, \"대참모\"？",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903010,
 			dir = 1,
+			actor = 903010,
 			nameColor = "#a9f548",
 			say = "이전처럼 하자. 이번 작전에서 그녀는 더 이상 우리에게 위협이 되지 못해. \"소멸\"당한 거나 마찬가지야.",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_renaya",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "그럼 그렇게 하지, \"대참모\".",
 			typewriter = {

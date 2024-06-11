@@ -3,7 +3,7 @@ slot0.TYPE_SMALL = 1
 slot0.TYPE_LA = 2
 slot0.FallTime = 1
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.binder = slot1
 	slot0._tf = slot2
 	slot0.collisionMgr = slot3
@@ -14,7 +14,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:Init()
 end
 
-function slot0.AddListener(slot0)
+slot0.AddListener = function(slot0)
 	slot1 = slot0.binder
 
 	slot1:bind(OreGameConfig.EVENT_UPDATE_ORE_TARGET, function (slot0, slot1)
@@ -45,7 +45,7 @@ function slot0.AddListener(slot0)
 	end)
 end
 
-function slot0.AddDftAniEvent(slot0)
+slot0.AddDftAniEvent = function(slot0)
 	slot1 = findTF(slot0._tf, "main")
 	slot1 = slot1:GetComponent(typeof(DftAniEvent))
 
@@ -75,7 +75,7 @@ function slot0.AddDftAniEvent(slot0)
 	end)
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	setAnchoredPosition(slot0._tf, slot0.startPoint)
 
 	slot0.effectTF = findTF(slot0._tf, "effect")
@@ -96,7 +96,7 @@ function slot0.Init(slot0)
 	end)
 end
 
-function slot0.FallEnd(slot0)
+slot0.FallEnd = function(slot0)
 	slot0.animator:Play("Spawn")
 
 	slot0.isFallEnd = true
@@ -104,11 +104,11 @@ function slot0.FallEnd(slot0)
 	slot0.collisionMgr:AddOreObject(slot0.index, slot0)
 end
 
-function slot0.PlayBlink(slot0)
+slot0.PlayBlink = function(slot0)
 	findTF(slot0._tf, "main"):GetComponent(typeof(Animator)):Play("Blink")
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	if slot0.isDestroy then
 		return
 	end
@@ -122,11 +122,11 @@ function slot0.Destroy(slot0)
 	slot0.isDestroy = true
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.isDestroy = true
 end
 
-function slot0.OnTimer(slot0, slot1)
+slot0.OnTimer = function(slot0, slot1)
 	if slot0.time < uv0.FallTime then
 		slot0.time = slot0.time + slot1
 
@@ -144,7 +144,7 @@ function slot0.OnTimer(slot0, slot1)
 	end
 end
 
-function slot0.GetAABB(slot0)
+slot0.GetAABB = function(slot0)
 	if slot0.config.size == uv0.TYPE_SMALL then
 		return {
 			{
@@ -170,7 +170,7 @@ function slot0.GetAABB(slot0)
 	end
 end
 
-function slot0.GetCollisionInfo(slot0)
+slot0.GetCollisionInfo = function(slot0)
 	return {
 		pos = slot0._tf.anchoredPosition,
 		aabb = slot0:GetAABB()

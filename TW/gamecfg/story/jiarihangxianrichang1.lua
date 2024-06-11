@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIANRICHANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIANRICHANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
 			say = "新夥伴的到來，也給港區帶來了不太一樣的歡樂氛圍，以下，便是點綴在《維納斯挑戰賽》期間的幾段愉快插曲——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,15 +50,15 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			bgName = "star_level_bg_106",
+			bgm = "doa_story1",
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "期間限定明石甜點攤絕讚開張中~有各種口味的可麗餅哦~走過路過不要錯過~",
-			bgm = "doa_story1",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "做可麗餅的主意能派上用場，真是太好了呢，明石~",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "歡迎光臨！咦？姐姐和指揮官在一起？",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,8 +194,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "只、只是碰巧而已！",
 			effects = {
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "沒錯，今天和凪咲一起來到了明石和海咲的露天小攤，至於箇中原由——",
 			effects = {
 				{
@@ -236,14 +236,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900304,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900304,
+			nameColor = "#a9f548",
 			say = "笨狗，要不要吃可麗​​餅？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……？",
 			typewriter = {
@@ -306,10 +306,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 900304,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 900304,
+			nameColor = "#a9f548",
 			say = "咳…就是突然想吃她們的可麗餅了！一句話，你去還是不去啦！",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "原來如此，果然是關心妹妹的姐姐呢。",
 			typewriter = {
@@ -345,13 +345,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "如此這般，最後和凪咲來到了這裡。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -401,8 +401,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "每個口味都很好吃哦~不過，我的個人推薦還是香草芒果味呢~",
 			typewriter = {
@@ -415,9 +415,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "那個確實是很好吃…",
 			typewriter = {
 				speed = 0.05,
@@ -432,8 +432,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "既、既然海咲都這麼強力推薦了……",
 			typewriter = {
@@ -446,9 +446,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "看來只能選這個了呢——",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "嘿嘿~感謝支持~嗯~？姐姐？我臉上有什麼東西嗎？",
 			typewriter = {
@@ -518,8 +518,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "都說了只是碰巧啦！打工要加油哦！走了啦，笨狗！",
 			typewriter = {
@@ -532,8 +532,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -558,9 +558,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "告別了海咲她們，與凪咲又稍微同行了一段路——",
 			typewriter = {
 				speed = 0.05,
@@ -575,8 +575,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "雖說沒遇上什麼太險峻的情況，不過突然來到陌生的地方，本來還有點擔心…",
 			typewriter = {
@@ -608,8 +608,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900304,
 			dir = 1,
+			actor = 900304,
 			nameColor = "#a9f548",
 			say = "幹嘛又露出那副噁心的笑容看著我啦！笨狗！",
 			typewriter = {

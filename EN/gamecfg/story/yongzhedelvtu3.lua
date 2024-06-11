@@ -4,18 +4,18 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "story-richang-2",
+			side = 2,
 			say = "Frontier City - Blacksmith",
+			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "System",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "You will face more dangerous enemies henceforth. You should upgrade your GEAR!",
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "System",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "You paid 100G. You have 100G remaining. You received WARRIOR'S AXE+1!",
 			typewriter = {
@@ -83,17 +83,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "System",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "You paid 100G. You have 0G remaining. You lost WARRIOR'S AXE+1!",
 			typewriter = {
@@ -160,17 +160,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -214,8 +214,8 @@ return {
 			expression = 7,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "Did... Did I just LOSE my axe?!",
 			painting = {
 				alpha = 0.3,
@@ -230,8 +230,8 @@ return {
 			expression = 6,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "That took all our money, too!",
 			painting = {
 				alpha = 0.3,
@@ -246,8 +246,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "Ahah... Ahahaha...",
 			painting = {
 				alpha = 0.3,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "*sigh*... We have to start from scratch and earn our gold back...",
 			painting = {
 				alpha = 0.3,

@@ -2,16 +2,16 @@ return {
 	uiEffect = "",
 	name = "小竹丸3",
 	cd = 0,
-	painting = 1,
-	id = 40290,
 	picture = "0",
 	aniEffect = "",
 	desc = "30秒巡洋buff",
+	painting = 1,
+	id = 40290,
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipType"

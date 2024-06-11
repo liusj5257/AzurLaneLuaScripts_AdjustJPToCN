@@ -169,14 +169,14 @@ return {
 			}
 		}
 	},
-	time = 12,
 	name = "希佩尔1",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 12760,
+	time = 12,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12760,
+	color = "red",
 	icon = 12760,
 	last_effect = "",
 	blink = {

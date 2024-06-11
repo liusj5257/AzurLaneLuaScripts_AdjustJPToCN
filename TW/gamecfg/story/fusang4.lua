@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"在櫻花紛飛的那天之後\n\n<size=45>四  約定</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 305010,
-			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "「現在正帶著殿下去空地」……殿下，這樣發就好了嗎？",
 			bgm = "story-1",
+			actor = 305010,
+			nameColor = "#a9f548",
+			say = "「現在正帶著殿下去空地」……殿下，這樣發就好了嗎？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "在去空地的路上教了她如何發電子郵件。現在的扶桑似乎已經能寫出一封正常的郵件了。",
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "扶桑突然停住腳步，抬頭望向了遠方。",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "順著扶桑的視線看去——映入眼簾的是神社後山盛放的櫻花。",
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "邊走邊聊，不知不覺抵達了目的地。閒置的空地就在神社入口處鳥居的旁邊。",
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "怎麼樣？建補給倉庫的話，這麼一大片的土地應該沒問題吧？",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "突如其來的約會邀請令人有些措手不及……一邊感受著心臟的狂跳，一邊緩緩點了點頭。",
@@ -300,8 +300,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "——是指揮官嗎？扶桑也在啊。",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "沒錯！倒是你們在這片荒涼的空地上做什麼……？",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "——嗶嗶嗶♪",
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "呀！",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -393,8 +393,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "大概是被突然響起的提示音嚇了一跳，扶桑突然緊緊的抱了過來……！",
@@ -443,8 +443,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "扶、扶桑……差不多該放開指揮官了……",
 			typewriter = {
@@ -473,8 +473,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "扶桑迅速挪開了緊貼著的身體。不知道是不是錯覺，她的耳朵似乎有些紅。",
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "說完，扶桑便和龍鳳一起穿過鳥居離開了。",
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,

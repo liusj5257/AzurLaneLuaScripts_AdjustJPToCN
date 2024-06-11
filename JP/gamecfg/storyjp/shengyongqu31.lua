@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU31",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level-french1",
+			say = "聖堂の島・外周海域",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
-			say = "聖堂の島・外周海域",
+			bgm = "level-french1",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -34,8 +34,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "アルジェリーさん！待ってー！",
 			typewriter = {
@@ -51,8 +51,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ff5c5c",
 			say = "よぉし、やっぱりアイリスに戻るかー！…ってしちゃダメだよね？",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ff5c5c",
 			say = "ガスコーニュがせっかく頑張ってくれてるし。ないかな？…そこのアイリスの騎士様もしつこいわね！",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "…「マホウ使い」ですが…",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ff5c5c",
 			say = "んーこのままでは追いつかれちゃうなー",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "そろそろあの場所ね…みんな、速度を落とさないで",
 			typewriter = {
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/hit",
+			say = "――――！",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
-			say = "――――！",
+			soundeffect = "event:/battle/hit",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "い、今の雷跡！？フォーチュンちゃん危ない！",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,8 +242,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "どうしてここに重桜の潜水艦が…！みんな気をつけて！",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801030,
 			dir = 1,
+			actor = 801030,
 			nameColor = "#a9f548",
 			say = "わわ！この魚雷速すぎて避けられない…！",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -302,8 +302,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "ルーちゃん、落ち着いて…！曲がったりしませんから敵の射線から下がって！",
 			typewriter = {
@@ -319,8 +319,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ff5c5c",
 			say = "助かった～！アルジェリー、この子たちがあのメモに書いてあった増援なの？",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -346,8 +346,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "さあ、ここに来たら大丈夫としか書いてなかったわ",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "（やり方から見てもあのビスマルクらしくないし、一体誰が……）",
 			typewriter = {
@@ -396,8 +396,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "敵の魚雷がとても速くて、航跡もほとんど見えません、このままではアルジェリーさんたちを追えません…！",
 			typewriter = {
@@ -429,8 +429,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "結局アズールレーンもレッドアクシズも変わらないわ。はぁ……",
 			typewriter = {
@@ -446,9 +446,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
 			blackBg = true,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "リシュリュー様のこと、頼んだわよ……",
 			typewriter = {

@@ -1,7 +1,7 @@
 return {
-	init_effect = "Darkness",
-	name = "测试-随机技能-缩小射线-缩小",
 	time = 7,
+	name = "测试-随机技能-缩小射线-缩小",
+	init_effect = "Darkness",
 	picture = "",
 	desc = "缩小射线",
 	stack = 1,
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				group = 60041,
-				mul = -6000,
-				add = 0
+				add = 0,
+				mul = -6000
 			}
 		}
 	}

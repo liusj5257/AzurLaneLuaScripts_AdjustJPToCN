@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 6623,
 	picture = "",
 	desc = "水上暴露效果",
 	stack = 1,
-	id = 6623,
+	color = "red",
 	icon = 6620,
 	last_effect = "Darkness",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				group = 6600,
-				attr = "attackRating",
-				number = -300
+				number = -300,
+				attr = "attackRating"
 			}
 		}
 	}

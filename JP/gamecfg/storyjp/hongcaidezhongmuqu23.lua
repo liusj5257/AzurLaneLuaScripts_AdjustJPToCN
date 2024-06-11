@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGCAIDEZHONGMUQU23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGCAIDEZHONGMUQU23",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "スカパ・フロー周辺海域",
 			side = 2,
 			bgName = "bg_endingsong_4",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-highseasfleet",
+			say = "スカパ・フロー周辺海域",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官、鉄血艦隊の残存艦隊、そしてフリードリヒの場所が分かった。",
 			typewriter = {
 				speed = 0.05,
@@ -52,10 +52,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "重桜艦隊とスカパ・フローの湾内から出て、指揮官の旗艦に向けて前進しているようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "重桜艦隊……つまりダカールにいた赤城たちか。彼女たちがなぜここに？",
 			typewriter = {
 				speed = 0.05,
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "鉄血に加勢しこちらと最後の決戦を挑むため――いや違う。それなら「再現」にはならないはずだ。",
 			typewriter = {
 				speed = 0.05,
@@ -98,10 +98,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 705050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "同志指揮官、こちら………到着し…………",
 			typewriter = {
 				speed = 0.05,
@@ -113,9 +113,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "北方連合から通信が届いているが、ノイズがあってよく聞こえない。",
 			typewriter = {
 				speed = 0.05,
@@ -127,9 +127,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "今更鉄血がジャミングを仕掛けてくるとは考えにくい。",
 			typewriter = {
 				speed = 0.05,
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 101260,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101260,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官の旗艦…通信機…問題ない…正常……",
 			typewriter = {
 				speed = 0.05,
@@ -158,9 +158,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "となると、ここで一番可能性が高いのは――",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -201,9 +201,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "NA海域のセイレーン、大人しくなったと思ってはいたが、こんな時に……！",
 			typewriter = {
 				speed = 0.05,
@@ -218,10 +218,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "こいつら、どこからやってきたの…！指揮官、まずいわ！",
 			typewriter = {
 				speed = 0.05,
@@ -255,10 +255,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "今北方連合が巻き込まれた！ほかの艦隊にも大至急確認をして――",
 			typewriter = {
 				speed = 0.05,
@@ -346,9 +346,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "全員が一箇所にまとまるとかえって一網打尽にされる恐れがある。ここは――",
 			typewriter = {
 				speed = 0.05,
@@ -363,10 +363,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105130,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "まずは目となる空母艦隊を守ることに集中するだと！？…了解だ！進路を調整する！",
 			typewriter = {
 				speed = 0.05,
@@ -381,10 +381,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "こっちも向かっている…ちっ！指揮官すまない！人型のセイレーンの大群を発見した！ここで少し足止めする！",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "突然現れたセイレーンにより、スカパ・フローに向かっている各艦隊の足並みが乱れた。",
 			typewriter = {
 				speed = 0.05,
@@ -410,9 +410,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "近い友軍と合流し、セイレーンの奇襲に備えつつ海霧の解除方法を探す――不安定な通信の中でも仲間たちに指示を与えた。",
 			typewriter = {
 				speed = 0.05,
@@ -427,10 +427,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哨戒艦隊と艦載機がいるというのに、セイレーンの活動がないこの海域で、いきなりこんな数の鏡面海域を展開するなんて信じられない…！",
 			typewriter = {
 				speed = 0.05,
@@ -476,9 +476,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "鉄血と重桜も同じ海域にいるから、鏡面海域に巻き込まれた可能性は高い。ここはまずロイヤルに連絡しよう。",
 			typewriter = {
 				speed = 0.05,
@@ -490,9 +490,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "あのスカパ・フローのことだから、普段から巡回している艦隊が配置されているはずだ。",
 			typewriter = {
 				speed = 0.05,
@@ -523,9 +523,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "そして、旗艦艦隊と距離が一番近いジョージアは――",
 			typewriter = {
 				speed = 0.05,
@@ -540,10 +540,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 199020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "大丈夫だ指揮官、通信はまだ生きているぞ",
 			typewriter = {
 				speed = 0.05,
@@ -593,9 +593,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "海霧の中では艦載機の活動範囲は圧倒的に狭くなる。できれば数を増やして大規模な偵察を行えればいいのだが…。",
 			typewriter = {
 				speed = 0.05,
@@ -607,9 +607,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "エンタープライズとサラトガたち空母機動艦隊との通信は……",
 			typewriter = {
 				speed = 0.05,
@@ -621,12 +621,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "通信",
+			hidePaintObj = true,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -638,9 +638,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "反応がない。海霧で通信の電波が遮断されているようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -655,10 +655,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "空母ばかりに気を取られて、この最大最強のブラックドラゴン・ニュージャージーのことを忘れてはダメよ♪",
 			typewriter = {
 				speed = 0.05,
@@ -689,9 +689,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "ブリーフィングルーム中に元気な声が響いた。",
 			typewriter = {
 				speed = 0.05,
@@ -706,10 +706,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "鏡面海域に半分ぐらい巻き込まれたけど、まだ半分の戦力はあるわ！",
 			typewriter = {
 				speed = 0.05,
@@ -724,10 +724,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107090,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "コンパイラーの探索は任せてください！エセックス、全力をかけて艦隊の皆を助けてみせます！",
 			typewriter = {
 				speed = 0.05,
@@ -739,9 +739,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "鏡面海域の規模と数がわからない以上、まずは海霧を解決しなければ。",
 			typewriter = {
 				speed = 0.05,
@@ -775,10 +775,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "セイレーンは私たちだけを攻撃して、鉄血艦隊には攻撃していなかったわ",
 			typewriter = {
 				speed = 0.05,
@@ -841,10 +841,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107110,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官！コンパイラーと思わしき人型個体を発見した！",
 			typewriter = {
 				speed = 0.05,
@@ -897,10 +897,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官のところには行かせないんだから！！",
 			typewriter = {
 				speed = 0.05,
@@ -912,9 +912,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -926,9 +926,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "今までの「再現」でもセイレーンが現れたケースは何度もあった。しかしどうしても深読みしてしまう。",
 			typewriter = {
 				speed = 0.05,
@@ -940,9 +940,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "いくらフリードリヒでも、セイレーンの介入を作戦に組み込むとは思えない。",
 			typewriter = {
 				speed = 0.05,

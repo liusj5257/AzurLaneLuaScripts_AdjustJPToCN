@@ -1,15 +1,15 @@
 return {
-	id = "FUYINGYINGHUA21",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA21",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-2",
 			say = "天岩島本島·子時",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,8 +155,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "正在歡笑著吃著烤串的{namecode:79}突然反應過來，貓尾受到驚嚇般立了起來",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.25,
 					x = 20,
@@ -235,9 +235,9 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			dir = 1,
 			actor = 301100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "是、是！{namecode:91}大人",
 			typewriter = {
 				speed = 0.05,
@@ -249,16 +249,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 2,
 					dur = 0.5,
 					x = 2250
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "說完…{namecode:12}便快速向內殿跑去",
 			typewriter = {
 				speed = 0.05,
@@ -462,8 +462,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301100,
 			dir = 1,
+			actor = 301100,
 			say = "諸位大人~我已經將護國寶器【海若】護送就位了！還有勞大家起身前往儀式廳進行祈願儀式~",
 			typewriter = {
 				speed = 0.05,
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "說完，眾人從坐席上站了起來，只剩歐根親王一人在酒桌旁睡了過去，臉上還帶著幸福的紅暈",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "說完，眾人便進入了儀式廳，留下躺在Z2膝枕上呼呼大睡的歐根親王",
 			typewriter = {
 				speed = 0.05,
@@ -583,8 +583,8 @@ return {
 			say = "呼…呼…哈（歐根的臉上露出幸福的笑容",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 20,

@@ -2,13 +2,13 @@ pg = pg or {}
 ys = ys or {}
 cs = cs or {}
 
-function slot0(slot0)
+slot0 = function(slot0)
 	return string.gsub(slot0 or "", "<%[(.-)%]>", function (slot0)
 		return pg.equip_data_code[slot0] and slot1.text
 	end)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	return function (slot0, slot1)
 		slot2 = slot0.__name
 

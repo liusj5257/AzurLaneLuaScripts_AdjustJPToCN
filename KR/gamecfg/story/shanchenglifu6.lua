@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENGLIFU6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANCHENGLIFU6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"모항의 특별 연회\n\n<size=45>6. 울려라! 아마존 오케스트라!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 연회장",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 연회장",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 201011,
+			say = "수고랄 것도 없어… 폐하의 그런 주동적으로 나서는 건 정말 드문 일이니 말이야. 게다가 나도 최고의 연회를 모두가 다 함께 즐겨주었으면 했는걸.",
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "수고랄 것도 없어… 폐하의 그런 주동적으로 나서는 건 정말 드문 일이니 말이야. 게다가 나도 최고의 연회를 모두가 다 함께 즐겨주었으면 했는걸.",
+			actor = 201011,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "근데 아마존, 왠지 그다지 안 기쁜 것 같네?",
 			typewriter = {
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "이따가 우리가 연습한 오케스트라 차례는 언제야?",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "내가 어떻게 알아……",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "하아……",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "가장 중요한 그 녀석이 아직 안 와서 말이야. 곡 연주도 그 녀석이 와야 할 텐데…",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "정말이지, 이 연회의 50%는 그 바보 녀석을 위해 준비한 셈인데 말야, 아직 코빼기도 안 보이니……",
 			typewriter = {
@@ -241,8 +241,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "그래……뭐 일부러 안 오는 건 아니겠지만.",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "……평소에 그 바보한테  기대는 건 별로 없지만, 여태까지 함대를 운영하는 것도 말야, 다들 말은 안해도 실은 전부 알고있다고.",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "매일 얼마나 노력을 하는지, 얼마나 공무에 시간을 쏟는지도, 그리고 바쁜 와중에도 짬을 내서 우리랑 함께 어울리려 노력한다는 것도 말야.",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "혹시 그 바보가 없었다면, 분명 오늘처럼 축제를 할 순 없었을 거야……",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "……흥, 그런 거 없어. 그냥 말이 나온 김에 해본 소리야.",
 			typewriter = {
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "그러니까 모두를 모아서, 이날을 위해 오케스트라를 연습한 거야?",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "그래, 축제라고 하면, 역시 이런 게 있어야겠지.",
 			typewriter = {
@@ -441,11 +441,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "그러니까 적어도 오늘 밤은, 지휘관을 기쁘게 해주고 싶다는 거지?",
 			typewriter = {
@@ -477,8 +477,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "오늘 밤만은 꼭 오겠다고 해서 서프라이즈까지 준비했는데……",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "아직도 안 온다면, 차라리 지금이라도 부르러 가는 게……",
 			typewriter = {
@@ -526,8 +526,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
 					x = 0,
@@ -539,8 +539,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "우왓! 뭐야 후부키, 깜짝 놀랐잖아!",
 			typewriter = {
@@ -553,8 +553,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.1,
 					x = 0,
@@ -563,11 +563,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "지휘관이 보였어! 다이호랑 야마시로랑 같이……",
 			typewriter = {
@@ -601,8 +601,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 201011,
 			dir = -1,
+			actor = 201011,
 			nameColor = "#92fc63",
 			say = "뭐? 아무튼 지금 여기로 오고 있단 거지?",
 			typewriter = {
@@ -615,11 +615,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "맞아!",
 			typewriter = {
@@ -632,8 +632,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -658,11 +658,11 @@ return {
 			}
 		},
 		{
-			actor = 301013,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_107",
 			side = 1,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 301013,
 			actorName = "{namecode:2}",
 			say = "맡겨둬!",
 			typewriter = {
@@ -691,12 +691,12 @@ return {
 			}
 		},
 		{
-			actor = 201011,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
+			actor = 201011,
+			nameColor = "#92fc63",
 			say = "그럼, 각자 위치로…뮤직, 스타트!",
 			typewriter = {
 				speed = 0.05,

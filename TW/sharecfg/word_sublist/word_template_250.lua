@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_250 = {}
 slot1 = slot0.word_template_250
 
-function temp()
+temp = function()
 	uv0["廢"] = {
 		["墟"] = {
 			["守"] = {
@@ -22,7 +22,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["費"] = {
 		["鴻"] = {
 			["泰"] = {
@@ -39,7 +39,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["分"] = {
 		["隊"] = {
 			["長"] = {
@@ -75,7 +75,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["糞"] = {
 		["便"] = {
 			this = true

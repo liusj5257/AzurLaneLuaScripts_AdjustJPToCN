@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHUIXINGJINIAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHUIXINGJINIAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Work Hard, Play Harder!\n\n<size=45>7 A Fulfilling Date</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
+			bgm = "story-2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Later, at the amusement park...",
-			bgm = "story-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,11 +48,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			bgName = "star_level_bg_108",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whoooa! They've got brand new attractions! I wanna go on that one, Commander!",
 			flashout = {
 				dur = 1,
@@ -88,10 +88,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That looks sooo yummy! Come on, buy me some of that♪",
 			painting = {
 				alpha = 0.3,
@@ -106,10 +106,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ooh! They've got new games for sale! I've gotta buy some! Wait right here, Commander~",
 			painting = {
 				alpha = 0.3,
@@ -124,10 +124,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hey, that arcade game looks fun! I'm gonna try it out!",
 			painting = {
 				alpha = 0.3,
@@ -139,9 +139,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_108",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "For someone with a bad back, it's astonishing just how much energy she has. She just keeps going and going.",
 			flashout = {
@@ -171,8 +171,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "She was unbeatable in the arcade area, too. It seemed I'd way underestimated her skill as a gamer.",
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "If she was this good all along... does that mean she threw the game back when I visited her room?",
@@ -196,10 +196,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Look what I won, Commander! You can have it!",
 			painting = {
 				alpha = 0.3,
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "She set a new record playing the park's strength games, so they gave her a prize.",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "She tightly clutched her prize in her bosom before presenting it to me.",
@@ -236,10 +236,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well? Pretty nice, isn't it?",
 			painting = {
 				alpha = 0.3,
@@ -251,8 +251,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "In her hands is a small snowglobe.",
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "Inside, a lone cabin sits within a vast snowscape. Pushing the button on the globe whips up a gentle snowfall.",
@@ -273,8 +273,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "There's nothing elaborate about it, but it had clearly been made with attentiveness and care. And it is more than enough to convey Pamiat's hard work.",
@@ -287,10 +287,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "They gave me this for breaking a record! Am I the best or what~?",
 			painting = {
 				alpha = 0.3,
@@ -305,10 +305,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_108",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heheh! Tell me more about how great I am! Bow down for bonus points if you want!",
 			painting = {
 				alpha = 0.3,
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			say = "And so, our fun times at the amusement park continue...",
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "Before long, the sun had begun to set, painting the world in a golden light.",
@@ -341,17 +341,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -359,8 +359,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "Pamiat' skips along excitedly as we head back to the dorms.",
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "There is a certain rhythm to the sound of her boots cheerily tapping the ground.",
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "I trail behind her, carrying bags stuffed with about half of the things she bought and won at the amusement park.",
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "Speaking of the amusement park, Akashi shot me an interesting look as we left. I'm sure this visit was great business for her.",
@@ -406,10 +406,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_main_twilight",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hmm-hm-hmm-hmm♪",
 			painting = {
 				alpha = 0.3,
@@ -421,8 +421,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "It might've been my imagination, but I think Pamiat' just stole a glance at me...",
@@ -435,10 +435,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_main_twilight",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander, I'm tireeed! Can we stop and take a break?",
 			painting = {
 				alpha = 0.3,
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "Hand on her back and forcing a weary expression, she points to a nearby bench.",
@@ -461,8 +461,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			say = "Is this her way of being considerate? I suppose that's fine...",
@@ -482,8 +482,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -627,8 +627,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -639,8 +639,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -746,8 +746,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -796,8 +796,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_main_twilight",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -830,10 +830,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_twilight",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's that, now let's move on!",
 			painting = {
 				alpha = 0.3,
@@ -848,10 +848,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_main_twilight",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, one more thing – next time you visit me, gimme a call before you come in, 'kay~?",
 			painting = {
 				alpha = 0.3,

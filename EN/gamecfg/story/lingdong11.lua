@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG11",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG11",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "Special Task Force One has arrived at the objective. Rendezvous complete.",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,15 +72,15 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			nameColor = "#a9f548",
 			side = 0,
 			dir = 1,
+			actor = 207040,
 			say = "Oh, right, I've brought some fighter planes with me from the Eagle Union!",
 			shake = {
 				speed = 5,
-				number = 3,
-				y = 20
+				y = 20,
+				number = 3
 			},
 			typewriter = {
 				speed = 0.05,
@@ -257,16 +257,16 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "……————",
 			stopbgm = true,
-			soundeffect = "event:/battle/boom1",
-			dir = 1,
+			side = 2,
 			blackBg = true,
-			say = "……————",
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -280,15 +280,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "……————",
+			side = 2,
+			blackBg = true,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -302,12 +302,12 @@ return {
 			}
 		},
 		{
-			actor = 205070,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "What?! An attack from a new enemy? Report the damages, hurry!",
 			dir = 1,
 			bgm = "story-6",
+			actor = 205070,
+			nameColor = "#a9f548",
+			say = "What?! An attack from a new enemy? Report the damages, hurry!",
 			dialogShake = {
 				speed = 0.09,
 				x = 15,
@@ -375,8 +375,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Purifier",
 			dir = 1,
+			actorName = "Purifier",
 			say = "Ahahaha~! What an interesting choice to create a singularity here!",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Purifier",
 			dir = 1,
+			actorName = "Purifier",
 			say = "Huh? How exactly am I supposed to create a singularity of this size?",
 			typewriter = {
 				speed = 0.05,
@@ -452,8 +452,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Purifier",
 			dir = 1,
+			actorName = "Purifier",
 			say = "Hey! Didn't your momma teach you about listening to what people have to say? ...Fine, have it your way. Let's have some fun!",
 			typewriter = {
 				speed = 0.05,

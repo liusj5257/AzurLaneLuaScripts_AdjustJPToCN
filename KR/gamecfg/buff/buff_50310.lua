@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "敌方指挥舰指挥技能——防御提升",
 	time = 0,
-	color = "yellow",
+	name = "敌方指挥舰指挥技能——防御提升",
+	init_effect = "",
+	id = 50310,
 	picture = "",
 	desc = "指挥技能——伤害上升",
 	stack = 1,
-	id = 50310,
+	color = "yellow",
 	icon = 50310,
 	last_effect = "",
 	effect_list = {

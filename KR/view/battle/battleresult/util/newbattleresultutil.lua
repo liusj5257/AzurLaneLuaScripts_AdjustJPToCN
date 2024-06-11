@@ -1,6 +1,6 @@
 slot0 = class("NewBattleResultUtil")
 
-function slot0.Score2Grade(slot0, slot1)
+slot0.Score2Grade = function(slot0, slot1)
 	slot2 = {
 		"d",
 		"c",
@@ -31,15 +31,15 @@ function slot0.Score2Grade(slot0, slot1)
 	return slot3, slot4
 end
 
-function slot0.Score2Bg(slot0)
+slot0.Score2Bg = function(slot0)
 	return slot0 > 1 and "Victory" or "Failed"
 end
 
-function slot0.GetChapterName(slot0)
+slot0.GetChapterName = function(slot0)
 	return pg.expedition_data_template[slot0.stageId] and slot1.name or ""
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	if slot0 == 1 or slot0 == 4 or slot0 == 8 then
 		return slot1.score > 1
 	elseif slot0 == 2 or slot0 == 3 then
@@ -55,7 +55,7 @@ function slot1(slot0, slot1)
 	return nil
 end
 
-function slot2(slot0)
+slot2 = function(slot0)
 	return ({
 		"battle_result_victory",
 		"battle_result_undefeated",
@@ -68,7 +68,7 @@ function slot2(slot0)
 	})[slot0]
 end
 
-function slot0.ColorObjective(slot0)
+slot0.ColorObjective = function(slot0)
 	slot1, slot2 = nil
 
 	if slot0 == nil then
@@ -85,11 +85,11 @@ function slot0.ColorObjective(slot0)
 	return slot1, slot2
 end
 
-function slot0.GetObjectives(slot0)
+slot0.GetObjectives = function(slot0)
 	slot1 = {}
 	slot2 = pg.expedition_data_template[slot0.stageId]
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		if not slot0 or type(slot0) ~= "table" then
 			return
 		end
@@ -109,7 +109,7 @@ function slot0.GetObjectives(slot0)
 	return slot1
 end
 
-function slot0.IsOpBonus(slot0)
+slot0.IsOpBonus = function(slot0)
 	for slot4, slot5 in ipairs(slot0) do
 		if pg.benefit_buff_template[slot5].benefit_type == Chapter.OPERATION_BUFF_TYPE_EXP then
 			return true
@@ -119,7 +119,7 @@ function slot0.IsOpBonus(slot0)
 	return false
 end
 
-function slot0.GetPlayerExpOffset(slot0, slot1)
+slot0.GetPlayerExpOffset = function(slot0, slot1)
 	slot2 = slot0
 	slot3 = slot2.level
 	slot4 = slot1.level
@@ -137,7 +137,7 @@ function slot0.GetPlayerExpOffset(slot0, slot1)
 	return slot5
 end
 
-function slot0.HasSubShip(slot0)
+slot0.HasSubShip = function(slot0)
 	for slot4, slot5 in ipairs(slot0) do
 		if table.contains(TeamType.SubShipType, ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot5.configId).type) then
 			return true
@@ -147,7 +147,7 @@ function slot0.HasSubShip(slot0)
 	return false
 end
 
-function slot0.HasSurfaceShip(slot0)
+slot0.HasSurfaceShip = function(slot0)
 	for slot4, slot5 in ipairs(slot0) do
 		if not table.contains(TeamType.SubShipType, ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(slot5.configId).type) then
 			return true
@@ -157,7 +157,7 @@ function slot0.HasSurfaceShip(slot0)
 	return false
 end
 
-function slot0.SeparateSurfaceAndSubShips(slot0)
+slot0.SeparateSurfaceAndSubShips = function(slot0)
 	slot1 = {}
 	slot2 = {}
 
@@ -172,7 +172,7 @@ function slot0.SeparateSurfaceAndSubShips(slot0)
 	return slot1, slot2
 end
 
-function slot0.SeparateMvpShip(slot0, slot1, slot2)
+slot0.SeparateMvpShip = function(slot0, slot1, slot2)
 	if not slot1 or slot1 == 0 then
 		slot1 = slot2
 	end
@@ -199,7 +199,7 @@ function slot0.SeparateMvpShip(slot0, slot1, slot2)
 	return slot4, slot5, slot6, slot3
 end
 
-function slot0.SpecialInsertItem(slot0, slot1, slot2, slot3, slot4)
+slot0.SpecialInsertItem = function(slot0, slot1, slot2, slot3, slot4)
 	for slot8, slot9 in ipairs(slot1) do
 		table.insert(slot0, slot9)
 	end
@@ -215,7 +215,7 @@ function slot0.SpecialInsertItem(slot0, slot1, slot2, slot3, slot4)
 	table.insert(slot0, #slot0, slot4)
 end
 
-function slot0.GetShipExpOffset(slot0, slot1)
+slot0.GetShipExpOffset = function(slot0, slot1)
 	assert(slot1, slot0:getConfig("name"))
 
 	if slot0.level < slot1.level then
@@ -232,11 +232,11 @@ function slot0.GetShipExpOffset(slot0, slot1)
 	end
 end
 
-function slot0.GetSeasonScoreOffset(slot0, slot1)
+slot0.GetSeasonScoreOffset = function(slot0, slot1)
 	return slot1.score - slot0.score
 end
 
-function slot0.GetMaxOutput(slot0, slot1)
+slot0.GetMaxOutput = function(slot0, slot1)
 	slot2 = 0
 
 	if slot1.mvpShipID == -1 then
@@ -250,7 +250,7 @@ function slot0.GetMaxOutput(slot0, slot1)
 	return slot2
 end
 
-function slot0.RemoveNonStatisticShips(slot0, slot1)
+slot0.RemoveNonStatisticShips = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0) do

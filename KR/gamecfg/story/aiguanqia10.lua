@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA10",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA10",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10400020,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "키즈나 아이",
 			dir = 1,
+			actorName = "키즈나 아이",
 			say = "후우, 어떻게든 무사히 끝났네요!",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#92fc63",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "키즈나 아이",
 			say = "물론이죠! 열심히 노래할게요~♪",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,8 +186,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "키즈나 아이",
 			say = "오오, 이것이 청춘이란 느낌… 좋네요……!",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모두",
+			side = 2,
 			nameColor = "#92fc63",
 			dir = 1,
 			say = "네~에!",

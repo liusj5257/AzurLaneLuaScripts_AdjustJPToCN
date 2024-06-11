@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LAISHAGUANQIA11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LAISHAGUANQIA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_ryza_2",
+			bgm = "ryza-az-theme",
 			stopbgm = true,
 			say = "遺跡の鏡面海域・「紛争の城」",
-			bgm = "ryza-az-theme",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,10 +39,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ねえ、みんな。なんだか空の色が変わってる気がしない…？",
 			painting = {
 				alpha = 0.3,
@@ -57,10 +57,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さっきまで真っ青だったのに、今は灰色っぽくなってて…",
 			painting = {
 				alpha = 0.3,
@@ -75,10 +75,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101490,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "わわ、ほんとだ…って、海まで灰色になってる！",
 			painting = {
 				alpha = 0.3,
@@ -93,10 +93,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これは…写真にフィルターがかかってる時みたいだね…ちょっと後ろに下がって見てみようっと",
 			painting = {
 				alpha = 0.3,
@@ -111,10 +111,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はわわっ！？色が元に戻った！",
 			painting = {
 				alpha = 0.3,
@@ -126,8 +126,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,11 +139,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900020,
 			nameColor = "#A9F548FF",
 			say = "本当？私もやってみるね",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,11 +157,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900030,
 			nameColor = "#A9F548FF",
 			say = "私も…（後ろにちょっと下がって…）",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,11 +175,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_1",
-			actor = 10900020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900020,
 			nameColor = "#A9F548FF",
 			say = "本当だ…この橋を境に空と海の色が変わってるみたいだね",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,11 +193,11 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_ryza_1",
-			actor = 10900020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10900020,
 			nameColor = "#A9F548FF",
 			say = "どういう仕組みなんだろう？結界みたいな感じかな？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,12 +208,12 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…あるいは、セイレーンが置いた何かしらの装置が空気の成分を変えているのかもしれませんね",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どういう目的かはわかりませんが、セイレーンの遺跡が危険ということには変わりませんよ。ここは…",
 			painting = {
 				alpha = 0.3,
@@ -246,10 +246,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さすがは駿河殿！危険だからこそ、急いで行動し、一刻も早く探索を終わらせるべき、ですよね？",
 			painting = {
 				alpha = 0.3,
@@ -261,8 +261,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -274,10 +274,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（いやもっと慎重に進んでって言うつもりだったんですけど！）え、ええ、まあ……",
 			painting = {
 				alpha = 0.3,
@@ -292,10 +292,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ほら、競争するつもりなんでしょ？早く目当てのものを見つけてここを離れるわよ",
 			painting = {
 				alpha = 0.3,
@@ -309,11 +309,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_ryza_2",
 			actor = 10900050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ここは、これまでの森とは違う…",
 			painting = {
 				alpha = 0.3,
@@ -324,17 +324,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 0.5,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -345,10 +345,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "落ちている残骸もかなり昔のものだわ。もしかすると、海域そのものと同じぐらい古いものなのかもしれない",
 			painting = {
 				alpha = 0.3,
@@ -360,12 +360,12 @@ return {
 			}
 		},
 		{
-			actor = 10900040,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 10900040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ああ…見知らぬ建物に見知らぬ軍艦…確かに今まで出くわしてきた敵のものとは違うようだ",
 			painting = {
 				alpha = 0.3,
@@ -377,12 +377,12 @@ return {
 			}
 		},
 		{
-			actor = 601080,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "これらも一応セイレーンの残骸だよ。軍艦はこの前のフィルフサ風セイレーンと違って、普通の量産艦だけどね。建物だって、セイレーンの要塞施設だし",
 			painting = {
 				alpha = 0.3,
@@ -397,10 +397,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でもこの建物の壊れよう…誰かに徹底的に破壊されたって感じがするね",
 			painting = {
 				alpha = 0.3,
@@ -415,10 +415,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ひどい有様だ。これがこの世界での戦いということか",
 			painting = {
 				alpha = 0.3,
@@ -433,10 +433,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうですわね。セイレーンとの戦いがあった場所はこうなりますわ",
 			painting = {
 				alpha = 0.3,
@@ -451,10 +451,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "とはいえこんな風になるのは、私たちではなく毎回セイレーンの側ですけれど",
 			painting = {
 				alpha = 0.3,
@@ -469,10 +469,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "にしても妙な話ですわね。私たちがここに来るのは初めてですし、一体誰がここのセイレーンを…？",
 			painting = {
 				alpha = 0.3,
@@ -487,10 +487,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101490,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……はっ！もしかしてそれが例の「葬られた残酷なる真実」への手がかり！？",
 			painting = {
 				alpha = 0.3,
@@ -502,8 +502,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -515,10 +515,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "手応えはあった…第二ラウンドは手分けして調査だ！誰が一番早く結論を導き出せるか競争だよ！",
 			painting = {
 				alpha = 0.3,
@@ -533,11 +533,11 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_ryza_2",
-			hideOther = true,
-			dir = 1,
-			actorName = "三人",
 			actor = 301290,
+			dir = 1,
 			nameColor = "#A9F548FF",
+			hideOther = true,
+			actorName = "三人",
 			hidePaintObj = true,
 			say = "おおーー！",
 			subActors = {
@@ -575,10 +575,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 207050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もう…みなさん、鍵とレシピのことは忘れないでくださいまし？",
 			painting = {
 				alpha = 0.3,
@@ -599,10 +599,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "わかってるって！それじゃ、よーい…スタート！",
 			painting = {
 				alpha = 0.3,

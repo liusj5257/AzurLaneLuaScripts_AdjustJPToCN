@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENDUHUIYIN33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENDUHUIYIN33",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "白鷹·NY司令部",
 			side = 2,
 			bgName = "bg_guild_blue",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-designfleet",
+			say = "白鷹·NY司令部",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
+			dir = 1,
 			say = "在指揮部的會議結束後，薩拉托加將自己反鎖在了一個空會議室中。",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
+			dir = 1,
 			say = "一個小時……兩個小時…………三個小時過去了，薩拉托加依然在沉思。",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
+			dir = 1,
 			say = "在時間即將來到第四個小時的時候，薩拉托加似乎終於下定了決心。",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "……看來沒有更好的辦法了嗎。",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "除非…………",
 			typewriter = {
@@ -143,8 +143,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "不過……………至少不會讓局面變得更糟糕！",
 			typewriter = {
@@ -157,9 +157,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
+			dir = 1,
 			say = "薩拉托加拿出了一個看起來就是經過層層安全驗證的加密通訊設備。",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "線路確認完畢，周邊環境確認完畢。",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "權限驗證中————————————",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "——CV-3——薩拉托加——權限認證級別——II——",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "權限驗證完畢。",
 			typewriter = {
@@ -242,8 +242,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "很好。立刻幫我接通在「星海」之中和阿拉斯加。",
 			typewriter = {
@@ -259,9 +259,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 107030,
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "——我想，是時候讓指揮官了解一下我們的“彩虹計劃”了。",
 			typewriter = {

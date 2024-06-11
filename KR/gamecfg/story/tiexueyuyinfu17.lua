@@ -1,17 +1,17 @@
 return {
-	id = "TIEXUEYUYINFU17",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "TIEXUEYUYINFU17",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205050,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "bsm-3",
 			dir = -1,
 			say = "드디어 여기까지 따라잡혀줬군, 비스마르크.",
+			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "후드를 상처입혔을 때에는 세이렌의 힘을 이용했다고 들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			actor = 205050,
 			side = 0,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "그것이 지금의 힘과 어떤 관계인지는 모르겠다만…… 어느 쪽이든 상관 없다.",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "로열 네이비의…… 영광……'",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -120,10 +120,10 @@ return {
 			expression = 1,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 205050,
 			dir = -1,
-			say = "전 함선, 화력 전개!",
 			soundeffect = "event:/battle/boom2",
+			actor = 205050,
+			say = "전 함선, 화력 전개!",
 			flashN = {
 				color = {
 					1,
@@ -166,8 +166,8 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			seDelay = 1.3,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,

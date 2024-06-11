@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOYIXI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOYIXI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"맛있는 티라미수\n\n<size=45>6. 벌칙의 시간</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -27,8 +27,8 @@ return {
 			hidePaintObj = true,
 			say = "외교관으로서 보이시가 조약을 이행하는지 감시하러 왔어요.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,12 +53,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "엄격하기는... 알았어. 지휘관이 며칠만 더 지나고 얘기했으면 좋았을텐데...",
 			typewriter = {
 				speed = 0.05,
@@ -70,12 +70,12 @@ return {
 			}
 		},
 		{
-			actor = 102130,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102130,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "사실, 이번 승패는 상관 없어, 난 언젠가 보이시에게 똑같은 일을 하게 했을 거야~",
 			typewriter = {
 				speed = 0.05,
@@ -87,12 +87,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "똑같은 일... 루이스가 말한 선물은 그런 뜻이었구나...",
 			typewriter = {
 				speed = 0.05,
@@ -104,12 +104,12 @@ return {
 			}
 		},
 		{
-			actor = 102040,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102040,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "보이시, 용기를 가져! 새로운 걸 해본다고 생각하라고!",
 			typewriter = {
 				speed = 0.05,
@@ -121,12 +121,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "피닉스... 왜 너까지...",
 			typewriter = {
 				speed = 0.05,
@@ -138,12 +138,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "루이스, 보이시한테는 너무 난이도가 높은 거 아닐까...",
 			typewriter = {
 				speed = 0.05,
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 102130,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102130,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "내기를 해서 졌으면 승복해야지~ 호놀룰루도 해보고 싶어?",
 			typewriter = {
 				speed = 0.05,
@@ -172,12 +172,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102120,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...해보긴 뭘 해봐!? 난 너랑 내기 같은 거 할 생각 없어!",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -202,10 +202,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "루이스, 아직 마스크를 벗을 시간이 아닌데... 우선 쓰고 있어도 될까?",
 			typewriter = {
 				speed = 0.05,
@@ -217,12 +217,12 @@ return {
 			}
 		},
 		{
-			actor = 102030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "조약의 세부 사항에 대해서 사전에 약속된 건 없었어요. 그러니 당사자들끼리 협의를 통해 해결할 수 있는 부분이지요.",
 			typewriter = {
 				speed = 0.05,
@@ -237,10 +237,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "보이시를 너무 난처하게 하지 마...",
 			typewriter = {
 				speed = 0.05,
@@ -252,12 +252,12 @@ return {
 			}
 		},
 		{
-			actor = 102130,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102130,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "음... 자매들 앞에서 잠깐 벗고 있어도 괜찮잖아~?",
 			typewriter = {
 				speed = 0.05,
@@ -272,10 +272,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "다, 다른 사람도 있잖아...",
 			typewriter = {
 				speed = 0.05,
@@ -287,12 +287,12 @@ return {
 			}
 		},
 		{
-			actor = 102130,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102130,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "어차피 벗어야 하는데, 설마 지휘관한테만 보여주고 싶다는 건 아니지~?",
 			typewriter = {
 				speed = 0.05,
@@ -307,10 +307,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "좋, 좋아요...",
 			typewriter = {
 				speed = 0.05,

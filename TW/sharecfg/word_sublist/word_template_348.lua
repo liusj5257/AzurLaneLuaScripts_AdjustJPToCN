@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_348 = {}
 slot1 = slot0.word_template_348
 
-function temp()
+temp = function()
 	uv0.e = {
 		e = {
 			e = {
@@ -63,7 +63,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.o = {
 		o = {
 			o = {
@@ -127,7 +127,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["0"] = {
 		["9"] = {
 			c = {
@@ -219,7 +219,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["澳"] = {
 		["洲"] = {
 			["光"] = {

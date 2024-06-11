@@ -4,12 +4,12 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "？？？",
 			dir = 0,
 			blackBg = true,
+			actor = 900012,
+			actorName = "？？？",
 			say = "Using the \"log\" retained in the DATA to simulate the war... just a simulation after all.",
 			shake = {
 				speed = 1,
@@ -25,12 +25,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "？？？",
 			dir = 0,
 			blackBg = true,
+			actor = 900012,
+			actorName = "？？？",
 			say = "War, conflict, hatred, exactly what is created by such matters?",
 			shake = {
 				speed = 1,
@@ -46,12 +46,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "？？？",
 			dir = 0,
 			blackBg = true,
+			actor = 900012,
+			actorName = "？？？",
 			say = "\"Next time\"... do not let us down...",
 			shake = {
 				speed = 1,

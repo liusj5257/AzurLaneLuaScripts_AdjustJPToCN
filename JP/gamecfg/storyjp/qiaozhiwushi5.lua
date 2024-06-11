@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"もうひとりのカリスマ？\n\n<size=45>五　カリスマ談義</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 204030,
-			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "そうですわよ？ジョージはいつも第一線に立つせいで、陛下の出番を奪ってしまってますわ",
 			bgm = "story-1",
+			actor = 204030,
+			nameColor = "#a9f548",
+			say = "そうですわよ？ジョージはいつも第一線に立つせいで、陛下の出番を奪ってしまってますわ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 205050,
+			say = "我（が）が強いのはいいことだ。うん",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "我（が）が強いのはいいことだ。うん",
+			actor = 205050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "それはつまり…………",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			say = "場の雰囲気がなぜか一瞬で凍りついた（？）。",
@@ -232,9 +232,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "（そ、そんなに深刻な話なのか……）",
 			typewriter = {
 				speed = 0.05,
@@ -246,13 +246,13 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ふふふ、もちろん冗談ですわ。ただ、指揮官様の疑問を解決するには――",
 			bgm = "story-1",
+			actor = 204030,
+			nameColor = "#a9f548",
+			say = "ふふふ、もちろん冗談ですわ。ただ、指揮官様の疑問を解決するには――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,9 +263,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "フッドが立ち上がって席を空け、キングジョージ5世……そしてこちらにも向けてそれぞれ優雅に一礼した。",
 			typewriter = {
 				speed = 0.05,
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "それに、今までとは別のベクトルから、指揮官と秘書艦ではなく、より近い関係で観察していただきますわ",
 			typewriter = {
 				speed = 0.05,
@@ -363,9 +363,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "キングジョージ5世の「弱み」、それは――",
 			typewriter = {
 				speed = 0.05,
@@ -377,12 +377,12 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "指揮官様、ジョージのために料理を少し作っていただけるかしら？",
 			typewriter = {
 				speed = 0.05,

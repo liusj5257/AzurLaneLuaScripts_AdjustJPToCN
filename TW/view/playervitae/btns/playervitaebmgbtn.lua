@@ -1,22 +1,18 @@
 slot0 = class("PlayerVitaeBMGBtn", import(".PlayerVitaeBaseBtn"))
 
-function slot0.GetBgName(slot0)
-	if slot0:IsHrzType() then
-		return "commonUI_atlas", "bgm_bg"
-	else
-		return "AdmiralUI_atlas", "bgm"
-	end
+slot0.GetBgName = function(slot0)
+	return "AdmiralUI_atlas", "bgm"
 end
 
-function slot0.IsActive(slot0, slot1)
+slot0.IsActive = function(slot0, slot1)
 	return slot1:IsBgmSkin()
 end
 
-function slot0.GetDefaultValue(slot0)
+slot0.GetDefaultValue = function(slot0)
 	return getProxy(SettingsProxy):IsBGMEnable()
 end
 
-function slot0.OnSwitch(slot0, slot1)
+slot0.OnSwitch = function(slot0, slot1)
 	getProxy(SettingsProxy):SetBgmFlag(slot1)
 
 	slot2 = nil
@@ -26,7 +22,7 @@ function slot0.OnSwitch(slot0, slot1)
 	return true
 end
 
-function slot0.Load(slot0, slot1)
+slot0.Load = function(slot0, slot1)
 	uv0.super.Load(slot0, slot1)
 
 	if slot0:IsHrzType() then

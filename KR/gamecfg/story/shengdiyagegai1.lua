@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDIYAGEGAI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGDIYAGEGAI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					" 빛나라! ☆ 배틀스타~!\n\n<size=45> '개조' 라는 이름의 씨앗</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날, 모항",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "어느 날, 모항",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#92fc63",
 			say = "샌디에이고～♪～♪",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#92fc63",
 			say = "샌디에이고, 오늘도 기운 맥~~스! 헤헤~ 어라? 저기 있는 건……",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actor = 107039,
+			say = " \"언니로부터 독립하여 날갯짓하는, 시스터 새러의 신규 활동~ 마법 소녀 새러토가, 지금 막 정식 데뷔~!\"",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = " \"언니로부터 독립하여 날갯짓하는, 시스터 새러의 신규 활동~ 마법 소녀 새러토가, 지금 막 정식 데뷔~!\"",
+			actor = 107039,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -166,12 +166,12 @@ return {
 			}
 		},
 		{
-			actor = 107039,
+			say = "샌디에이고다! 야호~!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "샌디에이고다! 야호~!",
+			actor = 107039,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -266,11 +266,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#92fc63",
 			say = "오오오…무슨 소린진 잘 모르겠는데 뭔가 굉장해 보여!",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 107039,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107039,
+			nameColor = "#92fc63",
 			say = "핫핫핫핫! 새러토가의 새로운 장난……이 아니라, 새로운 힘을 시험하러~ 렛츠고!",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2250
@@ -317,11 +317,11 @@ return {
 			}
 		},
 		{
-			actor = 107020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107020,
+			nameColor = "#92fc63",
 			say = "정말, 너무 뛰어다니면 안 된다니까……이 아이들……샌디에이고는 이런 거 배우면 안 된다, 알겠지?",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

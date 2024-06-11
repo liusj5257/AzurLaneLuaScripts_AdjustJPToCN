@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN27",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "新世界・秘密海域・夕方――",
 			bgm = "theme-tempest",
+			say = "新世界・秘密海域・夕方――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "仲間たちと一緒にはしゃぎ終わり、浜辺に再び静かな日常が戻った。",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "「概念」が織りなす扉――嵐が近づいている。どうやらそろそろ別れの時間だ――",
@@ -42,11 +42,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			factiontag = "「掟約」のテンペスタ",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "どう？わたしのバルバッコアは指揮官のと並ぶくらい美味しいでしょ？",
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			factiontag = "「掟約」のテンペスタ",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "言われてみれば確かに！",
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			factiontag = "「掟約」のテンペスタ",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……本当に帰っちゃうの？",
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			factiontag = "「掟約」のテンペスタ",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "潮風が祝福を授かるように",
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -358,8 +358,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "…………",
@@ -369,8 +369,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "……………………",
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "船が嵐に入り、ロイヤル・フォーチュンの声が少しずつ遠のいていった。",
@@ -391,8 +391,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "「きっとまた会える」",
@@ -402,8 +402,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "そう思えば、別れで寂しい気持ちも少しは楽になる。",
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "コンパスを渡したことで「扉」が繋がったし、彼女と出会った事実も消えることはない。",
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "あとは未知なる未来へと最初の一歩を踏み出そう――",
@@ -435,8 +435,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "「テンペスタと若返りの泉」――完…？",

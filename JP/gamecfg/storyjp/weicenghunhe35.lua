@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEICENGHUNHE35",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WEICENGHUNHE35",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900230,
 			stopbgm = true,
-			actorName = "コンパイラー",
 			side = 2,
+			actorName = "コンパイラー",
 			dir = 1,
 			blackBg = true,
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "海霧に鏡面海域の防御システム加算。１秒で崩壊",
 			flashin = {
@@ -37,9 +37,9 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900230,
 			dir = 1,
 			blackBg = true,
+			actor = 900230,
 			actorName = "コンパイラー",
 			say = "オブザーバー、失敗",
 			typewriter = {
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "オブザーバー",
 			say = "「コードG」を足止めすることすら叶わないのかしら…",
 			typewriter = {
 				speed = 0.05,
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "オブザーバー",
 			say = "よくやったわ。子プログラム",
 			typewriter = {
 				speed = 0.05,
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 900230,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "コンパイラー",
 			dir = 1,
 			blackBg = true,
+			actor = 900230,
+			actorName = "コンパイラー",
 			say = "極北の氷山要塞、攻撃を受けている",
 			typewriter = {
 				speed = 0.05,
@@ -103,14 +103,14 @@ return {
 			}
 		},
 		{
-			bgmDelay = 1,
-			side = 2,
-			nameColor = "#ff5c5c",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			actorName = "オブザーバー",
+			dir = 1,
+			bgmDelay = 1,
 			bgm = "bsm-2",
 			actor = 900232,
-			actorName = "オブザーバー",
+			nameColor = "#ff5c5c",
 			say = "…いいえ、私の計画は成功したわ。ふふふ",
 			flashin = {
 				delay = 1,
@@ -131,12 +131,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "オブザーバー",
 			say = "「コードG」の強さは、深層精神系統の外部遮断から来ているの",
 			typewriter = {
 				speed = 0.05,
@@ -148,12 +148,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "オブザーバー",
 			say = "しかし、今は「つながっている」のよ。「エンタープライズ」と",
 			typewriter = {
 				speed = 0.05,
@@ -165,12 +165,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "オブザーバー",
 			say = "…………しかしほかの時間軸の私もこの攻略法、簡単に思いつくはず",
 			typewriter = {
 				speed = 0.05,
@@ -182,12 +182,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "オブザーバー",
 			say = "アクセス可能のログでは今までの全ての実験が失敗に終わっているのは、一体なぜ……",
 			typewriter = {
 				speed = 0.05,
@@ -199,12 +199,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "オブザーバー",
 			say = "なるほど、「指揮官」の存在ねぇ…",
 			typewriter = {
 				speed = 0.05,
@@ -216,12 +216,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "オブザーバー",
 			say = "零はあとどれだけ隠しているのかしら",
 			typewriter = {
 				speed = 0.05,
@@ -233,12 +233,12 @@ return {
 			}
 		},
 		{
-			actor = 900232,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
+			actorName = "オブザーバー",
 			say = "興味が尽きないわ。ふふふふ…",
 			typewriter = {
 				speed = 0.05,

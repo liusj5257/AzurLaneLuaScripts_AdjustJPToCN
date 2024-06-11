@@ -7,12 +7,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_project_tb_room2",
-			tbActor = true,
-			actorName = "TB",
-			bgm = "qe-ova-1",
-			actor = 1007,
 			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room2",
+			bgm = "qe-ova-1",
+			tbActor = true,
+			actor = 1007,
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "I've figured out who the perpetrator is.",
 			typewriter = {
@@ -20,17 +20,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "Sat in front of the TV, TB confidently begins explaining her deduction.",
@@ -64,10 +64,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1007,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "Analysis... The criminal must've... Then gone to... And finally...",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "She doesn't answer me – her focus is entirely on the show as she mutters her theory.",
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "On the one hand, it's a solid deduction. On the other...",
@@ -113,10 +113,10 @@ return {
 			expression = 11,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1007,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "I'll do it after I've seen the ending. I'm in the middle of analyzing all the important evidence.",
 			typewriter = {
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "Well... I suppose neglecting your homework is an important part of growing up, too.",

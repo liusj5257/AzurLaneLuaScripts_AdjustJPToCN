@@ -1,15 +1,15 @@
 return {
-	id = "MAOZIHUODONG9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bgm-cccp2",
 			say = "ロイヤルにおける「ダグザの大釜」、重桜の「龍神の米俵」――おおよそ世界のどこにでも「なにかが無限に湧き出る」ような伝承が存在する。",
+			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーン要塞の近辺における、量産型が絶えず出てくるその様子は、まさに「無限」と形容するのがふさわしく思える。",
 			typewriter = {
 				speed = 0.05,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "進行途中までの楽勝ムードも、今や激戦の緊張感に包まれていた。",
 			typewriter = {
 				speed = 0.05,
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……そして戦いはやや膠着状態になりつつあった。",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "まさかここまで数が多いなんて……サラトガちゃん、ちょっと油断しちゃった",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "デンバーたち先遣艦隊が準備してくれた分はまだあるけど、長引きすぎると危ないよ！",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "もしくは、セイレーンの警戒範囲外に一旦退避するとか？そうすれば追ってくる分だけ倒せばいいし",
 			typewriter = {
 				speed = 0.05,
@@ -184,9 +184,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "こっちも指示に従うわ。指揮官、どれにするの？",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "どうやら安全圏外まで一時撤退するしかなさそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "……ふーん、意外と考えているわね",
 			typewriter = {
 				speed = 0.05,

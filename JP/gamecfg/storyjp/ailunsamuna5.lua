@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AILUNSAMUNA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AILUNSAMUNA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"3つ星プレミアム恋物語\n\n<size=45>五 夕日に照らされたディナー</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_104",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_104",
 			bgm = "story-1",
 			actor = 101450,
 			nameColor = "#a9f548",
 			say = "おいひい！もぐもぐ…おいひいよほれ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "でも本当に美味しいよ！こんなにいいお店に連れてきてくれてありがとう指揮官ちゃん！",
 			typewriter = {
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "アレンが回りたかった店を何軒か回って、行きつけのレストランで彼女とディナーをとることにした。",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "いつの間にか日が暮れていて、美しい夕日の輝かしい光が小綺麗なレストランの内装を照らしている。",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "うんうん…こっちはOKで…これは欠品だったからあとで明石に仕入れてもらって……",
 			typewriter = {
@@ -157,9 +157,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "出てきた前菜を勢いよく食べ尽くしたアレンは買い出しのリストを持ち出して確認していた。",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "指揮官ちゃん？…実は一つ聞きたいことがあってさ",
 			typewriter = {
@@ -207,8 +207,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "あたしさ、指揮官ちゃんにこんなに良くしてもらえる理由なくない？ほら、仕事をよくサボっちゃうし、迷惑をかけてばかりだし",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "ご褒美があるって聞いて色々欲張ってるのに、結局指揮官ちゃんにお返しとして何もしてあげられてなくて",
 			typewriter = {
@@ -238,9 +238,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "照れくさいのか、アレンはリストの紙で顔を隠した。",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "…いや、なんというか、あたしが秘書艦としてお仕事を頑張るのは当然だから、当然のことをしてご褒美をもらったらヘンじゃない？",
 			typewriter = {
@@ -275,9 +275,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "各々の職務に違いはあれど、艦船たちは皆大事な仲間だ。",
 			typewriter = {
 				speed = 0.05,
@@ -289,9 +289,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "いつも頑張ってくれていることは職務だからと、それに感謝しないのは違う。",
 			typewriter = {
 				speed = 0.05,
@@ -303,9 +303,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "そう思えば、「ご褒美」という言葉は確かに語弊があるような気がする。",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "分かった！指揮官ちゃんがそこまで言うのなら、あたしも全力を出さなきゃね！",
 			typewriter = {
@@ -350,12 +350,12 @@ return {
 			}
 		},
 		{
-			actor = 101450,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 101450,
+			nameColor = "#a9f548",
 			say = "目指せ！アレンのご褒美って感じ、ね♪",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

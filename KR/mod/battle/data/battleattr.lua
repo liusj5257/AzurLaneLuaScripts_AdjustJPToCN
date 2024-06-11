@@ -49,7 +49,7 @@ slot0.AttrListInheritance = {
 	"airResistPierce"
 }
 
-function slot0.InsertInheritedAttr(slot0)
+slot0.InsertInheritedAttr = function(slot0)
 	for slot4, slot5 in pairs(slot0) do
 		uv0.AttrListInheritance[#uv0.AttrListInheritance + 1] = slot5
 	end
@@ -73,121 +73,121 @@ slot0.ATTACK_ATTR_TYPE = {
 	[slot1.WeaponDamageAttr.ANIT_SUB] = "antiSubPower"
 }
 
-function slot0.GetAtkAttrByType(slot0, slot1)
+slot0.GetAtkAttrByType = function(slot0, slot1)
 	return math.max(slot0[uv0.ATTACK_ATTR_TYPE[slot1]], 0)
 end
 
-function slot0.SetAttr(slot0, slot1)
+slot0.SetAttr = function(slot0, slot1)
 	slot0._attr = setmetatable({}, {
 		__index = slot1
 	})
 end
 
-function slot0.GetAttr(slot0)
+slot0.GetAttr = function(slot0)
 	return slot0._attr
 end
 
-function slot0.SetBaseAttr(slot0)
+slot0.SetBaseAttr = function(slot0)
 	slot0._baseAttr = Clone(slot0._attr)
 end
 
-function slot0.IsInvincible(slot0)
+slot0.IsInvincible = function(slot0)
 	return slot0._attr.isInvincible and slot1 > 0
 end
 
-function slot0.AppendInvincible(slot0)
+slot0.AppendInvincible = function(slot0)
 	slot0._attr.isInvincible = (slot0._attr.isInvincible or 0) + 1
 end
 
-function slot0.AddImmuneAreaLimit(slot0, slot1)
+slot0.AddImmuneAreaLimit = function(slot0, slot1)
 	slot2 = (slot0._attr.immuneAreaLimit or 0) + slot1
 	slot0._attr.immuneAreaLimit = slot2
 
 	slot0._move:ImmuneAreaLimit(slot2 > 0)
 end
 
-function slot0.AddImmuneMaxAreaLimit(slot0, slot1)
+slot0.AddImmuneMaxAreaLimit = function(slot0, slot1)
 	slot2 = (slot0._attr.immuneMaxAreaLimit or 0) + slot1
 	slot0._attr.immuneMaxAreaLimit = slot2
 
 	slot0._move:ImmuneMaxAreaLimit(slot2 > 0)
 end
 
-function slot0.IsImmuneAreaLimit(slot0)
+slot0.IsImmuneAreaLimit = function(slot0)
 	return slot0._attr.immuneAreaLimit and slot1 > 0
 end
 
-function slot0.IsImmuneMaxAreaLimit(slot0)
+slot0.IsImmuneMaxAreaLimit = function(slot0)
 	return slot0._attr.immuneMaxAreaLimit and slot1 > 0
 end
 
-function slot0.IsVisitable(slot0)
+slot0.IsVisitable = function(slot0)
 	return not slot0._attr.isUnVisitable or slot1 <= 0
 end
 
-function slot0.UnVisitable(slot0)
+slot0.UnVisitable = function(slot0)
 	slot0._attr.isUnVisitable = (slot0._attr.isUnVisitable or 0) + 1
 end
 
-function slot0.Visitable(slot0)
+slot0.Visitable = function(slot0)
 	slot0._attr.isUnVisitable = (slot0._attr.isUnVisitable or 0) - 1
 end
 
-function slot0.IsSpirit(slot0)
+slot0.IsSpirit = function(slot0)
 	return slot0._attr.isSpirit and slot1 > 0
 end
 
-function slot0.Spirit(slot0)
+slot0.Spirit = function(slot0)
 	slot0._attr.isSpirit = (slot0._attr.isSpirit or 0) + 1
 end
 
-function slot0.Entity(slot0)
+slot0.Entity = function(slot0)
 	slot0._attr.isSpirit = (slot0._attr.isSpirit or 0) - 1
 end
 
-function slot0.IsStun(slot0)
+slot0.IsStun = function(slot0)
 	return slot0._attr.isStun and slot1 > 0
 end
 
-function slot0.Stun(slot0)
+slot0.Stun = function(slot0)
 	slot0._attr.isStun = (slot0._attr.isStun or 0) + 1
 end
 
-function slot0.CancelStun(slot0)
+slot0.CancelStun = function(slot0)
 	slot0._attr.isStun = (slot0._attr.isStun or 0) - 1
 end
 
-function slot0.IsCloak(slot0)
+slot0.IsCloak = function(slot0)
 	return (slot0._attr.isCloak or 0) == 1
 end
 
-function slot0.Cloak(slot0)
+slot0.Cloak = function(slot0)
 	slot0._attr.isCloak = 1
 	slot0._attr.airResistPierceActive = 1
 end
 
-function slot0.Uncloak(slot0)
+slot0.Uncloak = function(slot0)
 	slot0._attr.isCloak = 0
 	slot0._attr.airResistPierceActive = 0
 end
 
-function slot0.IsLockAimBias(slot0)
+slot0.IsLockAimBias = function(slot0)
 	return (slot0._attr.lockAimBias or 0) >= 1
 end
 
-function slot0.IsUnitCldImmune(slot0)
+slot0.IsUnitCldImmune = function(slot0)
 	return (slot0._attr.unitCldImmune or 0) >= 1
 end
 
-function slot0.UnitCldImmune(slot0)
+slot0.UnitCldImmune = function(slot0)
 	slot0._attr.unitCldImmune = (slot0._attr.unitCldImmune or 0) + 1
 end
 
-function slot0.UnitCldEnable(slot0)
+slot0.UnitCldEnable = function(slot0)
 	slot0._attr.unitCldImmune = (slot0._attr.unitCldImmune or 0) - 1
 end
 
-function slot0.GetCurrentTargetSelect(slot0)
+slot0.GetCurrentTargetSelect = function(slot0)
 	slot1 = nil
 	slot3 = ys.Battle.BattleConfig.TARGET_SELECT_PRIORITY
 
@@ -200,11 +200,11 @@ function slot0.GetCurrentTargetSelect(slot0)
 	return slot1
 end
 
-function slot0.AddTargetSelect(slot0, slot1)
+slot0.AddTargetSelect = function(slot0, slot1)
 	table.insert(uv0.GetCurrent(slot0, "TargetChoise"), slot1)
 end
 
-function slot0.RemoveTargetSelect(slot0, slot1)
+slot0.RemoveTargetSelect = function(slot0, slot1)
 	for slot6, slot7 in ipairs(uv0.GetCurrent(slot0, "TargetChoise")) do
 		if slot7 == slot1 then
 			table.remove(slot2, slot6)
@@ -214,7 +214,7 @@ function slot0.RemoveTargetSelect(slot0, slot1)
 	end
 end
 
-function slot0.GetCurrentGuardianID(slot0)
+slot0.GetCurrentGuardianID = function(slot0)
 	if #uv0.GetCurrent(slot0, "guardian") == 0 then
 		return nil
 	else
@@ -222,13 +222,13 @@ function slot0.GetCurrentGuardianID(slot0)
 	end
 end
 
-function slot0.AddGuardianID(slot0, slot1)
+slot0.AddGuardianID = function(slot0, slot1)
 	if not table.contains(uv0.GetCurrent(slot0, "guardian"), slot1) then
 		table.insert(slot2, slot1)
 	end
 end
 
-function slot0.RemoveGuardianID(slot0, slot1)
+slot0.RemoveGuardianID = function(slot0, slot1)
 	for slot6, slot7 in ipairs(uv0.GetCurrent(slot0, "guardian")) do
 		if slot7 == slot1 then
 			table.remove(slot2, slot6)
@@ -238,7 +238,7 @@ function slot0.RemoveGuardianID(slot0, slot1)
 	end
 end
 
-function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
+slot0.SetPlayerAttrFromOutBattle = function(slot0, slot1, slot2)
 	slot3 = slot0._attr or {}
 	slot0._attr = slot3
 	slot3.id = slot1.id
@@ -292,7 +292,7 @@ function slot0.SetPlayerAttrFromOutBattle(slot0, slot1, slot2)
 	uv0.SetBaseAttr(slot0)
 end
 
-function slot0.AttrFixer(slot0, slot1)
+slot0.AttrFixer = function(slot0, slot1)
 	if slot0 == SYSTEM_SCENARIO then
 		slot1.repressReduce = ys.Battle.BattleDataProxy.GetInstance():GetRepressReduce()
 	elseif slot0 == SYSTEM_DUEL or slot0 == SYSTEM_SHAM then
@@ -301,7 +301,7 @@ function slot0.AttrFixer(slot0, slot1)
 	end
 end
 
-function slot0.InitDOTAttr(slot0, slot1)
+slot0.InitDOTAttr = function(slot0, slot1)
 	slot2 = ys.Battle.BattleConfig.DOT_CONFIG_DEFAULT
 
 	for slot7, slot8 in ipairs(ys.Battle.BattleConfig.DOT_CONFIG) do
@@ -315,7 +315,7 @@ function slot0.InitDOTAttr(slot0, slot1)
 	end
 end
 
-function slot0.SetEnemyAttr(slot0, slot1)
+slot0.SetEnemyAttr = function(slot0, slot1)
 	slot2 = slot0._tmpData
 	slot3 = slot0:GetLevel()
 	slot4 = slot0._attr or {}
@@ -351,7 +351,7 @@ function slot0.SetEnemyAttr(slot0, slot1)
 	uv0.SetBaseAttr(slot0)
 end
 
-function slot0.SetEnemyWorldEnhance(slot0)
+slot0.SetEnemyWorldEnhance = function(slot0)
 	slot2 = slot0._attr
 	slot3 = slot2.level
 	slot5 = slot0._tmpData.world_enhancement
@@ -375,7 +375,7 @@ function slot0.SetEnemyWorldEnhance(slot0)
 	uv0.SetBaseAttr(slot0)
 end
 
-function slot0.SetMinionAttr(slot0, slot1)
+slot0.SetMinionAttr = function(slot0, slot1)
 	slot4 = slot0._tmpData
 	slot5 = uv0.GetAttr(slot0:GetMaster()).level
 	slot6 = slot0._attr or {}
@@ -402,7 +402,7 @@ function slot0.SetMinionAttr(slot0, slot1)
 	slot6.level = slot5
 	slot6.formulaLevel = slot5
 
-	function slot7(slot0, slot1)
+	slot7 = function(slot0, slot1)
 		if uv0[slot0 .. "_growth"] ~= 0 then
 			uv1[slot1] = uv2[slot1] * slot2 * 0.0001
 		else
@@ -441,7 +441,7 @@ function slot0.SetMinionAttr(slot0, slot1)
 	uv0.SetBaseAttr(slot0)
 end
 
-function slot0.IsWorldMapRewardAttrWarning(slot0, slot1)
+slot0.IsWorldMapRewardAttrWarning = function(slot0, slot1)
 	for slot5 = 1, 3 do
 		if slot1[slot5] / (slot0[slot5] ~= 0 and slot0[slot5] or 1) < pg.gameset.world_mapbuff_tips.key_value / 10000 then
 			return true
@@ -451,7 +451,7 @@ function slot0.IsWorldMapRewardAttrWarning(slot0, slot1)
 	return false
 end
 
-function slot0.MonsterAttrFixer(slot0, slot1)
+slot0.MonsterAttrFixer = function(slot0, slot1)
 	if slot0 == SYSTEM_SCENARIO then
 		uv0.SetCurrent(slot1, "formulaLevel", math.max(1, uv0.GetCurrent(slot1, "level") - (ys.Battle.BattleDataProxy.GetInstance():IsCompletelyRepress() and slot2:GetRepressLevel() or 0)))
 	elseif slot0 == SYSTEM_WORLD then
@@ -459,7 +459,7 @@ function slot0.MonsterAttrFixer(slot0, slot1)
 	end
 end
 
-function slot0.SetAircraftAttFromMother(slot0, slot1)
+slot0.SetAircraftAttFromMother = function(slot0, slot1)
 	slot2 = slot0._attr or {}
 	slot0._attr = slot2
 	slot2.battleUID = slot0:GetUniqueID()
@@ -495,7 +495,7 @@ function slot0.SetAircraftAttFromMother(slot0, slot1)
 	slot2.comboTag = "combo_" .. slot2.hostUID
 end
 
-function slot0.SetAircraftAttFromTemp(slot0)
+slot0.SetAircraftAttFromTemp = function(slot0)
 	slot0._attr = slot0._attr or {}
 	slot0._attr.velocity = slot0._attr.velocity or ys.Battle.BattleFormulas.ConvertAircraftSpeed(slot0._tmpData.speed)
 	slot0._attr.maxHP = slot0._attr.maxHP or slot0._tmpData.max_hp + slot0._tmpData.hp_growth / 1000 * ((slot0._attr.level or 1) - 1) + uv0.GetCurrent(slot0, "hiveExtraHP")
@@ -504,7 +504,7 @@ function slot0.SetAircraftAttFromTemp(slot0)
 	slot0._attr.dodgeLimit = slot0._tmpData.dodge_limit
 end
 
-function slot0.SetAirFighterAttr(slot0, slot1)
+slot0.SetAirFighterAttr = function(slot0, slot1)
 	slot2 = slot0._attr or {}
 	slot0._attr = slot2
 	slot3 = ys.Battle.BattleDataProxy.GetInstance()
@@ -541,7 +541,7 @@ function slot0.SetAirFighterAttr(slot0, slot1)
 	slot2.crashDMG = slot1.crash_DMG
 end
 
-function slot0.SetFusionAttrFromElement(slot0, slot1, slot2, slot3)
+slot0.SetFusionAttrFromElement = function(slot0, slot1, slot2, slot3)
 	slot5 = uv0.GetAttr(slot1).level
 	slot6 = slot0._attr or {}
 	slot0._attr = slot6
@@ -581,7 +581,7 @@ function slot0.SetFusionAttrFromElement(slot0, slot1, slot2, slot3)
 		slot6.hpProvideRate[uv0.GetCurrent(slot12, "id")] = slot12:GetHP() / slot7
 	end
 
-	function slot8(slot0)
+	slot8 = function(slot0)
 		uv1[slot0] = uv2.GetCurrent(uv3, slot0) * (uv0[slot0] or 1)
 	end
 
@@ -613,7 +613,7 @@ function slot0.SetFusionAttrFromElement(slot0, slot1, slot2, slot3)
 	uv0.SetBaseAttr(slot0)
 end
 
-function slot0.FlashByBuff(slot0, slot1, slot2)
+slot0.FlashByBuff = function(slot0, slot1, slot2)
 	slot0._attr[slot1] = slot2 + (slot0._baseAttr[slot1] or 0)
 
 	if string.find(slot1, uv0.FROM_TAG_EHC_KEY) then
@@ -631,27 +631,27 @@ function slot0.FlashByBuff(slot0, slot1, slot2)
 	end
 end
 
-function slot0.FlashVelocity(slot0, slot1, slot2)
+slot0.FlashVelocity = function(slot0, slot1, slot2)
 	uv0.SetCurrent(slot0, "velocity", Mathf.Clamp(slot0._baseAttr.velocity * slot1 + slot2, uv0.GetBase(slot0, "velocity") * 0.2, uv0.GetBase(slot0, "velocity") * 1.8))
 end
 
-function slot0.HasSonar(slot0)
+slot0.HasSonar = function(slot0)
 	return ys.Battle.BattleConfig.VAN_SONAR_PROPERTY[slot0:GetTemplate().type] ~= nil
 end
 
-function slot0.SetCurrent(slot0, slot1, slot2)
+slot0.SetCurrent = function(slot0, slot1, slot2)
 	slot0._attr[slot1] = slot2
 end
 
-function slot0.GetCurrent(slot0, slot1)
+slot0.GetCurrent = function(slot0, slot1)
 	return uv0._attrFunc[AttributeType.IsPrimalBattleAttr(slot1) or false](slot0, slot1)
 end
 
-function slot0._getPrimalAttr(slot0, slot1)
+slot0._getPrimalAttr = function(slot0, slot1)
 	return math.max(slot0._attr[slot1], 0)
 end
 
-function slot0._getSecondaryAttr(slot0, slot1)
+slot0._getSecondaryAttr = function(slot0, slot1)
 	return slot0._attr[slot1] or 0
 end
 
@@ -660,27 +660,27 @@ slot0._attrFunc = {
 	[false] = slot0._getSecondaryAttr
 }
 
-function slot0.GetBase(slot0, slot1)
+slot0.GetBase = function(slot0, slot1)
 	return slot0._baseAttr[slot1] or 0
 end
 
-function slot0.GetCurrentTags(slot0)
+slot0.GetCurrentTags = function(slot0)
 	return slot0._attr.labelTag or {}
 end
 
-function slot0.Increase(slot0, slot1, slot2)
+slot0.Increase = function(slot0, slot1, slot2)
 	if slot2 then
 		slot0._attr[slot1] = (slot0._attr[slot1] or 0) + slot2
 	end
 end
 
-function slot0.RatioIncrease(slot0, slot1, slot2)
+slot0.RatioIncrease = function(slot0, slot1, slot2)
 	if slot2 then
 		slot0._attr[slot1] = slot0._attr[slot1] + slot0._baseAttr[slot1] * slot2 / 10000
 	end
 end
 
-function slot0.GetTagAttr(slot0, slot1, slot2)
+slot0.GetTagAttr = function(slot0, slot1, slot2)
 	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot1:GetLabelTag()) do
@@ -712,7 +712,7 @@ function slot0.GetTagAttr(slot0, slot1, slot2)
 	return slot5
 end
 
-function slot0.GetTagAttrCri(slot0, slot1)
+slot0.GetTagAttrCri = function(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1:GetLabelTag()) do
@@ -730,7 +730,7 @@ function slot0.GetTagAttrCri(slot0, slot1)
 	return slot4
 end
 
-function slot0.GetTagAttrCriDmg(slot0, slot1)
+slot0.GetTagAttrCriDmg = function(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot1:GetLabelTag()) do

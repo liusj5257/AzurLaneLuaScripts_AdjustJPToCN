@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA6",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "nagato-map",
 			dir = 1,
 			say = "大丈夫か？ふたりとも",
+			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			actor = 900209,
-			side = 0,
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "え…えええ！？江風！！江風ちゃん！！",
+			side = 0,
+			dir = 1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -41,8 +41,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -53,9 +53,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ミオ、見て！江風だ。本物の江風だよ！！",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,8 +80,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "…は？これは一体どういう展開…ひとまず助かったかな？",
 			typewriter = {
 				speed = 0.05,
@@ -95,9 +95,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "はあああ！江風！この凛とした瞳、スラリとした体、柔らかそうな尻尾！",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -122,8 +122,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "ちょっとフブキやめて。江風さんが困ってるから",
 			typewriter = {
 				speed = 0.05,
@@ -152,9 +152,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "瑞鶴もきた！？",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -208,9 +208,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ネコミミ！？ほらこの尻尾見てよ、どう見てもキツネでしょ！",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -250,8 +250,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "まあいいか…初めまして、ホロライブ所属のバーチャル白髪獣耳女子高校生白上フブキです。よく間違えられるけど、猫じゃないです。キツネです！",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "なぜ私があなた達のこと知ってるかというと、ちょっと複雑なんですね…",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "うちもホロライブ所属、ホロゲーマーズの大神ミオって言います。ミオでいいから、よろしくお願いします",
 			typewriter = {
 				speed = 0.05,
@@ -327,9 +327,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "うんうん、知ってる知ってる。お二人ともケッコンしましたからねー",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,8 +399,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "うーん…巻き込まれたというか、正直ここに来た理由は私たちにもよく分からないよ…でもこの場所なら――",
 			typewriter = {
 				speed = 0.05,
@@ -415,8 +415,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "見た限りここはホロサーバー、あるいはホロサーバーとよく似てる感じの作りになってるよ",
 			typewriter = {
 				speed = 0.05,
@@ -476,8 +476,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "今日もいつもと同じように建物を作ってたけど、急に目の前に眩しい光が…気づいたらセイレーンの艦隊に攻撃されてるし、仲間ともはぐれたし・・・",
 			typewriter = {
 				speed = 0.05,
@@ -521,9 +521,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900215,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "受け入れた！？",
 			typewriter = {
 				speed = 0.05,
@@ -535,8 +535,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -577,9 +577,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 900209,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ははは…アズールレーンのことはよく知ってるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -591,8 +591,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -634,8 +634,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "うん…そうかも",
 			typewriter = {
 				speed = 0.05,
@@ -650,8 +650,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			say = "フブキ、ずっと立ち話するのもなんだから、とりあえずアジトに行こう？",
 			typewriter = {
 				speed = 0.05,

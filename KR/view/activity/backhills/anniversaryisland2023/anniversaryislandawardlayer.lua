@@ -1,10 +1,10 @@
 slot0 = class("AnniversaryIslandAwardLayer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AnniversaryIslandAwardUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.window = slot0._tf:Find("Window")
 
 	setText(slot0.window:Find("Text"), i18n("expedition_award_tip"))
@@ -12,7 +12,7 @@ function slot0.init(slot0)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.window:Find("Receive"), function ()
 		uv0:onBackPressed()
 	end, SFX_PANEL)
@@ -42,7 +42,7 @@ function slot0.didEnter(slot0)
 	})
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.loader:Clear()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end

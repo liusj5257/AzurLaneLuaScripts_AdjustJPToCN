@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_504",
+			nameColor = "#A9F548FF",
 			actorName = "劇のナレーション",
-			stopbgm = true,
-			paintingNoise = true,
+			bgName = "star_level_bg_504",
 			bgm = "cw-story",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
+			paintingNoise = true,
 			hidePaintObj = true,
 			say = "「白い霧が晴れると、旅人は自分たちがマジヤバな木造船の上に乗っていると気づいた！」",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -63,10 +63,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「ピンポン！察しがいいね」",
 			typewriter = {
 				speed = 0.05,
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "ふわりんと一緒",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "さっきまで雪山にいたのに…不思議…",
@@ -95,10 +95,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「どしゃ降りの雨とビュービュー吹く風で、海は荒れ狂い、旅人は船酔いにでもなった気分」",
 			typewriter = {
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "うーん…撫順はまったく平気だけど？",
@@ -125,11 +125,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "ロール1の探索者",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "艦船が船酔いなんてしたら設定が終わってるにもほどがあるよ",
@@ -146,10 +146,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「おわりだけに？コホン。どしゃ降りの雨とビュービュー吹く風で、海は荒れ狂い、でも旅人は涼しい顔をしている…旅人でらかっこいい！」",
 			typewriter = {
 				speed = 0.05,
@@ -160,10 +160,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「そんな旅人でも、海を前にしたらちっぽけな存在にすぎない」",
 			typewriter = {
@@ -175,10 +175,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「ましてや、海の大妖――海坊主の前で、小さな漁船数隻など…旅人たち、大ピンチ！」",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海坊主",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "年季の実力は強いじゃ",
 			nameColor = "#A9F548FF",
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海坊主",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "年季の実力は強いじゃ",
 			nameColor = "#A9F548FF",
@@ -263,10 +263,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "善良な漁師",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もし貢ぎ物がま…海坊主殿の意にそぐわなかったら…嵐は止まないのですから",
 			typewriter = {
 				speed = 0.05,
@@ -287,11 +287,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "善良な漁師をいじめるなんてあんまりだよ！こんなワルモノ、みんなで一緒にやっつけようよ！",
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "ロール1の探索者",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "賛成！どんなにすごい妖怪でも艦砲の相手じゃないよ！",
@@ -339,10 +339,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302210,
 			actorName = "勇敢な漁師",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "汗水たらして手に入れたものをみすみす妖怪に取られるなんて、悔しくてならないわ",
 			typewriter = {
 				speed = 0.05,
@@ -353,10 +353,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "善良な漁師",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はわわ…！落ち着いてください勇敢な漁師殿！",
 			typewriter = {
 				speed = 0.05,
@@ -393,10 +393,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「え、ええと…勇敢な漁師はヤスを手にして、海坊主目掛けて船から飛び降りていった」",
 			typewriter = {
 				speed = 0.05,
@@ -407,10 +407,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「しかし次の瞬間、ただでさえ荒れていた海に巨大な波が立ち、勇敢な漁師は不幸にも漆黒の海に飲み込まれた！」",
 			typewriter = {
@@ -422,10 +422,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "善良な漁師",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はあ……だから言ったじゃありませんか！",
 			typewriter = {
 				speed = 0.05,
@@ -484,11 +484,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ふりでも貢ぎ物を贈ったらステージクリアにならない気がするなー",
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海坊主",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "年季の実力は強いじゃ",
 			nameColor = "#A9F548FF",
@@ -558,10 +558,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「あっちゃー。量が足りなくて海坊主は相当きてるねー。船に襲い掛かった巨大な波で真面目な駿河でもアウト！」",
 			typewriter = {
@@ -573,10 +573,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "善良な漁師",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "どどどうしよう…私たちが持っているのものじゃ全然満足されそうにありません！",
 			typewriter = {
 				speed = 0.05,
@@ -597,11 +597,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "今日も刺激を求めて",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "貢ぎ物はダメ、直接砲撃してもダメ…一体どうすればいいのさ？",
@@ -615,11 +615,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "独占欲強しコアクマ",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "とにかくほかの船に残っているものを集めるのよ",
@@ -652,13 +652,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "撫順&ブリストル",
+			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			hideOther = true,
 			actor = 501020,
 			nameColor = "#A9F548FF",
-			side = 2,
+			hidePaintObj = true,
 			say = "その手があったかーーーー！！",
 			dialogShake = {
 				speed = 0.08,
@@ -683,10 +683,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "善良な漁師",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（霞が言ってた方法と同じ気がしますけど！？）",
 			dialogShake = {
 				speed = 0.08,
@@ -701,11 +701,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			paintingNoise = true,
-			actorName = "劇のナレーション",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「こうして漁船から貢ぎ物が次から次へと一箇所に集められていって、海坊主も思わず気を取られてしまった！」",
 			typewriter = {
@@ -713,17 +713,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -731,8 +731,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海坊主",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "年季の実力は強いじゃ",
 			nameColor = "#A9F548FF",
@@ -755,10 +755,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「捧げるよう言いながらこの海坊主、自分から奪い取ろうとした！」",
 			typewriter = {
@@ -786,11 +786,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "ロール1の探索者",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "初月、貢ぎ物をちょっと海に投げて！もう少しおびき寄せるよ！",
@@ -804,11 +804,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "独占欲強しコアクマ",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "分かったわ！任せて",
@@ -822,8 +822,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -851,8 +851,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -880,8 +880,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -893,10 +893,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「えっと、それは…鬼火のようね」",
 			typewriter = {
@@ -924,8 +924,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0
@@ -936,10 +936,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「えーあまりにも怖いためか、追い詰められた旅人は火事場の馬鹿力を発揮した！」",
 			typewriter = {
@@ -951,10 +951,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇のナレーション",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「ヤバ！初月はどーんと飛び上がって隣の船へ飛び移った！でもそこにあるのは――」",
 			typewriter = {
@@ -982,8 +982,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0
@@ -994,10 +994,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「叫びながら次々と！そして八隻目にたどり着いた時に、すでに海坊主が目の前に――！」",
 			typewriter = {
 				speed = 0.05,
@@ -1005,8 +1005,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海坊主",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "年季の実力は強いじゃ",
 			nameColor = "#A9F548FF",
@@ -1045,8 +1045,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0
@@ -1056,11 +1056,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			paintingNoise = true,
-			actorName = "劇のナレーション",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			actorName = "劇のナレーション",
 			hidePaintObj = true,
 			say = "「というわけで海坊主は倒され、海に平穏が戻り、漁師たちもようやく平穏な暮らしを取り戻した」",
 			typewriter = {
@@ -1068,17 +1068,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1089,10 +1089,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇のナレーション",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「めでたしめでたし」",
 			typewriter = {
 				speed = 0.05,

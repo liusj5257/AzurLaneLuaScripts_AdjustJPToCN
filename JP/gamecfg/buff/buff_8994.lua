@@ -1,7 +1,7 @@
 return {
-	init_effect = "jinengchufablue",
-	name = "无敌撤退",
 	time = 9999,
+	name = "无敌撤退",
+	init_effect = "jinengchufablue",
 	picture = "",
 	desc = "无敌",
 	stack = 1,
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				group = 8524,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{

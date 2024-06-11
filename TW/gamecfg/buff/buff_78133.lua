@@ -1,15 +1,15 @@
 return {
-	init_effect = "",
-	name = "白龙剧情战 触发龙宫机关-屏障技能 buff4：屏障效果",
 	time = 25,
-	color = "yellow",
-	last_effect = "Darkness",
+	name = "白龙剧情战 触发龙宫机关-屏障技能 buff4：屏障效果",
+	init_effect = "",
+	id = 78133,
+	last_effect_cld_scale = true,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 78133,
+	color = "yellow",
 	icon = 9297,
-	last_effect_cld_scale = true,
+	last_effect = "Darkness",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",
@@ -18,8 +18,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "accuracyRateExtra",
-				number = -0.95
+				number = -0.95,
+				attr = "accuracyRateExtra"
 			}
 		},
 		{
@@ -29,8 +29,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = -2500
+				number = -2500,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -40,10 +40,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 78133,
 				time = 2,
 				rant = 10000,
-				skill_id = 78133
+				target = "TargetSelf"
 			}
 		}
 	}

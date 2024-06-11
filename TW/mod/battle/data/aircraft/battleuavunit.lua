@@ -9,25 +9,25 @@ slot4 = slot0.Battle.BattelUAVUnit
 slot4.MOVE_STATE = "MOVE_STATE"
 slot4.HOVER_STATE = "HOVER_STATE"
 
-function slot4.Ctor(slot0, slot1)
+slot4.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0._dir = uv1.Battle.BattleConst.UnitDir.LEFT
 	slot0._type = uv1.Battle.BattleConst.UnitType.UAV_UNIT
 end
 
-function slot4.Update(slot0, slot1)
+slot4.Update = function(slot0, slot1)
 	slot0:updatePatrol(slot1)
 end
 
-function slot4.SetTemplate(slot0, slot1)
+slot4.SetTemplate = function(slot0, slot1)
 	uv0.super.SetTemplate(slot0, slot1)
 
 	slot0._centerPos = BuildVector3(uv1.Battle.BattleDataProxy.GetInstance():GetVanguardBornCoordinate(slot0:GetIFF())) + Vector3(slot1.funnel_behavior.offsetX * slot0:GetIFF(), 0, slot1.funnel_behavior.offsetZ)
 	slot0._range = slot1.funnel_behavior.hover_range
 end
 
-function slot4.changePartolState(slot0, slot1)
+slot4.changePartolState = function(slot0, slot1)
 	if slot1 == uv0.MOVE_STATE then
 		slot0:changeToMoveState()
 	elseif slot1 == uv0.HOVER_STATE then
@@ -37,7 +37,7 @@ function slot4.changePartolState(slot0, slot1)
 	slot0._portalState = slot1
 end
 
-function slot4.AddCreateTimer(slot0, slot1, slot2)
+slot4.AddCreateTimer = function(slot0, slot1, slot2)
 	slot0._currentState = slot0.STATE_CREATE
 	slot0._speedDir = slot1
 	slot0._velocity = uv0.Battle.BattleFormulas.ConvertAircraftSpeed(20)
@@ -53,18 +53,18 @@ function slot4.AddCreateTimer(slot0, slot1, slot2)
 	end)
 end
 
-function slot4._updateCreate(slot0)
+slot4._updateCreate = function(slot0)
 	slot0:UpdateSpeed()
 
 	slot0._pos = slot0._pos + slot0._speed
 end
 
-function slot4.changeToMoveState(slot0)
+slot4.changeToMoveState = function(slot0)
 	slot0._cruiseLimit = slot0._centerPos.x
 	slot0.updatePatrol = slot0._updateMove
 end
 
-function slot4._updateMove(slot0, slot1)
+slot4._updateMove = function(slot0, slot1)
 	slot0:UpdateSpeed()
 
 	slot0._pos = slot0._pos + slot0._speed
@@ -78,17 +78,17 @@ function slot4._updateMove(slot0, slot1)
 	end
 end
 
-function slot4.changeToHoverState(slot0)
+slot4.changeToHoverState = function(slot0)
 	slot0._hoverStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 	slot0.updatePatrol = slot0._updateHover
 end
 
-function slot4._updateHover(slot0, slot1)
+slot4._updateHover = function(slot0, slot1)
 	slot2 = slot1 - slot0._hoverStartTime
 	slot0._pos = Vector3(math.sin(slot2) * slot0._range, 15, math.cos(slot2) * slot0._range):Add(slot0._centerPos)
 end
 
-function slot4.GetSize(slot0)
+slot4.GetSize = function(slot0)
 	if slot0._portalState == uv0.HOVER_STATE then
 		if math.cos(pg.TimeMgr.GetInstance():GetCombatTime() - slot0._hoverStartTime) > 0 and slot2 < 0.2 then
 			slot2 = 0.2

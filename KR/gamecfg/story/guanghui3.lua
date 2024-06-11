@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"숙녀의 작은 제안\n\n<size=45>3. 의외의 사건</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "잠깐 휴식 후, 일러스트리어스와 함께 로열 숙소에 도착했다.",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "잠깐 휴식 후, 일러스트리어스와 함께 로열 숙소에 도착했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "마침 지나가던 유니콘이 이쪽을 향해 의심스러운 눈길을 보냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -112,9 +112,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "일러스트리어스는 경치 전망대와 그곳에서 다과회를 열 준비하는 일을 유니콘에게 알려줬다.",
 			typewriter = {
 				speed = 0.05,
@@ -174,13 +174,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "유니콘을 따라 일러스트리어스와 창고에 왔다. 창고 안에는 역시나 다양한 형태의 파라솔이 놓여있었다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "각자 흩어져서 흰색 파라솔을 찾기 시작했다.",
 			typewriter = {
 				speed = 0.05,
@@ -235,15 +235,15 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "전부 별로 어울리지 않는 것 같네요... 좀 더 고급스러운 느낌이면 더 좋지 않을까요......?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "꺅...!",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "소리에 깜짝 놀라 돌아보니, 뒤쪽 선반에 사다리를 타고 올라가 흔들거리고 있는 유니콘을 발견했다.",
 			typewriter = {
 				speed = 0.05,
@@ -324,9 +324,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "모두들 파라솔 찾기에 전념하느라 서로 어디 있는지를 신경 쓰지 못했던 것이다.",
 			typewriter = {
 				speed = 0.05,
@@ -338,9 +338,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "일러스트리어스와 함께 유니콘에게 도착한 순간, 그녀는 균형을 잃고 사다리에서 떨어졌다——",
 			typewriter = {
 				speed = 0.05,
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "앗...!",
 			typewriter = {
 				speed = 0.05,
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -377,11 +377,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "오, 오빠?",
 			flashout = {
 				dur = 0.15,
@@ -408,8 +408,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -418,9 +418,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…위기일발의 순간, 떨어지는 유니콘을 받았다. 이제야 겨우 한숨 놓았다.",
 			typewriter = {
 				speed = 0.05,
@@ -432,9 +432,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "그리고 쓰러지는 사다리는 일러스트리어스가 잡았다. 크게 놀랐지만 위험은 없었다.",
 			typewriter = {
 				speed = 0.05,
@@ -494,9 +494,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "일러스트리어스는 한편으론 위로하면서, 유니콘의 머리를 부드럽게 쓰다듬었다.",
 			typewriter = {
 				speed = 0.05,

@@ -1,6 +1,6 @@
 slot0 = class("PutCommanderInCatteryCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.id
 	slot6 = slot2.callback
@@ -118,7 +118,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.UpdateCommanderLevelAndExp(slot0, slot1, slot2)
+slot0.UpdateCommanderLevelAndExp = function(slot0, slot1, slot2)
 	slot4 = slot2.commander_exp
 
 	if slot2.commander_level > 0 then

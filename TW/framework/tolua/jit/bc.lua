@@ -16,7 +16,7 @@ slot14 = require("jit.vmdef").bcnames
 slot15 = io.stdout
 slot16 = io.stderr
 
-function slot17(slot0)
+slot17 = function(slot0)
 	if slot0 == "\n" then
 		return "\\n"
 	elseif slot0 == "\r" then
@@ -30,11 +30,11 @@ end
 
 slot21, slot22 = nil
 
-function slot23(slot0)
+slot23 = function(slot0)
 	return uv0(slot0, uv1)
 end
 
-function slot25(slot0)
+slot25 = function(slot0)
 	if uv0 then
 		uv1()
 	end

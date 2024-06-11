@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Spiriting-Away Incident?\n\n<size=45>Calm at the Onsen Resort</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "Onsen Resort - Inn Main Building",
 			bgm = "cw-story",
+			say = "Onsen Resort - Inn Main Building",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,11 +48,11 @@ return {
 			}
 		},
 		{
-			actor = 302231,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "Onsen Steamed Buns Are Delish!",
 			dir = 1,
+			actor = 302231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "And I finished cleaning the rooms. You won't find one speck of dust in there!",
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 305130,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "Nice and Simple Kind of Gal",
 			dir = 1,
+			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Snacks and refreshments're lookin' good, and I just got done setting up my stall. This is gonna be one profitable vacay for me♪",
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 302215,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "Hot Enough to Melt Ice",
 			dir = 1,
+			actor = 302215,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Don't you think it's odd that Akashi just... lets you run a stand?",
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 305130,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "Nice and Simple Kind of Gal",
 			dir = 1,
+			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I mean, she straight-up told me she's busy with somethin' else and she's got no choice but to let me have her biz.",
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "Habitual Sleepwalker",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I take it the preparations are proceeding smoothly, Noshiro?",
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 302070,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "Just Me, Not My Self",
 			dir = 1,
+			actor = 302070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Shimakaze asked to look around the resort, so she's on a patrol at the moment. As for Suruga... she went after her to keep an eye on her.",
@@ -318,11 +318,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "Habitual Sleepwalker",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Nay... Let them continue their patrol...",
@@ -336,28 +336,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_in",
+			bgm = "cw-level",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Onsen Resort - City Streets",
-			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Hippity Hoppity!",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Suruga! This place is eerie to the extreme!",
@@ -402,11 +402,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Hates the Spotlight",
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Uh-huh? Like how?",
@@ -420,11 +420,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Hippity Hoppity!",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's daytime, yet the lanterns are lit!",
@@ -514,8 +514,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -543,11 +543,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Hates the Spotlight",
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "And what is that \"something,\" huh? Fine, it's eerie. So what?",
@@ -565,8 +565,8 @@ return {
 			mode = 1,
 			movableNode = {
 				{
-					time = 2,
 					name = "story_denglonggui",
+					time = 2,
 					spine = {
 						action = "move",
 						scale = 8
@@ -629,8 +629,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -639,11 +639,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "Hates the Spotlight",
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Ugh. What is this time?",
@@ -714,28 +714,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_517",
+			bgm = "xinnong-3",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Meanwhile, inside the inn's main building...",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -743,8 +743,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tengu",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
@@ -764,8 +764,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kappa",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Cure Her Social Anxiety",
 			nameColor = "#A9F548FF",
@@ -785,8 +785,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Yuki-Onna",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "This is Her Acting Master Plan",
 			nameColor = "#A9F548FF",
@@ -806,8 +806,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Umibouzu",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Olden and Golden",
 			nameColor = "#A9F548FF",
@@ -827,14 +827,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Habitual Sleepwalker",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "Are you... youkai...?",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -845,8 +845,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tanuki",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Perfectly in Character",
 			nameColor = "#A9F548FF",
@@ -866,8 +866,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tanuki",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Perfectly in Character",
 			nameColor = "#A9F548FF",
@@ -887,14 +887,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Habitual Sleepwalker",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "I sensed a barrier in the vicinity of the resort...",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -924,8 +924,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Chouchinobake",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Party at the Onsen!",
 			nameColor = "#A9F548FF",
@@ -945,8 +945,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tengu",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
@@ -966,11 +966,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Habitual Sleepwalker",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "Subdue, you say...?",
 			painting = {
@@ -1017,8 +1017,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tengu",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants You to Respect Your Elders",
 			nameColor = "#A9F548FF",
@@ -1038,8 +1038,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kappa",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Cure Her Social Anxiety",
 			nameColor = "#A9F548FF",
@@ -1059,8 +1059,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Umibouzu",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Olden and Golden",
 			nameColor = "#A9F548FF",
@@ -1080,8 +1080,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tanuki",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Perfectly in Character",
 			nameColor = "#A9F548FF",
@@ -1119,8 +1119,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
@@ -1140,8 +1140,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
@@ -1161,8 +1161,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
@@ -1182,14 +1182,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Habitual Sleepwalker",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "As you say...",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1200,8 +1200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
@@ -1221,8 +1221,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",
@@ -1242,8 +1242,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Dream-Eater Baku",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "Wants to Turn Into a Statue",
 			nameColor = "#A9F548FF",

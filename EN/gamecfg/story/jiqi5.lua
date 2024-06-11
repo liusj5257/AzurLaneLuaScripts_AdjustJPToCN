@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIQI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIQI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"I'm Not A Baby!\n\n<size=45>Chapter 5 - Tell Me A Story!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Commander's Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Commander's Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -65,8 +65,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "Well, Commander? Aren't I amazing~?",
 			typewriter = {
@@ -79,9 +79,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "With Cavalla's help, I managed to finish all the work for today.",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "Dace and friends didn't show up earlier, and all the other subs seem busy...",
 			typewriter = {
@@ -113,8 +113,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "*Sigh*... I bet I'll end up spending the afternoon just sitting on my butt...",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 20,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -153,9 +153,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I'm presuming the idea is that we'll each take turns telling a story and then decide whose is the best.",
 			typewriter = {
 				speed = 0.05,
@@ -183,11 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 108030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "Right, what kind of story should I tell her?",
 			typewriter = {
@@ -216,15 +216,15 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 1,
+			bgName = "bg_story_task",
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,9 +252,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "Why did the hero have to die?",
 			typewriter = {
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 35,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -280,9 +280,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "There's gotta be a way to save the world without sacrificing yourself! Boo!",
 			typewriter = {
@@ -310,16 +310,16 @@ return {
 			}
 		},
 		{
-			actor = 108030,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108030,
+			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -347,9 +347,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "Why did he need to... \"abbey-cate\"... to be with his sweetheart?",
 			typewriter = {
@@ -365,9 +365,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 2,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "I don't get it!",
 			typewriter = {
@@ -395,16 +395,16 @@ return {
 			}
 		},
 		{
-			actor = 108030,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			optionFlag = 3,
+			actor = 108030,
+			nameColor = "#a9f548",
 			say = "Zzzzzzzzz……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -432,9 +432,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 3,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "H-huh? Is the story over?",
 			typewriter = {
@@ -447,8 +447,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -460,9 +460,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
 			optionFlag = 3,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "I must've fallen asleep... Sorry!",
 			typewriter = {
@@ -475,9 +475,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "It seems Cavalla thought my story was rather dull.",
 			typewriter = {
 				speed = 0.05,
@@ -507,14 +507,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 108030,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Heheh! I'm sure my story will be much more exciting!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -539,9 +539,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "She told me a story centered around her own service record.",
 			typewriter = {
 				speed = 0.05,
@@ -556,8 +556,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "Well? Aren't I the best? No one else would ever understand the richness of Cavalla's personal story!",
 			typewriter = {
@@ -579,8 +579,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108030,
 			dir = 1,
+			actor = 108030,
 			nameColor = "#a9f548",
 			say = "Hey! You're treating me like a baby again!",
 			typewriter = {
@@ -593,8 +593,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

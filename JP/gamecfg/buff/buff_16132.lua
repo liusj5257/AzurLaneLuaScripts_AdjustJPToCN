@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "一心二用",
 	time = 1,
+	name = "一心二用",
+	init_effect = "",
 	picture = "",
 	desc = "概率触发器",
 	stack = 2,
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				rant = 5000,
-				target = "TargetSelf",
-				skill_id = 16131
+				skill_id = 16131,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -1,12 +1,12 @@
 return {
-	id = "W700202",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700202",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "成功擊敗了本月困難難度仲裁者量產型機體。回到作戰港口後再次進入，可以重複挑戰困難難度仲裁機關模擬戰，但無法獲取任何獎勵。",
 			typewriter = {
 				speed = 0.05,

@@ -1,10 +1,10 @@
 slot0 = class("CourtYardShipFactory")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.poolMgr = slot1
 end
 
-function slot0.Make(slot0, slot1)
+slot0.Make = function(slot0, slot1)
 	slot2 = slot0.poolMgr:GetShipPool():Dequeue()
 	slot3 = SpineRole.New(slot1)
 	slot4 = nil
@@ -41,7 +41,7 @@ function slot0.Make(slot0, slot1)
 	})[slot1:GetShipType()].New(slot1, slot2, slot3)
 end
 
-function slot0.MakeAttachments(slot0, slot1, slot2, slot3)
+slot0.MakeAttachments = function(slot0, slot1, slot2, slot3)
 	if slot2:GetShipType() == CourtYardConst.SHIP_TYPE_FEAST then
 		slot4 = ResourceMgr.Inst
 
@@ -59,7 +59,7 @@ function slot0.MakeAttachments(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.exited = true
 end
 

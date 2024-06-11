@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -37,8 +37,8 @@ return {
 		{
 			actor = 307050,
 			side = 1,
-			dir = 1,
 			say = "「重桜」よ。開戦以降の観測で、あの木が枯れ始めてしまっている事が分かったの。今回はその調査と……",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -123,15 +123,15 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 2,
-			stopbgm = true,
 			dir = 1,
 			blackBg = true,
+			actor = 307020,
+			stopbgm = true,
 			say = "「重桜」に向かっているようですね。このままでは長門と接触してしまいます。良いんですか？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -158,9 +158,9 @@ return {
 		{
 			actor = 307010,
 			side = 0,
+			say = "お邪魔虫はいつまで経ってもうまく掃除できませんわね……煩わしいことこの上ないですわ。",
 			dir = 1,
 			blackBg = true,
-			say = "お邪魔虫はいつまで経ってもうまく掃除できませんわね……煩わしいことこの上ないですわ。",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

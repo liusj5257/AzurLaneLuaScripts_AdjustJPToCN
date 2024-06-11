@@ -1,6 +1,6 @@
 slot0 = class("BossRushTracingCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if BeginStageCommand.DockOverload() then
 		return
 	end
@@ -41,7 +41,7 @@ function slot0.execute(slot0, slot1)
 		slot3 = uv0:GetOilLimit()
 		slot4 = pg.battle_cost_template[uv0:GetType() == BossRushSeriesData.TYPE.EXTRA and SYSTEM_BOSS_RUSH_EX or SYSTEM_BOSS_RUSH].oil_cost > 0
 
-		function slot5(slot0, slot1)
+		slot5 = function(slot0, slot1)
 			slot2 = 0
 
 			if uv0 then

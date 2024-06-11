@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "智慧模块",
 	cd = 0,
+	picture = "0",
+	desc = "智慧模块",
 	painting = 1,
 	id = 6400,
-	picture = "0",
 	castCV = "",
-	desc = "智慧模块",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			target_choise = "TargetSelf",
 			casterAniEffect = "",
 			targetetAniEffect = "",
 			type = "BattleSkillOverrideAutoPilot",
+			target_choise = "TargetSelf",
 			arg_list = {
 				ai_id = 49000
 			}

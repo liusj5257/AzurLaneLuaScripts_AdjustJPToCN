@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA31",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA31",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "holo-inochi-inst",
 			dir = 1,
 			say = "「真的好吗？」「已经来不及了哦」「前方可是地狱」一路上的这些牌子……",
+			bgm = "holo-inochi-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +55,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "哎？！不对…祭的三块牌子应该是「真的好吗？」「还来得及」「没有下次了哦」啊",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "难道说……",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			actor = 10500040,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "夏色祭，hololive中，妳最喜欢的女孩子是谁？",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "那是……祭的镜像？！",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "夏 色 祭",
 			say = "镜像？那作为本体的妳，来回答我刚才的问题啊。在hololive中，妳最喜欢的女孩子是谁？",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "唔………………………",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "夏 色 祭",
 			say = "看来回答不出来呢~",
 			typewriter = {
@@ -199,11 +199,11 @@ return {
 			expression = 2,
 			side = 1,
 			actorName = "夏 色 祭",
-			actor = 10500040,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 10500040,
 			nameColor = "#ff5c5c",
 			say = "什么？！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "夏 色 祭",
 			say = "居然没有被这个问题干扰，怎么可能……",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "祭已经不想思考为什么要在这里给镜像的名字加空格了…",
 			typewriter = {
 				speed = 0.05,

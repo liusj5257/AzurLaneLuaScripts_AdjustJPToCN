@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"前進吧，{namecode:144}！\n\n<size=45>六 煩惱的{namecode:144}</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 301300,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 301300,
 			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 301300,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301300,
+			nameColor = "#a9f548",
 			say = "比起最初現在進步了許多？呵呵，那是當然，畢竟是我值得自豪的後輩嘛",
 			typewriter = {
 				speed = 0.05,
@@ -137,15 +137,15 @@ return {
 			}
 		},
 		{
-			actor = 301300,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301300,
+			nameColor = "#a9f548",
 			say = "這個時間段的話，應該只有她一個人在裡面休息吧，我敲敲門看看",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -204,14 +204,14 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			actor = 303090,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "嗚…不知不覺就折了好多…把這些一次性都送給指揮官的話——",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -238,15 +238,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_room",
-			actorName = "{namecode:144}&{namecode:124}",
 			dir = 1,
+			say = "啊",
+			actorName = "{namecode:144}&{namecode:124}",
+			bgName = "bg_story_room",
 			actor = 303090,
 			nameColor = "#a9f548",
-			say = "啊",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,8 +286,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "指，指揮官？！",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -374,11 +374,11 @@ return {
 			}
 		},
 		{
-			actor = 301300,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301300,
+			nameColor = "#a9f548",
 			say = "啊，我突然想起來還有驅逐隊的訓練！我先走了~",
 			typewriter = {
 				speed = 0.05,
@@ -390,8 +390,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 3750
@@ -402,8 +402,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "欸，{namecode:124}前輩？別，別留下我一個人啊！",
 			typewriter = {
@@ -416,8 +416,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -428,10 +428,10 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "（這樣就變成和指揮官兩個人獨處了啊！）",
 			typewriter = {
 				speed = 0.05,
@@ -445,10 +445,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "（唔唔，我，我該怎麼辦才好！）",
 			typewriter = {
 				speed = 0.05,

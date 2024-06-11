@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection: Resplendent Night II\n\n<size=45>Allnight Charge</size>",
@@ -14,14 +14,14 @@ return {
 			}
 		},
 		{
-			live2d = "main3",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
 			bgm = "bar-soft",
 			actor = 199041,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "main3",
 			say = "Evaluation complete. Pose unsatisfactory.",
 			painting = {
 				alpha = 0.3,
@@ -33,11 +33,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "No, this isn't good, either... Evaluation result: unsatisfactory.",
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Still not right... Appraisal: unsatisfactory.",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "At the port's promotional shoot, Kearsarge repeatedly adjusts her pose in front of the camera.",
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "It seems like she just can't get it to her liking.",
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "Her expression is as flat as ever, and her voice doesn't show much emotion...",
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "But her anxiety is evident in the frequency with which she changes poses.",
@@ -113,11 +113,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Inevitable difficulties during filming observed. Halting filming order and searching for a solution.",
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "Search... failed. Continuing troubleshooting.",
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Ugh, this isn't working... Requesting on-field guidance.",
@@ -167,11 +167,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Commander, the filming must be stopped immediately.",
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "My search for a solution has been fruitless. I need actionable advice.",
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "Of course. I would like to pose in a way that matches the new set and special costume.",
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "I studied a wealth of relevant resources in preparation, and yet...",
@@ -275,11 +275,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "While I tried to imitate the poses in said resources, I felt some small inconsistencies.",
@@ -353,11 +353,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "Forget them...?",
@@ -383,11 +383,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "...There is some logic in that.",
@@ -401,11 +401,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Very well. I will try a new composition.",
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			say = "After a moment of thought, she runs back in front of the camera.",
@@ -430,11 +430,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "Ultimate final weapon...",
@@ -448,11 +448,11 @@ return {
 			}
 		},
 		{
-			actor = 199041,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_145",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199041,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Activate!",
@@ -466,27 +466,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_145",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_145",
 			say = "Thanks to Kearsarge's natural expression and motions, the filming swiftly ends in success.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

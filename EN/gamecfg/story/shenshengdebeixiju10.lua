@@ -1,15 +1,15 @@
 return {
-	id = "SHENSHENGDEBEIXIJU10",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU10",
+	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-italy",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_italy_cg1",
 			dir = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "battle-italy",
 			flashN = {
 				color = {
 					1,
@@ -60,8 +60,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "Cavour!",
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605050,
 			dir = 1,
+			actor = 605050,
 			nameColor = "#ff5c5c",
 			say = "Ugh... why...?!",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "Impossible... How dare they...!",
 			typewriter = {
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			say = "Taranto harbor had become a sea of flames under the moonlight.",
 			side = 2,
 			bgName = "bg_italy_cg1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "Taranto harbor had become a sea of flames under the moonlight.",
 			flashN = {
 				color = {
 					1,
@@ -173,8 +173,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "How did they know... to take advantage of us while our forces were split...?!",
 			typewriter = {
@@ -187,9 +187,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg1",
+			dir = 1,
 			say = "In addition to having lost the initiative, the Sardegnian forces were unable to muster their anti-air defenses due to the poor visibility.",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "How were they able to mobilize their aerial squadrons at night...?!",
 			typewriter = {
@@ -218,11 +218,11 @@ return {
 			}
 		},
 		{
-			say = "The ships staying in the harbor were gasping for air amidst all the fire and smoke.",
 			side = 2,
 			bgName = "bg_italy_cg1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "The ships staying in the harbor were gasping for air amidst all the fire and smoke.",
 			flashN = {
 				color = {
 					1,
@@ -270,12 +270,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ff5c5c",
+			hidePaintObj = true,
 			say = "They completely saw through us...",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "How did they anticipate that we'd redeploy our battleships here...?",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "And how are they operating their air wings at night? I've never heard of this before!",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -390,8 +390,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "No, Veneto, it's not over yet. If we can take out the enemy carrier, then we can seize Malta before dawn comes. Then the Royal Navy will have their hands tied without their precious intel.",
 			typewriter = {
@@ -407,8 +407,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ff5c5c",
 			say = "Attention, all battleships! We are evacuating the harbor! Find and put an end to the carrier launching these planes!",
 			typewriter = {

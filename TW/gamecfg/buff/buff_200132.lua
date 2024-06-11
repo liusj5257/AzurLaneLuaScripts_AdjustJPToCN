@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动EX 属性支配血量监听",
 	time = 1,
-	color = "red",
+	name = "2022莱莎联动EX 属性支配血量监听",
+	init_effect = "",
+	id = 200132,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200132,
+	color = "red",
 	icon = 200132,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				group = 200132,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{

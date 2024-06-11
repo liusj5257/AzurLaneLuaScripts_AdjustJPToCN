@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CHICHENG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CHICHENG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Red Spider Lily's Love\n\n<size=45>Chapter 4 - Allies and Days of Old</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "One day - At an Iron Blood-Sakura Empire party",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "One day - At an Iron Blood-Sakura Empire party",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actor = 407010,
+			say = "Graf Zeppelin. How unexpected to find you of all at a gathering of this kind.",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Graf Zeppelin. How unexpected to find you of all at a gathering of this kind.",
+			actor = 407010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -336,9 +336,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Let's take this conversation someplace a bit quieter.",
 			typewriter = {
 				speed = 0.05,

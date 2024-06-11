@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "戦いが終わると、見張りの要塞で開かれる勝利の祝祭へと正式に招待された。",
 			bgm = "story-mmorpg",
+			say = "戦いが終わると、見張りの要塞で開かれる勝利の祝祭へと正式に招待された。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "今や見張りの長城の心臓部とみなされているこの地だが、かつてはどこにでもある小さな村の一つに過ぎなかった。",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "――魔王の軍勢が旧王城の壁を攻め落とし、旧王城が陥落したその日までは。",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "国境の地にいた旧王朝最後の王族にして、人間王国の新時代を切り拓いた第一国王は、神々の助けを借りてこの地を中心に今ある見張りの城壁を築き上げた。",
 			typewriter = {
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "この見張りの城壁のおかげで、人間王国の生き残りは辛うじて魔王軍の蹂躙から生き長らえた。",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "そうして王都は再建され、王国も再び繁栄への道を辿ることができた。",
 			typewriter = {
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "見張りの長城の中心部であるここも徐々に、人間王国の第二都市――見張り要塞へと目覚ましい発展を遂げた。",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "そして今、要塞のあちこちが煌びやかに飾り付けられ、街中に人々の歓声が響き渡っている。",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			say = "そう、「勝利」を象徴する祝祭が開かれているのだ——",
 			typewriter = {
@@ -112,27 +112,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
-			say = "見張り要塞・宴会場",
 			bgm = "qe-ova-15",
+			say = "見張り要塞・宴会場",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -176,11 +176,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "えへへ、そうだよ！それに一番驚いたのは――",
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "伝説の勇者の剣はなんと…ただの魚の形をしてたんだー！",
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 801030,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "王国軍の二級魔法使い",
 			dir = 1,
+			actor = 801030,
 			nameColor = "#A9F548FF",
 			say = "魚が勇者の剣…？そんなことあるわけないよ！適当なついたウソでしょー！",
 			painting = {
@@ -229,11 +229,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ウソなんてついてないよー！",
@@ -378,8 +378,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -517,11 +517,11 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "王国軍ガードナイト",
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
 			say = "ええ！？…っていやいや、王国軍騎士たる我々は一日の戦いじゃ全く疲れません！",
 			painting = {
@@ -534,11 +534,11 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "王国軍ガードナイト",
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
 			say = "なので、その「スペシャルドリンク」はほかの方に…。丁重にお譲りいたします",
 			painting = {
@@ -588,8 +588,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -598,8 +598,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			say = "真面目な王国の騎士饅頭と気さくな冒険者饅頭たちは宴会ですっかり打ち解けていた。",
 			typewriter = {
@@ -607,17 +607,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -625,8 +625,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			say = "会場中が楽しげな雰囲気で満ちている。",
 			typewriter = {
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			say = "一方、一つだけ心に引っかかることがあって、宴会を素直に楽しめない自分がいる",
 			typewriter = {
@@ -753,8 +753,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			say = "楽しい会場に溶け込めてなくても、仲間たちの方から自分に会いに来た。",
 			typewriter = {
@@ -877,29 +877,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			factiontag = "指揮官",
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指揮官",
+			bgm = "story-richang-9",
+			actor = 0,
 			nameColor = "#A9F548FF",
 			say = "――うぅ……これは……",
-			bgm = "story-richang-9",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -919,8 +919,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			say = "頭に暖かくて柔らかいなにかを感じる。",
 			typewriter = {
@@ -929,8 +929,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			say = "いい匂い……",
 			typewriter = {
@@ -1111,11 +1111,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "とにかく無事で良かったです。大事なお話がありますから、今仲間たちを集めてきますね",
 			painting = {
@@ -1128,27 +1128,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
-			say = "しばらくして、見張りの要塞の大会議室にて――",
 			bgm = "story-musicanniversary-gorgeous",
+			say = "しばらくして、見張りの要塞の大会議室にて――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1174,11 +1174,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "同時に、見張り要塞を通過するために必要な通行許可証を皆様に発行します",
 			painting = {
@@ -1209,11 +1209,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "後ほど、要塞の王国軍の武器庫に行って自由にお選びください",
 			painting = {
@@ -1226,11 +1226,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……通行許可証？",
@@ -1244,11 +1244,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ま、まさか……要塞から魔王討伐に行くのにも許可がいるの？",
@@ -1280,11 +1280,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "荒れの大地は危険です。王国の明日を背負う者たちを、実力不足のまま無暗に行かせるわけには参りません",
 			painting = {
@@ -1297,11 +1297,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "うぅ…長城の防衛に参加して良かった…",
@@ -1315,11 +1315,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "許可証がなければ、魔王討伐の度は途中で終わっていた…",
@@ -1351,11 +1351,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あはははは……",
@@ -1369,11 +1369,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "とにかく、王様に代わって、改めて皆様の勇敢な戦いに感謝いたします",
 			painting = {
@@ -1452,11 +1452,11 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "戦闘天使",
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
 			say = "指揮官、あなたのこれまでの活躍ぶりを考慮し、あなたに魔王討伐パーティーを率いる潜在能力があると判断しました",
 			painting = {
@@ -1505,9 +1505,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
+			side = 2,
 			say = "戦闘天使ジョッフルの祈りとともに、金色の光が辺りを照らした。",
 			typewriter = {
 				speed = 0.05,
@@ -1525,9 +1525,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_599",
+			nameColor = "#A9F548FF",
 			actorName = "冒険端末",
 			say = "「システム：新スキル【光明の加護　SSS】を獲得しました」",
 			typewriter = {
@@ -1572,11 +1572,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_599",
 			factiontag = "神聖教会聖女",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "儀式も終わりましたし、今夜のお仕事もこれでおしまいです",
 			painting = {
@@ -1625,28 +1625,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "blackbg",
+			bgm = "story-darkplan",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "見張りの要塞・客室",
-			bgm = "story-darkplan",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1654,8 +1654,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "blackbg",
 			hidePaintObj = true,
 			say = "深夜。真っ暗な部屋の中で一人佇む影があった。",
@@ -1703,11 +1703,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "blackbg",
 			factiontag = "鋼鉄教会メカニック",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "魔王を倒すには、精神領域にのみ作用する「光明の加護」だけでは足りないわ",
@@ -1740,11 +1740,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "blackbg",
 			factiontag = "鋼鉄教会メカニック",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あら？私の術式を受けても完全に眠ってしまわないなんて。強いのねボク？",
@@ -1796,11 +1796,11 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "blackbg",
 			factiontag = "鋼鉄教会メカニック",
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "朝起きたら、きっと強くなってる実感があるかもね？",

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "白龙剧情战 触发龙宫机关-怒涛技能 buff4：进水效果",
 	time = 999,
-	color = "yellow",
+	name = "白龙剧情战 触发龙宫机关-怒涛技能 buff4：进水效果",
+	init_effect = "",
+	id = 9305,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9305,
+	color = "yellow",
 	icon = 9305,
 	last_effect = "",
 	effect_list = {
@@ -16,11 +16,21 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0.2,
 				attr = "cannonPower",
-				number = 10,
 				time = 3,
 				dotType = 2,
-				k = 0.2
+				number = 10
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "flood"
 			}
 		}
 	}

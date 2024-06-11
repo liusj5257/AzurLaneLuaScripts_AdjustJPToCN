@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301490,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-control-inst",
 			dir = 1,
 			say = "……标枪，妳怎么会在这里？",
+			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,15 +84,15 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 10500040,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "吹雪！澪！妳们都没事真是太好了！！",
 			bgm = "holo-matsuri",
+			actor = 10500040,
+			nameColor = "#a9f548",
+			say = "吹雪！澪！妳们都没事真是太好了！！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900209,
 			dir = 1,
+			actor = 900209,
 			say = "嗯，妳没事也真是太好了呢（棒读）。",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "没错，我就是hololive里最清纯的普通JK——夏色祭哦。",
 			typewriter = {
 				speed = 0.05,
@@ -181,9 +181,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "啊，妳就是{namecode:158}对吧，我知道的，那个，我可以摸摸妳的尾巴吗？拥抱一下可以吗？可以和我约会吗？",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -223,8 +223,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "舰装是净化亲给我的哦。",
 			typewriter = {
 				speed = 0.05,
@@ -254,8 +254,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "嗯，净化亲哦。在危机关头救了祭和阿库娅，又为我们制造了舰装的就是净化亲。",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -295,8 +295,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "没错，是一个超可爱的美少女哦！",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "现在净化亲和阿库娅留在反抗军基地巩固防御，祭和标枪负责出来在外面寻找失散的夥伴。",
 			typewriter = {
 				speed = 0.05,

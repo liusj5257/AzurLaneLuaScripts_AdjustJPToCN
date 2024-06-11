@@ -1,6 +1,6 @@
 slot0 = class("BackYardShipCard", import(".BackYardBaseCard"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.info = BackYardFormationCard.New(slot0._go)
 
 	onButton(slot0, slot0._content, function ()
@@ -23,7 +23,7 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.OnFlush(slot0)
+slot0.OnFlush = function(slot0)
 	slot1 = slot0.ship
 	slot2 = slot0.info
 
@@ -98,14 +98,14 @@ function slot0.OnFlush(slot0)
 	setActive(slot2.propsTr1, slot0.type == Ship.STATE_REST)
 end
 
-function slot0.CalcShipAddExpSpeed(slot0)
+slot0.CalcShipAddExpSpeed = function(slot0)
 	slot1 = 0
 	slot2 = getProxy(DormProxy):getRawData()
 
 	return math.floor(slot0:GetBaseExp(slot2) * 3600 / pg.dorm_data_template[slot2.id].time)
 end
 
-function slot0.GetBaseExp(slot0, slot1)
+slot0.GetBaseExp = function(slot0, slot1)
 	slot2 = getProxy(PlayerProxy):getRawData()
 
 	if slot1:GetStateShipCnt(Ship.STATE_TRAIN) <= 0 then
@@ -126,7 +126,7 @@ function slot0.GetBaseExp(slot0, slot1)
 	return pg.gameset["dorm_exp_ratio_by_" .. slot3].key_value / 100 * (pg.gameset.dorm_exp_base.key_value + slot4.exp * slot10 / (slot10 + pg.gameset.dorm_exp_ratio_comfort_degree.key_value)) * slot6 * (1 + 0.05 * slot2.level)
 end
 
-function slot0.OnDispose(slot0)
+slot0.OnDispose = function(slot0)
 	slot0.press.onLongPressed:RemoveAllListeners()
 	slot0.press.onLongPressed:AddListener(nil)
 

@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_503",
+			bgm = "story-richang-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「星の海」連絡通路",
-			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,11 +33,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…「星の海」の各部署はコードネームとして、星座の名前がついている",
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "呼び方としては、「エンジニアリングブロック―兵装設計部」もしくは「ヘルクレス座-兵装設計部」だよ",
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "グアムのほうは…エージェントブロックの戦術特勤部だよね。要は荒事担当",
@@ -201,11 +201,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "医療と、情報、決裁周りはディサイシブブロックで「ヘヴンリーウォーター」",
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "時間が経てばコードネームに慣れるはず",
@@ -275,11 +275,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ。さっきグアムが言ってたのは正しくは「星の海」に所属していないって意味だよ。言うなれば顧問とかアドバイザーね",
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "機密関係で「星の海」を留守にしていて、数ヶ月はかかるかもしれない",
@@ -406,11 +406,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まあ放送頻度は……あははは……",
@@ -462,8 +462,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -644,11 +644,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そう難しいことじゃないわよ。ここが研究施設とはいっても、機器の使用予約が入ってなければ気軽に申請を出していいんだよ",
@@ -700,11 +700,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "制御ブロック「ギャラクシーコア」で、いざ「未来の世界」へ",
@@ -737,11 +737,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ふふん、そこは楽しみにしておいて",
@@ -793,27 +793,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_503",
 			say = "少しして――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -821,11 +821,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ふぅ。このルートなら安全かも……",
@@ -844,8 +844,8 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "回収解析部",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "コンステレーション",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "グアム、私を探してるの？",
 			painting = {
@@ -877,8 +877,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -927,9 +927,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			bgName = "star_level_bg_503",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -944,8 +944,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -992,11 +992,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "グアムこそ、「Ⅱ」型艤装研究のスタッフの管理は私ってことを忘れたのかな？",
@@ -1086,11 +1086,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はじめまして、プリンストン、ルイビル、ラフィー。私はコンステレーション",
@@ -1104,11 +1104,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これからやるシミュレーションだけど、カスタマイズしておいたから詳しくはTBに聞いて",
@@ -1179,11 +1179,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "回収解析部",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "その辺はデータの登録が完了してるから大丈夫。形式上の手続きはあとででいいから",
@@ -1254,11 +1254,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			bgName = "star_level_bg_503",
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "行っちゃった…",
@@ -1271,17 +1271,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

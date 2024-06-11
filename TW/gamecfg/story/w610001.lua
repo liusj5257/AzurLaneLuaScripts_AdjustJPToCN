@@ -1,15 +1,15 @@
 return {
-	id = "W610001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W610001",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "戰鬥結果已確認：成功壓制了一處塞壬據點，要塞海域中剩餘塞壬據點數為：7。",
 			typewriter = {
 				speed = 0.05,

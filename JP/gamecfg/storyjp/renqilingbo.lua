@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQILINGBO",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQILINGBO",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"SPストーリー\n\n<size=45>綾波、お家デートです</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301050,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "指揮官、どうぞおかけください、です",
 			bgm = "story-1",
+			actor = 301050,
+			nameColor = "#a9f548",
+			say = "指揮官、どうぞおかけください、です",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "どうしてこうなった。",
 			typewriter = {
 				speed = 0.05,
@@ -98,13 +98,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "二日前",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -170,13 +170,13 @@ return {
 		{
 			actor = 301050,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "綾波、「指揮官を誘う」まではアドバイスもらったですが、デートスポットの探し方、デートでは何をすればいいか、よくわからないです…………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -207,9 +207,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "色々提案してあげてもいいが、急に言われても……",
 			typewriter = {
 				speed = 0.05,
@@ -221,9 +221,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "そもそもなんで部屋に集合だったんだ？",
 			typewriter = {
 				speed = 0.05,
@@ -251,9 +251,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "綾波はスマホを取り出して指で操作し始めた。",
 			typewriter = {
 				speed = 0.05,
@@ -306,9 +306,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "とりあえず綾波とゲームをした。",
 			typewriter = {
 				speed = 0.05,
@@ -352,9 +352,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "（吹雪が作ったキャラをいきなり使いこなすのは難しい…）",
 			typewriter = {
 				speed = 0.05,
@@ -366,9 +366,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "時間がそこそこ経過した。",
 			typewriter = {
 				speed = 0.05,
@@ -380,15 +380,15 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "…！メール着信、です。指揮官、一時停止ボタンよろしくです",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -413,8 +413,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -480,9 +480,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "綾波が持ち出したのは――5段重ねの重箱だった。",
 			typewriter = {
 				speed = 0.05,
@@ -526,9 +526,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "表情こそ変わらないものの、綾波の目がキラキラ輝いている。すごく自信があるに違いない。",
 			typewriter = {
 				speed = 0.05,
@@ -556,9 +556,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "こ、断れない…っ！",
 			typewriter = {
 				speed = 0.05,
@@ -570,13 +570,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
+			dir = 1,
 			say = "食べ終わるまで、時間がかなりかかった。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -601,9 +601,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "美味かったあああああああああ！",
 			typewriter = {
 				speed = 0.05,
@@ -615,9 +615,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "でも量がさすがに多すぎたああああああああ！！",
 			dialogShake = {
 				speed = 0.09,
@@ -666,9 +666,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "あんな量を平らげたためか、食後の眠気に猛烈に襲われている。キツイ",
 			typewriter = {
 				speed = 0.05,
@@ -680,11 +680,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "…っ。メールが……",
 			typewriter = {
 				speed = 0.05,
@@ -797,9 +797,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "綾波はなぜか立ち上がり、押し入れから布団を持ち出した。そして……………",
 			typewriter = {
 				speed = 0.05,
@@ -811,9 +811,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "二人目の布団も持ち出して、こちらががく然としているうちに丁寧に床に並べて敷いた。",
 			typewriter = {
 				speed = 0.05,
@@ -857,9 +857,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "眠気に襲われながらなんとか保ってる意識でも、強引すぎる展開にツッコミを入れたいが――",
 			typewriter = {
 				speed = 0.05,
@@ -887,9 +887,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "……………",
 			typewriter = {
 				speed = 0.05,
@@ -901,9 +901,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "二人は手を繋ぎ、夢の中で共に午後を過ごした。",
 			typewriter = {
 				speed = 0.05,

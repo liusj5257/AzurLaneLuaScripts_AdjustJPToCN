@@ -6,9 +6,9 @@ return {
 			style = {
 				text = "Tap here to view the list of items in your possession.",
 				mode = 2,
-				posY = -249.82,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -249.82,
 				posX = 273.42
 			},
 			ui = {
@@ -17,11 +17,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 68.8,
+					rotateY = 0,
 					posY = -34.8,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 68.8
 				}
 			}
 		},
@@ -39,9 +39,9 @@ return {
 			style = {
 				text = "Head to the materials tab to see what special gear materials you've obtained during Operation Siren.",
 				mode = 2,
-				posY = -230.76,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -230.76,
 				posX = 243.3
 			},
 			ui = {
@@ -50,11 +50,11 @@ return {
 					2
 				},
 				fingerPos = {
-					posX = 77.5,
+					rotateY = 0,
 					posY = -45.83,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 77.5
 				}
 			}
 		},
@@ -72,9 +72,9 @@ return {
 			style = {
 				text = "Tap the gear tab to view the items stored in your depot.",
 				mode = 2,
-				posY = -283.25,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -283.25,
 				posX = 554.45
 			},
 			ui = {
@@ -83,11 +83,11 @@ return {
 					2
 				},
 				fingerPos = {
-					posX = 49.82,
+					rotateY = 0,
 					posY = -32.73,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 49.82
 				}
 			}
 		},
@@ -97,9 +97,9 @@ return {
 			style = {
 				text = "Using filters will help you find what you're looking for faster.",
 				mode = 2,
-				posY = 302.77,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 302.77,
 				posX = 327.4
 			},
 			ui = {
@@ -108,11 +108,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 0,
+					rotateY = 0,
 					posY = -72.88,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 0
 				}
 			}
 		},
@@ -124,11 +124,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 78.72,
+					rotateY = 0,
 					posY = -39.49,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 78.72
 				}
 			}
 		},
@@ -140,11 +140,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 64.95,
+					rotateY = 0,
 					posY = -30.15,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 64.95
 				}
 			}
 		},
@@ -166,11 +166,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 65,
+					rotateY = 0,
 					posY = -72.88,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 65
 				}
 			}
 		},

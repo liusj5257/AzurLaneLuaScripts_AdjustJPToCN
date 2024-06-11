@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU32",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "좋아, 또 하나 해결했구나. 나는 이제부터 급한 일이 있어서 본섬에 돌아가야 하니, 모두들 편하게 있도록 해.",
 			bgm = "bsm-7",
+			nameColor = "#a9f548",
+			say = "좋아, 또 하나 해결했구나. 나는 이제부터 급한 일이 있어서 본섬에 돌아가야 하니, 모두들 편하게 있도록 해.",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -42,10 +42,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900198,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "후… 긴 담판이 끝났군요. 사르데냐 제국으로 돌아가서 해야할 일이 있으니 먼저 일어나도록 하겠어요.",
 			typewriter = {
 				speed = 0.05,
@@ -60,8 +60,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "비스마르크 각하, 메탈 블러드가 협정의 내용을 준수하기를 바랍니다. 세이렌과의 전쟁이 끝나지 않았기 때문에 벽람항로는 내부의 분열을 견딜 수 없어요.",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "걱정 마, 리슐리외 경. 이 협정이 벽람항로와 유럽 대륙의 안정을 위한 것이라는 데는 의심의 여지가 없으니까.",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "정말 그럴 수 있으면 좋겠군요. 교황청에 보고를 해야 할 일이 남아있어서, 먼저 실례하겠습니다.",
 			typewriter = {
@@ -140,17 +140,17 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
-			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "리슐리외, 리슐리외! 왜 갑자기 넋을 놓고 있는 거야.",
+			bgName = "bg_guild_blue",
 			bgm = "hunhe-story",
+			actor = 205010,
+			nameColor = "#a9f548",
+			say = "리슐리외, 리슐리외! 왜 갑자기 넋을 놓고 있는 거야.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "죄송합니다, 퀸 엘리자베스. 갑자기 예전 일이 떠오르는군요…",
 			typewriter = {
@@ -342,11 +342,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "전부 다 메탈 블러드의 그… 프리드리히 데어 그로세? 의 잘못이야!",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "생각하니까 열받네! 이 얘기를 꺼낸 내 잘못이지… 됐어!",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -413,8 +413,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "하…하하… 프리드리히 데어 그로세라, 잘 기억해 두지요.",
 			typewriter = {
@@ -443,12 +443,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "그리고 네가 원하는 바도 이뤘으면 좋겠네. 리슐리외.",
 			typewriter = {
 				speed = 0.05,

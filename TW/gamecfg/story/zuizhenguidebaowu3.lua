@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level02",
 			dir = 1,
 			say = "——聲納，雷達均無反應……",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -153,8 +153,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -200,8 +200,8 @@ return {
 			say = "明明以本小姐的實力，發現敵方潛艇什麼的應該是分分鐘的事情才對…",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -293,8 +293,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -318,10 +318,10 @@ return {
 			}
 		},
 		{
-			actor = 201010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201010,
+			nameColor = "#a9f548",
 			say = "呣呣呣呣呣……",
 			dialogShake = {
 				speed = 0.09,
@@ -338,8 +338,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -378,8 +378,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -300,
+					type = "move",
 					delay = 0,
 					dur = 0.3,
 					x = 0
@@ -402,19 +402,19 @@ return {
 			}
 		},
 		{
-			actor = 201010,
-			side = 2,
-			nameColor = "#a9f548",
-			dir = 1,
 			say = "也別摸我頭！",
+			side = 2,
+			dir = 1,
+			actor = 201010,
+			nameColor = "#a9f548",
 			actorPosition = {
 				x = 0,
 				y = -300
 			},
 			action = {
 				{
-					type = "move",
 					y = 300,
+					type = "move",
 					delay = 0,
 					dur = 0.3,
 					x = 0
@@ -447,8 +447,8 @@ return {
 		{
 			actor = 201010,
 			nameColor = "#a9f548",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "別拿我跟她比啦！",
 			dialogShake = {
 				speed = 0.09,

@@ -2,7 +2,7 @@ slot0 = class("CookGameChar")
 slot1 = 20
 slot2 = 3
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._tf = slot1
 	slot0._gameData = slot2
 	slot0._event = slot3
@@ -29,7 +29,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.endEventHandle(slot0)
+slot0.endEventHandle = function(slot0)
 	if slot0.activing then
 		slot0.activing = false
 		slot0.activingTime = nil
@@ -73,11 +73,11 @@ function slot0.endEventHandle(slot0)
 	slot0.clearing = true
 end
 
-function slot0.changeSpeed(slot0, slot1)
+slot0.changeSpeed = function(slot0, slot1)
 	slot0._animator.speed = slot1
 end
 
-function slot0.setData(slot0, slot1)
+slot0.setData = function(slot0, slot1)
 	if not slot1 then
 		slot0:setCharActive(false)
 
@@ -106,7 +106,7 @@ function slot0.setData(slot0, slot1)
 	end
 end
 
-function slot0.readyStart(slot0)
+slot0.readyStart = function(slot0)
 	slot0:clear()
 
 	if slot0._isActive then
@@ -114,10 +114,10 @@ function slot0.readyStart(slot0)
 	end
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 end
 
-function slot0.step(slot0, slot1)
+slot0.step = function(slot0, slot1)
 	slot0.deltaTime = slot1
 
 	if slot0._velocity then
@@ -168,7 +168,7 @@ function slot0.step(slot0, slot1)
 	slot0.clearing = false
 end
 
-function slot0.updateCharAniamtor(slot0)
+slot0.updateCharAniamtor = function(slot0)
 	if slot0._activeAniamtorName ~= slot0:getAnimatorName(slot0._name, slot0.leftCakeId, slot0.rightCakeId, slot0.speedNum, slot0._doubleAble, slot0._speedAble) then
 		slot0.chacheSprite = slot0._animImage.sprite
 		slot2 = nil
@@ -196,24 +196,24 @@ function slot0.updateCharAniamtor(slot0)
 	end
 end
 
-function slot0.getAnimatorName(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.getAnimatorName = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = nil
 
 	return slot5 and slot1 .. "_L" .. slot2 .. "_R" .. slot3 or slot6 and slot1 .. "_" .. "L" .. slot2 .. "_" .. slot4 or slot1 .. "_" .. "L" .. slot2
 end
 
-function slot0.setCake(slot0, slot1)
+slot0.setCake = function(slot0, slot1)
 	slot0._cakeData = slot1
 
 	slot0:clearJudge()
 	slot0:clearTargetPos()
 end
 
-function slot0.getCake(slot0)
+slot0.getCake = function(slot0)
 	return slot0._cakeData
 end
 
-function slot0.clearCake(slot0)
+slot0.clearCake = function(slot0)
 	if slot0._cakeData then
 		setActive(findTF(slot0._cakeData.tf, "select"), false)
 
@@ -221,14 +221,14 @@ function slot0.clearCake(slot0)
 	end
 end
 
-function slot0.setJudge(slot0, slot1)
+slot0.setJudge = function(slot0, slot1)
 	slot0._judgeData = slot1
 
 	slot0:clearCake()
 	slot0:clearTargetPos()
 end
 
-function slot0.clearJudge(slot0)
+slot0.clearJudge = function(slot0)
 	if slot0._judgeData then
 		setActive(findTF(slot0._judgeData.tf, "select"), false)
 
@@ -236,17 +236,17 @@ function slot0.clearJudge(slot0)
 	end
 end
 
-function slot0.getJudgeData(slot0)
+slot0.getJudgeData = function(slot0)
 	return slot0._judgeData
 end
 
-function slot0.setTargetPos(slot0, slot1)
+slot0.setTargetPos = function(slot0, slot1)
 	slot0._targetPos = slot1
 
 	slot0:clearVelocity()
 end
 
-function slot0.stopMove(slot0)
+slot0.stopMove = function(slot0)
 	slot0:clearTargetPos()
 	slot0:clearVelocity()
 	slot0:updateAnimatorParame()
@@ -263,7 +263,7 @@ function slot0.stopMove(slot0)
 	end
 end
 
-function slot0.getJudge(slot0)
+slot0.getJudge = function(slot0)
 	if slot0._judgeData then
 		return slot0._judgeData.judge
 	end
@@ -271,7 +271,7 @@ function slot0.getJudge(slot0)
 	return nil
 end
 
-function slot0.pickupCake(slot0)
+slot0.pickupCake = function(slot0)
 	if slot0._cakeData then
 		slot1 = slot0._cakeData.id
 
@@ -324,7 +324,7 @@ function slot0.pickupCake(slot0)
 	end
 end
 
-function slot0.readyServeCake(slot0)
+slot0.readyServeCake = function(slot0)
 	if slot0._judgeData.judge:isInServe() or slot1:isInTrigger() or slot0.cakeNum == 0 then
 		slot0:clearJudge()
 
@@ -459,13 +459,13 @@ function slot0.readyServeCake(slot0)
 	if slot0._acAble then
 		slot9 = slot0:getAcCakeData(slot1)
 
-		function slot0._serveFunc()
+		slot0._serveFunc = function()
 			uv0._event:emit(CookGameView.AC_CAKE_EVENT, uv1)
 		end
 
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(CookGameConst.sound_ac)
 	else
-		function slot0._serveFunc()
+		slot0._serveFunc = function()
 			uv0:serve()
 		end
 	end
@@ -474,7 +474,7 @@ function slot0.readyServeCake(slot0)
 	slot0:startServeCake()
 end
 
-function slot0.getAcCakeData(slot0, slot1)
+slot0.getAcCakeData = function(slot0, slot1)
 	slot3 = slot0._tf.parent:InverseTransformPoint(slot1:getAcTargetTf().position)
 
 	if slot0.serveRight then
@@ -495,7 +495,7 @@ function slot0.getAcCakeData(slot0, slot1)
 	}
 end
 
-function slot0.getParameter(slot0)
+slot0.getParameter = function(slot0)
 	return {
 		cakeId = slot0.serveCakeId,
 		right_index = slot0.rightCakeIndex,
@@ -509,7 +509,7 @@ function slot0.getParameter(slot0)
 	}
 end
 
-function slot0.checkEffectInServe(slot0)
+slot0.checkEffectInServe = function(slot0)
 	slot1 = slot0._charData.battleData.effect
 	slot2 = nil
 	slot3 = Vector3(1, 1, 1)
@@ -538,33 +538,33 @@ function slot0.checkEffectInServe(slot0)
 	end
 end
 
-function slot0.getId(slot0)
+slot0.getId = function(slot0)
 	return slot0._charData.battleData.id
 end
 
-function slot0.getDoubleAble(slot0)
+slot0.getDoubleAble = function(slot0)
 	return slot0._doubleAble
 end
 
-function slot0.setPetFlag(slot0, slot1)
+slot0.setPetFlag = function(slot0, slot1)
 	slot0._isPet = slot1
 end
 
-function slot0.getpetFlag(slot0)
+slot0.getpetFlag = function(slot0)
 	return slot0._isPet
 end
 
-function slot0.setCharActive(slot0, slot1)
+slot0.setCharActive = function(slot0, slot1)
 	slot0._isActive = slot1
 
 	setActive(slot0._tf, slot0._isActive)
 end
 
-function slot0.getCharActive(slot0)
+slot0.getCharActive = function(slot0)
 	return slot0._isActive
 end
 
-function slot0.isFullCakes(slot0)
+slot0.isFullCakes = function(slot0)
 	if slot0._doubleAble and slot0.cakeNum == 2 then
 		return true
 	elseif not slot0._doubleAble and slot0.cakeNum == 1 then
@@ -574,23 +574,23 @@ function slot0.isFullCakes(slot0)
 	return false
 end
 
-function slot0.getPickupFull(slot0)
+slot0.getPickupFull = function(slot0)
 	return slot0._pickupFull
 end
 
-function slot0.setPickupFull(slot0, slot1)
+slot0.setPickupFull = function(slot0, slot1)
 	slot0._pickupFull = slot1
 end
 
-function slot0.getTargetPos(slot0)
+slot0.getTargetPos = function(slot0)
 	return slot0._targetPos
 end
 
-function slot0.clearTargetPos(slot0)
+slot0.clearTargetPos = function(slot0)
 	slot0._targetPos = nil
 end
 
-function slot0.setVelocity(slot0, slot1, slot2, slot3)
+slot0.setVelocity = function(slot0, slot1, slot2, slot3)
 	slot0._velocity = Vector2(slot1 * slot0._baseSpeed * (1 + slot0.speedNum / 3), slot2 * slot0._baseSpeed * (1 + slot0.speedNum / 3))
 
 	if not slot0._isPlayer and not slot0._isPartner then
@@ -614,7 +614,7 @@ function slot0.setVelocity(slot0, slot1, slot2, slot3)
 	slot0:updateAnimatorParame()
 end
 
-function slot0.updateAnimatorParame(slot0)
+slot0.updateAnimatorParame = function(slot0)
 	slot0:setInteger("x", slot0.directX)
 	slot0:setInteger("y", slot0.directY)
 	slot0:setBool("run", slot0.run)
@@ -645,17 +645,17 @@ function slot0.updateAnimatorParame(slot0)
 	end
 end
 
-function slot0.getVelocity(slot0)
+slot0.getVelocity = function(slot0)
 	return slot0._velocity
 end
 
-function slot0.clearVelocity(slot0)
+slot0.clearVelocity = function(slot0)
 	slot0._velocity = nil
 	slot0.run = false
 	slot0.idle = true
 end
 
-function slot0.move(slot0)
+slot0.move = function(slot0)
 	if slot0:isActiving() then
 		return
 	end
@@ -705,7 +705,7 @@ function slot0.move(slot0)
 	end
 end
 
-function slot0.extend(slot0)
+slot0.extend = function(slot0)
 	if not slot0.activing and not slot0.clearing then
 		slot0.extendFlag = false
 		slot0.activing = true
@@ -718,15 +718,15 @@ function slot0.extend(slot0)
 	end
 end
 
-function slot0.isActiving(slot0)
+slot0.isActiving = function(slot0)
 	return slot0.activing
 end
 
-function slot0.getPos(slot0)
+slot0.getPos = function(slot0)
 	return slot0._tf.anchoredPosition
 end
 
-function slot0.startServeCake(slot0)
+slot0.startServeCake = function(slot0)
 	if slot0.activing then
 		return
 	end
@@ -737,7 +737,7 @@ function slot0.startServeCake(slot0)
 	slot0:setTrigger("server", true)
 end
 
-function slot0.pickup(slot0)
+slot0.pickup = function(slot0)
 	if slot0.activing then
 		return
 	end
@@ -748,7 +748,7 @@ function slot0.pickup(slot0)
 	slot0.activing = true
 end
 
-function slot0.setParent(slot0, slot1, slot2)
+slot0.setParent = function(slot0, slot1, slot2)
 	slot0._tf.anchoredPosition = slot2.init_pos
 	slot0._tf.name = slot2.tf_name
 
@@ -759,15 +759,15 @@ function slot0.setParent(slot0, slot1, slot2)
 	slot0._bound = findTF(slot1, "scene_background/" .. slot2.bound)
 end
 
-function slot0.getTf(slot0)
+slot0.getTf = function(slot0)
 	return slot0._tf
 end
 
-function slot0.getOffset(slot0)
+slot0.getOffset = function(slot0)
 	return slot0._offset
 end
 
-function slot0.getCakeIds(slot0)
+slot0.getCakeIds = function(slot0)
 	slot1 = {}
 
 	if slot0.leftCakeId > 0 then
@@ -781,7 +781,7 @@ function slot0.getCakeIds(slot0)
 	return slot1
 end
 
-function slot0.isPlayer(slot0, slot1)
+slot0.isPlayer = function(slot0, slot1)
 	setActive(findTF(slot0._tf, "player"), slot1)
 
 	slot0._isPlayer = slot1
@@ -793,7 +793,7 @@ function slot0.isPlayer(slot0, slot1)
 	end
 end
 
-function slot0.isPartner(slot0, slot1)
+slot0.isPartner = function(slot0, slot1)
 	slot0._isPartner = slot1
 
 	if slot0._isPartner then
@@ -803,15 +803,15 @@ function slot0.isPartner(slot0, slot1)
 	end
 end
 
-function slot0.getCamp(slot0)
+slot0.getCamp = function(slot0)
 	return slot0._camp
 end
 
-function slot0.setBool(slot0, slot1, slot2)
+slot0.setBool = function(slot0, slot1, slot2)
 	slot0._animator:SetBool(slot1, slot2)
 end
 
-function slot0.setTrigger(slot0, slot1, slot2)
+slot0.setTrigger = function(slot0, slot1, slot2)
 	if slot2 then
 		slot0._animator:SetTrigger(slot1)
 	else
@@ -819,11 +819,11 @@ function slot0.setTrigger(slot0, slot1, slot2)
 	end
 end
 
-function slot0.setInteger(slot0, slot1, slot2)
+slot0.setInteger = function(slot0, slot1, slot2)
 	slot0._animator:SetInteger(slot1, slot2)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0.leftCakeId = 0
 	slot0.rightCakeId = 0
 	slot0._serveSpeed = false

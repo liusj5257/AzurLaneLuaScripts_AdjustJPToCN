@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2024异世界冒险 啾莱姆王召唤有翼啾莱姆 初始位置随机",
 	cd = 0,
-	painting = 0,
-	id = 200824,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200824,
 	effect_list = {
 		{
 			type = "BattleSkillTeleport",

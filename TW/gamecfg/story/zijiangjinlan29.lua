@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN29",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg14",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "大棋盤·三笠控制區第九回合",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "呼呼呼，果然對我發動攻擊了，還好吾的機動護衛能連自己也護衛上。",
 			painting = {
@@ -56,8 +56,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "這下大前輩妳的猜測就完全證實了呢。",
 			painting = {
@@ -73,8 +73,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "嗯，果然如此……既然已經證實了猜測，就必須要針對一下了。",
 			painting = {
@@ -106,8 +106,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "現在臨近終盤，如果她再不行動進攻中心據點的話，按照目前的積分，勝利就是長門的了。",
 			painting = {
@@ -139,8 +139,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "鬼怒羽黑繼續進攻據點AB12，幫助長門大人佔領這個據點。",
 			painting = {
@@ -156,8 +156,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "了解……包在我們身上。",
 			painting = {
@@ -173,8 +173,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "接下來的唯一變數就是武藏……不過她只有一架航母，不論如何也不可能越過中心區消滅剛剛進行過兩次恢復的旗風。",
 			painting = {
@@ -206,8 +206,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "遵命，這樣一來，武藏大人就是想闖過中心區域強攻也不可能了呢。",
 			painting = {
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg14",
 			say = "大棋盤·長門控制區第九回合",
 			typewriter = {
@@ -245,17 +245,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -266,8 +266,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 301570,
 			dir = 1,
+			actor = 301570,
 			nameColor = "#A9F548FF",
 			say = "長門大人，針對據點AB12的攻擊結束了，我們又拿下了一分。",
 			painting = {
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "吾知道了，非常感謝二位的協助。",
 			painting = {
@@ -300,8 +300,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 304020,
 			dir = 1,
+			actor = 304020,
 			nameColor = "#A9F548FF",
 			say = "長門大人，我們這邊也結束了，我們成功趕在武藏大人前面搶下了據點IJ78。",
 			painting = {
@@ -317,8 +317,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 301880,
 			dir = 1,
+			actor = 301880,
 			nameColor = "#A9F548FF",
 			say = "長門大人，您能夠抓住機會進行如此果斷的行動，令我十分佩服……",
 			painting = {
@@ -334,8 +334,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "吾是不會攻擊汝的，但是視線所能及的一切據點，吾都要收下。",
 			painting = {
@@ -369,8 +369,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "吾的行動結束，武藏，赤城，出招吧。",
 			painting = {

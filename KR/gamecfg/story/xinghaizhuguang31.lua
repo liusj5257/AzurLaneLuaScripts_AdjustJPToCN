@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-dailyfuture",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "퀴즈 게임은 여전히 진행 중이었다. ",
-			bgm = "theme-dailyfuture",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "퀴즈 게임은 이제 후반전에 다다랐다.",
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "우주 탐사의 우선 순위는... 아쉽게도 무기한으로 연기될 수밖에 없어.",
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "응… 대외적으로는 '내호 함대'라는 공식적인 표현이 있으니까.",
@@ -349,11 +349,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이 질문은 대답할 수 있어.",
@@ -386,11 +386,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "세이렌과의 전쟁에서 중요한 전환점이기도 하고. ",
@@ -404,11 +404,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "성정 큐브의 등장으로 우리같은 '함선'이 탄생할 수 있었고, 전세를 뒤집을 수 있었어.",
@@ -441,11 +441,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하지만 생산 과정에서 매우 희귀한 광물이 필요한 관계로 생산량은 매우 적다고 들었어.",
@@ -530,11 +530,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "음… 이 문제는 좀 복잡하니 괌이 대신 간단하게 설명해도 될까?",
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...대답 이외의 정보는 조심해줘.",
@@ -598,11 +598,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "앗... 알겠어! ",
@@ -654,11 +654,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "예를 들어 퓨리파이어, 테스터, 오미터, 컴파일러, 옵저버 등등.",
@@ -710,11 +710,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "거기에 추가로 신출귀몰과 강력한 전투력을 지닌 고급 세이렌인 아비터와 그들이 통제하는 인포서도 있어.",
@@ -766,11 +766,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			factiontag = "전술행동국",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "만나지 않는 편이 좋아.",
@@ -784,8 +784,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -942,11 +942,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…'은빛 여우'라는 코드네임은 본인이 지은 게 아니라고 했던 것 같은데.",
@@ -1076,8 +1076,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "순간 컨스텔레이션은 잘못 들은 게 아닌지 두 귀를 의심했다.  ",
@@ -1087,8 +1087,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "게임을 하는 내내 냉철하고 자신감 넘치던 '은빛 여우' 여사의 목소리가 떨려왔다.",
@@ -1098,8 +1098,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "흥분을 억누르기 위해 안간힘을 쓰는데서 오는 떨림이었다.",
@@ -1192,8 +1192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "컨스텔레이션은 '은빛 여우' 여사가 대체 어떤 질문을 할지 게속해서 생각했다.  ",
@@ -1203,8 +1203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "하지만 그녀의 질문은 예상 밖이었다.  ",
@@ -1252,11 +1252,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...그곳에 대해 아는 게 없어.",
@@ -1283,8 +1283,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "비록 기계음이었지만 실망과 슬픔이 뒤섞인 감정이 느껴졌다. ",
@@ -1294,11 +1294,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "설마 거기가 고향인 거야?",
@@ -1344,11 +1344,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "단지 게임일 뿐이니까.",
@@ -1362,11 +1362,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_story_task",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "게임에서 이정도 양보는 괜찮지 않을까?",
@@ -1393,8 +1393,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "통신기에서 잠시 침묵이 흘렀다.",
@@ -1487,8 +1487,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "반대편 통신기에서 오랫동안... 아주 오랫동안 아무런 소리가 들리지 않았다.",
@@ -1520,10 +1520,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			portrait = 9706030,
-			dir = 1,
-			actorName = "프린스턴·META",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			portrait = 9706030,
+			actorName = "프린스턴·META",
 			hidePaintObj = true,
 			say = "저기—— 다 끝났어? 그럼 이제 훈장을 나눠줄게.",
 			painting = {
@@ -1539,10 +1539,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			portrait = 9706030,
-			dir = 1,
-			actorName = "프린스턴·META",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			portrait = 9706030,
+			actorName = "프린스턴·META",
 			hidePaintObj = true,
 			say = "덤으로 좋은 소식도 하나 가져왔다구~ ",
 			painting = {
@@ -1555,14 +1555,14 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "흐흥, 중간에 끼어들어서 미안하지만 게임은 끝난 거 맞지? ",
 			bgm = "theme-ucnf-image",
+			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "흐흥, 중간에 끼어들어서 미안하지만 게임은 끝난 거 맞지? ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1572,17 +1572,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1625,10 +1625,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "좌표의 수리 및 정화 작업이 완료되었습니다!",
 			painting = {
 				alpha = 0.3,
@@ -1705,10 +1705,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = " '은빛 여우' 여사?",
 			painting = {
 				alpha = 0.3,
@@ -1733,8 +1733,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "허가를 받은 프린스턴은 좌표의 작동 버튼에 손을 얹은 후,",
@@ -1744,8 +1744,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "가볍게 눌렀다——",
@@ -1755,28 +1755,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_5",
+			bgm = "theme-ucnf-beacon",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그 순간 프린스턴·META, 프로토콜 워페어 - 포트리스, 이사회 함대, 폐허의 바다...",
-			bgm = "theme-ucnf-beacon",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1784,8 +1784,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_5",
 			hidePaintObj = true,
 			say = "여러 사람을 둘러싸고 있던 모든 것이 눈 앞에서 사라져버렸다. ",
@@ -1795,8 +1795,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_5",
 			hidePaintObj = true,
 			say = "마치 꿈에서 다른 꿈으로 빠르게 전환되는 것처럼.",
@@ -1806,11 +1806,11 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "여긴... 가상 세계의 산호해?",
@@ -1843,11 +1843,11 @@ return {
 			}
 		},
 		{
-			actor = 103270,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "대체 어떻게 된 거죠...? 그렇게 거대한 함대가 눈 깜짝할 사이에 사라져버렸어요.",
@@ -1861,11 +1861,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…아마 조금 전 작동된 좌표와 관련이 있을 거야.  ",
@@ -1956,11 +1956,11 @@ return {
 		{
 			portrait = 107230,
 			side = 2,
-			bgName = "bg_zhuguang_5",
 			factiontag = "장비설계국",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_zhuguang_5",
 			actorName = "프린스턴",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "으음... 새러토가 선배... 알래스카 선배... 환영회가 너무 호화스러운 거 아닌가요... zZZ",
 			painting = {
@@ -1972,17 +1972,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1995,8 +1995,8 @@ return {
 			bgName = "bg_zhuguang_5",
 			factiontag = "장비설계국",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "프린스턴",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아하하... 에헤렉... zZZ",
 			painting = {
@@ -2009,11 +2009,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…잠들어 있는 것... 같은데?",
@@ -2084,11 +2084,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…………",
@@ -2178,11 +2178,11 @@ return {
 			}
 		},
 		{
-			actor = 104010,
 			side = 2,
 			bgName = "bg_zhuguang_5",
 			factiontag = "심해데이터분석국",
 			dir = 1,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…응.",
@@ -2196,8 +2196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_zhuguang_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -2401,8 +2401,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -2418,12 +2418,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "??? · ???",
+			nameColor = "#A9F548FF",
 			bgm = "theme-shallowoftheworld",
+			say = "??? · ???",
 			effects = {
 				{
 					active = false,

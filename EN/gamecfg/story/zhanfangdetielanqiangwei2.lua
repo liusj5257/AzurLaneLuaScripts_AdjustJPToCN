@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHANFANGDETIELANQIANGWEI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHANFANGDETIELANQIANGWEI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Iron Rose Blooms\n\n<size=45>2 Seydlitz, Gone Serious</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "Taking a break from sifting through data archives, I went to the lounge to pour myself a cup of coffee.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-3",
+			nameColor = "#A9F548FF",
+			say = "Taking a break from sifting through data archives, I went to the lounge to pour myself a cup of coffee.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "But before I can round the corner just in front of my office, I hear a voice coming from near my doorway.",
 			typewriter = {
@@ -56,12 +56,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "On the Commandant's orders, all visitors must produce an invitation signed by the Commandant before they are allowed in.",
 			painting = {
 				alpha = 0.3,
@@ -76,10 +76,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "My, Seydlitz. You've taken to your duties quite well.",
 			painting = {
 				alpha = 0.3,
@@ -91,12 +91,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'm honored by your praise... But I'm still not letting you in until you show your invitation!",
 			painting = {
 				alpha = 0.3,
@@ -111,10 +111,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "*sigh*... Don't be so uptight. What if I told you I have urgent business with the Commander?",
 			painting = {
 				alpha = 0.3,
@@ -126,12 +126,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "In that case, you would have to explain your circumstances to the Commandant...",
 			painting = {
 				alpha = 0.3,
@@ -146,10 +146,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And how do I do that without one of those invitations you mentioned, exactly?",
 			painting = {
 				alpha = 0.3,
@@ -164,10 +164,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, you'll have to ask in advance, and...",
 			painting = {
 				alpha = 0.3,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "Before she can finish her sentence, Seydlitz falls silent. After a moment of quiet, she suddenly bursts into laughter.",
 			typewriter = {
@@ -192,10 +192,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Haha, I'm really going around in circles here...",
 			painting = {
 				alpha = 0.3,
@@ -210,10 +210,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Phew... I'm glad you get it now.",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay, how about you just pass these papers on to the Commander for me? Keep it up, you little hard worker.",
 			painting = {
 				alpha = 0.3,
@@ -246,10 +246,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You, too! Good luck on your guard duty.",
 			painting = {
 				alpha = 0.3,
@@ -261,8 +261,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "(I'm glad Seydlitz seems to be back in proper form.)",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "I waited for a moment to pass before turning the corner and greeting Seydlitz.",
 			typewriter = {
@@ -284,10 +284,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Ah, Commandant! Welcome back!",
 			painting = {
 				alpha = 0.3,
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "............",
 			typewriter = {
@@ -376,12 +376,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Though sometimes, I do worry a little...",
 			painting = {
 				alpha = 0.3,
@@ -402,10 +402,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "H-huh?! You've poured a cup for me, too, Commandant?!",
 			painting = {
 				alpha = 0.3,
@@ -417,8 +417,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -427,8 +427,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -437,12 +437,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Thank you so much! But I'm always available to do odd jobs for you, so please ask me next time if you see fit!",
 			painting = {
 				alpha = 0.3,
@@ -454,8 +454,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "(She seems a little more relaxed now. Maybe this is a good time to ask...)",
 			typewriter = {
@@ -473,10 +473,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I don't know if this would count, but you've been on my mind... Ack! A-ahem, I mean, nothing's wrong!",
 			painting = {
 				alpha = 0.3,
@@ -488,8 +488,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -498,8 +498,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -511,10 +511,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Your concern is deeply appreciated, but I'm in tip-top shape! Yep!",
 			painting = {
 				alpha = 0.3,
@@ -526,8 +526,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "So she says, but for whatever reason, her cheeks appear to be slightly flushed.",
 			typewriter = {
@@ -536,8 +536,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "(Hmm... In that case, I'll just keep an eye on her.)",
 			typewriter = {

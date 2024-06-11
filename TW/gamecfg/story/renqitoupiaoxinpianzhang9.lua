@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQITOUPIAOXINPIANZHANG9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQITOUPIAOXINPIANZHANG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101170,
-			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……大家快看，副舞台亮燈了。",
 			bgm = "votefes-start",
+			actor = 101170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……大家快看，副舞台亮燈了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -24,17 +24,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那個難道是……？！",
 			painting = {
 				alpha = 0.3,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "——淨化者！！",
 			painting = {
 				alpha = 0.3,
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -99,10 +99,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_527",
 			hidePaintObj = true,
+			side = 2,
 			say = "綾波手起刀落，直接劈向了淨化者。",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "renqitoupiao_daoguang",
-					center = true
+					active = true
 				}
 			},
 			dialogShake = {
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_527",
 			hidePaintObj = true,
 			say = "然後，淨化者就像紙片一樣倒了下去——",
@@ -133,12 +133,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哇……哇哇哇！…………咦？",
 			painting = {
 				alpha = 0.3,
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -160,12 +160,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "好像不是真的塞壬……是立牌……？",
 			painting = {
 				alpha = 0.3,
@@ -177,12 +177,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "手冊說的驚喜……原來是指投人氣票給塞壬啊。",
 			painting = {
 				alpha = 0.3,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "原來如此……讓大家選出最在意的塞壬單位，然後「重點關照」嗎……",
 			painting = {
 				alpha = 0.3,
@@ -211,12 +211,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……那拉菲，投淨化者一票。",
 			painting = {
 				alpha = 0.3,
@@ -228,12 +228,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那我也投淨化者一票……不對不對，應該不會是這麼粗暴的投票吧！",
 			painting = {
 				alpha = 0.3,
@@ -245,12 +245,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "咦，大家快看，我在前面發現了更多立牌哦！",
 			painting = {
 				alpha = 0.3,
@@ -262,12 +262,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "讓我看看，這次都設定了哪些候選目標呢……",
 			painting = {
 				alpha = 0.3,
@@ -279,12 +279,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "等等，先把立牌扶起來啦——！",
 			painting = {
 				alpha = 0.3,

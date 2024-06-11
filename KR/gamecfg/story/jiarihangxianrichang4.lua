@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIANRICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIANRICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"휴일항로-일상편\n\n<size=45>4 사쿠라 엠파이어의 대화</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "그건 그렇고 전설 속에 \"텐구\"가 눈앞에 살아 숨 쉬다니, 너무 감동적인걸~",
 			bgm = "doa_story1",
+			actor = 307060,
+			nameColor = "#a9f548",
+			say = "그건 그렇고 전설 속에 \"텐구\"가 눈앞에 살아 숨 쉬다니, 너무 감동적인걸~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "역시 젊은 만큼, 젊은 기운이 넘치는구나~",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "\"사쿠라 엠파이어\"에 곳곳은 확실히 익숙한 느낌이 들어요.",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "최근에 사쿠라 엠파이어의 \"닌자\"들과도 좋은 시간을 보냈어요~",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "\"다도\"…라니. 우후후, 고향의 느낌이 나는걸~",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "맞아요. 호노카는 무녀에게 카구라마이를 배우고 있는 것 같던데, 꽤 잘 추는 것 같아요~",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "여기에는 독특한 물건이 있다. 예를 들면 해상을 항해할 수 있게 하고, 전력에 도움을 주는 \"의장\" 말이다.",
 			typewriter = {
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "뇨텐구 선배님은 정말 대단하세요. 선배님의 훈련 때의 모습을 봤을 때도 그렇고, 쇼카쿠 언니와 저는 그 기세에 압도 당할뻔했어요!",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -279,8 +279,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "나도 굉장히 즐겁다. 허허, 그대 둘 모두 좋다~",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "이곳에 오게 된 것은 생각하지 못했던 일이지만, 즐거운 시간을 보내고 있어요. 훈련이나 배틀, 비치 발리볼까지~",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "사쿠라 엠파이어은 역시 모두 사이가 좋군요~",
 			typewriter = {
@@ -394,8 +394,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "하하, 그럼 온천에 또 가겠는가~?",
 			typewriter = {
@@ -408,14 +408,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "여신<Venus>들이 일으킨 파란은 일단락 되었고 모항의 생활은 계속되었다 ——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

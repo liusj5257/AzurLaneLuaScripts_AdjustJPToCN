@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Paean for Peace\n\n<size=45>Lunch Break</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "After we had our lunch, I instructed Newcastle to take an hour off. ...And she was gone in the blink of an eye.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "After we had our lunch, I instructed Newcastle to take an hour off. ...And she was gone in the blink of an eye.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Even though lunch wasn't quite over yet, I was a bit curious as to what she did during her spare time, so I decided to look for her.",
 			typewriter = {
 				speed = 0.05,
@@ -62,15 +62,15 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "Do you need something? You're looking for Newcastle?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -113,14 +113,14 @@ return {
 		{
 			expression = 9,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_school",
 			actor = 203040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Huh...? That cloud over there looks like... Gah! I wasn't daydreaming! I swear, I was working!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -161,15 +161,15 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "Haven't seen her... Sorry.",
 			flashout = {
-				black = true,
 				dur = 0.4,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -194,15 +194,15 @@ return {
 			}
 		},
 		{
-			actor = 202110,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202110,
+			nameColor = "#a9f548",
 			say = "Newcastle? If she's not with Sheffield, then she's probably somewhere reading by herself!",
 			flashout = {
-				black = true,
 				dur = 0.4,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -259,13 +259,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "Finally, I found her in the lot Edinburgh mentioned, hidden behind a white sheet that was fluttering in the wind.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,9 +286,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "She was sitting on a stool next to the clothes rack with a half-opened book in her lap, drowsiness weighing upon her eyelids.",
 			typewriter = {
 				speed = 0.05,

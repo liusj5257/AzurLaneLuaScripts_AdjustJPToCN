@@ -16,7 +16,7 @@ slot0.ON_ENTER_BATTLE_RESULT = "BattleResultMediator:ON_ENTER_BATTLE_RESULT"
 slot0.SET_SKIP_FLAG = "BattleResultMediator:SET_SKIP_FLAG"
 slot0.ON_COMPLETE_BATTLE_RESULT = "BattleResultMediator:ON_COMPLETE_BATTLE_RESULT"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot2 = getProxy(PlayerProxy):getData()
 	slot3 = getProxy(FleetProxy)
 	slot4 = getProxy(BayProxy)
@@ -570,7 +570,7 @@ function slot0.register(slot0)
 	slot0:sendNotification(uv0.ON_ENTER_BATTLE_RESULT)
 end
 
-function slot0.showExtraChapterActSocre(slot0)
+slot0.showExtraChapterActSocre = function(slot0)
 	slot2 = getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK)
 	slot5 = getProxy(ChapterProxy):getActiveChapter() and slot3:getMapById(slot4:getConfig("map"))
 
@@ -596,7 +596,7 @@ function slot0.showExtraChapterActSocre(slot0)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.BEGIN_STAGE_DONE,
 		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE,
@@ -609,7 +609,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
@@ -675,7 +675,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.DisplayTotalReward(slot0, slot1)
+slot0.DisplayTotalReward = function(slot0, slot1)
 	LoadContextCommand.LoadLayerOnTopContext(Context.New({
 		mediator = ActivityBossTotalRewardPanelMediator,
 		viewComponent = ActivityBossTotalRewardPanel,
@@ -692,7 +692,7 @@ function slot0.DisplayTotalReward(slot0, slot1)
 	}))
 end
 
-function slot0.DisplayBossSingleTotalReward(slot0, slot1)
+slot0.DisplayBossSingleTotalReward = function(slot0, slot1)
 	LoadContextCommand.LoadLayerOnTopContext(Context.New({
 		mediator = BossSingleTotalRewardPanelMediator,
 		viewComponent = BossSingleTotalRewardPanel,
@@ -709,7 +709,7 @@ function slot0.DisplayBossSingleTotalReward(slot0, slot1)
 	}))
 end
 
-function slot0.GetResultView(slot0)
+slot0.GetResultView = function(slot0)
 	uv0.RESULT_VIEW_TRANSFORM = uv0.RESULT_VIEW_TRANSFORM or {
 		[SYSTEM_CHALLENGE] = BattleChallengeResultLayer,
 		[SYSTEM_DODGEM] = BattleDodgemResultLayer,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023俾斯麦Z活动 BOSS隐藏舰装显示",
 	time = 0,
-	color = "red",
+	name = "2023俾斯麦Z活动 BOSS隐藏舰装显示",
+	init_effect = "",
+	id = 200438,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200438,
+	color = "red",
 	last_effect = "",
 	effect_list = {
 		{

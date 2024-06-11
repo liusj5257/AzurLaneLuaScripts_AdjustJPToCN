@@ -8,7 +8,7 @@ slot5 = {
 }
 slot6 = tolua.initget(slot5)
 
-function slot5.__index(slot0, slot1)
+slot5.__index = function(slot0, slot1)
 	if uv0(uv1, slot1) == nil and uv0(uv2, slot1) ~= nil then
 		return slot2(slot0)
 	end
@@ -16,58 +16,58 @@ function slot5.__index(slot0, slot1)
 	return slot2
 end
 
-function slot5.__call(slot0, slot1, slot2)
+slot5.__call = function(slot0, slot1, slot2)
 	return uv0({
 		center = slot1,
 		extents = slot2 * 0.5
 	}, uv1)
 end
 
-function slot5.New(slot0, slot1)
+slot5.New = function(slot0, slot1)
 	return uv0({
 		center = slot0,
 		extents = slot1 * 0.5
 	}, uv1)
 end
 
-function slot5.Get(slot0)
+slot5.Get = function(slot0)
 	return slot0.center, slot0:GetSize()
 end
 
-function slot5.GetSize(slot0)
+slot5.GetSize = function(slot0)
 	return slot0.extents * 2
 end
 
-function slot5.SetSize(slot0, slot1)
+slot5.SetSize = function(slot0, slot1)
 	slot0.extents = slot1 * 0.5
 end
 
-function slot5.GetMin(slot0)
+slot5.GetMin = function(slot0)
 	return slot0.center - slot0.extents
 end
 
-function slot5.SetMin(slot0, slot1)
+slot5.SetMin = function(slot0, slot1)
 	slot0:SetMinMax(slot1, slot0:GetMax())
 end
 
-function slot5.GetMax(slot0)
+slot5.GetMax = function(slot0)
 	return slot0.center + slot0.extents
 end
 
-function slot5.SetMax(slot0, slot1)
+slot5.SetMax = function(slot0, slot1)
 	slot0:SetMinMax(slot0:GetMin(), slot1)
 end
 
-function slot5.SetMinMax(slot0, slot1, slot2)
+slot5.SetMinMax = function(slot0, slot1, slot2)
 	slot0.extents = (slot2 - slot1) * 0.5
 	slot0.center = slot1 + slot0.extents
 end
 
-function slot5.Encapsulate(slot0, slot1)
+slot5.Encapsulate = function(slot0, slot1)
 	slot0:SetMinMax(uv0.Min(slot0:GetMin(), slot1), uv0.Max(slot0:GetMax(), slot1))
 end
 
-function slot5.Expand(slot0, slot1)
+slot5.Expand = function(slot0, slot1)
 	if uv0(slot1) == "number" then
 		slot1 = slot1 * 0.5
 
@@ -77,14 +77,14 @@ function slot5.Expand(slot0, slot1)
 	end
 end
 
-function slot5.Intersects(slot0, slot1)
+slot5.Intersects = function(slot0, slot1)
 	slot3 = slot0:GetMax()
 	slot4 = slot1:GetMin()
 
 	return slot0:GetMin().x <= slot1:GetMax().x and slot4.x <= slot3.x and slot2.y <= slot5.y and slot4.y <= slot3.y and slot2.z <= slot5.z and slot4.z <= slot3.z
 end
 
-function slot5.Contains(slot0, slot1)
+slot5.Contains = function(slot0, slot1)
 	slot3 = slot0:GetMax()
 
 	if slot1.x < slot0:GetMin().x or slot1.y < slot2.y or slot1.z < slot2.z or slot3.x < slot1.x or slot3.y < slot1.y or slot3.z < slot1.z then
@@ -94,7 +94,7 @@ function slot5.Contains(slot0, slot1)
 	return true
 end
 
-function slot5.IntersectRay(slot0, slot1)
+slot5.IntersectRay = function(slot0, slot1)
 	slot2 = -Mathf.Infinity
 	slot3 = Mathf.Infinity
 	slot4, slot5, slot6 = nil
@@ -158,7 +158,7 @@ function slot5.IntersectRay(slot0, slot1)
 	return true, slot2
 end
 
-function slot5.ClosestPoint(slot0, slot1)
+slot5.ClosestPoint = function(slot0, slot1)
 	slot2 = slot1 - slot0:GetCenter()
 	slot3 = {
 		slot2.x,
@@ -195,16 +195,16 @@ function slot5.ClosestPoint(slot0, slot1)
 	end
 end
 
-function slot5.Destroy(slot0)
+slot5.Destroy = function(slot0)
 	slot0.center = nil
 	slot0.size = nil
 end
 
-function slot5.__tostring(slot0)
+slot5.__tostring = function(slot0)
 	return string.format("Center: %s, Extents %s", tostring(slot0.center), tostring(slot0.extents))
 end
 
-function slot5.__eq(slot0, slot1)
+slot5.__eq = function(slot0, slot1)
 	return slot0.center == slot1.center and slot0.extents == slot1.extents
 end
 

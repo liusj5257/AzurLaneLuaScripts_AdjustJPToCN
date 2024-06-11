@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG35",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG35",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "xinnong-2",
 			dir = 1,
 			say = "さっきまでの威勢はどうした！もう逃げ回ることしかできねぇのかー！？はははははは！！！",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "オミッターからの乱れ撃たれる破壊光線を避けながら、ヴァリアントとハウは必殺の瞬間を伺っていた。",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "…！あの主兵装を撃ったあと、しばらく動きが止まるわ！",
 			typewriter = {
 				speed = 0.05,
@@ -81,14 +81,14 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "……ハァ？もう観念したのか？急に動きを止めてさぁ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "腐っても上位個体、侮っていたわたしが迂闊だったわ",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,9 +171,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "そう簡単にやられないわよ…！",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.8,
 					dur = 0.5,
 					x = -2500
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "オミッターが発射した破壊光線をギリギリのところで回避したヴァリアント、そして――",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 2500
@@ -263,8 +263,8 @@ return {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "しまった！？",
 			dialogShake = {
 				speed = 0.09,
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_6",
+			dir = 1,
 			say = "はあああああああああ！！！",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "オミッター",
+			side = 1,
 			bgName = "bg_hms_6",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -311,8 +311,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ヴァリアント",
+			side = 2,
 			bgName = "bg_hms_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -327,9 +327,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_6",
+			dir = 1,
 			say = "オミッターのチャージが終わる前に、ハウの剣がオミッターの艤装に深く突き刺さった。",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ハウ",
+			side = 2,
 			bgName = "bg_hms_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#ff5c5c",
+			side = 1,
 			bgName = "bg_hms_6",
-			actorName = "オミッター",
 			dir = 1,
+			actorName = "オミッター",
 			say = "そんなああああ！！爆発エンドだけは…ああああああ！！！",
 			dialogShake = {
 				speed = 0.09,
@@ -378,10 +378,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "オミッターの艤装に込められていたエネルギーによる誘爆のあと、人形セイレーンと艤装の痕跡は何もかも残っていなかった。",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "オミッターの艤装に込められていたエネルギーによる誘爆のあと、人形セイレーンと艤装の痕跡は何もかも残っていなかった。",
 			effects = {
 				{
 					active = true,
@@ -438,8 +438,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "げほげほ…危なかったわ…やっぱりこういうのより砲撃戦のほうが……ヴァリアント様っ！",
 			typewriter = {
 				speed = 0.05,
@@ -454,8 +454,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "さっきの攻撃でちょっと片方の主砲がやられただけよ。どうせ母港に戻ったら修理するし大事ないわ……そんなことよりあのオミッターは？",
 			typewriter = {
 				speed = 0.05,
@@ -470,8 +470,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "レーダーに反応はありません……今探してみます！",
 			typewriter = {
 				speed = 0.05,
@@ -485,9 +485,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 205090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "残った敵の掃討を手伝うわ",
 			effects = {
 				{

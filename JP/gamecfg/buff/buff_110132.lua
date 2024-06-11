@@ -7,8 +7,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.3,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -34,8 +34,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.333,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -61,8 +61,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.366,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -88,8 +88,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.399,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -115,8 +115,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.432,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -142,8 +142,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.465,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -169,8 +169,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.498,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -196,8 +196,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.531,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -223,8 +223,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.564,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -250,8 +250,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.6,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -269,14 +269,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 110132,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 110132,
+	color = "yellow",
 	icon = 110130,
 	last_effect = "",
 	blink = {
@@ -293,8 +293,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
 				number = 0.3,
+				attr = "damageRatioBullet",
 				index = {
 					1
 				}

@@ -1,12 +1,12 @@
 return {
-	id = "W746002",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W746002",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "如果出现失误，可以使用重置按钮，即时重置谜题",
 			typewriter = {
 				speed = 0.05,

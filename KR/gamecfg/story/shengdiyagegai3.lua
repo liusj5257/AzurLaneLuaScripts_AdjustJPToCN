@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDIYAGEGAI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGDIYAGEGAI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"빛나라! ☆ 배틀스타~!\n\n<size=45>고민하는 샌디에이고</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 102080,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "알듯말듯 하단 말이지……",
 			bgm = "story-1",
+			actor = 102080,
+			nameColor = "#92fc63",
+			say = "알듯말듯 하단 말이지……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#92fc63",
 			say = "그래도 샌디에이고는 머리가 좋으니까, 언젠가 반드시 알 게 될 거야! 응응!",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 101319,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101319,
+			nameColor = "#92fc63",
 			say = "으에에에에에?!! 적의 기습인가? 지진 태풍 쓰나미? 아니면 지휘관이 인사고과라도 하러 온 거야?!?!",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -164,12 +164,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "나야! 샌디에이고!",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "나야! 샌디에이고!",
+			actor = 102080,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#92fc63",
 			say = "개조란 건 자면 되는 거야?! 좋아~! 메모해야지!!",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -274,20 +274,20 @@ return {
 			}
 		},
 		{
-			actor = 101259,
+			say = "아니야~~~~!!",
 			side = 2,
+			actor = 101259,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#92fc63",
-			dir = 1,
-			say = "아니야~~~~!!",
 			actorPosition = {
 				x = 2250,
 				y = 0
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.2,
 					x = -2250
@@ -309,12 +309,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "야호~ 허먼!",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
+			actor = 102080,
 			dir = 1,
-			say = "야호~ 허먼!",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 101259,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101259,
+			nameColor = "#92fc63",
 			say = "난 갖은 고생을 하면서 창피를 당하고, 겨우 개조됐단 말이야!",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -393,11 +393,11 @@ return {
 			}
 		},
 		{
-			actor = 101259,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101259,
+			nameColor = "#92fc63",
 			say = "아, 아무것도 아니야! 아무튼 말하고 싶은 건, 개조란 건 그렇게 간단한 일이 아니란 거야! 마음의 준비를 단단히 해둬야 한다고!",
 			typewriter = {
 				speed = 0.05,
@@ -409,8 +409,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

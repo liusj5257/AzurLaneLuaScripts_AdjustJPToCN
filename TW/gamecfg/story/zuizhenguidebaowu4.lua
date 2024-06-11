@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU4",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			bgm = "level02",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
 			actor = 408080,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "第二艘補給艦，擊沉。U-110，天生的獵手。嘎哦—",
-			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -102,8 +102,8 @@ return {
 			say = "……咕嚕咕嚕（開始下潛）",
 			action = {
 				{
-					type = "move",
 					y = -1000,
+					type = "move",
 					delay = 0.5,
 					dur = 2,
 					x = 0
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -146,19 +146,19 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			say = "一輪機炮子彈在水面掀起水花，U-110不情不願地從水裡露出頭來。",
+			withoutActorName = true,
 			dir = 1,
 			actor = 408080,
-			withoutActorName = true,
 			nameColor = "#a9f548",
-			say = "一輪機炮子彈在水面掀起水花，U-110不情不願地從水裡露出頭來。",
 			actorPosition = {
 				x = 0,
 				y = -1000
 			},
 			action = {
 				{
-					type = "move",
 					y = 1000,
+					type = "move",
 					delay = 2,
 					dur = 1,
 					x = 0
@@ -177,8 +177,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "好兇的皇家小姑娘…",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -237,8 +237,8 @@ return {
 			say = "U-110，是大鯊魚，超兇的。",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -257,9 +257,9 @@ return {
 		{
 			actor = 408080,
 			nameColor = "#a9f548",
+			dir = 1,
 			withoutActorName = true,
 			side = 2,
-			dir = 1,
 			say = "U-110抖動著背鰭(?)，做出威脅的樣子",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			say = "……妳們到底在說什麼……",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,9 +388,9 @@ return {
 		{
 			actor = 408080,
 			nameColor = "#a9f548",
+			dir = 1,
 			withoutActorName = true,
 			side = 2,
-			dir = 1,
 			say = "U-110對著大鬥犬發出了威脅的咆哮(?)",
 			typewriter = {
 				speed = 0.05,
@@ -420,8 +420,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408080,
 			dir = 1,
+			actor = 408080,
 			say = "U-110不是蒜頭腦袋，是鯊魚—",
 			typewriter = {
 				speed = 0.05,
@@ -470,8 +470,8 @@ return {
 			say = "欸？",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

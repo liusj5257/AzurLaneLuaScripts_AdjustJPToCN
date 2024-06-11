@@ -1,17 +1,17 @@
 return {
-	id = "FUXIANGXIANZUOZHAN13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN13",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 407030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-heroines-image",
 			dir = 1,
 			say = "重桜の艦載機、四散して逃げたわ。「駒」の行動ルーチンにも障害が発生したのかしら",
+			bgm = "battle-heroines-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "全部追うのは無理ね。ヴェーザー、空母を発見できた？",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "予定外の区画に配置された重桜の量産艦艦隊は見つけたけど、空母はいないようね。どうやら装置の故障というより…",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "まさか、こんなことが起きるなんて……",
 			typewriter = {
 				speed = 0.05,

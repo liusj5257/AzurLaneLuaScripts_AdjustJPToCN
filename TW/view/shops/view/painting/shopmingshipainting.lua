@@ -1,13 +1,13 @@
 slot0 = class("ShopMingShiPainting")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._painting = slot1
 	slot0.live2dContainer = findTF(slot0._painting, "live2d")
 
 	setActive(slot0.live2dContainer, true)
 end
 
-function slot0.Load(slot0, slot1, slot2, slot3)
+slot0.Load = function(slot0, slot1, slot2, slot3)
 	Live2D.New(Live2D.GenerateData({
 		ship = Ship.New({
 			configId = 312011
@@ -28,7 +28,7 @@ function slot0.Load(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.Action(slot0, slot1)
+slot0.Action = function(slot0, slot1)
 	if slot0.live2dChar then
 		slot0.live2dChar:TriggerAction(slot1, nil, true)
 	else
@@ -36,7 +36,7 @@ function slot0.Action(slot0, slot1)
 	end
 end
 
-function slot0.UnLoad(slot0)
+slot0.UnLoad = function(slot0)
 	setActive(slot0.live2dContainer, false)
 
 	if slot0.live2dChar then

@@ -11,7 +11,7 @@ slot2 = {
 	1387.6
 }
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("bg")
 	slot0.tip = slot0:findTF("tip")
 	slot0.btn = slot0:findTF("btn")
@@ -22,7 +22,7 @@ function slot0.OnInit(slot0)
 	slot0.uilist = UIItemList.New(slot0.subAward, slot0:findTF("1", slot0.subAward))
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = slot0.activity
 
 	onButton(slot0, slot0.tip, function ()
@@ -71,7 +71,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = slot0.activity
 	slot2 = pg.TimeMgr.GetInstance()
 	slot0.progess = math.min(slot1.data2, uv0)
@@ -96,7 +96,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	clearImageSprite(slot0.bg)
 end
 

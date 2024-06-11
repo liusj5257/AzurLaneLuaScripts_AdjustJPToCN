@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG38",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG38",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Royal Islands",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-richang",
+			say = "Royal Islands",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -112,17 +112,17 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
-			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "You'll be waiting for me at Scapa Flow?",
+			bgName = "star_level_bg_115",
 			bgm = "bsm-2",
+			actor = 202080,
+			nameColor = "#a9f548",
+			say = "You'll be waiting for me at Scapa Flow?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -187,13 +187,13 @@ return {
 		{
 			actor = 205010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "(\"The remnants of the past swallowed by the waves, the hypothesis born from falsehood\" ...Has the Iron Blood been a step ahead of us this entire time?)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			say = "KABOOM——!!",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOM——!!",
 			flashN = {
 				color = {
 					1,
@@ -327,12 +327,12 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 202120,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "Your Majesty, it's an ambush from the Iron Blood's main fleet! Please evacuate at once!",
 			bgm = "bsm-3",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "Your Majesty, it's an ambush from the Iron Blood's main fleet! Please evacuate at once!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,10 +361,10 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 202120,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "Perhaps our communication channel has been compromised. In any case, I don't have much time, so please find somewhere safe right away!",
 			typewriter = {
 				speed = 0.05,
@@ -376,15 +376,15 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#ff5c5c",
 			say = "Where do you think you're going, shorty queen?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -537,12 +537,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "Understood, Your Majesty.",
 			typewriter = {
 				speed = 0.05,
@@ -554,8 +554,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,

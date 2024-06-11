@@ -2,7 +2,7 @@ slot0 = class("GuideShowSignStep", import(".GuideStep"))
 slot0.SIGN_TYPE_2 = 2
 slot0.SIGN_TYPE_3 = 3
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot2 = slot1.showSign
@@ -34,7 +34,7 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.GenClickData(slot0, slot1)
+slot0.GenClickData = function(slot0, slot1)
 	if not slot1 then
 		return nil
 	end
@@ -49,23 +49,23 @@ function slot0.GenClickData(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return GuideStep.TYPE_SHOWSIGN
 end
 
-function slot0.GetSignType(slot0)
+slot0.GetSignType = function(slot0)
 	return slot0.sType
 end
 
-function slot0.GetFirstSign(slot0)
+slot0.GetFirstSign = function(slot0)
 	return slot0.signIndexList[1]
 end
 
-function slot0.GetSignList(slot0)
+slot0.GetSignList = function(slot0)
 	return slot0.signIndexList
 end
 
-function slot0.GetSignResName(slot0, slot1)
+slot0.GetSignResName = function(slot0, slot1)
 	slot2 = ""
 
 	if slot1 == 1 or slot1 == 6 then
@@ -83,19 +83,19 @@ function slot0.GetSignResName(slot0, slot1)
 	return slot2
 end
 
-function slot0.ShouldClick(slot0)
+slot0.ShouldClick = function(slot0)
 	return slot0.clickUI ~= nil
 end
 
-function slot0.GetClickData(slot0)
+slot0.GetClickData = function(slot0)
 	return slot0.clickUI
 end
 
-function slot0.ExistClickArea(slot0)
+slot0.ExistClickArea = function(slot0)
 	return slot0.clickArea ~= nil
 end
 
-function slot0.GetClickArea(slot0)
+slot0.GetClickArea = function(slot0)
 	slot1 = slot0.clickArea or {
 		0,
 		0
@@ -104,15 +104,15 @@ function slot0.GetClickArea(slot0)
 	return Vector2(slot1[1], slot1[2])
 end
 
-function slot0.GetTriggerType(slot0)
+slot0.GetTriggerType = function(slot0)
 	return slot0.longPress
 end
 
-function slot0.GetExitDelay(slot0)
+slot0.GetExitDelay = function(slot0)
 	return slot0.duration or 0
 end
 
-function slot0.ExistTrigger(slot0)
+slot0.ExistTrigger = function(slot0)
 	return slot0:GetSignType() ~= uv0.SIGN_TYPE_3
 end
 

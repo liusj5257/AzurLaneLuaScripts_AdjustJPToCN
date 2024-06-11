@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 15352,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15352,
+	color = "yellow",
 	icon = 15350,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "chargeBulletAccuracy",
-				number = 2
+				number = 2,
+				attr = "chargeBulletAccuracy"
 			}
 		}
 	}

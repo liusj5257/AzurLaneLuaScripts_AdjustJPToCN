@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"의전함의 연회\n\n<size=45>준비는 정성스럽게</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "결국, 히에이의 연회를 도와주게 되었다.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "결국, 히에이의 연회를 도와주게 되었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,13 +82,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "모항 - 상점",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 304020,
+			say = "아카시, 저번에 주문한 물건은 다 준비되었나요?",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "아카시, 저번에 주문한 물건은 다 준비되었나요?",
+			actor = 304020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -229,11 +229,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "냥? 이건……초대장이구냥! 아카시도 가도 되냥?",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -271,15 +271,15 @@ return {
 			}
 		},
 		{
-			actor = 304010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 304010,
+			nameColor = "#92fc63",
 			say = "우리들은 안 불러줘도 되는데……알겠어요, 참가하도록 하죠.",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -320,12 +320,12 @@ return {
 			}
 		},
 		{
-			actor = 304030,
+			say = "하아……키리시마, 이번엔 히에이 씨한테 민폐끼치지 말라고, 알겠지?",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "하아……키리시마, 이번엔 히에이 씨한테 민폐끼치지 말라고, 알겠지?",
+			actor = 304030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -388,16 +388,16 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			blaclBg = true,
-			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_task",
+			actor = 304020,
 			nameColor = "#92fc63",
 			say = "사전 준비는 이 정도면 됐겠죠. 연회 준비 도와주셔서 고마워요, 지휘관님~♪",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1

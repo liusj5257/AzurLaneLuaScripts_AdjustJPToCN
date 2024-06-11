@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUNUO1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUNUO1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -88,8 +88,8 @@ return {
 		{
 			actor = 207020,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Because you're a carrier! A carrier should protect her escorts like they were her own children!",
 			shake = {
 				speed = 8,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			actorName = "Glorious & Ark Royal",
 			side = 0,
-			hideOther = true,
+			actor = 207020,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "(She's like me, in a way...)",
 			subActors = {

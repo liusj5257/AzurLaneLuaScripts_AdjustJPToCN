@@ -20,19 +20,19 @@ slot0.TeamNum = {
 	"SIXTH"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "FormationUI"
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.setCommanderPrefabFleet(slot0, slot1)
+slot0.setCommanderPrefabFleet = function(slot0, slot1)
 	slot0.commanderPrefabFleets = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.eventTriggers = {}
 	slot0._blurLayer = slot0:findTF("blur_panel")
 	slot0.backBtn = slot0:findTF("top/back_btn", slot0._blurLayer)
@@ -141,13 +141,13 @@ function slot0.init(slot0)
 	setText(findTF(slot0._tf, "gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
 end
 
-function slot0.setShips(slot0, slot1)
+slot0.setShips = function(slot0, slot1)
 	slot0.shipVOs = slot1
 
 	slot0._formationLogic:SetShipVOs(slot0.shipVOs)
 end
 
-function slot0.SetFleets(slot0, slot1)
+slot0.SetFleets = function(slot0, slot1)
 	slot0._fleetVOs = _(slot1):chain():values():filter(function (slot0)
 		return slot0:isRegularFleet()
 	end):sort(function (slot0, slot1)
@@ -161,13 +161,13 @@ function slot0.SetFleets(slot0, slot1)
 	end
 end
 
-function slot0.getFleetById(slot0, slot1)
+slot0.getFleetById = function(slot0, slot1)
 	return _.detect(slot0._fleetVOs, function (slot0)
 		return slot0.id == uv0
 	end)
 end
 
-function slot0.UpdateFleetView(slot0, slot1)
+slot0.UpdateFleetView = function(slot0, slot1)
 	slot0:displayFleetInfo()
 	slot0:updateFleetBg()
 	slot0._formationLogic:UpdateGridVisibility()
@@ -185,12 +185,12 @@ function slot0.UpdateFleetView(slot0, slot1)
 	end
 end
 
-function slot0.updateFleetBg(slot0)
+slot0.updateFleetBg = function(slot0)
 	setActive(slot0._bgFleet, slot0._currentFleetVO:getFleetType() == FleetType.Normal)
 	setActive(slot0._bgSub, slot1 == FleetType.Submarine)
 end
 
-function slot0.updateFleetButton(slot0)
+slot0.updateFleetButton = function(slot0)
 	slot1 = nil
 	slot2 = slot0._currentFleetVO:getFleetType()
 	slot0.index[slot2] = slot0._currentFleetVO:getIndex()
@@ -211,11 +211,11 @@ function slot0.updateFleetButton(slot0)
 	setActive(slot0.btnSub:Find("off"), slot2 ~= FleetType.Submarine)
 end
 
-function slot0.SetFleetNameLabel(slot0)
+slot0.SetFleetNameLabel = function(slot0)
 	setText(slot0._fleetNameText, slot0.defaultFleetName(slot0._currentFleetVO))
 end
 
-function slot0.ForceDropChar(slot0)
+slot0.ForceDropChar = function(slot0)
 	slot0._formationLogic:ForceDropChar()
 
 	if slot0._currentDragDelegate then
@@ -225,7 +225,7 @@ function slot0.ForceDropChar(slot0)
 	end
 end
 
-function slot0.quickExitFunc(slot0)
+slot0.quickExitFunc = function(slot0)
 	slot0:ForceDropChar()
 	slot0:emit(FormationMediator.COMMIT_FLEET, function ()
 		GetOrAddComponent(uv0._tf, typeof(CanvasGroup)).interactable = false
@@ -234,7 +234,7 @@ function slot0.quickExitFunc(slot0)
 	end)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.isOpenCommander = pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "CommanderCatMediator") and not LOCK_COMMANDER
 	slot1 = getProxy(ActivityProxy):getBuffShipList()
 
@@ -301,8 +301,8 @@ function slot0.didEnter(slot0)
 			slot0()
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				zIndex = -30,
 				hideNo = false,
+				zIndex = -30,
 				content = i18n("ship_formationUI_quest_remove", slot2:getName()),
 				onYes = slot1,
 				onNo = slot0
@@ -417,21 +417,21 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.SetCurrentFleetID(slot0, slot1)
+slot0.SetCurrentFleetID = function(slot0, slot1)
 	slot0._currentFleetVO = slot0:getFleetById(slot1)
 
 	slot0._formationLogic:SetFleetVO(slot0._currentFleetVO)
 	slot0:updateCommanderFormation()
 end
 
-function slot0.updateCommanderFormation(slot0)
+slot0.updateCommanderFormation = function(slot0)
 	if slot0.isOpenCommander then
 		slot0.commanderFormationPanel:Load()
 		slot0.commanderFormationPanel:ActionInvoke("Update", slot0._currentFleetVO, slot0.commanderPrefabFleets)
 	end
 end
 
-function slot0.selectFleetByStep(slot0, slot1)
+slot0.selectFleetByStep = function(slot0, slot1)
 	slot2 = table.indexof(slot0._fleetVOs, slot0._currentFleetVO)
 
 	while true do
@@ -445,7 +445,7 @@ function slot0.selectFleetByStep(slot0, slot1)
 	end
 end
 
-function slot0.updateToggleList(slot0, slot1)
+slot0.updateToggleList = function(slot0, slot1)
 	slot0.fleetToggleList:GetComponent(typeof(ToggleGroup)).allowSwitchOff = true
 	slot3 = slot0._currentFleetVO.id
 
@@ -488,12 +488,12 @@ function slot0.updateToggleList(slot0, slot1)
 	slot2.allowSwitchOff = false
 end
 
-function slot0.resetFormationComponent(slot0)
+slot0.resetFormationComponent = function(slot0)
 	SetActive(slot0._gridTFs.main[1]:Find("flag"), #slot0._currentFleetVO:getTeamByName(TeamType.Main) ~= 0)
 	SetActive(slot0._gridTFs.submarine[1]:Find("flag"), #slot0._currentFleetVO:getTeamByName(TeamType.Submarine) ~= 0)
 end
 
-function slot0.sortCardSiblingIndex(slot0)
+slot0.sortCardSiblingIndex = function(slot0)
 	_.each({
 		TeamType.Main,
 		TeamType.Vanguard,
@@ -507,7 +507,7 @@ function slot0.sortCardSiblingIndex(slot0)
 	end)
 end
 
-function slot0.displayFleetInfo(slot0)
+slot0.displayFleetInfo = function(slot0)
 	SetActive(slot0._prevPage, slot0:selectFleetByStep(-1))
 	SetActive(slot0._nextPage, slot0:selectFleetByStep(1))
 	setActive(slot0:findTF("gear_score"), true)
@@ -567,7 +567,7 @@ function slot0.displayFleetInfo(slot0)
 		setActive(slot0._vanguardGS:Find("SonarActive"), slot0._currentFleetVO:GetFleetSonarRange() > 0)
 		setActive(slot0._vanguardGS:Find("SonarInactive"), slot7 <= 0)
 
-		function slot8()
+		slot8 = function()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_HELP,
 				helps = pg.gametip.fleet_antisub_range_tip.tip
@@ -602,7 +602,7 @@ function slot0.displayFleetInfo(slot0)
 	setText(slot0._fleetNumText, slot0._currentFleetVO:getIndex())
 end
 
-function slot0.DisplayRenamePanel(slot0, slot1)
+slot0.DisplayRenamePanel = function(slot0, slot1)
 	SetActive(slot0._renamePanel, slot1)
 
 	if slot1 then
@@ -613,18 +613,18 @@ function slot0.DisplayRenamePanel(slot0, slot1)
 	end
 end
 
-function slot0.hideAttrFrame(slot0)
+slot0.hideAttrFrame = function(slot0)
 	SetActive(slot0._attrFrame, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._blurLayer, slot0._tf)
 end
 
-function slot0.displayAttrFrame(slot0)
+slot0.displayAttrFrame = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._blurLayer, false)
 	SetActive(slot0._attrFrame, true)
 	slot0:initAttrFrame()
 end
 
-function slot0.initAttrFrame(slot0)
+slot0.initAttrFrame = function(slot0)
 	slot2 = false
 
 	for slot6, slot7 in pairs({
@@ -648,7 +648,7 @@ function slot0.initAttrFrame(slot0)
 	end
 end
 
-function slot0.updateAttrFrame(slot0)
+slot0.updateAttrFrame = function(slot0)
 	slot2 = slot0._currentFleetVO:getFleetType()
 
 	for slot6, slot7 in pairs({
@@ -684,7 +684,7 @@ function slot0.updateAttrFrame(slot0)
 	slot0:updateUltimateTitle()
 end
 
-function slot0.updateUltimateTitle(slot0)
+slot0.updateUltimateTitle = function(slot0)
 	slot2 = slot0._currentFleetVO.mainShips
 
 	if #slot0._cards[TeamType.Main] > 0 then
@@ -694,7 +694,7 @@ function slot0.updateUltimateTitle(slot0)
 	end
 end
 
-function slot0.getCardAttrProps(slot0, slot1)
+slot0.getCardAttrProps = function(slot0, slot1)
 	return {
 		{
 			i18n("word_attr_durability"),
@@ -711,7 +711,7 @@ function slot0.getCardAttrProps(slot0, slot1)
 	}
 end
 
-function slot0.detachOnCardButton(slot0, slot1)
+slot0.detachOnCardButton = function(slot0, slot1)
 	slot2 = GetOrAddComponent(slot1.go, "EventTriggerListener")
 
 	slot2:RemovePointClickFunc()
@@ -720,7 +720,7 @@ function slot0.detachOnCardButton(slot0, slot1)
 	slot2:RemoveDragEndFunc()
 end
 
-function slot0.attachOnCardButton(slot0, slot1, slot2)
+slot0.attachOnCardButton = function(slot0, slot1, slot2)
 	slot3 = GetOrAddComponent(slot1.go, "EventTriggerListener")
 	slot0.eventTriggers[slot3] = true
 
@@ -802,7 +802,7 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 				return
 			end
 
-			function resetCard()
+			resetCard = function()
 				for slot3 = 1, #uv0 do
 					uv0[slot3].tr.anchoredPosition = uv1[slot3]
 				end
@@ -846,7 +846,7 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 	end
 end
 
-function slot0.shiftCard(slot0, slot1, slot2, slot3)
+slot0.shiftCard = function(slot0, slot1, slot2, slot3)
 	if #slot0._cards[slot3] > 0 then
 		slot4[slot2] = slot4[slot1]
 		slot4[slot1] = slot4[slot2]
@@ -855,11 +855,11 @@ function slot0.shiftCard(slot0, slot1, slot2, slot3)
 	slot0._shiftIndex = slot2
 end
 
-function slot0.change2ScrPos(slot0, slot1, slot2)
+slot0.change2ScrPos = function(slot0, slot1, slot2)
 	return LuaHelper.ScreenToLocal(slot1, slot2, pg.UIMgr.GetInstance().overlayCameraComp)
 end
 
-function slot0.tweenNumText(slot0, slot1, slot2, slot3, slot4)
+slot0.tweenNumText = function(slot0, slot1, slot2, slot3, slot4)
 	LeanTween.value(go(slot0), slot4 or 0, math.floor(slot1), slot2 or 0.7):setOnUpdate(System.Action_float(function (slot0)
 		setText(uv0, math.floor(slot0))
 	end)):setOnComplete(System.Action(function ()
@@ -869,7 +869,7 @@ function slot0.tweenNumText(slot0, slot1, slot2, slot3, slot4)
 	end))
 end
 
-function slot0.defaultFleetName(slot0)
+slot0.defaultFleetName = function(slot0)
 	if slot0.name == "" or slot0.name == nil then
 		return Fleet.DEFAULT_NAME[slot0.id]
 	else
@@ -877,7 +877,7 @@ function slot0.defaultFleetName(slot0)
 	end
 end
 
-function slot0.GetFleetCount(slot0)
+slot0.GetFleetCount = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0._fleetVOs) do
@@ -887,7 +887,7 @@ function slot0.GetFleetCount(slot0)
 	return slot1
 end
 
-function slot0.tweenTabArrow(slot0, slot1)
+slot0.tweenTabArrow = function(slot0, slot1)
 	setActive(slot0.btnRegular:Find("arr"), slot1)
 	setActive(slot0.btnSub:Find("arr"), slot1)
 
@@ -907,7 +907,7 @@ function slot0.tweenTabArrow(slot0, slot1)
 	end
 end
 
-function slot0.recyclePainting(slot0)
+slot0.recyclePainting = function(slot0)
 	for slot4, slot5 in pairs(slot0._cards) do
 		for slot9, slot10 in ipairs(slot5) do
 			slot10:clear()
@@ -915,7 +915,7 @@ function slot0.recyclePainting(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if isActive(slot0._renamePanel) then
@@ -925,7 +925,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.commanderFormationPanel:Destroy()
 
 	if slot0._attrFrame.gameObject.activeSelf then

@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"",
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "硝煙散去之後，海面恢復了平靜。在芝加哥的掩護下，巴格萊得以逃脫，代價是芝加哥承受了{namecode:54}和{namecode:56}的火力，最終不得不撤退，而逃脫的巴格萊區區一艘驅逐成不了氣候…",
 			typewriter = {
@@ -50,8 +50,8 @@ return {
 			actor = 303020,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:54}",
 			say = "嗯，本來這次組成艦隊就十分倉促，{namecode:41}和{namecode:37}還有{namecode:153}的戰鬥力有限，敵人的綜合兵力也遠超我們，不能給他們反應的時間。",
+			actorName = "{namecode:54}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

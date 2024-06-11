@@ -4,15 +4,15 @@ slot2 = 153
 slot3 = 175
 slot4 = 16
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "JiuJiuExpeditionGameView"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.isTweening = 0
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.isTweening > 0 then
 		return
 	end
@@ -20,7 +20,7 @@ function slot0.onBackPressed(slot0)
 	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.activityId = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXPEDITION).id
 
 	print(slot0.activityId)
@@ -37,7 +37,7 @@ function slot0.didEnter(slot0)
 	slot0.uiAtlasName = slot0:getUIName()
 	slot2 = findTF(slot0._tf, "ad")
 
-	function slot6()
+	slot6 = function()
 		if uv0.isTweening > 0 then
 			return
 		end
@@ -125,7 +125,7 @@ function slot0.didEnter(slot0)
 	slot0:SwitchToDefaultBGM()
 end
 
-function slot0.activityUpdate(slot0)
+slot0.activityUpdate = function(slot0)
 	slot0.level = getProxy(ActivityProxy):getActivityById(slot0.activityId).data1 == 0 and slot0.stgAmount + 1 or slot1.data1
 	slot0.complete = slot1.data1 == 0
 	slot0.charPos = slot1.data2
@@ -162,7 +162,7 @@ function slot0.activityUpdate(slot0)
 	slot0:changeSelectTag(slot0.level <= slot0.stgAmount and slot0.level or slot0.stgAmount)
 end
 
-function slot0.showBookUnLock(slot0)
+slot0.showBookUnLock = function(slot0)
 	setImageAlpha(slot0.bookUnLock, 1)
 	setActive(slot0.bookUnLock, true)
 
@@ -175,7 +175,7 @@ function slot0.showBookUnLock(slot0)
 	end))
 end
 
-function slot0.showBaoxiang(slot0, slot1, slot2, slot3, slot4)
+slot0.showBaoxiang = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.isTweening = slot0.isTweening + 1
 
 	LeanTween.delayedCall(go(slot4), 0.5, System.Action(function ()
@@ -199,7 +199,7 @@ function slot0.showBaoxiang(slot0, slot1, slot2, slot3, slot4)
 	end))
 end
 
-function slot0.openBaoxiang(slot0, slot1, slot2)
+slot0.openBaoxiang = function(slot0, slot1, slot2)
 	setActive(findTF(slot1, "baoxiang_guan"), false)
 	setActive(findTF(slot1, "baoxiang_kai"), true)
 
@@ -222,13 +222,13 @@ function slot0.openBaoxiang(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.changeSelectTag(slot0, slot1)
+slot0.changeSelectTag = function(slot0, slot1)
 	slot0.curSelectLevel = slot1
 
 	slot0:selectTagChange(slot1 ~= slot0.curSelectLevel)
 end
 
-function slot0.selectTagChange(slot0, slot1)
+slot0.selectTagChange = function(slot0, slot1)
 	if slot0.level < slot0.curSelectLevel then
 		slot0:changeSelectTag(slot0.level)
 
@@ -244,7 +244,7 @@ function slot0.selectTagChange(slot0, slot1)
 	slot0:updateUI()
 end
 
-function slot0.updateCharactor(slot0)
+slot0.updateCharactor = function(slot0)
 	if not slot0.complete and slot0.curSelectLevel == slot0.level and slot0.charPos > 0 then
 		if slot0.charPos ~= slot0.curCharPos then
 			slot0.curCharPos = slot0.charPos
@@ -269,7 +269,7 @@ function slot0.updateCharactor(slot0)
 	end
 end
 
-function slot0.checkExpeditionMap(slot0)
+slot0.checkExpeditionMap = function(slot0)
 	if slot0.expeditionMap then
 		if bit.band(slot0.expeditionMap.type, ActivityConst.EXPEDITION_TYPE_BAOXIANG) ~= 0 then
 			-- Nothing
@@ -285,7 +285,7 @@ function slot0.checkExpeditionMap(slot0)
 	end
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	setText(slot0.amountText, "x" .. slot0.tickets)
 	setText(slot0.stgText, i18n("jiujiu_expedition_game_stg_desc", slot0.curSelectLevel or 1))
 
@@ -304,7 +304,7 @@ function slot0.updateUI(slot0)
 	end
 end
 
-function slot0.updateGridDatas(slot0)
+slot0.updateGridDatas = function(slot0)
 	if slot0.curSelectLevel == slot0.level then
 		for slot4 = 1, #slot0.gridTypes do
 			if slot0:getMapActivityType(slot0.gridTypes[slot4]) == ActivityConst.EXPEDITION_TYPE_OPEN then
@@ -336,7 +336,7 @@ function slot0.updateGridDatas(slot0)
 	end
 end
 
-function slot0.getMapActivityType(slot0, slot1)
+slot0.getMapActivityType = function(slot0, slot1)
 	if bit.band(slot1, ActivityConst.EXPEDITION_TYPE_GOT) == ActivityConst.EXPEDITION_TYPE_GOT then
 		return ActivityConst.EXPEDITION_TYPE_GOT
 	elseif bit.band(slot1, ActivityConst.EXPEDITION_TYPE_BOSS) == ActivityConst.EXPEDITION_TYPE_BOSS then
@@ -350,7 +350,7 @@ function slot0.getMapActivityType(slot0, slot1)
 	return ActivityConst.EXPEDITION_TYPE_LOCK
 end
 
-function slot0.updateConfig(slot0)
+slot0.updateConfig = function(slot0)
 	slot0.chequerConfig = pg.activity_event_chequer[slot0.stgDatas[slot0.curSelectLevel]]
 	slot0.chequerMap = Clone(slot0.chequerConfig.chequer_map)
 	slot0.emptyPosNums = {}
@@ -362,7 +362,7 @@ function slot0.updateConfig(slot0)
 	slot0.totalNums = slot0.chequerMap[1] * slot0.chequerMap[2] - #slot0.emptyPosNums
 end
 
-function slot0.getGridSideOpen(slot0, slot1)
+slot0.getGridSideOpen = function(slot0, slot1)
 	slot2 = slot1.posNum
 	slot3 = nil
 	slot3 = (slot1.h % 2 ~= 1 or {
@@ -403,7 +403,7 @@ function slot0.getGridSideOpen(slot0, slot1)
 	return false
 end
 
-function slot0.getMapByPosNum(slot0, slot1)
+slot0.getMapByPosNum = function(slot0, slot1)
 	if slot1 <= 0 then
 		return nil
 	end
@@ -421,7 +421,7 @@ function slot0.getMapByPosNum(slot0, slot1)
 	return nil
 end
 
-function slot0.getMapByIndex(slot0, slot1)
+slot0.getMapByIndex = function(slot0, slot1)
 	for slot5 = 1, #slot0.mapDic do
 		if slot0.mapDic[slot5].mapIndex == slot1 then
 			return slot0.mapDic[slot5]
@@ -431,11 +431,11 @@ function slot0.getMapByIndex(slot0, slot1)
 	return nil
 end
 
-function slot0.getMapIndexType(slot0, slot1)
+slot0.getMapIndexType = function(slot0, slot1)
 	return slot0:getMapActivityType(slot0.gridTypes[slot1])
 end
 
-function slot0.updateMap(slot0)
+slot0.updateMap = function(slot0)
 	slot1 = slot0.chequerConfig.difficult
 
 	setImageSprite(slot0.mapCloseBg, GetSpriteFromAtlas("ui/" .. slot0.uiAtlasName .. "_atlas", "map_close_" .. slot1), true)
@@ -475,7 +475,7 @@ function slot0.updateMap(slot0)
 	end
 end
 
-function slot0.setMapGridType(slot0, slot1, slot2, slot3)
+slot0.setMapGridType = function(slot0, slot1, slot2, slot3)
 	slot1.type = slot2
 	slot1.params = slot3
 
@@ -511,7 +511,7 @@ function slot0.setMapGridType(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.addBaoXiang(slot0, slot1)
+slot0.addBaoXiang = function(slot0, slot1)
 	for slot5 = 1, #slot0.baoxiangList do
 		if slot0.baoxiangList[slot5].mapIndex == slot1.mapIndex then
 			return
@@ -527,12 +527,12 @@ function slot0.addBaoXiang(slot0, slot1)
 	})
 end
 
-function slot0.setMapTfPosition(slot0, slot1, slot2, slot3)
+slot0.setMapTfPosition = function(slot0, slot1, slot2, slot3)
 	slot4, slot5 = slot0:getPosition(slot2, slot3)
 	slot1.localPosition = Vector3(slot4, slot5, 0)
 end
 
-function slot0.updateTag(slot0)
+slot0.updateTag = function(slot0)
 	for slot4 = 1, #slot0.stgTags do
 		slot5 = slot0.stgTags[slot4]
 
@@ -554,7 +554,7 @@ function slot0.updateTag(slot0)
 	end
 end
 
-function slot0.onClickGrid(slot0, slot1)
+slot0.onClickGrid = function(slot0, slot1)
 	slot3 = slot1.mapIndex
 	slot4 = slot1.v
 	slot5 = slot1.h
@@ -580,7 +580,7 @@ function slot0.onClickGrid(slot0, slot1)
 	end
 end
 
-function slot0.moveChar(slot0, slot1, slot2, slot3)
+slot0.moveChar = function(slot0, slot1, slot2, slot3)
 	if LeanTween.isTweening(go(slot0.charactor)) then
 		LeanTween.cancel(go(slot0.charactor))
 	end
@@ -594,7 +594,7 @@ function slot0.moveChar(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.showChar(slot0, slot1, slot2, slot3)
+slot0.showChar = function(slot0, slot1, slot2, slot3)
 	slot0.charactor.localPosition = Vector3(slot1, slot2 + uv0)
 
 	setActive(slot0.charactor, true)
@@ -614,7 +614,7 @@ function slot0.showChar(slot0, slot1, slot2, slot3)
 	end))
 end
 
-function slot0.hideChar(slot0, slot1)
+slot0.hideChar = function(slot0, slot1)
 	slot2 = LeanTween.value(go(slot0.charactor), 1, 0, 0.2)
 
 	slot2:setOnUpdate(System.Action_float(function (slot0)
@@ -633,7 +633,7 @@ function slot0.hideChar(slot0, slot1)
 	end))
 end
 
-function slot0.enterBattle(slot0)
+slot0.enterBattle = function(slot0)
 	slot0:hideEnterBossUI()
 	pg.m02:sendNotification(GAME.BEGIN_STAGE, {
 		system = SYSTEM_REWARD_PERFORM,
@@ -643,7 +643,7 @@ function slot0.enterBattle(slot0)
 	slot0.bossId = nil
 end
 
-function slot0.openGrid(slot0, slot1)
+slot0.openGrid = function(slot0, slot1)
 	if slot0.inMessage then
 		return
 	end
@@ -657,7 +657,7 @@ function slot0.openGrid(slot0, slot1)
 	})
 end
 
-function slot0.getGridReward(slot0, slot1)
+slot0.getGridReward = function(slot0, slot1)
 	if slot0.inMessage then
 		return
 	end
@@ -671,21 +671,21 @@ function slot0.getGridReward(slot0, slot1)
 	})
 end
 
-function slot0.showEnterBossUI(slot0)
+slot0.showEnterBossUI = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.enterBossUI)
 	setActive(slot0.enterBossUI, true)
 end
 
-function slot0.hideEnterBossUI(slot0)
+slot0.hideEnterBossUI = function(slot0)
 	setActive(slot0.enterBossUI, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.enterBossUI)
 end
 
-function slot0.getPosNum(slot0, slot1, slot2)
+slot0.getPosNum = function(slot0, slot1, slot2)
 	return (slot1 - 1) * slot0.chequerMap[2] + slot2
 end
 
-function slot0.clear(slot0, slot1)
+slot0.clear = function(slot0, slot1)
 	for slot5 = 1, #slot0.mapDic do
 		slot6 = slot0.mapDic[slot5]
 
@@ -711,7 +711,7 @@ function slot0.clear(slot0, slot1)
 	slot0.expeditionMap = nil
 end
 
-function slot0.getBaoxiang(slot0)
+slot0.getBaoxiang = function(slot0)
 	slot1 = nil
 
 	if #slot0.poolBaoxiangList > 0 then
@@ -726,12 +726,12 @@ function slot0.getBaoxiang(slot0)
 	return slot1
 end
 
-function slot0.returnBaoxiang(slot0, slot1)
+slot0.returnBaoxiang = function(slot0, slot1)
 	setActive(slot1, false)
 	table.insert(slot0.poolBaoxiangList, slot1)
 end
 
-function slot0.getMask(slot0)
+slot0.getMask = function(slot0)
 	slot1 = nil
 
 	if #slot0.poolMasks > 0 then
@@ -745,12 +745,12 @@ function slot0.getMask(slot0)
 	return slot1
 end
 
-function slot0.returnMask(slot0, slot1)
+slot0.returnMask = function(slot0, slot1)
 	setActive(slot1, false)
 	table.insert(slot0.poolMasks, slot1)
 end
 
-function slot0.getBottomGrid(slot0)
+slot0.getBottomGrid = function(slot0)
 	slot1 = nil
 
 	if #slot0.poolBottomGrids > 0 then
@@ -764,12 +764,12 @@ function slot0.getBottomGrid(slot0)
 	return slot1
 end
 
-function slot0.returnBottomGrid(slot0, slot1)
+slot0.returnBottomGrid = function(slot0, slot1)
 	setActive(slot1, false)
 	table.insert(slot0.poolBottomGrids, slot1)
 end
 
-function slot0.getUpGrid(slot0)
+slot0.getUpGrid = function(slot0)
 	slot1 = nil
 
 	if #slot0.poolUpGrids > 0 then
@@ -783,12 +783,12 @@ function slot0.getUpGrid(slot0)
 	return slot1
 end
 
-function slot0.returnUpGrid(slot0, slot1)
+slot0.returnUpGrid = function(slot0, slot1)
 	setActive(slot1, false)
 	table.insert(slot0.poolUpGrids, slot1)
 end
 
-function slot0.getPosition(slot0, slot1, slot2)
+slot0.getPosition = function(slot0, slot1, slot2)
 	slot3 = (slot2 - 1) * uv0
 	slot4 = -(slot1 - 1) * uv1
 
@@ -799,7 +799,7 @@ function slot0.getPosition(slot0, slot1, slot2)
 	return slot3, slot4
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if LeanTween.isTweening(go(slot0.charactor)) then
 		LeanTween.cancel(go(slot0.charactor))
 	end

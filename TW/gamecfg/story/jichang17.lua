@@ -1,16 +1,16 @@
 return {
-	id = "JICHANG17",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JICHANG17",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "azumaster-ins",
+			say = "港區・觀眾席",
 			side = 2,
 			bgName = "star_level_bg_120",
 			dir = 1,
-			say = "港區・觀眾席",
+			bgm = "azumaster-ins",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,10 +56,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_120",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 401463,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "原來如此，只要打開魔眼，就能完成這樣的舞台啊。",
 			typewriter = {
 				speed = 0.05,
@@ -90,10 +90,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_120",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 401463,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "當負有盛名的偶像釋放出深淵的力量時，她的眼睛裡會充滿激情的光芒，魅惑所有看到它的人。",
 			typewriter = {
 				speed = 0.05,
@@ -108,10 +108,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_120",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 401463,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "但我似乎沒有喚醒成為偶像的我身上的這種力量，即使是暫時也做不到。",
 			typewriter = {
 				speed = 0.05,
@@ -171,15 +171,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "終於，到演唱會了…直接就叫演唱會真的沒問題喵…？…請繼續期待，馬上就是大會的最高潮喵！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "答案即將揭曉喵——！",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

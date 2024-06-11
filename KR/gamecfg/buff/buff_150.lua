@@ -16,9 +16,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "主炮连射",
 	time = 0,
+	name = "主炮连射",
+	init_effect = "",
 	picture = "",
 	desc = "重型主炮开火时有几率发动，额外进行3轮攻击",
 	stack = 1,

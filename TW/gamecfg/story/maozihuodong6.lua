@@ -1,16 +1,16 @@
 return {
-	id = "MAOZIHUODONG6",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "在強大的艦炮和航空火力下，艦隊正一步步向著塞壬要塞所在的位置推進。",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
-			say = "在強大的艦炮和航空火力下，艦隊正一步步向著塞壬要塞所在的位置推進。",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "雖然隨著戰線的推進，塞壬也開始表現出更加頑強的抵抗，但目前為止依然沒有構成任何威脅。",
 			typewriter = {
 				speed = 0.05,
@@ -38,8 +38,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "真是厲害…居然這麼快就推進到這裡。這裡就是之前戰鬥中推進到的海域最深處了！",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "哦呀～要主動承擔引路的職責嗎？",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "之後的戰鬥確實也不適合我們逞強了，那就交給妳們了哦，白鷹的騎士們~",
 			typewriter = {
@@ -166,9 +166,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "（況且長期和塞壬進行消耗戰的北方聯合主力，就算前來支援戰鬥力恐怕也要打個問號）",
 			typewriter = {
 				speed = 0.05,
@@ -180,9 +180,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "（參加這次作戰的都是可靠的同伴，就算不依靠北方聯合主力的力量應該也沒問題）",
 			typewriter = {
 				speed = 0.05,

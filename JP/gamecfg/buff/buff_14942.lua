@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1000
+					number = 1000,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -17,42 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1000
-				}
-			},
-			{
-				type = "BattleBuffFixVelocity",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					add = 1,
-					mul = 0
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "antiAirPower",
-					number = 1100
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "dodgeRate",
-					number = 1100
+					number = 1000,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -75,8 +41,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1220
+					number = 1100,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -85,8 +51,42 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1220
+					number = 1100,
+					attr = "dodgeRate"
+				}
+			},
+			{
+				type = "BattleBuffFixVelocity",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					add = 1,
+					mul = 0
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 1220,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 1220,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -109,8 +109,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1330
+					number = 1330,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1330
+					number = 1330,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -143,8 +143,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1440
+					number = 1440,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -153,42 +153,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1440
-				}
-			},
-			{
-				type = "BattleBuffFixVelocity",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					add = 3,
-					mul = 0
-				}
-			}
-		}
-	},
-	{
-		effect_list = {
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "antiAirPower",
-					number = 1550
-				}
-			},
-			{
-				type = "BattleBuffAddAttrRatio",
-				trigger = {
-					"onAttach"
-				},
-				arg_list = {
-					attr = "dodgeRate",
-					number = 1550
+					number = 1440,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -211,8 +177,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1660
+					number = 1550,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -221,8 +187,42 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1660
+					number = 1550,
+					attr = "dodgeRate"
+				}
+			},
+			{
+				type = "BattleBuffFixVelocity",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					add = 3,
+					mul = 0
+				}
+			}
+		}
+	},
+	{
+		effect_list = {
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 1660,
+					attr = "antiAirPower"
+				}
+			},
+			{
+				type = "BattleBuffAddAttrRatio",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 1660,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -245,8 +245,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1770
+					number = 1770,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -255,8 +255,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1770
+					number = 1770,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -279,8 +279,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1880
+					number = 1880,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -289,8 +289,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 1880
+					number = 1880,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -313,8 +313,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 2000
+					number = 2000,
+					attr = "antiAirPower"
 				}
 			},
 			{
@@ -323,8 +323,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "dodgeRate",
-					number = 2000
+					number = 2000,
+					attr = "dodgeRate"
 				}
 			},
 			{
@@ -339,9 +339,9 @@ return {
 			}
 		}
 	},
-	init_effect = "jinengchufablue",
-	name = "属性变更",
 	time = 0,
+	name = "属性变更",
+	init_effect = "jinengchufablue",
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
@@ -355,8 +355,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 1000
+				number = 1000,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -365,8 +365,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 1000
+				number = 1000,
+				attr = "dodgeRate"
 			}
 		},
 		{

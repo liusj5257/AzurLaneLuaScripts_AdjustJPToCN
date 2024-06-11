@@ -19,11 +19,11 @@ slot0.Fields = {
 }
 slot0.Listeners = {
 	onAdd = "OnAdd",
-	onRemove = "OnRemove",
-	onUpdateAttachment = "OnUpdateAttachment"
+	onUpdateAttachment = "OnUpdateAttachment",
+	onRemove = "OnRemove"
 }
 
-function slot0.GetCompassTpl(slot0)
+slot0.GetCompassTpl = function(slot0)
 	if slot0 == WorldMapAttachment.CompassTypeBattle then
 		return "compassBat_tpl"
 	elseif slot0 == WorldMapAttachment.CompassTypeExploration then
@@ -45,7 +45,7 @@ function slot0.GetCompassTpl(slot0)
 	end
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.ROTATIONOFFSET = 45
 	slot0.rangeTF = slot0.tf:Find("range")
 	slot0.anchor = slot0.rangeTF:Find("anchor")
@@ -58,7 +58,7 @@ function slot0.Setup(slot0, slot1)
 	slot0.scaleRate = slot1 and Vector3.one or Vector3.New(0.7, 0.7, 1)
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot3 = slot2:GetFleet()
 	slot4, slot5 = slot2:GetMapSize()
 	slot6 = Vector2(slot4 - 1, slot5 - 1)
@@ -76,7 +76,7 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:UpdateFleetPos(slot3, slot3.row, slot3.column)
 end
 
-function slot0.UpdateByViewer(slot0, slot1, slot2, slot3)
+slot0.UpdateByViewer = function(slot0, slot1, slot2, slot3)
 	slot5, slot6 = slot1:GetMapSize()
 	slot7 = Vector2(slot5 - 1, slot6 - 1)
 
@@ -86,7 +86,7 @@ function slot0.UpdateByViewer(slot0, slot1, slot2, slot3)
 	slot0:UpdateFleetPos(slot1:GetFleet(), slot2, slot3)
 end
 
-function slot0.InitCells(slot0, slot1)
+slot0.InitCells = function(slot0, slot1)
 	slot2 = slot0.map
 
 	slot0:RemoveCellsListener()
@@ -103,7 +103,7 @@ function slot0.InitCells(slot0, slot1)
 	end
 end
 
-function slot0.UpdateMarks(slot0, slot1, slot2, slot3)
+slot0.UpdateMarks = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.map
 
 	_.each(slot0.cells, function (slot0)
@@ -115,13 +115,13 @@ function slot0.UpdateMarks(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.UpdateFleetPos(slot0, slot1, slot2, slot3)
+slot0.UpdateFleetPos = function(slot0, slot1, slot2, slot3)
 	slot4 = nil
 
 	setAnchoredPosition(slot0.anchor, (not WorldConst.InFOVRange(slot2, slot3, slot1.row, slot1.column, slot0.fov) or slot0:CalcInnerPos(slot1.row, slot1.column, slot2, slot3)) and slot0:CalcOutsidePos(slot1.row, slot1.column, slot2, slot3))
 end
 
-function slot0.AddCellListener(slot0, slot1)
+slot0.AddCellListener = function(slot0, slot1)
 	slot1:AddListener(WorldMapCell.EventAddAttachment, slot0.onAdd)
 	slot1:AddListener(WorldMapCell.EventRemoveAttachment, slot0.onRemove)
 	_.each(slot1.attachments, function (slot0)
@@ -131,7 +131,7 @@ function slot0.AddCellListener(slot0, slot1)
 	end)
 end
 
-function slot0.RemoveCellsListener(slot0)
+slot0.RemoveCellsListener = function(slot0)
 	_.each(slot0.cells or {}, function (slot0)
 		slot0:RemoveListener(WorldMapCell.EventAddAttachment, uv0.onAdd)
 		slot0:RemoveListener(WorldMapCell.EventRemoveAttachment, uv0.onRemove)
@@ -143,7 +143,7 @@ function slot0.RemoveCellsListener(slot0)
 	end)
 end
 
-function slot0.OnAdd(slot0, slot1, slot2, slot3)
+slot0.OnAdd = function(slot0, slot1, slot2, slot3)
 	slot3:AddListener(WorldMapAttachment.EventUpdateLurk, slot0.onUpdateAttachment)
 	slot3:AddListener(WorldMapAttachment.EventUpdateData, slot0.onUpdateAttachment)
 	slot3:AddListener(WorldMapAttachment.EventUpdateFlag, slot0.onUpdateAttachment)
@@ -151,7 +151,7 @@ function slot0.OnAdd(slot0, slot1, slot2, slot3)
 	slot0:Update(slot0.entrance, slot0.map)
 end
 
-function slot0.OnRemove(slot0, slot1, slot2, slot3)
+slot0.OnRemove = function(slot0, slot1, slot2, slot3)
 	slot3:RemoveListener(WorldMapAttachment.EventUpdateLurk, slot0.onUpdateAttachment)
 	slot3:RemoveListener(WorldMapAttachment.EventUpdateData, slot0.onUpdateAttachment)
 	slot3:RemoveListener(WorldMapAttachment.EventUpdateFlag, slot0.onUpdateAttachment)
@@ -159,14 +159,14 @@ function slot0.OnRemove(slot0, slot1, slot2, slot3)
 	slot0:Update(slot0.entrance, slot0.map)
 end
 
-function slot0.OnUpdateAttachment(slot0)
+slot0.OnUpdateAttachment = function(slot0)
 	if slot0.map and slot0.map.active then
 		slot0:ClearMarks()
 		slot0:Update(slot0.entrance, slot0.map)
 	end
 end
 
-function slot0.UpdateCompassRotation(slot0, slot1)
+slot0.UpdateCompassRotation = function(slot0, slot1)
 	if slot0.prevFleetPos == Vector2(slot1.column, slot1.row) then
 		return
 	end
@@ -182,31 +182,31 @@ function slot0.UpdateCompassRotation(slot0, slot1)
 	slot0.anchor:SetAsLastSibling()
 end
 
-function slot0.GetAnchorEulerAngles(slot0)
+slot0.GetAnchorEulerAngles = function(slot0)
 	return slot0.anchor.localEulerAngles
 end
 
-function slot0.SetAnchorEulerAngles(slot0, slot1)
+slot0.SetAnchorEulerAngles = function(slot0, slot1)
 	slot0.anchor.localEulerAngles = slot1
 end
 
-function slot0.UpdateBorder(slot0, slot1, slot2, slot3)
+slot0.UpdateBorder = function(slot0, slot1, slot2, slot3)
 	slot0.border.sizeDelta = Vector2(slot1.y * slot0.normal, slot1.x * slot0.normal)
 	slot0.border.anchoredPosition = Vector2(-slot3 * slot0.normal, slot2 * slot0.normal)
 end
 
-function slot0.getVector(slot0, slot1)
+slot0.getVector = function(slot0, slot1)
 	return Vector2(slot1.config.area_pos[1], slot1.config.area_pos[2])
 end
 
-function slot0.CalcTaskMarkPos(slot0, slot1)
+slot0.CalcTaskMarkPos = function(slot0, slot1)
 	slot2 = calcPositionAngle(slot1.x, slot1.y)
 	slot3 = slot0.normal * (slot0.fov + 1)
 
 	return Vector3(math.sin(math.rad(slot2)) * slot3, math.cos(math.rad(slot2)) * slot3, 0)
 end
 
-function slot0.UpdateInnerMark(slot0, slot1, slot2, slot3)
+slot0.UpdateInnerMark = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.map
 
 	if slot1:GetCompassAttachment() then
@@ -222,13 +222,13 @@ function slot0.UpdateInnerMark(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.CalcInnerPos(slot0, slot1, slot2, slot3, slot4)
+slot0.CalcInnerPos = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = Vector2(slot2 - slot4, -1 * (slot1 - slot3))
 
 	return Vector3(slot0.normal * slot5.x, slot0.normal * slot5.y, 0)
 end
 
-function slot0.UpdateOutsideMark(slot0, slot1, slot2, slot3)
+slot0.UpdateOutsideMark = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.map
 
 	if slot1:GetCompassAttachment() then
@@ -244,7 +244,7 @@ function slot0.UpdateOutsideMark(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.CalcOutsidePos(slot0, slot1, slot2, slot3, slot4)
+slot0.CalcOutsidePos = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = math.abs(Vector2.Angle(Vector2(slot1 - slot3, slot2 - slot4), Vector2.up) - 90)
 	slot6 = Vector2(slot2 - slot4, slot3 - slot1)
 	slot7 = slot0.normal * (slot0.fov + 0.5)
@@ -252,7 +252,7 @@ function slot0.CalcOutsidePos(slot0, slot1, slot2, slot3, slot4)
 	return Vector3(math.sin(math.rad(slot5)) * slot7 * Mathf.Sign(slot6.x), math.cos(math.rad(slot5)) * slot7 * Mathf.Sign(slot6.y), 0)
 end
 
-function slot0.NewMark(slot0, slot1, slot2, slot3)
+slot0.NewMark = function(slot0, slot1, slot2, slot3)
 	slot0.pool:Get(uv0.GetCompassTpl(slot1)).transform.localScale = slot0.scaleRate
 	slot5.name = slot3 or "mark"
 
@@ -266,7 +266,7 @@ function slot0.NewMark(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.NewTransportMark(slot0, slot1, slot2)
+slot0.NewTransportMark = function(slot0, slot1, slot2)
 	slot3 = slot0.pool:Get(slot1)
 
 	setParent(slot3, slot0.border)
@@ -282,7 +282,7 @@ function slot0.NewTransportMark(slot0, slot1, slot2)
 	})
 end
 
-function slot0.ClearMarks(slot0)
+slot0.ClearMarks = function(slot0)
 	_.each(slot0.marks, function (slot0)
 		slot0.go.transform.localScale = Vector3.one
 
@@ -292,7 +292,7 @@ function slot0.ClearMarks(slot0)
 	slot0.marks = {}
 end
 
-function slot0.GetMarkPosition(slot0, slot1, slot2)
+slot0.GetMarkPosition = function(slot0, slot1, slot2)
 	assert(slot0.map)
 
 	slot4 = slot0.map:GetFleet()
@@ -301,7 +301,7 @@ function slot0.GetMarkPosition(slot0, slot1, slot2)
 	return slot0.rangeTF:TransformPoint((not WorldConst.InFOVRange(slot4.row, slot4.column, slot1, slot2, slot0.fov) or slot0:CalcInnerPos(slot1, slot2, slot4.row, slot4.column)) and slot0:CalcOutsidePos(slot1, slot2, slot4.row, slot4.column))
 end
 
-function slot0.GetEntranceTrackMark(slot0, slot1)
+slot0.GetEntranceTrackMark = function(slot0, slot1)
 	assert(slot0.entrance)
 
 	slot3, slot4 = slot0:getVector(nowWorld():GetMap(slot1))
@@ -310,7 +310,7 @@ function slot0.GetEntranceTrackMark(slot0, slot1)
 	return slot0.rangeTF:TransformPoint(slot0:CalcTaskMarkPos(slot3, slot4, slot5, slot6))
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:RemoveCellsListener()
 	slot0:ClearMarks()
 	slot0:Clear()

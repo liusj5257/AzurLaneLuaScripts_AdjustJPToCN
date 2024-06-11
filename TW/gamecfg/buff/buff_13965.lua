@@ -129,9 +129,9 @@ return {
 			}
 		}
 	},
-	time = 8,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 8,
 	picture = "",
 	desc = "属性提升",
 	stack = 1,

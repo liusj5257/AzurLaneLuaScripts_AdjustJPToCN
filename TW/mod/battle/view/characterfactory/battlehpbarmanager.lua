@@ -15,22 +15,22 @@ slot2.ORIGIN_PROGRESS_WIDTH = {
 	enemyBlood = 153
 }
 
-function slot2.Ctor(slot0)
+slot2.Ctor = function(slot0)
 end
 
-function slot2.Init(slot0, slot1, slot2)
+slot2.Init = function(slot0, slot1, slot2)
 	slot0._allPool = {}
 	slot0._ob2Pool = {}
 	slot0._allPool[uv0.HP_BAR_FRIENDLY] = uv0.generateTempPool(uv0.HP_BAR_FRIENDLY, slot2, slot1, 3, 10)
 	slot0._allPool[uv0.HP_BAR_FOE] = uv0.generateTempPool(uv0.HP_BAR_FOE, slot2, slot1, 8, 10)
 end
 
-function slot2.InitialPoolRoot(slot0, slot1)
+slot2.InitialPoolRoot = function(slot0, slot1)
 	slot0._allPool[uv0.HP_BAR_FRIENDLY]:ResetParent(slot1)
 	slot0._allPool[uv0.HP_BAR_FOE]:ResetParent(slot1)
 end
 
-function slot2.Clear(slot0)
+slot2.Clear = function(slot0)
 	for slot4, slot5 in pairs(slot0._allPool) do
 		slot5:Dispose()
 	end
@@ -39,7 +39,7 @@ function slot2.Clear(slot0)
 	slot0._allPool = {}
 end
 
-function slot2.GetHPBar(slot0, slot1)
+slot2.GetHPBar = function(slot0, slot1)
 	slot2 = slot0._allPool[slot1]
 	slot3 = slot2:GetObject()
 	slot0._ob2Pool[slot3] = slot2
@@ -61,7 +61,7 @@ function slot2.GetHPBar(slot0, slot1)
 	return slot3
 end
 
-function slot2.DestroyObj(slot0, slot1)
+slot2.DestroyObj = function(slot0, slot1)
 	if slot1 == nil then
 		return
 	end
@@ -75,11 +75,11 @@ end
 
 slot3 = Vector3(0, 10000, 0)
 
-function slot2.HideBullet(slot0)
+slot2.HideBullet = function(slot0)
 	slot0.transform.position = uv0
 end
 
-function slot2.generateTempPool(slot0, slot1, slot2, slot3, slot4)
+slot2.generateTempPool = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = slot2.transform:Find(slot0).gameObject
 	slot6.transform.position = uv0
 

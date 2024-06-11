@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"소류 씨와 함께\n\n<size=45>제2장 - 가르쳐줘, 소류 선생님!</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "소류의 취미는 분명 화투였었지…… 더 친해지게 화투부터 시작해보자!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,15 +48,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 사쿠라 엠파이어 숙소",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 사쿠라 엠파이어 숙소",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -97,12 +97,12 @@ return {
 			}
 		},
 		{
-			actor = 301590,
+			say = "흠…… 드디어 그 천하의 갈림길이 된 전투 차례인가!",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "흠…… 드디어 그 천하의 갈림길이 된 전투 차례인가!",
+			actor = 301590,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -117,11 +117,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#92fc63",
 			say = "전국시대, 이마가와 가는 여전히 토카이도의 패권을 주장하고 있었습니다…… 어머, 지휘관께서 여긴 어쩐 일로?",
 			typewriter = {
 				speed = 0.05,
@@ -187,11 +187,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			dir = 1,
 			side = 1,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307030,
 			nameColor = "#92fc63",
 			say = "들어볼까.",
 			typewriter = {
@@ -204,15 +204,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#92fc63",
 			say = "……노부나가의 기습으로 요시모토가 전사한 건 누구도 예상하지 못했던 일입니다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -253,15 +253,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#92fc63",
 			say = "……자, 오늘 내용은 여기까지입니다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,9 +286,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "과연 소류, 간결하면서도 알찬 해설 덕에 무척 이해하기 쉬웠다.",
 			typewriter = {
 				speed = 0.05,
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 301590,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 301590,
+			nameColor = "#92fc63",
 			say = "흠흠…… 과연, 감사합니다! 소류 선생님!",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -354,9 +354,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "다른 수업까지…… 소류는 뭐든지 알고 있구나, 하고 진심으로 감탄했다.",
 			typewriter = {
 				speed = 0.05,
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#92fc63",
 			say = "그래서, 무슨 용무이신지요?",
 			typewriter = {
 				speed = 0.05,

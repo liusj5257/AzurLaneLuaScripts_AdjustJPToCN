@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_project_tb_cg6",
+			side = 2,
+			bgm = "qe-ova-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "She approaches the glass of the tank, looks up, and eyes the aquatic life in the water with great curiosity.",
-			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -45,14 +45,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Mhm. It's warm.",
 			voice = "event:/educate/tb/educate-tb-story-1-8",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Mhm. It's warm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,14 +87,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "No... The blue water.",
 			voice = "event:/educate/tb/educate-tb-story-1-9",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "No... The blue water.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,8 +117,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			say = "She must be talking about the sea.",
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			say = "Does she feel a familiarity with it, even inside this fabricated world?",
@@ -163,14 +163,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Okay...",
 			voice = "event:/educate/tb/educate-tb-story-1-10",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Okay...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,8 +181,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			say = "She turns to me with a slight look of confusion.",
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			say = "It's understandable. She still has the cognitive ability of a child, so it must be hard for her to truly grasp some concepts.",
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			say = "She answers with a nod.",

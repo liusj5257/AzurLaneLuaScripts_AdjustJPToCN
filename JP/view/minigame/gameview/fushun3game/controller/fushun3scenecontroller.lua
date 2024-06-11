@@ -1,6 +1,6 @@
 slot0 = class("Fushun3SceneController")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._sceneTf = slot2
 	slot0._followTf = slot3
 	slot0._sceneBackTf = slot1
@@ -16,7 +16,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot4 = 0
 	slot0._sceneTf.anchoredPosition = Vector2(0, slot4)
 
@@ -25,7 +25,7 @@ function slot0.start(slot0)
 	end
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	slot4 = 0
 
 	if slot0._followTf.anchoredPosition.x + slot0._sceneTf.anchoredPosition.x > 350 then
@@ -52,7 +52,7 @@ function slot0.step(slot0)
 	end
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 end
 
 return slot0

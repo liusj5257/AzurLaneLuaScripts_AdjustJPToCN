@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022围剿小斯佩 甜品运输船被打爆后出现甜品子弹",
 	time = 0,
-	color = "blue",
+	name = "2022围剿小斯佩 甜品运输船被打爆后出现甜品子弹",
+	init_effect = "",
+	id = 200095,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200095,
+	color = "blue",
 	icon = 200095,
 	last_effect = "",
 	effect_list = {

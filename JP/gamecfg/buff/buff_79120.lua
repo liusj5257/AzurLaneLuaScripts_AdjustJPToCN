@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "赫米忒_海域风暴debuff",
 	time = 1,
+	name = "赫米忒_海域风暴debuff",
+	init_effect = "",
 	picture = "",
 	desc = "减速减命中",
 	stack = 1,

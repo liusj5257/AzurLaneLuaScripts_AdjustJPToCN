@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "范围扩大I",
 	time = 0,
+	name = "范围扩大I",
+	init_effect = "",
 	picture = "",
 	desc = "该角色的狩猎范围等级+1",
 	stack = 1,

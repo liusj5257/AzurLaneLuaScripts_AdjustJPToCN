@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 9716,
 	picture = "",
 	desc = "伤害提高",
 	stack = 1,
-	id = 9716,
+	color = "red",
 	icon = 9716,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 10000
+				number = 10000,
+				attr = "torpedoPower"
 			}
 		}
 	}

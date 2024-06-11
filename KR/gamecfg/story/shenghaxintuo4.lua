@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"피로 회복의 비결은?!\n\n<size=45>4 잠자는 공주를 깨우는 방법</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "혼란에 빠진 인디펜던스를 어떻게든 돌려보낸 다음 샌 재신토는 합동 훈련을 하러 나섰고, 나는 계속 업무에 몰두했다.",
 			bgm = "story-richang-6",
+			say = "혼란에 빠진 인디펜던스를 어떻게든 돌려보낸 다음 샌 재신토는 합동 훈련을 하러 나섰고, 나는 계속 업무에 몰두했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "오후가 되자 테이블 위 서류도 상당히 줄어들기 시작했다.",
@@ -73,27 +73,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_outdoor",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_outdoor",
 			say = "합동 귀착 부두에 도착했지만, 어디에도 그녀의 모습은 보이지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			say = "낯익은 함선의 모습이 눈에 들어왔다.",
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 107220,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관? 여기는 왜…? 분명 아직…… 으흠.",
 			painting = {
 				alpha = 0.3,
@@ -168,10 +168,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107220,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응? 아직 못 만났어?",
 			painting = {
 				alpha = 0.3,
@@ -186,10 +186,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107220,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "훈련이 끝나자마자 부리나케 집무실로 가던데.",
 			painting = {
 				alpha = 0.3,
@@ -201,12 +201,12 @@ return {
 			}
 		},
 		{
-			actor = 107220,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇게 서두르는 모습은 처음 봤어…",
 			painting = {
 				alpha = 0.3,
@@ -233,10 +233,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107220,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……그, 그런가. ///",
 			painting = {
 				alpha = 0.3,
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			say = "샌 재신토와 서로 엇갈린 걸 깨닫고, 서둘러 집무실로 향했다.",
@@ -271,27 +271,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_task_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_task_2",
 			say = "집무실로 돌아오자 책상에 쌓여 있던 서류 더미가 또 줄어든 게 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "샌 재신토는 책상에 엎드려 자고 있다. 살짝 미소를 짓고 있는 그녀의 모습은 마치 한 폭의 그림처럼 보였다.",
@@ -334,8 +334,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "소파로 옮겨 눕히는 것 자체는 어렵지 않다.",
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "하지만… 그녀를 '깨우지 않고' 해내는 건 난이도가 너무도 높다…",
@@ -356,8 +356,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "여러모로 고민한 끝에 '공주님 안기'로 옮기기로 했다.",
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "샌 재신토를 의자에서 천천히 안아 올려, 살짝 소파에 내려 놓았다.",
@@ -390,8 +390,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "그녀 곁을 떠나려는 순간, 잠든 줄 알았던 소녀의 손에 소매가 잡혔다.",
@@ -404,10 +404,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관님, 너무해요~",
 			painting = {
 				alpha = 0.3,
@@ -446,10 +446,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "훈련이 끝나고 같이 밤새기로 했으면서 너무해요. 벌써 잊어버리셨어요?",
 			painting = {
 				alpha = 0.3,
@@ -473,12 +473,12 @@ return {
 			}
 		},
 		{
-			actor = 107300,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107300,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……잠깐 눈 붙이는 게 피로 회복에 좋기는 하지만요.",
 			painting = {
 				alpha = 0.3,
@@ -493,10 +493,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관님은 정말 그걸로 만족하신 건가요?",
 			painting = {
 				alpha = 0.3,
@@ -523,10 +523,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "'잠자는 공주'를 깨울 때는 사랑의 마법을…… 그러니까 달콤한 키스를 해줘야죠.",
 			painting = {
 				alpha = 0.3,
@@ -541,10 +541,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "동화에서는 다들 그러던데…",
 			painting = {
 				alpha = 0.3,
@@ -559,10 +559,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107300,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "'공주님 안기'까지 했으면서, 그냥 자라고 방치해둔 채로 업무를 보시다니 너무해요~",
 			painting = {
 				alpha = 0.3,

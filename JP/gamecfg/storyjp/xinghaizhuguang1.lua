@@ -6,18 +6,18 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			portrait = 118020,
-			bgm = "story-richang-11",
 			actorName = "グアム",
+			bgm = "story-richang-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_503",
+			portrait = 118020,
 			say = "カメラセッティング……OK",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,9 +53,9 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 118020,
 			actorName = "グアム",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "パラメーター設定……OK",
 			painting = {
@@ -73,9 +73,9 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 118020,
 			actorName = "グアム",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "録画モード……Start！",
 			painting = {
@@ -90,9 +90,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			bgName = "star_level_bg_503",
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -106,17 +106,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -143,11 +143,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Anyway～この番組が見られてる頃にはもう朝だし！",
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "今の時刻は朝4時10分！普段忙しい格納庫はガラガラで、おばけでも出てきそうな雰囲気！",
@@ -274,11 +274,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そう！勘のいい方はもうお分かりかと思いますが～",
@@ -354,9 +354,9 @@ return {
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 103260,
 			actorName = "ノーザンプトンⅡ",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "グアム、私たちは番組撮影ではなく、仲間の出迎えに来たでしょ？",
 			painting = {
@@ -388,11 +388,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "言われてみればそうだった！グアムたちがここにいるのは仲間を出迎えるため！",
@@ -520,11 +520,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「いつも真面目なプリンストンがワクワクしてる姿が見たい」んだって",
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まあ別にただでやってあげるわけじゃないからね",
@@ -634,9 +634,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			bgName = "star_level_bg_503",
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -650,17 +650,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -674,11 +674,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "格納庫がこんなに広いなんて…山の中の施設だと聞いたけど、いくらなんでも大きすぎるよ…",
@@ -711,11 +711,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ラフィーちゃん、私にしっかりついてきてね。はぐれて迷子になったら大変なんだから",
@@ -729,11 +729,11 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "うん……",
@@ -766,11 +766,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "しかもこの壁の材質…もしかしたら外では全く使われていないなにかだったりして…",
@@ -803,11 +803,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "前に誰かいるみたい？あのー",
@@ -935,11 +935,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
-			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			bgName = "star_level_bg_503",
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ルイビルだ！それとプリンストンたちも来ているのね！",
@@ -952,17 +952,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -976,11 +976,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そろそろ例のやつを準備して……",
@@ -1013,12 +1013,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			soundeffect = "event:/battle/firework",
 			say = "（バンバンバンバン）",
+			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1028,11 +1028,11 @@ return {
 			expression = 7,
 			side = 0,
 			bgName = "star_level_bg_503",
-			hideOther = true,
-			dir = 1,
-			actorName = "二人",
-			actor = 103270,
 			nameColor = "#A9F548FF",
+			dir = 1,
+			actor = 103270,
+			hideOther = true,
+			actorName = "二人",
 			say = "きゃぁあああ！ ど、どういうこと？！",
 			pos = {
 				x = -300
@@ -1056,8 +1056,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1104,11 +1104,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はっ！インディペンデンス級のプリンストン、この度NYシティ艦隊より転属になりました！今日から「星の海」駐在艦船として着任します！",
@@ -1201,12 +1201,12 @@ return {
 			expression = 5,
 			side = 0,
 			fadeInPaintingTime = 0,
-			hideOther = true,
+			actor = 118020,
 			dir = 1,
+			nameColor = "#A9F548FF",
+			hideOther = true,
 			actorName = "二人",
 			bgName = "star_level_bg_503",
-			actor = 118020,
-			nameColor = "#A9F548FF",
 			fadeOutPaintingTime = 0,
 			say = "そうだよ！ 違うよ",
 			subActors = {
@@ -1228,8 +1228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1241,12 +1241,12 @@ return {
 			expression = 5,
 			side = 0,
 			fadeInPaintingTime = 0,
-			bgName = "star_level_bg_503",
+			actor = 118020,
 			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_503",
 			hideOther = true,
 			actorName = "二人",
-			actor = 118020,
-			nameColor = "#A9F548FF",
 			fadeOutPaintingTime = 0,
 			say = "大事な番組だから！ グアムが会議をサボるためで…",
 			subActors = {
@@ -1267,12 +1267,12 @@ return {
 			expression = 5,
 			side = 0,
 			fadeInPaintingTime = 0,
-			bgName = "star_level_bg_503",
+			actor = 118020,
 			dir = 1,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_503",
 			hideOther = true,
 			actorName = "二人",
-			actor = 118020,
-			nameColor = "#A9F548FF",
 			fadeOutPaintingTime = 0,
 			say = "撮影に協力お願い！ 気にしなくていいから早く出発しよう",
 			subActors = {
@@ -1387,11 +1387,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……じゃあ一つ聞きたいことが…",
@@ -1519,11 +1519,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "アラスカは公務で出張中だから、今「星の海」にいないの",
@@ -1575,11 +1575,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "うわっめっちゃ凹んでる…もしかしてサラトガちゃんたちに会いたくて配属を申し出たの？",
@@ -1593,11 +1593,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ、別にそうじゃないよ。配属されたのはインディペンデンス級のⅡ型艤装の研究に協力するためね",
@@ -1630,11 +1630,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "兵装設計部",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "情報収集中に出てきた疑問点をここにまとめたから、よかったら教えてほしいんだけど…",
@@ -1667,8 +1667,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1772,11 +1772,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_503",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ここからはグアムが案内と撮影、ノーザンプトンは施設の説明を…",
@@ -1809,9 +1809,9 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
 			asideType = 1,
+			blackBg = true,
 			bgm = "theme-ucnf-image",
 			effects = {
 				{
@@ -1855,8 +1855,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

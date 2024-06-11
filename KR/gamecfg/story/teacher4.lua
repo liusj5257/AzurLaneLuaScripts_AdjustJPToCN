@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"가르쳐줘! Z23 선생님!\n\n<size=45>제4장 ——금단의 더블 장난!——</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "우으으… 이, 이번에야말로 이번엔 반드시 잘 해내보이겠어…",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "우으으… 이, 이번에야말로 이번엔 반드시 잘 해내보이겠어…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,13 +66,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "몇 분 뒤 - 교실 밖",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "좋아, 새러토가 씨는 여기 있는 것 같네. 그럼…",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "좋아, 새러토가 씨는 여기 있는 것 같네. 그럼…",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -193,9 +193,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "(퍽!)",
 			typewriter = {
 				speed = 0.05,
@@ -219,12 +219,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "흐흥, 칠판 지우개는 어디까지나 미끼! 진짜는 칠판 지우개의 뒤에 있는 함재기의 정밀투하! 이것이야 말로 새러토가쨩 오리지날, 금단의 더블 장난! 헤헤헤, 지금 깜짝 놀랐지?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "흐흥, 칠판 지우개는 어디까지나 미끼! 진짜는 칠판 지우개의 뒤에 있는 함재기의 정밀투하! 이것이야 말로 새러토가쨩 오리지날, 금단의 더블 장난! 헤헤헤, 지금 깜짝 놀랐지?",
+			actor = 107030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -303,12 +303,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "렉싱턴 씨…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "렉싱턴 씨…",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

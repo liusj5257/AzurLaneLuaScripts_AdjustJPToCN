@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN29",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN29",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "儘管黑白色的身影借助夜色的掩護一面靈巧的閃避著炮火，一面持續發動著轟擊。",
+			bgm = "battle-seiren-theme",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
-			bgm = "battle-seiren-theme",
+			say = "儘管黑白色的身影借助夜色的掩護一面靈巧的閃避著炮火，一面持續發動著轟擊。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -30,9 +30,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
+			dir = 1,
 			say = "儘管水面與空氣都在激烈的震盪，藍色的巨大屏障卻依然紋絲不動的矗立在海面上。",
 			typewriter = {
 				speed = 0.05,
@@ -47,11 +47,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "這——也——太——硬——了——吧————！！！！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海因里希親王",
+			side = 2,
 			bgName = "bg_fuxiangxian_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -131,9 +131,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
+			dir = 1,
 			say = "突然水面之下出現了數十根機械鏈臂從四面八方向海因里希親王纏繞而來。",
 			typewriter = {
 				speed = 0.05,
@@ -145,9 +145,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
+			dir = 1,
 			say = "不過總算在千鈞一髮之際被勉強躲開了……",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "構建者",
+			side = 1,
 			bgName = "bg_fuxiangxian_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -197,13 +197,13 @@ return {
 			}
 		},
 		{
-			actorName = "海因里希親王",
 			side = 2,
 			bgName = "bg_fuxiangxian_5",
-			nameColor = "#a9f548",
+			actorName = "海因里希親王",
 			dir = 1,
-			say = "喂，還是想逃跑嗎！都說了不可能了，啊啊啊！這些東西好礙事！",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#a9f548",
+			say = "喂，還是想逃跑嗎！都說了不可能了，啊啊啊！這些東西好礙事！",
 			flashN = {
 				color = {
 					1,
@@ -254,8 +254,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "海因里希，立刻進行迴避。",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "這些東西的清理交給我們，讓塞壬感受一下鐵血航空艦隊的威力！",
 			typewriter = {
@@ -288,8 +288,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "那就拜託妳們了~！",
 			typewriter = {
@@ -302,11 +302,11 @@ return {
 			}
 		},
 		{
-			say = "轟————————！",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -357,8 +357,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 900230,
 			dir = 1,
+			actor = 900230,
 			nameColor = "#ff5c5c",
 			say = "………………………………",
 			typewriter = {
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,11 +399,11 @@ return {
 			}
 		},
 		{
-			say = "轟————————！",
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -499,11 +499,11 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 601020,
+			nameColor = "#a9f548",
 			say = "沒想到這次出行居然會遇到這麼刺激的事……就算是巨獸狩獵在下也會竭盡全力的！",
 			typewriter = {
 				speed = 0.05,
@@ -515,8 +515,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -528,8 +528,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			actor = 401280,
 			dir = 1,
+			actor = 401280,
 			nameColor = "#a9f548",
 			say = "還有我哦，海因里希，我們都來支援妳了！",
 			typewriter = {
@@ -542,8 +542,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -552,12 +552,12 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_fuxiangxian_3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "大家來的正好，四面進攻飽和打擊，它的護盾快撐不住了！",
 			typewriter = {
 				speed = 0.05,

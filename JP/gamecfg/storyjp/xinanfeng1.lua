@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINANFENG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XINANFENG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"リベッチオ、全力でがんばるよ！\n\n<size=45>一 秘書艦になりたいリベッチオ</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "ある日・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
-			say = "ある日・執務室",
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,10 +48,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、本日最後の書類だ。確認とサインを頼む",
 			painting = {
 				alpha = 0.3,
@@ -75,10 +75,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふっ、このリットリオにかかれば作業の効率化など造作もない",
 			painting = {
 				alpha = 0.3,
@@ -90,12 +90,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それじゃあ先に失礼するよ。せっかく早めに退勤できるんだし、指揮官も良い夜をな",
 			painting = {
 				alpha = 0.3,
@@ -119,10 +119,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "チャオ！指揮官さん！",
 			painting = {
 				alpha = 0.3,
@@ -137,10 +137,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あっ、リットリオさんだ！やったぁ！",
 			painting = {
 				alpha = 0.3,
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -165,10 +165,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "リベッチオじゃない。やった、とは…？",
 			painting = {
 				alpha = 0.3,
@@ -183,10 +183,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官さん、リットリオさん。あたしも秘書艦になりたい！",
 			painting = {
 				alpha = 0.3,
@@ -211,9 +211,9 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			optionFlag = 1,
-			dir = 1,
 			blackBg = true,
+			dir = 1,
+			optionFlag = 1,
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "今日は早めに仕事が終わったし、リベッチオとどこか遊びに出かけようか。",
 			typewriter = {
 				speed = 0.05,
@@ -295,9 +295,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "リベッチオは字がびっしり書かれている原稿用紙を取り出した。",
 			typewriter = {
 				speed = 0.05,
@@ -305,9 +305,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "このひたむきさは、まさしくマエストラーレといったところか。",
 			typewriter = {
 				speed = 0.05,
@@ -372,13 +372,13 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "人は見かけによらずとも言うし、一度やらせてみないと合うかどうかはわからないさ",
 			painting = {
 				alpha = 0.3,
@@ -390,9 +390,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "そう言われても……",
 			typewriter = {
 				speed = 0.05,
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -429,9 +429,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 2,
 			say = "そこまで言うのなら――",
 			typewriter = {
 				speed = 0.05,
@@ -445,13 +445,13 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 3,
+			actor = 601050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "やったぁ！指揮官さんありがとう！あたし頑張るねー！",
 			painting = {
 				alpha = 0.3,
@@ -482,9 +482,9 @@ return {
 			}
 		},
 		{
-			optionFlag = 3,
 			side = 2,
 			bgName = "bg_story_task",
+			optionFlag = 3,
 			say = "リベッチオは風のように、執務室から走り去っていった。",
 			typewriter = {
 				speed = 0.05,
@@ -549,10 +549,10 @@ return {
 			}
 		},
 		{
-			optionFlag = 3,
+			blackBg = true,
 			side = 2,
 			bgName = "bg_story_task",
-			blackBg = true,
+			optionFlag = 3,
 			say = "リベッチオが秘書艦、か…どうも波乱の予感がするな。",
 			typewriter = {
 				speed = 0.05,

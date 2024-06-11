@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERWEIKE1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NAERWEIKE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 401210,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "Why did our mission have to be in a place like this?!",
 			dir = 1,
 			bgm = "level02",
+			actor = 401210,
+			nameColor = "#a9f548",
+			say = "Why did our mission have to be in a place like this?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,8 +97,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -125,8 +125,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "For this operation, Z21 serves as flagship, leading Z2, Z9, Z11, Z12, Z17, Z13, Z18, Z19, and Z22, for a combined strength of ten destroyers.",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Narvik has remained neutral, and as such has limited defensive strength. We should have no problem overpowering them.",
 			typewriter = {
 				speed = 0.05,
@@ -212,8 +212,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Taking the port won't be a problem, but after that... Well, let's take this one step at a time.",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Don't be ridiculous.",
 			typewriter = {
 				speed = 0.05,

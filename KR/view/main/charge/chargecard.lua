@@ -1,6 +1,6 @@
 slot0 = class("ChargeCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.go = slot1
 	slot0.tr = tf(slot1)
 	slot0.icon = slot0.tr:Find("real_tpl/item_icon")
@@ -48,7 +48,7 @@ function slot0.Ctor(slot0, slot1)
 	setActive(slot0.countDown, false)
 end
 
-function slot0.update(slot0, slot1, slot2, slot3)
+slot0.update = function(slot0, slot1, slot2, slot3)
 	slot0.goods = slot1
 	slot4 = slot1:isChargeType() and slot1:isTecShipShowGift()
 
@@ -79,7 +79,7 @@ function slot0.update(slot0, slot1, slot2, slot3)
 	slot0:destoryTimer()
 end
 
-function slot0.updateCharge(slot0, slot1, slot2, slot3)
+slot0.updateCharge = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.tag, true)
 	setActive(slot0.mask, false)
 	setActive(slot0.maskState, false)
@@ -229,7 +229,7 @@ function slot0.updateCharge(slot0, slot1, slot2, slot3)
 	setButtonEnabled(slot0.tr, not isActive(slot0.mask))
 end
 
-function slot0.updateGemItem(slot0, slot1, slot2)
+slot0.updateGemItem = function(slot0, slot1, slot2)
 	setActive(slot0.mask, false)
 	setActive(slot0.maskState, false)
 	setText(slot0.limitText, "")
@@ -348,7 +348,7 @@ function slot0.updateGemItem(slot0, slot1, slot2)
 	setButtonEnabled(slot0.tr, not isActive(slot0.mask))
 end
 
-function slot0.updateImport(slot0, slot1, slot2)
+slot0.updateImport = function(slot0, slot1, slot2)
 	setActive(slot0.important, true)
 
 	slot3 = {}
@@ -371,7 +371,7 @@ function slot0.updateImport(slot0, slot1, slot2)
 	setText(slot0.importantTip, string.gsub(slot2, "$1", #slot3))
 end
 
-function slot0.updateCountdown(slot0, slot1)
+slot0.updateCountdown = function(slot0, slot1)
 	slot2 = false
 
 	if slot1 then
@@ -413,7 +413,7 @@ function slot0.updateCountdown(slot0, slot1)
 	slot0.updateTimer.func()
 end
 
-function slot0.destoryTimer(slot0)
+slot0.destoryTimer = function(slot0)
 	if slot0.updateTimer then
 		slot0.updateTimer:Stop()
 

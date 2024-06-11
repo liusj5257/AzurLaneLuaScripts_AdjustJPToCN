@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUYINGYINGHUARICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUYINGYINGHUARICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"각자의 새해\n\n<size=45>새해 특훈?</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_outdoor",
 			bgm = "newyear2",
 			actor = 302081,
 			nameColor = "#a9f548",
 			say = "하압——!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -66,8 +66,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304043,
 			dir = 1,
+			actor = 304043,
 			nameColor = "#a9f548",
 			say = "오~ 엄청난 기세군. 하지만 이쪽이 더 빠르다! 이렇게!",
 			typewriter = {
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 302081,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302081,
+			nameColor = "#a9f548",
 			say = "역시 키리시마! 이건 어떨까! 흡!",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -109,8 +109,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304043,
 			dir = 1,
+			actor = 304043,
 			nameColor = "#a9f548",
 			say = "하하, 아무래도 나 역시 더 노력해야 겠는걸!",
 			typewriter = {
@@ -123,9 +123,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "한동안 목검이 부딪히는 소리와 기합 소리만 들렸다——",
 			typewriter = {
 				speed = 0.05,
@@ -137,15 +137,15 @@ return {
 			}
 		},
 		{
-			actor = 302040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302040,
+			nameColor = "#a9f548",
 			say = "정말이지, 키누. 모처럼의 새해인데 조금 쉬어도 좋잖아~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304043,
 			dir = 1,
+			actor = 304043,
 			nameColor = "#a9f548",
 			say = "하하, 노력하는 사람을 싫어하지는 않으니까. 그리고 꽤 좋은 운동이지 않은가~ 덕분에 개운해졌다~",
 			typewriter = {
@@ -261,11 +261,11 @@ return {
 			}
 		},
 		{
-			actor = 302040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302040,
+			nameColor = "#a9f548",
 			say = "아, 그래. 같이 신사에 가지 않겠냐고 물어보려고 했는데… 키리시마도 같이 갈래?",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -290,8 +290,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304043,
 			dir = 1,
+			actor = 304043,
 			nameColor = "#a9f548",
 			say = "그러고 보니 올해의 새해 참배를 가지 않았네. 같이 가자~",
 			typewriter = {
@@ -304,12 +304,12 @@ return {
 			}
 		},
 		{
-			actor = 302081,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 302081,
+			nameColor = "#a9f548",
 			say = "음… 새해의 특훈은…",
 			typewriter = {
 				speed = 0.05,

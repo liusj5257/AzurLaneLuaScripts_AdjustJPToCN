@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"正月の祝福\n\n<size=45>七 正月の祝福</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 312011,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "ふにゃ！もうこんな時間にゃ！？",
 			bgm = "main-newyear",
+			actor = 312011,
+			nameColor = "#a9f548",
+			say = "ふにゃ！もうこんな時間にゃ！？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -87,8 +87,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_night",
-			actor = 399011,
 			dir = 1,
+			actor = 399011,
 			nameColor = "#a9f548",
 			say = "初詣ですね。新しい年に初めてカミ様にお願いしたことは必ず叶えてもらえるといわれています",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 102141,
 			dir = 1,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "新年の願いか。（小声）もし本当に叶えられるとしたら……",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_night",
-			actor = 102141,
 			dir = 1,
+			actor = 102141,
 			nameColor = "#a9f548",
 			say = "なんでもありません。新しい一年も姉貴を目標に頑張るだけです",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 399021,
 			dir = 1,
+			actor = 399021,
 			nameColor = "#a9f548",
 			say = "待ってくれ、願いごとは口に出すと効果が無くなってしまう。各々の願いはカミ様だけに聞かせるんだ",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -226,15 +226,15 @@ return {
 			}
 		},
 		{
-			actor = 399021,
 			side = 2,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 399021,
+			nameColor = "#a9f548",
 			say = "おお！母港のお社は初めてだが、まさかここまで立派とは！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -315,8 +315,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_101",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -351,15 +351,15 @@ return {
 			}
 		},
 		{
-			actor = 102132,
 			side = 2,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102132,
+			nameColor = "#a9f548",
 			say = "さっき皆はどんな願い事をしたのかしら？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -403,8 +403,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_101",
-			actor = 205062,
 			dir = 1,
+			actor = 205062,
 			nameColor = "#a9f548",
 			say = "まあ、健康と喜びを祈るのはどこでも同じだ。あけましておめでとう",
 			typewriter = {
@@ -433,11 +433,11 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "………ふふふふふ",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.15,
 					dur = 0.15,
 					x = 0,
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			actorName = "全員",
 			nameColor = "#a9f548",
+			actorName = "全員",
 			bgName = "star_level_bg_101",
 			side = 2,
 			dir = 1,
@@ -492,12 +492,12 @@ return {
 			}
 		},
 		{
-			actor = 312011,
 			side = 2,
 			bgName = "star_level_bg_101",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 312011,
+			nameColor = "#a9f548",
 			say = "にゃ♪今年も商売繁盛の一年になりそうにゃ！あけましておめでとうだにゃ！",
 			typewriter = {
 				speed = 0.05,

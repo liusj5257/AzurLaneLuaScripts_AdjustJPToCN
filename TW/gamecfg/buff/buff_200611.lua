@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023云仙活动 EX 多次击破次数盾后直接胜利",
 	time = 3,
+	name = "2023云仙活动 EX 多次击破次数盾后直接胜利",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -37,8 +37,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 0.1,
+				target = "TargetSelf",
 				skill_id = 200611
 			}
 		},

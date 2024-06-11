@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "boss俾斯麦",
 	time = 0,
-	color = "yellow",
+	name = "boss俾斯麦",
+	init_effect = "",
+	id = 8636,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8636,
+	color = "yellow",
 	icon = 8636,
 	last_effect = "bisimai_buff",
 	effect_list = {}

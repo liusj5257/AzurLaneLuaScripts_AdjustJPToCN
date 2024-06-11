@@ -5,11 +5,11 @@ slot2 = class("BattleBuffAddForce", slot0.Battle.BattleBuffEffect)
 slot0.Battle.BattleBuffAddForce = slot2
 slot2.__name = "BattleBuffAddForce"
 
-function slot2.Ctor(slot0, slot1)
+slot2.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot2.SetArgs(slot0, slot1, slot2)
+slot2.SetArgs = function(slot0, slot1, slot2)
 	slot0._singularity = slot0._tempData.arg_list.singularity or {
 		x = 0,
 		z = 0
@@ -25,7 +25,7 @@ function slot2.SetArgs(slot0, slot1, slot2)
 	end
 end
 
-function slot2.onUpdate(slot0, slot1, slot2)
+slot2.onUpdate = function(slot0, slot1, slot2)
 	slot3 = nil
 	slot5 = slot0._force
 
@@ -40,9 +40,9 @@ function slot2.onUpdate(slot0, slot1, slot2)
 	slot0._lastSingularityPos = slot3
 end
 
-function slot2.onAttach(slot0, slot1, slot2)
+slot2.onAttach = function(slot0, slot1, slot2)
 end
 
-function slot2.onRemove(slot0, slot1, slot2)
+slot2.onRemove = function(slot0, slot1, slot2)
 	slot1:SetUncontrollableSpeed(pg.Tool.FilterY(slot0._lastSingularityPos - slot1:GetPosition()), 0.1, 0.1)
 end

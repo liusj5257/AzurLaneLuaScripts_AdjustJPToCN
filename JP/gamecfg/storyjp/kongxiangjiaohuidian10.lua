@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN10",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-6",
 			actor = 405030,
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……私も連れて行ってくれ",
 			flashin = {
@@ -44,10 +44,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ダメよ。あなたはここに残って",
 			painting = {
 				alpha = 0.3,
@@ -62,10 +62,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…お前の計画のことならもう分かっている。だから……",
 			painting = {
 				alpha = 0.3,
@@ -80,10 +80,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 499020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "もう楽譜は完成しているの。今更余計な修正は不要よ",
 			painting = {
 				alpha = 0.3,
@@ -95,12 +95,12 @@ return {
 			}
 		},
 		{
-			actor = 499020,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 499020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あなたはあなたの調べにだけ集中しなさい",
 			painting = {
 				alpha = 0.3,
@@ -115,10 +115,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………………",
 			painting = {
 				alpha = 0.3,
@@ -130,14 +130,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 2,
-			say = "作られた偽りの夢の中で、ウルリッヒは離れ離れになった仲間と再会した。",
 			bgm = "theme-bismark-reborn",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "作られた偽りの夢の中で、ウルリッヒは離れ離れになった仲間と再会した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,17 +149,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "常に余裕綽々で敵を翻弄する、戦争という楽章の指揮者は、今やただ無力に横たわっていた。",
@@ -181,10 +181,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "フリードリヒ……あなたはこんな結末を望んでいないはず",
 			painting = {
 				alpha = 0.3,
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "敵も味方もなく、たったひとり孤独の中、沈んでいく結末。",
@@ -210,10 +210,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "ふっ、大洋艦隊を味方にするなど、所詮は絵空事に過ぎない",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "私を連れていっていたら、せめてお前だけでも逃げられたはず……",
 			painting = {
 				alpha = 0.3,
@@ -243,12 +243,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……………………",
 			painting = {
 				alpha = 0.3,
@@ -263,10 +263,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "お前をやったのは誰だ？",
 			painting = {
 				alpha = 0.3,
@@ -281,10 +281,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "まだ沈んでいないなら答えろ！……答えてくれ………",
 			painting = {
 				alpha = 0.3,
@@ -307,10 +307,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
+			side = 2,
 			say = "返答はない。ただ残骸の鋼鉄が軋む悲鳴のみ。",
 			typewriter = {
 				speed = 0.05,
@@ -327,10 +327,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……………………",
 			painting = {
 				alpha = 0.3,
@@ -345,10 +345,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "仮にユニオンと重桜をあの場所に連れ行ったところで、どうやって彼女たちと協力する？",
 			painting = {
 				alpha = 0.3,
@@ -363,10 +363,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "ビスマルクでも、お前でも……何も変わらないのだ",
 			painting = {
 				alpha = 0.3,
@@ -378,8 +378,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "……タン、タンと足音が近づく。",
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			say = "彼女が見ている夢――セイレーン上位個体に挑み、そして敗北する夢に侵入してきた存在がいる。",
@@ -403,10 +403,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………やはり、グナイゼナウと同じで悪夢を見ていたのか",
 			painting = {
 				alpha = 0.3,
@@ -421,10 +421,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "……ビスマルクか。結局、肝心な時に戦場にいなかったな",
 			painting = {
 				alpha = 0.3,
@@ -439,10 +439,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "今更何しに来た。もう作戦は終わったぞ",
 			painting = {
 				alpha = 0.3,
@@ -457,10 +457,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "周りをよく見ろ。鉄血の反逆は失敗だ――「再現」が果たされ、仲間たちが沈み、そしてセイレーンの上位個体も倒せず――",
 			painting = {
 				alpha = 0.3,
@@ -475,10 +475,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "今更やってきたところで何になる！",
 			painting = {
 				alpha = 0.3,
@@ -504,10 +504,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………分かっている",
 			painting = {
 				alpha = 0.3,
@@ -528,10 +528,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "フリードリヒの作戦がなければ、私たちはずっとセイレーンに操られたままだった",
 			painting = {
 				alpha = 0.3,
@@ -557,10 +557,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "お前が黒いキューブとやらの力を使ったのは知っている。それもやつらの手のひらの上で踊らされていただけだった",
 			painting = {
 				alpha = 0.3,
@@ -572,12 +572,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "仲間にも教えず勝手に突っ走って、勝手に倒れてみんなを置き去りにしやがって",
 			painting = {
 				alpha = 0.3,
@@ -594,12 +594,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………分かっている",
 			painting = {
 				alpha = 0.3,
@@ -620,10 +620,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "何がだ！お前は何もしなかった",
 			painting = {
 				alpha = 0.3,
@@ -638,10 +638,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "お前が倒れている間に、フリードリヒやオイゲン……皆どれだけ苦労したことか！",
 			painting = {
 				alpha = 0.3,
@@ -662,10 +662,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "すべてが終わってからノコノコと出てきやがって…私は認めん！",
 			painting = {
 				alpha = 0.3,
@@ -685,10 +685,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………分かっている",
 			painting = {
 				alpha = 0.3,
@@ -709,10 +709,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "………………",
 			painting = {
 				alpha = 0.3,
@@ -727,10 +727,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "なぜ…！なぜ黙っていられるんだ！お前は鉄血の指導者なんだろう！？",
 			painting = {
 				alpha = 0.3,
@@ -745,10 +745,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 405030,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "鉄血はこんな卑怯者に導かれてきたのか！？答えろ！",
 			painting = {
 				alpha = 0.3,
@@ -769,10 +769,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "夢と言えど、これはあなたの嘘偽りない本音だ。",
 			painting = {
 				alpha = 0.3,
@@ -790,12 +790,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
+			actor = 405010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "正直に言ってくれてありがとう。ウルリッヒ・フォン・フッテン",
 			painting = {
 				alpha = 0.3,
@@ -810,10 +810,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = -1,
-			nameColor = "#A9F548FF",
 			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私が愚行に走り、鉄血を、仲間たちを導かなかったのは事実だ。しかし一つ訂正しよう――",
 			painting = {
 				alpha = 0.3,
@@ -828,10 +828,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「鉄血は、決して敗北していない」",
 			painting = {
 				alpha = 0.3,
@@ -865,13 +865,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自律型艤装「ゲリュオン」",
+			side = 2,
 			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
-			nameColor = "#ffa500",
-			say = "▁▂▃▄▅▆▇█████▌",
 			soundeffect = "event:/ui/glassbroken",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "▁▂▃▄▅▆▇█████▌",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -889,9 +889,9 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
 			bgName = "bg_bsmre_cg7",
+			mode = 1,
 			bgm = "story-bismark-determination",
 			flashout = {
 				dur = 1,
@@ -901,8 +901,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -922,8 +922,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウルリッヒ·フォン·フッテン",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -934,8 +934,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -946,8 +946,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウルリッヒ·フォン·フッテン",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -958,8 +958,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウルリッヒ·フォン·フッテン",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -970,8 +970,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウルリッヒ·フォン·フッテン",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -982,8 +982,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -994,8 +994,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウルリッヒ·フォン·フッテン",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1006,8 +1006,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1018,8 +1018,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1030,8 +1030,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1042,8 +1042,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1054,8 +1054,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1066,8 +1066,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1078,8 +1078,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウルリッヒ·フォン·フッテン",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1090,8 +1090,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウルリッヒ·フォン·フッテン",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1102,8 +1102,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1114,8 +1114,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1126,8 +1126,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウルリッヒ·フォン·フッテン",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1138,8 +1138,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウルリッヒ·フォン·フッテン",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1150,8 +1150,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1162,8 +1162,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1174,8 +1174,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1186,8 +1186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ウルリッヒ·フォン·フッテン",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#ffa500",
@@ -1198,8 +1198,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1210,8 +1210,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1222,8 +1222,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルクZwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",

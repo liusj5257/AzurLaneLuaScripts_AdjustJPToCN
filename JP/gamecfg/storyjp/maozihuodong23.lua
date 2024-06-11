@@ -1,16 +1,16 @@
 return {
-	id = "MAOZIHUODONG23",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG23",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp3",
+			say = "セイレーン要塞",
 			side = 2,
 			bgName = "bg_cccp_7",
 			dir = 1,
-			say = "セイレーン要塞",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "大した阻害を受けることなく、こちらが率いる北方連合艦隊はセイレーン要塞の真下に突入した。",
 			typewriter = {
 				speed = 0.05,
@@ -35,9 +35,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "思っていた通り、セイレーン要塞はさっきの氷山と一体化しており、",
 			typewriter = {
 				speed = 0.05,
@@ -49,9 +49,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "荒削りの氷の斜面が光を反射し、無数の砲台と思わしき人工構造物を映し出している。",
 			typewriter = {
 				speed = 0.05,
@@ -63,9 +63,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "――まさしく「要塞」だ。",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "セイレーン要塞、まさかここまでとはね…",
 			typewriter = {
@@ -97,8 +97,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "放置してたのはまずかったのかもしれないな",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "ああ、北方連合の対セイレーンの戦力はあくまで航路と沿岸周辺、そして極地のセイレーン拠点へ向けたものだ",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "「アズールレーン」もそうだが、我々はあくまで「航路を始めとする」制海権の奪還を目指している",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "NYシティのように、セイレーン拠点により実害が出ない限り、各陣営とも動きづらいところがある",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "仕方のないことだと理解していただきたい",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "ええ、利用できるものならなんでも利用するのはこっちの主義だけど……",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "流石にこのセイレーン要塞を利用しようなんて考えが出てくるはずもなかったわ",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "……もしかして、あの研究がまずかったかもしれないわね",
 			typewriter = {
@@ -258,9 +258,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
+			dir = 1,
 			say = "いずれにしても、ここまでたどり着いたからには、手ぶらのままで帰るわけにはいかない。",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +275,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "結論を言えば、このまま殴り込む、だな",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "了解だ。今の作戦は同志指揮官が指揮を執っている。私達はそれに従うまでだ",
 			typewriter = {

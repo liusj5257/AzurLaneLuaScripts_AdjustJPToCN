@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-boss-5",
+			say = "ロイヤル本島",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
-			say = "ロイヤル本島",
+			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_115",
 			side = 2,
+			bgName = "star_level_bg_115",
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "帝国の艦隊が動いているようね",
 			typewriter = {
@@ -89,11 +89,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_115",
 			side = 2,
+			bgName = "star_level_bg_115",
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "ラスペツィア港ね",
 			typewriter = {
@@ -240,11 +240,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_115",
 			side = 2,
+			bgName = "star_level_bg_115",
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "そうね。陛下に報告するわ",
 			typewriter = {
@@ -257,15 +257,15 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "まずは交渉、ねえ……いいわ！作戦を許可する！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -307,11 +307,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 2,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "ハハッ！",
 			typewriter = {
@@ -358,9 +358,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "エリザベスのそばに控えるメイド長が発言した。",
 			typewriter = {
 				speed = 0.05,
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "ウォースパイト様がヴィシアのことを仰ったときにこう申し上げるように、陛下よりお言葉を預かっております",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -398,11 +398,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 2,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "陛下…ウォースパイト、出陣します！我が女王陛下に栄光を！",
 			typewriter = {
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -425,9 +425,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "ウォースパイトは一礼して、玉座の間より退出した。",
 			typewriter = {
 				speed = 0.05,
@@ -455,9 +455,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "ご安心ください。陛下はこのベルファストが命をかけてお守りいたします",
 			typewriter = {
 				speed = 0.05,

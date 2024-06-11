@@ -4,11 +4,11 @@ slot1 = singletonClass("BattleSpaceLaserFactory", slot0.Battle.BattleBulletFacto
 slot1.__name = "BattleSpaceLaserFactory"
 slot0.Battle.BattleSpaceLaserFactory = slot1
 
-function slot1.MakeBullet(slot0)
+slot1.MakeBullet = function(slot0)
 	return uv0.Battle.BattleLaserArea.New()
 end
 
-function slot1.MakeModel(slot0, slot1, slot2)
+slot1.MakeModel = function(slot0, slot1, slot2)
 	slot4 = slot1:GetBulletData():GetTemplate()
 	slot5 = slot0:GetDataProxy()
 
@@ -55,7 +55,7 @@ function slot1.MakeModel(slot0, slot1, slot2)
 	slot0:GetSceneMediator():AddBullet(slot1)
 end
 
-function slot1.OutRangeFunc(slot0)
+slot1.OutRangeFunc = function(slot0)
 	slot0:ExecuteLifeEndCallback()
 	uv0.GetDataProxy():RemoveBulletUnit(slot0:GetUniqueID())
 end

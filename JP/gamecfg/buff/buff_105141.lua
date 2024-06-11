@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	time = 0,
 	name = "野性的二元论",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 105141,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 105141,
+	color = "red",
 	icon = 105140,
 	last_effect = "",
 	blink = {
@@ -45,8 +45,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 105141
+				skill_id = 105141,
+				target = "TargetSelf"
 			}
 		}
 	}

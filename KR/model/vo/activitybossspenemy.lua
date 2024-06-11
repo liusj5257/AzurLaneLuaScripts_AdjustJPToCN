@@ -1,26 +1,26 @@
 slot0 = class("ActivityBossSPEnemy", import("model.vo.BaseVO"))
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.extraenemy_challenge_template
 end
 
-function slot0.GetConfigID(slot0)
+slot0.GetConfigID = function(slot0)
 	return slot0.configId
 end
 
-function slot0.GetScoreTargets(slot0)
+slot0.GetScoreTargets = function(slot0)
 	return slot0:getConfig("ex_challenge_target")
 end
 
-function slot0.GetRewards(slot0)
+slot0.GetRewards = function(slot0)
 	return slot0:getConfig("ex_challenge_reward")
 end
 
-function slot0.GetSelectableBuffs(slot0)
+slot0.GetSelectableBuffs = function(slot0)
 	return slot0:getConfig("ex_challenge_buff")
 end
 
-function slot0.GetExtraStageId(slot0)
+slot0.GetExtraStageId = function(slot0)
 	return slot0:getConfig("ex_challenge_enemy")
 end
 

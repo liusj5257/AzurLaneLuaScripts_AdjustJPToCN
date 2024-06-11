@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "精英损管",
 	init_effect = "",
+	name = "精英损管",
+	time = 0,
+	picture = "",
+	desc = "精英损管",
 	stack = 1,
 	id = 512050,
-	picture = "",
 	last_effect = "",
-	desc = "精英损管",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",

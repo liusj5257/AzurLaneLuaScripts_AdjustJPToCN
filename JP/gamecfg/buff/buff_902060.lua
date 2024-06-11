@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "压制引导-航空",
 	time = 0,
-	color = "red",
+	name = "压制引导-航空",
+	init_effect = "",
+	id = 902060,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902060,
+	color = "red",
 	icon = 902060,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 902060
+				skill_id = 902060,
+				target = "TargetSelf"
 			}
 		}
 	}

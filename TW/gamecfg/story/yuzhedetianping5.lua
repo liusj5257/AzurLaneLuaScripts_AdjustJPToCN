@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING5",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 3,
 			blackBg = true,
 			sequence = {
@@ -36,20 +36,20 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
-			bgm = "story-roma-outside",
 			say = "行走在風和日麗的會場中，四周彩旗飄揚。",
+			bgm = "story-roma-outside",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "還沒接近大劇院，就聽到了樂隊奏響的歡快樂曲。",
@@ -62,10 +62,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哇喔……這就是博覽會，我還是第一次來。",
 			painting = {
 				alpha = 0.3,
@@ -80,10 +80,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "前幾天來的時候還有些冷清，沒想到到了閉幕式當日會變得這麼熱鬧啊！",
 			painting = {
 				alpha = 0.3,
@@ -98,15 +98,15 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "連我也不自覺興奮起來了！",
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,10 +126,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……難得看到曼非斯會這麼激動。",
 			painting = {
 				alpha = 0.3,
@@ -144,10 +144,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "會場的氣氛這麼熱烈，就算是我也會受影響的嘛。",
 			painting = {
 				alpha = 0.3,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "………………",
@@ -176,12 +176,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……嗯？指揮官，你的臉色好差……有哪裡不舒服嗎？！",
 			painting = {
 				alpha = 0.3,
@@ -193,12 +193,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官……你還好嗎。",
 			painting = {
 				alpha = 0.3,
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "現在確實……感覺不太對。",
@@ -221,8 +221,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "曼非斯，你接下來是不是打算趁著閉幕式還沒開始去搶購紀念品？",
@@ -235,10 +235,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……對，您是怎麼知道的？",
 			painting = {
 				alpha = 0.3,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "其實，我們所有人都已經經歷過一次閉幕式了。",
@@ -261,8 +261,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "雖然不知道……為什麼會發生這種事。",
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官您在說什麼……我有點不太明白。",
 			painting = {
 				alpha = 0.3,
@@ -292,10 +292,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……我這就聯絡場館派醫療團隊來。",
 			painting = {
 				alpha = 0.3,
@@ -307,8 +307,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "……看來，曼非斯和海倫娜都不記得之前經歷過的事了。",
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "嘗試聯絡信濃，不過通訊器怎麼無法接通。",
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "海倫娜，曼非斯，計劃改變，我們立刻去重櫻館。",
@@ -346,8 +346,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "同時聯繫艾塞克斯，讓眾人做好戰鬥準備。",
@@ -360,10 +360,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "咦……？去重櫻館？還有進行戰鬥準備…？",
 			painting = {
 				alpha = 0.3,
@@ -375,12 +375,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官您是，察覺到什麼了嗎……？",
 			painting = {
 				alpha = 0.3,
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "嗯，重大危機正在發生。",
@@ -406,10 +406,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "重大危機……明白了，我立刻規劃路線。",
 			painting = {
 				alpha = 0.3,
@@ -421,8 +421,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "與海倫娜和曼非斯一同穿越人流，向重櫻館前進著——",
@@ -431,17 +431,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -452,10 +452,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "真是的，下次不要亂跑了哦",
 			painting = {
 				alpha = 0.3,
@@ -470,10 +470,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "非常抱歉，駿河閣下，沒想到會在會場迷路……",
 			painting = {
 				alpha = 0.3,
@@ -526,10 +526,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那就麻煩您了，阿爾弗雷多閣下。",
 			painting = {
 				alpha = 0.3,
@@ -544,10 +544,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哎嘿嘿……那就麻煩您了，阿爾弗雷多閣下！",
 			painting = {
 				alpha = 0.3,
@@ -559,8 +559,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "不遠處，似乎是薩丁帝國的會場執勤人員幫忙找到了重櫻走失的人。",
@@ -570,8 +570,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "嗯……重櫻的人。向她們詢問的話，應該能找到信濃的位置。",
@@ -584,10 +584,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "咦？您是打算直接上前去問嗎？",
 			painting = {
 				alpha = 0.3,
@@ -599,12 +599,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那可是赤色中軸的人……弄不好的話也許會變成外交事故哦！？",
 			painting = {
 				alpha = 0.3,
@@ -616,8 +616,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "沒關係。等找到信濃之後，重櫻就會站在我們這邊。",
@@ -630,10 +630,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "咦？！您跟信濃應該一次面都沒見過吧……？",
 			painting = {
 				alpha = 0.3,
@@ -648,10 +648,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不……指揮官和信濃……不是第一次見。",
 			painting = {
 				alpha = 0.3,
@@ -663,8 +663,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_roma_12",
 			hidePaintObj = true,
 			say = "嗯，以前和她在「夢裡」見過。",
@@ -677,10 +677,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "原、原來如此……？",
 			painting = {
 				alpha = 0.3,
@@ -692,12 +692,12 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那我們————",
 			painting = {
 				alpha = 0.3,
@@ -712,10 +712,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_roma_12",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官，危險————！",
 			painting = {
 				alpha = 0.3,
@@ -727,11 +727,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "story-clemenceau-judgement",
 			stopbgm = true,
+			soundeffect = "event:/battle/boom2",
 			bgName = "bg_underheaven_cg1",
 			mode = 1,
-			bgm = "story-clemenceau-judgement",
 			flashN = {
 				color = {
 					1,
@@ -772,17 +772,17 @@ return {
 				number = 2
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -796,8 +796,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			say = "襲擊的發生毫無預警。",
@@ -807,8 +807,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			say = "巨大的機甲從天而降，擊碎了場館，也擊碎了會場中的歡樂與和平。",
@@ -821,10 +821,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg1",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "海倫娜",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………這，到底是什麼東西？",
 			painting = {
 				alpha = 0.3,
@@ -839,10 +839,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg1",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "曼非斯",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "海倫娜，立刻確認撤離路線！",
 			painting = {
 				alpha = 0.3,
@@ -857,10 +857,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underheaven_cg1",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "海倫娜",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "是……！",
 			painting = {
 				alpha = 0.3,
@@ -875,10 +875,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg1",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "曼非斯",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官，您還好嗎！",
 			painting = {
 				alpha = 0.3,
@@ -890,8 +890,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg1",
 			hidePaintObj = true,
 			say = "只是吸入了些煙塵，沒有受傷。",
@@ -904,10 +904,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underheaven_cg1",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "曼非斯",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "太好了……",
 			painting = {
 				alpha = 0.3,
@@ -922,10 +922,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg1",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "曼非斯",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呼叫所有執勤成員，黑色代號，黑色代號，需要立即轉移重要目標——",
 			painting = {
 				alpha = 0.3,
@@ -940,10 +940,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg1",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "曼非斯",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "重複一遍，黑色代號——",
 			painting = {
 				alpha = 0.3,

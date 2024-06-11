@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.061
+					number = -0.061,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.061
+					number = -0.061,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.072
+					number = -0.072,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.072
+					number = -0.072,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.083
+					number = -0.083,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.083
+					number = -0.083,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.094
+					number = -0.094,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.094
+					number = -0.094,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.105
+					number = -0.105,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.105
+					number = -0.105,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.116
+					number = -0.116,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.116
+					number = -0.116,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.127
+					number = -0.127,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.127
+					number = -0.127,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.138
+					number = -0.138,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.138
+					number = -0.138,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.15
+					number = -0.15,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -253,20 +253,20 @@ return {
 				},
 				arg_list = {
 					group = 13310,
-					attr = "DMG_FROM_TAG_1_T_2",
-					number = -0.15
+					number = -0.15,
+					attr = "DMG_FROM_TAG_1_T_2"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 13312,
+	time = 0,
 	picture = "",
 	desc = "降低受到来自驱逐、轻巡的炮击伤害",
 	stack = 1,
-	id = 13312,
+	color = "blue",
 	icon = 13310,
 	last_effect = "",
 	blink = {
@@ -284,8 +284,8 @@ return {
 			},
 			arg_list = {
 				group = 13310,
-				attr = "DMG_FROM_TAG_1_T_1",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_1_T_1"
 			}
 		},
 		{
@@ -295,8 +295,8 @@ return {
 			},
 			arg_list = {
 				group = 13310,
-				attr = "DMG_FROM_TAG_1_T_2",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_1_T_2"
 			}
 		}
 	}

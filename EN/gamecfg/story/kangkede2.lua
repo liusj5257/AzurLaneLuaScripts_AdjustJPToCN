@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KANGKEDE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KANGKEDE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Sugary Concord\n\n<size=45>Chapter 2: It's Buffet Time!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Some number of days later...",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Some number of days later...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "I was invited to go to a confectionery with three members of the Omaha-class.",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 102180,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102180,
+			nameColor = "#a9f548",
 			say = "Hey~ hurry up, the confectionery is just ahead!",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 102010,
+			say = "Ohh! Just seeing the sign is filling me with fighting spirit! Sweets are a form of snacks, after all!",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ohh! Just seeing the sign is filling me with fighting spirit! Sweets are a form of snacks, after all!",
+			actor = 102010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Don't worry, Li'l Raleigh! Whatever you can't finish, I will take care of~",
 			typewriter = {
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102020,
+			nameColor = "#a9f548",
 			say = "How many times do I have to tell you, I'm the elder sister! Address me accordingly!",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -189,14 +189,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_104",
 			actor = 102180,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "The variety here isn't half bad~ gotta try the strawberry sundae first though!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 102010,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102010,
+			nameColor = "#a9f548",
 			say = "Ooohh~ a Napoleon cake! I'm not gonna hold back!",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -266,10 +266,10 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "star_level_bg_104",
-			actor = 102180,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Sis, didn't you say you were trying to lose weight? As soon as you come here, you grab enough cake for five people.",
+			dir = 1,
+			actor = 102180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 102010,
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102010,
+			nameColor = "#a9f548",
 			say = "Haha, sweets are also a form of snacks! For the sake of delicious snacks, we won't talk about stuff like weight loss!",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -326,11 +326,11 @@ return {
 			}
 		},
 		{
-			actor = 102180,
+			dir = 1,
 			side = 0,
 			bgName = "star_level_bg_104",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Before she realized it, in front of Concord was an ever-growing array of plates of various shapes and sizes. It was as if she was being surrounded by an army of sweets.",
 			typewriter = {
@@ -362,8 +362,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_104",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "Tisk tisk tisk! Don't you know, refuelling my sugar supply is a daily obligation!",
 			typewriter = {
@@ -376,8 +376,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -389,8 +389,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_104",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "There's a difference between sugar and casual snacks, you know~",
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_104",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "So, let's just cut loose and eat, hehe~",
 			typewriter = {

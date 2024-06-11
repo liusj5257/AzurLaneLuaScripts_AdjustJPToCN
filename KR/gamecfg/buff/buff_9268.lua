@@ -1,15 +1,15 @@
 return {
-	init_effect = "jinengchufablue",
-	name = "龙宫机关-土 减伤BUFF",
 	time = 999,
-	color = "yellow",
-	last_effect = "",
+	name = "龙宫机关-土 减伤BUFF",
+	init_effect = "jinengchufablue",
+	id = 9268,
+	last_effect_cld_scale = true,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9268,
+	color = "yellow",
 	icon = 9268,
-	last_effect_cld_scale = true,
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",
@@ -18,8 +18,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.05
+				number = -0.05,
+				attr = "injureRatio"
 			}
 		}
 	}

@@ -1,28 +1,28 @@
 slot0 = class("GuildMemberLayer", import("..base.BaseUI"))
 
-function slot0.setGuildVO(slot0, slot1)
+slot0.setGuildVO = function(slot0, slot1)
 	slot0.guildVO = slot1
 
 	slot0:setMemberVOs(slot1:getSortMember())
 end
 
-function slot0.setMemberVOs(slot0, slot1)
+slot0.setMemberVOs = function(slot0, slot1)
 	slot0.memberVOs = slot1
 end
 
-function slot0.setPlayerVO(slot0, slot1)
+slot0.setPlayerVO = function(slot0, slot1)
 	slot0.playerVO = slot1
 end
 
-function slot0.SetRanks(slot0, slot1)
+slot0.SetRanks = function(slot0, slot1)
 	slot0.ranks = slot1
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildMemberUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.buttonsPanel = slot0:findTF("buttons_panel")
 	slot1 = slot0:findTF("buttons_panel")
 	slot0.toggleGroup = slot1:GetComponent(typeof(ToggleGroup))
@@ -47,15 +47,15 @@ function slot0.init(slot0)
 	slot0.contextData.rankPage = GuildRankPage.New(slot0._tf, slot0.event)
 	slot0.listPage = GuildMemberListPage.New(slot0._tf, slot0.event, slot0.contextData)
 
-	function slot0.listPage.OnClickMember(slot0)
+	slot0.listPage.OnClickMember = function(slot0)
 		uv0:LoadPainting(slot0)
 	end
 
 	slot0.buttonPos = slot0.buttonsPanel.localPosition
 end
 
-function slot0.didEnter(slot0)
-	function slot1()
+slot0.didEnter = function(slot0)
+	slot1 = function()
 		if uv0.page then
 			setActive(uv0.btns[table.indexof(uv0.pages, uv0.page)]:Find("sel"), false)
 		end
@@ -114,7 +114,7 @@ function slot0.didEnter(slot0)
 	slot0.listPage:ExecuteAction("SetUp", slot0.guildVO, slot0.memberVOs, slot0.ranks)
 end
 
-function slot0.LoadPainting(slot0, slot1)
+slot0.LoadPainting = function(slot0, slot1)
 	slot0.memberVO = slot1
 	slot2 = slot1.duty
 	slot3 = slot0.guildVO:getDutyByMemberId(slot0.playerVO.id)
@@ -158,19 +158,19 @@ function slot0.LoadPainting(slot0, slot1)
 	setGray(slot0.btns[3], not slot7, true)
 end
 
-function slot0.RefreshMembers(slot0)
+slot0.RefreshMembers = function(slot0)
 	if slot0.listPage:GetLoaded() then
 		slot0.listPage:Flush(slot0.guildVO, slot0.memberVOs, slot0.ranks)
 	end
 end
 
-function slot0.ActiveDefaultMenmber(slot0)
+slot0.ActiveDefaultMenmber = function(slot0)
 	if slot0.listPage:GetLoaded() then
 		slot0.listPage:TriggerFirstCard()
 	end
 end
 
-function slot0.UpdateRankList(slot0, slot1, slot2)
+slot0.UpdateRankList = function(slot0, slot1, slot2)
 	slot0.ranks[slot1] = slot2
 
 	if slot0.contextData.rankPage and slot0.contextData.rankPage:GetLoaded() then
@@ -178,11 +178,11 @@ function slot0.UpdateRankList(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ShowInfoPanel(slot0, slot1)
+slot0.ShowInfoPanel = function(slot0, slot1)
 	slot0.pages[1]:ExecuteAction("Flush", slot1)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	for slot4, slot5 in ipairs(slot0.pages) do
 		if slot5:GetLoaded() and slot5:isShowing() then
 			slot5:Hide()
@@ -195,7 +195,7 @@ function slot0.onBackPressed(slot0)
 	slot0:emit(uv0.ON_BACK)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.contextData.rankPage:Destroy()
 
 	slot0.listPage.OnClickMember = nil

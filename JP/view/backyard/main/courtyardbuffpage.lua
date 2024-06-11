@@ -1,10 +1,10 @@
 slot0 = class("CourtYardBuffPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CourtYardBuffListPanel"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("frame/close")
 	slot0.uiItemList = UIItemList.New(slot0:findTF("frame/list/content"), slot0:findTF("frame/list/content/tpl"))
 	slot0.totalExp = slot0:findTF("frame/subtitle/Text"):GetComponent(typeof(Text))
@@ -15,7 +15,7 @@ function slot0.OnLoaded(slot0)
 	slot0.timers = {}
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -24,14 +24,14 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	slot0:Flush(slot1)
 
 	slot0.list = slot1
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot2 = 0
 	slot3 = {}
 
@@ -61,7 +61,7 @@ function slot0.Flush(slot0, slot1)
 	slot0.totalExp.text = slot2 .. "%"
 end
 
-function slot0.AddTimer(slot0, slot1, slot2)
+slot0.AddTimer = function(slot0, slot1, slot2)
 	slot0:RemoveTimer(slot2.id)
 
 	slot3 = Timer.New(function ()
@@ -81,7 +81,7 @@ function slot0.AddTimer(slot0, slot1, slot2)
 	slot0.timers[slot2.id] = slot3
 end
 
-function slot0.RemoveTimer(slot0, slot1)
+slot0.RemoveTimer = function(slot0, slot1)
 	if slot0.timers[slot1] then
 		slot0.timers[slot1]:Stop()
 
@@ -89,7 +89,7 @@ function slot0.RemoveTimer(slot0, slot1)
 	end
 end
 
-function slot0.RemoveAllTimer(slot0)
+slot0.RemoveAllTimer = function(slot0)
 	slot1 = pairs
 	slot2 = slot0.timers or {}
 
@@ -100,7 +100,7 @@ function slot0.RemoveAllTimer(slot0)
 	slot0.timers = {}
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:RemoveAllTimer()
 end
 

@@ -5,7 +5,7 @@ slot0.Battle.AntiSubState = class("AntiSubState")
 slot0.Battle.AntiSubState.__name = "AntiSubState"
 slot3 = slot0.Battle.AntiSubState
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	slot0._client = slot1
 	slot0._calmState = uv0.Battle.CalmAntiSubState.New()
 	slot0._suspiciousState = uv0.Battle.SuspiciousAntiSubState.New()
@@ -19,7 +19,7 @@ function slot3.Ctor(slot0, slot1)
 	slot0._lastSonarDected = false
 end
 
-function slot3.Update(slot0, slot1, slot2)
+slot3.Update = function(slot0, slot1, slot2)
 	if slot2 > 0 and slot0:checkDecayRage() then
 		slot0:OnEngageState()
 	end
@@ -49,7 +49,7 @@ function slot3.Update(slot0, slot1, slot2)
 	end
 end
 
-function slot3.updateVigilantDecay(slot0, slot1)
+slot3.updateVigilantDecay = function(slot0, slot1)
 	if slot0._currentState:DecayDuration() <= slot1 - slot0._vigilantDecayTimeStamp then
 		slot0._vigilantValue = slot0._vigilantValue - 0.01
 
@@ -59,27 +59,27 @@ function slot3.updateVigilantDecay(slot0, slot1)
 	end
 end
 
-function slot3.resetVigilantDecay(slot0)
+slot3.resetVigilantDecay = function(slot0)
 	slot0._vigilantDecayTimeStamp = nil
 	slot0._decayFlag = false
 end
 
-function slot3.checkDecayRage(slot0)
+slot3.checkDecayRage = function(slot0)
 	return slot0._vigilantDecayTimeStamp and slot0._engageRage
 end
 
-function slot3.HateChain(slot0)
+slot3.HateChain = function(slot0)
 	slot0:resetVigilantDecay()
 	slot0._currentState:OnHateChain(slot0)
 end
 
-function slot3.InitCheck(slot0, slot1)
+slot3.InitCheck = function(slot0, slot1)
 	if slot1 > 0 then
 		slot0:SubmarineFloat()
 	end
 end
 
-function slot3.MineExplode(slot0)
+slot3.MineExplode = function(slot0)
 	if slot0:checkDecayRage() then
 		slot0:OnEngageState()
 
@@ -90,7 +90,7 @@ function slot3.MineExplode(slot0)
 	slot0._currentState:OnMineExplode(slot0)
 end
 
-function slot3.SubmarineFloat(slot0)
+slot3.SubmarineFloat = function(slot0)
 	if slot0:checkDecayRage() then
 		slot0:OnEngageState()
 
@@ -101,12 +101,12 @@ function slot3.SubmarineFloat(slot0)
 	slot0._currentState:OnSubmarinFloat(slot0)
 end
 
-function slot3.VigilantAreaEngage(slot0)
+slot3.VigilantAreaEngage = function(slot0)
 	slot0:resetVigilantDecay()
 	slot0._currentState:OnVigilantEngage(slot0)
 end
 
-function slot3.SonarDetect(slot0, slot1)
+slot3.SonarDetect = function(slot0, slot1)
 	slot0:DispatchSonarCheck()
 
 	slot2 = slot1 > 0
@@ -120,7 +120,7 @@ function slot3.SonarDetect(slot0, slot1)
 	slot0._lastSonarDected = slot2
 end
 
-function slot3.OnCalmState(slot0)
+slot3.OnCalmState = function(slot0)
 	slot0:resetVigilantDecay()
 
 	slot0._currentState = slot0._calmState
@@ -129,7 +129,7 @@ function slot3.OnCalmState(slot0)
 	slot0:DispatchStateChange()
 end
 
-function slot3.OnSuspiciousState(slot0)
+slot3.OnSuspiciousState = function(slot0)
 	slot0:resetVigilantDecay()
 
 	slot0._currentState = slot0._suspiciousState
@@ -137,7 +137,7 @@ function slot3.OnSuspiciousState(slot0)
 	slot0:DispatchStateChange()
 end
 
-function slot3.OnVigilantState(slot0)
+slot3.OnVigilantState = function(slot0)
 	slot0:resetVigilantDecay()
 
 	slot0._currentState = slot0._vigilantState
@@ -145,7 +145,7 @@ function slot3.OnVigilantState(slot0)
 	slot0:DispatchStateChange()
 end
 
-function slot3.OnEngageState(slot0, slot1)
+slot3.OnEngageState = function(slot0, slot1)
 	slot0:resetVigilantDecay()
 
 	slot0._currentState = slot0._engageState
@@ -158,26 +158,26 @@ function slot3.OnEngageState(slot0, slot1)
 	end
 end
 
-function slot3.IsWeaponUseable(slot0)
+slot3.IsWeaponUseable = function(slot0)
 	return #slot0._currentState:GetWeaponUseable() > 0
 end
 
-function slot3.GetVigilantRate(slot0)
+slot3.GetVigilantRate = function(slot0)
 	return slot0._vigilantValue * 0.01
 end
 
-function slot3.DispatchStateChange(slot0)
+slot3.DispatchStateChange = function(slot0)
 	slot0._client:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.CHANGE_ANTI_SUB_VIGILANCE))
 end
 
-function slot3.DispatchSonarCheck(slot0)
+slot3.DispatchSonarCheck = function(slot0)
 	slot0._client:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.ANTI_SUB_VIGILANCE_SONAR_CHECK))
 end
 
-function slot3.DispatchHateChain(slot0)
+slot3.DispatchHateChain = function(slot0)
 	slot0._client:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.ANTI_SUB_VIGILANCE_HATE_CHAIN))
 end
 
-function slot3.GetVigilantMark(slot0)
+slot3.GetVigilantMark = function(slot0)
 	return slot0._currentState:GetWarnMark()
 end

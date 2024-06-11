@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQICHANGMEN",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQICHANGMEN",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"SPストーリー\n\n<size=45>少女懇親会</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301480,
-			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "お待ちかねの～！！",
 			bgm = "story-1",
+			actor = 301480,
+			nameColor = "#a9f548",
+			say = "お待ちかねの～！！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 305060,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305060,
+			nameColor = "#a9f548",
 			say = "お待ちかねのぉ～～！！",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -91,8 +91,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 301470,
 			dir = 1,
+			actor = 301470,
 			nameColor = "#a9f548",
 			say = "指揮官さまとのぱ、ぱーてぃー……ですっ！",
 			typewriter = {
@@ -105,10 +105,10 @@ return {
 			}
 		},
 		{
-			actor = 301480,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_111",
 			side = 0,
+			bgName = "star_level_bg_111",
+			actor = 301480,
 			dir = 1,
 			hideOther = true,
 			actorName = "山風・陸奥",
@@ -137,11 +137,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "……………はぁ……",
 			effects = {
 				{
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "普段人気のないお城の天守閣が、幾人の艦船と大量の饅頭（と遊興物と食べ物飲み物その他）でとても賑わっていた。",
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "長門に「懇親会」として招待され、お城に迎え入れられたわけだが……",
@@ -192,8 +192,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			nameColor = "#a9f548",
 			say = "陸奥さま、この「ばっふぁろーうぃんぐ」って美味しいらしいよ！",
 			typewriter = {
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -219,8 +219,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 301470,
 			dir = 1,
+			actor = 301470,
 			nameColor = "#a9f548",
 			say = "はわわ、山風、手づかみで食べるなんて畏れ多いこと……",
 			typewriter = {
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			nameColor = "#a9f548",
 			say = "すぐ準備する！よーし！山風のすっごいマジックを見せちゃうぞー！おー！",
 			typewriter = {
@@ -298,8 +298,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -308,8 +308,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "お硬い懇親会だとは思ってなかったが、こんな「ぱーてぃー」だとも予想できなかった。",
@@ -323,8 +323,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "皆がわいわい楽しくやるのはいいが………",
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "主催で主役である長門が、この場にいなかった。",
@@ -353,15 +353,15 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "………っ！？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -402,8 +402,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "天守閣を出ると、すぐ隣の通路からパーティーの様子を密かに覗いている長門を発見した。",
@@ -417,8 +417,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "中の様子が気になるのであれば、なぜ参加しないのだろう……",
@@ -432,11 +432,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "べ、別に参加したくないわけではない！そもそも懇親会を開いたのはほかでもなく余であるぞ",
 			typewriter = {
 				speed = 0.05,
@@ -448,8 +448,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -490,8 +490,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "……元々の「懇親会」はどんな感じだったんだろう。",
@@ -537,8 +537,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "なるほど。道理で陸奥が「楽しくない」と思うわけだ……",
@@ -552,8 +552,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "懇親会にしてもパーティーにしても、長門たちの気持ちが伝わるから格式に拘るつもりはないが、せっかくやるなら「楽しく」したいのも頷ける。",
@@ -599,8 +599,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "何より、長門自身もパーティーを嫌がっているどころか、一緒に楽しんでいきたいようだ。",
@@ -630,11 +630,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "star_level_bg_111",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "お、お主！一体何をしておる！？きゅ、急に引っ張って――",
 			typewriter = {
 				speed = 0.05,
@@ -646,8 +646,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -655,8 +655,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "意を決して、長門の手を引いて通路からパーティー会場に戻る。",
@@ -718,8 +718,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "（どーーーーーん！）",
@@ -752,8 +752,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 301470,
 			dir = 1,
+			actor = 301470,
 			nameColor = "#a9f548",
 			say = "あわわわ！ななな、なんて畏れ多いこと……",
 			typewriter = {
@@ -782,8 +782,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "紙吹雪が舞う中で、山風のマジックハットから飛び出したハトたちが天守閣に入ってきた自分と長門の肩や頭にとまった。",
@@ -797,8 +797,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "…………………………",
@@ -828,8 +828,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "呆然とした長門は、恐る恐る手を上げ、こちらの顔に向けて腕を伸ばす。",
@@ -859,8 +859,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			say = "………へ？",
@@ -874,10 +874,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_111",
 			side = 0,
+			bgName = "star_level_bg_111",
+			hideOther = true,
 			dir = 1,
 			actor = 301480,
 			actorName = "山風・陸奥",
@@ -903,8 +903,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 301470,
 			dir = 1,
+			actor = 301470,
 			nameColor = "#a9f548",
 			say = "ふ、ふふふ……ヒゲですよ、指揮官さま",
 			typewriter = {
@@ -949,11 +949,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
-			actorName = "皆",
 			dir = 1,
+			actorName = "皆",
 			say = "ははははははははは！",
 			effects = {
 				{
@@ -971,9 +971,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_111",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "楽しい笑い声が天守閣に響き渡る中、長門に視線を向ける。",
 			effects = {
@@ -992,8 +992,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_111",
 			dir = 1,
 			blackBg = true,

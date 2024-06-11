@@ -1,20 +1,20 @@
 return {
-	id = "GWORLD103A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "GWORLD103A",
 	skipTip = false,
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/8/tb-8",
+			dir = 1,
 			bgm = "level02",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "數據同步中————",
-			voice = "event:/tb/8/tb-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,11 +27,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/29/tb-29",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "指揮官，現在向您傳達一些本次大型作戰中的注意事項。",
-			voice = "event:/tb/29/tb-29",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,12 +1,12 @@
 return {
-	id = "W890110",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W890110",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "完成實驗場內的目標可以收穫各類資源獎勵，是否前往塞壬實驗場？",
 			typewriter = {
 				speed = 0.05,

@@ -2,15 +2,15 @@ slot0 = class("TaskWeekPage", import(".TaskCommonPage"))
 slot0.WEEK_TASK_TYPE_COMMON = 1
 slot0.WEEK_TASK_TYPE_PT = 2
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TaskListForWeekPage"
 end
 
-function slot0.RefreshWeekProgress(slot0)
+slot0.RefreshWeekProgress = function(slot0)
 	slot0:UpdateWeekProgress(slot0.contextData.weekTaskProgressInfo)
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	uv0.super.OnLoaded(slot0)
 
 	slot1 = slot0:findTF("right_panel/task_progress")
@@ -50,13 +50,13 @@ function slot0.OnLoaded(slot0)
 	end)
 end
 
-function slot0.UpdateCardTip(slot0)
+slot0.UpdateCardTip = function(slot0)
 	for slot4, slot5 in pairs(slot0.taskCards) do
 		slot5.tip.anchoredPosition3D = math.abs(slot0.topTF:InverseTransformPoint(slot5._tf.position).y + slot5.height * 0.5 - slot0.topPosy) < slot5.tip.rect.height * 0.5 and Vector3(-5, -25) or Vector3(-5, 0)
 	end
 end
 
-function slot0.onUpdateTask(slot0, slot1, slot2)
+slot0.onUpdateTask = function(slot0, slot1, slot2)
 	uv0.super.onUpdateTask(slot0, slot1, slot2)
 
 	if slot1 == 0 then
@@ -64,7 +64,7 @@ function slot0.onUpdateTask(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3)
+slot0.Update = function(slot0, slot1, slot2, slot3)
 	if slot0.contextData.weekTaskProgressInfo:ReachMaxPt() and slot0:isShowing() then
 		slot5 = pg.UIMgr.GetInstance()
 
@@ -92,8 +92,8 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.DoDisablePtTaskAnim(slot0, slot1)
-	function slot2(slot0, slot1)
+slot0.DoDisablePtTaskAnim = function(slot0, slot1)
+	slot2 = function(slot0, slot1)
 		slot0:DoSubmitAnim(function ()
 			setActive(uv0._go, false)
 			uv1()
@@ -122,7 +122,7 @@ function slot0.DoDisablePtTaskAnim(slot0, slot1)
 	end)
 end
 
-function slot0.GetCard(slot0, slot1)
+slot0.GetCard = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.taskCards) do
 		if slot6.taskVO.id == slot1 then
 			return slot6
@@ -132,7 +132,7 @@ function slot0.GetCard(slot0, slot1)
 	return nil
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0.taskVOs = {}
 	slot2 = slot0.contextData.weekTaskProgressInfo
 
@@ -161,7 +161,7 @@ function slot0.Flush(slot0, slot1)
 	slot0._scrollView:SetTotalCount(#slot0.taskVOs, -1)
 end
 
-function slot0.UpdateWeekProgress(slot0, slot1)
+slot0.UpdateWeekProgress = function(slot0, slot1)
 	slot0:UpdateWeekProgressGetBtn(slot1)
 
 	slot0.phaseTxt.text = slot1:GetPhase() .. "/" .. slot1:GetTotalPhase()
@@ -187,7 +187,7 @@ function slot0.UpdateWeekProgress(slot0, slot1)
 	slot0.awardList:align(#slot1:GetDropList())
 end
 
-function slot0.UpdateWeekProgressGetBtn(slot0, slot1)
+slot0.UpdateWeekProgressGetBtn = function(slot0, slot1)
 	slot2 = slot1:CanUpgrade()
 
 	setGray(slot0.getBtn, not slot2, false)
@@ -205,7 +205,7 @@ function slot0.UpdateWeekProgressGetBtn(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.JudgeOverflow(slot0, slot1, slot2)
+slot0.JudgeOverflow = function(slot0, slot1, slot2)
 	slot3 = getProxy(PlayerProxy):getRawData()
 	slot7, slot8 = Task.StaticJudgeOverflow(slot3.gold, slot3.oil, LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]), true, true, slot1:GetDropList())
 
@@ -221,11 +221,11 @@ function slot0.JudgeOverflow(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0._scrollView.onValueChanged:RemoveAllListeners()
 end
 
-function slot0.RefreshWeekTaskPageBefore(slot0, slot1)
+slot0.RefreshWeekTaskPageBefore = function(slot0, slot1)
 	if slot0:GetCard(slot1) then
 		setActive(slot2._go, false)
 	end

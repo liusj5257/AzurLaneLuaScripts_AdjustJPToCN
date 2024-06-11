@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 60431,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60431,
+	color = "yellow",
 	icon = 60430,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "luck",
+				number = 1,
 				target = "TargetSelf",
-				number = 1
+				attr = "luck"
 			}
 		}
 	}

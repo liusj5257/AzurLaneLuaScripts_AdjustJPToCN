@@ -6,8 +6,8 @@ return {
 	occlusion = 0.8,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"스타더스트와 자그마한 용기\n\n<size=45>제4장 - 스타더스트님께</size>",
@@ -19,8 +19,8 @@ return {
 			bgName = "bg_story_star2",
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

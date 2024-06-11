@@ -1,22 +1,22 @@
 return {
-	id = "WORLD404C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD404C",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "空氣中有硝煙的味道......這個無比熟悉的感覺……這裡是AF作戰的戰場？",
 			dir = 1,
 			bgm = "battle-boss-italy",
+			nameColor = "#a9f548",
+			say = "空氣中有硝煙的味道......這個無比熟悉的感覺……這裡是AF作戰的戰場？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -44,8 +44,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 900296,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900296,
 			actorName = "企業？",
 			say = "能讓重櫻的赤城大人記到現在，還真是我的榮幸啊。",
 			typewriter = {
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 900297,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900297,
 			actorName = "大黃蜂？",
 			say = "那次可真是一場暢快的戰鬥，妳的指揮非常的出色哦~",
 			typewriter = {
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 900295,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900295,
 			actorName = "約克城？",
 			say = "呵呵，如果想要復仇的話，我們隨時隨地，都可以與妳再來一場AF作戰哦。",
 			typewriter = {
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 900296,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900296,
 			actorName = "企業？",
 			say = "回去之後妳們好像將那次失敗歸結於命運的五分鐘吧，其實就算再給妳五十分鐘妳又能做到些什麼呢？",
 			typewriter = {
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 900297,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900297,
 			actorName = "大黃蜂？",
 			say = "啊，上次妳好像連天城姐姐留給妳的護符都弄壞了吧，明明已經再也不能拿到新的了，真是可惜~",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,11 +249,11 @@ return {
 			}
 		},
 		{
-			actor = 900296,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900296,
 			actorName = "企業？",
 			say = "上次是因為塞壬的攪局才讓妳們僥倖逃生的，要是想再打一場的話，我們隨時奉陪哦。",
 			typewriter = {
@@ -296,10 +296,10 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 307010,
 			say = "我已經不是曾經那個只能躲在姐姐身後的赤城了！！！！！",
 			effects = {
 				{

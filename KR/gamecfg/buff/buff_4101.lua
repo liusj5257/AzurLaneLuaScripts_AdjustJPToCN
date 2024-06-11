@@ -72,12 +72,12 @@ return {
 	desc_get = "战斗开始10秒后使用烟雾弹，随后每20秒有20.0%概率使用烟雾弹，处于烟幕中的角色回避率提高15.0%(满级35.0%)，受到航空伤害降低15.0%(满级35.0%)，持续10秒，同技能效果不叠加",
 	name = "烟雾弹·轻巡",
 	init_effect = "",
+	id = 4101,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "战斗开始10秒后使用烟雾弹，随后每20秒有20.0%概率使用烟雾弹，处于烟幕中的角色回避率提高$1，受到航空伤害降低$2，持续10秒，同技能效果不叠加",
 	stack = 1,
-	id = 4101,
+	color = "blue",
 	icon = 4100,
 	last_effect = "",
 	effect_list = {
@@ -87,9 +87,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 4101,
 				target = "TargetSelf",
-				time = 5,
-				skill_id = 4101
+				time = 5
 			}
 		},
 		{

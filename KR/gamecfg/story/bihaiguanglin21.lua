@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN21",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#ffff4d",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "오딘, 준비됐어?",
 			bgm = "xinnong-2",
+			actor = 403030,
+			nameColor = "#ffff4d",
+			say = "오딘, 준비됐어?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -53,8 +53,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 499040,
 			dir = 1,
+			actor = 499040,
 			nameColor = "#ffff4d",
 			say = "뚫어라———————— 궁그닐!",
 			typewriter = {
@@ -67,10 +67,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "오딘의 앞에 나타난 한줄기 굵은 빛이 해수면에 바짝 붙어 먼 곳의 적을 향해 쏘아져 나갔다.",
 			flashout = {
 				dur = 0.5,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
 			say = "눈꺼풀을 찌르는 듯한 눈부심에 감은 눈의 시야마저 하얗게 물들었다.",
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
 			say = "공격으로 인한 충격 때문에 균형을 잡기 어려울 정도의 거대한 파도가 일어났다.",
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
 			say = "빛이 사라지자 방금 전까지 항로를 가득 메우고 있던 적이 온데간데없이 사라졌다.",
@@ -209,8 +209,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "엄청난 토네이도 같았어요...",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "방금 그 공격은 뭐죠...? 그 엄청난 충격파가 설마 장비에서 발사된 건가요?",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "오딘 씨는 우리와 같은 「함선」인 건가요?!",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -334,8 +334,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "정보로만 알고 있었을 뿐, 실제로 보는 건 처음이에요...",
 			typewriter = {
@@ -351,8 +351,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "아프리카에서 정보가 전해졌을 때는 과장된 것이 아닌가 의심했는데... 그 정보의 가장 큰 문제는 묘사가 부족했던 거였어요!",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -391,12 +391,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#ffff4d",
 			say = "오딘은 더 이상 공격을 할 수 없으니 우리가 기관을 처리해야 해~",
 			typewriter = {
 				speed = 0.05,

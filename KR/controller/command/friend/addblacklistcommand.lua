@@ -1,6 +1,6 @@
 slot0 = class("AddBlackListCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if slot1:getBody():isFriend() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("friend_player_is_friend_tip"))
 

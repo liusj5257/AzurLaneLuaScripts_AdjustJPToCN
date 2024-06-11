@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG20",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG20",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304050,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#92fc63",
+			actor = 304050,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#92fc63",
 			say = "나가토님, 잘 지내셨습니까?",
 			flashin = {
 				delay = 1,
@@ -40,12 +40,12 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			say = "아마기인가. 날 찾아오다니, 무슨 일인가?",
 			side = 0,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
-			say = "아마기인가. 날 찾아오다니, 무슨 일인가?",
+			actor = 305050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -62,10 +62,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#92fc63",
 			say = "외람되오나, 카가에 대해 한 가지 아뢸 게 있어 찾아왔습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -95,10 +95,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#92fc63",
 			say = "조약에 의거한 내용이라곤 하오나, 전함 '카가' 의 퇴역 처분을 철회하여 주실 수 있으실지요?",
 			typewriter = {
 				speed = 0.05,
@@ -128,10 +128,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#92fc63",
 			say = "누군가가 카가를 대신하지 않는 이상은 어렵다……는 말씀이시지요?",
 			typewriter = {
 				speed = 0.05,
@@ -177,10 +177,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#92fc63",
 			say = "지금 카가에게 맡긴다면, 조금이라도 이 병든 몸을 마지막 까지 사쿠라 엠파이어에 바칠 수 있을 것입니다……",
 			typewriter = {
 				speed = 0.05,
@@ -242,10 +242,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#92fc63",
 			say = "아뢰옵기 황공하오나, 부디 나가토님의 고명한 판단을 부탁드리옵니다.",
 			typewriter = {
 				speed = 0.05,
@@ -291,10 +291,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#92fc63",
 			say = "황송하옵니다.",
 			typewriter = {
 				speed = 0.05,
@@ -324,10 +324,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#92fc63",
 			say = "그 둘의 소질이라면 분명 사쿠라 엠파이어를 이끌어나갈 주력이 될 것이옵니다……콜록콜록",
 			typewriter = {
 				speed = 0.05,
@@ -357,10 +357,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#92fc63",
 			say = "황송하옵니다.",
 			typewriter = {
 				speed = 0.05,

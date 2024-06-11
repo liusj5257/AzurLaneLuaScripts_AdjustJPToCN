@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU18",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU18",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "bsm-9",
 			actor = 405010,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "Aha... Haha... Ahahahahaha!!!",
-			bgm = "bsm-9",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,24 +24,24 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -20,
+					type = "shake",
 					delay = 0,
 					dur = 0.5,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = -20,
+					type = "shake",
 					delay = 2,
 					dur = 0.5,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 4,
 					dur = 0.1,
 					x = 50,
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			say = "Bismarck cackled as a massive ring of light began to contract around her, dragging countless Siren ships into her core and crushing them into dust.",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "She's... absorbing the entire Siren fleet?!",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "We won't be able to dodge in time! Brace for impact, everyone!!",
 			typewriter = {
 				speed = 0.05,
@@ -148,10 +148,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
-			soundeffect = "event:/battle/boom2",
 			say = "Boom——",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -185,10 +185,10 @@ return {
 			expression = 1,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 205050,
 			dir = -1,
-			say = "……",
 			soundeffect = "event:/battle/boom2",
+			actor = 205050,
+			say = "……",
 			flashN = {
 				color = {
 					1,
@@ -261,8 +261,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(Instead of unleashing all the energy she had stored, Bismarck dissipated it in a huge explosion.)",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(When the smoke cleared, half of her rigging had been blown away.)",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			side = 2,
-			expression = 2,
 			dir = 1,
+			expression = 2,
 			say = "*cough* *cough* ...What...",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "Is this the limit of your so-called power...",
 			typewriter = {
 				speed = 0.05,
@@ -322,8 +322,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "To think that you'd attempt to self-destruct... Ahh, turns out we weren't able to synchronize with your Wisdom Cube after all...",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "Heh... even though I thought I had the resolve to wield this power...",
 			typewriter = {
 				speed = 0.05,
@@ -354,8 +354,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "All it took was a moment...",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			expression = 1,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "For it to completely consume me.",
 			typewriter = {
 				speed = 0.05,
@@ -386,8 +386,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "Uploading Report: Results of Experiment No. 151 - Test subject managed to forcefully eject from the Awakening Protocol. While statistically significant, overall performance failed to reach target benchmarks.",
 			typewriter = {
 				speed = 0.05,
@@ -418,8 +418,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "I don't know what you're plotting, Siren...",
 			typewriter = {
 				speed = 0.05,
@@ -434,8 +434,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "But whatever it is, I won't allow you to defile my honor and glory any longer!",
 			typewriter = {
 				speed = 0.05,
@@ -465,8 +465,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "Proud warriors of the Royal Navy... Though our grudge goes back many moons, I regret to inform you...",
 			typewriter = {
 				speed = 0.05,
@@ -481,8 +481,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "I have no intention of falling into your hands today.",
 			typewriter = {
 				speed = 0.05,
@@ -497,8 +497,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "The Iron Blood shall seize our own destiny!",
 			typewriter = {
 				speed = 0.05,
@@ -513,8 +513,8 @@ return {
 			actor = 405010,
 			side = 2,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "LONG LIVE IRON BLOOD!",
 			typewriter = {
 				speed = 0.05,
@@ -526,10 +526,10 @@ return {
 			}
 		},
 		{
+			say = "Bismarck fired her very last shot in the direction of the Royal fleet.",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "Bismarck fired her very last shot in the direction of the Royal fleet.",
 			flashN = {
 				color = {
 					1,
@@ -577,8 +577,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Since her fire control had been completely destroyed, the shell crashed harmlessly into the water well before it reached the fleet.",
 			typewriter = {
 				speed = 0.05,
@@ -623,8 +623,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "I take back what I said about you before. If that is the decision you've made...",
 			typewriter = {
 				speed = 0.05,
@@ -639,8 +639,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "We shall send you off with our warmest regards.",
 			typewriter = {
 				speed = 0.05,
@@ -655,8 +655,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "All members of the Royal Navy",
 			typewriter = {
 				speed = 0.05,
@@ -671,8 +671,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "Focus all of your firepower upon Bismarck!",
 			typewriter = {
 				speed = 0.05,
@@ -684,12 +684,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_bsm_3",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			say = "Boom——",
-			dir = 1,
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -737,13 +737,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
+			side = 2,
 			bgName = "bg_bsm_3",
-			nameColor = "#ffde38",
 			dir = 1,
-			say = "（…………）",
 			bgm = "bsm-6",
+			nameColor = "#ffde38",
+			say = "（…………）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,13 +754,13 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			side = 2,
 			bgName = "bg_bsm_3",
-			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			dir = 1,
-			say = "(... In the end, I was still unable... to achieve our aspirations...)",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#ffde38",
+			say = "(... In the end, I was still unable... to achieve our aspirations...)",
 			flashN = {
 				color = {
 					1,
@@ -808,8 +808,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
@@ -824,8 +824,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
@@ -840,15 +840,15 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			side = 2,
 			bgName = "bg_bsm_5",
-			nameColor = "#ffde38",
 			dir = 1,
+			actorName = "Bismarck",
+			nameColor = "#ffde38",
 			say = "No... not yet...!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -880,8 +880,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -896,8 +896,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -912,8 +912,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -928,8 +928,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -944,8 +944,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -960,8 +960,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -976,8 +976,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -992,8 +992,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1008,8 +1008,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1024,8 +1024,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1040,8 +1040,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1056,8 +1056,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1072,8 +1072,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1088,8 +1088,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1104,8 +1104,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1120,8 +1120,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1136,8 +1136,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1152,8 +1152,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1168,8 +1168,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1184,8 +1184,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1200,8 +1200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1216,8 +1216,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Observer",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1232,13 +1232,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Bismarck",
-			bgName = "bg_bsm_3",
-			nameColor = "#ffde38",
+			side = 2,
 			dir = 1,
-			say = "Discipline is our Iron, and glory is our Blood.",
+			bgName = "bg_bsm_3",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#ffde38",
+			say = "Discipline is our Iron, and glory is our Blood.",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -1275,8 +1275,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
@@ -1291,11 +1291,11 @@ return {
 			}
 		},
 		{
-			say = "KABOOM---!",
 			side = 2,
 			bgName = "bg_bsm_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOM---!",
 			flashN = {
 				color = {
 					1,
@@ -1343,8 +1343,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
@@ -1359,8 +1359,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
@@ -1375,8 +1375,8 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
@@ -1391,13 +1391,13 @@ return {
 			}
 		},
 		{
-			actorName = "Bismarck",
 			side = 2,
 			bgName = "bg_bsm_3",
-			nameColor = "#ffde38",
+			actorName = "Bismarck",
 			dir = 1,
-			say = "Ahh... am I getting... sleepy?",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#ffde38",
+			say = "Ahh... am I getting... sleepy?",
 			flashN = {
 				color = {
 					1,
@@ -1445,8 +1445,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			sequence = {
 				{
 					"<size=60>(My sister... I'm sorry that... I won't ever be able to meet you...)</size>",
@@ -1455,14 +1455,14 @@ return {
 			}
 		},
 		{
-			actor = 205040,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205040,
+			nameColor = "#a9f548",
 			say = "It's finally over...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1622,10 +1622,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Crowd",
+			side = 2,
 			dir = 1,
+			actorName = "Crowd",
 			say = "God save the Queen!",
 			effects = {
 				{
@@ -1650,9 +1650,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = -1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "Well, everyone, let's go home! Make sure to inspect any damage thoroughly and get repairs as necessary.",
 			effects = {
 				{

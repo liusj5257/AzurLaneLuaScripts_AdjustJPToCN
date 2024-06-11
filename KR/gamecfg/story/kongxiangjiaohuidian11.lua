@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN11",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 2,
-			say = "게리온의 포효와 함께 비스마르크와 울리히를 가둔 악몽은 산산조각 났다.",
 			bgm = "story-bismark-determination",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "게리온의 포효와 함께 비스마르크와 울리히를 가둔 악몽은 산산조각 났다.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			say = "그러나 알 수 없는 공격은 끝나지 않았다.",
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			say = "상황이 변한 것을 감지한 듯 울리히의 몸에서 검붉은 연기가 뿜어져 나오더니 경계심 없이 다가온 비스마르크를 향해 달려들었다.",
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			say = "연기가 순식간에 두 사람을 에워쌌다.",
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			say = "연기는 마치 의식이라도 있는 것처럼 기습의 성공을 알리듯 제멋대로 흔들린다.",
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -85,8 +85,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffa500",
+			side = 2,
 			bgName = "bg_bsmre_cg7",
-			hidePaintObj = true,
 			actorName = "게리온",
+			hidePaintObj = true,
 			say = "▁▂▃▄▅▆▇███*맹렬한 포효*██▌",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_bsmre_cg8",
 			mode = 1,
+			bgName = "bg_bsmre_cg8",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -142,8 +142,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -204,8 +204,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -216,8 +216,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -264,8 +264,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -276,8 +276,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -312,8 +312,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "울리히 폰 후텐",
+			side = 2,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -324,8 +324,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -336,8 +336,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "비스마르크Zwei",
+			side = 1,
 			bgName = "bg_bsmre_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -360,27 +360,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_bsmre_cg15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_bsmre_cg15",
 			say = "비스마르크가 울리히에게 손을 내밀자 그녀는 잠시 머뭇거리더니 이내 비스마르크의 손을 붙잡았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -388,12 +388,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_cg15",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오늘부터 네가 내 옆에 있어줬으면 좋겠어. 난 네가 필요해, 메탈 블러드의 미래에도 네가 필요하고.",
 			painting = {
 				alpha = 0.3,
@@ -408,10 +408,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_cg15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어때, 울리히? 우리 함께 미래를 향해 나아가자.",
 			painting = {
 				alpha = 0.3,
@@ -426,10 +426,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_cg15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "물론이지, 비스마르크.",
 			painting = {
 				alpha = 0.3,
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg15",
 			hidePaintObj = true,
 			say = "울리히가 가볍게 매무새를 정리하고 난 뒤 고개를 돌렸을 땐, 그녀의 눈에 보이던 피로와 막막함, 눈물 자국은 모두 사라져 있었다.",
@@ -455,10 +455,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_cg15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "좋아. 그럼 이제 밖에서 기다리고 있는 함선들도 안으로 불러볼까?",
 			painting = {
 				alpha = 0.3,
@@ -470,30 +470,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "???·미드가르드 탑-관제실",
 			bgm = "story-midgard",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "???·미드가르드 탑-관제실",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -504,10 +504,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...둘 다 무사해서 정말 다행이에요!",
 			painting = {
 				alpha = 0.3,
@@ -519,8 +519,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -532,10 +532,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "울리히 각하, 컨디션이 좋아 보입니다.",
 			painting = {
 				alpha = 0.3,
@@ -550,10 +550,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "울리히 님, 무사하셔서 정말 다행입니다!",
 			painting = {
 				alpha = 0.3,
@@ -565,8 +565,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -578,10 +578,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응… 계속되던 악몽이 드디어 끝났어.",
 			painting = {
 				alpha = 0.3,
@@ -596,10 +596,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아직 좀 어지럽긴 하지만, 금방 회복될 거야.",
 			painting = {
 				alpha = 0.3,
@@ -614,10 +614,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "혹시 조금 전 밖에 있을 때 뭔가 느껴졌어?",
 			painting = {
 				alpha = 0.3,
@@ -629,12 +629,12 @@ return {
 			}
 		},
 		{
-			actor = 402100,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "비스마르크 님의 명령에 따라 멀리 떨어진 복도 끝에서 계속 대기하고 있었습니다.",
 			painting = {
 				alpha = 0.3,
@@ -649,10 +649,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "비스마르크 님께서 안으로 들어갈 때까지만 해도 모든 게 정상이었어요.",
 			painting = {
 				alpha = 0.3,
@@ -667,10 +667,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그런데 갑자기 위험한 기운이 맴돌더니, 검은색 안개가 방 안에서 새어나왔습니다….",
 			painting = {
 				alpha = 0.3,
@@ -685,10 +685,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그나이제나우·META가 쳐들어가려고 했지만.",
 			painting = {
 				alpha = 0.3,
@@ -703,10 +703,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 402100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그 위험한 기운은 금세 사라졌습니다.",
 			painting = {
 				alpha = 0.3,
@@ -718,12 +718,12 @@ return {
 			}
 		},
 		{
-			actor = 402100,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그리고 곧바로 비스마르크 님의 들어오라는 연락을 받은 겁니다.",
 			painting = {
 				alpha = 0.3,
@@ -738,10 +738,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "말도 안 돼… 아까까지만 해도 짙은 침식의 기운이 지금은 완전히 사라졌어….",
 			painting = {
 				alpha = 0.3,
@@ -756,10 +756,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "비스마르크 님, 대체… 무슨 짓을 하신 거죠?",
 			painting = {
 				alpha = 0.3,
@@ -774,10 +774,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흡수 및 정화랄까?",
 			painting = {
 				alpha = 0.3,
@@ -789,12 +789,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이전에 너와 잔불에 남아있던 샤른호르스트 양의 협력 덕분에 META화의 영향을 어느 정도 반전시킬 수 있는 기술을 확보했거든.",
 			painting = {
 				alpha = 0.3,
@@ -809,10 +809,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지금 그 기술은 내 게리온에 적용되어 있는 상태야.",
 			painting = {
 				alpha = 0.3,
@@ -827,10 +827,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 406030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "대단해요… 이 기술만 있다면, 해역의 각종 기괴한 적을 상대 할 수 있을 거예요.",
 			painting = {
 				alpha = 0.3,
@@ -845,10 +845,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응, 방금 같은 공격을 다시 받는다고 해도 문제 없겠어!",
 			painting = {
 				alpha = 0.3,
@@ -863,10 +863,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "어쩐지 U-556 META화라는 말을 듣고도 침착하신 게 이상하다고 생각했어요.",
 			painting = {
 				alpha = 0.3,
@@ -881,10 +881,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "그렇군요. 비장의 카드를 숨겨두고 계셨네요.",
 			painting = {
 				alpha = 0.3,
@@ -896,12 +896,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이번이 게리온의 첫 실전 검증이었어…. 어쩌면 미래엔, 너도——",
 			painting = {
 				alpha = 0.3,
@@ -916,10 +916,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "포기하세요, 이 일은 저도 잘 알고 있는 부분이니까요.",
 			painting = {
 				alpha = 0.3,
@@ -931,12 +931,12 @@ return {
 			}
 		},
 		{
-			actor = 9704010,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "그리고 전 이 힘을 받아들여 사용하기로 마음먹었어요.",
 			painting = {
 				alpha = 0.3,
@@ -951,10 +951,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…알겠어.",
 			painting = {
 				alpha = 0.3,
@@ -969,10 +969,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "또 한 가지, 즈이카쿠와 전 이런 현상이 세이렌의 아비터·허밋·IX와 관련이 있을지도 모른다는 걸 발견했어요.",
 			painting = {
 				alpha = 0.3,
@@ -987,10 +987,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "앞에 기다리고 있는 건 함정일 뿐이에요.",
 			painting = {
 				alpha = 0.3,
@@ -1002,12 +1002,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "중재 기관이라…",
 			painting = {
 				alpha = 0.3,
@@ -1022,10 +1022,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이렇게 된 이상, 함정인 줄 알면서도 가는 수밖에 없어.",
 			painting = {
 				alpha = 0.3,
@@ -1037,12 +1037,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "즈이카쿠 양한텐 미안하네, 이런 위험에 빠뜨려서 말이야.",
 			painting = {
 				alpha = 0.3,
@@ -1054,12 +1054,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아니야, 비스마르크!",
 			painting = {
 				alpha = 0.3,
@@ -1071,12 +1071,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그 동안 공짜로 먹고 자고, 귀찮게 굴었으니 이젠 은혜를 조금이나마 갚을 때가 된 거지!",
 			painting = {
 				alpha = 0.3,
@@ -1088,12 +1088,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307060,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이번 여행은 나도 끝까지 함께 할게!",
 			painting = {
 				alpha = 0.3,
@@ -1105,12 +1105,12 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "좋아, 그럼 지금 당장 출발 구역으로 가서 U-556을 구해오자!",
 			painting = {
 				alpha = 0.3,

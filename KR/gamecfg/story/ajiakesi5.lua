@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AJIAKESI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AJIAKESI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"나의 아름다운 기억\n\n<size=45>5. 귀여운 아기돼지</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "깨어났을 때, 자신이 방의 침대에 누워있다는 것을 발견했다.",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			say = "깨어났을 때, 자신이 방의 침대에 누워있다는 것을 발견했다.",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "머리가 어지럽다. 감기에 걸렸나보다.",
 			typewriter = {
 				speed = 0.05,
@@ -158,9 +158,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "에이잭스는 이마에 덮은 젖은 수건을 교체했다. 죽그릇(과 숟가락)도 들고 왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#92fc63",
 			say = "자, 입 벌려 보세요. 아——",
 			typewriter = {
 				speed = 0.05,
@@ -226,9 +226,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -240,11 +240,11 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202030,
+			nameColor = "#92fc63",
 			say = "됐어요, 다시, 아~?",
 			typewriter = {
 				speed = 0.05,
@@ -294,12 +294,12 @@ return {
 			}
 		},
 		{
-			actor = 202030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 202030,
+			nameColor = "#92fc63",
 			say = "빨리 나으세요. 아기돼지♡",
 			typewriter = {
 				speed = 0.05,

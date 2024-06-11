@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 6984,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 6984,
+	color = "red",
 	icon = 6980,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 800
+				number = 800,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -35,8 +35,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 800
+				number = 800,
+				attr = "airPower"
 			}
 		},
 		{
@@ -46,8 +46,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 800
+				number = 800,
+				attr = "attackRating"
 			}
 		}
 	}

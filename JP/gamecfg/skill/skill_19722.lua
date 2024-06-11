@@ -7,9 +7,9 @@ return {
 	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
 			target_choise = {
 				"TargetAllHarm",
 				"TargetShipTag",

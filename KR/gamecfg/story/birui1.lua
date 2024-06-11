@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"의전함의 연회\n\n<size=45>기분 좋은 비서함</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "집무실에 도착하니, 비서함인 히에이는 벌써 업무를 시작한 모양이다.",
 			typewriter = {
 				speed = 0.05,
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#92fc63",
 			say = "지휘관님께서 평소 수고하시는 모습을 떠올리니, 10분 정도라면 좀 더 늦게 일어나셔도 좋지 않을까 해서요.",
 			typewriter = {
 				speed = 0.05,
@@ -178,9 +178,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "역시 로열 네이비의 영향을 받은 덕분인가, 히에이가 내주는 홍차는 로열 네이비 아이들이 내주는 홍차와 맛이 거의 호각을 다툴 정도로 맛있다.",
 			typewriter = {
 				speed = 0.05,
@@ -236,9 +236,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "스케쥴도 보고서도 나무랄데 없이 깔끔하고, 설명 또한 친절하다. 다만 신경이 쓰이는 점은……",
 			typewriter = {
 				speed = 0.05,

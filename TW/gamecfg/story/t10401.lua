@@ -1,8 +1,8 @@
 return {
-	id = "T10401",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "T10401",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = -1,
@@ -23,11 +23,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
-			actorShadow = true,
 			actorName = "？？？",
+			actorShadow = true,
 			dir = -1,
+			actor = 307010,
 			nameColor = "#ffffff",
 			say = "呵呵呵呵，一群螻蟻們居然嗅著味道找上門來了",
 			shake = {
@@ -44,10 +44,10 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 1,
-			actorShadow = true,
 			actorName = "？？？",
+			actorShadow = true,
+			actor = 307020,
 			nameColor = "#ffffff",
 			say = "…週邊的防禦艦隊居然被突破了麼…這可是在計畫之外的情況",
 			shake = {
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
-			actorShadow = true,
 			actorName = "？？？",
+			actorShadow = true,
 			dir = -1,
+			actor = 307010,
 			nameColor = "#ffffff",
 			say = "無妨，主要任務已經達成，剩下的就是陪這群螻蟻們好好玩耍的時間了~呵呵呵呵~",
 			shake = {
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
-			actorShadow = true,
 			nameColor = "#ff0000",
+			actorShadow = true,
 			dir = -1,
+			actor = 307010,
 			actorName = "{namecode:91}",
 			say = "「重櫻」第一航空戰隊，{namecode:91}",
 			shake = {
@@ -106,10 +106,10 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 1,
-			actorShadow = true,
 			nameColor = "#ff0000",
+			actorShadow = true,
+			actor = 307020,
 			actorName = "{namecode:92}",
 			say = "「重櫻」第一航空戰隊，{namecode:92}",
 			shake = {
@@ -126,10 +126,10 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			actorShadow = true,
-			actorName = "{namecode:91}&{namecode:92}",
 			side = 0,
+			actorName = "{namecode:91}&{namecode:92}",
+			actor = 307010,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "                                                                <size=45>參上！</size>",

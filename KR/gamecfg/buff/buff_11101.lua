@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "约克公爵1技能",
 	time = 6,
+	name = "约克公爵1技能",
+	init_effect = "",
 	picture = "",
 	desc = "6s减速",
 	stack = 1,

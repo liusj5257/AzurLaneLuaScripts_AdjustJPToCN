@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGHUODONG1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "OUXIANGHUODONG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
-			stopbgm = true,
-			bgmDelay = 2,
-			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
 			say = "古の伝説に、海の岩礁から美しい歌声で船を難破させる化け物がいた",
 			typewriter = {
 				speed = 0.05,
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "その名は「セイレーン」、青き航路を脅かし、人々を引きずり込む存在",
 			typewriter = {
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "そんな存在に対抗するため、人々は数々の対抗策を考え出した",
 			typewriter = {
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "――アルゴナウタイのオルペウスがライアーをかき鳴らすと、歌声を打ち消すことが出来た",
 			typewriter = {
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "――大航海時代では、きらびやかなる船首像の元で、船旅の無事を祈る「歌」を欠かさなかった",
 			typewriter = {
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "――アイリスやサディアでは、信仰の対象として「偶像」を作り上げ、芸術として昇華させた",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "長らく伝えられてきた伝統は、時の流れと共にその在り方を変えながら諸勢力に継承され、",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「音楽」はロイヤルネイビーの軍楽隊によって大きく発展し、今に至るまで鉄血やサディア、ユニオンで演奏され続けてきた",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「偶像」はアイリスから重桜へと伝わり、「アイドル」という独特な文化を生み出し、「ニンジャ」と共に重桜の象徴として世界に広がっていった",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "そして、「セイレーン」への対抗兵装研究の一環として、伝承の要素を取り入れ、「音楽」と兵器を組み合わせた全く新しい艤装スタイルを開発した",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「セイレーン」の脅威に対抗する、「アズールレーン」の新兵器。その名は――",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "「μ（ミュー）兵装」",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "その「μ兵装」の実験も今まさに、最終段階に入ろうとしている――",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "？？？",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -207,14 +207,14 @@ return {
 			}
 		},
 		{
-			say = "兵装試験施設（？）",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "azumaster-ins",
+			say = "兵装試験施設（？）",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -255,11 +255,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "「『μ兵装』最終実験」並びにライブに参加する皆さん、おまたせにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "まずは「μ兵装」とにゃ？と思ってるそこのあなた向けに、この明石がもう一度親切に説明するにゃ",
 			typewriter = {
 				speed = 0.05,
@@ -313,8 +313,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "だって音楽だにゃ！女の子だにゃ！ライブをやるのは当然にゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -387,8 +387,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -429,11 +429,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "決して「ついでに儲けよう」なんて考えていな…じゃなくて、考えていないにゃ！本当だにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -445,8 +445,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -455,15 +455,15 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "つまり、「μ兵装」テストのためにランダムで選抜したチームの「ポラリス」と、各陣営の子たちが戦って性能を実証する…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -552,15 +552,15 @@ return {
 			}
 		},
 		{
-			actor = 102240,
 			side = 2,
 			bgName = "star_level_bg_121",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102240,
+			nameColor = "#a9f548",
 			say = "よぉし！「μ兵装実験ユニット・ポラリス」――私たちも頑張るぞ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -585,8 +585,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -614,8 +614,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 403070,
 			dir = 1,
+			actor = 403070,
 			nameColor = "#a9f548",
 			say = "はあ…早く終わってほしいわね…",
 			typewriter = {
@@ -647,8 +647,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_121",
-			actor = 202250,
 			dir = 1,
+			actor = 202250,
 			nameColor = "#a9f548",
 			say = "開始早々で前途多難ですねこのユニットは。練習のときの雰囲気はどこにいきましたのでしょうか",
 			typewriter = {

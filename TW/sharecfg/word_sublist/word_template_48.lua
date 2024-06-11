@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_48 = {}
 slot1 = slot0.word_template_48
 
-function temp()
+temp = function()
 	uv0["世"] = {
 		["界"] = {
 			["维"] = {
@@ -99,7 +99,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["统"] = {
 		["战"] = {
 			["部"] = {
@@ -116,7 +116,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["总"] = {
 		["参"] = {
 			["谋"] = {
@@ -148,7 +148,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["栗"] = {
 		["战"] = {
 			["书"] = {

@@ -1,17 +1,17 @@
 return {
-	id = "POXIAOBINGHUA25",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "POXIAOBINGHUA25",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
+			bgm = "bgm-cccp",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			nameColor = "#a9f548",
 			say = "――――！",
-			dir = 1,
-			bgm = "bgm-cccp",
 			flashN = {
 				color = {
 					1,
@@ -62,8 +62,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			say = "この敵、強いよ！",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			say = "なんというか、妙にモヤが掛かっているような…",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			say = "セイレーンに見えて、セイレーンではない何かを感じさせるような何か…！",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "ならば同じだ！セイレーンもこいつらも私たちはよく分かってないじゃないか！",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			say = "我々の革命（レヴォリューツィア）が終わるまで、私は倒れるわけにはいかないのだ！",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			say = "攻撃が効かない相手でもなければ当たらない相手でもない！ならば倒すまで！",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			say = "皆、撃ち続けろ！同志指揮官とグレミャーシュチが脱出するまで戦線を守るぞ！",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "いいところで情報の回収が終わったな！帰るのが楽しみだ！",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "ムルマンスク、タリン！後退するぞ！",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			say = "はい！そろそろ帰りませんと怒られちゃいますね…！",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			say = "指揮官、こっち！",
 			typewriter = {
 				speed = 0.05,

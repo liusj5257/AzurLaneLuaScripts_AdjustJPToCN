@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN32",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg14",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-2",
 			stopbgm = true,
 			say = "演習海域にて",
-			bgm = "musashi-2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "でも雰囲気がすごいっすね…まるで皆既日食みたいっす",
 			painting = {
@@ -72,8 +72,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "そうですわね。皆既日食にしても、単純に夜を演出するだけにしても演出としては迫力十分ですわ",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "これが武蔵さんの「心象」と言われれば、どす黒すぎてちょっと怖いですけど……",
 			painting = {
@@ -106,8 +106,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "ちょっと待った。お主も武蔵がこの天気のような性格じゃないことは知っているだろ？",
 			painting = {
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "（しかし、皆既日食にしても闇夜にしても、確かに通常ならば天気が変わるにしてもこうも急にはならん）",
 			painting = {
@@ -140,8 +140,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "（武蔵がさっき旗風に強引に攻撃を行ったことを考えると、そういう憶測が出てきても不思議ではない）",
 			painting = {
@@ -173,8 +173,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "皆、「心象」とやらに引きずられると冷静にものを考えられなくなるぞ",
 			painting = {
@@ -190,8 +190,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "そ、そうっすね。ここは目の前の状況に集中すべきっす",
 			painting = {
@@ -207,8 +207,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "演習が終わったらまた武蔵に聞いてみようか。ははは",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "こうも暗くなっていては艦載機の方向を取るのも一苦労ですわね。あの距離から攻めてくることはないと考えていいのかしら？",
 			painting = {
@@ -257,8 +257,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "武蔵がこれからどう動くかは…ふむ、我にもわからん、としか言いようがないな",
 			painting = {
@@ -308,8 +308,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "まずは演習全体のことだが、もう残り時間が少ない。赤城が「塔」の攻撃を開始している以上、我々を攻撃する可能性も少ない",
 			painting = {
@@ -341,8 +341,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "演習の勝敗だが、中央拠点を除くと、長門の得点が圧倒的だ",
 			painting = {
@@ -374,8 +374,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "赤城は「塔」を落とせば逆転はできるが、そこに集中するのは長門にとっても、我にとってもありがたい",
 			painting = {
@@ -407,8 +407,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "ただ、もう一つだけ不安定要素……つまり武蔵本人がどう動くか、が残っている",
 			painting = {
@@ -424,8 +424,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "彼女は我々の声が聞こえないが、それは我々にとっても同じだ",
 			painting = {
@@ -491,8 +491,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "江風と翔鶴にも同じことを頼めるか？最後に艦隊を集結する前にできるだけ戦力を集めたい",
 			painting = {
@@ -524,8 +524,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "まあ、残念だがそれは無理だ。彼女たちが量産艦を使って最後の決戦で横槍を入れてこないようにする必要がある",
 			painting = {
@@ -541,8 +541,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "榛名と比叡は武蔵側の方に回って「塔」を囲めるように待機してほしい。それで攻撃経路を最大限に活用できる",
 			painting = {
@@ -576,8 +576,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "金剛型戦艦はあと3人が健在…余と三笠大先輩だけでなく、最大火力を出すには全員での一斉攻撃が望ましいな",
 			painting = {
@@ -627,8 +627,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "さて、最後は武蔵がこの演習場に入ってきたときの対策だが……",
 			painting = {
@@ -660,8 +660,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "もう一つ対策があるとすれば、それこそ彼女が入ってくる前に「部下」をすべて倒すことだ",
 			painting = {
@@ -693,8 +693,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "酒匂たちには申し訳ないが、勝利を狙うだけならこれが一番確実だと思うが……長門、どうする？",
 			painting = {
@@ -744,8 +744,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "長門、お主が自分を貫いたことから我々の勝利の道筋が開かれた",
 			painting = {
@@ -761,8 +761,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "あの「塔」の反撃は確かに厄介だが、我々にはまだ戦力が残っているし、盾代わりの量産艦もある",
 			painting = {
@@ -794,8 +794,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "赤城たちの艦載機は比較的安全に攻撃できるが、しかしアビータはともかく、塔への攻撃はやはり砲撃のほうが効果的だ",
 			painting = {
@@ -827,8 +827,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg14",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "我々…重桜の艦船たちが協力してこそ正しき未来に導けるということを、赤城に示そう！",
 			painting = {

@@ -9,8 +9,8 @@ return {
 			style = {
 				text = "G.M 시스템 좌측 상단의 버튼으로 함대 지령 진입 가능",
 				mode = 1,
-				posY = 192.3,
 				dir = 1,
+				posY = 192.3,
 				posX = 353.1
 			},
 			ui = {
@@ -19,11 +19,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 64.54,
+					rotateY = 0,
 					posY = -44.8,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 64.54
 				}
 			}
 		},
@@ -35,8 +35,8 @@ return {
 			style = {
 				text = "함대 배치에서 대형 작전에서 사용할 함대를 재배치할 수 있으며, 매번 사용 후 함대의 모든 HP 회복 가능",
 				mode = 2,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 0
 			},
 			showSign = {
@@ -59,8 +59,8 @@ return {
 			style = {
 				text = "함대 정비로 작전 실패로 인해 떨어진 사기를 높일 수 있습니다.",
 				mode = 2,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 0
 			},
 			showSign = {
@@ -83,8 +83,8 @@ return {
 			style = {
 				text = "공역 정찰은 안개가 낀 해역에서 사용하여 해역 시야를 확보할 수 있습니다.",
 				mode = 2,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = 0
 			},
 			showSign = {

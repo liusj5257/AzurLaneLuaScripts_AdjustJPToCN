@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/ui/baozha1",
+			bgm = "votefes-up",
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
+			soundeffect = "event:/ui/baozha1",
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "KABOOOM!",
-			bgm = "votefes-up",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,17 +21,17 @@ return {
 				number = 3
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			say = "The stages went boom, turning to scrap all the data instruments and equipment installed on and around them.",
@@ -53,10 +53,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commander... How are we gonna determine a victor now?",
 			painting = {
 				alpha = 0.3,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,10 +81,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "They made the scoreboard explode... It's impossible to say which side performed best.",
 			painting = {
 				alpha = 0.3,
@@ -99,10 +99,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You can't decide arbitrarily, but at the same time, there will be an outrage if you call it a draw.",
 			painting = {
 				alpha = 0.3,
@@ -197,10 +197,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I don't know whose is whose, nya! They're both identical, nya!",
 			painting = {
 				alpha = 0.3,
@@ -215,10 +215,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I have a theory. Both teams pushed each other until it caused a resonance loop between their Muse Systems.",
 			painting = {
 				alpha = 0.3,
@@ -233,10 +233,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Then the resonance amplified their output so much that it overloaded the scoreboard and made it explode.",
 			painting = {
 				alpha = 0.3,
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nya? Uh, well...",
 			painting = {
 				alpha = 0.3,
@@ -316,10 +316,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Allow me to answer. I relieved her of the task of budgeting much earlier.",
 			painting = {
 				alpha = 0.3,
@@ -334,10 +334,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "First and second place both have ludicrously lavish budgets thanks to the omni-factional sponsorships.",
 			painting = {
 				alpha = 0.3,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			say = "A devious smile forms on Clemenceau's lips. I suddenly realize that I'm bracing for impact.",
@@ -363,10 +363,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's 9,999,999,999,999,999 coins for first place, and 999,999,999,999,999 coins for second place. That's one 9 less.",
 			painting = {
 				alpha = 0.3,
@@ -381,10 +381,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Simply put, both budgets are practically infinite and capable of granting almost literally any wish.",
 			painting = {
 				alpha = 0.3,

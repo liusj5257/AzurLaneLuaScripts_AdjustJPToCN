@@ -1,6 +1,6 @@
 slot0 = class("TransportAIAction")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.line = {
 		row = slot1.ai_pos.row,
 		column = slot1.ai_pos.column
@@ -16,7 +16,7 @@ function slot0.Ctor(slot0, slot1)
 	end) and slot2.item_data
 end
 
-function slot0.applyTo(slot0, slot1, slot2)
+slot0.applyTo = function(slot0, slot1, slot2)
 	if slot1:getFleet(FleetType.Transport, slot0.line.row, slot0.line.column) then
 		return slot0:applyToFleet(slot1, slot3, slot2)
 	end
@@ -24,7 +24,7 @@ function slot0.applyTo(slot0, slot1, slot2)
 	return false, "can not find any transport at: [" .. slot0.line.row .. ", " .. slot0.line.column .. "]"
 end
 
-function slot0.applyToFleet(slot0, slot1, slot2, slot3)
+slot0.applyToFleet = function(slot0, slot1, slot2, slot3)
 	slot4 = 0
 
 	if not slot2:isValid() then
@@ -67,7 +67,7 @@ function slot0.applyToFleet(slot0, slot1, slot2, slot3)
 	return true, slot5
 end
 
-function slot0.PlayAIAction(slot0, slot1, slot2, slot3)
+slot0.PlayAIAction = function(slot0, slot1, slot2, slot3)
 	if slot1:getFleetIndex(FleetType.Transport, slot0.line.row, slot0.line.column) then
 		if #slot0.movePath > 0 then
 			slot2.viewComponent.grid:moveTransport(slot4, slot0.movePath, Clone(slot0.movePath), slot3)

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_335 = {}
 slot1 = slot0.word_template_335
 
-function temp()
+temp = function()
 	uv0["原"] = {
 		["产"] = {
 			["地"] = {
@@ -98,7 +98,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["圆"] = {
 		["顿"] = {
 			["法"] = {
@@ -121,7 +121,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["圓"] = {
 		["滿"] = {
 			this = true
@@ -131,7 +131,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["緣"] = {
 		["圈"] = {
 			["圈"] = {
@@ -143,7 +143,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["远"] = {
 		["程"] = {
 			["破"] = {
@@ -189,7 +189,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["遠"] = {
 		["離"] = {
 			["苼"] = {
@@ -208,7 +208,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["院"] = {
 		["院"] = {
 			["认"] = {

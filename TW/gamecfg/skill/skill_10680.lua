@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "铁血之翼",
 	cd = 0,
+	picture = "0",
+	desc = "铁血之翼",
 	painting = 1,
 	id = 10680,
-	picture = "0",
 	castCV = "skill",
-	desc = "铁血之翼",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetNationalityFriendly",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetNationalityFriendly",
 			arg_list = {
 				buff_id = 10681,
 				nationality = 4

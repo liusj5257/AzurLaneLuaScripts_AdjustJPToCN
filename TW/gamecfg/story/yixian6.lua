@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YIXIAN6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YIXIAN6",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -69,8 +69,8 @@ return {
 		{
 			actor = 502020,
 			side = 0,
-			dir = -1,
 			say = "妳都感觉前面有危险，还觉得我会答应？",
+			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

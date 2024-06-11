@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUINU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUINU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"凜冽如惡鬼\n\n<size=45>五  挺身而出</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 302080,
 			nameColor = "#a9f548",
 			say = "空揮動作越來越標準了啊。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "雖然離風輕雲淡的境界還差得遠……但進步很快，也許這就是你作為指揮官的素養吧。",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "相比最開始真的沉著了很多……嗯，是時候進行膽量的鍛煉了。",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "說吧。如果是什麼讓你不安的事，我會幫你解決的。",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 302050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302050,
+			nameColor = "#a9f548",
 			say = "嗚……其、其實我剛才在宿舍裡看到鬼了！",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "鬼？",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "也就是說……有個可疑的人藏在更衣室裡啊，是需要好好調查一下……",
 			typewriter = {
@@ -228,14 +228,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "五十鈴見到鬼的更衣室是保管派對用禮服和西裝的地方。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,9 +263,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "室內被斷電了……指揮官當心，可疑的人可能還藏在這裡。",
 			typewriter = {
@@ -296,9 +296,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "能聽到嗎，可疑的傢伙！在的話快給我出來！",
 			effects = {
@@ -317,12 +317,12 @@ return {
 			}
 		},
 		{
-			actor = 302080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
+			nameColor = "#a9f548",
 			say = "……看來不在這呢。",
 			effects = {
 				{
@@ -340,9 +340,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "就在鬼怒轉身的一瞬間，房間深處的白佈出其不意動了起來。",
 			typewriter = {
 				speed = 0.05,
@@ -357,9 +357,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "指揮官！你這是——",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -412,12 +412,12 @@ return {
 			}
 		},
 		{
-			actor = 301720,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301720,
+			nameColor = "#a9f548",
 			say = "嘿~！",
 			typewriter = {
 				speed = 0.05,
@@ -429,8 +429,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -442,9 +442,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "什麼？ ！",
 			typewriter = {
@@ -475,9 +475,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "浦波，妳在更衣室幹什麼？！",
 			typewriter = {
@@ -490,12 +490,12 @@ return {
 			}
 		},
 		{
-			actor = 301720,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301720,
+			nameColor = "#a9f548",
 			say = "我在找可愛的收藏品~在找那些能讓人高興興奮的寶貝哦！",
 			typewriter = {
 				speed = 0.05,
@@ -507,8 +507,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -520,9 +520,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "哦~這件白色的斗篷就是妳挑選的寶貝嗎……嗯！眼光不錯啊！",
 			typewriter = {
@@ -535,12 +535,12 @@ return {
 			}
 		},
 		{
-			actor = 302080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
+			nameColor = "#a9f548",
 			say = "啊……暫時不管浦波和斗篷的事，指揮官你剛剛……",
 			typewriter = {
 				speed = 0.05,
@@ -555,9 +555,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 302080,
 			dir = 1,
 			blackBg = true,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "……沒什麼。看來我們的膽量鍛煉也順便完成了呢。",
 			typewriter = {

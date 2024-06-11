@@ -1,15 +1,15 @@
 return {
-	id = "W2105",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2105",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "分析模組同步中：指揮官，海域中的全部塞壬增援點均被摧毀了。",
 			typewriter = {
 				speed = 0.05,

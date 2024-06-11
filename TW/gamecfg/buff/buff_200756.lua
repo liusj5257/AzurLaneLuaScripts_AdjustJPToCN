@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023 关岛活动EX 次数盾",
 	time = 3,
+	name = "2023 关岛活动EX 次数盾",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

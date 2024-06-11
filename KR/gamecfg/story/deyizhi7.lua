@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DEYIZHI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DEYIZHI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"도이칠란트의 우울\n\n<size=45>변함없는 나날</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "그 일이 있고 나서, 어느 정도 시간이 지났다……",
 			typewriter = {
@@ -27,15 +27,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 연습전 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 1.5,
 			bgm = "battle-1",
+			say = "모항 - 연습전 해역",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,13 +56,13 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "좋았어! 또 나의 승리군!",
 			soundeffect = "event:/battle/boom2",
+			actor = 404010,
+			say = "좋았어! 또 나의 승리군!",
 			flashN = {
 				color = {
 					1,
@@ -105,8 +105,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -131,12 +131,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "큭……아직이야!",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "큭……아직이야!",
+			actor = 403040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.06,
 					x = 0,
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			actor = 404010,
+			say = "하하, 그것도 좋지! 성능은 제외하더라도, 네겐 싸움의 경험이 부족하니까. 강해지고 싶다면 부단히 연습할 수밖에 없다!",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "하하, 그것도 좋지! 성능은 제외하더라도, 네겐 싸움의 경험이 부족하니까. 강해지고 싶다면 부단히 연습할 수밖에 없다!",
+			actor = 404010,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -181,13 +181,13 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			nameColor = "#92fc63",
-			bgName = "bg_story_nepu1",
 			side = 1,
+			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "칫, 그런 말 안 해도 안다고!",
 			soundeffect = "event:/battle/boom2",
+			actor = 403040,
+			say = "칫, 그런 말 안 해도 안다고!",
 			flashN = {
 				color = {
 					1,
@@ -230,15 +230,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -275,11 +275,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 403040,
 			nameColor = "#92fc63",
 			say = "……공문서를 훑어보니, 사소한 실수가 몇 개 보이지만, 열심히 노력한 흔적이 보인다.",
 			typewriter = {
@@ -326,13 +326,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "모항 - 광장",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -353,11 +353,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "도이칠란트는 다른 이름이 있어?",
 			typewriter = {
@@ -370,12 +370,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "……그래, 뤼초우라는 이름이 있어.",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "……그래, 뤼초우라는 이름이 있어.",
+			actor = 403040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -406,11 +406,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 301330,
+			nameColor = "#92fc63",
 			say = "미카즈키, 도이칠란트 씨는 싫다고 할지도……",
 			typewriter = {
 				speed = 0.05,
@@ -422,8 +422,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -464,9 +464,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "그날 이후로 어느 정도 시간이 지나자, 도이칠란트는 평소와 같은 모습으로 돌아와 주었지만……",
 			typewriter = {
 				speed = 0.05,
@@ -474,9 +474,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "…전보다 훨씬 솔직해지고 의젓해졌다는 인상이다. 그녀와 조금이라도 말을 섞어본다면, 아마 그 변화에 매우 놀라겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -500,11 +500,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "아니면 뭐야? 하등생물 주제에 변태 같은 거라도 생각하고 있나 보지?",
 			typewriter = {
 				speed = 0.05,
@@ -516,8 +516,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -542,9 +542,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "지휘관인 나를 하인 취급하는 건 전혀 안 변했구만……",
 			typewriter = {
 				speed = 0.05,
@@ -552,11 +552,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#92fc63",
 			say = "이봐, 멍하니 있지 말고 빨리 게임을 시작하라고! 자~ 나를 어디 한 번 즐겁게 해주실까~♪",
 			typewriter = {
 				speed = 0.05,
@@ -568,8 +568,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

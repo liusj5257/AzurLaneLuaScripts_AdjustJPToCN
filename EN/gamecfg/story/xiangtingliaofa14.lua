@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA14",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA14",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-6",
 			say = "Eagle Union - Outside NY Harbor, present",
+			side = 2,
+			dir = 1,
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "One minute and thirty-five seconds ahead of schedule. Revising combat rating assessment.",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "Eagle Union heavy cruiser, Baltimore. Standard displacement: 14,500 tons. Three triple 8-inch guns. Anti-air specialization.",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "... Once we defeat you, we will guide NY City and Commander down the true path.",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "You are nothing but weapons, instruments of death and destruction.",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "You would even strike down your allies without hesitation if you were ordered to.",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Tester",
 			dir = 1,
+			actorName = "Tester",
 			say = "How ironic it is that tools of death would speak of justice. Do you even know what justice is?",
 			typewriter = {
 				speed = 0.05,
@@ -211,13 +211,13 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 0,
-			withoutActorName = true,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "KABOOM!!",
+			withoutActorName = true,
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "KABOOM!!",
 			flashN = {
 				color = {
 					1,

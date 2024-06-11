@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "火力支援弹幕",
 	cd = 0,
+	picture = "0",
+	desc = "火力支援",
 	painting = "huolizhiyuan",
 	id = 78010,
-	picture = "0",
 	castCV = "skill",
-	desc = "火力支援",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,16 +17,16 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetNil",
 			arg_list = {
 				emitter = "BattleBulletEmitter",
 				weapon_id = 2032010,
 				attack_attribute_convert = {
-					attr_type = "fleetGS",
 					A = 1,
+					attr_type = "fleetGS",
 					B = 400
 				}
 			}

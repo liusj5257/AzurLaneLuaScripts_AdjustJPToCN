@@ -1,19 +1,19 @@
 return {
-	id = "WORLD304B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD304B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/41/tb-41",
+			dir = 1,
 			bgm = "xinnong-3",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "분석 모듈 동기화 중. 경고, 전방 해역에서 대량의 세이렌 신호가 포착되었습니다.",
-			voice = "event:/tb/41/tb-41",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,11 +41,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "명령 확인. 정찰기의 정보를 토대로 목표 신호를 조정합니다.",
 			voice = "event:/tb/19/tb-19",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "명령 확인. 정찰기의 정보를 토대로 목표 신호를 조정합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,11 +58,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "분석 모듈 동기화 중. 조정 완료, 목표 신호는 교란용으로 확인됩니다.",
 			voice = "event:/tb/40/tb-40",
+			actor = 900284,
+			nameColor = "#a9f548",
+			say = "분석 모듈 동기화 중. 조정 완료, 목표 신호는 교란용으로 확인됩니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,11 +75,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/24/tb-24",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "함대의 전자 설비를 교란하려는 목적 확인. 반격 조치를 취하겠습니다.",
-			voice = "event:/tb/24/tb-24",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,11 +107,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/8/tb-8",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "사령부에게 이상 상태 보고 전송 중————",
-			voice = "event:/tb/8/tb-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,8 +125,8 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "경고, 통신 시스템 고장, 사령부와의 연결이 중단됩니다.",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "경고, 오프라인 모드 변경, 본체와의 연결이 중단됩니다.",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "네비게이터가 또 세이렌에게 당한 건가...",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			actor = 900284,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "...죄송합니다.",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "......혹시 깨달았나요? 지금까지 우리가 당한 교란은 전장 상황에는 전혀 의미가 없는 것들이었어요.",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "나도 그렇게 생각해... 우리의 기술이 아무리 발전해도 소용없다고 말하는 것 같은 노골적인 도발을 하고 있어...",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "핵심 지역 외곽까지 접근했으니 분명 세이렌의 엄청난 방어선을 만나야 하는데, 지금은 레이더 교란 외에는 아무것도 없었잖아요...",
 			typewriter = {
 				speed = 0.05,

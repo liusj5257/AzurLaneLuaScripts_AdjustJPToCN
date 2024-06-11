@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Lady's Modest Proposal\n\n<size=45>Chapter 1 - The Secret Spot</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "While taking a stroll through the port in the nice, warm sunshine, I noticed Illustrious up ahead of me.",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "While taking a stroll through the port in the nice, warm sunshine, I noticed Illustrious up ahead of me.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
 			withoutActorName = true,
-			dir = 1,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "Though I was wondering if she was going to head to the Royal Navy's dorms, I instead saw her pass it by and head somewhere else.",
 			typewriter = {
@@ -67,8 +67,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1.2,
 					x = -2500
@@ -76,9 +76,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Curious about her destination, I decided to follow her.",
 			typewriter = {
 				speed = 0.05,
@@ -90,13 +90,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "Walking up along a narrow path, I arrived at a breathtaking place that offered a panoramic view of the port.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -153,9 +153,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "\"Sorry... I followed you without thinking.\"",
 			typewriter = {
 				speed = 0.05,
@@ -215,9 +215,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "\"That's a great idea,\" I told her. Upon hearing this, she gave me a cute smile.",
 			typewriter = {
 				speed = 0.05,
@@ -245,11 +245,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
 			withoutActorName = true,
-			dir = 1,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "Saying that, she turned to head off. However, I spotted a tree root sticking out right where her foot was.",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 0.8,
 					dur = 1,
 					x = 0
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "*boing*",
 			typewriter = {
 				speed = 0.05,
@@ -311,9 +311,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "While her body was still glued to mine, Illustrious gave me an inquisitive look.",
 			typewriter = {
 				speed = 0.05,
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "Because I knew I couldn't stay like this forever, I calmed my beating heart and let her go.",
 			typewriter = {
 				speed = 0.05,

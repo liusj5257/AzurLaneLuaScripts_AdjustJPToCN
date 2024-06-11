@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ANSHAN02",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ANSHAN02",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"안샨의 그림 교실\n\n<size=45>제2장 - 모항의 불가사의</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "여기는 이렇게…",
 			bgm = "story-china",
+			actor = 501010,
+			nameColor = "#92fc63",
+			say = "여기는 이렇게…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "자자, 적당히 해도 괜찮잖아~ 이 정도는 문제 없다구~",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "자자, 적당히 해도 괜찮잖아~ 이 정도는 문제 없다구~",
+			actor = 501020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -118,15 +118,15 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 100010,
+			nameColor = "#92fc63",
 			say = "푸링! 아다다다다다! 달리는 거야~ 모항전선, 오늘도 이상 없음!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
-			dir = 1,
 			say = "푸링! 오늘도 언니는 기운이 넘쳐 푸링! 하지만 부린도 질 수 없어 푸링!",
+			dir = 1,
+			actor = 100000,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -195,12 +195,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "'모항의 불가사의' 중 하나, 부린!?",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "'모항의 불가사의' 중 하나, 부린!?",
+			actor = 501020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -247,15 +247,15 @@ return {
 			}
 		},
 		{
-			actor = 501030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 501030,
+			nameColor = "#92fc63",
 			say = "물감, 또 다 써버렸네…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -280,12 +280,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "좋아! 이번엔 내가 보충해올게!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "좋아! 이번엔 내가 보충해올게!",
+			actor = 501020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

@@ -1,8 +1,8 @@
 return {
-	id = "BIHAIGUANGLIN33-4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN33-4",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -24,8 +24,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			say = "우리는 실드가 있어서 괜찮지만, 하쿠류는 다르지~",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "쳇...",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +56,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			say = "봐요, 하쿠류가 드디어 피하려고 하고 있어요...",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "하쿠류, 싸우면서 이상한 것을 못 느꼈나요? 장비라던가...",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			say = "맞아! 특히 함재기! 너랑 나는 너무 똑같지 않아?",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "기억을 잃었다... 그러고 보니 용궁에 오기 전 기억은 없다.",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 399050,
 			dir = 1,
+			actor = 399050,
 			say = "하지만 그걸로 내가 그 사쿠라 엠파이어라는 것과 관계가 있다고 할 수는 없어.",
 			typewriter = {
 				speed = 0.05,

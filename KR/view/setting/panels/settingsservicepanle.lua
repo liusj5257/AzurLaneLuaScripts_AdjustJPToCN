@@ -1,18 +1,18 @@
 slot0 = class("SettingsServicePanle", import(".SettingsBasePanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "SettingsServiceCH"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return "客服"
 end
 
-function slot0.GetTitleEn(slot0)
+slot0.GetTitleEn = function(slot0)
 	return "/ Service"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.serviceBtn = findTF(slot0._tf, "delete")
 
 	onButton(slot0, slot0.serviceBtn, function ()
@@ -20,7 +20,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdate(slot0)
+slot0.OnUpdate = function(slot0)
 end
 
 return slot0

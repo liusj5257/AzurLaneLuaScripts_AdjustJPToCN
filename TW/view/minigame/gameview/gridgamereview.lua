@@ -267,15 +267,15 @@ slot72 = {
 	n_Skill_2 = "n_Skill_2",
 	n_MoveL = "n_MoveL",
 	n_Atk = "n_Atk",
-	c_Neutral = "c_Neutral",
+	c_MoveR = "c_MoveR",
 	n_MoveR = "n_MoveR",
-	c_Atk = "c_Atk",
+	c_Neutral = "c_Neutral",
 	n_Skill_1 = "n_Skill_1",
 	c_MoveL = "c_MoveL",
 	c_Dmg = "c_Dmg",
 	n_Skill_3 = "n_Skill_3",
 	n_DMG = "n_DMG",
-	c_MoveR = "c_MoveR"
+	c_Atk = "c_Atk"
 }
 slot73 = {
 	n_Move_R = {
@@ -288,8 +288,8 @@ slot73 = {
 		}
 	},
 	n_Atk = {
-		time = 0,
 		sound_trigger = "taosheng",
+		time = 0,
 		anim_name = slot72.n_Atk,
 		move = {
 			time = 0.3,
@@ -308,13 +308,13 @@ slot73 = {
 		}
 	},
 	n_Skill_1 = {
-		time = 0,
 		sound_trigger = "jiguang",
+		time = 0,
 		anim_name = slot72.n_Skill_1
 	},
 	n_Skill_2 = {
-		time = 0,
 		sound_trigger = "guangjian",
+		time = 0,
 		anim_name = slot72.n_Skill_2,
 		over_offset = Vector3(0, 0),
 		move = {
@@ -325,14 +325,14 @@ slot73 = {
 		}
 	},
 	n_Skill_3 = {
-		time = 0,
 		sound_trigger = "baozha1",
+		time = 0,
 		anim_name = slot72.n_Skill_3
 	},
 	n_Combine = {
+		camera = true,
 		sound_start = "bianshen",
 		time = 0,
-		camera = true,
 		anim_name = slot72.n_Combine
 	},
 	n_DMG = {
@@ -363,8 +363,8 @@ slot73 = {
 		anim_name = slot72.n_Neutral
 	},
 	c_Atk = {
-		time = 0,
 		sound_trigger = "taosheng",
+		time = 0,
 		anim_name = slot72.c_Atk,
 		move = {
 			time = 0.2,
@@ -374,9 +374,9 @@ slot73 = {
 		}
 	},
 	c_Skill_1 = {
+		camera = true,
 		sound_trigger = "baozha2",
 		time = 0,
-		camera = true,
 		anim_name = slot72.c_Skill_1
 	},
 	c_Dmg = {
@@ -432,15 +432,15 @@ slot75 = {
 	n_Skill_2 = "n_Skill_2",
 	n_MoveL = "n_MoveL",
 	n_Atk = "n_Atk",
-	c_Neutral = "c_Neutral",
+	c_MoveR = "c_MoveR",
 	n_MoveR = "n_MoveR",
-	c_Atk = "c_ATK",
+	c_Neutral = "c_Neutral",
 	n_Skill_1 = "n_Skill_1",
 	c_MoveL = "c_MoveL",
 	c_Dmg = "c_DMG",
 	n_Skill_3 = "n_Skill_3",
 	n_DMG = "n_DMG",
-	c_MoveR = "c_MoveR"
+	c_Atk = "c_ATK"
 }
 slot76 = {
 	n_Move_R = {
@@ -453,8 +453,8 @@ slot76 = {
 		}
 	},
 	n_Atk = {
-		time = 0,
 		sound_trigger = "taosheng",
+		time = 0,
 		anim_name = slot75.n_Atk,
 		move = {
 			time = 0.3,
@@ -474,8 +474,8 @@ slot76 = {
 		}
 	},
 	n_Skill_1 = {
-		time = 0,
 		sound_trigger = "baozha1",
+		time = 0,
 		anim_name = slot75.n_Skill_1,
 		move = {
 			time = 0.2,
@@ -484,13 +484,13 @@ slot76 = {
 		}
 	},
 	n_Skill_2 = {
-		time = 0,
 		sound_trigger = "baozha2",
+		time = 0,
 		anim_name = slot75.n_Skill_2
 	},
 	n_Skill_3 = {
-		time = 0,
 		sound_trigger = "baozha2",
+		time = 0,
 		anim_name = slot75.n_Skill_3,
 		over_offset = Vector3(247, 2),
 		move = {
@@ -501,9 +501,9 @@ slot76 = {
 		}
 	},
 	n_Combine = {
+		camera = true,
 		sound_start = "bianshen",
 		time = 0,
-		camera = true,
 		anim_name = slot75.n_Combine
 	},
 	n_DMG = {
@@ -534,8 +534,8 @@ slot76 = {
 		anim_name = slot75.n_Neutral
 	},
 	c_Atk = {
-		time = 0,
 		sound_trigger = "taosheng",
+		time = 0,
 		anim_name = slot75.c_Atk,
 		move = {
 			time = 0.4,
@@ -545,9 +545,9 @@ slot76 = {
 		}
 	},
 	c_Skill_1 = {
+		camera = true,
 		sound_trigger = "baozha2",
 		time = 0,
-		camera = true,
 		anim_name = slot75.c_Skill_1
 	},
 	c_Dmg = {
@@ -606,15 +606,15 @@ slot78 = {
 	n_Skill_2 = "n_Skill_2",
 	n_MoveL = "n_MoveL",
 	n_Atk = "n_Atk",
-	c_Neutral = "c_Neutral",
+	c_MoveR = "c_MoveR",
 	n_MoveR = "n_MoveR",
-	c_Atk = "c_Atk",
+	c_Neutral = "c_Neutral",
 	n_Skill_1 = "n_Skill_1",
 	c_MoveL = "c_MoveL",
 	c_Dmg = "c_Dmg",
 	n_Skill_3 = "n_Skill_3",
 	n_DMG = "n_DMG",
-	c_MoveR = "c_MoveR"
+	c_Atk = "c_Atk"
 }
 slot79 = {
 	n_Move_R = {
@@ -627,8 +627,8 @@ slot79 = {
 		}
 	},
 	n_Atk = {
-		time = 0,
 		sound_trigger = "taosheng",
+		time = 0,
 		anim_name = slot78.n_Atk,
 		move = {
 			time = 0.3,
@@ -647,13 +647,13 @@ slot79 = {
 		}
 	},
 	n_Skill_1 = {
-		time = 0,
 		sound_trigger = "jiguang",
+		time = 0,
 		anim_name = slot78.n_Skill_1
 	},
 	n_Skill_2 = {
-		time = 0,
 		sound_trigger = "guangjian",
+		time = 0,
 		anim_name = slot78.n_Skill_2,
 		over_offset = Vector3(0, 0),
 		move = {
@@ -664,8 +664,8 @@ slot79 = {
 		}
 	},
 	n_Skill_3 = {
-		time = 0,
 		sound_trigger = "baozha1",
+		time = 0,
 		anim_name = slot78.n_Skill_3
 	},
 	n_Combine = {
@@ -703,8 +703,8 @@ slot79 = {
 		anim_name = slot78.n_Neutral
 	},
 	c_Atk = {
-		time = 0,
 		sound_trigger = "taosheng",
+		time = 0,
 		anim_name = slot78.c_Atk,
 		move = {
 			time = 0.2,
@@ -714,9 +714,9 @@ slot79 = {
 		}
 	},
 	c_Skill_1 = {
+		camera = true,
 		sound_trigger = "baozha2",
 		time = 0,
-		camera = true,
 		anim_name = slot78.c_Skill_1
 	},
 	c_Dmg = {
@@ -767,10 +767,10 @@ slot79 = {
 }
 slot81 = {
 	Neutral = "Neutral",
-	Skill_1 = "skill_1",
+	MoveL = "MoveL",
 	Skill_2 = "skill_2",
 	Atk = "ATK",
-	MoveL = "MoveL",
+	Skill_1 = "skill_1",
 	DMG = "DMG",
 	MoveR = "MoveR"
 }
@@ -786,8 +786,8 @@ slot82 = {
 		}
 	},
 	Atk = {
-		time = 0,
 		sound_trigger = "taosheng",
+		time = 0,
 		anim_name = slot81.Atk,
 		move = {
 			time = 0.3,
@@ -806,13 +806,13 @@ slot82 = {
 		}
 	},
 	Skill_1 = {
-		time = 0,
 		sound_trigger = "jiguang",
+		time = 0,
 		anim_name = slot81.Skill_1
 	},
 	Skill_2 = {
-		time = 0,
 		sound_trigger = "baozha2",
+		time = 0,
 		anim_name = slot81.Skill_2,
 		over_offset = Vector2(115, 0)
 	},
@@ -847,10 +847,10 @@ slot82 = {
 }
 slot84 = {
 	Neutral = "Neutral",
-	Skill_1 = "skill_1",
+	MoveL = "MoveL",
 	Skill_2 = "skill_2",
 	Atk = "ATK",
-	MoveL = "MoveL",
+	Skill_1 = "skill_1",
 	DMG = "DMG",
 	MoveR = "MoveR"
 }
@@ -866,8 +866,8 @@ slot85 = {
 		}
 	},
 	Atk = {
-		time = 0,
 		sound_trigger = "taosheng",
+		time = 0,
 		anim_name = slot84.Atk,
 		move = {
 			time = 0.3,
@@ -886,13 +886,13 @@ slot85 = {
 		}
 	},
 	Skill_1 = {
-		time = 0,
 		sound_trigger = "jiguang",
+		time = 0,
 		anim_name = slot84.Skill_1
 	},
 	Skill_2 = {
-		time = 0,
 		sound_trigger = "baozha2",
+		time = 0,
 		anim_name = slot84.Skill_2,
 		over_offset = Vector2(264, 0)
 	},
@@ -930,9 +930,9 @@ slot87 = {
 		name = "role1",
 		skill = {
 			{
-				special_time = false,
 				name = "normalAtk",
 				power_index = 0,
+				special_time = false,
 				atk_index = 1,
 				score = {
 					100,
@@ -949,9 +949,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = false,
 				name = "skill1",
 				power_index = 1,
+				special_time = false,
 				atk_index = 2,
 				score = {
 					500,
@@ -965,9 +965,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = false,
 				name = "skill2",
 				power_index = 2,
+				special_time = false,
 				atk_index = 2,
 				score = {
 					500,
@@ -982,9 +982,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = false,
 				name = "skill3",
 				power_index = 3,
+				special_time = false,
 				atk_index = 2,
 				score = {
 					500,
@@ -1057,9 +1057,9 @@ slot87 = {
 				}
 			},
 			{
-				power_index = 0,
-				name = "Combine",
 				special_trigger = true,
+				name = "Combine",
+				power_index = 0,
 				anim_bool = "special",
 				special_time = true,
 				grid_index = {
@@ -1072,9 +1072,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = true,
 				name = "AtkS",
 				power_index = 0,
+				special_time = true,
 				atk_index = 1,
 				score = {
 					300,
@@ -1091,9 +1091,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = true,
 				name = "Skill1S",
 				power_index = 1,
+				special_time = true,
 				atk_index = 2,
 				score = {
 					1000,
@@ -1107,9 +1107,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = true,
 				name = "Skill1S",
 				power_index = 2,
+				special_time = true,
 				atk_index = 2,
 				score = {
 					1000,
@@ -1123,9 +1123,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = true,
 				name = "Skill1S",
 				power_index = 3,
+				special_time = true,
 				atk_index = 2,
 				score = {
 					1000,
@@ -1191,9 +1191,9 @@ slot87 = {
 		name = "role2",
 		skill = {
 			{
-				special_time = false,
 				name = "normalAtk",
 				power_index = 0,
+				special_time = false,
 				atk_index = 1,
 				score = {
 					100,
@@ -1210,9 +1210,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = false,
 				name = "skill1",
 				power_index = 1,
+				special_time = false,
 				atk_index = 2,
 				score = {
 					500,
@@ -1228,9 +1228,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = false,
 				name = "skill2",
 				power_index = 2,
+				special_time = false,
 				atk_index = 2,
 				score = {
 					500,
@@ -1244,9 +1244,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = false,
 				name = "skill3",
 				power_index = 3,
+				special_time = false,
 				atk_index = 2,
 				score = {
 					500,
@@ -1320,9 +1320,9 @@ slot87 = {
 				}
 			},
 			{
-				power_index = 0,
-				name = "Combine",
 				special_trigger = true,
+				name = "Combine",
+				power_index = 0,
 				anim_bool = "special",
 				special_time = true,
 				grid_index = {
@@ -1335,9 +1335,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = true,
 				name = "AtkS",
 				power_index = 0,
+				special_time = true,
 				atk_index = 1,
 				score = {
 					200,
@@ -1354,9 +1354,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = true,
 				name = "Skill1S",
 				power_index = 1,
+				special_time = true,
 				atk_index = 2,
 				score = {
 					1000,
@@ -1370,9 +1370,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = true,
 				name = "Skill1S",
 				power_index = 2,
+				special_time = true,
 				atk_index = 2,
 				score = {
 					1000,
@@ -1386,9 +1386,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = true,
 				name = "Skill1S",
 				power_index = 3,
+				special_time = true,
 				atk_index = 2,
 				score = {
 					1000,
@@ -1454,9 +1454,9 @@ slot87 = {
 		name = "enemy1",
 		skill = {
 			{
-				special_time = false,
 				name = "normalAtk",
 				power_index = 0,
+				special_time = false,
 				atk_index = 1,
 				score = {
 					100,
@@ -1473,9 +1473,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = false,
 				name = "skill1",
 				power_index = 1,
+				special_time = false,
 				atk_index = 2,
 				score = {
 					500,
@@ -1489,9 +1489,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = false,
 				name = "skill2",
 				power_index = 2,
+				special_time = false,
 				atk_index = 2,
 				score = {
 					500,
@@ -1548,9 +1548,9 @@ slot87 = {
 		name = "enemy2",
 		skill = {
 			{
-				special_time = false,
 				name = "normalAtk",
 				power_index = 0,
+				special_time = false,
 				atk_index = 1,
 				score = {
 					100,
@@ -1567,9 +1567,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = false,
 				name = "skill1",
 				power_index = 1,
+				special_time = false,
 				atk_index = 2,
 				score = {
 					500,
@@ -1583,9 +1583,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = false,
 				name = "skill2",
 				power_index = 2,
+				special_time = false,
 				atk_index = 2,
 				score = {
 					500,
@@ -1637,13 +1637,13 @@ slot87 = {
 		actions = slot85
 	},
 	{
-		index = 5,
 		name = "role3",
+		index = 5,
 		skill = {
 			{
-				special_time = false,
 				name = "normalAtk",
 				power_index = 0,
+				special_time = false,
 				atk_index = 1,
 				score = {
 					100,
@@ -1660,9 +1660,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = false,
 				name = "skill1",
 				power_index = 1,
+				special_time = false,
 				atk_index = 2,
 				score = {
 					500,
@@ -1676,9 +1676,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = false,
 				name = "skill2",
 				power_index = 2,
+				special_time = false,
 				atk_index = 3,
 				score = {
 					500,
@@ -1693,9 +1693,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = false,
 				name = "skill3",
 				power_index = 3,
+				special_time = false,
 				atk_index = 2,
 				score = {
 					500,
@@ -1769,9 +1769,9 @@ slot87 = {
 				}
 			},
 			{
-				special_trigger = true,
-				name = "Combine",
 				power_index = 0,
+				name = "Combine",
+				special_trigger = true,
 				anim_bool = "special",
 				special_time = true,
 				grid_index = {
@@ -1786,9 +1786,9 @@ slot87 = {
 				anim_end_pos = Vector2(225, 471)
 			},
 			{
-				special_time = true,
 				name = "AtkS",
 				power_index = 0,
+				special_time = true,
 				atk_index = 1,
 				score = {
 					300,
@@ -1805,9 +1805,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = true,
 				name = "Skill1S",
 				power_index = 1,
+				special_time = true,
 				atk_index = 2,
 				score = {
 					1000,
@@ -1821,9 +1821,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = true,
 				name = "Skill1S",
 				power_index = 2,
+				special_time = true,
 				atk_index = 2,
 				score = {
 					1000,
@@ -1837,9 +1837,9 @@ slot87 = {
 				}
 			},
 			{
-				special_time = true,
 				name = "Skill1S",
 				power_index = 3,
+				special_time = true,
 				atk_index = 2,
 				score = {
 					1000,
@@ -1903,13 +1903,13 @@ slot87 = {
 	}
 }
 
-function slot88(slot0, slot1)
+slot88 = function(slot0, slot1)
 	slot2 = {
 		ctor = function (slot0)
 			slot0._boxTf = uv0
 			slot0._event = uv1
 
-			function slot4()
+			slot4 = function()
 				if uv0.power_grid and slot0 > 0 and uv1[slot0] then
 					slot1 = uv1[slot0]
 
@@ -2437,8 +2437,8 @@ function slot88(slot0, slot1)
 			end
 
 			return {
-				eventAble = false,
 				moveAble = false,
+				eventAble = false,
 				speed = uv2,
 				index = uv1[slot1].index,
 				name = uv1[slot1].name,
@@ -2457,7 +2457,7 @@ end
 
 slot89 = false
 
-function slot90(slot0, slot1, slot2)
+slot90 = function(slot0, slot1, slot2)
 	slot3 = {
 		ctor = function (slot0)
 			slot0._specialTf = uv0
@@ -2465,7 +2465,7 @@ function slot90(slot0, slot1, slot2)
 			slot0._effectSuccess = findTF(slot0._successTf, "effectSuccess")
 			slot0._event = uv2
 
-			function slot4(slot0, slot1, slot2)
+			slot4 = function(slot0, slot1, slot2)
 				uv0:addPowerAmount(slot1.index, uv0:getPowerAmount(slot1.series or 0, slot1.combo, slot1.double))
 			end
 
@@ -2671,7 +2671,7 @@ function slot90(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot91(slot0, slot1, slot2)
+slot91 = function(slot0, slot1, slot2)
 	slot3 = {
 		ctor = function (slot0)
 			slot0._sceneTf = uv0
@@ -2867,7 +2867,7 @@ function slot91(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot92(slot0, slot1)
+slot92 = function(slot0, slot1)
 	slot2 = {
 		ctor = function (slot0)
 			slot0._scene = uv0
@@ -3391,11 +3391,11 @@ function slot92(slot0, slot1)
 	return slot2
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GridGameReUI"
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initEvent()
 	slot0:initData()
 	slot0:initUI()
@@ -3405,7 +3405,7 @@ function slot0.didEnter(slot0)
 	slot0:openMenuUI()
 end
 
-function slot0.initEvent(slot0)
+slot0.initEvent = function(slot0)
 	slot0:bind(uv0, function (slot0, slot1, slot2)
 		uv0:addScore(slot1)
 	end)
@@ -3414,10 +3414,10 @@ function slot0.initEvent(slot0)
 	end)
 end
 
-function slot0.onEventHandle(slot0, slot1)
+slot0.onEventHandle = function(slot0, slot1)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	if (Application.targetFrameRate or 60) > 60 then
 		slot1 = 60
 	end
@@ -3427,7 +3427,7 @@ function slot0.initData(slot0)
 	end, 1 / slot1, -1)
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.backSceneTf = findTF(slot0._tf, "scene_background")
 	slot0.sceneTf = findTF(slot0._tf, "scene")
 	slot0.clickMask = findTF(slot0._tf, "clickMask")
@@ -3473,7 +3473,7 @@ function slot0.initUI(slot0)
 
 	slot0.settlementUI = findTF(slot0._tf, "pop/SettleMentUI")
 
-	function slot4()
+	slot4 = function()
 		setActive(uv0.settlementUI, false)
 		uv0:openMenuUI()
 	end
@@ -3498,7 +3498,7 @@ function slot0.initUI(slot0)
 		})
 	end
 
-	function slot4()
+	slot4 = function()
 		setActive(uv0.selectedUI, false)
 	end
 
@@ -3627,7 +3627,7 @@ function slot0.initUI(slot0)
 	UpdateBeat:AddListener(slot0.handle)
 end
 
-function slot0.checkRoleId(slot0, slot1, slot2, slot3)
+slot0.checkRoleId = function(slot0, slot1, slot2, slot3)
 	slot5 = slot2
 
 	if not slot0:matchRoleId(slot1, slot2) then
@@ -3641,7 +3641,7 @@ function slot0.checkRoleId(slot0, slot1, slot2, slot3)
 	return slot1, slot2
 end
 
-function slot0.matchRoleId(slot0, slot1, slot2)
+slot0.matchRoleId = function(slot0, slot1, slot2)
 	if slot1 == slot2 then
 		return false
 	end
@@ -3655,7 +3655,7 @@ function slot0.matchRoleId(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.initGameUI(slot0)
+slot0.initGameUI = function(slot0)
 	slot0.gameUI = findTF(slot0._tf, "ui/gameUI")
 
 	onButton(slot0, findTF(slot0.gameUI, "topRight/btnStop"), function ()
@@ -3675,18 +3675,18 @@ function slot0.initGameUI(slot0)
 	setActive(slot0.scoreAnimTf, false)
 end
 
-function slot0.initController(slot0)
+slot0.initController = function(slot0)
 	slot0.boxController = uv0(findTF(slot0.gameUI, "box"), slot0)
 	slot0.specialController = uv1(findTF(slot0.gameUI, "specialPower"), findTF(slot0.gameUI, "successPower"), slot0)
 	slot0.bgController = uv2(findTF(slot0._tf, "sceneContainer"), slot0.gameUI, slot0)
 	slot0.roleController = uv3(findTF(slot0._tf, "sceneContainer/scene"), slot0)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:AddDebugInput()
 end
 
-function slot0.AddDebugInput(slot0)
+slot0.AddDebugInput = function(slot0)
 	if slot0.gameStop or slot0.settlementFlag then
 		return
 	end
@@ -3696,7 +3696,7 @@ function slot0.AddDebugInput(slot0)
 	end
 end
 
-function slot0.updateSelectedUI(slot0)
+slot0.updateSelectedUI = function(slot0)
 	for slot4 = 1, #slot0.leftSelectRole do
 		if uv0 == slot0.leftSelectRole[slot4].id then
 			setActive(findTF(slot5.tf, "selected"), true)
@@ -3722,7 +3722,7 @@ function slot0.updateSelectedUI(slot0)
 	end
 end
 
-function slot0.updateMenuUI(slot0)
+slot0.updateMenuUI = function(slot0)
 	if slot0:getGameUsedTimes() and slot1 >= 7 then
 		setActive(findTF(slot0.menuUI, "btnStart/free"), true)
 	else
@@ -3774,7 +3774,7 @@ function slot0.updateMenuUI(slot0)
 	slot0:CheckGet()
 end
 
-function slot0.CheckGet(slot0)
+slot0.CheckGet = function(slot0)
 	setActive(findTF(slot0.menuUI, "got"), false)
 
 	if slot0:getUltimate() and slot0:getUltimate() ~= 0 then
@@ -3795,7 +3795,7 @@ function slot0.CheckGet(slot0)
 	end
 end
 
-function slot0.openMenuUI(slot0)
+slot0.openMenuUI = function(slot0)
 	setActive(findTF(slot0._tf, "sceneContainer/scene_front"), false)
 	setActive(findTF(slot0._tf, "sceneContainer/scene_background"), false)
 	setActive(findTF(slot0._tf, "sceneContainer/scene"), false)
@@ -3811,7 +3811,7 @@ function slot0.openMenuUI(slot0)
 	end
 end
 
-function slot0.clearUI(slot0)
+slot0.clearUI = function(slot0)
 	setActive(slot0.sceneTf, false)
 	setActive(slot0.settlementUI, false)
 	setActive(slot0.countUI, false)
@@ -3820,7 +3820,7 @@ function slot0.clearUI(slot0)
 	setActive(slot0.selectedUI, false)
 end
 
-function slot0.readyStart(slot0)
+slot0.readyStart = function(slot0)
 	setActive(slot0.countUI, true)
 	slot0.countAnimator:Play("count")
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0)
@@ -3832,7 +3832,7 @@ function slot0.readyStart(slot0)
 	end
 end
 
-function slot0.gameStart(slot0)
+slot0.gameStart = function(slot0)
 	setActive(findTF(slot0._tf, "sceneContainer/scene_front"), true)
 	setActive(findTF(slot0._tf, "sceneContainer/scene_background"), true)
 	setActive(findTF(slot0._tf, "sceneContainer/scene"), true)
@@ -3854,30 +3854,30 @@ function slot0.gameStart(slot0)
 	slot0:timerStart()
 end
 
-function slot0.getGameTimes(slot0)
+slot0.getGameTimes = function(slot0)
 	return slot0:GetMGHubData().count
 end
 
-function slot0.getGameUsedTimes(slot0)
+slot0.getGameUsedTimes = function(slot0)
 	return slot0:GetMGHubData().usedtime
 end
 
-function slot0.getUltimate(slot0)
+slot0.getUltimate = function(slot0)
 	return slot0:GetMGHubData().ultimate
 end
 
-function slot0.getGameTotalTime(slot0)
+slot0.getGameTotalTime = function(slot0)
 	return slot0:GetMGHubData():getConfig("reward_need")
 end
 
-function slot0.changeSpeed(slot0, slot1)
+slot0.changeSpeed = function(slot0, slot1)
 end
 
-function slot0.onTimer(slot0)
+slot0.onTimer = function(slot0)
 	slot0:gameStep()
 end
 
-function slot0.gameStep(slot0)
+slot0.gameStep = function(slot0)
 	if not slot0.ignoreTime then
 		slot0.gameTime = slot0.gameTime - Time.deltaTime
 
@@ -3901,24 +3901,24 @@ function slot0.gameStep(slot0)
 	end
 end
 
-function slot0.timerStart(slot0)
+slot0.timerStart = function(slot0)
 	if not slot0.timer.running then
 		slot0.timer:Start()
 	end
 end
 
-function slot0.timerStop(slot0)
+slot0.timerStop = function(slot0)
 	if slot0.timer.running then
 		slot0.timer:Stop()
 	end
 end
 
-function slot0.updateGameUI(slot0)
+slot0.updateGameUI = function(slot0)
 	setText(slot0.scoreTf, slot0.scoreNum)
 	setText(slot0.gameTimeS, math.ceil(slot0.gameTime))
 end
 
-function slot0.addScore(slot0, slot1)
+slot0.addScore = function(slot0, slot1)
 	setActive(slot0.scoreAnimTf, false)
 	setActive(slot0.scoreAnimTf, true)
 	setText(slot0.scoreAnimTextTf, "+" .. tostring(slot1))
@@ -3930,7 +3930,7 @@ function slot0.addScore(slot0, slot1)
 	end
 end
 
-function slot0.onGameOver(slot0)
+slot0.onGameOver = function(slot0)
 	if slot0.settlementFlag then
 		return
 	end
@@ -3958,7 +3958,7 @@ function slot0.onGameOver(slot0)
 	end))
 end
 
-function slot0.showSettlement(slot0)
+slot0.showSettlement = function(slot0)
 	setActive(slot0.settlementUI, true)
 	GetComponent(findTF(slot0.settlementUI, "ad"), typeof(Animator)):Play("settlement", -1, 0)
 
@@ -3983,7 +3983,7 @@ function slot0.showSettlement(slot0)
 	end
 end
 
-function slot0.resumeGame(slot0)
+slot0.resumeGame = function(slot0)
 	slot0.gameStop = false
 
 	setActive(slot0.leaveUI, false)
@@ -3991,14 +3991,14 @@ function slot0.resumeGame(slot0)
 	slot0:timerStart()
 end
 
-function slot0.stopGame(slot0)
+slot0.stopGame = function(slot0)
 	slot0.gameStop = true
 
 	slot0:timerStop()
 	slot0:changeSpeed(0)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if not slot0.gameStartFlag then
 		slot0:emit(uv0.ON_BACK_PRESSED)
 	else
@@ -4015,7 +4015,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.handle then
 		UpdateBeat:RemoveListener(slot0.handle)
 	end

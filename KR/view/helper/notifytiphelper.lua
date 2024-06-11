@@ -1,6 +1,6 @@
 slot0 = class("NotifyTipHelper")
 
-function slot0.ShouldShowUrTip()
+slot0.ShouldShowUrTip = function()
 	return false
 end
 

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022美系活动 分体式增援模块",
 	time = 0,
-	color = "yellow",
+	name = "2022美系活动 分体式增援模块",
+	init_effect = "",
+	id = 200239,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200239,
+	color = "yellow",
 	icon = 200239,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 1000
+				number = 1000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 1000
+				number = 1000,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 1000
+				number = 1000,
+				attr = "airPower"
 			}
 		}
 	}

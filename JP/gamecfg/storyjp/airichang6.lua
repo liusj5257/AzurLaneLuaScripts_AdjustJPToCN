@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「仮想繋げし共時性」-日常編\n\n<size=45>六 裁判長キズナアイ</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "バーチャルユーチューバー……否！裁判長キズナアイです！法に触れてないけど「これないでしょ」っていう事案、みんなも結構あるんじゃないですか？",
 			bgm = "story-1",
+			actor = 10400010,
+			nameColor = "#a9f548",
+			say = "バーチャルユーチューバー……否！裁判長キズナアイです！法に触れてないけど「これないでしょ」っていう事案、みんなも結構あるんじゃないですか？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "ということで、アズレン出張版第1回キズナアイ裁判、これよりかいてーーーい！！",
 			typewriter = {
@@ -117,12 +117,12 @@ return {
 			}
 		},
 		{
-			actor = 203070,
+			say = "先日、我が嗜みである「ドリンク開発」で作ったヨーク特製ドリンクを指揮官に飲んでもらいましたわ！",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "先日、我が嗜みである「ドリンク開発」で作ったヨーク特製ドリンクを指揮官に飲んでもらいましたわ！",
+			actor = 203070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -156,8 +156,8 @@ return {
 			expression = 6,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "ええ！？いったいどんなものを入れたの？",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "おぉ、お熱いことですねー。ということでよくわからないので、ヴェスタルさんに来てもらいました。ぶっちゃけ指揮官が倒れた原因は何ですか！？",
 			typewriter = {
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 203070,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203070,
+			nameColor = "#a9f548",
 			say = "そ、そんなバカな！我が完璧なる配合<†フォーミュレーション†>でそのような代物ができるはずが……！",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -248,8 +248,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "うーん、とりあえずさ、そこにあるヨークちゃん特製ドリンクを1回飲んでみたら、答えがわかるんじゃない？",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "だ、大丈夫？顔が真っ青になってるけど…！？",
 			typewriter = {
@@ -327,11 +327,11 @@ return {
 			}
 		},
 		{
-			actor = 203070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203070,
+			nameColor = "#a9f548",
 			say = "…ふ、ふふふ……、た、たしかに床をのたうち回りたくなるような味です。指揮官の気持ち、わかった気がします…ですが、これで私たちは罪なる聖杯を飲み干した共犯者<†クライム†>……（ガクリ）",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 0
@@ -355,8 +355,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "ヨークちゃん！！？？ヴェスタルさん！治療をお願いします！！",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "……行っちゃった",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "あっ、キズナアイ裁判の途中でした！",
 			typewriter = {
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -483,8 +483,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "最初は有罪にしようかと思ったんですけど、本人も飲み干しましたからね。私はそこを評価したい！きっとこれなら指揮官も許してくれるはず！",
 			effects = {
@@ -506,8 +506,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "それに指揮官のためを思って作ったものだから、しょうがない！",
 			typewriter = {
@@ -523,8 +523,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "愛さえあれば関係ないですよ。AI（エーアイ）だけに、なんちゃって！",
 			typewriter = {
@@ -540,8 +540,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "まあ、また誰かがドリンクを飲むことになるかもしれませんけど、そのときはまたその誰かにがんばってもらうことにしましょう",
 			typewriter = {
@@ -557,8 +557,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "それでは、本日のキズナアイ裁判はこれにて閉廷！！",
 			typewriter = {
@@ -587,17 +587,17 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			stopbgm = true,
-			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			bgName = "bg_story_task",
+			actor = 201210,
 			nameColor = "#a9f548",
 			say = "（ゾクリ）……何か知らないところですごい無茶ぶりをされてるような予感がしたけど、気にしないことにしよっと…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -622,8 +622,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,

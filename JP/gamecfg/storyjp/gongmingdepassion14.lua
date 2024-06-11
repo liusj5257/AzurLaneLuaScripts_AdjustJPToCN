@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,12 +40,12 @@ return {
 			}
 		},
 		{
-			actor = 107039,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107039,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "なになに、サラトガちゃんにも見せてー",
 			painting = {
 				alpha = 0.3,
@@ -60,10 +60,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "にゃははは…「赤組」と「青組」の艦船アイドルたちの全力ライブを経て、一旦それぞれの点数を発表するにゃ！",
 			painting = {
 				alpha = 0.3,
@@ -78,10 +78,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…にゃ、にゃんと！引き分けにゃ！",
 			painting = {
 				alpha = 0.3,
@@ -93,8 +93,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "勝負の行く末は、完全に残りの2ユニットに委ねられるにゃ！",
 			painting = {
 				alpha = 0.3,
@@ -123,10 +123,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "果たして勝つのは…",
 			painting = {
 				alpha = 0.3,
@@ -141,10 +141,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 599010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――ダイナミックにして情熱的、アグレッシブでパワフルな「Alizarin」か？",
 			painting = {
 				alpha = 0.3,
@@ -156,12 +156,12 @@ return {
 			}
 		},
 		{
-			actor = 107039,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107039,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――それとも元気いっぱいで、お日様のような鮮烈さを持つ「Cyanidin」か？",
 			painting = {
 				alpha = 0.3,
@@ -173,12 +173,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "最後まで目が離せないにゃ！",
 			painting = {
 				alpha = 0.3,

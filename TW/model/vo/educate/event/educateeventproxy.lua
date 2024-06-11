@@ -1,6 +1,6 @@
 slot0 = class("EducateEventProxy")
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.planSpecEvents = {}
 	slot0.siteSpecEvents = {}
 	slot0.mindBubbleSpecEvents = {}
@@ -26,26 +26,26 @@ function slot0.Ctor(slot0)
 	end
 end
 
-function slot0.SetUp(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	slot0.finishSpecEventIds = slot1.finishSpecEventIds or {}
 	slot0.needRequestHomeEvents = slot1.needRequestHomeEvents
 	slot0.waitTriggerEventIds = slot1.home_events or {}
 	slot0.curTime = getProxy(EducateProxy):GetCurTime()
 end
 
-function slot0.GetFinishSpecEventIds(slot0)
+slot0.GetFinishSpecEventIds = function(slot0)
 	return slot0.finishSpecEventIds
 end
 
-function slot0.AddFinishSpecEvent(slot0, slot1)
+slot0.AddFinishSpecEvent = function(slot0, slot1)
 	table.insert(slot0.finishSpecEventIds, slot1)
 end
 
-function slot0.IsFinishSpecEvent(slot0, slot1)
+slot0.IsFinishSpecEvent = function(slot0, slot1)
 	return table.contains(slot0.finishSpecEventIds, slot1)
 end
 
-function slot0.GetHomeSpecEvents(slot0)
+slot0.GetHomeSpecEvents = function(slot0)
 	slot1 = {}
 	slot2 = getProxy(EducateProxy):GetCharData():GetPersonalityId()
 
@@ -54,7 +54,7 @@ function slot0.GetHomeSpecEvents(slot0)
 	end)
 end
 
-function slot0.GetSiteSpecEvents(slot0, slot1)
+slot0.GetSiteSpecEvents = function(slot0, slot1)
 	slot2 = {}
 	slot3 = getProxy(EducateProxy)
 	slot3 = slot3:GetCharData()
@@ -65,7 +65,7 @@ function slot0.GetSiteSpecEvents(slot0, slot1)
 	end)
 end
 
-function slot0.GetPlanSpecEvents(slot0)
+slot0.GetPlanSpecEvents = function(slot0)
 	slot1 = {}
 	slot2 = getProxy(EducateProxy)
 	slot2 = slot2:GetCharData()
@@ -76,24 +76,24 @@ function slot0.GetPlanSpecEvents(slot0)
 	end)
 end
 
-function slot0.NeedGetHomeEventData(slot0)
+slot0.NeedGetHomeEventData = function(slot0)
 	return slot0.needRequestHomeEvents
 end
 
-function slot0.SetHomeEventData(slot0, slot1)
+slot0.SetHomeEventData = function(slot0, slot1)
 	slot0.needRequestHomeEvents = false
 	slot0.waitTriggerEventIds = slot1
 end
 
-function slot0.GetHomeEventIds(slot0)
+slot0.GetHomeEventIds = function(slot0)
 	return slot0.waitTriggerEventIds
 end
 
-function slot0.RemoveEvent(slot0, slot1)
+slot0.RemoveEvent = function(slot0, slot1)
 	table.removebyvalue(slot0.waitTriggerEventIds, slot1)
 end
 
-function slot0.OnNewWeek(slot0, slot1)
+slot0.OnNewWeek = function(slot0, slot1)
 	slot0.curTime = slot1
 	slot0.needRequestHomeEvents = true
 	slot0.waitTriggerEventIds = {}

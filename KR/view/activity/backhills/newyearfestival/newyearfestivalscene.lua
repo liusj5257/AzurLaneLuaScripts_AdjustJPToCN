@@ -1,12 +1,12 @@
 slot0 = class("NewyearFestivalScene", import("..TemplateMV.BackHillTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewyearFestivalUI"
 end
 
 slot0.HUB_ID = 4
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.top = slot0:findTF("top")
 	slot0._closeBtn = slot0:findTF("top/back")
 	slot0._homeBtn = slot0:findTF("top/home")
@@ -55,7 +55,7 @@ function slot0.init(slot0)
 	end):Start()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = getProxy(MiniGameProxy)
 
 	onButton(slot0, slot0._closeBtn, function ()
@@ -134,7 +134,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	slot2 = getProxy(MiniGameProxy):GetHubByHubId(slot0.HUB_ID)
 
 	setText(slot0.ticketTimes, "X " .. slot2.count)
@@ -172,15 +172,15 @@ function slot0.UpdateView(slot0)
 end
 
 slot0.edge2area = {
-	["7_8"] = "bottom2",
 	["3_8"] = "bottom",
+	["7_8"] = "bottom2",
 	["5_6"] = "front"
 }
 
-function slot0.TryPlayStory(slot0)
+slot0.TryPlayStory = function(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.effectReq:Stop()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.top, slot0._tf)
 	slot0:clearStudents()

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"盛夏の射手座\n\n<size=45>三　海岸監視員の夏</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "セントーさんは来たばかりだから仕方ないけどね、でもスタイルがいいから、水着を着ないともったいないなぁと思って…",
 			bgm = "story-1",
+			actor = 201212,
+			nameColor = "#a9f548",
+			say = "セントーさんは来たばかりだから仕方ないけどね、でもスタイルがいいから、水着を着ないともったいないなぁと思って…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,10 +55,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "そうですね…すみません、艦隊に来たばかりで、水着の準備はまだ……",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -92,8 +92,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ええと、母港の案内は……？",
 			typewriter = {
@@ -106,8 +106,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -116,15 +116,15 @@ return {
 			}
 		},
 		{
-			actor = 101251,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101251,
+			nameColor = "#a9f548",
 			say = "サラトガ逃げるなああああ！！！ハムマンの飲み物を弁償して！！",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
 					x = 0,
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 107031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107031,
+			nameColor = "#a9f548",
 			say = "あははは！逃げるなと言われて逃げないサラトガちゃんじゃないよ！",
 			typewriter = {
 				speed = 0.05,
@@ -175,16 +175,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = 2250
@@ -227,10 +227,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "あれはサラトガ先輩……さすがですね……",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "あれ？そこにいるのは……",
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あれ？そこにいるのは……",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "アーク・ロイヤル先輩ですね！水着姿がカッコいいです！",
 			typewriter = {
@@ -314,11 +314,11 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#a9f548",
 			say = "ふん。駆逐艦の子たちが安心して遊べるよう、このアーク・ロイヤル、全力でこの母港を守護させてもらおうッ！",
 			effects = {
 				{
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "まあ、ああ見たらクールで格好良さそうだけど……",
 			effects = {
 				{
@@ -358,12 +358,12 @@ return {
 			}
 		},
 		{
-			actor = 206040,
+			say = "こ、この迫力……アーク・ロイヤル先輩、凄いです……！",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "こ、この迫力……アーク・ロイヤル先輩、凄いです……！",
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -378,8 +378,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#a9f548",
 			say = "砂浜！青空！海！そして駆逐艦の妹たち！夏って最高だああ！",
 			effects = {
 				{
@@ -463,8 +463,8 @@ return {
 			bgName = "star_level_bg_106",
 			actor = 206040,
 			dir = 1,
-			nameColor = "#a9f548",
 			say = "アーク・ロイヤル先輩！こんにちは！",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -485,11 +485,11 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#a9f548",
 			say = "ご、こほ！コホン！セントー！？ジャベリンも？珍しい組み合わせだな。",
 			typewriter = {
 				speed = 0.05,
@@ -501,8 +501,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -578,8 +578,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ええと、私、この艦隊に配属されたはかりで、水着の準備はまだ…",
 			typewriter = {
@@ -592,8 +592,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -634,15 +634,15 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#a9f548",
 			say = "ああ、いかんいかん。任務を遂行するのを忘れていた。駆逐艦たちをかんしょ……コホン！安全のために監視せねば！すまない！",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -667,8 +667,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
 					x = 0,
@@ -677,12 +677,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "じゃあ私たちはこれで！",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "じゃあ私たちはこれで！",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -697,8 +697,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -710,8 +710,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "アーク・ロイヤル先輩、頑張ってください！",
 			typewriter = {

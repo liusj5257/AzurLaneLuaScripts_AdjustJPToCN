@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEIFA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEIFA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"小さなめいどちょー\n\n<size=45>その四 幼い新参者</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-2",
+			say = "その後・母港執務室",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
-			say = "その後・母港執務室",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "ご機嫌麗しゅうございます。メイドのベルが着任しました！",
 			typewriter = {
 				speed = 0.05,
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			say = "私ならここにいます。この子は私……いいえ、正確に言うと私ではありませんが――",
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "私ならここにいます。この子は私……いいえ、正確に言うと私ではありませんが――",
+			actor = 202120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "実は――",
 			typewriter = {
@@ -87,16 +87,16 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			actorName = "{namecode:98}",
-			bgName = "bg_night",
 			side = 2,
 			dir = 1,
+			bgName = "bg_night",
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "かくかくしかじかにゃ。ちょっと複雑な事情で、着任が遅れたにゃ……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -121,12 +121,12 @@ return {
 			}
 		},
 		{
-			actor = 202180,
+			say = "ベルファストは…ここにいてはダメですか…？指揮官？",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ベルファストは…ここにいてはダメですか…？指揮官？",
+			actor = 202180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -151,12 +151,12 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "よかったぁ…やっぱり姐さまたちが言ったように、指揮官は優しいお方ですね。",
 			typewriter = {
 				speed = 0.05,
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "これって…大丈夫、の意味ですか？ちょっとよくわかりませんが…でも指揮官はやっぱり姐さまたちが言ってた通り、優しいお方ですね。",
 			typewriter = {
 				speed = 0.05,
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "指揮官ならベルちゃんをそのままにはしないって信じてたにゃ～",
 			typewriter = {
@@ -218,18 +218,18 @@ return {
 			}
 		},
 		{
-			actor = 202180,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202180,
+			nameColor = "#a9f548",
 			say = "はい！ベル、がんばります！",
 			action = {
 				{
-					number = 2,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 2,
+					type = "shake"
 				}
 			},
 			typewriter = {
@@ -242,9 +242,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "こうして、新しいメンバーが母港に加わりました。",
 			typewriter = {
 				speed = 0.05,
@@ -252,17 +252,17 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			actorName = "{namecode:98}",
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "でも…なんでベルちゃんはここに現れたのかにゃ……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -287,13 +287,13 @@ return {
 			}
 		},
 		{
-			actor = 302010,
+			say = "メンタルキューブ…照射…似ている二人…照射…？",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:37}",
 			dir = 1,
 			blackBg = true,
-			say = "メンタルキューブ…照射…似ている二人…照射…？",
+			actor = 302010,
+			actorName = "{namecode:37}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -308,12 +308,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:98}",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			actorName = "{namecode:98}",
 			say = "夕張…何か手がかりがあったのかにゃ？",
 			typewriter = {
 				speed = 0.05,
@@ -325,12 +325,12 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:37}",
 			dir = 1,
 			blackBg = true,
+			actor = 302010,
+			actorName = "{namecode:37}",
 			say = "むむむ…なんかあったような…なかったような…",
 			typewriter = {
 				speed = 0.05,
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:98}",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			actorName = "{namecode:98}",
 			say = "実験は継続だにゃ…",
 			typewriter = {
 				speed = 0.05,
@@ -359,12 +359,12 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:37}",
 			dir = 1,
 			blackBg = true,
+			actor = 302010,
+			actorName = "{namecode:37}",
 			say = "うん…じゃあ…257回目の実験は…",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"가르쳐줘! Z23 선생님!\n\n<size=45>제3장 ——여긴 누구?</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "으으… 롱·아일랜드 씨를 방에서 데려나오는 데 실패했습니다…",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "으으… 롱·아일랜드 씨를 방에서 데려나오는 데 실패했습니다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "네네! 여기 있어~",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "네네! 여기 있어~",
+			actor = 102080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "에, 에헤헤… 눈 앞에 커다란 별이 한 가득… 하나… 두울… 여긴 어디? 나는 누구?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "에, 에헤헤… 눈 앞에 커다란 별이 한 가득… 하나… 두울… 여긴 어디? 나는 누구?",
+			actor = 102080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 300,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,
@@ -59,9 +59,9 @@ return {
 						{
 							score = 0,
 							reinforceDelay = 8,
-							monsterTemplateID = 13400003,
 							delay = 1,
 							moveCast = true,
+							monsterTemplateID = 13400003,
 							corrdinate = {
 								-10,
 								0,
@@ -80,10 +80,10 @@ return {
 									switchParam = 0.8
 								},
 								{
-									switchType = 1,
+									switchParam = 10,
 									switchTo = 2,
 									index = 1,
-									switchParam = 10,
+									switchType = 1,
 									setAI = 20006,
 									removeWeapon = {
 										630033
@@ -94,10 +94,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 5,
 									switchTo = 3,
 									index = 2,
-									switchParam = 5,
+									switchType = 1,
 									setAI = 10001,
 									removeWeapon = {
 										630036
@@ -108,10 +108,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 9,
 									switchTo = 4,
 									index = 3,
-									switchParam = 9,
+									switchType = 1,
 									setAI = 90003,
 									removeWeapon = {
 										630034,
@@ -122,10 +122,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 9,
 									switchTo = 1,
 									index = 4,
-									switchParam = 9,
+									switchType = 1,
 									setAI = 90003,
 									removeWeapon = {
 										630031
@@ -140,9 +140,9 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 13400002,
-							moveCast = true,
-							delay = 2,
 							score = 0,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -155,9 +155,9 @@ return {
 						},
 						{
 							monsterTemplateID = 13400002,
-							moveCast = true,
-							delay = 2,
 							score = 0,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -170,9 +170,9 @@ return {
 						},
 						{
 							monsterTemplateID = 13400002,
-							moveCast = true,
-							delay = 2,
 							score = 0,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								18,
 								0,
@@ -185,9 +185,9 @@ return {
 						},
 						{
 							monsterTemplateID = 13400002,
-							moveCast = true,
-							delay = 2,
 							score = 0,
+							delay = 2,
+							moveCast = true,
 							corrdinate = {
 								18,
 								0,
@@ -215,14 +215,14 @@ return {
 	fleet_prefab = {
 		vanguard_unitList = {
 			{
-				exp = 10,
-				configId = 900310,
-				tmpID = 900310,
-				skinId = 900310,
 				oil_at_end = 55,
+				configId = 900310,
+				energy = 10,
+				skinId = 900310,
+				exp = 10,
+				tmpID = 900310,
 				id = 1,
 				level = 100,
-				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -230,27 +230,27 @@ return {
 				},
 				properties = {
 					cannon = 1000,
-					air = 0,
-					antiaircraft = 310,
+					reload = 830,
+					luck = 70,
 					torpedo = 150,
 					durability = 85567,
-					reload = 830,
-					armor = 98,
+					air = 0,
 					dodge = 164,
+					antiaircraft = 310,
 					speed = 31.5,
-					luck = 70,
+					armor = 98,
 					hit = 140
 				}
 			},
 			{
-				exp = 10,
-				configId = 900311,
-				tmpID = 900311,
-				skinId = 900311,
 				oil_at_end = 55,
+				configId = 900311,
+				energy = 10,
+				skinId = 900311,
+				exp = 10,
+				tmpID = 900311,
 				id = 2,
 				level = 100,
-				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -258,15 +258,15 @@ return {
 				},
 				properties = {
 					cannon = 1000,
-					air = 0,
-					antiaircraft = 310,
+					reload = 830,
+					luck = 70,
 					torpedo = 150,
 					durability = 85567,
-					reload = 830,
-					armor = 98,
+					air = 0,
 					dodge = 164,
+					antiaircraft = 310,
 					speed = 31.5,
-					luck = 70,
+					armor = 98,
 					hit = 140
 				}
 			}

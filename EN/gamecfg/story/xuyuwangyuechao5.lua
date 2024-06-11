@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "Past – Nagato's Abode",
 			bgm = "newyear2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Past – Nagato's Abode",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -88,13 +88,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_142",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I've looked into it, and I've received one other report of a Sacred Sakura withering...",
 			painting = {
 				alpha = 0.3,
@@ -125,13 +125,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "I have to apologize. There's something I haven't disclosed to you two.",
 			typewriter = {
 				speed = 0.05,
@@ -142,10 +142,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "The roots of every Sacred Sakura in this empire are all connected to the Prime Sakura.",
 			typewriter = {
@@ -154,13 +154,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "If the roots are severed by the erosion, even these hallowed trees will not be able to recover.",
 			typewriter = {
 				speed = 0.05,
@@ -168,13 +168,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "They will be cut off from nutrients, and eventually wither.",
 			typewriter = {
 				speed = 0.05,
@@ -185,10 +185,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "As for the report you received, its cause can be traced back to the Prime Sakura itself.",
 			typewriter = {
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -209,8 +209,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -224,10 +224,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "Even this one petal of the Sacred Sakura...",
 			typewriter = {
@@ -236,13 +236,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "...Shows that the erosion is spreading throughout all the nation.",
 			typewriter = {
 				speed = 0.05,
@@ -253,10 +253,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "If left alone, the Prime Sakura and all of its children will wither.",
 			typewriter = {
@@ -308,10 +308,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "I suppose you could say that it is \"somewhere\" inside of it, yes...",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -335,10 +335,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "More precisely, the Prime Sakura itself is the source.",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -411,13 +411,13 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			oldPhoto = true,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_142",
+			dir = 1,
+			actor = 301490,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Lady Nagato, the dinner party is ready. Everyone is waiting for you.",
 			painting = {
 				alpha = 0.3,
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_142",
 			factiontag = "Sakura Empire Flagship",
 			dir = 1,
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -492,13 +492,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "...I would like to take you up on that offer, Guardian Fox.",
 			typewriter = {
 				speed = 0.05,
@@ -506,8 +506,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -518,8 +518,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -545,10 +545,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "Musashi, I'd like to ask you one more thing.",
 			typewriter = {
@@ -557,13 +557,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "How is Shinano doing?",
 			typewriter = {
 				speed = 0.05,
@@ -590,13 +590,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_142",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "Sorry to trouble you. But... Could you let me meet her?",
 			typewriter = {
 				speed = 0.05,
@@ -604,13 +604,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_142",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_142",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If that is your request, then I won't decline.",
 			painting = {
 				alpha = 0.3,
@@ -644,10 +644,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "Thank you. Tomorrow is perfect.",
 			typewriter = {
@@ -675,8 +675,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -687,8 +687,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -699,8 +699,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -711,8 +711,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			oldPhoto = true,

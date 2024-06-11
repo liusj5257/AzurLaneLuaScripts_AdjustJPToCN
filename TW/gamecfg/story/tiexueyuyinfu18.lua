@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU18",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU18",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "bsm-9",
 			actor = 405010,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "哈啊…哈啊……啊啊啊————！！！",
-			bgm = "bsm-9",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,24 +24,24 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -20,
+					type = "shake",
 					delay = 0,
 					dur = 0.5,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = -20,
+					type = "shake",
 					delay = 2,
 					dur = 0.5,
 					x = 0,
 					number = 1
 				},
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 4,
 					dur = 0.1,
 					x = 50,
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			say = "隨著巨大的光圈收束，無數塞壬的艦艇被吸入其中，被碾碎成了粉末",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "這是…居然連塞壬的船都被捲進去了？！",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "躲不開了..全員準備應對第二次衝擊——",
 			typewriter = {
 				speed = 0.05,
@@ -148,10 +148,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
-			soundeffect = "event:/battle/boom2",
 			say = "轟——",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -185,10 +185,10 @@ return {
 			expression = 1,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 205050,
 			dir = -1,
-			say = "……",
 			soundeffect = "event:/battle/boom2",
+			actor = 205050,
+			say = "……",
 			flashN = {
 				color = {
 					1,
@@ -261,8 +261,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "（在能量聚集到俾斯麥周邊之後，一場巨大的爆炸打斷了這一切)",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "同時也摧毀了俾斯麥的大半身艦裝",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			side = 2,
-			expression = 2,
 			dir = 1,
+			expression = 2,
 			say = "呼…呼…這就是",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "這就是…妳們的極限嗎！！",
 			typewriter = {
 				speed = 0.05,
@@ -322,8 +322,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "居然自己摧毀了自己的主炮，嗯…果然還是沒能和魔方完美融合嗎",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "呵呵，沒想到…就算是自以為足夠堅定的意志…",
 			typewriter = {
 				speed = 0.05,
@@ -354,8 +354,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "也有那麼一瞬…",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			expression = 1,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "被這股力量給完全侵蝕了…",
 			typewriter = {
 				speed = 0.05,
@@ -386,8 +386,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "測試者",
 			dir = 1,
+			actorName = "測試者",
 			say = "匯報記錄：第151號測試結果：測試目標主動脫離活性化狀態的元魔方影響，可以初步推定存在成為關鍵點的潛力，但整體表現未達到目標恕限值…",
 			typewriter = {
 				speed = 0.05,
@@ -418,8 +418,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "塞壬，我不知道妳們究竟在打著什麼算盤…",
 			typewriter = {
 				speed = 0.05,
@@ -434,8 +434,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "但是，唯獨這份榮耀，不容妳們玷污!",
 			typewriter = {
 				speed = 0.05,
@@ -465,8 +465,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "皇家艦隊的戰士們，雖然我們有著多年的恩怨…但是很可惜",
 			typewriter = {
 				speed = 0.05,
@@ -481,8 +481,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "我不能就這樣敗在妳們手下",
 			typewriter = {
 				speed = 0.05,
@@ -497,8 +497,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "鐵血的命運，將由自己把握！",
 			typewriter = {
 				speed = 0.05,
@@ -513,8 +513,8 @@ return {
 			actor = 405010,
 			side = 2,
 			expression = 4,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "Eisen und Blut über alles！",
 			typewriter = {
 				speed = 0.05,
@@ -526,10 +526,10 @@ return {
 			}
 		},
 		{
+			say = "俾斯麥的最後一門主炮朝著皇家艦隊的方向射出了最後一發炮彈",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "俾斯麥的最後一門主炮朝著皇家艦隊的方向射出了最後一發炮彈",
 			flashN = {
 				color = {
 					1,
@@ -577,8 +577,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "由於測距設備已經被完全摧毀，炮彈偏離了軌道，僅僅在遠處炸起了一朵水花",
 			typewriter = {
 				speed = 0.05,
@@ -623,8 +623,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "我收回之前對妳的看法，如果這就是妳最後的選擇",
 			typewriter = {
 				speed = 0.05,
@@ -639,8 +639,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "我們會用炮火送妳一程",
 			typewriter = {
 				speed = 0.05,
@@ -655,8 +655,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "皇家艦隊全員，集中最後的火力",
 			typewriter = {
 				speed = 0.05,
@@ -671,8 +671,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "目標俾斯麥！！",
 			typewriter = {
 				speed = 0.05,
@@ -684,12 +684,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_bsm_3",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			say = "轟——",
-			dir = 1,
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -737,13 +737,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "俾斯麥",
+			side = 2,
 			bgName = "bg_bsm_3",
-			nameColor = "#ffde38",
 			dir = 1,
-			say = "（…………）",
 			bgm = "bsm-6",
+			nameColor = "#ffde38",
+			say = "（…………）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,13 +754,13 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_3",
-			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			dir = 1,
-			say = "（…還是沒能…達成…我們的夙願啊……）",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#ffde38",
+			say = "（…還是沒能…達成…我們的夙願啊……）",
 			flashN = {
 				color = {
 					1,
@@ -808,8 +808,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
@@ -824,8 +824,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
@@ -840,15 +840,15 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_5",
-			nameColor = "#ffde38",
 			dir = 1,
+			actorName = "俾斯麥",
+			nameColor = "#ffde38",
 			say = "等一下！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -880,8 +880,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -896,8 +896,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -912,8 +912,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -928,8 +928,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -944,8 +944,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -960,8 +960,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -976,8 +976,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -992,8 +992,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1008,8 +1008,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1024,8 +1024,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1040,8 +1040,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1056,8 +1056,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1072,8 +1072,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1088,8 +1088,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1104,8 +1104,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1120,8 +1120,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1136,8 +1136,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1152,8 +1152,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1168,8 +1168,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_5",
 			side = 2,
 			dir = 1,
@@ -1184,8 +1184,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1200,8 +1200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1216,8 +1216,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1232,8 +1232,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1248,8 +1248,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "觀察者",
+			side = 2,
 			bgName = "bg_bsm_5",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -1264,13 +1264,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "俾斯麥",
-			bgName = "bg_bsm_3",
-			nameColor = "#ffde38",
+			side = 2,
 			dir = 1,
-			say = "鐵的紀律與…血的榮耀…………",
+			bgName = "bg_bsm_3",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#ffde38",
+			say = "鐵的紀律與…血的榮耀…………",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -1307,8 +1307,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
@@ -1323,11 +1323,11 @@ return {
 			}
 		},
 		{
-			say = "轟——",
 			side = 2,
 			bgName = "bg_bsm_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟——",
 			flashN = {
 				color = {
 					1,
@@ -1375,8 +1375,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
@@ -1391,8 +1391,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
@@ -1407,8 +1407,8 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			bgName = "bg_bsm_3",
 			side = 2,
 			dir = 1,
@@ -1423,13 +1423,13 @@ return {
 			}
 		},
 		{
-			actorName = "俾斯麥",
 			side = 2,
 			bgName = "bg_bsm_3",
-			nameColor = "#ffde38",
+			actorName = "俾斯麥",
 			dir = 1,
-			say = "我終於能感受到寧靜的一面了…",
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#ffde38",
+			say = "我終於能感受到寧靜的一面了…",
 			flashN = {
 				color = {
 					1,
@@ -1477,8 +1477,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			sequence = {
 				{
 					"<size=60>（我的妹妹…到最後還是期待能和妳們並肩前行呀…）</size>",
@@ -1487,14 +1487,14 @@ return {
 			}
 		},
 		{
-			actor = 205040,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205040,
+			nameColor = "#a9f548",
 			say = "這樣就…結束了吧",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1654,10 +1654,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "眾人",
+			side = 2,
 			dir = 1,
+			actorName = "眾人",
 			say = "天佑女王——",
 			effects = {
 				{
@@ -1682,9 +1682,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = -1,
 			actor = 205050,
 			nameColor = "#a9f548",
-			dir = -1,
 			say = "全員注意，做好必要的損管檢查，準備返航！",
 			effects = {
 				{

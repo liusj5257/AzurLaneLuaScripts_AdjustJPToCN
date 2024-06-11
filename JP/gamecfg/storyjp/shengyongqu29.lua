@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU29",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENGYONGQU29",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 802020,
 			dir = 1,
+			bgm = "story-french2",
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "アルジェリーさん、しっかりしてください！",
-			bgm = "story-french2",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -37,8 +37,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "げほげほ……私は一体……ここは……",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "アルジェリーさん、私の顔を覚えていますか？",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "ジャンヌ…ダルク？ええ、覚えてるわ。さっきからずっと耳元で叫んでるんだもの",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "…なんだか、長い夢を見てた気がするわ",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "よかったです。例え闇の中にいても、あなたはずっと光へと手を伸ばしていました",
 			typewriter = {
@@ -122,8 +122,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "……ひどく怪我したわね",
 			typewriter = {
@@ -139,8 +139,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "心配ありません。港に戻って休養すればすぐに治りますから",
 			typewriter = {
@@ -156,8 +156,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ffff4d",
 			say = "アルジェリー！もう心配させて！生きててよかった！",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -183,8 +183,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 901030,
 			dir = 1,
+			actor = 901030,
 			nameColor = "#ffff4d",
 			say = "聖堂の屋根が崩れちゃったときは急に倒れて、びっくりしたよ！もう二度と会えないんじゃないかって…",
 			typewriter = {
@@ -200,8 +200,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "ヴォークランちゃんたちも無事だったのね",
 			typewriter = {
@@ -217,8 +217,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "って、なんでみんな枢機卿のそばにいるの？",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ffff4d",
 			say = "ああ！それはなんというか…緊急事態じゃん？ちょっとだけ共闘してて",
 			typewriter = {
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -261,8 +261,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ffff4d",
 			say = "まあ聖堂は守れなかったけど、アズールレーンが占拠する前に破壊されたから、まあ義理は果たしたんじゃない？",
 			typewriter = {
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "はああ、そうね…それもしょうがないってことで",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ffff4d",
 			say = "楽しそうだしじゃあこれで決まりね！リシュリュー、これからは…",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#ff5c5c",
 			say = "あー、それはちょっと待ったほうがいいわよ？",
 			typewriter = {
@@ -345,8 +345,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			nameColor = "#ffff4d",
 			say = "……え？",
 			typewriter = {
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			say = "――――！",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――！",
 			flashN = {
 				color = {
 					1,
@@ -411,9 +411,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
+			dir = 1,
 			say = "廃墟となった聖堂の向こうから突如砲撃が行われた",
 			typewriter = {
 				speed = 0.05,
@@ -428,8 +428,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			nameColor = "#ff5c5c",
 			say = "リシュリュー型4番艦、ガスコーニュ、支援戦闘モジュール作動開始",
 			typewriter = {
@@ -445,9 +445,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 999010,
 			dir = 1,
 			blackBg = true,
+			actor = 999010,
 			nameColor = "#ff5c5c",
 			say = "アルジェリー、ラ・ガリソニエール、ヴォークラン三名、南西への脱出を求む。殿はガスコーニュが担当する",
 			typewriter = {

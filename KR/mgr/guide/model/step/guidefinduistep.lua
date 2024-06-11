@@ -6,14 +6,15 @@ slot0.EVENT_TYPE_STICK = 4
 slot0.SHOW_UI = 5
 slot0.TRIGGER_TYPE_BUTTONEX = 6
 slot0.SNAP_PAGE = 7
+slot0.EVENT_TYPE_EVT_CLICK = 8
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.eventUI = slot0:GenEventSearchData(slot1.ui)
 end
 
-function slot0.GenEventSearchData(slot0, slot1)
+slot0.GenEventSearchData = function(slot0, slot1)
 	if not slot1 then
 		return nil
 	end
@@ -55,23 +56,29 @@ function slot0.GenEventSearchData(slot0, slot1)
 		slot6 = slot1.triggerType and slot1.triggerType[2]
 	end
 
+	slot7 = slot1.eventPath
+
+	if slot1.dynamicEventPath then
+		slot7 = slot1.dynamicEventPath()
+	end
+
 	slot2.triggerData = {
 		type = slot5,
 		arg = slot6
 	}
 	slot2.childIndex = slot1.eventIndex
-	slot2.eventPath = slot1.eventPath
+	slot2.eventPath = slot7
 	slot2.fingerPos = slot1.fingerPos
 	slot2.slipAnim = slot5 == uv0.SNAP_PAGE
 
 	return slot2
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	return GuideStep.TYPE_FINDUI
 end
 
-function slot0.GetEventUI(slot0)
+slot0.GetEventUI = function(slot0)
 	return slot0.eventUI
 end
 

@@ -7,7 +7,13 @@ return {
 				1
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/main/frame/linkBtns/MainActAtelierBtn",
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/activity/MainActAtelierBtn"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/linkBtns/MainActAtelierBtn"
+					end
+				end,
 				triggerType = {
 					1
 				},
@@ -19,8 +25,8 @@ return {
 			style = {
 				text = "ほかの採取道具の必要素材でもチェックしようかしら",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 0
 			}
 		}

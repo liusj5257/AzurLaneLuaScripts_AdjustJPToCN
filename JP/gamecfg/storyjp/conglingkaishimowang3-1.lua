@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
-			say = "眩しい光が消えると、目の前はうっそうとした森が広がっていた。",
 			bgm = "theme-camelot",
+			say = "眩しい光が消えると、目の前はうっそうとした森が広がっていた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "手足を動かしてみると、まるでバーチャルのものだと感じさせないほど自由に動ける。",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "樹皮に触れると、少し湿っぽく冷えた感触がわかった。",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "鳥たちの囀りが聞こえ、植物特有の匂いが土の匂いと混じり合い鼻に伝わってくる。",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			recallOption = true,
 			say = "――…………",
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "突然の状況に少し混乱しながら、手探りでシステムパネルを呼び出した。",
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "パネルの一番下には、堂々と大きく「冒険を終了する」と書いてあるボタンがある。",
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "――よし、自分の意志で脱出できるな！",
@@ -164,8 +164,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "五感をも完璧にシミュレーションできるこのシステムなら、痛覚を再現することだって造作もないだろう。",
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "少しドキドキしながら、目の前にある木に拳を力いっぱい叩き込んだ。",
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "―――！",
@@ -263,29 +263,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			factiontag = "指揮官",
 			side = 2,
 			bgName = "star_level_bg_520",
-			factiontag = "指揮官",
+			bgm = "ryza-az-battle",
+			actor = 0,
 			nameColor = "#A9F548FF",
 			say = "――……職業：指揮官。レベル：1",
-			bgm = "ryza-az-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "目を凝らしてもう一回見直した。どうやら見間違いではないようだ。",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "その時、森の中からざわつくドラム音が聞こえた。",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "頭の中…ではなく、冒険パネルに情報が表示された。",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "冒険端末",
+			side = 2,
 			bgName = "star_level_bg_520",
 			nameColor = "#A9F548FF",
 			say = "「終わりなき樹海には数えきれないほどの饅頭スライムが生息している」",
@@ -474,8 +474,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "冒険端末",
+			side = 2,
 			bgName = "star_level_bg_520",
 			nameColor = "#A9F548FF",
 			say = "「そして今聞こえたドラム音は、キング饅頭スライムが率いるスライムパトロール隊から発せられたものだ」",
@@ -591,8 +591,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "視界の中にある最も大きい石を拾い、遠くに見えるキング饅頭スライムめがけて全力で投げた。",
@@ -602,8 +602,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "―――！",
@@ -618,8 +618,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "キング饅頭スライムのHPがわずかに減った！",
@@ -637,8 +637,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 1,
 			say = "キング饅頭スライムが怒り出し、体を膨らませてこちらに突進してきた！",
@@ -682,8 +682,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "パキッ。走っている間に落ちている小枝を踏んでしまった。",
@@ -719,8 +719,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			optionFlag = 2,
 			say = "遠くにいたキング饅頭スライムがこちらに気づき、高速で突進してきた。",
@@ -774,8 +774,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			say = "――――！！！",
 			typewriter = {
@@ -817,17 +817,17 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -835,11 +835,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_520",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "魔物め！お前たちの敵はこの勇者撫順さまだ！",
@@ -853,8 +853,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -882,8 +882,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

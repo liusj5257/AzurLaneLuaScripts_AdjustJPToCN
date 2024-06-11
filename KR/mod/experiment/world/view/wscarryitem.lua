@@ -1,22 +1,22 @@
 slot0 = class("WSCarryItem", import(".WSMapTransform"))
 slot0.Fields = {
 	wsMapPath = "table",
-	active = "boolean",
+	carryItem = "table",
 	followList = "table",
 	theme = "table",
 	fleet = "table",
-	carryItem = "table"
+	active = "boolean"
 }
 slot0.Listeners = {
 	onUpdate = "Update",
 	onMoveEnd = "OnMoveEnd"
 }
 
-function slot0.GetResName(slot0)
+slot0.GetResName = function(slot0)
 	return "event_tpl"
 end
 
-function slot0.Setup(slot0, slot1, slot2, slot3)
+slot0.Setup = function(slot0, slot1, slot2, slot3)
 	slot0.fleet = slot1
 
 	slot0.fleet:AddListener(WorldMapFleet.EventUpdateLocation, slot0.onUpdate)
@@ -30,7 +30,7 @@ function slot0.Setup(slot0, slot1, slot2, slot3)
 	slot0:Init()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.fleet:RemoveListener(WorldMapFleet.EventUpdateLocation, slot0.onUpdate)
 	slot0.carryItem:RemoveListener(WorldCarryItem.EventUpdateOffset, slot0.onUpdate)
 
@@ -42,7 +42,7 @@ function slot0.Dispose(slot0)
 	uv0.super.Dispose(slot0)
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0.transform
 	slot1.name = "carry_item_" .. slot0.carryItem.id
 	slot1.localEulerAngles = Vector3(-slot0.theme.angle, 0, 0)
@@ -52,7 +52,7 @@ function slot0.Init(slot0)
 	slot0:UpdateModelScale(slot0.carryItem:GetScale())
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot2 = slot0.transform
 	slot3 = slot0.fleet
 	slot4 = slot0.carryItem
@@ -87,7 +87,7 @@ function slot0.Update(slot0, slot1)
 	end
 end
 
-function slot0.UpdateActive(slot0, slot1)
+slot0.UpdateActive = function(slot0, slot1)
 	if slot0.active ~= slot1 then
 		slot0.active = slot1
 
@@ -95,7 +95,7 @@ function slot0.UpdateActive(slot0, slot1)
 	end
 end
 
-function slot0.FollowPath(slot0, slot1)
+slot0.FollowPath = function(slot0, slot1)
 	if not slot0.wsMapPath then
 		slot0.wsMapPath = WSMapPath.New()
 
@@ -124,13 +124,13 @@ function slot0.FollowPath(slot0, slot1)
 	return slot0.wsMapPath
 end
 
-function slot0.OnMoveEnd(slot0, slot1)
+slot0.OnMoveEnd = function(slot0, slot1)
 	if #slot0.followList > 0 then
 		table.remove(slot0.followList, 1)()
 	end
 end
 
-function slot0.GetLocation(slot0)
+slot0.GetLocation = function(slot0)
 	return slot0.fleet.row + slot0.carryItem.offsetRow, slot0.fleet.column + slot0.carryItem.offsetColumn
 end
 

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAIDUOBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAIDUOBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Fight On, Royal Maids!\n\n<size=45>Begin the Operation!</size>",
@@ -19,13 +19,13 @@ return {
 		{
 			actor = 205010,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Do I make myself clear, Bel? I won't tolerate failure on this mission!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -89,14 +89,14 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 0.5,
-			say = "In any case, that is what Her Majesty said...",
+			bgName = "bg_story_nepu2",
 			bgm = "level02",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "In any case, that is what Her Majesty said...",
 			flashout = {
 				dur = 0.25,
 				alpha = {
@@ -179,8 +179,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202210,
 			dir = 1,
+			actor = 202210,
 			nameColor = "#a9f548",
 			say = "Well, we've already done this once before, so let's not take this too seriously~",
 			typewriter = {
@@ -196,8 +196,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "That may be the case, but as these are the Queen's orders, I can't afford to hold back.",
 			typewriter = {
@@ -228,14 +228,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu2",
 			actor = 202040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "I'm a bit concerned... I just arrived at the base, and I already have to fight against my Master's fleet...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,8 +263,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Will Dido also be cast aside like this child here...",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202100,
 			dir = 1,
+			actor = 202100,
 			nameColor = "#a9f548",
 			say = "Don't worry. Those are the actual orders that Her Majesty gave.",
 			typewriter = {
@@ -313,8 +313,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "In other words, I'll be supporting the Royal Maids and... fighting against my Master's fleet?",
 			typewriter = {
@@ -346,8 +346,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "...and most importantly, prove to my Master that I can fulfill any request, no matter the situation...?",
 			typewriter = {
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 202040,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202040,
+			nameColor = "#a9f548",
 			say = "Understood! For the sake of Her Majesty and my Master, I will give it my all!",
 			typewriter = {
 				speed = 0.05,
@@ -376,8 +376,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -386,15 +386,15 @@ return {
 			}
 		},
 		{
-			actor = 202260,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202260,
+			nameColor = "#a9f548",
 			say = "What a monster...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -483,8 +483,8 @@ return {
 			}
 		},
 		{
-			bgm = "battle-boss-5",
 			mode = 1,
+			bgm = "battle-boss-5",
 			effects = {
 				{
 					active = true,
@@ -492,8 +492,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

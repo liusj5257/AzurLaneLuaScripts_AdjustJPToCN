@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_55 = {}
 slot1 = slot0.word_template_55
 
-function temp()
+temp = function()
 	uv0["才"] = {
 		["能"] = {
 			["有"] = {
@@ -45,7 +45,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["财"] = {
 		["富"] = {
 			["第"] = {
@@ -115,7 +115,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["裁"] = {
 		["判"] = {
 			["女"] = {
@@ -136,7 +136,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["采"] = {
 		["花"] = {
 			["堂"] = {
@@ -167,7 +167,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["採"] = {
 		["花"] = {
 			["堂"] = {
@@ -179,7 +179,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["彩"] = {
 		["虹"] = {
 			["剑"] = {
@@ -247,7 +247,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["踩"] = {
 		["踏"] = {
 			["佛"] = {

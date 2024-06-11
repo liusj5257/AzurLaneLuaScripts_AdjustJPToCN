@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行24次攻击，触发专属弹幕-普利茅斯I",
 	name = "专属弹幕-普利茅斯I",
 	init_effect = "",
+	id = 29891,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行24次攻击，触发专属弹幕-普利茅斯I",
 	stack = 1,
-	id = 29891,
+	color = "red",
 	icon = 29890,
 	last_effect = "",
 	effect_list = {
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29891,
+				target = "TargetSelf",
 				countType = 29890
 			}
 		},
@@ -44,8 +44,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageToArmorRateEnhance_1",
-				number = 0.05
+				number = 0.05,
+				attr = "damageToArmorRateEnhance_1"
 			}
 		},
 		{
@@ -54,8 +54,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageToArmorRateEnhance_2",
-				number = 0.05
+				number = 0.05,
+				attr = "damageToArmorRateEnhance_2"
 			}
 		}
 	}

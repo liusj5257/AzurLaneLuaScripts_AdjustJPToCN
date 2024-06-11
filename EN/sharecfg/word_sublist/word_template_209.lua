@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_209 = {}
 slot1 = slot0.word_template_209
 
-function temp()
+temp = function()
 	uv0["命"] = {
 		["运"] = {
 			["就"] = {
@@ -21,7 +21,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["摸"] = {
 		j = {
 			j = {
@@ -129,7 +129,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["模"] = {
 		["拟"] = {
 			["机"] = {
@@ -154,7 +154,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["摩"] = {
 		["擦"] = {
 			["着"] = {
@@ -205,7 +205,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["魔"] = {
 		["法"] = {
 			["加"] = {
@@ -273,7 +273,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["末"] = {
 		["日"] = {
 			["代"] = {
@@ -331,7 +331,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["茉"] = {
 		["莉"] = {
 			["花"] = {

@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG35",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG35",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "xinnong-2",
 			dir = 1,
 			say = "하하하하! 방금 기고만장하던 기세는 어디로 갔을까? 어째 지금도 멋대로 달아나기만 하는 거야!",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "스캐빈저의 빛줄기가 해수면 위에서 거리낌 없이 내리쬐고 있었다. 밸리언트와 하우는 그것과 맴돌면서, 필살의 시기를 기다리고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -80,14 +80,14 @@ return {
 			}
 		},
 		{
-			actor = 900219,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900219,
+			nameColor = "#ff5c5c",
 			say = "응? 대범하게 다가오네? 실력 차이를 확실하게 알아 본 후에 쓸데없는 저항은 포기해야 할 것 같네",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "…인정할게. 예전에는 널 쉽게 봤어. 아무리 믿을만한 구석이 없어 보여도, 어쨌든 세이렌의 고급형인데…",
 			typewriter = {
 				speed = 0.05,
@@ -143,8 +143,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,9 +170,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "흥! 너무 순진하네!",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.8,
 					dur = 0.5,
 					x = -2500
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "스캐빈저가 멀지 않은 곳에 있는 밸리언트를 겨눠 주포를 작동시켰다. 하지만 빛무리가 명중하기 전, 위기일발의 순간을 벗어나게 만들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 2500
@@ -262,8 +262,8 @@ return {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "...이런!",
 			dialogShake = {
 				speed = 0.09,
@@ -280,9 +280,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_6",
+			dir = 1,
 			say = "스캐빈저가 모든 주의력을 앞에 있던 밸리언트에게 두고 있었기 때문에, 측면에서 빠르게 습격해온 하우를 발견했을 때는 이미 늦은 뒤였다.",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "스캐빈저",
+			side = 1,
 			bgName = "bg_hms_6",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -310,8 +310,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "밸리언트",
+			side = 2,
 			bgName = "bg_hms_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -326,9 +326,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_6",
+			dir = 1,
 			say = " 스캐빈저가 주포의 발사 시스템 강제 중지를 통해 긴급 회피를 하려 했으나, 그 전에 이미 하우의 검이 스캐빈저의 함장 내에 깊이 꽂혀 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "하우",
+			side = 2,
 			bgName = "bg_hms_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -356,11 +356,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#ff5c5c",
+			side = 1,
 			bgName = "bg_hms_6",
-			actorName = "스캐빈저",
 			dir = 1,
+			actorName = "스캐빈저",
 			say = "…가증스러워! 아아아아아악!!! I'll be bac...k......",
 			dialogShake = {
 				speed = 0.09,
@@ -377,10 +377,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = " 함장의 파손이 멈춰 있던 발사 시스템의 에너지 유출까지 일으켰다. 여러 차례의 작은 폭발 후에, 한 차례의 커다란 폭발 소리가 해수면을 울리고, 연기가 사라진 후 스캐빈저는 이미 바다 위에서 완전히 사라져있었다.",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = " 함장의 파손이 멈춰 있던 발사 시스템의 에너지 유출까지 일으켰다. 여러 차례의 작은 폭발 후에, 한 차례의 커다란 폭발 소리가 해수면을 울리고, 연기가 사라진 후 스캐빈저는 이미 바다 위에서 완전히 사라져있었다.",
 			effects = {
 				{
 					active = true,
@@ -452,8 +452,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = " 또 주포 한대를 못쓰게 된 것 뿐이야. 난 괜찮아. 어쨌든 돌아간 후에 확실히 대수리를 해야겠어.",
 			typewriter = {
 				speed = 0.05,
@@ -468,8 +468,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "하우… 시야와 레이더 상에서 모두 스캐빈저의 종적이 사라졌습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -481,10 +481,10 @@ return {
 			}
 		},
 		{
-			actor = 205090,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 205090,
 			say = " 좋아. 남은 잔당들은 우리에게 맡기고 넌 푹 쉬어, 밸리언트.",
 			effects = {
 				{

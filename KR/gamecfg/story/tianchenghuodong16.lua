@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG16",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG16",
 	continueBgm = true,
 	fadein = 1.5,
 	scripts = {
@@ -11,8 +11,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			stopbgm = true,
 			say = "상황은 어떤가?",
 			typewriter = {
@@ -46,9 +46,9 @@ return {
 		{
 			actor = 301790,
 			nameColor = "#92fc63",
+			dir = 1,
 			withoutActorName = true,
 			side = 0,
-			dir = 1,
 			say = "하타카제는 고개를 저으며 카가에게 아마기의 상황을 설명했다.",
 			typewriter = {
 				speed = 0.05,
@@ -63,8 +63,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			say = "아무래도 아마기의 용골에 결함이 생긴 것 같네만, 애초에 성정큐브에도 문제가 있었을 줄은, 정말 아무도 몰랐네.",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			say = "……저번 일도 그 원인 중 하나지만……너무 자책하진 말게나.",
 			typewriter = {
 				speed = 0.05,
@@ -110,8 +110,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			say = "다만……",
 			typewriter = {
 				speed = 0.05,
@@ -125,9 +125,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = 1,
 			actor = 305070,
 			nameColor = "#92fc63",
-			dir = 1,
 			say = "다만?",
 			typewriter = {
 				speed = 0.05,
@@ -139,8 +139,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,8 +152,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			say = "이 상황으로 봐선, 지금은 항공모함으로 개조되는 것도 불투명하게 되었군 그래……",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "설마……",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			expression = 1,
 			nameColor = "#92fc63",
 			side = 0,
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			say = "아카기도 포함해서 말이지……그 아인 지금, 한창 항공모함 개조를 받고 있는 중이니까 말이야.",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			nameColor = "#92fc63",
 			side = 1,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "……………",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
+			dir = 1,
 			say = "믿기 힘들다는 표정을 짓던 카가는 갑자기 자리에서 벌떡 일어나, 멍하니 한 곳을 응시했다.",
 			typewriter = {
 				speed = 0.05,
@@ -243,14 +243,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 304050,
-			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#92fc63",
 			say = "하타카제……?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -293,10 +293,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 304050,
-			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#92fc63",
 			say = "이제…이제 마지막 한 수만 남았으니……부탁드립니다…",
 			typewriter = {
 				speed = 0.05,
@@ -310,10 +310,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 301790,
-			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
+			actor = 301790,
+			nameColor = "#92fc63",
 			say = "물론이네. 그대의 뜻대로 하지.",
 			typewriter = {
 				speed = 0.05,
@@ -325,12 +325,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그리고, 운명의 날이 다가왔다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -358,9 +358,9 @@ return {
 			actor = 305050,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "nagato-map",
 			dir = 1,
 			say = "나는 나가토…사쿠라 엠파이어 연합 함대의 기함, 나가토다! 다들, 잠시 여기 집중하도록!",
+			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「아가씨」와 함께하는 시간\n\n<size=45>1 푸른 하늘 아래 청춘의 소리</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "업무가 일단락된 후 나가서 산책을 걷는데, 어느새 이마에 땀방울이 맺혔다.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "업무가 일단락된 후 나가서 산책을 걷는데, 어느새 이마에 땀방울이 맺혔다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "아침에는 아직 이정도로 더울 수가 없을텐데... 맑은 하늘을 보며 한숨을 돌렸을 때——",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "타앙——!!",
@@ -81,11 +81,11 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "와아!? 어떻게 또 치는 거야~~!!!",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "아킬레스의 탄식하는 소리가 흰색 공과 함께 조용했던 푸른 하늘을 찢었다.",
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "리엔더급 세 명이 야구를 하고 있는 것 같다. 소리나는 대로 돌아보는데——",
@@ -188,8 +188,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "스윙 감각을 거의 되찾은 것 같은데, 다시 해보자~",
 			typewriter = {
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "에~ 살려줘~ 온 힘을 다해 던져서 아무리 재밌다해도, 계속 이렇게 쉽게 맞으면 힘 빠진다고~",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -228,8 +228,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "아킬레스는 바닥에 쪼그려 괴로워하며 머릴 흔들었다. 이 셋이서 계속 체이서를 상대해 주고 있는 것 같았다.",
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "원래 보그급 자매함의 체이서를 상대한다면, 역시 그렇게 간단하진 않겠네.",
@@ -274,11 +274,11 @@ return {
 			}
 		},
 		{
-			actor = 202020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202020,
+			nameColor = "#a9f548",
 			say = "네가 이렇게 잘하는 줄 진작 알았으면, 도전 안했지!",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "후후후, 됐어, 오늘은 여기까지만 하자——응? 지휘관 아니야?",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "체이서와 리엔더급 세 자매가 이쪽을 바라보며 손을 흔들었다.",
@@ -335,8 +335,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "지휘관, 내가 공 날린 거 보고 보러 온 거야?",
 			typewriter = {
@@ -378,8 +378,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "아 참, 지휘관, 시간 좀 빌려도 될까? 상의하고 싶은 일이 있어서.",
 			typewriter = {
@@ -392,8 +392,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "마침 업무도 일단락되었고, 이후로도 다른 계획은 없었다. 문제 없다.",
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			say = "대답하고 나서는, 체이서가 웃으며 걸어왔다.",
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			blackBg = true,

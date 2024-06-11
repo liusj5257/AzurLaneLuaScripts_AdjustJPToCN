@@ -15,13 +15,13 @@ return {
 		{
 			actor = 103090,
 			nameColor = "#a9f548",
+			say = "Astoria!",
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "Astoria!",
 			flash = {
+				wait = 0.2,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.2,
 				number = 1,
 				alpha = {
 					0,
@@ -40,8 +40,8 @@ return {
 		{
 			actor = 103080,
 			side = 1,
-			nameColor = "#a9f548",
 			say = "I'm all right... I can still keep fighting!",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

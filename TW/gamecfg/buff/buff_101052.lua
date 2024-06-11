@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "十字缔结",
 	time = 1,
+	name = "十字缔结",
+	init_effect = "",
 	picture = "",
 	desc = "使得主炮的子弹暴击率提高100%",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 1,
+				attr = "cri",
 				index = {
 					1
 				}

@@ -1,4 +1,4 @@
-function Clone_Copy(slot0, slot1)
+Clone_Copy = function(slot0, slot1)
 	if type(slot0) ~= "table" then
 		return slot0
 	elseif slot1[slot0] then
@@ -19,11 +19,11 @@ function Clone_Copy(slot0, slot1)
 	return setmetatable(slot2, getmetatable(slot0))
 end
 
-function Clone(slot0)
+Clone = function(slot0)
 	return Clone_Copy(slot0, {})
 end
 
-function class(slot0, slot1)
+class = function(slot0, slot1)
 	slot3 = nil
 
 	if type(slot1) ~= "function" and slot2 ~= "table" then
@@ -45,13 +45,13 @@ function class(slot0, slot1)
 			slot3.__create = slot1
 		end
 
-		function slot3.Ctor()
+		slot3.Ctor = function()
 		end
 
 		slot3.__cname = slot0
 		slot3.__ctype = 1
 
-		function slot3.New(...)
+		slot3.New = function(...)
 			slot0 = uv0.__create(...)
 
 			for slot4, slot5 in pairs(uv0) do
@@ -78,7 +78,7 @@ function class(slot0, slot1)
 		slot3.__ctype = 2
 		slot3.__index = slot3
 
-		function slot3.New(...)
+		slot3.New = function(...)
 			slot0 = setmetatable({}, uv0)
 			slot0.class = uv0
 
@@ -91,7 +91,7 @@ function class(slot0, slot1)
 	return slot3
 end
 
-function isa(slot0, slot1)
+isa = function(slot0, slot1)
 	slot2 = getmetatable(slot0)
 
 	while slot2 ~= nil do
@@ -107,11 +107,11 @@ function isa(slot0, slot1)
 	return false
 end
 
-function instanceof(slot0, slot1)
+instanceof = function(slot0, slot1)
 	return superof(slot0.class, slot1)
 end
 
-function superof(slot0, slot1)
+superof = function(slot0, slot1)
 	while slot0 ~= nil do
 		if slot0 == slot1 then
 			return true
@@ -123,13 +123,13 @@ function superof(slot0, slot1)
 	return false
 end
 
-function singletonClass(slot0, slot1)
+singletonClass = function(slot0, slot1)
 	slot2 = class(slot0, slot1)
 	slot2._new = slot2.New
 
 	rawset(slot2, "_singletonInstance", nil)
 
-	function slot2.New()
+	slot2.New = function()
 		if not uv0._singletonInstance then
 			return uv0.GetInstance()
 		end
@@ -137,7 +137,7 @@ function singletonClass(slot0, slot1)
 		error("singleton class can not new. Please use " .. uv1 .. ".GetInstance() to get it", 2)
 	end
 
-	function slot2.GetInstance()
+	slot2.GetInstance = function()
 		if rawget(uv0, "_singletonInstance") == nil then
 			rawset(uv0, "_singletonInstance", uv0._new())
 		end
@@ -148,7 +148,7 @@ function singletonClass(slot0, slot1)
 	return slot2
 end
 
-function removeSingletonInstance(slot0)
+removeSingletonInstance = function(slot0)
 	if slot0 and rawget(slot0, "_singletonInstance") then
 		rawset(slot0, "_singletonInstance", nil)
 
@@ -158,7 +158,7 @@ function removeSingletonInstance(slot0)
 	return false
 end
 
-function tracebackex()
+tracebackex = function()
 	slot1 = 2
 	slot0 = "" .. "stack traceback:\n"
 
@@ -187,7 +187,7 @@ function tracebackex()
 	return slot0
 end
 
-function tostringex(slot0, slot1)
+tostringex = function(slot0, slot1)
 	if slot1 == nil then
 		slot1 = 0
 	end
@@ -222,7 +222,7 @@ function tostringex(slot0, slot1)
 	return slot3
 end
 
-function DecorateClass(slot0, slot1)
+DecorateClass = function(slot0, slot1)
 	assert(slot0, "Need a Base Class")
 
 	slot2 = setmetatable({}, {
@@ -235,7 +235,7 @@ function DecorateClass(slot0, slot1)
 	slot2.__ctype = 2
 	slot2.__index = slot2
 
-	function slot2.New(...)
+	slot2.New = function(...)
 		slot0 = setmetatable({}, uv0)
 		slot0.class = uv0
 

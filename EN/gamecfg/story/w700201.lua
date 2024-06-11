@@ -1,12 +1,12 @@
 return {
-	id = "W700201",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700201",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Monthly goal of Arbiter eliminations has been reached. You may challenge an Arbiter on Hard mode upon reentering the zone.",
 			typewriter = {
 				speed = 0.05,

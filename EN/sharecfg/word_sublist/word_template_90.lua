@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_90 = {}
 slot1 = slot0.word_template_90
 
-function temp()
+temp = function()
 	uv0["度"] = {
 		["冷"] = {
 			["丁"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["渡"] = {
 		["边"] = {
 			["美"] = {
@@ -36,7 +36,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["短"] = {
 		["线"] = {
 			["投"] = {
@@ -71,7 +71,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["断"] = {
 		["虹"] = {
 			["玉"] = {
@@ -143,7 +143,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["对"] = {
 		["待"] = {
 			["干"] = {
@@ -369,7 +369,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["顿"] = {
 		["湿"] = {
 			["滔"] = {
@@ -383,7 +383,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["堕"] = {
 		["淫"] = {
 			this = true

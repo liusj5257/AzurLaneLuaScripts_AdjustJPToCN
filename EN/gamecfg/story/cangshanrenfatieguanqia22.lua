@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIEGUANQIA22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIEGUANQIA22",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000010,
 			dir = 1,
+			bgm = "sk-az-battle",
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "We did it!",
-			bgm = "sk-az-battle",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -40,8 +40,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_kagura_2",
-			actor = 11000030,
 			dir = 1,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "You're all that's left, bastard! Say your last prayers!",
 			painting = {
@@ -80,9 +80,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_kagura_2",
 			actor = 11000030,
-			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "Hey! Wait! Get your ass back here!",
 			painting = {
@@ -94,17 +94,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -124,27 +124,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
-			say = "Sometime later, deep in the keep...",
 			bgm = "sk-az-battle",
+			say = "Sometime later, deep in the keep...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -155,8 +155,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "Fubuki! Are you alright?!",
 			painting = {
@@ -171,9 +171,9 @@ return {
 		{
 			actor = 11000050,
 			side = 2,
-			bgName = "star_level_bg_111",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_111",
 			say = "Mmgh...",
 			painting = {
 				alpha = 0.3,
@@ -188,8 +188,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Let me have a look at her. Pupil dilation is fine. Pulse, fine. Breathing, fine.",
 			painting = {
@@ -205,8 +205,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "...Yeah, she's okay, save for a couple of scratches. Just needs a little rest back at the port and she'll be back to normal in no time.",
 			painting = {
@@ -222,8 +222,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "Oh, thank goodness...",
 			painting = {
@@ -239,8 +239,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
 			say = "Let's all get out of here before anything bad happens!",
 			painting = {
@@ -256,8 +256,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
 			say = "I wouldn't put it past the Sirens to be like, \"I'm taking you with me!\" and blowing the castle up at the last second!",
 			painting = {
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			say = "RUSTLE...",
 			typewriter = {
@@ -283,8 +283,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000060,
 			dir = 1,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "Huh? Look! Fubuki – she's moving.",
 			painting = {
@@ -300,8 +300,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "You're awake, Fubuki. Thank go– Aaahhh!",
 			painting = {
@@ -314,8 +314,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,11 +324,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,9 +376,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_111",
 			actor = 11000040,
-			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "What's happening? Why is she attacking us?!",
 			painting = {
@@ -390,17 +390,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -411,8 +411,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "I think she's still in her slumber. Nothing suggests she's being puppeteered, though... She's either acting on instinct, or it's something automatic.",
 			painting = {
@@ -428,8 +428,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#A9F548FF",
 			say = "I knew it! The Sirens left us a parting gift!",
 			painting = {
@@ -445,8 +445,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#A9F548FF",
 			say = "They skipped past blowing up the castle and went straight to turning one of our own on us! They've hit a new low!",
 			painting = {
@@ -462,8 +462,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_111",
-			actor = 11000040,
 			dir = 1,
+			actor = 11000040,
 			nameColor = "#A9F548FF",
 			say = "Fubuki, please! Come to your senses!",
 			painting = {

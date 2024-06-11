@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIJINGHUA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIJINGHUA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「虚拟链接的共时性」净化篇\n\n<size=45>二 天才与笨蛋只有一线之隔</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "好～指挥官！今天也一起加油清除病毒吧～！嘿、嘿、嚯～！",
 			bgm = "story-1",
+			actor = 10400010,
+			nameColor = "#a9f548",
+			say = "好～指挥官！今天也一起加油清除病毒吧～！嘿、嘿、嚯～！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -65,9 +65,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "状态不错嘛，那就赶紧开始吧！",
 			typewriter = {
@@ -83,9 +83,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "指～挥～官？我记得今天的任务都已经完成了才对吧～？（盯）",
 			typewriter = {
@@ -101,9 +101,9 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "指挥官的日程全都在我的掌控之中！死心吧！",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,13 +142,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "一小时后",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -176,8 +176,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "哈啊……哈啊……为什么……这个病毒消除……明明才2级……也太……难了吧……（倒）",
 			typewriter = {
@@ -190,8 +190,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 0
@@ -199,9 +199,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "大概是因为一直在集中精神的缘故，绊爱有点消沉地瘫在地上",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "呜～！累～死～了！这也太奇怪了吧！明明我已经这么努力了！",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "病毒消除虽然看上去很简单，其实还是挺难的。这真的是等级2的难度吗……？",
 			typewriter = {
 				speed = 0.05,
@@ -270,12 +270,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
+			say = "啊，圣地亚哥酱～我不是在睡觉啦～刚才还在清除病毒的，不过很不顺利……",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊，圣地亚哥酱～我不是在睡觉啦～刚才还在清除病毒的，不过很不顺利……",
+			actor = 10400010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "没事吧～？病毒清除……听起来好像很有趣呢～！",
 			typewriter = {
 				speed = 0.05,
@@ -316,12 +316,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "诶？可以吗～？那我也要试试！",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -343,12 +343,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "指挥官！？没事吧！？",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +360,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -373,9 +373,9 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "指挥官…是个好人啊……",
 			typewriter = {
@@ -388,12 +388,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "稍微休息一下吧～接下来就交给圣地亚哥了～！",
 			typewriter = {
 				speed = 0.05,
@@ -408,8 +408,8 @@ return {
 			expression = 5,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "不过，圣地亚哥酱没问题吗？这个还挺难的呢？",
 			typewriter = {
@@ -438,9 +438,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "交给圣地亚哥真的没问题吗……？",
 			typewriter = {
 				speed = 0.05,
@@ -452,13 +452,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "35秒后",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -502,8 +502,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "圣地亚哥酱！？这就把病毒都清除干净了！！？？",
 			typewriter = {
@@ -516,8 +516,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -526,9 +526,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "什……么…？",
 			typewriter = {
 				speed = 0.05,
@@ -556,9 +556,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "圣地亚哥用旁人完全看不懂的手法随便敲了几下，病毒就被被彻底清除完毕了",
 			typewriter = {
 				speed = 0.05,
@@ -570,9 +570,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "这到底是什么情况………自己也不知道要如何形容……",
 			typewriter = {
 				speed = 0.05,
@@ -587,8 +587,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "圣地亚哥酱！谢谢妳～～～！！！妳太厉害了啦～！圣地亚哥酱是天才啊～！",
 			typewriter = {
@@ -601,8 +601,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -614,8 +614,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "就这样把病毒清除全都交给圣地亚哥酱的话，只要一瞬间就能全部解决了不是嘛！？",
 			typewriter = {

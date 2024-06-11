@@ -1,12 +1,12 @@
 return {
-	id = "WORLD520A",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WORLD520A",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "",
 			typewriter = {
 				speed = 0.05,

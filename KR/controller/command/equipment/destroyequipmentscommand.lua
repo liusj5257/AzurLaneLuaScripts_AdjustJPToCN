@@ -1,6 +1,6 @@
 slot0 = class("DestroyEquipmentsCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = {}
 	slot4 = getProxy(EquipmentProxy)
 	slot5 = nil
@@ -65,7 +65,7 @@ function slot0.execute(slot0, slot1)
 				slot3 = {}
 				slot4 = 0
 
-				function slot5(slot0, slot1)
+				slot5 = function(slot0, slot1)
 					print("remove: " .. slot0 .. " " .. slot1)
 					uv0:removeEquipmentById(slot0, slot1)
 

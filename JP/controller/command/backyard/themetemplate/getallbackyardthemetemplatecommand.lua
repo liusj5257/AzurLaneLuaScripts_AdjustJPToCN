@@ -1,6 +1,6 @@
 slot0 = class("GetAllBackYardThemeTemplateCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().callback
 	slot4 = {}
 	slot5 = {}
@@ -41,7 +41,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	slot2 = {}
 	slot3 = pairs
 	slot4 = slot1 or {}
@@ -53,7 +53,7 @@ function slot1(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetCustomThemeTemplate(slot0, slot1)
+slot0.GetCustomThemeTemplate = function(slot0, slot1)
 	if not getProxy(DormProxy):GetCustomThemeTemplates() then
 		slot0:sendNotification(GAME.BACKYARD_GET_THEME_TEMPLATE, {
 			type = BackYardConst.THEME_TEMPLATE_TYPE_CUSTOM,
@@ -68,14 +68,14 @@ function slot0.GetCustomThemeTemplate(slot0, slot1)
 	end
 end
 
-function slot0.GetShopThemeTemplate(slot0, slot1)
+slot0.GetShopThemeTemplate = function(slot0, slot1)
 	slot2 = {}
 
 	getProxy(DormProxy):SetShopThemeTemplates(slot2)
 	slot1(slot2)
 end
 
-function slot0.GetCollectionThemeTemplate(slot0, slot1)
+slot0.GetCollectionThemeTemplate = function(slot0, slot1)
 	if not getProxy(DormProxy):GetCollectionThemeTemplates() then
 		slot0:sendNotification(GAME.BACKYARD_GET_THEME_TEMPLATE, {
 			type = BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION,

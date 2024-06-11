@@ -1,17 +1,17 @@
 return {
-	id = "HUAPOHAIKONGZHIYI9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUAPOHAIKONGZHIYI9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107230,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-2",
 			dir = 1,
 			say = "這些艦載機，比之前難纏好多，而且數量也...這麼下去不妙。",
+			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "大家注意，又有航空編隊正在向我們接近了哦！",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "不會吧，重櫻把全部航空力量都集中過來了嗎......",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "不對，正在接近的好像是我們的戰鬥機群......已經開始從側面向重櫻編隊發動攻擊了！",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "原來是友軍啊。呼......太好了。",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -174,8 +174,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "支援來得真是太及時了，不過企業那邊不要緊嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "嘿嘿，不用擔心，那邊的戰鬥已經基本接近尾聲了，企業甚至說“比預想中的還要輕鬆”。",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "那我們這邊也要加油了。大家一起努力，消滅來襲的敵人吧！",
 			typewriter = {
 				speed = 0.05,

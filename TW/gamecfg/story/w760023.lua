@@ -1,12 +1,12 @@
 return {
-	id = "W760023",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W760023",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "在小島上種下了椰子樹的種子！或許在收穫的季節就能品嚐到美味的椰子了~",
 			typewriter = {
 				speed = 0.05,

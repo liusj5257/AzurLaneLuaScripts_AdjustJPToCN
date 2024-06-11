@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "The clipper breaches the Sirens' formation with unbelievable speed and gets out just as quickly.",
 			bgm = "story-temepest-1",
+			say = "The clipper breaches the Sirens' formation with unbelievable speed and gets out just as quickly.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "Standing on the ship's quarterdeck, a breeze brushes my face while explosions go off behind me.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "Some of the fire and the flames come from the impromptly christened Royal Fortune's cannons...",
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "Most of it, however, is Siren-on-Siren friendly fire.",
@@ -53,11 +53,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_524",
 			factiontag = "The Rising Star",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Whoa! I can't believe that worked! We're going toe-to-toe with a whole fleet!",
@@ -109,12 +109,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_524",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,9 +162,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_524",
 			factiontag = "The Rising Star",
 			dir = 1,
+			bgName = "star_level_bg_524",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -178,17 +178,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "Right on cue, a whistle rings out in the distance.",
@@ -253,11 +253,11 @@ return {
 			portrait = 9600030,
 			side = 2,
 			bgName = "star_level_bg_524",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actorName = "???",
-			say = "Goddess, give these brave warriors your blessings!",
 			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Goddess, give these brave warriors your blessings!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,19 +267,19 @@ return {
 			portrait = 9600030,
 			side = 2,
 			bgName = "star_level_bg_524",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actorName = "???",
-			say = "Hoist sails! Follow the flagship!",
 			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Hoist sails! Follow the flagship!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "The Thalasso defense fleet sails forth, after many minutes of readying its vessels under Siren fire.",
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			say = "The victor has already been determined.",

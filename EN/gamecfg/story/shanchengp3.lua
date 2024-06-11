@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENGP3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANCHENGP3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"After the Rain Comes the Sun\n\n<size=45>Chapter 3 - A Light Breeze</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "The shrine close to the port...",
 			side = 2,
 			bgName = "star_level_bg_101",
 			dir = 1,
-			say = "The shrine close to the port...",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 305020,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 2,
+			bgName = "star_level_bg_101",
 			dir = 1,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "Fusouuuu, I've come to help~!! ...Uwooahh!",
 			typewriter = {
@@ -45,8 +45,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.1,
 					x = 22.5,
@@ -55,13 +55,13 @@ return {
 			}
 		},
 		{
-			actor = 305010,
+			say = "Yamashiro? Watch out...! Phew... how many times have I told you not to run up the stairs?",
 			side = 0,
 			bgName = "star_level_bg_101",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
 			actorName = "{namecode:78}",
-			say = "Yamashiro? Watch out...! Phew... how many times have I told you not to run up the stairs?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -76,8 +76,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 1,
+			bgName = "star_level_bg_101",
 			dir = 1,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "Sorry, Fusou... Oh! I borrowed Milord for the day, so we've come to help you clean the shrine!",
 			typewriter = {
@@ -103,11 +103,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 0,
+			bgName = "star_level_bg_101",
 			dir = 1,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "B-Borrowed...?",
 			typewriter = {
@@ -126,12 +126,12 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 2,
+			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 1,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "What does \"borrowed\" mean? Um, it's because you've agreed to spend the day with me, or something like that!",
 			typewriter = {
@@ -144,12 +144,12 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 2,
+			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 1,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "Shigure said that this was like a date but not really, so... borrowing makes sense!",
 			typewriter = {
@@ -162,12 +162,12 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 2,
+			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 1,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "Anyway, Milord, you made a promise to me before, so that's why I picked the same day off as you!",
 			typewriter = {
@@ -180,14 +180,14 @@ return {
 			}
 		},
 		{
-			actor = 305010,
+			say = "Well, just having Commander here will be a huge help. Let's give it our all today.",
 			side = 0,
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:78}",
 			dir = 1,
 			optionFlag = 1,
+			actor = 305010,
 			nameColor = "#a9f548",
-			say = "Well, just having Commander here will be a huge help. Let's give it our all today.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -202,12 +202,12 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 2,
+			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 2,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "Oh that's what \"borrowed\" means? ... I don't think I get it, but that's all right...",
 			typewriter = {
@@ -220,12 +220,12 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 2,
+			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 2,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "You know how Yamashiro is... She probably picked up some strange thing someone else said without fully understanding it...",
 			typewriter = {
@@ -238,14 +238,14 @@ return {
 			}
 		},
 		{
-			actor = 305020,
+			say = "Anyway, Milord, you made a promise to me before, so that's why I picked the same day off as you!",
 			side = 1,
 			bgName = "star_level_bg_101",
 			actorName = "{namecode:79}",
 			dir = 1,
 			optionFlag = 2,
+			actor = 305020,
 			nameColor = "#a9f548",
-			say = "Anyway, Milord, you made a promise to me before, so that's why I picked the same day off as you!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -260,12 +260,12 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 0,
+			bgName = "star_level_bg_101",
 			dir = 1,
 			optionFlag = 2,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "Well, just having Commander here will be a huge help. Let's give it our all today.",
 			typewriter = {
@@ -278,11 +278,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 0,
+			bgName = "star_level_bg_101",
 			dir = 1,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "Hmm...? You're curious about when this shrine was built...",
 			typewriter = {
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 0,
+			bgName = "star_level_bg_101",
 			dir = 1,
+			actor = 305010,
 			actorName = "{namecode:78}",
 			say = "If I remember correctly, Commander, you had too much work to come here for last year's Hatsumode, right?",
 			typewriter = {
@@ -312,11 +312,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 1,
+			bgName = "star_level_bg_101",
 			dir = 1,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "Well, this one started as a makeshift for the New Year's celebration while we planned to build another shrine elsewhere, but...",
 			typewriter = {
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_101",
 			side = 1,
+			bgName = "star_level_bg_101",
 			dir = 1,
+			actor = 305020,
 			actorName = "{namecode:79}",
 			say = "As the number of people from the Sakura Empire increased, we figured that if we were to build a shrine, it should be a place for everyone to make fond memories. That's why the two of us decided to build as nice a shrine as possible.",
 			typewriter = {

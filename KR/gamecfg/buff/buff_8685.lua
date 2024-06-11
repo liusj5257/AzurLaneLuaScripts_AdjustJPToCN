@@ -1,12 +1,12 @@
 return {
-	init_effect = "jinengchufared",
 	name = "法系V2加斯科涅技能弹条",
 	time = 10,
+	init_effect = "jinengchufared",
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 8685,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	blink = {
 		1,
 		0,
@@ -32,8 +32,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 1500
+				number = 1500,
+				attr = "attackRating"
 			}
 		}
 	}

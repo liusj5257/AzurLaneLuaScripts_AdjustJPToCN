@@ -1,13 +1,13 @@
 slot0 = class("WorldBossAwardPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldBossAwardUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0:findTF("frame/list/container1/tpl")
 	slot0.uilist1 = UIItemList.New(slot0:findTF("frame/list/container1"), slot1)
 	slot0.uilist2 = UIItemList.New(slot0:findTF("frame/list/container2"), slot1)
@@ -17,17 +17,17 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot0.worldBoss = slot1
 
 	slot0:UpdateAwards()
 	slot0:Show()
 end
 
-function slot0.UpdateAwards(slot0)
+slot0.UpdateAwards = function(slot0)
 	slot2 = slot0.worldBoss:GetAwards()
 
-	function slot3(slot0, slot1)
+	slot3 = function(slot0, slot1)
 		slot2 = uv0[slot0 + 1]
 		slot3 = {
 			count = 0,
@@ -56,7 +56,7 @@ function slot0.UpdateAwards(slot0)
 	slot0.uilist2:align(math.max(0, #slot2 - 4))
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TONGHUASENLIN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TONGHUASENLIN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -39,17 +39,17 @@ return {
 			}
 		},
 		{
-			actor = 312010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "지휘관, 좋은 아침이다냥!",
 			bgm = "bar-soft",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "지휘관, 좋은 아침이다냥!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -74,9 +74,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "——쉬는 날 지휘실에서 아카시를 만났다.",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "왠지 안 좋은 예감이 드는데——",
 			typewriter = {
 				speed = 0.05,
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "후후후, 설마 벌써 흥분되는 거냥?",
 			typewriter = {
 				speed = 0.05,
@@ -214,12 +214,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "냐하하, 지휘관이 관심이 있을 줄 알았다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -231,12 +231,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "우리 사이에 너무한 거 아니냐옹! 쇠뿔도 단김에 빼라는 옛말도 있지 않다냥! 다른 동료들도 모두 지휘관을 기다리고 있으니 오늘 꼭 체험하러 와야 한다옹~!",
 			typewriter = {
 				speed = 0.05,
@@ -280,13 +280,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_158",
+			side = 2,
+			dir = 1,
 			say = "아카시가 알려준 위치에 도착하자 역시나 메이드대의 엔터프라이즈가 기다리고 있었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -330,8 +330,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_158",
-			actor = 202320,
 			dir = 1,
+			actor = 202320,
 			nameColor = "#a9f548",
 			say = "한마디로 요약하자면 한 인간이 세상과 단절된 숲에 우연히 들어가서 기묘한 모험을 겪게 되는 이야기죠.",
 			typewriter = {
@@ -360,9 +360,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
+			dir = 1,
 			say = "엔터프라이즈가 말한 '입구'에는 뚜렷한 문의 형체가 보이진 않았지만, 숲 속 깊은 곳까지 이어져 있는 구불구불한 길이 보였다.",
 			typewriter = {
 				speed = 0.05,
@@ -390,9 +390,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
+			dir = 1,
 			say = "이번엔 통신기가 없어?",
 			typewriter = {
 				speed = 0.05,
@@ -407,8 +407,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_158",
-			actor = 202320,
 			dir = 1,
+			actor = 202320,
 			nameColor = "#a9f548",
 			say = "네, 이번에는 주인님을 도와 함께 방 탈출을 풀어갈 NPC가 있으니, 어려움이 생기면 그들이 도와줄 거랍니다.",
 			typewriter = {

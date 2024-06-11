@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_66 = {}
 slot1 = slot0.word_template_66
 
-function temp()
+temp = function()
 	uv0["癡"] = {
 		["乳"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["迟"] = {
 		["浩"] = {
 			["田"] = {
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["持"] = {
 		["不"] = {
 			["同"] = {
@@ -87,7 +87,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["遲"] = {
 		["鈍"] = {
 			["的"] = {
@@ -103,7 +103,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["耻"] = {
 		["行"] = {
 			["之"] = {
@@ -133,7 +133,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["恥"] = {
 		["辱"] = {
 			["輪"] = {
@@ -154,7 +154,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["翅"] = {
 		["臀"] = {
 			["浪"] = {

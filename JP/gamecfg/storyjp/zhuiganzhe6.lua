@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUIGANZHE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHUIGANZHE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"お嬢様とめぐるひとときを\n\n<size=45>六 優雅じゃない試み？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "というわけで、チェイサーと暁の熱意に押されてしまい、重桜のニンジュツ――ニンジャのワザを披露してもらうことにした。",
 			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "というわけで、チェイサーと暁の熱意に押されてしまい、重桜のニンジュツ――ニンジャのワザを披露してもらうことにした。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "確かロング・アイランドが言ってたニンジャって水の上で走れるのよね！",
 			typewriter = {
@@ -83,9 +83,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "暁が速力を上げ、海の上で3回転してみせた。",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "そして火の玉を打てる「カトン」とかいうワザも使えるのよね！",
 			typewriter = {
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "容易いことでござる！",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "暁が主砲を鳴らした。低威力の模擬弾が標的に命中し、小さい火玉が炸裂した。",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "更に煙で身を隠すことができたりするのよね！",
 			typewriter = {
@@ -187,9 +187,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "暁が煙幕を張った……あれ？",
 			typewriter = {
 				speed = 0.05,
@@ -217,9 +217,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "たしかに彼女の言った通り、艤装の力を使えば、艦船たちにとってフィクションのようなワザでも大体できる。",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "色仕掛けの術？",
 			typewriter = {
@@ -264,10 +264,10 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 0,
+			bgName = "bg_main_day",
+			actor = 301090,
 			dir = 1,
 			hideOther = true,
 			actorName = "高雄＆暁",
@@ -290,8 +290,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -316,9 +316,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "右腕に柔らかい感触が…",
 			typewriter = {
 				speed = 0.05,
@@ -330,9 +330,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "……どうやらチャイサーに腕を絡まれたようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -347,8 +347,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 303110,
 			dir = 1,
+			actor = 303110,
 			nameColor = "#a9f548",
 			say = "こ、コホン！",
 			typewriter = {
@@ -364,8 +364,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 206050,
 			dir = 1,
+			actor = 206050,
 			nameColor = "#a9f548",
 			say = "あっ……ごめんごめん！ちょっと話が逸れちゃったわね！",
 			typewriter = {
@@ -378,8 +378,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,9 +388,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "腕を解放された。…正直、今のはここ数日で一番チェイサーに驚かされた気がした。",
 			typewriter = {
 				speed = 0.05,
@@ -402,12 +402,12 @@ return {
 			}
 		},
 		{
-			actor = 206050,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 206050,
+			nameColor = "#a9f548",
 			say = "高雄さん、次の項目はどんなものなのかしら？",
 			typewriter = {
 				speed = 0.05,

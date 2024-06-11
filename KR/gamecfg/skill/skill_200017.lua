@@ -2,17 +2,17 @@ return {
 	uiEffect = "",
 	name = "2022意大利活动 戴克里先之视",
 	cd = 0,
-	painting = 0,
-	id = 200017,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200017,
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetAllHarm",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetAllHarm",
 			arg_list = {
 				buff_id = 200018
 			}

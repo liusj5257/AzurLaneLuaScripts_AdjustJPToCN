@@ -1,19 +1,19 @@
 return {
-	id = "MAOZIHUODONG16",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG16",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
+			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			bgm = "bgm-cccp",
 			actor = 705050,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "포격 개시! 단숨에 적을 제압하라!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -64,8 +64,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			say = "후… 이걸로 됐겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			say = "하하하하! 전력을 다 해봐라!!",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			say = "Ура! 타슈켄트의 위력을 알았겠지! ",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			say = "발버둥 쳐봐. кролик…!",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "신형 세이렌을 상대하는 데는 당연히 새로운 전술이 필요하지. 번뜩이는 영감이 떠올랐어. 받아라!",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "이게… 노스 유니온…",
 			typewriter = {
 				speed = 0.05,
@@ -217,8 +217,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "이들은 내가 통솔하는 노스 유니온 최정예 함대, 극지 함대의 일부다.",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "차파예프, 굉장히 상냥한 동지지. 하지만… 화나게 해서는 안 된다.",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			say = "잘 지내보자, 지휘관~",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "강구트, 열정으로 가득한 전사지.",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			say = "하하하하! 함께 싸워보자고. 지휘관 동지!",
 			typewriter = {
 				speed = 0.05,
@@ -342,8 +342,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			say = "타슈켄트가 지켜볼 거니까 능력을 발휘해봐, 동지쨩.",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "동지…쨩?",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			say = "후후, 타슈켄트가 지휘관에게 흥미를 가진 모양이네.",
 			typewriter = {
 				speed = 0.05,
@@ -387,8 +387,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "그로즈니, 얕보다간 그로즈니의 кроли убийца 맛을 보게될 거다.",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "кроли убийца……?",
 			typewriter = {
 				speed = 0.05,
@@ -416,8 +416,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			say = "……(끄덕) 손에 든 이거. 내 кролик(토끼)야. 귀여운 убийца(킬러)지.",
 			typewriter = {
 				speed = 0.05,
@@ -432,8 +432,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "마지막으로 민스크. 모두에게 번뜩이는 아이디어를 가져다 주는 동지다.",
 			typewriter = {
 				speed = 0.05,
@@ -448,8 +448,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			say = "에헤헤, 잘 부탁해. 지휘관 동지!",
 			typewriter = {
 				speed = 0.05,
@@ -464,8 +464,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			say = "아브로라와 파먀티 메르쿠리야는 지휘관 동지도 이미 잘 알 것이라고 생각한다.",
 			typewriter = {
 				speed = 0.05,
@@ -477,8 +477,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(노스 유니온의 정예 함대…)",
 			typewriter = {
 				speed = 0.05,
@@ -490,8 +490,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(지금까지 아브로라가 주었던 인상과는 크게 다른걸…)",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(그리고 저 장비는——)",
 			typewriter = {
 				speed = 0.05,
@@ -518,9 +518,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 705050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "연합 작전의 함대는 지휘관 동지의 지휘를 받아야 한다는 사령부의 명령이 있었다. 전권을 위임하지.",
 			typewriter = {
 				speed = 0.05,
@@ -541,8 +541,8 @@ return {
 			expression = 5,
 			side = 2,
 			actor = 705050,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "그렇다, 지휘관 동지. 전투가 끝나지 않았으니 노스 유니온의 칼날을 휘둘러 우리의 적을 무찌르도록 하지!",
 			effects = {
 				{

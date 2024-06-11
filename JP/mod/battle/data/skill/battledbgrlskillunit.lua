@@ -6,7 +6,7 @@ slot0.Battle.BattleSkillUnit = class("BattleSkillUnit")
 slot0.Battle.BattleSkillUnit.__name = "BattleSkillUnit"
 slot3 = slot0.Battle.BattleSkillUnit
 
-function slot3.Ctor(slot0, slot1, slot2)
+slot3.Ctor = function(slot0, slot1, slot2)
 	slot0._id = slot1
 	slot0._level = slot2
 	slot0._tempData = uv0.Battle.BattleDataFunction.GetSkillTemplate(slot1, slot2)
@@ -21,18 +21,18 @@ function slot3.Ctor(slot0, slot1, slot2)
 	slot0._dataProxy = uv0.Battle.BattleDataProxy.GetInstance()
 end
 
-function slot3.GenerateSpell(slot0, slot1, slot2, slot3)
+slot3.GenerateSpell = function(slot0, slot1, slot2, slot3)
 	slot4 = uv0.Battle.BattleSkillUnit.New(slot0, slot1)
 	slot4._attachData = slot3
 
 	return slot4
 end
 
-function slot3.GetSkillEffectList(slot0)
+slot3.GetSkillEffectList = function(slot0)
 	return slot0._effectList
 end
 
-function slot3.Cast(slot0, slot1, slot2)
+slot3.Cast = function(slot0, slot1, slot2)
 	slot4 = uv0.Battle.BattleState.GetInstance():GetUIMediator()
 
 	if slot0._tempData.focus_duration then
@@ -77,23 +77,23 @@ function slot3.Cast(slot0, slot1, slot2)
 	end
 end
 
-function slot3.SetTarget(slot0, slot1)
+slot3.SetTarget = function(slot0, slot1)
 	slot0._lastEffectTarget = slot1
 end
 
-function slot3.Interrupt(slot0)
+slot3.Interrupt = function(slot0)
 	for slot4, slot5 in ipairs(slot0._effectList) do
 		slot5:Interrupt()
 	end
 end
 
-function slot3.Clear(slot0)
+slot3.Clear = function(slot0)
 	for slot4, slot5 in ipairs(slot0._effectList) do
 		slot5:Clear()
 	end
 end
 
-function slot3.GetDamageSum(slot0)
+slot3.GetDamageSum = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0._effectList) do
@@ -103,7 +103,7 @@ function slot3.GetDamageSum(slot0)
 	return slot1
 end
 
-function slot3.IsFireSkill(slot0, slot1)
+slot3.IsFireSkill = function(slot0, slot1)
 	slot2 = false
 
 	for slot7, slot8 in ipairs(uv0.Battle.BattleDataFunction.GetSkillTemplate(slot0, slot1).effect_list) do

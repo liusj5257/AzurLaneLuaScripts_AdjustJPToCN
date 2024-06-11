@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSHUN03",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSHUN03",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"푸슌의 대모험\n\n<size=45>제3장 - 용사, 여행에 나서다</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			bgm = "story-china",
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "어서오세냥~ 냐냥? 이스트 글림쪽 아이가 아카시에게 무슨 일로 왔냥? 뭔가 살 거냥?",
-			bgm = "story-china",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "여기가 전설의 보급상점… 재밌어 보이는 게 잔뜩 있어!",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "여기가 전설의 보급상점… 재밌어 보이는 게 잔뜩 있어!",
+			actor = 501020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "게임기냥?",
 			typewriter = {
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "어, 어쩔 수 없구냥…… 이번엔 특별히 공짜로 봐주겠다냥.",
 			typewriter = {
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "우냥… 꽤 낡은 기종이다냥… 여기는 이렇게… 그리고 여기는 요렇게~",
 			typewriter = {
@@ -154,16 +154,16 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			actorName = "{namecode:98}",
-			bgName = "bg_story_task",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_task",
+			actor = 312010,
 			nameColor = "#92fc63",
 			say = "후우… 고쳤다냥!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -188,12 +188,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
+			say = "와아! 아카시 굉장해~!",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "와아! 아카시 굉장해~!",
+			actor = 501020,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "낡은 부품은 애먹었지만, 이 정도는 보통이다냥~",
 			typewriter = {
@@ -241,15 +241,15 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#92fc63",
 			say = "창춘~ 게임기 고쳤어~ 같이 하자?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			actor = 501030,
+			say = "정말 고쳤구나…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "정말 고쳤구나…",
+			actor = 501030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

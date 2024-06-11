@@ -19,7 +19,7 @@ slot12.CARD_PILE_INDEX_HAND = 0
 slot12.CARD_PILE_INDEX_DECK = 1
 slot12.CARD_PILE_INDEX_MOVE_DECK = 2
 
-function slot12.Ctor(slot0, slot1)
+slot12.Ctor = function(slot0, slot1)
 	uv0.EventDispatcher.AttachEventDispatcher(slot0)
 	uv0.EventListener.AttachEventListener(slot0)
 
@@ -28,41 +28,41 @@ function slot12.Ctor(slot0, slot1)
 	slot0:init()
 end
 
-function slot12.CustomConfigID(slot0, slot1)
+slot12.CustomConfigID = function(slot0, slot1)
 	slot0._customCombatID = slot1
 
 	slot0._energy:CustomConfig(slot0._customCombatID)
 	slot0._moveDeck:CustomConfig(slot0._customCombatID)
 end
 
-function slot12.Dispose(slot0)
+slot12.Dispose = function(slot0)
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 	uv0.EventListener.DetachEventListener(slot0)
 
 	slot0._fleetVO = nil
 end
 
-function slot12.GetPuzzleDungeonID(slot0)
+slot12.GetPuzzleDungeonID = function(slot0)
 	return slot0._customCombatID
 end
 
-function slot12.GetTotalCommonHP(slot0)
+slot12.GetTotalCommonHP = function(slot0)
 	return slot0._maxCommonHP
 end
 
-function slot12.GetCurrentCommonHP(slot0)
+slot12.GetCurrentCommonHP = function(slot0)
 	return slot0._currentCommonHP
 end
 
-function slot12.GetEnergy(slot0)
+slot12.GetEnergy = function(slot0)
 	return slot0._energy
 end
 
-function slot12.EnergyUpdate(slot0)
+slot12.EnergyUpdate = function(slot0)
 	slot0._fleetAttr:SetAttr("BaseEnergy", slot0._energy:GetCurrentEnergy())
 end
 
-function slot12.AppendUnit(slot0, slot1)
+slot12.AppendUnit = function(slot0, slot1)
 	slot1:RegisterEventListener(slot0, uv0.UPDATE_COMMON_HP, slot0.onUpdateCommonHP)
 
 	slot0._maxCommonHP = slot0._maxCommonHP + slot1:GetAttrByName("maxHP")
@@ -87,7 +87,7 @@ function slot12.AppendUnit(slot0, slot1)
 	}))
 end
 
-function slot12.InitCardPuzzleData(slot0, slot1)
+slot12.InitCardPuzzleData = function(slot0, slot1)
 	slot0._fleetVO:GetUnitBound():SwtichDBRGL()
 
 	for slot6, slot7 in ipairs(slot1.relicList) do
@@ -103,34 +103,34 @@ function slot12.InitCardPuzzleData(slot0, slot1)
 	end
 end
 
-function slot12.RemoveUnit(slot0, slot1)
+slot12.RemoveUnit = function(slot0, slot1)
 	slot1:UnregisterEventListener(slot0, uv0.UPDATE_COMMON_HP)
 end
 
-function slot12.GetMainUnit(slot0)
+slot12.GetMainUnit = function(slot0)
 	return slot0._mainUnit
 end
 
-function slot12.GetScoutUnit(slot0)
+slot12.GetScoutUnit = function(slot0)
 	return slot0._scoutUnit
 end
 
-function slot12.AttachMoveController(slot0, slot1)
+slot12.AttachMoveController = function(slot0, slot1)
 	slot0._moveController = slot1
 end
 
-function slot12.TakeoverMovecontroller(slot0, slot1, slot2)
+slot12.TakeoverMovecontroller = function(slot0, slot1, slot2)
 	slot0._moveController:InputTargetPoint(slot1, slot2)
 	slot0._fleetVO:DispatchEvent(uv0.Event.New(uv1.FLEET_MOVE_TO, {
 		pos = slot1
 	}))
 end
 
-function slot12.ReturnMovecontroller(slot0)
+slot12.ReturnMovecontroller = function(slot0)
 	slot0._fleetVO:DispatchEvent(uv0.Event.New(uv1.FLEET_MOVE_TO, {}))
 end
 
-function slot12.PlayCard(slot0, slot1)
+slot12.PlayCard = function(slot0, slot1)
 	if slot0:CheckCardCastable(slot1) then
 		slot1:Precast(function ()
 			uv1._energy:ConsumeEnergy(uv0:GetTotalCost())
@@ -150,7 +150,7 @@ function slot12.PlayCard(slot0, slot1)
 	end
 end
 
-function slot12.ReturnCard(slot0, slot1)
+slot12.ReturnCard = function(slot0, slot1)
 	if slot0:CheckCardReturnable(slot1) then
 		slot1:Retrun(function ()
 			uv1._energy:ConsumeEnergy(uv0:GetReturnCost())
@@ -164,13 +164,13 @@ function slot12.ReturnCard(slot0, slot1)
 	end
 end
 
-function slot12.PlayMoveCard(slot0, slot1)
+slot12.PlayMoveCard = function(slot0, slot1)
 	slot1:SetInputPoint(slot0._clickToScenePoint)
 	slot1:Precast()
 	slot0._moveDeck:Remove(slot1)
 end
 
-function slot12.CheckCardCastable(slot0, slot1)
+slot12.CheckCardCastable = function(slot0, slot1)
 	slot3 = slot1:GetCastCondition() ~= false
 
 	if slot1:GetTotalCost() <= slot0._energy:GetCurrentEnergy() and slot3 then
@@ -178,27 +178,27 @@ function slot12.CheckCardCastable(slot0, slot1)
 	end
 end
 
-function slot12.CheckCardReturnable(slot0, slot1)
+slot12.CheckCardReturnable = function(slot0, slot1)
 	if slot1:GetReturnCost() and slot2 <= slot0._energy:GetCurrentEnergy() then
 		return true
 	end
 end
 
-function slot12.SetDragingCard(slot0, slot1)
+slot12.SetDragingCard = function(slot0, slot1)
 	slot0._dragingCard = slot1
 end
 
-function slot12.GetDragingCard(slot0)
+slot12.GetDragingCard = function(slot0)
 	return slot0._dragingCard
 end
 
-function slot12.SendUpdateAim(slot0)
+slot12.SendUpdateAim = function(slot0)
 	slot0._fleetVO:DispatchEvent(uv0.Event.New(uv1.UPDATE_CARD_TARGET_FILTER, {
 		targetFilterList = slot0._dragingCard and slot0._dragingCard:GetCardInfo():GetCardEffectTargetFilterList() or {}
 	}))
 end
 
-function slot12.Start(slot0)
+slot12.Start = function(slot0)
 	slot0._fleetBuff:Trigger(uv0.BuffEffectType.ON_START_GAME)
 
 	for slot4, slot5 in pairs(uv1.CustomAttrInitList) do
@@ -231,7 +231,7 @@ function slot12.Start(slot0)
 	slot0:SetClickEnable(true)
 end
 
-function slot12.Update(slot0, slot1)
+slot12.Update = function(slot0, slot1)
 	slot0._energy:Update(slot1)
 	slot0._fleetBuff:Update(slot1)
 	slot0._cardPuzzleAA:Update(slot1)
@@ -239,7 +239,7 @@ function slot12.Update(slot0, slot1)
 	slot0._hand:Update(slot1)
 end
 
-function slot12.UpdateClickPos(slot0, slot1, slot2, slot3)
+slot12.UpdateClickPos = function(slot0, slot1, slot2, slot3)
 	uv0 = uv0 or uv1.Battle.CardPuzzleBoardClicker
 
 	if slot3 == uv0.CLICK_STATE_CLICK then
@@ -273,15 +273,15 @@ function slot12.UpdateClickPos(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot12.SetClickEnable(slot0, slot1)
+slot12.SetClickEnable = function(slot0, slot1)
 	slot0._clickEnable = slot1
 end
 
-function slot12.GetClickEnable(slot0)
+slot12.GetClickEnable = function(slot0)
 	return slot0._clickEnable
 end
 
-function slot12.BlockComponentByCard(slot0, slot1)
+slot12.BlockComponentByCard = function(slot0, slot1)
 	slot1 = not slot1
 
 	slot0:SetClickEnable(slot1)
@@ -290,7 +290,7 @@ function slot12.BlockComponentByCard(slot0, slot1)
 	}))
 end
 
-function slot12.LongPressCard(slot0, slot1, slot2)
+slot12.LongPressCard = function(slot0, slot1, slot2)
 	if slot2 then
 		slot0:DispatchEvent(uv0.Event.New(uv1.SHOW_CARD_DETAIL, {
 			card = slot1
@@ -302,7 +302,7 @@ function slot12.LongPressCard(slot0, slot1, slot2)
 	end
 end
 
-function slot12.DispatchBulletTime(slot0, slot1)
+slot12.DispatchBulletTime = function(slot0, slot1)
 	if slot1 then
 		uv0.AppendIFFFactor(uv1.FOE_CODE, "check_card", slot1)
 		uv0.AppendIFFFactor(uv1.FRIENDLY_CODE, "check_card", slot1)
@@ -316,7 +316,7 @@ function slot12.DispatchBulletTime(slot0, slot1)
 	}))
 end
 
-function slot12.dispatchClick(slot0, slot1)
+slot12.dispatchClick = function(slot0, slot1)
 	if slot0._clickEnable then
 		slot0._fleetVO:DispatchEvent(uv0.Event.New(uv1.ON_BOARD_CLICK, {
 			click = slot1
@@ -324,47 +324,47 @@ function slot12.dispatchClick(slot0, slot1)
 	end
 end
 
-function slot12.GetHand(slot0)
+slot12.GetHand = function(slot0)
 	return slot0._hand
 end
 
-function slot12.GetDeck(slot0)
+slot12.GetDeck = function(slot0)
 	return slot0._deck
 end
 
-function slot12.GetRelicList(slot0)
+slot12.GetRelicList = function(slot0)
 	return slot0._relicList
 end
 
-function slot12.GetTouchScreenPoint(slot0)
+slot12.GetTouchScreenPoint = function(slot0)
 	return slot0._clickToScenePoint
 end
 
-function slot12.GetMoveDeck(slot0)
+slot12.GetMoveDeck = function(slot0)
 	return slot0._moveDeck
 end
 
-function slot12.GetCardPileByIndex(slot0, slot1)
+slot12.GetCardPileByIndex = function(slot0, slot1)
 	return slot0._cardPileList[slot1]
 end
 
-function slot12.GetFleetVO(slot0)
+slot12.GetFleetVO = function(slot0)
 	return slot0._fleetVO
 end
 
-function slot12.GetAttrManager(slot0)
+slot12.GetAttrManager = function(slot0)
 	return slot0._fleetAttr
 end
 
-function slot12.GetBuffManager(slot0)
+slot12.GetBuffManager = function(slot0)
 	return slot0._fleetBuff
 end
 
-function slot12.GetCardPuzzleAAUnit(slot0)
+slot12.GetCardPuzzleAAUnit = function(slot0)
 	return slot0._cardPuzzleAA
 end
 
-function slot12.TryDrawCard(slot0)
+slot12.TryDrawCard = function(slot0)
 	while not slot0._hand:IsFull() and slot0._deck:GetLength() > 0 do
 		slot1 = slot0._deck:Pop()
 
@@ -373,17 +373,17 @@ function slot12.TryDrawCard(slot0)
 	end
 end
 
-function slot12.FlushHandOverheat(slot0)
+slot12.FlushHandOverheat = function(slot0)
 	for slot5, slot6 in ipairs(slot0._hand:GetCardList()) do
 		slot6:SetBaseEnergyFillDuration(slot0._energy:FillToCooldown(slot6:GetTotalCost()))
 	end
 end
 
-function slot12.HoldForInput(slot0, slot1)
+slot12.HoldForInput = function(slot0, slot1)
 	slot0._holdingCard = slot1
 end
 
-function slot12.GenerateCard(slot0, slot1)
+slot12.GenerateCard = function(slot0, slot1)
 	slot2 = uv0.Battle.BattleCardPuzzleCard.New(slot0)
 
 	slot2:SetCardTemplate(slot1)
@@ -391,18 +391,18 @@ function slot12.GenerateCard(slot0, slot1)
 	return slot2
 end
 
-function slot12.UpdateAttrByBuff(slot0, slot1, slot2)
+slot12.UpdateAttrByBuff = function(slot0, slot1, slot2)
 end
 
-function slot12.AddAttrBySkill(slot0, slot1, slot2)
+slot12.AddAttrBySkill = function(slot0, slot1, slot2)
 	slot0._fleetAttr:AddBaseAttr(slot1, slot2)
 end
 
-function slot12.UpdateAttrBySet(slot0, slot1, slot2)
+slot12.UpdateAttrBySet = function(slot0, slot1, slot2)
 	slot0._fleetAttr:SetAttr(slot1, slot2)
 end
 
-function slot12.DispatchUpdateAttr(slot0, slot1)
+slot12.DispatchUpdateAttr = function(slot0, slot1)
 	slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_FLEET_ATTR, {
 		attrName = slot1
 	}))
@@ -412,15 +412,15 @@ function slot12.DispatchUpdateAttr(slot0, slot1)
 	end
 end
 
-function slot12.IsAAActive(slot0)
+slot12.IsAAActive = function(slot0)
 	return slot0._fleetAttr:GetCurrent("CardAntiaircraft") > 0
 end
 
-function slot12.ConsumeAACounter(slot0, slot1)
+slot12.ConsumeAACounter = function(slot0, slot1)
 	slot0._fleetAttr:AddBaseAttr("CardAntiaircraft", (slot1 or 1) * -1)
 end
 
-function slot12.init(slot0)
+slot12.init = function(slot0)
 	slot0._maxCommonHP = 0
 	slot0._currentCommonHP = 0
 	slot0._fleetAttr = uv0.Battle.BattleFleetCardPuzzleAttribute.New(slot0)
@@ -444,19 +444,19 @@ function slot12.init(slot0)
 	slot0._relicList = {}
 	slot0._cardPuzzleAA = uv0.Battle.BattleFleetCardPuzzleAntiAirUnit.New(slot0)
 
-	function slot0._fleetVO.GetFleetAntiAirWeapon()
+	slot0._fleetVO.GetFleetAntiAirWeapon = function()
 		return uv0._cardPuzzleAA
 	end
 
 	slot0:initEvent()
 end
 
-function slot12.initEvent(slot0)
+slot12.initEvent = function(slot0)
 	slot0._hand:RegisterEventListener(slot0, uv0.UPDATE_CARDS, slot0.onUpdateHands)
 	slot0._deck:RegisterEventListener(slot0, uv0.UPDATE_CARDS, slot0.onUpdateDeck)
 end
 
-function slot12.onUpdateHands(slot0, slot1)
+slot12.onUpdateHands = function(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0._hand:GetCardList()) do
@@ -476,7 +476,7 @@ function slot12.onUpdateHands(slot0, slot1)
 	slot0:DispatchEvent(uv0.Event.New(uv1.UPDATE_FLEET_ATTR, {}))
 end
 
-function slot12.onUpdateDeck(slot0, slot1)
+slot12.onUpdateDeck = function(slot0, slot1)
 	slot0._fleetAttr:SetAttr("DeckCount", #slot0._deck:GetCardList())
 
 	if slot1.Data.type == uv0.Battle.BattleFleetCardPuzzleCardManageComponent.FUNC_NAME_ADD or slot3.type == uv0.Battle.BattleFleetCardPuzzleCardManageComponent.FUNC_NAME_BOTTOM then
@@ -484,7 +484,7 @@ function slot12.onUpdateDeck(slot0, slot1)
 	end
 end
 
-function slot12.updateMoveDeck(slot0, slot1)
+slot12.updateMoveDeck = function(slot0, slot1)
 	slot0._moveDeck:Update(slot1)
 
 	if slot0._moveDeck:GetGeneratePorcess() >= 1 then
@@ -493,6 +493,6 @@ function slot12.updateMoveDeck(slot0, slot1)
 	end
 end
 
-function slot12.onUpdateCommonHP(slot0, slot1)
+slot12.onUpdateCommonHP = function(slot0, slot1)
 	slot0._currentCommonHP = math.clamp(slot0._currentCommonHP + slot1.Data.dHP, 0, slot0._maxCommonHP)
 end

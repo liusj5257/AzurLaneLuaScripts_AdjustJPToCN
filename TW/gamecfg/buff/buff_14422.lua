@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "内置CD",
 	time = 15,
+	name = "内置CD",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

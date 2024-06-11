@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "轟——————！",
 			dir = 1,
-			soundeffect = "event:/battle/boom2",
+			bgm = "bgm-cccp2",
+			say = "轟——————！",
 			flashN = {
 				color = {
 					1,
@@ -63,8 +63,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "航道清理清理完畢，指揮艦可以繼續前進了。",
 			typewriter = {
@@ -77,9 +77,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "雷鳴維持著北方聯合一貫勇猛的作戰風格，面不改色的清理掉了沿途出現的零星敵艦。就算在指揮過的驅逐艦中，雷鳴的戰鬥能力也是數一數二的。",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "過獎了，這些只是履行職責的一部分而已。嗯，就這樣。",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "哈哈哈，指揮官同志好眼光，雷鳴可是我們北方聯合被授予近衛軍稱號的驅逐艦，在整個艦隊中也是王牌一樣的存在哦。",
 			typewriter = {
@@ -135,9 +135,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "我記得，北方聯合的近衛軍是——",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "完全正確！就算在整個北方聯合艦隊中，被授予近衛軍稱號的艦船也是屈指可數。",
 			typewriter = {
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,9 +186,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "北方聯合近衛軍的顯赫聲名和戰績，我在白鷹的時候也有所耳聞……",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "我並沒有特意追求功勳打算，只是在做好本職工作的過程中，不知不覺就變成這樣了。",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "雷鳴，坦率的接受稱讚也是戰士應該有的品德之一哦。",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "那就、多謝……就、就這樣……",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "不過明明是這麼優秀的戰士，在這段時間的極地作戰中都沒有見過她的身影呢。",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "派遣近衛軍作為指揮官同志這樣重要人物的護衛，可以說是恰到好處的安排吧~",
 			typewriter = {
@@ -308,9 +308,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "非常感謝，希望這次大家都能平安無事的完成本次任務。",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			optionFlag = 1,
 			actor = 701070,
 			say = "與通常的驅逐艦戰術不同，除了炮擊與雷擊之外，雷鳴更喜歡高速貼近敵人，然後揮舞著與自身體格嚴重不符的誇張流星錘解決戰鬥。",
@@ -353,8 +353,8 @@ return {
 			expression = 6,
 			side = 0,
 			bgName = "bg_story_bsmlevel",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			optionFlag = 1,
 			actor = 701070,
 			say = "除了雪白的海軍帽與大衣之外，雷鳴宛如羽翼一般的圍巾也十分顯眼。",
@@ -375,8 +375,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_bsmlevel",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			optionFlag = 1,
 			actor = 701070,
 			say = "在高速移動時，隨隨著海風翻飛的圍巾宛如天使的羽翼一般……",
@@ -397,9 +397,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			blackBg = true,
-			dir = 1,
 			optionFlag = 1,
+			dir = 1,
+			blackBg = true,
 			actor = 701070,
 			nameColor = "#a9f548",
 			say = "一直盯著這邊看…莫非指揮官…是變態？",
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			optionFlag = 2,
+			blackBg = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
-			blackBg = true,
+			optionFlag = 2,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,

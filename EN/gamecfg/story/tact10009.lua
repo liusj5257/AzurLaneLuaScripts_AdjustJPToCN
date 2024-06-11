@@ -21,9 +21,9 @@ return {
 		{
 			actor = 303110,
 			side = 1,
-			nameColor = "#a9f548",
-			dir = -1,
 			say = "I hate to admit it though... they really did a good job. Indeed, I underestimated the strength of our Air Corps.",
+			dir = -1,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

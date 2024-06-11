@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -33,8 +33,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				type = 16,
-				number = -0.5
+				number = -0.5,
+				type = 16
 			}
 		},
 		{

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIXUEGUI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIXUEGUI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"白衣の天使or悪魔？\n\n<size=45>四　緊急状況？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "え…？みんなにメイワク…？",
 			typewriter = {
@@ -63,20 +63,20 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			actor = 203010,
+			say = "メイワクというほどではありませんけど、「どうしちゃったんだろう・・・？」って心配しちゃってる子はいますね…",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "メイワクというほどではありませんけど、「どうしちゃったんだろう・・・？」って心配しちゃってる子はいますね…",
+			actor = 203010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -94,8 +94,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "…………",
 			typewriter = {
@@ -111,8 +111,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "そっか……私、悪いことをしたのね……",
 			typewriter = {
@@ -160,8 +160,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "ううん、悪いことをしたのはわかっているの。",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "はあ…みんながナースのお世話が必要かどうかもわからないなんて、やっぱり私ナースは無理ね…この衣装は明石に返すわ。後でみんなにも謝っとく。",
 			typewriter = {
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301350,
+			nameColor = "#a9f548",
 			say = "しきかん、タイヘンだよ！！",
 			effects = {
 				{
@@ -221,8 +221,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301350,
+			nameColor = "#a9f548",
 			say = "睦月がびょうきになっちゃったよぉ！タイヘン！ど、どうしよう！",
 			typewriter = {
 				speed = 0.05,
@@ -255,14 +255,14 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					number = 3
@@ -275,8 +275,8 @@ return {
 			bgName = "bg_story_task",
 			actor = 201232,
 			dir = 1,
-			nameColor = "#a9f548",
 			say = "！！",
+			nameColor = "#a9f548",
 			effects = {
 				{
 					active = false,
@@ -300,8 +300,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "……ロンドン、このナース服を返すのはちょっとお預けにしていい？これで名誉挽回してみせるわ！",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "じゃあ…！ロンドン、明石とヴェスタルを呼んで。指揮官と私は一緒に睦月の様子を見に行くわ。これでいい？",
 			typewriter = {
@@ -363,12 +363,12 @@ return {
 			}
 		},
 		{
-			actor = 201232,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 201232,
+			nameColor = "#a9f548",
 			say = "指揮官、行くわよ！患者さんを待たせてはいけないわ！",
 			typewriter = {
 				speed = 0.05,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_39 = {}
 slot1 = slot0.word_template_39
 
-function temp()
+temp = function()
 	uv0["疆"] = {
 		["独"] = {
 			this = true
@@ -16,7 +16,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["藏"] = {
 		["独"] = {
 			this = true
@@ -77,7 +77,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["学"] = {
 		["潮"] = {
 			this = true
@@ -100,7 +100,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["一"] = {
 		["党"] = {
 			["专"] = {

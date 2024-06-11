@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205050,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "bsm-3",
 			dir = -1,
 			say = "真是堅硬的裝甲…14英寸主炮居然也難以擊穿",
+			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "對於鋼鐵的領悟，鐵血…可是在皇家之上——",
 			typewriter = {
 				speed = 0.05,
@@ -41,9 +41,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			say = "————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "————",
 			flashN = {
 				color = {
 					1,
@@ -94,8 +94,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "！來自右舷的炮擊！？",
 			typewriter = {
 				speed = 0.05,
@@ -167,10 +167,10 @@ return {
 			}
 		},
 		{
+			say = "——",
 			dir = 1,
 			side = 0,
 			soundeffect = "event:/battle/boom2",
-			say = "——",
 			flashN = {
 				color = {
 					1,

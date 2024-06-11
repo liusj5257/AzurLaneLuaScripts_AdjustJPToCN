@@ -1,12 +1,12 @@
 return {
-	id = "W214000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W214000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "護衛艦隊を撃破すると、セイレーンによる封鎖を破れるようだ。",
 			typewriter = {
 				speed = 0.05,

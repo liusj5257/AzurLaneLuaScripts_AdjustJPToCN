@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "天真烂漫的少女",
 	cd = 0,
+	picture = "0",
+	desc = "寻找场上小海伦娜",
 	painting = 0,
 	id = 12232,
-	picture = "0",
 	castCV = "skill",
-	desc = "寻找场上小海伦娜",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetShipTag"

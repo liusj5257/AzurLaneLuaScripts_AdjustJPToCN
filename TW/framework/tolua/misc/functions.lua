@@ -3,7 +3,7 @@ slot2 = table
 int64.zero = int64.new(0, 0)
 uint64.zero = uint64.new(0, 0)
 
-function string.split(slot0, slot1)
+string.split = function(slot0, slot1)
 	slot0 = tostring(slot0)
 
 	if tostring(slot1) == "" then
@@ -26,7 +26,7 @@ function string.split(slot0, slot1)
 	return slot3
 end
 
-function import(slot0, slot1)
+import = function(slot0, slot1)
 	slot2 = nil
 	slot3 = slot0
 	slot4 = 1
@@ -58,7 +58,7 @@ function import(slot0, slot1)
 	return uv2(slot3)
 end
 
-function reimport(slot0)
+reimport = function(slot0)
 	slot1 = package
 	slot1.loaded[slot0] = nil
 	slot1.preload[slot0] = nil

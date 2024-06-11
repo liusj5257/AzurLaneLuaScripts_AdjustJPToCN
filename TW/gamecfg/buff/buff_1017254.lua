@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 6,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "标记-来自金鹿号的易伤",
 	stack = 1,

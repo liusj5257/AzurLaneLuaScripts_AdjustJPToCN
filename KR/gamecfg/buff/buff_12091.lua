@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "小齐柏林1",
 	time = 22,
-	color = "red",
+	name = "小齐柏林1",
+	init_effect = "",
+	id = 12091,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12091,
+	color = "red",
 	icon = 12090,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 8,
 				target = "TargetSelf",
+				time = 8,
 				skill_id = 12091
 			}
 		},
@@ -39,8 +39,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 12091
+				skill_id = 12091,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU34",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-boss-italy",
+			say = "Mediterranean Sea - Malta",
 			side = 2,
 			bgName = "bg_italy_cg6",
 			dir = 1,
-			say = "Mediterranean Sea - Malta",
+			bgm = "battle-boss-italy",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -31,12 +31,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Withered grass beneath the cloudy skies... the smell of gasoline... the sound of propellers and engines...",
 			typewriter = {
 				speed = 0.05,
@@ -51,10 +51,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "What an awful place for a tea party... But, what else is one to do in front of the Royal Navy's forward base?",
 			typewriter = {
 				speed = 0.05,
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_italy_cg6",
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "Sister? Le Terrible, is that you over there?",
 			dialogShake = {
 				speed = 0.09,
@@ -87,12 +87,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Sure is. Oh my, if it isn't my cute and elegant little sister. How have you been?",
 			typewriter = {
 				speed = 0.05,
@@ -139,10 +139,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yup. Had to do some soul-searching after all, as well as some research.",
 			typewriter = {
 				speed = 0.05,
@@ -157,10 +157,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "But you know... I still have some reservations about fighting with the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
@@ -188,12 +188,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "It'll be fine, my wise sister. You don't have to say anything that this fool hasn't already heard.",
 			typewriter = {
 				speed = 0.05,
@@ -224,10 +224,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Algérie asked me to tell Richelieu about Jean Bart's recovery.",
 			typewriter = {
 				speed = 0.05,
@@ -242,10 +242,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Has she left the Vichya Dominion yet?",
 			typewriter = {
 				speed = 0.05,
@@ -257,12 +257,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "It's all a bit rushed, but if the elder sister isn't allowed to make her move, the younger one won't take the next step either.",
 			typewriter = {
 				speed = 0.05,
@@ -290,12 +290,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Well, tell you what. Let's wait until Richelieu comes back before we talk about work.",
 			typewriter = {
 				speed = 0.05,
@@ -310,10 +310,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "More importantly...",
 			typewriter = {
 				speed = 0.05,
@@ -328,10 +328,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I'm back, Le Triomphant, my lovely little sister~",
 			typewriter = {
 				speed = 0.05,
@@ -343,11 +343,11 @@ return {
 			}
 		},
 		{
-			actor = 801010,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 801010,
+			nameColor = "#a9f548",
 			say = "Wait... Le Terrible...",
 			dialogShake = {
 				speed = 0.09,
@@ -367,10 +367,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 900237,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ohh? Should the Knight-Princess of Iris Libre really be crying so readily? Here, have some tea...",
 			typewriter = {
 				speed = 0.05,
@@ -382,12 +382,12 @@ return {
 			}
 		},
 		{
-			actor = 900237,
 			side = 2,
 			bgName = "bg_italy_cg6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900237,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "......",
 			typewriter = {
 				speed = 0.05,

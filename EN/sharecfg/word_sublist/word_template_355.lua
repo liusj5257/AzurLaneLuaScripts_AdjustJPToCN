@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_355 = {}
 slot1 = slot0.word_template_355
 
-function temp()
+temp = function()
 	uv0["轉"] = {
 		["法"] = {
 			["輪"] = {
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["庄"] = {
 		["闲"] = {
 			["和"] = {
@@ -44,7 +44,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["装"] = {
 		B = {
 			this = true
@@ -78,7 +78,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["裝"] = {
 		B = {
 			this = true
@@ -91,7 +91,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["丬"] = {
 		this = {
 			this = true
@@ -101,7 +101,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["壮"] = {
 		["阳"] = {
 			["喷"] = {
@@ -139,7 +139,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["撞"] = {
 		["其"] = {
 			["火"] = {

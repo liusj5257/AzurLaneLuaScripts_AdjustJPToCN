@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023关岛活动 理事会舰队压制",
 	time = 3,
-	color = "yellow",
+	name = "2023关岛活动 理事会舰队压制",
+	init_effect = "",
+	id = 200732,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200732,
+	color = "yellow",
 	icon = 200732,
 	last_effect = "",
 	effect_list = {

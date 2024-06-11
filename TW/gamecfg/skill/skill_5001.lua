@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "火力干扰",
 	cd = 0,
+	picture = "0",
+	desc = "火力干扰",
 	painting = 1,
 	id = 5001,
-	picture = "0",
 	castCV = "skill",
-	desc = "火力干扰",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetHarmRandomByWeight",
 			arg_list = {
 				buff_id = 5000
 			}

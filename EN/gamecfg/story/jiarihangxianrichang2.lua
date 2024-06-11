@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIANRICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIANRICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Vacation Lane - Cozy Days\n\n<size=45>2 Sandcastle Showdown</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_106",
 			bgm = "doa_story3",
 			actor = 900300,
 			nameColor = "#a9f548",
 			say = "Hey, Honoka! We're building a sandcastle! Come on!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -146,8 +146,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900301,
 			dir = 1,
+			actor = 900301,
 			nameColor = "#a9f548",
 			say = "We need a judge to determine whose is best, though... Oh, I know! Let's have the Commander decide!",
 			typewriter = {
@@ -160,9 +160,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "Seemingly out of the blue, a competition to see who can build the best sandcastle began.",
 			typewriter = {
 				speed = 0.05,
@@ -174,13 +174,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
+			dir = 1,
 			say = "After a lot of digging, sculpting, and molding, everyone's sandcastles were finally complete.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -208,8 +208,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "What did we make? Well, have a look... Ta-daaaah!",
 			effects = {
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "Marie and Honoka's creation is a giant sphere, donned with a necktie and a navy cap. It looks a lot like...",
 			effects = {
 				{
@@ -251,8 +251,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "Hmm. Nice and round, almost like a delectable manjuu~ Though, it bears more resemblance to a cat.",
 			typewriter = {
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "Ah, this is a traditional Sakura Empire castle, is it not? We mayhaps share aesthetic tastes, you and I.",
 			typewriter = {
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "Let's see what our resident champion, Gascogne, came up with.",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "Oh my gosh... It's some kind of arch with fancy patterns etched into it!",
 			typewriter = {
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -390,8 +390,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "Ah-haha! This certainly is beyond my expectations! Fantastic!",
 			typewriter = {
@@ -407,8 +407,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "So, Commander, which do you think is the best? You're the judge!",
 			typewriter = {
@@ -424,8 +424,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900301,
 			dir = 1,
+			actor = 900301,
 			nameColor = "#a9f548",
 			say = "Whichever it is you like the most, you can only choose one!",
 			typewriter = {

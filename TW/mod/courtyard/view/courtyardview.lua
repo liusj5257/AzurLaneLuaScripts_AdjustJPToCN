@@ -1,13 +1,13 @@
 slot0 = class("CourtYardBaseView")
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.name = slot1
 	slot0.storey = slot2
 
 	slot0:Init()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0.isInit = false
 	slot1 = slot0:GetStoreyModule()
 	slot2 = nil
@@ -31,11 +31,11 @@ function slot0.Init(slot0)
 	end)
 end
 
-function slot0.IsInit(slot0)
+slot0.IsInit = function(slot0)
 	return slot0.isInit == true
 end
 
-function slot0.LoadUI(slot0, slot1, slot2)
+slot0.LoadUI = function(slot0, slot1, slot2)
 	slot0.resName = slot1
 	slot3 = ResourceMgr.Inst
 
@@ -53,13 +53,13 @@ function slot0.LoadUI(slot0, slot1, slot2)
 	end), true, true)
 end
 
-function slot0.GetRect(slot0)
+slot0.GetRect = function(slot0)
 	assert(slot0.storeyModule)
 
 	return slot0.storeyModule.rectTF
 end
 
-function slot0.GetStoreyModule(slot0)
+slot0.GetStoreyModule = function(slot0)
 	return ({
 		[CourtYardConst.STYLE_INNER] = CourtYardStoreyModule,
 		[CourtYardConst.STYLE_OUTSIDE] = CourtYardOutStoreyModule,
@@ -68,7 +68,7 @@ function slot0.GetStoreyModule(slot0)
 	})[slot0.storey:GetStyle()]
 end
 
-function slot0.InitObjPool(slot0, slot1)
+slot0.InitObjPool = function(slot0, slot1)
 	slot4 = ({
 		[CourtYardConst.STYLE_INNER] = CourtYardPoolMgr,
 		[CourtYardConst.STYLE_OUTSIDE] = CourtYardPoolMgr,
@@ -81,11 +81,11 @@ function slot0.InitObjPool(slot0, slot1)
 	slot0.poolMgr = slot4
 end
 
-function slot0.GetCurrStorey(slot0)
+slot0.GetCurrStorey = function(slot0)
 	return slot0.storeyModule
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if slot0.storeyModule then
 		slot0.storeyModule:Dispose()
 

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"妹の成長期？！\n\n<size=45>七 妹の笑顔</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ニューオリンズ級のみんなの指導で、ヴィンセンスは秘書艦としての基本を身に着けてきた。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ニューオリンズ級のみんなの指導で、ヴィンセンスは秘書艦としての基本を身に着けてきた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "まだ少し拙いけど、確かに少しずつ上達してきている。",
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "彼女の成長は喜ばしいことだ。",
 			typewriter = {
 				speed = 0.05,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "ヴィンセンスは綺麗にラッピングされた小袋のクッキーを手渡した",
 			typewriter = {
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 103100,
 			nameColor = "#a9f548",
 			say = "手作りのようで、形は不揃いだが、作り手の真心が込められていることが随所から見て取れる",
 			typewriter = {
@@ -204,9 +204,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "なんだか想像できる光景だ。",
 			typewriter = {
 				speed = 0.05,
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "だから、ヴィンセンス、これからも頑張る",
 			typewriter = {
 				speed = 0.05,
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 103100,
+			nameColor = "#a9f548",
 			say = "おー！……指揮官、これからもヴィンセンスと一緒にお昼寝するよね？",
 			typewriter = {
 				speed = 0.05,

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
 			say = "이글 유니온과 로열 네이비의 전력 동원 아래, 노스 유니온으로 가는 특별 선단이 곧 편성되었다.",
 			flashin = {
 				delay = 1,
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "비록 바렌츠해 상공을 둘러싸고 있는 극야가, 지금은 운송 임무를 수행하기에 좋은 시간이 아님을 나타내고 있었지만, 긴급 임무는 애초에 선택할 권리가 없었다.",
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "적어도, 오늘의 로열 네이비의 본섬은 출항하기 좋은 날씨였다.",
@@ -62,13 +62,13 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "벨파스트",
+			side = 0,
 			bgName = "bg_hms_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "출항할 시간이 거의 다 된 것 같군요. 준비 작업은 어때요, 허마이오니?",
 			bgm = "story-richang",
+			nameColor = "#a9f548",
+			say = "출항할 시간이 거의 다 된 것 같군요. 준비 작업은 어때요, 허마이오니?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "허마이오니",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "벨파스트",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -111,11 +111,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_hms_1",
-			actorName = "에든버러&셰필드",
 			dir = 1,
+			actorName = "에든버러&셰필드",
 			say = "네！",
 			dialogShake = {
 				speed = 0.09,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "허마이오니",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "벨파스트",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -164,8 +164,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "허마이오니",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "벨파스트",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -196,11 +196,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_hms_1",
-			actorName = "에든버러",
 			dir = 1,
+			actorName = "에든버러",
 			say = "무슨 말이야, 벨파스트… 나도 할 때는 제대로 할 수 있어!",
 			dialogShake = {
 				speed = 0.09,
@@ -217,8 +217,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "벨파스트",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -233,8 +233,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "허마이오니",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "허마이오니",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "셰필드",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "에든버러",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "허마이오니",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "에든버러",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "벨파스트",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -345,8 +345,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "허마이오니",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "에든버러",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "셰필드",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -393,8 +393,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "셰필드",
+			side = 1,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "벨파스트",
+			side = 0,
 			bgName = "bg_hms_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -425,12 +425,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "셰필드",
+			side = 1,
 			bgName = "bg_hms_1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = " 신의 가호가 함께 하길…",
 			typewriter = {
 				speed = 0.05,

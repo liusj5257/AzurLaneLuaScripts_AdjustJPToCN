@@ -1,6 +1,6 @@
 slot0 = class("ChapterBattleResultRequestCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = (slot1.body or {}).isSkipBattle
 
 	pg.ConnectionMgr.GetInstance():Send(13106, {

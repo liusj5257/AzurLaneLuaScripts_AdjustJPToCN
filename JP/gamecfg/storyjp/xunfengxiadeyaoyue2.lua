@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUNFENGXIADEYAOYUE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUNFENGXIADEYAOYUE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"薫風の招待状\n\n<size=45>光輝のトライアングルウェーブ</size>",
@@ -17,20 +17,20 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			bgm = "story-richang-7",
 			say = "爽やかな朝の潮風を浴びながら、海辺で散歩していくと――",
+			bgm = "story-richang-7",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "絶景を眺める白浜で「先客」と鉢合わせた。",
@@ -40,11 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "海風が気持ちいい……",
@@ -58,11 +58,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "あと何日かしたら、指揮官の前で……",
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "おは…よう？",
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
 			say = "し、指揮官？！どうしてこんな時間に…？",
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "（SG、どうして指揮官が近づいてきたのを知らせなかったの…？）",
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "（うぅ、まだ心の準備が……！）",
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "今日の仕事が多いから早起きをしたが……",
@@ -168,11 +168,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "そ、それでも早すぎるよ…？",
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "言われてみれば確かに早すぎるような気がした。",
@@ -200,11 +200,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "せっかく早起きしたし、日の出でも眺めようとあまり深く考えずにやってきたのだが…",
@@ -214,11 +214,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ヘレナも早起きして日の出を見に来たのか…？",
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "そ、そうね……多分……",
@@ -246,11 +246,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "（日の出を見に来ても、水着に着替える必要はないし）",
@@ -264,11 +264,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "潮風もあって、やはり朝は少し涼しく感じるから、水着姿のヘレナが風邪を引かないかちょっと心配だ。",
@@ -278,11 +278,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "し、指揮官はこの水着が気になるの？",
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "水着姿のヘレナはとても可愛らしく、気にならないはずがない。",
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "かわいい……",
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "（カワイイじゃなくて、キレイって言ってもらいたかったな…）",
@@ -346,11 +346,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "（あ、カワイイと言われちゃダメとか、そういう意味じゃなくて…も、もちろん口にするのは指揮官の自由だから、どっちでも…あぅ…）",
@@ -364,11 +364,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "もちろん、きれいでもある。",
@@ -378,11 +378,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
 			say = "…………うん。ありがとう",
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "true",
 			say = "実は…その、指揮官……",
@@ -414,11 +414,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "私、日の出を見に来たわけじゃないの",
@@ -432,11 +432,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "今度の非番日、一緒に泳ぎに行こうって約束でしょ？",
@@ -450,11 +450,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ええと、つまりそのときは水着じゃないとダメだから…",
@@ -468,11 +468,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "水着を普通に着るだけなら大丈夫なのに、指揮官に見せると思うと……",
@@ -486,11 +486,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "すごく恥ずかしくて……",
@@ -504,11 +504,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "だからこうして水着に着替えて、海辺にやってきて事前演習してみようかなって…",
@@ -522,11 +522,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "まさか指揮官と会うなんて思ってもいなかったから……",
@@ -540,11 +540,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "正直なところ、今日の仕事が多いのは、少しでも非番日に余裕をもつために調整したからだ。",
@@ -554,11 +554,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "す、すごい偶然ね……",
@@ -572,11 +572,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "とはいえ、こうしてヘレナと会ったなら、非番日のリハーサルみたいになるな。",
@@ -586,11 +586,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "ううん、今のままじゃ足りないわ",
@@ -604,11 +604,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "へくちゅんっ。指揮官、ごめんなさい…もう少し近くに寄ってもいい？",
@@ -622,11 +622,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "指揮官の体温を感じられるほど近くに寄ったほうが――",
@@ -640,11 +640,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "うん…非番日のリハーサルになるわ",
@@ -658,11 +658,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "水平線の向こうでゆっくりと登ってくる太陽が、朝の海を金色に染め上げた。",
@@ -672,11 +672,11 @@ return {
 			}
 		},
 		{
-			actor = 102053,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			withoutActorName = true,
+			actor = 102053,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "輝く海、眩しい少女の笑顔は、まさに幸せの中に包まれていた。",

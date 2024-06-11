@@ -8,7 +8,7 @@ slot5 = false
 slot6 = {}
 slot7 = nil
 
-function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
+slot1.Connect = function(slot0, slot1, slot2, slot3, slot4)
 	uv0.stopTimer()
 
 	uv1 = Connection.New(slot1, slot2)
@@ -50,7 +50,7 @@ function slot1.Connect(slot0, slot1, slot2, slot3, slot4)
 	uv0.timer:Start()
 end
 
-function slot1.stopTimer()
+slot1.stopTimer = function()
 	if uv0.timer then
 		uv0.timer:Stop()
 
@@ -58,7 +58,7 @@ function slot1.stopTimer()
 	end
 end
 
-function slot1.onDisconnected(slot0, slot1)
+slot1.onDisconnected = function(slot0, slot1)
 	uv0("Simple Network onDisconnected: " .. tostring(slot0))
 
 	if uv1 then
@@ -82,7 +82,7 @@ function slot1.onDisconnected(slot0, slot1)
 	uv3 = false
 end
 
-function slot1.onData(slot0)
+slot1.onData = function(slot0)
 	if uv0[slot0.cmd] then
 		slot5 = slot0
 		slot1 = uv1.Packer.GetInstance():Unpack(slot0.cmd, slot0.getLuaStringBuffer(slot5))
@@ -93,11 +93,11 @@ function slot1.onData(slot0)
 	end
 end
 
-function slot1.SetErrorCB(slot0, slot1)
+slot1.SetErrorCB = function(slot0, slot1)
 	uv0.errorCB = slot1
 end
 
-function slot1.onError(slot0)
+slot1.onError = function(slot0)
 	uv0.UIMgr.GetInstance():LoadingOff()
 	uv1.stopTimer()
 	uv2("Simple Network Error: " .. tostring(slot0))
@@ -117,7 +117,7 @@ function slot1.onError(slot0)
 	end
 end
 
-function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot1.Send = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if not uv0 then
 		warning("Simple Network is not connected. msgid " .. slot1)
 
@@ -127,11 +127,11 @@ function slot1.Send(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	uv1:Queue(slot1, slot2, slot3, slot4, slot5, nil, slot6)
 end
 
-function slot1.setPacketIdx(slot0, slot1)
+slot1.setPacketIdx = function(slot0, slot1)
 	uv0:setPacketIdx(slot1)
 end
 
-function slot1.On(slot0, slot1, slot2)
+slot1.On = function(slot0, slot1, slot2)
 	if uv0[slot1] == nil then
 		uv0[slot1] = {}
 	end
@@ -139,7 +139,7 @@ function slot1.On(slot0, slot1, slot2)
 	table.insert(uv0[slot1], slot2)
 end
 
-function slot1.Off(slot0, slot1, slot2)
+slot1.Off = function(slot0, slot1, slot2)
 	if uv0[slot1] == nil then
 		return
 	end
@@ -157,7 +157,7 @@ function slot1.Off(slot0, slot1, slot2)
 	end
 end
 
-function slot1.Disconnect(slot0)
+slot1.Disconnect = function(slot0)
 	uv0 = {}
 
 	uv1("Simple Network Disconnect !!!")
@@ -172,7 +172,7 @@ function slot1.Disconnect(slot0)
 	uv4 = false
 end
 
-function slot1.Reconnect(slot0, slot1)
+slot1.Reconnect = function(slot0, slot1)
 	slot0:Disconnect()
 
 	if uv0.errorCB then
@@ -180,20 +180,20 @@ function slot1.Reconnect(slot0, slot1)
 	end
 end
 
-function slot1.resetHBTimer(slot0)
+slot1.resetHBTimer = function(slot0)
 end
 
-function slot1.getConnection(slot0)
+slot1.getConnection = function(slot0)
 	return uv0
 end
 
-function slot1.isConnecting(slot0)
+slot1.isConnecting = function(slot0)
 	return uv0
 end
 
-function slot1.isConnected(slot0)
+slot1.isConnected = function(slot0)
 	return uv0
 end
 
-function slot1.SwitchProxy(slot0)
+slot1.SwitchProxy = function(slot0)
 end

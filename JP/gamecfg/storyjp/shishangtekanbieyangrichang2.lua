@@ -7,8 +7,8 @@ return {
 	},
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"着せ替え特集  一味違う日常\n\n<size=45>二 ブリリアント・タッチダウン</size>",
@@ -17,28 +17,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_112",
+			bgm = "story-richang-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ハーフタイムのホイッスルが鳴ると、先程ゴールを決めたばかりのプリンツ・オイゲンの元へ急いだ。",
-			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -77,13 +77,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_112",
 			spine = true,
 			hideRecordIco = true,
 			actor = 403036,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――お疲れ様。後半の方向性を話し合おうか",
 			typewriter = {
@@ -179,13 +179,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_112",
 			spine = true,
 			hideRecordIco = true,
 			actor = 403036,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――「もっと直接的な手伝い」？",
 			typewriter = {
@@ -435,9 +435,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_112",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_112",
 			hideRecordIco = true,
 			actor = 403036,
 			nameColor = "#A9F548FF",
@@ -448,17 +448,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -519,11 +519,11 @@ return {
 			}
 		},
 		{
-			actor = 403036,
 			side = 2,
 			bgName = "star_level_bg_112",
 			spine = true,
 			dir = 1,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そっちも喉が渇いたの？",
@@ -686,9 +686,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_112",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_112",
 			hideRecordIco = true,
 			actor = 403036,
 			nameColor = "#A9F548FF",
@@ -699,17 +699,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -736,11 +736,11 @@ return {
 			}
 		},
 		{
-			actor = 403036,
 			side = 2,
 			bgName = "star_level_bg_112",
 			spine = true,
 			dir = 1,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ん？ふふふ、もう「後半」を心待ちにしている顔になっているみたいね",

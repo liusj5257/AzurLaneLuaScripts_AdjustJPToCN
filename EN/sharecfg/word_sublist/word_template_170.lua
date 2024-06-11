@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_170 = {}
 slot1 = slot0.word_template_170
 
-function temp()
+temp = function()
 	uv0["緙"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["肯"] = {
 		["德"] = {
 			["基"] = {
@@ -51,7 +51,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["啃"] = {
 		["奶"] = {
 			this = true
@@ -66,7 +66,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["掯"] = {
 		this = {
 			this = true
@@ -76,7 +76,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["坑"] = {
 		["爹"] = {
 			this = true
@@ -99,7 +99,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["空"] = {
 		["包"] = {
 			["弹"] = {
@@ -200,7 +200,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["孔"] = {
 		["子"] = {
 			["去"] = {

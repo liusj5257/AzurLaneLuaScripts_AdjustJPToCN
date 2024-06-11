@@ -1,14 +1,14 @@
 slot0 = class("SVBossProgress", import("view.base.BaseSubView"))
 slot0.HideView = "SVBossProgress.HideView"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SVBossProgress"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot0.rtFrame = slot1:Find("frame")
 	slot1 = slot0.rtFrame
@@ -21,10 +21,10 @@ function slot0.OnInit(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	setLocalScale(slot0.rtFrame, Vector3(0.5, 0.5, 0.5))
 	LeanTween.cancel(go(slot0.rtFrame))
 	LeanTween.scale(slot0.rtFrame, Vector3.one, 0.15)
@@ -32,14 +32,14 @@ function slot0.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	LeanTween.cancel(go(slot0.rtFrame))
 	setActive(slot0._tf, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	slot0:emit(uv0.HideView, slot0.callback)
 end
 
-function slot0.Setup(slot0, slot1, slot2)
+slot0.Setup = function(slot0, slot1, slot2)
 	slot0.callback = slot2
 	slot4 = 0
 	slot5 = slot1.total

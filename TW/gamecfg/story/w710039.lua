@@ -1,12 +1,12 @@
 return {
-	id = "W710039",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710039",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "潮汐會在艦隊離開當前區域後消退",
 			typewriter = {
 				speed = 0.05,

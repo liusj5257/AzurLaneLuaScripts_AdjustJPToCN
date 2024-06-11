@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "百合根",
 	init_effect = "",
+	id = 103060,
 	time = 10,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 103060,
+	color = "red",
 	icon = 103060,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 1,
+				attr = "cri",
 				index = {
 					-1
 				}

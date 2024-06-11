@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 2,
+			blackBg = true,
 			say = "어느 날, 모항",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			nameColor = "#92fc63",
 			say = "지휘관의 호출… 오빠가 유니콘한테 볼일이 있나…?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -92,13 +92,13 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			mode = 2,
-			withoutPainting = true,
 			say = "그 후, 집무실에서",
+			mode = 2,
+			blackBg = true,
+			withoutPainting = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -128,8 +128,8 @@ return {
 			nameColor = "#92fc63",
 			say = "유니콘… 들어갈게? 유니콘한테 시킬 일 있어? 오빠?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -154,15 +154,15 @@ return {
 			}
 		},
 		{
-			actor = 105030,
 			side = 0,
 			bgName = "bg_story_star0",
-			mode = 3,
 			bgspeed = 2,
+			actor = 105030,
+			mode = 3,
 			withoutPainting = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -188,8 +188,8 @@ return {
 			nameColor = "#92fc63",
 			say = "티켓……?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -230,9 +230,9 @@ return {
 		{
 			actor = 0,
 			nameColor = "#92fc63",
+			say = "……",
 			side = 2,
 			withoutPainting = true,
-			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

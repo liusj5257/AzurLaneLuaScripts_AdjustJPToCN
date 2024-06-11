@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -26,8 +26,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_FROM_TAG_4_kearsargemain",
-				number = 0.04
+				number = 0.04,
+				attr = "DMG_FROM_TAG_4_kearsargemain"
 			}
 		}
 	}

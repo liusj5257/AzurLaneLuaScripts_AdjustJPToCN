@@ -199,14 +199,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 10,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 108015,
 	picture = "",
 	desc = "弱化GRIDMAN打出",
 	stack = 1,
-	id = 108015,
+	color = "red",
 	icon = 108010,
 	last_effect = "",
 	effect_list = {}

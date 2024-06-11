@@ -62,12 +62,12 @@ return {
 	desc_get = "每20秒，有30.0%(满级60.0%)概率触发专属技能弹幕(依据技能等级)",
 	name = "崩姐",
 	init_effect = "",
+	id = 10130,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "每20秒，有$1概率触发专属技能弹幕(依据技能等级)",
 	stack = 1,
-	id = 10130,
+	color = "red",
 	icon = 10130,
 	last_effect = "",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 10133,
-				target = "TargetSelf",
-				time = 20
+				time = 20,
+				target = "TargetSelf"
 			}
 		}
 	}

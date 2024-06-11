@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG15",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"潮風と夏の無人島\n\n<size=45>肉は焼きたてのうちに食え！</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
-			say = "無人島の開拓が仲間たちの努力で着々と進んでいる。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-3",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "無人島の開拓が仲間たちの努力で着々と進んでいる。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "今日もまた夕日が西に沈み、星々が夜の帳で輝きはじめた。",
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "開拓拠点に戻ると、ビーチに鎮座している巨大な鉄の装置が目に入った。",
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_map_2",
 			hidePaintObj = true,
 			say = "あの形は――",
@@ -80,12 +80,12 @@ return {
 			}
 		},
 		{
-			actor = 502030,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "バーベキューコンロだ！",
 			painting = {
 				alpha = 0.3,
@@ -97,8 +97,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -107,12 +107,12 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そ、そうね……見た目はバーベキューコンロとしか言えないわよ……",
 			painting = {
 				alpha = 0.3,
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "でもあんな大きさはいくらなんでも無理があるでしょう？！",
 			painting = {
 				alpha = 0.3,
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 401990,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401990,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あら。鉄血のクラフトチームの最新作「グリルターミネーターMk2」よ",
 			painting = {
 				alpha = 0.3,
@@ -158,8 +158,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,10 +171,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 401990,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ただのコンロと思わないことね。何種類もの食材を同時に焼けるだけでなく、炭火焼きの風味をそのままに再現できるわ",
 			painting = {
 				alpha = 0.3,
@@ -186,12 +186,12 @@ return {
 			}
 		},
 		{
-			actor = 401990,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401990,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふん、今日は皆で焼肉大会よ！",
 			painting = {
 				alpha = 0.3,
@@ -206,10 +206,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……んー、こんな大きなコンロで焼くような食材はあるのでしょうか…？",
 			painting = {
 				alpha = 0.3,
@@ -224,10 +224,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "グロズヌイ、仲間たちといっぱい捕まえてきた",
 			painting = {
 				alpha = 0.3,
@@ -239,12 +239,12 @@ return {
 			}
 		},
 		{
-			actor = 301140,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301140,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "肉だ！焼肉を食べるぜ！",
 			painting = {
 				alpha = 0.3,
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,12 +266,12 @@ return {
 			}
 		},
 		{
-			actor = 502010,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 502010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "まあまあ、海の幸と野菜もいいですよ",
 			painting = {
 				alpha = 0.3,
@@ -283,12 +283,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ラフィー、魚とにんじんが食べたい……",
 			painting = {
 				alpha = 0.3,
@@ -300,12 +300,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ホタテと昆布も試す価値があるです",
 			painting = {
 				alpha = 0.3,
@@ -317,12 +317,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "フルーツもいいと思うよ！今日は皆と森でいっぱい採ってきた！",
 			painting = {
 				alpha = 0.3,
@@ -334,12 +334,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ヤシの実もあるけど、あれは焼けるのかな……？",
 			painting = {
 				alpha = 0.3,
@@ -354,10 +354,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 202090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "焼けると思うよ！",
 			painting = {
 				alpha = 0.3,
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -379,12 +379,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……オイゲンさん、せっかく皆食材を持ってきましたから、自分で焼ける場所も作ったほうがいいんじゃありませんか？",
 			painting = {
 				alpha = 0.3,
@@ -399,10 +399,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_summerisland_map_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうかもね。ちょっと準備してくるから、もう少し待ってて",
 			painting = {
 				alpha = 0.3,
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_summerisland_cg2",
 			mode = 1,
+			bgName = "bg_summerisland_cg2",
 			sequence = {
 				{
 					"",
@@ -423,17 +423,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "アルバコア",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "アルバコア",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -475,8 +475,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "アルバコア",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -487,8 +487,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "アルバコア",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -499,8 +499,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "翔鶴",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -511,8 +511,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "翔鶴",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -523,8 +523,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "瑞鶴",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -535,8 +535,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "翔鶴",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -552,8 +552,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			say = "鉄血の巨大コンロ、または食材の香りに誘われ、各陣営の仲間たちが自然と集まってきた。",
@@ -563,8 +563,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			say = "和気あいあいとした中のバーベキュー大会は、大洋の無人島を熱く盛り上げた。",
@@ -574,8 +574,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "プリンツ·オイゲン",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "プリンツ·オイゲン",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -598,8 +598,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "プリンツ·オイゲン",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -610,8 +610,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ビスマルク",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "プリンツ·オイゲン",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -634,12 +634,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
-			say = "パシャリ。オイゲンの掛け声に合わせて、また一つ楽しい瞬間がカメラに記録された。",
 			soundeffect = "event:/ui/kuaimen",
+			say = "パシャリ。オイゲンの掛け声に合わせて、また一つ楽しい瞬間がカメラに記録された。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,8 +668,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アヴローラ",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -680,8 +680,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アヴローラ",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -692,8 +692,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "アルバコア",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -704,8 +704,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "アルバコア",
+			side = 1,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -721,8 +721,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アヴローラ",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -733,8 +733,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アヴローラ",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -745,8 +745,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			say = "宴会ならぬバーベキュー大会の音頭、か……",
@@ -766,13 +766,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "一行",
+			side = 2,
 			bgName = "bg_summerisland_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "かんぱーい！",
 			soundeffect = "event:/ui/pengbei2",
+			say = "かんぱーい！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

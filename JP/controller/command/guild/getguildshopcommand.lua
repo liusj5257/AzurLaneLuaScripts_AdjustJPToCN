@@ -1,6 +1,6 @@
 slot0 = class("GetGuildShopCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot4 = slot2.callback
 	slot5 = getProxy(PlayerProxy)
 	slot6 = getProxy(ShopsProxy)

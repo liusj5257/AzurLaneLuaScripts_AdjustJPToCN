@@ -1,20 +1,20 @@
 slot0 = class("TargetMove", import("view.miniGame.gameView.RyzaMiniGame.Reactor"))
 
-function slot0.GetBaseOrder(slot0)
+slot0.GetBaseOrder = function(slot0)
 	return 2
 end
 
-function slot0.InTimeRiver(slot0)
+slot0.InTimeRiver = function(slot0)
 	return true
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0.rtScale = slot0._tf:Find("scale")
 
 	uv0.super.Init(slot0, slot1)
 end
 
-function slot0.UpdatePos(slot0, slot1)
+slot0.UpdatePos = function(slot0, slot1)
 	slot5 = slot1
 
 	slot0.responder:UpdatePos(slot0, slot5)
@@ -50,13 +50,13 @@ function slot0.UpdatePos(slot0, slot1)
 	})
 end
 
-function slot0.SetHide(slot0, slot1)
+slot0.SetHide = function(slot0, slot1)
 	slot0.hide = slot1
 
 	slot0.responder:UpdateHide(slot0, slot1)
 end
 
-function slot0.GetSpeed(slot0)
+slot0.GetSpeed = function(slot0)
 	return slot0.speed
 end
 
@@ -71,15 +71,15 @@ slot0.SpeedDistance = {
 	5
 }
 
-function slot0.GetSpeedDis(slot0)
+slot0.GetSpeedDis = function(slot0)
 	return slot0.SpeedDistance[slot0:GetSpeed()]
 end
 
-function slot0.TimeUpdate(slot0, slot1)
+slot0.TimeUpdate = function(slot0, slot1)
 	slot0:MoveUpdate(NewPos(0, 0))
 end
 
-function slot0.MoveUpdate(slot0, slot1)
+slot0.MoveUpdate = function(slot0, slot1)
 	if slot1.x == 0 and slot1.y == 0 then
 		return slot1
 	end
@@ -111,12 +111,12 @@ slot1 = {
 	y = "x"
 }
 
-function slot0.MoveDelta(slot0, slot1, slot2)
+slot0.MoveDelta = function(slot0, slot1, slot2)
 	if slot1.x == 0 and slot1.y == 0 or slot2 == 0 then
 		return NewPos(0, 0)
 	end
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		slot1 = slot0 - uv0.realPos
 
 		if slot1.x * slot1.x < 1 and slot1.y * slot1.y < 1 then
@@ -190,11 +190,11 @@ function slot0.MoveDelta(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetMoveInfo(slot0)
+slot0.GetMoveInfo = function(slot0)
 	return slot0.pos, NewPos(0, 0)
 end
 
-function slot0.GetCollideRange(slot0)
+slot0.GetCollideRange = function(slot0)
 	return {
 		{
 			{
@@ -211,7 +211,7 @@ end
 
 slot0.loopDic = {}
 
-function slot0.PlayAnim(slot0, slot1)
+slot0.PlayAnim = function(slot0, slot1)
 	if slot0.status ~= slot1 then
 		slot0.status = slot1
 

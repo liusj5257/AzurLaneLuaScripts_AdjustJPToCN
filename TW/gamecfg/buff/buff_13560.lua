@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 13560,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13560,
+	color = "red",
 	icon = 13560,
 	last_effect = "",
 	effect_list = {
@@ -28,9 +28,9 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
+				nationality = 4,
 				buff_id = 13561,
 				isBuffStackByCheckTarget = true,
-				nationality = 4,
 				check_target = {
 					"TargetNationalityFriendly",
 					"TargetShipTypeFriendly"

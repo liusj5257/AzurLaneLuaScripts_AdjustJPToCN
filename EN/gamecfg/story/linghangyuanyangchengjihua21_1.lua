@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_project_tb_cg15",
+			side = 2,
+			bgm = "qe-ova-12",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I take a seat on the wooden horse just next to hers.",
-			bgm = "qe-ova-12",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -45,14 +45,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Okay!",
 			voice = "event:/educate/tb/educate-tb-story-31-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Okay!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			say = "She extends her hand towards the camera.",
@@ -74,14 +74,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Make sure I'm in focus!",
 			voice = "event:/educate/tb/educate-tb-story-31-2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Make sure I'm in focus!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			say = "The camera shutter clicks, and I snap a photograph of her.",
@@ -115,14 +115,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg15",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Heehee. When we're home again, you should print out all the photos we take today.",
 			voice = "event:/educate/tb/educate-tb-story-31-3",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Heehee. When we're home again, you should print out all the photos we take today.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			say = "Our amusement park visit continues after that, and we make some unforgettable memories.",

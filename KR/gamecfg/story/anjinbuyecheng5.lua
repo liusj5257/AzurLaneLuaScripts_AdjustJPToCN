@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
-			say = "불야성, 블록13, 폐업한 게임센터",
 			bgm = "story-antarctica-serious",
+			say = "불야성, 블록13, 폐업한 게임센터",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "1시간 가까이 은신처를 계속 바꾸며, 안전가옥에 도착했다.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "그곳은 폐업한 게임센터였다. 이곳은 '스비레피'가 잘 아는 곳으로 보인다.",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "조금 기분 전환을 하고 싶었는지, 그녀는 간신히 움직이고 있는 크레인 게임 앞에 섰다.",
 			typewriter = {
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "……여러 번 도전했음에도 불구하고 아무것도 손에 넣지 못했다.",
 			typewriter = {
@@ -72,8 +72,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "게임 코인을 넣은 주머니가 텅 빈 것을 깨닫고, 스비레피는 내쪽으로 돌아섰다.",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "어깨를 으쓱하며 스비레피는 근처에 있는 그래피티가 잔뜩 그려진 선반에 몸을 걸쳤다.",
 			typewriter = {
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "아티스트",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "크흠, 그것보다는 다른 이름으로 불러줬으면 해.",
 			painting = {
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "아티스트",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "하하하, 맞아! 더 알기 쉽게 말하면, 내가 바로 여기 룰이라는 거야.",
 			painting = {
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "아티스트",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "그렇게 되면 이 게임의 규칙을 어기게 돼. 그러면 재미 없잖아, 안 그래?",
 			painting = {
@@ -290,12 +290,12 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "아티스트",
 			dir = 1,
 			optionFlag = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "그러니까 나도 거기 따르는 거지!",
 			painting = {
@@ -308,12 +308,12 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "아티스트",
 			dir = 1,
 			optionFlag = 2,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "아하하하! 딱히 모든 공백을 채울 필요는 없잖아?",
 			painting = {
@@ -326,11 +326,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "아티스트",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "무엇보다 이 도시는 내가 태어나고 자란 곳이니까. 나 자신을 사랑하는 만큼 여길 사랑해.",
 			painting = {
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_145",
 			nameColor = "#FEF15E",
 			say = "으아아, 들켰네요.",
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "자신의 이상에 대해 이야기하던 스비레피는 갑자기 경계 태세에 들어가 오락실 출구를 향해 소리를 질렀다.",
 			typewriter = {
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "먼지가 가득 쌓인 출구가 삐걱 소리를 내며 열렸다.",
 			typewriter = {
@@ -446,8 +446,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "그곳에는 탐정 복장으로 빵을 입에 물고 있는 여성이 있었다.",
 			typewriter = {
@@ -469,11 +469,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "사립탐정",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "긴장하실 거 없어요~ 보시는 것처럼 볼가는 그저 사립탑정일 뿐이랍니다.",
 			painting = {
@@ -504,11 +504,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "사립탐정",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "이 도시의 규칙은 슬슬 변해야 한다고 생각해요!",
 			painting = {
@@ -545,11 +545,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "사립탐정",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "그렇게 놀라실 거 없어요. 이 도시에서 당신 이름은 당신이 생각하는 것보다 훨씬 더 널리 알려졌으니까요.",
 			painting = {
@@ -580,8 +580,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "묘하게 친근한 태도를 보이는 탐정 볼가는 입안의 빵을 삼키고, 조금 진지해진 표정으로 다시 입을 뗐다.",
 			typewriter = {
@@ -590,11 +590,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "사립탐정",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "……사실은 초대하러 왔어요.",
 			painting = {
@@ -631,11 +631,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "사립탐정",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "어, 어떡하지… 그러면… 좋다는 뜻으로 받아들여도 되는 거죠…?",
 			painting = {
@@ -666,11 +666,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "사립탐정",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "하지만 내기에서는 진 것 같네요… '여왕'의 부하인 제 승리예요.",
 			painting = {
@@ -696,8 +696,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			say = "강한 의지가 느껴지는 목소리와 함께 출구 쪽 길목에서 소녀 한 명이 모습을 드러냈다.",
 			typewriter = {
@@ -755,11 +755,11 @@ return {
 			}
 		},
 		{
-			actor = 707011,
 			side = 2,
 			bgName = "star_level_bg_145",
 			factiontag = "사립탐정",
 			dir = 1,
+			actor = 707011,
 			nameColor = "#FEF15E",
 			say = "아, 여기 있었던 흔적은 제가 모두 지워둘게요~",
 			painting = {

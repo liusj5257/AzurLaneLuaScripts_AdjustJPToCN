@@ -1,12 +1,12 @@
 return {
-	id = "W840000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W840000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Guess we flipped the switches in the wrong order. Let’s try again, this time repeating after the flashing light pattern.",
 			typewriter = {
 				speed = 0.05,

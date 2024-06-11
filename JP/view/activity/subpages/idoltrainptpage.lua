@@ -10,7 +10,7 @@ slot1 = {
 	"edu_idol"
 }
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.skills = slot0:findTF("skill", slot0.bg)
@@ -55,7 +55,7 @@ function slot0.OnInit(slot0)
 	slot0.tipPanel = slot0:findTF("Tip")
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	removeOnButton(slot0.getBtn)
 	onButton(slot0, slot0.getBtn, function ()
@@ -105,7 +105,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 	slot0:hideBuffInfoBox()
 
-	function slot4()
+	slot4 = function()
 		uv0:hideBuffInfoBox()
 	end
 
@@ -159,7 +159,7 @@ function slot0.OnFirstFlush(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	if slot0.ptData:CanTrain() and slot1 <= slot0.ptData.level then
 		slot0:showTrianPanel()
 	end
@@ -205,7 +205,7 @@ function slot0.OnUpdateFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.showTrianPanel(slot0)
+slot0.showTrianPanel = function(slot0)
 	setActive(slot0.trainWindow, true)
 	setText(slot0.trainTitle, i18n("upgrade_idol_tip"))
 
@@ -243,11 +243,11 @@ function slot0.showTrianPanel(slot0)
 	slot0:flushTrainPanel()
 end
 
-function slot0.hideTrianPanel(slot0)
+slot0.hideTrianPanel = function(slot0)
 	setActive(slot0.trainWindow, false)
 end
 
-function slot0.flushTrainPanel(slot0)
+slot0.flushTrainPanel = function(slot0)
 	if slot0.ptData:GetCurBuffInfos() then
 		for slot5, slot6 in ipairs(slot1) do
 			setActive(slot0:findTF("lv1", slot0.trainSkillBtns[slot6.group]), false)
@@ -286,7 +286,7 @@ function slot0.flushTrainPanel(slot0)
 	end
 end
 
-function slot0.showBuffInfoBox(slot0, slot1)
+slot0.showBuffInfoBox = function(slot0, slot1)
 	slot2 = pg.benefit_buff_template[slot1.id].name
 
 	setText(slot0.buffName, slot2)
@@ -310,11 +310,11 @@ function slot0.showBuffInfoBox(slot0, slot1)
 	setActive(slot0.buffInfoBox, true)
 end
 
-function slot0.hideBuffInfoBox(slot0)
+slot0.hideBuffInfoBox = function(slot0)
 	setActive(slot0.buffInfoBox, false)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.prefab1 and slot0.model1 then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefab1, slot0.model1)
 
@@ -330,7 +330,7 @@ function slot0.OnDestroy(slot0)
 	end
 end
 
-function slot0.getRandomName(slot0)
+slot0.getRandomName = function(slot0)
 	slot1 = math.random(#uv0)
 	slot2 = nil
 
@@ -341,7 +341,7 @@ function slot0.getRandomName(slot0)
 	return uv0[slot1], uv0[slot2]
 end
 
-function slot0.playIdolAni(slot0)
+slot0.playIdolAni = function(slot0)
 	if slot0.model1 then
 		slot0.model1:GetComponent("SpineAnimUI"):SetAction("idol", 0)
 	end
@@ -351,7 +351,7 @@ function slot0.playIdolAni(slot0)
 	end
 end
 
-function slot0.showMsgBox(slot0)
+slot0.showMsgBox = function(slot0)
 	if slot0.selectBuffId then
 		setActive(slot0.msgBox, true)
 		setImageSprite(slot0.msgIcon, LoadSprite(pg.benefit_buff_template[slot0.selectBuffId].icon))
@@ -377,11 +377,11 @@ function slot0.showMsgBox(slot0)
 	end
 end
 
-function slot0.hideMsgBox(slot0)
+slot0.hideMsgBox = function(slot0)
 	setActive(slot0.msgBox, false)
 end
 
-function slot0.showTip(slot0, slot1)
+slot0.showTip = function(slot0, slot1)
 	slot2 = cloneTplTo(slot0.tipPanel, slot0._tf)
 
 	setActive(slot2, true)

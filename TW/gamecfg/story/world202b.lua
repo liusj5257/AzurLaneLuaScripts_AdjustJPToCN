@@ -1,15 +1,15 @@
 return {
-	id = "WORLD202B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD202B",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-french1",
 			say = "NA海域東北·皇家主力艦隊",
+			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "嘀——————",
@@ -113,8 +113,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "胡德小姐，LD司令部剛剛收到了一份緊急求救訊號，然後與發送訊號的艦隊失去了聯絡。",
 			typewriter = {
 				speed = 0.05,
@@ -129,8 +129,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "司令部推測訊號可能是由一隻友方偵察艦隊發出的，但目前還沒查明具體是哪隻艦隊————",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "情況緊急，下面將求救訊號的坐標發送給您，請您立刻安排救援行動。",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "這個位置是......奇怪，我沒有派遣任何艦隊過去啊。這種時候也不可能有民間船隊...",
 			typewriter = {
 				speed = 0.05,
@@ -192,8 +192,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			say = "好的，我這就去安排核實，紐卡斯爾通訊結束。",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205070,
 			dir = 1,
+			actor = 205070,
 			say = "此處海域，似乎並非白鷹艦隊的作戰區域，為何會有她們的艦隊在此遇難？",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			say = "雖然速度會稍微慢一些，穩妥起見，胡德，讓我帶領一部分主力艦隊前去支援吧。",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			say = "中部區域情況復雜，隨時有在鏡面海域中遭遇塞壬伏擊的危險，我願意護送可畏一同前往。",
 			typewriter = {
 				speed = 0.05,

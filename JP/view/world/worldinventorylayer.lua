@@ -6,12 +6,12 @@ slot0.PAGE = {
 	Material = 3
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldInventoryUI"
 end
 
-function slot0.init(slot0)
-	function slot0.itemUpdateListenerFunc(...)
+slot0.init = function(slot0)
+	slot0.itemUpdateListenerFunc = function(...)
 		uv0:setItemList(uv0.inventoryProxy:GetItemList())
 	end
 
@@ -51,7 +51,7 @@ function slot0.init(slot0)
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:initItems()
 	slot0:initEquipments()
 	slot0:InitMaterials()
@@ -83,7 +83,7 @@ function slot0.didEnter(slot0)
 	})
 end
 
-function slot0.OverlayPanel(slot0, slot1)
+slot0.OverlayPanel = function(slot0, slot1)
 	slot0.overlayIndex = slot0.overlayIndex or 0
 	slot0.overlayIndex = slot0.overlayIndex + 1
 
@@ -91,7 +91,7 @@ function slot0.OverlayPanel(slot0, slot1)
 	tf(slot1):SetSiblingIndex(slot0._tf:GetSiblingIndex() + slot0.overlayIndex)
 end
 
-function slot0.UnOverlayPanel(slot0, slot1, slot2)
+slot0.UnOverlayPanel = function(slot0, slot1, slot2)
 	setParent(tf(slot1), slot2, false)
 
 	slot0.overlayIndex = slot0.overlayIndex or 0
@@ -99,7 +99,7 @@ function slot0.UnOverlayPanel(slot0, slot1, slot2)
 	slot0.overlayIndex = math.max(slot0.overlayIndex, 0)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.itemResetPanel._go) then
 		slot0.itemResetPanel:Close()
 	elseif isActive(slot0.itemUsagePanel._go) then
@@ -112,13 +112,13 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.assignedItemView:Destroy()
 	slot0.inventoryProxy:RemoveListener(WorldInventoryProxy.EventUpdateItem, slot0.itemUpdateListenerFunc)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.contextData.pageNum = slot0.contextData.pageNum or uv0.PAGE.Property
 	slot0.contextData.asc = slot0.contextData.asc or false
 
@@ -130,20 +130,20 @@ function slot0.initData(slot0)
 	slot0.isEquipingOn = false
 end
 
-function slot0.GetShowBusyFlag(slot0)
+slot0.GetShowBusyFlag = function(slot0)
 	return slot0.isEquipingOn
 end
 
-function slot0.SetShowBusyFlag(slot0, slot1)
+slot0.SetShowBusyFlag = function(slot0, slot1)
 	slot0.isEquipingOn = slot1
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 
-	function slot4()
+	slot4 = function()
 		uv0.contextData.asc = not uv0.contextData.asc
 
 		if uv0.contextData.pageNum == uv1.PAGE.Equipment then
@@ -246,16 +246,16 @@ function slot0.addListener(slot0)
 			groupList = {
 				{
 					dropdown = false,
-					titleTxt = "indexsort_type",
 					titleENTxt = "indexsort_typeeng",
+					titleTxt = "indexsort_type",
 					tags = {
 						"typeIndex"
 					}
 				},
 				{
 					dropdown = true,
-					titleTxt = "indexsort_index",
 					titleENTxt = "indexsort_indexeng",
+					titleTxt = "indexsort_index",
 					tags = {
 						"equipPropertyIndex",
 						"equipPropertyIndex2",
@@ -265,24 +265,24 @@ function slot0.addListener(slot0)
 				},
 				{
 					dropdown = false,
-					titleTxt = "indexsort_camp",
 					titleENTxt = "indexsort_campeng",
+					titleTxt = "indexsort_camp",
 					tags = {
 						"equipCampIndex"
 					}
 				},
 				{
 					dropdown = false,
-					titleTxt = "indexsort_rarity",
 					titleENTxt = "indexsort_rarityeng",
+					titleTxt = "indexsort_rarity",
 					tags = {
 						"rarityIndex"
 					}
 				},
 				{
 					dropdown = false,
-					titleTxt = "indexsort_extraindex",
 					titleENTxt = "indexsort_indexeng",
+					titleTxt = "indexsort_extraindex",
 					tags = {
 						"extraIndex"
 					}
@@ -375,18 +375,18 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.setWorldFleet(slot0, slot1)
+slot0.setWorldFleet = function(slot0, slot1)
 	slot0.worldFleetList = slot1
 end
 
-function slot0.setInventoryProxy(slot0, slot1)
+slot0.setInventoryProxy = function(slot0, slot1)
 	slot0.inventoryProxy = slot1
 
 	slot0.inventoryProxy:AddListener(WorldInventoryProxy.EventUpdateItem, slot0.itemUpdateListenerFunc)
 	slot0:setItemList(slot0.inventoryProxy:GetItemList())
 end
 
-function slot0.setItemList(slot0, slot1)
+slot0.setItemList = function(slot0, slot1)
 	slot0.itemList = slot1
 
 	if slot0.isInitItems then
@@ -394,25 +394,25 @@ function slot0.setItemList(slot0, slot1)
 	end
 end
 
-function slot0.initItems(slot0)
+slot0.initItems = function(slot0)
 	slot0.isInitItems = true
 	slot1 = slot0.itemView
 	slot0.itemRect = slot1:GetComponent("LScrollRect")
 
-	function slot0.itemRect.onInitItem(slot0)
+	slot0.itemRect.onInitItem = function(slot0)
 		uv0:initItem(slot0)
 	end
 
-	function slot0.itemRect.onUpdateItem(slot0, slot1)
+	slot0.itemRect.onUpdateItem = function(slot0, slot1)
 		uv0:updateItem(slot0, slot1)
 	end
 
-	function slot0.itemRect.onReturnItem(slot0, slot1)
+	slot0.itemRect.onReturnItem = function(slot0, slot1)
 		uv0:returnItem(slot0, slot1)
 	end
 end
 
-function slot0.initItem(slot0, slot1)
+slot0.initItem = function(slot0, slot1)
 	slot2 = WSInventoryItem.New(slot1)
 
 	onButton(slot0, slot2.go, function ()
@@ -484,7 +484,7 @@ function slot0.initItem(slot0, slot1)
 	slot0.itemCards[slot1] = slot2
 end
 
-function slot0.updateItem(slot0, slot1, slot2)
+slot0.updateItem = function(slot0, slot1, slot2)
 	if not slot0.itemCards[slot2] then
 		slot0:initItem(slot2)
 
@@ -494,7 +494,7 @@ function slot0.updateItem(slot0, slot1, slot2)
 	slot3:update(slot0.itemList[slot1 + 1])
 end
 
-function slot0.returnItem(slot0, slot1, slot2)
+slot0.returnItem = function(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -504,7 +504,7 @@ function slot0.returnItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.sortItems(slot0)
+slot0.sortItems = function(slot0)
 	table.sort(slot0.itemList, CompareFuncs({
 		function (slot0)
 			return -slot0:getConfig("sort_priority")
@@ -517,7 +517,7 @@ function slot0.sortItems(slot0)
 	slot0:updateResetExchange()
 end
 
-function slot0.updateResetExchange(slot0)
+slot0.updateResetExchange = function(slot0)
 	setText(slot0.exchangeTips:Find("capcity/Text"), defaultValue(checkExist(slot0.inventoryProxy:CalcResetExchangeResource(), {
 		DROP_TYPE_RESOURCE
 	}, {
@@ -525,18 +525,18 @@ function slot0.updateResetExchange(slot0)
 	}), 0))
 end
 
-function slot0.activeResetExchange(slot0, slot1)
+slot0.activeResetExchange = function(slot0, slot1)
 	setActive(slot0.exchangeTips, nowWorld():IsSystemOpen(WorldConst.SystemResetExchange) and slot1)
 end
 
-function slot0.PlayOpenBox(slot0, slot1, slot2)
+slot0.PlayOpenBox = function(slot0, slot1, slot2)
 	if not slot1 or slot1 == "" then
 		slot2()
 
 		return
 	end
 
-	function slot3()
+	slot3 = function()
 		if uv0.playing or not uv0[uv1] then
 			return
 		end
@@ -584,11 +584,11 @@ function slot0.PlayOpenBox(slot0, slot1, slot2)
 	end
 end
 
-function slot0.setEquipments(slot0, slot1)
+slot0.setEquipments = function(slot0, slot1)
 	slot0.equipmentVOs = slot1
 end
 
-function slot0.setEquipment(slot0, slot1)
+slot0.setEquipment = function(slot0, slot1)
 	slot2 = #slot0.equipmentVOs + 1
 
 	for slot6, slot7 in ipairs(slot0.equipmentVOs) do
@@ -610,27 +610,27 @@ function slot0.setEquipment(slot0, slot1)
 	end
 end
 
-function slot0.initEquipments(slot0)
+slot0.initEquipments = function(slot0)
 	slot0.isInitWeapons = true
 	slot1 = slot0.equipmentView
 	slot0.equipmentRect = slot1:GetComponent("LScrollRect")
 
-	function slot0.equipmentRect.onInitItem(slot0)
+	slot0.equipmentRect.onInitItem = function(slot0)
 		uv0:initEquipment(slot0)
 	end
 
-	function slot0.equipmentRect.onUpdateItem(slot0, slot1)
+	slot0.equipmentRect.onUpdateItem = function(slot0, slot1)
 		uv0:updateEquipment(slot0, slot1)
 	end
 
-	function slot0.equipmentRect.onReturnItem(slot0, slot1)
+	slot0.equipmentRect.onReturnItem = function(slot0, slot1)
 		uv0:returnEquipment(slot0, slot1)
 	end
 
 	slot0.equipmentRect.decelerationRate = 0.07
 end
 
-function slot0.initEquipment(slot0, slot1)
+slot0.initEquipment = function(slot0, slot1)
 	slot2 = EquipmentItem.New(slot1)
 
 	onButton(slot0, slot2.go, function ()
@@ -664,7 +664,7 @@ function slot0.initEquipment(slot0, slot1)
 	slot0.equipmetItems[slot1] = slot2
 end
 
-function slot0.updateEquipment(slot0, slot1, slot2)
+slot0.updateEquipment = function(slot0, slot1, slot2)
 	if not slot0.equipmetItems[slot2] then
 		slot0:initEquipment(slot2)
 
@@ -674,7 +674,7 @@ function slot0.updateEquipment(slot0, slot1, slot2)
 	slot3:update(slot0.loadEquipmentVOs[slot1 + 1])
 end
 
-function slot0.returnEquipment(slot0, slot1, slot2)
+slot0.returnEquipment = function(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -684,7 +684,7 @@ function slot0.returnEquipment(slot0, slot1, slot2)
 	end
 end
 
-function slot0.filterEquipment(slot0)
+slot0.filterEquipment = function(slot0)
 	slot1 = slot0.contextData.sortData
 	slot0.loadEquipmentVOs = slot0.loadEquipmentVOs or {}
 
@@ -712,12 +712,12 @@ function slot0.filterEquipment(slot0)
 	setActive(slot0.upOrderTF, slot0.contextData.asc)
 end
 
-function slot0.updateEquipmentCount(slot0, slot1)
+slot0.updateEquipmentCount = function(slot0, slot1)
 	slot0.equipmentRect:SetTotalCount(slot1 or #slot0.loadEquipmentVOs, -1)
 	Canvas.ForceUpdateCanvases()
 end
 
-function slot0.Scroll2Equip(slot0, slot1)
+slot0.Scroll2Equip = function(slot0, slot1)
 	if slot0.contextData.pageNum ~= uv0.PAGE.Equipment then
 		return
 	end
@@ -733,13 +733,13 @@ function slot0.Scroll2Equip(slot0, slot1)
 	end
 end
 
-function slot0.ScrollEquipPos(slot0, slot1)
+slot0.ScrollEquipPos = function(slot0, slot1)
 	slot2 = slot0.equipmentView:Find("Viewport/moudle_grid"):GetComponent(typeof(GridLayoutGroup))
 
 	slot0.equipmentRect:ScrollTo((slot1 - slot0.equipmentView.rect.height * 0.5) / ((slot2.cellSize.y + slot2.spacing.y) * math.ceil(#slot0.loadEquipmentVOs / slot2.constraintCount) - slot2.spacing.y + slot0.equipmentRect.paddingFront + slot0.equipmentRect.paddingEnd - slot0.equipmentView.rect.height > 0 and slot5 or slot4))
 end
 
-function slot0.SetMaterials(slot0, slot1)
+slot0.SetMaterials = function(slot0, slot1)
 	slot0.materials = slot1
 
 	if slot0.isInitMaterials and slot0.contextData.pageNum == uv0.PAGE.Material then
@@ -747,27 +747,27 @@ function slot0.SetMaterials(slot0, slot1)
 	end
 end
 
-function slot0.InitMaterials(slot0)
+slot0.InitMaterials = function(slot0)
 	slot0.isInitMaterials = true
 	slot1 = slot0.materialtView
 	slot0.materialRect = slot1:GetComponent("LScrollRect")
 
-	function slot0.materialRect.onInitItem(slot0)
+	slot0.materialRect.onInitItem = function(slot0)
 		uv0:InitMaterial(slot0)
 	end
 
-	function slot0.materialRect.onUpdateItem(slot0, slot1)
+	slot0.materialRect.onUpdateItem = function(slot0, slot1)
 		uv0:UpdateMaterial(slot0, slot1)
 	end
 
-	function slot0.materialRect.onReturnItem(slot0, slot1)
+	slot0.materialRect.onReturnItem = function(slot0, slot1)
 		uv0:ReturnMaterial(slot0, slot1)
 	end
 
 	slot0.materialRect.decelerationRate = 0.07
 end
 
-function slot0.SortMaterials(slot0)
+slot0.SortMaterials = function(slot0)
 	table.sort(slot0.materials, CompareFuncs({
 		function (slot0)
 			return -slot0:getConfig("rarity")
@@ -780,7 +780,7 @@ function slot0.SortMaterials(slot0)
 	Canvas.ForceUpdateCanvases()
 end
 
-function slot0.InitMaterial(slot0, slot1)
+slot0.InitMaterial = function(slot0, slot1)
 	slot2 = ItemCard.New(slot1)
 
 	onButton(slot0, slot2.go, function ()
@@ -800,7 +800,7 @@ function slot0.InitMaterial(slot0, slot1)
 	slot0.materialCards[slot1] = slot2
 end
 
-function slot0.UpdateMaterial(slot0, slot1, slot2)
+slot0.UpdateMaterial = function(slot0, slot1, slot2)
 	if not slot0.materialCards[slot2] then
 		slot0:initItem(slot2)
 
@@ -810,7 +810,7 @@ function slot0.UpdateMaterial(slot0, slot1, slot2)
 	slot3:update(slot0.materials[slot1 + 1])
 end
 
-function slot0.ReturnMaterial(slot0, slot1, slot2)
+slot0.ReturnMaterial = function(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end

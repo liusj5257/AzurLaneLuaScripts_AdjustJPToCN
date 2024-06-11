@@ -2,14 +2,14 @@ return {
 	{
 		desc = "被击沉时恢复全队其他角色耐久10.0%"
 	},
-	init_effect = "",
-	name = "珍珠之泪",
 	time = 0,
-	color = "blue",
+	name = "珍珠之泪",
+	init_effect = "",
+	id = 6130,
 	picture = "",
 	desc = "被击沉时恢复全队其他角色耐久10%",
 	stack = 1,
-	id = 6130,
+	color = "blue",
 	icon = 6130,
 	last_effect = "",
 	effect_list = {

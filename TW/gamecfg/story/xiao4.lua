@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"忍者修行之路？\n\n<size=45>四　第六驅逐隊的日常·下</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "在{namecode:13}的邀請下，和{namecode:14}，{namecode:11}一起玩起了據說是長島最新收藏的格鬥遊戲。",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "在{namecode:13}的邀請下，和{namecode:14}，{namecode:11}一起玩起了據說是長島最新收藏的格鬥遊戲。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "唔！糟了！",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -88,13 +88,13 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
-			say = "啊，破防了！",
 			soundeffect = "event:/battle/boom2",
+			actor = 301110,
+			say = "啊，破防了！",
 			flashN = {
 				color = {
 					1,
@@ -137,13 +137,13 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
-			say = "→↘↓↙←→+BD・↓+C・C・↓↙←→+CD、↘←↙↓↘→←↓↙+BC、→↓←＋P＋G→←＋P＋G→←＋P＋G←↓→ ↑←＋P＋G↓→←＋P！",
 			soundeffect = "event:/battle/boom2",
+			actor = 301110,
+			say = "→↘↓↙←→+BD・↓+C・C・↓↙←→+CD、↘←↙↓↘→←↓↙+BC、→↓←＋P＋G→←＋P＋G→←＋P＋G←↓→ ↑←＋P＋G↓→←＋P！",
 			flashN = {
 				color = {
 					1,
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "螢幕上的“KO”，宣佈著{namecode:13}和{namecode:14}的勝利。",
 			typewriter = {
 				speed = 0.05,
@@ -244,9 +244,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "順便一提，今天和{namecode:11}對{namecode:13}的戰績是0:10。",
 			typewriter = {
 				speed = 0.05,
@@ -254,15 +254,15 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301110,
+			nameColor = "#a9f548",
 			say = "哈啊……好過癮。{namecode:13}非常開心呢！",
 			flashout = {
-				black = true,
 				dur = 0.4,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -287,12 +287,12 @@ return {
 			}
 		},
 		{
-			actor = 301120,
+			say = "玩電子遊戲上癮什麼的不太好呢……{namecode:11}姐姐也說一下{namecode:13}吧。",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "玩電子遊戲上癮什麼的不太好呢……{namecode:11}姐姐也說一下{namecode:13}吧。",
+			actor = 301120,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301120,
+			nameColor = "#a9f548",
 			say = "不過有的時候，沒有消息就是最好的消息。{namecode:14}是這麼想的呢，指揮官先生呢？",
 			typewriter = {
 				speed = 0.05,
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "對不起，我先回去休息了……",
 			typewriter = {
 				speed = 0.05,
@@ -425,10 +425,10 @@ return {
 			},
 			action = {
 				{
-					type = "move",
+					y = 0,
 					dur = 1,
 					x = 1500,
-					y = 0
+					type = "move"
 				}
 			}
 		},
@@ -449,9 +449,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "看起來{namecode:14}的話起了反效果……",
 			typewriter = {
 				speed = 0.05,

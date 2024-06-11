@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level03",
+			say = "セイレーンの紛争とは無縁と思われる南の大陸、その周辺の一つの海域。",
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
-			say = "セイレーンの紛争とは無縁と思われる南の大陸、その周辺の一つの海域。",
+			bgm = "level03",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -31,9 +31,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "人類の開拓に合わせて、文明もこの地に伝わっているものの、海権国たちから遠く離れていたために大きな戦いが起きたことはなく、その航路は細々と続いている。",
 			typewriter = {
 				speed = 0.05,
@@ -45,9 +45,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "平和なこの海はまだ知らない。闇に潜む暗流、そして来たるべき戦いを…",
 			typewriter = {
 				speed = 0.05,
@@ -59,9 +59,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "海を駆け、大陸のとある離島の方向へと航行している艦隊がいた。",
 			typewriter = {
 				speed = 0.05,
@@ -73,9 +73,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_2",
+			dir = 1,
 			say = "モザンビーク海峡",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "フォーチュン",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャンヌ・ダルク",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ジャンヌ・ダルク",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ベアルン",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -199,8 +199,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -247,8 +247,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -263,8 +263,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -279,8 +279,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -295,9 +295,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_2",
+			dir = 1,
 			say = "そう言いながら、リシュリューは少し苦笑した。",
 			typewriter = {
 				speed = 0.05,
@@ -309,12 +309,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_qiongding_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "ええ、お互い争うことなんてなかった、昔のアズールレーンのように――",
 			typewriter = {
 				speed = 0.05,

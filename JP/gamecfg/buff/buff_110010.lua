@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 110010,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 110010,
+	color = "red",
 	icon = 110010,
 	last_effect = "",
 	effect_list = {
@@ -60,8 +60,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 1,
+				attr = "cri",
 				index = {
 					110010
 				}
@@ -74,8 +74,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 110013,
-				time = 12,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 12
 			}
 		},
 		{
@@ -84,9 +84,9 @@ return {
 				"onBulletKill"
 			},
 			arg_list = {
-				buff_id = 110025,
 				initialCD = true,
 				time = 10,
+				buff_id = 110025,
 				maxTargetNumber = 0,
 				check_target = {
 					"TargetSelf",
@@ -107,9 +107,9 @@ return {
 				"onBulletKill"
 			},
 			arg_list = {
-				buff_id = 110035,
 				initialCD = true,
 				time = 10,
+				buff_id = 110035,
 				minTargetNumber = 1,
 				check_target = {
 					"TargetSelf",

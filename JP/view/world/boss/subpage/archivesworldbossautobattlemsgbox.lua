@@ -1,10 +1,10 @@
 slot0 = class("ArchivesWorldBossAutoBattleMsgbox", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ArchivesWorldBossAutoBattleMsgUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.contentTxt = slot0:findTF("window/msg_panel/content/time"):GetComponent(typeof(Text))
 	slot0.startBtn = slot0:findTF("window/btns/start")
 	slot0.startTxt = slot0.startBtn:Find("pic"):GetComponent(typeof(Text))
@@ -17,7 +17,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("window/msg_panel/label1"), i18n("world_boss_archives_stop_auto_battle_tip1"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -40,7 +40,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	slot0:RemoveTimer()
 
@@ -60,7 +60,7 @@ function slot0.Show(slot0, slot1)
 	slot0.cancelTxt.text = slot1.noText or i18n("word_cancel")
 end
 
-function slot0.AddTimer(slot0, slot1)
+slot0.AddTimer = function(slot0, slot1)
 	slot0.timer = Timer.New(function ()
 		if uv0.onContent() == nil then
 			uv1:Hide()
@@ -73,7 +73,7 @@ function slot0.AddTimer(slot0, slot1)
 	slot0.timer.func()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -81,7 +81,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	slot0:RemoveTimer()
 
@@ -89,7 +89,7 @@ function slot0.Hide(slot0)
 	slot0.OnNo = nil
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end

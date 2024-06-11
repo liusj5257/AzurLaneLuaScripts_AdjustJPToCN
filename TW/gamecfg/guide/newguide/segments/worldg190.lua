@@ -6,9 +6,9 @@ return {
 			style = {
 				text = "大型作戰中有可能收集到信標數據，這些數據會被記錄在信標記錄儀中。",
 				mode = 2,
-				posY = -74.7,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -74.7,
 				posX = -471.5
 			}
 		},
@@ -17,13 +17,13 @@ return {
 			style = {
 				text = "收集到的信標數據可以點擊此處查看。",
 				mode = 2,
-				posY = 335.5,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 335.5,
 				posX = 0,
 				ui = {
-					path = "/OverlayCamera/Overlay/UIMain/top/adapt/top_chapter/resources/WorldResPanel(Clone)/res/boss_progress",
-					lineMode = true
+					lineMode = true,
+					path = "/OverlayCamera/Overlay/UIMain/top/adapt/top_chapter/resources/WorldResPanel(Clone)/res/boss_progress"
 				}
 			}
 		},

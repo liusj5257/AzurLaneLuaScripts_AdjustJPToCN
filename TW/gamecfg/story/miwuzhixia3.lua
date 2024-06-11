@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MIWUZHIXIA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MIWUZHIXIA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-6",
 			side = 2,
 			bgName = "bg_battle_night",
-			dir = 1,
 			say = "要塞東側外海？·海霧中",
+			dir = 1,
+			bgm = "story-6",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -29,11 +29,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/dididi",
+			say = "嘀--嘀--嘀-----",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "嘀--嘀--嘀-----",
+			soundeffect = "event:/battle/dididi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,8 +47,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "……？！！",
 			typewriter = {
@@ -61,8 +61,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -74,8 +74,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "大家稍等！剛剛…雷達上出現了一個訊號反映…",
 			typewriter = {
@@ -91,8 +91,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "哎？！我們的雷達不是在這片海霧中沒效果嗎？",
 			typewriter = {
@@ -105,11 +105,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/dididi",
+			say = "嘀--嘀--嘀-----",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
-			say = "嘀--嘀--嘀-----",
+			soundeffect = "event:/battle/dididi",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,8 +123,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "嗯，我也看到了。剛剛一瞬間，雷達上確實出現了一個小點！",
 			typewriter = {
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -150,8 +150,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "而且識別訊號顯示為…友軍…是被海霧捲進去的運輸艦嗎？",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "看來這個“我方訊號”是誘餌的可能性很高呢",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "OK~我們去看看吧！",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "沒錯，這時候應該無視它繼續前………哈啊？！！",
 			dialogShake = {
@@ -268,8 +268,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,8 +329,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "唔…如果我們被困在這裡，要塞的防禦力量就會出現缺口，塞壬的進攻計劃就更容易實現了？",
 			typewriter = {
@@ -362,8 +362,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "妳覺得塞壬還有其他打算…？",
 			typewriter = {
@@ -395,8 +395,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "所以不如這次由我們來假裝中計，反過來挖出塞壬的真正陰謀吧！",
 			typewriter = {
@@ -412,8 +412,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "我還是覺得風險太高了些，這種時候首先應該全身而退準備要塞防禦戰最為穩妥…！",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "………那就不能見死不救了呢",
 			typewriter = {
@@ -462,8 +462,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "如果等待我們的是塞壬艦隊怎麼辦？",
 			typewriter = {
@@ -495,9 +495,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 103160,
 			dir = 1,
 			blackBg = true,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "就讓它們見識一下正義的力量吧！",
 			typewriter = {

@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "杜尔拉汗",
 	init_effect = "",
+	id = 1011710,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1011710,
+	color = "blue",
 	icon = 11710,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.3,
-				target = "TargetSelf",
 				skill_id = 1011711,
+				target = "TargetSelf",
 				quota = 1
 			}
 		},
@@ -50,8 +50,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 1011713,
-				target = "TargetSelf",
 				time = 40,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

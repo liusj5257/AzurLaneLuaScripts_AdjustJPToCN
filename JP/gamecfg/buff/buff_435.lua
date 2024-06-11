@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 8,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "受到伤害提高",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = 0.035
+				number = 0.035,
+				attr = "injureRatioByAir"
 			}
 		}
 	}

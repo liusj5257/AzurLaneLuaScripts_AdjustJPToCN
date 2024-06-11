@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-1-15",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg8",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-10",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-1-15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이러면…… 귀여워?",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			say = "거울을 유심히 들여다보는 TB. 아무래도 원피스가 꽤 마음에 드는 모양이다.",
@@ -75,14 +75,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "키가 컸다고? 응…… TB, 쑥쑥 자랄 거야.",
 			voice = "event:/educate/tb/educate-tb-story-1-16",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "키가 컸다고? 응…… TB, 쑥쑥 자랄 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			say = "대답하면서도 TB의 눈은 거울에서 벗어나질 못했다.",
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			say = "TB는 아직 명확한 감정 표현은 보이지 않지만…… 의외로 알기 쉬운 성격일지도 모른다.",
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			say = "앞으로 어떤 모습을 보여줄지 기대가 되는군.",

@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "Following Sheffield's lead, we travel to the center of the Withered Woods.",
 			bgm = "battle-highseasfleet-reborn",
+			say = "Following Sheffield's lead, we travel to the center of the Withered Woods.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It lies so close to the main gate, and yet it's so out of their league...",
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "This luck was the potential I saw within your party, and it's why I decided to save you.",
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "Sheffield looks forward at what looks only to be a pile of desolate ruins.",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "I keep scanning the ruins from afar, and eventually, the ruins of a majestic castle wall catch my attention.",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "While it is crumbled down for the most, some parts of it still stand proudly intact.",
 			typewriter = {
@@ -386,11 +386,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sheffy, I see you've dragged in lost adventurers again.",
@@ -404,11 +404,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Please stop. I don't want to hear this again.",
@@ -441,27 +441,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_163",
-			say = "We pass through the ruin entrance guarded by a magic spell and enter the vampire hunters' base.",
 			bgm = "theme-clemenceau",
+			say = "We pass through the ruin entrance guarded by a magic spell and enter the vampire hunters' base.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_163",
 			say = "I expected some sort of dank dungeon, but it's actually quite spacious and comfortable down here.",
 			typewriter = {
@@ -498,12 +498,12 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_163",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A long time, eh... I can't hold back my curiosity – just how old are you people?",
 			painting = {
 				alpha = 0.3,
@@ -534,11 +534,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hah. Either you haven't done your homework, or your kingdom hardly knows anything about us.",
@@ -589,11 +589,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "That it did. It's almost hard to believe it's been that long.",
@@ -626,11 +626,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "And, in fact, we humans and vampires used to coexist long, long ago.",
@@ -701,11 +701,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Time moved on, and one day it became known on the map only as \"the Old Royal Capital Ruins.\"",
@@ -738,11 +738,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We were commoners, guards, maids, merchants, artisans... All of us had different social standings before the downfall.",
@@ -775,11 +775,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We made a promise. To keep fighting until the day either we or the vampires have been wiped out.",
@@ -811,11 +811,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Saint of the Holy Church",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "This part of history was completely lost amidst the chaos of relocating the city.",
 			painting = {
@@ -846,11 +846,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hah. If she had that kind of power, your great wall wouldn't be able to stop her.",
@@ -900,11 +900,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You're right, humans don't live for centuries. Not most humans, anyway.",
@@ -937,11 +937,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "They gave us their blessings, and that has allowed us to live to this day.",
@@ -974,11 +974,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Those who lost their lives amidst the initial fighting, they were the lucky ones.",
@@ -1011,11 +1011,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Those traitorous vampires presented their \"achievement\" to the Demon King and gladly joined her side. Today, they're second-in-command only to the Demon King herself.",
@@ -1089,11 +1089,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Wait... You're not thinking about exploring the ruins, are you?",
@@ -1126,11 +1126,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Those ruins have been the undeads' main base ever since the downfall. Even we can't approach them on a whim.",
@@ -1192,11 +1192,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You make a good point. Knowing my Master's outstanding luck, finding it might just be possible.",
@@ -1229,11 +1229,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_163",
 			factiontag = "Vampire Hunter",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Not today, though – it's late as it is. Let's rest up, then go treasure-hunting in the ruins tomorrow morning!",

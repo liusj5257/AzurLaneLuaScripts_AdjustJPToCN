@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "加斯科涅μ1",
 	init_effect = "",
+	id = 12780,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12780,
+	color = "red",
 	icon = 12780,
 	last_effect = "",
 	effect_list = {
@@ -38,9 +38,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
+				skill_id = 12782,
 				maxTargetNumber = 0,
 				target = "TargetSelf",
-				skill_id = 12782,
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"
@@ -57,8 +57,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 12783,
+				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

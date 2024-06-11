@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SANLICHUANMO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SANLICHUANMO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"미카사 선배의 프라모델 박물관\n\n<size=45>미니 박물관과 신생!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "이, 이게 바로 소문의…",
 			bgm = "story-1",
+			actor = 307060,
+			nameColor = "#92fc63",
+			say = "이, 이게 바로 소문의…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2,
 					dur = 0.2,
 					x = 0,
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "미카사 선배의 콜렉션! (복각 버전!)",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "미카사 선배의 콜렉션! (복각 버전!)",
+			actor = 307050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:82}",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -108,12 +108,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:71}",
+			side = 0,
 			bgName = "bg_sanli_cg_1",
-			nameColor = "#92fc63",
-			dir = 1,
 			say = "생각보다 훨씬 빨리 재건되었네요……오늘 밤 연회도 더 격을 높여야겠어요!",
+			dir = 1,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:95}",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -144,8 +144,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:82}",
+			side = 2,
 			bgName = "bg_sanli_cg_1",
 			nameColor = "#92fc63",
 			dir = 1,
@@ -176,12 +176,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "무츠키, 이건 '기쁨의 눈물' 이란 것이다. (쓰읍)",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "무츠키, 이건 '기쁨의 눈물' 이란 것이다. (쓰읍)",
+			actor = 305110,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -244,12 +244,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "좋아! 지나간 과오는 인정하고 반성해야 새로운 미래를 받아들일 수 있는 법! 자, 모두들! 오늘도 의기투합 할 수 있도록…",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "좋아! 지나간 과오는 인정하고 반성해야 새로운 미래를 받아들일 수 있는 법! 자, 모두들! 오늘도 의기투합 할 수 있도록…",
+			actor = 305110,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -276,11 +276,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#92fc63",
 			say = "새로 태어난 이몸의 미니 박물관의 개막을 선언한다! 핫!",
 			effects = {
 				{
@@ -298,11 +298,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
 			say = "위잉위잉위잉위잉……퍼~엉!!!!",
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			effects = {
 				{
 					active = false,
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#92fc63",
 			say = "또 건물 전체가 흔들리기 시작했어!",
 			typewriter = {
 				speed = 0.05,
@@ -336,8 +336,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -346,12 +346,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "박물관……또 쓰러지는 거야??",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "박물관……또 쓰러지는 거야??",
+			actor = 301320,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -398,12 +398,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "저건…새로 맞춘 전시 선반?!",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "저건…새로 맞춘 전시 선반?!",
+			actor = 307050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -418,9 +418,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "새로 준비한 전시 선반 안에 진열되어 있던 것은 바로……",
 			typewriter = {
 				speed = 0.05,
@@ -428,11 +428,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#92fc63",
 			say = "프라모델이다! 미카사 선배의 프라모델이야!",
 			typewriter = {
 				speed = 0.05,
@@ -444,8 +444,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.7,
 					dur = 0.2,
 					x = 0,
@@ -454,11 +454,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#92fc63",
 			say = "?! 이 버튼은 나의 비밀 콜렉션을 바깥으로 꺼내주는 버튼이었단 말인가?!",
 			typewriter = {
 				speed = 0.05,
@@ -470,8 +470,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -512,11 +512,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#92fc63",
 			say = "크흡…이렇게 멍청한 짓으로 후배들 앞에 내놓다니……이게 바로 '수치 플레이' 라는 것인가?!",
 			typewriter = {
 				speed = 0.05,
@@ -528,8 +528,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -75,
+					type = "move",
 					delay = 1.2,
 					dur = 0.3,
 					x = 0
@@ -553,12 +553,12 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "미카사 선배의 프라모델, 멋있어!",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "미카사 선배의 프라모델, 멋있어!",
+			actor = 301320,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

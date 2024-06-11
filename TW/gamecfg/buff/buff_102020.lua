@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "22领队技能",
 	init_effect = "",
+	id = 102020,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 102020,
+	color = "yellow",
 	icon = 102020,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 2,
-				target = "TargetSelf",
 				skill_id = 102020,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

@@ -1,8 +1,8 @@
 return {
-	id = "LUCK49902",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK49902",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 499020,
@@ -23,8 +23,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			say = "As of this moment, the numerous melodies of the past – joyous and sorrowful, resolute and bewildered – all fall silent.",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			say = "Carry out my Fate Simulation, my child. Assist me in properly tuning myself to play this new score.",
 			typewriter = {
 				speed = 0.05,

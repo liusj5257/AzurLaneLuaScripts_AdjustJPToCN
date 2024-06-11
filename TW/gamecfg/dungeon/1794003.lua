@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -67,8 +67,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 16594001,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								10,
 								0,
@@ -83,8 +83,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594002,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								0,
 								0,
@@ -99,8 +99,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594001,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								10,
 								0,
@@ -128,8 +128,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 16594002,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								10,
 								0,
@@ -144,8 +144,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594003,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								0,
 								0,
@@ -160,8 +160,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594002,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								10,
 								0,
@@ -176,8 +176,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594001,
-							delay = 1,
 							sickness = 0.3,
+							delay = 1,
 							corrdinate = {
 								-8,
 								0,
@@ -192,8 +192,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594001,
-							delay = 1,
 							sickness = 0.3,
+							delay = 1,
 							corrdinate = {
 								-8,
 								0,
@@ -221,8 +221,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 16594003,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								-5,
 								0,
@@ -237,8 +237,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594003,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								-5,
 								0,
@@ -253,8 +253,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594001,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								10,
 								0,
@@ -269,8 +269,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594001,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								10,
 								0,
@@ -298,9 +298,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 16594004,
-							reinforceDelay = 6,
-							delay = 0.5,
 							sickness = 0.3,
+							delay = 0.5,
+							reinforceDelay = 6,
 							corrdinate = {
 								-2,
 								0,
@@ -317,8 +317,8 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 16594002,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								0,
 								0,
@@ -333,8 +333,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594002,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								0,
 								0,
@@ -349,8 +349,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594001,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								-10,
 								0,
@@ -365,8 +365,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594001,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								-10,
 								0,
@@ -395,9 +395,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 16595103,
-							moveCast = true,
-							delay = 0,
 							deadFX = "none",
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								60,
 								0,
@@ -405,16 +405,16 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 7,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 7,
 									setAI = 20006
 								},
 								{
-									index = 1,
 									switchType = 1,
 									switchTo = 0,
+									index = 1,
 									switchParam = 300,
 									addBuff = {
 										200773

@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"천사와의 밀회\n\n<size=45>4 '약속'의 진실</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "코인을 다 쓸 때까지 인형뽑기에 도전한 후, 조프르와 함께 길가의 벤치에 걸터앉았다.",
 			bgm = "story-richang-6",
+			say = "코인을 다 쓸 때까지 인형뽑기에 도전한 후, 조프르와 함께 길가의 벤치에 걸터앉았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "아직 시련으로 맛본 패배감에서 벗어나지 못한 천사는 '지휘관' 인형으로 얼굴을 가리고 있다.",
@@ -105,8 +105,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "운……",
 			painting = {
 				alpha = 0.3,
@@ -169,10 +169,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "마지막에 지휘관이 도와준 덕분에 그나마 하나 건질 수 있었죠.",
 			painting = {
 				alpha = 0.3,
@@ -187,10 +187,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "절 위해서 '운' 탓으로 얼버무리지 않으셔도 됩니다. 이건 분명… 조프르에게 주어진 징벌 중 하나일 테니까요.",
 			painting = {
 				alpha = 0.3,
@@ -217,10 +217,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "네… 사실 전부 거짓말이었습니다.",
 			painting = {
 				alpha = 0.3,
@@ -232,12 +232,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어젯밤에 당신과 중요한 약속을 했다는 건… 전부 꾸며낸 거예요.",
 			painting = {
 				alpha = 0.3,
@@ -252,10 +252,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오늘 아침 집무실로 간 것도, 혹시 계시면 외출에 초대하려고 한 것뿐…",
 			painting = {
 				alpha = 0.3,
@@ -267,12 +267,12 @@ return {
 			}
 		},
 		{
-			actor = 907010,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "조금 잠이 덜 깬 당신의 모습을 보니, 갑자기 장난을 치고 싶더군요.",
 			painting = {
 				alpha = 0.3,
@@ -287,10 +287,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "솔직히 말씀드리면, 그때 당신의 반응… 얼마나 재미있던지… 우후후…",
 			painting = {
 				alpha = 0.3,
@@ -341,10 +341,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "죄송합니다. 참회할게요.",
 			painting = {
 				alpha = 0.3,
@@ -359,10 +359,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "죄를 판결하는 자가 이런 중죄를 저지르다니…",
 			painting = {
 				alpha = 0.3,
@@ -401,10 +401,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "조프르의 초심은 '지휘관과 데이트하는 것'… '속죄'가 될 것 같지는 않은걸요.",
 			painting = {
 				alpha = 0.3,
@@ -443,10 +443,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…아주 말이 안 되는 것 같지는 않군요.",
 			painting = {
 				alpha = 0.3,
@@ -461,10 +461,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그럼 속죄에 대한 결의를 보이기 위해서라도, 남은 데이트는 전력을 다해서 임하겠습니다.",
 			painting = {
 				alpha = 0.3,
@@ -476,8 +476,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "천사는 일어서서 내 앞으로 다가와 손을 내밀었다.",
@@ -502,10 +502,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_171",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 907010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "물론이죠. 속죄하는 데이트니까 처음은 손을 잡는 것부터 시작하는 것이 바람직하겠죠",
 			painting = {
 				alpha = 0.3,
@@ -517,8 +517,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			say = "조프르의 손을 잡고 그녀의 가벼워진 발걸음을 따라 상점가를 떠났다.",

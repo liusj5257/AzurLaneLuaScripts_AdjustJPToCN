@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U471",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U471",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"やさしくて静かであたたかくて\n\n<size=45>一 波の音</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_day",
-			say = "外に出てみると、なんだかいつもよりもあたたかい風が吹いている。",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "外に出てみると、なんだかいつもよりもあたたかい風が吹いている。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "すごく気持ちのいい日だ。せっかくだし桟橋のほうまで足を向けてみよう――",
@@ -66,15 +66,15 @@ return {
 			}
 		},
 		{
-			actor = 408020,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408020,
+			nameColor = "#a9f548",
 			say = "…………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "桟橋までたどり着くと、U-47がひとりで海を見ながら静かに佇んでいる姿が目に映った。",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "気配に気がついたらしく、U-47がこちらに向かって振り返った。",
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "両足を海に浸からせて座っている彼女に、ここで何をしているのか尋ねてみると",
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "同じように耳を澄ませてみる……寄せては引いていく波の音は、とても穏やかで平和的であった。",
@@ -191,8 +191,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "日々の慌ただしさから解放された気分になり、U-47の隣に座って同じように波の音を聞くことにした。",
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "しばらくのあいだ、無言のまま海を眺めているとU-47が不思議そうに顔を覗き込んできた。",
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 408020,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408020,
+			nameColor = "#a9f548",
 			say = "そろそろ潜水艦の子たちの招集の時間だから。じゃあね、指揮官",
 			typewriter = {
 				speed = 0.05,
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "素っ気なく告げると、U-47はその場から離れて歩き出した。",
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "そのまま行ってしまうかと思いきや、U-47はぴたりと足を止め、ふたたび声をかけてきた。",
@@ -356,8 +356,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "……不思議な質問である。艦船の子たちが普段居住する場所から離れているので静かといえば静かだが…。",
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 408020,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408020,
+			nameColor = "#a9f548",
 			say = "ふぅん……そうなんだ",
 			typewriter = {
 				speed = 0.05,
@@ -387,8 +387,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "それだけ聞くと、U-47は今度こそ前を向いて去って行ってしまった。",
@@ -411,8 +411,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			say = "終始ドライな様子の彼女であったが、嫌われているわけではないはずだ……多分。",
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			blackBg = true,

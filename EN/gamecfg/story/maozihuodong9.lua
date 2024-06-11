@@ -1,15 +1,15 @@
 return {
-	id = "MAOZIHUODONG9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bgm-cccp2",
 			say = "Be it the Royal Navy's tale of Dagda's inexhaustible cauldron or the Sakura Empire's legend of the Dragon King's bottomless rice bag, from all around the world there are stories of objects which produce endless quantities of things.",
+			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Similarly, one could describe the number of Sirens emerging from within and around the stronghold as endless.",
 			typewriter = {
 				speed = 0.05,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The Eagle Union forces felt confident after their initial series of easy victories, but the tides of battle have begun turning on them.",
 			typewriter = {
 				speed = 0.05,
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Now, they are locked in a stalemate, fighting neck and neck with the Sirens.",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "Geesh, who would've thought there so many of them... Sara might've underestimated them a bit.",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "Denver's team still has a decent amount of ammo left, but we shouldn't linger here for too long!",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "That, or we could retreat beyond the Sirens' range for a while. Then we'd just need to take out the few that come chasing us.",
 			typewriter = {
 				speed = 0.05,
@@ -184,9 +184,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 702020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Whichever you decide, I'll follow your orders, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Then I guess retreating to a safer area is our only choice.",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "Well look at you, aren't you a real strategizer!",
 			typewriter = {
 				speed = 0.05,

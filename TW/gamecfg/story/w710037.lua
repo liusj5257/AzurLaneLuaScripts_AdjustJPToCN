@@ -1,12 +1,12 @@
 return {
-	id = "W710037",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710037",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "這就是......最後了吧......",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "好強烈的暗流潮汐波動...",
 			typewriter = {
 				speed = 0.05,

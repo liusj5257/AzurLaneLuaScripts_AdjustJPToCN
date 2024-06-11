@@ -98,15 +98,15 @@ return {
 			}
 		},
 		{
-			actor = 301052,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301052,
+			nameColor = "#a9f548",
 			say = "「リアルなんてクソゲー、です！」",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -131,15 +131,15 @@ return {
 			}
 		},
 		{
-			actor = 301052,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301052,
+			nameColor = "#a9f548",
 			say = "「愛が足りない、です！」",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -164,15 +164,15 @@ return {
 			}
 		},
 		{
-			actor = 301052,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301052,
+			nameColor = "#a9f548",
 			say = "「出撃したら負け、です！」",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -197,14 +197,14 @@ return {
 			}
 		},
 		{
-			actor = 306050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 306050,
+			nameColor = "#a9f548",
 			say = "――と、疲れた顔で変な話しばっかりしとるで！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

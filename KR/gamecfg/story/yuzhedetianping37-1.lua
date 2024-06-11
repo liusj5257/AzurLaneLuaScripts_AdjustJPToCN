@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING37-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING37-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_underheaven_cg9",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
-			say = "지휘함 모니터로 거짓된 '신'의 본체가 명확히 보인다.",
 			bgm = "story-thehierophantV",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "지휘함 모니터로 거짓된 '신'의 본체가 명확히 보인다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -36,11 +36,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#a020f0",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "멤피스·META",
-			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "…안 돼. 지금 공격으로는 저 방어를 뚫을 수 없어.",
 			painting = {
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -70,8 +70,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#a020f0",
 			actorName = "멤피스·META",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "짚이는 부분? 있기는 한데…",
 			painting = {
@@ -89,8 +89,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#a020f0",
 			actorName = "멤피스·META",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "내가 가지고 있는 정보로는... 아마 저 소녀는 '아비터·하이로펀트·V'일 거야.",
 			painting = {
@@ -106,11 +106,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#a020f0",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "멤피스·META",
-			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "하지만 식별 시스템에 수치와 조사 데이터를 입력해도 '하이로펀트'로 식별되지 않아.",
 			painting = {
@@ -128,8 +128,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#a020f0",
 			actorName = "멤피스·META",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "저 겉모습이 그저 위장인 건지, 아니면 뭔가가 '하이로펀트'의 몸체를 조종하고 있는 건지…",
 			painting = {
@@ -145,11 +145,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#a020f0",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "멤피스·META",
-			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "후자라면 그야말로 거짓된 '신'에 걸맞은 존재겠지.",
 			painting = {
@@ -167,8 +167,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "저도 동감이에요.",
 			painting = {
@@ -186,8 +186,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "'잔불'은 '하이로펀트'와 몇 번 마주한 적이 있어요. '아비터' 중에서도 말이 좀 통하는 편인데…",
 			painting = {
@@ -203,11 +203,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "{namecode:191}",
-			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "저 '신'은 누군가에게 조종당하는 예비용 몸체일 가능성이 높다고 봐요.",
 			painting = {
@@ -225,8 +225,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "……그리고 하나 더, 저 적에게서는 불길한 예감이 느껴져요.",
 			painting = {
@@ -244,8 +244,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "본체뿐만 아니라, 저 드로이드도… 소형의 적도, 정체불명의 물질도……",
 			painting = {
@@ -263,8 +263,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#ffa500",
 			actorName = "{namecode:191}",
+			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "불길한 예감이 드는 건 드문 일이 아니지만, 이번에는 특히나 더 그래요.",
 			painting = {
@@ -280,11 +280,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "{namecode:191}",
-			nameColor = "#ffa500",
 			hidePaintObj = true,
 			say = "어쩌면 저 녀석이야말로… '접촉해서는 안 되는' 존재일지도 몰라요.",
 			painting = {
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -336,11 +336,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "마르세예즈",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관, 총공격은 언제 개시하실 건가요?",
 			painting = {
@@ -356,11 +356,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "마르세예즈",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……저 소녀는 아이리스의 소중한 것을 가지고 있습니다. 다시 되찾아야 해요.",
 			painting = {
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -390,8 +390,8 @@ return {
 			bgName = "bg_underheaven_cg9",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "장 바르",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "성좌의 왕관이다. 마르코 폴로와 함께 바닷속으로 빠진 줄 알았는데, 설마 저 괴물이 회수했을 줄이야…",
 			painting = {
@@ -407,11 +407,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "마르세예즈",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "마르코 폴로의 심판은 차치하더라도, 이대로 '왕관'이 더럽혀지게 둘 수는 없습니다.",
 			painting = {
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -442,8 +442,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -454,8 +454,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -466,8 +466,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -493,10 +493,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			say = "계속 나를 괴롭히던 악몽 속에서 여러 번 나타난 존재다.",
 			effects = {
@@ -514,11 +514,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_cg9",
-			dialogueBgAlpha = 0.6,
+			nameColor = "#A9F548FF",
 			dir = 1,
+			dialogueBgAlpha = 0.6,
 			paintingNoise = true,
 			actorName = "멤피스",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관? 왜, 왜 그래? …안색이 안 좋아.",
 			painting = {
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg9",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,

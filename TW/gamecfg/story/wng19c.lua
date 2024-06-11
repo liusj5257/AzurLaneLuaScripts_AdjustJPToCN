@@ -4,9 +4,9 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "请选择想要了解的大世界作战说明",
 			typewriter = {
 				speed = 0.05,

@@ -6,7 +6,7 @@ slot0.Battle.BattlePlayerWeaponVO = class("BattlePlayerWeaponVO")
 slot0.Battle.BattlePlayerWeaponVO.__name = "BattlePlayerWeaponVO"
 slot3 = slot0.Battle.BattlePlayerWeaponVO
 
-function slot3.Ctor(slot0, slot1)
+slot3.Ctor = function(slot0, slot1)
 	uv0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._GCD = slot1
@@ -14,7 +14,7 @@ function slot3.Ctor(slot0, slot1)
 	slot0:Reset()
 end
 
-function slot3.Reset(slot0)
+slot3.Reset = function(slot0)
 	slot0._isOverLoad = false
 	slot0._current = slot0._GCD
 	slot0._max = slot0._GCD
@@ -26,7 +26,7 @@ function slot3.Reset(slot0)
 	slot0._chargingList = {}
 end
 
-function slot3.Update(slot0, slot1)
+slot3.Update = function(slot0, slot1)
 	if slot0._current < slot0._max then
 		if slot0._max <= slot1 - slot0._reloadStartTime then
 			slot0._current = slot0._max
@@ -43,7 +43,7 @@ function slot3.Update(slot0, slot1)
 	end
 end
 
-function slot3.PlayFocus(slot0, slot1, slot2)
+slot3.PlayFocus = function(slot0, slot1, slot2)
 	uv0.Battle.BattleCameraUtil.GetInstance():FocusCharacter(slot1, uv1.CAST_CAM_ZOOM_IN_DURATION)
 	uv0.Battle.BattleCameraUtil.GetInstance():ZoomCamara(nil, uv1.CAST_CAM_ZOOM_SIZE, uv1.CAST_CAM_ZOOM_IN_DURATION, true)
 	uv0.Battle.BattleCameraUtil.GetInstance():BulletTime(uv1.SPEED_FACTOR_FOCUS_CHARACTER, uv1.FOCUS_MAP_RATE, slot1)
@@ -63,24 +63,24 @@ function slot3.PlayFocus(slot0, slot1, slot2)
 	end, true)
 end
 
-function slot3.PlayCutIn(slot0, slot1, slot2)
+slot3.PlayCutIn = function(slot0, slot1, slot2)
 	uv0.Battle.BattleCameraUtil.GetInstance():CutInPainting(slot1, slot2)
 end
 
-function slot3.ResetFocus(slot0)
+slot3.ResetFocus = function(slot0)
 end
 
-function slot3.CancelFocus(slot0)
+slot3.CancelFocus = function(slot0)
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._focusTimer)
 
 	slot0._focusTimer = nil
 end
 
-function slot3.GetWeaponList(slot0)
+slot3.GetWeaponList = function(slot0)
 	return slot0._weaponList
 end
 
-function slot3.AppendWeapon(slot0, slot1)
+slot3.AppendWeapon = function(slot0, slot1)
 	slot0._weaponList[#slot0._weaponList + 1] = slot1
 
 	if slot1:GetCurrentState() == slot1.STATE_READY then
@@ -98,7 +98,7 @@ function slot3.AppendWeapon(slot0, slot1)
 	slot0._readyList[#slot0._readyList + 1] = slot1
 end
 
-function slot3.AppendFreezeWeapon(slot0, slot1)
+slot3.AppendFreezeWeapon = function(slot0, slot1)
 	slot0._weaponList[#slot0._weaponList + 1] = slot1
 	slot0._total = slot0._total + 1
 
@@ -120,7 +120,7 @@ function slot3.AppendFreezeWeapon(slot0, slot1)
 	slot0:DispatchOverLoadChange()
 end
 
-function slot3.RemoveWeapon(slot0, slot1)
+slot3.RemoveWeapon = function(slot0, slot1)
 	slot2 = slot0.deleteElementFromArray(slot1, slot0._weaponList)
 	slot0._total = slot0._total - 1
 
@@ -147,7 +147,7 @@ function slot3.RemoveWeapon(slot0, slot1)
 	return slot2
 end
 
-function slot3.refreshCD(slot0)
+slot3.refreshCD = function(slot0)
 	slot2 = #slot0._chargingList
 
 	if #slot0._readyList ~= 0 then
@@ -169,7 +169,7 @@ function slot3.refreshCD(slot0)
 	end
 end
 
-function slot3.RefreshReloadingBar(slot0)
+slot3.RefreshReloadingBar = function(slot0)
 	if not slot0._reloadStartTime or #slot0._readyList ~= 0 or slot0._max == slot0._GCD then
 		return
 	end
@@ -178,44 +178,44 @@ function slot3.RefreshReloadingBar(slot0)
 	slot0._current = slot0._current / slot0._max * slot0._max
 end
 
-function slot3.resetCurrent(slot0)
+slot3.resetCurrent = function(slot0)
 	slot0._current = 0
 	slot0._reloadStartTime = slot0._jammingStarTime or pg.TimeMgr.GetInstance():GetCombatTime()
 end
 
-function slot3.SetMax(slot0, slot1)
+slot3.SetMax = function(slot0, slot1)
 	slot0._max = slot1
 end
 
-function slot3.GetMax(slot0)
+slot3.GetMax = function(slot0)
 	return slot0._max
 end
 
-function slot3.GetCurrent(slot0)
+slot3.GetCurrent = function(slot0)
 	return slot0._current
 end
 
-function slot3.IsOverLoad(slot0)
+slot3.IsOverLoad = function(slot0)
 	return slot0._current < slot0._max or slot0._count < 1
 end
 
-function slot3.SetTotal(slot0, slot1)
+slot3.SetTotal = function(slot0, slot1)
 	slot0._total = slot1
 end
 
-function slot3.GetTotal(slot0)
+slot3.GetTotal = function(slot0)
 	return slot0._total
 end
 
-function slot3.SetCount(slot0, slot1)
+slot3.SetCount = function(slot0, slot1)
 	slot0._count = slot1
 end
 
-function slot3.GetCount(slot0)
+slot3.GetCount = function(slot0)
 	return slot0._count
 end
 
-function slot3.GetNextTimeStamp(slot0)
+slot3.GetNextTimeStamp = function(slot0)
 	slot1 = nil
 
 	if #slot0._chargingList > 0 then
@@ -234,19 +234,19 @@ function slot3.GetNextTimeStamp(slot0)
 	return tiemStampB, slot1
 end
 
-function slot3.GetCurrentWeapon(slot0)
+slot3.GetCurrentWeapon = function(slot0)
 	return slot0._readyList[1]
 end
 
-function slot3.GetHeadWeapon(slot0)
+slot3.GetHeadWeapon = function(slot0)
 	return slot0:GetCurrentWeapon() or slot0._chargingList[1] or slot0._overHeatList[1]
 end
 
-function slot3.GetCurrentWeaponIconIndex(slot0)
+slot3.GetCurrentWeaponIconIndex = function(slot0)
 	return 0
 end
 
-function slot3.Plus(slot0, slot1)
+slot3.Plus = function(slot0, slot1)
 	slot0._count = slot0._count + 1
 
 	slot0:DispatchCountChange()
@@ -258,17 +258,8 @@ function slot3.Plus(slot0, slot1)
 	slot0:DispatchOverLoadChange()
 end
 
-function slot3.Deduct(slot0, slot1)
-	slot0.deleteElementFromArray(slot1, slot0._readyList)
-
-	slot0._overHeatList[#slot0._overHeatList + 1] = slot1
-	slot0._count = slot0._count - 1
-
-	if slot0._count < 0 then
-		slot0._count = 0
-	end
-
-	slot0:DispatchCountChange()
+slot3.Deduct = function(slot0, slot1)
+	slot0:readyToOverheat(slot1)
 
 	if #slot0._readyList ~= 0 then
 		slot0._max = slot0._GCD
@@ -285,7 +276,12 @@ function slot3.Deduct(slot0, slot1)
 	slot0:DispatchOverLoadChange()
 end
 
-function slot3.Charge(slot0, slot1)
+slot3.InitialDeduct = function(slot0, slot1)
+	slot0:readyToOverheat(slot1)
+	slot0:DispatchOverLoadChange()
+end
+
+slot3.Charge = function(slot0, slot1)
 	slot0.deleteElementFromArray(slot1, slot0._overHeatList)
 
 	slot0._chargingList[#slot0._chargingList + 1] = slot1
@@ -297,7 +293,7 @@ function slot3.Charge(slot0, slot1)
 	end
 end
 
-function slot3.ReloadBoost(slot0, slot1, slot2)
+slot3.ReloadBoost = function(slot0, slot1, slot2)
 	slot3, slot4 = slot0:GetNextTimeStamp()
 
 	slot1:ReloadBoost(slot2)
@@ -313,7 +309,7 @@ function slot3.ReloadBoost(slot0, slot1, slot2)
 	end
 end
 
-function slot3.InstantCoolDown(slot0, slot1)
+slot3.InstantCoolDown = function(slot0, slot1)
 	slot0.deleteElementFromArray(slot1, slot0._overHeatList)
 
 	if slot0._GCD <= slot0._current then
@@ -328,31 +324,31 @@ function slot3.InstantCoolDown(slot0, slot1)
 	slot0:Plus(slot1)
 end
 
-function slot3.DispatchBlink(slot0, slot1)
+slot3.DispatchBlink = function(slot0, slot1)
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleEvent.WEAPON_BUTTON_BLINK, {
 		value = slot1
 	}))
 end
 
-function slot3.DispatchTotalChange(slot0, slot1)
+slot3.DispatchTotalChange = function(slot0, slot1)
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleEvent.WEAPON_TOTAL_CHANGE, {
 		index = slot1
 	}))
 end
 
-function slot3.DispatchOverLoadChange(slot0)
+slot3.DispatchOverLoadChange = function(slot0)
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleEvent.OVER_LOAD_CHANGE))
 end
 
-function slot3.DispatchCountChange(slot0)
+slot3.DispatchCountChange = function(slot0)
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleEvent.COUNT_CHANGE))
 end
 
-function slot3.DispatchInitSubIcon(slot0)
+slot3.DispatchInitSubIcon = function(slot0)
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleEvent.INIT_SUB_ICON))
 end
 
-function slot3.StartJamming(slot0)
+slot3.StartJamming = function(slot0)
 	slot0._jammingStarTime = pg.TimeMgr.GetInstance():GetCombatTime()
 
 	for slot4, slot5 in ipairs(slot0._chargingList) do
@@ -360,7 +356,7 @@ function slot3.StartJamming(slot0)
 	end
 end
 
-function slot3.JammingEliminate(slot0)
+slot3.JammingEliminate = function(slot0)
 	for slot4, slot5 in ipairs(slot0._chargingList) do
 		slot5:JammingEliminate()
 	end
@@ -380,7 +376,7 @@ function slot3.JammingEliminate(slot0)
 	slot0._jammingStarTime = nil
 end
 
-function slot3.Dispose(slot0)
+slot3.Dispose = function(slot0)
 	pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._focusTimer)
 
 	slot0._focusTimer = nil
@@ -388,7 +384,20 @@ function slot3.Dispose(slot0)
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 end
 
-function slot3.deleteElementFromArray(slot0, slot1)
+slot3.readyToOverheat = function(slot0, slot1)
+	slot0.deleteElementFromArray(slot1, slot0._readyList)
+
+	slot0._overHeatList[#slot0._overHeatList + 1] = slot1
+	slot0._count = slot0._count - 1
+
+	if slot0._count < 0 then
+		slot0._count = 0
+	end
+
+	slot0:DispatchCountChange()
+end
+
+slot3.deleteElementFromArray = function(slot0, slot1)
 	slot2 = nil
 
 	for slot6, slot7 in ipairs(slot1) do

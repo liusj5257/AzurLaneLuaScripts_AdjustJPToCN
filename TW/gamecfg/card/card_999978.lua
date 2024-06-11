@@ -5,8 +5,8 @@ return {
 	effect_list = {
 		{
 			{
-				type = "BattleCardPuzzleSkillFire",
 				caster = "Leader",
+				type = "BattleCardPuzzleSkillFire",
 				target_choise = {
 					"TargetHarmNearest"
 				},
@@ -19,8 +19,8 @@ return {
 			{
 				type = "BattleCardPuzzleSkillMoveCard",
 				arg_list = {
-					move_to = 1,
 					shuffle = 1,
+					move_to = 1,
 					move_op = "Add"
 				}
 			}

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "古立特 千濑Flag",
 	time = 0,
-	color = "yellow",
+	name = "古立特 千濑Flag",
+	init_effect = "",
+	id = 9441,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9441,
+	color = "yellow",
 	icon = 9441,
 	last_effect = "",
 	effect_list = {

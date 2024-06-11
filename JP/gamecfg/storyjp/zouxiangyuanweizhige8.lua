@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZOUXIANGYUANWEIZHIGE8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZOUXIANGYUANWEIZHIGE8",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			bgmDelay = 1,
+			mode = 1,
 			bgm = "theme-clemenceau",
 			sequence = {
 				{
@@ -67,13 +67,13 @@ return {
 			}
 		},
 		{
-			bgm = "theme-threat-typeV",
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			nameColor = "#A9F548FF",
-			bgmDelay = 2,
 			soundeffect = "event:/ui/alarm",
-			stopbgm = true,
+			bgmDelay = 2,
+			bgm = "theme-threat-typeV",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "守るべきものを託し、マルセイエーズが知覚する世界は崩壊し始めた。",
 			typewriter = {
@@ -82,15 +82,15 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_dark",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "視界は黒く染まり、耳元で姦しい音が鳴り響き、揺れる意識が靄に飲まれていく。",
@@ -103,10 +103,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "………この……音は……",
 			painting = {
 				alpha = 0.3,
@@ -121,10 +121,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "あと少しで……止むはず……",
 			painting = {
 				alpha = 0.3,
@@ -139,10 +139,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_sainthelena2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "これで……何もかもが……消えて………",
 			painting = {
 				alpha = 0.3,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "目を閉じ、遠ざかっていく意識だけ辛うじて引き止める。",
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "その時、耳元から懐かしい仲間の言葉が聞こえた。",
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "声？",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "声？",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "声？",
+			side = 2,
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			stopbgm = true,
+			hidePaintObj = true,
 			say = "無辺なる暗闇の中に、光が差し込んだ。",
 			typewriter = {
 				speed = 0.05,
@@ -229,9 +229,9 @@ return {
 			},
 			effects = {
 				{
-					active = false,
+					center = false,
 					name = "miwu_dark",
-					center = false
+					active = false
 				}
 			},
 			flashout = {
@@ -242,8 +242,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -254,10 +254,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#92fc63",
 			actor = 902020,
+			nameColor = "#92fc63",
+			hidePaintObj = true,
 			say = "…………光？",
 			painting = {
 				alpha = 0.3,
@@ -269,13 +269,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#92fc63",
+			mode = 1,
 			side = 2,
-			bgName = "bg_masaiqu_cg2",
-			actorName = "リシュリュー",
+			nameColor = "#92fc63",
 			bgmDelay = 2,
 			bgm = "theme-richelieu",
-			mode = 1,
+			bgName = "bg_masaiqu_cg2",
+			actorName = "リシュリュー",
 			hidePaintObj = true,
 			say = "「于地狱之中涌现的邪恶。」",
 			flashout = {
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -353,8 +353,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -382,10 +382,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_masaiqu_cg2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_masaiqu_cg2",
 			say = "まるで霧が光によって払われるかのように、蠢く存在はだんだん希薄していき、そして消え去った。",
 			typewriter = {
 				speed = 0.05,
@@ -399,8 +399,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "靄が散っていくにつれ、艦船たちに纏わりつく禍々しい気配も薄くなった。",
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "マルセイエーズは立ち上がり、周りの状況を確認する。",
@@ -430,8 +430,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "マルセイエーズ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -442,8 +442,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "マルセイエーズ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -454,8 +454,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -466,8 +466,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "マルセイエーズ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -490,8 +490,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "マルセイエーズ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "マルセイエーズ",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "張りつめていたマルセイエーズだったが、あまりにも衝撃的な情報に打ちのめされた。",
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			say = "孤独感、敗北感、連戦の疲労が一気になだれ込み、意識を失った…",
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リシュリュー",
+			side = 2,
 			bgName = "bg_masaiqu_cg2",
 			hidePaintObj = true,
 			nameColor = "#92fc63",
@@ -553,27 +553,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_story_sainthelena2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_story_sainthelena2",
 			say = "しばらくして、艦船たちは残りのセイレーンを掃討した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -581,8 +581,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "だが、「冠」を見つけることはできなかった。",
@@ -592,8 +592,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "それだけでなく、赤黒い靄も謎の敵もいつの間にか消滅しており――",
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_sainthelena2",
 			hidePaintObj = true,
 			say = "残された海崖周辺の砲撃の跡だけがこの地での激戦を静かに物語っていた。",

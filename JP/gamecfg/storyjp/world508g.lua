@@ -1,17 +1,17 @@
 return {
-	id = "WORLD508G",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508G",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900287,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-arbitrator-type1",
 			dir = 1,
 			say = "XIV、実験対象の後方艦隊を制圧せよ。VIII、連携モードに変更。余燼の戦力回復を阻止する",
+			bgm = "battle-arbitrator-type1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

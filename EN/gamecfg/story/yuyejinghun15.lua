@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN15",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_600",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
 			bgm = "qe-ova-15",
-			actorName = "Essex",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "At that moment, you sense Adventure Galley's gaze fixating on you.",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -55,9 +55,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Oh, f-forgive me! It's just... You remind me so much of an old friend of mine... Morgan, Golden Hind's betrothed.",
 			typewriter = {
@@ -70,9 +70,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
-			actor = 9600061,
 			nameColor = "#A9F548FF",
+			actor = 9600061,
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "(whisper) It's because you're both so good-looking...",
 			typewriter = {
@@ -122,10 +122,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "W-well...",
 			typewriter = {
@@ -138,9 +138,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Essex",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "She is flustered by your question. It seems this name is taboo for you to say.",
 			typewriter = {
@@ -153,10 +153,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "I-I don't have the right to comment on Lord Manjuu's family affairs.",
 			typewriter = {
@@ -169,10 +169,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Forget what I said, and sorry for disturbing your investigation. I'll come clean later instead.",
 			typewriter = {
@@ -224,9 +224,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Hai Tien",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Roll a D100... 99. Oof, that's a painful failure.",
 			typewriter = {
@@ -239,9 +239,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Hai Tien",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Let's see... I need to think about where to take this... Oh, I know.",
 			typewriter = {
@@ -254,9 +254,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Hai Tien",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I... Sorry, YOU rack your brain and recall an old proverb that goes something like, \"A simple solution usually beats a hard one.\"",
 			typewriter = {
@@ -269,9 +269,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Hai Tien",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You don't need to lie or manipulate. You simply look this gorgeous lady in the eyes and ask her directly...",
 			typewriter = {
@@ -284,9 +284,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Hai Tien",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "\"Please give me the banquet hall key.\"",
 			typewriter = {
@@ -299,9 +299,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Hai Tien",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You then nod contently and extend your open hand.",
 			typewriter = {
@@ -314,10 +314,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "...Excuse me? I can't give you it without São Martinho's permission.",
 			typewriter = {
@@ -330,10 +330,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Castle Chef",
-			actorName = "Adventure Galley",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 9600061,
-			nameColor = "#A9F548FF",
+			actorName = "Adventure Galley",
 			hidePaintObj = true,
 			say = "Look, I... I'm sorry for disturbing your investigation. I'll come clean later instead.",
 			typewriter = {
@@ -346,9 +346,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Hai Tien",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sadly, that doesn't go as you hoped. You don't get anything, and can only watch as the girl walks out.",
 			typewriter = {
@@ -372,9 +372,9 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_600",
 			factiontag = "Serious Protégé GM",
-			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The chef quickly pushes out her trolley and leaves the dining room behind.",
@@ -383,17 +383,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			say = "*click*",
@@ -516,8 +516,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

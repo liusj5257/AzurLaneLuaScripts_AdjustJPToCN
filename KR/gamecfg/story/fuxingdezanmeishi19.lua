@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI19",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「미궁으로 들어가세요.」</size>",
@@ -43,16 +43,16 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_italyv2_3",
 			dir = 1,
+			bgName = "bg_italyv2_3",
 			bgm = "xinnong-3",
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "이상해... 방금 지나온 곳인 것 같은데...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -77,12 +77,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "미궁 안은 비슷하니까 착각을 하는 것도 이상하지 않아요.",
 			typewriter = {
 				speed = 0.05,
@@ -97,10 +97,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "진짜 크노소스 미궁은 비슷한 갈림길에 수많은 함정이 있었죠... 설계자 자신도 그 안에서 길을 잃을 뻔 했어요.",
 			typewriter = {
 				speed = 0.05,
@@ -131,10 +131,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "세이렌이 대체 왜 우리를 미궁 안에 가둔 거지...?",
 			typewriter = {
 				speed = 0.05,
@@ -146,12 +146,12 @@ return {
 			}
 		},
 		{
-			actor = 602010,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "자료에 따르면 세이렌은 수많은 관찰과 실험에 열중해 왔다고 해. 우리와 싸우면서 그 과정에서 데이터를 수집했지.",
 			typewriter = {
 				speed = 0.05,
@@ -166,10 +166,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 602010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "어쩌면 우리는 지금 그 실험을 당하고 있는 것일지도.",
 			typewriter = {
 				speed = 0.05,
@@ -184,10 +184,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "굉장히 불편한 느낌이에요... 우리가 이기던 지던 그들은 모종의 목적을 달성할 것 같아서요.",
 			typewriter = {
 				speed = 0.05,
@@ -202,10 +202,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 602010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "어떤 의미로는 백전백승이네...",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "과학 연구적인 측면에서 보았을 때 실험은 이론을 검증하기 위해서 하는 일이야.",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "연구자가 이론을 내놓으면 실험으로 그것을 증명하거나 반박하지.",
 			typewriter = {
@@ -254,8 +254,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "첫 실험 없이는... 아마도 최종 연구자는 이론에 부합하는 완벽한 실험 결과를 얻고, 그 이론이 입증되었다고 표시할 수 있을 거야...",
 			typewriter = {
@@ -268,12 +268,12 @@ return {
 			}
 		},
 		{
-			actor = 608010,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 608010,
+			nameColor = "#a9f548",
 			say = "대체 어떤 이론을 검증하려고 이러는지 궁금하네, 우후후...",
 			typewriter = {
 				speed = 0.05,

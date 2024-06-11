@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_384 = {}
 slot1 = slot0.word_template_384
 
-function temp()
+temp = function()
 	uv0["喉"] = {
 		["舌"] = {
 			["习"] = {
@@ -18,7 +18,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["岸"] = {
 		["英"] = {
 			this = true
@@ -28,7 +28,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["宪"] = {
 		["法"] = {
 			["政"] = {
@@ -42,7 +42,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["狆"] = {
 		["特"] = {
 			["脃"] = {
@@ -66,7 +66,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["理"] = {
 		["论"] = {
 			["创"] = {
@@ -85,7 +85,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["忠"] = {
 		["供"] = {
 			["忠"] = {
@@ -116,7 +116,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["咸"] = {
 		["阳"] = {
 			["城"] = {

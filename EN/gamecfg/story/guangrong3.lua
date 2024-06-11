@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"A Glorious Interlude\n\n<size=45>Chapter 3 - The Queen Incident Pt. 1</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Sorry to bother you, Commander. I'm just worried about Ark Royal...",
 			bgm = "story-1",
+			actor = 207060,
+			nameColor = "#a9f548",
+			say = "Sorry to bother you, Commander. I'm just worried about Ark Royal...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,11 +34,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "... Oh, there she is!!",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					number = 1
@@ -59,15 +59,15 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#a9f548",
 			say = "I'm innocent, Commander! I was only concerned for the welfare of the little destroyer sisters going out on commission, so of course I sneaked off to escort them. I certainly wasn't stalking Warspite!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -92,8 +92,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					number = 2
@@ -101,12 +101,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
+			say = "I believe her, Ark Royal wouldn't do something so ignoble...",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I believe her, Ark Royal wouldn't do something so ignoble...",
+			actor = 205020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "Silence! I saw it! Your sick smile. You were skulking around right behind Warspite!",
 			typewriter = {
 				speed = 0.05,
@@ -137,8 +137,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					number = 1
@@ -146,12 +146,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "I'm telling you, it had nothing to do with Warspite, I was after... I was escorting the destroyers behind her!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I'm telling you, it had nothing to do with Warspite, I was after... I was escorting the destroyers behind her!",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "What troublesome thing had we stumbled upon...",
 			typewriter = {
 				speed = 0.05,
@@ -250,12 +250,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
+			say = "Glorious?!",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Glorious?!",
+			actor = 205010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -270,12 +270,12 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "I can prove Ark Royal is innocent!",
 			typewriter = {
 				speed = 0.05,

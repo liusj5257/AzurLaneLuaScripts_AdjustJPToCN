@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"숙녀의 작은 제안\n\n<size=45>4. 두근두근 스킨십</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "그리하여, 유니콘이 발견한 고급 파라솔 설치를 시작했다.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "그리하여, 유니콘이 발견한 고급 파라솔 설치를 시작했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "설치 자체는 별 위험이 없을 것이다. 그래서 유니콘의 부탁에 동의했다.",
 			typewriter = {
 				speed = 0.05,
@@ -80,15 +80,15 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "완성이다...!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -113,8 +113,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -123,9 +123,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "파라솔이 안정적으로 펴진 것을 확인하고, 유니콘은 안심하며 의자에 앉았다.",
 			typewriter = {
 				speed = 0.05,
@@ -137,9 +137,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "도울 수 있다는 것에 매우 기뻐하고 있음이 분명하다. 겉으로 드러내진 않았지만, 그녀의 기분을 느낄 수 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -167,9 +167,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "일러스트리어스가 옆에서 웃는 얼굴로 유니콘을 바라보았다.",
 			typewriter = {
 				speed = 0.05,
@@ -213,9 +213,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "유니콘은 틀림없이 일러스트리어스를 믿고 의지하고 있을 것이다... 이 점을 일러스트리어스에게 알려주자.",
 			typewriter = {
 				speed = 0.05,
@@ -243,9 +243,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "일러스트리어스의 그 순수한 미소 정말 아름다웠다. 심지어 조금 부끄럽게 만들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -289,9 +289,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "스트레칭을 하고 있는 걸 본 듯한 일러스트리어스가 수줍은 듯이 고개를 숙였다.",
 			typewriter = {
 				speed = 0.05,
@@ -335,9 +335,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "가슴이 두근두근거렸고, 예상치 못했던 일러스트리어스의 제안을 수락했다.",
 			typewriter = {
 				speed = 0.05,
@@ -365,9 +365,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "일러스트리어스의 섬세하고 긴 손가락에 감기는 부드러운 촉감에 살짝 긴장되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -379,9 +379,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "이렇게 손에 이끌린 채 의자에 앉았고, 일러스트리어스는 뒤에 서서 두 손으로 어깨를 가볍게 눌렀다.",
 			typewriter = {
 				speed = 0.05,
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "장비가 없는 평상시의 일러스트리어스라면 손의 힘이 모자랄 것 같았지만......",
 			typewriter = {
 				speed = 0.05,
@@ -439,9 +439,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "사실... 안마의 느낌 같은 건——머릿속에 전혀 들어오지 않았다.",
 			typewriter = {
 				speed = 0.05,
@@ -453,9 +453,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "...... 계속해서 등에 닿는 그 부드러운 촉감에, 진작부터 모든 주의력을 빼앗겼다.",
 			typewriter = {
 				speed = 0.05,

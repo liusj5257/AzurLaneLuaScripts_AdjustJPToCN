@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA31",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "결론은?",
 			bgm = "bsm-2",
+			actor = 900136,
+			nameColor = "#ff5c5c",
+			say = "결론은?",
 			flashin = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					1,
 					0
@@ -83,10 +83,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "어쩌면 주동적인 전이가 아닌, 수동적인 합류일지도……",
 			typewriter = {
 				speed = 0.05,
@@ -116,10 +116,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "이해했어.",
 			typewriter = {
 				speed = 0.05,
@@ -165,10 +165,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "그럼 계속 은밀한 관찰을 계속하도록. 실험 기관과 행동에 간섭하지 않고, 역시 발견되지 않도록 해야 해. 코드-G 쪽에는 다른 중재 기관을 파견해서 처리했네.",
 			typewriter = {
 				speed = 0.05,
@@ -182,10 +182,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "이곳은 많은 자연 연산 시스템이 그 영향을 확실히 할 수 없는 변수가 현재 이곳에 모여들고 있으니, 유달리 정밀하게 다루어져야 할 장소야……",
 			typewriter = {
 				speed = 0.05,
@@ -199,10 +199,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 900136,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 900136,
+			nameColor = "#ff5c5c",
 			say = "…………………………",
 			typewriter = {
 				speed = 0.05,

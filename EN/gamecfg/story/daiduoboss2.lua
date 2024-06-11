@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAIDUOBOSS2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAIDUOBOSS2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Fight On, Royal Maids!\n\n<size=45>Secret Stratagem</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_nepu2",
 			bgm = "battle-boss-5",
 			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Let's take this from the top. As one would expect of my Master's fleet... launching such a fierce attack right away...!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "Are we going to be all right? Our first defense line has already been broken...",
 			typewriter = {
@@ -89,8 +89,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202260,
 			dir = 1,
+			actor = 202260,
 			nameColor = "#a9f548",
 			say = "I hope they aren't thinking, \"look how weak the Maid Team is...\" Look, there are so many ships from various factions sailing under the same banner. Wouldn't it be better for us to go all out as well...?",
 			typewriter = {
@@ -122,8 +122,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "From what I can tell, they're not attacking us with their full strength. If we were to counterattack with our full strength, my Master would respond in kind, and this would quickly devolve into a brawl.",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "In any case, instead of playing all our cards right away, it would be best to gradually ramp up the challenge we pose to my Master's fleet...",
 			typewriter = {
@@ -204,8 +204,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "If I stick close to Master, I won't be thrown away... That way, I'll be able to stay with Master until the very end... Haah...",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "Ah, Master, my beloved Master...",
 			typewriter = {
@@ -299,12 +299,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "Ahem. It doesn't make sense for us to tarry longer here. Let's move to the next defensive line.",
 			typewriter = {
 				speed = 0.05,

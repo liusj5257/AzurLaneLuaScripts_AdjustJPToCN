@@ -10,7 +10,7 @@ slot5.__name = "BattleBulletEmitter"
 slot5.STATE_ACTIVE = "ACTIVE"
 slot5.STATE_STOP = "STOP"
 
-function slot5.Ctor(slot0, slot1, slot2, slot3)
+slot5.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._spawnFunc = slot1
 	slot0._stopFunc = slot2
 	slot0._barrageID = slot3
@@ -29,19 +29,19 @@ function slot5.Ctor(slot0, slot1, slot2, slot3)
 
 	slot0._primalMax = slot0._barrageTemp.primal_repeat + 1
 
-	function slot0.timerCb(slot0)
+	slot0.timerCb = function(slot0)
 		uv0._timerList[slot0](uv0, slot0)
 	end
 end
 
-function slot5.Ready(slot0)
+slot5.Ready = function(slot0)
 	slot0._state = slot0.STATE_ACTIVE
 	slot0._seniorCounter = -1
 
 	slot0:ClearAllTimer()
 end
 
-function slot5.Fire(slot0, slot1, slot2)
+slot5.Fire = function(slot0, slot1, slot2)
 	slot0._target = slot1
 	slot0._dir = slot2 or uv0.UnitDir.RIGHT
 
@@ -52,7 +52,7 @@ function slot5.Fire(slot0, slot1, slot2)
 	slot0:SeniorIteration()
 end
 
-function slot5.Stop(slot0)
+slot5.Stop = function(slot0)
 	slot0._state = slot0.STATE_STOP
 	slot0._target = nil
 
@@ -60,14 +60,14 @@ function slot5.Stop(slot0)
 	slot0:_stopFunc()
 end
 
-function slot5.Interrupt(slot0)
+slot5.Interrupt = function(slot0)
 	slot0._state = slot0.STATE_STOP
 	slot0._target = nil
 
 	slot0:ClearAllTimer()
 end
 
-function slot5.Destroy(slot0)
+slot5.Destroy = function(slot0)
 	slot0._spawnFunc = nil
 	slot0._stopFunc = nil
 	slot0._convertedDirBarrage = nil
@@ -77,11 +77,11 @@ function slot5.Destroy(slot0)
 	end
 end
 
-function slot5.GetState(slot0)
+slot5.GetState = function(slot0)
 	return slot0._state
 end
 
-function slot5.ClearAllTimer(slot0)
+slot5.ClearAllTimer = function(slot0)
 	for slot4, slot5 in pairs(slot0._timerList) do
 		uv0.TimeMgr.GetInstance():RemoveBattleTimer(slot4)
 	end
@@ -89,7 +89,7 @@ function slot5.ClearAllTimer(slot0)
 	slot0._timerList = {}
 end
 
-function slot5.GenerateBullet(slot0)
+slot5.GenerateBullet = function(slot0)
 	slot1 = slot0._convertedDirBarrage[slot0._primalCounter]
 	slot0._delay = slot1.Delay
 	slot3 = nil
@@ -101,7 +101,7 @@ function slot5.GenerateBullet(slot0)
 	slot0:Interation()
 end
 
-function slot5.DelaySeniorFunc(slot0, slot1)
+slot5.DelaySeniorFunc = function(slot0, slot1)
 	uv0.TimeMgr.GetInstance():RemoveBattleTimer(slot1)
 
 	slot0._timerList[slot1] = nil
@@ -109,7 +109,7 @@ function slot5.DelaySeniorFunc(slot0, slot1)
 	slot0:PrimalIteration()
 end
 
-function slot5.SeniorIteration(slot0)
+slot5.SeniorIteration = function(slot0)
 	if slot0._state ~= slot0.STATE_ACTIVE then
 		return
 	end
@@ -131,16 +131,16 @@ function slot5.SeniorIteration(slot0)
 	end
 end
 
-function slot5.InitParam(slot0)
+slot5.InitParam = function(slot0)
 	slot0._delay = slot0._barrageTemp.delay
 	slot0._primalCounter = 1
 end
 
-function slot5.Interation(slot0)
+slot5.Interation = function(slot0)
 	slot0._primalCounter = slot0._primalCounter + 1
 end
 
-function slot5.SetTimeScale(slot0, slot1)
+slot5.SetTimeScale = function(slot0, slot1)
 	if slot0._timerList then
 		for slot5, slot6 in pairs(slot0._timerList) do
 			slot5:SetScale(slot1)
@@ -148,7 +148,7 @@ function slot5.SetTimeScale(slot0, slot1)
 	end
 end
 
-function slot5.DelayPrimalConst(slot0, slot1)
+slot5.DelayPrimalConst = function(slot0, slot1)
 	slot0:GenerateBullet()
 
 	if slot0._primalMax < slot0._primalCounter then
@@ -160,7 +160,7 @@ function slot5.DelayPrimalConst(slot0, slot1)
 	end
 end
 
-function slot5._averagePrimalIteration(slot0)
+slot5._averagePrimalIteration = function(slot0)
 	if slot0._state ~= slot0.STATE_ACTIVE then
 		return
 	end
@@ -168,7 +168,7 @@ function slot5._averagePrimalIteration(slot0)
 	slot0._timerList[uv0.TimeMgr.GetInstance():AddBattleTimer("spawnBullet", -1, slot0._delay, slot0.timerCb, true)] = slot0.DelayPrimalConst
 end
 
-function slot5.DelayPrimalAdvance(slot0, slot1)
+slot5.DelayPrimalAdvance = function(slot0, slot1)
 	uv0.TimeMgr.GetInstance():RemoveBattleTimer(slot1)
 
 	slot0._timerList[slot1] = nil
@@ -182,7 +182,7 @@ function slot5.DelayPrimalAdvance(slot0, slot1)
 	end
 end
 
-function slot5._advancePrimalIteration(slot0)
+slot5._advancePrimalIteration = function(slot0)
 	if slot0._state ~= slot0.STATE_ACTIVE then
 		return
 	end
@@ -200,7 +200,7 @@ function slot5._advancePrimalIteration(slot0)
 	end
 end
 
-function slot5._nonDelayPrimalIteration(slot0)
+slot5._nonDelayPrimalIteration = function(slot0)
 	if slot0._state ~= slot0.STATE_ACTIVE then
 		return
 	end

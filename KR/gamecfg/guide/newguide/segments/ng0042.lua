@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "투표장을 탐색해 보세요!",
 				mode = 1,
-				posY = 0,
 				dir = -1,
+				posY = 0,
 				posX = 0
 			}
 		}

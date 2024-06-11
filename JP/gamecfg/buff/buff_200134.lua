@@ -1,12 +1,12 @@
 return {
-	init_effect = "Bossbomb",
-	name = "2022莱莎联动EX 二阶段血量监听",
 	time = 3,
-	color = "red",
+	name = "2022莱莎联动EX 二阶段血量监听",
+	init_effect = "Bossbomb",
+	id = 200134,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200134,
+	color = "red",
 	icon = 200134,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 			},
 			arg_list = {
 				group = 200134,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{

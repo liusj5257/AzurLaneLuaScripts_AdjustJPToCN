@@ -7,28 +7,28 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			bgm = "votefes-start",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "母港・執務室",
-			bgm = "votefes-start",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -39,10 +39,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "失礼します",
 			painting = {
 				alpha = 0.3,
@@ -57,10 +57,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "し、失礼するよ…",
 			painting = {
 				alpha = 0.3,
@@ -75,10 +75,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「Alizarin」の視点からまとめた、今回の「μ兵装」演習実施状況報告書です",
 			painting = {
 				alpha = 0.3,
@@ -93,10 +93,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…「Cyanidin」のはこっち",
 			painting = {
 				alpha = 0.3,
@@ -123,10 +123,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "う、ううん…そういうのは元々職務のうちだし…ふーはー",
 			painting = {
 				alpha = 0.3,
@@ -141,10 +141,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はい、やるべきことをしたまでです",
 			painting = {
 				alpha = 0.3,
@@ -171,10 +171,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "いいえ、フォーミダブルはイラストリアスにレディのマナーを勉強するよう言われ…オイゲンは共鳴現象について研究しているようです",
 			painting = {
 				alpha = 0.3,
@@ -189,10 +189,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ、あの現象が起きた時…本当にびっくりしたよ…",
 			painting = {
 				alpha = 0.3,
@@ -231,10 +231,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ところであなた、いつまで仕事をしているつもり？もうそろそろ時間ですが…",
 			painting = {
 				alpha = 0.3,
@@ -261,10 +261,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私の記憶が正しければ…この後赤城と大鳳の願いを叶える時間でしょう？",
 			painting = {
 				alpha = 0.3,
@@ -279,10 +279,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "その次がプリンツ・オイゲン…そしてローン、ユニコーンとハムマンは順番が前後していて…",
 			painting = {
 				alpha = 0.3,
@@ -297,10 +297,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それからはイラストリアスに私、ですね",
 			painting = {
 				alpha = 0.3,
@@ -312,12 +312,12 @@ return {
 			}
 		},
 		{
-			actor = 302240,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302240,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あ、あとボイシも…夜は確か金剛とテメレールが…",
 			painting = {
 				alpha = 0.3,
@@ -339,8 +339,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,28 +388,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "——つまり…全員のどんな願いも…全部叶えなきゃいけない…ってコト！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -431,10 +431,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そういうことよ。まぁ、実行については主催側で一部代わってあげてもいいけど――",
 			painting = {
 				alpha = 0.3,
@@ -461,10 +461,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ、もしみんなの願いが全部指揮官と関わることだったら…いくら主催委員会でも助けられないわ。ふふふ",
 			painting = {
 				alpha = 0.3,
@@ -476,28 +476,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（ラフィーのオーダーメイドのハイテクふわもこ枕と、ル・マランの一年間仕事しないことを除いて…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -526,10 +526,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ふふふ…指揮官様、赤城が迎えに上がりましたわ♡",
 			painting = {
 				alpha = 0.3,
@@ -541,12 +541,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "赤城との「デート」のお願い、お忘れじゃないでしょうね？",
 			painting = {
 				alpha = 0.3,
@@ -561,10 +561,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "待ちなさい！大鳳との順番はまだ決まってありませんわ！",
 			painting = {
 				alpha = 0.3,
@@ -576,8 +576,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -589,10 +589,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "はぁ？赤城が先に来ましたわ？",
 			painting = {
 				alpha = 0.3,
@@ -607,10 +607,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "じゃあなんですか？大鳳に首を縦に振れってことですか？指揮官様は大鳳のものですわ！",
 			painting = {
 				alpha = 0.3,
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "我先にと、二つの赤い影が執務室で熾烈な口論を繰り広げている。",
@@ -648,11 +648,11 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task_2",
-			actor = 307010,
-			dir = 1,
-			actorName = "赤城＆大鳳",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 307010,
+			actorName = "赤城＆大鳳",
 			hidePaintObj = true,
 			say = "指揮官様ー！\n指揮官様〜！",
 			subActors = {
@@ -674,8 +674,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -687,11 +687,11 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_task_2",
-			actor = 307010,
-			dir = 1,
-			actorName = "赤城＆大鳳",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 307010,
+			actorName = "赤城＆大鳳",
 			hidePaintObj = true,
 			say = "決まりましたわ！いっそのこと、三人一緒にデートしましょう！",
 			subActors = {

@@ -8,9 +8,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "leigensitebao_longdun",
 					count = 2,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -40,9 +40,9 @@ return {
 					"onShieldBroken"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 16721,
 					shieldBuffID = 16723,
-					skill_id = 16721
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -66,9 +66,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "leigensitebao_longdun",
 					count = 2,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -98,9 +98,9 @@ return {
 					"onShieldBroken"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 16721,
 					shieldBuffID = 16723,
-					skill_id = 16721
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -124,9 +124,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "leigensitebao_longdun",
 					count = 3,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -156,9 +156,9 @@ return {
 					"onShieldBroken"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 16721,
 					shieldBuffID = 16723,
-					skill_id = 16721
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -182,9 +182,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "leigensitebao_longdun",
 					count = 3,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -214,9 +214,9 @@ return {
 					"onShieldBroken"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 16721,
 					shieldBuffID = 16723,
-					skill_id = 16721
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -240,9 +240,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "leigensitebao_longdun",
 					count = 4,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -272,9 +272,9 @@ return {
 					"onShieldBroken"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 16721,
 					shieldBuffID = 16723,
-					skill_id = 16721
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -298,9 +298,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "leigensitebao_longdun",
 					count = 4,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -330,9 +330,9 @@ return {
 					"onShieldBroken"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 16721,
 					shieldBuffID = 16723,
-					skill_id = 16721
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -356,9 +356,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "leigensitebao_longdun",
 					count = 5,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -388,9 +388,9 @@ return {
 					"onShieldBroken"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 16721,
 					shieldBuffID = 16723,
-					skill_id = 16721
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -414,9 +414,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "leigensitebao_longdun",
 					count = 5,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -446,9 +446,9 @@ return {
 					"onShieldBroken"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 16721,
 					shieldBuffID = 16723,
-					skill_id = 16721
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -472,9 +472,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "leigensitebao_longdun",
 					count = 6,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -504,9 +504,9 @@ return {
 					"onShieldBroken"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 16721,
 					shieldBuffID = 16723,
-					skill_id = 16721
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -530,9 +530,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
-					do_when_hit = "intercept",
 					effect = "leigensitebao_longdun",
 					count = 6,
+					do_when_hit = "intercept",
 					bulletType = 1,
 					cld_list = {
 						{
@@ -562,9 +562,9 @@ return {
 					"onShieldBroken"
 				},
 				arg_list = {
-					target = "TargetSelf",
+					skill_id = 16721,
 					shieldBuffID = 16723,
-					skill_id = 16721
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -579,14 +579,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 8,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 16723,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16723,
+	color = "blue",
 	icon = 16723,
 	last_effect = "",
 	effect_list = {
@@ -597,9 +597,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "leigensitebao_longdun",
 				count = 2,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -629,9 +629,9 @@ return {
 				"onShieldBroken"
 			},
 			arg_list = {
-				target = "TargetSelf",
+				skill_id = 16721,
 				shieldBuffID = 16723,
-				skill_id = 16721
+				target = "TargetSelf"
 			}
 		},
 		{

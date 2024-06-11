@@ -1,10 +1,10 @@
 slot0 = class("CommanderBoxesPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderBoxesUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.boxCards = {}
 	slot0.startBtn = slot0._tf:Find("frame/boxes/start_btn")
 	slot0.finishBtn = slot0._tf:Find("frame/boxes/finish_btn")
@@ -32,7 +32,7 @@ function slot0.OnLoaded(slot0)
 	setActive(slot0._tf:Find("frame"), true)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:RegisterEvent()
 	onButton(slot0, slot0.closeBtn, function ()
 		uv0:Hide()
@@ -104,7 +104,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	slot0:bind(CommanderCatScene.MSG_QUICKLY_FINISH_TOOL_ERROR, function (slot0)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("comander_tool_cnt_is_reclac"))
 		triggerButton(uv0.quicklyFinishAllBtn)
@@ -127,12 +127,12 @@ function slot0.RegisterEvent(slot0)
 	end)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:Show()
 	slot0:Flush()
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	slot0.boxes = getProxy(CommanderProxy):getBoxes()
 	slot0.pools = getProxy(CommanderProxy):getPools()
 
@@ -141,7 +141,7 @@ function slot0.Flush(slot0)
 	slot0:updateCntLabel()
 end
 
-function slot0.UpdateList(slot0)
+slot0.UpdateList = function(slot0)
 	slot1 = _.map(slot0.boxes, function (slot0)
 		slot0.state = slot0:getState()
 
@@ -175,7 +175,7 @@ function slot0.UpdateList(slot0)
 	slot0.boxesList:align(#slot1)
 end
 
-function slot0.updateCntLabel(slot0)
+slot0.updateCntLabel = function(slot0)
 	_.each(slot0.boxes, function (slot0)
 		slot0.state = slot0:getState()
 
@@ -190,7 +190,7 @@ function slot0.updateCntLabel(slot0)
 	slot0.waitCnt.text = 0 .. "/" .. CommanderProxy.MAX_SLOT - CommanderProxy.MAX_WORK_COUNT
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	slot0.activation = true
 
 	setActive(slot0._go, true)
@@ -199,18 +199,18 @@ function slot0.Show(slot0)
 	})
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0.activation = false
 
 	setActive(slot0._go, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.isShow(slot0)
+slot0.isShow = function(slot0)
 	return slot0.activation
 end
 
-function slot0.PlayAnimation(slot0, slot1, slot2)
+slot0.PlayAnimation = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	for slot7, slot8 in pairs(slot0.boxCards) do
@@ -228,7 +228,7 @@ function slot0.PlayAnimation(slot0, slot1, slot2)
 	end
 end
 
-function slot0.CanBack(slot0)
+slot0.CanBack = function(slot0)
 	if slot0.buildPoolPanel and slot0.buildPoolPanel:GetLoaded() and slot0.buildPoolPanel:isShowing() then
 		slot0.buildPoolPanel:Hide()
 
@@ -262,11 +262,11 @@ function slot0.CanBack(slot0)
 	return true
 end
 
-function slot0.UpdateItem(slot0)
+slot0.UpdateItem = function(slot0)
 	slot0.itemCnt.text = getProxy(BagProxy):getItemCountById(Item.COMMANDER_QUICKLY_TOOL_ID)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 
 	slot1 = pairs

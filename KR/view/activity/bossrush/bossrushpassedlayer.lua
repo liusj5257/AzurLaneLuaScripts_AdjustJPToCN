@@ -1,11 +1,11 @@
 slot0 = class("BossRushPassedLayer", import("view.challenge.ChallengePassedLayer"))
 slot0.GROW_TIME = 0.55
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BossRushPassedUI"
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.tweenObjs = {}
 	slot1 = pg.UIMgr.GetInstance()
 
@@ -24,7 +24,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	LeanTween.cancel(go(slot0.slider))
 
@@ -35,15 +35,15 @@ function slot0.willExit(slot0)
 	slot0.tweenObjs = {}
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	triggerButton(slot0._tf)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.curIndex = slot0.contextData.curIndex
 end
 
-function slot0.updateSlider(slot0, slot1)
+slot0.updateSlider = function(slot0, slot1)
 	if slot0.contextData.maxIndex < (slot1 or slot0.curIndex) then
 		slot2 = slot2 % slot3 == 0 and slot3 or slot2 % slot3
 	end
@@ -60,19 +60,19 @@ function slot0.updateSlider(slot0, slot1)
 		slot5 = uv0:findTF("Challengeing", slot2)
 		slot6 = uv0:findTF("Arrow", slot2)
 
-		function slot7()
+		slot7 = function()
 			setActive(uv0, true)
 			setActive(uv1, false)
 			setActive(uv2, false)
 		end
 
-		function slot8()
+		slot8 = function()
 			setActive(uv0, false)
 			setActive(uv1, true)
 			setActive(uv2, false)
 		end
 
-		function slot9()
+		slot9 = function()
 			setActive(uv0, false)
 			setActive(uv1, false)
 			setActive(uv2, true)
@@ -99,7 +99,7 @@ function slot0.updateSlider(slot0, slot1)
 	slot0.squareList:align(slot3)
 end
 
-function slot0.moveSlider(slot0, slot1)
+slot0.moveSlider = function(slot0, slot1)
 	if slot0.contextData.maxIndex < (slot1 or slot0.curIndex) then
 		slot2 = slot2 % slot3 == 0 and slot3 or slot2 % slot3
 	end

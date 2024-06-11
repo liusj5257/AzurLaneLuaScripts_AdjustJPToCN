@@ -14,9 +14,9 @@ return {
 			style = {
 				text = "Here you’ll find the number of nodes under the control of a Siren stronghold!",
 				mode = 2,
-				posY = 0,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 0,
 				posX = 508.1
 			},
 			showSign = {
@@ -36,9 +36,9 @@ return {
 			style = {
 				text = "Their hold on this zone will weaken the more nodes you take over! Once their control reaches 0, you can recapture it!",
 				mode = 2,
-				posY = 191.14,
-				char = "1",
 				dir = -1,
+				char = "1",
+				posY = 191.14,
 				posX = -250.05
 			},
 			showSign = {

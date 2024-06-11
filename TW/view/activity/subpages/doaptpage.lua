@@ -1,6 +1,6 @@
 slot0 = class("DOAPtPage", import(".TemplatePage.PtTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.buffModule = slot0:findTF("buff_module", slot0.bg)
@@ -57,7 +57,7 @@ function slot0.OnInit(slot0)
 	setText(slot0:findTF("window/sure_btn/pic", slot0.singleBuffBox), i18n("text_confirm"))
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	setActive(slot0.bg, true)
 	removeOnButton(slot0.getBtn)
@@ -163,7 +163,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0.isShowEffect = false
 end
 
-function slot0.showUpEffect(slot0, slot1)
+slot0.showUpEffect = function(slot0, slot1)
 	setSlider(slot0.curPanel, 0, 1, 1)
 
 	if slot0.ptData:GetBuffLevelProgress() == 8 or slot2 == 9 then
@@ -178,7 +178,7 @@ function slot0.showUpEffect(slot0, slot1)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.mask)
 end
 
-function slot0.updateLevelPanel(slot0)
+slot0.updateLevelPanel = function(slot0)
 	slot1, slot2 = slot0.ptData:GetBuffLevelProgress()
 
 	setActive(slot0.f2aPanel, false)
@@ -203,7 +203,7 @@ function slot0.updateLevelPanel(slot0)
 	return slot0.curPanel
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	setActive(slot0.starEffect, false)
 	setActive(slot0.shieldEffect, false)
 
@@ -240,7 +240,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.showTrianPanel(slot0)
+slot0.showTrianPanel = function(slot0)
 	setActive(slot0.trainWindow, true)
 
 	slot1 = slot0.ptData:GetCurBuffInfos()
@@ -289,11 +289,11 @@ function slot0.showTrianPanel(slot0)
 	slot0:flushTrainPanel()
 end
 
-function slot0.hideTrianPanel(slot0)
+slot0.hideTrianPanel = function(slot0)
 	setActive(slot0.trainWindow, false)
 end
 
-function slot0.flushTrainPanel(slot0)
+slot0.flushTrainPanel = function(slot0)
 	if slot0.ptData:GetCurBuffInfos() then
 		for slot5, slot6 in ipairs(slot1) do
 			setText(slot0:findTF("lv_bg/lv", slot0.trainSkillBtns[slot6.group]), slot6.next and "LV." .. slot6.lv or "MAX")
@@ -319,7 +319,7 @@ function slot0.flushTrainPanel(slot0)
 	end
 end
 
-function slot0.getBuffNameIndex(slot0, slot1)
+slot0.getBuffNameIndex = function(slot0, slot1)
 	if slot1 == 35 or slot1 == 36 or slot1 == 37 then
 		return 1
 	elseif slot1 == 38 or slot1 == 39 or slot1 == 40 then
@@ -333,7 +333,7 @@ function slot0.getBuffNameIndex(slot0, slot1)
 	return 1
 end
 
-function slot0.getTip(slot0, slot1)
+slot0.getTip = function(slot0, slot1)
 	if slot1 == 35 or slot1 == 36 or slot1 == 37 then
 		return i18n("doa_liliang")
 	elseif slot1 == 38 or slot1 == 39 or slot1 == 40 then
@@ -347,7 +347,7 @@ function slot0.getTip(slot0, slot1)
 	return ""
 end
 
-function slot0.showMsgBox(slot0)
+slot0.showMsgBox = function(slot0)
 	if slot0.selectBuffId then
 		setActive(slot0.msgBox, true)
 		setText(slot0.msgContent, i18n("doa_pt_up", slot0:getTip(pg.benefit_buff_template[slot0.selectBuffId].id)))
@@ -372,11 +372,11 @@ function slot0.showMsgBox(slot0)
 	end
 end
 
-function slot0.hideMsgBox(slot0)
+slot0.hideMsgBox = function(slot0)
 	setActive(slot0.msgBox, false)
 end
 
-function slot0.showTip(slot0, slot1)
+slot0.showTip = function(slot0, slot1)
 	slot2 = cloneTplTo(slot0.tipPanel, slot0._tf)
 
 	setActive(slot2, true)
@@ -402,7 +402,7 @@ function slot0.showTip(slot0, slot1)
 	end, 3):Start()
 end
 
-function slot0.showBuffBox(slot0)
+slot0.showBuffBox = function(slot0)
 	setActive(slot0.buffBox, true)
 	removeAllChildren(slot0.buffIconParent)
 
@@ -424,7 +424,7 @@ function slot0.showBuffBox(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.showSingleBuffBox(slot0)
+slot0.showSingleBuffBox = function(slot0)
 	setActive(slot0.singleBuffBox, true)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.singleBuffBox, false, {
 		overlayType = LayerWeightConst.OVERLAY_UI_TOP
@@ -444,7 +444,7 @@ function slot0.showSingleBuffBox(slot0)
 		end
 	end
 
-	function slot3()
+	slot3 = function()
 		setActive(uv0.singleBuffBox, false)
 		uv0:emit(ActivitySingleScene.EXIT)
 		uv0:emit(ActivitySingleScene.ON_CLOSE)
@@ -462,13 +462,13 @@ function slot0.showSingleBuffBox(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.contextData.singleActivity then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.singleBuffBox, slot0._tf)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.contextData.singleActivity then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.singleBuffBox, slot0._tf)
 	end

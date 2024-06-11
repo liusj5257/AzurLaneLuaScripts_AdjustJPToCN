@@ -1,12 +1,12 @@
 slot0 = class("DecodeGameView")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.controller = slot1
 end
 
-function slot0.SetUI(slot0, slot1)
+slot0.SetUI = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0._go = go(slot1)
 	slot2 = slot0._tf
@@ -163,7 +163,7 @@ function slot0.SetUI(slot0, slot1)
 	slot0.code1Panel.sizeDelta = Vector2(slot0.code1Panel.sizeDelta.x, slot0.codeHeight)
 end
 
-function slot0.DoEnterAnim(slot0, slot1)
+slot0.DoEnterAnim = function(slot0, slot1)
 	setActive(slot0.enterAnim, true)
 	LeanTween.moveLocalY(go(slot0.enterAnimTop), slot0.screenHeight / 2, 1):setFrom(-75):setDelay(DecodeGameConst.OPEN_DOOR_DELAY)
 	LeanTween.moveLocalY(go(slot0.enterAnimBottom), -slot0.screenHeight / 2, 1):setFrom(75):setDelay(DecodeGameConst.OPEN_DOOR_DELAY):setOnComplete(System.Action(function ()
@@ -177,7 +177,7 @@ function slot0.DoEnterAnim(slot0, slot1)
 	})
 end
 
-function slot0.Inited(slot0, slot1)
+slot0.Inited = function(slot0, slot1)
 	slot4 = slot0._tf
 
 	onButton(slot0, slot4:Find("btn/back"), function ()
@@ -196,7 +196,7 @@ function slot0.Inited(slot0, slot1)
 
 	slot0.ison = false
 
-	function slot5()
+	slot5 = function()
 		if uv0.controller:CanSwitch() then
 			uv0.ison = not uv0.ison
 
@@ -217,7 +217,7 @@ function slot0.Inited(slot0, slot1)
 	setActive(slot0.awardGot, slot1)
 end
 
-function slot0.UpdateMap(slot0, slot1)
+slot0.UpdateMap = function(slot0, slot1)
 	slot0.mapItems = {}
 
 	slot0.itemList:make(function (slot0, slot1, slot2)
@@ -242,7 +242,7 @@ function slot0.UpdateMap(slot0, slot1)
 	setActive(slot0.mosaic, not slot1.isUnlock)
 end
 
-function slot0.UpdateMapItem(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateMapItem = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot2.id
 	slot1.localPosition = slot3.position
 	go(slot1).name = slot3.index
@@ -263,7 +263,7 @@ function slot0.UpdateMapItem(slot0, slot1, slot2, slot3, slot4)
 	slot0.mapItems[slot3.index] = slot1
 end
 
-function slot0.OnMapRepairing(slot0, slot1)
+slot0.OnMapRepairing = function(slot0, slot1)
 	slot2 = pg.UIMgr.GetInstance()
 
 	slot2:BlurPanel(slot0.encodingPanel)
@@ -281,7 +281,7 @@ function slot0.OnMapRepairing(slot0, slot1)
 	end))
 end
 
-function slot0.OnSwitch(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+slot0.OnSwitch = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot9 = slot0.engines[slot1]
 
 	assert(slot9, slot1)
@@ -296,7 +296,7 @@ function slot0.OnSwitch(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	LeanTween.rotateZ(go(slot0.mapBtns[slot1]), slot6, DecodeGameConst.SWITCH_MAP):setOnComplete(System.Action(slot7))
 end
 
-function slot0.OnExitMap(slot0, slot1, slot2, slot3)
+slot0.OnExitMap = function(slot0, slot1, slot2, slot3)
 	if slot2 then
 		slot0.mapItemContainer.sizeDelta = Vector2(slot0.containerSize.x, 0)
 	end
@@ -304,7 +304,7 @@ function slot0.OnExitMap(slot0, slot1, slot2, slot3)
 	slot0:OnSwitch(slot1, -11, -150, 158, 23, 0, slot3)
 end
 
-function slot0.OnEnterMap(slot0, slot1, slot2, slot3)
+slot0.OnEnterMap = function(slot0, slot1, slot2, slot3)
 	parallelAsync({
 		function (slot0)
 			slot1 = uv0
@@ -341,7 +341,7 @@ function slot0.OnEnterMap(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
-function slot0.UnlockMapItem(slot0, slot1, slot2)
+slot0.UnlockMapItem = function(slot0, slot1, slot2)
 	slot3 = slot0.mapItems[slot1]
 
 	assert(slot3)
@@ -354,7 +354,7 @@ function slot0.UnlockMapItem(slot0, slot1, slot2)
 	end)):setOnComplete(System.Action(slot2))
 end
 
-function slot0.UpdateCanUseCnt(slot0, slot1)
+slot0.UpdateCanUseCnt = function(slot0, slot1)
 	slot2 = math.floor(slot1 / 10)
 	slot0.number1.sprite = GetSpriteFromAtlas("ui/DecodeGameNumber_atlas", slot2)
 	slot0.number2.sprite = GetSpriteFromAtlas("ui/DecodeGameNumber_atlas", slot1 % 10)
@@ -362,7 +362,7 @@ function slot0.UpdateCanUseCnt(slot0, slot1)
 	tf(slot0.number2).localPosition = slot3 == 1 and Vector3(-516.8, -17) or Vector3(-546.3, -17)
 end
 
-function slot0.UpdateProgress(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateProgress = function(slot0, slot1, slot2, slot3, slot4)
 	if slot1 < DecodeGameConst.MAP_ROW * DecodeGameConst.MAP_COLUMN * DecodeGameConst.MAX_MAP_COUNT then
 		setFillAmount(slot0.awardProgressTF, slot5 * DecodeGameConst.PROGRESS2FILLAMOUMT)
 	else
@@ -402,13 +402,13 @@ function slot0.UpdateProgress(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.OnEnterDecodeMapBefore(slot0, slot1)
+slot0.OnEnterDecodeMapBefore = function(slot0, slot1)
 	setActive(slot0.mosaic, true)
 	setActive(slot0.lines, false)
 	LeanTween.moveLocalY(go(slot0.code1Panel), slot0.screenHeight / 2, DecodeGameConst.SWITCH_TO_DECODE_TIME / 2):setOnComplete(System.Action(slot1))
 end
 
-function slot0.OnEnterDecodeMap(slot0, slot1, slot2)
+slot0.OnEnterDecodeMap = function(slot0, slot1, slot2)
 	parallelAsync({
 		function (slot0)
 			_.each(uv0.code2, function (slot0)
@@ -430,7 +430,7 @@ function slot0.OnEnterDecodeMap(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.OnEnterNormalMapBefore(slot0, slot1)
+slot0.OnEnterNormalMapBefore = function(slot0, slot1)
 	parallelAsync({
 		function (slot0)
 			LeanTween.moveLocalY(go(uv0.code2Panel), uv0.screenHeight / 2, DecodeGameConst.SWITCH_TO_DECODE_TIME / 2):setOnComplete(System.Action(slot0))
@@ -441,7 +441,7 @@ function slot0.OnEnterNormalMapBefore(slot0, slot1)
 	}, slot1)
 end
 
-function slot0.OnEnterNormalMap(slot0, slot1, slot2)
+slot0.OnEnterNormalMap = function(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
 			LeanTween.moveLocalY(go(uv0.code1Panel), 303, DecodeGameConst.SWITCH_TO_DECODE_TIME / 2):setOnComplete(System.Action(slot0))
@@ -465,10 +465,10 @@ function slot0.OnEnterNormalMap(slot0, slot1, slot2)
 	}, slot2)
 end
 
-function slot0.OnDecodeMap(slot0, slot1, slot2)
+slot0.OnDecodeMap = function(slot0, slot1, slot2)
 	slot3 = {}
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		for slot4, slot5 in ipairs(uv0.items) do
 			if slot5.index == slot0 then
 				return slot5
@@ -491,7 +491,7 @@ function slot0.OnDecodeMap(slot0, slot1, slot2)
 		})
 	end
 
-	function slot5()
+	slot5 = function()
 		slot0 = Vector2(0, uv0.line1.localPosition.y)
 
 		for slot4, slot5 in ipairs(uv1) do
@@ -529,7 +529,7 @@ function slot0.OnDecodeMap(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.UpdatePassWord(slot0, slot1, slot2)
+slot0.UpdatePassWord = function(slot0, slot1, slot2)
 	if slot1 == false then
 		return
 	end
@@ -540,7 +540,7 @@ function slot0.UpdatePassWord(slot0, slot1, slot2)
 	setActive(slot3, true)
 end
 
-function slot0.OnRightCode(slot0, slot1, slot2, slot3)
+slot0.OnRightCode = function(slot0, slot1, slot2, slot3)
 	slot0:UpdatePassWord(slot2, slot3)
 	setActive(slot0.mapItems[slot1]:Find("rays/blue"), true)
 	setActive(slot0.lightRight, true)
@@ -552,7 +552,7 @@ function slot0.OnRightCode(slot0, slot1, slot2, slot3)
 	slot0.timer2:Start()
 end
 
-function slot0.OnFalseCode(slot0, slot1)
+slot0.OnFalseCode = function(slot0, slot1)
 	slot0:RemoveTimers()
 	setActive(slot0.lightLeft, true)
 
@@ -575,7 +575,7 @@ function slot0.OnFalseCode(slot0, slot1)
 	end))
 end
 
-function slot0.RemoveTimers(slot0)
+slot0.RemoveTimers = function(slot0)
 	if slot0.timer1 then
 		slot0.timer1:Stop()
 
@@ -589,7 +589,7 @@ function slot0.RemoveTimers(slot0)
 	end
 end
 
-function slot0.OnSuccess(slot0, slot1)
+slot0.OnSuccess = function(slot0, slot1)
 	slot3 = slot0.awardLock
 	slot3 = LeanTween.value(go(slot3:Find("icon")), 0, -140, DecodeGameConst.GET_AWARD_ANIM_TIME / 2)
 	slot3 = slot3:setOnUpdate(System.Action_float(function (slot0)
@@ -608,7 +608,7 @@ function slot0.OnSuccess(slot0, slot1)
 	end))
 end
 
-function slot0.ShowHelper(slot0, slot1, slot2)
+slot0.ShowHelper = function(slot0, slot1, slot2)
 	if PlayerPrefs.GetInt("DecodeGameHelpBg" .. getProxy(PlayerProxy):getRawData().id .. slot1, 0) > 0 then
 		slot2()
 
@@ -634,27 +634,27 @@ function slot0.ShowHelper(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.ShowTip(slot0, slot1)
+slot0.ShowTip = function(slot0, slot1)
 	eachChild(slot0.tips, function (slot0)
 		setActive(slot0, go(slot0).name == tostring(uv0))
 	end)
 end
 
-function slot0.PlayVoice(slot0, slot1)
+slot0.PlayVoice = function(slot0, slot1)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot1)
 end
 
-function slot0.OnSwitchMap(slot0, slot1)
+slot0.OnSwitchMap = function(slot0, slot1)
 	slot0:PlayerMapStartAnim(slot1)
 end
 
-function slot0.PlayerMapStartAnim(slot0, slot1)
+slot0.PlayerMapStartAnim = function(slot0, slot1)
 	setActive(slot0.decodeTV, true)
 	table.insert(slot0.animCallbacks, slot1)
 	slot0.anim:SetTrigger("trigger")
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 
 	slot0.mapItems = nil

@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.friendly_data_template = {
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 1,
@@ -11,8 +11,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 2,
@@ -21,8 +21,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 3,
@@ -31,8 +31,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 4,
@@ -41,8 +41,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 5,
@@ -51,8 +51,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 6,
@@ -61,8 +61,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 7,
@@ -71,8 +71,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 8,
@@ -81,8 +81,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 9,
@@ -91,8 +91,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 10,
@@ -101,8 +101,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 11,
@@ -111,8 +111,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 12,
@@ -121,8 +121,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 13,
@@ -131,8 +131,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 14,
@@ -141,8 +141,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 15,
@@ -151,8 +151,8 @@ pg.friendly_data_template = {
 		ai_mov = 1
 	},
 	{
-		name = "商船编队",
 		ai = 1,
+		name = "商船编队",
 		hp = 20,
 		atk = 0,
 		id = 16,

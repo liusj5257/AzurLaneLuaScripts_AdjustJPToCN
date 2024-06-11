@@ -1,9 +1,9 @@
 pg = pg or {}
 pg.npc_squad_template = {
 	{
+		type = 2,
 		id = 1,
 		task_id = 10048,
-		type = 2,
 		vanguard_list = {
 			{
 				900020,
@@ -13,9 +13,9 @@ pg.npc_squad_template = {
 		main_list = {}
 	},
 	{
+		type = 2,
 		id = 2,
 		task_id = 10049,
-		type = 2,
 		vanguard_list = {
 			{
 				900020,
@@ -25,9 +25,9 @@ pg.npc_squad_template = {
 		main_list = {}
 	},
 	{
+		type = 2,
 		id = 3,
 		task_id = 10050,
-		type = 2,
 		vanguard_list = {
 			{
 				900020,
@@ -37,9 +37,9 @@ pg.npc_squad_template = {
 		main_list = {}
 	},
 	{
+		type = 1,
 		id = 4,
 		task_id = 0,
-		type = 1,
 		vanguard_list = {
 			{
 				900185,
@@ -58,9 +58,9 @@ pg.npc_squad_template = {
 		}
 	},
 	{
+		type = 1,
 		id = 5,
 		task_id = 0,
-		type = 1,
 		vanguard_list = {
 			{
 				900185,
@@ -79,9 +79,9 @@ pg.npc_squad_template = {
 		}
 	},
 	{
+		type = 1,
 		id = 6,
 		task_id = 0,
-		type = 1,
 		vanguard_list = {
 			{
 				900186,
@@ -104,9 +104,9 @@ pg.npc_squad_template = {
 		}
 	},
 	{
+		type = 1,
 		id = 7,
 		task_id = 0,
-		type = 1,
 		vanguard_list = {
 			{
 				900185,

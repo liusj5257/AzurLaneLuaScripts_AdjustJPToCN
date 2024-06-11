@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024罗德尼meta 高维行走 BUFF",
 	time = 4,
-	color = "yellow",
+	name = "2024罗德尼meta 高维行走 BUFF",
+	init_effect = "",
+	id = 200815,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200815,
+	color = "yellow",
 	icon = 200815,
 	last_effect = "heiluodeni_shadow",
 	effect_list = {

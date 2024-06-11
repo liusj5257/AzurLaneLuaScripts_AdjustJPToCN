@@ -1,6 +1,6 @@
 slot0 = class("MainSpinePainting", import(".MainBasePainting"))
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0.bgTr = slot3
@@ -9,11 +9,11 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.uiCam = GameObject.Find("UICamera"):GetComponent("Camera")
 end
 
-function slot0.GetCenterPos(slot0)
-	return slot0.chatTf.parent:InverseTransformPoint(slot0.spTF.position)
+slot0.GetCenterPos = function(slot0)
+	return slot0.spTF.position
 end
 
-function slot0.OnLoad(slot0, slot1)
+slot0.OnLoad = function(slot0, slot1)
 	slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
 		ship = slot0.ship,
 		position = Vector3(0, 0, 0),
@@ -26,7 +26,7 @@ function slot0.OnLoad(slot0, slot1)
 	end)
 end
 
-function slot0.AdJustOrderInLayer(slot0, slot1)
+slot0.AdJustOrderInLayer = function(slot0, slot1)
 	slot2 = 0
 
 	if slot0.container:GetComponent(typeof(Canvas)) and slot3.overrideSorting and slot3.sortingOrder ~= 0 then
@@ -53,7 +53,7 @@ function slot0.AdJustOrderInLayer(slot0, slot1)
 	end
 end
 
-function slot0.InitSpecialTouch(slot0)
+slot0.InitSpecialTouch = function(slot0)
 	slot0.specialClickDic = {}
 
 	if not findTF(slot0.spTF:GetChild(0), "hitArea") then
@@ -152,24 +152,24 @@ function slot0.InitSpecialTouch(slot0)
 	end)
 end
 
-function slot0.OnClick(slot0)
+slot0.OnClick = function(slot0)
 	slot1 = slot0:CollectTouchEvents()
 
 	slot0:TriggerEvent(slot1[math.ceil(math.random(#slot1))])
 end
 
-function slot0.OnDisplayWorld(slot0, slot1)
+slot0.OnDisplayWorld = function(slot0, slot1)
 	if ShipExpressionHelper.GetExpression(slot0.paintingName, slot1, slot0.ship:getCVIntimacy(), slot0.ship.skinId) ~= "" then
 		slot0.spinePainting:SetAction(slot3, 1)
 	end
 end
 
-function slot0.OnDisplayWordEnd(slot0)
+slot0.OnDisplayWordEnd = function(slot0)
 	uv0.super.OnDisplayWordEnd(slot0)
 	slot0.spinePainting:SetEmptyAction(1)
 end
 
-function slot0.OnLongPress(slot0)
+slot0.OnLongPress = function(slot0)
 	if slot0.isFoldState then
 		return
 	end
@@ -179,7 +179,7 @@ function slot0.OnLongPress(slot0)
 	})
 end
 
-function slot0.OnUnload(slot0)
+slot0.OnUnload = function(slot0)
 	if slot0.spinePainting then
 		slot0.spinePainting:Dispose()
 
@@ -191,17 +191,17 @@ function slot0.OnUnload(slot0)
 	end
 end
 
-function slot0.GetOffset(slot0)
+slot0.GetOffset = function(slot0)
 	return slot0.spTF.localPosition.x
 end
 
-function slot0.OnPuase(slot0)
+slot0.OnPuase = function(slot0)
 	if slot0.spinePainting then
 		slot0.spinePainting:SetVisible(false)
 	end
 end
 
-function slot0.OnResume(slot0)
+slot0.OnResume = function(slot0)
 	if slot0.spinePainting then
 		slot0.spinePainting:SetVisible(true)
 		slot0.spinePainting:SetEmptyAction(1)

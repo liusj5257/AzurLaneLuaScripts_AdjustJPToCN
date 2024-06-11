@@ -6,8 +6,8 @@ return {
 			style = {
 				text = "エリアにあるマークをタップし、探索先を選択しよう！",
 				mode = 1,
-				posY = -80,
 				dir = -1,
+				posY = -80,
 				posX = -561.6
 			},
 			ui = {

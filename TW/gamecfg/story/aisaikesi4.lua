@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"前輩與心結\n\n<size=45>四　Essex vs Enterprise</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-1",
+			say = "演習海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,13 +46,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "這就是最後的勝負了，能一路贏過來，不愧是我引以為傲的後輩！",
 			soundeffect = "event:/battle/plane",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "這就是最後的勝負了，能一路贏過來，不愧是我引以為傲的後輩！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,10 +66,10 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "前輩才是，總是游刃有餘的樣子…",
+			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
+			actor = 107090,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "艾塞克斯&企業",
 			say = "<size=45>哈啊啊啊啊啊！！！</size>",
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "哦哦…燃起來了~",
 			effects = {
 				{
@@ -183,13 +183,13 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "看招！",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,13 +200,13 @@ return {
 			}
 		},
 		{
+			nameColor = "#a9f548",
+			side = 2,
+			bgName = "bg_story_nepu1",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 107060,
-			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
-			side = 2,
-			dir = 1,
 			say = "不錯！但還是太嫩了！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -249,13 +249,13 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "前輩的攻擊我已經預料到了！接下來是我的反擊時間！",
 			soundeffect = "event:/battle/boom2",
+			actor = 107090,
+			say = "前輩的攻擊我已經預料到了！接下來是我的反擊時間！",
 			flashN = {
 				color = {
 					1,
@@ -298,9 +298,9 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/plane",
-			bgName = "bg_story_nepu1",
 			say = "——！！",
+			bgName = "bg_story_nepu1",
+			soundeffect = "event:/battle/plane",
 			flashN = {
 				color = {
 					1,

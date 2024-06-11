@@ -1,6 +1,6 @@
 slot0 = class("GetThemeTemplatePlayerInfoCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.templateId
 	slot5 = slot2.userId
@@ -8,7 +8,7 @@ function slot0.execute(slot0, slot1)
 	slot7 = getProxy(DormProxy)
 
 	if slot2.type == BackYardConst.THEME_TEMPLATE_TYPE_SHOP or slot3 == BackYardConst.THEME_TEMPLATE_TYPE_COLLECTION then
-		function slot8(slot0)
+		slot8 = function(slot0)
 			slot1 = CourtYardThemeOwner.New(slot0.player)
 
 			if uv0:GetShopThemeTemplateById(uv1) then

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUIZHENGUIDEBAOWU8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZUIZHENGUIDEBAOWU8",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "level02",
 			actor = 408040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Oww! Submarines really aren't meant for face-to-face combat...!",
-			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			say = "Dang it... Crash diving...!",
 			typewriter = {
 				speed = 0.05,
@@ -92,8 +92,8 @@ return {
 			say = "... Bulldog?",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 900201,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Bulldog",
+			actor = 900201,
 			dir = 1,
+			actorName = "Bulldog",
 			say = "... Right here. I'm all right.",
 			effects = {
 				{
@@ -172,10 +172,10 @@ return {
 			}
 		},
 		{
-			actor = 201070,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 201070,
 			say = "Amazon? I'm sorry if I blinded you.",
 			effects = {
 				{
@@ -313,8 +313,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Amazon looked in the direction U-556 swam towards.",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Her sonar is still picking up signs of Iron Blood submarines, but they seem to be going way off course from where their cargo ships are heading.",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "With the Enigma machine and codebooks in their hands, the two destroyers headed back to the area where their cargo ships were positioned.",
 			typewriter = {
 				speed = 0.05,

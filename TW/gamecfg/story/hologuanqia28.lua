@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA28",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA28",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500070,
 			dir = 1,
+			bgm = "holo-control",
+			actor = 10500070,
 			actorName = "澪川依代",
 			say = "不…不行了！",
-			bgm = "holo-control",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			actorName = "燕子花奈切",
 			say = "到此为止了么…",
 			typewriter = {
@@ -43,9 +43,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "又是和之前一样的传送指令把她们传送走了！",
 			flashout = {
 				dur = 1,
@@ -90,8 +90,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "呼…虽说知道是塞壬制造出的战斗兵器，不过就这么真的将其破坏心理压力还是挺大的",
 			typewriter = {
 				speed = 0.05,
@@ -105,9 +105,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "要是都像这么在最后一丝血被传送走，也算能放下心里负担全力战斗了~果然真品是不可能输给赝品的！",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,8 +132,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "唉…还好这里不是剧场版，也不是EX关……",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "我已经不会再犹豫了，只有阻止塞壬的计划，才能真正结束这一切",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900021,
 			dir = 1,
+			actor = 900021,
 			actorName = "净化亲",
 			say = "这边听得到哦！",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301050,
 			dir = 1,
+			actor = 301050,
 			say = "Z23，妳们那边做了什么吗？",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301050,
 			dir = 1,
+			actor = 301050,
 			say = "倒不是基地的事…",
 			typewriter = {
 				speed = 0.05,
@@ -348,8 +348,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201210,
 			dir = 1,
+			actor = 201210,
 			say = "是空中！就在刚刚一道黑色的光幕突然凭空出现在海面上封锁了水面！从距离看，正好就是妳们迷宫的另一边出口左右。",
 			typewriter = {
 				speed = 0.05,
@@ -391,8 +391,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "如标枪所说，一道巨大的光幕，不知何时出现在了空中。",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…该说是空中么？它几乎横跨了整片海洋，看不到顶端，也看不到边缘。",
 			typewriter = {
 				speed = 0.05,
@@ -420,8 +420,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "跟妳们说啊！这道屏障简直坚固的离谱！！刚刚诗音火力全开，居然！连一个窟窿都没打出来！",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "明显是那种由GM制造出来，在设定上不可通行的防御壁呢…",
 			typewriter = {
 				speed = 0.05,
@@ -482,8 +482,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "那个，如果水面和天空都不行的话…",
 			typewriter = {
 				speed = 0.05,
@@ -498,8 +498,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "祭也许，有一个办法…",
 			typewriter = {
 				speed = 0.05,

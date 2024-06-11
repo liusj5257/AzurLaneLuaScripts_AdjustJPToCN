@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGJIE4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WANSHENGJIE4",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "抱歉，吾輩遇到了緊急事態——妳們有看到吾輩的南瓜派嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 306051,
+			say = "沒有……怎麼了？",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:87}",
 			dir = 1,
-			say = "沒有……怎麼了？",
+			actor = 306051,
+			actorName = "{namecode:87}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -55,8 +55,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "{namecode:19}姐烤的南瓜派消失了……",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "可惡……為了讓妹妹們吃到最好吃的派，吾輩努力了三個星期，結果剛剛出爐吾輩還沒嘗味就全都消失了！",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "派出爐後{namecode:19}姐回屋換外出服，在她換好衣服前我一直在玄關前發呆——然後，派就不見了……",
 			typewriter = {
 				speed = 0.05,
@@ -103,8 +103,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "吾輩換好衣服後，那些派就一個不剩地全都消失了——",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "倒也不是“一個不剩”，我有嘗一個，很好吃",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "真的嗎？妳可不要騙姐姐！",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:87}",
 			dir = 1,
+			actorName = "{namecode:87}",
 			say = "那時候這裡只有妳們兩個人？",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:87}",
 			dir = 1,
+			actorName = "{namecode:87}",
 			say = "克里夫蘭！？",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "妳“路過”了那麼久嗎",
 			typewriter = {
 				speed = 0.05,
@@ -259,8 +259,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:19}",
 			dir = 1,
+			actorName = "{namecode:19}",
 			say = "——（盯）",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +275,8 @@ return {
 			actor = 301051,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "不會是克里夫蘭，她身上藏不了那麼多派",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "海上騎士的寶貴時間可不要總用在“路過”別人家上",
 			typewriter = {
 				speed = 0.05,
@@ -322,8 +322,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "萬聖節的準備很充分，少了姐姐這份也沒有什麼影響……",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "笨蛋{namecode:20}，什麼叫“沒什麼影響”！妹妹們期待吾輩的南瓜派很久了，可惡，現在再烤一爐……",
 			typewriter = {
 				speed = 0.05,
@@ -354,8 +354,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "馬上就要入夜了，時間已經來不及了。而且，大家至少都嘗過試做的派……",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "可這次才是最完美的！",
 			typewriter = {
 				speed = 0.05,
@@ -386,8 +386,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "萬聖夜可不是用來烤派的。姐姐，她們都在那邊等妳呢",
 			typewriter = {
 				speed = 0.05,
@@ -402,8 +402,8 @@ return {
 			actor = 301171,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:19}",
 			dir = -1,
+			actorName = "{namecode:19}",
 			say = "只能自認倒楣了嗎……可惡，這番屈辱吾輩記住了！",
 			typewriter = {
 				speed = 0.05,
@@ -418,8 +418,8 @@ return {
 			actor = 301180,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:20}",
 			dir = 1,
+			actorName = "{namecode:20}",
 			say = "{namecode:87}、{namecode:6}、克里夫蘭……笨蛋姐姐，今晚玩得開心……",
 			typewriter = {
 				speed = 0.05,
@@ -446,15 +446,15 @@ return {
 			}
 		},
 		{
-			actor = 306051,
 			actorName = "{namecode:87}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 306051,
+			nameColor = "#a9f548",
 			say = "克里夫蘭，海倫娜為什麼沒有跟妳一起來？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -501,8 +501,8 @@ return {
 			actor = 301051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "所以才會在{namecode:19}宿舍附近休息了好一會兒嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -529,17 +529,17 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "很好，這樣就準備萬全了！嗯……應該沒有遺漏什麼吧",
 			side = 2,
-			actorName = "？？？",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actorName = "？？？",
+			actor = 307060,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "很好，這樣就準備萬全了！嗯……應該沒有遺漏什麼吧",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

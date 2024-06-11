@@ -7,16 +7,16 @@ slot0.SCROLL_OFFSET = 4.13
 slot0.DIALOG_TIME = 0.5
 slot0.DEFAULT_DIALOG_TIME = 4
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SenrankaguraTrainUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:InitData()
 	slot0:InitTF()
 end
 
-function slot0.InitTF(slot0)
+slot0.InitTF = function(slot0)
 	slot0.top = slot0:findTF("top")
 	slot0.buttonAward = slot0:findTF("btn_award", slot0.top)
 	slot0.buttonBack = slot0:findTF("btn_back", slot0.top)
@@ -45,7 +45,7 @@ function slot0.InitTF(slot0)
 	slot0.testAward = slot0:findTF("testaward", slot0.top)
 end
 
-function slot0.InitData(slot0)
+slot0.InitData = function(slot0)
 	slot0.activity = getProxy(ActivityProxy):getActivityById(uv0.ACT_ID)
 	slot0.ptCount = slot0.activity.data1
 	slot0.attrLevel = slot0.activity.data1_list
@@ -57,7 +57,7 @@ function slot0.InitData(slot0)
 	slot0.standAnim = slot0.activity:getConfig("config_client").stand_anim
 end
 
-function slot0.InitButton(slot0)
+slot0.InitButton = function(slot0)
 	for slot4 = 1, slot0.attrGroup.childCount do
 		slot7 = slot0.attrGroup
 
@@ -133,7 +133,7 @@ function slot0.InitButton(slot0)
 		setActive(uv0.levelWindow, false)
 	end, SFX_CANCEL)
 
-	function slot4()
+	slot4 = function()
 		setActive(uv0.showWindow, false)
 		uv0:GetAward(uv0.awardList)
 	end
@@ -163,7 +163,7 @@ function slot0.InitButton(slot0)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:InitButton()
 
 	slot0.taskList = UIItemList.New(slot0.awardContent, slot0.awardItem)
@@ -204,7 +204,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateFlush()
 end
 
-function slot0.UpdateTask(slot0, slot1, slot2)
+slot0.UpdateTask = function(slot0, slot1, slot2)
 	slot1 = slot1 + 1
 	slot3 = slot0:findTF("IconTpl", slot2)
 
@@ -224,7 +224,7 @@ function slot0.UpdateTask(slot0, slot1, slot2)
 	setActive(slot0:findTF("mask", slot2), table.contains(slot0.awardGotList, slot1))
 end
 
-function slot0.ShowDialog(slot0, slot1, slot2)
+slot0.ShowDialog = function(slot0, slot1, slot2)
 	slot0.LTList = {}
 
 	if slot2 then
@@ -258,7 +258,7 @@ function slot0.ShowDialog(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.HideDialog(slot0)
+slot0.HideDialog = function(slot0)
 	slot3 = LeanTween.scale(slot0.dialog, Vector3.New(0, 0, 0), uv0.DIALOG_TIME)
 	slot3 = slot3:setEase(LeanTweenType.easeOutSine)
 
@@ -267,7 +267,7 @@ function slot0.HideDialog(slot0)
 	end)).uniqueId)
 end
 
-function slot0.LevelUp(slot0, slot1)
+slot0.LevelUp = function(slot0, slot1)
 	slot0.awardList = slot1
 
 	setActive(slot0.levelWindow, false)
@@ -279,7 +279,7 @@ function slot0.LevelUp(slot0, slot1)
 	end)
 end
 
-function slot0.GetAward(slot0, slot1)
+slot0.GetAward = function(slot0, slot1)
 	slot0:emit(BaseUI.ON_ACHIEVE, slot1, function ()
 		uv0.awardList = nil
 
@@ -298,7 +298,7 @@ function slot0.GetAward(slot0, slot1)
 	slot0:UpdateFlush()
 end
 
-function slot0.UpdateFlush(slot0)
+slot0.UpdateFlush = function(slot0)
 	slot0.activity = getProxy(ActivityProxy):getActivityById(uv0.ACT_ID)
 	slot0.ptCount = slot0.activity.data1
 	slot0.attrLevel = slot0.activity.data1_list
@@ -312,7 +312,7 @@ function slot0.UpdateFlush(slot0)
 	setText(slot0.ptText, slot0.ptCount)
 	setText(slot0.levelPtText, slot0.ptCount)
 
-	function slot1(slot0, slot1)
+	slot1 = function(slot0, slot1)
 		for slot5 = 1, slot0.childCount do
 			slot6 = slot0:GetChild(slot5 - 1)
 
@@ -332,7 +332,7 @@ function slot0.UpdateFlush(slot0)
 	slot0.taskList:align(#slot0.rewardList)
 end
 
-function slot0.SetAnim(slot0, slot1, slot2, slot3)
+slot0.SetAnim = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:GetComponent(typeof(SpineAnimUI))
 
 	slot4:SetActionCallBack(nil)
@@ -348,13 +348,13 @@ function slot0.SetAnim(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	for slot4, slot5 in pairs(slot0.LTList) do
 		LeanTween.cancel(slot5)
 	end
 end
 
-function slot0.IsShowRed()
+slot0.IsShowRed = function()
 	slot0 = getProxy(ActivityProxy):getActivityById(uv0.ACT_ID)
 	slot2 = pg.activity_event_pt_consume[1].target
 	slot3 = slot0.data1

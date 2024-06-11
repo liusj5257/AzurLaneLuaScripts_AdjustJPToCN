@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z466",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z466",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"순백의 시\n\n<size=45>6.속박</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "출격이 끝났다.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "10여척의 양산형 적함, 몇 기의 '장기말'. 중간 규모의 함대지만 탄약이 다 떨어진 우리에게는 상대하기 어려운 적이었다.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "나는 전력을 다해 싸웠다.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "포신이 과열되어 멈출 때까지 수십차례, 멈추지 않고 주포를 발사했다. 온몸이 만신창이였다.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "몸을 감싼 천과 장비들은 모두 원래의 색을 잃고 짙은 회색으로 물들어 있었다.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,13 +77,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgmDelay = 2,
-			bgName = "bg_story_task",
 			say = "항구-지휘실",
+			bgName = "bg_story_task",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -214,8 +214,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			stopbgm = true,
+			blackBg = true,
 			say = "나의 마음이 그렇게 외치고 있어. 만약 그렇지 않다면, 나에게 의미를 부여해줘.",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "병기가 아니라 당신이 바라는 나에게 싸워야 하는 이유를 줘.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,8 +239,8 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "사랑하는 당신의 옆에 남아있을 나에게 부를 수 있는 이름을 줘.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,8 +251,8 @@ return {
 			}
 		},
 		{
-			say = "나에게, 나만의 색깔을 줘.",
 			blackBg = true,
+			say = "나에게, 나만의 색깔을 줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

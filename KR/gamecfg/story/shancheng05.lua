@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENG05",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHANCHENG05",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 305020,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "나, 나으리이!",
 			typewriter = {
 				speed = 0.05,
@@ -34,10 +34,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#92fc63",
 			say = "…？",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,8 +51,8 @@ return {
 			actor = 305020,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "수, 수영 대회 같이 가실래요?",
 			typewriter = {
 				speed = 0.05,
@@ -66,10 +66,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#92fc63",
 			say = "……！？",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,8 +83,8 @@ return {
 			actor = 305020,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "실은……",
 			typewriter = {
 				speed = 0.05,
@@ -96,15 +96,15 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			actorName = "{namecode:79}",
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#92fc63",
 			say = "그래서… 심신단련을 위해, 함께 참가했으면 좋겠어요!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -131,10 +131,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#92fc63",
 			say = "……",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,8 +148,8 @@ return {
 			actor = 305020,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "아, 안 될까요… 모처럼 나리가 선물해 준 수영복까지 준비했는데……",
 			typewriter = {
 				speed = 0.05,
@@ -163,10 +163,10 @@ return {
 		{
 			actor = 0,
 			side = 0,
+			withoutPainting = true,
+			dir = 1,
 			nameColor = "#92fc63",
 			say = "(끄덕)",
-			dir = 1,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,8 +180,8 @@ return {
 			actor = 305020,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:79}",
 			dir = 1,
+			actorName = "{namecode:79}",
 			say = "괜찮나요?! 에헤헤… 그럼, 이따 휴가 씨한테 가자고요!",
 			typewriter = {
 				speed = 0.05,

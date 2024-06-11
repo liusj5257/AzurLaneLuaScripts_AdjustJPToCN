@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_20 = {}
 slot1 = slot0.word_template_20
 
-function temp()
+temp = function()
 	uv0["列"] = {
 		["宁"] = {
 			this = true
@@ -16,7 +16,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["斯"] = {
 		["大"] = {
 			["林"] = {
@@ -46,7 +46,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["恩"] = {
 		["格"] = {
 			["斯"] = {
@@ -58,7 +58,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["金"] = {
 		["正"] = {
 			["日"] = {

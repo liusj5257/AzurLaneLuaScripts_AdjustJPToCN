@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 剧情战1 定时触发弹幕",
 	time = 0,
-	color = "yellow",
+	name = "2023英系活动 剧情战1 定时触发弹幕",
+	init_effect = "",
+	id = 200349,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200349,
+	color = "yellow",
 	icon = 200349,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 22,
+				target = "TargetSelf",
 				skill_id = 200348
 			}
 		},
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 24,
+				target = "TargetSelf",
 				skill_id = 200349
 			}
 		},
@@ -41,8 +41,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200350,
-				target = "TargetAllHarm",
 				time = 26,
+				target = "TargetAllHarm",
 				quota = 1
 			}
 		}

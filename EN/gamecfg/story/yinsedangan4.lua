@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINSEDANGAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINSEDANGAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Access authentication in progress–––",
@@ -35,10 +35,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_1100",
 			paintingNoise = true,
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "star_level_bg_1100",
 			bgm = "bsm-2",
 			actor = 107030,
 			nameColor = "#a9f548",
@@ -65,8 +65,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "\"The aforementioned ship rushed to the source of the signal to investigate.\"",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "\"Carrier-based reconnaissance revealed a large amount of Siren wreckage in the western sector.\"",
 			typewriter = {
@@ -153,8 +153,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "\"The Sakura Fleet.\"",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Even if I wanted to help, I was simply too far away... Besides, given how tricky things are with the Crimson Axis...",
 			typewriter = {
@@ -241,8 +241,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "\"Finally, considering the damage inflicted upon the Sakura Empire fleet, we can conclude that the command unit did not need to participate in combat to achieve its desired results.\"",
 			typewriter = {
@@ -258,8 +258,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "That's why I tried to send a fleet after it as quickly as possible!",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "But in the end, I couldn't figure out what the Siren was up to...",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "\"Regarding the special phenomenon...\"",
 			typewriter = {
@@ -345,8 +345,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "\"In addition to repelling the humanoid Siren, almost all mass-produced ships in range of the shockwave were destroyed.\"",
 			typewriter = {
@@ -362,8 +362,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "\"However, the other ships of the Sakura Empire were not visibly affected by the effects of this shockwave.\"",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "\"Based upon the extent of the damage inflicted to these carriers, this attack was unlikely to have been carried out using any weapons we currently know of.\"",
 			typewriter = {
@@ -432,8 +432,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "I could've sworn I've seen her at some point...",
 			typewriter = {
@@ -449,8 +449,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "But when...?",
 			typewriter = {
@@ -466,8 +466,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "Who was it...?",
 			typewriter = {
@@ -483,8 +483,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "Playback error, missing file path.",
 			typewriter = {
@@ -500,9 +500,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actor = 900284,
 			dir = 1,
 			blackBg = true,
+			actor = 900284,
 			nameColor = "#a9f548",
 			say = "Ending playback.",
 			typewriter = {

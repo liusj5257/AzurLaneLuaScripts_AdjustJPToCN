@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT5-1",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT5-1",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "level-uta",
 			actor = 10300040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "——这个世界是异世界",
-			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,10 +24,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "看来，我们是来到了一个和我们的世界不一样的世界了呢……我推测我们是被什么黑科技或者咒术给强制传送到这里的",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "看来，我们是来到了一个和我们的世界不一样的世界了呢……我推测我们是被什么黑科技或者咒术给强制传送到这里的",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -60,8 +60,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "如果我说我们是从异世界来的……妳们也不会相信吧",
 			typewriter = {
 				speed = 0.05,
@@ -91,8 +91,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "常有的事？！这也太……怎么回事？",
 			typewriter = {
 				speed = 0.05,

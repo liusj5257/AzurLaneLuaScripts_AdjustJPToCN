@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_1 = {}
 slot1 = slot0.word_template_1
 
-function temp()
+temp = function()
 	uv0["屏"] = {
 		["蔽"] = {
 			this = true,
@@ -36,7 +36,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.C = {
 		h = {
 			i = {
@@ -245,7 +245,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.W = {
 		u = {
 			h = {
@@ -410,7 +410,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["5"] = {
 		[" "] = {
 			d = {
@@ -767,7 +767,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.F = {
 		i = {
 			v = {
@@ -916,7 +916,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.c = {
 		h = {
 			i = {
@@ -1259,7 +1259,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.a = {
 		n = {
 			a = {

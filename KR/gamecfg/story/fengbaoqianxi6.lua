@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FENGBAOQIANXI6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FENGBAOQIANXI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-4",
 			say = "이글 유니온 근해, 경계 해역, Risk 3",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

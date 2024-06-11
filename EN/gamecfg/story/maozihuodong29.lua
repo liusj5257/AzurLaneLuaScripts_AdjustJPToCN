@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG29",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG29",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "Years ago, in the Northern Parliament...",
 			side = 2,
 			bgName = "bg_cccp_8",
 			dir = 1,
 			bgmDelay = 2,
-			say = "Years ago, in the Northern Parliament...",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,9 +55,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_8",
+			dir = 1,
 			say = "Avrora, a first-generation ship who was born in this era, looked around.",
 			typewriter = {
 				speed = 0.05,
@@ -117,12 +117,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_cccp_8",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "...Let's begin, for the future of the Northern Parliament.",
 			typewriter = {
 				speed = 0.05,

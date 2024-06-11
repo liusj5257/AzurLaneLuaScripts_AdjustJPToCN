@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "恪尽职守",
 	init_effect = "",
+	id = 11990,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 11990,
+	color = "red",
 	icon = 11990,
 	last_effect = "",
 	effect_list = {
@@ -43,8 +43,8 @@ return {
 			},
 			arg_list = {
 				check_target = "TargetShipTypeFriendly",
-				maxTargetNumber = 1,
 				skill_id = 11990,
+				maxTargetNumber = 1,
 				ship_type_list = {
 					6,
 					7
@@ -59,8 +59,8 @@ return {
 			arg_list = {
 				minTargetNumber = 2,
 				check_target = "TargetShipTypeFriendly",
-				skill_id = 11992,
 				maxTargetNumber = 2,
+				skill_id = 11992,
 				ship_type_list = {
 					6,
 					7
@@ -74,8 +74,8 @@ return {
 			},
 			arg_list = {
 				check_target = "TargetShipTypeFriendly",
-				minTargetNumber = 3,
 				skill_id = 11991,
+				minTargetNumber = 3,
 				ship_type_list = {
 					6,
 					7

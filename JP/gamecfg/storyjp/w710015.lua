@@ -1,12 +1,12 @@
 return {
-	id = "W710015",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710015",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "得到了黑方舟的记忆碎片",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "到意识之海使用试试看吧。",
 			typewriter = {
 				speed = 0.05,

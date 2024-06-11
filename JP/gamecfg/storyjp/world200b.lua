@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD200B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD200B",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "リバープール・ロイヤル艦隊集結ポイント",
 			side = 2,
 			bgName = "bg_port_liwupu",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-richang",
+			say = "リバープール・ロイヤル艦隊集結ポイント",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -147,8 +147,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#a9f548",
 			say = "アイリスの援軍が来るのは予想外ですわ。たしか上層部の交渉にもリシュリューさん、最初は渋っていましたわね",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#a9f548",
 			say = "リシュリューさん、しっかりしていますわ",
 			typewriter = {
@@ -197,8 +197,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "フッド様、聞こえておりますでしょうか。王都予備艦隊担当のニューカッスルです。通信の状況はいかがでしょうか？",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "ええ、通信感度良好ですわ。願わくばセイレーン海域にもこのままの調子でいてほしいですわね",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "全力でサポートいたします。通信機のほうは上層部より配備された最新仕様の機材になっていますので、セイレーンによるジャミング効果を軽減できるかと",
 			typewriter = {
@@ -248,8 +248,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#a9f548",
 			say = "（よくよく考えてみると…うちは通信の関係でよく悩まされてません？）",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "陛下と上層部、そして指揮官からの連絡は私が担当いたします。現場の判断・作戦指示はフッド様に何卒よろしくお願いいたします",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "また、陛下のほうで進展がありましたら、その都度出撃チームにお知らせいたします",
 			typewriter = {
@@ -312,11 +312,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "では、これよりセイレーン作戦を開始します。各艦作戦計画通り、エリアを順次確保してください。――女王陛下に栄光を！",
 			effects = {
 				{

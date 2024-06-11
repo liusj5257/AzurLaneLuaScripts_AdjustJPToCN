@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "2022美系活动EX 我方群体上BUFF",
 	init_effect = "",
-	color = "red",
+	id = 200325,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200325,
+	color = "red",
 	icon = 200325,
 	last_effect = "",
 	blink = {

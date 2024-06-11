@@ -1,15 +1,15 @@
 return {
-	id = "DIEHAIMENGHUA11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "DIEHAIMENGHUA11",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-2",
 			say = "늦은 밤, 푸른 그림자가 바다를 빠르게 질주하고 있었다.",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "잔불…… 이번에는 반드시 정체를 밝혀주겠어!",
 			typewriter = {
 				speed = 0.05,
@@ -53,13 +53,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 306090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "엣…? 시나노님?! 드디어 깨어났구나…!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,8 +97,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "(카시노, 치토세, 치요다…? 기원제에 온 적이 없었는데.)",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "(현세에서 겪은 일이 꿈에도 영향을 미치는 건가.)",
 			typewriter = {
 				speed = 0.05,
@@ -158,9 +158,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 306090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "어렵게 세이렌을 다 처리했는데 어디선가 또 처음 보는 적이 나타났어!",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			say = "세이렌의 신형 병기일지도 모르겠는데…",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			say = "다른 사람들을 함대를 이끌고 수상한 적을 추격하는 중이야. 하지만 적과의 전력 차이가 너무 커서 불리해……",
 			typewriter = {
 				speed = 0.05,
@@ -232,8 +232,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			say = "아, 오해예요. 전선에서 도망쳐온 것은 아니랍니다.",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			say = "적의 목적은 신석을 파괴해서 하늘 기원제를 망치는 것이라고 미카사 대선배가 그랬거든요. 그래서 신석을 다른 곳으로 옮기라는 명령을 받았어요.",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "……나는 적을 막으러 가보겠어. 너희는 반드시 해약을 안전하게 보호하도록.",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			say = "네. 무운을 빌어요.",
 			typewriter = {
 				speed = 0.05,
@@ -310,9 +310,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 306080,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "에? 시나노님이 직접 나서는 건가? 다행이군!",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -352,8 +352,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			say = "…………맡겨 두도록.",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "风帆蛋船 运输船狂热光环",
 	time = 0,
-	color = "yellow",
+	name = "风帆蛋船 运输船狂热光环",
+	init_effect = "",
+	id = 200616,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200616,
+	color = "yellow",
 	icon = 200616,
 	last_effect = "",
 	effect_list = {

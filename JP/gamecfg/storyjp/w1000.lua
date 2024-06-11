@@ -1,12 +1,12 @@
 return {
-	id = "W1000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "このエリアの雰囲気が明らかに違う。気をつけて探索してみよう。",
 			typewriter = {
 				speed = 0.05,

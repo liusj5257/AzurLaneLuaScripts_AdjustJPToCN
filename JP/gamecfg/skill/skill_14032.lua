@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "五次堆叠",
 	cd = 0,
+	picture = "0",
+	desc = "buff",
 	painting = 0,
 	id = 14031,
-	picture = "0",
 	castCV = "skill",
-	desc = "buff",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

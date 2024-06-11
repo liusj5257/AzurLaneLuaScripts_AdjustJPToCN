@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024愚人节 BOSS召唤自爆船 初始位置随机",
 	time = 0,
-	color = "yellow",
+	name = "2024愚人节 BOSS召唤自爆船 初始位置随机",
+	init_effect = "",
+	id = 200896,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200896,
+	color = "yellow",
 	icon = 200896,
 	last_effect = "",
 	effect_list = {

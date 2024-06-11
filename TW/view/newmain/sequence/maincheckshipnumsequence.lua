@@ -1,6 +1,6 @@
 slot0 = class("MainCheckShipNumSequence")
 
-function slot0.Execute(slot0, slot1)
+slot0.Execute = function(slot0, slot1)
 	pg.m02:sendNotification(GAME.GET_SHIP_CNT, {
 		callback = function (slot0)
 			if uv0:Check(slot0) then
@@ -10,8 +10,8 @@ function slot0.Execute(slot0, slot1)
 	})
 end
 
-function slot0.Check(slot0, slot1)
-	if not (slot1 <= getProxy(BayProxy):getShipCount()) then
+slot0.Check = function(slot0, slot1)
+	if not (slot1 <= getProxy(BayProxy):getRawShipCount()) then
 		originalPrint(slot1, slot2)
 		slot0:ShowTip()
 	end
@@ -19,7 +19,7 @@ function slot0.Check(slot0, slot1)
 	return slot3
 end
 
-function slot0.ShowTip(slot0)
+slot0.ShowTip = function(slot0)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		modal = true,
 		hideNo = true,

@@ -13,7 +13,7 @@ slot0.DROP_AREA_SAFE = 1
 slot0.DROP_AREA_WARN = 2
 slot0.DROP_AREA_DANGER = 3
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.model = PileGameModel.New(slot0)
 	slot0.view = PileGameView.New(slot0)
 	slot0.state = uv0.STATE_IDLE
@@ -22,14 +22,14 @@ function slot0.Ctor(slot0)
 	slot0.shakePositions = {}
 end
 
-function slot0.SetUp(slot0, slot1, slot2)
+slot0.SetUp = function(slot0, slot1, slot2)
 	slot0.model:NetData(slot1)
 	slot0.view:OnEnterGame(slot1)
 
 	slot0.gameEndCb = slot2
 end
 
-function slot0.StartGame(slot0)
+slot0.StartGame = function(slot0)
 	seriesAsync({
 		function (slot0)
 			uv0.locked = false
@@ -52,11 +52,11 @@ function slot0.StartGame(slot0)
 	})
 end
 
-function slot0.setGameStartCallback(slot0, slot1)
+slot0.setGameStartCallback = function(slot0, slot1)
 	slot0.gameStateCallback = slot1
 end
 
-function slot0.ExitGame(slot0)
+slot0.ExitGame = function(slot0)
 	slot0.locked = false
 	slot0.shakePositions = {}
 	slot0.state = uv0.STATE_EXIT
@@ -73,7 +73,7 @@ function slot0.ExitGame(slot0)
 	slot0.view:OnGameExited()
 end
 
-function slot0.Drop(slot0)
+slot0.Drop = function(slot0)
 	if slot0.state == uv0.STATE_START and not slot0.locked then
 		slot0.state = uv0.STATE_DROPING
 
@@ -81,7 +81,7 @@ function slot0.Drop(slot0)
 	end
 end
 
-function slot0.OnInitGame(slot0)
+slot0.OnInitGame = function(slot0)
 	if not slot0.handle then
 		slot0.handle = UpdateBeat:CreateListener(slot0.Update, slot0)
 	end
@@ -95,7 +95,7 @@ function slot0.OnInitGame(slot0)
 	slot0.view:InitSup(slot0.model)
 end
 
-function slot0.OnPrepare(slot0, slot1)
+slot0.OnPrepare = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			uv0.view:UpdateScore(uv0.model.score)
@@ -127,8 +127,8 @@ function slot0.OnPrepare(slot0, slot1)
 	}, slot1)
 end
 
-function slot0.OnStartGame(slot0, slot1)
-	function slot2()
+slot0.OnStartGame = function(slot0, slot1)
+	slot2 = function()
 		uv0.state = uv1.STATE_SINK_DONE
 		uv0.item = uv0.model:AddPileByRandom()
 
@@ -157,7 +157,7 @@ function slot0.OnStartGame(slot0, slot1)
 	end
 end
 
-function slot0.RemoveLockTimer(slot0)
+slot0.RemoveLockTimer = function(slot0)
 	if slot0.lockTimer then
 		slot0.lockTimer:Stop()
 
@@ -165,13 +165,13 @@ function slot0.RemoveLockTimer(slot0)
 	end
 end
 
-function slot0.OnEndGame(slot0, slot1)
+slot0.OnEndGame = function(slot0, slot1)
 	slot0.state = uv0.STATE_END
 	slot0.time = 0
 	slot0.shakePositions = {}
 	slot0.locked = false
 
-	function slot2()
+	slot2 = function()
 		uv0.view:OnGameEnd(uv0.model.score, uv0.model.highestScore)
 
 		if uv0.model.highestScore < uv0.model.score then
@@ -192,7 +192,7 @@ function slot0.OnEndGame(slot0, slot1)
 	end
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if slot0.state == uv0.STATE_PREPARE then
 		slot0:OnStartGame()
 	elseif slot0.state == uv0.STATE_START then
@@ -218,7 +218,7 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.PlaySpeAction(slot0)
+slot0.PlaySpeAction = function(slot0)
 	for slot4, slot5 in pairs(slot0.model.items) do
 		if slot5 ~= slot0.item then
 			slot0.view:PlaySpeAction(slot5)
@@ -226,7 +226,7 @@ function slot0.PlaySpeAction(slot0)
 	end
 end
 
-function slot0.StopShake(slot0)
+slot0.StopShake = function(slot0)
 	for slot4, slot5 in ipairs(slot0.shakePositions) do
 		slot5[1].onTheMove = false
 	end
@@ -234,13 +234,13 @@ function slot0.StopShake(slot0)
 	slot0.shakePositions = {}
 end
 
-function slot0.CheckRock(slot0)
+slot0.CheckRock = function(slot0)
 	if slot0.model:GetDropArea(slot0.model:GetTailItem()) == uv0.DROP_AREA_WARN then
 		slot0.shakePositions = slot0.model:GetInitPos()
 	end
 end
 
-function slot0.DoShake(slot0)
+slot0.DoShake = function(slot0)
 	slot1 = Time.deltaTime * PileGameConst.SHAKE_SPEED
 	slot2 = slot0.shakePositions[1][1].position
 
@@ -269,7 +269,7 @@ function slot0.DoShake(slot0)
 	end
 end
 
-function slot0.DoSink(slot0, slot1)
+slot0.DoSink = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6 = 1, #slot0.model.items do
@@ -294,7 +294,7 @@ function slot0.DoSink(slot0, slot1)
 	end)
 end
 
-function slot0.Shuffling(slot0)
+slot0.Shuffling = function(slot0)
 	slot1 = Time.deltaTime * slot0.item.speed
 	slot2 = slot0.item.leftMaxPosition
 	slot3 = slot0.item.rightMaxPosition
@@ -315,13 +315,13 @@ function slot0.Shuffling(slot0)
 	slot0.view:OnItemIndexPositionChange(slot0.item)
 end
 
-function slot0.OnStartDrop(slot0)
+slot0.OnStartDrop = function(slot0)
 	if slot0.model:GetDropArea(slot0.item) then
 		slot0.view:OnStartDrop(slot0.item, slot1, slot0.model:CanDropOnPrev(slot0.item))
 	end
 end
 
-function slot0.Droping(slot0)
+slot0.Droping = function(slot0)
 	slot0.item.onTheMove = false
 	slot0.item.position = Vector3.MoveTowards(slot0.item.position, Vector3(slot0.item.position.x, slot0.model.ground.position.y - 100, 0), Time.deltaTime * slot0.item.dropSpeed)
 
@@ -336,7 +336,7 @@ function slot0.Droping(slot0)
 	end
 end
 
-function slot0.CheckCollide(slot0)
+slot0.CheckCollide = function(slot0)
 	slot1 = slot0.model:IsOnGround(slot0.item)
 	slot3 = slot0.model:IsOverDeathLine(slot0.item)
 
@@ -371,11 +371,11 @@ function slot0.CheckCollide(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	return slot0.view:onBackPressed()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.gameEndCb = nil
 	slot0.locked = false
 

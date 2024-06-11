@@ -12,18 +12,18 @@ slot0.GiftPackTypeName = {
 slot0.Special_ID_Gold = 1
 slot0.Special_ID_Gem = 14
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "RefluxShopUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:updateUI()
 	uv0.SaveEnterTag()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	for slot4, slot5 in pairs(uv0.GiftPackType) do
 		if slot0.packTimerList[slot5] then
 			slot6:Stop()
@@ -39,16 +39,16 @@ function slot0.OnDestroy(slot0)
 	end
 end
 
-function slot0.OnBackPress(slot0)
+slot0.OnBackPress = function(slot0)
 	slot0:Hide()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.refluxProxy = getProxy(RefluxProxy)
 	slot0.shopProxy = getProxy(ShopsProxy)
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	setActive(slot0:findTF("BG/MoneyTip"), false)
 
 	slot0.itemTpl = slot0:findTF("ItemTpl")
@@ -76,7 +76,7 @@ function slot0.initUI(slot0)
 	})
 end
 
-function slot0.updateData(slot0)
+slot0.updateData = function(slot0)
 	slot2 = false
 
 	if slot0:getCurDayGiftPackIDList()[1] then
@@ -96,12 +96,12 @@ function slot0.updateData(slot0)
 	}
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	slot0:updateData()
 	slot0:updatePackList()
 end
 
-function slot0.updateOutline(slot0)
+slot0.updateOutline = function(slot0)
 	for slot5 = 1, slot0.packContainerTF.childCount do
 		slot7 = slot0.packContainerTF:GetChild(slot5 - 1)
 		slot9 = slot0:findTF("TimeLimit/Text", slot7):GetComponent(typeof(Text))
@@ -113,7 +113,7 @@ function slot0.updateOutline(slot0)
 	end
 end
 
-function slot0.updateItem(slot0, slot1, slot2)
+slot0.updateItem = function(slot0, slot1, slot2)
 	slot3 = slot0:findTF("Frame", slot1)
 	slot4 = slot0:findTF("Icon", slot1)
 	slot7 = slot2.id or slot2[2]
@@ -145,7 +145,7 @@ function slot0.updateItem(slot0, slot1, slot2)
 	})
 end
 
-function slot0.updatePack(slot0, slot1, slot2, slot3)
+slot0.updatePack = function(slot0, slot1, slot2, slot3)
 	if slot2 == false then
 		setActive(slot1, false)
 
@@ -258,7 +258,7 @@ function slot0.updatePack(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 end
 
-function slot0.updatePackTimeLimit(slot0, slot1, slot2)
+slot0.updatePackTimeLimit = function(slot0, slot1, slot2)
 	slot5 = slot0:calcNextGiftPackSecByType(uv0.GiftPackTypeName[slot2], slot0:getCurDay())
 
 	if slot0.packTimerList[slot2] then
@@ -267,7 +267,7 @@ function slot0.updatePackTimeLimit(slot0, slot1, slot2)
 		slot0.packTimerList[slot2] = nil
 	end
 
-	function slot7()
+	slot7 = function()
 		if uv0 >= 0 then
 			setText(uv1, pg.TimeMgr.GetInstance():DescCDTime(uv0))
 
@@ -288,7 +288,7 @@ function slot0.updatePackTimeLimit(slot0, slot1, slot2)
 	slot7()
 end
 
-function slot0.updatePackNextTime(slot0, slot1, slot2)
+slot0.updatePackNextTime = function(slot0, slot1, slot2)
 	slot5 = slot0:calcNextGiftPackSecByType(uv0.GiftPackTypeName[slot2], slot0:getCurDay())
 
 	if slot0.packNextTimerList[slot2] then
@@ -297,7 +297,7 @@ function slot0.updatePackNextTime(slot0, slot1, slot2)
 		slot0.packNextTimerList[slot2] = nil
 	end
 
-	function slot7()
+	slot7 = function()
 		if uv0 >= 0 then
 			setText(uv1, pg.TimeMgr.GetInstance():DescCDTime(uv0))
 
@@ -318,11 +318,11 @@ function slot0.updatePackNextTime(slot0, slot1, slot2)
 	slot7()
 end
 
-function slot0.updatePackList(slot0)
+slot0.updatePackList = function(slot0)
 	slot0.packItemList:align(#slot0.goodVOList)
 end
 
-function slot0.isShowRedPot()
+slot0.isShowRedPot = function()
 	if PlayerPrefs.GetInt("RefluxShop_Enter_Day", 0) < getProxy(RefluxProxy).signCount then
 		return true
 	else
@@ -330,11 +330,11 @@ function slot0.isShowRedPot()
 	end
 end
 
-function slot0.SaveEnterTag()
+slot0.SaveEnterTag = function()
 	PlayerPrefs.SetInt("RefluxShop_Enter_Day", getProxy(RefluxProxy).signCount)
 end
 
-function slot0.getCurDay(slot0)
+slot0.getCurDay = function(slot0)
 	if pg.TimeMgr.GetInstance():DiffDay(slot0.refluxProxy.returnTimestamp, pg.TimeMgr.GetInstance():GetServerTime()) < #pg.return_giftpack_template.all then
 		return slot3 + 1
 	else
@@ -342,7 +342,7 @@ function slot0.getCurDay(slot0)
 	end
 end
 
-function slot0.getLevelIndex(slot0, slot1)
+slot0.getLevelIndex = function(slot0, slot1)
 	slot2 = slot1 or slot0:getCurDay()
 	slot4 = slot0.refluxProxy.returnLV
 	slot5 = nil
@@ -356,7 +356,7 @@ function slot0.getLevelIndex(slot0, slot1)
 	end
 end
 
-function slot0.getCurDayGiftPackIDByType(slot0, slot1, slot2)
+slot0.getCurDayGiftPackIDByType = function(slot0, slot1, slot2)
 	if (slot2 or slot0:getCurDay()) > #pg.return_giftpack_template.all then
 		return false
 	end
@@ -375,7 +375,7 @@ function slot0.getCurDayGiftPackIDByType(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getCurDayGiftPackIDList(slot0)
+slot0.getCurDayGiftPackIDList = function(slot0)
 	slot1 = slot0:getCurDay()
 
 	return {
@@ -385,7 +385,7 @@ function slot0.getCurDayGiftPackIDList(slot0)
 	}
 end
 
-function slot0.getNextGiftPackDayByType(slot0, slot1, slot2)
+slot0.getNextGiftPackDayByType = function(slot0, slot1, slot2)
 	if (slot2 or slot0:getCurDay()) >= #pg.return_giftpack_template.all then
 		return false
 	end
@@ -406,21 +406,21 @@ function slot0.getNextGiftPackDayByType(slot0, slot1, slot2)
 	end
 end
 
-function slot0.isHaveNextPack(slot0, slot1, slot2)
+slot0.isHaveNextPack = function(slot0, slot1, slot2)
 	return slot0:getNextGiftPackDayByType(slot1, slot2 or slot0:getCurDay()) ~= false
 end
 
-function slot0.calcNextGiftPackSecByType(slot0, slot1, slot2)
+slot0.calcNextGiftPackSecByType = function(slot0, slot1, slot2)
 	return slot0.refluxProxy.returnTimestamp + (slot0:getNextGiftPackDayByType(slot1, slot2 or slot0:getCurDay()) - 1) * 86400 - pg.TimeMgr.GetInstance():GetServerTime()
 end
 
-function slot0.isBuyEver(slot0, slot1)
+slot0.isBuyEver = function(slot0, slot1)
 	slot2 = getProxy(ShopsProxy)
 
 	return 0 + ChargeConst.getBuyCount(slot2:getChargedList(), slot1) + ChargeConst.getBuyCount(slot2:GetNormalList(), slot1) > 0
 end
 
-function slot0.confirm(slot0, slot1)
+slot0.confirm = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -537,9 +537,9 @@ function slot0.confirm(slot0, slot1)
 		slot7 = (not slot6 or i18n("charge_scene_buy_confirm_gold", slot1:getConfig("resource_num"), slot4.name)) and i18n("charge_scene_buy_confirm", slot1:getConfig("resource_num"), slot4.name)
 
 		slot0:emit(RefluxMediator.OPEN_CHARGE_ITEM_PANEL, {
-			isMonthCard = false,
 			isChargeType = false,
 			isLocalPrice = false,
+			isMonthCard = false,
 			icon = slot4.icon,
 			name = slot4.name,
 			tipExtra = i18n("charge_title_getitem"),
@@ -562,7 +562,7 @@ function slot0.confirm(slot0, slot1)
 	end
 end
 
-function slot0.getAllRefluxPackID()
+slot0.getAllRefluxPackID = function()
 	slot0 = {}
 
 	for slot4, slot5 in ipairs(pg.return_giftpack_template.all) do

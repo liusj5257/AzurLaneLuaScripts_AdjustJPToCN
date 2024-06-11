@@ -10,12 +10,12 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
+			dynamicBgType = -2,
+			bgm = "story-richang-flexible",
 			actor = -2,
 			actorName = "TB",
-			bgm = "story-richang-flexible",
-			dynamicBgType = -2,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "{tb}……",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -69,10 +69,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room2",
+			nameColor = "#A9F548FF",
+			dynamicBgType = -2,
 			actor = -2,
 			actorName = "TB",
-			dynamicBgType = -2,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지갑을…… 잃어버렸어요…",
 			typewriter = {

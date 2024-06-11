@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "封印の中心に到着し、術式の実行に向けて取り掛かる長門たちだが……",
 			bgm = "story-unzen",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "封印の中心に到着し、術式の実行に向けて取り掛かる長門たちだが……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -146,13 +146,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "bg_yunxian_3",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "流れ星…？違う、あれは「仙哲」……",
 			painting = {
 				alpha = 0.3,
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -267,14 +267,14 @@ return {
 		{
 			portrait = 305050,
 			side = 2,
-			bgName = "star_level_bg_504",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			expression = 4,
-			oldPhoto = true,
 			actorName = "長門",
+			expression = 4,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_504",
+			oldPhoto = true,
 			say = "これは……幻か？！",
 			flashN = {
 				color = {
@@ -311,17 +311,17 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -337,8 +337,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -361,11 +361,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_moran_3",
-			hidePaintObj = true,
 			oldPhoto = true,
+			hidePaintObj = true,
 			say = "――見せられるのは過去の断片。",
 			flashN = {
 				color = {
@@ -402,8 +402,8 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -415,8 +415,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -427,12 +427,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mirror",
-			hidePaintObj = true,
-			actorName = "街の喧騒",
 			oldPhoto = true,
+			actorName = "街の喧騒",
+			hidePaintObj = true,
 			say = "（ニゲロ…！！ハヤクニゲルノダ……！！！）",
 			flashN = {
 				color = {
@@ -469,8 +469,8 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -487,9 +487,9 @@ return {
 			bgName = "bg_mirror",
 			portrait = 305100,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "武蔵",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ここは……重桜の町…？",
 			painting = {
@@ -507,9 +507,9 @@ return {
 			bgName = "bg_mirror",
 			portrait = 305100,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "武蔵",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "長門さま、あれは……！",
 			painting = {
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -546,8 +546,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -558,8 +558,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -576,9 +576,9 @@ return {
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
 			portrait = 305050,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "長門",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……「仙哲」……",
 			painting = {
@@ -591,8 +591,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -615,13 +615,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			oldPhoto = true,
-			say = "幻が三度代わり、今度は「大神木」の聖域――封印に入る前に見た春の風景に変わった。",
 			bgm = "theme-unzen",
+			hidePaintObj = true,
+			say = "幻が三度代わり、今度は「大神木」の聖域――封印に入る前に見た春の風景に変わった。",
 			flashN = {
 				color = {
 					1,
@@ -657,8 +657,8 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -670,8 +670,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -682,8 +682,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -714,8 +714,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
@@ -736,10 +736,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "御狐さま、それに武蔵さん",
 			typewriter = {
@@ -751,10 +751,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "お二方は確か、「夢」を見たのですよね？",
 			typewriter = {
@@ -763,13 +763,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "「夢」といえど、ヒトによっては現実の延長とも心象の反映とも言われています",
 			typewriter = {
 				speed = 0.05,
@@ -780,10 +780,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "お二方の「夢」と違い、私が見た「夢」はありうる「未来」です",
 			typewriter = {
@@ -795,10 +795,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "そんな破滅の未来を何度も何度も見ました",
 			typewriter = {
@@ -810,10 +810,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "そうですね……もう何百度も",
 			typewriter = {
@@ -822,13 +822,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "夢の中でも多少は動けましたから、私なりに色々調べました",
 			typewriter = {
 				speed = 0.05,
@@ -839,10 +839,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "神木を枯れさせ、重桜に異変をもたらすかの「闇靄の怪物」",
 			typewriter = {
@@ -854,10 +854,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "私はそれを「穢れの影」と呼んでおります",
 			typewriter = {
@@ -866,13 +866,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "星とともに落ちてきた「ワタツミ」は人知に与し、ヒトの力となって邪を祓う一方",
 			typewriter = {
 				speed = 0.05,
@@ -883,10 +883,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "「穢れの影」もまた闇靄として災いをもたらします",
 			typewriter = {
@@ -914,13 +914,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "ええ。硬貨の両面のように、そして光と影のようにね",
 			typewriter = {
 				speed = 0.05,
@@ -931,10 +931,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "光あるところに闇もあり。本来なら均衡を取り、破滅の終焉に至らぬはずですが",
 			typewriter = {
@@ -943,13 +943,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_518",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "だが現に異変が起き、汝は「未来」を目にした",
 			painting = {
 				alpha = 0.3,
@@ -964,10 +964,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "「ワタツミ」の力がより多く行使されれば、闇靄の影響もまた強くなります",
 			typewriter = {
@@ -979,10 +979,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "いいえ、たとえ「ワタツミ」の力が使われなくても、キューブの力がより強くなれば…",
 			typewriter = {
@@ -1010,13 +1010,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_518",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "汝は「ワタツミ」と「キューブ」を同じ存在だというの…？",
 			painting = {
 				alpha = 0.3,
@@ -1028,13 +1028,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "正確に言えば似て非なる存在です。…時代が変わり「枝」が変われば、呼び方もまた違うでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -1045,10 +1045,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "どっちにしても大本を辿ればリュウコツ……すなわち「源」の力を引き出せる存在です",
 			typewriter = {
@@ -1060,10 +1060,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "概念を具現化するにしても、空間と質量を無視するにしても、「源」の力はヒトの手に余るものですが…",
 			typewriter = {
@@ -1072,13 +1072,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "しかし、ヒトの認識という物差しで測らなければ、「源」の限界はこの程度では収まらないでしょう",
 			typewriter = {
 				speed = 0.05,
@@ -1105,13 +1105,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "仙哲",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
+			hidePaintObj = true,
 			say = "リュウコツの想いを実らせ、無窮なる理が織りなす奇跡の申し子",
 			typewriter = {
 				speed = 0.05,
@@ -1122,10 +1122,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "仙哲",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "仙哲",
 			hidePaintObj = true,
 			say = "「ワタツミ」なのですよ",
 			typewriter = {
@@ -1134,8 +1134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1146,8 +1146,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1158,13 +1158,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			oldPhoto = true,
-			say = "―――！！！",
 			soundeffect = "event:/battle/boom2",
+			hidePaintObj = true,
+			say = "―――！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1210,28 +1210,28 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
 			bgName = "bg_yunxian_4",
-			hidePaintObj = true,
+			oldPhoto = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "かくして「ワタツミ」は重桜の地に落ち、その大いなる力を放射状に拡散させた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1239,8 +1239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_4",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1256,9 +1256,9 @@ return {
 			bgName = "bg_yunxian_4",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "長門",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これは……「大神木」……",
 			typewriter = {
@@ -1272,9 +1272,9 @@ return {
 			bgName = "bg_yunxian_4",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "長門",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "闇靄を封じるための聖域――",
 			typewriter = {
@@ -1283,13 +1283,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			oldPhoto = true,
-			say = "幻が消え、長門たちの目の前に再び「今」の聖域の景色が広がった。",
 			bgm = "story-unzen",
+			hidePaintObj = true,
+			say = "幻が消え、長門たちの目の前に再び「今」の聖域の景色が広がった。",
 			flashN = {
 				color = {
 					1,
@@ -1325,8 +1325,8 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -1338,8 +1338,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1350,8 +1350,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1362,8 +1362,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1394,8 +1394,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1406,8 +1406,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1438,8 +1438,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1455,9 +1455,9 @@ return {
 			bgName = "bg_yuese_cg1",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
+			actorName = "長門",
 			oldPhoto = true,
 			nameColor = "#A9F548FF",
-			actorName = "長門",
 			hidePaintObj = true,
 			say = "こうなれば、残されている手は一つ",
 			painting = {
@@ -1470,13 +1470,13 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuese_cg1",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
+			oldPhoto = true,
 			actorName = "長門",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "武蔵、御狐の最後の力をお主の刀に預ければ、その一撃で最後の活路を開けられよう",
 			painting = {
@@ -1492,10 +1492,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yuese_cg1",
-			oldPhoto = true,
-			dir = 1,
-			actorName = "武蔵",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			oldPhoto = true,
+			actorName = "武蔵",
 			hidePaintObj = true,
 			say = "……そんなことをしてはならないわ",
 			painting = {
@@ -1511,10 +1511,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yuese_cg1",
-			oldPhoto = true,
-			dir = 1,
-			actorName = "武蔵",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			oldPhoto = true,
+			actorName = "武蔵",
 			hidePaintObj = true,
 			say = "妾がこの場を抜け出せても、長門さまが……",
 			painting = {
@@ -1527,13 +1527,13 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuese_cg1",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
+			oldPhoto = true,
 			actorName = "長門",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "重桜を守るのが神子としての余の務めだ",
 			painting = {
@@ -1551,9 +1551,9 @@ return {
 			bgName = "bg_yuese_cg1",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
+			actorName = "長門",
 			oldPhoto = true,
 			nameColor = "#A9F548FF",
-			actorName = "長門",
 			hidePaintObj = true,
 			say = "そのために誓いを立てたし、お主にも対局で覚悟を見せた",
 			painting = {
@@ -1571,9 +1571,9 @@ return {
 			bgName = "bg_yuese_cg1",
 			factiontag = "連合艦隊旗艦",
 			dir = 1,
+			actorName = "長門",
 			oldPhoto = true,
 			nameColor = "#A9F548FF",
-			actorName = "長門",
 			hidePaintObj = true,
 			say = "我が御狐の威光……照覧せよ！",
 			painting = {
@@ -1586,8 +1586,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1598,8 +1598,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1613,10 +1613,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "武蔵",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "長門さま……！",
 			painting = {
 				alpha = 0.3,
@@ -1628,8 +1628,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1643,10 +1643,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………うぅ…これは…一体………",
 			painting = {
 				alpha = 0.3,
@@ -1658,8 +1658,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "遠い未来、「聖域」での出来事を幻として見ていた少女がいた。",

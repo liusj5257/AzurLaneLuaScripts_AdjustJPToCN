@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA14",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA14",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-6",
 			say = "NYシティ・周辺海域",
+			side = 2,
+			dir = 1,
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "想定より1分35秒早かったね。戦闘力予測を修正するわ",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "ユニオン所属、ボルチモア級重巡洋艦、フネとしての排水量は17000トン、主砲は8インチ砲3基9門、対空火力の強化が図れるデザイン……",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "……あなたさえ倒せば、このNYシティも指揮官も私たちの思うがままになるわ",
 			typewriter = {
 				speed = 0.05,
@@ -181,8 +181,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "ふふ、戦争と殺戮のために生まれたあなたたちのどこが「正義」？",
 			typewriter = {
 				speed = 0.05,
@@ -197,8 +197,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "人類の命令さえあれば、あなた達は昨日の盟友にさえも平気で砲口を向ける",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "そんな兵器ごときが、まさか「ヒト」の自由やら正義やら論じるなんて",
 			typewriter = {
 				speed = 0.05,
@@ -226,13 +226,13 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 0,
-			withoutActorName = true,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "（ドーーン！！）",
+			withoutActorName = true,
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "（ドーーン！！）",
 			flashN = {
 				color = {
 					1,

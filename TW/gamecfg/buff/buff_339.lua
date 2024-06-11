@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "剑鱼(818中队)",
 	time = 8,
+	name = "剑鱼(818中队)",
+	init_effect = "",
 	picture = "",
 	desc = "8s减速",
 	stack = 1,

@@ -1,15 +1,15 @@
 return {
-	id = "W400000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W400000",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "警告：指揮官，我無法通過偵察模組獲取前方海域的任何訊息。海域之中存在未知強敵的機率接近100%。",
 			typewriter = {
 				speed = 0.05,
@@ -23,9 +23,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "請確認是否解除塞壬區域封鎖裝置進入海域的深處？",
 			typewriter = {
 				speed = 0.05,
@@ -38,8 +38,8 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "確認",
-					autochoice = 1
+					autochoice = 1,
+					content = "確認"
 				},
 				{
 					content = "查閱作戰說明",
@@ -54,10 +54,10 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 900284,
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 900284,
+			nameColor = "#a9f548",
 			say = "指令已確認：正在嘗試解除塞壬區域封鎖裝置——————",
 			typewriter = {
 				speed = 0.05,

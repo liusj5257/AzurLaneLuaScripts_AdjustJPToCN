@@ -1,24 +1,24 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN12",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			stopbgm = true,
 			bgName = "bg_yuanhuidian",
 			paintingNoise = true,
-			nameColor = "#A9F548FF",
 			bgm = "story-6",
 			actor = 401160,
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			say = "Blücher, do you hear me?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -99,17 +99,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -195,9 +195,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_yuanhuidian",
+			blackBg = true,
 			actor = 403020,
 			nameColor = "#A9F548FF",
-			blackBg = true,
 			say = "Don't have to tell me twice! All ships, advance and take out that Pawn!",
 			typewriter = {
 				speed = 0.05,

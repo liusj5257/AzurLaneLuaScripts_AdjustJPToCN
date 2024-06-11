@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U474",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U474",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"상냥하고 조용한, 그리고 따뜻한\n\n<size=45>4. 시끄러운 손님</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 408020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "…………",
 			bgm = "story-1",
+			actor = 408020,
+			nameColor = "#a9f548",
+			say = "…………",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-47이 지휘실을 자주 찾아오게 되었다. 일에 영향을 주지는 않았지만...",
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "...U-47과 다른 잠수함의 관계가 신경 쓰이기 시작했다.",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "너무 집중했나. 어느새 U-47과 눈이 마주쳤다. 다시 주의력을 일에 돌리려고 하는데——",
@@ -116,8 +116,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "지휘관! 이봐, 문 열어——!",
 			dialogShake = {
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "시끄럽게 문을 두드리는 노크 소리가 지휘실의 적막함을 깨버렸다.",
@@ -150,8 +150,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "이 목소리는, U-47의 동료 U-81 같은데?",
@@ -168,14 +168,14 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "지휘관~ 지휘관~! U-47 봤어?",
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-47이라면... U-47이 앉아있던 소파에 시선을 돌렸지만 거기에는 아무도 없었다.",
@@ -210,14 +210,14 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "뭐야, 어디 간 거지? 누가 요즘 여기에 자주 있다고 해서 왔는데!",
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "U-81은 실망한 얼굴로 소파에 앉았다. 나도 다시 책상에 앉아 일을 하려고 했는데——",
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "엄청난 것을 보게 되었다——",
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "...어쩔 수 없네. 몸에 닿지 않게 노력했지만 좁은 책상 아래에 숨어 있는 U-47의 존재가 선명하게 느껴졌다.",
@@ -314,8 +314,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "U-47 녀석, 대체 어디로 갔는지 찾을 수가 없단 말이야!",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408010,
 			dir = 1,
+			actor = 408010,
 			nameColor = "#a9f548",
 			say = "맨날 이렇게 도망가게 두면 내가 쓸모가 없어 보이잖아! 절대로 찾아내고 말겠어, U-47!",
 			typewriter = {
@@ -345,8 +345,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,8 +371,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "목소리가 채 흩어지기도 전에 U-81은 지휘실에서 멀어졌다...",
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "시간이 조금 더 지나고 U-47이 천천히 책상 밑에서 기어 나와 짧은 한숨을 내쉬었다.",
@@ -417,8 +417,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "그렇게 방해가 되지는 않았지만... U-47은 왜 U-81을 피하는 거지?",
@@ -464,8 +464,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "말을 하면서 U-47은 다시 책을 들어 방금 전처럼 소파에 앉았다.",
@@ -479,8 +479,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "지휘실이 다시 조용해졌다. 나도 다시 책상에 앉아 일을 하려고 했는데——",
@@ -494,8 +494,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

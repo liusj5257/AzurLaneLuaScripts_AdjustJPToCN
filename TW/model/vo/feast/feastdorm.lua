@@ -6,7 +6,7 @@ slot0.OP_GIVE_TICKET = 3
 slot0.OP_GIVE_GIFT = 4
 slot0.OP_INTERACTION = 5
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.refreshTime = slot2.refresh_time
@@ -34,11 +34,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetInvitedFeastShips(slot0)
+slot0.GetInvitedFeastShips = function(slot0)
 	return slot0.invitedFeastShips
 end
 
-function slot0.GetInvitedFeastShipList(slot0)
+slot0.GetInvitedFeastShipList = function(slot0)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0:GetInvitedFeastShips()) do
@@ -52,41 +52,41 @@ function slot0.GetInvitedFeastShipList(slot0)
 	return slot2
 end
 
-function slot0.GetInvitedFeastShip(slot0, slot1)
+slot0.GetInvitedFeastShip = function(slot0, slot1)
 	return slot0.invitedFeastShips[slot1]
 end
 
-function slot0.GetFeastShipList(slot0)
+slot0.GetFeastShipList = function(slot0)
 	return slot0.feastShips
 end
 
-function slot0.GetFeastShip(slot0, slot1)
+slot0.GetFeastShip = function(slot0, slot1)
 	return slot0.feastShips[slot1]
 end
 
-function slot0.RemoveShip(slot0, slot1)
+slot0.RemoveShip = function(slot0, slot1)
 	slot0.feastShips[slot1] = nil
 end
 
-function slot0.AddShip(slot0, slot1)
+slot0.AddShip = function(slot0, slot1)
 	slot0.feastShips[slot1.tid] = slot1
 end
 
-function slot0.SetRefreshTime(slot0, slot1)
+slot0.SetRefreshTime = function(slot0, slot1)
 	slot0.refreshTime = slot1
 end
 
-function slot0.ShouldRandomShips(slot0)
+slot0.ShouldRandomShips = function(slot0)
 	return slot0.refreshTime < pg.TimeMgr.GetInstance():GetServerTime() and pg.TimeMgr.GetInstance():DiffDay(slot0.refreshTime, slot1) > 0
 end
 
-function slot0.GetMapSize(slot0)
+slot0.GetMapSize = function(slot0)
 	slot3 = BackYardConst.MAX_FEAST_MAP_SIZE
 
 	return Vector4(0, 0, slot3.x, slot3.y)
 end
 
-function slot0.GetPutFurnitureList(slot0, slot1)
+slot0.GetPutFurnitureList = function(slot0, slot1)
 	slot2 = {}
 	slot5 = FeastThemeTemplate.New({
 		id = -1,
@@ -102,7 +102,7 @@ function slot0.GetPutFurnitureList(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetPutShipList(slot0, slot1)
+slot0.GetPutShipList = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(slot0.feastShips) do

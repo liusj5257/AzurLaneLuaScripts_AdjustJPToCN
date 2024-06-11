@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIJINGHUA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIJINGHUA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"Virtual Connection Synchronicity\" - Purification\n\n<size=45>Chapter 2 - The Fine Line Between Moron and Genius</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Yo, Commander! It's a new day and let's keep at the virus cleaning. Yeah! Woo! Alright!",
 			bgm = "story-1",
+			actor = 10400010,
+			nameColor = "#a9f548",
+			say = "Yo, Commander! It's a new day and let's keep at the virus cleaning. Yeah! Woo! Alright!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -65,9 +65,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "You're getting into it! I like that. Let's get started!",
 			typewriter = {
@@ -83,9 +83,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Huhhh? But I thought you almost finished your work for the day~? *glares*",
 			typewriter = {
@@ -101,9 +101,9 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Am I a joke to you? I know your whole schedule, Commander!",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,13 +142,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "One Hour Later",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -176,8 +176,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "*Pant*... *pant...* but... how... why.... this was just level 2... how were they... so... tough... *collapse*",
 			typewriter = {
@@ -190,8 +190,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 0
@@ -199,9 +199,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Perhaps as a consequence of her drive and intensity, Kizuna AI fell into despair.",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Ughhh! I'm so ti~red~! It doesn't make any sense! I'm trying so hard!",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "This virus cleaning mission, it looked so easy at first, but proved impossibly hard. Could this really be a level 2 difficulty job...?",
 			typewriter = {
 				speed = 0.05,
@@ -270,12 +270,12 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
+			say = "Oh, San Diego. I'm not napping. I was trying to clean viruses, but I totally failed...",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh, San Diego. I'm not napping. I was trying to clean viruses, but I totally failed...",
+			actor = 10400010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "O~kay? Cleaning buy-rests...? Sounds hella fun~!",
 			typewriter = {
 				speed = 0.05,
@@ -316,12 +316,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "Huh? Hell yeah! I'm gonna try really hard!!!",
 			typewriter = {
 				speed = 0.05,
@@ -333,8 +333,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -343,12 +343,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "Commander! What's wrong!?",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +360,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -373,9 +373,9 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
 			optionFlag = 2,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "The Commander.... did a really good job...",
 			typewriter = {
@@ -388,12 +388,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "All right, you just rest there for a bit~ I've got this one in the bag~!",
 			typewriter = {
 				speed = 0.05,
@@ -408,8 +408,8 @@ return {
 			expression = 5,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "But are you gonna be okay? This one is crazy hard!",
 			typewriter = {
@@ -438,9 +438,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Is it really okay to rely on San Diego like this...?",
 			typewriter = {
 				speed = 0.05,
@@ -452,13 +452,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "35 Seconds Later",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -502,8 +502,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "San Diego!? Is thi- did you actually clear the viruses!!??",
 			typewriter = {
@@ -516,8 +516,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -526,9 +526,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "But... how... did she.......?",
 			typewriter = {
 				speed = 0.05,
@@ -556,9 +556,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "And so, by pointing randomly at things she did not understand, San Diego completely eliminated the viruses.",
 			typewriter = {
 				speed = 0.05,
@@ -570,9 +570,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Don't ask me. Even I don't understand how it works....",
 			typewriter = {
 				speed = 0.05,
@@ -587,8 +587,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Thank you so much, San Diego!! You're incredible! You're a genius, San Diego!",
 			typewriter = {
@@ -601,8 +601,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -614,8 +614,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "You knocked it out so fast! Can we have San Diego handle all the virus removal from now on!?",
 			typewriter = {

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_396 = {}
 slot1 = slot0.word_template_396
 
-function temp()
+temp = function()
 	uv0["罚"] = {
 		["酒"] = {
 			["三"] = {
@@ -17,7 +17,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["邹"] = {
 		["允"] = {
 			["慷"] = {
@@ -34,7 +34,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["燈"] = {
 		["罪"] = {
 			["人"] = {
@@ -46,7 +46,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["馼"] = {
 		["字"] = {
 			["萸"] = {
@@ -58,7 +58,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["掴"] = {
 		["物"] = {
 			["院"] = {
@@ -70,7 +70,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["咿"] = {
 		["次"] = {
 			["麦"] = {
@@ -90,7 +90,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["沟"] = {
 		["里"] = {
 			["滚"] = {

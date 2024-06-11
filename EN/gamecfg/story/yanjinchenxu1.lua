@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU1",
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
 			bgName = "bg_firedust_1",
-			asideType = 3,
-			typewriterTime = 0.05,
 			bgmDelay = 2,
 			bgm = "theme-vichy-church",
+			stopbgm = true,
+			asideType = 3,
+			typewriterTime = 0.05,
 			sequence = {
 				{
 					"Sub-Antarctic Ocean - Kerguelen Islands",
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
-			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Have you found anything abnormal, Royal Oak?",
 			painting = {
 				alpha = 0.3,
@@ -58,17 +58,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's what our intel says.",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "However, it seems they all evacuated before we got here.",
 			painting = {
 				alpha = 0.3,
@@ -152,10 +152,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Perhaps they shared your sentiment and couldn't stand the dismal conditions anymore.",
 			painting = {
 				alpha = 0.3,
@@ -189,10 +189,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A shame there's not a shred of valuable information to be found.",
 			painting = {
 				alpha = 0.3,
@@ -204,12 +204,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We've searched every nook and cranny for the tiniest crumb, just as Implacable instructed, and all we've found is a map of the building.",
 			painting = {
 				alpha = 0.3,
@@ -224,10 +224,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It would make us look bad if we returned to Her Majesty emptyhanded, but...",
 			painting = {
 				alpha = 0.3,
@@ -261,10 +261,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You're not dead weight at all. If failing to find anything noteworthy is a crime, then I'm equally guilty of it as well.",
 			painting = {
 				alpha = 0.3,
@@ -314,12 +314,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(I was going to propose we search again together, but that's not what she needs to hear now...)",
 			painting = {
 				alpha = 0.3,
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -344,10 +344,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Calm down, Royal Oak! You know everyone cares about and respects you!",
 			painting = {
 				alpha = 0.3,
@@ -362,10 +362,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If we didn't, you wouldn't have been Her Majesty's first pick as the team's flagship.",
 			painting = {
 				alpha = 0.3,
@@ -380,10 +380,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The only reason Implacable is leading this operation is because you passed on that honour.",
 			painting = {
 				alpha = 0.3,
@@ -436,10 +436,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Please don't berate yourself like that.",
 			painting = {
 				alpha = 0.3,
@@ -451,12 +451,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "As Her Majesty said, there has to be something in this Basilica. Otherwise they wouldn't have had a force stationed to protect it.",
 			painting = {
 				alpha = 0.3,
@@ -471,10 +471,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I promise you, we will find it. We just have to keep looking for... Wait, what?",
 			painting = {
 				alpha = 0.3,
@@ -486,12 +486,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Royal Oak, did you notice any strange movement? Something just tripped an alarm.",
 			painting = {
 				alpha = 0.3,
@@ -506,10 +506,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh? Wait, that wasn't a stray bullet? Something's moving?!",
 			painting = {
 				alpha = 0.3,
@@ -521,8 +521,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -534,10 +534,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Stay calm and report the situation! Panicking will only make things worse!",
 			painting = {
 				alpha = 0.3,
@@ -549,8 +549,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -584,12 +584,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, I wouldn't be surprised if a ghost took up residence in a dreary place like this.",
 			painting = {
 				alpha = 0.3,
@@ -620,8 +620,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -639,10 +639,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No! Forgive me, I only meant it as a joke!",
 			painting = {
 				alpha = 0.3,
@@ -663,10 +663,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hang on, I'll start up the security cameras. Let's see, you're over by... There, I've got it.",
 			painting = {
 				alpha = 0.3,
@@ -678,12 +678,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now to find the feed for the room you're in...",
 			painting = {
 				alpha = 0.3,
@@ -698,10 +698,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's strange... It seems to be offline.",
 			painting = {
 				alpha = 0.3,
@@ -734,9 +734,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
+			bgName = "bg_story_task",
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -750,17 +750,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -768,12 +768,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Not anymore. However, the security camera remains unresponsive.",
 			painting = {
 				alpha = 0.3,
@@ -826,10 +826,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "How long has it been like this? Whoever was in charge of this place before was way too inattentive...",
 			painting = {
 				alpha = 0.3,
@@ -863,10 +863,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It wouldn't surprise me. Some of the oldest records of this island date back to the Naval Holiday period.",
 			painting = {
 				alpha = 0.3,
@@ -881,10 +881,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A false alarm doesn't explain the footsteps your heard, though.",
 			painting = {
 				alpha = 0.3,
@@ -918,10 +918,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 205140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Th-this is Royal Oak of the Royal Navy! Show yourself!",
 			painting = {
 				alpha = 0.3,
@@ -939,8 +939,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -952,10 +952,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh? Did you encounter an enemy?",
 			painting = {
 				alpha = 0.3,
@@ -995,10 +995,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I see... Also, I think I should do a more thorough system inspection. We might find something new.",
 			painting = {
 				alpha = 0.3,
@@ -1013,10 +1013,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If I remember the phrase right, it should be something like...",
 			painting = {
 				alpha = 0.3,
@@ -1028,12 +1028,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Basilica System, initiate a full facility self-diagnostic.",
 			painting = {
 				alpha = 0.3,
@@ -1045,8 +1045,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "System Voice",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
 			say = "Orders received. Initiating full facility self-diagnostic. Time remaining: 60,000 minutes.",
@@ -1059,10 +1059,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "60,000 minutes?! We'll be here for an eternity!",
 			painting = {
 				alpha = 0.3,
@@ -1074,8 +1074,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1106,10 +1106,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hang on, there's a sysadmin message on the screen.",
 			painting = {
 				alpha = 0.3,
@@ -1121,12 +1121,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "System override in the case of an emergency... Grants administrator privileges... Thus activating the facility's defences...",
 			painting = {
 				alpha = 0.3,
@@ -1141,10 +1141,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay, I've got an idea! I'll log us both as admins and briefly enable the Basilica's automated defences.",
 			painting = {
 				alpha = 0.3,
@@ -1159,10 +1159,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "This way, we'll immediately know when anyone comes or goes.",
 			painting = {
 				alpha = 0.3,
@@ -1196,10 +1196,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Mhm. I'll give it the order now.",
 			painting = {
 				alpha = 0.3,
@@ -1211,8 +1211,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "System Voice",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
 			say = "Orders received. Entering emergency defense mode. Powering up production center.",
@@ -1222,12 +1222,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Wait, what?",
 			painting = {
 				alpha = 0.3,
@@ -1242,10 +1242,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Royal Oak, it seems we have a problem in the production centre!",
 			painting = {
 				alpha = 0.3,
@@ -1257,8 +1257,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1289,10 +1289,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's getting worse! Oh goodness, what do we do?! One thing after the next is failing!",
 			painting = {
 				alpha = 0.3,
@@ -1304,8 +1304,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "System Voice",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
 			say = "Error: Failed to initialize emergency defense mode.",
@@ -1315,8 +1315,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "System Voice",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
 			say = "Error: Failed to initialize recovery program. Retrying... Failed. Retrying... Failed.",
@@ -1326,8 +1326,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "System Voice",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#ffff4d",
 			say = "Warning: Significant data corruption. Please reconnect to system host.",
@@ -1340,10 +1340,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Something has gone terribly wrong here... Let me try to update my admin privileges...",
 			painting = {
 				alpha = 0.3,
@@ -1358,10 +1358,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What the...? I can't! It says I need higher clearance!",
 			painting = {
 				alpha = 0.3,
@@ -1373,12 +1373,12 @@ return {
 			}
 		},
 		{
-			actor = 206020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 206020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But that's impossible... What could possibly be higher than the sysadmin?",
 			painting = {
 				alpha = 0.3,
@@ -1393,10 +1393,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Royal Oak, we have a problem! Get out of there and regroup with me!",
 			painting = {
 				alpha = 0.3,
@@ -1408,8 +1408,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1418,8 +1418,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Oak",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			say = "...can't... you... too many...",
@@ -1434,8 +1434,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Royal Oak",
+			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			say = "...ambushed... fighting...",
@@ -1453,10 +1453,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Royal Oak, do you hear me?! What's happening over there?!",
 			painting = {
 				alpha = 0.3,
@@ -1471,10 +1471,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 206020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Our comms are being jammed. Don't tell me... we're in a Mirror Sea?!",
 			painting = {
 				alpha = 0.3,
@@ -1486,8 +1486,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1496,8 +1496,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "theme-kerguelen",
 			sequence = {
 				{
@@ -1535,11 +1535,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

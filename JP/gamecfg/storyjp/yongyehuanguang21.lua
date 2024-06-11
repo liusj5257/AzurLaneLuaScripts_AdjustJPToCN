@@ -1,15 +1,15 @@
 return {
-	id = "YONGYEHUANGUANG21",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG21",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "xinnong-4",
 			say = "バレンツ海・ロイヤル護衛艦隊",
+			side = 2,
+			dir = 1,
+			bgm = "xinnong-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "ええと、まずは「全ての艦船は西へ」",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "それと、「北方連合の港に急行せよ」",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "最後は、「船団を解散せよ」",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "オーロラが無線に影響すると聞きましたけど…こういうことでしょうか",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "潜水艦以外にも、航空攻撃隊を警戒する必要がありますし…",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "恐れ入りますが、こちらの命令は真に受けないほうがよろしいのかと…",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "嘘か真かいずれにせよ、我々には陛下より預かった使命がある",
 			typewriter = {
 				speed = 0.05,
@@ -225,8 +225,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "――輸送船団を無事北方連合に送り届けることだ",
 			typewriter = {
 				speed = 0.05,
@@ -241,8 +241,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "「鉄血艦隊との戦闘は支援艦隊と主力艦隊に任せる」…とおっしゃっていましたね",
 			typewriter = {
 				speed = 0.05,
@@ -272,8 +272,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			say = "ああ。ロイヤルネイビーの一員として、王命を守ることが第一だ。こんな情報に惑わされるべきではない",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			say = "輸送船団を見捨てるなんて、陛下がなさるはずありませんしね。皆様、引き続き進みましょう！",
 			typewriter = {
 				speed = 0.05,
@@ -301,11 +301,11 @@ return {
 			}
 		},
 		{
-			actor = 202170,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 202170,
 			dir = 1,
+			hideOther = true,
 			actorName = "ジャマイカ&イーグル",
 			say = "ああ！",
 			subActors = {

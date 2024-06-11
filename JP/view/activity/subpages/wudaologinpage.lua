@@ -1,17 +1,17 @@
 slot0 = class("WudaoLoginPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.labelDay = slot0:findTF("days")
 	slot0.items = slot0:findTF("items")
 	slot0.item = slot0:findTF("item")
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.config = pg.activity_7_day_sign[slot0.activity:getConfig("config_id")]
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	setActive(slot0.item, false)
 
 	for slot4 = 1, 8 do
@@ -30,7 +30,7 @@ function slot0.OnFirstFlush(slot0)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	for slot4 = 1, 8 do
 		slot5 = slot0.items:Find("layout"):GetChild(slot4 - 1)
 
@@ -39,7 +39,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	clearImageSprite(slot0.bg)
 	removeAllChildren(slot0.items)
 end

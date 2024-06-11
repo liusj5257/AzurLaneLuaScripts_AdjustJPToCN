@@ -1,14 +1,14 @@
 return {
-	id = "BIHAIGUANGLIN33-1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN33-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "竜宮城・中心部",
 			typewriter = {
 				speed = 0.05,
@@ -20,9 +20,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "島風が仕掛けの台座を探している間、駿河たちは城の守護者「白龍」相手に苦戦していた。",
 			typewriter = {
 				speed = 0.05,
@@ -36,11 +36,11 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 307120,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "白龍もうちも正規空母なのに戦い方がぜんぜん違うじゃないのそんなの聞いたことないわよ！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -93,8 +93,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			say = "というかオーディンと同じぐらい一撃一撃がとんでもない威力だわねこれ！？",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301470,
 			dir = 1,
+			actor = 301470,
 			say = "わわ…オイゲンさんありがとうございます！山風と海風を畏れ多くも守っていただいて…",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "（あのオーディンにしたってそうよ！あの一発限りの大技はともかく主砲すらろくに撃ってないし！もう鉄血の連中って…！）",
 			typewriter = {
 				speed = 0.05,
@@ -215,9 +215,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "（島風は大丈夫かな…あのバカ、台座でもししくじったら……もう！）",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,8 +242,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "駿河さん、ここはまず時間稼ぎを優先して！",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "島風が仕掛けをうまく起動できたら勝機がきっと訪れます！",
 			typewriter = {
 				speed = 0.05,

@@ -1,10 +1,10 @@
 slot0 = class("MedalShopMultiWindow", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShopsUIMsgbox"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.topItem = slot0:findTF("item/panel_bg")
 	slot0.ownerTF = slot0.topItem:Find("left/own")
 	slot0.detailTF = slot0.topItem:Find("left/detail")
@@ -25,7 +25,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("actions/confirm_button/label"), i18n("shop_word_exchange"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -37,18 +37,18 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	slot0:InitWindow(slot1, slot2)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	uv0.super.Show(slot0)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	uv0.super.Hide(slot0)
 end
 
-function slot0.InitWindow(slot0, slot1, slot2)
+slot0.InitWindow = function(slot0, slot1, slot2)
 	slot3 = slot1:GetDropInfo()
 	slot5 = math.max(math.floor(getProxy(BagProxy):getItemCountById(ITEM_ID_SILVER_HOOK) / slot1:getConfig("price")), 1)
 
@@ -88,7 +88,7 @@ function slot0.InitWindow(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end

@@ -1,19 +1,19 @@
 return {
-	id = "YONGYEHUANGUANG32",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG32",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			bgm = "xinnong-4",
 			actor = 201330,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "다시 한번 장전 완료. 전탄 발사!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = " …역시 그 에든버러야.",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -180,8 +180,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "음…왠지 약간 이상한 부분이 있는 것 같아서요. 아마 그냥 제가 생각이 많은 것뿐일 거에요…",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "이번 세이렌이 노스 유니온의 봉쇄선을 뚫은 것은 분명 매우 강한 화력이 집중되어서겠죠…",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "그렇지만 지금은 수량이 많고, 인트루더가 조금 귀찮은 것 외에 뭔가가 빠진 것 같아요…",
 			typewriter = {
 				speed = 0.05,
@@ -255,10 +255,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ff5c5c",
-			actorName = "통신기",
+			side = 2,
 			dir = 1,
+			actorName = "통신기",
 			say = "드디어 발견했나? 둔한 녀석들. 기다리다 목이 빠질뻔했네!",
 			dialogShake = {
 				speed = 0.09,
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = " 두렵지? 벌벌 떨리지? 어둠 속에서부터 골수까지 파고드는 듯한 두려움을 느껴봐!",
@@ -298,9 +298,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 201330,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = " 심각하게 교란되던 통신기에서 갑자기 소리가 나와?!",
 			effects = {
 				{
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = " 후우…됐다! 역시 이런 등장은 여러 번 해도 다 멋있어!",
@@ -348,10 +348,10 @@ return {
 			}
 		},
 		{
-			actorName = "통신기",
 			nameColor = "#ff5c5c",
-			side = 2,
+			actorName = "통신기",
 			dir = 1,
+			side = 2,
 			say = " 이봐, 이봐. 통신 채널 오염이란게 무슨 뜻이야!? 사람 무시하지 말고!",
 			dialogShake = {
 				speed = 0.09,
@@ -371,8 +371,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "흥! 네가 바로 이번 세이렌 함대의 지휘관이냐?",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = " 맞아! 내 영역에 제멋대로 침입한 사람은 이곳 얼음바다 속에서 영원히 얼어있게 되겠지!",
@@ -414,10 +414,10 @@ return {
 			}
 		},
 		{
-			actorName = "통신기",
 			nameColor = "#ff5c5c",
-			side = 2,
+			actorName = "통신기",
 			dir = 1,
+			side = 2,
 			say = " 뭐?! 관둬…오늘은 특별히 너희를 위해 매우 새로운 장난감을 준비했어. 너희들이 얼마나 입을 놀릴 수 있을지 잠시 후에 보자고!",
 			dialogShake = {
 				speed = 0.09,
@@ -434,8 +434,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "——————————",
@@ -452,8 +452,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = " 통신기 속의 음성이 사라졌어…",
 			typewriter = {
 				speed = 0.05,
@@ -483,8 +483,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = " 방금 사람 열불나게 하던 말투만으로도 이미 충분히 용서할 수 없어!",
 			typewriter = {
 				speed = 0.05,
@@ -498,9 +498,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 205100,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = " 모두 정신 차려. 사교 예절이란 것이 무엇인지 잠시 후에 '스캐빈저'란 자에게 제대로 가르쳐 주자고!",
 			typewriter = {
 				speed = 0.05,
@@ -512,8 +512,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

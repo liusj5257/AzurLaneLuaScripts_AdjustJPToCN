@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_151 = {}
 slot1 = slot0.word_template_151
 
-function temp()
+temp = function()
 	uv0["酱"] = {
 		["猪"] = {
 			["媳"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["醬"] = {
 		["猪"] = {
 			["媳"] = {
@@ -27,7 +27,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["娇"] = {
 		["声"] = {
 			["娇"] = {
@@ -62,7 +62,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["姣"] = {
 		["西"] = {
 			this = true
@@ -72,7 +72,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["胶"] = {
 		["洲"] = {
 			["女"] = {
@@ -88,7 +88,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["椒"] = {
 		["乳"] = {
 			this = true
@@ -98,7 +98,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["焦"] = {
 		["焕"] = {
 			["成"] = {

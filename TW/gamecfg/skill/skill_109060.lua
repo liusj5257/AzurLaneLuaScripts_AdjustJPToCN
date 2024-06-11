@@ -2,26 +2,26 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					maxHPRatio = 0.015
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetNationality"
 				},
 				arg_list = {
 					delay = 1,
-					maxHPRatio = 0.02,
-					nationality = 109
+					nationality = 109,
+					maxHPRatio = 0.02
 				}
 			},
 			{
@@ -37,26 +37,26 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					maxHPRatio = 0.018
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetNationality"
 				},
 				arg_list = {
 					delay = 1,
-					maxHPRatio = 0.02,
-					nationality = 109
+					nationality = 109,
+					maxHPRatio = 0.02
 				}
 			},
 			{
@@ -72,26 +72,26 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					maxHPRatio = 0.021
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetNationality"
 				},
 				arg_list = {
 					delay = 1,
-					maxHPRatio = 0.02,
-					nationality = 109
+					nationality = 109,
+					maxHPRatio = 0.02
 				}
 			},
 			{
@@ -107,26 +107,26 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					maxHPRatio = 0.025
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetNationality"
 				},
 				arg_list = {
 					delay = 1,
-					maxHPRatio = 0.02,
-					nationality = 109
+					nationality = 109,
+					maxHPRatio = 0.02
 				}
 			},
 			{
@@ -142,26 +142,26 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					maxHPRatio = 0.028
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetNationality"
 				},
 				arg_list = {
 					delay = 1,
-					maxHPRatio = 0.02,
-					nationality = 109
+					nationality = 109,
+					maxHPRatio = 0.02
 				}
 			},
 			{
@@ -177,26 +177,26 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					maxHPRatio = 0.031
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetNationality"
 				},
 				arg_list = {
 					delay = 1,
-					maxHPRatio = 0.02,
-					nationality = 109
+					nationality = 109,
+					maxHPRatio = 0.02
 				}
 			},
 			{
@@ -212,26 +212,26 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					maxHPRatio = 0.035
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetNationality"
 				},
 				arg_list = {
 					delay = 1,
-					maxHPRatio = 0.02,
-					nationality = 109
+					nationality = 109,
+					maxHPRatio = 0.02
 				}
 			},
 			{
@@ -247,26 +247,26 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					maxHPRatio = 0.039
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetNationality"
 				},
 				arg_list = {
 					delay = 1,
-					maxHPRatio = 0.02,
-					nationality = 109
+					nationality = 109,
+					maxHPRatio = 0.02
 				}
 			},
 			{
@@ -282,26 +282,26 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					maxHPRatio = 0.043
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetNationality"
 				},
 				arg_list = {
 					delay = 1,
-					maxHPRatio = 0.02,
-					nationality = 109
+					nationality = 109,
+					maxHPRatio = 0.02
 				}
 			},
 			{
@@ -317,26 +317,26 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
-				target_choise = "TargetAllHelp",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
+				target_choise = "TargetAllHelp",
 				arg_list = {
 					maxHPRatio = 0.05
 				}
 			},
 			{
-				type = "BattleSkillHeal",
-				casterAniEffect = "",
 				targetAniEffect = "",
+				casterAniEffect = "",
+				type = "BattleSkillHeal",
 				target_choise = {
 					"TargetAllHelp",
 					"TargetNationality"
 				},
 				arg_list = {
 					delay = 1,
-					maxHPRatio = 0.02,
-					nationality = 109
+					nationality = 109,
+					maxHPRatio = 0.02
 				}
 			},
 			{
@@ -352,10 +352,10 @@ return {
 	uiEffect = "",
 	name = "祝福旋律",
 	cd = 0,
-	painting = 1,
-	id = 109060,
 	picture = "0",
 	desc = "开局效果",
+	painting = 1,
+	id = 109060,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -366,26 +366,26 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				maxHPRatio = 0.015
 			}
 		},
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetNationality"
 			},
 			arg_list = {
 				delay = 1,
-				maxHPRatio = 0.02,
-				nationality = 109
+				nationality = 109,
+				maxHPRatio = 0.02
 			}
 		},
 		{

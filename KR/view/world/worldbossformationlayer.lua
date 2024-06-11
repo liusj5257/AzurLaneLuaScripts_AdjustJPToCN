@@ -3,23 +3,23 @@ slot1 = import("..ship.FormationUI")
 slot0.FORM_EDIT = "EDIT"
 slot0.FORM_PREVIEW = "PREVIEW"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "PreCombatUI"
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return {
-		order = 5,
 		anim = true,
+		order = 5,
 		showType = PlayerResUI.TYPE_ALL
 	}
 end
 
-function slot0.SetBossProxy(slot0, slot1, slot2)
+slot0.SetBossProxy = function(slot0, slot1, slot2)
 	slot0.boss = slot1:GetBossById(slot2)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._startBtn = slot0:findTF("right/start")
 	slot0._popup = slot0:findTF("right/start/cost_container/popup")
 	slot0._costText = slot0:findTF("right/start/cost_container/popup/Text")
@@ -88,7 +88,7 @@ function slot0.init(slot0)
 	slot0:Register()
 end
 
-function slot0.Register(slot0)
+slot0.Register = function(slot0)
 	slot1 = slot0._formationLogic
 
 	slot1:AddLoadComplete(function ()
@@ -178,8 +178,8 @@ function slot0.Register(slot0)
 			slot0()
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				zIndex = -100,
 				hideNo = false,
+				zIndex = -100,
 				content = i18n("battle_preCombatLayer_quest_leaveFleet", slot2:getConfigTable().name),
 				onYes = slot1,
 				onNo = slot0
@@ -222,16 +222,16 @@ function slot0.Register(slot0)
 	end)
 end
 
-function slot0.SetPlayerInfo(slot0, slot1)
+slot0.SetPlayerInfo = function(slot0, slot1)
 end
 
-function slot0.SetShips(slot0, slot1)
+slot0.SetShips = function(slot0, slot1)
 	slot0._shipVOs = slot1
 
 	slot0._formationLogic:SetShipVOs(slot0._shipVOs)
 end
 
-function slot0.SetStageID(slot0, slot1)
+slot0.SetStageID = function(slot0, slot1)
 	removeAllChildren(slot0._spoilsContainer)
 
 	slot0._stageID = slot1
@@ -276,7 +276,7 @@ function slot0.SetStageID(slot0, slot1)
 	end
 end
 
-function slot0.SetCurrentFleet(slot0, slot1)
+slot0.SetCurrentFleet = function(slot0, slot1)
 	slot0._currentFleetVO = slot1
 	slot2 = slot0._formationLogic
 
@@ -288,7 +288,7 @@ function slot0.SetCurrentFleet(slot0, slot1)
 	slot0._curFleetIndex = 1
 end
 
-function slot0.UpdateFleetView(slot0, slot1)
+slot0.UpdateFleetView = function(slot0, slot1)
 	slot0:displayFleetInfo()
 	slot0._formationLogic:ResetGrid(TeamType.Vanguard, slot0._currentForm ~= uv0.FORM_EDIT)
 	slot0._formationLogic:ResetGrid(TeamType.Main, slot0._currentForm ~= uv0.FORM_EDIT)
@@ -300,7 +300,7 @@ function slot0.UpdateFleetView(slot0, slot1)
 	end
 end
 
-function slot0.uiStartAnimating(slot0)
+slot0.uiStartAnimating = function(slot0)
 	slot1 = 0
 	slot2 = 0.3
 
@@ -312,21 +312,21 @@ function slot0.uiStartAnimating(slot0)
 	shiftPanel(slot0.topPanel, nil, 0, slot2, slot1, true, true, nil)
 end
 
-function slot0.uiExitAnimating(slot0)
+slot0.uiExitAnimating = function(slot0)
 	shiftPanel(slot0._middle, -840, nil, , , true, true)
 	shiftPanel(slot0._right, 470, nil, , , true, true)
 	shiftPanel(slot0.topPanel, nil, slot0.topPanel.rect.height, nil, , true, true, nil)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._backBtn, function ()
 		slot0 = {}
 
 		if uv0._currentForm == uv1.FORM_EDIT then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					zIndex = -100,
 					hideNo = false,
+					zIndex = -100,
 					content = i18n("battle_preCombatLayer_save_confirm"),
 					onYes = function ()
 						uv0:emit(WorldBossFormationMediator.ON_COMMIT_EDIT, function ()
@@ -355,8 +355,8 @@ function slot0.didEnter(slot0)
 		if uv0._currentForm == uv1.FORM_EDIT then
 			table.insert(slot0, function (slot0)
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					zIndex = -100,
 					hideNo = false,
+					zIndex = -100,
 					content = i18n("battle_preCombatLayer_save_march"),
 					onYes = function ()
 						uv0:emit(WorldBossFormationMediator.ON_COMMIT_EDIT, function ()
@@ -426,12 +426,12 @@ function slot0.didEnter(slot0)
 	slot0:TryPlayGuide()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 	triggerButton(slot0._backBtn)
 end
 
-function slot0.displayFleetInfo(slot0)
+slot0.displayFleetInfo = function(slot0)
 	slot1 = slot0._currentFleetVO:GetPropertiesSum()
 	slot2 = slot0._currentFleetVO:GetGearScoreSum(TeamType.Vanguard)
 	slot3 = slot0._currentFleetVO:GetGearScoreSum(TeamType.Main)
@@ -449,12 +449,12 @@ function slot0.displayFleetInfo(slot0)
 	setText(slot0._fleetNumText, slot0._currentFleetVO.id)
 end
 
-function slot0.disableAllStepper(slot0)
+slot0.disableAllStepper = function(slot0)
 	SetActive(slot0._nextPage, false)
 	SetActive(slot0._prevPage, false)
 end
 
-function slot0.GetActiveStgs(slot0)
+slot0.GetActiveStgs = function(slot0)
 	slot1 = {}
 	slot2, slot3, slot4 = WorldBossProxy.GetSupportValue()
 
@@ -465,7 +465,7 @@ function slot0.GetActiveStgs(slot0)
 	return slot1
 end
 
-function slot0.UpdateBuffContainer(slot0)
+slot0.UpdateBuffContainer = function(slot0)
 	slot2 = #slot0:GetActiveStgs() > 0
 
 	setActive(slot0._buffContainer, slot2)
@@ -484,9 +484,9 @@ function slot0.UpdateBuffContainer(slot0)
 		GetImageSpriteFromAtlasAsync("strategyicon/" .. pg.strategy_data_template[uv0[slot1 + 1]].icon, "", slot2)
 		onButton(uv1, slot2, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				yesText = "text_confirm",
 				hideNo = true,
 				content = "",
-				yesText = "text_confirm",
 				type = MSGBOX_TYPE_SINGLE_ITEM,
 				drop = {
 					type = DROP_TYPE_STRATEGY,
@@ -498,13 +498,13 @@ function slot0.UpdateBuffContainer(slot0)
 	end)
 end
 
-function slot0.TryPlayGuide(slot0)
+slot0.TryPlayGuide = function(slot0)
 	if #slot0:GetActiveStgs() > 0 then
 		WorldGuider.GetInstance():PlayGuide("WorldG200")
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0._currentForm == uv0.FORM_EDIT then
 		slot0.contextData.editingFleetVO = slot0._currentFleetVO
 	end

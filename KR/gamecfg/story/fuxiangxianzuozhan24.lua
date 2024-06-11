@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN24",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "드디어 왔나...",
 			bgm = "xinnong-2",
+			actor = 403030,
+			nameColor = "#a9f548",
+			say = "드디어 왔나...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,9 +42,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
+			dir = 1,
 			say = "포격 소리와 함께 하늘을 가득 메운 함재기가 등장했다. 함재기는 메탈 블러드의 것뿐 아니라 이상한 빛을 띄는 세이렌의 것이 더 많았다.",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
+			dir = 1,
 			say = "하지만 함재기 사이에서 계속해서 폭발이 일어났다. 1분 1초 목표 구역으로 다가가고 있지만 폭발 소리는 점점 더 빈번하게 들렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "여기는... 메탈 블러드의 영역이거든! 이런 상황에서는 어떻게 할까!",
 			effects = {
 				{
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "U-37, 아직 있지?",
 			dialogShake = {
 				speed = 0.09,
@@ -196,8 +196,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "여기는 U-37~ 여전히 대기 중. 제어 설비를 리셋할까?",
 			effects = {
@@ -219,8 +219,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "전자전 특화형 세이랜이야. 아마 중앙 통제 설비에도 대책을 세웠을 거야. 계획 변경이야. 설비를 폭파해!",
 			typewriter = {
@@ -236,8 +236,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "에, 에?! 폭파라고? 그러고 나면?",
 			typewriter = {
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,8 +263,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "긴급 상황이야. 일단 폭파하고 나서 말해.",
 			typewriter = {
@@ -328,8 +328,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 408100,
 			dir = 1,
+			actor = 408100,
 			nameColor = "#a9f548",
 			say = "응! 알았어! 공격 준비에 들어갈게. U-37, 통신 종료!",
 			typewriter = {
@@ -345,9 +345,9 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 403030,
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
 			nameColor = "#a9f548",
 			say = "그러면 이제 뒤늦게라도 응답해서 이 일의 종지부를 찍어볼까...",
 			typewriter = {

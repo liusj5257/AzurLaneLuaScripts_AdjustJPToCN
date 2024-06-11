@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHUIBIANDEJIARI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHUIBIANDEJIARI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Beachside Vacation Vignettes\n\n<size=45>The Seafaring Speedster</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_106",
-			say = "The deep blue sea and the bright blue sky stretch before me. While I'm admiring the scenery, I hear the rumble of an engine in the distance.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-3",
+			nameColor = "#A9F548FF",
+			say = "The deep blue sea and the bright blue sky stretch before me. While I'm admiring the scenery, I hear the rumble of an engine in the distance.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			say = "I turn to face it and see an approaching jet ski kicking up white waves.",
 			typewriter = {
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "star_level_bg_106",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Howdy, Commander!~",
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "star_level_bg_106",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Whatcha doing? Happy to see me win the race... or did you come to catch a ride with me?",
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "star_level_bg_106",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Whew... I tell ya, high-speed jet skiing on a summer day is the best thing ever!",
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "star_level_bg_106",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's aerodynamic! Lets me go faster, although it does show a ton of skin.",
@@ -134,11 +134,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "star_level_bg_106",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Why do you ask? Is it making your heart go thump-thump?",
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "star_level_bg_106",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Haha, you should've just said so from the very beginning! I don't like it when people beat around the bush.",
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "star_level_bg_106",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But enough about that. Hop on and I'll give you a taste of what it's like to sail the seas at breakneck speeds!",
@@ -188,12 +188,12 @@ return {
 			}
 		},
 		{
-			actor = 107121,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_106",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			say = "She throws me a life vest and a helmet. I put them on and take a seat behind her.",
 			painting = {
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "star_level_bg_106",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You ready to go? Then hang on tight! I'm going pedal to the metal!",
@@ -224,11 +224,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "star_level_bg_106",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Now let's catch some winds and make some waves!~！",
@@ -242,12 +242,12 @@ return {
 			}
 		},
 		{
-			actor = 107121,
+			withoutActorName = true,
 			side = 2,
 			bgName = "star_level_bg_106",
 			spine = true,
-			withoutActorName = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			say = "The engine revs, followed by the jet ski's nose rising up with great force. We take off with a big wave forming behind us.",
 			painting = {
@@ -260,11 +260,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
-			bgName = "bg_port_niuyue",
 			spine = true,
 			dir = 1,
+			bgName = "bg_port_niuyue",
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Fwa-hah! Nothing beats feeling the wind in your hair and the sea spray kickin' up all around you!",
@@ -277,17 +277,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "bg_port_niuyue",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "But what did you think, Commander?",
@@ -361,11 +361,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "bg_port_niuyue",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Oh, right, we should start heading back. Here we go – full throttle once more!",
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "bg_port_niuyue",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……",
@@ -397,11 +397,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "bg_port_niuyue",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The heck? The engine's not starting!",
@@ -415,11 +415,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "bg_port_niuyue",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Don't tell me I went TOO fast and broke it...",
@@ -439,11 +439,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "bg_port_niuyue",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Uh, yeah... Sorry about that. We'll just have to wait for someone to come and help us.",
@@ -457,11 +457,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "bg_port_niuyue",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Until then, might as well let the waves carry us and enjoy the scenery.",
@@ -475,11 +475,11 @@ return {
 			}
 		},
 		{
-			actor = 107121,
 			side = 2,
 			bgName = "bg_port_niuyue",
 			spine = true,
 			dir = 1,
+			actor = 107121,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "If the sea won't let us go, we'll just make this part two of our little date♪~",

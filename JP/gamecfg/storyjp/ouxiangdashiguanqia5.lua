@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "OUXIANGDASHIGUANQIA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "OUXIANGDASHIGUANQIA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "母港・臨時事務所",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "idom-Appeal",
+			say = "母港・臨時事務所",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,11 +43,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "よいっしょ…これはここに置いておくわね～",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,8 +61,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			nameColor = "#a9f548",
 			say = "はい！ありがとうございます！",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101176,
 			dir = 1,
+			actor = 101176,
 			nameColor = "#a9f548",
 			say = "ラフィーはもう疲れた…寝る……",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -114,11 +114,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700010,
 			nameColor = "#a9f548",
 			say = "ラフィーちゃん、備品の上で寝ちゃダメだよ～！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,8 +132,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101176,
 			dir = 1,
+			actor = 101176,
 			nameColor = "#a9f548",
 			say = "じゃあソファーで…",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			nameColor = "#a9f548",
 			say = "もう、ちょっとラフィーも手伝ってよー事務所の備品整理は大変なんだからっ",
 			typewriter = {
@@ -166,8 +166,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			nameColor = "#a9f548",
 			say = "でも、こうして整理してみるといきなり本格的になったね",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			nameColor = "#a9f548",
 			say = "さすがはプロのアイドルというべきなのかな…サラトガちゃんたちと意見がまったく一緒だなんて",
 			typewriter = {
@@ -200,11 +200,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "ふふふ、アイドルを始めるにもまずは事務所が必要だものね。形から入るとイメージしやすくて良いと思うわ",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,13 +215,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
 			say = "そうですね。「艦船」のみんなはアイドルが本業ではないようなので、",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,13 +232,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "それなら、レッスンだけじゃなく、普段の生活からアイドルの気持ちになってみてはどうかなと、春香から提案が――",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "それなら、レッスンだけじゃなく、普段の生活からアイドルの気持ちになってみてはどうかなと、春香から提案が――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,13 +265,13 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "えへへ……",
 			hidePaintEquip = true,
+			actor = 10700010,
+			nameColor = "#a9f548",
+			say = "えへへ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,16 +298,16 @@ return {
 			}
 		},
 		{
-			actor = 10700060,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "ここは腕をこう回して～ゆらゆら～って感じ！",
 			hidePaintEquip = true,
+			actor = 10700060,
+			nameColor = "#a9f548",
+			say = "ここは腕をこう回して～ゆらゆら～って感じ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -335,11 +335,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700070,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700070,
 			nameColor = "#a9f548",
 			say = "うあうあ、いきなりステップの練習を始めたら怪我しちゃうよ～！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,8 +350,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -363,8 +363,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307110,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
 			say = "くっ…指揮官さまが見ていないライブなど…ちゃんと録画するようにローンに相談しておかないと",
 			typewriter = {
@@ -380,8 +380,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 901120,
 			dir = 1,
+			actor = 901120,
 			nameColor = "#a9f548",
 			say = "はぁ…はぁ……もうダメ、無理…ここまできついとは思わなかった……",
 			typewriter = {
@@ -397,8 +397,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201234,
 			dir = 1,
+			actor = 201234,
 			nameColor = "#a9f548",
 			say = "ちょっと鬼すぎじゃない…？",
 			typewriter = {
@@ -414,11 +414,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "これぐらいで何言ってんのよ！そんなんじゃアイドルになんてなれないんだから",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,8 +432,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201234,
 			dir = 1,
+			actor = 201234,
 			nameColor = "#a9f548",
 			say = "フフフ、それは同感かも♪",
 			typewriter = {
@@ -449,11 +449,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "そういうあんたは練習しないの？",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,8 +467,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201234,
 			dir = 1,
+			actor = 201234,
 			nameColor = "#a9f548",
 			say = "そうだった！ちょっと飲み物買ってくるから失礼～♪",
 			typewriter = {
@@ -484,11 +484,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700030,
 			nameColor = "#a9f548",
 			say = "……まったく、色々キャラが濃いわね、ここの子たちも……",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,8 +499,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -511,15 +511,15 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
-			actor = 10700040,
 			dir = 1,
+			bgName = "bg_story_task",
+			hidePaintEquip = true,
+			actor = 10700040,
 			nameColor = "#a9f548",
 			say = "うふふ、みんな頑張っているみたいね～",
-			hidePaintEquip = true,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -547,8 +547,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			nameColor = "#a9f548",
 			say = "うっ、すごく大変そうです＞＜",
 			typewriter = {
@@ -561,8 +561,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -574,8 +574,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101176,
 			dir = 1,
+			actor = 101176,
 			nameColor = "#a9f548",
 			say = "Zzzzzz………",
 			typewriter = {
@@ -588,13 +588,13 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "レッスンをがんばったら、本番のパフォーマンスもきっと上手くいくよ！",
 			hidePaintEquip = true,
+			actor = 10700010,
+			nameColor = "#a9f548",
+			say = "レッスンをがんばったら、本番のパフォーマンスもきっと上手くいくよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,11 +608,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10700010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10700010,
 			nameColor = "#a9f548",
 			say = "だから、ジャベリンちゃんもラフィーちゃんも私たちと一緒にレッスンがんばろう！",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,8 +623,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -633,13 +633,13 @@ return {
 			}
 		},
 		{
-			actor = 10700020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そうね。それに私たちも、ここにいる間、レッスンを疎かにしないように気を付けないと",
 			hidePaintEquip = true,
+			actor = 10700020,
+			nameColor = "#a9f548",
+			say = "そうね。それに私たちも、ここにいる間、レッスンを疎かにしないように気を付けないと",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,13 +666,13 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "お待ちかねの――",
 			hidePaintEquip = true,
+			actor = 10700050,
+			nameColor = "#a9f548",
+			say = "お待ちかねの――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,14 +683,14 @@ return {
 			}
 		},
 		{
-			actor = 10700050,
+			blackbg = true,
 			side = 2,
 			bgName = "bg_story_task",
+			actor = 10700050,
 			dir = 1,
-			blackbg = true,
+			hidePaintEquip = true,
 			nameColor = "#a9f548",
 			say = "会場下見の時間よー！",
-			hidePaintEquip = true,
 			effects = {
 				{
 					active = true,

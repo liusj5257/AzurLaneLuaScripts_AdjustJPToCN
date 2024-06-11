@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_4 = {}
 slot1 = slot0.word_template_4
 
-function temp()
+temp = function()
 	uv0["叶"] = {
 		["剑"] = {
 			["英"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["李"] = {
 		["大"] = {
 			["钊"] = {
@@ -270,7 +270,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["孙"] = {
 		["中"] = {
 			["山"] = {
@@ -300,7 +300,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["邓"] = {
 		["小"] = {
 			["平"] = {

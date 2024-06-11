@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "空之戍卫",
 	cd = 0,
+	picture = "0",
+	desc = "提高舰队中所有铁血成员的防空属性,提升自身雷击属性",
 	painting = 1,
 	id = 13980,
-	picture = "0",
 	castCV = "skill",
-	desc = "提高舰队中所有铁血成员的防空属性,提升自身雷击属性",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetAllHelp",
 				"TargetNationality"
@@ -30,9 +30,9 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetSelf"
 			},

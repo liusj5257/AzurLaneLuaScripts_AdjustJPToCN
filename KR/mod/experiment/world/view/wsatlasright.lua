@@ -9,23 +9,23 @@ slot0.Fields = {
 	isDisplay = "boolean",
 	world = "table",
 	rtMapInfo = "userdata",
-	rtWorldInfo = "userdata",
+	wsWorldInfo = "table",
 	rtBg = "userdata",
-	wsWorldInfo = "table"
+	rtWorldInfo = "userdata"
 }
 
-function slot0.Setup(slot0)
+slot0.Setup = function(slot0)
 	pg.DelegateInfo.New(slot0)
 	slot0:Init()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.wsWorldInfo:Dispose()
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0.transform
 	slot0.rtBg = slot1:Find("bg")
 	slot0.rtNameBg = slot1:Find("name_bg")
@@ -56,7 +56,7 @@ function slot0.Init(slot0)
 	slot0:Collapse()
 end
 
-function slot0.Collapse(slot0)
+slot0.Collapse = function(slot0)
 	slot0.rtDisplayIcon:Find("icon").localScale = slot0.isDisplay and Vector3.one or Vector3(-1, 1, 1)
 
 	setActive(slot0.rtDisplayPanel, slot0.isDisplay)
@@ -64,7 +64,7 @@ function slot0.Collapse(slot0)
 	setActive(slot0.rtNameBg, not slot0.isDisplay)
 end
 
-function slot0.SetOverSize(slot0, slot1)
+slot0.SetOverSize = function(slot0, slot1)
 	slot0.rtBg.offsetMax = Vector2(-slot1, slot0.rtBg.offsetMax.y)
 	slot0.rtNameBg.offsetMax = Vector2(-slot1, slot0.rtNameBg.offsetMax.y)
 end

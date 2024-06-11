@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG17",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG17",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
-			say = "あなたがここにいるのは最初からわかってたけどぉ～",
 			bgm = "story-8",
+			actor = 900021,
+			actorName = "ピュリファイアー",
+			say = "あなたがここにいるのは最初からわかってたけどぉ～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "でもこうも邪魔してくれるとはね～一体何がしたいの？「プロトタイプ」…いいえ、「コードG」？",
 			typewriter = {
 				speed = 0.05,
@@ -55,12 +55,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
+			say = "いえいえいえいえ、今計算したけど、このサイズの「特異点」が崩壊したら、北方連合の半分がドカーンと吹き飛ばされるの！",
 			side = 1,
 			nameColor = "#ff0000",
-			actorName = "ピュリファイアー",
 			dir = 1,
-			say = "いえいえいえいえ、今計算したけど、このサイズの「特異点」が崩壊したら、北方連合の半分がドカーンと吹き飛ばされるの！",
+			actor = 900021,
+			actorName = "ピュリファイアー",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -78,8 +78,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 1,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "この時代はもちろん私たちの計画にとってもすっごく迷惑！だから…やめてもらえないかな？",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 1,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "そっちがその気なら、子プログラムのひとつとしてぇ…全力で止めさせてもらうわよ！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -122,15 +122,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "……————",
+			side = 2,
+			blackBg = true,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -162,8 +162,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "あははは！やっぱり来てくれたんだ！",
 			typewriter = {
 				speed = 0.05,
@@ -235,15 +235,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "……————",
+			side = 2,
+			blackBg = true,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,
@@ -351,12 +351,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
+			say = "なんちゃって～あなたを止めるにはこいつらを呼んだほうが都合がいいの！",
 			side = 1,
 			nameColor = "#ff0000",
-			actorName = "ピュリファイアー",
 			dir = -1,
-			say = "なんちゃって～あなたを止めるにはこいつらを呼んだほうが都合がいいの！",
+			actor = 900021,
+			actorName = "ピュリファイアー",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -468,8 +468,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "ふふふ、そんなに焦らないでよ。どうせ彼女に追いつけるわけないじゃん？それに～お前たちの相手はこの私よ？",
 			typewriter = {
 				speed = 0.05,
@@ -484,8 +484,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "まあ、お前たちのおかげでこっちも面倒事が解決したから～",
 			typewriter = {
 				speed = 0.05,
@@ -500,8 +500,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "お礼として～たっぷり遊んでやるよ！！！！",
 			typewriter = {
 				speed = 0.05,

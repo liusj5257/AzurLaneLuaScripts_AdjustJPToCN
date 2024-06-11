@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA35",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA35",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 305120,
-			side = 2,
 			bgName = "bg_xinnong2_1",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "Shinano, are you awake?",
 			bgm = "story-4",
+			actor = 305120,
+			nameColor = "#a9f548",
+			say = "Shinano, are you awake?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Yes... Apologies, I dozed off slightly... What is the combat situation...?",
 			dialogShake = {
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(This is what I remember... have I returned to reality...?)",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(It is as if I know not whether I am a person who dreamt of being a butterfly, or a butterfly that dreamt of being a person...)",
 			typewriter = {
@@ -106,15 +106,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 0,
 			bgName = "bg_xinnong2_8",
-			actorName = "{namecode:50}",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "{namecode:50}",
 			say = "Lady Shinano, did you enjoy your vacation?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:50}",
+			side = 0,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -171,8 +171,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:60}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:27}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_8",
-			actorName = "{namecode:27}",
 			dir = 1,
+			actorName = "{namecode:27}",
 			say = "Ah, um, it's nothing! Please pardon my rudeness!",
 			dialogShake = {
 				speed = 0.09,
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:80}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:80}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:60}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -320,11 +320,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_8",
-			actorName = "{namecode:27}",
 			dir = 1,
+			actorName = "{namecode:27}",
 			say = "No matter what happens, allow Suzutsuki to lay down her life for you! Just kidding~♪",
 			dialogShake = {
 				speed = 0.09,
@@ -341,8 +341,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:80}",
+			side = 1,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:182}",
+			side = 2,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:50}",
+			side = 0,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -389,8 +389,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "{namecode:50}",
+			side = 0,
 			bgName = "bg_xinnong2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -408,8 +408,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Indeed... To the place where fate awaits us...",
 			typewriter = {
@@ -441,8 +441,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Fates converge, and journeys end. Let us return home at last...",
 			typewriter = {
@@ -458,9 +458,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 301840,
 			dir = 1,
 			blackBg = true,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "Huh? Oh, yeah!",
 			typewriter = {
@@ -473,8 +473,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

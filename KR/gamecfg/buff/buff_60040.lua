@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-随机技能-缩小射线",
 	time = 0,
+	name = "测试-随机技能-缩小射线",
+	init_effect = "",
 	picture = "",
 	desc = "缩小射线",
 	stack = 1,
@@ -15,9 +15,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 60022,
 				time = 15,
-				target = "TargetSelf",
-				skill_id = 60022
+				target = "TargetSelf"
 			}
 		}
 	}

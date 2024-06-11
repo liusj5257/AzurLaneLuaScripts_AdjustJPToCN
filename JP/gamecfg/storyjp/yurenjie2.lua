@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YURENJIE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YURENJIE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"一撃！PURIN！\n\n<size=45>二 たゆまぬ努力</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "あれ以来、特装型ブリMKⅢはずっと特訓を重ねてきた。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "あれ以来、特装型ブリMKⅢはずっと特訓を重ねてきた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 100020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 100020,
+			nameColor = "#A9F548FF",
 			say = "くらえプリン！スーパーニャンニャン1号！",
 			painting = {
 				alpha = 0.3,
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,8 +81,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#A9F548FF",
 			say = "やったプリン！やっぱり私こそ最強プリン！",
 			painting = {
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			actor = 100020,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 100020,
+			nameColor = "#A9F548FF",
 			say = "毎日10キロマラソン、腕立て伏せ100回、腹筋100回にスクワット100回をこなしてきたプリン！",
 			painting = {
 				alpha = 0.3,
@@ -117,8 +117,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,8 +130,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#A9F548FF",
 			say = "でも肝心のスーパーニャンニャン1号が限界かも？私のパワーに耐えられる新武器を見つけないといけないプリン！",
 			painting = {
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 100000,
+			nameColor = "#A9F548FF",
 			say = "手伝いにきたプリン！伝説の「スーパーレインボーハンマー1号」の手がかりなら見つけたプリン！",
 			painting = {
 				alpha = 0.3,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -172,9 +172,9 @@ return {
 		{
 			actor = 100010,
 			side = 2,
-			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_103",
 			say = "それがあれば、最強になれるプリン！",
 			painting = {
 				alpha = 0.3,
@@ -189,8 +189,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			nameColor = "#A9F548FF",
 			say = "ほんとプリン？",
 			painting = {
@@ -203,8 +203,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -215,9 +215,9 @@ return {
 		{
 			actor = 100010,
 			side = 2,
-			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_103",
 			say = "ほんとプリン！「試練の地」にあるプリン！試練に合格したら手に入るプリン！",
 			painting = {
 				alpha = 0.3,
@@ -231,9 +231,9 @@ return {
 		{
 			actor = 100020,
 			side = 2,
-			bgName = "star_level_bg_103",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_103",
 			say = "朝飯前だプリン！訓練の成果を見せてやるプリン！",
 			painting = {
 				alpha = 0.3,

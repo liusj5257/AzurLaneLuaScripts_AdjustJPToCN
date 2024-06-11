@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "航空演训",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 902140,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902140,
+	color = "yellow",
 	icon = 902140,
 	last_effect = "",
 	blink = {

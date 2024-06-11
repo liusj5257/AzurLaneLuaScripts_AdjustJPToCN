@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "活动buff-建筑效果-战斗减伤提高",
 	time = 0,
-	color = "yellow",
+	name = "活动buff-建筑效果-战斗减伤提高",
+	init_effect = "",
+	id = 512,
 	picture = "",
 	desc = "舰队减伤提高",
 	stack = 1,
-	id = 512,
+	color = "yellow",
 	icon = 512,
 	last_effect = "",
 	effect_list = {

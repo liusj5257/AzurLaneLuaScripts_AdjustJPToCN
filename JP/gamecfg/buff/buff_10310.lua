@@ -12,9 +12,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10310,
 					target = "TargetSelf",
-					time = 35,
-					skill_id = 10310
+					time = 35
 				}
 			}
 		}
@@ -32,9 +32,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10310,
 					target = "TargetSelf",
-					time = 33,
-					skill_id = 10310
+					time = 33
 				}
 			}
 		}
@@ -52,9 +52,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10310,
 					target = "TargetSelf",
-					time = 31,
-					skill_id = 10310
+					time = 31
 				}
 			}
 		}
@@ -72,9 +72,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10310,
 					target = "TargetSelf",
-					time = 29,
-					skill_id = 10310
+					time = 29
 				}
 			}
 		}
@@ -92,9 +92,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10310,
 					target = "TargetSelf",
-					time = 27,
-					skill_id = 10310
+					time = 27
 				}
 			}
 		}
@@ -112,9 +112,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10310,
 					target = "TargetSelf",
-					time = 25,
-					skill_id = 10310
+					time = 25
 				}
 			}
 		}
@@ -132,9 +132,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10310,
 					target = "TargetSelf",
-					time = 23,
-					skill_id = 10310
+					time = 23
 				}
 			}
 		}
@@ -152,9 +152,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10310,
 					target = "TargetSelf",
-					time = 21,
-					skill_id = 10310
+					time = 21
 				}
 			}
 		}
@@ -172,9 +172,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10310,
 					target = "TargetSelf",
-					time = 18,
-					skill_id = 10310
+					time = 18
 				}
 			}
 		}
@@ -192,9 +192,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 10310,
 					target = "TargetSelf",
-					time = 15,
-					skill_id = 10310
+					time = 15
 				}
 			}
 		}
@@ -202,12 +202,12 @@ return {
 	desc_get = "每35秒(满级15秒)，对距离最远的敌人额外发动一轮必定暴击的专属炮击(威力、弹药依据技能等级)",
 	name = "神射手",
 	init_effect = "",
+	id = 10310,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "每$1秒，对距离最远的敌人额外发动一轮必定暴击的专属$2炮击(威力依据技能等级)",
 	stack = 1,
-	id = 10310,
+	color = "red",
 	icon = 10310,
 	last_effect = "",
 	effect_list = {
@@ -217,9 +217,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 10310,
 				target = "TargetSelf",
-				time = 35,
-				skill_id = 10310
+				time = 35
 			}
 		}
 	}

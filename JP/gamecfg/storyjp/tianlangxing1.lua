@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"シリアス改造計画\n\n<size=45>一 メイドとしては……</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ひょんなきっかけから、メイド隊の警備担当――とベルファストから紹介されたシリアスを秘書艦に抜擢した。",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "シリアスがお役に立てることがありましたら、なんでも仰ってくださいませ。メイド長ほどではございませんが、全力でご期待にお応えいたします",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "クールに振る舞う、いつも一生懸命な彼女に仕事を任せてみたが……",
 			typewriter = {
 				speed = 0.05,
@@ -111,15 +111,15 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "…………？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 202200,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "シリアスは意味がわからなそうに頭をかしげた。",
 			typewriter = {
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "申し訳ございません……昨日ご主人様がご覧になったかと思い、処分いたしました……",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "す、すぐ見つけ出します！",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = 2250
@@ -229,9 +229,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "シリアスは慌ててひざまずき、古紙の山を漁り始めた。",
 			typewriter = {
 				speed = 0.05,
@@ -243,15 +243,15 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "恐れ入りますがご主人様、掃除は…どこから始めればよろしいでしょうか？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -276,15 +276,15 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202200,
+			nameColor = "#a9f548",
 			say = "恐縮ですが、お茶はいつもメイド隊の仲間に淹れていただいておりまして、シリアスは淹れたことがございません…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1,
 					dur = 0.4,
 					x = 22.5,
@@ -319,13 +319,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "SP（シークレットサービス）としては申し分ないものの、一般事務については最低限のことならなんとか…という具合で、お世辞にもいい結果とは言えなかった。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -369,8 +369,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "どうか…どうかこの卑しきメイドにお躾ください！",
 			typewriter = {
@@ -383,9 +383,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "頭を下げ、必死に謝るシリアス。",
 			typewriter = {
 				speed = 0.05,

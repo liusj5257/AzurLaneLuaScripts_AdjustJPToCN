@@ -2,7 +2,7 @@ slot0 = class("LotteryLayer", import("..base.BaseUI"))
 slot1 = pg.activity_random_award_template
 slot2 = true
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	if uv0 then
 		return "LotteryForCHTUI"
 	else
@@ -10,19 +10,19 @@ function slot0.getUIName(slot0)
 	end
 end
 
-function slot0.setPlayerVO(slot0, slot1)
+slot0.setPlayerVO = function(slot0, slot1)
 	slot0.playerVO = slot1
 
 	slot0:updateResource()
 end
 
-function slot0.updateResource(slot0)
+slot0.updateResource = function(slot0)
 	slot0.resCount = slot0.playerVO[id2res(slot0.resId)]
 
 	setText(slot0.resource:Find("Text"), slot0.resCount)
 end
 
-function slot0.setActivity(slot0, slot1)
+slot0.setActivity = function(slot0, slot1)
 	slot0.activityVO = slot1
 	slot0.resId = slot0.activityVO:getConfig("config_client").resId
 	slot0.awardInfos = slot1:getAwardInfos()
@@ -30,7 +30,7 @@ function slot0.setActivity(slot0, slot1)
 	slot0:initActivityPools()
 end
 
-function slot0.initActivityPools(slot0)
+slot0.initActivityPools = function(slot0)
 	slot0.activityPools = {}
 	slot1 = slot0.activityVO
 	slot1 = slot1:getConfig("config_data")
@@ -52,7 +52,7 @@ function slot0.initActivityPools(slot0)
 	slot0.activityPool = slot0.activityPools[slot0.activityVO.data1 or slot1[1]]
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.lotteryPoolContainer = slot0:findTF("left_panel/pool_list/content")
 	slot0.attrs = slot0:findTF("left_panel/pool_list/arrs")
 	slot0.mainItenContainer = slot0:findTF("right_panel/main_item_list/content")
@@ -74,7 +74,7 @@ function slot0.init(slot0)
 	slot0.topPanel = slot0:findTF("top")
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("top/back_btn"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SOUND_BACK)
@@ -119,7 +119,7 @@ function slot0.didEnter(slot0)
 				return
 			end
 
-			function slot2()
+			slot2 = function()
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					content = i18n("amercian_notice_1", uv0 * uv1.count, uv0),
 					onYes = function ()
@@ -157,7 +157,7 @@ function slot0.didEnter(slot0)
 		setActive(uv0.bonusWindow, false)
 	end)
 
-	function slot6()
+	slot6 = function()
 		setActive(uv0.bonusWindow, false)
 	end
 
@@ -178,13 +178,13 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot0.activityPoolTFs[slot0.activityPool.id], true)
 end
 
-function slot0.onActivityUpdated(slot0, slot1)
+slot0.onActivityUpdated = function(slot0, slot1)
 	slot0:setActivity(slot1)
 	slot0:updateActivityPoolState()
 	slot0:switchToPool(slot1.data1)
 end
 
-function slot0.initPoolTFs(slot0)
+slot0.initPoolTFs = function(slot0)
 	slot0.activityPoolTFs = {}
 
 	for slot4, slot5 in pairs(slot0.activityPools) do
@@ -204,7 +204,7 @@ function slot0.initPoolTFs(slot0)
 	end
 end
 
-function slot0.updateActivityPoolState(slot0)
+slot0.updateActivityPoolState = function(slot0)
 	for slot4, slot5 in pairs(slot0.activityPools) do
 		slot6 = slot0.activityPoolTFs[slot4]
 		slot7 = not slot5.prevId or slot0.activityPools[slot5.prevId]:canOpenNext()
@@ -227,7 +227,7 @@ function slot0.updateActivityPoolState(slot0)
 	end
 end
 
-function slot0.switchToPool(slot0, slot1)
+slot0.switchToPool = function(slot0, slot1)
 	slot2 = slot0.activityPools[slot1]
 	slot3 = slot0.activityPoolTFs[slot1]
 
@@ -246,7 +246,7 @@ function slot0.switchToPool(slot0, slot1)
 	slot0.showActivityPool = slot0.activityPools[slot2.id]
 end
 
-function slot0.updateAwardsFetchedCount(slot0, slot1)
+slot0.updateAwardsFetchedCount = function(slot0, slot1)
 	if slot0.awardsCounttxt then
 		slot2 = slot1:getFetchCount()
 		slot3 = slot1:getItemCount()
@@ -254,7 +254,7 @@ function slot0.updateAwardsFetchedCount(slot0, slot1)
 	end
 end
 
-function slot0.updateMainItems(slot0, slot1)
+slot0.updateMainItems = function(slot0, slot1)
 	for slot7 = slot0.mainItenContainer.childCount, #slot1:getMainItems() do
 		cloneTplTo(slot0.mainItenTpl, slot0.mainItenContainer)
 	end
@@ -277,7 +277,7 @@ function slot0.updateMainItems(slot0, slot1)
 	end
 end
 
-function slot0.showBonus(slot0, slot1, slot2)
+slot0.showBonus = function(slot0, slot1, slot2)
 	setActive(slot0.bonusWindow, true)
 
 	slot0.awardMain = slot1
@@ -300,7 +300,7 @@ function slot0.showBonus(slot0, slot1, slot2)
 	slot0.dropListN:align(#slot0.awardNormal)
 end
 
-function slot0.updateDrop(slot0, slot1, slot2, slot3, slot4)
+slot0.updateDrop = function(slot0, slot1, slot2, slot3, slot4)
 	if slot1 == UIItemList.EventUpdate then
 		slot5 = slot4[slot2 + 1]
 
@@ -311,7 +311,7 @@ function slot0.updateDrop(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.bgs = nil
 end
 

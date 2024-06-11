@@ -4,11 +4,11 @@ slot3 = 4
 slot4 = "shan_luan_task_help"
 slot5 = "shan_luan_task_help"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SenrankaguraMedalUI"
 end
 
-function slot0.GetTaskCountAble()
+slot0.GetTaskCountAble = function()
 	if not getProxy(ActivityProxy):getActivityById(ActivityConst.SENRANKAGURA_TASK_ID) then
 		return false
 	end
@@ -24,7 +24,7 @@ function slot0.GetTaskCountAble()
 
 	slot5 = nil
 
-	function slot5(slot0)
+	slot5 = function(slot0)
 		if not slot0 then
 			return true
 		end
@@ -61,7 +61,7 @@ function slot0.GetTaskCountAble()
 	return slot4 > 0, slot4
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.activityId = ActivityConst.SENRANKAGURA_TASK_ID
 	slot0.taskActivity = getProxy(ActivityProxy):getActivityById(slot0.activityId)
 	slot0.taskIds = pg.activity_template[slot0.activityId].config_client.player_task
@@ -162,7 +162,7 @@ function slot0.init(slot0)
 	slot0:initSubmitPanel()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updateUI()
 
 	if slot0.taskActivity and slot0.openTaskFlag then
@@ -172,7 +172,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.updateUI(slot0)
+slot0.updateUI = function(slot0)
 	setActive(findTF(slot0.btnDetail, "detail"), not slot0:getMedalGetAble() and slot0.taskActivity)
 	setActive(findTF(slot0.btnDetail, "get"), slot1)
 
@@ -230,7 +230,7 @@ function slot0.updateUI(slot0)
 	end
 end
 
-function slot0.getMedalGetAble(slot0)
+slot0.getMedalGetAble = function(slot0)
 	slot2 = getProxy(ActivityProxy):getActivityById(ActivityConst.SENRANKAGURA_MEDAL_ID)
 	slot3 = slot2.data1_list
 
@@ -241,11 +241,11 @@ function slot0.getMedalGetAble(slot0)
 	return false
 end
 
-function slot0.openDetailPane(slot0)
+slot0.openDetailPane = function(slot0)
 	setActive(slot0.detailPanel, true)
 end
 
-function slot0.initDetailPanel(slot0)
+slot0.initDetailPanel = function(slot0)
 	slot0.detailSlider = findTF(slot0.detailPanel, "ad/progressSlider")
 	slot0.detailClose = findTF(slot0.detailPanel, "ad/btnClose")
 	slot5 = SOUND_BACK
@@ -291,7 +291,7 @@ function slot0.initDetailPanel(slot0)
 	slot0.detailLevelDesc = findTF(slot0.detailPanel, "ad/levelDesc")
 end
 
-function slot0.updateDetailPanel(slot0)
+slot0.updateDetailPanel = function(slot0)
 	slot3 = nil
 
 	if slot0:getBuildLv(slot0:getPtNum()) ~= 0 then
@@ -319,7 +319,7 @@ function slot0.updateDetailPanel(slot0)
 	setText(findTF(slot0.detailLevelDesc, "desc"), i18n("shan_luan_task_level_tip", "Lv." .. slot2))
 end
 
-function slot0.getTaskCompleteCount(slot0)
+slot0.getTaskCompleteCount = function(slot0)
 	slot1 = 0
 
 	for slot6, slot7 in ipairs(slot0:getActiveTask()) do
@@ -333,7 +333,7 @@ function slot0.getTaskCompleteCount(slot0)
 	return slot1
 end
 
-function slot0.getPtNum(slot0)
+slot0.getPtNum = function(slot0)
 	slot1 = 0
 
 	if slot0.ptMaxNum < (slot0.ptId and (getProxy(PlayerProxy):getData()[slot0.ptName] or 0) or getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2):GetBuildingLevelSum()) then
@@ -343,7 +343,7 @@ function slot0.getPtNum(slot0)
 	return slot1
 end
 
-function slot0.getBuildLv(slot0, slot1)
+slot0.getBuildLv = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6 = #slot0.buffs, 1, -1 do
@@ -355,7 +355,7 @@ function slot0.getBuildLv(slot0, slot1)
 	return slot2
 end
 
-function slot0.initTaskListIds(slot0, slot1, slot2)
+slot0.initTaskListIds = function(slot0, slot1, slot2)
 	slot3 = nil
 	slot5 = {
 		id = slot1,
@@ -382,7 +382,7 @@ function slot0.initTaskListIds(slot0, slot1, slot2)
 	})
 end
 
-function slot0.initTaskPanel(slot0)
+slot0.initTaskPanel = function(slot0)
 	onButton(slot0, findTF(slot0.taskPanel, "ad/frame/btnBack"), function ()
 		setActive(uv0.taskPanel, false)
 	end, SOUND_BACK)
@@ -479,7 +479,7 @@ function slot0.initTaskPanel(slot0)
 	end, SFX_CONFIRM)
 end
 
-function slot0.updateTask(slot0)
+slot0.updateTask = function(slot0)
 	for slot4 = 1, #slot0.taskGroups do
 		for slot10, slot11 in ipairs(slot0.taskGroups[slot4].taskDic) do
 			slot12 = slot11.tf
@@ -551,7 +551,7 @@ function slot0.updateTask(slot0)
 	end
 end
 
-function slot0.checkTaskBeforeComplete(slot0, slot1)
+slot0.checkTaskBeforeComplete = function(slot0, slot1)
 	if not slot1 then
 		return true
 	end
@@ -573,7 +573,7 @@ function slot0.checkTaskBeforeComplete(slot0, slot1)
 	return true
 end
 
-function slot0.getTaskGroupData(slot0, slot1)
+slot0.getTaskGroupData = function(slot0, slot1)
 	for slot5 = 1, #slot0.taskGroups do
 		for slot10, slot11 in ipairs(slot0.taskGroups[slot5].taskDic) do
 			if slot11.data.id == slot1 then
@@ -585,7 +585,7 @@ function slot0.getTaskGroupData(slot0, slot1)
 	return nil
 end
 
-function slot0.getTaskPos(slot0, slot1)
+slot0.getTaskPos = function(slot0, slot1)
 	for slot5 = 1, #slot0.taskGroups do
 		for slot10, slot11 in ipairs(slot0.taskGroups[slot5].taskDic) do
 			if slot11.data.id == slot1 then
@@ -597,7 +597,7 @@ function slot0.getTaskPos(slot0, slot1)
 	return nil
 end
 
-function slot0.getTask(slot0, slot1)
+slot0.getTask = function(slot0, slot1)
 	slot3 = nil
 
 	if getProxy(TaskProxy):getTaskById(slot1) then
@@ -611,7 +611,7 @@ function slot0.getTask(slot0, slot1)
 	return nil
 end
 
-function slot0.getGetAbleTask(slot0)
+slot0.getGetAbleTask = function(slot0)
 	slot1 = {}
 	slot2 = getProxy(TaskProxy)
 
@@ -624,7 +624,7 @@ function slot0.getGetAbleTask(slot0)
 	return slot1
 end
 
-function slot0.getActiveTask(slot0)
+slot0.getActiveTask = function(slot0)
 	slot1 = {}
 
 	for slot5 = 1, #slot0.taskGroups do
@@ -640,7 +640,7 @@ function slot0.getActiveTask(slot0)
 	return slot1
 end
 
-function slot0.taskSelectTag(slot0, slot1, slot2)
+slot0.taskSelectTag = function(slot0, slot1, slot2)
 	slot3 = 0
 
 	if slot0.currentSelectIndex then
@@ -682,15 +682,15 @@ function slot0.taskSelectTag(slot0, slot1, slot2)
 	end
 end
 
-function slot0.openTaskPanel(slot0, slot1)
+slot0.openTaskPanel = function(slot0, slot1)
 	slot0:taskSelectTag(slot1 or 1, false)
 	setActive(slot0.taskPanel, true)
 end
 
-function slot0.sortListDatas(slot0, slot1)
+slot0.sortListDatas = function(slot0, slot1)
 	slot2 = nil
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		for slot4, slot5 in ipairs(uv0) do
 			if slot5[1] == slot0[1] and slot5[2] == slot0[2] then
 				return false
@@ -700,7 +700,7 @@ function slot0.sortListDatas(slot0, slot1)
 		return true
 	end
 
-	function slot4(slot0, slot1)
+	slot4 = function(slot0, slot1)
 		for slot5, slot6 in ipairs(slot1) do
 			if slot6.id == slot0 then
 				return slot6
@@ -767,7 +767,7 @@ function slot0.sortListDatas(slot0, slot1)
 	end
 end
 
-function slot0.openSubmitPanel(slot0, slot1)
+slot0.openSubmitPanel = function(slot0, slot1)
 	setActive(slot0.submitPanel, true)
 	setImageSprite(findTF(slot0.submitPanel, "icon/img"), GetSpriteFromAtlas("ui/senrankaguramedalui_atlas", "player_icon_" .. slot0.currentSelectIndex), true)
 
@@ -786,7 +786,7 @@ function slot0.openSubmitPanel(slot0, slot1)
 	end
 end
 
-function slot0.initSubmitPanel(slot0)
+slot0.initSubmitPanel = function(slot0)
 	slot0.submitGet = findTF(slot0.submitPanel, "get")
 	slot0.submitGot = findTF(slot0.submitPanel, "got")
 	slot0.submitGo = findTF(slot0.submitPanel, "go")
@@ -823,7 +823,7 @@ function slot0.initSubmitPanel(slot0)
 	setText(findTF(slot0.submitPanel, "bg/txtAward"), i18n("ryza_task_detail_award"))
 end
 
-function slot0.setSubmitAward(slot0, slot1)
+slot0.setSubmitAward = function(slot0, slot1)
 	if #slot0.submitItems < #slot1 then
 		for slot5 = 1, #slot1 - #slot0.submitItems do
 			slot6 = tf(instantiate(slot0.submitItemTpl))
@@ -852,7 +852,7 @@ function slot0.setSubmitAward(slot0, slot1)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if LeanTween.isTweening(go(slot0._tf)) then
 		LeanTween.cancel(go(slot0._tf))
 	end

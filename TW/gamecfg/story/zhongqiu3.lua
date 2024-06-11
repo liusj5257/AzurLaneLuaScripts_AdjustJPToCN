@@ -1,11 +1,11 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHONGQIU3",
-	once = true,
 	fadeType = 1,
-	fadein = 1.5,
+	once = true,
+	id = "ZHONGQIU3",
 	updateOnBegin = 1,
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 502010,
@@ -132,47 +132,13 @@ return {
 			}
 		},
 		{
-			actor = 201100,
-			side = 2,
-			actorName = "？？？",
-			nameColor = "#a9f548",
-			dir = -1,
-			withoutPainting = true,
 			say = "我都換上泳裝了，胡德妳也不要害羞嘛~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 204030,
-			side = 1,
-			actorName = "？？？",
-			nameColor = "#a9f548",
-			dir = -1,
-			withoutPainting = true,
-			say = "我只說會陪妳來海邊，可沒承諾會換上泳裝。而且，在秋天冰涼的海水裡游泳可不是淑女的風範",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 201100,
 			side = 2,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "胡德姐姐……可是咱昨天才看到妳在海裡練習游泳，還——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,13 +149,13 @@ return {
 			}
 		},
 		{
-			actor = 204030,
+			say = "我只說會陪妳來海邊，可沒承諾會換上泳裝。而且，在秋天冰涼的海水裡游泳可不是淑女的風範",
 			side = 1,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "小！天！鵝！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,13 +166,47 @@ return {
 			}
 		},
 		{
+			say = "胡德姐姐……可是咱昨天才看到妳在海裡練習游泳，還——",
+			side = 2,
+			actorName = "？？？",
+			dir = -1,
 			actor = 201100,
+			nameColor = "#a9f548",
+			withoutPainting = true,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "小！天！鵝！",
+			side = 1,
+			actorName = "？？？",
+			dir = -1,
+			actor = 204030,
+			nameColor = "#a9f548",
+			withoutPainting = true,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			say = "呀——！！！",
 			side = 0,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "呀——！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

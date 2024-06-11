@@ -413,5 +413,26 @@ pg.ship_spine_shift = {
 			10,
 			0
 		}
+	},
+	aersasi = {
+		spine = "aersasi",
+		mainui_shift = {
+			0,
+			-100
+		}
+	},
+	chaijun_younv = {
+		spine = "chaijun_younv",
+		mainui_shift = {
+			0,
+			15
+		}
+	},
+	feiteliedadi_younv = {
+		spine = "feiteliedadi_younv",
+		mainui_shift = {
+			0,
+			-10
+		}
 	}
 }

@@ -112,10 +112,10 @@ return {
 	uiEffect = "",
 	name = "光焰中的奇迹",
 	cd = 0,
-	painting = 0,
-	id = 11891,
 	picture = "0",
 	desc = "回避up",
+	painting = 0,
+	id = 11891,
 	aniEffect = {
 		effect = "jineng",
 		offset = {

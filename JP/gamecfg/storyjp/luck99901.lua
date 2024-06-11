@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK99901",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK99901",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -25,8 +25,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "「カンシャ」を表現する手段として同艦隊のメンバーの行動記録を記憶ログから読み込む。",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "――「感謝のハグ」が効果的と判断。",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "め、主（メートル）…こうしてあげれば、嬉しくなる……かな？",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "――注意。ガスコーニュ、「竜骨編纂」を行うことで、さらなる機能拡張が可能。",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 999010,
 			dir = 1,
+			actor = 999010,
 			say = "主、引き続き、ガスコーニュの強化を頼む。",
 			typewriter = {
 				speed = 0.05,

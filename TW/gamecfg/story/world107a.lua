@@ -1,17 +1,17 @@
 return {
-	id = "WORLD107A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD107A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 103160,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bsm-1",
 			dir = 1,
 			say = "我們明明已經這麼深入NA海域內部了，情況有些不對，敵人還是太少了......",
+			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "又有一批海圖要作廢了。",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "根據以往的戰鬥經驗，只有在艦隊指揮系統遭受毀滅性打擊的時候塞壬才會出現這樣的戰鬥模式。",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "可是要怎麼做才能讓這麼大範圍內的塞壬指揮遭受到毀滅性打擊……",
 			typewriter = {
 				speed = 0.05,
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "只有中樞指揮系統出現異常這一個可能了。如果這樣的話，不論是低下的指揮效率還是異常的艦隊部署都能解釋得通了。",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "可是我們剛剛才在百慕達海域和塞壬苦戰了一場哦？我是覺得那批塞壬絕對是受到高級塞壬直接指揮的啦。",
 			typewriter = {
 				speed = 0.05,
@@ -161,9 +161,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "哼哼，不論原因是什麼，現在絕對是我們奪回整片NA海域的大好時機，指揮部選擇的時機太漂亮了！",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,8 +185,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "嗯，沒錯。總之一邊戰鬥，一邊尋找塞壬陷入異常的原因吧。",
 			typewriter = {
 				speed = 0.05,

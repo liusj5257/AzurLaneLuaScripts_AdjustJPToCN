@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「버츄얼 연결고리의 공시성」 -일상편\n\n<size=45>2. 인공지능은 전뇌돌고래를 꿈꾸는가?</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "??? - 황폐한 도시",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,13 +48,13 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
-			nameColor = "#92fc63",
-			say = "음~ 황폐한 건물이 보여요. 거기다 꽤 어두워요.",
 			dir = -1,
 			blackBg = true,
 			bgm = "story-1",
+			actor = 301050,
+			nameColor = "#92fc63",
+			say = "음~ 황폐한 건물이 보여요. 거기다 꽤 어두워요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "흐에~ …진짜 유령 씨라도 나올 것 같은 분위기야~",
 			side = 1,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
-			say = "흐에~ …진짜 유령 씨라도 나올 것 같은 분위기야~",
+			actor = 106011,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -85,12 +85,12 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "키즈나 아이",
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
+			actorName = "키즈나 아이",
 			say = "여기는 어디일까…… 그보다 의상은 또 언제 바뀐 거지!?",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "(그오오~~~! 오오오~~~!)",
 			typewriter = {
@@ -119,9 +119,9 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "키즈나 아이",
 			say = "가아아아아아!!!!!",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 106011,
+			nameColor = "#92fc63",
 			say = "우와아아아아아아아!!! 왠지 무서운 사람이 나왔어~~~~!!!",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -186,12 +186,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "다들 진정하는 거에요. 거기에 있는 무기를 주으세요. 이걸 사용해서 살아남는 거에요…!",
 			side = 0,
-			nameColor = "#92fc63",
 			dir = -1,
 			blackBg = true,
-			say = "다들 진정하는 거에요. 거기에 있는 무기를 주으세요. 이걸 사용해서 살아남는 거에요…!",
+			actor = 301050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -209,9 +209,9 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#92fc63",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "키즈나 아이",
 			say = "이런 상황인데도 전혀 동요하지 않다니!? 어, 어쨌든 알겠어!",
 			typewriter = {
@@ -224,16 +224,16 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			actorName = "타이위안",
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
+			nameColor = "#92fc63",
 			say = "이야아압~! 덤벼라~~~~!!!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -258,8 +258,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "(탕! 탕! 드르르르르륵!)",
 			typewriter = {
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "헤헤헤~ 유령 씨는 무적이야~! 하지만 조금 지쳤으니까 저기 연구 시설 같은 건물 안에서 휴식할 거야~",
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
-			say = "헤헤헤~ 유령 씨는 무적이야~! 하지만 조금 지쳤으니까 저기 연구 시설 같은 건물 안에서 휴식할 거야~",
+			actor = 106011,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "(오오오오오~~~~~~ 악!!!)",
 			typewriter = {
@@ -354,11 +354,11 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 106011,
+			nameColor = "#92fc63",
 			say = "꺄아아아아악!!! 이번엔 뭐야!?",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,9 +399,9 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "타이위안",
 			say = "뭐야~ 그냥 '끝판왕'이구나~ 아하하하하~",
 			typewriter = {
@@ -438,11 +438,11 @@ return {
 			}
 		},
 		{
-			actor = 106011,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 106011,
+			nameColor = "#92fc63",
 			say = "공격이 거칠어~ 엄청나게 크고, 어지간한 공격으로는 쓰러뜨릴 수 없을 것 같아~!",
 			effects = {
 				{
@@ -463,9 +463,9 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "타이위안",
 			say = "앗! 이런 곳에 로켓 런처가!!!",
 			typewriter = {
@@ -481,9 +481,9 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "타이위안",
 			say = "아니, 무게가 장난 아닌데~!?",
 			typewriter = {
@@ -512,12 +512,12 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "타이위안",
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
+			actorName = "타이위안",
 			say = "맡겨줘! 가라~~~! 이야아아아아압~~~~~~!!!",
 			typewriter = {
 				speed = 0.05,
@@ -529,8 +529,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "(콰아아아아아앙!!!)",
 			dialogShake = {
@@ -548,15 +548,15 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			nameColor = "#92fc63",
 			say = "………'해치웠나!?'에요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -584,9 +584,9 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "타이위안",
 			say = "아, 아야나미쨩!? 그런 말을 해버리면……",
 			typewriter = {
@@ -634,9 +634,9 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "타이위안",
 			say = "아아아아아아아~~~~! 역시 복선이~~~~~!!!",
 			typewriter = {
@@ -649,8 +649,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -659,8 +659,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "(우오오오오오~~~~~~~!!!)",
 			typewriter = {
@@ -692,9 +692,9 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "타이위안",
 			say = "그, 그런… 모두 없어져 버렸어……",
 			typewriter = {
@@ -709,15 +709,15 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actorName = "타이위안",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actorName = "타이위안",
+			actor = 10400040,
 			nameColor = "#92fc63",
 			say = "우으… 모두, 미안해…… 나 때문에…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -745,9 +745,9 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400040,
 			dir = 1,
 			blackBg = true,
+			actor = 10400040,
 			actorName = "타이위안",
 			say = "………응?",
 			typewriter = {
@@ -760,11 +760,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "시스템 메시지",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#92fc63",
 			say = "컨티뉴 하시겠습니까?",
 			typewriter = {
 				speed = 0.05,

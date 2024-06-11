@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "闪烁",
 	cd = 0,
+	picture = "0",
+	desc = "",
 	painting = 1,
 	id = 19330,
-	picture = "0",
 	castCV = "skill",
-	desc = "",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 19331
 			}
@@ -32,8 +32,8 @@ return {
 			},
 			arg_list = {
 				targetRelativeCorrdinate = {
-					hrz = 15,
-					vrt = 0
+					vrt = 0,
+					hrz = 15
 				}
 			}
 		}

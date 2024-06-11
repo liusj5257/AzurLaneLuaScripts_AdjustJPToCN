@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.045
+					number = 0.045,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -29,8 +29,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "luck",
-					number = 1
+					number = 1,
+					attr = "luck"
 				}
 			},
 			{
@@ -72,8 +72,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.052
+					number = 0.052,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -82,8 +82,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "luck",
-					number = 1
+					number = 1,
+					attr = "luck"
 				}
 			},
 			{
@@ -125,8 +125,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.06
+					number = 0.06,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -135,8 +135,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "luck",
-					number = 2
+					number = 2,
+					attr = "luck"
 				}
 			},
 			{
@@ -178,8 +178,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.07
+					number = 0.07,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -188,8 +188,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "luck",
-					number = 2
+					number = 2,
+					attr = "luck"
 				}
 			},
 			{
@@ -231,8 +231,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.077
+					number = 0.077,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -241,8 +241,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "luck",
-					number = 3
+					number = 3,
+					attr = "luck"
 				}
 			},
 			{
@@ -284,8 +284,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.085
+					number = 0.085,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -294,8 +294,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "luck",
-					number = 4
+					number = 4,
+					attr = "luck"
 				}
 			},
 			{
@@ -337,8 +337,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.095
+					number = 0.095,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -347,8 +347,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "luck",
-					number = 5
+					number = 5,
+					attr = "luck"
 				}
 			},
 			{
@@ -390,8 +390,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.102
+					number = 0.102,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -400,8 +400,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "luck",
-					number = 6
+					number = 6,
+					attr = "luck"
 				}
 			},
 			{
@@ -443,8 +443,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.11
+					number = 0.11,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -453,8 +453,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "luck",
-					number = 7
+					number = 7,
+					attr = "luck"
 				}
 			},
 			{
@@ -496,8 +496,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.12
+					number = 0.12,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -506,8 +506,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "luck",
-					number = 8
+					number = 8,
+					attr = "luck"
 				}
 			},
 			{
@@ -529,9 +529,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "自身伤害",
 	init_effect = "",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -564,8 +564,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.045
+				number = 0.045,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -574,8 +574,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "luck",
-				number = 1
+				number = 1,
+				attr = "luck"
 			}
 		},
 		{

@@ -1,6 +1,6 @@
 slot0 = class("TakeAllAttachmentCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot4, slot5 = CheckOverflow(getProxy(MailProxy):GetAttchmentDic())
 
 	if not slot4 then

@@ -5,28 +5,28 @@ return {
 	id = "LINGHANGYUANYANGCHENGJIHUA14",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room2",
+			bgm = "qe-ova-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It has been a while since that system update.",
-			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "If TB was around 3 or 4 years old before the update, I would say she is about 7 or 8 now.",
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "She sees growth, in every meaning of the word, as a good thing – and she certainly has grown.",
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-2-talking3",
 			side = 2,
 			bgName = "bg_project_tb_room2",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-2-talking3",
+			tbActor = true,
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -90,9 +90,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-2-sad2",
+			dir = 1,
+			tbActor = true,
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -110,9 +110,9 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_project_tb_room2",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-2-talking1",
+			dir = 1,
+			tbActor = true,
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			say = "I let out a sigh under my breath.",
@@ -150,27 +150,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_705",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_705",
 			say = "As soon as we arrive at the school, she changes uniforms all by herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -178,8 +178,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
 			say = "She then begins the warmup exercises on the mat laid out on the school track.",
@@ -189,28 +189,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
 			bgName = "bg_project_tb_cg9",
-			hidePaintObj = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hey, TB. I'll leave a bottle of water and some towels here for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -218,14 +218,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "M'kay. Are you going home already?",
 			voice = "event:/educate/tb/educate-tb-story-2-1",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "M'kay. Are you going home already?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			say = "She shoots me the question whilst performing leg and back stretches.",
@@ -259,14 +259,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "......",
 			voice = "event:/educate/tb/educate-tb-story-2-2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			say = "Oddly, she looks a little displeased to hear this.",
@@ -300,14 +300,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Okay. I'll try to do good so I'll get good grades.",
 			voice = "event:/educate/tb/educate-tb-story-2-3",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Okay. I'll try to do good so I'll get good grades.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			say = "Maybe I'm just imagining it, but it looks like the corners of her mouth rise slightly. She has never made an expression before this point.",
@@ -329,8 +329,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			say = "Seems I'm dealing with a kid with a small rebellious streak. Still, rebelliousness is cute in its own way.",

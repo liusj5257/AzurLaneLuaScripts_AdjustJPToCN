@@ -1,6 +1,6 @@
 slot0 = class("EggCellView", import(".EnemyCellView"))
 
-function slot0.InitEggCellTransform(slot0)
+slot0.InitEggCellTransform = function(slot0)
 	slot0.tfIcon = slot0.tf:Find("icon")
 	slot0.tfBufficons = slot0.tf:Find("random_buff_container")
 	slot0.tfBossIcon = slot0.tf:Find("titleContain/bg_boss")
@@ -16,7 +16,7 @@ function slot0.InitEggCellTransform(slot0)
 	slot0.effectFireball = slot0.tf:Find("huoqiubaozha")
 end
 
-function slot0.StartEggCellView(slot0, slot1, slot2)
+slot0.StartEggCellView = function(slot0, slot1, slot2)
 	if ChapterConst.EnemySize[slot1.type] == 99 then
 		setActive(slot0.tfBossIcon, true)
 		slot0:GetLoader():GetSpriteQuiet("ui/share/ship_gizmos_atlas", "enemy_boss", slot0.tfBossIcon)
@@ -42,7 +42,7 @@ function slot0.StartEggCellView(slot0, slot1, slot2)
 	existCall(slot2)
 end
 
-function slot0.UpdateEggCell(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateEggCell = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot2.row
 	slot6 = slot2.column
 	slot7 = slot2.trait ~= ChapterConst.TraitLurk and slot2.flag == ChapterConst.CellFlagActive and not slot1:existFleet(FleetType.Transport, slot5, slot6)

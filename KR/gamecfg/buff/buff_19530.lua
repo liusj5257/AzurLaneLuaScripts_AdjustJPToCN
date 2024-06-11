@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "盛绽之威光",
 	init_effect = "",
+	id = 19530,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19530,
+	color = "yellow",
 	icon = 19530,
 	last_effect = "",
 	effect_list = {
@@ -51,8 +51,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 19530,
 				minWeaponNumber = 1,
+				skill_id = 19530,
 				check_weapon = true,
 				label = {
 					"HMS"

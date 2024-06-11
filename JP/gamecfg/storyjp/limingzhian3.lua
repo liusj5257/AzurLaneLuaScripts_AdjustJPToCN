@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "アヴローラとパーミャチ・メルクーリヤの護衛で、砕氷船は北方連合の勢力圏内に取り戻された。",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			bgm = "blueocean-image",
+			say = "アヴローラとパーミャチ・メルクーリヤの護衛で、砕氷船は北方連合の勢力圏内に取り戻された。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "アヴローラとそう変わらないわよ。わたしたちがあんなに頑張ったのに結局何も手に入れられなかったし",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "あれは「王冠」が現れる前の話だったわよね。皆で「ミコヤン」を護衛しながら北極に基地を建てて隕石の調査をするって話",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "もう調査は失敗失敗大失敗。だって何も残らなかったんだもん",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "あのときのソユーズもちょっと「弱そう」って雰囲気だったよね～。そういう事情があったんだ…",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "捜索隊の護衛を担当していたのもソユーズでしょ？というかあの子が率先して名乗り出たでしょ？",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "つまり最初から鏡面海域に巻き込まれていたってこと？",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "ありえるわね…あの海域はセイレーンがいなくても異常気象が発生したりするし、それに――",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "現に「ミコヤン」がセイレーン施設で発見できたじゃない！",
 			typewriter = {
@@ -450,8 +450,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "ニセモノ？",
 			typewriter = {
@@ -531,8 +531,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "それって、あの時の救難信号がまだ送られ続けているってことじゃない！",
 			typewriter = {
@@ -564,8 +564,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "うっ、罠の予感……",
 			typewriter = {
@@ -597,8 +597,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "あの「信頼できる以下略」が一枚噛んでるってことね",
 			typewriter = {
@@ -659,12 +659,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "（そして、ソユーズが知りたいのは、おそらく――）",
 			typewriter = {
 				speed = 0.05,

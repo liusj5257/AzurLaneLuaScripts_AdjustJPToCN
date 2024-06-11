@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行12次攻击，触发全弹发射-逸仙II"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 24122,
 	picture = "",
 	desc = "主炮每进行12次攻击，触发全弹发射-逸仙II",
 	stack = 1,
-	id = 24122,
+	color = "red",
 	icon = 20100,
 	last_effect = "",
 	effect_list = {
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 24122,
+				target = "TargetSelf",
 				countType = 24120
 			}
 		}

@@ -3,8 +3,8 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "어쨌든 이 이상한 둥지에서 한시라도 빨리 멀어지는 것이 좋을 것 같다….",
 			typewriter = {
 				speed = 0.05,
@@ -12,8 +12,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "돌아서서 고개도 돌리지 않고 둥지를 그대로 둔 채 그곳을 떠난다.",
 			typewriter = {
 				speed = 0.05,

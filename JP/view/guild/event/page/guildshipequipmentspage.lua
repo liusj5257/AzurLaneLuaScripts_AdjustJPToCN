@@ -1,10 +1,10 @@
 slot0 = class("GuildShipEquipmentsPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildShipEquipmentsPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.shipNameTxt = slot0:findTF("frame/ship_info/shipname"):GetComponent(typeof(Text))
 	slot0.userNameTxt = slot0:findTF("frame/ship_info/username"):GetComponent(typeof(Text))
 	slot0.shipTypeIcon = slot0:findTF("frame/ship_info/ship_type"):GetComponent(typeof(Image))
@@ -16,7 +16,7 @@ function slot0.OnLoaded(slot0)
 	slot0.prevBtn = slot0:findTF("frame/prev")
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -32,12 +32,12 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.SetCallBack(slot0, slot1, slot2)
+slot0.SetCallBack = function(slot0, slot1, slot2)
 	slot0.onPrev = slot1
 	slot0.onNext = slot2
 end
 
-function slot0.Show(slot0, slot1, slot2, slot3, slot4)
+slot0.Show = function(slot0, slot1, slot2, slot3, slot4)
 	uv0.super.Show(slot0)
 
 	slot0.OnHide = slot3
@@ -52,7 +52,7 @@ function slot0.Show(slot0, slot1, slot2, slot3, slot4)
 	SetActive(slot0.prevBtn, slot0.onPrev ~= nil)
 end
 
-function slot0.Flush(slot0, slot1, slot2)
+slot0.Flush = function(slot0, slot1, slot2)
 	slot0.ship = slot1
 	slot0.member = slot2
 
@@ -60,11 +60,11 @@ function slot0.Flush(slot0, slot1, slot2)
 	slot0:UpdateEquipments()
 end
 
-function slot0.Refresh(slot0, slot1, slot2)
+slot0.Refresh = function(slot0, slot1, slot2)
 	slot0:Flush(slot1, slot2)
 end
 
-function slot0.UpdateShipInfo(slot0)
+slot0.UpdateShipInfo = function(slot0)
 	slot0.shipNameTxt.text = slot0.ship:getName()
 	slot0.userNameTxt.text = slot0.playerId == slot0.member.id and "" or i18n("guild_ship_from") .. slot2.name
 	slot0.shipTypeIcon.sprite = GetSpriteFromAtlas("shiptype", shipType2print(pg.ship_data_statistics[slot1.configId].type))
@@ -80,7 +80,7 @@ function slot0.UpdateShipInfo(slot0)
 	slot0.shipLvTxt.text = slot1.level
 end
 
-function slot0.UpdateEquipments(slot0)
+slot0.UpdateEquipments = function(slot0)
 	slot2 = slot0.ship:getActiveEquipments()
 
 	slot0.equipmentList:make(function (slot0, slot1, slot2)
@@ -99,7 +99,7 @@ function slot0.UpdateEquipments(slot0)
 	slot0.equipmentList:align(5)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr:GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 
@@ -110,7 +110,7 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

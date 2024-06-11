@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 巨炎龙 免疫减速+不可阻挡",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 巨炎龙 免疫减速+不可阻挡",
+	init_effect = "",
+	id = 200825,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200825,
+	color = "yellow",
 	icon = 200825,
 	last_effect = "",
 	effect_list = {

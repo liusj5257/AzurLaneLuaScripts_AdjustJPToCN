@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA41",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA41",
 	fadein = 1.5,
 	scripts = {
 		{
-			blackBg = true,
-			side = 2,
-			stopbgm = true,
-			nameColor = "#ff5c5c",
-			dir = 1,
 			bgmDelay = 2,
-			actor = 900011,
+			side = 2,
 			actorName = "测试怪人",
+			dir = 1,
+			blackBg = true,
+			stopbgm = true,
+			actor = 900011,
+			nameColor = "#ff5c5c",
 			say = "那群反抗军还是找到了没被炸毁的入口，这可是严重失职哦，军师",
 			flashin = {
 				delay = 1,
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "测试怪人",
 			say = "现在之前战斗中损坏的棋子还没修好吧，妳打算怎么办？",
 			typewriter = {
 				speed = 0.05,
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "军师",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "军师",
 			say = "请您放心，一切都还在计划之中",
 			typewriter = {
 				speed = 0.05,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "军师",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "军师",
 			say = "我已经提前改变了过山车的轨道。过山车通向的不是此处的本社大楼，而是另一边的岩浆坑哦",
 			typewriter = {
 				speed = 0.05,
@@ -85,12 +85,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "测试怪人",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "测试怪人",
 			say = "不愧是军师，想的真周到啊。",
 			typewriter = {
 				speed = 0.05,
@@ -102,12 +102,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "军师",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "军师",
 			say = "毕竟曾经学习了很多“孔明的陷阱”嘛~这次我会亲自出马，请您继续专心于权限的取回上",
 			typewriter = {
 				speed = 0.05,
@@ -119,14 +119,14 @@ return {
 			}
 		},
 		{
-			say = "MIOSHIO-COASTER之上",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-fbk",
+			say = "MIOSHIO-COASTER之上",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,10 +151,10 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 201210,
 			say = "哇哦，高--速--空--中--过--山--车----！",
 			effects = {
 				{
@@ -175,8 +175,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "巨大化的过山车，比以前的版本酷几亿倍啊！！！",
 			typewriter = {
 				speed = 0.05,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_257 = {}
 slot1 = slot0.word_template_257
 
-function temp()
+temp = function()
 	uv0["身"] = {
 		["份"] = {
 			["生"] = {
@@ -42,7 +42,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["深"] = {
 		["爱"] = {
 			["色"] = {
@@ -141,7 +141,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["詵"] = {
 		this = {
 			this = true
@@ -151,7 +151,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["什"] = {
 		["么"] = {
 			["叫"] = {
@@ -218,7 +218,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["神"] = {
 		["变"] = {
 			["麻"] = {
@@ -448,7 +448,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["榊"] = {
 		["安"] = {
 			["奈"] = {
@@ -460,7 +460,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["沈"] = {
 		["昌"] = {
 			["特"] = {

@@ -1,12 +1,12 @@
 slot0 = class("SummerFeastMediator", import("..TemplateMV.BackHillMediatorTemplate"))
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.SEND_MINI_GAME_OP_DONE
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SEND_MINI_GAME_OP_DONE then

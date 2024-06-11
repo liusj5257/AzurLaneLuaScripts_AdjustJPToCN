@@ -1,6 +1,6 @@
 slot0 = class("HoloLivePtPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.activityProxy = getProxy(ActivityProxy)
 	slot0.circleTF = slot0:findTF("CircleImg/Circle")
@@ -26,7 +26,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.activityStartTime = slot0.activity.data1
 	slot0.isGotFinalAward = slot0.activity.data2
 	slot0.progressStep = slot0.activity.data3
@@ -38,7 +38,7 @@ function slot0.OnDataSetting(slot0)
 	print("init data on setting:", tostring(slot0.maxday), tostring(slot0.isGotFinalAward), tostring(slot0.progressStep), tostring(slot0.activity.data4))
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0.curIndex = slot0.activity.data4
 
 	if slot0.curIndex ~= 0 then
@@ -48,7 +48,7 @@ function slot0.OnFirstFlush(slot0)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	if slot0.curIndex == 0 and slot0.activity.data4 > 0 then
 		slot0.curIndex = slot0.activity.data4
 		slot0.curShipGroupID = slot0.configData.groupid_list[slot0.curIndex]
@@ -83,11 +83,11 @@ function slot0.OnUpdateFlush(slot0)
 	slot0:checkAward()
 end
 
-function slot0.onDestroy(slot0)
+slot0.onDestroy = function(slot0)
 	LeanTween.cancel(go(slot0.circleTF))
 end
 
-function slot0.rotate(slot0)
+slot0.rotate = function(slot0)
 	slot1 = slot0.activity
 	slot0.isTurning = true
 	slot9 = LeanTween.value(go(slot0.circleTF), 0, 360 - 360 / pg.activity_event_turning[slot1:getConfig("config_id")].total_num * ({
@@ -115,7 +115,7 @@ function slot0.rotate(slot0)
 	end))
 end
 
-function slot0.updateTaskPanel(slot0)
+slot0.updateTaskPanel = function(slot0)
 	slot0.charImg = slot0:findTF("CharImg", slot0.taskPanel)
 	slot0.nameImg = slot0:findTF("NameImg", slot0.charImg)
 	slot0.dayText = slot0:findTF("ProgressImg/day", slot0.taskPanel)
@@ -233,7 +233,7 @@ function slot0.updateTaskPanel(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.checkAward(slot0)
+slot0.checkAward = function(slot0)
 	if slot0.isGotFinalAward == 0 and slot0.progressStep == slot0.groupNum then
 		if slot0.curTaskIDList then
 			slot1 = true
@@ -261,14 +261,14 @@ function slot0.checkAward(slot0)
 	end
 end
 
-function slot0.resetIndex(slot0)
+slot0.resetIndex = function(slot0)
 	slot0:emit(ActivityMediator.EVENT_OPERATION, {
 		cmd = 2,
 		activity_id = slot0.activity.id
 	})
 end
 
-function slot0.lockTurnTable(slot0)
+slot0.lockTurnTable = function(slot0)
 	slot0.finalTip = slot0:findTF("FinalTip")
 	slot0.finalLock = slot0:findTF("CircleImg/FinalLock")
 

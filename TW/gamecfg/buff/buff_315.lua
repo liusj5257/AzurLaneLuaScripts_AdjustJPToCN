@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "潜艇水面预留buff",
 	time = 0,
-	color = "blue",
+	name = "潜艇水面预留buff",
+	init_effect = "",
+	id = 315,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 315,
+	color = "blue",
 	icon = 315,
 	last_effect = "",
 	effect_list = {}

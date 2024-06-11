@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "苍龙META 特殊航空进水",
 	time = 9.1,
+	name = "苍龙META 特殊航空进水",
+	init_effect = "",
 	picture = "",
 	desc = "苍龙斩击进水持续伤害",
 	stack = 1,
@@ -15,11 +15,21 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0.3,
 				attr = "airPower",
-				number = 5,
 				time = 3,
 				dotType = 2,
-				k = 0.3
+				number = 5
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "flood"
 			}
 		}
 	}

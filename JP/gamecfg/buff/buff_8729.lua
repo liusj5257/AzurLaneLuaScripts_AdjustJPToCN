@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "潜艇水面减伤（上浮/下沉间隔20秒）",
 	time = 0,
-	color = "blue",
+	name = "潜艇水面减伤（上浮/下沉间隔20秒）",
+	init_effect = "",
+	id = 8729,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8729,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{
@@ -26,8 +26,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 8728,
-				target = "TargetSelf",
-				time = 40
+				time = 40,
+				target = "TargetSelf"
 			}
 		}
 	}

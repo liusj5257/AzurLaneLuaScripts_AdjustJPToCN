@@ -37,8 +37,8 @@ return {
 		{
 			actor = 103090,
 			side = 0,
-			nameColor = "#a9f548",
 			say = "可能是因為澳大利亞號過來開會時比較匆忙，沒有安排好指揮權的代管……吧？",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -137,11 +137,11 @@ return {
 			}
 		},
 		{
-			actor = 103090,
 			actorName = "昆西&文森尼斯",
 			side = 0,
-			hideOther = true,
+			actor = 103090,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "是！",
 			subActors = {

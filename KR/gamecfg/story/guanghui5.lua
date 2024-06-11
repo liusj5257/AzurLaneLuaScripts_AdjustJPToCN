@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGHUI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGHUI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"숙녀의 작은 제안\n\n<size=45>5. 동생의 한 마디</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "일러스트리어스가 메이드대에 다과회에서 사용할 잔을 상의하러 간 몇 분 후——",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "일러스트리어스가 메이드대에 다과회에서 사용할 잔을 상의하러 간 몇 분 후——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "한창 한가로울 때, 드디어 입구의 비탈길에서 전해져오는 소리를 들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -80,9 +80,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "돌아온 일러스트리어스의 옆에 서있는 건 그녀의 동생 빅토리어스였다.",
 			typewriter = {
 				speed = 0.05,
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "당연히 \"아름다운 곳으로 향하는 길은, 반드시 아름다울 것!\"이란 말이지!",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_main_twilight",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "자기가 그렇게 크다고 맘대로 자랑하지 마!",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -322,9 +322,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "거절 같은 건 당연히 존재하지 않았다. 빠르게 그녀를 향해 손을 뻗었다. 그런데——",
 			typewriter = {
 				speed = 0.05,
@@ -352,9 +352,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "곧 날이 어두워져 빠르게 움직여야 한다. 그런데 왜인지 모르게, 그녀는 이해하지 못했다는 듯이 뻗은 손을 보고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -366,9 +366,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "음... 이 행동이 그렇게 예상 밖이었나......",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_twilight",
+			dir = 1,
 			say = "일러스트리어스는 다소 어색하게 손을 잡았다. 부드럽고 가느다란 손끝에 감기는 촉감이 전해졌다.",
 			typewriter = {
 				speed = 0.05,

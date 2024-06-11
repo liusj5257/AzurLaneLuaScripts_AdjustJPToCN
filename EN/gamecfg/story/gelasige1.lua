@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"'Tis the Season of Love!\n\n<size=45>1.The Season of Love is Here!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			say = "A faint glow slowly seeps through my closed eyelids.",
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
 			bgm = "story-1",
+			say = "A faint glow slowly seeps through my closed eyelids.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "I can hear a girl’s voice in my ears... but I’m not sure where it’s coming from...",
 			typewriter = {
@@ -82,10 +82,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 202261,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202261,
+			nameColor = "#a9f548",
 			say = "—Isn’t it about time... ye moved yer arse already?!",
 			effects = {
 				{
@@ -103,8 +103,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -115,14 +115,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_story_task",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			say = "Jeez! How long did you plan to stay in bed? You’re going to be late if you don’t hurry it up!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -153,9 +153,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I rub my still-sleepy eyes and let out a great yawn. Beside me was the maid, Glasgow, with a dissatisfied frown on her face.",
 			typewriter = {
 				speed = 0.05,
@@ -170,8 +170,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "The breakfast that Newcastle painstakingly prepared for you is going to go cold! Hurry up and get out of bed already!",
 			typewriter = {
@@ -184,9 +184,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Why the heck is she so anxious anyway? ...My eyes suddenly dart towards the clock.",
 			typewriter = {
 				speed = 0.05,
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "...Uhh, is this thing broken? I mean, it’s saying that I’m so late I wouldn’t even have time to get ready.",
 			typewriter = {
 				speed = 0.05,
@@ -212,11 +212,11 @@ return {
 			}
 		},
 		{
-			actor = 202261,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202261,
+			nameColor = "#a9f548",
 			say = "O’course it ain’t broken! We’re all gonna be late ‘cause of you!",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -238,9 +238,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Holy cow! She wasn’t kidding! I practically trip over the sheets as I scramble out of bed, grabbing whatever I can before I bolt toward the academy.",
 			dialogShake = {
 				speed = 0.09,
@@ -257,13 +257,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "—Academy, Cherry Tree Walkway",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -304,9 +304,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "I dash through the academy gates, my chest on fire from gasping for breath. But I’m almost there... to the classroom...",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "H-hey! Didn’t I tell you to treat me like a normal classmate when we’re outside?",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "Even though I’m your family maid, at school, we’re just ordinary classmates! Nod if you understand!",
 			typewriter = {
@@ -368,9 +368,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "I nod, but Glasgow turns her chin away from me, her cheeks puffed out pridefully.",
 			typewriter = {
 				speed = 0.05,
@@ -382,9 +382,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Now that I think about it, the relationship between the two of us hasn’t really changed all this time, and moments like this have become fairly commonplace.",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "However, if things were to continue just like this... would either of us be satisfied?",
 			typewriter = {
 				speed = 0.05,
@@ -413,8 +413,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "We made it! ...Good grief, you’d better get up on your own tomorrow. I’ll go check on you before I head out!",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -437,9 +437,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "—Spring, the season of love.",
 			typewriter = {
 				speed = 0.05,
@@ -451,9 +451,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "At times, she is a maid in service in someone’s service. At other times, she is a classmate from the same school.",
 			typewriter = {
 				speed = 0.05,

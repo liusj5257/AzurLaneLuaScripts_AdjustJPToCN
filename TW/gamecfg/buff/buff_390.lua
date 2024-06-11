@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "后排导驱固有BUFF+隐蔽状态增伤",
 	time = 0,
+	name = "后排导驱固有BUFF+隐蔽状态增伤",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.2
+				number = -0.2,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				bulletRange = 75,
 				weaponRange = 75,
+				bulletRange = 75,
 				index = {
 					1
 				}
@@ -40,8 +40,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 391,
-				cloak_state = 1,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				cloak_state = 1
 			}
 		},
 		{

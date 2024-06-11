@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AFULEER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AFULEER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"アヴローラと愉快な仲間たち\n\n<size=45>三、歓迎会</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ある日・母港にて",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ある日・母港にて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,15 +98,15 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "……ここが会場のようですね。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -147,15 +147,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_107",
-			actorName = "???",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "???",
 			say = "アヴローラが来たぞ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -180,11 +180,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "みんな",
+			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "アヴローラさん！",
 			typewriter = {
 				speed = 0.05,
@@ -201,11 +201,11 @@ return {
 			}
 		},
 		{
-			say = "北方連合の艦船たちのパーティーが開かれている。",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "北方連合の艦船たちのパーティーが開かれている。",
 			effects = {
 				{
 					active = true,
@@ -257,8 +257,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "あは☆まさか指揮官を連れて来るとはね～アヴローラやるじゃない♪",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -300,8 +300,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "アヴローラさんが母港に帰還したのを祝い、簡素だが歓迎会を開催することにした",
 			effects = {
@@ -355,8 +355,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "ふふん、そこはこのミンスクのひらめきだが――",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "この母港での「歓迎会」は新しく着任する仲間を歓迎するそうだが、北方連合では新しい仲間たちが自ら開くのが「歓迎会」なのだ！",
 			typewriter = {
@@ -386,8 +386,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,8 +399,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "ほら、ガングートさん…同志ガングートも「同志アヴローラを歓迎する」ためのパーティーと言ってたしさ！",
 			typewriter = {
@@ -416,8 +416,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701040,
 			dir = 1,
+			actor = 701040,
 			nameColor = "#a9f548",
 			say = "あっそ。タシュケントはただ、仲間を出迎えるのはいいことだから手伝っただけよ",
 			typewriter = {
@@ -446,9 +446,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "アヴローラだけでなく、自分も北方連合の仲間たちの温かい「歓迎」に感心した。",
 			typewriter = {
 				speed = 0.05,
@@ -479,8 +479,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			nameColor = "#a9f548",
 			say = "うん。カカオもいっぱい持ってきたぞ",
 			typewriter = {
@@ -496,8 +496,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			nameColor = "#a9f548",
 			say = "……げっぷ",
 			typewriter = {
@@ -513,8 +513,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "ふふ、グロズヌイちゃん、ゆっくり飲んでいいわよ？",
 			typewriter = {
@@ -543,11 +543,11 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 702010,
+			nameColor = "#a9f548",
 			say = "はーい",
 			effects = {
 				{
@@ -565,8 +565,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -575,12 +575,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_107",
-			actorName = "みんな",
 			dir = 1,
 			blackBg = true,
+			actorName = "みんな",
 			say = "かんぱーい！",
 			effects = {
 				{

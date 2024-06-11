@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"36年Z組 Z23老師\n\n<size=45>四 禁忌·雙重惡作劇！</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗚、嗚嗚…這、這次一定能順利——",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "嗚、嗚嗚…這、這次一定能順利——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,13 +66,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "數分鐘後，輔導教室外",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "好了，薩拉小姐在裡面等著，準備進去吧——",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "好了，薩拉小姐在裡面等著，準備進去吧——",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -193,9 +193,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 0,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "（砰！）",
 			typewriter = {
 				speed = 0.05,
@@ -219,12 +219,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "經典的門板陷阱只是假象！真正的陷阱是載著黑板擦的艦載機的精準空投！薩拉托加獨創，禁忌·雙重惡作劇！嘿嘿，有沒有嚇一跳呀～",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "經典的門板陷阱只是假象！真正的陷阱是載著黑板擦的艦載機的精準空投！薩拉托加獨創，禁忌·雙重惡作劇！嘿嘿，有沒有嚇一跳呀～",
+			actor = 107030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -303,12 +303,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "列星頓小姐…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "列星頓小姐…",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

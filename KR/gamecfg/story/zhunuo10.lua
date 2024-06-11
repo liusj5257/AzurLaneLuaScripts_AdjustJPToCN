@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUNUO10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUNUO10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207060,
 			nameColor = "#92fc63",
 			side = 2,
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
 			say = "(아크 로열씨에게 혼나겠네요…)",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		flashout = {
-			black = true,
 			dur = 0.75,
+			black = true,
 			alpha = {
 				0,
 				1

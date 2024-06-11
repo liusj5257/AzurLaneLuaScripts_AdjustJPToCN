@@ -2,7 +2,7 @@ slot0 = class("ShamBattleShop", import(".MonthlyShop"))
 slot0.GoodsType = Goods.TYPE_SHAM_BATTLE
 slot0.type = ShopArgs.ShopShamBattle
 
-function slot0.update(slot0, slot1, slot2)
+slot0.update = function(slot0, slot1, slot2)
 	slot0.id = slot1
 	slot0.configId = slot1
 	slot3 = {}

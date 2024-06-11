@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SIPEIBOJUE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SIPEIBOJUE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>\"Basically, just share your thoughts!\"</size>",
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"One Little Incident\n\n<size=45>Chapter 2: A Chance Encounter</size>",
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			say = "Port",
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port",
 			effects = {
 				{
 					active = false,
@@ -48,8 +48,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -70,9 +70,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "A refreshing breeze blows. It's a great day for a walk.",
 			typewriter = {
 				speed = 0.05,
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 403050,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403050,
+			nameColor = "#a9f548",
 			say = "What the Commander said... \"What I want to do\"...",
 			effects = {
 				{
@@ -122,9 +122,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "\"Eating snacks and relaxing\"... isn't quite it.",
 			effects = {
 				{
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Hm... These bonito flakes are pretty tasty.",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,9 +188,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "It was a regular cat, not a meowfficer.",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "cat",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "cat",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "cat",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -282,9 +282,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Hm... Seeing the cat happily munching on the snacks feels pretty soothing.",
 			typewriter = {
 				speed = 0.05,
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_103",
-			actorName = "cat",
 			dir = 1,
+			actorName = "cat",
 			say = "Myeow!",
 			dialogShake = {
 				speed = 0.09,
@@ -365,12 +365,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "Oh, so it was just a cat.",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Oh, so it was just a cat.",
+			actor = 403040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -465,11 +465,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "Anyway, listen, Spee! You won't believe what those Royal Navy baboons did during yesterday's exercise...",
 			typewriter = {
 				speed = 0.05,
@@ -481,8 +481,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -491,9 +491,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "I wound up having to listen to Deutschland's complaints all the way back to the dorm.",
 			typewriter = {
 				speed = 0.05,

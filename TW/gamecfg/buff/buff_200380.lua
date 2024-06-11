@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "伊丽莎白meta标记",
 	time = 0,
-	color = "blue",
+	name = "伊丽莎白meta标记",
+	init_effect = "",
+	id = 200380,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200380,
+	color = "blue",
 	icon = 200380,
 	last_effect = "",
 	effect_list = {

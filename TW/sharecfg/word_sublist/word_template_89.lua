@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_89 = {}
 slot1 = slot0.word_template_89
 
-function temp()
+temp = function()
 	uv0["乳"] = {
 		["房"] = {
 			this = true
@@ -98,7 +98,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["色"] = {
 		["猫"] = {
 			this = true
@@ -312,7 +312,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鷄"] = {
 		["巴"] = {
 			this = true
@@ -322,7 +322,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["學"] = {
 		["生"] = {
 			["妹"] = {

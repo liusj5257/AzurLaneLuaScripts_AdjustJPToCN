@@ -179,9 +179,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "TAG子弹命中监听--永久",
 	time = 0,
+	name = "TAG子弹命中监听--永久",
+	init_effect = "",
 	picture = "",
 	desc = "监听器",
 	stack = 1,

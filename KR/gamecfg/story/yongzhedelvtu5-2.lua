@@ -4,12 +4,12 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
+			nameColor = "#A9F548FF",
 			actorName = "시스템 알림",
 			bgm = "login-2022401jp",
 			say = "재블린이 메가 슬래쉬로 마왕에게 100000000의 대미지를 입히고 처치했습니다.",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,8 +83,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			actorName = "시스템 알림",
 			say = "아이템 마왕의 보물창고 열쇠를 획득했습니다.",
 			typewriter = {
@@ -101,9 +101,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 201217,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "이게 바로………… 전설급 용자만이 사용할 수 있는 전설급 무기?!",
 			painting = {
 				alpha = 0.3,
@@ -133,8 +133,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 201217,
 			dir = 1,
+			actor = 201217,
 			say = "………… 겉으로 보기엔 좀 이상할지 몰라도, 공격력은 확실히 상승했어!",
 			painting = {
 				alpha = 0.3,
@@ -149,8 +149,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 201217,
 			dir = 1,
+			actor = 201217,
 			say = "에헤헤, 이것도 나쁘지 않네~！",
 			painting = {
 				alpha = 0.3,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "시스템 알림",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "이렇게 마왕은 소멸하고 세상은 평화를 맞이하게 되었다.",
 			typewriter = {
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "시스템 알림",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "——THE END——",
 			typewriter = {

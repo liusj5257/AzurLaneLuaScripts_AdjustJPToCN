@@ -1,16 +1,16 @@
 return {
-	id = "AIGUANQIA23",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA23",
+	fadein = 1.5,
 	scripts = {
 		{
-			say = "Port - Near the Royal Dorms",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "Port - Near the Royal Dorms",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "AIIIIIIII----------?!?!",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,17 +170,17 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "By the way, it seems that the random word generator made a copy of my 3D model. I only discovered this recently, so imagine how surprised I was~!",
 			bgm = "story-1",
+			actor = 10400010,
+			nameColor = "#a9f548",
+			say = "By the way, it seems that the random word generator made a copy of my 3D model. I only discovered this recently, so imagine how surprised I was~!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -256,8 +256,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Mmhmm! I will be able to synchronize my memories with my other self in the original world, so we're the same person. There's no problem with the setting, yup!",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "It's because I'm virtual! Anything is possible!",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "From here on out, I'll continue to be in your care!",
 			typewriter = {

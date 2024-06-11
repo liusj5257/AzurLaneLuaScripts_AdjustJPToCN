@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Flower Festival\n\n<size=45>Chapter 1 - Spring Springs Forth</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "*Whew*... It feels like it's gotten hot much earlier than last year...",
 			bgm = "story-1",
+			actor = 307030,
+			nameColor = "#a9f548",
+			say = "*Whew*... It feels like it's gotten hot much earlier than last year...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actor = 307040,
+			say = "This is where you went, Houshou?! You must've mastered the art of masking your presence!",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "This is where you went, Houshou?! You must've mastered the art of masking your presence!",
+			actor = 307040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

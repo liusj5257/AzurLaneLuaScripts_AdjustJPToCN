@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "姐妹同心 +",
 	init_effect = "",
+	id = 1010492,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1010492,
+	color = "yellow",
 	icon = 10490,
 	last_effect = "",
 	effect_list = {
@@ -27,11 +27,11 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 1,
-				target = "TargetSelf",
-				time = 1,
-				maxTargetNumber = 0,
 				skill_id = 1010491,
+				time = 1,
+				quota = 1,
+				maxTargetNumber = 0,
+				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
 					"TargetShipTag"

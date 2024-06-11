@@ -3,12 +3,12 @@ slot0.EXPAND_WIDTH = 973
 slot0.CLOSE_WIDTH = 216
 slot0.DURATION_PARAMETER = 2500
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.items = slot0._tf:Find("AD/items")
 	slot0.dicLT = {}
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskList = slot0.activity:getConfig("config_data")
 	slot0.totalCnt = #slot0.taskList
@@ -31,7 +31,7 @@ function slot0.OnDataSetting(slot0)
 	slot0.remainCnt = slot0.totalCnt <= slot0.usedCnt and 0 or slot0.unlockCnt - slot0.usedCnt
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot0.usedCnt = slot0.activity:getData1()
 
 	for slot4, slot5 in ipairs(slot0.taskList) do
@@ -69,7 +69,7 @@ function slot0.OnFirstFlush(slot0)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	for slot4, slot5 in ipairs(slot0.taskList) do
 		slot6 = slot0.taskProxy:getTaskVO(slot5)
 
@@ -83,7 +83,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.UpdateDisplay(slot0, slot1)
+slot0.UpdateDisplay = function(slot0, slot1)
 	slot0.index = slot1
 
 	for slot5 = 1, #slot0.taskList do
@@ -123,7 +123,7 @@ function slot0.UpdateDisplay(slot0, slot1)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	for slot4, slot5 in pairs(slot0.dicLT) do
 		LeanTween.cancel(slot5)
 	end

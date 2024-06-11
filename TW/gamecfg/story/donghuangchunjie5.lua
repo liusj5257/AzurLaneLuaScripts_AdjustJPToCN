@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUANGCHUNJIE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DONGHUANGCHUNJIE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"鬧騰嬉戲東煌春節\n\n<size=45>五 熱鬧的“團聚”·上</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "（敲門聲）",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-chunjie",
+			say = "（敲門聲）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "這是指揮官推薦的服裝，讓我們能更好的感受東煌新年的氛圍，哼，看來還真得感謝指揮官一番了啊",
 			typewriter = {
@@ -166,8 +166,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "列星頓小姐和企業小姐啊，貴安，這是在……",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 299022,
 			dir = 1,
+			actor = 299022,
 			nameColor = "#a9f548",
 			say = "正是，對了，在這裡遇到也是湊巧——",
 			typewriter = {
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "另外，也準備了白鷹各位的份，由{namecode:98}小姐提供了材料，並且——",
 			typewriter = {
@@ -294,11 +294,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "春節大放送喵，材料費就由指揮官出了喵！",
 			effects = {
 				{
@@ -316,11 +316,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "原、原來如此，既然是大家的一片心意，那就——",
 			effects = {
 				{
@@ -354,15 +354,15 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "既然大家來了，就都留下來一起吃年夜晚吧～",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -406,8 +406,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 202121,
 			dir = 1,
+			actor = 202121,
 			nameColor = "#a9f548",
 			say = "這是增加的人數對應的食材和資材，另外，也請讓我們多少幫點忙吧",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 107021,
 			dir = 1,
+			actor = 107021,
 			nameColor = "#a9f548",
 			say = "啊啦啦，不知道白鷹的孩子們看到會作何評價呀~",
 			typewriter = {
@@ -488,11 +488,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actorName = "半人馬",
+			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
 			actor = 206042,
-			nameColor = "#a9f548",
+			actorName = "半人馬",
 			say = "我、我也來幫忙！",
 			typewriter = {
 				speed = 0.05,

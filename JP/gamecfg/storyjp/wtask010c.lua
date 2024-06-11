@@ -1,12 +1,12 @@
 return {
-	id = "WTask010C",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask010C",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "エネルギー供給装置のテストを行いました！任務完了！",
 			typewriter = {
 				speed = 0.05,

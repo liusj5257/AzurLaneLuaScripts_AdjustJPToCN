@@ -1,12 +1,12 @@
 slot0 = class("BackYardExtendCard", import(".BackYardBaseCard"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._content, function ()
 		uv0:Unlock()
 	end, SFX_PANEL)
 end
 
-function slot0.Unlock(slot0)
+slot0.Unlock = function(slot0)
 	if getProxy(DormProxy):getRawData():getExtendTrainPosShopId() then
 		_BackyardMsgBoxMgr:Show({
 			content = i18n("backyard_backyardShipInfoLayer_quest_openPos", pg.shop_template[slot2].resource_num),

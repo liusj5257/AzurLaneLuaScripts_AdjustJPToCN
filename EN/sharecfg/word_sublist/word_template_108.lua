@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_108 = {}
 slot1 = slot0.word_template_108
 
-function temp()
+temp = function()
 	uv0["哥"] = {
 		["的"] = {
 			j = {
@@ -87,7 +87,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["歌"] = {
 		["功"] = {
 			["頌"] = {
@@ -169,7 +169,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鴿"] = {
 		["派"] = {
 			this = true
@@ -179,7 +179,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["革"] = {
 		["命"] = {
 			["的"] = {
@@ -218,7 +218,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["阁"] = {
 		["楼"] = {
 			["欲"] = {
@@ -232,7 +232,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["格"] = {
 		["雷"] = {
 			["("] = {
@@ -283,7 +283,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["隔"] = {
 		["墙"] = {
 			["听"] = {

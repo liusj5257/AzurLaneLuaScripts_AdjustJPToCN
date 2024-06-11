@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"솔직하지 못한 마음\n\n<size=45>5. 뭔가 반응 좀 보여봐!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항·이글 유니온 구역",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항·이글 유니온 구역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 105100,
 			dir = 1,
+			actor = 105100,
 			nameColor = "#a9f548",
 			say = "좋지! 날씨가 더운데, 회의를 시작하기도 전에 목이 마르면 안 되니까!",
 			typewriter = {
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "로드니의 아이스 홍차로 뜨거웠던 분위기와 갈증을 달랜 뒤, 연습 전 작전 회의가 시작되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 105110,
 			dir = 1,
+			actor = 105110,
 			nameColor = "#a9f548",
 			say = "단도직입적이군... 하지만 그런 적극적인 태도는 싫지 않아.",
 			typewriter = {
@@ -194,13 +194,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "BIG SEVEN의 토론은 처음부터 매우 격렬해서, 방의 온도가 몇 도는 올라간 것 같았다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -225,9 +225,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "로드니가 회의 전에 준비한 아이스 홍차가 큰 도움이 되었어...",
 			typewriter = {
 				speed = 0.05,
@@ -303,9 +303,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "범용성이 높은 전술은 아니야. 하지만 강력한 전함 편대라면 확실히 특정한 장소에서 상황을 돌파할 수 있는 방법이긴 하지...",
 			typewriter = {
 				speed = 0.05,
@@ -333,9 +333,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "작전이라면 이름이 필요해.",
 			typewriter = {
 				speed = 0.05,
@@ -363,9 +363,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "넬슨이 갑자기 손가락을 뻗었다——",
 			typewriter = {
 				speed = 0.05,
@@ -393,9 +393,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………………………",
 			typewriter = {
 				speed = 0.05,
@@ -407,11 +407,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "어...? 저기, 저기! 다들 반응 좀 해봐! 모처럼 직접 지은 작전명인데!",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -449,9 +449,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "다섯 개의 손가락처럼 각자 적을 찢어버리는 전술이라, '넬슨 클로'가 조금 더 알맞지 않을까...",
 			typewriter = {
 				speed = 0.05,

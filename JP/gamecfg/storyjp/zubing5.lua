@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"足柄、すゝめ！\n\n<size=45>五 足柄、（青春に）悩め！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 303090,
-			side = 2,
-			bgmDelay = 2,
-			nameColor = "#a9f548",
-			dir = 1,
 			blackBg = true,
-			say = "心のゆりかご、気になる存在…一体何でしょう……",
+			side = 2,
+			dir = 1,
+			bgmDelay = 2,
 			bgm = "story-2",
+			actor = 303090,
+			nameColor = "#a9f548",
+			say = "心のゆりかご、気になる存在…一体何でしょう……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,10 +54,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "今はこんなことに悩んでいる場合じゃありませんね",
 			typewriter = {
 				speed = 0.05,
@@ -88,10 +88,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "妙高姉さんの特訓で、秘書艦のお仕事も慣れてきましたし",
 			typewriter = {
 				speed = 0.05,
@@ -105,10 +105,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "指揮官殿も嬉しそうですし、本当に良かったです",
 			typewriter = {
 				speed = 0.05,
@@ -122,10 +122,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "このまま秘書艦をやり続ければ、指揮官殿もきっと私のことをもっと見てくださいますよね…？",
 			typewriter = {
 				speed = 0.05,
@@ -139,10 +139,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "そしたら…あれ……？そうしたらどうなるのでしょう……？",
 			typewriter = {
 				speed = 0.05,
@@ -156,10 +156,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "うぅ、なんか…訓練で疲れました……寝てしまいそう……",
 			typewriter = {
 				speed = 0.05,
@@ -171,16 +171,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			actorName = "？？？",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "？？？",
+			nameColor = "#a9f548",
 			say = "まだ寝ておるのか？……寝てはならんのじゃぞ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -205,11 +205,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "？？？",
 			say = "おーい！足柄！早く起きんか！",
 			dialogShake = {
 				speed = 0.09,
@@ -228,10 +228,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 303090,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "ふぅ……なんですか……緊急任務ですか……",
 			typewriter = {
 				speed = 0.05,
@@ -248,9 +248,9 @@ return {
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
+			bgm = "story-1",
 			actor = 303090,
 			say = "ってもうこんな時間！？",
-			bgm = "story-1",
 			flashN = {
 				color = {
 					1,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -294,8 +294,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "ち、遅刻しちゃいます！……服が着れないっ！？あと髪は…髪は…いつもは妙高姉さんが整えてくれていますけど……",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,8 +321,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "こんな姿を指揮官殿に見られたら私…！",
 			typewriter = {
@@ -354,10 +354,10 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 303090,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "か、神風さん！？どうしてここに？",
+			dir = 1,
+			actor = 303090,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -423,8 +423,8 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "……ごめんなさい",
 			typewriter = {
@@ -504,8 +504,8 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "え？そ、それは――",
 			typewriter = {
@@ -534,15 +534,15 @@ return {
 			}
 		},
 		{
-			actor = 303090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303090,
+			nameColor = "#a9f548",
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -570,8 +570,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（私が、指揮官殿のことを……）",
 			typewriter = {
@@ -587,9 +587,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 303090,
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
 			nameColor = "#a9f548",
 			say = "（もしかして私……）",
 			typewriter = {

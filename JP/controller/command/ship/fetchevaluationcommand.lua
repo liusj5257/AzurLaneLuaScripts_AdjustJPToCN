@@ -1,6 +1,6 @@
 slot0 = class("FetchEvaluationCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = pg.TimeMgr.GetInstance():GetServerTime()
 
 	if not getProxy(CollectionProxy):getShipGroup(slot1:getBody()) then

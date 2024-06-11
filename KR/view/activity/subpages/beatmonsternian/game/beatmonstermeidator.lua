@@ -3,13 +3,13 @@ slot1 = 1
 slot2 = 0.1
 slot3 = 1
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.controller = slot1
 end
 
-function slot0.SetUI(slot0, slot1)
+slot0.SetUI = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 	slot0.monsterNian = slot0:findTF("AD/monster")
@@ -30,7 +30,7 @@ function slot0.SetUI(slot0, slot1)
 	slot0.joyStick = slot0:findTF("AD/joyStick")
 end
 
-function slot0.DoCurtainUp(slot0, slot1)
+slot0.DoCurtainUp = function(slot0, slot1)
 	if getProxy(SettingsProxy):IsShowBeatMonseterNianCurtain() then
 		slot2:SetBeatMonseterNianFlag()
 		slot0:StartCurtainUp(slot1)
@@ -39,7 +39,7 @@ function slot0.DoCurtainUp(slot0, slot1)
 	end
 end
 
-function slot0.StartCurtainUp(slot0, slot1)
+slot0.StartCurtainUp = function(slot0, slot1)
 	setActive(slot0.curtainTF, true)
 
 	slot2 = LeanTween.color(slot0.curtainTF, Color.white, uv0)
@@ -57,8 +57,8 @@ function slot0.StartCurtainUp(slot0, slot1)
 	end))
 end
 
-function slot0.OnInited(slot0)
-	function slot1()
+slot0.OnInited = function(slot0)
+	slot1 = function()
 		if uv0.attackCnt <= 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("activity_hit_monster_nocount"))
 
@@ -94,19 +94,19 @@ function slot0.OnInited(slot0)
 	end)
 end
 
-function slot0.OnAttackCntUpdate(slot0, slot1, slot2)
+slot0.OnAttackCntUpdate = function(slot0, slot1, slot2)
 	slot0.attackCnt = slot1
 	slot0.attackCntTF.text = slot2 and "-" or slot1
 end
 
-function slot0.OnMonsterHpUpdate(slot0, slot1)
+slot0.OnMonsterHpUpdate = function(slot0, slot1)
 	slot0.hp = slot1
 
 	slot0.fuShun:SetInteger("hp", slot1)
 	slot0.nian:SetInteger("hp", slot1)
 end
 
-function slot0.OnUIHpUpdate(slot0, slot1, slot2, slot3)
+slot0.OnUIHpUpdate = function(slot0, slot1, slot2, slot3)
 	slot6 = LeanTween.value(slot0.hpTF.gameObject, slot0.hpTF.value, slot1 / slot2, 0.3)
 	slot6 = slot6:setOnUpdate(System.Action_float(function (slot0)
 		uv0.hpTF.value = slot0
@@ -119,13 +119,13 @@ function slot0.OnUIHpUpdate(slot0, slot1, slot2, slot3)
 	end))
 end
 
-function slot0.OnAddFuShun(slot0, slot1)
+slot0.OnAddFuShun = function(slot0, slot1)
 	slot0.fuShun = slot0.fushun:GetComponent(typeof(Animator))
 
 	slot0.fuShun:SetInteger("hp", slot1)
 end
 
-function slot0.OnAddMonsterNian(slot0, slot1, slot2)
+slot0.OnAddMonsterNian = function(slot0, slot1, slot2)
 	slot0.hp = slot1
 	slot0.nian = slot0.monsterNian:GetComponent(typeof(Animator))
 	slot0.hpTF.value = slot1 / slot2
@@ -133,21 +133,21 @@ function slot0.OnAddMonsterNian(slot0, slot1, slot2)
 	slot0.nian:SetInteger("hp", slot1)
 end
 
-function slot0.OnChangeFuShunAction(slot0, slot1)
+slot0.OnChangeFuShunAction = function(slot0, slot1)
 	slot0.fuShun:SetTrigger(slot1)
 end
 
-function slot0.OnChangeNianAction(slot0, slot1)
+slot0.OnChangeNianAction = function(slot0, slot1)
 	slot0.nian:SetTrigger(slot1)
 end
 
-function slot0.BanJoyStick(slot0, slot1)
+slot0.BanJoyStick = function(slot0, slot1)
 	setActive(slot0.joyStick:Find("ban"), slot1)
 
 	GetOrAddComponent(slot0.joyStick, typeof(EventTriggerListener)).enabled = not slot1
 end
 
-function slot0.OnInputChange(slot0, slot1)
+slot0.OnInputChange = function(slot0, slot1)
 	if slot1 and slot1 ~= "" then
 		for slot6, slot7 in ipairs(slot0.actionKeys) do
 			slot8 = string.sub(slot1, slot6, slot6) or ""
@@ -163,22 +163,22 @@ function slot0.OnInputChange(slot0, slot1)
 	slot0:BanJoyStick(#slot1 == 2)
 end
 
-function slot0.PlayStory(slot0, slot1, slot2)
+slot0.PlayStory = function(slot0, slot1, slot2)
 	pg.NewStoryMgr.GetInstance():Play(slot1, slot2)
 end
 
-function slot0.DisplayAwards(slot0, slot1, slot2)
+slot0.DisplayAwards = function(slot0, slot1, slot2)
 	pg.m02:sendNotification(ActivityProxy.ACTIVITY_SHOW_AWARDS, {
 		awards = slot1,
 		callback = slot2
 	})
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 
-function slot0.OnTrigger(slot0, slot1, slot2, slot3)
+slot0.OnTrigger = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("off")
 	slot5 = true
 	slot6 = GetOrAddComponent(slot1, typeof(EventTriggerListener))
@@ -201,7 +201,7 @@ function slot0.OnTrigger(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.OnJoyStickTrigger(slot0, slot1, slot2, slot3)
+slot0.OnJoyStickTrigger = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("m")
 	slot5 = slot1:Find("l")
 	slot6 = slot1:Find("r")
@@ -234,7 +234,7 @@ function slot0.OnJoyStickTrigger(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.findTF(slot0, slot1, slot2)
+slot0.findTF = function(slot0, slot1, slot2)
 	assert(slot0._tf, "transform should exist")
 
 	return findTF(slot2 or slot0._tf, slot1)

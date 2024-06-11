@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-75,
 				20,
@@ -92,10 +92,10 @@ return {
 					spawn = {
 						{
 							deadFX = "udf_shanshuo",
-							reinforceDelay = 6,
-							monsterTemplateID = 16581004,
 							sickness = 0.3,
 							delay = 0.5,
+							monsterTemplateID = 16581004,
+							reinforceDelay = 6,
 							corrdinate = {
 								-5,
 								0,
@@ -112,9 +112,9 @@ return {
 					reinforcement = {
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16581001,
-							sickness = 0.3,
 							corrdinate = {
 								5,
 								0,
@@ -129,9 +129,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16581002,
-							sickness = 0.3,
 							corrdinate = {
 								0,
 								0,
@@ -146,9 +146,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16581002,
-							sickness = 0.3,
 							corrdinate = {
 								0,
 								0,
@@ -163,9 +163,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16581001,
-							sickness = 0.3,
 							corrdinate = {
 								5,
 								0,
@@ -191,10 +191,10 @@ return {
 					spawn = {
 						{
 							deadFX = "udf_shanshuo",
-							reinforceDelay = 6,
-							monsterTemplateID = 16581005,
 							sickness = 0.3,
 							delay = 0.5,
+							monsterTemplateID = 16581005,
+							reinforceDelay = 6,
 							corrdinate = {
 								-5,
 								0,
@@ -211,9 +211,9 @@ return {
 					reinforcement = {
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16581001,
-							sickness = 0.3,
 							corrdinate = {
 								5,
 								0,
@@ -228,9 +228,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16581002,
-							sickness = 0.3,
 							corrdinate = {
 								0,
 								0,
@@ -245,9 +245,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16581002,
-							sickness = 0.3,
 							corrdinate = {
 								0,
 								0,
@@ -262,9 +262,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16581001,
-							sickness = 0.3,
 							corrdinate = {
 								5,
 								0,
@@ -305,9 +305,9 @@ return {
 						{
 							deadFX = "udf_shanshuo",
 							reinforceDelay = 6,
-							monsterTemplateID = 16581301,
 							sickness = 0.1,
 							delay = 1.5,
+							monsterTemplateID = 16581301,
 							corrdinate = {
 								0,
 								0,
@@ -325,17 +325,17 @@ return {
 							},
 							phase = {
 								{
-									switchType = 1,
+									switchParam = 1,
 									switchTo = 1,
 									index = 0,
-									switchParam = 1,
+									switchType = 1,
 									setAI = 70238,
 									addWeapon = {}
 								},
 								{
-									index = 1,
 									switchParam = 2,
 									switchTo = 2,
+									index = 1,
 									switchType = 1,
 									addWeapon = {
 										3111001,
@@ -346,17 +346,17 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 2,
 									switchParam = 5,
 									switchTo = 3,
+									index = 2,
 									switchType = 1,
 									addWeapon = {},
 									removeWeapon = {}
 								},
 								{
-									index = 3,
 									switchParam = 4,
 									switchTo = 4,
+									index = 3,
 									switchType = 1,
 									addWeapon = {
 										3111005,
@@ -368,9 +368,9 @@ return {
 									}
 								},
 								{
-									index = 4,
 									switchParam = 6,
 									switchTo = 5,
+									index = 4,
 									switchType = 1,
 									addWeapon = {
 										3111007
@@ -378,9 +378,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 5,
 									switchParam = 2,
 									switchTo = 6,
+									index = 5,
 									switchType = 1,
 									addWeapon = {},
 									removeWeapon = {
@@ -390,9 +390,9 @@ return {
 									}
 								},
 								{
-									index = 6,
 									switchParam = 6,
 									switchTo = 7,
+									index = 6,
 									switchType = 1,
 									addWeapon = {
 										3111008,
@@ -401,9 +401,9 @@ return {
 									removeWeapon = {}
 								},
 								{
-									index = 7,
 									switchParam = 2,
 									switchTo = 8,
+									index = 7,
 									switchType = 1,
 									addWeapon = {},
 									removeWeapon = {
@@ -412,9 +412,9 @@ return {
 									}
 								},
 								{
-									index = 8,
 									switchParam = 2,
 									switchTo = 1,
+									index = 8,
 									switchType = 1,
 									addWeapon = {},
 									removeWeapon = {
@@ -428,9 +428,9 @@ return {
 					reinforcement = {
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16581003,
-							sickness = 0.3,
 							corrdinate = {
 								-5,
 								0,
@@ -445,9 +445,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16581002,
-							sickness = 0.3,
 							corrdinate = {
 								-10,
 								0,
@@ -462,9 +462,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16581002,
-							sickness = 0.3,
 							corrdinate = {
 								-10,
 								0,
@@ -479,9 +479,9 @@ return {
 						},
 						{
 							deadFX = "udf_shanshuo",
+							sickness = 0.3,
 							delay = 0,
 							monsterTemplateID = 16581003,
-							sickness = 0.3,
 							corrdinate = {
 								-5,
 								0,

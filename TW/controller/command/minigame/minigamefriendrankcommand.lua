@@ -1,6 +1,6 @@
 slot0 = class("MiniGameFriendRankCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if slot1:getBody().id == nil then
 		return
 	end
@@ -18,7 +18,8 @@ function slot0.execute(slot0, slot1)
 				player_id = slot1.id,
 				name = slot1.name,
 				score = slot1.score,
-				display = slot1.display
+				display = slot1.display,
+				time_data = slot1.time_data
 			}
 
 			if #slot0 > 1 and slot0[#slot0 - 1].score == slot1.score then

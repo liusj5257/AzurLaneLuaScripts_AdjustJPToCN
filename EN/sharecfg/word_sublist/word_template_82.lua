@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_82 = {}
 slot1 = slot0.word_template_82
 
-function temp()
+temp = function()
 	uv0["迪"] = {
 		["考"] = {
 			["谭"] = {
@@ -44,7 +44,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["糴"] = {
 		this = {
 			this = true
@@ -54,7 +54,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["抵"] = {
 		["制"] = {
 			["联"] = {
@@ -106,7 +106,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["地"] = {
 		["磅"] = {
 			["干"] = {
@@ -514,7 +514,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["弟"] = {
 		["大"] = {
 			["物"] = {
@@ -544,7 +544,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["帝"] = {
 		["国"] = {
 			T = {
@@ -636,7 +636,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["递"] = {
 		["进"] = {
 			["民"] = {

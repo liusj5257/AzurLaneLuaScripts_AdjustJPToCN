@@ -1,18 +1,18 @@
 return {
-	id = "BIHAIGUANGLIN13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN13",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
-			nameColor = "#a9f548",
-			say = "펑————————!",
+			bgm = "battle-boss-longgong",
 			dir = 1,
 			bgmDelay = 0.5,
-			bgm = "battle-boss-longgong",
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#a9f548",
+			say = "펑————————!",
 			flashN = {
 				color = {
 					1,
@@ -65,8 +65,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			say = "저기... 저, 분명히 맞은 거죠? 그런데 전혀 다치지 않았어요...",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "하지만 이쪽의 공격도 별다른 효과는 없어요... 적 선체를 보호하는 특수한 실드가 있는 것 같아요.",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "공격하는 것이 상책은 아닌 것 같군요... 해역을 좀 더 자세히 관찰해서 우회할 수 있는 항로가 있는지 찾아봐야 할 것 같아요.",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "(시마카제라면 분명히 '스루가공, 함께 힘내서 돌파해 봐요!' 같은 말을 했겠죠.)",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "(하지만 분석을 중요하게 여기는 치쿠마는 조금 달라요... 작전이라 하면 역시 정보를 모으고 전술을 세운 뒤 생각을 해야 하는 법이죠!)",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "아~ 믿음직스러운 치쿠마에게 함대를 맡겨서 정말 다행이에요.",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "(이런, 속마음이 새어 나온 모양이에요!)",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "방금은, 음... 치쿠마가 믿음직스럽다고 감탄하고 있었어요!",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "뭘요. 스루가와 비교하면 저는 아직 한참 멀었는걸요.",
 			typewriter = {
 				speed = 0.05,
@@ -283,9 +283,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 305140,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "아니요, 지금이 딱 좋아요! 이런 건 신경 쓰지 말고 어서 앞으로 나아갈 항로를 찾도록 하죠!",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN11",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg7",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "장기판 경기장·나가토 통제 구역 제3 라운드",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,17 +36,17 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#A9F548FF",
 			say = "...이 안개, 거슬려.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -126,8 +126,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "말도 안돼. 장기판 경기일 뿐인데…? 게임을 유리하게 하려고 일부러 전투 임무를 준비하는 건 너무 치사하잖아.",
 			painting = {
@@ -226,10 +226,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이번 라운드는 무사시 구역과 인접한 경계선 거점 GH56을 공격하는 걸 포기한다.",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "하루나는 저번 라운드에서 점령한 IJ56로, 히에이는 I5로 이동해 무사시에 대한 압박을 유지한다.",
 			painting = {
 				alpha = 0.3,
@@ -262,10 +262,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "카와카제는 H5로, 하루츠키는 G5로 이동해 무사시의 침입 가능성에 대비한다.",
 			painting = {
 				alpha = 0.3,
@@ -280,10 +280,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "쇼카쿠는 거점 IJ12의 통제 구역 I2로 이동한다.",
 			painting = {
 				alpha = 0.3,
@@ -317,10 +317,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그대는 양산형과 힙을 합쳐 작은 거점 IJ12를 점령할 수 있도록, 이상.",
 			painting = {
 				alpha = 0.3,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_bg7",
 			hidePaintObj = true,
 			say = "나가토의 말이 끝나자 쇼카쿠의 몸이 순식간에 두 가지 빛으로 뒤덮였다.",
@@ -362,8 +362,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg7",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "그것 뿐만 아니라, 나가토님이 '총기함의 명령'이라는 지휘 카드를 사용해서 쇼카쿠의 공격력이 대폭 상승했어!",
 			painting = {

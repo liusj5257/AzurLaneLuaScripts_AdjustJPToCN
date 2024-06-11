@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"港區逃離大作戰！\n\n<size=45>一　這裡是哪裡？</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "這是，小小的鋼之勇者們的冒險譚(Epos)——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,11 +48,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "港區·倉庫",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "港區·倉庫",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			actor = 407020,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 407020,
 			actorName = "？？？",
 			say = "所以說，我們一定是被誘拐來的！",
 			typewriter = {
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 407020,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 407020,
 			actorName = "？？？",
 			say = "妳也這麼認為的吧！{namecode:71}！",
 			typewriter = {
@@ -115,13 +115,13 @@ return {
 			}
 		},
 		{
-			actor = 304060,
+			say = "是、是嗎…指揮官大人把我們…誘拐來的嗎？理由也不明不白…",
 			side = 0,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = -1,
+			actor = 304060,
 			actorName = "？？？",
-			say = "是、是嗎…指揮官大人把我們…誘拐來的嗎？理由也不明不白…",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -173,8 +173,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "唔……我們應該是作為指揮官大人的部下來報到的才對，到底是怎麼回事呢…",
 			typewriter = {
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 304060,
+			nameColor = "#a9f548",
 			say = "難道說指揮官是為了讓{namecode:71}一直留在身邊才誘拐我們的！？",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -232,8 +232,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "嘸嘸…沒想到還有這一手…！很好！妳終於弄明白自己現在所處的狀況了！",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "……這種事無所謂啦！現在正是逃離港區的好時機！我們要出擊了！",
 			typewriter = {
@@ -314,8 +314,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_task",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "小齊柏林！……別把我丟在這裡啦！",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "哼，現在正是讓妳們見識一下，鐵血第一艘航母·齊柏林伯爵的力量的時……好痛！",
 			typewriter = {
@@ -348,8 +348,8 @@ return {
 			expression = 5,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "什麼嘛！從這裡出來直走明明就是牆啊！那個維修艦，早就算好要騙我了吧…!",
 			typewriter = {
@@ -362,8 +362,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,12 +388,12 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
+			actor = 304060,
+			nameColor = "#a9f548",
 			say = "……這下看來光是找到路就要花不少時間呢……",
 			typewriter = {
 				speed = 0.05,

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI23",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "サディア艦隊はエーゲ海の鏡面海域にある迷路を着々と進んでいる。",
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-boss-italy",
+			hidePaintObj = true,
+			say = "サディア艦隊はエーゲ海の鏡面海域にある迷路を着々と進んでいる。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -66,8 +66,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "（おかしいね…迷路が何回も変わっているのに、目的地に向かって進んでいる気持ちも強くなってる…）",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "（もしかしてこの迷路、本当にあたしたちをどんどん奥へと誘い込もうとしているのかも……）",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "（でも困ったね…行かないとGBと芸術品を回収できないし…ふふふふ…ここはヴェネトさんにちょっと聞いて）",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "ヴェネトさんってセイレーンの歌は知ってる…？",
 			typewriter = {
@@ -134,10 +134,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "どうしたの、急に？",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "か、考えすぎかもしれないけど、あたしたちが迷路の奥へと進もうとしている気持ちがね…",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "ふふ、ふふふ……もしかしてセイレーンに利用されているかもって…",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "ほら、アクィラの艦載機の目もあの目立つ敵や、「駒」に引き込まれているのでは……",
 			typewriter = {
@@ -203,10 +203,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "………………自覚しないうちに、ですね？",
 			typewriter = {
 				speed = 0.05,
@@ -234,12 +234,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（トリチェリの言う通り…この迷路の奥へと進む手がかりはほとんどが「敵」から与えられている…）",
 			typewriter = {
 				speed = 0.05,

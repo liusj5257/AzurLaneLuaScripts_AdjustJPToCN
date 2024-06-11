@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "闪耀登场",
 	init_effect = "",
+	id = 12260,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12260,
+	color = "yellow",
 	icon = 12260,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 1,
-				skill_id = 12261
+				skill_id = 12261,
+				time = 1
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 1.8,
-				skill_id = 12260
+				skill_id = 12260,
+				time = 1.8
 			}
 		}
 	}

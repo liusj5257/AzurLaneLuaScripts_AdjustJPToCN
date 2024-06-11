@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG22",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -38,8 +38,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			nameColor = "#ff5c5c",
 			say = "什麼嘛，結果和歐根說的完全不一樣......我就說怎麼會出現護航編隊拋​棄運輸船撤離的好事。",
 			typewriter = {
@@ -71,8 +71,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 408060,
 			dir = 1,
+			actor = 408060,
 			nameColor = "#ff5c5c",
 			say = "真可惜~如果歐根的計劃能成功，我們就能一舉幹掉所有的運輸船了！",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			nameColor = "#ff5c5c",
 			say = "期待會有這種好事，還不如期待一會兒魚雷打的準一點。",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 408070,
 			dir = 1,
+			actor = 408070,
 			nameColor = "#ff5c5c",
 			say = "面對這種規模的護航艦隊，我們能取得的戰果恐怕會很有限吧...",
 			typewriter = {
@@ -119,12 +119,12 @@ return {
 			}
 		},
 		{
-			actor = 408010,
 			side = 2,
 			bgName = "bg_underwater",
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 408010,
+			nameColor = "#ff5c5c",
 			say = "能解決一艘是一艘，讓狼群開始狩獵吧~！",
 			typewriter = {
 				speed = 0.05,

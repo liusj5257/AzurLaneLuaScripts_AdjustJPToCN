@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIQIYE",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIQIYE",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"명예의 전당\n\n<size=45>짙푸른 바다</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날·모항 근해",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "어느 날·모항 근해",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "그렇긴 해도, 지휘관이 오지 않았더라면, 역시 조금은 불안했을 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -184,9 +184,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "엔터프라이즈가 저렇게 말하긴 하였지만, 나 자신은 그녀들에 비해 직접적인 전투력을 갖추지 못하고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "후방 지원과 지휘는 괜찮다지만, 전선에서 그녀들에게 뒤를 나에게 맡겨달라고 할 수 있을지는… 자신이 없다—",
 			typewriter = {
 				speed = 0.05,
@@ -276,9 +276,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "엔터프라이즈는 더 얘기하지 않았다.",
 			typewriter = {
 				speed = 0.05,
@@ -290,9 +290,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "그녀에게 나는 대체 어떤 존재일까... 본인이 얘기하지 않았으니, 추측할 수 없었다.",
 			typewriter = {
 				speed = 0.05,
@@ -384,9 +384,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "엔터프라이즈는 살짝 부끄러워하며 모자를 들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -462,9 +462,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "엔터프라이즈는 가볍게 고개를 저었다. 모자와 앞머리가 그녀의 표정을 가렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -492,11 +492,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "참, 지휘관, 한 번 하늘에서 바다를 봐볼래?",
 			typewriter = {
 				speed = 0.05,
@@ -546,9 +546,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "눈앞의 엔터프라이즈는 평상시의 늠름한 모습을 되찾았다.",
 			typewriter = {
 				speed = 0.05,
@@ -560,9 +560,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "기회는 얻기 어렵다. 이왕 이렇게 되었으니, 사양하지 말고 기꺼이 받자.",
 			typewriter = {
 				speed = 0.05,
@@ -574,13 +574,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_nepu2",
+			side = 2,
+			dir = 1,
 			say = "엔터프라이즈의 도움 하에, 공중에서 바다의 아름다운 경관을 감상했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -605,11 +605,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "'공중 산책'하는 기분이 어때?",
 			typewriter = {
 				speed = 0.05,
@@ -635,12 +635,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "참 예쁘다라……",
 			typewriter = {
 				speed = 0.05,
@@ -652,12 +652,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "하하, 좀 더 안정적이도록 비행 조종을 연습해서, 승객이 안심하고 감상할 수 있게 해야 할 것 같군.",
 			typewriter = {
 				speed = 0.05,
@@ -669,8 +669,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -679,12 +679,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "그래…? 다음에 에식스를 불러 지휘관을 데리고 연습을 시켜야겠군…",
 			typewriter = {
 				speed = 0.05,
@@ -744,9 +744,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "엔터프라이즈는 심호흡을 하고, 약간 수줍게 말했다.",
 			typewriter = {
 				speed = 0.05,
@@ -806,9 +806,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "엔터프라이즈는 얼굴에 홍조를 띠며 환하게 웃었다.",
 			typewriter = {
 				speed = 0.05,
@@ -836,12 +836,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "너와 함께 바라본 푸른 바다가, 세상에서 가장 아름다운 풍경이야——",
 			typewriter = {
 				speed = 0.05,

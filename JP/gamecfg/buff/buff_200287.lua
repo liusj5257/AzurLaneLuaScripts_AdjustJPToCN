@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX 进入虚弱状态",
 	time = 8,
-	color = "blue",
+	name = "2023英系活动 EX 进入虚弱状态",
+	init_effect = "",
+	id = 200287,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200287,
+	color = "blue",
 	icon = 200287,
 	last_effect = "xuanyun",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 0.1,
+				target = "TargetSelf",
 				skill_id = 200287
 			}
 		},
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 2
+				number = 2,
+				attr = "injureRatio"
 			}
 		}
 	}

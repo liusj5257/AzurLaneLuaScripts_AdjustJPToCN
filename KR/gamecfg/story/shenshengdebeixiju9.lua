@@ -1,14 +1,14 @@
 return {
-	id = "SHENSHENGDEBEIXIJU9",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU9",
+	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-5",
 			say = "같은 날 오후 13:50:00",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,8 +97,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "……",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "만약, 적색 신호를 보게 된다면 어떻게 할 생각이야?",
 			typewriter = {

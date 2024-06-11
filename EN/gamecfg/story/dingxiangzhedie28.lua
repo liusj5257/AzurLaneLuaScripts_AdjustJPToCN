@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE28",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhedie_11",
-			stopbgm = true,
-			say = "[Reality Lens Replicated Space] [Cognitive merge: Commander - The Devil XV - Framework of Logic - ???]",
 			bgmDelay = 2,
 			bgm = "theme-starsea-core",
+			stopbgm = true,
+			say = "[Reality Lens Replicated Space] [Cognitive merge: Commander - The Devil XV - Framework of Logic - ???]",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,12 +28,12 @@ return {
 			}
 		},
 		{
-			actor = 9702020,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702020,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "The extraction point is just ahead, Commander. Just keep following this path and you'll be out.",
 			painting = {
 				alpha = 0.3,
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "\"What will you do, Memphis?\"",
 			typewriter = {
@@ -58,10 +58,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "I'm going back to help Helena. Need to cover your retreat, after all.",
 			painting = {
 				alpha = 0.3,
@@ -76,10 +76,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "Don't worry about me. We have our own way of getting out.",
 			painting = {
 				alpha = 0.3,
@@ -91,12 +91,12 @@ return {
 			}
 		},
 		{
-			actor = 9702020,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702020,
 			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "Hurry and go. You'll be in danger if you stay here long.",
 			painting = {
 				alpha = 0.3,
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_11",
 			say = "Memphis pushes me into the passage leading underground.",
 			typewriter = {
@@ -121,10 +121,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_11",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "...I'm sorry. I won't let this happen ever again.",
 			painting = {
 				alpha = 0.3,
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
-			say = "Ring, ring. The delicate tinkling of wind chimes.",
 			soundeffect = "event:/ui/qiehuan",
+			say = "Ring, ring. The delicate tinkling of wind chimes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,8 +153,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			say = "I again find myself weightless, just like when I first entered the Reality Lens.",
 			typewriter = {
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			say = "But this time, a wave of relief washes over me. I had overcome the crisis.",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			say = "But when I look around, I seem to be inside another virtual space.",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			say = "It looks like the inside of Dr. Aoste's research facility on Samos Island, but a few things seem different about it.",
 			typewriter = {
@@ -208,12 +208,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			side = 2,
 			bgName = "bg_aostelab_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900332,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Daydreaming again? Hellooo, Commander?",
 			painting = {
 				alpha = 0.3,
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			say = "\"Where am I? And... I guess Laffey is here, too?\"",
 			typewriter = {
@@ -235,12 +235,12 @@ return {
 			}
 		},
 		{
-			actor = 900334,
 			side = 2,
 			bgName = "bg_aostelab_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900334,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yep. That's me, Commander. Poke, poke.",
 			painting = {
 				alpha = 0.3,
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			say = "Another virtual space made from the data left over in the Natural Calculation System?",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			say = "\"Er, Laffey? Why are you in that gear...?\"",
 			typewriter = {
@@ -272,12 +272,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			side = 2,
 			bgName = "bg_aostelab_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900332,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Are you losing your mind, or are you just half-asleep?",
 			painting = {
 				alpha = 0.3,
@@ -289,12 +289,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			side = 2,
 			bgName = "bg_aostelab_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900332,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Bah, whatever. You're always weird like that.",
 			painting = {
 				alpha = 0.3,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			side = 2,
 			bgName = "bg_aostelab_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900332,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Let's take it from the top. You and I are visiting Aoste. Laffey tagged along, and she's wearing your Type II rigging prototype.",
 			painting = {
 				alpha = 0.3,
@@ -323,12 +323,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			side = 2,
 			bgName = "bg_aostelab_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900332,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We're here to test the Type II rigging and take a look at his new Antiochus.",
 			painting = {
 				alpha = 0.3,
@@ -340,12 +340,12 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			side = 2,
 			bgName = "bg_aostelab_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900332,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Got it?",
 			painting = {
 				alpha = 0.3,
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			say = "Nobody should be connected to this space but me. Which means...",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			say = "Is this a recorded world being shown to me by that Recorder AI?",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_zhedie_13",
 			mode = 1,
+			bgName = "bg_zhedie_13",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Anzeel",
+			side = 2,
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
 			say = "So anyway, how do you like this?",
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_13",
 			say = "Anzeel shows me a photo of Laffey together with another sleepy-looking white-haired girl.",
 			typewriter = {
@@ -417,8 +417,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Anzeel",
+			side = 2,
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
 			say = "This one's kind of a cutie, right?",
@@ -428,8 +428,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_13",
 			say = "I know that girl. She was a high-ranking Siren named Compiler.",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_13",
 			say = "\"Everything in this facility is absolutely top secret.\"",
 			typewriter = {
@@ -448,8 +448,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_13",
 			say = "\"Any pictures you take will be deleted on the way out.\"",
 			typewriter = {
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Anzeel",
+			side = 2,
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
 			say = "Dammit, I forgot!",
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Anzeel",
+			side = 2,
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
 			say = "Aww... Wait, I've got it!",
@@ -480,8 +480,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Anzeel",
+			side = 2,
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
 			say = "I'll just send these pics to Aoste before they get deleted...",
@@ -491,8 +491,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Anzeel",
+			side = 2,
 			bgName = "bg_zhedie_13",
 			nameColor = "#A9F548FF",
 			say = "Then after we've left, I'll ask Aoste to send them to me, citing communication between project members. I'm a genius!",
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			say = "I try repeating the same words Memphis had said. Anzeel replies the same way as before.",
 			typewriter = {
@@ -512,11 +512,11 @@ return {
 			}
 		},
 		{
-			actor = 900333,
 			nameColor = "#A9F548FF",
-			bgName = "bg_aostelab_2",
 			side = 2,
+			bgName = "bg_aostelab_2",
 			dir = 1,
+			actor = 900333,
 			actorName = "Aoste",
 			say = "Anzeel and Commander? Did I happen to hear my name?",
 			painting = {
@@ -529,11 +529,11 @@ return {
 			}
 		},
 		{
-			actor = 900333,
 			nameColor = "#A9F548FF",
-			bgName = "bg_aostelab_2",
 			side = 2,
+			bgName = "bg_aostelab_2",
 			dir = 1,
+			actor = 900333,
 			actorName = "Aoste",
 			say = "This is the latest vessel for the brand-new Antiochus model. What do you think?",
 			painting = {
@@ -546,11 +546,11 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#A9F548FF",
-			bgName = "bg_aostelab_2",
 			side = 2,
+			bgName = "bg_aostelab_2",
 			dir = 1,
+			actor = 900332,
 			actorName = "Anzeel",
 			say = "Aoste is acting a lot more normal than usual... Commander, it must be because you brought Laffey along.",
 			painting = {
@@ -563,8 +563,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -573,8 +573,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_2",
 			say = "\"Come to think of it, all the first-generation Sirens do have white hair.\"",
 			typewriter = {
@@ -583,11 +583,11 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#A9F548FF",
-			bgName = "bg_aostelab_2",
 			side = 2,
+			bgName = "bg_aostelab_2",
 			dir = 1,
+			actor = 900332,
 			actorName = "Anzeel",
 			say = "I knew it! So that was Dr. Aoste's fetish all along~",
 			painting = {
@@ -600,8 +600,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -610,11 +610,11 @@ return {
 			}
 		},
 		{
-			actor = 900333,
 			nameColor = "#A9F548FF",
-			bgName = "bg_aostelab_2",
 			side = 2,
+			bgName = "bg_aostelab_2",
 			dir = 1,
+			actor = 900333,
 			actorName = "Aoste",
 			say = "Nonsense, you two! This is still a work-in-progress. What's wrong with referencing an existing prototype?",
 			painting = {
@@ -627,11 +627,11 @@ return {
 			}
 		},
 		{
-			actor = 900333,
 			nameColor = "#A9F548FF",
-			bgName = "bg_aostelab_2",
 			side = 2,
+			bgName = "bg_aostelab_2",
 			dir = 1,
+			actor = 900333,
 			actorName = "Aoste",
 			say = "By the way, I think I'm going to call her \"Compiler.\"",
 			painting = {
@@ -644,11 +644,11 @@ return {
 			}
 		},
 		{
-			actor = 900332,
 			nameColor = "#A9F548FF",
-			bgName = "bg_aostelab_2",
 			side = 2,
+			bgName = "bg_aostelab_2",
 			dir = 1,
+			actor = 900332,
 			actorName = "Anzeel",
 			say = "I still think your naming scheme is kind of lame.",
 			painting = {
@@ -661,11 +661,11 @@ return {
 			}
 		},
 		{
-			actor = 900333,
 			nameColor = "#A9F548FF",
-			bgName = "bg_aostelab_2",
 			side = 2,
+			bgName = "bg_aostelab_2",
 			dir = 1,
+			actor = 900333,
 			actorName = "Aoste",
 			say = "...Can't you at least pretend to show some excitement when I'm making a big announcement here?",
 			painting = {
@@ -678,11 +678,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_0",
-			say = "There's that wind chime again.",
 			soundeffect = "event:/ui/qiehuan",
+			say = "There's that wind chime again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,8 +695,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -704,8 +704,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_0",
 			say = "Suddenly, everything around me stops, and my vision is flooded with blocks of random colors.",
 			typewriter = {
@@ -714,8 +714,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_0",
 			say = "\"What now...?\"",
 			typewriter = {
@@ -724,8 +724,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_0",
 			say = "Try as I might, I cannot move much at all. ",
 			typewriter = {
@@ -734,8 +734,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Memphis",
+			side = 2,
 			bgName = "bg_aostelab_0",
 			nameColor = "#A9F548FF",
 			say = "...The Comma... has not regained consciou...",
@@ -745,12 +745,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Memphis",
+			side = 2,
 			bgName = "bg_aostelab_0",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Commande... can you hear me?",
 			painting = {
 				alpha = 0.3,
@@ -762,8 +762,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aostelab_0",
 			say = "Before my mind finally succumbs to the darkness, I hear Memphis calling for me.",
 			typewriter = {
@@ -772,12 +772,12 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
 			asideType = 1,
+			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 2,
+				black = true,
 				alpha = {
 					0,
 					1

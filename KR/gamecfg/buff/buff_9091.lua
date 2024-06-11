@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "所罗门的传说-LV8",
 	time = 15,
-	color = "yellow",
+	name = "所罗门的传说-LV8",
+	init_effect = "",
+	id = 9091,
 	picture = "",
 	desc = "概率发动",
 	stack = 1,
-	id = 9091,
+	color = "yellow",
 	icon = 9091,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				rant = 5310,
-				skill_id = 9090,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				skill_id = 9090
 			}
 		}
 	}

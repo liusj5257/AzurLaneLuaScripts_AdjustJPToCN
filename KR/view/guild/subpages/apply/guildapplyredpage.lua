@@ -1,10 +1,10 @@
 slot0 = class("GuildApplyRedPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildApplyRedUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.iconTF = findTF(slot0._tf, "panel/frame/policy_container/input_frame/shipicon/icon"):GetComponent(typeof(Image))
 	slot0.circle = findTF(slot0._tf, "panel/frame/policy_container/input_frame/shipicon/frame")
 	slot0.manifesto = findTF(slot0._tf, "panel/frame/policy_container/input_frame/Text"):GetComponent(typeof(Text))
@@ -19,12 +19,12 @@ function slot0.OnLoaded(slot0)
 	slot0.policyTF = findTF(slot0._tf, "panel/frame/policy_container/policy/Text"):GetComponent(typeof(Text))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.applyBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			hideNo = true,
-			limit = 20,
 			yesText = "text_confirm",
+			limit = 20,
 			type = MSGBOX_TYPE_INPUT,
 			placeholder = i18n("guild_request_msg_placeholder"),
 			title = i18n("guild_request_msg_title"),
@@ -38,7 +38,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	slot0.guildVO = slot1
 
 	slot0:UpdateApplyPanel()
@@ -46,7 +46,7 @@ function slot0.Show(slot0, slot1)
 	uv0.super.Show(slot0)
 end
 
-function slot0.UpdateApplyPanel(slot0)
+slot0.UpdateApplyPanel = function(slot0)
 	slot1 = slot0.guildVO
 	slot2 = Ship.New({
 		configId = slot1:getCommader().icon
@@ -90,7 +90,7 @@ function slot0.UpdateApplyPanel(slot0)
 	end)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr:GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 
@@ -101,7 +101,10 @@ function slot0.Hide(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
 end
 
 return slot0

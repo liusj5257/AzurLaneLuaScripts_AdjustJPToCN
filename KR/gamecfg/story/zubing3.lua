@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"전진하라! 아시가라!\n\n<size=45>검을 뽑아라! 아시가라!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "어느 날, 학교에서 집무실로 향하는 길에 아시가라의 목소리가 들려왔다.",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "어느 날, 학교에서 집무실로 향하는 길에 아시가라의 목소리가 들려왔다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 303090,
 			nameColor = "#92fc63",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 303090,
 			say = "이얍!",
 			flashN = {
 				color = {
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			actor = 303070,
+			say = "좋아! 좋은 기세다!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "좋아! 좋은 기세다!",
+			actor = 303070,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -167,8 +167,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -193,12 +193,12 @@ return {
 			}
 		},
 		{
-			actor = 303070,
+			say = "빈틈이다!",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "빈틈이다!",
+			actor = 303070,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -216,8 +216,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "아차……",
 			typewriter = {
@@ -230,8 +230,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -240,9 +240,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "캉!",
 			typewriter = {
 				speed = 0.05,
@@ -250,15 +250,15 @@ return {
 			}
 		},
 		{
-			actor = 303070,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 303070,
+			nameColor = "#92fc63",
 			say = "오늘 연습은 여기까지다. 아시가라, 또 강해졌구나.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,10 +286,10 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 303090,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "묘코 언니, 전 아직……",
+			dir = 1,
+			actor = 303090,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -323,8 +323,8 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "……알겠습니다.",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "나치 언니, 감사합니다!",
 			typewriter = {
@@ -421,8 +421,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "어, 어떻게 그걸……",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -512,8 +512,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "묘코 언니, 나치 언니……알겠습니다! 지휘관 나리에게 폐를 끼치지 않도록, 노력할게요!",
 			typewriter = {

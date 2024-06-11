@@ -1,17 +1,17 @@
 return {
-	id = "FUXINGDEZANMEISHI29",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXINGDEZANMEISHI29",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 605010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "So this is your doing, Tester...",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			say = "You're the one who attacked Sardegna's transport ships and abducted our escorts.",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			say = "Did you create this Mirror Sea and attack our shipping routes just to lure us in?",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			say = "Answer me, Tester!",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 607010,
 			dir = 1,
+			actor = 607010,
 			say = "From what I've read, the other factions have fought against Sirens calling themselves \"Tester\" on several occasions, but they've been able to communicate before...",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			say = "We might have a special case on our hands by the looks of things...",
 			typewriter = {
 				speed = 0.05,
@@ -209,9 +209,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 601050,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Veneto, we've finished evacuating Gioberti and the transport ships!",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -236,8 +236,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 601040,
 			dir = 1,
+			actor = 601040,
 			say = "Can we leave now? Is that thing just not interested in us?",
 			typewriter = {
 				speed = 0.05,
@@ -296,9 +296,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 601060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Holy! She's pointing her guns at us!",
 			typewriter = {
 				speed = 0.05,
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -337,9 +337,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 605010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "If you're going to be the first to draw, we won't hold back! Everyone, ready your guns! Defeat that high-level Siren!",
 			effects = {
 				{

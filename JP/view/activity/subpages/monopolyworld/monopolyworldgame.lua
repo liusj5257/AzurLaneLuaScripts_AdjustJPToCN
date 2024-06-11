@@ -59,18 +59,18 @@ slot16 = "dafuweng_touch"
 slot18 = "cell move"
 slot22 = {
 	{
-		path_length = 1,
 		name = "gulitemengya_1",
+		path_length = 1,
 		cell_type = slot18
 	},
 	{
-		path_length = 2,
 		name = "gulitemengya_2",
+		path_length = 2,
 		cell_type = slot18
 	},
 	{
-		path_length = 3,
 		name = "gulitemengya_3",
+		path_length = 3,
 		cell_type = slot18
 	},
 	{
@@ -99,7 +99,7 @@ slot23 = {
 }
 slot24, slot25 = nil
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._binder = slot1
 	slot0._tf = slot2
 	slot0._event = slot3
@@ -109,13 +109,13 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0:initEvent()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.leftCount = 0
 	slot0.inAnimatedFlag = false
 	slot0.mapCells = {}
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.tplMapCell = findTF(slot0._tf, "tplMapCell")
 	slot0.gameTipUI1 = findTF(slot0._tf, "btnStart/desc")
 
@@ -141,7 +141,7 @@ function slot0.initUI(slot0)
 	slot0:initFurn()
 end
 
-function slot0.initFurn(slot0)
+slot0.initFurn = function(slot0)
 	slot1 = findTF(slot0._tf, "bg/mask/event"):GetComponent("HScrollSnap")
 	slot0.bannerCanvas = GetComponent(findTF(slot0._tf, "bg/mask"), typeof(CanvasGroup))
 
@@ -177,7 +177,7 @@ function slot0.initFurn(slot0)
 		table.insert(slot0.furnNames, findTF(slot0._tf, "bg/furnName/img" .. slot9))
 	end
 
-	function slot6()
+	slot6 = function()
 		for slot3 = 1, #uv0 do
 			if slot3 == uv1.bannerSnap:CurrentScreen() + 1 then
 				if not isActive(uv1.furnNames[slot3]) then
@@ -195,7 +195,7 @@ function slot0.initFurn(slot0)
 	slot6()
 end
 
-function slot0.initEvent(slot0)
+slot0.initEvent = function(slot0)
 	onButton(slot0._binder, slot0.btnStart, function ()
 		if uv0.inAnimatedFlag then
 			return
@@ -244,7 +244,7 @@ function slot0.initEvent(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.showRollAnimated(slot0, slot1)
+slot0.showRollAnimated = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			setActive(uv0.effectStart, true)
@@ -277,7 +277,7 @@ function slot0.showRollAnimated(slot0, slot1)
 	end)
 end
 
-function slot0.checkCountStory(slot0, slot1)
+slot0.checkCountStory = function(slot0, slot1)
 	slot2 = slot0.useCount
 
 	if _.detect(slot0.activity:getDataConfig("story") or {}, function (slot0)
@@ -289,7 +289,7 @@ function slot0.checkCountStory(slot0, slot1)
 	end
 end
 
-function slot0.changeAnimeState(slot0, slot1)
+slot0.changeAnimeState = function(slot0, slot1)
 	if slot1 then
 		slot0.btnStart:GetComponent(typeof(Image)).raycastTarget = false
 		slot0.inAnimatedFlag = true
@@ -303,7 +303,7 @@ function slot0.changeAnimeState(slot0, slot1)
 	end
 end
 
-function slot0.initMap(slot0)
+slot0.initMap = function(slot0)
 	slot0.mapCells = {}
 
 	for slot5 = 1, #uv0 do
@@ -342,7 +342,7 @@ function slot0.initMap(slot0)
 	end)
 end
 
-function slot0.initChar(slot0)
+slot0.initChar = function(slot0)
 	slot1 = PoolMgr.GetInstance()
 
 	slot1:GetSpineChar(uv0, true, function (slot0)
@@ -363,7 +363,7 @@ function slot0.initChar(slot0)
 	end)
 end
 
-function slot0.updataCharDirect(slot0, slot1, slot2)
+slot0.updataCharDirect = function(slot0, slot1, slot2)
 	if slot0.model then
 		slot3 = slot0.mapCells[slot1].position
 		slot4 = slot1 + 1 > #slot0.mapCells and 1 or slot1 + 1
@@ -372,7 +372,7 @@ function slot0.updataCharDirect(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getMoveType(slot0, slot1, slot2, slot3)
+slot0.getMoveType = function(slot0, slot1, slot2, slot3)
 	slot5 = {}
 	slot6 = {}
 
@@ -409,7 +409,7 @@ function slot0.getMoveType(slot0, slot1, slot2, slot3)
 	return slot7
 end
 
-function slot0.checkCharActive(slot0)
+slot0.checkCharActive = function(slot0)
 	if slot0.anim then
 		if slot0.effectId and slot0.effectId > 0 then
 			slot0:changeAnimeState(true)
@@ -431,19 +431,19 @@ function slot0.checkCharActive(slot0)
 	end
 end
 
-function slot0.firstUpdata(slot0, slot1)
+slot0.firstUpdata = function(slot0, slot1)
 	slot0:activityDataUpdata(slot1)
 	slot0:updataUI()
 	slot0:updataChar()
 	slot0:checkCharActive()
 end
 
-function slot0.updataActivity(slot0, slot1)
+slot0.updataActivity = function(slot0, slot1)
 	slot0:activityDataUpdata(slot1)
 	slot0:updataUI()
 end
 
-function slot0.activityDataUpdata(slot0, slot1)
+slot0.activityDataUpdata = function(slot0, slot1)
 	slot0.activity = slot1
 	slot0.totalCnt = math.ceil((pg.TimeMgr.GetInstance():GetServerTime() - slot0.activity.data1) / 86400) * slot0.activity:getDataConfig("daily_time") + slot0.activity.data1_list[1]
 	slot0.useCount = slot0.activity.data1_list[2]
@@ -469,7 +469,7 @@ function slot0.activityDataUpdata(slot0, slot1)
 	slot0.effectId = slot0.activity.data4
 end
 
-function slot0.checkStep(slot0, slot1)
+slot0.checkStep = function(slot0, slot1)
 	if slot0.step > 0 then
 		slot2 = slot0._event
 
@@ -525,7 +525,7 @@ function slot0.checkStep(slot0, slot1)
 	end
 end
 
-function slot0.updataUI(slot0)
+slot0.updataUI = function(slot0)
 	setText(slot0.labelLeftCount, slot0.leftCount)
 
 	slot1 = slot0.activity:getDataConfig("daily_time")
@@ -598,7 +598,7 @@ function slot0.updataUI(slot0)
 	slot0:changeBg()
 end
 
-function slot0.updataChar(slot0)
+slot0.updataChar = function(slot0)
 	slot0.char.localPosition = slot0.mapCells[slot0.pos].position
 
 	if not isActive(slot0.char) then
@@ -611,7 +611,7 @@ function slot0.updataChar(slot0)
 	end
 end
 
-function slot0.getEffectTf(slot0, slot1, slot2)
+slot0.getEffectTf = function(slot0, slot1, slot2)
 	for slot6 = 1, #uv0 do
 		if uv0[slot6].cell_type == slot1 then
 			slot8 = slot7.name
@@ -627,7 +627,7 @@ function slot0.getEffectTf(slot0, slot1, slot2)
 	return nil
 end
 
-function slot0.checkEffect(slot0, slot1)
+slot0.checkEffect = function(slot0, slot1)
 	if slot0.effectId > 0 then
 		slot3, slot4 = slot0:getActionName(slot0.mapCells[slot0.pos].icon)
 		slot5 = pg.activity_event_monopoly_event[slot0.effectId].story
@@ -688,7 +688,7 @@ function slot0.checkEffect(slot0, slot1)
 	end
 end
 
-function slot0.triggerEfeect(slot0, slot1)
+slot0.triggerEfeect = function(slot0, slot1)
 	slot2 = slot0._event
 
 	slot2:emit(MonopolyWorldScene.ON_TRIGGER, slot0.activity.id, function (slot0, slot1)
@@ -733,7 +733,7 @@ function slot0.triggerEfeect(slot0, slot1)
 	end)
 end
 
-function slot0.changeBg(slot0)
+slot0.changeBg = function(slot0)
 	slot1 = slot0.turnCnt and slot0.turnCnt % 5 + 1 or 1
 
 	for slot5 = 1, 5 do
@@ -749,7 +749,7 @@ function slot0.changeBg(slot0)
 	end
 end
 
-function slot0.toMoveCar(slot0)
+slot0.toMoveCar = function(slot0)
 	if not slot0.targetPosition then
 		return
 	end
@@ -771,7 +771,7 @@ function slot0.toMoveCar(slot0)
 	slot0.char.localPosition = Vector3(slot3.x + slot0.speedX, slot3.y + slot0.speedY, 0)
 end
 
-function slot0.checkPathTurn(slot0, slot1)
+slot0.checkPathTurn = function(slot0, slot1)
 	if slot0.mapCells[slot1 + 1 > #slot0.mapCells and 1 or slot1 + 1].col == slot0.mapCells[slot1 - 1 < 1 and #slot0.mapCells or slot1 - 1].col or slot0.mapCells[slot2].row == slot0.mapCells[slot3].row then
 		return false
 	end
@@ -779,7 +779,7 @@ function slot0.checkPathTurn(slot0, slot1)
 	return true
 end
 
-function slot0.moveCharWithPaths(slot0, slot1, slot2, slot3)
+slot0.moveCharWithPaths = function(slot0, slot1, slot2, slot3)
 	if not slot1 or #slot1 <= 0 then
 		if slot3 then
 			slot3()
@@ -824,7 +824,7 @@ function slot0.moveCharWithPaths(slot0, slot1, slot2, slot3)
 	seriesAsync(slot4, slot3)
 end
 
-function slot0.changeCharAction(slot0, slot1, slot2, slot3)
+slot0.changeCharAction = function(slot0, slot1, slot2, slot3)
 	if slot0.actionName == slot1 and slot0.actionName ~= uv0 then
 		return
 	end
@@ -858,7 +858,7 @@ function slot0.changeCharAction(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.getActionName(slot0, slot1)
+slot0.getActionName = function(slot0, slot1)
 	if slot1 == "icon_1" then
 		return uv0, uv1
 	elseif slot1 == "icon_2" then
@@ -874,7 +874,7 @@ function slot0.getActionName(slot0, slot1)
 	end
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	if slot0.skinCardName and slot0.showModel then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.skinCardName, slot0.showModel)
 	end

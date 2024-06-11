@@ -4,14 +4,14 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 403022,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "드래곤 로드",
 			dir = 1,
+			bgm = "theme-tempest",
+			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "아하하하하…",
-			bgm = "theme-tempest",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -57,11 +57,11 @@ return {
 			}
 		},
 		{
-			actor = 403022,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "드래곤 로드",
 			dir = 1,
+			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "언데드 유령 해적단?",
 			painting = {
@@ -92,11 +92,11 @@ return {
 			}
 		},
 		{
-			actor = 403022,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "드래곤 로드",
 			dir = 1,
+			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "이걸… 어떻게 이기라는 거야…",
 			painting = {
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "그렇게 패배 대사를 남기고, 드래곤 로드는 마력의 조각이 되어 사라졌다.",
 			typewriter = {
@@ -118,17 +118,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "어느새 염옥 호수 전역의 마물들은 해적 군단에 의해 깨끗하게 소탕되어 있었다.",
 			typewriter = {
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "개척과 모험의 신",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			say = "하하하! 아주 속이 시원해지는 싸움이었어!",
 			painting = {
@@ -181,11 +181,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "개척과 모험의 신",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			say = "템페스타, 다들 약속도 지켰으니 슬슬 갈까?",
 			painting = {
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "템페스타 해적단",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			say = "후후, 모험가들… 약속을 지켰으니 우리도 더는 이 세상에 미련이 없어~",
 			painting = {
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "템페스타 해적단",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			say = "이제야 겨우 푹 쉴 수 있겠네.",
 			painting = {
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "템페스타 해적단",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			say = "맞아… 몇백 년이나 혹사당해서… 이젠 녹초야…",
 			painting = {
@@ -285,11 +285,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "프리스트",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아, 마지막으로 기념사진 한 장만 찍자! 자, 다들 Smile~♪",
@@ -323,11 +323,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
-			bgName = "star_level_bg_525",
 			factiontag = "프리스트",
 			dir = 1,
+			bgName = "star_level_bg_525",
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그럼 안녕! 템페스타 해적단이랑 개척과 모험의 신!",
@@ -340,17 +340,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

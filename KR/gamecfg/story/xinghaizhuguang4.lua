@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			bgm = "theme-ucnf-image",
 			sequence = {
@@ -40,20 +40,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "가상 세계 \"미래 NY\" - 테스트 해역",
 			bgm = "theme-aostelab",
+			say = "가상 세계 \"미래 NY\" - 테스트 해역",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
 			say = "앞이 보이자 모두의 눈앞에 다채로운 세계가 나타났다.",
@@ -84,9 +84,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			bgName = "bg_zhedie_2",
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -101,8 +101,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(이건 영화 세트장이다… 현실적인 영화 세트장이다…)",
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(으악… 역시 별의 바다의 스케일이란! 아무래도 30년을 앞선 첨단 기술을 가지고 있다는 소문도 과소평가된 것 같군...)",
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "...라피, 강해진 기분이야… 이건 무슨 장비지?",
 			painting = {
@@ -202,11 +202,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이게 바로… II형 의장? 네비게이터 양이 전에 언급한 신형 테스트 방안인 건가?",
@@ -279,11 +279,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이 질문은 제가 대답해 드리죠.",
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "II형 의장을 제작하려면 막대한 자원은 물론 건조 주기도 매우 길어요.",
@@ -334,11 +334,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "별의 바다의 심장이 생성한 가상 세계에서 시뮬레이션에 참여한 함선 데이터 위에 II형 의장 데이터를 직접 덮어씌우는 원리랍니다.",
@@ -371,11 +371,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "실험 과정의 덮어씌우기는 데이터 계산 수준에서의 작업일 뿐, 시뮬레이션된 II형 의장은 실제 성정 큐브와 연결되어 있지 않으니 안심하셔도 된답니다.",
@@ -408,11 +408,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(이런 정밀도의 시뮬레이션을 진행할 수 있다는 것은 함장 자체의 자료도 이미 상당히 완벽헤서 언제든지 생산에 투입할 수 있다는 것을 뜻해… 별의 바다의 연구 속도는 그야말로 대단해!)",
@@ -462,11 +462,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "네비게이터, 전투 시작은 언제야?",
 			painting = {
@@ -499,27 +499,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_zhedie_2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_zhedie_2",
 			say = "네비게이터의 명령에 따라 머나먼 수평선에서 한 함대가 나타났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -527,8 +527,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
 			say = "그 함대의 함선 모두 프린스턴이 난생 처음 보는 외형을 가지고 있었다.",
@@ -557,8 +557,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -567,11 +567,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "외형상으로는 맞아요. 이 함대 역시 이전 지휘관이 회수한 데이터를 이용해 재현한 거예요.",
@@ -604,11 +604,11 @@ return {
 			}
 		},
 		{
-			actor = 103260,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그 외의 디테일은… 네, 제작은 커녕 전혀 없다고 볼 수 있어요.",
@@ -659,11 +659,11 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
 			bgName = "bg_zhedie_2",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그렇군요…",

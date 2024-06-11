@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KANGKEDE2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KANGKEDE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"シュガリーコンコード\n\n<size=45>二　Let's buffet！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "ある日――",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "ある日――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "オマハ級の三人からスイーツビュッフェに誘われた。",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 102180,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102180,
+			nameColor = "#a9f548",
 			say = "おーい！お店はそこだよー！",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 102010,
+			say = "おお！看板を見ただけでもやる気が湧いてきた！スイーツもおやつのうち！うんうん！",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "おお！看板を見ただけでもやる気が湧いてきた！スイーツもおやつのうち！うんうん！",
+			actor = 102010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -102,8 +102,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -131,8 +131,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "大丈夫よ～ローリーちゃんが食べられない分はこの私に任せて♪",
 			typewriter = {
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 102020,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102020,
+			nameColor = "#a9f548",
 			say = "子供扱いしない！ローリーのほうがカンレキが長いんだからね！",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -189,14 +189,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_104",
 			actor = 102180,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "結構品揃えがいいじゃん♪まずはこのストロベリーサンデーから――",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 102010,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102010,
+			nameColor = "#a9f548",
 			say = "おお！ナポレオンパイもある！いただきま～す！",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -266,10 +266,10 @@ return {
 			expression = 5,
 			side = 0,
 			bgName = "star_level_bg_104",
-			actor = 102180,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "オマハ、この間ダイエットするって言ってなかったっけ？いきなり五人前って大丈夫――",
+			dir = 1,
+			actor = 102180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 102010,
 			side = 1,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102010,
+			nameColor = "#a9f548",
 			say = "す、スイーツは別腹なんだから！美味しいおやつの前ではダイエットの話はなしだ！なーし！",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -326,11 +326,11 @@ return {
 			}
 		},
 		{
-			actor = 102180,
+			dir = 1,
 			side = 0,
 			bgName = "star_level_bg_104",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "コンコードの目の前の空間は大きいのから小さいのまで、スイーツを載せてる数々の皿で完全に埋まってしまっている。",
 			typewriter = {
@@ -362,8 +362,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_104",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "ふっふっふー……糖分でできた私にとって、糖分の補給は日課！",
 			typewriter = {
@@ -376,8 +376,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -389,8 +389,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_104",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "そして日課は続けることが肝心！",
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_104",
-			actor = 102180,
 			dir = 1,
+			actor = 102180,
 			nameColor = "#a9f548",
 			say = "つまり――毎日たくさん食べるしかない！ってことよ♪（ピシッ",
 			typewriter = {

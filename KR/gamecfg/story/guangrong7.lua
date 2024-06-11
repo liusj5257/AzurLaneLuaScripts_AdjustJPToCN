@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"영광스런 간주곡\n\n<size=45>제7장　그녀에게 영광이란 (하)</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			say = "그녀에게 있어, 기댈 수 있는 존재와 승리를 가져다주는 영광이란 무엇보다도 중요한 위치를 차지한다. 하지만……",
+			bgm = "story-1",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			bgm = "story-1",
+			say = "그녀에게 있어, 기댈 수 있는 존재와 승리를 가져다주는 영광이란 무엇보다도 중요한 위치를 차지한다. 하지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "\"그렇지 않아.\"",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#92fc63",
 			say = "……앗……",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -127,9 +127,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "그녀의 손을 잡아당겨, 옆에 앉혔다.",
 			typewriter = {
 				speed = 0.05,
@@ -137,9 +137,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "실은 좀 전에, 몰래 작전회의를 하고 있는 모두에게 회의가 끝나면 도와주러 와달라고 연락을 해두었었다.",
 			typewriter = {
 				speed = 0.05,
@@ -211,9 +211,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "글로리어스의 목소리가 살짝 떨리고 있는 게 느껴진다.",
 			typewriter = {
 				speed = 0.05,
@@ -237,9 +237,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "어깨에는 소녀의 가벼운 체중이 전해졌다. 맞닿은 그녀와 나의 손…우린 가볍게, 그리고 조용히, 살포시 닿은 손을 마주잡았다.",
 			typewriter = {
 				speed = 0.05,

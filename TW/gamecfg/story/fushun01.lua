@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSHUN01",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FUSHUN01",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"撫順的大冒險\n\n<size=45>一　舊倉庫的尋寶之旅</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "這裡就是長春說的舊倉庫嗎，嘿嘿，一定能找到好玩的東西！",
 			dir = 1,
 			blackBg = true,
 			bgm = "story-china",
+			actor = 501020,
+			nameColor = "#a9f548",
+			say = "這裡就是長春說的舊倉庫嗎，嘿嘿，一定能找到好玩的東西！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 501040,
+			say = "嗚…沒經過允許就偷偷跑進來真的沒關係嗎…",
 			side = 1,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "嗚…沒經過允許就偷偷跑進來真的沒關係嗎…",
+			actor = 501040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -166,15 +166,15 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "咳咳…灰塵真多啊…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -199,12 +199,12 @@ return {
 			}
 		},
 		{
-			actor = 501040,
+			say = "咳咳咳…有好多看起來很難懂的書呢…",
 			side = 1,
-			nameColor = "#a9f548",
 			dir = -1,
 			blackBg = true,
-			say = "咳咳咳…有好多看起來很難懂的書呢…",
+			actor = 501040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

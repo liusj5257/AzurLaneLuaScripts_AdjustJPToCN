@@ -1,6 +1,6 @@
 slot0 = class("ConsumeItemCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if slot1:getBody().type == DROP_TYPE_RESOURCE then
 		slot3 = id2res(slot2.id)
 

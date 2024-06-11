@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "对塞壬加成",
 	time = 0,
-	color = "red",
+	name = "对塞壬加成",
+	init_effect = "",
+	id = 19002,
 	picture = "",
 	desc = "对塞壬伤害提高15%",
 	stack = 1,
-	id = 19002,
+	color = "red",
 	icon = 19000,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				group = 19000,
-				attr = "DMG_TAG_EHC_N_99",
-				number = 0.15
+				number = 0.15,
+				attr = "DMG_TAG_EHC_N_99"
 			}
 		}
 	}

@@ -1,15 +1,15 @@
 return {
-	id = "WORLD204A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD204A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-french1",
 			say = "NA Ocean Core Sector Outskirts - Royal Navy Main Fleet",
+			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,10 +20,10 @@ return {
 			}
 		},
 		{
+			say = "KABOOOOM!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "KABOOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "Heheh! Well done, Hood, Warspite! Wee've managed to beat the Eagle Union here!",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "Thank you, Your Majesty. How fares your business?",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "We did run into some problems, but... the ceasefire agreement was still signed. The squabbling between factions shouldn't follow us into the NA Ocean.",
 			typewriter = {
 				speed = 0.05,
@@ -236,9 +236,9 @@ return {
 		{
 			paintingNoise = false,
 			side = 2,
+			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Splendid! I am most pleased to hear the good news. We'll also be able to call for reinforcements from the Capital.",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,8 +263,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "Indeed. Not having to worry about an Iron Blood attack allows us to consolidate our forces.",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "Having that said, I also don't want the Iron Blood fleet running around freely either. The negotiations almost got torpedoed because of the Tirpitz incident...~",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205020,
 			dir = 1,
+			actor = 205020,
 			say = "But Your Majesty still managed to overcome these challenges! A magnificent job indeed!",
 			typewriter = {
 				speed = 0.05,
@@ -310,9 +310,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Hehe, speak nothing of it! A true queen must move first so that her subordinates may follow!",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -337,8 +337,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "More importantly, the Crimson Axis seems serious about participating in Operation Siren.",
 			typewriter = {
 				speed = 0.05,
@@ -353,8 +353,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "Regarding the Sakura Empire’s fleet... Akagi herself is here. I'll have Sheffield send you the details later.",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "Where’s Prince of Wales though?",
 			typewriter = {
 				speed = 0.05,
@@ -385,8 +385,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "We received a distress signal from an independent Eagle Union research fleet. Wales assembled a rescue team and is now escorting the members of that fleet back to the Capital.",
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "Research fleet...? Hm...",
 			typewriter = {
 				speed = 0.05,
@@ -417,8 +417,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205020,
 			dir = 1,
+			actor = 205020,
 			say = "Is something amiss, Your Majesty?",
 			typewriter = {
 				speed = 0.05,
@@ -433,8 +433,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "No, but I am curious... What do you think of making such a small force act independently when there’s such a large-scale operation in progress?",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "Just think about that for now. Anyway, you'll hear more from me later.",
 			typewriter = {
 				speed = 0.05,
@@ -465,8 +465,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "Something seems to have upset Her Majesty...",
 			typewriter = {
 				speed = 0.05,

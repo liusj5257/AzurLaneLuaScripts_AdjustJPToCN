@@ -3,11 +3,11 @@ slot0.ON_OPEN_DOCK = "ActivityFleetPanel:ON_OPEN_DOCK"
 slot0.ON_FLEET_RECOMMEND = "ActivityFleetPanel:ON_FLEET_RECOMMEND"
 slot0.ON_FLEET_CLEAR = "ActivityFleetPanel:ON_FLEET_CLEAR"
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 end
 
-function slot0.set(slot0, slot1, slot2)
+slot0.set = function(slot0, slot1, slot2)
 	slot0.groupNum = slot1
 	slot0.submarineNum = slot2
 
@@ -55,7 +55,7 @@ function slot0.set(slot0, slot1, slot2)
 	slot0:updateFleets()
 end
 
-function slot0.getLimitNums(slot0, slot1)
+slot0.getLimitNums = function(slot0, slot1)
 	slot2 = 0
 
 	if slot1 == FleetType.Normal then
@@ -67,7 +67,7 @@ function slot0.getLimitNums(slot0, slot1)
 	return slot2
 end
 
-function slot0.updateFleets(slot0)
+slot0.updateFleets = function(slot0)
 	for slot4, slot5 in pairs(slot0.tfFleets) do
 		for slot9 = 1, #slot5 do
 			slot0:updateFleet(slot4, slot9)
@@ -75,10 +75,10 @@ function slot0.updateFleets(slot0)
 	end
 end
 
-function slot0.updateLimit(slot0)
+slot0.updateLimit = function(slot0)
 end
 
-function slot0.updateCommanderBtn(slot0, slot1, slot2)
+slot0.updateCommanderBtn = function(slot0, slot1, slot2)
 	slot3 = slot2 <= slot0:getLimitNums(slot1)
 	slot4 = slot0.fleets[slot1][slot2]
 	slot5 = slot0.tfFleets[slot1][slot2]
@@ -90,7 +90,7 @@ function slot0.updateCommanderBtn(slot0, slot1, slot2)
 	setActive(slot0:findTF("commander", slot5), slot0.parent.contextData.showCommander and slot3 and slot4)
 end
 
-function slot0.updateFleet(slot0, slot1, slot2)
+slot0.updateFleet = function(slot0, slot1, slot2)
 	slot0:updateCommanderBtn(slot1, slot2)
 
 	slot3 = slot0.fleets[slot1][slot2]
@@ -142,7 +142,7 @@ function slot0.updateFleet(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateCommanders(slot0, slot1, slot2)
+slot0.updateCommanders = function(slot0, slot1, slot2)
 	for slot6 = 1, 2 do
 		slot7 = slot2:getCommanderByPos(slot6)
 		slot8 = slot1:Find("pos" .. slot6)
@@ -164,7 +164,7 @@ function slot0.updateCommanders(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateShips(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.updateShips = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = UIItemList.New(slot1, slot0.tfShipTpl)
 
 	slot6:make(function (slot0, slot1, slot2)
@@ -182,7 +182,7 @@ function slot0.updateShips(slot0, slot1, slot2, slot3, slot4, slot5)
 
 			slot5 = GetOrAddComponent(slot2, typeof(UILongPressTrigger))
 
-			function slot6()
+			slot6 = function()
 				uv0.onCancel()
 				uv0.parent:emit(uv1.ON_OPEN_DOCK, {
 					shipType = 0,
@@ -213,7 +213,7 @@ function slot0.updateShips(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6:align(3)
 end
 
-function slot0.showToggleMask(slot0, slot1, slot2)
+slot0.showToggleMask = function(slot0, slot1, slot2)
 	setActive(slot0.toggleMask, true)
 
 	slot3 = _.filter(slot0.fleets, function (slot0)
@@ -249,11 +249,11 @@ function slot0.showToggleMask(slot0, slot1, slot2)
 	end
 end
 
-function slot0.hideToggleMask(slot0)
+slot0.hideToggleMask = function(slot0)
 	setActive(slot0.toggleMask, false)
 end
 
-function slot0.setFleets(slot0, slot1)
+slot0.setFleets = function(slot0, slot1)
 	slot0.fleets = {
 		[FleetType.Normal] = {},
 		[FleetType.Submarine] = {}
@@ -268,7 +268,7 @@ function slot0.setFleets(slot0, slot1)
 	end
 end
 
-function slot0.clearFleets(slot0)
+slot0.clearFleets = function(slot0)
 	for slot4, slot5 in pairs(slot0.tfFleets) do
 		_.each(slot5, function (slot0)
 			uv0:clearFleet(slot0)
@@ -276,7 +276,7 @@ function slot0.clearFleets(slot0)
 	end
 end
 
-function slot0.clearFleet(slot0, slot1)
+slot0.clearFleet = function(slot0, slot1)
 	slot3 = slot0:findTF(TeamType.Vanguard, slot1)
 	slot4 = slot0:findTF(TeamType.Submarine, slot1)
 
@@ -293,7 +293,7 @@ function slot0.clearFleet(slot0, slot1)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	triggerToggle(slot0.commanderBtn, false)
 end
 

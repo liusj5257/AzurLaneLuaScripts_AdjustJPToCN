@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN37",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN37",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg16",
+			nameColor = "#A9F548FF",
+			bgm = "theme-shinanometa",
 			stopbgm = true,
 			say = "大棋盤·中心區域",
-			bgm = "theme-shinanometa",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "神通，觀測的結果如何？",
 			painting = {
@@ -92,8 +92,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "看起來是成功了……不過這種事真的就能這麼順利嗎？",
 			painting = {
@@ -121,8 +121,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "但是經過處理的只有元魔方……承受著如此強烈的能量流動，構成赤城「基礎」的魔方會怎麼樣？",
 			painting = {
@@ -174,8 +174,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "也就是說這項技術的本質，並不是將META化變的無害，而只是盡可能延長META化艦船的使用期限罷了……",
 			painting = {
@@ -203,8 +203,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "妳自己是如何META化的？",
 			painting = {
@@ -232,8 +232,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "妳這麼差的身體也和這個\"中間過程\"有關？",
 			painting = {
@@ -273,8 +273,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "妳一直都在強調決戰兵器的用處。",
 			painting = {
@@ -290,8 +290,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "可是之前妳們有決戰兵器，為什麼也打輸了？",
 			painting = {
@@ -343,8 +343,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "……妳的話語中有一種令人熟悉又讓人安心的氣息。",
 			painting = {
@@ -360,8 +360,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "這實在是太危險了。你的目的究竟是什麼，為什麼要來幫我？",
 			painting = {

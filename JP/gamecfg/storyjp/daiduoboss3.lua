@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAIDUOBOSS3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAIDUOBOSS3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"戦え！ロイヤルメイド2nd\n\n<size=45>三　姉妹の防衛線</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202220,
-			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "姉さん、こっちはまだ戦えます！ロイヤルメイド隊の底力を――",
 			bgm = "battle-boss-5",
+			actor = 202220,
+			nameColor = "#a9f548",
+			say = "姉さん、こっちはまだ戦えます！ロイヤルメイド隊の底力を――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202210,
 			dir = 1,
+			actor = 202210,
 			nameColor = "#a9f548",
 			say = "はーいそこまで♪ダイドーたちもこの防衛線の死守にこだわっているわけではないし、ここは戦力温存といきましょう？",
 			typewriter = {
@@ -119,9 +119,9 @@ return {
 		{
 			actor = 202120,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "すみませんね。いきなりこんな大役を押し付けてしまって",
 			flashout = {
 				dur = 0.25,
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "いいえ、むしろ私のほうからメイド長に感謝したいほどです",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 202040,
 			dir = 1,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "この母港ではまだ新参者である私が、こうしてご主人様と艦隊のみんなのために役に立てるなんて、本当に光栄至極に思います",
 			typewriter = {
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 202040,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202040,
+			nameColor = "#a9f548",
 			say = "はい…………",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -248,9 +248,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_story_nepu2",
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
+			bgName = "bg_story_nepu2",
 			actor = 202040,
 			nameColor = "#a9f548",
 			say = "なんか、期待されちゃっていますね……",
@@ -288,9 +288,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 202040,
 			dir = 1,
 			blackBg = true,
+			actor = 202040,
 			nameColor = "#a9f548",
 			say = "………でもやっぱり、ダイドーは……",
 			typewriter = {

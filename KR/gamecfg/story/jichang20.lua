@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG20",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "모항・공연장",
 			side = 2,
 			bgName = "bg_jichang_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "song08",
+			say = "모항・공연장",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -99,8 +99,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 206035,
 			dir = 1,
+			actor = 206035,
 			nameColor = "#a9f548",
 			say = "유니콘… 일러스트리어스 언니를 응원할 거야…!",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 201234,
 			dir = 1,
+			actor = 201234,
 			nameColor = "#a9f548",
 			say = "좋아~ 나도 일러스트리어스의 춤을 가까이에서 보고 싶거든♪",
 			typewriter = {
@@ -130,15 +130,15 @@ return {
 			}
 		},
 		{
-			actor = 401463,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401463,
+			nameColor = "#a9f548",
 			say = "친구와 연락이 닿았어. 다음 전장으로 들어가자—— 「무대」라는 전장으로.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -198,8 +198,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 401360,
 			dir = 1,
+			actor = 401360,
 			nameColor = "#a9f548",
 			say = "미안해, 미안해! Z23에게 잡혔어……",
 			typewriter = {
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 401463,
 			dir = 1,
+			actor = 401463,
 			nameColor = "#a9f548",
 			say = "마안 사용자가 마안의 매력에 오히려 매혹되다니?!",
 			typewriter = {
@@ -232,8 +232,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 401360,
 			dir = 1,
+			actor = 401360,
 			nameColor = "#a9f548",
 			say = "에?",
 			typewriter = {
@@ -246,15 +246,15 @@ return {
 			}
 		},
 		{
-			actor = 801010,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 801010,
+			nameColor = "#a9f548",
 			say = "여왕 폐하의 호의에 감사드립니다. 그리고 워스파이트, 이번 일을 도와줘서 정말 고마워요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,8 +282,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 205022,
 			dir = 1,
+			actor = 205022,
 			nameColor = "#a9f548",
 			say = "천만에. 하지만 르 말랭이 다시 무대로 올라갈 줄은 몰랐네.",
 			typewriter = {
@@ -299,8 +299,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 903020,
 			dir = 1,
+			actor = 903020,
 			nameColor = "#a9f548",
 			say = "후후, 그 아이는 지켜야 할 것은 잘 지키니까.",
 			typewriter = {
@@ -345,15 +345,15 @@ return {
 			}
 		},
 		{
-			actor = 201099,
 			side = 2,
 			bgName = "bg_jichang_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201099,
+			nameColor = "#a9f548",
 			say = "아… 모두 대단한 의상이네요, 하지만 우리는……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -445,8 +445,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jichang_1",
-			actor = 101264,
 			dir = 1,
+			actor = 101264,
 			nameColor = "#a9f548",
 			say = "코멧 일행의 의상도, 귀여워……",
 			typewriter = {
@@ -475,15 +475,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_jichang_5",
-			actorName = "타슈켄트(μ장비)",
 			dir = 1,
+			nameColor = "#a9f548",
+			actorName = "타슈켄트(μ장비)",
 			say = "모두 모인 것 같네……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -508,8 +508,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "알바코어(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "론(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -540,8 +540,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "다이호(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -556,8 +556,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "론(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일러스트리어스(μ장비)",
+			side = 2,
 			bgName = "bg_jichang_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -588,12 +588,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "모두",
+			side = 2,
 			bgName = "bg_jichang_5",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "응!!",
 			dialogShake = {
 				speed = 0.09,

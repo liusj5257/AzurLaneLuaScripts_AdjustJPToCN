@@ -3,11 +3,11 @@ slot0.PAGE_MEMORTY = 1
 slot0.PAGE_FILE = 2
 slot0.PAGE_RECORD = 3
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldMediaCollectionUI"
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	slot0.contextData.revertBgm = nil
 
 	if slot0.contextData.revertBgm then
@@ -17,7 +17,7 @@ function slot0.getBGM(slot0)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.top = slot0._tf:Find("Top")
 	slot0.viewContainer = slot0._tf:Find("Main")
 	slot0.subViews = {}
@@ -29,11 +29,11 @@ slot1 = {
 	import(".WorldMediaCollectionFileLayer")
 }
 
-function slot0.GetCurrentPage(slot0)
+slot0.GetCurrentPage = function(slot0)
 	return slot0.contextData.page and slot0.subViews[slot0.contextData.page]
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.top, {
 		groupName = LayerWeightConst.GROUP_COLLECTION
 	})
@@ -50,7 +50,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.EnterPage(slot0, slot1)
+slot0.EnterPage = function(slot0, slot1)
 	slot2 = slot1 == slot0.contextData.page
 
 	if not slot0.subViews[slot1] then
@@ -77,7 +77,7 @@ function slot0.EnterPage(slot0, slot1)
 	end
 end
 
-function slot0.Backward(slot0)
+slot0.Backward = function(slot0)
 	if slot0.subViews[slot0.contextData.page] and slot1:OnBackward() then
 		return slot2
 	end
@@ -85,25 +85,25 @@ function slot0.Backward(slot0)
 	slot0:closeView()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:Backward()
 end
 
-function slot0.Add2LayerContainer(slot0, slot1)
+slot0.Add2LayerContainer = function(slot0, slot1)
 	setParent(slot1, slot0.viewContainer)
 end
 
-function slot0.Add2TopContainer(slot0, slot1)
+slot0.Add2TopContainer = function(slot0, slot1)
 	setParent(slot1, slot0.top)
 end
 
-function slot0.WorldRecordLock()
+slot0.WorldRecordLock = function()
 	return LOCK_WORLD_COLLECTION or not (function ()
 		return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "WorldMediaCollectionRecordMediator")
 	end)()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	if not slot0.subViews[slot0.contextData.page] then
 		return
 	end
@@ -111,7 +111,7 @@ function slot0.UpdateView(slot0)
 	slot1.buffer:UpdateView()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0:GetCurrentPage() then
 		slot1.buffer:Hide()
 	end

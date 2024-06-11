@@ -1,6 +1,6 @@
 slot0 = class("FeastOpCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.activityId
 	slot5 = slot2.arg1 or 0
@@ -101,7 +101,7 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-function slot0.CheckRes(slot0, slot1, slot2)
+slot0.CheckRes = function(slot0, slot1, slot2)
 	slot4 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG)
 	slot5 = 0
 	slot6 = 1
@@ -120,7 +120,7 @@ function slot0.CheckRes(slot0, slot1, slot2)
 	end
 end
 
-function slot0.HandleInteraction(slot0, slot1, slot2, slot3, slot4)
+slot0.HandleInteraction = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = getProxy(FeastProxy):getRawData():GetFeastShip(slot1)
 	slot6.speechBubble = slot3
 	slot7 = ""
@@ -139,7 +139,7 @@ function slot0.HandleInteraction(slot0, slot1, slot2, slot3, slot4)
 	})
 end
 
-function slot0.HandleMakeTicket(slot0, slot1)
+slot0.HandleMakeTicket = function(slot0, slot1)
 	slot3 = getProxy(FeastProxy):getRawData():GetInvitedFeastShip(slot1)
 	slot4 = slot3:GetTicketConsume()
 	slot5 = getProxy(ActivityProxy)
@@ -156,7 +156,7 @@ function slot0.HandleMakeTicket(slot0, slot1)
 	})
 end
 
-function slot0.HandleGiveTicket(slot0, slot1, slot2, slot3)
+slot0.HandleGiveTicket = function(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(FeastProxy):getRawData()
 	slot5 = slot4:GetInvitedFeastShip(slot1)
 
@@ -178,7 +178,7 @@ function slot0.HandleGiveTicket(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.HandleGiveGift(slot0, slot1, slot2)
+slot0.HandleGiveGift = function(slot0, slot1, slot2)
 	slot4 = getProxy(FeastProxy):getRawData():GetInvitedFeastShip(slot1)
 	slot5 = slot4:GetGiftConsume()
 	slot6 = getProxy(ActivityProxy)

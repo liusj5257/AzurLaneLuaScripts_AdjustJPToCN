@@ -1,7 +1,7 @@
 return {
-	init_effect = "Darkness",
-	name = "测试-海伦娜-标记",
 	time = 10,
+	name = "测试-海伦娜-标记",
+	init_effect = "Darkness",
 	picture = "",
 	desc = "舰队之眼-标记",
 	stack = 1,
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				group = 60015,
-				attr = "injureRatio",
-				number = 0.5
+				number = 0.5,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				group = 60015,
-				attr = "injureRatioByShipID_109",
-				number = 0.333
+				number = 0.333,
+				attr = "injureRatioByShipID_109"
 			}
 		},
 		{

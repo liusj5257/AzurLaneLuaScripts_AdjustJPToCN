@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
-			say = "The tall and black castle wall is drawing nearer.",
 			bgm = "theme-shallowoftheworld",
+			say = "The tall and black castle wall is drawing nearer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			say = "Our party has finally reached the end of its journey – the Demon King's castle.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			say = "The vampire hunters got here first and have been waiting for us, just as they promised.",
 			typewriter = {
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
 			say = "There is a third person, too. Someone I wasn't expecting.",
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Greetings from the goddess of steel and dragons, fearless adventurers.",
 			painting = {
 				alpha = 0.3,
@@ -83,10 +83,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 403140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I heard you were attacking the Demon King's castle, so I came to support you as a representative of my church.",
 			painting = {
 				alpha = 0.3,
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actor = 403140,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403140,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "These castle doors are thick. The divine machine I brought will take care of them.",
 			painting = {
 				alpha = 0.3,
@@ -115,28 +115,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_chuansong",
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
 			say = "The giant steel dragon breathes a furious flame, cutting through the multilayered defensive spells on the gates like a knife through butter.",
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
 			say = "After the brave and dextrous vampire hunters breach the castle's frontal defenses, they lead us right to the Demon King's throneroom.",
@@ -205,27 +205,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "Demon King's Castle - Throneroom",
 			bgm = "theme-vichy-church",
+			say = "Demon King's Castle - Throneroom",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -233,11 +233,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Wretched demon! I have come to end you! Oh, and my party's here, too.",
@@ -345,11 +345,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Demon King",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "headtouch",
 			say = "Then I will give you what you desire – the sweet release of death!",
@@ -394,11 +394,11 @@ return {
 			}
 		},
 		{
-			actor = 203131,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Demon King",
 			dir = 1,
+			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "It's my job as the Demon King to wait upon my throne for you heroes to come straight to me.",
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "She's right, you know! That's what they always do!",
@@ -496,17 +496,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -514,13 +514,13 @@ return {
 			}
 		},
 		{
-			actorName = "Liverpool",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_mmorpg_cg4",
 			factiontag = "Cleric",
 			dir = 1,
 			soundeffect = "event:/ui/kuaimen",
-			nameColor = "#A9F548FF",
+			actorName = "Liverpool",
 			hidePaintObj = true,
 			say = "Here we go! Our final confrontation with the Demon King is starting!",
 			painting = {

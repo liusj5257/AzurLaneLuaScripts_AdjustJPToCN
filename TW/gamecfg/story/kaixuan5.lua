@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"騎士公主的憂鬱\n\n<size=45>五 心聲</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "一邊走一邊聽凱旋說了起來",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "一邊走一邊聽凱旋說了起來",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -206,9 +206,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "凱旋臉上露出十分悲傷的表情",
 			typewriter = {
 				speed = 0.05,

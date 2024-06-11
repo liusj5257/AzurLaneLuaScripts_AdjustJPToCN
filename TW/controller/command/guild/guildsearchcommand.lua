@@ -1,6 +1,6 @@
 slot0 = class("GuildSearchCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if not slot1:getBody() or slot2 == "" then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_should_input_keyword"))
 

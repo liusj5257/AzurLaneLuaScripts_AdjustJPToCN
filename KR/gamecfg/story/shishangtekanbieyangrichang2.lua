@@ -7,8 +7,8 @@ return {
 	},
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"모항 패션 컬렉션: 색다른 일상\n\n<size=45>2 브릴리언트 터치다운</size>",
@@ -17,28 +17,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_112",
+			bgm = "story-richang-11",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하프타임을 알리는 호각이 울리자마자, 방금 막 골을 넣은 프린츠 오이겐에게 서둘러 달려갔다.",
-			bgm = "story-richang-11",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -77,13 +77,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_112",
 			spine = true,
 			hideRecordIco = true,
 			actor = 403036,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――고생 많았어. 그럼 후반전 작전을 좀 짜볼까?",
 			typewriter = {
@@ -179,13 +179,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_112",
 			spine = true,
 			hideRecordIco = true,
 			actor = 403036,
-			actorName = "{playername}",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "――\"직접적인 도움\"?",
 			typewriter = {
@@ -435,9 +435,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_112",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_112",
 			hideRecordIco = true,
 			actor = 403036,
 			nameColor = "#A9F548FF",
@@ -448,17 +448,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -519,11 +519,11 @@ return {
 			}
 		},
 		{
-			actor = 403036,
 			side = 2,
 			bgName = "star_level_bg_112",
 			spine = true,
 			dir = 1,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "지휘관도 목말라?",
@@ -686,9 +686,9 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_112",
 			spine = true,
 			withoutActorName = true,
+			bgName = "star_level_bg_112",
 			hideRecordIco = true,
 			actor = 403036,
 			nameColor = "#A9F548FF",
@@ -699,17 +699,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -736,11 +736,11 @@ return {
 			}
 		},
 		{
-			actor = 403036,
 			side = 2,
 			bgName = "star_level_bg_112",
 			spine = true,
 			dir = 1,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "응? 후후후, 얼굴을 보니 벌써 \"후반전\"이 기대되는 모양이네?",

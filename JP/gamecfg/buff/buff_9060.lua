@@ -1,12 +1,12 @@
 return {
-	time = 10,
 	name = "火力全开-LV8",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 9060,
+	time = 10,
 	picture = "",
 	desc = "炮击伤害提高",
 	stack = 1,
-	id = 9060,
+	color = "red",
 	icon = 9060,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 3540
+				number = 3540,
+				attr = "cannonPower"
 			}
 		}
 	}

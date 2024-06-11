@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG04",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG04",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -131,11 +131,11 @@ return {
 			}
 		},
 		{
-			actor = 201260,
 			nameColor = "#92fc63",
 			side = 0,
-			hideOther = true,
+			actor = 201260,
 			dir = 1,
+			hideOther = true,
 			actorName = "매치리스&머스킷티어",
 			say = "라져! / 네!",
 			subActors = {

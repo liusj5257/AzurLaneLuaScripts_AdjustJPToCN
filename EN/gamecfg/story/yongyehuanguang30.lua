@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG30",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 206060,
-			side = 2,
 			bgName = "bg_hms_9",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "Finally... That was too close for comfort...",
 			bgm = "bgm-royalnavy",
+			actor = 206060,
+			nameColor = "#a9f548",
+			say = "Finally... That was too close for comfort...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "If this is what the Northern Parliament is dealing with, no wonder they're having problems. It's insane that those Sirens are so powerful without a humanoid leader.",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "Thankfully. If their entire fleet is this powerful... I shudder just thinking about it.",
 			typewriter = {
@@ -135,8 +135,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "Vampire, Sheffy, we need to join up with the escort fleet as quickly as possible.",
 			typewriter = {
@@ -168,8 +168,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_9",
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			nameColor = "#a9f548",
 			say = "It's decided then. Sheffy, let's pick up the pace!",
 			typewriter = {
@@ -230,12 +230,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_hms_9",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "(Whatever the reason, I must warn Her Majesty as soon as possible...)",
 			typewriter = {
 				speed = 0.05,

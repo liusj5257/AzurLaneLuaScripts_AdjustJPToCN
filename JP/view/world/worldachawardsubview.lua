@@ -1,14 +1,14 @@
 slot0 = class("WorldAchAwardSubview", import("view.base.BaseSubView"))
 slot0.ShowDrop = "WorldAchAwardSubview.ShowDrop"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldAchAwardSubview"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot0.textTitle = slot1:Find("title/Text")
 	slot1 = slot0._tf
@@ -53,24 +53,24 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	setActive(slot0._tf, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	setActive(slot0._tf, false)
 end
 
-function slot0.isShowing(slot0)
+slot0.isShowing = function(slot0)
 	return slot0._tf and isActive(slot0._tf)
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.awards = slot1:GetAchievementAwards()
 	slot0.hasAward, slot3 = nowWorld():AnyUnachievedAchievement(slot1)
 	slot0.nextStar = slot3 and slot3.star or nil

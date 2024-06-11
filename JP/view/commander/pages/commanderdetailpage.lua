@@ -1,15 +1,15 @@
 slot0 = class("CommanderDetailPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderDetailUI"
 end
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	uv0.super.Ctor(slot0, slot1, slot2, slot3)
 	slot0:Load()
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	slot0:bind(CommanderCatScene.EVENT_CLOSE_DESC, function (slot0)
 		triggerToggle(uv0.skillBtn, false)
 		triggerToggle(uv0.additionBtn, false)
@@ -46,7 +46,7 @@ function slot0.RegisterEvent(slot0)
 	end)
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.statement = slot0:findTF("detail/statement")
 	slot0.statement.localScale = Vector3(1, 0, 1)
 	slot0.talentSkill = slot0:findTF("detail/talent_skill")
@@ -92,7 +92,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("detail/statement/talents/title/Text"), i18n("commander_subtile_talent"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:RegisterEvent()
 
 	slot0.isOnAddition = false
@@ -137,7 +137,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.commanderVO = slot1
 
 	slot0:UpdateInfo()
@@ -153,14 +153,14 @@ function slot0.Update(slot0, slot1, slot2)
 	slot0:Show()
 end
 
-function slot0.UpdateLockState(slot0)
+slot0.UpdateLockState = function(slot0)
 	setActive(slot0.lockTF:Find("image"), slot0.commanderVO:getLock() == 0)
 	onButton(slot0, slot0.lockTF, function ()
 		uv1:emit(CommanderCatMediator.LOCK, uv1.commanderVO.id, 1 - uv0)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateStyle(slot0, slot1)
+slot0.UpdateStyle = function(slot0, slot1)
 	if slot1 then
 		triggerToggle(slot0.skillBtn, true)
 		triggerToggle(slot0.additionBtn, true)
@@ -170,7 +170,7 @@ function slot0.UpdateStyle(slot0, slot1)
 	setButtonEnabled(slot0.modifyNameBtn, not slot1)
 end
 
-function slot0.UpdateInfo(slot0)
+slot0.UpdateInfo = function(slot0)
 	if slot0.rarityPrint ~= Commander.rarity2Print(slot0.commanderVO:getRarity()) then
 		LoadImageSpriteAsync("CommanderRarity/" .. slot2, slot0.rarityImg, true)
 
@@ -191,20 +191,20 @@ function slot0.UpdateInfo(slot0)
 	slot0.commanderNameTxt:SetText(slot0.commanderVO:getName(defaultValue(slot0.forceDefaultName, false)))
 end
 
-function slot0.OnSort(slot0, slot1)
+slot0.OnSort = function(slot0, slot1)
 	slot3 = not slot1
 	slot0.forceDefaultName = slot3
 
 	slot0.commanderNameTxt:SetText(slot0.commanderVO:getName(slot3))
 end
 
-function slot0.UpdatePreView(slot0, slot1)
+slot0.UpdatePreView = function(slot0, slot1)
 	slot0:UpdateAbilitys(slot1)
 	slot0:UpdatePreviewAddition(slot1)
 	slot0:UpdateLevel(slot1)
 end
 
-function slot0.UpdatePreViewWithOther(slot0, slot1)
+slot0.UpdatePreViewWithOther = function(slot0, slot1)
 	if not slot1 or #slot1 <= 0 then
 		return
 	end
@@ -217,12 +217,12 @@ function slot0.UpdatePreViewWithOther(slot0, slot1)
 	slot0:UpdateAbilitys(slot2)
 end
 
-function slot0.UpdatePreviewAddition(slot0, slot1)
+slot0.UpdatePreviewAddition = function(slot0, slot1)
 	slot0:UpdateAbilityAddition(slot1)
 	slot0:UpdateTalentAddition()
 end
 
-function slot0.UpdateOtherCommander(slot0, slot1)
+slot0.UpdateOtherCommander = function(slot0, slot1)
 	slot0.otherCommanderNameTxt.text = slot1:getName()
 	slot4 = slot1:GetDisplayTalents()
 
@@ -254,7 +254,7 @@ function slot0.UpdateOtherCommander(slot0, slot1)
 	slot0.otherCommanderTalentList:align(5)
 end
 
-function slot0.UpdateLevel(slot0, slot1)
+slot0.UpdateLevel = function(slot0, slot1)
 	slot2 = slot1 or slot0.commanderVO
 	slot0.commanderLevelTxt.text = setColorStr("LV." .. slot2.level, slot1 and slot0.commanderVO.level < slot1.level and COLOR_GREEN or COLOR_WHITE)
 
@@ -265,7 +265,7 @@ function slot0.UpdateLevel(slot0, slot1)
 	end
 end
 
-function slot0.UpdateAbilitys(slot0, slot1)
+slot0.UpdateAbilitys = function(slot0, slot1)
 	slot3 = slot0.commanderVO:getAbilitys()
 	slot4 = nil
 
@@ -286,7 +286,7 @@ function slot0.UpdateAbilitys(slot0, slot1)
 	end
 end
 
-function slot0.UpdateAbilityAddition(slot0, slot1)
+slot0.UpdateAbilityAddition = function(slot0, slot1)
 	slot3 = slot0.commanderVO:getAbilitysAddition()
 	slot4 = nil
 
@@ -317,7 +317,7 @@ function slot0.UpdateAbilityAddition(slot0, slot1)
 	end
 end
 
-function slot0.UpdateTalents(slot0)
+slot0.UpdateTalents = function(slot0)
 	slot0.talentList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv1:UpdateTalent(uv2, uv0[slot1 + 1], slot2)
@@ -326,7 +326,7 @@ function slot0.UpdateTalents(slot0)
 	slot0.talentList:align(#slot0.commanderVO:GetDisplayTalents())
 end
 
-function slot0.UpdateTalent(slot0, slot1, slot2, slot3)
+slot0.UpdateTalent = function(slot0, slot1, slot2, slot3)
 	setText(slot3:Find("Text"), slot2:getConfig("name"))
 	GetImageSpriteFromAtlasAsync("CommanderTalentIcon/" .. slot2:getConfig("icon"), "", slot3)
 
@@ -339,7 +339,7 @@ function slot0.UpdateTalent(slot0, slot1, slot2, slot3)
 	setActive(slot3:Find("lock"), not slot1:IsLearnedTalent(slot2.id))
 end
 
-function slot0.UpdateTalentAddition(slot0)
+slot0.UpdateTalentAddition = function(slot0)
 	slot2 = nil
 
 	slot0.talentAdditionList:make(function (slot0, slot1, slot2)
@@ -357,7 +357,7 @@ function slot0.UpdateTalentAddition(slot0)
 	slot0.talentAdditionList:align(#_.values(slot0.commanderVO:getTalentsDesc()))
 end
 
-function slot0.UpdateSkills(slot0)
+slot0.UpdateSkills = function(slot0)
 	slot1 = slot0.commanderVO
 	slot3 = slot1:getSkills()[1]
 
@@ -367,7 +367,7 @@ function slot0.UpdateSkills(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.CanBack(slot0)
+slot0.CanBack = function(slot0)
 	if slot0.renamePanel and slot0.renamePanel:GetLoaded() and slot0.renamePanel:isShowing() then
 		slot0.renamePanel:Hide()
 
@@ -377,7 +377,7 @@ function slot0.CanBack(slot0)
 	return true
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.isBlur then
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.blurPanel, slot0.blurPanelParent)
 	end
@@ -389,7 +389,7 @@ function slot0.OnDestroy(slot0)
 	end
 end
 
-function slot0.Blur(slot0)
+slot0.Blur = function(slot0)
 	if slot0.isOnAddition or slot0.isOnSkill or slot0.isOnOther then
 		slot0.isBlur = true
 

@@ -51,11 +51,11 @@ slot0.WALK_SE = "event:/ui/castle_walk"
 slot0.ROLL_SE = "event:/ui/caslte_roll"
 slot0.CARD_SE = "event:/ui/huihua1"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CastleMainUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:InitData()
 	slot0:InitTF()
 	slot0:InitAward()
@@ -64,7 +64,7 @@ function slot0.init(slot0)
 	slot0:InitVX()
 end
 
-function slot0.InitTF(slot0)
+slot0.InitTF = function(slot0)
 	slot0.main = slot0:findTF("main")
 	slot0.map = slot0:findTF("map", slot0.main)
 	slot0.floors = {
@@ -87,7 +87,7 @@ function slot0.InitTF(slot0)
 	slot0.window = slot0:findTF("window")
 end
 
-function slot0.InitData(slot0)
+slot0.InitData = function(slot0)
 	slot0.storyMgr = pg.NewStoryMgr.GetInstance()
 	slot0.activity = getProxy(ActivityProxy):getActivityById(uv0.ACT_ID)
 	slot0.story2Map = {}
@@ -127,7 +127,7 @@ function slot0.InitData(slot0)
 	slot0.currentPos = #slot0.exploredStories == 0 and 0 or slot0.exploredStories[#slot0.exploredStories]
 end
 
-function slot0.InitAward(slot0)
+slot0.InitAward = function(slot0)
 	slot0.awardWindow = slot0:findTF("award_window", slot0.window)
 	slot0.buttonAwardGet = slot0:findTF("award_bg/btn_get", slot0.awardWindow)
 	slot0.awardWindowBg = slot0:findTF("bg", slot0.awardWindow)
@@ -145,7 +145,7 @@ function slot0.InitAward(slot0)
 	end
 end
 
-function slot0.InitDice(slot0)
+slot0.InitDice = function(slot0)
 	slot0.diceWindow = slot0:findTF("dice_window", slot0.window)
 	slot0.buttonDiceContinue = slot0:findTF("btn_continue", slot0.diceWindow)
 	slot0.dice = slot0:findTF("dice", slot0.diceWindow)
@@ -160,7 +160,7 @@ function slot0.InitDice(slot0)
 	slot0.criticalFailure = slot0:findTF("critical_failure", slot0.result)
 end
 
-function slot0.InitCharacter(slot0)
+slot0.InitCharacter = function(slot0)
 	slot0.characterWindow = slot0:findTF("character_window", slot0.window)
 	slot0.characterWindowBg = slot0:findTF("bg", slot0.characterWindow)
 	slot0.characterCard = slot0:findTF("character_card", slot0.characterWindowBg)
@@ -193,7 +193,7 @@ function slot0.InitCharacter(slot0)
 	slot0.attrLock = {}
 end
 
-function slot0.InitVX(slot0)
+slot0.InitVX = function(slot0)
 	for slot4, slot5 in ipairs({
 		"success",
 		"Csuccess",
@@ -210,7 +210,7 @@ function slot0.InitVX(slot0)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	for slot4 = 1, uv0.ROOM_NUM do
 		slot5 = slot0:GetRoomTF(slot4)
 
@@ -282,7 +282,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.InitButton(slot0)
+slot0.InitButton = function(slot0)
 	onButton(slot0, slot0.button1F, function ()
 		setActive(uv0.button1F, false)
 		setActive(uv0.button2F, true)
@@ -374,7 +374,7 @@ function slot0.InitButton(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateFlush(slot0)
+slot0.UpdateFlush = function(slot0)
 	slot0.activity = getProxy(ActivityProxy):getActivityById(uv0.ACT_ID)
 	slot0.awardActivity = getProxy(ActivityProxy):getActivityById(uv0.AWARD_ACT_ID)
 	slot0.taskGroup = slot0.awardActivity:getConfig("config_data")
@@ -391,7 +391,7 @@ function slot0.UpdateFlush(slot0)
 	setActive(slot0.buttonDice, not slot0:IsFinish())
 end
 
-function slot0.UpdateDice(slot0)
+slot0.UpdateDice = function(slot0)
 	slot0.diceCount = slot0.activity.data2
 
 	if table.contains(slot0.explorableStories, slot0.explorablePos) and slot0:IsBadEnd(slot0.explorablePos) then
@@ -407,7 +407,7 @@ function slot0.UpdateDice(slot0)
 	end
 end
 
-function slot0.UpdateMap(slot0)
+slot0.UpdateMap = function(slot0)
 	for slot4 = 1, uv0.ROOM_NUM do
 		slot0:ChangeRoomColor(slot4, uv0.TRANSPARENT_COLOR)
 		slot0:ChangeRoomMark(slot4, nil)
@@ -466,7 +466,7 @@ function slot0.UpdateMap(slot0)
 	setActive(slot0.button2F:Find("Image"), table.contains(slot0.explorableStories, slot0.storyGroup[23]))
 end
 
-function slot0.UpdateAward(slot0)
+slot0.UpdateAward = function(slot0)
 	slot0:CheckAwardGet()
 	table.sort(slot0.taskMap, function (slot0, slot1)
 		if (uv0.taskProxy:getTaskVO(uv0.taskGroup[slot0]):getTaskStatus() == 2 and 1 or 0) == (uv0.taskProxy:getTaskVO(uv0.taskGroup[slot1]):getTaskStatus() == 2 and 1 or 0) then
@@ -482,7 +482,7 @@ function slot0.UpdateAward(slot0)
 	end
 end
 
-function slot0.UpdateCharacter(slot0)
+slot0.UpdateCharacter = function(slot0)
 	setActive(slot0.randomLock, not slot0:IsFinish())
 	setActive(slot0.randomText, slot0:IsFinish())
 
@@ -491,7 +491,7 @@ function slot0.UpdateCharacter(slot0)
 	setActive(slot0:findTF("edit", slot0.characterName), slot0:IsFinish())
 end
 
-function slot0.UpdateTask(slot0, slot1, slot2)
+slot0.UpdateTask = function(slot0, slot1, slot2)
 	slot3 = slot0.taskMap[slot1 + 1]
 	slot4 = slot0:findTF("IconTpl", slot2)
 	slot5 = slot0.taskGroup[slot3]
@@ -515,7 +515,7 @@ function slot0.UpdateTask(slot0, slot1, slot2)
 	setActive(slot0:findTF("mask", slot2), slot6:isReceive())
 end
 
-function slot0.UpdateAttrLock(slot0)
+slot0.UpdateAttrLock = function(slot0)
 	slot0.attrLock = {}
 
 	for slot4, slot5 in ipairs(slot0.exploredStories) do
@@ -527,7 +527,7 @@ function slot0.UpdateAttrLock(slot0)
 	end
 end
 
-function slot0.UpdateCard(slot0)
+slot0.UpdateCard = function(slot0)
 	slot0:UpdateAttrLock()
 	setText(slot0.characterName, uv0.GetRollData(1, uv1) .. ":")
 	setInputText(slot0.nameInput, getProxy(PlayerProxy):getData().name)
@@ -557,7 +557,7 @@ function slot0.UpdateCard(slot0)
 	end
 end
 
-function slot0.RollCharacterCard(slot0)
+slot0.RollCharacterCard = function(slot0)
 	for slot4 = 1, slot0.attrGroup.childCount do
 		for slot9 = 1, slot0.attrGroup:GetChild(slot4 - 1).childCount do
 			slot12 = uv0.GetRollData((slot9 - 1) * slot0.attrGroup.childCount + slot4 + 2, uv1)
@@ -583,11 +583,11 @@ function slot0.RollCharacterCard(slot0)
 	end
 end
 
-function slot0.IsFinish(slot0)
+slot0.IsFinish = function(slot0)
 	return #slot0.exploredStories == 24
 end
 
-function slot0.GetRandomValue(slot0, slot1)
+slot0.GetRandomValue = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6 = 1, #slot0 do
@@ -605,11 +605,11 @@ function slot0.GetRandomValue(slot0, slot1)
 	return slot3
 end
 
-function slot0.GetColorValue(slot0, slot1)
+slot0.GetColorValue = function(slot0, slot1)
 	return setColorStr(slot1, uv0.SKILL_COLOR[table.indexof(uv0.GetRollData(slot0, uv1), slot1)])
 end
 
-function slot0.CheckAwardGet(slot0)
+slot0.CheckAwardGet = function(slot0)
 	slot1 = false
 
 	for slot5, slot6 in ipairs(slot0.taskGroup) do
@@ -622,7 +622,7 @@ function slot0.CheckAwardGet(slot0)
 	setActive(findTF(slot0.buttonAward, "red"), slot1)
 end
 
-function slot0.PlayStory(slot0, slot1)
+slot0.PlayStory = function(slot0, slot1)
 	if slot0:IsPlayed(slot1) then
 		return
 	end
@@ -636,7 +636,7 @@ function slot0.PlayStory(slot0, slot1)
 	})
 end
 
-function slot0.StoryActEnd(slot0, slot1)
+slot0.StoryActEnd = function(slot0, slot1)
 	if not slot0.waitPlayStory then
 		return
 	end
@@ -644,7 +644,7 @@ function slot0.StoryActEnd(slot0, slot1)
 	slot2 = slot0.storyMgr
 	slot2, slot3 = slot2:StoryId2StoryName(slot0.waitPlayStory)
 
-	function slot4()
+	slot4 = function()
 		if uv0.story2Attr[uv0.waitPlayStory] == nil then
 			return false
 		end
@@ -697,7 +697,7 @@ function slot0.StoryActEnd(slot0, slot1)
 	end)
 end
 
-function slot0.FirstStory(slot0)
+slot0.FirstStory = function(slot0)
 	slot1 = slot0.activity
 	slot2 = slot0.storyMgr
 	slot2, slot3 = slot2:StoryId2StoryName(slot1:getConfig("config_data")[1])
@@ -726,7 +726,7 @@ function slot0.FirstStory(slot0)
 	end)
 end
 
-function slot0.RollDice(slot0, slot1, slot2)
+slot0.RollDice = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs({
 		slot0.success,
 		slot0.criticalSuccess,
@@ -752,7 +752,7 @@ function slot0.RollDice(slot0, slot1, slot2)
 
 	slot8 = slot1 % 10
 
-	function slot9()
+	slot9 = function()
 		LeanTween.delayedCall(go(uv0._tf), 0.12, System.Action(function ()
 			if uv0.diceNumber <= 5 then
 				setActive(uv0.criticalSuccess, true)
@@ -784,7 +784,7 @@ function slot0.RollDice(slot0, slot1, slot2)
 	end
 end
 
-function slot0.SetAnim(slot0, slot1, slot2, slot3)
+slot0.SetAnim = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:GetComponent(typeof(SpineAnimUI))
 
 	slot4:SetActionCallBack(nil)
@@ -801,7 +801,7 @@ function slot0.SetAnim(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot0.UnlockStory(slot0, slot1)
+slot0.UnlockStory = function(slot0, slot1)
 	if table.contains(slot0.explorableStories, slot1) or table.contains(slot0.exploredStories, slot1) then
 		return
 	end
@@ -813,7 +813,7 @@ function slot0.UnlockStory(slot0, slot1)
 	end
 end
 
-function slot0.ExploreStory(slot0, slot1)
+slot0.ExploreStory = function(slot0, slot1)
 	if table.contains(slot0.exploredStories, slot1) then
 		return
 	end
@@ -830,7 +830,7 @@ function slot0.ExploreStory(slot0, slot1)
 	end
 end
 
-function slot0.IndexofStory(slot0, slot1)
+slot0.IndexofStory = function(slot0, slot1)
 	if table.indexof(slot0.storyGroup, slot1) == false then
 		return -1
 	end
@@ -838,17 +838,17 @@ function slot0.IndexofStory(slot0, slot1)
 	return slot2
 end
 
-function slot0.IsPlayed(slot0, slot1)
+slot0.IsPlayed = function(slot0, slot1)
 	slot2, slot3 = slot0.storyMgr:StoryId2StoryName(slot1)
 
 	return slot0.storyMgr:IsPlayed(slot2, slot3)
 end
 
-function slot0.IsBadEnd(slot0, slot1)
+slot0.IsBadEnd = function(slot0, slot1)
 	return (table.indexof(slot0.storyGroup, slot1) + 1) % 3 == 0
 end
 
-function slot0.ExplorableEffect(slot0, slot1)
+slot0.ExplorableEffect = function(slot0, slot1)
 	for slot5 = 1, uv0.ROOM_NUM do
 		slot6 = slot0:GetRoomTF(slot5)
 
@@ -857,7 +857,7 @@ function slot0.ExplorableEffect(slot0, slot1)
 	end
 end
 
-function slot0.ChangeRoomColor(slot0, slot1, slot2)
+slot0.ChangeRoomColor = function(slot0, slot1, slot2)
 	slot4 = findTF(slot0:GetRoomTF(slot1), "fill")
 
 	if slot2 then
@@ -865,7 +865,7 @@ function slot0.ChangeRoomColor(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ChangeRoomMark(slot0, slot1, slot2, slot3)
+slot0.ChangeRoomMark = function(slot0, slot1, slot2, slot3)
 	cover = cover or false
 	slot4 = slot0:GetRoomTF(slot1)
 	slot5 = findTF(slot4, "current")
@@ -897,7 +897,7 @@ function slot0.ChangeRoomMark(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.GetRoomTF(slot0, slot1)
+slot0.GetRoomTF = function(slot0, slot1)
 	if slot1 == uv0.ROOM_NUM then
 		return slot0.rooms[1]:GetChild(slot0.rooms[1].childCount - 1)
 	elseif slot1 < slot0.rooms[1].childCount then
@@ -907,7 +907,7 @@ function slot0.GetRoomTF(slot0, slot1)
 	return slot0.rooms[2]:GetChild(slot1 - slot0.rooms[1].childCount)
 end
 
-function slot0.CheckGuide(slot0)
+slot0.CheckGuide = function(slot0)
 	slot4 = slot0.storyMgr
 	slot6 = slot0.activity
 	slot4 = slot0.storyMgr
@@ -916,7 +916,7 @@ function slot0.CheckGuide(slot0)
 	slot5 = slot4
 	slot6 = slot0.activity
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		return getProxy(TaskProxy):isReceiveTasks(slot0.taskGroup)
 	end
 
@@ -982,15 +982,15 @@ function slot0.CheckGuide(slot0)
 	end
 end
 
-function slot0.PlaySE(slot0)
+slot0.PlaySE = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(slot0)
 end
 
-function slot0.GetRollData(slot0, slot1)
+slot0.GetRollData = function(slot0, slot1)
 	return pg.roll_attr[slot0][slot1]
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if isActive(slot0.characterWindow) then
 		setActive(slot0.characterWindow, false)
 		pg.UIMgr.GetInstance():UnblurPanel(slot0.characterCard, slot0.characterWindowBg)
@@ -999,7 +999,7 @@ function slot0.willExit(slot0)
 	LeanTween.cancel(go(slot0._tf))
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.diceWindow) then
 		return
 	end

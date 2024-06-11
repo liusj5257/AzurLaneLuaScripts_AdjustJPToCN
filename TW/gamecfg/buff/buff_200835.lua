@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 剧情战 鲁莽鱼雷",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 剧情战 鲁莽鱼雷",
+	init_effect = "",
+	id = 200835,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200835,
+	color = "yellow",
 	icon = 200835,
 	last_effect = "",
 	effect_list = {

@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 90,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -58,10 +58,10 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 753,
-							score = 0,
 							pilotAITemplateID = 20005,
 							delay = 1,
 							moveCast = true,
+							score = 0,
 							corrdinate = {
 								0,
 								0,
@@ -74,10 +74,10 @@ return {
 						},
 						{
 							monsterTemplateID = 753,
-							score = 0,
 							pilotAITemplateID = 20005,
 							delay = 1,
 							moveCast = true,
+							score = 0,
 							corrdinate = {
 								0,
 								0,
@@ -94,8 +94,8 @@ return {
 							interval = 10,
 							onceNumber = 2,
 							formation = 10006,
-							delay = 0,
 							templateID = 300501,
+							delay = 0,
 							totalNumber = 2,
 							weaponID = {
 								300523
@@ -119,10 +119,10 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 753,
-							score = 0,
 							pilotAITemplateID = 20005,
 							delay = 1,
 							moveCast = true,
+							score = 0,
 							corrdinate = {
 								-5,
 								0,
@@ -135,9 +135,9 @@ return {
 						},
 						{
 							monsterTemplateID = 754,
-							moveCast = true,
-							delay = 1,
 							score = 0,
+							delay = 1,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -146,10 +146,10 @@ return {
 						},
 						{
 							monsterTemplateID = 753,
-							score = 0,
 							pilotAITemplateID = 20005,
 							delay = 1,
 							moveCast = true,
+							score = 0,
 							corrdinate = {
 								-5,
 								0,
@@ -165,8 +165,8 @@ return {
 								interval = 10,
 								onceNumber = 2,
 								formation = 10006,
-								delay = 0,
 								templateID = 300501,
+								delay = 0,
 								totalNumber = 2,
 								weaponID = {
 									300523
@@ -191,10 +191,10 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 750,
-							reinforceDelay = 10,
 							pilotAITemplateID = 40001,
 							delay = 1,
 							moveCast = true,
+							reinforceDelay = 10,
 							corrdinate = {
 								-3,
 								0,
@@ -214,10 +214,10 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 753,
-							score = 0,
 							pilotAITemplateID = 20005,
 							delay = 0,
 							moveCast = true,
+							score = 0,
 							corrdinate = {
 								-12,
 								0,
@@ -230,10 +230,10 @@ return {
 						},
 						{
 							monsterTemplateID = 753,
-							score = 0,
 							pilotAITemplateID = 20005,
 							delay = 0,
 							moveCast = true,
+							score = 0,
 							corrdinate = {
 								-12,
 								0,
@@ -246,9 +246,9 @@ return {
 						},
 						{
 							monsterTemplateID = 754,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -257,9 +257,9 @@ return {
 						},
 						{
 							monsterTemplateID = 754,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								10,
 								0,
@@ -268,9 +268,9 @@ return {
 						},
 						{
 							monsterTemplateID = 755,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -283,9 +283,9 @@ return {
 						},
 						{
 							monsterTemplateID = 755,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -298,9 +298,9 @@ return {
 						},
 						{
 							monsterTemplateID = 755,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								30,
 								0,
@@ -317,8 +317,8 @@ return {
 							interval = 10,
 							onceNumber = 3,
 							formation = 10006,
-							delay = 0,
 							templateID = 300502,
+							delay = 0,
 							totalNumber = 6,
 							weaponID = {
 								300524

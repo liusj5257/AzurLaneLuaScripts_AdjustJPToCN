@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackbg = true,
 			bgmDelay = 2,
@@ -69,10 +69,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah! I used a ruler to determine where to put them!",
 			painting = {
 				alpha = 0.3,
@@ -96,12 +96,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Got to live up to our reputation for great hospitality, after all!",
 			painting = {
 				alpha = 0.3,
@@ -116,10 +116,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Wait, why are we chatting? We still have work to do, Cap'n!",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "There's going to be a dinner party in the banquet hall after the meeting!",
 			painting = {
 				alpha = 0.3,
@@ -149,12 +149,12 @@ return {
 			}
 		},
 		{
-			actor = 601050,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Those tables aren't going to set themselves!",
 			painting = {
 				alpha = 0.3,
@@ -169,10 +169,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yes. In fact, the banquet hall is our top priority. We can't cut any corners with it.",
 			painting = {
 				alpha = 0.3,
@@ -184,12 +184,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Especially not with the ingredients. Time was running short, so Trieste went out to buy them herself.",
 			painting = {
 				alpha = 0.3,
@@ -204,10 +204,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I hope she's able to able to find everything...",
 			painting = {
 				alpha = 0.3,
@@ -261,10 +261,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah, that IS weird! Maestrale, you're smart – what do you think?",
 			painting = {
 				alpha = 0.3,
@@ -279,10 +279,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Umm... It's for diplomatic reasons, maybe? I'm not sure either, really.",
 			painting = {
 				alpha = 0.3,
@@ -297,10 +297,10 @@ return {
 			portrait = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
+			actorName = "Vittorio Veneto",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "Vittorio Veneto",
+			hidePaintObj = true,
 			say = "Heehee. There are two good reasons why we're doing it here rather than home, actually.",
 			painting = {
 				alpha = 0.3,
@@ -315,10 +315,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			portrait = 605010,
-			dir = 1,
-			actorName = "Vittorio Veneto",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			portrait = 605010,
+			actorName = "Vittorio Veneto",
 			hidePaintObj = true,
 			say = "The first is that the Orthodoxy lent us this locale. The second is that they're covering half of our expenditures, but still letting us have the honor of organizing it.",
 			painting = {
@@ -334,10 +334,10 @@ return {
 			portrait = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
+			actorName = "Vittorio Veneto",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "Vittorio Veneto",
+			hidePaintObj = true,
 			say = "All in all, this is quite a fine arrangement for us.",
 			painting = {
 				alpha = 0.3,
@@ -349,12 +349,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That explains it...",
 			painting = {
 				alpha = 0.3,
@@ -379,12 +379,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hello. I just finished revising our program, so I came here to check on you all.",
 			painting = {
 				alpha = 0.3,
@@ -396,12 +396,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You've done a great job so far. Everything looks neat and tidy and the decorations are very Sardegnian.",
 			painting = {
 				alpha = 0.3,
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -444,12 +444,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I just received a message from Trieste. She said she was out buying groceries and got help from some Iris girls.",
 			painting = {
 				alpha = 0.3,
@@ -461,12 +461,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Sounds to me like the dinner party tomorrow will go fine.",
 			painting = {
 				alpha = 0.3,
@@ -481,10 +481,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, and they're done arranging the tables and chairs around the venue.",
 			painting = {
 				alpha = 0.3,
@@ -496,12 +496,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I can say with confidence that our guests will be able to treated extraordinarily well in Sardegnian style.",
 			painting = {
 				alpha = 0.3,
@@ -554,10 +554,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh... My opening speech...",
 			painting = {
 				alpha = 0.3,
@@ -591,10 +591,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Umm, it still has a few details I need to fill in...",
 			painting = {
 				alpha = 0.3,
@@ -609,10 +609,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh boy... That doesn't sound very reassuring.",
 			painting = {
 				alpha = 0.3,

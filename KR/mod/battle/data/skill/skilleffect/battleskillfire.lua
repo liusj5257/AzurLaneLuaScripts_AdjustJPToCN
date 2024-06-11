@@ -6,7 +6,7 @@ slot3 = class("BattleSkillFire", slot0.Battle.BattleSkillEffect)
 slot0.Battle.BattleSkillFire = slot3
 slot3.__name = "BattleSkillFire"
 
-function slot3.Ctor(slot0, slot1, slot2)
+slot3.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0._weaponID = slot0._tempData.arg_list.weapon_id
@@ -16,15 +16,15 @@ function slot3.Ctor(slot0, slot1, slot2)
 	slot0._atkAttrConvert = slot0._tempData.arg_list.attack_attribute_convert
 end
 
-function slot3.SetWeaponSkin(slot0, slot1)
+slot3.SetWeaponSkin = function(slot0, slot1)
 	slot0._modelID = slot1
 end
 
-function slot3.IsFinaleEffect(slot0)
+slot3.IsFinaleEffect = function(slot0)
 	return true
 end
 
-function slot3.DoDataEffect(slot0, slot1, slot2)
+slot3.DoDataEffect = function(slot0, slot1, slot2)
 	if slot0._weapon == nil then
 		slot0._weapon = uv0.Battle.BattleDataFunction.CreateWeaponUnit(slot0._weaponID, slot1, nil, slot0._equipIndex)
 
@@ -44,7 +44,7 @@ function slot3.DoDataEffect(slot0, slot1, slot2)
 		}))
 	end
 
-	function slot3()
+	slot3 = function()
 		uv0._weapon:Clear()
 
 		if uv0._finaleCallback then
@@ -60,11 +60,11 @@ function slot3.DoDataEffect(slot0, slot1, slot2)
 	slot0._weapon:SingleFire(slot2, slot0._emitter, slot3)
 end
 
-function slot3.DoDataEffectWithoutTarget(slot0, slot1)
+slot3.DoDataEffectWithoutTarget = function(slot0, slot1)
 	slot0:DoDataEffect(slot1)
 end
 
-function slot3.Clear(slot0)
+slot3.Clear = function(slot0)
 	uv0.super.Clear(slot0)
 
 	if slot0._weapon and not slot0._weapon:GetHost():IsAlive() then
@@ -72,7 +72,7 @@ function slot3.Clear(slot0)
 	end
 end
 
-function slot3.Interrupt(slot0)
+slot3.Interrupt = function(slot0)
 	uv0.super.Interrupt(slot0)
 
 	if slot0._weapon then
@@ -81,7 +81,7 @@ function slot3.Interrupt(slot0)
 	end
 end
 
-function slot3.GetDamageSum(slot0)
+slot3.GetDamageSum = function(slot0)
 	slot1 = 0
 
 	if not slot0._weapon then

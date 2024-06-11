@@ -1,13 +1,13 @@
 return {
-	id = "SHENGYONGQU1",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			side = 2,
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
 			say = "我還有意識。",
@@ -30,8 +30,8 @@ return {
 			}
 		},
 		{
-			actor = 900055,
 			side = 2,
+			actor = 900055,
 			dir = 1,
 			blackBg = true,
 			say = "維希教廷第一旗艦——讓·巴爾號通告陸間海全軍艦隊。",
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "面對無可挽回的失敗，為了維持最後的尊嚴，我已經自沉了。",
 			effects = {
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "對，已經自沉了才對。",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "在進行自沉的那一刻，讓·巴爾就已經結束了。",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "但是，我還有意識。",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "我思故我在，說的就是這樣的情況嗎…",
 			typewriter = {
@@ -271,8 +271,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "漆黑、冰冷、死寂，真是淒涼啊。",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "雖然原本也不覺得能上天堂，不過這片空間和記載中的地獄差別也太大了。",
 			typewriter = {
@@ -299,8 +299,8 @@ return {
 			}
 		},
 		{
-			actor = 900055,
 			side = 2,
+			actor = 900055,
 			dir = 1,
 			blackBg = true,
 			say = "生終將死，靈終將滅，然而，汝無需痛苦和哀傷，此為生命的循環，並無絲毫掩蓋、虛偽和黑暗。",
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "沒能進入天國，也沒有前往地獄。僅存的意識飄蕩在虛無之中，甚至連永眠也不被允許。",
 			effects = {
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "凡事皆有定期，萬物皆有定時。這就是黎胥留級戰列艦讓·巴爾的最終結局嗎。",
 			typewriter = {
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "維希教廷、自由鳶尾、黎胥留姐姐……",
 			typewriter = {
@@ -452,8 +452,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "哈、哈哈哈哈。真是沒出息啊，這種時候反而遺憾起來了。",
 			dialogShake = {
@@ -471,8 +471,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……這些都已經和我無關了，永遠和我無關了。",
 			typewriter = {
@@ -485,12 +485,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
-			bgm = "bsm-2",
+			side = 2,
+			say = "死亡是這個世界上最公平的事情。強壯也好、弱小也好，富裕也好、貧窮也好，誰也無法在死亡面前回頭。",
 			dir = 1,
 			blackBg = true,
-			say = "死亡是這個世界上最公平的事情。強壯也好、弱小也好，富裕也好、貧窮也好，誰也無法在死亡面前回頭。",
+			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,8 +501,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "哦？沒想到在這裡還能遇到聊天的人。妳是誰，妳也是同路的人嗎？",
 			typewriter = {
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "我是誰並不重要，重要的是妳，讓·巴爾。",
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "重要的是我…？",
 			typewriter = {
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "眾所周知，死亡也是一種逃避方式，是應對一切困難的萬能藥。",
@@ -559,8 +559,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "讓·巴爾，回答我。這樣的結局真的是妳所追求的嗎？",
@@ -574,8 +574,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "在現在這種情況下，妳這個提問有些奇怪啊…",
 			typewriter = {
@@ -588,8 +588,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "為了保持所謂的尊嚴，為了維護所謂的約定，為了承擔所謂的責任。除了自沉之外，妳已經沒有第二種選擇了，對嗎？",
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "妳倒是知道的很清楚嘛……",
 			typewriter = {
@@ -617,8 +617,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "但是這樣的選擇只是逃避。妳的自沉改變不了教廷的懦弱，改變不了皇家的背叛，改變不了鳶尾的分裂。",
@@ -632,8 +632,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "妳們的犧牲，帶來不了任何榮耀。妳們的名字，也不會成為後輩們的榮光。",
@@ -647,8 +647,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "或許後輩在提到妳們時，只會用“遺憾”，或者“惋惜”來形容妳們的這次選擇吧。",
@@ -662,8 +662,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "這種事，像妳這樣聰明的人，在放下一切之後回頭看，難道真的看不出來嗎？",
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "………………",
 			typewriter = {
@@ -691,8 +691,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……那妳說我還能怎麼做！",
 			dialogShake = {
@@ -710,8 +710,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "聽從教廷司令部的命令立刻停火，就地向背叛我們的皇家投降嗎？ ！",
 			typewriter = {
@@ -724,8 +724,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "還是說，和侵占我們國土的鐵血同流合污，違背誓言向昔日的盟友甚至同胞開戰嗎？ ！",
 			typewriter = {
@@ -738,8 +738,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "也許當時，妳能做出的最好選擇就是自沉了吧。",
@@ -753,8 +753,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "也是幸好，妳在當時選擇了自沉。",
@@ -768,8 +768,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "讓·巴爾，我問妳，妳真的身處死亡之中了嗎？",
@@ -783,8 +783,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "…我選擇了自沉。身軀早已沉入海底，僅存意識在此遊蕩。毫無疑問，我已經迎來了生命的終結。",
 			typewriter = {
@@ -797,8 +797,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "對於艦船來說，沉沒一定等於生命的終結嗎？",
@@ -812,8 +812,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……妳，這是什麼意思？",
 			typewriter = {
@@ -826,8 +826,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "呵呵呵……",
@@ -841,8 +841,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "回想起妳的不甘，回想起妳的憤怒。",
@@ -856,8 +856,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "回想起妳的信仰，回想起妳的力量。",
@@ -871,8 +871,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "該起床了，“睡美人”。",
@@ -886,8 +886,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「我們在天上的父，願人都尊你的名為聖」</size>",
@@ -920,8 +920,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

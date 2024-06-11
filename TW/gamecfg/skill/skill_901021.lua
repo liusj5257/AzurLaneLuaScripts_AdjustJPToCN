@@ -2,24 +2,24 @@ return {
 	uiEffect = "",
 	name = "特殊清弹 近",
 	cd = 0,
-	sfx = "battle/jianqi7",
-	id = 901021,
 	picture = "0",
-	painting = 0,
 	desc = "",
+	sfx = "battle/jianqi7",
+	painting = 0,
+	id = 901021,
 	effect_list = {
 		{
 			target_choise = "TargetSelf",
 			type = "BattleSkillCLSArea",
 			arg_list = {
-				damage_buff_id = 400,
 				life_time = 0.2,
+				range = 32,
 				move_type = 1,
 				effect = "qingdan_yuanxing",
 				speed_x = 0,
-				damage_param_a = 12,
 				damage_param_b = 6,
-				range = 32,
+				damage_buff_id = 400,
+				damage_param_a = 12,
 				damage_tag_list = {
 					"sp_near"
 				},
@@ -29,10 +29,10 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 901024
 			}

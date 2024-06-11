@@ -11,30 +11,30 @@ slot0.optionsPath = {
 	"overlay/blur_panel/adapt/top/option"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewSkinShopUI"
 end
 
-function slot0.forceGC(slot0)
+slot0.forceGC = function(slot0)
 	return true
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return {
 		anim = true,
 		showType = PlayerResUI.TYPE_GEM
 	}
 end
 
-function slot0.GetAllCommodity(slot0)
+slot0.GetAllCommodity = function(slot0)
 	return getProxy(ShipSkinProxy):GetAllSkins()
 end
 
-function slot0.GetPlayer(slot0)
+slot0.GetPlayer = function(slot0)
 	return getProxy(PlayerProxy):getRawData()
 end
 
-function slot0.GetShopTypeIdBySkinId(slot0, slot1)
+slot0.GetShopTypeIdBySkinId = function(slot0, slot1)
 	slot2 = pg.ship_skin_template.get_id_list_by_shop_type_id
 
 	if not uv0.shopTypeIdList then
@@ -56,7 +56,7 @@ function slot0.GetShopTypeIdBySkinId(slot0, slot1)
 	end
 end
 
-function slot0.GetSkinClassify(slot0, slot1, slot2)
+slot0.GetSkinClassify = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = {}
 
@@ -84,7 +84,7 @@ function slot0.GetSkinClassify(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.GetReturnSkins(slot0)
+slot0.GetReturnSkins = function(slot0)
 	if not slot0.returnSkins then
 		slot0.returnSkins = getProxy(ShipSkinProxy):GetEncoreSkins()
 	end
@@ -92,7 +92,7 @@ function slot0.GetReturnSkins(slot0)
 	return slot0.returnSkins
 end
 
-function slot0.GetReturnSkinMap(slot0)
+slot0.GetReturnSkinMap = function(slot0)
 	if not slot0.encoreSkinMap then
 		slot0.encoreSkinMap = {}
 
@@ -104,7 +104,7 @@ function slot0.GetReturnSkinMap(slot0)
 	return slot0.encoreSkinMap
 end
 
-function slot0.OnFurnitureUpdate(slot0, slot1)
+slot0.OnFurnitureUpdate = function(slot0, slot1)
 	if not slot0.mainView.commodity then
 		return
 	end
@@ -114,7 +114,7 @@ function slot0.OnFurnitureUpdate(slot0, slot1)
 	end
 end
 
-function slot0.OnShopping(slot0, slot1)
+slot0.OnShopping = function(slot0, slot1)
 	if not slot0.mainView.commodity then
 		return
 	end
@@ -136,7 +136,7 @@ function slot0.OnShopping(slot0, slot1)
 	end
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.cgGroup = slot0._tf:GetComponent(typeof(CanvasGroup))
 	slot0.backBtn = slot0:findTF("overlay/blur_panel/adapt/top/back_btn")
 	slot0.atlasBtn = slot0:findTF("overlay/bottom/bg/atlas")
@@ -167,11 +167,11 @@ function slot0.init(slot0)
 	slot0.scrollrect = slot1:GetComponent("LScrollRect")
 	slot0.scrollrect.isNewLoadingMethod = true
 
-	function slot0.scrollrect.onInitItem(slot0)
+	slot0.scrollrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 
-	function slot0.scrollrect.onUpdateItem(slot0, slot1)
+	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
@@ -185,7 +185,7 @@ function slot0.init(slot0)
 	Input.multiTouchEnabled = false
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_CANCEL)
@@ -249,7 +249,7 @@ function slot0.didEnter(slot0)
 	slot0:SetUp()
 end
 
-function slot0.UpdateCouponBtn(slot0)
+slot0.UpdateCouponBtn = function(slot0)
 	slot1 = SkinCouponActivity.StaticExistActivityAndCoupon() and (not slot0.contextData.mode or slot0.contextData.mode == uv0.MODE_OVERVIEW)
 
 	if slot0.isFilterCoupon and not slot1 then
@@ -259,7 +259,7 @@ function slot0.UpdateCouponBtn(slot0)
 	slot0.couponTr.localScale = slot1 and Vector3(1, 1, 1) or Vector3(0, 0, 0)
 end
 
-function slot0.UpdateVoucherBtn(slot0)
+slot0.UpdateVoucherBtn = function(slot0)
 	slot2 = #getProxy(BagProxy):GetSkinShopDiscountItemList() > 0 and (not slot0.contextData.mode or slot0.contextData.mode == uv0.MODE_OVERVIEW)
 
 	if slot0.isFilterVoucher and not slot2 then
@@ -269,7 +269,7 @@ function slot0.UpdateVoucherBtn(slot0)
 	slot0.voucherTr.localScale = slot2 and Vector3(1, 1, 1) or Vector3(0, 0, 0)
 end
 
-function slot0.OnSelectSkinPage(slot0, slot1)
+slot0.OnSelectSkinPage = function(slot0, slot1)
 	if slot0.selectedSkinPageItem then
 		setActive(slot0.selectedSkinPageItem._tr:Find("selected"), false)
 		setActive(slot0.selectedSkinPageItem._tr:Find("name"), true)
@@ -281,7 +281,7 @@ function slot0.OnSelectSkinPage(slot0, slot1)
 	slot0.selectedSkinPageItem = slot1
 end
 
-function slot0.OnConfirmSkinPage(slot0, slot1)
+slot0.OnConfirmSkinPage = function(slot0, slot1)
 	if slot0.skinPageID ~= slot1:GetID() then
 		slot0.skinPageID = slot2
 
@@ -291,7 +291,7 @@ function slot0.OnConfirmSkinPage(slot0, slot1)
 	end
 end
 
-function slot0.OnFilter(slot0, slot1)
+slot0.OnFilter = function(slot0, slot1)
 	slot0.defaultIndex = {
 		typeIndex = slot1.typeIndex,
 		campIndex = slot1.campIndex,
@@ -308,13 +308,13 @@ function slot0.OnFilter(slot0, slot1)
 	setActive(slot0.indexBtnSel, slot1.typeIndex ~= ShipIndexConst.TypeAll or slot1.campIndex ~= ShipIndexConst.CampAll or slot1.rarityIndex ~= ShipIndexConst.RarityAll or slot1.extraIndex ~= SkinIndexLayer.ExtraALL)
 end
 
-function slot0.OnSearch(slot0)
+slot0.OnSearch = function(slot0)
 	if slot0.commodities then
 		slot0:UpdateCommodities(slot0.commodities, true)
 	end
 end
 
-function slot0.SetUp(slot0)
+slot0.SetUp = function(slot0)
 	slot1 = slot0.contextData.mode or uv0.MODE_OVERVIEW
 	slot2 = slot0:GetAllCommodity()
 	slot0.cgGroup.blocksRaycasts = false
@@ -328,19 +328,25 @@ function slot0.SetUp(slot0)
 		getProxy(SettingsProxy):SetNextTipTimeLimitSkinShop()
 	end
 
-	seriesAsync({
+	slot0.skinPageID = slot1 == uv0.MODE_EXPERIENCE and uv1 or uv2
+
+	parallelAsync({
 		function (slot0)
 			uv0:InitSkinClassify(uv1, uv2, slot0)
 		end,
 		function (slot0)
-			onNextTick(slot0)
-		end,
-		function (slot0)
-			if uv0.exited then
-				return
-			end
+			seriesAsync({
+				function (slot0)
+					onNextTick(slot0)
+				end,
+				function (slot0)
+					if uv0.exited then
+						return
+					end
 
-			uv0:UpdateCommodities(uv1, true, slot0)
+					uv0:UpdateCommodities(uv1, true, slot0)
+				end
+			}, slot0)
 		end
 	}, function ()
 		uv0.commodities = uv1
@@ -348,7 +354,7 @@ function slot0.SetUp(slot0)
 	end)
 end
 
-function slot0.UpdateTitle(slot0, slot1)
+slot0.UpdateTitle = function(slot0, slot1)
 	slot0.title.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", ({
 		"huanzhuangshagndian",
 		"title_01"
@@ -364,7 +370,7 @@ function slot0.UpdateTitle(slot0, slot1)
 	slot0.titleEn:SetNativeSize()
 end
 
-function slot7(slot0, slot1)
+slot7 = function(slot0, slot1)
 	slot2 = pg.skin_page_template
 	slot4, slot5 = nil
 
@@ -402,7 +408,7 @@ function slot7(slot0, slot1)
 	setText(slot1._tr:Find("eng"), slot5)
 end
 
-function slot0.InitSkinClassify(slot0, slot1, slot2, slot3)
+slot0.InitSkinClassify = function(slot0, slot1, slot2, slot3)
 	slot5 = {}
 
 	for slot9, slot10 in ipairs(slot0:GetSkinClassify(slot1, slot2)) do
@@ -413,7 +419,7 @@ function slot0.InitSkinClassify(slot0, slot1, slot2, slot3)
 
 			uv2(uv0, uv0.rollingCircleRect:AddItem(uv1))
 
-			if (uv3 - 1) % 3 == 0 or uv3 == #uv4 then
+			if (uv3 - 1) % 5 == 0 or uv3 == #uv4 then
 				onNextTick(slot0)
 			else
 				slot0()
@@ -426,17 +432,12 @@ function slot0.InitSkinClassify(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		if uv1 == uv2.MODE_EXPERIENCE then
-			uv0.rollingCircleRect:ScrollTo(uv3)
-		else
-			uv0.rollingCircleRect:ScrollTo(uv4)
-		end
-
-		uv5()
+		uv0.rollingCircleRect:ScrollTo(uv0.skinPageID)
+		uv1()
 	end)
 end
 
-function slot0.IsType(slot0, slot1, slot2)
+slot0.IsType = function(slot0, slot1, slot2)
 	if slot2:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
 		return slot1 == uv0
 	elseif slot1 == uv1 then
@@ -450,7 +451,7 @@ function slot0.IsType(slot0, slot1, slot2)
 	return false
 end
 
-function slot0.ToVShip(slot0, slot1)
+slot0.ToVShip = function(slot0, slot1)
 	if not slot0.vship then
 		slot0.vship = {
 			getNation = function ()
@@ -473,7 +474,15 @@ function slot0.ToVShip(slot0, slot1)
 	return slot0.vship
 end
 
-function slot0.IsFilterType(slot0, slot1, slot2)
+slot0.IsAllFilter = function(slot0, slot1)
+	return slot1.typeIndex == ShipIndexConst.TypeAll and slot1.campIndex == ShipIndexConst.CampAll and slot1.rarityIndex == ShipIndexConst.RarityAll and slot1.extraIndex == SkinIndexLayer.ExtraALL
+end
+
+slot0.IsFilterType = function(slot0, slot1, slot2)
+	if slot0:IsAllFilter(slot1) then
+		return true
+	end
+
 	if not ShipSkin.New({
 		id = slot2:getSkinId()
 	}):GetDefaultShipConfig() then
@@ -485,33 +494,37 @@ function slot0.IsFilterType(slot0, slot1, slot2)
 	return ShipIndexConst.filterByType(slot6, slot1.typeIndex) and ShipIndexConst.filterByCamp(slot6, slot1.campIndex) and ShipIndexConst.filterByRarity(slot6, slot1.rarityIndex) and SkinIndexLayer.filterByExtra(slot4, slot1.extraIndex)
 end
 
-function slot0.IsSearchType(slot0, slot1, slot2)
+slot0.IsSearchType = function(slot0, slot1, slot2)
+	if not slot1 or slot1 == "" then
+		return true
+	end
+
 	return ShipSkin.New({
 		id = slot2:getSkinId()
 	}):IsMatchKey(slot1)
 end
 
-function slot8(slot0, slot1)
-	if ((slot0.type == Goods.TYPE_ACTIVITY or slot0.type == Goods.TYPE_ACTIVITY_EXTRA) and 0 or slot0:GetPrice()) == ((slot1.type == Goods.TYPE_ACTIVITY or slot1.type == Goods.TYPE_ACTIVITY_EXTRA) and 0 or slot1:GetPrice()) then
+slot8 = function(slot0, slot1, slot2)
+	if slot2[slot0.id] == slot2[slot1.id] then
 		return slot0.id < slot1.id
-	else
-		return slot3 < slot2
-	end
-end
-
-function slot0.Sort(slot0, slot1, slot2)
-	if (slot1.buyCount == 0 and 1 or 0) == (slot2.buyCount == 0 and 1 or 0) then
-		if slot1:getConfig("order") == slot2:getConfig("order") then
-			return uv0(slot1, slot2)
-		else
-			return slot5 < slot6
-		end
 	else
 		return slot4 < slot3
 	end
 end
 
-function slot0.IsCouponType(slot0, slot1, slot2)
+slot0.Sort = function(slot0, slot1, slot2, slot3)
+	if (slot1.buyCount == 0 and 1 or 0) == (slot2.buyCount == 0 and 1 or 0) then
+		if slot1:getConfig("order") == slot2:getConfig("order") then
+			return uv0(slot1, slot2, slot3)
+		else
+			return slot6 < slot7
+		end
+	else
+		return slot5 < slot4
+	end
+end
+
+slot0.IsCouponType = function(slot0, slot1, slot2)
 	if slot1 and not SkinCouponActivity.StaticIsShop(slot2.id) then
 		return false
 	end
@@ -519,7 +532,7 @@ function slot0.IsCouponType(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.IsVoucherType(slot0, slot1, slot2)
+slot0.IsVoucherType = function(slot0, slot1, slot2)
 	if slot1 and not slot2 then
 		return false
 	end
@@ -527,25 +540,39 @@ function slot0.IsVoucherType(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.UpdateCommodities(slot0, slot1, slot2, slot3)
+slot0.UpdateCommodities = function(slot0, slot1, slot2, slot3)
 	slot0:ClearCards()
 
 	slot0.cards = {}
 	slot0.displays = {}
 	slot0.canUseVoucherCache = {}
+	slot4 = getInputText(slot0.inptuTr)
+	slot5 = getProxy(BagProxy):GetSkinShopDiscountItemList()
 
-	for slot7, slot8 in ipairs(slot1) do
-		slot9 = slot8:CanUseVoucherType()
+	for slot9, slot10 in ipairs(slot1) do
+		slot11 = slot10:StaticCanUseVoucherType(slot5)
 
-		if slot0:IsType(slot0.skinPageID, slot8) and slot0:IsFilterType(slot0.defaultIndex, slot8) and slot0:IsSearchType(getInputText(slot0.inptuTr), slot8) and slot0:IsCouponType(slot0.isFilterCoupon, slot8) and slot0:IsVoucherType(slot0.isFilterVoucher, slot9) then
-			table.insert(slot0.displays, slot8)
+		if slot0:IsType(slot0.skinPageID, slot10) and slot0:IsFilterType(slot0.defaultIndex, slot10) and slot0:IsSearchType(slot4, slot10) and slot0:IsCouponType(slot0.isFilterCoupon, slot10) and slot0:IsVoucherType(slot0.isFilterVoucher, slot11) then
+			table.insert(slot0.displays, slot10)
 		end
 
-		slot0.canUseVoucherCache[slot8.id] = slot9
+		slot0.canUseVoucherCache[slot10.id] = slot11
+	end
+
+	slot6 = {}
+
+	for slot10, slot11 in ipairs(slot0.displays) do
+		slot13 = 0
+
+		if not (slot11.type == Goods.TYPE_ACTIVITY or slot11.type == Goods.TYPE_ACTIVITY_EXTRA) then
+			slot13 = slot11:GetPrice()
+		end
+
+		slot6[slot11.id] = slot13
 	end
 
 	table.sort(slot0.displays, function (slot0, slot1)
-		return uv0:Sort(slot0, slot1)
+		return uv0:Sort(slot0, slot1, uv1)
 	end)
 
 	if slot2 then
@@ -556,11 +583,11 @@ function slot0.UpdateCommodities(slot0, slot1, slot2, slot3)
 		slot0.scrollrect:SetTotalCount(#slot0.displays)
 	end
 
-	slot4 = #slot0.displays <= 0
+	slot7 = #slot0.displays <= 0
 
-	setActive(slot0.emptyTr, slot4)
+	setActive(slot0.emptyTr, slot7)
 
-	if slot4 then
+	if slot7 then
 		slot0.mainView:Flush(nil)
 	end
 
@@ -569,7 +596,7 @@ function slot0.UpdateCommodities(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = NewShopSkinCard.New(slot1)
 
 	onButton(slot0, slot2._go, function ()
@@ -591,7 +618,7 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -611,7 +638,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GCHandle(slot0)
+slot0.GCHandle = function(slot0)
 	uv0.GCCNT = (uv0.GCCNT or 0) + 1
 
 	if uv0.GCCNT == 3 then
@@ -621,11 +648,11 @@ function slot0.GCHandle(slot0)
 	end
 end
 
-function slot0.UpdateMainView(slot0, slot1)
+slot0.UpdateMainView = function(slot0, slot1)
 	slot0.mainView:Flush(slot1)
 end
 
-function slot0.GetCommodityIndex(slot0, slot1)
+slot0.GetCommodityIndex = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.displays) do
 		if slot6.id == slot1 then
 			return slot5
@@ -633,7 +660,7 @@ function slot0.GetCommodityIndex(slot0, slot1)
 	end
 end
 
-function slot0.OnPrevCommodity(slot0)
+slot0.OnPrevCommodity = function(slot0)
 	if not slot0.selectedId then
 		return
 	end
@@ -643,7 +670,7 @@ function slot0.OnPrevCommodity(slot0)
 	end
 end
 
-function slot0.OnNextCommodity(slot0)
+slot0.OnNextCommodity = function(slot0)
 	if not slot0.selectedId then
 		return
 	end
@@ -653,7 +680,7 @@ function slot0.OnNextCommodity(slot0)
 	end
 end
 
-function slot0.CheckCardBound(slot0, slot1, slot2, slot3, slot4)
+slot0.CheckCardBound = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = getBounds(slot0.scrollrect.gameObject.transform)
 
 	if slot3 then
@@ -669,7 +696,7 @@ function slot0.CheckCardBound(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.TriggerCommodity(slot0, slot1, slot2)
+slot0.TriggerCommodity = function(slot0, slot1, slot2)
 	slot3 = slot0.displays[slot1]
 	slot4 = slot0.displays[slot1 + slot2]
 	slot5, slot6 = nil
@@ -693,7 +720,7 @@ function slot0.TriggerCommodity(slot0, slot1, slot2)
 	end
 end
 
-function slot0.ClearCards(slot0)
+slot0.ClearCards = function(slot0)
 	if not slot0.cards then
 		return
 	end
@@ -705,7 +732,7 @@ function slot0.ClearCards(slot0)
 	slot0.cards = nil
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:ClearCards()
 	ClearLScrollrect(slot0.scrollrect)
 

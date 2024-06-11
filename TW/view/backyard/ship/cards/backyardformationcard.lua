@@ -1,6 +1,6 @@
 slot0 = class("BackYardFormationCard", import("view.ship.FormationCard"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.propsTr1 = slot0.detailTF:Find("info1")
@@ -8,7 +8,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.startTr = slot0.content:Find("front/stars")
 end
 
-function slot0.updateProps(slot0, slot1)
+slot0.updateProps = function(slot0, slot1)
 	for slot5 = 0, 4 do
 		slot6 = slot0.propsTr:GetChild(slot5)
 
@@ -36,7 +36,7 @@ function slot0.updateProps(slot0, slot1)
 	})
 end
 
-function slot0.updateProps1(slot0, slot1)
+slot0.updateProps1 = function(slot0, slot1)
 	for slot5 = 0, 2 do
 		slot6 = slot0.propsTr1:GetChild(slot5)
 

@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA31",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA31",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "holo-inochi-inst",
 			dir = 1,
 			say = "\"Are you sure about this?\" \"I don't think you're going to make it.\" \"Hell lies just ahead, all right?\"",
+			bgm = "holo-inochi-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +55,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Wait a sec... the signs I made should have said \"You still can make it!\" and \"There's always next time!\"...",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "Does that mean...",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			actor = 10500040,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "???",
 			dir = 1,
+			actorName = "???",
 			say = "Natsuiro Matsuri, answer me! Among the Hololive girls, who do you love the most?",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Is that... a Matsuri imposter?!",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "Ma Tsu Ri",
 			say = "Imposter? If you're the real deal, then you should be able to answer this question. Now, answer me! Among the Hololive girls, who do you love the most?",
 			typewriter = {
@@ -151,8 +151,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Um...",
 			typewriter = {
 				speed = 0.05,
@@ -167,8 +167,8 @@ return {
 			expression = 3,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "Ma Tsu Ri",
 			say = "You can't answer, can you? Matsuri, you know what that means...",
 			typewriter = {
@@ -199,11 +199,11 @@ return {
 			expression = 2,
 			side = 1,
 			actorName = "Ma Tsu Ri",
-			actor = 10500040,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 10500040,
 			nameColor = "#ff5c5c",
 			say = "Gyahh?!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -269,8 +269,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			actorName = "Ma Tsu Ri",
 			say = "I was... deceived...? Impossible!!",
 			typewriter = {
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "I'll solve the mystery of the Mirror Sea, defeat you and the other imposters, and take everyone home to Hololive!",
 			typewriter = {
 				speed = 0.05,

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD402A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD402A",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307020,
-			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "저기가 다카르 항인가...? 비시아 성좌의 아프리카 최대 군사 항구라고 들었는데, 꽤 황량하네...",
 			bgm = "bsm-7",
+			actor = 307020,
+			nameColor = "#a9f548",
+			say = "저기가 다카르 항인가...? 비시아 성좌의 아프리카 최대 군사 항구라고 들었는데, 꽤 황량하네...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -68,14 +68,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_port_dakaer",
 			actor = 401020,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "다카르 항에 오신 것을 환영합니다. 저는 구축함 Z2, 메탈 블러드 사령부의 명령으로 마중을 나왔어요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301160,
+			nameColor = "#a9f548",
 			say = "에? 다카르 항에 너 혼자인 건가?",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -145,8 +145,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "그러니까 일단 본론으로 들어가죠. 따라오세요.",
 			typewriter = {
@@ -159,8 +159,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 2500
@@ -184,15 +184,15 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#a9f548",
 			say = "메탈 블러드의 실험이 우리와 완전히 다른 노선을 가고 있었다니...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_port_dakaer",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "(후, 정말로 원하는 것을 얻으려면 역시 직접 움직여야겠어요...)",
 			typewriter = {
 				speed = 0.05,

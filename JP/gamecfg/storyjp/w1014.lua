@@ -1,15 +1,15 @@
 return {
-	id = "W1014",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1014",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "スキャンが完了しました。未回収の報酬があります。報酬を回収してからエリアから離脱してください",
 			typewriter = {
 				speed = 0.05,

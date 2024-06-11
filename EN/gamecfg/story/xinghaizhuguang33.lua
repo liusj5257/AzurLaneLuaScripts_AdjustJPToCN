@@ -4,11 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 3,
-			blackBg = true,
 			bgmDelay = 2,
+			blackBg = true,
 			sequence = {
 				{
 					"Iris Orthodoxy - Holy Capital",
@@ -21,12 +21,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "I check my inbox and see a mail from the Sea of Stars. It's an accident report.",
 			bgm = "theme-ucnf-image",
+			say = "I check my inbox and see a mail from the Sea of Stars. It's an accident report.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,28 +153,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

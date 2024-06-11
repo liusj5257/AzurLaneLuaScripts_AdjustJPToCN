@@ -239,9 +239,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "怒旋·大吉岭",
 	time = 15,
+	name = "怒旋·大吉岭",
+	init_effect = "",
 	picture = "",
 	desc = "属性提升",
 	stack = 1,

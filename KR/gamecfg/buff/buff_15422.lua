@@ -7,8 +7,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.8,
-					absorb = 0.1
+					absorb = 0.1,
+					number = 0.8
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.756,
-					absorb = 0.111
+					absorb = 0.111,
+					number = 0.756
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.712,
-					absorb = 0.122
+					absorb = 0.122,
+					number = 0.712
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.668,
-					absorb = 0.133
+					absorb = 0.133,
+					number = 0.668
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.624,
-					absorb = 0.144
+					absorb = 0.144,
+					number = 0.624
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.58,
-					absorb = 0.155
+					absorb = 0.155,
+					number = 0.58
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.536,
-					absorb = 0.166
+					absorb = 0.166,
+					number = 0.536
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.492,
-					absorb = 0.177
+					absorb = 0.177,
+					number = 0.492
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.448,
-					absorb = 0.188
+					absorb = 0.188,
+					number = 0.448
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onTakeDamage"
 				},
 				arg_list = {
-					number = 0.4,
-					absorb = 0.2
+					absorb = 0.2,
+					number = 0.4
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "承受目标受到的30%伤害",
 	stack = 1,
@@ -162,8 +162,8 @@ return {
 				"onTakeDamage"
 			},
 			arg_list = {
-				number = 0.8,
-				absorb = 0.1
+				absorb = 0.1,
+				number = 0.8
 			}
 		}
 	}

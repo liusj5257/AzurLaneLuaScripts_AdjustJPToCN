@@ -1,6 +1,6 @@
 slot0 = class("TrackingCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.chapterId
 	slot4 = slot2.fleetIds
@@ -295,7 +295,7 @@ function slot0.execute(slot0, slot1)
 	})
 end
 
-function slot0.sendProto(slot0)
+slot0.sendProto = function(slot0)
 	slot7 = slot0.autoFightFlag
 	slot8 = pg.ConnectionMgr.GetInstance()
 
@@ -375,7 +375,7 @@ function slot0.sendProto(slot0)
 	end)
 end
 
-function slot0.isCrossStoryLimit(slot0, slot1)
+slot0.isCrossStoryLimit = function(slot0, slot1)
 	slot2 = true
 
 	if slot1 ~= "" and #slot1 > 0 then
@@ -391,7 +391,7 @@ function slot0.isCrossStoryLimit(slot0, slot1)
 	return slot2
 end
 
-function slot0.CalculateSpItemMoreCostRate(slot0)
+slot0.CalculateSpItemMoreCostRate = function(slot0)
 	slot1 = 1
 
 	if not slot0 or slot0 == 0 then

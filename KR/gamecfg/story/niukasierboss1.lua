@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIERBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIERBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"싸워라! 로열 메이드대\n\n<size=45>작전 개시</size>",
@@ -17,10 +17,10 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_107",
 			side = 2,
+			bgName = "star_level_bg_107",
+			actor = 205010,
 			dir = 1,
 			stopbgm = true,
 			say = "잘 들어 벨파, 이번 임무…실패는 용서하지 않아!",
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 202120,
+			say = "네, 분부대로.",
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "네, 분부대로.",
+			actor = 202120,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -92,8 +92,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.6,
 					dur = 0.2,
 					x = 0,
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#92fc63",
 			say = "……………흐, 흠! 그 정도는 알고 있다구!",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#92fc63",
 			say = "그, 그러면…져도 이겨도 용서하지 않을 테니까!",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#92fc63",
 			say = "알겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -228,15 +228,15 @@ return {
 			}
 		},
 		{
-			say = "연습 해역",
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "연습 해역",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -298,10 +298,10 @@ return {
 			expression = 14,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 203040,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "켄트……하아, 하아……좀 천천히 달려요……",
+			dir = 1,
+			actor = 203040,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
+			say = "이쪽도 준비 완료입니다. 탄약은 연습용의 공포로 바꿨으니, 장비 걱정은 하지 않으셔도 되겠습니다.",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "이쪽도 준비 완료입니다. 탄약은 연습용의 공포로 바꿨으니, 장비 걱정은 하지 않으셔도 되겠습니다.",
+			actor = 202080,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -458,10 +458,10 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			actorName = "메이드들",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			actor = 203030,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#92fc63",
@@ -496,11 +496,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#92fc63",
 			say = "그럼, 주인님께 살짝 따끔한 맛을 보여 드리도록 하지요.",
 			effects = {
 				{
@@ -518,19 +518,19 @@ return {
 			}
 		},
 		{
-			side = 2,
+			actorName = "？？？",
 			actorShadow = true,
-			bgName = "bg_story_nepu1",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			side = 2,
 			stopbgm = true,
 			actor = 202190,
-			actorName = "？？？",
+			nameColor = "#92fc63",
+			bgName = "bg_story_nepu1",
 			say = "제가 떠난 뒤의 로열 메이드대라……조금 기대되네요. 후후후.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

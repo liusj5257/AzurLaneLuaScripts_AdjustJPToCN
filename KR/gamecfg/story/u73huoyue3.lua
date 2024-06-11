@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U73HUOYUE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U73HUOYUE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"이과 시험시간!\n\n<size=45>꿈을 꾸기에 위대하다!</size>",
@@ -20,11 +20,11 @@ return {
 			actor = 408051,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "연습용 탄약을 모두 맛있는 사탕으로 만드는 실험! 어때, 멋있지?!",
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "연습용 탄약을 모두 맛있는 사탕으로 만드는 실험! 어때, 멋있지?!",
 			effects = {
 				{
 					active = true,
@@ -41,11 +41,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "하하하... 너무 황당해서 어디서부터 황당한지 모르겠네요...",
 			effects = {
 				{
@@ -82,8 +82,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "아하! 인류는 꿈을 꾸기 때문에 위대한 거야! 현재 나는 그저 실험복을 입은, 이과 실험을 제일 사랑하는 미친 과학자 U-73이지만~",
 			typewriter = {
@@ -115,8 +115,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 408051,
 			dir = 1,
+			actor = 408051,
 			nameColor = "#a9f548",
 			say = "아이, 이런 사소한 거에 신경 쓰지마!",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "저기, 왜 너희들도 진지하게 생각하고 있는 건가요?!",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -213,12 +213,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "너의 꿈, 다 들었어! 내가 도와줄께!",
 			typewriter = {
 				speed = 0.05,

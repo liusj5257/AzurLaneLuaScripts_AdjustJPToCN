@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 15340,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15340,
+	color = "red",
 	icon = 15340,
 	last_effect = "",
 	effect_list = {
@@ -36,8 +36,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 15341,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"
@@ -53,9 +53,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
+				skill_id = 15342,
 				maxTargetNumber = 0,
 				target = "TargetSelf",
-				skill_id = 15342,
 				check_target = {
 					"TargetAllHelp",
 					"TargetShipTag"

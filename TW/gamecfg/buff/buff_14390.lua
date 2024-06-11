@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 14390,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14390,
+	color = "red",
 	icon = 14390,
 	last_effect = "",
 	effect_list = {
@@ -26,8 +26,8 @@ return {
 				"onFoeAircraftDying"
 			},
 			arg_list = {
-				countTarget = 3,
 				killer = "child",
+				countTarget = 3,
 				countType = 14390
 			}
 		},

@@ -4,18 +4,18 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "story-richang-2",
+			side = 2,
 			say = "邊境城鎮·鐵匠鋪",
+			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "系統提示",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "為了迎接更加困難的戰鬥，首先強化一下裝備吧。",
 			typewriter = {
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "系統提示",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "失去了金錢100G，當前剩餘金錢100G，獲得了道具 戰士之斧+1。",
 			typewriter = {
@@ -83,17 +83,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "系統提示",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "失去了金錢100G，當前剩餘金錢0G，失去了道具 戰士之斧+1。",
 			typewriter = {
@@ -160,17 +160,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -214,8 +214,8 @@ return {
 			expression = 7,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "…………我，我的戰士之斧碎掉了？！",
 			painting = {
 				alpha = 0.3,
@@ -230,8 +230,8 @@ return {
 			expression = 6,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "錢包也……歸零了？！",
 			painting = {
 				alpha = 0.3,
@@ -246,8 +246,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "啊哈、哈、哈…………",
 			painting = {
 				alpha = 0.3,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 431232,
 			dir = 1,
+			actor = 431232,
 			say = "接下來要重新開始賺錢了啊……嗚嗚嗚…………",
 			painting = {
 				alpha = 0.3,

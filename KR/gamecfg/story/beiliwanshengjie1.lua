@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BEILIWANSHENGJIE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BEILIWANSHENGJIE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"장난스런 핼러윈\n\n<size=45>길 잃은 유령을 찾아서!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 102091,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = -1,
 			bgmDelay = 2,
-			say = "짜잔~!",
 			bgm = "story-1",
+			actor = 102091,
+			nameColor = "#92fc63",
+			say = "짜잔~!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,13 +52,13 @@ return {
 			}
 		},
 		{
-			actor = 306051,
+			say = "크기가 엄청나네……",
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#92fc63",
 			dir = 1,
+			actor = 306051,
 			actorName = "{namecode:87}",
-			say = "크기가 엄청나네……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -73,8 +73,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -83,11 +83,11 @@ return {
 			}
 		},
 		{
-			actor = 301051,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301051,
 			actorName = "{namecode:6}",
 			say = "이게 오늘 전시할 '슈퍼 펌프킨 라이트' 인가요?",
 			typewriter = {
@@ -116,11 +116,11 @@ return {
 			}
 		},
 		{
-			actor = 301171,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301171,
 			actorName = "{namecode:19}",
 			say = "참고로, 이 몸이 남은 내용물로는 호박파이를 만들었네!",
 			typewriter = {
@@ -165,10 +165,10 @@ return {
 			}
 		},
 		{
-			actor = 301051,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 301051,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:6}&{namecode:87}",
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 306051,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			say = "귀찮아져뿟네… 핼러윈 파티 곧 시작한다카이…",
 			typewriter = {
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 301051,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301051,
 			actorName = "{namecode:6}",
 			say = "호박의 입에…뭔가 있는 것 같아요.",
 			typewriter = {
@@ -242,11 +242,11 @@ return {
 			}
 		},
 		{
-			actor = 306051,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			say = "\"길 잃은 유령이 무서워하고 있으니 라이트를 껐다. 3인의 선한 마녀가 힘을 합쳐 집까지 데려가 주길 바란다\"…뭐고 이거?",
 			typewriter = {
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 306051,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 306051,
 			actorName = "{namecode:87}",
 			say = "뭐야 이거?",
 			typewriter = {
@@ -276,10 +276,10 @@ return {
 			}
 		},
 		{
-			actor = 301051,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 301051,
 			dir = 1,
 			hideOther = true,
 			actorName = "{namecode:6}&{namecode:19}",
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 101271,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101271,
+			nameColor = "#a9f548",
 			say = "토끼토끼별에서 온 어둠의 마녀 베일리, 화려하게 등장!",
 			effects = {
 				{
@@ -325,11 +325,11 @@ return {
 			}
 		},
 		{
-			actor = 102091,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 102091,
+			nameColor = "#a9f548",
 			say = "오오! 때마침 마녀가 등장해주다니! 이것 좀 부탁할 수 있을까……",
 			effects = {
 				{
@@ -347,8 +347,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -360,8 +360,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 101271,
 			dir = 1,
+			actor = 101271,
 			nameColor = "#a9f548",
 			say = "좋아! 이 토끼토끼 마녀 베일리에게 맡겨줘!",
 			typewriter = {
@@ -374,14 +374,14 @@ return {
 			}
 		},
 		{
-			actor = 301051,
+			actorName = "{namecode:6}&{namecode:19}&클리블랜드",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			actorName = "{namecode:6}&{namecode:19}&클리블랜드",
+			actor = 301051,
+			nameColor = "#a9f548",
 			say = "오오오!",
 			subActors = {
 				{

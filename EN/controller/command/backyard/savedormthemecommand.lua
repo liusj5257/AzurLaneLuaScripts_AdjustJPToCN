@@ -1,6 +1,6 @@
 slot0 = class("SaveDormThemeCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = getProxy(DormProxy):getRawData()
 	slot4 = slot3.level
 	slot5, slot6 = CourtYardRawDataChecker.Check(slot1:getBody().furnitureputList, slot3:GetMapSize())

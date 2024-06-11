@@ -4,16 +4,16 @@ slot0.Fields = {
 	txDesc = "userdata",
 	onDrop = "function",
 	transform = "userdata",
+	timer = "number",
+	btnInactive = "userdata",
+	btnFinished = "userdata",
 	task = "table",
+	rtRarity = "userdata",
 	rtType = "userdata",
 	progress = "userdata",
-	onButton = "function",
-	rtRarity = "userdata",
-	timer = "number",
-	rtName = "userdata",
 	txProgress = "userdata",
-	btnFinished = "userdata",
-	btnInactive = "userdata",
+	onButton = "function",
+	rtName = "userdata",
 	rfAwardPanle = "userdata",
 	rfItemTpl = "userdata"
 }
@@ -21,17 +21,17 @@ slot0.Listeners = {
 	onTaskUpdate = "OnTaskUpdate"
 }
 
-function slot0.Build(slot0, slot1)
+slot0.Build = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 	slot0:Init(slot1)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0.transform = slot1
 	slot0.rtType = slot1:Find("type")
 	slot0.rtRarity = slot1:Find("rarity")
@@ -46,13 +46,13 @@ function slot0.Init(slot0, slot1)
 	slot0.rfItemTpl = slot1:Find("item_tpl")
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.task = slot1
 
 	slot0:OnTaskUpdate()
 end
 
-function slot0.OnTaskUpdate(slot0)
+slot0.OnTaskUpdate = function(slot0)
 	setImageColor(slot0.rtName, slot0.task.config.type == 5 and Color(0.058823529411764705, 0.0784313725490196, 0.10980392156862745, 0.3) or Color(0.5450980392156862, 0.596078431372549, 0.8196078431372549, 0.3))
 	setText(slot0.rtName:Find("Text"), slot0.task.config.name)
 	setText(slot0.txDesc, slot0.task.config.description)

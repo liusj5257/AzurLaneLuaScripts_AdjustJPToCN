@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.035
+					number = -0.035,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.04
+					number = -0.04,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.045
+					number = -0.045,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.055
+					number = -0.055,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.06
+					number = -0.06,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.065
+					number = -0.065,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.07
+					number = -0.07,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.075
+					number = -0.075,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
@@ -133,15 +133,15 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.08
+					number = -0.08,
+					attr = "injureRatioByAir"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "减伤",
 	stack = 1,

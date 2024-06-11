@@ -139,14 +139,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 14411,
+	time = 0,
 	picture = "",
 	desc = "加航速",
 	stack = 1,
-	id = 14411,
+	color = "red",
 	icon = 14411,
 	last_effect = "",
 	blink = {

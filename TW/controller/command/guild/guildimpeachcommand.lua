@@ -1,6 +1,6 @@
 slot0 = class("GuildImpeachCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
 	if getProxy(GuildProxy):getData():inKickTime() then

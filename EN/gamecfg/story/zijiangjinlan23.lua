@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN23",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg12",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "Exercise Area - Turn 7 (Musashi's Action)",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "When Musashi's turn rolled around, Sakawa, who was still with Nagato's fleet, suddenly found herself surrounded by purple butterflies.",
 			typewriter = {
@@ -81,8 +81,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Lady Nagato, I think you've gotten your point across! Hopefully we won't have to fight anymore!",
 			painting = {
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "Sakawa looked towards the imposing tower in the middle of the exercise area. Akagi had tried to scout it out earlier, but waves of Siren enemies made any movement around the area difficult.",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "One after another, ships from the four fleets began to arrive around the tower.",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#A9F548FF",
 			say = "Ugh, please don't say that. The way the light is flickering makes it seem like it's breathing...",
 			painting = {
@@ -201,8 +201,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Do you think this tower represents some higher form of Siren?",
 			painting = {
@@ -218,8 +218,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#A9F548FF",
 			say = "How much \"higher\" can it be if it lost the ability to move around? Chitose, let's go smash that thing up, just the two of us!",
 			painting = {
@@ -251,8 +251,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Is everyone showing off the special techniques they've developed here? I guess I have no choice but to join in on the fun myself––",
 			painting = {
@@ -268,8 +268,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "Ahem! ...I am the piercer of the blue waves, inheritor of the Rakshasa's blade! True Demon Slash!",
 			painting = {
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "Sakawa and Wakatsuki both unleashed a blade of light from their riggings, the rippling bolts of energy expanding to several times their original size as they hurtled towards the tower.",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "Chitose and Chiyoda's combination attack also landed a direct hit on the base of the tower, a plume of flame and smoke quickly rising in the aftermath.",
 			typewriter = {
@@ -302,8 +302,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "But in a heartbeat, the tower released a nigh-intangible shockwave back at the shipgirls.",
 			typewriter = {
@@ -379,8 +379,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "It's too early to say... But if it's like the tower the Commander encountered during that battle, there might be something nasty sleeping inside.",
 			painting = {
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "However, the moment Musashi's fleet stopped attacking, a blinding flash radiated out from the tip of the tower, tearing violently through the entire domain.",
 			typewriter = {
@@ -422,8 +422,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "Wh-what in the world was that?! The tower's counterattacking for real now?",
 			painting = {
@@ -439,8 +439,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "Damnit, I spoke too soon... Watch out, everyone! Something's totally different about that tower!",
 			painting = {
@@ -453,8 +453,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg12",
 			say = "When the shipgirls gathered their senses from the previous shockwave, they quickly noticed that Kirishima, Suzutsuki, Chiyoda, and Yamashiro were no longer present. Instead, they had been replaced by Sirens.",
 			typewriter = {
@@ -462,17 +462,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -494,8 +494,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#A9F548FF",
 			say = "Kirishima... got taken out in one blow?!",
 			painting = {
@@ -511,8 +511,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "I guess the first pulse was just a warning shot... This tower seems to throw back all the energy we pump into it, several times over...",
 			painting = {
@@ -528,8 +528,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "Did the Commander also have to fight against an enemy like this, or...",
 			painting = {
@@ -545,8 +545,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "Three of Musashi's retainers were taken out in a single blow... They aren't even present in the domain anymore.",
 			painting = {
@@ -562,8 +562,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 301790,
 			dir = 1,
+			actor = 301790,
 			nameColor = "#A9F548FF",
 			say = "If Musashi designed this place, shouldn't she have been aware of exactly what she's up against? Why did she waste her own troops like this then?",
 			painting = {
@@ -579,8 +579,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 303100,
 			dir = 1,
+			actor = 303100,
 			nameColor = "#A9F548FF",
 			say = "G-Great Veteran, look over there at that Siren...",
 			painting = {
@@ -596,8 +596,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "The Arbiter that appeared in the NA Ocean...",
 			painting = {
@@ -661,8 +661,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "I'll admit, I'm impressed. How did you manage to procure data on an Arbiter and even manufacture a vessel for it?",
 			painting = {
@@ -694,8 +694,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "I won't forgive it for what it did... Making such a vile imitation of Amagi...",
 			painting = {
@@ -711,8 +711,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg12",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "Hahaha... Hahahahaha... Even if you're nothing more than a vessel, I'll make you pay!",
 			painting = {

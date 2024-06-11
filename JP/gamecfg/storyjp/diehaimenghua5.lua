@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong2_3",
-			actorName = "信濃",
 			dir = 1,
 			bgmDelay = 1,
-			say = "（これは……妾、眠っている……？）",
 			bgm = "story-4",
+			actorName = "信濃",
+			say = "（これは……妾、眠っている……？）",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "紀伊",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "涼月",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "信濃",
+			side = 2,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "紀伊",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "熊野",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "熊野",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "涼月",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "能代",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "熊野",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -178,8 +178,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "能代",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "能代",
+			side = 1,
 			bgName = "bg_xinnong2_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "（…妾の定めには、関わらせる気はない、と……）",
 			typewriter = {
@@ -246,8 +246,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「各々の定めを、無理に交えることは、望まぬ……」",
 			typewriter = {
@@ -260,11 +260,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "信濃さん、いまのってどういうこと？",
 			typewriter = {
 				speed = 0.05,
@@ -276,8 +276,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -305,8 +305,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "じゃあとりあえずスルーって感じ？",
 			typewriter = {
@@ -354,8 +354,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "こちら軽空母千歳。本島への輸送任務を遂行中。会えて嬉しい",
 			typewriter = {
@@ -371,8 +371,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "こちら戦艦紀伊。同じく本島へ航行中。輸送艦隊の護衛任務、いつもご苦労さん！",
 			typewriter = {
@@ -388,8 +388,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 301820,
 			dir = 1,
+			actor = 301820,
 			nameColor = "#a9f548",
 			say = "紀伊さんたちと航行しているのは…信濃さん！？",
 			typewriter = {
@@ -405,8 +405,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "信濃さんの「初航海」が見られるなんて！千歳姉、私たちすごくついてるよ！！",
 			typewriter = {
@@ -419,8 +419,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -450,8 +450,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "あれ？信濃さんって私たちとどこかで会ったことあったっけ？",
 			typewriter = {
@@ -464,8 +464,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -477,8 +477,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "「現し世ではなく、夢でならば……」",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "信濃さん、はじめまして、給兵艦の樫野です。今は輸送艦隊と一緒に輸送任務を遂行中です",
 			typewriter = {
@@ -511,8 +511,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "あの、余計な心配でしたらすみません、目覚めたばかりと聞いて…お体のほうは大丈夫でしょうか？",
 			typewriter = {
@@ -546,8 +546,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 319010,
 			dir = 1,
+			actor = 319010,
 			nameColor = "#a9f548",
 			say = "とんでもございません！あれは運送艦としての役目ですから、感謝されるようなことはなにもしていませんよ",
 			typewriter = {
@@ -563,8 +563,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "任務があるから、その…先に失礼。重桜本島までの船旅をごゆるりと",
 			typewriter = {

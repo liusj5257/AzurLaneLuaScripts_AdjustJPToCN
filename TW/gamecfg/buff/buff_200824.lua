@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 啾莱姆王召唤有翼啾莱姆 初始位置随机",
 	time = 15,
-	color = "yellow",
+	name = "2024异世界冒险 啾莱姆王召唤有翼啾莱姆 初始位置随机",
+	init_effect = "",
+	id = 200824,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200824,
+	color = "yellow",
 	icon = 200824,
 	last_effect = "",
 	effect_list = {

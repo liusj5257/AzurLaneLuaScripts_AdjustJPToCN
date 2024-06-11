@@ -1,24 +1,24 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GULITEGUANQIA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GULITEGUANQIA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "ssss-az-pv",
+			hidePaintEquip = true,
 			side = 2,
-			bgName = "bg_ssss_1",
 			dir = 1,
 			bgmDelay = 2,
-			hidePaintEquip = true,
+			bgName = "bg_ssss_1",
+			bgm = "ssss-az-pv",
 			actor = 10800010,
 			nameColor = "#a9f548",
 			say = "——어, 받았다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800010,
 			nameColor = "#a9f548",
 			say = "여보세요, 신죠, 너 지금 어디야?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,11 +64,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800020,
 			nameColor = "#a9f548",
 			say = "릿카? 걱정 마, 괴수는 이미 우리가 막고 있으니까.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,12 +79,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202111,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "막았다니…… 이건 무슨 전개야?",
 			typewriter = {
 				speed = 0.05,
@@ -99,11 +99,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800010,
 			nameColor = "#a9f548",
 			say = "너 지금 어디야? 도대체 무슨 일이 일어난 거야?",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,11 +136,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800020,
 			nameColor = "#a9f548",
 			say = "너희 그거 알아? 론의 의장에 있는 용은 진짜 쌔!",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,10 +154,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102163,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "론, 의장?",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,13 +198,13 @@ return {
 			}
 		},
 		{
-			actor = 10800010,
 			side = 2,
 			bgName = "bg_ssss_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "뭐, 뭐라고?————",
 			hidePaintEquip = true,
+			actor = 10800010,
+			nameColor = "#a9f548",
+			say = "뭐, 뭐라고?————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,11 +215,11 @@ return {
 			}
 		},
 		{
-			say = "쾅————!",
 			side = 2,
 			bgName = "bg_ssss_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "쾅————!",
 			flashN = {
 				color = {
 					1,
@@ -272,11 +272,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800010,
 			nameColor = "#a9f548",
 			say = "엄청 시끄러워!",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,8 +287,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -319,10 +319,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ssss_1",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102163,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "설마… 정말 괴수의 움직임이 멈췄어. 방금 포격이 사실인 거야?!",
 			typewriter = {
 				speed = 0.05,
@@ -334,8 +334,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -347,9 +347,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ssss_1",
-			paintingNoise = true,
-			dir = 1,
 			actor = 900318,
+			dir = 1,
+			paintingNoise = true,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "나를 가로막고 있는 적들아, 모두 사라져라!",
@@ -372,11 +372,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800010,
 			nameColor = "#a9f548",
 			say = "이건… 론의 목소리? 정말 론이 한 거야?",
-			hidePaintEquip = true,
 			effects = {
 				{
 					active = false,
@@ -396,11 +396,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800020,
 			nameColor = "#a9f548",
 			say = "맞아, 갑자기 괴수 같은 의장이 나타났어, 엄청난 파괴력에 심지어 움직이기까지 한다구.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,8 +411,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -462,11 +462,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_ssss_1",
-			actor = 10800020,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 10800020,
 			nameColor = "#a9f548",
 			say = "너희들은 안전한 위치에서 우리가 돌아갈 때까지 기다리고 있으면 돼.",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

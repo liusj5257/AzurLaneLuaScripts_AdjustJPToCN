@@ -7,9 +7,9 @@ return {
 			actor = 900233,
 			nameColor = "#ff5c5c",
 			actorName = "마왕",
+			say = "하하하, 살아서 내 성까지 오다니.",
 			side = 2,
 			bgm = "login-2022401jp",
-			say = "하하하, 살아서 내 성까지 오다니.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

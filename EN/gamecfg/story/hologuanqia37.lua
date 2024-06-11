@@ -1,19 +1,19 @@
 return {
-	id = "HOLOGUANQIA37",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA37",
 	fadein = 1.5,
 	scripts = {
 		{
-			blackBg = true,
-			side = 2,
-			stopbgm = true,
-			nameColor = "#ff5c5c",
-			dir = 1,
 			bgmDelay = 2,
-			actor = 900011,
+			side = 2,
 			actorName = "Tester?",
+			dir = 1,
+			blackBg = true,
+			stopbgm = true,
+			actor = 900011,
+			nameColor = "#ff5c5c",
 			say = "It looks like the experimental device was a success.",
 			flashin = {
 				delay = 1,
@@ -34,12 +34,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Advisor?",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "Advisor?",
 			say = "The short time limit is its main disadvantage, but it is, without a doubt, very effective at enhancing combat power.",
 			typewriter = {
 				speed = 0.05,
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "With a little more fine tuning, I'll be able to equip my mass-produced \"Pieces\" with these devices, Holoserver will also fall into my dominion over time and space!",
 			typewriter = {
 				speed = 0.05,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Advisor?",
 			dir = 1,
 			blackBg = true,
+			actor = 10500010,
+			actorName = "Advisor?",
 			say = "Indeed. This device is proof that you're gradually gaining control of the server. Once you've cleared all the authorizations, the Resistance will no longer pose any threat to you.",
 			typewriter = {
 				speed = 0.05,
@@ -85,12 +85,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "Tester?",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester?",
 			say = "That would be wonderful. I'll continue working then. I'll entrust you with the countermeasures.",
 			typewriter = {
 				speed = 0.05,
@@ -102,14 +102,14 @@ return {
 			}
 		},
 		{
-			say = "Meanwhile...",
 			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-inochi-inst",
+			say = "Meanwhile...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -136,9 +136,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Ahahahaha! HAHahah! Finally... we've finally found it! The Hololive headquarters! Let's go, Hololive Resistance!",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -223,8 +223,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "That is a possibility... We won't be able to reach the HQ building without crossing the sea first...",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "It's like we were playing on creative mode before, but now we're on survival mode!",
 			typewriter = {
 				speed = 0.05,
@@ -269,9 +269,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "20 boxes of TNT! Add this to what we already have, and we'd be able to blow away half of the original Holoserver!",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -296,8 +296,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "Huh? Did something like that happen before...?",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "Hmm? In that case, let's use this roller coaster that Shion and I made. We called it, the \"MioShio Coaster!\"",
 			typewriter = {
 				speed = 0.05,
@@ -373,8 +373,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500050,
 			dir = 1,
+			actor = 10500050,
 			say = "A few other friends helped with to build it. When the weather is clear, the view from the top is unbelievable.",
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 30,
@@ -429,8 +429,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "There should be an entrance near the observation deck! I'll go look for it!",
 			typewriter = {
 				speed = 0.05,

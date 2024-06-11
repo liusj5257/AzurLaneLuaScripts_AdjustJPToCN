@@ -1,6 +1,6 @@
 slot0 = class("SandiegoReformPage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.progress = slot0:findTF("progress/left", slot0.bg)
 	slot0.gameBtn = slot0:findTF("start", slot0.bg)
@@ -10,13 +10,13 @@ function slot0.OnInit(slot0)
 	slot0.nums = slot0:findTF("count", slot0.bg)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	if slot0.activity:getConfig("config_client")[1][1] ~= nil then
 		pg.NewStoryMgr.GetInstance():Play(slot1)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot1 = slot0.activity
 
 	setText(slot0.nums, _.reduce(_.slice(slot1:getConfig("config_client")[3], 1, slot1.data2), 0, function (slot0, slot1)
@@ -44,10 +44,10 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

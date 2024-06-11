@@ -1,17 +1,17 @@
 return {
-	id = "HUANGJINDEMIBAO4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUANGJINDEMIBAO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 100001,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "妹妹，來一決勝負吧buli！",
 			dir = 1,
 			bgm = "level03",
+			actor = 100001,
+			nameColor = "#a9f548",
+			say = "妹妹，來一決勝負吧buli！",
 			dialogShake = {
 				speed = 0.09,
 				x = 10,
@@ -27,8 +27,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -39,8 +39,8 @@ return {
 		{
 			actor = 100010,
 			nameColor = "#ff5c5c",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "沒錯！來一決勝負吧~purin.purin~!",
 			dialogShake = {
 				speed = 0.09,
@@ -87,8 +87,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -154,8 +154,8 @@ return {
 		{
 			actor = 100020,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "一決勝負吧！burin！burin！！ ",
 			dialogShake = {
 				speed = 0.09,

@@ -1,12 +1,12 @@
 return {
-	id = "W770000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W770000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "仲裁者·天帕岚斯————————作战开始",
 			typewriter = {
 				speed = 0.05,

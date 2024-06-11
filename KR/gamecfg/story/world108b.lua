@@ -1,19 +1,19 @@
 return {
-	id = "WORLD108B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD108B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/41/tb-41",
+			dir = 1,
 			bgm = "bsm-1",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "분석 모듈 동기화 중. 메탈 블러드의 함재기로 추정되는 비행 물체가 접근하고 있습니다. 공중전을 준비하십시오.",
-			voice = "event:/tb/41/tb-41",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,9 +82,9 @@ return {
 			actor = 107060,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "전투기, 산개! 적을 맞을 준비를 하라!",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

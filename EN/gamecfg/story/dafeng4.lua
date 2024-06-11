@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Taihou, Body and Soul\n\n<size=45>Chapter 4: A New Alliance(?)</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "While out for a stroll on my day off, I came across Taihou having a chat.",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "While out for a stroll on my day off, I came across Taihou having a chat.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a9f548",
+			actorName = "？？？",
 			bgName = "star_level_bg_103",
 			side = 1,
 			dir = 1,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "It was Shoukaku she was with.",
 			typewriter = {
 				speed = 0.05,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "Unlike certain aircraft carriers giving off that \"get the hell away from me\" vibe. Hehehe♪",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.2,
 					x = 0,
@@ -149,10 +149,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 307070,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "You're... You're talking about Akagi, aren't– Huh? This scent... my Commander?",
+			dir = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -183,11 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "Oooh, my Commander! Hehehe... did you come here just to see me? I'm. Touched~",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -209,9 +209,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Before long, the three of us were having tea together.",
 			typewriter = {
 				speed = 0.05,
@@ -235,12 +235,12 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			say = "Ahaha! There's no one alive who can match Taihou's love of my Commander. Not even Akagi.",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ahaha! There's no one alive who can match Taihou's love of my Commander. Not even Akagi.",
+			actor = 307070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -258,8 +258,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Now fighting strength is a different story. Akagi has a lot more battlefield experience than I do. Hrrm...",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Alliance?",
 			typewriter = {
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "Am I right, Commander?",
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Am I right, Commander?",
+			actor = 307050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "While I was a little worried about Shoukaku's ulterior motives, I figured it was best to let them handle this for themselves.",
 			typewriter = {
 				speed = 0.05,
@@ -385,10 +385,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 307070,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "(Whispering) Hehehe, let's see Akagi try to steal my Commander now!",
 			typewriter = {
 				speed = 0.05,
@@ -400,9 +400,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "I saw a side of Taihou I hadn't seen in my secretary ship. It was sneakier, craftier, maybe happier?",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENGLIFU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANCHENGLIFU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港の特別宴会\n\n<size=45>三　クリーブランド・エンターズ！</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
 			say = "母港・体育館の外",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 102092,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102092,
+			nameColor = "#a9f548",
 			say = "いやいや、やっぱり一人だけ男装なんておかしいだろ……",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -249,8 +249,8 @@ return {
 		{
 			bgName = "bg_story_litang",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -267,13 +267,13 @@ return {
 			}
 		},
 		{
-			actor = 102092,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "………………金ピカだ",
 			bgm = "story-1",
+			actor = 102092,
+			nameColor = "#a9f548",
+			say = "………………金ピカだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,14 +302,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_107",
 			actor = 207032,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "ヴィクトリアス、そちらはお任せしましたわ――",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -350,12 +350,12 @@ return {
 			}
 		},
 		{
-			actor = 102092,
+			say = "あははは……イラストリアスのドレスこそ名前通り輝かしい感じだと思うぜ？",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あははは……イラストリアスのドレスこそ名前通り輝かしい感じだと思うぜ？",
+			actor = 102092,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -423,8 +423,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "ユニコーンちゃん、私は比叡さんからパーティーのことを任されているので、もう少し見回りをしないといけませんわ。一人で大丈夫？",
 			typewriter = {
@@ -437,12 +437,12 @@ return {
 			}
 		},
 		{
-			actor = 206030,
+			say = "うん、ユニコーン、ここでお兄ちゃんのこと、待ってる",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "うん、ユニコーン、ここでお兄ちゃんのこと、待ってる",
+			actor = 206030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -460,8 +460,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "うふふ、ユニコーンちゃん、相変わらず指揮官様にべったりね",
 			typewriter = {
@@ -524,12 +524,12 @@ return {
 			}
 		},
 		{
-			actor = 102092,
+			say = "あれ？あれはエンタープライズじゃないか？なんか機嫌がいいみたいだな、やっぱエセックスがいるからなのか",
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "あれ？あれはエンタープライズじゃないか？なんか機嫌がいいみたいだな、やっぱエセックスがいるからなのか",
+			actor = 102092,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -547,8 +547,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "そうですね、エセックスは彼女にとってとても優秀な後輩ですもの。ここのところいつも上機嫌ですわ",
 			typewriter = {
@@ -577,12 +577,12 @@ return {
 			}
 		},
 		{
-			actor = 102092,
+			say = "うーん……ちょっと色々派手すぎて居づらそうな気がしてたんだけど…",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "うーん……ちょっと色々派手すぎて居づらそうな気がしてたんだけど…",
+			actor = 102092,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -616,8 +616,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "うふふ、それは良かったですわ",
 			typewriter = {
@@ -633,8 +633,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "私はもう少し見回りをしてきます。指揮官様がいらっしゃったらダンスパーティーが始まりますから、クリーブランドもそのうち忙しくなると思いますよ",
 			typewriter = {
@@ -663,11 +663,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "あ！姉貴！こっちです！",
 			typewriter = {
 				speed = 0.05,
@@ -679,8 +679,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -705,12 +705,12 @@ return {
 			}
 		},
 		{
-			actor = 102092,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102092,
+			nameColor = "#a9f548",
 			say = "おう、またあとでな",
 			typewriter = {
 				speed = 0.05,

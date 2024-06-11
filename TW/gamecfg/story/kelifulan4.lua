@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KELIFULAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KELIFULAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"騎士與獎賞\n\n<size=45>四 比賽開始！</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "籃球對抗賽當天·會場",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
-			say = "籃球對抗賽當天·會場",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "這一天終於來了……指揮官，我們都準備好了！比賽的指揮就靠你了！",
 			typewriter = {
 				speed = 0.05,
@@ -70,12 +70,12 @@ return {
 			}
 		},
 		{
-			actor = 102050,
+			say = "姐、姐姐！ ！別說了！",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐、姐姐！ ！別說了！",
+			actor = 102050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -106,13 +106,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "第一回合的比賽對手是“正義海狸”隊。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -133,11 +133,11 @@ return {
 			}
 		},
 		{
-			actor = 101110,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101110,
+			nameColor = "#a9f548",
 			say = "讓對手見識見識我們的正義吧！小海狸分隊，出擊！ ……咦？",
 			effects = {
 				{
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			actor = 101140,
+			say = "太麻煩了……我做替補就好啦。",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			actor = 101140,
 			dir = 1,
-			say = "太麻煩了……我做替補就好啦。",
+			nameColor = "#a9f548",
 			effects = {
 				{
 					active = false,
@@ -181,16 +181,16 @@ return {
 			}
 		},
 		{
-			actor = 101120,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101120,
+			nameColor = "#a9f548",
 			say = "哈哈哈斯彭斯又差點摔了！ ……啊啊啊要撞上了！",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 15,
@@ -239,9 +239,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "教練唐斯的努力也沒能挽回局面，克里夫蘭隊大獲全勝",
 			typewriter = {
 				speed = 0.05,
@@ -249,15 +249,15 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "好，開局還不錯！一口氣贏下冠軍吧！ ……不會有這麼好的事吧，嘿嘿♪",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
+			nameColor = "#a9f548",
 			say = "好！指揮官也睜大眼睛好好看著吧！我們會使出全力的♪",
 			typewriter = {
 				speed = 0.05,

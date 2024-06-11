@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MIWUZHIXIA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MIWUZHIXIA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Location unknown",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-6",
+			say = "Location unknown",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "As the fleet approached the origin point of the signal, they started finding Siren wreckages littering the ocean's surface.",
 			typewriter = {
 				speed = 0.05,
@@ -76,11 +76,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "Memphis, Helena, either of you heard anything over your comms?",
 			dialogShake = {
 				speed = 0.09,
@@ -100,8 +100,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Nope, I've heard nothing.",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "I've... Hang on... The Sirens have started jamming us!",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -160,8 +160,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Our comms have been down in every Mirror Sea we've come across, which means...!",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "Purifier",
 			say = "Yuup, it's me! The crowdpleaser, the one and only Purifier! Hello there, my little test subjects~",
 			typewriter = {
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "Purifier",
 			say = "Didn't think for a second that maybe there's a reason why you could still use your comms, eh?",
 			typewriter = {
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "Purifier",
 			say = "Oh, and the messages themselves? Guess what: never arrived!",
 			typewriter = {
@@ -307,9 +307,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "Purifier snapped her fingers, and just like that, the fog all around them vanished and exposed the sky above.",
 			effects = {
 				{
@@ -366,8 +366,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "We're in... the Bermuda Triangle!",
 			typewriter = {
@@ -380,8 +380,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -424,8 +424,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -437,8 +437,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Baltimore, I just received a transmission from the stronghold! We've–",
 			typewriter = {
@@ -451,11 +451,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "Purifier",
 			say = "Hold it, you're not going anywhere!",
 			typewriter = {
@@ -468,15 +468,15 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "Purifier snapped her fingers again, and the dense mist returned.",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -489,11 +489,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "Purifier",
 			say = "You're staying right where you are until the stars of the show turn up!",
 			typewriter = {
@@ -522,11 +522,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "Purifier",
 			say = "Good idea! We've got plenty of time to kill, so let's have ourselves some fuuuun!",
 			typewriter = {
@@ -539,14 +539,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
+			stopbgm = true,
 			say = "Canal Stronghold - Eastern Region",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -574,8 +574,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900228,
 			dir = 1,
+			actor = 900228,
 			nameColor = "#a9f548",
 			say = "*pant*... *pant*...!",
 			typewriter = {
@@ -588,8 +588,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -601,8 +601,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900228,
 			dir = 1,
+			actor = 900228,
 			nameColor = "#a9f548",
 			say = "D-do you think they're still after us?",
 			typewriter = {
@@ -618,8 +618,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900228,
 			dir = 1,
+			actor = 900228,
 			nameColor = "#a9f548",
 			say = "We need to hurry!",
 			typewriter = {
@@ -635,9 +635,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900228,
 			dir = 1,
 			blackBg = true,
+			actor = 900228,
 			nameColor = "#a9f548",
 			say = "Faster! Everyone needs to know what's going on out there!",
 			typewriter = {

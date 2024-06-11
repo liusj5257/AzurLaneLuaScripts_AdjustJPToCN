@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024愚人节 取消锁血",
 	time = 0,
-	color = "yellow",
+	name = "2024愚人节 取消锁血",
+	init_effect = "",
+	id = 200901,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200901,
+	color = "yellow",
 	icon = 200901,
 	last_effect = "",
 	effect_list = {
@@ -19,8 +19,8 @@ return {
 			arg_list = {
 				buff_id = 200440,
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				nationality = 98,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"

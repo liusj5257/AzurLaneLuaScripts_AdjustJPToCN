@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"港區逃離大作戰！\n\n<size=45>二　諜報戰！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 407020,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "前方轉角發現艦影…吃我一——咕唔唔唔…！",
 			bgm = "story-1",
+			actor = 407020,
+			nameColor = "#a9f548",
+			say = "前方轉角發現艦影…吃我一——咕唔唔唔…！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					x = 0,
@@ -65,8 +65,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "小齊柏林！不能用艦裝打人啦！",
 			typewriter = {
@@ -98,10 +98,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 407020,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "咳咳！妳說得沒錯。那就讓這個人來給我們帶路吧",
+			dir = 1,
+			actor = 407020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -135,8 +135,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "……欸？",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "這關係到身為“御召艦“的尊嚴！小齊柏林既然是鐵血海軍的明日之星的話，也不可以向這麼小的驅逐艦乞求回答哦",
 			typewriter = {
@@ -185,8 +185,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "靜靜地跟在她後面，然後逐步把路線掌握就行……也就是說，要進行諜報戰了",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "原來如此…我明白了。哼，讓妳見識下不輸給專業人士的潛行技能吧…！",
 			typewriter = {
@@ -232,13 +232,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "(快一小時後)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,8 +282,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "累死了啊啊啊啊動不了啦啊啊啊……",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -309,8 +309,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "小齊柏林，中途看丟了好幾次吧……不如說中途因為好奇心而繞了好幾次彎路不是嗎？",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "就、就是很在意啊！沒辦法…妳不也一樣在經過廚房的時候差點一步都走不動嗎！",
 			typewriter = {
@@ -359,8 +359,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_103",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "哼、哼哼哼……我的話就更不用問了……",
 			typewriter = {
@@ -373,11 +373,11 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
 			dir = -1,
+			actor = 304060,
 			actorName = "兩人",
 			say = "怎、怎麼辦……",
 			typewriter = {
@@ -390,8 +390,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "？？？",
+			side = 0,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -406,12 +406,12 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
 			dir = -1,
 			blackBg = true,
+			actor = 304060,
 			actorName = "兩人",
 			say = "妳、妳是……！？",
 			typewriter = {

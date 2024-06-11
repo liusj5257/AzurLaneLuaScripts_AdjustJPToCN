@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA7",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 305110,
-			side = 2,
-			soundeffect = "event:/battle/plane",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "轟炸機群？！",
 			bgm = "cw-battle-boss",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 305110,
+			nameColor = "#a9f548",
+			say = "轟炸機群？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.12,
 					x = 30,
@@ -36,8 +36,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "我從資料上看到過哦，大前輩的艦裝似乎缺乏對空作戰的設備——",
 			typewriter = {
 				speed = 0.05,
@@ -52,8 +52,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "不擅長應付來自空中的威脅，就是大前輩的弱點吧！",
 			typewriter = {
 				speed = 0.05,

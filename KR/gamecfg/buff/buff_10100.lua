@@ -62,12 +62,12 @@ return {
 	desc_get = "主炮射击时有20%几率触发，自身机动属性提升60.0%(满级100.0%)，持续15秒",
 	name = "爪哇海岸的跳跳鬼",
 	init_effect = "",
+	id = 10100,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "主炮射击时有20%几率触发，自身机动属性提升$1，持续15秒",
 	stack = 1,
-	id = 10100,
+	color = "blue",
 	icon = 10100,
 	last_effect = "",
 	effect_list = {
@@ -77,9 +77,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				rant = 2000,
-				time = 10,
 				skill_id = 10100,
+				time = 10,
+				rant = 2000,
 				target = "TargetSelf",
 				index = {
 					1

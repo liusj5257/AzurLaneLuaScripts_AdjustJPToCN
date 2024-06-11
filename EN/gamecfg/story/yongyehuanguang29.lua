@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG29",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YONGYEHUANGUANG29",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401020,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-boss-2",
 			dir = 1,
 			say = "It seems that the Sirens have joined the fight and are assisting us in flanking the Royal Navy.",
+			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "So what you're telling me is... You're going to give up already?",
 			typewriter = {
 				speed = 0.05,
@@ -116,13 +116,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 401360,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "Admiral Hipper! A large number of Siren planes are headed your way!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -165,8 +165,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401360,
 			dir = 1,
+			actor = 401360,
 			say = "We've got orders to withdraw from Eugen! Hurry it up!",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -206,8 +206,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "I understand. I'll try to get in touch with her, but we've finished the operation. Get ready to head back.",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "Yes. The plan is still on track.",
 			typewriter = {
 				speed = 0.05,
@@ -265,14 +265,14 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "The Iron Blood fleet is retreating. It's only sensible that they'd prioritize the Siren problem first.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -315,8 +315,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "They say that \"yesterday's foe may be today's friend,\" but we seem to still be stuck in yesterday.",
 			typewriter = {
 				speed = 0.05,
@@ -346,8 +346,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "Be careful, everyone, there's something different about these Sirens...!",
 			typewriter = {
 				speed = 0.05,

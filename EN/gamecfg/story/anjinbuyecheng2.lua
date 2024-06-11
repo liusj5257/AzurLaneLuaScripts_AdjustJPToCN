@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "story-antarctica-serious",
 			side = 2,
 			bgName = "star_level_bg_130",
+			soundeffect = "event:/battle/boom2",
+			bgm = "story-antarctica-serious",
 			nameColor = "#A9F548FF",
 			say = "*KABOOOOM!*",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -74,9 +74,9 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_154",
 			factiontag = "Security Assault Team Captain",
 			dir = 1,
+			bgName = "star_level_bg_154",
 			actor = 718011,
 			nameColor = "#FF9B93",
 			live2d = "main1",
@@ -90,17 +90,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -132,11 +132,11 @@ return {
 			}
 		},
 		{
-			actor = 701111,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Security Assault Team Member",
 			dir = 1,
+			actor = 701111,
 			nameColor = "#FF9B93",
 			say = "Waaaaah! I'm sorryyyy!",
 			painting = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -177,11 +177,11 @@ return {
 			}
 		},
 		{
-			actor = 701111,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Security Assault Team Member",
 			dir = 1,
+			actor = 701111,
 			nameColor = "#FF9B93",
 			say = "M-my weapons broke?!",
 			painting = {
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "The jail cell's iron-barred window isn't just blown away; a big hole has been made in the wall.",
 			typewriter = {
@@ -203,17 +203,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -221,8 +221,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "However, one would need the wings of Icarus to reach a prison cell located so high in a tower with security this tight.",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "Fortunately, one set of steel wings has accomplished just that.",
 			typewriter = {
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "Amidst the booming of the helicopter engine, she descends from the hole in the wall like an angel sent from above.",
 			typewriter = {
@@ -317,12 +317,12 @@ return {
 			}
 		},
 		{
-			actor = 705061,
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "Resistance Agent",
 			dir = 1,
 			optionFlag = 1,
+			actor = 705061,
 			nameColor = "#A9F548FF",
 			say = "You led the attack on her caravan, no?",
 			painting = {
@@ -392,11 +392,11 @@ return {
 			}
 		},
 		{
-			actor = 705061,
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "Resistance Agent",
 			dir = 1,
+			actor = 705061,
 			nameColor = "#A9F548FF",
 			say = "Tales of your heroism are spreading all over the Sleepless City.",
 			painting = {
@@ -439,8 +439,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "I remember the phantom Pamiat's words.",
 			typewriter = {
@@ -619,9 +619,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_154",
 			factiontag = "Prison Patrol Member",
 			dir = 1,
+			bgName = "star_level_bg_154",
 			actor = 213043,
 			nameColor = "#FF9B93",
 			say = "Tee hee~ Security patrol speaking!",
@@ -634,17 +634,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -670,8 +670,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -698,11 +698,11 @@ return {
 			}
 		},
 		{
-			actor = 213043,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Prison Patrol Member",
 			dir = 1,
+			actor = 213043,
 			nameColor = "#FF9B93",
 			say = "Otherwise, we cannot guarantee your safety~",
 			painting = {
@@ -715,8 +715,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -727,9 +727,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_130",
 			factiontag = "Resistance Agent",
 			dir = 1,
+			bgName = "star_level_bg_130",
 			actor = 705061,
 			nameColor = "#A9F548FF",
 			say = "Damn. I didn't think Kronshtadt would send backup so fast...",
@@ -742,17 +742,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -760,11 +760,11 @@ return {
 			}
 		},
 		{
-			actor = 705061,
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "Resistance Agent",
 			dir = 1,
+			actor = 705061,
 			nameColor = "#A9F548FF",
 			say = "But it's fine. The Resistance means to cooperate with your plans anyway.",
 			painting = {
@@ -795,11 +795,11 @@ return {
 			}
 		},
 		{
-			actor = 705061,
 			side = 2,
 			bgName = "star_level_bg_130",
 			factiontag = "Resistance Agent",
 			dir = 1,
+			actor = 705061,
 			nameColor = "#A9F548FF",
 			say = "The rest is up to you to figure out.",
 			painting = {
@@ -830,8 +830,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			say = "After the mysterious agent leaves, the helicopter suddenly rises upward and flies away from the jail.",
 			typewriter = {
@@ -839,17 +839,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -912,11 +912,11 @@ return {
 			}
 		},
 		{
-			actor = 701111,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Security Assault Team Member",
 			dir = 1,
+			actor = 701111,
 			nameColor = "#FF9B93",
 			say = "H-Huuuh?! What?!",
 			painting = {
@@ -929,8 +929,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -939,11 +939,11 @@ return {
 			}
 		},
 		{
-			actor = 718011,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Security Assault Team Captain",
 			dir = 1,
+			actor = 718011,
 			nameColor = "#FF9B93",
 			live2d = "main2",
 			say = "Calling all units from the prison! I repeat, calling ALL units on duty!",
@@ -976,11 +976,11 @@ return {
 			}
 		},
 		{
-			actor = 718011,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "Security Assault Team Captain",
 			dir = 1,
+			actor = 718011,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "Ognevoy, you stay here! Abercrombie, ensure all water routes are sealed!",
@@ -1042,26 +1042,26 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
+			side = 2,
 			say = "The helicopter noise and security vehicle sirens gradually fade away.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1075,8 +1075,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "It seems Arkhangelsk managed to draw security's attention. That only leaves the question of how I can escape this place.",
 			typewriter = {
@@ -1085,8 +1085,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "Jumping out of the hole in the wall is obviously out of the question. Even if I managed to hit water from this height, the surface tension would still kill me.",
 			typewriter = {
@@ -1110,11 +1110,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_130",
-			nameColor = "#FF9B93",
-			live2d = true,
-			actor = 101452,
 			actorName = "???",
 			live2dIdleIndex = 1,
+			actor = 101452,
+			nameColor = "#FF9B93",
+			live2d = true,
 			say = "More the opposite! When things get rough, I say you should go with the flow.",
 			typewriter = {
 				speed = 0.05,
@@ -1122,8 +1122,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "An unexpected voice comes from the dark of the hallway.",
 			typewriter = {
@@ -1132,8 +1132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "A girl wearing a security uniform peeks in through the prison cell's bars.",
 			typewriter = {
@@ -1154,8 +1154,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "Part of me starts to regret not taking the \"jump out the window\" idea more seriously.",
 			typewriter = {
@@ -1164,8 +1164,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "But she suddenly whips out a key and opens the cell door for me.",
 			typewriter = {
@@ -1177,10 +1177,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = "main2",
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "???",
-			nameColor = "#A9F548FF",
+			live2d = "main2",
 			say = "Open sesame! Heheh, come on. I'm not a prison guard!",
 			typewriter = {
 				speed = 0.05,
@@ -1191,10 +1191,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "Phantom Thief Miss Terious",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Allen M. Sumner, also known as the phantom thief Miss Terious! Your reputation precedes you, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -1205,10 +1205,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = "main3",
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "Phantom Thief Miss Terious",
-			nameColor = "#A9F548FF",
+			live2d = "main3",
 			say = "It's kind of amazing how easy it was to infiltrate this place.",
 			typewriter = {
 				speed = 0.05,
@@ -1225,10 +1225,10 @@ return {
 			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "Phantom Thief Miss Terious",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Nope. I'm just a phantom thief flying solo and free. I'll die before I fight for someone else.",
 			typewriter = {
 				speed = 0.05,
@@ -1239,10 +1239,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "Phantom Thief Miss Terious",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "I only care about things that pique my interest, such as... you, you little big-shot.",
 			typewriter = {
 				speed = 0.05,
@@ -1265,10 +1265,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = "main3",
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "Phantom Thief Miss Terious",
-			nameColor = "#A9F548FF",
+			live2d = "main3",
 			say = "Heheh, that's right. You've really piqued my interest.",
 			typewriter = {
 				speed = 0.05,
@@ -1279,10 +1279,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "Phantom Thief Miss Terious",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Besides, I hear this prison is where they stow the baddest of the bad.",
 			typewriter = {
 				speed = 0.05,
@@ -1293,10 +1293,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "Phantom Thief Miss Terious",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Stealing a legend like you is the challenge of a lifetime. How could I, the legendary phantom thief, refuse?",
 			typewriter = {
 				speed = 0.05,
@@ -1307,10 +1307,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = "main1",
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "Phantom Thief Miss Terious",
-			nameColor = "#A9F548FF",
+			live2d = "main1",
 			say = "Phantom thieves are all about stealing heavily defended things, right?",
 			typewriter = {
 				speed = 0.05,
@@ -1318,8 +1318,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "Her explanation is simultaneously dubious and overconfident.",
 			typewriter = {
@@ -1328,8 +1328,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "But strangely, it convinces me to trust her.",
 			typewriter = {
@@ -1338,8 +1338,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			say = "Is it because I've heard that line somewhere before?",
 			typewriter = {
@@ -1351,10 +1351,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "Phantom Thief Miss Terious",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Hellooo? Don't just stand there like a lump.",
 			typewriter = {
 				speed = 0.05,
@@ -1365,10 +1365,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_130",
-			live2d = true,
+			nameColor = "#A9F548FF",
 			actor = 101452,
 			actorName = "Phantom Thief Miss Terious",
-			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "They're going to figure out my decoys soon, so we gotta get out of here fast.",
 			typewriter = {
 				speed = 0.05,

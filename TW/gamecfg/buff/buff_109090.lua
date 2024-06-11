@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 109090,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 109090,
+	color = "red",
 	icon = 109090,
 	last_effect = "",
 	effect_list = {
@@ -35,8 +35,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 1,
+				attr = "cri",
 				index = {
 					1091
 				}

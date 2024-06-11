@@ -1,6 +1,6 @@
 slot0 = class("ShinanoframePage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.goBtn = slot0:findTF("GoBtn", slot0.bg)
 	slot0.getBtn = slot0:findTF("GetBtn", slot0.bg)
@@ -22,7 +22,7 @@ function slot0.OnInit(slot0)
 	setActive(slot0.phaseTF_2, false)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	if slot0.ptData then
 		slot0.ptData:Update(slot0.activity)
 	else
@@ -30,7 +30,7 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.goBtn, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.TASK)
 	end, SFX_PANEL)
@@ -50,7 +50,7 @@ function slot0.OnFirstFlush(slot0)
 	setParent(LoadAndInstantiateSync("IconFrame", tostring(slot0.ptData.dropList[1][2])), slot0.frameTF, false)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	if not getProxy(ActivityProxy):getActivityById(ActivityConst.SHINANO_EXP_ACT_ID) or slot1:isEnd() then
 		setActive(slot0.phaseTF_1, false)
 		setActive(slot0.phaseTF_2, true)
@@ -82,7 +82,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

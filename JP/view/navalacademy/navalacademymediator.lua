@@ -18,7 +18,7 @@ slot0.GO_TASK_SCENE = "NavalAcademyMediator:GO_TASK_SCENE"
 slot0.ON_GET_CLASS_RES = "NavalAcademyMediator:ON_GET_CLASS_RES"
 slot0.ON_GET_RES = "NavalAcademyMediator:ON_GET_RES"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_GET_CLASS_RES, function (slot0)
 		uv0:sendNotification(GAME.HARVEST_CLASS_RES)
 	end)
@@ -100,7 +100,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetPlayer(getProxy(PlayerProxy):getData())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.LOAD_LAYERS,
 		GAME.REMOVE_LAYERS,
@@ -115,7 +115,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.LOAD_LAYERS then

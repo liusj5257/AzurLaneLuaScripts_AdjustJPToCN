@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "Gungnir击中特效",
 	time = 1,
+	name = "Gungnir击中特效",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "accuracyRateExtra",
-				number = 0
+				number = 0,
+				attr = "accuracyRateExtra"
 			}
 		}
 	}

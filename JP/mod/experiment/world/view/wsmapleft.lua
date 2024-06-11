@@ -1,29 +1,29 @@
 slot0 = class("WSMapLeft", import("...BaseEntity"))
 slot0.Fields = {
 	map = "table",
-	fleet = "table",
+	rtShip = "userdata",
 	rtArrow = "userdata",
 	delayCallFuncs = "table",
 	toggles = "table",
-	onAgonyClickEnabled = "boolean",
+	rtFleet = "userdata",
 	rtAmmo = "userdata",
 	toggleSelected = "userdata",
 	onAgonyClick = "function",
 	rtSubBar = "userdata",
 	btnCollapse = "userdata",
-	world = "table",
+	rtFleetBar = "userdata",
 	toggleMask = "userdata",
 	rtBG = "userdata",
+	fleet = "table",
+	transform = "userdata",
+	onAgonyClickEnabled = "boolean",
+	world = "table",
 	rtVanguard = "userdata",
 	rtSalvageList = "userdata",
 	toggleList = "userdata",
 	onLongPress = "function",
-	rtFleet = "userdata",
-	transform = "userdata",
-	rtShip = "userdata",
 	onClickSalvage = "function",
-	rtMain = "userdata",
-	rtFleetBar = "userdata"
+	rtMain = "userdata"
 }
 slot0.Listeners = {
 	onUpdateShipHpRate = "OnUpdateShipHpRate",
@@ -35,7 +35,7 @@ slot0.Listeners = {
 }
 slot0.EventSelectFleet = "WSMapLeft.EventSelectFleet"
 
-function slot0.Setup(slot0)
+slot0.Setup = function(slot0)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.delayCallFuncs = {}
@@ -45,8 +45,8 @@ function slot0.Setup(slot0)
 	slot0:UpdateAllCatSalvage()
 end
 
-function slot0.Dispose(slot0)
-	function slot1(slot0)
+slot0.Dispose = function(slot0)
+	slot1 = function(slot0)
 		LeanTween.cancel(go(slot0))
 		LeanTween.cancel(go(slot0:Find("text")))
 	end
@@ -70,7 +70,7 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0.transform
 	slot0.rtBG = slot1:Find("bg")
 	slot0.rtFleet = slot0.rtBG:Find("fleet")
@@ -111,7 +111,7 @@ function slot0.Init(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.AddWorldListener(slot0)
+slot0.AddWorldListener = function(slot0)
 	slot2 = nowWorld()
 
 	underscore.each(slot2:GetNormalFleets(), function (slot0)
@@ -119,7 +119,7 @@ function slot0.AddWorldListener(slot0)
 	end)
 end
 
-function slot0.RemoveWorldListener(slot0)
+slot0.RemoveWorldListener = function(slot0)
 	slot2 = nowWorld()
 
 	underscore.each(slot2:GetNormalFleets(), function (slot0)
@@ -127,7 +127,7 @@ function slot0.RemoveWorldListener(slot0)
 	end)
 end
 
-function slot0.UpdateMap(slot0, slot1)
+slot0.UpdateMap = function(slot0, slot1)
 	slot0:RemoveMapListener()
 
 	slot0.map = slot1
@@ -137,19 +137,19 @@ function slot0.UpdateMap(slot0, slot1)
 	slot0:OnUpdateSubmarineSupport()
 end
 
-function slot0.AddMapListener(slot0)
+slot0.AddMapListener = function(slot0)
 	if slot0.map then
 		slot0.map:AddListener(WorldMap.EventUpdateFIndex, slot0.onUpdateSelectedFleet)
 	end
 end
 
-function slot0.RemoveMapListener(slot0)
+slot0.RemoveMapListener = function(slot0)
 	if slot0.map then
 		slot0.map:RemoveListener(WorldMap.EventUpdateFIndex, slot0.onUpdateSelectedFleet)
 	end
 end
 
-function slot0.AddFleetListener(slot0, slot1)
+slot0.AddFleetListener = function(slot0, slot1)
 	if slot1 then
 		slot1:AddListener(WorldMapFleet.EventUpdateShipOrder, slot0.onUpdateFleetOrder)
 		slot1:AddListener(WorldMapFleet.EventUpdateBuff, slot0.onUpdateFleetBar)
@@ -160,7 +160,7 @@ function slot0.AddFleetListener(slot0, slot1)
 	end
 end
 
-function slot0.RemoveFleetListener(slot0, slot1)
+slot0.RemoveFleetListener = function(slot0, slot1)
 	if slot1 then
 		slot1:RemoveListener(WorldMapFleet.EventUpdateShipOrder, slot0.onUpdateFleetOrder)
 		slot1:RemoveListener(WorldMapFleet.EventUpdateBuff, slot0.onUpdateFleetBar)
@@ -171,7 +171,7 @@ function slot0.RemoveFleetListener(slot0, slot1)
 	end
 end
 
-function slot0.OnUpdateSelectedFleet(slot0)
+slot0.OnUpdateSelectedFleet = function(slot0)
 	if slot0.fleet ~= slot0.map:GetFleet() then
 		slot0:RemoveFleetListener(slot0.fleet)
 
@@ -188,7 +188,7 @@ function slot0.OnUpdateSelectedFleet(slot0)
 	end
 end
 
-function slot0.UpdateAllCatSalvage(slot0)
+slot0.UpdateAllCatSalvage = function(slot0)
 	slot2 = slot0.rtSalvageList:GetChild(0)
 
 	for slot6 = slot0.rtSalvageList.childCount + 1, #nowWorld():GetNormalFleets() do
@@ -204,7 +204,7 @@ function slot0.UpdateAllCatSalvage(slot0)
 	end)
 end
 
-function slot0.OnUpdateCatSalvage(slot0, slot1, slot2)
+slot0.OnUpdateCatSalvage = function(slot0, slot1, slot2)
 	slot3 = slot2:IsCatSalvage()
 
 	setActive(slot0.rtSalvageList:GetChild(slot2.index - 1), slot3)
@@ -222,7 +222,7 @@ function slot0.OnUpdateCatSalvage(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateSubmarineSupport(slot0)
+slot0.OnUpdateSubmarineSupport = function(slot0)
 	slot1 = nowWorld()
 
 	setActive(slot0.rtSubBar, slot1:IsSubmarineSupporting())
@@ -235,14 +235,14 @@ function slot0.OnUpdateSubmarineSupport(slot0)
 	end
 end
 
-function slot0.OnUpdateFleetOrder(slot0)
+slot0.OnUpdateFleetOrder = function(slot0)
 	slot0.delayCallFuncs = {}
 
 	slot0:UpdateShipList(slot0.rtMain, slot0.fleet:GetTeamShips(TeamType.Main, true))
 	slot0:UpdateShipList(slot0.rtVanguard, slot0.fleet:GetTeamShips(TeamType.Vanguard, true))
 end
 
-function slot0.GetShipObject(slot0, slot1)
+slot0.GetShipObject = function(slot0, slot1)
 	for slot6, slot7 in pairs({
 		[TeamType.Main] = slot0.rtMain,
 		[TeamType.Vanguard] = slot0.rtVanguard
@@ -255,7 +255,7 @@ function slot0.GetShipObject(slot0, slot1)
 	end
 end
 
-function slot0.OnUpdateShipHpRate(slot0, slot1, slot2)
+slot0.OnUpdateShipHpRate = function(slot0, slot1, slot2)
 	assert(slot0:GetShipObject(slot2), "can not find this ship in display fleet: " .. slot2.id)
 	table.insert(slot0.delayCallFuncs[slot2.id], function ()
 		uv0:ShipDamageDisplay(uv1, uv2, true)
@@ -266,11 +266,11 @@ function slot0.OnUpdateShipHpRate(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnUpdateShipBroken(slot0, slot1, slot2)
+slot0.OnUpdateShipBroken = function(slot0, slot1, slot2)
 	setActive(slot0:GetShipObject(slot2):Find("broken"), slot2:IsBroken())
 end
 
-function slot0.OnUpdateFleetBar(slot0, slot1, slot2)
+slot0.OnUpdateFleetBar = function(slot0, slot1, slot2)
 	slot3 = slot2:GetWatchingBuff()
 
 	setActive(slot0.rtFleetBar:Find("watching_buff"), slot3)
@@ -284,7 +284,7 @@ function slot0.OnUpdateFleetBar(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateShipList(slot0, slot1, slot2)
+slot0.UpdateShipList = function(slot0, slot1, slot2)
 	slot3 = UIItemList.New(slot1, slot0.rtShip)
 
 	slot3:make(function (slot0, slot1, slot2)
@@ -314,7 +314,7 @@ function slot0.UpdateShipList(slot0, slot1, slot2)
 	slot3:align(#slot2)
 end
 
-function slot0.ShipDamageDisplay(slot0, slot1, slot2, slot3)
+slot0.ShipDamageDisplay = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2:Find("HP_POP")
 
 	setActive(slot4, true)
@@ -326,7 +326,7 @@ function slot0.ShipDamageDisplay(slot0, slot1, slot2, slot3)
 	if slot3 then
 		slot7 = WorldConst.FetchShipVO(slot1.id)
 
-		function slot9(slot0, slot1)
+		slot9 = function(slot0, slot1)
 			setActive(slot0, true)
 			setText(findTF(slot0, "text"), slot1)
 			setTextAlpha(findTF(slot0, "text"), 0)
@@ -359,7 +359,7 @@ function slot0.ShipDamageDisplay(slot0, slot1, slot2, slot3)
 			end)
 		end
 
-		function slot10(slot0)
+		slot10 = function(slot0)
 			LeanTween.moveX(slot0, slot0.transform.localPosition.x, 0.05):setEase(LeanTweenType.easeInOutSine):setLoopPingPong(4)
 			LeanTween.alpha(findTF(slot0, "red"), 0.5, 0.4)
 			LeanTween.alpha(findTF(slot0, "red"), 0, 0.4):setDelay(0.4)
@@ -385,7 +385,7 @@ function slot0.ShipDamageDisplay(slot0, slot1, slot2, slot3)
 	setActive(slot2:Find("broken"), slot1:IsBroken())
 end
 
-function slot0.ShowToggleMask(slot0, slot1)
+slot0.ShowToggleMask = function(slot0, slot1)
 	slot2 = slot0.toggleList.position
 	slot2.x = slot0.rtFleetBar.position.x
 	slot0.toggleList.position = slot2
@@ -424,11 +424,11 @@ function slot0.ShowToggleMask(slot0, slot1)
 	end
 end
 
-function slot0.HideToggleMask(slot0)
+slot0.HideToggleMask = function(slot0)
 	setActive(slot0.toggleMask, false)
 end
 
-function slot0.Collpase(slot0)
+slot0.Collpase = function(slot0)
 	setActive(slot0.rtFleet, not isActive(slot0.rtFleet))
 
 	slot1 = slot0.rtArrow.localScale

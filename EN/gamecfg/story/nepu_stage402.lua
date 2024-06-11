@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE402",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE402",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -71,13 +71,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "Yes. Well done, everyone.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "Yes. Well done, everyone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,13 +103,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "Indeed, that is the case. The data from the Mirror Seas, and the data from your clones... I've managed to collect it all.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "Indeed, that is the case. The data from the Mirror Seas, and the data from your clones... I've managed to collect it all.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,13 +120,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "With this, I will be able to re-open a wormhole connecting Gamindustri to this world. You will be able to return at any time.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "With this, I will be able to re-open a wormhole connecting Gamindustri to this world. You will be able to return at any time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,8 +219,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "You don't need to be in such a hurry... it's fine to stay at the academy a bit longer...",
 			typewriter = {
 				speed = 0.05,
@@ -337,30 +337,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
-			nameColor = "#a9f548",
-			actorName = "Histoire",
-			dir = 1,
-			withoutPainting = true,
 			say = "Yes, please come back as soon as possible.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
-			actor = 0,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "However, that being said, you are able to travel back to this dimension whenever you want, you know?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,10 +354,27 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
-			actorShadow = true,
+			say = "However, that being said, you are able to travel back to this dimension whenever you want, you know?",
+			side = 2,
 			nameColor = "#a9f548",
+			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
+			withoutPainting = true,
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			actorShadow = true,
 			side = 0,
+			nameColor = "#a9f548",
+			actor = 10100010,
 			dir = -1,
 			hideOther = true,
 			actorName = "Neptune & Noire",
@@ -398,10 +398,10 @@ return {
 			}
 		},
 		{
-			actor = 10100030,
 			actorShadow = true,
-			nameColor = "#a9f548",
 			side = 0,
+			nameColor = "#a9f548",
+			actor = 10100030,
 			dir = 1,
 			hideOther = true,
 			actorName = "Blanc & Vert",
@@ -434,13 +434,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "Because of the remarkable affinity between Gamindustri and this world, I am able to open the wormhole at any time.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "Because of the remarkable affinity between Gamindustri and this world, I am able to open the wormhole at any time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,13 +451,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "Therefore, it's \"see you later,\" not \"goodbye.\" If you wanted to come back tomorrow, you would be able to. As such, do not worry too much about not being able to see each other.",
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Histoire",
 			dir = 1,
+			actor = 0,
+			actorName = "Histoire",
 			withoutPainting = true,
-			say = "Therefore, it's \"see you later,\" not \"goodbye.\" If you wanted to come back tomorrow, you would be able to. As such, do not worry too much about not being able to see each other.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,8 +580,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "... Mm, I'll be waiting for everyone to come.",
 			typewriter = {
 				speed = 0.05,
@@ -623,16 +623,16 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			actorName = "Tester α",
 			side = 2,
-			nameColor = "#ff0000",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			nameColor = "#ff0000",
 			say = "As just an observer, I never expected yet another anomalous occurence",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -657,12 +657,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester α",
 			say = "Those visitors from another dimension... might actually settle in this world? And they will lend their strength to those who oppose us...",
 			typewriter = {
 				speed = 0.05,
@@ -674,12 +674,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester α",
 			say = "Is this yet another facet... of the myriad possibilities of the future that we are pursuing?",
 			typewriter = {
 				speed = 0.05,
@@ -691,12 +691,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester α",
 			say = "... Hehehe, this kind of development... isn't all bad.",
 			typewriter = {
 				speed = 0.05,
@@ -708,12 +708,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester α",
 			say = "... Then, let us continue...observing them...",
 			typewriter = {
 				speed = 0.05,
@@ -725,12 +725,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Tester α",
 			dir = 1,
 			blackBg = true,
+			actor = 900011,
+			actorName = "Tester α",
 			say = "Patiently... ...",
 			typewriter = {
 				speed = 0.05,

@@ -1,17 +1,17 @@
 return {
-	id = "FUXIANGXIANZUOZHAN18",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN18",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 403090,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "Strasser, do you read me? We're just about to arrive at the coordinates you sent!",
 			dir = 1,
 			bgm = "xinnong-2",
+			actor = 403090,
+			nameColor = "#a9f548",
+			say = "Strasser, do you read me? We're just about to arrive at the coordinates you sent!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -35,8 +35,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "We read you. Those Iron Blood Pawns apparently figured out what we're up to, so be quick.",
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			say = "Roger-dodger! Wait... Weser? Why didn't Strasser pick up?",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "She's getting ready for a battle with the mass-produced ships and Pawns, to put a stop to them. You'll follow my orders for the time being.",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -107,13 +107,13 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Hey, some Pawn-looking ship just turned up! Eisen, what do you think we should do?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 406010,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 406010,
+			nameColor = "#a9f548",
 			say = "And when was the last time your intuition was right?",
 			effects = {
 				{
@@ -163,8 +163,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			nameColor = "#a9f548",
 			say = "Never, I guess... Wait! It was right just today!",
 			effects = {
@@ -183,11 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 403090,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403090,
+			nameColor = "#a9f548",
 			say = "Those ships who wouldn't answer our radio message? Pawns. Those ships who sent us garbled radio messages? Pawns! Those ships who attacked us out of nowhere? Pawns! All of them!",
 			effects = {
 				{
@@ -207,9 +207,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Right, let's give 'em a call and see for ourselves...",
 			effects = {
 				{
@@ -227,8 +227,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			nameColor = "#ff5c5c",
 			dir = 1,
 			say = "......",
@@ -257,8 +257,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

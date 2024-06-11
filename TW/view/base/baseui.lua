@@ -21,7 +21,7 @@ slot0.ON_SPWEAPON = "BaseUI:ON_SPWEAPON"
 slot0.ON_SHIP_EXP = "BaseUI.ON_SHIP_EXP"
 slot0.ON_BACK_PRESSED = "BaseUI:ON_BACK_PRESS"
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0._isLoaded = false
@@ -30,39 +30,39 @@ function slot0.Ctor(slot0)
 	slot0._isCachedView = false
 end
 
-function slot0.setContextData(slot0, slot1)
+slot0.setContextData = function(slot0, slot1)
 	slot0.contextData = slot1
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return nil
 end
 
-function slot0.needCache(slot0)
+slot0.needCache = function(slot0)
 	return false
 end
 
-function slot0.forceGC(slot0)
+slot0.forceGC = function(slot0)
 	return false
 end
 
-function slot0.tempCache(slot0)
+slot0.tempCache = function(slot0)
 	return false
 end
 
-function slot0.getGroupName(slot0)
+slot0.getGroupName = function(slot0)
 	return nil
 end
 
-function slot0.getLayerWeight(slot0)
+slot0.getLayerWeight = function(slot0)
 	return LayerWeightConst.BASE_LAYER
 end
 
-function slot0.preload(slot0, slot1)
+slot0.preload = function(slot0, slot1)
 	slot1()
 end
 
-function slot0.loadUISync(slot0, slot1)
+slot0.loadUISync = function(slot0, slot1)
 	slot2 = LoadAndInstantiateSync("UI", slot1, true, false)
 
 	slot2.transform:SetParent(pg.UIMgr.GetInstance().UIMain.transform, false)
@@ -70,7 +70,7 @@ function slot0.loadUISync(slot0, slot1)
 	return slot2
 end
 
-function slot0.load(slot0)
+slot0.load = function(slot0)
 	slot1 = nil
 	slot2 = Time.realtimeSinceStartup
 	slot3 = slot0:getUIName()
@@ -102,21 +102,21 @@ function slot0.load(slot0)
 	end)
 end
 
-function slot0.LoadUIFromPool(slot0, slot1, slot2)
+slot0.LoadUIFromPool = function(slot0, slot1, slot2)
 	PoolMgr.GetInstance():GetUI(slot1, true, slot2)
 end
 
-function slot0.getBGM(slot0, slot1)
+slot0.getBGM = function(slot0, slot1)
 	return getBgm(slot1 or slot0.__cname)
 end
 
-function slot0.PlayBGM(slot0)
+slot0.PlayBGM = function(slot0)
 	if slot0:getBGM() then
 		pg.BgmMgr.GetInstance():Push(slot0.__cname, slot1)
 	end
 end
 
-function slot0.StopBgm(slot0)
+slot0.StopBgm = function(slot0)
 	if not slot0.contextData then
 		return
 	end
@@ -128,31 +128,31 @@ function slot0.StopBgm(slot0)
 	end
 end
 
-function slot0.SwitchToDefaultBGM(slot0)
+slot0.SwitchToDefaultBGM = function(slot0)
 	pg.BgmMgr.GetInstance():Push(slot0.__cname, slot0:getBGM() or (not pg.CriMgr.GetInstance():IsDefaultBGM() or pg.voice_bgm.NewMainScene.default_bgm) and pg.voice_bgm.NewMainScene.bgm)
 end
 
-function slot0.isLoaded(slot0)
+slot0.isLoaded = function(slot0)
 	return slot0._isLoaded
 end
 
-function slot0.getGroupNameFromData(slot0)
+slot0.getGroupNameFromData = function(slot0)
 	slot1 = nil
 
 	return (slot0.contextData == nil or not slot0.contextData.LayerWeightMgr_groupName or slot0.contextData.LayerWeightMgr_groupName) and slot0:getGroupName()
 end
 
-function slot0.getWeightFromData(slot0)
+slot0.getWeightFromData = function(slot0)
 	slot1 = nil
 
 	return (slot0.contextData == nil or not slot0.contextData.LayerWeightMgr_weight or slot0.contextData.LayerWeightMgr_weight) and slot0:getLayerWeight()
 end
 
-function slot0.isLayer(slot0)
+slot0.isLayer = function(slot0)
 	return slot0.contextData ~= nil and slot0.contextData.isLayer and not slot0.contextData.isSubView
 end
 
-function slot0.addToLayerMgr(slot0)
+slot0.addToLayerMgr = function(slot0)
 	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_SYSTEM, slot0._tf, {
 		globalBlur = false,
 		groupName = slot0:getGroupNameFromData(),
@@ -182,7 +182,7 @@ slot0.optionsPath = {
 	"Main/blur_panel/adapt/top/option"
 }
 
-function slot0.onUILoaded(slot0, slot1)
+slot0.onUILoaded = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1 and slot1.transform
 
@@ -215,11 +215,11 @@ function slot0.onUILoaded(slot0, slot1)
 	slot0:emit(uv0.LOADED)
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return nil
 end
 
-function slot0.ShowOrHideResUI(slot0, slot1)
+slot0.ShowOrHideResUI = function(slot0, slot1)
 	if not slot0:ResUISettings() then
 		return
 	end
@@ -242,18 +242,18 @@ function slot0.ShowOrHideResUI(slot0, slot1)
 	}))
 end
 
-function slot0.onUIAnimEnd(slot0, slot1)
+slot0.onUIAnimEnd = function(slot0, slot1)
 	slot1()
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 end
 
-function slot0.quickExitFunc(slot0)
+slot0.quickExitFunc = function(slot0)
 	slot0:emit(uv0.ON_HOME)
 end
 
-function slot0.quickExit(slot0)
+slot0.quickExit = function(slot0)
 	for slot4, slot5 in ipairs(slot0.optionBtns) do
 		onButton(slot0, slot5, function ()
 			uv0:quickExitFunc()
@@ -261,11 +261,11 @@ function slot0.quickExit(slot0)
 	end
 end
 
-function slot0.enter(slot0)
+slot0.enter = function(slot0)
 	slot0:quickExit()
 	slot0:PlayBGM()
 
-	function slot1()
+	slot1 = function()
 		uv0:emit(uv1.DID_ENTER)
 
 		if not uv0._isCachedView then
@@ -316,7 +316,7 @@ function slot0.enter(slot0)
 	end
 end
 
-function slot0.closeView(slot0)
+slot0.closeView = function(slot0)
 	if slot0.contextData.isLayer then
 		slot0:emit(uv0.ON_CLOSE)
 	else
@@ -324,19 +324,19 @@ function slot0.closeView(slot0)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
-function slot0.exit(slot0)
+slot0.exit = function(slot0)
 	slot0.exited = true
 
 	slot0:StopBgm()
 	pg.DelegateInfo.Dispose(slot0)
 
-	function slot1()
+	slot1 = function()
 		uv0:willExit()
 		uv0:ShowOrHideResUI(false)
 		uv0:detach()
@@ -354,18 +354,29 @@ function slot0.exit(slot0)
 	end
 end
 
-function slot0.attach(slot0, slot1)
+slot0.PlayExitAnimation = function(slot0, slot1)
+	slot3 = slot0._tf:GetComponent(typeof(UIEventTrigger))
+
+	slot3.didExit:RemoveAllListeners()
+	slot3.didExit:AddListener(function ()
+		uv0.didExit:RemoveAllListeners()
+		uv1()
+	end)
+	slot0._tf:GetComponent(typeof(Animation)):Play("exit")
 end
 
-function slot0.ClearTweens(slot0, slot1)
+slot0.attach = function(slot0, slot1)
+end
+
+slot0.ClearTweens = function(slot0, slot1)
 	slot0:cleanManagedTween(slot1)
 end
 
-function slot0.RemoveTempCache(slot0)
+slot0.RemoveTempCache = function(slot0)
 	PoolMgr.GetInstance():DelTempCache(slot0:getUIName())
 end
 
-function slot0.detach(slot0, slot1)
+slot0.detach = function(slot0, slot1)
 	slot0._isLoaded = false
 
 	pg.LayerWeightMgr.GetInstance():DelFromOverlay(slot0._tf)
@@ -384,19 +395,19 @@ function slot0.detach(slot0, slot1)
 	end
 end
 
-function slot0.findGO(slot0, slot1, slot2)
+slot0.findGO = function(slot0, slot1, slot2)
 	assert(slot0._go, "game object should exist")
 
 	return findGO(slot2 or slot0._go, slot1)
 end
 
-function slot0.findTF(slot0, slot1, slot2)
+slot0.findTF = function(slot0, slot1, slot2)
 	assert(slot0._tf, "transform should exist")
 
 	return findTF(slot2 or slot0._tf, slot1)
 end
 
-function slot0.getTpl(slot0, slot1, slot2)
+slot0.getTpl = function(slot0, slot1, slot2)
 	slot3 = slot0:findTF(slot1, slot2)
 
 	slot3:SetParent(slot0._tf, false)
@@ -405,7 +416,7 @@ function slot0.getTpl(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.setSpriteTo(slot0, slot1, slot2, slot3)
+slot0.setSpriteTo = function(slot0, slot1, slot2, slot3)
 	slot2:GetComponent(typeof(Image)).sprite = slot0:findTF(slot1):GetComponent(typeof(Image)).sprite
 
 	if slot3 then
@@ -413,28 +424,29 @@ function slot0.setSpriteTo(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.setImageAmount(slot0, slot1, slot2)
+slot0.setImageAmount = function(slot0, slot1, slot2)
 	slot1:GetComponent(typeof(Image)).fillAmount = slot2
 end
 
-function slot0.setVisible(slot0, slot1)
+slot0.setVisible = function(slot0, slot1)
+	slot0:ShowOrHideResUI(slot1)
+
 	if slot1 then
 		slot0:OnVisible()
 	else
 		slot0:OnDisVisible()
 	end
 
-	slot0:ShowOrHideResUI(slot1)
 	setActiveViaLayer(slot0._tf, slot1)
 end
 
-function slot0.OnVisible(slot0)
+slot0.OnVisible = function(slot0)
 end
 
-function slot0.OnDisVisible(slot0)
+slot0.OnDisVisible = function(slot0)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 

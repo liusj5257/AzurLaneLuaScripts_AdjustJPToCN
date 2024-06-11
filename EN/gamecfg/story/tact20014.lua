@@ -1,16 +1,37 @@
 return {
-	id = "TACT20014",
+	once = true,
 	mode = 2,
 	continueBgm = true,
-	once = true,
+	id = "TACT20014",
 	scripts = {
 		{
-			soundeffect = "event:/ui/alarm",
 			side = 0,
-			nameColor = "#ff0000",
-			say = "GAMBIT SEQUENCE INITIATED. COMMENCE IMMEDIATE DISPOSAL OF THE BACKUP OF THE ORIGINAL.",
+			withoutPainting = true,
+			actorName = "SYSTEM",
 			dir = 0,
 			bgm = "story-5",
+			soundeffect = "event:/ui/alarm",
+			actor = 900011,
+			nameColor = "#ff0000",
+			say = "GAMBIT SEQUENCE INITIATED. COMMENCE IMMEDIATE DISPOSAL OF THE BACKUP OF THE ORIGINAL.",
+			shake = {
+				speed = 1,
+				number = 3
+			},
+			typewriter = {
+				speed = 0.02,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		},
+		{
+			side = 0,
+			say = "GAMBIT SEQUENCE INITIATED. COMMENCE IMMEDIATE DISPOSAL OF THE BACKUP OF THE ORIGINAL.",
+			nameColor = "#ff0000",
+			dir = 0,
 			actor = 900011,
 			actorName = "SYSTEM",
 			withoutPainting = true,
@@ -28,34 +49,13 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 0,
-			nameColor = "#ff0000",
-			actorName = "SYSTEM",
-			dir = 0,
-			withoutPainting = true,
 			say = "GAMBIT SEQUENCE INITIATED. COMMENCE IMMEDIATE DISPOSAL OF THE BACKUP OF THE ORIGINAL.",
-			shake = {
-				speed = 1,
-				number = 3
-			},
-			typewriter = {
-				speed = 0.02,
-				speedUp = 0.01
-			},
-			painting = {
-				alpha = 0.3,
-				time = 1
-			}
-		},
-		{
+			nameColor = "#ff0000",
+			dir = 0,
 			actor = 900011,
-			side = 0,
-			nameColor = "#ff0000",
 			actorName = "SYSTEM",
-			dir = 0,
 			withoutPainting = true,
-			say = "GAMBIT SEQUENCE INITIATED. COMMENCE IMMEDIATE DISPOSAL OF THE BACKUP OF THE ORIGINAL.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{

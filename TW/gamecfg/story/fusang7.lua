@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"在櫻花紛飛的那天之後\n\n<size=45>七  小小的幸福</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_main_twilight",
-			say = "幾天後，暴風雨過去了——",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "幾天後，暴風雨過去了——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "不出所料，櫻花盡數凋謝，零落而髒污的櫻花瓣亂糟糟地舖滿了這片土地。",
@@ -69,8 +69,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_main_twilight",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "指揮官今天也來了嗎。",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "對龍鳳說沒事後，走向了原本要和扶桑約會的路線。",
@@ -114,14 +114,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "走近櫻花林後發現，這裡的情況比之前見到的要更糟——道路上隨處可見折斷的樹枝，一片狼藉。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_twilight",
 			dir = 1,
 			say = "這根櫻花樹枝，也許可以……",
@@ -209,14 +209,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "幾天後——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -289,8 +289,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "扶桑敲了敲門，輕輕地走進了辦公室。",
@@ -336,8 +336,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "扶桑驚訝地望著插在花瓶裡的櫻花樹枝。",
@@ -351,8 +351,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "其實那天宵月打掃的樹枝中，有一枝還長著幾個未開的花蕾。",
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "當時想著，如果稍加培養的話說不定能開出花——結果天隨人願，辦公室裡綻放出盛開的櫻花。",
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "扶桑凝視著美麗的櫻花樹枝，將手緊緊貼在胸前。",
@@ -492,8 +492,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "看著她望向這邊的濕潤的眼瞳，我不假思索地握住了她的手。",
@@ -507,8 +507,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "也許今後還會發生各種幸福與不幸的事，但我希望扶桑每次都能發自內心地微笑出來。",
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑声望 加速移动",
 	time = 0,
-	color = "blue",
+	name = "黑声望 加速移动",
+	init_effect = "",
+	id = 200043,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200043,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{

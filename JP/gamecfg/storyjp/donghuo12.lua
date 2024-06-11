@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUO12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DONGHUO12",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900012,
 			stopbgm = true,
-			nameColor = "#D6341DFF",
 			side = 2,
+			nameColor = "#D6341DFF",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
 			actorName = "オブザーバー",
 			say = "「コードG」が鏡面海域を離脱したようね。反応が消えたわ",
 			typewriter = {
@@ -57,12 +57,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#D6341DFF",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "オブザーバー",
 			say = "同じ「因子」を持っているゆえでしょう。彼女はいずれまた私たちに会いに来るわ",
 			typewriter = {
 				speed = 0.05,
@@ -74,12 +74,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#D6341DFF",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "オブザーバー",
 			say = "たしか、人間のことわざでは――",
 			typewriter = {
 				speed = 0.05,
@@ -91,12 +91,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#D6341DFF",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "オブザーバー",
 			say = "「強者は常に孤独である」とあるわね……",
 			typewriter = {
 				speed = 0.05,
@@ -108,12 +108,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#D6341DFF",
 			side = 2,
-			actorName = "オブザーバー",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "オブザーバー",
 			say = "「コードG」…あなたはずっと強者のままでいいわ。フフフフ",
 			typewriter = {
 				speed = 0.05,

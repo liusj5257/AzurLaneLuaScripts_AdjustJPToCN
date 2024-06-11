@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_7 = {}
 slot1 = slot0.word_template_7
 
-function temp()
+temp = function()
 	uv0["う"] = {
 		["ん"] = {
 			["こ"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["エ"] = {
 		["イ"] = {
 			["ズ"] = {
@@ -62,7 +62,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["え"] = {
 		["っ"] = {
 			["ち"] = {
@@ -74,7 +74,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["オ"] = {
 		["ナ"] = {
 			["ニ"] = {
@@ -104,7 +104,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["お"] = {
 		["ま"] = {
 			["と"] = {
@@ -134,7 +134,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["ガ"] = {
 		["イ"] = {
 			["ジ"] = {
@@ -146,7 +146,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["カ"] = {
 		["ジ"] = {
 			["ノ"] = {

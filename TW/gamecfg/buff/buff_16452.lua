@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 2,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 4,
-				time = 0.3,
 				target = "TargetSelf",
+				time = 0.3,
 				skill_id = 16451
 			}
 		},

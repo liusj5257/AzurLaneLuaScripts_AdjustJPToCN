@@ -4,17 +4,17 @@ slot1 = class("BattleSubmarineFuncButton", slot0.Battle.BattleWeaponButton)
 slot0.Battle.BattleSubmarineFuncButton = slot1
 slot1.__name = "BattleSubmarineFuncButton"
 
-function slot1.Ctor(slot0)
+slot1.Ctor = function(slot0)
 	uv0.EventListener.AttachEventListener(slot0)
 
 	slot0.eventTriggers = {}
 end
 
-function slot1.OnfilledEffect(slot0)
+slot1.OnfilledEffect = function(slot0)
 	SetActive(slot0._filledEffect, true)
 end
 
-function slot1.SetProgressInfo(slot0, slot1)
+slot1.SetProgressInfo = function(slot0, slot1)
 	slot0._progressInfo = slot1
 
 	slot0._progressInfo:RegisterEventListener(slot0, uv0.Battle.BattleEvent.WEAPON_COUNT_PLUS, slot0.OnfilledEffect)
@@ -23,13 +23,13 @@ function slot1.SetProgressInfo(slot0, slot1)
 	slot0:SetControllerActive(true)
 end
 
-function slot1.Update(slot0)
+slot1.Update = function(slot0)
 	if slot0._progressInfo:GetCurrent() < slot0._progressInfo:GetMax() then
 		slot0:updateProgressBar()
 	end
 end
 
-function slot1.Dispose(slot0)
+slot1.Dispose = function(slot0)
 	if slot0.eventTriggers then
 		for slot4, slot5 in pairs(slot0.eventTriggers) do
 			ClearEventTrigger(slot4)

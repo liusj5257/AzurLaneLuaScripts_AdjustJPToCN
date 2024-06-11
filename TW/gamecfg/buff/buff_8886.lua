@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "对雷暴AT立场弱化版（减少防雷击次数，减伤80%降至70%）",
 	init_effect = "",
+	name = "对雷暴AT立场弱化版（减少防雷击次数，减伤80%降至70%）",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 8886,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttr",
@@ -14,8 +14,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = -0.7
+				number = -0.7,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		},
 		{
@@ -26,9 +26,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 3,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -62,9 +62,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 3,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -98,9 +98,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 3,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -134,9 +134,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 3,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{
@@ -170,9 +170,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 3,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{

@@ -12,16 +12,16 @@ return {
 			type = "BattleSkillTeleport",
 			arg_list = {
 				targetRelativeCorrdinate = {
-					hrz = 0,
-					vrt = -1
+					vrt = -1,
+					hrz = 0
 				}
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 600021
 			}

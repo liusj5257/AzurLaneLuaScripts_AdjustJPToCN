@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENDUHUIYIN24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENDUHUIYIN24",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "霧に包まれた海の上で、ボノム・リシャールの輪郭だけがはっきりと見えている。",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "deepblue-image",
+			say = "霧に包まれた海の上で、ボノム・リシャールの輪郭だけがはっきりと見えている。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -24,9 +24,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -39,9 +39,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "艤装こそまとっているものの、攻撃をしようとするような姿勢もなく、敵意がまるで感じられない。",
 			typewriter = {
 				speed = 0.05,
@@ -53,9 +53,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "それでも、彼女が見せる微笑みがクロンシュタットには恐ろしく見えてたまらない。",
 			typewriter = {
 				speed = 0.05,
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "なぜなら………………",
 			typewriter = {
 				speed = 0.05,
@@ -81,12 +81,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "「リシャール」だと分かってはいるけど、見た目が違うわね",
 			typewriter = {
 				speed = 0.05,
@@ -101,10 +101,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あなたは一体……誰？",
 			typewriter = {
 				speed = 0.05,
@@ -116,12 +116,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "？変だよお姉さん。さっきぼくの名前を呼んだじゃないか",
 			typewriter = {
 				speed = 0.05,
@@ -133,12 +133,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "ボノム・リシャール、だよ",
 			typewriter = {
 				speed = 0.05,
@@ -150,12 +150,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……………！？今のは…っ",
 			typewriter = {
 				speed = 0.05,
@@ -167,12 +167,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "…………？",
 			typewriter = {
 				speed = 0.05,
@@ -184,9 +184,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "クロンシュタットの目にはこの「リシャール」と、前に出会った「リシャール」の姿が急速に入れ替わり続けて見えた。",
 			typewriter = {
 				speed = 0.05,
@@ -198,12 +198,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "アルハンゲリスク！この子があなたにはどういう外見に見えるか今すぐ教えて！",
 			typewriter = {
 				speed = 0.05,
@@ -218,10 +218,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "髪の色、瞳の色、できれば髪の毛の長さも！",
 			typewriter = {
 				speed = 0.05,
@@ -233,12 +233,12 @@ return {
 			}
 		},
 		{
-			actor = 705060,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "白い髪で、瞳の色は青、髪の長さはセミロング！",
 			typewriter = {
 				speed = 0.05,
@@ -253,10 +253,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 701090,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "わたしも同じだ！クロンシュタットは！？",
 			typewriter = {
 				speed = 0.05,
@@ -271,10 +271,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ありえない！私だけ…私だけが違う色に見えているとでもいうの…！？",
 			typewriter = {
 				speed = 0.05,
@@ -289,10 +289,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そんな……だってこの世界は…私は……",
 			typewriter = {
 				speed = 0.05,
@@ -307,10 +307,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "答えなさい！あなたは一体何なの？！この違いは何だ！暗示か？それともジャミングか！？",
 			typewriter = {
 				speed = 0.05,
@@ -322,12 +322,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "あなたが見ているのは本物の「リシャール」だよ？お姉さん",
 			typewriter = {
 				speed = 0.05,
@@ -339,12 +339,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "むしろこっちから聞きたいけど、フフフ、お姉さんの目に映っているぼくは「なに」に見えるの？",
 			typewriter = {
 				speed = 0.05,
@@ -356,9 +356,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "楽しそうに笑っている「リシャール」に、クロンシュタットは得体の知れない恐怖を覚えた。",
 			typewriter = {
 				speed = 0.05,
@@ -370,9 +370,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "記憶を辿る。自分が持っている記憶を、この「夢」に関する手がかりを、そして目の前にいる「リシャール」の正体が分かるものを",
 			typewriter = {
 				speed = 0.05,
@@ -387,10 +387,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そうだ！写真…写真さえあれば……！",
 			typewriter = {
 				speed = 0.05,
@@ -405,10 +405,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…っ！今回はリシャールに会っていないから、写真を撮っていない……",
 			typewriter = {
 				speed = 0.05,
@@ -420,12 +420,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "写真？それならあるよ！えへへ、これのことだよね？",
 			typewriter = {
 				speed = 0.05,
@@ -437,12 +437,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_8",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "クロンシュタット",
+			hidePaintObj = true,
 			say = "…………………………",
 			effects = {
 				{
@@ -460,9 +460,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_8",
+			dir = 1,
 			say = "「リシャール」から渡された写真を覗き込む。",
 			typewriter = {
 				speed = 0.05,
@@ -474,9 +474,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_8",
+			dir = 1,
 			say = "和気あいあいとした雰囲気の中でただ一人、とてつもない「違和感」を感じさせる少女の姿がしっかりと映っていた。",
 			typewriter = {
 				speed = 0.05,
@@ -488,12 +488,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_deepecho_8",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "クロンシュタット",
+			hidePaintObj = true,
 			say = "前のと違う………くっ、ダメだ…わけがわからない…",
 			typewriter = {
 				speed = 0.05,
@@ -505,9 +505,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_8",
+			dir = 1,
 			say = "困惑。焦燥。恐怖。諜報員の経験をもってしても、目の前に起きている事態を説明できそうにない。",
 			typewriter = {
 				speed = 0.05,
@@ -519,18 +519,18 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "大丈夫？お姉さん？具合でも悪いの？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -546,10 +546,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（仲間たちには「リシャール」が普通に見えている…ううん、この話はあとだ。今は情報を聞き出さないと）",
 			typewriter = {
 				speed = 0.05,
@@ -561,12 +561,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "平気よ。それより立入禁止区域っていうのは？",
 			typewriter = {
 				speed = 0.05,
@@ -578,12 +578,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "？ここから先は演習海域だよ？",
 			typewriter = {
 				speed = 0.05,
@@ -598,10 +598,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "演習海域！？私たち、その逆方向を進んでいたのに…！",
 			typewriter = {
 				speed = 0.05,
@@ -613,12 +613,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "あはは、何を言ってるの？ぱーっと盛り上がる対抗演習こそ今日の目玉だよ",
 			typewriter = {
 				speed = 0.05,
@@ -630,12 +630,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "どこに行ったって、見ない選択肢はないじゃない",
 			typewriter = {
 				speed = 0.05,
@@ -647,12 +647,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "それにほら、もうすぐ始まっちゃうよ？くくく、ははははは",
 			typewriter = {
 				speed = 0.05,
@@ -664,9 +664,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "さっきまでただただ楽しそうに語り続けていた「リシャール」だったが、いつの間にかその声には狂気が滲み出ていた。",
 			typewriter = {
 				speed = 0.05,
@@ -681,10 +681,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "さっきからわけのわからないことを……！",
 			typewriter = {
 				speed = 0.05,
@@ -696,12 +696,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "こちらは航行中よ。邪魔するというのなら攻撃する！",
 			typewriter = {
 				speed = 0.05,
@@ -713,12 +713,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "今はダメだよお姉さん。もうちょっと、もうちょっとなんだから♪",
 			typewriter = {
 				speed = 0.05,
@@ -730,9 +730,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "攻撃態勢を取るクロンシュタットを物ともせず、「リシャール」は相変わらずリラックスした姿勢で楽しそうに語りかける。",
 			typewriter = {
 				speed = 0.05,
@@ -744,12 +744,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（…っ！？この子だけでなく、まるで何百人、何千人から睨みつけられているような感じがする…！）",
 			typewriter = {
 				speed = 0.05,
@@ -764,10 +764,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（こいつは危ないわ…！このままでは私だけでなく、仲間たちも危ない！やつの「獲物」にされてしまう…！）",
 			typewriter = {
 				speed = 0.05,
@@ -779,12 +779,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（ダメだ、ダメだダメだダメだダメだ！）",
 			typewriter = {
 				speed = 0.05,
@@ -799,10 +799,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（一刻も早くここを脱出しなきゃ…！この子を…「リシャール」を倒さなきゃ…！！）",
 			typewriter = {
 				speed = 0.05,
@@ -814,12 +814,12 @@ return {
 			}
 		},
 		{
-			actor = 707010,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "え…？クロンシュタット、今何て――",
 			typewriter = {
 				speed = 0.05,
@@ -834,10 +834,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "全艦、最大火力で目の前にいる艦船を撃てーー！！",
 			effects = {
 				{
@@ -855,11 +855,11 @@ return {
 			}
 		},
 		{
-			say = "ーーーーーー！！",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "ーーーーーー！！",
 			effects = {
 				{
 					active = false,
@@ -915,9 +915,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "命令を完全に発するよりも先に、クロンシュタットの主砲が鳴り響いた。",
 			typewriter = {
 				speed = 0.05,
@@ -929,9 +929,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "続いて、北方連合の仲間たちも各々の艤装の兵装を放ち、「リシャール」に弾丸の雨を浴びせた。",
 			typewriter = {
 				speed = 0.05,
@@ -943,9 +943,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "……が、まるで砲弾が全部そのまま通り抜けたかのように、「リシャール」の体には傷一つ付いていない。",
 			typewriter = {
 				speed = 0.05,
@@ -957,12 +957,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "時間だよ♪",
 			typewriter = {
 				speed = 0.05,
@@ -974,12 +974,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "くく、くくく、くははははは、はははははははははははは！！！！！",
 			dialogShake = {
 				speed = 0.08,
@@ -996,12 +996,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "始まっちゃうよ！また始まっちゃうよ！はははははは！！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -1013,9 +1013,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "少女の哄笑とともに、ついさっきまで海域全体を覆っていた海霧があっという間に消え去っていく。",
 			effects = {
 				{
@@ -1033,9 +1033,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "黒雲に満ちた空の下で、無数の量産艦たちが2つの陣営に分かれて対峙している。",
 			typewriter = {
 				speed = 0.05,
@@ -1050,10 +1050,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そんなバカな！？この量産艦たちは一体どこから――",
 			typewriter = {
 				speed = 0.05,
@@ -1065,12 +1065,12 @@ return {
 			}
 		},
 		{
-			actor = 900322,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900322,
 			nameColor = "#696969",
+			hidePaintObj = true,
 			say = "お楽しみはまだこれからだよお姉さん！！",
 			typewriter = {
 				speed = 0.05,
@@ -1082,9 +1082,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "腕を大きく開くと、彼女を中心に黒い水流が次から次へと渦巻のように巻き上げられる。",
 			typewriter = {
 				speed = 0.05,
@@ -1096,9 +1096,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "稲妻が走り、嵐が吹き荒れる――至近距離に黒い竜巻が再び形成された。",
 			typewriter = {
 				speed = 0.05,
@@ -1110,9 +1110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "恐怖と疑問を心の奥底に強引に抑え込み、クロンシュタットは力を振り絞る。",
 			typewriter = {
 				speed = 0.05,
@@ -1124,9 +1124,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "海を鳴動させる黒い竜巻。それが呼ぶ巨大な波、そして意識を飲み込む最大最悪の衝撃波に備えて――",
 			typewriter = {
 				speed = 0.05,
@@ -1141,10 +1141,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 718010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "皆、私の後ろに下がって――",
 			typewriter = {
 				speed = 0.05,
@@ -1156,9 +1156,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "衝撃波はクロンシュタットに直撃した。しかし意識が闇に飲み込まれることもなく、何も起きなかった。",
 			typewriter = {
 				speed = 0.05,
@@ -1173,10 +1173,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "「……痛く、ない？」",
 			typewriter = {
 				speed = 0.05,
@@ -1191,10 +1191,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "「そうね。もう三度目だし…体が慣れちゃったのかしら…」",
 			typewriter = {
 				speed = 0.05,
@@ -1206,12 +1206,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "「それとも…私が強くなったとか？」",
 			typewriter = {
 				speed = 0.05,
@@ -1226,10 +1226,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "「……………体に力が溢れるような感覚、気持ちいいじゃない」",
 			typewriter = {
 				speed = 0.05,
@@ -1244,10 +1244,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "「ああ…今すぐ敵にぶっ放したい…倒したい…沈めたい…」",
 			typewriter = {
 				speed = 0.05,
@@ -1262,10 +1262,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "「兵器らしくすべてを壊したい…任務を…作戦を……」",
 			typewriter = {
 				speed = 0.05,
@@ -1277,12 +1277,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "「――――敵は…どこ？」",
 			typewriter = {
 				speed = 0.05,
@@ -1294,16 +1294,16 @@ return {
 			}
 		},
 		{
-			actor = 707010,
-			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "げほげほ！皆、大丈夫ですか！？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1328,12 +1328,12 @@ return {
 			}
 		},
 		{
-			actor = 705060,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ええ、なんとかね…痛っ。この大波、とんでもないわ……",
 			typewriter = {
 				speed = 0.05,
@@ -1348,10 +1348,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 701090,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "クロンシュタットが言ってたのと違うぞ！わたしたち、潜航艦に意識が戻されていない！",
 			typewriter = {
 				speed = 0.05,
@@ -1366,10 +1366,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 701100,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "悪い予感がする…早くここから逃げないと…！",
 			typewriter = {
 				speed = 0.05,
@@ -1381,12 +1381,12 @@ return {
 			}
 		},
 		{
-			actor = 705060,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "私も同感よ！あの直撃をもう一回受けたら艤装がもたないわ！",
 			typewriter = {
 				speed = 0.05,
@@ -1401,10 +1401,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 705060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "クロンシュタット！大丈夫？クロンシュ……",
 			typewriter = {
 				speed = 0.05,
@@ -1416,12 +1416,12 @@ return {
 			}
 		},
 		{
-			actor = 718010,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 718010,
 			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "「……………目標、発見」",
 			typewriter = {
 				speed = 0.05,
@@ -1436,10 +1436,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "「――そうだ。敵ならいる。ほら、ここにも」",
 			typewriter = {
 				speed = 0.05,
@@ -1451,9 +1451,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "無言で振り向いて、目の前にいる「敵」に砲口を向ける。",
 			typewriter = {
 				speed = 0.05,
@@ -1468,10 +1468,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "「敵を照準……次は攻撃を……」",
 			typewriter = {
 				speed = 0.05,
@@ -1486,10 +1486,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_deepecho_9",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 718010,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "（！？違う！私は何をやっているの！？あの子たちは私の仲間で――）",
 			typewriter = {
 				speed = 0.05,
@@ -1501,9 +1501,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "主砲も、副砲も、あらゆる兵装を放ち続ける。そうでもしなければ膨れ上がる破壊の欲望が抑えられない。",
 			typewriter = {
 				speed = 0.05,
@@ -1515,9 +1515,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "目の前に倒れた「何か」がある。足元に「何か」がある。服の裾を必死に掴む「何か」がある。",
 			typewriter = {
 				speed = 0.05,
@@ -1529,9 +1529,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_9",
+			dir = 1,
 			say = "それでも、撃つのを止めなかった。もう何も聞こえない、何も感じない、何も考えられないから。",
 			typewriter = {
 				speed = 0.05,

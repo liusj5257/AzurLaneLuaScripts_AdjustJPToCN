@@ -2,27 +2,27 @@ return {
 	uiEffect = "",
 	name = "4战意",
 	cd = 0,
+	aniEffect = "",
+	desc = "",
 	painting = 1,
 	id = 17307,
 	castCV = "skill",
-	aniEffect = "",
-	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillEditTag",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillEditTag",
+			target_choise = "TargetSelf",
 			arg_list = {
 				tag = "laffeyzhanyi3",
 				operation = -1
 			}
 		},
 		{
-			type = "BattleSkillEditTag",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillEditTag",
+			target_choise = "TargetSelf",
 			arg_list = {
 				tag = "laffeyzhanyi4",
 				operation = 1

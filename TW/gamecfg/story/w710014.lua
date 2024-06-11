@@ -1,12 +1,12 @@
 return {
-	id = "W710014",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710014",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "火焰下方隱約是個漩渦……似乎是一個傳送通道",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "這個時候還不可以使用，試著打通環流看看吧",
 			typewriter = {
 				speed = 0.05,

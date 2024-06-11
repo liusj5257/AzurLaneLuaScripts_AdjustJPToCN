@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 60170,
 	picture = "",
 	desc = "",
 	stack = 4,
-	id = 60170,
+	color = "red",
 	icon = 60170,
 	last_effect = "",
 	effect_list = {

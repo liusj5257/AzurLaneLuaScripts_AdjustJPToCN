@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG29",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YONGYEHUANGUANG29",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401020,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-boss-2",
 			dir = 1,
 			say = "세이렌 함대가 로열 네이비 함대의 동북쪽에 나타난 것을 발견했어. 우리와 함께 로열 네이비 함대를 협공하는 형세가 됐어.",
+			bgm = "battle-boss-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +56,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = " 그렇다면 우리의 통신 시스템이라도 세이렌의 방해를 버텨낼 수 없다는 말이지…?",
 			typewriter = {
 				speed = 0.05,
@@ -116,13 +116,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 401360,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "히퍼, 하늘에 대량의 로열 네이비 함재기가 너를 향해 날아오고 있어.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -165,8 +165,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401360,
 			dir = 1,
+			actor = 401360,
 			say = " 넌 히퍼급의 제1함이니까, 맞은편에서 너를 우리 함대의 기함으로 여기는 거겠지…",
 			typewriter = {
 				speed = 0.05,
@@ -193,8 +193,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -206,8 +206,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "필요 없게 됐어. 히퍼, Z36, 우리의 작전은 끝났으니 철수 준비해.",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 401020,
 			dir = 1,
+			actor = 401020,
 			say = "계획 외의 세이렌 함대가 끼어들려고 오나 봐. 우린 적당히 물러나자고.",
 			typewriter = {
 				speed = 0.05,
@@ -265,14 +265,14 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "메탈 블러드 함대가 철수하기 시작했어요. 역시 대형 함대의 손상 위험을 더 이상 지고 싶지 않아서인가...?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -315,8 +315,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "이유야 어떻든, 양쪽에서 협공을 받는 가장 나쁜 상황은 피한 셈이네…",
 			typewriter = {
 				speed = 0.05,
@@ -346,8 +346,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = " 세이렌 함대가 이미 가까워졌어. 모두 조심!",
 			typewriter = {
 				speed = 0.05,

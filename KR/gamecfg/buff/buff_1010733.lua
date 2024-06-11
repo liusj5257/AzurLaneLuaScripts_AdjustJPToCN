@@ -8,8 +8,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.01
+					number = 0.01,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.02
+					number = 0.02,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.03
+					number = 0.03,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.04
+					number = 0.04,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.05
+					number = 0.05,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.06
+					number = 0.06,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.07
+					number = 0.07,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.08
+					number = 0.08,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.09
+					number = 0.09,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
@@ -143,15 +143,15 @@ return {
 					"onTorpedoWeaponBulletCreate"
 				},
 				arg_list = {
-					attr = "damageRatioByBulletTorpedo",
-					number = 0.1
+					number = 0.1,
+					attr = "damageRatioByBulletTorpedo"
 				}
 			}
 		}
 	},
-	init_effect = "jinengchufablue",
-	name = "属性变更",
 	time = 0,
+	name = "属性变更",
+	init_effect = "jinengchufablue",
 	picture = "",
 	desc = "属性提升",
 	stack = 1,
@@ -166,8 +166,8 @@ return {
 				"onTorpedoWeaponBulletCreate"
 			},
 			arg_list = {
-				attr = "damageRatioByBulletTorpedo",
-				number = 0.01
+				number = 0.01,
+				attr = "damageRatioByBulletTorpedo"
 			}
 		}
 	}

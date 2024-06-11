@@ -1,37 +1,37 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN20",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 11,
 			side = 2,
-			bgName = "star_level_bg_146",
 			factiontag = "役：次女",
-			actorName = "ウィダー",
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_146",
 			bgm = "story-richang-10",
 			actor = 9600051,
-			nameColor = "#A9F548FF",
+			actorName = "ウィダー",
 			say = "うっ。また死んだ……ゴールデン・ハインドがいないとダメなの……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -160,11 +160,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "海天",
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "海天",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "い、色々あって、探索者はコレクションルームに入りましたっ",
 			typewriter = {
@@ -172,17 +172,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -284,9 +284,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "考証担当KP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "シェフィールド",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はい",
 			typewriter = {
@@ -434,9 +434,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "考証担当KP",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "シェフィールド",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これでもだいぶ削っての数ですが。陛下の最初の意向に沿うために…いえ、なんでもありません",
 			typewriter = {
@@ -449,9 +449,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "海天",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ほとんどはロイヤルのエリザベス女王陛下ですね…わ、私も少し提供しましたよ？",
 			typewriter = {
@@ -463,10 +463,10 @@ return {
 			portrait = 605020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			nameColor = "#A9F548FF",
+			actorName = "リットリオ",
 			dir = 1,
 			optionFlag = 3,
-			actorName = "リットリオ",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ああ、それは歴史におけるサディアの威光が――",
 			painting = {
@@ -495,10 +495,10 @@ return {
 			portrait = 605020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			nameColor = "#A9F548FF",
+			actorName = "リットリオ",
 			dir = 1,
 			optionFlag = 3,
-			actorName = "リットリオ",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうだな。こっちもたまたま通っただけだ。ゲームを続けよう",
 			painting = {
@@ -537,11 +537,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：長女",
-			side = 2,
+			actor = 9600031,
 			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "あらぁ、探索者、ウィダーに…何をしたのぉ～？",
@@ -569,9 +569,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "そうなのね～。じゃあ少し話そっか♥",
 			typewriter = {
@@ -582,12 +582,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "役：長女",
-			actorName = "ゴールデン・ハインド",
+			nameColor = "#FF9B93",
+			bgName = "star_level_bg_156",
 			bgm = "story-oldcastle-carnival",
 			actor = 9600031,
-			nameColor = "#FF9B93",
+			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "ふふふ、本当は生贄にしようと思ったけど、ウィダーがずっといたいって言って譲らないの♪",
 			typewriter = {
@@ -595,17 +595,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -613,11 +613,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#FF9B93",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：長女",
-			side = 2,
+			actor = 9600031,
 			actorName = "ゴールデン・ハインド",
 			hidePaintObj = true,
 			say = "愛する人と離れては可哀想でしょう～？だ・か・ら～探索者には永遠にウィダーに添い遂げてもらうわ～",
@@ -669,8 +669,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -684,9 +684,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			bgm = "theme-ijndailymeeting",
 			actorName = "海天",
+			bgm = "theme-ijndailymeeting",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "これでまた一つエンディングを達成しました。指揮官さん",
 			typewriter = {
@@ -767,9 +767,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "文学少女なKP",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "海天",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ラブリーチャーミーな敵役？…らしいです",
 			typewriter = {

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "意大利V2 测试者分身合体",
 	time = 0,
-	color = "yellow",
+	name = "意大利V2 测试者分身合体",
+	init_effect = "",
+	id = 8871,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8871,
+	color = "yellow",
 	icon = 8871,
 	last_effect = "",
 	effect_list = {
@@ -26,8 +26,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		}
 	}

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "战斗底力-炮击",
 	time = 0,
-	color = "red",
+	name = "战斗底力-炮击",
+	init_effect = "",
+	id = 902020,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902020,
+	color = "red",
 	icon = 902020,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.5,
-				target = "TargetSelf",
 				skill_id = 902020,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

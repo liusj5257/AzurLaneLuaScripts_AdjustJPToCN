@@ -1,12 +1,12 @@
 return {
-	id = "W762001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W762001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "通过传送门可以回到春天和夏天的海域，有的谜题可能需要在之前的海域中寻找线索哦。",
 			typewriter = {
 				speed = 0.05,

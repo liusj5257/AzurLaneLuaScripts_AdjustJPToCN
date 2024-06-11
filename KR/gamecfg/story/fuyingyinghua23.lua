@@ -1,17 +1,17 @@
 return {
-	id = "FUYINGYINGHUA23",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA23",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307060,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "xinnong-2",
 			dir = 1,
 			say = "드디어 찾았네, 초대장 없는 불청객씨.",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "불청객은 천천히 뒤를 돌아 즈이카쿠와 쇼카쿠에게 모습을 드러냈다.",
 			typewriter = {
 				speed = 0.05,
@@ -159,8 +159,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "네가 누군지는 중요하지 않아… 내 목적은 두 가지다.",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "하나는 옵저버와 다른 자들이 신석을 가져가는 것을 막는 것… 이건 너희도 봤겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "다른 하나는…",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			actor = 900192,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
+			actorName = "？？？",
 			say = "——신석을 파괴하는 것이다.",
 			typewriter = {
 				speed = 0.05,

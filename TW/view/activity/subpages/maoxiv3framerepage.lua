@@ -1,6 +1,6 @@
 slot0 = class("MaoxiV3FrameRePage", import(".TemplatePage.NewFrameTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	if slot0.gotTag then

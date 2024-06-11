@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023俾斯麦Z活动 一阶段革律翁被击破 本体进入二阶段",
 	time = 0,
-	color = "red",
+	name = "2023俾斯麦Z活动 一阶段革律翁被击破 本体进入二阶段",
+	init_effect = "",
+	id = 200442,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200442,
+	color = "red",
 	last_effect = "",
 	effect_list = {
 		{
@@ -58,8 +58,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 1,
+				target = "TargetSelf",
 				skill_id = 200441
 			}
 		}

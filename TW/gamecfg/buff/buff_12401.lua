@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "额外供氧",
 	time = 0,
-	color = "yellow",
+	name = "额外供氧",
+	init_effect = "",
+	id = 12401,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12401,
+	color = "yellow",
 	icon = 12400,
 	last_effect = "",
 	effect_list = {

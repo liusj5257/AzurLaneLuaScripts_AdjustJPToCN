@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "干涉",
 	time = 8,
-	color = "red",
+	name = "干涉",
+	init_effect = "",
+	id = 74301,
 	picture = "",
 	desc = "战斗对象对我方舰队造成X次伤害后，下一次伤害会导致我方舰队速度降低X%，持续Y秒",
 	stack = 1,
-	id = 74301,
+	color = "red",
 	icon = 74300,
 	last_effect = "",
 	effect_list = {

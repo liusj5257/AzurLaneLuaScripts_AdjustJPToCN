@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DEYIZHI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DEYIZHI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"德意志的憂鬱\n\n<size=45>七　一如既往？</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "在那次會議之後，過了一段時間。",
 			typewriter = {
@@ -27,15 +27,15 @@ return {
 			}
 		},
 		{
-			say = "海域·演習海域",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 1.5,
 			bgm = "battle-1",
+			say = "海域·演習海域",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,13 +56,13 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "我又贏了！",
 			soundeffect = "event:/battle/boom2",
+			actor = 404010,
+			say = "我又贏了！",
 			flashN = {
 				color = {
 					1,
@@ -105,8 +105,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -131,12 +131,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "哼…再來！",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哼…再來！",
+			actor = 403040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.06,
 					x = 0,
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			actor = 404010,
+			say = "哈哈，這才像話，除了性能，德意志妳更缺乏的是經驗，想要變強，就練習，練習，再練習！",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "哈哈，這才像話，除了性能，德意志妳更缺乏的是經驗，想要變強，就練習，練習，再練習！",
+			actor = 404010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -181,13 +181,13 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 1,
+			bgName = "bg_story_nepu1",
 			dir = 1,
-			say = "不用妳說我也知道！！",
 			soundeffect = "event:/battle/boom2",
+			actor = 403040,
+			say = "不用妳說我也知道！！",
 			flashN = {
 				color = {
 					1,
@@ -230,15 +230,15 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -278,8 +278,8 @@ return {
 			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "……雖然有些錯誤，不過看得出十分努力。",
 			typewriter = {
 				speed = 0.05,
@@ -325,13 +325,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_school",
+			side = 2,
+			dir = 1,
 			say = "港區·廣場",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "德意志，妳是不是有另一個名字呀？",
 			typewriter = {
@@ -369,12 +369,12 @@ return {
 			}
 		},
 		{
-			actor = 403040,
+			say = "啊……是啊，我曾經有過另一個名字，那個名字叫做“呂佐”。",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊……是啊，我曾經有過另一個名字，那個名字叫做“呂佐”。",
+			actor = 403040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -405,11 +405,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301330,
+			nameColor = "#a9f548",
 			say = "{namecode:126}，要是德意志不喜歡的話……",
 			typewriter = {
 				speed = 0.05,
@@ -421,8 +421,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -463,9 +463,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "……就是這樣，在那之後不久，德意志又恢復了把低等動物掛在嘴邊的性格。",
 			typewriter = {
 				speed = 0.05,
@@ -473,9 +473,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "但那只是表象，艦隊裡的每一個人都能感覺到她變得坦率了許多。",
 			typewriter = {
 				speed = 0.05,
@@ -499,11 +499,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "區區一個低等動物，腦子裡該不會又在想著什麼下流的事吧？",
 			typewriter = {
 				speed = 0.05,
@@ -515,8 +515,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -541,9 +541,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "當然，指揮官的僕人地位也並沒有得到改善。",
 			typewriter = {
 				speed = 0.05,
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "總之別在那發呆了，趕緊過來，要開始捉迷藏了！",
 			typewriter = {
 				speed = 0.05,
@@ -567,8 +567,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

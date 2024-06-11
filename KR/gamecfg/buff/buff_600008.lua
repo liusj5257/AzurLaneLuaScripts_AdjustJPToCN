@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	icon = 600008,
 	name = "",
 	time = 6,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 600008,
-	picture = "",
+	icon = 600008,
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -34,8 +34,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 15381,
-				minTargetNumber = 1,
 				time = 20,
+				minTargetNumber = 1,
 				target = "TargetSelf",
 				check_target = {
 					"TargetAllHelp",

@@ -1,17 +1,17 @@
 return {
-	id = "WORLD105D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD105D",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 103160,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "What the... Siren wreckage? Is there another fleet besides us operating in this zone, or...?",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,11 +24,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/49/tb-49",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Commencing scan... No allied presence detected within zone. Additionally, no record of recent allied activity in this zone could be found.",
-			voice = "event:/tb/49/tb-49",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "Hey, folks... Check the radar. You won't believe it.",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The radar screen shows dozens upon dozens of little dots, each symbolizing a Siren force. With each scan, a dot disappears.",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "Someone is here, taking out the Sirens one by one. And it’s not one of ours...",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 0.5,
 					x = -2500
@@ -138,8 +138,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -166,8 +166,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "Nope, not a single one! But these Sirens vanishing are the darndest thing I've ever seen... You don't think it could be... the Ashes?!",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "If it is one of them, we will need to reconsider our approach entirely. For now, we must proceed forward to see what we're dealing with.",
 			typewriter = {
 				speed = 0.05,

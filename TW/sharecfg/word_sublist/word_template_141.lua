@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_141 = {}
 slot1 = slot0.word_template_141
 
-function temp()
+temp = function()
 	uv0["猥"] = {
 		["亵"] = {
 			this = true
@@ -22,7 +22,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["煞"] = {
 		["笔"] = {
 			this = true
@@ -38,7 +38,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["傻"] = {
 		["逼"] = {
 			this = true
@@ -72,7 +72,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["排"] = {
 		["泄"] = {
 			this = true

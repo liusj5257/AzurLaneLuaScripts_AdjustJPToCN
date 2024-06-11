@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "Ding Dong~ Let’s begin our afternoon tea party!",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "Typical, a Royal Navy maid wishes to know of our intentions? The reason is—— only meant for adults to know!",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "We're holding a tea party for all those hard working sisters out in the cold in order to warm them up. So no matter how tired everyone gets, {namecode:14} will be here to greet everyone with a pot of hot tea!",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "{namecode:13} is not always staying in her room, {namecode:13} is merely just… hibernating! Yes, {namecode:13} is hibernating.",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "...Sister, you’re always telling half-truths, who’s going to believe you.",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "Naturally, {namecode:13} has got lamps in her room, so not to worry!",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "...Illustrious, besides {namecode:13}, where are those other introverted sisters?",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "And… Miss. Hood is not coming as well?",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "Please have a try of {namecode:13}'s signature dish.",
 			typewriter = {
 				speed = 0.05,
@@ -280,16 +280,16 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "Royal Navy",
 			actorShadow = true,
+			hideOther = true,
 			side = 1,
 			actor = 202120,
 			nameColor = "#a9f548",
 			say = "… O my, this taste——!!!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -380,8 +380,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "Sister...",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "—— She left a note and then headed out!",
 			typewriter = {
 				speed = 0.05,
@@ -424,16 +424,16 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "I won't attend this tea party without {namecode:12}!... {namecode:12}, just wait, I'll definitely come get you!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

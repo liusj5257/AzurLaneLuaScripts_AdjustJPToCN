@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			side = 2,
 			actorName = "提示：",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "跨地图教学已完成，请指挥官按照提示移动离开当前海域",

@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "不屈之神通",
 	init_effect = "jinengchufablue",
-	color = "yellow",
+	id = 10892,
+	time = 0,
 	picture = "",
 	desc = "减少受到伤害",
 	stack = 1,
-	id = 10892,
+	color = "yellow",
 	icon = 10892,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.2
+				number = -0.2,
+				attr = "injureRatio"
 			}
 		}
 	}

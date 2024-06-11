@@ -1,18 +1,18 @@
 return {
-	id = "WORLD400B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD400B",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 8,
 			side = 2,
+			dir = 1,
+			bgm = "story-italy",
 			actor = 605020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "美しきシニョリーナたち、地中海へようこそ。長旅でさぞお疲れかな？このリットリオがサディアを代表して宴を開き歓迎しよう",
-			bgm = "story-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "いいや、そのようなことは聞き及んでいないが？",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "おそらくだが、レッドアクシズ管轄の港での交渉故、艦船を極力連れて来ないことで過度に上層部、首脳部を刺激しないよう気を使っているのだろう",
 			typewriter = {
 				speed = 0.05,
@@ -208,8 +208,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "サディアの威光を広げるためならな。それがわたしたちが未だにレッドアクシズから離脱しない理由よ",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "まず、地中海は入り口さえ守備を固めれば、セイレーンの大規模な侵攻を問題なく防げる。だからこそ、地中海にはほとんど小規模なはぐれセイレーンしか出現しない",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "そしてこの防衛艦隊の役割分担――ロイヤルの上層部からすればサディアの監視の意味も含まれているが――ロイヤルが西、サディアが東を担当するようになった",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "セイレーン作戦の発令により、ロイヤル艦隊の防衛が少し手薄になっているため、はぐれセイレーンが一部の地域では増えているわ",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "だが、心配することではない",
 			typewriter = {
 				speed = 0.05,
@@ -363,8 +363,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "今はこのリットリオ、サディアの威光にかけて、美しきシニョリーナたちを会議場のタラントまで護衛しよう",
 			typewriter = {
 				speed = 0.05,

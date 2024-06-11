@@ -1,17 +1,17 @@
 return {
-	id = "HUAPOHAIKONGZHIYI10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUAPOHAIKONGZHIYI10",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307060,
 			side = 2,
-			nameColor = "#ff5c5c",
-			say = "翔鶴姐！",
 			dir = 1,
 			bgm = "battle-boss-2",
+			nameColor = "#ff5c5c",
+			say = "翔鶴姐！",
 			effects = {
 				{
 					active = true,
@@ -28,8 +28,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -38,10 +38,10 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 2,
 			dir = 1,
+			actor = 307050,
 			say = "對不起，瑞鶴。接下來的戰鬥，姐姐不能再陪著妳了…",
 			effects = {
 				{
@@ -91,8 +91,8 @@ return {
 		{
 			actor = 307060,
 			nameColor = "#ff5c5c",
-			side = 2,
 			dir = 1,
+			side = 2,
 			say = "可惡…！ ！ ！ ！ ！",
 			dialogShake = {
 				speed = 0.09,
@@ -109,14 +109,14 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "普林斯頓，妳們那邊也已經解決了嗎？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -144,8 +144,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "多虧大部隊及時的增援，現在天空中已經沒有重櫻艦載機的蹤影了。",
 			typewriter = {
 				speed = 0.05,
@@ -174,9 +174,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102230,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "居然會這麼順利...太好了！",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -231,8 +231,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "接下來，司令部就會命令我們乘勝追擊了吧。",
 			typewriter = {
 				speed = 0.05,
@@ -277,8 +277,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "這次真是一次精彩的戰役...如果薩拉托加前輩也能看到就好了...",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "告訴她妳如何的英勇的與敵機搏鬥，以及她錯過了一場多麼精彩的戰役~",
 			typewriter = {
 				speed = 0.05,
@@ -339,8 +339,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "雖然現在的我還是缺乏戰鬥經驗，更方面都還不夠成熟...但是我會繼續努力。",
 			typewriter = {
 				speed = 0.05,
@@ -354,9 +354,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "只要繼續努力戰鬥，立下更多的戰功，總有一天我會追上薩拉托加前輩的身影的...！",
 			typewriter = {
 				speed = 0.05,
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -396,8 +396,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "即使是艱鉅的目標，我也會加倍努力的，也請大家一起見證我的成長吧！",
 			typewriter = {
 				speed = 0.05,
@@ -411,9 +411,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "我很期待著那一天呢！",
 			typewriter = {
 				speed = 0.05,
@@ -425,8 +425,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -453,8 +453,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "薩拉托加前輩......我一定不會辜負您的教導的。",
 			typewriter = {
 				speed = 0.05,

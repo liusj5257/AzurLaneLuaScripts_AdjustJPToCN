@@ -1,12 +1,12 @@
 return {
-	id = "W214000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W214000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Sinking the escort fleet should should lift the Sirens’ blockade.",
 			typewriter = {
 				speed = 0.05,

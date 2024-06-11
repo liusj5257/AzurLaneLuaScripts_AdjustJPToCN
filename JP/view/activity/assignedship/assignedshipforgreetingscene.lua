@@ -11,11 +11,11 @@ slot1 = {
 	}
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AssignedShipUI6"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot1 = slot0._tf:Find("layer")
 	slot0.backBtn = slot1:Find("top/back")
 	slot0.confirmBtn = slot1:Find("confirm")
@@ -28,7 +28,7 @@ function slot0.init(slot0)
 	slot0.afterAnima = {}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
 	end, SOUND_BACK)

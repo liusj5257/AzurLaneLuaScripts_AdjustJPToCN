@@ -38,19 +38,19 @@ slot0.SonarRange = "sonarRange"
 slot0.Tactics = "tactics"
 slot0.WorldPower = "world_power"
 
-function slot0.Type2Name(slot0)
+slot0.Type2Name = function(slot0)
 	return i18n("attribute_" .. slot0)
 end
 
 slot0.eliteConditionTip = {
 	cannon = "elite_condition_cannon",
-	air = "elite_condition_air",
-	dodge = "elite_condition_dodge",
+	antiaircraft = "elite_condition_antiaircraft",
+	reload = "elite_condition_reload",
 	torpedo = "elite_condition_torpedo",
 	durability = "elite_condition_durability",
-	reload = "elite_condition_reload",
+	air = "elite_condition_air",
 	fleet_totle_level = "elite_condition_fleet_totle_level",
-	antiaircraft = "elite_condition_antiaircraft",
+	dodge = "elite_condition_dodge",
 	antisub = "elite_condition_antisub",
 	level = "elite_condition_level"
 }
@@ -62,15 +62,15 @@ slot1 = {
 	[-2.0] = "common_compare_not_more_than"
 }
 
-function slot0.eliteConditionCompareTip(slot0)
+slot0.eliteConditionCompareTip = function(slot0)
 	return i18n(uv0[slot0])
 end
 
-function slot0.EliteCondition2Name(slot0, ...)
+slot0.EliteCondition2Name = function(slot0, ...)
 	return i18n(uv0.eliteConditionTip[slot0], ...)
 end
 
-function slot0.EliteConditionCompare(slot0, slot1, slot2)
+slot0.EliteConditionCompare = function(slot0, slot1, slot2)
 	if slot0 == 0 then
 		return slot1 == slot2
 	elseif slot0 == 1 then
@@ -107,7 +107,7 @@ slot0.attrNameTable = {
 	[slot0.OxyRaidDistance] = "raidDist"
 }
 
-function slot0.ConvertBattleAttrName(slot0)
+slot0.ConvertBattleAttrName = function(slot0)
 	if uv0.attrNameTable[slot0] then
 		return uv0.attrNameTable[slot0]
 	else
@@ -116,7 +116,7 @@ function slot0.ConvertBattleAttrName(slot0)
 end
 
 slot0.PrimalAttr = {
-	torpedoPower = true,
+	velocity = true,
 	loadSpeed = true,
 	antiSubPower = true,
 	antiAirPower = true,
@@ -124,10 +124,10 @@ slot0.PrimalAttr = {
 	airPower = true,
 	attackRating = true,
 	cannonPower = true,
-	velocity = true
+	torpedoPower = true
 }
 
-function slot0.IsPrimalBattleAttr(slot0)
+slot0.IsPrimalBattleAttr = function(slot0)
 	return uv0.PrimalAttr[slot0]
 end
 

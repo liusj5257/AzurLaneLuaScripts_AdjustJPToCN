@@ -1,16 +1,16 @@
 return {
-	id = "FUXIANGXIANZUOZHAN12",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUXIANGXIANZUOZHAN12",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "轟————————！",
-			dir = 1,
 			bgm = "battle-heroines-image",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -61,8 +61,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			say = "“重櫻”航空艦隊旗艦赤城號被我擊沉了哦·~！",
 			typewriter = {
 				speed = 0.05,
@@ -77,8 +77,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401460,
 			dir = 1,
+			actor = 401460,
 			say = "“重櫻”水雷艦隊旗艦神通，確認擊沉。",
 			typewriter = {
 				speed = 0.05,
@@ -93,8 +93,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "戰場結果確認，“重櫻艦隊”已被擊潰。看來作戰進展順利呢，立刻向下一區域移動嗎，彼得？",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "居然有漏網之魚？能定位到漏網航空母艦的位置嗎。",
 			typewriter = {
 				speed = 0.05,
@@ -139,9 +139,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 407030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "正在展開搜索…………啊！",
 			dialogShake = {
 				speed = 0.09,
@@ -161,8 +161,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "出什麼事了？",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "不是被判定擊落……戰鬥機被直接擊落了？！新出現的重櫻機群裝填的是實彈！",
 			typewriter = {
 				speed = 0.05,
@@ -222,9 +222,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "彼得！我在頻道裡聽到好大一聲叫聲，發生什麼事了？！",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,8 +249,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401460,
 			dir = 1,
+			actor = 401460,
 			say = "妳們的情況還好嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -265,8 +265,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "出現了突發情況，或許是因為裝置故障，海域中出現了裝填實彈的棋子與量產型艦隊……",
 			typewriter = {
 				speed = 0.05,
@@ -280,9 +280,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "咦？！！！！！！這種事有可能發生嗎？！！",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -307,8 +307,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			say = "有可能。歸根結底，訓練用的設施大多是從我們接收到的塞壬設施改造而來的，只要進行正確設置的話完全可以實現。",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "嗯，而且如果妳有好好閱讀基地資料的話就會知道，我們現在部署在外圍海域偽裝成塞壬封鎖艦隊的量產型艦隊就是這麼製造出來的。",
 			typewriter = {
 				speed = 0.05,
@@ -339,8 +339,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 403090,
 			dir = 1,
+			actor = 403090,
 			say = "居然是這樣………………！",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			say = "現在變更作戰計劃，海因里希和Z46帶領護衛艦隊立刻返回。威悉和我負責清理天上的敵機群，並尋找敵方航空母艦的位置。",
 			typewriter = {
 				speed = 0.05,
@@ -386,8 +386,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401460,
 			dir = 1,
+			actor = 401460,
 			say = "收到，即將帶領艦隊返航，Z46通訊結束。",
 			typewriter = {
 				speed = 0.05,
@@ -401,9 +401,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 403090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "實戰嗎……終於等到實戰機會了！小鐵，讓大家見識一下我們的厲害吧！海因里希通話結束！",
 			typewriter = {
 				speed = 0.05,
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023古立特联动复刻 TSS3 新条茜 怪兽变身",
 	cd = 0,
-	painting = 1,
-	id = 200500,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 1,
+	id = 200500,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -23,16 +23,16 @@ return {
 					},
 					phase = {
 						{
-							switchParam = 2.4,
+							switchType = 1,
 							switchTo = 1,
 							index = 0,
-							switchType = 1,
+							switchParam = 2.4,
 							setAI = 20006
 						},
 						{
-							index = 1,
 							switchParam = 2,
 							switchTo = 2,
+							index = 1,
 							switchType = 1,
 							addWeapon = {
 								841050
@@ -40,9 +40,9 @@ return {
 							removeWeapon = {}
 						},
 						{
-							index = 2,
 							switchParam = 2,
 							switchTo = 3,
+							index = 2,
 							switchType = 1,
 							addWeapon = {},
 							removeWeapon = {
@@ -50,9 +50,9 @@ return {
 							}
 						},
 						{
-							index = 3,
 							switchParam = 2,
 							switchTo = 4,
+							index = 3,
 							switchType = 1,
 							addWeapon = {
 								841050
@@ -60,9 +60,9 @@ return {
 							removeWeapon = {}
 						},
 						{
-							index = 4,
 							switchParam = 300,
 							switchTo = 1,
+							index = 4,
 							switchType = 1,
 							addWeapon = {},
 							removeWeapon = {

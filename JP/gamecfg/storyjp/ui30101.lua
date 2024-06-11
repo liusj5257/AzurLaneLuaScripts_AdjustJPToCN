@@ -6,8 +6,8 @@ return {
 		{
 			actor = 107060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "「AFは真水不足という問題あり、攻撃計画はこれを考慮すべし」か？大物が釣れたな。",
 			shake = {
 				speed = 1,
@@ -23,11 +23,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 1,
-			nameColor = "#a9f548",
-			dir = -1,
 			say = "どんなにずる賢い狐も尻尾を隠しきれないんだよね、へへへ",
+			dir = -1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -66,8 +66,8 @@ return {
 		{
 			actor = 107060,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "でもヨークタウン姉さん、あなたの怪我はまだ…",
 			shake = {
 				speed = 1,
@@ -121,8 +121,8 @@ return {
 		{
 			actor = 107060,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "ま、まあ……",
 			shake = {
 				speed = 1,
@@ -156,10 +156,10 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			actorShadow = true,
-			actorName = "エンタープライズ＆ホーネット",
 			side = 0,
+			actorName = "エンタープライズ＆ホーネット",
+			actor = 107060,
 			dir = -1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			sequenceSpd = 2,
 			mode = 1,
+			sequenceSpd = 2,
 			bgFade = true,
 			effects = {
 				{

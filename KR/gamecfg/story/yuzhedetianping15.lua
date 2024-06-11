@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING15",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 3,
 			blackBg = true,
 			sequence = {
@@ -54,10 +54,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "상층부가 몰래 운반한 골동품이 보관된 창고…….",
 			painting = {
 				alpha = 0.3,
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "토리첼리, 어때?",
 			painting = {
 				alpha = 0.3,
@@ -128,10 +128,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그것만은 제발… 다 빈치를 잡다 가는 하루가 다 간다고.",
 			painting = {
 				alpha = 0.3,
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어쨌든 토리첼리, 네 감만 믿을게.",
 			painting = {
 				alpha = 0.3,
@@ -188,10 +188,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "베네토랑 나는 오래전부터 수상하다고 생각했는데, 아무리 노력해도 단서를 찾을 수가 없더라고.",
 			painting = {
 				alpha = 0.3,
@@ -203,12 +203,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래서 이렇게 토리첼리 너한테 부탁하게 된 거야.",
 			painting = {
 				alpha = 0.3,
@@ -272,30 +272,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_firedust_5",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
-			say = "리토리오가 발길을 돌려 창고에서 나가려고 하던 그 순간――",
 			bgm = "theme-vichy-church",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "리토리오가 발길을 돌려 창고에서 나가려고 하던 그 순간――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -303,9 +303,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			}
 		},
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			nameColor = "#ff5c5c",

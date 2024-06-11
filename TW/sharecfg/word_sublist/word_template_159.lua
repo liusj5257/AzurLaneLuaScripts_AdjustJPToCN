@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_159 = {}
 slot1 = slot0.word_template_159
 
-function temp()
+temp = function()
 	uv0.P = {
 		P = {
 			K = {
@@ -108,7 +108,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["松"] = {
 		["岛"] = {
 			["枫"] = {
@@ -141,7 +141,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["潘"] = {
 		["金"] = {
 			["莲"] = {
@@ -169,7 +169,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["在"] = {
 		["线"] = {
 			["激"] = {

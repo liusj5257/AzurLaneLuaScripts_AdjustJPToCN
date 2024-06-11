@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUINU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUINU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"As Cool As A Demon\n\n<size=45>7 The Element of Surprise</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 302080,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "There you are. I thought you'd show up.",
 			bgm = "story-1",
+			actor = 302080,
+			nameColor = "#a9f548",
+			say = "There you are. I thought you'd show up.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "I'd come to the sports building to practice sword swings with Kinu again, as was her routine.",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "It's time for another test. I want to see the fruits of your training.",
 			typewriter = {
@@ -99,9 +99,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "As she instructed, I grabbed a wooden sword, struck a fighting stance, and poured all my focus into a perfect strike.",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Hah! Clear face, straight back. Not bad, compared to when you started... But it's still far from perfect!",
 			effects = {
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "She drew her own wooden sword, and for a moment, the air all around her seemed to whip outward.",
 			effects = {
 				{
@@ -172,9 +172,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "Accepting her challenge, I brandished my sword at her. It was that moment I decided to go all-out on her.",
 			typewriter = {
 				speed = 0.05,
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 302080,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302080,
+			nameColor = "#a9f548",
 			say = "Well, well!",
 			typewriter = {
 				speed = 0.05,
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -228,9 +228,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "She gracefully struck a low pose with her sword held in both hands. Her moves were as beautiful as ever.",
 			typewriter = {
 				speed = 0.05,
@@ -245,8 +245,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "There is something I must know. I can guess where you get your courage from when we lock swords...",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "But from where, pray tell, do you get your confidence?",
 			typewriter = {
@@ -276,9 +276,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "\"It comes from what I've learned in our time training together.\"",
 			typewriter = {
 				speed = 0.05,
@@ -290,9 +290,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "\"It comes from knowing your strengths, your weaknesses... and the lovable look you hide from everyone else.\"",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Wh-what?!",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -331,9 +331,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "It was a risky tactic, but it was more than enough to make her lower her guard.",
 			typewriter = {
 				speed = 0.05,
@@ -345,9 +345,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "While she stood dumbfounded, I went in for the decisive strike.",
 			typewriter = {
 				speed = 0.05,
@@ -375,9 +375,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "I knew Kinu, and that is what gave me the confidence to face her. The self-proclaimed demon isn't so daunting once you see her human side.",
 			typewriter = {
 				speed = 0.05,
@@ -408,8 +408,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Now I understand... It took me this long, but I finally realize what it is inside you that I cannot control.",
 			typewriter = {
@@ -438,9 +438,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "She looked at me head-on and gave her offer loud and clear.",
 			typewriter = {
 				speed = 0.05,
@@ -455,8 +455,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "You may make this demon your secretary.",
 			effects = {
@@ -475,9 +475,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "This proposition came out of nowhere, but I had no reason to turn it down.",
 			effects = {
 				{
@@ -498,8 +498,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "Splendid. Then I will devote my all to you, Commander.",
 			typewriter = {

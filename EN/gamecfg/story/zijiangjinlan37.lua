@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN37",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN37",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg16",
+			nameColor = "#A9F548FF",
+			bgm = "theme-shinanometa",
 			stopbgm = true,
 			say = "Exercise Area - Central Sector",
-			bgm = "theme-shinanometa",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "What are the results of your observation?",
 			painting = {
@@ -92,8 +92,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "That's a relief... Assuming that IS the end of the story.",
 			painting = {
@@ -121,8 +121,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "But this is an Origin Cube we're talking about... How will this \"power\" reshape the Cube that serves as the basis for Akagi's foundation?",
 			painting = {
@@ -174,8 +174,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "In other words, this isn't a cure. It's just a stopgap measure that drags out the time you have before you lose yourself.",
 			painting = {
@@ -203,8 +203,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "Were you a sacrifice to that research as well?",
 			painting = {
@@ -232,8 +232,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "The way you are now... Does that not speak volumes about the risks of using this technology?",
 			painting = {
@@ -273,8 +273,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "An \"ultimate weapon\" using Watatsumi, huh...",
 			painting = {
@@ -290,8 +290,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "If you had something so powerful, how did you still lose to \"them?\"",
 			painting = {
@@ -343,8 +343,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "So you've pinned your hopes on us? Or rather, on this branch? I feel like I've heard those reassuring words before, but that makes me even less inclined to trust you.",
 			painting = {
@@ -360,8 +360,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_wuzang_bg16",
-			actor = 305100,
 			dir = 1,
+			actor = 305100,
 			nameColor = "#A9F548FF",
 			say = "What do you really want from us, and from Akagi?",
 			painting = {

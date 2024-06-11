@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-1-15",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg8",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-10",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-1-15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Do I... look cute?",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			say = "She silently examines herself in the mirror. She seems to like this dress quite a lot.",
@@ -75,14 +75,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "I have? Yeah. And I'm gonna get even bigger.",
 			voice = "event:/educate/tb/educate-tb-story-1-16",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "I have? Yeah. And I'm gonna get even bigger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			say = "Her eyes are glued stuck to the mirror even while she responds.",
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			say = "While she still isn't using clear facial expressions, she has become easier to read.",
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			say = "I cannot wait to see what kind of performance she's going to give.",

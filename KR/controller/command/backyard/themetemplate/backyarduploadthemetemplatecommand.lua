@@ -1,16 +1,16 @@
 slot0 = class("BackYardUploadThemeTemplateCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot4 = getProxy(DormProxy)
 	slot5 = slot4:GetCustomThemeTemplateById(slot1:getBody().templateId)
 
-	function slot7(slot0)
+	slot7 = function(slot0)
 		uv0:Upload()
 		uv1:UpdateCustomThemeTemplate(uv0)
 		uv2:sendNotification(GAME.BACKYARD_UPLOAD_THEME_TEMPLATE_DONE)
 	end
 
-	function slot8()
+	slot8 = function()
 		slot0 = pg.ConnectionMgr.GetInstance()
 
 		slot0:Send(19111, {

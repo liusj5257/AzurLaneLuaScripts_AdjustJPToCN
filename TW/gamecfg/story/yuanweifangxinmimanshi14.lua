@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"鳶尾芳馨瀰漫時\n\n<size=45>我要保守秘密……</size>",
@@ -14,8 +14,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = false,
+			mode = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
 			sequence = {
@@ -36,9 +36,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_154",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "star_level_bg_154",
 			actor = 702012,
 			actorName = "曙光？",
 			say = "現場狀況我知道了，繼續執行任務吧。",
@@ -63,8 +63,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_154",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			actor = 702012,
 			actorName = "曙光？",
 			say = "再強調一下，帶回來的時候，我要的是還能喘氣的。",
@@ -84,10 +84,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
+			side = 2,
 			say = "發號施令完後，曙光？終於注意到這邊了。",
 			typewriter = {
 				speed = 0.05,
@@ -168,11 +168,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "曙光？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "曙光？",
 			say = "嚯？是裝作不知道，或是昏迷劑藥效還沒過嗎？",
 			painting = {
 				alpha = 0.3,
@@ -187,11 +187,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "曙光？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "曙光？",
 			say = "很經典的回答，我每天都要聽到很多次。",
 			painting = {
 				alpha = 0.3,
@@ -257,8 +257,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -267,8 +267,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			say = "快住手，曙光！",
@@ -283,8 +283,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			say = "等等，冷靜下來。眼前這位絕對不是我所認識的曙光。",
@@ -294,8 +294,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			say = "所以…………",
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -341,12 +341,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_154",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			actor = 702012,
 			actorName = "曙光？",
+			actor = 702012,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_154",
 			say = "喔~居然知道我的名字？看來我們這邊出現了內鬼呢~",
 			flashout = {
 				dur = 0.15,
@@ -381,11 +381,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "曙光？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "曙光？",
 			say = "正好，把內鬼的情報也告訴我，不然……",
 			painting = {
 				alpha = 0.3,
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -434,11 +434,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "曙光？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "曙光？",
 			say = "喔~哦，看來是個硬骨頭呢，連我都稍微興奮起來了~",
 			painting = {
 				alpha = 0.3,
@@ -453,11 +453,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "曙光？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "曙光？",
 			say = "讓我看看你能撐到什麼時候~哼哼~",
 			painting = {
 				alpha = 0.3,
@@ -469,11 +469,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_154",
-			hidePaintObj = true,
 			optionFlag = 2,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊————！",
 			flashout = {
 				dur = 0.15,
@@ -504,11 +504,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "曙光？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			nameColor = "#A9F548FF",
+			actorName = "曙光？",
 			say = "叫吧，再叫大聲一點哦，哦呵呵~",
 			painting = {
 				alpha = 0.3,
@@ -520,14 +520,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			side = 2,
-			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 1,
+			bgName = "star_level_bg_107",
 			bgm = "story-richang-4",
 			actor = 702010,
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官……好像做了惡夢……",
 			painting = {
@@ -539,17 +539,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -557,12 +557,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯……膝枕的腿稍微有點麻了……但是……",
 			painting = {
 				alpha = 0.3,
@@ -574,12 +574,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "為了指揮官的話……",
 			painting = {
 				alpha = 0.3,
@@ -591,8 +591,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			say = "快住手，曙光！",
@@ -607,12 +607,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……什、什麼？",
 			painting = {
 				alpha = 0.3,
@@ -624,16 +624,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -642,12 +642,12 @@ return {
 			}
 		},
 		{
-			actor = 702010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官……你究竟夢到了什麼……？",
 			painting = {
 				alpha = 0.3,

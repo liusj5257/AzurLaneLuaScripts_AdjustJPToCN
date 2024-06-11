@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_24 = {}
 slot1 = slot0.word_template_24
 
-function temp()
+temp = function()
 	uv0["奥"] = {
 		["巴"] = {
 			["马"] = {
@@ -20,7 +20,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["野"] = {
 		["田"] = {
 			["佳"] = {
@@ -52,7 +52,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["玄"] = {
 		["叶"] = {
 			["光"] = {
@@ -77,7 +77,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["本"] = {
 		["拉"] = {
 			["登"] = {

@@ -7,9 +7,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 11100,
 					target = "TargetSelf",
-					time = 40,
-					skill_id = 11100
+					time = 40
 				}
 			}
 		}
@@ -22,9 +22,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 11100,
 					target = "TargetSelf",
-					time = 38,
-					skill_id = 11100
+					time = 38
 				}
 			}
 		}
@@ -37,9 +37,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 11100,
 					target = "TargetSelf",
-					time = 36,
-					skill_id = 11100
+					time = 36
 				}
 			}
 		}
@@ -52,9 +52,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 11100,
 					target = "TargetSelf",
-					time = 34,
-					skill_id = 11100
+					time = 34
 				}
 			}
 		}
@@ -67,9 +67,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 11100,
 					target = "TargetSelf",
-					time = 32,
-					skill_id = 11100
+					time = 32
 				}
 			}
 		}
@@ -82,9 +82,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 11100,
 					target = "TargetSelf",
-					time = 30,
-					skill_id = 11100
+					time = 30
 				}
 			}
 		}
@@ -97,9 +97,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 11100,
 					target = "TargetSelf",
-					time = 28,
-					skill_id = 11100
+					time = 28
 				}
 			}
 		}
@@ -112,9 +112,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 11100,
 					target = "TargetSelf",
-					time = 26,
-					skill_id = 11100
+					time = 26
 				}
 			}
 		}
@@ -127,9 +127,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 11100,
 					target = "TargetSelf",
-					time = 23,
-					skill_id = 11100
+					time = 23
 				}
 			}
 		}
@@ -142,9 +142,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 11100,
 					target = "TargetSelf",
-					time = 20,
-					skill_id = 11100
+					time = 20
 				}
 			}
 		}
@@ -152,12 +152,12 @@ return {
 	desc_get = "每$1秒，发射一组跨射炮弹，命中敌人造成减速$2，持续8秒",
 	name = "约克公爵1技能",
 	init_effect = "",
+	id = 11100,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "每$1秒，发射一组跨射炮弹，命中敌人造成减速$2，持续8秒",
 	stack = 1,
-	id = 11100,
+	color = "red",
 	icon = 11100,
 	last_effect = "",
 	effect_list = {
@@ -167,9 +167,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 11100,
 				target = "TargetSelf",
-				time = 40,
-				skill_id = 11100
+				time = 40
 			}
 		}
 	}

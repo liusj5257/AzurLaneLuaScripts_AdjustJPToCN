@@ -1,22 +1,22 @@
 return {
-	id = "WORLD404C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD404C",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "The smell of gunpowder in the air... I’ve been here before... Mid...way...?",
 			dir = 1,
 			bgm = "battle-boss-italy",
+			nameColor = "#a9f548",
+			say = "The smell of gunpowder in the air... I’ve been here before... Mid...way...?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -44,8 +44,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 900296,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900296,
 			actorName = "Enterprise?",
 			say = "You still remember me. I’m honored.",
 			typewriter = {
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 900297,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900297,
 			actorName = "Hornet?",
 			say = "That was a damn exciting battle! Your leadership was top notch!~",
 			typewriter = {
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 900295,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900295,
 			actorName = "Yorktown?",
 			say = "Indeed. You still want to take your revenge on us, right? Then come and fight us, forevermore.",
 			typewriter = {
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 900296,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900296,
 			actorName = "Enterprise?",
 			say = "Even after you returned, you seemed to blame everything on the Five Minutes of Fate. But given five days, five years, five eternities... What could you possibly do?",
 			typewriter = {
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 900297,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900297,
 			actorName = "Hornet?",
 			say = "You cannot escape fate... the fate engraved upon your hull. Fate is not so fragile, unlike that little amulet your sister gave you~",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,11 +249,11 @@ return {
 			}
 		},
 		{
-			actor = 900296,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900296,
 			actorName = "Enterprise?",
 			say = "Come, Akagi... This time, nobody will keep you from your revenge. Not the Sirens. Not the Sakura Empire. Not the Eagle Union. And not Amagi.",
 			typewriter = {
@@ -296,10 +296,10 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 307010,
 			say = "—————That voice... Shoukaku... Zuikaku...?",
 			effects = {
 				{

@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行12次攻击，触发专属弹幕-海王星I",
 	name = "专属弹幕-海王星I",
 	init_effect = "",
+	id = 29231,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行12次攻击，触发专属弹幕-海王星I",
 	stack = 1,
-	id = 29231,
+	color = "red",
 	icon = 29230,
 	last_effect = "",
 	effect_list = {
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29231,
+				target = "TargetSelf",
 				countType = 29230
 			}
 		}

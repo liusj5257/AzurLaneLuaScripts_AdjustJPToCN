@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "濒死护盾",
 	time = 0,
+	name = "濒死护盾",
+	init_effect = "",
 	picture = "",
 	desc = "战斗对象的血量下降到X%时，生成一个永久存在的护盾",
 	stack = 1,
@@ -17,9 +17,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "reflect",
 				effect = "shield03",
 				count = 120,
+				do_when_hit = "reflect",
 				bulletType = 1,
 				cld_list = {
 					{

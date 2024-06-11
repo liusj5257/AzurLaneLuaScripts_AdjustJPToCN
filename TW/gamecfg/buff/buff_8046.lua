@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "第10章重巡使用盾buff",
 	time = 99999,
+	name = "第10章重巡使用盾buff",
+	init_effect = "",
 	picture = "",
 	desc = "第10章重巡使用盾buff",
 	stack = 1,

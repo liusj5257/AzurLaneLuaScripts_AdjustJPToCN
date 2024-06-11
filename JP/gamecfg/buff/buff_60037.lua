@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-运输船-新AI及自杀",
 	time = 0,
+	name = "测试-运输船-新AI及自杀",
+	init_effect = "",
 	picture = "",
 	desc = "跑路AI及自杀",
 	stack = 1,
@@ -34,8 +34,8 @@ return {
 			},
 			arg_list = {
 				group = 60037,
-				attr = "immuneMaxAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneMaxAreaLimit"
 			}
 		}
 	}

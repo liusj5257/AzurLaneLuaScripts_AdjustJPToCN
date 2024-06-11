@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMAFEIJI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMAFEIJI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Midsummer Sagittarius\n\n<size=45>Chapter 3 - The Coast Watcher's Vacation</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 201212,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Too bad I couldn't teach this to you earlier, Centaur. You're really pretty, so it's a darn shame that you aren't also wearing a swimsuit...",
 			bgm = "story-1",
+			actor = 201212,
+			nameColor = "#a9f548",
+			say = "Too bad I couldn't teach this to you earlier, Centaur. You're really pretty, so it's a darn shame that you aren't also wearing a swimsuit...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,10 +55,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Indeed... Sincerest apologies, but because I just arrived here, I didn't have time to prepare a swimsuit...",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -92,8 +92,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Um... weren't you going to show me around...?",
 			typewriter = {
@@ -106,8 +106,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -116,15 +116,15 @@ return {
 			}
 		},
 		{
-			actor = 101251,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101251,
+			nameColor = "#a9f548",
 			say = "Saratogaaaaaaaaaa!!! Stop running and give my soda back!!",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
 					x = 0,
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 107031,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107031,
+			nameColor = "#a9f548",
 			say = "Ahahaha! You'll have to catch me if you want me to stop!",
 			typewriter = {
 				speed = 0.05,
@@ -175,16 +175,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 1,
 					x = 2250
@@ -227,10 +227,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Impressive... Elder Saratoga's reputation precedes her...",
+			dir = 1,
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -261,12 +261,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "Huh? Who's that over there...?",
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Huh? Who's that over there...?",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "I believe that is Elder Ark Royal. What an elegant swimsuit.",
 			typewriter = {
@@ -314,11 +314,11 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#a9f548",
 			say = "Muahahaha! It is I, Ark Royal, who shall ensure that all the destroyers can frolic safely!",
 			effects = {
 				{
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 201212,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201212,
+			nameColor = "#a9f548",
 			say = "Well, as you can see... she only looks cool until she opens her mouth...",
 			effects = {
 				{
@@ -358,12 +358,12 @@ return {
 			}
 		},
 		{
-			actor = 206040,
+			say = "Th-this dedication... Elder Ark Royal is so cool...!",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Th-this dedication... Elder Ark Royal is so cool...!",
+			actor = 206040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -378,8 +378,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#a9f548",
 			say = "Nothing says summer like the sun, the beach, and destroyers! Summer is the best!",
 			effects = {
 				{
@@ -463,8 +463,8 @@ return {
 			bgName = "star_level_bg_106",
 			actor = 206040,
 			dir = 1,
-			nameColor = "#a9f548",
 			say = "Elder Ark Royal! Good day!",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -485,11 +485,11 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 0,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#a9f548",
 			say = "*cough* Ahem! Centaur?! Javelin as well? I don't usually see the two of you together.",
 			typewriter = {
 				speed = 0.05,
@@ -501,8 +501,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -578,8 +578,8 @@ return {
 			expression = 4,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Um, I just arrived recently, so I didn't have time to get one...",
 			typewriter = {
@@ -592,8 +592,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -634,15 +634,15 @@ return {
 			}
 		},
 		{
-			actor = 207021,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207021,
+			nameColor = "#a9f548",
 			say = "*gasp*! I'm getting carried away. I'd love to chat more, but I can't afford to take my eyes off the destroyers! Sorry!",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -667,8 +667,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 2.5,
 					dur = 0.2,
 					x = 0,
@@ -677,12 +677,12 @@ return {
 			}
 		},
 		{
-			actor = 201212,
+			say = "All righty, we'll be heading off then!",
 			side = 1,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "All righty, we'll be heading off then!",
+			actor = 201212,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -697,8 +697,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -710,8 +710,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_106",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Keep up the good work, Elder Ark Royal.",
 			typewriter = {

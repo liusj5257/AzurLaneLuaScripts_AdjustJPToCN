@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "美系V4 我方黑海伦娜支援",
 	time = 25,
-	color = "yellow",
+	name = "美系V4 我方黑海伦娜支援",
+	init_effect = "",
+	id = 8881,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8881,
+	color = "yellow",
 	icon = 8881,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 8880,
 				time = 17,
 				rant = 10000,
-				skill_id = 8880
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 15060,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15060,
+	color = "red",
 	icon = 15060,
 	last_effect = "",
 	effect_list = {
@@ -46,10 +46,10 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				target = "TargetSelf",
 				skill_id = 15062,
+				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				label = {
 					"BB",
 					"MG",

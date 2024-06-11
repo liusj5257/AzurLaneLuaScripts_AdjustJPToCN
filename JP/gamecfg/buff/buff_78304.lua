@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "最终剧情战用全体撤退buff",
 	time = 0,
-	color = "yellow",
+	name = "最终剧情战用全体撤退buff",
+	init_effect = "",
+	id = 78304,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 78304,
+	color = "yellow",
 	icon = 8636,
 	last_effect = "",
 	effect_list = {

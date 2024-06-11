@@ -1,10 +1,10 @@
 slot0 = class("BackYardDecorationMsgBox", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardDecorationMsgBox"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.frame = slot0:findTF("frame")
 	slot0.cancelBtn = slot0:findTF("frame/control/cancel_btn")
 	slot0.deleteBtn = slot0:findTF("frame/control/delete_btn")
@@ -34,7 +34,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0.inputField:Find("Placeholder"), i18n("enter_theme_name"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		if uv0.showInnerMsg then
 			uv0:HideInnerMsgBox()
@@ -75,7 +75,7 @@ function slot0.OnInit(slot0)
 		uv0:Hide()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.applyBtn, function ()
-		function slot0(slot0)
+		slot0 = function(slot0)
 		end
 
 		slot1 = uv0
@@ -105,7 +105,7 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
 	slot0.theme = slot1
@@ -130,11 +130,11 @@ function slot0.Show(slot0, slot1, slot2)
 	slot0._tf:SetAsLastSibling()
 end
 
-function slot0.RemoveSizeTag(slot0, slot1)
+slot0.RemoveSizeTag = function(slot0, slot1)
 	return string.gsub(string.gsub(slot1, "</size>", ""), "<size=%d+>", "")
 end
 
-function slot0.ApplyTheme(slot0)
+slot0.ApplyTheme = function(slot0)
 	slot1 = slot0.theme
 	slot0.desc.text = i18n("backyard_theme_set_tip", slot1:getName())
 
@@ -156,7 +156,7 @@ function slot0.ApplyTheme(slot0)
 	end
 end
 
-function slot0.NewTheme(slot0)
+slot0.NewTheme = function(slot0)
 	slot2 = slot0.theme.id
 
 	setInputText(slot0.inputField, i18n("backyard_theme_defaultname") .. slot2)
@@ -168,7 +168,7 @@ function slot0.NewTheme(slot0)
 	setActive(slot0.icon.gameObject, true)
 end
 
-function slot0.ShowInnerMsgBox(slot0, slot1, slot2, slot3, slot4)
+slot0.ShowInnerMsgBox = function(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot0.frame, false)
 	setActive(slot0.innerMsgbox, true)
 	setActive(slot0.innerMsgboxCancelBtn, slot3)
@@ -199,14 +199,14 @@ function slot0.ShowInnerMsgBox(slot0, slot1, slot2, slot3, slot4)
 	slot0.showInnerMsg = true
 end
 
-function slot0.HideInnerMsgBox(slot0)
+slot0.HideInnerMsgBox = function(slot0)
 	setActive(slot0.frame, true)
 	setActive(slot0.innerMsgbox, false)
 
 	slot0.showInnerMsg = false
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if not IsNil(slot0.iconRaw.texture) then
 		Object.Destroy(slot0.iconRaw.texture)
 

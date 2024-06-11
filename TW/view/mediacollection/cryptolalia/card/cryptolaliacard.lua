@@ -1,6 +1,6 @@
 slot0 = class("CryptolaliaCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.iconImg = slot0._tf:Find("icon"):GetComponent(typeof(Image))
@@ -13,7 +13,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.stateIcon = slot0._tf:Find("name/state/icon"):GetComponent(typeof(Image))
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3)
+slot0.Update = function(slot0, slot1, slot2, slot3)
 	slot0.cryptolalia = slot1
 	slot4 = slot1:ShipIcon()
 
@@ -50,15 +50,15 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.GetColor(slot0, slot1)
+slot0.GetColor = function(slot0, slot1)
 	return slot1 and "#C33A4A" or "#363737"
 end
 
-function slot0._GetColor(slot0, slot1)
+slot0._GetColor = function(slot0, slot1)
 	return slot1 and Color.New(0.764, 0.227, 0.29) or Color.New(0.211, 0.215, 0.215)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.exited = true
 end
 

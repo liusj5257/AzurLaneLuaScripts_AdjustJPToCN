@@ -10,7 +10,7 @@ slot4.FOCUS_PILOT = "FOCUS_PILOT"
 slot4.TWEEN_TO_CHARACTER = "TWEEN_TO_CHARACTER"
 slot4.FOLLOW_GESTURE = "FOLLOW_GESTURE"
 
-function slot4.Ctor(slot0)
+slot4.Ctor = function(slot0)
 	uv0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._camera = pg.UIMgr.GetInstance():GetMainCamera():GetComponent(typeof(Camera))
@@ -19,11 +19,11 @@ function slot4.Ctor(slot0)
 	slot0._cameraFixMgr = pg.CameraFixMgr.GetInstance()
 end
 
-function slot4.ActiveMainCemera(slot0)
+slot4.ActiveMainCemera = function(slot0)
 	CameraMgr.instance:SetActiveMainCamera(slot0)
 end
 
-function slot4.Initialize(slot0)
+slot4.Initialize = function(slot0)
 	slot0._cameraSpeed = nil
 	slot0._cameraTF.localPosition = uv0.CAMERA_INIT_POS
 
@@ -43,7 +43,7 @@ function slot4.Initialize(slot0)
 	slot0._uiMediator = uv2.Battle.BattleState.GetInstance():GetMediatorByName(uv2.Battle.BattleUIMediator.__name)
 end
 
-function slot4.Clear(slot0)
+slot4.Clear = function(slot0)
 	slot0.ActiveMainCemera(false)
 	LeanTween.cancel(go(slot0._camera))
 	slot0:Deactive()
@@ -60,7 +60,7 @@ function slot4.Clear(slot0)
 	slot0._cameraSpeed = nil
 end
 
-function slot4.SetMapData(slot0, slot1, slot2, slot3, slot4)
+slot4.SetMapData = function(slot0, slot1, slot2, slot3, slot4)
 	slot5, slot6, slot7, slot8 = slot0._boundFix:SetMapData(slot1, slot2, slot3, slot4)
 
 	slot0._followPilot:SetGoldenRation(slot0._camera:ScreenToWorldPoint(Vector3(pg.CameraFixMgr.GetInstance().actualWidth * uv0.CAMERA_GOLDEN_RATE, 0, 0)).x - slot0._cameraTF.position.x)
@@ -68,7 +68,7 @@ function slot4.SetMapData(slot0, slot1, slot2, slot3, slot4)
 	return slot5, slot6, slot7, slot8
 end
 
-function slot4.SetFocusFleet(slot0, slot1)
+slot4.SetFocusFleet = function(slot0, slot1)
 	slot0._followPilot:SetFleetVO(slot1)
 
 	slot0._cameraTF.position = slot0._boundFix:GetCameraPos(slot0._followPilot:GetCameraPos())
@@ -76,31 +76,31 @@ function slot4.SetFocusFleet(slot0, slot1)
 	uv0.UpdateCameraPositionArgs()
 end
 
-function slot4.SetCameraSilder(slot0, slot1)
+slot4.SetCameraSilder = function(slot0, slot1)
 	slot0._gesture:SetGestureComponent(slot1)
 end
 
-function slot4.SwitchCameraPos(slot0, slot1)
+slot4.SwitchCameraPos = function(slot0, slot1)
 	if slot1 == "TWEEN_TO_CHARACTER" then
-		function slot0._currentCameraPos()
+		slot0._currentCameraPos = function()
 			return uv0._fromTo:GetCameraPos()
 		end
 	elseif slot1 == "FOLLOW_GESTURE" then
-		function slot0._currentCameraPos()
+		slot0._currentCameraPos = function()
 			return uv0._boundFix:GetCameraPos(uv0._gesture:GetCameraPos(uv0._cameraTF.position))
 		end
 	else
-		function slot0._currentCameraPos()
+		slot0._currentCameraPos = function()
 			return uv0._boundFix:GetCameraPos(uv0._followPilot:GetCameraPos())
 		end
 	end
 end
 
-function slot4.GetS2WPoint(slot0, slot1)
+slot4.GetS2WPoint = function(slot0, slot1)
 	return slot0._camera:ScreenToWorldPoint(slot1)
 end
 
-function slot4.setArrowPoint(slot0)
+slot4.setArrowPoint = function(slot0)
 	slot1 = 1
 	slot2 = slot0._uiCamera:ScreenToWorldPoint(slot0._cameraFixMgr.leftBottomVector) + Vector3(slot1, slot1, 0)
 	slot3 = slot0._uiCamera:ScreenToWorldPoint(slot0._cameraFixMgr.rightTopVector) - Vector3(slot1, slot1, 0)
@@ -114,7 +114,7 @@ function slot4.setArrowPoint(slot0)
 	slot0._arrowFieldHalfWidth_notch = slot0._arrowRightTopPos_notch.x - slot0._arrowCenterPos.x
 end
 
-function slot4.Update(slot0)
+slot4.Update = function(slot0)
 	if slot0._cameraTF.position.x ~= slot0:GetCameraPoint().x or slot2.z ~= slot1 then
 		slot0._cameraTF.position = slot1
 
@@ -126,7 +126,7 @@ function slot4.Update(slot0)
 	end
 end
 
-function slot4.StartShake(slot0, slot1)
+slot4.StartShake = function(slot0, slot1)
 	if slot0._shakeInfo and (slot1.priority < slot0._shakeInfo._priority or slot1.priority == 0) then
 		return
 	end
@@ -154,11 +154,11 @@ function slot4.StartShake(slot0, slot1)
 	slot0._shakeInfo._priority = slot1.priority
 end
 
-function slot4.StopShake(slot0)
+slot4.StopShake = function(slot0)
 	slot0._shakeInfo = nil
 end
 
-function slot4.DoShake(slot0)
+slot4.DoShake = function(slot0)
 	slot0._shakeInfo._count = slot0._shakeInfo._count + 1
 	slot0._shakeInfo._elapsed = slot0._shakeInfo._elapsed + Time.deltaTime
 
@@ -185,7 +185,7 @@ function slot4.DoShake(slot0)
 	end
 end
 
-function slot4.bounceReverse(slot0)
+slot4.bounceReverse = function(slot0)
 	if slot0._fricCoefH ~= 0 then
 		slot0._fricCoefH = 1 / slot0._fricCoefH
 	end
@@ -198,30 +198,30 @@ function slot4.bounceReverse(slot0)
 	slot0._fricConstV = slot0._fricConstV * -1
 end
 
-function slot4.PauseShake(slot0)
+slot4.PauseShake = function(slot0)
 	slot0._shakeEnabled = false
 end
 
-function slot4.ResumeShake(slot0)
+slot4.ResumeShake = function(slot0)
 	slot0._shakeEnabled = true
 end
 
-function slot4.active(slot0)
+slot4.active = function(slot0)
 	UpdateBeat:Add(slot0.Update, slot0)
 end
 
-function slot4.Deactive(slot0)
+slot4.Deactive = function(slot0)
 	UpdateBeat:Remove(slot0.Update, slot0)
 end
 
-function slot4.CutInPainting(slot0, slot1, slot2)
+slot4.CutInPainting = function(slot0, slot1, slot2)
 	slot0:DispatchEvent(uv0.Event.New(uv1.SHOW_PAINTING, {
 		caster = slot1,
 		speed = slot2
 	}))
 end
 
-function slot4.BulletTime(slot0, slot1, slot2, slot3)
+slot4.BulletTime = function(slot0, slot1, slot2, slot3)
 	slot0:DispatchEvent(uv0.Event.New(uv1.BULLET_TIME, {
 		key = slot1,
 		speed = slot2,
@@ -234,7 +234,7 @@ function slot4.BulletTime(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot4.ZoomCamara(slot0, slot1, slot2, slot3, slot4)
+slot4.ZoomCamara = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = LeanTween.value(go(slot0._camera), slot1 or slot0._camera.orthographicSize, slot2 or uv0.CAMERA_SIZE, slot3 or 1.6):setOnUpdate(System.Action_float(function (slot0)
 		uv0._camera.orthographicSize = slot0
 	end))
@@ -244,7 +244,7 @@ function slot4.ZoomCamara(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot4.FocusCharacter(slot0, slot1, slot2, slot3, slot4, slot5)
+slot4.FocusCharacter = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:StopShake()
 
 	delay = delay or 0
@@ -273,7 +273,7 @@ function slot4.FocusCharacter(slot0, slot1, slot2, slot3, slot4, slot5)
 	else
 		slot8 = slot0._boundFix:GetCameraPos(slot0._followPilot:GetCameraPos())
 
-		function slot9()
+		slot9 = function()
 			uv0:SwitchCameraPos()
 		end
 
@@ -288,7 +288,7 @@ function slot4.FocusCharacter(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:DispatchEvent(uv1.Event.New(uv2.CAMERA_FOCUS, slot6))
 end
 
-function slot4.ResetFocus(slot0)
+slot4.ResetFocus = function(slot0)
 	slot0:StopShake()
 	LeanTween.cancel(go(slot0._camera))
 	LeanTween.cancel(go(slot0._uiCamera))
@@ -298,7 +298,7 @@ function slot4.ResetFocus(slot0)
 	slot0:DispatchEvent(uv2.Event.New(uv3.CAMERA_FOCUS_RESET, {}))
 end
 
-function slot4.GetCharacterArrowBarPosition(slot0, slot1, slot2)
+slot4.GetCharacterArrowBarPosition = function(slot0, slot1, slot2)
 	slot3 = slot0._arrowLeftBottomPos_notch
 	slot4 = slot0._arrowRightTopPos_notch
 	slot5 = slot0._arrowCenterPos
@@ -333,19 +333,19 @@ function slot4.GetCharacterArrowBarPosition(slot0, slot1, slot2)
 	end
 end
 
-function slot4.GetCameraPoint(slot0)
+slot4.GetCameraPoint = function(slot0)
 	return slot0._currentCameraPos()
 end
 
-function slot4.GetArrowCenterPos(slot0)
+slot4.GetArrowCenterPos = function(slot0)
 	return slot0._arrowCenterPos
 end
 
-function slot4.GetCamera(slot0)
+slot4.GetCamera = function(slot0)
 	return slot0._camera
 end
 
-function slot4.Add2Camera(slot0, slot1, slot2)
+slot4.Add2Camera = function(slot0, slot1, slot2)
 	slot1 = tf(slot1)
 
 	slot1:SetParent(slot0._cameraTF)
@@ -354,12 +354,12 @@ function slot4.Add2Camera(slot0, slot1, slot2)
 	return slot0._cameraTF.localScale
 end
 
-function slot4.PauseCameraTween(slot0)
+slot4.PauseCameraTween = function(slot0)
 	LeanTween.pause(go(slot0._camera))
 	LeanTween.pause(go(slot0._uiCamera))
 end
 
-function slot4.ResumeCameraTween(slot0)
+slot4.ResumeCameraTween = function(slot0)
 	LeanTween.resume(go(slot0._camera))
 	LeanTween.resume(go(slot0._uiCamera))
 end

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023黑神通 开场根据敌方阵营个数提升自身属性",
 	time = 3,
+	name = "2023黑神通 开场根据敌方阵营个数提升自身属性",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -17,8 +17,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200578,
-				target = "TargetSelf",
 				nationality = 1,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm",
 					"TargetNationality"
@@ -33,8 +33,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200578,
-				target = "TargetSelf",
 				nationality = 2,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm",
 					"TargetNationality"
@@ -49,8 +49,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200578,
-				target = "TargetSelf",
 				nationality = 3,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm",
 					"TargetNationality"
@@ -65,8 +65,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200578,
-				target = "TargetSelf",
 				nationality = 4,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm",
 					"TargetNationality"
@@ -81,8 +81,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200578,
-				target = "TargetSelf",
 				nationality = 5,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm",
 					"TargetNationality"
@@ -97,8 +97,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200578,
-				target = "TargetSelf",
 				nationality = 6,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm",
 					"TargetNationality"
@@ -113,8 +113,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 200578,
-				target = "TargetSelf",
 				nationality = 7,
+				target = "TargetSelf",
 				check_target = {
 					"TargetAllHarm",
 					"TargetNationality"

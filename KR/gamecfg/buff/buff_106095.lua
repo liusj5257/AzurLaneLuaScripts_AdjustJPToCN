@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 8,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "标记-Nagisa&Misaki'sEnemy",
 	stack = 1,

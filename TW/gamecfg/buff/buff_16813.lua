@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_duoliyabiaoji",
-					number = 0.015
+					number = 0.015,
+					attr = "DMG_TAG_EHC_duoliyabiaoji"
 				}
 			}
 		}
@@ -21,8 +21,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_duoliyabiaoji",
-					number = 0.02
+					number = 0.02,
+					attr = "DMG_TAG_EHC_duoliyabiaoji"
 				}
 			}
 		}
@@ -35,8 +35,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_duoliyabiaoji",
-					number = 0.025
+					number = 0.025,
+					attr = "DMG_TAG_EHC_duoliyabiaoji"
 				}
 			}
 		}
@@ -49,8 +49,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_duoliyabiaoji",
-					number = 0.03
+					number = 0.03,
+					attr = "DMG_TAG_EHC_duoliyabiaoji"
 				}
 			}
 		}
@@ -63,8 +63,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_duoliyabiaoji",
-					number = 0.035
+					number = 0.035,
+					attr = "DMG_TAG_EHC_duoliyabiaoji"
 				}
 			}
 		}
@@ -77,8 +77,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_duoliyabiaoji",
-					number = 0.04
+					number = 0.04,
+					attr = "DMG_TAG_EHC_duoliyabiaoji"
 				}
 			}
 		}
@@ -91,8 +91,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_duoliyabiaoji",
-					number = 0.045
+					number = 0.045,
+					attr = "DMG_TAG_EHC_duoliyabiaoji"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_duoliyabiaoji",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_duoliyabiaoji"
 				}
 			}
 		}
@@ -119,8 +119,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_duoliyabiaoji",
-					number = 0.055
+					number = 0.055,
+					attr = "DMG_TAG_EHC_duoliyabiaoji"
 				}
 			}
 		}
@@ -133,8 +133,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_duoliyabiaoji",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_duoliyabiaoji"
 				}
 			}
 		}
@@ -142,12 +142,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
+	id = 16813,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16813,
+	color = "red",
 	icon = 16813,
 	last_effect = "",
 	blink = {
@@ -164,8 +164,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_duoliyabiaoji",
-				number = 0.015
+				number = 0.015,
+				attr = "DMG_TAG_EHC_duoliyabiaoji"
 			}
 		}
 	}

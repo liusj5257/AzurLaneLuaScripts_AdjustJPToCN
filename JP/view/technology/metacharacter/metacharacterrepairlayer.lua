@@ -1,21 +1,14 @@
 slot0 = class("MetaCharacterRepairLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MetaCharacterRepairUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initTipText()
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
-end
-
-function slot0.didEnter(slot0)
-	slot0:doRepairProgressPanelAni()
-	slot0:updateAttrListPanel()
-	slot0:updateRepairBtn(true)
-	slot0:updateDetailPanel()
 
 	for slot4, slot5 in ipairs(MetaCharacterConst.REPAIR_ATTRS) do
 		if not slot0.curMetaCharacterVO:getAttrVO(slot5):isLock() then
@@ -24,14 +17,20 @@ function slot0.didEnter(slot0)
 			break
 		end
 	end
+end
 
+slot0.didEnter = function(slot0)
+	slot0:doRepairProgressPanelAni()
+	slot0:updateAttrListPanel()
+	slot0:updateRepairBtn(true)
+	slot0:updateDetailPanel()
 	slot0:TryPlayGuide()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.repairEffectBoxPanel) then
 		slot0:closeRepairEffectBoxPanel()
 
@@ -45,14 +44,14 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.initTipText(slot0)
+slot0.initTipText = function(slot0)
 	setText(slot0:findTF("Repair/AttrListPanel/AttrItemContainer/AttrItemCannon/SelectedPanel/AttrRepairTipText"), i18n("meta_repair"))
 	setText(slot0:findTF("Repair/AttrListPanel/AttrItemContainer/AttrItemTorpedo/SelectedPanel/AttrRepairTipText"), i18n("meta_repair"))
 	setText(slot0:findTF("Repair/AttrListPanel/AttrItemContainer/AttrItemAir/SelectedPanel/AttrRepairTipText"), i18n("meta_repair"))
 	setText(slot0:findTF("Repair/AttrListPanel/AttrItemContainer/AttrItemReload/SelectedPanel/AttrRepairTipText"), i18n("meta_repair"))
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.metaCharacterProxy = getProxy(MetaCharacterProxy)
 	slot0.bayProxy = getProxy(BayProxy)
 	slot0.attrTFList = {}
@@ -64,7 +63,7 @@ function slot0.initData(slot0)
 	slot0:updateData()
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.repairPanel = slot0:findTF("Repair")
 	slot0.attrListPanel = slot0:findTF("AttrListPanel", slot0.repairPanel)
 	slot0.attrItemContainer = slot0:findTF("AttrItemContainer", slot0.attrListPanel)
@@ -92,7 +91,7 @@ function slot0.findUI(slot0)
 	slot0.repairEffectBoxPanel = slot0:findTF("RepairEffectBox")
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	for slot4, slot5 in pairs(slot0.attrTFList) do
 		onToggle(slot0, slot5, function (slot0)
 			if slot0 == true then
@@ -131,11 +130,11 @@ function slot0.addListener(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.TryPlayGuide(slot0)
+slot0.TryPlayGuide = function(slot0)
 	pg.SystemGuideMgr.GetInstance():PlayByGuideId("NG0027")
 end
 
-function slot0.doRepairProgressPanelAni(slot0)
+slot0.doRepairProgressPanelAni = function(slot0)
 	slot2 = GetComponent(slot0.repairSliderTF, typeof(Slider))
 	slot2.minValue = 0
 	slot2.maxValue = 1
@@ -155,20 +154,20 @@ function slot0.doRepairProgressPanelAni(slot0)
 	end
 end
 
-function slot0.updateRepairProgressPanel(slot0, slot1)
+slot0.updateRepairProgressPanel = function(slot0, slot1)
 	slot2 = slot1 or slot0.curMetaCharacterVO:getRepairRate()
 
 	setSlider(slot0.repairSliderTF, 0, 1, slot2)
 	setText(slot0.repairPercentText, string.format("%d", slot2 * 100))
 end
 
-function slot0.updateAttrListPanel(slot0)
+slot0.updateAttrListPanel = function(slot0)
 	for slot4, slot5 in ipairs(MetaCharacterConst.REPAIR_ATTRS) do
 		slot0:updateAttrItem(slot0.attrTFList[slot5], slot5)
 	end
 end
 
-function slot0.updateAttrItem(slot0, slot1, slot2)
+slot0.updateAttrItem = function(slot0, slot1, slot2)
 	slot3 = slot0:findTF("LockPanel", slot1)
 	slot4 = slot0:findTF("UnSelectPanel", slot1)
 
@@ -235,7 +234,7 @@ function slot0.updateAttrItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateRepairBtn(slot0, slot1)
+slot0.updateRepairBtn = function(slot0, slot1)
 	if slot1 == true then
 		setActive(slot0.repairBtn, false)
 		setActive(slot0.repairBtnDisable, false)
@@ -260,7 +259,7 @@ function slot0.updateRepairBtn(slot0, slot1)
 	end
 end
 
-function slot0.updateDetailItem(slot0, slot1, slot2)
+slot0.updateDetailItem = function(slot0, slot1, slot2)
 	slot4 = slot0:findTF("LockPanel", slot1)
 	slot6 = slot2.progress
 
@@ -304,7 +303,7 @@ function slot0.updateDetailItem(slot0, slot1, slot2)
 	slot13:align(#slot2:getAttrAdditionList() + #slot2:getDescs() + 1)
 end
 
-function slot0.updateDetailPanel(slot0)
+slot0.updateDetailPanel = function(slot0)
 	setActive(slot0.detailPanel, false)
 
 	slot0.detailList = UIItemList.New(slot0.detailItemContainer, slot0.detailItemTpl)
@@ -317,12 +316,12 @@ function slot0.updateDetailPanel(slot0)
 	slot0.detailList:align(#slot0.curMetaCharacterVO:getEffects())
 end
 
-function slot0.updateData(slot0)
+slot0.updateData = function(slot0)
 	slot0.curShipVO = slot0.bayProxy:getShipById(slot0.curMetaShipID)
 	slot0.curMetaCharacterVO = slot0.curShipVO:getMetaCharacter()
 end
 
-function slot0.checkSpecialEffect(slot0)
+slot0.checkSpecialEffect = function(slot0)
 	slot2 = slot0.bayProxy:getShipById(slot0.curMetaShipID):getMetaCharacter()
 	slot3 = slot2:getRepairRate() * 100
 	slot4 = slot0.curMetaCharacterVO:getRepairRate() * 100
@@ -336,7 +335,7 @@ function slot0.checkSpecialEffect(slot0)
 	end
 end
 
-function slot0.openRepairEffectBoxPanel(slot0, slot1)
+slot0.openRepairEffectBoxPanel = function(slot0, slot1)
 	slot7 = slot1.progress
 	slot8 = slot0:findTF("BG", slot0.repairEffectBoxPanel)
 
@@ -380,12 +379,12 @@ function slot0.openRepairEffectBoxPanel(slot0, slot1)
 	})
 end
 
-function slot0.closeRepairEffectBoxPanel(slot0)
+slot0.closeRepairEffectBoxPanel = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.repairEffectBoxPanel)
 	setActive(slot0.repairEffectBoxPanel, false)
 end
 
-function slot0.openDetailPanel(slot0)
+slot0.openDetailPanel = function(slot0)
 	setActive(slot0.detailPanel, true)
 
 	slot1 = pg.UIMgr.GetInstance()
@@ -407,7 +406,7 @@ function slot0.openDetailPanel(slot0)
 	end))
 end
 
-function slot0.closeDetailPanel(slot0)
+slot0.closeDetailPanel = function(slot0)
 	if slot0.isClosing or slot0.isOpening then
 		return
 	end

@@ -1,6 +1,6 @@
 slot0 = class("WorldFleetRedeployCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = pg.ConnectionMgr.GetInstance()
 
 	slot3:Send(33409, slot1:getBody(), 33410, function (slot0)

@@ -11,27 +11,31 @@ slot0.ChannelBits = {
 	})
 }
 
-function slot0.getUIName(slot0)
-	return "NotificationUI"
+slot0.getUIName = function(slot0)
+	if getProxy(SettingsProxy):IsMellowStyle() then
+		return "NotificationUI4Mellow"
+	else
+		return "NotificationUI"
+	end
 end
 
-function slot0.getGroupName(slot0)
+slot0.getGroupName = function(slot0)
 	return "group_NotificationUI"
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.setInGuild(slot0, slot1)
+slot0.setInGuild = function(slot0, slot1)
 	slot0.inGuild = slot1
 end
 
-function slot0.setMessages(slot0, slot1)
+slot0.setMessages = function(slot0, slot1)
 	slot0.messages = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.close = slot0:findTF("close")
 	slot0.frame = slot0:findTF("frame")
 	slot0.contain = slot0.frame:Find("contain")
@@ -68,6 +72,9 @@ function slot0.init(slot0)
 	slot0.roomBtn = slot0.contain:Find("top/room")
 	slot0.typeBtns = slot0.contain:Find("top/type")
 	slot0.inputTF = slot0:findTF("frame/bg/InputField", slot0.changeRoomPanel):GetComponent(typeof(InputField))
+	slot0.switchTpl = slot0:findTF("switch_tpl", slot0.changeRoomPanel)
+	slot0.switchNormalSprite = slot0:findTF("switch_normal", slot0.changeRoomPanel):GetComponent(typeof(Image)).sprite
+	slot0.switchSelectedSprite = slot0:findTF("switch_selected", slot0.changeRoomPanel):GetComponent(typeof(Image)).sprite
 
 	setText(findTF(slot0.changeRoomPanel, "frame/bg/label_send"), i18n("notice_label_send"))
 	setText(findTF(slot0.changeRoomPanel, "frame/bg/label_recv"), i18n("notice_label_recv"))
@@ -82,11 +89,8 @@ function slot0.init(slot0)
 	slot0.selectedSprite = slot0:findTF("selected", slot0.resource):GetComponent(typeof(Image)).sprite
 	slot0.bottomChannelTpl = slot0:findTF("channel_tpl", slot0.resource)
 	slot0.bottomChannelNormalSprite = slot0:findTF("channel_normal", slot0.resource):GetComponent(typeof(Image)).sprite
-	slot0.bottomChannelSelectedSprite = slot0:findTF("channel_selected", slot0.resource):GetComponent(typeof(Image)).sprite
-	slot0.switchTpl = slot0:findTF("switch_tpl", slot0.resource)
-	slot0.switchNormalSprite = slot0:findTF("switch_normal", slot0.resource):GetComponent(typeof(Image)).sprite
-	slot2 = slot0:findTF("switch_selected", slot0.resource)
-	slot0.switchSelectedSprite = slot2:GetComponent(typeof(Image)).sprite
+	slot2 = slot0:findTF("channel_selected", slot0.resource)
+	slot0.bottomChannelSelectedSprite = slot2:GetComponent(typeof(Image)).sprite
 	slot0.textSprites = {}
 	slot0.textSelectedSprites = {}
 	slot0.bottomChannelTextSprites = {}
@@ -102,7 +106,7 @@ function slot0.init(slot0)
 		slot8 = ChatConst.GetChannelSprite(slot6)
 		slot0.textSprites[slot6] = slot0:findTF("text_" .. slot8, slot0.resource):GetComponent(typeof(Image)).sprite
 		slot0.textSelectedSprites[slot6] = slot0:findTF("text_" .. slot8 .. "_selected", slot0.resource):GetComponent(typeof(Image)).sprite
-		slot0.switchTextSprites[slot6] = slot0:findTF("text_" .. slot8 .. "_switch", slot0.resource):GetComponent(typeof(Image)).sprite
+		slot0.switchTextSprites[slot6] = slot0:findTF("text_" .. slot8 .. "_switch", slot0.changeRoomPanel):GetComponent(typeof(Image)).sprite
 
 		if table.contains(ChatConst.SendChannels, slot6) then
 			slot0.bottomChannelTextSprites[slot6] = slot0:findTF("channel_" .. slot8, slot0.resource):GetComponent(typeof(Image)).sprite
@@ -126,38 +130,26 @@ function slot0.init(slot0)
 	uv0.ChannelBits.recv = getProxy(SettingsProxy):GetChatFlag()
 end
 
-function slot0.adjustMsgListPanel(slot0)
+slot0.adjustMsgListPanel = function(slot0)
 	slot0.listContainerTF = slot0.contain:Find("ListContainer")
 	slot0.listTF = slot0.contain:Find("ListContainer/list")
 	GetComponent(slot0.listTF, "LayoutElement").preferredHeight = slot0.listContainerTF.rect.size.y - 69.01791
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:adjustMsgListPanel()
 
 	slot0.currentForm = slot0.contextData.form
 	slot0.escFlag = false
 
 	onButton(slot0, slot0.close, function ()
-		if uv0.escFlag then
-			return
-		end
-
-		uv0.escFlag = true
-
-		LeanTween.moveX(uv0._tf, 700, 0.3):setFrom(uv0._tf.localPosition.x):setEase(LeanTweenType.easeInOutQuad):setUseEstimatedTime(true)
-
-		slot0 = uv0._tf:GetComponent(typeof(CanvasGroup))
-
-		LeanTween.value(go(uv0._tf), 1, 0, 0.3):setUseEstimatedTime(true):setOnUpdate(System.Action_float(function (slot0)
-			uv0.alpha = slot0
-		end)):setOnComplete(System.Action(function ()
+		uv0:PlayExitAnimation(function ()
 			if uv0.currentForm == uv1.FORM_BATTLE then
 				uv0:emit(NotificationMediator.BATTLE_CHAT_CLOSE)
 			end
 
 			uv0:emit(BaseUI.ON_CLOSE)
-		end))
+		end)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.emoji, function ()
 		uv0:displayEmojiPanel()
@@ -225,26 +217,9 @@ function slot0.didEnter(slot0)
 
 		rtf(slot0.frame.transform).offsetMax = Vector2(0, -120)
 	else
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-			groupName = slot0:getGroupNameFromData(),
-			weight = slot0:getWeightFromData() + 1
-		})
+		slot0:BlurPanel()
 	end
 
-	slot1 = LeanTween.moveX(slot0._tf, slot0._tf.localPosition.x, 0.3)
-	slot1 = slot1:setFrom(700)
-	slot1 = slot1:setEase(LeanTweenType.easeInOutQuad)
-
-	slot1:setUseEstimatedTime(true)
-
-	slot1 = slot0._tf
-	slot1 = slot1:GetComponent(typeof(CanvasGroup))
-	slot2 = LeanTween.value(go(slot0._tf), 0, 1, 0.3)
-	slot2 = slot2:setUseEstimatedTime(true)
-
-	slot2:setOnUpdate(System.Action_float(function (slot0)
-		uv0.alpha = slot0
-	end))
 	LeanTween.delayedCall(go(slot0._tf), 0.2, System.Action(function ()
 		scrollToBottom(uv0.content.parent)
 	end))
@@ -253,7 +228,18 @@ function slot0.didEnter(slot0)
 	rtf(slot0._tf).offsetMin = Vector2(0, 0)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.BlurPanel = function(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		groupName = slot0:getGroupNameFromData(),
+		weight = slot0:getWeightFromData() + 1
+	})
+end
+
+slot0.UnblurPanel = function(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+end
+
+slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
 	if isActive(slot0.changeRoomPanel) then
@@ -263,7 +249,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.initFilter(slot0)
+slot0.initFilter = function(slot0)
 	slot0.recvTypes = UIItemList.New(slot0.typeBtns, slot0.typeTpl)
 
 	slot0.recvTypes:make(function (slot0, slot1, slot2)
@@ -273,9 +259,13 @@ function slot0.initFilter(slot0)
 			setImageSprite(slot2:Find("text"), uv1.textSprites[slot3], true)
 			setImageSprite(slot2:Find("text_selected"), uv1.textSelectedSprites[slot3], true)
 			onButton(uv1, slot2, function ()
-				uv2.ChannelBits.recv = IndexConst.ToggleBits(uv2.ChannelBits.recv, _.filter(uv0, function (slot0)
+				if uv2.ChannelBits.recv == IndexConst.ToggleBits(uv2.ChannelBits.recv, _.filter(uv0, function (slot0)
 					return slot0 ~= ChatConst.ChannelGuild or uv0.inGuild
-				end), ChatConst.ChannelAll, uv3)
+				end), ChatConst.ChannelAll, uv3) then
+					return
+				end
+
+				uv2.ChannelBits.recv = slot1
 
 				uv1:updateFilter()
 				uv1:updateAll()
@@ -286,7 +276,7 @@ function slot0.initFilter(slot0)
 	slot0.recvTypes:align(#ChatConst.RecvChannels)
 end
 
-function slot0.updateFilter(slot0)
+slot0.updateFilter = function(slot0)
 	slot1 = ChatConst.RecvChannels
 	slot2 = slot0.recvTypes
 
@@ -312,17 +302,20 @@ function slot0.updateFilter(slot0)
 	slot0.filteredMessages = _.slice(slot0.filteredMessages, #slot0.filteredMessages - uv0.MaxCount + 1, uv0.MaxCount)
 end
 
-function slot0.updateChatChannel(slot0)
+slot0.updateChatChannel = function(slot0)
 	setImageSprite(slot0.channelSend:Find("Text"), slot0.bottomChannelTextSprites[uv0.ChannelBits.send], true)
 end
 
-function slot0.updateChannelSendPop(slot0)
+slot0.updateChannelSendPop = function(slot0)
 	slot3 = slot0.channelSendPop
 	slot2 = UIItemList.New(slot3:Find("type_send"), slot0.bottomChannelTpl)
 
 	slot2:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			setImageSprite(slot2:Find("text"), uv1.bottomChannelTextSprites[uv0[slot1 + 1]], true)
+			slot3 = uv0[slot1 + 1]
+
+			setImageSprite(slot2:Find("text"), uv1.bottomChannelTextSprites[slot3], true)
+			setImageSprite(slot2:Find("selected"), uv1.bottomChannelTextSprites[slot3], true)
 			onButton(uv1, slot2, function ()
 				setActive(uv0.channelSendPop, false)
 
@@ -347,20 +340,21 @@ function slot0.updateChannelSendPop(slot0)
 			else
 				setImageSprite(slot1:Find("bottom"), uv1.bottomChannelNormalSprite, true)
 			end
+
+			setActive(slot1:Find("selected"), slot3)
+			setActive(slot1:Find("text"), not slot3)
 		end)
 	end)()
 end
 
-function slot0.updateRoom(slot0)
+slot0.updateRoom = function(slot0)
 	setText(slot0.enterRoomTip:Find("text"), i18n("main_notificationLayer_enter_room", slot0.player.chatRoomId == 0 and "" or slot0.player.chatRoomId))
 	setText(slot0:findTF("Text", slot0.roomBtn), slot0.player.chatRoomId == 0 and i18n("common_not_enter_room") or slot0.player.chatRoomId)
 	slot0:showEnterRommTip()
 end
 
-function slot0.showChangeRoomPanel(slot0)
-	slot1 = pg.UIMgr.GetInstance()
-
-	slot1:UnblurPanel(slot0._tf)
+slot0.showChangeRoomPanel = function(slot0)
+	slot0:UnblurPanel()
 
 	slot1 = pg.UIMgr.GetInstance()
 
@@ -433,7 +427,7 @@ function slot0.showChangeRoomPanel(slot0)
 	setActive(slot0.changeRoomPanel, true)
 end
 
-function slot0.closeChangeRoomPanel(slot0)
+slot0.closeChangeRoomPanel = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.changeRoomPanel, slot0._tf)
 
 	if slot0.currentForm == uv0.FORM_BATTLE then
@@ -441,15 +435,13 @@ function slot0.closeChangeRoomPanel(slot0)
 
 		rtf(slot0.frame.transform).offsetMax = Vector2(0, -120)
 	else
-		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-			weight = LayerWeightConst.SECOND_LAYER
-		})
+		slot0:BlurPanel()
 	end
 
 	setActive(slot0.changeRoomPanel, false)
 end
 
-function slot0.removeAllBubble(slot0)
+slot0.removeAllBubble = function(slot0)
 	slot1 = ipairs
 	slot2 = slot0.bubbleCards or {}
 
@@ -479,7 +471,7 @@ function slot0.removeAllBubble(slot0)
 	slot0.worldBossCards = {}
 end
 
-function slot0.updateAll(slot0)
+slot0.updateAll = function(slot0)
 	slot0:removeAllBubble()
 
 	slot4 = uv0.InitCount
@@ -493,7 +485,7 @@ function slot0.updateAll(slot0)
 	setActive(slot0.emptySign, PLATFORM_CODE == PLATFORM_JP and #slot0.filteredMessages <= 0)
 end
 
-function slot0.append(slot0, slot1, slot2, slot3)
+slot0.append = function(slot0, slot1, slot2, slot3)
 	if #slot0.filteredMessages >= uv0.MaxCount * 2 then
 		slot0:updateFilter()
 		slot0:updateAll()
@@ -520,7 +512,7 @@ function slot0.append(slot0, slot1, slot2, slot3)
 	setActive(slot0.emptySign, PLATFORM_CODE == PLATFORM_JP and #slot0.filteredMessages <= 0)
 end
 
-function slot0.appendOthers(slot0, slot1, slot2)
+slot0.appendOthers = function(slot0, slot1, slot2)
 	slot4 = slot0.poolBubble.others
 	slot5 = slot0.prefabOthers
 
@@ -553,7 +545,7 @@ function slot0.appendOthers(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.appendPublic(slot0, slot1, slot2)
+slot0.appendPublic = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot1.id == 4 then
@@ -573,7 +565,7 @@ function slot0.appendPublic(slot0, slot1, slot2)
 	slot3:update(slot1)
 end
 
-function slot0.appendTopPublic(slot0, slot1)
+slot0.appendTopPublic = function(slot0, slot1)
 	if 120 - (pg.TimeMgr.GetInstance():GetServerTime() - slot1.timestamp) <= 0 then
 		return
 	end
@@ -598,7 +590,7 @@ function slot0.appendTopPublic(slot0, slot1)
 	slot0._topTimer:Start()
 end
 
-function slot0.showEnterRommTip(slot0)
+slot0.showEnterRommTip = function(slot0)
 	if slot0.player.chatRoomId == 0 then
 		return
 	end
@@ -614,10 +606,10 @@ function slot0.showEnterRommTip(slot0)
 	end
 end
 
-function slot0.getPos(slot0, slot1)
+slot0.getPos = function(slot0, slot1)
 end
 
-function slot0.displayEmojiPanel(slot0)
+slot0.displayEmojiPanel = function(slot0)
 	slot1 = slot0.emoji.position
 
 	slot0:emit(NotificationMediator.OPEN_EMOJI, function (slot0)
@@ -625,13 +617,13 @@ function slot0.displayEmojiPanel(slot0)
 	end, Vector3(slot1.x, slot1.y, 0))
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.currentForm == uv0.FORM_BATTLE then
 		if isActive(slot0.changeRoomPanel) then
 			slot0:closeChangeRoomPanel()
 		end
 	else
-		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+		slot0:UnblurPanel()
 	end
 
 	LeanTween.cancel(slot0._go)
@@ -669,14 +661,14 @@ function slot0.willExit(slot0)
 	getProxy(GuildProxy):ClearNewChatMsgCnt()
 end
 
-function slot0.insertEmojiToInputText(slot0, slot1)
+slot0.insertEmojiToInputText = function(slot0, slot1)
 	slot0.input.text = slot0.input.text .. string.gsub(ChatConst.EmojiIconCode, "code", slot1)
 end
 
-function slot0.addLateUpdateListener(slot0)
+slot0.addLateUpdateListener = function(slot0)
 end
 
-function slot0.removeLateUpdateListener(slot0)
+slot0.removeLateUpdateListener = function(slot0)
 end
 
 return slot0

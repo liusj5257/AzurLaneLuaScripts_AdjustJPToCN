@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUSANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUSANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"桜流しの日のあとで\n\n<size=45>四  約束</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 305010,
-			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "『今から指揮官様を連れて空地まで向かいます』と。指揮官様、これで大丈夫でしょうか？",
 			bgm = "story-1",
+			actor = 305010,
+			nameColor = "#a9f548",
+			say = "『今から指揮官様を連れて空地まで向かいます』と。指揮官様、これで大丈夫でしょうか？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "空き地に向かう途中でメールの打ち方を教えてあげると、どうにかまともな文章を作成できたようだった。",
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "そこで扶桑は上を見たまま、その場で立ち止まった。",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "突然どうしたのかと視線の先を追ってみると――どうやらオヤシロのある裏山に桜が咲いているらしい。",
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "そう話していると、ようやく目的地の空き地にたどり着いた。オヤシロへの入り口の鳥居は目と鼻の先だ。",
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "いかがでしょう。補給庫はこの程度の広さの土地で問題ありませんか？",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "突然のデートのお誘いに心の準備ができていなかったが……ドキドキしながらもゆっくりと頷いた。",
@@ -300,8 +300,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "――そこにいるのは指揮官？それと扶桑さんもいるんですか",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "はい！それにしてもお二人ともこのような何もない空き地で一体何を……",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
+			nameColor = "#a9f548",
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "――ぴりりりり♪",
@@ -367,11 +367,11 @@ return {
 			}
 		},
 		{
-			actor = 305010,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305010,
+			nameColor = "#a9f548",
 			say = "きゃっ！",
 			typewriter = {
 				speed = 0.05,
@@ -383,8 +383,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -393,8 +393,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "突然スマートフォンから着信が鳴って驚いたのか、扶桑がこちらに抱きついてきた！",
@@ -443,8 +443,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "ふ、扶桑さん……そろそろ指揮官から離れたほうが……",
 			typewriter = {
@@ -473,8 +473,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "密着していた扶桑の身体がそっと離れる。心なしか扶桑の耳が赤いような気がした。",
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			say = "そう言って扶桑は龍鳳と一緒に鳥居をくぐって行ってしまった。",
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_main_day",
 			dir = 1,
 			blackBg = true,

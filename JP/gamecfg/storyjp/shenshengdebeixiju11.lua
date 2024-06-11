@@ -1,17 +1,17 @@
 return {
-	id = "SHENSHENGDEBEIXIJU11",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU11",
+	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_italy_cg3",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "ロイヤルネイビー所属、イラストリアス級装甲空母、イラストリアスと申します",
 			bgm = "battle-boss-italy",
+			nameColor = "#a9f548",
+			say = "ロイヤルネイビー所属、イラストリアス級装甲空母、イラストリアスと申します",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リットリオ",
+			side = 2,
 			bgName = "bg_italy_cg3",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "ロイヤルネイビー、どうやってこっちの戦艦がタラントに移動したことに気づいたんだ？",
 			typewriter = {
 				speed = 0.05,
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_italy_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "リットリオ",
+			side = 2,
 			bgName = "bg_italy_cg3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "イラストリアス",
+			side = 2,
 			bgName = "bg_italy_cg3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -98,9 +98,9 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			dir = 1,
 			actor = 605020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "全く、大したやつだ。貴方がサディア帝国にいたらぜひダンスの誘いをしたいものだが…",
 			typewriter = {
 				speed = 0.05,
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			expression = 8,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			say = "サディア帝国所属、ヴィットリオ・ヴェネト級戦艦リットリオ――行くぞ！",
 			typewriter = {
 				speed = 0.05,

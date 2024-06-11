@@ -1,6 +1,6 @@
 slot0 = class("SummaryPage1", import(".SummaryAnimationPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot4 = findTF(findTF(slot0._go, "painting"), "mask/painting")
 
 	setText(findTF(findTF(slot0._go, "name"), "Text"), slot0.summaryInfoVO.name)

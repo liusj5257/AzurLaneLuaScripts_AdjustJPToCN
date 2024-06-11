@@ -1,20 +1,20 @@
-this = class("SailBoatGameConst")
-this.bg_layer_back = 1
-this.bg_layer_mid = 2
-this.bg_layer_top = 3
-this.bg_show_circle = 1
-this.bg_show_random = 2
-this.item_static = 1
-this.item_used = 2
-this.enemy_move_ver = 1
-this.enemy_move_left_in = 2
-this.player_group = 1
-this.enemy_group = 2
-this.un_equip_tip = "1"
-this.equip_type_weapon = 1
-this.equip_type_speed = 2
-this.equip_type_hp = 3
-this.equip_data = {
+slot0 = class("SailBoatGameConst")
+slot0.bg_layer_back = 1
+slot0.bg_layer_mid = 2
+slot0.bg_layer_top = 3
+slot0.bg_show_circle = 1
+slot0.bg_show_random = 2
+slot0.item_static = 1
+slot0.item_used = 2
+slot0.enemy_move_ver = 1
+slot0.enemy_move_left_in = 2
+slot0.player_group = 1
+slot0.enemy_group = 2
+slot0.un_equip_tip = "1"
+slot0.equip_type_weapon = 1
+slot0.equip_type_speed = 2
+slot0.equip_type_hp = 3
+slot0.equip_data = {
 	{
 		speed = -10,
 		hp = 0,
@@ -22,7 +22,7 @@ this.equip_data = {
 		icon = "equip_1",
 		weapon_id = 6,
 		desc = "sail_boat_equip_tip_1",
-		type = this.equip_type_weapon
+		type = slot0.equip_type_weapon
 	},
 	{
 		speed = -20,
@@ -31,7 +31,7 @@ this.equip_data = {
 		icon = "equip_2",
 		weapon_id = 5,
 		desc = "sail_boat_equip_tip_2",
-		type = this.equip_type_weapon
+		type = slot0.equip_type_weapon
 	},
 	{
 		speed = -30,
@@ -40,7 +40,7 @@ this.equip_data = {
 		icon = "equip_3",
 		weapon_id = 4,
 		desc = "sail_boat_equip_tip_3",
-		type = this.equip_type_weapon
+		type = slot0.equip_type_weapon
 	},
 	{
 		speed = -20,
@@ -49,7 +49,7 @@ this.equip_data = {
 		icon = "equip_4",
 		weapon_id = 0,
 		desc = "sail_boat_equip_tip_4",
-		type = this.equip_type_hp
+		type = slot0.equip_type_hp
 	},
 	{
 		speed = 80,
@@ -58,10 +58,10 @@ this.equip_data = {
 		icon = "equip_5",
 		weapon_id = 0,
 		desc = "sail_boat_equip_tip_5",
-		type = this.equip_type_speed
+		type = slot0.equip_type_speed
 	}
 }
-this.game_equip_round = {
+slot0.game_equip_round = {
 	{
 		{
 			1,
@@ -239,12 +239,12 @@ this.game_equip_round = {
 		}
 	}
 }
-this.max_equip_count = 8
-this.game_round = {
+slot0.max_equip_count = 8
+slot0.game_round = {
 	{
-		id = 1,
 		equip_count = 2,
 		progress = 120,
+		id = 1,
 		item_rule = {
 			1,
 			2,
@@ -280,9 +280,9 @@ this.game_round = {
 		}
 	},
 	{
-		id = 2,
 		equip_count = 2,
 		progress = 120,
+		id = 2,
 		item_rule = {
 			1,
 			2,
@@ -326,9 +326,9 @@ this.game_round = {
 		}
 	},
 	{
-		id = 3,
 		equip_count = 5,
 		progress = 120,
+		id = 3,
 		item_rule = {
 			1,
 			2,
@@ -375,9 +375,9 @@ this.game_round = {
 		}
 	},
 	{
-		id = 4,
 		equip_count = 5,
 		progress = 120,
+		id = 4,
 		item_rule = {
 			1,
 			2,
@@ -424,9 +424,9 @@ this.game_round = {
 		}
 	},
 	{
-		id = 5,
 		equip_count = 5,
 		progress = 120,
+		id = 5,
 		item_rule = {
 			1,
 			2,
@@ -473,9 +473,9 @@ this.game_round = {
 		}
 	},
 	{
-		id = 6,
 		equip_count = 8,
 		progress = 120,
+		id = 6,
 		item_rule = {
 			1,
 			2,
@@ -522,9 +522,9 @@ this.game_round = {
 		}
 	},
 	{
-		id = 7,
 		equip_count = 8,
 		progress = 120,
+		id = 7,
 		item_rule = {
 			1,
 			2,
@@ -573,9 +573,9 @@ this.game_round = {
 		}
 	},
 	{
-		id = 8,
 		equip_count = 8,
 		progress = 90,
+		id = 8,
 		item_rule = {
 			1,
 			2,
@@ -603,111 +603,111 @@ this.game_round = {
 		}
 	}
 }
-this.game_char = {
+slot0.game_char = {
 	{
-		id = 1,
 		hp = 100,
+		id = 1,
 		tpl = "players/char_1",
 		speed = Vector2(300, 200),
-		group = this.player_group,
+		group = slot0.player_group,
 		hit_group = {
-			this.enemy_group
+			slot0.enemy_group
 		},
 		range = Vector2(90, 140)
 	}
 }
-this.game_item = {
+slot0.game_item = {
 	{
 		score = 0,
-		hp = 50,
 		skill = false,
 		id = 1,
+		hp = 50,
 		tpl = "items/Aid",
-		type = this.item_used,
+		type = slot0.item_used,
 		speed = Vector2(0, 0),
 		range = Vector2(130, 130)
 	},
 	{
 		score = 0,
-		hp = 0,
 		skill = true,
 		id = 2,
+		hp = 0,
 		tpl = "items/Buff",
-		type = this.item_used,
+		type = slot0.item_used,
 		speed = Vector2(0, 0),
 		range = Vector2(130, 130)
 	},
 	{
 		score = 1000,
-		hp = 0,
 		skill = false,
 		id = 3,
+		hp = 0,
 		tpl = "items/Treasure",
-		type = this.item_used,
+		type = slot0.item_used,
 		speed = Vector2(0, 0),
 		range = Vector2(130, 130)
 	},
 	{
 		id = 4,
 		tpl = "Object/Island_Medium",
-		type = this.item_static,
+		type = slot0.item_static,
 		speed = Vector2(0, 0),
 		range = Vector2(214, 240)
 	},
 	{
 		id = 5,
 		tpl = "Object/Island_Small",
-		type = this.item_static,
+		type = slot0.item_static,
 		speed = Vector2(0, 0),
 		range = Vector2(180, 180)
 	},
 	{
 		id = 6,
 		tpl = "Object/Rock_Large",
-		type = this.item_static,
+		type = slot0.item_static,
 		speed = Vector2(0, 0),
 		range = Vector2(270, 160)
 	},
 	{
 		id = 7,
 		tpl = "Object/Rock_Medium",
-		type = this.item_static,
+		type = slot0.item_static,
 		speed = Vector2(0, 0),
 		range = Vector2(190, 180)
 	},
 	{
 		id = 8,
 		tpl = "Object/Rock_Small",
-		type = this.item_static,
+		type = slot0.item_static,
 		speed = Vector2(0, 0),
 		range = Vector2(120, 110)
 	}
 }
-this.bg_rule = {
+slot0.bg_rule = {
 	{
-		width = 3072,
 		height = 1536,
-		id = 1,
 		move_rate = 1,
 		content = "bg_1",
+		id = 1,
+		width = 3072,
 		tpl = "bgs/bg_base",
-		layer = this.bg_layer_back,
-		show = this.bg_show_circle,
+		layer = slot0.bg_layer_back,
+		show = slot0.bg_show_circle,
 		remove_bound = Vector2(3100, 1600)
 	},
 	{
-		width = 3072,
 		height = 1536,
-		id = 2,
 		move_rate = 1,
 		content = "bg_5",
+		id = 2,
+		width = 3072,
 		tpl = "bgs/bg_wave",
-		layer = this.bg_layer_back,
-		show = this.bg_show_circle,
+		layer = slot0.bg_layer_back,
+		show = slot0.bg_show_circle,
 		remove_bound = Vector2(3100, 1600)
 	}
 }
-this.item_rule = {
+slot0.item_rule = {
 	{
 		id = 1,
 		create_time = {
@@ -853,7 +853,7 @@ this.item_rule = {
 		}
 	}
 }
-this.enemy_rule = {
+slot0.enemy_rule = {
 	[101] = {
 		id = 101,
 		create_time = {
@@ -867,7 +867,7 @@ this.enemy_rule = {
 		enemys = {
 			101
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -906,7 +906,7 @@ this.enemy_rule = {
 		enemys = {
 			102
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -945,7 +945,7 @@ this.enemy_rule = {
 		enemys = {
 			103
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -984,7 +984,7 @@ this.enemy_rule = {
 		enemys = {
 			104
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -1023,7 +1023,7 @@ this.enemy_rule = {
 		enemys = {
 			101
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1062,7 +1062,7 @@ this.enemy_rule = {
 		enemys = {
 			102
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1101,7 +1101,7 @@ this.enemy_rule = {
 		enemys = {
 			103
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1140,7 +1140,7 @@ this.enemy_rule = {
 		enemys = {
 			104
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1179,7 +1179,7 @@ this.enemy_rule = {
 		enemys = {
 			105
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -1202,7 +1202,7 @@ this.enemy_rule = {
 		enemys = {
 			105
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -1225,7 +1225,7 @@ this.enemy_rule = {
 		enemys = {
 			106
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -1248,7 +1248,7 @@ this.enemy_rule = {
 		enemys = {
 			107
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -1271,7 +1271,7 @@ this.enemy_rule = {
 		enemys = {
 			111
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1310,7 +1310,7 @@ this.enemy_rule = {
 		enemys = {
 			109
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1349,7 +1349,7 @@ this.enemy_rule = {
 		enemys = {
 			110
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -1388,7 +1388,7 @@ this.enemy_rule = {
 		enemys = {
 			108
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -1427,7 +1427,7 @@ this.enemy_rule = {
 		enemys = {
 			108
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -1466,7 +1466,7 @@ this.enemy_rule = {
 		enemys = {
 			102
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -1505,7 +1505,7 @@ this.enemy_rule = {
 		enemys = {
 			103
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -1544,7 +1544,7 @@ this.enemy_rule = {
 		enemys = {
 			104
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -1583,7 +1583,7 @@ this.enemy_rule = {
 		enemys = {
 			101
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1622,7 +1622,7 @@ this.enemy_rule = {
 		enemys = {
 			105
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1661,7 +1661,7 @@ this.enemy_rule = {
 		enemys = {
 			103
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1700,7 +1700,7 @@ this.enemy_rule = {
 		enemys = {
 			104
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1739,7 +1739,7 @@ this.enemy_rule = {
 		enemys = {
 			111
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1778,7 +1778,7 @@ this.enemy_rule = {
 		enemys = {
 			109
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1817,7 +1817,7 @@ this.enemy_rule = {
 		enemys = {
 			110
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1856,7 +1856,7 @@ this.enemy_rule = {
 		enemys = {
 			108
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -1895,7 +1895,7 @@ this.enemy_rule = {
 		enemys = {
 			105
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -1918,7 +1918,7 @@ this.enemy_rule = {
 		enemys = {
 			108
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -1941,7 +1941,7 @@ this.enemy_rule = {
 		enemys = {
 			106
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -1964,7 +1964,7 @@ this.enemy_rule = {
 		enemys = {
 			107
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -1987,7 +1987,7 @@ this.enemy_rule = {
 		enemys = {
 			111
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -2026,7 +2026,7 @@ this.enemy_rule = {
 		enemys = {
 			109
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -2065,7 +2065,7 @@ this.enemy_rule = {
 		enemys = {
 			110
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -2104,7 +2104,7 @@ this.enemy_rule = {
 		enemys = {
 			108
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -2143,7 +2143,7 @@ this.enemy_rule = {
 		enemys = {
 			101
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -2182,7 +2182,7 @@ this.enemy_rule = {
 		enemys = {
 			102
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -2221,7 +2221,7 @@ this.enemy_rule = {
 		enemys = {
 			103
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -2260,7 +2260,7 @@ this.enemy_rule = {
 		enemys = {
 			104
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -2299,7 +2299,7 @@ this.enemy_rule = {
 		enemys = {
 			201
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -2338,7 +2338,7 @@ this.enemy_rule = {
 		enemys = {
 			202
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -2377,7 +2377,7 @@ this.enemy_rule = {
 		enemys = {
 			203
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -2416,7 +2416,7 @@ this.enemy_rule = {
 		enemys = {
 			204
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -2455,7 +2455,7 @@ this.enemy_rule = {
 		enemys = {
 			201
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -2494,7 +2494,7 @@ this.enemy_rule = {
 		enemys = {
 			205
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -2533,7 +2533,7 @@ this.enemy_rule = {
 		enemys = {
 			203
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -2572,7 +2572,7 @@ this.enemy_rule = {
 		enemys = {
 			204
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -2611,7 +2611,7 @@ this.enemy_rule = {
 		enemys = {
 			201
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -2650,7 +2650,7 @@ this.enemy_rule = {
 		enemys = {
 			205
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -2689,7 +2689,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -2728,7 +2728,7 @@ this.enemy_rule = {
 		enemys = {
 			201
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -2767,7 +2767,7 @@ this.enemy_rule = {
 		enemys = {
 			203
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -2806,7 +2806,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -2845,7 +2845,7 @@ this.enemy_rule = {
 		enemys = {
 			205
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -2868,7 +2868,7 @@ this.enemy_rule = {
 		enemys = {
 			205
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -2891,7 +2891,7 @@ this.enemy_rule = {
 		enemys = {
 			806
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -2914,7 +2914,7 @@ this.enemy_rule = {
 		enemys = {
 			807
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -2937,7 +2937,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -2976,7 +2976,7 @@ this.enemy_rule = {
 		enemys = {
 			209
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -3015,7 +3015,7 @@ this.enemy_rule = {
 		enemys = {
 			210
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -3054,7 +3054,7 @@ this.enemy_rule = {
 		enemys = {
 			208
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -3093,7 +3093,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -3132,7 +3132,7 @@ this.enemy_rule = {
 		enemys = {
 			213
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -3171,7 +3171,7 @@ this.enemy_rule = {
 		enemys = {
 			214
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -3210,7 +3210,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -3233,7 +3233,7 @@ this.enemy_rule = {
 		enemys = {
 			213
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -3256,7 +3256,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -3295,7 +3295,7 @@ this.enemy_rule = {
 		enemys = {
 			202
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -3334,7 +3334,7 @@ this.enemy_rule = {
 		enemys = {
 			203
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -3373,7 +3373,7 @@ this.enemy_rule = {
 		enemys = {
 			204
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -3412,7 +3412,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -3451,7 +3451,7 @@ this.enemy_rule = {
 		enemys = {
 			205
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -3490,7 +3490,7 @@ this.enemy_rule = {
 		enemys = {
 			203
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -3529,7 +3529,7 @@ this.enemy_rule = {
 		enemys = {
 			204
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -3568,7 +3568,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -3607,7 +3607,7 @@ this.enemy_rule = {
 		enemys = {
 			213
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -3646,7 +3646,7 @@ this.enemy_rule = {
 		enemys = {
 			214
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -3685,7 +3685,7 @@ this.enemy_rule = {
 		enemys = {
 			201
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -3724,7 +3724,7 @@ this.enemy_rule = {
 		enemys = {
 			203
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -3763,7 +3763,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -3802,7 +3802,7 @@ this.enemy_rule = {
 		enemys = {
 			205
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -3825,7 +3825,7 @@ this.enemy_rule = {
 		enemys = {
 			205
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -3848,7 +3848,7 @@ this.enemy_rule = {
 		enemys = {
 			806
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -3871,7 +3871,7 @@ this.enemy_rule = {
 		enemys = {
 			807
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -3894,7 +3894,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -3933,7 +3933,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -3972,7 +3972,7 @@ this.enemy_rule = {
 		enemys = {
 			210
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -4011,7 +4011,7 @@ this.enemy_rule = {
 		enemys = {
 			208
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -4050,7 +4050,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -4089,7 +4089,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -4128,7 +4128,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -4167,7 +4167,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -4190,7 +4190,7 @@ this.enemy_rule = {
 		enemys = {
 			213
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -4213,7 +4213,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -4252,7 +4252,7 @@ this.enemy_rule = {
 		enemys = {
 			202
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -4291,7 +4291,7 @@ this.enemy_rule = {
 		enemys = {
 			203
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -4330,7 +4330,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -4369,7 +4369,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -4408,7 +4408,7 @@ this.enemy_rule = {
 		enemys = {
 			205
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -4447,7 +4447,7 @@ this.enemy_rule = {
 		enemys = {
 			203
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -4486,7 +4486,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -4525,7 +4525,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -4564,7 +4564,7 @@ this.enemy_rule = {
 		enemys = {
 			213
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -4603,7 +4603,7 @@ this.enemy_rule = {
 		enemys = {
 			214
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -4642,7 +4642,7 @@ this.enemy_rule = {
 		enemys = {
 			201
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -4681,7 +4681,7 @@ this.enemy_rule = {
 		enemys = {
 			203
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -4720,7 +4720,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -4759,7 +4759,7 @@ this.enemy_rule = {
 		enemys = {
 			205
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -4782,7 +4782,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -4805,7 +4805,7 @@ this.enemy_rule = {
 		enemys = {
 			806
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -4828,7 +4828,7 @@ this.enemy_rule = {
 		enemys = {
 			807
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -4851,7 +4851,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -4890,7 +4890,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -4929,7 +4929,7 @@ this.enemy_rule = {
 		enemys = {
 			210
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -4968,7 +4968,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -5007,7 +5007,7 @@ this.enemy_rule = {
 		enemys = {
 			210
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -5046,7 +5046,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -5085,7 +5085,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -5124,7 +5124,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -5147,7 +5147,7 @@ this.enemy_rule = {
 		enemys = {
 			213
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -5170,7 +5170,7 @@ this.enemy_rule = {
 		enemys = {
 			215
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -5209,7 +5209,7 @@ this.enemy_rule = {
 		enemys = {
 			202
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -5248,7 +5248,7 @@ this.enemy_rule = {
 		enemys = {
 			203
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -5287,7 +5287,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -5326,7 +5326,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -5365,7 +5365,7 @@ this.enemy_rule = {
 		enemys = {
 			205
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -5404,7 +5404,7 @@ this.enemy_rule = {
 		enemys = {
 			203
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -5443,7 +5443,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -5482,7 +5482,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -5521,7 +5521,7 @@ this.enemy_rule = {
 		enemys = {
 			213
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -5560,7 +5560,7 @@ this.enemy_rule = {
 		enemys = {
 			214
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -5599,7 +5599,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -5638,7 +5638,7 @@ this.enemy_rule = {
 		enemys = {
 			213
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -5677,7 +5677,7 @@ this.enemy_rule = {
 		enemys = {
 			205
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -5716,7 +5716,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -5739,7 +5739,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -5762,7 +5762,7 @@ this.enemy_rule = {
 		enemys = {
 			806
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -5785,7 +5785,7 @@ this.enemy_rule = {
 		enemys = {
 			807
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -5808,7 +5808,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -5847,7 +5847,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -5886,7 +5886,7 @@ this.enemy_rule = {
 		enemys = {
 			210
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -5925,7 +5925,7 @@ this.enemy_rule = {
 		enemys = {
 			216
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -5964,7 +5964,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -6003,7 +6003,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -6042,7 +6042,7 @@ this.enemy_rule = {
 		enemys = {
 			216
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -6081,7 +6081,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -6104,7 +6104,7 @@ this.enemy_rule = {
 		enemys = {
 			213
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -6127,7 +6127,7 @@ this.enemy_rule = {
 		enemys = {
 			215
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -6166,7 +6166,7 @@ this.enemy_rule = {
 		enemys = {
 			202
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -6205,7 +6205,7 @@ this.enemy_rule = {
 		enemys = {
 			203
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -6244,7 +6244,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -6283,7 +6283,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -6322,7 +6322,7 @@ this.enemy_rule = {
 		enemys = {
 			205
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -6361,7 +6361,7 @@ this.enemy_rule = {
 		enemys = {
 			203
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -6400,7 +6400,7 @@ this.enemy_rule = {
 		enemys = {
 			216
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -6439,7 +6439,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -6478,7 +6478,7 @@ this.enemy_rule = {
 		enemys = {
 			202
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -6517,7 +6517,7 @@ this.enemy_rule = {
 		enemys = {
 			214
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -6556,7 +6556,7 @@ this.enemy_rule = {
 		enemys = {
 			202
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -6595,7 +6595,7 @@ this.enemy_rule = {
 		enemys = {
 			215
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -6634,7 +6634,7 @@ this.enemy_rule = {
 		enemys = {
 			205
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -6673,7 +6673,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -6696,7 +6696,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -6719,7 +6719,7 @@ this.enemy_rule = {
 		enemys = {
 			806
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -6742,7 +6742,7 @@ this.enemy_rule = {
 		enemys = {
 			807
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -6765,7 +6765,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -6804,7 +6804,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -6843,7 +6843,7 @@ this.enemy_rule = {
 		enemys = {
 			210
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -6882,7 +6882,7 @@ this.enemy_rule = {
 		enemys = {
 			217
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -6921,7 +6921,7 @@ this.enemy_rule = {
 		enemys = {
 			212
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -6960,7 +6960,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -6999,7 +6999,7 @@ this.enemy_rule = {
 		enemys = {
 			217
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -7038,7 +7038,7 @@ this.enemy_rule = {
 		enemys = {
 			618
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -7077,7 +7077,7 @@ this.enemy_rule = {
 		enemys = {
 			215
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -7116,7 +7116,7 @@ this.enemy_rule = {
 		enemys = {
 			211
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -7139,7 +7139,7 @@ this.enemy_rule = {
 		enemys = {
 			216
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -7162,7 +7162,7 @@ this.enemy_rule = {
 		enemys = {
 			11
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1000,
 			1000
@@ -7185,7 +7185,7 @@ this.enemy_rule = {
 		enemys = {
 			12
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1000,
 			1000
@@ -7208,7 +7208,7 @@ this.enemy_rule = {
 		enemys = {
 			13
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1000,
 			1000
@@ -7231,7 +7231,7 @@ this.enemy_rule = {
 		enemys = {
 			14
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1000,
 			1000
@@ -7254,7 +7254,7 @@ this.enemy_rule = {
 		enemys = {
 			1001
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -7293,7 +7293,7 @@ this.enemy_rule = {
 		enemys = {
 			1002
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -7332,7 +7332,7 @@ this.enemy_rule = {
 		enemys = {
 			1003
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -7371,7 +7371,7 @@ this.enemy_rule = {
 		enemys = {
 			1001
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -7410,7 +7410,7 @@ this.enemy_rule = {
 		enemys = {
 			1002
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -7449,7 +7449,7 @@ this.enemy_rule = {
 		enemys = {
 			1003
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -7488,7 +7488,7 @@ this.enemy_rule = {
 		enemys = {
 			1014
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -7527,7 +7527,7 @@ this.enemy_rule = {
 		enemys = {
 			1012
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -7566,7 +7566,7 @@ this.enemy_rule = {
 		enemys = {
 			1011
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -7605,7 +7605,7 @@ this.enemy_rule = {
 		enemys = {
 			1013
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -7644,7 +7644,7 @@ this.enemy_rule = {
 		enemys = {
 			1014
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -7683,7 +7683,7 @@ this.enemy_rule = {
 		enemys = {
 			1013
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -7722,7 +7722,7 @@ this.enemy_rule = {
 		enemys = {
 			1011
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -7761,7 +7761,7 @@ this.enemy_rule = {
 		enemys = {
 			1012
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -7800,7 +7800,7 @@ this.enemy_rule = {
 		enemys = {
 			1021
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -7839,7 +7839,7 @@ this.enemy_rule = {
 		enemys = {
 			1022
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -7878,7 +7878,7 @@ this.enemy_rule = {
 		enemys = {
 			1023
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -7917,7 +7917,7 @@ this.enemy_rule = {
 		enemys = {
 			1021
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -7956,7 +7956,7 @@ this.enemy_rule = {
 		enemys = {
 			1022
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -7995,7 +7995,7 @@ this.enemy_rule = {
 		enemys = {
 			1023
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -8034,7 +8034,7 @@ this.enemy_rule = {
 		enemys = {
 			1033
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -8073,7 +8073,7 @@ this.enemy_rule = {
 		enemys = {
 			1032
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -8112,7 +8112,7 @@ this.enemy_rule = {
 		enemys = {
 			1031
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -8151,7 +8151,7 @@ this.enemy_rule = {
 		enemys = {
 			1033
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -8190,7 +8190,7 @@ this.enemy_rule = {
 		enemys = {
 			1032
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -8229,7 +8229,7 @@ this.enemy_rule = {
 		enemys = {
 			1031
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -8268,7 +8268,7 @@ this.enemy_rule = {
 		enemys = {
 			1021
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -8307,7 +8307,7 @@ this.enemy_rule = {
 		enemys = {
 			1022
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-1050,
 			-1000
@@ -8346,7 +8346,7 @@ this.enemy_rule = {
 		enemys = {
 			1021
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -8385,7 +8385,7 @@ this.enemy_rule = {
 		enemys = {
 			1022
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			1050,
 			1000
@@ -8424,7 +8424,7 @@ this.enemy_rule = {
 		enemys = {
 			101
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-100,
 			0
@@ -8463,7 +8463,7 @@ this.enemy_rule = {
 		enemys = {
 			102
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-100,
 			0
@@ -8502,7 +8502,7 @@ this.enemy_rule = {
 		enemys = {
 			104
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-100,
 			0
@@ -8541,7 +8541,7 @@ this.enemy_rule = {
 		enemys = {
 			103
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-100,
 			0
@@ -8580,7 +8580,7 @@ this.enemy_rule = {
 		enemys = {
 			101
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			0,
 			100
@@ -8619,7 +8619,7 @@ this.enemy_rule = {
 		enemys = {
 			103
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			0,
 			100
@@ -8658,7 +8658,7 @@ this.enemy_rule = {
 		enemys = {
 			104
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			0,
 			100
@@ -8697,7 +8697,7 @@ this.enemy_rule = {
 		enemys = {
 			102
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			0,
 			100
@@ -8736,7 +8736,7 @@ this.enemy_rule = {
 		enemys = {
 			500
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -8759,7 +8759,7 @@ this.enemy_rule = {
 		enemys = {
 			501
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -8782,7 +8782,7 @@ this.enemy_rule = {
 		enemys = {
 			502
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -8805,7 +8805,7 @@ this.enemy_rule = {
 		enemys = {
 			503
 		},
-		move_rule = this.enemy_move_ver,
+		move_rule = slot0.enemy_move_ver,
 		screen_pos_x = {
 			-600,
 			600
@@ -8828,7 +8828,7 @@ this.enemy_rule = {
 		enemys = {
 			106
 		},
-		move_rule = this.enemy_move_left_in,
+		move_rule = slot0.enemy_move_left_in,
 		screen_pos_x = {
 			-800,
 			800
@@ -8839,12 +8839,12 @@ this.enemy_rule = {
 		}
 	}
 }
-this.game_enemy = {
+slot0.game_enemy = {
 	[101] = {
 		score = 100,
 		dead_type = 0,
-		hp = 10,
 		remove_time = 1,
+		hp = 10,
 		id = 101,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -8857,16 +8857,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(3, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[102] = {
 		score = 100,
 		dead_type = 0,
-		hp = 10,
 		remove_time = 1,
+		hp = 10,
 		id = 102,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -8879,16 +8879,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(4, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[103] = {
 		score = 100,
 		dead_type = 0,
-		hp = 10,
 		remove_time = 1,
+		hp = 10,
 		id = 103,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -8901,16 +8901,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(-5, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[104] = {
 		score = 100,
 		dead_type = 0,
-		hp = 10,
 		remove_time = 1,
+		hp = 10,
 		id = 104,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -8923,16 +8923,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(-3, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[105] = {
 		score = 100,
 		dead_type = 0,
-		hp = 10,
 		remove_time = 1,
+		hp = 10,
 		id = 105,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -8945,16 +8945,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(0, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[106] = {
 		score = 100,
 		dead_type = 0,
-		hp = 5,
 		remove_time = 1,
+		hp = 5,
 		id = 106,
 		boom = 40,
 		tpl = "Enemys/Enemy_Bomb",
@@ -8964,16 +8964,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(0, -75),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[107] = {
 		score = 500,
 		dead_type = 0,
-		hp = 10,
 		remove_time = 1,
+		hp = 10,
 		id = 107,
 		tpl = "Enemys/Enemy_Bonus",
 		weapons = {
@@ -8982,16 +8982,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(0, -120),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[108] = {
 		score = 200,
 		dead_type = 0,
-		hp = 20,
 		remove_time = 1,
+		hp = 20,
 		id = 108,
 		tpl = "Enemys/Enemy_S",
 		weapons = {
@@ -9006,16 +9006,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(3, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[109] = {
 		score = 100,
 		dead_type = 0,
-		hp = 10,
 		remove_time = 1,
+		hp = 10,
 		id = 109,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -9028,16 +9028,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(3, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[110] = {
 		score = 100,
 		dead_type = 0,
-		hp = 10,
 		remove_time = 1,
+		hp = 10,
 		id = 110,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -9050,16 +9050,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(4, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[111] = {
 		score = 100,
 		dead_type = 0,
-		hp = 10,
 		remove_time = 1,
+		hp = 10,
 		id = 111,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -9072,16 +9072,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(-5, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[201] = {
 		score = 100,
 		dead_type = 0,
-		hp = 20,
 		remove_time = 1,
+		hp = 20,
 		id = 201,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -9094,16 +9094,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(3, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[202] = {
 		score = 100,
 		dead_type = 0,
-		hp = 20,
 		remove_time = 1,
+		hp = 20,
 		id = 202,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -9116,16 +9116,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(4, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[203] = {
 		score = 100,
 		dead_type = 0,
-		hp = 20,
 		remove_time = 1,
+		hp = 20,
 		id = 203,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -9138,16 +9138,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(-5, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[204] = {
 		score = 100,
 		dead_type = 0,
-		hp = 20,
 		remove_time = 1,
+		hp = 20,
 		id = 204,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -9160,16 +9160,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(-3, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[205] = {
 		score = 100,
 		dead_type = 0,
-		hp = 20,
 		remove_time = 1,
+		hp = 20,
 		id = 205,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -9182,16 +9182,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(0, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[806] = {
 		score = 100,
 		dead_type = 0,
-		hp = 5,
 		remove_time = 1,
+		hp = 5,
 		id = 806,
 		boom = 40,
 		tpl = "Enemys/Enemy_Bomb",
@@ -9201,16 +9201,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(0, -70),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[807] = {
 		score = 500,
 		dead_type = 0,
-		hp = 20,
 		remove_time = 1,
+		hp = 20,
 		id = 807,
 		tpl = "Enemys/Enemy_Bonus",
 		weapons = {
@@ -9219,16 +9219,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(0, -120),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[208] = {
 		score = 200,
 		dead_type = 0,
-		hp = 40,
 		remove_time = 1,
+		hp = 40,
 		id = 208,
 		tpl = "Enemys/Enemy_S",
 		weapons = {
@@ -9243,16 +9243,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(3, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[209] = {
 		score = 100,
 		dead_type = 0,
-		hp = 20,
 		remove_time = 1,
+		hp = 20,
 		id = 209,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -9265,16 +9265,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(3, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[210] = {
 		score = 100,
 		dead_type = 0,
-		hp = 20,
 		remove_time = 1,
+		hp = 20,
 		id = 210,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -9287,16 +9287,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(4, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[211] = {
 		score = 100,
 		dead_type = 0,
-		hp = 20,
 		remove_time = 1,
+		hp = 20,
 		id = 211,
 		tpl = "Enemys/Enemy_SS",
 		weapons = {
@@ -9309,16 +9309,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(-5, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[212] = {
 		score = 200,
 		dead_type = 0,
-		hp = 40,
 		remove_time = 1,
+		hp = 40,
 		id = 212,
 		tpl = "Enemys/Enemy_S",
 		weapons = {
@@ -9333,16 +9333,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(3, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[213] = {
 		score = 200,
 		dead_type = 0,
-		hp = 40,
 		remove_time = 1,
+		hp = 40,
 		id = 213,
 		tpl = "Enemys/Enemy_S",
 		weapons = {
@@ -9357,16 +9357,16 @@ this.game_enemy = {
 		},
 		speed = Vector2(4, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[214] = {
 		score = 200,
 		dead_type = 0,
-		hp = 40,
 		remove_time = 1,
+		hp = 40,
 		id = 214,
 		tpl = "Enemys/Enemy_S",
 		weapons = {
@@ -9381,9 +9381,9 @@ this.game_enemy = {
 		},
 		speed = Vector2(-5, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[215] = {
@@ -9404,9 +9404,9 @@ this.game_enemy = {
 		},
 		speed = Vector2(-2, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[216] = {
@@ -9429,9 +9429,9 @@ this.game_enemy = {
 		},
 		speed = Vector2(0, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[217] = {
@@ -9454,9 +9454,9 @@ this.game_enemy = {
 		},
 		speed = Vector2(0, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	},
 	[618] = {
@@ -9477,18 +9477,18 @@ this.game_enemy = {
 		},
 		speed = Vector2(-2, -15),
 		range = Vector2(140, 140),
-		group = this.enemy_group,
+		group = slot0.enemy_group,
 		hit_group = {
-			this.player_group
+			slot0.player_group
 		}
 	}
 }
-this.game_weapon = {
+slot0.game_weapon = {
 	{
 		speed = 400,
-		life = 3,
-		cd = 1,
 		angel = 15,
+		cd = 1,
+		life = 3,
 		id = 1,
 		distance = 900,
 		bullet_id = 1,
@@ -9496,9 +9496,9 @@ this.game_weapon = {
 	},
 	{
 		speed = 500,
-		life = 3,
-		cd = 1,
 		angel = 15,
+		cd = 1,
+		life = 3,
 		id = 2,
 		distance = 900,
 		bullet_id = 2,
@@ -9506,9 +9506,9 @@ this.game_weapon = {
 	},
 	{
 		speed = 600,
-		life = 2,
-		cd = 4,
 		angel = 30,
+		cd = 4,
+		life = 2,
 		id = 3,
 		distance = 900,
 		bullet_id = 3,
@@ -9516,9 +9516,9 @@ this.game_weapon = {
 	},
 	{
 		speed = 600,
-		life = 2,
-		cd = 5,
 		angel = 25,
+		cd = 5,
+		life = 2,
 		id = 4,
 		distance = 1500,
 		bullet_id = 4,
@@ -9526,9 +9526,9 @@ this.game_weapon = {
 	},
 	{
 		speed = 750,
-		life = 2,
-		cd = 3,
 		angel = 25,
+		cd = 3,
+		life = 2,
 		id = 5,
 		distance = 1200,
 		bullet_id = 5,
@@ -9536,9 +9536,9 @@ this.game_weapon = {
 	},
 	{
 		speed = 900,
-		life = 2,
-		cd = 1.2,
 		angel = 25,
+		cd = 1.2,
+		life = 2,
 		id = 6,
 		distance = 1000,
 		bullet_id = 6,
@@ -9546,9 +9546,9 @@ this.game_weapon = {
 	},
 	[101] = {
 		speed = 650,
-		life = 2,
-		cd = 4,
 		angel = 30,
+		cd = 4,
+		life = 2,
 		id = 101,
 		distance = 900,
 		bullet_id = 3,
@@ -9556,9 +9556,9 @@ this.game_weapon = {
 	},
 	[102] = {
 		speed = 450,
-		life = 3,
-		cd = 6,
 		angel = 40,
+		cd = 6,
+		life = 3,
 		id = 102,
 		distance = 900,
 		bullet_id = 2,
@@ -9566,9 +9566,9 @@ this.game_weapon = {
 	},
 	[103] = {
 		speed = 300,
-		life = 3,
-		cd = 6,
 		angel = 40,
+		cd = 6,
+		life = 3,
 		id = 103,
 		distance = 900,
 		bullet_id = 1,
@@ -9576,9 +9576,9 @@ this.game_weapon = {
 	},
 	[104] = {
 		speed = 550,
-		life = 2,
-		cd = 1.5,
 		angel = 40,
+		cd = 1.5,
+		life = 2,
 		id = 104,
 		distance = 900,
 		bullet_id = 3,
@@ -9586,9 +9586,9 @@ this.game_weapon = {
 	},
 	[105] = {
 		speed = 600,
-		life = 2,
-		cd = 2,
 		angel = 40,
+		cd = 2,
+		life = 2,
 		id = 105,
 		distance = 900,
 		bullet_id = 3,
@@ -9596,9 +9596,9 @@ this.game_weapon = {
 	},
 	[106] = {
 		speed = 450,
-		life = 3,
-		cd = 4,
 		angel = 40,
+		cd = 4,
+		life = 3,
 		id = 106,
 		distance = 900,
 		bullet_id = 2,
@@ -9606,16 +9606,16 @@ this.game_weapon = {
 	},
 	[107] = {
 		speed = 300,
-		life = 3,
-		cd = 6,
 		angel = 40,
+		cd = 6,
+		life = 3,
 		id = 107,
 		distance = 900,
 		bullet_id = 1,
 		damage = 18
 	}
 }
-this.game_bullet = {
+slot0.game_bullet = {
 	{
 		id = 1,
 		image = "E_Large",
@@ -9654,4 +9654,4 @@ this.game_bullet = {
 	}
 }
 
-return this
+return slot0

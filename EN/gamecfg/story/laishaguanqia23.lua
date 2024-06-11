@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LAISHAGUANQIA23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LAISHAGUANQIA23",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_ryza_2",
+			bgm = "ryza-az-theme",
 			stopbgm = true,
 			say = "The girls inserted the keycard into a device on the barrier's door, causing all Siren defenses in the area to halt operation. On the other side, a long path across the surface of the water revealed itself.",
-			bgm = "ryza-az-theme",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 301290,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			say = "Phew... I'm glad that worked. This should be a cakewalk from here on♪",
 			painting = {
@@ -56,8 +56,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			say = "Don't take that for granted. Even if their mind-blowingly strong defenses shut down, I guarantee you there's a Siren hiding in ambush somewhere.",
 			painting = {
@@ -73,8 +73,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 101490,
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			say = "They'll know we breached the barrier any second now, so we should seize this opportunity while we can!",
 			painting = {
@@ -90,8 +90,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			say = "Agreed. Let's hurry and find the control device and dispel this Mirror Sea.",
 			painting = {
@@ -107,8 +107,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 101490,
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			say = "No! I was talking about finding all the hidden treasure chests before the Sirens catch on to us!",
 			painting = {
@@ -123,9 +123,9 @@ return {
 		{
 			actor = 101490,
 			side = 2,
-			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_ryza_2",
 			say = "Think about it. This is the most important place we've been yet, 'cause it's the heart of their base.",
 			painting = {
 				alpha = 0.3,
@@ -140,8 +140,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 101490,
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			say = "So there's GOT to be treasure somewhere around here! The clock is ticking, so let's focus on finding some hidden branching paths!",
 			painting = {
@@ -157,8 +157,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 601080,
 			dir = 1,
+			actor = 601080,
 			nameColor = "#A9F548FF",
 			say = "Hoho! Our brilliant investigator here's got the right idea.",
 			painting = {
@@ -174,8 +174,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 601080,
 			dir = 1,
+			actor = 601080,
 			nameColor = "#A9F548FF",
 			say = "There's only one way forward, but I can see a bunch of big buildings in the distance. There's bound to be stuff to find there, so I second what Bristol said!",
 			painting = {
@@ -191,8 +191,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 10900010,
 			dir = 1,
+			actor = 10900010,
 			nameColor = "#A9F548FF",
 			say = "We've made it this far, and we may never come back to this place again, so...",
 			painting = {
@@ -207,9 +207,9 @@ return {
 		{
 			actor = 10900010,
 			side = 2,
-			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_ryza_2",
 			say = "Yeah, let's keep exploring to the very end! Treat every adventure like it's your last!",
 			painting = {
 				alpha = 0.3,
@@ -224,8 +224,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			say = "I mean... I suppose there aren't many Mirror Seas as fun as this one.",
 			painting = {
@@ -241,8 +241,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			say = "We're all in this together, and if you want to go exploring, then I guess we could take a brief detour.",
 			painting = {
@@ -258,8 +258,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			say = "(Even though we're fricking guaranteed to run into an ambush precisely by going on a detour! Ugh!)",
 			painting = {

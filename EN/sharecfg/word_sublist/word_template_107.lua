@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_107 = {}
 slot1 = slot0.word_template_107
 
-function temp()
+temp = function()
 	uv0["港"] = {
 		["3"] = {
 			["8"] = {
@@ -67,7 +67,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["羔"] = {
 		["羊"] = {
 			["大"] = {
@@ -83,7 +83,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["睪"] = {
 		["丸"] = {
 			this = true
@@ -93,7 +93,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["睾"] = {
 		this = {
 			this = true
@@ -106,7 +106,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["膏"] = {
 		["药"] = {
 			["旗"] = {
@@ -123,7 +123,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["搞"] = {
 		["得"] = {
 			["鸡"] = {
@@ -212,7 +212,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["戈"] = {
 		["瑞"] = {
 			this = true,

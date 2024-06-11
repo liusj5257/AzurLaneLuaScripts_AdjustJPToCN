@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"평온한 일상을 바라며\n\n<size=45>장난 타임?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "소파에 앉아 있는 뉴캐슬과 나 사이엔 묘한 정적이 흐르고 있다. 우리는 좀 전부터 아무 말 없이 계속 업무를 보고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#92fc63",
 			say = "좀 재미는 없지만……하인의 서포트로는 충분할 거야!",
 			effects = {
 				{
@@ -78,9 +78,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "퀸 엘리자베스는 왜인지 뉴캐슬을 '재미가 없다' 고 평가하고 있지만……",
 			effects = {
 				{
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202190,
+			nameColor = "#92fc63",
 			say = "후우…………",
 			typewriter = {
 				speed = 0.05,
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -185,12 +185,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202190,
+			nameColor = "#92fc63",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -213,14 +213,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "그 뒤로 다양한 방법을 시도하여 보았으나, 그녀는 단 한 번도 반응하지 않았다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -283,13 +283,13 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 1,
 			side = 2,
+			dir = 1,
+			blackBg = true,
+			soundeffect = "event:/battle/boom2",
 			stopbgm = true,
 			say = "(퍼엉!!)",
-			dir = 1,
-			optionFlag = 1,
-			soundeffect = "event:/battle/boom2",
 			dialogShake = {
 				speed = 0.09,
 				x = 12.75,
@@ -301,10 +301,10 @@ return {
 			}
 		},
 		{
-			optionFlag = 1,
+			blackBg = true,
 			side = 2,
 			dir = 1,
-			blackBg = true,
+			optionFlag = 1,
 			say = "그때 갑자기 과학부 쪽에서 들려오는 굉음과 함께 집무실이 격렬히 흔들리고, 갑자기 사방이 깜깜해졌다……",
 			typewriter = {
 				speed = 0.05,
@@ -312,18 +312,18 @@ return {
 			}
 		},
 		{
-			optionFlag = 1,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			bgmDelay = 1,
+			side = 2,
+			dir = 1,
+			optionFlag = 1,
+			bgName = "bg_story_task",
 			bgm = "story-1",
 			actor = 202190,
 			nameColor = "#92fc63",
 			say = "괜찮으신가요?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -370,12 +370,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202190,
+			nameColor = "#92fc63",
 			say = "지금 거는 돌발사고인가요……계획적인 건가요?",
 			typewriter = {
 				speed = 0.05,
@@ -387,12 +387,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 202190,
+			nameColor = "#92fc63",
 			say = "원하신다면, 이대로 원하는 만큼 계셔도 상관없습니다……나중에 야근을 해야 할지도 모르게 되겠지만.",
 			typewriter = {
 				speed = 0.05,

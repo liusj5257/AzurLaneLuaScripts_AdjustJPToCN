@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUE04",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUE04",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"School Day Celebrations\n\n<size=45> IV   「Fairy of The Library」 </size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 101061,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Seriously! I really saw her!",
 			bgm = "story-1",
+			actor = 101061,
+			nameColor = "#a9f548",
+			say = "Seriously! I really saw her!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,13 +34,13 @@ return {
 			}
 		},
 		{
-			actor = 301011,
+			say = "Me too!",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301011,
 			actorName = "{namecode:2}",
-			say = "Me too!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -71,11 +71,11 @@ return {
 			}
 		},
 		{
-			actor = 301011,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 1,
+			bgName = "star_level_bg_103",
 			dir = 1,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "I was chasing the sound, but then...there was nothing there!",
 			typewriter = {
@@ -104,10 +104,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "Craven&{namecode:2}",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
+			hideOther = true,
 			actor = 101061,
 			nameColor = "#a9f548",
 			say = "It must be the \"Fairy of the library\"! Commander!",
@@ -129,13 +129,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,15 +146,15 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
+			withoutPainting = true,
 			side = 2,
-			say = "My investigations for the truth led me to the library...",
 			dir = 1,
 			blackBg = true,
-			withoutPainting = true,
+			stopbgm = true,
+			say = "My investigations for the truth led me to the library...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -175,15 +175,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorShadow = true,
+			side = 2,
+			withoutPainting = true,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			actor = 202111,
 			actorName = "？？？",
 			say = "Tsk tsk...why doesn't that girl come to school with me.",
-			dir = 1,
-			blackBg = true,
-			actor = 202111,
-			nameColor = "#a9f548",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,15 +194,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorShadow = true,
+			side = 2,
+			withoutPainting = true,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			actor = 202111,
 			actorName = "？？？",
 			say = "She says she’s a maid for the Queen..well, so am I…",
-			dir = 1,
-			blackBg = true,
-			actor = 202111,
-			nameColor = "#a9f548",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,15 +213,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorShadow = true,
+			side = 2,
+			withoutPainting = true,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			actor = 202111,
 			actorName = "？？？",
 			say = "It's no fun without her...",
-			dir = 1,
-			blackBg = true,
-			actor = 202111,
-			nameColor = "#a9f548",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,15 +232,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorShadow = true,
+			side = 2,
+			withoutPainting = true,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			actor = 202111,
 			actorName = "？？？",
 			say = "Thank goodness the school got this library~~",
-			dir = 1,
-			blackBg = true,
-			actor = 202111,
-			nameColor = "#a9f548",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,15 +251,15 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorShadow = true,
+			side = 0,
+			withoutPainting = true,
+			nameColor = "#a9f548",
+			dir = 1,
+			blackBg = true,
+			actor = 202111,
 			actorName = "？？？",
 			say = "It's quiet.. spacious... and occasionally I can tease the girls borrowing books, hehehe — —",
-			dir = 1,
-			blackBg = true,
-			actor = 202111,
-			nameColor = "#a9f548",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,13 +270,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "……",
 			dir = 1,
 			blackBg = true,
-			withoutPainting = true,
+			actor = 0,
+			nameColor = "#a9f548",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
+			optionFlag = 1,
 			side = 2,
-			blackBg = true,
 			nameColor = "#a9f548",
 			dir = 1,
-			optionFlag = 1,
+			blackBg = true,
+			actor = 202111,
 			say = "Wow! W-wow!!",
 			flashN = {
 				color = {
@@ -346,16 +346,16 @@ return {
 			}
 		},
 		{
-			actor = 202111,
-			side = 2,
-			optionFlag = 2,
-			nameColor = "#a9f548",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			optionFlag = 2,
+			actor = 202111,
+			nameColor = "#a9f548",
 			say = "Belfast... I'm clearly the elder one...",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -380,12 +380,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
-			side = 2,
-			optionFlag = 2,
-			nameColor = "#a9f548",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			optionFlag = 2,
+			actor = 202111,
+			nameColor = "#a9f548",
 			say = "Why haven't those girls come to the library today?",
 			typewriter = {
 				speed = 0.05,
@@ -397,12 +397,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
-			side = 2,
-			optionFlag = 2,
-			nameColor = "#a9f548",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			optionFlag = 2,
+			actor = 202111,
+			nameColor = "#a9f548",
 			say = "Wow! W-wow!!",
 			typewriter = {
 				speed = 0.05,
@@ -430,16 +430,16 @@ return {
 			}
 		},
 		{
-			actor = 101061,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "So \"Fairy of the library\" is actually Edinburgh~~",
 			bgm = "story-1",
+			actor = 101061,
+			nameColor = "#a9f548",
+			say = "So \"Fairy of the library\" is actually Edinburgh~~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -464,13 +464,13 @@ return {
 			}
 		},
 		{
-			actor = 301011,
+			say = "Great, fantastic... so it's not something scary after all...",
 			side = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301011,
 			actorName = "{namecode:2}",
-			say = "Great, fantastic... so it's not something scary after all...",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -501,13 +501,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
+			nameColor = "#a9f548",
 			say = "……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,12 +518,12 @@ return {
 			}
 		},
 		{
-			actor = 202111,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202111,
+			nameColor = "#a9f548",
 			say = "Y-you want to tell Belfast? No, just leave it, please. Whines — —",
 			typewriter = {
 				speed = 0.05,

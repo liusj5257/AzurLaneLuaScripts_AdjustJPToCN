@@ -6,13 +6,13 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 107060,
-			side = 2,
-			bgm = "battle-boss-4",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "끝났군",
 			soundeffect = "event:/battle/boom2",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-4",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "끝났군",
 			flashN = {
 				color = {
 					1,
@@ -150,12 +150,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			stopbgm = true,
+			side = 0,
 			nameColor = "#a9f548",
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actorName = "？？？",
 			say = "(어서…빨리 가…여길 떠나)",
 			effects = {
 				{
@@ -173,8 +173,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "？？？",
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -189,8 +189,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a9f548",
+			actorName = "？？？",
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -221,8 +221,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -237,8 +237,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "새러토가",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "새러토가",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -271,10 +271,10 @@ return {
 		{
 			actor = 107030,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "<size=70>지휘관!!!!!</size>",
 			dir = 1,
 			bgm = "battle-boss-4",
+			nameColor = "#a9f548",
+			say = "<size=70>지휘관!!!!!</size>",
 			effects = {
 				{
 					active = false,
@@ -304,10 +304,10 @@ return {
 			}
 		},
 		{
-			actor = 105130,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 105130,
 			say = "이런 포화 소리 속에 잠이 들 수 있다니, 인간이 아닌걸",
 			effects = {
 				{
@@ -325,8 +325,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(머릿속의 목소리가 점점 더 또렷해진다)",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "음…",
 			typewriter = {
 				speed = 0.05,

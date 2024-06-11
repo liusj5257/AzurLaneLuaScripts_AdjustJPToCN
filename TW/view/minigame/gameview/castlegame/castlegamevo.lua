@@ -604,8 +604,8 @@ slot0.round_data = {
 		},
 		score_time = {
 			{
+				num = 18,
 				time = 2,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -613,8 +613,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 12,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -622,8 +622,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 20,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -631,8 +631,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 28,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -640,8 +640,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 36,
-				num = 18,
 				score = {
 					4,
 					6,
@@ -649,8 +649,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 44,
-				num = 18,
 				score = {
 					4,
 					6,
@@ -658,8 +658,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 52,
-				num = 18,
 				score = {
 					4,
 					6,
@@ -667,8 +667,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 60,
-				num = 18,
 				score = {
 					4,
 					6,
@@ -676,8 +676,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 68,
-				num = 18,
 				score = {
 					8,
 					10,
@@ -685,8 +685,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 76,
-				num = 18,
 				score = {
 					8,
 					10,
@@ -694,8 +694,8 @@ slot0.round_data = {
 				}
 			},
 			{
-				time = 84,
 				num = 18,
+				time = 84,
 				score = {
 					12,
 					0,
@@ -1114,8 +1114,8 @@ slot0.round_data = {
 		},
 		score_time = {
 			{
+				num = 18,
 				time = 2,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1123,8 +1123,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 12,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1132,8 +1132,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 20,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1141,8 +1141,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 28,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1150,8 +1150,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 36,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1159,8 +1159,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 44,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1168,8 +1168,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 52,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1177,8 +1177,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 60,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1186,8 +1186,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 68,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1195,8 +1195,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 76,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1204,8 +1204,8 @@ slot0.round_data = {
 				}
 			},
 			{
-				time = 84,
 				num = 18,
+				time = 84,
 				score = {
 					2,
 					4,
@@ -1624,8 +1624,8 @@ slot0.round_data = {
 		},
 		score_time = {
 			{
+				num = 18,
 				time = 2,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1633,8 +1633,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 12,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1642,8 +1642,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 20,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1651,8 +1651,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 28,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1660,8 +1660,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 36,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1669,8 +1669,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 44,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1678,8 +1678,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 52,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1687,8 +1687,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 60,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1696,8 +1696,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 68,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1705,8 +1705,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 76,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -1714,8 +1714,8 @@ slot0.round_data = {
 				}
 			},
 			{
-				time = 84,
 				num = 18,
+				time = 84,
 				score = {
 					2,
 					4,
@@ -2134,8 +2134,8 @@ slot0.round_data = {
 		},
 		score_time = {
 			{
+				num = 18,
 				time = 2,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2143,8 +2143,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 12,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2152,8 +2152,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 20,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2161,8 +2161,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 28,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2170,8 +2170,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 36,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2179,8 +2179,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 44,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2188,8 +2188,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 52,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2197,8 +2197,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 60,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2206,8 +2206,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 68,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2215,8 +2215,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 76,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2224,8 +2224,8 @@ slot0.round_data = {
 				}
 			},
 			{
-				time = 84,
 				num = 18,
+				time = 84,
 				score = {
 					2,
 					4,
@@ -2644,8 +2644,8 @@ slot0.round_data = {
 		},
 		score_time = {
 			{
+				num = 18,
 				time = 2,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2653,8 +2653,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 12,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2662,8 +2662,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 20,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2671,8 +2671,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 28,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2680,8 +2680,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 36,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2689,8 +2689,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 44,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2698,8 +2698,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 52,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2707,8 +2707,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 60,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2716,8 +2716,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 68,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2725,8 +2725,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 76,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -2734,8 +2734,8 @@ slot0.round_data = {
 				}
 			},
 			{
-				time = 84,
 				num = 18,
+				time = 84,
 				score = {
 					2,
 					4,
@@ -3154,8 +3154,8 @@ slot0.round_data = {
 		},
 		score_time = {
 			{
+				num = 18,
 				time = 2,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3163,8 +3163,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 12,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3172,8 +3172,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 20,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3181,8 +3181,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 28,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3190,8 +3190,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 36,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3199,8 +3199,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 44,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3208,8 +3208,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 52,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3217,8 +3217,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 60,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3226,8 +3226,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 68,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3235,8 +3235,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 76,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3244,8 +3244,8 @@ slot0.round_data = {
 				}
 			},
 			{
-				time = 84,
 				num = 18,
+				time = 84,
 				score = {
 					2,
 					4,
@@ -3664,8 +3664,8 @@ slot0.round_data = {
 		},
 		score_time = {
 			{
+				num = 18,
 				time = 2,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3673,8 +3673,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 12,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3682,8 +3682,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 20,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3691,8 +3691,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 28,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3700,8 +3700,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 36,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3709,8 +3709,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 44,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3718,8 +3718,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 52,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3727,8 +3727,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 60,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3736,8 +3736,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 68,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3745,8 +3745,8 @@ slot0.round_data = {
 				}
 			},
 			{
+				num = 18,
 				time = 76,
-				num = 18,
 				score = {
 					2,
 					4,
@@ -3754,8 +3754,8 @@ slot0.round_data = {
 				}
 			},
 			{
-				time = 84,
 				num = 18,
+				time = 84,
 				score = {
 					2,
 					4,
@@ -3835,7 +3835,7 @@ slot0.round_rule = {
 	}
 }
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	uv0.game_id = slot0
 	uv0.hub_id = slot1
 	uv0.total_times = pg.mini_game_hub[uv0.hub_id]
@@ -3843,7 +3843,7 @@ function slot0.Init(slot0, slot1)
 	uv0.total_times = pg.mini_game_hub[uv0.hub_id].reward_need
 end
 
-function slot0.Prepare()
+slot0.Prepare = function()
 	uv0.gameTime = uv0.game_time
 	uv0.gameStepTime = 0
 	uv0.scoreNum = 0
@@ -3851,15 +3851,15 @@ function slot0.Prepare()
 	uv0.roundData = Clone(CastleGameVo.round_data[slot0[math.random(1, #slot0)]])
 end
 
-function slot0.GetGameTimes()
+slot0.GetGameTimes = function()
 	return uv0.GetMiniGameHubData().count
 end
 
-function slot0.GetGameUseTimes()
+slot0.GetGameUseTimes = function()
 	return uv0.GetMiniGameHubData().usedtime or 0
 end
 
-function slot0.GetGameRound()
+slot0.GetGameRound = function()
 	slot0 = uv0.GetGameUseTimes()
 
 	if uv0.GetGameTimes() and slot1 > 0 then
@@ -3869,15 +3869,15 @@ function slot0.GetGameRound()
 	end
 end
 
-function slot0.GetMiniGameData()
+slot0.GetMiniGameData = function()
 	return getProxy(MiniGameProxy):GetMiniGameData(uv0.game_id)
 end
 
-function slot0.GetMiniGameHubData()
+slot0.GetMiniGameHubData = function()
 	return getProxy(MiniGameProxy):GetHubByHubId(uv0.hub_id)
 end
 
-function slot0.LoadSkeletonData(slot0, slot1)
+slot0.LoadSkeletonData = function(slot0, slot1)
 	PoolMgr.GetInstance():LoadAsset(uv0.ui_atlas, slot0, true, typeof(Object), function (slot0)
 		if slot0 then
 			uv1(SpineAnimUI.AnimChar(uv0, slot0))
@@ -3885,19 +3885,19 @@ function slot0.LoadSkeletonData(slot0, slot1)
 	end, true)
 end
 
-function slot0.getBeachMap(slot0)
+slot0.getBeachMap = function(slot0)
 	return GetSpriteFromAtlas(BeachGuardAsset.map_asset_path, slot0)
 end
 
-function slot0.getFloorImage(slot0)
+slot0.getFloorImage = function(slot0)
 	return GetSpriteFromAtlas(CastleGameVo.ui_atlas, slot0)
 end
 
-function slot0.Sign(slot0, slot1, slot2)
+slot0.Sign = function(slot0, slot1, slot2)
 	return (slot0.x - slot2.x) * (slot1.y - slot2.y) - (slot1.x - slot2.x) * (slot0.y - slot2.y)
 end
 
-function slot0.PointInTriangle(slot0, slot1, slot2, slot3)
+slot0.PointInTriangle = function(slot0, slot1, slot2, slot3)
 	slot4, slot5, slot6, slot7, slot8 = nil
 	slot5 = uv0.Sign(slot0, slot2, slot3)
 	slot6 = uv0.Sign(slot0, slot3, slot1)
@@ -3905,7 +3905,7 @@ function slot0.PointInTriangle(slot0, slot1, slot2, slot3)
 	return not (uv0.Sign(slot0, slot1, slot2) < 0 or slot5 < 0 or slot6 < 0) or not (slot4 > 0 or slot5 > 0 or slot6 > 0)
 end
 
-function slot0.PointLeftLine(slot0, slot1, slot2)
+slot0.PointLeftLine = function(slot0, slot1, slot2)
 	return (slot2.x - slot1.x) * (slot0.y - slot1.y) - (slot2.y - slot1.y) * (slot0.x - slot1.x) > 0
 end
 
@@ -3916,7 +3916,7 @@ slot4 = 2
 slot5 = -0.48
 slot6 = Vector2(-671, -95)
 
-function slot0.GetRotationPos(slot0)
+slot0.GetRotationPos = function(slot0)
 	slot1 = math.cos(uv0)
 	slot2 = math.sin(uv0)
 	slot3 = slot0 % CastleGameVo.w_count
@@ -3927,7 +3927,7 @@ function slot0.GetRotationPos(slot0)
 	return Vector2(slot1 * slot5 - slot2 * slot6 + uv5.x, slot1 * slot6 + slot2 * slot5 + uv5.y)
 end
 
-function slot0.GetRotationPosByWH(slot0, slot1)
+slot0.GetRotationPosByWH = function(slot0, slot1)
 	slot2 = math.cos(uv0)
 	slot3 = math.sin(uv0)
 	slot4 = uv1 * slot0 + uv2 * slot1
@@ -3936,7 +3936,7 @@ function slot0.GetRotationPosByWH(slot0, slot1)
 	return Vector2(slot2 * slot4 - slot3 * slot5 + uv5.x, slot2 * slot5 + slot3 * slot4 + uv5.y)
 end
 
-function slot0.PointFootLine(slot0, slot1, slot2)
+slot0.PointFootLine = function(slot0, slot1, slot2)
 	slot5 = slot1.x
 	slot6 = slot1.y
 	slot7 = slot2.x

@@ -1,19 +1,19 @@
 return {
-	id = "WORLD504B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD504B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/16/tb-16",
+			dir = 1,
 			bgm = "battle-boss-4",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "警告です。前方にセイレーン大型施設。火力支援用の要塞砲だと推定されます",
-			voice = "event:/tb/16/tb-16",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "被害が出る前に仕留めなくては。ならば——",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			actor = 205050,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "ご命令あらば、我がロイヤル砲撃支援群はいつでも",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			side = 2,
 			paintingNoise = true,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "指揮官、あの要塞砲は我々に任せてくれたまえ",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			actor = 205070,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "如何なる防御施設だろうと、この騎士隊精鋭の一斉射の前では無力と知りなさい",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			actor = 205060,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "目標照準完了。キングジョージⅤ級戦艦の力、思い知れ！",
 			typewriter = {
 				speed = 0.05,
@@ -149,11 +149,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 205090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "砲撃準備完了。撃て——！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,

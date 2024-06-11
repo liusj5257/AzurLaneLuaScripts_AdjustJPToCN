@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑飞龙旋转护盾",
 	time = 0,
-	color = "yellow",
+	name = "黑飞龙旋转护盾",
+	init_effect = "",
+	id = 295001,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 295001,
+	color = "yellow",
 	icon = 8636,
 	last_effect = "huapaidun",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageGetRatioByBulletTorpedo",
-				number = -0.15
+				number = -0.15,
+				attr = "damageGetRatioByBulletTorpedo"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageGetRatioByCannon",
-				number = -0.15
+				number = -0.15,
+				attr = "damageGetRatioByCannon"
 			}
 		}
 	}

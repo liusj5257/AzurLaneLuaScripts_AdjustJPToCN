@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1000
+					number = 1000,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -56,8 +56,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.111
+					number = 0.111,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -67,8 +67,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.111
+					number = 0.111,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -78,8 +78,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.111
+					number = 0.111,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1110
+					number = 1110,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -104,8 +104,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.122
+					number = 0.122,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -115,8 +115,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.122
+					number = 0.122,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -126,8 +126,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.122
+					number = 0.122,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1220
+					number = 1220,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -152,8 +152,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.133
+					number = 0.133,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -163,8 +163,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.133
+					number = 0.133,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -174,8 +174,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.133
+					number = 0.133,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1330
+					number = 1330,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -200,8 +200,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.144
+					number = 0.144,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -211,8 +211,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.144
+					number = 0.144,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -222,8 +222,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.144
+					number = 0.144,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -233,8 +233,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1440
+					number = 1440,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -248,8 +248,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.155
+					number = 0.155,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -259,8 +259,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.155
+					number = 0.155,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -270,8 +270,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.155
+					number = 0.155,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -281,8 +281,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1550
+					number = 1550,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -296,8 +296,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.166
+					number = 0.166,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -307,8 +307,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.166
+					number = 0.166,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -318,8 +318,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.166
+					number = 0.166,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -329,8 +329,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1660
+					number = 1660,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -344,8 +344,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.177
+					number = 0.177,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -355,8 +355,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.177
+					number = 0.177,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -366,8 +366,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.177
+					number = 0.177,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -377,8 +377,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1770
+					number = 1770,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -392,8 +392,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.188
+					number = 0.188,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -403,8 +403,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.188
+					number = 0.188,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -414,8 +414,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.188
+					number = 0.188,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -425,8 +425,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 1880
+					number = 1880,
+					attr = "cannonPower"
 				}
 			}
 		}
@@ -440,8 +440,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_2",
-					number = 0.2
+					number = 0.2,
+					attr = "DMG_TAG_EHC_T_2"
 				}
 			},
 			{
@@ -451,8 +451,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_3",
-					number = 0.2
+					number = 0.2,
+					attr = "DMG_TAG_EHC_T_3"
 				}
 			},
 			{
@@ -462,8 +462,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "DMG_TAG_EHC_T_18",
-					number = 0.2
+					number = 0.2,
+					attr = "DMG_TAG_EHC_T_18"
 				}
 			},
 			{
@@ -473,15 +473,15 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cannonPower",
-					number = 2000
+					number = 2000,
+					attr = "cannonPower"
 				}
 			}
 		}
 	},
-	time = 10,
 	name = "饿狼火力增伤",
 	init_effect = "jinengchufared",
+	time = 10,
 	picture = "",
 	desc = "火力上升、伤害提高",
 	stack = 1,
@@ -503,8 +503,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_2",
-				number = 0.1
+				number = 0.1,
+				attr = "DMG_TAG_EHC_T_2"
 			}
 		},
 		{
@@ -514,8 +514,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_3",
-				number = 0.1
+				number = 0.1,
+				attr = "DMG_TAG_EHC_T_3"
 			}
 		},
 		{
@@ -525,8 +525,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "DMG_TAG_EHC_T_18",
-				number = 0.1
+				number = 0.1,
+				attr = "DMG_TAG_EHC_T_18"
 			}
 		},
 		{
@@ -536,8 +536,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 1000
+				number = 1000,
+				attr = "cannonPower"
 			}
 		}
 	}

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG2",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 305050,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "nagato-map",
 			dir = 1,
 			say = "余は此度の演習の審判を務めさせてもらう、連合艦隊旗艦・長門である！",
+			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,9 +70,9 @@ return {
 		{
 			actor = 305050,
 			nameColor = "#a9f548",
+			dir = 1,
 			withoutActorName = true,
 			side = 2,
-			dir = 1,
 			say = "連合艦隊旗艦、そして重桜の神子である長門は、演習に参列した艦船の面々たちを見回す。",
 			typewriter = {
 				speed = 0.05,
@@ -99,10 +99,10 @@ return {
 			}
 		},
 		{
-			actorName = "みんな",
 			nameColor = "#a9f548",
-			side = 2,
+			actorName = "みんな",
 			dir = 1,
+			side = 2,
 			say = "！！！！",
 			dialogShake = {
 				speed = 0.09,
@@ -122,8 +122,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305070,
 			dir = 1,
+			actor = 305070,
 			say = "長門様の次の…連合艦隊の旗艦！？",
 			typewriter = {
 				speed = 0.05,

@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.2
+					number = 0.2,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13203
+					skill_id = 13203,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -34,8 +34,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.222
+					number = 0.222,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -45,8 +45,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13203
+					skill_id = 13203,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -60,8 +60,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.244
+					number = 0.244,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -71,8 +71,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13203
+					skill_id = 13203,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -86,8 +86,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.266
+					number = 0.266,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -97,8 +97,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13203
+					skill_id = 13203,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -112,8 +112,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.288
+					number = 0.288,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -123,8 +123,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13203
+					skill_id = 13203,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -138,8 +138,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.31
+					number = 0.31,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -149,8 +149,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13203
+					skill_id = 13203,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.332
+					number = 0.332,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -175,8 +175,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13203
+					skill_id = 13203,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -190,8 +190,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.354
+					number = 0.354,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -201,8 +201,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13203
+					skill_id = 13203,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -216,8 +216,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.376
+					number = 0.376,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -227,8 +227,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13203
+					skill_id = 13203,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -242,8 +242,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
-					number = 0.4
+					number = 0.4,
+					attr = "damageRatioBullet"
 				}
 			},
 			{
@@ -253,20 +253,20 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
-					skill_id = 13203
+					skill_id = 13203,
+					target = "TargetSelf"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "小声望",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 13204,
+	time = 0,
 	picture = "",
 	desc = "提高伤害",
 	stack = 1,
-	id = 13204,
+	color = "yellow",
 	icon = 13200,
 	last_effect = "",
 	blink = {
@@ -284,8 +284,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.2
+				number = 0.2,
+				attr = "damageRatioBullet"
 			}
 		},
 		{
@@ -295,8 +295,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
-				skill_id = 13203
+				skill_id = 13203,
+				target = "TargetSelf"
 			}
 		}
 	}

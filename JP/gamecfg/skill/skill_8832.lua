@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "保底伤害弹幕",
 	cd = 0,
+	picture = "0",
+	desc = "保底伤害弹幕",
 	painting = "huolizhiyuan",
 	id = 8832,
-	picture = "0",
 	castCV = "skill",
-	desc = "保底伤害弹幕",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,29 +17,29 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillFire",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillFire",
+			target_choise = "TargetHarmRandomByWeight",
 			arg_list = {
 				weapon_id = 2940000
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetHarmRandomByWeight",
 			arg_list = {
 				buff_id = 8834,
 				delay = 1.3
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetHarmRandomByWeight",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetHarmRandomByWeight",
 			arg_list = {
 				buff_id = 8835,
 				delay = 1.3

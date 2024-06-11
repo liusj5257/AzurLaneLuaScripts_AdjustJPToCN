@@ -16,7 +16,7 @@ slot10 = {
 	__index = {}
 }
 
-function slot8.open(slot0, slot1, slot2)
+slot8.open = function(slot0, slot1, slot2)
 	slot4 = uv4.setmetatable({
 		tp = uv0.try(uv1.connect(slot0, slot1 or uv2, uv3.TIMEOUT, slot2))
 	}, uv5)
@@ -27,7 +27,7 @@ function slot8.open(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot10.__index.portconnect(slot0)
+slot10.__index.portconnect = function(slot0)
 	slot0.try(slot0.server:settimeout(uv0.TIMEOUT))
 
 	slot0.data = slot0.try(slot0.server:accept())
@@ -35,14 +35,14 @@ function slot10.__index.portconnect(slot0)
 	slot0.try(slot0.data:settimeout(uv0.TIMEOUT))
 end
 
-function slot10.__index.pasvconnect(slot0)
+slot10.__index.pasvconnect = function(slot0)
 	slot0.data = slot0.try(uv0.tcp())
 
 	slot0.try(slot0.data:settimeout(uv1.TIMEOUT))
 	slot0.try(slot0.data:connect(slot0.pasvt.address, slot0.pasvt.port))
 end
 
-function slot10.__index.login(slot0, slot1, slot2)
+slot10.__index.login = function(slot0, slot1, slot2)
 	slot0.try(slot0.tp:command("user", slot1 or uv0.USER))
 
 	slot3, slot4 = slot0.try(slot0.tp:check({
@@ -58,7 +58,7 @@ function slot10.__index.login(slot0, slot1, slot2)
 	return 1
 end
 
-function slot10.__index.pasv(slot0)
+slot10.__index.pasv = function(slot0)
 	slot0.try(slot0.tp:command("pasv"))
 
 	slot1, slot2 = slot0.try(slot0.tp:check("2.."))
@@ -80,7 +80,7 @@ function slot10.__index.pasv(slot0)
 	return slot0.pasvt.address, slot0.pasvt.port
 end
 
-function slot10.__index.epsv(slot0)
+slot10.__index.epsv = function(slot0)
 	slot0.try(slot0.tp:command("epsv"))
 
 	slot1, slot2 = slot0.try(slot0.tp:check("229"))
@@ -102,7 +102,7 @@ function slot10.__index.epsv(slot0)
 	return slot0.pasvt.address, slot0.pasvt.port
 end
 
-function slot10.__index.port(slot0, slot1, slot2)
+slot10.__index.port = function(slot0, slot1, slot2)
 	slot0.pasvt = nil
 
 	if not slot1 then
@@ -121,7 +121,7 @@ function slot10.__index.port(slot0, slot1, slot2)
 	return 1
 end
 
-function slot10.__index.eprt(slot0, slot1, slot2, slot3)
+slot10.__index.eprt = function(slot0, slot1, slot2, slot3)
 	slot0.pasvt = nil
 
 	if not slot2 then
@@ -138,7 +138,7 @@ function slot10.__index.eprt(slot0, slot1, slot2, slot3)
 	return 1
 end
 
-function slot10.__index.send(slot0, slot1)
+slot10.__index.send = function(slot0, slot1)
 	slot0.try(slot0.pasvt or slot0.server, "need port or pasv first")
 
 	if slot0.pasvt then
@@ -184,7 +184,7 @@ function slot10.__index.send(slot0, slot1)
 	return uv3.skip(1, slot0.data:getstats())
 end
 
-function slot10.__index.receive(slot0, slot1)
+slot10.__index.receive = function(slot0, slot1)
 	slot0.try(slot0.pasvt or slot0.server, "need port or pasv first")
 
 	if slot0.pasvt then
@@ -225,21 +225,21 @@ function slot10.__index.receive(slot0, slot1)
 	return 1
 end
 
-function slot10.__index.cwd(slot0, slot1)
+slot10.__index.cwd = function(slot0, slot1)
 	slot0.try(slot0.tp:command("cwd", slot1))
 	slot0.try(slot0.tp:check(250))
 
 	return 1
 end
 
-function slot10.__index.type(slot0, slot1)
+slot10.__index.type = function(slot0, slot1)
 	slot0.try(slot0.tp:command("type", slot1))
 	slot0.try(slot0.tp:check(200))
 
 	return 1
 end
 
-function slot10.__index.greet(slot0)
+slot10.__index.greet = function(slot0)
 	if uv0.find(slot0.try(slot0.tp:check({
 		"1..",
 		"2.."
@@ -250,14 +250,14 @@ function slot10.__index.greet(slot0)
 	return 1
 end
 
-function slot10.__index.quit(slot0)
+slot10.__index.quit = function(slot0)
 	slot0.try(slot0.tp:command("quit"))
 	slot0.try(slot0.tp:check("2.."))
 
 	return 1
 end
 
-function slot10.__index.close(slot0)
+slot10.__index.close = function(slot0)
 	if slot0.data then
 		slot0.data:close()
 	end
@@ -269,7 +269,7 @@ function slot10.__index.close(slot0)
 	return slot0.tp:close()
 end
 
-function slot11(slot0)
+slot11 = function(slot0)
 	if slot0.url then
 		slot1 = uv0.parse(slot0.url)
 
@@ -283,7 +283,7 @@ function slot11(slot0)
 	end
 end
 
-function slot12(slot0)
+slot12 = function(slot0)
 	slot0 = uv0(slot0)
 
 	uv1.try(slot0.host, "missing hostname")
@@ -305,11 +305,11 @@ function slot12(slot0)
 end
 
 slot13 = {
-	path = "/",
-	scheme = "ftp"
+	scheme = "ftp",
+	path = "/"
 }
 
-function slot8.genericform(slot0)
+slot8.genericform = function(slot0)
 	uv0.try(uv0.try(uv1.parse(slot0, uv2)).scheme == "ftp", "wrong scheme '" .. slot1.scheme .. "'")
 	uv0.try(slot1.host, "missing hostname")
 
@@ -324,7 +324,7 @@ function slot8.genericform(slot0)
 	return slot1
 end
 
-function slot15(slot0, slot1)
+slot15 = function(slot0, slot1)
 	slot2 = uv0(slot0)
 	slot2.source = uv1.source.string(slot1)
 
@@ -339,7 +339,7 @@ slot8.put = slot4.protect(function (slot0, slot1)
 	end
 end)
 
-function slot16(slot0)
+slot16 = function(slot0)
 	slot0 = uv0(slot0)
 
 	uv1.try(slot0.host, "missing hostname")
@@ -360,7 +360,7 @@ function slot16(slot0)
 	return slot1:close()
 end
 
-function slot17(slot0)
+slot17 = function(slot0)
 	slot1 = uv0(slot0)
 	slot2 = {}
 	slot1.sink = uv1.sink.table(slot2)

@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 109101,
+	time = 0,
 	picture = "",
 	desc = "增伤效果",
 	stack = 1,
-	id = 109101,
+	color = "red",
 	icon = 109101,
 	last_effect = "",
 	blink = {

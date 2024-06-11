@@ -34,24 +34,24 @@ slot0.ShipIndexData = {
 	groupList = {
 		{
 			dropdown = false,
-			titleTxt = "indexsort_index",
 			titleENTxt = "indexsort_indexeng",
+			titleTxt = "indexsort_index",
 			tags = {
 				"typeIndex"
 			}
 		},
 		{
 			dropdown = false,
-			titleTxt = "indexsort_camp",
 			titleENTxt = "indexsort_campeng",
+			titleTxt = "indexsort_camp",
 			tags = {
 				"campIndex"
 			}
 		},
 		{
 			dropdown = false,
-			titleTxt = "indexsort_rarity",
 			titleENTxt = "indexsort_rarityeng",
+			titleTxt = "indexsort_rarity",
 			tags = {
 				"rarityIndex"
 			}
@@ -59,19 +59,19 @@ slot0.ShipIndexData = {
 	}
 }
 
-function slot0.setShipGroups(slot0, slot1)
+slot0.setShipGroups = function(slot0, slot1)
 	slot0.shipGroups = slot1
 end
 
-function slot0.setProposeList(slot0, slot1)
+slot0.setProposeList = function(slot0, slot1)
 	slot0.proposeList = slot1
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "snapshotselectchar"
 end
 
-function slot0.back(slot0)
+slot0.back = function(slot0)
 	if slot0.exited then
 		return
 	end
@@ -81,7 +81,7 @@ function slot0.back(slot0)
 	slot0.scrollValue = 0
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.toggleType = uv0.TOGGLE_UNDEFINED
 	slot0.topTF = slot0:findTF("blur_panel/adapt/top")
 	slot0.backBtn = slot0:findTF("back_btn", slot0.topTF)
@@ -92,15 +92,15 @@ function slot0.init(slot0)
 	slot0.cardItems = {}
 	slot0.cardList = slot0:findTF("list_card/scroll"):GetComponent("LScrollRect")
 
-	function slot0.cardList.onInitItem(slot0)
+	slot0.cardList.onInitItem = function(slot0)
 		uv0:onInitCard(slot0)
 	end
 
-	function slot0.cardList.onUpdateItem(slot0, slot1)
+	slot0.cardList.onUpdateItem = function(slot0, slot1)
 		uv0:onUpdateCard(slot0, slot1)
 	end
 
-	function slot0.cardList.onReturnItem(slot0, slot1)
+	slot0.cardList.onReturnItem = function(slot0, slot1)
 		uv0:onReturnCard(slot0, slot1)
 	end
 
@@ -109,7 +109,7 @@ function slot0.init(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:back()
 	end)
@@ -150,7 +150,7 @@ function slot0.didEnter(slot0)
 
 		slot0.indexDatas = Clone(uv0.ShipIndex)
 
-		function slot0.callback(slot0)
+		slot0.callback = function(slot0)
 			uv0.ShipIndex.typeIndex = slot0.typeIndex
 
 			if slot0.campIndex then
@@ -167,12 +167,12 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot0.toggleChar, true)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	cameraPaintViewAdjust(true)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
-function slot1(slot0, slot1, slot2)
+slot1 = function(slot0, slot1, slot2)
 	if slot0 == uv0.TOGGLE_CHAR and not slot1 then
 		return slot2
 	elseif slot0 == uv0.TOGGLE_LINK and slot1 then
@@ -184,7 +184,7 @@ function slot1(slot0, slot1, slot2)
 	return -1
 end
 
-function slot0.updateCardList(slot0)
+slot0.updateCardList = function(slot0)
 	slot1 = {}
 	slot2 = _.filter(pg.ship_data_group.all, function (slot0)
 		return pg.ship_data_group[slot0].handbook_type == uv0.toggleType
@@ -248,11 +248,11 @@ function slot0.updateCardList(slot0)
 	slot0.cardList:ScrollTo(slot0.scrollValue or 0)
 end
 
-function slot2(slot0)
+slot2 = function(slot0)
 	return getProxy(ShipSkinProxy):GetAllSkinForARCamera(slot0)
 end
 
-function slot3(slot0)
+slot3 = function(slot0)
 	slot1 = {}
 	slot3 = getProxy(ShipSkinProxy):getSkinList()
 
@@ -267,7 +267,7 @@ function slot3(slot0)
 	return slot1
 end
 
-function slot0.onInitCard(slot0, slot1)
+slot0.onInitCard = function(slot0, slot1)
 	slot2 = SnapshotShipCard.New(slot1)
 
 	onButton(slot0, slot2.go, function ()
@@ -291,7 +291,7 @@ function slot0.onInitCard(slot0, slot1)
 	slot0.cardItems[slot1] = slot2
 end
 
-function slot0.onUpdateCard(slot0, slot1, slot2)
+slot0.onUpdateCard = function(slot0, slot1, slot2)
 	if not slot0.cardItems[slot2] then
 		slot0:onInitCard(slot2)
 
@@ -311,7 +311,7 @@ function slot0.onUpdateCard(slot0, slot1, slot2)
 	slot3:update(slot5.code, slot5.group, slot5.showTrans, slot6)
 end
 
-function slot0.onReturnCard(slot0, slot1, slot2)
+slot0.onReturnCard = function(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -323,7 +323,7 @@ function slot0.onReturnCard(slot0, slot1, slot2)
 	slot0.cardItems[slot2] = nil
 end
 
-function slot0.initSelectSkinPanel(slot0)
+slot0.initSelectSkinPanel = function(slot0)
 	slot0.skinPanel = slot0:findTF("selectSkinPnl")
 
 	onButton(slot0, slot0:findTF("select_skin/btnBack", slot0.skinPanel), function ()
@@ -340,7 +340,7 @@ function slot0.initSelectSkinPanel(slot0)
 	slot0.skinCardMap = {}
 end
 
-function slot0.openSelectSkinPanel(slot0, slot1, slot2)
+slot0.openSelectSkinPanel = function(slot0, slot1, slot2)
 	setActive(slot0.skinPanel, true)
 
 	slot6 = false
@@ -376,7 +376,7 @@ function slot0.openSelectSkinPanel(slot0, slot1, slot2)
 	end
 end
 
-function slot0.closeSelectSkinPanel(slot0)
+slot0.closeSelectSkinPanel = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.skinPanel, slot0._tf)
 	setActive(slot0.skinPanel, false)
 end

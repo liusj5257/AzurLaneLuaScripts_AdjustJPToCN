@@ -2,11 +2,11 @@ slot0 = class("TerminalAdventurePage", import("view.base.BaseSubView"))
 slot0.BIND_PT_ACT_ID = ActivityConst.OTHER_WORLD_TERMINAL_PT_ID
 slot0.BIND_TASK_ACT_ID = ActivityConst.OTHER_WORLD_TERMINAL_TASK_ID
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TerminalAdventurePage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0._tf.name = tostring(OtherworldTerminalLayer.PAGE_ADVENTURE)
 	slot0.levelTF = slot0:findTF("frame/level")
 
@@ -38,7 +38,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("Text", slot0.getGreyBtn), i18n("adventure_get_all"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = getProxy(ActivityProxy):getActivityById(uv0.BIND_PT_ACT_ID)
 
 	assert(slot1, "not exist bind pt act, id" .. uv0.BIND_PT_ACT_ID)
@@ -59,7 +59,7 @@ function slot0.OnInit(slot0)
 	slot0:UpdateTaskView()
 end
 
-function slot0.InitPtUI(slot0)
+slot0.InitPtUI = function(slot0)
 	slot3 = slot0.ptData
 	slot2 = Drop.New(slot3:GetRes())
 
@@ -100,13 +100,13 @@ function slot0.InitPtUI(slot0)
 	end)
 end
 
-function slot0.UpdatePt(slot0, slot1)
+slot0.UpdatePt = function(slot0, slot1)
 	slot0.ptData = ActivityPtData.New(slot1)
 
 	slot0:UpdatePtView()
 end
 
-function slot0.UpdatePtView(slot0)
+slot0.UpdatePtView = function(slot0)
 	slot1 = slot0.ptData:CanGetAward()
 
 	setActive(slot0.getBtn, slot1)
@@ -121,7 +121,7 @@ function slot0.UpdatePtView(slot0)
 	scrollTo(slot0.awardView, slot2 / #slot0.ptData.targets, 0)
 end
 
-function slot0.InitTaskUI(slot0)
+slot0.InitTaskUI = function(slot0)
 	slot1 = slot0.taskActivity
 	slot0.taskIds = slot1:getConfig("config_data")
 	slot1 = slot0.taskUIList
@@ -136,18 +136,18 @@ function slot0.InitTaskUI(slot0)
 	end)
 end
 
-function slot0.UpdateTask(slot0, slot1)
+slot0.UpdateTask = function(slot0, slot1)
 	slot0.taskActivity = slot1
 
 	slot0:UpdateTaskView()
 end
 
-function slot0.UpdateTaskView(slot0)
+slot0.UpdateTaskView = function(slot0)
 	slot0.taskUIList:align(#slot0.taskIds)
 	setText(slot0.recordGradeTF, slot0:GetAdventureGrade())
 end
 
-function slot0.GetAdventureGrade(slot0)
+slot0.GetAdventureGrade = function(slot0)
 	for slot5, slot6 in ipairs(slot0.taskActivity:getConfig("config_client")) do
 		if #slot6[2] > 0 then
 			for slot10, slot11 in ipairs(slot6[2]) do
@@ -165,10 +165,10 @@ function slot0.GetAdventureGrade(slot0)
 	return ""
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
-function slot0.IsTip()
+slot0.IsTip = function()
 	if not getProxy(ActivityProxy):getActivityById(uv0.BIND_PT_ACT_ID) or slot0:isEnd() then
 		return false
 	end

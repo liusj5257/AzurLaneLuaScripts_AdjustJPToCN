@@ -2,7 +2,7 @@ slot0 = class("ChargeDiamondCard")
 slot0.NewTagType = 2
 slot0.DoubleTagType = 4
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.go = slot1
 	slot0.tr = tf(slot1)
 	slot0.iconImg = slot0.tr:Find("IconImg")
@@ -17,7 +17,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.parentContext = slot2
 end
 
-function slot0.update(slot0, slot1, slot2, slot3)
+slot0.update = function(slot0, slot1, slot2, slot3)
 	slot0.goods = slot1
 	slot6 = (not (table.contains(slot3, slot1.id) or slot1:firstPayDouble()) or slot1:getConfig("gem")) and slot1:hasExtraGem() and slot1:getConfig("extra_gem")
 
@@ -50,7 +50,7 @@ function slot0.update(slot0, slot1, slot2, slot3)
 	setText(slot0.leftDesc, i18n("Supplement_pay8", "1/1"))
 end
 
-function slot0.destoryTimer(slot0)
+slot0.destoryTimer = function(slot0)
 	if slot0.updateTimer then
 		slot0.updateTimer:Stop()
 

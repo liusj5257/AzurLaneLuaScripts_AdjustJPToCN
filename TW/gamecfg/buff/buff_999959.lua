@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "",
 	init_effect = "",
+	name = "",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 999959,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -14,9 +14,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				time = 10,
-				skill_id = 999969,
-				target = "TargetSelf"
+				skill_id = 999969
 			}
 		}
 	}

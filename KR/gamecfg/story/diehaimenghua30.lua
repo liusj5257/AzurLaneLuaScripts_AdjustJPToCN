@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA30",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA30",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307080,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "그렇구나… 이 꿈이 이해가기 시작했어.",
 			bgm = "bsm-2",
+			actor = 307080,
+			nameColor = "#a9f548",
+			say = "그렇구나… 이 꿈이 이해가기 시작했어.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "적도 전쟁도 없는, 모든 진영이 함께 어우러져서 사는 유토피아 같은 곳.",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "그렇다면, 어쩌면 여기서……",
 			typewriter = {
@@ -84,14 +84,14 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:182}",
+			side = 1,
 			dir = 1,
 			bgmDelay = 2,
-			say = "진짜로… 찾았다………",
+			bgName = "bg_xinnong2_7",
 			bgm = "main-newyear",
+			actorName = "{namecode:182}",
+			say = "진짜로… 찾았다………",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -117,9 +117,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong2_7",
+			dir = 1,
 			say = "벚꽃잎이 눈 앞에 하늘하늘 떨어져 내렸다. 바람이 부는 방향을 바라보자 찬란한 벚꽃나무 아래 서있는 검붉은 인영이 눈에 들어왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -211,8 +211,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:161}",
 			dir = 1,
+			actorName = "{namecode:161}",
 			say = "과찬이군요, 콜록……",
 			dialogShake = {
 				speed = 0.09,
@@ -248,11 +248,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:182}",
 			dir = 1,
+			actorName = "{namecode:182}",
 			say = "아마기, 괜찮은가?!",
 			dialogShake = {
 				speed = 0.09,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -333,11 +333,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:182}",
 			dir = 1,
+			actorName = "{namecode:182}",
 			say = "그건 꿈이 아니라… 나는… 그러니까 이곳이… 내 머릿속에 존재하는, 깨어나면 사라질 꿈일 뿐인데……",
 			dialogShake = {
 				speed = 0.09,
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -402,8 +402,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -418,8 +418,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -434,8 +434,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -450,8 +450,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "{namecode:182}",
+			side = 1,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -466,8 +466,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -482,11 +482,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_xinnong2_7",
-			actorName = "{namecode:182}",
 			dir = 1,
+			actorName = "{namecode:182}",
 			say = "……엣?!",
 			dialogShake = {
 				speed = 0.09,
@@ -503,12 +503,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:161}",
+			side = 2,
 			bgName = "bg_xinnong2_7",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "자~ 시간이 다 됐어요. 얼른 가자구요~",
 			typewriter = {
 				speed = 0.05,

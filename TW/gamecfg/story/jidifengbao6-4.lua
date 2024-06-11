@@ -4,19 +4,19 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			say = "轟————————！",
+			side = 2,
 			soundeffect = "event:/battle/boom2",
+			say = "轟————————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			flashN = {
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "一枚炮彈從後方射來，在距離二人很近的地方爆炸了。",
 			typewriter = {
 				speed = 0.05,
@@ -71,10 +71,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "欸？怎麼會有從這個方向來的攻擊，我們被包圍了嗎……？",
 			painting = {
 				alpha = 0.3,
@@ -88,10 +88,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "唉……可能是我們的量產型把我們也識別成敵人了吧，哈哈……",
 			painting = {
 				alpha = 0.3,
@@ -105,10 +105,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這也太危險了！",
 			painting = {
 				alpha = 0.3,
@@ -122,10 +122,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "能見度這麼低干擾又這麼強，也別太難為它們了。",
 			painting = {
 				alpha = 0.3,
@@ -137,8 +137,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通訊器",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "……已標記……位置……立即集合……",
 			typewriter = {
@@ -149,10 +149,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "噢~是俄羅斯同志的聲音，通訊器好像終於有反應了",
 			painting = {
 				alpha = 0.3,
@@ -166,10 +166,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "不單單是通訊，甚至連風雪好像也變弱了……",
 			painting = {
 				alpha = 0.3,
@@ -183,10 +183,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "看來「鐮鼬」分隊的行動成功了啊，太好了~",
 			painting = {
 				alpha = 0.3,
@@ -200,10 +200,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這裡是明斯克，我已經和窩瓦匯合，通訊似乎正在恢復，請再次發送集合位置。",
 			painting = {
 				alpha = 0.3,
@@ -217,10 +217,10 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 705050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "蘇維埃俄羅斯已收到，集合位置已再次發送",
 			painting = {
 				alpha = 0.3,
@@ -234,10 +234,10 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 705050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "干擾正在減輕，清除者的量產型機體也已被再次擊退。",
 			painting = {
 				alpha = 0.3,
@@ -251,10 +251,10 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			actor = 705050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我們的任務目標不變，繼續向北極要塞方向接近。",
 			painting = {
 				alpha = 0.3,
@@ -268,10 +268,10 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "了解~",
 			painting = {
 				alpha = 0.3,
@@ -285,10 +285,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 707010,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 707010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "太好了，大家都沒事！",
 			painting = {
 				alpha = 0.3,
@@ -302,11 +302,11 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 701030,
-			hidePaintObj = true,
 			dir = 1,
 			BlackBg = true,
+			actor = 701030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "是呀，我們也該去和大家匯合了——",
 			painting = {
 				alpha = 0.3,

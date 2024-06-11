@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.4
+					number = -0.4,
+					type = 16
 				}
 			},
 			{
@@ -32,8 +32,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.433
+					number = -0.433,
+					type = 16
 				}
 			},
 			{
@@ -56,8 +56,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.466
+					number = -0.466,
+					type = 16
 				}
 			},
 			{
@@ -80,8 +80,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.5
+					number = -0.5,
+					type = 16
 				}
 			},
 			{
@@ -104,8 +104,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.533
+					number = -0.533,
+					type = 16
 				}
 			},
 			{
@@ -128,8 +128,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.566
+					number = -0.566,
+					type = 16
 				}
 			},
 			{
@@ -152,8 +152,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.6
+					number = -0.6,
+					type = 16
 				}
 			},
 			{
@@ -176,8 +176,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.633
+					number = -0.633,
+					type = 16
 				}
 			},
 			{
@@ -200,8 +200,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.666
+					number = -0.666,
+					type = 16
 				}
 			},
 			{
@@ -224,8 +224,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					type = 16,
-					number = -0.7
+					number = -0.7,
+					type = 16
 				}
 			},
 			{
@@ -239,9 +239,9 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -263,8 +263,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				type = 16,
-				number = -0.4
+				number = -0.4,
+				type = 16
 			}
 		},
 		{

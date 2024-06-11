@@ -1,15 +1,15 @@
 return {
-	id = "W2001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2001",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "Encounter with Siren defense fleet imminent. Prepare to engage.",
 			typewriter = {
 				speed = 0.05,

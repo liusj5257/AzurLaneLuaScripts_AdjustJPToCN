@@ -1,17 +1,17 @@
 return {
-	id = "JIARIHANGXIAN8",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN8",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "お待たせしましたにゃ！二戦目、まもなく始まるにゃ！",
 			dir = 1,
 			bgm = "doa_boss",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "お待たせしましたにゃ！二戦目、まもなく始まるにゃ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -50,8 +50,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "この格好で「戦う」って、どうしていいかわからないけど……一緒にがんばろうね、お姉ちゃん！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "みさき……ケガとかしないように、気を付けてね？",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "大丈夫だよ♪明石さんも、弾薬は特別な処理をしてるって言ってたし♪",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600050,
 			dir = 1,
+			actor = 10600050,
 			say = "もう…油断しないの。大事な妹なんだから…わたしが守るから、後ろにいなさい？",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -244,8 +244,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "そう？わたしは色々話してみたいなぁって思った！",
 			typewriter = {
 				speed = 0.05,
@@ -302,8 +302,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

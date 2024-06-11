@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGJIE2",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WANSHENGJIE2",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -16,14 +16,14 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "Without even noticing, the “day of mischief” is fast approaching!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,14 +48,14 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Haha, you girls from the Sakura Empire are highly anticipating the day, aren’t you!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -80,15 +80,15 @@ return {
 			}
 		},
 		{
-			actor = 306051,
 			actorName = "{namecode:87}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 306051,
+			nameColor = "#a9f548",
 			say = "The atmosphere seems to be more tense than last year... {namecode:6}, what do you think?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -113,12 +113,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "It’s not like as if we’re going to start a battle with the Eagle Union...",
 			side = 0,
 			nameColor = "#a9f548",
-			actorName = "{namecode:6}",
 			dir = 1,
-			say = "It’s not like as if we’re going to start a battle with the Eagle Union...",
+			actor = 301050,
+			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -136,8 +136,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:87}",
 			dir = 1,
+			actorName = "{namecode:87}",
 			say = "Ack——!",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:87}",
 			dir = 1,
+			actorName = "{namecode:87}",
 			say = "That’s right! Let’s start rationing supplies and practice our “pranks”, these are clear signs of war!",
 			typewriter = {
 				speed = 0.05,
@@ -168,8 +168,8 @@ return {
 			actor = 301050,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "If there is indeed a war coming, you girls aren’t hiding it from me, are you?",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:87}",
 			dir = 1,
+			actorName = "{namecode:87}",
 			say = "O that, that’s to prevent the intel from getting leaked… which reminds me, go find “her” to discuss about that thing.",
 			typewriter = {
 				speed = 0.05,
@@ -197,15 +197,15 @@ return {
 			}
 		},
 		{
-			actor = 306051,
 			actorName = "{namecode:87}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 306051,
+			nameColor = "#a9f548",
 			say = "He-le-na~~ I am comingggg~!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,8 +252,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:87}",
 			dir = -1,
+			actorName = "{namecode:87}",
 			say = "We’ve got vital intel to report—— we’re going to war!",
 			typewriter = {
 				speed = 0.05,
@@ -280,15 +280,15 @@ return {
 			}
 		},
 		{
-			actor = 306051,
 			actorName = "{namecode:87}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 306051,
+			nameColor = "#a9f548",
 			say = "Say… are pulling pranks and carving pumpkins both traditions of Halloween?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -350,8 +350,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:87}",
 			dir = -1,
+			actorName = "{namecode:87}",
 			say = "Helena, what’s “that” in your hands?",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:87}",
 			dir = -1,
+			actorName = "{namecode:87}",
 			say = "Cleveland will also be joining us for “Trick or treat”?",
 			typewriter = {
 				speed = 0.05,
@@ -412,8 +412,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:87}",
 			dir = -1,
+			actorName = "{namecode:87}",
 			say = "…Did you only make this one costume?",
 			typewriter = {
 				speed = 0.05,
@@ -443,8 +443,8 @@ return {
 			actor = 306051,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:87}",
 			dir = -1,
+			actorName = "{namecode:87}",
 			say = "Actually, I’ve received a similar outfit in the mail a few days ago...",
 			typewriter = {
 				speed = 0.05,
@@ -456,17 +456,17 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "Hey, if I win the duel this time, then you gotta help me!",
 			side = 2,
-			actorName = "？？？",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actorName = "？？？",
+			actor = 307060,
+			nameColor = "#a9f548",
 			withoutPainting = true,
-			say = "Hey, if I win the duel this time, then you gotta help me!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

@@ -1,18 +1,18 @@
 return {
-	id = "WORLD508A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "main-arbitrationsystem-theme",
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "等等，前方有艦隊正在對峙……一邊看起來是塞壬，另一邊雷達上完全沒顯示，大概是餘燼吧。",
-			bgm = "main-arbitrationsystem-theme",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,9 +205,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "救了我們科研艦隊的……？等等，那不是我們之前正在追蹤的不明目標嗎？！",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "趁她們沒發現，我們先躲起來看看情況會不會比較好……",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			expression = 3,
 			side = 2,
 			paintingNoise = true,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "是個好想法，可惜已經太遲了哦。",
 			typewriter = {
@@ -294,14 +294,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-ashes-theme",
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "喲，來的剛剛好。我就知道妳們一定會趕上的。",
-			bgm = "battle-ashes-theme",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -329,8 +329,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "到底是怎麼回事，飛龍？這段時間妳一個人神出鬼沒的就是在弄的這些事麼……",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +360,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "現在突然要和它們打陣地戰了，稍微來點智慧不是挺好~",
 			typewriter = {
 				speed = 0.05,
@@ -376,8 +376,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "高雄不是說盡量不要產生交集……",
 			typewriter = {
 				speed = 0.05,
@@ -392,8 +392,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "計劃趕不上變化嘛。",
 			typewriter = {
 				speed = 0.05,
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "隨便妳了…………",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "看到艦隊的出現，兩名餘燼成員之間似乎發生了輕微的爭執。",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "不過片刻之後，共識就被達成了。放棄爭執的皇家方舟轉而看向指揮艦的方向。",
 			typewriter = {
 				speed = 0.05,
@@ -464,9 +464,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 9707020,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "………………你就是G很在意的指揮官？",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 1,
 			say = "……………………",
 			typewriter = {
@@ -504,10 +504,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 9707020,
-			nameColor = "#ffa500",
 			dir = 1,
 			optionFlag = 1,
+			actor = 9707020,
+			nameColor = "#ffa500",
 			say = "沉默不言嗎，哼。",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 2,
 			say = "初次見面，妳是餘燼那邊的皇家方舟吧？",
 			typewriter = {
@@ -535,10 +535,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 9707020,
-			nameColor = "#ffa500",
 			dir = 1,
 			optionFlag = 2,
+			actor = 9707020,
+			nameColor = "#ffa500",
 			say = "不錯。",
 			typewriter = {
 				speed = 0.05,
@@ -553,8 +553,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "指揮官，原來是這種感覺的存在嗎。",
 			typewriter = {
 				speed = 0.05,
@@ -584,8 +584,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "陛————",
 			typewriter = {
 				speed = 0.05,
@@ -600,8 +600,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "………………是的。別會錯意了！對於我來說，我是皇家方舟，但是對於妳來說，我就未必是了。",
 			typewriter = {
 				speed = 0.05,
@@ -616,8 +616,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "……………………就這樣，我不想再繼續談下去了。",
 			typewriter = {
 				speed = 0.05,
@@ -647,8 +647,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "別在意，她一直都是這種風格。雖說像她這樣才是最正確的選擇吧……",
 			typewriter = {
 				speed = 0.05,
@@ -663,8 +663,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "言歸正傳。經過這段時間的觀察，我覺得你們也不是什麼安蒂克絲的牢固盟友。",
 			typewriter = {
 				speed = 0.05,
@@ -678,9 +678,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "這次既然來了這麼多人，怎麼樣，有興趣一起來打一場嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -776,8 +776,8 @@ return {
 			expression = 6,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "喂喂喂，當著我們的面說這種話真的合適嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -792,8 +792,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "本來也沒隱藏的打算，我們已經嘗試與妳們對話很久了吧！",
 			typewriter = {
 				speed = 0.05,
@@ -808,8 +808,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "呵，你們可遠沒有你們自我認知中的那樣可信喲。",
 			typewriter = {
 				speed = 0.05,
@@ -824,8 +824,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "不過當然，只是偶爾一起打打安蒂克絲倒也挺不錯的。妳們覺得呢，對面的仲裁機關？",
 			typewriter = {
 				speed = 0.05,
@@ -837,8 +837,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "仲裁者·天帕嵐斯·XIV",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -853,8 +853,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "仲裁者·赫米忒·IX",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -869,8 +869,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "仲裁者·司特蓮庫斯·VIII",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -885,8 +885,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "仲裁者·赫米忒·IX",
+			side = 2,
 			bgName = "bg_nacorearea_1",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -901,9 +901,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_nacorearea_1",
+			dir = 1,
 			say = "全員注意，現在開始與餘燼聯合行動————",
 			typewriter = {
 				speed = 0.05,
@@ -915,9 +915,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_nacorearea_1",
+			dir = 1,
 			say = "目標，塞壬仲裁機關，自由開火！",
 			typewriter = {
 				speed = 0.05,

@@ -1,58 +1,58 @@
 slot0 = class("ChargeCommodity", import(".BaseCommodity"))
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.pay_data_display
 end
 
-function slot0.isChargeType(slot0)
+slot0.isChargeType = function(slot0)
 	return true
 end
 
-function slot0.canPurchase(slot0)
+slot0.canPurchase = function(slot0)
 	return slot0:getLimitCount() <= 0 or slot0.buyCount < slot1
 end
 
-function slot0.firstPayDouble(slot0)
+slot0.firstPayDouble = function(slot0)
 	return slot0:getConfig("first_pay_double") ~= 0
 end
 
-function slot0.hasExtraGem(slot0)
+slot0.hasExtraGem = function(slot0)
 	return slot0:getConfig("extra_gem") ~= 0
 end
 
-function slot0.GetGemCnt(slot0)
+slot0.GetGemCnt = function(slot0)
 	return slot0:getConfig("gem") + slot0:getConfig("extra_gem")
 end
 
-function slot0.isGem(slot0)
+slot0.isGem = function(slot0)
 	return slot0:getConfig("extra_service") == Goods.GEM
 end
 
-function slot0.isGiftBox(slot0)
+slot0.isGiftBox = function(slot0)
 	return slot0:getConfig("extra_service") == Goods.GIFT_BOX
 end
 
-function slot0.isMonthCard(slot0)
+slot0.isMonthCard = function(slot0)
 	return slot0:getConfig("extra_service") == Goods.MONTH_CARD
 end
 
-function slot0.isItemBox(slot0)
+slot0.isItemBox = function(slot0)
 	return slot0:getConfig("extra_service") == Goods.ITEM_BOX
 end
 
-function slot0.isPassItem(slot0)
+slot0.isPassItem = function(slot0)
 	return slot0:getConfig("extra_service") == Goods.PASS_ITEM
 end
 
-function slot0.getLimitCount(slot0)
+slot0.getLimitCount = function(slot0)
 	return slot0:getConfig("limit_arg")
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0:getConfig("name")
 end
 
-function slot0.GetDropList(slot0)
+slot0.GetDropList = function(slot0)
 	if #slot0:getConfig("display") == 0 then
 		slot1 = slot0:getConfig("extra_service_item")
 	end
@@ -66,7 +66,7 @@ function slot0.GetDropList(slot0)
 	return slot2
 end
 
-function slot0.GetExtraServiceItem(slot0)
+slot0.GetExtraServiceItem = function(slot0)
 	slot1 = {}
 	slot1 = (not slot0:isPassItem() or PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot0:getConfig("sub_display")[1]].drop_client_pay, function (slot0)
 		return Drop.Create(slot0)
@@ -86,7 +86,7 @@ function slot0.GetExtraServiceItem(slot0)
 	return slot1
 end
 
-function slot0.GetBonusItem(slot0)
+slot0.GetBonusItem = function(slot0)
 	slot1 = nil
 
 	if slot0:isMonthCard() then
@@ -100,7 +100,7 @@ function slot0.GetBonusItem(slot0)
 	return slot1
 end
 
-function slot0.GetChargeTip(slot0)
+slot0.GetChargeTip = function(slot0)
 	slot1, slot2 = nil
 
 	if slot0:isPassItem() then
@@ -115,7 +115,7 @@ function slot0.GetChargeTip(slot0)
 	return slot1, slot2
 end
 
-function slot0.GetExtraDrop(slot0)
+slot0.GetExtraDrop = function(slot0)
 	slot1 = nil
 
 	if slot0:isPassItem() then
@@ -132,7 +132,7 @@ function slot0.GetExtraDrop(slot0)
 	return slot1
 end
 
-function slot0.getConfig(slot0, slot1)
+slot0.getConfig = function(slot0, slot1)
 	if slot1 == "money" and PLATFORM_CODE == PLATFORM_CHT then
 		if pg.SdkMgr.GetInstance():GetProduct(slot0:getConfig("id_str")) then
 			return slot2.price
@@ -148,15 +148,15 @@ function slot0.getConfig(slot0, slot1)
 	end
 end
 
-function slot0.RawGetConfig(slot0, slot1)
+slot0.RawGetConfig = function(slot0, slot1)
 	return uv0.super.getConfig(slot0, slot1)
 end
 
-function slot0.IsLocalPrice(slot0)
+slot0.IsLocalPrice = function(slot0)
 	return slot0:getConfig("money") ~= slot0:RawGetConfig("money")
 end
 
-function slot0.isLevelLimit(slot0, slot1, slot2)
+slot0.isLevelLimit = function(slot0, slot1, slot2)
 	slot3, slot4 = slot0:getLevelLimit()
 
 	if slot2 and slot4 then
@@ -166,7 +166,7 @@ function slot0.isLevelLimit(slot0, slot1, slot2)
 	return slot3 > 0 and slot1 < slot3
 end
 
-function slot0.getLevelLimit(slot0)
+slot0.getLevelLimit = function(slot0)
 	for slot5, slot6 in ipairs(slot0:getConfig("limit_args")) do
 		if type(slot6) == "table" and slot6[1] == "level" then
 			return slot6[2], slot6[3]
@@ -176,7 +176,7 @@ function slot0.getLevelLimit(slot0)
 	return 0
 end
 
-function slot0.isTecShipGift(slot0)
+slot0.isTecShipGift = function(slot0)
 	if slot0:getConfig("limit_type") == Goods.Tec_Ship_Gift_Type then
 		return true
 	else
@@ -184,7 +184,7 @@ function slot0.isTecShipGift(slot0)
 	end
 end
 
-function slot0.isTecShipShowGift(slot0)
+slot0.isTecShipShowGift = function(slot0)
 	if slot0:isTecShipGift() then
 		if slot0:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.Show then
 			return true
@@ -196,7 +196,7 @@ function slot0.isTecShipShowGift(slot0)
 	end
 end
 
-function slot0.getSameGroupTecShipGift(slot0)
+slot0.getSameGroupTecShipGift = function(slot0)
 	slot1 = {}
 	slot2 = slot0:getConfig("limit_group")
 
@@ -211,7 +211,7 @@ function slot0.getSameGroupTecShipGift(slot0)
 	return slot1
 end
 
-function slot0.CanViewSkinProbability(slot0)
+slot0.CanViewSkinProbability = function(slot0)
 	if not slot0:getConfig("skin_inquire_relation") or slot1 <= 0 then
 		return false
 	end
@@ -223,7 +223,7 @@ function slot0.CanViewSkinProbability(slot0)
 	return true
 end
 
-function slot0.GetSkinProbability(slot0)
+slot0.GetSkinProbability = function(slot0)
 	slot1 = {}
 
 	if slot0:CanViewSkinProbability() then
@@ -233,7 +233,7 @@ function slot0.GetSkinProbability(slot0)
 	return slot1
 end
 
-function slot0.GetSkinProbabilityItem(slot0)
+slot0.GetSkinProbabilityItem = function(slot0)
 	if not slot0:CanViewSkinProbability() then
 		return nil
 	end
@@ -245,7 +245,7 @@ function slot0.GetSkinProbabilityItem(slot0)
 	}
 end
 
-function slot0.GetDropItem(slot0)
+slot0.GetDropItem = function(slot0)
 	if #slot0:getConfig("drop_item") > 0 then
 		return slot1
 	else
@@ -253,7 +253,7 @@ function slot0.GetDropItem(slot0)
 	end
 end
 
-function slot0.GetLimitDesc(slot0)
+slot0.GetLimitDesc = function(slot0)
 	slot2 = slot0.buyCount or 0
 
 	if slot0:getLimitCount() > 0 then

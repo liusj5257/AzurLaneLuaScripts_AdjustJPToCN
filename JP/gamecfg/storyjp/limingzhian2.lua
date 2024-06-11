@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIMINGZHIAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIMINGZHIAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "セイレーン施設・周辺海域 ",
 			side = 2,
 			bgName = "bg_tiexuejingmian",
 			dir = 1,
 			bgm = "story-6",
+			say = "セイレーン施設・周辺海域 ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "本当だ、セイレーンたちがすべて行動停止してる！「信頼できる情報提供者」ってスゴイわね！",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "別にぃ？ただここを見ると妙に昔のことを思い出すな～って",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "んーまあ、鉄血のもそうかな？前の大戦でのね",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "鉄血ってさあ、セイレーンが現れた頃、四大陣営の中で唯一打って出たじゃない",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "それで出鼻をくじかれたけど、ほかの陣営と『アズールレーン』を結成してセイレーンを一回食い止めて――",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "それから『レッドアクシズ』となって今に至って――",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "『再現』以外は普通に一緒にセイレーンと戦ってくれて――",
 			typewriter = {
@@ -225,8 +225,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "でも、たまに妙な動きをしてくるよね～。スカパ・フロー泊地のこととか",
 			typewriter = {
@@ -274,8 +274,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "アヴローラもそう思うでしょ？",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "昔一緒に戦った仲間も引退したり、あの大戦で活躍した「フネ」も沈んだり解体されたりしたし",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "そもそも『アズールレーン』自体がビリっと分裂したし",
 			typewriter = {
@@ -325,8 +325,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "皆が集まってセイレーンをやっつけるぞーってことにはもうならないのかな…ねえアヴローラ？",
 			typewriter = {
@@ -390,8 +390,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "あ、またにやけてるわね！",
 			typewriter = {
@@ -455,8 +455,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "アヴローラ？",
 			typewriter = {
@@ -485,9 +485,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
+			dir = 1,
 			say = "セイレーン施設の廃墟に囲まれている海域の中心に、なぜか巨大なガントリークレーンが海にポツンと存在していた",
 			typewriter = {
 				speed = 0.05,
@@ -502,8 +502,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "わたしたちも知っている「フネ」だ！どうしてこんなところに？？",
 			typewriter = {
@@ -519,8 +519,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "これは確か、随分前に北極の調査中に失踪したやつだよね？",
 			typewriter = {
@@ -568,8 +568,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "戦闘の損傷もあまりないみたい…おかしいわね…",
 			typewriter = {
@@ -585,8 +585,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "あ！もしかしてセイレーンに鹵獲されちゃったの？",
 			typewriter = {
@@ -602,8 +602,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "これは奇妙ね…ずっと前の調査中に失踪した砕氷船がこんな場所に漂着してるなんて",
 			typewriter = {
@@ -619,8 +619,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#a9f548",
 			say = "ここに長くいてはいけません。フネの設備…ううん、フネを保護しなければなりませんわ！",
 			typewriter = {
@@ -636,8 +636,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "どうするの、アヴローラ！",
 			typewriter = {
@@ -685,8 +685,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "もちろんよ！当時の調査で何が起きたか調べないと！",
 			typewriter = {
@@ -702,9 +702,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			actor = 702029,
 			dir = 1,
 			blackBg = true,
+			actor = 702029,
 			nameColor = "#a9f548",
 			say = "おうちにかえりましょうね！「Микоян（ミコヤン） 」！",
 			typewriter = {

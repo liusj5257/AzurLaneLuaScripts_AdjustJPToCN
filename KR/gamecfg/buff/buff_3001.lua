@@ -12,8 +12,8 @@ return {
 				},
 				arg_list = {
 					rant = 500,
-					target = "TargetSelf",
-					skill_id = 3001
+					skill_id = 3001,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -31,8 +31,8 @@ return {
 				},
 				arg_list = {
 					rant = 610,
-					target = "TargetSelf",
-					skill_id = 3001
+					skill_id = 3001,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -50,8 +50,8 @@ return {
 				},
 				arg_list = {
 					rant = 720,
-					target = "TargetSelf",
-					skill_id = 3001
+					skill_id = 3001,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -69,8 +69,8 @@ return {
 				},
 				arg_list = {
 					rant = 830,
-					target = "TargetSelf",
-					skill_id = 3001
+					skill_id = 3001,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -88,8 +88,8 @@ return {
 				},
 				arg_list = {
 					rant = 940,
-					target = "TargetSelf",
-					skill_id = 3001
+					skill_id = 3001,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -107,8 +107,8 @@ return {
 				},
 				arg_list = {
 					rant = 1050,
-					target = "TargetSelf",
-					skill_id = 3001
+					skill_id = 3001,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -126,8 +126,8 @@ return {
 				},
 				arg_list = {
 					rant = 1160,
-					target = "TargetSelf",
-					skill_id = 3001
+					skill_id = 3001,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -145,8 +145,8 @@ return {
 				},
 				arg_list = {
 					rant = 1270,
-					target = "TargetSelf",
-					skill_id = 3001
+					skill_id = 3001,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -164,8 +164,8 @@ return {
 				},
 				arg_list = {
 					rant = 1380,
-					target = "TargetSelf",
-					skill_id = 3001
+					skill_id = 3001,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -183,8 +183,8 @@ return {
 				},
 				arg_list = {
 					rant = 1500,
-					target = "TargetSelf",
-					skill_id = 3001
+					skill_id = 3001,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -192,12 +192,12 @@ return {
 	desc_get = "空中支援后有5.0%(满级15.0%)概率使自己的下一轮空中支援立即冷却",
 	name = "快速起飞",
 	init_effect = "",
+	id = 3001,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "空中支援后有$1概率使自己的下一轮空中支援立即冷却",
 	stack = 1,
-	id = 3001,
+	color = "red",
 	icon = 3000,
 	last_effect = "",
 	effect_list = {
@@ -208,8 +208,8 @@ return {
 			},
 			arg_list = {
 				rant = 500,
-				target = "TargetSelf",
-				skill_id = 3001
+				skill_id = 3001,
+				target = "TargetSelf"
 			}
 		}
 	}

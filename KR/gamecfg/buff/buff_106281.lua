@@ -9,8 +9,8 @@ return {
 				},
 				arg_list = {
 					rant = 4000,
-					target = "TargetSelf",
-					skill_id = 106280
+					skill_id = 106280,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -25,8 +25,8 @@ return {
 				},
 				arg_list = {
 					rant = 4660,
-					target = "TargetSelf",
-					skill_id = 106280
+					skill_id = 106280,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -41,8 +41,8 @@ return {
 				},
 				arg_list = {
 					rant = 5320,
-					target = "TargetSelf",
-					skill_id = 106280
+					skill_id = 106280,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -57,8 +57,8 @@ return {
 				},
 				arg_list = {
 					rant = 5980,
-					target = "TargetSelf",
-					skill_id = 106280
+					skill_id = 106280,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -73,8 +73,8 @@ return {
 				},
 				arg_list = {
 					rant = 6640,
-					target = "TargetSelf",
-					skill_id = 106280
+					skill_id = 106280,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -89,8 +89,8 @@ return {
 				},
 				arg_list = {
 					rant = 7300,
-					target = "TargetSelf",
-					skill_id = 106280
+					skill_id = 106280,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -105,8 +105,8 @@ return {
 				},
 				arg_list = {
 					rant = 7960,
-					target = "TargetSelf",
-					skill_id = 106280
+					skill_id = 106280,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -121,8 +121,8 @@ return {
 				},
 				arg_list = {
 					rant = 8620,
-					target = "TargetSelf",
-					skill_id = 106280
+					skill_id = 106280,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -137,8 +137,8 @@ return {
 				},
 				arg_list = {
 					rant = 9280,
-					target = "TargetSelf",
-					skill_id = 106280
+					skill_id = 106280,
+					target = "TargetSelf"
 				}
 			}
 		}
@@ -153,15 +153,15 @@ return {
 				},
 				arg_list = {
 					rant = 10000,
-					target = "TargetSelf",
-					skill_id = 106280
+					skill_id = 106280,
+					target = "TargetSelf"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 3,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "概率触发器",
 	stack = 2,
@@ -177,8 +177,8 @@ return {
 			},
 			arg_list = {
 				rant = 4000,
-				target = "TargetSelf",
-				skill_id = 106280
+				skill_id = 106280,
+				target = "TargetSelf"
 			}
 		}
 	}

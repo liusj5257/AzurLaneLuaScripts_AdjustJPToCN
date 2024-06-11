@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BOYIXI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BOYIXI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"香醇的提拉米蘇\n\n<size=45>四  信心動搖？</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			say = "港區·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			hidePaintObj = true,
+			say = "港區·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -51,12 +51,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "今天的工作看起來還算輕鬆……一口氣解決掉吧。",
 			typewriter = {
 				speed = 0.05,
@@ -86,10 +86,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官需要上一次演習的報告嗎？我這就拿過來……",
 			typewriter = {
 				speed = 0.05,
@@ -104,10 +104,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（指揮官果然完全不在意面具的事情……很好。）",
 			typewriter = {
 				speed = 0.05,
@@ -122,10 +122,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（這樣下去的話，和路易斯的賭約就能贏下來了……）",
 			typewriter = {
 				speed = 0.05,
@@ -140,10 +140,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官！我來給你送文件來了！",
 			typewriter = {
 				speed = 0.05,
@@ -158,15 +158,15 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官——哇啊啊啊！敵……原來是{namecode:197}啊……",
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -186,10 +186,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "唔……是我的面具嚇到妳了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -204,15 +204,15 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101440,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "庫、庫珀才不會被區區面具嚇到呢！我還有事，先走啦！",
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -244,12 +244,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "果然是被嚇到了吧……唔，這樣下去會影響到指揮官工作的……",
 			typewriter = {
 				speed = 0.05,
@@ -270,10 +270,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "謝謝指揮官……現在還是工作時間，{namecode:197}會努力履行好秘書艦的職責的……",
 			typewriter = {
 				speed = 0.05,
@@ -302,15 +302,15 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官，我從資料室過來找你啦！嘿！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -338,10 +338,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "嗚哇！這是什麼！",
 			dialogShake = {
 				speed = 0.08,
@@ -361,10 +361,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "是面具……抱歉，嚇到你了麼？",
 			typewriter = {
 				speed = 0.05,
@@ -379,10 +379,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "沒、沒事！只是稍微吃驚了一下而已！指揮官！快在回執上打勾啦！",
 			typewriter = {
 				speed = 0.05,
@@ -397,10 +397,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官再見！有空再來找你！",
 			typewriter = {
 				speed = 0.05,
@@ -430,10 +430,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "……果然還是影響到大家了……",
 			typewriter = {
 				speed = 0.05,
@@ -460,12 +460,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "戴上面具的話會嚇到大家，但是不戴的話……",
 			typewriter = {
 				speed = 0.05,
@@ -498,12 +498,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "謝謝指揮官……其實不用為我特意安排的。",
 			typewriter = {
 				speed = 0.05,
@@ -518,10 +518,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哎？原來是指揮官想讓我陪你出去散心的意思嗎……{namecode:197}明白了。",
 			typewriter = {
 				speed = 0.05,
@@ -536,10 +536,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（還好…指揮官沒有提到摘掉面具的事情……）",
 			typewriter = {
 				speed = 0.05,

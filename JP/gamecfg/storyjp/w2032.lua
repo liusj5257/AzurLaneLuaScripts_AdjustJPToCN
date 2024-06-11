@@ -1,12 +1,12 @@
 return {
-	id = "W2032",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2032",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ジャミング装置の無力化に成功し、物資を回収しました",
 			typewriter = {
 				speed = 0.05,

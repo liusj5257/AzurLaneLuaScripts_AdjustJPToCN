@@ -9,7 +9,7 @@ slot3 = {
 	"WorldBossMediator"
 }
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0.isInit = true
 	slot0.list = {}
 
@@ -35,9 +35,9 @@ function slot0.Init(slot0, slot1)
 	end)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	if uv0 then
-		function slot2()
+		slot2 = function()
 			if uv0:IsEnable(uv1:GetType()) then
 				table.insert(uv0.list, uv1)
 
@@ -99,7 +99,7 @@ function slot0.Show(slot0, slot1)
 	end
 end
 
-function slot0.AddGuildMsg(slot0, slot1, slot2)
+slot0.AddGuildMsg = function(slot0, slot1, slot2)
 	if not getProxy(GuildProxy):getRawData() then
 		return
 	end
@@ -113,11 +113,11 @@ function slot0.AddGuildMsg(slot0, slot1, slot2)
 	getProxy(GuildProxy):AddNewMsg(ChatMsg.New(slot1, slot2))
 end
 
-function slot0.IsEnableNotify(slot0, slot1)
+slot0.IsEnableNotify = function(slot0, slot1)
 	return true
 end
 
-function slot0.IsEnable(slot0, slot1)
+slot0.IsEnable = function(slot0, slot1)
 	return slot0:IsEnableNotify(slot1) and (function ()
 		slot1 = getProxy(ContextProxy):getCurrentContext()
 
@@ -127,17 +127,17 @@ function slot0.IsEnable(slot0, slot1)
 	end)()
 end
 
-function slot0.Start(slot0)
+slot0.Start = function(slot0)
 	if #slot0.list > 0 then
 		slot0:AddTimer()
 	end
 end
 
-function slot0.BuildClickableTxt(slot0, slot1)
+slot0.BuildClickableTxt = function(slot0, slot1)
 	return string.format("<material=underline c=#FFFFFF h=1 event=onClick args=" .. slot1.id .. ">%s</material>", slot1:BuildTipText())
 end
 
-function slot0.AddTimer(slot0)
+slot0.AddTimer = function(slot0)
 	slot0:RemoveTimer()
 	setActive(slot0.tipTF, true)
 	slot0.scrollText:SetText(slot0:BuildClickableTxt(slot0.list[1]))
@@ -154,7 +154,7 @@ function slot0.AddTimer(slot0)
 	end)):setDelay(4)
 end
 
-function slot4(slot0, slot1)
+slot4 = function(slot0, slot1)
 	if not slot0 or #slot0 == 0 then
 		return
 	end
@@ -168,7 +168,7 @@ function slot4(slot0, slot1)
 	return true
 end
 
-function slot0.OnClick(slot0, slot1, slot2, slot3, slot4)
+slot0.OnClick = function(slot0, slot1, slot2, slot3, slot4)
 	if not nowWorld() or not slot5:IsActivate() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("world_boss_unactivated"))
 
@@ -179,8 +179,8 @@ function slot0.OnClick(slot0, slot1, slot2, slot3, slot4)
 		return
 	end
 
-	function slot7(slot0)
-		function slot3()
+	slot7 = function(slot0)
+		slot3 = function()
 			pg.m02:sendNotification(GAME.CHECK_WORLD_BOSS_STATE, {
 				bossId = tonumber(uv2),
 				time = uv3,
@@ -246,7 +246,7 @@ function slot0.OnClick(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if LeanTween.isTweening(go(slot0.tipTF)) then
 		LeanTween.cancel(go(slot0.tipTF))
 	end

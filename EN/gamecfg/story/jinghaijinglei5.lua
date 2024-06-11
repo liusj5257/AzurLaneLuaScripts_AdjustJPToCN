@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGHAIJINGLEI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGHAIJINGLEI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Tranquil Sea, Distant Thunder\n\n<size=45>5 Vessels and Replacements</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#a020f0",
 			side = 2,
 			bgName = "bg_port_chuanwu2",
+			bgm = "main-arbitrationsystem-theme",
+			nameColor = "#a020f0",
 			hidePaintObj = true,
 			say = "Somewhere in an undisclosed location...",
-			bgm = "main-arbitrationsystem-theme",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			say = "On an assembly line within a factory encased in walls of steel, elite Sirens were being put together, one after the next.",
@@ -57,12 +57,12 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So this is how it looks inside a Siren workshop, eh... It's nothing like how they make mass-produced ships.",
 			painting = {
 				alpha = 0.3,
@@ -77,10 +77,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "These aren't just ordinary humanoid Sirens, either – they're full-blown elite vessels.",
 			painting = {
 				alpha = 0.3,
@@ -95,10 +95,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "By the way, since when were we able to make Siren vessels?",
 			painting = {
 				alpha = 0.3,
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a020f0",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -125,10 +125,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Us? Controlling elite Sirens like any old mass-produced ship? Yeah, right.",
 			painting = {
 				alpha = 0.3,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a020f0",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -152,8 +152,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a020f0",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -167,10 +167,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hah, alright. I'm just a little stunned it's possible to control elite Sirens. Appreciate the explanation.",
 			painting = {
 				alpha = 0.3,
@@ -185,10 +185,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What do you say we end the tour here and take a little break? You could use one, what with how pale you look.",
 			painting = {
 				alpha = 0.3,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a020f0",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a020f0",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -224,12 +224,12 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Sure do. Tester, Purifier, Compiler, and Omitter... Just like with the Pawns, they look the same as their originals.",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hey, mind if I ask one last question?",
 			painting = {
 				alpha = 0.3,
@@ -259,8 +259,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a020f0",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -271,12 +271,12 @@ return {
 			}
 		},
 		{
-			actor = 305120,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh, you read my mind...",
 			painting = {
 				alpha = 0.3,
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a020f0",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a020f0",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -312,8 +312,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a020f0",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -324,8 +324,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a020f0",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -339,10 +339,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I see. So we'll be one person short...",
 			painting = {
 				alpha = 0.3,
@@ -354,8 +354,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a020f0",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a020f0",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -378,8 +378,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			say = "The workshop's spotlights converged on a place away from the Siren vessels, illuminating something – or maybe someone – that had been shrouded in darkness.",
@@ -392,10 +392,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_chuanwu2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Is... that...?",
 			painting = {
 				alpha = 0.3,
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			actorName = "???",
 			nameColor = "#a020f0",
+			actorName = "???",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,
@@ -419,8 +419,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a020f0",
 			actorName = "???",
+			nameColor = "#a020f0",
 			bgName = "bg_port_chuanwu2",
 			hidePaintObj = true,
 			side = 2,

@@ -1,12 +1,12 @@
 return {
-	id = "W3002",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W3002",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "找到了被关闭的设备，看起来已经失去能量了",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "是否消耗一个电池把设备激活并带走",
 			typewriter = {
 				speed = 0.05,

@@ -37,8 +37,8 @@ return {
 		{
 			actor = 103090,
 			side = 0,
-			nameColor = "#92fc63",
 			say = "……방향을 보면, 저 둘도 남부 해역에서 온 게 분명해요. 혹시 저 다섯이 우릴 습격한 주력 함대라면, 저 중 둘은 시카고 언니 쪽으로 향했었다는 얘기겠죠.",
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

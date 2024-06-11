@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_369 = {}
 slot1 = slot0.word_template_369
 
-function temp()
+temp = function()
 	uv0["吧"] = {
 		["九"] = {
 			this = true
@@ -16,7 +16,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["⑤"] = {
 		["⑨"] = {
 			["碾"] = {
@@ -38,7 +38,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["拎"] = {
 		["着"] = {
 			["垃"] = {
@@ -68,7 +68,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["燭"] = {
 		["光"] = {
 			["晚"] = {
@@ -82,7 +82,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["烛"] = {
 		["光"] = {
 			["晚"] = {
@@ -192,7 +192,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["遍"] = {
 		["地"] = {
 			["開"] = {
@@ -250,7 +250,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["囌"] = {
 		["聯"] = {
 			["解"] = {

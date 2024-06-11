@@ -1,6 +1,6 @@
 slot0 = class("DecodeGameModel")
 
-function slot0.SetData(slot0, slot1)
+slot0.SetData = function(slot0, slot1)
 	slot0.data = slot1
 	slot0.mapId = slot1.mapId
 	slot0.unlocks = slot1.unlocks
@@ -26,8 +26,8 @@ function slot0.SetData(slot0, slot1)
 	slot0:SwitchMap(slot1.mapId)
 end
 
-function slot0.BuildMapIndexs(slot0)
-	function slot2(slot0)
+slot0.BuildMapIndexs = function(slot0)
+	slot2 = function(slot0)
 		for slot4, slot5 in ipairs(DecodeGameConst.MAPS_PASSWORD) do
 			if _.any(slot5, function (slot0)
 				return slot0[1] == uv0[1] and slot0[2] == uv0[2]
@@ -44,8 +44,8 @@ function slot0.BuildMapIndexs(slot0)
 	end
 end
 
-function slot0.InitMap(slot0, slot1)
-	function slot2(slot0, slot1, slot2)
+slot0.InitMap = function(slot0, slot1)
+	slot2 = function(slot0, slot1, slot2)
 		return {
 			isUsed = false,
 			index = slot2,
@@ -83,7 +83,7 @@ function slot0.InitMap(slot0, slot1)
 	}
 end
 
-function slot0.SwitchMap(slot0, slot1)
+slot0.SwitchMap = function(slot0, slot1)
 	slot0.map = slot0.maps[slot1]
 
 	for slot5, slot6 in ipairs(slot0.map.items) do
@@ -91,11 +91,11 @@ function slot0.SwitchMap(slot0, slot1)
 	end
 end
 
-function slot0.ExitMap(slot0)
+slot0.ExitMap = function(slot0)
 	slot0.map = nil
 end
 
-function slot0.UnlockMapItem(slot0, slot1)
+slot0.UnlockMapItem = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0.map.items) do
 		if slot7.index == slot1 then
 			slot7.isUnlock = true
@@ -111,21 +111,21 @@ function slot0.UnlockMapItem(slot0, slot1)
 	slot0.canUseCnt = slot0.canUseCnt - 1
 end
 
-function slot0.OnRepairMap(slot0)
+slot0.OnRepairMap = function(slot0)
 	slot0.map.isUnlock = true
 end
 
-function slot0.IsUnlock(slot0, slot1)
+slot0.IsUnlock = function(slot0, slot1)
 	return _.any(slot0.map.items, function (slot0)
 		return slot0.index == uv0 and slot0.isUnlock
 	end)
 end
 
-function slot0.GetUnlockedCnt(slot0)
+slot0.GetUnlockedCnt = function(slot0)
 	return #slot0.unlocks
 end
 
-function slot0.IsUnlockMap(slot0, slot1)
+slot0.IsUnlockMap = function(slot0, slot1)
 	slot2 = DecodeGameConst.MAP_ROW * DecodeGameConst.MAP_COLUMN
 	slot3 = (slot1 - 1) * slot2 + 1
 
@@ -134,7 +134,7 @@ function slot0.IsUnlockMap(slot0, slot1)
 	end)
 end
 
-function slot0.GetUnlockMapCnt(slot0)
+slot0.GetUnlockMapCnt = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0.maps) do
@@ -146,7 +146,7 @@ function slot0.GetUnlockMapCnt(slot0)
 	return slot1
 end
 
-function slot0.CheckIndex(slot0, slot1)
+slot0.CheckIndex = function(slot0, slot1)
 	slot2 = #DecodeGameConst.MAPS_PASSWORD[1]
 	slot3 = slot0:GetCurrMapKeyIndex(slot1)
 	slot4 = (math.ceil(slot3 / slot2) - 1) * slot2 + 1
@@ -163,25 +163,25 @@ function slot0.CheckIndex(slot0, slot1)
 	return false
 end
 
-function slot0.IsUsedMapKey(slot0, slot1)
+slot0.IsUsedMapKey = function(slot0, slot1)
 	return table.contains(slot0.mapIndexs, slot1)
 end
 
-function slot0.IsMapKey(slot0, slot1)
+slot0.IsMapKey = function(slot0, slot1)
 	return _.any(slot0.map.passwordIndexs, function (slot0)
 		return slot0 == uv0
 	end)
 end
 
-function slot0.InsertMapKey(slot0, slot1)
+slot0.InsertMapKey = function(slot0, slot1)
 	slot0.mapIndexs[slot0:GetCurrMapKeyIndex(slot1)] = slot1
 end
 
-function slot0.GetMapKeyStr(slot0, slot1)
+slot0.GetMapKeyStr = function(slot0, slot1)
 	return DecodeGameConst.PASSWORDS[slot1 - (slot0.map.id - 1) * DecodeGameConst.MAP_ROW * DecodeGameConst.MAP_COLUMN]
 end
 
-function slot0.ClearMapKeys(slot0)
+slot0.ClearMapKeys = function(slot0)
 	if slot0.isFinished then
 		return
 	end
@@ -191,7 +191,7 @@ function slot0.ClearMapKeys(slot0)
 	end)
 end
 
-function slot0.GetCurrMapKeyIndex(slot0, slot1)
+slot0.GetCurrMapKeyIndex = function(slot0, slot1)
 	slot3, slot4 = DecodeGameConst.Index2Vect(slot1 % (DecodeGameConst.MAP_ROW * DecodeGameConst.MAP_COLUMN))
 	slot5 = nil
 
@@ -208,13 +208,13 @@ function slot0.GetCurrMapKeyIndex(slot0, slot1)
 	return slot5
 end
 
-function slot0.IsSuccess(slot0)
+slot0.IsSuccess = function(slot0)
 	return _.all(slot0.mapIndexs, function (slot0)
 		return slot0 ~= false
 	end)
 end
 
-function slot0.GetMapKeyStrs(slot0)
+slot0.GetMapKeyStrs = function(slot0)
 	return _.map(slot0.mapIndexs, function (slot0)
 		if slot0 == false then
 			return false
@@ -224,7 +224,7 @@ function slot0.GetMapKeyStrs(slot0)
 	end)
 end
 
-function slot0.GetPassWordProgress(slot0)
+slot0.GetPassWordProgress = function(slot0)
 	slot1 = 1
 	slot2 = {}
 	slot3 = 0
@@ -242,15 +242,15 @@ function slot0.GetPassWordProgress(slot0)
 	return slot2, slot3
 end
 
-function slot0.Finish(slot0)
+slot0.Finish = function(slot0)
 	slot0.isFinished = true
 end
 
-function slot0.CanUnlockAward(slot0)
+slot0.CanUnlockAward = function(slot0)
 	return not slot0.isFinished and DecodeGameConst.MAX_MAP_COUNT * DecodeGameConst.MAP_ROW * DecodeGameConst.MAP_COLUMN <= slot0:GetUnlockedCnt()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 end
 
 return slot0

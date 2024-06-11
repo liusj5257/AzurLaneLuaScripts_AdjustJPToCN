@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LAISHAGUANQIA26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LAISHAGUANQIA26",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_ryza_2",
+			bgm = "ryza-az-pv",
 			stopbgm = true,
 			say = "過去的片段————",
-			bgm = "ryza-az-pv",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "淨化親",
 			say = "既然是核心區，機關是少不了的囉，還要準備一個超級強的守護者才行！",
 			painting = {
@@ -74,10 +74,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "最後還是徹底變成了一座危險的遺跡啊……",
 			painting = {
 				alpha = 0.3,
@@ -91,9 +91,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_ryza_2",
 			actor = 900233,
 			actorName = "淨化親",
 			say = "沒有危險，不就體會不到克服危險、戰勝困難的喜悅了嗎~",
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "淨化親",
 			say = "這樣她們就能用新的力量享受在遺跡中戰鬥與探索的快樂了。",
 			painting = {
@@ -191,10 +191,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "唔，不過這種“艦裝”，妾身覺得是不是和鍊金術能做出來的器具差得太遠了？",
 			painting = {
 				alpha = 0.3,
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "淨化親",
 			say = "在鍊金術中沒有做不到的事！",
 			painting = {
@@ -226,10 +226,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "嗯？汝已經了解什麼是鍊金術了嗎？",
 			painting = {
 				alpha = 0.3,
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "淨化親",
 			say = "只不過我會把這個設備偽裝成大鍋的樣子，讓誰都察覺不出來，嘿嘿嘿嘿……",
 			painting = {
@@ -294,11 +294,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "淨化親",
 			say = "——就當做總會存在於每一場冒險中的寶物好了。",
 			painting = {

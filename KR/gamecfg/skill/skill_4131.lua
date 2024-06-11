@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "冲突禁止",
 	cd = 0,
+	picture = "0",
+	desc = "冲突禁止",
 	painting = 1,
 	id = 4131,
-	picture = "0",
 	castCV = "skill",
-	desc = "冲突禁止",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerVanguardFleet",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerVanguardFleet",
 			arg_list = {
 				buff_id = 4130
 			}

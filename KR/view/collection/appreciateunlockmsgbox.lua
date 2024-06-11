@@ -1,10 +1,10 @@
 slot0 = class("AppreciateUnlockMsgBox", import("..base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AppreciateUnlockMsgBox"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.customMsgbox = slot0._tf
 	slot1 = slot0.customMsgbox
 	slot0.msgBoxItemPanel = slot1:Find("frame/bg/item_panel")
@@ -52,7 +52,7 @@ function slot0.OnInit(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.showCustomMsgBox(slot0, slot1)
+slot0.showCustomMsgBox = function(slot0, slot1)
 	slot0.isShowCustomMsgBox = true
 	slot0.settings = slot1
 
@@ -100,14 +100,14 @@ function slot0.showCustomMsgBox(slot0, slot1)
 	end
 end
 
-function slot0.hideCustomMsgBox(slot0)
+slot0.hideCustomMsgBox = function(slot0)
 	slot0.isShowCustomMsgBox = nil
 
 	SetActive(slot0.customMsgbox, false)
 	slot0:Destroy()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.customMsgbox, slot0._tf)
 end
 

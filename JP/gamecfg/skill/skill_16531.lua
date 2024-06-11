@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 1,
-	id = 16531,
 	picture = "0",
 	desc = "",
+	painting = 1,
+	id = 16531,
 	aniEffect = {
 		effect = "jineng",
 		offset = {

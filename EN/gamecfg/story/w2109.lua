@@ -1,15 +1,15 @@
 return {
-	id = "W2109",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2109",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "You lack the required energy supply. Guide Beacon cannot be activated.",
 			typewriter = {
 				speed = 0.05,

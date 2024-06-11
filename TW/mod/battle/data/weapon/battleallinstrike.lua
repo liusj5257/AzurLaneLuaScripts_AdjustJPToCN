@@ -17,7 +17,7 @@ slot6.STATE_PRECAST_FINISH = "STATE_PRECAST_FINISH"
 slot6.STATE_ATTACK = "ATTACK"
 slot6.STATE_OVER_HEAT = "OVER_HEAT"
 
-function slot6.Ctor(slot0, slot1)
+slot6.Ctor = function(slot0, slot1)
 	uv0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._skill = uv0.Battle.BattleSkillUnit.New(slot1)
@@ -27,11 +27,11 @@ function slot6.Ctor(slot0, slot1)
 	slot0._jammingTime = 0
 end
 
-function slot6.Update(slot0)
+slot6.Update = function(slot0)
 	slot0:UpdateReload()
 end
 
-function slot6.UpdateReload(slot0)
+slot6.UpdateReload = function(slot0)
 	if slot0._CDstartTime and not slot0._jammingStartTime then
 		if slot0:GetReloadFinishTimeStamp() <= pg.TimeMgr.GetInstance():GetCombatTime() then
 			slot0:handleCoolDown()
@@ -41,15 +41,15 @@ function slot6.UpdateReload(slot0)
 	end
 end
 
-function slot6.Clear(slot0)
+slot6.Clear = function(slot0)
 	slot0._skill:Clear()
 end
 
-function slot6.Dispose(slot0)
+slot6.Dispose = function(slot0)
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 end
 
-function slot6.SetHost(slot0, slot1)
+slot6.SetHost = function(slot0, slot1)
 	slot0._host = slot1
 	slot2 = nil
 	slot0._hiveList = slot1:GetHiveList()
@@ -78,11 +78,11 @@ function slot6.SetHost(slot0, slot1)
 	slot0:FlushReloadMax(1)
 end
 
-function slot6.FlushTotalReload(slot0)
+slot6.FlushTotalReload = function(slot0)
 	slot0._totalReload = uv0.CaclulateAirAssistReloadMax(slot0._hiveList)
 end
 
-function slot6.FlushReloadMax(slot0, slot1)
+slot6.FlushReloadMax = function(slot0, slot1)
 	slot0._reloadMax = slot0._totalReload * (slot1 or 1)
 
 	if not slot0._CDstartTime or slot0._reloadRequire == 0 then
@@ -94,38 +94,38 @@ function slot6.FlushReloadMax(slot0, slot1)
 	slot0._allInWeaponVo:RefreshReloadingBar()
 end
 
-function slot6.AppendReloadFactor(slot0, slot1, slot2)
+slot6.AppendReloadFactor = function(slot0, slot1, slot2)
 	slot0._reloadFacotrList[slot1] = slot2
 end
 
-function slot6.RemoveReloadFactor(slot0, slot1)
+slot6.RemoveReloadFactor = function(slot0, slot1)
 	if slot0._reloadFacotrList[slot1] then
 		slot0._reloadFacotrList[slot1] = nil
 	end
 end
 
-function slot6.GetReloadFactorList(slot0)
+slot6.GetReloadFactorList = function(slot0)
 	return slot0._reloadFacotrList
 end
 
-function slot6.SetAllInWeaponVO(slot0, slot1)
+slot6.SetAllInWeaponVO = function(slot0, slot1)
 	slot0._allInWeaponVo = slot1
 	slot0._currentState = uv0.STATE_READY
 end
 
-function slot6.GetCurrentState(slot0)
+slot6.GetCurrentState = function(slot0)
 	return slot0._currentState
 end
 
-function slot6.GetHost(slot0)
+slot6.GetHost = function(slot0)
 	return slot0._host
 end
 
-function slot6.GetType(slot0)
+slot6.GetType = function(slot0)
 	return uv0.EquipmentType.AIR_ASSIST
 end
 
-function slot6.Fire(slot0)
+slot6.Fire = function(slot0)
 	slot4 = {}
 
 	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_ALL_IN_STRIKE_STEADY, slot4)
@@ -141,11 +141,11 @@ function slot6.Fire(slot0)
 	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_ALL_IN_STRIKE, {})
 end
 
-function slot6.TriggerBuffOnReady(slot0)
+slot6.TriggerBuffOnReady = function(slot0)
 	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_AIR_ASSIST_READY, {})
 end
 
-function slot6.SingleFire(slot0)
+slot6.SingleFire = function(slot0)
 	for slot4, slot5 in ipairs(slot0._hiveList) do
 		slot5:SingleFire()
 	end
@@ -155,7 +155,7 @@ function slot6.SingleFire(slot0)
 	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_ALL_IN_STRIKE, {})
 end
 
-function slot6.GetReloadTime(slot0)
+slot6.GetReloadTime = function(slot0)
 	slot1 = uv0.GetCurrent(slot0._host, "loadSpeed")
 
 	if slot0._reloadMax ~= slot0._cacheReloadMax or slot1 ~= slot0._cacheHostReload then
@@ -167,46 +167,46 @@ function slot6.GetReloadTime(slot0)
 	return slot0._cacheReloadTime
 end
 
-function slot6.GetReloadTimeByRate(slot0, slot1)
+slot6.GetReloadTimeByRate = function(slot0, slot1)
 	return uv1.CalculateReloadTime(slot0._cacheReloadMax * slot1, uv0.GetCurrent(slot0._host, "loadSpeed"))
 end
 
-function slot6.SetModifyInitialCD(slot0)
+slot6.SetModifyInitialCD = function(slot0)
 	slot0._modInitCD = true
 end
 
-function slot6.GetModifyInitialCD(slot0)
+slot6.GetModifyInitialCD = function(slot0)
 	return slot0._modInitCD
 end
 
-function slot6.InitialCD(slot0)
+slot6.InitialCD = function(slot0)
 	slot0:AddCDTimer(slot0:GetReloadTime())
-	slot0._allInWeaponVo:Deduct(slot0)
+	slot0._allInWeaponVo:InitialDeduct(slot0)
 	slot0._allInWeaponVo:Charge(slot0)
 end
 
-function slot6.EnterCoolDown(slot0)
+slot6.EnterCoolDown = function(slot0)
 	slot0:AddCDTimer(slot0:GetReloadTime())
 	slot0._allInWeaponVo:Charge(slot0)
 end
 
-function slot6.OverHeat(slot0)
+slot6.OverHeat = function(slot0)
 	slot0._currentState = slot0.STATE_OVER_HEAT
 
 	slot0._allInWeaponVo:Deduct(slot0)
 end
 
-function slot6.AddCDTimer(slot0, slot1)
+slot6.AddCDTimer = function(slot0, slot1)
 	slot0._currentState = uv0.STATE_OVER_HEAT
 	slot0._CDstartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 	slot0._reloadRequire = slot1
 end
 
-function slot6.GetCDStartTimeStamp(slot0)
+slot6.GetCDStartTimeStamp = function(slot0)
 	return slot0._CDstartTime
 end
 
-function slot6.handleCoolDown(slot0)
+slot6.handleCoolDown = function(slot0)
 	slot0._currentState = uv0.STATE_READY
 
 	slot0._allInWeaponVo:Plus(slot0)
@@ -218,7 +218,7 @@ function slot6.handleCoolDown(slot0)
 	slot0._reloadBoostList = {}
 end
 
-function slot6.FlushReloadRequire(slot0)
+slot6.FlushReloadRequire = function(slot0)
 	if not slot0._CDstartTime or slot0._reloadRequire == 0 then
 		return true
 	end
@@ -228,7 +228,7 @@ function slot6.FlushReloadRequire(slot0)
 	slot0._allInWeaponVo:RefreshReloadingBar()
 end
 
-function slot6.QuickCoolDown(slot0)
+slot6.QuickCoolDown = function(slot0)
 	if slot0._currentState == slot0.STATE_OVER_HEAT then
 		slot0._currentState = uv0.STATE_READY
 
@@ -240,7 +240,7 @@ function slot6.QuickCoolDown(slot0)
 	end
 end
 
-function slot6.ReloadBoost(slot0, slot1)
+slot6.ReloadBoost = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0._reloadBoostList) do
@@ -254,13 +254,13 @@ function slot6.ReloadBoost(slot0, slot1)
 	table.insert(slot0._reloadBoostList, fixValue)
 end
 
-function slot6.AppendReloadBoost(slot0, slot1)
+slot6.AppendReloadBoost = function(slot0, slot1)
 	if slot0._currentState == slot0.STATE_OVER_HEAT then
 		slot0._allInWeaponVo:ReloadBoost(slot0, slot1)
 	end
 end
 
-function slot6.GetReloadFinishTimeStamp(slot0)
+slot6.GetReloadFinishTimeStamp = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in ipairs(slot0._reloadBoostList) do
@@ -270,11 +270,11 @@ function slot6.GetReloadFinishTimeStamp(slot0)
 	return slot0._reloadRequire + slot0._CDstartTime + slot0._jammingTime + slot1
 end
 
-function slot6.StartJamming(slot0)
+slot6.StartJamming = function(slot0)
 	slot0._jammingStartTime = pg.TimeMgr.GetInstance():GetCombatTime()
 end
 
-function slot6.JammingEliminate(slot0)
+slot6.JammingEliminate = function(slot0)
 	if not slot0._jammingStartTime then
 		return
 	end
@@ -283,18 +283,18 @@ function slot6.JammingEliminate(slot0)
 	slot0._jammingStartTime = nil
 end
 
-function slot6.CLSBullet(slot0)
+slot6.CLSBullet = function(slot0)
 	uv0.Battle.BattleDataProxy.GetInstance():CLSBullet(slot0._host:GetIFF() * -1, true)
 end
 
-function slot6.DispatchBlink(slot0, slot1)
+slot6.DispatchBlink = function(slot0, slot1)
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleUnitEvent.CHARGE_WEAPON_FINISH, {
 		callbackFunc = slot1,
 		timeScale = uv0.Battle.BattleConfig.FOCUS_MAP_RATE
 	}))
 end
 
-function slot6.GetReloadRate(slot0)
+slot6.GetReloadRate = function(slot0)
 	if slot0._currentState == slot0.STATE_READY then
 		return 0
 	elseif slot0._CDstartTime then
@@ -304,7 +304,7 @@ function slot6.GetReloadRate(slot0)
 	end
 end
 
-function slot6.GetDamageSUM(slot0)
+slot6.GetDamageSUM = function(slot0)
 	slot1 = 0
 	slot2 = 0
 
@@ -325,6 +325,6 @@ function slot6.GetDamageSUM(slot0)
 	return slot1, slot2
 end
 
-function slot6.GetStrikeSkillID(slot0)
+slot6.GetStrikeSkillID = function(slot0)
 	return slot0._skillID
 end

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DINGXIANGZHEDIE35",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DINGXIANGZHEDIE35",
 	scripts = {
 		{
-			side = 2,
-			stopbgm = true,
-			bgName = "bg_story_4",
-			bgm = "Beverly_short_inst",
-			bgmDelay = 2,
 			say = "\"I had a long dream.\"",
+			stopbgm = true,
+			side = 2,
+			bgName = "bg_story_4",
+			bgmDelay = 2,
+			bgm = "Beverly_short_inst",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,8 +35,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,8 +69,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -86,8 +86,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -103,8 +103,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -120,8 +120,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -130,15 +130,15 @@ return {
 		},
 		{
 			expression = 3,
-			side = 2,
-			dialogueBgAlpha = 0,
-			oldPhoto = true,
 			dir = 1,
 			blackBg = true,
+			side = 2,
+			oldPhoto = true,
+			say = " ",
+			dialogueBgAlpha = 0,
 			hidePaintEquip = true,
 			actor = 107060,
 			actorName = " ",
-			say = " ",
 			pos = {
 				x = 300,
 				y = -80
@@ -192,8 +192,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -218,8 +218,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -235,8 +235,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,8 +252,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -269,8 +269,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_16",
+			side = 2,
 			say = "\"There was nothing I could do for her.\"",
 			typewriter = {
 				speed = 0.05,
@@ -287,8 +287,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_16",
+			side = 2,
 			say = "\"How did it end up this way?\"",
 			typewriter = {
 				speed = 0.05,
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_16",
+			side = 2,
 			say = "\"...............\"",
 			typewriter = {
 				speed = 0.05,
@@ -313,8 +313,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -322,29 +322,29 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_story_task",
+			soundeffect = "event:/ui/footsteps",
 			bgm = "Beverly_short_eng",
 			nameColor = "#A9F548FF",
 			say = "*tap tap tap*",
-			soundeffect = "event:/ui/footsteps",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -352,14 +352,14 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "...............",
 			soundeffect = "event:/ui/footsteps",
+			actor = 107060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "...............",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,8 +375,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -1000
@@ -386,11 +386,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_zhedie_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_zhedie_14",
 			actor = 107060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "York—",
 			painting = {
 				alpha = 0.3,
@@ -401,17 +401,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -422,10 +422,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_14",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = ".........?",
 			painting = {
 				alpha = 0.3,
@@ -439,8 +439,8 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
+			bgName = "bg_story_task",
 			soundeffect = "event:/ui/footsteps",
 			actor = 107060,
 			nameColor = "#A9F548FF",
@@ -455,17 +455,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -478,8 +478,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -1000
@@ -489,11 +489,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_starsea_core_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_starsea_core_2",
 			actor = 107060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...............",
 			painting = {
 				alpha = 0.3,
@@ -504,17 +504,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
 				black = true,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_zhedie_15",
 			mode = 1,
+			bgName = "bg_zhedie_15",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			actorName = "Enterprise",
 			nameColor = "#A9F548FF",
+			actorName = "Enterprise",
 			bgName = "bg_zhedie_15",
 			side = 2,
 			say = ".........!",
@@ -557,8 +557,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Yorktown II",
+			side = 2,
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
 			say = "How interesting. The simulated sunshine and wind in the Sea of Stars weren't all that different from the real deal.",
@@ -568,8 +568,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Yorktown II",
+			side = 2,
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
 			say = "But, maybe that's just because I forgot how they really felt.",
@@ -579,8 +579,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Yorktown II",
+			side = 2,
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
 			say = "I've slept for far, far too long. Long enough to miss so, so many things...",
@@ -590,8 +590,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Yorktown II",
+			side = 2,
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
 			say = "Long enough to make you carry the weight of the world by yourself for all this time...",
@@ -601,8 +601,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Enterprise",
+			side = 2,
 			bgName = "bg_zhedie_15",
 			nameColor = "#A9F548FF",
 			say = "Yorktown...",
@@ -612,8 +612,8 @@ return {
 			}
 		},
 		{
-			bgName = "bg_zhedie_17",
 			mode = 1,
+			bgName = "bg_zhedie_17",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -631,8 +631,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Yorktown II",
+			side = 2,
 			bgName = "bg_zhedie_17",
 			nameColor = "#A9F548FF",
 			say = "Enterprise, I'm back.",
@@ -642,8 +642,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Enterprise",
+			side = 2,
 			bgName = "bg_zhedie_17",
 			nameColor = "#A9F548FF",
 			say = "I...",
@@ -656,10 +656,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Enty! Did you come all the way from the front lines?!",
 			painting = {
 				alpha = 0.3,
@@ -671,8 +671,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -684,10 +684,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Look! Check out my new rigging!",
 			painting = {
 				alpha = 0.3,
@@ -702,10 +702,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It looks like you're the dense one this time, Hornet...",
 			painting = {
 				alpha = 0.3,
@@ -720,10 +720,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 103260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Even I know this isn't the right time to be barging in.",
 			painting = {
 				alpha = 0.3,
@@ -738,10 +738,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Huh?",
 			painting = {
 				alpha = 0.3,
@@ -756,10 +756,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah, not the best look.",
 			painting = {
 				alpha = 0.3,
@@ -774,10 +774,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 101500,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You're such a blockhead, Hornet!",
 			painting = {
 				alpha = 0.3,
@@ -792,10 +792,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Wha?! What'd I do?",
 			painting = {
 				alpha = 0.3,
@@ -810,10 +810,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now, now. It's okay.",
 			painting = {
 				alpha = 0.3,
@@ -825,12 +825,12 @@ return {
 			}
 		},
 		{
-			actor = 107100,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yorktown, the Fighting Lady, has returned to you once more.",
 			painting = {
 				alpha = 0.3,
@@ -845,10 +845,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Bathed in the resplendent dawn of happiness born from the darkest night...",
 			painting = {
 				alpha = 0.3,
@@ -863,10 +863,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I am here to fight alongside you, my friends.",
 			painting = {
 				alpha = 0.3,

@@ -1,12 +1,12 @@
 return {
-	id = "W700031",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700031",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Hard difficulty has been unlocked. Use the devices around the map to commence an Arbiter Battle on Hard difficulty.",
 			typewriter = {
 				speed = 0.05,

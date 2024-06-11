@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEACHER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TEACHER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"Class Z III\n\n<size=45>Who's There?</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "I wasn't able to make Long Island leave her room... *Sigh*...",
 			bgm = "story-1",
+			actor = 401230,
+			nameColor = "#a9f548",
+			say = "I wasn't able to make Long Island leave her room... *Sigh*...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "Heyaaa! I'm right here~!",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Heyaaa! I'm right here~!",
+			actor = 102080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -225,12 +225,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "Aha, ahaha... I'm seeing so many big, pretty stars... One, two... Where am I? Who am I?",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Aha, ahaha... I'm seeing so many big, pretty stars... One, two... Where am I? Who am I?",
+			actor = 102080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0

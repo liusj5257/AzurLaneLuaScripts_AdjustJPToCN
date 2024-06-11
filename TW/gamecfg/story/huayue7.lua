@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUAYUE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUAYUE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"花之語\n\n<size=45>七 珍惜眼前的幸福</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-china",
 			bgName = "star_level_bg_115",
 			say = "新春宴會上，花月的花束得到了夥伴們的一致好評——",
-			bgm = "story-china",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,14 +45,14 @@ return {
 			}
 		},
 		{
-			actor = 301571,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "好漂亮的顏色~！謝謝花月……",
 			hidePaintEquip = true,
+			actor = 301571,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "好漂亮的顏色~！謝謝花月……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,14 +82,14 @@ return {
 			}
 		},
 		{
-			actor = 301822,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "謝謝兩位的誇獎~♫畢竟，這是在指揮官的指導之下做出來的嘛……",
 			hidePaintEquip = true,
+			actor = 301822,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "謝謝兩位的誇獎~♫畢竟，這是在指揮官的指導之下做出來的嘛……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,8 +138,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "絢爛的彩色在天空中怒放，而後化成點點星光融入漆黑的夜空之中。",
 			typewriter = {
@@ -147,17 +147,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "雖然聞上去只有火藥的氣味————",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			optionFlag = 1,
 			say = "在煙花的映照之下，緋紅爬上了她的面龐——",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			optionFlag = 1,
 			say = "答案當然是肯定的。",
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			optionFlag = 2,
 			say = "花月愣了一小會，而後緋紅爬上了她的面龐——",
@@ -459,8 +459,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -533,8 +533,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "在盛開的煙花之下，花月把一支木棉花遞到了我的手中。",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "臉上不禁露出了微笑，因為我記得它的意思——",
 			typewriter = {
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "————珍惜眼前的幸福。",
 			typewriter = {

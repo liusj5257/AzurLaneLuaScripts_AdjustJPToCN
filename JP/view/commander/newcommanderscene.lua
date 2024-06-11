@@ -1,10 +1,10 @@
 slot0 = class("NewCommanderScene", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GetCommanderUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.bgTF = slot0:findTF("main/bg")
 	slot0.clickTF = slot0:findTF("click")
 	slot0.paintTF = slot0:findTF("main/paint")
@@ -42,8 +42,8 @@ function slot0.init(slot0)
 	setText(slot0:findTF("main/info/content/copyright/title"), i18n("commander_get_commander_coptyright"))
 end
 
-function slot0.openTreePanel(slot0, slot1)
-	function slot2()
+slot0.openTreePanel = function(slot0, slot1)
+	slot2 = function()
 		uv0.treePanel:ActionInvoke("Show", uv1, LayerWeightConst.SECOND_LAYER + 2)
 	end
 
@@ -55,11 +55,11 @@ function slot0.openTreePanel(slot0, slot1)
 	end
 end
 
-function slot0.closeTreePanel(slot0)
+slot0.closeTreePanel = function(slot0)
 	slot0.treePanel:ActionInvoke("closeTreePanel")
 end
 
-function slot0.onUIAnimEnd(slot0, slot1)
+slot0.onUIAnimEnd = function(slot0, slot1)
 	slot2 = slot0.antor
 
 	slot2:SetBool("play", true)
@@ -87,7 +87,7 @@ function slot0.onUIAnimEnd(slot0, slot1)
 	end)
 end
 
-function slot0.playerEffect(slot0)
+slot0.playerEffect = function(slot0)
 	slot1 = PoolMgr.GetInstance()
 
 	slot1:GetUI("AL_zhihuimiao_zhipian", true, function (slot0)
@@ -98,10 +98,10 @@ function slot0.playerEffect(slot0)
 	end)
 end
 
-function slot0.openMsgBox(slot0, slot1)
+slot0.openMsgBox = function(slot0, slot1)
 	slot0.isShowMsgBox = true
 
-	function slot2()
+	slot2 = function()
 		uv0.msgbox:ActionInvoke("Show", uv1)
 	end
 
@@ -113,13 +113,13 @@ function slot0.openMsgBox(slot0, slot1)
 	end
 end
 
-function slot0.closeMsgBox(slot0)
+slot0.closeMsgBox = function(slot0)
 	slot0.isShowMsgBox = nil
 
 	slot0.msgbox:ActionInvoke("Hide")
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updateInfo()
 	onButton(slot0, slot0.shareBtn, function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeCommander, pg.ShareMgr.PANEL_TYPE_PINK, {
@@ -156,7 +156,7 @@ function slot0.didEnter(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.DoExit(slot0)
+slot0.DoExit = function(slot0)
 	if slot0.contextData.commander:ShouldTipLock() then
 		slot0:openMsgBox({
 			content = i18n("commander_lock_tip"),
@@ -174,12 +174,12 @@ function slot0.DoExit(slot0)
 	end
 end
 
-function slot0.updateLockState(slot0)
+slot0.updateLockState = function(slot0)
 	setActive(slot0.lockBtn, getProxy(CommanderProxy):getCommanderById(slot0.contextData.commander.id):getLock() ~= 0)
 	setActive(slot0.unlockBtn, slot2 == 0)
 end
 
-function slot0.updateInfo(slot0, slot1)
+slot0.updateInfo = function(slot0, slot1)
 	slot2 = slot0.contextData.commander
 
 	slot0:updateLockState(slot2:getLock())
@@ -202,7 +202,7 @@ function slot0.updateInfo(slot0, slot1)
 	end
 end
 
-function slot0.updateAbilitys(slot0)
+slot0.updateAbilitys = function(slot0)
 	slot1 = slot0.contextData.commander
 	slot2 = slot1:getAbilitys()
 
@@ -215,7 +215,7 @@ function slot0.updateAbilitys(slot0)
 	end)
 end
 
-function slot0.updateTalents(slot0)
+slot0.updateTalents = function(slot0)
 	slot2 = slot0.contextData.commander:getTalents()
 
 	slot0.talentsList:make(function (slot0, slot1, slot2)
@@ -237,7 +237,7 @@ function slot0.updateTalents(slot0)
 	slot0.talentsList:align(3)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.isShowMsgBox then
 		slot0:closeMsgBox()
 
@@ -245,7 +245,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 	slot0.treePanel:Destroy()
 	slot0.msgbox:Destroy()

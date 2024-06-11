@@ -7,24 +7,24 @@ return {
 	id = "S012",
 	events = {
 		{
-			alpha = 0,
 			waitScene = "AwardInfoLayer",
+			alpha = 0,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = -341,
 				posX = 431,
 				text = slot0[1]
 			},
 			spriteui = {
 				defaultName = "white_dot",
-				path = "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/items_scroll/content",
+				pathIndex = "#",
 				childPath = "bg/icon_bg/icon",
-				pathIndex = "#"
+				path = "/OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/items_scroll/content"
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)",
 				triggerType = {
 					1
 				},
@@ -37,15 +37,15 @@ return {
 		{
 			alpha = 0.367,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 223.26,
 				posX = -136.21,
 				text = slot0[2]
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/TaskScene(Clone)/blur_panel/adapt/top/back_btn",
 				pathIndex = -1,
+				path = "UICamera/Canvas/UIMain/TaskScene(Clone)/blur_panel/adapt/top/back_btn",
 				triggerType = {
 					1
 				},

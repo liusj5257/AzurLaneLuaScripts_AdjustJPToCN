@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQITOUPIAOXINPIANZHANG9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQITOUPIAOXINPIANZHANG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 101170,
-			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……特別投票のステージが光った",
 			bgm = "votefes-start",
+			actor = 101170,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……特別投票のステージが光った",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -24,17 +24,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あれはまさか…？！",
 			painting = {
 				alpha = 0.3,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…ピュリファイアー、です…！",
 			painting = {
 				alpha = 0.3,
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -99,10 +99,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_527",
 			hidePaintObj = true,
+			side = 2,
 			say = "綾波はすぐさま艤装刀でピュリファイアーに斬りかかっていった――",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "renqitoupiao_daoguang",
-					center = true
+					active = true
 				}
 			},
 			dialogShake = {
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_527",
 			hidePaintObj = true,
 			say = "なんと、ピュリファイアーがバタンと倒れてしまった！",
@@ -133,12 +133,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "う、うわわ…！あれ…？",
 			painting = {
 				alpha = 0.3,
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -160,12 +160,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "本物のセイレーンじゃないのね…これは…パネル？",
 			painting = {
 				alpha = 0.3,
@@ -177,12 +177,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "パンフレットに書かれてる「余興」とはそういう…なるほど、セイレーンの投票も…",
 			painting = {
 				alpha = 0.3,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "つまり一番気になるセイレーンを選び出して「注意喚起」です…？",
 			painting = {
 				alpha = 0.3,
@@ -211,12 +211,12 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101170,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ラフィー、ピュリファイアーに一票…",
 			painting = {
 				alpha = 0.3,
@@ -228,12 +228,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ならジャベリンも…あれ？こんなに簡単に決めて良いんでしたっけ？",
 			painting = {
 				alpha = 0.3,
@@ -245,12 +245,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 201210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ってこの先にもセイレーンのパネルがいっぱいある！",
 			painting = {
 				alpha = 0.3,
@@ -262,12 +262,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "投票対象に誰がいるかチェックするです",
 			painting = {
 				alpha = 0.3,
@@ -279,12 +279,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_527",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "先にピュリファイアーのパネルをもとに戻してくださいよー！",
 			painting = {
 				alpha = 0.3,

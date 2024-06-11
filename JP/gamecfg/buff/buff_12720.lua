@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "谢菲尔德1",
 	init_effect = "",
+	id = 12720,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12720,
+	color = "red",
 	icon = 12720,
 	last_effect = "",
 	effect_list = {
@@ -40,8 +40,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 12720,
+				target = "TargetSelf",
 				countType = 12720
 			}
 		}

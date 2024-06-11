@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDAN01",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENGDAN01",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -31,14 +31,14 @@ return {
 			}
 		},
 		{
-			actor = 101050,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101050,
+			nameColor = "#a9f548",
 			say = "Wah! ...Oh, it's just you, Commander. Don't just approach people out of the blue when they're thinking about stuff!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -127,14 +127,14 @@ return {
 			}
 		},
 		{
-			actor = 101051,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101051,
+			nameColor = "#a9f548",
 			say = "Tadaaah! Christmas Photography Mode Gridley, ready to go!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

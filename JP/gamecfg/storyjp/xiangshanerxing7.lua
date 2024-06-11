@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_red_n",
+			bgm = "bsm-4",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "大洋・鉄血浮島要塞",
-			bgm = "bsm-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -143,10 +143,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "こっちも「南極」に関する妙な情報を掴んだ",
 			painting = {
 				alpha = 0.3,
@@ -161,10 +161,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "審判廷から北方連合とユニオン…上層部が南極で何かしようとしていると連絡があった",
 			painting = {
 				alpha = 0.3,
@@ -210,10 +210,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "近くにいた仲間に緊急で調べさせたところ、南極にある山脈の氷層に異常な融解現象が発生して",
 			painting = {
 				alpha = 0.3,
@@ -228,10 +228,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――中から「奇妙な鉱物」が発見されたらしい",
 			painting = {
 				alpha = 0.3,
@@ -246,10 +246,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "仲間たちが回収したサンプルを解析したところ、どうやらその鉱物は私たちの艤装と共鳴するらしい",
 			painting = {
 				alpha = 0.3,
@@ -264,10 +264,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それによって艤装の出力、戦闘能力を著しく上昇させられるようだ",
 			painting = {
 				alpha = 0.3,
@@ -403,10 +403,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "艦隊を編成し、すぐ現地の研究拠点に向かってほしい",
 			painting = {
 				alpha = 0.3,
@@ -421,10 +421,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "現地の状況に応じて……臨機応変に頼む",
 			painting = {
 				alpha = 0.3,

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "公海舰队活动剧情战 赤城支援弹幕",
 	time = 0,
+	name = "公海舰队活动剧情战 赤城支援弹幕",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"平穏を讃えて\n\n<size=45>二　完璧と平穏</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "（トントン）",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "（トントン）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ニューカッスルと仕事をこなしていると、執務室の扉が叩かれた。",
 			typewriter = {
 				speed = 0.05,
@@ -88,12 +88,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
+			say = "例の倉庫の話？",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "例の倉庫の話？",
+			actor = 202190,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -156,9 +156,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "二、三回だけ短い言葉を交わして、シェフィールドは軽く一礼して執務室から出ていった。",
 			typewriter = {
 				speed = 0.05,
@@ -252,9 +252,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確かに、他人にはともかく、ベルファストは完璧な仕事を自分に求めてしまうタイプだ",
 			typewriter = {
 				speed = 0.05,
@@ -262,9 +262,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "だけど、完璧さを求めないほうが、物事をよりスムーズに進められるケースもあるだろう",
 			typewriter = {
 				speed = 0.05,
@@ -288,12 +288,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "私は「完璧」ではなく、「平穏」のほうが満足する性格だからでしょうか",
 			typewriter = {
 				speed = 0.05,

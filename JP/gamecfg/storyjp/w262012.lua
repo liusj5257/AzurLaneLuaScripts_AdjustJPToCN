@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "感受到了破局者的气息，应该就在附近了！",
 			typewriter = {
 				speed = 0.05,

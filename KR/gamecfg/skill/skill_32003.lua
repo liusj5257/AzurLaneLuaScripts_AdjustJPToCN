@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "侧面装甲",
 	cd = 0,
-	painting = 1,
-	id = 32003,
 	picture = "0",
 	desc = "帝国之盾",
+	painting = 1,
+	id = 32003,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,10 +16,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 320031
 			}

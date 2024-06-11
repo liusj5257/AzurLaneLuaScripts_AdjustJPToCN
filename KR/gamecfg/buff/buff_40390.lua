@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "海之勇者-大世界LV3",
 	time = 0,
-	color = "yellow",
+	name = "海之勇者-大世界LV3",
+	init_effect = "",
+	id = 40390,
 	picture = "",
 	desc = "5点氧气",
 	stack = 1,
-	id = 40390,
+	color = "yellow",
 	icon = 40390,
 	last_effect = "",
 	effect_list = {

@@ -2,9 +2,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "2023云仙活动 无形侵蚀",
 	time = 0,
+	name = "2023云仙活动 无形侵蚀",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -28,9 +28,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				time = 20,
-				skill_id = 200584,
-				target = "TargetSelf"
+				skill_id = 200584
 			}
 		}
 	}

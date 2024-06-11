@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIGUANQIA22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIGUANQIA22",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "港区·广场前",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			say = "港区·广场前",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 10400010,
 			stopbgm = true,
 			say = "诶？真的吗～！？",
 			typewriter = {
@@ -161,14 +161,14 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			say = "………",
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			actor = 101170,
 			dir = 1,
+			nameColor = "#a9f548",
 			hideOther = true,
 			actorName = "全员",
-			say = "………",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -206,11 +206,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			bgm = "story-1",
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "诶嘿嘿，平安回来了～！",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,14 +221,14 @@ return {
 			}
 		},
 		{
-			actor = 101170,
+			say = "诶～～～～～～～～！？",
 			side = 2,
 			bgName = "bg_story_school",
 			actorName = "全员",
 			dir = 1,
+			actor = 101170,
 			hideOther = true,
 			nameColor = "#a9f548",
-			say = "诶～～～～～～～～！？",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -268,15 +268,15 @@ return {
 			}
 		},
 		{
-			actor = 10400010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10400010,
+			nameColor = "#a9f548",
 			say = "说到底我本来就是AI，是虚拟的存在，所以就算被虚拟空间吞没也不会有什么问题的，大概是这种感觉？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -320,8 +320,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "(嘛，就算说了实情大概她们也无法理解，就当作是这样吧）",
 			typewriter = {
@@ -353,8 +353,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "标枪酱，让妳担心了，对不起啊",
 			typewriter = {
@@ -399,12 +399,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "虽然还没彻底解决…不过太好了，的说",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>Don't you think snow is such a strange thing?</size>",
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -74,14 +74,14 @@ return {
 			}
 		},
 		{
-			actor = 900220,
 			side = 2,
-			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "Has the battle finally begun...?",
+			black = true,
 			bgm = "bgm-cccp2",
+			actor = 900220,
+			nameColor = "#a9f548",
+			say = "Has the battle finally begun...?",
 			effects = {
 				{
 					active = false,
@@ -89,8 +89,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -118,8 +118,8 @@ return {
 			actor = 900221,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Ahahaha! I can't contain my excitement any longer!",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			actor = 900222,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "In any case... Well, I hope that commander can make things worth our while.",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			actor = 900223,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Hehe~ I'm looking forward to meeting that person~",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			actor = 900224,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "My lovely кролик is excited too.",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			actor = 900225,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Hehe, it's great to see everyone in high spirits, but first, you all have some work to first take care of in the North.",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			actor = 900225,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Until then, let us handle the hospitality! Isn't that right, Avrora?",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			actor = 702010,
 			side = 2,
 			black = true,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Haha, you're in a pretty good mood too, Pamiat.",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			expression = 3,
 			black = true,
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "Of course I am! I'm all fired up too! Anyway, let's get going~!",
 			typewriter = {

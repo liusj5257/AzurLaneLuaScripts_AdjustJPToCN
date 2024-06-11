@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA14",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA14",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 10500040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "holo-control-inst",
 			dir = 1,
 			say = "そこの白い建物は「ホロマート」。まつりたちは色んな道具を倉庫に置いてあるから、物資集めに最適な場所だよ",
+			bgm = "holo-control-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,9 +40,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "色々あって自己紹介が遅れました！",
 			flashout = {
 				dur = 0.5,
@@ -92,9 +92,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "メイドだけど、家事は苦手。でもゲームなら得意！！！！！！",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,8 +134,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "この別世界の「ホロサーバー」は、元々のアジトにもあった食料や水と薬品などのアイテムだけでなく、この艤装で使える弾薬も何故か普通に置いてある！",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "それと、この世界にも「TNTブロック」――ちょっと元の世界のTNTとは違うけど、あれ並に爆発するものがめっちゃある！",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "将来使うかもしれないからって、それが事前にあたしがサーバーのあちこちに隠しておいたものかどうかは知らないけど……",
 			typewriter = {
 				speed = 0.05,
@@ -196,9 +196,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "「TNTブロック」はホロサーバーでは一番強いアイテムだから、たくさん集めた方がいいよ～！！！",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 		{
 			actor = 301490,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "フブキの説明が正しければ、ホロライブは「ばーちゃるゆーちゅーばー」なるタレントを管理する芸能事務所のはず",
 			flashout = {
 				dur = 0.5,
@@ -274,8 +274,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "げ、芸能事務所ね……",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "「TNTブロック」はとりあえずここではよく使われるアイテムと思っていればOKだよ！ここの建物を作るにはそれが欠かせないしね",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "問題ないよ〜。夏色まつり、全速出航！",
 			typewriter = {
 				speed = 0.05,

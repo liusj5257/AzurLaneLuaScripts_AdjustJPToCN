@@ -9,10 +9,10 @@ slot0.Fields = {
 	cmdSkills = "table",
 	rtFleetBuffs = "userdata",
 	rtCmdSkills = "userdata",
-	entrance = "table",
-	fleet = "table",
-	rtPoisonRate = "userdata",
 	rtMapName = "userdata",
+	entrance = "table",
+	rtPoisonRate = "userdata",
+	fleet = "table",
 	cmdSkillFunc = "function",
 	fleetBuffItemList = "table",
 	world = "table",
@@ -31,7 +31,7 @@ slot0.Listeners = {
 	onUpdateSelectedFleet = "OnUpdateSelectedFleet"
 }
 
-function slot0.Setup(slot0)
+slot0.Setup = function(slot0)
 	slot1 = nowWorld()
 
 	slot1:AddListener(World.EventUpdateGlobalBuff, slot0.onUpdateGlobalBuff)
@@ -40,7 +40,7 @@ function slot0.Setup(slot0)
 	slot0:Init()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot1 = nowWorld()
 
 	slot1:RemoveListener(World.EventUpdateGlobalBuff, slot0.onUpdateGlobalBuff)
@@ -51,7 +51,7 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	if slot1.config.icon and #slot1.config.icon > 0 then
 		GetImageSpriteFromAtlasAsync("world/buff/" .. slot1.config.icon, "", slot0:Find("icon"))
 	else
@@ -67,9 +67,9 @@ function slot1(slot0, slot1)
 	setActive(slot0:Find("lost"), slot2)
 	onButton(self, slot0, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			yesText = "text_confirm",
 			hideNo = true,
 			content = "",
-			yesText = "text_confirm",
 			type = MSGBOX_TYPE_SINGLE_ITEM,
 			drop = Drop.New({
 				isWorldBuff = true,
@@ -80,7 +80,7 @@ function slot1(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0.transform
 	slot0.btnBack = slot1:Find("back_button")
 	slot0.rtMapName = slot1:Find("title/name")
@@ -134,7 +134,7 @@ function slot0.Init(slot0)
 	end)
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	if slot0.entrance ~= slot1 or slot0.map ~= slot2 or slot0.gid ~= slot2.gid then
 		slot0:RemoveMapListener()
 
@@ -151,19 +151,19 @@ function slot0.Update(slot0, slot1, slot2)
 	end
 end
 
-function slot0.AddMapListener(slot0)
+slot0.AddMapListener = function(slot0)
 	if slot0.map then
 		slot0.map:AddListener(WorldMap.EventUpdateFIndex, slot0.onUpdateSelectedFleet)
 	end
 end
 
-function slot0.RemoveMapListener(slot0)
+slot0.RemoveMapListener = function(slot0)
 	if slot0.map then
 		slot0.map:RemoveListener(WorldMap.EventUpdateFIndex, slot0.onUpdateSelectedFleet)
 	end
 end
 
-function slot0.AddFleetListener(slot0, slot1)
+slot0.AddFleetListener = function(slot0, slot1)
 	if slot1 then
 		slot1:AddListener(WorldMapFleet.EventUpdateBuff, slot0.onUpdateFleetBuff)
 		slot1:AddListener(WorldMapFleet.EventUpdateDamageLevel, slot0.onUpdateFleetBuff)
@@ -171,7 +171,7 @@ function slot0.AddFleetListener(slot0, slot1)
 	end
 end
 
-function slot0.RemoveFleetListener(slot0, slot1)
+slot0.RemoveFleetListener = function(slot0, slot1)
 	if slot1 then
 		slot1:RemoveListener(WorldMapFleet.EventUpdateBuff, slot0.onUpdateFleetBuff)
 		slot1:RemoveListener(WorldMapFleet.EventUpdateDamageLevel, slot0.onUpdateFleetBuff)
@@ -179,11 +179,11 @@ function slot0.RemoveFleetListener(slot0, slot1)
 	end
 end
 
-function slot0.OnUpdateMap(slot0)
+slot0.OnUpdateMap = function(slot0)
 	setText(slot0.rtMapName, slot0.map:GetName(slot0.entrance))
 end
 
-function slot0.OnUpdateSelectedFleet(slot0)
+slot0.OnUpdateSelectedFleet = function(slot0)
 	if slot0.fleet ~= slot0.map:GetFleet() then
 		slot0:RemoveFleetListener(slot0.fleet)
 
@@ -195,13 +195,13 @@ function slot0.OnUpdateSelectedFleet(slot0)
 	end
 end
 
-function slot0.OnUpdateGlobalBuff(slot0)
+slot0.OnUpdateGlobalBuff = function(slot0)
 	slot0.globalBuffs = nowWorld():GetWorldMapBuffs()
 
 	slot0.globalBuffItemList:align(#slot0.globalBuffs)
 end
 
-function slot0.OnUpdateMoveLimit(slot0)
+slot0.OnUpdateMoveLimit = function(slot0)
 	slot1 = not slot0.map:IsUnlockFleetMode()
 
 	setActive(slot0.rtMoveLimit, slot1)
@@ -217,7 +217,7 @@ function slot0.OnUpdateMoveLimit(slot0)
 	end
 end
 
-function slot0.OnUpdatePoison(slot0)
+slot0.OnUpdatePoison = function(slot0)
 	slot1, slot2 = slot0.map:GetEventPoisonRate()
 
 	setActive(slot0.rtPoisonRate, slot2 > 0)
@@ -248,7 +248,7 @@ function slot0.OnUpdatePoison(slot0)
 	end
 end
 
-function slot0.OnUpdateFleetBuff(slot0)
+slot0.OnUpdateFleetBuff = function(slot0)
 	slot0.fleetBuffs = slot0.fleet:GetBuffList()
 
 	if slot0.fleet:GetDamageBuff() then
@@ -259,7 +259,7 @@ function slot0.OnUpdateFleetBuff(slot0)
 	setActive(slot0.rtFleetBuffs, #slot0.fleetBuffs > 0)
 end
 
-function slot0.OnUpdateCmdSkill(slot0)
+slot0.OnUpdateCmdSkill = function(slot0)
 	if slot0.fleet:IsCatSalvage() then
 		slot0.cmdSkills = {}
 	else

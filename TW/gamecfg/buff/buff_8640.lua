@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2019年9月世界BOSS叠加buff",
 	time = 0,
-	color = "yellow",
+	name = "2019年9月世界BOSS叠加buff",
+	init_effect = "",
+	id = 8640,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8640,
+	color = "yellow",
 	icon = 2120,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 4,
 				target = "TargetSelf",
+				time = 4,
 				skill_id = 8640
 			}
 		},
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 17,
 				target = "TargetSelf",
+				time = 17,
 				skill_id = 8641
 			}
 		},
@@ -41,8 +41,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 32,
 				target = "TargetSelf",
+				time = 32,
 				skill_id = 8642
 			}
 		},
@@ -53,8 +53,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 47,
 				target = "TargetSelf",
+				time = 47,
 				skill_id = 8643
 			}
 		}

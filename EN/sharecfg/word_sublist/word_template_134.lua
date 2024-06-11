@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_134 = {}
 slot1 = slot0.word_template_134
 
-function temp()
+temp = function()
 	uv0["回"] = {
 		["分"] = {
 			["器"] = {
@@ -132,7 +132,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["茴"] = {
 		["香"] = {
 			["醚"] = {
@@ -144,7 +144,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["毀"] = {
 		["滅"] = {
 			["步"] = {
@@ -168,7 +168,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["毁"] = {
 		["灭"] = {
 			["佛"] = {
@@ -182,7 +182,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["汇"] = {
 		["报"] = {
 			["浮"] = {
@@ -209,7 +209,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["绘"] = {
 		["芳"] = {
 			["录"] = {
@@ -221,7 +221,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["恵"] = {
 		["美"] = {
 			["梨"] = {

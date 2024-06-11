@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JINGWEILUOXUAN17",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JINGWEILUOXUAN17",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "「海霧」鏡面海域の中",
-			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "hunhe-level",
+			hidePaintObj = true,
+			say = "「海霧」鏡面海域の中",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,10 +36,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ええと、確かこの方向のはずですよ？クマちゃんも同じ方向を指しているから…",
 			typewriter = {
 				speed = 0.05,
@@ -54,10 +54,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "クマちゃんのレーダーなら「駒」の居場所が分かるはず…だよね…？",
 			typewriter = {
 				speed = 0.05,
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 101470,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101470,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "うん。でも離れすぎると精度が落ちてしまいますから…",
 			typewriter = {
 				speed = 0.05,
@@ -89,10 +89,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ええと、クマちゃん、通信チャンネルの信号からもう一回方向を修正して…",
 			typewriter = {
 				speed = 0.05,
@@ -107,10 +107,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あ、「駒」の艦隊を見つけても、クマちゃんに勝手に攻撃を開始させないでね",
 			typewriter = {
 				speed = 0.05,
@@ -125,10 +125,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "分かりました。まずはニュージャージーさんに報告して――",
 			typewriter = {
 				speed = 0.05,
@@ -143,10 +143,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 101470,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "い、今レーダーに反応がありました！",
 			typewriter = {
 				speed = 0.05,
@@ -158,12 +158,12 @@ return {
 			}
 		},
 		{
-			actor = 102290,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 102290,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "もう見つけたの…！？",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -185,13 +185,13 @@ return {
 			}
 		},
 		{
-			actor = 101250,
 			nameColor = "#ffff4d",
-			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "ハムマン？",
 			side = 2,
+			bgName = "bg_luoxuan_2",
+			dir = 1,
+			actor = 101250,
+			actorName = "ハムマン？",
+			hidePaintObj = true,
 			say = "「………………」",
 			typewriter = {
 				speed = 0.05,
@@ -206,10 +206,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ハムマンちゃん……？！",
 			typewriter = {
 				speed = 0.05,
@@ -224,10 +224,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "違う…セイレーンの「駒」！",
 			typewriter = {
 				speed = 0.05,
@@ -239,12 +239,12 @@ return {
 			}
 		},
 		{
-			actor = 101470,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101470,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ニュージャージーさんに連絡して…すぐ追います！",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			stopbgm = true,
 			sequence = {
 				{
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

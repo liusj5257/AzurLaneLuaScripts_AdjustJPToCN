@@ -6,15 +6,15 @@ return {
 			style = {
 				text = "TBはおしゃべりがしたいようです",
 				mode = 2,
-				dir = 1,
 				char = 1,
 				posY = 55.37,
+				dir = 1,
 				posX = 223.18,
 				uiset = {}
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/blur_panel/bubble/bubble",
-				pathIndex = -1
+				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/blur_panel/bubble/bubble"
 			}
 		}
 	}

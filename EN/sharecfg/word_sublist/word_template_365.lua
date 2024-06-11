@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_365 = {}
 slot1 = slot0.word_template_365
 
-function temp()
+temp = function()
 	uv0["桺"] = {
 		["絲"] = {
 			["事"] = {
@@ -22,7 +22,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.V = {
 		I = {
 			I = {
@@ -514,7 +514,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["铭"] = {
 		["记"] = {
 			["八"] = {
@@ -528,7 +528,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["履"] = {
 		["带"] = {
 			["下"] = {
@@ -546,7 +546,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["此"] = {
 		["木"] = {
 			["王"] = {
@@ -560,7 +560,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["捂"] = {
 		["耳"] = {
 			["凯"] = {
@@ -584,7 +584,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["4"] = {
 		["路"] = {
 			["酒"] = {

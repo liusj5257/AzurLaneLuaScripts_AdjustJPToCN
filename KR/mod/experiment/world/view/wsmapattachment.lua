@@ -3,9 +3,9 @@ slot0.Fields = {
 	cell = "table",
 	lurkTimer = "table",
 	map = "table",
-	twTimer = "userdata",
-	attachment = "table",
 	isInit = "boolean",
+	attachment = "table",
+	twTimer = "userdata",
 	twBreathId = "number",
 	isFighting = "boolean"
 }
@@ -15,7 +15,7 @@ slot0.Listeners = {
 slot0.CharBasePos = Vector2.zero
 slot0.IconBasePos = Vector2(0, 10)
 
-function slot0.GetResName(slot0)
+slot0.GetResName = function(slot0)
 	if slot0.type == WorldMapAttachment.TypeEvent then
 		if slot0:GetReplaceDisplayEnemyConfig() then
 			return "enemy_tpl"
@@ -37,7 +37,7 @@ function slot0.GetResName(slot0)
 	end
 end
 
-function slot0.Setup(slot0, slot1, slot2, slot3)
+slot0.Setup = function(slot0, slot1, slot2, slot3)
 	assert(slot0.worldMapAttachment == nil)
 
 	slot0.map = slot1
@@ -51,7 +51,7 @@ function slot0.Setup(slot0, slot1, slot2, slot3)
 	slot0:Init()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.cell:RemoveListener(WorldMapCell.EventUpdateInFov, slot0.onUpdate)
 	slot0.cell:RemoveListener(WorldMap.EventUpdateMapBuff, slot0.onUpdate)
 
@@ -68,7 +68,7 @@ function slot0.Dispose(slot0)
 	uv0.super.Dispose(slot0)
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0.transform.anchoredPosition3D = Vector3.zero
 	slot0.transform.localEulerAngles = Vector3.zero
 	slot0.transform.name = slot0.attachment:GetDebugName()
@@ -77,7 +77,7 @@ function slot0.Init(slot0)
 	slot0:Update()
 end
 
-function slot0.LoadAvatar(slot0, slot1, slot2, slot3)
+slot0.LoadAvatar = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	if slot1 and #slot1 > 0 then
@@ -94,7 +94,7 @@ function slot0.LoadAvatar(slot0, slot1, slot2, slot3)
 	seriesAsync(slot4, slot3)
 end
 
-function slot0.LoadBoxPrefab(slot0, slot1, slot2, slot3)
+slot0.LoadBoxPrefab = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	if slot1 and #slot1 > 0 then
@@ -111,7 +111,7 @@ function slot0.LoadBoxPrefab(slot0, slot1, slot2, slot3)
 	seriesAsync(slot4, slot3)
 end
 
-function slot0.LoadChapterPrefab(slot0, slot1, slot2, slot3)
+slot0.LoadChapterPrefab = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
 	if slot1 and #slot1 > 0 then
@@ -128,7 +128,7 @@ function slot0.LoadChapterPrefab(slot0, slot1, slot2, slot3)
 	seriesAsync(slot4, slot3)
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	if slot0.attachment.type == WorldMapAttachment.TypeEvent then
 		if slot2:GetReplaceDisplayEnemyConfig() then
 			slot0:UpdateEventEnemy(slot1)
@@ -154,7 +154,7 @@ function slot0.Update(slot0, slot1)
 	slot0:UpdateModelScale(slot0.attachment:GetScale())
 end
 
-function slot0.UpdateEvent(slot0, slot1)
+slot0.UpdateEvent = function(slot0, slot1)
 	slot3 = slot0.cell
 	slot6 = slot0.map:CheckDisplay(slot0.attachment)
 
@@ -214,7 +214,7 @@ function slot0.UpdateEvent(slot0, slot1)
 	end
 end
 
-function slot0.UpdateEventEnemy(slot0, slot1)
+slot0.UpdateEventEnemy = function(slot0, slot1)
 	slot3 = slot0.cell
 	slot5 = slot0.transform
 	slot6 = slot5:Find("live")
@@ -280,7 +280,7 @@ function slot0.UpdateEventEnemy(slot0, slot1)
 	end
 end
 
-function slot0.UpdateBox(slot0, slot1)
+slot0.UpdateBox = function(slot0, slot1)
 	slot3 = slot0.cell
 	slot6 = slot0.map:CheckDisplay(slot0.attachment)
 
@@ -312,7 +312,7 @@ function slot0.UpdateBox(slot0, slot1)
 	end
 end
 
-function slot0.UpdateEnemy(slot0, slot1)
+slot0.UpdateEnemy = function(slot0, slot1)
 	slot3 = slot0.cell
 	slot5 = slot0.transform
 	slot6 = slot5:Find("live")
@@ -369,11 +369,11 @@ function slot0.UpdateEnemy(slot0, slot1)
 	end
 end
 
-function slot0.UpdatePort(slot0, slot1)
+slot0.UpdatePort = function(slot0, slot1)
 	setActive(slot0.transform, false)
 end
 
-function slot0.UpdateTransportFleet(slot0, slot1)
+slot0.UpdateTransportFleet = function(slot0, slot1)
 	slot3 = slot0.cell
 	slot6 = slot0.map:CheckDisplay(slot0.attachment)
 
@@ -386,7 +386,7 @@ function slot0.UpdateTransportFleet(slot0, slot1)
 	end
 end
 
-function slot0.UpdateTrap(slot0, slot1)
+slot0.UpdateTrap = function(slot0, slot1)
 	slot3 = slot0.cell
 	slot6 = slot0.map:CheckDisplay(slot0.attachment)
 
@@ -418,7 +418,7 @@ function slot0.UpdateTrap(slot0, slot1)
 	end
 end
 
-function slot0.UpdateBuffList(slot0, slot1, slot2)
+slot0.UpdateBuffList = function(slot0, slot1, slot2)
 	setActive(slot1:Find("buffs"), #slot2 > 0)
 
 	slot4 = UIItemList.New(slot3, slot3:GetChild(0))
@@ -436,7 +436,7 @@ function slot0.UpdateBuffList(slot0, slot1, slot2)
 	})
 end
 
-function slot0.UpdateMapBuff(slot0, slot1, slot2, slot3)
+slot0.UpdateMapBuff = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("map_buff")
 	slot5 = false
 
@@ -456,7 +456,7 @@ function slot0.UpdateMapBuff(slot0, slot1, slot2, slot3)
 	setActive(slot4, slot5)
 end
 
-function slot0.UpdateHP(slot0, slot1, slot2, slot3)
+slot0.UpdateHP = function(slot0, slot1, slot2, slot3)
 	setActive(slot1, slot2 and slot3)
 
 	if slot2 and slot3 then
@@ -464,7 +464,7 @@ function slot0.UpdateHP(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.UpdateBreathTween(slot0)
+slot0.UpdateBreathTween = function(slot0)
 	if slot0.attachment:IsFloating() and slot1:IsAlive() and slot1:IsVisible() then
 		if not slot0.twBreathId then
 			slot0.transform.localPosition = Vector3(0, 40, 0)
@@ -481,7 +481,7 @@ function slot0.UpdateBreathTween(slot0)
 	end
 end
 
-function slot0.UpdateIsFighting(slot0, slot1)
+slot0.UpdateIsFighting = function(slot0, slot1)
 	assert(WorldMapAttachment.IsEnemyType(slot0.attachment.type))
 
 	if slot0.isFighting ~= slot1 then
@@ -491,7 +491,7 @@ function slot0.UpdateIsFighting(slot0, slot1)
 	end
 end
 
-function slot0.TrapAnimDisplay(slot0, slot1)
+slot0.TrapAnimDisplay = function(slot0, slot1)
 	slot2 = {}
 	slot3 = slot0.model
 	slot3 = slot3:GetChild(0)

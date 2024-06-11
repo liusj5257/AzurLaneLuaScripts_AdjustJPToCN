@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN32",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Floating Fortress E2 - A few days later",
 			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			dir = 1,
 			bgm = "bsm-5",
+			say = "Floating Fortress E2 - A few days later",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Heinrich",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Peter Strasser",
+			side = 1,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Heinrich",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -87,11 +87,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
-			actorName = "Prinz Heinrich",
 			dir = 1,
+			actorName = "Prinz Heinrich",
 			say = "Eugen, please come save me, before it's too late...",
 			dialogShake = {
 				speed = 0.09,
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Peter Strasser",
+			side = 1,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -124,8 +124,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Heinrich",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Peter Strasser",
+			side = 1,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Heinrich",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Peter Strasser",
+			side = 1,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Peter Strasser",
+			side = 1,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -204,8 +204,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Heinrich",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Heinrich",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -236,8 +236,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Peter Strasser",
+			side = 1,
 			bgName = "bg_fuxiangxian_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -252,12 +252,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Prinz Heinrich",
+			side = 2,
 			bgName = "bg_fuxiangxian_6",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "I don't even know what you're talking about anymore!!!!!!",
 			typewriter = {
 				speed = 0.05,

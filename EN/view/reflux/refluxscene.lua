@@ -4,17 +4,17 @@ slot0.Task = 2
 slot0.PT = 3
 slot0.Shop = 4
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "RefluxUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:findUI()
 	slot0:initData()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updateRedPotList()
 
 	if not getProxy(RefluxProxy):isInRefluxTime() then
@@ -30,7 +30,7 @@ function slot0.didEnter(slot0)
 	slot0:updateDay()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	for slot4, slot5 in ipairs(slot0.viewList) do
 		if slot5 and slot5:GetLoaded() then
 			slot5:Destroy()
@@ -54,7 +54,7 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.letterView and slot0.letterView:isShowing() then
 		slot0.letterView:OnBackPress()
 
@@ -64,7 +64,7 @@ function slot0.onBackPressed(slot0)
 	slot0:closeView()
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.letterContainer = slot0:findTF("PanelLetter")
 	slot0.panelContainer = slot0:findTF("PanelContainer")
 	slot1 = slot0:findTF("left/left_bar")
@@ -92,7 +92,7 @@ function slot0.findUI(slot0)
 	setText(slot0:findTF("time/icon1"), i18n("word_date"))
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.curViewIndex = 0
 	slot0.letterView = RefluxLetterView.New(slot0.letterContainer, slot0.event, slot0.contextData)
 	slot0.signView = RefluxSignView.New(slot0.panelContainer, slot0.event, slot0.contextData)
@@ -107,7 +107,7 @@ function slot0.initData(slot0)
 	}
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
@@ -137,7 +137,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.tryOpenLetterView(slot0)
+slot0.tryOpenLetterView = function(slot0)
 	if PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "_" .. getProxy(RefluxProxy).returnTimestamp, 0) ~= 1 then
 		PlayerPrefs.SetInt(slot5, 1)
 		PlayerPrefs.Save()
@@ -152,7 +152,7 @@ function slot0.tryOpenLetterView(slot0)
 	end
 end
 
-function slot0.switchPage(slot0, slot1)
+slot0.switchPage = function(slot0, slot1)
 	if slot0.curViewIndex ~= slot1 then
 		slot2 = slot0.viewList[slot1]
 
@@ -169,7 +169,7 @@ function slot0.switchPage(slot0, slot1)
 	end
 end
 
-function slot0.tryAutoOpenLastView(slot0)
+slot0.tryAutoOpenLastView = function(slot0)
 	if slot0.contextData.lastViewIndex then
 		triggerToggle(slot0.toggleList[slot0.contextData.lastViewIndex], true)
 	else
@@ -177,19 +177,19 @@ function slot0.tryAutoOpenLastView(slot0)
 	end
 end
 
-function slot0.switchLetter(slot0)
+slot0.switchLetter = function(slot0)
 	slot0.letterView:Load()
 	slot0.letterView:ActionInvoke("Show")
 end
 
-function slot0.updateRedPotList(slot0)
+slot0.updateRedPotList = function(slot0)
 	setActive(slot0.redPotList[uv0.Sign], false)
 	setActive(slot0.redPotList[uv0.Task], RefluxTaskView.isAnyTaskCanGetAward())
 	setActive(slot0.redPotList[uv0.PT], RefluxPTView.isAnyPTCanGetAward())
 	setActive(slot0.redPotList[uv0.Shop], RefluxShopView.isShowRedPot())
 end
 
-function slot0.updateDay(slot0)
+slot0.updateDay = function(slot0)
 	slot2 = pg.TimeMgr.GetInstance()
 	slot3 = #pg.return_sign_template.all
 

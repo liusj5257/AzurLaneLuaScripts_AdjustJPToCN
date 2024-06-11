@@ -4,7 +4,7 @@ slot0.ON_SHIP_DETAIL = "DockyardMediator:ON_SHIP_DETAIL"
 slot0.ON_SHIP_REPAIR = "DockyardMediator:ON_SHIP_REPAIR"
 slot0.OPEN_DOCKYARD_INDEX = "DockyardMediator:OPEN_DOCKYARD_INDEX"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	if slot0.contextData.selectFriend then
 		slot0.viewComponent:setFriends(getProxy(FriendProxy):getAllFriends())
 	end
@@ -84,7 +84,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.DESTROY_SHIP_DONE,
 		FleetProxy.FLEET_UPDATED,
@@ -98,7 +98,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.DESTROY_SHIP_DONE then
@@ -201,7 +201,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.setShipFlag(slot0, slot1, slot2, slot3)
+slot0.setShipFlag = function(slot0, slot1, slot2, slot3)
 	if slot0.shipsById[slot1] then
 		slot4[slot2] = slot3
 	end

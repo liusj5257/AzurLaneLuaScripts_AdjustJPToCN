@@ -9,7 +9,7 @@ slot0.CHANGE_FLEET_SHIP = "ExercisePreCombatMediator:CHANGE_FLEET_SHIP"
 slot0.ON_AUTO = "ExercisePreCombatMediator:ON_AUTO"
 slot0.ON_SUB_AUTO = "ExercisePreCombatMediator:ON_SUB_AUTO"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.ships = getProxy(BayProxy):getRawData()
 
 	slot0.viewComponent:SetShips(slot0.ships)
@@ -91,9 +91,9 @@ function slot0.register(slot0)
 		end
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			selectedMax = 1,
-			useBlackBlock = true,
 			selectedMin = 0,
+			useBlackBlock = true,
+			selectedMax = 1,
 			energyDisplay = true,
 			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
 				isActivityNpc = true
@@ -137,7 +137,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.changeFleet(slot0, slot1)
+slot0.changeFleet = function(slot0, slot1)
 	if slot0.contextData.system == SYSTEM_SUB_ROUTINE then
 		slot0.contextData.subFleetId = slot1
 	else
@@ -148,7 +148,7 @@ function slot0.changeFleet(slot0, slot1)
 	slot0.viewComponent:UpdateFleetView(true)
 end
 
-function slot0.refreshEdit(slot0, slot1)
+slot0.refreshEdit = function(slot0, slot1)
 	getProxy(FleetProxy).EdittingFleet = slot1
 
 	if slot0.contextData.system ~= SYSTEM_SUB_ROUTINE then
@@ -161,7 +161,7 @@ function slot0.refreshEdit(slot0, slot1)
 	slot0.viewComponent:UpdateFleetView(false)
 end
 
-function slot0.commitEdit(slot0, slot1)
+slot0.commitEdit = function(slot0, slot1)
 	if getProxy(FleetProxy).EdittingFleet == nil or slot3:isFirstFleet() or slot3:isLegalToFight() == true then
 		slot2:commitEdittingFleet(slot1)
 	elseif #slot3.ships == 0 then
@@ -191,21 +191,21 @@ function slot0.commitEdit(slot0, slot1)
 	end
 end
 
-function slot0.onAutoBtn(slot0, slot1)
+slot0.onAutoBtn = function(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_BOT, {
 		isActiveBot = slot1.isOn,
 		toggle = slot1.toggle
 	})
 end
 
-function slot0.onAutoSubBtn(slot0, slot1)
+slot0.onAutoSubBtn = function(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_SUB, {
 		isActiveSub = slot1.isOn,
 		toggle = slot1.toggle
 	})
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.BEGIN_STAGE_DONE,
 		PlayerProxy.UPDATED,
@@ -213,7 +213,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
@@ -231,7 +231,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.getDockCallbackFuncsForExercise(slot0, slot1, slot2, slot3)
+slot0.getDockCallbackFuncsForExercise = function(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(FleetProxy)
 	slot5 = getProxy(BayProxy)
 

@@ -1,10 +1,10 @@
 slot0 = class("CommanderHomeLevelInfoPage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderHomeLevelUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.close = slot0:findTF("bg/frame/close_btn")
 	slot0.scrollrect = slot0:findTF("bg/frame/scrollrect"):GetComponent("LScrollRect")
 	slot0.levelTxt = slot0:findTF("bg/frame/level/Text"):GetComponent(typeof(Text))
@@ -16,14 +16,14 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("bg/frame/level/label"), i18n("commander_home_level_label"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.cards = {}
 
-	function slot0.scrollrect.onInitItem(slot0)
+	slot0.scrollrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 
-	function slot0.scrollrect.onUpdateItem(slot0, slot1)
+	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
@@ -38,11 +38,11 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot0.cards[slot1] = CommanderHomeLevelCard.New(slot1, slot0)
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -52,7 +52,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot3:Update(slot0.home, slot0.displays[slot1 + 1])
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
 	slot0.home = slot1
@@ -60,7 +60,7 @@ function slot0.Show(slot0, slot1)
 	slot0:InitMainView()
 end
 
-function slot0.InitMainView(slot0)
+slot0.InitMainView = function(slot0)
 	slot1 = slot0.home
 	slot0.levelTxt.text = "LV." .. slot1:GetLevel()
 
@@ -86,18 +86,18 @@ function slot0.InitMainView(slot0)
 	slot0.scrollrect:SetTotalCount(#slot0.displays)
 end
 
-function slot0.ShowDescWindow(slot0, slot1, slot2)
+slot0.ShowDescWindow = function(slot0, slot1, slot2)
 	setActive(slot0.descPanel, true)
 
 	slot0.descTxt.text = slot1
 	slot0.descLevelTxt.text = "LV." .. slot2
 end
 
-function slot0.CloseDescWindow(slot0)
+slot0.CloseDescWindow = function(slot0)
 	setActive(slot0.descPanel, false)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end

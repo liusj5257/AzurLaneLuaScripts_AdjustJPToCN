@@ -1,20 +1,20 @@
 slot0 = class("ChargeDiamondShopView", import("...base.BaseSubView"))
 slot0.MonthCardID = 1
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ChargeDiamondShopUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	slot0:Show()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.isNeedHideMonthCard = (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and pg.SdkMgr.GetInstance():CheckAudit()
 	slot0.diamondGoodsVOList = {}
 	slot0.diamondGoodsVOListForShow = {}
@@ -23,7 +23,7 @@ function slot0.initData(slot0)
 	slot0:updateData()
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.itemTpl = slot0:findTF("ItemTpl")
 	slot1 = slot0:findTF("content")
 	slot0.monthCardTF = slot0:findTF("ItemMonth", slot1)
@@ -33,7 +33,7 @@ function slot0.initUI(slot0)
 	slot0:updateView()
 end
 
-function slot0.initUIItemList(slot0)
+slot0.initUIItemList = function(slot0)
 	slot1 = UIItemList.New(slot0.itemContainerTF, slot0.itemTpl)
 
 	slot1:make(function (slot0, slot1, slot2)
@@ -52,16 +52,16 @@ function slot0.initUIItemList(slot0)
 	return slot1
 end
 
-function slot0.updateUIItemList(slot0)
+slot0.updateUIItemList = function(slot0)
 	slot0.uiItemList:align(#slot0.diamondGoodsVOListForShow)
 end
 
-function slot0.updateView(slot0)
+slot0.updateView = function(slot0)
 	setActive(slot0.monthCardTF, not slot0.isNeedHideMonthCard)
 	slot0:updateUIItemList()
 end
 
-function slot0.confirm(slot0, slot1)
+slot0.confirm = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -173,9 +173,9 @@ function slot0.confirm(slot0, slot1)
 		end
 
 		slot0:emit(ChargeMediator.OPEN_CHARGE_ITEM_PANEL, {
-			isMonthCard = false,
 			isChargeType = false,
 			isLocalPrice = false,
+			isMonthCard = false,
 			icon = slot4.icon,
 			name = slot4.name,
 			tipExtra = i18n("charge_title_getitem"),
@@ -194,7 +194,7 @@ function slot0.confirm(slot0, slot1)
 	end
 end
 
-function slot0.updateDiamondGoodsVOList(slot0)
+slot0.updateDiamondGoodsVOList = function(slot0)
 	slot0.diamondGoodsVOList = {}
 
 	for slot5, slot6 in pairs(pg.pay_data_display.all) do
@@ -212,7 +212,7 @@ function slot0.updateDiamondGoodsVOList(slot0)
 	end
 end
 
-function slot0.sortDiamondGoodsVOList(slot0)
+slot0.sortDiamondGoodsVOList = function(slot0)
 	slot0.diamondGoodsVOListForShow = {}
 
 	for slot4, slot5 in ipairs(slot0.diamondGoodsVOList) do
@@ -260,28 +260,28 @@ function slot0.sortDiamondGoodsVOList(slot0)
 	end)
 end
 
-function slot0.updateGoodsData(slot0)
+slot0.updateGoodsData = function(slot0)
 	slot0.firstChargeIds = slot0.contextData.firstChargeIds
 	slot0.chargedList = slot0.contextData.chargedList
 	slot0.normalList = slot0.contextData.normalList
 	slot0.normalGroupList = slot0.contextData.normalGroupList
 end
 
-function slot0.setGoodData(slot0, slot1, slot2, slot3, slot4)
+slot0.setGoodData = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.firstChargeIds = slot1
 	slot0.chargedList = slot2
 	slot0.normalList = slot3
 	slot0.normalGroupList = slot4
 end
 
-function slot0.updateData(slot0)
+slot0.updateData = function(slot0)
 	slot0.player = getProxy(PlayerProxy):getData()
 
 	slot0:updateDiamondGoodsVOList()
 	slot0:sortDiamondGoodsVOList()
 end
 
-function slot0.reUpdateAll(slot0)
+slot0.reUpdateAll = function(slot0)
 	slot0:updateData()
 	slot0:updateView()
 end

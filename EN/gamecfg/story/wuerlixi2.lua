@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WUERLIXI2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WUERLIXI2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Quintessential\n\n<size=45>2. Trouble at the Iron Blood Dormitory</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
@@ -27,8 +27,8 @@ return {
 			hidePaintObj = true,
 			say = "U-Ulrich! Are you here? You're here, aren't you?!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 401210,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401210,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "P-p-p-please save us––!!!",
 			dialogShake = {
 				speed = 0.08,
@@ -85,9 +85,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I was currently working with Ulrich when several Iron Blood destroyers burst through the door, practically on the verge of tears.",
 			typewriter = {
 				speed = 0.05,
@@ -102,10 +102,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...What's the ruckus? I'm trying to work here.",
 			typewriter = {
 				speed = 0.05,
@@ -117,12 +117,12 @@ return {
 			}
 		},
 		{
-			actor = 401210,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401210,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That... That thing appeared again! Please, hurry!",
 			typewriter = {
 				speed = 0.05,
@@ -134,8 +134,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -147,10 +147,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...Ah, so the usual. Sorry, Commander, I'll be right back.",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I wasn't sure what was happening, but it was a surprise to see her getting along with other shipgirls, so... Out of curiosity, I decided to join her.",
 			typewriter = {
 				speed = 0.05,
@@ -179,10 +179,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hmph. Whatever makes you happy. Not like there's anything special going on.",
 			typewriter = {
 				speed = 0.05,
@@ -194,12 +194,12 @@ return {
 			}
 		},
 		{
-			actor = 401190,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 401190,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "We leave it in your capable hands! It's too much for me to face alone...",
 			typewriter = {
 				speed = 0.05,
@@ -211,13 +211,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_109",
+			side = 2,
+			dir = 1,
 			say = "And so, I followed Ulrich into one of the rooms in the Iron Blood dormitory. I wonder what the thing that was causing such a fuss was...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -245,10 +245,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I bet another bat's managed to sneak in. It's fine, I'll make quick work of it.",
 			typewriter = {
 				speed = 0.05,
@@ -273,10 +273,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...No.",
 			typewriter = {
 				speed = 0.05,
@@ -291,10 +291,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Chasing it out forcefully is simple enough, but if we do... We'll just be stealing away the new home it painstakingly sought out.",
 			typewriter = {
 				speed = 0.05,
@@ -306,9 +306,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "\"So what do you plan to do?\"",
 			typewriter = {
 				speed = 0.05,
@@ -323,10 +323,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I'll help it understand that this is a human inhabitance, and that it'll unfortunately have to find a new home... Like this.",
 			typewriter = {
 				speed = 0.05,
@@ -338,9 +338,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "Saying that, Ulrich flung open the window and took a seat in a chair right next to the window.",
 			typewriter = {
 				speed = 0.05,
@@ -355,10 +355,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "All that's left to do now is wait.",
 			typewriter = {
 				speed = 0.05,
@@ -373,10 +373,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...What, got a problem with my way of doing things? Well, allow me to explain.",
 			typewriter = {
 				speed = 0.05,
@@ -391,10 +391,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Animals hate me. If I stay here, they're gonna get uncomfortable and flee sooner or later. Does that make sense?",
 			typewriter = {
 				speed = 0.05,
@@ -406,9 +406,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "\"I've heard about this before, but usually just for cats and dogs... Does it apply to bats too?\"",
 			typewriter = {
 				speed = 0.05,
@@ -423,10 +423,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hmph. Whether or not you believe me, just watch what happens.",
 			typewriter = {
 				speed = 0.05,
@@ -438,9 +438,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "And with that, Ulrich got up and started to pace around the room. Out of nowhere, the bat popped out and hurriedly flew out the window.",
 			typewriter = {
 				speed = 0.05,
@@ -452,9 +452,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "She really wasn't kidding... I have no idea how that worked, but at least that takes care of the problem.",
 			typewriter = {
 				speed = 0.05,
@@ -469,10 +469,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Sorry, but this isn't the place you should be.",
 			typewriter = {
 				speed = 0.05,
@@ -484,12 +484,12 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -504,10 +504,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hmph. What a pain in the ass.",
 			typewriter = {
 				speed = 0.05,
@@ -519,9 +519,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_109",
+			dir = 1,
 			say = "Despite her words, she wore a gentle expression as she closed the window. Maybe... Ulrich simply had a hard time expressing herself.",
 			typewriter = {
 				speed = 0.05,
@@ -536,10 +536,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_109",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405030,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...How many times is this now though? I should teach those girls a lesson for making me do this crap again and again.",
 			typewriter = {
 				speed = 0.05,

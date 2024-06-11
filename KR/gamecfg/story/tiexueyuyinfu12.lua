@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205050,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "bsm-3",
 			dir = -1,
 			say = "대단히 터프하군… 설마 내 14인치 포조차 모조리 튕겨낼 줄이야…!",
+			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "구식 장갑이라도 이 거리라면 방어 성능으로는 내 쪽이 위야! 난전을 유도할 수만 있다면, 아무리 상대가 많다고 해도……",
 			typewriter = {
 				speed = 0.05,
@@ -41,9 +41,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
-			say = "————",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "————",
 			flashN = {
 				color = {
 					1,
@@ -94,8 +94,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "우현에서 포격!?",
 			typewriter = {
 				speed = 0.05,
@@ -167,10 +167,10 @@ return {
 			}
 		},
 		{
+			say = "——",
 			dir = 1,
 			side = 0,
 			soundeffect = "event:/battle/boom2",
-			say = "——",
 			flashN = {
 				color = {
 					1,

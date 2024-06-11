@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOSHENGDAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOSHENGDAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"オペレーション・クリスマス！\n\n<size=45>五　ウォースパイトの想い</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 205020,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "実は、クリスマスにロイヤルの仲間たちに贈るプレゼントに悩んでいるんだ",
 			bgm = "story-1",
+			actor = 205020,
+			nameColor = "#a9f548",
+			say = "実は、クリスマスにロイヤルの仲間たちに贈るプレゼントに悩んでいるんだ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 107061,
+			say = "時間のことなら心配無用だ。これは全て母港の売店に寄った時に買ったもの、時間などかかるまい",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "時間のことなら心配無用だ。これは全て母港の売店に寄った時に買ったもの、時間などかかるまい",
+			actor = 107061,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -168,11 +168,11 @@ return {
 			}
 		},
 		{
-			actor = 205020,
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205020,
+			nameColor = "#a9f548",
 			say = "気持ち……か。そういうことか。プレゼントは相手に合わせるのではなく、思いを伝えるものだったんだな！",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -258,11 +258,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201100,
+			nameColor = "#a9f548",
 			say = "よかったら使ってくれませんか？ウォースパイトさんが着てくれたらうちたちも嬉しいです！",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -332,12 +332,12 @@ return {
 			}
 		},
 		{
-			actor = 107061,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107061,
+			nameColor = "#a9f548",
 			say = "ロイヤルのクリスマス……楽しくなりそうだな。ははは",
 			typewriter = {
 				speed = 0.05,

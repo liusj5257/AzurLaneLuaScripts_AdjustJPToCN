@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "大洋联邦 无人机母舰指挥光环",
 	time = 0,
-	color = "yellow",
+	name = "大洋联邦 无人机母舰指挥光环",
+	init_effect = "",
+	id = 200236,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200236,
+	color = "yellow",
 	icon = 200236,
 	last_effect = "yilishabaidanchuan_buff_01",
 	effect_list = {

@@ -1,6 +1,6 @@
 slot0 = class("GameRoomExchangeCoinCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.price
 	slot5 = pg.ConnectionMgr.GetInstance()

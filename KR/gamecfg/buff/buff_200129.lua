@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动EX 昏睡之门 召唤小怪",
 	time = 3,
-	color = "red",
+	name = "2022莱莎联动EX 昏睡之门 召唤小怪",
+	init_effect = "",
+	id = 200129,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200129,
+	color = "red",
 	icon = 200129,
 	last_effect = "",
 	effect_list = {

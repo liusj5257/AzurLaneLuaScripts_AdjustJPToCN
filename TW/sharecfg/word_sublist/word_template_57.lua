@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_57 = {}
 slot1 = slot0.word_template_57
 
-function temp()
+temp = function()
 	uv0["枪"] = {
 		["支"] = {
 			["弹"] = {
@@ -39,7 +39,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["党"] = {
 		["中"] = {
 			["央"] = {
@@ -63,7 +63,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["手"] = {
 		["枪"] = {
 			["出"] = {
@@ -267,7 +267,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["赤"] = {
 		["匪"] = {
 			this = true

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "装甲空母",
 	time = 20,
+	name = "装甲空母",
+	init_effect = "",
 	picture = "",
 	desc = "护盾",
 	stack = 1,

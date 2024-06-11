@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "Z字旗·三笠",
 	time = 0,
+	name = "Z字旗·三笠",
+	init_effect = "",
 	picture = "",
 	desc = "炮击、命中提高5%",
 	stack = 1,
@@ -15,8 +15,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 500
+				number = 500,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -25,8 +25,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 500
+				number = 500,
+				attr = "attackRating"
 			}
 		}
 	}

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_226 = {}
 slot1 = slot0.word_template_226
 
-function temp()
+temp = function()
 	uv0["平"] = {
 		["反"] = {
 			["6"] = {
@@ -233,7 +233,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["苹"] = {
 		["果"] = {
 			j = {
@@ -255,7 +255,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["岥"] = {
 		["解"] = {
 			["儀"] = {
@@ -269,7 +269,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["潑"] = {
 		["婦"] = {
 			this = true
@@ -279,7 +279,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["醱"] = {
 		["票"] = {
 			this = true
@@ -289,7 +289,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["迫"] = {
 		["害"] = {
 			["伴"] = {
@@ -308,7 +308,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["扑"] = {
 		["克"] = {
 			["分"] = {

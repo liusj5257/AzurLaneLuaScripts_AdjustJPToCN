@@ -9,8 +9,8 @@ return {
 	events = {
 		{
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = 100,
 				posX = 200,
 				text = slot0[1]
@@ -24,8 +24,8 @@ return {
 		},
 		{
 			style = {
-				dir = -1,
 				mode = 1,
+				dir = -1,
 				posY = 100,
 				posX = 100,
 				text = slot0[2]
@@ -39,8 +39,8 @@ return {
 		},
 		{
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -110,
 				posX = -500,
 				text = slot0[3]

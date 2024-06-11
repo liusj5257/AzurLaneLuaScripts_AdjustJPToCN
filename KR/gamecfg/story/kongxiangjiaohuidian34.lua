@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN34",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuiluo_2",
-			stopbgm = true,
-			say = "???·???",
 			bgmDelay = 2,
 			bgm = "battle-torch-theme",
+			stopbgm = true,
+			say = "???·???",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "검붉은 바다 위에 불타는 잔해가 떠 있다.",
 			typewriter = {
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "프리드리히는 물 위에 쓰러진 채 조용히 먼 하늘을 바라보고 있다.",
 			typewriter = {
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "그녀의 의장은 심하게 파손됐지만 눈빛은 여전히 빛났다.",
 			typewriter = {
@@ -58,11 +58,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
-			say = "쾅————!",
 			soundeffect = "event:/battle/boom2",
+			say = "쾅————!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "엔터프라이즈가 던진 최후의 일격으로 아비터·허밋·IX가 완전히 패배했다.",
 			typewriter = {
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "...적을 유인하느라 고생 많았어.",
 			painting = {
@@ -137,9 +137,9 @@ return {
 		{
 			actor = 499020,
 			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_zhuiluo_2",
 			say = "별 말씀을.",
 			painting = {
 				alpha = 0.3,
@@ -245,9 +245,9 @@ return {
 			bgName = "bg_zhuiluo_2",
 			paintingNoise = true,
 			dir = 1,
-			actorName = "타카오·META",
-			actor = 900192,
 			nameColor = "#ffa500",
+			actor = 900192,
+			actorName = "타카오·META",
 			say = "...이런 엉터리 계획이 정말 성공할 줄이야.",
 			painting = {
 				alpha = 0.3,
@@ -261,9 +261,9 @@ return {
 		{
 			actor = 499020,
 			side = 2,
-			bgName = "bg_zhuiluo_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_zhuiluo_2",
 			say = "성공할 수 있었던 건 잔불의 실력과 풍부한 잠재력 그리고…",
 			painting = {
 				alpha = 0.3,
@@ -278,8 +278,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			nameColor = "#A9F548FF",
 			say = "…너희의 믿음 덕분이야.",
 			painting = {
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "...거의 다 됐어. 이제 사냥감을 좀 만나볼까.",
 			painting = {
@@ -309,11 +309,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
 			dir = 1,
+			bgName = "bg_zhuiluo_2",
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "또 만났네, 허밋.",
 			painting = {
@@ -325,17 +325,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -343,11 +343,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "…무슨 꿍꿍이지?",
 			painting = {
@@ -360,11 +360,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "꿍꿍이라… 어디 보자, 지금 네 백업을 하나 활성화하면 어떻게 될까?",
 			painting = {
@@ -377,11 +377,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "...그게 너희의 계획인가?",
 			painting = {
@@ -394,11 +394,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "잔불은 예전과 같이 행동만 하고 생각은 안 하나 보군….",
 			painting = {
@@ -411,11 +411,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "시간 낭비다.",
 			painting = {
@@ -428,11 +428,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "네가 무슨 생각인지 다 알아.",
 			painting = {
@@ -445,11 +445,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "\"제로의 권한 없이, 이런 일이 어떻게 가능하냐고?\"",
 			painting = {
@@ -462,11 +462,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "만약 내가 '조물주'의 긴급 식별 코드를 가지고 있다면 어떨까?",
 			painting = {
@@ -479,11 +479,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "…뭐? 조물주 어르신의…? 말도 안 돼!",
 			painting = {
@@ -501,11 +501,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "…안제가 한번 나한테 보여주면서 자랑한 적 있거든.",
 			painting = {
@@ -518,11 +518,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "마침 기억났어.",
 			painting = {
@@ -535,11 +535,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "……………",
 			painting = {
@@ -552,11 +552,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "하지만 사용한 뒤 바로 발각될 텐데?",
 			painting = {
@@ -569,11 +569,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "게다가 허밋을 하나 더 활성화한다고 뭘 어쩔 수 있을 것 같아?",
 			painting = {
@@ -586,11 +586,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "이런 경우, 동기화 통합 프로토콜은 자동으로 실행돼.",
 			painting = {
@@ -603,11 +603,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "넌 단지 널 위한 적을 하나 더 늘린 셈이지.",
 			painting = {
@@ -620,11 +620,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "본체에 있는 데이터를 수정해서 다시 활성화한다면?",
 			painting = {
@@ -637,11 +637,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "뭐?! 너, 대체 뭘 하려는 거지…!?",
 			painting = {
@@ -665,11 +665,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "이미 알고 있을 텐데?",
 			painting = {
@@ -688,11 +688,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "지금 자폭해도 소용없어.",
 			painting = {
@@ -705,11 +705,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "이 공간의 신호 차단은 특별히 널 위해 준비한 것이니까.",
 			painting = {
@@ -722,11 +722,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "본체와의 연락이 완전히 끊겼다는 건 너도 발견했겠지?",
 			painting = {
@@ -739,11 +739,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "…신호 차단? 어디서 그런 기술과 장치를 얻은 거지?",
 			painting = {
@@ -756,11 +756,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "과거에, 그때.",
 			painting = {
@@ -773,11 +773,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "...안티오코스 테스트의 일환으로써 말이야.",
 			painting = {
@@ -790,11 +790,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "...이런 장치가 있는데도 왜 이전에 단 한번도 사용하지 않은 거지?",
 			painting = {
@@ -807,11 +807,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "난 안티오코스의 장비에 관심이 없거든.",
 			painting = {
@@ -824,11 +824,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "얼마 전까지만해도 그랬어, 지금은 생각이 바뀌었지만.",
 			painting = {
@@ -841,11 +841,11 @@ return {
 			}
 		},
 		{
-			actor = 900287,
 			nameColor = "#ff5c5c",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900287,
 			actorName = "아비터·허밋·IX",
 			say = "……………",
 			painting = {
@@ -858,11 +858,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "이게 다야.",
 			painting = {
@@ -875,11 +875,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "곧 네 본체가 있는 곳을 찾아낼 거야, 네가 졌어.",
 			painting = {
@@ -892,8 +892,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			say = "(공기가 진동하는 소리——)",
 			typewriter = {
@@ -902,11 +902,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "…응? 이 느낌은.",
 			painting = {
@@ -937,11 +937,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_zhuiluo_2",
 			side = 2,
+			bgName = "bg_zhuiluo_2",
 			dir = 1,
+			actor = 900135,
 			actorName = "엔터프라이즈·META",
 			say = "뭐?!",
 			painting = {
@@ -965,11 +965,11 @@ return {
 			}
 		},
 		{
-			actor = 900325,
 			nameColor = "#a020f0",
-			bgName = "star_level_bg_1104",
 			side = 2,
+			bgName = "star_level_bg_1104",
 			dir = 1,
+			actor = 900325,
 			actorName = "544845544F574552",
 			say = "53 74 61 72 74 75 70 62 61 63 6B 75 70 70 72 6F 74 6F 63 6F 6C 2E",
 			painting = {
@@ -995,11 +995,11 @@ return {
 			}
 		},
 		{
-			actor = 900325,
 			nameColor = "#a020f0",
-			bgName = "star_level_bg_1104",
 			side = 2,
+			bgName = "star_level_bg_1104",
 			dir = 1,
+			actor = 900325,
 			actorName = "544845544F574552",
 			say = "45 78 65 63 75 74 65 74 72 61 6E 73 70 6F 72 74 70 72 6F 74 6F 63 6F 6C 2E",
 			painting = {

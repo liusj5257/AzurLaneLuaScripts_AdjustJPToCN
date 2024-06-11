@@ -3,12 +3,12 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			soundeffect = "event:/battle/boom2",
 			side = 2,
+			nameColor = "#A9F548FF",
 			stopbgm = true,
 			bgm = "battle-whaling-normal",
 			say = "――――！！ ",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "この距離での砲撃でも装甲を貫通できないとは…",
 			painting = {
 				alpha = 0.3,
@@ -85,10 +85,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "――――！！ ",
+			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
+			say = "――――！！ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,9 +136,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 201360,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "リシュリューの攻撃を回避した？！あんなにボロボロなのに！",
 			painting = {
 				alpha = 0.3,
@@ -150,8 +150,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -168,9 +168,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 202330,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "「META」が直接戦わず計略をぶつけるのも頷けますね",
 			painting = {
 				alpha = 0.3,
@@ -191,8 +191,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			say = "セイレーンによる自律兵器とは言え、上位個体に匹敵する戦闘力を持っているようです",
 			painting = {
 				alpha = 0.3,
@@ -207,8 +207,8 @@ return {
 			expression = 5,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 205140,
 			dir = 1,
+			actor = 205140,
 			say = "そんな……",
 			painting = {
 				alpha = 0.3,
@@ -223,8 +223,8 @@ return {
 			expression = 6,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 205140,
 			dir = 1,
+			actor = 205140,
 			say = "損傷した騎士相手なのに、リシュリュー枢機卿や「余燼」の力を借りてもまだ倒せないの…？",
 			painting = {
 				alpha = 0.3,
@@ -239,8 +239,8 @@ return {
 			expression = 4,
 			side = 2,
 			paintingNoise = true,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "一つ訂正よ。「余燼」は戦っていないわね",
 			painting = {
@@ -256,8 +256,8 @@ return {
 			actor = 207070,
 			side = 2,
 			nameColor = "#A9F548FF",
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "ラ・ガリソニエール、さっき一緒に戦うって約束したでしょ？そこで何をしているの？",
 			painting = {
 				alpha = 0.3,
@@ -287,8 +287,8 @@ return {
 			expression = 5,
 			side = 2,
 			paintingNoise = true,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "祈っている…？まさか手加減してほしいとかじゃないわよね？",
 			painting = {
@@ -304,8 +304,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "そんなわけないでしょ！アンチエックスに破滅あれって祈ってるよ――",
 			painting = {
 				alpha = 0.3,
@@ -320,8 +320,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "「……慈悲なるアイリス、我はその聖なる言葉を聞き、その貴き意志を実現す……」",
 			painting = {
 				alpha = 0.3,
@@ -336,8 +336,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "「……我らが仇を御身の仇とし、我らが怨敵を御身の怨敵とし……」",
 			painting = {
 				alpha = 0.3,
@@ -352,8 +352,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "「……不義と罪を洗い落とす、聖なる洗礼の力をこの身に宿し給え！」",
 			painting = {
 				alpha = 0.3,
@@ -365,9 +365,9 @@ return {
 			}
 		},
 		{
-			eventDelay = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
+			eventDelay = 2,
 			say = "ラ・ガリソニエールの祈りの声が響き、まるで清々しい風が戦場を通り過ぎたかのように、さっきまでの重苦しい雰囲気があっという間にかき消された。",
 			typewriter = {
 				speed = 0.05,
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "「黒の騎士」の動きも鈍くなり、戦いの趨勢は徐々にインプラカブルたちに傾き始めた。",
 			typewriter = {
 				speed = 0.05,
@@ -393,8 +393,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "「黒の騎士」が…弱くなっている？",
 			painting = {
 				alpha = 0.3,
@@ -423,9 +423,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 900353,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "「余燼」所属、軽巡ラ・ガリソニエール――楽しませてもらうよ！はははは！",
 			painting = {
 				alpha = 0.3,

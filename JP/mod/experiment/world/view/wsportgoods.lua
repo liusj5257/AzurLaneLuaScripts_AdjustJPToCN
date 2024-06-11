@@ -1,35 +1,35 @@
 slot0 = class("WSPortGoods", import("...BaseEntity"))
 slot0.Fields = {
-	transform = "userdata",
-	rtMask = "userdata",
-	goods = "table",
+	txCount = "userdata",
 	txName = "userdata",
+	goods = "table",
+	transform = "userdata",
 	rtResIcon = "userdata",
 	rtItem = "userdata",
-	txCount = "userdata",
+	rtMask = "userdata",
 	rtResCount = "userdata"
 }
 slot0.Listeners = {
 	onUpdate = "Update"
 }
 
-function slot0.Build(slot0, slot1)
+slot0.Build = function(slot0, slot1)
 	slot0.transform = slot1
 end
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.goods = slot1
 
 	slot0.goods:AddListener(WorldGoods.EventUpdateCount, slot0.onUpdate)
 	slot0:Init()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.goods:RemoveListener(WorldGoods.EventUpdateCount, slot0.onUpdate)
 	slot0:Clear()
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0.transform
 	slot0.rtMask = slot1:Find("mask")
 	slot0.rtItem = slot1:Find("IconTpl")
@@ -53,7 +53,7 @@ function slot0.Init(slot0)
 	slot0:Update()
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	if slot1 == nil or slot1 == WorldGoods.EventUpdateCount then
 		setText(slot0.txCount, slot0.goods.count .. "/" .. slot0.goods.config.frequency)
 		setActive(slot0.rtMask, slot0.goods.count == 0)

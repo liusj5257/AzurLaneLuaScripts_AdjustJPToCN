@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING25",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
+			say = "클레망소가 부른 기사에게 '마르코 폴로'가 격추되었을 때, 사쿠라 엠파이어와 아이리스 리브레의 혼성 함대도 그 근처에 있었다.",
 			stopbgm = true,
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgm = "theme-thehierophantV",
-			say = "클레망소가 부른 기사에게 '마르코 폴로'가 격추되었을 때, 사쿠라 엠파이어와 아이리스 리브레의 혼성 함대도 그 근처에 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "본래 주변 해역의 적을 소탕하기 위해 파견된 함대였으나, 하늘을 나는 '묵시록의 기사'가 기능을 정지한 것이 확인되자, 바로 조사에 착수했다.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "'마르코 폴로'가 미쳤든, 누군가에게 조종당했든, 끌어올려야 하는 건 마찬가지였기에――",
@@ -45,10 +45,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 803010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "옥좌 위치는 이쯤일 거야! 다들 조심해!",
 			painting = {
 				alpha = 0.3,
@@ -59,17 +59,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -80,10 +80,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(하늘이 어두워지긴 했지만, 이 주변은 주변 공간보다도 어둡게 느껴지네.)",
 			painting = {
 				alpha = 0.3,
@@ -98,10 +98,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(마치 빛의 반사조차 거부하고 있는 듯한… 오히려 빈 공동에 가까운…?)",
 			painting = {
 				alpha = 0.3,
@@ -116,10 +116,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "시마카제가 탐조등을 비춰볼게요!",
 			painting = {
 				alpha = 0.3,
@@ -134,10 +134,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이러면……",
 			painting = {
 				alpha = 0.3,
@@ -149,8 +149,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "탐조등의 빛이 주변을 밝게 비추자, 그 너머 안개 속으로 칠흑 같은 구체가 모습을 드러냈다.",
@@ -159,17 +159,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.125,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.125,
 				dur = 0.125,
 				black = true,
+				delay = 0.125,
 				alpha = {
 					1,
 					0
@@ -180,10 +180,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 301290,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "새, 새까매… 빛을 흡수하고 있는 걸까요…?",
 			painting = {
 				alpha = 0.3,
@@ -195,12 +195,12 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이런 걸 블랙홀이라고 하던가…?",
 			painting = {
 				alpha = 0.3,
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "마치 다른 세상으로 통하는 빈 공동과도 같은 구체가 수면에 떠올라 있다.",
@@ -226,10 +226,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "반원형… 아니, 고치 같기도 한데? 다행히 대부분은 아직 물속에 있는 것 같지만…",
 			painting = {
 				alpha = 0.3,
@@ -244,10 +244,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "비적 중에 비슷한 게 있다는 기록을 어딘가에서 본 것 같아.",
 			painting = {
 				alpha = 0.3,
@@ -259,12 +259,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "드로이드에서 방출된 정체불명의 물질이 적을 만들어 내고 있다는 건 확실해요.",
 			painting = {
 				alpha = 0.3,
@@ -276,12 +276,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그렇다면 그 물질의 형태에 따라 다양한 종류의 적을 만들어 낼 수 있는 건지도 몰라요.",
 			painting = {
 				alpha = 0.3,
@@ -293,12 +293,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "하늘의 '구름'에서는 이형의 함재기가 나왔고, 땅을 덮은 '고치'에서는 양산함처럼 보이는 적들이 나타났죠.",
 			painting = {
 				alpha = 0.3,
@@ -313,10 +313,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302210,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "바다에 떠 있는 이 새까만 '공동'에서도 또 다른 적이 나올 수 있어요.",
 			painting = {
 				alpha = 0.3,
@@ -328,12 +328,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "내부를 확인하는 건 불가능하지만……",
 			painting = {
 				alpha = 0.3,
@@ -348,10 +348,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302210,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "만약 적을 만들어 내는 존재라면, 완전히 작동하기 전에 파괴하는 편이 좋지 않을까요?",
 			painting = {
 				alpha = 0.3,
@@ -363,12 +363,12 @@ return {
 			}
 		},
 		{
-			actor = 302210,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "시나노 씨, 어떻게 할까요? 공격할까요?",
 			painting = {
 				alpha = 0.3,
@@ -383,10 +383,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "노시로의 제안… 일리가 있군. 잔의 생각은 어떠한가?",
 			painting = {
 				alpha = 0.3,
@@ -401,10 +401,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "정보 수집도 중요하지만, 노시로 씨 말대로 지금이 기회인 것 같아요.",
 			painting = {
 				alpha = 0.3,
@@ -416,12 +416,12 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…일단 거리를 두고, 항공모함의 함재기로 공격하죠.",
 			painting = {
 				alpha = 0.3,
@@ -436,10 +436,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 802020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그러면 무슨 일이 일어나도 바로 철수할 수 있으니까요.",
 			painting = {
 				alpha = 0.3,
@@ -451,12 +451,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "알았다… 하쿠류, 폭격 준비를……",
 			painting = {
 				alpha = 0.3,
@@ -468,12 +468,12 @@ return {
 			}
 		},
 		{
-			actor = 399050,
 			side = 2,
 			bgName = "bg_underheaven_6",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 399050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래, 기다리다 목이 빠지는 줄 알았다고.",
 			painting = {
 				alpha = 0.3,
@@ -485,12 +485,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_underheaven_6",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "―――!!!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -536,8 +536,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "하쿠류가 날린 함재기가 폭탄을 투하해, '고치' 표면에 폭발을 일으켰다.",
@@ -547,8 +547,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "하지만 다음 순간, 고치에서 충격파가 터져 나왔다.",
@@ -558,8 +558,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_6",
 			hidePaintObj = true,
 			say = "하루큐뿐만 아니라, 노시로, 시나노, 잔 다르크까지… 검은 안개가 그 자리에 있던 모든 함선을 집어삼켰다.",
@@ -569,8 +569,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 3,
 			blackBg = true,
 			sequence = {
@@ -584,17 +584,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -602,13 +602,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
+			say = "화려하게 장식된 집무실. 마르코 폴로가 초췌한 얼굴로 의자에 앉아 있다.",
 			oldPhoto = true,
 			bgm = "theme-threat-typeV",
-			say = "화려하게 장식된 집무실. 마르코 폴로가 초췌한 얼굴로 의자에 앉아 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,13 +691,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "사르데냐 엠파이어를 다시 부흥시키려고 하는데, 위광을 전 세계에 퍼뜨리려고 하는데… 누구 하나 공감해 주지 않아.",
 			painting = {
 				alpha = 0.3,
@@ -747,8 +747,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -759,13 +759,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "낡은 십자가네. 이런 게 여기 있었던가?",
 			painting = {
 				alpha = 0.3,
@@ -777,8 +777,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -804,13 +804,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……?!",
 			effects = {
 				{
@@ -828,13 +828,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			oldPhoto = true,
-			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_501",
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이건…… '신'의 계시……?",
 			painting = {
 				alpha = 0.3,
@@ -861,13 +861,13 @@ return {
 			}
 		},
 		{
-			actor = 699010,
 			side = 2,
 			bgName = "star_level_bg_501",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
+			dir = 1,
+			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "세이렌을 무찌르는 자의 힘……",
 			effects = {
 				{
@@ -903,8 +903,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_501",
-			oldPhoto = true,
 			dir = 1,
+			oldPhoto = true,
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

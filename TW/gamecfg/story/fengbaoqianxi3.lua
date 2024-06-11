@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FENGBAOQIANXI3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FENGBAOQIANXI3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102150,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level02",
 			dir = 1,
 			say = "哎嘿嘿，貨物平穩送達~",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "大家護航辛苦了",
 			typewriter = {
 				speed = 0.05,
@@ -61,8 +61,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "為了籌備會議嘛...物資調配，布防調整的資料報告，人員聯絡的事項...要準備的工作像山一樣多！",
 			typewriter = {
 				speed = 0.05,
@@ -76,9 +76,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "現在司令部又人手緊張，我就只好過來頂一下啦...我的周末啊...咳咳，失態了！",
 			typewriter = {
 				speed = 0.05,
@@ -90,8 +90,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -118,8 +118,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "企業，按照原計劃妳們要與衝突海域的克里夫蘭艦合流，之後前往護衛指揮官的艦隊對吧？",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -204,8 +204,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "關於護航艦隊，司令部已經與指揮官重新進行了安排，請不用擔心。",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "其它情況我也不是很清楚，總之先看一下文件吧",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "如果要進入危險區域作戰的話，一定要注意裝備保養和物資補給喲",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "呼呼，可能是受到熱烈氣氛的調動，我不知不覺中鼓起精神了吧~",
 			typewriter = {
 				speed = 0.05,
@@ -298,8 +298,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "那麼，司令部的指令就算傳達完畢，我還有別的工作要做就先失陪了。",
 			typewriter = {
 				speed = 0.05,
@@ -326,14 +326,14 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "唔...根據作戰計劃，我們需要前往塞壬威脅等級4的海域執行偵察任務",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -403,14 +403,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
-			stopbgm = true,
+			side = 2,
 			dir = 1,
+			stopbgm = true,
 			say = "呵呵呵~一路小心哦",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

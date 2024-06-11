@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"渡假村神秘事件調查\n\n<size=45>平凡溫馨渡假村</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
-			say = "溫泉渡假村·主宅",
 			bgm = "cw-story",
+			say = "溫泉渡假村·主宅",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,11 +48,11 @@ return {
 			}
 		},
 		{
-			actor = 302231,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "溫泉度假中",
 			dir = 1,
+			actor = 302231,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "房間也都打掃完了，保證一塵不染~",
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 305130,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "純樸的老闆娘",
 			dir = 1,
+			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "零食和飲料都準備好了，商店裡的商品也都齊全~嘿嘿~假期的生意一定會很好！",
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 302215,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "融化的冰美人",
 			dir = 1,
+			actor = 302215,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "渡假村商店啊……",
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			actor = 305130,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "純樸的老闆娘",
 			dir = 1,
+			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "唔……明石好像有什麼事忙不開，就把生意忍痛割愛讓給我了。",
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "蝶海夢花",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "能代，手續辦得怎麼樣？",
@@ -176,8 +176,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -281,11 +281,11 @@ return {
 			}
 		},
 		{
-			actor = 302070,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "現在是由良哦",
 			dir = 1,
+			actor = 302070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "信濃大人，島風在不久前提出要巡邏渡假村確保安全，駿河不放心就跟她一起去了。",
@@ -318,11 +318,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_516",
 			factiontag = "蝶海夢花",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "巡查嗎……不必，就隨她們二人去吧。",
@@ -336,28 +336,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_in",
+			bgm = "cw-level",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "溫泉渡假村·街道",
-			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -384,11 +384,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "其疾如風！",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "駿河閣下，這裡實在是太可疑了！",
@@ -402,11 +402,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "不想引人注目",
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "呃……可疑的點在？",
@@ -420,11 +420,11 @@ return {
 			}
 		},
 		{
-			actor = 301290,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "其疾如風！",
 			dir = 1,
+			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "現在明明是白天，可是街道上卻亮著燈！",
@@ -514,8 +514,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -543,11 +543,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "不想引人注目",
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "是是~很可疑，很可疑。",
@@ -565,8 +565,8 @@ return {
 			mode = 1,
 			movableNode = {
 				{
-					time = 2,
 					name = "story_denglonggui",
+					time = 2,
 					spine = {
 						action = "move",
 						scale = 8
@@ -629,8 +629,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -639,11 +639,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "不想引人注目",
 			dir = 1,
+			actor = 305140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……什麼？",
@@ -714,28 +714,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_517",
+			bgm = "xinnong-3",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "與此同時，主宅（？）之中。",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -743,8 +743,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自稱小生的老者",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "自稱小生的老者",
 			nameColor = "#A9F548FF",
@@ -764,8 +764,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "河童",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "為了不再怕人……",
 			nameColor = "#A9F548FF",
@@ -785,8 +785,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雪女",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "雪女作戰中",
 			nameColor = "#A9F548FF",
@@ -806,8 +806,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海坊主",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "有實力的年長者",
 			nameColor = "#A9F548FF",
@@ -827,14 +827,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "蝶海夢花",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "汝等是……妖怪？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -845,8 +845,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "妖怪劇團喵",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "妖怪劇團喵",
 			nameColor = "#A9F548FF",
@@ -866,8 +866,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "妖怪劇團喵",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "妖怪劇團喵",
 			nameColor = "#A9F548FF",
@@ -887,14 +887,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "蝶海夢花",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "妾身，在此地感受到了結界的氣息。",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -924,8 +924,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "在溫泉開party！",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "在溫泉開party！",
 			nameColor = "#A9F548FF",
@@ -945,8 +945,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自稱小生的老者",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "自稱小生的老者",
 			nameColor = "#A9F548FF",
@@ -966,11 +966,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "蝶海夢花",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "「汝等，說什麼？」",
 			painting = {
@@ -1017,8 +1017,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自稱小生的老者",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "自稱小生的老者",
 			nameColor = "#A9F548FF",
@@ -1038,8 +1038,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "河童",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "為了不再怕人……",
 			nameColor = "#A9F548FF",
@@ -1059,8 +1059,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海坊主",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "有實力的年長者",
 			nameColor = "#A9F548FF",
@@ -1080,8 +1080,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "妖怪劇團喵",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "妖怪劇團喵",
 			nameColor = "#A9F548FF",
@@ -1119,8 +1119,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",
@@ -1140,8 +1140,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",
@@ -1161,8 +1161,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",
@@ -1182,14 +1182,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "蝶海夢花",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "……無妨。",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1200,8 +1200,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",
@@ -1221,8 +1221,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",
@@ -1242,8 +1242,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "現在是劇團長zZZ",
+			side = 2,
 			bgName = "star_level_bg_517",
 			factiontag = "現在是劇團長zZZ",
 			nameColor = "#A9F548FF",

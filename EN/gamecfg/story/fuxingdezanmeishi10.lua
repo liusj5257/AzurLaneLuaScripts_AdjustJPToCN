@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI10",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -39,10 +39,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "What is that...? It's nothing like what Carabiniere described...",
 			typewriter = {
 				speed = 0.05,
@@ -102,10 +102,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Woahhhhh...",
 			typewriter = {
 				speed = 0.05,
@@ -120,10 +120,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "This is the Labyrinth, right? Maestrale, have you ever heard of anything like this before? It's amazing!",
 			typewriter = {
 				speed = 0.05,
@@ -135,8 +135,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Calm down, Libeccio...",
 			typewriter = {
 				speed = 0.05,
@@ -162,12 +162,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "It may just be a mirage. Aquila, can you send your planes over it to give us a visual confirmation?",
 			typewriter = {
 				speed = 0.05,
@@ -182,10 +182,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Everyone, continue to monitor the condition of your communications equipment.",
 			typewriter = {
 				speed = 0.05,
@@ -197,12 +197,12 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "Everyone",
+			side = 0,
 			bgName = "bg_italyv2_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Understood!",
 			dialogShake = {
 				speed = 0.09,

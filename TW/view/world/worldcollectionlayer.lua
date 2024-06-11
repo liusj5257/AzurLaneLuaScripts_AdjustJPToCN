@@ -1,10 +1,10 @@
 slot0 = class("WorldCollectionLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldCollectionUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot1 = slot0._tf
 	slot0.top = slot1:Find("top")
 	slot1 = slot0.top
@@ -19,7 +19,7 @@ function slot0.init(slot0)
 	slot0.btnGetAll = slot1:Find("list_bg/btn_get_all")
 	slot0.scrollEntrance = GetComponent(slot0.entranceContainer, "LScrollRect")
 
-	function slot0.scrollEntrance.onUpdateItem(slot0, slot1)
+	slot0.scrollEntrance.onUpdateItem = function(slot0, slot1)
 		slot0 = slot0 + 1
 		slot2 = tf(slot1)
 		slot3 = uv0.achEntranceList[slot0]
@@ -45,7 +45,7 @@ function slot0.init(slot0)
 		end, SFX_PANEL)
 	end
 
-	function slot0.scrollEntrance.onReturnItem(slot0, slot1)
+	slot0.scrollEntrance.onReturnItem = function(slot0, slot1)
 		if uv0.exited then
 			return
 		end
@@ -93,7 +93,7 @@ function slot0.init(slot0)
 			if slot8 and #slot6:GetTriggers() > 1 then
 				slot13 = slot9:Find("Text")
 
-				function slot15(slot0, slot1)
+				slot15 = function(slot0, slot1)
 					slot2 = uv0[slot0]
 
 					setText(slot1, slot2:GetDesc())
@@ -133,7 +133,7 @@ function slot0.init(slot0)
 	end)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.subviewAchAward:isShowing() then
 		slot0.subviewAchAward:ActionInvoke("Hide")
 	else
@@ -141,7 +141,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
@@ -206,16 +206,16 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot0.topToggles:Find("all"), true)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.subviewAchAward:Destroy()
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end
 
-function slot0.SetAchievementList(slot0, slot1)
+slot0.SetAchievementList = function(slot0, slot1)
 	slot0.baseEntranceList = slot1
 end
 
-function slot0.BuildEntranceScrollPos(slot0)
+slot0.BuildEntranceScrollPos = function(slot0)
 	slot0.entrancePos = {}
 	slot0.entranceIndexDic = {}
 
@@ -230,7 +230,7 @@ function slot0.BuildEntranceScrollPos(slot0)
 	end
 end
 
-function slot0.UpdateEntranceFilter(slot0, slot1)
+slot0.UpdateEntranceFilter = function(slot0, slot1)
 	if slot1 then
 		slot0.achEntranceList = underscore.filter(slot0.baseEntranceList, function (slot0)
 			slot1, slot2, slot3 = nowWorld():CountAchievements(slot0)
@@ -254,13 +254,13 @@ function slot0.UpdateEntranceFilter(slot0, slot1)
 	slot0:ScrollAndSelectEntrance(defaultValue(slot0.entranceIndexDic[slot0.contextData.entranceId], 1))
 end
 
-function slot0.UpdateGetAllAwardBtn(slot0)
+slot0.UpdateGetAllAwardBtn = function(slot0)
 	slot1, slot2 = nowWorld():GetFinishAchievements(slot0.achEntranceList)
 
 	setActive(slot0.btnGetAll, pg.gameset.world_target_obtain.key_value <= #slot1)
 end
 
-function slot0.FlushEntranceItem(slot0, slot1)
+slot0.FlushEntranceItem = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		if not nowWorld():AnyUnachievedAchievement(slot0.achEntranceList[slot0.entranceIndexDic[slot6.id]]) then
 			if slot0.entranceOjbecDic[slot7] then
@@ -274,7 +274,7 @@ function slot0.FlushEntranceItem(slot0, slot1)
 	slot0:UpdateGetAllAwardBtn()
 end
 
-function slot0.UpdateAchievement(slot0, slot1, slot2)
+slot0.UpdateAchievement = function(slot0, slot1, slot2)
 	if slot2 or slot0.selectedIndex ~= slot1 then
 		slot0.selectedIndex = slot1
 
@@ -293,7 +293,7 @@ function slot0.UpdateAchievement(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetAwardIndex(slot0, slot1)
+slot0.GetAwardIndex = function(slot0, slot1)
 	slot2 = slot0.entrancePos[#slot0.achEntranceList] - 1
 
 	if slot1 then
@@ -319,17 +319,17 @@ function slot0.GetAwardIndex(slot0, slot1)
 	end
 end
 
-function slot0.ScrollAndSelectEntrance(slot0, slot1)
+slot0.ScrollAndSelectEntrance = function(slot0, slot1)
 	slot0:UpdateAchievement(slot1, true)
 	slot0.scrollEntrance:ScrollTo(math.clamp(slot0.entrancePos[slot1] - (slot0.entrancePos[#slot0.achEntranceList] - 1) / 2, 0, 1))
 end
 
-function slot0.UpdateJumpBtn(slot0)
+slot0.UpdateJumpBtn = function(slot0)
 	setActive(slot0.rtMain:Find("list_bg/jump_icon_left"), slot0:GetAwardIndex(false))
 	setActive(slot0.rtMain:Find("list_bg/jump_icon_right"), slot0:GetAwardIndex(true))
 end
 
-function slot0.FlushAchievement(slot0)
+slot0.FlushAchievement = function(slot0)
 	slot0:UpdateJumpBtn()
 
 	slot1 = nowWorld()
@@ -372,12 +372,12 @@ function slot0.FlushAchievement(slot0)
 	setActive(slot0.entrancePanel:Find("page_right"), slot0.selectedIndex < #slot0.achEntranceList)
 end
 
-function slot0.flushAchieveUpdate(slot0, slot1)
+slot0.flushAchieveUpdate = function(slot0, slot1)
 	slot0:FlushEntranceItem(slot1)
 	slot0:FlushAchievement()
 end
 
-function slot0.showAchAwardPanel(slot0, slot1)
+slot0.showAchAwardPanel = function(slot0, slot1)
 	slot0.subviewAchAward:Load()
 	slot0.subviewAchAward:ActionInvoke("Setup", slot1)
 	slot0.subviewAchAward:ActionInvoke("Show")

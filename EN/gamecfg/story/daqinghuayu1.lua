@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAQINGHUAYU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAQINGHUAYU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Submarine Subterfuge!\n\n<size=45>Chapter 1: Morning Surprise</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Office",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I had gone through my morning routine and was right outside the door to my office. It seemed like it was going to be a normal morning.",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Opening the door and stepping into the office, I heard all manner of different clinks, clanks, and ticks radiating from somewhere.",
 			typewriter = {
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Listening closely, I assessed that they were coming from the back.",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I scanned the place to get an idea of what might be making the noises, but I couldn't spot anything unusual.",
 			typewriter = {
 				speed = 0.05,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Okay, let's stop and think for a moment. Remember yesterday...",
 			typewriter = {
 				speed = 0.05,
@@ -108,16 +108,16 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Hey, by the way, I've left a little surprise somewhere in your office~!",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -144,10 +144,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Hehehe! Believe me when I say it'll be a bucket of laughs when you find it!",
 			typewriter = {
 				speed = 0.05,
@@ -159,14 +159,14 @@ return {
 			}
 		},
 		{
-			say = "A surprise? What kind of \"surprise\"?",
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			bgm = "story-1",
+			side = 2,
+			dir = 1,
+			bgName = "bg_story_task",
+			say = "A surprise? What kind of \"surprise\"?",
 			flashout = {
-				black = true,
 				dur = 0.2,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -187,20 +187,20 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/boat_drag",
+			say = "All of a sudden, something on one of the shelves made a clicking sound.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "All of a sudden, something on one of the shelves made a clicking sound.",
+			soundeffect = "event:/ui/boat_drag",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "It came from a stuffed animal that had fallen on its back. That wasn't there yesterday.",
 			typewriter = {
 				speed = 0.05,
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Squatting to pick up and inspect the toy, I quickly realized its purpose...",
 			typewriter = {
 				speed = 0.05,
@@ -224,9 +224,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "This was no ordinary stuffed animal... it was the trigger for a trap!",
 			typewriter = {
 				speed = 0.05,
@@ -234,20 +234,20 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/hit",
+			say = "Whiiish! Plonk! Splasssh!",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "Whiiish! Plonk! Splasssh!",
+			soundeffect = "event:/battle/hit",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "A bucket of water that had been left on the topmost shelf was knocked forwards, splashing its contents over my head and shoulders.",
 			typewriter = {
 				speed = 0.05,
@@ -255,11 +255,11 @@ return {
 			}
 		},
 		{
-			actor = 108020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Good morning, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -281,9 +281,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Albacore appeared out of the blue with a towel in one hand and a mop in the other.",
 			typewriter = {
 				speed = 0.05,
@@ -310,8 +310,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 108020,
 			dir = 1,
+			actor = 108020,
 			nameColor = "#a9f548",
 			say = "A lot of thought went into the delivery method and the trigger mechanism to make sure only your head gets drenched! Everything went according to my plan!",
 			typewriter = {
@@ -324,8 +324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -334,9 +334,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "That little brat! I should've known!",
 			typewriter = {
 				speed = 0.05,

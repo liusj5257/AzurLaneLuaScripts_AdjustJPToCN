@@ -6,9 +6,9 @@ return {
 			style = {
 				text = "일부 임무는 조건 달성 후 수동으로 제출해야 합니다.",
 				mode = 2,
-				posY = -196.73,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -196.73,
 				posX = 253.65
 			},
 			ui = {
@@ -17,11 +17,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 57.21,
+					rotateY = 0,
 					posY = -29.42,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 57.21
 				}
 			}
 		},
@@ -30,9 +30,9 @@ return {
 			style = {
 				text = "임무 제출 아이템을 터치하여 보상 수령.",
 				mode = 2,
-				posY = 0,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = 0,
 				posX = 412.62
 			},
 			ui = {
@@ -41,11 +41,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 196.2,
+					rotateY = 0,
 					posY = -74.12,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 196.2
 				}
 			}
 		}

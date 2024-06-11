@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024罗德尼meta 投影监听",
 	time = 0,
-	color = "yellow",
+	name = "2024罗德尼meta 投影监听",
+	init_effect = "",
+	id = 200801,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200801,
+	color = "yellow",
 	icon = 200801,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				maxTargetNumber = 0,
-				time = 0.1,
 				target = "TargetSelf",
+				time = 0.1,
+				maxTargetNumber = 0,
 				skill_id = 200808,
 				check_target = {
 					"TargetAllHelp",

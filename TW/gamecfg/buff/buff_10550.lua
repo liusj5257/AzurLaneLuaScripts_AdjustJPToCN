@@ -62,12 +62,12 @@ return {
 	desc_get = "每隔35秒，回复全队耐久，回复量为{namecode:98}耐久的1.0%(满级3.0%)",
 	name = "后勤维修",
 	init_effect = "",
+	id = 10550,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "每隔35秒，回复全队耐久，回复量为{namecode:98}耐久的$1",
 	stack = 1,
-	id = 10550,
+	color = "blue",
 	icon = 10550,
 	last_effect = "Health",
 	effect_list = {
@@ -77,9 +77,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 10550,
 				time = 35,
-				target = "TargetSelf",
-				skill_id = 10550
+				target = "TargetSelf"
 			}
 		}
 	}

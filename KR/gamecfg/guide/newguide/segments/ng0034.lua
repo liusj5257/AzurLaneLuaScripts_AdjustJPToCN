@@ -19,8 +19,8 @@ return {
 			style = {
 				text = "제어 센터 기능이 해제되었어요.",
 				mode = 1,
-				posY = -214.2,
 				dir = 1,
+				posY = -214.2,
 				posX = 477.25
 			}
 		},
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			alpha = 0,
 			waitScene = "AtelierBuffLayer",
+			alpha = 0,
 			code = {
 				1
 			},
@@ -60,8 +60,8 @@ return {
 			style = {
 				text = "코어를 제어판에 투입해 봅시다. 좌측의 원판을 터치하세요.",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = -370.59
 			}
 		},
@@ -83,8 +83,8 @@ return {
 			style = {
 				text = "보유한 코어를 투입하세요.",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 0
 			}
 		},
@@ -96,12 +96,12 @@ return {
 			style = {
 				text = "적용된 효과 보너스는 여기에 표시됩니다.",
 				mode = 1,
-				posY = 372.9,
 				dir = 1,
+				posY = 372.9,
 				posX = -182.6,
 				ui = {
-					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Effects/ScrollView",
-					lineMode = true
+					lineMode = true,
+					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Effects/ScrollView"
 				}
 			}
 		},
@@ -113,12 +113,12 @@ return {
 			style = {
 				text = "코어는 아틀리에를 통해 획득할 수 있습니다.",
 				mode = 1,
-				posY = 0,
 				dir = 1,
+				posY = 0,
 				posX = 461.5,
 				ui = {
-					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Items/List/1",
-					lineMode = true
+					lineMode = true,
+					path = "OverlayCamera/Overlay/UIMain/AtelierBuffUI(Clone)/Items/List/1"
 				}
 			}
 		}

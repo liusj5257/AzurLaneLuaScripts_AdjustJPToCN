@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "시든 숲, 중부 거점으로 향하는 길…",
 			bgm = "story-mmorpg",
+			say = "시든 숲, 중부 거점으로 향하는 길…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -51,11 +51,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "셰피?",
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_176",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "절호의 기회야! 지휘관, 어서 상황을 보러 가자!",
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -193,27 +193,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "중부 거점의 요새로 진입하자, 이미 전투는 끝나 있었다.",
 			bgm = "story-oldcastle-carnival",
+			say = "중부 거점의 요새로 진입하자, 이미 전투는 끝나 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "흐, 흡혈귀를 벌써 두 마리나 쓰러뜨린 건가?!",
@@ -277,8 +277,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -313,11 +313,11 @@ return {
 			}
 		},
 		{
-			actor = 802020,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "신성 교회 성녀",
 			dir = 1,
+			actor = 802020,
 			nameColor = "#A9F548FF",
 			say = "…누구죠?!",
 			painting = {
@@ -345,9 +345,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "궁국적이고 완벽한 뱀파이어",
 			dir = 1,
+			bgName = "star_level_bg_156",
 			bgm = "login-2022401us",
 			actor = 201233,
 			nameColor = "#FF9B93",
@@ -362,17 +362,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "궁국적이고 완벽한 뱀파이어",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "마왕님의 명으로 이 요새의 수장 자리를 계승하게 됐어.",
@@ -436,11 +436,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하지만 부상을 입은 탓에, 그녀 말처럼 완벽한 상태는 아닙니다.",
@@ -473,11 +473,11 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하지만 엄청난 재생력을 가지고 있기 때문에, 지금 바로 공격하지 않으면 안 됩니다.",
@@ -497,8 +497,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "'약점이 존재하지 않는' 강력한 흡혈귀라는 것은 정보 분석 상으로도 사실인 듯하다.",
 			typewriter = {
@@ -506,17 +506,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -524,8 +524,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "하지만 현재 HP는 기껏해야 최대치의 반절에 지나지 않다.",
 			typewriter = {
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "게다가 방 안에는 어떤 장치가 존재하고 있는 것 같다.",
 			typewriter = {
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "궁국적이고 완벽한 뱀파이어",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "후훗, 내게 도전하려고? 목숨이 아깝지 않은 모양이네.",
@@ -598,11 +598,11 @@ return {
 			}
 		},
 		{
-			actor = 201233,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "궁국적이고 완벽한 뱀파이어",
 			dir = 1,
+			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "완벽하고 궁극적인 흡혈귀의 힘을 보여주지!",

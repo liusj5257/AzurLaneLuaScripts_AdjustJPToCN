@@ -1,12 +1,12 @@
 return {
-	id = "W214001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W214001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Returning the Energy Matrix to the platform should lift the Sirens’ blockade.",
 			typewriter = {
 				speed = 0.05,

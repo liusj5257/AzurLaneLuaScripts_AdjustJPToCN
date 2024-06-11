@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_153",
+			nameColor = "#A9F548FF",
 			actorName = "In-Story Narration",
-			stopbgm = true,
-			paintingNoise = true,
+			bgName = "star_level_bg_153",
 			bgm = "cw-story",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
+			paintingNoise = true,
 			hidePaintObj = true,
 			say = "As the white mist cleared, the travelers suddenly found 'emselves in a hella snowy mountain landscape!",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -41,11 +41,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_153",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Wh-where did all this snow come from?!",
@@ -100,10 +100,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "The wind was all, like, super cold, drainin' the travelers of energy and making 'em shudder.",
 			typewriter = {
@@ -115,10 +115,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "Geesh, y'all really screwed the pooch here. No sane person travels up a snowy mountain in this season.",
 			typewriter = {
@@ -146,11 +146,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_153",
 			factiontag = "Little Miss Possessive Demon",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I know that's you, by the way, Owari. What's going on here?",
@@ -167,10 +167,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "I ain't Owari, I'm the narrator!",
 			typewriter = {
@@ -182,10 +182,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And you four are, like, travelers. You're a part of the play!",
 			typewriter = {
 				speed = 0.05,
@@ -193,11 +193,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_153",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Ohhh. This is \"the show\" they mentioned just earlier!",
@@ -230,11 +230,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_153",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Immersive storytelling... I like it!",
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -261,10 +261,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Cool. Then let's carry on.",
 			typewriter = {
 				speed = 0.05,
@@ -275,10 +275,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "So... The travelers kept wadin' through the insano blizzard. It was rough.",
 			typewriter = {
@@ -290,10 +290,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_153",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "They were at their breaking point. Freezing, exhausted, and boutta pass out.",
 			typewriter = {
@@ -305,10 +305,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_153",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But then – bum-bum-buuum – they spotted a hut in the wilderness!",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -366,11 +366,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			paintingNoise = true,
-			actorName = "In-Story Narration",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "The travelers forced the hut's door open with their cold, shaking hands and went in.",
 			typewriter = {
@@ -378,17 +378,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -399,10 +399,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "God must've felt bad for 'em or something, 'cause the hut was full of divine surprises. There was tons of food and firewood, and the hut's walls were thick and durable!",
 			typewriter = {
 				speed = 0.05,
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Phew... We can use the wood to start a fire and warm up!",
@@ -428,11 +428,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "Foo is Here Too",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "There's food, too, so we won't go hungry.",
@@ -465,11 +465,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It's fiiine. This is an emergency, so I'm sure they won't mind!",
@@ -483,11 +483,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Let's roast some meat over the fire until nice and crispy. Aaand... done!",
@@ -501,8 +501,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -511,11 +511,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Frankly, I'm starving, so I'm gonna dig in right now!",
@@ -532,10 +532,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The travelers, free of the freezing temperatures and harsh snow outside, sat around the fire and chewed the fat – and their food.",
 			typewriter = {
 				speed = 0.05,
@@ -546,10 +546,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_165",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "But then, the door flung open with a thud, and a snowy gust blew into the room!",
 			typewriter = {
@@ -558,11 +558,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Brrrr! Someone close the door, quick!",
@@ -576,8 +576,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -608,27 +608,27 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It took a lotta work, but the travelers managed to shut the door. The cabin was quiet once more.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -639,10 +639,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "In-Story Narration",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Or so they thought! The realization hit 'em like a cold breeze – someone else was here!",
 			typewriter = {
 				speed = 0.05,
@@ -650,8 +650,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Livid Yuki-Onna",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "This is Her Acting Master Plan",
 			nameColor = "#A9F548FF",
@@ -690,11 +690,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "No? I didn't hear anything.",
@@ -708,8 +708,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Livid Yuki-Onna",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "This is Her Acting Master Plan",
 			nameColor = "#A9F548FF",
@@ -729,8 +729,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Livid Yuki-Onna",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "This is Her Acting Master Plan",
 			nameColor = "#A9F548FF",
@@ -769,8 +769,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -779,11 +779,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Take it easy! Miss Ghost, do you have any way to prove this is your home?",
@@ -797,8 +797,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Livid Yuki-Onna",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "This is Her Acting Master Plan",
 			nameColor = "#A9F548FF",
@@ -818,11 +818,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Everything? Do you have the landowner documentation? What about the hut's construction permit? If you don't, how can you claim it belongs to you?",
@@ -836,8 +836,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Livid Yuki-Onna",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "This is Her Acting Master Plan",
 			nameColor = "#A9F548FF",
@@ -860,10 +860,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_165",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "At that moment – slam! – the door swung open, and another snowy gust blew into the hut!",
 			typewriter = {
@@ -894,10 +894,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "Headstrong Yuki-Onna",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Stupid mortals! Who gave you permission to enter my hut? I'm gonna turn you into a popsicle as punishment♪",
 			typewriter = {
 				speed = 0.05,
@@ -905,11 +905,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "Foo is Here Too",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Sakawa?",
@@ -926,10 +926,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "Headstrong Yuki-Onna",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'll only say this once, dummy! I am not Sakawa, I am Yuki-Onna!",
 			typewriter = {
 				speed = 0.05,
@@ -969,11 +969,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "This is getting out of hand... Now there are two of them!",
@@ -990,10 +990,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "Headstrong Yuki-Onna",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "No! There is only one of me! Now, tremble in fear! Your shipgirl powers do not work here. You are fully at my–",
 			typewriter = {
 				speed = 0.05,
@@ -1001,11 +1001,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "Thrillseeker and Daredevil",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Okay, pause! Which one of you is the real deal?",
@@ -1019,8 +1019,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Livid Yuki-Onna",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "This is Her Acting Master Plan",
 			nameColor = "#A9F548FF",
@@ -1043,10 +1043,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "Headstrong Yuki-Onna",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She's the impostor! I am the real one!",
 			typewriter = {
 				speed = 0.05,
@@ -1057,10 +1057,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "Headstrong Yuki-Onna",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(whisper) It's in the script, y'know.",
 			typewriter = {
 				speed = 0.05,
@@ -1068,8 +1068,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Livid Yuki-Onna",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "This is Her Acting Master Plan",
 			nameColor = "#A9F548FF",
@@ -1092,10 +1092,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_165",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "Sooo... there were, like, two Yuki-Onnas in the hut.",
 			typewriter = {
@@ -1107,10 +1107,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_165",
-			paintingNoise = true,
-			actorName = "In-Story Narration",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "In-Story Narration",
 			hidePaintObj = true,
 			say = "But then! The door swung open with a loud thud!",
 			typewriter = {
@@ -1151,11 +1151,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "Foo is Here Too",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...Turn us into ice?",
@@ -1172,10 +1172,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301040,
 			actorName = "Lazy Yuki-Onna",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Right, yeah... I'm gonna turn you into ice...",
 			typewriter = {
 				speed = 0.05,
@@ -1205,10 +1205,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301040,
 			actorName = "Lazy Yuki-Onna",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I-I'm not Miyuki, I'm Yuki-Onna...",
 			typewriter = {
 				speed = 0.05,
@@ -1235,11 +1235,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "100-Rolling Investigator",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "There are two more Yuki-Onnas waiting to do the same.",
@@ -1256,10 +1256,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301040,
 			actorName = "Lazy Yuki-Onna",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "T-two more? But... But I'm the real one...",
 			typewriter = {
 				speed = 0.05,
@@ -1270,10 +1270,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302230,
 			actorName = "Headstrong Yuki-Onna",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's exactly what an impostor would say!",
 			typewriter = {
 				speed = 0.05,
@@ -1281,8 +1281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -1291,8 +1291,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Livid Yuki-Onna",
+			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "This is Her Acting Master Plan",
 			nameColor = "#A9F548FF",
@@ -1382,12 +1382,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_165",
-			hidePaintObj = true,
-			actorName = "Headstrong Yuki-Onna",
 			side = 2,
+			bgName = "star_level_bg_165",
+			actor = 302230,
+			actorName = "Headstrong Yuki-Onna",
+			hidePaintObj = true,
 			say = "What? You're saying I'm a poser?",
 			typewriter = {
 				speed = 0.05,
@@ -1395,8 +1395,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -1456,11 +1456,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_165",
 			factiontag = "Little Miss Possessive Demon",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Meanwhile, she's actually dressed to look the part! She's the real Yuki-Onna!",
@@ -1474,13 +1474,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			actorName = "Fu Shun & Bristol",
 			side = 0,
 			bgName = "star_level_bg_165",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			actor = 501020,
-			actorName = "Fu Shun & Bristol",
+			dir = 1,
+			hideOther = true,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Whoa! That makes total sense!",
 			dialogShake = {

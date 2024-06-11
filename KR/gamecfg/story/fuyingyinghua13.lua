@@ -1,14 +1,14 @@
 return {
-	once = true,
-	mode = 2,
-	id = "FUYINGYINGHUA13",
-	continueBgm = true,
 	fadeType = 1,
+	mode = 2,
+	continueBgm = true,
+	once = true,
+	id = "FUYINGYINGHUA13",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>끝나지 않는 기나긴 밤.</size>",
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -70,27 +70,27 @@ return {
 			}
 		},
 		{
-			bgm = "story-6",
-			side = 2,
 			bgName = "bg_xinnong_cg3",
-			say = "며칠 전, 어느 거울 해역.",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			soundeffect = "event:/battle/boom2",
+			bgm = "story-6",
+			say = "며칠 전, 어느 거울 해역.",
 			effects = {
 				{
 					active = false,
 					name = "logo_sakura"
 				},
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -115,9 +115,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg3",
+			dir = 1,
 			say = "공기 중에는 포연이 가득하고, 수면은 잔불로 가득했다.",
 			effect = {
 				{
@@ -135,9 +135,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_xinnong_cg3",
+			side = 2,
+			dir = 1,
 			say = "세이렌의 거점 하나가 궤멸되었다.",
 			typewriter = {
 				speed = 0.05,
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "…정리 완료. 다음 목표는?",
 			typewriter = {
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "………………",
 			typewriter = {
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "……너와 연락할 필요는 없다.",
 			typewriter = {
@@ -326,11 +326,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "그쪽의 계획을 들은 건가…… 너와는 상관 없다. 사라져.",
 			typewriter = {
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "……",
 			typewriter = {
@@ -450,11 +450,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "할 말은 이걸로 끝인가?",
 			typewriter = {
@@ -521,11 +521,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "?!",
 			typewriter = {
@@ -556,11 +556,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "………",
 			typewriter = {
@@ -573,11 +573,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "신에게 지나치게 의존해 일어난 재난이라면, 그것도 자업자득이지.",
 			typewriter = {
@@ -644,9 +644,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_xinnong_cg3",
+			side = 2,
+			dir = 1,
 			say = "(통신이 끊어졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -658,11 +658,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "잠시!",
 			typewriter = {
@@ -675,11 +675,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "……………",
 			typewriter = {
@@ -692,11 +692,11 @@ return {
 			}
 		},
 		{
-			actor = 900192,
 			nameColor = "#a9f548",
-			bgName = "bg_xinnong_cg3",
 			side = 2,
+			bgName = "bg_xinnong_cg3",
 			dir = 1,
+			actor = 900192,
 			actorName = "？？？",
 			say = "아무래도 또 먼 길을 돌아가야 할 것 같군.",
 			typewriter = {

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "炮术指挥·战列舰",
 	cd = 0,
+	picture = "0",
+	desc = "提高舰队中所有战列舰的炮击属性",
 	painting = 1,
 	id = 1003,
-	picture = "0",
 	castCV = "skill",
-	desc = "提高舰队中所有战列舰的炮击属性",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,30 +17,30 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerByType",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerByType",
 			arg_list = {
 				buff_id = 1000,
 				shipType = 4
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerByType",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerByType",
 			arg_list = {
 				buff_id = 1000,
 				shipType = 5
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerByType",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetPlayerByType",
 			arg_list = {
 				buff_id = 1000,
 				shipType = 10

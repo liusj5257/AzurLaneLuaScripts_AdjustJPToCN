@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_188 = {}
 slot1 = slot0.word_template_188
 
-function temp()
+temp = function()
 	uv0["列"] = {
 		["宁"] = {
 			this = true
@@ -16,7 +16,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["猎"] = {
 		q = {
 			i = {
@@ -139,7 +139,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["獵"] = {
 		q = {
 			i = {
@@ -187,7 +187,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["邻"] = {
 		["家"] = {
 			["有"] = {
@@ -214,7 +214,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["林"] = {
 		["保"] = {
 			["华"] = {
@@ -346,7 +346,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["临"] = {
 		["听"] = {
 			["王"] = {
@@ -378,7 +378,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["淋"] = {
 		["病"] = {
 			this = true

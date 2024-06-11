@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑海伦娜 领域全体敌人获得易伤效果",
 	time = 0,
-	color = "yellow",
+	name = "黑海伦娜 领域全体敌人获得易伤效果",
+	init_effect = "",
+	id = 8897,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8897,
+	color = "yellow",
 	icon = 8897,
 	last_effect = "",
 	effect_list = {
@@ -37,8 +37,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
-				skill_id = 8897
+				skill_id = 8897,
+				target = "TargetSelf"
 			}
 		}
 	}

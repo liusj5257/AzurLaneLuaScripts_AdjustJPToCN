@@ -1,16 +1,16 @@
 return {
-	id = "TIEXUEYUYINFU11",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "TIEXUEYUYINFU11",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			bgm = "bsm-1",
-			dir = -1,
 			say = "————",
+			side = 2,
+			dir = -1,
+			soundeffect = "event:/battle/boom2",
+			bgm = "bsm-1",
 			flashN = {
 				color = {
 					1,
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "以女王的名義，請妳立刻解除武裝，與我們返回皇家，接受應有的審判——",
 			typewriter = {
 				speed = 0.05,
@@ -86,10 +86,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			say = "這就是皇家艦隊的做事風格嗎？——“水手國王”陛下",
+			dir = 1,
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = 1,
-			say = "這就是皇家艦隊的做事風格嗎？——“水手國王”陛下",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -107,8 +107,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "面對有著血海深仇的敵人，還要抑制自己的戰鬥本能，擺弄這些虛​​偽的外交辭令",
 			typewriter = {
 				speed = 0.05,
@@ -123,8 +123,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "作為新銳戰艦的妳們，內心其實也期待著一場真正的戰鬥吧！？",
 			typewriter = {
 				speed = 0.05,
@@ -139,8 +139,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "哈哈哈，真是令人懷念的稱謂啊——",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "我最後再問一次…",
 			typewriter = {
 				speed = 0.05,
@@ -213,9 +213,9 @@ return {
 			}
 		},
 		{
+			seDelay = 1.3,
 			say = "轟————",
 			soundeffect = "event:/battle/boom2",
-			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,
@@ -258,8 +258,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "近失彈，不用擔心，敵艦正在負隅頑抗！",
 			typewriter = {
 				speed = 0.05,
@@ -274,8 +274,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "看來答案已經很明確了——",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "全艦隊自由射擊！為了皇家艦隊的榮耀，開火！",
 			typewriter = {
 				speed = 0.05,
@@ -303,9 +303,9 @@ return {
 			}
 		},
 		{
+			seDelay = 1.3,
 			say = "轟————",
 			soundeffect = "event:/battle/boom2",
-			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,

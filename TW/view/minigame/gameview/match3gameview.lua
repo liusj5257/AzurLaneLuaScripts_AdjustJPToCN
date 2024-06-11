@@ -28,15 +28,15 @@ slot26 = "event:/ui/sx-perfect"
 slot27 = "event:/ui/sx-jishu"
 slot28 = "event:/ui/furnitrue_save"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "Match3GameUI"
 end
 
-function slot0.getBGM(slot0)
+slot0.getBGM = function(slot0)
 	return "backyard"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.matchEffect = slot0:findTF("effects/sanxiaoxiaoshi")
 	slot0.goodEffect = slot0:findTF("effects/sanxiaoGood")
 	slot0.greatEffect = slot0:findTF("effects/sanxiaoGreat")
@@ -85,7 +85,7 @@ function slot0.init(slot0)
 	}
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.mainPage) then
 		slot0:emit(uv0.ON_BACK)
 	elseif isActive(slot0.pausePage) then
@@ -97,7 +97,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:onBackPressed()
 	end, SFX_PANEL)
@@ -233,24 +233,24 @@ function slot0.didEnter(slot0)
 	slot0:updateData()
 end
 
-function slot0.updateData(slot0)
+slot0.updateData = function(slot0)
 	slot0.infinite = slot0:GetMGHubData().count == 0
 	slot0.best = slot0:GetMGData():GetRuntimeData("elements") and slot2[1] or 0
 end
 
-function slot0.index2pos(slot0, slot1, slot2)
+slot0.index2pos = function(slot0, slot1, slot2)
 	return Vector3.New(uv0 + (slot2 - 1) * uv1, uv2 + (slot1 - 1) * uv3)
 end
 
-function slot0.pos2index(slot0, slot1)
+slot0.pos2index = function(slot0, slot1)
 	return math.ceil((slot1.y - (uv2 - uv3 / 2)) / uv3), math.ceil((slot1.x - (uv0 - uv1 / 2)) / uv1)
 end
 
-function slot0.dropTime(slot0)
+slot0.dropTime = function(slot0)
 	return math.max(slot0 * uv0, uv1)
 end
 
-function slot0.cancelHint(slot0)
+slot0.cancelHint = function(slot0)
 	if slot0.hint then
 		Destroy(slot0.hint)
 		slot0.hint1:GetComponent("Animator"):SetBool("selected", false)
@@ -281,7 +281,7 @@ slot29 = {
 	}
 }
 
-function slot0.unselect(slot0)
+slot0.unselect = function(slot0)
 	if slot0.selectedEffectTf then
 		Destroy(slot0.selectedEffectTf)
 
@@ -298,7 +298,7 @@ function slot0.unselect(slot0)
 	end
 end
 
-function slot0.select(slot0, slot1, slot2)
+slot0.select = function(slot0, slot1, slot2)
 	slot0:unselect()
 
 	slot0.selected = slot0.tileTfs[slot1][slot2]
@@ -313,7 +313,7 @@ function slot0.select(slot0, slot1, slot2)
 	slot0:animate(slot1, slot2, true)
 end
 
-function slot0.animate(slot0, slot1, slot2, slot3)
+slot0.animate = function(slot0, slot1, slot2, slot3)
 	if not slot0.tileTfs[slot1][slot2] then
 		warning("bad position", slot1, slot2)
 	end
@@ -334,7 +334,7 @@ function slot0.animate(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.tryMoveTo(slot0, slot1)
+slot0.tryMoveTo = function(slot0, slot1)
 	if slot0.selectedIndex == nil then
 		return
 	end
@@ -412,7 +412,7 @@ slot30 = {
 	}
 }
 
-function slot0.isConnected(slot0, slot1)
+slot0.isConnected = function(slot0, slot1)
 	for slot5, slot6 in pairs(uv0) do
 		slot7, slot8, slot9 = nil
 		slot9 = slot0.tileIndicies[slot1.i + slot6[2][1]][slot1.j + slot6[2][2]]
@@ -431,7 +431,7 @@ function slot0.isConnected(slot0, slot1)
 	return false
 end
 
-function slot0.moveValid(slot0, slot1, slot2)
+slot0.moveValid = function(slot0, slot1, slot2)
 	slot0.tileIndicies[slot2.i][slot2.j] = slot0.tileIndicies[slot1.i][slot1.j]
 	slot0.tileIndicies[slot1.i][slot1.j] = slot0.tileIndicies[slot2.i][slot2.j]
 	slot0.tileIndicies[slot2.i][slot2.j] = slot0.tileIndicies[slot1.i][slot1.j]
@@ -440,11 +440,11 @@ function slot0.moveValid(slot0, slot1, slot2)
 	return slot0:isConnected(slot1) or slot0:isConnected(slot2)
 end
 
-function slot0.moveTile(slot0, slot1, slot2, slot3)
+slot0.moveTile = function(slot0, slot1, slot2, slot3)
 	slot0:managedTween(LeanTween.move, nil, slot1, slot0:index2pos(slot2.i, slot2.j), slot3 or 0):setEase(LeanTweenType.easeInQuad)
 end
 
-function slot0.swap(slot0, slot1, slot2)
+slot0.swap = function(slot0, slot1, slot2)
 	slot0:moveTile(slot0.tileTfs[slot1.i][slot1.j], slot2, uv0)
 	slot0:moveTile(slot0.tileTfs[slot2.i][slot2.j], slot1, uv0)
 
@@ -454,13 +454,13 @@ function slot0.swap(slot0, slot1, slot2)
 	slot0.tileIndicies[slot1.i][slot1.j] = slot0.tileIndicies[slot2.i][slot2.j]
 end
 
-function slot0.formatTime(slot0, slot1)
+slot0.formatTime = function(slot0, slot1)
 	slot2 = math.floor(slot1 / 60)
 
 	return slot2 .. ":" .. math.floor(slot1 - slot2 * 60)
 end
 
-function dir2Angle(slot0)
+dir2Angle = function(slot0)
 	if slot0[1] == 1 then
 		return -90
 	elseif slot0[1] == -1 then
@@ -472,7 +472,7 @@ function dir2Angle(slot0)
 	end
 end
 
-function slot0.startGame(slot0)
+slot0.startGame = function(slot0)
 	slot0:updateData()
 
 	slot1 = Timer.New(function ()
@@ -524,7 +524,7 @@ function slot0.startGame(slot0)
 
 	setText(slot0.scoreText, slot0.score)
 
-	function slot0.hintFunc()
+	slot0.hintFunc = function()
 		if uv0.hint then
 			return
 		end
@@ -546,7 +546,7 @@ function slot0.startGame(slot0)
 	slot0.hintTimer:Start()
 end
 
-function slot0.pauseGame(slot0)
+slot0.pauseGame = function(slot0)
 	if slot0.timer then
 		slot0.timer:Pause()
 	end
@@ -562,12 +562,12 @@ function slot0.pauseGame(slot0)
 	slot0:pauseManagedTween()
 end
 
-function slot0.pause(slot0)
+slot0.pause = function(slot0)
 	setActive(slot0.pausePage, true)
 	slot0:pauseGame()
 end
 
-function slot0.resumeGame(slot0)
+slot0.resumeGame = function(slot0)
 	if slot0.timer then
 		slot0.timer:Resume()
 	end
@@ -583,7 +583,7 @@ function slot0.resumeGame(slot0)
 	slot0:resumeManagedTween()
 end
 
-function slot0.fillTileIndicies(slot0)
+slot0.fillTileIndicies = function(slot0)
 	slot1 = {}
 
 	for slot5 = -1, uv0 + 2 do
@@ -631,7 +631,7 @@ function slot0.fillTileIndicies(slot0)
 	until slot0:findMove()
 end
 
-function slot0.reorderTiles(slot0)
+slot0.reorderTiles = function(slot0)
 	for slot4 = 1, uv0 do
 		for slot8 = 1, uv1 do
 			if slot0.tileTfs[slot4][slot8] then
@@ -641,7 +641,7 @@ function slot0.reorderTiles(slot0)
 	end
 end
 
-function slot0.fillTiles(slot0, slot1)
+slot0.fillTiles = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6 = 1, uv0 do
@@ -713,7 +713,7 @@ slot31 = {
 	}
 }
 
-function slot0.findMove(slot0)
+slot0.findMove = function(slot0)
 	for slot4 = 1, uv0 do
 		for slot8 = 1, uv1 do
 			slot9 = slot0.tileIndicies[slot4][slot8]
@@ -760,7 +760,7 @@ function slot0.findMove(slot0)
 	end
 end
 
-function slot0.stopGame(slot0)
+slot0.stopGame = function(slot0)
 	slot0.inGame = false
 
 	setActive(slot0.warning, false)
@@ -835,7 +835,7 @@ function slot0.stopGame(slot0)
 	end))
 end
 
-function slot0.formatScore(slot0, slot1, slot2)
+slot0.formatScore = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	while slot2 > 0 do
@@ -849,7 +849,7 @@ function slot0.formatScore(slot0, slot1, slot2)
 	end
 end
 
-function slot0.update(slot0)
+slot0.update = function(slot0)
 	slot0.hintTimer:Stop()
 
 	slot1 = true
@@ -992,7 +992,7 @@ function slot0.update(slot0)
 	slot0.updating = not slot1
 end
 
-function slot0.tryMatch(slot0)
+slot0.tryMatch = function(slot0)
 	slot1 = {}
 
 	for slot5 = 1, uv0 do
@@ -1002,7 +1002,7 @@ function slot0.tryMatch(slot0)
 	return slot0:bfs(slot1)
 end
 
-function slot0.bfs(slot0, slot1)
+slot0.bfs = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6 = 1, uv0 do

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "免疫阵营移动限制",
 	time = 0,
+	name = "免疫阵营移动限制",
+	init_effect = "",
 	picture = "",
 	desc = "免疫阵营移动限制",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "immuneMaxAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneMaxAreaLimit"
 			}
 		}
 	}

@@ -1,21 +1,21 @@
 slot0 = class("VoteFinalsRaceShipsPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "FinalsRaceShips"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.num1TF = slot0:findTF("content/head/num1")
 	slot0.num2TF = slot0:findTF("content/head/num2")
 	slot0.num3TF = slot0:findTF("content/head/num3")
 	slot0.UIlist = UIItemList.New(slot0:findTF("content/ships"), slot0:findTF("content/ships/ship_tpl"))
 end
 
-function slot0.SetCallBack(slot0, slot1)
+slot0.SetCallBack = function(slot0, slot1)
 	slot0.CallBack = slot1
 end
 
-function slot0.Update(slot0, slot1, slot2, slot3)
+slot0.Update = function(slot0, slot1, slot2, slot3)
 	slot0.voteGroup = slot1
 	slot0.count = slot3
 	slot0.phase = slot1:GetStage()
@@ -36,7 +36,7 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	slot0:Show()
 end
 
-function slot0.UpdateTop3(slot0, slot1, slot2, slot3)
+slot0.UpdateTop3 = function(slot0, slot1, slot2, slot3)
 	slot0:UpdateVoteShip(slot0.num1TF, slot1)
 	slot0:UpdateVoteShip(slot0.num2TF, slot2)
 	slot0:UpdateVoteShip(slot0.num3TF, slot3)
@@ -51,7 +51,7 @@ function slot0.UpdateTop3(slot0, slot1, slot2, slot3)
 	end))
 end
 
-function slot0.UpdateShips(slot0)
+slot0.UpdateShips = function(slot0)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = VoteShipItem.New(slot2)
@@ -67,13 +67,13 @@ function slot0.UpdateShips(slot0)
 	slot0.UIlist:align(math.max(#slot0.displays, 0))
 end
 
-function slot0.contains(slot0, slot1, slot2)
+slot0.contains = function(slot0, slot1, slot2)
 	return _.any(slot1, function (slot0)
 		return slot0.group == uv0.group
 	end)
 end
 
-function slot0.UpdateVoteShip(slot0, slot1, slot2)
+slot0.UpdateVoteShip = function(slot0, slot1, slot2)
 	if not slot2 then
 		setActive(slot1, false)
 
@@ -91,13 +91,13 @@ function slot0.UpdateVoteShip(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.LoadPainting(slot0, slot1, slot2)
+slot0.LoadPainting = function(slot0, slot1, slot2)
 	LoadSpriteAsync("VoteShips/" .. slot2, function (slot0)
 		setImageSprite(uv0:Find("icon"), slot0, false)
 	end)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

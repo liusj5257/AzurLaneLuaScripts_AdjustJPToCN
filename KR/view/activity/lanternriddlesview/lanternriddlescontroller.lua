@@ -1,24 +1,24 @@
 slot0 = class("LanternRiddlesController")
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.model = LanternRiddlesModel.New(slot0)
 	slot0.view = LanternRiddlesView.New(slot0)
 end
 
-function slot0.SetCallBack(slot0, slot1, slot2, slot3, slot4)
+slot0.SetCallBack = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.exitCallback = slot1
 	slot0.onHome = slot2
 	slot0.onSuccess = slot3
 	slot0.onSaveData = slot4
 end
 
-function slot0.SetUp(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	slot0.model:UpdateData(slot1)
 	slot0.view:UpdateDay(slot0.model.finishCount)
 	slot0.view:InitLanternRiddles(slot0.model:GetQuestiones())
 end
 
-function slot0.SelectAnswer(slot0, slot1, slot2)
+slot0.SelectAnswer = function(slot0, slot1, slot2)
 	slot3 = false
 
 	if slot0.model:IsRight(slot1, slot2) then
@@ -46,23 +46,23 @@ function slot0.SelectAnswer(slot0, slot1, slot2)
 	slot0.view:OnUpdateAnswer(slot0.model:GetQuestion(slot1), slot2, slot3)
 end
 
-function slot0.GetLockTime(slot0)
+slot0.GetLockTime = function(slot0)
 	return slot0.model:GetLockTime()
 end
 
-function slot0.ExitGame(slot0)
+slot0.ExitGame = function(slot0)
 	if slot0.exitCallback then
 		slot0.exitCallback()
 	end
 end
 
-function slot0.ExitGameAndGoHome(slot0)
+slot0.ExitGameAndGoHome = function(slot0)
 	if slot0.onHome then
 		slot0.onHome()
 	end
 end
 
-function slot0.GetSaveData(slot0)
+slot0.GetSaveData = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0.model.questiones) do
@@ -84,7 +84,7 @@ function slot0.GetSaveData(slot0)
 	return slot1
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.model:Dispose()
 	slot0.view:Dispose()
 end

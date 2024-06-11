@@ -4,8 +4,8 @@ return {
 	effect_list = {
 		{
 			{
-				type = "BattleCardPuzzleSkillFire",
 				caster = "Leader",
+				type = "BattleCardPuzzleSkillFire",
 				arg_list = {
 					weapon_id = 3512040
 				}

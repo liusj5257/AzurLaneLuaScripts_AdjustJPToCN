@@ -1,8 +1,8 @@
-function GetBattleCheck()
+GetBattleCheck = function()
 	return 0
 end
 
-function GetBattleCheckResult(slot0, slot1, slot2)
+GetBattleCheckResult = function(slot0, slot1, slot2)
 	slot3 = 2621
 	slot4 = 3527
 	slot0 = math.floor(slot0 % slot3 * (slot1 % slot3) % slot3 + slot2)

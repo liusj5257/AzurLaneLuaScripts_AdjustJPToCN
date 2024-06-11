@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_50 = {}
 slot1 = slot0.word_template_50
 
-function temp()
+temp = function()
 	uv0["蹕"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["臂"] = {
 		["推"] = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["边"] = {
 		["抚"] = {
 			["摸"] = {
@@ -39,7 +39,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鞭"] = {
 		["走"] = {
 			["鞭"] = {
@@ -53,7 +53,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["苄"] = {
 		["吗"] = {
 			["啡"] = {
@@ -70,7 +70,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["变"] = {
 		["牌"] = {
 			["道"] = {
@@ -113,7 +113,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["辩"] = {
 		["證"] = {
 			this = true

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUONULULU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUONULULU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"호놀룰루의 사소한 일들\n\n<size=45>걱정도 팔자?</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 광장",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 광장",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 1,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "헬레나와 호놀룰루가 광장에 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			say = "헬레나, 왜 그래?",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "헬레나, 왜 그래?",
+			actor = 102120,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -268,11 +268,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "난 정말 바보라니까……",
 			typewriter = {
 				speed = 0.05,
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "……？！",
 			typewriter = {
 				speed = 0.05,
@@ -306,8 +306,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -332,11 +332,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "호놀룰루는 한숨을 쉬었다.",
 			typewriter = {
@@ -349,11 +349,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "……헬레나가 걱정이야. 근데…괜찮냐고 물어보는 것도 늘 제대로 못 하고 있으니…나도 참 바보 같지……",
 			typewriter = {
 				speed = 0.05,
@@ -387,11 +387,11 @@ return {
 			}
 		},
 		{
-			actor = 102120,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
 			withoutActorName = true,
-			dir = 1,
+			actor = 102120,
 			nameColor = "#92fc63",
 			say = "호놀룰루가 또 고개를 돌렸다. 그래도 이번엔 부끄러운 듯한 표정은 보여도 기분나빠하는 듯한 느낌은 전혀 들지 않았다.",
 			typewriter = {
@@ -420,12 +420,12 @@ return {
 			}
 		},
 		{
-			actor = 102120,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 102120,
+			nameColor = "#92fc63",
 			say = "지휘관, 내 고민 상담 좀…해줄 수 있을까?",
 			typewriter = {
 				speed = 0.05,

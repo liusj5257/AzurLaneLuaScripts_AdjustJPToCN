@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_156",
 			bgm = "theme-highseasfleet-reborn",
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "What's the matter? You got a stomachache? Let me take you to the guest room.",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -115,13 +115,13 @@ return {
 			}
 		},
 		{
-			actorName = "Royal Fortune",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
 			optionFlag = 2,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Okay... Well, the corridor is right over there, so stop by later. The housekeeper wants to discuss stuff with you.",
 			typewriter = {
@@ -134,10 +134,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Like I said before, this place is like a maze, okay? Try not to get lost.",
 			typewriter = {
@@ -150,9 +150,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Essex",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Royal Fortune immediately leaves the room. It seems she isn't interested in lingering long.",
 			typewriter = {
@@ -174,27 +174,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_156",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_156",
 			say = "After a while passes...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			side = 2,
+			actor = 9600010,
 			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Ahaha... Investigator? Why are you here~?",
@@ -258,9 +258,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Are you lost? Would you like me to show you to the guest room now?",
 			typewriter = {
@@ -307,11 +307,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			side = 2,
+			actor = 9600010,
 			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "But of course♪ Right this way~",
@@ -323,11 +323,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_115",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
 			bgm = "qe-ova-15",
-			actorName = "Essex",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Royal Fortune guides you to a guest room lined with luxurious furnishings.",
 			typewriter = {
@@ -335,17 +335,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -381,9 +381,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "On that note, Investigator, you neglected to investigate your own employer.",
 			typewriter = {
@@ -392,11 +392,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Castle Maid",
-			side = 2,
+			actor = 9600010,
 			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Your employer, Lord Manjuu, who lives in this castle, isn't just a philanthropist.",
@@ -410,9 +410,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "A regular philanthropist couldn't maintain this castle or pay your commission. After all, you're a first-rate investigator!",
 			typewriter = {
@@ -451,9 +451,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Almost all of the other servants in the castle have resigned due to the constant disappearances.",
 			typewriter = {
@@ -466,9 +466,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Only me, the housekeeper, and the chef are left. We need you to find the truth, unlike those frauds... Ahem.",
 			typewriter = {
@@ -491,11 +491,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Castle Maid",
-			side = 2,
+			actor = 9600010,
 			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "The São Martinho will come soon. You just wait here, please.",
@@ -509,9 +509,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "I'm gonna go now~",
 			typewriter = {
@@ -804,11 +804,11 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_156",
 			factiontag = "Serious Protégé GM",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "Essex",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You struggle to piece together this fragmented information, but suddenly, you're assailed by a wave of unease.",
 			typewriter = {
@@ -816,17 +816,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -876,8 +876,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

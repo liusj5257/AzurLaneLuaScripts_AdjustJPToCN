@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "PANGPEI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "PANGPEI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"キャプテンポンペイにおまかせを！\n\n<size=45>一 全部任せちゃう秘書艦！</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "朝の日差しが執務室に差し込んできた時、ドアがコンコンとノックされる音が聞こえてきた。",
 			bgm = "story-1",
+			say = "朝の日差しが執務室に差し込んできた時、ドアがコンコンとノックされる音が聞こえてきた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,10 +32,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "偉大なるキャプテンポンペイ、執務室に到着！今日から秘書艦を担当するよ",
 			painting = {
 				alpha = 0.3,
@@ -47,8 +47,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -72,10 +72,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "えっへん！指揮官、今日の仕事って？まあ全部私に任せてね！",
 			painting = {
 				alpha = 0.3,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -123,9 +123,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task_2",
 			dir = 1,
 			optionFlag = 1,
+			bgName = "bg_story_task_2",
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -139,17 +139,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -243,13 +243,13 @@ return {
 			}
 		},
 		{
-			actor = 601070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 601070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -280,8 +280,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -341,13 +341,13 @@ return {
 			}
 		},
 		{
-			actor = 601070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 601070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そそそそう言われても…でも……",
 			painting = {
 				alpha = 0.3,
@@ -442,8 +442,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -484,13 +484,13 @@ return {
 			}
 		},
 		{
-			actor = 601070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 601070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（小声）でもやっぱり、指揮官と一緒に仕事したかったなぁ…",
 			painting = {
 				alpha = 0.3,
@@ -579,13 +579,13 @@ return {
 			}
 		},
 		{
-			actor = 601070,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 601070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "も、もうこれ以上プレッシャーをかけないでよー！",
 			painting = {
 				alpha = 0.3,
@@ -629,8 +629,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -639,8 +639,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "カーテンがそよ風になびく中、執務室の扉を閉じ、ポンペイは部屋を後にした。",
@@ -650,8 +650,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "談笑しながら歩を進める二人の姿がだんだん遠ざかっていく――",

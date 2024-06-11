@@ -12,7 +12,7 @@ slot0.ON_CHANGE_FLEET = "LimitChallengePreCombatMediator:ON_CHANGE_FLEET"
 slot0.ON_CMD_SKILL = "LimitChallengePreCombatMediator:ON_CMD_SKILL"
 slot0.ON_SELECT_COMMANDER = "LimitChallengePreCombatMediator:ON_SELECT_COMMANDER"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bindEvent()
 
 	slot0.ships = getProxy(BayProxy):getRawData()
@@ -38,7 +38,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetStageID(slot0.contextData.stageId)
 end
 
-function slot0.bindEvent(slot0)
+slot0.bindEvent = function(slot0)
 	slot0:bind(uv0.ON_CHANGE_FLEET, function (slot0, slot1)
 		uv0:changeFleet(slot1)
 	end)
@@ -73,9 +73,9 @@ function slot0.bindEvent(slot0)
 		end)), uv0.contextData.actId)
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DOCKYARD, {
-			useBlackBlock = true,
 			selectedMin = 0,
 			skipSelect = true,
+			useBlackBlock = true,
 			selectedMax = 1,
 			energyDisplay = false,
 			leastLimitMsg = i18n("battle_preCombatMediator_leastLimit"),
@@ -210,7 +210,7 @@ function slot0.bindEvent(slot0)
 	end)
 end
 
-function slot0.onAutoBtn(slot0, slot1)
+slot0.onAutoBtn = function(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_BOT, {
 		isActiveBot = slot1.isOn,
 		toggle = slot1.toggle,
@@ -218,7 +218,7 @@ function slot0.onAutoBtn(slot0, slot1)
 	})
 end
 
-function slot0.onAutoSubBtn(slot0, slot1)
+slot0.onAutoSubBtn = function(slot0, slot1)
 	slot0:sendNotification(GAME.AUTO_SUB, {
 		isActiveSub = slot1.isOn,
 		toggle = slot1.toggle,
@@ -226,7 +226,7 @@ function slot0.onAutoSubBtn(slot0, slot1)
 	})
 end
 
-function slot0.changeFleet(slot0, slot1)
+slot0.changeFleet = function(slot0, slot1)
 	slot0.contextData.fleetIndex = table.indexof(slot0.contextData.fleets, _.detect(slot0.contextData.fleets, function (slot0)
 		return slot0.id == uv0
 	end))
@@ -236,7 +236,7 @@ function slot0.changeFleet(slot0, slot1)
 	slot0.viewComponent:SetFleetStepper()
 end
 
-function slot0.refreshEdit(slot0, slot1)
+slot0.refreshEdit = function(slot0, slot1)
 	slot0.viewComponent:UpdateFleetView(false)
 
 	slot2 = slot0.contextData.fleets
@@ -245,7 +245,7 @@ function slot0.refreshEdit(slot0, slot1)
 	getProxy(FleetProxy):updateFleet(slot1)
 end
 
-function slot0.removeShipFromFleet(slot0, slot1, slot2)
+slot0.removeShipFromFleet = function(slot0, slot1, slot2)
 	if not slot1:canRemove(slot2) then
 		slot3, slot4 = slot1:getShipPos(slot2)
 
@@ -259,14 +259,14 @@ function slot0.removeShipFromFleet(slot0, slot1, slot2)
 	return true
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.BEGIN_STAGE_DONE,
 		GAME.BEGIN_STAGE_ERRO
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
@@ -282,11 +282,11 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 	uv0.super.remove(slot0)
 end
 
-function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
+slot0.getDockCallbackFuncs = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = getProxy(BayProxy)
 
 	return function (slot0, slot1)
@@ -333,7 +333,7 @@ function slot0.getDockCallbackFuncs(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.onSelectCommander(slot0, slot1, slot2)
+slot0.onSelectCommander = function(slot0, slot1, slot2)
 	slot3 = _.detect(slot0, function (slot0)
 		return slot0.id == uv0
 	end)

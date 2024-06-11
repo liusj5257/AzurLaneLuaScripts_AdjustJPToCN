@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_374 = {}
 slot1 = slot0.word_template_374
 
-function temp()
+temp = function()
 	uv0["窗"] = {
 		["外"] = {
 			["有"] = {
@@ -19,7 +19,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["燒"] = {
 		["油"] = {
 			["腸"] = {
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.i = {
 		t = {
 			["'"] = {
@@ -252,7 +252,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["拖"] = {
 		["尸"] = {
 			["擦"] = {
@@ -266,7 +266,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["薪"] = {
 		["火"] = {
 			["不"] = {
@@ -285,7 +285,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["首"] = {
 		["度"] = {
 			["禁"] = {
@@ -321,7 +321,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["柱"] = {
 		["之"] = {
 			["殇"] = {

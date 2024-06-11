@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"정월의 축복\n\n<size=45>5 아카시의 선물</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 사쿠라 엠파이어 숙소",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "모항 - 사쿠라 엠파이어 숙소",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "이렇게 된 이상…… 새로 준비한 의상을 모두에게 입히는 수밖에 없다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -140,15 +140,15 @@ return {
 			}
 		},
 		{
-			actor = 102130,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102130,
+			nameColor = "#92fc63",
 			say = "사쿠라 엠파이어 풍의 의상……우후후……제법 호화로운 소재를 썼네.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -176,8 +176,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 201100,
 			dir = 1,
+			actor = 201100,
 			nameColor = "#92fc63",
 			say = "와아아…… 이 옷…… 생각한 것보다 따뜻해~",
 			typewriter = {
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 399020,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 399020,
 			actorName = "{namecode:151}",
 			say = "가부키라도 한 판 추고 싶어지는 의상이군. 움직이기 쉬운 것치곤 나쁘지 않다.",
 			typewriter = {
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 399010,
 			nameColor = "#92fc63",
-			bgName = "bg_story_room",
 			side = 2,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 399010,
 			actorName = "{namecode:152}",
 			say = "제 건 평범하군요. 왠지 차분해집니다.",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			nameColor = "#92fc63",
 			say = "과연, 여러 진영의 특징을 섞은 건가. 재밌네, 후후후.",
 			typewriter = {
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "…………이, 이이이이건………!?",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -299,11 +299,11 @@ return {
 			}
 		},
 		{
-			actor = 102090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102090,
+			nameColor = "#92fc63",
 			say = "나, 나 갑자기 급한 볼 일이 생겨서! 먼저 돌아갈게!!!",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.3,
 					dur = 1,
 					x = -2250
@@ -356,11 +356,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#92fc63",
 			say = "뭐?!",
 			typewriter = {
 				speed = 0.05,
@@ -372,8 +372,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -382,15 +382,15 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#92fc63",
 			say = "(이게 바로 사쿠라 엠파이어의 의상인가…… 콜롬비아랑 덴버가 좋아하겠는걸.)",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -463,12 +463,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "다, 다들 갈아입었냥? 그럼 빨리 정월 요리를 만끽해라냥!",
 			typewriter = {
 				speed = 0.05,
@@ -480,8 +480,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

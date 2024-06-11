@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN22",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg11",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "장기판 경기장·나가토 통제 구역 제 7라운드",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "아니. 일부러 그런 걸 거다….",
 			painting = {
@@ -69,8 +69,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg11",
 			say = "나가토가 미카사의 방향을 바라본 뒤 다소 머뭇거리며 통신기를 켰다.",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "맞아.",
 			painting = {
@@ -115,8 +115,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "…정말 고맙군.",
 			painting = {
@@ -148,8 +148,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "괜찮아. 어차피 너무 오랫동안 앉아있던 탓에 지루하던 참이였거든.",
 			painting = {
@@ -183,8 +183,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "그리고 마지막으로… 미안하네.",
 			painting = {
@@ -218,8 +218,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305110,
 			dir = 1,
+			actor = 305110,
 			nameColor = "#A9F548FF",
 			say = "얘기는 경기를 이기고 나서 나누도록 하자고. 지금은 전장 안이야. 장군이 계속해서 우물쭈물 한다면 제대로 팀원들을 통솔할 수나 있겠어? 흔들리지 말고 당신이 정한 길로 계속 전진해.",
 			painting = {
@@ -235,8 +235,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "알겠네. 그럼 사양하지 않겠네.",
 			painting = {
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg11",
 			say = "통신이 끝난 뒤 나가토는 크게 심호흡을 했다. 그동안의 망설임은 서서히 사라지고 어느덧 의연한 표정을 하고 있었다.",
 			typewriter = {
@@ -262,8 +262,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "후… 카와카제는 F2로 가서 쇼카쿠와 협력해 경계선 거점을 손에 넣는다.",
 			painting = {
@@ -295,8 +295,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "하루츠키는 제자리에서 회복 결계를 쳐서 모두가 쉴 수 있도록 해줘.",
 			painting = {
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg11",
 			say = "하루츠키가 가볍게 손을 들어 지팡이를 움직이자 봄바람같은 초록 빗방울이 하늘에서 떨어지더니 순식간에 주위 모든 사람을 뒤덮었다.",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "따뜻한 기분이야…. 고마워, 하루츠키.",
 			painting = {
@@ -403,8 +403,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "전투는 서로에게 좋을 게 없다. 난 서로 싸우지 않아도 이길 수 있는 방법을 찾고 있을 뿐.",
 			painting = {
@@ -420,8 +420,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "역시 나가토님이네요…. 하지만, 무사시님이 명령을 내리신다면 자비 따윈 베풀지 않을 겁니다.",
 			painting = {
@@ -453,8 +453,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "헤헤헤… 그럼 사양하지 않을게요.",
 			painting = {
@@ -504,8 +504,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 302230,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
 			say = "모르겠어요…. 무사시님이 내린 임무를 위해 떠난 뒤로 아직 돌아오지 않았습니다. 어디로 갔는 지도 모르겠어요.",
 			painting = {
@@ -555,8 +555,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg11",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "…내 행동도 모두 끝.",
 			painting = {

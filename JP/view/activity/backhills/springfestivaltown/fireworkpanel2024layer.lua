@@ -1,10 +1,10 @@
 slot0 = class("FireworkPanel2024Layer", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "FireworkPanelUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.leftPanel = slot0:findTF("main/left_panel")
 	slot0.rightPanel = slot0:findTF("main/right_panel")
 	slot0.fireBtn = slot0:findTF("fire_btn", slot0.rightPanel)
@@ -22,7 +22,7 @@ function slot0.init(slot0)
 	slot0:initData()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	assert(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_FIREWORK) and not slot1:isEnd(), "烟花活动(type92)已结束")
 
 	slot0.unlockCount = slot1:getData1()
@@ -33,7 +33,7 @@ function slot0.initData(slot0)
 	slot0.orderIds = slot0:getLocalData()
 end
 
-function slot0.getLocalData(slot0)
+slot0.getLocalData = function(slot0)
 	slot1 = {}
 
 	for slot5 = 1, #slot0.allIds do
@@ -45,13 +45,13 @@ function slot0.getLocalData(slot0)
 	return slot1
 end
 
-function slot0.setLocalData(slot0)
+slot0.setLocalData = function(slot0)
 	for slot4 = 1, #slot0.allIds do
 		PlayerPrefs.SetInt("fireworks_" .. slot0.actId .. "_" .. slot0.playerId .. "_pos_" .. slot4, slot0.orderIds[slot4] or 0)
 	end
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("main/mask"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end)
@@ -66,7 +66,7 @@ function slot0.didEnter(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.initLeft(slot0)
+slot0.initLeft = function(slot0)
 	setActive(slot0:findTF("empty", slot0.leftPanel), #slot0.unlockIds == 0)
 	setActive(slot0:findTF("scrollrect", slot0.leftPanel), #slot0.unlockIds > 0)
 	slot0.leftUIList:make(function (slot0, slot1, slot2)
@@ -96,7 +96,7 @@ function slot0.initLeft(slot0)
 	slot0.leftUIList:align(#slot0.allIds)
 end
 
-function slot0.initRight(slot0)
+slot0.initRight = function(slot0)
 	for slot4 = 1, #slot0.allIds - 2 do
 		cloneTplTo(slot0:findTF("tpl", slot0.arrowsTF), slot0.arrowsTF)
 	end
@@ -128,7 +128,7 @@ function slot0.initRight(slot0)
 	slot0.rightUIList:align(#slot0.allIds)
 end
 
-function slot0.onLeftClick(slot0, slot1, slot2)
+slot0.onLeftClick = function(slot0, slot1, slot2)
 	if slot2 then
 		table.removebyvalue(slot0.orderIds, slot1)
 	else
@@ -140,14 +140,14 @@ function slot0.onLeftClick(slot0, slot1, slot2)
 	slot0.rightUIList:align(#slot0.allIds)
 end
 
-function slot0.onRightClick(slot0, slot1)
+slot0.onRightClick = function(slot0, slot1)
 	table.removebyvalue(slot0.orderIds, slot1)
 	slot0:setLocalData()
 	slot0.leftUIList:align(#slot0.allIds)
 	slot0.rightUIList:align(#slot0.allIds)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 
 	if slot0.contextData.onExit then

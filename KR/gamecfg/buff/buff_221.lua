@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "制空权确保",
 	time = 0,
-	color = "yellow",
+	name = "制空权确保",
+	init_effect = "",
+	id = 221,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 221,
+	color = "yellow",
 	icon = 221,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioByAir",
-				number = 0.2
+				number = 0.2,
+				attr = "damageRatioByAir"
 			}
 		},
 		{
@@ -26,8 +26,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.1
+				number = -0.1,
+				attr = "injureRatioByAir"
 			}
 		},
 		{
@@ -36,8 +36,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 1000
+				number = 1000,
+				attr = "attackRating"
 			}
 		}
 	}

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO34",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO34",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "もしかしたらここの主人かもしれないし、断りもなく入ってきたことのお詫びをしないと",
 			bgm = "theme-unzen",
+			say = "もしかしたらここの主人かもしれないし、断りもなく入ってきたことのお詫びをしないと",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,8 +85,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "彼女は少し謎めいた言葉を発した。",
@@ -161,8 +161,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "彼女――「雲仙」が少し驚いた。",
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "ふと、彼女と直接目が合った。",
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "ほんのちょっとだけ見開いた目には、喜びとも寂しさとも似たような感情が読み取れた。",
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "あまりの気恥ずかしさに、彼女よりも早く目線を外してしまう。",
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "艦船の仲間とはいえ、こうも見つめ合っては色々と誤解されそうだ。",
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "これ以上押し黙るのも何だし、とりあえず話題でも変えよう。",
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "つい勢いで言い出してしまったことに後悔した。",
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "重桜への訪問は今日が最終日。本来なら宴会の後すぐに帰り支度をしなければならない。",
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "艦船を率いる身とはいえ、今度会えるのはいつになるかはわからない。",
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "セイレーンとの戦いもあるし、今日で今生の別れになるかもしれないのだ――",
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "今度は彼女が恥ずかしそうに目を逸らした。",
@@ -438,8 +438,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "二人でしばらく月の下でゆっくりと流れる時間に身を任せた。",
@@ -449,8 +449,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "どちらも言葉を発することはなかったが、それでいて心地の良い一時を過ごした。",
@@ -460,8 +460,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "そろそろ宴会に戻ろうと軽く挨拶し、そのまま踵を返して歩こうとしたその瞬間。",
@@ -471,8 +471,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "彼女はこっちの手を引き、そして視線で空の明月を指し示した。",
@@ -495,8 +495,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			say = "彼女の美しくも儚い笑顔は、自分の記憶に永遠に刻まれることになった――",
@@ -506,29 +506,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "……",
+			side = 2,
 			bgm = "story-2",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -539,10 +539,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官？",
 			painting = {
 				alpha = 0.3,
@@ -554,12 +554,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、もうすぐで着陸ですよ？",
 			painting = {
 				alpha = 0.3,
@@ -574,10 +574,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107380,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "エセックスちゃん？どうしてまだここに？",
 			painting = {
 				alpha = 0.3,
@@ -589,12 +589,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ユニオンを代表してリシュリューたちアイリスの式典に参加するから、ちゃんと準備しないとダメよ",
 			painting = {
 				alpha = 0.3,
@@ -609,10 +609,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107380,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "新しい服を用意したから、一緒に着替えてきましょ？",
 			painting = {
 				alpha = 0.3,
@@ -624,12 +624,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官も、早く支度したほうがいいと思いますよ",
 			painting = {
 				alpha = 0.3,
@@ -641,8 +641,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "仲間たちの声が足音とともに離れていく。",
@@ -691,8 +691,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "アナウンスが聞こえ、間もなく着陸態勢のようだ。",
@@ -702,8 +702,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "今日のこれからの予定は……山ほどある。",
@@ -726,8 +726,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "束の間の休憩を逃さないように目を閉じる。",
@@ -737,8 +737,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			say = "重桜で出会った彼女の顔を、あの月夜の不思議な出会いの光景を思い浮かべた。",
@@ -774,8 +774,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 1,
 			blackFg = 1,
 			bgm = "theme-unzen",
@@ -803,9 +803,9 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
 			stopbgm = true,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

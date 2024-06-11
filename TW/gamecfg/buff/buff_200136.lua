@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022莱莎联动EX 极天·黑洞 蓄力失败",
 	time = 5,
-	color = "red",
+	name = "2022莱莎联动EX 极天·黑洞 蓄力失败",
+	init_effect = "",
+	id = 200136,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200136,
+	color = "red",
 	icon = 200136,
 	last_effect = "",
 	effect_list = {

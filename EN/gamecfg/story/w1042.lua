@@ -1,12 +1,12 @@
 return {
-	id = "W1042",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1042",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Guess that one was a dud. Looks like we’ll have to force it open...",
 			typewriter = {
 				speed = 0.05,

@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhedie_2",
+			bgm = "theme-aostelab",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "가상 세계 \"미래 NY\" - 테스트 해역",
-			bgm = "theme-aostelab",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			say = "저 멀리 거대한 검은색 기갑이 다가오고 있다.",
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			say = "등에는 거대한 저장 탱크가 있고, 그 안에 미확인 액체가 끔찍한 붉은 연기를 내뿜고 있다.",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			say = "정면의 장갑판은 마치 지옥에서 온 기사의 머리처럼 흉악한 모양으로 뒤틀려 있다.",
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			say = "그리고 그 머리 위, 작은 소녀가 앉아 있다.",
@@ -156,8 +156,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "데빌·XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -168,8 +168,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "데빌·XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "데빌·XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -192,8 +192,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "데빌·XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -209,8 +209,8 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "장비설계국",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "프린스턴",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(…예의가 바르잖아!?)",
 			painting = {
@@ -228,9 +228,9 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "장비설계국",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 107230,
 			actorName = "프린스턴",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(기억 속 세이렌과... 엄청나게 달라...)",
 			painting = {
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "데빌·XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -255,8 +255,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "데빌·XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -267,8 +267,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "라피II",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "장비설계국",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "데빌·XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -297,12 +297,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "콰앙——!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "라피II",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "장비설계국",
 			dir = 1,
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "데빌·XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -383,8 +383,8 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "장비설계국",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "프린스턴",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(귀여운... 것 같아.)",
 			painting = {
@@ -402,9 +402,9 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "장비설계국",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			portrait = 107230,
 			actorName = "프린스턴",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(정말... 네비게이터가 중재 기관의 데이터로 만들어낸 거 맞아?)",
 			painting = {
@@ -417,12 +417,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "콰앙——!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "라피II",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "장비설계국",
 			dir = 1,
@@ -486,8 +486,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "데빌·XV",
+			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -498,11 +498,11 @@ return {
 			}
 		},
 		{
-			actor = 101510,
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			factiontag = "장비설계국",
 			dir = 1,
+			actor = 101510,
 			nameColor = "#A9F548FF",
 			say = "듣던 중 반가운 소리네... 섬멸 모드, 발동——!",
 			painting = {

@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LUCK29903",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LUCK29903",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 299030,
 			dir = 1,
+			actor = 299030,
 			say = "ふにゃあああああ！チェシャー、パワーアップ！",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 299030,
 			dir = 1,
+			actor = 299030,
 			say = "これからもチェシャーと一緒！なのは決まっているのにゃ～",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 299030,
 			dir = 1,
+			actor = 299030,
 			say = "言われなくても分かってるよ！これからも頑張り続けよ？～すりすりさわさわ～旦那さま～♡",
 			typewriter = {
 				speed = 0.05,

@@ -1,17 +1,17 @@
 return {
-	once = true,
-	mode = 2,
-	id = "MAOZIHUODONG13",
-	continueBgm = true,
 	fadeType = 1,
+	mode = 2,
+	continueBgm = true,
+	once = true,
+	id = "MAOZIHUODONG13",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp2",
+			say = "塞壬要塞近海 白鷹主力艦隊",
 			side = 2,
 			bgName = "bg_cccp_2",
 			dir = 1,
-			say = "塞壬要塞近海 白鷹主力艦隊",
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "哥倫比亞",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蒙彼利埃",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "克里夫蘭",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccp_2",
-			actorName = "薩拉托加",
 			dir = 1,
+			actorName = "薩拉托加",
 			say = "嗚…頭暈腦脹的…這是什麼鬼東西啊！",
 			dialogShake = {
 				speed = 0.09,
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大黃蜂",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "南達科他",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "克里夫蘭",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -139,8 +139,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "哥倫比亞",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "薩拉托加",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			say = "噠噠噠——",
+			soundeffect = "event:/battle/cannon-air",
 			side = 2,
 			bgName = "bg_cccp_2",
 			dir = 1,
-			soundeffect = "event:/battle/cannon-air",
+			say = "噠噠噠——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "哥倫比亞",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "克里夫蘭",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -218,8 +218,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "薩拉托加",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -234,8 +234,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大黃蜂",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "南達科他",
+			side = 2,
 			bgName = "bg_cccp_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -266,13 +266,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "冰牆的另一側",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……",
 			typewriter = {
@@ -311,8 +311,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "喂~~~指揮官！別睡覺啦！！！",
 			effects = {
@@ -364,11 +364,11 @@ return {
 			}
 		},
 		{
-			say = "！！這裡是哪裡？！",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
 			bgm = "bgm-cccp3",
+			say = "！！這裡是哪裡？！",
 			effects = {
 				{
 					active = false,
@@ -393,8 +393,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "早上好，指揮官~這裡是我控制的量產型上哦，你的指揮艦已經在剛才的戰鬥中被摧毀了",
 			typewriter = {
@@ -410,8 +410,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "現在我們因為和主力艦隊分離，正在絕讚逃跑中",
 			typewriter = {
@@ -424,9 +424,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
+			dir = 1,
 			say = "戰鬥？分離？……是那座巨大的冰牆嗎",
 			typewriter = {
 				speed = 0.05,
@@ -457,8 +457,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "現在有一個好消息和一個壞消息",
 			typewriter = {
@@ -474,8 +474,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "壞消息是，在冰牆出現之後整片海域似乎都鏡面海域化了，我們無法和對面的白鷹艦隊取得聯繫",
 			typewriter = {
@@ -494,11 +494,11 @@ return {
 			}
 		},
 		{
-			say = "轟！",
 			side = 2,
 			bgName = "bg_cccp_6",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟！",
 			flashN = {
 				color = {
 					1,
@@ -565,8 +565,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "沒錯！既然已經清醒了，指揮就拜託你了哦，指揮官！",
 			typewriter = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "U556STORY5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "U556STORY5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"誓ってナイト！\n\n<size=45>五　ハッとなった？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "U-556の仕事の覚えが早くて大変助かる。",
 			typewriter = {
 				speed = 0.05,
@@ -79,8 +79,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "指揮官、明日は非番だよね！この間遊んでくれるって約束したよね！明日海に行ってもいいよね！",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "えへへ、楽しみ♪",
 			typewriter = {
@@ -116,9 +116,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "明日は一日、リラックスしよう。",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_story_task",
+			stopbgm = true,
 			dir = 1,
 			say = "…………",
 			effects = {
@@ -151,9 +151,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "これは……演習している艦隊からの救助信号？",
 			effects = {
 				{
@@ -171,9 +171,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "今演習海域にいるのは……ビスマルクたちの艦隊に何かあったのか…？",
 			typewriter = {
 				speed = 0.05,
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 408040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 408040,
+			nameColor = "#a9f548",
 			say = "指揮官…？何かあったの？",
 			typewriter = {
 				speed = 0.05,
@@ -210,8 +210,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "え…？",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "待って、ビスマルクのアネキ、もしかして……",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "あたし、アネキにどんなことがあっても絶対に守るって約束したの！……指揮官、早く様子を見に行こうよ！",
 			typewriter = {
@@ -258,9 +258,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "確か無線封止状態の演習だから、直接様子を見に行くしかなさそうだ。",
 			typewriter = {
 				speed = 0.05,
@@ -272,9 +272,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "こういう状況に対応するために即応させておいた艦船たちを連れて、急いでU-556と一緒に信号の発信地に向かった。",
 			typewriter = {
 				speed = 0.05,
@@ -286,14 +286,14 @@ return {
 			}
 		},
 		{
-			say = "母港周辺海域",
 			side = 2,
 			bgName = "bg_battle_night",
 			dir = 1,
 			bgm = "story-6",
+			say = "母港周辺海域",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -321,8 +321,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "ビスマルクのアネキ…無事でいてください…！",
 			typewriter = {
@@ -337,14 +337,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_battle_night",
 			actor = 408040,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "ってあれ？ビスマルクのアネキ？それとオイゲンさん？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -379,12 +379,12 @@ return {
 			}
 		},
 		{
-			actor = 405010,
+			say = "指揮官とU-556、それとみんなまで……どうしたの……？",
 			side = 2,
 			bgName = "bg_battle_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官とU-556、それとみんなまで……どうしたの……？",
+			actor = 405010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -402,10 +402,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_battle_night",
-			actor = 408040,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "よかったぁ……アネキが無事でよかったぁ……！",
+			dir = 1,
+			actor = 408040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_battle_night",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "一体何が起きたの？指揮官、母港に戻りながら説明してもらえる？",
 			typewriter = {
@@ -437,9 +437,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_battle_night",
+			dir = 1,
 			say = "というわけで、みんなと無事に合流できた。",
 			typewriter = {
 				speed = 0.05,
@@ -451,17 +451,17 @@ return {
 			}
 		},
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "ふーん、救援信号発信装置の誤作動ね……",
 			bgm = "story-2",
+			actor = 403030,
+			nameColor = "#a9f548",
+			say = "ふーん、救援信号発信装置の誤作動ね……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -502,9 +502,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "あとで夕張たちに点検してもらおう。",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "そんなことより、ビスマルクのアネキとオイゲンさん！無事でよかったよ！",
 			typewriter = {
@@ -536,10 +536,10 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_night",
-			actor = 405010,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "ええ…でもU-556、あの約束をしたとはいえ、いきなり駆けつけて来なくてもいいわ",
+			dir = 1,
+			actor = 405010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -589,8 +589,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "そ、そんなの……",
 			typewriter = {
@@ -606,8 +606,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 408040,
 			dir = 1,
+			actor = 408040,
 			nameColor = "#a9f548",
 			say = "そうよね……ビスマルクは鉄血の最強戦艦だもんね…あたし何心配したんだろ……あははは……",
 			typewriter = {
@@ -636,9 +636,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "弱々しい声だった。",
 			typewriter = {
 				speed = 0.05,
@@ -669,8 +669,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "……私は……",
 			typewriter = {

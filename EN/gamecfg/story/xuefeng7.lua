@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUEFENG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUEFENG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"\"Call me Yukikaze the Great!\"\n\n<size=45>Chapter 7: Yukikaze, Great as Always?</size>",
@@ -17,22 +17,22 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "A few days later, at the port...",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			say = "A few days later, at the port...",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Wa ha ha! Yukikaze the Great Secretary is reporting inm!",
 			typewriter = {
@@ -45,14 +45,14 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.2,
 					number = 3
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Hmph! Without me, you'd be totally lost and helpless!",
 			typewriter = {
@@ -77,9 +77,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			options = {
 				{
 					content = "That reminds me, Yukikaze, didn't you stay up late again working...?"
@@ -95,11 +95,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Hmph! Commander, have you finally realized how blessed you are to have Yukikaze the Great working with you?",
 			typewriter = {
@@ -112,11 +112,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Since you're so attentive towards me, perhaps I have to work even harder!",
 			typewriter = {
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Here, praise me more! Yes, praise Yukikaze the Great!",
 			typewriter = {
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 2,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301160,
 			actorName = "{namecode:22}",
 			say = "Ehehe... murrr...",
 			typewriter = {
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 22.5,
@@ -183,9 +183,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -193,16 +193,16 @@ return {
 			}
 		},
 		{
-			actor = 301600,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actorName = "{namecode:143}",
 			dir = -1,
+			actorName = "{namecode:143}",
+			actor = 301600,
 			nameColor = "#a9f548",
 			say = "Urakaze! Isokaze also wishes to receive a commanderly headpatting!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -227,13 +227,13 @@ return {
 			}
 		},
 		{
-			actor = 301590,
+			say = "Me too... Gah! Read the mood! It's Yukikaze's turn to be secretary!",
 			side = 1,
 			bgName = "bg_story_outdoor",
 			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301590,
 			actorName = "{namecode:142}",
-			say = "Me too... Gah! Read the mood! It's Yukikaze's turn to be secretary!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -248,11 +248,11 @@ return {
 			}
 		},
 		{
-			actor = 301610,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 0,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301610,
 			actorName = "{namecode:128}",
 			say = "She's... t-totally been tamed...",
 			typewriter = {
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 301620,
 			nameColor = "#a9f548",
-			bgName = "bg_story_outdoor",
 			side = 1,
+			bgName = "bg_story_outdoor",
 			dir = 1,
+			actor = 301620,
 			actorName = "{namecode:127}",
 			say = "Yuki... congratulations...",
 			typewriter = {
@@ -282,9 +282,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -292,17 +292,17 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actorName = "{namecode:22}",
 			dir = 1,
 			blackBg = true,
+			actorName = "{namecode:22}",
+			actor = 301160,
 			nameColor = "#a9f548",
 			say = "Yesh, Commander~ pat me some more~♪",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -327,8 +327,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.5,
 					x = 37.5,

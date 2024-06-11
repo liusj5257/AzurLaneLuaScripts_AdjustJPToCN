@@ -2,17 +2,17 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 1,
-	id = 600143,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 1,
+	id = 600143,
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
-			target_choise = "TargetShipTag",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetShipTag",
 			arg_list = {
 				maxHPRatio = 0.03,
 				ship_tag_list = {

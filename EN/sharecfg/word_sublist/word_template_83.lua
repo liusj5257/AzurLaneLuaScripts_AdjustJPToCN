@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_83 = {}
 slot1 = slot0.word_template_83
 
-function temp()
+temp = function()
 	uv0["第"] = {
 		["二"] = {
 			["十"] = {
@@ -189,7 +189,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蒂"] = {
 		["巴"] = {
 			["因"] = {
@@ -204,7 +204,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["缔"] = {
 		["顺"] = {
 			this = true
@@ -214,7 +214,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["颠"] = {
 		["覆"] = {
 			["共"] = {
@@ -300,7 +300,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["巅"] = {
 		["峰"] = {
 			["三"] = {
@@ -314,7 +314,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["癫"] = {
 		["马"] = {
 			["女"] = {
@@ -328,7 +328,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["点"] = {
 		["击"] = {
 			["进"] = {

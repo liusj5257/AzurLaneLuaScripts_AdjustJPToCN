@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIRICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIRICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「버츄얼 연결고리의 공시성」 -일상편\n\n<size=45>4. 먹고 살기 힘들면 BAR 스낵아이로!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - BAR 스낵아이(식당)",
 			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - BAR 스낵아이(식당)",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "(딸랑딸랑~)",
 			typewriter = {
 				speed = 0.05,
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "마담 아이",
 			say = "오~? 어떤 고민이고? 내한테 말해봐라~",
 			typewriter = {
@@ -147,11 +147,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#92fc63",
 			say = "어어어어라? 이이이이 벤슨에게 고민 같은 건 전~혀 없다고?(부들부들)",
 			typewriter = {
 				speed = 0.05,
@@ -163,8 +163,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -194,9 +194,9 @@ return {
 			bgName = "star_level_bg_104",
 			nameColor = "#92fc63",
 			dir = 1,
+			say = "(아~ 이건 내숭 떨고 있구만. 그렇구만~ 여기는 내도 한 팔 걷어붙이까.)",
 			actor = 900179,
 			actorName = "마담 아이",
-			say = "(아~ 이건 내숭 떨고 있구만. 그렇구만~ 여기는 내도 한 팔 걷어붙이까.)",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_104",
 			side = 0,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "마담 아이",
 			say = "내가 되고싶은 모습이나, 보여주고 싶은 모습이 있는 거란 말이제. 근데 그게 고대로 전해지고 있는가는 상대가 아니믄 모르는 거제.",
 			typewriter = {
@@ -396,11 +396,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_104",
 			side = 0,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "마담 아이",
 			say = "분명 지휘관도 싫다꼬는 생각 안 할 기라. 오히려 거꾸로 지금 이상으로 '초절정 파워풀 세젤귀 미소녀'인 벤슨쨩이 되면 되지 않겠나?",
 			typewriter = {
@@ -495,11 +495,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#92fc63",
 			say = "아하☆ 벤슨, 알아버렸을지도! 마담 아이! 라피! 둘 다 고마워☆",
 			typewriter = {
 				speed = 0.05,
@@ -511,8 +511,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -521,11 +521,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "마담 아이",
 			say = "괘안타. 신경 쓰지 말그래이. 시원하이 푼 거 같아서 좋네. 벤슨쨩 힘내레이~",
 			typewriter = {
@@ -554,11 +554,11 @@ return {
 			}
 		},
 		{
-			actor = 101160,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 101160,
+			nameColor = "#92fc63",
 			say = "이렇게 된 거, 바로 귀여워지기 위해서 수행에 나설 거야~♡ 둘 다 다음에 봐~!",
 			typewriter = {
 				speed = 0.05,
@@ -570,8 +570,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 2250
@@ -579,11 +579,11 @@ return {
 			}
 		},
 		{
-			actor = 900179,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_104",
 			side = 2,
+			bgName = "star_level_bg_104",
 			dir = 1,
+			actor = 900179,
 			actorName = "마담 아이",
 			say = "또 보제이~ 아, 거기 계단 있으니까 조심해서 가레이~",
 			typewriter = {
@@ -596,9 +596,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_104",
+			dir = 1,
 			say = "(미끌~!)",
 			dialogShake = {
 				speed = 0.09,
@@ -683,14 +683,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_104",
 			actor = 10400010,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "이후, 짜증스러움을 더욱 갈고 닦아 지휘관에게 설교 당해버리는 벤슨쨩인 것이었다……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -718,9 +718,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_104",
-			actor = 10400010,
 			dir = 1,
 			blackBg = true,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "뭐, 그런 일도 있죠!",
 			typewriter = {

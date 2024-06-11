@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GELASIGE3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GELASIGE3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"그것은…연애의 계절\n\n<size=45>3 누가 원앙이란 거야!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107040,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "여러분 다들 자리에 앉았죠. 그럼 반회의를 시작할게요. 좋은 아침이에요.",
 			bgm = "story-1",
+			actor = 107040,
+			nameColor = "#a9f548",
+			say = "여러분 다들 자리에 앉았죠. 그럼 반회의를 시작할게요. 좋은 아침이에요.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "——안녕하세요!!",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "글래스고가 이런 생각을 하고 있을 때, 앞에 앉아 있던 아덴트가 갑자기 고개를 돌려 그녀를 보았다.",
 			typewriter = {
 				speed = 0.05,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "글래스고는 어리둥절했다.",
 			typewriter = {
 				speed = 0.05,
@@ -206,9 +206,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "글래스고는 여전히 아덴트가 무슨 말을 하는지 알 수 없었고 그저 그녀가 기쁘게 소리치는 음성만 들렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -220,9 +220,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "온 교실의 시선은 두 사람에게 집중했다……",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "잠, 잠깐!? 아덴트 지금 무슨 소리 하는 거야——그리고, 대체 누가 원앙이란 거야!",
 			typewriter = {
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -280,8 +280,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "에, 에든버러 마저……",
 			typewriter = {
@@ -294,9 +294,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "제안은 모두의 동의를 얻었고 결과는 이미 정해져 버린 듯 했다.",
 			typewriter = {
 				speed = 0.05,
@@ -327,8 +327,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 202261,
 			dir = 1,
+			actor = 202261,
 			nameColor = "#a9f548",
 			say = "어, 어째서 이렇게… 흐흑……",
 			typewriter = {
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "이렇게, 두 사람은 \"원앙・반장\"으로 뽑혔다.",
 			typewriter = {
 				speed = 0.05,
@@ -371,9 +371,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "레인저 선생님의 따스한 위로의 말에 글래스고와 그 사람은 눈빛을 교환했다.",
 			typewriter = {
 				speed = 0.05,

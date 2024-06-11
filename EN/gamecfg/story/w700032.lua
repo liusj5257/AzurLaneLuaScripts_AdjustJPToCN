@@ -1,12 +1,12 @@
 return {
-	id = "W700032",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700032",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "You've completed all the available Arbiter Battles this month. You may use the devices around the map to challenge these bosses again, but will not receive any additional rewards.",
 			typewriter = {
 				speed = 0.05,

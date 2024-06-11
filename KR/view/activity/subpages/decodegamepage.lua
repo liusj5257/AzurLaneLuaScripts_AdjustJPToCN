@@ -1,7 +1,7 @@
 slot0 = class("DecodeGamePage", import(".TemplatePage.SkinTemplatePage"))
 slot1 = nil
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.dayTF = slot0:findTF("Text", slot0.bg):GetComponent(typeof(Text))
 	slot0.item = slot0:findTF("items/item", slot0.bg)
@@ -18,7 +18,7 @@ function slot0.OnInit(slot0)
 	slot0.number2 = slot0:findTF("AD/2"):GetComponent(typeof(Image))
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
 	uv1 = slot0.activity:getConfig("config_client").decodeGameId
@@ -36,11 +36,11 @@ function slot0.OnFirstFlush(slot0)
 	}):getConfig("icon"), "", slot0.itemIcon)
 end
 
-function slot0.GetProgressColor(slot0)
+slot0.GetProgressColor = function(slot0)
 	return "#E6F9FD", "#738285"
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot0.dayTF.text = slot0.nday .. "/7"
@@ -53,7 +53,7 @@ function slot0.OnUpdateFlush(slot0)
 	})
 end
 
-function slot0.UpdateGameProgress(slot0)
+slot0.UpdateGameProgress = function(slot0)
 	slot1 = getProxy(MiniGameProxy)
 	slot5 = DecodeGameModel.New()
 
@@ -88,13 +88,13 @@ function slot0.UpdateGameProgress(slot0)
 	setActive(slot0.red, not slot10 and slot0:IsFinishAllTasks())
 end
 
-function slot0.IsFinishAllTasks(slot0)
+slot0.IsFinishAllTasks = function(slot0)
 	return _.all(slot0.taskGroup[#slot0.taskGroup], function (slot0)
 		return getProxy(TaskProxy):getFinishTaskById(slot0) ~= nil
 	end)
 end
 
-function slot0.UpdateCanUseCnt(slot0, slot1)
+slot0.UpdateCanUseCnt = function(slot0, slot1)
 	slot2 = math.floor(slot1 / 10)
 	slot0.number1.sprite = GetSpriteFromAtlas("ui/DecodeGameNumber_atlas", slot2)
 	slot0.number2.sprite = GetSpriteFromAtlas("ui/DecodeGameNumber_atlas", slot1 % 10)

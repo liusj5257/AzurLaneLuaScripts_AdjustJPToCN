@@ -1,19 +1,19 @@
 return {
-	id = "MAOZIHUODONG5",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 102100,
 			dir = 1,
+			bgm = "battle-boss-4",
+			actor = 102100,
 			nameColor = "#a9f548",
 			say = "１，２，３……うん、量産型艦隊の掃討が終了っと",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "ここはわたしでも勝てるけど、奥のはそうはいかないのよ。今のはただの斥候程度ね",
 			typewriter = {
@@ -156,8 +156,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "まあ、私たちが来たからには問題ないっしょ。指揮官も結構戦力を用意しているわけだしね",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "どんな敵が待っていようが戦うしかないのさ！レッツゴー！",
 			typewriter = {

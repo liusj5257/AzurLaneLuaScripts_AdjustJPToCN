@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Hiei's Banquet\n\n<size=45>Chapter 6: A Table for Two</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 304020,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Oh my, Kirishima is quite the popular one.",
 			bgm = "story-1",
+			actor = 304020,
+			nameColor = "#a9f548",
+			say = "Oh my, Kirishima is quite the popular one.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "Being able to handle that kind of attention... takes some natural talent and charm.",
 			typewriter = {
 				speed = 0.05,
@@ -90,9 +90,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "For a moment, it seemed like Hiei's face was a lovely blush of red... but maybe it was just an illusion.",
 			typewriter = {
 				speed = 0.05,
@@ -100,13 +100,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "I found Hiei with the Commander, nya!",
 			bgm = "story-1",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "I found Hiei with the Commander, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,12 +117,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "Good evening, Commander. Good evening, Hiei. Thank you for the invitation.",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Good evening, Commander. Good evening, Hiei. Thank you for the invitation.",
+			actor = 301180,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Akashi supplied the ingredients, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -185,8 +185,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -227,12 +227,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			say = "Nyaaa?! Y-you scared me... It's just Kongou, nya...",
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Nyaaa?! Y-you scared me... It's just Kongou, nya...",
+			actor = 312010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -263,12 +263,12 @@ return {
 			}
 		},
 		{
-			actor = 304010,
+			say = "Say nothing of it! Speaking of which, it'd be a pity if you spent all your time standing out here. After all the work you put in, you might as well join in...",
 			side = 1,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Say nothing of it! Speaking of which, it'd be a pity if you spent all your time standing out here. After all the work you put in, you might as well join in...",
+			actor = 304010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -283,12 +283,12 @@ return {
 			}
 		},
 		{
-			actor = 304010,
+			say = "Ah, or perhaps... I get it now. Akashi, Shiranui, let's continue talking over there instead.",
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ah, or perhaps... I get it now. Akashi, Shiranui, let's continue talking over there instead.",
+			actor = 304010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "Why should I... unyaaa!? Don't pick me up like that! I can walk on my own, nya!",
 			typewriter = {
 				speed = 0.05,
@@ -319,8 +319,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -377,9 +377,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "For whatever reason, it felt like I had the most reliable wingwomen in the world...",
 			typewriter = {
 				speed = 0.05,
@@ -403,12 +403,12 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "Commander, would you do me the honor of accompanying me for this dance?",
 			typewriter = {
 				speed = 0.05,

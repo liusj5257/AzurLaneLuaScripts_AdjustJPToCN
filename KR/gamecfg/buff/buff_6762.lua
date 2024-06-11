@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "华盛顿条约",
 	time = 0,
-	color = "blue",
+	name = "华盛顿条约",
+	init_effect = "",
+	id = 6762,
 	picture = "",
 	desc = "造成伤害降低",
 	stack = 1,
-	id = 6762,
+	color = "blue",
 	icon = 6762,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = -0.15
+				number = -0.15,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

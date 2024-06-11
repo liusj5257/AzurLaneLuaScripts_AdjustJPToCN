@@ -1,9 +1,9 @@
 slot0 = class("IslandMainPage", import(".TemplatePage.PreviewTemplatePage"))
 
-function slot0.initBtn(slot0)
+slot0.initBtn = function(slot0)
 	uv0.super.initBtn(slot0)
 
-	function slot0.btnFuncList.shop(slot0)
+	slot0.btnFuncList.shop = function(slot0)
 		onButton(uv0, slot0, function ()
 			slot1 = getProxy(ActivityProxy)
 
@@ -28,7 +28,7 @@ function slot0.initBtn(slot0)
 		end, SFX_PANEL)
 	end
 
-	function slot0.btnFuncList.activity(slot0)
+	slot0.btnFuncList.activity = function(slot0)
 		onButton(uv0, slot0, function ()
 			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND) or slot0:isEnd() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
@@ -40,7 +40,7 @@ function slot0.initBtn(slot0)
 		end, SFX_PANEL)
 	end
 
-	function slot0.btnFuncList.mountain(slot0)
+	slot0.btnFuncList.mountain = function(slot0)
 		onButton(uv0, slot0, function ()
 			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2) or slot0:isEnd() then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
@@ -53,7 +53,7 @@ function slot0.initBtn(slot0)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	for slot5, slot6 in pairs({
 		shop = function ()
 			slot1 = getProxy(ActivityProxy)

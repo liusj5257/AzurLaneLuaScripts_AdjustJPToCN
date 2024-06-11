@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDX180A",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDX180A",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Operation Siren has reset, and a special item shop has opened.",
 			typewriter = {
 				speed = 0.05,

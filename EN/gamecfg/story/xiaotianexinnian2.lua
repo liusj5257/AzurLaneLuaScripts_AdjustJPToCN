@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"New Year's Blessings\n\n<size=45>Chapter 2 New Year's Snow</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301141,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = -1,
 			bgmDelay = 2,
-			say = "Aw yeah~ Kotatsus are frickin' amazing~",
 			bgm = "main-newyear",
+			actor = 301141,
+			nameColor = "#a9f548",
+			say = "Aw yeah~ Kotatsus are frickin' amazing~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 301150,
+			say = "Here we have Yuudachi in her natural habitat: by the kotatsu, adamantly refusing to come out...",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Here we have Yuudachi in her natural habitat: by the kotatsu, adamantly refusing to come out...",
+			actor = 301150,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 301141,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 301141,
+			nameColor = "#a9f548",
 			say = "Snow?! Oh, man, it's snowing! C'mon, Shigure, let's have a snowball fight!",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "Hey! Let go! Don't drag me along!",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -142,14 +142,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			actor = 301601,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Wow, look at all that snow! It's piled up so quickly!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -174,12 +174,12 @@ return {
 			}
 		},
 		{
-			actor = 301590,
+			say = "Hmph, I don't see why anyone would get so fired up over a bit of snowfall.",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hmph, I don't see why anyone would get so fired up over a bit of snowfall.",
+			actor = 301590,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -197,8 +197,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_room",
-			actor = 301601,
 			dir = 1,
+			actor = 301601,
 			nameColor = "#a9f548",
 			say = "Then why is your tail wagging so much? It's moving faster than Nobunaga's unification of Japan!",
 			typewriter = {
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 301590,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301590,
+			nameColor = "#a9f548",
 			say = "No it's not! L-like I'd ever get excited over some stupid snow!",
 			typewriter = {
 				speed = 0.05,
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.15,
 					x = 0,
@@ -237,15 +237,15 @@ return {
 			}
 		},
 		{
-			actor = 307012,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307012,
+			nameColor = "#a9f548",
 			say = "A trim here and a snip there... Fufufufu... Ahh... I can't wait to see how much he'll love my present...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -286,12 +286,12 @@ return {
 			}
 		},
 		{
-			actor = 307022,
+			say = "Seems so... Might be those destroyers having a snowball fight.",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Seems so... Might be those destroyers having a snowball fight.",
+			actor = 307022,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -370,8 +370,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -382,8 +382,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -410,12 +410,12 @@ return {
 			}
 		},
 		{
-			actor = 399020,
+			say = "We're just doing our job. That doesn't warrant any praise.",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "We're just doing our job. That doesn't warrant any praise.",
+			actor = 399020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -462,11 +462,11 @@ return {
 			}
 		},
 		{
-			actor = 399010,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 399010,
+			nameColor = "#a9f548",
 			say = "E-excuse me?! You mean to take part in the <i>snowball</i> fight?!",
 			typewriter = {
 				speed = 0.05,
@@ -478,8 +478,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.2,
 					x = 0,
@@ -600,12 +600,12 @@ return {
 			}
 		},
 		{
-			actor = 307031,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307031,
+			nameColor = "#a9f548",
 			say = "Everyone gets so excited around New Year's... I just hope they don't make a mess... *Sigh*, my stomach's already starting to ache...",
 			typewriter = {
 				speed = 0.05,

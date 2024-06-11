@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN14",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuanhuidian",
+			nameColor = "#A9F548FF",
+			bgm = "story-6",
 			stopbgm = true,
 			say = "사실 양측은 전투가 시작되기 훨씬 전부터 이미 전투의 결과를 알고 있었다.",
-			bgm = "story-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "하지만 모두 긴장을 늦추지 않았다. 블뤼허와 Z16은 사용할 수 있는 모든 화력을 집중해 전력으로 정면 승부를 벌였다.",
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "그 후, 두 함선을 상징하는 표적이 파괴되면서 기나긴 실험은 드디어 종지부를 찍었다.",
 			typewriter = {

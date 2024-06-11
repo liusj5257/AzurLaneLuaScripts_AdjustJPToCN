@@ -1,15 +1,15 @@
 return {
-	id = "WORLD106D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD106D",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bsm-1",
 			say = "黒焦げ…？たような何かが漂っている。",
+			side = 2,
+			dir = 1,
+			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "直接触るのは危険だ。とりあえず気をつけてサンプルを取って…",
 			typewriter = {
 				speed = 0.05,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "今度港に戻ったら分析してみよう",
 			typewriter = {
 				speed = 0.05,

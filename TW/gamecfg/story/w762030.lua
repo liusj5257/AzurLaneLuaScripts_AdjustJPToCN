@@ -1,12 +1,12 @@
 return {
-	id = "W762030",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W762030",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "撿到了寶箱鑰匙！或許可以用來打開上鎖的寶箱。",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024愚人节 自机锁血",
 	time = 0,
-	color = "yellow",
+	name = "2024愚人节 自机锁血",
+	init_effect = "",
+	id = 200899,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200899,
+	color = "yellow",
 	icon = 200899,
 	last_effect = "bossbomb",
 	effect_list = {
@@ -57,8 +57,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 200901,
-				target = "TargetSelf",
-				time = 0.1
+				time = 0.1,
+				target = "TargetSelf"
 			}
 		}
 	}

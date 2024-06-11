@@ -139,14 +139,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "尚武之魂",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 10951,
+	time = 0,
 	picture = "",
 	desc = "炮击提高",
 	stack = 1,
-	id = 10951,
+	color = "red",
 	icon = 10951,
 	last_effect = "",
 	blink = {

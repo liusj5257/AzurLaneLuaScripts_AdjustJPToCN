@@ -159,14 +159,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "三色秩序",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 101081,
+	time = 0,
 	picture = "",
 	desc = "伤害提高",
 	stack = 1,
-	id = 101081,
+	color = "red",
 	icon = 101081,
 	last_effect = "",
 	blink = {

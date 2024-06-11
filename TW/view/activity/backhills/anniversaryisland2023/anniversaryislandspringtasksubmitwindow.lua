@@ -1,14 +1,14 @@
 slot0 = class("AnniversaryIslandSpringTaskSubmitWindow", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AnniversaryIslandSpringTaskSubmitWindow"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	setText(slot0._tf:Find("Content/Tips"), i18n("sub_item_warning"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot3 = slot0._tf
 
 	onButton(slot0, slot3:Find("BG"), function ()
@@ -57,7 +57,7 @@ function slot0.didEnter(slot0)
 	end)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 end
 
 return slot0

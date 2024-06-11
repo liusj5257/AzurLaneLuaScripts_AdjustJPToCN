@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "文書に記された術式に従い、一行は「永夜の闇」を解除し、東の拠点に足を踏み入れた。",
 			bgm = "story-oldcastle-carnival",
+			say = "文書に記された術式に従い、一行は「永夜の闇」を解除し、東の拠点に足を踏み入れた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "ここに駐留していた吸血鬼たちは、拠点の防御術式が解除されるとはまったく考えていなかったようで、大した抵抗もできずに簡単に制圧された。",
 			typewriter = {
@@ -84,11 +84,11 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "吸血鬼門番",
 			dir = 1,
+			actor = 408024,
 			nameColor = "#FF9B93",
 			say = "……なるほど",
 			painting = {
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "吸血鬼門番",
 			dir = 1,
+			actor = 408024,
 			nameColor = "#FF9B93",
 			say = "……もうそんなに経ったんだ",
 			painting = {
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "吸血鬼門番",
 			dir = 1,
+			actor = 408024,
 			nameColor = "#FF9B93",
 			say = "まずは西の拠点に行って",
 			painting = {
@@ -297,11 +297,11 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "吸血鬼門番",
 			dir = 1,
+			actor = 408024,
 			nameColor = "#FF9B93",
 			say = "もしかしたら彼女、好奇心を刺激されて、会ってくれるかもしれない",
 			painting = {

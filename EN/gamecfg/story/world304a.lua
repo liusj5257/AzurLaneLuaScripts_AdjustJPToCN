@@ -1,17 +1,17 @@
 return {
-	id = "WORLD304A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD304A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107110,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "xinnong-3",
 			dir = 1,
 			say = "...What? Investigating the weather, of all things?",
+			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,9 +54,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "No! Operation Siren is a united offensive against the Sirens! We're supposed to stick together, not divide our forces across vast distances!",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "You know, I actually agree. I think this directive isn't worth pursuing, at least not now. Essex? What do you think?",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "Sure, it might be a trap, but we need all the intel we can get for Operation Siren to be a success. That said...",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "If Enterprise were in my shoes... that's probably what she would do!",
 			typewriter = {
 				speed = 0.05,
@@ -188,11 +188,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/44/tb-44",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "System rebooting... Complete. Jamming has ceased. Wide-area scan revealed no abnormalities.",
-			voice = "event:/tb/44/tb-44",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "Look at that, TB is back online! All right, let's continue with securing this zone so we can come to Cleveland's aid at any time.",
 			typewriter = {
 				speed = 0.05,

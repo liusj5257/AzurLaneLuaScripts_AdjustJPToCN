@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG25",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG25",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107030,
 			dir = 1,
+			bgm = "bgm-cccp3",
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "指揮官発見！サラトガちゃん、華麗に登場！",
-			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,8 +28,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705050,
 			dir = 1,
+			actor = 705050,
 			nameColor = "#a9f548",
 			say = "ガングート、キーロフ、ミンスク、よくやった！",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "ふふん、我がひらめきによってみんな無事合流できたな！",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "ええ、一緒に戦いましょう？",
 			typewriter = {
@@ -124,13 +124,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_cccp_7",
+			side = 2,
+			dir = 1,
 			say = "ユニオンと北方連合の連合艦隊がセイレーン艦隊を迎え撃つ。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "あ、そうだそうだ！さっきの通信、急によくわからないやつが割り込んできてびっくりしたよ…",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 702030,
 			dir = 1,
+			actor = 702030,
 			nameColor = "#a9f548",
 			say = "こっちも同じね。…だけど今は敵をやっつけるのが先決よ",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "そうだ！血湧き肉躍る最終決戦だ！",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701020,
 			dir = 1,
+			actor = 701020,
 			nameColor = "#a9f548",
 			say = "っぷ。体温まってきた…",
 			typewriter = {
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 705050,
 			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 705050,
+			nameColor = "#a9f548",
 			say = "北方連合艦隊、攻撃開始！我らの力をセイレーンに見せてやる！",
 			typewriter = {
 				speed = 0.05,
@@ -261,11 +261,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccp_7",
-			actorName = "みんな",
 			dir = 1,
+			actorName = "みんな",
 			say = "おおお！",
 			effects = {
 				{

@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN21",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "浮島要塞、D12防衛区画",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-executor-type1",
+			say = "浮島要塞、D12防衛区画",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "「鉄血」と「重桜」艦隊はD13に誘導されつつある…ハインリヒ、上手くやってるわね",
 			typewriter = {
@@ -60,8 +60,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "ペーターのほうはどうかしら…",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "今敵を蹴散らして制御装置に向かっているわ。卿らと約束した時間にはまだなっていないけど",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "ええ、分かっているわ。ペーターが指定した時間まで「駒」と量産艦をD13区画に誘導して",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "そして飛行場の制御権を奪還して一気に実験場の全航空戦力で仕掛ける――そういう作戦でしょ？",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "飛行場施設の性能のテストにはちょうど良い状況だわ。フフフ…",
 			typewriter = {

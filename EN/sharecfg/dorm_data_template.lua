@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.dorm_data_template = {
 	{
-		name = "Lv. 1 Room",
 		training_ship_number = 6,
+		name = "Lv. 1 Room",
 		time = 15,
 		exp = 1,
 		capacity = 40000,
@@ -50,8 +50,8 @@ pg.dorm_data_template = {
 		}
 	},
 	{
-		name = "Lv. 2 Room",
 		training_ship_number = 6,
+		name = "Lv. 2 Room",
 		time = 15,
 		exp = 1,
 		capacity = 40000,
@@ -99,8 +99,8 @@ pg.dorm_data_template = {
 		}
 	},
 	{
-		name = "Lv. 3 Room",
 		training_ship_number = 6,
+		name = "Lv. 3 Room",
 		time = 15,
 		exp = 1,
 		capacity = 40000,
@@ -148,8 +148,8 @@ pg.dorm_data_template = {
 		}
 	},
 	{
-		name = "Lv. 4 Room",
 		training_ship_number = 6,
+		name = "Lv. 4 Room",
 		time = 15,
 		exp = 1,
 		capacity = 40000,

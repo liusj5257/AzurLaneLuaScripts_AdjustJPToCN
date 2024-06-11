@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "挑战关卡第8关双盾无法击破",
 	time = 0,
+	name = "挑战关卡第8关双盾无法击破",
+	init_effect = "",
 	picture = "",
 	desc = "挑战关卡第8关双盾无法击破",
 	stack = 1,
@@ -17,9 +17,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 999999,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{
@@ -53,9 +53,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield02",
 				count = 999999,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			voice = "event:/educate/tb/educate-tb-story-32-15",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg23",
-			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "story-richang-relax",
-			actorName = "TB",
+			voice = "event:/educate/tb/educate-tb-story-32-15",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……늦어요.",
 			painting = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -64,14 +64,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg23",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……괜찮아요, 그렇게 오래 기다리진 않았으니까.",
 			voice = "event:/educate/tb/educate-tb-story-32-16",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……괜찮아요, 그렇게 오래 기다리진 않았으니까.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,14 +82,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg23",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "그나저나… 이 옷… 익숙하지 않네요.",
 			voice = "event:/educate/tb/educate-tb-story-32-17",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "그나저나… 이 옷… 익숙하지 않네요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,14 +100,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg23",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "가급적이면… 너무 쳐다보지 않으셨으면 해요.",
 			voice = "event:/educate/tb/educate-tb-story-32-18",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "가급적이면… 너무 쳐다보지 않으셨으면 해요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,14 +130,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg23",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……뭐랄까, 저랑은 어울리지 않는 것 같아서 부끄러워요.",
 			voice = "event:/educate/tb/educate-tb-story-32-19",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……뭐랄까, 저랑은 어울리지 않는 것 같아서 부끄러워요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,14 +160,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg23",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……정말요?",
 			voice = "event:/educate/tb/educate-tb-story-32-20",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……정말요?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,14 +178,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg23",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……그럼, 됐어요.",
 			voice = "event:/educate/tb/educate-tb-story-32-21",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……그럼, 됐어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,27 +196,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_project_tb_cg23",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_project_tb_cg23",
 			say = "회장에 울려 퍼지는 음악에 맞춰, TB를 댄스에 초청하며 가볍게 인사를 건넸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -227,10 +227,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_cg23",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-32-laugh1",
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "……",
 			painting = {
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
 			say = "소녀는 내 손바닥에 살짝 자신의 손을 얹었다.",

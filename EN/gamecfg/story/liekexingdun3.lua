@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LIEKEXINGDUN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LIEKEXINGDUN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"An Ode to the Sea\n\n<size=45>3 Data Isn't Everything</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task",
-			say = "Port - Princeton's Room",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
+			say = "Port - Princeton's Room",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "After a moment's hesitation, Lexington knocks on the door leading to a quiet room.",
 			soundeffect = "event:/ui/knockdoor1",
+			say = "After a moment's hesitation, Lexington knocks on the door leading to a quiet room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,8 +60,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "Come in. I wasn't expecting visitors today, so I don't have– Oh! Commander and Lexington! Hi there.",
 			painting = {
@@ -74,8 +74,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -87,8 +87,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "Don't see you two together every day... Uhh, my room's a bit of a mess. Please try to ignore that.",
 			painting = {
@@ -103,9 +103,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "That's fine. We are dropping by unannounced, after all.",
 			painting = {
 				alpha = 0.3,
@@ -119,9 +119,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "What's that on your whiteboard? One big equation?",
 			painting = {
 				alpha = 0.3,
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "There is a very long equation on her whiteboard, so long it could make a loop around Princeton's room if you laid it out on a single row.",
 			typewriter = {
@@ -146,8 +146,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "Yeah, it's the proof to Bulschwartz's nil-point problem. I'm nearly finished with it.",
 			painting = {
@@ -162,9 +162,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "I... see...",
 			painting = {
 				alpha = 0.3,
@@ -179,8 +179,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "Oh, pardon my math jargon. It's fine if you don't understand. Anyway, you two came at the perfect time.",
 			painting = {
@@ -196,8 +196,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "...What's the matter, Lexington? If something's on your mind, tell me.",
 			painting = {
@@ -212,9 +212,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "Thank you. But do I really look THAT under the weather?",
 			painting = {
 				alpha = 0.3,
@@ -229,8 +229,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "Well, it's more like... Saratoga told me something has been bothering you lately.",
 			painting = {
@@ -243,8 +243,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -255,9 +255,9 @@ return {
 		{
 			actor = 107230,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "Although, she didn't give me specifics, so I just assumed you coming here has something to do with your problem.",
 			painting = {
 				alpha = 0.3,
@@ -271,9 +271,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "Hmm. Where to begin...",
 			painting = {
 				alpha = 0.3,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "Lexington explained her worries to Princeton.",
 			typewriter = {
@@ -294,17 +294,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -315,8 +315,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "That is a tricky one... I've never even thought about that before, I've just enjoyed your and Saratoga's music.",
 			painting = {
@@ -332,8 +332,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "I daresay I have a knack for math and statistics. The question is, how can I put that to use...",
 			painting = {
@@ -348,9 +348,9 @@ return {
 		{
 			actor = 107230,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "...I've got it! Commander, read this.",
 			painting = {
 				alpha = 0.3,
@@ -362,8 +362,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "Princeton quickly jots down something on her notepad, then rips the sheet off and folds it up before handing it to me.",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "This may well help solve Lexington's problem.",
 			painting = {
@@ -391,9 +391,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "Huh? Am I not allowed to read it?",
 			painting = {
 				alpha = 0.3,
@@ -408,8 +408,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "It's, uh, best if it's kept a surprise for you. You know, like how your concerts always end with a surprise.",
 			painting = {
@@ -424,9 +424,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "I'm not sure I get it, but alright.",
 			painting = {
 				alpha = 0.3,
@@ -441,8 +441,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "I'll say this: data is useful, but it's not everything. It only tells you the probability of things.",
 			painting = {
@@ -458,8 +458,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#A9F548FF",
 			say = "This insight is all I can give you. The Commander and other people will need to do the rest. Sorry.",
 			painting = {
@@ -474,9 +474,9 @@ return {
 		{
 			actor = 107020,
 			side = 2,
-			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_story_task",
 			say = "Don't be. I appreciate your help.",
 			painting = {
 				alpha = 0.3,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "Confiding in Princeton seems to have helped as Lexington's expression brightens quite a bit.",
 			typewriter = {
@@ -498,8 +498,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "I unfold the note and start reading it...",
 			typewriter = {

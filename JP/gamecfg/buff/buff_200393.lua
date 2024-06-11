@@ -1,12 +1,12 @@
 return {
-	time = 5,
-	name = "DOA联动复刻 EX2 进入狂暴",
 	init_effect = "",
+	name = "DOA联动复刻 EX2 进入狂暴",
+	time = 5,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200393,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",

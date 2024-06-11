@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 301111,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "짜잔~! 다과회가 시작될 거야!",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			actor = 301111,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "그렇군, 로열 네이비의 메이드 씨는 이유가 알고 싶다는 이거지! 그건 말야… 어른의 이유야!",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			actor = 301121,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "슬슬 '겨울 시즌' 이니까, 모두를 격려하고자 합니다. ……수고한 여러분을 이나즈마가 여기서 따뜻한 차와 함께 기다리고자 합니다.",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			actor = 301111,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "이카즈치는 방에 틀어박혀 있지 않았어! 이카즈치는…… 그니까, 동면! 이카즈치는 동면중이라고!",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			actor = 301121,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "……이카즈치, 눈 가리고 아웅 하는 것도 정도껏…",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			actor = 301111,
 			nameColor = "#92fc63",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "그렇구나! 하지만 불을 켜고 있으니까 괜찮아!",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			actor = 301121,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "……일러스트리어스 씨, 이카즈치 말고도 한 명 더 온다고 들었습니다만……",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			actor = 301121,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "음…… 후드 씨도 안 왔나요?",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			actor = 301121,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "\"이카즈치의 자신작을 소개합니다~\"",
 			typewriter = {
 				speed = 0.05,
@@ -280,16 +280,16 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "로열 네이비 일동",
 			actorShadow = true,
+			hideOther = true,
 			side = 1,
 			actor = 202120,
 			nameColor = "#92fc63",
 			say = "……이, 이건…!!!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -380,8 +380,8 @@ return {
 			actor = 301121,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "아카츠키는……",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			actor = 301111,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "편지를 남기고 홀로 외출했다나봐!",
 			typewriter = {
 				speed = 0.05,
@@ -424,16 +424,16 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			nameColor = "#92fc63",
 			say = "『히비키가 참가하지 않는 다과회따위 소인은 거절하겠소! 히비키, 기다려! 소인이 반드시 데려와보이겠소!』",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

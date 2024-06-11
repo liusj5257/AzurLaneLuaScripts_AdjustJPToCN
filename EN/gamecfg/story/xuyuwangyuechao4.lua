@@ -1,28 +1,28 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO4",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "They reached the center of the seal and attempted to perform the ritual. However...",
 			bgm = "story-unzen",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "They reached the center of the seal and attempted to perform the ritual. However...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "Sakura Empire Flagship",
 			dir = 1,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_yunxian_3",
 			factiontag = "Sakura Empire Flagship",
 			dir = 1,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -122,8 +122,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -146,13 +146,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "bg_yunxian_3",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A shooting star? No, is that the Great Sage...?",
 			painting = {
 				alpha = 0.3,
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -267,14 +267,14 @@ return {
 		{
 			portrait = 305050,
 			side = 2,
-			bgName = "star_level_bg_504",
 			factiontag = "Sakura Empire Flagship",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			expression = 4,
-			oldPhoto = true,
 			actorName = "Nagato",
+			expression = 4,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_504",
+			oldPhoto = true,
 			say = "...Am I hallucinating?",
 			flashN = {
 				color = {
@@ -311,17 +311,17 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -337,8 +337,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -361,11 +361,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_moran_3",
-			hidePaintObj = true,
 			oldPhoto = true,
+			hidePaintObj = true,
 			say = "The Prime Sakura was wreathed in flames.",
 			flashN = {
 				color = {
@@ -402,8 +402,8 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -415,8 +415,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -427,12 +427,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_mirror",
-			hidePaintObj = true,
-			actorName = "Distorted Noise",
 			oldPhoto = true,
+			actorName = "Distorted Noise",
+			hidePaintObj = true,
 			say = "(RUN...! RUN, NOW...!)",
 			flashN = {
 				color = {
@@ -469,8 +469,8 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -487,9 +487,9 @@ return {
 			bgName = "bg_mirror",
 			portrait = 305100,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "Musashi",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Is this... one of our cities...?!",
 			painting = {
@@ -507,9 +507,9 @@ return {
 			bgName = "bg_mirror",
 			portrait = 305100,
 			dir = 1,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "Musashi",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Lady Nagato, look!",
 			painting = {
@@ -522,8 +522,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -546,8 +546,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -558,8 +558,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -576,9 +576,9 @@ return {
 			factiontag = "Sakura Empire Flagship",
 			dir = 1,
 			portrait = 305050,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "Nagato",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The Great Sage...",
 			painting = {
@@ -591,8 +591,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -615,13 +615,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			oldPhoto = true,
-			say = "The mirage changed again, this time into the scene of spring they had witnessed before entering the sanctuary.",
 			bgm = "theme-unzen",
+			hidePaintObj = true,
+			say = "The mirage changed again, this time into the scene of spring they had witnessed before entering the sanctuary.",
 			flashN = {
 				color = {
 					1,
@@ -657,8 +657,8 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -670,8 +670,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -682,8 +682,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -714,8 +714,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "star_level_bg_518",
 			factiontag = "Sakura Empire Flagship",
 			dir = 1,
@@ -736,10 +736,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "Guardian Fox. Musashi.",
 			typewriter = {
@@ -751,10 +751,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "You two had the same dream, as I recall.",
 			typewriter = {
@@ -763,13 +763,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "Some say that dreams are an extension of reality, while others call them a reflection of your mind.",
 			typewriter = {
 				speed = 0.05,
@@ -780,10 +780,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "Unlike you, however, I dream of potential futures.",
 			typewriter = {
@@ -795,10 +795,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "To be honest, I've dreamed of that same future of destruction countless times.",
 			typewriter = {
@@ -810,10 +810,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "Tens... No, hundreds of times, even.",
 			typewriter = {
@@ -822,13 +822,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "I was able to act of my own will, so I investigated various things throughout the dreams.",
 			typewriter = {
 				speed = 0.05,
@@ -839,10 +839,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "That beast of black mist that withers the Prime Sakura and brings calamity to the Sakura Empire...",
 			typewriter = {
@@ -854,10 +854,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "I call it the Shadow of Corruption.",
 			typewriter = {
@@ -866,13 +866,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "While Watatsumi, that which fell from the heavens, gives us the wisdom and power to expel evil...",
 			typewriter = {
 				speed = 0.05,
@@ -883,10 +883,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "The Shadow of Corruption, too, will inevitably become the calamitous darkness.",
 			typewriter = {
@@ -914,13 +914,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "Yes. Like two sides of a coin, like light and shadow.",
 			typewriter = {
 				speed = 0.05,
@@ -931,10 +931,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "Wherever there is light, there is also darkness. Normally, they maintain balance instead of leading to ruin, but...",
 			typewriter = {
@@ -943,13 +943,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_518",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But due to this anomaly, you've witnessed our future.",
 			painting = {
 				alpha = 0.3,
@@ -964,10 +964,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "The more Watatsumi's power is used, the stronger the darkness's influence becomes.",
 			typewriter = {
@@ -979,10 +979,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "No, even if Watatsumi's power isn't used, as Wisdom Cubes grow stronger...",
 			typewriter = {
@@ -1010,13 +1010,13 @@ return {
 			}
 		},
 		{
-			actor = 305100,
 			oldPhoto = true,
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
 			side = 2,
+			bgName = "star_level_bg_518",
+			dir = 1,
+			actor = 305100,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Are you saying that Watatsumi and Wisdom Cubes are one and the same?",
 			painting = {
 				alpha = 0.3,
@@ -1028,13 +1028,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "To be more precise, they're similar but different. As time passes and branches shift, our names for them change as well.",
 			typewriter = {
 				speed = 0.05,
@@ -1045,10 +1045,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "Regardless of the name you call them by, they tap into the same wellspring of power that gives form to our hulls... In other words, a conduit to a root source.",
 			typewriter = {
@@ -1060,10 +1060,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "Humans may wield this power and manifest it in different ways, but this primordial wellspring is far beyond their ability to control.",
 			typewriter = {
@@ -1072,13 +1072,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "Nevertheless, if we do not define it in terms of human cognition, we would have no way of understanding its scale on a cosmic level.",
 			typewriter = {
 				speed = 0.05,
@@ -1105,13 +1105,13 @@ return {
 			}
 		},
 		{
-			actor = 303190,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actorName = "The Great Sage",
+			bgName = "star_level_bg_518",
 			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
+			hidePaintObj = true,
 			say = "A miraculous entity born of countless wishes, interwoven with the laws and truths of countless worlds.",
 			typewriter = {
 				speed = 0.05,
@@ -1122,10 +1122,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			oldPhoto = true,
-			actorName = "The Great Sage",
-			actor = 303190,
 			nameColor = "#A9F548FF",
+			oldPhoto = true,
+			actor = 303190,
+			actorName = "The Great Sage",
 			hidePaintObj = true,
 			say = "That is Watatsumi. That is me.",
 			typewriter = {
@@ -1134,8 +1134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1146,8 +1146,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1158,13 +1158,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			oldPhoto = true,
-			say = "KABOOOOOOM!",
 			soundeffect = "event:/battle/boom2",
+			hidePaintObj = true,
+			say = "KABOOOOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1210,28 +1210,28 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
 			bgName = "bg_yunxian_4",
-			hidePaintObj = true,
+			oldPhoto = true,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Thus, Watatsumi struck the Sakura Empire. Its enormous power radiated from the point of impact.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1239,8 +1239,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_4",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1256,9 +1256,9 @@ return {
 			bgName = "bg_yunxian_4",
 			factiontag = "Sakura Empire Flagship",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "Nagato",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "This is...the Prime Sakura...",
 			typewriter = {
@@ -1272,9 +1272,9 @@ return {
 			bgName = "bg_yunxian_4",
 			factiontag = "Sakura Empire Flagship",
 			dir = 1,
+			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actorName = "Nagato",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The sanctuary that seals the dark mist...",
 			typewriter = {
@@ -1283,13 +1283,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			oldPhoto = true,
-			say = "The vision faded, and Nagato and Musashi saw the current spectacle within the sanctuary once more.",
 			bgm = "story-unzen",
+			hidePaintObj = true,
+			say = "The vision faded, and Nagato and Musashi saw the current spectacle within the sanctuary once more.",
 			flashN = {
 				color = {
 					1,
@@ -1325,8 +1325,8 @@ return {
 				}
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -1338,8 +1338,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1350,8 +1350,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1362,8 +1362,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1394,8 +1394,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1406,8 +1406,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1438,8 +1438,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1455,9 +1455,9 @@ return {
 			bgName = "bg_yuese_cg1",
 			factiontag = "Sakura Empire Flagship",
 			dir = 1,
+			actorName = "Nagato",
 			oldPhoto = true,
 			nameColor = "#A9F548FF",
-			actorName = "Nagato",
 			hidePaintObj = true,
 			say = "We only have one choice now.",
 			painting = {
@@ -1470,13 +1470,13 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuese_cg1",
 			factiontag = "Sakura Empire Flagship",
 			dir = 1,
+			oldPhoto = true,
 			actorName = "Nagato",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Musashi, I'll entrust the last of the Guardian Fox's power to your blade. Strike true, and cut a way out of this situation!",
 			painting = {
@@ -1492,10 +1492,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yuese_cg1",
-			oldPhoto = true,
-			dir = 1,
-			actorName = "Musashi",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			oldPhoto = true,
+			actorName = "Musashi",
 			hidePaintObj = true,
 			say = "...You mustn't.",
 			painting = {
@@ -1511,10 +1511,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yuese_cg1",
-			oldPhoto = true,
-			dir = 1,
-			actorName = "Musashi",
 			nameColor = "#A9F548FF",
+			dir = 1,
+			oldPhoto = true,
+			actorName = "Musashi",
 			hidePaintObj = true,
 			say = "Even if I were to escape, you...",
 			painting = {
@@ -1527,13 +1527,13 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuese_cg1",
 			factiontag = "Sakura Empire Flagship",
 			dir = 1,
+			oldPhoto = true,
 			actorName = "Nagato",
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "It is my duty as a miko to protect the Sakura Empire.",
 			painting = {
@@ -1551,9 +1551,9 @@ return {
 			bgName = "bg_yuese_cg1",
 			factiontag = "Sakura Empire Flagship",
 			dir = 1,
+			actorName = "Nagato",
 			oldPhoto = true,
 			nameColor = "#A9F548FF",
-			actorName = "Nagato",
 			hidePaintObj = true,
 			say = "I vowed to do so, and I showed you my resolve during our game.",
 			painting = {
@@ -1571,9 +1571,9 @@ return {
 			bgName = "bg_yuese_cg1",
 			factiontag = "Sakura Empire Flagship",
 			dir = 1,
+			actorName = "Nagato",
 			oldPhoto = true,
 			nameColor = "#A9F548FF",
-			actorName = "Nagato",
 			hidePaintObj = true,
 			say = "Bear witness... to the Guardian Fox's power!",
 			painting = {
@@ -1586,8 +1586,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1598,8 +1598,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuese_cg1",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1613,10 +1613,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "Musashi",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Lady Nagato...!",
 			painting = {
 				alpha = 0.3,
@@ -1628,8 +1628,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			oldPhoto = true,
@@ -1643,10 +1643,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305130,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Nngh... What was all that...?",
 			painting = {
 				alpha = 0.3,
@@ -1658,8 +1658,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			say = "In the distant future, one girl would witness these events in a vision.",

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "浮岛机场BUFF2 BUFF判断LV3",
 	time = 5,
-	color = "yellow",
+	name = "浮岛机场BUFF2 BUFF判断LV3",
+	init_effect = "",
+	id = 8809,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8809,
+	color = "yellow",
 	icon = 8809,
 	last_effect = "",
 	effect_list = {

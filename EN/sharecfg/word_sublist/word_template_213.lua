@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_213 = {}
 slot1 = slot0.word_template_213
 
-function temp()
+temp = function()
 	uv0["挠"] = {
 		["着"] = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["脑"] = {
 		["残"] = {
 			["教"] = {
@@ -57,7 +57,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["嫐"] = {
 		["屄"] = {
 			this = true
@@ -67,7 +67,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["闹"] = {
 		["罢"] = {
 			["工"] = {
@@ -85,7 +85,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鬧"] = {
 		["事"] = {
 			this = true
@@ -95,7 +95,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["內"] = {
 		["褲"] = {
 			this = true
@@ -116,7 +116,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["内"] = {
 		["裤"] = {
 			this = true,

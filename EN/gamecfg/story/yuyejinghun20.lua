@@ -1,37 +1,37 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN20",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN20",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 11,
 			side = 2,
-			bgName = "star_level_bg_146",
 			factiontag = "Lord's 2nd Daughter",
-			actorName = "Whydah",
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_146",
 			bgm = "story-richang-10",
 			actor = 9600051,
-			nameColor = "#A9F548FF",
+			actorName = "Whydah",
 			say = "Ugh. Died again... I need Golden Hind for this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -160,11 +160,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "Hai Tien",
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "Hai Tien",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Uh, long story short, you managed to get inside the collection room.",
 			typewriter = {
@@ -172,17 +172,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -284,9 +284,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "History Nerd GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Sheffield",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Correct.",
 			typewriter = {
@@ -434,9 +434,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "History Nerd GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Sheffield",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "And that's after curtailment. Her Majesty's original plan was to... Actually, never mind.",
 			typewriter = {
@@ -449,9 +449,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Hai Tien",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Queen Elizabeth contributed the vast majority. That said, I provided a few as well.",
 			typewriter = {
@@ -463,10 +463,10 @@ return {
 			portrait = 605020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			nameColor = "#A9F548FF",
+			actorName = "Littorio",
 			dir = 1,
 			optionFlag = 3,
-			actorName = "Littorio",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "If there is any, it's the year when in the Sardegna Empire of old–",
 			painting = {
@@ -495,10 +495,10 @@ return {
 			portrait = 605020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			nameColor = "#A9F548FF",
+			actorName = "Littorio",
 			dir = 1,
 			optionFlag = 3,
-			actorName = "Littorio",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Fair enough. It's a long story, and I'm just passing by. Never mind me and enjoy the rest of the game.",
 			painting = {
@@ -537,11 +537,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Lord's Daughter",
-			side = 2,
+			actor = 9600031,
 			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "Oh, dear... Investigator, what have you done to Whydah?",
@@ -569,9 +569,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "Is that so? Let's have a talk, shall we~?",
 			typewriter = {
@@ -582,12 +582,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
+			nameColor = "#FF9B93",
+			bgName = "star_level_bg_156",
 			bgm = "story-oldcastle-carnival",
 			actor = 9600031,
-			nameColor = "#FF9B93",
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "Heehee~ I was going to sacrifice you, but I had a change of heart after my sister said she wants to be with you forever.",
 			typewriter = {
@@ -595,17 +595,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -613,11 +613,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#FF9B93",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Lord's Daughter",
-			side = 2,
+			actor = 9600031,
 			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "It'd be terrible if she lost the love of her life... So! This way you and her will be together forever and ever~",
@@ -669,8 +669,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -684,9 +684,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			bgm = "theme-ijndailymeeting",
 			actorName = "Hai Tien",
+			bgm = "theme-ijndailymeeting",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You've achieved yet another bad ending, Commander.",
 			typewriter = {
@@ -767,9 +767,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Hai Tien",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The lovely and charming villain, it seems.",
 			typewriter = {

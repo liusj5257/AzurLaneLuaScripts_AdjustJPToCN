@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023关岛活动EX 二阶段召唤物2",
 	time = 3,
-	color = "blue",
+	name = "2023关岛活动EX 二阶段召唤物2",
+	init_effect = "",
+	id = 200746,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200746,
+	color = "blue",
 	icon = 200746,
 	last_effect = "",
 	effect_list = {

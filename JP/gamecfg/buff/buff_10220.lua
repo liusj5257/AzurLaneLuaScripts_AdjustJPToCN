@@ -62,12 +62,12 @@ return {
 	desc_get = "当队友耐久低于20%时，回复其耐久的10.0%(满级20.0%)，若目标是企业，回复效果提高50%，每场战斗仅能触发1次",
 	name = "损害管制",
 	init_effect = "",
+	id = 10220,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "当队友耐久低于20%时，回复其耐久的$1，若目标是企业，回复效果提高50%，每场战斗仅能触发1次",
 	stack = 1,
-	id = 10220,
+	color = "blue",
 	icon = 10220,
 	last_effect = "Health",
 	effect_list = {
@@ -78,8 +78,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.2,
-				target = "TargetSelf",
 				skill_id = 10220,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

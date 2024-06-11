@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "狼群战术-U101",
 	init_effect = "",
+	id = 12410,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 12410,
+	color = "blue",
 	icon = 12410,
 	last_effect = "",
 	effect_list = {
@@ -28,9 +28,9 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
+				nationality = 4,
 				buff_id = 12411,
 				isBuffStackByCheckTarget = true,
-				nationality = 4,
 				check_target = {
 					"TargetNationalityFriendly",
 					"TargetShipTypeFriendly"

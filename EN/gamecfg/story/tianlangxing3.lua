@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Sirius' Improvement Plan\n\n<size=45>Chapter 3 - The Maids' Aid</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "To be able to blend in among the crowd at the banquet, there is a need for Sirius to understand precisely what a maid's duties are and how a maid should behave.",
+			bgName = "bg_story_task",
 			bgm = "story-1",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "To be able to blend in among the crowd at the banquet, there is a need for Sirius to understand precisely what a maid's duties are and how a maid should behave.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -91,9 +91,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "I went to the Royal Navy Maids and requested their guidance on Sirius.",
 			effects = {
 				{
@@ -162,8 +162,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "Very well. If it's for my Master's sake, I'll do anything...!",
 			typewriter = {
@@ -176,15 +176,15 @@ return {
 			}
 		},
 		{
-			actor = 202220,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202220,
+			nameColor = "#a9f548",
 			say = "First, we will have to teach you proper etiquette.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -225,15 +225,15 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "When cleaning the Commander's office, you should start with cleaning the shelves, not sweep the floor, as it is easier that way.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -258,10 +258,10 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 202200,
 			dir = 1,
 			hideOther = true,
 			actorName = "Belette & Sirius",
@@ -284,15 +284,15 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "Emm, I don't think there's anything special that Contestant Kent can teach you.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -320,8 +320,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#a9f548",
 			say = "Maybe I could teach you how to skip work without Belfast finding out about it?",
 			typewriter = {
@@ -350,9 +350,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#a9f548",
 			say = "...I feel I have become aware of just how much I don't know...",
 			typewriter = {

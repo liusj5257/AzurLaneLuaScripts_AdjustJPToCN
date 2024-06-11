@@ -1,12 +1,12 @@
 return {
-	id = "W2017",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2017",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "首先清理掉海域中的所有塞壬支援點，再繼續向前調查吧……",
 			typewriter = {
 				speed = 0.05,

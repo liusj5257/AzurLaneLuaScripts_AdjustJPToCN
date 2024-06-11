@@ -1,6 +1,6 @@
 slot0 = class("FireworkFactoryMediator", import(".MiniHubMediator"))
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == MiniGameProxy.ON_HUB_DATA_UPDATE then

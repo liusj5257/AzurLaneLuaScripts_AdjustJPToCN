@@ -22,27 +22,27 @@ slot0.sunset_type = 2
 slot0.night_type = 3
 slot0.time_data = {
 	{
-		tf = "day1",
-		name = "day",
 		time = 30,
+		name = "day",
+		tf = "day1",
 		type = 1,
 		next = 2,
 		anim = "day",
 		change_anim = "nightToDay"
 	},
 	{
-		tf = "sunSet",
-		name = "sunset",
 		time = 30,
+		name = "sunset",
+		tf = "sunSet",
 		type = 2,
 		next = 3,
 		anim = "sunset",
 		change_anim = "dayToSunset"
 	},
 	{
-		tf = "night",
-		name = "night",
 		time = 30,
+		name = "night",
+		tf = "night",
 		type = 3,
 		next = 1,
 		anim = "night",
@@ -58,28 +58,28 @@ slot0.platform_data = {
 		diff = 0
 	},
 	{
-		distance = 320,
-		name = "Roof2",
 		item = true,
+		name = "Roof2",
+		distance = 320,
 		power = true,
 		weight = 50,
 		diff = 50
 	},
 	{
-		distance = 256,
-		name = "Roof3",
 		item = true,
-		weight = 50,
-		power = true,
+		name = "Roof3",
+		distance = 256,
 		monster = true,
+		power = true,
+		weight = 50,
 		diff = 25
 	},
 	{
-		weight = 100,
+		monster = true,
 		name = "Roof3",
 		distance = 256,
 		power = true,
-		monster = true,
+		weight = 100,
 		diff = 50
 	},
 	{
@@ -90,9 +90,9 @@ slot0.platform_data = {
 		diff = 50
 	},
 	{
-		distance = 384,
-		name = "Roof_Cliff2",
 		item = true,
+		name = "Roof_Cliff2",
+		distance = 384,
 		power = false,
 		weight = 50,
 		diff = 50
@@ -105,47 +105,47 @@ slot0.platform_data = {
 		diff = 0
 	},
 	{
-		power = true,
+		high = true,
 		name = "Roof_Obstacle1",
 		distance = 256,
-		high = true,
+		power = true,
 		weight = 100,
 		diff = 0
 	},
 	{
-		power = true,
+		high = true,
 		name = "Roof_Obstacle2",
 		distance = 320,
-		high = true,
+		power = true,
 		weight = 100,
 		diff = 0
 	},
 	{
-		power = true,
+		high = true,
 		name = "Roof_Obstacle3",
 		distance = 320,
-		item = true,
-		high = true,
-		weight = 50,
 		monster = true,
+		power = true,
+		item = true,
+		weight = 50,
 		diff = 25
 	},
 	{
-		power = true,
+		high = true,
 		name = "Roof_Obstacle4",
 		distance = 192,
-		weight = 100,
-		high = true,
 		monster = true,
+		power = true,
+		weight = 100,
 		diff = 50
 	},
 	{
-		power = true,
+		high = true,
 		name = "Roof_Obstacle5",
 		distance = 192,
-		weight = 100,
-		high = true,
 		monster = true,
+		power = true,
+		weight = 100,
 		diff = 50
 	}
 }
@@ -1267,239 +1267,239 @@ slot0.BG_TYPE_FIRE = 4
 slot0.BG_TYPE_PETAL = 5
 slot0.bg_data = {
 	{
-		id = 1,
 		name = "line",
+		id = 1,
 		bound = Vector2(640, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_LOOP
 	},
 	{
-		id = 2,
 		name = "bg",
+		id = 2,
 		bound = Vector2(672, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_LOOP
 	},
 	{
-		id = 3,
 		name = "bg_A",
+		id = 3,
 		bound = Vector2(200, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_MID
 	},
 	{
-		id = 4,
 		name = "bg_B",
+		id = 4,
 		bound = Vector2(200, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_MID
 	},
 	{
-		id = 5,
 		name = "bg_C",
+		id = 5,
 		bound = Vector2(100, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_MID
 	},
 	{
-		id = 6,
 		name = "bg_D",
+		id = 6,
 		bound = Vector2(100, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_MID
 	},
 	{
-		id = 7,
 		name = "bg_E",
+		id = 7,
 		bound = Vector2(100, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_MID
 	},
 	{
-		id = 8,
 		name = "bg_F",
+		id = 8,
 		bound = Vector2(100, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_MID
 	},
 	{
-		id = 9,
 		name = "bg_G",
+		id = 9,
 		bound = Vector2(0, 420),
 		pos = Vector2(0, 500),
 		type = slot0.BG_TYPE_MID
 	},
 	{
-		id = 10,
 		name = "bg_H",
+		id = 10,
 		bound = Vector2(0, 420),
 		pos = Vector2(0, 500),
 		type = slot0.BG_TYPE_MID
 	},
 	{
-		id = 11,
 		name = "BLD_Anshan",
+		id = 11,
 		bound = Vector2(400, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_TOP
 	},
 	{
-		id = 12,
 		name = "BLD_Niku",
+		id = 12,
 		bound = Vector2(400, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_TOP
 	},
 	{
-		id = 13,
 		name = "BLD_Shiratsuyu",
+		id = 13,
 		bound = Vector2(400, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_TOP
 	},
 	{
-		id = 14,
 		name = "BLD_Laffey_Ayanami",
+		id = 14,
 		bound = Vector2(400, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_TOP
 	},
 	{
-		id = 15,
 		name = "BLD_PingHai_NingHai",
+		id = 15,
 		bound = Vector2(400, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_TOP
 	},
 	{
-		id = 16,
 		name = "BLD_TaiYuan_ChangChun",
+		id = 16,
 		bound = Vector2(400, 420),
 		pos = Vector2(0, -90),
 		type = slot0.BG_TYPE_TOP
 	},
 	{
-		id = 17,
 		name = "Anchor",
+		id = 17,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 18,
 		name = "LRG_B",
+		id = 18,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 19,
 		name = "LRG_P",
+		id = 19,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 20,
 		name = "LRG_Y",
+		id = 20,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 21,
 		name = "Manjuu_L",
+		id = 21,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 22,
 		name = "Manjuu_S",
+		id = 22,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 23,
 		name = "Materials",
+		id = 23,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 24,
 		name = "MID_B",
+		id = 24,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 25,
 		name = "MID_P",
+		id = 25,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 26,
 		name = "MID_Y",
+		id = 26,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 27,
 		name = "Ofunya",
+		id = 27,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 28,
 		name = "SML_B",
+		id = 28,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 29,
 		name = "SML_P",
+		id = 29,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 30,
 		name = "SML_Y",
+		id = 30,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 31,
 		name = "U_chan",
+		id = 31,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_FIRE
 	},
 	{
-		id = 32,
 		name = "Petal_A",
+		id = 32,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_PETAL
 	},
 	{
-		id = 33,
 		name = "Petal_B",
+		id = 33,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_PETAL
 	},
 	{
-		id = 34,
 		name = "Petal_C",
+		id = 34,
 		bound = Vector2(20, 0),
 		pos = Vector2(0, 650),
 		type = slot0.BG_TYPE_PETAL
@@ -1549,8 +1549,8 @@ slot0.mid_bg = {
 		}
 	},
 	{
-		num = 1,
 		mid_random = true,
+		num = 1,
 		ids = {
 			9,
 			10
@@ -1641,126 +1641,126 @@ slot0.monster_data = {
 }
 slot0.effect_data = {
 	{
-		name = "EF_bk_Attack",
 		parent = true,
+		name = "EF_bk_Attack",
 		trigger = "Attack"
 	},
 	{
-		name = "EF_bk_Attack_S",
 		parent = true,
+		name = "EF_bk_Attack_S",
 		trigger = "Attack_S"
 	},
 	{
-		name = "EF_bk_Down",
 		parent = true,
+		name = "EF_bk_Down",
 		trigger = "Down"
 	},
 	{
-		name = "EF_bk_Jump",
 		parent = false,
+		name = "EF_bk_Jump",
 		trigger = "Jump"
 	},
 	{
-		name = "EF_bk_Jump",
 		parent = false,
+		name = "EF_bk_Jump",
 		trigger = "Jump_LA"
 	},
 	{
-		name = "EF_bk_Land",
 		parent = false,
+		name = "EF_bk_Land",
 		trigger = "Land"
 	},
 	{
-		name = "EF_bk_Land",
 		parent = false,
+		name = "EF_bk_Land",
 		trigger = "Land_LA"
 	},
 	{
-		name = "EF_fr_Land_S",
 		parent = false,
+		name = "EF_fr_Land_S",
 		trigger = "Land_S"
 	},
 	{
-		name = "EF_fr_Land_S",
 		parent = false,
+		name = "EF_fr_Land_S",
 		trigger = "Land_S_LA"
 	},
 	{
-		name = "EF_bk_Run",
 		parent = true,
+		name = "EF_bk_Run",
 		trigger = "Run"
 	},
 	{
-		name = "EF_bk_Run",
 		parent = true,
+		name = "EF_bk_Run",
 		trigger = "Run_LA"
 	},
 	{
-		name = "EF_bk_Run_S",
 		parent = true,
+		name = "EF_bk_Run_S",
 		trigger = "Run_S"
 	},
 	{
-		name = "EF_bk_Run_S",
 		parent = true,
+		name = "EF_bk_Run_S",
 		trigger = "Run_S_LA"
 	},
 	{
-		name = "EF_fr_Attack_LA",
 		parent = true,
+		name = "EF_fr_Attack_LA",
 		trigger = "Attack_LA"
 	},
 	{
-		name = "EF_fr_Attack_LA",
 		parent = true,
+		name = "EF_fr_Attack_LA",
 		trigger = "Attack_S_LA"
 	},
 	{
-		name = "EF_fr_EX_off",
 		parent = true,
+		name = "EF_fr_EX_off",
 		trigger = "EX_off"
 	},
 	{
-		name = "EF_fr_EX_on",
 		parent = true,
+		name = "EF_fr_EX_on",
 		trigger = "EX_on"
 	},
 	{
-		name = "EF_fr_Run_EX",
 		parent = true,
+		name = "EF_fr_Run_EX",
 		trigger = "Run_EX"
 	},
 	{
-		name = "EF_fr_Attack",
-		parent = true
+		parent = true,
+		name = "EF_fr_Attack"
 	},
 	{
-		name = "EF_fr_Hit_LA",
-		parent = false
+		parent = false,
+		name = "EF_fr_Hit_LA"
 	},
 	{
-		name = "EF_fr_Hit_LA",
-		parent = false
+		parent = false,
+		name = "EF_fr_Hit_LA"
 	},
 	{
-		name = "EF_fr_Get_Score_Item",
-		parent = false
+		parent = false,
+		name = "EF_fr_Get_Score_Item"
 	},
 	{
-		name = "EF_fr_Item",
-		parent = false
+		parent = false,
+		name = "EF_fr_Item"
 	},
 	{
-		name = "EF_Barrier_Get",
-		parent = true
+		parent = true,
+		name = "EF_Barrier_Get"
 	},
 	{
-		name = "EF_Barrier_Break",
-		parent = true
+		parent = true,
+		name = "EF_Barrier_Break"
 	}
 }
 
-function slot0.CheckBoxCollider(slot0, slot1, slot2, slot3)
+slot0.CheckBoxCollider = function(slot0, slot1, slot2, slot3)
 	slot5 = slot0.y
 	slot6 = slot2.x
 	slot7 = slot2.y

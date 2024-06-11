@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_287 = {}
 slot1 = slot0.word_template_287
 
-function temp()
+temp = function()
 	uv0["咼"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["歪"] = {
 		["哥"] = {
 			["甘"] = {
@@ -66,7 +66,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["外"] = {
 		["　"] = {
 			["挂"] = {
@@ -290,7 +290,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["完"] = {
 		["蛋"] = {
 			["操"] = {
@@ -302,7 +302,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["玩"] = {
 		["3"] = {
 			p = {
@@ -367,7 +367,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["晚"] = {
 		["年"] = {
 			["周"] = {
@@ -479,7 +479,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["綰"] = {
 		this = {
 			this = true

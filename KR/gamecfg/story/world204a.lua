@@ -1,15 +1,15 @@
 return {
-	id = "WORLD204A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD204A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-french1",
 			say = "NA 해역 핵심 구역 외곽·로열 네이비 주력 함대",
+			side = 2,
+			dir = 1,
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,10 +20,10 @@ return {
 			}
 		},
 		{
+			say = "펑——————————!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "펑——————————!",
 			flashN = {
 				color = {
 					1,
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "후후후, 이렇게 빨리 세이렌의 앞마당에 도착할 줄이야. 이글 유니온보다도 빠르잖아. 좋아, 아주 잘 했어!",
 			typewriter = {
 				speed = 0.05,
@@ -205,8 +205,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "폐하, 과찬이십니다. 일은 끝나셨나요?",
 			typewriter = {
 				speed = 0.05,
@@ -221,8 +221,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "우여곡절은 있었지만... 어쨌든 끝났어! 임시지만 적색중축과 NA 해역에서 휴전 협정을 체결했지. 오늘 오후부터 유효해. 잠시 뒤에 지휘부에서 알려줄 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -236,9 +236,9 @@ return {
 		{
 			paintingNoise = false,
 			side = 2,
+			dir = 1,
 			actor = 204030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "잘 됐네요! 휴전 협정 때문에 우리도 더 많은 함대를 투입할 수 있게 됐어요.",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,8 +263,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "해역 안에서 돌아다니는 메탈 블러드에 대해서도 잠깐은 신경쓰 지 않아도 될 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -279,8 +279,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "흥, 메탈 블러드도 운이 좋지. 협정이 이렇게 딱 맞춰서 체결되다니. 그렇지 않았다면 이글 유니온의 주력 함대에 딱 걸렸을 텐데. 뭐, 됐어.",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205020,
 			dir = 1,
+			actor = 205020,
 			say = "이렇게 대단한 임무를 마치다니, 역시 폐하십니다!",
 			typewriter = {
 				speed = 0.05,
@@ -310,9 +310,9 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
 			actor = 205010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "흐흥, 다른 사람들에게는 불가능할지 몰라도 나에게는 식은 죽 먹기지!",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -337,8 +337,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "이번 기회로 적색중축의 상황에 대해서 제대로 살펴보게 되었어.",
 			typewriter = {
 				speed = 0.05,
@@ -353,8 +353,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "사쿠라 엠파이어가 이렇게 먼 NA 해역까지 정말로 함대를 보낼 줄이야. 자세한 정보는 이따가 셰피에게... 응?",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "웨일즈는?",
 			typewriter = {
 				speed = 0.05,
@@ -385,8 +385,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "방금 작전 중에서 이글 유니온 연구 함대의 구조 신호를 받았어요. 프린스 오브 웨일즈가 이미 합류해서 이쪽으로 호송하는 중이에요.",
 			typewriter = {
 				speed = 0.05,
@@ -401,8 +401,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "연구 함대...? 응...? 응...",
 			typewriter = {
 				speed = 0.05,
@@ -417,8 +417,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205020,
 			dir = 1,
+			actor = 205020,
 			say = "폐하...?",
 			typewriter = {
 				speed = 0.05,
@@ -433,8 +433,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "아냐. 결전을 앞두고 병력을 분산시킬 수는 없지... 자리를 지키도록 해. 나는 함대를 이끌고 전선에서 너희와 합류하도록 하겠어.",
 			typewriter = {
 				speed = 0.05,
@@ -449,8 +449,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205010,
 			dir = 1,
+			actor = 205010,
 			say = "퀸 엘리자베스, 통신 종료.",
 			typewriter = {
 				speed = 0.05,
@@ -465,8 +465,8 @@ return {
 			paintingNoise = false,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			say = "폐하의 기분이 안 좋아진 것 같네요...",
 			typewriter = {
 				speed = 0.05,

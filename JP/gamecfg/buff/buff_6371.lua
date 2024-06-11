@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "晴岚",
 	time = 0,
-	color = "red",
+	name = "晴岚",
+	init_effect = "",
+	id = 6371,
 	picture = "",
 	desc = "空袭伤害上升",
 	stack = 1,
-	id = 6371,
+	color = "red",
 	icon = 6371,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioByAir",
-				number = 0.6
+				number = 0.6,
+				attr = "damageRatioByAir"
 			}
 		}
 	}

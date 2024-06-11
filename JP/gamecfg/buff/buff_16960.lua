@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16960,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16960,
+	color = "yellow",
 	icon = 16960,
 	last_effect = "",
 	effect_list = {
@@ -52,8 +52,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 16963,
-				quota = 1,
 				nationality = 9,
+				quota = 1,
 				check_target = {
 					"TargetPlayerVanguardFleet",
 					"TargetNationality"

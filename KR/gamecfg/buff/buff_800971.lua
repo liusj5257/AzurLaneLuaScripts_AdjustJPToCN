@@ -8,8 +8,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.05
+					number = -0.05,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cloakRecovery",
-					number = 1
+					number = 1,
+					attr = "cloakRecovery"
 				}
 			},
 			{
@@ -44,8 +44,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.061
+					number = -0.061,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -55,8 +55,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cloakRecovery",
-					number = 1
+					number = 1,
+					attr = "cloakRecovery"
 				}
 			},
 			{
@@ -80,8 +80,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.072
+					number = -0.072,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -91,8 +91,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cloakRecovery",
-					number = 1
+					number = 1,
+					attr = "cloakRecovery"
 				}
 			},
 			{
@@ -116,8 +116,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.083
+					number = -0.083,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -127,8 +127,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cloakRecovery",
-					number = 1
+					number = 1,
+					attr = "cloakRecovery"
 				}
 			},
 			{
@@ -152,8 +152,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.094
+					number = -0.094,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -163,8 +163,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cloakRecovery",
-					number = 1
+					number = 1,
+					attr = "cloakRecovery"
 				}
 			},
 			{
@@ -188,8 +188,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.105
+					number = -0.105,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -199,8 +199,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cloakRecovery",
-					number = 1
+					number = 1,
+					attr = "cloakRecovery"
 				}
 			},
 			{
@@ -224,8 +224,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.116
+					number = -0.116,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -235,8 +235,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cloakRecovery",
-					number = 1
+					number = 1,
+					attr = "cloakRecovery"
 				}
 			},
 			{
@@ -260,8 +260,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.127
+					number = -0.127,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -271,8 +271,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cloakRecovery",
-					number = 1
+					number = 1,
+					attr = "cloakRecovery"
 				}
 			},
 			{
@@ -296,8 +296,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.138
+					number = -0.138,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -307,8 +307,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cloakRecovery",
-					number = 1
+					number = 1,
+					attr = "cloakRecovery"
 				}
 			},
 			{
@@ -332,8 +332,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.15
+					number = -0.15,
+					attr = "injureRatio"
 				}
 			},
 			{
@@ -343,8 +343,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "cloakRecovery",
-					number = 1
+					number = 1,
+					attr = "cloakRecovery"
 				}
 			},
 			{
@@ -359,14 +359,14 @@ return {
 			}
 		}
 	},
-	time = 8,
 	name = "隐入云雨",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 800971,
+	time = 8,
 	picture = "",
 	desc = "自身受到伤害降低，结束后跳去技能放弹幕",
 	stack = 1,
-	id = 800971,
+	color = "blue",
 	icon = 800970,
 	last_effect = "",
 	blink = {
@@ -384,8 +384,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.05
+				number = -0.05,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -395,8 +395,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cloakRecovery",
-				number = 1
+				number = 1,
+				attr = "cloakRecovery"
 			}
 		},
 		{

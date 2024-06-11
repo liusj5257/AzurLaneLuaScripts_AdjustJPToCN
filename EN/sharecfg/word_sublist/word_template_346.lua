@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_346 = {}
 slot1 = slot0.word_template_346
 
-function temp()
+temp = function()
 	uv0["证"] = {
 		["奸"] = {
 			["会"] = {
@@ -52,7 +52,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["郑"] = {
 		["国"] = {
 			["光"] = {
@@ -109,7 +109,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["政"] = {
 		["变"] = {
 			this = true
@@ -390,7 +390,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鄭"] = {
 		["寶"] = {
 			["清"] = {
@@ -423,7 +423,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["之"] = {
 		["毛"] = {
 			["太"] = {
@@ -441,7 +441,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["只"] = {
 		["见"] = {
 			["那"] = {
@@ -719,7 +719,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["执"] = {
 		["法"] = {
 			["犯"] = {

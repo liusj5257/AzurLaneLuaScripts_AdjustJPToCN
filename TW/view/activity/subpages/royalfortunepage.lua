@@ -1,12 +1,12 @@
 slot0 = class("RoyalFortunePage", import(".TemplatePage.SkinTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.painting = slot0:findTF("painting", slot0.bg)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	if slot0:IsLastTaskFinish() then
@@ -16,7 +16,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.IsLastTaskFinish(slot0)
+slot0.IsLastTaskFinish = function(slot0)
 	if slot0.nday ~= #slot0.taskGroup then
 		return false
 	end

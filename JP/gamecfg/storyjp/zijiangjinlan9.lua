@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN9",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg5",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "演習海域にて・３ターン目（赤城）",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg5",
 			say = "赤城の艦隊の手番が来ると、演習場の上空に突如雲のシンボルが表示され、あたり一面が霧に覆われた。",
 			typewriter = {
@@ -46,17 +46,17 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#A9F548FF",
 			say = "き、霧！？どどどどうしたの？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			painting = {
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -178,8 +178,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "……言ったそばから連絡が来たか。ふむ、なるほど…さすが姉さ…コホン、赤城か",
 			painting = {
@@ -211,8 +211,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "霧のおかげで、ほかの艦隊がこちらの位置を把握しにくくなっていますね",
 			painting = {
@@ -244,8 +244,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "中央の「塔」、そして5点の拠点以外だと、敵は所詮人型個体の下級ユニット程度、航空支援があれば単騎でも取れるぞ",
 			painting = {
@@ -261,8 +261,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 301040,
 			dir = 1,
+			actor = 301040,
 			nameColor = "#A9F548FF",
 			say = "じゃ、じゃあ深雪は三笠大先輩側に行って、長門さまとの境界線の拠点で牽制するのね…",
 			painting = {
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "苦労をかけるがすまない、深雪の直掩は私がやる",
 			painting = {
@@ -311,8 +311,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "この配置だと、戦力がだいぶ分散してしまうが…もしかすると赤城は「あの手」を使ってくるかもしれん",
 			painting = {
@@ -344,8 +344,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg5",
-			actor = 307020,
 			dir = 1,
+			actor = 307020,
 			nameColor = "#A9F548FF",
 			say = "この演習での「司令」は采配のみするのではなく、盤上の戦況を俯瞰し、更に対局する相手の言動から相手の心象を推測する必要がある",
 			painting = {

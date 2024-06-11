@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN28",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 10,
 			side = 2,
-			bgName = "star_level_bg_159",
 			factiontag = "Bookworm GM",
 			dir = 1,
+			bgName = "star_level_bg_159",
 			bgm = "theme-ijndailymeeting",
 			actor = 502070,
 			nameColor = "#A9F548FF",
@@ -26,17 +26,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -63,11 +63,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "As Castle Maid",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You wouldn't believe how hard it was to play my character while watching you fail your dice rolls!",
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "As Lord's Daughter",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Agreed~",
@@ -137,11 +137,11 @@ return {
 			}
 		},
 		{
-			actor = 301160,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "LCK-Maxed GM",
 			dir = 1,
+			actor = 301160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I told you, you should've let Yukikaze the Great do all the dice rolls!",
@@ -155,11 +155,11 @@ return {
 			}
 		},
 		{
-			actor = 401020,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "Impromptu Replacement GM",
 			dir = 1,
+			actor = 401020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "That would utterly ruin the game's balance, I'm afraid.",
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "Serious Protégé GM",
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I'm sure there are other minor contrivances, but I think they're best left as mysteries.",
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "As Phantom of the Ancient God",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "And giving people the creeps – that's what we ghost ships are all about!",
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "Serious GM",
 			dir = 1,
+			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "There's probably room for improvement, and accessibility.",
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -468,8 +468,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

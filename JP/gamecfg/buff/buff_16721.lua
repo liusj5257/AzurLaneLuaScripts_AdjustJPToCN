@@ -8,8 +8,8 @@ return {
 				},
 				pop = {},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 600
+					number = 600,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 				},
 				pop = {},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 730
+					number = 730,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 				},
 				pop = {},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 860
+					number = 860,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 				},
 				pop = {},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 990
+					number = 990,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 				},
 				pop = {},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1120
+					number = 1120,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 				},
 				pop = {},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1250
+					number = 1250,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 				},
 				pop = {},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1380
+					number = 1380,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 				},
 				pop = {},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1520
+					number = 1520,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 				},
 				pop = {},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1660
+					number = 1660,
+					attr = "antiAirPower"
 				}
 			}
 		}
@@ -143,20 +143,20 @@ return {
 				},
 				pop = {},
 				arg_list = {
-					attr = "antiAirPower",
-					number = 1800
+					number = 1800,
+					attr = "antiAirPower"
 				}
 			}
 		}
 	},
-	icon = 16721,
 	name = "",
 	time = 0,
+	picture = "",
+	desc = "属性提升",
 	stack = 1,
 	id = 16721,
-	picture = "",
+	icon = 16721,
 	last_effect = "",
-	desc = "属性提升",
 	effect_list = {
 		{
 			type = "BattleBuffAddAttrRatio",
@@ -165,8 +165,8 @@ return {
 			},
 			pop = {},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 600
+				number = 600,
+				attr = "antiAirPower"
 			}
 		}
 	}

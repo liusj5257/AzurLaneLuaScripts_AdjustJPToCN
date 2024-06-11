@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023云仙活动 EX 黑龙次数盾击破后大幅度增加BOSS受到的伤害",
 	time = 0,
+	name = "2023云仙活动 EX 黑龙次数盾击破后大幅度增加BOSS受到的伤害",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 99,
@@ -16,8 +16,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 1
+				number = 1,
+				attr = "injureRatio"
 			}
 		},
 		{

@@ -1,17 +1,17 @@
 return {
-	id = "WORLD508P",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD508P",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900285,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "battle-executor-type1",
 			dir = 1,
 			say = "A formidable blow, but ultimately futile. Initiating automatic repair functions.",
+			bgm = "battle-executor-type1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "She's rapidly repairing all the damage the submarines inflicted to her!",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"We're only going to be whittled down if this goes on, just as Saratoga said.\"",
 			typewriter = {
 				speed = 0.05,
@@ -121,8 +121,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"If only there was a way to retreat...\"",
 			typewriter = {
 				speed = 0.05,
@@ -137,8 +137,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "If you want to retreat, then go right ahead. But we have no intention of running with our tails between our legs.",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Our goals are twofold. To defend the Singularity that our allies opened, to the bitter end; and to destroy all of our enemies in one fell swoop. Retreat isn't an option.",
 			typewriter = {
 				speed = 0.05,
@@ -168,9 +168,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "So it really was you that created the Singularity all along.",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -210,8 +210,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "We can speculate all we want, but we couldn't know for sure until we heard it straight from your mouth.",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "(So the things that happened to the NA Ocean aren't their fault... And if anything, it was this Singularity that allowed us to finally make a decisive move against the Sirens.)",
 			typewriter = {
 				speed = 0.05,
@@ -257,8 +257,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "It doesn't concern you... or so I'd like to say.",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "But that wouldn't be entirely accurate.",
 			typewriter = {
 				speed = 0.05,
@@ -288,9 +288,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 9707020,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "{namecode:94}！",
 			dialogShake = {
 				speed = 0.08,
@@ -310,8 +310,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Yes, I know. I have no intention of saying any more than that.",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Let's get down to the nitty-gritty, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -342,8 +342,8 @@ return {
 			expression = 7,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "The Arbiters are only after us. There's no reason for you to risk your lives defending this Singularity either.",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "If you want to retreat like you wanted to earlier, we won't stop you. I'll even tell you the way out.",
 			typewriter = {
 				speed = 0.05,
@@ -373,9 +373,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "I swear on the 2nd CarDiv's honor that we won't turn on you. Now tell me, honestly, would you rather stay and fight, or retreat to safety?",
 			typewriter = {
 				speed = 0.05,
@@ -395,11 +395,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "SailAwayJustice-inst",
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "So, you'll fight with us?",
-			bgm = "SailAwayJustice-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,8 +410,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"We may not be in a formal alliance, but we're still allies in the fight against the Sirens. We're not leaving you to fend for yourselves.\"",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Cut it out. We're not your allies.",
 			typewriter = {
 				speed = 0.05,
@@ -442,8 +442,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "...But, we are grateful for your help.",
 			typewriter = {
 				speed = 0.05,
@@ -473,8 +473,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "...You really are a puzzling personality, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -489,8 +489,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "The Sirens are heartless creatures, basing their decisions entirely on what benefits they stand to gain. I suppose you are the opposite of that.",
 			typewriter = {
 				speed = 0.05,
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"As we've established, we're all in this together. Despite our combined efforts, though, we're still slowly getting worn down. I'm sure you both already know we are going to lose if this battle drags on.\"",
 			typewriter = {
 				speed = 0.05,
@@ -518,8 +518,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "In other words, we need reinforcements.",
 			typewriter = {
 				speed = 0.05,
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"Can you request assistance from the other Ashes? Like Enterprise, or Takao?\"",
 			typewriter = {
 				speed = 0.05,
@@ -546,9 +546,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "I wouldn't hold my breath. Nobody knows when they'll come back.",
 			typewriter = {
 				speed = 0.05,
@@ -560,8 +560,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -570,8 +570,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = ".........",
 			typewriter = {
 				speed = 0.05,
@@ -586,8 +586,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "However, there are still other options available to us.",
 			typewriter = {
 				speed = 0.05,
@@ -602,8 +602,8 @@ return {
 			expression = 7,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Ark Royal, go with the Commander, and call for reinforcements! I'm going to boost my output up to the very limits!",
 			typewriter = {
 				speed = 0.05,
@@ -617,9 +617,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 9707020,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "What?! Are you bloody mental, Hiryuu?!",
 			typewriter = {
 				speed = 0.05,
@@ -631,8 +631,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -644,8 +644,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Did you just notice?",
 			typewriter = {
 				speed = 0.05,
@@ -660,8 +660,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "(I've got no choice but to pray that Enterprise's judgment was correct...)",
 			typewriter = {
 				speed = 0.05,
@@ -675,9 +675,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "––––Antiochus! See how you like THIS!",
 			effects = {
 				{
@@ -697,10 +697,10 @@ return {
 		{
 			actor = 900285,
 			side = 2,
-			nameColor = "#ff5c5c",
-			say = "I've finished running the combat simulation. We're almost at our limit.",
 			dir = 1,
 			bgm = "SailAwayJustice-inst",
+			nameColor = "#ff5c5c",
+			say = "I've finished running the combat simulation. We're almost at our limit.",
 			effects = {
 				{
 					active = false,
@@ -972,11 +972,11 @@ return {
 			}
 		},
 		{
-			say = "I was blinded by a dazzling light. The attack and subsequent shockwaves I braced for, however... They never came.",
+			bgm = "SailAwayJustice-inst",
 			side = 2,
 			bgName = "bg_white",
 			dir = 1,
-			bgm = "SailAwayJustice-inst",
+			say = "I was blinded by a dazzling light. The attack and subsequent shockwaves I braced for, however... They never came.",
 			flashout = {
 				dur = 1,
 				alpha = {
@@ -994,9 +994,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_white",
+			dir = 1,
 			say = "Instead, it seemed as though the world faded into pure white, all sound vanishing along with it.",
 			typewriter = {
 				speed = 0.05,
@@ -1008,9 +1008,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_white",
+			dir = 1,
 			say = "When the light cleared, the Arbiters and their Enforcer-class minions were all gone without a trace of their existence.",
 			typewriter = {
 				speed = 0.05,
@@ -1054,9 +1054,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "That was a close call...",
 			typewriter = {
 				speed = 0.05,
@@ -1068,8 +1068,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1078,8 +1078,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "I turned to look at the Ashes, who seemed like they'd exhausted every iota of energy within them.",
 			typewriter = {
 				speed = 0.05,
@@ -1094,8 +1094,8 @@ return {
 			expression = 6,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "I'm... fine... We barely managed to stop them...",
 			typewriter = {
 				speed = 0.05,
@@ -1110,8 +1110,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Don't worry about me, I'm used to this... Give me a few minutes and I'll be as good as new.",
 			typewriter = {
 				speed = 0.05,
@@ -1126,8 +1126,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "You madwoman... I can't believe that worked.",
 			typewriter = {
 				speed = 0.05,
@@ -1142,8 +1142,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "To be honest, I'm just as surprised as you that it did.",
 			typewriter = {
 				speed = 0.05,
@@ -1158,8 +1158,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "(Somehow, I get the feeling that things are starting to look up now...)",
 			typewriter = {
 				speed = 0.05,
@@ -1173,9 +1173,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Ah, Commander! What happened to U-47?",
 			typewriter = {
 				speed = 0.05,
@@ -1187,8 +1187,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1227,8 +1227,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "\"If everything's gone according to plan, then our allies on the outside should have cleared the Singularity's surroundings of all enemies already.\"",
 			typewriter = {
 				speed = 0.05,
@@ -1243,8 +1243,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Then it's time to bid farewell. With the Arbiters gone, we have no reason to stick together.",
 			typewriter = {
 				speed = 0.05,
@@ -1274,8 +1274,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			say = "We, however, still have some loose ends to tie up here.",
 			typewriter = {
 				speed = 0.05,
@@ -1287,8 +1287,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Before I could even get a word in, Ark Royal activated her camouflage and vanished. Hiryuu, on the other hand, remained in plain sight.",
 			typewriter = {
 				speed = 0.05,
@@ -1309,8 +1309,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "If you're thinking about coming with me, then don't even try. Don't make me threaten you with what I nearly used on the Arbiters a minute ago.",
 			typewriter = {
 				speed = 0.05,
@@ -1322,8 +1322,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = ".........",
 			typewriter = {
 				speed = 0.05,
@@ -1338,8 +1338,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Sorry, let's not end this on a threat. You brought back fond memories I haven't felt in so long.",
 			typewriter = {
 				speed = 0.05,
@@ -1353,9 +1353,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 9707010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "I do hope we can meet again someday. Under what circumstances, I don't know. Maybe we'll share a heartfelt reunion, or we'll exchange blows as enemies.",
 			typewriter = {
 				speed = 0.05,
@@ -1376,8 +1376,8 @@ return {
 			expression = 6,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Ah, I did say I'd tell you something you're going to like, didn't I? Don't worry, I remember our deal.",
 			typewriter = {
 				speed = 0.05,
@@ -1392,8 +1392,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Since you and your fleet managed to stay standing by the end of it all, I'll let you in on something good.",
 			typewriter = {
 				speed = 0.05,
@@ -1408,8 +1408,8 @@ return {
 			expression = 6,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "...You know what, I'll just give it to you directly...",
 			typewriter = {
 				speed = 0.05,
@@ -1421,8 +1421,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Hiryuu reached behind her back and staggered over to me.",
 			typewriter = {
 				speed = 0.05,
@@ -1436,9 +1436,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Huh...?",
 			typewriter = {
 				speed = 0.05,
@@ -1450,8 +1450,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1460,8 +1460,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "She then slid something into the pocket of my coat.",
 			typewriter = {
 				speed = 0.05,
@@ -1476,8 +1476,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Sorry, I don't think I can tell you in front of all these people. Take this, and let's call it even.",
 			typewriter = {
 				speed = 0.05,
@@ -1507,8 +1507,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Now it's time for me to go, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -1523,8 +1523,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "Don't worry, I'll be in touch.",
 			typewriter = {
 				speed = 0.05,
@@ -1554,8 +1554,8 @@ return {
 			expression = 3,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			say = "...May we meet again.",
 			typewriter = {
 				speed = 0.05,
@@ -1584,9 +1584,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "W-wait! Don't go!",
 			typewriter = {
 				speed = 0.05,
@@ -1598,8 +1598,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1608,12 +1608,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1638,8 +1638,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The operation had its ups and downs, but we've successfully completed stage one of purging the ocean's core of Sirens.",
 			typewriter = {
 				speed = 0.05,
@@ -1651,8 +1651,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Although the Singularities and Mirror Seas there haven't gone away, the threat posed to the area has decreased drastically.",
 			typewriter = {
 				speed = 0.05,
@@ -1664,8 +1664,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The NA Ocean has become safer to traverse, and we're reclaiming routes previously occupied by Sirens, one at a time.",
 			typewriter = {
 				speed = 0.05,
@@ -1677,8 +1677,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "All this isn't to say we can let our guards down, however.",
 			typewriter = {
 				speed = 0.05,
@@ -1690,8 +1690,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Mindless Arbiter vessels and Sirens still emerge from the Singularity from time to time, and the ever-elusive Ashes remain in the back of our minds.",
 			typewriter = {
 				speed = 0.05,
@@ -1703,8 +1703,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "In order to succeed with our long-term plans, we will need more time and a bigger fleet.",
 			typewriter = {
 				speed = 0.05,
@@ -1716,8 +1716,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Once all the shipgirls that fought in this operation have received their commendations, daily life at port will resume as normal.",
 			typewriter = {
 				speed = 0.05,
@@ -1729,8 +1729,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "And so, our war against the Sirens continues...",
 			typewriter = {
 				speed = 0.05,
@@ -1742,8 +1742,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Now it is time for us all to rest up in preparation for whatever challenge comes next.",
 			typewriter = {
 				speed = 0.05,
@@ -1755,8 +1755,8 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

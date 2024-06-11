@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "2023俾斯麦Z活动 HTS2女灶神meta 召唤小怪 监听",
 	init_effect = "",
+	name = "2023俾斯麦Z活动 HTS2女灶神meta 召唤小怪 监听",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200426,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",
@@ -16,9 +16,9 @@ return {
 			},
 			arg_list = {
 				buff_id = 200427,
+				nationality = 1,
 				maxTargetNumber = 0,
 				target = "TargetSelf",
-				nationality = 1,
 				check_target = {
 					"TargetAllHelp",
 					"TargetNationality"

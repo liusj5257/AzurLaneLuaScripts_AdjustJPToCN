@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "爱碳光波",
 	time = 0,
-	color = "yellow",
+	name = "爱碳光波",
+	init_effect = "",
+	id = 104010,
 	picture = "",
 	desc = "战斗中，每20秒启用一个效果",
 	stack = 1,
-	id = 104010,
+	color = "yellow",
 	icon = 104010,
 	last_effect = "",
 	effect_list = {
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 104011,
-				time = 20,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 20
 			}
 		},
 		{

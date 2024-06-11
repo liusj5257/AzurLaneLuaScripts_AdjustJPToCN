@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Saffron Travelogue\n\n<size=45>The Concerns of a Friend</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "One day, at the Exercise Area...",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "One day, at the Exercise Area...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			say = "Likewise. Good morning, Essex.",
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Likewise. Good morning, Essex.",
+			actor = 107380,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			dir = 1,
 			side = 0,
 			bgName = "bg_story_nepu1",
 			withoutActorName = true,
-			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Shangri-La switched gears before I could even get a word in.",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Huh? Why do you ask?",
 			typewriter = {
@@ -152,8 +152,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -162,11 +162,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
+			dir = -1,
 			side = 1,
 			bgName = "bg_story_nepu1",
 			withoutActorName = true,
-			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Now that she pointed it out, Essex's tone did seem a little concerning.",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Does it have to do with how the Eagle Union's anti-sub exercise went, by any chance?",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "You never fail to impress with your ability to read my mind...",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "All I need is one glance at that gloomy look of yours to know Enterprise is the cause of it. Heheh~",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			actor = 107090,
 			dir = -1,
+			actor = 107090,
 			nameColor = "#a9f548",
 			say = "Ahem! Anyway, it's nothing important. Basically: I'm tired of living in her shadow, and blah blah blah...",
 			typewriter = {
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -257,15 +257,15 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "So... You need a strategy to beat – or at the very least, surprise – Enterprise in the next exercise?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -293,8 +293,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Would you like me to help come up with a plan?",
 			typewriter = {
@@ -307,11 +307,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "You'd help?! I-I mean... Sure.",
 			typewriter = {
 				speed = 0.05,
@@ -323,8 +323,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -367,14 +367,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107380,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "As someone once said, \"if you know the enemy and know yourself, you need not fear the result of a hundred battles.\"",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -402,8 +402,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "So it's been since ancient times, but it rings doubly true when one is up against Enterprise.",
 			typewriter = {
@@ -451,8 +451,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Let's put together a special training regime for you. We'll need to use everything at our disposal to maximize your chances of winning.",
 			typewriter = {
@@ -468,8 +468,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Ah, Commander, you could observe us if you'd like. This is nothing top-secret, strictly speaking.",
 			typewriter = {

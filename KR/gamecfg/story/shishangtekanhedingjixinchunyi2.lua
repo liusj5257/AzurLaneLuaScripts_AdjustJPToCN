@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"모항 패션 컬렉션: 새봄 합본집[1]\n\n<size=45>2 승천하는 용의 새해 연회</size>",
@@ -14,23 +14,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
-			say = "새해를 맞이하는 연회장에서 한 소녀가 안절부절못하고 있다.",
 			bgm = "main-chunjie3",
+			say = "새해를 맞이하는 연회장에서 한 소녀가 안절부절못하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "mail",
 			say = "끙… 어쩌면 좋지……",
@@ -44,11 +44,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "으… 너무 걱정이야…",
@@ -84,14 +84,14 @@ return {
 			}
 		},
 		{
-			live2d = "touch",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
 			dir = 1,
 			optionFlag = 1,
 			actor = 501051,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "touch",
 			say = "전혀 괜찮지 않아요!",
 			painting = {
 				alpha = 0.3,
@@ -103,14 +103,14 @@ return {
 			}
 		},
 		{
-			live2d = true,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
 			dir = 1,
 			optionFlag = 2,
 			actor = 501051,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = true,
 			say = "제 말 들어보세요! 오늘은 주방에 아예 들어가지도 못했어요!",
 			painting = {
 				alpha = 0.3,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "다들 아침에 주방에서 저를 쫓아내면서 오늘은 서프라이즈가 있으니까 얼씬도 하지 말라고…",
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "그렇지만… 흑… 으아아! 아무래도 걱정이에요!!",
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "얼마 전 준비한 재료를… 과연 핑하이랑 닝하이가 제대로 조리할 수 있을까요?",
@@ -176,11 +176,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "혹시 자칫 실수라도 하면…",
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "게다가 맛을 내는 방법이나 취향은 다들 다르고… 그러다 혹시…",
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			say = "롱우는 주방에서 일어날지도 모르는 불상사를 끊임없이 떠올리며 초조함을 감추지 못했다.",
@@ -223,11 +223,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "역시 그대로 내버려둘 수는 없겠어요! 잠깐 다녀올게요!",
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "네? 갑자기 무슨 말씀이시죠? 이해가 안 되네요…",
@@ -337,11 +337,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "뭐, 지휘관님께서 그렇게 말씀하시니… 딱 한 개만……?",
@@ -355,11 +355,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "냠냠… 꿀꺽!",
@@ -379,11 +379,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "이 반죽의 감촉, 앙금의 맛! 분하지만, 핑하이 쪽에서 이렇게 맛있는 빠오즈를 만들 줄은 몰랐어요!",
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "냠냠… 꿀꺽!",
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "달콤하면서 육즙이… 롱우가 꺼내놓은 화댜오주를 넣었네요. 간장 간도 너무 삼삼하지 않고 딱 좋은 정도……",
@@ -493,9 +493,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_165",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……맛있는 술게장에 정신이 팔려 어느새 롱우가 모습을 감춘 것도 눈치채지 못했다.",
 			typewriter = {
@@ -503,17 +503,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -531,8 +531,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			optionFlag = 1,
@@ -543,8 +543,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -555,8 +555,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			optionFlag = 2,
@@ -567,27 +567,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_165",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_165",
 			say = "잠시 후 연회의 마지막 요리인 춘권이 나왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -595,8 +595,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			say = "이걸로 롱우를 저지하는 작전은 성공으로 막을 내린 건가.",
@@ -606,11 +606,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "지휘관님, 새해에는 꼭 춘권을 드셔야 해요! 자, 여기요.",
@@ -624,8 +624,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_165",
 			hidePaintObj = true,
 			say = "춘권을 입에 넣고 껍질을 깨물어 맛을 보니…… 형언할 수 없을 정도의 매운맛이 통각을 자극했다!",
@@ -649,11 +649,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "후후후, 맵죠? 그래서 맛있는 거예요!",
@@ -667,11 +667,11 @@ return {
 			}
 		},
 		{
-			actor = 501051,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 501051,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "롱우가 방금 주방에 몰래 들어가서 만들어 온 따끈따끈한 핵불맛 춘권이랍니다!",
@@ -688,10 +688,10 @@ return {
 			portrait = 501060,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "후번",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "해, 핵불맛?!",
 			painting = {
 				alpha = 0.3,
@@ -706,10 +706,10 @@ return {
 			portrait = 501060,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "후번",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…아! 롱우 언니, 술게장을 이렇게 많이…!",
 			painting = {
 				alpha = 0.3,
@@ -724,10 +724,10 @@ return {
 			portrait = 501060,
 			side = 2,
 			bgName = "star_level_bg_165",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "후번",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어휴, 지휘관! 롱우 언니가 취하면 매운 요리만 잔뜩 만든단 말이야!",
 			painting = {
 				alpha = 0.3,

@@ -1,16 +1,16 @@
 return {
-	id = "AIGUANQIA24",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA24",
+	fadein = 1.5,
 	scripts = {
 		{
-			say = "Port - Dorms",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "Port - Dorms",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,8 +33,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Another black screen this time?",
 			typewriter = {
@@ -82,8 +82,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "I suppose that's true, but this isn't the first time I've encountered viruses. So why this time...",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Conquer the world?! I mean, is it really possible to do something like that no matter how much you manipulate me? No way, no way, that's impossible!",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "Jeez~! Everyone's poking fun at me now~! Being that size comes with all kinds of problems!",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#a9f548",
 			say = "If we get to the bottom of this, I'll bet you that the Sirens caused all this! Just kidding... there's no way that the script writers would blame them for every little thing! Ahaha... ha... ha!",
 			typewriter = {
@@ -227,8 +227,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			hideOther = true,
 			dir = 1,
+			nameColor = "#a9f548",
 			actor = 101170,
 			actorName = "Laffey & Javelin & Z23 & Inazuma",
 			say = "………！",
@@ -300,11 +300,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "Um... surely not this time, right? Zed?",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -326,11 +326,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "R-right... Even the Sirens wouldn't do something this pointless...",
 			typewriter = {
 				speed = 0.05,
@@ -342,8 +342,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -384,8 +384,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			say = "The truth behind all this... is something God only knows.",

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_130 = {}
 slot1 = slot0.word_template_130
 
-function temp()
+temp = function()
 	uv0["5"] = {
 		["5"] = {
 			s = {
@@ -365,7 +365,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.x = {
 		i = {
 			a = {
@@ -644,7 +644,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["2"] = {
 		["2"] = {
 			["2"] = {
@@ -800,7 +800,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["五"] = {
 		["月"] = {
 			["天"] = {

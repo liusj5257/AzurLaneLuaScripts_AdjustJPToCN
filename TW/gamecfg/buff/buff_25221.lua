@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行9次攻击，触发全弹发射-扎拉级I"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 25221,
 	picture = "",
 	desc = "主炮每进行9次攻击，触发全弹发射-扎拉级I",
 	stack = 1,
-	id = 25221,
+	color = "red",
 	icon = 20200,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 25221,
+				target = "TargetSelf",
 				countType = 25220
 			}
 		}

@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 110020,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 110020,
+	color = "red",
 	icon = 110020,
 	last_effect = "",
 	effect_list = {
@@ -52,8 +52,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 1,
+				attr = "cri",
 				index = {
 					110020
 				}
@@ -66,8 +66,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.3,
-				target = "TargetSelf",
 				skill_id = 110020,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUEYEWEIYANG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUEYEWEIYANG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "Clouds blocked the moon once more, making the rooms in Musashi's abode just a little darker.",
+			nameColor = "#A9F548FF",
 			bgm = "battle-pacific",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "Clouds blocked the moon once more, making the rooms in Musashi's abode just a little darker.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,12 +29,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "After that, Lady Nagato announced that she was resigning from her position as flagship, and that there would be combat exercises to decide her successor...",
 			painting = {
 				alpha = 0.3,
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -61,10 +61,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "N-not necessarily! It's just speculation...",
 			painting = {
 				alpha = 0.3,
@@ -79,10 +79,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The thing is, Lady Nagato left on a trip for a while before her announcement.",
 			painting = {
 				alpha = 0.3,
@@ -94,12 +94,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But weirdly, nobody in the Sakura Empire ever SAW her doing that.",
 			painting = {
 				alpha = 0.3,
@@ -114,10 +114,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The truth is...",
 			painting = {
 				alpha = 0.3,
@@ -129,8 +129,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "Sakawa shifted to sit on her knees seiza-style and whispered quietly.",
@@ -143,10 +143,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Lady Nagato went to this \"sanctuary.\"",
 			painting = {
 				alpha = 0.3,
@@ -158,12 +158,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And she wasn't alone. I hear Musashi went with her.",
 			painting = {
 				alpha = 0.3,
@@ -178,10 +178,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "More than that... I went with them as Musashi's bodyguard.",
 			painting = {
 				alpha = 0.3,
@@ -193,12 +193,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Anyway, that's all I know. I don't actually know what happened inside the sanctuary, okay?",
 			painting = {
 				alpha = 0.3,
@@ -213,10 +213,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Only Lady Nagato, Musashi, and that weird guest I mentioned went in there.",
 			painting = {
 				alpha = 0.3,
@@ -231,10 +231,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...And there you have it. That's everything I know!",
 			painting = {
 				alpha = 0.3,
@@ -246,8 +246,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -258,12 +258,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah...",
 			painting = {
 				alpha = 0.3,
@@ -275,8 +275,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -290,10 +290,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Not really...? Oh, but a few days ago, she really didn't look good.",
 			painting = {
 				alpha = 0.3,
@@ -305,12 +305,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It was like she was sleep-deprived... Maybe nightmares kept her from sleeping?",
 			painting = {
 				alpha = 0.3,
@@ -322,8 +322,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "Before the girl could answer, thunder roared outside.",
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "Lightning struck several more times until a thin, purple spear of electricity finally struck in the direction of the lake.",
@@ -344,12 +344,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's...",
 			painting = {
 				alpha = 0.3,
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -373,8 +373,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -385,8 +385,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "She took Sakawa's hand and placed something small in her palm.",
@@ -408,12 +408,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Origami?",
 			painting = {
 				alpha = 0.3,
@@ -425,8 +425,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "On closer inspection, it wasn't a paper animal. It looked like it was modeled after some kind of head or face.",
@@ -436,8 +436,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "The face, with two adorable horns on its head, was quite familiar to Sakawa.",
@@ -450,10 +450,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Wow, this is... me, isn't it?",
 			painting = {
 				alpha = 0.3,
@@ -465,12 +465,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Heheh. Thank you~♪",
 			painting = {
 				alpha = 0.3,
@@ -482,8 +482,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "She gingerly held the origami in her hands and gazed out the window, where the girl previously was, toward the moon outside.",
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "And she offered a heartfelt prayer.",
@@ -504,12 +504,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Please, Dragon God...",
 			painting = {
 				alpha = 0.3,
@@ -524,10 +524,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Make sure they all come home safe...",
 			painting = {
 				alpha = 0.3,

@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN27",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "신세계의 비밀 해역, 저녁――",
 			bgm = "theme-tempest",
+			say = "신세계의 비밀 해역, 저녁――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "떠들썩한 연회도 끝나고, 해변에는 다시 평온한 일상이 돌아왔다.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "'개념'이 자아내는 문… 폭풍이 다가오고 있다. 아무래도 슬슬 헤어질 시간인 듯하다.",
@@ -42,11 +42,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "어땠어? 내가 만든 바르바코아, 지휘관에 지지 않을 정도로 맛있었지?",
@@ -85,11 +85,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "듣고 보니 그렇긴 하네!",
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……정말 돌아갈 거야?",
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_3",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "알았어. 바닷바람의 축복이 늘 지휘관에게 함께 하길…",
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -358,8 +358,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "…………",
@@ -369,8 +369,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "……………………",
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "배가 폭풍으로 점점 진입함에 따라 로열 포춘의 목소리도 조금씩 멀어져 갔다.",
@@ -391,8 +391,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "\"꼭 다시 만날 수 있을 거야.\"",
@@ -402,8 +402,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "그렇게 생각하면 이별의 아쉬움도 조금은 덜어지는 것 같다.",
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "나침반을 건네줌으로써 '문'은 연결됐고, 그녀와 만난 사실도 사라지지 않는다.",
@@ -424,8 +424,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "이제 남은 건 미지의 미래를 향해 발을 내딛는 것뿐……",
@@ -435,8 +435,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_3",
 			hidePaintObj = true,
 			say = "\"템페스타와 청춘의 샘\" ―― 끝…?",

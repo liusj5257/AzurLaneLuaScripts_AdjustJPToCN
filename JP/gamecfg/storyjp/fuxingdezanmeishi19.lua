@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI19",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「芸術品も取り戻す、GBも救い出す」</size>",
@@ -43,16 +43,16 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_italyv2_3",
 			dir = 1,
+			bgName = "bg_italyv2_3",
 			bgm = "xinnong-3",
 			actor = 601050,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "マエストラーレ、さっきから同じ場所でぐるぐる回っている気がしない？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -77,12 +77,12 @@ return {
 			}
 		},
 		{
-			actor = 601040,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601040,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "どうでしょう…この迷路の風景はどこも似ていますから、気のせいかもしれません…",
 			typewriter = {
 				speed = 0.05,
@@ -97,10 +97,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "伝説のクノッソス迷宮も、その虚々実々の無数の分かれ道で設計者すら閉じ込められそうになったって…",
 			typewriter = {
 				speed = 0.05,
@@ -131,10 +131,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "いざというときは直感頼りにすることも考えないと…恐るべし……",
 			typewriter = {
 				speed = 0.05,
@@ -146,12 +146,12 @@ return {
 			}
 		},
 		{
-			actor = 602010,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "この迷路が実験場というのなら、参加者が踏破出来るかどうかも含めてセイレーンの実験の一環だ",
 			typewriter = {
 				speed = 0.05,
@@ -166,10 +166,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 602010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "この貴きドゥーカ・デッリ・アブルッツィをモルモット扱いとはいい度胸だ",
 			typewriter = {
 				speed = 0.05,
@@ -184,10 +184,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "戦う相手だけではなく、試してくる相手でもあるのがセイレーンの恐ろしいところです",
 			typewriter = {
 				speed = 0.05,
@@ -202,10 +202,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 602010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ああ、道理で私達がずっとセイレーンには「勝つ」事ができないわけだ",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "き、気になるね…セイレーンは「実験」で何を知ろうとしているのか…ふふふふ…",
 			typewriter = {
@@ -237,8 +237,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "「目的」がないと、こうした「実験場」のような鏡面海域は作らないし…",
 			typewriter = {
@@ -254,8 +254,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "カラビニエーレが行ってたあの鉄血の鏡面海域も、艦載機の性能？を検証するところだったんだよね…",
 			typewriter = {
@@ -268,12 +268,12 @@ return {
 			}
 		},
 		{
-			actor = 608010,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 608010,
+			nameColor = "#a9f548",
 			say = "ふふ、ふふふ……き、気になるなー…セイレーンの目的……",
 			typewriter = {
 				speed = 0.05,

@@ -1,12 +1,12 @@
 return {
-	time = 8,
 	name = "2023俾斯麦Z活动 构造之理-援护",
 	init_effect = "",
-	color = "blue",
+	id = 200433,
+	time = 8,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200433,
+	color = "blue",
 	last_effect = "",
 	blink = {
 		0,
@@ -23,8 +23,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 300
+				number = 300,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -34,8 +34,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 300
+				number = 300,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -45,8 +45,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 300
+				number = 300,
+				attr = "antiAirPower"
 			}
 		},
 		{
@@ -56,8 +56,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 300
+				number = 300,
+				attr = "airPower"
 			}
 		},
 		{
@@ -67,8 +67,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 300
+				number = 300,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -78,8 +78,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 300
+				number = 300,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -89,8 +89,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 300
+				number = 300,
+				attr = "dodgeRate"
 			}
 		}
 	}

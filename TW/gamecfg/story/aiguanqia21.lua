@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA21",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA21",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 401230,
@@ -22,12 +22,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "绊爱(巨大化)",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "啊…呜……",
+			actorName = "绊爱(巨大化)",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -59,12 +59,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "绊爱(巨大化)",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "好痛…",
+			actorName = "绊爱(巨大化)",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -96,12 +96,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actorName = "绊爱(巨大化)",
-			actor = 10400010,
-			dir = 1,
-			nameColor = "#ff5c5c",
-			actorScale = 3.5,
 			say = "呜呜…咕啊！",
+			actorName = "绊爱(巨大化)",
+			dir = 1,
+			actorScale = 3.5,
+			actor = 10400010,
+			nameColor = "#ff5c5c",
 			actorPosition = {
 				x = 150,
 				y = -900
@@ -133,12 +133,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			say = "呜呜哇哇哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊呜呜！！",
+			actorScale = 3.5,
 			actorName = "绊爱(巨大化)",
 			actor = 10400010,
-			dir = 1,
 			nameColor = "#ff5c5c",
-			actorScale = 3.5,
-			say = "呜呜哇哇哇啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊呜呜！！",
 			flashN = {
 				color = {
 					1,
@@ -177,8 +177,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 1650,
+					type = "move",
 					delay = 0,
 					dur = 2,
 					x = 0
@@ -197,8 +197,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "大家…谢谢……添了这么多麻烦，对不起……！",
 			flashN = {
 				color = {
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "轰隆隆隆隆隆隆隆隆隆隆隆隆……！！！",
 			dialogShake = {
 				speed = 0.09,
@@ -356,8 +356,8 @@ return {
 			expression = 1,
 			side = 0,
 			nameColor = "#ff5c5c",
-			hideOther = true,
 			dir = 1,
+			hideOther = true,
 			actor = 10400010,
 			actorName = "绊爱(伪)",
 			say = "………",
@@ -503,8 +503,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "(诶诶诶！？好久没干了，也不知道习惯不行啊～！？）虽然不知道能不能成，我会时时看的！嗯…努努努……嘿！！！",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			expression = 1,
 			side = 0,
 			hideOther = true,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			actor = 10400010,
 			actorName = "绊爱(伪)",
 			say = "！！！",
@@ -568,8 +568,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 22.5,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -596,8 +596,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "总、总算是做到了～～～～～！！！",
 			typewriter = {
 				speed = 0.05,
@@ -627,8 +627,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			say = "！这个错误是……",
 			typewriter = {
 				speed = 0.05,
@@ -640,8 +640,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "系统公告",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "即将把玩家传送至港区。请移动至安全区域做好传送准备",
@@ -655,8 +655,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……柔和的光芒将少女们缓缓包住",
 			flashN = {
 				color = {
@@ -688,8 +688,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "——除了绊爱自己",
 			typewriter = {
 				speed = 0.05,
@@ -716,8 +716,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -729,8 +729,8 @@ return {
 			actor = 10400010,
 			side = 2,
 			expression = 5,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "对不起，似乎只有我留在这边，才能控制这片虚拟镜面海域并且把大家送回去了",
 			typewriter = {
 				speed = 0.05,
@@ -760,8 +760,8 @@ return {
 			actor = 10400010,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "能陪我一路来到这里，真的非常谢谢妳们。和大家共同度过的时间，我一生都不会忘记的",
 			typewriter = {
 				speed = 0.05,
@@ -806,8 +806,8 @@ return {
 			actor = 10400010,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "一定会让大家回到原来的地方的",
 			typewriter = {
 				speed = 0.05,
@@ -837,8 +837,8 @@ return {
 			actor = 10400010,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "超级AI啊！",
 			typewriter = {
 				speed = 0.05,
@@ -850,8 +850,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "——“再见了”",
 			typewriter = {
@@ -864,11 +864,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			actor = 201210,
 			say = "爱酱————————————！！！",
 			flashN = {
 				color = {

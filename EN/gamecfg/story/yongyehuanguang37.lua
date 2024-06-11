@@ -1,16 +1,16 @@
 return {
-	id = "YONGYEHUANGUANG37",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG37",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp3",
+			say = "Countless spears of ice reach up from the ocean as if lifted by an external force, forming a massive structure that claws at the clouds.",
 			side = 2,
 			bgName = "bg_hms_0",
 			dir = 1,
-			say = "Countless spears of ice reach up from the ocean as if lifted by an external force, forming a massive structure that claws at the clouds.",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "That is the \"Crown\" of the Northern Parliament, the singularity that serves as one of the largest Siren bases in the Arctic Circle.",
 			typewriter = {
 				speed = 0.05,
@@ -35,9 +35,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "And around it stand the guardians of humanity who continue to push back against the inexhaustible waves of Sirens materialized from that base.",
 			typewriter = {
 				speed = 0.05,
@@ -129,9 +129,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "The war situation in the Northern Parliament is one of the most harrowing things I've ever seen. But this was also the moment they needed me the most.",
 			typewriter = {
 				speed = 0.05,
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "Then, as the person entrusted with leading them to victory, perhaps I...",
 			typewriter = {
 				speed = 0.05,
@@ -158,17 +158,17 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "...shall take command once more.",
-					autochoice = 1
+					autochoice = 1,
+					content = "...shall take command once more."
 				}
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccp_3",
-			actorName = "Sovetsky Soyuz",
 			dir = 1,
+			actorName = "Sovetsky Soyuz",
 			say = "γpa!!",
 			dialogShake = {
 				speed = 0.09,
@@ -185,15 +185,15 @@ return {
 			}
 		},
 		{
-			actor = 900218,
 			side = 2,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 900218,
+			nameColor = "#ffff4d",
 			say = "γpa!!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

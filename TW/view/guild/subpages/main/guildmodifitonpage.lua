@@ -1,10 +1,10 @@
 slot0 = class("GuildModiftionPage", import("...base.GuildBasePage"))
 
-function slot0.getTargetUI(slot0)
+slot0.getTargetUI = function(slot0)
 	return "GuildModiftionBluePage", "GuildModiftionRedPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.nameInput = findTF(slot0._tf, "frame/name_bg/input"):GetComponent(typeof(InputField))
 	slot0.factionBLHXToggle = findTF(slot0._tf, "frame/policy_container/faction/blhx")
 	slot0.factionCSZZToggle = findTF(slot0._tf, "frame/policy_container/faction/cszz")
@@ -19,7 +19,7 @@ function slot0.OnLoaded(slot0)
 	slot0.costTF = findTF(slot0._tf, "frame/confirm_btn/print_container/Text"):GetComponent(typeof(Text))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.costTF.text = 0
 	slot0.modifyBackBG = slot0:findTF("bg_decorations", slot0._tf)
 
@@ -85,7 +85,7 @@ function slot0.OnInit(slot0)
 		slot0:setFaction(uv0.faction)
 		slot0:setManifesto(slot2)
 
-		function slot3()
+		slot3 = function()
 			if uv0:getPolicy() ~= uv1.guildVO:getPolicy() then
 				uv1:emit(GuildMainMediator.MODIFY, 3, uv0:getPolicy(), "")
 			end
@@ -114,7 +114,7 @@ function slot0.OnInit(slot0)
 		end
 	end, SFX_CONFIRM)
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		onInputChanged(uv0, slot0, function ()
 			slot1, slot2 = wordVer(getInputText(uv0), {
 				isReplace = true
@@ -136,7 +136,7 @@ function slot0.OnInit(slot0)
 	slot1(slot0.manifestoInput)
 end
 
-function slot0.DealQuit(slot0, slot1)
+slot0.DealQuit = function(slot0, slot1)
 	if not slot0.guildVO:GetActiveEvent() or slot2 and not slot2:IsParticipant() then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("guild_tip_quit"),
@@ -150,7 +150,7 @@ function slot0.DealQuit(slot0, slot1)
 	end
 end
 
-function slot0.DealBattleReportAward(slot0, slot1)
+slot0.DealBattleReportAward = function(slot0, slot1)
 	if #getProxy(GuildProxy):GetCanGetReports() == 0 then
 		slot1()
 
@@ -171,7 +171,7 @@ function slot0.DealBattleReportAward(slot0, slot1)
 	})
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	slot0.guildVO = slot1
 	slot0.playerVO = slot2
 
@@ -243,12 +243,12 @@ function slot0.Show(slot0, slot1, slot2)
 	setActive(slot0.dissolveBtn, slot5 == GuildConst.DUTY_COMMANDER)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	setActive(slot0._tf, false)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"빛나는 아이리스\n\n<size=45>아이리스의 개선</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "포르뱅과 르 마르스가 집무실에서 떠난 후……",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "포르뱅과 르 마르스가 집무실에서 떠난 후……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "르 트리옹팡은 가볍게 주먹을 꾹 쥐고는……",
 			typewriter = {
 				speed = 0.05,
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "트리옹팡이 부끄러운 듯 얼굴을 붉혔다.",
 			typewriter = {
 				speed = 0.05,

@@ -8,15 +8,15 @@ return {
 		{
 			alpha = 0.2,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 226.09,
 				posX = -245.3,
 				text = slot0[1]
 			},
 			ui = {
-				path = "UICamera/Canvas/UIMain/LevelMainScene(Clone)/top/top_chapter/back_button",
 				pathIndex = -1,
+				path = "UICamera/Canvas/UIMain/LevelMainScene(Clone)/top/top_chapter/back_button",
 				triggerType = {
 					1
 				},
@@ -29,15 +29,15 @@ return {
 		{
 			alpha = 0.2,
 			style = {
-				dir = -1,
 				mode = 2,
+				dir = -1,
 				posY = 226.09,
 				posX = -245.3,
 				text = slot0[1]
 			},
 			ui = {
-				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/top/top_chapter/back_button",
 				pathIndex = -1,
+				path = "/UICamera/Canvas/UIMain/LevelMainScene(Clone)/top/top_chapter/back_button",
 				triggerType = {
 					1
 				},

@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "加斯科涅天运强化",
 	cd = 0,
+	picture = "0",
+	desc = "加斯科涅天运强化",
 	painting = 1,
 	id = 18252,
-	picture = "0",
 	castCV = "skill",
-	desc = "加斯科涅天运强化",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,20 +17,20 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillEditTag",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillEditTag",
+			target_choise = "TargetSelf",
 			arg_list = {
 				tag = "GascognePowerUp",
 				operation = 1
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 18253
 			}

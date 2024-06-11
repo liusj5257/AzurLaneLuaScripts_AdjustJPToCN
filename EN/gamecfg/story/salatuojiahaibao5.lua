@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIAHAIBAO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIAHAIBAO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Superstar of the Blue Seas\n\n<size=45>Chapter 5 - The Mythical Seal</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Although there were a few incidents along the way, Saratoga's charity concert concluded without a hitch.",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Although there were a few incidents along the way, Saratoga's charity concert concluded without a hitch.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,9 +66,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "The \"Mythical Seal\" – which in reality was just a regular seal – rubbed its nose against Saratoga's leg.",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "You see, you can't just protect cuties like this for a day and call it done. It's something you do every day and work hard at it!",
 			typewriter = {
@@ -97,9 +97,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Had I known that, I could've offered to help sooner...",
 			typewriter = {
 				speed = 0.05,
@@ -165,9 +165,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Huh? There's more stuff going on after the concert?",
 			typewriter = {
 				speed = 0.05,
@@ -182,8 +182,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "It's a bit late, but today is actually when both the Sakura Empire and Dragon Empery celebrate the Night of Sevens.",
 			typewriter = {
@@ -228,13 +228,13 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "There'll be a fireworks display too, nya~ I designed them specifically so they won't cause distress to the marine life in the tanks, nya~",
 			soundeffect = "event:/battle/firework",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "There'll be a fireworks display too, nya~ I designed them specifically so they won't cause distress to the marine life in the tanks, nya~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,8 +296,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "Oh, right! We can't let this cutie go nameless!",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -336,9 +336,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "It was decided that the name of the seal – the star of Saratoga's concert and beloved treasure of the sea – would be...",
 			typewriter = {
 				speed = 0.05,
@@ -353,8 +353,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "Sara... Seal... I've got it! \"Sally\"! Let's go with that!",
 			typewriter = {
@@ -370,8 +370,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107034,
 			dir = 1,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "Okay... Commander, I'm counting on you to help me – and cute little Sally here...",
 			typewriter = {
@@ -387,9 +387,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107034,
 			dir = 1,
 			blackBg = true,
+			actor = 107034,
 			nameColor = "#a9f548",
 			say = "... protect these beautiful blue seas and all the adorable marine life it hosts! Everybody's support matters♪",
 			typewriter = {

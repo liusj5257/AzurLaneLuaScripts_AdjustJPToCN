@@ -11,9 +11,9 @@ return {
 			nameColor = "#a9f548",
 			bgName = "bg_story_1",
 			side = 0,
-			bgm = "story-5",
 			bgSpeed = 1.5,
 			say = "フッド！",
+			bgm = "story-5",
 			effects = {
 				{
 					active = true,
@@ -25,8 +25,8 @@ return {
 			actor = 900006,
 			side = 0,
 			nameColor = "#a9f548",
-			say = "この力…！やっぱりあなたたちは、「あの力」を……！",
 			subBgName = "bg_story_1_sub",
+			say = "この力…！やっぱりあなたたちは、「あの力」を……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,10 +87,10 @@ return {
 			actor = 900010,
 			nameColor = "#ff0000",
 			bgName = "bg_story_3",
-			side = 1,
-			bgFade = true,
-			blackBg = true,
 			say = "「忠誠こそ我が名誉」――力あるものだけが人類を救えるのよ。私たちは…ただ違う道を選んだだけ。",
+			side = 1,
+			blackBg = true,
+			bgFade = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,12 +129,12 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			side = 2,
 			nameColor = "#ff0000",
-			mode = 2,
 			dir = -1,
 			blackBg = true,
+			actor = 900011,
+			mode = 2,
 			say = "…人類って面白い。力のカケラを授けただけで、またあの歴史を繰り返すとは。",
 			shake = {
 				speed = 1,
@@ -150,11 +150,11 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			mode = 2,
 			blackBg = true,
+			actor = 900012,
+			mode = 2,
 			say = "観察を続けようかしら。私、この子たちの将来には期待しているわ。",
 			shake = {
 				speed = 1,
@@ -170,11 +170,11 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#ff0000",
-			mode = 2,
 			blackBg = true,
+			actor = 900012,
+			mode = 2,
 			say = "こうでもしなければ、私たちがこの時代に戻る意味なんてないもの。ふふふ…",
 			shake = {
 				speed = 1,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z463",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z463",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"순백의 시\n\n<size=45>3. 막간I</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgmDelay = 2,
-			bgName = "bg_story_room",
 			say = "항구-숙소",
+			bgName = "bg_story_room",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			bgName = "bg_story_room",
+			blackBg = true,
 			say = "그런데 왜 그렇게 그녀들의 대화에 끼는 것이 어렵게 느껴질까.",
 			typewriter = {
 				speed = 0.05,

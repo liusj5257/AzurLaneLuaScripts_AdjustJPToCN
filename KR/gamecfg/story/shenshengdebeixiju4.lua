@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "battle-boss-5",
+			say = "로열 본섬",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
-			say = "로열 본섬",
+			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_115",
 			side = 2,
+			bgName = "star_level_bg_115",
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "제국의 함대, 움직이기 시작한 것 같아.",
 			typewriter = {
@@ -89,11 +89,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_115",
 			side = 2,
+			bgName = "star_level_bg_115",
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "…라스페치아 항 외곽.",
 			typewriter = {
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_115",
 			side = 2,
+			bgName = "star_level_bg_115",
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "응… 그것 밖에 없는 것 같네. 그럼 폐하께 보고드릴게.",
 			typewriter = {
@@ -223,15 +223,15 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "으흥, 먼저 교섭을 하고 결정을 내리겠다는 건가. 꽤나 생각을 많이 했구나. 좋아!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 2,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "걱정 마세요, 폐하!",
 			typewriter = {
@@ -324,9 +324,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "(벨파스트는 엘리자베스를 위해 유유히 차를 타며 말했다.)",
 			typewriter = {
 				speed = 0.05,
@@ -338,11 +338,11 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202120,
+			nameColor = "#a9f548",
 			say = "워스파이트는 변함없이 믿음직스럽군요~",
 			typewriter = {
 				speed = 0.05,
@@ -354,8 +354,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -364,11 +364,11 @@ return {
 			}
 		},
 		{
-			actor = 205029,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 2,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 205029,
 			actorName = "워스파이트",
 			say = "그렇다면 즉시 출항하겠습니다. God bless the queen!",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -391,9 +391,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "(워스파이트는 벨파스트를 향해 고개를 끄덕이며 눈빛을 보내고는 떠났다.)",
 			typewriter = {
 				speed = 0.05,
@@ -421,9 +421,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "——모든 일이 순조로우면 좋겠네요. (벨파스트는 창밖을 보며 말했다.)",
 			typewriter = {
 				speed = 0.05,

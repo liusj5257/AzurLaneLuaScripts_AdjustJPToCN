@@ -7,11 +7,11 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
-			actor = 805010,
 			dir = 1,
+			bgm = "battle-whaling-normal",
+			actor = 805010,
 			stopbgm = true,
 			say = "怨仇女士，戰爭騎士正主動向我們的方向襲來。",
-			bgm = "battle-whaling-normal",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -40,8 +40,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "而且……外表看起來完好無損，看來確實是場苦戰了……",
 			painting = {
 				alpha = 0.3,
@@ -91,8 +91,8 @@ return {
 			expression = 5,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "妳要是還不出力的話，說不定我們會遭受重大損失的！",
 			painting = {
 				alpha = 0.3,
@@ -122,8 +122,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "硬碰硬不是我的風格，妳們就先在正面堅持一下。",
 			painting = {
 				alpha = 0.3,
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "我繞到側面去找它的弱點，看看有沒有任何破敵良方。",
 			painting = {
 				alpha = 0.3,
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.4,
 					dur = 1,
 					x = -2500
@@ -177,9 +177,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 207070,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "妳……！",
 			painting = {
 				alpha = 0.3,
@@ -199,8 +199,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "…………怨仇女士，消消氣。",
 			painting = {
 				alpha = 0.3,
@@ -230,8 +230,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "………………皇家海軍，見敵必戰！",
 			painting = {
 				alpha = 0.3,
@@ -246,8 +246,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "女王陛下的榮光正在照耀著我們呢，奮力戰鬥，不要讓陛下蒙羞！",
 			painting = {
 				alpha = 0.3,

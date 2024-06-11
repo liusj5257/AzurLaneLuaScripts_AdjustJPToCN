@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{
@@ -23,13 +23,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 0,
-			nameColor = "#ff0000",
-			actorName = "???",
-			withoutPainting = true,
-			blackBg = true,
 			say = "……",
+			nameColor = "#ff0000",
+			blackBg = true,
+			actor = 107060,
+			actorName = "???",
+			withoutPainting = true,
 			shake = {
 				speed = 1,
 				number = 3
@@ -44,13 +44,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 1,
+			say = "눈을 떠라. 전투가 시작된다.",
 			nameColor = "#ff0000",
+			blackBg = true,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
-			blackBg = true,
-			say = "눈을 떠라. 전투가 시작된다.",
 			shake = {
 				speed = 1,
 				number = 3
@@ -65,13 +65,13 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 0,
+			say = "………",
 			nameColor = "#ff0000",
+			blackBg = true,
+			actor = 107060,
 			actorName = "???",
 			withoutPainting = true,
-			blackBg = true,
-			say = "………",
 			shake = {
 				speed = 1,
 				number = 3
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 407010,
 			side = 1,
-			nameColor = "#ff0000",
+			say = "꿈……? 아니, 「체스말<Piece>」 에 불과한 네가 꿈 같은 걸 꿀 수 있을 리 없다. 만약 있다면…그건 인격이라 불리는 사념의 파편, 환각 같은 거지.",
 			dir = -1,
 			blackBg = true,
-			say = "꿈……? 아니, 「체스말<Piece>」 에 불과한 네가 꿈 같은 걸 꿀 수 있을 리 없다. 만약 있다면…그건 인격이라 불리는 사념의 파편, 환각 같은 거지.",
+			actor = 407010,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -205,11 +205,11 @@ return {
 			}
 		},
 		{
-			actor = 405020,
 			side = 0,
-			nameColor = "#ff0000",
-			blackBg = true,
 			say = "「새크리파이스<Sacrifice>」, 인가……",
+			blackBg = true,
+			actor = 405020,
+			nameColor = "#ff0000",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

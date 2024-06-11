@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023海盗活动T4 流星轰炸",
 	time = 0,
+	name = "2023海盗活动T4 流星轰炸",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -25,9 +25,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200632,
 				time = 20,
-				target = "TargetSelf",
-				skill_id = 200632
+				target = "TargetSelf"
 			}
 		}
 	}

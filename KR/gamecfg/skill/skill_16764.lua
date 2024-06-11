@@ -21,16 +21,16 @@ return {
 			},
 			arg_list = {
 				targetRelativeCorrdinate = {
-					hrz = -500,
-					vrt = 0
+					vrt = 0,
+					hrz = -500
 				}
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 16767
 			}

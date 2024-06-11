@@ -1,12 +1,12 @@
 return {
-	time = 6,
 	name = "紧急回避",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 4070,
+	time = 6,
 	picture = "",
 	desc = "完全闪避",
 	stack = 1,
-	id = 4070,
+	color = "blue",
 	icon = 4070,
 	last_effect = "",
 	blink = {
@@ -25,8 +25,8 @@ return {
 			},
 			arg_list = {
 				group = 4070,
-				attr = "perfectDodge",
-				number = 1
+				number = 1,
+				attr = "perfectDodge"
 			}
 		}
 	}

@@ -4,19 +4,19 @@ ys.SeqCenter = slot0
 slot0._list = nil
 slot0._destroyed = false
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._list = ys.LinkList.New()
 end
 
-function slot0.NewSeq(slot0, slot1)
+slot0.NewSeq = function(slot0, slot1)
 	return ys.Sequence.New(slot1, slot0)
 end
 
-function slot0.AddSeq(slot0, slot1)
+slot0.AddSeq = function(slot0, slot1)
 	slot0._list:AddLast(slot1)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	if slot0._destroyed then
 		return
 	end
@@ -40,7 +40,7 @@ function slot0.Update(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot1 = slot0._list.Head
 
 	for slot5 = 1, slot0._list.Count do
@@ -53,7 +53,7 @@ function slot0.Dispose(slot0)
 	slot0._destroyed = true
 end
 
-function slot0.IsFinish(slot0)
+slot0.IsFinish = function(slot0)
 	if slot0._list == nil then
 		return true
 	end

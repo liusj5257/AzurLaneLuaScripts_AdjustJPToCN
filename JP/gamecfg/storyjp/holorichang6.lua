@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLORICHANG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HOLORICHANG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「幻想と真実の二重奏」-日常編\n\n<size=45>六 ゲームについて</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・寮舎",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "holo-mio",
+			say = "母港・寮舎",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 900211,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900211,
+			nameColor = "#a9f548",
 			say = "なるほどね！完全に理解した！",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -95,8 +95,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "ロングアイランドちゃん、ここから自分でやるから、もう帰っても大丈夫だよ。",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "余裕余裕！似たようなゲームをやったことあるんだから！",
 			typewriter = {
@@ -142,8 +142,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -168,15 +168,15 @@ return {
 			}
 		},
 		{
-			actor = 106010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106010,
+			nameColor = "#a9f548",
 			say = "おまたせ～じゃあ続きいくよー。ってこのゲーム、幽霊さんまだ初心者なの！とにかく手を分けて探索するの！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -252,8 +252,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "不思議だね～。こっちにも同じようなゲームがあるんだね。いろんなところが似てるなー",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "そうだよ～。たとえば初期装備を王様からもらったりとかさ。",
 			typewriter = {
@@ -315,11 +315,11 @@ return {
 			}
 		},
 		{
-			actor = 106010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106010,
+			nameColor = "#a9f548",
 			say = "あ！これだー！ミオちゃん、素材を渡して～。クラフトで合体させるのー！",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -344,8 +344,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "たぶんそうだねー。違う世界でも定番ってあるんだなー。あくあちゃんが今やってるゲームも、似た感じのを知ってるし。",
 			typewriter = {
@@ -393,8 +393,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "うわーー！！ここどこ！！？どうしてここにエリートがいるのよ！！！？？？",
 			typewriter = {
@@ -407,8 +407,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -420,8 +420,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "すみません、すみません、すみません、すみません、わああああ！！",
 			typewriter = {
@@ -434,8 +434,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -447,8 +447,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "ねええええええ！！！死ぬー！！！！！",
 			typewriter = {
@@ -461,8 +461,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -490,8 +490,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "あははは、まぁ、あくあちゃんだからね。",
 			typewriter = {
@@ -507,8 +507,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "もう一回、もう一回だけ！",
 			typewriter = {
@@ -521,8 +521,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -534,8 +534,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "あくあちゃん。今日はここで終わりとしない？もう夜遅いし。",
 			typewriter = {
@@ -551,8 +551,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "え？夜ってのは、日付が変わってから始まるものじゃない？",
 			typewriter = {
@@ -600,8 +600,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "ゲームも大事だけど、健康のほうがもっと大事。健康だから楽しくゲームができるんだよー？",
 			typewriter = {
@@ -649,8 +649,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "そりゃあホロライブ「お母さんになってほしい」ランキング一位だから！ねっ、ミオママ！！",
 			typewriter = {
@@ -666,8 +666,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "どうしてあくあちゃんまでそういうこと言うかなぁ！",
 			typewriter = {
@@ -683,8 +683,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900211,
 			dir = 1,
+			actor = 900211,
 			nameColor = "#a9f548",
 			say = "ミオママ～。わたし、明日ミオママの作ったお弁当食べたーい！",
 			typewriter = {
@@ -697,8 +697,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 30,
@@ -707,11 +707,11 @@ return {
 			}
 		},
 		{
-			actor = 106010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 106010,
+			nameColor = "#a9f548",
 			say = "ミオママ、幽霊さんも～",
 			typewriter = {
 				speed = 0.05,
@@ -723,8 +723,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 30,
@@ -736,8 +736,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "……ちゃんと早くベッドに入ったら、作ってあげてもいいよ。",
 			typewriter = {
@@ -750,10 +750,10 @@ return {
 			}
 		},
 		{
-			actor = 900211,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
+			actor = 900211,
 			dir = 1,
 			hideOther = true,
 			actorName = "二人",
@@ -784,9 +784,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900215,
 			dir = 1,
 			blackBg = true,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "はぁ～、なんでママ扱いされちゃうのかな～！",
 			typewriter = {

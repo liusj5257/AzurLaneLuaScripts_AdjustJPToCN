@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"덴버의 모항 의뢰!\n\n<size=45>3. 기사도 충고가 필요해</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "의뢰서의 내용에 따라 창고에 도착했다. 찰스 오스본과 스펜스는 이미 기다리는 중이었다.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "의뢰서의 내용에 따라 창고에 도착했다. 찰스 오스본과 스펜스는 이미 기다리는 중이었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 101110,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101110,
+			nameColor = "#a9f548",
 			say = "지휘관! 덴버!",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -156,9 +156,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "오스본이 준 열쇠로 문을 열었을 때, 이곳이 부속품과 물자를 저장하는 창고였음을 알아차렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -170,9 +170,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "몇몇 포대 아래쪽에 벌레 먹은 흔적이 있었다…… 상황이 그렇게 나쁜 것 같진 않았지만, 그래도 즉시 처리하는 게 좋겠다.",
 			typewriter = {
 				speed = 0.05,
@@ -216,9 +216,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "말이 끝나기도 전에, 덴버는 기관총 부품을 집어들며, 경계 태세를 취했다.",
 			typewriter = {
 				speed = 0.05,
@@ -246,9 +246,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "요란한 소리와 함께 덴버는 검은 빛을 발하는 해충 한 마리를 빠른 속도로 없앴다.",
 			typewriter = {
 				speed = 0.05,
@@ -292,9 +292,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "이건 좋은 방법이 아니다. 해충을 상대하는 것이라면……",
 			typewriter = {
 				speed = 0.05,
@@ -306,13 +306,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "창고에서 나가 도움을 줄 \"화단\"을 찾았다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -359,9 +359,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "화단 쪽으로 와서, 무성하게 핀 꽃을 가리켰다.",
 			typewriter = {
 				speed = 0.05,
@@ -373,11 +373,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "이건…… 살충 효과가 있는 식물?",
 			typewriter = {
 				speed = 0.05,
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -399,9 +399,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "이걸로 천연 살충제를 만들어서 써보지 않을래?",
 			typewriter = {
 				speed = 0.05,
@@ -445,9 +445,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "반짝이는 눈빛의 덴버는 재빨리 꽃잎을 따며 간단한 천연 살충제 제작 준비를 했다.",
 			typewriter = {
 				speed = 0.05,

@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "幸运回避",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "回避率提升",
 	stack = 1,
@@ -23,8 +23,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRateExtra",
-				number = 0.04
+				number = 0.04,
+				attr = "dodgeRateExtra"
 			}
 		}
 	}

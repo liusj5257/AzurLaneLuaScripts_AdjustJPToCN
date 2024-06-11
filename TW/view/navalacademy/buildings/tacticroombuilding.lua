@@ -1,18 +1,18 @@
 slot0 = class("TacticRoomBuilding", import(".NavalAcademyBuilding"))
 
-function slot0.GetGameObjectName(slot0)
+slot0.GetGameObjectName = function(slot0)
 	return "tacticRoom"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("school_title_xueyuan")
 end
 
-function slot0.OnClick(slot0)
+slot0.OnClick = function(slot0)
 	slot0:emit(NavalAcademyMediator.ON_OPEN_TACTICROOM)
 end
 
-function slot0.IsTip(slot0)
+slot0.IsTip = function(slot0)
 	if #getProxy(NavalAcademyProxy):getStudents() <= 0 then
 		return false
 	end
@@ -41,7 +41,7 @@ function slot0.IsTip(slot0)
 	return false
 end
 
-function slot0.AddTimer(slot0, slot1)
+slot0.AddTimer = function(slot0, slot1)
 	slot0.timer = Timer.New(function ()
 		uv0:RefreshTip()
 	end, slot1, 1)
@@ -49,7 +49,7 @@ function slot0.AddTimer(slot0, slot1)
 	slot0.timer:Start()
 end
 
-function slot0.RemoveTimer(slot0)
+slot0.RemoveTimer = function(slot0)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -57,7 +57,7 @@ function slot0.RemoveTimer(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 	slot0:RemoveTimer()
 end

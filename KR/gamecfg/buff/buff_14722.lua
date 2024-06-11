@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "英格拉罕回复效果",
 	time = 1,
+	name = "英格拉罕回复效果",
+	init_effect = "",
 	picture = "",
 	desc = "英格拉罕回复效果",
 	stack = 1,

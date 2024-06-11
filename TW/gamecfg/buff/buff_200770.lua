@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024同盟活动 极寒 航速机动减少",
 	time = 0,
-	color = "yellow",
+	name = "2024同盟活动 极寒 航速机动减少",
+	init_effect = "",
+	id = 200770,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200770,
+	color = "yellow",
 	icon = 200770,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = -1000
+				number = -1000,
+				attr = "dodgeRate"
 			}
 		},
 		{

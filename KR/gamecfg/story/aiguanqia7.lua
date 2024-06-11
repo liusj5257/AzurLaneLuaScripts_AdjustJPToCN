@@ -1,8 +1,8 @@
 return {
-	id = "AIGUANQIA7",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA7",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 301120,
@@ -23,8 +23,8 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "가짜 키즈나 아이",
 			say = "………!",
 			typewriter = {
@@ -40,8 +40,8 @@ return {
 			expression = 1,
 			side = 0,
 			hideOther = true,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			actor = 10400010,
 			actorName = "가짜 키즈나 아이",
 			say = "―――！",
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -129,10 +129,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "투쾅~!",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -223,8 +223,8 @@ return {
 			expression = 4,
 			side = 0,
 			actor = 10400020,
-			nameColor = "#92fc63",
 			dir = 1,
+			nameColor = "#92fc63",
 			hideOther = true,
 			actorName = "키즈나 아이",
 			say = "알겠습니다! 지금의 저라면 적을 해치우는 것 정도는 식은 죽 먹기라구요!",
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 555
@@ -250,8 +250,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "키즈나 아이",
 			say = "우선 저 가짜 키즈나 아이를 해치울게요~! 으랴~~~!",
 			typewriter = {
@@ -264,8 +264,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = 2250
@@ -276,8 +276,8 @@ return {
 			actor = 401230,
 			side = 0,
 			hideOther = true,
-			nameColor = "#92fc63",
 			dir = 1,
+			nameColor = "#92fc63",
 			say = "앗, 아이상 안 돼요! 혼자서 돌진하면!",
 			typewriter = {
 				speed = 0.05,
@@ -292,8 +292,8 @@ return {
 			expression = 1,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			actorName = "가짜 키즈나 아이",
 			say = "………!！！",
 			typewriter = {
@@ -306,10 +306,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			soundeffect = "event:/battle/boom2",
 			say = "투쾅~!",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -355,8 +355,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "키즈나 아이",
 			say = "아아아아아아아아아아아아!",
 			typewriter = {
@@ -369,8 +369,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -382,8 +382,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#92fc63",
-			actor = 10400020,
 			dir = 1,
+			actor = 10400020,
 			actorName = "키즈나 아이",
 			say = "다들~! 살려줘요~~~~!!!",
 			typewriter = {
@@ -396,8 +396,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = -2250,
+					type = "move",
 					delay = 0,
 					dur = 0.5,
 					x = 0

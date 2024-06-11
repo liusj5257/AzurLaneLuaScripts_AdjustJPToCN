@@ -1,7 +1,7 @@
 slot0 = class("WWFPtPage", import(".TemplatePage.PtTemplatePage"))
 slot1 = 6000
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.helpBtn = slot0:findTF("help_btn", slot0.bg)
@@ -35,7 +35,7 @@ function slot0.OnInit(slot0)
 	slot0.guideContent = slot0:findTF("dialogBox/content", slot0.guide)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.titleTxts = {
 		i18n("wwf_bamboo_tip1"),
 		i18n("wwf_bamboo_tip2")
@@ -49,7 +49,7 @@ function slot0.OnDataSetting(slot0)
 	slot0:initLocalData()
 end
 
-function slot0.initPtData(slot0)
+slot0.initPtData = function(slot0)
 	slot0.subPtDate = {}
 
 	for slot4, slot5 in ipairs(slot0.subActivities) do
@@ -65,7 +65,7 @@ function slot0.initPtData(slot0)
 	slot0.resNum = getProxy(PlayerProxy):getRawData():getResource(slot0.resID)
 end
 
-function slot0.setPtActIndex(slot0)
+slot0.setPtActIndex = function(slot0)
 	slot0.curActIndex = slot0.lastSelectIndex
 	slot0.curSubActID = slot0.subActivities[slot0.curActIndex]
 	slot3 = slot0.subPtDate[slot0.subActivities[slot0.curActIndex == 1 and 2 or 1]]:CanGetAward()
@@ -79,13 +79,13 @@ function slot0.setPtActIndex(slot0)
 	end
 end
 
-function slot0.setStep2Progress(slot0)
+slot0.setStep2Progress = function(slot0)
 	setImageSprite(slot0.step2, slot0.heartImages:Find(tostring(slot0.curActIndex)):GetComponent(typeof(Image)).sprite)
 
 	slot0.step2:GetComponent(typeof(Image)).fillAmount = slot0.subPtDate[slot0.curSubActID].count / uv0
 end
 
-function slot0.initTaskData(slot0)
+slot0.initTaskData = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.curTask = {}
 	slot0.todoTaskNum = 0
@@ -101,7 +101,7 @@ function slot0.initTaskData(slot0)
 	end
 end
 
-function slot0.initLocalData(slot0)
+slot0.initLocalData = function(slot0)
 	slot0.playerId = getProxy(PlayerProxy):getData().id
 	slot0.isFirst = PlayerPrefs.GetInt("wwf_first_" .. slot0.playerId)
 
@@ -123,7 +123,7 @@ function slot0.initLocalData(slot0)
 	PlayerPrefs.Save()
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.awardTF, function ()
 		uv0:emit(ActivityMediator.SHOW_AWARD_WINDOW, PtAwardWindow, {
 			type = uv0.subPtDate[uv0.curSubActID].type,
@@ -147,7 +147,7 @@ function slot0.OnFirstFlush(slot0)
 			end)
 		end
 
-		function slot4()
+		slot4 = function()
 			if not uv0.subPtDate[uv0.curSubActID]:CanGetNextAward() then
 				triggerButton(uv0.switchBtn)
 			end
@@ -274,7 +274,7 @@ function slot0.OnFirstFlush(slot0)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	for slot4, slot5 in ipairs(slot0.subActivities) do
 		slot6 = getProxy(ActivityProxy):getActivityById(slot5)
 
@@ -294,7 +294,7 @@ function slot0.OnUpdateFlush(slot0)
 	GetOrAddComponent(slot0.paintings[slot0.curActIndex == 1 and 2 or 1], typeof(CanvasGroup)).alpha = 0
 end
 
-function slot0.OnUpdatePtAct(slot0)
+slot0.OnUpdatePtAct = function(slot0)
 	setText(slot0.title, slot0.titleTxts[slot0.curActIndex])
 	eachChild(slot0.tags, function (slot0)
 		setActive(slot0, tonumber(slot0.name) == uv0.curActIndex)
@@ -321,7 +321,7 @@ function slot0.OnUpdatePtAct(slot0)
 	setActive(slot0.taskRedDot, slot0.showTaskRedDot and not slot0.hasClickTask)
 end
 
-function slot0.playPaintingAni(slot0)
+slot0.playPaintingAni = function(slot0)
 	slot0.isSwitching = true
 	slot4 = slot0.paintings[slot0.curActIndex == 1 and 2 or 1]
 	slot5 = GetOrAddComponent(slot0.paintings[slot0.curActIndex], typeof(CanvasGroup))
@@ -338,7 +338,7 @@ function slot0.playPaintingAni(slot0)
 	end))
 end
 
-function slot0.playSpineAni(slot0)
+slot0.playSpineAni = function(slot0)
 	setActive(slot0.anim, true)
 
 	slot2 = slot0:findTF("panda_anim", slot0.anim)
@@ -352,7 +352,7 @@ function slot0.playSpineAni(slot0)
 		uv0.alpha = slot0
 	end))
 
-	function slot5()
+	slot5 = function()
 		LeanTween.value(go(uv0), 1, 0, uv1):setOnUpdate(System.Action_float(function (slot0)
 			uv0.alpha = slot0
 		end))
@@ -402,7 +402,7 @@ function slot0.playSpineAni(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.initTaskWindow(slot0)
+slot0.initTaskWindow = function(slot0)
 	slot0.finishItemList = {}
 	slot0.finishTaskVOList = {}
 
@@ -453,11 +453,11 @@ function slot0.initTaskWindow(slot0)
 	setActive(slot0.taskWindow, false)
 end
 
-function slot0.closeTask(slot0)
+slot0.closeTask = function(slot0)
 	setActive(slot0.taskWindow, false)
 end
 
-function slot0.openTask(slot0)
+slot0.openTask = function(slot0)
 	if not slot0.curSubActID then
 		slot0:setPtActIndex()
 		slot0:setStep2Progress()
@@ -479,7 +479,7 @@ function slot0.openTask(slot0)
 	end)
 end
 
-function slot0.autoFinishTask(slot0)
+slot0.autoFinishTask = function(slot0)
 	slot1 = 0.01
 	slot2 = 0.5
 
@@ -514,7 +514,7 @@ function slot0.autoFinishTask(slot0)
 	end, slot1, nil)
 end
 
-function slot0.canFinishTask(slot0, slot1)
+slot0.canFinishTask = function(slot0, slot1)
 	slot2 = false
 
 	for slot6, slot7 in pairs(slot0) do
@@ -528,7 +528,7 @@ function slot0.canFinishTask(slot0, slot1)
 	return slot2
 end
 
-function slot0.canAddProgress(slot0, slot1)
+slot0.canAddProgress = function(slot0, slot1)
 	slot2 = false
 
 	for slot6, slot7 in pairs(slot1) do
@@ -544,7 +544,7 @@ function slot0.canAddProgress(slot0, slot1)
 	return slot2
 end
 
-function slot0.canGetPtAward(slot0)
+slot0.canGetPtAward = function(slot0)
 	slot1 = false
 
 	for slot5, slot6 in pairs(slot0) do
@@ -558,7 +558,7 @@ function slot0.canGetPtAward(slot0)
 	return slot1
 end
 
-function slot0.isFinishAllAct(slot0)
+slot0.isFinishAllAct = function(slot0)
 	slot1 = true
 
 	for slot5, slot6 in pairs(slot0.subPtDate) do
@@ -572,7 +572,7 @@ function slot0.isFinishAllAct(slot0)
 	return slot1
 end
 
-function slot0.isNewTask(slot0)
+slot0.isNewTask = function(slot0)
 	if PlayerPrefs.GetInt("wwf_todo_task_num_" .. getProxy(PlayerProxy):getData().id) == 0 and not slot0 == 0 or slot2 < slot0 then
 		return true
 	else
@@ -580,7 +580,7 @@ function slot0.isNewTask(slot0)
 	end
 end
 
-function slot0.IsShowRed()
+slot0.IsShowRed = function()
 	slot0 = pg.activity_template[ActivityConst.WWF_TASK_ID]
 	slot1 = slot0.config_client.convertRes
 	slot3 = slot0.config_data
@@ -634,7 +634,7 @@ function slot0.IsShowRed()
 	return false
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.prefab1 and slot0.model1 then
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.prefab1, slot0.model1)
 

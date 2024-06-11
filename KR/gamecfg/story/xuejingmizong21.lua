@@ -4,23 +4,23 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -42,24 +42,24 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-vichy-church",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "생각대로 클레망소는 즉시 심판정 시설 '징용'에 동의해 주었다.",
-			bgm = "theme-vichy-church",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "새러토가와의 통신을 마치고 지휘 센터에 도착하자, 이글 유니온·노스 유니온과의 지휘계통 확립이 완료되어 있었다.",
@@ -85,10 +85,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "지휘관이 도중에 연락한 대로 새러토가 함대와 소유즈 함대의 합류 경로를 다시 설정했어.",
 			painting = {
 				alpha = 0.3,
@@ -103,10 +103,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "과학 기지 철수 작업도 동시 진행 중이야. 지금으로서는 순조로워.",
 			painting = {
 				alpha = 0.3,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			say = "클레망소의 박수 소리가 들렸다.",
@@ -144,10 +144,10 @@ return {
 			portrait = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			dir = 1,
 			actorName = "클레망소",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "유로파에 있으면서 수천킬로미터 떨어진 곳의 승패를 결정짓다니…",
 			painting = {
 				alpha = 0.3,
@@ -162,10 +162,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "역시 우리 지휘관 다운 그 카리스마… 잘 감상했어. 후후, 평화로운 시대가 오면 정치가로 전직해도 정상에 오를 수 있겠네.",
 			painting = {
 				alpha = 0.3,
@@ -216,10 +216,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래, 요청한 대로 비밀 회선을 준비했어. 사실 그걸 전달하려고 온 거야.",
 			painting = {
 				alpha = 0.3,
@@ -234,10 +234,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "심판정에서 가장 비밀스러운 방으로 안내할게. 거기라면 무슨 말을 해도 엿들을 수 있는 사람은 없을 거야.",
 			painting = {
 				alpha = 0.3,
@@ -264,10 +264,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "후후후, 글쎄♪",
 			painting = {
 				alpha = 0.3,
@@ -282,10 +282,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "비스마르크는 이미 대기 중인데, 궁금하면 시간을 좀 바꾸라고 할까?",
 			painting = {
 				alpha = 0.3,
@@ -312,10 +312,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "좋아, 그럼 날 따라와.",
 			painting = {
 				alpha = 0.3,
@@ -327,28 +327,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_guild_blue",
+			bgm = "story-commander-up",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "심판정 본부, 시크릿룸",
-			bgm = "story-commander-up",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -378,10 +378,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "표면상의 협의에서 얼굴을 마주치긴 했지만, 너도 알다시피…",
 			painting = {
 				alpha = 0.3,
@@ -415,10 +415,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그나저나 이 회선을 일부러 선택할 줄은 몰랐군.",
 			painting = {
 				alpha = 0.3,
@@ -464,10 +464,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래, 남극 대륙에서의 정보 공유와 협력 요청뿐이었어. 나머지는 알아서 짐작하라는 투로 말하더군.",
 			painting = {
 				alpha = 0.3,
@@ -524,9 +524,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_guild_blue",
 			paintingNoise = true,
-			dir = 1,
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -540,17 +540,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -613,10 +613,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "프리드리히가 그렇게 평소에 칭찬을 하더니만, 역시나였군. 후후후…",
 			painting = {
 				alpha = 0.3,
@@ -765,10 +765,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그럼 이렇게 하는 건 어때?",
 			painting = {
 				alpha = 0.3,
@@ -895,10 +895,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……고마워. 그럼 이만…",
 			painting = {
 				alpha = 0.3,
@@ -910,28 +910,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
+			bgm = "theme-vichy-church",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "심판정 시설, 복도",
-			bgm = "theme-vichy-church",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -942,10 +942,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어머, 생각보다 빨리 끝난 모양이네.",
 			painting = {
 				alpha = 0.3,
@@ -960,10 +960,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "순조롭게 진행되었나봐? 역시 지휘관이야.",
 			painting = {
 				alpha = 0.3,
@@ -975,12 +975,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "설마 비스마르크에게… '그런 것'까지 부탁할 줄은 몰랐어♪",
 			painting = {
 				alpha = 0.3,
@@ -1043,10 +1043,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "농담은 이 정도로 하고, 로열 네이비 함대와의 통신도 연결했어.",
 			painting = {
 				alpha = 0.3,
@@ -1061,10 +1061,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그쪽에서도 드로이드의 출현을 짐작한 모양인데, 아직 어떻게 해야 할 지 난감한 모양이더라.",
 			painting = {
 				alpha = 0.3,
@@ -1076,12 +1076,12 @@ return {
 			}
 		},
 		{
-			actor = 905020,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 905020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "혹시 세계박람회 건으로 트라우마라도 생긴 걸까?",
 			painting = {
 				alpha = 0.3,
@@ -1096,10 +1096,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "안심시켜 주는 게 어때? 지휘관님♪",
 			painting = {
 				alpha = 0.3,
@@ -1114,10 +1114,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "'남극 조약'을 행사해도 괜찮을걸?",
 			painting = {
 				alpha = 0.3,
@@ -1132,10 +1132,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"벽람항로의 지휘관으로서 남극해와 남극 대륙에서의 권한은 무제한이므로…\"",
 			painting = {
 				alpha = 0.3,
@@ -1150,10 +1150,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"당신 쪽 함대의 전술 지휘권을 지금 당장 이쪽으로 이양 받고, 작전 종료까지 당신 쪽 함대는 우리 휘하 전력 중 하나로 삼겠다.\"",
 			painting = {
 				alpha = 0.3,
@@ -1168,10 +1168,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이렇게 말이야. 조금 강경하기는 하지만, 내가 연락해도 상관없지?",
 			painting = {
 				alpha = 0.3,
@@ -1198,10 +1198,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어머, 아쉽네~♪",
 			painting = {
 				alpha = 0.3,

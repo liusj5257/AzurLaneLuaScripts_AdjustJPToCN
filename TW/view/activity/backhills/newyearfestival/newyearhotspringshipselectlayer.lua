@@ -1,11 +1,11 @@
 slot0 = class("NewYearHotSpringShipSelectLayer", import("view.base.BaseUI"))
 slot1 = import(".NewYearHotSpringFormationCard")
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewYearHotSpringShipSelectUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.counterTxt = slot0:findTF("frame/top/value/Text"):GetComponent(typeof(Text))
 	slot0.cardContainer = slot0:findTF("frame/panel")
 	slot0.mainPanel = slot0:findTF("frame")
@@ -23,17 +23,17 @@ function slot0.init(slot0)
 	setText(slot0:findTF("frame/desc"), i18n("hotspring_tip1"))
 end
 
-function slot0.SetActivity(slot0, slot1)
+slot0.SetActivity = function(slot0, slot1)
 	slot0.activity = slot1
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0._tf:Find("BG"):SetSiblingIndex(0)
 	onButton(slot0, slot0._tf:Find("BG"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_PANEL)
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		setActive(uv0:findTF("frame/panel/ArrowRight"), slot0.x < 0.01)
 		setActive(uv0:findTF("frame/panel/ArrowLeft"), slot0.x > 0.99)
 	end
@@ -48,7 +48,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateSlots()
 end
 
-function slot0.UpdateSlots(slot0)
+slot0.UpdateSlots = function(slot0)
 	slot1 = slot0.activity
 
 	slot0:CleanCards()
@@ -66,7 +66,7 @@ function slot0.UpdateSlots(slot0)
 	slot0.counterTxt.text = 0 .. "/" .. 0
 end
 
-function slot0.AddCard(slot0, slot1, slot2, slot3)
+slot0.AddCard = function(slot0, slot1, slot2, slot3)
 	slot4 = nil
 
 	if slot2 == 0 and slot3 then
@@ -146,7 +146,7 @@ function slot0.AddCard(slot0, slot1, slot2, slot3)
 	setActive(slot4, true)
 end
 
-function slot0.CleanCards(slot0)
+slot0.CleanCards = function(slot0)
 	_.each(slot0.shipCards, function (slot0)
 		slot0.longpressedTigger.onLongPressed:RemoveAllListeners()
 		slot0.info:clear()
@@ -157,7 +157,7 @@ function slot0.CleanCards(slot0)
 	removeAllChildren(slot0.cardContainer)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	slot0:CleanCards()
 end

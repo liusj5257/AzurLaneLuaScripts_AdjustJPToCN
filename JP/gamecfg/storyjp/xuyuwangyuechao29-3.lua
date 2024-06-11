@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO29-3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO29-3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			dir = 1,
 			blackBg = true,
 			bgm = "story-unzen-heart",
 			actor = 399010,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			hidePaintObj = true,
 			say = "雲仙さん……！",
 			painting = {
@@ -25,17 +25,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -43,12 +43,12 @@ return {
 			}
 		},
 		{
-			actor = 399010,
 			side = 2,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 399010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "伊吹、撤退します…！",
 			painting = {
 				alpha = 0.3,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "伊吹がいた場所に瞬く間に闇靄の軍勢が覆った。",
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "周りにはもう誰もいない。",
@@ -85,17 +85,17 @@ return {
 			bgName = "bg_yunxian_cg4",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
 			say = "「穢れの影」――闇靄が凝華した魔獣がまるでカミのように、海より近づいてくる矮小な存在を睨みつける。",
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
 			say = "空回り。徒労。無駄。無意味。無価値。報われない。",
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -149,8 +149,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
 			say = "空回り。徒労。無駄。無意味。無価値。報われない。",
@@ -160,12 +160,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "無駄などではありません",
 			painting = {
 				alpha = 0.3,
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -213,8 +213,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -267,8 +267,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
 			say = "空回り。徒労。無駄。無意味。無価値。報われない。",
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -314,8 +314,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -350,8 +350,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -368,8 +368,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -422,8 +422,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,
@@ -440,8 +440,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "雲仙",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "ワタツミの心",
 			dir = 1,

@@ -1,7 +1,7 @@
 slot0 = class("EnemyNavigator", import("view.miniGame.gameView.RyzaMiniGame.character.MoveEnemy"))
 slot0.SkillDistance = 7
 
-function slot0.InitUI(slot0, slot1)
+slot0.InitUI = function(slot0, slot1)
 	uv0.super.InitUI(slot0, slot1)
 
 	slot0.hp = slot1.hp or 2
@@ -17,7 +17,7 @@ slot1 = {
 	y = "x"
 }
 
-function slot0.TimeUpdate(slot0, slot1)
+slot0.TimeUpdate = function(slot0, slot1)
 	if slot0.skillDis > 0 then
 		slot4 = slot0.realPos - slot0.pos
 		slot5, slot6 = nil
@@ -34,7 +34,7 @@ function slot0.TimeUpdate(slot0, slot1)
 		slot7 = true
 		slot8 = {}
 
-		function slot9(slot0)
+		slot9 = function(slot0)
 			slot1, slot2 = uv0.responder:GetCellPassability(slot0)
 
 			if not slot1 then
@@ -84,9 +84,9 @@ end
 
 slot2 = {
 	["0_1"] = "S",
-	["1_0"] = "E",
+	["0_-1"] = "N",
 	["-1_0"] = "W",
-	["0_-1"] = "N"
+	["1_0"] = "E"
 }
 slot3 = {
 	S = {
@@ -107,7 +107,7 @@ slot3 = {
 	}
 }
 
-function slot0.TimeTrigger(slot0, slot1)
+slot0.TimeTrigger = function(slot0, slot1)
 	uv0.super.TimeTrigger(slot0, slot1)
 
 	slot0.skillCD = slot0.skillCD - slot1

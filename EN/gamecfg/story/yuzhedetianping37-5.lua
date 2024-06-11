@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING37-5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING37-5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
+			bgm = "story-thehierophantV",
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			soundeffect = "event:/battle/boom2",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "BOOOOM!",
-			bgm = "story-thehierophantV",
 			flashN = {
 				color = {
 					1,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "Less-affected and recovering shipgirls fired their weapons as much as they could at the Hierophant.",
@@ -74,10 +74,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The Hierophant is charging at the Commander!",
 			painting = {
 				alpha = 0.3,
@@ -92,10 +92,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 107090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "We have to stop her, and fast!",
 			painting = {
 				alpha = 0.3,
@@ -107,8 +107,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "Like a deity parting the waters, the Hierophant shrugged aside even the densest barrage of cannon fire, not even slowing down in the slightest.",
@@ -118,8 +118,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "I saw her shadow cover my entire being, her wand bearing down on me––",
@@ -151,10 +151,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a020f0",
 			actor = 9702020,
+			nameColor = "#a020f0",
+			hidePaintObj = true,
 			say = "Helena, what are you waiting for?!",
 			painting = {
 				alpha = 0.3,
@@ -197,8 +197,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "As the Hierophant's wand came down, my vision was engulfed by the radiant web of lights coming from the drones surrounding her.",
@@ -223,8 +223,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "I could not see. I could not feel. There was only light.",
@@ -234,13 +234,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
 			side = 2,
 			bgName = "bg_underheaven_cg10",
+			stopbgm = true,
+			dialogueBgAlpha = 0.6,
+			bgm = "theme-thetowerXVI",
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#A9F548FF",
-			bgm = "theme-thetowerXVI",
-			stopbgm = true,
 			hidePaintObj = true,
 			say = "BOOOOM!",
 			flashN = {
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg10",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg10",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -330,8 +330,8 @@ return {
 			expression = 2,
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			bgName = "star_level_bg_504",
 			actor = 9702010,
 			nameColor = "#ffa500",
@@ -346,8 +346,8 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -700,10 +700,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
+			bgName = "star_level_bg_504",
 			actor = 605010,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_504",
+			hidePaintObj = true,
 			say = "We hardly have to aim at her giant rigging, too.",
 			typewriter = {
 				speed = 0.05,
@@ -714,10 +714,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
+			bgName = "star_level_bg_504",
 			actor = 605010,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_504",
+			hidePaintObj = true,
 			say = "Though, it remains to be seen how effective our attacks are going to be...",
 			typewriter = {
 				speed = 0.05,
@@ -744,8 +744,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -756,8 +756,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -768,8 +768,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -780,8 +780,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -792,8 +792,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -804,8 +804,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
@@ -816,14 +816,14 @@ return {
 			}
 		},
 		{
-			actor = 900357,
 			nameColor = "#BDBDBD",
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			stopbgm = true,
 			side = 2,
-			say = "▅■split▆▅",
+			bgName = "star_level_bg_504",
 			bgm = "theme-threat-typeV",
+			actor = 900357,
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "▅■split▆▅",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,8 +836,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -883,8 +883,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "The Hierophant suddenly accelerated, unburdened by her rigging",
@@ -909,8 +909,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "At lightning speed, faster than the other shipgirls could react, she arrived above the command ship. Nobody could stop her now—",
@@ -920,8 +920,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "—save for Shinano, who was on the deck of the same ship.",
@@ -934,11 +934,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			soundeffect = "event:/ui/fengling",
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "This one won't let you...!",
-			soundeffect = "event:/ui/fengling",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -949,15 +949,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_504",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_504",
 			say = "In the next moment, I heard the sound of windchimes.",
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -970,12 +970,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_504",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "BOOOOM!",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -1039,8 +1039,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "This one's attack... struck...?",
 			painting = {
@@ -1053,8 +1053,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "The echoes of the windchimes continued to linger in my ears, unlike the ephemeral tones I had heard in my dreams before.",
@@ -1064,8 +1064,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "Whereas nothing had been able to reach the Hierophant before, she was pushed back for the first time by the machine guns from Shinano's aircraft.",
@@ -1078,8 +1078,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "In that case... Let us see how you like this...!",
 			painting = {
@@ -1107,8 +1107,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			say = "The Hierophant split in two...?! No! Commander!!",
 			painting = {
@@ -1121,8 +1121,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "Her shadow detached from her and formed a second copy that seemed to move with its own consciousness.",
@@ -1132,8 +1132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			say = "The newly-born Hierophant slipped through the wall until she came face-to-face with me.",
@@ -1145,8 +1145,8 @@ return {
 		{
 			actor = 900357,
 			side = 2,
-			nameColor = "#BDBDBD",
 			hidePaintObj = true,
+			nameColor = "#BDBDBD",
 			blackBg = true,
 			say = "▅■clone▆▅",
 			typewriter = {
@@ -1154,8 +1154,8 @@ return {
 				speedUp = 0.01
 			},
 			flashin = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					1,
 					0
@@ -1175,8 +1175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "An immense force violently sweeps my consciousness away, and I feel myself sinking deep into darkness.",

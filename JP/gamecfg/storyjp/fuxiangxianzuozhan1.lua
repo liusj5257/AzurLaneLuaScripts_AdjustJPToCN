@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "タラント港にて",
 			side = 2,
 			bgName = "bg_port_talantuo",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-italy",
+			say = "タラント港にて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "なるほど…つまり我々サディア艦隊を鉄血の基地に「見学」として招待してくれるってわけか？",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "これはまた、微妙なタイミングに誘ってくれたものね…",
 			typewriter = {
@@ -109,8 +109,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "しかし、この基地の場所…よく見たら昔セイレーンに落とされた場所じゃない。奪還したのかしら？",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "しかし、いくら私がヴェネトより適任だろうと、総旗艦が易々とサディア…地中海から離れるわけにはいかないね",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "………では、こちらは代表を立てて向かわせるとしよう",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "それなら心配ない。「見学」で知ったことを一切口外しない子であると保証しよう",
 			typewriter = {
@@ -270,15 +270,15 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "bg_guild_red",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 601020,
+			nameColor = "#a9f548",
 			say = "カラビニエ―レ、入ります！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -303,8 +303,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "リットリオ様、何かご指示が？",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "ああ、よく聞いてくれたまえカラビニエ―レ、あなたに重要な任務を――",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「座標設定、完了」</size>",
@@ -385,8 +385,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

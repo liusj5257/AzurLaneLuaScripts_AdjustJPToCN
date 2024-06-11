@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD506A",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD506A",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900227,
 			stopbgm = true,
-			bgName = "bg_burningsea_1",
+			side = 2,
 			actorName = "엔터프라이즈·META",
 			dir = 1,
-			side = 2,
+			bgName = "bg_burningsea_1",
+			actor = 900227,
 			nameColor = "#ffa500",
 			say = "내가 누군지 알아보겠어?",
 			flashin = {
@@ -52,8 +52,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "엔터프라이즈·META",
 			say = "보아하니 정신은 그런대로 정상인 것 같다. 본론만 말하지, 현재 전황은 어떠한가?",
 			typewriter = {
@@ -97,11 +97,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "엔터프라이즈·META",
 			say = "역시 이곳에서는 세이렌의 마지막 숙청까지 진행된 건가…",
 			typewriter = {
@@ -114,11 +114,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "엔터프라이즈·META",
 			say = "복수를 원해?",
 			typewriter = {
@@ -203,11 +203,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "엔터프라이즈·META",
 			say = "하, 당신은 아직 당신이 가지고 있는 힘을 잘 모르는군.",
 			typewriter = {
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "엔터프라이즈·META",
 			say = "횃불은 비록 꺼졌지만, 잔불은 아직 남아 있다.",
 			typewriter = {
@@ -237,11 +237,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "엔터프라이즈·META",
 			say = "다시 소개하자면, 나는 엔터프라이즈. 하지만 당신이 알고 있는 엔터프라이즈는 아니다. 아크로열, 잔불에 들어오겠나?",
 			typewriter = {
@@ -254,15 +254,15 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "주인님, 깨어나셨군요. 좀 괜찮아지신 것 같나요?",
 			dir = 1,
 			bgm = "main-arbitrationsystem-theme",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "주인님, 깨어나셨군요. 좀 괜찮아지신 것 같나요?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -287,8 +287,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "어지럽고 메스꺼워… 우리 지금...",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "특이점의 내부 공간…... 악몽의 바다처럼 보이는데…...",
 			typewriter = {
 				speed = 0.05,
@@ -385,12 +385,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "함대 내부에 뭔가 부족한 것 같은데…… 맞다, 네비게이터는?",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "또 네비게이터 시스템에 대한 원인불명의 교란이라...",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "그럼 좀 부탁해. 난 휴식이 좀 더 필요할 것 같아...",
 			typewriter = {
 				speed = 0.05,

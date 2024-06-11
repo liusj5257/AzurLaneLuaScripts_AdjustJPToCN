@@ -72,12 +72,12 @@ return {
 	desc_get = "每10秒有20.0%(满级40.0%)几率触发，自身机动上升30.0%(满级60.0%)，持续8秒",
 	name = "水上狂飙",
 	init_effect = "",
+	id = 10020,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "每10秒有$1几率触发，自身机动上升$2，持续8秒",
 	stack = 1,
-	id = 10020,
+	color = "blue",
 	icon = 10020,
 	last_effect = "",
 	effect_list = {
@@ -88,8 +88,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 10021,
-				time = 10,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 10
 			}
 		}
 	}

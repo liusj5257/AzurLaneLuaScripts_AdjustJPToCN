@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0.1,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "概率触发器",
 	stack = 1,
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				rant = 1000,
-				target = "TargetSelf",
-				skill_id = 200026
+				skill_id = 200026,
+				target = "TargetSelf"
 			}
 		}
 	}

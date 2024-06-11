@@ -8,13 +8,13 @@ return {
 	},
 	scripts = {
 		{
-			tbActor = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
 			bgm = "qe-ova-12",
+			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "{tb}、ほかに何かTBにできることはありますか？肩揉みとか…",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -52,14 +52,14 @@ return {
 			}
 		},
 		{
-			actor = 1101,
 			nameColor = "#A9F548FF",
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			actorName = "TB",
 			side = 2,
-			say = "でも宿題も家事も元々TBがやるべきことですよね…ええと、肩揉みが必要ないんでしたら…そうですね…",
+			bgName = "bg_project_tb_room3",
 			tbActor = true,
+			actor = 1101,
+			actorName = "TB",
+			hidePaintObj = true,
+			say = "でも宿題も家事も元々TBがやるべきことですよね…ええと、肩揉みが必要ないんでしたら…そうですね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,10 +69,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "そうだ、夕飯はTBに作らせてもらえませんか？食材は…あまり余ってませんから、栄養の足しに目玉焼きも作っておきます！",
 			typewriter = {
@@ -96,10 +96,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "え？でも……",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "昔TBが「目玉焼き」を作ったときの記憶が強烈すぎた…",
@@ -134,10 +134,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "むぅ。夕飯の後は明日の朝まで、TBもう相手しませんから",
 			typewriter = {
@@ -149,10 +149,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "（小声）今は…ちゃんと作れるのに……",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "宣言通り、夕飯後TBは本当にむっとして口をきいてくれなかった。はぁ、年頃の子は難しい…",

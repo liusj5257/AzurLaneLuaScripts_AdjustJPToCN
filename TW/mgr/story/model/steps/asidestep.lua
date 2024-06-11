@@ -6,7 +6,7 @@ slot0.ASIDE_TYPE_CENTERWITHFRAME = 4
 slot0.SHOW_MODE_DEFAUT = 1
 slot0.SHOW_MODE_BUBBLE = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.sequence = slot1.sequence
@@ -28,15 +28,15 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.GetMode(slot0)
+slot0.GetMode = function(slot0)
 	return Story.MODE_ASIDE
 end
 
-function slot0.GetTypewriterSpeed(slot0)
+slot0.GetTypewriterSpeed = function(slot0)
 	return slot0.typewriterSpeed or 0.1
 end
 
-function slot0.GetSequence(slot0)
+slot0.GetSequence = function(slot0)
 	slot1 = {}
 	slot2 = ipairs
 	slot3 = slot0.sequence or {}
@@ -51,35 +51,35 @@ function slot0.GetSequence(slot0)
 	return slot1
 end
 
-function slot0.GetAsideType(slot0)
+slot0.GetAsideType = function(slot0)
 	return slot0.asideType
 end
 
-function slot0.GetDateSign(slot0)
+slot0.GetDateSign = function(slot0)
 	return slot0.signDate
 end
 
-function slot0.GetShowMode(slot0)
+slot0.GetShowMode = function(slot0)
 	return slot0.showMode
 end
 
-function slot0.ShouldHideBGAlpha(slot0)
+slot0.ShouldHideBGAlpha = function(slot0)
 	return slot0.hideBgAlpha
 end
 
-function slot0.ShouldUpdateSpacing(slot0)
+slot0.ShouldUpdateSpacing = function(slot0)
 	return slot0.spacing ~= nil
 end
 
-function slot0.GetSpacing(slot0)
+slot0.GetSpacing = function(slot0)
 	return slot0.spacing
 end
 
-function slot0.ShouldUpdatePadding(slot0)
+slot0.ShouldUpdatePadding = function(slot0)
 	return slot0.rectOffset ~= nil
 end
 
-function slot0.GetPadding(slot0)
+slot0.GetPadding = function(slot0)
 	return slot0.rectOffset[1] or 0, slot1[2] or 0, slot1[3] or 0, slot1[4] or 0
 end
 

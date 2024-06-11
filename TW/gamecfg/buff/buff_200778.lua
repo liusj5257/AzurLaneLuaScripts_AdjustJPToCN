@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024同盟活动D 指挥通讯网络",
 	time = 20,
-	color = "yellow",
+	name = "2024同盟活动D 指挥通讯网络",
+	init_effect = "",
+	id = 200778,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200778,
+	color = "yellow",
 	icon = 200778,
 	last_effect = "",
 	effect_list = {
@@ -16,9 +16,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200777,
 				target = "TargetSelf",
 				time = 12,
-				skill_id = 200777,
 				streakRange = {
 					0,
 					2
@@ -31,9 +31,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200778,
 				target = "TargetSelf",
 				time = 12,
-				skill_id = 200778,
 				streakRange = {
 					2,
 					4
@@ -46,9 +46,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 200779,
 				target = "TargetSelf",
 				time = 12,
-				skill_id = 200779,
 				streakRange = {
 					4,
 					6

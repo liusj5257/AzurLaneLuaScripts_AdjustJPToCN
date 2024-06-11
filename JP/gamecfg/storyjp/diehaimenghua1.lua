@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>重桜の神石【ワタツミ】を祀る儀式が無事終了した。</size>",
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -46,14 +46,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "嗚呼…永らく世界を観るだけの妾（わたし）にも、再びこの手で万物と触れ合える契機が…",
 			bgm = "bsm-2",
+			actor = 307080,
+			nameColor = "#a9f548",
+			say = "嗚呼…永らく世界を観るだけの妾（わたし）にも、再びこの手で万物と触れ合える契機が…",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "期待と、希望による具現は、まだ、無力……",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "嗚呼、妾が観た定めは、この光景にあらずと申すか…",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "もしくは、この困惑と、おぼろげな光景もまた、定めだと……",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "……妾は空母「信濃」。この身が具現化された以上、いかに定めに翻弄されようと、重桜を支えるのが妾の使命――",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "御狐様が眠りになられた桜は既に枯れ、ワタツミもまた、危機に瀕していた、と…",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "妾が観る夢もまた、喧騒と混沌に満ち溢れようとしていた…嗚呼、永く安眠が、妨げられるほど…",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "妾が観る夢は、「定め」……いつしか起きる、必至なる運命の兆し……",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "例え抗えぬとも、せめて、仲間を救う努力は……",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "どんなに小さく、儚く、一瞬にして消え去る夢の刹那、カケラだろうと……",
 			typewriter = {
@@ -251,12 +251,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			nameColor = "#a9f548",
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			actor = 307080,
-			stopbgm = true,
+			nameColor = "#a9f548",
 			say = "拾い集めれば、きっと……",
 			typewriter = {
 				speed = 0.05,

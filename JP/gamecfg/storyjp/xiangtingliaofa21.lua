@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA21",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA21",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-4",
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "よし、これで最後ね",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,10 +26,10 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			say = "バミューダの悪天候での作戦データも多く取れましたね。あとで分析しておかないと…",
+			dir = 1,
 			actor = 107380,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "バミューダの悪天候での作戦データも多く取れましたね。あとで分析しておかないと…",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -77,8 +77,8 @@ return {
 			actor = 107380,
 			side = 0,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "しかもその嵐は数日続いたと記録にはありました。よほど腕利きの探検家でなければ、そんなに大きな嵐を凌ぐなんて無理でしょう",
 			typewriter = {
 				speed = 0.05,
@@ -92,9 +92,9 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			dir = 1,
 			actor = 107090,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "……もしかして、セイレーンって数百年前からこの海域に潜んでいたの！？",
 			typewriter = {
 				speed = 0.05,
@@ -106,8 +106,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -164,8 +164,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "大規模な異常現象を起こす「特異点」、蜃気楼のように幻の風景を映し出す「鏡面海域」、そして海洋生物の姿形をした上位個体の艤装――",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "セイレーンって、一体どのような存在なのか……",
 			typewriter = {
 				speed = 0.05,

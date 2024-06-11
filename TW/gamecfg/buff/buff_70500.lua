@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "装填提高",
 	init_effect = "",
-	color = "red",
+	id = 70500,
+	time = 0,
 	picture = "",
 	desc = "装填提高50%",
 	stack = 1,
-	id = 70500,
+	color = "red",
 	icon = 70500,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 5000
+				number = 5000,
+				attr = "loadSpeed"
 			}
 		}
 	}

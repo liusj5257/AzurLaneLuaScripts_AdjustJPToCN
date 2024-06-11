@@ -1,15 +1,15 @@
 return {
-	id = "HOLOGUANQIA24",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA24",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "holo-fff-inst",
 			say = "翌日",
+			side = 2,
+			dir = 1,
+			bgm = "holo-fff-inst",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,11 +35,11 @@ return {
 			}
 		},
 		{
-			actor = 10500050,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 10500050,
 			dir = 1,
+			hideOther = true,
 			actorName = "卍組",
 			say = "はい、ニーミ先生！",
 			subActors = {
@@ -69,8 +69,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "はい、ニーミ先生！",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち？",
 			dir = 1,
+			actorName = "ピュリっち？",
 			say = "んー、みんな色々なところに行ったけどさぁ、やっぱり鏡面海域の謎を解きたいならその鏡面海域の「一番大事な場所」に行けばいいんじゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -128,8 +128,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち？",
 			dir = 1,
+			actor = 900021,
+			actorName = "ピュリっち？",
 			say = "そうよ。海域の中心じゃなくて、「鏡面海域」という「概念」の中心ね。なんとなくそう思うけど",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -182,8 +182,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "「ホロサーバー」の「概念」の中心……もしかして「ホロライブ本社」？私たち、みんな「ホロライブ」所属だもんね",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500060,
 			dir = 1,
+			actor = 10500060,
 			say = "その代わり昨日までなかった巨大迷宮が見つかったわ",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "みんなの好意には感謝するけど、私にも前線に行かせて",
 			typewriter = {
 				speed = 0.05,
@@ -335,8 +335,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500070,
 			dir = 1,
+			actor = 10500070,
 			say = "うち、うちもフブキと一緒に行く！迷宮を作ったのはうちだから、トラップに詳しいの。案内はうちに任せて！",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500030,
 			dir = 1,
+			actor = 10500030,
 			say = "じゃあーー",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10500030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "うう、レジスタンス隊長の名にかけて、一番早く本社ビルを見つけ出そうと思ってんのに",
 			typewriter = {
 				speed = 0.05,
@@ -410,8 +410,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10500020,
 			dir = 1,
+			actor = 10500020,
 			say = "まあまあ、裏方での応援も大事だよ。あくあちゃん",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち？",
 			dir = 1,
+			actorName = "ピュリっち？",
 			say = "（ピュリっち　は　キラキラ　している！）",
 			typewriter = {
 				speed = 0.05,
@@ -497,11 +497,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリっち？",
 			dir = 1,
+			actor = 900021,
+			actorName = "ピュリっち？",
 			say = "しょぼーん……",
 			typewriter = {
 				speed = 0.05,
@@ -513,8 +513,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -538,10 +538,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "全員",
+			side = 2,
 			dir = 1,
+			actorName = "全員",
 			say = "おお！",
 			dialogShake = {
 				speed = 0.09,

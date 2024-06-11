@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Another Leader?\n\n<size=45>Chapter 7 - Heart's Desire</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Royal Navy Dorms",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Royal Navy Dorms",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "One day, King George V asked me to prepare supper at the Royal Navy dorms — my biggest test yet since I started to learn how to cook for her sake.",
 			typewriter = {
 				speed = 0.05,
@@ -76,11 +76,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
 			withoutActorName = true,
-			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "Hood sized up my cooking, before bringing a bite to her mouth elegantly.",
 			typewriter = {
@@ -112,10 +112,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "Hood, I must offer you my gratitude.",
+			dir = 1,
+			actor = 205050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -210,11 +210,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "Yes, it's well suited for you.",
 			typewriter = {
 				speed = 0.05,
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -40,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 0,
@@ -236,9 +236,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "Indeed, it wasn't only our relationship that improved. When word spread that I had been cooking for her, she seemed much more approachable and relatable in the eyes of the other factions.",
 			typewriter = {
 				speed = 0.05,
@@ -266,9 +266,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "While joking merrily with Hood, she turned her face towards me and smiled.",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "In any case, thank you as well for doing all of this for me, Commander.",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "There's a saying that \"the quickest way to one's heart is through their stomach.\" In my case though, you've managed to win over both at once... Hahaha...",
 			typewriter = {
@@ -314,11 +314,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "Oh my...",
 			typewriter = {
 				speed = 0.05,
@@ -339,8 +339,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "Ahh, um, sorry. I didn't mean to spring that upon you all of a sudden. I'll try to read the mood better next time...",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "But I'm not good at letting go of people who manage to earn my trust.",
 			typewriter = {
@@ -386,9 +386,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "She may have grown quite a lot through our time together, but some things never change. Her straightforward and earnest confession was charismatic and irresistible.",
 			typewriter = {
 				speed = 0.05,

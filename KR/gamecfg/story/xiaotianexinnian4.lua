@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIAOTIANEXINNIAN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIAOTIANEXINNIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"정월의 축복\n\n<size=45>4 사쿠라 엠파이어의 정월</size>",
@@ -19,15 +19,15 @@ return {
 		{
 			actor = 205060,
 			side = 2,
-			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
 			bgmDelay = 2,
-			say = "예전부터 사쿠라 엠파이어의 신년은 떠들썩하다고 들었다만…… 혹시 꽤 재밌는 건가?",
+			bgName = "bg_story_outdoor",
 			bgm = "main-newyear",
+			nameColor = "#92fc63",
+			say = "예전부터 사쿠라 엠파이어의 신년은 떠들썩하다고 들었다만…… 혹시 꽤 재밌는 건가?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -59,12 +59,12 @@ return {
 			}
 		},
 		{
-			actor = 102090,
+			say = "그리고 유다치가 말했던 '국수와 떡'도 신경 쓰여! 이거 이거, 실컷 몸을 움직이고 나니, 아무래도 배가 고파지는걸.",
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "그리고 유다치가 말했던 '국수와 떡'도 신경 쓰여! 이거 이거, 실컷 몸을 움직이고 나니, 아무래도 배가 고파지는걸.",
+			actor = 102090,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 201100,
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = -1,
+			actor = 201100,
+			nameColor = "#92fc63",
 			say = "저기…… 그, 오이겐 씨가 술 마시는 모습이라던가…… 으와와와, 어떤 느낌일지 상상이 안 가네유……",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			actor = 399010,
+			say = "옷에 묻은 눈도 녹기 시작한 거 같으니, 슬슬 사쿠라 엠파이어 숙소로 이동할까요?",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#92fc63",
 			dir = -1,
-			say = "옷에 묻은 눈도 녹기 시작한 거 같으니, 슬슬 사쿠라 엠파이어 숙소로 이동할까요?",
+			actor = 399010,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -317,15 +317,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "후냥~ 드디어 떡국 다 만들었다냥! 제일 먼저 맛볼 사람은……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -350,8 +350,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.2,
 					x = 0,
@@ -360,12 +360,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			nameColor = "#92fc63",
 			say = "냥!? 다들 어디 갔냥!?",
 			typewriter = {
 				speed = 0.05,

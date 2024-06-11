@@ -7,19 +7,19 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
-			say = "엘리베이터 문이 열리자, 눈앞에 상상을 초월할 정도로 SF 영화를 방불케하는 데이터 센터가 나타났다.",
 			bgm = "story-antarctica-serious",
+			say = "엘리베이터 문이 열리자, 눈앞에 상상을 초월할 정도로 SF 영화를 방불케하는 데이터 센터가 나타났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "이것이야말로 도시를 통치한 암흑 메가 코퍼레이션의 자신감의 원천… '나노 서킷'과 슈퍼 컴퓨터 앞에서 무언가를 숨긴다는 건 이 도시에서는 거의 있을 수 없는 일임이 분명하다.",
 			typewriter = {
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "하지만 그것도 '거의'에 지나지 않는다.",
 			typewriter = {
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "데이터 센터에 들어서자, 눈앞에 푸른빛의 홀로그램이 나타났다.",
 			typewriter = {
@@ -134,10 +134,10 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			factiontag = "암흑 메가 코퍼레이션 AI",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			say = "명령을 수신했습니다. 지휘관님 분부에 따르겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -145,13 +145,13 @@ return {
 			}
 		},
 		{
-			spacing = 30,
-			mode = 1,
 			bgName = "star_level_bg_154",
-			stopbgm = true,
-			asideType = 4,
+			mode = 1,
+			spacing = 30,
 			optionFlag = 1,
 			bgm = "story-antarctica-serious",
+			stopbgm = true,
+			asideType = 4,
 			rectOffset = {
 				400,
 				400,
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			optionFlag = 1,
 			blackBg = true,
 			sequence = {
@@ -198,10 +198,10 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			factiontag = "암흑 메가 코퍼레이션 AI",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			say = "명령을 수신했습니다. 지휘관님 분부에 따르겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -209,13 +209,13 @@ return {
 			}
 		},
 		{
-			spacing = 30,
-			mode = 1,
 			bgName = "star_level_bg_154",
-			stopbgm = true,
-			asideType = 4,
+			mode = 1,
+			spacing = 30,
 			optionFlag = 2,
 			bgm = "story-antarctica-serious",
+			stopbgm = true,
+			asideType = 4,
 			rectOffset = {
 				400,
 				400,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			optionFlag = 2,
 			blackBg = true,
 			sequence = {
@@ -266,10 +266,10 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			factiontag = "암흑 메가 코퍼레이션 AI",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			optionFlag = 3,
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			say = "명령을 수신했습니다. 지휘관님 분부에 따르겠습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -277,13 +277,13 @@ return {
 			}
 		},
 		{
-			spacing = 30,
-			mode = 1,
 			bgName = "star_level_bg_154",
-			stopbgm = true,
-			asideType = 4,
+			mode = 1,
+			spacing = 30,
 			optionFlag = 3,
 			bgm = "story-antarctica-serious",
+			stopbgm = true,
+			asideType = 4,
 			rectOffset = {
 				400,
 				400,
@@ -322,8 +322,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			optionFlag = 3,
 			blackBg = true,
 			sequence = {
@@ -338,10 +338,10 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			factiontag = "암흑 메가 코퍼레이션 AI",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			optionFlag = 4,
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			say = "――…………",
 			typewriter = {
 				speed = 0.05,
@@ -353,10 +353,10 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			factiontag = "암흑 메가 코퍼레이션 AI",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			optionFlag = 4,
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			say = "명령을 수신했습니다. 히든 모드를 초기화합니다.",
 			typewriter = {
 				speed = 0.05,
@@ -364,13 +364,13 @@ return {
 			}
 		},
 		{
-			spacing = 30,
-			mode = 1,
 			bgName = "star_level_bg_154",
-			stopbgm = true,
-			asideType = 4,
+			mode = 1,
+			spacing = 30,
 			optionFlag = 4,
 			bgm = "story-antarctica-serious",
+			stopbgm = true,
+			asideType = 4,
 			rectOffset = {
 				400,
 				400,
@@ -417,8 +417,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			optionFlag = 4,
 			blackBg = true,
 			sequence = {
@@ -429,9 +429,9 @@ return {
 			}
 		},
 		{
-			spacing = 40,
 			mode = 6,
 			time = 40,
+			spacing = 40,
 			bgm = "story-antarctica-serious",
 			layout = {
 				{

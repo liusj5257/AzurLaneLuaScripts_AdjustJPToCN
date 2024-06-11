@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_7",
-			stopbgm = true,
-			say = "Royal Oak lodged her greatsword into the Horseman's armor.",
 			bgmDelay = 1,
 			bgm = "theme-vichy-slaughter",
+			stopbgm = true,
+			say = "Royal Oak lodged her greatsword into the Horseman's armor.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -26,8 +26,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			say = "After a series of deafening explosions, the crimson flames smoldering on the Horseman of War's armor petered out, and the giant crashed to the ground.",
 			typewriter = {
@@ -39,8 +39,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 205140,
 			dir = 1,
+			actor = 205140,
 			nameColor = "#A9F548FF",
 			say = "*pant*... *pant*... It's... It's finished!",
 			painting = {
@@ -56,8 +56,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "An excellent display by the Royal Knight, of course. Her Majesty will be proud of you.",
 			painting = {
@@ -73,8 +73,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 205140,
 			dir = 1,
+			actor = 205140,
 			nameColor = "#A9F548FF",
 			say = "M-me? Not at all... I only put in the finishing touch. Your quick wit is what really saved the day.",
 			painting = {
@@ -90,8 +90,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "C'mon, we all know my bow is the star of the show~ When I get home, I'm gonna frame it and hang it over the fireplace~",
 			painting = {
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "...Hang on, did it always look this dull? And what are these cracks in the wood? Those weren't there before!",
 			painting = {
@@ -121,8 +121,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			say = "Right before Hero's eyes, the cracks spread further and further through the sacred bow, finally reaching both ends of it.",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_7",
 			say = "Then, with a hollow snap, it broke into a dozen little pieces.",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "Noooo! My precious boooow!",
 			painting = {
@@ -168,8 +168,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -187,8 +187,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "Whyyyy?! It was my loot! I earned it!!",
 			painting = {
@@ -210,8 +210,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "It's a shame, but there's no use crying over spilled milk. I'll ask Richelieu if she can give us another replica later.",
 			painting = {
@@ -227,8 +227,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "Oh! Okay, sweet♪",
 			painting = {
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -254,8 +254,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "With War defeated, now there's only Conquest left to vanquish to end this Siren experiment.",
 			painting = {
@@ -271,8 +271,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 205140,
 			dir = 1,
+			actor = 205140,
 			nameColor = "#A9F548FF",
 			say = "But Conquest will be strongest yet, now that we've \"conquered\" all the other Horsemen.",
 			painting = {
@@ -288,8 +288,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 205140,
 			dir = 1,
+			actor = 205140,
 			nameColor = "#A9F548FF",
 			say = "Not to mention, we're nearly out of energy and ammo... And there aren't any more concepts we can channel, are there?",
 			painting = {
@@ -304,9 +304,9 @@ return {
 		{
 			actor = 207070,
 			side = 2,
-			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_firedust_7",
 			say = "Not necessarily... In the Scriptures, there are a total of seven seals, which means three more concepts should be–",
 			painting = {
 				alpha = 0.3,
@@ -321,8 +321,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "Hold up, I'm gonna veto that! You're not pulling a stunt like that again!",
 			painting = {
@@ -335,8 +335,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -354,8 +354,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Why not? Channeling Conquest worked fine, and we've seen no symbolism for the remaining three seals in the Mirror Sea.",
 			painting = {
@@ -377,8 +377,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "Just because they haven't been manifested in the form of Horsemen does not mean that the concepts don't exist!",
 			painting = {
@@ -394,8 +394,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "For all we know, the Mirror Sea itself could represent the last three seals.",
 			painting = {
@@ -410,9 +410,9 @@ return {
 		{
 			actor = 900353,
 			side = 2,
-			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_firedust_7",
 			say = "You're aware of what those seals are, right? Do you have any idea what kind of calamity you could bring if you were to manifest those things?",
 			painting = {
 				alpha = 0.3,
@@ -427,8 +427,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "If you don't want the world to end, you'd better get that idea out of your head!",
 			painting = {
@@ -441,8 +441,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -454,8 +454,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "...I'll admit, I didn't consider that.",
 			painting = {
@@ -470,9 +470,9 @@ return {
 		{
 			actor = 207070,
 			side = 2,
-			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_firedust_7",
 			say = "So, if that's no longer an option, how do you propose we take down the last Horseman?",
 			painting = {
 				alpha = 0.3,
@@ -487,8 +487,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "Well, the original plan was to have Conquest and War take each other out after softening them up enough, but that's no longer on the table.",
 			painting = {
@@ -504,8 +504,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "*sigh*... I suppose we're in a real bind then.",
 			painting = {
@@ -520,9 +520,9 @@ return {
 		{
 			actor = 900353,
 			side = 2,
-			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_firedust_7",
 			say = "Hmm? Does it even matter at this point?",
 			painting = {
 				alpha = 0.3,
@@ -537,8 +537,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "Did you forget that the Horseman of Conquest is still asleep behind the Skybound Wall?",
 			painting = {
@@ -554,8 +554,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Well, sure, it's not an immediate threat to us at the moment...",
 			painting = {
@@ -571,8 +571,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "But that doesn't improve our situation. While you can leave this place whenever you want, we can't unless we finish the job.",
 			painting = {
@@ -587,9 +587,9 @@ return {
 		{
 			actor = 900353,
 			side = 2,
-			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_firedust_7",
 			say = "Riiight, I forgot! Lucky for you, there are a few ways to deal with an inactive Horseman.",
 			painting = {
 				alpha = 0.3,
@@ -604,8 +604,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "One being, you can use the walls of light to cut it to ribbons if you position 'em right.",
 			painting = {
@@ -621,8 +621,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "Now that I think about it, why didn't the Tribunal of your branch already come up with that idea?",
 			painting = {
@@ -637,9 +637,9 @@ return {
 		{
 			actor = 805010,
 			side = 2,
-			bgName = "bg_firedust_7",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_firedust_7",
 			say = "...Let's see if your idea is feasible, shall we?",
 			painting = {
 				alpha = 0.3,
@@ -653,9 +653,9 @@ return {
 		{
 			actor = 900353,
 			side = 2,
-			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_firedust_7",
 			say = "No answer, huh. Fine, to the lair of the sleeping giant we go!",
 			painting = {
 				alpha = 0.3,

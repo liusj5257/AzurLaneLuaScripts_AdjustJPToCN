@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "POXIAOBINGHUA19",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 701080,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "deepblue-image",
 			dir = 1,
 			say = "The whole atmosphere around us has changed!",
+			bgm = "deepblue-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			say = "I’m sure we’re at the same place, but nothing else about this facility matches what we saw before. I don’t think this is the same console from before.",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			say = "That’s also the impression I’m getting. Belorussiya, I don’t think I’ve seen that insignia anywhere before. Ring any bells?",
 			typewriter = {
 				speed = 0.05,
@@ -73,8 +73,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "I can’t say I recognize it either. This place really is full of mysteries.",
 			typewriter = {
 				speed = 0.05,
@@ -119,8 +119,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			say = "Besides, it’s not like we’re doing anything else right now...",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "There must be something around here that gives us more information about this Mirror Sea, and how to control it.",
 			typewriter = {
 				speed = 0.05,
@@ -166,8 +166,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			say = "...Having said that though, we don’t have the time to look through every single room.",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "How about starting from the big picture and working our way down?",
 			typewriter = {
 				speed = 0.05,
@@ -222,13 +222,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_cccpv2_8",
+			side = 2,
+			dir = 1,
 			say = "After entering the curious room, we were immediately greeted by a huge display screen on the opposing wall.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Tallinn",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kirov",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kirov",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kirov",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Murmansk",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Murmansk",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -381,8 +381,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Murmansk",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -397,8 +397,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Murmansk",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -413,8 +413,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Murmansk",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Murmansk",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Murmansk",
+			side = 1,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -461,8 +461,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kirov",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -477,8 +477,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Murmansk",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Murmansk",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -509,8 +509,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Gremyashchy",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -525,8 +525,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Gremyashchy",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -541,8 +541,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Gromky",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -557,8 +557,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Murmansk",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -573,9 +573,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_8",
+			dir = 1,
 			say = "I will admit... I’ve had an uneasy feeling ever since I stepped into this room...",
 			typewriter = {
 				speed = 0.05,
@@ -587,8 +587,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Murmansk",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -603,8 +603,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Murmansk",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -619,8 +619,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Murmansk",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kirov",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -651,8 +651,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kirov",
+			side = 2,
 			bgName = "bg_cccpv2_8",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -667,12 +667,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_8",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Stay close, everyone. Nobody is to wander off on their own, lest we risk getting lost, or worse yet, walk into a trap.",
 			typewriter = {
 				speed = 0.05,

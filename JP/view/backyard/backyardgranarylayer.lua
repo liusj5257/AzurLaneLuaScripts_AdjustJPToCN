@@ -10,7 +10,7 @@ slot1 = {
 slot2 = pg.item_data_template
 slot3 = pg.shop_template
 
-function slot4(slot0)
+slot4 = function(slot0)
 	slot1 = {
 		Update = function (slot0, slot1)
 			slot0._go.name = "food_" .. slot1.id
@@ -45,7 +45,7 @@ function slot4(slot0)
 	return slot1
 end
 
-function slot5(slot0, slot1)
+slot5 = function(slot0, slot1)
 	slot2 = {
 		Show = function (slot0, slot1, slot2)
 			setParent(slot0._tf, slot0.overlay)
@@ -169,7 +169,7 @@ function slot5(slot0, slot1)
 	return slot2
 end
 
-function slot6(slot0, slot1)
+slot6 = function(slot0, slot1)
 	slot2 = {
 		Show = function (slot0, slot1, slot2, slot3)
 			setParent(slot0._tf, slot0.overlay)
@@ -228,32 +228,32 @@ function slot6(slot0, slot1)
 	return slot2
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackyardGranaryUI"
 end
 
-function slot0.setIsRemind(slot0, slot1)
+slot0.setIsRemind = function(slot0, slot1)
 	slot0.remindEndTime = slot1
 end
 
-function slot0.setFoodVOs(slot0, slot1)
+slot0.setFoodVOs = function(slot0, slot1)
 	slot0.foodVOs = slot1
 end
 
-function slot0.setPlayerVO(slot0, slot1)
+slot0.setPlayerVO = function(slot0, slot1)
 	slot0.playerVO = slot1
 end
 
-function slot0.setDormVO(slot0, slot1)
+slot0.setDormVO = function(slot0, slot1)
 	slot0.dormVO = slot1
 	slot0.capacity = slot1:getConfig("capacity") + slot0.dormVO.dorm_food_max
 end
 
-function slot0.setTrainShipVOs(slot0, slot1)
+slot0.setTrainShipVOs = function(slot0, slot1)
 	slot0.addExpShipVOs = slot1
 end
 
-function slot0.getFoodVOById(slot0, slot1)
+slot0.getFoodVOById = function(slot0, slot1)
 	return _.detect(slot0.foodVOs, function (slot0)
 		return slot0.id == uv0
 	end) or Item.New({
@@ -262,7 +262,7 @@ function slot0.getFoodVOById(slot0, slot1)
 	})
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.itemList = UIItemList.New(slot0:findTF("foodPanel/frame/scrollview/content"), slot0:findTF("foodPanel/frame/scrollview/foodtpl"))
 	slot0.foodPanel = slot0:findTF("foodPanel")
 	slot0.stock = slot0:findTF("frame/top/stock", slot0.foodPanel)
@@ -283,7 +283,7 @@ function slot0.init(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.foodPanel)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.foodPanel:Find("bg"), function ()
 		uv0:emit(uv1.ON_CLOSE)
 	end, SOUND_BACK)
@@ -300,7 +300,7 @@ function slot0.didEnter(slot0)
 	Input.multiTouchEnabled = false
 end
 
-function slot0.initItems(slot0)
+slot0.initItems = function(slot0)
 	slot0.itemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventInit then
 			if not uv1.cards[uv0[slot1 + 1]] then
@@ -324,13 +324,13 @@ function slot0.initItems(slot0)
 	slot0:updateItems()
 end
 
-function slot0.updateItems(slot0)
+slot0.updateItems = function(slot0)
 	for slot4, slot5 in pairs(uv0) do
 		slot0.cards[slot5]:Update(slot0:getFoodVOById(slot5))
 	end
 end
 
-function slot0.updateConsume(slot0, slot1, slot2)
+slot0.updateConsume = function(slot0, slot1, slot2)
 	if not slot0.dormClone then
 		slot0.dormClone = Clone(slot0.dormVO)
 	end
@@ -392,7 +392,7 @@ function slot0.updateConsume(slot0, slot1, slot2)
 	slot0:showStockAdd(slot3)
 end
 
-function slot0.showStockAdd(slot0, slot1)
+slot0.showStockAdd = function(slot0, slot1)
 	if not slot0.stockAddTpl then
 		slot0.stockAddContainter = slot0:findTF("frame/top/stockAddCont", slot0.foodPanel)
 		slot0.stockAddAddTpl = slot0:findTF("stockAdd", slot0.stockAddContainter)
@@ -411,7 +411,7 @@ function slot0.showStockAdd(slot0, slot1)
 	setActive(slot2, true)
 end
 
-function slot0.updateTotalConsume(slot0, slot1)
+slot0.updateTotalConsume = function(slot0, slot1)
 	slot0.dormClone = nil
 
 	if slot0.count == 0 then
@@ -423,7 +423,7 @@ function slot0.updateTotalConsume(slot0, slot1)
 	slot0:emit(BackyardGranaryMediator.USE_FOOD, slot1.foodVO.id, slot2)
 end
 
-function slot0.openFoodShop(slot0, slot1)
+slot0.openFoodShop = function(slot0, slot1)
 	slot2 = slot0.foodMsgBox
 
 	slot2:Show(slot1, function (slot0)
@@ -444,7 +444,7 @@ function slot0.openFoodShop(slot0, slot1)
 	end)
 end
 
-function slot0.openExtendPanel(slot0)
+slot0.openExtendPanel = function(slot0)
 	if not ShoppingStreet.getRiseShopId(ShopArgs.BackyardFoodExtend, slot0.dormVO.food_extend_count) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_buy_max_count"))
 
@@ -468,7 +468,7 @@ function slot0.openExtendPanel(slot0)
 	end)
 end
 
-function slot0.updateDorm(slot0, slot1)
+slot0.updateDorm = function(slot0, slot1)
 	if not slot1 then
 		return
 	end
@@ -479,7 +479,7 @@ function slot0.updateDorm(slot0, slot1)
 	slot0:calFoodLeftTime(slot1)
 end
 
-function slot0.calFoodLeftTime(slot0, slot1)
+slot0.calFoodLeftTime = function(slot0, slot1)
 	if slot0.timer then
 		slot0.timer:Stop()
 
@@ -488,7 +488,7 @@ function slot0.calFoodLeftTime(slot0, slot1)
 
 	slot2 = table.getCount(slot0.addExpShipVOs)
 
-	function slot3(slot0)
+	slot3 = function(slot0)
 		SetActive(uv0.leftTimeTF, true)
 		SetActive(uv0.chatContain, false)
 		SetActive(uv0.bottomText, false)
@@ -531,7 +531,7 @@ function slot0.calFoodLeftTime(slot0, slot1)
 	slot0.timer:Start()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end

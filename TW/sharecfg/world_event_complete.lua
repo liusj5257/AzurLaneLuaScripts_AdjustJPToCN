@@ -2,8 +2,8 @@ pg = pg or {}
 pg.world_event_complete = {
 	{
 		event_id = 200,
-		id = 1,
 		map_icon = "buff_a2",
+		id = 1,
 		chapter_num = 6,
 		desc = "适应性-破坏增加",
 		tips_icon = {
@@ -21,8 +21,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 2,
 		map_icon = "buff_h2",
+		id = 2,
 		chapter_num = 6,
 		desc = "适应性-装甲增加",
 		tips_icon = {
@@ -40,8 +40,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 3,
 		map_icon = "buff_d2",
+		id = 3,
 		chapter_num = 6,
 		desc = "适应性-感应增加",
 		tips_icon = {
@@ -59,8 +59,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 4,
 		map_icon = "buff_a",
+		id = 4,
 		chapter_num = 6,
 		desc = "适应性-破坏大幅度增加",
 		tips_icon = {
@@ -78,8 +78,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 5,
 		map_icon = "buff_h",
+		id = 5,
 		chapter_num = 6,
 		desc = "适应性-装甲大幅度增加",
 		tips_icon = {
@@ -97,8 +97,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 6,
 		map_icon = "buff_d",
+		id = 6,
 		chapter_num = 6,
 		desc = "适应性-感应大幅度增加",
 		tips_icon = {
@@ -116,8 +116,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 7,
 		map_icon = "currency",
+		id = 7,
 		chapter_num = 12,
 		desc = "得到大量作战补给凭证",
 		tips_icon = {
@@ -138,8 +138,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 8,
 		map_icon = "currency",
+		id = 8,
 		chapter_num = 6,
 		desc = "得到大量作战补给凭证",
 		tips_icon = {
@@ -160,8 +160,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 9,
 		map_icon = "currency",
+		id = 9,
 		chapter_num = 9,
 		desc = "得到大量行动力补给道具",
 		tips_icon = {
@@ -182,8 +182,8 @@ pg.world_event_complete = {
 	},
 	{
 		event_id = 200,
-		id = 10,
 		map_icon = "currency",
+		id = 10,
 		chapter_num = 9,
 		desc = "得到大量维修道具",
 		tips_icon = {

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YESEXIADEGUITU8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YESEXIADEGUITU8",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900236,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-italy",
 			dir = 1,
 			say = "叮咚噔咚，這裡插播一下來自沃克蘭的提醒~",
+			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			actor = 900236,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "欸……根據熱情的情報，前方海域好像有皇家的納爾遜的蹤跡。",
 			typewriter = {
 				speed = 0.05,
@@ -80,14 +80,14 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
-			nameColor = "#ffff4d",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#ffff4d",
 			say = "哎？等等，前方的艦隊立刻停下來，妳們是……！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -112,8 +112,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "唔啊，結果還是遇上了，好倒霉……",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

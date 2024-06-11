@@ -1,6 +1,6 @@
 slot0 = class("FourthInvitePage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.icons = {
 		slot0:findTF("AD/bg/npc1"),
 		slot0:findTF("AD/bg/npc2"),
@@ -15,7 +15,7 @@ function slot0.OnInit(slot0)
 	slot0.gotBtn = slot0:findTF("AD/got")
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	slot0.gameId = slot0.activity:getConfig("config_client").mini_game_id
 	slot0.hubId = pg.mini_game[slot0.gameId].hub_id
 	slot0.data = getProxy(MiniGameProxy):GetHubByHubId(slot0.hubId)
@@ -24,7 +24,7 @@ function slot0.OnDataSetting(slot0)
 	slot0.maxtime = slot0.data:getConfig("reward_need")
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.goBtn, function ()
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, uv0.gameId)
 	end, SFX_PANEL)
@@ -36,13 +36,13 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	SetActive(slot0.gotBtn, slot0.ultimate == 1)
 	slot0:UpdateSigned()
 	slot0:CheckGet()
 end
 
-function slot0.UpdateSigned(slot0)
+slot0.UpdateSigned = function(slot0)
 	slot1 = slot0.maxtime
 	slot2 = slot0.usedtime
 
@@ -51,7 +51,7 @@ function slot0.UpdateSigned(slot0)
 	end
 end
 
-function slot0.CheckGet(slot0)
+slot0.CheckGet = function(slot0)
 	if slot0.ultimate == 0 then
 		if slot0.usedtime < slot0.maxtime then
 			return

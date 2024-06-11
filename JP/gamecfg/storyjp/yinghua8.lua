@@ -1,9 +1,9 @@
 return {
 	fadeOut = 2,
 	mode = 2,
-	id = "YINGHUA8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YINGHUA8",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			bgName = "bg_story_nagato3",
+			stopbgm = true,
 			say = "無数の御柱と注連縄（しめなわ）に囲まれた神木の根元に、「封印」の水晶があった。",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1

@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN14",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307050,
-			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "Those Iron Blood planes are pretty persistent... Zuikaku, should I keep trying to disrupt their formation?",
 			bgm = "xinnong-2",
+			actor = 307050,
+			nameColor = "#a9f548",
+			say = "Those Iron Blood planes are pretty persistent... Zuikaku, should I keep trying to disrupt their formation?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -41,11 +41,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "Yeah! Remember, we have the superior numbers here. Just pick them apart and capitalize on that advantage!",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -134,8 +134,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "I'm a bit concerned about where our fleet is headed. Do you think we've entered an even larger Mirror Sea after passing through the sea fog...?",
 			typewriter = {
@@ -183,8 +183,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "Nothing at all. There shouldn't be any islands situated this densely together in the Southern hemisphere.",
 			typewriter = {
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "Nuu, I don't want to get lost in a Mirror Sea... Kongou, what should we do?",
 			typewriter = {
 				speed = 0.05,
@@ -213,8 +213,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -226,8 +226,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "That won't happen. I'm sure that this Siren research facility is the source of both the sea fog and the Mirror Sea.",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 304010,
 			dir = 1,
+			actor = 304010,
 			nameColor = "#a9f548",
 			say = "Make sure to take note of the location and landmarks of these islands. We need to find out where we are, because we likely won't have another chance to scout this place out later.",
 			typewriter = {
@@ -305,12 +305,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "I'm counting on you, Shoukaku! Everyone else, get in diamond formation!",
 			typewriter = {
 				speed = 0.05,

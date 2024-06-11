@@ -1,41 +1,41 @@
 slot0 = class("WSMap", import("...BaseEntity"))
 slot0.Fields = {
 	map = "table",
-	rtQuads = "userdata",
-	wsMapQuads = "table",
+	rtTargetArrow = "userdata",
+	transform = "userdata",
 	wsMapArtifactsFA = "table",
-	wsMapPath = "table",
+	wsMapFleets = "table",
 	wsMapCells = "table",
 	wsMapAttachments = "table",
-	world = "table",
-	rtTop = "userdata",
-	rtTargetArrow = "userdata",
-	rtItems = "userdata",
-	rtEffectA = "userdata",
 	wsTerrainEffects = "table",
-	wsPool = "table",
-	rtEffectB = "userdata",
+	rtTop = "userdata",
+	rtQuads = "userdata",
+	wsCarryItems = "table",
+	rtEffectA = "userdata",
+	wsMapQuads = "table",
+	wsMapPath = "table",
+	wsMapResource = "table",
 	twTimerId = "number",
 	wsMapArtifacts = "table",
-	displayRangeTimer = "table",
-	wsMapFleets = "table",
-	transform = "userdata",
-	wsMapResource = "table",
 	twTimer = "userdata",
+	world = "table",
+	rtItems = "userdata",
+	wsPool = "table",
+	rtEffectB = "userdata",
 	rtCells = "userdata",
 	displayRangeLines = "table",
 	wsTimer = "table",
-	wsMapItems = "table",
+	displayRangeTimer = "table",
 	transportDisplay = "number",
-	wsCarryItems = "table",
+	wsMapItems = "table",
 	rangeVisible = "boolean",
 	wsMapTransports = "table",
 	rtEffectC = "userdata"
 }
 slot0.Listeners = {
 	onRemoveCarry = "OnRemoveCarry",
-	onUpdateAttachment = "OnUpdateAttachment",
 	onUpdateTerrain = "OnUpdateTerrain",
+	onUpdateAttachment = "OnUpdateAttachment",
 	onUpdateFleetFOV = "OnUpdateFleetFOV",
 	onAddAttachment = "OnAddAttachment",
 	onRemoveAttachment = "OnRemoveAttachment",
@@ -43,7 +43,7 @@ slot0.Listeners = {
 }
 slot0.EventUpdateEventTips = "WSMap.EventUpdateEventTips"
 
-function slot0.Setup(slot0, slot1)
+slot0.Setup = function(slot0, slot1)
 	slot0.map = slot1
 	slot0.wsMapQuads = {}
 	slot0.wsMapItems = {}
@@ -68,7 +68,7 @@ function slot0.Setup(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0.wsMapPath:Dispose()
 	slot0:ClearTargetArrow()
@@ -76,7 +76,7 @@ function slot0.Dispose(slot0)
 	slot0:Clear()
 end
 
-function slot0.Load(slot0, slot1)
+slot0.Load = function(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)
@@ -93,7 +93,7 @@ function slot0.Load(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.Unload(slot0)
+slot0.Unload = function(slot0)
 	slot0:DisposeMap()
 	slot0.wsMapResource:Unload()
 
@@ -104,7 +104,7 @@ function slot0.Unload(slot0)
 	end
 end
 
-function slot0.InitPlane(slot0, slot1)
+slot0.InitPlane = function(slot0, slot1)
 	slot2 = PoolMgr.GetInstance()
 
 	slot2:GetPrefab("world/object/world_plane", "world_plane", true, function (slot0)
@@ -200,14 +200,14 @@ function slot0.InitPlane(slot0, slot1)
 	end)
 end
 
-function slot0.InitClutter(slot0)
+slot0.InitClutter = function(slot0)
 	slot0.twTimer = LeanTween.value(slot0.transform.gameObject, 1, 0, WorldConst.QuadBlinkDuration):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()
 
 	slot0.wsTimer:AddInMapTween(slot0.twTimer.uniqueId)
 	slot0:NewTargetArrow()
 end
 
-function slot0.InitMap(slot0)
+slot0.InitMap = function(slot0)
 	slot1 = slot0.map
 	slot2 = slot1.theme
 	slot3 = _.values(slot1.cells)
@@ -259,7 +259,7 @@ function slot0.InitMap(slot0)
 	slot1:AddListener(WorldMap.EventUpdateFleetFOV, slot0.onUpdateFleetFOV)
 end
 
-function slot0.DisposeMap(slot0)
+slot0.DisposeMap = function(slot0)
 	slot1 = slot0.map
 	slot4 = slot0.onUpdateFleetFOV
 
@@ -325,7 +325,7 @@ function slot0.DisposeMap(slot0)
 	slot0.wsTerrainEffects = {}
 end
 
-function slot0.OnAddAttachment(slot0, slot1, slot2, slot3)
+slot0.OnAddAttachment = function(slot0, slot1, slot2, slot3)
 	assert(slot0:GetCell(slot2.row, slot2.column), "cell not exist: " .. slot2.row .. ", " .. slot2.column)
 
 	if slot3.type == WorldMapAttachment.TypeArtifact then
@@ -340,7 +340,7 @@ function slot0.OnAddAttachment(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnRemoveAttachment(slot0, slot1, slot2, slot3)
+slot0.OnRemoveAttachment = function(slot0, slot1, slot2, slot3)
 	if slot3.type == WorldMapAttachment.TypeArtifact then
 		for slot7 = #slot0.wsMapArtifactsFA, 1, -1 do
 			if slot0.wsMapArtifactsFA[slot7].attachment == slot3 then
@@ -363,7 +363,7 @@ function slot0.OnRemoveAttachment(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnUpdateAttachment(slot0, slot1, slot2)
+slot0.OnUpdateAttachment = function(slot0, slot1, slot2)
 	_.each(slot0:FindAttachments(slot2.row, slot2.column), function (slot0)
 		slot0:Update(uv0)
 	end)
@@ -375,7 +375,7 @@ function slot0.OnUpdateAttachment(slot0, slot1, slot2)
 	slot0:DispatchEvent(uv0.EventUpdateEventTips)
 end
 
-function slot0.OnUpdateTerrain(slot0, slot1, slot2)
+slot0.OnUpdateTerrain = function(slot0, slot1, slot2)
 	slot3, slot4 = slot0:GetTerrainEffect(slot2.row, slot2.column)
 
 	if slot3 then
@@ -388,11 +388,11 @@ function slot0.OnUpdateTerrain(slot0, slot1, slot2)
 	end
 end
 
-function slot0.OnAddCarry(slot0, slot1, slot2, slot3)
+slot0.OnAddCarry = function(slot0, slot1, slot2, slot3)
 	table.insert(slot0.wsCarryItems, slot0:NewCarryItem(slot2, slot3))
 end
 
-function slot0.OnRemoveCarry(slot0, slot1, slot2, slot3)
+slot0.OnRemoveCarry = function(slot0, slot1, slot2, slot3)
 	for slot7 = #slot0.wsCarryItems, 1, -1 do
 		if slot0.wsCarryItems[slot7].carryItem == slot3 then
 			slot0:DisposeCarryItem(slot8)
@@ -403,11 +403,11 @@ function slot0.OnRemoveCarry(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.OnUpdateFleetFOV(slot0)
+slot0.OnUpdateFleetFOV = function(slot0)
 	slot0:FlushFleets()
 end
 
-function slot0.NewQuad(slot0, slot1)
+slot0.NewQuad = function(slot0, slot1)
 	slot2 = WPool:Get(WSMapQuad)
 	slot2.transform = slot0.wsPool:Get(WSMapQuad.GetResName()).transform
 
@@ -420,12 +420,12 @@ function slot0.NewQuad(slot0, slot1)
 	return slot2
 end
 
-function slot0.DisposeQuad(slot0, slot1)
+slot0.DisposeQuad = function(slot0, slot1)
 	slot0.wsPool:Return(WSMapQuad.GetResName(), slot1.transform.gameObject)
 	WPool:Return(slot1)
 end
 
-function slot0.NewItem(slot0, slot1)
+slot0.NewItem = function(slot0, slot1)
 	slot2 = WPool:Get(WSMapItem)
 	slot2.transform = slot0.wsPool:Get(WSMapItem.GetResName()).transform
 
@@ -435,12 +435,12 @@ function slot0.NewItem(slot0, slot1)
 	return slot2
 end
 
-function slot0.DisposeItem(slot0, slot1)
+slot0.DisposeItem = function(slot0, slot1)
 	slot0.wsPool:Return(WSMapItem.GetResName(), slot1.transform.gameObject)
 	WPool:Return(slot1)
 end
 
-function slot0.NewCell(slot0, slot1)
+slot0.NewCell = function(slot0, slot1)
 	slot2 = WPool:Get(WSMapCell)
 	slot2.transform = slot0.wsPool:Get(WSMapCell.GetResName()).transform
 
@@ -459,7 +459,7 @@ function slot0.NewCell(slot0, slot1)
 	return slot2
 end
 
-function slot0.DisposeCell(slot0, slot1)
+slot0.DisposeCell = function(slot0, slot1)
 	slot2 = slot1.cell
 
 	slot1.rtFog:SetParent(slot1.transform, true)
@@ -470,7 +470,7 @@ function slot0.DisposeCell(slot0, slot1)
 	WPool:Return(slot1)
 end
 
-function slot0.NewTransport(slot0, slot1, slot2, slot3)
+slot0.NewTransport = function(slot0, slot1, slot2, slot3)
 	slot4 = WPool:Get(WSMapTransport)
 	slot4.transform = slot0.wsPool:Get(WSMapTransport.GetResName()).transform
 
@@ -483,12 +483,12 @@ function slot0.NewTransport(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.DisposeTransport(slot0, slot1)
+slot0.DisposeTransport = function(slot0, slot1)
 	slot0.wsPool:Return(WSMapTransport.GetResName(), slot1.transform.gameObject)
 	WPool:Return(slot1)
 end
 
-function slot0.NewAttachment(slot0, slot1, slot2)
+slot0.NewAttachment = function(slot0, slot1, slot2)
 	slot3 = WPool:Get(WSMapAttachment)
 	slot3.transform = slot0.wsPool:Get(WSMapAttachment.GetResName(slot2)).transform
 
@@ -504,7 +504,7 @@ function slot0.NewAttachment(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.DisposeAttachment(slot0, slot1)
+slot0.DisposeAttachment = function(slot0, slot1)
 	slot2 = slot1.attachment
 
 	slot2:RemoveListener(WorldMapAttachment.EventUpdateFlag, slot0.onUpdateAttachment)
@@ -514,7 +514,7 @@ function slot0.DisposeAttachment(slot0, slot1)
 	WPool:Return(slot1)
 end
 
-function slot0.NewArtifact(slot0, slot1, slot2, slot3)
+slot0.NewArtifact = function(slot0, slot1, slot2, slot3)
 	slot4 = WPool:Get(WSMapArtifact)
 
 	slot4.transform:SetParent(slot1.rtArtifacts, false)
@@ -523,11 +523,11 @@ function slot0.NewArtifact(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.DisposeArtifact(slot0, slot1)
+slot0.DisposeArtifact = function(slot0, slot1)
 	WPool:Return(slot1)
 end
 
-function slot0.GetTerrainEffectParent(slot0, slot1)
+slot0.GetTerrainEffectParent = function(slot0, slot1)
 	if slot1 == WorldMapCell.TerrainStream then
 		return slot0.rtEffectB
 	elseif slot1 == WorldMapCell.TerrainWind then
@@ -541,7 +541,7 @@ function slot0.GetTerrainEffectParent(slot0, slot1)
 	end
 end
 
-function slot0.NewTerrainEffect(slot0, slot1)
+slot0.NewTerrainEffect = function(slot0, slot1)
 	slot2 = WPool:Get(WSMapCellEffect)
 	slot2.transform = createNewGameObject("mapCellEffect")
 
@@ -551,12 +551,12 @@ function slot0.NewTerrainEffect(slot0, slot1)
 	return slot2
 end
 
-function slot0.DisposeTerrainEffect(slot0, slot1)
+slot0.DisposeTerrainEffect = function(slot0, slot1)
 	WPool:Return(slot1)
 	Destroy(slot1.transform)
 end
 
-function slot0.GetTerrainEffect(slot0, slot1, slot2)
+slot0.GetTerrainEffect = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0.wsTerrainEffects) do
 		if slot7.cell.row == slot1 and slot7.cell.column == slot2 then
 			return slot7, slot6
@@ -564,7 +564,7 @@ function slot0.GetTerrainEffect(slot0, slot1, slot2)
 	end
 end
 
-function slot0.NewFleet(slot0, slot1)
+slot0.NewFleet = function(slot0, slot1)
 	slot2 = WPool:Get(WSMapFleet)
 	slot2.transform = slot0.wsPool:Get(WSMapFleet.GetResName()).transform
 
@@ -577,7 +577,7 @@ function slot0.NewFleet(slot0, slot1)
 	return slot2
 end
 
-function slot0.DisposeFleet(slot0, slot1)
+slot0.DisposeFleet = function(slot0, slot1)
 	slot1.fleet:RemoveListener(WorldMapFleet.EventAddCarry, slot0.onAddCarry)
 	slot1.fleet:RemoveListener(WorldMapFleet.EventRemoveCarry, slot0.onRemoveCarry)
 	slot1.rtRetreat:SetParent(slot1.transform, false)
@@ -585,7 +585,7 @@ function slot0.DisposeFleet(slot0, slot1)
 	WPool:Return(slot1)
 end
 
-function slot0.NewCarryItem(slot0, slot1, slot2)
+slot0.NewCarryItem = function(slot0, slot1, slot2)
 	slot3 = WPool:Get(WSCarryItem)
 	slot3.transform = slot0.wsPool:Get(WSCarryItem.GetResName()).transform
 
@@ -595,24 +595,24 @@ function slot0.NewCarryItem(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.DisposeCarryItem(slot0, slot1)
+slot0.DisposeCarryItem = function(slot0, slot1)
 	slot0.wsPool:Return(WSCarryItem.GetResName(), slot1.transform.gameObject)
 	WPool:Return(slot1)
 end
 
-function slot0.GetCarryItem(slot0, slot1)
+slot0.GetCarryItem = function(slot0, slot1)
 	return _.detect(slot0.wsCarryItems, function (slot0)
 		return slot0.carryItem == uv0
 	end)
 end
 
-function slot0.FindCarryItems(slot0, slot1)
+slot0.FindCarryItems = function(slot0, slot1)
 	return _.filter(slot0.wsCarryItems, function (slot0)
 		return slot0.fleet == uv0
 	end)
 end
 
-function slot0.GetFleet(slot0, slot1)
+slot0.GetFleet = function(slot0, slot1)
 	slot1 = slot1 or slot0.map:GetFleet()
 
 	return _.detect(slot0.wsMapFleets, function (slot0)
@@ -620,41 +620,41 @@ function slot0.GetFleet(slot0, slot1)
 	end)
 end
 
-function slot0.FindFleet(slot0, slot1, slot2)
+slot0.FindFleet = function(slot0, slot1, slot2)
 	return _.detect(slot0.wsMapFleets, function (slot0)
 		return slot0.fleet.row == uv0 and slot0.fleet.column == uv1
 	end)
 end
 
-function slot0.GetCell(slot0, slot1, slot2)
+slot0.GetCell = function(slot0, slot1, slot2)
 	return slot0.wsMapCells[WSMapCell.GetName(slot1, slot2)]
 end
 
-function slot0.GetAttachment(slot0, slot1, slot2, slot3)
+slot0.GetAttachment = function(slot0, slot1, slot2, slot3)
 	return _.detect(slot0.wsMapAttachments, function (slot0)
 		return slot0.attachment.row == uv0 and slot0.attachment.column == uv1 and slot0.attachment.type == uv2
 	end)
 end
 
-function slot0.FindAttachments(slot0, slot1, slot2)
+slot0.FindAttachments = function(slot0, slot1, slot2)
 	return _.filter(slot0.wsMapAttachments, function (slot0)
 		return slot0.attachment.row == uv0 and slot0.attachment.column == uv1
 	end)
 end
 
-function slot0.GetQuad(slot0, slot1, slot2)
+slot0.GetQuad = function(slot0, slot1, slot2)
 	return slot0.wsMapQuads[WSMapQuad.GetName(slot1, slot2)]
 end
 
-function slot0.GetItem(slot0, slot1, slot2)
+slot0.GetItem = function(slot0, slot1, slot2)
 	return slot0.wsMapItems[WSMapItem.GetName(slot1, slot2)]
 end
 
-function slot0.GetTransport(slot0, slot1, slot2, slot3)
+slot0.GetTransport = function(slot0, slot1, slot2, slot3)
 	return slot0.wsMapTransports[WSMapTransport.GetName(slot1, slot2, slot3)]
 end
 
-function slot0.UpdateRangeVisible(slot0, slot1)
+slot0.UpdateRangeVisible = function(slot0, slot1)
 	if slot0.rangeVisible ~= slot1 then
 		slot0.rangeVisible = slot1
 
@@ -666,7 +666,7 @@ function slot0.UpdateRangeVisible(slot0, slot1)
 	end
 end
 
-function slot0.DisplayMoveRange(slot0)
+slot0.DisplayMoveRange = function(slot0)
 	slot0.displayRangeLines = {}
 	slot3 = 0
 
@@ -704,7 +704,7 @@ function slot0.DisplayMoveRange(slot0)
 	end
 end
 
-function slot0.HideMoveRange(slot0)
+slot0.HideMoveRange = function(slot0)
 	if slot0.displayRangeTimer then
 		slot0.wsTimer:RemoveInMapTimer(slot0.displayRangeTimer)
 
@@ -730,7 +730,7 @@ function slot0.HideMoveRange(slot0)
 	end
 end
 
-function slot0.MovePath(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.MovePath = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = slot0.map
 	slot7 = _.map(slot2, function (slot0)
 		return uv0:GetQuad(slot0.row, slot0.column)
@@ -798,7 +798,7 @@ function slot0.MovePath(slot0, slot1, slot2, slot3, slot4, slot5)
 	return slot0.wsMapPath
 end
 
-function slot0.FlushFleets(slot0)
+slot0.FlushFleets = function(slot0)
 	slot0:FlushFleetVisibility()
 	slot0:FlushFleetRetreatBtn()
 	slot0:FlushEnemyFightingMark()
@@ -812,7 +812,7 @@ function slot0.FlushFleets(slot0)
 	end)
 end
 
-function slot0.FlushFleetRetreatBtn(slot0)
+slot0.FlushFleetRetreatBtn = function(slot0)
 	slot1 = slot0.map
 	slot1 = slot1:GetFleet()
 
@@ -831,7 +831,7 @@ function slot0.FlushFleetRetreatBtn(slot0)
 	end)
 end
 
-function slot0.FlushEnemyFightingMark(slot0)
+slot0.FlushEnemyFightingMark = function(slot0)
 	_.each(slot0.wsMapAttachments, function (slot0)
 		if WorldMapAttachment.IsEnemyType(slot0.attachment.type) then
 			slot0:UpdateIsFighting(uv0.map:ExistFleet(slot1.row, slot1.column))
@@ -839,7 +839,7 @@ function slot0.FlushEnemyFightingMark(slot0)
 	end)
 end
 
-function slot0.FlushTransportVisibleByFleet(slot0)
+slot0.FlushTransportVisibleByFleet = function(slot0)
 	for slot4, slot5 in pairs(slot0.wsMapTransports) do
 		if not _.any(slot0.wsMapFleets, function (slot0)
 			return ManhattonDist({
@@ -881,7 +881,7 @@ function slot0.FlushTransportVisibleByFleet(slot0)
 	end)
 end
 
-function slot0.FlushFleetVisibility(slot0)
+slot0.FlushFleetVisibility = function(slot0)
 	underscore.each(slot0.wsMapFleets, function (slot0)
 		slot1 = slot0.fleet
 
@@ -892,13 +892,13 @@ function slot0.FlushFleetVisibility(slot0)
 	end)
 end
 
-function slot0.UpdateSubmarineSupport(slot0)
+slot0.UpdateSubmarineSupport = function(slot0)
 	_.each(slot0.wsMapFleets, function (slot0)
 		slot0:UpdateSubmarineSupport()
 	end)
 end
 
-function slot0.FlushMovingAttachment(slot0, slot1)
+slot0.FlushMovingAttachment = function(slot0, slot1)
 	if slot1.transform.parent ~= slot0.rtCells then
 		slot1.transform:SetParent(slot0.rtCells, true)
 	end
@@ -917,12 +917,12 @@ function slot0.FlushMovingAttachment(slot0, slot1)
 	slot0:FlushMovingAttachmentOrder(slot1, slot2)
 end
 
-function slot0.FlushMovingAttachmentOrder(slot0, slot1, slot2)
+slot0.FlushMovingAttachmentOrder = function(slot0, slot1, slot2)
 	setActive(slot1.transform, slot0:GetCell(slot2.row, slot2.column).cell:GetInFOV() and not slot4:InFog())
 	slot1:SetModelOrder(slot1.attachment:GetModelOrder(), slot2.row)
 end
 
-function slot0.UpdateTransportDisplay(slot0, slot1)
+slot0.UpdateTransportDisplay = function(slot0, slot1)
 	if slot0.transportDisplay ~= slot1 then
 		slot0.transportDisplay = slot1
 
@@ -930,7 +930,7 @@ function slot0.UpdateTransportDisplay(slot0, slot1)
 	end
 end
 
-function slot0.FlushTransportDisplay(slot0)
+slot0.FlushTransportDisplay = function(slot0)
 	if slot0.transportDisplay == WorldConst.TransportDisplayNormal then
 		slot0:FlushTransportVisibleByFleet()
 	else
@@ -938,7 +938,7 @@ function slot0.FlushTransportDisplay(slot0)
 	end
 end
 
-function slot0.FlushTransportVisibleByState(slot0)
+slot0.FlushTransportVisibleByState = function(slot0)
 	slot1 = slot0.map:GetCellsInFOV()
 
 	for slot5, slot6 in pairs(slot0.wsMapTransports) do
@@ -968,13 +968,13 @@ function slot0.FlushTransportVisibleByState(slot0)
 	end)
 end
 
-function slot0.NewTargetArrow(slot0)
+slot0.NewTargetArrow = function(slot0)
 	slot0.rtTargetArrow = slot0.wsPool:Get("arrow_tpl").transform
 
 	setActive(slot0.rtTargetArrow, false)
 end
 
-function slot0.DisplayTargetArrow(slot0, slot1, slot2)
+slot0.DisplayTargetArrow = function(slot0, slot1, slot2)
 	slot0.rtTargetArrow:SetParent(slot0:GetCell(slot1, slot2).transform, false)
 
 	slot0.rtTargetArrow.anchoredPosition = Vector2.zero
@@ -984,16 +984,16 @@ function slot0.DisplayTargetArrow(slot0, slot1, slot2)
 	setActive(slot0.rtTargetArrow, true)
 end
 
-function slot0.HideTargetArrow(slot0)
+slot0.HideTargetArrow = function(slot0)
 	slot0.rtTargetArrow:SetParent(slot0.transform, false)
 	setActive(slot0.rtTargetArrow, false)
 end
 
-function slot0.ClearTargetArrow(slot0)
+slot0.ClearTargetArrow = function(slot0)
 	slot0.wsPool:Return("arrow_tpl", slot0.rtTargetArrow)
 end
 
-function slot0.ShowScannerMap(slot0, slot1)
+slot0.ShowScannerMap = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.wsMapQuads) do
 		if slot1 then
 			slot6:UpdateStatic(true, true)

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIDIFENGBAO2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIDIFENGBAO2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_guild_blue",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 0.5,
-			say = "Far from the Frostfall operational area...",
 			bgm = "battle-deepecho",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "Far from the Frostfall operational area...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -30,8 +30,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue",
 			say = "The pre-battle operation briefing ended, but another monitor lit up before Soyuz's eyes.",
 			typewriter = {
@@ -43,8 +43,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "We've been building up our strength for so long. Now, it's finally time...",
 			painting = {
@@ -72,8 +72,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "Have you decided not to involve the Commander after all?",
 			painting = {
@@ -137,8 +137,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "All is well. The venue is the very picture of peace. Honestly, I almost find myself bored by how little has happened.",
 			painting = {
@@ -154,8 +154,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "Though, news that the Commander would come has caused more than a little bit of commotion~",
 			painting = {
@@ -195,8 +195,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "Well... Actually, they already left before the news broke.",
 			painting = {
@@ -212,8 +212,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "It's too late to turn back the clock, though it really is a shame.",
 			painting = {
@@ -229,8 +229,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "But for now, Soyuz, please focus on the impending battle.",
 			painting = {
@@ -258,8 +258,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 702010,
 			dir = 1,
+			actor = 702010,
 			nameColor = "#A9F548FF",
 			say = "I'll be praying for your victory from here in Sardegna, Comrade Soyuz.",
 			painting = {
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue",
 			say = "The screen flickered and turned off, bringing silence to the room once more.",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue",
 			say = "After a moment of quiet thought, Soyuz checked the time and connected to the mission command network.",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_guild_blue",
 			blackBg = true,
 			say = "Outside the building, the polar snowstorm raged yet harder.",

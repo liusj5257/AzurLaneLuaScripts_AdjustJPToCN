@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"蒼龍さんと一緒\n\n<size=45>三 友達とは？</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "花札を教えてもらいだしてから、蒼龍と会話する機会も多くなってきた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "今日も蒼龍のところに遊びに行こう！",
 			typewriter = {
@@ -54,15 +54,15 @@ return {
 			}
 		},
 		{
-			say = "重桜寮・蒼龍の部屋",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "重桜寮・蒼龍の部屋",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
+			say = "えっと、四六時中一緒というわけではありませんよ。それぞれ一人になる時間もありますから",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "えっと、四六時中一緒というわけではありませんよ。それぞれ一人になる時間もありますから",
+			actor = 401230,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "あははは……",
 			typewriter = {
 				speed = 0.05,
@@ -267,8 +267,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

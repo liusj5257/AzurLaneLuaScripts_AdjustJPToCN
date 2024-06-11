@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.01
+					number = -0.01,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -23,8 +23,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.012
+					number = -0.012,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -38,8 +38,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.014
+					number = -0.014,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -53,8 +53,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.016
+					number = -0.016,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -68,8 +68,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.018
+					number = -0.018,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -83,8 +83,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.021
+					number = -0.021,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -98,8 +98,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.024
+					number = -0.024,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -113,8 +113,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.027
+					number = -0.027,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -128,8 +128,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.031
+					number = -0.031,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -143,8 +143,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "injureRatio",
-					number = -0.035
+					number = -0.035,
+					attr = "injureRatio"
 				}
 			}
 		}
@@ -152,12 +152,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufablue",
+	id = 16423,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 16423,
+	color = "red",
 	icon = 16420,
 	last_effect = "",
 	blink = {
@@ -175,8 +175,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.01
+				number = -0.01,
+				attr = "injureRatio"
 			}
 		}
 	}

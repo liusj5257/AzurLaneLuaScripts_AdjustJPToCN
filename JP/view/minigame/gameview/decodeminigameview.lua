@@ -1,10 +1,10 @@
 slot0 = class("DecodeMiniGameView", import("..BaseMiniGameView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "DecodeGameUI"
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.controller = DecodeGameController.New()
 
 	slot0.controller.view:SetUI(slot0._tf)
@@ -30,10 +30,10 @@ function slot0.didEnter(slot0)
 	slot0.controller:SetUp(slot0:PackData())
 end
 
-function slot0.GetData(slot0, slot1)
+slot0.GetData = function(slot0, slot1)
 	slot2 = PlayerPrefs.GetInt("DecodeGameMapId", 1)
 
-	function slot4()
+	slot4 = function()
 		for slot3 = 1, 60 do
 			if not table.contains(uv0, slot3) then
 				table.insert(uv0, slot3)
@@ -43,7 +43,7 @@ function slot0.GetData(slot0, slot1)
 		end
 	end
 
-	function slot5()
+	slot5 = function()
 		table.remove(uv0, 1)
 	end
 
@@ -66,11 +66,11 @@ function slot0.GetData(slot0, slot1)
 	}
 end
 
-function slot0.PackData(slot0)
+slot0.PackData = function(slot0)
 	return uv0.GetData(slot0:GetMGHubData(), slot0:GetMGData())
 end
 
-function slot0.OnGetAwardDone(slot0, slot1)
+slot0.OnGetAwardDone = function(slot0, slot1)
 	if slot1.cmd == MiniGameOPCommand.CMD_COMPLETE and slot0.onGetAward then
 		slot0.onGetAward()
 
@@ -78,7 +78,7 @@ function slot0.OnGetAwardDone(slot0, slot1)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	PlayerPrefs.SetInt("DecodeGameMapId", slot0.controller.mapId or 1)
 	PlayerPrefs.Save()
 	slot0.controller:Dispose()

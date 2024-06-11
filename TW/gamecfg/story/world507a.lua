@@ -1,17 +1,17 @@
 return {
-	id = "WORLD507A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD507A",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900227,
 			stopbgm = true,
-			bgName = "bg_burningsea_1",
+			side = 2,
 			actorName = "企業·META",
 			dir = 1,
-			side = 2,
+			bgName = "bg_burningsea_1",
+			actor = 900227,
 			nameColor = "#ffa500",
 			say = "感覺怎麼樣？",
 			flashin = {
@@ -36,8 +36,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			nameColor = "#ffa500",
 			say = "有種熟悉又討厭的感覺……",
 			typewriter = {
@@ -53,8 +53,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "哦對，來到這個階段的實驗場妳還是第一次。",
 			typewriter = {
@@ -70,8 +70,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			nameColor = "#ffa500",
 			say = "妳們已經經歷了很多次了嗎……？",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "差不多算是吧~別忘了我們之間彼此不談論過去的約定哦。",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9707020,
 			dir = 1,
+			actor = 9707020,
 			nameColor = "#ffa500",
 			say = "抱歉……",
 			typewriter = {
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "企業·META",
 			say = "閒聊到此為止，敵人開始行動了。",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_burningsea_1",
-			actor = 9707010,
 			dir = 1,
+			actor = 9707010,
 			nameColor = "#ffa500",
 			say = "這麼做果然還是太招搖啦，這麼下去仲裁機關到達也只是時間問題了哦。",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "企業·META",
 			say = "既然決定留在這裡，不管在哪裡開都一樣。",
 			typewriter = {
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 900227,
 			nameColor = "#ffa500",
-			bgName = "bg_burningsea_1",
 			side = 2,
+			bgName = "bg_burningsea_1",
 			dir = 1,
+			actor = 900227,
 			actorName = "企業·META",
 			say = "直到奇異點穩定之前，用任何方式拖下去……就是妳們接下來的任務。",
 			typewriter = {
@@ -186,15 +186,15 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "指揮官大人，感覺好些了嗎？",
 			dir = 1,
 			bgm = "main-arbitrationsystem-theme",
+			actor = 202120,
+			nameColor = "#a9f548",
+			say = "指揮官大人，感覺好些了嗎？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -219,8 +219,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "感覺好多了——",
 			typewriter = {
 				speed = 0.05,
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -314,12 +314,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "來到船艙外，映入眼簾的是一幅令人震驚的景象。",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -344,8 +344,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "以咫尺的眼前為起點，以虛幻的地平線為終點。放眼望去，映入眼簾之物皆是漂浮的殘骸。",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "密度之大，需要艦隊維持單縱陣，依靠量產型戰列艦開路才能勉強繼續前行。",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "原本艦隊一邊戒備著敵人一邊前進，可是預想中的伏擊沒有到來，取而代之的就是這些……殘骸。",
 			typewriter = {
 				speed = 0.05,
@@ -419,8 +419,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "僅僅在半個小時內，艦隊就被殘骸徹底包圍了。",
 			typewriter = {
 				speed = 0.05,
@@ -450,8 +450,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "墳場……",
 			typewriter = {
 				speed = 0.05,
@@ -463,8 +463,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "視野之中不存在任何敵人，存在的只是一望無際的殘骸。",
 			typewriter = {
 				speed = 0.05,
@@ -476,8 +476,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "殘骸相互堆疊著，靜靜漂浮在詭異的海面上。",
 			typewriter = {
 				speed = 0.05,
@@ -489,8 +489,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "雖然不時有碎片被艦隊推開，相互刮擦發出朽鈍的撞擊聲，但也很快繼續歸於寧靜。",
 			typewriter = {
 				speed = 0.05,
@@ -502,8 +502,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "以眼前的氛圍來說，稱這裡為墳場或許最為恰當。",
 			typewriter = {
 				speed = 0.05,
@@ -515,8 +515,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -528,8 +528,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "艦隊保持陣型規避殘骸前進。派出全部偵察機，盡快搞清海域狀況。",
 			typewriter = {
 				speed = 0.05,

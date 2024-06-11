@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIJINGHUA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIJINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"「버츄얼 연결고리의 공시성」 -정화편\n\n<size=45>4. 언젠가 다시 만나는 그날까지</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "story-2",
 			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "이걸 이렇게 해서… 이렇게! ……좋아! 모든 바이러스 퇴치 완료네!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -69,11 +69,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 302010,
+			nameColor = "#92fc63",
 			say = "지나갈 수 있는 건 키즈나 아이뿐인 모양이지만…… 으으음, 어떤 세계인지 궁금하네.",
 			typewriter = {
 				speed = 0.05,
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -178,8 +178,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "응! 모두, 절대 잊지 않을게!",
 			typewriter = {
@@ -195,8 +195,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "아, 그래! 이거, 나라고 생각하고 숙소에 장식해줬으면 좋겠네!",
 			typewriter = {
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#92fc63",
 			say = "키즈나 두목님! 가르쳐준 거 잘 살려서 샌디에이고도 버츄얼 유튜버? 힘낼게! 두목님도 파이팅이야~!",
 			typewriter = {
 				speed = 0.05,
@@ -273,8 +273,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -347,9 +347,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "………",
 			typewriter = {
 				speed = 0.05,
@@ -364,8 +364,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 10400010,
 			dir = 1,
+			actor = 10400010,
 			nameColor = "#92fc63",
 			say = "또 언젠가, 꼭 만나자! 그러니까… 안녕이라고는 하지 않을게 모두 정말 좋아해!!!",
 			typewriter = {
@@ -378,11 +378,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 201210,
 			say = "안녕이라고는 하지 않을게'……인가. 응, 그렇네! 그때를 기대하고 기다릴게!",
 			flashN = {
 				color = {
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……이렇게, 인텔리전트한 슈퍼 AI는 모항의 모두의 마음속에 소중한 추억을 새기고 떠나갔다.",
 			flashin = {
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "키즈나 아이가 남긴 '인연'을 가슴에 품고 나아간다. 언젠가 다시 만날 그날까지……",
 			typewriter = {

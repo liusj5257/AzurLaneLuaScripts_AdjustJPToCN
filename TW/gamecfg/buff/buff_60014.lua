@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-海伦娜-技能触发被动",
 	time = 0,
+	name = "测试-海伦娜-技能触发被动",
+	init_effect = "",
 	picture = "",
 	desc = "舰队之眼",
 	stack = 1,
@@ -16,10 +16,10 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				check_target = "TargetHarmRandom",
+				target = "TargetSelf",
 				time = 10,
-				skill_id = 60008,
-				target = "TargetSelf"
+				check_target = "TargetHarmRandom",
+				skill_id = 60008
 			}
 		}
 	}

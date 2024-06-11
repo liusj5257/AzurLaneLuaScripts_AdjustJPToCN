@@ -4,11 +4,11 @@ slot1 = class("BattleBuffOrb", slot0.Battle.BattleBuffEffect)
 slot0.Battle.BattleBuffOrb = slot1
 slot1.__name = "BattleBuffOrb"
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot3 = slot0._tempData.arg_list
 	slot0._buffID = slot3.buff_id
 	slot0._rant = slot3.rant or 10000
@@ -16,7 +16,7 @@ function slot1.SetArgs(slot0, slot1, slot2)
 	slot0._type = slot3.type
 end
 
-function slot1.onTrigger(slot0, slot1, slot2, slot3)
+slot1.onTrigger = function(slot0, slot1, slot2, slot3)
 	slot4 = slot3._bullet
 
 	if slot0._type and slot4:GetTemplate().type ~= slot0._type then
@@ -27,7 +27,7 @@ function slot1.onTrigger(slot0, slot1, slot2, slot3)
 	uv0.super.onTrigger(slot0, slot1, slot2, slot3)
 end
 
-function slot1.attachOrb(slot0, slot1)
+slot1.attachOrb = function(slot0, slot1)
 	slot1:AppendAttachBuff({
 		buff_id = slot0._buffID,
 		rant = slot0._rant,

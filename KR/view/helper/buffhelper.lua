@@ -1,6 +1,6 @@
 slot0 = class("BuffHelper")
 
-function slot1(slot0, slot1)
+slot1 = function(slot0, slot1)
 	if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUFF then
 		if slot1 and not slot1:isEnd() then
 			slot3 = {}
@@ -64,7 +64,7 @@ function slot1(slot0, slot1)
 	end
 end
 
-function slot0.GetAllBuff(slot0)
+slot0.GetAllBuff = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(getProxy(PlayerProxy):getRawData():GetBuffs()) do
@@ -86,7 +86,7 @@ function slot0.GetAllBuff(slot0)
 	return slot1
 end
 
-function slot0.GetBackYardExpBuffs()
+slot0.GetBackYardExpBuffs = function()
 	slot0 = {}
 
 	for slot5, slot6 in ipairs(uv0.GetAllBuff()) do
@@ -98,11 +98,11 @@ function slot0.GetBackYardExpBuffs()
 	return slot0
 end
 
-function slot0.GetShipModExpBuff()
+slot0.GetShipModExpBuff = function()
 	return getProxy(ActivityProxy):getShipModExpActivity()
 end
 
-function slot0.GetBackYardPlayerBuffs()
+slot0.GetBackYardPlayerBuffs = function()
 	slot0 = {}
 
 	for slot5, slot6 in ipairs(getProxy(PlayerProxy):getRawData():GetBuffs()) do
@@ -114,7 +114,7 @@ function slot0.GetBackYardPlayerBuffs()
 	return slot0
 end
 
-function slot0.GetBattleBuffs(slot0)
+slot0.GetBattleBuffs = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(uv0.GetAllBuff({
@@ -128,7 +128,7 @@ function slot0.GetBattleBuffs(slot0)
 	return slot1
 end
 
-function slot0.GetBuffsByActivityType(slot0)
+slot0.GetBuffsByActivityType = function(slot0)
 	slot2 = getProxy(ActivityProxy)
 
 	_.each(slot2:getActivitiesByType(slot0), function (slot0)
@@ -138,7 +138,7 @@ function slot0.GetBuffsByActivityType(slot0)
 	return {}
 end
 
-function slot0.GetBuffsForMainUI()
+slot0.GetBuffsForMainUI = function()
 	slot0 = getProxy(ActivityProxy)
 
 	for slot5 = #uv0.GetBuffsByActivityType(ActivityConst.ACTIVITY_TYPE_BUFF), 1, -1 do

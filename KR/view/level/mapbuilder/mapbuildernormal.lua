@@ -1,6 +1,6 @@
 slot1 = class("MapBuilderNormal", import(".MapBuilder"))
 
-function slot1.Ctor(slot0, ...)
+slot1.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 
 	slot0.mapItemTimer = {}
@@ -8,15 +8,15 @@ function slot1.Ctor(slot0, ...)
 	slot0.chaptersInBackAnimating = {}
 end
 
-function slot1.GetType(slot0)
+slot1.GetType = function(slot0)
 	return uv0.TYPENORMAL
 end
 
-function slot1.getUIName(slot0)
+slot1.getUIName = function(slot0)
 	return "levels"
 end
 
-function slot1.Load(slot0)
+slot1.Load = function(slot0)
 	if slot0._state ~= uv0.STATES.NONE then
 		return
 	end
@@ -36,7 +36,7 @@ function slot1.Load(slot0)
 	})
 end
 
-function slot1.Destroy(slot0)
+slot1.Destroy = function(slot0)
 	if slot0._state == uv0.STATES.DESTROY then
 		return
 	end
@@ -59,7 +59,7 @@ function slot1.Destroy(slot0)
 	slot0._state = uv0.STATES.DESTROY
 end
 
-function slot1.OnInit(slot0)
+slot1.OnInit = function(slot0)
 	slot0.chapterTpl = slot0._tf:Find("level_tpl")
 
 	setActive(slot0.chapterTpl, false)
@@ -72,13 +72,13 @@ function slot1.OnInit(slot0)
 	slot0.storyHolder = slot0._tf:Find("stories")
 end
 
-function slot1.OnShow(slot0)
+slot1.OnShow = function(slot0)
 	setActive(slot0.sceneParent.mainLayer:Find("title_chapter_lines"), true)
 	setActive(slot0.sceneParent.topChapter:Find("title_chapter"), true)
 	setActive(slot0.sceneParent.topChapter:Find("type_chapter"), true)
 end
 
-function slot1.OnHide(slot0)
+slot1.OnHide = function(slot0)
 	setActive(slot0.sceneParent.mainLayer:Find("title_chapter_lines"), false)
 	setActive(slot0.sceneParent.topChapter:Find("title_chapter"), false)
 
@@ -95,13 +95,13 @@ function slot1.OnHide(slot0)
 	uv0.super.OnHide(slot0)
 end
 
-function slot1.OnDestroy(slot0)
+slot1.OnDestroy = function(slot0)
 	slot0.mapItemTimer = nil
 
 	uv0.super.OnDestroy(slot0)
 end
 
-function slot1.StartTimer(slot0, slot1, slot2, slot3)
+slot1.StartTimer = function(slot0, slot1, slot2, slot3)
 	if not slot0.mapItemTimer[slot1] then
 		slot0.mapItemTimer[slot1] = Timer.New(slot2, slot3)
 	else
@@ -111,7 +111,7 @@ function slot1.StartTimer(slot0, slot1, slot2, slot3)
 	slot0.mapItemTimer[slot1]:Start()
 end
 
-function slot1.StopMapItemTimers(slot0)
+slot1.StopMapItemTimers = function(slot0)
 	for slot4, slot5 in pairs(slot0.mapItemTimer) do
 		slot5:Stop()
 	end
@@ -119,7 +119,7 @@ function slot1.StopMapItemTimers(slot0)
 	table.clear(slot0.mapItemTimer)
 end
 
-function slot1.Update(slot0, slot1)
+slot1.Update = function(slot0, slot1)
 	slot0.float.pivot = Vector2(0.5, 0.5)
 	slot0.float.anchoredPosition = Vector2(0, 0)
 
@@ -128,12 +128,12 @@ function slot1.Update(slot0, slot1)
 	uv0.super.Update(slot0, slot1)
 end
 
-function slot1.UpdateButtons(slot0)
+slot1.UpdateButtons = function(slot0)
 	slot0.sceneParent:updateDifficultyBtns()
 	slot0.sceneParent:updateActivityBtns()
 end
 
-function slot1.UpdateMapItems(slot0)
+slot1.UpdateMapItems = function(slot0)
 	if not slot0:isShowing() then
 		return
 	end
@@ -163,7 +163,7 @@ function slot1.UpdateMapItems(slot0)
 
 	table.clear(slot0.chapterTFsById)
 
-	function slot9(slot0, slot1, slot2)
+	slot9 = function(slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
 
@@ -250,7 +250,7 @@ function slot1.UpdateMapItems(slot0)
 	end
 end
 
-function slot1.UpdateMapItem(slot0, slot1, slot2)
+slot1.UpdateMapItem = function(slot0, slot1, slot2)
 	slot3 = slot2:getConfigTable()
 
 	setAnchoredPosition(slot1, {
@@ -400,7 +400,7 @@ function slot1.UpdateMapItem(slot0, slot1, slot2)
 	end, SFX_UI_WEIGHANCHOR_SELECT)
 end
 
-function slot1.PlayChapterItemAnimation(slot0, slot1, slot2, slot3)
+slot1.PlayChapterItemAnimation = function(slot0, slot1, slot2, slot3)
 	slot4 = findTF(slot1, "main")
 	slot6 = findTF(slot4, "circle")
 	slot7 = findTF(slot4, "info/bk")
@@ -426,7 +426,7 @@ function slot1.PlayChapterItemAnimation(slot0, slot1, slot2, slot3)
 	end)
 end
 
-function slot1.PlayChapterItemAnimationBackward(slot0, slot1, slot2, slot3)
+slot1.PlayChapterItemAnimationBackward = function(slot0, slot1, slot2, slot3)
 	slot4 = findTF(slot1, "main")
 	slot6 = findTF(slot4, "circle")
 	slot7 = findTF(slot4, "info/bk")
@@ -456,7 +456,7 @@ function slot1.PlayChapterItemAnimationBackward(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.UpdateChapterTF(slot0, slot1)
+slot1.UpdateChapterTF = function(slot0, slot1)
 	if slot0.chapterTFsById[slot1] then
 		slot3 = getProxy(ChapterProxy):getChapterById(slot1)
 
@@ -465,7 +465,7 @@ function slot1.UpdateChapterTF(slot0, slot1)
 	end
 end
 
-function slot1.AddChapterTF(slot0, slot1)
+slot1.AddChapterTF = function(slot0, slot1)
 	slot2 = slot0.data
 
 	if slot0.chapterTFsById[slot1] then
@@ -488,13 +488,13 @@ function slot1.AddChapterTF(slot0, slot1)
 	end
 end
 
-function slot1.TryOpenChapter(slot0, slot1)
+slot1.TryOpenChapter = function(slot0, slot1)
 	if slot0.chapterTFsById[slot1] then
 		triggerButton(slot2:Find("main"))
 	end
 end
 
-function slot1.UpdateStoryGroup(slot0)
+slot1.UpdateStoryGroup = function(slot0)
 	slot1 = slot0.data
 	slot1 = slot1:GetChapterInProgress()
 
@@ -511,7 +511,7 @@ function slot1.UpdateStoryGroup(slot0)
 	end)
 end
 
-function slot1.UpdateMapStory(slot0, slot1, slot2)
+slot1.UpdateMapStory = function(slot0, slot1, slot2)
 	slot3 = slot2:GetPosition()
 
 	setAnchoredPosition(slot1, {

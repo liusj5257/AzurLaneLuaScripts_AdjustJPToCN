@@ -1,6 +1,6 @@
 slot0 = class("StrategyPanel", import("..base.BasePanel"))
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.icon = slot0:findTF("window/panel/item/icon_bg/icon")
@@ -17,7 +17,7 @@ function slot0.init(slot0)
 	slot0.onCancel = nil
 end
 
-function slot0.set(slot0, slot1)
+slot0.set = function(slot0, slot1)
 	slot0.strategy = slot1
 	slot2 = pg.strategy_data_template[slot1.id]
 

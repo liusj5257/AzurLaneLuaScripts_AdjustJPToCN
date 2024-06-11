@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TONGHUASENLIN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TONGHUASENLIN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -39,17 +39,17 @@ return {
 			}
 		},
 		{
-			actor = 312010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "指揮官、おはようにゃ！",
 			bgm = "bar-soft",
+			actor = 312010,
+			nameColor = "#a9f548",
+			say = "指揮官、おはようにゃ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -74,9 +74,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "休日の朝、明石が執務室に訪れてきた。",
 			typewriter = {
 				speed = 0.05,
@@ -126,9 +126,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "嫌な予感がする……",
 			typewriter = {
 				speed = 0.05,
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "むふふ、もしかしてもう遊びたくてしょうがないにゃ？",
 			typewriter = {
 				speed = 0.05,
@@ -214,12 +214,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "にゃは！指揮官なら助けてくれると思ったにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -231,12 +231,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "そんなこと言われても、もう仲間たちがセットで待機してるにゃ～。今日こそ制覇！って感じで頼むにゃー",
 			typewriter = {
 				speed = 0.05,
@@ -280,13 +280,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_158",
+			side = 2,
+			dir = 1,
 			say = "明石が指定した場所に着くと、ロイヤルメイドのエンタープライズが待っていた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -330,8 +330,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_158",
-			actor = 202320,
 			dir = 1,
+			actor = 202320,
 			nameColor = "#a9f548",
 			say = "名前は「御伽の森冒険記」――森に迷い込んだ人間が脱出する物語になります",
 			typewriter = {
@@ -360,9 +360,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
+			dir = 1,
 			say = "入口、とエンタープライズは言っているが、周りにそれらしきものは見当たらず、ただ森の奥へと続く一本道があった。",
 			typewriter = {
 				speed = 0.05,
@@ -390,9 +390,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_158",
+			dir = 1,
 			say = "そういえば今回は通信機が渡されていないな。",
 			typewriter = {
 				speed = 0.05,
@@ -407,8 +407,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_158",
-			actor = 202320,
 			dir = 1,
+			actor = 202320,
 			nameColor = "#a9f548",
 			say = "はい、今回はスタッフと一緒に脱出を目指すゲームですから、仲間たちは基本指揮官を手助けする役になっています",
 			typewriter = {

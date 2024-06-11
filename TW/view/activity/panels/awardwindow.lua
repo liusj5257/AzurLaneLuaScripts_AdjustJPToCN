@@ -1,10 +1,10 @@
 slot0 = class("AwardWindow", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ActivitybonusWindow_nonPt"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("window/top/btnBack")
 	slot0.uiItemList = UIItemList.New(slot0:findTF("window/panel/list"), slot0:findTF("window/panel/list/item"))
 	slot0.currentTitle = slot0:findTF("window/pt/title"):GetComponent(typeof(Text))
@@ -13,7 +13,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("window/top/bg/infomation"), i18n("world_expedition_reward_display"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -30,7 +30,7 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.UpdateItem(slot0, slot1, slot2)
+slot0.UpdateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.awards[slot1 + 1]
 	slot4 = slot2:Find("award")
 
@@ -48,7 +48,7 @@ function slot0.UpdateItem(slot0, slot1, slot2)
 	setText(slot2:Find("title/Text"), "PHASE  " .. slot1 + 1)
 end
 
-function slot0.Flush(slot0, slot1, slot2, slot3)
+slot0.Flush = function(slot0, slot1, slot2, slot3)
 	slot0.awards = slot1
 	slot0.finishIndex = slot2
 	slot0.targetTitle = slot3[2]
@@ -61,17 +61,17 @@ function slot0.Flush(slot0, slot1, slot2, slot3)
 	slot0:Show()
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

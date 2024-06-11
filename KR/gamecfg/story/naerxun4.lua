@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NAERXUN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NAERXUN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"솔직하지 못한 마음\n\n<size=45>4. 이 얘기는 끝!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "그것은 햇살이 찬란한 어느 날이었다——",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "그것은 햇살이 찬란한 어느 날이었다——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,8 +53,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "어라, 지휘관님. 이런 곳에서 만나다니 신기하네요? 외출할 일이 있나요?",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "아~ 그렇군요. 후후~ 넬슨 언니는 지휘관이 한 말은 전부 다 기억하고 있군요~",
 			typewriter = {
@@ -132,9 +132,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "이글 유니온의 생활 구역으로 향하고 있는 로드니와 넬슨 언니는 평범하게 산책을 하고 있는 것 같지는 않아 보였다.",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "저도 지휘관님이 함께하는 것이 좋을 것 같아요. 두 진영이 함께 하는 합동 훈련이니까요...",
 			typewriter = {
@@ -179,9 +179,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "이글 유니온과 로열 네이비의 합동 훈련인가... 봐둘 만한 가치는 있을 것 같다.",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "요 근래 지휘관님의 업무량이 점점 더 많아지는 것 같네요...",
 			typewriter = {
@@ -245,8 +245,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_school",
-			actor = 205040,
 			dir = 1,
+			actor = 205040,
 			nameColor = "#a9f548",
 			say = "작전 회의 전에 아이스 홍차를 준비할 테니, 천천히 즐겨주세요~",
 			typewriter = {
@@ -291,11 +291,11 @@ return {
 			}
 		},
 		{
-			actor = 205030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205030,
+			nameColor = "#a9f548",
 			say = "크흠! 난 아무 말도 안 했어! 이 얘기는 여기까지!",
 			typewriter = {
 				speed = 0.05,
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -317,9 +317,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "말을 끊은 넬슨 언니는 앞을 향해서 빠르게 걸어갔다.",
 			typewriter = {
 				speed = 0.05,

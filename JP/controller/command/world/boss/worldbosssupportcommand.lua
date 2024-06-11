@@ -1,6 +1,6 @@
 slot0 = class("WorldBossSupportCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	assert(slot1:getBody().type)
 
 	if not nowWorld().worldBossProxy:GetSelfBoss() then

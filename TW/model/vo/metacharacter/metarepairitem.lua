@@ -1,10 +1,10 @@
 slot0 = class("MetaRepairItem", import("..BaseVO"))
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.ship_meta_repair
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.itemId = slot0:getConfig("item_id")
@@ -17,19 +17,19 @@ function slot0.Ctor(slot0, slot1)
 	}
 end
 
-function slot0.getItemId(slot0)
+slot0.getItemId = function(slot0)
 	return slot0.itemId
 end
 
-function slot0.getTotalCnt(slot0)
+slot0.getTotalCnt = function(slot0)
 	return slot0.totalCnt or 0
 end
 
-function slot0.getRepairExp(slot0)
+slot0.getRepairExp = function(slot0)
 	return slot0.repairExp
 end
 
-function slot0.getAdditionValue(slot0)
+slot0.getAdditionValue = function(slot0)
 	return slot0.addition.value
 end
 

@@ -1,13 +1,13 @@
 pg = pg or {}
 pg.child_site = {
 	[110] = {
-		icon = "child_icon_food",
 		name = "맛집 거리",
 		type = 1,
-		id = 110,
 		name_pic = "child_icon_food_name",
 		pic = "site_1",
 		desc = "맛집 거리에 어서 오세요! 다양한 먹거리가 모여 있어 시각적으로도 미각적으로도 만족스러운 곳.",
+		id = 110,
+		icon = "child_icon_food",
 		ability = {},
 		coordinate = {
 			-201.6,
@@ -39,13 +39,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[111] = {
-		icon = "",
 		name = "패밀리 레스토랑",
 		type = 2,
-		id = 111,
 		name_pic = "",
 		pic = "site_1",
 		desc = "식재료 본연의 매력을 살린 풍부한 맛. 당신의 미각에 행복 있으라.",
+		id = 111,
+		icon = "",
 		ability = {},
 		coordinate = {
 			0,
@@ -72,13 +72,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[120] = {
-		icon = "child_icon_manor",
 		name = "리조트",
 		type = 1,
-		id = 120,
 		name_pic = "child_icon_manor_name",
 		pic = "site_2",
 		desc = "빈손으로 묵을 수 있는 편리하고 간편한 리조트 콘도",
+		id = 120,
+		icon = "child_icon_manor",
 		ability = {},
 		coordinate = {
 			554.4,
@@ -107,13 +107,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[121] = {
-		icon = "",
 		name = "고요한 산봉우리",
 		type = 2,
-		id = 121,
 		name_pic = "",
 		pic = "site_2",
 		desc = "마음을 가라앉히기에 좋은 장소.",
+		id = 121,
+		icon = "",
 		ability = {},
 		coordinate = {
 			0,
@@ -143,13 +143,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[130] = {
-		icon = "child_icon_shopping",
 		name = "상점가",
 		type = 1,
-		id = 130,
 		name_pic = "child_icon_shopping_name",
 		pic = "site_3",
 		desc = "쇼핑, 오락, 사회경험... 뭐든지 가능한 곳!",
+		id = 130,
+		icon = "child_icon_shopping",
 		ability = {},
 		coordinate = {
 			38.4,
@@ -184,13 +184,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[131] = {
-		icon = "",
 		name = "사진 스튜디오",
 		type = 2,
-		id = 131,
 		name_pic = "",
 		pic = "site_3",
 		desc = "순간적인 아름다움을 포착하여 한 장 한 장을 영원한 기억으로 만든다.",
+		id = 131,
+		icon = "",
 		ability = {},
 		coordinate = {
 			0,
@@ -292,13 +292,13 @@ pg.child_site = {
 		}
 	},
 	[140] = {
-		icon = "child_icon_park",
 		name = "해변의 공원",
 		type = 1,
-		id = 140,
 		name_pic = "child_icon_park_name",
 		pic = "site_4",
 		desc = "모래사장과 파도가 어우러져 편안하게 휴식을 취할 수 있는 이상적인 장소.",
+		id = 140,
+		icon = "child_icon_park",
 		ability = {},
 		coordinate = {
 			-627.5,
@@ -327,13 +327,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[141] = {
-		icon = "",
 		name = "스타 스테이지",
 		type = 2,
-		id = 141,
 		name_pic = "",
 		pic = "site_4",
 		desc = "공연을 하나 하나 즐기는 여행.",
+		id = 141,
+		icon = "",
 		ability = {},
 		coordinate = {
 			0,
@@ -435,13 +435,13 @@ pg.child_site = {
 		}
 	},
 	[150] = {
-		icon = "child_icon_amusement",
 		name = "유원지",
 		type = 1,
-		id = 150,
 		name_pic = "child_icon_amusement_name",
 		pic = "site_5",
 		desc = "고민은 훌훌 털고 행복해지자!",
+		id = 150,
+		icon = "child_icon_amusement",
 		ability = {},
 		coordinate = {
 			262.9,
@@ -466,13 +466,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[160] = {
-		icon = "child_icon_gym",
 		name = "운동장",
 		type = 1,
-		id = 160,
 		name_pic = "child_icon_gym_name",
 		pic = "site_6",
 		desc = "한계에 도전하며 열정을 발산하는 곳.",
+		id = 160,
+		icon = "child_icon_gym",
 		ability = {},
 		coordinate = {
 			107.7,
@@ -506,13 +506,13 @@ pg.child_site = {
 		option_random = {}
 	},
 	[170] = {
-		icon = "child_icon_school",
 		name = "학교",
 		type = 1,
-		id = 170,
 		name_pic = "child_icon_school_name",
 		pic = "site_7",
 		desc = "자동 진학식 학교. 진학 고민은 필요 없다.",
+		id = 170,
+		icon = "child_icon_school",
 		ability = {},
 		coordinate = {
 			-282,

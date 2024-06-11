@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAO5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAO5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"大潮よりお届け♪\n\n<size=45>五　残業デー！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "深夜になったにもかかわらず、残った仕事は山積みだ。",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "困ったなこれは……",
 			typewriter = {
 				speed = 0.05,
@@ -98,9 +98,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "大潮がミルクを持ってきてくれた。",
 			typewriter = {
 				speed = 0.05,
@@ -124,9 +124,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "熱々のミルクを啜りながら、まだまだ高い書類の山を見る。少しため息をつきたい気分だ。",
 			typewriter = {
 				speed = 0.05,
@@ -134,9 +134,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "今日は眠れそうにないな……",
 			typewriter = {
 				speed = 0.05,
@@ -144,16 +144,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
-			actorName = "？？？",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			blackBg = true,
+			actorName = "？？？",
+			nameColor = "#a9f548",
 			say = "…指揮官、指揮官",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -178,12 +178,12 @@ return {
 			}
 		},
 		{
-			actor = 301640,
+			withoutActorName = true,
 			side = 2,
 			bgName = "bg_story_task",
-			dir = 1,
-			withoutActorName = true,
 			nameColor = "#a9f548",
+			dir = 1,
+			actor = 301640,
 			say = "大潮に起こされた。どうやら昨日はそのまま執務室で寝てしまったようだ。",
 			flashN = {
 				color = {
@@ -215,13 +215,13 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官、おはような。昨日はそのまま執務室で寝ちゃったんやな…",
 			bgm = "story-1",
+			actor = 301640,
+			nameColor = "#a9f548",
+			say = "指揮官、おはような。昨日はそのまま執務室で寝ちゃったんやな…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,9 +248,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "肩にコートがかけられていたことに気づく。",
 			typewriter = {
 				speed = 0.05,
@@ -274,9 +274,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "大潮はいつの間にかすっかりひと束ていどになった書類の山を軽く叩いた。",
 			typewriter = {
 				speed = 0.05,
@@ -284,11 +284,11 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "指揮官が頑張ったおかげで完了の目処も付きそうやな～もうちょういだけ頑張ろな？",
 			typewriter = {
 				speed = 0.05,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 301640,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301640,
+			nameColor = "#a9f548",
 			say = "ふふ♪　指揮官はやっぱ頼りになるな～",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

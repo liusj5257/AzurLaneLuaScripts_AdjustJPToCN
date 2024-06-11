@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "血量召唤",
 	cd = 0,
-	painting = 0,
-	id = 79001,
 	picture = "0",
 	aniEffect = "",
 	desc = "召唤",
+	painting = 0,
+	id = 79001,
 	effect_list = {
 		{
 			type = "BattleSkillSummon",

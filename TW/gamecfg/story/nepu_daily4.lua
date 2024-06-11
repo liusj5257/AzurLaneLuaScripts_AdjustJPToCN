@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>第四话　『房间与游戏与我』</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 10100040,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了…哎呀，好棒的游戏PC呢！",
 			bgm = "story-nepu2",
+			actor = 10100040,
+			nameColor = "#a9f548",
+			say = "打扰了…哎呀，好棒的游戏PC呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "欢迎来到游戏同好会～",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "欢迎来到游戏同好会～",
+			actor = 106011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "这里是热爱游戏，热爱堕落，从繁重的任务中获得一时的解脱的干物们休憩的地方…欢迎妳的到来！",
 			typewriter = {
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "呒呒呒，何等深刻的话语……妳、是专业的吧？",
 			typewriter = {
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "——咔挞咔挞咔挞咔挞咔挞咔挞……当！",
 			typewriter = {
 				speed = 0.05,
@@ -226,13 +226,13 @@ return {
 			}
 		},
 		{
-			actor = 302010,
+			say = "狩猎游戏裸装单刷…呒呒呒，竟然无伤击杀！？",
 			side = 1,
 			bgName = "bg_story_room",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
-			say = "狩猎游戏裸装单刷…呒呒呒，竟然无伤击杀！？",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -263,11 +263,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 1,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "陆海空……所有军事模拟全制霸！",
 			typewriter = {
@@ -296,11 +296,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 1,
+			bgName = "bg_story_room",
 			dir = 1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "迅雷不及掩耳的吃洋芋片的姿势…令人惊叹的游戏形态！",
 			typewriter = {
@@ -313,9 +313,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "——咔挞咔挞咔挞咔挞咔挞咔挞……当！",
 			typewriter = {
 				speed = 0.05,
@@ -339,12 +339,12 @@ return {
 			}
 		},
 		{
-			actor = 106011,
+			say = "姐姐……简直是神！游戏之神！好厉害……",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "姐姐……简直是神！游戏之神！好厉害……",
+			actor = 106011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -359,11 +359,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "{namecode:37}也很佩服！妳才是降临这个世界的…游戏之神…！",
 			typewriter = {
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "呒呒呒，这样一来还是要有多些参加者呢……",
 			typewriter = {
@@ -489,12 +489,12 @@ return {
 			}
 		},
 		{
-			actor = 205020,
+			say = "打扰了。殿下无论如何都想要来这边参观一下…",
 			side = 0,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "打扰了。殿下无论如何都想要来这边参观一下…",
+			actor = 205020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -509,11 +509,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "……啊，参加者来了吗？",
 			typewriter = {
@@ -590,11 +590,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "对话完全接不上…没问题吗？",
 			typewriter = {
@@ -655,11 +655,11 @@ return {
 			}
 		},
 		{
-			actor = 302010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_room",
 			side = 0,
+			bgName = "bg_story_room",
 			dir = -1,
+			actor = 302010,
 			actorName = "{namecode:37}",
 			say = "啊，这个人…散发着和皇家方舟一样的气息！",
 			typewriter = {

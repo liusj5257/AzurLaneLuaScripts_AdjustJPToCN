@@ -1,6 +1,6 @@
 slot0 = class("NewBattleResultDisplayAwardPage", import("view.base.BaseEventLogic"))
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._tf = slot1
 
 	uv0.super.Ctor(slot0, slot2)
@@ -8,11 +8,11 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.contextData = slot3
 end
 
-function slot0.ExecuteAction(slot0, slot1, slot2)
+slot0.ExecuteAction = function(slot0, slot1, slot2)
 	slot0:__slot1_None__(slot2)
 end
 
-function slot0.SetUp(slot0, slot1)
+slot0.SetUp = function(slot0, slot1)
 	slot2, slot3 = slot0:CollectDrops()
 
 	seriesAsync({
@@ -25,7 +25,7 @@ function slot0.SetUp(slot0, slot1)
 	}, slot1)
 end
 
-function slot0.ShowShips(slot0, slot1, slot2)
+slot0.ShowShips = function(slot0, slot1, slot2)
 	slot4 = getProxy(BayProxy)
 	slot4 = slot4:getNewShip(true)
 	slot5 = {}
@@ -70,7 +70,7 @@ function slot0.ShowShips(slot0, slot1, slot2)
 	seriesAsync(slot6, slot2)
 end
 
-function slot0.ShowAwards(slot0, slot1, slot2, slot3)
+slot0.ShowAwards = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.contextData.autoSkipFlag
 
 	if #slot1 > 0 then
@@ -85,7 +85,7 @@ function slot0.ShowAwards(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.CollectDrops(slot0)
+slot0.CollectDrops = function(slot0)
 	slot1 = false
 	slot2 = {}
 	slot3 = ipairs
@@ -118,7 +118,7 @@ function slot0.CollectDrops(slot0)
 	return slot2, slot1
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	slot0.exited = true
 end
 

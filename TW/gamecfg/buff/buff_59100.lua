@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "航速提高",
 	init_effect = "",
-	color = "red",
+	id = 59100,
+	time = 0,
 	picture = "",
 	desc = "航速提高30%",
 	stack = 1,
-	id = 59100,
+	color = "red",
 	icon = 59100,
 	last_effect = "",
 	blink = {

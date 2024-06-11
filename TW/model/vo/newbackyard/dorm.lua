@@ -6,7 +6,7 @@ slot0.COMFORTABLE_LEVEL_1 = 1
 slot0.COMFORTABLE_LEVEL_2 = 2
 slot0.COMFORTABLE_LEVEL_3 = 3
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.configId = slot1.id or slot1.lv
 	slot0.id = slot0.configId
 	slot0.level = slot0.id
@@ -32,7 +32,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.shopCfg = pg.shop_template
 end
 
-function slot0.GetExpandId(slot0)
+slot0.GetExpandId = function(slot0)
 	slot1 = slot0.level - 1
 
 	for slot5, slot6 in ipairs(slot0.expandIds) do
@@ -42,40 +42,40 @@ function slot0.GetExpandId(slot0)
 	end
 end
 
-function slot0.IsMaxLevel(slot0)
+slot0.IsMaxLevel = function(slot0)
 	return uv0.MAX_LEVEL <= slot0.level
 end
 
-function slot0.GetMapSize(slot0)
+slot0.GetMapSize = function(slot0)
 	return uv0.StaticGetMapSize(slot0.level)
 end
 
-function slot0.StaticGetMapSize(slot0)
+slot0.StaticGetMapSize = function(slot0)
 	slot1 = 12 - (slot0 - 1) * 4
 	slot4 = BackYardConst.MAX_MAP_SIZE
 
 	return Vector4(slot1, slot1, slot4.x, slot4.y)
 end
 
-function slot0.isUnlockFloor(slot0, slot1)
+slot0.isUnlockFloor = function(slot0, slot1)
 	return slot1 <= slot0.floorNum
 end
 
-function slot0.setFloorNum(slot0, slot1)
+slot0.setFloorNum = function(slot0, slot1)
 	assert(slot1 <= uv0.MAX_FLOOR, "floornum more than max" .. slot1)
 
 	slot0.floorNum = slot1
 end
 
-function slot0.setName(slot0, slot1)
+slot0.setName = function(slot0, slot1)
 	slot0.name = slot1
 end
 
-function slot0.GetName(slot0)
+slot0.GetName = function(slot0)
 	return slot0.name
 end
 
-function slot0.getExtendTrainPosShopId(slot0)
+slot0.getExtendTrainPosShopId = function(slot0)
 	slot1 = pg.shop_template
 
 	for slot5, slot6 in pairs({
@@ -90,15 +90,15 @@ function slot0.getExtendTrainPosShopId(slot0)
 	end
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.dorm_data_template
 end
 
-function slot0.getComfortable(slot0, slot1)
+slot0.getComfortable = function(slot0, slot1)
 	slot2 = 0
 	slot3 = {}
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		if not uv0[slot0:getTypeForComfortable()] then
 			uv0[slot1] = {}
 		end
@@ -140,7 +140,7 @@ function slot0.getComfortable(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetComfortableLevel(slot0, slot1)
+slot0.GetComfortableLevel = function(slot0, slot1)
 	if slot1 < 30 then
 		return uv0.COMFORTABLE_LEVEL_1
 	elseif slot1 >= 30 and slot1 < 68 then
@@ -150,11 +150,11 @@ function slot0.GetComfortableLevel(slot0, slot1)
 	end
 end
 
-function slot0._GetComfortableLevel(slot0)
+slot0._GetComfortableLevel = function(slot0)
 	return slot0:GetComfortableLevel(slot0:getComfortable())
 end
 
-function slot0.GetComfortableColor(slot0, slot1)
+slot0.GetComfortableColor = function(slot0, slot1)
 	return ({
 		Color.New(0.9490196, 0.772549, 0.772549, 1),
 		Color.New(0.9882353, 0.9333333, 0.7647059, 1),
@@ -162,42 +162,42 @@ function slot0.GetComfortableColor(slot0, slot1)
 	})[slot1]
 end
 
-function slot0.increaseTrainPos(slot0)
+slot0.increaseTrainPos = function(slot0)
 	slot0.exp_pos = slot0.exp_pos + 1
 end
 
-function slot0.increaseRestPos(slot0)
+slot0.increaseRestPos = function(slot0)
 	slot0.rest_pos = slot0.rest_pos + 1
 end
 
-function slot0.increaseFoodExtendCount(slot0)
+slot0.increaseFoodExtendCount = function(slot0)
 	slot0.food_extend_count = slot0.food_extend_count + 1
 end
 
-function slot0.extendFoodCapacity(slot0, slot1)
+slot0.extendFoodCapacity = function(slot0, slot1)
 	slot0.dorm_food_max = slot0.dorm_food_max + slot1
 end
 
-function slot0.levelUp(slot0)
+slot0.levelUp = function(slot0)
 	slot0.configId = slot0.configId + 1
 	slot0.id = slot0.configId
 	slot0.level = slot0.configId
 	slot0.comfortable = (slot0.level - 1) * 10
 end
 
-function slot0.consumeFood(slot0, slot1)
+slot0.consumeFood = function(slot0, slot1)
 	slot0.food = math.max(slot0.food - slot1, 0)
 end
 
-function slot0.restNextTime(slot0)
+slot0.restNextTime = function(slot0)
 	slot0.next_timestamp = pg.TimeMgr.GetInstance():GetServerTime() + slot0:bindConfigTable()[slot0.id].time
 end
 
-function slot0.isMaxFood(slot0)
+slot0.isMaxFood = function(slot0)
 	return slot0.food >= slot0.dorm_food_max + slot0:bindConfigTable()[slot0.id].capacity
 end
 
-function slot0.getFoodLeftTime(slot0)
+slot0.getFoodLeftTime = function(slot0)
 	slot1 = slot0:bindConfigTable()[slot0.id]
 
 	if getProxy(DormProxy):getTrainShipCount() == 0 then
@@ -209,19 +209,19 @@ function slot0.getFoodLeftTime(slot0)
 	return slot0.next_timestamp + ((slot0.food - slot0.food % slot4) / slot4 - 1) * slot1.time
 end
 
-function slot0.GetCapcity(slot0)
+slot0.GetCapcity = function(slot0)
 	return slot0:getConfig("capacity") + slot0.dorm_food_max
 end
 
-function slot0.setShipIds(slot0, slot1)
+slot0.setShipIds = function(slot0, slot1)
 	slot0.shipIds = slot1
 end
 
-function slot0.addShip(slot0, slot1)
+slot0.addShip = function(slot0, slot1)
 	table.insert(slot0.shipIds, slot1)
 end
 
-function slot0.deleteShip(slot0, slot1)
+slot0.deleteShip = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.shipIds) do
 		if slot6 == slot1 then
 			table.remove(slot0.shipIds, slot5)
@@ -231,7 +231,7 @@ function slot0.deleteShip(slot0, slot1)
 	end
 end
 
-function slot0.GetStateShipCnt(slot0, slot1)
+slot0.GetStateShipCnt = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0.shipIds) do
@@ -243,7 +243,7 @@ function slot0.GetStateShipCnt(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetStateShips(slot0, slot1)
+slot0.GetStateShips = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.shipIds) do
@@ -255,7 +255,7 @@ function slot0.GetStateShips(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetStateShipsById(slot0, slot1)
+slot0.GetStateShipsById = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.shipIds) do
@@ -267,7 +267,7 @@ function slot0.GetStateShipsById(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetNonStateShips(slot0, slot1)
+slot0.GetNonStateShips = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.shipIds) do
@@ -279,7 +279,7 @@ function slot0.GetNonStateShips(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetShips(slot0)
+slot0.GetShips = function(slot0)
 	slot1 = {}
 	slot2 = getProxy(BayProxy)
 
@@ -294,7 +294,7 @@ function slot0.GetShips(slot0)
 	return slot1
 end
 
-function slot0.AnyShipExistIntimacyOrMoney(slot0)
+slot0.AnyShipExistIntimacyOrMoney = function(slot0)
 	for slot5, slot6 in pairs(slot0:GetShips()) do
 		if slot6.state_info_3 > 0 or slot6.state_info_4 > 0 then
 			return true
@@ -304,23 +304,23 @@ function slot0.AnyShipExistIntimacyOrMoney(slot0)
 	return false
 end
 
-function slot0.GetThemeList(slot0, slot1)
+slot0.GetThemeList = function(slot0, slot1)
 	return slot0.themes
 end
 
-function slot0.SetTheme(slot0, slot1, slot2)
+slot0.SetTheme = function(slot0, slot1, slot2)
 	slot0.themes[slot1] = slot2
 end
 
-function slot0.GetTheme(slot0, slot1)
+slot0.GetTheme = function(slot0, slot1)
 	return slot0.themes[slot1]
 end
 
-function slot0.GetPurchasedFurnitures(slot0)
+slot0.GetPurchasedFurnitures = function(slot0)
 	return slot0.furnitures
 end
 
-function slot0.GetOwnFurnitureCount(slot0, slot1)
+slot0.GetOwnFurnitureCount = function(slot0, slot1)
 	if not slot0.furnitures[slot1] then
 		return 0
 	else
@@ -328,11 +328,11 @@ function slot0.GetOwnFurnitureCount(slot0, slot1)
 	end
 end
 
-function slot0.SetFurnitures(slot0, slot1)
+slot0.SetFurnitures = function(slot0, slot1)
 	slot0.furnitures = slot1
 end
 
-function slot0.AddFurniture(slot0, slot1)
+slot0.AddFurniture = function(slot0, slot1)
 	if not slot0.furnitures[slot1.id] then
 		slot1:MarkNew()
 
@@ -344,19 +344,19 @@ function slot0.AddFurniture(slot0, slot1)
 	end
 end
 
-function slot0.IsPurchasedFurniture(slot0, slot1)
+slot0.IsPurchasedFurniture = function(slot0, slot1)
 	return slot0.furnitures[slot1] ~= nil and slot0.furnitures[slot1].count > 0
 end
 
-function slot0.HasFurniture(slot0, slot1)
+slot0.HasFurniture = function(slot0, slot1)
 	return slot0.furnitures[slot1] ~= nil
 end
 
-function slot0.GetFurniture(slot0, slot1)
+slot0.GetFurniture = function(slot0, slot1)
 	return slot0.furnitures[slot1]
 end
 
-function slot0.GetPutFurnitureList(slot0, slot1)
+slot0.GetPutFurnitureList = function(slot0, slot1)
 	slot2 = {}
 	slot4 = slot0:GetTheme(slot1) and slot3:GetAllFurniture() or {}
 
@@ -369,7 +369,7 @@ function slot0.GetPutFurnitureList(slot0, slot1)
 	return slot2
 end
 
-function slot0.GetPutShipList(slot0, slot1)
+slot0.GetPutShipList = function(slot0, slot1)
 	slot2 = {}
 	slot4 = ({
 		Ship.STATE_TRAIN,

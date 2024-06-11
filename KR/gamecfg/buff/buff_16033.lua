@@ -9,9 +9,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 8,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "使得非装备武器发射的子弹暴击率提高50%",
 	stack = 1,
@@ -25,8 +25,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 0.5,
+				attr = "cri",
 				index = {
 					-1
 				}

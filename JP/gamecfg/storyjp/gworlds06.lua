@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDS06",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDS06",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "すべての通常エリアの移動制限を解除し、確保報酬を入手しました。また、次回リセットまですべての通常エリアは偵察済み状態になります",
 			typewriter = {
 				speed = 0.05,

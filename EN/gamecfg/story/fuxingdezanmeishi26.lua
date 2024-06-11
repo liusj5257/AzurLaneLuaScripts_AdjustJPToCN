@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI26",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=35>\"Hey, Veneto, do you consider yourself an art aficionado?\"</size>",
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_italyv2_3",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
@@ -60,10 +60,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "But what about the aggressive Sirens?",
 			typewriter = {
 				speed = 0.05,
@@ -78,10 +78,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That's a good point... Even if we can leave them alone for now, what's not to say that they don't all come crashing down on us when we're trying to leave?",
 			typewriter = {
 				speed = 0.05,
@@ -96,10 +96,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "We'd be caged in from both sides...",
 			typewriter = {
 				speed = 0.05,
@@ -114,10 +114,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601040,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "We've never had to worry about any Sirens sneaking up from behind us so far though...",
 			typewriter = {
 				speed = 0.05,
@@ -132,10 +132,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Yeah! It's gonna be a huge issue if we find our way through the labyrinth but can't make our way back!",
 			typewriter = {
 				speed = 0.05,
@@ -150,10 +150,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 602010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I suspect the Sirens aren't so generous as to allow us to just follow our ball of string back to the entrance.",
 			typewriter = {
 				speed = 0.05,
@@ -165,12 +165,12 @@ return {
 			}
 		},
 		{
-			actor = 602010,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 602010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "However, our primary focus right now shouldn't be on how to escape.",
 			typewriter = {
 				speed = 0.05,
@@ -185,10 +185,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "It seems that the shortest leg of our journey will be getting to the center of the labyrinth, rather than to the end or the beginning.",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "I'm sure Aquila's planes will be able to get us to that \"center.\"",
 			typewriter = {
@@ -220,10 +220,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "So that's your idea of how to leave the labyrinth, huh? Let's call it Operation Daedalus~♪",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "Quite fitting. Please prepare your aircraft, Aquila.",
 			typewriter = {
@@ -255,10 +255,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Of course! I've never tried something like this before, but just leave it to me!",
 			typewriter = {
 				speed = 0.05,
@@ -286,12 +286,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Wait, hold on a darn minute, Veneto... Are you seriously suggesting... that we hop on Aquila's planes?!",
 			typewriter = {
 				speed = 0.05,
@@ -306,10 +306,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 601060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hwuh? Is that even possible?!",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -334,8 +334,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "I, I don't think it's impossible in theory... B-but it might not be the best idea to try it here...",
 			typewriter = {
@@ -351,8 +351,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "Aquila would be left behind by herself... and it's not like carrier-based planes work the same way as passenger planes...",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "(I've actually seen someone pull it off before, but that person... defies all normal rationality...)",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "Of course I don't think we'll be able to ride on top of the planes... Rather, what I'm trying to say is...",
 			typewriter = {
@@ -418,10 +418,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 602010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "...I see, you'll try to exploit the fact that the labyrinth shifts when we defeat the Siren Pawns?",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "First, our objective isn't to go through the labyrinth, but to rescue Gioberti and retrieve any missing artwork.",
 			typewriter = {
@@ -453,8 +453,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "The distance to the center of the labyrinth grows each time we destroy the Pawns.",
 			typewriter = {
@@ -486,10 +486,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 602010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Focus on getting through the labyrinth rather than on fighting, huh?",
 			typewriter = {
 				speed = 0.05,
@@ -501,12 +501,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Avoid engaging the Sirens and head straight for the middle, then pull away any enemies in our way with our planes?",
 			typewriter = {
 				speed = 0.05,
@@ -521,10 +521,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I'm not sure they'll fall for that more than once or twice, so we'll have to stay alert and ready to fight just in case.",
 			typewriter = {
 				speed = 0.05,
@@ -536,12 +536,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Anyway, you heard the Eternal Flagship. Let's make our way towards the center as quickly as possible without engaging the enemy.",
 			typewriter = {
 				speed = 0.05,
@@ -553,17 +553,17 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
-			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "30 minutes later...",
 			bgm = "battle-boss-italy",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "30 minutes later...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -591,10 +591,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Ugh... Things never quite work out the way we plan,...",
 			typewriter = {
 				speed = 0.05,
@@ -609,8 +609,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "It's also very hard to disregard all our training and sail right by mass-produced ships without any protection...",
 			typewriter = {
@@ -626,8 +626,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "Hehehe... Does that mean we can finally beat them up...?",
 			typewriter = {
@@ -643,8 +643,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "The labyrinth doesn't seem to shift when we engage the Sirens, but only after defeating them.",
 			typewriter = {
@@ -660,10 +660,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 602010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Is that true?",
 			typewriter = {
 				speed = 0.05,
@@ -678,8 +678,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "Yes, and if we can manage to engage them but not sink them, as if conducting a friendly naval exercise, we can get them to move.",
 			typewriter = {
@@ -692,12 +692,12 @@ return {
 			}
 		},
 		{
-			actor = 607010,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 607010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I see... So we'll fight them right up to the point where they stop being a threat to us, but still won't cause the labyrinth to shift?",
 			typewriter = {
 				speed = 0.05,
@@ -712,10 +712,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 607010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "In other words... We'll be trying to chase them away but not trying to annihilate them.",
 			typewriter = {
 				speed = 0.05,
@@ -730,10 +730,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Well, I suppose it'll be a new learning experience to figure out how to fight Sirens without completely destroying them.",
 			typewriter = {
 				speed = 0.05,
@@ -748,8 +748,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "Right. I suspect that there should be some kind of control panel in the middle of the Mirror Sea, with a Siren guarding it.",
 			typewriter = {
@@ -765,8 +765,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 605010,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
 			say = "We'll need to save our strength for the final battle, so please try to hold back for now.",
 			typewriter = {
@@ -782,8 +782,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "Hehehe... I can obviously just go right underneath them... Submarine supremacy and all...",
 			typewriter = {

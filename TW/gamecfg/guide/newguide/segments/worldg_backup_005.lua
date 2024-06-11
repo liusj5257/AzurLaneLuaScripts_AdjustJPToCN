@@ -9,18 +9,18 @@ return {
 			style = {
 				text = "點擊購買商品",
 				mode = 2,
-				posY = 33.55,
 				dir = -1,
+				posY = 33.55,
 				posX = 270.5
 			},
 			baseui = {
 				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/shop"
 			},
 			ui = {
+				pathIndex = -1,
+				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/shop/frame/scrollview/view/item_tpl",
 				delay = 0.4,
 				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/shop/frame/scrollview/view/item_tpl",
-				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/shop/frame/scrollview/view/item_tpl",
-				pathIndex = -1,
 				triggerType = {
 					1
 				},
@@ -29,18 +29,18 @@ return {
 					posX = 121.85
 				},
 				image = {
-					isRelative = true,
+					target = "icon/icon_bg/icon",
 					source = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/shop/frame/scrollview/view/item_tpl/icon/icon_bg/icon",
-					target = "icon/icon_bg/icon"
+					isRelative = true
 				}
 			}
 		},
 		{
 			alpha = 0,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
-				eventPath = "OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
 				pathIndex = -1,
+				eventPath = "OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
+				path = "OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
 				triggerType = {
 					1
 				},
@@ -56,13 +56,13 @@ return {
 			style = {
 				text = "關閉獎勵介面",
 				mode = 2,
-				posY = 33.55,
 				dir = -1,
+				posY = 33.55,
 				posX = 270.5
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/close",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/AwardInfoUI(Clone)/items/close",
 				triggerType = {
 					1
 				},
@@ -78,9 +78,9 @@ return {
 				"close"
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/title/back_button",
-				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/title/back_button",
 				pathIndex = -1,
+				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/title/back_button",
+				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/title/back_button",
 				triggerType = {
 					1
 				},
@@ -105,9 +105,9 @@ return {
 				"leavePort"
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/title/back_button",
-				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/title/back_button",
 				pathIndex = -1,
+				eventPath = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/title/back_button",
+				path = "OverlayCamera/Overlay/UIMain/WorldPortUI(Clone)/top/title/back_button",
 				triggerType = {
 					1
 				},

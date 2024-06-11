@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA10",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA10",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "story-4",
 			actor = 302210,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "오시느라 수고 많으셨습니다. 메탈 블러드의 맹우여, 시게미츠섬에 오신 것을 환영합니다.",
-			bgm = "story-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "아가노급 경순양함 노시로, 시나노님을 대신해 여러분을 환영합니다.",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 		{
 			actor = 403030,
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "사쿠라 엠파이어의 중요한 축제에 참여한다는 것은 레드 액시즈의 맹우인 메탈 블러드에게도 영광이니까.",
 			paintingFadeOut = {
 				time = 0.5,
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "물론입니다. 시간이 늦었으니 계획대로 저와 함께 바로 내성으로 가시지요…",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "하지만 사쿠라 엠파이어의 일원들을 대상으로만 하기에, 메탈 블러드의 여러분은 신경 쓰지 않으셔도 됩니다.",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "에…? 그건……",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "음… 그러죠. 굳이 그러시다면야, 손님의 부탁을 거절하는 것도 예의는 아니니…",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			say = "이 노시로, 하찮은 재주나마 메탈 블러드의 여러분들에게 선보이도록 하겠습니다!",
 			typewriter = {
 				speed = 0.05,

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU18",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU18",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-italy",
 			actor = 603020,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "How is this granny so hard to deal with... What was that attack...?",
-			bgm = "battle-boss-italy",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,8 +24,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "As one of the Royal Navy's most esteemed warriors, Warspite easily won her duel. However, Zara's verbal assault did hit its mark.",
 			typewriter = {
 				speed = 0.05,
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "Ugh... This has to be some kind of cheat...!",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "Heh. Allow me to teach you something I've learned from my many years of service as a warrior.",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "And that is, the key to a ship's performance is not her raw combat prowess, nor is it through adhering to the service history imprinted within you.",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "Rather, it is through constantly challenging yourself and pushing your limits.",
 			typewriter = {
@@ -122,8 +122,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "That is the source of the Royal Navy's strength. I wouldn't mind sharing some of my experience with you should you care to listen.",
 			typewriter = {
@@ -139,8 +139,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "......",
 			typewriter = {
@@ -156,8 +156,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "Hey... Where'd you go...?",
 			typewriter = {
@@ -170,8 +170,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -180,8 +180,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Warspite looked up to find the Zara sisters had already steamed out of range.",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "Sorry, but we got tired of listening to your senile rambling. Pola, the communications...",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "While taunting Warspite, Zara gestured in the direction that Formidable headed and relayed her instructions to Pola.",
 			typewriter = {
 				speed = 0.05,
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 900199,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "Warspite",
 			dir = 1,
+			actor = 900199,
+			actorName = "Warspite",
 			say = "Wait... Get back here!!",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -266,8 +266,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			say = "We've managed to waste some of Warspite's time, but she seems to have some new night battle technique. Please use caution.",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "Mercy... they got away. Kids these days just keep getting faster and faster. I can't keep up anymore...",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Warspite dragged her weighty hull slowly but surely through the night, trailing the heavy cruisers.",
 			typewriter = {
 				speed = 0.05,
@@ -342,8 +342,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 900199,
 			dir = 1,
+			actor = 900199,
 			actorName = "Warspite",
 			say = "It would be grand if Her Majesty would grant me a retrofit after this operation. Haha...",
 			typewriter = {

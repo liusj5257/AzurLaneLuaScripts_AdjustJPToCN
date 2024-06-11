@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "天与海的观测者",
 	init_effect = "",
+	id = 11940,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 11940,
+	color = "yellow",
 	icon = 11940,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 10,
 				target = "TargetSelf",
+				time = 10,
 				skill_id = 11940
 			}
 		},

@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN24",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "Sanctuary Pagoda - Reception Room",
 			bgm = "musashi-2",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "Sanctuary Pagoda - Reception Room",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -37,12 +37,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#A9F548FF",
+			side = 1,
 			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
+			hidePaintObj = true,
 			say = "There's nothing wrong with letting someone else win. But do you know what it means to entrust your will to someone else?",
 			painting = {
 				alpha = 0.3,
@@ -54,8 +54,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			say = "Musashi now sat alone at the board, quietly overlooking the situation in the exercise area.",
@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#A9F548FF",
+			side = 1,
 			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
+			hidePaintObj = true,
 			say = "Unlike Nagato and Akagi, you already have true strength. It is unsurprising that we would not be able to see eye-to-eye.",
 			painting = {
 				alpha = 0.3,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			say = "Just as Musashi furrowed her brow in discontent, a familiar chirping sound came from the window. A small bird gently landed atop Musashi's shoulder.",
@@ -93,12 +93,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#A9F548FF",
+			side = 1,
 			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
+			hidePaintObj = true,
 			say = "So you came again. Did I not say that this pagoda would not shelter you from the elements?",
 			painting = {
 				alpha = 0.3,
@@ -110,12 +110,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#A9F548FF",
+			side = 1,
 			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
+			hidePaintObj = true,
 			say = "But if you insist on being my companion... I can at least keep you safe through the coming storm.",
 			painting = {
 				alpha = 0.3,
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			say = "As if buoyed by Musashi's words, the fledgling swallow chirped a few times.",
@@ -138,12 +138,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#A9F548FF",
+			side = 1,
 			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
+			hidePaintObj = true,
 			say = "What an interesting one you are... Now, I have a little question for you.",
 			painting = {
 				alpha = 0.3,
@@ -155,12 +155,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#A9F548FF",
+			side = 1,
 			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
+			hidePaintObj = true,
 			say = "Who do you think will be the winner of this \"exercise?\"",
 			painting = {
 				alpha = 0.3,
@@ -172,8 +172,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			say = "Musashi gestured to the holographic display in front of her, and the swallow fluttered its wings a few times as if to respond.",
@@ -183,12 +183,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#A9F548FF",
+			side = 1,
 			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
+			hidePaintObj = true,
 			say = "Haha, that question may indeed be too difficult for you... just as it is for me.",
 			painting = {
 				alpha = 0.3,
@@ -200,8 +200,8 @@ return {
 			}
 		},
 		{
-			actorName = "Communicator",
 			nameColor = "#A9F548FF",
+			actorName = "Communicator",
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			side = 2,
@@ -212,8 +212,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_wuzang_cg6",
 			hidePaintObj = true,
 			say = "The communicator next to her beeped three times in warning before falling silent again. Musashi returned her gaze back to the board.",
@@ -223,12 +223,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#A9F548FF",
+			side = 1,
 			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
+			hidePaintObj = true,
 			say = "Now that everyone has gathered around the tower... Let us put an end to this game.",
 			painting = {
 				alpha = 0.3,
@@ -240,12 +240,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#A9F548FF",
+			side = 1,
 			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
+			hidePaintObj = true,
 			say = "I have assembled the pieces for you. I have brought you before the power you seek.",
 			painting = {
 				alpha = 0.3,
@@ -257,12 +257,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#A9F548FF",
+			side = 1,
 			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
+			hidePaintObj = true,
 			say = "But I can do no more than to set the stage for you. Whether you can become the star of this show... now depends on the strength of your will.",
 			painting = {
 				alpha = 0.3,
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#A9F548FF",
+			side = 1,
 			bgName = "bg_wuzang_cg6",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "{namecode:84}",
+			hidePaintObj = true,
 			say = "Make the most of this performance, o feeble child.",
 			painting = {
 				alpha = 0.3,

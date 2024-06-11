@@ -1,11 +1,11 @@
 slot0 = class("BackYardCollectThemeTemplateCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot3 = slot2.templateId
 	slot4 = slot2.uploadTime
 
-	function slot6(slot0)
+	slot6 = function(slot0)
 		if getProxy(DormProxy):GetCollectionThemeTemplateById(uv0) and uv1 then
 			slot1:DeleteCollectionThemeTemplate(slot2.id)
 		elseif slot2 and not uv1 then

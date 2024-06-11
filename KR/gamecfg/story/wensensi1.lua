@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WENSENSI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WENSENSI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"동생의 변화\n\n<size=45>1. 동생의 일상</size>",
@@ -19,13 +19,13 @@ return {
 		{
 			actor = 103100,
 			side = 2,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#92fc63",
 			say = "지휘관, 휴일에 같이 놀아줄 거야?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -57,8 +57,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "어느 날, 갑자기 빈센스의 초대를 받아 휴일에 이글 유니온 기숙사에 가게 되었다——",
 			effects = {
@@ -77,15 +77,15 @@ return {
 			}
 		},
 		{
-			say = "모항·이글 유니온 기숙사",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-1",
+			say = "모항·이글 유니온 기숙사",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -142,9 +142,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "방에 들어가자 퀸시의 허벅지를 베고 잠든 빈센스가 눈에 들어왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 103100,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103100,
+			nameColor = "#92fc63",
 			say = "으……음? 좀 더 잘래……",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 45,
@@ -214,9 +214,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "말을 마친 빈센스는 다시 잠이 들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 103090,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 103090,
+			nameColor = "#92fc63",
 			say = "지휘관님, 빈센스가 이런 아이라서 정말 죄송해요.",
 			typewriter = {
 				speed = 0.05,
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "빈센스를 잘 하게 한다는 옵션은 없는 건가…",
 			typewriter = {
 				speed = 0.05,
@@ -382,9 +382,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "낮잠이라고 하지만 대체 어디서…… 바로 그때 퀸시가 자신의 다른 쪽 다리를 가볍게 두드렸다.",
 			typewriter = {
 				speed = 0.05,

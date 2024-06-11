@@ -1,16 +1,16 @@
 pg = pg or {}
 pg.child_plan = {
 	[1101] = {
-		cost_resource2 = 0,
 		name = "ごはん",
-		icon = "jiatingjiaoyu",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 11010,
 		id = 1101,
-		cost_resource3 = 1,
+		icon = "jiatingjiaoyu",
 		stage = {
 			1
 		},
@@ -60,16 +60,16 @@ pg.child_plan = {
 		}
 	},
 	[1102] = {
-		cost_resource2 = 0,
 		name = "支度",
-		icon = "jiatingjiaoyu",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 11020,
 		id = 1102,
-		cost_resource3 = 1,
+		icon = "jiatingjiaoyu",
 		stage = {
 			1
 		},
@@ -114,16 +114,16 @@ pg.child_plan = {
 		}
 	},
 	[1103] = {
-		cost_resource2 = 0,
 		name = "読み聞かせ",
-		icon = "jiatingjiaoyu",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 11030,
 		id = 1103,
-		cost_resource3 = 1,
+		icon = "jiatingjiaoyu",
 		stage = {
 			1
 		},
@@ -168,16 +168,16 @@ pg.child_plan = {
 		}
 	},
 	[1104] = {
-		cost_resource2 = 0,
 		name = "積み木遊び",
-		icon = "jiatingjiaoyu",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 11040,
 		id = 1104,
-		cost_resource3 = 1,
+		icon = "jiatingjiaoyu",
 		stage = {
 			1
 		},
@@ -222,16 +222,16 @@ pg.child_plan = {
 		}
 	},
 	[1105] = {
-		cost_resource2 = 0,
 		name = "運動",
-		icon = "jiatingjiaoyu",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 11050,
 		id = 1105,
-		cost_resource3 = 1,
+		icon = "jiatingjiaoyu",
 		stage = {
 			1
 		},
@@ -276,16 +276,16 @@ pg.child_plan = {
 		}
 	},
 	[1106] = {
-		cost_resource2 = 0,
 		name = "お風呂",
-		icon = "jiatingjiaoyu",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 11060,
 		id = 1106,
-		cost_resource3 = 1,
+		icon = "jiatingjiaoyu",
 		stage = {
 			1
 		},
@@ -335,16 +335,16 @@ pg.child_plan = {
 		}
 	},
 	[1107] = {
-		cost_resource2 = 1,
 		name = "初級座学",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 1,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1108,
 		cost_resource1 = 0,
+		pre_next = 1108,
 		result = 11070,
 		id = 1107,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -424,16 +424,16 @@ pg.child_plan = {
 		}
 	},
 	[1108] = {
-		cost_resource2 = 1,
 		name = "中級座学",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 1,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1109,
 		cost_resource1 = 0,
+		pre_next = 1109,
 		result = 11080,
 		id = 1108,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -522,16 +522,16 @@ pg.child_plan = {
 		}
 	},
 	[1109] = {
-		cost_resource2 = 2,
 		name = "上級座学",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 2,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 11090,
 		id = 1109,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -620,16 +620,16 @@ pg.child_plan = {
 		}
 	},
 	[1110] = {
-		cost_resource2 = 0,
 		name = "初級体育",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1111,
 		cost_resource1 = 0,
+		pre_next = 1111,
 		result = 11100,
 		id = 1110,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -709,16 +709,16 @@ pg.child_plan = {
 		}
 	},
 	[1111] = {
-		cost_resource2 = 0,
 		name = "中級体育",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1112,
 		cost_resource1 = 0,
+		pre_next = 1112,
 		result = 11110,
 		id = 1111,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -807,16 +807,16 @@ pg.child_plan = {
 		}
 	},
 	[1112] = {
-		cost_resource2 = 2,
 		name = "上級体育",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 2,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 5,
+		pre_next = 0,
 		result = 11120,
 		id = 1112,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -905,16 +905,16 @@ pg.child_plan = {
 		}
 	},
 	[1113] = {
-		cost_resource2 = 0,
 		name = "初級手芸",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1114,
 		cost_resource1 = 0,
+		pre_next = 1114,
 		result = 11130,
 		id = 1113,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -994,16 +994,16 @@ pg.child_plan = {
 		}
 	},
 	[1114] = {
-		cost_resource2 = 0,
 		name = "中級手芸",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1115,
 		cost_resource1 = 0,
+		pre_next = 1115,
 		result = 11140,
 		id = 1114,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -1092,16 +1092,16 @@ pg.child_plan = {
 		}
 	},
 	[1115] = {
-		cost_resource2 = 2,
 		name = "上級手芸",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 2,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 5,
+		pre_next = 0,
 		result = 11150,
 		id = 1115,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -1190,16 +1190,16 @@ pg.child_plan = {
 		}
 	},
 	[1116] = {
-		cost_resource2 = 0,
 		name = "初級音楽",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1117,
 		cost_resource1 = 0,
+		pre_next = 1117,
 		result = 11160,
 		id = 1116,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -1279,16 +1279,16 @@ pg.child_plan = {
 		}
 	},
 	[1117] = {
-		cost_resource2 = 1,
 		name = "中級音楽",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 1,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1118,
 		cost_resource1 = 0,
+		pre_next = 1118,
 		result = 11170,
 		id = 1117,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -1377,16 +1377,16 @@ pg.child_plan = {
 		}
 	},
 	[1118] = {
-		cost_resource2 = 2,
 		name = "上級音楽",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 2,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 5,
+		pre_next = 0,
 		result = 11180,
 		id = 1118,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -1475,16 +1475,16 @@ pg.child_plan = {
 		}
 	},
 	[1119] = {
-		cost_resource2 = 0,
 		name = "初級美術",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1120,
 		cost_resource1 = 0,
+		pre_next = 1120,
 		result = 11190,
 		id = 1119,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -1580,16 +1580,16 @@ pg.child_plan = {
 		}
 	},
 	[1120] = {
-		cost_resource2 = 1,
 		name = "中級美術",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 1,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1121,
 		cost_resource1 = 5,
+		pre_next = 1121,
 		result = 11200,
 		id = 1120,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -1688,16 +1688,16 @@ pg.child_plan = {
 		}
 	},
 	[1121] = {
-		cost_resource2 = 3,
 		name = "上級美術",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 3,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 5,
+		pre_next = 0,
 		result = 11210,
 		id = 1121,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -1796,16 +1796,16 @@ pg.child_plan = {
 		}
 	},
 	[1122] = {
-		cost_resource2 = 0,
 		name = "初級舞踊",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1123,
 		cost_resource1 = 0,
+		pre_next = 1123,
 		result = 11220,
 		id = 1122,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -1901,16 +1901,16 @@ pg.child_plan = {
 		}
 	},
 	[1123] = {
-		cost_resource2 = 1,
 		name = "中級舞踊",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 1,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1124,
 		cost_resource1 = 5,
+		pre_next = 1124,
 		result = 11230,
 		id = 1123,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -2009,16 +2009,16 @@ pg.child_plan = {
 		}
 	},
 	[1124] = {
-		cost_resource2 = 3,
 		name = "上級舞踊",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 3,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 10,
+		pre_next = 0,
 		result = 11240,
 		id = 1124,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -2117,16 +2117,16 @@ pg.child_plan = {
 		}
 	},
 	[1125] = {
-		cost_resource2 = 0,
 		name = "初級演技",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1126,
 		cost_resource1 = 0,
+		pre_next = 1126,
 		result = 11250,
 		id = 1125,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -2222,16 +2222,16 @@ pg.child_plan = {
 		}
 	},
 	[1126] = {
-		cost_resource2 = 2,
 		name = "中級演技",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 2,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1127,
 		cost_resource1 = 5,
+		pre_next = 1127,
 		result = 11260,
 		id = 1126,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -2330,16 +2330,16 @@ pg.child_plan = {
 		}
 	},
 	[1127] = {
-		cost_resource2 = 3,
 		name = "上級演技",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 3,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 10,
+		pre_next = 0,
 		result = 11270,
 		id = 1127,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -2438,16 +2438,16 @@ pg.child_plan = {
 		}
 	},
 	[1128] = {
-		cost_resource2 = 1,
 		name = "初級書道",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 1,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1129,
 		cost_resource1 = 0,
+		pre_next = 1129,
 		result = 11280,
 		id = 1128,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -2543,16 +2543,16 @@ pg.child_plan = {
 		}
 	},
 	[1129] = {
-		cost_resource2 = 1,
 		name = "中級書道",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 1,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1130,
 		cost_resource1 = 5,
+		pre_next = 1130,
 		result = 11290,
 		id = 1129,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -2651,16 +2651,16 @@ pg.child_plan = {
 		}
 	},
 	[1130] = {
-		cost_resource2 = 1,
 		name = "上級書道",
-		icon = "kecheng",
 		type = 1,
+		cost_resource2 = 1,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 5,
+		pre_next = 0,
 		result = 11300,
 		id = 1130,
-		cost_resource3 = 1,
+		icon = "kecheng",
 		stage = {
 			2,
 			3,
@@ -2759,16 +2759,16 @@ pg.child_plan = {
 		}
 	},
 	[1201] = {
-		cost_resource2 = 5,
 		name = "初級料理",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1202,
 		cost_resource1 = 20,
+		pre_next = 1202,
 		result = 12010,
 		id = 1201,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -2858,16 +2858,16 @@ pg.child_plan = {
 		}
 	},
 	[1202] = {
-		cost_resource2 = 6,
 		name = "中級料理",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1203,
 		cost_resource1 = 36,
+		pre_next = 1203,
 		result = 12020,
 		id = 1202,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -2960,16 +2960,16 @@ pg.child_plan = {
 		}
 	},
 	[1203] = {
-		cost_resource2 = 6,
 		name = "上級料理",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 52,
+		pre_next = 0,
 		result = 12030,
 		id = 1203,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -3062,16 +3062,16 @@ pg.child_plan = {
 		}
 	},
 	[1204] = {
-		cost_resource2 = 5,
 		name = "初級園芸",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1205,
 		cost_resource1 = 20,
+		pre_next = 1205,
 		result = 12040,
 		id = 1204,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -3161,16 +3161,16 @@ pg.child_plan = {
 		}
 	},
 	[1205] = {
-		cost_resource2 = 6,
 		name = "中級園芸",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1206,
 		cost_resource1 = 35,
+		pre_next = 1206,
 		result = 12050,
 		id = 1205,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -3263,16 +3263,16 @@ pg.child_plan = {
 		}
 	},
 	[1206] = {
-		cost_resource2 = 7,
 		name = "上級園芸",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 7,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 50,
+		pre_next = 0,
 		result = 12060,
 		id = 1206,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -3365,16 +3365,16 @@ pg.child_plan = {
 		}
 	},
 	[1207] = {
-		cost_resource2 = 6,
 		name = "初級運動",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1208,
 		cost_resource1 = 18,
+		pre_next = 1208,
 		result = 12070,
 		id = 1207,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -3459,16 +3459,16 @@ pg.child_plan = {
 		}
 	},
 	[1208] = {
-		cost_resource2 = 7,
 		name = "中級運動",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 7,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1209,
 		cost_resource1 = 32,
+		pre_next = 1209,
 		result = 12080,
 		id = 1208,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -3556,16 +3556,16 @@ pg.child_plan = {
 		}
 	},
 	[1209] = {
-		cost_resource2 = 8,
 		name = "上級運動",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 8,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 46,
+		pre_next = 0,
 		result = 12090,
 		id = 1209,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -3653,16 +3653,16 @@ pg.child_plan = {
 		}
 	},
 	[1210] = {
-		cost_resource2 = 4,
 		name = "初級芸術",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 4,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1211,
 		cost_resource1 = 22,
+		pre_next = 1211,
 		result = 12100,
 		id = 1210,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -3752,16 +3752,16 @@ pg.child_plan = {
 		}
 	},
 	[1211] = {
-		cost_resource2 = 5,
 		name = "中級芸術",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1212,
 		cost_resource1 = 38,
+		pre_next = 1212,
 		result = 12110,
 		id = 1211,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -3854,16 +3854,16 @@ pg.child_plan = {
 		}
 	},
 	[1212] = {
-		cost_resource2 = 5,
 		name = "上級芸術",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 54,
+		pre_next = 0,
 		result = 12120,
 		id = 1212,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -3956,16 +3956,16 @@ pg.child_plan = {
 		}
 	},
 	[1213] = {
-		cost_resource2 = 5,
 		name = "初級茶道",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1214,
 		cost_resource1 = 36,
+		pre_next = 1214,
 		result = 12130,
 		id = 1213,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -4065,16 +4065,16 @@ pg.child_plan = {
 		}
 	},
 	[1214] = {
-		cost_resource2 = 6,
 		name = "中級茶道",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1215,
 		cost_resource1 = 52,
+		pre_next = 1215,
 		result = 12140,
 		id = 1214,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -4177,16 +4177,16 @@ pg.child_plan = {
 		}
 	},
 	[1215] = {
-		cost_resource2 = 6,
 		name = "上級茶道",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 66,
+		pre_next = 0,
 		result = 12150,
 		id = 1215,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -4289,16 +4289,16 @@ pg.child_plan = {
 		}
 	},
 	[1216] = {
-		cost_resource2 = 5,
 		name = "初級演劇",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1217,
 		cost_resource1 = 20,
+		pre_next = 1217,
 		result = 12160,
 		id = 1216,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -4388,16 +4388,16 @@ pg.child_plan = {
 		}
 	},
 	[1217] = {
-		cost_resource2 = 6,
 		name = "中級演劇",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1218,
 		cost_resource1 = 35,
+		pre_next = 1218,
 		result = 12170,
 		id = 1217,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -4490,16 +4490,16 @@ pg.child_plan = {
 		}
 	},
 	[1218] = {
-		cost_resource2 = 7,
 		name = "上級演劇",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 7,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 50,
+		pre_next = 0,
 		result = 12180,
 		id = 1218,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -4592,16 +4592,16 @@ pg.child_plan = {
 		}
 	},
 	[1219] = {
-		cost_resource2 = 5,
 		name = "初級演奏",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1220,
 		cost_resource1 = 24,
+		pre_next = 1220,
 		result = 12190,
 		id = 1219,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -4691,16 +4691,16 @@ pg.child_plan = {
 		}
 	},
 	[1220] = {
-		cost_resource2 = 6,
 		name = "中級演奏",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1221,
 		cost_resource1 = 38,
+		pre_next = 1221,
 		result = 12200,
 		id = 1220,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -4793,16 +4793,16 @@ pg.child_plan = {
 		}
 	},
 	[1221] = {
-		cost_resource2 = 6,
 		name = "上級演奏",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 67,
+		pre_next = 0,
 		result = 12210,
 		id = 1221,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -4895,16 +4895,16 @@ pg.child_plan = {
 		}
 	},
 	[1222] = {
-		cost_resource2 = 5,
 		name = "初級補修",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1223,
 		cost_resource1 = 36,
+		pre_next = 1223,
 		result = 12220,
 		id = 1222,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -5004,16 +5004,16 @@ pg.child_plan = {
 		}
 	},
 	[1223] = {
-		cost_resource2 = 6,
 		name = "中級補修",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1224,
 		cost_resource1 = 50,
+		pre_next = 1224,
 		result = 12230,
 		id = 1223,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -5116,16 +5116,16 @@ pg.child_plan = {
 		}
 	},
 	[1224] = {
-		cost_resource2 = 7,
 		name = "上級補修",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 7,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 62,
+		pre_next = 0,
 		result = 12240,
 		id = 1224,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -5228,16 +5228,16 @@ pg.child_plan = {
 		}
 	},
 	[1225] = {
-		cost_resource2 = 4,
 		name = "初級音楽劇",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 4,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1226,
 		cost_resource1 = 38,
+		pre_next = 1226,
 		result = 12250,
 		id = 1225,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -5337,16 +5337,16 @@ pg.child_plan = {
 		}
 	},
 	[1226] = {
-		cost_resource2 = 5,
 		name = "中級音楽劇",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1227,
 		cost_resource1 = 54,
+		pre_next = 1227,
 		result = 12260,
 		id = 1226,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -5449,16 +5449,16 @@ pg.child_plan = {
 		}
 	},
 	[1227] = {
-		cost_resource2 = 6,
 		name = "上級音楽劇",
-		icon = "xingquban",
 		type = 2,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 66,
+		pre_next = 0,
 		result = 12270,
 		id = 1227,
-		cost_resource3 = 1,
+		icon = "xingquban",
 		stage = {
 			3,
 			4
@@ -5561,16 +5561,16 @@ pg.child_plan = {
 		}
 	},
 	[1301] = {
-		cost_resource2 = 4,
 		name = "路上デッサンⅠ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 4,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1312,
 		cost_resource1 = 0,
+		pre_next = 1312,
 		result = 13010,
 		id = 1301,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -5660,16 +5660,16 @@ pg.child_plan = {
 		}
 	},
 	[1302] = {
-		cost_resource2 = 3,
 		name = "本屋手伝いⅠ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 3,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1313,
 		cost_resource1 = 0,
+		pre_next = 1313,
 		result = 13020,
 		id = 1302,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -5754,16 +5754,16 @@ pg.child_plan = {
 		}
 	},
 	[1303] = {
-		cost_resource2 = 4,
 		name = "農場手伝いⅠ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 4,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1314,
 		cost_resource1 = 0,
+		pre_next = 1314,
 		result = 13030,
 		id = 1303,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -5853,16 +5853,16 @@ pg.child_plan = {
 		}
 	},
 	[1304] = {
-		cost_resource2 = 4,
 		name = "インストラクターⅠ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 4,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1315,
 		cost_resource1 = 0,
+		pre_next = 1315,
 		result = 13040,
 		id = 1304,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -5947,16 +5947,16 @@ pg.child_plan = {
 		}
 	},
 	[1305] = {
-		cost_resource2 = 3,
 		name = "俳優見習いⅠ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 3,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1316,
 		cost_resource1 = 0,
+		pre_next = 1316,
 		result = 13050,
 		id = 1305,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -6046,16 +6046,16 @@ pg.child_plan = {
 		}
 	},
 	[1306] = {
-		cost_resource2 = 3,
 		name = "歌手見習いⅠ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 3,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1317,
 		cost_resource1 = 0,
+		pre_next = 1317,
 		result = 13060,
 		id = 1306,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -6140,16 +6140,16 @@ pg.child_plan = {
 		}
 	},
 	[1307] = {
-		cost_resource2 = 4,
 		name = "演者見習いⅠ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 4,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1318,
 		cost_resource1 = 0,
+		pre_next = 1318,
 		result = 13070,
 		id = 1307,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -6239,16 +6239,16 @@ pg.child_plan = {
 		}
 	},
 	[1308] = {
-		cost_resource2 = 5,
 		name = "販売スタッフⅠ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1319,
 		cost_resource1 = 0,
+		pre_next = 1319,
 		result = 13080,
 		id = 1308,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -6338,16 +6338,16 @@ pg.child_plan = {
 		}
 	},
 	[1310] = {
-		cost_resource2 = 3,
 		name = "売店手伝いⅠ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 3,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1320,
 		cost_resource1 = 0,
+		pre_next = 1320,
 		result = 13100,
 		id = 1310,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -6426,16 +6426,16 @@ pg.child_plan = {
 		}
 	},
 	[1311] = {
-		cost_resource2 = 3,
 		name = "バリスタⅠ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 3,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 1321,
 		cost_resource1 = 0,
+		pre_next = 1321,
 		result = 13110,
 		id = 1311,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -6525,16 +6525,16 @@ pg.child_plan = {
 		}
 	},
 	[1312] = {
-		cost_resource2 = 4,
 		name = "路上デッサンⅡ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 4,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1322,
 		cost_resource1 = 0,
+		pre_next = 1322,
 		result = 13120,
 		id = 1312,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -6627,16 +6627,16 @@ pg.child_plan = {
 		}
 	},
 	[1313] = {
-		cost_resource2 = 3,
 		name = "本屋手伝いⅡ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 3,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1323,
 		cost_resource1 = 0,
+		pre_next = 1323,
 		result = 13130,
 		id = 1313,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -6724,16 +6724,16 @@ pg.child_plan = {
 		}
 	},
 	[1314] = {
-		cost_resource2 = 5,
 		name = "農場手伝いⅡ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1324,
 		cost_resource1 = 0,
+		pre_next = 1324,
 		result = 13140,
 		id = 1314,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -6826,16 +6826,16 @@ pg.child_plan = {
 		}
 	},
 	[1315] = {
-		cost_resource2 = 5,
 		name = "インストラクターⅡ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1325,
 		cost_resource1 = 0,
+		pre_next = 1325,
 		result = 13150,
 		id = 1315,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -6923,16 +6923,16 @@ pg.child_plan = {
 		}
 	},
 	[1316] = {
-		cost_resource2 = 4,
 		name = "俳優見習いⅡ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 4,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1326,
 		cost_resource1 = 0,
+		pre_next = 1326,
 		result = 13160,
 		id = 1316,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -7025,16 +7025,16 @@ pg.child_plan = {
 		}
 	},
 	[1317] = {
-		cost_resource2 = 4,
 		name = "歌手見習いⅡ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 4,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1327,
 		cost_resource1 = 0,
+		pre_next = 1327,
 		result = 13170,
 		id = 1317,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -7122,16 +7122,16 @@ pg.child_plan = {
 		}
 	},
 	[1318] = {
-		cost_resource2 = 5,
 		name = "演者見習いⅡ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1328,
 		cost_resource1 = 0,
+		pre_next = 1328,
 		result = 13180,
 		id = 1318,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -7224,16 +7224,16 @@ pg.child_plan = {
 		}
 	},
 	[1319] = {
-		cost_resource2 = 6,
 		name = "販売スタッフⅡ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1329,
 		cost_resource1 = 0,
+		pre_next = 1329,
 		result = 13190,
 		id = 1319,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -7326,16 +7326,16 @@ pg.child_plan = {
 		}
 	},
 	[1320] = {
-		cost_resource2 = 4,
 		name = "売店手伝いⅡ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 4,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1330,
 		cost_resource1 = 0,
+		pre_next = 1330,
 		result = 13200,
 		id = 1320,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -7417,16 +7417,16 @@ pg.child_plan = {
 		}
 	},
 	[1321] = {
-		cost_resource2 = 4,
 		name = "バリスタⅡ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 4,
+		cost_resource3 = 1,
 		rare = 2,
-		pre_next = 1331,
 		cost_resource1 = 0,
+		pre_next = 1331,
 		result = 13210,
 		id = 1321,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -7519,16 +7519,16 @@ pg.child_plan = {
 		}
 	},
 	[1322] = {
-		cost_resource2 = 5,
 		name = "路上デッサンⅢ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 13220,
 		id = 1322,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -7621,16 +7621,16 @@ pg.child_plan = {
 		}
 	},
 	[1323] = {
-		cost_resource2 = 3,
 		name = "本屋手伝いⅢ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 3,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 13230,
 		id = 1323,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -7718,16 +7718,16 @@ pg.child_plan = {
 		}
 	},
 	[1324] = {
-		cost_resource2 = 5,
 		name = "農場手伝いⅢ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 13240,
 		id = 1324,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -7820,16 +7820,16 @@ pg.child_plan = {
 		}
 	},
 	[1325] = {
-		cost_resource2 = 6,
 		name = "インストラクターⅢ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 13250,
 		id = 1325,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -7917,16 +7917,16 @@ pg.child_plan = {
 		}
 	},
 	[1326] = {
-		cost_resource2 = 5,
 		name = "俳優見習いⅢ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 13260,
 		id = 1326,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -8019,16 +8019,16 @@ pg.child_plan = {
 		}
 	},
 	[1327] = {
-		cost_resource2 = 4,
 		name = "歌手見習いⅢ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 4,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 13270,
 		id = 1327,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -8116,16 +8116,16 @@ pg.child_plan = {
 		}
 	},
 	[1328] = {
-		cost_resource2 = 6,
 		name = "演者見習いⅢ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 6,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 13280,
 		id = 1328,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -8218,16 +8218,16 @@ pg.child_plan = {
 		}
 	},
 	[1329] = {
-		cost_resource2 = 7,
 		name = "販売スタッフⅢ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 7,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 13290,
 		id = 1329,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -8320,16 +8320,16 @@ pg.child_plan = {
 		}
 	},
 	[1330] = {
-		cost_resource2 = 5,
 		name = "売店手伝いⅢ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 5,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 13330,
 		id = 1330,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -8411,16 +8411,16 @@ pg.child_plan = {
 		}
 	},
 	[1331] = {
-		cost_resource2 = 4,
 		name = "バリスタⅢ",
-		icon = "shehuihuodong",
 		type = 3,
+		cost_resource2 = 4,
+		cost_resource3 = 1,
 		rare = 3,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 13310,
 		id = 1331,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			3,
 			4
@@ -8513,16 +8513,16 @@ pg.child_plan = {
 		}
 	},
 	[1404] = {
-		cost_resource2 = 2,
 		name = "家事手伝いⅠ",
-		icon = "shehuihuodong",
 		type = 5,
+		cost_resource2 = 2,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 14041,
 		id = 1404,
-		cost_resource3 = 1,
+		icon = "shehuihuodong",
 		stage = {
 			1,
 			2,
@@ -8618,16 +8618,16 @@ pg.child_plan = {
 		}
 	},
 	[1402] = {
-		cost_resource2 = 0,
 		name = "自宅ごろごろ",
-		icon = "ziyouxingcheng",
 		type = 4,
+		cost_resource2 = 0,
+		cost_resource3 = 1,
 		rare = 1,
-		pre_next = 0,
 		cost_resource1 = 0,
+		pre_next = 0,
 		result = 14010,
 		id = 1402,
-		cost_resource3 = 1,
+		icon = "ziyouxingcheng",
 		stage = {
 			1,
 			2,

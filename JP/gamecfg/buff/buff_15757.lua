@@ -8,8 +8,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 500
+					number = 500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 15759,
+					target = "TargetSelf",
 					countType = 157571
 				}
 			},
@@ -52,8 +52,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 15757,
+					target = "TargetSelf",
 					countType = 157572
 				}
 			}
@@ -68,8 +68,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 610
+					number = 610,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -90,8 +90,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 15759,
+					target = "TargetSelf",
 					countType = 157571
 				}
 			},
@@ -112,8 +112,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 15757,
+					target = "TargetSelf",
 					countType = 157572
 				}
 			}
@@ -128,8 +128,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 720
+					number = 720,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -150,8 +150,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 15759,
+					target = "TargetSelf",
 					countType = 157571
 				}
 			},
@@ -172,8 +172,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 15757,
+					target = "TargetSelf",
 					countType = 157572
 				}
 			}
@@ -188,8 +188,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 830
+					number = 830,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -210,8 +210,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 15759,
+					target = "TargetSelf",
 					countType = 157571
 				}
 			},
@@ -232,8 +232,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 15757,
+					target = "TargetSelf",
 					countType = 157572
 				}
 			}
@@ -248,8 +248,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 940
+					number = 940,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -270,8 +270,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 15759,
+					target = "TargetSelf",
 					countType = 157571
 				}
 			},
@@ -292,8 +292,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 15757,
+					target = "TargetSelf",
 					countType = 157572
 				}
 			}
@@ -308,8 +308,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1050
+					number = 1050,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -330,8 +330,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 15759,
+					target = "TargetSelf",
 					countType = 157571
 				}
 			},
@@ -352,8 +352,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 15757,
+					target = "TargetSelf",
 					countType = 157572
 				}
 			}
@@ -368,8 +368,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1160
+					number = 1160,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -390,8 +390,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 15759,
+					target = "TargetSelf",
 					countType = 157571
 				}
 			},
@@ -412,8 +412,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 15757,
+					target = "TargetSelf",
 					countType = 157572
 				}
 			}
@@ -428,8 +428,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1270
+					number = 1270,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -450,8 +450,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 15759,
+					target = "TargetSelf",
 					countType = 157571
 				}
 			},
@@ -472,8 +472,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 15757,
+					target = "TargetSelf",
 					countType = 157572
 				}
 			}
@@ -488,8 +488,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1380
+					number = 1380,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -510,8 +510,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 15759,
+					target = "TargetSelf",
 					countType = 157571
 				}
 			},
@@ -532,8 +532,8 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 15757,
+					target = "TargetSelf",
 					countType = 157572
 				}
 			}
@@ -548,8 +548,8 @@ return {
 					"onStack"
 				},
 				arg_list = {
-					attr = "attackRating",
-					number = 1500
+					number = 1500,
+					attr = "attackRating"
 				}
 			},
 			{
@@ -570,8 +570,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					skill_id = 15759,
+					target = "TargetSelf",
 					countType = 157571
 				}
 			},
@@ -592,16 +592,16 @@ return {
 					"onBattleBuffCount"
 				},
 				arg_list = {
-					target = "TargetSelf",
 					skill_id = 15757,
+					target = "TargetSelf",
 					countType = 157572
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "提高命中属性",
 	stack = 2,
@@ -623,8 +623,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "attackRating",
-				number = 500
+				number = 500,
+				attr = "attackRating"
 			}
 		},
 		{
@@ -645,8 +645,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				skill_id = 15759,
+				target = "TargetSelf",
 				countType = 157571
 			}
 		},
@@ -667,8 +667,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 15757,
+				target = "TargetSelf",
 				countType = 157572
 			}
 		}

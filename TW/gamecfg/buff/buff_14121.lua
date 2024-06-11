@@ -1,7 +1,7 @@
 return {
-	init_effect = "jinengchufablue",
-	name = "Pepperpot",
 	time = 5,
+	name = "Pepperpot",
+	init_effect = "jinengchufablue",
 	picture = "",
 	desc = "减伤",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.5
+				number = -0.5,
+				attr = "injureRatio"
 			}
 		},
 		{

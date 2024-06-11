@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA17",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA17",
+	fadein = 1.5,
 	scripts = {
 		{
 			actor = 403038,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "프린쨩",
 			dir = 1,
+			actorName = "프린쨩",
 			say = "거기까지야, 키즈나 아이한테 가게 두진 않겠어.",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "쇼쨩",
 			dir = 1,
+			actorName = "쇼쨩",
 			say = "우후후♪ 우리들은 키즈나 아이를 지키기 위해 여기 있는 거에요.",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "춘춘",
 			dir = -1,
+			actorName = "춘춘",
 			say = "아, 아이상은 털끝도 못 건드리게 할 거에요! ＞ㅁ＜",
 			typewriter = {
 				speed = 0.05,
@@ -86,8 +86,8 @@ return {
 			actor = 303118,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "타카오쨩",
 			dir = 1,
+			actorName = "타카오쨩",
 			say = "이름하여, '키즈나 아이 함대'…… 등장!",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 303118,
 			dir = 1,
+			actor = 303118,
 			actorName = "타카오쨩",
 			say = "그, 그건 묻지 말아다오……",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "프린쨩",
 			dir = 1,
+			actorName = "프린쨩",
 			say = "글쎄? 어떤 이유건 우리의 '지휘관'…… 키즈나 아이를 쓰러트리게 두진 않겠어. 싸울 셈이라면 그만한 각오로 덤비도록 해.",
 			typewriter = {
 				speed = 0.05,
@@ -240,8 +240,8 @@ return {
 			actor = 403038,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "프린쨩",
 			dir = 1,
+			actorName = "프린쨩",
 			say = "그건 들어줄 수 없겠네.",
 			typewriter = {
 				speed = 0.05,
@@ -268,8 +268,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -281,8 +281,8 @@ return {
 			actor = 303118,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "타카오쨩",
 			dir = 1,
+			actorName = "타카오쨩",
 			say = "아이 공은 지금, 이 세계의 파멸을 바라고 계신다. 소인들은 키즈나 아이 함대로서, 그것을 전력을 다해 도울 뿐이다.",
 			typewriter = {
 				speed = 0.05,
@@ -312,8 +312,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "춘춘",
 			dir = -1,
+			actorName = "춘춘",
 			say = "우, 운명은 그렇게 정해졌다구요!＞ㅁ＜",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			actor = 307050,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "쇼쨩",
 			dir = 1,
+			actorName = "쇼쨩",
 			say = "어머? 그렇다면 이번에는 특별히 눈감아드리도록 할까요? …라니, 방금 건 농담입니다♪ 절대로 놓치지 않겠어요!",
 			typewriter = {
 				speed = 0.05,
@@ -371,8 +371,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -384,8 +384,8 @@ return {
 			actor = 201120,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "춘춘",
 			dir = -1,
+			actorName = "춘춘",
 			say = "아이상한테 다가가게 두진 않겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -400,8 +400,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 303118,
 			dir = 1,
+			actor = 303118,
 			actorName = "타카오쨩",
 			say = "소인들의 추적을 피해 다른 함선과 싸울 수 있을 거라 생각하는 건가!",
 			typewriter = {
@@ -429,8 +429,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

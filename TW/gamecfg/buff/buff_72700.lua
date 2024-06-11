@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "对正航增伤",
 	init_effect = "",
-	color = "red",
+	id = 72700,
+	time = 0,
 	picture = "",
 	desc = "对正航伤害提高50%",
 	stack = 1,
-	id = 72700,
+	color = "red",
 	icon = 72700,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioByShipType_7",
-				number = 0.5
+				number = 0.5,
+				attr = "damageRatioByShipType_7"
 			}
 		}
 	}

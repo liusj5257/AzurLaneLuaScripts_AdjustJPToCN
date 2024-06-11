@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_54 = {}
 slot1 = slot0.word_template_54
 
-function temp()
+temp = function()
 	uv0["勃"] = {
 		["朗"] = {
 			["宁"] = {
@@ -21,7 +21,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["博"] = {
 		["彩"] = {
 			this = true,
@@ -121,7 +121,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["补"] = {
 		["习"] = {
 			["班"] = {
@@ -142,7 +142,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["布"] = {
 		["莱"] = {
 			["尔"] = {
@@ -234,7 +234,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["步"] = {
 		q = {
 			i = {
@@ -329,7 +329,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["部"] = {
 		["长"] = {
 			["大"] = {
@@ -343,7 +343,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["猜"] = {
 		["号"] = {
 			this = true

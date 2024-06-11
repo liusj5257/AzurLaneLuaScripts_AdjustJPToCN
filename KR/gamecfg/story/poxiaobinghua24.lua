@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA24",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#ffff4d",
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			say = "홀의 문은 닫혀 있지 않았지만, 마치 보이지 않는 벽이 막고 있는 것처럼 한 발짝도 나갈 수 없었다.",
 			dir = 1,
 			bgm = "bsm-2",
+			nameColor = "#ffff4d",
+			say = "홀의 문은 닫혀 있지 않았지만, 마치 보이지 않는 벽이 막고 있는 것처럼 한 발짝도 나갈 수 없었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -58,8 +58,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "마치 모든 것이 정체 상태에 빠진 듯한 홀에 갑자기 그림자가 어른거린다.",
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "스크린 속 저 전투 중인 함대는 무엇이지?",
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "전진전선은 뭐지……?",
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "함대들은 지금 누구와 싸우고 있는 거지?",
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "적은 세이렌인가?",
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "……세이렌은 적인가?",
@@ -262,8 +262,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "안티엑스는 적인가?",
@@ -295,8 +295,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "이 함대를 지휘하는 사람은 누구지?",
@@ -328,8 +328,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "이 전투의 마지막 결과는?",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "무엇을 보호하기 위한 전투인가?",
@@ -394,8 +394,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "현재 발생한 상황과 유사한가?",
@@ -445,8 +445,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "여기서 철수할 수 있는 노선은 어디에 있지?",
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#ffff4d",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "………………",
@@ -496,11 +496,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_cccpv2_7",
-			nameColor = "#ffff4d",
+			actorName = "기록 기구",
 			dir = 1,
 			blackBg = true,
 			actor = 900136,
-			actorName = "기록 기구",
+			nameColor = "#ffff4d",
 			say = "전투는, 빛이 사라질 때까지 계속됩니다.",
 			typewriter = {
 				speed = 0.05,

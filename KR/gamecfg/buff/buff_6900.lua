@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 6900,
 	picture = "",
 	desc = "古立特圣剑",
 	stack = 1,
-	id = 6900,
+	color = "blue",
 	icon = 6900,
 	last_effect = "",
 	effect_list = {

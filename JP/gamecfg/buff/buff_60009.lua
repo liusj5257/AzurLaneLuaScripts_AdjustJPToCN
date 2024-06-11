@@ -1,7 +1,7 @@
 return {
-	init_effect = "jiasuBUFF",
-	name = "测试-不死鸟-攻击加成",
 	time = 5,
+	name = "测试-不死鸟-攻击加成",
+	init_effect = "jiasuBUFF",
 	picture = "",
 	desc = "加攻击",
 	stack = 1,
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				group = 60009,
-				attr = "cannonPower",
-				number = 200
+				number = 200,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -29,8 +29,8 @@ return {
 			},
 			arg_list = {
 				group = 60009,
-				attr = "torpedoPower",
-				number = 200
+				number = 200,
+				attr = "torpedoPower"
 			}
 		},
 		{
@@ -41,8 +41,8 @@ return {
 			},
 			arg_list = {
 				group = 60009,
-				attr = "airPower",
-				number = 200
+				number = 200,
+				attr = "airPower"
 			}
 		},
 		{
@@ -53,8 +53,8 @@ return {
 			},
 			arg_list = {
 				group = 60009,
-				attr = "antiAirPower",
-				number = 200
+				number = 200,
+				attr = "antiAirPower"
 			}
 		}
 	}

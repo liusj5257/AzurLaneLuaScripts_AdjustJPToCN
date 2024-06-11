@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDS07",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDS07",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "대형 작전이 초기화되었습니다! 함대를 다시 파견하여 새로운 작전을 진행하세요!",
 			typewriter = {
 				speed = 0.05,

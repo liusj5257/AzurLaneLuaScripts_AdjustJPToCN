@@ -26,16 +26,18 @@ PLATFORM = LuaHelper.GetPlatformInt()
 SDK_EXIT_CODE = 99
 
 if not IsUnityEditor then
-	function assert()
+	assert = function()
 	end
 end
+
+QualitySettings.vSyncCount = 0
 
 ReflectionHelp.RefSetField(typeof("ResourceMgr"), "_asyncMax", ResourceMgr.Inst, 30)
 
 tf(GameObject.Find("EventSystem")):GetComponent(typeof(EventSystem)).sendNavigationEvents = false
 
 if IsUnityEditor then
-	function luaIdeDebugFunc()
+	luaIdeDebugFunc = function()
 		breakInfoFun = require("LuaDebugjit")("localhost", 7003)
 		time = Timer.New(breakInfoFun, 0.5, -1, 1)
 
@@ -60,7 +62,7 @@ slot0 = pg.PushNotificationMgr.GetInstance()
 
 slot0:Init()
 
-function OnApplicationPause(slot0)
+OnApplicationPause = function(slot0)
 	originalPrint("OnApplicationPause: " .. tostring(slot0))
 
 	if not pg.m02 then
@@ -78,7 +80,7 @@ function OnApplicationPause(slot0)
 	pg.m02:sendNotification(GAME.ON_APPLICATION_PAUSE, slot0)
 end
 
-function OnApplicationExit()
+OnApplicationExit = function()
 	originalPrint("OnApplicationExit")
 
 	if pg.FileDownloadMgr.GetInstance():IsRunning() then
@@ -188,10 +190,10 @@ function OnApplicationExit()
 	slot11:onBackPressed()
 end
 
-function OnReceiveMemoryWarning()
+OnReceiveMemoryWarning = function()
 end
 
-function PressBack()
+PressBack = function()
 	if not IsNil(pg.MsgboxMgr.GetInstance()._go) then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("confirm_app_exit"),
@@ -286,6 +288,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.RepairResMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.NodeCanvasMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
 				pg.SceneAnimMgr.GetInstance():Init(slot0)

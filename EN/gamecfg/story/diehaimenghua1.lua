@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「The dreamwaker sees the light of the Dawning Ceremony...」</size>",
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -46,14 +46,14 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "Long has this one watched the world from a distance, only now given an opportunity to touch it. But...",
 			bgm = "bsm-2",
+			actor = 307080,
+			nameColor = "#a9f548",
+			say = "Long has this one watched the world from a distance, only now given an opportunity to touch it. But...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Diffuse are the expectations of mankind, and frail is the crystallization of their beliefs.",
 			typewriter = {
@@ -99,8 +99,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Such a thing should never have come to pass...",
 			typewriter = {
@@ -116,8 +116,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "Has the trajectory of fate been thrown into disarray... or is this its true alignment?",
 			typewriter = {
@@ -133,8 +133,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "But alas, these things are no longer important... What matter is not this one's body, but rather the future of the Sakura Empire.",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "In this world, the Great Fox's tree withers, the Diadem burns, and the crimson shadow heralds the coming of destruction.",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "And the realm of dreams... cracks before the harbinger of crimson and black.",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "What this one sees is finality... the sign of an inevitable fate yet to come.",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "But even the powerless... should at least try to save what is important to them...",
 			typewriter = {
@@ -234,8 +234,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong2_2",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "No matter how small, how ephemeral, this fleeting sliver of a dream may be...",
 			typewriter = {
@@ -251,12 +251,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong2_1",
-			nameColor = "#a9f548",
+			stopbgm = true,
 			dir = 1,
 			blackBg = true,
 			soundeffect = "event:/ui/fengling",
 			actor = 307080,
-			stopbgm = true,
+			nameColor = "#a9f548",
 			say = "If they are slowly pieced together, then surely...",
 			typewriter = {
 				speed = 0.05,

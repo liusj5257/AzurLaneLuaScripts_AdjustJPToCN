@@ -1,19 +1,19 @@
 return {
-	id = "WORLD109B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD109B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/31/tb-31",
+			dir = 1,
 			bgm = "level02",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "분석 모듈 동기화 중. 해역 내 적 소멸 확인. 다음 단계를 진행하십시오, 지휘관님.",
-			voice = "event:/tb/31/tb-31",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "그럼 이제 수송함대를 기다렸다 전초기지에 배치하면 되는 거겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "이번 작전에서 전초기지가 대체 무슨 역할이지? 자료를 뒤져봐도 이해가 잘 안가... 에휴.",
 			typewriter = {
 				speed = 0.05,
@@ -103,9 +103,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "대단하네... 완전 기대돼!",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "기나긴 전투에는 보급과 수리가 필요하다. 전선에서 이런 기능을 가진 전초 기지라니, 앞으로의 전투에서 큰 역할을 할 수 있겠어.",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "각 구역의 전초 기지가 모두 완성되면 다음은 총공격인가... 다른 함대도 순조로우면 좋겠는데.",
 			typewriter = {
 				speed = 0.05,
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "지금까지 수고 많았어, 네비게이터.",
 			typewriter = {
 				speed = 0.05,
@@ -168,11 +168,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/52/tb-52",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "...지휘관님을 도울 수 있어서 영광입니다.",
-			voice = "event:/tb/52/tb-52",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "음? 뭔가 방금 목소리가 떨리지 않았나?",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUAN7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUAN7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"騎士姫の憂鬱\n\n<size=45>七 アイリスの凱旋</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "フォルバンとル·マルスが執務室から退室すると……",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-2",
+			say = "フォルバンとル·マルスが執務室から退室すると……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ル·トリオンファンは軽くぐっと拳を握り――",
 			typewriter = {
 				speed = 0.05,
@@ -241,9 +241,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "トリオンファンが恥ずかしそうに顔を赤らめた。",
 			typewriter = {
 				speed = 0.05,

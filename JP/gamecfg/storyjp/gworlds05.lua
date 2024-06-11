@@ -1,12 +1,12 @@
 return {
-	id = "GWORLDS05",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "GWORLDS05",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーン作戦の本番に進むには戦力がまだ足りないようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "艦船の練度を上げ、装備・オフニャが整ったらもう一回チャレンジしよう。",
 			typewriter = {
 				speed = 0.05,

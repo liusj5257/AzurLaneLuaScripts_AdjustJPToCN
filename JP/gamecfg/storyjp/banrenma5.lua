@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMA5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"セントーと先輩たち\n\n<size=45>五　映画の中にいたような…</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 207020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "よもや私が一番欲しがっているものを手にするとは…全く罪な後輩よ……",
 			bgm = "story-1",
+			actor = 207020,
+			nameColor = "#a9f548",
+			say = "よもや私が一番欲しがっているものを手にするとは…全く罪な後輩よ……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "そ、そうですか…？",
 			typewriter = {
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -79,12 +79,12 @@ return {
 			}
 		},
 		{
-			actor = 207040,
+			say = "アーク・ロイヤル、後輩に愚痴を垂れ流すのはやめなさい。",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "アーク・ロイヤル、後輩に愚痴を垂れ流すのはやめなさい。",
+			actor = 207040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -99,11 +99,11 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#a9f548",
 			say = "ふん、セントーが今持っているものがどれだけ大切かあなたにはわかるまい……",
 			effects = {
 				{
@@ -124,8 +124,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "ヴィクトリアス先輩も！おはようございます！",
 			effects = {
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "おはよう。指揮官、この前の任務の報告書よ。あとで確認して。",
 			typewriter = {
 				speed = 0.05,
@@ -182,12 +182,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "そうか？ヴィクトリアスもそう思っているのか？",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そうか？ヴィクトリアスもそう思っているのか？",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -218,16 +218,16 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#a9f548",
 			say = "断じて違う！私もセントーにそんな感じの雰囲気があると思って近づいたまでだ。…それでさっきの話に繋がったわけだが。",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1,
 					dur = 0.4,
 					x = 22.5,
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "指揮官、少し休憩させていただいていいかしら？",
 			typewriter = {
 				speed = 0.05,
@@ -314,15 +314,15 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207040,
+			nameColor = "#a9f548",
 			say = "そういえば、セントーの耳って結構珍しいよね？デュークと同じ本物？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -350,8 +350,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "そうですね…私、ほとんどの先輩たちと耳の形が違うので、自分でもちょっと不思議です。",
 			typewriter = {
@@ -364,12 +364,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "確かに重桜の獣耳とも違うな。なんでだろう。",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "確かに重桜の獣耳とも違うな。なんでだろう。",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -384,12 +384,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "指揮官はなにか手がかりでも持っていないのか？",
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官はなにか手がかりでも持っていないのか？",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -426,12 +426,12 @@ return {
 			}
 		},
 		{
-			actor = 207040,
+			say = "それって？",
 			side = 0,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "それって？",
+			actor = 207040,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -449,8 +449,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "セントーはすなわちケンタウルス、森の中に棲む存在だと聞きましたけど、",
 			typewriter = {
@@ -466,8 +466,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "そのケンタウルスから「森」という「認識」が付け加えられたんじゃないかな、と……",
 			typewriter = {
@@ -499,8 +499,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "あの二人とはお知り合いですか？ぜひお話を聞いてみたいです。",
 			typewriter = {
@@ -532,8 +532,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "それは構いませんが……",
 			typewriter = {
@@ -562,16 +562,16 @@ return {
 			}
 		},
 		{
-			actor = 207020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207020,
+			nameColor = "#a9f548",
 			say = "私も任務に戻るとしよう。セントー、今度駆逐艦の妹たちと遊ぶときは、わ、私も呼んでくれないか…？",
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 1.5,
 					dur = 0.4,
 					x = 22.5,
@@ -588,12 +588,12 @@ return {
 			}
 		},
 		{
-			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 206040,
+			nameColor = "#a9f548",
 			say = "もちろんです！よろしくお願いします！",
 			typewriter = {
 				speed = 0.05,

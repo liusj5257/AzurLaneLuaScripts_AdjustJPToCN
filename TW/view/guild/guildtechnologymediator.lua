@@ -4,7 +4,7 @@ slot0.ON_START = "GuildTechnologyMediator:ON_START"
 slot0.ON_CANCEL_TECH = "GuildTechnologyMediator:ON_CANCEL_TECH"
 slot0.ON_OPEN_OFFICE = "GuildTechnologyMediator:ON_OPEN_OFFICE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_OPEN_OFFICE, function ()
 		uv0:sendNotification(uv1.ON_OPEN_OFFICE)
 	end)
@@ -26,7 +26,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setGuild(getProxy(GuildProxy):getData())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GuildProxy.GUILD_UPDATED,
 		GuildProxy.DONATE_UPDTAE,
@@ -37,7 +37,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GuildProxy.GUILD_UPDATED then

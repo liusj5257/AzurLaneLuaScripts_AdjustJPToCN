@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_64 = {}
 slot1 = slot0.word_template_64
 
-function temp()
+temp = function()
 	uv0["陳"] = {
 		["炳"] = {
 			["基"] = {
@@ -125,7 +125,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["諶"] = {
 		this = {
 			this = true
@@ -135,7 +135,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["齔"] = {
 		this = {
 			this = true
@@ -145,7 +145,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["櫬"] = {
 		this = {
 			this = true
@@ -155,7 +155,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["讖"] = {
 		this = {
 			this = true
@@ -165,7 +165,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["撑"] = {
 		["粤"] = {
 			["语"] = {
@@ -177,7 +177,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["成"] = {
 		["功"] = {
 			["克"] = {

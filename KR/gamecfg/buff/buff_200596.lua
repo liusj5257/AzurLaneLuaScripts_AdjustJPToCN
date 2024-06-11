@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023云仙活动 信仰之河 SP",
 	time = 13,
+	name = "2023云仙活动 信仰之河 SP",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

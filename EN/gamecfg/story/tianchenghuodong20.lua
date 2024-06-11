@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANCHENGHUODONG20",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIANCHENGHUODONG20",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 304050,
 			stopbgm = true,
 			side = 2,
-			nameColor = "#a9f548",
+			actor = 304050,
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Nagato, I hope you've been well.",
 			flashin = {
 				delay = 1,
@@ -40,12 +40,12 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			say = "Amagi. What would you request of me?",
 			side = 0,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "Amagi. What would you request of me?",
+			actor = 305050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -62,10 +62,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "If you pardon my rudeness, I would like to make a request on behalf of Kaga.",
 			typewriter = {
 				speed = 0.05,
@@ -95,10 +95,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "As you know, the treaty allows any two large capitol ships to be converted to aircraft carriers. I seek to rescind the decommissioning of Battleship Kaga based upon the Treaty's demands.",
 			typewriter = {
 				speed = 0.05,
@@ -128,10 +128,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "Unless someone takes her place, correct?",
 			typewriter = {
 				speed = 0.05,
@@ -177,10 +177,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "While she may not be up to the task just yet, if you were to pass on the role to Kaga, I would be able to rest easy knowing that I was able to serve the Sakura Empire, even with this flawed body.",
 			typewriter = {
 				speed = 0.05,
@@ -242,10 +242,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "Thank you for entertaining my selfish requests, but this is my... *cough* *cough*...",
 			typewriter = {
 				speed = 0.05,
@@ -291,10 +291,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "Thank you for your graciousness, Nagato...",
 			typewriter = {
 				speed = 0.05,
@@ -324,10 +324,10 @@ return {
 		{
 			expression = 3,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "Those two have the strength and talent to become the core of the Combined Fleet. Please rest assured, Nagato.",
 			typewriter = {
 				speed = 0.05,
@@ -357,10 +357,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
-			actor = 304050,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 304050,
+			nameColor = "#a9f548",
 			say = "Thank you very much. I am sorry for troubling you.",
 			typewriter = {
 				speed = 0.05,

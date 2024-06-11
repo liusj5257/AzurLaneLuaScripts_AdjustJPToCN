@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BANRENMA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BANRENMA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Centaur and the Port \"Elders\"\n\n<size=45>Chapter 3 - The Meaning of Respect</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Port - Office",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,9 +44,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "The business of Centaur calling everyone \"Elder\" had become the talk of the fleet.",
 			typewriter = {
 				speed = 0.05,
@@ -54,13 +54,13 @@ return {
 			}
 		},
 		{
-			actor = 206040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Hmmm...? Why is it I call everyone \"Elder?\" ... Commander, you know I was born after the War, don't you?",
 			bgm = "story-2",
+			actor = 206040,
+			nameColor = "#a9f548",
+			say = "Hmmm...? Why is it I call everyone \"Elder?\" ... Commander, you know I was born after the War, don't you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,9 +74,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
 			bgmDelay = 2,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Since the fighting was already over, there was a chance our entire class of ships would be cancelled.",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "However, with the War behind us, we never had a chance at the glorious, tumultuous lives of our Elders.",
 			typewriter = {
@@ -138,9 +138,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Centaur spoke dispassionately.",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "And yet, it's more than that.",
 			typewriter = {
@@ -168,8 +168,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "Commander, I lived my life in a world of peace. I have never known the horrors of war.",
 			typewriter = {
@@ -185,8 +185,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "But the more I learn of the deeds of my storied Elders, the more I have come to understand what war is.",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "It is not something that I, who has never experienced that hell, can invoke so cavalierly.",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "In fact, the word \"Elder\" cannot adequately express the level of esteem to which I hold them.",
 			typewriter = {
@@ -249,9 +249,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Centaur appeared lost in her thoughts.",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 206040,
 			dir = 1,
+			actor = 206040,
 			nameColor = "#a9f548",
 			say = "I'll talk it over with everyone. If some Elders are bothered by it, I'll do what I can to show my respect through my actions rather than words.~",
 			typewriter = {

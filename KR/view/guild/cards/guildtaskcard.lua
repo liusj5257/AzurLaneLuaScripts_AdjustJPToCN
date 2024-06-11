@@ -1,6 +1,6 @@
 slot0 = class("GuildTaskCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0._go = go(slot1)
 	slot0.acceptBtn = slot0._tf:Find("accept")
@@ -12,7 +12,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0._tf:Find("res_2/label"):GetComponent(typeof(Text)).text = i18n("guild_private_awards")
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot0.task = slot1
 	slot0.icon.sprite = GetSpriteFromAtlas("ui/GuildMainUI_atlas", "frame_" .. slot1:GetScale())
 	slot0.descTxt.text = slot1:GetDesc()
@@ -20,7 +20,7 @@ function slot0.Update(slot0, slot1)
 	slot0.privateResTxt.text = slot1:GetPrivateAward()
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 end
 
 return slot0

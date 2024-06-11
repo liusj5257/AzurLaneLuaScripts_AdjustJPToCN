@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 19341,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19341,
+	color = "red",
 	icon = 19340,
 	last_effect = "",
 	effect_list = {
@@ -28,9 +28,9 @@ return {
 			},
 			arg_list = {
 				buff_id = 19342,
-				target = "TargetSelf",
 				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				label = {
 					"TP",
 					"DUO"
@@ -44,9 +44,9 @@ return {
 			},
 			arg_list = {
 				buff_id = 19343,
-				target = "TargetSelf",
 				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				label = {
 					"TP",
 					"TRI"
@@ -60,9 +60,9 @@ return {
 			},
 			arg_list = {
 				buff_id = 19344,
-				target = "TargetSelf",
 				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				label = {
 					"TP",
 					"QUAD"
@@ -76,12 +76,28 @@ return {
 			},
 			arg_list = {
 				buff_id = 19345,
-				target = "TargetSelf",
 				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				label = {
 					"TP",
 					"QUINT"
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				buff_id = 19345,
+				minWeaponNumber = 1,
+				check_weapon = true,
+				target = "TargetSelf",
+				label = {
+					"TP",
+					"TRI-DUO"
 				}
 			}
 		}

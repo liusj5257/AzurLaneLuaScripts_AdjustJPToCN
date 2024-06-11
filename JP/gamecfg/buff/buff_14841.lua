@@ -7,8 +7,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.04
+					number = -0.04,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -17,8 +17,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExposeExtra",
-					number = 15
+					number = 15,
+					attr = "cloakExposeExtra"
 				}
 			}
 		}
@@ -31,8 +31,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.046
+					number = -0.046,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExposeExtra",
-					number = 15
+					number = 15,
+					attr = "cloakExposeExtra"
 				}
 			}
 		}
@@ -55,8 +55,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.052
+					number = -0.052,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -65,8 +65,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExposeExtra",
-					number = 15
+					number = 15,
+					attr = "cloakExposeExtra"
 				}
 			}
 		}
@@ -79,8 +79,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.06
+					number = -0.06,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExposeExtra",
-					number = 15
+					number = 15,
+					attr = "cloakExposeExtra"
 				}
 			}
 		}
@@ -103,8 +103,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.066
+					number = -0.066,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -113,8 +113,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExposeExtra",
-					number = 15
+					number = 15,
+					attr = "cloakExposeExtra"
 				}
 			}
 		}
@@ -127,8 +127,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.072
+					number = -0.072,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExposeExtra",
-					number = 15
+					number = 15,
+					attr = "cloakExposeExtra"
 				}
 			}
 		}
@@ -151,8 +151,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.08
+					number = -0.08,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -161,8 +161,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExposeExtra",
-					number = 15
+					number = 15,
+					attr = "cloakExposeExtra"
 				}
 			}
 		}
@@ -175,8 +175,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.086
+					number = -0.086,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExposeExtra",
-					number = 15
+					number = 15,
+					attr = "cloakExposeExtra"
 				}
 			}
 		}
@@ -199,8 +199,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.092
+					number = -0.092,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -209,8 +209,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExposeExtra",
-					number = 15
+					number = 15,
+					attr = "cloakExposeExtra"
 				}
 			}
 		}
@@ -223,8 +223,8 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "injureRatioByAir",
-					number = -0.1
+					number = -0.1,
+					attr = "injureRatioByAir"
 				}
 			},
 			{
@@ -233,20 +233,20 @@ return {
 					"onAttach"
 				},
 				arg_list = {
-					attr = "cloakExposeExtra",
-					number = 15
+					number = 15,
+					attr = "cloakExposeExtra"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 14841,
+	time = 0,
 	picture = "",
 	desc = "降低受到的航空伤害",
 	stack = 1,
-	id = 14841,
+	color = "blue",
 	icon = 14840,
 	last_effect = "",
 	blink = {
@@ -263,8 +263,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.04
+				number = -0.04,
+				attr = "injureRatioByAir"
 			}
 		},
 		{
@@ -273,8 +273,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cloakExposeExtra",
-				number = 15
+				number = 15,
+				attr = "cloakExposeExtra"
 			}
 		}
 	}

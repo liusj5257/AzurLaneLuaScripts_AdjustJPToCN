@@ -1,10 +1,10 @@
 slot0 = class("WorldBossHelpPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldBossHelpUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.friendBtn = slot0:findTF("window/sliders/content/friend")
 	slot0.friendRequested = slot0.friendBtn:Find("requested")
 	slot0.friendMark = slot0.friendBtn:Find("mark")
@@ -20,7 +20,7 @@ function slot0.OnLoaded(slot0)
 	slot0.timers = {}
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -61,13 +61,13 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	slot0.friendFlag = false
 	slot0.guildFlag = false
 	slot0.worldFlag = false
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot0.boss = slot1
 
 	slot0:Reset()
@@ -77,7 +77,7 @@ function slot0.Update(slot0, slot1)
 	slot0:Show()
 end
 
-function slot0.UpdateFriendRequestItem(slot0)
+slot0.UpdateFriendRequestItem = function(slot0)
 	slot1 = slot0.boss
 	slot3 = nowWorld():GetBossProxy():FriendSupported()
 
@@ -93,7 +93,7 @@ function slot0.UpdateFriendRequestItem(slot0)
 	end
 end
 
-function slot0.UpdateGuildRequetItem(slot0)
+slot0.UpdateGuildRequetItem = function(slot0)
 	slot1 = slot0.boss
 	slot3 = nowWorld():GetBossProxy():GuildSupported()
 
@@ -109,7 +109,7 @@ function slot0.UpdateGuildRequetItem(slot0)
 	end
 end
 
-function slot0.UpdateWorldRequetItem(slot0)
+slot0.UpdateWorldRequetItem = function(slot0)
 	slot2 = nowWorld():GetBossProxy():WorldSupported()
 
 	setActive(slot0.worldRequested, slot2)
@@ -123,7 +123,7 @@ function slot0.UpdateWorldRequetItem(slot0)
 	end
 end
 
-function slot0.AddRequestTimer(slot0, slot1, slot2, slot3)
+slot0.AddRequestTimer = function(slot0, slot1, slot2, slot3)
 	slot4 = nowWorld():GetBossProxy()
 	slot0.timers[slot2] = Timer.New(function ()
 		if uv0 - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
@@ -140,7 +140,7 @@ function slot0.AddRequestTimer(slot0, slot1, slot2, slot3)
 	slot0.timers[slot2].func()
 end
 
-function slot0.RemoveRequestTimer(slot0, slot1)
+slot0.RemoveRequestTimer = function(slot0, slot1)
 	if slot0.timers[slot1] then
 		slot0.timers[slot1]:Stop()
 
@@ -148,7 +148,7 @@ function slot0.RemoveRequestTimer(slot0, slot1)
 	end
 end
 
-function slot0.RemoveRequestTimers(slot0)
+slot0.RemoveRequestTimers = function(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot5:Stop()
 	end
@@ -156,17 +156,17 @@ function slot0.RemoveRequestTimers(slot0)
 	slot0.timers = {}
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 	slot0:RemoveRequestTimers()
 end

@@ -1,8 +1,8 @@
 return {
-	id = "FUYINGYINGHUA17",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA17",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -26,16 +26,16 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_xinnong_cg4",
 			actorName = "{namecode:175}",
 			dir = 1,
+			bgName = "bg_xinnong_cg4",
+			bgm = "battle-boss-4",
 			nameColor = "#a9f548",
 			say = "{namecode:179}小心！",
-			bgm = "battle-boss-4",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -52,13 +52,13 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 1,
 			actorName = "{namecode:180}？",
-			nameColor = "#ff5c5c",
 			dir = 1,
-			say = "…",
 			soundeffect = "event:/battle/boom2",
+			actor = 301810,
+			nameColor = "#ff5c5c",
+			say = "…",
 			flashN = {
 				color = {
 					1,
@@ -104,8 +104,8 @@ return {
 			actor = 302080,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "{namecode:181}？",
 			dir = 1,
+			actorName = "{namecode:181}？",
 			say = "…",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "她們不是同伴…是塞壬基於我們的數據而生產出的“棋子”！",
 			typewriter = {
 				speed = 0.05,
@@ -165,9 +165,9 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "咕…真是惡趣味…！",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.3,
 					x = 20,
@@ -192,8 +192,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "大家不要動搖，牢記我們的使命。守護天岩島，消滅所有來犯之敵！",
 			typewriter = {
 				speed = 0.05,

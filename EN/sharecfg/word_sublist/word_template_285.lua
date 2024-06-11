@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_285 = {}
 slot1 = slot0.word_template_285
 
-function temp()
+temp = function()
 	uv0["推"] = {
 		["翻"] = {
 			["共"] = {
@@ -163,7 +163,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["腿"] = {
 		["张"] = {
 			["开"] = {
@@ -175,7 +175,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["褪"] = {
 		["出"] = {
 			this = true
@@ -191,7 +191,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["吞"] = {
 		["精"] = {
 			this = true,
@@ -228,7 +228,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["臀"] = {
 		["部"] = {
 			["油"] = {
@@ -257,7 +257,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["托"] = {
 		["福"] = {
 			["代"] = {
@@ -276,7 +276,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["脫"] = {
 		["內"] = {
 			["褲"] = {

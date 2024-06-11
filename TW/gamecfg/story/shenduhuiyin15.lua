@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENDUHUIYIN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENDUHUIYIN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "「фатальная ошибка」",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "echo-loop",
+			say = "「фатальная ошибка」",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "「███解除：22.8％」",
 			typewriter = {
 				speed = 0.05,
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -110,13 +110,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			bgName = "bg_deepecho_6",
-			actorName = "阿爾漢格爾斯克",
+			side = 2,
 			dir = 1,
-			say = "……欸？怎麼突然不說話了，在思考說服我的話術嗎？",
+			bgName = "bg_deepecho_6",
 			bgm = "battle-deepecho",
+			actorName = "阿爾漢格爾斯克",
+			say = "……欸？怎麼突然不說話了，在思考說服我的話術嗎？",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -142,8 +142,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "阿爾漢格爾斯克",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "阿爾漢格爾斯克",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "阿爾漢格爾斯克",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -254,8 +254,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "阿爾漢格爾斯克",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -286,8 +286,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "阿爾漢格爾斯克",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -302,8 +302,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -318,8 +318,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "阿爾漢格爾斯克",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -334,8 +334,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -350,8 +350,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "阿爾漢格爾斯克",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "阿爾漢格爾斯克",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -382,8 +382,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -398,8 +398,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "靈敏",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -430,8 +430,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "阿爾漢格爾斯克",
+			side = 2,
 			bgName = "bg_deepecho_6",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -446,9 +446,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_6",
+			dir = 1,
 			say = "將頭盔與眼罩安裝好，視野陷入了一片黑暗。",
 			typewriter = {
 				speed = 0.05,
@@ -460,8 +460,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -476,8 +476,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "阿爾漢格爾斯克",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -492,11 +492,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#BDBDBD",
 			side = 2,
 			bgName = "star_level_bg_1100",
-			actorName = "？？？",
 			dir = 1,
+			nameColor = "#BDBDBD",
+			actorName = "？？？",
 			say = "要拍照了哦~",
 			flashout = {
 				dur = 0.5,
@@ -523,12 +523,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "喀琅施塔得",
+			side = 2,
 			bgName = "star_level_bg_1100",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "………………？！",
 			typewriter = {
 				speed = 0.05,

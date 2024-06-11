@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 5,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 12,
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				rant = 2000,
-				target = "TargetSelf",
 				skill_id = 110121,
+				target = "TargetSelf",
 				countType = 1101201
 			}
 		},
@@ -61,8 +61,8 @@ return {
 			},
 			arg_list = {
 				rant = 4000,
-				target = "TargetSelf",
 				skill_id = 110121,
+				target = "TargetSelf",
 				countType = 1101202
 			}
 		},
@@ -84,8 +84,8 @@ return {
 			},
 			arg_list = {
 				rant = 6000,
-				target = "TargetSelf",
 				skill_id = 110121,
+				target = "TargetSelf",
 				countType = 1101203
 			}
 		},
@@ -107,8 +107,8 @@ return {
 			},
 			arg_list = {
 				rant = 8000,
-				target = "TargetSelf",
 				skill_id = 110121,
+				target = "TargetSelf",
 				countType = 1101204
 			}
 		},
@@ -130,8 +130,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
 				skill_id = 110121,
+				target = "TargetSelf",
 				countType = 1101205
 			}
 		},
@@ -153,8 +153,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
 				skill_id = 110121,
+				target = "TargetSelf",
 				countType = 1101206
 			}
 		},
@@ -176,8 +176,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
 				skill_id = 110121,
+				target = "TargetSelf",
 				countType = 1101207
 			}
 		},
@@ -199,8 +199,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
 				skill_id = 110121,
+				target = "TargetSelf",
 				countType = 1101208
 			}
 		},
@@ -222,8 +222,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
 				skill_id = 110121,
+				target = "TargetSelf",
 				countType = 1101209
 			}
 		},
@@ -245,8 +245,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
 				skill_id = 110121,
+				target = "TargetSelf",
 				countType = 1101210
 			}
 		},
@@ -268,8 +268,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
 				skill_id = 110121,
+				target = "TargetSelf",
 				countType = 1101211
 			}
 		}

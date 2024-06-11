@@ -12,11 +12,11 @@ slot0.BUFF_TYEP = {
 	cyan = "cyan"
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ExerciseFormationUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.eventTriggers = {}
 	slot0._blurLayer = slot0:findTF("blur_panel")
 	slot0.backBtn = slot0:findTF("top/back_btn", slot0._blurLayer)
@@ -75,7 +75,7 @@ function slot0.init(slot0)
 	slot0:Register()
 end
 
-function slot0.Register(slot0)
+slot0.Register = function(slot0)
 	slot1 = slot0._formationLogic
 
 	slot1:AddHeroInfoModify(function (slot0, slot1)
@@ -137,7 +137,7 @@ function slot0.Register(slot0)
 		uv0:emit(DefenseFormationMedator.REMOVE_SHIP, slot0, slot1)
 	end)
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("defense_formation_tip_npc"),
 			onYes = slot0,
@@ -165,8 +165,8 @@ function slot0.Register(slot0)
 			})
 		else
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				zIndex = -30,
 				hideNo = false,
+				zIndex = -30,
 				content = i18n("ship_formationUI_quest_remove", slot2:getName()),
 				onYes = slot1,
 				onNo = slot0
@@ -181,19 +181,19 @@ function slot0.Register(slot0)
 	end)
 end
 
-function slot0.setShips(slot0, slot1)
+slot0.setShips = function(slot0, slot1)
 	slot0.shipVOs = slot1
 
 	slot0._formationLogic:SetShipVOs(slot1)
 end
 
-function slot0.SetFleet(slot0, slot1)
+slot0.SetFleet = function(slot0, slot1)
 	slot0._currentFleetVO = slot1
 
 	slot0._formationLogic:SetFleetVO(slot1)
 end
 
-function slot0.UpdateFleetView(slot0, slot1)
+slot0.UpdateFleetView = function(slot0, slot1)
 	slot0:displayFleetInfo()
 	slot0._formationLogic:ResetGrid(TeamType.Vanguard)
 	slot0._formationLogic:ResetGrid(TeamType.Main)
@@ -207,11 +207,11 @@ function slot0.UpdateFleetView(slot0, slot1)
 	end
 end
 
-function slot0.SetFleetNameLabel(slot0)
+slot0.SetFleetNameLabel = function(slot0)
 	setText(slot0._fleetNameText, i18n("exercise_formation_title"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0._currentDragDelegate then
 			LuaHelper.triggerEndDrag(uv0._currentDragDelegate)
@@ -255,7 +255,7 @@ function slot0.didEnter(slot0)
 	shiftPanel(slot0._bottomPanel, nil, 0, nil, 0.5, true, true)
 end
 
-function slot0.resetFormationComponent(slot0)
+slot0.resetFormationComponent = function(slot0)
 	removeAllChildren(slot0._buffGroup)
 
 	for slot5, slot6 in ipairs({}) do
@@ -270,7 +270,7 @@ function slot0.resetFormationComponent(slot0)
 	SetActive(slot0._gridTFs.main[1]:Find("flag"), #slot0._currentFleetVO:getTeamByName(TeamType.Main) ~= 0)
 end
 
-function slot0.shiftCard(slot0, slot1, slot2, slot3)
+slot0.shiftCard = function(slot0, slot1, slot2, slot3)
 	if #slot0._cards[slot3] > 0 then
 		slot4[slot2] = slot4[slot1]
 		slot4[slot1] = slot4[slot2]
@@ -279,7 +279,7 @@ function slot0.shiftCard(slot0, slot1, slot2, slot3)
 	slot0._shiftIndex = slot2
 end
 
-function slot0.sortCardSiblingIndex(slot0)
+slot0.sortCardSiblingIndex = function(slot0)
 	slot2 = slot0._cards[TeamType.Vanguard]
 
 	if #slot0._cards[TeamType.Main] > 0 or #slot2 > 0 then
@@ -293,7 +293,7 @@ function slot0.sortCardSiblingIndex(slot0)
 	end
 end
 
-function slot0.displayFleetInfo(slot0)
+slot0.displayFleetInfo = function(slot0)
 	slot1 = slot0._currentFleetVO:GetPropertiesSum()
 
 	slot0.tweenNumText(slot0._cannonPower, slot1.cannon)
@@ -307,18 +307,18 @@ function slot0.displayFleetInfo(slot0)
 	slot0:SetFleetNameLabel()
 end
 
-function slot0.hideAttrFrame(slot0)
+slot0.hideAttrFrame = function(slot0)
 	SetActive(slot0._attrFrame, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._blurLayer, slot0._tf)
 end
 
-function slot0.displayAttrFrame(slot0)
+slot0.displayAttrFrame = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._blurLayer, false)
 	SetActive(slot0._attrFrame, true)
 	slot0:initAttrFrame()
 end
 
-function slot0.initAttrFrame(slot0)
+slot0.initAttrFrame = function(slot0)
 	slot1 = {
 		[TeamType.Main] = "main",
 		[TeamType.Vanguard] = "vanguard"
@@ -345,7 +345,7 @@ function slot0.initAttrFrame(slot0)
 	end
 end
 
-function slot0.updateAttrFrame(slot0)
+slot0.updateAttrFrame = function(slot0)
 	for slot5, slot6 in pairs({
 		[TeamType.Main] = slot0._currentFleetVO.mainShips,
 		[TeamType.Vanguard] = slot0._currentFleetVO.vanguardShips
@@ -370,7 +370,7 @@ function slot0.updateAttrFrame(slot0)
 	setActive(slot0:findTF(TeamType.Submarine, slot0._attrFrame), false)
 end
 
-function slot0.updateUltimateTitle(slot0)
+slot0.updateUltimateTitle = function(slot0)
 	if #slot0._cards[TeamType.Main] > 0 then
 		for slot5 = 1, #slot1 do
 			setActive(slot1[slot5].shipState, slot5 == 1)
@@ -384,7 +384,7 @@ function slot0.updateUltimateTitle(slot0)
 	end
 end
 
-function slot0.getCardAttrProps(slot0, slot1)
+slot0.getCardAttrProps = function(slot0, slot1)
 	return {
 		{
 			i18n("word_attr_durability"),
@@ -401,7 +401,7 @@ function slot0.getCardAttrProps(slot0, slot1)
 	}
 end
 
-function slot0.attachOnCardButton(slot0, slot1, slot2)
+slot0.attachOnCardButton = function(slot0, slot1, slot2)
 	slot3 = GetOrAddComponent(slot1.go, "EventTriggerListener")
 	slot0.eventTriggers[slot3] = true
 
@@ -432,7 +432,7 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 		slot9 = 0
 		slot10 = {}
 
-		function slot12()
+		slot12 = function()
 			for slot3 = 1, #uv0 do
 				uv0[slot3].tr.anchoredPosition = uv1[slot3]
 			end
@@ -541,21 +541,21 @@ function slot0.attachOnCardButton(slot0, slot1, slot2)
 	end
 end
 
-function slot0.change2ScrPos(slot0, slot1, slot2)
+slot0.change2ScrPos = function(slot0, slot1, slot2)
 	return LuaHelper.ScreenToLocal(slot1, slot2, GameObject.Find("OverlayCamera"):GetComponent("Camera"))
 end
 
-function slot0.tweenNumText(slot0, slot1, slot2)
+slot0.tweenNumText = function(slot0, slot1, slot2)
 	LeanTween.value(go(slot0), 0, math.floor(slot1), slot2 or 0.7):setOnUpdate(System.Action_float(function (slot0)
 		setText(uv0, math.floor(slot0))
 	end))
 end
 
-function slot0.GetFleetCount(slot0)
+slot0.GetFleetCount = function(slot0)
 	return 1
 end
 
-function slot0.recyclePainting(slot0)
+slot0.recyclePainting = function(slot0)
 	for slot4, slot5 in pairs(slot0._cards) do
 		for slot9, slot10 in ipairs(slot5) do
 			slot10:clear()
@@ -563,7 +563,7 @@ function slot0.recyclePainting(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.eventTriggers then
 		for slot4, slot5 in pairs(slot0.eventTriggers) do
 			ClearEventTrigger(slot4)

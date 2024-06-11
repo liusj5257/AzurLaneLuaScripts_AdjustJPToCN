@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAHUANGFENG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAHUANGFENG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"像牛仔一樣!\n\n<size=45>七 所以說，我喜歡你！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "大黃蜂和瑞鶴的演習結束後——",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "大黃蜂和瑞鶴的演習結束後——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,11 +49,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			fontsize = 60,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "指揮官！我們去約會吧！",
-			fontsize = 60,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			say = "？！",
@@ -92,8 +92,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "呃……好像有些太大聲了，抱歉抱歉……",
 			typewriter = {
@@ -109,8 +109,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "我從明石那裡搞到了兩張西部片的電影票，我們一起去看電影吧！順便再玩個一整天~",
 			typewriter = {
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -136,8 +136,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "這個是……不管作為之前事情的封口費也好……報答也好，還是單純的邀請之類的……總之沒那麼多理由，一起去玩吧！",
 			typewriter = {
@@ -150,15 +150,15 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "快點快點，電影要開始了！別忘了戴上3D眼鏡！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -193,14 +193,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "還以為大黃蜂那種性格肯定會在劇情高潮的時候喊出聲來……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			say = "沒想到她只是聚精會神的沉浸在電影的世界中。",
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			say = "因為一直被她握著手，反倒是我這變得有點不好意思起來……",
@@ -255,15 +255,15 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "果然西部片最經典的場景就是騎馬和拔槍決鬥了呢~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -291,8 +291,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "哎，指揮官~你該不會是握個手就臉紅了吧？",
 			typewriter = {
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "走吧走吧，讓我們去下一個地方——",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -331,8 +331,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "在接下來的時光裡，就這樣被大黃蜂拉著體驗了整棟大樓的全部娛樂設施……",
@@ -348,14 +348,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_night",
 			actor = 107070,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "呼哇——過癮了過癮了，把一整年的份量都玩夠了哎~特別是那個牛仔套環，真是超有趣~！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -380,8 +380,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -393,8 +393,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "哎？你已經撐不住了嗎，那我們休息一會吧！",
 			typewriter = {
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "與大黃蜂一同在長椅上坐了下來。",
@@ -441,8 +441,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "不過我是已經沒有什麼好傾訴的啦……多虧了你、北安普敦還有企業姐，我現在感覺狀態極好~",
 			typewriter = {
@@ -474,8 +474,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "企業姐也是……",
 			typewriter = {
@@ -507,8 +507,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "嗯嗯，說的沒錯，不過我還想補充一句。…我啊，也有不想用姐姐們的力量，不去模仿姐姐戰鬥的時候哦",
 			typewriter = {
@@ -524,8 +524,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "比如說…你看，我沒有姐姐那麼麻煩吧。你眼前的大黃蜂我啊，對喜歡的人是會直接說喜歡的",
 			typewriter = {
@@ -538,11 +538,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "所以說這種“戰鬥”就是只屬於我一個人的——指揮官，我喜歡你！",
 			typewriter = {
 				speed = 0.05,
@@ -554,8 +554,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -564,11 +564,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_night",
 			blackbg = true,
-			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "————指揮官，你呢？",
 			typewriter = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RONGXUEDEYAOYUE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RONGXUEDEYAOYUE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"雪見温泉の招待状\n\n<size=45>一 月夜に風？</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_167",
-			say = "新月が空高く登り詰めた頃。松林の中にある露天温泉からは湯気が立ち込めていた。",
+			side = 2,
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
+			nameColor = "#A9F548FF",
+			say = "新月が空高く登り詰めた頃。松林の中にある露天温泉からは湯気が立ち込めていた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			say = "そんな気持ちのいい夜に訪れたのは――",
 			typewriter = {
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 603042,
 			nameColor = "#A9F548FF",
 			say = "だいぶ熱いわね……悪いけど指揮官、私はちょっとだけ上がってくるわ。長く入っちゃってなんだかのぼせそうで…",
 			painting = {
@@ -177,12 +177,12 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 603042,
 			actorName = "トレント",
 			say = "あらあら、トリエステ？火照っているのはお湯のせい？それとも指揮官がいるから…？",
 			painting = {
@@ -213,12 +213,12 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 603042,
 			actorName = "トレント",
 			say = "ふふふ♪",
 			painting = {
@@ -267,11 +267,11 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 603042,
 			nameColor = "#A9F548FF",
 			say = "私、いつも指揮官には厳しくしているけど、こうして本音を素直に伝える機会ってなかなかなくて……",
 			painting = {

@@ -1,17 +1,17 @@
 slot0 = class("MetaCharacterSynLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MetaCharacterSynUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initUITextTips()
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:updateShipImg()
 	slot0:updatePtPanel()
 	slot0:updateTaskList()
@@ -29,17 +29,17 @@ function slot0.didEnter(slot0)
 	slot0:TryPlayGuide()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:moveShipImg(false)
 	slot0:disablePartialBlur()
 end
 
-function slot0.initUITextTips(slot0)
+slot0.initUITextTips = function(slot0)
 	setText(slot0:findTF("PTPanel/TipText"), i18n("meta_cur_pt"))
 	setText(slot0:findTF("TaskPanel/ActTimePanel/Tip"), i18n("meta_acttime_limit"))
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.curMetaShipID = slot0.contextData.shipID
 	slot0.curShipVO = nil
 	slot0.curMetaCharacterVO = nil
@@ -48,13 +48,13 @@ function slot0.initData(slot0)
 	slot0:updateData()
 end
 
-function slot0.updateData(slot0)
+slot0.updateData = function(slot0)
 	slot0.curShipVO = getProxy(BayProxy):getShipById(slot0.curMetaShipID)
 	slot0.curMetaCharacterVO = slot0.curShipVO:getMetaCharacter()
 	slot0.curMetaProgressVO = getProxy(MetaCharacterProxy):getMetaProgressVOByID(slot0.curMetaCharacterVO.id)
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.shipImg = slot0:findTF("ShipImg")
 	slot0.ptPanel = slot0:findTF("PTPanel")
 	slot0.ptSynRateText = slot0:findTF("ProgressText", slot0.ptPanel)
@@ -76,7 +76,7 @@ function slot0.findUI(slot0)
 	slot0.actTimeText = slot0:findTF("TaskPanel/ActTimePanel/Text")
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.getAllBtn, function ()
 		slot0, slot1 = uv0:getOneStepPTAwardLevelAndCount()
 
@@ -102,11 +102,11 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.TryPlayGuide(slot0)
+slot0.TryPlayGuide = function(slot0)
 	pg.SystemGuideMgr.GetInstance():PlayByGuideId("NG0028")
 end
 
-function slot0.updateActTimePanel(slot0)
+slot0.updateActTimePanel = function(slot0)
 	if type(slot0.curMetaProgressVO.timeConfig) == "string" then
 		setActive(slot0.actTimePanel, false)
 	elseif type(slot1.timeConfig) == "table" then
@@ -114,7 +114,7 @@ function slot0.updateActTimePanel(slot0)
 	end
 end
 
-function slot0.updateShipImg(slot0)
+slot0.updateShipImg = function(slot0)
 	slot1, slot2 = MetaCharacterConst.GetMetaCharacterPaintPath(slot0.curMetaCharacterVO.id, true)
 
 	setImageSprite(slot0.shipImg, LoadSprite(slot1, slot2), true)
@@ -131,13 +131,13 @@ function slot0.updateShipImg(slot0)
 	})
 end
 
-function slot0.updatePtPanel(slot0)
+slot0.updatePtPanel = function(slot0)
 	setImageSprite(slot0.ptIconLeft, LoadSprite(slot0.curMetaProgressVO:getPtIconPath()))
 	setText(slot0.ptSynRateText, string.format("%d", slot0.curMetaProgressVO:getSynRate() * 100) .. "%")
 	setText(slot0.ptNumText, slot0.curMetaProgressVO.metaPtData:GetResProgress())
 end
 
-function slot0.updateTaskList(slot0)
+slot0.updateTaskList = function(slot0)
 	slot0.taskUIItemList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:updateTaskTpl(slot2, slot1 + 1)
@@ -152,7 +152,7 @@ function slot0.updateTaskList(slot0)
 	})
 end
 
-function slot0.updateTaskTpl(slot0, slot1, slot2)
+slot0.updateTaskTpl = function(slot0, slot1, slot2)
 	slot9 = slot0:findTF("Info/AwardInfo/Award/Tag/Get", slot1)
 	slot10 = slot0:findTF("Info/AwardInfo/Award/Tag/Got", slot1)
 	slot11 = slot0:findTF("GotMask", slot1)
@@ -194,7 +194,7 @@ function slot0.updateTaskTpl(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateGetAwardBtn(slot0)
+slot0.updateGetAwardBtn = function(slot0)
 	slot2 = slot0.curMetaProgressVO.metaPtData:CanGetNextAward()
 
 	if slot0.curMetaProgressVO.metaPtData:CanGetAward() then
@@ -212,18 +212,18 @@ function slot0.updateGetAwardBtn(slot0)
 	end
 end
 
-function slot0.moveShipImg(slot0, slot1)
+slot0.moveShipImg = function(slot0, slot1)
 	slot3 = MetaCharacterConst.UIConfig[slot0.curMetaCharacterVO.id]
 
 	slot0:managedTween(LeanTween.moveX, nil, rtf(slot0.shipImg), slot1 and slot3[9] or -2000, 0.3):setFrom(slot1 and -2000 or slot3[9])
 end
 
-function slot0.movePanel(slot0)
+slot0.movePanel = function(slot0)
 	slot0:managedTween(LeanTween.moveX, nil, rtf(slot0.taskPanel), 500, 0.3):setFrom(2000)
 	slot0:managedTween(LeanTween.moveX, nil, rtf(slot0.ptPanel), -516, 0.3):setFrom(-2000)
 end
 
-function slot0.enablePartialBlur(slot0)
+slot0.enablePartialBlur = function(slot0)
 	if slot0._tf then
 		slot1 = {}
 
@@ -236,13 +236,13 @@ function slot0.enablePartialBlur(slot0)
 	end
 end
 
-function slot0.disablePartialBlur(slot0)
+slot0.disablePartialBlur = function(slot0)
 	if slot0._tf then
 		pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 	end
 end
 
-function slot0.getOneStepPTAwardLevelAndCount(slot0)
+slot0.getOneStepPTAwardLevelAndCount = function(slot0)
 	slot1 = slot0.curMetaProgressVO
 	slot2 = slot1.metaPtData:GetResProgress()
 	slot4 = slot1:getStoryIndexList()
@@ -275,7 +275,7 @@ function slot0.getOneStepPTAwardLevelAndCount(slot0)
 	return slot6, slot3[slot6]
 end
 
-function slot0.goWorldFunc(slot0)
+slot0.goWorldFunc = function(slot0)
 	getProxy(ContextProxy):getContextByMediator(MetaCharacterMediator).data.lastPageIndex = pg.m02:retrieveMediator("MetaCharacterMediator").viewComponent.curPageIndex
 
 	slot0:closeView()

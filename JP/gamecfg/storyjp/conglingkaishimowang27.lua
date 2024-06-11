@@ -7,8 +7,8 @@ return {
 	},
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 1,
 			sequence = {
 				{
@@ -21,17 +21,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -39,11 +39,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "冒険者一行が王都へ帰還すると、その英雄的功績にふさわしい熱烈な歓迎を受けた。",
 			bgm = "story-mmorpg",
+			say = "冒険者一行が王都へ帰還すると、その英雄的功績にふさわしい熱烈な歓迎を受けた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_155",
 			say = "祝祭が終わると、冒険者一行は撫順の提案で、ウルスプ村を訪れた。",
 			typewriter = {
@@ -85,17 +85,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -129,29 +129,29 @@ return {
 			}
 		},
 		{
-			actor = 201371,
-			side = 2,
 			bgName = "star_level_bg_158",
-			hidePaintObj = true,
+			side = 2,
 			withoutActorName = true,
+			actor = 201371,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "その後、薬師のヌビアンは地元のテルマエ村に戻り、村人たちへの無償の治療を再開した。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -185,8 +185,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			say = "多忙な日々を送る薬師は、二度と誰かを銀浜の島へに連れて行くことはなかった。",
 			typewriter = {
@@ -194,17 +194,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -225,29 +225,29 @@ return {
 			}
 		},
 		{
-			actor = 202341,
-			side = 2,
 			bgName = "star_level_bg_507",
-			hidePaintObj = true,
+			side = 2,
 			withoutActorName = true,
+			actor = 202341,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "リヴァプールとユニコーンは、王国の神聖教会に参加し、己の力を磨くことにした。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -281,8 +281,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			say = "何百年もの間、人外の地にいて孤独な戦いを続けてきたヴァンパイアハンターたちは王国に認められ、受け入れられた。",
 			typewriter = {
@@ -290,17 +290,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -321,8 +321,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "荒れの大地に生気が戻ったという情報は、すぐに王国の至る所に広まった。",
 			typewriter = {
@@ -330,17 +330,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			say = "これにより王国中に開拓のブームが起こった。",
 			typewriter = {
@@ -397,29 +397,29 @@ return {
 			}
 		},
 		{
-			actor = 205130,
-			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
+			side = 2,
 			withoutActorName = true,
+			actor = 205130,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "魔王が打ち倒された後、王国軍は前よりも忙しくなった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -453,29 +453,29 @@ return {
 			}
 		},
 		{
-			actor = 907010,
-			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
+			side = 2,
 			withoutActorName = true,
+			actor = 907010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "天冠城壁遺跡の修復作業は鋼鉄教会の主導で秩序よく進められていった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -483,8 +483,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			say = "旧王都遺跡はあまりにも荒廃が激しく危険すぎるためか、王さまは復興案を断念せざるを得なかった。",
 			typewriter = {
@@ -493,8 +493,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			say = "しかし、中に埋もれている大量の骨董品は莫大な富になりうる。",
 			typewriter = {
@@ -557,11 +557,11 @@ return {
 		{
 			expression = 9,
 			side = 2,
-			bgName = "star_level_bg_105",
 			factiontag = "吟遊詩人",
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			bgName = "star_level_bg_105",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「伝説の指揮は、歴史からその姿を消した」",
 			typewriter = {
@@ -569,17 +569,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -591,9 +591,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "吟遊詩人",
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「辺境の地を統治する領主になったと言う者もいれば」",
 			typewriter = {
@@ -606,9 +606,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "吟遊詩人",
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「北の塔にて百年に渡り修行に励んでいたと言う者もいる」",
 			typewriter = {
@@ -621,9 +621,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "吟遊詩人",
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「地方誌では、新しい冒険パーティーを結成し、新大陸を追い求めて遠方へ向かったという」",
 			typewriter = {
@@ -636,9 +636,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "吟遊詩人",
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「稗史（はいし）には、指揮官こそが魔王であり、王国全体がすでに手中に納められたことも」",
 			typewriter = {
@@ -651,9 +651,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "吟遊詩人",
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「冒険の旅路で指揮官とともに戦った者たちの、その最後を見た限り」",
 			typewriter = {
@@ -666,9 +666,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_105",
 			factiontag = "吟遊詩人",
-			actorName = "吟遊詩人",
-			actor = 401466,
 			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "「どこか平和な地で静かに幸せに暮らしていたのだろうかー」",
 			typewriter = {
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 1,
 			blackBg = true,
 			sequence = {
@@ -693,8 +693,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			mode = 1,
+			blackBg = true,
 			sequence = {
 				{
 					"『ゼロから頑張る魔王討伐』・FIN",
@@ -703,9 +703,9 @@ return {
 			}
 		},
 		{
+			spacing = 40,
 			time = 50,
 			mode = 6,
-			spacing = 40,
 			layout = {
 				{
 					4

@@ -1,10 +1,10 @@
 slot0 = class("ShopSingleWindow", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShopsUISinglebox"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.itemTF = slot0:findTF("window/item")
 	slot0.nameTF = slot0.itemTF:Find("display_panel/name_container/name/Text"):GetComponent(typeof(Text))
 	slot0.descTF = slot0.itemTF:Find("display_panel/desc/Text"):GetComponent(typeof(Text))
@@ -18,7 +18,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0.itemTF:Find("ship_group/unlocked/Text"), i18n("tag_ship_unlocked"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0:findTF("window/actions/cancel_btn"), function ()
 		uv0:Close()
 	end, SFX_CANCEL)
@@ -33,7 +33,7 @@ function slot0.OnInit(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.Open(slot0, slot1, slot2)
+slot0.Open = function(slot0, slot1, slot2)
 	slot0.opening = true
 
 	slot0:Show()
@@ -41,7 +41,7 @@ function slot0.Open(slot0, slot1, slot2)
 	slot0:InitWindow(slot1, slot2)
 end
 
-function slot0.InitWindow(slot0, slot1, slot2)
+slot0.InitWindow = function(slot0, slot1, slot2)
 	slot3 = {
 		id = slot1:getConfig("commodity_id"),
 		type = slot1:getConfig("commodity_type"),
@@ -74,7 +74,7 @@ function slot0.InitWindow(slot0, slot1, slot2)
 	slot0.nameTF.text = slot3:getConfig("name")
 end
 
-function slot0.Close(slot0)
+slot0.Close = function(slot0)
 	if slot0.opening then
 		slot0.opening = false
 
@@ -83,7 +83,7 @@ function slot0.Close(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.opening then
 		slot0:Close()
 	end

@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIONGYINGDEXUSHIGE27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIONGYINGDEXUSHIGE27",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900329,
 			stopbgm = true,
-			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#ffa500",
 			side = 2,
-			say = "「드디어 모든 게 끝이 났다.」",
+			bgName = "bg_roma_7",
 			bgm = "theme-roma-image",
+			actor = 900329,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "「드디어 모든 게 끝이 났다.」",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -154,12 +154,12 @@ return {
 			}
 		},
 		{
-			actor = 900329,
 			side = 2,
 			bgName = "bg_roma_7",
-			hidePaintObj = true,
-			nameColor = "#ffa500",
 			blackBg = true,
+			actor = 900329,
+			nameColor = "#ffa500",
+			hidePaintObj = true,
 			say = "「내가 새로운 세상, 새로운 제국을 만들 테니——」",
 			painting = {
 				alpha = 0.3,

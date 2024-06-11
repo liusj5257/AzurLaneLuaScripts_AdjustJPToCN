@@ -9,11 +9,11 @@ slot2 = {
 }
 slot3 = 0.4
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateAwardInfoUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.THIRD_LAYER
 	})
@@ -61,7 +61,7 @@ function slot0.init(slot0)
 	slot0._tf:SetAsLastSibling()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("close", slot0.awardWindow), function ()
 		uv0:_close()
 	end, SFX_CANCEL)
@@ -87,7 +87,7 @@ function slot0.didEnter(slot0)
 	slot0:showWindow()
 end
 
-function slot0.showWindow(slot0)
+slot0.showWindow = function(slot0)
 	if #slot0.showAwardDrops > 0 then
 		slot0.inAnimPlaying = true
 
@@ -142,7 +142,7 @@ function slot0.showWindow(slot0)
 	end
 end
 
-function slot0.getAwardDrops(slot0)
+slot0.getAwardDrops = function(slot0)
 	return EducateHelper.FilterDropByTypes(slot0.drops, {
 		EducateConst.DROP_TYPE_ATTR,
 		EducateConst.DROP_TYPE_RES,
@@ -151,7 +151,7 @@ function slot0.getAwardDrops(slot0)
 	})
 end
 
-function slot0.getAttrDrops(slot0)
+slot0.getAttrDrops = function(slot0)
 	underscore.each(EducateHelper.FilterDropByTypes(slot0.drops, {
 		EducateConst.DROP_TYPE_ITEM
 	}), function (slot0)
@@ -161,13 +161,13 @@ function slot0.getAttrDrops(slot0)
 	return {}
 end
 
-function slot0.getPolaroidDrops(slot0)
+slot0.getPolaroidDrops = function(slot0)
 	return EducateHelper.FilterDropByTypes(slot0.drops, {
 		EducateConst.DROP_TYPE_POLAROID
 	})
 end
 
-function slot0.showPolaroidAnim(slot0)
+slot0.showPolaroidAnim = function(slot0)
 	slot0.playing = true
 
 	setActive(slot0.polaroidDescTF, false)
@@ -198,7 +198,7 @@ function slot0.showPolaroidAnim(slot0)
 	end)
 end
 
-function slot0._close(slot0)
+slot0._close = function(slot0)
 	if pg.NewGuideMgr.GetInstance():IsBusy() then
 		slot0:emit(uv0.ON_CLOSE)
 
@@ -214,11 +214,11 @@ function slot0._close(slot0)
 	slot0.isCloseAnim = true
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:_close()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 
 	if slot0.contextData.removeFunc then

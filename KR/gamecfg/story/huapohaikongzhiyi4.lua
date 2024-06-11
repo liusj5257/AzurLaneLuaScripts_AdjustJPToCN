@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUAPOHAIKONGZHIYI4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUAPOHAIKONGZHIYI4",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level",
+			say = "사이판 섬 서쪽 해역, 이글 유니온의 주력 부대",
 			side = 2,
 			bgName = "bg_map_maliyana",
 			dir = 1,
-			say = "사이판 섬 서쪽 해역, 이글 유니온의 주력 부대",
+			bgm = "level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "사쿠라 엠파이어 녀석들, 결국 공격해온 건가…",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "좋아. 나도 좀이 쑤시던 참이다.",
 			typewriter = {
@@ -88,11 +88,11 @@ return {
 			}
 		},
 		{
-			actor = 102140,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102140,
+			nameColor = "#a9f548",
 			say = "나도 준비 끝났어, 엔터프라이즈. 대공은 맡겨둬!",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -117,8 +117,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "미안하다. 공중에서 적을 모두 해치울 계획이지만… 도망치는 피라미가 있다면 부탁하지.",
 			typewriter = {
@@ -134,9 +134,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			actor = 102090,
 			dir = 1,
 			blackBg = true,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "헤헤, 엔터프라이즈의 이런 자신감 있는 모습이 좋다니까. 또 다른 승리를 향해 가보자고!",
 			typewriter = {

@@ -1,7 +1,7 @@
 return {
-	time = 3,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 3,
 	picture = "",
 	desc = "完全闪避",
 	stack = 1,
@@ -24,8 +24,8 @@ return {
 			},
 			arg_list = {
 				group = 14222,
-				attr = "perfectDodge",
-				number = 1
+				number = 1,
+				attr = "perfectDodge"
 			}
 		}
 	}

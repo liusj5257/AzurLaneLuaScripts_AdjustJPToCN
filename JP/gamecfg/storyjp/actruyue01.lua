@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ACTRUYUE01",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ACTRUYUE01",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"夏の鍋大会！？\n\n<size=45>一  鍋大会にゃ！</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			say = "ある日・母港にて",
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
 			bgm = "story-1",
+			side = 2,
+			dir = 1,
+			bgName = "bg_story_task",
+			say = "ある日・母港にて",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,11 +45,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "うぅ…どうしたらいいのかにゃ…",
 			typewriter = {
@@ -62,8 +62,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 15,
@@ -72,13 +72,13 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "むぅ…一体どこで間違えたのですかね……",
 			side = 1,
 			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "むぅ…一体どこで間違えたのですかね……",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -93,11 +93,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "きっとあれにゃ…結構前に注文してキャンセルしようとした食材にゃ…",
 			typewriter = {
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "すぐにキャンセルすると言いましたよね……",
 			typewriter = {
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "一生の不覚にゃ…大赤字にゃ……",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 15,
@@ -154,11 +154,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "でもこの食材はどうしましょう…そのまま放置したらすぐ腐りますね……夏場でございますから、なおさら……",
 			typewriter = {
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "冷蔵庫にはこれ以上入れられませんね……",
 			typewriter = {
@@ -188,11 +188,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "夏…冷蔵庫…食材…",
 			typewriter = {
@@ -205,11 +205,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "そ、そうだにゃ！鍋大会にゃ！",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "ナベタイカイ？……鍋大会！？どうしてそこまで連想するに至ったのでございますか……",
 			typewriter = {
@@ -249,8 +249,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "ツッコミは禁止にゃ！食材は無駄にしないにゃ！夏でも美味しいものは美味しいにゃ！",
 			typewriter = {
@@ -276,11 +276,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "そう主張なされなくとも…それにしても人はくるのでしょうか…夏の鍋大会など……",
 			typewriter = {
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
 			dir = -1,
+			actor = 312010,
 			actorName = "{namecode:98}",
 			say = "いるにゃ！明石はみんなを呼んでくるから！ぬいぬいはここで準備しててにゃ！食材の下ごしらえとか、鍋とか、いろいろ頼むにゃ！",
 			typewriter = {
@@ -310,12 +310,12 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 1,
+			bgName = "bg_story_task",
 			dir = 1,
 			blackBg = true,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "そうでございますか……",
 			typewriter = {

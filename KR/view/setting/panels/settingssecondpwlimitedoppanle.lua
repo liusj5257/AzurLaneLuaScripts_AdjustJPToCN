@@ -1,18 +1,18 @@
 slot0 = class("SettingsSecondPwLimitedOpPanle", import(".SettingsBasePanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "SettingsSecondPwLimitedOp"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("Settings_title_Secpwlimop")
 end
 
-function slot0.GetTitleEn(slot0)
+slot0.GetTitleEn = function(slot0)
 	return "  / PROTECTION LIST"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.uiList = UIItemList.New(findTF(slot0._tf, "options"), findTF(slot0._tf, "options/notify_tpl"))
 
 	slot0.uiList:make(function (slot0, slot1, slot2)
@@ -23,11 +23,11 @@ function slot0.OnInit(slot0)
 	slot0:SetData()
 end
 
-function slot0.SetData(slot0)
+slot0.SetData = function(slot0)
 	slot0.rawdata = getProxy(SecondaryPWDProxy):getRawData()
 end
 
-function slot0.UpdateItem(slot0, slot1, slot2)
+slot0.UpdateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.list[slot1]
 	slot4 = slot3.key
 	slot5 = findTF(slot2, "mask/Text")
@@ -63,12 +63,12 @@ function slot0.UpdateItem(slot0, slot1, slot2)
 	end, SFX_UI_TAG)
 end
 
-function slot0.UpdateBtnsState(slot0)
+slot0.UpdateBtnsState = function(slot0)
 	if not slot0:IsLoaded() then
 		return
 	end
 
-	function slot1(slot0, slot1)
+	slot1 = function(slot0, slot1)
 		slot3 = table.contains(uv0.rawdata.system_list, slot0.key)
 		slot1:GetComponent(typeof(Button)).interactable = uv0.rawdata.state > 0
 
@@ -83,14 +83,14 @@ function slot0.UpdateBtnsState(slot0)
 	end)
 end
 
-function slot0.OnUpdate(slot0)
+slot0.OnUpdate = function(slot0)
 	slot0.list = slot0:GetList()
 
 	slot0.uiList:align(#slot0.list)
 	slot0:UpdateBtnsState()
 end
 
-function slot0.GetList(slot0)
+slot0.GetList = function(slot0)
 	slot1 = pg.SecondaryPWDMgr.GetInstance()
 
 	for slot6 = #{

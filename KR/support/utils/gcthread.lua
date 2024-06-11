@@ -2,7 +2,7 @@ GCThread = singletonClass("GCThread")
 slot0 = GCThread
 slot0.R1024 = 0.00097656
 
-function slot0.Ctor(slot0)
+slot0.Ctor = function(slot0)
 	slot0.step = 1
 	slot0.gctick = 0
 	slot0.gccost = 0
@@ -11,13 +11,13 @@ function slot0.Ctor(slot0)
 	slot0.checkHandle = UpdateBeat:CreateListener(slot0.WatchStep, slot0)
 end
 
-function slot0.GC(slot0, slot1)
+slot0.GC = function(slot0, slot1)
 	slot0.needUnityGC = true
 
 	slot0:LuaGC(slot1)
 end
 
-function slot0.LuaGC(slot0, slot1)
+slot0.LuaGC = function(slot0, slot1)
 	if slot1 then
 		collectgarbage("collect")
 		slot0:GCFinal()
@@ -33,7 +33,7 @@ function slot0.LuaGC(slot0, slot1)
 	end
 end
 
-function slot0.GCFinal(slot0)
+slot0.GCFinal = function(slot0)
 	slot0.running = false
 
 	UpdateBeat:RemoveListener(slot0.gcHandle)
@@ -47,10 +47,9 @@ function slot0.GCFinal(slot0)
 
 		if slot3 < slot2 then
 			slot1:DestroyAllSprite()
-		else
-			ResourceMgr.Inst:ResUnloadAsync()
 		end
 
+		ResourceMgr.Inst:ResUnloadAsync()
 		LuaHelper.UnityGC()
 	end
 
@@ -59,7 +58,7 @@ function slot0.GCFinal(slot0)
 	end
 end
 
-function slot0.GCStep(slot0)
+slot0.GCStep = function(slot0)
 	slot1 = os.clock()
 
 	if not slot0.running then
@@ -78,11 +77,11 @@ function slot0.GCStep(slot0)
 	end
 end
 
-function slot0.CalcStep(slot0)
+slot0.CalcStep = function(slot0)
 	slot0.step = math.max(slot0.gctick - 60, 30) / 30 * 500 * math.max(1 - math.max(slot0.gccost - 3, 0) * 0.1, 0.1)
 end
 
-function slot0.StartWatch(slot0, slot1)
+slot0.StartWatch = function(slot0, slot1)
 	originalPrint("overhead: start watch")
 
 	if slot1 < collectgarbage("count") * uv0.R1024 + 12 then
@@ -107,7 +106,7 @@ function slot0.StartWatch(slot0, slot1)
 	slot0.watcher:Start()
 end
 
-function slot0.StopWatch(slot0)
+slot0.StopWatch = function(slot0)
 	originalPrint("overhead: stop watch")
 
 	if slot0.watcher then
@@ -117,7 +116,7 @@ function slot0.StopWatch(slot0)
 	end
 end
 
-function slot0.WatchStep(slot0)
+slot0.WatchStep = function(slot0)
 	slot1 = os.clock()
 
 	if collectgarbage("step", slot0.step) then

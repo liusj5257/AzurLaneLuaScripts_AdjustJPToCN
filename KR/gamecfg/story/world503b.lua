@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD503B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD503B",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "(노크 소리)",
 			side = 2,
 			bgName = "bg_port_chuanwu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "blueocean-image",
+			say = "(노크 소리)",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -64,9 +64,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "다과회…? 전초기지 안에서?",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_port_chuanwu1",
+			dir = 1,
 			say = "알겠어, 그럼 이따 다과회에서 봐.",
 			typewriter = {
 				speed = 0.05,
@@ -140,14 +140,14 @@ return {
 			}
 		},
 		{
-			say = "전초기지·로열 연회장",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgm = "theme-partydress",
+			say = "전초기지·로열 연회장",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -207,8 +207,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "쳇, 직책을 이용해 또 얼마나 많은 전투와 무관한 물건을 몰래 가져다 놨을지~",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "이……………!",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -315,8 +315,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "사기를 올리는 게 목적이라면 다과회든 파티든 중요하지 않지...",
 			typewriter = {
@@ -361,9 +361,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "정말 감사합니다.",
 			typewriter = {
 				speed = 0.05,
@@ -378,8 +378,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "진짜 맛있어… 엔터프라이즈, 너도 먹어봐! 힘 좀 빼, 지금 구운 과자라서 완전 말랑말랑 맛있다구!",
 			typewriter = {
@@ -424,13 +424,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_115",
+			side = 2,
+			dir = 1,
 			say = "상상을 초월하는 로열 다과회 진행 중————",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -455,9 +455,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "새러토가와 멤피스까지 올 줄은 생각지도 못했어, 롱 아일랜드가 말한 이동 임무가 이거였어?",
 			typewriter = {
 				speed = 0.05,
@@ -472,8 +472,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "응~ 맞아. 이번 전근은 추후 총공격 관련 배치와도 상관있는걸.",
 			typewriter = {
@@ -486,9 +486,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "구체적인 계획은? 함대를 이끌고 유니온 전초기지로 가서 공격을 진행하는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -503,8 +503,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "지휘관은 일 밖에 모른다니까! 다과회가 끝나고 얘기할까 했는데...",
 			typewriter = {
@@ -549,9 +549,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "그랬구나… 이렇게 되면 왔다 갔다 하는 시간을 아낄 수 있어. 로열 쪽도 문제없는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -627,9 +627,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "그 당돌한 제안은 분명 네가 한몫했겠지...",
 			typewriter = {
 				speed = 0.05,
@@ -660,8 +660,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "그다음은 예전에 얘기가 끝난 계획대로 움직이면 돼. 여긴 내가 책임질 테니까, 여왕님은 궁으로 돌아가세요~",
 			typewriter = {
@@ -690,11 +690,11 @@ return {
 			}
 		},
 		{
-			actor = 102160,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102160,
+			nameColor = "#a9f548",
 			say = "엇… 여왕 폐하께서 친히 핵심 지역!?",
 			typewriter = {
 				speed = 0.05,
@@ -706,8 +706,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -751,8 +751,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "… 그런 일은 네 메이드대에 맡기면 되는 거 아니야?",
 			typewriter = {
@@ -768,8 +768,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "지금이 바로 중요한 시기야. 우린 더 이상의 우여곡절을 겪을 순 없어. 전선의 일은 우리에게 맡기고, 여왕 폐하께서는 되도록 빨리 후방으로 돌아가 진두지휘해 줘.",
 			typewriter = {
@@ -817,8 +817,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "왕의 여유라———— (뚫어지게 쳐다보는 중)",
 			typewriter = {
@@ -831,11 +831,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "새, 새러토가! 이런 공허한 눈빛으로 날 바라보기 전에 먼저 거울을 보는 게 어때?!",
 			typewriter = {
 				speed = 0.05,
@@ -847,8 +847,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -889,9 +889,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "로열 다과회는 이렇게 화기애애한 분위기 속에서 계속 진행되었다————",
 			typewriter = {
 				speed = 0.05,
@@ -903,13 +903,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_115",
+			side = 2,
+			dir = 1,
 			say = "다과회 (파티)를 마치고 방으로 돌아가던 중 셰필드와 다시 만났다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -950,9 +950,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "방금 다과회에서 전혀 눈치채지 못했는데 셰필드도 있었구나.",
 			typewriter = {
 				speed = 0.05,
@@ -1012,9 +1012,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -1042,12 +1042,12 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "전 그럼 주인님의 시간을 뺏지 않겠습니다. 좋은 밤 되십시오.",
 			typewriter = {
 				speed = 0.05,

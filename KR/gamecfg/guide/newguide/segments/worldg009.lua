@@ -23,13 +23,13 @@ return {
 			style = {
 				text = "나침반 열기",
 				mode = 2,
-				posY = 232,
 				dir = 1,
+				posY = 232,
 				posX = 556.03
 			},
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/top/right_stage/compass/icon",
 				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/top/right_stage/compass/icon",
 				triggerType = {
 					1
 				},

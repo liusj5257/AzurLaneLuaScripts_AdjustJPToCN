@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "塔什干2",
 	time = 0,
-	color = "red",
+	name = "塔什干2",
+	init_effect = "",
+	id = 12991,
 	picture = "",
 	desc = "检查装备",
 	stack = 1,
-	id = 12991,
+	color = "red",
 	icon = 12990,
 	last_effect = "",
 	effect_list = {
@@ -26,10 +26,10 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				target = "TargetSelf",
 				skill_id = 12991,
+				minWeaponNumber = 1,
 				check_weapon = true,
+				target = "TargetSelf",
 				label = {
 					"SN",
 					"DD",

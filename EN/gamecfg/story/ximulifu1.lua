@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Prayer for Peace\n\n<size=45>Chapter 1: Invitation to the Banquet</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "At the Command Office...",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "At the Command Office...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			actor = 401234,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401234,
+			nameColor = "#a9f548",
 			say = "Commander, are you ready? Isn't it about time we get going?",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
 			nameColor = "#a9f548",
 			say = "Jeez, are you that sleep deprived? The banquet!",
 			typewriter = {
@@ -85,9 +85,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Now that you mention it...",
 			typewriter = {
 				speed = 0.05,
@@ -99,9 +99,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "A few days ago...",
 			effects = {
 				{
@@ -138,8 +138,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "After all, it was no small feat for Her Majesty to get the Iron Blood to co-sponsor an event like this.",
 			typewriter = {
@@ -152,11 +152,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205050,
+			nameColor = "#a9f548",
 			say = "I'd be so very disappointed if you forget to come, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -177,8 +177,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "In that case, I'll be looking forward to having a dance with you. Hehe, just kidding~",
 			typewriter = {
@@ -209,9 +209,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_story_task",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
+			bgName = "bg_story_task",
 			nameColor = "#a9f548",
 			say = "Do you remember now? *sigh* ... Aren't you glad I came to get you?",
 			flashout = {
@@ -264,8 +264,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 401234,
 			dir = 1,
+			actor = 401234,
 			nameColor = "#a9f548",
 			say = "Things might get a bit ugly if you don't show up on time... or at all.",
 			typewriter = {

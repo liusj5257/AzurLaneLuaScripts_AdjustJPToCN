@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行12次攻击，触发专属弹幕-巴尔的摩μI"
 	},
-	init_effect = "",
-	name = "专属弹幕",
 	time = 0,
-	color = "red",
+	name = "专属弹幕",
+	init_effect = "",
+	id = 29661,
 	picture = "",
 	desc = "主炮每进行12次攻击，触发专属弹幕-巴尔的摩μI",
 	stack = 1,
-	id = 29661,
+	color = "red",
 	icon = 29660,
 	last_effect = "",
 	effect_list = {
@@ -32,8 +32,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29661,
+				target = "TargetSelf",
 				countType = 29660
 			}
 		}

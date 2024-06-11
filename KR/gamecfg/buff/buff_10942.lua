@@ -1,12 +1,12 @@
 return {
-	time = 5,
 	name = "鬼神演舞",
 	init_effect = "jinengchufablue",
-	color = "red",
+	id = 10942,
+	time = 5,
 	picture = "",
 	desc = "提高机动属性",
 	stack = 1,
-	id = 10942,
+	color = "red",
 	icon = 10942,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 3000
+				number = 3000,
+				attr = "dodgeRate"
 			}
 		}
 	}

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 0.5,
 	mode = 2,
-	id = "FAXI06",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "FAXI06",
 	continueBgm = true,
 	occlusion = 2,
 	scripts = {
 		{
 			actor = 204010,
 			side = 0,
-			bgm = "level03",
-			dir = 1,
 			say = "皇家艦隊聲望號向同盟艦隊致與最親切的問候，申請合流——",
+			dir = 1,
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,8 +1,8 @@
 return {
-	id = "DAFUWENGEVENT2-1",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "DAFUWENGEVENT2-1",
+	skipTip = false,
 	scripts = {
 		{
 			say = "在街邊發現了油紙包裹的物資，獲得了獎勵【石油*10】"

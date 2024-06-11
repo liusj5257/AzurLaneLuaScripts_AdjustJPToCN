@@ -1,7 +1,7 @@
 slot0 = class("StarSeaPtPage", import(".TemplatePage.PtTemplatePage"))
 slot1 = "#CCB5FF"
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	if checkExist(slot0.activity:getConfig("config_client").story, {
 		slot0.ptData:getTargetLevel()
 	}, {

@@ -5,11 +5,11 @@ slot0.Battle.BattleControllerWeaponCommand = class("BattleControllerWeaponComman
 slot0.Battle.BattleControllerWeaponCommand.__name = "BattleControllerWeaponCommand"
 slot2 = slot0.Battle.BattleControllerWeaponCommand
 
-function slot2.Ctor(slot0)
+slot2.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot2.Initialize(slot0)
+slot2.Initialize = function(slot0)
 	uv0.super.Initialize(slot0)
 
 	slot0._dataProxy = slot0._state:GetProxyByName(uv1.Battle.BattleDataProxy.__name)
@@ -19,36 +19,36 @@ function slot2.Initialize(slot0)
 	slot0._focusBlockCast = false
 end
 
-function slot2.ActiveBot(slot0, slot1, slot2)
+slot2.ActiveBot = function(slot0, slot1, slot2)
 	slot0._manualWeaponAutoBot:SetActive(slot1, slot2)
 	slot0._joyStickAutoBot:SetActive(slot1)
 end
 
-function slot2.TryAutoSub(slot0)
+slot2.TryAutoSub = function(slot0)
 	if uv0.Battle.BattleState.IsAutoSubActive(slot0:GetState():GetBattleType()) and slot0._dataProxy:GetFleetByIFF(uv0.Battle.BattleConfig.FRIENDLY_CODE)._submarineVO:GetUseable() and slot3:GetCount() > 0 then
 		slot0._dataProxy:SubmarineStrike(uv0.Battle.BattleConfig.FRIENDLY_CODE)
 		slot3:Cast()
 	end
 end
 
-function slot2.GetWeaponBot(slot0)
+slot2.GetWeaponBot = function(slot0)
 	return slot0._manualWeaponAutoBot
 end
 
-function slot2.GetBotActiveDuration(slot0)
+slot2.GetBotActiveDuration = function(slot0)
 	return slot0._manualWeaponAutoBot:GetTotalActiveDuration()
 end
 
-function slot2.GetStickBot(slot0)
+slot2.GetStickBot = function(slot0)
 	return slot0._joyStickAutoBot
 end
 
-function slot2.InitBattleEvent(slot0)
+slot2.InitBattleEvent = function(slot0)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.COMMON_DATA_INIT_FINISH, slot0.onUnitInitFinish)
 	slot0._dataProxy:RegisterEventListener(slot0, uv0.JAMMING, slot0.onJamming)
 end
 
-function slot2.Update(slot0, slot1)
+slot2.Update = function(slot0, slot1)
 	if slot0._jammingFlag then
 		return
 	end
@@ -62,11 +62,11 @@ function slot2.Update(slot0, slot1)
 	end
 end
 
-function slot2.onJamming(slot0, slot1)
+slot2.onJamming = function(slot0, slot1)
 	slot0._jammingFlag = slot1.Data.jammingFlag
 end
 
-function slot2.onUnitInitFinish(slot0, slot1)
+slot2.onUnitInitFinish = function(slot0, slot1)
 	slot0._fleetList = slot0._dataProxy:GetFleetList()
 	slot2 = slot0._dataProxy:GetFleetByIFF(uv0.Battle.BattleConfig.FRIENDLY_CODE)
 
@@ -79,15 +79,15 @@ function slot2.onUnitInitFinish(slot0, slot1)
 	uv0.Battle.BattleCameraUtil.GetInstance():RegisterEventListener(slot0, uv1.CAMERA_FOCUS, slot0.onCameraFocus)
 end
 
-function slot2.onFleetFormationUpdate(slot0, slot1)
+slot2.onFleetFormationUpdate = function(slot0, slot1)
 	slot0._joyStickAutoBot:FleetFormationUpdate()
 end
 
-function slot2.onOverrideAutoBot(slot0, slot1)
+slot2.onOverrideAutoBot = function(slot0, slot1)
 	slot0._joyStickAutoBot:SwitchStrategy(uv0.Battle.BattleJoyStickAutoBot.AUTO_PILOT)
 end
 
-function slot2.onCameraFocus(slot0, slot1)
+slot2.onCameraFocus = function(slot0, slot1)
 	if slot1.Data.unit ~= nil then
 		slot0._focusBlockCast = true
 	else
@@ -97,7 +97,7 @@ function slot2.onCameraFocus(slot0, slot1)
 	end
 end
 
-function slot2.Dispose(slot0)
+slot2.Dispose = function(slot0)
 	slot1 = slot0._dataProxy:GetFleetByIFF(uv0.Battle.BattleConfig.FRIENDLY_CODE)
 
 	slot1:UnregisterEventListener(slot0, uv1.REFRESH_FLEET_FORMATION)

@@ -10,19 +10,19 @@ slot0.ON_GOT_GIFT = "FeastScene:ON_GOT_GIFT"
 slot0.GO_INTERACTION = "FeastScene:GO_INTERACTION"
 slot0.GO_INVITATION = "FeastScene:GO_INVITATION"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "FeastUI"
 end
 
-function slot0.forceGC(slot0)
+slot0.forceGC = function(slot0)
 	return true
 end
 
-function slot0.PlayBGM(slot0)
+slot0.PlayBGM = function(slot0)
 	pg.CriMgr.GetInstance():StopBGM()
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.mainCG = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 	slot0.backBtn = slot0:findTF("main/return")
 	slot0.invitationBtn = slot0:findTF("btns/invitation")
@@ -39,12 +39,12 @@ function slot0.init(slot0)
 	setText(slot0.taskBtn:Find("Text"), i18n("feast_task_btn_label"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:BlockEvents()
 	slot0:SetUpCourtYard()
 end
 
-function slot0.OnCourtYardLoaded(slot0)
+slot0.OnCourtYardLoaded = function(slot0)
 	slot0:UnBlockEvents()
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:emit(uv1.ON_BACK)
@@ -105,7 +105,7 @@ function slot0.OnCourtYardLoaded(slot0)
 	end
 end
 
-function slot0.UpdateBuffs(slot0)
+slot0.UpdateBuffs = function(slot0)
 	slot0.buffUIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
@@ -121,32 +121,32 @@ function slot0.UpdateBuffs(slot0)
 	slot0.buffUIlist:align(#getProxy(FeastProxy):GetBuffList())
 end
 
-function slot0.PlayEnterStory(slot0)
+slot0.PlayEnterStory = function(slot0)
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_FEAST):getConfig("config_client")[6] and slot3 ~= "" and not pg.NewStoryMgr.GetInstance():IsPlayed(slot3) then
 		pg.NewStoryMgr.GetInstance():Play(slot3)
 	end
 end
 
-function slot0.UpdateTips(slot0)
+slot0.UpdateTips = function(slot0)
 	setActive(slot0.invitationBtnTip, getProxy(FeastProxy):ShouldTipInvitation())
 	setActive(slot0.taskBtnTip, getProxy(FeastProxy):ShouldTipTask())
 end
 
-function slot0.SetUpCourtYard(slot0)
+slot0.SetUpCourtYard = function(slot0)
 	slot0.contextData.mode = CourtYardConst.SYSTEM_FEAST
 
 	slot0:emit(FeastMediator.SET_UP, 1)
 end
 
-function slot0.BlockEvents(slot0)
+slot0.BlockEvents = function(slot0)
 	slot0.mainCG.blocksRaycasts = false
 end
 
-function slot0.UnBlockEvents(slot0)
+slot0.UnBlockEvents = function(slot0)
 	slot0.mainCG.blocksRaycasts = true
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.invitationPage and slot0.invitationPage:GetLoaded() and slot0.invitationPage:isShowing() then
 		slot0.invitationPage:onBackPressed()
 
@@ -162,7 +162,7 @@ function slot0.onBackPressed(slot0)
 	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.invitationPage then
 		slot0.invitationPage:Destroy()
 

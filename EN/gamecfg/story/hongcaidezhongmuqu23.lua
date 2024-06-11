@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGCAIDEZHONGMUQU23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGCAIDEZHONGMUQU23",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Scapa Flow - Nearby Waters",
 			side = 2,
 			bgName = "bg_endingsong_4",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "theme-highseasfleet",
+			say = "Scapa Flow - Nearby Waters",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,12 +32,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Commander, we've located the remaining Iron Blood forces, as well as Friedrich herself.",
 			typewriter = {
 				speed = 0.05,
@@ -52,10 +52,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107060,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "She seems to be leaving Scapa Flow's harbor and heading towards your flagship.",
 			typewriter = {
 				speed = 0.05,
@@ -67,9 +67,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "Why is Akagi's fleet with them as well?",
 			typewriter = {
 				speed = 0.05,
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "And who are those new ships? Do they have something to do with Friedrich's real plans?",
 			typewriter = {
 				speed = 0.05,
@@ -98,10 +98,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 705050,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Comrade Commander... we are... arriving...",
 			typewriter = {
 				speed = 0.05,
@@ -113,9 +113,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "A message from the Northern Parliament... but there was too much noise to hear its contents properly. Didn't the Iron Blood just stop their jamming efforts?",
 			typewriter = {
 				speed = 0.05,
@@ -127,9 +127,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "\"Eldridge, check on the status of our communication equipment.\"",
 			typewriter = {
 				speed = 0.05,
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 101260,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101260,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "All equipment is... normal... No problems in the flagship––",
 			typewriter = {
 				speed = 0.05,
@@ -158,9 +158,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "I was afraid as much. That could only mean one thing...",
 			typewriter = {
 				speed = 0.05,
@@ -191,8 +191,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -201,9 +201,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "\"I thought we taught them a lesson for good during Operation Siren, but I guess that's a bit too optimistic...\"",
 			typewriter = {
 				speed = 0.05,
@@ -218,10 +218,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Where did all these guys come from? We're in trouble, Commander!",
 			typewriter = {
 				speed = 0.05,
@@ -255,10 +255,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "The Northern Parliament fleet seems to be the first group to be affected! I'm going to have to check in on the other fleets' situation!",
 			typewriter = {
 				speed = 0.05,
@@ -346,9 +346,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "\"I don't like the idea of grouping everyone in one place. Prioritize your own safety first and protect the carriers to maintain our visibility!\"",
 			typewriter = {
 				speed = 0.05,
@@ -363,10 +363,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105130,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Understood! We'll correct course.",
 			typewriter = {
 				speed = 0.05,
@@ -381,10 +381,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 103160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Damnit... We're trying to make it back to the carriers but a swarm of humanoid Sirens showed up! This might take us a while!",
 			typewriter = {
 				speed = 0.05,
@@ -396,9 +396,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "The sudden appearance of the Sirens disrupted all the fleets as they tried to converge on Scapa Flow.",
 			typewriter = {
 				speed = 0.05,
@@ -410,9 +410,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "Our communication network was in tatters, but I tried to group nearby fleets together as best as I could, focusing on working our way through the fog one piece at a time.",
 			typewriter = {
 				speed = 0.05,
@@ -427,10 +427,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 102160,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "How is possible for so many Mirror Seas to erupt when we've continuously had so many patrols and recons over this area?",
 			typewriter = {
 				speed = 0.05,
@@ -476,9 +476,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "\"If they have any fleets available, ask that they dispatch them immediately.\"",
 			typewriter = {
 				speed = 0.05,
@@ -490,9 +490,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "\"These are their waters after all. Surely they have to have some patrols in the area.\"",
 			typewriter = {
 				speed = 0.05,
@@ -523,9 +523,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "\"Georgia, how's the situation on your end?\"",
 			typewriter = {
 				speed = 0.05,
@@ -540,10 +540,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 199020,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Good enough, Commander. I can still hear you.",
 			typewriter = {
 				speed = 0.05,
@@ -593,9 +593,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "The fog heavily limited the range and scope of our carrier-based recons. Clearing the fog naturally is high priority.",
 			typewriter = {
 				speed = 0.05,
@@ -607,9 +607,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "\"Enterprise, Saratoga, can you hear me?\"",
 			typewriter = {
 				speed = 0.05,
@@ -621,12 +621,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "Communicator",
+			hidePaintObj = true,
 			say = ".........",
 			typewriter = {
 				speed = 0.05,
@@ -638,9 +638,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "\"It's no good. Seems like the fog is also jamming our equipment.\"",
 			typewriter = {
 				speed = 0.05,
@@ -655,10 +655,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Carriers are great and all, but don't forget you still have the indomitable Black Dragon at your side~♪",
 			typewriter = {
 				speed = 0.05,
@@ -689,9 +689,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "A lively voice echoed through the briefing room.",
 			typewriter = {
 				speed = 0.05,
@@ -706,10 +706,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "We've lost contact with about half our fleet, but I brought the other half with me!",
 			typewriter = {
 				speed = 0.05,
@@ -724,10 +724,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107090,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I'll find out where Compiler is hiding! I'm going to do my part for the fleet!",
 			typewriter = {
 				speed = 0.05,
@@ -739,9 +739,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "\"That's going to be the first step if we want to figure out exactly what we're up against.\"",
 			typewriter = {
 				speed = 0.05,
@@ -775,10 +775,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "But the Sirens weren't attacking them at all. Only us.",
 			typewriter = {
 				speed = 0.05,
@@ -841,10 +841,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 107110,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Commander! We've located a humanoid Siren that appears to be Compiler!",
 			typewriter = {
 				speed = 0.05,
@@ -897,10 +897,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_endingsong_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 105170,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I won't let you anywhere near the Commander, Siren scum!!",
 			typewriter = {
 				speed = 0.05,
@@ -912,9 +912,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = ".........",
 			typewriter = {
 				speed = 0.05,
@@ -926,9 +926,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "I had long prepared for the possibility of the Sirens interfering during this operation.",
 			typewriter = {
 				speed = 0.05,
@@ -940,9 +940,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_endingsong_4",
+			dir = 1,
 			say = "I assembled a coalition, and even tapped into the Sea of Stars.",
 			typewriter = {
 				speed = 0.05,

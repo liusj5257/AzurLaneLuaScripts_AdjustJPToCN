@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"비서함 다이호의 헌신\n\n<size=45>위험한 동맹</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "비번에 학교를 산책하다가, 다이호의 의외의 모습을 발견했다.",
 			side = 2,
 			bgName = "star_level_bg_103",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "비번에 학교를 산책하다가, 다이호의 의외의 모습을 발견했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#92fc63",
+			actorName = "？？？",
 			bgName = "star_level_bg_103",
 			side = 1,
 			dir = 1,
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "다이호와 대화하고 있는 건……쇼카쿠?",
 			typewriter = {
 				speed = 0.05,
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#92fc63",
 			say = "다른 아이가 존재하는 것 만으로 불편한 기색을 드러내 자리를 망쳐놓는 어느 선배와는 다르게 말이죠. 우후후♪",
 			typewriter = {
 				speed = 0.05,
@@ -136,8 +136,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.2,
 					x = 0,
@@ -149,10 +149,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 307070,
-			dir = 1,
-			nameColor = "#92fc63",
 			say = "그럴지도 모르겠네요……이 냄새는…지휘관님?",
+			dir = 1,
+			actor = 307070,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -183,11 +183,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 307070,
+			nameColor = "#92fc63",
 			say = "역시 지휘관님이셨네요! 아아…지휘관님께선 다이호를 찾고 계셨던 건가요? 다이호, 감동했사와요~",
 			typewriter = {
 				speed = 0.05,
@@ -199,8 +199,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -209,9 +209,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "헉.",
 			typewriter = {
 				speed = 0.05,
@@ -235,12 +235,12 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			say = "지휘관님을 향한 사랑은 누구한테도 지지 않는답니다? 그 아카기 씨에게도 말이죠. 후후후♡",
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "지휘관님을 향한 사랑은 누구한테도 지지 않는답니다? 그 아카기 씨에게도 말이죠. 후후후♡",
+			actor = 307070,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -258,8 +258,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "하지만 전투력만 놓고 보자면, 확실히 아카기 씨가 전투 경험이 다이호 보다 훨씬 많다 보니 곤란하단 말이죠…",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "star_level_bg_103",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#92fc63",
 			say = "쇼카쿠 씨와……?",
 			typewriter = {
@@ -321,12 +321,12 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "지휘관은 어떻게 생각하세요?",
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "지휘관은 어떻게 생각하세요?",
+			actor = 307050,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "뭔가 좋지 않은 예감이 들지만, 일단 당사자들끼리 해결하는 선에서 끝낸다고 한다면…일단은 괜찮지 않을까.",
 			typewriter = {
 				speed = 0.05,
@@ -385,10 +385,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 307070,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 307070,
+			nameColor = "#92fc63",
 			say = "(작은 목소리로) 이걸로 아카기 씨를 잘라낼 패가 일단 하나 손에 들어왔군……후후후♡",
 			typewriter = {
 				speed = 0.05,
@@ -400,9 +400,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "비서함을 담당할 때 열심히 일하던 얼굴이랑은 완전히 다른 표정을 하고 있네.",
 			typewriter = {
 				speed = 0.05,

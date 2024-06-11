@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -19,8 +19,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "ジャジャーン！お茶会、始まるわ！",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +50,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "なるほどね！ロイヤルのメイドさんは理由を知りたいのね！それはね――大人の理由だよ！",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "そろそろ「ふゆしーずん」ですから、皆を労おうと思います。……疲れた皆さんを電はここで暖かいお茶と一緒に待ってようと思います。",
 			typewriter = {
 				speed = 0.05,
@@ -97,8 +97,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "雷は部屋に引きこもってないわ！雷は……えっと、冬眠！雷、冬眠中だよ！",
 			typewriter = {
 				speed = 0.05,
@@ -113,8 +113,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "……雷、ウソも「ほうべん」…ですよ。",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 0,
-			actorName = "{namecode:13}",
 			dir = 1,
+			actorName = "{namecode:13}",
 			say = "なるほどね！でも電気をつけてあるから大丈夫！",
 			typewriter = {
 				speed = 0.05,
@@ -160,8 +160,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "……イラストリアスさん、雷のほかにもうひとり来ると聞きましたが……",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "うん……フッドさんも来ていないのですか？",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "「雷の自信作をお見せしまーす」",
 			typewriter = {
 				speed = 0.05,
@@ -280,16 +280,16 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "ロイヤルのみんな",
 			actorShadow = true,
+			hideOther = true,
 			side = 1,
 			actor = 202120,
 			nameColor = "#a9f548",
 			say = "……こ、これは――！！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -380,8 +380,8 @@ return {
 			actor = 301121,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:14}",
 			dir = 1,
+			actorName = "{namecode:14}",
 			say = "暁は……",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			actor = 301111,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:13}",
 			dir = -1,
+			actorName = "{namecode:13}",
 			say = "置き手紙を残して一人で出掛けたらしいよ！",
 			typewriter = {
 				speed = 0.05,
@@ -424,16 +424,16 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			actorName = "{namecode:11}",
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			nameColor = "#a9f548",
 			say = "『響が参加していないお茶会なんて拙者はお断りするでござる！響、待ってて！拙者が絶対連れ帰ってみせるのでござる！』",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

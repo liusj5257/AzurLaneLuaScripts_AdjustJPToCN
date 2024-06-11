@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 3000
+					number = 3000,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.1,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -69,8 +69,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 3220
+					number = 3220,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -80,8 +80,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.111,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -119,8 +119,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 3440
+					number = 3440,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -130,8 +130,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.122,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -169,8 +169,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 3660
+					number = 3660,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -180,8 +180,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.133,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -219,8 +219,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 3880
+					number = 3880,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -230,8 +230,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.144,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -269,8 +269,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 4100
+					number = 4100,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -280,8 +280,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.155,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -319,8 +319,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 4320
+					number = 4320,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -330,8 +330,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.166,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -369,8 +369,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 4540
+					number = 4540,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -380,8 +380,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.177,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -419,8 +419,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 4760
+					number = 4760,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -430,8 +430,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.188,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -469,8 +469,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "loadSpeed",
-					number = 5000
+					number = 5000,
+					attr = "loadSpeed"
 				}
 			},
 			{
@@ -480,8 +480,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "damageRatioBullet",
 					number = 0.2,
+					attr = "damageRatioBullet",
 					index = {
 						1
 					}
@@ -499,14 +499,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "腓特烈",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 19231,
+	time = 0,
 	picture = "",
 	desc = "额外增加装填、伤害",
 	stack = 1,
-	id = 19231,
+	color = "red",
 	icon = 19230,
 	last_effect = "",
 	blink = {
@@ -535,8 +535,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "loadSpeed",
-				number = 3000
+				number = 3000,
+				attr = "loadSpeed"
 			}
 		},
 		{
@@ -546,8 +546,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
 				number = 0.12,
+				attr = "damageRatioBullet",
 				index = {
 					1
 				}

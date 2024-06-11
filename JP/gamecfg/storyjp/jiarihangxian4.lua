@@ -1,15 +1,15 @@
 return {
-	id = "JIARIHANGXIAN4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "JIARIHANGXIAN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "doa_daozhong",
 			say = "数日後、近海にて",
+			side = 2,
+			dir = 1,
+			bgm = "doa_daozhong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,9 +37,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 10600010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "わあ！マリー、ほんとに海の上に浮いてます！あははっ、これ楽しい♪",
 			typewriter = {
 				speed = 0.05,
@@ -51,8 +51,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -64,8 +64,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600020,
 			dir = 1,
+			actor = 10600020,
 			say = "はわわわ…マリーちゃん気を付けて、海に落ちちゃったら大変だよ…",
 			typewriter = {
 				speed = 0.05,
@@ -95,8 +95,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			say = "うん♪こうやって海の上で動けるの、ちょっとテンション上がるかも！",
 			typewriter = {
 				speed = 0.05,
@@ -141,8 +141,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			say = "ゲフンゲフン…気に入ってくれたようでよかったにゃ！この艤装は明石の心血そそいだ結晶にゃ、大事に使ってほしいにゃ",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			expression = 2,
 			side = 2,
 			paintingNoise = false,
-			actor = 10600060,
 			dir = 1,
+			actor = 10600060,
 			nameColor = "#a9f548",
 			say = "さて、どうするかのう？　ふふふ",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			say = "とりあえず、あとは「ヴィーナスフェス」の準備だにゃ。できるまで艤装に慣れてみるにゃ！",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			expression = 2,
 			side = 2,
 			paintingNoise = false,
-			actor = 10600030,
 			dir = 1,
+			actor = 10600030,
 			nameColor = "#a9f548",
 			say = "本当に、こんな「スペシャルヴィーナスフェス」になるなんて……",
 			typewriter = {
@@ -206,13 +206,13 @@ return {
 		{
 			actor = 201210,
 			side = 2,
+			dir = 1,
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "指揮官、みんなが来ましたよ！あと、明石のことも探しているみたいです！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,8 +263,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 10600030,
 			dir = 1,
+			actor = 10600030,
 			nameColor = "#a9f548",
 			say = "初めまして、あなたが指揮官？さんですね。それに、緑の猫…じゃなくて、明石さん…ですか？わたしはかすみです。仲間たちと一緒にヴィーナス諸島から……",
 			typewriter = {
@@ -277,13 +277,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -341,9 +341,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "明石と艤装のことはもちろん、ほかにも気になる単語が書かれている…",
 			typewriter = {
 				speed = 0.05,
@@ -380,8 +380,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			nameColor = "#a9f548",
 			say = "「ヴィーナスフェス」は、常夏のヴィーナス諸島ってところでやってる超大きな祭典のことなんだ。島のオーナーが選んだ女の子たちを「ヴィーナス」として、思いっきり輝かせてあげるの！そして、巨万の富を手に入れ、島を大きなリゾートに…！",
 			typewriter = {
@@ -394,9 +394,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "なんだかおもしろそう…？",
 			typewriter = {
 				speed = 0.05,
@@ -424,10 +424,10 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			nameColor = "#a9f548",
-			bgName = "bg_main_day",
 			side = 2,
+			bgName = "bg_main_day",
+			actor = 101170,
 			dir = 1,
 			hideOther = true,
 			actorName = "ジャベリンたち",
@@ -462,9 +462,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "おっと。ここはまず「タブレット」に書かれている内容について確認しないと…",
 			typewriter = {
 				speed = 0.05,
@@ -562,8 +562,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "端末",
+			side = 2,
 			bgName = "bg_main_day",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -578,9 +578,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "演習か…確か近々に島の周辺海域を利用した演習の計画があったような…",
 			typewriter = {
 				speed = 0.05,
@@ -630,11 +630,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "みんなも手伝うにゃ！忙しくなるにゃ～！",
 			typewriter = {
 				speed = 0.05,
@@ -646,8 +646,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -659,8 +659,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_main_day",
-			actor = 10600040,
 			dir = 1,
+			actor = 10600040,
 			nameColor = "#a9f548",
 			say = "あはは、なんかわからないけど…わたしたちも手伝うよ♪",
 			typewriter = {
@@ -675,12 +675,12 @@ return {
 		{
 			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "近くの海域に「演習艦」を配置したにゃ！まずはこれで艤装を使う練習をしてみるにゃ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -712,10 +712,10 @@ return {
 			}
 		},
 		{
-			actorName = "ヴィーナス諸島一同",
 			nameColor = "#a9f548",
-			side = 2,
+			actorName = "ヴィーナス諸島一同",
 			dir = 1,
+			side = 2,
 			say = "おー！",
 			dialogShake = {
 				speed = 0.09,

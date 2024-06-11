@@ -1,20 +1,20 @@
 return {
-	id = "WEICENGHUNHE27",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE27",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
-			bgm = "hunhe-battle",
 			say = "運河要塞？・外洋？",
+			dir = 1,
+			bgm = "hunhe-battle",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -30,8 +30,8 @@ return {
 			actor = 106550,
 			nameColor = "#a9f548",
 			side = 2,
-			expression = 2,
 			dir = 1,
+			expression = 2,
 			say = "対潜哨戒の艦載機が敵を発見し次第、位置を連絡して…",
 			typewriter = {
 				speed = 0.05,
@@ -46,8 +46,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "ふぅ、潜水艦対策をしておいてよかったです。まさかセイレーンの潜水艦がこんなに…",
 			typewriter = {
 				speed = 0.05,
@@ -62,8 +62,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "護衛空母なのに戦おうとするなんて凄いですねーあたしも艦載機を装備できればね～",
 			typewriter = {
 				speed = 0.05,
@@ -78,8 +78,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "霧があるとはいえ、やっぱりちょっと高いところから偵察してみたいってカンジ？",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "ええと、水上機ならまだしも、空母艦載機の運用までとなりますと、航空巡洋艦に改造したほうが良さそうですよ",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "マーブルヘッドはメンフィスのことが心配ですか？",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +156,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "運河要塞回りの観光スポットも紹介して、非番の日にはリラックスしてもらおうと思ってましたけどぉ",
 			typewriter = {
 				speed = 0.05,
@@ -172,8 +172,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102270,
 			dir = 1,
+			actor = 102270,
 			say = "流石にこの様子だとちょっと無理そうですね…あははは",
 			typewriter = {
 				speed = 0.05,
@@ -188,8 +188,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "私もエンタープライズさんとボルチモアさんたちのことが心配です",
 			typewriter = {
 				speed = 0.05,
@@ -219,8 +219,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "だからマーブルヘッドがあの…「チャラい」感じのままでいられるよう、私も頑張りたいと思います",
 			typewriter = {
 				speed = 0.05,
@@ -234,9 +234,9 @@ return {
 		{
 			expression = 7,
 			side = 2,
+			dir = 1,
 			actor = 102270,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "言いますね～マジメな子だと思ってたのに意外と冗談が通じるタイプ？",
 			dialogShake = {
 				speed = 0.09,
@@ -255,9 +255,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 106550,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "意外でしたか？",
 			typewriter = {
 				speed = 0.05,
@@ -269,8 +269,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 15,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -297,8 +297,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			say = "うん！みんなと一緒に頑張りましょう！",
 			typewriter = {
 				speed = 0.05,

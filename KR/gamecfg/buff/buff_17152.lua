@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "",
-	color = "red",
+	id = 17152,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 17152,
+	color = "red",
 	icon = 17150,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "dodgeRateExtra",
-				number = 0.05
+				number = 0.05,
+				attr = "dodgeRateExtra"
 			}
 		}
 	}

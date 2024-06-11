@@ -11,7 +11,7 @@ slot1.LAYERS = {
 	"sea"
 }
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	slot0._go = GameObject.New("scenes")
 	slot0.mapLayerCtrls = {}
 	slot0.seaAnimList = {}
@@ -68,7 +68,7 @@ function slot1.Ctor(slot0, slot1)
 	return slot0._go
 end
 
-function slot1.ShiftSurface(slot0, slot1, slot2, slot3, slot4)
+slot1.ShiftSurface = function(slot0, slot1, slot2, slot3, slot4)
 	if slot0._shiftTimer then
 		return
 	end
@@ -103,16 +103,16 @@ function slot1.ShiftSurface(slot0, slot1, slot2, slot3, slot4)
 	end, true)
 end
 
-function slot1.UpdateSpeedScaler(slot0)
+slot1.UpdateSpeedScaler = function(slot0)
 	slot0:setSpeedScaler(uv0.Battle.BattleVariable.MapSpeedRatio)
 end
 
-function slot1.UpdateBufferAlpha(slot0, slot1)
+slot1.UpdateBufferAlpha = function(slot0, slot1)
 	slot0._bufferRenderer.color = Color.New(1, 1, 1, slot1 * 0.1)
 end
 
-function slot1.SetExposeLine(slot0, slot1, slot2, slot3)
-	function instantiateLine(slot0, slot1)
+slot1.SetExposeLine = function(slot0, slot1, slot2, slot3)
+	instantiateLine = function(slot0, slot1)
 		slot2 = uv0.Battle.BattleResourceManager.GetInstance():InstMap(slot1)
 
 		setParent(slot2, uv1._go.transform:Find("seaLayer"), false)
@@ -133,13 +133,13 @@ function slot1.SetExposeLine(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.setSpeedScaler(slot0, slot1)
+slot1.setSpeedScaler = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.mapLayerCtrls) do
 		slot6.speedScaler = slot1
 	end
 end
 
-function slot1.updateSeaSpeed(slot0)
+slot1.updateSeaSpeed = function(slot0)
 	slot1 = uv0.Battle.BattleVariable.MapSpeedRatio
 
 	for slot5, slot6 in ipairs(slot0.seaAnimList) do
@@ -147,7 +147,7 @@ function slot1.updateSeaSpeed(slot0)
 	end
 end
 
-function slot1.Dispose(slot0)
+slot1.Dispose = function(slot0)
 	if slot0._shiftTimer then
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0._shiftTimer)
 	end
@@ -161,10 +161,10 @@ function slot1.Dispose(slot0)
 	end
 end
 
-function slot1.GetMapResNames(slot0, slot1)
+slot1.GetMapResNames = function(slot0, slot1)
 	return string.split(pg.map_data[slot0][slot1 .. "_shot"], ";")
 end
 
-function slot1.setActive(slot0, slot1)
+slot1.setActive = function(slot0, slot1)
 	SetActive(slot0._go, slot1)
 end

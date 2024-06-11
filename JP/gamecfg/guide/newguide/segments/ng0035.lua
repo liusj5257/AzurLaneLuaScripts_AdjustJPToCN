@@ -14,13 +14,13 @@ return {
 				}
 			},
 			style = {
-				text = "「遊び方」で味方・敵の能力を確認できるわ！",
-				mode = 2,
-				posY = -174,
-				char = "amazon",
 				dir = -1,
-				windowbg = "3",
+				mode = 2,
+				char = "amazon",
+				posY = -174,
 				posX = -680,
+				text = "「遊び方」で味方・敵の能力を確認できるわ！",
+				windowbg = "3",
 				charPos = {
 					300,
 					0

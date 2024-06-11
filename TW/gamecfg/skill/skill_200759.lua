@@ -8,16 +8,16 @@ return {
 	desc = "",
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
 					deadFX = "udf_shanshuo",
-					monsterTemplateID = 16585011,
 					sickness = 0.3,
+					monsterTemplateID = 16585011,
 					corrdinate = {
 						-15,
 						0,
@@ -33,16 +33,16 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
 					deadFX = "udf_shanshuo",
-					monsterTemplateID = 16585011,
 					sickness = 0.3,
+					monsterTemplateID = 16585011,
 					corrdinate = {
 						-15,
 						0,
@@ -58,16 +58,16 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
 					deadFX = "udf_shanshuo",
-					monsterTemplateID = 16585013,
 					sickness = 0.3,
+					monsterTemplateID = 16585013,
 					corrdinate = {
 						-5,
 						0,
@@ -83,16 +83,16 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
 					deadFX = "udf_shanshuo",
-					monsterTemplateID = 16585013,
 					sickness = 0.3,
+					monsterTemplateID = 16585013,
 					corrdinate = {
 						-5,
 						0,
@@ -108,16 +108,16 @@ return {
 			}
 		},
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 0,
 				spawnData = {
 					deadFX = "udf_shanshuo",
-					monsterTemplateID = 16585017,
 					sickness = 1.5,
+					monsterTemplateID = 16585017,
 					corrdinate = {
 						-15,
 						0,

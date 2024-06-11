@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "勇者标枪消弹斩击",
 	time = 0,
-	color = "red",
+	name = "勇者标枪消弹斩击",
+	init_effect = "",
+	id = 200099,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200099,
+	color = "red",
 	icon = 200099,
 	last_effect = "",
 	effect_list = {

@@ -1,10 +1,10 @@
 slot0 = class("CourtYardComfortablePage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CourtYardComfortablePanel"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("frame/close")
 	slot0.subTitleTxt = slot0:findTF("frame/view/subtitle2/Text"):GetComponent(typeof(Text))
 
@@ -25,7 +25,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/title"), i18n("word_comfort_level"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -50,7 +50,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 
 	slot0.dorm = slot1
@@ -62,11 +62,11 @@ function slot0.Show(slot0, slot1)
 	slot0:FlushAddition(slot2)
 end
 
-function slot0.FlushSubTitle(slot0)
+slot0.FlushSubTitle = function(slot0)
 	slot0.subTitleTxt.text = i18n("backyard_backyardScene_comforChatContent2", slot0.dorm.level - 1)
 end
 
-function slot0.FlushExpression(slot0, slot1)
+slot0.FlushExpression = function(slot0, slot1)
 	slot2 = slot0.dorm:GetComfortableLevel(slot1)
 	slot0.expressionTxt.text = i18n("backyard_backyardScene_expression_label_" .. slot2)
 
@@ -93,7 +93,7 @@ slot1 = {
 	i18n("word_collection")
 }
 
-function slot0.FlushList(slot0)
+slot0.FlushList = function(slot0)
 	slot1 = slot0.dorm:getConfig("comfortable_count")
 
 	slot0.uiItemList:make(function (slot0, slot1, slot2)
@@ -122,7 +122,7 @@ function slot0.FlushList(slot0)
 	slot0.uiItemList:align(7)
 end
 
-function slot0.FlushAddition(slot0, slot1)
+slot0.FlushAddition = function(slot0, slot1)
 	slot3 = 0
 
 	if pg.gameset.dorm_exp_ratio_comfort_degree.key_value + slot1 ~= 0 then
@@ -132,7 +132,7 @@ function slot0.FlushAddition(slot0, slot1)
 	slot0.expAdditionTxt.text = string.format("%d", slot3) .. "%"
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.dftAniEvent:SetTriggerEvent(nil)
 
 	slot0.exited = true

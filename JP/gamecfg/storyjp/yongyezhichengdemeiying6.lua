@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEZHICHENGDEMEIYING6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEZHICHENGDEMEIYING6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"永き城の麗しき影\n\n<size=45>六 思いがけないトラップ</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "三つ目の大広間にたどり着いた。",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet-reborn",
+			say = "三つ目の大広間にたどり着いた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,12 +50,12 @@ return {
 			}
 		},
 		{
-			actor = 404041,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "やっと来たのね、人間。おかげさまで、城がめちゃくちゃになってるじゃない",
 			typewriter = {
 				speed = 0.05,
@@ -70,10 +70,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "でも大丈夫。別になにもしないわ。だって私もこの城から出たいもの",
 			typewriter = {
 				speed = 0.05,
@@ -88,10 +88,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "お嬢様は毎日のように外の世界を見てみたいと騒いでいるわりに、許可されたことがないからな。今度こそ騒ぎに乗じてこっそり抜け出す算段だ",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 404041,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "理由なんてどうだっていいでしょ。大事なのは、私達が同じ目標を持つ同志ってこと",
 			typewriter = {
 				speed = 0.05,
@@ -123,10 +123,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あなたは出口を知らないでしょ？私は知ってる。へへへ、ついてきて",
 			typewriter = {
 				speed = 0.05,
@@ -138,13 +138,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
+			dir = 1,
 			say = "リュッツォウ、テューリンゲンの後に続いて、大広間を進んだ。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -169,9 +169,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "やけに静かだな………",
 			typewriter = {
 				speed = 0.05,
@@ -183,9 +183,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "？！",
 			dialogShake = {
 				speed = 0.08,
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "急にリュッツォウから抱きつかれた。",
 			typewriter = {
 				speed = 0.05,
@@ -219,10 +219,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あーあ、人間のペースに合わせて歩いたらもう疲れちゃった。ちょっと体力を補充しないとここから出られないよぉ",
 			typewriter = {
 				speed = 0.05,
@@ -237,10 +237,10 @@ return {
 			expression = 14,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ということで、ごめんね人間。私の食料になって！",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -306,12 +306,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			optionFlag = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -334,14 +334,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "…というストーリーらしい。甘噛みされた首筋はちょっと痛かった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -642,16 +642,16 @@ return {
 			}
 		},
 		{
-			actor = 404041,
-			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			actor = 404041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "人間、このなが～い廊下を通り抜れば、この城から脱出できるよ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -679,10 +679,10 @@ return {
 			expression = 13,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（とは言ったけど、確かこの辺りで次の謎解きが始まるはず）",
 			typewriter = {
 				speed = 0.05,
@@ -694,11 +694,11 @@ return {
 			}
 		},
 		{
-			say = "――――！！",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "――――！！",
 			flashN = {
 				color = {
 					1,
@@ -748,9 +748,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "狭い廊下で、どこかから投げ込まれた煙幕弾が爆発した…",
 			typewriter = {
 				speed = 0.05,
@@ -762,9 +762,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "煙の中からおぼろげに見えたのは――ザイドリッツとシェフィールドの姿だ。",
 			typewriter = {
 				speed = 0.05,
@@ -776,12 +776,12 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404031,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "止まれ！どこに行く気だ！",
 			dialogShake = {
 				speed = 0.08,
@@ -801,10 +801,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 405041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ヴァンパイアハンターだと！？どさくさに紛れて入ってきたのか。ちっ、厄介なことになってしまったな",
 			typewriter = {
 				speed = 0.05,
@@ -816,12 +816,12 @@ return {
 			}
 		},
 		{
-			actor = 404031,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404031,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ヴァンパイアもその眷属も、悪しき血族に聖なる裁きを！覚悟なさい！",
 			typewriter = {
 				speed = 0.05,
@@ -833,12 +833,12 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202084,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "逃がしません",
 			typewriter = {
 				speed = 0.05,
@@ -850,12 +850,12 @@ return {
 			}
 		},
 		{
-			actor = 405041,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405041,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "人間、私達と一緒に行動したせいで眷属だと思われたようだな",
 			typewriter = {
 				speed = 0.05,
@@ -870,10 +870,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 404041,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "大丈夫、逃げ切れば平気～大人しく捕まるものか",
 			typewriter = {
 				speed = 0.05,

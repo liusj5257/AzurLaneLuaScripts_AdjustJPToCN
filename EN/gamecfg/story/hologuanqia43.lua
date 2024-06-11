@@ -1,17 +1,17 @@
 return {
-	id = "HOLOGUANQIA43",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HOLOGUANQIA43",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
+			say = "I'm terribly sorry for bothering you guys when you're all so pumped up, but...",
 			actorName = "???",
+			side = 2,
+			dir = 1,
 			nameColor = "#ff5c5c",
 			bgm = "holo-control",
-			dir = 1,
-			say = "I'm terribly sorry for bothering you guys when you're all so pumped up, but...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Master Detective Fubuki?",
 			dir = -1,
+			actorName = "Master Detective Fubuki?",
 			say = "Hehehe. The one known as the Advisor, the Great Detective Fubuki, has arrived to stop you all in your tracks.",
 			typewriter = {
 				speed = 0.05,
@@ -55,9 +55,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "THE ONE THE SIRENS COPIED ACTUALLY ENDED UP BEING THIS TROUBLESOME ONE AFTER ALL!",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,8 +97,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "Master Detective Fubuki?",
 			say = "Well well, that's basically correct~",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			expression = 2,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "Master Detective Fubuki?",
 			say = "I simply gave them some advice. Others executed for me.",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "Master Detective Fubuki?",
 			say = "No way~ Oh, Kawakaze, you're such a joker~ This game is in its last stages anyway, so I felt that it'd be good to make my appearance around now.",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500010,
 			dir = 1,
+			actor = 10500010,
 			say = "Game?",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "Master Detective Fubuki?",
 			say = "Everything that's happened until now. Hey, don't zone out on me now.",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -220,9 +220,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 10500010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Eh?! This is...",
 			dialogShake = {
 				speed = 0.09,
@@ -242,8 +242,8 @@ return {
 			actor = 10500010,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "Master Detective Fubuki?",
 			dir = -1,
+			actorName = "Master Detective Fubuki?",
 			say = "This is the shadow game the magnificent me developed after researching the games that the ship girls were playing!",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 10500040,
 			dir = 1,
+			actor = 10500040,
 			say = "Shadow game...??",
 			typewriter = {
 				speed = 0.05,
@@ -289,8 +289,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#ff5c5c",
-			actor = 10500010,
 			dir = -1,
+			actor = 10500010,
 			actorName = "Master Detective Fubuki?",
 			say = "This is a battle of wits befitting an advisor! Now, choose your deck, Hololive Resistance!",
 			typewriter = {

@@ -1,6 +1,6 @@
 slot0 = class("BackYardDecorationThemeCard", import(".BackYardDecorationCard"))
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.add = findTF(slot0._tf, "bg/Add")
@@ -14,11 +14,11 @@ function slot0.Ctor(slot0, slot1)
 	slot0.posTxt = slot0.pos:Find("new"):GetComponent(typeof(Text))
 end
 
-function slot0.RemoveSizeTag(slot0, slot1)
+slot0.RemoveSizeTag = function(slot0, slot1)
 	return string.gsub(string.gsub(slot1, "</size>", ""), "<size=%d+>", "")
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.themeVO = slot1
 	slot3 = slot1.id == ""
 
@@ -70,7 +70,7 @@ function slot0.Update(slot0, slot1, slot2)
 	end
 end
 
-function slot0.UpdateState(slot0, slot1)
+slot0.UpdateState = function(slot0, slot1)
 	if slot0.themeVO.id ~= "" then
 		SetActive(slot0.maskTF, slot1)
 
@@ -78,7 +78,7 @@ function slot0.UpdateState(slot0, slot1)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 
 	if not IsNil(slot0.rawIcon.texture) then

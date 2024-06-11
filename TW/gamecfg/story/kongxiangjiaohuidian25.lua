@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN25",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_bsmre_7",
-			stopbgm = true,
-			say = "？？？·米德加尔特之塔-连接通道",
 			bgmDelay = 2,
 			bgm = "battle-thedevilXV-control",
+			stopbgm = true,
+			say = "？？？·米德加爾特之塔-連接通道",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -28,13 +28,13 @@ return {
 			}
 		},
 		{
-			actor = 405050,
 			side = 2,
 			bgName = "bg_bsmre_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 405050,
 			nameColor = "#A9F548FF",
-			say = "前面就是控制室了，{namecode:464}跟我一起来，我需要你的协助。",
+			hidePaintObj = true,
+			say = "前面就是控制室了，烏爾里希跟我一起來，我需要你的協助。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -48,11 +48,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_bsmre_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405050,
-			say = "其他人请在我们调查期间，保护好米德加尔特之塔和控制室的安全，指挥由{namecode:434}·META负责。",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "其他人請在我們調查期間，保護好米德加爾特之塔和控制室的安全，指揮由格奈森瑙·META負責。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,11 +66,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_bsmre_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffa500",
 			actor = 9704010,
-			say = "……由我来负责指挥？",
+			nameColor = "#ffa500",
+			hidePaintObj = true,
+			say = "……由我來負責指揮？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,13 +81,13 @@ return {
 			}
 		},
 		{
-			actor = 9704010,
 			side = 2,
 			bgName = "bg_bsmre_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9704010,
 			nameColor = "#ffa500",
-			say = "我明白了，放心交给我吧。",
+			hidePaintObj = true,
+			say = "我明白了，放心交給我吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,26 +98,26 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_bsmre_cg11",
-			say = "？？？·米德加尔特之塔-控制室",
+			say = "？？？·米德加爾特之塔-控制室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -125,164 +125,164 @@ return {
 			}
 		},
 		{
+			side = 2,
 			nameColor = "#A9F548FF",
+			bgName = "bg_bsmre_cg11",
+			say = "螢幕上，依然展示著鐵血艦隊覆滅時的景象。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
 			bgName = "bg_bsmre_cg11",
-			say = "屏幕上，依然展示着铁血舰队覆灭时的景象。",
+			nameColor = "#A9F548FF",
+			say = "原來如此，所以妳把其他人都支開了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "俾斯麥Zwei",
+			side = 1,
+			bgName = "bg_bsmre_cg11",
+			nameColor = "#A9F548FF",
+			say = "雖然只是虛構的影像，但總歸不是什麼值得讓大家看的東西。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "原来如此，所以你把其他人都支开了啊。",
+			say = "……贊同。就算理性知道是假的，感性產生的動搖也沒那麼容易被克服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 1,
-			actorName = "{namecode:514}",
-			bgName = "bg_bsmre_cg11",
-			nameColor = "#A9F548FF",
-			say = "虽然只是虚构的影像，但总归不是什么值得让大家看的东西。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "……赞同。就算理性知道是假的，感性产生的动摇也没那么容易被克服。",
+			say = "妳說的另一個出口，就在這影像之中嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "俾斯麥Zwei",
+			side = 1,
+			bgName = "bg_bsmre_cg11",
+			nameColor = "#A9F548FF",
+			say = "也許。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "俾斯麥Zwei",
+			side = 1,
+			bgName = "bg_bsmre_cg11",
+			nameColor = "#A9F548FF",
+			say = "之前我在聽妳描述的時候，發現了一個也許連妳自己都忽略了的細節。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "俾斯麥Zwei",
+			side = 1,
+			bgName = "bg_bsmre_cg11",
+			nameColor = "#A9F548FF",
+			say = "妳的惡夢，發生了變化",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "俾斯麥Zwei",
+			side = 1,
+			bgName = "bg_bsmre_cg11",
+			nameColor = "#A9F548FF",
+			say = "最初，是黑太陽。在進入空間時，變成了開啟米德加爾特之塔。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "俾斯麥Zwei",
+			side = 1,
+			bgName = "bg_bsmre_cg11",
+			nameColor = "#A9F548FF",
+			say = "而在進入控制室後，又變成了腓特烈的沉沒——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "俾斯麥Zwei",
+			side = 1,
+			bgName = "bg_bsmre_cg11",
+			nameColor = "#A9F548FF",
+			say = "也就是之前顯示在控制室螢幕中的那個影像。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "你说的另一个出口，就在这影像之中么？",
+			say = "好像，確實是這樣……我只是一概把它們當成惡夢來處理了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "俾斯麥Zwei",
 			side = 1,
-			actorName = "{namecode:514}",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "也许。",
+			say = "之後，也就是赫米忒的量產機來襲前，我在控制室內調查的就是那個影像。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "俾斯麥Zwei",
 			side = 1,
-			actorName = "{namecode:514}",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "之前我在听你描述的时候，发现了一个也许连你自己都忽略了的细节。",
+			say = "我用相同的方法，再次進入了相同的「惡夢」中，而且在其中發現了某些東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 1,
-			actorName = "{namecode:514}",
-			bgName = "bg_bsmre_cg11",
-			nameColor = "#A9F548FF",
-			say = "你的噩梦，发生了变化",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			actorName = "{namecode:514}",
-			bgName = "bg_bsmre_cg11",
-			nameColor = "#A9F548FF",
-			say = "最初，是黑太阳。在进入空间时，变成了开启米德加尔特之塔。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			actorName = "{namecode:514}",
-			bgName = "bg_bsmre_cg11",
-			nameColor = "#A9F548FF",
-			say = "而在进入控制室后，又变成了{namecode:441}的沉没——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			actorName = "{namecode:514}",
-			bgName = "bg_bsmre_cg11",
-			nameColor = "#A9F548FF",
-			say = "也就是之前显示在控制室屏幕中的那个影像。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
+			actorName = "烏爾里希·馮·胡滕",
 			side = 2,
-			actorName = "{namecode:463}",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "好像，确实是这样……我只是一概把它们当成噩梦来处理了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			actorName = "{namecode:514}",
-			bgName = "bg_bsmre_cg11",
-			nameColor = "#A9F548FF",
-			say = "之后，也就是赫米忒的量产机来袭前，我在控制室内调查的就是那个影像。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 1,
-			actorName = "{namecode:514}",
-			bgName = "bg_bsmre_cg11",
-			nameColor = "#A9F548FF",
-			say = "我用相同的方法，再次进入了相同的“噩梦”中，而且在其中发现了某些东西。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:463}",
-			bgName = "bg_bsmre_cg11",
-			nameColor = "#A9F548FF",
-			say = "利用屏幕上的影像重复进入了噩梦……？也就是说！",
+			say = "利用螢幕上的影像重複進入了惡夢……？也就是說！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,55 +294,66 @@ return {
 			}
 		},
 		{
+			actorName = "俾斯麥Zwei",
 			side = 1,
-			actorName = "{namecode:514}",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "没错，那根本不是什么“噩梦”，而是一个被设计好的、可以重复进入的稳定空间。",
+			say = "沒錯，那根本不是什麼「噩夢」，而是一個被設計好的、可以重複進入的穩定空間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "俾斯麥Zwei",
 			side = 1,
-			actorName = "{namecode:514}",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "如果海域中存在其他通道的话，，也许会隐藏在里面……",
+			say = "如果海域中存在其他通道的話，也許會隱藏在裡面……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "俾斯麥Zwei",
 			side = 1,
-			actorName = "{namecode:514}",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "接下来我会用相同方式，对这个影像背后的空间进行调查。",
+			say = "接下來我會用相同方式，對這個影像背後的空間進行調查。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "俾斯麥Zwei",
 			side = 1,
-			actorName = "{namecode:514}",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "在这期间我没有办法关注外面的事。在你看上去我应该就像睡着了一样？",
+			say = "在這段期間我沒有辦法注意外面的事。在妳看上去我應該就像睡著了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			actorName = "俾斯麥Zwei",
 			side = 1,
-			actorName = "{namecode:514}",
 			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "如果敌人的进攻过于猛烈，或者我在里面呆了超过五个小时，就叫醒我。",
+			say = "如果敵人的攻擊太猛烈，或是我在裡面待了超過五個小時，就叫醒我。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "烏爾里希·馮·胡滕",
+			side = 2,
+			bgName = "bg_bsmre_cg11",
+			nameColor = "#A9F548FF",
+			say = "我明白了。一路順風，注意安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,30 +361,19 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:463}",
-			bgName = "bg_bsmre_cg11",
 			nameColor = "#A9F548FF",
-			say = "我明白了。一路顺风，注意安全。",
+			bgName = "bg_bsmre_cg11",
+			say = "俾斯麥伸手觸碰畫面，眼前的景色如同水面般泛起漣漪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_bsmre_cg11",
-			say = "{namecode:435}伸手触碰画面，眼前的景色如同水面般泛起涟漪。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
 			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_1104",
-			say = "转瞬间，现实与梦境的界限再次消失了。",
+			say = "轉瞬間，現實與夢境的界線再次消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行8次攻击，触发专属弹幕-能代II",
 	name = "专属弹幕-能代II",
 	init_effect = "",
+	id = 30232,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行8次攻击，触发专属弹幕-能代II",
 	stack = 1,
-	id = 30232,
+	color = "red",
 	icon = 30230,
 	last_effect = "",
 	effect_list = {
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 30232,
+				target = "TargetSelf",
 				countType = 30230
 			}
 		}

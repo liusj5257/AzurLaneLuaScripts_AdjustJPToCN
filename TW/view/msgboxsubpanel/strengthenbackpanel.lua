@@ -1,17 +1,17 @@
 slot0 = class("StrengthenBackPanel", import(".MsgboxSubPanel"))
 slot0.ConfigData = {
-	equipID = 96000,
+	content = "equipment_info_change_strengthen",
 	btnTxt = "text_forward",
 	isOpen = true,
 	icon = "equips/56000",
-	content = "equipment_info_change_strengthen"
+	equipID = 96000
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "StrengthenBackBox"
 end
 
-function slot0.UpdateView(slot0, slot1)
+slot0.UpdateView = function(slot0, slot1)
 	slot0:PreRefresh(slot1)
 
 	rtf(slot0.viewParent._window).sizeDelta = Vector2.New(1000, 638)

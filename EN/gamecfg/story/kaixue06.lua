@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KAIXUE06",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KAIXUE06",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"School Day Celebrations\n\n<size=45> VI    「After School Special Training」 </size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 2,
+			bgName = "bg_story_school",
 			dir = 1,
+			bgm = "story-1",
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "Then...let's start today's special training — —",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,13 +35,13 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			say = "Standing on the podium, {namecode:93} sister looks very commanding!",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
-			say = "Standing on the podium, {namecode:93} sister looks very commanding!",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 301011,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = -1,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "Whines... I accidentally forgot to write my name on the test...",
 			typewriter = {
@@ -89,11 +89,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "First calling..., {namecode:2} !",
 			typewriter = {
@@ -106,11 +106,11 @@ return {
 			}
 		},
 		{
-			actor = 301011,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = -1,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "Yes, yes!",
 			typewriter = {
@@ -123,19 +123,19 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "There's no issues with your school academics, but you always make silly mistakes in strange places...",
 			typewriter = {
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "Papers without names, answers in wrong places...",
 			typewriter = {
@@ -165,11 +165,11 @@ return {
 			}
 		},
 		{
-			actor = 301011,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = -1,
+			actor = 301011,
 			actorName = "{namecode:2}",
 			say = "Whines... why am I so careless...",
 			typewriter = {
@@ -182,11 +182,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "Anyway, I asked you to stay so I could give you a friendly reminder. Not really a big issue though...",
 			typewriter = {
@@ -199,11 +199,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "The real problem is the Z1!",
 			typewriter = {
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "And {namecode:94}!",
 			typewriter = {
@@ -249,11 +249,11 @@ return {
 			}
 		},
 		{
-			actor = 307041,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307041,
 			actorName = "{namecode:94}",
 			say = "Yes, yes!",
 			typewriter = {
@@ -266,19 +266,19 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.1,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "You two troublemakers, it is time to teach you the basics of \"student duties\"...",
 			typewriter = {
@@ -291,11 +291,11 @@ return {
 			}
 		},
 		{
-			actor = 307032,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 307032,
 			actorName = "{namecode:93}",
 			say = "Best prepare yourself! Today's training class will be a long one!",
 			typewriter = {
@@ -308,14 +308,14 @@ return {
 			}
 		},
 		{
-			actor = 307041,
+			actorName = "{namecode:94}&Z1",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
+			hideOther = true,
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
-			actorName = "{namecode:94}&Z1",
+			actor = 307041,
+			nameColor = "#a9f548",
 			say = "No~~~~~~~",
 			subActors = {
 				{

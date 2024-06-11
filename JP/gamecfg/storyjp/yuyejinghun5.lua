@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN5",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_156",
 			bgm = "theme-highseasfleet-reborn",
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "どうしたの？お腹でも痛くなった？客間に運ぼうか？",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -63,13 +63,13 @@ return {
 			}
 		},
 		{
-			actorName = "ロイヤル・フォーチュン",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
 			optionFlag = 1,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "外の雨で濡れて風邪でも引いたの？じゃあ客間に行こう！暖炉があって暖まるから～",
 			typewriter = {
@@ -91,13 +91,13 @@ return {
 			}
 		},
 		{
-			actorName = "ロイヤル・フォーチュン",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
 			optionFlag = 2,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "顔色が悪いから風邪かなって思って！ほらほら客間に行こう！暖炉があって温まるから～",
 			typewriter = {
@@ -110,9 +110,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "でないとキャッスルの城主が客人を疎かにしたって思われるし",
 			typewriter = {
@@ -173,9 +173,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "え？でも……",
 			typewriter = {
@@ -416,11 +416,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "役：メイド長だよー！",
-			side = 2,
+			actor = 9600010,
 			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "きゃ、客間に行きたくないならここで休んでていいよ！ホールは掃除中だから今入っちゃダメ！",
@@ -493,11 +493,11 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "海天",
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#FF9B93",
 			bgm = "story-oldcastle-carnival",
-			actorName = "海天",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "そして――あなたはキャッスルホールに入りました",
 			typewriter = {
@@ -505,17 +505,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -569,9 +569,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "文学少女なKP",
-			nameColor = "#FF9B93",
-			soundeffect = "event:/ui/shuaimen",
 			actorName = "海天",
+			soundeffect = "event:/ui/shuaimen",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "――パン。その時、ドアがあなたの後ろで閉じました。",
 			typewriter = {
@@ -647,8 +647,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -663,8 +663,8 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――ってことは…",
 			bgm = "theme-ijndailymeeting",
+			say = "――ってことは…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,9 +701,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "役：メイド長だよー！",
-			actorName = "ロイヤル・フォーチュン",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "ロイヤル・フォーチュン",
 			hidePaintObj = true,
 			say = "あっちは危険だって注意したのにぃ～",
 			typewriter = {

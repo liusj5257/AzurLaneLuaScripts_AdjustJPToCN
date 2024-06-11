@@ -1,6 +1,6 @@
 slot0 = class("PublicGuildCommitDonateCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if not getProxy(GuildProxy):GetPublicGuild():GetDonateTaskById(slot1:getBody().id) then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_not_exist_donate_task"))
 

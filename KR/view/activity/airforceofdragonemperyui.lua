@@ -1,6 +1,6 @@
 slot0 = class("AirForceOfDragonEmperyUI", import("view.base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AirForceOfDragonEmperyUI"
 end
 
@@ -17,7 +17,7 @@ slot2 = {
 	"fighterplane_FC31_tip"
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.itemList = {}
 	slot4 = "List"
 
@@ -42,15 +42,15 @@ function slot0.init(slot0)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.SetActivityData(slot0, slot1)
+slot0.SetActivityData = function(slot0, slot1)
 	slot0.activity = slot1
 end
 
-function slot0.GetFighterData(slot0, slot1)
+slot0.GetFighterData = function(slot0, slot1)
 	return slot0.activity:getKVPList(1, slot1) or 0, slot0.activity:getKVPList(2, slot1) == 1
 end
 
-function slot0.GetActivityProgress(slot0)
+slot0.GetActivityProgress = function(slot0)
 	slot1 = 0
 
 	for slot6 = 1, slot0.activity:getConfig("config_client")[1] do
@@ -62,7 +62,7 @@ function slot0.GetActivityProgress(slot0)
 	return slot1, math.min((slot3:DiffDay(slot0.activity.data1, slot3:GetServerTime()) + 1) * 2, slot2 * 3)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot3 = slot0._tf
 
 	onButton(slot0, slot3:Find("Back"), function ()
@@ -81,11 +81,11 @@ function slot0.didEnter(slot0)
 
 	slot3 = slot0._tf
 
-	function slot4()
+	slot4 = function()
 		slot0 = uv0.contextData.index
 		slot1 = uv0
 
-		function slot2()
+		slot2 = function()
 			slot1 = uv0.activity:getConfig("config_client")[2]
 			slot2 = math.floor(#slot1 / uv0.activity:getConfig("config_client")[1])
 			slot3 = slot2 * (uv0.contextData.index - 1) + 1
@@ -120,7 +120,7 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	PlayerPrefs.SetInt("AirFightIndex_" .. getProxy(PlayerProxy):getRawData().id, slot0.contextData.index)
 	PlayerPrefs.Save()
 	LeanTween.cancel(go(slot0.currentNameImage))
@@ -130,7 +130,7 @@ function slot0.willExit(slot0)
 	slot0.loader:Clear()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	for slot4, slot5 in ipairs(slot0.itemList) do
 		slot6, slot7 = slot0:GetFighterData(slot4)
 		slot8 = slot0.itemList[slot4]
@@ -146,7 +146,7 @@ function slot0.UpdateView(slot0)
 	slot0:CheckActivityUpdate()
 end
 
-function slot0.SwitchIndex(slot0, slot1)
+slot0.SwitchIndex = function(slot0, slot1)
 	if slot1 == nil or slot1 == slot0.contextData.index then
 		return
 	end
@@ -250,7 +250,7 @@ function slot0.SwitchIndex(slot0, slot1)
 	slot0.loader:GetSprite("ui/AirForceOfDragonEmperyUI_atlas", uv0[slot1] .. "_Text", slot0.currentFighterDesc:Find("Name"), true)
 end
 
-function slot0.UpdateFighter(slot0, slot1)
+slot0.UpdateFighter = function(slot0, slot1)
 	slot2, slot3 = slot0:GetFighterData(slot1)
 	slot4 = slot0.itemList[slot1]
 	slot7 = slot4:Find("Progress")
@@ -272,7 +272,7 @@ function slot0.UpdateFighter(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.CheckActivityUpdate(slot0)
+slot0.CheckActivityUpdate = function(slot0)
 	for slot5 = 1, slot0.activity:getConfig("config_client")[1] do
 		slot6, slot7 = slot0:GetFighterData(slot5)
 

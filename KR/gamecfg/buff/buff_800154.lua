@@ -1,7 +1,7 @@
 return {
-	time = 5,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 5,
 	picture = "",
 	desc = "伤害上升",
 	stack = 1,
@@ -23,8 +23,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.2
+				number = 0.2,
+				attr = "damageRatioBullet"
 			}
 		},
 		{

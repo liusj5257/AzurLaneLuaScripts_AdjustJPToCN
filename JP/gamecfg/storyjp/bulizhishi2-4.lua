@@ -1,16 +1,16 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BULIZHISHI2-4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "BULIZHISHI2-4",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-1",
 			say = "そしてブリたちの波濤の如き猛攻に押し込まれ、ピュリファイアーは隙を見せた――",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,8 +36,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -46,10 +46,10 @@ return {
 			}
 		},
 		{
-			actor = 100010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 100010,
 			say = "天を貫くドリルを食らえプリン！",
 			effects = {
 				{
@@ -85,8 +85,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			say = "最後に星を落とすハンマーを食らえプリン！",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			say = "ぐわぁ、バカな！このピュリファイアーが負けるなんて！",
 			typewriter = {
 				speed = 0.05,
@@ -114,10 +114,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "大きな爆発音のあと、ピュリファイアーは尻尾をまいて逃げていった。",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "大きな爆発音のあと、ピュリファイアーは尻尾をまいて逃げていった。",
 			effects = {
 				{
 					active = false,
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 100000,
+			hideOther = true,
 			dir = 1,
+			actor = 100000,
 			actorName = "ブリたち",
 			say = "勝ったプリン！ブリたちの勝利だプリン！",
 			dialogShake = {
@@ -209,8 +209,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "こうして、三人のブリが力を合わせてセイレーンの攻勢を止め、世界は束の間の平和を迎えた。",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "しかし、ブリ三姉妹の旅はまだまだこれから。",
 			typewriter = {
 				speed = 0.05,
@@ -235,8 +235,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "夢の中の彼女たちは次はどんな冒険に出るのだろうか。",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "それではまた次回、お楽しみに。",
 			typewriter = {
 				speed = 0.05,

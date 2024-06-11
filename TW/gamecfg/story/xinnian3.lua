@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XINNIAN3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XINNIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -70,12 +70,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
+			say = "喵！是歐根喵！看起來有點沒精神喵？",
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "{namecode:98}",
 			dir = 1,
-			say = "喵！是歐根喵！看起來有點沒精神喵？",
+			actor = 312010,
+			actorName = "{namecode:98}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -108,8 +108,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "{namecode:98}和重櫻的小夥伴們在做新年的準備喵！可是有很多事情要忙的喵！生意都要落下了喵……",
 			typewriter = {
 				speed = 0.05,
@@ -139,8 +139,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "好多要準備的喵！對於重櫻的各位來說，新年可是很重要的節日喵！",
 			typewriter = {
 				speed = 0.05,
@@ -167,12 +167,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "時間回到現在……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -196,8 +196,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "既然如此，那就麻煩幫忙擺放一下裝飾品吧。這些都是正月要擺放的裝飾，今天之內要把它們擺好，這邊正愁人手不夠呢…",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "這個叫門松，放在一起的是一對，一左一右擺門口就好，來由嘛，太複雜的說起來也麻煩，妳就當竹子象徵長壽吧。",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			actor = 307030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:93}",
 			dir = 1,
+			actorName = "{namecode:93}",
 			say = "啊，那個怎麼說呢，寓意上是有不讓進了家門的神明跑掉的意思在，所以麻煩妳把它掛在門口和窗口吧，廚房也可以擺一下。",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "那個叫做鏡餅喵。雖然確實是食物，不過現在還不能吃喵……要供奉好，等時間到了才能砸開吃掉喵",
 			typewriter = {
 				speed = 0.05,
@@ -339,8 +339,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "忍耐喵！等到跨年會就可以大吃大喝了喵",
 			typewriter = {
 				speed = 0.05,
@@ -370,8 +370,8 @@ return {
 			actor = 312010,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "{namecode:98}",
 			dir = 1,
+			actorName = "{namecode:98}",
 			say = "港區的大家都是夥伴喵，歡迎喵～",
 			typewriter = {
 				speed = 0.05,

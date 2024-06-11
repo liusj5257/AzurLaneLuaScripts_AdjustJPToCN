@@ -72,12 +72,12 @@ return {
 	desc_get = "每隔20秒，有30.0%(满级60.0%)的概率发动，降低自身受到伤害的10.0%(满级30.0%)，持续8秒",
 	name = "防御姿态",
 	init_effect = "",
+	id = 4001,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "每隔20秒，有$1的概率发动，降低自身受到伤害的$2，持续8秒",
 	stack = 1,
-	id = 4001,
+	color = "blue",
 	icon = 4000,
 	last_effect = "",
 	effect_list = {
@@ -88,8 +88,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 4002,
-				time = 20,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 20
 			}
 		}
 	}

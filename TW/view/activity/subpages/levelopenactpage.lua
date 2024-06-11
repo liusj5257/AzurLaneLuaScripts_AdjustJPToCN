@@ -1,6 +1,6 @@
 slot0 = class("LevelOpenActPage", import("view.base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot1 = slot1:Find("AD/task_list/content")
 	slot0.uiList = UIItemList.New(slot1, slot1:Find("tpl"))
@@ -13,7 +13,7 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	if not getProxy(TaskProxy):getTaskVO(slot0.activity:getConfig("config_data")[1][1]) then
 		pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
 			cmd = 1,
@@ -26,7 +26,7 @@ function slot0.OnDataSetting(slot0)
 	end
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = getProxy(TaskProxy)
 	slot0.taskVOs = underscore.map(slot0.activity:getConfig("config_data")[1], function (slot0)
 		return uv0:getTaskVO(slot0)
@@ -46,7 +46,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0.uiList:align(#slot0.taskVOs)
 end
 
-function slot0.UpdateTask(slot0, slot1, slot2)
+slot0.UpdateTask = function(slot0, slot1, slot2)
 	setImageAlpha(slot1:Find("bg"), slot2:getTaskStatus() == 2 and 0.5 or 1)
 	eachChild(slot1:Find("status"), function (slot0)
 		setActive(slot0, slot0:GetSiblingIndex() == uv0)

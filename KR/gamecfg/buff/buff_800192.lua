@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 800192,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 3,
-	id = 800192,
+	color = "red",
 	icon = 800192,
 	last_effect = "",
 	blink = {
@@ -34,8 +34,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 400
+				number = 400,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -55,8 +55,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				skill_id = 800191,
 				target = "TargetSelf",
+				skill_id = 800191,
 				countType = 800190
 			}
 		}

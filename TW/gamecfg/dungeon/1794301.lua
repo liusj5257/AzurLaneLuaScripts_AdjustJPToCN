@@ -5,8 +5,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -72,17 +72,17 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchParam = 1.5,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 1.5,
 									setAI = 20006
 								},
 								{
-									switchType = 1,
+									switchParam = 3.5,
 									switchTo = 2,
 									index = 1,
-									switchParam = 3.5,
+									switchType = 1,
 									setAI = 70236,
 									addWeapon = {
 										2975009
@@ -92,10 +92,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 4,
 									switchTo = 1,
 									index = 2,
-									switchParam = 4,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {
 										2975014
@@ -118,17 +118,17 @@ return {
 							buffList = {},
 							phase = {
 								{
-									switchParam = 1.5,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 1.5,
 									setAI = 20006
 								},
 								{
-									switchType = 1,
+									switchParam = 3,
 									switchTo = 2,
 									index = 1,
-									switchParam = 3,
+									switchType = 1,
 									setAI = 70237,
 									addWeapon = {
 										2975029
@@ -138,10 +138,10 @@ return {
 									}
 								},
 								{
-									switchType = 1,
+									switchParam = 3.5,
 									switchTo = 1,
 									index = 2,
-									switchParam = 3.5,
+									switchType = 1,
 									setAI = 20006,
 									addWeapon = {
 										2975019
@@ -156,8 +156,8 @@ return {
 					reinforcement = {
 						{
 							monsterTemplateID = 16594003,
-							delay = 0.5,
 							sickness = 0.3,
+							delay = 0.5,
 							corrdinate = {
 								-5,
 								0,
@@ -172,8 +172,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594003,
-							delay = 0.5,
 							sickness = 0.3,
+							delay = 0.5,
 							corrdinate = {
 								-5,
 								0,
@@ -188,8 +188,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594002,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								-12,
 								0,
@@ -204,8 +204,8 @@ return {
 						},
 						{
 							monsterTemplateID = 16594002,
-							delay = 0,
 							sickness = 0.3,
+							delay = 0,
 							corrdinate = {
 								-12,
 								0,
@@ -234,9 +234,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 16595103,
-							moveCast = true,
-							delay = 0,
 							deadFX = "none",
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								60,
 								0,
@@ -244,16 +244,16 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 7,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 7,
 									setAI = 20006
 								},
 								{
-									index = 1,
 									switchType = 1,
 									switchTo = 0,
+									index = 1,
 									switchParam = 300,
 									addBuff = {
 										200773

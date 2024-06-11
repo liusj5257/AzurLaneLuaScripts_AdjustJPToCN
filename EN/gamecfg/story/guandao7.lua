@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Personality, Presenter, Secretary\n\n<size=45>7.Double the Truth</size>",
@@ -14,20 +14,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
-			say = "Guam spreads out a picnic blanket on the grass in the park before immediately sitting down and turning on her phone.",
 			bgm = "story-richang-11",
+			say = "Guam spreads out a picnic blanket on the grass in the park before immediately sitting down and turning on her phone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
 			say = "Laughter pours out of her phone's speaker. That means her show has officially started.",
@@ -37,28 +37,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			bgm = "story-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Port - Office",
-			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -123,11 +123,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "Lemon-Loving Commander",
 			dir = 1,
+			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Right. I was expecting a delivery today.",
@@ -179,11 +179,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "Your Local Merchant, Nya",
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I think it's all stuff intended for a major operation, nya!",
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "Your Local Merchant, Nya",
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "They're calling it, \"Operation Cleanup,\" nya...",
@@ -329,11 +329,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_story_task_2",
 			factiontag = "Smartest, Bestest Secretary",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Heehee, yeah. I've got a good noggin on me!",
@@ -516,29 +516,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "Either Essex is a really good actor, or that yell was her genuine reaction.",
+			side = 2,
 			bgm = "story-richang-11",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Either Essex is a really good actor, or that yell was her genuine reaction.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -552,12 +552,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Bingo. I got inspired by my complete paperwork blunder the other week.",
 			painting = {
 				alpha = 0.3,
@@ -572,10 +572,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I decided I'd turn it into this little comedy skit!",
 			painting = {
 				alpha = 0.3,
@@ -590,10 +590,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Firstly, it's my apology to you. Secondly, it's a bit of self-admonition. Thirdly, it's a PSA to tell others to take the work of a secretary seriously!",
 			painting = {
 				alpha = 0.3,
@@ -617,12 +617,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's one way to put it! Granted, I didn't put THAT much thought into it.",
 			painting = {
 				alpha = 0.3,
@@ -637,10 +637,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The way I'd describe it is, I just learned a bunch of things on the job and wanted others to get something from it.",
 			painting = {
 				alpha = 0.3,
@@ -655,10 +655,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's kind of a self-report that reflects badly on you, though... You're not mad at me for putting this on TV, are you, Commander?",
 			painting = {
 				alpha = 0.3,
@@ -730,27 +730,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_149",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_149",
 			say = "Before I know it, we're on the last few minutes of the show.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -758,8 +758,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
 			say = "Guam, in the show, has finally caught on to her numerous mistakes and makes efforts to better herself, ultimately culminating in her becoming an excellent secretary.",
@@ -769,8 +769,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_149",
 			hidePaintObj = true,
 			say = "The same is true for the real-world Guam. She has found time in her busy schedule to learn and improve, and she is now as good a secretary as any.",
@@ -792,12 +792,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Not really? I just do whatever feels right. It's spontaneous, and that's how I like it.",
 			painting = {
 				alpha = 0.3,
@@ -812,10 +812,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And what I feel is right is getting better and better until I'm as good a secretary as I am in the show!",
 			painting = {
 				alpha = 0.3,
@@ -827,8 +827,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -846,10 +846,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Come on, you're just saying that. I've obviously still got A LOT to learn.",
 			painting = {
 				alpha = 0.3,
@@ -861,12 +861,12 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Which is to say, please let me keep working as your secretary so I can prove myself!",
 			painting = {
 				alpha = 0.3,
@@ -881,10 +881,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I want to become the number one secretary in your heart, and I'm gonna practice my butt off until then!",
 			painting = {
 				alpha = 0.3,
@@ -899,10 +899,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_149",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 118020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So, if tomorrow you see some room for improvement, don't be afraid to let me know!",
 			painting = {
 				alpha = 0.3,

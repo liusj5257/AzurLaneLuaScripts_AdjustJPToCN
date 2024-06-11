@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEZHICHENGDEMEIYING5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEZHICHENGDEMEIYING5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"永き城の麗しき影\n\n<size=45>五 運命の分かれ道</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "部屋中をくまなく探しても、彫像に偽装されたウォーターサーバーとコップしか見つからなかった。",
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-highseasfleet-reborn",
+			say = "部屋中をくまなく探しても、彫像に偽装されたウォーターサーバーとコップしか見つからなかった。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "もちろん、赤い飲み物や、ヴァンパイアの食べ物らしきものもどこにもありやしない。",
 			typewriter = {
 				speed = 0.05,
@@ -64,14 +64,14 @@ return {
 			}
 		},
 		{
-			actor = 402081,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
-			say = "（指揮官は絶対あの呪われたものに気づかない…）",
 			fontsize = 40,
+			actor = 402081,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "（指揮官は絶対あの呪われたものに気づかない…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,14 +82,14 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
-			say = "（しーっ。あとセリフも忘れないで）",
 			fontsize = 40,
+			actor = 408024,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
+			say = "（しーっ。あとセリフも忘れないで）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,8 +119,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -132,10 +132,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 402081,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "人間、残された時間はそう多くないわ。エムデンたちが近づいてきているのを感じる…",
 			typewriter = {
 				speed = 0.05,
@@ -147,9 +147,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
+			dir = 1,
 			say = "まさかタイムリミットがあるとは…どうすれば…",
 			typewriter = {
 				speed = 0.05,
@@ -186,14 +186,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "扉の先は狭くて長い、暗い廊下があった。廊下を進んでいくと無数の分岐点が現れたが、どれを選んでも結局この暗い廊下に戻ってくるだけ。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -233,12 +233,12 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			optionFlag = 1,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -261,14 +261,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_156",
+			side = 2,
 			dir = 1,
 			optionFlag = 1,
 			say = "完全に迷ってしまった。勢い任せで行動しなければよかった…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -293,13 +293,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "…こっちよ",
 			typewriter = {
 				speed = 0.05,
@@ -326,13 +326,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "指揮官、こっちよ",
 			typewriter = {
 				speed = 0.05,
@@ -344,13 +344,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "どうやら焦るあまり、賭けに出たようね",
 			typewriter = {
 				speed = 0.05,
@@ -362,13 +362,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "だけど残念なことに、この廊下には仕掛けがあるわ。大広間の謎解きをクリアしておかないと、どの扉を選んでもバッドエンドよ",
 			typewriter = {
 				speed = 0.05,
@@ -380,13 +380,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "私の声について来てちょうだい。あとこの小さな十字架も忘れないで",
 			typewriter = {
 				speed = 0.05,
@@ -398,13 +398,13 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 403030,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "このステージの賞品よ。きっと役に立つわ",
 			typewriter = {
 				speed = 0.05,
@@ -416,11 +416,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			optionFlag = 1,
+			blackBg = true,
 			actor = 403030,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
@@ -529,13 +529,13 @@ return {
 			}
 		},
 		{
-			actor = 402081,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 402081,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "これを水に溶かして飲むんですね…はい…ごくごく…",
 			typewriter = {
 				speed = 0.05,
@@ -615,13 +615,13 @@ return {
 			}
 		},
 		{
-			actor = 408024,
 			side = 2,
 			bgName = "star_level_bg_156",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 408024,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "人間、これを持って行って。エムデン達が主の力を抑えるために使っていたアイテムだったが、今となっては無駄そのもの。よって人間に渡そう",
 			typewriter = {
 				speed = 0.05,
@@ -648,11 +648,11 @@ return {
 			}
 		},
 		{
-			blackBg = true,
+			optionFlag = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			optionFlag = 2,
+			blackBg = true,
 			actor = 402081,
 			nameColor = "#a9f548",
 			hidePaintObj = true,

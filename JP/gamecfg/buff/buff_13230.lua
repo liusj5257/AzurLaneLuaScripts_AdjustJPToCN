@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 13230,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13230,
+	color = "yellow",
 	icon = 13230,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 13230,
 				nationality = 8,
+				skill_id = 13230,
 				check_target = {
 					"TargetNationalityFriendly",
 					"TargetShipTypeFriendly"
@@ -47,8 +47,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				skill_id = 13230,
 				nationality = 9,
+				skill_id = 13230,
 				check_target = {
 					"TargetNationalityFriendly",
 					"TargetShipTypeFriendly"

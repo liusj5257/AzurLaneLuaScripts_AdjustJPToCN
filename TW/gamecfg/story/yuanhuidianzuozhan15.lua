@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
+			soundeffect = "event:/battle/boom2",
 			side = 2,
-			bgName = "bg_yuanhuidian",
+			stopbgm = true,
 			bgm = "story-6",
+			bgName = "bg_yuanhuidian",
 			nameColor = "#A9F548FF",
 			say = "轟————————！",
-			soundeffect = "event:/battle/boom2",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "炮彈的爆響與爽朗的笑聲迴盪在海域上空——",
 			typewriter = {
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "一陣悠閒的聲音同時從背後與眾人的通訊器中傳來，打斷三人接下來的動作。",
 			typewriter = {
@@ -295,8 +295,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			nameColor = "#A9F548FF",
 			say = "布呂歇爾，以及Z16，測試實驗辛苦了。妳們的成果對於鐵血很有幫助。",
 			painting = {
@@ -336,8 +336,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_yuanhuidian",
-			actor = 499020,
 			dir = 1,
+			actor = 499020,
 			nameColor = "#A9F548FF",
 			say = "呵呵，多謝誇獎。",
 			painting = {
@@ -554,8 +554,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_yuanhuidian",
 			blackBg = true,
 			say = "在布呂歇爾與歐根親王有一搭沒一搭的閒聊中，一行人的背影逐漸遠去，最終從鏡面海域中消失了。",

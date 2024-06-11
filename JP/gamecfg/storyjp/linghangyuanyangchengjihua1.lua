@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			bgm = "story-richang-1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "母港・執務室",
-			bgm = "story-richang-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "スクリーン越しにTBとにらめっこしている…",
@@ -59,10 +59,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "分析モジュールを同期します：「個性」という概念が内包する情報を解析できません",
 			painting = {
 				alpha = 0.3,
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "この間TBが「個性が足りない」と、実に難しい相談をしてきた。",
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "答えを自ら見いだせるよう、とりあえず資料を渡したが……",
@@ -130,10 +130,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "検索中：「個性」は通常、個体の唯一無二の特性、もしくは他人と異なる思考回路と解釈されます",
 			painting = {
 				alpha = 0.3,
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "ふと、ある大胆なアイデアが頭に浮かんできた。",
@@ -214,10 +214,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "補助電子アイデンティティインターフェイスには、一般的に「子供」と定義づけられる時期が存在しません",
 			painting = {
 				alpha = 0.3,
@@ -313,10 +313,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "関連性が存在する可能性を認めます。しかしこの結論には論理的根拠がなく、ただ今までの話題に沿って導かれた合理的推論に過ぎません",
 			painting = {
 				alpha = 0.3,
@@ -398,10 +398,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "オーダーを受領しました。特殊待機モードに入り、オーダーを再度受領すると起動します",
 			painting = {
 				alpha = 0.3,

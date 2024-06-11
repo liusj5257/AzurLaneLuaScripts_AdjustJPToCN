@@ -1,13 +1,13 @@
 return {
-	id = "WEICENGHUNHE2",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE2",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "며칠 전, 파나마 요새로 가던 지원 함대가 증원 요청을 남긴 채 연락이 두절됐다.",
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "NY 사령부는 사라진 함대를 찾기 위해 긴급히 조사 함대를 모집했다..",
 			typewriter = {
@@ -35,15 +35,15 @@ return {
 			}
 		},
 		{
-			say = "파나마 요새 동쪽·외해",
 			side = 2,
 			bgName = "bg_banama_1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "hunhe-story",
+			say = "파나마 요새 동쪽·외해",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 103240,
 			side = 2,
 			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103240,
+			nameColor = "#a9f548",
 			say = "와아, 이게 전설의 파나마 요새?! 직접 와보는 건 처음이야… 엄청난데!",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -97,8 +97,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "브레머튼은 계속 대서양에서만 활약했으니, 이곳을 와본 적이 없겠네.",
 			typewriter = {
@@ -130,8 +130,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "병참 보조에 있어서도 굉장히 중요한 허브라고 할 수 있죠.",
 			typewriter = {
@@ -163,8 +163,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "에? 중요한 줄만 알았지 이렇게 대단한 줄은 몰랐네! 이곳에서 주둔하는 게 기대되기 시작했어.",
 			typewriter = {
@@ -177,8 +177,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -187,15 +187,15 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "음… 곧 요새에 도착하지만 세이렌은 물론이고 전투의 흔적조차 발견할 수 없었어요.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -239,8 +239,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "에식스, 그들이 거울 해역에 말려 들어서 길을 잃었을 가능성은?",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "실종 당일 근처 항로의 운송 함대에게서는 세이렌 습격으로 인한 손해나 통신 두절에 관한 보고는 들어오지 않았어요.",
 			typewriter = {
@@ -305,8 +305,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			nameColor = "#a9f548",
 			say = "바다 안개를 만난 뒤 통신 시스템과 항법 시스템이 모두 고장 났고, 세이렌이 모여있는 해역에 잘못 진입했다… 이런 재수 없는 이유는 아니겠지. 아하하.",
 			typewriter = {
@@ -338,8 +338,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "아니. 지금은 아무것도 발견하지 못했다. 하지만 너무 평화로운 게 오히려 이상해.",
 			typewriter = {
@@ -355,8 +355,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			nameColor = "#a9f548",
 			say = "모든 것이 정상이라도 안심해서는 안 돼. 볼티모어 일행도 아무런 이유 없이 경고를 보내지는 않았을 거다.",
 			typewriter = {

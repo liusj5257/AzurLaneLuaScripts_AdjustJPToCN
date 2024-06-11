@@ -15,19 +15,19 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetNationalityFriendly",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetNationalityFriendly",
 			arg_list = {
 				buff_id = 109102,
 				nationality = 109
 			}
 		},
 		{
-			type = "BattleSkillEditTag",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillEditTag",
 			target_choise = {
 				"TargetPlayerMainFleet",
 				"TargetNationality"

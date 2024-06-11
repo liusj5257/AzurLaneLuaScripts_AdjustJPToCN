@@ -1,14 +1,14 @@
 slot0 = class("EducateCollectLayerTemplate", import("..base.EducateBaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	assert(nil, "getUIName方法必须由子类实现")
 end
 
-function slot0.initConfig(slot0)
+slot0.initConfig = function(slot0)
 	assert(nil, "initConfig方法必须由子类实现")
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.anim = slot0:findTF("anim_root"):GetComponent(typeof(Animation))
 	slot0.animEvent = slot0:findTF("anim_root"):GetComponent(typeof(DftAniEvent))
 
@@ -56,7 +56,7 @@ function slot0.init(slot0)
 	})
 end
 
-function slot0.updatePage(slot0)
+slot0.updatePage = function(slot0)
 	setActive(slot0.nextBtn, slot0.pages ~= 1 and slot0.curPageIndex < slot0.pages)
 	setActive(slot0.lastBtn, slot0.pages ~= 1 and slot0.curPageIndex > 1)
 	setText(slot0.paginationTF, slot0.curPageIndex .. "/" .. slot0.pages)
@@ -75,23 +75,23 @@ function slot0.updatePage(slot0)
 	end
 end
 
-function slot0.updateItem(slot0, slot1, slot2)
+slot0.updateItem = function(slot0, slot1, slot2)
 	assert(nil, "updateItem方法必须由子类实现")
 end
 
-function slot0.playAnimChange(slot0)
+slot0.playAnimChange = function(slot0)
 	assert(nil, "playAnimClose方法必须由子类实现")
 end
 
-function slot0.playAnimClose(slot0)
+slot0.playAnimClose = function(slot0)
 	assert(nil, "playAnimClose方法必须由子类实现")
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:playAnimClose()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.animEvent:SetEndEvent(nil)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf)
 end

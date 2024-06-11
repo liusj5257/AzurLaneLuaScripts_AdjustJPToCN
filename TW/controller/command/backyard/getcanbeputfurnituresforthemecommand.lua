@@ -1,6 +1,6 @@
 slot0 = class("GetCanBePutFurnituresForThemeCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.callback
 
@@ -25,7 +25,7 @@ function slot0.execute(slot0, slot1)
 	end
 end
 
-function slot0.GetAllFloorFurnitures()
+slot0.GetAllFloorFurnitures = function()
 	slot0 = {}
 
 	uv0.GetCurrFloorHouse(slot0)
@@ -34,13 +34,13 @@ function slot0.GetAllFloorFurnitures()
 	return slot0
 end
 
-function slot0.GetCurrFloorHouse(slot0)
+slot0.GetCurrFloorHouse = function(slot0)
 	for slot5, slot6 in pairs(_courtyard:GetController():GetStoreyData()) do
 		slot0[slot6.id] = uv0.StoreyFurniture2ThemeFurniture(slot6)
 	end
 end
 
-function slot0.StoreyFurniture2ThemeFurniture(slot0)
+slot0.StoreyFurniture2ThemeFurniture = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.child) do
@@ -61,13 +61,13 @@ function slot0.StoreyFurniture2ThemeFurniture(slot0)
 	})
 end
 
-function slot0.GetOtherFloorHouse(slot0)
+slot0.GetOtherFloorHouse = function(slot0)
 	for slot5, slot6 in pairs(uv0.GetFurnitureInOtherFloor(getProxy(DormProxy).floor)) do
 		slot0[slot6.id] = slot6
 	end
 end
 
-function slot0.GetFurnitureInOtherFloor(slot0)
+slot0.GetFurnitureInOtherFloor = function(slot0)
 	slot2 = {}
 
 	for slot6, slot7 in pairs(getProxy(DormProxy):getRawData():GetThemeList()) do
@@ -81,14 +81,14 @@ function slot0.GetFurnitureInOtherFloor(slot0)
 	return slot2
 end
 
-function slot0.IsUsing(slot0)
+slot0.IsUsing = function(slot0)
 	uv0.GetCurrFloorHouse({})
 	uv0.GetOtherFloorHouse({})
 
 	return slot0.id ~= "" and (slot0:IsUsing(slot1) or slot0:IsUsing(slot2))
 end
 
-function slot0.SortListForPut(slot0)
+slot0.SortListForPut = function(slot0)
 	slot1 = pg.furniture_data_template
 
 	table.sort(slot0, function (slot0, slot1)

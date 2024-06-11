@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "德系V4 EX代行者死亡时清除小怪",
 	time = 360,
+	name = "德系V4 EX代行者死亡时清除小怪",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,

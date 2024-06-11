@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KONGXIANGJIAOHUIDIAN31-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KONGXIANGJIAOHUIDIAN31-1",
 	scripts = {
 		{
-			stopbgm = true,
 			nameColor = "#A9F548FF",
-			side = 2,
-			bgm = "theme-thedevilXV",
-			bgmDelay = 2,
+			stopbgm = true,
 			say = "Geryon roared as Bismarck led the ships into battle, launching a fierce attack on the Arbiter vessel.",
+			side = 2,
+			bgmDelay = 2,
+			bgm = "theme-thedevilXV",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -27,8 +27,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "However, the vessel and its Enforcers did not descend into chaos, instead exhibiting greater synergy as they intensified their defensive fire.",
 			typewriter = {
 				speed = 0.05,
@@ -39,8 +39,8 @@ return {
 			expression = 2,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 9704010,
 			dir = 1,
+			actor = 9704010,
 			say = "It's not just the vessel that's stronger! The Enforcers are on a whole other level, too!",
 			painting = {
 				alpha = 0.3,
@@ -55,8 +55,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "Nobody overextend! Advance slowly and steadily!",
 			painting = {
 				alpha = 0.3,
@@ -70,11 +70,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			actor = 9704010,
 			nameColor = "#ffa500",
-			dir = 1,
 			say = "I'll provide covering fire!",
-			soundeffect = "event:/battle/boom2",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,11 +124,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Geryon",
+			side = 2,
 			nameColor = "#ffa500",
-			say = "ROOOAAAR!",
 			soundeffect = "event:/battle/boom2",
+			say = "ROOOAAAR!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,10 +182,10 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			actor = 402100,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 402100,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Regina, back off! Bah... These Sirens are even nastier than normal.",
 			painting = {
 				alpha = 0.3,
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			nameColor = "#a020f0",
 			side = 2,
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			say = "The Devil has supercharged not only The Hermit's vessel, but these Enforcers as well...",
 			painting = {
 				alpha = 0.3,
@@ -236,9 +236,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 406030,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "I've lost quite a few aircraft, but you don't see me throwing in the towel already.",
 			painting = {
 				alpha = 0.3,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -263,8 +263,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			say = "Good girls fight the good fight, no matter the odds.",
 			painting = {
 				alpha = 0.3,
@@ -279,8 +279,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 406030,
 			dir = 1,
+			actor = 406030,
 			say = "I know it's tempting to give up, but if there's even a sliver of a chance we can make it out of here alive, I'll pursue it.",
 			painting = {
 				alpha = 0.3,
@@ -315,8 +315,8 @@ return {
 			expression = 4,
 			nameColor = "#a020f0",
 			side = 2,
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			say = "You're... No, you're right. We still have a shot at victory, risky as it may be.",
 			painting = {
 				alpha = 0.3,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -401,8 +401,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "Remember how we fought the last vessel and just repeat what you did.",
 			painting = {
 				alpha = 0.3,
@@ -432,8 +432,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "While they're distracted, I'll get in close.",
 			painting = {
 				alpha = 0.3,
@@ -463,8 +463,8 @@ return {
 			expression = 2,
 			nameColor = "#a020f0",
 			side = 2,
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			say = "We can pull it off if we coordinate well enough...",
 			painting = {
 				alpha = 0.3,
@@ -479,8 +479,8 @@ return {
 			expression = 4,
 			nameColor = "#a020f0",
 			side = 2,
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			say = "But what if this is exactly what the Sirens want us to do?",
 			painting = {
 				alpha = 0.3,
@@ -495,8 +495,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "You can't think like that, Vestal.",
 			painting = {
 				alpha = 0.3,
@@ -511,8 +511,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "Before you can make a decision, you need to overcome your fears and doubts.",
 			painting = {
 				alpha = 0.3,
@@ -542,8 +542,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "Not anymore. I trust my comrades with my life. With them by my side, I am stronger than ever.",
 			painting = {
 				alpha = 0.3,
@@ -558,8 +558,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "It's not great leaders that forge the future, but rather those who believe in them.",
 			painting = {
 				alpha = 0.3,
@@ -574,8 +574,8 @@ return {
 			expression = 1,
 			nameColor = "#a020f0",
 			side = 2,
-			actor = 9712010,
 			dir = 1,
+			actor = 9712010,
 			say = "I... Okay. I trust you, Bismarck. We stand behind you.",
 			painting = {
 				alpha = 0.3,
@@ -590,8 +590,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 405050,
 			dir = 1,
+			actor = 405050,
 			say = "Thank you. I'm counting on you.",
 			painting = {
 				alpha = 0.3,
@@ -606,8 +606,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#ffa500",
-			actor = 9708010,
 			dir = 1,
+			actor = 9708010,
 			actorName = "U-556 META?",
 			say = "Let me come with you, Lord Bismarck!",
 			painting = {
@@ -620,8 +620,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -633,8 +633,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ffa500",
-			actor = 9708010,
 			dir = 1,
+			actor = 9708010,
 			actorName = "U-556 META?",
 			say = "I won't let anything get between us again!",
 			painting = {

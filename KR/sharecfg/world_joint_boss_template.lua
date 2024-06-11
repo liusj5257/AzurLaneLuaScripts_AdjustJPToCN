@@ -1,13 +1,13 @@
 pg = pg or {}
 pg.world_joint_boss_template = {
 	{
-		state = "always",
 		name = "히류·META",
-		painting = "feilong",
 		boss_level_id = 1,
-		id = 1,
-		meta_id = 970701,
+		state = "always",
 		item_id = 100000,
+		painting = "feilong",
+		meta_id = 970701,
+		id = 1,
 		description = {
 			{
 				"어두운 빛의 하나후다",
@@ -30,13 +30,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "아크 로열·META",
-		painting = "huangjiafangzhou",
 		boss_level_id = 16,
-		id = 2,
-		meta_id = 970702,
+		state = "always",
 		item_id = 100000,
+		painting = "huangjiafangzhou",
+		meta_id = 970702,
+		id = 2,
 		description = {
 			{
 				"마탄의 사수",
@@ -59,13 +59,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "헬레나·META",
-		painting = "hailunna",
 		boss_level_id = 31,
-		id = 3,
-		meta_id = 970201,
+		state = "always",
 		item_id = 100000,
+		painting = "hailunna",
+		meta_id = 970201,
+		id = 3,
 		description = {
 			{
 				"레이더 스캔·Hacking",
@@ -92,13 +92,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "소류·META",
-		painting = "canglong",
 		boss_level_id = 46,
-		id = 4,
-		meta_id = 970703,
+		state = "always",
 		item_id = 100000,
+		painting = "canglong",
+		meta_id = 970703,
+		id = 4,
 		description = {
 			{
 				"불꽃 하나후다",
@@ -125,13 +125,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "그나이제나우·META",
-		painting = "genaisennao",
 		boss_level_id = 61,
-		id = 5,
-		meta_id = 970401,
+		state = "always",
 		item_id = 100000,
+		painting = "genaisennao",
+		meta_id = 970401,
+		id = 5,
 		description = {
 			{
 				"불꽃의 사슬",
@@ -154,13 +154,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "샤른호르스트·META",
-		painting = "shaenhuosite",
 		boss_level_id = 76,
-		id = 6,
-		meta_id = 970402,
+		state = "always",
 		item_id = 100000,
+		painting = "shaenhuosite",
+		meta_id = 970402,
+		id = 6,
 		description = {
 			{
 				"강철의 지팡이",
@@ -183,13 +183,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "리펄스·META",
-		painting = "fanji",
 		boss_level_id = 91,
-		id = 7,
-		meta_id = 970403,
+		state = "always",
 		item_id = 100000,
+		painting = "fanji",
+		meta_id = 970403,
+		id = 7,
 		description = {
 			{
 				"파이어워크 리펄스",
@@ -221,13 +221,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "리나운·META",
-		painting = "shengwang",
 		boss_level_id = 106,
-		id = 8,
-		meta_id = 970404,
+		state = "always",
 		item_id = 100000,
+		painting = "shengwang",
+		meta_id = 970404,
+		id = 8,
 		description = {
 			{
 				"메테오",
@@ -264,13 +264,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "always",
 		name = "애리조나·META",
-		painting = "yalisangna",
 		boss_level_id = 121,
-		id = 9,
-		meta_id = 970503,
+		state = "always",
 		item_id = 100000,
+		painting = "yalisangna",
+		meta_id = 970503,
+		id = 9,
 		description = {
 			{
 				"퍼지는 슬픔",
@@ -297,13 +297,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
 		name = "퀸 엘리자베스·META",
-		painting = "yilishabainvwang",
 		boss_level_id = 136,
-		id = 10,
-		meta_id = 970504,
+		state = "stop",
 		item_id = 100000,
+		painting = "yilishabainvwang",
+		meta_id = 970504,
+		id = 10,
 		description = {
 			{
 				"「퀸 엘리자베스」 사분면 확장",
@@ -330,12 +330,12 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
 		name = "알제리·META",
-		painting = "aerjiliya",
 		boss_level_id = 151,
-		id = 11,
+		item_id = 100000,
+		painting = "aerjiliya",
 		meta_id = 970302,
+		id = 11,
 		description = {
 			{
 				"신의 기동",
@@ -388,12 +388,12 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
 		name = "진츠·META",
-		painting = "shentong",
 		boss_level_id = 166,
-		id = 12,
+		item_id = 100000,
+		painting = "shentong",
 		meta_id = 970205,
+		id = 12,
 		description = {
 			{
 				"계략의 철벽",
@@ -451,12 +451,12 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
 		name = "키로프·META",
-		painting = "jiluofu",
 		boss_level_id = 181,
-		id = 13,
+		item_id = 100000,
+		painting = "jiluofu",
 		meta_id = 970206,
+		id = 13,
 		description = {
 			{
 				"기계 지원 협정",
@@ -509,12 +509,12 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
 		name = "로드니·META",
-		painting = "luodeni",
 		boss_level_id = 196,
-		id = 14,
+		item_id = 100000,
+		painting = "luodeni",
 		meta_id = 970505,
+		id = 14,
 		description = {
 			{
 				"차원 초월",

@@ -14,13 +14,13 @@ return {
 				}
 			},
 			style = {
-				text = "게임 수첩을 터치하여 캐릭터 및 적에 대한 자세한 설명을 확인할 수 있습니다.",
-				mode = 2,
-				posY = -174,
-				char = "amazon",
 				dir = -1,
-				windowbg = "3",
+				mode = 2,
+				char = "amazon",
+				posY = -174,
 				posX = -680,
+				text = "게임 수첩을 터치하여 캐릭터 및 적에 대한 자세한 설명을 확인할 수 있습니다.",
+				windowbg = "3",
 				charPos = {
 					300,
 					0

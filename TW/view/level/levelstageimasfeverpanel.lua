@@ -1,10 +1,10 @@
 slot0 = class("LevelStageIMasFeverPanel", import("view.base.BaseSubPanel"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LevelStageIMasFeverPanel"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.fillImg = slot0._tf:Find("Fill")
 	slot0.banner = slot0._tf:Find("Banner")
 
@@ -24,7 +24,7 @@ slot2 = {
 	"Blue"
 }
 
-function slot0.UpdateView(slot0, slot1, slot2)
+slot0.UpdateView = function(slot0, slot1, slot2)
 	slot3 = getProxy(ChapterProxy)
 	slot3 = slot3:GetLastDefeatedEnemy(slot1.id)
 	slot6 = uv0[Mathf.Min(pg.gameset.doa_fever_count.key_value, slot1.defeatEnemies)]
@@ -58,7 +58,7 @@ function slot0.UpdateView(slot0, slot1, slot2)
 	})
 end
 
-function slot0.ShowPanel(slot0, slot1)
+slot0.ShowPanel = function(slot0, slot1)
 	slot0.viewParent:emit(LevelUIConst.FROZEN)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.banner)
 
@@ -77,7 +77,7 @@ function slot0.ShowPanel(slot0, slot1)
 
 	slot5:GetComponent(typeof(Image)).enabled = true
 
-	function slot8()
+	slot8 = function()
 		uv0:ClosePanel()
 	end
 
@@ -87,7 +87,7 @@ function slot0.ShowPanel(slot0, slot1)
 	slot0.showingPanel = true
 end
 
-function slot0.ClosePanel(slot0)
+slot0.ClosePanel = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.banner, slot0._tf)
 	setActive(slot0.banner, false)
 	slot0.viewParent:emit(LevelUIConst.UN_FROZEN)
@@ -95,7 +95,7 @@ function slot0.ClosePanel(slot0)
 	slot0.showingPanel = nil
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0.showingPanel then
 		slot0:ClosePanel()
 	end

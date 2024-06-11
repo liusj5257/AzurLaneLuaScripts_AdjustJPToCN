@@ -9,7 +9,7 @@ slot0.ON_SUBMIT_WEEK_TASK = "TaskMediator:ON_SUBMIT_WEEK_TASK"
 slot0.CLICK_GET_ALL = "TaskMediator:CLICK_GET_ALL"
 slot0.ON_DROP = "TaskMediator:ON_DROP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_SUBMIT_WEEK_TASK, function (slot0, slot1)
 		uv0:sendNotification(GAME.SUBMIT_WEEK_TASK, {
 			id = slot1.id
@@ -96,7 +96,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetWeekTaskProgressInfo(getProxy(TaskProxy):GetWeekTaskProgressInfo())
 end
 
-function slot0.SetTaskVOs(slot0)
+slot0.SetTaskVOs = function(slot0)
 	slot3 = getProxy(BagProxy)
 
 	for slot7, slot8 in pairs(getProxy(TaskProxy):getData()) do
@@ -110,7 +110,7 @@ function slot0.SetTaskVOs(slot0)
 	slot0.viewComponent:setTaskVOs(slot2)
 end
 
-function slot0.enterLevel(slot0, slot1)
+slot0.enterLevel = function(slot0, slot1)
 	if getProxy(ChapterProxy):getChapterById(slot1) then
 		slot4 = {
 			mapIdx = slot3:getConfig("map")
@@ -126,7 +126,7 @@ function slot0.enterLevel(slot0, slot1)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		TaskProxy.TASK_ADDED,
 		TaskProxy.TASK_UPDATED,
@@ -147,7 +147,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == TaskProxy.TASK_ADDED then
@@ -224,7 +224,7 @@ function slot0.handleNotification(slot0, slot1)
 
 			slot4:RefreshWeekTaskPageBefore(slot3.id)
 
-			function slot4()
+			slot4 = function()
 				uv0.viewComponent:RefreshWeekTaskPage()
 			end
 
@@ -234,7 +234,7 @@ function slot0.handleNotification(slot0, slot1)
 				slot4()
 			end
 		elseif slot2 == GAME.SUBMIT_WEEK_TASK_PROGRESS_DONE then
-			function slot4()
+			slot4 = function()
 				uv0.viewComponent:RefreshWeekTaskProgress()
 			end
 
@@ -244,7 +244,7 @@ function slot0.handleNotification(slot0, slot1)
 				slot4()
 			end
 		elseif slot2 == GAME.SUBMIT_AVATAR_TASK_DONE then
-			function slot4()
+			slot4 = function()
 				uv0.viewComponent:refreshPage()
 
 				if uv1.callback then
@@ -270,11 +270,11 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.accepetActivityTask(slot0)
+slot0.accepetActivityTask = function(slot0)
 	slot0:sendNotification(GAME.ACCEPT_ACTIVITY_TASK)
 end
 
-function slot0.PlayStoryForTaskAct(slot0, slot1, slot2)
+slot0.PlayStoryForTaskAct = function(slot0, slot1, slot2)
 	slot4 = nil
 
 	for slot8, slot9 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST)) do

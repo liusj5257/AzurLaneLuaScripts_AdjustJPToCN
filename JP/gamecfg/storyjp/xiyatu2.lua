@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIYATU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIYATU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"オール陣営パーティーナイト！\n\n<size=45>二 シアトルのすごい作戦</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_103",
-			say = "数日後。母港の並木道を歩いていると――",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
+			say = "数日後。母港の並木道を歩いていると――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "おかしい。木々にネオンライトなど飾りがつけられている…",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -133,8 +133,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -162,8 +162,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "そうだったのか…？",
 			typewriter = {
@@ -175,10 +175,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「すごい作戦」のことっすよ！思い出したっすか？",
 			painting = {
 				alpha = 0.3,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "記憶の奥底を探ってみると、おぼろげながらなんとなく数日前にシアトルから聞いたような…",
 			typewriter = {
@@ -200,12 +200,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "この装飾こそが、作戦のステップ1ってわけっすよ",
 			painting = {
 				alpha = 0.3,
@@ -220,10 +220,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そしてステップ2は……んー多分指揮官はもう覚えていないっすね",
 			painting = {
 				alpha = 0.3,
@@ -235,12 +235,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "せっかくだからどういう作戦か当ててみてほしいっす",
 			painting = {
 				alpha = 0.3,
@@ -255,10 +255,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "みんながリラックスでき、思いっきり楽しめるような――",
 			painting = {
 				alpha = 0.3,
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "シアトルのことだから、当然――",
 			typewriter = {
@@ -294,12 +294,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "正解っす！",
 			painting = {
 				alpha = 0.3,
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,10 +324,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "君、忙しいのはわかるけど、一度許可出したことまで忘れちゃうのは流石に仕事に打ち込みすぎじゃないっすか？",
 			painting = {
 				alpha = 0.3,
@@ -342,10 +342,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そのためにも、久しぶりの非番日はちゃんと休めないとダメだと思って！",
 			painting = {
 				alpha = 0.3,
@@ -357,8 +357,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -370,10 +370,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そこで懇親パーティーを設けて、母港の仲間たち、そして我らが指揮官にしっかり休んでもらうのが今回の作戦っす！",
 			painting = {
 				alpha = 0.3,
@@ -388,10 +388,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "テーマは「ワールドクルーズ」、四大陣営をはじめ東煌からサディアまで、全部の陣営が参加する一大行事！",
 			painting = {
 				alpha = 0.3,
@@ -403,12 +403,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "提案したのはもちろんこのシアトルで、ジョージアもサポートしてくれてるっす！",
 			painting = {
 				alpha = 0.3,
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_103",
 			say = "なるほど。朝食のバラエティが増えたのももしかして……",
 			typewriter = {
@@ -430,12 +430,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "star_level_bg_103",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そういうことっすよ。ははは",
 			painting = {
 				alpha = 0.3,

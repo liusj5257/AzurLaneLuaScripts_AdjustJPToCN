@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN11",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN11",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
+			blackBg = true,
+			bgm = "wedding",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……",
-			blackBg = true,
-			bgm = "wedding",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "…………",
@@ -55,17 +55,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.25,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -73,11 +73,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_church",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그… 정말 괜찮은 거지?",
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_church",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "나랑 같이 있는 건 꽤 힘들 텐데? 나중에 무르기 없기다?",
@@ -153,12 +153,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_church",
+			soundeffect = "event:/ui/shuaimen",
 			hidePaintObj = true,
 			say = "―――!!!!",
-			soundeffect = "event:/ui/shuaimen",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,21 +210,21 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			bgName = "bg_jufengv1_cg2",
+			mode = 1,
 			bgm = "theme-seaandsun-image",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -243,12 +243,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "바다의 샛별",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "잠깐!! 뭐 하는 거야?!",
-			actor = 9600010,
-			actorName = "로열 포춘",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "로열 포춘",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "잠깐!! 뭐 하는 거야?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,8 +259,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg2",
 			hidePaintObj = true,
 			say = "눈을 뜨자, 난폭하게 선실 문을 열어젖히는 로열 포춘의 모습이 보였다.",
@@ -275,12 +275,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "투자자",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "보다시피 지휘관님을 돌보는 중인데~?",
-			actor = 9600030,
-			actorName = "골든 하인드",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "골든 하인드",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "보다시피 지휘관님을 돌보는 중인데~?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,11 +294,11 @@ return {
 			portrait = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_cg2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actorName = "???",
+			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "쉿, 목소리 낮춰. 지휘관은 이제 막 정신을 차렸으니까……",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,12 +310,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "로열 포춘",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(작은 목소리로) 아… 네……",
-			actor = 9600010,
-			actorName = "로열 포춘",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,12 +331,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "로열 포춘",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(큰 목소리로) 아, 그게 아니라!!",
-			actor = 9600010,
-			actorName = "로열 포춘",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,12 +352,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "로열 포춘",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이 녀석은 내 동료라고! 그러니까 내가 돌봐주는 게 당연하지!",
-			actor = 9600010,
-			actorName = "로열 포춘",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,12 +373,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "로열 포춘",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그리고 메리 셀러스트!",
-			actor = 9600010,
-			actorName = "로열 포춘",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,12 +394,12 @@ return {
 			bgName = "bg_jufengv1_cg2",
 			factiontag = "바다의 샛별",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "당신이 유명한 유령선이든 뭐든, 거긴 내 자리니까 비켜!",
-			actor = 9600010,
-			actorName = "로열 포춘",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "로열 포춘",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "당신이 유명한 유령선이든 뭐든, 거긴 내 자리니까 비켜!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,17 +413,17 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -442,12 +442,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "투자자",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "골든 하인드",
+			actor = 9600030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어머머~",
-			actor = 9600030,
-			actorName = "골든 하인드",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,12 +463,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "투자자",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "골든 하인드",
+			actor = 9600030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "유령선을 그렇게 만나고 싶어 하는 애가 있다고 지휘관님이 그러던데~",
-			actor = 9600030,
-			actorName = "골든 하인드",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,12 +484,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "투자자",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "그게 누구였더라~♪",
-			actor = 9600030,
+			withoutPainting = true,
 			actorName = "골든 하인드",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			withoutPainting = true,
+			say = "그게 누구였더라~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,12 +505,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			withoutPainting = true,
+			actorName = "로열 포춘",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이젠 만나기 싫어진 지 오래거든?!",
-			actor = 9600010,
-			actorName = "로열 포춘",
-			hidePaintObj = true,
-			withoutPainting = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,12 +526,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "바다의 샛별",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "열받아! 흥!",
-			actor = 9600010,
-			actorName = "로열 포춘",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "로열 포춘",
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "열받아! 흥!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,8 +542,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg3",
 			hidePaintObj = true,
 			say = "모닝콜치고는 좀 소란스러운 것 같다…",
@@ -564,12 +564,12 @@ return {
 			bgName = "bg_jufengv1_cg3",
 			factiontag = "투자자",
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "자, 자~ 로열 포춘은 여기 앉으면 되잖아~",
-			actor = 9600030,
-			actorName = "골든 하인드",
-			hidePaintObj = true,
 			withoutPainting = true,
+			actorName = "골든 하인드",
+			actor = 9600030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "자, 자~ 로열 포춘은 여기 앉으면 되잖아~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
-			bgName = "bg_jufengv1_2",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			bgName = "bg_jufengv1_2",
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그것참 고맙네! 흥!",
@@ -597,17 +597,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -615,8 +615,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			say = "로열 포춘은 거세게 침대에 주저앉더니, 내 다른 손을 꼭 움켜잡았다.",
@@ -650,8 +650,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -681,11 +681,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "역시 '무적의 월계관'이 아무 이유도 없이 쫓아올 리가 없잖아! 이게 다 골든 하인드가 이상한 소리를 해서 그런 거라고!",
@@ -718,8 +718,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -730,8 +730,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -742,8 +742,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -773,11 +773,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "다 보고 있거든?!",
@@ -791,8 +791,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -803,11 +803,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "내 이름은 메리 셀러스트…",
@@ -840,11 +840,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "메리가 태풍의 눈 쪽으로 우릴 안내해 줬어.",
@@ -883,11 +883,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "감사 인사는 필요 없어. 용감한 지휘관과 그 동료들의 힘으로 살아난 거나 다름없으니까.",
@@ -920,11 +920,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "당신처럼 용감한 자에게는 위대한 항해를 이어 나갈 자격이 있어. 난 그저 해야 할 일을 한 것뿐이지.",
@@ -988,11 +988,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "나는 유령선인데? …무섭지 않아?",
@@ -1012,11 +1012,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "유령",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아니, 지휘관이 좋은 사람인 건 잘 알겠는데… 그냥 빈말로 하는 거면……",
@@ -1030,11 +1030,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "딱히 빈말로 그러는 건 아닐걸?",
@@ -1067,11 +1067,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이건 거짓 한 톨 없이 진심으로 우리 동료로 초대하는 거야. 우리 여정에는 당신이 꼭 필요해!",
@@ -1104,11 +1104,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "(작은 목소리로) 빨리 뭐라고 좀 말해봐!",
@@ -1189,12 +1189,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_2",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "――――!!!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1240,8 +1240,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			say = "선실 창문 바깥에서 포격의 굉음이 울렸다.",
@@ -1289,11 +1289,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_2",
 			factiontag = "투자자",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "상 마르티뉴가 교전 중이야. 우리도 빨리 가자구~",

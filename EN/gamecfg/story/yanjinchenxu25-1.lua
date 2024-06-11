@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU25-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU25-1",
 	scripts = {
 		{
-			nameColor = "#ffa500",
+			stopbgm = true,
 			side = 2,
 			bgName = "bg_firedust_7",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-whaling-normal",
 			actor = 900353,
-			stopbgm = true,
+			nameColor = "#ffa500",
 			say = "I've found where War is! You all ready?",
 			flashin = {
 				delay = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Ready as can be. Our prayers are still in effect, too.",
 			painting = {
@@ -54,8 +54,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "We'll need them, for sure. War has a massive escort of mass-produced ships.",
 			painting = {
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "What did you expect? The bigger the army, the more war you can wage!",
 			painting = {
@@ -87,9 +87,9 @@ return {
 		{
 			actor = 900353,
 			side = 2,
-			bgName = "bg_firedust_7",
 			nameColor = "#ffa500",
 			dir = 1,
+			bgName = "bg_firedust_7",
 			say = "On the bright side, War itself is a real tough bastard!",
 			painting = {
 				alpha = 0.3,
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Now how is that supposed to be a good thing?",
 			painting = {
@@ -121,8 +121,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			nameColor = "#ffa500",
 			say = "Huh? Don't you get a rush of excitement just thinking about going head-to-head with a powerful enemy?",
 			painting = {
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_7",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Ah, yes, because putting myself in mortal danger is exactly my idea of excitement.",
 			painting = {

@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LAISHAGUANQIA26",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LAISHAGUANQIA26",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_ryza_2",
+			bgm = "ryza-az-pv",
 			stopbgm = true,
 			say = "거울 해역·과거",
-			bgm = "ryza-az-pv",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "퓨리파이어",
 			say = "핵심 구역이니까 함정같은 장치는 물론, 엄청 강한 수호자를 꼭 두어야 해!",
 			painting = {
@@ -74,10 +74,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "결국은 위험하기 짝이 없는 유적이 되었구나….",
 			painting = {
 				alpha = 0.3,
@@ -91,9 +91,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_ryza_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_ryza_2",
 			actor = 900233,
 			actorName = "퓨리파이어",
 			say = "적당히 난이도가 높지 않으면, 클리어 했을 때의 기쁨은 맛볼 수 없다고.",
@@ -107,8 +107,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "퓨리파이어",
 			say = "새로운 힘으로 유적을 탐색하거나 전투를 마음껏 즐길 수 있다는 거지.",
 			painting = {
@@ -191,10 +191,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "흠…. 하지만 그 의장이라는 건 연금술로 만들어지는 것과는 상당히 거리가 있는 것 같은데?",
 			painting = {
 				alpha = 0.3,
@@ -206,11 +206,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "퓨리파이어",
 			say = "연금술에 불가능은 없다잖아!",
 			painting = {
@@ -226,10 +226,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ryza_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 10900060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "호오? 벌써 연금술에 대한 정보를 얻은 게냐?",
 			painting = {
 				alpha = 0.3,
@@ -259,11 +259,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "퓨리파이어",
 			say = "이건 아무도 모르게 연금솥 모양으로 만들어서… 으흐흐흐….",
 			painting = {
@@ -294,11 +294,11 @@ return {
 			}
 		},
 		{
-			actor = 900233,
 			nameColor = "#A9F548FF",
-			bgName = "bg_ryza_2",
 			side = 2,
+			bgName = "bg_ryza_2",
 			dir = 1,
+			actor = 900233,
 			actorName = "퓨리파이어",
 			say = "――모험에는 빼놓을 수 없는 '보물'로서 말이야♪",
 			painting = {

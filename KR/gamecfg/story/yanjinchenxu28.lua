@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU28",
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			stopbgm = true,
 			bgmDelay = 1,
-			say = "█ █ █ - █ █ █ █ █ █",
 			bgm = "theme-vichy-church",
+			stopbgm = true,
+			say = "█ █ █ - █ █ █ █ █ █",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,9 +29,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			}
 		},
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "아무도 대답해주지 않는 임플래커블의 혼잣말, 오로지 검은 태양만이 소리 없이 불타오를 뿐이었다.",
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "임플래커블은 멀지 않은 검은 태양을 바라보다가, 마침내 결정을 내렸다.",
@@ -134,8 +134,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "그러나 걸음을 내딛기 전, 그녀는 뒤에서 갑자기 무언가 나타난 기운을 느꼈다.",
@@ -145,12 +145,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			nameColor = "#BDBDBD",
+			side = 2,
 			bgName = "bg_firedust_5",
 			actorShadow = true,
 			dialogueBgAlpha = 0.6,
-			side = 2,
+			actor = 205010,
 			actorName = "█ █ █ █ █",
 			say = "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂▁▅▎▌█▊▇▊▇",
 			typewriter = {
@@ -183,14 +183,14 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
+			actorName = "█ █ █ █ █",
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
+			actorShadow = true,
 			dir = 1,
-			nameColor = "#BDBDBD",
+			dialogueBgAlpha = 0.6,
 			actor = 205010,
-			actorName = "█ █ █ █ █",
+			nameColor = "#BDBDBD",
 			say = "▅▁▂▋▄▊■▆▎▅▁▂▋▄▊■▆▎▇▆▅■",
 			painting = {
 				alpha = 0.3,
@@ -221,8 +221,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "????",
+			side = 2,
 			bgName = "bg_firedust_5",
 			nameColor = "#ffa500",
 			dialogueBgAlpha = 0.6,
@@ -233,8 +233,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "????",
+			side = 2,
 			bgName = "bg_firedust_5",
 			nameColor = "#ffa500",
 			dialogueBgAlpha = 0.6,
@@ -250,12 +250,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
-			say = "콰앙───────────!",
 			soundeffect = "event:/battle/boom2",
+			say = "콰앙───────────!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,8 +301,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "맹렬한 충격이 벌어지고, 흐릿한 목소리를 내던 퀸 엘리자베스가 사라졌다.",
@@ -312,8 +312,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			say = "그리고 대신한 것은 임플래커블 뒤에 나타난 다른──",
@@ -323,13 +323,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "????",
+			dialogueBgAlpha = 0.6,
 			dir = 1,
 			actor = 900352,
-			nameColor = "#ffa500",
+			actorName = "????",
 			hidePaintObj = true,
 			say = "응? 왜 날 그렇게 보지?",
 			painting = {
@@ -364,11 +364,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "퀸 엘리자베스·META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "퀸 엘리자베스·META",
 			hidePaintObj = true,
 			say = "왜 그렇게 놀라는 거지, 네가 날 부른 게 아닌가?",
 			painting = {
@@ -384,11 +384,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "퀸 엘리자베스·META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "퀸 엘리자베스·META",
 			hidePaintObj = true,
 			say = "자세히 보니…… META화 하지 않았네.",
 			painting = {
@@ -404,11 +404,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "퀸 엘리자베스·META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "퀸 엘리자베스·META",
 			hidePaintObj = true,
 			say = "그럼 넌 어떻게 날 부를 수 있었지? 또 그것들이 들러붙은 건가?",
 			painting = {
@@ -424,11 +424,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "퀸 엘리자베스·META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "퀸 엘리자베스·META",
 			hidePaintObj = true,
 			say = "흥미로운데…….",
 			painting = {
@@ -460,13 +460,13 @@ return {
 			}
 		},
 		{
-			actor = 207070,
-			side = 2,
 			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_firedust_5",
+			dir = 1,
+			actor = 207070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "전 꿈을 꾸고 있는 건가요?",
 			painting = {
 				alpha = 0.3,
@@ -478,13 +478,13 @@ return {
 			}
 		},
 		{
-			dialogueBgAlpha = 0.6,
+			nameColor = "#ffa500",
 			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "퀸 엘리자베스·META",
+			dialogueBgAlpha = 0.6,
 			dir = 1,
 			actor = 900352,
-			nameColor = "#ffa500",
+			actorName = "퀸 엘리자베스·META",
 			hidePaintObj = true,
 			say = "네게 있어선, 그래.",
 			painting = {
@@ -500,11 +500,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "퀸 엘리자베스·META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "퀸 엘리자베스·META",
 			hidePaintObj = true,
 			say = "꿈은 깨어나야지. 여긴 네가 올 곳이 아니야, 돌아가.",
 			painting = {
@@ -539,11 +539,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "퀸 엘리자베스·META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "퀸 엘리자베스·META",
 			hidePaintObj = true,
 			say = "네 의견을 물은 게 아니야.",
 			painting = {
@@ -559,11 +559,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			dialogueBgAlpha = 0.6,
-			dir = 1,
-			actorName = "퀸 엘리자베스·META",
-			actor = 900352,
 			nameColor = "#ffa500",
+			dir = 1,
+			dialogueBgAlpha = 0.6,
+			actor = 900352,
+			actorName = "퀸 엘리자베스·META",
 			hidePaintObj = true,
 			say = "「돌아가」",
 			painting = {

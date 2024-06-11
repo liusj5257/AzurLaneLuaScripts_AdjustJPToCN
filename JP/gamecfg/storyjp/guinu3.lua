@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUINU3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUINU3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"凛として鬼の如く\n\n<size=45>三  鬼に非ず</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "鬼怒から根性の修行だと言われ、母港の裏山にある滝にやってきた。",
 			side = 2,
 			bgName = "star_level_bg_142",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "鬼怒から根性の修行だと言われ、母港の裏山にある滝にやってきた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -130,9 +130,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "鬼怒が阿武隈に何やら耳打ちをしているのが気になったが、気にせずそのまま水の中に足を入れる。",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "いいか指揮官、何が起こっても決して心を乱すなよ。ハチの時の失態を繰り返すことなかれだ",
 			typewriter = {
@@ -161,9 +161,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "意を決して滝に頭から入ると、凍えそうなほど水が冷たい。打たれる滝の勢いも強すぎて痛いほどだ。",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "くれぐれも忘れるなよ？“何が起こっても”だからな",
 			typewriter = {
@@ -208,8 +208,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -218,9 +218,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "鬼怒は何度も念押しするように、こちらに語りかけている……もしかして何か企んでいるのだろうか？",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "阿武隈、余計なことを言うな",
 			typewriter = {
@@ -265,11 +265,11 @@ return {
 			}
 		},
 		{
-			actor = 302090,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302090,
+			nameColor = "#a9f548",
 			say = "はいはい。お、なんだかあての竿に大きな魚が引っかかったような気がする？",
 			typewriter = {
 				speed = 0.05,
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -291,9 +291,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "阿武隈が突然棒読みのトーンでしゃべり出した。",
 			typewriter = {
 				speed = 0.05,
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 302090,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302090,
+			nameColor = "#a9f548",
 			say = "わ、わー。この魚、力が強すぎて、も、持ってかれそうだー",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -334,8 +334,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "指揮官、心を乱すなよ",
 			typewriter = {
@@ -364,9 +364,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "阿武隈が川に落ちた。最後の「えい」も含め、どう見ても自ら落ちていったようにしか思えないが……。",
 			typewriter = {
 				speed = 0.05,
@@ -378,9 +378,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
+			dir = 1,
 			say = "しかしさすがに演技であれ動かないわけにはいかなかった。滝から離れて阿武隈のところに向かう。",
 			typewriter = {
 				speed = 0.05,
@@ -392,11 +392,11 @@ return {
 			}
 		},
 		{
-			actor = 302090,
 			side = 2,
 			bgName = "star_level_bg_142",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302090,
+			nameColor = "#a9f548",
 			say = "あっ。……指揮官、普通に助けに来た",
 			typewriter = {
 				speed = 0.05,
@@ -408,8 +408,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -421,8 +421,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "仲間の安否は確かに大事だが……しかし戦場ではその優しさが逆効果になることもある",
 			typewriter = {
@@ -435,8 +435,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -448,8 +448,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "阿武隈が川に落ちた時に一番近くにいたのはあてだ。自ら飛び込む前にあてに命令しろ",
 			typewriter = {
@@ -465,8 +465,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "……ただ、お前がそう判断したのなら何も言わん。…が、これでは修行にならん。もう一回だ！",
 			effects = {
@@ -488,8 +488,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_142",
-			actor = 302080,
 			dir = 1,
+			actor = 302080,
 			nameColor = "#a9f548",
 			say = "（鬼を従えるは鬼に非ず……あてを従えるものというより、あれじゃただのヒト…か）",
 			effects = {

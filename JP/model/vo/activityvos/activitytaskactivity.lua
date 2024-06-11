@@ -1,10 +1,10 @@
 slot0 = class("ActivityTaskActivity", import("model.vo.ActivityVOs.ITaskActivity"))
 
-function slot0.GetFinishedTaskIds(slot0)
+slot0.GetFinishedTaskIds = function(slot0)
 	return slot0:getData1List()
 end
 
-function slot0.GetTaskIdsByDay(slot0)
+slot0.GetTaskIdsByDay = function(slot0)
 	return slot0:getConfig("config_data")
 end
 

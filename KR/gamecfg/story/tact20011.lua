@@ -44,11 +44,11 @@ return {
 			}
 		},
 		{
-			actor = 404020,
 			side = 1,
-			nameColor = "#ff0000",
-			mode = 2,
 			say = "이전의 전투로 데이터를 충분히 모았습니다. 이번에 우리가 이길 확률은 90% 입니다.",
+			nameColor = "#ff0000",
+			actor = 404020,
+			mode = 2,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -85,10 +85,10 @@ return {
 			}
 		},
 		{
-			actor = 404010,
 			actorShadow = true,
-			actorName = "샤른호르스트 & 그나이제나우",
 			side = 0,
+			actorName = "샤른호르스트 & 그나이제나우",
+			actor = 404010,
 			hideOther = true,
 			nameColor = "#ff0000",
 			say = "샤른호르스트급 순양전함 샤른호르스트, 그나이제나우, 출격! 자, 짓밟아주마!",

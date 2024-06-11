@@ -1,15 +1,15 @@
 return {
-	id = "YONGYEHUANGUANG9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bgm-cccp2",
 			say = "바렌츠해·로열 네이비 지원 함대, 조금 전",
+			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,8 +68,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "음…지금으로서는 정말 상상하기 힘들군…",
 			typewriter = {
 				speed = 0.05,
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_2",
+			dir = 1,
 			say = " 별안간, 공중에서 나타난 오로라가 기나긴 밤을 밝히며, 로열 네이비의 지원 함대가 나아가는 방향 역시 밝혀주었다.",
 			typewriter = {
 				speed = 0.05,
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_2",
+			dir = 1,
 			say = " 별바다에서 목욕하 듯, 별빛 하늘이 빛에 반사되어 반짝이는 수면 위를 춤추는 오로라가 함께 하고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "퍼시어스",
+			side = 2,
 			bgName = "bg_hms_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "뱀파이어",
+			side = 1,
 			bgName = "bg_hms_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -141,8 +141,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "퍼시어스",
+			side = 2,
 			bgName = "bg_hms_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -230,8 +230,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "극권 부근의 오로라 형태는 매우 다양해. 극야 기간이라면 가끔 지금처럼 이렇게 밝고 오래가는 오로라도 나타나겠지.",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "…자른 토마토…",
 			typewriter = {
 				speed = 0.05,
@@ -344,11 +344,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 202080,
 			dir = 1,
+			hideOther = true,
 			actorName = "셰필드&뱀파이어",
 			say = "…응?",
 			subActors = {

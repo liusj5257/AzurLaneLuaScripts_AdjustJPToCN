@@ -1,12 +1,12 @@
 return {
-	id = "W2013A",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2013A",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "分析模組同步中：目前可獲取的資源等級為2級。指揮官，攜帶更多的塞壬能源矩陣可以提升資源等級，是否立即獲取資源？",
 			painting = {
 				alpha = 0.3,

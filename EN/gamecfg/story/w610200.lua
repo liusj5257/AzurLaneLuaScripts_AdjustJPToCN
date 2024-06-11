@@ -1,15 +1,15 @@
 return {
-	id = "W610200",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W610200",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "Siren fleet on course toward node under allied control has been detected.Engaging the Siren fleet before they capture the node is recommended.",
 			typewriter = {
 				speed = 0.05,

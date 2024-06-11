@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUKUFU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUKUFU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Journé Surcouf!\n\n<size=45>Chapter 7 - Surcouf in My Arms</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 808010,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Mmh... good morning, Commander...",
 			bgm = "story-1",
+			actor = 808010,
+			nameColor = "#a9f548",
+			say = "Mmh... good morning, Commander...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Surcouf was visibly flustered. You rarely see her like this.",
 			typewriter = {
 				speed = 0.05,
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 808010,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 808010,
+			nameColor = "#a9f548",
 			say = "But I wasn't of any help... You did it all on your own... I'm a failure of a secretary...",
 			typewriter = {
 				speed = 0.05,
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Just a moment ago, Surcouf seemed depressed, but now she appeared pleased with herself.",
 			typewriter = {
 				speed = 0.05,

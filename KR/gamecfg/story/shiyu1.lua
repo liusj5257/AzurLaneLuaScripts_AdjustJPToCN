@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"걱정 많은 그녀는 진지해\n\n<size=45>1. 폭풍우가 몰아친 다음날</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "——어느 날 밤, 모항은 거센 폭풍우의 습격을 맞이했다.",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "——어느 날 밤, 모항은 거센 폭풍우의 습격을 맞이했다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "폭풍이 지나간 후에는 반드시 청소 작업을 해야겠지...... 이렇게 생각하면서, 창밖의 빗소리를 들으며 곯아떨어졌다……",
 			typewriter = {
 				speed = 0.05,
@@ -64,13 +64,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_main_day",
+			side = 2,
+			dir = 1,
 			say = "다음날 아침, 피해 상황을 확인하던 중——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "한 익숙한 그림자가 건너편 건물에서 걸어 나왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -141,9 +141,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "정말 그렇게 보일지도……? 생각하면서 걷다가, 나도 모르게 사쿠라 엠파이어 기숙사 구역까지 와버릴 줄이야……",
 			typewriter = {
 				speed = 0.05,
@@ -155,9 +155,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "놀라운 것은, 어젯밤의 폭풍을 겪고난 후에도, 눈앞의 기숙사 건물은 조금도 손상이 없었다. 유리창도 흠집조차 없었다.",
 			typewriter = {
 				speed = 0.05,
@@ -185,9 +185,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "…행운함은 이런 효과도 있는 건가? 그러고 보니, 유키카제도 아마 여기에 살지……",
 			typewriter = {
 				speed = 0.05,
@@ -199,11 +199,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "……어이! 지금 유키카제 생각했지!? 이 건물은 온전히 이 시구레 님의 가호 덕분에 무사할 수 있었던 거라고!",
 			typewriter = {
 				speed = 0.05,
@@ -215,8 +215,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -257,9 +257,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "시구레의 마음 속에 이상한 경쟁 욕구가 불타오른 것 같았다. 냅두자…",
 			typewriter = {
 				speed = 0.05,
@@ -287,9 +287,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "아직 모른다. 하지만 사쿠라 엠파이어 신사의 구조는 기숙사 건물처럼 튼튼하지 못하다…… 높은 확률로 피해가 발생했을 수 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -301,9 +301,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_main_day",
+			dir = 1,
 			say = "게다가 신사 주위에는 무성한 삼림이 있다. 삼림이 폭풍의 피해를 받았을 가능성도 아주 높다…… 가보는 게 좋겠다.",
 			typewriter = {
 				speed = 0.05,
@@ -315,11 +315,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_main_day",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "지휘관 같이 가고 싶으면 얼른 준비해. 시간은 기다려주지 않아!",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

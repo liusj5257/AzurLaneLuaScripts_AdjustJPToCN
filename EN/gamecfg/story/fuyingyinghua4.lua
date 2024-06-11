@@ -1,18 +1,18 @@
 return {
-	id = "FUYINGYINGHUA4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "nagato-boss",
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "As expected of the esteemed original First Carrier Division... I've been bested.",
-			bgm = "nagato-boss",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "Allow me once more to welcome you to the Diadem of Light. We are honored to have guests visiting us from afar.",
 			typewriter = {
 				speed = 0.05,
@@ -76,8 +76,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "I am grateful for your praise. However, as much as it shames me to admit, I still have many things to learn. I'm afraid I wouldn't be ready for such an important position...",
 			typewriter = {
 				speed = 0.05,
@@ -151,9 +151,9 @@ return {
 		{
 			expression = 3,
 			side = 1,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "It would be an honor. I shall work as hard as I can towards my goal of one day becoming a part of the Carrier Task Force!",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.25,
 					x = 20,
@@ -178,8 +178,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			say = "On another note... I was surprised to see you attend this exercise at all, Akagi. There shouldn't be any need for the Sakura Empire's de facto leader to attend...",
 			typewriter = {
 				speed = 0.05,
@@ -223,9 +223,9 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Akagi...",
 			typewriter = {
 				speed = 0.05,
@@ -237,8 +237,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -324,14 +324,14 @@ return {
 		{
 			expression = 4,
 			side = 1,
+			dir = 1,
 			actor = 306070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Thank you!",
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

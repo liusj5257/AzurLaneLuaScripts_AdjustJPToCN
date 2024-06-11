@@ -2,7 +2,7 @@ pg = pg or {}
 slot1 = class("IsometricMap")
 pg.IsometricMap = slot1
 
-function slot1.Ctor(slot0, slot1, slot2)
+slot1.Ctor = function(slot0, slot1, slot2)
 	slot0.sizeX = slot1
 	slot0.sizeY = slot2
 	slot0.depths = {}
@@ -14,15 +14,15 @@ function slot1.Ctor(slot0, slot1, slot2)
 	slot0:ResetDepth()
 end
 
-function slot1.SetAfterFunc(slot0, slot1)
+slot1.SetAfterFunc = function(slot0, slot1)
 	slot0.afterSortFunc = slot1
 end
 
-function slot1.GetDepth(slot0, slot1, slot2)
+slot1.GetDepth = function(slot0, slot1, slot2)
 	return slot0.depths[slot0:GetIndex(slot1, slot2)]
 end
 
-function slot1.InsertChar(slot0, slot1)
+slot1.InsertChar = function(slot0, slot1)
 	slot1:SetDepth(slot0:GetDepth(slot1.posX, slot1.posY))
 
 	for slot6, slot7 in ipairs(slot0.sortedItems) do
@@ -42,24 +42,24 @@ function slot1.InsertChar(slot0, slot1)
 	return slot3
 end
 
-function slot1.checkCharByIndex(slot0)
+slot1.checkCharByIndex = function(slot0)
 	for slot4 = 1, #slot0.sortedItems do
 		assert(slot0.sortedItems[math.min(slot4 + 1, #slot0.sortedItems)].posZ <= slot0.sortedItems[slot4].posZ, "舰娘插入队列位置错误")
 	end
 end
 
-function slot1.RemoveChar(slot0, slot1)
+slot1.RemoveChar = function(slot0, slot1)
 	table.removebyvalue(slot0.sortedItems, slot1)
 end
 
-function slot1.CreateItem(slot0, slot1, slot2, slot3)
+slot1.CreateItem = function(slot0, slot1, slot2, slot3)
 	return {
+		maxY = 0,
+		sortedFlag = true,
 		maxX = 0,
 		posY = 0,
-		sortedFlag = true,
-		maxY = 0,
-		posZ = 0,
 		posX = 0,
+		posZ = 0,
 		ob = slot3,
 		sizeX = slot1,
 		sizeY = slot2,
@@ -75,11 +75,11 @@ function slot1.CreateItem(slot0, slot1, slot2, slot3)
 	}
 end
 
-function slot1.GetIndex(slot0, slot1, slot2)
+slot1.GetIndex = function(slot0, slot1, slot2)
 	return (slot2 - 1) * slot0.sizeX + slot1
 end
 
-function slot1.ResetDepth(slot0)
+slot1.ResetDepth = function(slot0)
 	slot1 = slot0.depths
 
 	for slot5 = 1, slot0.sizeX do
@@ -89,7 +89,7 @@ function slot1.ResetDepth(slot0)
 	end
 end
 
-function slot1.AddDepth(slot0, slot1, slot2, slot3)
+slot1.AddDepth = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.depths
 
 	for slot8 = 1, slot1 do
@@ -100,7 +100,7 @@ function slot1.AddDepth(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.ModifyDepth(slot0, slot1)
+slot1.ModifyDepth = function(slot0, slot1)
 	slot2 = slot0.depths
 
 	if slot2[slot0:GetIndex(slot1.maxX, slot1.posY)] == slot2[slot0:GetIndex(slot1.posX, slot1.maxY)] then
@@ -128,7 +128,7 @@ function slot1.ModifyDepth(slot0, slot1)
 	end
 end
 
-function slot1.PlaceItem(slot0, slot1, slot2, slot3)
+slot1.PlaceItem = function(slot0, slot1, slot2, slot3)
 	slot3:SetPos(slot1, slot2)
 
 	slot4 = slot3.maxX
@@ -154,11 +154,11 @@ function slot1.PlaceItem(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot1.sortItemByDepth(slot0, slot1)
+slot1.sortItemByDepth = function(slot0, slot1)
 	return slot1.posZ < slot0.posZ
 end
 
-function slot1.SortAndCalcDepth(slot0)
+slot1.SortAndCalcDepth = function(slot0)
 	slot0.sortedItems = {}
 	slot0.sortedFlag = not slot0.sortedFlag
 
@@ -175,7 +175,7 @@ function slot1.SortAndCalcDepth(slot0)
 	table.sort(slot1, uv0.sortItemByDepth)
 end
 
-function slot1.AddItemAndDepend(slot0, slot1)
+slot1.AddItemAndDepend = function(slot0, slot1)
 	if slot1.sortedFlag == slot0.sortedFlag then
 		return
 	end
@@ -190,7 +190,7 @@ function slot1.AddItemAndDepend(slot0, slot1)
 	slot1.sortedFlag = slot0.sortedFlag
 end
 
-function slot1.RemoveItem(slot0, slot1)
+slot1.RemoveItem = function(slot0, slot1)
 	slot2 = slot1.posX
 	slot3 = slot1.posY
 	slot4 = slot1.maxX

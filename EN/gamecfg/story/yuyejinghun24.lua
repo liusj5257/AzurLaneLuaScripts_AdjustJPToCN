@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN24",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN24",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 502070,
 			side = 2,
+			actorName = "Hai Tien",
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "Hai Tien",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Roll a D100... 48. Success. It is unfortunately too dark to make out their identity.",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -81,9 +81,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You probably have skills you don't remember yet, and you start to think you might have a Stealth skill with expert-level proficiency.",
 			typewriter = {
@@ -96,9 +96,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Impromptu Replacement GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Contrary to your hopes, though, nothing happens after waiting for a few moments. Yes, it seems you don't have the chops to blend in with the darkness.",
 			typewriter = {
@@ -242,9 +242,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Hai Tien",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "You proudly unholster your firearm and go running towards the light.",
 			typewriter = {
@@ -257,9 +257,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Hai Tien",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Despite knowing how close the danger is to you now, you decide to quietly stay and watch what happens.",
 			typewriter = {
@@ -272,9 +272,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Hai Tien",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Then, the lantern shines right on you, and you're discovered.",
 			typewriter = {
@@ -285,11 +285,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_156",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "...What are you doing here, Investigator?",
 			typewriter = {
@@ -297,17 +297,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -315,11 +315,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			side = 2,
+			actor = 9600010,
 			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Whydah had a hunch you wouldn't find the study on your own, so she asked me to show you there.",
@@ -333,9 +333,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Then the lights went out, so I had to turn around to get a lantern, and that took ages.",
 			typewriter = {
@@ -344,11 +344,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			side = 2,
+			actor = 9600010,
 			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Judging by how lost you look... Seems she made the right call. Follow me, the study's just around the corner.",
@@ -382,11 +382,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			side = 2,
+			actor = 9600010,
 			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Why are you staring at me? Is there something on my face?",
@@ -400,9 +400,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "...Are you thinking about my friendlier tone?",
 			typewriter = {
@@ -415,9 +415,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Well... You know... That's because I thought you were just a fraud posing as an investigator.",
 			typewriter = {
@@ -426,11 +426,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			side = 2,
+			actor = 9600010,
 			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "That is, until Whydah told me about you.",
@@ -444,9 +444,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "I still don't like you, but she trusts you, so I trust you, too.",
 			typewriter = {
@@ -455,11 +455,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			side = 2,
+			actor = 9600010,
 			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Whydah is smart, and I have faith in her judgement. Please, Investigator... solve this case and save us.",
@@ -483,13 +483,13 @@ return {
 			}
 		},
 		{
-			actorName = "Royal Fortune",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
 			optionFlag = 1,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Thank you~",
 			typewriter = {
@@ -502,10 +502,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
+			nameColor = "#A9F548FF",
 			optionFlag = 3,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Heh. Right, you're running a business, after all.",
 			typewriter = {
@@ -514,13 +514,13 @@ return {
 			}
 		},
 		{
-			actorName = "Royal Fortune",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
 			optionFlag = 3,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Don't worry, you'll be paid handsomely for any work on top of what you were hired for.",
 			typewriter = {
@@ -561,9 +561,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			actorName = "Royal Fortune",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Crap! We'd better hurry. That's probably Golden Hind and Galley, and we do NOT wanna bump into them.",
 			typewriter = {
@@ -624,13 +624,13 @@ return {
 			}
 		},
 		{
-			actorName = "Royal Fortune",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
 			optionFlag = 1,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "No, Investigator! I know you're desperate, but you will NOT pull a gun on Golden Hind!",
 			typewriter = {
@@ -643,9 +643,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Hai Tien",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Her tone is serious, with a hint of \"I will kill you if you do.\"",
 			typewriter = {
@@ -791,11 +791,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "Castle Maid",
-			side = 2,
+			actor = 9600010,
 			actorName = "Royal Fortune",
 			hidePaintObj = true,
 			say = "Let's run for it! Now!",
@@ -819,8 +819,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

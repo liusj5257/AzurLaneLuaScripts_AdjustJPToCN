@@ -1,15 +1,15 @@
 return {
-	id = "W2106",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2106",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "スキャンが完了しました。エリアの確保がされました。戦利品の回収を行ってください",
 			typewriter = {
 				speed = 0.05,

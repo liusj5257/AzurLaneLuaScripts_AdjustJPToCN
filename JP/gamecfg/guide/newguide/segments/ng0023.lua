@@ -11,31 +11,37 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -308.7,
 				posX = 199.3,
 				text = slot0[1]
 			},
 			ui = {
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/bottom/technologyButton",
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/bottom/frame/tech"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/bottom/technologyButton"
+					end
+				end,
 				triggerType = {
 					1
 				},
 				fingerPos = {
-					posX = 98.8,
+					rotateY = 0,
 					posY = -32.1,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 98.8
 				}
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = 0,
 				posX = 286.9,
 				text = slot0[2]
@@ -46,11 +52,11 @@ return {
 					1
 				},
 				fingerPos = {
-					posX = 93.07,
+					rotateY = 0,
 					posY = -50.43,
 					rotateX = 0,
 					rotateZ = 0,
-					rotateY = 0
+					posX = 93.07
 				}
 			}
 		},
@@ -58,8 +64,8 @@ return {
 			alpha = 0.4,
 			waitScene = "MetaCharacterScene",
 			style = {
-				dir = 1,
 				mode = 1,
+				dir = 1,
 				posY = -236.99,
 				posX = -419.8,
 				text = slot0[3]
@@ -68,8 +74,8 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				dir = 1,
 				mode = 2,
+				dir = 1,
 				posY = -236.99,
 				posX = -419.8,
 				text = slot0[4],

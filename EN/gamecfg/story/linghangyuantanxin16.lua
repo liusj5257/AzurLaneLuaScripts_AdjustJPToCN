@@ -8,13 +8,13 @@ return {
 	},
 	scripts = {
 		{
-			tbActor = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
 			bgm = "qe-ova-12",
+			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "{tb}, is there anything else I can do for you? Like give you a shoulder massage, or something.",
 			typewriter = {
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -52,14 +52,14 @@ return {
 			}
 		},
 		{
-			actor = 1101,
 			nameColor = "#A9F548FF",
-			bgName = "bg_project_tb_room3",
-			hidePaintObj = true,
-			actorName = "TB",
 			side = 2,
-			say = "Yes, but those are things I was meant to do anyway. So, if you don't need a shoulder rub, how about...",
+			bgName = "bg_project_tb_room3",
 			tbActor = true,
+			actor = 1101,
+			actorName = "TB",
+			hidePaintObj = true,
+			say = "Yes, but those are things I was meant to do anyway. So, if you don't need a shoulder rub, how about...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,10 +69,10 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "I know! Why don't I make dinner? Although, we don't have many ingredients... I'll fry some eggs for the extra nutrition!",
 			typewriter = {
@@ -96,10 +96,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "Is it? But...",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "The memory of when she tried it still burns bright in my mind.",
@@ -134,10 +134,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "Hmph. Then after dinner's over, I won't speak to you until tomorrow.",
 			typewriter = {
@@ -149,10 +149,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_project_tb_room3",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			hidePaintObj = true,
 			say = "(I'm not a kid anymore. I can fry an egg just fine...)",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			say = "Sure enough, she didn't say a word to me after we ate dinner. Kids her age... So hard to work with.",

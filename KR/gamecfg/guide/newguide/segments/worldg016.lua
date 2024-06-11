@@ -34,8 +34,8 @@ return {
 			style = {
 				text = "대상을 길게 눌러 분석 모듈 전환 가능",
 				mode = 2,
-				posY = -320,
 				dir = -1,
+				posY = -320,
 				posX = 9.1
 			},
 			showSign = {
@@ -89,8 +89,8 @@ return {
 			style = {
 				text = "분석기 모듈에서 전투 대상 또는 조사 포인트의 정보 확인 가능.",
 				mode = 2,
-				posY = -200,
 				dir = 1,
+				posY = -200,
 				posX = 357
 			},
 			showSign = {

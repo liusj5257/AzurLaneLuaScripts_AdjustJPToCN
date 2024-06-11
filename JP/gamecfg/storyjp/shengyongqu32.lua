@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU32",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU32",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "そろそろ私もロイヤルに戻るわ！みんな解散！",
 			bgm = "bsm-7",
+			nameColor = "#a9f548",
+			say = "そろそろ私もロイヤルに戻るわ！みんな解散！",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 900198,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#a9f548",
 			say = "会議がこうも長く続くと疲れますわね…サディアに戻って次の準備をしますわ",
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "ビスマルクさん、くれぐれも技術供与協定の内容の確認を頼みます",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "任せて頂戴。枢機卿殿が心配していることなら承知しているわ",
 			typewriter = {
@@ -109,8 +109,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "鉄血が研究を進めているセイレーン技術…あれは一体どういうものかしら",
 			typewriter = {
@@ -139,17 +139,17 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
-			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 2,
-			say = "リシュリュー！何ぼーっとしているのよ！",
+			bgName = "bg_guild_blue",
 			bgm = "hunhe-story",
+			actor = 205010,
+			nameColor = "#a9f548",
+			say = "リシュリュー！何ぼーっとしているのよ！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -183,8 +183,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "すみません陛下、少し昔のことを思い出しまして",
 			typewriter = {
@@ -341,11 +341,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "カタパルト作戦のことよ！",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -383,11 +383,11 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "ベルもウォースパイトも止めなかったし、フッドやジョージもあれが最善解だと言ったけど…本当は、その、みんなは……",
 			typewriter = {
 				speed = 0.05,
@@ -399,8 +399,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -412,8 +412,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "気持ちは察しております。陛下",
 			typewriter = {
@@ -442,12 +442,12 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			side = 2,
 			bgName = "bg_guild_blue",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 205010,
+			nameColor = "#a9f548",
 			say = "あなたも、頑張ってきなさいよね！",
 			typewriter = {
 				speed = 0.05,

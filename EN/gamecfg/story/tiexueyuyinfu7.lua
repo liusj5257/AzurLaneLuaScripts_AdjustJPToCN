@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU7",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bsm-3",
 			dir = 1,
 			say = "Direct hit on Bismarck confirmed! ... Hold on, it didn't have any effect on her speed!",
+			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,8 +60,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "(... If she can maintain her speed in spite of her injuries, she must be a terribly powerful battleship.)",
 			typewriter = {
 				speed = 0.05,
@@ -91,8 +91,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "(We must slow her down through any means necessary...!)",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "So, all of the Royal Navy's most capable ships are in pursuit.",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "The Royal Family's honour hinges upon us. We shall sink Bismarck!",
 			typewriter = {
 				speed = 0.05,

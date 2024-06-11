@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA23",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 701070,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "指揮官、こっちに！資料は全部回収したから早く撤退して！",
 			bgm = "bgm-cccp3",
+			actor = 701070,
+			nameColor = "#a9f548",
+			say = "指揮官、こっちに！資料は全部回収したから早く撤退して！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,8 +33,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "………指揮官が勇敢なのか馬鹿なのか分からなくなってきた",
 			typewriter = {
@@ -66,8 +66,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "ベラルーシアたちは迎撃に出て、指揮官とグレミャーシュチはここで発見した資料を回収しているとこ",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "………覚えてる？",
 			typewriter = {
@@ -99,9 +99,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "bg_cccpv2_9",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
+			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			say = "脱出路が見つかっていない状態でまた包囲されるとは！これは間違いなくピンチだな！",
 			flashout = {
@@ -138,8 +138,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "どうする？ここにずっと留まっていてはやられるだけよ",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "それともここに入ってきたところとは反対側の方向へ進んでみるか？",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "早く脱出したほうがいいのでは…？",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "こんな狭い空間で乱戦になったら指揮官を守り切れる自信はない。せめて量産艦を呼び出せる安全区域を作り出すまでは敵の数を減らないと",
 			typewriter = {
@@ -244,8 +244,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "私が出る！グレミャーシュチ、同志指揮官と資料を回収してから、こっちから脱出するぞ！",
 			typewriter = {
@@ -260,9 +260,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_cccpv2_9",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
+			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			say = "思い出した？",
 			flashout = {
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "「ついさっきまで自分はホールで資料を集めていた」という記憶は確かにあった。",
@@ -311,11 +311,11 @@ return {
 			}
 		},
 		{
-			actor = 701070,
 			nameColor = "#a9f548",
-			bgName = "bg_cccpv2_9",
 			side = 2,
+			bgName = "bg_cccpv2_9",
 			dir = 1,
+			actor = 701070,
 			stopbgm = true,
 			say = "ベラルーシアの合図があったよ。指揮官、はやく――",
 			typewriter = {
@@ -334,12 +334,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_7",
-			bgm = "bsm-2",
-			dir = 1,
 			say = "資料を抱えながらホールから出ようとしたグレミャーシュチも、外から伝わってくる砲火の明かりも、まるで最初からそこになかったかのように消えた。",
+			dir = 1,
+			bgm = "bsm-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,8 +350,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "それと同時に、ホールの奥にあるモニターが光り出し――そこに映し出されたのは、異型の敵と戦う北方連合の艦船たちの姿だった。",
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "少女たちを襲ってくる黒鉄の巨獣は、スクリーン越しではその姿がぼやけておりはっきりとは見えない。",
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "当の北方連合の艦船たちの姿もよく見えないが、馴染みがない輪郭からベラルーシアとキーロフたちではないことだけが分かった。",
@@ -395,8 +395,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "ベラルーシアたちは大丈夫か……！？",
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "応答なし。",
@@ -447,8 +447,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			blackBg = true,

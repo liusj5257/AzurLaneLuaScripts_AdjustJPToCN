@@ -1,15 +1,15 @@
 return {
-	id = "WORLD105A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD105A",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "story-richang",
 			say = "엔터프라이즈, 볼티모어, 노스캐롤라이나... 버뮤다 해역을 공략하는 함대는 익숙한 느낌을 준다.",
+			side = 2,
+			dir = 1,
+			bgm = "story-richang",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,8 +50,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,17 +1,17 @@
 return {
-	id = "LINKPREHEAT16-1",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT16-1",
+	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
-			say = "アハハハハハッ！やってくれるわね！それに別世界から招いたお客さん！この私がここまで追い込まれるなんてさぁ！",
 			bgm = "battle-boss-uta",
+			actor = 900021,
+			actorName = "ピュリファイアー",
+			say = "アハハハハハッ！やってくれるわね！それに別世界から招いたお客さん！この私がここまで追い込まれるなんてさぁ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +55,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "そうです……あの方とともに、厳しい戦いを生き抜いてきました！",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "いいじゃない素敵じゃない！そうやってドンドン強くなってよ！その方が、私たちもやり甲斐があってやる気が出るからさぁ！",
 			typewriter = {
 				speed = 0.05,
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "御託はそこまで──",
 			typewriter = {
 				speed = 0.05,
@@ -132,10 +132,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "あなた自身、もう戦闘ができる状態にはありません。それに……ご覧ください",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "あなた自身、もう戦闘ができる状態にはありません。それに……ご覧ください",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -168,8 +168,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "なにを言って……ハッ！鏡面海域が消えかかってる！？",
 			typewriter = {
 				speed = 0.05,
@@ -214,8 +214,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "ちぃぃっ！一人だけ派手に暴れてるなぁと思ったら……一杯食わされたわ！",
 			typewriter = {
 				speed = 0.05,
@@ -230,8 +230,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "……ま、いいか。データは回収できたし",
 			typewriter = {
 				speed = 0.05,
@@ -246,8 +246,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "今回の勝ちはあんたたちに譲ってあげる！また遊び場を作ってあげるから、楽しみに待ってなさい！あっははははははははは……",
 			typewriter = {
 				speed = 0.05,

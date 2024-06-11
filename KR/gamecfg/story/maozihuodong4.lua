@@ -1,17 +1,17 @@
 return {
-	id = "MAOZIHUODONG4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "MAOZIHUODONG4",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 105140,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-4",
 			dir = 1,
 			say = "…너무 조용해. SK-2 레이더에도 아무것도 잡히지 않았어… 적이 앞에 있는 것을 알고 있는데, 이렇게 조용한 전장이라니 소름이 돋는걸.",
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "아직 안전 거리에 있으니까 그런 거야.",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "우와… 주변에 있는 세이렌 함대도 전부 잠든 것 같아. 정찰기가 위를 날아가도 반응이 없네…",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "헤헤. 이렇다면… 함재기로 직접 초 원거리 공격을 해도 되는 거 아닌가?",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			say = "호넷, 굿 잡! 역시 행동으로 해보는 게 좋지. 간다, 새러 폭격기!",
 			typewriter = {
 				speed = 0.05,
@@ -101,10 +101,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
-			soundeffect = "event:/bbattle/plane",
 			say = "새러토가의 명령에 맞춰 폭격기가 즉시 적을 향해 날아가기 시작했다.",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/bbattle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,8 +115,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "전투기의 호위 없이 잠들어있는 세이렌 함대 위를 날아간 폭격기는 포탄을 투하했다!",
 			typewriter = {
 				speed = 0.05,
@@ -130,9 +130,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "후후후, 됐다!",
 			typewriter = {
 				speed = 0.05,
@@ -144,8 +144,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -154,8 +154,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "새러토가가 환호성을 지르던 그 때, 요새의 방어 시스템이 갑자기 활성화 되었다. 투하된 포탄은 공중에 나타는 실드에 막혔고, 폭격기 편대는 대공포에 의해 전부 추락해버렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -169,9 +169,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 107030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "에…뭐?! 뭐라고!?",
 			typewriter = {
 				speed = 0.05,
@@ -183,8 +183,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -226,8 +226,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			say = "모두 주의해. 이제 곧 세이렌 요새의 경계 범위에 들어갈 거야!",
 			typewriter = {
 				speed = 0.05,

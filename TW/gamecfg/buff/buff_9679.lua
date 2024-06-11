@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 1,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 9679,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9679,
+	color = "yellow",
 	icon = 9679,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "aimBiasDecaySpeedRatio",
-				number = -0.25
+				number = -0.25,
+				attr = "aimBiasDecaySpeedRatio"
 			}
 		}
 	}

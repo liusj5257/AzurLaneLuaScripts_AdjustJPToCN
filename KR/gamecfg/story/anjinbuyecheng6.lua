@@ -4,19 +4,19 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
-			say = "불야성, ???, '여왕'의 본부 빌딩",
 			bgm = "story-antarctica-serious",
+			say = "불야성, ???, '여왕'의 본부 빌딩",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			say = "과묵한 연락책의 안내로 어느 멋드러진 빌딩 앞까지 왔다.",
 			typewriter = {
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			say = "유명한 마피아의 본거지가 도시에서 가장 번화한 곳에 있다는 점에 깜짝 놀랐지만, 잠자코 '여왕'과의 알현을 기다리기로 했다.",
 			typewriter = {
@@ -35,8 +35,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_161",
 			say = "하지만……",
 			typewriter = {
@@ -69,11 +69,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_161",
 			factiontag = "'아티스트'",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "뭐라고?",
 			painting = {
@@ -86,11 +86,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_161",
 			factiontag = "'아티스트'",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "말한 거랑 다르잖아!",
 			painting = {
@@ -115,11 +115,11 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			side = 2,
 			bgName = "star_level_bg_161",
 			factiontag = "'아티스트'",
 			dir = 1,
+			actor = 701121,
 			nameColor = "#A9F548FF",
 			say = "뭐?! 지금 싸우자는 거야?!",
 			painting = {
@@ -166,8 +166,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
 			say = "드디어 여왕의 사무실에 도착했다.",
 			typewriter = {
@@ -175,17 +175,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
 			say = "문을 열자 그 순간, 여왕과 시선이 마주쳐 나도 모르게 움찔했다.",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
 			say = "마치 계속 잠들어 있던 기억이 되살아나는 것처럼, 자연스레 그 이름이 머리에 떠올랐다.",
 			typewriter = {
@@ -219,11 +219,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "마피아 여왕",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "아주 좋아, 설마 기억하고 있을 줄이야.",
 			painting = {
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "마피아 여왕",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "예전 그 품격도 여전하고… 정말 터프가이라니까. 보안국의 지휘관님.",
 			painting = {
@@ -319,11 +319,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "마피아 여왕",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "게다가…… 우리에게는 더 큰 위업이 기다리고 있다는 거 알지?",
 			painting = {
@@ -348,11 +348,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "마피아 여왕",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "그래, 우리.",
 			painting = {
@@ -411,11 +411,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "마피아 여왕",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "후후후♪ '그분'을 습격할 만한 힘을 가지고 있는 건 '레지스탕스'뿐만이 아니거든.",
 			painting = {
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "마피아 여왕",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "글쎄? 어떨까?",
 			painting = {
@@ -529,11 +529,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "마피아 여왕",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "당신은 '빛'의 리더로, 나는 '어둠'의 여왕으로 군림하는 거지. 어때? 멋지지 않아?",
 			painting = {
@@ -570,11 +570,11 @@ return {
 			}
 		},
 		{
-			actor = 705081,
 			side = 2,
 			bgName = "star_level_bg_146",
 			factiontag = "마피아 여왕",
 			dir = 1,
+			actor = 705081,
 			nameColor = "#FEF15E",
 			say = "…그러니까 우리가 권력의 균형을 맞추면, '만쥬 타워'도 쓰러지지 않고 끝나.",
 			painting = {
@@ -689,9 +689,9 @@ return {
 			}
 		},
 		{
-			actorName = "?????",
 			side = 2,
 			bgName = "star_level_bg_146",
+			actorName = "?????",
 			nameColor = "#A9F548FF",
 			say = "지휘관 동지, 엎드리십시오…!",
 			typewriter = {
@@ -699,17 +699,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -722,11 +722,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
-			say = "총성이 빽빽하게 울려 퍼지면서 폴타바의 옥좌 뒤 유리창은 순식간에 총탄으로 구멍투성이가 되었다.",
 			soundeffect = "event:/battle/boom2",
+			say = "총성이 빽빽하게 울려 퍼지면서 폴타바의 옥좌 뒤 유리창은 순식간에 총탄으로 구멍투성이가 되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,8 +772,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_146",
 			say = "그리고 다음 순간, 섬광탄이 방안에 던져졌다.",
 			typewriter = {
@@ -794,8 +794,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "몸이 밧줄로 묶인 채로 큰 힘에 의해 당겨졌다.",
 			typewriter = {
@@ -803,17 +803,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -821,8 +821,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			say = "새하얀 시야 속… 몸이 마치 무중력 공간에 던져진 느낌이 들었다.",
 			typewriter = {

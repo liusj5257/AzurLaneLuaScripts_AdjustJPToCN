@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANHUIDIANZUOZHAN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANHUIDIANZUOZHAN14",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_yuanhuidian",
+			nameColor = "#A9F548FF",
+			bgm = "story-6",
 			stopbgm = true,
 			say = "施設基地の真下にある最後のエリアの争奪戦は、戦う前から結果が分かっていた。",
-			bgm = "story-6",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -36,8 +36,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "それでも双方は全力を尽くし、ブリュッヒャーとZ16は「工房」から「駒」をすべて動員して必死の防衛戦を繰り広げた。",
 			typewriter = {
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yuanhuidian",
 			say = "長きにわたる戦闘の後、施設基地にある「的」が破壊されたことで、実験作戦はブリュッヒャーたちの敗北で終了した。",
 			typewriter = {

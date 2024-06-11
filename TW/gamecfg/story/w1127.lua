@@ -1,12 +1,12 @@
 return {
-	id = "W1127",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1127",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "也許是因為能源耗盡，塞壬增援裝置停止運行了……",
 			typewriter = {
 				speed = 0.05,

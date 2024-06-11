@@ -1,18 +1,18 @@
 return {
-	id = "WEICENGHUNHE7",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
+			bgm = "hunhe-battle",
 			actor = 101440,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "One point to Cooper, zero to the Sirens!",
-			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "\"Intrepid copies. I see Bunker Hill is looking for Enterprise as well.\"",
 			typewriter = {
 				speed = 0.05,
@@ -72,8 +72,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107110,
 			dir = 1,
+			actor = 107110,
 			say = "I already checked with the stronghold's intel. Doesn't seem like Enterprise went through the canal at any point.",
 			typewriter = {
 				speed = 0.05,
@@ -102,15 +102,15 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 101440,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "My deductions might be a bit rough, but... Wait, huh? What is this fog...",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -133,9 +133,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			nameColor = "#a9f548",
 			side = 2,
+			dir = 1,
 			say = "Suddenly, the sea became blanketed in a white mist.",
 			typewriter = {
 				speed = 0.05,
@@ -164,9 +164,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Huh? How'd the fog spread here so quickly?",
 			dialogShake = {
 				speed = 0.09,

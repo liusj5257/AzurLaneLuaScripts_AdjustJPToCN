@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHIHUIMIAO3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHIHUIMIAO3",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -22,10 +22,10 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "We're all done, nya! Get ready to meet your first Meowfficer friend, nya!",
 			flashout = {
 				dur = 1,

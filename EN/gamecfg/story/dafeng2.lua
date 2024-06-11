@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAFENG2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAFENG2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Taihou, Body and Soul\n\n<size=45>Chapter 2: A Secretary Ship's Duty (?) - Part 2</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "... A thick, pungent, and powerfully sweet smell hung heavy in the air.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			actorName = "？？？",
+			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
 			blackBg = true,
@@ -56,12 +56,12 @@ return {
 			}
 		},
 		{
-			actor = 307070,
-			side = 2,
-			dir = 1,
-			nameColor = "#a9f548",
 			withoutActorName = true,
+			side = 2,
+			nameColor = "#a9f548",
+			dir = 1,
 			blackBg = true,
+			actor = 307070,
 			say = "... Delightful...",
 			flashN = {
 				color = {
@@ -105,17 +105,17 @@ return {
 			}
 		},
 		{
-			actor = 307070,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "Good morning, my Commander~ I was just panicking about how to properly wake you.",
 			bgm = "story-1",
+			actor = 307070,
+			nameColor = "#a9f548",
+			say = "Good morning, my Commander~ I was just panicking about how to properly wake you.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -140,11 +140,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Quickly taking in my surroundings, I was sure I was in my own quarters.",
 			typewriter = {
@@ -173,9 +173,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "I wasn't sure how Taihou had gotten into my room, but I decided to deal with it after brushing my teeth.",
 			typewriter = {
 				speed = 0.05,
@@ -185,14 +185,14 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_room",
 			actor = 307070,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "You're having a Sakura-style breakfast this morning, my Commander. I hope you enjoy it~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -217,11 +217,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "Taihou looked at me with anticipation. She really wanted me to taste her cooking.",
 			typewriter = {
@@ -259,8 +259,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "By the way, I went ahead and cleaned up for you while you were sleeping, my Commander.",
 			typewriter = {
@@ -275,10 +275,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 307070,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 307070,
+			nameColor = "#a9f548",
 			say = "(Whispering) Too bad I didn't find anything good...",
 			typewriter = {
 				speed = 0.05,
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 307070,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
 			withoutActorName = true,
-			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "I thought I heard Taihou say something.",
 			typewriter = {
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "It's obvious, isn't it? You always lock your door, so I copied the key.",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 307070,
 			dir = 1,
+			actor = 307070,
 			nameColor = "#a9f548",
 			say = "That is what a secretary ship's should do, after all.",
 			typewriter = {

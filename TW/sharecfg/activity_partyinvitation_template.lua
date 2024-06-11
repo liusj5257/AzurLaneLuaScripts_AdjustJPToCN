@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.activity_partyinvitation_template = {
 	{
-		groupid = 10706,
-		ungift = "指揮官，今天的宴會真是熱鬧。\n好像很久沒有和指揮官這樣獨處了呢。\n要送我禮物嗎，會是什麼呢，我很期待。",
 		skinId = 107065,
+		groupid = 10706,
 		getletter_story = "YUANWEIFANGXINMIMANSHI2",
 		getgift = "……好漂亮的胸針！這個形像是……雛鷹？\n比起原本凌厲勇猛的形象，這個胸針的造型，很柔和呢。\n謝謝你，指揮官。我會好好珍惜它的。",
+		ungift = "指揮官，今天的宴會真是熱鬧。\n好像很久沒有和指揮官這樣獨處了呢。\n要送我禮物嗎，會是什麼呢，我很期待。",
 		getgift_story = "YUANWEIFANGXINMIMANSHI10",
 		getletter = "邀請函我收下了。\n我會準時赴約，事不宜遲，現在就開始準備吧。\n讓我們在宴會上再會。",
 		id = 1,
@@ -38,11 +38,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 10709,
-		ungift = "指揮官，你怎麼這麼神神秘秘的，你的禮服怎麼鼓起來了？\n裡面該不會是……我一直想要的那個……\n開玩笑的啦，哪有這麼巧的事~",
 		skinId = 107092,
+		groupid = 10709,
 		getletter_story = "YUANWEIFANGXINMIMANSHI3",
 		getgift = "啊！！！居然真的是我一直想要的機車模型！ \n指揮官，你一定是超能力者吧！！\n謝謝你，我現在太開心了。我能現在就拆開禮物嗎？",
+		ungift = "指揮官，你怎麼這麼神神秘秘的，你的禮服怎麼鼓起來了？\n裡面該不會是……我一直想要的那個……\n開玩笑的啦，哪有這麼巧的事~",
 		getgift_story = "YUANWEIFANGXINMIMANSHI11",
 		getletter = "這是……邀請函？哦哦，是那個重要的日子啊！ \n指揮官和大家都會去？\n太好了，我開始期待起來了。",
 		id = 2,
@@ -75,11 +75,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 30510,
-		ungift = "怎麼了？指揮官？\n把我單獨叫出來，是有什麼事要找我嗎？\n呵呵~在我面前你無需多慮~",
 		skinId = 305101,
+		groupid = 30510,
 		getletter_story = "YUANWEIFANGXINMIMANSHI4",
 		getgift = "好精緻的機巧音樂盒，聲音是那麼動聽悅耳。\n真是非常有品味的禮物啊。\n我就心懷感激的收下了，嗯~要怎麼回報你才好呢？呵呵~",
+		ungift = "怎麼了？指揮官？\n把我單獨叫出來，是有什麼事要找我嗎？\n呵呵~在我面前你無需多慮~",
 		getgift_story = "YUANWEIFANGXINMIMANSHI12",
 		getletter = "此封邀請函，我鄭重地收下了。\n稍後就去安排人員進行赴宴的準備。\n茶點已經送達了，還請你不要拘禮，一同享用吧。",
 		id = 3,
@@ -112,11 +112,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 90501,
-		ungift = "希望我們今天有招待好你。\n……嗯？送我的禮物？\n專門為我挑選的？是、是嗎？",
 		skinId = 905011,
+		groupid = 90501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI5",
 		getgift = "這是……指南針？讓我想起了一些值得懷念的日子呢。\n我很喜歡這份禮物，謝謝……謝謝。\n我也得想辦法回禮才是，唔……",
+		ungift = "希望我們今天有招待好你。\n……嗯？送我的禮物？\n專門為我挑選的？是、是嗎？",
 		getgift_story = "YUANWEIFANGXINMIMANSHI13",
 		getletter = "邀請函我姑且收下了，然後就是出席宴會的準備啊……\n宴會的裝扮啊……確實要好好思考一下。\n總之，我們宴會上再會吧，指揮官。",
 		id = 4,
@@ -149,11 +149,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 70201,
-		ungift = "今天真是愉快的一天啊~\n指揮官，您在翻找什麼？\n送給我的禮物？是什麼呢？我很期待！",
 		skinId = 702010,
+		groupid = 70201,
 		getletter_story = "YUANWEIFANGXINMIMANSHI6",
 		getgift = "啊，是小熊！這也太可愛了吧！ \n謝謝您，我會好好珍惜它的。我可沒喝醉哦！ \n嘿嘿，小熊啊小熊，可愛的小熊~",
+		ungift = "今天真是愉快的一天啊~\n指揮官，您在翻找什麼？\n送給我的禮物？是什麼呢？我很期待！",
 		getgift_story = "YUANWEIFANGXINMIMANSHI14",
 		getletter = "噢，原來是宴會的邀請函啊，我收下了。\n指揮官當然也會出席的對嗎？\n太好了，我已經開始期待指揮官的舞姿了。",
 		id = 5,
@@ -186,11 +186,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 20501,
-		ungift = "神神秘秘的，看來你是準備了什麼禮物吧。\n當然很容易就看穿啦，每天想送本王禮物的人都排到十里外了呢。\n不過，因為僕從的禮物，我會……多少更期待一點。",
 		skinId = 205011,
+		groupid = 20501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI8",
 		getgift = "哇，水晶手杖，僕從送的……嘿嘿……\n雖然本王已經有很多根手杖了，多到需要一個專門的房間來陳列。\n不過僕從送的這根，就把它擺在最顯眼的位置吧~",
+		ungift = "神神秘秘的，看來你是準備了什麼禮物吧。\n當然很容易就看穿啦，每天想送本王禮物的人都排到十里外了呢。\n不過，因為僕從的禮物，我會……多少更期待一點。",
 		getgift_story = "YUANWEIFANGXINMIMANSHI16",
 		getletter = "這件事，本王知道了。\n貝法，妳去安排女僕隊開始準備吧。\n啊！僕從，不要這麼急著走，再……多待一下子也不是不行……",
 		id = 6,
@@ -223,11 +223,11 @@ pg.activity_partyinvitation_template = {
 		}
 	},
 	{
-		groupid = 40501,
-		ungift = "謝謝你的陪伴，讓我能夠享受今天的宴會。\n你還準備了禮物？這真是……\n給今天這個完美的一天畫上句點了啊，呵呵。",
 		skinId = 405011,
+		groupid = 40501,
 		getletter_story = "YUANWEIFANGXINMIMANSHI7",
 		getgift = "是唱片啊，曲單上的曲子，是你專門挑選的吧？\n這些……都是我喜歡的曲子。\n謝謝你，以後我播放這張唱片的時候，都會想起你。",
+		ungift = "謝謝你的陪伴，讓我能夠享受今天的宴會。\n你還準備了禮物？這真是……\n給今天這個完美的一天畫上句點了啊，呵呵。",
 		getgift_story = "YUANWEIFANGXINMIMANSHI15",
 		getletter = "邀請函我收下了，也要開始赴宴的準備了。\n最近要考慮的事情有點多，需要稍微理一下思路。\n指揮官，期待與你在宴會上再見。",
 		id = 7,

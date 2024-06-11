@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA9",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA9",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 101020,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "패러것급 구축함 듀이, 도착했습니다.",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101400,
 			dir = 1,
+			actor = 101400,
 			say = "같은 패러것급 구축함 아일윈, 도착했습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -61,8 +61,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 101020,
 			dir = 1,
+			actor = 101020,
 			say = "네…빅토리어스 씨",
 			typewriter = {
 				speed = 0.05,
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101400,
 			dir = 1,
+			actor = 101400,
 			say = "하지만 갈 데가 없었어요, 뉴욕항은 이미 완전히 포위되어 바다 위는 전부 세이렌 함대였어요…",
 			typewriter = {
 				speed = 0.05,
@@ -133,8 +133,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101400,
 			dir = 1,
+			actor = 101400,
 			say = "저희로썬 도저히..",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -161,9 +161,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 101020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "하, 하지만, 지휘관이 왔으니까, 분명 무슨 방법이 있을 거에요…그렇죠!",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -194,8 +194,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "걱정마, 후방은 우리에게 맡겨!",
 			typewriter = {
 				speed = 0.05,
@@ -224,9 +224,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			actor = 101020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "마, 맞다! 버밍햄과 쥬노가 아직 함대를 이끌고 퓨리파이어를 막고 있어요，",
 			typewriter = {
 				speed = 0.05,
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -251,8 +251,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101020,
 			dir = 1,
+			actor = 101020,
 			say = "지휘관께서 어서 구해주세요!",
 			typewriter = {
 				speed = 0.05,

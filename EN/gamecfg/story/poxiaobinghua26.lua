@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA26",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "POXIAOBINGHUA26",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "KABOOOM!",
 			bgm = "bgm-cccp",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			nameColor = "#a9f548",
+			say = "KABOOOM!",
 			flashN = {
 				color = {
 					1,
@@ -64,8 +64,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Damn... My second turret's been disabled! How's the rest of the fleet?!",
 			typewriter = {
@@ -81,8 +81,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "Gremyashchy and Gromky are still resting... And we're about to run out of ammo.",
 			typewriter = {
@@ -98,8 +98,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "Murmansk and I have suffered varying degrees of damage, but we're still able to fight.",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "We'll have to make do without. I didn't expect to make it this far in, so I didn't bring as many mass-produced ships as I could have.",
 			typewriter = {
@@ -148,8 +148,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "We can't keep this up forever. How are we supposed to maintain our defenses while also holding the evacuation point?",
 			typewriter = {
@@ -165,8 +165,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "Damn, I can't believe the Sirens got the best of us... I thought it was impossible for there to be enemies like these still hidden after all the surveying we did!",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "This is a terrible failure on our part, but we shall assume full responsibility. Even should we all fall, Comrade Commander must not be lost here!",
 			typewriter = {
@@ -199,8 +199,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Kirov, Tallinn, Gremyashchy, take the Commander aboard the icebreaker and make for the exit. Everyone else, we make our stand here!",
 			typewriter = {
@@ -216,8 +216,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "Sorry, Belorussiya, but I don't intend to sink without seeing what's on the other side of that iceberg!",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "We might have a better shot if we all stick together and press forward. What's your opinion, Comrade?",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "...I know you don't like making sacrifices, but the world cannot afford to lose you here.",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_10",
 			dir = 1,
 			say = "If this is actually a \"Reenactment,\" then there is no escape route anyway.",
@@ -288,8 +288,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Reenactment? How were you able to come to that conclusion, Comrade?",
 			typewriter = {
@@ -302,8 +302,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_10",
 			dir = 1,
 			say = "Reality is a harsh mistress. I've already tried lining up the map to the information we recorded before, and I'm not seeing an exit.",
@@ -320,8 +320,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "I see... As much as I don't believe in giving up, I don't think I have the strength anymore to search for the control device for this Mirror Sea...",
 			typewriter = {
@@ -334,8 +334,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -347,8 +347,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "I'm sorry, Comrade. This might be it for us...",
 			typewriter = {
@@ -371,9 +371,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_cccpv2_7",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "Is there any way to leave this facility then?",
 			effects = {
@@ -410,8 +410,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_7",
 			dir = 1,
 			say = "There... isn't...?",
@@ -443,9 +443,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_cccpv2_10",
+			nameColor = "#a9f548",
 			dir = 1,
 			say = "The lights of the city are gradually dimming, one by one!",
 			effects = {
@@ -467,8 +467,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 701080,
 			dir = 1,
+			actor = 701080,
 			nameColor = "#a9f548",
 			say = "You're right! So, we're supposed to hold until all the lights go out?",
 			typewriter = {
@@ -481,8 +481,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_10",
 			dir = 1,
 			say = "Judging by how things are going, that might take a few more hours at this rate...",
@@ -499,8 +499,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "Will everything disappear once the lights go out? I don't think we can hold on that long...",
 			typewriter = {
@@ -532,8 +532,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "Instead of trying to retreat, we'll focus on buying as much time as possible. Commander, please continue to lead us!",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_10",
 			dir = 1,
 			say = "Everyone...",
@@ -586,8 +586,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "The feeling is mutual, Comrade.",
 			typewriter = {
@@ -603,8 +603,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Now, fight with everything you have until this false light is extinguished! Go!",
 			typewriter = {

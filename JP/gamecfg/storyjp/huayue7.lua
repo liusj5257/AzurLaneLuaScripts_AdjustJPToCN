@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HUAYUE7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HUAYUE7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"言の葉、空に舞う花びら\n\n<size=45>七 空に咲く花は幸福を告げる</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			bgm = "story-china",
 			bgName = "star_level_bg_115",
 			say = "花月が作ったブーケはパーティーに出席した仲間たちに高く評価された。",
-			bgm = "story-china",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,14 +45,14 @@ return {
 			}
 		},
 		{
-			actor = 301571,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "とても綺麗です！ありがとうございます！",
 			hidePaintEquip = true,
+			actor = 301571,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "とても綺麗です！ありがとうございます！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,14 +82,14 @@ return {
 			}
 		},
 		{
-			actor = 301822,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "春月ちゃん、宵月ちゃんもありがとうございます！えへへ、これも指揮官さんが色々選ぶのを手伝ってくれたおかげですよ…",
 			hidePaintEquip = true,
+			actor = 301822,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "春月ちゃん、宵月ちゃんもありがとうございます！えへへ、これも指揮官さんが色々選ぶのを手伝ってくれたおかげですよ…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,8 +138,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "花火は絢爛に輝いては夜空に溶け込み、そして漆黒の中を瞬く星々となった。",
 			typewriter = {
@@ -147,17 +147,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "火薬でできた花火にいい香りこそないが、「咲き誇る」という意味なら…",
 			typewriter = {
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -290,8 +290,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			optionFlag = 1,
 			say = "打ち上げ花火の輝きに照らされた彼女の頬が微かに染まり――",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			optionFlag = 1,
 			say = "答えは最初から決まっていた。もちろん――",
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			optionFlag = 2,
 			say = "状況を飲み込めずぽかんとした花月だが、やがてぽっと頬を赤らめて――",
@@ -459,8 +459,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -533,8 +533,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "咲き乱れる華やかな花火を背に、花月は一輪の花を渡してきた。",
 			typewriter = {
@@ -562,8 +562,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "微笑んで花を受け取る。そう、その花言葉は彼女が教えてくれた――",
 			typewriter = {
@@ -572,8 +572,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			say = "「あなたと、永遠の幸せを願って」",
 			typewriter = {

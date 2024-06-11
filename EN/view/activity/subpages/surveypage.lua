@@ -1,18 +1,18 @@
 slot0 = class("SurveyPage", import("...base.BaseActivityPage"))
 
-function slot0.SetEnterTag(slot0)
+slot0.SetEnterTag = function(slot0)
 	PlayerPrefs.SetInt("survey_enter_" .. tostring(slot0), 1)
 end
 
-function slot0.IsEverEnter(slot0)
+slot0.IsEverEnter = function(slot0)
 	return PlayerPrefs.HasKey("survey_enter_" .. tostring(slot0))
 end
 
-function slot0.ClearEnterTag(slot0)
+slot0.ClearEnterTag = function(slot0)
 	PlayerPrefs.DeleteKey("survey_enter_" .. tostring(slot0))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.bguo = slot0:findTF("BGUO")
 	slot0.goBtn = slot0:findTF("GO")
@@ -31,7 +31,7 @@ function slot0.OnInit(slot0)
 	setActive(slot0.goBtn, true)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	setActive(slot0.maskTF, slot0.isDone == true)
 	setActive(slot0.goBtn, not slot0.isDone)
 

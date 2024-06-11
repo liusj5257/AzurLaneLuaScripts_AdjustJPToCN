@@ -17,17 +17,17 @@ slot0.TriggerAroundCombatAlly = "around_combat_ally"
 slot0.TriggerShipCount = "count"
 slot0.TriggerInSubTeam = "insubteam"
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.system = slot1
 	slot0.id = slot2
 	slot0.configId = slot0.id
 end
 
-function slot0.GetSystem(slot0)
+slot0.GetSystem = function(slot0)
 	return slot0.system
 end
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	if slot0:GetSystem() == uv0.SystemCommanderNeko then
 		return pg.commander_skill_effect_template
 	end
@@ -35,7 +35,7 @@ function slot0.bindConfigTable(slot0)
 	assert(false, "Do not support exception.")
 end
 
-function slot0.GetType(slot0)
+slot0.GetType = function(slot0)
 	if slot0:GetSystem() == uv0.SystemCommanderNeko then
 		return slot0:getConfig("effect_type")
 	end
@@ -43,7 +43,7 @@ function slot0.GetType(slot0)
 	assert(false, "Do not support exception.")
 end
 
-function slot0.GetArgs(slot0)
+slot0.GetArgs = function(slot0)
 	if slot0:GetSystem() == uv0.SystemCommanderNeko then
 		return slot0:getConfig("args")
 	end
@@ -51,7 +51,7 @@ function slot0.GetArgs(slot0)
 	assert(false, "Do not support exception.")
 end
 
-function slot0.GetTriggers(slot0)
+slot0.GetTriggers = function(slot0)
 	if slot0:GetSystem() == uv0.SystemCommanderNeko then
 		return slot0:getConfig("condition")
 	end
@@ -59,7 +59,7 @@ function slot0.GetTriggers(slot0)
 	assert(false, "Do not support exception.")
 end
 
-function slot0.triggerSkill(slot0, slot1)
+slot0.triggerSkill = function(slot0, slot1)
 	slot2 = _.filter(slot0:findSkills(slot1), function (slot0)
 		return _.any(slot0:GetTriggers(), function (slot0)
 			return slot0[1] == FleetSkill.TriggerInSubTeam and slot0[2] == 1
@@ -81,7 +81,7 @@ function slot0.triggerSkill(slot0, slot1)
 	end), slot2
 end
 
-function slot0.NoneChapterFleetCheck(slot0, slot1, slot2)
+slot0.NoneChapterFleetCheck = function(slot0, slot1, slot2)
 	slot4 = getProxy(BayProxy)
 
 	if slot2[1] == FleetSkill.TriggerDDHead then
@@ -107,7 +107,7 @@ function slot0.NoneChapterFleetCheck(slot0, slot1, slot2)
 	end
 end
 
-function slot0.triggerMirrorSkill(slot0, slot1)
+slot0.triggerMirrorSkill = function(slot0, slot1)
 	slot2 = _.filter(slot0:findSkills(slot1), function (slot0)
 		return _.any(slot0:GetTriggers(), function (slot0)
 			return slot0[1] == FleetSkill.TriggerInSubTeam and slot0[2] == 1
@@ -129,7 +129,7 @@ function slot0.triggerMirrorSkill(slot0, slot1)
 	end), slot2
 end
 
-function slot0.MirrorFleetCheck(slot0, slot1, slot2)
+slot0.MirrorFleetCheck = function(slot0, slot1, slot2)
 	slot4 = getProxy(BayProxy)
 
 	if slot2[1] == FleetSkill.TriggerDDHead then
@@ -155,7 +155,7 @@ function slot0.MirrorFleetCheck(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GuildBossTriggerSkill(slot0, slot1)
+slot0.GuildBossTriggerSkill = function(slot0, slot1)
 	slot2 = _.filter(slot0:findSkills(slot1), function (slot0)
 		return _.any(slot0:GetTriggers(), function (slot0)
 			return slot0[1] == FleetSkill.TriggerInSubTeam and slot0[2] == 1
@@ -177,7 +177,7 @@ function slot0.GuildBossTriggerSkill(slot0, slot1)
 	end), slot2
 end
 
-function slot0.GuildBossFleetCheck(slot0, slot1, slot2)
+slot0.GuildBossFleetCheck = function(slot0, slot1, slot2)
 	if slot2[1] == FleetSkill.TriggerDDHead then
 		return #slot0:GetTeamTypeShips(TeamType.Vanguard) > 0 and ShipType.IsTypeQuZhu(slot4[1]:getShipType())
 	elseif slot3 == FleetSkill.TriggerVanCount then

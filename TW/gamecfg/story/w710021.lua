@@ -1,12 +1,12 @@
 return {
-	id = "W710021",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710021",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "得到了黑方舟的的記憶碎片。",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "周圍湧動的暗流停息了下來，敵艦也消失了……",
 			typewriter = {
 				speed = 0.05,

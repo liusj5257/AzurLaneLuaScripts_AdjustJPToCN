@@ -1,12 +1,12 @@
 slot0 = class("FeastGiveTicketPage", import(".FeastGiveGiftPage"))
 
-function slot0.BindEvents(slot0)
+slot0.BindEvents = function(slot0)
 	slot0.eventId = slot0:bind(FeastScene.ON_GOT_TICKET, function (slot0, slot1)
 		uv0:OnGotGift(slot1)
 	end)
 end
 
-function slot0.OnGotGift(slot0, slot1)
+slot0.OnGotGift = function(slot0, slot1)
 	if slot0.feastShip then
 		slot0:BlockEvents()
 		seriesAsync({
@@ -26,7 +26,7 @@ function slot0.OnGotGift(slot0, slot1)
 	end
 end
 
-function slot0.ClearBindEvents(slot0)
+slot0.ClearBindEvents = function(slot0)
 	if slot0.eventId then
 		slot0:disconnect(slot0.eventId)
 
@@ -34,7 +34,7 @@ function slot0.ClearBindEvents(slot0)
 	end
 end
 
-function slot0.LoadItem(slot0, slot1, slot2)
+slot0.LoadItem = function(slot0, slot1, slot2)
 	GetSpriteFromAtlasAsync("ui/FeastInvitation_atlas", "res_icon", function (slot0)
 		slot1 = uv0.giftTr:GetComponent(typeof(Image))
 		slot1.sprite = slot0
@@ -44,7 +44,7 @@ function slot0.LoadItem(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.UpdateGiftState(slot0, slot1, slot2)
+slot0.UpdateGiftState = function(slot0, slot1, slot2)
 	slot0:ClearGiftEvent()
 	parallelAsync({
 		function (slot0)
@@ -76,11 +76,11 @@ function slot0.UpdateGiftState(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.Send(slot0)
+slot0.Send = function(slot0)
 	slot0:emit(FeastMediator.GIVE_TICKET, slot0.feastShip.tid)
 end
 
-function slot0.SetTipContent(slot0)
+slot0.SetTipContent = function(slot0)
 	slot0.tipTr.text = i18n("feast_drag_invitation_tip")
 end
 

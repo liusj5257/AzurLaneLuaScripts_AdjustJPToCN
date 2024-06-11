@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 16482,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16482,
+	color = "red",
 	icon = 16480,
 	last_effect = "",
 	effect_list = {
@@ -46,8 +46,8 @@ return {
 				"onFleetAttrUpdate"
 			},
 			arg_list = {
-				fleetAttr = "yuanchou=3",
 				fleetAttrDelta = ">0",
+				fleetAttr = "yuanchou=3",
 				skill_id = 16485
 			}
 		},
@@ -57,8 +57,8 @@ return {
 				"onFleetAttrUpdate"
 			},
 			arg_list = {
-				fleetAttr = "yuanchou=6",
 				fleetAttrDelta = ">0",
+				fleetAttr = "yuanchou=6",
 				skill_id = 16486
 			}
 		},
@@ -68,8 +68,8 @@ return {
 				"onFleetAttrUpdate"
 			},
 			arg_list = {
-				fleetAttr = "yuanchou=9",
 				fleetAttrDelta = ">0",
+				fleetAttr = "yuanchou=9",
 				skill_id = 16487
 			}
 		}

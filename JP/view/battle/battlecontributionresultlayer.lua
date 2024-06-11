@@ -1,16 +1,16 @@
 slot0 = class("BattleContributionResultLayer", import(".BattleActivityBossResultLayer"))
 
-function slot0.setActId(slot0, slot1)
+slot0.setActId = function(slot0, slot1)
 	slot0._actID = slot1
 	slot0._resourceID = pg.activity_event_worldboss[pg.activity_template[slot1].config_id].damage_resource
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	uv0.super.didEnter(slot0)
 	slot0:setPoint()
 end
 
-function slot0.setPoint(slot0)
+slot0.setPoint = function(slot0)
 	slot0._contributionPoint = 0
 
 	for slot4, slot5 in ipairs(slot0.contextData.drops) do
@@ -20,12 +20,12 @@ function slot0.setPoint(slot0)
 	end
 end
 
-function slot0.setGradeLabel(slot0)
+slot0.setGradeLabel = function(slot0)
 	setActive(slot0:findTF("grade/Xyz/bg13"), false)
 	LoadImageSpriteAsync("battlescore/grade_label_clear", slot0:findTF("grade/Xyz/bg14"), false)
 end
 
-function slot0.rankAnimaFinish(slot0)
+slot0.rankAnimaFinish = function(slot0)
 	setActive(slot0._conditionBGNormal, false)
 	setActive(slot0._conditionBGContribute, true)
 	slot0:setCondition(i18n("battle_result_total_damage"), slot0.contextData.statistics.specificDamage, COLOR_BLUE)
@@ -39,7 +39,7 @@ function slot0.rankAnimaFinish(slot0)
 	slot0._stateFlag = uv0.STATE_REPORT
 end
 
-function slot0.setCondition(slot0, slot1, slot2, slot3)
+slot0.setCondition = function(slot0, slot1, slot2, slot3)
 	slot4 = cloneTplTo(slot0._conditionContributeTpl, slot0._conditionContainer)
 
 	setActive(slot4, false)

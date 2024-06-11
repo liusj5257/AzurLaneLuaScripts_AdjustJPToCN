@@ -1,17 +1,17 @@
 return {
-	id = "WORLD304A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD304A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 107110,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "xinnong-3",
 			dir = 1,
 			say = "......科研艦隊？！",
+			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,9 +54,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 107110,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "........現在可是在進行大型作戰中啊，塞壬的威脅還沒有被完全排除，這時候派遣科研艦隊來前線實在是太危險了！",
 			typewriter = {
 				speed = 0.05,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -111,8 +111,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "我也覺得現在的部署非常不合適...艾塞克斯，作為C戰區的艦隊指揮妳有權對這項命令提出異議。",
 			typewriter = {
 				speed = 0.05,
@@ -142,8 +142,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "不論是被摧毀的塞壬實驗室，還是意圖極其明顯的電子干擾，我們現在對於這片戰場的了解太少了，哪怕能多獲取一些情報對於整個戰局來說也是有利的。",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "領航員小姐，妳現在感覺怎麼樣？",
 			typewriter = {
 				speed = 0.05,
@@ -188,11 +188,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/44/tb-44",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "指令已確認：與主機連接已經恢復，系統修復進度90%，目前未發現異常情況。",
-			voice = "event:/tb/44/tb-44",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "修復速度好快......很好，那我們也打起精神來繼續出發吧，作戰任務還遠遠沒有結束呢！",
 			typewriter = {
 				speed = 0.05,

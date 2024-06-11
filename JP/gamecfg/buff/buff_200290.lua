@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023英系活动 EX 第二波 检查是否有命中",
 	time = 1,
-	color = "blue",
+	name = "2023英系活动 EX 第二波 检查是否有命中",
+	init_effect = "",
+	id = 200290,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200290,
+	color = "blue",
 	icon = 200290,
 	last_effect = "",
 	effect_list = {
@@ -34,9 +34,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				skill_id = 200284,
 				minTargetNumber = 1,
 				target = "TargetSelf",
-				skill_id = 200284,
 				check_target = {
 					"TargetAllHarm",
 					"TargetShipTag"

@@ -1,18 +1,18 @@
 return {
-	id = "TIEXUEYUYINFU9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "TIEXUEYUYINFU9",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 0,
+			dir = -1,
+			bgm = "bsm-3",
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = -1,
 			say = "슬슬 끝내주마!",
-			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,9 +26,9 @@ return {
 			actor = 207020,
 			nameColor = "#a9f548",
 			side = 1,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "놓칠까 보냐! 818중대, 노려라!",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "큭… 사각에서……!?",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 0,
-			actor = 405010,
 			dir = -1,
+			actor = 405010,
 			say = "회피가…… 늦었어……!",
 			typewriter = {
 				speed = 0.05,
@@ -73,11 +73,11 @@ return {
 		{
 			expression = 4,
 			side = 0,
+			dir = -1,
+			soundeffect = "event:/battle/boom2",
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = -1,
 			say = "스크류 손상…… 아냐, 장비에 끼었나?",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -188,8 +188,8 @@ return {
 			actor = 405010,
 			nameColor = "#ffde38",
 			side = 2,
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -219,11 +219,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "bsm-8",
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = 1,
 			say = "나는, 여기서 끝낼 수는 없다…!",
-			bgm = "bsm-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,8 +237,8 @@ return {
 			expression = 3,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "설령 작전이 실패했다고 해도, 설령 항행 능력을 잃었다고 해도…",
 			typewriter = {
 				speed = 0.05,
@@ -253,8 +253,8 @@ return {
 			actor = 405010,
 			side = 2,
 			expression = 3,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "나에겐 지켜야하는 동료가 있고, 이루고 싶은 꿈이 있다…!",
 			typewriter = {
 				speed = 0.05,
@@ -268,11 +268,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/cannon-main-prepared",
 			actor = 405010,
 			nameColor = "#ffde38",
-			dir = 1,
 			say = "나에겐 아직, '그 힘'이 있다……!",
-			soundeffect = "event:/cannon-main-prepared",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,8 +301,8 @@ return {
 			expression = 2,
 			nameColor = "#ffde38",
 			side = 2,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "싸워주마!",
 			typewriter = {
 				speed = 0.05,
@@ -317,8 +317,8 @@ return {
 			expression = 4,
 			side = 2,
 			actor = 405010,
-			nameColor = "#ffde38",
 			dir = 1,
+			nameColor = "#ffde38",
 			say = "Eisen und Blut über alles！",
 			effects = {
 				{

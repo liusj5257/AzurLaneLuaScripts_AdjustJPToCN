@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 16332,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 16332,
+	color = "yellow",
 	icon = 16330,
 	last_effect = "",
 	effect_list = {
@@ -27,9 +27,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				minTargetNumber = 1,
 				skill_id = 16331,
-				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
 					"TargetNationality"
@@ -45,9 +45,9 @@ return {
 				"onAttach"
 			},
 			arg_list = {
+				target = "TargetSelf",
 				maxTargetNumber = 0,
 				skill_id = 16332,
-				target = "TargetSelf",
 				check_target = {
 					"TargetSelf",
 					"TargetNationality"

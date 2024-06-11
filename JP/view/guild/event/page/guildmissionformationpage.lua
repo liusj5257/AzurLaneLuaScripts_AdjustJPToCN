@@ -1,14 +1,14 @@
 slot0 = class("GuildMissionFormationPage", import(".GuildEventBasePage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "GuildMissionFormationPage"
 end
 
-function slot0.OnRefreshMission(slot0, slot1)
+slot0.OnRefreshMission = function(slot0, slot1)
 	slot0:Flush(slot1)
 end
 
-function slot0.OnFormationDone(slot0)
+slot0.OnFormationDone = function(slot0)
 	slot1 = {}
 	slot0.loading = true
 
@@ -43,7 +43,7 @@ function slot0.OnFormationDone(slot0)
 	setActive(slot0.pageFooterAdd, false)
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("frame/close")
 	slot0.titleTxt = slot0:findTF("frame/title"):GetComponent(typeof(Text))
 	slot0.recomBtn = slot0:findTF("frame/recom")
@@ -76,14 +76,14 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/bottom/desc/type"), i18n("guild_word_battle_type"))
 end
 
-function slot0.OnInit(slot0)
-	function slot1()
+slot0.OnInit = function(slot0)
+	slot1 = function()
 		if uv0.contextData.index > 1 then
 			triggerToggle(uv0.pageFooter[uv0.contextData.index - 1], true)
 		end
 	end
 
-	function slot2()
+	slot2 = function()
 		if uv0.contextData.index < uv0.mission:GetMaxFleet() then
 			if uv0.mission:GetFleetCnt() < uv0.contextData.index + 1 then
 				triggerToggle(uv0.pageFooterAdd, true)
@@ -155,7 +155,7 @@ function slot0.OnInit(slot0)
 	slot0.shipGos = {}
 end
 
-function slot0.OnShow(slot0)
+slot0.OnShow = function(slot0)
 	slot0.loading = nil
 	slot0.maxShipCnt = slot0.extraData.shipCnt
 
@@ -165,7 +165,7 @@ function slot0.OnShow(slot0)
 	slot0:AddNextFormationTimer()
 end
 
-function slot0.UpdatePageFooter(slot0)
+slot0.UpdatePageFooter = function(slot0)
 	slot1 = slot0.mission
 	slot2 = slot1:CanFormation()
 	slot3 = slot1:GetFleetCnt()
@@ -194,17 +194,17 @@ function slot0.UpdatePageFooter(slot0)
 	end
 end
 
-function slot0.UpdateSwitchBtns(slot0)
+slot0.UpdateSwitchBtns = function(slot0)
 	setActive(slot0.prevBtn, slot0.contextData.index ~= 1)
 	setActive(slot0.nextBtn, slot3 < slot0.mission:GetMaxFleet())
 end
 
-function slot0.AddNextFormationTimer(slot0)
+slot0.AddNextFormationTimer = function(slot0)
 	if slot0.mission:IsMaxFleetCnt() then
 		return
 	end
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		uv0.canFormationIndex = uv1:GetCanFormationIndex()
 
 		setActive(uv0.pageFooterAdd, true)
@@ -233,14 +233,14 @@ function slot0.AddNextFormationTimer(slot0)
 	end
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0.mission = slot1
 	slot0.canFormationIndex = slot1:GetCanFormationIndex()
 
 	slot0:InitView()
 end
 
-function slot0.UpdateLayout(slot0)
+slot0.UpdateLayout = function(slot0)
 	slot0.bg.sprite = GetSpriteFromAtlas("ui/GuildFormationUI_atlas", "bg3")
 	slot1 = slot0:findTF("frame/single")
 	slot0.shipContainer = slot1
@@ -249,7 +249,7 @@ function slot0.UpdateLayout(slot0)
 	setActive(slot1, true)
 end
 
-function slot0.InitView(slot0)
+slot0.InitView = function(slot0)
 	if slot0.initId ~= slot0.mission.id then
 		slot0.awardList:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
@@ -274,7 +274,7 @@ function slot0.InitView(slot0)
 	end
 end
 
-function slot0.UpdateFleet(slot0, slot1)
+slot0.UpdateFleet = function(slot0, slot1)
 	slot0:ClearSlots()
 
 	slot2 = slot0.mission
@@ -329,7 +329,7 @@ function slot0.UpdateFleet(slot0, slot1)
 	end
 end
 
-function slot0.UpdateShipSlot(slot0, slot1, slot2, slot3, slot4)
+slot0.UpdateShipSlot = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot0.mission
 	slot7 = slot2:Find("Image")
 	slot8 = slot2:Find("effect")
@@ -378,7 +378,7 @@ function slot0.UpdateShipSlot(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot7, not slot6)
 end
 
-function slot0.CheckFormation(slot0)
+slot0.CheckFormation = function(slot0)
 	slot1 = slot0.mission
 
 	if slot0.contextData.index ~= slot0.canFormationIndex then
@@ -400,7 +400,7 @@ function slot0.CheckFormation(slot0)
 	return true
 end
 
-function slot0.emit(slot0, ...)
+slot0.emit = function(slot0, ...)
 	if slot0.loading then
 		return
 	end
@@ -412,11 +412,11 @@ function slot0.emit(slot0, ...)
 	uv0.super.emit(slot0, ...)
 end
 
-function slot0.send(slot0, ...)
+slot0.send = function(slot0, ...)
 	uv0.super.emit(slot0, ...)
 end
 
-function slot0.GetBattleTarget(slot0, slot1, slot2)
+slot0.GetBattleTarget = function(slot0, slot1, slot2)
 	slot3 = slot0.mission
 	slot5 = slot3:GetAttrAcc()
 	slot6 = {}
@@ -442,7 +442,7 @@ function slot0.GetBattleTarget(slot0, slot1, slot2)
 	return slot6
 end
 
-function slot0.GetTagShipCnt(slot0, slot1)
+slot0.GetTagShipCnt = function(slot0, slot1)
 	slot3 = slot0.mission:GetSquadron()
 	slot4 = 0
 	slot5 = getProxy(BayProxy)
@@ -456,7 +456,7 @@ function slot0.GetTagShipCnt(slot0, slot1)
 	return slot4
 end
 
-function slot0.CalcScoreAddition(slot0, slot1)
+slot0.CalcScoreAddition = function(slot0, slot1)
 	slot2 = slot0.mission
 	slot3 = slot2:GetAttrCntAcc()
 	slot4 = slot2:GetAttrAcc()
@@ -516,7 +516,7 @@ function slot0.CalcScoreAddition(slot0, slot1)
 	return slot6, slot7, slot8
 end
 
-function slot0.CalcEffectAddition(slot0, slot1)
+slot0.CalcEffectAddition = function(slot0, slot1)
 	slot2 = slot0.mission
 	slot3 = GuildMission.CalcMyEffect(slot1)
 	slot4 = getProxy(BayProxy)
@@ -544,7 +544,7 @@ function slot0.CalcEffectAddition(slot0, slot1)
 	return slot3 * slot7
 end
 
-function slot0.HasScoreAddition(slot0, slot1)
+slot0.HasScoreAddition = function(slot0, slot1)
 	slot2 = slot0.mission
 	slot4 = slot2:GetAttrCntAcc()
 	slot5 = slot2:GetAttrAcc()
@@ -579,13 +579,13 @@ function slot0.HasScoreAddition(slot0, slot1)
 	end)()
 end
 
-function slot0.HasEffectAddition(slot0, slot1)
+slot0.HasEffectAddition = function(slot0, slot1)
 	slot2 = slot0.mission
 
 	return table.contains(slot2:GetRecommendShipTypes(), slot1:getShipType()) or slot1:IsTagShip(slot2:GetSquadron())
 end
 
-function slot0.ClearSlots(slot0)
+slot0.ClearSlots = function(slot0)
 	for slot4, slot5 in pairs(slot0.shipGos) do
 		tf(slot5).pivot = Vector2(0.5, 0.5)
 
@@ -597,7 +597,7 @@ function slot0.ClearSlots(slot0)
 	slot0.shipGos = {}
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	slot0:ClearSlots()
 

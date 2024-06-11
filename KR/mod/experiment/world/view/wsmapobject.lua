@@ -4,8 +4,8 @@ slot0.Fields = {
 	modelAction = "string",
 	modelResPath = "string",
 	modelParent = "userdata",
-	modelAngles = "table",
 	modelActionTimer = "table",
+	modelAngles = "table",
 	modelScale = "table",
 	model = "userdata",
 	modelComps = "table",
@@ -13,11 +13,11 @@ slot0.Fields = {
 	modelResName = "string"
 }
 
-function slot0.GetModelAngles(slot0)
+slot0.GetModelAngles = function(slot0)
 	return slot0.modelAngles and slot0.modelAngles:Clone() or Vector3.zero
 end
 
-function slot0.UpdateModelAngles(slot0, slot1)
+slot0.UpdateModelAngles = function(slot0, slot1)
 	if slot0.modelAngles ~= slot1 then
 		slot0.modelAngles = slot1
 
@@ -25,17 +25,17 @@ function slot0.UpdateModelAngles(slot0, slot1)
 	end
 end
 
-function slot0.FlushModelAngles(slot0)
+slot0.FlushModelAngles = function(slot0)
 	if slot0.model and slot0.modelAngles then
 		slot0.model.localEulerAngles = slot0.modelAngles
 	end
 end
 
-function slot0.GetModelScale(slot0)
+slot0.GetModelScale = function(slot0)
 	return slot0.modelScale and slot0.modelScale:Clone() or Vector3.one
 end
 
-function slot0.UpdateModelScale(slot0, slot1)
+slot0.UpdateModelScale = function(slot0, slot1)
 	if slot0.modelScale ~= slot1 then
 		slot0.modelScale = slot1
 
@@ -43,17 +43,17 @@ function slot0.UpdateModelScale(slot0, slot1)
 	end
 end
 
-function slot0.GetModelAction(slot0)
+slot0.GetModelAction = function(slot0)
 	return slot0.modelAction
 end
 
-function slot0.FlushModelScale(slot0)
+slot0.FlushModelScale = function(slot0)
 	if slot0.model and slot0.modelScale then
 		slot0.model.localScale = slot0.modelScale
 	end
 end
 
-function slot0.UpdateModelAction(slot0, slot1)
+slot0.UpdateModelAction = function(slot0, slot1)
 	if slot0.modelAction ~= slot1 then
 		slot0.modelAction = slot1
 
@@ -61,7 +61,7 @@ function slot0.UpdateModelAction(slot0, slot1)
 	end
 end
 
-function slot0.FlushModelAction(slot0)
+slot0.FlushModelAction = function(slot0)
 	if slot0.model and slot0.modelAction then
 		if slot0.modelType == WorldConst.ModelSpine then
 			if slot0.modelComps and slot0.modelComps[1] then
@@ -73,7 +73,7 @@ function slot0.FlushModelAction(slot0)
 	end
 end
 
-function slot0.PlayModelAction(slot0, slot1, slot2, slot3)
+slot0.PlayModelAction = function(slot0, slot1, slot2, slot3)
 	assert(slot1)
 
 	slot4 = {}
@@ -123,7 +123,7 @@ function slot0.PlayModelAction(slot0, slot1, slot2, slot3)
 	seriesAsync(slot4, slot3)
 end
 
-function slot0.LoadModel(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.LoadModel = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if slot0.modelType ~= slot1 or slot0.modelResPath ~= slot2 or slot0.modelResName ~= slot3 then
 		slot0:UnloadModel()
 
@@ -172,7 +172,7 @@ function slot0.LoadModel(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot0.UnloadModel(slot0)
+slot0.UnloadModel = function(slot0)
 	slot0:DisposeActionTimer()
 
 	if slot0.model then
@@ -195,7 +195,7 @@ function slot0.UnloadModel(slot0)
 	slot0.modelResAsync = nil
 end
 
-function slot0.LoadSpine(slot0, slot1)
+slot0.LoadSpine = function(slot0, slot1)
 	slot4 = PoolMgr.GetInstance()
 
 	slot4:GetSpineChar(slot0.modelResPath, slot0.modelResAsync, function (slot0)
@@ -221,7 +221,7 @@ function slot0.LoadSpine(slot0, slot1)
 	end)
 end
 
-function slot0.LoadPrefab(slot0, slot1)
+slot0.LoadPrefab = function(slot0, slot1)
 	slot5 = PoolMgr.GetInstance()
 
 	slot5:GetPrefab(slot0.modelResPath, slot0.modelResName, slot0.modelResAsync, function (slot0)
@@ -250,12 +250,12 @@ function slot0.LoadPrefab(slot0, slot1)
 	end)
 end
 
-function slot0.UnloadSpine(slot0)
+slot0.UnloadSpine = function(slot0)
 	slot0.modelComps[1]:SetActionCallBack(nil)
 	PoolMgr.GetInstance():ReturnSpineChar(slot0.modelResPath, slot0.model:GetChild(0).gameObject)
 end
 
-function slot0.UnloadPrefab(slot0)
+slot0.UnloadPrefab = function(slot0)
 	if slot0.modelComps[2] then
 		slot1:SetEndEvent(nil)
 	end
@@ -263,7 +263,7 @@ function slot0.UnloadPrefab(slot0)
 	PoolMgr.GetInstance():ReturnPrefab(slot0.modelResPath, slot0.modelResName, slot0.model:GetChild(0).gameObject, true)
 end
 
-function slot0.NewActionTimer(slot0, slot1, slot2)
+slot0.NewActionTimer = function(slot0, slot1, slot2)
 	slot0:DisposeActionTimer()
 
 	slot0.modelActionTimer = Timer.New(slot2, slot1, 1)
@@ -271,7 +271,7 @@ function slot0.NewActionTimer(slot0, slot1, slot2)
 	slot0.modelActionTimer:Start()
 end
 
-function slot0.DisposeActionTimer(slot0)
+slot0.DisposeActionTimer = function(slot0)
 	if slot0.modelActionTimer then
 		slot0.modelActionTimer:Stop()
 

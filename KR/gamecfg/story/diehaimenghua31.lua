@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA31",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA31",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "모항 주변·연습 해역",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "level02",
+			say = "모항 주변·연습 해역",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -51,8 +51,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 304050,
 			dir = 1,
+			actor = 304050,
 			nameColor = "#a9f548",
 			say = "후후, 이번에 우리쪽 함대의 지휘관은 시나노예요. 저는 그저 참모로서 살짝 도움을 주려고 왔을 뿐이랍니다.",
 			typewriter = {
@@ -68,8 +68,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306090,
 			dir = 1,
+			actor = 306090,
 			nameColor = "#a9f548",
 			say = "시나노에 아마기라니… 완전 믿음직한 조합이잖아!",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "하지만 상대는 지휘관이 직접 이끄는 함대다. 절대 방심해선 안 돼.",
 			typewriter = {
@@ -99,12 +99,12 @@ return {
 			}
 		},
 		{
-			actor = 301840,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301840,
+			nameColor = "#a9f548",
 			say = "시나노, 준비는 끝났어. 명령을 내려줘.",
 			typewriter = {
 				speed = 0.05,

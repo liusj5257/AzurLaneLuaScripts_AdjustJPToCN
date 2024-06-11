@@ -11,7 +11,7 @@ slot0.ON_SWITCH_RANDOM_FLAG_SHIP_BTN = "PlayerVitaeMediator:ON_SWITCH_RANDOM_FLA
 slot0.OPEN_CRYPTOLALIA = "PlayerVitaeMediator:OPEN_CRYPTOLALIA"
 slot0.ON_SEL_EDUCATE_CHAR = "PlayerVitaeMediator:ON_SEL_EDUCATE_CHAR"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_SEL_EDUCATE_CHAR, function (slot0)
 		uv0:addSubLayers(Context.New({
 			mediator = EducateCharDockMediator,
@@ -108,7 +108,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.ReSortShipIds(slot0, slot1, slot2)
+slot0.ReSortShipIds = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = math.max(#slot1, #slot2)
 
@@ -135,19 +135,19 @@ function slot0.ReSortShipIds(slot0, slot1, slot2)
 	return slot5
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.CHANGE_PLAYER_NAME_DONE,
 		SetShipSkinCommand.SKIN_UPDATED,
 		GAME.UPDATE_SKINCONFIG,
 		GAME.CHANGE_PLAYER_ICON_DONE,
-		PaintingConst.NotifyPaintingDownloadFinish,
+		PaintingGroupConst.NotifyPaintingDownloadFinish,
 		GAME.CHANGE_EDUCATE_DONE,
 		GAME.CLEAR_EDUCATE_TIP
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.CHANGE_PLAYER_NAME_DONE then
@@ -158,7 +158,7 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:ReloadPanting(slot3.skinId)
 	elseif slot2 == GAME.CHANGE_PLAYER_ICON_DONE then
 		slot0.viewComponent:RefreshShips()
-	elseif slot2 == PaintingConst.NotifyPaintingDownloadFinish then
+	elseif slot2 == PaintingGroupConst.NotifyPaintingDownloadFinish then
 		slot0.viewComponent:updateSwitchSkinBtnTag()
 
 		if slot0.viewComponent.shipsPage and slot0.viewComponent.shipsPage:GetLoaded() then

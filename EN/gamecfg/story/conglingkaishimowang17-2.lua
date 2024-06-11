@@ -6,9 +6,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_525",
 			factiontag = "Tempesta Pirate",
 			dir = 1,
+			bgName = "star_level_bg_525",
 			bgm = "theme-tempest-up",
 			actor = 9600050,
 			nameColor = "#FEF15E",
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,11 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Tempesta Pirate",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#FEF15E",
 			say = "Look at their commander... Does anyone else recognise that aura?",
 			painting = {
@@ -111,11 +111,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Tempesta Pirate",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#FEF15E",
 			say = "This is all a big misunderstanding!",
 			painting = {
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Tempesta Pirate",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#FEF15E",
 			say = "Okay, story time. We used to be free pirates who occasionally committed petty crimes.",
 			painting = {
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Tempesta Pirate",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#FEF15E",
 			say = "We were having a meal when, all of a sudden, chaos broke out on the streets.",
 			painting = {
@@ -464,11 +464,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Geesh... That's a pretty sad story.",
@@ -482,11 +482,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Even if it sounds like it's waiting for a punchline...",
@@ -500,11 +500,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "No matter! A hero should embody the spirit of chivalry!",
@@ -518,11 +518,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "If it's money you want, they gave us a load of it back at Sentinel Bastion!",
@@ -536,11 +536,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Here! This should cover everything!",
@@ -554,8 +554,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "Fu Shun assumes a cool attitude and produces a bag of gold, dropping it on the floor.",
 			typewriter = {
@@ -582,11 +582,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "Tempesta Pirate",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#FEF15E",
 			say = "Can't say I do. I've never seen coins like these.",
 			painting = {
@@ -617,11 +617,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "The Hero",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Counterfeits?! This is the real stuff they use in the city!",
@@ -635,8 +635,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

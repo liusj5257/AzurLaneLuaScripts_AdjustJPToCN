@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "航空副油箱T1",
 	time = 0,
-	color = "yellow",
+	name = "航空副油箱T1",
+	init_effect = "",
+	id = 6070,
 	picture = "",
 	desc = "舰载机耐久增加10点，同类效果取最大值，不可叠加",
 	stack = 1,
-	id = 6070,
+	color = "yellow",
 	icon = 6070,
 	last_effect = "",
 	effect_list = {

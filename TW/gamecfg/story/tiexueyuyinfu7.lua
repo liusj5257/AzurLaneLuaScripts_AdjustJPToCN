@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIEXUEYUYINFU7",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TIEXUEYUYINFU7",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "bsm-3",
 			dir = 1,
 			say = "俾斯麥中彈確認，但仍在高速前進",
+			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,8 +60,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "不過這傢伙居然在遭到雷擊後還能保持全速航行，真是可怕的戰鬥力",
 			typewriter = {
 				speed = 0.05,
@@ -91,8 +91,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "無論如何，必須讓目標的速度減慢下來！",
 			typewriter = {
 				speed = 0.05,
@@ -122,8 +122,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "這下可算是傾巢而出了呀",
 			typewriter = {
 				speed = 0.05,
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 1,
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			say = "賭上皇家艦隊的榮耀，絕對不能放走俾斯麥！",
 			typewriter = {
 				speed = 0.05,

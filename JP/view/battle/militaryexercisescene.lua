@@ -1,23 +1,23 @@
 slot0 = class("MilitaryExerciseScene", import("..base.BaseUI"))
 slot0.TYPE_SHOP = 1
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MilitaryExerciseUI"
 end
 
-function slot0.ResUISettings(slot0)
+slot0.ResUISettings = function(slot0)
 	return true
 end
 
-function slot0.setShips(slot0, slot1)
+slot0.setShips = function(slot0, slot1)
 	slot0.ships = slot1
 end
 
-function slot0.setFleet(slot0, slot1)
+slot0.setFleet = function(slot0, slot1)
 	slot0.fleet = slot1
 end
 
-function slot0.setRivals(slot0, slot1)
+slot0.setRivals = function(slot0, slot1)
 	table.sort(slot1, function (slot0, slot1)
 		return slot0.rank < slot1.rank
 	end)
@@ -25,25 +25,25 @@ function slot0.setRivals(slot0, slot1)
 	slot0.rivalVOs = slot1
 end
 
-function slot0.setExerciseCount(slot0, slot1)
+slot0.setExerciseCount = function(slot0, slot1)
 	slot0.exerciseCount = slot1
 end
 
-function slot0.setSeasonTime(slot0, slot1)
+slot0.setSeasonTime = function(slot0, slot1)
 	slot0.seasonTime = slot1
 end
 
-function slot0.setRecoverTime(slot0, slot1)
+slot0.setRecoverTime = function(slot0, slot1)
 	slot0.recoverTime = slot1
 end
 
-function slot0.setActivity(slot0, slot1)
+slot0.setActivity = function(slot0, slot1)
 	slot0.activity = slot1
 
 	slot0:setSeasonTime(slot1.stopTime)
 end
 
-function slot0.updateSeaInfoVO(slot0, slot1)
+slot0.updateSeaInfoVO = function(slot0, slot1)
 	slot0.seasonInfo = slot1
 
 	slot0:setFleet(slot1.fleet)
@@ -52,7 +52,7 @@ function slot0.updateSeaInfoVO(slot0, slot1)
 	slot0:setRecoverTime(slot1.resetTime)
 end
 
-function slot0.setSeasonInfo(slot0, slot1)
+slot0.setSeasonInfo = function(slot0, slot1)
 	slot0:updateSeaInfoVO(slot1)
 	slot0:setFleet(slot1.fleet)
 	slot0:setRivals(slot1.rivals)
@@ -64,7 +64,7 @@ function slot0.setSeasonInfo(slot0, slot1)
 	slot0:updateRivals()
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("blur_panel/adapt/top/backBtn")
 	slot0._normalUIMain = pg.UIMgr.GetInstance().UIMain
 	slot0._overlayUIMain = pg.UIMgr.GetInstance().OverlayMain
@@ -84,13 +84,13 @@ function slot0.init(slot0)
 	slot0:uiStartAnimating()
 end
 
-function slot0.updatePlayer(slot0, slot1)
+slot0.updatePlayer = function(slot0, slot1)
 	slot0.player = slot1
 
 	setText(findTF(slot0:findTF("bottom/player_info"), "statistics_panel/exploit_bg/score"), slot1.exploit)
 end
 
-function slot0.uiStartAnimating(slot0)
+slot0.uiStartAnimating = function(slot0)
 	slot2 = slot0.bottomPanel.localPosition.y
 
 	setAnchoredPosition(slot0.bottomPanel, {
@@ -99,11 +99,11 @@ function slot0.uiStartAnimating(slot0)
 	shiftPanel(slot0.bottomPanel, nil, slot2, 0.3, 0, true, true)
 end
 
-function slot0.uiExitAnimating(slot0)
+slot0.uiExitAnimating = function(slot0)
 	shiftPanel(slot0.bottomPanel, nil, slot0.bottomPanel.localPosition.y - 308, 0.3, 0, true, true)
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0.isOpenRivalInfoPanel then
 			uv0:closeRivalInfoPanel()
@@ -150,7 +150,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.updateSeasonTime(slot0)
+slot0.updateSeasonTime = function(slot0)
 	slot0.seasonInfoPanel = slot0:findTF("center/season_info")
 
 	slot0:updateSeasonLeftTime(slot0.seasonTime)
@@ -158,11 +158,11 @@ function slot0.updateSeasonTime(slot0)
 	slot0:updateExerciseCount()
 end
 
-function slot0.updateExerciseCount(slot0)
+slot0.updateExerciseCount = function(slot0)
 	setText(findTF(slot0.seasonInfoPanel, "count"), math.max(slot0.exerciseCount or 0, 0) .. "/" .. SeasonInfo.MAX_FIGHTCOUNT)
 end
 
-function slot0.updateSeasonLeftTime(slot0, slot1)
+slot0.updateSeasonLeftTime = function(slot0, slot1)
 	if slot0.leftTimeTimer then
 		slot0.leftTimeTimer:Stop()
 
@@ -190,7 +190,7 @@ function slot0.updateSeasonLeftTime(slot0, slot1)
 	slot0.leftTimeTimer.func()
 end
 
-function slot0.updateRecoverTime(slot0, slot1)
+slot0.updateRecoverTime = function(slot0, slot1)
 	if slot0.recoverTimer then
 		slot0.recoverTimer:Stop()
 
@@ -219,8 +219,8 @@ function slot0.updateRecoverTime(slot0, slot1)
 	slot0.recoverTimer.func()
 end
 
-function slot0.initPlayerFleet(slot0)
-	function slot1(slot0, slot1, slot2)
+slot0.initPlayerFleet = function(slot0)
+	slot1 = function(slot0, slot1, slot2)
 		slot3 = cloneTplTo(uv0.shipTpl, slot1)
 		slot4 = slot0.configId
 		slot5 = slot0.skinId
@@ -262,7 +262,7 @@ function slot0.initPlayerFleet(slot0)
 	end
 end
 
-function slot0.initPlayerInfo(slot0)
+slot0.initPlayerInfo = function(slot0)
 	slot1 = slot0.seasonInfo.score
 	slot2 = slot0:findTF("bottom/player_info")
 
@@ -284,7 +284,7 @@ function slot0.initPlayerInfo(slot0)
 	findTF(slot2, "exp_slider"):GetComponent("Slider").value = math.min(slot10, slot1) / slot10
 end
 
-function slot0.updateRivals(slot0)
+slot0.updateRivals = function(slot0)
 	slot0.rivalTFs = {}
 
 	for slot4 = 1, 4 do
@@ -300,7 +300,7 @@ function slot0.updateRivals(slot0)
 	end
 end
 
-function slot0.updateRival(slot0, slot1)
+slot0.updateRival = function(slot0, slot1)
 	slot2 = slot0.rivalTFs[slot1]
 	slot3 = slot0.rivalVOs[slot1]
 
@@ -331,7 +331,7 @@ function slot0.updateRival(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.initAwards(slot0)
+slot0.initAwards = function(slot0)
 	assert(not slot0.isInitAward, "已经初始化奖励列表")
 	setActive(slot0.awardPanel, true)
 	onButton(slot0, slot0:findTF("top/btnBack", slot0.awardPanel), function ()
@@ -346,7 +346,7 @@ function slot0.initAwards(slot0)
 
 	setText(slot0:findTF("bg/frame/content/award_panel/Text", slot0.awardPanel), i18n("exercise_award_tip"))
 
-	function slot8(slot0, slot1)
+	slot8 = function(slot0, slot1)
 		slot2 = uv0:findTF("awards", slot0)
 		slot3 = uv0.rankCfg[slot1]
 		slot7 = ":"
@@ -378,7 +378,7 @@ function slot0.initAwards(slot0)
 	end
 end
 
-function slot0.closeAwards(slot0)
+slot0.closeAwards = function(slot0)
 	if slot0.isOpenAwards then
 		setActive(slot0.awardPanel, false)
 
@@ -388,7 +388,7 @@ function slot0.closeAwards(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.isOpenAwards then
 		slot0:closeAwards()
 	else
@@ -397,7 +397,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)
 	end

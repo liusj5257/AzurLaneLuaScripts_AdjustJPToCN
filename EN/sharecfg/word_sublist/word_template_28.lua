@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_28 = {}
 slot1 = slot0.word_template_28
 
-function temp()
+temp = function()
 	uv0["族"] = {
 		["淨"] = {
 			["化"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["多"] = {
 		["重"] = {
 			["債"] = {
@@ -152,7 +152,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["待"] = {
 		["ち"] = {
 			["合"] = {
@@ -233,7 +233,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["退"] = {
 		["党"] = {
 			this = true
@@ -399,7 +399,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["大"] = {
 		["?"] = {
 			this = true
@@ -2006,7 +2006,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["脱"] = {
 		["毛"] = {
 			this = true,
@@ -2115,7 +2115,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["知"] = {
 		["障"] = {
 			this = true

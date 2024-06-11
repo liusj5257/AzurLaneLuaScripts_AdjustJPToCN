@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_81 = {}
 slot1 = slot0.word_template_81
 
-function temp()
+temp = function()
 	uv0["德"] = {
 		["版"] = {
 			P = {
@@ -57,7 +57,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["灯"] = {
 		["月"] = {
 			["缘"] = {
@@ -69,7 +69,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["登"] = {
 		["輝"] = {
 			this = true
@@ -113,7 +113,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["等"] = {
 		["你"] = {
 			["插"] = {
@@ -135,7 +135,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["邓"] = {
 		["矮"] = {
 			this = true,
@@ -315,7 +315,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鄧"] = {
 		["小"] = {
 			["平"] = {
@@ -364,7 +364,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["滴"] = {
 		["蜡"] = {
 			this = true

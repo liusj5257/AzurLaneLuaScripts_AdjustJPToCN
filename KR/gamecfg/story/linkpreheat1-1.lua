@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT1-1",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LINKPREHEAT1-1",
+	fadein = 1.5,
 	scripts = {
 		{
-			actor = 10300060,
 			side = 2,
-			nameColor = "#92fc63",
-			say = "쿠온~! 네코네~! 루루티에님~! 안 계신가요~?!",
 			dir = 1,
 			bgm = "level-uta",
+			actor = 10300060,
+			nameColor = "#92fc63",
+			say = "쿠온~! 네코네~! 루루티에님~! 안 계신가요~?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,8 +21,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			side = 2,
-			stopbgm = true,
-			soundeffect = "event:/battle/boom2",
-			dir = 1,
 			say = "(쾅~!)",
+			stopbgm = true,
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,

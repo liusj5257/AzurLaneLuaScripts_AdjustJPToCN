@@ -7,19 +7,19 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
-			say = "When the elevator door opens, a data center like one in a Sci-Fi movie comes into view.",
 			bgm = "story-antarctica-serious",
+			say = "When the elevator door opens, a data center like one in a Sci-Fi movie comes into view.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "This is the source of the megacorporation's ability to control the city. With the combined power of the nanocircuit and supercomputing technology, almost no secrets can remain secret.",
 			typewriter = {
@@ -28,8 +28,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "Almost.",
 			typewriter = {
@@ -38,8 +38,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_starsea_core_1",
 			say = "I enter the data center, and a pale blue hologram appears before me.",
 			typewriter = {
@@ -134,10 +134,10 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			factiontag = "Megacorporation AI",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			say = "Orders received. As you wish, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -145,13 +145,13 @@ return {
 			}
 		},
 		{
-			spacing = 30,
-			mode = 1,
 			bgName = "star_level_bg_154",
-			stopbgm = true,
-			asideType = 4,
+			mode = 1,
+			spacing = 30,
 			optionFlag = 1,
 			bgm = "story-antarctica-serious",
+			stopbgm = true,
+			asideType = 4,
 			rectOffset = {
 				400,
 				400,
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			optionFlag = 1,
 			blackBg = true,
 			sequence = {
@@ -198,10 +198,10 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			factiontag = "Megacorporation AI",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			say = "Orders received. As you wish, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -209,13 +209,13 @@ return {
 			}
 		},
 		{
-			spacing = 30,
-			mode = 1,
 			bgName = "star_level_bg_154",
-			stopbgm = true,
-			asideType = 4,
+			mode = 1,
+			spacing = 30,
 			optionFlag = 2,
 			bgm = "story-antarctica-serious",
+			stopbgm = true,
+			asideType = 4,
 			rectOffset = {
 				400,
 				400,
@@ -250,8 +250,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			optionFlag = 2,
 			blackBg = true,
 			sequence = {
@@ -266,10 +266,10 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			factiontag = "Megacorporation AI",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			optionFlag = 3,
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			say = "Orders received. As you wish, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -277,13 +277,13 @@ return {
 			}
 		},
 		{
-			spacing = 30,
-			mode = 1,
 			bgName = "star_level_bg_154",
-			stopbgm = true,
-			asideType = 4,
+			mode = 1,
+			spacing = 30,
 			optionFlag = 3,
 			bgm = "story-antarctica-serious",
+			stopbgm = true,
+			asideType = 4,
 			rectOffset = {
 				400,
 				400,
@@ -322,8 +322,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			optionFlag = 3,
 			blackBg = true,
 			sequence = {
@@ -338,10 +338,10 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			factiontag = "Megacorporation AI",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			optionFlag = 4,
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			say = "............",
 			typewriter = {
 				speed = 0.05,
@@ -353,10 +353,10 @@ return {
 			side = 2,
 			bgName = "bg_starsea_core_1",
 			factiontag = "Megacorporation AI",
-			actorName = "TB",
+			nameColor = "#A9F548FF",
 			optionFlag = 4,
 			actor = 900284,
-			nameColor = "#A9F548FF",
+			actorName = "TB",
 			say = "Orders received. As you wish, Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -364,13 +364,13 @@ return {
 			}
 		},
 		{
-			spacing = 30,
-			mode = 1,
 			bgName = "star_level_bg_154",
-			stopbgm = true,
-			asideType = 4,
+			mode = 1,
+			spacing = 30,
 			optionFlag = 4,
 			bgm = "story-antarctica-serious",
+			stopbgm = true,
+			asideType = 4,
 			rectOffset = {
 				400,
 				400,
@@ -417,8 +417,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			optionFlag = 4,
 			blackBg = true,
 			sequence = {
@@ -429,9 +429,9 @@ return {
 			}
 		},
 		{
-			spacing = 40,
 			mode = 6,
 			time = 40,
+			spacing = 40,
 			bgm = "story-antarctica-serious",
 			layout = {
 				{

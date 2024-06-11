@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN15",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
+			nameColor = "#A9F548FF",
+			bgm = "battle-againstfate",
 			stopbgm = true,
 			say = "演習海域にて・4ターン目（赤城）",
-			bgm = "battle-againstfate",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#A9F548FF",
 			say = "わわっ、また量産艦に撃沈判定が出た…このままでは山城が出ないといけなくなりますぅ…",
 			painting = {
 				alpha = 0.3,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -126,8 +126,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg9",
 			say = "瞬間、コンパイラーのスペアボディは演習弾の爆炎に飲み込まれた。",
 			typewriter = {
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg9",
+			nameColor = "#A9F548FF",
 			say = "それも量産艦や山城達による砲撃ではなく、空から新たに投下された無数の爆弾によって――",
 			effects = {
 				{
@@ -187,8 +187,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "あの小部屋にずっと引きこもっていては眠ってしまいそうよ。気分転換に来たわ",
 			painting = {
@@ -204,8 +204,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "赤城さん、あのコンパイラーを一体どうやって……",
 			painting = {
@@ -237,8 +237,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "だから、この演習場の特性を活かし攻撃を変質させれば容易に対策できるはずよ",
 			painting = {
@@ -302,8 +302,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "わかりました。盤上の状況を全て把握している赤城さんがそう言うのなら……",
 			painting = {
@@ -319,8 +319,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "あなた自身も考えるべきよ。龍鳳、それに神通、ほかの艦船も",
 			painting = {
@@ -400,8 +400,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "山城にはもっと重要な拠点を任せるわ",
 			painting = {
@@ -433,8 +433,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "落ち着きなさい、まだ話の途中よ",
 			painting = {
@@ -450,8 +450,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "大先輩は既にこちら側との境界線を封鎖している。このまま長門さまと合流されたら困るわ",
 			painting = {
@@ -480,13 +480,13 @@ return {
 			}
 		},
 		{
-			actor = 302130,
 			nameColor = "#A9F548FF",
+			side = 0,
 			bgName = "bg_wuzang_bg9",
-			hidePaintObj = true,
+			actor = 302130,
 			hideOther = true,
 			actorName = "{namecode:39}&{namecode:5}",
-			side = 0,
+			hidePaintObj = true,
 			say = "はい！",
 			subActors = {
 				{
@@ -538,8 +538,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "あの海域は確かに危険そうですけど、山城の粘り強さがあれば…むしろ赤城さんは山城の粘り強さを考えてこの配置を――",
 			painting = {
@@ -571,8 +571,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "変なところで相性がいいですね…山城と赤城さん",
 			painting = {
@@ -588,8 +588,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "赤城さん、中央拠点は私にも行かせてください。何かあったときは一人より二人で対処したほうが安全です",
 			painting = {
@@ -621,8 +621,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 307010,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
 			say = "確かに二人いれば臨機応変できるし、山城の直掩に行きなさい",
 			painting = {
@@ -638,8 +638,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_wuzang_bg9",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#A9F548FF",
 			say = "わかりました。赤城さん",
 			painting = {

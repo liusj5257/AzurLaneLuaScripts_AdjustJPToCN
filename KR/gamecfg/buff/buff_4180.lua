@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_1",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_20",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_1_T_20"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_20",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_2_T_20"
 				}
 			},
 			{
@@ -52,8 +52,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_21",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_1_T_21"
 				}
 			},
 			{
@@ -63,8 +63,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_21",
-					number = -0.05
+					number = -0.05,
+					attr = "DMG_FROM_TAG_2_T_21"
 				}
 			}
 		}
@@ -78,8 +78,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.055
+					number = -0.055,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_1",
-					number = -0.055
+					number = -0.055,
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -100,8 +100,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_20",
-					number = -0.055
+					number = -0.055,
+					attr = "DMG_FROM_TAG_1_T_20"
 				}
 			},
 			{
@@ -111,8 +111,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_20",
-					number = -0.055
+					number = -0.055,
+					attr = "DMG_FROM_TAG_2_T_20"
 				}
 			},
 			{
@@ -122,8 +122,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_21",
-					number = -0.055
+					number = -0.055,
+					attr = "DMG_FROM_TAG_1_T_21"
 				}
 			},
 			{
@@ -133,8 +133,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_21",
-					number = -0.055
+					number = -0.055,
+					attr = "DMG_FROM_TAG_2_T_21"
 				}
 			}
 		}
@@ -148,8 +148,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -159,8 +159,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_1",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -170,8 +170,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_20",
-					number = -0.06
+					number = -0.06,
+					attr = "DMG_FROM_TAG_1_T_20"
 				}
 			},
 			{
@@ -181,8 +181,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_20",
-					number = -0.06
+					number = -0.06,
+					attr = "DMG_FROM_TAG_2_T_20"
 				}
 			},
 			{
@@ -192,8 +192,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_21",
-					number = -0.06
+					number = -0.06,
+					attr = "DMG_FROM_TAG_1_T_21"
 				}
 			},
 			{
@@ -203,8 +203,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_21",
-					number = -0.06
+					number = -0.06,
+					attr = "DMG_FROM_TAG_2_T_21"
 				}
 			}
 		}
@@ -218,8 +218,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = 0.065
+					number = 0.065,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -229,8 +229,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_1",
-					number = 0.065
+					number = 0.065,
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -240,8 +240,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_20",
-					number = -0.065
+					number = -0.065,
+					attr = "DMG_FROM_TAG_1_T_20"
 				}
 			},
 			{
@@ -251,8 +251,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_20",
-					number = -0.065
+					number = -0.065,
+					attr = "DMG_FROM_TAG_2_T_20"
 				}
 			},
 			{
@@ -262,8 +262,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_21",
-					number = -0.065
+					number = -0.065,
+					attr = "DMG_FROM_TAG_1_T_21"
 				}
 			},
 			{
@@ -273,8 +273,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_21",
-					number = -0.065
+					number = -0.065,
+					attr = "DMG_FROM_TAG_2_T_21"
 				}
 			}
 		}
@@ -288,8 +288,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.07
+					number = -0.07,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -299,8 +299,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_1",
-					number = -0.07
+					number = -0.07,
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -310,8 +310,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_20",
-					number = -0.07
+					number = -0.07,
+					attr = "DMG_FROM_TAG_1_T_20"
 				}
 			},
 			{
@@ -321,8 +321,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_20",
-					number = -0.07
+					number = -0.07,
+					attr = "DMG_FROM_TAG_2_T_20"
 				}
 			},
 			{
@@ -332,8 +332,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_21",
-					number = -0.07
+					number = -0.07,
+					attr = "DMG_FROM_TAG_1_T_21"
 				}
 			},
 			{
@@ -343,8 +343,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_21",
-					number = -0.07
+					number = -0.07,
+					attr = "DMG_FROM_TAG_2_T_21"
 				}
 			}
 		}
@@ -358,8 +358,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.075
+					number = -0.075,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -369,8 +369,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_1",
-					number = -0.075
+					number = -0.075,
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -380,8 +380,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_20",
-					number = -0.075
+					number = -0.075,
+					attr = "DMG_FROM_TAG_1_T_20"
 				}
 			},
 			{
@@ -391,8 +391,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_20",
-					number = -0.075
+					number = -0.075,
+					attr = "DMG_FROM_TAG_2_T_20"
 				}
 			},
 			{
@@ -402,8 +402,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_21",
-					number = -0.075
+					number = -0.075,
+					attr = "DMG_FROM_TAG_1_T_21"
 				}
 			},
 			{
@@ -413,8 +413,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_21",
-					number = -0.075
+					number = -0.075,
+					attr = "DMG_FROM_TAG_2_T_21"
 				}
 			}
 		}
@@ -428,8 +428,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.08
+					number = -0.08,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -439,8 +439,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_1",
-					number = -0.08
+					number = -0.08,
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -450,8 +450,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_20",
-					number = -0.08
+					number = -0.08,
+					attr = "DMG_FROM_TAG_1_T_20"
 				}
 			},
 			{
@@ -461,8 +461,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_20",
-					number = -0.08
+					number = -0.08,
+					attr = "DMG_FROM_TAG_2_T_20"
 				}
 			},
 			{
@@ -472,8 +472,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_21",
-					number = -0.08
+					number = -0.08,
+					attr = "DMG_FROM_TAG_1_T_21"
 				}
 			},
 			{
@@ -483,8 +483,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_21",
-					number = -0.08
+					number = -0.08,
+					attr = "DMG_FROM_TAG_2_T_21"
 				}
 			}
 		}
@@ -498,8 +498,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.085
+					number = -0.085,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -509,8 +509,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_1",
-					number = -0.085
+					number = -0.085,
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -520,8 +520,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_20",
-					number = -0.085
+					number = -0.085,
+					attr = "DMG_FROM_TAG_1_T_20"
 				}
 			},
 			{
@@ -531,8 +531,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_20",
-					number = -0.085
+					number = -0.085,
+					attr = "DMG_FROM_TAG_2_T_20"
 				}
 			},
 			{
@@ -542,8 +542,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_21",
-					number = -0.085
+					number = -0.085,
+					attr = "DMG_FROM_TAG_1_T_21"
 				}
 			},
 			{
@@ -553,8 +553,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_21",
-					number = -0.085
+					number = -0.085,
+					attr = "DMG_FROM_TAG_2_T_21"
 				}
 			}
 		}
@@ -568,8 +568,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.09
+					number = -0.09,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -579,8 +579,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_1",
-					number = -0.09
+					number = -0.09,
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -590,8 +590,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_20",
-					number = -0.09
+					number = -0.09,
+					attr = "DMG_FROM_TAG_1_T_20"
 				}
 			},
 			{
@@ -601,8 +601,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_20",
-					number = -0.09
+					number = -0.09,
+					attr = "DMG_FROM_TAG_2_T_20"
 				}
 			},
 			{
@@ -612,8 +612,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_21",
-					number = -0.09
+					number = -0.09,
+					attr = "DMG_FROM_TAG_1_T_21"
 				}
 			},
 			{
@@ -623,8 +623,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_21",
-					number = -0.09
+					number = -0.09,
+					attr = "DMG_FROM_TAG_2_T_21"
 				}
 			}
 		}
@@ -638,8 +638,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_1",
-					number = -0.1
+					number = -0.1,
+					attr = "DMG_FROM_TAG_1_T_1"
 				}
 			},
 			{
@@ -649,8 +649,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_1",
-					number = -0.1
+					number = -0.1,
+					attr = "DMG_FROM_TAG_2_T_1"
 				}
 			},
 			{
@@ -660,8 +660,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_20",
-					number = -0.1
+					number = -0.1,
+					attr = "DMG_FROM_TAG_1_T_20"
 				}
 			},
 			{
@@ -671,8 +671,8 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_20",
-					number = -0.1
+					number = -0.1,
+					attr = "DMG_FROM_TAG_2_T_20"
 				}
 			},
 			{
@@ -682,8 +682,8 @@ return {
 				},
 				arg_list = {
 					group = 4150,
-					attr = "DMG_FROM_TAG_1_T_21",
-					number = -0.1
+					number = -0.1,
+					attr = "DMG_FROM_TAG_1_T_21"
 				}
 			},
 			{
@@ -693,20 +693,20 @@ return {
 				},
 				arg_list = {
 					group = 4151,
-					attr = "DMG_FROM_TAG_2_T_21",
-					number = -0.1
+					number = -0.1,
+					attr = "DMG_FROM_TAG_2_T_21"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "blue",
+	id = 4180,
+	time = 0,
 	picture = "",
 	desc = "降低受到来自驱逐的炮击雷击伤害",
 	stack = 1,
-	id = 4180,
+	color = "blue",
 	icon = 4180,
 	last_effect = "",
 	blink = {
@@ -724,8 +724,8 @@ return {
 			},
 			arg_list = {
 				group = 4150,
-				attr = "DMG_FROM_TAG_1_T_1",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_1_T_1"
 			}
 		},
 		{
@@ -735,8 +735,8 @@ return {
 			},
 			arg_list = {
 				group = 4151,
-				attr = "DMG_FROM_TAG_2_T_1",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_2_T_1"
 			}
 		},
 		{
@@ -746,8 +746,8 @@ return {
 			},
 			arg_list = {
 				group = 4150,
-				attr = "DMG_FROM_TAG_1_T_20",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_1_T_20"
 			}
 		},
 		{
@@ -757,8 +757,8 @@ return {
 			},
 			arg_list = {
 				group = 4151,
-				attr = "DMG_FROM_TAG_2_T_20",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_2_T_20"
 			}
 		},
 		{
@@ -768,8 +768,8 @@ return {
 			},
 			arg_list = {
 				group = 4150,
-				attr = "DMG_FROM_TAG_1_T_21",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_1_T_21"
 			}
 		},
 		{
@@ -779,8 +779,8 @@ return {
 			},
 			arg_list = {
 				group = 4151,
-				attr = "DMG_FROM_TAG_2_T_21",
-				number = -0.05
+				number = -0.05,
+				attr = "DMG_FROM_TAG_2_T_21"
 			}
 		}
 	}

@@ -1,8 +1,8 @@
 return {
 	fadeOut = 0.5,
 	mode = 1,
-	id = "HOSHO8",
 	fadeType = 1,
+	id = "HOSHO8",
 	occlusion = 2,
 	scripts = {
 		{

@@ -7,9 +7,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
+					skill_id = 1090160,
+					time = 5,
 					rant = 4500,
-					time = 5,
-					skill_id = 1090160,
 					target = "TargetSelf",
 					index = {
 						1
@@ -26,9 +26,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
+					skill_id = 1090160,
+					time = 5,
 					rant = 4830,
-					time = 5,
-					skill_id = 1090160,
 					target = "TargetSelf",
 					index = {
 						1
@@ -45,9 +45,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
+					skill_id = 1090160,
+					time = 5,
 					rant = 5160,
-					time = 5,
-					skill_id = 1090160,
 					target = "TargetSelf",
 					index = {
 						1
@@ -64,9 +64,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
+					skill_id = 1090160,
+					time = 5,
 					rant = 5490,
-					time = 5,
-					skill_id = 1090160,
 					target = "TargetSelf",
 					index = {
 						1
@@ -83,9 +83,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
+					skill_id = 1090160,
+					time = 5,
 					rant = 5820,
-					time = 5,
-					skill_id = 1090160,
 					target = "TargetSelf",
 					index = {
 						1
@@ -102,9 +102,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
+					skill_id = 1090160,
+					time = 5,
 					rant = 6150,
-					time = 5,
-					skill_id = 1090160,
 					target = "TargetSelf",
 					index = {
 						1
@@ -121,9 +121,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
+					skill_id = 1090160,
+					time = 5,
 					rant = 6480,
-					time = 5,
-					skill_id = 1090160,
 					target = "TargetSelf",
 					index = {
 						1
@@ -140,9 +140,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
+					skill_id = 1090160,
+					time = 5,
 					rant = 6810,
-					time = 5,
-					skill_id = 1090160,
 					target = "TargetSelf",
 					index = {
 						1
@@ -159,9 +159,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
+					skill_id = 1090160,
+					time = 5,
 					rant = 7140,
-					time = 5,
-					skill_id = 1090160,
 					target = "TargetSelf",
 					index = {
 						1
@@ -178,9 +178,9 @@ return {
 					"onFire"
 				},
 				arg_list = {
-					rant = 7500,
-					time = 5,
 					skill_id = 1090160,
+					time = 5,
+					rant = 7500,
 					target = "TargetSelf",
 					index = {
 						1
@@ -192,12 +192,12 @@ return {
 	desc_get = "",
 	name = "主炮连射·萨福克",
 	init_effect = "",
+	id = 1090160,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 1090160,
+	color = "red",
 	icon = 2060,
 	last_effect = "",
 	effect_list = {
@@ -207,9 +207,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				rant = 4500,
-				time = 5,
 				skill_id = 1090160,
+				time = 5,
+				rant = 4500,
 				target = "TargetSelf",
 				index = {
 					1

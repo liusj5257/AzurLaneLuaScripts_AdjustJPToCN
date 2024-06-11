@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.01
+					number = 0.01,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			},
 			{
@@ -19,8 +19,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_4",
-					number = 0.01
+					number = 0.01,
+					attr = "DMG_TAG_EHC_N_4"
 				}
 			},
 			{
@@ -30,8 +30,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_97",
-					number = 0.01
+					number = 0.01,
+					attr = "DMG_TAG_EHC_N_97"
 				}
 			},
 			{
@@ -41,8 +41,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_6",
-					number = 0.01
+					number = 0.01,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
@@ -56,8 +56,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.02
+					number = 0.02,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			},
 			{
@@ -67,8 +67,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_4",
-					number = 0.02
+					number = 0.02,
+					attr = "DMG_TAG_EHC_N_4"
 				}
 			},
 			{
@@ -78,8 +78,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_97",
-					number = 0.02
+					number = 0.02,
+					attr = "DMG_TAG_EHC_N_97"
 				}
 			},
 			{
@@ -89,8 +89,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_6",
-					number = 0.02
+					number = 0.02,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
@@ -104,8 +104,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.03
+					number = 0.03,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			},
 			{
@@ -115,8 +115,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_4",
-					number = 0.03
+					number = 0.03,
+					attr = "DMG_TAG_EHC_N_4"
 				}
 			},
 			{
@@ -126,8 +126,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_97",
-					number = 0.03
+					number = 0.03,
+					attr = "DMG_TAG_EHC_N_97"
 				}
 			},
 			{
@@ -137,8 +137,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_6",
-					number = 0.03
+					number = 0.03,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
@@ -152,8 +152,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.04
+					number = 0.04,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			},
 			{
@@ -163,8 +163,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_4",
-					number = 0.04
+					number = 0.04,
+					attr = "DMG_TAG_EHC_N_4"
 				}
 			},
 			{
@@ -174,8 +174,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_97",
-					number = 0.04
+					number = 0.04,
+					attr = "DMG_TAG_EHC_N_97"
 				}
 			},
 			{
@@ -185,8 +185,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_6",
-					number = 0.04
+					number = 0.04,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
@@ -200,8 +200,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			},
 			{
@@ -211,8 +211,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_4",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_N_4"
 				}
 			},
 			{
@@ -222,8 +222,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_97",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_N_97"
 				}
 			},
 			{
@@ -233,8 +233,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_6",
-					number = 0.05
+					number = 0.05,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
@@ -248,8 +248,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			},
 			{
@@ -259,8 +259,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_4",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_N_4"
 				}
 			},
 			{
@@ -270,8 +270,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_97",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_N_97"
 				}
 			},
 			{
@@ -281,8 +281,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_6",
-					number = 0.06
+					number = 0.06,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
@@ -296,8 +296,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.07
+					number = 0.07,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			},
 			{
@@ -307,8 +307,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_4",
-					number = 0.07
+					number = 0.07,
+					attr = "DMG_TAG_EHC_N_4"
 				}
 			},
 			{
@@ -318,8 +318,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_97",
-					number = 0.07
+					number = 0.07,
+					attr = "DMG_TAG_EHC_N_97"
 				}
 			},
 			{
@@ -329,8 +329,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_6",
-					number = 0.07
+					number = 0.07,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
@@ -344,8 +344,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			},
 			{
@@ -355,8 +355,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_4",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_N_4"
 				}
 			},
 			{
@@ -366,8 +366,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_97",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_N_97"
 				}
 			},
 			{
@@ -377,8 +377,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_6",
-					number = 0.08
+					number = 0.08,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
@@ -392,8 +392,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.09
+					number = 0.09,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			},
 			{
@@ -403,8 +403,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_4",
-					number = 0.09
+					number = 0.09,
+					attr = "DMG_TAG_EHC_N_4"
 				}
 			},
 			{
@@ -414,8 +414,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_97",
-					number = 0.09
+					number = 0.09,
+					attr = "DMG_TAG_EHC_N_97"
 				}
 			},
 			{
@@ -425,8 +425,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_6",
-					number = 0.09
+					number = 0.09,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
@@ -440,8 +440,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_3",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_N_3"
 				}
 			},
 			{
@@ -451,8 +451,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_4",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_N_4"
 				}
 			},
 			{
@@ -462,8 +462,8 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_97",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_N_97"
 				}
 			},
 			{
@@ -473,15 +473,15 @@ return {
 				},
 				arg_list = {
 					group = 800431,
-					attr = "DMG_TAG_EHC_N_6",
-					number = 0.1
+					number = 0.1,
+					attr = "DMG_TAG_EHC_N_6"
 				}
 			}
 		}
 	},
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "伤害提升",
 	stack = 1,

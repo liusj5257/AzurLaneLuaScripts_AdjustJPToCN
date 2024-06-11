@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "Z465",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "Z465",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"순백의 시\n\n<size=45>5. 막간II</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
-			bgmDelay = 2,
-			bgName = "bg_story_school",
 			say = "항구-학원",
+			bgName = "bg_story_school",
+			bgmDelay = 2,
+			bgm = "story-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			bgName = "bg_story_school",
+			blackBg = true,
 			say = "나는 체펠린의 도시락인 사워크라우트 파엘라를 한 스푼 떠서 입에 넣었다.",
 			typewriter = {
 				speed = 0.05,

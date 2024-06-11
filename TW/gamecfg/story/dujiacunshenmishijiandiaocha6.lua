@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA6",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_504",
+			nameColor = "#A9F548FF",
 			actorName = "劇中旁白",
-			stopbgm = true,
-			paintingNoise = true,
+			bgName = "star_level_bg_504",
 			bgm = "cw-story",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
+			paintingNoise = true,
 			hidePaintObj = true,
 			say = "白霧散去後，旅人們發現自己來到了木船之上。",
 			typewriter = {
@@ -23,17 +23,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -63,10 +63,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇中旁白",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "沒錯，現在是劇目的第二幕喲。",
 			typewriter = {
 				speed = 0.05,
@@ -74,11 +74,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "和噗噗在一起",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "真的好神奇……前一秒還在雪山上，現在已經在驚濤駭浪中了。",
@@ -95,10 +95,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇中旁白",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "狂風暴雨，巨浪迭起，旅人們感覺自己似乎有些暈船了。",
 			typewriter = {
@@ -107,11 +107,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不，我完全不暈。",
@@ -125,11 +125,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "畢竟，我們是艦船，會暈船的話也太奇怪了。",
@@ -146,10 +146,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇中旁白",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "咳……雖然狂風暴雨，巨浪迭起，但旅人們依然感覺神清氣爽！",
 			typewriter = {
 				speed = 0.05,
@@ -160,10 +160,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇中旁白",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "只是，旅人在大海面前始終只是渺小的存在。",
 			typewriter = {
@@ -175,10 +175,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇中旁白",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "幾艘渺小的漁船，在海上的大妖怪面前，又算得了什麼呢。",
 			typewriter = {
 				speed = 0.05,
@@ -186,8 +186,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海坊主",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "有實力的年長者",
 			nameColor = "#A9F548FF",
@@ -207,8 +207,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海坊主",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "有實力的年長者",
 			nameColor = "#A9F548FF",
@@ -263,10 +263,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "善良的漁民",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "如果海坊主大人對貢品不滿意，暴雨就不會停。",
 			typewriter = {
 				speed = 0.05,
@@ -287,11 +287,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "連老實的漁民都欺負？不可饒恕！我們去打倒它吧。",
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "贊同！再厲害的妖怪，也抵擋不住艦炮的厲害！",
@@ -339,10 +339,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 302210,
 			actorName = "勇敢的漁民",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我不服！憑什麼要把我們辛辛苦苦賺來的錢財和食物送給妖怪！",
 			typewriter = {
 				speed = 0.05,
@@ -353,10 +353,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "善良的漁民",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "冷靜，冷靜點……妳不服又能怎麼辦呢。",
 			typewriter = {
 				speed = 0.05,
@@ -393,10 +393,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇中旁白",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "勇敢的漁民手舉魚叉，氣勢洶洶地跳下了船。",
 			typewriter = {
 				speed = 0.05,
@@ -407,10 +407,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇中旁白",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "下一個瞬間，本就不平穩的海面突然掀起巨浪，將勇敢的漁民吞入了漆黑的海水之下。",
 			typewriter = {
@@ -422,10 +422,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "善良的漁民",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "唉~又一個以卵擊石的傻瓜！這又是何必呢？",
 			typewriter = {
 				speed = 0.05,
@@ -484,11 +484,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "但是老實去交貢品真的能成功通關嗎？",
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海坊主",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "有實力的年長者",
 			nameColor = "#A9F548FF",
@@ -558,10 +558,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇中旁白",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "海坊主似乎對於貢品的數量頗為不滿。一道巨浪襲來，認真的漁民也消失在漆黑的海水下。",
 			typewriter = {
@@ -573,10 +573,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "善良的漁民",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "唉……看來我們帶來的貢品根本不夠啊。",
 			typewriter = {
 				speed = 0.05,
@@ -597,11 +597,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "尋找本日的刺激",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "既不能下船給它一炮，也不能直接交貢品……怎麼辦？",
@@ -615,11 +615,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "如果把大家的貢品都湊在一起呢？",
@@ -652,13 +652,13 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			actorName = "撫順&布里斯托爾",
+			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			hideOther = true,
 			actor = 501020,
 			nameColor = "#A9F548FF",
-			side = 2,
+			hidePaintObj = true,
 			say = "天才————！",
 			dialogShake = {
 				speed = 0.08,
@@ -683,10 +683,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 301290,
 			actorName = "善良的漁民",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（……天才！）",
 			dialogShake = {
 				speed = 0.08,
@@ -701,11 +701,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			paintingNoise = true,
-			actorName = "劇中旁白",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "一筐接一筐，四周漁船上的貢品全部集中到了一處，連海坊主也不禁投來了貪婪的目光。",
 			typewriter = {
@@ -713,17 +713,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -731,8 +731,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海坊主",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "有實力的年長者",
 			nameColor = "#A9F548FF",
@@ -755,10 +755,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇中旁白",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "一邊說著，海坊主一邊貪婪地向著小船的方位緩緩靠近。",
 			typewriter = {
@@ -786,11 +786,11 @@ return {
 			}
 		},
 		{
-			actor = 101490,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "傳奇調查員（自稱）",
 			dir = 1,
+			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "初月，投一點貢品到水裡去，吸引它離得再近點。",
@@ -804,11 +804,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "獨占欲強的小惡魔",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "好的，包在我身上~",
@@ -822,8 +822,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -851,8 +851,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -880,8 +880,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -893,10 +893,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇中旁白",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "啊……那些好像是，鬼火。",
 			typewriter = {
@@ -924,8 +924,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0
@@ -936,10 +936,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇中旁白",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "……嗯，也許是太過害怕的緣故，其中一位旅人小小的身軀中爆發出了無窮力量。",
 			typewriter = {
@@ -951,10 +951,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			actorName = "劇中旁白",
-			actor = 305130,
 			nameColor = "#A9F548FF",
+			paintingNoise = true,
+			actor = 305130,
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "只見她縱身一躍，從空中跳到了另一條船上，然而等待她卻是——",
 			typewriter = {
@@ -982,8 +982,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0
@@ -994,10 +994,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇中旁白",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "一艘船接著一艘船，直到跳到第八艘時，旅人發現自己已經來到了海坊主的面前。",
 			typewriter = {
 				speed = 0.05,
@@ -1005,8 +1005,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "海坊主",
+			side = 2,
 			bgName = "star_level_bg_504",
 			factiontag = "有實力的年長者",
 			nameColor = "#A9F548FF",
@@ -1045,8 +1045,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 2000,
+					type = "move",
 					delay = 0.5,
 					dur = 0.4,
 					x = 0
@@ -1056,11 +1056,11 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			paintingNoise = true,
-			actorName = "劇中旁白",
 			actor = 305130,
-			nameColor = "#A9F548FF",
+			actorName = "劇中旁白",
 			hidePaintObj = true,
 			say = "就這樣，海坊主被消滅了，大海恢復了平靜，漁民們也終於過上了幸福的生活。",
 			typewriter = {
@@ -1068,17 +1068,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -1089,10 +1089,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_504",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 305130,
 			actorName = "劇中旁白",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "可喜可賀，可喜可賀。",
 			typewriter = {
 				speed = 0.05,

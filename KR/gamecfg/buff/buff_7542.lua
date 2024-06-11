@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "传颂之物后排航空上升3%",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 7542,
+	time = 0,
 	picture = "",
 	desc = "传颂之物后排航空上升3%",
 	stack = 1,
-	id = 7542,
+	color = "red",
 	icon = 7540,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 300
+				number = 300,
+				attr = "airPower"
 			}
 		}
 	}

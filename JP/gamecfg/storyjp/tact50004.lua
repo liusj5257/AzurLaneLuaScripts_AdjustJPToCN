@@ -20,8 +20,8 @@ return {
 		{
 			actor = 103090,
 			side = 0,
-			nameColor = "#a9f548",
 			say = "ええと、多分オーストラリアがこっちに来た時、指揮権の委譲がうまく行かなかった……のかも？",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -120,11 +120,11 @@ return {
 			}
 		},
 		{
-			actor = 103090,
 			actorName = "クインシー＆ヴィンセンス",
 			side = 0,
-			hideOther = true,
+			actor = 103090,
 			dir = 1,
+			hideOther = true,
 			nameColor = "#a9f548",
 			say = "はい！",
 			subActors = {

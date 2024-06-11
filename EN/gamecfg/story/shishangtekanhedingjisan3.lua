@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Port Fashion Collection: Resplendent Night II\n\n<size=45>Diligent Domestic Discipline</size>",
@@ -14,14 +14,14 @@ return {
 			}
 		},
 		{
-			live2d = "main2",
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
 			dir = 1,
 			bgm = "story-richang-7",
 			actor = 301863,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "main2",
 			say = "Enjoy, Commander...",
 			painting = {
 				alpha = 0.3,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "Kazagumo anxiously hands me piping-hot tea.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "The scent of tea wafting over the terrace intermingles with the aroma of flowers.",
@@ -91,11 +91,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "Don't butter me up, Commander... Oh! Should I call you Master?",
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "You flatter me, Master, but I still have so much to learn.",
@@ -127,11 +127,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "I've only scratched the surface of the art of tea ceremonies.",
@@ -145,11 +145,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "On top of that, it's important for a maid to be able to keep the garden in peak condition.",
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "The flowers in the garden are in full bloom, bursting with color.",
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "The drops of water rolling gently down the petals are proof of how well they're cared for.",
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "It's embarrassing to receive such praise...",
@@ -227,11 +227,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "Umm... D-don't tease me, please...",
@@ -269,11 +269,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "W-wait! I still haven't shown you the most important result of my training!",
@@ -287,11 +287,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "So, basically...",
@@ -305,11 +305,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
-			side = 2,
-			bgName = "star_level_bg_142",
 			hidePaintObj = true,
+			side = 2,
 			dir = 1,
+			bgName = "star_level_bg_142",
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "Master, is my lap comfortable?",
@@ -322,17 +322,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -340,11 +340,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "I'm not cleaning your ears too forcefully?",
@@ -358,11 +358,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "It's a little itchy? Should I be more forceful?",
@@ -376,11 +376,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "That feels good? Okay, I'm glad...",
@@ -394,11 +394,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "All of my mentors told me this is the most important thing.",
@@ -412,11 +412,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Wholeheartedly serving my Master...",
@@ -430,11 +430,11 @@ return {
 			}
 		},
 		{
-			actor = 301863,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "star_level_bg_142",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 301863,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "Commander... Are you satisfied with my progress?",
@@ -448,8 +448,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "The fluffy ear pick gives me indescribable pleasure.",
@@ -459,8 +459,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "Combined with the softness of Kazagumo's thighs...",
@@ -470,8 +470,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			say = "Yeah. She gets a perfect score from me.",

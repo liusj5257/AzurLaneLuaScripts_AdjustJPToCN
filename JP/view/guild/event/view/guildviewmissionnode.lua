@@ -10,7 +10,7 @@ slot0.CENTER_LINK = 5
 slot0.TOP_HRZ_LINK = 6
 slot0.BOTTOM_HRZ_LINK = 7
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1.go
 	slot0._tf = tf(slot0._go)
 	slot0.slot = slot1.slot
@@ -29,17 +29,17 @@ function slot0.Ctor(slot0, slot1)
 	slot0.tip = slot0._tf:Find("tip")
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0:UpdateStyle()
 	slot0:CalcOffset()
 	slot0:SetPosition()
 end
 
-function slot0.IsFinish(slot0)
+slot0.IsFinish = function(slot0)
 	return slot0.data:IsFinish()
 end
 
-function slot0.IsUnLock(slot0)
+slot0.IsUnLock = function(slot0)
 	if not slot0.parent then
 		return true
 	else
@@ -47,7 +47,7 @@ function slot0.IsUnLock(slot0)
 	end
 end
 
-function slot0.ParentIFinish(slot0)
+slot0.ParentIFinish = function(slot0)
 	if not slot0.parent then
 		return false
 	end
@@ -55,7 +55,7 @@ function slot0.ParentIFinish(slot0)
 	return slot0.parent:IsFinish()
 end
 
-function slot0.ParentIsFinishByServer(slot0)
+slot0.ParentIsFinishByServer = function(slot0)
 	if not slot0.parent then
 		return false
 	end
@@ -63,11 +63,11 @@ function slot0.ParentIsFinishByServer(slot0)
 	return slot0.parent.data:IsFinishedByServer()
 end
 
-function slot0.IsActive(slot0)
+slot0.IsActive = function(slot0)
 	return slot0.data:IsActive()
 end
 
-function slot0.GetParentId(slot0)
+slot0.GetParentId = function(slot0)
 	if not slot0.parent then
 		return 0
 	end
@@ -75,7 +75,7 @@ function slot0.GetParentId(slot0)
 	return slot0.parent.data.id
 end
 
-function slot0.UpdateData(slot0, slot1)
+slot0.UpdateData = function(slot0, slot1)
 	slot0.data = slot1
 
 	slot0:UpdateStyle()
@@ -87,7 +87,7 @@ function slot0.UpdateData(slot0, slot1)
 	end
 end
 
-function slot0.UpdateStyle(slot0)
+slot0.UpdateStyle = function(slot0)
 	slot2 = not slot0:IsUnLock()
 	slot3 = slot0:IsMain()
 
@@ -101,7 +101,7 @@ function slot0.UpdateStyle(slot0)
 	slot0:UpdateTip()
 end
 
-function slot0.UpdateTip(slot0)
+slot0.UpdateTip = function(slot0)
 	setActive(slot0.tip, slot0:IsUnLock() and slot0.data:CanFormation() and not slot0:IsFinish())
 end
 
@@ -111,10 +111,10 @@ slot4 = {
 	"yellow"
 }
 
-function slot0.UpdateLineStyle(slot0)
+slot0.UpdateLineStyle = function(slot0)
 	slot1 = nil
 
-	function slot1(slot0, slot1)
+	slot1 = function(slot0, slot1)
 		if slot0.gameObject.name == "line" then
 			slot0:GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/guildmissionui_atlas", slot1 .. "_line")
 		elseif slot0.gameObject.name == "head" then
@@ -151,11 +151,11 @@ function slot0.UpdateLineStyle(slot0)
 	end
 end
 
-function slot0.Selected(slot0, slot1)
+slot0.Selected = function(slot0, slot1)
 	setActive(slot0.selected, slot1)
 end
 
-function slot0.CalcOffset(slot0)
+slot0.CalcOffset = function(slot0)
 	if not slot0.parent then
 		slot0.offset = 0
 
@@ -176,7 +176,7 @@ function slot0.CalcOffset(slot0)
 	end
 end
 
-function slot0.GetLocalPosition(slot0)
+slot0.GetLocalPosition = function(slot0)
 	if slot0.parent then
 		slot1 = slot0:GetOffset()
 		slot4 = slot0:IsMain() and 0 or uv1
@@ -187,41 +187,41 @@ function slot0.GetLocalPosition(slot0)
 	end
 end
 
-function slot0.SetPosition(slot0)
+slot0.SetPosition = function(slot0)
 	slot0._tf.anchoredPosition = slot0:GetLocalPosition()
 end
 
-function slot0.AddChild(slot0, slot1)
+slot0.AddChild = function(slot0, slot1)
 	table.insert(slot0.childs, slot1)
 end
 
-function slot0.GetChilds(slot0)
+slot0.GetChilds = function(slot0)
 	return slot0.childs
 end
 
-function slot0.HasParent(slot0)
+slot0.HasParent = function(slot0)
 	return slot0.parent ~= nil
 end
 
-function slot0.HasChild(slot0)
+slot0.HasChild = function(slot0)
 	return #slot0.childs > 0
 end
 
-function slot0.IsMain(slot0)
+slot0.IsMain = function(slot0)
 	return slot0.data:IsMain()
 end
 
-function slot0.GetOffset(slot0)
+slot0.GetOffset = function(slot0)
 	return slot0.offset
 end
 
-function slot0.GetParentOffset(slot0)
+slot0.GetParentOffset = function(slot0)
 	assert(slot0.parent)
 
 	return slot0.parent:GetOffset()
 end
 
-function slot0.GetFirstNodeOffset(slot0)
+slot0.GetFirstNodeOffset = function(slot0)
 	slot1 = 0
 	slot2 = slot0
 
@@ -233,7 +233,7 @@ function slot0.GetFirstNodeOffset(slot0)
 	return slot1
 end
 
-function slot0.AddLine(slot0, slot1, slot2, slot3)
+slot0.AddLine = function(slot0, slot1, slot2, slot3)
 	SetParent(tf(slot1), slot0.lineContainer)
 
 	if slot2 == uv0.LINE_LEFT then

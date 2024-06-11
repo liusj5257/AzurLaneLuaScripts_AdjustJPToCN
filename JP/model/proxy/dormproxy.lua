@@ -16,7 +16,7 @@ slot0.COLLECTION_THEME_TEMPLATE_DELETED = "DormProxy COLLECTION_THEME_TEMPLATE_D
 slot0.THEME_TEMPLATE_ADDED = "DormProxy THEME_TEMPLATE_ADDED"
 slot0.SHOP_THEME_TEMPLATE_DELETED = "DormProxy SHOP_THEME_TEMPLATE_DELETED"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.TYPE = 2
 	slot0.PAGE = 1
 	slot0.MAX_PAGE = 10
@@ -52,15 +52,15 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.GetVisitorShip(slot0)
+slot0.GetVisitorShip = function(slot0)
 	return slot0.visitorShip
 end
 
-function slot0.SetVisitorShip(slot0, slot1)
+slot0.SetVisitorShip = function(slot0, slot1)
 	slot0.visitorShip = slot1
 end
 
-function slot0.getBackYardShips(slot0)
+slot0.getBackYardShips = function(slot0)
 	slot1 = {}
 	slot2 = getProxy(BayProxy)
 
@@ -75,12 +75,12 @@ function slot0.getBackYardShips(slot0)
 	return slot1
 end
 
-function slot0.addShip(slot0, slot1)
+slot0.addShip = function(slot0, slot1)
 	slot0.data:addShip(slot1)
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 end
 
-function slot0.exitYardById(slot0, slot1)
+slot0.exitYardById = function(slot0, slot1)
 	slot2 = slot0:getShipById(slot1)
 
 	assert(slot2, "ship should exist")
@@ -89,13 +89,13 @@ function slot0.exitYardById(slot0, slot1)
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 end
 
-function slot0.getShipById(slot0, slot1)
+slot0.getShipById = function(slot0, slot1)
 	if slot0:getBackYardShips()[slot1] then
 		return slot2[slot1]
 	end
 end
 
-function slot0.getShipsByState(slot0, slot1)
+slot0.getShipsByState = function(slot0, slot1)
 	slot3 = {}
 
 	for slot7, slot8 in pairs(slot0:getBackYardShips()) do
@@ -107,19 +107,19 @@ function slot0.getShipsByState(slot0, slot1)
 	return slot3
 end
 
-function slot0.getTrainShipIds(slot0)
+slot0.getTrainShipIds = function(slot0)
 	return _.keys(slot0:getShipsByState(Ship.STATE_TRAIN) or {})
 end
 
-function slot0.getRestShipIds(slot0)
+slot0.getRestShipIds = function(slot0)
 	return _.keys(slot0:getShipsByState(Ship.STATE_REST) or {})
 end
 
-function slot0.getTrainShipCount(slot0)
+slot0.getTrainShipCount = function(slot0)
 	return #slot0:getTrainShipIds()
 end
 
-function slot0.addInimacyAndMoney(slot0, slot1, slot2, slot3)
+slot0.addInimacyAndMoney = function(slot0, slot1, slot2, slot3)
 	if not getProxy(BayProxy):getShipById(slot1) then
 		return
 	end
@@ -134,7 +134,11 @@ function slot0.addInimacyAndMoney(slot0, slot1, slot2, slot3)
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 end
 
-function slot0.clearInimacyAndMoney(slot0, slot1)
+slot0.UpdateInimacyAndMoney = function(slot0)
+	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
+end
+
+slot0.clearInimacyAndMoney = function(slot0, slot1)
 	if not getProxy(BayProxy):getShipById(slot1) then
 		return
 	end
@@ -148,7 +152,7 @@ function slot0.clearInimacyAndMoney(slot0, slot1)
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 end
 
-function slot0.isLackOfFood(slot0)
+slot0.isLackOfFood = function(slot0)
 	if slot0:getTrainShipCount() == 0 then
 		return false
 	end
@@ -162,7 +166,7 @@ function slot0.isLackOfFood(slot0)
 	return slot2 <= 0
 end
 
-function slot0.havePopEvent(slot0)
+slot0.havePopEvent = function(slot0)
 	for slot5, slot6 in pairs(slot0:getBackYardShips()) do
 		if slot6:hasStateInfo3Or4() then
 			return true
@@ -172,13 +176,13 @@ function slot0.havePopEvent(slot0)
 	return false
 end
 
-function slot0.AddFurniture(slot0, slot1)
+slot0.AddFurniture = function(slot0, slot1)
 	assert(isa(slot1, Furniture))
 	slot0.data:AddFurniture(slot1)
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_FURNITURE)
 end
 
-function slot0.AddFurnitrues(slot0, slot1)
+slot0.AddFurnitrues = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
 		slot0.data:AddFurniture(Furniture.New({
 			count = 1,
@@ -189,19 +193,19 @@ function slot0.AddFurnitrues(slot0, slot1)
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_FURNITURE)
 end
 
-function slot0.ClearNewFlag(slot0)
+slot0.ClearNewFlag = function(slot0)
 	for slot5, slot6 in pairs(slot0.data:GetPurchasedFurnitures()) do
 		slot6:ClearNewFlag()
 	end
 end
 
-function slot0._ClearNewFlag(slot0, slot1)
+slot0._ClearNewFlag = function(slot0, slot1)
 	if slot0.data:GetPurchasedFurnitures()[slot1] then
 		slot3:ClearNewFlag()
 	end
 end
 
-function slot0.addDorm(slot0, slot1)
+slot0.addDorm = function(slot0, slot1)
 	assert(isa(slot1, Dorm), "dorm should instance of Dorm")
 
 	slot0.data = slot1
@@ -209,7 +213,7 @@ function slot0.addDorm(slot0, slot1)
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inBackyard")
 end
 
-function slot0.updateDrom(slot0, slot1, slot2)
+slot0.updateDrom = function(slot0, slot1, slot2)
 	assert(isa(slot1, Dorm), "dorm should instance of Dorm")
 	assert(slot1, "drom should exist")
 
@@ -219,35 +223,35 @@ function slot0.updateDrom(slot0, slot1, slot2)
 	slot0.facade:sendNotification(uv0.DORM_UPDATEED, {}, slot2)
 end
 
-function slot0.getData(slot0)
+slot0.getData = function(slot0)
 	return (slot0.data or Dorm.New({
 		id = 1
 	})):clone()
 end
 
-function slot0.updateFood(slot0, slot1)
+slot0.updateFood = function(slot0, slot1)
 	slot0.data:consumeFood(slot1)
 	slot0.data:restNextTime()
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_UPDATEFOOD)
 end
 
-function slot0.getRestFood(slot0)
+slot0.getRestFood = function(slot0)
 	return slot0.data.food
 end
 
-function slot0.GetCustomThemeTemplates(slot0)
+slot0.GetCustomThemeTemplates = function(slot0)
 	return slot0.customThemeTemplates
 end
 
-function slot0.SetCustomThemeTemplates(slot0, slot1)
+slot0.SetCustomThemeTemplates = function(slot0, slot1)
 	slot0.customThemeTemplates = slot1
 end
 
-function slot0.GetCustomThemeTemplateById(slot0, slot1)
+slot0.GetCustomThemeTemplateById = function(slot0, slot1)
 	return slot0.customThemeTemplates[slot1]
 end
 
-function slot0.UpdateCustomThemeTemplate(slot0, slot1)
+slot0.UpdateCustomThemeTemplate = function(slot0, slot1)
 	slot0.customThemeTemplates[slot1.id] = slot1
 
 	slot0:sendNotification(uv0.THEME_TEMPLATE_UPDATED, {
@@ -256,7 +260,7 @@ function slot0.UpdateCustomThemeTemplate(slot0, slot1)
 	})
 end
 
-function slot0.DeleteCustomThemeTemplate(slot0, slot1)
+slot0.DeleteCustomThemeTemplate = function(slot0, slot1)
 	slot0.customThemeTemplates[slot1] = nil
 
 	slot0:sendNotification(uv0.THEME_TEMPLATE_DELTETED, {
@@ -264,7 +268,7 @@ function slot0.DeleteCustomThemeTemplate(slot0, slot1)
 	})
 end
 
-function slot0.AddCustomThemeTemplate(slot0, slot1)
+slot0.AddCustomThemeTemplate = function(slot0, slot1)
 	slot0.customThemeTemplates[slot1.id] = slot1
 
 	slot0:sendNotification(uv0.THEME_TEMPLATE_ADDED, {
@@ -272,7 +276,7 @@ function slot0.AddCustomThemeTemplate(slot0, slot1)
 	})
 end
 
-function slot0.GetUploadThemeTemplateCnt(slot0)
+slot0.GetUploadThemeTemplateCnt = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.customThemeTemplates) do
@@ -284,23 +288,23 @@ function slot0.GetUploadThemeTemplateCnt(slot0)
 	return slot1
 end
 
-function slot0.GetShopThemeTemplates(slot0)
+slot0.GetShopThemeTemplates = function(slot0)
 	return slot0.shopThemeTemplates
 end
 
-function slot0.SetShopThemeTemplates(slot0, slot1)
+slot0.SetShopThemeTemplates = function(slot0, slot1)
 	slot0.shopThemeTemplates = slot1
 end
 
-function slot0.GetShopThemeTemplateById(slot0, slot1)
+slot0.GetShopThemeTemplateById = function(slot0, slot1)
 	return slot0.shopThemeTemplates[slot1]
 end
 
-function slot0.IsInitShopThemeTemplates(slot0)
+slot0.IsInitShopThemeTemplates = function(slot0)
 	return slot0.shopThemeTemplates ~= nil
 end
 
-function slot0.UpdateShopThemeTemplate(slot0, slot1)
+slot0.UpdateShopThemeTemplate = function(slot0, slot1)
 	slot0.shopThemeTemplates[slot1.id] = slot1
 
 	slot0:sendNotification(uv0.THEME_TEMPLATE_UPDATED, {
@@ -309,7 +313,7 @@ function slot0.UpdateShopThemeTemplate(slot0, slot1)
 	})
 end
 
-function slot0.DeleteShopThemeTemplate(slot0, slot1)
+slot0.DeleteShopThemeTemplate = function(slot0, slot1)
 	slot0.shopThemeTemplates[slot1] = nil
 
 	slot0:sendNotification(uv0.SHOP_THEME_TEMPLATE_DELETED, {
@@ -317,19 +321,19 @@ function slot0.DeleteShopThemeTemplate(slot0, slot1)
 	})
 end
 
-function slot0.GetCollectionThemeTemplates(slot0)
+slot0.GetCollectionThemeTemplates = function(slot0)
 	return slot0.collectionThemeTemplates
 end
 
-function slot0.SetCollectionThemeTemplates(slot0, slot1)
+slot0.SetCollectionThemeTemplates = function(slot0, slot1)
 	slot0.collectionThemeTemplates = slot1
 end
 
-function slot0.GetCollectionThemeTemplateById(slot0, slot1)
+slot0.GetCollectionThemeTemplateById = function(slot0, slot1)
 	return slot0.collectionThemeTemplates[slot1]
 end
 
-function slot0.AddCollectionThemeTemplate(slot0, slot1)
+slot0.AddCollectionThemeTemplate = function(slot0, slot1)
 	slot0.collectionThemeTemplates[slot1.id] = slot1
 
 	slot0:sendNotification(uv0.COLLECTION_THEME_TEMPLATE_ADDED, {
@@ -337,7 +341,7 @@ function slot0.AddCollectionThemeTemplate(slot0, slot1)
 	})
 end
 
-function slot0.DeleteCollectionThemeTemplate(slot0, slot1)
+slot0.DeleteCollectionThemeTemplate = function(slot0, slot1)
 	slot0.collectionThemeTemplates[slot1] = nil
 
 	slot0:sendNotification(uv0.COLLECTION_THEME_TEMPLATE_DELETED, {
@@ -345,11 +349,11 @@ function slot0.DeleteCollectionThemeTemplate(slot0, slot1)
 	})
 end
 
-function slot0.GetThemeTemplateCollectionCnt(slot0)
+slot0.GetThemeTemplateCollectionCnt = function(slot0)
 	return table.getCount(slot0.collectionThemeTemplates or {})
 end
 
-function slot0.UpdateCollectionThemeTemplate(slot0, slot1)
+slot0.UpdateCollectionThemeTemplate = function(slot0, slot1)
 	slot0.collectionThemeTemplates[slot1.id] = slot1
 
 	slot0:sendNotification(uv0.THEME_TEMPLATE_UPDATED, {
@@ -358,7 +362,7 @@ function slot0.UpdateCollectionThemeTemplate(slot0, slot1)
 	})
 end
 
-function slot0.GetTemplateNewID(slot0)
+slot0.GetTemplateNewID = function(slot0)
 	slot1 = _.map(_.values(slot0.customThemeTemplates or {}), function (slot0)
 		return slot0:GetPos()
 	end)
@@ -370,7 +374,7 @@ function slot0.GetTemplateNewID(slot0)
 	end
 end
 
-function slot0.GetSystemThemes(slot0)
+slot0.GetSystemThemes = function(slot0)
 	if not slot0.systemThemes or #slot0.systemThemes == 0 then
 		for slot5, slot6 in ipairs(pg.backyard_theme_template.all) do
 			if slot1[slot6].is_view == 1 then
@@ -384,7 +388,7 @@ function slot0.GetSystemThemes(slot0)
 	return slot0.systemThemes
 end
 
-function slot0.ResetSystemTheme(slot0, slot1)
+slot0.ResetSystemTheme = function(slot0, slot1)
 	if not slot0.systemThemes or #slot0.systemThemes == 0 then
 		return
 	end
@@ -400,7 +404,7 @@ function slot0.ResetSystemTheme(slot0, slot1)
 	end
 end
 
-function slot0.NeedRefreshThemeTemplateShop(slot0)
+slot0.NeedRefreshThemeTemplateShop = function(slot0)
 	if not slot0.refreshThemeTemplateShopTime then
 		slot0.refreshThemeTemplateShopTime = 0
 	end
@@ -414,7 +418,7 @@ function slot0.NeedRefreshThemeTemplateShop(slot0)
 	return false
 end
 
-function slot0.NeedCollectionTip(slot0)
+slot0.NeedCollectionTip = function(slot0)
 	if slot0:GetThemeTemplateCollectionCnt() ~= PlayerPrefs.GetInt("backyard_template" .. getProxy(PlayerProxy):getRawData().id, 0) then
 		PlayerPrefs.SetInt("backyard_template" .. slot1, slot3)
 		PlayerPrefs.Save()
@@ -427,7 +431,7 @@ function slot0.NeedCollectionTip(slot0)
 	return false
 end
 
-function slot0.NeedShopShowHelp(slot0)
+slot0.NeedShopShowHelp = function(slot0)
 	if not (PlayerPrefs.GetInt("backyard_template_help" .. getProxy(PlayerProxy):getRawData().id, 0) > 0) then
 		PlayerPrefs.SetInt("backyard_template_help" .. slot1, 1)
 		PlayerPrefs.Save()
@@ -438,7 +442,7 @@ function slot0.NeedShopShowHelp(slot0)
 	return false
 end
 
-function slot0.GetTag7Furnitures(slot0)
+slot0.GetTag7Furnitures = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(pg.furniture_data_template.get_id_list_by_tag[7]) do
@@ -450,7 +454,7 @@ function slot0.GetTag7Furnitures(slot0)
 	return slot1
 end
 
-function slot0.IsShowRedDot(slot0)
+slot0.IsShowRedDot = function(slot0)
 	slot3 = getProxy(DormProxy)
 
 	return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CourtYardMediator") and (slot3:isLackOfFood() or slot3:havePopEvent() or getProxy(SettingsProxy):IsTipNewTheme() or getProxy(SettingsProxy):IsTipNewGemFurniture())

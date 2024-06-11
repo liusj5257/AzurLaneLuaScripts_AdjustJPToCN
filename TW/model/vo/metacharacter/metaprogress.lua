@@ -5,11 +5,11 @@ slot0.STATE_CAN_AWARD = 3
 slot0.STATE_CAN_FINISH = 4
 slot0.STATE_GOT_SHIP = 5
 
-function slot0.bindConfigTable(slot0)
+slot0.bindConfigTable = function(slot0)
 	return pg.ship_strengthen_meta
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.configId = slot0.id
 	slot0.metaType = slot0:getConfig("type")
@@ -38,19 +38,19 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.updateMetaPtData(slot0, slot1)
+slot0.updateMetaPtData = function(slot0, slot1)
 	if slot0.metaPtData then
 		slot0.metaPtData:Update(slot1)
 	end
 end
 
-function slot0.getSynRate(slot0)
+slot0.getSynRate = function(slot0)
 	slot1, slot2, slot3 = slot0.metaPtData:GetResProgress()
 
 	return slot1 / slot0.unlockPTNum
 end
 
-function slot0.getStoryIndexList(slot0)
+slot0.getStoryIndexList = function(slot0)
 	return slot0:getConfig("unlock_story") or {
 		0,
 		0,
@@ -99,13 +99,13 @@ function slot0.getStoryIndexList(slot0)
 	}
 end
 
-function slot0.getCurLevelStoryIndex(slot0)
+slot0.getCurLevelStoryIndex = function(slot0)
 	slot1, slot2, slot3 = slot0.metaPtData:GetLevelProgress()
 
 	return slot0:getStoryIndexList()[slot1]
 end
 
-function slot0.isFinishCurLevelStory(slot0)
+slot0.isFinishCurLevelStory = function(slot0)
 	slot2 = false
 
 	if slot0:getCurLevelStoryIndex() == 0 then
@@ -121,11 +121,11 @@ function slot0.isFinishCurLevelStory(slot0)
 	return slot2
 end
 
-function slot0.getCurLevelStoryName(slot0)
+slot0.getCurLevelStoryName = function(slot0)
 	return pg.memory_template[slot0:getCurLevelStoryIndex()].title
 end
 
-function slot0.isCanGetAward(slot0)
+slot0.isCanGetAward = function(slot0)
 	slot1 = slot0.metaPtData:CanGetAward()
 	slot3 = false
 
@@ -143,7 +143,7 @@ function slot0.isCanGetAward(slot0)
 	return slot1 and slot3
 end
 
-function slot0.getMetaProgressPTState(slot0)
+slot0.getMetaProgressPTState = function(slot0)
 	slot1 = slot0.metaPtData:CanGetAward()
 	slot2 = slot0:isFinishCurLevelStory()
 	slot3 = slot0:isUnlocked()
@@ -169,11 +169,11 @@ function slot0.getMetaProgressPTState(slot0)
 	end
 end
 
-function slot0.IsGotAllAwards(slot0)
+slot0.IsGotAllAwards = function(slot0)
 	return slot0:isInAct() and slot0:isInArchive() and not slot0.metaPtData:CanGetNextAward()
 end
 
-function slot0.getRepairRateFromMetaCharacter(slot0)
+slot0.getRepairRateFromMetaCharacter = function(slot0)
 	assert(slot0.metaShipVO, "metaShipVO is null")
 
 	slot1 = slot0.metaShipVO.metaCharacter
@@ -183,19 +183,19 @@ function slot0.getRepairRateFromMetaCharacter(slot0)
 	return slot1:getRepairRate()
 end
 
-function slot0.isPtType(slot0)
+slot0.isPtType = function(slot0)
 	return slot0.metaType == MetaCharacterConst.Meta_Type_Act_PT
 end
 
-function slot0.isPassType(slot0)
+slot0.isPassType = function(slot0)
 	return slot0.metaType == MetaCharacterConst.Meta_Type_Pass
 end
 
-function slot0.isBuildType(slot0)
+slot0.isBuildType = function(slot0)
 	return slot0.metaType == MetaCharacterConst.Meta_Type_Build
 end
 
-function slot0.isInAct(slot0)
+slot0.isInAct = function(slot0)
 	if slot0:isPtType() then
 		return WorldBossConst.IsCurrBoss(slot0.id)
 	elseif slot0:isPassType() or slot0:isBuildType() then
@@ -203,15 +203,15 @@ function slot0.isInAct(slot0)
 	end
 end
 
-function slot0.isInArchive(slot0)
+slot0.isInArchive = function(slot0)
 	return WorldBossConst.IsAchieveBoss(slot0.id)
 end
 
-function slot0.isUnlocked(slot0)
+slot0.isUnlocked = function(slot0)
 	return slot0.metaShipVO ~= nil
 end
 
-function slot0.isShow(slot0)
+slot0.isShow = function(slot0)
 	slot1 = slot0:isInAct()
 	slot2 = slot0:isInArchive()
 	slot4 = true
@@ -233,24 +233,24 @@ function slot0.isShow(slot0)
 	end
 end
 
-function slot0.getMetaShipFromBayProxy(slot0)
+slot0.getMetaShipFromBayProxy = function(slot0)
 	slot1 = getProxy(BayProxy):getMetaShipByGroupId(slot0.configId)
 	slot0.metaShipVO = slot1
 
 	return slot1
 end
 
-function slot0.getShip(slot0)
+slot0.getShip = function(slot0)
 	return slot0.metaShipVO
 end
 
-function slot0.updateShip(slot0, slot1)
+slot0.updateShip = function(slot0, slot1)
 	assert(slot1, "metaShipVO can not be null!")
 
 	slot0.metaShipVO = slot1
 end
 
-function slot0.setDataBeforeGet(slot0)
+slot0.setDataBeforeGet = function(slot0)
 	slot0.metaShipVO = slot0:getMetaShipFromBayProxy()
 
 	if slot0:isPtType() and slot0.metaPtData and not slot0.unlockPTLevel then
@@ -271,41 +271,41 @@ function slot0.setDataBeforeGet(slot0)
 	end
 end
 
-function slot0.updateDataAfterAddShip(slot0)
+slot0.updateDataAfterAddShip = function(slot0)
 	slot0.metaShipVO = slot0:getMetaShipFromBayProxy()
 end
 
-function slot0.addPT(slot0, slot1)
+slot0.addPT = function(slot0, slot1)
 	if slot0:isPtType() and slot0.metaPtData then
 		slot0.metaPtData:addPT(slot1)
 	end
 end
 
-function slot0.updatePTLevel(slot0, slot1)
+slot0.updatePTLevel = function(slot0, slot1)
 	if slot0:isPtType() and slot0.metaPtData then
 		slot0.metaPtData:updateLevel(slot1)
 	end
 end
 
-function slot0.getPaintPathAndName(slot0)
+slot0.getPaintPathAndName = function(slot0)
 	slot2, slot3 = MetaCharacterConst.GetMetaCharacterPaintPath(slot0.configId, slot0:isUnlocked())
 
 	return slot2, slot3
 end
 
-function slot0.getBannerPathAndName(slot0)
+slot0.getBannerPathAndName = function(slot0)
 	slot1, slot2 = MetaCharacterConst.GetMetaCharacterBannerPath(slot0.configId)
 
 	return slot1, slot2
 end
 
-function slot0.getBGNamePathAndName(slot0)
+slot0.getBGNamePathAndName = function(slot0)
 	slot1, slot2 = MetaCharacterConst.GetMetaCharacterNamePath(slot0.configId)
 
 	return slot1, slot2
 end
 
-function slot0.getPtIconPath(slot0)
+slot0.getPtIconPath = function(slot0)
 	assert(slot0:isPtType() and slot0.metaPtData)
 
 	return Item.getConfigData(slot0.metaPtData.resId).icon

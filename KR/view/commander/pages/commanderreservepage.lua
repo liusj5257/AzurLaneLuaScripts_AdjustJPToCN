@@ -1,10 +1,10 @@
 slot0 = class("CommanderReservePage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderReserveUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg1 = slot0._tf:Find("frame/bg1")
 
 	setActive(slot0.bg1, true)
@@ -97,7 +97,7 @@ function slot0.OnInit(slot0)
 	setText(slot0._tf:Find("frame/bg1/Text"), i18n("commander_get_box_tip_1"))
 end
 
-function slot0.OnConfirm(slot0, slot1, slot2)
+slot0.OnConfirm = function(slot0, slot1, slot2)
 	if getProxy(PlayerProxy):getRawData().gold < slot1 then
 		slot0:GoShoppingMsgBox(i18n("switch_to_shop_tip_2", i18n("word_gold")), ChargeScene.TYPE_ITEM, {
 			{
@@ -118,7 +118,7 @@ function slot0.OnConfirm(slot0, slot1, slot2)
 	})
 end
 
-function slot0.GoShoppingMsgBox(slot0, slot1, slot2, slot3)
+slot0.GoShoppingMsgBox = function(slot0, slot1, slot2, slot3)
 	if slot3 then
 		slot4 = ""
 
@@ -145,13 +145,13 @@ function slot0.GoShoppingMsgBox(slot0, slot1, slot2, slot3)
 	})
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0:bind(CommanderCatScene.MSG_RESERVE_BOX, function (slot0, slot1)
 		uv0:OnReserveDone(slot1)
 	end)
 end
 
-function slot0.OnReserveDone(slot0, slot1)
+slot0.OnReserveDone = function(slot0, slot1)
 	slot0.block = true
 
 	seriesAsync({
@@ -170,7 +170,7 @@ function slot0.OnReserveDone(slot0, slot1)
 	end)
 end
 
-function slot0.updateValue(slot0)
+slot0.updateValue = function(slot0)
 	slot0.countTxt.text = slot0.currCnt
 	slot1 = slot0.count + slot0.currCnt - 1
 	slot0.consumeTxt.text = CommanderConst.getBoxComsume(slot1)
@@ -183,7 +183,7 @@ function slot0.updateValue(slot0)
 	slot0.totalTxt.text = getProxy(PlayerProxy):getRawData().gold < slot0.total and "<color=" .. COLOR_RED .. ">" .. slot0.total .. "</color>" or slot0.total
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0.count = getProxy(CommanderProxy):getBoxUseCnt()
 	slot0.currCnt = 1
 	slot0.total = 0
@@ -193,7 +193,7 @@ function slot0.Update(slot0)
 	slot0:Show()
 end
 
-function slot0.endAnim(slot0)
+slot0.endAnim = function(slot0)
 	setActive(slot0.bg1, true)
 	setActive(slot0.bg2, false)
 
@@ -217,7 +217,7 @@ function slot0.endAnim(slot0)
 	end
 end
 
-function slot0.PlayAnim(slot0, slot1, slot2)
+slot0.PlayAnim = function(slot0, slot1, slot2)
 	assert(slot2)
 
 	slot0.callback = slot2
@@ -262,7 +262,7 @@ function slot0.PlayAnim(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	setActive(slot0._tf, true)
 	setActive(slot0.bg1, true)
 	setActive(slot0.bg2, false)
@@ -274,12 +274,12 @@ function slot0.Show(slot0)
 	})
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.playBoxMove(slot0, slot1)
+slot0.playBoxMove = function(slot0, slot1)
 	slot2 = cloneTplTo(slot0.boxTF, slot0.boxMove)
 
 	if slot1.id == 20011 then
@@ -297,7 +297,7 @@ function slot0.playBoxMove(slot0, slot1)
 	end)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end

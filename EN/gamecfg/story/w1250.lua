@@ -1,15 +1,15 @@
 return {
-	id = "W1250",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1250",
+	skipTip = false,
 	scripts = {
 		{
 			paintingNoise = true,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900284,
 			dir = 1,
+			actor = 900284,
 			say = "Scan complete. Readings indicate presence of an item beneath the surface. Do you want to dispatch a Meowfficer to retrieve it?",
 			painting = {
 				alpha = 0.3,

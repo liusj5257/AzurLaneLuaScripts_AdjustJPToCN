@@ -1,22 +1,22 @@
 return {
-	id = "WORLD404C",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD404C",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 307010,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "매캐한 포연의 냄새... 이 익숙한 느낌은... AF 작전의 현장인가요...?",
 			dir = 1,
 			bgm = "battle-boss-italy",
+			nameColor = "#a9f548",
+			say = "매캐한 포연의 냄새... 이 익숙한 느낌은... AF 작전의 현장인가요...?",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -44,8 +44,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -129,8 +129,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			actor = 900296,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900296,
 			actorName = "엔터프라이즈?",
 			say = "사쿠라 엠파이어의 아카기가 지금까지 기억해 주다니, 영광인데.",
 			typewriter = {
@@ -156,11 +156,11 @@ return {
 			}
 		},
 		{
-			actor = 900297,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900297,
 			actorName = "호넷?",
 			say = "엄청난 전투였지. 네 지휘는 정말 훌륭했어.",
 			typewriter = {
@@ -173,11 +173,11 @@ return {
 			}
 		},
 		{
-			actor = 900295,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900295,
 			actorName = "요크타운?",
 			say = "후후, 복수를 원한다면 얼마든지. 언제든 AF 작전을 다시 펼쳐보도록 해.",
 			typewriter = {
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 900296,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900296,
 			actorName = "엔터프라이즈?",
 			say = "실패하기 5분 전으로 돌려보내 줄 수도 있어. 사실 50분을 더 준다고 해도, 네가 뭘 더 할 수 있지?",
 			typewriter = {
@@ -207,11 +207,11 @@ return {
 			}
 		},
 		{
-			actor = 900297,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900297,
 			actorName = "호넷?",
 			say = "아, 아마기가 넘겨준 부적도 망가졌지? 새것을 받을 수 없을 텐데, 아깝네~",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -249,11 +249,11 @@ return {
 			}
 		},
 		{
-			actor = 900296,
 			actorShadow = true,
-			nameColor = "#ff5c5c",
 			side = 2,
+			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 900296,
 			actorName = "엔터프라이즈?",
 			say = "지난번에는 세이렌 때문에 탈출할 수 있었지만, 원한다면 언제든지 붙어주겠어.",
 			typewriter = {
@@ -296,10 +296,10 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			nameColor = "#a9f548",
 			side = 2,
 			dir = 1,
+			actor = 307010,
 			say = "저는 더 이상 언니의 뒤에 숨어있던 아카기가 아니에요!!!!!",
 			effects = {
 				{

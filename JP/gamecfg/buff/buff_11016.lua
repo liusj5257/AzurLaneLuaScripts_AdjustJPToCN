@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "铁底湾之夜",
 	time = 5,
+	name = "铁底湾之夜",
+	init_effect = "",
 	picture = "",
 	desc = "白鹰精英损管",
 	stack = 1,
@@ -15,10 +15,10 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				minWeaponNumber = 1,
-				skill_id = 6750,
 				target = "TargetSelf",
+				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 6750,
 				label = {
 					"UEDC"
 				}

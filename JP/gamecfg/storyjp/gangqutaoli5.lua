@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GANGQUTAOLI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GANGQUTAOLI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港脱出作戦！\n\n<size=45>五　作戦失敗…？</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 407010,
-			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "つまり、卿の作った怪光線照射装置のテストで、偶然この子たちを生み出したというわけか",
 			bgm = "story-1",
+			actor = 407010,
+			nameColor = "#a9f548",
+			say = "つまり、卿の作った怪光線照射装置のテストで、偶然この子たちを生み出したというわけか",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,8 +135,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "わ、我はとんだ勘違いしていた……憎んでいる、自分の未熟さを…！",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "わ、わかったにゃ！ごめんなさいにゃああ！",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -284,8 +284,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 304060,
 			dir = -1,
+			actor = 304060,
 			nameColor = "#a9f548",
 			say = "私と同じ「比叡」……これなら料理の腕もきっと上がりそうですね……",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 407020,
 			dir = 1,
+			actor = 407020,
 			nameColor = "#a9f548",
 			say = "ありえん…鉄血最初の空母なのに、まさか艦が「二隻」ある…だと…！？",
 			typewriter = {
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -373,15 +373,15 @@ return {
 			}
 		},
 		{
-			actor = 304060,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 304060,
+			nameColor = "#a9f548",
 			say = "これで一件落着ですね……比叡たち、この母港でうまくやっていけるのかな……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -486,17 +486,17 @@ return {
 			}
 		},
 		{
-			actor = 307090,
 			actorName = "？？？",
-			blackBg = true,
 			side = 2,
 			dir = 1,
 			stopngm = true,
+			blackBg = true,
+			actor = 307090,
 			nameColor = "#a9f548",
 			say = "——",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -521,12 +521,12 @@ return {
 			}
 		},
 		{
-			actor = 307090,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 307090,
+			actorName = "？？？",
 			say = "もちろんですわ。ふふふ……",
 			typewriter = {
 				speed = 0.05,

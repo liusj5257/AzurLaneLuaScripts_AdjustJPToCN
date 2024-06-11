@@ -1,6 +1,6 @@
 slot0 = class("BuildShipImmediatelyCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().type or 1
 	slot5 = getProxy(BuildShipProxy)
 

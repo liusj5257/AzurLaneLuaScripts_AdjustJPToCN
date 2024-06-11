@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAQINGHUAYU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAQINGHUAYU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Submarine Subterfuge!\n\n<size=45>Good Night! Good Morning!</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Port - Private Quarters",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Tired after having spent half the day at the beach, I swiftly went to bed once I'd returned to the port.",
 			typewriter = {
@@ -54,19 +54,19 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/boat_drag",
+			say = "......",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "......",
+			soundeffect = "event:/ui/boat_drag",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "My rest was disturbed by somebody poking my face.",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "That voice... It must be Albacore.",
 			typewriter = {
@@ -105,10 +105,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Are you really? Or are you just faking your z's?",
 			typewriter = {
 				speed = 0.05,
@@ -122,10 +122,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "... Welp, guess you really are asleep. Makes sense, given today.",
 			typewriter = {
 				speed = 0.05,
@@ -139,12 +139,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "......",
 			bgm = "story-2",
+			actor = 108020,
+			nameColor = "#a9f548",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,10 +157,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Listen... there's a lot I want to say.",
 			typewriter = {
 				speed = 0.05,
@@ -238,10 +238,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "... What I'm trying to say is: I love my friends and all the memories I've made here.",
 			typewriter = {
 				speed = 0.05,
@@ -255,10 +255,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "And, although I tease and mess with you all the time, the truth is...",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Albacore leaned in closer to whisper into my ear.",
 			typewriter = {
@@ -298,10 +298,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "Also, I might have a surprise for you tomorrow♪ Here I am, going through the effort of telling you these nice things, and you just pretend to be asleep. So I'm gonna have a little payback, hehehe♪",
 			typewriter = {
 				speed = 0.05,
@@ -313,15 +313,15 @@ return {
 			}
 		},
 		{
-			say = "The next day...",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 1.4,
 			bgm = "story-1",
+			say = "The next day...",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -342,11 +342,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "I-is it true, Commander?! Did you really spend the night sleeping in the same room as Albacore?!",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "Albacore sure knows how to twist a story...",
 			typewriter = {
 				speed = 0.05,
@@ -426,9 +426,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "In the end, I had to spend half the day clearing up this misunderstanding.",
 			typewriter = {
 				speed = 0.05,

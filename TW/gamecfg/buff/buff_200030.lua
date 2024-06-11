@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2022布吕歇尔SP活动 EX 女武神突刺",
 	time = 5,
-	color = "red",
+	name = "2022布吕歇尔SP活动 EX 女武神突刺",
+	init_effect = "",
+	id = 200030,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200030,
+	color = "red",
 	icon = 200030,
 	last_effect = "",
 	effect_list = {

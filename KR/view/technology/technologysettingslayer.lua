@@ -18,11 +18,11 @@ slot0.CATCHUP_CLASSES = {
 }
 slot0.CATCHUP_VERSION = 5
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "TechnologySettingsUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
@@ -30,7 +30,7 @@ function slot0.init(slot0)
 	slot0:initActCatchupPage()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:resetLeftBtnUnsel()
 	slot0:updateTendencyBtn(slot0.curTendency)
@@ -40,7 +40,7 @@ function slot0.didEnter(slot0)
 	triggerToggle(slot0.showFinish, slot0.showFinishFlag == 1 and true or false)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 
 	if slot0.actCatchupTimer then
@@ -56,7 +56,7 @@ function slot0.willExit(slot0)
 	slot0.loader:Clear()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.technologyProxy = getProxy(TechnologyProxy)
 	slot0.bayProxy = getProxy(BayProxy)
 	slot0.bagProxy = getProxy(BagProxy)
@@ -69,7 +69,7 @@ function slot0.initData(slot0)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 
 	setText(slot0:findTF("BackTips/ClickText", slot0.bg), i18n("click_back_tip"))
@@ -108,8 +108,8 @@ function slot0.findUI(slot0)
 	end
 end
 
-function slot0.addListener(slot0)
-	function slot4()
+slot0.addListener = function(slot0)
+	slot4 = function()
 		uv0:closeView()
 	end
 
@@ -153,13 +153,13 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.resetLeftBtnUnsel(slot0)
+slot0.resetLeftBtnUnsel = function(slot0)
 	for slot4, slot5 in pairs(slot0.leftBtnList) do
 		setActive(slot0:findTF("Selected", slot5), false)
 	end
 end
 
-function slot0.switchRightPage(slot0, slot1)
+slot0.switchRightPage = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			if not uv0.rightPageTFList[uv1] then
@@ -209,7 +209,7 @@ function slot0.switchRightPage(slot0, slot1)
 	})
 end
 
-function slot0.initTendencyPage(slot0)
+slot0.initTendencyPage = function(slot0)
 	slot2 = slot0:findTF("TecItemList", slot0.tendencyPanel)
 	slot3 = UIItemList.New(slot2, slot2:Find("tpl"))
 
@@ -229,7 +229,7 @@ function slot0.initTendencyPage(slot0)
 	slot3:align(getProxy(TechnologyProxy):getConfigMaxVersion() + 1)
 end
 
-function slot0.updateTendencyPage(slot0, slot1)
+slot0.updateTendencyPage = function(slot0, slot1)
 	slot2 = slot0:findTF("TecItemList", slot0.tendencyPanel)
 
 	setActive(slot2:GetChild(slot0.curTendency):Find("Selected"), false)
@@ -249,18 +249,18 @@ function slot0.updateTendencyPage(slot0, slot1)
 	slot0.curTendency = slot1
 end
 
-function slot0.updateTendencyBtn(slot0, slot1)
+slot0.updateTendencyBtn = function(slot0, slot1)
 	slot2 = slot1 > 0 and i18n("tec_tendency_cur_x", i18n("number_" .. slot1)) or i18n("tec_tendency_cur_0")
 
 	setText(slot0.tendencyBtn:Find("UnSelect/Text"), slot2)
 	setText(slot0.tendencyBtn:Find("Selected/Text"), slot2)
 end
 
-function slot0.updateTargetCatchupPage(slot0, slot1)
+slot0.updateTargetCatchupPage = function(slot0, slot1)
 	slot0.catchupPanels[slot1]:updateTargetCatchupPage()
 end
 
-function slot0.updateTargetCatchupBtns(slot0)
+slot0.updateTargetCatchupBtns = function(slot0)
 	for slot4, slot5 in pairs(slot0.catchupBtns) do
 		if slot4 <= uv0.CATCHUP_VERSION then
 			slot7 = slot0.technologyProxy:getCatchupState(slot4) == TechnologyCatchup.STATE_CATCHUPING
@@ -303,7 +303,7 @@ function slot0.updateTargetCatchupBtns(slot0)
 	end
 end
 
-function slot0.initActCatchupPage(slot0)
+slot0.initActCatchupPage = function(slot0)
 	if slot0.isShowActCatchup then
 		slot1 = slot0.actCatchup
 		slot2 = slot0.loader
@@ -348,10 +348,10 @@ function slot0.initActCatchupPage(slot0)
 	end
 end
 
-function slot0.updateActCatchupPage(slot0)
+slot0.updateActCatchupPage = function(slot0)
 end
 
-function slot0.updateActCatchupBtn(slot0)
+slot0.updateActCatchupBtn = function(slot0)
 	setText(slot0:findTF("UnSelect/Text", slot0.actCatchupBtn), i18n("tec_act_catchup_btn_word"))
 	setText(slot0:findTF("Selected/Text", slot0.actCatchupBtn), i18n("tec_act_catchup_btn_word"))
 

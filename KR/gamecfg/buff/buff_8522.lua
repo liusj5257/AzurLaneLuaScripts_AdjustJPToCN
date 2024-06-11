@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "新生重樱联合",
 	init_effect = "jinengchufared",
+	time = 0,
 	picture = "",
 	desc = "三笠加伤害buff",
 	stack = 1,
@@ -22,8 +22,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 3
+				number = 3,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

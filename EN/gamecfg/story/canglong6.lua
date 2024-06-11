@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGLONG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGLONG6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Together with Souryuu\n\n<size=45>Chapter 6: Change (Pt. 2)</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			blackBg = true,
 			side = 2,
 			bgName = "bg_story_school",
-			say = "Port - Plaza ",
 			dir = 1,
 			bgmDelay = 2,
+			blackBg = true,
 			bgm = "story-1",
+			say = "Port - Plaza ",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -63,9 +63,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "I wasn't quite sure what happened, but somehow I ended up on a date(?) with Souryuu.",
 			typewriter = {
 				speed = 0.05,
@@ -105,9 +105,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "It almost felt as if Souryuu was going to take me on a guided tour.",
 			typewriter = {
 				speed = 0.05,
@@ -135,15 +135,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "Akashi, here's what we'd like to buy. Shiranui, would you mind bagging everything for us?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -200,9 +200,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "We walked out of the shop with two incredulous gazes following us the entire time.",
 			typewriter = {
 				speed = 0.05,
@@ -210,15 +210,15 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307040,
+			nameColor = "#a9f548",
 			say = "S-Souryuu?! Is that you...?!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -243,8 +243,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -253,12 +253,12 @@ return {
 			}
 		},
 		{
-			actor = 307030,
+			say = "Good day, Hiryuu. Is something the matter?",
 			side = 1,
 			bgName = "star_level_bg_105",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Good day, Hiryuu. Is something the matter?",
+			actor = 307030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -321,9 +321,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "I can understand why everyone might be a bit bewildered... After all, Souryuu has had her arm entwined around mine ever since we left.",
 			typewriter = {
 				speed = 0.05,
@@ -331,15 +331,15 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "I apologize for dumping dinner duties on you like this, Hiei.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -380,9 +380,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Hiei slipped out of the room with a knowing grin on her face.",
 			typewriter = {
 				speed = 0.05,
@@ -390,11 +390,11 @@ return {
 			}
 		},
 		{
-			actor = 307030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307030,
+			nameColor = "#a9f548",
 			say = "Commander, have you been enjoying today's date so far?",
 			typewriter = {
 				speed = 0.05,

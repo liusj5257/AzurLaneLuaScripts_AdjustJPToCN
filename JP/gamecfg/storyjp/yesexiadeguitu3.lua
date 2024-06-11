@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YESEXIADEGUITU3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YESEXIADEGUITU3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 904010,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-french1",
 			dir = 1,
 			say = "どうにか撃退したわね",
+			bgm = "story-french1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "このままトゥーロンまで何もなければいいな…",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "ダンケルクさん、どうしたの？",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 8,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "なにがあったのでしょうね…元々アイリスもヴィシアも同じ陣営だし、ロイヤルとはまあ、色々あったけど…",
 			typewriter = {
 				speed = 0.05,
@@ -104,8 +104,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "今となっては考えても仕方ありませんね…",
 			typewriter = {
 				speed = 0.05,
@@ -150,8 +150,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "早くトゥーロンに戻ってぐっすり寝て、体の調子を戻しましょう！",
 			typewriter = {
 				speed = 0.05,
@@ -180,9 +180,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 900236,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "そんなことないよ！",
 			typewriter = {
 				speed = 0.05,
@@ -194,8 +194,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -207,8 +207,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "ダンケルクさんがここに長く留まり続けることになったのは、他ならぬロイヤルの卑劣な計略…",
 			typewriter = {
 				speed = 0.05,
@@ -223,8 +223,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "と、ええと、つまりね、ダンケルクさんは……",
 			typewriter = {
 				speed = 0.05,
@@ -284,10 +284,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			say = "ロイヤルや鉄血、そしてアイリスだろうと――上層部の思惑は艦船である私たちが考えても仕方ないかなと思いますし",
+			dir = 1,
 			actor = 901020,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "ロイヤルや鉄血、そしてアイリスだろうと――上層部の思惑は艦船である私たちが考えても仕方ないかなと思いますし",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -305,8 +305,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 901020,
 			dir = 1,
+			actor = 901020,
 			say = "今大事なのは、ダンケルクさんを心配している仲間たちを安心させてあげることではないでしょうか…？",
 			typewriter = {
 				speed = 0.05,
@@ -321,8 +321,8 @@ return {
 			expression = 6,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 900236,
 			dir = 1,
+			actor = 900236,
 			say = "そうだよ！みんなダンケルクさんのお菓子が食べられないからきっと今頃倒れそうになってるよ！",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "ふふ、じゃあ帰ったらたくさん作らないとね",
 			typewriter = {
 				speed = 0.05,
@@ -353,8 +353,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "ストラスブールやみんなにこんな弱気な姿を見せられないわね",
 			typewriter = {
 				speed = 0.05,
@@ -369,8 +369,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 904010,
 			dir = 1,
+			actor = 904010,
 			say = "ヴォークラン、タルテュ、引き続き前進するわよ",
 			typewriter = {
 				speed = 0.05,

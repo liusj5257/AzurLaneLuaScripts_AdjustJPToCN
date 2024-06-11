@@ -12,12 +12,12 @@ return {
 	desc_get = "队伍中每有1艘驱逐舰，受到炮击伤害降低，装填速度提高",
 	name = "联结·阿萨姆",
 	init_effect = "",
+	id = 101040,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "队伍中每有1艘驱逐舰，受到炮击伤害降低，装填速度提高",
 	stack = 1,
-	id = 101040,
+	color = "blue",
 	icon = 101040,
 	last_effect = "",
 	effect_list = {
@@ -45,8 +45,8 @@ return {
 			},
 			arg_list = {
 				check_target = "TargetShipTypeFriendly",
-				minTargetNumber = 1,
 				skill_id = 101040,
+				minTargetNumber = 1,
 				ship_type_list = {
 					1,
 					20,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205070,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "battle-boss-4",
 			dir = 1,
 			say = "Report to Headquarters: \"30 minutes ago, Special Task Force One encountered the Siren and an unidentified superweapon... Our formation was broken.\"",
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,17 +177,17 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			actorName = "Purifier",
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 900021,
 			nameColor = "#ff0000",
 			say = "That's odd... Little Ms. Sunshine created such a massive singularity here, yet she's nowhere to be seen...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -212,12 +212,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Purifier",
 			dir = 1,
 			blackBg = true,
+			actor = 900021,
+			actorName = "Purifier",
 			say = "Shame, I've always wanted to meet a Prototype, at least once~",
 			typewriter = {
 				speed = 0.05,
@@ -229,12 +229,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "Purifier",
 			dir = 1,
 			blackBg = true,
+			actor = 900021,
+			actorName = "Purifier",
 			say = "Oh well. I'd better send a message to the Observer~!",
 			typewriter = {
 				speed = 0.05,

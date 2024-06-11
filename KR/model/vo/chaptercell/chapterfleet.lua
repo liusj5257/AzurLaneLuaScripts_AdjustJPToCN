@@ -4,7 +4,7 @@ slot0.DUTY_KILLBOSS = 2
 slot0.DUTY_KILLALL = 3
 slot0.DUTY_IDLE = 4
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0:updateNpcShipList(slot2)
 
 	slot0.id = slot1.id
@@ -66,11 +66,11 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0:updateCommanderSkills()
 end
 
-function slot0.setup(slot0, slot1)
+slot0.setup = function(slot0, slot1)
 	slot0.chapter = slot1
 end
 
-function slot0.fetchShipVO(slot0, slot1)
+slot0.fetchShipVO = function(slot0, slot1)
 	slot2 = nil
 	slot2 = (not slot0.npcShipList[slot1] or Clone(slot0.npcShipList[slot1])) and getProxy(BayProxy):getShipById(slot1)
 
@@ -81,7 +81,7 @@ function slot0.fetchShipVO(slot0, slot1)
 	return slot2
 end
 
-function slot0.updateNpcShipList(slot0, slot1)
+slot0.updateNpcShipList = function(slot0, slot1)
 	slot0.npcShipList = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -89,18 +89,18 @@ function slot0.updateNpcShipList(slot0, slot1)
 	end
 end
 
-function slot0.GetLine(slot0)
+slot0.GetLine = function(slot0)
 	return slot0.line
 end
 
-function slot0.SetLine(slot0, slot1)
+slot0.SetLine = function(slot0, slot1)
 	slot0.line = {
 		row = slot1.row,
 		column = slot1.column
 	}
 end
 
-function slot0.updateCommanders(slot0, slot1)
+slot0.updateCommanders = function(slot0, slot1)
 	slot0.commanders = {}
 	slot2 = getProxy(CommanderProxy)
 
@@ -111,11 +111,11 @@ function slot0.updateCommanders(slot0, slot1)
 	end
 end
 
-function slot0.getCommanders(slot0)
+slot0.getCommanders = function(slot0)
 	return slot0.commanders or {}
 end
 
-function slot0.prepareShips(slot0, slot1)
+slot0.prepareShips = function(slot0, slot1)
 	slot0.statics = {
 		[TeamType.Vanguard] = {
 			count = 0
@@ -138,7 +138,7 @@ function slot0.prepareShips(slot0, slot1)
 	slot0.staticsReady = true
 end
 
-function slot0.updateShips(slot0, slot1)
+slot0.updateShips = function(slot0, slot1)
 	slot0[TeamType.Vanguard] = {}
 	slot0[TeamType.Main] = {}
 	slot0[TeamType.Submarine] = {}
@@ -155,7 +155,7 @@ function slot0.updateShips(slot0, slot1)
 	slot0:ResortShips()
 end
 
-function slot0.ResortShips(slot0)
+slot0.ResortShips = function(slot0)
 	_.each({
 		TeamType.Vanguard,
 		TeamType.Main,
@@ -164,7 +164,7 @@ function slot0.ResortShips(slot0)
 		slot1 = uv0[slot0]
 		slot2 = {}
 
-		table.Ipars(slot1, function (slot0, slot1)
+		table.Ipairs(slot1, function (slot0, slot1)
 			uv0[slot1] = slot0
 		end)
 		table.sort(slot1, CompareFuncs({
@@ -178,7 +178,7 @@ function slot0.ResortShips(slot0)
 	end)
 end
 
-function slot0.getTeamByName(slot0, slot1)
+slot0.getTeamByName = function(slot0, slot1)
 	slot2 = {}
 
 	for slot7, slot8 in ipairs(slot0[slot1]) do
@@ -188,7 +188,7 @@ function slot0.getTeamByName(slot0, slot1)
 	return slot2
 end
 
-function slot0.flushShips(slot0)
+slot0.flushShips = function(slot0)
 	slot0.name = getProxy(FleetProxy):getFleetById(slot0.fleetId) and slot2.name ~= "" and slot2.name or Fleet.DEFAULT_NAME[slot0.fleetId] or Fleet.DEFAULT_NAME[slot0.id]
 
 	for slot7, slot8 in ipairs(_.keys(slot0.ships)) do
@@ -224,7 +224,7 @@ function slot0.flushShips(slot0)
 	slot0[TeamType.Submarine] = {}
 end
 
-function slot0.updateShipHp(slot0, slot1, slot2)
+slot0.updateShipHp = function(slot0, slot1, slot2)
 	if slot0.ships[slot1] then
 		slot3.hpChange = slot2 - slot3.hpRant
 		slot3.hpRant = slot2
@@ -233,11 +233,11 @@ function slot0.updateShipHp(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getShip(slot0, slot1)
+slot0.getShip = function(slot0, slot1)
 	return slot0.ships[slot1]
 end
 
-function slot0.getShips(slot0, slot1)
+slot0.getShips = function(slot0, slot1)
 	slot2 = {}
 
 	if slot0:getFleetType() == FleetType.Normal then
@@ -260,7 +260,7 @@ function slot0.getShips(slot0, slot1)
 	return slot2
 end
 
-function slot0.getShipsByTeam(slot0, slot1, slot2)
+slot0.getShipsByTeam = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(slot0[slot1]) do
@@ -280,11 +280,11 @@ function slot0.getShipsByTeam(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.containsShip(slot0, slot1)
+slot0.containsShip = function(slot0, slot1)
 	return slot0.ships[slot1] and true or false
 end
 
-function slot0.replaceShip(slot0, slot1, slot2)
+slot0.replaceShip = function(slot0, slot1, slot2)
 	errorMsg("ChapterFleet replaceShip function used")
 
 	if slot0.ships[slot1] and not slot0.ships[slot2.id] then
@@ -314,7 +314,7 @@ function slot0.replaceShip(slot0, slot1, slot2)
 	end
 end
 
-function slot0.addShip(slot0, slot1)
+slot0.addShip = function(slot0, slot1)
 	errorMsg("ChapterFleet addShip function used")
 
 	if not slot0.ships[slot1.id] and slot0:fetchShipVO(slot1.id) then
@@ -330,7 +330,7 @@ function slot0.addShip(slot0, slot1)
 	end
 end
 
-function slot0.removeShip(slot0, slot1)
+slot0.removeShip = function(slot0, slot1)
 	errorMsg("ChapterFleet removeShip function used")
 
 	slot0.ships[slot1] = nil
@@ -348,7 +348,7 @@ function slot0.removeShip(slot0, slot1)
 	end
 end
 
-function slot0.switchShip(slot0, slot1, slot2, slot3)
+slot0.switchShip = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:getShipsByTeam(slot1, false)
 	slot5 = slot4[slot2].id
 	slot6 = slot4[slot3].id
@@ -372,7 +372,7 @@ function slot0.switchShip(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.synchronousShipIndex(slot0, slot1)
+slot0.synchronousShipIndex = function(slot0, slot1)
 	for slot6, slot7 in ipairs({
 		TeamType.Vanguard,
 		TeamType.Main,
@@ -388,7 +388,7 @@ function slot0.synchronousShipIndex(slot0, slot1)
 	end
 end
 
-function slot0.isValid(slot0)
+slot0.isValid = function(slot0)
 	if slot0:getFleetType() == FleetType.Normal then
 		return _.any(slot0[TeamType.Vanguard], function (slot0)
 			return slot0.hpRant > 0
@@ -406,7 +406,7 @@ function slot0.isValid(slot0)
 	return false
 end
 
-function slot0.getCost(slot0)
+slot0.getCost = function(slot0)
 	_.each(slot0:getShips(false), function (slot0)
 		uv0.oil = uv0.oil + slot0:getStartBattleExpend()
 		uv1.oil = uv1.oil + slot0:getEndBattleExpend()
@@ -421,7 +421,7 @@ function slot0.getCost(slot0)
 	}
 end
 
-function slot0.getInvestSums(slot0, slot1)
+slot0.getInvestSums = function(slot0, slot1)
 	return math.pow(_.reduce(slot0:getShips(slot1), 0, function (slot0, slot1)
 		slot2 = slot1:getProperties(uv0:getCommanders())
 
@@ -429,19 +429,19 @@ function slot0.getInvestSums(slot0, slot1)
 	end), 0.6666666666666666)
 end
 
-function slot0.getDodgeSums(slot0)
+slot0.getDodgeSums = function(slot0)
 	return math.pow(_.reduce(slot0:getShips(false), 0, function (slot0, slot1)
 		return slot0 + slot1:getProperties(uv0:getCommanders())[AttributeType.Dodge]
 	end), 0.6666666666666666)
 end
 
-function slot0.getAntiAircraftSums(slot0)
+slot0.getAntiAircraftSums = function(slot0)
 	return _.reduce(slot0:getShips(false), 0, function (slot0, slot1)
 		return slot0 + slot1:getProperties(uv0:getCommanders())[AttributeType.AntiAircraft]
 	end)
 end
 
-function slot0.getShipAmmo(slot0)
+slot0.getShipAmmo = function(slot0)
 	slot1 = 0
 
 	if slot0:getFleetType() == FleetType.Normal then
@@ -459,13 +459,13 @@ function slot0.getShipAmmo(slot0)
 	return slot1
 end
 
-function slot0.clearShipHpChange(slot0)
+slot0.clearShipHpChange = function(slot0)
 	for slot4, slot5 in pairs(slot0.ships) do
 		slot0.ships[slot5.id].hpChange = 0
 	end
 end
 
-function slot0.getEquipAmbushRateReduce(slot0)
+slot0.getEquipAmbushRateReduce = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.ships) do
@@ -479,7 +479,7 @@ function slot0.getEquipAmbushRateReduce(slot0)
 	return slot1 / 10000
 end
 
-function slot0.getEquipDodgeRateUp(slot0)
+slot0.getEquipDodgeRateUp = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.ships) do
@@ -493,7 +493,7 @@ function slot0.getEquipDodgeRateUp(slot0)
 	return slot1 / 10000
 end
 
-function slot0.isFormationDiffWith(slot0, slot1)
+slot0.isFormationDiffWith = function(slot0, slot1)
 	for slot6, slot7 in ipairs({
 		TeamType.Main,
 		TeamType.Vanguard,
@@ -511,7 +511,7 @@ function slot0.isFormationDiffWith(slot0, slot1)
 	return false
 end
 
-function slot0.getShipIds(slot0)
+slot0.getShipIds = function(slot0)
 	slot1 = {}
 
 	if slot0:getFleetType() == FleetType.Normal then
@@ -534,21 +534,21 @@ function slot0.getShipIds(slot0)
 	return slot1
 end
 
-function slot0.containsSameKind(slot0, slot1)
+slot0.containsSameKind = function(slot0, slot1)
 	return slot1 and _.any(_.values(slot0.ships), function (slot0)
 		return uv0:isSameKind(slot0)
 	end)
 end
 
-function slot0.increaseSlowSpeedFactor(slot0)
+slot0.increaseSlowSpeedFactor = function(slot0)
 	slot0.slowSpeedFactor = slot0.slowSpeedFactor + 1
 end
 
-function slot0.getSpeed(slot0)
+slot0.getSpeed = function(slot0)
 	return math.max(slot0.baseSpeed + (slot0:triggerSkill(FleetSkill.TypeMoveSpeed) or 0) - slot0.slowSpeedFactor, 1)
 end
 
-function slot0.calcBaseSpeed(slot0)
+slot0.calcBaseSpeed = function(slot0)
 	slot1 = slot0:getShips(true)
 	slot2 = _.reduce(slot1, 0, function (slot0, slot1)
 		return slot0 + slot1:getProperties()[AttributeType.Speed]
@@ -575,11 +575,11 @@ function slot0.calcBaseSpeed(slot0)
 	end
 end
 
-function slot0.getDefeatCount(slot0)
+slot0.getDefeatCount = function(slot0)
 	return slot0.defeatEnemies
 end
 
-function slot0.getStrategies(slot0)
+slot0.getStrategies = function(slot0)
 	slot1 = slot0:getOwnStrategies()
 
 	for slot5, slot6 in pairs(slot0.stgPicked) do
@@ -610,7 +610,7 @@ function slot0.getStrategies(slot0)
 	end)
 end
 
-function slot0.getOwnStrategies(slot0)
+slot0.getOwnStrategies = function(slot0)
 	slot1 = {}
 
 	_.each(slot0:getShips(true), function (slot0)
@@ -628,11 +628,11 @@ function slot0.getOwnStrategies(slot0)
 	return slot1
 end
 
-function slot0.achievedStrategy(slot0, slot1, slot2)
+slot0.achievedStrategy = function(slot0, slot1, slot2)
 	slot0.stgPicked[slot1] = (slot0.stgPicked[slot1] or 0) + slot2
 end
 
-function slot0.consumeOneStrategy(slot0, slot1)
+slot0.consumeOneStrategy = function(slot0, slot1)
 	if slot0:getOwnStrategies()[slot1] and slot2[slot1] > 0 then
 		slot3[slot1] = (slot0.stgUsed[slot1] or 0) + 1
 	elseif slot0.stgPicked[slot1] then
@@ -640,17 +640,17 @@ function slot0.consumeOneStrategy(slot0, slot1)
 	end
 end
 
-function slot0.GetStrategyCount(slot0, slot1)
+slot0.GetStrategyCount = function(slot0, slot1)
 	return _.detect(slot0:getStrategies(), function (slot0)
 		return slot0.id == uv0
 	end) and slot3.count or 0
 end
 
-function slot0.getFormationStg(slot0)
+slot0.getFormationStg = function(slot0)
 	return PlayerPrefs.GetInt("team_formation_" .. slot0.id, 1)
 end
 
-function slot0.canUseStrategy(slot0, slot1)
+slot0.canUseStrategy = function(slot0, slot1)
 	if pg.strategy_data_template[slot1.id].type == ChapterConst.StgTypeForm then
 		if slot0:getFormationStg() == slot2.id then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("level_scene_formation_active_already"))
@@ -676,15 +676,15 @@ function slot0.canUseStrategy(slot0, slot1)
 	return true
 end
 
-function slot0.getNextStgUser(slot0, slot1)
+slot0.getNextStgUser = function(slot0, slot1)
 	return slot0.id
 end
 
-function slot0.GetStatusStrategy(slot0)
+slot0.GetStatusStrategy = function(slot0)
 	return slot0.stgIds
 end
 
-function slot0.getFleetType(slot0)
+slot0.getFleetType = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.ships) do
@@ -702,13 +702,13 @@ function slot0.getFleetType(slot0)
 	end
 end
 
-function slot0.canClearTorpedo(slot0)
+slot0.canClearTorpedo = function(slot0)
 	return _.any(slot0:getShipsByTeam(TeamType.Vanguard, true), function (slot0)
 		return ShipType.IsTypeQuZhu(slot0:getShipType())
 	end)
 end
 
-function slot0.getHuntingRange(slot0, slot1)
+slot0.getHuntingRange = function(slot0, slot1)
 	if slot0:getFleetType() ~= FleetType.Submarine then
 		assert(false)
 
@@ -726,19 +726,19 @@ function slot0.getHuntingRange(slot0, slot1)
 	end)
 end
 
-function slot0.inHuntingRange(slot0, slot1, slot2)
+slot0.inHuntingRange = function(slot0, slot1, slot2)
 	return _.any(slot0:getHuntingRange(), function (slot0)
 		return slot0.row == uv0 and slot0.column == uv1
 	end)
 end
 
-function slot0.getSummonCost(slot0)
+slot0.getSummonCost = function(slot0)
 	return _.reduce(slot0:getShips(false), 0, function (slot0, slot1)
 		return slot0 + slot1:getEndBattleExpend()
 	end)
 end
 
-function slot0.getMapAura(slot0)
+slot0.getMapAura = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.ships) do
@@ -750,7 +750,7 @@ function slot0.getMapAura(slot0)
 	return slot1
 end
 
-function slot0.getMapAid(slot0)
+slot0.getMapAid = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.ships) do
@@ -766,7 +766,7 @@ function slot0.getMapAid(slot0)
 	return slot1
 end
 
-function slot0.updateCommanderSkills(slot0)
+slot0.updateCommanderSkills = function(slot0)
 	for slot5, slot6 in pairs(slot0:getCommanders()) do
 		_.each(slot6:getSkills(), function (slot0)
 			_.each(slot0:getTacticSkill(), function (slot0)
@@ -776,27 +776,27 @@ function slot0.updateCommanderSkills(slot0)
 	end
 end
 
-function slot0.getSkills(slot0)
+slot0.getSkills = function(slot0)
 	return slot0.skills
 end
 
-function slot0.getSkill(slot0, slot1)
+slot0.getSkill = function(slot0, slot1)
 	return _.detect(slot0:getSkills(), function (slot0)
 		return slot0.id == uv0
 	end)
 end
 
-function slot0.findSkills(slot0, slot1)
+slot0.findSkills = function(slot0, slot1)
 	return _.filter(slot0:getSkills(), function (slot0)
 		return slot0:GetType() == uv0
 	end)
 end
 
-function slot0.triggerSkill(slot0, slot1)
+slot0.triggerSkill = function(slot0, slot1)
 	return slot0.chapter:triggerSkill(slot0, slot1)
 end
 
-function slot0.findCommanderBySkillId(slot0, slot1)
+slot0.findCommanderBySkillId = function(slot0, slot1)
 	for slot6, slot7 in pairs(slot0:getCommanders()) do
 		if _.any(slot7:getSkills(), function (slot0)
 			return _.any(slot0:getTacticSkill(), function (slot0)
@@ -808,7 +808,7 @@ function slot0.findCommanderBySkillId(slot0, slot1)
 	end
 end
 
-function slot0.getFleetAirDominanceValue(slot0)
+slot0.getFleetAirDominanceValue = function(slot0)
 	slot1 = 0
 	slot5 = false
 
@@ -819,7 +819,7 @@ function slot0.getFleetAirDominanceValue(slot0)
 	return slot1
 end
 
-function slot0.StaticTransformChapterFleet2Fleet(slot0, slot1)
+slot0.StaticTransformChapterFleet2Fleet = function(slot0, slot1)
 	slot8 = TeamType.Main
 	slot7 = "id"
 

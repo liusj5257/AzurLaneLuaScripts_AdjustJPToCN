@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXINGDEZANMEISHI23",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXINGDEZANMEISHI23",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "迷宮中的戰鬥還在繼續。",
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-boss-italy",
+			hidePaintObj = true,
+			say = "迷宮中的戰鬥還在繼續。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -66,8 +66,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "彷彿每粉碎一次過去的敵人帝國的光芒就會明亮一分一般瘋狂的戰鬥著呢……",
 			typewriter = {
@@ -83,8 +83,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "維內托大人，您的感覺是對的，大家的情緒興奮的過於反常了……迷宮中一定還有某些我們尚未察覺的機關。",
 			typewriter = {
@@ -100,8 +100,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "您還記得神話中的塞壬嗎？利用歌聲吸引旅行者，使他們失去心智，最後親手駕駛著船隻走向毀滅。",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "也許塞壬，真的在迷宮裡模擬了神話中塞壬的這一特性也說不定哦……",
 			typewriter = {
@@ -134,10 +134,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "妳是指精神操控嗎……？",
 			typewriter = {
 				speed = 0.05,
@@ -152,8 +152,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "應該不是那麼誇張的機關。利托里奧大人與其他人都能正常交談，不像是失去神智的樣子。",
 			typewriter = {
@@ -169,8 +169,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "只是她們的情緒過於興奮，判斷的精準度大幅下降了……",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			actor = 608010,
 			dir = 1,
+			actor = 608010,
 			nameColor = "#a9f548",
 			say = "我懷疑可能是迷宮的佈局具有某種情緒煽動作用，或者塞壬在這些迷宮牆壁中設置了能夠影響情緒波動的機關……",
 			typewriter = {
@@ -203,10 +203,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 605010,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "如果是這樣的話，唯獨我們沒有受到影響呢……",
 			typewriter = {
 				speed = 0.05,
@@ -234,12 +234,12 @@ return {
 			}
 		},
 		{
-			actor = 605010,
 			side = 2,
 			bgName = "bg_italyv2_3",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605010,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "哈哈……這麼說來我猶豫的個性也嚴重到連塞壬機關都改變不了的程度了嗎……",
 			typewriter = {
 				speed = 0.05,

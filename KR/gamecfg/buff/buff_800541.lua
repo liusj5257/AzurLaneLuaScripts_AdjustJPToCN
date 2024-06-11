@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 2,
+					target = "TargetSelf",
 					skill_id = 800541
 				}
 			}
@@ -24,8 +24,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 2,
+					target = "TargetSelf",
 					skill_id = 800541
 				}
 			}
@@ -40,8 +40,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 2,
+					target = "TargetSelf",
 					skill_id = 800541
 				}
 			}
@@ -56,8 +56,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 2,
+					target = "TargetSelf",
 					skill_id = 800541
 				}
 			}
@@ -72,8 +72,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 2,
+					target = "TargetSelf",
 					skill_id = 800541
 				}
 			}
@@ -88,8 +88,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 2,
+					target = "TargetSelf",
 					skill_id = 800541
 				}
 			}
@@ -104,8 +104,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 2,
+					target = "TargetSelf",
 					skill_id = 800541
 				}
 			}
@@ -120,8 +120,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 2,
+					target = "TargetSelf",
 					skill_id = 800541
 				}
 			}
@@ -136,8 +136,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 2,
+					target = "TargetSelf",
 					skill_id = 800541
 				}
 			}
@@ -152,21 +152,21 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 2,
+					target = "TargetSelf",
 					skill_id = 800541
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 3,
-	color = "blue",
+	name = "",
+	init_effect = "",
+	id = 800541,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800541,
+	color = "blue",
 	icon = 800540,
 	last_effect = "",
 	effect_list = {
@@ -177,8 +177,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 2,
+				target = "TargetSelf",
 				skill_id = 800541
 			}
 		}

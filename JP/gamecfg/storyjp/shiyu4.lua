@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHIYU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHIYU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"世話焼き娘はダテじゃない\n\n<size=45>四 緑に気をつけなさい</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "夕立の姿が見えぬまま境内にたどり着くと、社務所の中から山城と扶桑が手を振っているのが見えた。",
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "夕立の姿が見えぬまま境内にたどり着くと、社務所の中から山城と扶桑が手を振っているのが見えた。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "もー……ホントにあの子は…今日はおかず半分の罰ね…！",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "言われた通り一休みすることにし、ふと社務所の中に目を向けると、お守りやお札といったものがたくさんあった。",
 			typewriter = {
 				speed = 0.05,
@@ -202,9 +202,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "興味本位で時雨が筒を振ってみる。すると出た番号のおみくじは見事に大吉であった。",
 			typewriter = {
 				speed = 0.05,
@@ -216,11 +216,11 @@ return {
 			}
 		},
 		{
-			actor = 301150,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301150,
+			nameColor = "#a9f548",
 			say = "ふっふっふ。見なさい指揮官！やはりこの時雨様の幸運は、母港一のものだわ！！",
 			effects = {
 				{
@@ -238,9 +238,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "そう言いながら続けて引いた番号のおみくじも大吉――最終的に五連続も大吉を引いてみせたのだった。",
 			effects = {
 				{
@@ -306,9 +306,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "そう言いながら山城が振って出たおみくじの結果は――吉であった。",
 			typewriter = {
 				speed = 0.05,
@@ -368,9 +368,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "ふと時雨が山城の持っている湯呑に気づいてしまった。",
 			typewriter = {
 				speed = 0.05,
@@ -398,11 +398,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305020,
+			nameColor = "#a9f548",
 			say = "？？？…って熱っ！！",
 			dialogShake = {
 				speed = 0.09,
@@ -419,9 +419,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_room",
+			dir = 1,
 			say = "頷きながら湯のみに口を近づけた途端、山城が舌をぺろりと出しながら悲しそうな顔を見せる。",
 			typewriter = {
 				speed = 0.05,

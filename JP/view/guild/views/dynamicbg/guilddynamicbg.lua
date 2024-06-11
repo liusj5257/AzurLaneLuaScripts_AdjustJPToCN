@@ -3,7 +3,7 @@ slot1 = false
 slot2 = false
 slot3 = require("view.guild.views.DynamicBG.GuildDynamicBGConfig")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.mainScrollrect = slot1:Find("scrollrect")
 	slot0.assistScrollrect = slot1:Find("scrollrect1")
 	slot0.pathContainer = slot1:Find("scrollrect/content/path")
@@ -18,7 +18,7 @@ function slot0.Ctor(slot0, slot1)
 	end)
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0.shipVOs = slot1 or {}
 
 	seriesAsync({
@@ -45,7 +45,7 @@ function slot0.Init(slot0, slot1)
 	end)
 end
 
-function slot0.InitPath(slot0)
+slot0.InitPath = function(slot0)
 	slot2 = uv0.gridCnt[2]
 	slot3 = uv0.cantWalkPos
 	slot4 = Vector2(uv0.gridSize[1], uv0.gridSize[2])
@@ -67,7 +67,7 @@ function slot0.InitPath(slot0)
 	end
 end
 
-function slot0.GetRandomGrid(slot0)
+slot0.GetRandomGrid = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.path) do
@@ -81,12 +81,12 @@ function slot0.GetRandomGrid(slot0)
 	return slot1[math.random(1, #slot1)]
 end
 
-function slot0.GetGrid(slot0, slot1, slot2)
+slot0.GetGrid = function(slot0, slot1, slot2)
 	return slot0.path[slot1][slot2]
 end
 
-function slot0.InitFurnitures(slot0, slot1)
-	function slot2(slot0, slot1, slot2)
+slot0.InitFurnitures = function(slot0, slot1)
+	slot2 = function(slot0, slot1, slot2)
 		GetOrAddComponent(slot1, typeof(RectTransform)).pivot = Vector2(0, 0)
 		slot4 = uv0:GetGrid(slot0.position[1], slot0.position[2])
 
@@ -119,7 +119,7 @@ function slot0.InitFurnitures(slot0, slot1)
 	seriesAsync(slot3, slot1)
 end
 
-function slot0.InitShips(slot0, slot1)
+slot0.InitShips = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot0.shipVOs) do
@@ -131,8 +131,8 @@ function slot0.InitShips(slot0, slot1)
 	seriesAsync(slot2, slot1)
 end
 
-function slot0.AddShip(slot0, slot1, slot2)
-	function slot3(slot0, slot1, slot2, slot3)
+slot0.AddShip = function(slot0, slot1, slot2)
+	slot3 = function(slot0, slot1, slot2, slot3)
 		tf(slot2):SetParent(uv0.pathContainer)
 
 		tf(slot2).localScale = Vector3(0.5, 0.5, 1)
@@ -181,7 +181,7 @@ function slot0.AddShip(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.ExitShip(slot0, slot1)
+slot0.ExitShip = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0.ships) do
 		if slot6.name == slot1 then
 			PoolMgr.GetInstance():ReturnSpineChar(slot6._go.name, slot6._go)
@@ -194,7 +194,7 @@ function slot0.ExitShip(slot0, slot1)
 	end
 end
 
-function slot0.SortScene(slot0)
+slot0.SortScene = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.ships) do
@@ -224,7 +224,7 @@ function slot0.SortScene(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	for slot4, slot5 in pairs(slot0.ships) do
 		PoolMgr.GetInstance():ReturnSpineChar(slot5._go.name, slot5._go)
 		slot5:Dispose()
@@ -249,7 +249,7 @@ function slot0.Dispose(slot0)
 	end
 end
 
-function slot0.AddGridDebugView(slot0)
+slot0.AddGridDebugView = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.path) do
@@ -284,7 +284,7 @@ function slot0.AddGridDebugView(slot0)
 	slot0.timer.func()
 end
 
-function slot0.AddDebugShip(slot0, slot1)
+slot0.AddDebugShip = function(slot0, slot1)
 	slot2 = Ship.New({
 		id = 0,
 		configId = 301284,

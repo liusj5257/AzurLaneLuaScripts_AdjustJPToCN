@@ -1,14 +1,14 @@
 return {
 	fadeOut = 2,
 	mode = 2,
-	id = "YINGHUA5",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Thou shalt not touch a human, for they would tarnish thy divinity.",
@@ -25,8 +25,8 @@ return {
 			}
 		},
 		{
-			say = "......",
 			blackBg = true,
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,10 +35,10 @@ return {
 		{
 			actor = 305050,
 			side = 2,
-			bgm = "story-2",
+			say = "Mutsu, I need your opinion: will this pose be good for the next ceremony?",
 			dir = 1,
 			blackBg = true,
-			say = "Mutsu, I need your opinion: will this pose be good for the next ceremony?",
+			bgm = "story-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,9 +51,9 @@ return {
 		{
 			actor = 305060,
 			side = 0,
+			say = "Well, hold still so I can get a look... Hmm, it looks kinda stupid to me. Maybe it'd work if you kept your arms totally straight?",
 			dir = 1,
 			blackBg = true,
-			say = "Well, hold still so I can get a look... Hmm, it looks kinda stupid to me. Maybe it'd work if you kept your arms totally straight?",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -128,8 +128,8 @@ return {
 			}
 		},
 		{
-			say = "Though the girl tried, her smile came off as incredibly forced.",
 			blackBg = true,
+			say = "Though the girl tried, her smile came off as incredibly forced.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

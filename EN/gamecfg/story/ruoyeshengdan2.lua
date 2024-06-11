@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RUOYESHENGDAN2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RUOYESHENGDAN2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Christmas Party！\n\n<size=45>Queen's Profile</size>",
@@ -19,17 +19,17 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_100",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_100",
 			bgm = "story-1",
 			actor = 299011,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
 			say = "The right hand is looking good! Lady Warspite, your part is next!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -54,11 +54,11 @@ return {
 			}
 		},
 		{
-			actor = 205021,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205021,
+			nameColor = "#a9f548",
 			say = "Calm down... Calm down, Warspite... Great! That should do it for Her Majesty's eyebrows!",
 			typewriter = {
 				speed = 0.05,
@@ -70,8 +70,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -83,10 +83,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Impressive as always, Warspite! A beautiful depiction of Her Majesty's face, if I must say so myself!",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = 1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "Phew... we managed to finish in time.",
 			typewriter = {
@@ -115,11 +115,11 @@ return {
 			}
 		},
 		{
-			actor = 199012,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 199012,
+			nameColor = "#a9f548",
 			say = "Yo, what's up with that giant gingerbread cookie?!",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -144,10 +144,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Why, if it isn't Seattle. Thank you very much for arranging the Christmas party.",
 			typewriter = {
 				speed = 0.05,
@@ -162,8 +162,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 199012,
 			dir = 1,
+			actor = 199012,
 			nameColor = "#a9f548",
 			say = "I'm just doing this 'cause it's fun~♪",
 			typewriter = {
@@ -195,10 +195,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "What kind of issues?",
 			typewriter = {
 				speed = 0.05,
@@ -229,8 +229,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = 1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "\"Love,\" huh... I was also worried about that.",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -256,8 +256,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 205021,
 			dir = 1,
+			actor = 205021,
 			nameColor = "#a9f548",
 			say = "So this is what we decided on this year! A special gingerbread statue, fashioned in Her Majesty's image! We call it the \"Queen's Profile!\"",
 			typewriter = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 199012,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 199012,
+			nameColor = "#a9f548",
 			say = "Dang... That's pretty awesome...",
 			typewriter = {
 				speed = 0.05,
@@ -286,8 +286,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -299,10 +299,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Hehe... did you think it was just a regular gingerbread cookie?",
 			typewriter = {
 				speed = 0.05,
@@ -317,10 +317,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "We've prepared countless ingredients as well as an industrial-size oven for this project! And after many rounds of trial and error...",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301231,
 			dir = 1,
+			actor = 301231,
 			nameColor = "#a9f548",
 			say = "Yeah, it's way too big... How many times did you make me taste test? It was really tasty, but...",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -378,10 +378,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Oh my, did you not volunteer to be our taste tester yourself, Miss Wakaba?",
 			typewriter = {
 				speed = 0.05,
@@ -396,8 +396,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_100",
-			actor = 301231,
 			dir = 1,
+			actor = 301231,
 			nameColor = "#a9f548",
 			say = "Because I was allured by the smell of gingerbread while handing out presents~!",
 			typewriter = {
@@ -410,12 +410,12 @@ return {
 			}
 		},
 		{
-			actor = 299011,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 299011,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That indeed is the Royal spirit. Your dedication shall not go to waste.",
 			typewriter = {
 				speed = 0.05,
@@ -427,11 +427,11 @@ return {
 			}
 		},
 		{
-			actor = 205021,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205021,
+			nameColor = "#a9f548",
 			say = "Just wait, Your Majesty! This year, you'll be pleased for sure!",
 			typewriter = {
 				speed = 0.05,
@@ -443,8 +443,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -456,10 +456,10 @@ return {
 			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_100",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 299011,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "That's right! The Royal Maids will be stunned speechless by our magnificent Christmas present!",
 			typewriter = {
 				speed = 0.05,
@@ -503,11 +503,11 @@ return {
 			}
 		},
 		{
-			actor = 301231,
 			side = 2,
 			bgName = "star_level_bg_100",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301231,
+			nameColor = "#a9f548",
 			say = "Wait, Seattle! Let me help you with that!",
 			typewriter = {
 				speed = 0.05,
@@ -519,8 +519,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -1,12 +1,12 @@
 return {
-	id = "W1103",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1103",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The Control Device was destroyed, clearing the haze in the area. Something else seems to have changed, too......",
 			typewriter = {
 				speed = 0.05,

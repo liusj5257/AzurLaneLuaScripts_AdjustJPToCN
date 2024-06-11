@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2024异世界冒险 英灵效果 黑海伦娜",
 	time = 0,
-	color = "yellow",
+	name = "2024异世界冒险 英灵效果 黑海伦娜",
+	init_effect = "",
+	id = 200885,
 	picture = "",
 	desc = "",
 	stack = 99,
-	id = 200885,
+	color = "yellow",
 	icon = 200885,
 	last_effect = "",
 	effect_list = {
@@ -18,8 +18,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.02
+				number = 0.02,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

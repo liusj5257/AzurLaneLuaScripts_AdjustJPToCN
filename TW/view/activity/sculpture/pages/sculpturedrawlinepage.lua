@@ -1,10 +1,10 @@
 slot0 = class("SculptureDrawLinePage", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SculptureDrawLineUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.cg = GetOrAddComponent(slot0._parentTf, typeof(CanvasGroup))
 	slot0.backBtn = slot0:findTF("back")
 	slot0.helpBtn = slot0:findTF("help")
@@ -17,12 +17,12 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("tip"), i18n("sculpture_drawline_tip"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.points = {}
 	slot0.index = 0
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
 	slot0.id = slot1
@@ -44,7 +44,7 @@ function slot0.Show(slot0, slot1, slot2)
 	pg.BgmMgr.GetInstance():Push(slot0.__cname, "bar-soft")
 end
 
-function slot0.InitLine(slot0, slot1)
+slot0.InitLine = function(slot0, slot1)
 	slot2 = slot0.activity
 	slot3 = ResourceMgr.Inst
 
@@ -56,7 +56,7 @@ function slot0.InitLine(slot0, slot1)
 	end), true, true)
 end
 
-function slot0.InitOneKey(slot0, slot1)
+slot0.InitOneKey = function(slot0, slot1)
 	slot2 = slot0.activity
 	slot3 = ResourceMgr.Inst
 
@@ -67,7 +67,7 @@ function slot0.InitOneKey(slot0, slot1)
 	end), true, true)
 end
 
-function slot0.InitLineRendering(slot0)
+slot0.InitLineRendering = function(slot0)
 	slot1 = slot0.eventTrigger
 
 	slot1:AddPointDownFunc(function (slot0, slot1)
@@ -93,7 +93,7 @@ function slot0.InitLineRendering(slot0)
 	end)
 end
 
-function slot0.OnPointDown(slot0, slot1)
+slot0.OnPointDown = function(slot0, slot1)
 	slot0.points = {}
 
 	slot0:AddPoint(slot1.position)
@@ -103,7 +103,7 @@ function slot0.OnPointDown(slot0, slot1)
 	setActive(slot0.pen, true)
 end
 
-function slot0.OnPointUp(slot0)
+slot0.OnPointUp = function(slot0)
 	if not slot0.pen then
 		return
 	end
@@ -139,11 +139,11 @@ function slot0.OnPointUp(slot0)
 	slot0.pen = nil
 end
 
-function slot0.OnPass(slot0)
+slot0.OnPass = function(slot0)
 	slot0.contextData.miniMsgBox:ExecuteAction("Show", {
-		yes_text = "btn_next",
-		effect = true,
 		model = true,
+		effect = true,
+		yes_text = "btn_next",
 		content = i18n("sculpture_drawline_done"),
 		onYes = function ()
 			uv0:emit(SculptureMediator.ON_DRAW_SCULPTURE, uv0.id)
@@ -151,7 +151,7 @@ function slot0.OnPass(slot0)
 	})
 end
 
-function slot0.OnDrag(slot0, slot1)
+slot0.OnDrag = function(slot0, slot1)
 	if not slot0.pen then
 		return
 	end
@@ -161,13 +161,13 @@ function slot0.OnDrag(slot0, slot1)
 	slot0.pen.position = slot0.points[#slot0.points]
 end
 
-function slot0.AddPoint(slot0, slot1)
+slot0.AddPoint = function(slot0, slot1)
 	slot2 = slot0.uiCam:ScreenToWorldPoint(slot1)
 
 	table.insert(slot0.points, Vector3(slot2.x, slot2.y, -1))
 end
 
-function slot0.RegisterEvent(slot0, slot1)
+slot0.RegisterEvent = function(slot0, slot1)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0.contextData.miniMsgBox:ExecuteAction("Show", {
 			showNo = true,
@@ -188,7 +188,7 @@ function slot0.RegisterEvent(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.OnOneKey(slot0)
+slot0.OnOneKey = function(slot0)
 	slot0.points = {}
 
 	for slot5 = 1, slot0.onekeyTrack.points.Length do
@@ -197,7 +197,7 @@ function slot0.OnOneKey(slot0)
 		table.insert(slot0.points, Vector3(slot7.x, slot7.y, -1))
 	end
 
-	function slot2(slot0)
+	slot2 = function(slot0)
 		if not uv0.pen then
 			uv0.pen = Object.Instantiate(uv0.penTpl, slot0, Quaternion.New(0, 0, 0, 0), uv0.frame)
 		else
@@ -229,7 +229,7 @@ function slot0.OnOneKey(slot0)
 	end)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if not IsNil(slot0.tracker) then
 		Object.Destroy(slot0.tracker.gameObject)
 	end
@@ -240,13 +240,13 @@ function slot0.Clear(slot0)
 	removeOnButton(slot0.oneKeyBtn)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.BgmMgr.GetInstance():Pop(slot0.__cname)
 	slot0:Clear()
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.exited = true
 end
 

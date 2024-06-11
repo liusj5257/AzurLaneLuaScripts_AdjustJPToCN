@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIJUNZHU",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIJUNZHU",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"荣耀殿堂\n\n<size=45>咖啡馆中的猫</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "star_level_bg_104",
-			say = "感受着正午之后明媚的阳光，在沙发上静静的等待着。时间应该差不多了——",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			nameColor = "#a9f548",
+			say = "感受着正午之后明媚的阳光，在沙发上静静的等待着。时间应该差不多了——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -67,8 +67,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "身披大衣的红发女性英姿飒爽地向桌子走来，为有些静滞的咖啡馆中带来一股凌冽清风。",
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 299020,
+			nameColor = "#a9f548",
 			say = "虽然收到您的邀请令我深感荣幸，不过你在邀请函上漏写了邀请理由哦。",
 			typewriter = {
 				speed = 0.05,
@@ -124,12 +124,12 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 299020,
+			nameColor = "#a9f548",
 			say = "啊，非常感谢，是我失礼了。",
 			typewriter = {
 				speed = 0.05,
@@ -141,12 +141,12 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 299020,
+			nameColor = "#a9f548",
 			say = "那是自然。只要是您的要求，纵使前往炼狱火海也义无反顾……更不用说只是在咖啡馆中的小聚了。",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "看来是她平时全身心扑在战斗和工作上，对于港区变化的观察过于疏忽了。",
@@ -205,8 +205,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "一直以来都感觉君主和其他皇家淑女的生活方式不太一样。",
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "毕竟经常被伊丽莎白和各位皇家的同伴叫去茶会，耳濡目染之中也学会了一些。",
@@ -315,8 +315,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "就连今天这家咖啡馆也是伊丽莎白强烈推荐的。",
@@ -346,8 +346,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "（其实严重怀疑这间咖啡馆会出现的本身就和伊丽莎白有脱不开的关系……）",
@@ -361,8 +361,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "不过在参与过的茶会上，几乎没有见过君主的身影。",
@@ -418,8 +418,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "那么，原因果然是……",
@@ -465,8 +465,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "顺着君主的视线穿过墙上的玻璃望出去，一群热闹的人正在沿着街道向这里接近着。",
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "看来是因为伊丽莎白如大海一般善变的心情，没有变成就近进入店里享用下午茶的情况。",
@@ -591,11 +591,11 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 299020,
+			nameColor = "#a9f548",
 			say = "所以指挥官，今天邀请我来的理由究竟是————呀？！！",
 			typewriter = {
 				speed = 0.05,
@@ -607,8 +607,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -617,8 +617,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "一个从角落中冷不防窜出的黑影径直扑到了君主身上，打断了她的提问句。",
@@ -632,11 +632,11 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 299020,
+			nameColor = "#a9f548",
 			say = "……猫？！究竟是从哪里冒出来的，快下去……去……",
 			typewriter = {
 				speed = 0.05,
@@ -648,8 +648,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -658,8 +658,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "黑色的猫咪似乎有些不解地对着君主歪了歪头，然后飞身落地跑远了。",
@@ -721,8 +721,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "看来因为突然出现的猫弹袭击，君主还处在略微的慌乱之中。",
@@ -736,8 +736,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "咖啡馆中有猫咪存在原本也在我的预料之外，不过因此能看到君主难以见到的另一面也算不错。",
@@ -767,11 +767,11 @@ return {
 			}
 		},
 		{
-			actor = 299020,
 			side = 2,
 			bgName = "star_level_bg_104",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 299020,
+			nameColor = "#a9f548",
 			say = "等等……猫咪的数量增加了？！别过来！",
 			typewriter = {
 				speed = 0.05,
@@ -783,8 +783,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -793,8 +793,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "刚刚离开的猫似乎错误理解了君主的意思，这一次带着它的同伴一同飞扑了过去。",
@@ -840,8 +840,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "君主在短暂的犹豫后重新调整了神态，维持着优雅坐姿的同时温柔地抚摸起面前的两只小猫。",
@@ -887,8 +887,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "硬要说，故意的源头应该归于明明早知道这些情报却在推荐店时刻意隐瞒的伊丽莎白——",
@@ -902,8 +902,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "在正在思考如何回答时，又有一只猫猝不及防的扑了过来——这次轮到我被吓了一跳了。",
@@ -949,8 +949,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "君主温柔地将猫抱到了身边。",
@@ -964,8 +964,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "加上不知不觉中又靠过来的两只，现在的她被身边整整五只猫簇紧紧拥着，如同陷入了猫咪的海洋中一般。",
@@ -979,8 +979,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			say = "再之后，我们又悠闲地谈了很多，君主没有再问起我邀请她来的理由，我也没有再试图回答过。",
@@ -994,8 +994,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_104",
 			dir = 1,
 			blackBg = true,

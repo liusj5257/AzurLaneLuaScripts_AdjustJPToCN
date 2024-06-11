@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"선배와의 앙금\n\n<size=45>응어리 (상)</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "저번 연습전 이후로, 에식스의 태도가 어딘가 좀 이상한 것 같다.",
 			typewriter = {
 				speed = 0.05,
@@ -56,9 +56,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "한 번 에식스와 이야기를 해볼까.",
 			typewriter = {
 				speed = 0.05,
@@ -68,14 +68,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 107090,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "네? 평소 제 활약에 대한 감사 표시로, 다음 비번 때 어디론가 외출하자…고요?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -100,11 +100,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#92fc63",
 			say = "비서함으로서 해야 할 일을 한 것 뿐이니, 특별히 감사받을만한 일을 한 건…",
 			typewriter = {
 				speed = 0.05,
@@ -125,8 +125,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "지, 지휘관님께서 그렇게까지 말씀하신다면…",
 			typewriter = {
@@ -139,14 +139,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
-			bgName = "star_level_bg_105",
+			stopbgm = true,
 			dir = 1,
+			bgName = "star_level_bg_105",
 			say = "그리고, 비번 날에 에식스와 모항 주변의 외출을 나왔다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -167,13 +167,13 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "장소가 다르다는 것 말고는, 평소 하는 모항의 순찰과 그다지 차이가 없네요…",
 			bgm = "story-1",
+			actor = 107090,
+			nameColor = "#92fc63",
+			say = "장소가 다르다는 것 말고는, 평소 하는 모항의 순찰과 그다지 차이가 없네요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,8 +187,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "아, 뭐 하실 말씀 있으세요?",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "엔터프라이즈 선배를 어떻게 생각하는지…말씀이신가요……",
 			typewriter = {
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			nameColor = "#92fc63",
-			bgName = "star_level_bg_105",
 			side = 2,
+			bgName = "star_level_bg_105",
 			dir = 1,
+			actor = 107060,
 			stopbgm = true,
 			say = "그렇진 않아.",
 			typewriter = {
@@ -372,9 +372,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 107090,
 			dir = 1,
 			blackBg = true,
+			actor = 107090,
 			nameColor = "#92fc63",
 			say = "에, 엔터프라이즈 선배?!",
 			typewriter = {
@@ -387,8 +387,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.1,
 					x = 0,

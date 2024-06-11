@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEIJIAO05",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WEIJIAO05",
 	fadein = 1.5,
 	scripts = {
 		{

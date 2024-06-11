@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DACHAOLIFU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DACHAOLIFU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"心血來潮的夜宴\n\n<size=45>一 來辦宴會吧！（？）</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某日·指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "某日·指揮室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 403040,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403040,
+			nameColor = "#a9f548",
 			say = "下僕！來辦宴會吧！",
 			effects = {
 				{
@@ -72,9 +72,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…總覺得這場景似曾相識",
 			effects = {
 				{
@@ -140,9 +140,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……半推半就地幫鐵血，或者說幫德意志準備起了宴會",
 			typewriter = {
 				speed = 0.05,
@@ -154,15 +154,15 @@ return {
 			}
 		},
 		{
-			say = "經過了數天的準備，心血來潮的鐵血之宴開始了——",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "經過了數天的準備，心血來潮的鐵血之宴開始了——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403053,
 			dir = 1,
+			actor = 403053,
 			nameColor = "#a9f548",
 			say = "非常抱歉，指揮官，姐姐給你添麻煩了…另外也謝謝指揮官幫忙一起籌辦了這場宴會……",
 			typewriter = {
@@ -207,8 +207,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 403043,
 			dir = 1,
+			actor = 403043,
 			nameColor = "#a9f548",
 			say = "嗯哼，作為下僕來說做得不錯！怎麼樣！伊莉莎白！我們鐵血的宴會！",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "區、區區德意志竟然這麼囂張…不過…就勉強承認這宴會準備得不錯吧…",
 			typewriter = {
@@ -238,8 +238,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -267,8 +267,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 202123,
 			dir = 1,
+			actor = 202123,
 			nameColor = "#a9f548",
 			say = "作為答謝，就讓我們女僕隊兼任起會場的警備工作吧",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -294,8 +294,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 202123,
 			dir = 1,
+			actor = 202123,
 			nameColor = "#a9f548",
 			say = "同行的皇家方舟小姐也非常積極地自告奮勇參與到了警備的工作中來，必定萬無一失，請放心吧",
 			typewriter = {
@@ -308,9 +308,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
+			dir = 1,
 			say = "不遠處……",
 			typewriter = {
 				speed = 0.05,
@@ -341,11 +341,11 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_115",
-			actor = 205011,
-			dir = 1,
-			actorName = "眾人",
-			hideOther = true,
 			nameColor = "#a9f548",
+			dir = 1,
+			hideOther = true,
+			actor = 205011,
+			actorName = "眾人",
 			say = "……",
 			subActors = {
 				{
@@ -373,12 +373,12 @@ return {
 			}
 		},
 		{
-			actor = 403043,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 403043,
+			nameColor = "#a9f548",
 			say = "好、好了！盡情享受這場鐵血之宴吧！",
 			typewriter = {
 				speed = 0.05,

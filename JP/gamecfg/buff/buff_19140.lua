@@ -302,12 +302,12 @@ return {
 	desc_get = "",
 	name = "西雅图2",
 	init_effect = "",
+	id = 19140,
 	time = 0,
-	color = "yellow",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19140,
+	color = "yellow",
 	icon = 19140,
 	last_effect = "",
 	effect_list = {
@@ -317,9 +317,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 19140,
 				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 19140,
 				index = {
 					2
 				},
@@ -334,9 +334,9 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 19141,
 				minWeaponNumber = 1,
 				check_weapon = true,
+				skill_id = 19141,
 				index = {
 					2
 				},

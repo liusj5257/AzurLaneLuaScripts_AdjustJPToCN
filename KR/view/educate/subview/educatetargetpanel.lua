@@ -1,10 +1,10 @@
 slot0 = class("EducateTargetPanel", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EducateTargetPanel"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.contentTF = slot0:findTF("content")
 
 	onButton(slot0, slot0.contentTF, function ()
@@ -46,7 +46,7 @@ function slot0.OnInit(slot0)
 	slot0:Flush()
 end
 
-function slot0.updateTaskItem(slot0, slot1, slot2, slot3)
+slot0.updateTaskItem = function(slot0, slot1, slot2, slot3)
 	slot4 = slot3 == "main" and slot0.mainTaskVOs[slot1 + 1] or slot0.otherTaskVOs[slot1 + 1]
 	slot5 = string.format("(%s)", slot4:GetProgress() .. "/" .. slot4:GetFinishNum())
 
@@ -61,7 +61,7 @@ function slot0.updateTaskItem(slot0, slot1, slot2, slot3)
 	setText(slot0:findTF("desc", slot2), shortenString(slot4:getConfig("name"), 11 - slot6))
 end
 
-function slot0.Flush(slot0)
+slot0.Flush = function(slot0)
 	if not slot0:GetLoaded() then
 		return
 	end
@@ -92,15 +92,15 @@ function slot0.Flush(slot0)
 	setActive(slot0.lineTF, slot1 > 0 and slot3 > 0)
 end
 
-function slot0.SetPosLeft(slot0)
+slot0.SetPosLeft = function(slot0)
 	setLocalPosition(slot0.contentTF, Vector2(-650, 0))
 end
 
-function slot0.SetPosRight(slot0)
+slot0.SetPosRight = function(slot0)
 	setLocalPosition(slot0.contentTF, Vector2(0, 0))
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

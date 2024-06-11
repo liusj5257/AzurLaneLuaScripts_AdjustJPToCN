@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEIJIAO09",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WEIJIAO09",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -118,13 +118,13 @@ return {
 		{
 			actor = 202030,
 			side = 2,
+			dir = 1,
 			hideOther = true,
 			nameColor = "#92fc63",
-			dir = 1,
 			say = "실은 우리 뒤엔 컴벌랜드밖에 없었어요. 아크 로열이나 리나운이 온다는 건 전부 거짓말이었답니다. 우후훗.",
 			flashout = {
-				dur = 1.2,
 				black = true,
+				dur = 1.2,
 				alpha = {
 					0,
 					1

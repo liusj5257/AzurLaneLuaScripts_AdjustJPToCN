@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "QIAOZHIWUSHI1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "QIAOZHIWUSHI1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"もうひとりのカリスマ？\n\n<size=45>一　意外な救世主</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			blackBg = true,
-			side = 2,
-			say = "母港・？？？",
-			dir = 1,
 			bgmDelay = 2,
+			side = 2,
+			dir = 1,
+			blackBg = true,
 			bgm = "story-2",
+			say = "母港・？？？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "目を覚ますと、見知らぬ風景が広がっていた。",
 			typewriter = {
 				speed = 0.05,
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "馴染みのない天井、どこか懐かしさを感じる奇妙な香り、ロイヤルの王家を思わせる豪華な内装……",
 			typewriter = {
 				speed = 0.05,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "この声は……デューク・オブ・ヨーク……？",
 			typewriter = {
 				speed = 0.05,
@@ -110,9 +110,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "となると、自分は彼女の部屋にさらわれた（？）に違いない。",
 			typewriter = {
 				speed = 0.05,
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "どうやら彼女は本気のようだ。しかし「所業」について心当たりはないが……",
 			typewriter = {
 				speed = 0.05,
@@ -208,9 +208,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "ウェールズではなく「あの女」ってまさか……！",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_107",
 			stopbgm = true,
 			dir = 1,
@@ -239,11 +239,11 @@ return {
 			}
 		},
 		{
-			bgm = "story-1",
+			say = "声とともに現れたのは――最近秘書官に任命したキングジョージ5世であった。",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
-			say = "声とともに現れたのは――最近秘書官に任命したキングジョージ5世であった。",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,9 +254,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "そして、妖しい香りと共にデューク・オブ・ヨークから醸し出されている抗えないような空気は颯爽と登場した彼女によって一掃された。",
 			typewriter = {
 				speed = 0.05,
@@ -284,9 +284,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "気圧されたのか、デューク・オブ・ヨークは珍しく取り乱した。",
 			typewriter = {
 				speed = 0.05,
@@ -301,8 +301,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "ふん、あなたの考えていることなど、私には手に取るようにわかるわ",
 			typewriter = {
@@ -331,11 +331,11 @@ return {
 			}
 		},
 		{
-			actor = 205050,
+			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
 			withoutActorName = true,
-			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "キングジョージはそのままこちらに近づき――",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 205050,
 			dir = 1,
+			actor = 205050,
 			nameColor = "#a9f548",
 			say = "指揮官、しっかり掴まれよ？",
 			typewriter = {
@@ -371,9 +371,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_107",
+			dir = 1,
 			say = "そのままキングジョージ5世にお姫様抱っこ（！？）で執務室まで運ばれた。",
 			typewriter = {
 				speed = 0.05,

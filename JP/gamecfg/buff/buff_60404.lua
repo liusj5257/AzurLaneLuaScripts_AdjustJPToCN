@@ -1,11 +1,11 @@
 return {
-	color = "red",
+	id = 60404,
 	name = "",
 	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 60404,
+	color = "red",
 	icon = 60400,
 	last_effect = "",
 	effect_list = {
@@ -15,8 +15,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
+				number = 0.15,
 				attr = "damageAmmoToArmorRateEnhance_1",
-				number = 0.15,
 				index = {
 					3
 				}
@@ -28,8 +28,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
+				number = 0.15,
 				attr = "damageAmmoToArmorRateEnhance_2",
-				number = 0.15,
 				index = {
 					3
 				}
@@ -41,8 +41,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "damageAmmoToArmorRateEnhance_3",
 				number = 0.15,
+				attr = "damageAmmoToArmorRateEnhance_3",
 				index = {
 					3
 				}

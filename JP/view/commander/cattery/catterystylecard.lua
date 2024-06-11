@@ -1,6 +1,6 @@
 slot0 = class("CatteryStyleCard")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform
 	slot0.styleIcon = slot0._tf:Find("mask/icon"):GetComponent(typeof(Image))
@@ -8,7 +8,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.mark = findTF(slot0._tf, "mark")
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.style = slot1
 	slot0.styleIcon.sprite = GetSpriteFromAtlas("CatteryStyle/" .. slot1:getConfig("name"), "")
 
@@ -16,7 +16,7 @@ function slot0.Update(slot0, slot1, slot2)
 	setActive(slot0.mark, slot2)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 end
 
 return slot0

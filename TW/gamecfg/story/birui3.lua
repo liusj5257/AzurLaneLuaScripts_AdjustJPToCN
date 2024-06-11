@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"{namecode:71}的宴會\n\n<size=45>三 緣由</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 304020,
-			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "指揮官果然不記得了嗎？之前還跟您說過這件事呢~",
 			bgm = "story-1",
+			actor = 304020,
+			nameColor = "#a9f548",
+			say = "指揮官果然不記得了嗎？之前還跟您說過這件事呢~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,9 +52,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "在{namecode:71}笑容的注視下，似乎想起了什麼…",
 			typewriter = {
 				speed = 0.05,
@@ -62,15 +62,15 @@ return {
 			}
 		},
 		{
-			say = "數日前·港區近海",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "數日前·港區近海",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -111,12 +111,12 @@ return {
 			}
 		},
 		{
-			actor = 304030,
+			say = "嗯…~雖然也不是說喜歡戰鬥啦，不過，像這樣的日常巡邏還是有點沒意思啊…",
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "嗯…~雖然也不是說喜歡戰鬥啦，不過，像這樣的日常巡邏還是有點沒意思啊…",
+			actor = 304030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -163,11 +163,11 @@ return {
 			}
 		},
 		{
-			actor = 304030,
 			side = 1,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304030,
+			nameColor = "#a9f548",
 			say = "哼，來呀！我可不會輸給妳！",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -205,10 +205,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			hideOther = true,
 			dir = 1,
 			actor = 304040,
 			actorName = "{namecode:73}&{namecode:72}",
@@ -231,9 +231,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
+			dir = 1,
 			say = "看上去一副溫柔模樣的{namecode:71}，卻意外地有震懾他人的氣場",
 			typewriter = {
 				speed = 0.05,
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "呵呵，大家都辛苦了呢~",
 			typewriter = {
 				speed = 0.05,
@@ -311,10 +311,10 @@ return {
 			}
 		},
 		{
-			actor = 304040,
 			actorName = "{namecode:73}&{namecode:72}",
-			bgName = "bg_story_nepu1",
 			side = 0,
+			bgName = "bg_story_nepu1",
+			actor = 304040,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -343,12 +343,12 @@ return {
 			}
 		},
 		{
-			say = "說起來，似乎是有這麼一件事…",
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "說起來，似乎是有這麼一件事…",
 			effects = {
 				{
 					active = false,
@@ -356,8 +356,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -426,8 +426,8 @@ return {
 		},
 		action = {
 			{
-				type = "move",
 				y = -75,
+				type = "move",
 				delay = 0,
 				dur = 0.3,
 				x = 0

@@ -1,6 +1,6 @@
 slot0 = class("TakeAttachmentCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if getProxy(MailProxy):getMailById(slot1:getBody()) == nil then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("mail_takeAttachment_error_noMail", slot2))
 

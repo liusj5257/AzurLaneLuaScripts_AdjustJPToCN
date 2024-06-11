@@ -32,12 +32,12 @@ return {
 	desc_get = "鱼雷防御盾",
 	name = "鱼雷防御盾",
 	init_effect = "",
+	id = 17751,
 	time = 1,
-	color = "red",
 	picture = "",
 	desc = "鱼雷防御盾",
 	stack = 1,
-	id = 17751,
+	color = "red",
 	icon = 17750,
 	last_effect = "",
 	effect_list = {
@@ -48,9 +48,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield05",
 				count = 5,
+				do_when_hit = "intercept",
 				bulletType = 3,
 				cld_list = {
 					{

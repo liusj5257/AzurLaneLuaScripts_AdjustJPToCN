@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_106 = {}
 slot1 = slot0.word_template_106
 
-function temp()
+temp = function()
 	uv0["近"] = {
 		["亲"] = {
 			["相"] = {
@@ -27,7 +27,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["艳"] = {
 		["乳"] = {
 			this = true
@@ -68,7 +68,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鬼"] = {
 		["畜"] = {
 			["轮"] = {
@@ -98,7 +98,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["带"] = {
 		["套"] = {
 			["肛"] = {

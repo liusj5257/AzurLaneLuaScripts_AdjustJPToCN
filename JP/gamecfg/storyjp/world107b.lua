@@ -1,18 +1,18 @@
 return {
-	id = "WORLD107B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD107B",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
+			bgm = "bsm-1",
 			actor = 107070,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "偵察機が艦隊を発見したわよ！",
-			bgm = "bsm-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -66,8 +66,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "ううん、向こうはバミューダ海域に向かっているよ。どうやらこちらの存在に気づいていないようね",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			say = "セイレーン作戦のことは向こうも知っているし、変なことはしないとは思うが",
 			typewriter = {
 				speed = 0.05,
@@ -163,11 +163,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/8/tb-8",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "通信データ転送中です。データを転送しました",
-			voice = "event:/tb/8/tb-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,8 +193,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "NA海域の状況はすでに各陣営・勢力で入り乱れている。これ以上状況を複雑にするのは得策ではない。",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ここは気にせず探索を続けよう。",
 			typewriter = {
 				speed = 0.05,
@@ -252,8 +252,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "艦載機で上を通ってみる、とか？",
 			typewriter = {
 				speed = 0.05,
@@ -265,8 +265,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "良い案だ。TBに艦載機の飛行コースもサポートしてもらおう",
 			typewriter = {
 				speed = 0.05,
@@ -280,11 +280,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/21/tb-21",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "艦載機飛行コースセッティング中です。鉄血艦隊の上空を通過するコースをセッティングしました",
-			voice = "event:/tb/21/tb-21",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,8 +310,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -9,7 +9,7 @@ slot0.ON_ATLAS = "SkinShopMediator:ON_ATLAS"
 slot0.ON_INDEX = "SkinShopMediator:ON_INDEX"
 slot0.ON_RECORD_ANIM_PREVIEW_BTN = "SkinShopMediator:ON_RECORD_ANIM_PREVIEW_BTN"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_RECORD_ANIM_PREVIEW_BTN, function (slot0, slot1)
 		uv0:sendNotification(GAME.RECORD_SKIN_ANIM_PREVIEW, {
 			isOpen = slot1
@@ -78,7 +78,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:SetEncoreSkins(getProxy(ShipSkinProxy):GetEncoreSkins())
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.SKIN_SHOPPIGN_DONE,
 		PlayerProxy.UPDATED,
@@ -87,7 +87,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 	slot4 = slot1:getType()
 

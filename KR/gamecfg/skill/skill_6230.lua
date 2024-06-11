@@ -2,10 +2,10 @@ return {
 	uiEffect = "",
 	name = "Z字旗",
 	cd = 0,
-	painting = 0,
-	id = 6230,
 	picture = "0",
 	desc = "Z字旗",
+	painting = 0,
+	id = 6230,
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -16,18 +16,18 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 6234
 			}
 		},
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
 			target_choise = {
 				"TargetSelf",
 				"TargetShipTag"

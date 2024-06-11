@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AISAIKESIBOSS1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AISAIKESIBOSS1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Air Raid Drills With Essex\n\n<size=45>1: Special Exercises, Commence!</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 107060,
-			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Our special exercise this time has two objectives: First, to respond to an aerial attack from enemy carriers, and second, to immediately launch a counterattack against an enemy carrier.",
 			bgm = "story-1",
+			actor = 107060,
+			nameColor = "#a9f548",
+			say = "Our special exercise this time has two objectives: First, to respond to an aerial attack from enemy carriers, and second, to immediately launch a counterattack against an enemy carrier.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,12 +84,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
+			say = "Um, in other words, some of us have to play the bad guys?",
 			side = 0,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Um, in other words, some of us have to play the bad guys?",
+			actor = 107030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 1,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "Precisely.",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -181,8 +181,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			actor = 107220,
 			dir = 1,
+			actor = 107220,
 			nameColor = "#a9f548",
 			say = "Me? Are you sure you want someone who was just assigned to this fleet...?",
 			typewriter = {
@@ -229,10 +229,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 107220,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107220,
+			nameColor = "#a9f548",
 			say = "(This drill is my chance to show everyone what I'm made of...!)",
 			typewriter = {
 				speed = 0.05,
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "Yes ma'am!!",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.2,
 					x = 0,
@@ -398,15 +398,15 @@ return {
 			}
 		},
 		{
-			say = "Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "Exercise Area",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -450,8 +450,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Although my original responsibilities were to oversee and record this exercise, Enterprise told me that I could lend you my aid if you needed it. Essex, are you sure you don't want my help?",
 			typewriter = {
@@ -496,14 +496,14 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#ff5c5c",
 			dir = -1,
 			blackBg = true,
-			say = "Thanks for letting me know. In any case... all aircraft, prepare to launch!",
 			soundeffect = "event:/battle/plane",
+			actor = 107090,
+			nameColor = "#ff5c5c",
+			say = "Thanks for letting me know. In any case... all aircraft, prepare to launch!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

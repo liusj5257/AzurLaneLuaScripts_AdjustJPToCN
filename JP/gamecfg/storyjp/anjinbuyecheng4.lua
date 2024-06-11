@@ -4,19 +4,19 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_131",
-			say = "不夜城・ブロック33セキュリティ局",
 			bgm = "story-antarctica-serious",
+			say = "不夜城・ブロック33セキュリティ局",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_131",
 			say = "事件発生35分後――",
 			typewriter = {
@@ -25,11 +25,11 @@ return {
 			}
 		},
 		{
-			actor = 703012,
 			side = 2,
 			bgName = "star_level_bg_131",
 			factiontag = "セキュリティ局長",
 			dir = 1,
+			actor = 703012,
 			nameColor = "#FF9B93",
 			say = "はい。こちらブロック33セキュリティ局よ",
 			painting = {
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 703012,
 			side = 2,
 			bgName = "star_level_bg_131",
 			factiontag = "セキュリティ局長",
 			dir = 1,
+			actor = 703012,
 			nameColor = "#FF9B93",
 			say = "……つまり犯人は下水道から逃げ出して今このブロックを逃走中ってことね",
 			painting = {
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_131",
 			factiontag = "セキュリティ巡査",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "分かった。任せろ――",
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			say = "3分後・ブロック33高速道路入口",
 			typewriter = {
@@ -176,17 +176,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -194,11 +194,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "セキュリティ巡査",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = "home",
 			say = "タリン。当該エリアに到着したが……異常はない",
@@ -249,11 +249,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "セキュリティ巡査",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "もう一回走査させる。もし犯人が別のブロックに逃げていたら――",
@@ -305,8 +305,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			say = "通話相手が変わったのに気づき、キーロフはバイクでドリフトを決めて路上に駐車した。",
 			typewriter = {
@@ -357,11 +357,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "セキュリティ巡査",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "……何奴？！",
@@ -528,11 +528,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "セキュリティ巡査",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = true,
 			say = "詭弁ね。まあ私からすれば、あんたたちは危険な脱獄者の追跡を邪魔しているだけなんだけど",
@@ -783,11 +783,11 @@ return {
 			}
 		},
 		{
-			actor = 702042,
 			side = 2,
 			bgName = "star_level_bg_154",
 			factiontag = "セキュリティ巡査",
 			dir = 1,
+			actor = 702042,
 			nameColor = "#FF9B93",
 			live2d = "main2",
 			say = "……タリン？",

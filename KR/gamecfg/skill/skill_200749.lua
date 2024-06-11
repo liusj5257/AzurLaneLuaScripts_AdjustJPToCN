@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "2023关岛活动EX 二阶段召唤物3 开场随机落点",
 	cd = 0,
-	painting = 0,
-	id = 200749,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 200749,
 	effect_list = {
 		{
 			type = "BattleSkillTeleport",

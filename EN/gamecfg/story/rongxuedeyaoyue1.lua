@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RONGXUEDEYAOYUE1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RONGXUEDEYAOYUE1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Invitation of Melting Snow\n\n<size=45>A Breeze Under the Moon</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_167",
-			say = "The new moon hangs high, casting a subtle light on a natural hot spring amid a pine forest.",
+			side = 2,
 			bgmDelay = 1.5,
 			bgm = "theme-warmwinter-daily",
+			nameColor = "#A9F548FF",
+			say = "The new moon hangs high, casting a subtle light on a natural hot spring amid a pine forest.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_167",
 			say = "Steam rises all around on this relaxing night. The silence is gently broken by a splash of water.",
 			typewriter = {
@@ -56,11 +56,11 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 603042,
 			nameColor = "#A9F548FF",
 			say = "My, this is hot... Excuse me, I'm going to get up for a minute, Commander. I'm starting to feel lightheaded...",
 			painting = {
@@ -177,12 +177,12 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 603042,
 			actorName = "Trento",
 			say = "Burning up, hmm? Is it because of the water, or because the Commander is here?",
 			painting = {
@@ -213,12 +213,12 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
-			side = 2,
+			actor = 603042,
 			actorName = "Trento",
 			say = "Heehee♪",
 			painting = {
@@ -267,11 +267,11 @@ return {
 			}
 		},
 		{
-			actor = 603042,
 			side = 2,
 			bgName = "star_level_bg_167",
 			spine = true,
 			dir = 1,
+			actor = 603042,
 			nameColor = "#A9F548FF",
 			say = "...Hey. I know I'm always strict with you, and we rarely ever get to have a heart-to-heart.",
 			painting = {

@@ -1,18 +1,18 @@
 return {
-	id = "WORLD303A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD303A",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
+			bgm = "xinnong-3",
 			actor = 101440,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "嗚哇......這些漂浮在水面上的殘骸全都是塞壬的吧......",
-			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,8 +23,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -36,8 +36,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "看來我們來晚了，錯過了一場盛大的戰鬥呢。",
 			typewriter = {
 				speed = 0.05,
@@ -64,8 +64,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,8 +92,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			say = "艾塞克斯給出的偵察情報應該不會有錯，不過現在的情況確實很奇怪。",
 			typewriter = {
 				speed = 0.05,

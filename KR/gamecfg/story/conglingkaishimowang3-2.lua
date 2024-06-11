@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actor = 501020,
 			side = 2,
+			dir = 1,
+			bgm = "ryza-az-battle",
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			dir = 1,
 			say = "이걸로 끝이다!",
-			bgm = "ryza-az-battle",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -20,17 +20,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,9 +40,9 @@ return {
 		{
 			actor = 501020,
 			nameColor = "#A9F548FF",
-			side = 2,
 			hidePaintObj = true,
 			dir = 1,
+			side = 2,
 			say = "용사의 검을 받아라!",
 			painting = {
 				alpha = 0.3,
@@ -54,10 +54,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "――――!!!",
+			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
+			say = "――――!!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "딴따다~ 딴따다~ 따다다다~♪",
 			typewriter = {
 				speed = 0.05,
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "흥겨운 승리의 BGM이 울려퍼지는 가운데, 킹 만쥬 슬라임은 자그마한 빛 알갱이가 되어 사라졌다.",
 			typewriter = {
 				speed = 0.05,
@@ -129,11 +129,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "전투 승리~! 우리 파티, 호흡이 아주 척척 맞네!",
 			painting = {
@@ -148,9 +148,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 236031,
 			factiontag = "견습 프리스트",
 			dir = 1,
+			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "휴우… 오빠가 갑자기 저런 강한 마물을 만날 줄이야…",
@@ -166,9 +166,9 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 202341,
 			factiontag = "프리스트",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "맞아! 누가 지휘관한테 앙심이라도 품은 건 아니겠지?!",
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "원래 이 킹 만쥬 슬라임은 지금 레벨로는 절대 이길 수 없어!",
 			painting = {
@@ -221,11 +221,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하지만! 푸슌에게는 기획에 참여한 사람으로서 특전이 있지!",
 			painting = {
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "전설적인 용사에게만 주어지는 '용사의 검'! 바로 이거야!",
 			painting = {
@@ -255,11 +255,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이것만 있으면 킹 만쥬 슬라임 정도는 손쉽게 쓰러뜨릴 수 있어!",
 			painting = {
@@ -283,11 +283,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "치트라니 무슨 말을! 직원들만 알고 있는 '이스터에그'라고 해줘!",
 			painting = {
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그나저나 이상하네… 지휘관이랑 합류하는 퀘스트를 완료했는데, 새로운 퀘스트가 나오질 않아…",
 			painting = {
@@ -338,11 +338,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "으윽… 그, 그럴지도…",
 			painting = {
@@ -357,9 +357,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 202341,
 			factiontag = "프리스트",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "제작에 참여한 거 아니었어?",
@@ -373,11 +373,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이, 일부러 깊게 파고들지는 않았거든…",
 			painting = {
@@ -390,11 +390,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "내용을 미리 다 알아버리면, 내가 플레이할 때 신선함이 사라지니까…!",
 			painting = {
@@ -418,11 +418,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그치, 그치!",
 			painting = {
@@ -446,11 +446,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "좋은 생각이야! 지휘관도 벌써 빠져들었네!",
 			painting = {
@@ -463,11 +463,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "으흠! 파티의 '지휘관'이니까, 지휘관이 말하는 대로 할게!",
 			painting = {
@@ -480,11 +480,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "하지만~! 파티명은 이미 '용사 푸슌의 모험가 파티'인 걸로 결정했으니, 무르기 없기야!",
 			painting = {
@@ -497,8 +497,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

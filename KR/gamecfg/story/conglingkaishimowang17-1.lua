@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			say = "'발라드 성'… 거리에 끊임없이 음악이 울려 퍼진다는 의미로 이름이 붙여졌다.",
 			bgm = "story-temepest-2",
+			say = "'발라드 성'… 거리에 끊임없이 음악이 울려 퍼진다는 의미로 이름이 붙여졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "한때 인간 왕국의 심장부이기도 했던 이 땅은 폐허가 되었지만, 당시 찬란했던 영광은 지금 모습으로도 가늠이 될 정도다.",
 			typewriter = {
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 202084,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "뱀파이어 헌터",
 			dir = 1,
+			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "흡혈귀 귀족들은 다들 왕궁에 살았으니, 이 큰길로 쭉 가면…",
@@ -136,11 +136,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "템페스타 해적단",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			say = "하암… 템페스타 해적단의 영역에 멋대로 들어온 건 누구야…?!",
 			painting = {
@@ -153,11 +153,11 @@ return {
 			}
 		},
 		{
-			actor = 202341,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "프리스트",
 			dir = 1,
+			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…템페스타 해적단?",
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "템페스타 해적단",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			say = "어머~ 누군가 했더니 목숨 아까운 줄 모르는 모험가들이잖아~",
 			painting = {
@@ -224,11 +224,11 @@ return {
 			}
 		},
 		{
-			actor = 201371,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "약사",
 			dir = 1,
+			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…뭐야, 도적단이잖아.",
@@ -351,11 +351,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "해적 주제에 용사 파티에게 삥을 뜯으려고 하다니, 배짱이 두둑하네!",
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "이 푸슌이 따끔한 맛을 보여주지!",

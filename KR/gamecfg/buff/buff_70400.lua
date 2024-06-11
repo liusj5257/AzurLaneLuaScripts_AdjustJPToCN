@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "航空提高",
 	init_effect = "",
-	color = "red",
+	id = 70400,
+	time = 0,
 	picture = "",
 	desc = "航空提高50%",
 	stack = 1,
-	id = 70400,
+	color = "red",
 	icon = 70400,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 5000
+				number = 5000,
+				attr = "airPower"
 			}
 		}
 	}

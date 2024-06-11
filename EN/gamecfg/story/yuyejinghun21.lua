@@ -1,37 +1,37 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN21",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 11,
 			side = 2,
-			bgName = "star_level_bg_146",
 			factiontag = "Lord's 2nd Daughter",
-			actorName = "Whydah",
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_146",
 			bgm = "story-richang-10",
 			actor = 9600051,
-			nameColor = "#A9F548FF",
+			actorName = "Whydah",
 			say = "Ugh. Died again... I need Golden Hind for this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -158,9 +158,9 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "Essex",
 			bgName = "star_level_bg_146",
 			factiontag = "Serious Protégé GM",
-			actorName = "Essex",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "With a bit of help, what seems impossible can be accomplished surprisingly easily.",
@@ -169,17 +169,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -324,8 +324,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

@@ -6,9 +6,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_525",
 			factiontag = "テンペスタ海賊団",
 			dir = 1,
+			bgName = "star_level_bg_525",
 			bgm = "theme-tempest-up",
 			actor = 9600050,
 			nameColor = "#FEF15E",
@@ -22,17 +22,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -40,11 +40,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "テンペスタ海賊団",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#FEF15E",
 			say = "そっちの指揮官が纏っている気配…見覚えない？",
 			painting = {
@@ -111,11 +111,11 @@ return {
 			}
 		},
 		{
-			actor = 9600040,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "テンペスタ海賊団",
 			dir = 1,
+			actor = 9600040,
 			nameColor = "#FEF15E",
 			say = "全部誤解だからー",
 			painting = {
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "テンペスタ海賊団",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#FEF15E",
 			say = "ウィダーたちは元々、たまにちょっとした悪事を働くだけの自由な海賊だったよ",
 			painting = {
@@ -303,11 +303,11 @@ return {
 			}
 		},
 		{
-			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "テンペスタ海賊団",
 			dir = 1,
+			actor = 9600050,
 			nameColor = "#FEF15E",
 			say = "ご飯を食べてる途中で急に街中に騒ぎが起きたんだよね",
 			painting = {
@@ -464,11 +464,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "むむむ…何というか、涙を誘う可哀想なイベントだというのに…",
@@ -482,11 +482,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "どうしてもギャグに聞こえてしまう…",
@@ -500,11 +500,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "まあまあ！勇者たるもの、義侠の心を持つべし！",
@@ -518,11 +518,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "どうせお金でしょ！この前見張り要塞でたんまりもらったし！",
@@ -536,11 +536,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ほら！これぐらいで大丈夫？",
@@ -554,8 +554,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			say = "得意げな撫順が一袋の金貨を取り出し、ドサッと床に置いた。",
 			typewriter = {
@@ -582,11 +582,11 @@ return {
 			}
 		},
 		{
-			actor = 9600030,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "テンペスタ海賊団",
 			dir = 1,
+			actor = 9600030,
 			nameColor = "#FEF15E",
 			say = "さぁー。こんな通貨、見たこともないわね～",
 			painting = {
@@ -617,11 +617,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_525",
 			factiontag = "勇者",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "に、偽物？！王都で使われている正真正銘の金貨だけど？",
@@ -635,8 +635,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

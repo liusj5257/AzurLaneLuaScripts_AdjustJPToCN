@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DAQINGHUAYU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DAQINGHUAYU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"サブマリン・トラップ！\n\n<size=45>七　おやすみ、そして……おはよう！</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "母港・自室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "半日遊んだ疲れからか、帰って早々ベッドに飛び込んだ。",
 			typewriter = {
@@ -54,19 +54,19 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/boat_drag",
+			say = "（ツン――ツン――）",
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "（ツン――ツン――）",
+			soundeffect = "event:/ui/boat_drag",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "頬が誰かに突っつかれている気がする……",
 			typewriter = {
@@ -75,8 +75,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "この声は……アルバコアか。",
 			typewriter = {
@@ -105,10 +105,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "本当に寝たの？もしかしてタヌキ寝入りってやつ？",
 			typewriter = {
 				speed = 0.05,
@@ -122,10 +122,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "……もう、寝たんならしょうがないね……",
 			typewriter = {
 				speed = 0.05,
@@ -139,12 +139,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "……（スリスリ）",
 			bgm = "story-2",
+			actor = 108020,
+			nameColor = "#a9f548",
+			say = "……（スリスリ）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,10 +157,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "ねえ、指揮官……あたし、指揮官にたくさん伝えたいことがあるの。",
 			typewriter = {
 				speed = 0.05,
@@ -238,10 +238,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "……とにかくあたし、艦隊のみんなが大好きだよ。",
 			typewriter = {
 				speed = 0.05,
@@ -255,10 +255,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "それと指揮官、ずっとイジっちゃってるけど、本当は――",
 			typewriter = {
 				speed = 0.05,
@@ -270,8 +270,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "頬に柔らかい感触が伝わってくる。",
 			typewriter = {
@@ -298,10 +298,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108020,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 108020,
+			nameColor = "#a9f548",
 			say = "それと、明日にでもサプライズを用意するからね♪……だって、せっかくあたしがイイコトを話してあげたのに、ずっと寝たフリしてたもん。ちょっとだけ痛い目にあってもらわないと、へへへ♪",
 			typewriter = {
 				speed = 0.05,
@@ -313,15 +313,15 @@ return {
 			}
 		},
 		{
-			say = "翌日――",
 			side = 2,
 			bgName = "bg_story_school",
 			dir = 1,
 			bgmDelay = 1.4,
 			bgm = "story-1",
+			say = "翌日――",
 			flashout = {
-				black = true,
 				dur = 0.7,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -342,11 +342,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "ほ、ほほほ本当ですか？！指揮官はアルバコアと同じ部屋で一晩過ごしたのですか！？",
 			typewriter = {
 				speed = 0.05,
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -416,9 +416,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "や、やられた……",
 			typewriter = {
 				speed = 0.05,
@@ -426,9 +426,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_school",
+			dir = 1,
 			say = "結局、みんなの誤解を解くのに半日かかってしまった。が……",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TIANLANGXING3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TIANLANGXING3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"시리우스 개조 계획\n\n<size=45>3. 메이드대의 지원</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 202120,
 			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			bgmDelay = 2,
-			say = "“연회에서 그녀의 행동이 다른 사람들에게 메이드라고 인식되지 않도록 하기 위해, 그녀에게 메이드의 대표적인 행동을 명확히 인식시킬 필요가 있다——",
+			bgName = "bg_story_task",
 			bgm = "story-1",
+			actor = 202120,
+			nameColor = "#92fc63",
+			say = "“연회에서 그녀의 행동이 다른 사람들에게 메이드라고 인식되지 않도록 하기 위해, 그녀에게 메이드의 대표적인 행동을 명확히 인식시킬 필요가 있다——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -91,9 +91,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "로열 메이드대의 벨파스트 등 사람들에게 시리우스에 대해 지도를 부탁했다.",
 			effects = {
 				{
@@ -162,8 +162,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#92fc63",
 			say = "그럼 모두 잘 부탁드립니다...... 주인님을 위하여......!",
 			typewriter = {
@@ -176,15 +176,15 @@ return {
 			}
 		},
 		{
-			actor = 202220,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202220,
+			nameColor = "#92fc63",
 			say = "예의범절 또한 함께 가르쳐야 하겠어요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -225,15 +225,15 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#92fc63",
 			say = "...... 지휘실 청소할 때는 바닥을 먼저 닦으면 안 돼요. 우선 수납장을 정리하면 비교적 수월하죠.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -258,10 +258,10 @@ return {
 			}
 		},
 		{
-			actor = 202200,
 			nameColor = "#92fc63",
-			bgName = "bg_story_task",
 			side = 0,
+			bgName = "bg_story_task",
+			actor = 202200,
 			dir = 1,
 			hideOther = true,
 			actorName = "시리우스&꼬마 벨파스트",
@@ -284,15 +284,15 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#92fc63",
 			say = "음... 켄트 선수는 가르쳐 줄 만한 게 없는데?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -320,8 +320,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 203040,
 			dir = 1,
+			actor = 203040,
 			nameColor = "#92fc63",
 			say = "전 메이드장님께 들키지 않고 이득을 챙기는 방법을 알려드릴 수 있어요.",
 			typewriter = {
@@ -350,9 +350,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……………………",
 			typewriter = {
 				speed = 0.05,
@@ -367,8 +367,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202200,
 			dir = 1,
+			actor = 202200,
 			nameColor = "#92fc63",
 			say = "...... 제 자신의 부족함을 깊이 깨달았습니다......",
 			typewriter = {

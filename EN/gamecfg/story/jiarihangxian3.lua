@@ -1,24 +1,24 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIAN3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIAN3",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
+			actorName = "？？？",
 			side = 2,
-			bgName = "star_level_bg_106",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "doa_daozhong",
 			actor = 900300,
-			actorName = "？？？",
+			nameColor = "#a9f548",
+			bgName = "star_level_bg_106",
 			say = "Oh, Kasumi, were you out until now? Welcome back!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,8 +52,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "Thanks, Marie. I'm back, everyone.",
 			typewriter = {
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "Let me introduce these guys, the group of people I just made contact with – Z23, Javelin, Ayanami, and Laffey.",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "And the people over there are my friends... The ones who came from the Venus Islands with me.",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "My name is Marie Rose! But you can just call me Marie.",
 			typewriter = {
@@ -135,11 +135,11 @@ return {
 			}
 		},
 		{
-			actor = 900301,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 900301,
+			nameColor = "#a9f548",
 			say = "It's nice to meet you. I'm Honoka! Um... let's be friends!",
 			typewriter = {
 				speed = 0.05,
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -196,8 +196,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900306,
 			dir = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "I'm the dealer, Monica! ...Well, dealer-in-training, to be specific. It's nice to meet you all, heheh.",
 			typewriter = {
@@ -213,8 +213,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "Nyotengu is my name. What an interesting presence you all possess...",
 			typewriter = {
@@ -227,13 +227,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_106",
+			side = 2,
+			dir = 1,
 			say = "...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -259,9 +259,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
+			dir = 1,
 			say = "Some time later...",
 			typewriter = {
 				speed = 0.05,
@@ -324,8 +324,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900300,
 			dir = 1,
+			actor = 900300,
 			nameColor = "#a9f548",
 			say = "At that time, we were quite shocked! ...But we had food and a place to stay, so it wasn't too bad.",
 			typewriter = {
@@ -357,8 +357,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900303,
 			dir = 1,
+			actor = 900303,
 			nameColor = "#a9f548",
 			say = "Also, we found this strange letter while looking around...",
 			typewriter = {
@@ -451,11 +451,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_106",
-			actorName = "Terminal",
 			dir = 1,
+			actorName = "Terminal",
 			say = "\"Venuses who have arrived from far away, welcome to Vacation Island!\"",
 			dialogShake = {
 				speed = 0.09,
@@ -472,8 +472,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Terminal",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Terminal",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Terminal",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -555,8 +555,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "Hahaha... And there ended up being an inflatable boat around here, so I figured I'd check out the surroundings... And that's when I met with you guys.",
 			typewriter = {
@@ -572,8 +572,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 900306,
 			dir = 1,
+			actor = 900306,
 			nameColor = "#a9f548",
 			say = "Hmm? It looks like we've received another message.",
 			typewriter = {
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Terminal",
+			side = 2,
 			bgName = "star_level_bg_106",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -618,12 +618,12 @@ return {
 			}
 		},
 		{
-			actor = 401230,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 401230,
+			nameColor = "#a9f548",
 			say = "F-for now... Denizens of the... Venus Islands? Please come to the port! We'll need to report the ongoing events to the Commander as well.",
 			typewriter = {
 				speed = 0.05,
@@ -635,8 +635,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,

@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 301840,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Just like the sun's rays, there are several islands surrounding the main island... This must be the Diadem of Light!",
 			bgm = "story-4",
+			actor = 301840,
+			nameColor = "#a9f548",
+			say = "Just like the sun's rays, there are several islands surrounding the main island... This must be the Diadem of Light!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +59,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "Why do they always have to put this weird poetic stuff onto our orders? Who the heck knows what this is trying to say?",
 			typewriter = {
@@ -92,8 +92,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "Isn't that enough for ordinary people?",
 			dialogShake = {
@@ -114,8 +114,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "Meh, guess so.……",
 			typewriter = {
@@ -128,8 +128,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -157,8 +157,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "After Nagato was attacked alone by the Sirens, we've all had to be more vigilant.",
 			typewriter = {
@@ -187,11 +187,11 @@ return {
 			}
 		},
 		{
-			actor = 303180,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303180,
+			nameColor = "#a9f548",
 			say = "For sure! Besides, I'd love to see Shinano show off her powers back at the main island.",
 			typewriter = {
 				speed = 0.05,
@@ -203,8 +203,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -264,8 +264,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "What's Noshiro doing there? According to the plan, Lady Shinano was supposed to come alone.",
 			typewriter = {
@@ -281,8 +281,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "I also think it would be unwise to let Lady Shinano set sail alone... As such an important person, it's only natural that she'd have an attendant or two.",
 			typewriter = {
@@ -314,9 +314,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 305120,
 			dir = 1,
 			blackBg = true,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "All right, let's not keep them waiting. Everyone, let's pick up our pace!",
 			typewriter = {

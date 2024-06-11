@@ -1,12 +1,12 @@
 return {
-	id = "W761001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W761001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "通過左下方的傳送門可以回到春天的海域。",
 			typewriter = {
 				speed = 0.05,

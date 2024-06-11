@@ -1,10 +1,10 @@
 slot0 = class("ShipExpItemUsagePage", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ShipExpItemUsagePage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.backBtn = slot0:findTF("frame/top/btnBack")
 	slot0.confirmBtn = slot0:findTF("frame/buttons/confirm")
 	slot0.recomBtn = slot0:findTF("frame/buttons/recom")
@@ -31,7 +31,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0.clearBtn:Find("pic"), i18n("ship_exp_item_label_clear"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.cards = {}
 
 	onButton(slot0, slot0._tf, function ()
@@ -67,7 +67,7 @@ function slot0.OnInit(slot0)
 			return
 		end
 
-		function slot0(slot0)
+		slot0 = function(slot0)
 			uv0:emit(ShipMainMediator.ON_ADD_SHIP_EXP, uv0.shipVO.id, uv0.itemCnts)
 
 			if slot0 then
@@ -111,7 +111,7 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.GetItem(slot0, slot1)
+slot0.GetItem = function(slot0, slot1)
 	return getProxy(BagProxy):getItemById(slot1) or Drop.New({
 		count = 0,
 		type = DROP_TYPE_ITEM,
@@ -119,7 +119,7 @@ function slot0.GetItem(slot0, slot1)
 	})
 end
 
-function slot0.Recommand(slot0)
+slot0.Recommand = function(slot0)
 	slot1 = {}
 	slot2 = Clone(slot0.shipVO)
 	slot3 = underscore.map(slot0:GetAllItemIDs(), function (slot0)
@@ -129,7 +129,7 @@ function slot0.Recommand(slot0)
 		slot8
 	}
 
-	function slot8(slot0)
+	slot8 = function(slot0)
 		return -slot0.id
 	end
 
@@ -158,7 +158,7 @@ function slot0.Recommand(slot0)
 	return slot1
 end
 
-function slot0.PreCalcExpOverFlow(slot0, slot1, slot2, slot3)
+slot0.PreCalcExpOverFlow = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1.exp
 	slot5 = slot1.level
 	slot1.exp = slot1.exp + slot2
@@ -175,7 +175,7 @@ function slot0.PreCalcExpOverFlow(slot0, slot1, slot2, slot3)
 	return slot6 <= slot1.level and slot3 < slot1.exp
 end
 
-function slot0.GetAllItemIDs(slot0)
+slot0.GetAllItemIDs = function(slot0)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(pg.gameset.ship_exp_books.description) do
@@ -187,7 +187,7 @@ function slot0.GetAllItemIDs(slot0)
 	return slot2
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = LayerWeightConst.BASE_LAYER + 2
 	})
@@ -195,7 +195,7 @@ function slot0.Show(slot0, slot1)
 	slot0:Flush(slot1)
 end
 
-function slot0.Flush(slot0, slot1)
+slot0.Flush = function(slot0, slot1)
 	slot0.itemCnts = {}
 	slot0.shipVO = slot1
 
@@ -203,19 +203,19 @@ function slot0.Flush(slot0, slot1)
 	slot0:UpdateLevelInfo()
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 	uv0.super.Hide(slot0)
 end
 
-function slot0.InitItems(slot0)
+slot0.InitItems = function(slot0)
 	table.sort(slot0.itemIds, function (slot0, slot1)
 		return slot0 < slot1
 	end)
 	slot0.uiItemList:align(#slot0.itemIds)
 end
 
-function slot0.UpdateItemPanel(slot0, slot1, slot2)
+slot0.UpdateItemPanel = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot3 = ShipExpItemUsageCard.New(slot2)
 
@@ -229,7 +229,7 @@ function slot0.UpdateItemPanel(slot0, slot1, slot2)
 	slot3:Update(slot1)
 end
 
-function slot0.OnAddItem(slot0, slot1, slot2, slot3, slot4)
+slot0.OnAddItem = function(slot0, slot1, slot2, slot3, slot4)
 	if slot0.shipVO.maxLevel == slot0.shipVO.level then
 		slot1:ForceUpdateValue(slot0.itemCnts[slot2])
 		pg.TipsMgr.GetInstance():ShowTips(i18n("coures_tip_exceeded_lv"))
@@ -280,7 +280,7 @@ function slot0.OnAddItem(slot0, slot1, slot2, slot3, slot4)
 	slot0:UpdateLevelInfo()
 end
 
-function slot0.GetTempShipVO(slot0, slot1, slot2)
+slot0.GetTempShipVO = function(slot0, slot1, slot2)
 	if slot2 > 0 then
 		slot3 = Clone(slot1)
 
@@ -292,7 +292,7 @@ function slot0.GetTempShipVO(slot0, slot1, slot2)
 	return slot1
 end
 
-function slot0.GetAdditionExp(slot0)
+slot0.GetAdditionExp = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.itemCnts) do
@@ -302,7 +302,7 @@ function slot0.GetAdditionExp(slot0)
 	return slot1
 end
 
-function slot0.UpdateLevelInfo(slot0)
+slot0.UpdateLevelInfo = function(slot0)
 	slot1 = slot0.shipVO
 	slot0.levelTxt.text = slot1.level .. (slot0:GetTempShipVO(slot1, slot0:GetAdditionExp()).level - slot1.level <= 0 and (slot2 > 0 and "+0" or "") or "<color=" .. COLOR_GREEN .. ">+" .. slot4 .. "</color>")
 	slot7 = slot1:getLevelExpConfig().exp_interval
@@ -312,7 +312,7 @@ function slot0.UpdateLevelInfo(slot0)
 	slot0.previewProgress.value = slot2 <= 0 and 0 or slot4 >= 1 and 1 or slot3.exp / slot7
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end

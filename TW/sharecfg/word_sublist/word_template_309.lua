@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_309 = {}
 slot1 = slot0.word_template_309
 
-function temp()
+temp = function()
 	uv0["釃"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鯴"] = {
 		this = {
 			this = true
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["㈩"] = {
 		this = {
 			this = true
@@ -33,7 +33,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["時"] = {
 		["代"] = {
 			["論"] = {

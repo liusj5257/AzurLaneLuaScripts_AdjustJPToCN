@@ -2,7 +2,7 @@ slot0 = class("BaseSubPanel", import("view.base.BaseSubView"))
 slot1 = import("view.util.FuncBuffer")
 slot2 = import("view.util.AutoLoader")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	assert(slot1, "NIL Parent View")
 	uv0.super.Ctor(slot0, slot1 and slot1._tf, slot1 and isa(slot1, BaseEventLogic) and slot1.event or nil, {})
 
@@ -11,13 +11,13 @@ function slot0.Ctor(slot0, slot1)
 	slot0.viewParent = slot1
 end
 
-function slot0.InvokeParent(slot0, slot1, ...)
+slot0.InvokeParent = function(slot0, slot1, ...)
 	if slot0.viewParent then
 		slot0.viewParent[slot1](slot0.viewParent, ...)
 	end
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	if slot0._state ~= uv0.STATES.LOADED then
 		return
 	end
@@ -31,7 +31,7 @@ function slot0.Init(slot0)
 	slot0.buffer:ExcuteAll()
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	if slot0._state == uv0.STATES.DESTROY then
 		return
 	end
@@ -63,40 +63,40 @@ function slot0.Destroy(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0:OnHide()
 	uv0.super.Hide(slot0)
 end
 
-function slot0.RawHide(slot0)
+slot0.RawHide = function(slot0)
 	uv0.super.Hide(slot0)
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	slot0:OnShow()
 end
 
-function slot0.RawShow(slot0)
+slot0.RawShow = function(slot0)
 	uv0.super.Show(slot0)
 end
 
-function slot0.IsShowing(slot0)
+slot0.IsShowing = function(slot0)
 	return slot0:GetLoaded() and isActive(slot0._go)
 end
 
-function slot0.IsHiding(slot0)
+slot0.IsHiding = function(slot0)
 	return slot0:GetLoaded() and not isActive(slot0._go)
 end
 
-function slot0.SetParent(slot0, slot1, ...)
+slot0.SetParent = function(slot0, slot1, ...)
 	setParent(slot0._tf, slot1, ...)
 end
 
-function slot0.OnShow(slot0)
+slot0.OnShow = function(slot0)
 end
 
-function slot0.OnHide(slot0)
+slot0.OnHide = function(slot0)
 end
 
 return slot0

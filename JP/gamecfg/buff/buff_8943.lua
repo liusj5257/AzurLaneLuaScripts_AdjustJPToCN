@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "公海舰队活动 奇异点干扰",
 	time = 0,
-	color = "red",
+	name = "公海舰队活动 奇异点干扰",
+	init_effect = "",
+	id = 8943,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8943,
+	color = "red",
 	icon = 8943,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 2000
+				number = 2000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -28,8 +28,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = -2000
+				number = -2000,
+				attr = "airPower"
 			}
 		},
 		{
@@ -39,8 +39,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "chargeBulletAccuracy",
-				number = -5
+				number = -5,
+				attr = "chargeBulletAccuracy"
 			}
 		}
 	}

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "瞬移的前置",
 	time = 0,
-	color = "red",
+	name = "瞬移的前置",
+	init_effect = "",
+	id = 30000007,
 	picture = "",
 	desc = "战斗对象的血量下降到X%时，召唤特殊怪物",
 	stack = 1,
-	id = 30000007,
+	color = "red",
 	icon = 73500,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
 				skill_id = 30000007,
+				target = "TargetSelf",
 				check_target = "TargetSelf"
 			}
 		}

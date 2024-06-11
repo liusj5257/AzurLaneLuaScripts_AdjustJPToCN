@@ -3,7 +3,7 @@ slot1 = 0
 slot2 = 1
 slot3 = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
 	slot0.content = slot0.tr:Find("content")
@@ -26,7 +26,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.loader = AutoLoader.New()
 end
 
-function slot0.update(slot0, slot1)
+slot0.update = function(slot0, slot1)
 	if slot1 then
 		setActive(slot0.content, true)
 
@@ -38,7 +38,7 @@ function slot0.update(slot0, slot1)
 	end
 end
 
-function slot0.flush(slot0)
+slot0.flush = function(slot0)
 	slot1 = slot0.shipVO
 	slot0.lvTxt.text = "Lv." .. slot1.level
 	slot3 = slot1:getStar()
@@ -54,47 +54,16 @@ function slot0.flush(slot0)
 	setPaintingPrefabAsync(slot0.paintingTr, slot1:getPainting(), "biandui")
 
 	slot4 = slot0.shipVO:rarity2bgPrint()
-	slot5 = nil
 
-	setRectShipCardFrame(slot0.frame, slot4, slot1:ShowPropose() and "prop" .. (slot1:isBluePrintShip() and slot4 or slot1:isMetaShip() and "14" or "") or nil)
 	GetImageSpriteFromAtlasAsync("bg/star_level_card_" .. slot4, "", slot0.bgImage)
-	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipVO:getShipType())))
 
-	slot7 = nil
-	slot8 = false
+	slot5, slot6 = slot1:GetFrameAndEffect(true)
 
-	if slot1:ShowPropose() then
-		if slot1:isMetaShip() then
-			slot7 = "duang_meta_jiehun_1"
-		else
-			slot7 = "duang_6_jiehun" .. (slot1:isBluePrintShip() and "_tuzhi" or "") .. "_1"
-		end
-	elseif slot1:isMetaShip() then
-		slot7 = "duang_meta_b" .. slot4
-	elseif slot1:getRarity() == 6 then
-		slot7 = "duang_6_1"
-	end
-
-	if slot7 then
-		eachChild(slot0.otherBg, function (slot0)
-			setActive(slot0, slot0.name == uv0 .. "(Clone)")
-
-			uv1 = uv1 or slot0.name == uv0 .. "(Clone)"
-		end)
-
-		if not slot8 then
-			slot9 = slot0.loader
-
-			slot9:GetPrefab("effect/" .. slot7, "", function (slot0)
-				setParent(slot0, uv0.otherBg)
-			end, "OtherBGEffect")
-		end
-	end
-
-	setActive(slot0.otherBg, slot7)
+	setRectShipCardFrame(slot0.frame, slot4, slot5)
+	setFrameEffect(slot0.otherBg, slot6)
 end
 
-function slot0.updateProps(slot0, slot1)
+slot0.updateProps = function(slot0, slot1)
 	for slot5 = 0, 2 do
 		slot6 = slot0.propsTr:GetChild(slot5)
 
@@ -109,7 +78,7 @@ function slot0.updateProps(slot0, slot1)
 	end
 end
 
-function slot0.updateProps1(slot0, slot1)
+slot0.updateProps1 = function(slot0, slot1)
 	for slot5 = 0, 2 do
 		slot6 = slot0.propsTr1:GetChild(slot5)
 
@@ -124,7 +93,7 @@ function slot0.updateProps1(slot0, slot1)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	if slot0.shipVO then
 		retPaintingPrefab(slot0.paintingTr, slot1:getPainting())
 	end

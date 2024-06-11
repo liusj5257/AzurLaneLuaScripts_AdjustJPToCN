@@ -9,10 +9,10 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
+					skill_id = 1,
 					time = 0.8,
 					rant = 10000,
-					skill_id = 1
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -22,10 +22,10 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
+					skill_id = 1,
 					time = 1.6,
 					rant = 10000,
-					skill_id = 1
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -35,10 +35,10 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
+					skill_id = 1,
 					time = 2.4,
 					rant = 10000,
-					skill_id = 1
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -48,10 +48,10 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
+					skill_id = 1,
 					time = 3.2,
 					rant = 10000,
-					skill_id = 1
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -61,16 +61,16 @@ return {
 				},
 				arg_list = {
 					rant = 10000,
-					target = "TargetSelf",
 					skill_id = 1,
+					target = "TargetSelf",
 					quota = 1
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "主炮连射",
 	time = 6,
+	name = "主炮连射",
+	init_effect = "",
 	picture = "",
 	desc = "重型主炮开火时有几率发动，额外进行一轮攻击",
 	stack = 1,

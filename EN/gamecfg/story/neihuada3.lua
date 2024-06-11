@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEIHUADA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NEIHUADA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Song of Nevada\n\n<size=45>3 Packin' Up</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			side = 2,
+			say = "After work the next day, Nevada and I went to the store.",
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_story_task",
 			bgm = "story-1",
-			say = "After work the next day, Nevada and I went to the store.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"You keep saying we're getting ready to leave, but what exactly do you have planned?\"",
 			typewriter = {
@@ -55,12 +55,12 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Akashi! Akashi you around?",
 			painting = {
 				alpha = 0.3,
@@ -72,12 +72,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I-I'm right here, nya! Oh? Commander and Nevada, nya?",
 			painting = {
 				alpha = 0.3,
@@ -89,8 +89,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -99,12 +99,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Are you here to pick up the things you ordered yesterday, nya?",
 			painting = {
 				alpha = 0.3,
@@ -116,12 +116,12 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You bet. Didja manage to wrangle all the things in my list?",
 			painting = {
 				alpha = 0.3,
@@ -133,12 +133,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Every last item, nya! I left them all in the back, nya.",
 			painting = {
 				alpha = 0.3,
@@ -150,12 +150,12 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Shoot, you're a daisy! Much obliged!",
 			painting = {
 				alpha = 0.3,
@@ -167,12 +167,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hold your praise, nya. The key to fruitful business is good service, nya.",
 			painting = {
 				alpha = 0.3,
@@ -184,8 +184,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "Helmets, kneepads, gloves, scarves...",
 			typewriter = {
@@ -194,8 +194,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "As I watched Nevada check each and every item, my curiosity grew. What was all of this equipment for?",
 			typewriter = {
@@ -204,12 +204,12 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You look real interested. Haha, why bother hidin' it? We're gonna go ridin' horses!",
 			painting = {
 				alpha = 0.3,
@@ -221,8 +221,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"R-riding?\"",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "I'd guessed as much based on what she'd ordered, but actually hearing it came as a shock.",
 			typewriter = {
@@ -241,12 +241,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That explains it, nya. Riding with the Commander... Saddles weren't on the list, nya. Is this enough, nya?",
 			painting = {
 				alpha = 0.3,
@@ -258,12 +258,12 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Findin' a comfy saddle is real tough. If you pick one that don't fit, ya might get hurt.",
 			painting = {
 				alpha = 0.3,
@@ -275,12 +275,12 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I'll let the Commander use my saddle. It's broken in, so it oughta be way softer and comfier than any new one.",
 			painting = {
 				alpha = 0.3,
@@ -292,12 +292,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "That's fine, nya... It's just a shame I won't get to show off the saddle I found, nya.",
 			painting = {
 				alpha = 0.3,
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"What was that at the end? I didn't hear.\"",
 			typewriter = {
@@ -319,12 +319,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "N-Nothing, nya! If you're satisfied with your purchase, then I'll go organize our stock, nya!",
 			painting = {
 				alpha = 0.3,
@@ -336,12 +336,12 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah, much obliged! Don't just stand there, young'un. Pick a scarf!",
 			painting = {
 				alpha = 0.3,
@@ -353,8 +353,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "Nevada shows me two scarves.",
 			typewriter = {
@@ -373,13 +373,13 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You and I have the same taste. Good on ya, young'un.",
 			painting = {
 				alpha = 0.3,
@@ -391,13 +391,13 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You want this one? Awright, then I'll take the brown.",
 			painting = {
 				alpha = 0.3,
@@ -409,12 +409,12 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Now, let's mosey on home and get some shut-eye. Tomorrow, we ride early.",
 			painting = {
 				alpha = 0.3,
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"Huh? Does that mean I'm taking tomorrow off? There's still work—\"",
 			typewriter = {
@@ -436,12 +436,12 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Settle down, now. I've got all that straightened out. Oklahoma and the others can handle it for two or three days.",
 			painting = {
 				alpha = 0.3,
@@ -453,8 +453,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "\"What if something requires my presence? Or if there's an emergency...\"",
 			typewriter = {
@@ -463,12 +463,12 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It'll be the same as any other day off. We can burn that bridge when we get to it!",
 			painting = {
 				alpha = 0.3,
@@ -480,12 +480,12 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Y'know, they've got this spiffy new thing they call \"remote work.\" I reckon you can do that if there's any real emergency.",
 			painting = {
 				alpha = 0.3,
@@ -497,12 +497,12 @@ return {
 			}
 		},
 		{
-			actor = 105010,
 			side = 2,
 			bgName = "bg_story_task",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 105010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "You've been workin' your butt off, so it's high time you empty your mind and have a rootin'-tootin' good time!",
 			painting = {
 				alpha = 0.3,
@@ -514,8 +514,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "As such, I am forced to take a vacation with Nevada.",
 			typewriter = {

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TANSUANYUHONGCHA9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "TANSUANYUHONGCHA9",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"碳酸與紅茶\n\n<size=45>九 一杯熱茶</size>",
@@ -17,8 +17,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "star_level_bg_150",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "theme-partydress",
@@ -27,8 +27,8 @@ return {
 			hidePaintObj = true,
 			say = "哦哦！僕從你來得正好！我們店裡剛推出了新服務！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -53,9 +53,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
+			dir = 1,
 			say = "一進入店中，就被熱情的伊莉莎白拉向了包廂。",
 			typewriter = {
 				speed = 0.05,
@@ -67,12 +67,12 @@ return {
 			}
 		},
 		{
-			actor = 205015,
 			side = 2,
 			bgName = "star_level_bg_150",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 205015,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "你可沒有拒絕的權利！趕快體驗一下然後告訴本店長感覺如何吧？",
 			typewriter = {
 				speed = 0.05,
@@ -84,13 +84,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_coffeetea_2",
+			side = 2,
+			dir = 1,
 			say = "面前，是身著女僕裝正在準備茶點的豪和佩內洛珀。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -115,12 +115,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "伊莉莎白女王",
+			hidePaintObj = true,
 			say = "這就是本店新推出的貴族體驗服務，本次用餐將會有三位專屬女僕對你進行服務哦，感動吧，僕從！",
 			typewriter = {
 				speed = 0.05,
@@ -138,12 +138,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "伊莉莎白女王",
+			hidePaintObj = true,
 			say = "豪、佩內洛珀、還有女僕體驗中的本王！",
 			typewriter = {
 				speed = 0.05,
@@ -155,9 +155,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_2",
+			dir = 1,
 			say = "記得伊莉莎白現在已經掛著體驗店長的頭銜了……",
 			typewriter = {
 				speed = 0.05,
@@ -169,12 +169,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "伊莉莎白女王",
+			hidePaintObj = true,
 			say = "體驗店長兼！體驗女僕！",
 			typewriter = {
 				speed = 0.05,
@@ -186,12 +186,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "伊莉莎白女王",
+			hidePaintObj = true,
 			say = "在此發號施令，就是本店長兼女僕在本次服務中的工作！",
 			typewriter = {
 				speed = 0.05,
@@ -203,9 +203,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_2",
+			dir = 1,
 			say = "有些難懂，不過很有伊莉莎白的風格。",
 			typewriter = {
 				speed = 0.05,
@@ -217,9 +217,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_2",
+			dir = 1,
 			say = "坐在舒適的座椅上欣賞著佩內洛珀與豪泡茶時的樣子——",
 			typewriter = {
 				speed = 0.05,
@@ -231,12 +231,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "豪",
+			hidePaintObj = true,
 			say = "佩內洛珀，茶不要倒得太多，大概七分滿就可以了哦。",
 			typewriter = {
 				speed = 0.05,
@@ -248,12 +248,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "佩內洛珀",
+			hidePaintObj = true,
 			say = "嗯……七分滿……七分滿…………",
 			typewriter = {
 				speed = 0.05,
@@ -265,12 +265,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "佩內洛珀",
+			hidePaintObj = true,
 			say = "製作完成……請指揮官用茶。",
 			typewriter = {
 				speed = 0.05,
@@ -282,9 +282,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_2",
+			dir = 1,
 			say = "欸……好像還沒有點過菜呢？",
 			typewriter = {
 				speed = 0.05,
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "伊莉莎白女王",
+			hidePaintObj = true,
 			say = "自然是本店長幫你點了！選的是最適合僕從今天飲用的茶！你儘管享受就是~",
 			typewriter = {
 				speed = 0.05,
@@ -313,9 +313,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_2",
+			dir = 1,
 			say = "接過了佩內洛珀遞來的茶杯，輕抿一口熱茶——茶香濃郁，妙不可言。",
 			typewriter = {
 				speed = 0.05,
@@ -327,9 +327,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_2",
+			dir = 1,
 			say = "聯想到佩內洛珀與豪不久前泡製的身影，這杯茶似乎更有滋味了。",
 			typewriter = {
 				speed = 0.05,
@@ -341,12 +341,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "伊莉莎白女王",
+			hidePaintObj = true,
 			say = "哼哼，看僕從的表情，已經充分享受到這項服務的美妙之處了呢。",
 			typewriter = {
 				speed = 0.05,
@@ -358,12 +358,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "伊莉莎白女王",
+			hidePaintObj = true,
 			say = "什麼都不用多說，本王可是有整整一支女僕隊呢，自然是懂得。",
 			typewriter = {
 				speed = 0.05,
@@ -375,12 +375,12 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
+			side = 1,
 			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "佩內洛珀",
+			hidePaintObj = true,
 			say = "能合您的口味真是太好了……那麼我去準備下一杯。點心的服務交給妳可以嗎，豪？",
 			typewriter = {
 				speed = 0.05,
@@ -392,12 +392,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
 			dir = 1,
 			actorName = "豪",
+			hidePaintObj = true,
 			say = "沒問題，就讓我來為指揮官服務吧~",
 			typewriter = {
 				speed = 0.05,
@@ -409,9 +409,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_coffeetea_2",
+			dir = 1,
 			say = "點心的服務……？",
 			typewriter = {
 				speed = 0.05,
@@ -423,13 +423,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "伊莉莎白女王",
+			side = 2,
 			bgName = "bg_coffeetea_2",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "這個你過一會就知道了~時間還很多，請慢慢享受哦~",
 			typewriter = {
 				speed = 0.05,

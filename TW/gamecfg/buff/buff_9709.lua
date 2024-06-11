@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "雷达增加缩圈效果",
 	time = 0,
-	color = "yellow",
+	name = "雷达增加缩圈效果",
+	init_effect = "",
+	id = 9709,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9709,
+	color = "yellow",
 	icon = 9709,
 	last_effect = "",
 	effect_list = {

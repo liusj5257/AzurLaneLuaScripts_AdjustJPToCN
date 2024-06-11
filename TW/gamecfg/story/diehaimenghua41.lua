@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA41",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DIEHAIMENGHUA41",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgmDelay = 1,
-			side = 2,
-			say = "重櫻本島·某處",
-			dir = 1,
 			blackBg = true,
+			side = 2,
+			dir = 1,
+			bgmDelay = 1,
 			bgm = "bsm-2",
+			say = "重櫻本島·某處",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -51,9 +51,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "怎麼大清早就把人家喊過來，我可是很忙的喲。",
 			typewriter = {
@@ -85,9 +85,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "呵呵呵，現在鐵血送來了妳想要的東西，信濃也提前甦醒了，我可一點都沒騙妳哦~",
 			typewriter = {
@@ -103,9 +103,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "至於海若與信濃的關係，妳之前也沒有主動問我嘛。",
 			typewriter = {
@@ -137,9 +137,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "留後手的潛台詞就是對我的計劃表示不信任呢，真是太令人傷心了。",
 			typewriter = {
@@ -203,9 +203,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "雖然妳對信濃沒報什麼期待，我們可是特別期待了很多哦。",
 			typewriter = {
@@ -221,9 +221,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "這次的襲擊嘛，反正也沒造成實際損失，妳就當成一次「故障」好了。就算精密的機器，運行久了出現一些小故障也是可以被原諒的吧。",
 			typewriter = {
@@ -239,9 +239,9 @@ return {
 			paintingNoise = true,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900232,
 			dir = 1,
 			blackBg = true,
+			actor = 900232,
 			actorName = "觀察者",
 			say = "嗯？突然有有趣的聯絡接進來了。我還有事，今天就不奉陪了哦，再會~",
 			typewriter = {
@@ -254,11 +254,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 307010,
+			nameColor = "#ff5c5c",
 			say = "不要把重櫻的領海當成自己的後花園啊，可惡的塞壬……！",
 			dialogShake = {
 				speed = 0.09,

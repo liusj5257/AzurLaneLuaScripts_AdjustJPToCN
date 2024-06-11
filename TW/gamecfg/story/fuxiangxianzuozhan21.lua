@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN21",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "鐵血浮島要塞群·D12防禦模組周邊",
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-executor-type1",
+			say = "鐵血浮島要塞群·D12防禦模組周邊",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "海因里希作戰順利，“重櫻”艦隊也在向預定位置接近，很快兩支艦隊將會在D13防禦模組附近匯合。",
 			typewriter = {
@@ -60,8 +60,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "接下來就是彼得那邊……",
 			typewriter = {
@@ -93,8 +93,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "沿途陸續遇到了些敵人，雖然實力很弱，但是距離抵達操作裝置還需要時間。",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "了解，我們會繼續拖延時間，保證目標始終停留在指定區域內的。",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 406010,
 			dir = 1,
+			actor = 406010,
 			nameColor = "#a9f548",
 			say = "不過……不光是艦隊，就當成要塞航空戰鬥能力的測試，用全部浮島機場來一次飽和打擊也不錯吧？",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_fuxiangxian_2",
-			actor = 407030,
 			dir = 1,
+			actor = 407030,
 			nameColor = "#a9f548",
 			say = "好主意…這種機會確實難得。就當實際部署前的預演，來一場華麗的測試吧！",
 			typewriter = {

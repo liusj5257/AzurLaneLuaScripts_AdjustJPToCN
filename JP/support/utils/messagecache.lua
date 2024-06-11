@@ -10,11 +10,11 @@ slot0.MessageCache.OK = "OK"
 slot0.MessageCache.QUEUE_FULL = "QUEUE_FULL"
 slot0.MessageCache.EXCEPTION = "EXCEPTION"
 
-function slot1(...)
+slot1 = function(...)
 	return coroutine.yield(...)
 end
 
-function slot2(slot0, slot1, slot2)
+slot2 = function(slot0, slot1, slot2)
 	if slot1 == uv0.MessageCache.CMD_PUSH then
 		if slot0.cacheQueueLenLimit_ <= #slot0.cacheQueue_ + slot0.curRQLen_ - slot0.curRQPos_ then
 			return uv1(slot0, uv2(uv0.MessageCache.QUEUE_FULL, string.format("                    the cache limit length is set with %s, the coming message will be ignored.\n                ", slot0.cacheQueueLenLimit_)))
@@ -84,17 +84,17 @@ function slot2(slot0, slot1, slot2)
 	end
 end
 
-function slot3(slot0)
+slot3 = function(slot0)
 	return uv1({
-		curRQLen_ = 0,
 		curRQPos_ = 0,
+		curRQLen_ = 0,
 		cacheQueue_ = {},
 		retrieveQueue_ = {},
 		cacheQueueLenLimit_ = slot0 or uv0.MessageCache.DEFAULT_QUEUE_LENGTH
 	}, uv2(uv0.MessageCache.OK))
 end
 
-function slot0.MessageCache.Ctor(slot0, slot1, slot2)
+slot0.MessageCache.Ctor = function(slot0, slot1, slot2)
 	slot0._name = slot1
 	slot0._thread = coroutine.create(uv0)
 	slot3, slot4 = coroutine.resume(slot0._thread, slot2)
@@ -102,7 +102,7 @@ function slot0.MessageCache.Ctor(slot0, slot1, slot2)
 	assert(slot4 == uv1.MessageCache.OK)
 end
 
-function slot0.MessageCache.Push(slot0, ...)
+slot0.MessageCache.Push = function(slot0, ...)
 	if coroutine.status(slot0._thread) == "suspended" then
 		slot2, slot3, slot4 = coroutine.resume(slot0._thread, uv0.MessageCache.CMD_PUSH, {
 			...
@@ -118,7 +118,7 @@ function slot0.MessageCache.Push(slot0, ...)
 	end
 end
 
-function slot0.MessageCache.Pop(slot0)
+slot0.MessageCache.Pop = function(slot0)
 	if coroutine.status(slot0._thread) == "suspended" then
 		slot2, slot3, slot4 = coroutine.resume(slot0._thread, uv0.MessageCache.CMD_POP)
 
@@ -136,7 +136,7 @@ function slot0.MessageCache.Pop(slot0)
 	end
 end
 
-function slot0.MessageCache.Flush(slot0)
+slot0.MessageCache.Flush = function(slot0)
 	if coroutine.status(slot0._thread) == "suspended" then
 		slot2, slot3, slot4 = coroutine.resume(slot0._thread, uv0.MessageCache.CMD_FLUSH)
 
@@ -150,7 +150,7 @@ function slot0.MessageCache.Flush(slot0)
 	end
 end
 
-function slot0.MessageCache.Destroy(slot0)
+slot0.MessageCache.Destroy = function(slot0)
 	if coroutine.status(slot0._thread) == "suspended" then
 		slot2, slot3, slot4 = coroutine.resume(slot0._thread, uv0.MessageCache.CMD_KILL)
 

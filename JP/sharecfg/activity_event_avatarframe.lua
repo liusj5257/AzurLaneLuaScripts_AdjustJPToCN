@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.activity_event_avatarframe = {
 	{
+		link_event = 4451,
+		icon_frame = 311,
+		target = 3600,
 		id = 1,
 		pt_id = 59326,
-		icon_frame = 311,
-		link_event = 4451,
-		target = 3600,
 		start_time = {
 			{
 				2022,
@@ -117,11 +117,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 4471,
+		icon_frame = 321,
+		target = 3000,
 		id = 2,
 		pt_id = 59330,
-		icon_frame = 321,
-		link_event = 4471,
-		target = 3000,
 		start_time = {
 			{
 				2022,
@@ -227,11 +227,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 4520,
+		icon_frame = 322,
+		target = 2800,
 		id = 3,
 		pt_id = 59344,
-		icon_frame = 322,
-		link_event = 4520,
-		target = 2800,
 		start_time = {
 			{
 				2022,
@@ -331,11 +331,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 4565,
+		icon_frame = 312,
+		target = 3400,
 		id = 4,
 		pt_id = 59356,
-		icon_frame = 312,
-		link_event = 4565,
-		target = 3400,
 		start_time = {
 			{
 				2022,
@@ -441,11 +441,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 4607,
+		icon_frame = 323,
+		target = 2800,
 		id = 5,
 		pt_id = 59366,
-		icon_frame = 323,
-		link_event = 4607,
-		target = 2800,
 		start_time = {
 			{
 				2022,
@@ -545,11 +545,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 4626,
+		icon_frame = 313,
+		target = 3000,
 		id = 6,
 		pt_id = 59376,
-		icon_frame = 313,
-		link_event = 4626,
-		target = 3000,
 		start_time = {
 			{
 				2023,
@@ -655,11 +655,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 4701,
+		icon_frame = 324,
+		target = 2800,
 		id = 7,
 		pt_id = 59394,
-		icon_frame = 324,
-		link_event = 4701,
-		target = 2800,
 		start_time = {
 			{
 				2023,
@@ -759,11 +759,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 4718,
+		icon_frame = 314,
+		target = 3400,
 		id = 8,
 		pt_id = 59397,
-		icon_frame = 314,
-		link_event = 4718,
-		target = 3400,
 		start_time = {
 			{
 				2023,
@@ -875,11 +875,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 4853,
+		icon_frame = 325,
+		target = 3000,
 		id = 9,
 		pt_id = 59413,
-		icon_frame = 325,
-		link_event = 4853,
-		target = 3000,
 		start_time = {
 			{
 				2023,
@@ -979,11 +979,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 4898,
+		icon_frame = 315,
+		target = 3400,
 		id = 10,
 		pt_id = 59462,
-		icon_frame = 315,
-		link_event = 4898,
-		target = 3400,
 		start_time = {
 			{
 				2023,
@@ -1089,11 +1089,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 4967,
+		icon_frame = 326,
+		target = 3000,
 		id = 11,
 		pt_id = 59471,
-		icon_frame = 326,
-		link_event = 4967,
-		target = 3000,
 		start_time = {
 			{
 				2023,
@@ -1199,11 +1199,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 5001,
+		icon_frame = 327,
+		target = 2800,
 		id = 12,
 		pt_id = 59484,
-		icon_frame = 327,
-		link_event = 5001,
-		target = 2800,
 		start_time = {
 			{
 				2023,
@@ -1303,11 +1303,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 5069,
+		icon_frame = 316,
+		target = 3200,
 		id = 13,
 		pt_id = 59499,
-		icon_frame = 316,
-		link_event = 5069,
-		target = 3200,
 		start_time = {
 			{
 				2023,
@@ -1413,11 +1413,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 5131,
+		icon_frame = 328,
+		target = 2800,
 		id = 14,
 		pt_id = 59514,
-		icon_frame = 328,
-		link_event = 5131,
-		target = 2800,
 		start_time = {
 			{
 				2023,
@@ -1517,11 +1517,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 5167,
+		icon_frame = 317,
+		target = 2800,
 		id = 15,
 		pt_id = 59520,
-		icon_frame = 317,
-		link_event = 5167,
-		target = 2800,
 		start_time = {
 			{
 				2024,
@@ -1621,11 +1621,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 5221,
+		icon_frame = 329,
+		target = 2800,
 		id = 16,
 		pt_id = 59530,
-		icon_frame = 329,
-		link_event = 5221,
-		target = 2800,
 		start_time = {
 			{
 				2024,
@@ -1725,11 +1725,11 @@ pg.activity_event_avatarframe = {
 		}
 	},
 	{
+		link_event = 5287,
+		icon_frame = 318,
+		target = 2800,
 		id = 17,
 		pt_id = 59544,
-		icon_frame = 318,
-		link_event = 5287,
-		target = 2800,
 		start_time = {
 			{
 				2024,
@@ -1828,6 +1828,121 @@ pg.activity_event_avatarframe = {
 			}
 		}
 	},
+	{
+		link_event = 5331,
+		icon_frame = 330,
+		target = 2800,
+		id = 18,
+		pt_id = 59577,
+		start_time = {
+			{
+				2024,
+				5,
+				21
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		task_level = {
+			{
+				1,
+				30179,
+				3,
+				{
+					1810002,
+					1810022
+				},
+				10,
+				100
+			},
+			{
+				2,
+				10138,
+				3,
+				{
+					1810002,
+					1810022
+				},
+				10,
+				100
+			},
+			{
+				3,
+				10205,
+				3,
+				{
+					1810003,
+					1810023
+				},
+				10,
+				200
+			},
+			{
+				4,
+				20501,
+				3,
+				{
+					1810005,
+					1810025
+				},
+				10,
+				300
+			},
+			{
+				5,
+				20504,
+				3,
+				{
+					1810006,
+					1810026
+				},
+				10,
+				300
+			}
+		},
+		task_ship = {
+			{
+				6,
+				80503,
+				1,
+				800
+			},
+			{
+				7,
+				80302,
+				2,
+				600
+			},
+			{
+				8,
+				970704,
+				1,
+				600
+			},
+			{
+				9,
+				90105,
+				2,
+				400
+			},
+			{
+				10,
+				90106,
+				2,
+				400
+			}
+		},
+		award_display = {
+			{
+				8,
+				59577,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1845,6 +1960,7 @@ pg.activity_event_avatarframe = {
 		14,
 		15,
 		16,
-		17
+		17,
+		18
 	}
 }

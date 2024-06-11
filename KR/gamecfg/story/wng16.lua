@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "舰队启航！",
 			typewriter = {
 				speed = 0.05,

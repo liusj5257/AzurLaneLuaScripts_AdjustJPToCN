@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KENTE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KENTE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"GO！肯特選手！\n\n<size=45>六 黑夜裡的光！ </size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "夜深了，總算在跨夜之前把報告處理到只剩下最後一份了。",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "夜深了，總算在跨夜之前把報告處理到只剩下最後一份了。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "就在準備動手解決時，突然發現，文件少了一張。 …難道是那時候——",
 			typewriter = {
 				speed = 0.05,
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "——那我就按你說的先去休息啦！指揮官今天也辛苦了！",
 			effects = {
 				{
@@ -86,8 +86,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -96,11 +96,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "啊！相關的文件已經按你吩咐的都歸檔收好了！晚安啦——",
 			effects = {
 				{
@@ -118,9 +118,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "…缺少的部分，大概是混在其他文件裡被歸檔了吧。",
 			effects = {
 				{
@@ -138,9 +138,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "快速翻了下文件櫃，依然沒能找到需要的那份文件。",
 			typewriter = {
 				speed = 0.05,
@@ -152,9 +152,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "姑且是今天必須完成的工作…還是去找她問問吧。",
 			typewriter = {
 				speed = 0.05,
@@ -166,11 +166,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "――下次再來聊關於老虎的話題吧！",
 			effects = {
 				{
@@ -188,8 +188,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "腦海裡突然閃過救小貓時肯特的話。",
 			effects = {
 				{
@@ -218,9 +218,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "她不會真在房間裡養了隻老虎吧…懷著忐忑的心情來到了肯特的房門前。",
 			typewriter = {
 				speed = 0.05,
@@ -232,13 +232,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "輕輕敲了敲肯特的房門。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -263,8 +263,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "……沒有反應。試著旋了下把手，沒想到居然很輕鬆地就打開了房門。",
 			typewriter = {
@@ -277,8 +277,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "也太沒防備了…試著在房間外面喊喊她吧……",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "很快，從房間里傳來了肯特帶著睡意的聲音。總算鬆了口氣，走進房間找起了她的位置。",
 			typewriter = {
@@ -321,11 +321,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "……怎麼了嗎？這麼晚了還來喊我…呼……",
 			typewriter = {
 				speed = 0.05,
@@ -337,8 +337,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 1,
 					x = 30,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "一邊說明情況，一邊在牆上想摸到電燈開關，不過卻一直沒摸到。",
 			typewriter = {
@@ -361,11 +361,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "啊，房間裡唯一的燈光就是現在床邊的檯燈。你等一下哦――",
 			typewriter = {
 				speed = 0.05,
@@ -377,8 +377,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.5,
 					x = 0,
@@ -387,9 +387,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "話音剛落，房間深處亮起了一盞小燈――",
 			typewriter = {
 				speed = 0.05,
@@ -401,9 +401,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "――？！！",
 			dialogShake = {
 				speed = 0.09,
@@ -420,11 +420,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "Wow！指、指揮官，幹嘛突然叫那麼大聲？！",
 			typewriter = {
 				speed = 0.05,
@@ -436,8 +436,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,9 +446,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "燈光的照耀下，顯現出的是粗糙的毛皮，巨大的獠牙，還有一雙銳利的眼瞳。",
 			typewriter = {
 				speed = 0.05,
@@ -460,9 +460,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "怎麼看都是——一隻老虎！",
 			typewriter = {
 				speed = 0.05,
@@ -474,11 +474,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "Wait！別激動！肯特選手在這裡！",
 			typewriter = {
 				speed = 0.05,
@@ -490,8 +490,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -516,9 +516,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "肯特似乎終於反應過來，從恐怖的”老虎”身後探出頭來，開始解釋起來。",
 			typewriter = {
 				speed = 0.05,
@@ -562,9 +562,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "房間的幽暗使得這隻“老虎”更平添了幾分逼真和魄力……",
 			typewriter = {
 				speed = 0.05,

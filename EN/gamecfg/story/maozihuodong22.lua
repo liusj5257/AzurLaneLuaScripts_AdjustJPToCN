@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG22",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG22",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 705010,
 			side = 2,
 			bgName = "bg_cccp_7",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Ahahaha! That's the spirit, Eagle Union carrier! Today's a fine day for getting a good workout!",
 			bgm = "bgm-cccp",
+			actor = 705010,
+			nameColor = "#a9f548",
+			say = "Ahahaha! That's the spirit, Eagle Union carrier! Today's a fine day for getting a good workout!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "I still don't like the way you talk, but at least you have some real firepower to back it up.",
 			typewriter = {
@@ -60,8 +60,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "We've got to hurry and join back up with the Commander!",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 701030,
 			dir = 1,
+			actor = 701030,
 			nameColor = "#a9f548",
 			say = "All right! With my inspiration and the technical expertise of the Northern Parliament, we'll be out of here in no time!",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_7",
-			actor = 705010,
 			dir = 1,
+			actor = 705010,
 			nameColor = "#a9f548",
 			say = "What is it, Kirov?",
 			typewriter = {

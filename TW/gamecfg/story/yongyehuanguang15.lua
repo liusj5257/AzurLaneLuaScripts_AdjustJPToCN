@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG15",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG15",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "巴倫支海·皇家支援艦隊 稍早前",
 			side = 2,
 			bgName = "bg_hms_5",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bgm-royalnavy",
+			say = "巴倫支海·皇家支援艦隊 稍早前",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "伊卡洛斯",
+			side = 2,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -47,8 +47,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "豪",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -63,8 +63,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "伊卡洛斯",
+			side = 2,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "豪",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -95,8 +95,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "英勇",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -111,8 +111,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "愛丁堡",
+			side = 2,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "英勇",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -143,8 +143,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "豪",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -159,8 +159,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "英勇",
+			side = 1,
 			bgName = "bg_hms_5",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -194,8 +194,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "沙恩霍斯特、格奈森瑙、鐵必制、施佩伯爵…都在之前的打擊行動裡先後受到了不同程度的損傷，也有一段時間沒有在海面上看到了吧。",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "經歷了這麼長時間的失敗，鐵血艦隊就算還有能用的船，真的還有主動挑戰我們的勇氣嗎…？",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			nameColor = "#a9f548",
 			say = "呵呵，要不然由我們這邊主動向鐵血進行廣播挑釁，光明正大的開過去吧！",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			nameColor = "#a9f548",
 			say = "啊！？等，等等！這個再怎麼說也太激進了吧！說好的輕敵不可取呢！？",
 			typewriter = {
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -320,8 +320,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "直面敵人，然後予以敵人最直接的打擊，從某些角度來看，倒也不錯呢…",
 			typewriter = {
@@ -369,8 +369,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "許可到了現場再去申請不就好了嘛~北方聯合也真是的，戰鬥都打到這個份上了還這麼客氣...",
 			typewriter = {
@@ -386,8 +386,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			nameColor = "#a9f548",
 			say = "算了，既然沒有發現任何異常情況，我們也按照預定航線繼續前進吧。",
 			typewriter = {

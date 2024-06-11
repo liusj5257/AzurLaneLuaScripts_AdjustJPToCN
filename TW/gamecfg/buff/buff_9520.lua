@@ -1,14 +1,14 @@
 return {
-	init_effect = "",
-	name = "2022公海舰队D3 普通人形构建者反击护盾",
 	time = 12.1,
-	last_effect = "ATdun_full",
+	name = "2022公海舰队D3 普通人形构建者反击护盾",
+	init_effect = "",
+	last_effect_cld_scale = true,
 	picture = "",
 	desc = "AT·FIELD",
 	stack = 1,
 	id = 9520,
 	icon = 9520,
-	last_effect_cld_scale = true,
+	last_effect = "ATdun_full",
 	effect_list = {
 		{
 			type = "BattleBuffAddTag",

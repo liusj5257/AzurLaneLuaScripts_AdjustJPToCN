@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_163 = {}
 slot1 = slot0.word_template_163
 
-function temp()
+temp = function()
 	uv0["橘"] = {
 		["未"] = {
 			["稀"] = {
@@ -41,7 +41,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["举"] = {
 		["杯"] = {
 			["一"] = {
@@ -108,7 +108,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["齟"] = {
 		this = {
 			this = true
@@ -118,7 +118,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["巨"] = {
 		["棒"] = {
 			["出"] = {
@@ -253,7 +253,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["拒"] = {
 		["绝"] = {
 			["洗"] = {
@@ -276,7 +276,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["苣"] = {
 		this = {
 			this = true
@@ -286,7 +286,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["聚"] = {
 		["宝"] = {
 			["箱"] = {

@@ -19,8 +19,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 2000
+					number = 2000,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -45,8 +45,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 2330
+					number = 2330,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -71,8 +71,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 2660
+					number = 2660,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -97,8 +97,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 2990
+					number = 2990,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -123,8 +123,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 3320
+					number = 3320,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -149,8 +149,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 3650
+					number = 3650,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -175,8 +175,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 3980
+					number = 3980,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -201,8 +201,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 4310
+					number = 4310,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -227,8 +227,8 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 4640
+					number = 4640,
+					attr = "igniteReduce"
 				}
 			}
 		}
@@ -253,20 +253,20 @@ return {
 					"onRemove"
 				},
 				arg_list = {
-					attr = "igniteReduce",
-					number = 5000
+					number = 5000,
+					attr = "igniteReduce"
 				}
 			}
 		}
 	},
-	time = 3,
 	name = "灭火",
 	init_effect = "",
-	color = "blue",
+	id = 19751,
+	time = 3,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19751,
+	color = "blue",
 	icon = 19750,
 	last_effect = "",
 	blink = {
@@ -295,8 +295,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "igniteReduce",
-				number = 2000
+				number = 2000,
+				attr = "igniteReduce"
 			}
 		}
 	}

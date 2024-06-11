@@ -4,27 +4,27 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
-			say = "먹구름처럼 하늘을 뒤덮은 마물떼가 소낙비처럼 급강하하기 시작했다.",
 			bgm = "battle-boss-camelot",
+			say = "먹구름처럼 하늘을 뒤덮은 마물떼가 소낙비처럼 급강하하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -32,8 +32,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			say = "검과 마법, 기계와 갑옷이 뒤엉켜 서로 부딪친다.",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 3,
 					name = "jiulaimu_quzhu",
+					time = 3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -60,9 +60,9 @@ return {
 					}
 				},
 				{
-					delay = 0.5,
 					name = "jiulaimu_qingxun",
 					time = 3,
+					delay = 0.5,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -79,9 +79,9 @@ return {
 					}
 				},
 				{
-					delay = 1,
 					name = "jiulaimu_hangmu",
 					time = 3,
+					delay = 1,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -98,9 +98,9 @@ return {
 					}
 				},
 				{
-					delay = 1.8,
 					name = "jiulaimu_zhanlie",
 					time = 3,
+					delay = 1.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			say = "일행이 서둘러 도착하자 장성 위에는 이미 혼란스러운 전쟁터가 펼쳐져 있었다.",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			},
 			movableNode = {
 				{
-					time = 3,
 					name = "jiulaimu_qingxun",
+					time = 3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -147,9 +147,9 @@ return {
 					}
 				},
 				{
-					delay = 0.3,
 					name = "jiulaimu_qingxun",
 					time = 3,
+					delay = 0.3,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -166,9 +166,9 @@ return {
 					}
 				},
 				{
-					delay = 0.8,
 					name = "jiulaimu_quzhu",
 					time = 3,
+					delay = 0.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -185,9 +185,9 @@ return {
 					}
 				},
 				{
-					delay = 1.6,
 					name = "jiulaimu_hangmu",
 					time = 3,
+					delay = 1.6,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -204,9 +204,9 @@ return {
 					}
 				},
 				{
-					delay = 0.8,
 					name = "jiulaimu_zhanlie",
 					time = 3,
+					delay = 0.8,
 					spine = {
 						action = "move",
 						scale = 1.3
@@ -243,11 +243,11 @@ return {
 			}
 		},
 		{
-			actor = 901110,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "왕국군 호위 기사",
 			dir = 1,
+			actor = 901110,
 			nameColor = "#A9F548FF",
 			say = "힘든 전투가 될 것 같아요…",
 			painting = {
@@ -260,11 +260,11 @@ return {
 			}
 		},
 		{
-			actor = 901130,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "왕국군 호위 기사",
 			dir = 1,
+			actor = 901130,
 			nameColor = "#A9F548FF",
 			say = "왕국군의 수호기사는 절대 굴복하지 않아!",
 			painting = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 903020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "왕국군 상급 기사",
 			dir = 1,
+			actor = 903020,
 			nameColor = "#A9F548FF",
 			say = "진을 지켜라! 마물을 단 한 마리도 통과시키지 마라!",
 			painting = {
@@ -312,18 +312,18 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "renqitoupiao_daoguang",
-					center = true
+					active = true
 				}
 			}
 		},
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_545",
 			factiontag = "왕국군 상급 기사",
 			dir = 1,
+			bgName = "star_level_bg_545",
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "다들, 늦어서 미안해!",
@@ -336,17 +336,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = false,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -498,11 +498,11 @@ return {
 			}
 		},
 		{
-			actor = 903020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "왕국군 상급 기사",
 			dir = 1,
+			actor = 903020,
 			nameColor = "#A9F548FF",
 			say = "장성을 지키는 건 영내 사람들을 마왕군의 위협으로부터 지키기 위한 거잖아.",
 			painting = {
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "왕국군 상급 기사",
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "마을 문제도 해결됐고, 이제 이쪽 문제를 해결할 차례네.",
 			painting = {
@@ -622,11 +622,11 @@ return {
 			}
 		},
 		{
-			actor = 205130,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "왕국군 상급 기사",
 			dir = 1,
+			actor = 205130,
 			nameColor = "#A9F548FF",
 			say = "드래곤 로드라… 흥, 잘 됐네.",
 			painting = {
@@ -659,9 +659,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_545",
 			factiontag = "드래곤 로드",
 			dir = 1,
+			bgName = "star_level_bg_545",
 			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "냐~하하하하하☆",
@@ -674,17 +674,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -836,11 +836,11 @@ return {
 			}
 		},
 		{
-			actor = 403022,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "드래곤 로드",
 			dir = 1,
+			actor = 403022,
 			nameColor = "#FF9B93",
 			say = "냐하하☆ 왕국군은 이제 모험가까지 불러서 장성을 지키게 하는 거야?",
 			painting = {
@@ -853,8 +853,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -943,11 +943,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_545",
 			factiontag = "용사",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "오케이! 슬슬 이 용사의 검을 칼집에서 뽑을 시간이네!",

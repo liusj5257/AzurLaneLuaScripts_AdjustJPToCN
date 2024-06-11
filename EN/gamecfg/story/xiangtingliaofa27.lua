@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA27",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA27",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 0,
 			stopbgm = true,
+			side = 0,
 			actorName = "？？？",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "This is not what was meant to happen! They are people with souls, just like us!",
 			effects = {
 				{
@@ -30,8 +30,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#a9f548",
+			actorName = "？？？",
 			side = 0,
 			dir = 1,
 			blackBg = true,
@@ -62,8 +62,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -78,8 +78,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
 			nameColor = "#ff5c5c",
+			actorName = "？？？",
 			side = 1,
 			dir = 1,
 			blackBg = true,
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "Bermuda Triangle - Combat Zone Center",
 			effects = {
@@ -167,16 +167,16 @@ return {
 			}
 		},
 		{
-			actor = 207040,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "The wind is too strong...! I can't launch my scout planes anymore!",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-6",
+			actor = 207040,
+			nameColor = "#a9f548",
+			say = "The wind is too strong...! I can't launch my scout planes anymore!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

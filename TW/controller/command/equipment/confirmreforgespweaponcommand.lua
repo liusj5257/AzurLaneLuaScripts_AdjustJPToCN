@@ -1,6 +1,6 @@
 slot0 = class("ConfirmReforgeSpWeaponCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	pg.ConnectionMgr.GetInstance():Send(14207, {
 		ship_id = slot2.shipId or 0,
 		spweapon_id = slot1:getBody().uid or 0,

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023俾斯麦Z活动 革律翁解除合体去除代替承伤效果",
 	time = 1,
-	color = "red",
+	name = "2023俾斯麦Z活动 革律翁解除合体去除代替承伤效果",
+	init_effect = "",
+	id = 200437,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200437,
+	color = "red",
 	last_effect = "",
 	effect_list = {
 		{

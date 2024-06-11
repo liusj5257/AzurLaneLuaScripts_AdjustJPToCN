@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_112 = {}
 slot1 = slot0.word_template_112
 
-function temp()
+temp = function()
 	uv0["韝"] = {
 		this = {
 			this = true
@@ -13,7 +13,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["狗"] = {
 		b = {
 			this = true
@@ -159,7 +159,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["购"] = {
 		["钓"] = {
 			["鱼"] = {
@@ -383,7 +383,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["够"] = {
 		["鳋"] = {
 			this = true
@@ -406,7 +406,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["彀"] = {
 		this = {
 			this = true
@@ -416,7 +416,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["觏"] = {
 		this = {
 			this = true
@@ -426,7 +426,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["覯"] = {
 		this = {
 			this = true

@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "",
 	init_effect = "",
+	name = "",
+	time = 0,
+	picture = "",
+	desc = "",
 	stack = 3,
 	id = 999968,
-	picture = "",
 	last_effect = "act_+heal",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddTag",

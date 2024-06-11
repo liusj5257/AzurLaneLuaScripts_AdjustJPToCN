@@ -11,7 +11,7 @@ slot3.UPDATE_PLAYER_WEAPON = "updatePlayerWeapon"
 slot3.UPDATE_MONSTER_WEAPON = "updateMonsterWeapon"
 slot3.UPDATE_MONSTER_AI = "updateMonsterAI"
 
-function slot3.Ctor(slot0, slot1, slot2)
+slot3.Ctor = function(slot0, slot1, slot2)
 	slot0._go = slot1
 	slot0._state = slot2
 	slot0._dataProxy = slot0._state:GetProxyByName(uv0.Battle.BattleDataProxy.__name)
@@ -26,7 +26,7 @@ function slot3.Ctor(slot0, slot1, slot2)
 	end
 end
 
-function slot3.initDebug(slot0)
+slot3.initDebug = function(slot0)
 	slot0._randomEngage = slot0._debug:Find("spawn_enemy")
 
 	onButton(nil, slot0._randomEngage, function ()
@@ -115,7 +115,7 @@ function slot3.initDebug(slot0)
 	end, SFX_PANEL)
 end
 
-function slot3.initData(slot0)
+slot3.initData = function(slot0)
 	slot0._fleetList = slot0._dataProxy:GetFleetList()
 	slot0._freeShipList = slot0._dataProxy:GetFreeShipList()
 	slot0._monsterArray = {}
@@ -126,19 +126,19 @@ function slot3.initData(slot0)
 		end
 	end
 
-	function slot0._updatePlayerWeapon(slot0)
+	slot0._updatePlayerWeapon = function(slot0)
 		for slot4, slot5 in pairs(uv0._fleetList) do
 			slot5:UpdateAutoComponent(slot0)
 		end
 	end
 
-	function slot0._updateMonsterWeapon(slot0)
+	slot0._updateMonsterWeapon = function(slot0)
 		for slot4, slot5 in pairs(uv0._freeShipList) do
 			slot5:UpdateWeapon(slot0)
 		end
 	end
 
-	function slot0._updateMonsterAI(slot0)
+	slot0._updateMonsterAI = function(slot0)
 		for slot4, slot5 in pairs(uv0._dataProxy._teamList) do
 			if slot5:IsFatalDamage() then
 				uv0._dataProxy:KillNPCTeam(slot4)
@@ -154,14 +154,14 @@ function slot3.initData(slot0)
 		updateMonsterAI = slot0._updateMonsterAI
 	}
 
-	function slot0._dataProxy.UpdateAutoComponent(slot0, slot1)
+	slot0._dataProxy.UpdateAutoComponent = function(slot0, slot1)
 		for slot5, slot6 in pairs(uv0._autoComponentFuncList) do
 			slot6(slot1)
 		end
 	end
 end
 
-function slot3.initComponent(slot0)
+slot3.initComponent = function(slot0)
 	slot0._base = slot0._go:Find("bg")
 	slot0._common = slot0._base:Find("common")
 	slot0._debug = slot0._base:Find("debug")
@@ -225,7 +225,7 @@ function slot3.initComponent(slot0)
 	onButton(nil, slot0._instantReload, function ()
 		slot0 = uv0._dataProxy._fleetList[1]
 
-		function slot1(slot0)
+		slot1 = function(slot0)
 			for slot5, slot6 in ipairs(slot0:GetWeaponList()) do
 				slot6:QuickCoolDown()
 			end
@@ -244,11 +244,11 @@ function slot3.initComponent(slot0)
 	SetActive(slot0._white, true)
 end
 
-function slot3.SetActive(slot0, slot1)
+slot3.SetActive = function(slot0, slot1)
 	SetActive(slot0._go, slot1)
 end
 
-function slot3.spawnEnemy(slot0, slot1, slot2, slot3, slot4, slot5)
+slot3.spawnEnemy = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._dataProxy:SpawnMonster({
 		monsterTemplateID = slot1,
 		corrdinate = {
@@ -265,7 +265,7 @@ function slot3.spawnEnemy(slot0, slot1, slot2, slot3, slot4, slot5)
 	}, 1, uv0.UnitType.ENEMY_UNIT, uv1.FOE_CODE)
 end
 
-function slot3.spawnStrike(slot0, slot1, slot2, slot3, slot4)
+slot3.spawnStrike = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._dataProxy:SpawnAirFighter({
 		templateID = slot1,
 		weaponID = {},
@@ -279,7 +279,7 @@ function slot3.spawnStrike(slot0, slot1, slot2, slot3, slot4)
 	})
 end
 
-function slot3.activeReference(slot0)
+slot3.activeReference = function(slot0)
 	slot0._state:ActiveReference()
 
 	slot1 = slot0._state:GetMediatorByName(uv0.Battle.BattleReferenceBoxMediator.__name) or slot0._state:AddMediator(uv0.Battle.BattleReferenceBoxMediator.New())
@@ -336,7 +336,7 @@ function slot3.activeReference(slot0)
 	end, SFX_PANEL)
 end
 
-function slot3.forceTrigger(slot0, slot1)
+slot3.forceTrigger = function(slot0, slot1)
 	if slot0._state:GetCommandByName("BattleSingleDungeonCommand")._waveUpdater._waveInfoList[slot1] == nil then
 		pg.TipsMgr.GetInstance():ShowTips("查无次波")
 	elseif slot3:GetState() ~= slot3.STATE_DEACTIVE then

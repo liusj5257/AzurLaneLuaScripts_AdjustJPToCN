@@ -10,10 +10,10 @@ return {
 	castCV = "skill",
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
-			target_choise = "TargetPlayerVanguardFleet",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetPlayerVanguardFleet",
 			arg_list = {
 				maxHPRatio = 0.01
 			}

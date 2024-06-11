@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA19",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA19",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900193,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "볼티모어？",
 			dir = 1,
-			say = "……",
 			bgm = "battle-boss-4",
+			actor = 900193,
+			actorName = "볼티모어？",
+			say = "……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,9 +42,9 @@ return {
 			actor = 207040,
 			nameColor = "#a9f548",
 			side = 0,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "가엾은 인형, 너의 추악한 조물주 세이렌과 함께 차가운 바닷바닥으로 잠겨버려!",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,8 +70,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "...",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "아…",
 			typewriter = {
 				speed = 0.05,
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "이 장소가 나를 매우 불편하게 만든다, 거기다…",
 			typewriter = {
 				speed = 0.05,
@@ -145,8 +145,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "(머리속에서 단편적인 대화가 들리곤 해…)",
 			typewriter = {
 				speed = 0.05,
@@ -158,10 +158,10 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "설마 지휘관이 \"세이렌\"의 노랫소리에 미혹당한 걸까? 새러토가가 바로 여기 있는데!",
 			typewriter = {
 				speed = 0.05,
@@ -173,8 +173,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "계기의 도수가 아직도 올라가고 있다. 잠시도 멈춰서는 안돼, 계속 전진한다.",
 			typewriter = {
 				speed = 0.05,

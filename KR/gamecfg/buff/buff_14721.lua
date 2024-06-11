@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "robot",
 	init_effect = "",
+	id = 14721,
 	time = 10,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 14721,
+	color = "red",
 	icon = 14720,
 	last_effect = "robot_yglh",
 	effect_list = {
@@ -37,9 +37,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 14722,
 				time = 3,
-				target = "TargetSelf",
-				skill_id = 14722
+				target = "TargetSelf"
 			}
 		}
 	}

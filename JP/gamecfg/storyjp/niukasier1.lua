@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"平穏を讃えて\n\n<size=45>一　臨時メイド長</size>",
@@ -17,10 +17,10 @@ return {
 			}
 		},
 		{
-			actor = 205010,
 			nameColor = "#a9f548",
-			bgName = "bg_story_task",
 			side = 2,
+			bgName = "bg_story_task",
+			actor = 205010,
 			dir = 1,
 			stopbgm = true,
 			say = "というわけで、私とベルは公務のために数日母港を留守にするわ！",
@@ -88,17 +88,17 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			bgmDelay = 1,
-			say = "貴方様、どうかなさいましたか？",
+			bgName = "bg_story_task",
 			bgm = "story-1",
+			actor = 202190,
+			nameColor = "#a9f548",
+			say = "貴方様、どうかなさいましたか？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -132,8 +132,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "秘書艦のニューカッスルに声をかけられ我に返った。",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "キレイにクリアファイルにしまわれている報告書を受け取った。",
 			typewriter = {
 				speed = 0.05,
@@ -209,11 +209,11 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "私は紅茶をオススメしますが、他にお好みのものがあるのでしたらご用意いたします",
 			typewriter = {
 				speed = 0.05,
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202190,
+			nameColor = "#a9f548",
 			say = "かしこまりました",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -257,9 +257,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "気づいたら、ほのかに温められたティーセットを載せたトレーが手元に置かれていた。",
 			typewriter = {
 				speed = 0.05,
@@ -283,9 +283,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "秘書艦としてもメイドとしても、さすが元・メイド統括と言うべきか隙がない。",
 			typewriter = {
 				speed = 0.05,

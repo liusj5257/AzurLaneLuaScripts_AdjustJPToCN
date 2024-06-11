@@ -1,18 +1,18 @@
 slot0 = class("SettingsAccountUSPanle", import(".SettingsBasePanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "SettingsAccountUS"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return "Account"
 end
 
-function slot0.GetTitleEn(slot0)
+slot0.GetTitleEn = function(slot0)
 	return "  / ACCOUNT"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot2 = findTF(slot0._tf, "page1")
 	slot3 = findTF(slot2, "btn_layout/twitter_con")
 	slot0.btnBindTwitter = findTF(slot3, "bind_twitter")
@@ -57,7 +57,7 @@ function slot0.OnInit(slot0)
 	slot0:RegisterEvent()
 end
 
-function slot0.RegisterEvent(slot0)
+slot0.RegisterEvent = function(slot0)
 	onButton(slot0, slot0.btnBindTwitter, function ()
 		pg.SdkMgr.GetInstance():LinkSocial(AIRI_PLATFORM_TWITTER)
 	end)
@@ -120,12 +120,12 @@ function slot0.RegisterEvent(slot0)
 	end)
 end
 
-function slot0.OnUpdate(slot0)
+slot0.OnUpdate = function(slot0)
 	slot0:checkAllAccountState_US()
 	slot0:checkAiriGenCodeCounter_US()
 end
 
-function slot0.checkAllAccountState_US(slot0)
+slot0.checkAllAccountState_US = function(slot0)
 	slot0:checkAccountTwitterView_US()
 	slot0:checkAccountFacebookView_US()
 	slot0:checkAccountAppleView_US()
@@ -134,7 +134,7 @@ function slot0.checkAllAccountState_US(slot0)
 	slot0:checkAccountPGSView_US()
 end
 
-function slot0.checkAccountTwitterView_US(slot0)
+slot0.checkAccountTwitterView_US = function(slot0)
 	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_TWITTER)
 
 	setActive(slot0.btnUnlinkTwitter, slot1)
@@ -146,7 +146,7 @@ function slot0.checkAccountTwitterView_US(slot0)
 	end
 end
 
-function slot0.checkAccountFacebookView_US(slot0)
+slot0.checkAccountFacebookView_US = function(slot0)
 	if PLATFORM_CODE == PLATFORM_US and pg.SdkMgr.GetInstance():GetChannelUID() ~= "3" then
 		slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_FACEBOOK)
 
@@ -160,7 +160,7 @@ function slot0.checkAccountFacebookView_US(slot0)
 	end
 end
 
-function slot0.checkAccountAppleView_US(slot0)
+slot0.checkAccountAppleView_US = function(slot0)
 	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_APPLE)
 
 	setActive(slot0.btnUnlinkApple, slot1)
@@ -172,7 +172,7 @@ function slot0.checkAccountAppleView_US(slot0)
 	end
 end
 
-function slot0.checkAccountAmazonView_US(slot0)
+slot0.checkAccountAmazonView_US = function(slot0)
 	if pg.SdkMgr.GetInstance():GetChannelUID() == "3" then
 		slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_AMAZON)
 
@@ -186,7 +186,7 @@ function slot0.checkAccountAmazonView_US(slot0)
 	end
 end
 
-function slot0.checkAccountYostarView_US(slot0)
+slot0.checkAccountYostarView_US = function(slot0)
 	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_YOSTAR)
 
 	setActive(slot0.btnUnlinkYostar, slot1)
@@ -198,7 +198,7 @@ function slot0.checkAccountYostarView_US(slot0)
 	end
 end
 
-function slot0.checkAccountPGSView_US(slot0)
+slot0.checkAccountPGSView_US = function(slot0)
 	slot1 = pg.SdkMgr.GetInstance():IsSocialLink(AIRI_PLATFORM_GPS)
 
 	setActive(slot0.pgsCon, slot1)
@@ -211,7 +211,7 @@ function slot0.checkAccountPGSView_US(slot0)
 	end
 end
 
-function slot0.checkAiriGenCodeCounter_US(slot0)
+slot0.checkAiriGenCodeCounter_US = function(slot0)
 	if GetAiriGenCodeTimeRemain() > 0 then
 		setButtonEnabled(slot0.yostarGenCodeBtn, false)
 
@@ -228,7 +228,7 @@ function slot0.checkAiriGenCodeCounter_US(slot0)
 	end
 end
 
-function slot0.clearAiriGenCodeTimer_US(slot0)
+slot0.clearAiriGenCodeTimer_US = function(slot0)
 	setButtonEnabled(slot0.yostarGenCodeBtn, true)
 
 	if slot0.genCodeTimer then
@@ -238,7 +238,7 @@ function slot0.clearAiriGenCodeTimer_US(slot0)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 
 	if slot0.genCodeTimer then

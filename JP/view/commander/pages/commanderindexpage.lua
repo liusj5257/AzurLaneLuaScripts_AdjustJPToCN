@@ -57,7 +57,7 @@ end
 
 table.insert(slot4.nation, slot0.NATION_OTHER)
 
-function slot0.IsOtherNation(slot0)
+slot0.IsOtherNation = function(slot0)
 	if not uv0.displayNations then
 		uv0.displayNations = {}
 
@@ -69,11 +69,11 @@ function slot0.IsOtherNation(slot0)
 	return uv0.displayNations[slot0] ~= true
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderIndexUI"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.sortPanel = slot0:findTF("frame/frame/frame/sort_panel/content")
 	slot0.nationPanel = slot0:findTF("frame/frame/frame/nation_panel/content")
 	slot0.rarityPanel = slot0:findTF("frame/frame/frame/rarity_panel/content")
@@ -92,7 +92,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("frame/frame/frame/name_panel/title/Text"), i18n("commandercat_label_display_name"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -145,7 +145,7 @@ function slot0.OnInit(slot0)
 	slot0:InitDisplayName()
 end
 
-function slot0.InitSort(slot0)
+slot0.InitSort = function(slot0)
 	slot0.sortToggles = {}
 
 	for slot4, slot5 in ipairs(uv0.sort) do
@@ -162,7 +162,7 @@ function slot0.InitSort(slot0)
 	end
 end
 
-function slot0.InitNation(slot0)
+slot0.InitNation = function(slot0)
 	slot0.nationToggles = {}
 
 	for slot4, slot5 in pairs(uv0.nation) do
@@ -193,7 +193,7 @@ function slot0.InitNation(slot0)
 	end
 end
 
-function slot0.Nation2Name(slot0, slot1)
+slot0.Nation2Name = function(slot0, slot1)
 	if slot1 == uv0.NATION_OTHER then
 		return i18n("index_other")
 	else
@@ -201,7 +201,7 @@ function slot0.Nation2Name(slot0, slot1)
 	end
 end
 
-function slot0.InitRarity(slot0)
+slot0.InitRarity = function(slot0)
 	slot0.rarityToggles = {}
 
 	for slot4, slot5 in pairs(uv0.rarity) do
@@ -232,7 +232,7 @@ function slot0.InitRarity(slot0)
 	end
 end
 
-function slot0.InitDisplayName(slot0)
+slot0.InitDisplayName = function(slot0)
 	slot0.nameToggles = {}
 
 	for slot4, slot5 in ipairs(uv0.name) do
@@ -249,13 +249,13 @@ function slot0.InitDisplayName(slot0)
 	end
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	setActive(slot0._tf, true)
 	slot0.UpdateSelected(slot0, slot1)
 	setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
 end
 
-function slot0.UpdateSelected(slot0, slot1)
+slot0.UpdateSelected = function(slot0, slot1)
 	triggerToggle(slot0.sortToggles[slot1.sortData or "Level"], true)
 
 	if #(slot1.nationData or {}) > 0 then
@@ -277,22 +277,22 @@ function slot0.UpdateSelected(slot0, slot1)
 	triggerToggle(slot0.nameToggles[defaultValue(slot1.displayCustomName, true) and uv0 or uv1], true)
 end
 
-function slot0.Reset(slot0)
+slot0.Reset = function(slot0)
 	slot0.data = {
-		sortData = "Level",
 		displayCustomName = true,
+		sortData = "Level",
 		nationData = {},
 		rarityData = {}
 	}
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	setActive(slot0._tf, false)
 	slot0.Reset(slot0)
 	setParent(slot0._tf, slot0._parentTf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	uv0.displayNations = nil
 end
 

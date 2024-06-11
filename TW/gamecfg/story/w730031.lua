@@ -1,12 +1,12 @@
 return {
-	id = "W730031",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W730031",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "將能源矩陣歸位！",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "注意：海域中存在隱形石柱，靠近了才會顯形！",
 			typewriter = {
 				speed = 0.05,

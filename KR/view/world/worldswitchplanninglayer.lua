@@ -4,10 +4,10 @@ slot0.MODE_SAFE = 1
 slot0.MODE_TREASURE = 2
 slot0.modeToggleDic = {
 	[0] = {
-		base = true,
+		boss = true,
 		wait_2 = true,
 		wait = true,
-		boss = true,
+		base = true,
 		consume = true
 	},
 	{
@@ -18,18 +18,18 @@ slot0.modeToggleDic = {
 		consume = true
 	},
 	{
-		wait = true,
-		boss = true,
 		treasure = true,
-		consume = true
+		consume = true,
+		wait = true,
+		boss = true
 	}
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldSwitchPlanningUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
 	slot0.rtBg = slot0._tf:Find("bg")
@@ -102,7 +102,7 @@ function slot0.init(slot0)
 		end
 	end, SFX_PANEL)
 
-	function slot4(slot0)
+	slot4 = function(slot0)
 		if slot0 then
 			uv0:updateView(uv1.MODE_TREASURE)
 			scrollTo(uv0.rtView:Find("content"), nil, 1)
@@ -319,15 +319,15 @@ function slot0.init(slot0)
 	setText(slot0.rtContent:Find("toggles/toggle_treasure/Text"), i18n("area_yinmi"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	triggerToggle(slot0.rtContent:Find("toggles"):GetChild(PlayerPrefs.GetInt("auto_switch_mode", 0)), true)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.initToggle(slot0, slot1)
+slot0.initToggle = function(slot0, slot1)
 	slot2 = slot0.togglesList[slot1]
 	slot3 = slot2.getFlag()
 
@@ -340,7 +340,7 @@ function slot0.initToggle(slot0, slot1)
 	end
 end
 
-function slot0.updateView(slot0, slot1)
+slot0.updateView = function(slot0, slot1)
 	PlayerPrefs.SetInt("auto_switch_mode", slot1)
 	PlayerPrefs.Save()
 
@@ -404,7 +404,7 @@ function slot0.updateView(slot0, slot1)
 	end)
 end
 
-function slot0.saveConfig(slot0, slot1)
+slot0.saveConfig = function(slot0, slot1)
 	slot4 = slot0.rtView
 
 	eachChild(slot4:Find("content/" .. slot1 .. "/toggles"), function (slot0)
@@ -416,7 +416,7 @@ function slot0.saveConfig(slot0, slot1)
 	PlayerPrefs.Save()
 end
 
-function slot0.paresingToggleString(slot0)
+slot0.paresingToggleString = function(slot0)
 	if not slot0 or slot0 == "" then
 		return {}
 	end
@@ -424,7 +424,7 @@ function slot0.paresingToggleString(slot0)
 	return string.split(slot0, "&")
 end
 
-function slot0.checkDifficultValid(slot0, slot1)
+slot0.checkDifficultValid = function(slot0, slot1)
 	for slot6, slot7 in ipairs(uv0.paresingToggleString(slot0)) do
 		if slot7 == "all" then
 			return true

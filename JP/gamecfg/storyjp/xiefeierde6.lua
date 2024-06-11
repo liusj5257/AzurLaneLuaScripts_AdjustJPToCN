@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIEFEIERDE6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIEFEIERDE6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"銃弾と、愛を込めて\n\n<size=45>六 メイドの気持ち・上</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・自室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・自室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "おはようございます、ご主人様。朝食の用意ができました。朝の支度をしてくださいませ",
 			typewriter = {
 				speed = 0.05,
@@ -88,9 +88,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "お世話されるのに慣れてきたせいか、休日の朝に掃除しに来るシェフィールドを見るのが正直楽しみになってきている。",
 			typewriter = {
 				speed = 0.05,
@@ -150,9 +150,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "「シェフィールドになら、『ずっとこのまま』世話されてもいい」――そう思った。",
 			typewriter = {
 				speed = 0.05,
@@ -164,14 +164,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
 			say = "数日後・自室",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -196,8 +196,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "珍しくシェフィールドが来る前にぼんやりと目が覚めた。",
 			typewriter = {
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "意識が朦朧としている中、部屋の外から会話の声が聞こえる――",
 			typewriter = {
@@ -224,8 +224,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ニューカッスル",
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -240,8 +240,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "シェフィールド",
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -256,8 +256,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ニューカッスル",
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -272,8 +272,8 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorName = "シェフィールド",
+			side = 0,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -288,8 +288,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ニューカッスル",
+			side = 1,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			blackBg = true,
 			say = "なんだか難しい話を聞いたような気がする…。",
 			typewriter = {

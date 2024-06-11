@@ -8,10 +8,10 @@ return {
 					"onRemove"
 				},
 				arg_list = {
+					number = -0.2,
 					convert_value = -0.3,
-					type = 23,
 					convert_attr = "HPRate",
-					number = -0.2
+					type = 23
 				}
 			},
 			{
@@ -34,10 +34,10 @@ return {
 					"onRemove"
 				},
 				arg_list = {
+					number = -0.2,
 					convert_value = -0.333,
-					type = 23,
 					convert_attr = "HPRate",
-					number = -0.2
+					type = 23
 				}
 			},
 			{
@@ -60,10 +60,10 @@ return {
 					"onRemove"
 				},
 				arg_list = {
+					number = -0.2,
 					convert_value = -0.366,
-					type = 23,
 					convert_attr = "HPRate",
-					number = -0.2
+					type = 23
 				}
 			},
 			{
@@ -86,10 +86,10 @@ return {
 					"onRemove"
 				},
 				arg_list = {
+					number = -0.2,
 					convert_value = -0.399,
-					type = 23,
 					convert_attr = "HPRate",
-					number = -0.2
+					type = 23
 				}
 			},
 			{
@@ -112,10 +112,10 @@ return {
 					"onRemove"
 				},
 				arg_list = {
+					number = -0.2,
 					convert_value = -0.432,
-					type = 23,
 					convert_attr = "HPRate",
-					number = -0.2
+					type = 23
 				}
 			},
 			{
@@ -138,10 +138,10 @@ return {
 					"onRemove"
 				},
 				arg_list = {
+					number = -0.2,
 					convert_value = -0.465,
-					type = 23,
 					convert_attr = "HPRate",
-					number = -0.2
+					type = 23
 				}
 			},
 			{
@@ -164,10 +164,10 @@ return {
 					"onRemove"
 				},
 				arg_list = {
+					number = -0.2,
 					convert_value = -0.498,
-					type = 23,
 					convert_attr = "HPRate",
-					number = -0.2
+					type = 23
 				}
 			},
 			{
@@ -190,10 +190,10 @@ return {
 					"onRemove"
 				},
 				arg_list = {
+					number = -0.2,
 					convert_value = -0.531,
-					type = 23,
 					convert_attr = "HPRate",
-					number = -0.2
+					type = 23
 				}
 			},
 			{
@@ -216,10 +216,10 @@ return {
 					"onRemove"
 				},
 				arg_list = {
+					number = -0.2,
 					convert_value = -0.564,
-					type = 23,
 					convert_attr = "HPRate",
-					number = -0.2
+					type = 23
 				}
 			},
 			{
@@ -242,10 +242,10 @@ return {
 					"onRemove"
 				},
 				arg_list = {
+					number = -0.2,
 					convert_value = -0.6,
-					type = 23,
 					convert_attr = "HPRate",
-					number = -0.2
+					type = 23
 				}
 			},
 			{
@@ -259,9 +259,9 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 50,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "准备速度提高",
 	stack = 1,

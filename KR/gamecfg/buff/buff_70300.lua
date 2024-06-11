@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "防空提高",
 	init_effect = "",
-	color = "red",
+	id = 70300,
+	time = 0,
 	picture = "",
 	desc = "防空提高50%",
 	stack = 1,
-	id = 70300,
+	color = "red",
 	icon = 70300,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "antiAirPower",
-				number = 5000
+				number = 5000,
+				attr = "antiAirPower"
 			}
 		}
 	}

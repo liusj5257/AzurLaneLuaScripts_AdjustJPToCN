@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZUBING2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZUBING2",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"전진하라! 아시가라!\n\n<size=45>일해라! 아시가라!</size>",
@@ -19,14 +19,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "네? 비서함? 제, 제가요?",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -60,10 +60,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "이건 분명 지휘관 나리의 신뢰의 상징……네! 열심히 하겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -75,15 +75,15 @@ return {
 			}
 		},
 		{
-			say = "모항 - 집무실",
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1.5,
 			bgm = "story-1",
+			say = "모항 - 집무실",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -117,8 +117,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "지휘관 나리, 이번달 군사의뢰 보고서는 여기 있습니다.",
 			typewriter = {
@@ -134,8 +134,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "……시, 시간순으로 정리해야 한다고요?",
 			typewriter = {
@@ -164,15 +164,15 @@ return {
 			}
 		},
 		{
-			actor = 303090,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "지휘관 나리, 저기…차라도 한 잔……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -200,8 +200,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "엇……",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -227,8 +227,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "어, 엎질러서 죄송합니다! 지금 처리하겠습니다! 티슈, 에에 그러니까, 티슈는……",
 			typewriter = {
@@ -241,8 +241,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -253,14 +253,14 @@ return {
 		{
 			expression = 5,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 303090,
-			dir = 1,
 			nameColor = "#92fc63",
 			say = "이상하네요…싸인펜을 제가 여기 놔뒀었는데……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -304,8 +304,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "……",
 			typewriter = {
@@ -321,8 +321,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "찾았어요! 대체 왜 이런 곳에……",
 			typewriter = {
@@ -338,8 +338,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "아차! 책상 위에 올린 서류가……?! 아까 싸인펜을 찾다가 무심결에……",
 			typewriter = {
@@ -352,9 +352,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "싸인펜을 찾았을 때 아시가라는 이미 산더미처럼 쌓인 서류 더미에 둘러싸여있었다.",
 			dialogShake = {
 				speed = 0.09,
@@ -367,13 +367,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "아시가라는 그 서류 더미 안에서 한참을 허우적대다가 겨우 빠져나왔다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -397,8 +397,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 303090,
 			dir = 1,
+			actor = 303090,
 			nameColor = "#92fc63",
 			say = "엥?……벌써 시간이 이렇게?!",
 			typewriter = {
@@ -429,10 +429,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 303090,
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 303090,
+			nameColor = "#92fc63",
 			say = "(큭……다음엔 반드시……!)",
 			typewriter = {
 				speed = 0.05,

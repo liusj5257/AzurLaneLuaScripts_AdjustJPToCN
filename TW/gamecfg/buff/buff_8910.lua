@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "德系V4 EX代行者召唤小怪",
 	time = 10,
+	name = "德系V4 EX代行者召唤小怪",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				rant = 10000,
-				target = "TargetSelf",
-				skill_id = 8910
+				skill_id = 8910,
+				target = "TargetSelf"
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 slot0 = class("LittleRenownRePage", import(".TemplatePage.PtTemplatePage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.heartTpl = slot0:findTF("HeartTpl", slot0.bg)
@@ -24,7 +24,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot1, slot2 = slot0.ptData:GetLevelProgress()
@@ -32,7 +32,7 @@ function slot0.OnUpdateFlush(slot0)
 	slot0.heartUIItemList:align(slot2)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	onButton(slot0, slot0.battleBtn, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.LEVEL)

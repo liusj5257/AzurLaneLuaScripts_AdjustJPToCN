@@ -1,26 +1,26 @@
 slot0 = class("SettingsAccountSpecialPanel", import(".SettingsBasePanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "SettingsAccountSpecial"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("settings_title_account_del")
 end
 
-function slot0.GetTitleEn(slot0)
+slot0.GetTitleEn = function(slot0)
 	return " / ACCOUNT SETTING"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.OnUpdate(slot0)
+slot0.OnUpdate = function(slot0)
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.expandBtn = slot0._tf:Find("ExpandBtn")
 	slot0.panel = slot0._tf:Find("Panel")
 	slot0.deleteTitle = slot0.panel:Find("Notice/DelTitle")
@@ -38,7 +38,7 @@ function slot0.findUI(slot0)
 	triggerToggle(slot0.comfirmToggle, false)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.expandBtn, function ()
 		setSizeDelta(uv0._tf, {
 			x = 1558,
@@ -60,7 +60,7 @@ function slot0.addListener(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.openMsgBox(slot0)
+slot0.openMsgBox = function(slot0)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		modal = true,
 		type = MSGBOX_TYPE_ACCOUNTDELETE,

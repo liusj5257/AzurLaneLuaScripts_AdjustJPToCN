@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGBAORICHANG3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGBAORICHANG3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"각자의 설날\n\n<size=45>3. 알록달록한 모항</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_127",
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "star_level_bg_127",
 			bgm = "story-china",
 			actor = 399013,
 			nameColor = "#a9f548",
 			say = "이게 바로… 이스트 글림의 ‘설날’… 모항이 온통 반짝반짝…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -72,8 +72,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "에취!",
 			dialogShake = {
@@ -94,8 +94,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 399013,
 			dir = 1,
+			actor = 399013,
 			nameColor = "#a9f548",
 			say = "으앗?!",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -121,8 +121,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "으악! 아아… 이부키구나. 에헤헤. 놀랐어?",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "이 정도 높이는 별것도 아니라고! 에헤헤. 맞아. 등불을 걸고 있어! 왜 걸어야 하는지는 모르지만!",
 			typewriter = {
@@ -171,8 +171,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 102251,
 			dir = 1,
+			actor = 102251,
 			nameColor = "#a9f548",
 			say = "이스트 글림에서 옷을 빌려왔을 때 이미 말 해줬잖아? 잊은 거야?",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "아니거든! 지금 생각났어! 생각… 으으으……",
 			typewriter = {
@@ -202,8 +202,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 102251,
 			dir = 1,
+			actor = 102251,
 			nameColor = "#a9f548",
 			say = "미안, 이부키. 할시가 조금 덜렁거리긴 하지. 이런데도 자칭 럭키스타라니…",
 			typewriter = {
@@ -248,8 +248,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 101431,
 			dir = 1,
+			actor = 101431,
 			nameColor = "#a9f548",
 			say = "맞아. 나를 만나면 다들 행운을 얻게 된다고!",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_127",
-			actor = 102251,
 			dir = 1,
+			actor = 102251,
 			nameColor = "#a9f548",
 			say = "자자, 아직 걸어야 할 등불이 많잖아. 나도 도와줄 테니 조금만 더 힘내자.",
 			typewriter = {
@@ -295,11 +295,11 @@ return {
 			}
 		},
 		{
-			actor = 101431,
 			side = 2,
 			bgName = "star_level_bg_127",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101431,
+			nameColor = "#a9f548",
 			say = "정말?! 에헤헤, 고마워!",
 			typewriter = {
 				speed = 0.05,
@@ -311,8 +311,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -321,14 +321,14 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			hideOther = true,
 			say = "같은 시간, 모항의 상점가",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "우냥? 금색 공이다냥! 축하한다냥! 1등상이다냥!",
 			typewriter = {
 				speed = 0.05,
@@ -433,8 +433,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -443,11 +443,11 @@ return {
 			}
 		},
 		{
-			actor = 502020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 502020,
+			nameColor = "#a9f548",
 			say = "에?",
 			typewriter = {
 				speed = 0.05,
@@ -459,8 +459,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -485,14 +485,14 @@ return {
 			}
 		},
 		{
-			actor = 502030,
+			hideOther = true,
 			side = 0,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			hideOther = true,
 			actorName = "핑하이&닝하이",
+			actor = 502030,
+			nameColor = "#a9f548",
 			say = "……에에?!!!",
 			dialogShake = {
 				speed = 0.09,

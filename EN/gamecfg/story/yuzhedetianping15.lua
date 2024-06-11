@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUZHEDETIANPING15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUZHEDETIANPING15",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 3,
 			blackBg = true,
 			sequence = {
@@ -54,10 +54,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So this is where the Senate has been secretly storing all those artifacts. Inside an inconspicuous warehouse.",
 			painting = {
 				alpha = 0.3,
@@ -69,12 +69,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What are your thoughts on this, Torricelli?",
 			painting = {
 				alpha = 0.3,
@@ -128,10 +128,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Cut me a break. It's impossible to get a hold of her.",
 			painting = {
 				alpha = 0.3,
@@ -168,12 +168,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "At any rate, your intuition is reliable.",
 			painting = {
 				alpha = 0.3,
@@ -188,10 +188,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 605020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Veneto and I have had our suspicions for a long while, but couldn't find any leads no matter how hard we tried.",
 			painting = {
 				alpha = 0.3,
@@ -203,12 +203,12 @@ return {
 			}
 		},
 		{
-			actor = 605020,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Which is why I want you to search this place from top to–",
 			painting = {
 				alpha = 0.3,
@@ -272,30 +272,30 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_firedust_5",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
-			say = "Littorio turned on her heel and was just about to leave the warehouse, when...",
 			bgm = "theme-vichy-church",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Littorio turned on her heel and was just about to leave the warehouse, when...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -303,9 +303,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			}
 		},
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Communicator",
+			side = 2,
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			nameColor = "#ff5c5c",

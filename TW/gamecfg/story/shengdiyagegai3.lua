@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGDIYAGEGAI3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGDIYAGEGAI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"閃耀☆戰鬥之星！\n\n<size=45>三　聖地牙哥、苦惱中？！</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 102080,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "唔…好像有點明白了，又好像不太明白…",
 			bgm = "story-1",
+			actor = 102080,
+			nameColor = "#a9f548",
+			say = "唔…好像有點明白了，又好像不太明白…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "不過聰明如聖地牙哥，一定早晚能搞明白的，嗯！",
 			typewriter = {
 				speed = 0.05,
@@ -84,8 +84,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -94,8 +94,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -138,11 +138,11 @@ return {
 			}
 		},
 		{
-			actor = 101319,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101319,
+			nameColor = "#a9f548",
 			say = "啊哇哇哇哇！敵、敵襲？！還是地震！？天災來了！？",
 			typewriter = {
 				speed = 0.05,
@@ -154,8 +154,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -164,12 +164,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "啊哈哈哈，是我是我啦，聖地牙哥~",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈哈，是我是我啦，聖地牙哥~",
+			actor = 102080,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -232,11 +232,11 @@ return {
 			}
 		},
 		{
-			actor = 102080,
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102080,
+			nameColor = "#a9f548",
 			say = "喔喔！多睡覺就能有所成長嗎！我記下來了！",
 			typewriter = {
 				speed = 0.05,
@@ -248,8 +248,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.2,
 					dur = 0.2,
 					x = 0,
@@ -274,20 +274,20 @@ return {
 			}
 		},
 		{
-			actor = 101259,
+			say = "才不是那樣的啦啦啦啦啦！！！",
 			side = 2,
+			actor = 101259,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "才不是那樣的啦啦啦啦啦！！！",
 			actorPosition = {
 				x = 2250,
 				y = 0
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0,
 					dur = 0.2,
 					x = -2250
@@ -309,12 +309,12 @@ return {
 			}
 		},
 		{
-			actor = 102080,
+			say = "呀吼~哈曼~",
 			side = 1,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			actor = 102080,
 			dir = 1,
-			say = "呀吼~哈曼~",
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 101259,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101259,
+			nameColor = "#a9f548",
 			say = "這邊可是歷經了千辛萬苦，好不容易才完成的“改造”啊！",
 			typewriter = {
 				speed = 0.05,
@@ -351,8 +351,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -393,11 +393,11 @@ return {
 			}
 		},
 		{
-			actor = 101259,
 			side = 0,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101259,
+			nameColor = "#a9f548",
 			say = "沒、沒什麼啦！總之我想說的就是，改造才沒有那麼容易呢！要做好心理準備才行啦！",
 			typewriter = {
 				speed = 0.05,
@@ -409,8 +409,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,

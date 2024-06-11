@@ -3,8 +3,8 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "本著幫狐幫到底的原則，你又給了小狐狸一顆蘋果。",
 			typewriter = {
 				speed = 0.05,
@@ -12,8 +12,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "這個蘋果比上一個蘋果更大，你相信小狐狸吃完後一定會滿足的。",
 			typewriter = {
 				speed = 0.05,
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "……小狐狸很快吃完了蘋果，而後依然眼巴巴地看著你，似乎依舊飢餓的樣子。",
 			typewriter = {
 				speed = 0.05,

@@ -4,7 +4,7 @@ slot0.IMPORT_SHIP_EQUIP = "EquipCodeMediator.IMPORT_SHIP_EQUIP"
 slot0.OPEN_CUSTOM_INDEX = "EquipCodeMediator.OPEN_CUSTOM_INDEX"
 slot0.OPEN_EQUIP_CODE_SHARE = "EquipCodeMediator.OPEN_EQUIP_CODE_SHARE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.SHARE_EQUIP_CODE, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.EQUIP_CODE_SHARE, {
 			groupId = slot1,
@@ -50,7 +50,7 @@ function slot0.register(slot0)
 	slot0.viewComponent:setShip(slot0.contextData.shipId)
 end
 
-function slot0.initNotificationHandleDic(slot0)
+slot0.initNotificationHandleDic = function(slot0)
 	slot0.handleDic = {
 		[GAME.SHIP_EQUIP_ALL_CHANGE_DONE] = function (slot0, slot1)
 			assert(slot1:getBody() == slot0.contextData.shipId)

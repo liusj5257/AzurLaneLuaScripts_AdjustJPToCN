@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 40311,
 	picture = "",
 	desc = "战列受到炮击减伤,+装填",
 	stack = 1,
-	id = 40311,
+	color = "yellow",
 	icon = 40310,
 	last_effect = "",
 	effect_list = {

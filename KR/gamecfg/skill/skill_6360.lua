@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "延迟射击",
 	cd = 0,
+	picture = "0",
+	desc = "延迟射击",
 	painting = 0,
 	id = 6360,
-	picture = "0",
 	castCV = "",
-	desc = "延迟射击",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillAddBuff",
-			casterAniEffect = "",
-			target_choise = "TargetSelf",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillAddBuff",
+			target_choise = "TargetSelf",
 			arg_list = {
 				buff_id = 6361
 			}

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "章节航空支援",
 	time = 0,
+	name = "章节航空支援",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害",
 	stack = 1,
@@ -16,10 +16,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 78010,
 				time = 18,
 				rant = 10000,
-				skill_id = 78010
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -29,10 +29,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 78010,
 				time = 38,
 				rant = 10000,
-				skill_id = 78010
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -42,10 +42,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 78010,
 				time = 58,
 				rant = 10000,
-				skill_id = 78010
+				target = "TargetSelf"
 			}
 		}
 	}

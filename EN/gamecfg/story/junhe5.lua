@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUNHE5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUNHE5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Hidden Charm\n\n<size=45>5 The Things We Tell Ourselves</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Exercise Area",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Exercise Area",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,9 +50,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "It was clear-cut who had won. Suruga was my secretary, but I couldn't let that influence my judgment.",
 			typewriter = {
 				speed = 0.05,
@@ -67,8 +67,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "Ahahaha! Victory is mine!",
 			effects = {
@@ -87,9 +87,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "Kii lured Suruga closer with a series of feint shots, securing the victory by scoring a hit at point-blank range. Her strategy had been executed flawlessly.",
 			effects = {
 				{
@@ -107,9 +107,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "The crowd burst into applause, congratulating Kii on her result.",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "Whew... That's that done with.",
 			typewriter = {
@@ -138,9 +138,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "Suruga, on the other hand, was indifferent about the whole thing. If anything, she sounded like she'd gotten done with a boring chore.",
 			typewriter = {
 				speed = 0.05,
@@ -155,8 +155,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "\"Done with\"? You sound like you weren't even trying to win!",
 			typewriter = {
@@ -204,8 +204,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "Do that, and I'll be able to give it as much as 120%! We've still got time for a round two, y'know. C'mon. You had fun, and you know it.",
 			typewriter = {
@@ -221,8 +221,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "*sigh*... Would it kill YOU to show some basic consideration?",
 			typewriter = {
@@ -235,8 +235,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -264,8 +264,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "Damn, girl, okay! Don't let me keep you then.",
 			typewriter = {
@@ -278,9 +278,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "This, however, wasn't true. Suruga's workload for the day and the next was nothing out of the ordinary. She was making excuses for herself.",
 			typewriter = {
 				speed = 0.05,
@@ -292,9 +292,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "Maybe she was bitter over her defeat. I felt I had to say something to her.",
 			typewriter = {
 				speed = 0.05,
@@ -306,11 +306,11 @@ return {
 			}
 		},
 		{
-			actor = 304050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu2",
 			side = 2,
+			bgName = "bg_story_nepu2",
 			dir = 1,
+			actor = 304050,
 			stopbgm = true,
 			say = "Please... It's best you don't.",
 			typewriter = {
@@ -323,9 +323,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "I rose from my seat, but Amagi stopped me and adviced against it.",
 			typewriter = {
 				speed = 0.05,
@@ -337,15 +337,15 @@ return {
 			}
 		},
 		{
-			say = "Not long after we returned to the office, Suruga's anxiety abruptly boiled over.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-2",
+			say = "Not long after we returned to the office, Suruga's anxiety abruptly boiled over.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -373,8 +373,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "Urgh... I gave it my all. I really did. But I still couldn't beat Kii...",
 			typewriter = {
@@ -403,9 +403,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Her sobbing grew little by little into a bawl, and then something completely unexpected happened.",
 			typewriter = {
 				speed = 0.05,
@@ -417,11 +417,11 @@ return {
 			}
 		},
 		{
-			actor = 305140,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "Plop! Ploop! Flissshhh!",
 			dialogShake = {
@@ -439,13 +439,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_1100",
+			side = 2,
+			dir = 1,
 			say = "She blurted strange words in an even stranger voice. But strangest of all was the fact she grew a furry tail, and her horns morphed into big, fluffy ears.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -470,9 +470,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "They looked like they belonged to... a raccoon.",
 			typewriter = {
 				speed = 0.05,
@@ -486,14 +486,14 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_task",
 			actor = 301290,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "Oh dear, oh dear! Suruga has dropped her disguise and shown her true form! Commander, you must evacuate!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -518,8 +518,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

@@ -2,24 +2,24 @@ return {
 	uiEffect = "",
 	name = "",
 	cd = 0,
-	painting = 0,
-	id = 999955,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = 0,
+	id = 999955,
 	effect_list = {
 		{
-			type = "BattleSkillSummon",
-			casterAniEffect = "",
-			target_choise = "TargetNil",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillSummon",
+			target_choise = "TargetNil",
 			arg_list = {
 				delay = 3,
 				spawnData = {
 					monsterTemplateID = 300102,
-					moveCast = true,
-					delay = 0,
 					score = 0,
+					delay = 0,
+					moveCast = true,
 					corrdinate = {
 						5,
 						0,

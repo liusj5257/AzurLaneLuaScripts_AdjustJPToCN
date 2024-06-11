@@ -1,12 +1,12 @@
 return {
-	id = "W849011",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W849011",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "因為黃色區域沒有全部觸發，艦隊回到了起始點。",
 			typewriter = {
 				speed = 0.05,

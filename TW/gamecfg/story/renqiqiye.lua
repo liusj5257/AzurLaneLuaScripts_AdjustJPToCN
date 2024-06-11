@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIQIYE",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIQIYE",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"榮耀殿堂\n\n<size=45>碧藍之海</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "某日·港區近海",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level02",
+			say = "某日·港區近海",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -98,11 +98,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "雖然也這麼想過，不過指揮官不來的話，果然還是覺得有點不安呢。",
 			typewriter = {
 				speed = 0.05,
@@ -184,9 +184,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "雖然企業這麼說，不過和她們相比，自己畢竟無法構成直接的戰鬥力。",
 			typewriter = {
 				speed = 0.05,
@@ -198,9 +198,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "後方支援與指揮還好說，在前線是否能讓她們放心將後背託付給自己…還是有些心虛的——",
 			typewriter = {
 				speed = 0.05,
@@ -276,9 +276,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "企業沒有繼續說下去。",
 			typewriter = {
 				speed = 0.05,
@@ -290,9 +290,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "對她來說自己究竟是怎樣的存在...既然本人沒有說出口，也就無從推測了",
 			typewriter = {
 				speed = 0.05,
@@ -384,9 +384,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "企業有些害羞地扶了扶軍帽",
 			typewriter = {
 				speed = 0.05,
@@ -462,9 +462,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "企業微微低頭，軍帽和瀏海擋住了她的表情。",
 			typewriter = {
 				speed = 0.05,
@@ -492,11 +492,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "對了，指揮官，要不要試試從天空看看大海？",
 			typewriter = {
 				speed = 0.05,
@@ -546,9 +546,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "眼前的企業恢復到了平時英姿颯爽的模樣",
 			typewriter = {
 				speed = 0.05,
@@ -560,9 +560,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "機會難得。既然如此，就恭敬不如從命了吧",
 			typewriter = {
 				speed = 0.05,
@@ -574,13 +574,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_nepu2",
+			side = 2,
+			dir = 1,
 			say = "在企業的幫助下，享受了一番空中欣賞大海的美景",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -605,11 +605,11 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "怎麼樣，“空中散步”感覺如何？",
 			typewriter = {
 				speed = 0.05,
@@ -635,12 +635,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "很漂亮、嗎……",
 			typewriter = {
 				speed = 0.05,
@@ -652,12 +652,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "哈哈，看來我應該練習一下更平穩的飛行操縱，讓客人安心觀景呢",
 			typewriter = {
 				speed = 0.05,
@@ -669,8 +669,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -679,12 +679,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "是嗎…看來下次應該叫艾塞克斯陪指揮官練習一下…",
 			typewriter = {
 				speed = 0.05,
@@ -744,9 +744,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "企業深呼吸了一下，略帶羞澀地說道。",
 			typewriter = {
 				speed = 0.05,
@@ -806,9 +806,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
+			dir = 1,
 			say = "企業有些面帶紅暈地露出了燦爛的笑容",
 			typewriter = {
 				speed = 0.05,
@@ -836,12 +836,12 @@ return {
 			}
 		},
 		{
-			actor = 107060,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107060,
+			nameColor = "#a9f548",
 			say = "與你一起瞭望的碧藍大海，就是世界上最美麗的風景——",
 			typewriter = {
 				speed = 0.05,

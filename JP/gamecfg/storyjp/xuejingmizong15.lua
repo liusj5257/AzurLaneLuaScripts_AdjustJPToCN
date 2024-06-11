@@ -4,21 +4,21 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			asideType = 1,
+			mode = 1,
 			bgm = "theme-merkuriameta",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -56,8 +56,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -73,23 +73,23 @@ return {
 			}
 		},
 		{
-			bgmDelay = 2,
-			stopbgm = true,
-			asideType = 3,
-			mode = 1,
 			blackBg = true,
+			stopbgm = true,
+			bgmDelay = 2,
+			mode = 1,
+			asideType = 3,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -119,25 +119,25 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "star_level_bg_541",
 			dir = 1,
+			bgName = "star_level_bg_541",
 			bgm = "story-commander-up",
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官、審判廷から「北方連合艦隊が南極科学ステーションに到着した」との連絡が入ったわ！",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -206,10 +206,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "クレマンソー曰く、「只事じゃないから、何者かがジャミングを仕掛けた」と…",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "わかったわ",
 			painting = {
 				alpha = 0.3,
@@ -275,28 +275,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_chongdong",
+			bgm = "theme-starsea-core",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "？？？·？？？",
-			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			say = "目を閉じ、「META」の秘密回線を開いた。",
@@ -342,10 +342,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "指揮官？…頑張ってるみたいね",
 			painting = {
 				alpha = 0.3,
@@ -381,12 +381,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "……南極大陸と外部の通信が途絶えた？",
 			painting = {
 				alpha = 0.3,
@@ -413,10 +413,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "ううん。これはオブザーバーじゃないわ",
 			painting = {
 				alpha = 0.3,
@@ -431,10 +431,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "なんとかするから、ちょっと待ってて",
 			painting = {
 				alpha = 0.3,
@@ -461,10 +461,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "すぐに分かるわ",
 			painting = {
 				alpha = 0.3,
@@ -491,10 +491,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "…誰なのかも知ってるし、何をしようとしているかも分かってるわ",
 			painting = {
 				alpha = 0.3,
@@ -509,10 +509,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "でも……",
 			painting = {
 				alpha = 0.3,
@@ -539,10 +539,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "うん。ごめんなさい",
 			painting = {
 				alpha = 0.3,
@@ -590,12 +590,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "……ほかに何か聞きたいこととかはないの？",
 			painting = {
 				alpha = 0.3,
@@ -610,10 +610,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "ほら、サラトガちゃんはレキシントンを思って突っ走ったでしょ？",
 			painting = {
 				alpha = 0.3,
@@ -640,10 +640,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "指揮官はレキシントンを助けたくはないの？",
 			painting = {
 				alpha = 0.3,
@@ -682,10 +682,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "……分かったわ",
 			painting = {
 				alpha = 0.3,
@@ -697,12 +697,12 @@ return {
 			}
 		},
 		{
-			actor = 9702010,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9702010,
 			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "南極大陸戦術モニタリングインターフェイス、起動。戦場指揮システム構築、接続完了",
 			painting = {
 				alpha = 0.3,
@@ -717,10 +717,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
 			actor = 9702010,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
 			say = "指揮官、起きて",
 			painting = {
 				alpha = 0.3,
@@ -732,29 +732,29 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "――これでなんとか事態を改善できそうだ",
+			side = 2,
 			bgm = "story-commander-up",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "――これでなんとか事態を改善できそうだ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = false,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -774,28 +774,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――ヘレナ、メンフィス、南極大陸エリアの戦場指揮システムの接続が確認できるか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -818,10 +818,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うん、情報が届いたわ！",
 			painting = {
 				alpha = 0.3,
@@ -893,10 +893,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（小声）指揮官、これってもしかして…「ヘレナ」たちが助けてくれたの？",
 			painting = {
 				alpha = 0.3,
@@ -935,10 +935,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "すぐに指揮官のモニターにフィードバックするわ",
 			painting = {
 				alpha = 0.3,
@@ -972,10 +972,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ユニオン艦隊は…サラトガちゃんたちが「メルトエリア」に今向かっているわ",
 			painting = {
 				alpha = 0.3,
@@ -1009,10 +1009,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ロイヤル艦隊は周辺海域にもう入っていて、これから上陸するのかも",
 			painting = {
 				alpha = 0.3,
@@ -1046,10 +1046,10 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_541",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "それと、鉄血の南極要塞から一度「未知の敵と遭遇」との連絡を発信していたようね。もしかして関係があるかも？",
 			painting = {
 				alpha = 0.3,

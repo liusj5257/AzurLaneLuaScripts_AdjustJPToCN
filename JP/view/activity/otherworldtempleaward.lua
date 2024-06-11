@@ -6,7 +6,7 @@ slot5 = {
 	"other_world_temple_award_title_3"
 }
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1
 	slot0._event = slot2
 
@@ -25,16 +25,16 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0._awardContent = findTF(slot0._tf, "ad/awards/content")
 end
 
-function slot0.setData(slot0, slot1, slot2)
+slot0.setData = function(slot0, slot1, slot2)
 	slot0.templeIds = slot1
 	slot0.shopDatasList = slot2
 end
 
-function slot0.updateActivityPool(slot0, slot1)
+slot0.updateActivityPool = function(slot0, slot1)
 	slot0.activityPools = slot1
 end
 
-function slot0.updateSelect(slot0, slot1)
+slot0.updateSelect = function(slot0, slot1)
 	slot0:updateItemsCount(#slot0.shopDatasList[slot1])
 
 	slot0.selectPool = slot0.activityPools[slot0.templeIds[slot1]]
@@ -51,7 +51,7 @@ function slot0.updateSelect(slot0, slot1)
 	setText(findTF(slot0._tf, "ad/title/text"), i18n(uv0[slot1]))
 end
 
-function slot0.setItemData(slot0, slot1, slot2)
+slot0.setItemData = function(slot0, slot1, slot2)
 	slot4 = slot2.count
 	slot7 = slot4 - (slot0.selectPool.awards[slot2.id] or 0)
 	slot8 = pg.activity_random_award_item[slot3]
@@ -70,7 +70,7 @@ function slot0.setItemData(slot0, slot1, slot2)
 	setActive(findTF(slot1, "ad/soldOut"), slot7 == 0)
 end
 
-function slot0.updateItemsCount(slot0, slot1)
+slot0.updateItemsCount = function(slot0, slot1)
 	slot2 = 0
 
 	if slot1 > #slot0._awardItems then
@@ -85,7 +85,7 @@ function slot0.updateItemsCount(slot0, slot1)
 	end
 end
 
-function slot0.setActive(slot0, slot1)
+slot0.setActive = function(slot0, slot1)
 	setActive(slot0._tf, slot1)
 end
 

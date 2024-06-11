@@ -1,11 +1,11 @@
 slot0 = class("CommanderCatPlayAnimation")
 slot1 = 0.3
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.expSlider = slot1
 end
 
-function slot0.Action(slot0, slot1, slot2, slot3)
+slot0.Action = function(slot0, slot1, slot2, slot3)
 	if slot2.level - slot1.level > 0 then
 		slot0:DoLevelOffsetAnimation(slot1, slot2, slot3)
 	else
@@ -13,7 +13,7 @@ function slot0.Action(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.DoLevelOffsetAnimation(slot0, slot1, slot2, slot3)
+slot0.DoLevelOffsetAnimation = function(slot0, slot1, slot2, slot3)
 	table.insert({}, function (slot0)
 		slot1 = uv0
 
@@ -41,7 +41,7 @@ function slot0.DoLevelOffsetAnimation(slot0, slot1, slot2, slot3)
 	seriesAsync(slot5, slot3)
 end
 
-function slot0.DoSameLevelAnimation(slot0, slot1, slot2, slot3)
+slot0.DoSameLevelAnimation = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:getNextLevelExp()
 
 	TweenValue(go(slot0.expSlider), slot1.exp, slot2.exp, uv0, 0, function (slot0)
@@ -49,7 +49,7 @@ function slot0.DoSameLevelAnimation(slot0, slot1, slot2, slot3)
 	end, slot3)
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	if LeanTween.isTweening(slot0.expSlider.gameObject) then
 		LeanTween.cancel(slot0.expSlider.gameObject)
 	end

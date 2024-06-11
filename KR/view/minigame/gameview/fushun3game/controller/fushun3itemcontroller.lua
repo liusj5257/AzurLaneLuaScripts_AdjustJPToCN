@@ -2,7 +2,7 @@ slot0 = class("Fushun3ItemController")
 slot1 = 3
 slot2 = 100
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._sceneTf = slot1
 	slot0._charTf = slot2
 	slot0._itemTpls = slot3
@@ -27,11 +27,11 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.setCallback(slot0, slot1)
+slot0.setCallback = function(slot0, slot1)
 	slot0._callback = slot1
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	for slot4 = #slot0.items, 1, -1 do
 		slot0:returnItemToPool(table.remove(slot0.items, slot4))
 	end
@@ -41,7 +41,7 @@ function slot0.start(slot0)
 	slot0.itemTime = uv0
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	slot0:removeOutItems()
 
 	slot1 = slot0._charCollider.bounds
@@ -97,7 +97,7 @@ function slot0.step(slot0)
 	end
 end
 
-function slot0.removeItem(slot0, slot1)
+slot0.removeItem = function(slot0, slot1)
 	for slot5 = #slot0.items, 1, -1 do
 		if slot1 == slot0.items[slot5] then
 			slot0:returnItemToPool(table.remove(slot0.items, slot5))
@@ -107,7 +107,7 @@ function slot0.removeItem(slot0, slot1)
 	end
 end
 
-function slot0.createPlatformItem(slot0, slot1, slot2)
+slot0.createPlatformItem = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot0:getWeightItemsMap() then
@@ -134,7 +134,7 @@ function slot0.createPlatformItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.createItemById(slot0, slot1, slot2)
+slot0.createItemById = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	for slot7 = 1, #Fushun3GameConst.item_data do
@@ -152,7 +152,7 @@ function slot0.createItemById(slot0, slot1, slot2)
 	end
 end
 
-function slot0.createItem(slot0, slot1, slot2)
+slot0.createItem = function(slot0, slot1, slot2)
 	if slot0:getOrCreateItem(slot1) then
 		slot3.tf.position = slot2
 
@@ -161,7 +161,7 @@ function slot0.createItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.itemFollow(slot0, slot1)
+slot0.itemFollow = function(slot0, slot1)
 	for slot5 = 1, #slot0.items do
 		if (slot0.items[slot5].data.type == Fushun3GameConst.item_type_buff or slot6.data.type == Fushun3GameConst.item_type_score) and math.abs(slot1.x - slot6.tf.anchoredPosition.x) <= 600 and math.abs(slot1.y - slot7.y) <= 700 then
 			slot9 = 2000 * Time.deltaTime * math.sign(slot1.x - slot7.x)
@@ -178,7 +178,7 @@ function slot0.itemFollow(slot0, slot1)
 	end
 end
 
-function slot0.getOrCreateItem(slot0, slot1)
+slot0.getOrCreateItem = function(slot0, slot1)
 	for slot5 = 1, #slot0.itemPools do
 		if slot0.itemPools[slot5].data.name == slot1 then
 			return table.remove(slot0.itemPools, slot5)
@@ -201,7 +201,7 @@ function slot0.getOrCreateItem(slot0, slot1)
 	end
 end
 
-function slot0.getWeightItemsMap(slot0)
+slot0.getWeightItemsMap = function(slot0)
 	if slot0.itemTime > 0 then
 		if math.random(1, slot0.itemTime) == slot0.itemTime then
 			slot0.itemTime = uv0
@@ -233,7 +233,7 @@ function slot0.getWeightItemsMap(slot0)
 	return nil
 end
 
-function slot0.removeOutItems(slot0)
+slot0.removeOutItems = function(slot0)
 	for slot4 = #slot0.items, 1, -1 do
 		slot6 = slot0.items[slot4].data
 
@@ -247,7 +247,7 @@ function slot0.removeOutItems(slot0)
 	end
 end
 
-function slot0.returnItemToPool(slot0, slot1)
+slot0.returnItemToPool = function(slot0, slot1)
 	setActive(slot1.tf, false)
 	table.insert(slot0.itemPools, slot1)
 end

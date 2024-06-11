@@ -26,7 +26,7 @@ slot7 = 0.75
 slot8 = 5
 slot9 = "he"
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.maskNode = slot0:findTF("mask", slot0.bg)
@@ -45,7 +45,7 @@ function slot0.OnInit(slot0)
 	slot0.coutinuePlay = {}
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	setActive(slot0.window, false)
 	onButton(slot0, slot0.monster, function ()
@@ -99,7 +99,7 @@ function slot0.OnFirstFlush(slot0)
 	slot0:UpdateMonster()
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	uv0.super.OnUpdateFlush(slot0)
 
 	slot1, slot2, slot3 = slot0.ptData:GetLevelProgress()
@@ -116,7 +116,7 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.IsSpecialPhase(slot0)
+slot0.IsSpecialPhase = function(slot0)
 	slot1 = slot0.ptData:GetLevelProgress()
 	slot2 = false
 
@@ -129,7 +129,7 @@ function slot0.IsSpecialPhase(slot0)
 	return slot2
 end
 
-function slot0.GetMonsterScale(slot0, slot1)
+slot0.GetMonsterScale = function(slot0, slot1)
 	slot2 = 1
 
 	for slot6, slot7 in ipairs(uv0) do
@@ -141,14 +141,14 @@ function slot0.GetMonsterScale(slot0, slot1)
 	return slot2
 end
 
-function slot0.UpdateMonster(slot0)
+slot0.UpdateMonster = function(slot0)
 	slot2 = slot0:GetMonsterScale(slot0.ptData:GetLevelProgress())
 
 	setLocalScale(slot0.monster, Vector2(slot2, slot2))
 	setLocalScale(slot0.monsterReflect, Vector2(slot2, slot2))
 end
 
-function slot0.PlayFeedAni(slot0)
+slot0.PlayFeedAni = function(slot0)
 	if slot0.isPlaying then
 		table.insert(slot0.coutinuePlay, slot0.ptData:GetLevelProgress() - 1)
 
@@ -164,7 +164,7 @@ function slot0.PlayFeedAni(slot0)
 	end, slot0.role, slot0.role.localPosition.x + uv0, uv1):setLoopPingPong(1)
 end
 
-function slot0.PlayThrowFoodAni(slot0, slot1)
+slot0.PlayThrowFoodAni = function(slot0, slot1)
 	slot2 = Vector2(280, -70)
 	slot3 = Vector2(500, -70)
 	slot4 = 1
@@ -192,7 +192,7 @@ function slot0.PlayThrowFoodAni(slot0, slot1)
 	slot0.foodTimer:Start()
 end
 
-function slot0.PlayMonsterAni(slot0)
+slot0.PlayMonsterAni = function(slot0)
 	slot1 = slot0.monster.localScale.x
 	slot4 = 1
 	slot5 = (slot0:GetMonsterScale(slot0.coutinuePlay[1] and slot0.coutinuePlay[1] or slot0.ptData:GetLevelProgress()) - slot1) / uv0
@@ -228,7 +228,7 @@ function slot0.PlayMonsterAni(slot0)
 	end, slot0.monster, slot0.monster.localPosition.x + uv4, uv3):setLoopPingPong(2)
 end
 
-function slot0.OpenMonsterWin(slot0)
+slot0.OpenMonsterWin = function(slot0)
 	setActive(slot0.window, true)
 	slot0.monsterAni:Play("ATK")
 	setLocalPosition(slot0.spriteRole, Vector2(-180, -115))
@@ -240,11 +240,11 @@ function slot0.OpenMonsterWin(slot0)
 	slot0:managedTween(LeanTween.moveX, nil, slot0.spriteRole, slot0.spriteRole.localPosition.x + 20, 0.8):setLoopPingPong()
 end
 
-function slot0.OnHideFlush(slot0)
+slot0.OnHideFlush = function(slot0)
 	setActive(slot0.window, false)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:cleanManagedTween()
 
 	if slot0.foodTimer then

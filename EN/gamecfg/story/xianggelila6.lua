@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Saffron Travelogue\n\n<size=45>The Ace Up Her Sleeve</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Day of the mock battle, at the Exercise Area...",
 			side = 2,
 			bgName = "bg_story_nepu1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "level",
+			say = "Day of the mock battle, at the Exercise Area...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -110,11 +110,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "Hahah! They sure sound fired up!",
 			typewriter = {
 				speed = 0.05,
@@ -126,8 +126,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -171,8 +171,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "I'm quite surprised by how many people came here to spectate...",
 			typewriter = {
@@ -185,11 +185,11 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
+			actor = 107070,
+			nameColor = "#a9f548",
 			say = "Heheh, yeah. By the way, just so you know: mock battle or not, I'm not gonna go easy on you!",
 			typewriter = {
 				speed = 0.05,
@@ -201,8 +201,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -214,8 +214,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "Neither will I. Now, if you're ready, let us begin!",
 			typewriter = {
@@ -228,13 +228,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_nepu1",
+			side = 2,
+			dir = 1,
 			say = "The two were evenly matched and the battle could go either way.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -259,13 +259,13 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Give 'em hell, planes!",
 			soundeffect = "event:/battle/plane",
+			actor = 107070,
+			nameColor = "#a9f548",
+			say = "Give 'em hell, planes!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,8 +279,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			say = "There's a 90% probability that's a feint... I won't fall for that!",
 			typewriter = {
@@ -293,13 +293,13 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Tsk! Then how about THIS!",
 			soundeffect = "event:/battle/plane",
+			actor = 107070,
+			nameColor = "#a9f548",
+			say = "Tsk! Then how about THIS!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			nameColor = "#a9f548",
-			bgName = "bg_story_nepu1",
 			side = 2,
+			bgName = "bg_story_nepu1",
 			dir = 1,
+			actor = 107380,
 			say = "I expected you'd try that!",
 			flashN = {
 				color = {
@@ -406,17 +406,17 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			say = "Shangri-La will forever be out of reach if this is the best you can do!",
 			side = 2,
+			dir = 1,
 			bgName = "bg_story_nepu1",
 			soundeffect = "event:/battle/plane",
-			dir = 1,
+			actor = 107380,
 			nameColor = "#a9f548",
 			seDelay = 1,
-			say = "Shangri-La will forever be out of reach if this is the best you can do!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -441,13 +441,13 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "Heh, really? I beg to differ! Poke the hornets' nest and you end up with an angry swarm above your head!",
 			soundeffect = "event:/battle/plane",
+			actor = 107070,
+			nameColor = "#a9f548",
+			say = "Heh, really? I beg to differ! Poke the hornets' nest and you end up with an angry swarm above your head!",
 			effects = {
 				{
 					active = true,
@@ -464,8 +464,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -474,11 +474,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#a9f548",
 			say = "Wha–?! She's launched every bomber at her disposal?!",
 			effects = {
 				{
@@ -496,11 +496,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			dir = 1,
 			say = "The surrounding area became enveloped in the white smoke of the dummy shells.",
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -575,12 +575,12 @@ return {
 			}
 		},
 		{
-			actor = 107090,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107090,
+			nameColor = "#a9f548",
 			say = "So... it's a draw...",
 			typewriter = {
 				speed = 0.05,

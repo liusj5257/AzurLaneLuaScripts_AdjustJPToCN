@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "为了确保指挥官有足够的实力进入大型作战，需要进行战前测试。派遣一支舰队与大黄蜂进行战斗。",
 			typewriter = {
 				speed = 0.05,

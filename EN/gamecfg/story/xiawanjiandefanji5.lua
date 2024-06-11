@@ -1,17 +1,17 @@
 return {
-	id = "XIAWANJIANDEFANJI5",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 201110,
 			side = 1,
-			nameColor = "#a9f548",
-			say = "I'm back, Warspite.",
 			dir = 1,
 			bgm = "level02",
+			actor = 201110,
+			nameColor = "#a9f548",
+			say = "I'm back, Warspite.",
 			flashin = {
 				delay = 1,
 				dur = 1,

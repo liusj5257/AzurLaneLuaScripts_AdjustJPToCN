@@ -6,11 +6,11 @@ slot1 = {
 	-1230
 }
 
-function slot0.GetAssetPath(slot0)
+slot0.GetAssetPath = function(slot0)
 	return "furnitrues/base/road_" .. slot0.level
 end
 
-function slot0.OnLoaded(slot0, slot1)
+slot0.OnLoaded = function(slot0, slot1)
 	setAnchoredPosition(slot1, Vector3(0, uv0[slot0.level], 0))
 
 	if slot0.level ~= 4 then

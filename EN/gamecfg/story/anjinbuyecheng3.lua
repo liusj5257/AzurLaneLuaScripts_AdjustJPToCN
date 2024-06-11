@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackBg = true,
 			say = "Prison - Underground Garage",
@@ -25,19 +25,19 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
-			say = "The elevator door slowly opens.",
 			bgm = "story-antarctica-serious",
+			say = "The elevator door slowly opens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "I follow phantom thief Miss Terious into an underground garage beneath the prison.",
 			typewriter = {
@@ -136,8 +136,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			nameColor = "#FF9B93",
 			blackBg = true,
 			say = "Is that so?",
@@ -147,8 +147,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			nameColor = "#FF9B93",
 			blackBg = true,
 			say = "I thought you'd show us some more interesting tricks. How disappointing.",
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			nameColor = "#FF9B93",
 			blackBg = true,
 			say = "Allen M. Sumner... Or should I say Miss Terious?!",
@@ -225,8 +225,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "Monarch – the city's police inspector – turns her eyes toward me.",
 			typewriter = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 299023,
 			side = 2,
 			bgName = "star_level_bg_543",
 			factiontag = "City Inspector",
 			dir = 1,
+			actor = 299023,
 			nameColor = "#FF9B93",
 			say = "...Ahem. Sorry, but just go with it for now.",
 			painting = {
@@ -330,8 +330,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "Monarch raises a hand and snaps.",
 			typewriter = {
@@ -340,8 +340,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "When she does, the garage's emergency exit is kicked down.",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
-			say = "Sudden gunfire interrupted the tense confrontation.",
 			soundeffect = "event:/ui/kaiqiang",
+			say = "Sudden gunfire interrupted the tense confrontation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,8 +478,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "The source of it is Svirepy's rather antique machine gun, and it has more than enough firepower to make Monarch and Ognevoy take cover.",
 			typewriter = {
@@ -488,12 +488,12 @@ return {
 			}
 		},
 		{
-			actor = 701121,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_543",
-			hidePaintObj = true,
-			actorName = "Artist",
 			side = 2,
+			bgName = "star_level_bg_543",
+			actor = 701121,
+			actorName = "Artist",
+			hidePaintObj = true,
 			say = "Hahahaha! Fight me, assholes!",
 			typewriter = {
 				speed = 0.05,
@@ -501,8 +501,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -511,8 +511,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "Thanks to her merciless fire, the tables turn back in favor of the phantom thief and her companion.",
 			typewriter = {
@@ -562,10 +562,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_543",
-			hidePaintObj = true,
+			nameColor = "#A9F548FF",
 			actor = 701121,
 			actorName = "Artist",
-			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Gotcha!",
 			typewriter = {
 				speed = 0.05,
@@ -586,8 +586,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "A manhole cover at my feet opens up, and Svirepy jumps right inside.",
 			typewriter = {
@@ -596,8 +596,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "It would be easy to follow her, but I have reasons not to, as well.",
 			typewriter = {
@@ -669,8 +669,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "I look over to the pillar and see that Ognevoy is, indeed, assembling that same ridiculous weapon she'd fired at the helicopter.",
 			typewriter = {
@@ -697,8 +697,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "I thought I'd made up my mind, but before jumping in, I turn to look at Monarch and Ognevoy again.",
 			typewriter = {
@@ -707,8 +707,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "My eyes meet those of my former friend, the police inspector.",
 			typewriter = {
@@ -753,11 +753,11 @@ return {
 			}
 		},
 		{
-			actor = 701111,
 			side = 2,
 			bgName = "star_level_bg_543",
 			factiontag = "Security Assault Team Member",
 			dir = 1,
+			actor = 701111,
 			nameColor = "#FF9B93",
 			say = "Full poweeeer!",
 			painting = {
@@ -770,8 +770,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -780,8 +780,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "Somebody closes the manhole cover, and before long, I hear nothing but an explosion.",
 			typewriter = {
@@ -790,8 +790,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			say = "In the dark silence, that phantom's voice comes to me again.",
 			typewriter = {
@@ -817,17 +817,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -861,10 +861,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 9702070,
 			factiontag = "Illusion",
 			dir = 1,
 			blackBg = true,
+			actor = 9702070,
 			nameColor = "#A9F548FF",
 			say = "Go to the Manjuu Tower...",
 			painting = {
@@ -876,17 +876,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -894,8 +894,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = ".........",
 			typewriter = {
@@ -904,8 +904,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			blackBg = true,
 			say = "......",
 			typewriter = {

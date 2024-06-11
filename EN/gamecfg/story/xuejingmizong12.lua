@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_115",
+			bgm = "theme-merkuriameta",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The elevator's descent slowed, gently stopping at the correct floor.",
-			bgm = "theme-merkuriameta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "That isn't to say they had reached the data center, only that they had reached a short hallway connecting to the next elevator.",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "The only thing setting this cold, boring corridor apart from all others they had seen was the numbers painted on the wall.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "They expected more of the same beyond the next door. They were wrong.",
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "This time, something was different.",
@@ -77,12 +77,12 @@ return {
 			}
 		},
 		{
-			actor = 701110,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701110,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Huh? This is new. This corridor is furnished with pretty wallpaper.",
 			painting = {
 				alpha = 0.3,
@@ -94,8 +94,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -107,10 +107,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And there's a nice carpet, a chandelier, even expensive furniture...",
 			painting = {
 				alpha = 0.3,
@@ -122,12 +122,12 @@ return {
 			}
 		},
 		{
-			actor = 705080,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Interesting. This must be where they keep their best stuff.",
 			painting = {
 				alpha = 0.3,
@@ -142,10 +142,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Soyuz, does this bunker have an art storage area? For preserving important works of art, I mean.",
 			painting = {
 				alpha = 0.3,
@@ -157,12 +157,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's... not a stretch to say it has something similar to that.",
 			painting = {
 				alpha = 0.3,
@@ -177,10 +177,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But it isn't this place, and the art certainly wouldn't be out on display.",
 			painting = {
 				alpha = 0.3,
@@ -195,10 +195,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The art could have been relocated, but if it was, this isn't where it would all go.",
 			painting = {
 				alpha = 0.3,
@@ -210,8 +210,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "The shipgirls looked down the long corridor and saw a few paintings adorning the walls. It was almost like an art gallery.",
@@ -224,10 +224,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "What do we do, Soyuz? I don't see any other way forward.",
 			painting = {
 				alpha = 0.3,
@@ -242,10 +242,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "While we're at it, we might as well check out the paintings on display, right?",
 			painting = {
 				alpha = 0.3,
@@ -260,10 +260,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I don't see why not. Let's look at them briefly.",
 			painting = {
 				alpha = 0.3,
@@ -278,10 +278,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(The furniture lining the hallway looks quite old. They must be antiques from the Imperiya era, before the Northern Parliament's inception.)",
 			painting = {
 				alpha = 0.3,
@@ -296,10 +296,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(I don't recognize these paintings, though. They seem valuable, but I have no idea when or where they're from.)",
 			painting = {
 				alpha = 0.3,
@@ -311,12 +311,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(Did the intruder put them here? Did they want to show us something?)",
 			painting = {
 				alpha = 0.3,
@@ -328,12 +328,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(Let's play along, I suppose. Perhaps these paintings will give us an insight into the intruder's character.)",
 			painting = {
 				alpha = 0.3,
@@ -348,10 +348,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Right. Follow me.",
 			painting = {
 				alpha = 0.3,
@@ -363,27 +363,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_115",
 			say = "Soyuz's team walked down the corridor-turned-art gallery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -391,8 +391,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			recallOption = true,
@@ -421,8 +421,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -434,8 +434,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -466,13 +466,13 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I think it's a painting from the Imperiya period.",
 			painting = {
 				alpha = 0.3,
@@ -503,8 +503,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -516,8 +516,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -548,8 +548,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -615,8 +615,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -628,8 +628,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -660,8 +660,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -673,8 +673,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -724,27 +724,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_115",
 			say = "The girls continued down the ornate corridor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -752,8 +752,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			recallOption = true,
@@ -782,8 +782,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -795,8 +795,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -827,13 +827,13 @@ return {
 			}
 		},
 		{
-			actor = 705080,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 705080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Yeah. Many years ago, there used to be frequent shortages because our shipping lanes were closed. Things are much better now that they've reopened.",
 			painting = {
 				alpha = 0.3,
@@ -864,8 +864,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -877,8 +877,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -947,8 +947,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -960,8 +960,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1011,8 +1011,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1024,8 +1024,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1094,27 +1094,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_115",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_115",
 			say = "The group went even further down the art gallery.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1122,8 +1122,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			recallOption = true,
@@ -1152,8 +1152,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1165,8 +1165,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1178,8 +1178,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1191,8 +1191,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1204,8 +1204,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1217,8 +1217,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1230,8 +1230,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1243,8 +1243,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1256,8 +1256,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1269,8 +1269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1282,8 +1282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1295,8 +1295,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1308,8 +1308,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Exhibition Label",
+			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -1323,11 +1323,11 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_115",
 			actor = 705080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The label is on the money. This sure looks like a utopia.",
 			painting = {
 				alpha = 0.3,
@@ -1338,17 +1338,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -1359,10 +1359,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "A utopia is our goal, too! It's what we're all working toward!",
 			painting = {
 				alpha = 0.3,
@@ -1377,10 +1377,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 701120,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well... Yeah, but doin' that and makin' peace with the Sirens are kinda mutually exclusive.",
 			painting = {
 				alpha = 0.3,
@@ -1395,10 +1395,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Soyuz, what do you think about all these paintings?",
 			painting = {
 				alpha = 0.3,
@@ -1410,12 +1410,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I can appreciate the author's ideas. It's not strange why someone would want to preserve these works of art.",
 			painting = {
 				alpha = 0.3,
@@ -1430,10 +1430,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "As for the subjects themselves, some of them warrant caution whilst some others are plainly absurd.",
 			painting = {
 				alpha = 0.3,
@@ -1445,12 +1445,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Art is art, so I don't think my personal opinion of them matters much.",
 			painting = {
 				alpha = 0.3,
@@ -1465,10 +1465,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Uh-huh. And beyond that?",
 			painting = {
 				alpha = 0.3,
@@ -1483,10 +1483,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Beyond that?",
 			painting = {
 				alpha = 0.3,
@@ -1498,12 +1498,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "If you're asking me about the author, then frankly, I can't make any kind of guess as to who that might be.",
 			painting = {
 				alpha = 0.3,
@@ -1518,10 +1518,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "More precisely, I don't have enough information to work with.",
 			painting = {
 				alpha = 0.3,
@@ -1533,12 +1533,12 @@ return {
 			}
 		},
 		{
-			actor = 705020,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I think we've spent long enough here. Let's head to the data center.",
 			painting = {
 				alpha = 0.3,
@@ -1553,10 +1553,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Wait, Soyuz–",
 			painting = {
 				alpha = 0.3,
@@ -1571,10 +1571,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...Hmph. Fine! Let's go!",
 			painting = {
 				alpha = 0.3,

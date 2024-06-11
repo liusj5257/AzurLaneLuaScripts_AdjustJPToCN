@@ -1,9 +1,9 @@
 pg = pg or {}
 pg.honormedal_goods_list = {
 	{
-		price = 2,
+		goods_rarity = 1,
 		goods_purchase_limit = 30,
-		goods_icon = "Props/54011",
+		price = 2,
 		type = 2,
 		group = 10000,
 		num = 10,
@@ -11,7 +11,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 1,
 		is_ship = 0,
-		goods_rarity = 1,
+		goods_icon = "Props/54011",
 		order = 31,
 		goods = {
 			17001,
@@ -22,9 +22,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 2,
 		goods_purchase_limit = 5,
-		goods_icon = "Props/17002",
+		price = 30,
 		type = 2,
 		group = 10001,
 		num = 10,
@@ -32,16 +32,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 2,
 		is_ship = 0,
-		goods_rarity = 2,
+		goods_icon = "Props/17002",
 		order = 30,
 		goods = {
 			17002
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 2,
 		goods_purchase_limit = 5,
-		goods_icon = "Props/17012",
+		price = 30,
 		type = 2,
 		group = 10002,
 		num = 10,
@@ -49,16 +49,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 3,
 		is_ship = 0,
-		goods_rarity = 2,
+		goods_icon = "Props/17012",
 		order = 26,
 		goods = {
 			17012
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 2,
 		goods_purchase_limit = 5,
-		goods_icon = "Props/17022",
+		price = 30,
 		type = 2,
 		group = 10003,
 		num = 10,
@@ -66,16 +66,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 4,
 		is_ship = 0,
-		goods_rarity = 2,
+		goods_icon = "Props/17022",
 		order = 27,
 		goods = {
 			17022
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 2,
 		goods_purchase_limit = 5,
-		goods_icon = "Props/17032",
+		price = 30,
 		type = 2,
 		group = 10004,
 		num = 10,
@@ -83,16 +83,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 5,
 		is_ship = 0,
-		goods_rarity = 2,
+		goods_icon = "Props/17032",
 		order = 28,
 		goods = {
 			17032
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 2,
 		goods_purchase_limit = 5,
-		goods_icon = "Props/17042",
+		price = 30,
 		type = 2,
 		group = 10005,
 		num = 10,
@@ -100,16 +100,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 6,
 		is_ship = 0,
-		goods_rarity = 2,
+		goods_icon = "Props/17042",
 		order = 29,
 		goods = {
 			17042
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 2,
 		goods_purchase_limit = 5,
-		goods_icon = "Props/54012",
+		price = 30,
 		type = 2,
 		group = 10006,
 		num = 10,
@@ -117,7 +117,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 7,
 		is_ship = 0,
-		goods_rarity = 2,
+		goods_icon = "Props/54012",
 		order = 25,
 		goods = {
 			17002,
@@ -128,9 +128,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 3,
 		goods_purchase_limit = 4,
-		goods_icon = "Props/17003",
+		price = 30,
 		type = 2,
 		group = 10007,
 		num = 5,
@@ -138,16 +138,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 8,
 		is_ship = 0,
-		goods_rarity = 3,
+		goods_icon = "Props/17003",
 		order = 24,
 		goods = {
 			17003
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 3,
 		goods_purchase_limit = 4,
-		goods_icon = "Props/17013",
+		price = 30,
 		type = 2,
 		group = 10008,
 		num = 5,
@@ -155,16 +155,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 9,
 		is_ship = 0,
-		goods_rarity = 3,
+		goods_icon = "Props/17013",
 		order = 20,
 		goods = {
 			17013
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 3,
 		goods_purchase_limit = 4,
-		goods_icon = "Props/17023",
+		price = 30,
 		type = 2,
 		group = 10009,
 		num = 5,
@@ -172,16 +172,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 10,
 		is_ship = 0,
-		goods_rarity = 3,
+		goods_icon = "Props/17023",
 		order = 21,
 		goods = {
 			17023
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 3,
 		goods_purchase_limit = 4,
-		goods_icon = "Props/17033",
+		price = 30,
 		type = 2,
 		group = 10010,
 		num = 5,
@@ -189,16 +189,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 11,
 		is_ship = 0,
-		goods_rarity = 3,
+		goods_icon = "Props/17033",
 		order = 22,
 		goods = {
 			17033
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 3,
 		goods_purchase_limit = 4,
-		goods_icon = "Props/17043",
+		price = 30,
 		type = 2,
 		group = 10011,
 		num = 5,
@@ -206,16 +206,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 12,
 		is_ship = 0,
-		goods_rarity = 3,
+		goods_icon = "Props/17043",
 		order = 23,
 		goods = {
 			17043
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 3,
 		goods_purchase_limit = 5,
-		goods_icon = "Props/54013",
+		price = 30,
 		type = 2,
 		group = 10012,
 		num = 5,
@@ -223,7 +223,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 13,
 		is_ship = 0,
-		goods_rarity = 3,
+		goods_icon = "Props/54013",
 		order = 19,
 		goods = {
 			17003,
@@ -234,9 +234,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 2,
 		goods_purchase_limit = 24,
-		goods_icon = "Props/54031",
+		price = 30,
 		type = 2,
 		group = 10013,
 		num = 1,
@@ -244,7 +244,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 14,
 		is_ship = 0,
-		goods_rarity = 2,
+		goods_icon = "Props/54031",
 		order = 17,
 		goods = {
 			18001,
@@ -254,9 +254,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 60,
+		goods_rarity = 3,
 		goods_purchase_limit = 12,
-		goods_icon = "Props/54032",
+		price = 60,
 		type = 2,
 		group = 10014,
 		num = 1,
@@ -264,7 +264,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 15,
 		is_ship = 0,
-		goods_rarity = 3,
+		goods_icon = "Props/54032",
 		order = 16,
 		goods = {
 			18002,
@@ -274,9 +274,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 100,
+		goods_rarity = 4,
 		goods_purchase_limit = 4,
-		goods_icon = "Props/54033",
+		price = 100,
 		type = 2,
 		group = 10015,
 		num = 1,
@@ -284,7 +284,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 16,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/54033",
 		order = 15,
 		goods = {
 			18003,
@@ -294,9 +294,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 6,
+		goods_rarity = 3,
 		goods_purchase_limit = 6,
-		goods_icon = "Props/16002",
+		price = 6,
 		type = 2,
 		group = 10016,
 		num = 1,
@@ -304,16 +304,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 17,
 		is_ship = 0,
-		goods_rarity = 3,
+		goods_icon = "Props/16002",
 		order = 12,
 		goods = {
 			16002
 		}
 	},
 	{
-		price = 6,
+		goods_rarity = 3,
 		goods_purchase_limit = 6,
-		goods_icon = "Props/16012",
+		price = 6,
 		type = 2,
 		group = 10017,
 		num = 1,
@@ -321,16 +321,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 18,
 		is_ship = 0,
-		goods_rarity = 3,
+		goods_icon = "Props/16012",
 		order = 13,
 		goods = {
 			16012
 		}
 	},
 	{
-		price = 6,
+		goods_rarity = 3,
 		goods_purchase_limit = 6,
-		goods_icon = "Props/16022",
+		price = 6,
 		type = 2,
 		group = 10018,
 		num = 1,
@@ -338,16 +338,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 19,
 		is_ship = 0,
-		goods_rarity = 3,
+		goods_icon = "Props/16022",
 		order = 14,
 		goods = {
 			16022
 		}
 	},
 	{
-		price = 6,
+		goods_rarity = 4,
 		goods_purchase_limit = 2,
-		goods_icon = "Props/16003",
+		price = 6,
 		type = 2,
 		group = 10019,
 		num = 1,
@@ -355,16 +355,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 20,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/16003",
 		order = 9,
 		goods = {
 			16003
 		}
 	},
 	{
-		price = 6,
+		goods_rarity = 4,
 		goods_purchase_limit = 2,
-		goods_icon = "Props/16013",
+		price = 6,
 		type = 2,
 		group = 10020,
 		num = 1,
@@ -372,16 +372,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 21,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/16013",
 		order = 10,
 		goods = {
 			16013
 		}
 	},
 	{
-		price = 6,
+		goods_rarity = 4,
 		goods_purchase_limit = 2,
-		goods_icon = "Props/16023",
+		price = 6,
 		type = 2,
 		group = 10021,
 		num = 1,
@@ -389,16 +389,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 22,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/16023",
 		order = 11,
 		goods = {
 			16023
 		}
 	},
 	{
-		price = 20,
+		goods_rarity = 4,
 		goods_purchase_limit = 15,
-		goods_icon = "Props/42030",
+		price = 20,
 		type = 2,
 		group = 10022,
 		num = 1,
@@ -406,16 +406,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 23,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/42030",
 		order = 6,
 		goods = {
 			42030
 		}
 	},
 	{
-		price = 20,
+		goods_rarity = 5,
 		goods_purchase_limit = 5,
-		goods_icon = "Props/42036",
+		price = 20,
 		type = 2,
 		group = 10023,
 		num = 1,
@@ -423,16 +423,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 24,
 		is_ship = 0,
-		goods_rarity = 5,
+		goods_icon = "Props/42036",
 		order = 5,
 		goods = {
 			42036
 		}
 	},
 	{
-		price = 6,
+		goods_rarity = 3,
 		goods_purchase_limit = 24,
-		goods_icon = "Props/huangjialiaoli",
+		price = 6,
 		type = 2,
 		group = 10024,
 		num = 1,
@@ -440,16 +440,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 25,
 		is_ship = 0,
-		goods_rarity = 3,
+		goods_icon = "Props/huangjialiaoli",
 		order = 8,
 		goods = {
 			50005
 		}
 	},
 	{
-		price = 10,
+		goods_rarity = 3,
 		goods_purchase_limit = 12,
-		goods_icon = "Props/manhanquanxi",
+		price = 10,
 		type = 2,
 		group = 10025,
 		num = 1,
@@ -457,16 +457,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 26,
 		is_ship = 0,
-		goods_rarity = 3,
+		goods_icon = "Props/manhanquanxi",
 		order = 7,
 		goods = {
 			50006
 		}
 	},
 	{
-		price = 80,
+		goods_rarity = 4,
 		goods_purchase_limit = 2,
-		goods_icon = "squareIcon/kin",
+		price = 80,
 		type = 4,
 		group = 20001,
 		num = 1,
@@ -474,16 +474,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 27,
 		is_ship = 1,
-		goods_rarity = 4,
+		goods_icon = "squareIcon/kin",
 		order = 2,
 		goods = {
 			100011
 		}
 	},
 	{
-		price = 30,
+		goods_rarity = 3,
 		goods_purchase_limit = 10,
-		goods_icon = "squareIcon/gin",
+		price = 30,
 		type = 4,
 		group = 20002,
 		num = 1,
@@ -491,16 +491,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 28,
 		is_ship = 1,
-		goods_rarity = 3,
+		goods_icon = "squareIcon/gin",
 		order = 3,
 		goods = {
 			100001
 		}
 	},
 	{
-		price = 80,
+		goods_rarity = 4,
 		goods_purchase_limit = 1,
-		goods_icon = "Props/54000",
+		price = 80,
 		type = 4,
 		group = 20003,
 		num = 1,
@@ -508,7 +508,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 29,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		order = 0,
 		goods = {
 			301161,
@@ -518,9 +518,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 80,
+		goods_rarity = 4,
 		goods_purchase_limit = 1,
-		goods_icon = "Props/54000",
+		price = 80,
 		type = 4,
 		group = 20003,
 		num = 1,
@@ -528,7 +528,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 30,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		order = 0,
 		goods = {
 			102081,
@@ -538,9 +538,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 80,
+		goods_rarity = 4,
 		goods_purchase_limit = 1,
-		goods_icon = "Props/54000",
+		price = 80,
 		type = 4,
 		group = 20003,
 		num = 1,
@@ -548,7 +548,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 31,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		order = 0,
 		goods = {
 			303111,
@@ -558,9 +558,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 80,
+		goods_rarity = 4,
 		goods_purchase_limit = 1,
-		goods_icon = "Props/54000",
+		price = 80,
 		type = 4,
 		group = 20003,
 		num = 1,
@@ -568,7 +568,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 32,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		order = 0,
 		goods = {
 			204031,
@@ -587,9 +587,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 80,
+		goods_rarity = 4,
 		goods_purchase_limit = 1,
-		goods_icon = "Props/54000",
+		price = 80,
 		type = 4,
 		group = 20003,
 		num = 1,
@@ -597,7 +597,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 33,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		order = 0,
 		goods = {
 			107061,
@@ -607,9 +607,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 80,
+		goods_rarity = 4,
 		goods_purchase_limit = 1,
-		goods_icon = "Props/54000",
+		price = 80,
 		type = 4,
 		group = 20004,
 		num = 1,
@@ -617,7 +617,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 34,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		order = 1,
 		goods = {
 			301161,
@@ -627,9 +627,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 80,
+		goods_rarity = 4,
 		goods_purchase_limit = 1,
-		goods_icon = "Props/54000",
+		price = 80,
 		type = 4,
 		group = 20004,
 		num = 1,
@@ -637,7 +637,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 35,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		order = 1,
 		goods = {
 			102081,
@@ -647,9 +647,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 80,
+		goods_rarity = 4,
 		goods_purchase_limit = 1,
-		goods_icon = "Props/54000",
+		price = 80,
 		type = 4,
 		group = 20004,
 		num = 1,
@@ -657,7 +657,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 36,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		order = 1,
 		goods = {
 			303111,
@@ -667,9 +667,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 80,
+		goods_rarity = 4,
 		goods_purchase_limit = 1,
-		goods_icon = "Props/54000",
+		price = 80,
 		type = 4,
 		group = 20004,
 		num = 1,
@@ -677,7 +677,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 37,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		order = 1,
 		goods = {
 			204031,
@@ -696,9 +696,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	{
-		price = 80,
+		goods_rarity = 4,
 		goods_purchase_limit = 1,
-		goods_icon = "Props/54000",
+		price = 80,
 		type = 4,
 		group = 20004,
 		num = 1,
@@ -706,7 +706,7 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 38,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		order = 1,
 		goods = {
 			107061,
@@ -716,9 +716,9 @@ pg.honormedal_goods_list = {
 		}
 	},
 	[41] = {
-		price = 15,
+		goods_rarity = 2,
 		goods_purchase_limit = 20,
-		goods_icon = "Props/30205",
+		price = 15,
 		type = 2,
 		group = 10028,
 		num = 1,
@@ -726,16 +726,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 41,
 		is_ship = 0,
-		goods_rarity = 2,
+		goods_icon = "Props/30205",
 		order = 32,
 		goods = {
 			30205
 		}
 	},
 	[42] = {
-		price = 20,
+		goods_rarity = 4,
 		goods_purchase_limit = 15,
-		goods_icon = "Props/42040",
+		price = 20,
 		type = 2,
 		group = 10029,
 		num = 1,
@@ -743,16 +743,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 42,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/42040",
 		order = 6,
 		goods = {
 			42040
 		}
 	},
 	[43] = {
-		price = 20,
+		goods_rarity = 5,
 		goods_purchase_limit = 5,
-		goods_icon = "Props/42046",
+		price = 20,
 		type = 2,
 		group = 10030,
 		num = 1,
@@ -760,16 +760,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 43,
 		is_ship = 0,
-		goods_rarity = 5,
+		goods_icon = "Props/42046",
 		order = 5,
 		goods = {
 			42046
 		}
 	},
 	[44] = {
-		price = 80,
+		goods_rarity = 4,
 		goods_purchase_limit = 1,
-		goods_icon = "Props/54000",
+		price = 80,
 		type = 4,
 		group = 20003,
 		num = 1,
@@ -777,16 +777,16 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 44,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		order = 0,
 		goods = {
 			408091
 		}
 	},
 	[45] = {
-		price = 80,
+		goods_rarity = 4,
 		goods_purchase_limit = 1,
-		goods_icon = "Props/54000",
+		price = 80,
 		type = 4,
 		group = 20004,
 		num = 1,
@@ -794,16 +794,16 @@ pg.honormedal_goods_list = {
 		goods_type = 2,
 		id = 45,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/54000",
 		order = 1,
 		goods = {
 			408091
 		}
 	},
 	[46] = {
-		price = 20,
+		goods_rarity = 4,
 		goods_purchase_limit = 15,
-		goods_icon = "Props/42050",
+		price = 20,
 		type = 2,
 		group = 10031,
 		num = 1,
@@ -811,16 +811,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 46,
 		is_ship = 0,
-		goods_rarity = 4,
+		goods_icon = "Props/42050",
 		order = 6,
 		goods = {
 			42050
 		}
 	},
 	[47] = {
-		price = 20,
+		goods_rarity = 5,
 		goods_purchase_limit = 5,
-		goods_icon = "Props/42056",
+		price = 20,
 		type = 2,
 		group = 10032,
 		num = 1,
@@ -828,16 +828,16 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 47,
 		is_ship = 0,
-		goods_rarity = 5,
+		goods_icon = "Props/42056",
 		order = 5,
 		goods = {
 			42056
 		}
 	},
 	[48] = {
-		price = 6,
+		goods_rarity = 5,
 		goods_purchase_limit = 10,
-		goods_icon = "Props/specialarmor_prt",
+		price = 6,
 		type = 2,
 		group = 10033,
 		num = 100,
@@ -845,7 +845,7 @@ pg.honormedal_goods_list = {
 		goods_type = 1,
 		id = 48,
 		is_ship = 0,
-		goods_rarity = 5,
+		goods_icon = "Props/specialarmor_prt",
 		order = 4,
 		goods = {
 			59010

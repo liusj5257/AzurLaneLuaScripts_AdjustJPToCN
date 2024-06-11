@@ -1,9 +1,9 @@
 slot0 = class("MonopolyPtMediator", import("view.base.ContextMediator"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		ActivityProxy.ACTIVITY_UPDATED,
 		ActivityProxy.ACTIVITY_ADDED,
@@ -12,7 +12,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 	slot4 = slot1:getType()
 
@@ -25,11 +25,11 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.updateGameUI(slot0, slot1)
+slot0.updateGameUI = function(slot0, slot1)
 	slot0.viewComponent:updataActivity(slot1)
 end
 
-function slot0.remove(slot0)
+slot0.remove = function(slot0)
 end
 
 return slot0

@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-反击-技能触发被动",
 	time = 0,
+	name = "测试-反击-技能触发被动",
+	init_effect = "",
 	picture = "",
 	desc = "鱼雷狂乱",
 	stack = 1,

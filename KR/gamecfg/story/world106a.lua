@@ -1,17 +1,17 @@
 return {
-	id = "WORLD106A",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD106A",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 105120,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-6",
 			dir = 1,
 			say = "방금 전까지는 적이 쏟아지더니, 깊은 곳으로 오니까 오히려 점점 줄어드네요.",
+			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			say = "우리가 세이렌과 싸우는 것처럼 잔불도 세이렌과 싸우고 있구나. 지휘부에서는 잔불을 공격하라는 명령을 내렸어. 그들은 우리에게 적의를 품고 있으니까.",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "NA 해역의 세이렌이 이상 행동을 하는 이유는 우리 생각보다 복잡한 것 같은데...",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "쿠르릉——————",
 			dialogShake = {
 				speed = 0.09,
@@ -147,8 +147,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -190,8 +190,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "음... 지난번 특이점은 사라졌지만, 해역의 상황은 그 이후에도 계속 이상한 모양인데.",
 			typewriter = {
 				speed = 0.05,
@@ -220,11 +220,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "명령 확인. 문제없습니다. 현재 정찰기, 레이더, 음파 데이터 통합 중————",
-			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -277,11 +277,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/38/tb-38",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "해역의 기상 예보 및 해류 상황 분석 완료, G.M 시스템에서 확인하십시오.",
-			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,11 +294,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/46/tb-46",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "그리고 앞으로 6시간 내에 기상 악화가 예상됩니다. 대응책을 마련하십시오.",
-			voice = "event:/tb/46/tb-46",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,8 +309,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "네비게이터는 믿음직스럽네. 덕분에 복잡한 해역을 안전하게 탐색할 수 있겠어.",
 			typewriter = {
 				speed = 0.05,

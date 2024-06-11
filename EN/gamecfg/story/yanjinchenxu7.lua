@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YANJINCHENXU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YANJINCHENXU7",
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			dir = 1,
 			bgmDelay = 2,
+			bgName = "bg_story_task",
 			bgm = "theme-vichy-church",
 			actor = 201360,
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			say = "*pant*... *pant*...",
 			flashin = {
 				delay = 1,
@@ -38,8 +38,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "Is there no end to these damn Pawns?! I'm working up a sweat here!",
 			painting = {
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "Not that a bunch of mooks could ever dream of beating me, but still!",
 			painting = {
@@ -69,8 +69,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,8 +82,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "While I wouldn't quite say we're losing, our weapons will wear out sooner or later if we continue fighting in these close quarters.",
 			painting = {
@@ -99,8 +99,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Mhm. Moreover, I need more room to launch my planes. Even that armoury would suffice.",
 			painting = {
@@ -116,8 +116,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Do you think we could lead the pawns in that direction?",
 			painting = {
@@ -133,8 +133,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "Certainly. If need be, we could also break through the wall there to retreat into the water.",
 			painting = {
@@ -150,8 +150,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "Our riggings are designed for naval combat, not ground combat, after all.",
 			painting = {
@@ -167,8 +167,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Good point. Every enemy we take out is one fewer for Argus and Royal Oak to deal with.",
 			painting = {
@@ -181,11 +181,11 @@ return {
 			}
 		},
 		{
-			actor = 207070,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			actor = 207070,
+			nameColor = "#A9F548FF",
 			say = "Although, we wouldn't want to draw more enemy fire than we already do.",
 			painting = {
 				alpha = 0.3,
@@ -206,8 +206,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "At any rate, let's go! To the hall we came from!",
 			painting = {
@@ -220,8 +220,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			say = "Basilica Blanc - Indoors",
 			effects = {
@@ -235,17 +235,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -256,8 +256,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "Move it, losers! Hero coming through!",
 			painting = {
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,8 +323,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Nice work. You have a knack for punching holes through walls and hordes alike.",
 			painting = {
@@ -340,8 +340,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "Well, yeah! It comes with the title!",
 			painting = {
@@ -354,8 +354,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -367,8 +367,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Of course. Does anyone have a backup plan if the Pawns don't pursue us?",
 			painting = {
@@ -384,8 +384,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "Isn't that for you to consider, Lady Implacable? You are our leader, aren't you?",
 			painting = {
@@ -401,8 +401,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 202330,
 			dir = 1,
+			actor = 202330,
 			nameColor = "#A9F548FF",
 			say = "Although, we may not need one as they seem to be following us. Keep advancing and I shall cover your back.",
 			painting = {
@@ -418,8 +418,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Got it.",
 			painting = {
@@ -432,29 +432,29 @@ return {
 			}
 		},
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_firedust_2",
-			nameColor = "#A9F548FF",
-			say = "Basilica Blanc - Coastline",
 			bgmDelay = 1,
 			bgm = "theme-richelieu",
+			nameColor = "#A9F548FF",
+			say = "Basilica Blanc - Coastline",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -462,11 +462,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_2",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,8 +515,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_2",
-			actor = 201360,
 			dir = 1,
+			actor = 201360,
 			nameColor = "#A9F548FF",
 			say = "Bosh! There's our path to the ocean~",
 			painting = {
@@ -532,8 +532,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_firedust_2",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Thanks, Hero. Now we can fight unrestrained.",
 			painting = {
@@ -549,8 +549,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_2",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "No pity, no mercy. Let us show these mindless Pawns our true strength!",
 			painting = {
@@ -563,11 +563,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_2",
-			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
+			say = "KABOOOM!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,8 +616,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_firedust_2",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#A9F548FF",
 			say = "Well said. Waste neither pity nor mercy on them, for they will show you none.",
 			painting = {
@@ -633,8 +633,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_firedust_2",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Cardinal?! Is that you?!",
 			painting = {
@@ -672,9 +672,9 @@ return {
 		{
 			actor = 207070,
 			side = 2,
-			bgName = "bg_firedust_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_firedust_2",
 			say = "You're here sooner than Her Majesty predicted! Thank goodness for that.",
 			painting = {
 				alpha = 0.3,
@@ -743,8 +743,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_firedust_2",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "It's alright. I'm just glad you're both in one piece.",
 			painting = {
@@ -760,8 +760,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_2",
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			nameColor = "#A9F548FF",
 			say = "Cardinal, if I may ask, what brought you to this remote island in the first place?",
 			painting = {

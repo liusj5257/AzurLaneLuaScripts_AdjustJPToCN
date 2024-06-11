@@ -1,6 +1,6 @@
 slot0 = class("GuideEventTrigger")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	pg.DelegateInfo.New(slot0)
 
 	slot6 = nil
@@ -19,18 +19,20 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot6 = slot0:HandleBtnExTrigger(slot2, slot3, slot4, slot5)
 	elseif slot1 == GuideFindUIStep.SNAP_PAGE then
 		slot6 = slot0:HandleSnapPageTrigger(slot2, slot3, slot4, slot5)
+	elseif slot1 == GuideFindUIStep.EVENT_TYPE_EVT_CLICK then
+		slot6 = slot0:HandleEvtClickTrigger(slot2, slot3, slot5)
 	end
 
 	slot0.trigger = slot6
 end
 
-function slot0.Trigger(slot0)
+slot0.Trigger = function(slot0)
 	if slot0.trigger then
 		slot0.trigger(true)
 	end
 end
 
-function slot0.HandleSnapPageTrigger(slot0, slot1, slot2, slot3, slot4)
+slot0.HandleSnapPageTrigger = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot4
 	slot6 = slot4
 
@@ -49,8 +51,8 @@ function slot0.HandleSnapPageTrigger(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.HandleBtnTrigger(slot0, slot1, slot2, slot3)
-	function slot4()
+slot0.HandleBtnTrigger = function(slot0, slot1, slot2, slot3)
+	slot4 = function()
 		if IsNil(uv0) then
 			return
 		end
@@ -64,8 +66,8 @@ function slot0.HandleBtnTrigger(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.HandleBtnExTrigger(slot0, slot1, slot2, slot3, slot4)
-	function slot5()
+slot0.HandleBtnExTrigger = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = function()
 		if IsNil(uv0) then
 			return
 		end
@@ -79,8 +81,8 @@ function slot0.HandleBtnExTrigger(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot0.HandleToggleTrigger(slot0, slot1, slot2, slot3, slot4)
-	function slot5(slot0)
+slot0.HandleToggleTrigger = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = function(slot0)
 		if IsNil(uv0) then
 			return
 		end
@@ -94,10 +96,10 @@ function slot0.HandleToggleTrigger(slot0, slot1, slot2, slot3, slot4)
 	return slot5
 end
 
-function slot0.HandleClickTrigger(slot0, slot1, slot2, slot3)
+slot0.HandleClickTrigger = function(slot0, slot1, slot2, slot3)
 	slot4 = slot2:GetComponent(typeof(EventTriggerListener))
 
-	function slot5(slot0, slot1)
+	slot5 = function(slot0, slot1)
 		uv0()
 
 		if not IsNil(uv1) then
@@ -117,8 +119,31 @@ function slot0.HandleClickTrigger(slot0, slot1, slot2, slot3)
 	return slot5
 end
 
-function slot0.HandleStickTrigger(slot0, slot1, slot2, slot3)
-	function slot4(slot0, slot1)
+slot0.HandleEvtClickTrigger = function(slot0, slot1, slot2, slot3)
+	slot4 = slot2:GetComponent(typeof(EventTriggerListener))
+
+	slot5 = function(slot0, slot1)
+		uv0()
+
+		if not IsNil(uv1) then
+			uv2:OnPointerUp(slot1)
+		end
+	end
+
+	slot6 = slot1:GetComponent(typeof(EventTriggerListener))
+
+	slot6:AddPointDownFunc(function (slot0, slot1)
+		if not IsNil(uv0) then
+			uv1:OnPointerClick(slot1)
+		end
+	end)
+	slot6:AddPointUpFunc(slot5)
+
+	return slot5
+end
+
+slot0.HandleStickTrigger = function(slot0, slot1, slot2, slot3)
+	slot4 = function(slot0, slot1)
 		if IsNil(uv0) then
 			return
 		end
@@ -131,8 +156,8 @@ function slot0.HandleStickTrigger(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.HandleShowUITrigger(slot0, slot1, slot2, slot3)
-	function slot4(slot0, slot1)
+slot0.HandleShowUITrigger = function(slot0, slot1, slot2, slot3)
+	slot4 = function(slot0, slot1)
 		if IsNil(uv0) then
 			return
 		end
@@ -145,7 +170,7 @@ function slot0.HandleShowUITrigger(slot0, slot1, slot2, slot3)
 	return slot4
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 end
 

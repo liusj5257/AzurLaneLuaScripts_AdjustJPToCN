@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGYEDEQIYU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WANSHENGYEDEQIYU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"할로윈 밤의 '기묘한 만남'\n\n<size=45>4.할로윈의 마녀</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
-			say = "지금 마녀의 점술집 앞에 서 있다——",
 			bgm = "battle-highseasfleet-reborn",
+			say = "지금 마녀의 점술집 앞에 서 있다——",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "할로윈과 마녀는 찰떡궁합이지만 모항의 '마녀'는 과연 누굴까…?",
 			typewriter = {
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "노크해보자.",
 			typewriter = {
@@ -65,8 +65,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "할로윈의 마녀?",
+			side = 2,
 			bgName = "star_level_bg_162",
 			nameColor = "#A9F548FF",
 			say = "들어오세요, 심야의 방문객이여.",
@@ -76,14 +76,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "밤늦게 이곳을 찾아왔다는 건 할로윈 밤에 길을 잃은 탐험가란 소리겠지?",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "밤늦게 이곳을 찾아왔다는 건 할로윈 밤에 길을 잃은 탐험가란 소리겠지?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,17 +93,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "멤피스의 어둑어둑한 텐트 안은 연기로 뒤덮인 채 탁자 위의 수정 구슬만 반짝이며 모든 것이 몽롱하고 몽환적으로 보였다.",
 			typewriter = {
@@ -140,8 +140,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "점술에 사용되는 수정 구슬? 멤피스가 이런 것도 할 수 있는 줄은 몰랐는데….",
 			typewriter = {
@@ -188,8 +188,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "사실은….",
 			typewriter = {
@@ -217,14 +217,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "음… 그렇구나.",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "음… 그렇구나.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,8 +304,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "그 여자가 바로 멤피스라는 뜻?",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "응...? 그냥 할로윈 이벤트로 점술 흉내만 낸 거 아니었어?",
 			typewriter = {
@@ -343,14 +343,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "믿는 건 지휘관 마음이지.",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "믿는 건 지휘관 마음이지.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "멤피스는 갑자기 챙이 넓은 마녀 모자를 벗었다.",
 			typewriter = {
@@ -390,14 +390,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "빗자루도 줄까? 중요한 순간에 호신용으로 쓸 수 있을 거야.",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "빗자루도 줄까? 중요한 순간에 호신용으로 쓸 수 있을 거야.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,8 +408,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "갑자기 왜 이렇게 진지해진 거야…. 점괘에 무슨 문제라도 있어?",
 			typewriter = {
@@ -437,8 +437,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "잠깐만…. 모항에 낯선 사람이 섞여 들어왔다는 말이야!?",
 			typewriter = {
@@ -452,14 +452,14 @@ return {
 			}
 		},
 		{
-			actor = 102162,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "응. 점술뿐만 아니라, 실제로 길거리에서도 낯선 사람을 봤거든.",
 			hidePaintEquip = true,
+			actor = 102162,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "응. 점술뿐만 아니라, 실제로 길거리에서도 낯선 사람을 봤거든.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,8 +470,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "그럼 긴급 상황인데. 어떻게 보안 시스템을 뚫었는지 제대로 조사해봐야겠어…. 설마 세이렌은 아니겠지!?",
 			typewriter = {
@@ -499,8 +499,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "…귀여운 해적 아가씨?",
 			typewriter = {
@@ -528,8 +528,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "…더 이상 고민할 시간이 없다. 지금 당장 대체 그 '불청객'이 누군지 직접 확인해봐야겠다.",
 			typewriter = {

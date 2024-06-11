@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "red",
+	name = "",
+	init_effect = "",
+	id = 107130,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 107130,
+	color = "red",
 	icon = 107130,
 	last_effect = "",
 	effect_list = {
@@ -26,8 +26,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 107130,
 				minWeaponNumber = 1,
+				skill_id = 107130,
 				check_weapon = true,
 				label = {
 					"GDS"

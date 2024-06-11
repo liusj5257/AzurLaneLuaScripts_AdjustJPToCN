@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "TEATIME4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "TEATIME4",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -301,11 +301,11 @@ return {
 			}
 		},
 		{
-			say = "한편, 아카츠키는……",
 			blackBg = true,
+			say = "한편, 아카츠키는……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -330,8 +330,8 @@ return {
 			}
 		},
 		{
-			say = "【N21°E158°】",
 			blackBg = true,
+			say = "【N21°E158°】",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,12 +342,12 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			nameColor = "#92fc63",
 			side = 2,
-			actorName = "{namecode:11}",
 			dir = 1,
 			blackBg = true,
+			actor = 301090,
+			actorName = "{namecode:11}",
 			say = "더워… 옷도 축축하게 다 젖었어…… 음, 너무 빨리 전진했나… 음? 호놀…룰루…? 어떻게 된 거야? 뭐 어때, 이대로 전진하면 분명 괜찮을 거야!",
 			typewriter = {
 				speed = 0.05,

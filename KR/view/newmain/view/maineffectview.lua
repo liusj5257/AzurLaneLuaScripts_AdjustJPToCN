@@ -1,12 +1,12 @@
 slot0 = class("MainEffectView")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.tr = slot1
 	slot0.loading = false
 	slot0.caches = {}
 end
 
-function slot0.GetEffect(slot0, slot1)
+slot0.GetEffect = function(slot0, slot1)
 	if slot1.propose then
 		return "jiehuntexiao"
 	end
@@ -14,11 +14,11 @@ function slot0.GetEffect(slot0, slot1)
 	return nil
 end
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	slot0:Load(slot0:GetEffect(slot1))
 end
 
-function slot0.Refresh(slot0, slot1)
+slot0.Refresh = function(slot0, slot1)
 	if slot0:GetEffect(slot1) and slot0.loading then
 		slot0:SetDirty(slot2)
 
@@ -28,7 +28,7 @@ function slot0.Refresh(slot0, slot1)
 	slot0:Load(slot2)
 end
 
-function slot0.Load(slot0, slot1)
+slot0.Load = function(slot0, slot1)
 	if slot0.effectName and not slot1 then
 		slot0:Clear()
 
@@ -54,7 +54,7 @@ function slot0.Load(slot0, slot1)
 	slot0.dirty = nil
 end
 
-function slot0.LoadEffect(slot0, slot1, slot2)
+slot0.LoadEffect = function(slot0, slot1, slot2)
 	if slot0.caches[slot1] then
 		slot3 = slot0.caches[slot1]
 
@@ -82,15 +82,15 @@ function slot0.LoadEffect(slot0, slot1, slot2)
 	end
 end
 
-function slot0.SetDirty(slot0, slot1)
+slot0.SetDirty = function(slot0, slot1)
 	slot0.dirty = slot1
 end
 
-function slot0.IsDirty(slot0)
+slot0.IsDirty = function(slot0)
 	return slot0.dirty ~= nil
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	if slot0.effectGo then
 		setActive(slot0.effectGo, false)
 
@@ -101,7 +101,7 @@ function slot0.Clear(slot0)
 	slot0.loading = nil
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Clear()
 
 	for slot4, slot5 in pairs(slot0.caches) do

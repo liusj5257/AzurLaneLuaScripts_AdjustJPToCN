@@ -1,14 +1,14 @@
 slot0 = class("SettingsPaintingDownloadPanel", import(".SettingsBasePanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "SettingsPaintingDownload"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("painting_prefs_setting_label")
 end
 
-function slot0.GetTitleEn(slot0)
+slot0.GetTitleEn = function(slot0)
 	return "  / Painting Download"
 end
 
@@ -16,7 +16,7 @@ slot0.None = 0
 slot0.Min = 1
 slot0.Max = 2
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.btns = {}
 
 	for slot5, slot6 in ipairs({
@@ -39,7 +39,7 @@ function slot0.OnInit(slot0)
 	end
 end
 
-function slot0.OnUpdate(slot0)
+slot0.OnUpdate = function(slot0)
 	slot1 = getProxy(SettingsProxy):GetPaintingDownloadPrefs()
 
 	if IsUnityEditor and slot1 == uv0.None then

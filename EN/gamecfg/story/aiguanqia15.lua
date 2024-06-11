@@ -1,15 +1,15 @@
 return {
-	id = "AIGUANQIA15",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "AIGUANQIA15",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 5,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "Kizuna AI",
 			say = "Phew... haah... finally... we won...!",
 			typewriter = {
@@ -115,8 +115,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "Kizuna AI",
 			say = "Ikazuchi, you really know everything, don't you? So smart~♪",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 4,
 			side = 1,
 			nameColor = "#a9f548",
-			actor = 10400030,
 			dir = 1,
+			actor = 10400030,
 			actorName = "Kizuna AI",
 			say = "Ahhh, so cute~! *rub* *rub*",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			actor = 10400030,
 			nameColor = "#a9f548",
 			side = 1,
-			actorName = "Kizuna AI",
 			dir = 1,
+			actorName = "Kizuna AI",
 			say = "Ahh... that's right! All right, watch me closely~!",
 			typewriter = {
 				speed = 0.05,
@@ -192,11 +192,11 @@ return {
 			}
 		},
 		{
-			actor = 10400040,
 			side = 2,
 			nameColor = "#a9f548",
-			actorName = "Kizuna AI",
 			dir = 1,
+			actor = 10400040,
+			actorName = "Kizuna AI",
 			say = "Ta-da~! Super Gamer Kizuna AI, transformation complete~!",
 			flashN = {
 				color = {
@@ -276,8 +276,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 10400040,
 			dir = 1,
+			actor = 10400040,
 			actorName = "Kizuna AI",
 			say = "Eh heh heh~ watch me closely, and I'll show you what being a capital ship is all about!",
 			typewriter = {

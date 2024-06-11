@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "致伤武器-鱼雷-致伤效果",
 	time = 10,
+	name = "致伤武器-鱼雷-致伤效果",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -17,8 +17,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = -0.05
+				number = -0.05,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

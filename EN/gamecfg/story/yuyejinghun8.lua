@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN8",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN8",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 101490,
 			side = 2,
+			actorName = "Bristol",
 			bgName = "star_level_bg_115",
+			bgm = "theme-highseasfleet-reborn",
 			factiontag = "(Self-Proclaimed) Great Detective GM",
 			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
-			actorName = "Bristol",
 			hidePaintObj = true,
 			say = "*hisss* friaghgleh... grsh... *hisssssss*!",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -98,9 +98,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Bookworm GM",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Hai Tien",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Roll a D100... 23. Success. You promptly decide to compliment the gorgeous wedding dress she's wearing.",
 			typewriter = {
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			side = 2,
+			actor = 9600031,
 			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "Do you... really think it's beautiful?",
@@ -180,9 +180,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "...Investigator, has anyone ever told you you're good-looking?",
 			typewriter = {
@@ -277,11 +277,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			side = 2,
+			actor = 9600031,
 			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "(whisper) In story terms, it's just like that NPC.",
@@ -295,9 +295,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "...Speaking of my dress, my beloved chose it for me. I felt a little nostalgic, so I thought I'd put it on again~",
 			typewriter = {
@@ -310,9 +310,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "You still haven't answered my first question, by the way. You saw my sculpture, so will you tell me your secrets now?",
 			typewriter = {
@@ -375,11 +375,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			side = 2,
+			actor = 9600031,
 			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "Wonderful! I've finally met a fellow enthusiast!",
@@ -398,9 +398,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "Oh, my dear Investigator! Such is your depth of knowledge and breadth of experience that you deserve the title of Occult Master! I am amazed~",
 			typewriter = {
@@ -421,11 +421,11 @@ return {
 			}
 		},
 		{
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			side = 2,
+			actor = 9600031,
 			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "There's something I'd like to show you, Investigator. It may have something to do with the disappearances, in fact.",
@@ -439,9 +439,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			factiontag = "Lord's Daughter",
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#A9F548FF",
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "Follow me to the courtyard.",
 			typewriter = {
@@ -454,10 +454,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "Bookworm GM",
-			oldPhoto = true,
-			nameColor = "#FF9B93",
-			bgm = "story-oldcastle-carnival",
 			actorName = "Hai Tien",
+			oldPhoto = true,
+			bgm = "story-oldcastle-carnival",
+			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "As soon as you enter the courtyard, you see a glowing yellow magic circle on the ground. Behind it is a giant, enshrined stone statue with a mystic appearance.",
 			typewriter = {
@@ -465,17 +465,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -487,9 +487,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "Hai Tien",
 			hidePaintObj = true,
 			say = "From under its hood, twisted tentacles extend towards you, and you feel as though they're drawing you into the darkness.",
 			typewriter = {
@@ -502,9 +502,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "Hai Tien",
 			hidePaintObj = true,
 			say = "You are frozen in place... Chills and sweat run down your back, and you begin to tremble. You desperately try to regain your composure.",
 			typewriter = {
@@ -517,9 +517,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "Hai Tien",
 			hidePaintObj = true,
 			say = "Roll a D100... 78. Failure. The one glance you took has filled you with immeasurable fear and distress.",
 			typewriter = {
@@ -532,10 +532,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "Lord's Daughter",
-			oldPhoto = true,
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#FF9B93",
+			oldPhoto = true,
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "At last... I've found a sacrifice to appease my lord.",
 			typewriter = {
@@ -548,10 +548,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "Lord's Daughter",
-			oldPhoto = true,
-			actorName = "Golden Hind",
-			actor = 9600031,
 			nameColor = "#FF9B93",
+			oldPhoto = true,
+			actor = 9600031,
+			actorName = "Golden Hind",
 			hidePaintObj = true,
 			say = "I will soon be reunited with my beloved, and we will never be apart again...",
 			typewriter = {
@@ -564,9 +564,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "Hai Tien",
 			hidePaintObj = true,
 			say = "You fall unconscious and are placed on the altar...",
 			typewriter = {
@@ -579,9 +579,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_521",
 			factiontag = "Bookworm GM",
+			actorName = "Hai Tien",
 			oldPhoto = true,
 			nameColor = "#FF9B93",
-			actorName = "Hai Tien",
 			hidePaintObj = true,
 			say = "Unfortunately, the Investigator meets a chilling death.",
 			typewriter = {
@@ -590,8 +590,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -606,8 +606,8 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "So... The lord's older daughter is a cult member, and she turned me into a sacrifice?",
 			bgm = "theme-ijndailymeeting",
+			say = "So... The lord's older daughter is a cult member, and she turned me into a sacrifice?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

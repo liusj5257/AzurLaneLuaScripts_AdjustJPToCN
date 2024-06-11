@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.child_item = {
 	{
-		rarity = 2,
 		name = "ミルキィ饅頭",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "濃厚で滑らかな舌触り。",
@@ -19,8 +19,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 1,
 		name = "イチゴミルク",
+		rarity = 1,
 		type = 4,
 		is_show = 1,
 		desc = "この味、間違いなし。",
@@ -37,8 +37,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 2,
 		name = "レモンハニードリンク",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "レモンが苦くなる前に一気に飲むべし！",
@@ -60,8 +60,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 2,
 		name = "バナナココナッツドリンク",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "バナナとココナッツの組み合わせからなる、独特で芳醇な味わい。",
@@ -83,8 +83,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 2,
 		name = "メロンダブル",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "メロンの甘さとシロップが絶妙にマッチ。スイーツ好きにはたまらない。",
@@ -106,8 +106,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 3,
 		name = "アイスミルクセーキ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "最初にトップのアイスを食べるか、それともシェイクから飲むか？",
@@ -124,8 +124,8 @@ pg.child_item = {
 		}
 	},
 	[11] = {
-		rarity = 2,
 		name = "オムライス",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "ふわふわの卵とトマトの酸味が効いたチキンライス、美味しい！",
@@ -147,8 +147,8 @@ pg.child_item = {
 		}
 	},
 	[12] = {
-		rarity = 3,
 		name = "シチューポットパイ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "サクサクのパイと温かい濃厚なスープが絶妙。",
@@ -165,8 +165,8 @@ pg.child_item = {
 		}
 	},
 	[13] = {
-		rarity = 3,
 		name = "マカロン",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "サクサクのスイーツで気分アゲアゲ。",
@@ -183,8 +183,8 @@ pg.child_item = {
 		}
 	},
 	[14] = {
-		rarity = 3,
 		name = "スイカのクリームピザ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "ピザの原理主義者を激怒させる創作料理。",
@@ -201,8 +201,8 @@ pg.child_item = {
 		}
 	},
 	[15] = {
-		rarity = 4,
 		name = "バナナクレープ",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "普通のバナナとクリーム入りのクレープ。",
@@ -219,8 +219,8 @@ pg.child_item = {
 		}
 	},
 	[16] = {
-		rarity = 4,
 		name = "カツサンド",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "分厚い肉とトーストで、ジューシーでボリューム満点。",
@@ -237,8 +237,8 @@ pg.child_item = {
 		}
 	},
 	[17] = {
-		rarity = 4,
 		name = "肉のバジル煮込み",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "広がる濃厚なバジルの香りが一層美味しさを引き立たせる。",
@@ -255,8 +255,8 @@ pg.child_item = {
 		}
 	},
 	[21] = {
-		rarity = 2,
 		name = "初心者用釣り竿",
+		rarity = 2,
 		type = 3,
 		is_show = 1,
 		desc = "初心者に最適な釣り竿。",
@@ -278,8 +278,8 @@ pg.child_item = {
 		}
 	},
 	[22] = {
-		rarity = 2,
 		name = "鉄の斧",
+		rarity = 2,
 		type = 3,
 		is_show = 1,
 		desc = "金の斧か、それとも銀の斧か？――実は鉄の斧だった。",
@@ -296,8 +296,8 @@ pg.child_item = {
 		}
 	},
 	[23] = {
-		rarity = 3,
 		name = "中級者用釣り竿",
+		rarity = 3,
 		type = 3,
 		is_show = 1,
 		desc = "微かに銀色に輝いている、中級者向けの釣り竿。",
@@ -319,8 +319,8 @@ pg.child_item = {
 		}
 	},
 	[24] = {
-		rarity = 3,
 		name = "銀の斧",
+		rarity = 3,
 		type = 3,
 		is_show = 1,
 		desc = "金の斧か、それとも銀の斧か？――今回は銀の斧だ！",
@@ -337,8 +337,8 @@ pg.child_item = {
 		}
 	},
 	[25] = {
-		rarity = 4,
 		name = "マスター級釣り竿",
+		rarity = 4,
 		type = 3,
 		is_show = 1,
 		desc = "釣りの達人だけが使いこなせるチャンピオン級の釣り竿！",
@@ -355,8 +355,8 @@ pg.child_item = {
 		}
 	},
 	[26] = {
-		rarity = 4,
 		name = "金の斧",
+		rarity = 4,
 		type = 3,
 		is_show = 1,
 		desc = "金の斧か、それとも銀の斧か？――やっぱり一番使いやすいのは金の斧だ！",
@@ -373,8 +373,8 @@ pg.child_item = {
 		}
 	},
 	[31] = {
-		rarity = 1,
 		name = "『ゼロから始めるロイヤルメイド生活』",
+		rarity = 1,
 		type = 1,
 		is_show = 1,
 		desc = "不器用なメイドが料理を学び、失敗を重ねながらも頑張る物語。",
@@ -396,8 +396,8 @@ pg.child_item = {
 		}
 	},
 	[32] = {
-		rarity = 1,
 		name = "『15行のソネット』",
+		rarity = 1,
 		type = 1,
 		is_show = 1,
 		desc = "思索を巡らせる不朽の名作。でも行数が……",
@@ -419,8 +419,8 @@ pg.child_item = {
 		}
 	},
 	[33] = {
-		rarity = 1,
 		name = "『艤装メンテナンス指南』",
+		rarity = 1,
 		type = 1,
 		is_show = 1,
 		desc = "専門性がとてつもなく高い書籍。",
@@ -442,8 +442,8 @@ pg.child_item = {
 		}
 	},
 	[34] = {
-		rarity = 2,
 		name = "『指揮官の心の掴み方』",
+		rarity = 2,
 		type = 1,
 		is_show = 1,
 		desc = "シンプルで分かりやすいが、あまり勉強の役には立たなそうだ。",
@@ -460,8 +460,8 @@ pg.child_item = {
 		}
 	},
 	[35] = {
-		rarity = 2,
 		name = "『天才の発明ガイド！』",
+		rarity = 2,
 		type = 1,
 		is_show = 1,
 		desc = "極めて我流な発明指南書。ほとんど役に立たない…気がする。",
@@ -478,8 +478,8 @@ pg.child_item = {
 		}
 	},
 	[36] = {
-		rarity = 2,
 		name = "『トキメキホリデートラベル』",
+		rarity = 2,
 		type = 1,
 		is_show = 1,
 		desc = "海や無人島など、さまざまな旅行地を紹介。",
@@ -496,8 +496,8 @@ pg.child_item = {
 		}
 	},
 	[41] = {
-		rarity = 3,
 		name = "レコード",
+		rarity = 3,
 		type = 2,
 		is_show = 1,
 		desc = "どんな曲が収録されているのだろう？",
@@ -514,8 +514,8 @@ pg.child_item = {
 		}
 	},
 	[42] = {
-		rarity = 3,
 		name = "マイク",
+		rarity = 3,
 		type = 2,
 		is_show = 1,
 		desc = "内蔵ミキサーで音を豊かで繊細に。カラオケに最適。",
@@ -532,8 +532,8 @@ pg.child_item = {
 		}
 	},
 	[43] = {
-		rarity = 3,
 		name = "クラリネット",
+		rarity = 3,
 		type = 2,
 		is_show = 1,
 		desc = "いい響きがする木管楽器。演奏の習得が非常に難しいと言われている。",
@@ -555,8 +555,8 @@ pg.child_item = {
 		}
 	},
 	[44] = {
-		rarity = 4,
 		name = "ハープ",
+		rarity = 4,
 		type = 2,
 		is_show = 1,
 		desc = "広い音域と長い余韻が特徴。",
@@ -573,8 +573,8 @@ pg.child_item = {
 		}
 	},
 	[45] = {
-		rarity = 4,
 		name = "ヴァイオリン",
+		rarity = 4,
 		type = 2,
 		is_show = 1,
 		desc = "力強い音色が魅力。",
@@ -596,8 +596,8 @@ pg.child_item = {
 		}
 	},
 	[46] = {
-		rarity = 4,
 		name = "ピアノ",
+		rarity = 4,
 		type = 2,
 		is_show = 1,
 		desc = "優雅で美しい音色の代名詞。",
@@ -614,8 +614,8 @@ pg.child_item = {
 		}
 	},
 	[47] = {
-		rarity = 4,
 		name = "トランペット",
+		rarity = 4,
 		type = 2,
 		is_show = 1,
 		desc = "明るく鋭い音色で、華やかさと美しさを兼ね備えている。",
@@ -637,8 +637,8 @@ pg.child_item = {
 		}
 	},
 	[51] = {
-		rarity = 3,
 		name = "白い真珠",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "粉にすると美白効果でも…？",
@@ -655,8 +655,8 @@ pg.child_item = {
 		}
 	},
 	[52] = {
-		rarity = 4,
 		name = "貝殻の飾り",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "磨いた貝殻で作られたお飾りオブジェクト。",
@@ -673,8 +673,8 @@ pg.child_item = {
 		}
 	},
 	[53] = {
-		rarity = 3,
 		name = "タコのぬいぐるみ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "「茹でたタコ」をモチーフに作られたぬいぐるみ。好きな人が本当にいるのだろうか？",
@@ -691,8 +691,8 @@ pg.child_item = {
 		}
 	},
 	[54] = {
-		rarity = 4,
 		name = "願いのボトル",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "願いをメモに書き瓶に入れて海に投げると、その願いが叶うと言われている。",
@@ -709,8 +709,8 @@ pg.child_item = {
 		}
 	},
 	[55] = {
-		rarity = 3,
 		name = "マジックシェル",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "マジックシェルに何か聞いてみたらどうだ？",
@@ -732,8 +732,8 @@ pg.child_item = {
 		}
 	},
 	[56] = {
-		rarity = 3,
 		name = "ココナッツ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "土産屋だけど、ココナッツも売ってるね。",
@@ -755,8 +755,8 @@ pg.child_item = {
 		}
 	},
 	[101] = {
-		rarity = 2,
 		name = "レタスの白茹で",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "食材が新鮮なら、シンプルな調理と味付けで十分。",
@@ -773,8 +773,8 @@ pg.child_item = {
 		}
 	},
 	[102] = {
-		rarity = 2,
 		name = "ハニーポークチョップ",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "最後にハチミツを塗って焼き上げ……一口で肉の旨味が広がる。",
@@ -791,8 +791,8 @@ pg.child_item = {
 		}
 	},
 	[103] = {
-		rarity = 2,
 		name = "シチューポットパイ",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "サクサクのパイと温かい濃厚なスープが絶妙。",
@@ -809,8 +809,8 @@ pg.child_item = {
 		}
 	},
 	[104] = {
-		rarity = 2,
 		name = "餃子盛り合わせ",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "人生は餃子の盛り合わせのよう――次の一個はどんな味か分からないんだ。",
@@ -827,8 +827,8 @@ pg.child_item = {
 		}
 	},
 	[105] = {
-		rarity = 3,
 		name = "マーボー豆腐",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "家庭料理として人々に愛されている。",
@@ -845,8 +845,8 @@ pg.child_item = {
 		}
 	},
 	[106] = {
-		rarity = 3,
 		name = "バナナクレープ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "普通のバナナとクリーム入りのクレープ。",
@@ -863,8 +863,8 @@ pg.child_item = {
 		}
 	},
 	[107] = {
-		rarity = 3,
 		name = "ごった煮鍋",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "だしが効いたスープに美味しい野菜と肉、溶き卵に絡めて～うまい！",
@@ -881,8 +881,8 @@ pg.child_item = {
 		}
 	},
 	[108] = {
-		rarity = 3,
 		name = "ラムスペアリブのローズマリー風味",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "肉質は柔らかく、味わい深い。",
@@ -899,8 +899,8 @@ pg.child_item = {
 		}
 	},
 	[109] = {
-		rarity = 3,
 		name = "カツサンド",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "分厚い肉とトーストで、ジューシーでボリューム満点。",
@@ -917,8 +917,8 @@ pg.child_item = {
 		}
 	},
 	[110] = {
-		rarity = 3,
 		name = "謎の料理",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "口に入れないとどんな味かわからない。",
@@ -935,8 +935,8 @@ pg.child_item = {
 		}
 	},
 	[121] = {
-		rarity = 3,
 		name = "絵の作品",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "丁寧に額装された絵の作品。",
@@ -953,8 +953,8 @@ pg.child_item = {
 		}
 	},
 	[131] = {
-		rarity = 2,
 		name = "川エビ",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "小さい川エビ。獲れないよりましね…",
@@ -971,8 +971,8 @@ pg.child_item = {
 		}
 	},
 	[132] = {
-		rarity = 2,
 		name = "小さな魚",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "小さい魚。運がいいね！",
@@ -989,8 +989,8 @@ pg.child_item = {
 		}
 	},
 	[134] = {
-		rarity = 2,
 		name = "大きい魚",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "大きい魚だ！今日の夕ご飯が豪華になるよ！",
@@ -1007,8 +1007,8 @@ pg.child_item = {
 		}
 	},
 	[135] = {
-		rarity = 2,
 		name = "ロブスター",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "大きいロブスターだ！……なんでロブスターが釣れたんだろう…？",
@@ -1025,8 +1025,8 @@ pg.child_item = {
 		}
 	},
 	[151] = {
-		rarity = 2,
 		name = "写真",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "現像した写真。アルバムにしっかりと保存される予定。",
@@ -1043,8 +1043,8 @@ pg.child_item = {
 		}
 	},
 	[161] = {
-		rarity = 4,
 		name = "受賞記念章-公募文学賞",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "公募文学賞に参加した記念品",
@@ -1055,8 +1055,8 @@ pg.child_item = {
 		display = {}
 	},
 	[162] = {
-		rarity = 4,
 		name = "受賞記念章-写真コンテスト",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "写真コンテストに参加した記念品",
@@ -1067,8 +1067,8 @@ pg.child_item = {
 		display = {}
 	},
 	[163] = {
-		rarity = 4,
 		name = "受賞記念章-大運動会",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "大運動会に参加した記念品",
@@ -1079,8 +1079,8 @@ pg.child_item = {
 		display = {}
 	},
 	[164] = {
-		rarity = 4,
 		name = "受賞記念章-絵画コンテスト",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "絵画コンテストに参加した記念品",
@@ -1091,8 +1091,8 @@ pg.child_item = {
 		display = {}
 	},
 	[165] = {
-		rarity = 4,
 		name = "受賞記念章-料理大会",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "料理大会に参加した記念品",
@@ -1103,8 +1103,8 @@ pg.child_item = {
 		display = {}
 	},
 	[166] = {
-		rarity = 4,
 		name = "受賞記念章-釣り大会",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "釣り大会に参加した記念品",
@@ -1115,8 +1115,8 @@ pg.child_item = {
 		display = {}
 	},
 	[167] = {
-		rarity = 4,
 		name = "受賞記念章-歌コンテスト",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "歌コンテストに参加した記念品",
@@ -1127,8 +1127,8 @@ pg.child_item = {
 		display = {}
 	},
 	[168] = {
-		rarity = 4,
 		name = "受賞記念章-オーディション",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "オーディションに参加した記念品",
@@ -1139,8 +1139,8 @@ pg.child_item = {
 		display = {}
 	},
 	[201] = {
-		rarity = 3,
 		name = "育成目標達成記念·Ⅰ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+10 財貨+60 体力+20",
@@ -1167,8 +1167,8 @@ pg.child_item = {
 		}
 	},
 	[202] = {
-		rarity = 3,
 		name = "育成目標達成記念·Ⅰ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+10 財貨+60 知識+20",
@@ -1195,8 +1195,8 @@ pg.child_item = {
 		}
 	},
 	[203] = {
-		rarity = 3,
 		name = "育成目標達成記念·Ⅰ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+10 財貨+60 魅力+20 ",
@@ -1223,8 +1223,8 @@ pg.child_item = {
 		}
 	},
 	[204] = {
-		rarity = 3,
 		name = "育成目標達成記念·Ⅰ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+10 財貨+60 感受性+20",
@@ -1251,8 +1251,8 @@ pg.child_item = {
 		}
 	},
 	[205] = {
-		rarity = 3,
 		name = "育成目標達成記念·Ⅱ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+15 財貨+100 体力+100",
@@ -1279,8 +1279,8 @@ pg.child_item = {
 		}
 	},
 	[206] = {
-		rarity = 3,
 		name = "育成目標達成記念·Ⅱ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+15 財貨+100 知識+100",
@@ -1307,8 +1307,8 @@ pg.child_item = {
 		}
 	},
 	[207] = {
-		rarity = 3,
 		name = "育成目標達成記念·Ⅱ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+15 財貨+100 魅力+100",
@@ -1335,8 +1335,8 @@ pg.child_item = {
 		}
 	},
 	[208] = {
-		rarity = 3,
 		name = "育成目標達成記念·Ⅱ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+15 財貨+100 感受性+100",
@@ -1363,8 +1363,8 @@ pg.child_item = {
 		}
 	},
 	[209] = {
-		rarity = 3,
 		name = "育成目標達成記念·Ⅲ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+150 運動+10 器用+5 繊細さ+5",
@@ -1401,8 +1401,8 @@ pg.child_item = {
 		}
 	},
 	[210] = {
-		rarity = 3,
 		name = "育成目標達成記念·Ⅲ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+150 器用+10 想象+5 表現力+5",
@@ -1439,8 +1439,8 @@ pg.child_item = {
 		}
 	},
 	[211] = {
-		rarity = 3,
 		name = "育成目標達成記念·Ⅲ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+150 繊細さ+10 想象+10",
@@ -1472,8 +1472,8 @@ pg.child_item = {
 		}
 	},
 	[212] = {
-		rarity = 3,
 		name = "育成目標達成記念·Ⅲ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+150 表現力+10 音楽+10",
@@ -1505,8 +1505,8 @@ pg.child_item = {
 		}
 	},
 	[213] = {
-		rarity = 4,
 		name = "育成目標達成記念·Ⅳ",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+200 運動+30",
@@ -1533,8 +1533,8 @@ pg.child_item = {
 		}
 	},
 	[214] = {
-		rarity = 4,
 		name = "育成目標達成記念·Ⅳ",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+200 想象+30",
@@ -1561,8 +1561,8 @@ pg.child_item = {
 		}
 	},
 	[215] = {
-		rarity = 4,
 		name = "育成目標達成記念·Ⅳ",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+200 繊細さ+30",
@@ -1589,8 +1589,8 @@ pg.child_item = {
 		}
 	},
 	[216] = {
-		rarity = 4,
 		name = "育成目標達成記念·Ⅳ",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+200 器用+30 ",
@@ -1617,8 +1617,8 @@ pg.child_item = {
 		}
 	},
 	[217] = {
-		rarity = 4,
 		name = "育成目標達成記念·Ⅳ",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+200 音楽+30",
@@ -1645,8 +1645,8 @@ pg.child_item = {
 		}
 	},
 	[218] = {
-		rarity = 4,
 		name = "育成目標達成記念·Ⅳ",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "育成目標達成の記念アイテム。\n気分+20 財貨+200 表現力+30",
@@ -1673,8 +1673,8 @@ pg.child_item = {
 		}
 	},
 	[301] = {
-		rarity = 1,
 		name = "主要目標達成記念章",
+		rarity = 1,
 		type = 4,
 		is_show = 1,
 		desc = "主要目標達成の記念章。全属性+1",
@@ -1706,8 +1706,8 @@ pg.child_item = {
 		}
 	},
 	[302] = {
-		rarity = 1,
 		name = "育成目標進捗Pt",
+		rarity = 1,
 		type = 4,
 		is_show = 0,
 		desc = "設定された育成目標の完成度合を示すPtアイテム",

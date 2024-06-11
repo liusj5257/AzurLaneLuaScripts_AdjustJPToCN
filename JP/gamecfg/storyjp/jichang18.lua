@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JICHANG18",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JICHANG18",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>艦船は兵器、敵と沈むために生まれる定め</size>",
@@ -37,14 +37,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_jichang_3",
-			actorName = "大鳳(μ兵装)",
 			dir = 1,
 			bgmDelay = 2,
-			say = "来たわね。Astrum",
 			bgm = "idol-kannjouLOYALTY-inst",
+			actorName = "大鳳(μ兵装)",
+			say = "来たわね。Astrum",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ローン(μ兵装)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -80,8 +80,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "アルバコア(μ兵装)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -96,8 +96,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳(μ兵装)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -114,10 +114,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "（あれ？大鳳アタシを見ても全然動じていない…？）",
 			typewriter = {
 				speed = 0.05,
@@ -131,10 +131,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 207110,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "なんて禍々しい雰囲気…これが「Verheerender」のステージなの…？",
 			typewriter = {
 				speed = 0.05,
@@ -148,10 +148,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 103250,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "気圧されるな、私たちは私たちのステージを最高にするまでだ",
 			typewriter = {
 				speed = 0.05,
@@ -165,10 +165,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 701050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 701050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "タシュケント、怖くならないわよ…！",
 			typewriter = {
 				speed = 0.05,
@@ -182,10 +182,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 403080,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403080,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "「Polaris」と逢いました？その様子…フフフ、やっぱり私たちのことについて色々と教えられたようですね",
 			typewriter = {
 				speed = 0.05,
@@ -199,10 +199,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 202280,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 202280,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "ご主人様を…狙っているのですか？！",
 			typewriter = {
 				speed = 0.05,
@@ -216,10 +216,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 108050,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 108050,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "まさかこの兵装を使って、指揮官を…！？",
 			typewriter = {
 				speed = 0.05,
@@ -233,10 +233,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 307110,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "そうですわ。「μ兵装」など最初は興味ありませんでしたが、これを使えばここまで魅せられるというなら話は別です",
 			typewriter = {
 				speed = 0.05,
@@ -250,10 +250,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 403080,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 403080,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "音楽だの盛り上がりだの言っていますけど、この艤装の本質は「兵器」ですよ？兵器は兵器らしく、奪うためにも使わないと",
 			typewriter = {
 				speed = 0.05,
@@ -267,10 +267,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 207110,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 207110,
 			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "あなたたちが歌に乗せる想い…それは「破壊」だとでもいうのですか？",
 			typewriter = {
 				speed = 0.05,
@@ -282,8 +282,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳(μ兵装)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ローン(μ兵装)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -314,8 +314,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳(μ兵装)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "ローン(μ兵装)",
+			side = 2,
 			bgName = "bg_jichang_3",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -363,12 +363,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大鳳(μ兵装)&ローン(μ兵装)",
+			side = 2,
 			bgName = "bg_jichang_3",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "許さないわ！！！",
 			typewriter = {
 				speed = 0.05,

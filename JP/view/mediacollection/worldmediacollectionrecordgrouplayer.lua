@@ -1,10 +1,10 @@
 slot0 = class("WorldMediaCollectionRecordGroupLayer", import(".WorldMediaCollectionTemplateLayer"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldMediaCollectionRecordGroupUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot0.scroll = slot1:Find("ScrollRect")
 	slot1 = slot0.scroll
@@ -66,7 +66,7 @@ function slot0.OnInit(slot0)
 		end, SFX_UI_TAG)
 	end
 
-	function slot0.scrollComp.onUpdateItem(slot0, slot1)
+	slot0.scrollComp.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateGroup(slot0 + 1, slot1)
 	end
 
@@ -79,12 +79,12 @@ function slot0.OnInit(slot0)
 	setText(slot0.scroll:Find("ProgressDesc"), i18n("world_collection_3"))
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
 	setActive(slot0.recordTogGroup, true)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	LeanTween.cancel(go(slot0.content))
 	slot0.scrollComp:SetDraggingStatus(false)
 	slot0.scrollComp:StopMovement()
@@ -102,7 +102,7 @@ slot1 = {
 	"img_shoujijilu"
 }
 
-function slot0.OnUpdateGroup(slot0, slot1, slot2)
+slot0.OnUpdateGroup = function(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -143,7 +143,7 @@ function slot0.OnUpdateGroup(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.SwitchRecordFilter(slot0, slot1)
+slot0.SwitchRecordFilter = function(slot0, slot1)
 	if slot1 == 1 then
 		slot0.recordFilterIndex = {
 			true,
@@ -157,7 +157,7 @@ function slot0.SwitchRecordFilter(slot0, slot1)
 	end
 end
 
-function slot0.RecordFilter(slot0)
+slot0.RecordFilter = function(slot0)
 	table.clear(slot0.recordGroups)
 	_.each(pg.world_collection_record_group.all, function (slot0)
 		slot1 = pg.world_collection_record_group[slot0]

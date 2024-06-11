@@ -1,15 +1,15 @@
 return {
-	id = "WORLD500B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD500B",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "blueocean-image",
 			say = "メンフィスとシェフィールドと出会った。",
+			side = 2,
+			dir = 1,
+			bgm = "blueocean-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,8 +20,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ロイヤルメイド隊のシェフィールド、どうやら今回の作戦参加ではエリザベスからの密命を受けているらしい。",
 			typewriter = {
 				speed = 0.05,
@@ -43,8 +43,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 2,
 			say = "2人は何やら話をしているようだ。そっとしておこう",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			optionFlag = 2,
 			say = "おっと、気づかれてしまったか。",
 			typewriter = {
@@ -87,14 +87,14 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202080,
+			nameColor = "#a9f548",
 			say = "それではよろしくお願いします。では私は用事があるので先に…",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -158,8 +158,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "助言（？）をしてくれたシェフィールドは一礼をして、そそっかしく行ってしまった。",
 			typewriter = {
 				speed = 0.05,
@@ -174,8 +174,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "指揮官、今日もお疲れみたいじゃない。お散歩中かしら？",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "二人の組み合わせが珍しく、少し気になったと話した。",
 			typewriter = {
 				speed = 0.05,
@@ -218,8 +218,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "指揮官には内緒ってわけじゃないけど、はっきりした結論が出てから報告しようと思って…",
 			typewriter = {
 				speed = 0.05,
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "上層部からの連絡と何か関係でも？",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "そんなところかしら…それより作戦のことよ",
 			typewriter = {
 				speed = 0.05,
@@ -275,8 +275,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "総攻撃の行動方針を今すぐにでも決定するべきタイミングなのに、作戦そのものを変えようとする上層部の動きはたしかに変だ。",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -319,8 +319,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "今回の作戦は全て順調だった…今まではね。セイレーンにも新たに現れた「余燼」にも、こちらは勝ち続けてきたわ",
 			typewriter = {
 				speed = 0.05,
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "「余燼」は確かに不安要素だが、今の所セイレーンと比べると航路を脅していない分、上層部は脅威度を低く見ているようだ。",
 			typewriter = {
 				speed = 0.05,
@@ -363,8 +363,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "余燼の迫力と実力…情報として知っていても、身をもって体験するのとでは雲泥の差でしょうね",
 			typewriter = {
 				speed = 0.05,
@@ -394,8 +394,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "そういう雰囲気のせいで、「余燼」も含めてセイレーンの研究を進めてほしいという声が上がってきているけど、この様子では…",
 			typewriter = {
 				speed = 0.05,
@@ -407,8 +407,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "作戦前半があまりにも順調だったので「研究を優先すべきだ」という極端な意見は出ていたものの、ここに来て一気に増えた。",
 			typewriter = {
 				speed = 0.05,
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "まさか本当にこういう事態になるとはな",
 			typewriter = {
 				speed = 0.05,
@@ -451,8 +451,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "セイレーンから海を取り戻す——我々艦船の願いはそれだけよ",
 			typewriter = {
 				speed = 0.05,
@@ -467,8 +467,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			say = "きっとそれを上層部も分かっているはず……",
 			typewriter = {
 				speed = 0.05,
@@ -495,8 +495,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "シェフィールドがわざわざ助言してくれたということは、エリザベスはもう状況を把握しているのだろう。もしやロイヤル王家を使って上層部に介入するつもりか…？",
 			typewriter = {
 				speed = 0.05,
@@ -570,9 +570,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 102160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "うわっ、シェフィールドさん？！びっくりした…行ったんじゃなかったの？",
 			typewriter = {
 				speed = 0.05,
@@ -584,8 +584,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -639,8 +639,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "そういえば、最近のエリザベスの動向が気になるな……",
 			typewriter = {
 				speed = 0.05,
@@ -712,8 +712,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "確かに、その方が望ましいな。",
 			typewriter = {
 				speed = 0.05,
@@ -740,8 +740,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……",
 			typewriter = {
 				speed = 0.05,

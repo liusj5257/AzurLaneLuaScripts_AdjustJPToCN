@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "雷击减伤",
 	init_effect = "",
-	color = "blue",
+	id = 59050,
+	time = 0,
 	picture = "",
 	desc = "减伤类型用例,受到雷击伤害降低",
 	stack = 1,
-	id = 59050,
+	color = "blue",
 	icon = 59050,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByBulletTorpedo",
-				number = -0.3
+				number = -0.3,
+				attr = "injureRatioByBulletTorpedo"
 			}
 		}
 	}

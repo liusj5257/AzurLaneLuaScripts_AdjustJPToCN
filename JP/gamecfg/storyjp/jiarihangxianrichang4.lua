@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JIARIHANGXIANRICHANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JIARIHANGXIANRICHANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"バケーションレーン-日常編\n\n<size=45>四 重桜世間話</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 307060,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "まさか、伝説の「大天狗」様が目の前に…なんて幸運なんだ…！",
 			bgm = "doa_story1",
+			actor = 307060,
+			nameColor = "#a9f548",
+			say = "まさか、伝説の「大天狗」様が目の前に…なんて幸運なんだ…！",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -71,8 +71,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "わらわはかまわぬぞ、小物のことなど、いちいち気にせぬでな",
 			typewriter = {
@@ -88,8 +88,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "それにしても、「重桜」はやっぱりどこか懐かしい感じがします",
 			typewriter = {
@@ -105,8 +105,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "この前、重桜の「ニンジャ」さんたちともお話ししてみたんですけど……",
 			typewriter = {
@@ -154,8 +154,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "ありがとうございます♪お茶も飲まれているなんて、やっぱり、どこか似ている気がしますね",
 			typewriter = {
@@ -187,8 +187,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "たしか、ほのかちゃんがここの巫女さんたちから巫女舞を教わっていましたね",
 			typewriter = {
@@ -220,8 +220,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "でもまあ、おもしろいものも多かったのう。特に、あの「艤装」というものとかな",
 			typewriter = {
@@ -250,11 +250,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "女天狗先輩、ほんと強かったです！勢いだけでも圧倒されそうでした…！",
 			typewriter = {
 				speed = 0.05,
@@ -266,8 +266,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -279,8 +279,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "ふふふ、そなたらもなかなかのものじゃ、わらわを楽しませるとはのう",
 			typewriter = {
@@ -312,8 +312,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "最初はどうなってしまうのかと心配していましたけど、まさかこんなに楽しい時間を過ごせるなんて…",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900302,
 			dir = 1,
+			actor = 900302,
 			nameColor = "#a9f548",
 			say = "皆さん、ほんと仲がいいんですね、ふふ",
 			typewriter = {
@@ -394,8 +394,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_room",
-			actor = 900305,
 			dir = 1,
+			actor = 900305,
 			nameColor = "#a9f548",
 			say = "ふむ、では、わらわは温泉に行くが…そなたら、供をせぬか？猿が相手では退屈じゃからのう♪",
 			typewriter = {
@@ -408,14 +408,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			bgName = "bg_story_room",
+			side = 2,
 			dir = 1,
 			blackBg = true,
 			say = "賑やかな日常に、新たな笑顔が加わる。そんな港での「バカンス」は、まだまだ続いていきそうだ",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

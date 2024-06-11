@@ -1,10 +1,10 @@
 slot0 = class("BackyardFeedExtendPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "BackYardFeedExtendPanel"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.icon = slot0._tf:Find("frame/tip/icon"):GetComponent(typeof(Image))
 	slot0.consume = slot0._tf:Find("frame/tip/Text"):GetComponent(typeof(Text))
 	slot0.desc = slot0._tf:Find("frame/desc"):GetComponent(typeof(Text))
@@ -19,7 +19,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0._tf:Find("frame/title"), i18n("words_information"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -31,7 +31,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
 	slot3 = pg.shop_template[slot1]
@@ -53,7 +53,7 @@ function slot0.Show(slot0, slot1, slot2)
 	end, SFX_CONFIRM)
 end
 
-function slot0.Extend(slot0, slot1)
+slot0.Extend = function(slot0, slot1)
 	if getProxy(PlayerProxy):getRawData()[id2res(slot1.resType)] < slot1.resCount then
 		if slot1.resType == 4 then
 			GoShoppingMsgBox(i18n("switch_to_shop_tip_3", i18n("word_gem")), ChargeScene.TYPE_DIAMOND)
@@ -67,11 +67,11 @@ function slot0.Extend(slot0, slot1)
 	slot0:Hide()
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0:Hide()
 end
 

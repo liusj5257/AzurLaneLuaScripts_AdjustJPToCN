@@ -1,6 +1,6 @@
 slot0 = class("TeaTimePuzzlePage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.total = 15
 	slot0.Text = slot0:findTF("AD/Text"):GetComponent(typeof(Text))
@@ -9,7 +9,7 @@ function slot0.OnInit(slot0)
 	slot0.got = slot0:findTF("AD/got")
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	slot2 = {}
 	slot3 = ipairs
 	slot4 = slot0.activity:getData1List() or {}
@@ -71,7 +71,7 @@ function slot0.OnFirstFlush(slot0)
 		fetch = slot0.activity.data1 == 1
 	}, nil)
 
-	function slot0.puzzlaView.onFinish()
+	slot0.puzzlaView.onFinish = function()
 		if uv0.activity.data1 ~= 1 then
 			uv0:emit(ActivityMediator.EVENT_OPERATION, {
 				cmd = 1,
@@ -81,7 +81,7 @@ function slot0.OnFirstFlush(slot0)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	clearImageSprite(slot0.bg)
 
 	if slot0.puzzlaView then

@@ -1,6 +1,6 @@
 slot0 = class("TechnologyNationProxy", import(".NetProxy"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0.typeAttrTable = {}
 	slot0.typeOrder = {}
 	slot0.typeAttrOrderTable = {}
@@ -31,7 +31,7 @@ function slot0.register(slot0)
 			ShipType.FengFanV
 		}
 
-		function slot2(slot0)
+		slot2 = function(slot0)
 			if #uv0 ~= #slot0 then
 				return false
 			end
@@ -73,18 +73,18 @@ function slot0.register(slot0)
 	end
 end
 
-function slot0.flushData(slot0)
+slot0.flushData = function(slot0)
 	slot0:shipGroupFilter()
 	slot0:nationPointFilter()
 	slot0:calculateTecBuff()
 	slot0:refreshRedPoint()
 end
 
-function slot0.updateTecItem(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.updateTecItem = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot0.techList[slot1] then
 		slot0.techList[slot1] = {
-			completeID = 0,
 			rewardedID = 0,
+			completeID = 0,
 			studyID = slot3,
 			finishTime = slot4
 		}
@@ -100,17 +100,17 @@ function slot0.updateTecItem(slot0, slot1, slot2, slot3, slot4, slot5)
 	}
 end
 
-function slot0.updateTecItemAward(slot0, slot1, slot2)
+slot0.updateTecItemAward = function(slot0, slot1, slot2)
 	slot0.techList[slot1].rewardedID = slot2
 end
 
-function slot0.updateTecItemAwardOneStep(slot0)
+slot0.updateTecItemAwardOneStep = function(slot0)
 	for slot4, slot5 in pairs(slot0.techList) do
 		slot5.rewardedID = slot5.completeID
 	end
 end
 
-function slot0.shipGroupFilter(slot0)
+slot0.shipGroupFilter = function(slot0)
 	slot0.groupListInCount = {}
 
 	for slot5, slot6 in pairs(getProxy(CollectionProxy).shipGroups) do
@@ -120,7 +120,7 @@ function slot0.shipGroupFilter(slot0)
 	end
 end
 
-function slot0.nationPointFilter(slot0)
+slot0.nationPointFilter = function(slot0)
 	slot1 = {
 		Nation.US,
 		Nation.EN,
@@ -184,7 +184,7 @@ function slot0.nationPointFilter(slot0)
 	end
 end
 
-function slot0.calculateTecBuff(slot0)
+slot0.calculateTecBuff = function(slot0)
 	slot0.typeBuffList = {}
 	slot0.typeOrder = {}
 
@@ -291,7 +291,7 @@ function slot0.calculateTecBuff(slot0)
 	end
 end
 
-function slot0.setTimer(slot0)
+slot0.setTimer = function(slot0)
 	for slot4, slot5 in pairs(slot0.techList) do
 		if slot5.studyID ~= 0 then
 			slot9 = pg.fleet_tech_group[slot4].techs[(table.indexof(pg.fleet_tech_group[slot4].techs, slot5.completeID, 1) or 0) + 1]
@@ -317,7 +317,7 @@ function slot0.setTimer(slot0)
 	end
 end
 
-function slot0.refreshRedPoint(slot0)
+slot0.refreshRedPoint = function(slot0)
 	slot0.ifShowRedPoint = false
 
 	for slot4, slot5 in pairs(slot0.techList) do
@@ -343,7 +343,7 @@ function slot0.refreshRedPoint(slot0)
 	slot0.ifShowRedPoint = slot0:isAnyTecCampCanGetAward()
 end
 
-function slot0.isAnyTecCampCanGetAward(slot0)
+slot0.isAnyTecCampCanGetAward = function(slot0)
 	slot1 = false
 
 	if not LOCK_TEC_NATION_AWARD then
@@ -359,29 +359,29 @@ function slot0.isAnyTecCampCanGetAward(slot0)
 	return slot1
 end
 
-function slot0.GetTecList(slot0)
+slot0.GetTecList = function(slot0)
 	return slot0.techList
 end
 
-function slot0.GetTecItemByGroupID(slot0, slot1)
+slot0.GetTecItemByGroupID = function(slot0, slot1)
 	return slot0.techList[slot1]
 end
 
-function slot0.getLevelByTecID(slot0, slot1)
+slot0.getLevelByTecID = function(slot0, slot1)
 	slot2 = nil
 
 	return not slot0.techList[slot1] and 0 or table.indexof(pg.fleet_tech_group[slot1].techs, slot0.techList[slot1].completeID, 1) or 0
 end
 
-function slot0.getGroupListInCount(slot0)
+slot0.getGroupListInCount = function(slot0)
 	return slot0.groupListInCount
 end
 
-function slot0.getShowRedPointTag(slot0)
+slot0.getShowRedPointTag = function(slot0)
 	return slot0.ifShowRedPoint
 end
 
-function slot0.getStudyingTecItem(slot0)
+slot0.getStudyingTecItem = function(slot0)
 	for slot4, slot5 in pairs(slot0.techList) do
 		if slot5.studyID ~= 0 then
 			return slot4
@@ -391,19 +391,19 @@ function slot0.getStudyingTecItem(slot0)
 	return nil
 end
 
-function slot0.getPoint(slot0)
+slot0.getPoint = function(slot0)
 	return slot0.point
 end
 
-function slot0.getNationPointList(slot0)
+slot0.getNationPointList = function(slot0)
 	return slot0.nationToPoint
 end
 
-function slot0.getNationPoint(slot0, slot1)
+slot0.getNationPoint = function(slot0, slot1)
 	return slot0.nationToPoint[slot1]
 end
 
-function slot0.getLeftTime(slot0)
+slot0.getLeftTime = function(slot0)
 	if slot0.techList[slot0:getStudyingTecItem()] then
 		return slot1.finishTime - pg.TimeMgr.GetInstance():GetServerTime() > 0 and slot4 or 0
 	else
@@ -411,13 +411,13 @@ function slot0.getLeftTime(slot0)
 	end
 end
 
-function slot0.getTecBuff(slot0)
+slot0.getTecBuff = function(slot0)
 	if OPEN_TEC_TREE_SYSTEM then
 		return slot0.typeAttrTable, slot0.typeOrder, slot0.typeAttrOrderTable
 	end
 end
 
-function slot0.getShipAddition(slot0, slot1, slot2)
+slot0.getShipAddition = function(slot0, slot1, slot2)
 	slot3 = table.indexof(TechnologyConst.TECH_NATION_ATTRS, slot2)
 	slot4 = 0
 
@@ -428,7 +428,7 @@ function slot0.getShipAddition(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot0.getShipMaxAddition(slot0, slot1, slot2)
+slot0.getShipMaxAddition = function(slot0, slot1, slot2)
 	slot3 = table.indexof(TechnologyConst.TECH_NATION_ATTRS, slot2)
 	slot4 = 0
 
@@ -439,7 +439,7 @@ function slot0.getShipMaxAddition(slot0, slot1, slot2)
 	return slot4
 end
 
-function slot0.printNationPointLog(slot0)
+slot0.printNationPointLog = function(slot0)
 	for slot4, slot5 in pairs(slot0.nationToPointLog) do
 		slot9 = "----------------"
 
@@ -479,7 +479,7 @@ function slot0.printNationPointLog(slot0)
 	end
 end
 
-function slot0.initSetableAttrAddition(slot0, slot1)
+slot0.initSetableAttrAddition = function(slot0, slot1)
 	slot0.setValueTypeAttrTable = {}
 
 	for slot5, slot6 in ipairs(slot1) do
@@ -494,11 +494,11 @@ function slot0.initSetableAttrAddition(slot0, slot1)
 	end
 end
 
-function slot0.getSetableAttrAddition(slot0)
+slot0.getSetableAttrAddition = function(slot0)
 	return slot0.setValueTypeAttrTable
 end
 
-function slot0.getSetableAttrAdditionValueByTypeAttr(slot0, slot1, slot2)
+slot0.getSetableAttrAdditionValueByTypeAttr = function(slot0, slot1, slot2)
 	if slot0.setValueTypeAttrTable[slot1] and slot0.setValueTypeAttrTable[slot1][slot2] then
 		return slot0.setValueTypeAttrTable[slot1][slot2]
 	else

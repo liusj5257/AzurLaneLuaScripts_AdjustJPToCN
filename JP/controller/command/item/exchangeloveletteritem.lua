@@ -1,6 +1,6 @@
 slot0 = class("ExchangeLoveLetterItem", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if not getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id) or slot4:isEnd() or slot4.data1 <= 0 then
 		return
 	end
@@ -29,7 +29,6 @@ function slot0.execute(slot0, slot1)
 				slot7:removeItemById(slot6.id, slot6.count)
 			end
 
-			getProxy(MailProxy):resetData()
 			pg.TipsMgr.GetInstance():ShowTips(i18n("loveletter_exchange_tip3"))
 		elseif slot0.result == 20 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("loveletter_exchange_tip1"))

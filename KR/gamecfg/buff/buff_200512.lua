@@ -1,12 +1,12 @@
 return {
-	time = 20,
-	name = "2023古立特联动复刻 新关卡支援弹幕",
 	init_effect = "",
+	name = "2023古立特联动复刻 新关卡支援弹幕",
+	time = 20,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200512,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffCastSkill",
@@ -15,10 +15,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 200512,
 				time = 7,
 				rant = 10000,
-				skill_id = 200512
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -28,10 +28,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 200513,
 				time = 17,
 				rant = 10000,
-				skill_id = 200513
+				target = "TargetSelf"
 			}
 		}
 	}

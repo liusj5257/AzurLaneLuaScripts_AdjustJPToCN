@@ -1,10 +1,10 @@
 slot0 = class("CryptolaliaResDeleteWindow", import("view.base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CryptolaliaResDeleteWindowui"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("window/top/btnBack")
 	slot0.contentTxt = slot0:findTF("window/content/Text"):GetComponent(typeof(Text))
 	slot0.icon = slot0:findTF("window/content/cover/icon"):GetComponent(typeof(Image))
@@ -19,7 +19,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0.confirmBtn:Find("Text"), i18n("text_confirm"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
@@ -31,7 +31,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.Show(slot0, slot1, slot2)
+slot0.Show = function(slot0, slot1, slot2)
 	uv0.super.Show(slot0)
 
 	slot3 = pg.UIMgr.GetInstance()
@@ -65,7 +65,7 @@ function slot0.Show(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.Delete(slot0, slot1, slot2)
+slot0.Delete = function(slot0, slot1, slot2)
 	if slot1 and slot1:IsPlayableState(slot2) then
 		slot3 = slot1:GetCpkName(slot2)
 
@@ -77,12 +77,12 @@ function slot0.Delete(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.exited = true
 end
 

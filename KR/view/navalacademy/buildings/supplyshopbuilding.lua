@@ -1,18 +1,18 @@
 slot0 = class("SupplyShopBuilding", import(".NavalAcademyBuilding"))
 
-function slot0.GetGameObjectName(slot0)
+slot0.GetGameObjectName = function(slot0)
 	return "supplyShop"
 end
 
-function slot0.GetTitle(slot0)
+slot0.GetTitle = function(slot0)
 	return i18n("school_title_shangdian")
 end
 
-function slot0.OnClick(slot0)
+slot0.OnClick = function(slot0)
 	slot0:emit(NavalAcademyMediator.ON_OPEN_SUPPLYSHOP)
 end
 
-function slot0.IsTip(slot0)
+slot0.IsTip = function(slot0)
 	return getProxy(ShopsProxy):getShopStreet() and slot2:isUpdateGoods()
 end
 

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_51 = {}
 slot1 = slot0.word_template_51
 
-function temp()
+temp = function()
 	uv0["多"] = {
 		["党"] = {
 			["执"] = {
@@ -78,7 +78,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["虐"] = {
 		["童"] = {
 			this = true
@@ -111,7 +111,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["性"] = {
 		["事"] = {
 			this = true
@@ -419,7 +419,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.d = {
 		o = {
 			r = {

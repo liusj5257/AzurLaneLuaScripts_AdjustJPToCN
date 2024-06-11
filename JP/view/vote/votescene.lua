@@ -28,24 +28,24 @@ slot0.ShipIndexData = {
 	groupList = {
 		{
 			dropdown = false,
-			titleTxt = "indexsort_index",
 			titleENTxt = "indexsort_indexeng",
+			titleTxt = "indexsort_index",
 			tags = {
 				"typeIndex"
 			}
 		},
 		{
 			dropdown = false,
-			titleTxt = "indexsort_camp",
 			titleENTxt = "indexsort_campeng",
+			titleTxt = "indexsort_camp",
 			tags = {
 				"campIndex"
 			}
 		},
 		{
 			dropdown = false,
-			titleTxt = "indexsort_rarity",
 			titleENTxt = "indexsort_rarityeng",
+			titleTxt = "indexsort_rarity",
 			tags = {
 				"rarityIndex"
 			}
@@ -53,17 +53,17 @@ slot0.ShipIndexData = {
 	}
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "VoteUI"
 end
 
-function slot0.LoadUIFromPool(slot0, slot1, slot2)
+slot0.LoadUIFromPool = function(slot0, slot1, slot2)
 	slot4 = nil
 
 	uv0.super.LoadUIFromPool(slot0, slot0.contextData.voteGroup:isFinalsRace() and "VoteUIForFinal" or slot3:isResurrectionRace() and "VoteUIForResurrection" or slot3:IsFunMetaRace() and "VoteUIForMeta" or slot3:IsFunSireRace() and "VoteUIForSire" or slot3:IsFunKidRace() and "VoteUIForKid" or "VoteUI", slot2)
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.title = slot0:findTF("main/right_panel/title/main"):GetComponent(typeof(Text))
 	slot0.titleBg1 = slot0:findTF("main/right_panel/title/title_bg1")
 	slot0.titleBg2 = slot0:findTF("main/right_panel/title/title_bg2")
@@ -83,7 +83,7 @@ function slot0.init(slot0)
 	setText(slot0:findTF("main/right_panel/filter_bg/search/hold"), i18n("dockyard_search_holder"))
 end
 
-function slot0.GetPageMap(slot0)
+slot0.GetPageMap = function(slot0)
 	return {
 		[VoteConst.RACE_TYPE_PRE] = {
 			VotePreRaceShipPage,
@@ -112,7 +112,7 @@ function slot0.GetPageMap(slot0)
 	}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot1 = slot0:GetPageMap()
 	slot2 = slot0.contextData.voteGroup:getConfig("type")
 	slot0.shipsPage = slot1[slot2][1].New(slot0:findTF("main/right_panel"), slot0.event, slot0.contextData)
@@ -145,7 +145,7 @@ function slot0.didEnter(slot0)
 		slot0 = Clone(uv0.ShipIndexData)
 		slot0.indexDatas = Clone(uv0.ShipIndex)
 
-		function slot0.callback(slot0)
+		slot0.callback = function(slot0)
 			uv0.ShipIndex.typeIndex = slot0.typeIndex
 			uv0.ShipIndex.rarityIndex = slot0.rarityIndex
 			uv0.ShipIndex.campIndex = slot0.campIndex
@@ -171,23 +171,23 @@ function slot0.didEnter(slot0)
 	slot0:initTitles()
 end
 
-function slot0.CheckPaintingRes(slot0, slot1, slot2)
+slot0.CheckPaintingRes = function(slot0, slot1, slot2)
 	slot5 = {}
 
 	for slot9, slot10 in ipairs({
 		slot1.voteShip:getPainting()
 	}) do
-		PaintingConst.AddPaintingNameWithFilteMap(slot5, slot10)
+		PaintingGroupConst.AddPaintingNameWithFilteMap(slot5, slot10)
 	end
 
-	PaintingConst.PaintingDownload({
+	PaintingGroupConst.PaintingDownload({
 		isShowBox = true,
 		paintingNameList = slot5,
 		finishFunc = slot2
 	})
 end
 
-function slot0.OnVote(slot0, slot1, slot2)
+slot0.OnVote = function(slot0, slot1, slot2)
 	slot3 = slot1.voteShip
 	slot4 = slot0.contextData.voteGroup
 	slot6 = slot0.voteMsgBox
@@ -207,17 +207,17 @@ function slot0.OnVote(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.updateMainview(slot0)
+slot0.updateMainview = function(slot0)
 	slot0:initShips()
 	slot0:initRanks()
 	slot0:updateNumber()
 end
 
-function slot0.initRanks(slot0)
+slot0.initRanks = function(slot0)
 	slot0.rankPage:ExecuteAction("Update", slot0.contextData.voteGroup)
 end
 
-function slot0.initShips(slot0)
+slot0.initShips = function(slot0)
 	slot0.displays = {}
 	slot2 = getInputText(slot0.search)
 
@@ -233,7 +233,7 @@ function slot0.initShips(slot0)
 	setActive(slot0.filterSel, uv0.ShipIndex.typeIndex ~= ShipIndexConst.TypeAll or uv0.ShipIndex.campIndex ~= ShipIndexConst.CampAll or uv0.ShipIndex.rarityIndex ~= ShipIndexConst.RarityAll)
 end
 
-function slot0.initTitles(slot0)
+slot0.initTitles = function(slot0)
 	slot0.tagtimeTF.text = slot0.contextData.voteGroup:getTimeDesc()
 
 	if not slot0.contextData.voteGroup:isFinalsRace() then
@@ -243,15 +243,15 @@ function slot0.initTitles(slot0)
 	slot0.subTitle.text = slot0.contextData.voteGroup:getConfig("desc")
 end
 
-function slot0.updateNumber(slot0)
+slot0.updateNumber = function(slot0)
 	slot0.numberTxt.text = "X" .. slot0:GetVotes()
 end
 
-function slot0.GetVotes(slot0)
+slot0.GetVotes = function(slot0)
 	return getProxy(VoteProxy):GetVotesByConfigId(slot0.contextData.voteGroup.configId)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.voteMsgBox and slot0.voteMsgBox:GetLoaded() and slot0.voteMsgBox:isShowing() then
 		slot0.voteMsgBox:Close()
 
@@ -267,7 +267,7 @@ function slot0.onBackPressed(slot0)
 	slot0:emit(uv0.ON_BACK_PRESSED)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.rankPage then
 		slot0.rankPage:Destroy()
 

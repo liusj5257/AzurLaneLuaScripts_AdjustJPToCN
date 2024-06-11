@@ -1,17 +1,17 @@
 return {
-	id = "UI10201",
 	mode = 3,
 	noWaitFade = true,
 	once = true,
+	id = "UI10201",
 	scripts = {
 		{
-			actor = 105040,
+			withoutPainting = true,
 			nameColor = "#a9f548",
 			stopbgm = true,
+			blackBg = true,
+			actor = 105040,
 			mode = 2,
 			say = "姐姐…",
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,10 +24,10 @@ return {
 		{
 			actor = 105040,
 			nameColor = "#a9f548",
+			withoutPainting = true,
 			mode = 2,
+			blackBg = true,
 			say = "姐姐…妳在哪裡",
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,10 +40,10 @@ return {
 		{
 			actor = 105040,
 			nameColor = "#a9f548",
+			withoutPainting = true,
 			mode = 2,
+			blackBg = true,
 			say = "姐姐…海…燃燒起來了",
-			blackBg = true,
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,10 +56,10 @@ return {
 		{
 			actor = 105040,
 			nameColor = "#a9f548",
-			mode = 2,
-			say = "姐姐…對不起…沒能守護好他們…",
-			blackBg = true,
 			withoutPainting = true,
+			mode = 2,
+			blackBg = true,
+			say = "姐姐…對不起…沒能守護好他們…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,11 +73,11 @@ return {
 			actor = 105030,
 			side = 0,
 			bgName = "bg_story_4",
-			nameColor = "#a9f548",
 			bgspeed = 2,
 			blackBg = true,
-			say = "主啊，如果這個世界真的有煉獄存在…那麼我們現在一定身陷其中…",
 			bgm = "story-5",
+			nameColor = "#a9f548",
+			say = "主啊，如果這個世界真的有煉獄存在…那麼我們現在一定身陷其中…",
 			effects = {
 				{
 					active = true,
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			sequenceSpd = 2,
 			mode = 1,
+			sequenceSpd = 2,
 			bgFade = true,
 			effects = {
 				{

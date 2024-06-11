@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_88 = {}
 slot1 = slot0.word_template_88
 
-function temp()
+temp = function()
 	uv0["洞"] = {
 		["口"] = {
 			["县"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["動"] = {
 		["亂"] = {
 			this = true
@@ -32,7 +32,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["都"] = {
 		["改"] = {
 			["当"] = {
@@ -118,7 +118,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["斗"] = {
 		["地"] = {
 			["主"] = {
@@ -136,7 +136,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["逗"] = {
 		["逗"] = {
 			["小"] = {
@@ -162,7 +162,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鬥"] = {
 		["士"] = {
 			["哈"] = {
@@ -185,7 +185,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["独"] = {
 		["立"] = {
 			this = true,

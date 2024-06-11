@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG12",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205070,
 			nameColor = "#92fc63",
 			side = 2,
-			bgm = "battle-boss-4",
 			dir = 1,
 			say = "큭…\"본부에 긴급 연락, 세이렌 및 정체불명의 무기에 기습을 당해, 일시적으로 함대 진형이 무너졌다.\"",
+			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,17 +177,17 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			actorName = "퓨리파이어",
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 900021,
 			nameColor = "#ff0000",
 			say = "이상하네. 여기까지 커다란 '특이점' 이 생겼는데, '그 아이' 가 나타나지 않다니…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -212,12 +212,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
 			blackBg = true,
+			actor = 900021,
+			actorName = "퓨리파이어",
 			say = " '프로토타입'……한번 만나보고 싶은데에~",
 			typewriter = {
 				speed = 0.05,
@@ -229,12 +229,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff0000",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
 			blackBg = true,
+			actor = 900021,
+			actorName = "퓨리파이어",
 			say = "뭐, 일단은 옵저버에게 송신 송신~",
 			typewriter = {
 				speed = 0.05,

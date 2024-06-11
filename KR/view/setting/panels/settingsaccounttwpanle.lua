@@ -1,13 +1,13 @@
 slot0 = class("SettingsAccountTwPanle", import(".SettingsBasePanel"))
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "SettingsAccountTW"
 end
 
-function slot0.InitTitle(slot0)
+slot0.InitTitle = function(slot0)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.googleBtn = slot0._tf:Find("page1/bind_google")
 	slot0.gamecenterBtn = slot0._tf:Find("page1/bind_gamecenter")
 	slot0.faceBookBtn = slot0._tf:Find("page1/bind_facebook")
@@ -45,7 +45,7 @@ function slot0.OnInit(slot0)
 	end
 end
 
-function slot0.OnUpdate(slot0)
+slot0.OnUpdate = function(slot0)
 	if PLATFORM == PLATFORM_ANDROID then
 		setActive(slot0.googleBtn, true)
 		setActive(slot0.gamecenterBtn, false)

@@ -1,17 +1,17 @@
 return {
-	id = "HUAPOHAIKONGZHIYI3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "HUAPOHAIKONGZHIYI3",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 102260,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "プリンストン、さっきの戦いかっこよかったよ！",
 			dir = 1,
 			bgm = "battle-boss-1",
+			actor = 102260,
+			nameColor = "#a9f548",
+			say = "プリンストン、さっきの戦いかっこよかったよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -35,8 +35,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "…ん？そう…？",
 			typewriter = {
 				speed = 0.05,
@@ -66,8 +66,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "それは…いい先生がついてたからよ。",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "いい先生…？",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "はい。同じユニオンの空母で、私の憧れーーサラトガさんよ。",
 			typewriter = {
 				speed = 0.05,
@@ -114,8 +114,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "あなたが褒めてくれた戦い方も、私自身の努力だけじゃなく、サラトガさんに教わったものでもあるわ",
 			typewriter = {
 				speed = 0.05,
@@ -130,8 +130,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "私なんかよりサラトガさんの戦い方はまさに芸術的と言ってもよくて…ううん、実際見てみないとイメージなどできるはずがないもの",
 			typewriter = {
 				speed = 0.05,
@@ -160,13 +160,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "艦載機をコントロールする力も言うまでもなく私が見てきた中で————",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -191,14 +191,14 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 107230,
+			nameColor = "#a9f548",
 			say = "これだけでもユニオンの正規空母として十二分活躍できているのに、サラトガさんは————",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -223,12 +223,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -271,8 +271,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "あっ！すみません…毎回サラトガさんのことになると無意識に興奮してしまい…",
 			typewriter = {
 				speed = 0.05,
@@ -287,8 +287,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "大丈夫よ～あなたのサラトガさんへの憧れ、リノに十分伝わったよ！",
 			typewriter = {
 				speed = 0.05,
@@ -317,9 +317,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 107230,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "わかってくれるの？よかったわ…！",
 			typewriter = {
 				speed = 0.05,
@@ -331,8 +331,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -344,8 +344,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "プリンストンって…モントピリアに似てところがある。",
 			typewriter = {
 				speed = 0.05,
@@ -360,8 +360,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			say = "モントピリアと…？",
 			typewriter = {
 				speed = 0.05,
@@ -376,8 +376,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "誰かにすごく憧れている、という点では。ん…？姉貴からの連絡…",
 			typewriter = {
 				speed = 0.05,

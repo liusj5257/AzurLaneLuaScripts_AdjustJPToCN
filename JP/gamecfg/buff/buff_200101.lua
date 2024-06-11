@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "勇者标枪永久盾牌",
 	time = 0,
-	color = "red",
+	name = "勇者标枪永久盾牌",
+	init_effect = "",
+	id = 200101,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200101,
+	color = "red",
 	icon = 200101,
 	last_effect = "",
 	effect_list = {
@@ -18,9 +18,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				do_when_hit = "intercept",
 				effect = "shield_yongzhe",
 				count = 99999,
+				do_when_hit = "intercept",
 				bulletType = 1,
 				cld_list = {
 					{

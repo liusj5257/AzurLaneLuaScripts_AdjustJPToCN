@@ -1,6 +1,6 @@
 slot0 = class("BattleSubmarineRoutineResultLayer", import(".BattleResultLayer"))
 
-function slot0.rankAnimaFinish(slot0)
+slot0.rankAnimaFinish = function(slot0)
 	slot1 = slot0:findTF("main/conditions")
 
 	SetActive(slot1, true)
@@ -21,7 +21,7 @@ function slot0.rankAnimaFinish(slot0)
 	slot0._stateFlag = uv0.STATE_REPORT
 end
 
-function slot0.setCondition(slot0, slot1, slot2, slot3, slot4)
+slot0.setCondition = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = cloneTplTo(slot0._conditionSubTpl, slot0._conditionContainer)
 
 	setActive(slot5, false)
@@ -45,7 +45,7 @@ function slot0.setCondition(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.displayBG(slot0)
+slot0.displayBG = function(slot0)
 	LeanTween.moveX(rtf(slot0._conditions), 1300, uv0.DURATION_MOVE)
 	LeanTween.scale(slot0._grade, Vector3(0.6, 0.6, 0), uv0.DURATION_MOVE)
 	LeanTween.moveLocal(go(rtf(slot0._grade)), slot0._gradeUpperLeftPos, uv0.DURATION_MOVE):setOnComplete(System.Action(function ()
@@ -56,7 +56,7 @@ function slot0.displayBG(slot0)
 	setActive(slot0:findTF("jieuan01/Bomb", slot0._bg), false)
 end
 
-function slot0.showRightBottomPanel(slot0)
+slot0.showRightBottomPanel = function(slot0)
 	uv0.super.showRightBottomPanel(slot0)
 	setText(slot0._playerBonusExp, "+" .. slot0:calcPlayerProgress())
 	SetActive(slot0._subToggle, false)

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HAIDAORICHANG33",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HAIDAORICHANG33",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"海風與夏日的無人島\n\n<size=45>黃金海灘的尾音</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
-			say = "——麗日晴川。金色的沙灘之上，迎來了近期最為熱鬧的一天。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "main-SeaAndSun",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "——麗日晴川。金色的沙灘之上，迎來了近期最為熱鬧的一天。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -56,17 +56,17 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "標槍",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -91,8 +91,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "標槍",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "拉菲",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "標槍",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Z23",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -149,8 +149,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Z23",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -161,8 +161,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "綾波",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -173,8 +173,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "綾波",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "標槍",
+			side = 2,
 			bgName = "bg_summerisland_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -204,11 +204,11 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_106",
 			actor = 301820,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "要來一杯檸檬茶嘛？加了糖和茉莉花，很好喝的哦。",
 			painting = {
 				alpha = 0.3,
@@ -219,17 +219,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -237,12 +237,12 @@ return {
 			}
 		},
 		{
-			actor = 107070,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我這邊還烤了新鮮出爐的披薩~！來，分給大家囉~",
 			painting = {
 				alpha = 0.3,
@@ -257,10 +257,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哇哦，感覺很不錯啊！多謝多謝~",
 			painting = {
 				alpha = 0.3,
@@ -272,8 +272,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -285,10 +285,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 608020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "檸檬茶我來一杯，披薩就……",
 			painting = {
 				alpha = 0.3,
@@ -300,12 +300,12 @@ return {
 			}
 		},
 		{
-			actor = 408080,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 408080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "披薩就先等等，先來嚐嚐我鐵血特製的醬豬腳和酸菜吧！",
 			painting = {
 				alpha = 0.3,
@@ -320,10 +320,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 408080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "當然，碳酸咖啡也不能少！",
 			painting = {
 				alpha = 0.3,
@@ -338,10 +338,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 108020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……夏日的聚會配冰淇淋才是正確的事情吧！",
 			painting = {
 				alpha = 0.3,
@@ -353,8 +353,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -365,11 +365,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_106",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊！！為什麼明明是我先發現的素材，卻被妳先報導了啊！",
 			painting = {
 				alpha = 0.3,
@@ -380,17 +380,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -398,8 +398,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -417,10 +417,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "還用這麼誘導性的標題——“震驚！指揮官在溫泉的風流秘事”……！",
 			painting = {
 				alpha = 0.3,
@@ -432,8 +432,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -442,12 +442,12 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 303030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "這叫善於抓住機會嘛。",
 			painting = {
 				alpha = 0.3,
@@ -465,12 +465,12 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 303030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "如果有不服氣的話，可以再去取材哦？總之我先溜了~！",
 			painting = {
 				alpha = 0.3,
@@ -485,10 +485,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊可惡！等等我！",
 			painting = {
 				alpha = 0.3,
@@ -500,8 +500,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -510,12 +510,12 @@ return {
 			}
 		},
 		{
-			actor = 101050,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 101050,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "還有我！真是的，妳們倒是等一下港區老牌資歷的資深記者呀！",
 			painting = {
 				alpha = 0.3,
@@ -527,8 +527,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -537,27 +537,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_106",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_106",
 			say = "白浪拍打著的海灘。爽朗的海風與美妙的宴會相交織，編制出一副如夢的畫面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -565,12 +565,12 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "“暖風帶來金色的故事，它已吹過，但陽光下依然留有痕跡。”",
 			painting = {
 				alpha = 0.3,
@@ -582,8 +582,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "熟悉的聲音在耳邊響起。",
@@ -602,10 +602,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "哼哼，怎麼，看到我很意外？",
 			painting = {
 				alpha = 0.3,
@@ -620,10 +620,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "你舉辦了這麼熱鬧的慶功宴，我當然不能錯過啊~",
 			painting = {
 				alpha = 0.3,
@@ -635,8 +635,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "妳是怎麼知道今天有慶功宴的？",
@@ -646,12 +646,12 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "海盜知道去哪裡有熱鬧看不是與生俱來的本能嗎~？",
 			painting = {
 				alpha = 0.3,
@@ -663,8 +663,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "這幾天妳又一個人在做什麼？",
@@ -677,10 +677,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "依然是秘密~作為海盜，保持神秘感也是很重要的。",
 			painting = {
 				alpha = 0.3,
@@ -695,10 +695,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "啊，等等再和你聊！",
 			painting = {
 				alpha = 0.3,
@@ -710,8 +710,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -723,10 +723,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那邊的蜜汁烤肉和鳳梨披薩也留一份給我——！",
 			painting = {
 				alpha = 0.3,
@@ -738,8 +738,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "皇家幸運一邊揮著刀，一邊向食物衝了過去！",
@@ -749,8 +749,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "……看起來笑容是會傳染的。",
@@ -760,8 +760,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			say = "不然，為何現在它也爬上了我的嘴角呢？",

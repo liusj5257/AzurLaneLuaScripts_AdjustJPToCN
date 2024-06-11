@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HOLOGUANQIA1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "HOLOGUANQIA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			actorName = "大神澪",
+			side = 2,
 			stopbgm = true,
-			blackBg = true,
 			dir = 1,
 			bgmDelay = 1,
+			blackBg = true,
 			nameColor = "#a9f548",
 			say = "周围是再熟悉不过的墙壁和天花板",
 			flashin = {
@@ -34,8 +34,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大神澪",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -50,8 +50,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大神澪",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -66,8 +66,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大神澪",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -82,8 +82,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大神澪",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "大神澪",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
@@ -114,12 +114,12 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "holo-fff-inst",
 			side = 2,
-			say = "轰----！",
 			dir = 1,
 			blackBg = true,
-			bgm = "holo-fff-inst",
+			soundeffect = "event:/battle/boom2",
+			say = "轰----！",
 			flashN = {
 				color = {
 					1,
@@ -170,8 +170,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "不可能啊啊啊啊啊！在这种状况怎么可能保持冷静啊！！！",
 			typewriter = {
@@ -184,8 +184,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -197,10 +197,10 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
-			dir = -1,
-			nameColor = "#a9f548",
 			say = "澪！房间里的是大神澪么！！",
+			dir = -1,
+			actor = 900209,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -218,8 +218,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "吹雪？！太好了，妳平安无事啊！",
 			typewriter = {
@@ -235,11 +235,11 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "此地不宜久留，塞壬的量产型舰队已经向这边靠近了！",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -290,8 +290,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "塞…塞壬？",
 			typewriter = {
@@ -304,8 +304,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -333,8 +333,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "吹雪…倒是意外的冷静…到底是什么状况啊现在！舰队又是怎么回事啊！！",
 			typewriter = {
@@ -350,8 +350,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "澪酱，冷静一些。外面突然淹没各处的海水，水面上游弋的塞壬舰队…",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "我们恐怕因为某些原因，随着holo服务器一同穿越到碧蓝航线的世界了，而且来到了冲突的正中心。",
 			typewriter = {
@@ -384,8 +384,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "塞壬舰队…就是侵占了碧蓝航线世界的海洋，作为游戏中最大反派的那个塞壬么？！",
 			typewriter = {
@@ -401,8 +401,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "bg_story_holosaba1",
-			actor = 900215,
 			dir = 1,
+			actor = 900215,
 			nameColor = "#a9f548",
 			say = "我们发生了异世界穿越？！这不是大事不妙了么！！",
 			typewriter = {
@@ -415,8 +415,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -428,11 +428,11 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
+			soundeffect = "event:/battle/boom2",
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "可恶…要是这时候我的白上舰队在这里，这些塞壬根本不堪一击——",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -483,9 +483,9 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "bg_story_holosaba1",
-			actor = 900209,
 			dir = -1,
 			blackBg = true,
+			actor = 900209,
 			nameColor = "#a9f548",
 			say = "{namecode:158}酱，{namecode:96}酱， 明明我也是指挥官来着…",
 			typewriter = {

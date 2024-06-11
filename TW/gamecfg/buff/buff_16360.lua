@@ -9,14 +9,14 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "广结善缘",
 	time = 0,
-	color = "yellow",
+	name = "广结善缘",
+	init_effect = "",
+	id = 16360,
 	picture = "",
 	desc = "出击时，自身所在编队中每有一个东煌阵营角色，自身的航空、命中属性提升$1；若队伍中存在其他东煌阵营角色，降低自己$2受到的伤害，自身发动空袭后，降低队伍中先锋角色受到的伤害$3，持续8秒。",
 	stack = 1,
-	id = 16360,
+	color = "yellow",
 	icon = 16360,
 	last_effect = "",
 	effect_list = {
@@ -53,8 +53,8 @@ return {
 			arg_list = {
 				buff_id = 16362,
 				minTargetNumber = 2,
-				target = "TargetSelf",
 				nationality = 5,
+				target = "TargetSelf",
 				check_target = {
 					"TargetNationalityFriendly"
 				}

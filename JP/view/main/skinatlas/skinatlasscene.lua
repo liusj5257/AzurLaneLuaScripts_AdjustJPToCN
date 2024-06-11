@@ -3,11 +3,11 @@ slot0.PAGE_ALL = -1
 slot0.ON_NEXT_SKIN = "SkinAtlasScene:ON_NEXT_SKIN"
 slot0.ON_PREV_SKIN = "SkinAtlasScene:ON_PREV_SKIN"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SkinAtlasUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.canvasGroup = slot0._tf:GetComponent(typeof(CanvasGroup))
 	slot0.backBtn = slot0:findTF("adapt/top_panel/back_btn")
 	slot0.homeBtn = slot0:findTF("adapt/top_panel/option")
@@ -34,7 +34,7 @@ function slot0.init(slot0)
 	}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0.cards = {}
 
 	onButton(slot0, slot0.homeBtn, function ()
@@ -58,11 +58,11 @@ function slot0.didEnter(slot0)
 		uv0:SwitchPreviewSkin(slot1 - 1)
 	end)
 
-	function slot0.scrollrect.onInitItem(slot0)
+	slot0.scrollrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 
-	function slot0.scrollrect.onUpdateItem(slot0, slot1)
+	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
@@ -72,13 +72,13 @@ function slot0.didEnter(slot0)
 	slot0:InitSkinPages()
 end
 
-function slot0.SwitchPreviewSkin(slot0, slot1)
+slot0.SwitchPreviewSkin = function(slot0, slot1)
 	if slot0.displays and slot0.displays[slot1] then
 		slot0.previewPage:ExecuteAction("Flush", slot0.displays[slot1], slot1)
 	end
 end
 
-function slot1(slot0)
+slot1 = function(slot0)
 	slot1 = pg.skin_page_template
 	slot3 = slot0:GetID() == uv0.PAGE_ALL and "text_all" or "text_" .. slot1[slot2].res
 
@@ -97,7 +97,7 @@ function slot1(slot0)
 	setText(slot0._tr:Find("eng"), slot2 == uv0.PAGE_ALL and "ALL" or slot1[slot2].english_name)
 end
 
-function slot0.InitSkinPages(slot0, slot1)
+slot0.InitSkinPages = function(slot0, slot1)
 	slot2 = Clone(pg.skin_page_template.all)
 
 	table.insert(slot2, 1, uv0.PAGE_ALL)
@@ -125,7 +125,7 @@ function slot0.InitSkinPages(slot0, slot1)
 	end)
 end
 
-function slot0.OnSelectSkinPage(slot0, slot1)
+slot0.OnSelectSkinPage = function(slot0, slot1)
 	if slot0.selectedSkinPageItem then
 		setActive(slot0.selectedSkinPageItem._tr:Find("selected"), false)
 		setActive(slot0.selectedSkinPageItem._tr:Find("name"), true)
@@ -137,17 +137,17 @@ function slot0.OnSelectSkinPage(slot0, slot1)
 	slot0.selectedSkinPageItem = slot1
 end
 
-function slot0.OnConfirmSkinPage(slot0, slot1)
+slot0.OnConfirmSkinPage = function(slot0, slot1)
 	slot0.skinPageID = slot1:GetID()
 
 	slot0:UpdateSkinCards()
 end
 
-function slot0.OnSearch(slot0)
+slot0.OnSearch = function(slot0)
 	slot0:UpdateSkinCards()
 end
 
-function slot0.OnFilter(slot0, slot1)
+slot0.OnFilter = function(slot0, slot1)
 	slot0.defaultIndex = {
 		typeIndex = slot1.typeIndex,
 		campIndex = slot1.campIndex,
@@ -159,7 +159,7 @@ function slot0.OnFilter(slot0, slot1)
 	setActive(slot0.indexBtnSel, slot1.typeIndex ~= ShipIndexConst.TypeAll or slot1.campIndex ~= ShipIndexConst.CampAll or slot1.rarityIndex ~= ShipIndexConst.RarityAll or slot1.extraIndex ~= SkinAtlasIndexLayer.ExtraALL)
 end
 
-function slot0.ToVShip(slot0, slot1)
+slot0.ToVShip = function(slot0, slot1)
 	if not slot0.vship then
 		slot0.vship = {
 			getNation = function ()
@@ -182,7 +182,7 @@ function slot0.ToVShip(slot0, slot1)
 	return slot0.vship
 end
 
-function slot0.MatchIndex(slot0, slot1)
+slot0.MatchIndex = function(slot0, slot1)
 	if not slot1:GetDefaultShipConfig() then
 		return false
 	end
@@ -192,7 +192,7 @@ function slot0.MatchIndex(slot0, slot1)
 	return ShipIndexConst.filterByType(slot3, slot0.defaultIndex.typeIndex) and ShipIndexConst.filterByCamp(slot3, slot0.defaultIndex.campIndex) and ShipIndexConst.filterByRarity(slot3, slot0.defaultIndex.rarityIndex) and SkinAtlasIndexLayer.filterByExtra(slot1, slot0.defaultIndex.extraIndex)
 end
 
-function slot0.GetSkinList(slot0, slot1, slot2)
+slot0.GetSkinList = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot8, slot9 in pairs(getProxy(ShipSkinProxy):GetOwnSkins()) do
@@ -204,7 +204,7 @@ function slot0.GetSkinList(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.UpdateSkinCards(slot0)
+slot0.UpdateSkinCards = function(slot0)
 	slot0.displays = slot0:GetSkinList(slot0.skinPageID, getInputText(slot0.inptuTr))
 
 	slot0:SortDisplay(slot0.displays)
@@ -212,7 +212,7 @@ function slot0.UpdateSkinCards(slot0)
 	setActive(slot0.emptyTr, #slot0.displays == 0)
 end
 
-function slot0.SortDisplay(slot0, slot1)
+slot0.SortDisplay = function(slot0, slot1)
 	table.sort(slot1, function (slot0, slot1)
 		if slot0:getConfig("ship_group") == slot1:getConfig("ship_group") then
 			return slot0:getConfig("group_index") < slot1:getConfig("group_index")
@@ -222,7 +222,7 @@ function slot0.SortDisplay(slot0, slot1)
 	end)
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = SkinAtlasCard.New(slot1)
 
 	onButton(slot0, slot2._tf, function ()
@@ -232,7 +232,7 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 	end
@@ -240,7 +240,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	slot0.cards[slot2]:Update(slot0.displays[slot1 + 1], slot1 + 1)
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.previewPage and slot0.previewPage:GetLoaded() and slot0.previewPage:isShowing() then
 		if slot0.previewPage:IsShowSelectShipView() then
 			slot0.previewPage:CloseSelectShipView()
@@ -256,7 +256,7 @@ function slot0.onBackPressed(slot0)
 	uv0.super.onBackPressed(slot0)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:Dispose()
 	end

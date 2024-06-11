@@ -2,12 +2,12 @@ return {
 	desc_get = "",
 	name = "铁血空中支援",
 	init_effect = "",
+	id = 9507,
 	time = 0,
-	color = "blue",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9507,
+	color = "blue",
 	icon = 10015,
 	last_effect = "",
 	effect_list = {
@@ -17,8 +17,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = 0.1
+				number = 0.1,
+				attr = "injureRatioByAir"
 			}
 		}
 	}

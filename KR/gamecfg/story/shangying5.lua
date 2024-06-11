@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANGYING5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANGYING5",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"벚꽃놀이 대소동\n\n<size=45>제5장 - 하늘에 수 놓는 벚꽃</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 306030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "봄이라 하면 역시 벚꽃이죠.",
 			bgm = "story-1",
+			actor = 306030,
+			nameColor = "#92fc63",
+			say = "봄이라 하면 역시 벚꽃이죠.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 			}
 		},
 		{
-			actor = 306030,
+			say = "모두가 즐거워하는 걸 보니 저도 준비한 보람이 있네요. 어머? 저기 있는 건……",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "모두가 즐거워하는 걸 보니 저도 준비한 보람이 있네요. 어머? 저기 있는 건……",
+			actor = 306030,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -86,15 +86,15 @@ return {
 			}
 		},
 		{
-			actor = 401230,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
+			actor = 401230,
+			nameColor = "#92fc63",
 			say = "연회는 여기서 하는 건가…와아, 다들 들떠있네!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -119,12 +119,12 @@ return {
 			}
 		},
 		{
-			actor = 201210,
+			say = "맛있는 음식 냄새가 여기까지 나요~",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
 			dir = 1,
-			say = "맛있는 음식 냄새가 여기까지 나요~",
+			actor = 201210,
+			nameColor = "#92fc63",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -219,15 +219,15 @@ return {
 			}
 		},
 		{
-			actor = 306030,
-			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#92fc63",
+			side = 2,
 			dir = 1,
+			actor = 306030,
+			nameColor = "#92fc63",
 			say = "우후후, 왠지 흐뭇하네요~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

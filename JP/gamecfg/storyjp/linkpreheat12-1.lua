@@ -1,16 +1,16 @@
 return {
-	id = "LINKPREHEAT12-1",
 	mode = 2,
-	fadein = 1,
 	once = true,
+	id = "LINKPREHEAT12-1",
+	fadein = 1,
 	scripts = {
 		{
-			actor = 10300020,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "ここはわたしに任せてほしいのです",
 			dir = 1,
 			bgm = "level-uta",
+			actor = 10300020,
+			nameColor = "#a9f548",
+			say = "ここはわたしに任せてほしいのです",
 			flashin = {
 				delay = 0,
 				dur = 0.25,
@@ -48,8 +48,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			say = "同じくらいの綾波さんに言われたくないのです。大丈夫、自信ありなのです",
 			typewriter = {
 				speed = 0.05,
@@ -94,8 +94,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			say = "この艤装という装備の助けもありますし、いざとなればキリポンたちを召喚して凌いでみせるのです",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "でもネコネ……決して無理しちゃダメだよ？",
 			typewriter = {
 				speed = 0.05,
@@ -171,8 +171,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			say = "姉さま、ルルティエさま……はい、お願いするのです",
 			typewriter = {
 				speed = 0.05,

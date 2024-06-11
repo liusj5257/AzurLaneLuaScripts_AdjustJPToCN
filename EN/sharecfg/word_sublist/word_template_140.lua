@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_140 = {}
 slot1 = slot0.word_template_140
 
-function temp()
+temp = function()
 	uv0["级"] = {
 		["别"] = {
 			["把"] = {
@@ -23,7 +23,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["极"] = {
 		["道"] = {
 			["毁"] = {
@@ -208,7 +208,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["急"] = {
 		["忙"] = {
 			["掏"] = {
@@ -233,7 +233,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["極"] = {
 		["品"] = {
 			["白"] = {
@@ -265,7 +265,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["殛"] = {
 		this = {
 			this = true
@@ -275,7 +275,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["集"] = {
 		["体"] = {
 			["罢"] = {
@@ -348,7 +348,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["蕺"] = {
 		this = {
 			this = true

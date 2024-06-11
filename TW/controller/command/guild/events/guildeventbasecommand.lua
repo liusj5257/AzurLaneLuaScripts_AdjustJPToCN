@@ -1,6 +1,6 @@
 slot0 = class("GuildEventBaseCommand", pm.SimpleCommand)
 
-function slot0.ExistGuild(slot0)
+slot0.ExistGuild = function(slot0)
 	if not getProxy(GuildProxy):getRawData() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_not_exist"))
 
@@ -10,7 +10,7 @@ function slot0.ExistGuild(slot0)
 	return true
 end
 
-function slot0.ExistEvent(slot0, slot1)
+slot0.ExistEvent = function(slot0, slot1)
 	if not getProxy(GuildProxy):getRawData():GetEventById(slot1) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_not_exist_battle"))
 
@@ -20,7 +20,7 @@ function slot0.ExistEvent(slot0, slot1)
 	return true
 end
 
-function slot0.ExistActiveEvent(slot0)
+slot0.ExistActiveEvent = function(slot0)
 	if not slot0:ExistGuild() then
 		return false
 	end
@@ -34,7 +34,7 @@ function slot0.ExistActiveEvent(slot0)
 	return true
 end
 
-function slot0.NotExistActiveEvent(slot0)
+slot0.NotExistActiveEvent = function(slot0)
 	if getProxy(GuildProxy):getRawData():GetActiveEvent() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_battle_is_exist"))
 
@@ -44,7 +44,7 @@ function slot0.NotExistActiveEvent(slot0)
 	return true
 end
 
-function slot0.ExistMission(slot0, slot1)
+slot0.ExistMission = function(slot0, slot1)
 	if not slot0:ExistActiveEvent() then
 		return false
 	end
@@ -60,13 +60,13 @@ function slot0.ExistMission(slot0, slot1)
 	return true
 end
 
-function slot0.GetMissionById(slot0, slot1)
+slot0.GetMissionById = function(slot0, slot1)
 	if slot0:ExistMission(slot1) then
 		return getProxy(GuildProxy):getRawData():GetActiveEvent():GetMissionById(slot1)
 	end
 end
 
-function slot0.CanFormationMission(slot0, slot1)
+slot0.CanFormationMission = function(slot0, slot1)
 	if not slot0:ExistMission(slot1) then
 		return false
 	end
@@ -80,7 +80,7 @@ function slot0.CanFormationMission(slot0, slot1)
 	return true
 end
 
-function slot0.ExistBoss(slot0)
+slot0.ExistBoss = function(slot0)
 	if not slot0:ExistActiveEvent() then
 		return false
 	end
@@ -94,7 +94,7 @@ function slot0.ExistBoss(slot0)
 	return true
 end
 
-function slot0.IsAnim(slot0)
+slot0.IsAnim = function(slot0)
 	if not GuildMember.IsAdministrator(getProxy(GuildProxy):getRawData():getSelfDuty()) then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_commander_and_sub_op"))
 
@@ -104,7 +104,7 @@ function slot0.IsAnim(slot0)
 	return true
 end
 
-function slot0.CheckCapital(slot0, slot1, slot2)
+slot0.CheckCapital = function(slot0, slot1, slot2)
 	if getProxy(GuildProxy):getRawData():getCapital() < slot1:GetConsume() then
 		pg.TipsMgr:GetInstance():ShowTips(i18n("guild_guildgold_no_enough_for_battle"))
 

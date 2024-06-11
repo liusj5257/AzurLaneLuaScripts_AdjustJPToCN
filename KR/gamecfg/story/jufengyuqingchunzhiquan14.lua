@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN14",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN14",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "여러 차례 재난을 겪으면서 '위대한 로열 포춘 호'는 적막한 밤바다를 헤쳐 나간다.",
 			bgm = "story-temepest-1",
+			say = "여러 차례 재난을 겪으면서 '위대한 로열 포춘 호'는 적막한 밤바다를 헤쳐 나간다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "달이 맨 뒤 돛대의 끝을 은빛으로 물들였고, 삼각돛의 윤곽도 새하얀 빛을 뿜어내는 것처럼 보였다.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "바다의 모험가들에게는 어울리지 않는, 평온으로 휩싸인 아름다운 광경.",
@@ -42,8 +42,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "이윽고, 그 평온은 망루에 있는 동료의 함성으로 인해 깨지고 만다.",
@@ -72,11 +72,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "바다의 샛별",
 			dir = 1,
+			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "육지다——!!",
@@ -90,8 +90,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "'위대한 로열 포춘 호'의 선원들…이라고 해보았자 자신과 함선 몇이지만, 다 함께 갑판에 모였다.",
@@ -101,8 +101,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "로열 포춘이 손가락으로 가리킨 방향으로 시선이 집중됐고, 동료들은 교대로 망원경을 들여다보았다.",
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "모두 숨을 죽이고 육지가 수평선에서 나타나는 그 순간만을 기다렸다.",
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "그렇지만 모습을 드러낸 것은 대지가 아니라, 예상외의 존재였다.",
@@ -136,8 +136,8 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_jufengv1_4",
 			factiontag = "무적의 월계관",
+			bgName = "bg_jufengv1_4",
 			bgm = "story-temepest-2",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -148,17 +148,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

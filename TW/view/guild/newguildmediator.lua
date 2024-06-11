@@ -3,7 +3,7 @@ slot0.OPEN_GUILD_LIST = "NewGuildMediator:OPEN_GUILD_LIST"
 slot0.CREATE = "NewGuildMediator:CREATE"
 slot0.OPEN_PUBLIC_GUILD = "NewGuildMediator:OPEN_PUBLIC_GUILD"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = getProxy(PlayerProxy)
 	slot3 = slot0.viewComponent
 
@@ -22,7 +22,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GuildProxy.NEW_GUILD_ADDED,
 		PlayerProxy.UPDATED,
@@ -31,7 +31,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GuildProxy.NEW_GUILD_ADDED then

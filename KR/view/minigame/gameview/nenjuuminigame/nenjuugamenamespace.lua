@@ -3,34 +3,34 @@ slot1 = {
 	TargetObject = function ()
 		slot0 = class("TargetObject")
 
-		function slot0.GetSize(slot0)
+		slot0.GetSize = function(slot0)
 			return slot0.size
 		end
 
-		function slot0.InTimeLine(slot0)
+		slot0.InTimeLine = function(slot0)
 			return false
 		end
 
-		function slot0.Moveable(slot0)
+		slot0.Moveable = function(slot0)
 			return false
 		end
 
-		function slot0.BreakMoveable(slot0)
+		slot0.BreakMoveable = function(slot0)
 			return false
 		end
 
-		function slot0.GetBaseOrder(slot0)
+		slot0.GetBaseOrder = function(slot0)
 			return 3
 		end
 
-		function slot0.Ctor(slot0, slot1, slot2, slot3)
+		slot0.Ctor = function(slot0, slot1, slot2, slot3)
 			slot0._tf = slot2
 			slot0.controller = slot1
 
 			slot0:Init(slot3)
 		end
 
-		function slot0.Init(slot0, slot1)
+		slot0.Init = function(slot0, slot1)
 			slot0.name = slot1.name
 			slot0.size = slot1.size or NewPos(1, 1)
 			slot0.canHide = slot1.hide
@@ -44,10 +44,10 @@ slot1 = {
 			slot0:InitUI(slot1)
 		end
 
-		function slot0.InitUI(slot0, slot1)
+		slot0.InitUI = function(slot0, slot1)
 		end
 
-		function slot0.UpdatePos(slot0, slot1)
+		slot0.UpdatePos = function(slot0, slot1)
 			slot0._tf:GetComponent(typeof(Canvas)).sortingOrder = (slot1.y + slot0:GetSize().y) * 10 + slot0:GetBaseOrder()
 
 			slot0.controller:UpdateTargetPos(slot0, slot0.pos, slot1)
@@ -55,14 +55,14 @@ slot1 = {
 			slot0.pos = slot1
 		end
 
-		function slot0.UpdatePosition(slot0)
+		slot0.UpdatePosition = function(slot0)
 			setAnchoredPosition(slot0._tf, {
 				x = slot0.realPos.x * 32,
 				y = slot0.realPos.y * -32
 			})
 		end
 
-		function slot0.PlayAnim(slot0, slot1)
+		slot0.PlayAnim = function(slot0, slot1)
 			if slot0.status ~= slot1 then
 				slot0.status = slot1
 
@@ -75,11 +75,11 @@ slot1 = {
 	TargetIce = function ()
 		slot0 = class("TargetIce", uv0.TargetObject)
 
-		function slot0.BreakMoveable(slot0)
+		slot0.BreakMoveable = function(slot0)
 			return true
 		end
 
-		function slot0.InitUI(slot0, slot1)
+		slot0.InitUI = function(slot0, slot1)
 			slot2 = slot0._tf
 			slot0.mainTarget = slot2:Find("scale/Image")
 			slot2 = slot0.mainTarget
@@ -100,7 +100,7 @@ slot1 = {
 			end
 		end
 
-		function slot0.Break(slot0)
+		slot0.Break = function(slot0)
 			if slot0.isLost then
 				return
 			else
@@ -115,15 +115,15 @@ slot1 = {
 	TargetItem = function ()
 		slot0 = class("TargetItem", uv0.TargetObject)
 
-		function slot0.Moveable(slot0)
+		slot0.Moveable = function(slot0)
 			return true
 		end
 
-		function slot0.GetBaseOrder(slot0)
+		slot0.GetBaseOrder = function(slot0)
 			return 2
 		end
 
-		function slot0.InitUI(slot0, slot1)
+		slot0.InitUI = function(slot0, slot1)
 			slot0.point = slot1.point
 			slot3 = slot0._tf
 
@@ -137,7 +137,7 @@ slot1 = {
 	TargetArbor = function ()
 		slot0 = class("TargetArbor", uv0.TargetObject)
 
-		function slot0.InitUI(slot0, slot1)
+		slot0.InitUI = function(slot0, slot1)
 			slot2 = string.split(slot0.name, "_")
 			slot4 = slot0._tf
 
@@ -151,15 +151,15 @@ slot1 = {
 	TargetMove = function ()
 		slot0 = class("TargetMove", uv0.TargetObject)
 
-		function slot0.InTimeLine(slot0)
+		slot0.InTimeLine = function(slot0)
 			return true
 		end
 
-		function slot0.GetBaseOrder(slot0)
+		slot0.GetBaseOrder = function(slot0)
 			return 4
 		end
 
-		function slot0.InitUI(slot0, slot1)
+		slot0.InitUI = function(slot0, slot1)
 			slot0.rtScale = slot0._tf:Find("scale")
 			slot0.mainTarget = slot0.rtScale:Find("main")
 			slot2 = slot0.mainTarget:GetComponent(typeof(DftAniEvent))
@@ -178,17 +178,17 @@ slot1 = {
 			slot0:PlayIdle()
 		end
 
-		function slot0.EventAnim(slot0, slot1)
+		slot0.EventAnim = function(slot0, slot1)
 		end
 
-		function slot0.RushCheck(slot0)
+		slot0.RushCheck = function(slot0)
 		end
 
-		function slot0.PlayIdle(slot0, slot1)
+		slot0.PlayIdle = function(slot0, slot1)
 			slot0:PlayAnim(string.format("Idle_%s%s", slot1 or slot0:GetDirMark(), slot0.inLantern and "_Lantern" or ""))
 		end
 
-		function slot0.PlayMove(slot0, slot1)
+		slot0.PlayMove = function(slot0, slot1)
 			slot0:PlayAnim(string.format("Move_%s%s", slot1 or slot0:GetDirMark(), slot0.inLantern and "_Lantern" or ""))
 		end
 
@@ -211,7 +211,7 @@ slot1 = {
 			}
 		}
 
-		function slot0.GetDirMark(slot0, slot1)
+		slot0.GetDirMark = function(slot0, slot1)
 			if slot1 then
 				for slot5, slot6 in pairs(uv0) do
 					if slot6[1] == slot1.x and slot6[2] == slot1.y then
@@ -223,15 +223,15 @@ slot1 = {
 			end
 		end
 
-		function slot0.GetDirPos(slot0, slot1)
+		slot0.GetDirPos = function(slot0, slot1)
 			return NewPos(unpack(uv0[slot1 or slot0:GetDirMark()]))
 		end
 
-		function slot0.GetStatusMark(slot0, slot1)
+		slot0.GetStatusMark = function(slot0, slot1)
 			return string.split(slot1 or slot0.status, "_")[1]
 		end
 
-		function slot0.OnTimerUpdate(slot0, slot1)
+		slot0.OnTimerUpdate = function(slot0, slot1)
 		end
 
 		slot0.loopAnimDic = {
@@ -240,7 +240,7 @@ slot1 = {
 			Move = true
 		}
 
-		function slot0.PlayAnim(slot0, slot1)
+		slot0.PlayAnim = function(slot0, slot1)
 			if not tobool(slot0.loopAnimDic[slot0:GetStatusMark(slot1)]) or slot0.status ~= slot1 then
 				slot0.inLock = not slot2
 				slot0.status = slot1
@@ -255,7 +255,7 @@ slot1 = {
 	TargetFuShun = function ()
 		slot0 = class("TargetFuShun", uv0.TargetMove)
 
-		function slot0.GetSpeed(slot0)
+		slot0.GetSpeed = function(slot0)
 			return slot0.speed * (slot0.controller:GetEnemyEffect("gravity") and 0.85 or 1) * (slot0.inRush and NenjuuGameConfig.GetSkillParam("rush", slot0.level.rush)[2] or 1) * (slot0.controller:InBlackHoleRange(slot0.pos) and 0.75 or 1) * (NenjuuGameConfig.GetSkillParam("blessing", slot0.level.blessing) or 1)
 		end
 
@@ -263,13 +263,13 @@ slot1 = {
 		slot2 = 0.1
 		slot3 = 5
 		slot4 = {
-			ice = 1,
+			rush = 20,
 			flash = 30,
 			item = 0,
-			rush = 20
+			ice = 1
 		}
 
-		function slot0.CheckSkill(slot0, slot1)
+		slot0.CheckSkill = function(slot0, slot1)
 			if slot1 == "item" then
 				return slot0.itemType and slot0.itemCount > 0
 			else
@@ -279,19 +279,19 @@ slot1 = {
 			end
 		end
 
-		function slot0.ReloadSkill(slot0, slot1)
+		slot0.ReloadSkill = function(slot0, slot1)
 			slot0.skillCDs[slot1] = (slot1 == "flash" and NenjuuGameConfig.GetSkillParam("flash", slot0.level.flash) or uv0[slot1]) * (slot0.controller:GetEnemyEffect("delay") and 1.2 or 1)
 		end
 
-		function slot0.InitUI(slot0, slot1)
+		slot0.InitUI = function(slot0, slot1)
 			uv0.super.InitUI(slot0, slot1)
 
 			slot0.level = slot1.level
 			slot0.skillCDs = {
-				ice = 0,
+				rush = 0,
 				flash = 0,
 				item = 0,
-				rush = 0
+				ice = 0
 			}
 			slot0.itemType = slot1.itemType
 			slot0.speed = 4.5
@@ -304,7 +304,7 @@ slot1 = {
 			slot0.itemCount = 1
 		end
 
-		function slot0.CalcSkillCDs(slot0)
+		slot0.CalcSkillCDs = function(slot0)
 			slot1 = {}
 
 			for slot5, slot6 in ipairs({
@@ -344,7 +344,7 @@ slot1 = {
 			return slot1
 		end
 
-		function slot0.EventAnim(slot0, slot1)
+		slot0.EventAnim = function(slot0, slot1)
 			slot2 = slot0:GetDirMark()
 
 			if slot1 == "start" then
@@ -444,7 +444,7 @@ slot1 = {
 			}
 		}
 
-		function slot0.RushCheck(slot0)
+		slot0.RushCheck = function(slot0)
 			if slot0.rushEffects then
 				for slot4, slot5 in ipairs(slot0.rushEffects) do
 					slot5:Remove()
@@ -468,7 +468,7 @@ slot1 = {
 			end
 		end
 
-		function slot0.OnTimerUpdate(slot0, slot1)
+		slot0.OnTimerUpdate = function(slot0, slot1)
 			for slot5, slot6 in pairs(slot0.skillCDs) do
 				slot0.skillCDs[slot5] = slot6 - slot1
 			end
@@ -606,7 +606,7 @@ slot1 = {
 			end
 		end
 
-		function slot0.PopPoint(slot0, slot1)
+		slot0.PopPoint = function(slot0, slot1)
 			slot2 = slot0._tf:Find("top/pop")
 
 			setText(slot2:Find("Text"), "+" .. slot1)
@@ -614,7 +614,7 @@ slot1 = {
 			setActive(slot2, true)
 		end
 
-		function slot0.EnemyHit(slot0, slot1)
+		slot0.EnemyHit = function(slot0, slot1)
 			if slot0.isDead then
 				return
 			end
@@ -640,7 +640,7 @@ slot1 = {
 			end
 		end
 
-		function slot0.UpdatePosition(slot0)
+		slot0.UpdatePosition = function(slot0)
 			uv0.super.UpdatePosition(slot0)
 			slot0.controller:WindowFocrus(slot0._tf.localPosition)
 
@@ -654,7 +654,7 @@ slot1 = {
 	TargetNenjuu = function ()
 		slot0 = class("TargetNenjuu", uv0.TargetMove)
 
-		function slot0.GetSpeed(slot0)
+		slot0.GetSpeed = function(slot0)
 			return slot0.speed * (slot0:CheckAbility("rush") and 1.2 or 1) * (slot0.inStealth and 1.3 or 1) * (slot0.isDoppel and 0.8 or 1)
 		end
 
@@ -674,15 +674,15 @@ slot1 = {
 			breakpassable = 0
 		}
 
-		function slot0.CheckAbility(slot0, slot1)
+		slot0.CheckAbility = function(slot0, slot1)
 			return slot0.featuresAbility[slot1] and slot0.abilityCDs[slot1] <= 0
 		end
 
-		function slot0.ReloadAbility(slot0, slot1)
+		slot0.ReloadAbility = function(slot0, slot1)
 			slot0.abilityCDs[slot1] = uv0[slot1]
 		end
 
-		function slot0.InitUI(slot0, slot1)
+		slot0.InitUI = function(slot0, slot1)
 			uv0.super.InitUI(slot0, slot1)
 
 			slot0.isDoppel = slot1.isDoppel
@@ -708,7 +708,7 @@ slot1 = {
 			}
 		end
 
-		function slot0.EventAnim(slot0, slot1)
+		slot0.EventAnim = function(slot0, slot1)
 			slot2 = slot0:GetDirMark()
 
 			if slot1 == "start" then
@@ -772,7 +772,7 @@ slot1 = {
 			}
 		}
 
-		function slot0.RushCheck(slot0)
+		slot0.RushCheck = function(slot0)
 			if slot0.rushEffects then
 				for slot4, slot5 in ipairs(slot0.rushEffects) do
 					slot5:Remove()
@@ -796,7 +796,7 @@ slot1 = {
 			end
 		end
 
-		function slot0.OnTimerUpdate(slot0, slot1)
+		slot0.OnTimerUpdate = function(slot0, slot1)
 			for slot5, slot6 in pairs(slot0.featuresAbility) do
 				if slot6 and uv0[slot5] > 0 then
 					slot0.abilityCDs[slot5] = slot0.abilityCDs[slot5] - slot1
@@ -948,7 +948,7 @@ slot1 = {
 			end
 		end
 
-		function slot0.DoAttack(slot0, slot1)
+		slot0.DoAttack = function(slot0, slot1)
 			if slot0.inStealth then
 				slot0.inStealth = nil
 			end
@@ -957,7 +957,7 @@ slot1 = {
 			slot0:PlayAnim(string.format("Attack_%s", slot1))
 		end
 
-		function slot0.DoTeleport(slot0, slot1)
+		slot0.DoTeleport = function(slot0, slot1)
 			if slot0.inStealth then
 				slot0.inStealth = nil
 			end
@@ -973,7 +973,7 @@ slot1 = {
 			})
 		end
 
-		function slot0.BeScare(slot0)
+		slot0.BeScare = function(slot0)
 			slot0.inCharge = nil
 			slot0.inStealth = nil
 			slot0.inScare = uv0
@@ -988,15 +988,15 @@ slot1 = {
 	TargetEffect = function ()
 		slot0 = class("TargetEffect", uv0.TargetObject)
 
-		function slot0.Moveable(slot0)
+		slot0.Moveable = function(slot0)
 			return true
 		end
 
-		function slot0.GetBaseOrder(slot0)
+		slot0.GetBaseOrder = function(slot0)
 			return 5
 		end
 
-		function slot0.InitUI(slot0, slot1)
+		slot0.InitUI = function(slot0, slot1)
 			slot2 = slot0._tf
 			slot0.mainTarget = slot2:Find("scale/Image")
 			slot2 = slot0.mainTarget
@@ -1012,15 +1012,15 @@ slot1 = {
 	TargetBomb = function ()
 		slot0 = class("TargetBomb", uv0.TargetEffect)
 
-		function slot0.InTimeLine(slot0)
+		slot0.InTimeLine = function(slot0)
 			return true
 		end
 
-		function slot0.GetBaseOrder(slot0)
+		slot0.GetBaseOrder = function(slot0)
 			return 1
 		end
 
-		function slot0.OnTimerUpdate(slot0, slot1)
+		slot0.OnTimerUpdate = function(slot0, slot1)
 			slot0.controller:ScareEnemy({
 				range = 1,
 				pos = slot0.pos
@@ -1032,19 +1032,19 @@ slot1 = {
 	TargetTimeEffect = function ()
 		slot0 = class("TargetTimeEffect", uv0.TargetEffect)
 
-		function slot0.GetBaseOrder(slot0)
+		slot0.GetBaseOrder = function(slot0)
 			return 1
 		end
 
-		function slot0.InTimeLine(slot0)
+		slot0.InTimeLine = function(slot0)
 			return true
 		end
 
-		function slot0.InitUI(slot0, slot1)
+		slot0.InitUI = function(slot0, slot1)
 			slot0.time = slot1.time
 		end
 
-		function slot0.OnTimerUpdate(slot0, slot1)
+		slot0.OnTimerUpdate = function(slot0, slot1)
 			if slot1 < slot0.time then
 				slot0.time = slot0.time - slot1
 			else
@@ -1057,21 +1057,21 @@ slot1 = {
 	TargetBlackHole = function ()
 		slot0 = class("TargetBlackHole", uv0.TargetEffect)
 
-		function slot0.InTimeLine(slot0)
+		slot0.InTimeLine = function(slot0)
 			return true
 		end
 
-		function slot0.GetBaseOrder(slot0)
+		slot0.GetBaseOrder = function(slot0)
 			return 3
 		end
 
-		function slot0.InitUI(slot0, slot1)
+		slot0.InitUI = function(slot0, slot1)
 			uv0.super.InitUI(slot0, slot1)
 
 			slot0.time = slot1.time
 		end
 
-		function slot0.OnTimerUpdate(slot0, slot1)
+		slot0.OnTimerUpdate = function(slot0, slot1)
 			if slot0.isLost then
 				return
 			end
@@ -1087,7 +1087,7 @@ slot1 = {
 			end
 		end
 
-		function slot0.BeTrigger(slot0)
+		slot0.BeTrigger = function(slot0)
 			if slot0.isLost then
 				return
 			else
@@ -1102,13 +1102,13 @@ slot1 = {
 	TargetSubEffect = function ()
 		slot0 = class("TargetSubEffect", uv0.TargetObject)
 
-		function slot0.Init(slot0, slot1)
+		slot0.Init = function(slot0, slot1)
 			slot0.name = slot1.name
 
 			slot0:InitUI(slot1)
 		end
 
-		function slot0.InitUI(slot0, slot1)
+		slot0.InitUI = function(slot0, slot1)
 			slot2 = slot0._tf
 			slot0.mainTarget = slot2:Find("scale/Image")
 			slot2 = slot0.mainTarget
@@ -1124,11 +1124,11 @@ slot1 = {
 	TargetRushEffect = function ()
 		slot0 = class("TargetRushEffect", uv0.TargetSubEffect)
 
-		function slot0.InTimeLine(slot0)
+		slot0.InTimeLine = function(slot0)
 			return true
 		end
 
-		function slot0.InitUI(slot0, slot1)
+		slot0.InitUI = function(slot0, slot1)
 			slot0.rtScale = slot0._tf:Find("scale")
 
 			GetOrAddComponent(slot0.rtScale, typeof(CanvasGroup))
@@ -1140,7 +1140,7 @@ slot1 = {
 
 		slot1 = 0.01
 
-		function slot0.OnTimerUpdate(slot0, slot1)
+		slot0.OnTimerUpdate = function(slot0, slot1)
 			if slot0.inRemove then
 				slot0.alpha = slot0.alpha - slot1 / uv0
 
@@ -1155,7 +1155,7 @@ slot1 = {
 			end
 		end
 
-		function slot0.Remove(slot0)
+		slot0.Remove = function(slot0)
 			slot0.inRemove = true
 		end
 

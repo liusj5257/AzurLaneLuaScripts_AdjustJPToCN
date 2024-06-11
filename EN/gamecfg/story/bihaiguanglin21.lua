@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN21",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 403030,
-			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#ffff4d",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "Odin, are you done charging?",
 			bgm = "xinnong-2",
+			actor = 403030,
+			nameColor = "#ffff4d",
+			say = "Odin, are you done charging?",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -53,8 +53,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 499040,
 			dir = 1,
+			actor = 499040,
 			nameColor = "#ffff4d",
 			say = "Herteitr's Rolling Thunder, fire!!",
 			typewriter = {
@@ -67,10 +67,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "The light inside the Dragon Palace dimmed briefly, but the brief darkness was immediately engulfed by a burst of all-consuming light.",
 			flashout = {
 				dur = 0.5,
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
 			say = "A roaring serpent of pure electricity shot forth from Odin's arm, smashing into the building.",
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
 			say = "The seal crumbled before her unparalleled destructive might, the mechanism sitting atop a pedestal soon following suit, then followed by the rest of the building.",
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_5",
 			dir = 1,
 			say = "The mass-produced ships began to scatter and disappear as if cowering before the loss of the mechanism.",
@@ -209,8 +209,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			nameColor = "#a9f548",
 			say = "What in the world... was that...",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "(That attack just now... I can't say for certain, but I've never seen any main gun even come close to that level of firepower! Is this also Siren technology?!)",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_5",
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			nameColor = "#a9f548",
 			say = "That's an absolutely ridiculous level of firepower for a shipgirl... Does she have some kind of special rigging, or is that her power––",
 			typewriter = {
@@ -257,8 +257,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -334,8 +334,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "My knowledge was pretty much just hearsay. Some things, you have to see to believe.",
 			typewriter = {
@@ -351,8 +351,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			nameColor = "#a9f548",
 			say = "However, such destructive power falls outside the theoretical framework of even blueprint ships, as far as I know.",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -391,12 +391,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_daofeng_4",
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 403030,
+			nameColor = "#ffff4d",
 			say = "In other words, I've already played all my cards. You'd better hurry up, or that Shimakaze girl is going to leave you in the dust~",
 			typewriter = {
 				speed = 0.05,

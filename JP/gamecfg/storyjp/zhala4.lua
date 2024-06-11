@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHALA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHALA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ローザ・ストーリア\n\n<size=45>四 雑談</size>",
@@ -19,16 +19,16 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
 			actor = 603020,
 			nameColor = "#a9f548",
+			bgName = "bg_story_task",
 			say = "今日は昼食を持ってきたわ。重桜の「お弁当」…要するにランチボックスよ。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -63,8 +63,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "一緒に食べない？",
 			typewriter = {
@@ -77,9 +77,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "というわけで昼は執務室で弁当を食べることにした。",
 			effects = {
 				{
@@ -88,8 +88,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -133,8 +133,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "そんなことない？これは一本取られたわね…ロイヤルのことはよくわからないわ",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "……カブールとチェザーレ、よくお互いツッコミを入れ合っているんだけど…",
 			typewriter = {
@@ -167,8 +167,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "ああ見えても姉妹仲睦まじいのよ",
 			typewriter = {
@@ -181,9 +181,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ザラと艦隊のこと、サディアのことについて雑談していた。",
 			typewriter = {
 				speed = 0.05,
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "と、彼女が急に一つ困った質問をしてきた……",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "カラビニエーレとトレントさん、指揮官はどっちがタイプ？",
 			typewriter = {
@@ -258,9 +258,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "誰にも教えないと言っているが、彼女の真意は図り難い。",
 			typewriter = {
 				speed = 0.05,
@@ -272,9 +272,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "というか、どうして急にこんなを質問をしてきたんだ…？",
 			typewriter = {
 				speed = 0.05,
@@ -300,12 +300,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "真面目な子が好みね。なるほど？",
 			typewriter = {
 				speed = 0.05,
@@ -320,9 +320,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "そうね。まああの子の場合、デートの時大変ね。服に悩んで結局遅刻しちゃったり",
 			typewriter = {
@@ -338,9 +338,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "ご飯を食べる時には栄養だの健康だの拘って注文しそびれたり、写真をとるにしても背景をどうしようかって決めかねたり",
 			typewriter = {
@@ -353,12 +353,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "結局ドタバタしっぱなしになる予感ね。それはそれで面白いけど？ふふふ",
 			typewriter = {
 				speed = 0.05,
@@ -373,9 +373,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "そんなの置いといて、私の作ったサーロインステーキはどう？はい、あーん",
 			typewriter = {
@@ -421,9 +421,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 2,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "包容力のある子が好みね。なるほど？",
 			typewriter = {
@@ -439,9 +439,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 2,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "トレントさんの場合は包容力というより…まあ、指揮官が落ち込むときは優しい声で「大丈夫ですよ」「よくできました」と言ってくれる――",
 			typewriter = {
@@ -457,9 +457,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 2,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "いわゆる「指揮官を子供にするタイプ」なのかしら？ずっと一緒にいると本当に幼児退行しちゃうかもしれないわね。ふふふ",
 			typewriter = {
@@ -472,12 +472,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "「大丈夫ですよ。指揮官が子供になっても私にまかせていいですよ～」って、トレントさんなら喜んで世話しちゃうだろうけど",
 			typewriter = {
 				speed = 0.05,
@@ -489,12 +489,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "指揮官はそんな設定でもいけるかしら？じゃあ、あーんして？",
 			typewriter = {
 				speed = 0.05,
@@ -539,9 +539,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 3,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "ふふ、世辞のうまい人",
 			typewriter = {
@@ -584,12 +584,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "ん？指揮官、もしかして今のは……本気？",
 			typewriter = {
 				speed = 0.05,
@@ -604,9 +604,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
 			optionFlag = 3,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "ふふ、そんなに気にすることじゃないわ。言ったはずよ？私、ザラが貴方の艦隊に勝利と栄光を、って",
 			typewriter = {
@@ -619,12 +619,12 @@ return {
 			}
 		},
 		{
-			actor = 603020,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 3,
+			actor = 603020,
+			nameColor = "#a9f548",
 			say = "と、このまま落ち込んだ顔を他の子に見せちゃったら変に誤解されるわ。はい、私の作ったステーキよ。あーんして？",
 			typewriter = {
 				speed = 0.05,
@@ -666,12 +666,12 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -699,8 +699,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 603020,
 			dir = 1,
+			actor = 603020,
 			nameColor = "#a9f548",
 			say = "ふふ、指揮官とのお食事も悪くないわ。でもそろそろ時間だし、また今度ね",
 			typewriter = {
@@ -713,9 +713,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "なんだかずっとザラのペースに乗せられていた気がした。",
 			typewriter = {
 				speed = 0.05,

@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 2,
 			nameColor = "#a9f548",
+			soundeffect = "event:/battle/boom2",
+			actor = 307060,
 			actorName = "{namecode:96}",
 			say = "..!!! 쇼카쿠... 언니...?",
-			soundeffect = "event:/battle/boom2",
 			flashout = {
 				dur = 0.3,
 				alpha = {
@@ -100,19 +100,19 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 1,
-			nameColor = "#a9f548",
-			actorName = "{namecode:95}",
 			say = "약속...... 지켜줄...... 언제나......!",
+			nameColor = "#a9f548",
+			actor = 307050,
+			actorName = "{namecode:95}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
 			},
 			action = {
 				{
-					type = "move",
 					y = -2500,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 0
@@ -151,11 +151,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
 			say = "?! 장기말이……?",
 			shake = {
 				speed = 1,
@@ -171,11 +171,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "후후후, 만들어진 장기말이 이럴때 ‘동생’을 위해 나서는 건가.",
 			shake = {
 				speed = 1,
@@ -191,11 +191,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "(만들어진 장기말일 뿐인데, 동생을 위하는 건가……)",
 			shake = {
 				speed = 1,
@@ -211,11 +211,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
 			say = "이건... \"각성 반응\"이라는 건가... 적합한 장소에서 심층 정신의 전승을 재현했을 때 나타나는...",
 			shake = {
 				speed = 1,
@@ -231,11 +231,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 1,
 			actorName = "{namecode:91}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307010,
+			nameColor = "#ff0000",
 			say = "카가, 일단 물러나도록 하자꾸나. 장기말의 '각성’ 반응이 일어난다면 먼저 약속한 대로 신에게 로그를 보고하는 것이 최우선이야.",
 			shake = {
 				speed = 1,
@@ -251,11 +251,11 @@ return {
 			}
 		},
 		{
-			actor = 307020,
 			side = 0,
 			actorName = "{namecode:92}",
-			nameColor = "#ff0000",
 			dir = -1,
+			actor = 307020,
+			nameColor = "#ff0000",
 			say = "라져.",
 			shake = {
 				speed = 1,

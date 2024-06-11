@@ -1,6 +1,6 @@
 slot0 = class("PursuingBluePrintCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.id
 
@@ -137,7 +137,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.upgradeStar(slot0, slot1)
+slot0.upgradeStar = function(slot0, slot1)
 	slot4 = getProxy(CollectionProxy):getShipGroup(Clone(slot1).groupId)
 
 	if pg.ship_data_breakout[slot1.configId].breakout_id ~= 0 then

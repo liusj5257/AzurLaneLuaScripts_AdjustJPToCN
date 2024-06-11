@@ -10,13 +10,13 @@ slot5 = slot0.Battle.BattleUnitCloakComponent
 slot5.STATE_CLOAK = "STATE_CLOAK"
 slot5.STATE_UNCLOAK = "STATE_UNCLOAK"
 
-function slot5.Ctor(slot0, slot1)
+slot5.Ctor = function(slot0, slot1)
 	slot0._client = slot1
 
 	slot0:initCloak()
 end
 
-function slot5.Update(slot0, slot1)
+slot5.Update = function(slot0, slot1)
 	slot0._lastCloakUpdateStamp = slot0._lastCloakUpdateStamp or slot1
 
 	slot0:updateCloakValue(slot1)
@@ -27,7 +27,7 @@ function slot5.Update(slot0, slot1)
 	uv0.Battle.BattleBuffDOT.UpdateCloakLock(slot0._client)
 end
 
-function slot5.UpdateCloakConfig(slot0)
+slot5.UpdateCloakConfig = function(slot0)
 	slot0._exposeBase = uv0.GetCurrent(slot0._client, "cloakExposeBase")
 	slot0._exposeExtra = uv0.GetCurrent(slot0._client, "cloakExposeExtra")
 	slot0._restoreValue = uv0.GetCurrent(slot0._client, "cloakRestore")
@@ -37,43 +37,43 @@ function slot5.UpdateCloakConfig(slot0)
 	slot0._client:DispatchEvent(uv1.Event.New(uv2.UPDATE_CLOAK_CONFIG))
 end
 
-function slot5.SetRecoverySpeed(slot0, slot1)
+slot5.SetRecoverySpeed = function(slot0, slot1)
 	slot0._fieldRecoveryOverride = slot1
 end
 
-function slot5.AppendExpose(slot0, slot1)
+slot5.AppendExpose = function(slot0, slot1)
 	slot0._cloakValue = Mathf.Clamp(slot0._cloakValue + slot1, slot0:GetCloakBottom(), slot0._exposeValue)
 
 	slot0:UpdateCloakState()
 end
 
-function slot5.AppendStrikeExpose(slot0)
+slot5.AppendStrikeExpose = function(slot0)
 	slot0._strikeCount = slot0._strikeCount + 1
 
 	slot0:AppendExpose(math.min(slot0._strikeExposeAdditive * slot0._strikeCount, slot0._strikeExposeAdditiveLimit))
 end
 
-function slot5.AppendBombardExpose(slot0)
+slot5.AppendBombardExpose = function(slot0)
 	slot0._bombardCount = slot0._bombardCount + 1
 
 	slot0:AppendExpose(math.min(slot0._bombardExposeAdditive * slot0._bombardCount, slot0._bombardExposeAdditiveLimit))
 end
 
-function slot5.AppendExposeSpeed(slot0, slot1)
+slot5.AppendExposeSpeed = function(slot0, slot1)
 	slot0._exposeSpeed = slot1
 end
 
-function slot5.ForceToMax(slot0)
+slot5.ForceToMax = function(slot0)
 	slot0:ForceToRate(1)
 end
 
-function slot5.ForceToRate(slot0, slot1)
+slot5.ForceToRate = function(slot0, slot1)
 	slot0._cloakValue = math.floor(slot1 * slot0._exposeValue)
 
 	slot0:UpdateCloakState()
 end
 
-function slot5.UpdateDotExpose(slot0, slot1)
+slot5.UpdateDotExpose = function(slot0, slot1)
 	if slot1 ~= slot0._cloakBottom then
 		slot0._cloakBottom = slot1
 
@@ -81,7 +81,7 @@ function slot5.UpdateDotExpose(slot0, slot1)
 	end
 end
 
-function slot5.UpdateTauntExpose(slot0, slot1)
+slot5.UpdateTauntExpose = function(slot0, slot1)
 	if slot1 then
 		slot0._tauntCloakBottom = slot0._restoreValue
 	else
@@ -89,7 +89,7 @@ function slot5.UpdateTauntExpose(slot0, slot1)
 	end
 end
 
-function slot5.UpdateCloakState(slot0)
+slot5.UpdateCloakState = function(slot0)
 	slot1 = nil
 
 	if slot0._exposeValue <= slot0._cloakValue then
@@ -111,23 +111,23 @@ function slot5.UpdateCloakState(slot0)
 	end
 end
 
-function slot5.GetCloakValue(slot0)
+slot5.GetCloakValue = function(slot0)
 	return slot0._cloakValue
 end
 
-function slot5.GetCloakMax(slot0)
+slot5.GetCloakMax = function(slot0)
 	return slot0._exposeValue
 end
 
-function slot5.GetCloakLockMin(slot0)
+slot5.GetCloakLockMin = function(slot0)
 	return slot0._fireLockValue
 end
 
-function slot5.GetCloakRestoreValue(slot0)
+slot5.GetCloakRestoreValue = function(slot0)
 	return slot0._restoreValue
 end
 
-function slot5.GetCloakBottom(slot0)
+slot5.GetCloakBottom = function(slot0)
 	if slot0._tauntCloakBottom then
 		return math.max(slot0._tauntCloakBottom, slot0._cloakBottom)
 	else
@@ -135,19 +135,19 @@ function slot5.GetCloakBottom(slot0)
 	end
 end
 
-function slot5.GetCurrentState(slot0)
+slot5.GetCurrentState = function(slot0)
 	return slot0._currentState
 end
 
-function slot5.GetExposeSpeed(slot0)
+slot5.GetExposeSpeed = function(slot0)
 	return slot0._exposeSpeed
 end
 
-function slot5.updateCloakValue(slot0, slot1)
+slot5.updateCloakValue = function(slot0, slot1)
 	slot0:AppendExpose((slot0._exposeSpeed - (slot0._fieldRecoveryOverride or slot0._recovery)) * (slot1 - slot0._lastCloakUpdateStamp))
 end
 
-function slot5.initCloak(slot0)
+slot5.initCloak = function(slot0)
 	slot0._exposeBase = uv0.GetCurrent(slot0._client, "cloakExposeBase")
 	slot0._exposeExtra = uv0.GetCurrent(slot0._client, "cloakExposeExtra")
 	slot0._restoreValue = uv0.GetCurrent(slot0._client, "cloakRestore")
@@ -172,13 +172,13 @@ function slot5.initCloak(slot0)
 	slot0:triggerBuff()
 end
 
-function slot5.triggerBuff(slot0)
+slot5.triggerBuff = function(slot0)
 	slot1 = uv0.GetCurrent(slot0._client, "isCloak")
 
 	slot0._client:DispatchCloakStateUpdate()
 end
 
-function slot5.adjustCloakAttr(slot0)
+slot5.adjustCloakAttr = function(slot0)
 	slot0._exposeBase = math.max(slot0._exposeBase, uv0.CLOAK_EXPOSE_BASE_MIN)
 	slot0._exposeValue = math.max(slot0._exposeBase + slot0._exposeExtra, uv0.CLOAK_EXPOSE_SKILL_MIN)
 	slot0._restoreValue = math.max(slot0._exposeValue + uv0.CLOAK_BASE_RESTORE_DELTA, 0)

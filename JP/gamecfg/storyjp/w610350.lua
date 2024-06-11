@@ -1,8 +1,8 @@
 return {
-	id = "W610350",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W610350",
+	skipTip = false,
 	scripts = {
 		{
 			actor = 207030,
@@ -20,8 +20,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = -2500
@@ -29,10 +29,10 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "...真是的，独角兽这孩子跑到哪里去了？",
 			typewriter = {
 				speed = 0.05,
@@ -48,8 +48,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 1,
 					x = 1200

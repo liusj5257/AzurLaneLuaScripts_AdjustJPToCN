@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MAOZIHUODONG8",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "MAOZIHUODONG8",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900186,
 			side = 2,
 			bgName = "bg_cccp_6",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "That looks like the last of them. Good job, folks!",
 			bgm = "bgm-cccp2",
+			actor = 900186,
+			nameColor = "#a9f548",
+			say = "That looks like the last of them. Good job, folks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 102090,
 			dir = 1,
+			actor = 102090,
 			nameColor = "#a9f548",
 			say = "\"New\" might not be the right word, you know? They might've kept it in store for decades for all we know...",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107030,
 			dir = 1,
+			actor = 107030,
 			nameColor = "#a9f548",
 			say = "If more show up, we'll just take them all out!",
 			typewriter = {
@@ -141,8 +141,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 702020,
 			dir = 1,
+			actor = 702020,
 			nameColor = "#a9f548",
 			say = "What she said. I mean, you've not had any trouble fighting what we've seen so far.",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccp_6",
-			actor = 107070,
 			dir = 1,
+			actor = 107070,
 			nameColor = "#a9f548",
 			say = "Ain't that right! We can always fall back later if they turn out to be too much!",
 			typewriter = {

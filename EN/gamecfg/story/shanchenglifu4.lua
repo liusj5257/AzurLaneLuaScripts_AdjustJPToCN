@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENGLIFU4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANCHENGLIFU4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Special Banquet\n\n<size=45>Chapter 4: The Queen at the Banquet</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "Port - Banquet Hall",
 			side = 2,
 			bgName = "star_level_bg_107",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "Port - Banquet Hall",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -62,12 +62,12 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			say = "Illustrious? Hmph. I am clearly overseeing this banquet here.",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Illustrious? Hmph. I am clearly overseeing this banquet here.",
+			actor = 205011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -85,8 +85,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "Hehe~ I wonder if Your Majesty finds this banquet to her liking.",
 			typewriter = {
@@ -102,8 +102,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "Of course! From the design of the venue to the delicacies being served, every facet of this banquet was designed with Royal specifications.",
 			typewriter = {
@@ -119,8 +119,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "Even though I've become accustomed to this fleet's tastelessness and lack of true gourmet...",
 			typewriter = {
@@ -149,11 +149,11 @@ return {
 			}
 		},
 		{
-			actor = 205011,
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 205011,
+			nameColor = "#a9f548",
 			say = "Ohohoho!",
 			typewriter = {
 				speed = 0.05,
@@ -165,8 +165,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -194,8 +194,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "Hmph. Of course!",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "Oh my, are Belfast and Sheffield not here this evening?",
 			typewriter = {
@@ -228,8 +228,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "I sent those two to the kitchen. We have to make sure nothing falls short of perfection.",
 			typewriter = {
@@ -245,8 +245,8 @@ return {
 			expression = 3,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "Besides, this place is as safe as my very own bedroom. There's nothing to worry about!",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "... There's nothing special about them. I was just thinking about how this banquet embodies everyone's happiness.",
 			typewriter = {
@@ -343,8 +343,8 @@ return {
 			expression = 2,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 205011,
 			dir = 1,
+			actor = 205011,
 			nameColor = "#a9f548",
 			say = "You and your monsterous udders! Hmph! They're blocking my view of the banquet!",
 			typewriter = {
@@ -357,10 +357,10 @@ return {
 			},
 			action = {
 				{
-					type = "move",
+					y = 0,
 					dur = 0.2,
 					x = -150,
-					y = 0
+					type = "move"
 				}
 			}
 		},
@@ -368,8 +368,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "Eek! Y-Your Majesty?! Everyone can see us... Please don't squeeze them...",
 			typewriter = {
@@ -382,8 +382,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -395,8 +395,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "And I swear, I didn't enter. As a matter of fact, I'm a bit insecure about stuff like that...",
 			typewriter = {
@@ -409,11 +409,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 2,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "Well met, Elizabeth. Stop bullying your subordinates and come have a drink with me.",
 			typewriter = {
@@ -426,12 +426,12 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			say = "That's Your Majesty, Queen Elizabeth to you! How many times must I repeat myself! Also, this is education, not bullying!",
 			side = 1,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "That's Your Majesty, Queen Elizabeth to you! How many times must I repeat myself! Also, this is education, not bullying!",
+			actor = 205011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -446,8 +446,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_107",
 			side = 0,
+			bgName = "star_level_bg_107",
 			dir = 1,
+			actor = 305110,
 			actorName = "{namecode:82}",
 			say = "Ahahaha! In that case... Would Your Majesty, Queen Elizabeth deign to partake of some libations with this lowly Mikasa?",
 			typewriter = {
@@ -489,12 +489,12 @@ return {
 			}
 		},
 		{
-			actor = 205011,
+			say = "Illustrious, you may leave now. Continue to carry out your duties.",
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Illustrious, you may leave now. Continue to carry out your duties.",
+			actor = 205011,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2
@@ -528,8 +528,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "... I'm glad that Her Majesty has found something that she considers interesting.",
 			typewriter = {
@@ -542,8 +542,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "???",
+			side = 1,
 			bgName = "star_level_bg_107",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -561,8 +561,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "... Ajax? You would do well to mind your tone when referring to Her Majesty.",
 			typewriter = {
@@ -578,8 +578,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "Even with her personality, she is still the Queen. There's nothing wrong with being a little selfish.",
 			typewriter = {
@@ -608,12 +608,12 @@ return {
 			}
 		},
 		{
-			actor = 207032,
+			say = "That's just like you, Ajax~",
 			side = 0,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "That's just like you, Ajax~",
+			actor = 207032,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -631,8 +631,8 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "Are you finding the banquet to your liking?",
 			typewriter = {
@@ -648,8 +648,8 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "star_level_bg_107",
-			actor = 202031,
 			dir = 1,
+			actor = 202031,
 			nameColor = "#a9f548",
 			say = "Even though the little piggy is currently buried in papers, I suppose I'm adequately entertained.",
 			typewriter = {
@@ -681,8 +681,8 @@ return {
 			expression = 2,
 			side = 0,
 			bgName = "star_level_bg_107",
-			actor = 207032,
 			dir = 1,
+			actor = 207032,
 			nameColor = "#a9f548",
 			say = "Card game? Oh, that one called Yu-...",
 			typewriter = {
@@ -695,13 +695,13 @@ return {
 			}
 		},
 		{
-			actor = 207032,
+			say = "Oh my... is someone playing the piano?",
 			side = 2,
 			bgName = "star_level_bg_107",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
-			say = "Oh my... is someone playing the piano?",
+			actor = 207032,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2

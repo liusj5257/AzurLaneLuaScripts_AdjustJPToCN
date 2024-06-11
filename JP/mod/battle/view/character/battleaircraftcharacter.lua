@@ -5,7 +5,7 @@ slot0.Battle.BattleAircraftCharacter = class("BattleAircraftCharacter", slot0.Ba
 slot0.Battle.BattleAircraftCharacter.__name = "BattleAircraftCharacter"
 slot2 = slot0.Battle.BattleAircraftCharacter
 
-function slot2.Ctor(slot0)
+slot2.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0._hpBarOffset = Vector3(0, 1.6, 0)
@@ -17,13 +17,13 @@ function slot2.Ctor(slot0)
 	slot0.shadowPos = Vector3.zero
 end
 
-function slot2.SetUnitData(slot0, slot1)
+slot2.SetUnitData = function(slot0, slot1)
 	slot0._unitData = slot1
 
 	slot0:AddUnitEvent()
 end
 
-function slot2.InitWeapon(slot0)
+slot2.InitWeapon = function(slot0)
 	slot0._weapon = slot0._unitData:GetWeapon()
 
 	for slot4, slot5 in ipairs(slot0._weapon) do
@@ -31,18 +31,18 @@ function slot2.InitWeapon(slot0)
 	end
 end
 
-function slot2.GetModleID(slot0)
+slot2.GetModleID = function(slot0)
 	return slot0._unitData:GetSkinID()
 end
 
-function slot2.GetInitScale(slot0)
+slot2.GetInitScale = function(slot0)
 	return 1
 end
 
-function slot2.AddUnitEvent(slot0)
+slot2.AddUnitEvent = function(slot0)
 end
 
-function slot2.RemoveUnitEvent(slot0)
+slot2.RemoveUnitEvent = function(slot0)
 	for slot4, slot5 in ipairs(slot0._weapon) do
 		slot5:UnregisterEventListener(slot0, uv0.CREATE_BULLET)
 	end
@@ -52,10 +52,10 @@ function slot2.RemoveUnitEvent(slot0)
 	end
 end
 
-function slot2.PlayAction(slot0)
+slot2.PlayAction = function(slot0)
 end
 
-function slot2.Update(slot0)
+slot2.Update = function(slot0)
 	slot0:UpdateMatrix()
 	slot0:UpdateDirection()
 	slot0:UpdateUIComponentPosition()
@@ -70,7 +70,7 @@ function slot2.Update(slot0)
 	end
 end
 
-function slot2.UpdatePosition(slot0)
+slot2.UpdatePosition = function(slot0)
 	if not slot0._unitData:IsOutViewBound() then
 		slot0._tf.localPosition = slot0._unitData:GetPosition()
 	end
@@ -78,7 +78,7 @@ function slot2.UpdatePosition(slot0)
 	slot0._characterPos = slot0._unitData:GetPosition()
 end
 
-function slot2.UpdateDirection(slot0)
+slot2.UpdateDirection = function(slot0)
 	if slot0._unitData:GetCurrentState() ~= slot0._unitData.STATE_CREATE then
 		return
 	end
@@ -92,13 +92,13 @@ function slot2.UpdateDirection(slot0)
 	end
 end
 
-function slot2.UpdateHPBarPosition(slot0)
+slot2.UpdateHPBarPosition = function(slot0)
 	slot0._hpBarPos:Copy(slot0._referenceVector):Add(slot0._hpBarOffset)
 
 	slot0._HPBarTf.position = slot0._hpBarPos
 end
 
-function slot2.UpdateShadow(slot0)
+slot2.UpdateShadow = function(slot0)
 	if slot0._shadow and slot0._unitData:GetCurrentState() == slot0._unitData.STATE_CREATE then
 		slot1 = slot0._unitData:GetPosition()
 		slot2 = math.min(4, math.max(2, 4 - 4 * slot1.y / uv0.Battle.BattleConfig.AircraftHeight))
@@ -111,7 +111,7 @@ function slot2.UpdateShadow(slot0)
 	end
 end
 
-function slot2.GetYShake(slot0)
+slot2.GetYShake = function(slot0)
 	slot0._YShakeCurrent = slot0._YShakeCurrent or 0
 	slot0._YShakeDir = slot0._YShakeDir or 1
 	slot0._YShakeCurrent = slot0._YShakeCurrent + 0.1 * slot0._YShakeDir
@@ -129,15 +129,15 @@ function slot2.GetYShake(slot0)
 	return slot0._YShakeCurrent
 end
 
-function slot2.SetYShakeMin(slot0)
+slot2.SetYShakeMin = function(slot0)
 	slot0._YShakeMin = -1 - 2 * math.random()
 end
 
-function slot2.SetYShakeMax(slot0)
+slot2.SetYShakeMax = function(slot0)
 	slot0._YShakeMax = 1 + 2 * math.random()
 end
 
-function slot2.AddModel(slot0, slot1)
+slot2.AddModel = function(slot0, slot1)
 	slot0:SetGO(slot1)
 
 	slot0._hpBarOffset = Vector3(0, slot0._unitData:GetBoxSize().y, 0)
@@ -150,12 +150,12 @@ function slot2.AddModel(slot0, slot1)
 	slot0._unitData:ActiveCldBox()
 end
 
-function slot2.AddShadow(slot0, slot1)
+slot2.AddShadow = function(slot0, slot1)
 	slot0._shadow = slot0:GetTf():Find("model/shadow").gameObject
 	slot0._shadowTF = slot0._shadow.transform
 end
 
-function slot2.AddHPBar(slot0, slot1)
+slot2.AddHPBar = function(slot0, slot1)
 	slot0._HPBar = slot1
 	slot0._HPBarTf = slot1.transform
 	slot0._HPProgress = slot0._HPBarTf:Find("blood"):GetComponent(typeof(Image))
@@ -165,5 +165,5 @@ function slot2.AddHPBar(slot0, slot1)
 	slot0:UpdateHpBar()
 end
 
-function slot2.updateSomkeFX(slot0)
+slot2.updateSomkeFX = function(slot0)
 end

@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "活动buff-建筑效果-战斗伤害提高",
 	time = 0,
-	color = "yellow",
+	name = "活动buff-建筑效果-战斗伤害提高",
+	init_effect = "",
+	id = 505,
 	picture = "",
 	desc = "舰队伤害提高",
 	stack = 1,
-	id = 505,
+	color = "yellow",
 	icon = 505,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "damageRatioBullet",
-				number = 0.03
+				number = 0.03,
+				attr = "damageRatioBullet"
 			}
 		}
 	}

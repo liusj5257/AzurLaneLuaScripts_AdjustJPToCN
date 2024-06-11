@@ -1,17 +1,17 @@
 return {
-	id = "JIDIFENGBAO19",
+	fadeType = 2,
 	mode = 2,
 	once = true,
-	fadeType = 2,
+	id = "JIDIFENGBAO19",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
 			blackFg = 1,
-			bgmDelay = 1,
 			typewriterTime = 0.05,
+			bgmDelay = 1,
 			bgm = "bgm-cccp2",
 			sequence = {
 				{
@@ -32,14 +32,14 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "뭐, 여기까진 못 쫓아올 거야.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -64,10 +64,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이제 우리가 해야 할 일은… 우리의 위치를 숨기고 기다리는 거야.",
 			painting = {
 				alpha = 0.3,
@@ -82,10 +82,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "오~~ 무슨 말인지 알겠어!",
 			painting = {
 				alpha = 0.3,
@@ -100,10 +100,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "우리가 조사하고 있는 특이점이 무엇이든 간에, 이곳은 분명 세이렌에게 중요해,",
 			painting = {
 				alpha = 0.3,
@@ -118,10 +118,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "방금 그 META가 계속 이렇게 행동한다면 세이렌이 절대 가만히 있지 않을 거야.",
 			painting = {
 				alpha = 0.3,
@@ -136,10 +136,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "우선 우리 대신 세이렌과 싸우게 만들려는 거지!?",
 			painting = {
 				alpha = 0.3,
@@ -151,8 +151,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -164,10 +164,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "맞아, 세이렌과 META가 싸운다면 우리가 이익을 얻게 될 거야.",
 			painting = {
 				alpha = 0.3,
@@ -182,10 +182,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "현재 각지의 전선이 매우 순조롭기 때문에 우리에겐 임무를 완수할 충분한 시간이 있어.",
 			painting = {
 				alpha = 0.3,
@@ -200,10 +200,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이상 신호는 아직 있어?",
 			painting = {
 				alpha = 0.3,
@@ -218,10 +218,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응. 저쪽에서도 우리의 방해를 받고 계획을 바꾼 것 같아.",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………하핫, 세이렌은 벌써 도착했어.",
 			painting = {
 				alpha = 0.3,
@@ -254,10 +254,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이제 우린 어둠 속에서 사냥에 뛰어들 최적의 시기를 기다리기만 하면 돼….",
 			painting = {
 				alpha = 0.3,
@@ -269,12 +269,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "…치… 치직….",
 			soundeffect = "event:/ui/noice",
+			say = "…치… 치직….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,10 +284,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응? 해역의 교란 강도가 우리의 통신을 방해하기엔 충분하지 않아야 정상인데.",
 			painting = {
 				alpha = 0.3,
@@ -302,10 +302,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…설마 고장 난 건가?",
 			painting = {
 				alpha = 0.3,
@@ -320,10 +320,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이런 작은 문제는 몇 번 두들기면 괜찮아질지도 몰라, 자, 봐봐~",
 			painting = {
 				alpha = 0.3,
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			say = "펑———",
 			typewriter = {
@@ -350,13 +350,13 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			actorName = "통신기",
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_8",
 			side = 2,
 			stopbgm = true,
-			say = "…[잡음]… 나는… [잡음]… 소유즈… [잡음]…",
 			soundeffect = "event:/ui/noice",
+			say = "…[잡음]… 나는… [잡음]… 소유즈… [잡음]…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,8 +382,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -411,48 +411,48 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
+			soundeffect = "event:/ui/noice",
 			say = "…[잡음]… 우리는 지금… [잡음]… 전면 … [잡음]… 상태… [잡음]…",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
+			soundeffect = "event:/ui/noice",
 			say = "…[잡음]… 극지 폭풍 …[잡음]… 종료… [잡음]…",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
+			soundeffect = "event:/ui/noice",
 			say = "…[잡음]… 모든 함대… [잡음]… 는… [잡음]… 집결… [잡음]…",
-			soundeffect = "event:/ui/noice",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_hms_8",
 			nameColor = "#A9F548FF",
-			say = "…치… 치직….",
 			soundeffect = "event:/ui/noice",
+			say = "…치… 치직….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,10 +481,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 705070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "잘 안 들리긴 했지만…. 방금 내용은….",
 			painting = {
 				alpha = 0.3,
@@ -499,10 +499,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "당장 소비에츠키 소유즈를 호출해서 무슨 일이 있었는지 물어보자!",
 			painting = {
 				alpha = 0.3,
@@ -517,10 +517,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응답이 없어.",
 			painting = {
 				alpha = 0.3,
@@ -535,10 +535,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "상트페테부르크 사령부는?",
 			painting = {
 				alpha = 0.3,
@@ -553,10 +553,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…마찬가지야.",
 			painting = {
 				alpha = 0.3,
@@ -571,10 +571,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그럼 최고 소비에트를 직접 호출해보자!",
 			painting = {
 				alpha = 0.3,
@@ -589,10 +589,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 703020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……똑같아.",
 			painting = {
 				alpha = 0.3,
@@ -645,10 +645,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "여기는 보로실로프… 잘 들린다.",
 			painting = {
 				alpha = 0.3,
@@ -701,10 +701,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "들리긴 했는데, 내용이 중간중간 끊기는 바람에… 어떻게 된 일이야?",
 			painting = {
 				alpha = 0.3,
@@ -833,10 +833,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "현 상태론… 그럴 수밖에 없겠네.",
 			painting = {
 				alpha = 0.3,
@@ -870,10 +870,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_hms_8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 702070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "응… 세베르나야젬랴 제도 기지에서 만나.",
 			painting = {
 				alpha = 0.3,

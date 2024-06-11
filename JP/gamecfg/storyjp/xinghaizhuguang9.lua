@@ -4,28 +4,28 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_zhuguang_2",
+			bgm = "theme-ucnf-beacon",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "擬似空間「珊瑚海」　任務エリア",
-			bgm = "theme-ucnf-beacon",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -52,11 +52,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_2",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "フラッシャーちゃん、まだー？",
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_zhuguang_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -182,8 +182,8 @@ return {
 			bgName = "bg_zhuguang_2",
 			factiontag = "回収解析部",
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actorName = "コンステレーション",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "聞こえる？これよりグアム艦隊の通信封止を解除。聞こえてるなら返事して",
 			painting = {
@@ -881,8 +881,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信",
+			side = 2,
 			bgName = "bg_zhuguang_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -931,11 +931,11 @@ return {
 			}
 		},
 		{
-			actor = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_2",
 			factiontag = "戦術特勤部",
 			dir = 1,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "そうね…やっぱり「再現」でレキシントンが倒れたことが心に重くのしかかっているんだね…",

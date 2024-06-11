@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "古立特联动 貉支援弹幕LV5",
 	cd = 0,
-	painting = "he",
-	id = 9496,
 	picture = "0",
 	aniEffect = "",
 	desc = "",
+	painting = "he",
+	id = 9496,
 	effect_list = {
 		{
 			target_choise = "TargetNil",
@@ -15,8 +15,8 @@ return {
 				emitter = "BattleBulletEmitter",
 				weapon_id = 840025,
 				attack_attribute_convert = {
-					attr_type = "fleetGS",
 					A = 80,
+					attr_type = "fleetGS",
 					B = 400
 				}
 			}

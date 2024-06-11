@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGGELILA1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIANGGELILA1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"기행의 사프란\n\n<size=45>1 회상</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "아침, 집무실.",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "아침, 집무실.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "비서함인 샹그릴라와 함께 작업을 하고 있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -60,11 +60,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#92fc63",
 			say = "……뭔가 곤란한 일이라도 있으신가요…?",
 			typewriter = {
 				speed = 0.05,
@@ -82,12 +82,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107380,
+			nameColor = "#92fc63",
 			say = "그렇군요, 어젯밤 확인한 서류를 어디에 뒀는지 잊으셨군요. ",
 			typewriter = {
 				speed = 0.05,
@@ -102,8 +102,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "허둥지둥해도 아무것도 변하지 않으니, 일단은 진정하세요. 사프란티를 준비했으니, 먼저 이거라도 드세요.",
 			typewriter = {
@@ -116,15 +116,15 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
+			actor = 107380,
+			nameColor = "#92fc63",
 			say = "……혹시 그 서류에 특징이 있다면 가르쳐주시겠어요?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -181,9 +181,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "이런 이유로 샹그릴라를 비서함으로 임명한 이후, 이렇게 그녀의 '기록'에 여러 차례 도움을 받았다.",
 			typewriter = {
 				speed = 0.05,
@@ -198,8 +198,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "……생각해보니 여기 모항으로 온 이래로, 많은 동료와 만났네요.",
 			typewriter = {
@@ -228,11 +228,11 @@ return {
 			}
 		},
 		{
-			actor = 107380,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			withoutActorName = true,
-			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "샹그릴라는 앨범을 가져와서 한 장의 사진을 꺼냈다.",
 			typewriter = {
@@ -251,12 +251,12 @@ return {
 			}
 		},
 		{
-			actor = 107380,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#92fc63",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107380,
+			nameColor = "#92fc63",
 			say = "제목은 '동료', 메모는 '샹그릴라, 처음으로 토라졌을 때의 상황'.",
 			typewriter = {
 				speed = 0.05,
@@ -303,8 +303,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			nameColor = "#92fc63",
 			say = "지금 생각해보면 정말 이상하네요. 후후후.",
 			typewriter = {
@@ -317,9 +317,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "분명, 모항에 갓 착임했었던 그녀는, 뭐든 하나부터 열까지 '에식스'에게 신경을 썼었다.",
 			typewriter = {
 				speed = 0.05,

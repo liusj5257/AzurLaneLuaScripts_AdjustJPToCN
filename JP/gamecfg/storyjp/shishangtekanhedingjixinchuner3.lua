@@ -4,8 +4,8 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"着せ替え特集　春節2023　②\n\n<size=45>三 ふねとおつきさま</size>",
@@ -14,14 +14,14 @@ return {
 			}
 		},
 		{
-			live2d = "main2",
+			hidePaintObj = true,
 			side = 2,
-			bgName = "bg_night",
 			dir = 1,
+			bgName = "bg_night",
 			bgm = "china-party",
 			actor = 199032,
 			nameColor = "#A9F548FF",
-			hidePaintObj = true,
+			live2d = "main2",
 			say = "せんせい…みて…！",
 			painting = {
 				alpha = 0.3,
@@ -32,17 +32,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "そらに…おつきさま…！",
@@ -68,11 +68,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "きれい…",
@@ -86,8 +86,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "舳先にいるアンカレッジは、身を乗り出して月を指差した。",
@@ -97,8 +97,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "風に流された厚い雲から月が顔を出した。",
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "月光と灯火が反射して、まるで星が散りばめられたような水面に小舟が漂う。",
@@ -119,11 +119,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
 			say = "おつきさま、きらきら、きれい…！",
@@ -137,8 +137,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "綺麗な月にすっかり夢中になったアンカレッジを見てやっと一息ついた。",
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "うん…！アンカレッジ、たのしい…！",
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "ふね…せんせいといっしょ…たのしい！",
@@ -208,11 +208,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
 			say = "ふね、ゆらゆら……ばたばた……",
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "…おもしろい！",
@@ -244,11 +244,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
 			say = "あたらしいふくも…！",
@@ -262,11 +262,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "せんせいがくれた…すき！",
@@ -280,11 +280,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "アンカレッジも、せんせいに…プレゼント…！",
@@ -322,11 +322,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
 			say = "おつきさま！",
@@ -340,11 +340,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "そらのおつきさま…せんせいに！",
@@ -382,11 +382,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
 			say = "えへへ…こんどは…アンカレッジ…せんせいに…おしえる！",
@@ -400,11 +400,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "おつきさま…こう…！",
@@ -418,8 +418,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "四つん這いだったアンカレッジは身を起こし、月に向かって右手を伸ばした。",
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "まるで月をその手に捕まえたかのように。",
@@ -440,11 +440,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
 			say = "せんせいも…いっしょに！",
@@ -458,8 +458,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "アンカレッジに手招きで促され、自分も同じように手を伸ばした。",
@@ -469,8 +469,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "すると夜空にかざした互いの手が触れ合い、月は2人分の手の中にすっぽり収まった。",
@@ -480,11 +480,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
 			say = "やった…おつきさま…つかまった！",
@@ -498,11 +498,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "せんせいに…あげる…！",
@@ -516,11 +516,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "せんせい…すき？",
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_night",
 			hidePaintObj = true,
 			say = "答えはもちろん決まっている――",
@@ -551,11 +551,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
 			say = "えへへ…アンカレッジも…すき！",
@@ -569,11 +569,11 @@ return {
 			}
 		},
 		{
-			actor = 199032,
+			hidePaintObj = true,
 			side = 2,
 			bgName = "bg_night",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199032,
 			nameColor = "#A9F548FF",
 			live2d = true,
 			say = "アンカレッジ…せんせい、だいすき！",

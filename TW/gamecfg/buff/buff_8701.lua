@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "2020年6月世界BOSS叠加buff",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 8701,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8701,
+	color = "yellow",
 	icon = 2120,
 	last_effect = "",
 	blink = {
@@ -23,8 +23,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "cannonPower",
-				number = 3000
+				number = 3000,
+				attr = "cannonPower"
 			}
 		},
 		{
@@ -33,8 +33,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "airPower",
-				number = 4000
+				number = 4000,
+				attr = "airPower"
 			}
 		},
 		{
@@ -43,8 +43,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = 0.1
+				number = 0.1,
+				attr = "injureRatio"
 			}
 		}
 	}

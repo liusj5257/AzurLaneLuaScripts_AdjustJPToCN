@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "어느 날·타란토 항",
 			side = 2,
 			bgName = "bg_port_talantuo",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-italy",
+			say = "어느 날·타란토 항",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "그렇군... 우리를 파커 피크 해의 메탈 블러드 기지에 \"초대\"를 하러 온 것인가?",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "...이런 시기에 원정을 떠나야겠어?",
 			typewriter = {
@@ -109,8 +109,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "그러고 보니 파커 피크 해의 메탈 블러드 기지라... 세이렌의 공격을 받아 한번 무너진 곳 아닌가?",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "하지만 유감이야. 지중해의 정세가 급변하고 있어서 나와 베네토는 자리를 비울 수 없어.",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "물론! 사르데냐 제국이 이번 초대를 거절한다는 뜻은 아니야.",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "걱정 마. 베네토의 호위로 구성할 테니 모두 믿음직스러울 거야.",
 			typewriter = {
@@ -270,15 +270,15 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "bg_guild_red",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 601020,
+			nameColor = "#a9f548",
 			say = "실례합니다!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -303,8 +303,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "리토리오 님, 명령을 내리실 건가요?",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "카라비니에레, 잘 들어. 지금부터 중요한 기밀 작전을 맡길 거야——",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>좌표 설정: █°█′S ███°██′E</size>",
@@ -385,8 +385,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

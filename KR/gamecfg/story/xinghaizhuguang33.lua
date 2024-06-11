@@ -4,11 +4,11 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			asideType = 3,
-			blackBg = true,
 			bgmDelay = 2,
+			blackBg = true,
 			sequence = {
 				{
 					"아이리스 리브레 · 수도",
@@ -21,12 +21,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "암호화된 단말기에서 별의 바다 기지로부터 사고 보고가 접수되었다.",
 			bgm = "theme-ucnf-image",
+			say = "암호화된 단말기에서 별의 바다 기지로부터 사고 보고가 접수되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,28 +153,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
-			side = 2,
 			bgName = "star_level_bg_502",
-			hidePaintObj = true,
+			side = 2,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0

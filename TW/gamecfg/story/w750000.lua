@@ -1,12 +1,12 @@
 return {
-	id = "W750000",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W750000",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "進入了圖騰空間。海域中的傳送門通向深層空間，進入後需完成其中的解謎。",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENSHENGDEBEIXIJU1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "SHENSHENGDEBEIXIJU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>「On my path of conquest, having yet to witness the light of dawn that I seeked,</size>",
@@ -37,8 +37,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{
@@ -47,8 +47,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -74,16 +74,16 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_italy_cg1",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "battle-boss-italy",
 			actor = 605020,
 			nameColor = "#ffde38",
+			bgName = "bg_italy_cg1",
 			say = "No... Impossible...!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -118,11 +118,11 @@ return {
 			}
 		},
 		{
-			say = "The Sardegna Empire was under attack, and Taranto harbor was dyed a burning red.",
 			side = 2,
 			bgName = "bg_italy_cg1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "The Sardegna Empire was under attack, and Taranto harbor was dyed a burning red.",
 			flashN = {
 				color = {
 					1,
@@ -173,8 +173,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "How was I unable... to foresee an attack like this...!",
 			dialogShake = {
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg1",
+			dir = 1,
 			say = "Though the harbor's anti-air defenses were firing round after round into the skies, they could not stop the Royal Navy's aerial onslaught.",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_italy_cg1",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "How were they able to mobilize their aerial squadrons at night...?!",
 			typewriter = {
@@ -223,9 +223,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_italy_cg1",
+			dir = 1,
 			say = "The ships ablaze painted the harbor an infernal red. It was like staring into the maw of hell itself.",
 			typewriter = {
 				speed = 0.05,
@@ -237,12 +237,12 @@ return {
 			}
 		},
 		{
-			say = "Città Eterna, Capital of the Sardegna Empire - 3 Days Prior",
-			side = 2,
 			bgName = "bg_story_italy",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-italy",
+			say = "Città Eterna, Capital of the Sardegna Empire - 3 Days Prior",
 			effects = {
 				{
 					active = false,
@@ -250,8 +250,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -276,12 +276,12 @@ return {
 			}
 		},
 		{
-			actor = 900198,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 900198,
 			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "There's no way the Sirens are supposed to be here in the Mediterranean Sea. Are you certain your information is correct?",
 			typewriter = {
 				speed = 0.05,
@@ -293,11 +293,11 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "bg_story_italy",
-			nameColor = "#ffde38",
 			dir = 1,
+			actor = 601020,
+			nameColor = "#ffde38",
 			say = "Yes! I am certain of it! A large Siren fleet has amassed near the Empire's southern border to the sea!",
 			typewriter = {
 				speed = 0.05,
@@ -309,8 +309,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -322,10 +322,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffde38",
 			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "What are those Iron Blood bastards doing, allowing the Sirens to advance this deep into our territory...",
 			typewriter = {
 				speed = 0.05,
@@ -340,10 +340,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffde38",
 			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "(One of our demands for joining the Crimson Axis was that the safety of the Mediterranean would be secured...)",
 			typewriter = {
 				speed = 0.05,
@@ -358,10 +358,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffde38",
 			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "(I was already apprehensive of them when the Sirens dismantled the Vichya Dominion, but now they advance upon us...)",
 			typewriter = {
 				speed = 0.05,
@@ -392,10 +392,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffde38",
 			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "Littorio...",
 			typewriter = {
 				speed = 0.05,
@@ -410,8 +410,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "Since when has grumbling solved any problems, Miss Eternal Flagship?",
 			typewriter = {
@@ -427,8 +427,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "Our response should be simple. Gaze upon our glorious imperial fleet, and turn your eyes upon me.",
 			typewriter = {
@@ -444,8 +444,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "We have the most technologically advanced fleet on the face of the continent.",
 			typewriter = {
@@ -477,8 +477,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "Our land is a hallowed cradle that has given birth to great civilizations and timeless cultures.",
 			typewriter = {
@@ -494,8 +494,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "If we wish to reclaim Sardegna's fabled birthright, just give me the word, Veneto.",
 			typewriter = {
@@ -511,8 +511,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "And by our own hands, the world shall know of our glory.",
 			typewriter = {
@@ -528,10 +528,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffde38",
 			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "R-right...",
 			typewriter = {
 				speed = 0.05,
@@ -562,10 +562,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#ffde38",
 			actor = 900198,
+			nameColor = "#ffde38",
+			hidePaintObj = true,
 			say = "But... I...",
 			typewriter = {
 				speed = 0.05,
@@ -580,8 +580,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "Ah, you are worried about the Royal Navy, aren't you? You fear the same thing that happened to Vichya will happen to us?",
 			typewriter = {
@@ -597,8 +597,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "If we sit here and do nothing, we will end up just like those Vichya battleships, trophies adorning the Royal Navy's mantle.",
 			typewriter = {
@@ -614,8 +614,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "Moreover, the fact that the Sirens have approached in our waters might be a blessing in disguise.",
 			typewriter = {
@@ -647,8 +647,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "And even if they could, they would have no way of assessing our naval might.",
 			typewriter = {
@@ -664,8 +664,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "So, what do you say? Shall we seize this opportunity to partake in an act on the world stage...",
 			typewriter = {
@@ -681,8 +681,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_story_italy",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#ffde38",
 			say = "... and crush the Sirens in a show of Sardegna's might?",
 			typewriter = {

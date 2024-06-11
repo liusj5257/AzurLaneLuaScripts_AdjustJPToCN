@@ -1,10 +1,10 @@
 slot0 = class("CommanderQuicklyFinishBoxMsgBoxPage", import(".CommanderMsgBoxPage"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "CommanderQuicklyFinishBoxUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
 	slot0.ssrToggle = slot0:findTF("frame/bg/content/rarity/ssr")
@@ -13,7 +13,7 @@ function slot0.OnInit(slot0)
 	slot0.descTxt = slot0:findTF("frame/bg/content/rarity/Text"):GetComponent(typeof(Text))
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0, slot1)
 
 	slot0.descTxt.text = i18n("acceleration_tips_3")
@@ -38,14 +38,14 @@ function slot0.Show(slot0, slot1)
 	slot0:UpdateContent()
 end
 
-function slot0.UpdateContent(slot0)
+slot0.UpdateContent = function(slot0)
 	slot1, slot2, slot3, slot4 = getProxy(CommanderProxy):CalcQuickItemUsageCnt(slot0.toggleFlags)
 
 	setText(slot0.text1, i18n("acceleration_tips_1", slot1, slot2))
 	setText(slot0.text2, i18n("acceleration_tips_2", slot4[1], slot4[2], slot4[3]))
 end
 
-function slot0.InitToggle(slot0)
+slot0.InitToggle = function(slot0)
 	slot0.toggleFlags = {}
 
 	onToggle(slot0, slot0.ssrToggle, function (slot0)
@@ -71,11 +71,11 @@ function slot0.InitToggle(slot0)
 	triggerToggle(slot0.rToggle, slot1[3])
 end
 
-function slot0.GetConfig(slot0)
+slot0.GetConfig = function(slot0)
 	return getProxy(SettingsProxy):GetCommanderQuicklyToolRarityConfig()
 end
 
-function slot0.SaveConfig(slot0)
+slot0.SaveConfig = function(slot0)
 	getProxy(SettingsProxy):SaveCommanderQuicklyToolRarityConfig(slot0.toggleFlags)
 end
 

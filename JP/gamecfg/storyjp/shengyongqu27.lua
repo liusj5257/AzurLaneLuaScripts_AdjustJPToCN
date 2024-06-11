@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU27",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU27",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-french2",
 			dir = 1,
 			say = "これから私が言うこと、ヴィシアの方々が納得しないのは重々承知ですが、それでも言わせてください",
+			bgm = "level-french2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,8 +143,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0,
 					dur = 0.25,
 					x = 0,
@@ -153,8 +153,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "悲しくも決意を込めた声で、イラストリアスはヴィシアの三人に向けて語り、そして深く一礼した。",
 			typewriter = {
 				speed = 0.05,
@@ -169,8 +169,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "なんだか……意外な展開だね、これ",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "…って本当は言いたかったけど、正直私たちもしょうがないと思っている節はあったりなかったり…ねえ？",
 			typewriter = {
 				speed = 0.05,
@@ -216,8 +216,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "ヴォークランちゃんとアルジェリーがなにも言わないならあたしから言っとくね？",
 			typewriter = {
 				speed = 0.05,
@@ -247,8 +247,8 @@ return {
 			expression = 1,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "次、謝罪は受け入れない――それはダンケルクとジャン・バールに言うのが筋でしょ？って話",
 			typewriter = {
 				speed = 0.05,
@@ -263,8 +263,8 @@ return {
 			expression = 2,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "そしてこの後どうするかは…アルジェリー、そのよくわからない「黒いキューブ」を使わないほうがよかったんじゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "アルジェリー？どうしたの？様子がおかしいよ？",
 			typewriter = {
 				speed = 0.05,
@@ -325,8 +325,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actor = 902010,
 			dir = 1,
+			actor = 902010,
 			say = "アルジェリー、おーい、本当に大丈夫？ちょっとヴォークランちゃんまで固まっているよ？",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "まるで周りの状況を完全に無視したかのように、アルジェリーは「祈祷」を続けた。",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "その「祈祷」に呼応し、聖堂の光がアルジェリーの体に集まってくる。",
 			typewriter = {
 				speed = 0.05,
@@ -381,9 +381,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 802020,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "これは……一体……！",
 			typewriter = {
 				speed = 0.05,
@@ -395,8 +395,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -420,8 +420,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "戦場が静寂に包まれた。",
 			typewriter = {
 				speed = 0.05,
@@ -433,8 +433,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "その場にいる艦船全員の視線はアルジェリーの手にある箱に釘づけになっていた。",
 			typewriter = {
 				speed = 0.05,
@@ -463,9 +463,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "………まさか、あれは……！",
 			typewriter = {
 				speed = 0.05,
@@ -477,8 +477,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -489,9 +489,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "アルジェリー！それ以上「秘蹟」の力を使うのはやめてください！！",
 			effects = {
 				{
@@ -509,8 +509,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "声が届かなかった。",
 			effects = {
 				{
@@ -545,9 +545,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "ラ・ガリソニエール！…アルジェリーを早く止めてください！あの箱を彼女の手から離してください！",
 			effects = {
 				{
@@ -567,9 +567,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 902010,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "……はい！",
 			effects = {
 				{
@@ -587,8 +587,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ラ・ガリソニエールが動き出すよりも早く、アルジェリーを包んだ眩しい光が……爆ぜた。",
 			typewriter = {
 				speed = 0.05,
@@ -617,9 +617,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 805010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "…………みんな、衝撃に備えて！",
 			typewriter = {
 				speed = 0.05,
@@ -631,8 +631,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -644,8 +644,8 @@ return {
 			actor = 903020,
 			nameColor = "#ffff4d",
 			side = 2,
-			stopbgm = true,
 			dir = 1,
+			stopbgm = true,
 			say = "「――――」",
 			typewriter = {
 				speed = 0.05,
@@ -657,13 +657,13 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_qiongding_5",
-			say = "強烈な光によって、海も、空も、聖堂も白く染まり、何もない白い世界となった。",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "bsm-2",
+			stopbgm = true,
+			say = "強烈な光によって、海も、空も、聖堂も白く染まり、何もない白い世界となった。",
 			flashout = {
 				dur = 0.5,
 				alpha = {
@@ -689,9 +689,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_5",
+			dir = 1,
 			say = "そして、白紙と化した世界に、黒い墨が一滴落ちた。",
 			typewriter = {
 				speed = 0.05,
@@ -703,9 +703,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_5",
+			dir = 1,
 			say = "黒い点は瞬く間に大きくなり、その場にいた「彼女」を薄膜のように覆い尽くし、そして――",
 			typewriter = {
 				speed = 0.05,
@@ -717,9 +717,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_5",
+			dir = 1,
 			say = "二度目の衝撃。",
 			typewriter = {
 				speed = 0.05,
@@ -731,9 +731,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_5",
+			dir = 1,
 			say = "今度は黒い輝きが白を駆逐し、蹂躙し、混ざり合い、世界を混沌にする。",
 			typewriter = {
 				speed = 0.05,

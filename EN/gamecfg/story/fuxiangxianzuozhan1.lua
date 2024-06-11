@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "FUXIANGXIANZUOZHAN1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "FUXIANGXIANZUOZHAN1",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Taranto Harbor",
 			side = 2,
 			bgName = "bg_port_talantuo",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-italy",
+			say = "Taranto Harbor",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -43,8 +43,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "So if I understand this right... you're offering to give our fleet a tour around one of your bases?",
 			typewriter = {
@@ -76,8 +76,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "Why? This invitation comes very much out of nowhere.",
 			typewriter = {
@@ -109,8 +109,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "Hmm, this location you've chosen... It was formerly occupied by Sirens. How did you manage to recapture it?",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "However, the Eternal Flagship and I cannot leave the Méditerranée. We are needed here for important business.",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "Then how about a compromise? I can readily send someone to represent us.",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "bg_port_talantuo",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "Do not worry, I know for a fact that my candidate wouldn't speak a word of it to anyone else.",
 			typewriter = {
@@ -270,15 +270,15 @@ return {
 			}
 		},
 		{
-			actor = 601020,
 			side = 2,
 			bgName = "bg_guild_red",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 601020,
+			nameColor = "#a9f548",
 			say = "Carabiniere, reporting for duty!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -303,8 +303,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 601020,
 			dir = 1,
+			actor = 601020,
 			nameColor = "#a9f548",
 			say = "You said you had orders for me, Lady Littorio?",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_guild_red",
-			actor = 605020,
 			dir = 1,
+			actor = 605020,
 			nameColor = "#a9f548",
 			say = "That, I do. Listen closely, Carabiniere. I have an important task for you.",
 			typewriter = {
@@ -347,8 +347,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"<size=51>Coordinates set.</size>",
@@ -385,8 +385,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

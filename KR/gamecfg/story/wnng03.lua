@@ -4,8 +4,8 @@ return {
 	once = true,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "进入了友方的港口，港口为指挥官提供了多种功能。",
 			typewriter = {
 				speed = 0.05,

@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/ui/baozha1",
+			bgm = "votefes-up",
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
+			soundeffect = "event:/ui/baozha1",
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "——",
-			bgm = "votefes-up",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,17 +21,17 @@ return {
 				number = 3
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			say = "轟音とともに、ステージ上に設置されたライブのあらゆるデータを集計する機能を備えたスコアボードが爆発四散した！",
@@ -53,10 +53,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官…この勝負の結果はどうなるにゃ？",
 			painting = {
 				alpha = 0.3,
@@ -68,8 +68,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -81,10 +81,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 305110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "スコアボードが爆発してしまっては…これじゃ勝敗を決せぬな…",
 			painting = {
 				alpha = 0.3,
@@ -99,10 +99,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 699010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうね…だからといって引き分けにするわけにもいかないでしょ？",
 			painting = {
 				alpha = 0.3,
@@ -197,10 +197,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "判別不能にゃ…！双方のデータが完全に一致してたからにゃ！",
 			painting = {
 				alpha = 0.3,
@@ -215,10 +215,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "しかも、お互いに影響し合ったせいか、双方の装備した「μ兵装」に突然、奇妙な共鳴が起きたみたいね",
 			painting = {
 				alpha = 0.3,
@@ -233,10 +233,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "会場のスコアボードは、共鳴による増幅された力に耐えられず、突然爆発したってわけ",
 			painting = {
 				alpha = 0.3,
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "にゃ？それは…",
 			painting = {
 				alpha = 0.3,
@@ -316,10 +316,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "予算のことなら、既に明石から預けてもらったわよ？",
 			painting = {
 				alpha = 0.3,
@@ -334,10 +334,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "他の陣営もスポンサーになってくれたおかげで、今回の1位と2位の予算は、この上なく潤沢なの",
 			painting = {
 				alpha = 0.3,
@@ -349,8 +349,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			say = "目の前にいるクレマンソーの笑顔を見て、急に嫌な予感がしてきた。",
@@ -363,10 +363,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "1位の予算は9999999999999999、そして2位は1位より9が一桁だけ少ない999999999999999よ",
 			painting = {
 				alpha = 0.3,
@@ -381,10 +381,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "予算が無限に限りなく近いことから、賞品はどちらも「なんでも一つだけ叶う願い」とみなしていいわよ？",
 			painting = {
 				alpha = 0.3,

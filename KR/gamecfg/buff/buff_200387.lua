@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "2023北联SP 剧情战1 画面变暗",
 	time = 5,
-	color = "blue",
+	name = "2023北联SP 剧情战1 画面变暗",
+	init_effect = "",
+	id = 200387,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200387,
+	color = "blue",
 	icon = 200387,
 	last_effect = "",
 	effect_list = {

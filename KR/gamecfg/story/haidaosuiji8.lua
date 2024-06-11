@@ -3,8 +3,8 @@ return {
 	mode = 2,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "눈앞의 마치 하늘을 가린 구름처럼 거대한 둥지가 시선을 사로잡았다.",
 			typewriter = {
 				speed = 0.05,
@@ -12,8 +12,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "둥지 옆에 서있는데, 갑자기 머릿속에서 어떤 한 목소리가 들려왔다.",
 			typewriter = {
 				speed = 0.05,
@@ -21,8 +21,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "\"꼬꼬꼬… 교환…\"",
 			typewriter = {
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "\"공물을… 꼬꼬꼬… 넣어라…\"",
 			typewriter = {

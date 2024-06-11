@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "飓风的复苏",
 	time = 0,
-	color = "blue",
+	name = "飓风的复苏",
+	init_effect = "",
+	id = 902250,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902250,
+	color = "blue",
 	icon = 902250,
 	last_effect = "",
 	effect_list = {
@@ -16,8 +16,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.2
+				number = -0.2,
+				attr = "injureRatioByAir"
 			}
 		},
 		{
@@ -27,8 +27,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 40,
+				target = "TargetSelf",
 				skill_id = 902251
 			}
 		}

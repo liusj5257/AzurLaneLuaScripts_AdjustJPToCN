@@ -1,23 +1,23 @@
 return {
-	id = "WEICENGHUNHE26",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE26",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 2,
 			side = 2,
 			actor = 102260,
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "천신만고 끝에 각지에 흩어져 있던 히어로들이 다시 집결해 반격의 나팔을 분다…",
 			bgm = "hunhe-battle",
+			nameColor = "#a9f548",
+			say = "천신만고 끝에 각지에 흩어져 있던 히어로들이 다시 집결해 반격의 나팔을 분다…",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -78,8 +78,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "엄청 좋아해! 세계를 구하는 슈퍼 히어로… 동료를 지키는 모습… 엄청 멋있잖아!",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "빔, 빔이 나가?!",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "이게 끝이 아니라구. 버튼을 한 번 더 누르면…",
 			typewriter = {
 				speed = 0.05,
@@ -155,11 +155,11 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/cannon-main-prepared",
 			actor = 101440,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "변신?! 멋있어!",
-			soundeffect = "event:/battle/cannon-main-prepared",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,8 +188,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "대단해! 리노, 정말 히어로를 좋아하는구나?",
 			typewriter = {
 				speed = 0.05,
@@ -204,8 +204,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "에헤헤. 이번에 그 전설의 지휘관을 못 만나서 조금 아쉽지만 말이야.",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "하지만 불리한 국면에서도 최전선에 나서는 모두야말로 히어로인 것 같아.",
 			typewriter = {
 				speed = 0.05,
@@ -235,9 +235,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "이렇게 가까이서 모두의 싸움을 볼 수 있다니, 정말 기뻐!",
 			typewriter = {
 				speed = 0.05,
@@ -249,8 +249,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -262,8 +262,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "에? 리노, 히어로가 되고 싶지는 않아?",
 			typewriter = {
 				speed = 0.05,
@@ -278,8 +278,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "나는 히어로를 할 수 있는 타입이 아닌걸. 히어로의 팬으로서 이렇게 가까이서 응원할 수 있는 것만으로도 이미 만족이야!",
 			typewriter = {
 				speed = 0.05,
@@ -294,8 +294,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "음… 리노의 호위 때문에 우리도 걱정을 많이 덜었다고! 그러니까 리노도 이미 한 팀이라고 생각해!",
 			typewriter = {
 				speed = 0.05,
@@ -310,8 +310,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "슈퍼 히어로와 한 팀이 될 수는 있어도 그게 슈퍼 히어로라는 뜻은 아니니까…",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "‘히어로들은 특수한 힘이 있어서 히어로가 된 것이 아니라, 그 힘을 사용하기로 했기 때문이다’ 라는 말이 있지.",
 			typewriter = {
 				speed = 0.05,
@@ -341,9 +341,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 102260,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "…에?! 브레머튼도 그 말 들어본 거야?！",
 			typewriter = {
 				speed = 0.05,
@@ -355,8 +355,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -368,8 +368,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "가끔 볼티모어와 같이 슈퍼 히어로 작품을 보거든.",
 			typewriter = {
 				speed = 0.05,
@@ -384,8 +384,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			say = "히어로의 발자취를 따라간다면 언젠가 히어로가 될 수 있다, 볼티모어는 그렇게 생각한대.",
 			typewriter = {
 				speed = 0.05,
@@ -430,8 +430,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			say = "정말… 그런 거 같네!",
 			typewriter = {
 				speed = 0.05,
@@ -446,8 +446,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101440,
 			dir = 1,
+			actor = 101440,
 			say = "그렇다면 앞으로도 호위는 너에게 맡길게. 히어로 리노!",
 			typewriter = {
 				speed = 0.05,

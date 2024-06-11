@@ -1,31 +1,31 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHIZHEYUZHIZHU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHIZHEYUZHIZHU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
-					"智者与蜘蛛\n\n<size=45>一　侵蚀</size>",
+					"智者與蜘蛛\n\n<size=45>一 侵蝕</size>",
 					1
 				}
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_guild_red_n",
-			say = "博览会进行中的某日，另一片大洋中————",
+			side = 2,
 			bgmDelay = 1,
 			bgm = "bsm-7",
+			nameColor = "#A9F548FF",
+			say = "博覽會進行中的某日，另一片大洋中————",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,23 +46,23 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_red_n",
-			say = "铁血浮岛要塞群·A1浮岛-办公区",
+			say = "鐵血浮島要塞群·A1浮島-辦公區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……这份是，米德加尔特之塔的升级进度报告……",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "……這份是，米德加爾特之塔的升級進度報告……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,11 +76,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……然后是……维护报告与需要替换的部件列表……",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "……然後是……維護報告與需要替換的零件清單…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,20 +91,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_red_n",
-			say = "时间刚过八点，一个黑色的身影正坐在办公桌前阅读着文件，正如前一日一样。",
+			say = "時間剛過八點，一個黑色的身影正坐在辦公桌前閱讀文件，就像前一日一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_red_n",
-			say = "不过与昨日不同的是，报告散落在原本整齐的书桌上，似乎显示着阅读者的某种心境变化。",
+			say = "不過與昨日不同的是，報告散落在原本整齊的書桌上，似乎顯示著閱讀者的某種心境變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,11 +114,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……可恶，没法集中精神。",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "……可惡，沒辦法集中精神。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,11 +132,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "明明只是梦中的景象，为什么会在醒来后依然挥之不去……",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "明明只是夢中的景象，為什麼醒來後依然揮之不去……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,11 +150,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "啧……这样下去工作都要耽误了。",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "嘖……這樣下去都要影響到工作了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,10 +165,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_guild_red_n",
-			say = "{namecode:464}强行集中精神，将杂念排出脑中，死死地盯着面前的文件。",
+			say = "烏爾里希強行集中精神，將雜念排出腦中，死死地盯著眼前的文件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,15 +177,15 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "bg_firedust_5",
-			stopbgm = true,
 			dir = 1,
 			bgmDelay = 2,
-			bgm = "theme-vichy-church",
 			hidePaintEquip = true,
+			bgm = "theme-vichy-church",
 			actor = 405030,
 			nameColor = "#A9F548FF",
-			say = "很好……有效，这样一来总算能继续工作了。",
+			stopbgm = true,
+			bgName = "bg_firedust_5",
+			say = "很好……有效，這樣一來總算能繼續工作了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,17 +195,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -213,9 +213,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = true
 				}
 			}
 		},
@@ -223,11 +223,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "接下来是…………嗯？",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "接下來是…………嗯？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,11 +241,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_5",
-			actor = 405030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 405030,
 			nameColor = "#A9F548FF",
 			say = "………………",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,10 +256,10 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_firedust_5",
-			say = "{namecode:464}注意到了，此刻她虽仍坐在办公桌前，但办公桌却已经不在办公室中了。",
+			say = "烏爾里希注意到了，此刻她雖仍坐在辦公桌前，但辦公桌卻已經不在辦公室中了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,11 +269,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_5",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "开玩笑也要有个限度……毫无疑问，我并没有睡觉，不睡觉就不可能做梦。",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "開玩笑也要有個限度……毫無疑問，我並沒有睡覺，不睡覺就不可能做夢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,11 +287,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_5",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "这是某种远程干扰所创造的幻象么？",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "這是某種遠程干擾所創造的幻象嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,11 +305,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "还是某种通讯信标，在试图向我传送些什么……？",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "還是某種通訊信標，在試圖傳送些什麼給我…？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,13 +320,13 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_firedust_5",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "所以才一而再再而三地试图出现在我的面前……",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "所以才一而再再而三地試圖出現在我的面前……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,11 +340,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_firedust_5",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "如果是这样的话，那些向我展现的画面……都是存在意义的么。",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "如果是這樣的話，那些向我展現的畫面……都是存在意義的嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,15 +355,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorShadow = true,
+			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "█ █ █ █ █",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 499020,
-			nameColor = "#BDBDBD",
-			say = "■▄▆▋▂▁▅▎▆■▄▆▋▂▁",
+			actorName = "█ █ ████",
+			say = "■▄▆▋▂ ▅▎▆■▄▆▋▂",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,11 +377,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_firedust_5",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……{namecode:441}，你究竟想要对我说什么？",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "……腓特烈，妳究竟想對我說些什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,15 +392,15 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorShadow = true,
+			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "█ █ █ █ █",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 499020,
-			nameColor = "#BDBDBD",
-			say = "▅▁▂▋乌▊■▆▎▅尔▋▄▊里▎▇克▅■",
+			actorName = "█ █ ████",
+			say = "▅ ▂▋烏▊■▆▎▅爾▋▄▊里▎▇希▅■",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,11 +414,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_firedust_5",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 405030,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，我在听。",
-			hidePaintEquip = true,
+			say = "嗯，我在聽。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,15 +429,15 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
+			nameColor = "#BDBDBD",
 			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "█ █ █ █ █",
+			actorShadow = true,
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 499020,
-			nameColor = "#BDBDBD",
-			say = "▅▁▂▋乌▊■▆▎▅■▆尔▋",
+			actorName = "█ █ ████",
+			say = "▅ ▂▋烏▊■▆▎▅■▆爾▋",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,15 +448,15 @@ return {
 			}
 		},
 		{
-			actorShadow = true,
+			nameColor = "#BDBDBD",
 			side = 2,
 			bgName = "bg_firedust_5",
-			actorName = "█ █ █ █ █",
+			actorShadow = true,
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 499020,
-			nameColor = "#BDBDBD",
-			say = "▄▊里▎▇克▅■█阁█▎下▅■█",
+			actorName = "█ █ ████",
+			say = "▄▊里▎▇希▅■███▎下▅■█",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,11 +470,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_firedust_5",
-			actor = 405030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 405030,
 			nameColor = "#A9F548FF",
 			say = "……嗯？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,16 +485,16 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			side = 2,
-			bgName = "bg_guild_red_n",
-			hidePaintEquip = true,
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "bsm-7",
 			actor = 407030,
-			stopbgm = true,
-			say = "{namecode:464}阁下！您还好么？！",
+			nameColor = "#A9F548FF",
+			hidePaintEquip = true,
+			bgName = "bg_guild_red_n",
+			say = "烏爾里希閣下！您還好嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,8 +511,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.25,
 				dur = 0.25,
+				delay = 0.25,
 				alpha = {
 					1,
 					0
@@ -520,9 +520,9 @@ return {
 			},
 			effects = {
 				{
-					active = false,
+					interlayer = 1001,
 					name = "yuanzhou_juqing01",
-					interlayer = 1001
+					active = false
 				}
 			},
 			dialogShake = {
@@ -535,11 +535,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我这是…………",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "我這是…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,11 +553,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……是斯坦贝瑟啊。",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "……是史特拉塞啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,13 +568,13 @@ return {
 			}
 		},
 		{
-			actor = 405030,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你刚刚看到了么？",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "妳剛剛看到了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,13 +585,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_guild_red_n",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 407030,
-			side = 2,
-			bgName = "bg_guild_red_n",
 			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "看到……什么？",
-			hidePaintEquip = true,
+			say = "看到……什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,11 +605,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……没什么。你进来多久了？",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "……沒什麼。妳進來多久了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,13 +620,13 @@ return {
 			}
 		},
 		{
-			actor = 407030,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大概三分钟。",
 			hidePaintEquip = true,
+			actor = 407030,
+			nameColor = "#A9F548FF",
+			say = "大概三分鐘。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,11 +640,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_guild_red_n",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 405030,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来这里的原因呢？",
-			hidePaintEquip = true,
+			say = "來這裡的原因呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,13 +655,13 @@ return {
 			}
 		},
 		{
-			actor = 407030,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……嗯？本日的测试要开始了，按照流程向您例行汇报并提供本日测试的材料？",
 			hidePaintEquip = true,
+			actor = 407030,
+			nameColor = "#A9F548FF",
+			say = "……嗯？本日的測試要開始了，按照流程向您例行報告並提供本日測試的資料？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,13 +672,13 @@ return {
 			}
 		},
 		{
-			actor = 407030,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "您还好么，{namecode:464}阁下？",
 			hidePaintEquip = true,
+			actor = 407030,
+			nameColor = "#A9F548FF",
+			say = "您還好嗎，烏爾里希閣下？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,13 +689,13 @@ return {
 			}
 		},
 		{
-			actor = 407030,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "刚才进来之后就看您一动不动地死盯着桌上的报告，是报告出了什么问题么？",
 			hidePaintEquip = true,
+			actor = 407030,
+			nameColor = "#A9F548FF",
+			say = "剛才進來之後就看您一動不動地死盯著桌上的報告，是報告出了什麼問題嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -709,11 +709,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……没什么，也许是我昨晚没休息好吧。",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "……沒什麼，也許是我昨晚沒休息好吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,11 +727,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_guild_red_n",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 405030,
-			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "无须担心，你还有测试要做呢，把报告放下就可以去准备了。",
-			hidePaintEquip = true,
+			say = "無須擔心，妳還有測試要做呢，把報告放下就可以去準備了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,13 +742,13 @@ return {
 			}
 		},
 		{
-			actor = 407030,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好的，那么{namecode:464}阁下，我就告辞了。",
 			hidePaintEquip = true,
+			actor = 407030,
+			nameColor = "#A9F548FF",
+			say = "好的，那麼烏爾里希閣下，我就告辭了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -759,13 +759,13 @@ return {
 			}
 		},
 		{
-			actor = 407030,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "利用运动来缓解精神疲劳是一个不错的选择，比如去演习场训练一下之类的。",
 			hidePaintEquip = true,
+			actor = 407030,
+			nameColor = "#A9F548FF",
+			say = "利用運動來緩解精神疲勞是個不錯的選擇，例如去演習場訓練一下之類的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,13 +776,13 @@ return {
 			}
 		},
 		{
-			actor = 407030,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "您要不要考虑一下？",
 			hidePaintEquip = true,
+			actor = 407030,
+			nameColor = "#A9F548FF",
+			say = "您要不要考慮一下？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,11 +796,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_red_n",
-			actor = 405030,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……你说得有道理，我会考虑的。",
 			hidePaintEquip = true,
+			actor = 405030,
+			nameColor = "#A9F548FF",
+			say = "……妳說得有道理，我會考慮的。",
 			painting = {
 				alpha = 0.3,
 				time = 1

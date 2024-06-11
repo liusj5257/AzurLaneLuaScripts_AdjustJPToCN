@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			withoutPainting = true,
-			mode = 2,
 			say = "A few days later…",
+			mode = 2,
+			withoutPainting = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

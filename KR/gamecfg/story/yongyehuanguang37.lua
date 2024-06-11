@@ -1,16 +1,16 @@
 return {
-	id = "YONGYEHUANGUANG37",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG37",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "bgm-cccp3",
+			say = " 무수한 얼음 기둥들이 거대한 힘에 의해 끌려온 것처럼, 부자연스럽게 한데 모여, 해수면으로부터 하늘까지 이어져 있었고, 하나의 괴이한 거대 구조체로 엉켜 있었다.",
 			side = 2,
 			bgName = "bg_hms_0",
 			dir = 1,
-			say = " 무수한 얼음 기둥들이 거대한 힘에 의해 끌려온 것처럼, 부자연스럽게 한데 모여, 해수면으로부터 하늘까지 이어져 있었고, 하나의 괴이한 거대 구조체로 엉켜 있었다.",
+			bgm = "bgm-cccp3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,9 +21,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "이곳은 이미 극지 세이렌의 외부 거점이 되어 있었고, 한때 패잔병들로부터 시작되었던 첫 번째 특이점, '왕관'이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -35,9 +35,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = " '왕관'의 방향으로 마주하면, 무궁무진한 세이렌들이 멀리서부터 가까운 곳까지 시야 속의 바다 위를 잠식해오고 있었고, 종말이 다가온 듯한 광경이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -129,9 +129,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = "이번 난이도는 확실히 높았지만… 철수, 투항, 도망이란 선택지는 애초부터 없었다.",
 			typewriter = {
 				speed = 0.05,
@@ -143,9 +143,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_0",
+			dir = 1,
 			say = " 함대를 이끌고 전투하고, 승리를 얻는다. 이것은 지휘관으로서의 직책과 의무... 사명이다.",
 			typewriter = {
 				speed = 0.05,
@@ -158,17 +158,17 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "출격 명령 하달",
-					autochoice = 1
+					autochoice = 1,
+					content = "출격 명령 하달"
 				}
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccp_3",
-			actorName = "노스 유니온",
 			dir = 1,
+			actorName = "노스 유니온",
 			say = "γpa！！！！",
 			dialogShake = {
 				speed = 0.09,
@@ -185,15 +185,15 @@ return {
 			}
 		},
 		{
-			actor = 900218,
 			side = 2,
-			nameColor = "#ffff4d",
 			dir = 1,
 			blackBg = true,
+			actor = 900218,
+			nameColor = "#ffff4d",
 			say = "γpa… 그럼 전투를 시작하겠습니다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1

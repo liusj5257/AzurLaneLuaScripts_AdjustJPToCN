@@ -1,6 +1,6 @@
 slot0 = class("FranceIconTaskRePage", import("...base.BaseActivityPage"))
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
 	slot0.slider = slot0:findTF("slider", slot0.bg)
 	slot0.step = slot0:findTF("step", slot0.bg)
@@ -12,7 +12,7 @@ function slot0.OnInit(slot0)
 	slot0.gotBtn = slot0:findTF("got_btn", slot0.bg)
 end
 
-function slot0.OnFirstFlush(slot0)
+slot0.OnFirstFlush = function(slot0)
 	uv0.super.OnFirstFlush(slot0)
 	setActive(slot0.displayBtn, false)
 	setActive(slot0.awardTF, false)
@@ -59,7 +59,7 @@ function slot0.OnFirstFlush(slot0)
 	end
 end
 
-function slot0.Switch(slot0, slot1)
+slot0.Switch = function(slot0, slot1)
 	slot0.isSwitching = true
 	slot2 = GetOrAddComponent(slot0.phases[1], typeof(CanvasGroup))
 	slot5 = slot0.phases[2]
@@ -113,11 +113,11 @@ function slot0.Switch(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.UpdateAwardGot(slot0)
+slot0.UpdateAwardGot = function(slot0)
 	setActive(slot0:findTF("AD/switcher/phase2/got"), slot0.activity.data2 >= 1)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot1 = slot0.activity
 
 	setActive(slot0.battleBtn, isActive(slot0.battleBtn) and slot0.inTime)

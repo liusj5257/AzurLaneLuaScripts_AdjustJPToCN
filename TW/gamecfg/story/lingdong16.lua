@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINGDONG16",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINGDONG16",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205070,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "story-5",
 			dir = 1,
 			say = "特攻艦隊全員注意，我們已經重創了鐵必制這匹北方的孤狼，作戰目標基本達成",
+			bgm = "story-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,15 +87,15 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom1",
-			side = 2,
-			dir = 1,
-			blackBg = true,
 			say = "……————",
+			side = 2,
+			blackBg = true,
+			dir = 1,
+			soundeffect = "event:/battle/boom1",
 			flash = {
+				wait = 0.5,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.5,
 				number = 1,
 				alpha = {
 					0,

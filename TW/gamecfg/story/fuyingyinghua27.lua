@@ -1,17 +1,17 @@
 return {
-	id = "FUYINGYINGHUA27",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA27",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-1",
+			say = "數日後·某處海域",
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
 			bgmDelay = 1,
-			say = "數日後·某處海域",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,11 +22,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "結果最後，重櫻的祭典還是失敗了啊~",
 			typewriter = {
 				speed = 0.05,
@@ -38,8 +38,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -80,11 +80,11 @@ return {
 			}
 		},
 		{
-			actor = 401020,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401020,
+			nameColor = "#a9f548",
 			say = "真是的，都怪歐根妳在宴會階段就醉倒了，儀式廳裡發生了什麼我們都沒看到",
 			typewriter = {
 				speed = 0.05,
@@ -96,8 +96,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -122,11 +122,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "（臉紅）我那哪是醉了，只是演技，演技而已！！",
 			dialogShake = {
 				speed = 0.09,
@@ -159,11 +159,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "（臉紅）記得回去以後不許再討論這件事！",
 			typewriter = {
 				speed = 0.05,
@@ -175,8 +175,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -201,11 +201,11 @@ return {
 			}
 		},
 		{
-			actor = 401020,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			withoutActorName = true,
-			dir = 1,
+			actor = 401020,
 			nameColor = "#a9f548",
 			say = "Z2瞄了一眼旁邊這艘拖著一船重櫻酒的鐵血新銳重巡洋艦，發出了一聲嘆息",
 			typewriter = {
@@ -218,15 +218,15 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 30,
+					type = "move",
 					delay = 0.25,
 					dur = 0.5,
 					x = 0
 				},
 				{
-					type = "move",
 					y = -50,
+					type = "move",
 					delay = 0.75,
 					dur = 0.7,
 					x = 0
@@ -234,11 +234,11 @@ return {
 			}
 		},
 		{
-			actor = 403030,
 			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 403030,
+			nameColor = "#a9f548",
 			say = "不管怎樣，至少重櫻內部的派系、新銳戰艦的性能這些情報已經入手了",
 			typewriter = {
 				speed = 0.05,
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -292,16 +292,16 @@ return {
 			}
 		},
 		{
-			actor = 307010,
-			side = 2,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "歐根親王，請留步",
 			bgm = "xinnong-3",
+			actor = 307010,
+			nameColor = "#a9f548",
+			say = "歐根親王，請留步",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -326,12 +326,12 @@ return {
 			}
 		},
 		{
-			actor = 403030,
+			say = "啊啦，這不是{namecode:91}大人和{namecode:92}大人嗎？不需要這麼客氣送我們到這麼遠的~",
 			side = 1,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊啦，這不是{namecode:91}大人和{namecode:92}大人嗎？不需要這麼客氣送我們到這麼遠的~",
+			actor = 403030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -346,8 +346,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.8,
 					dur = 0.15,
 					x = 0,
@@ -372,11 +372,11 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 0,
 			bgName = "bg_story_nepu2",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307010,
+			nameColor = "#a9f548",
 			say = "我就直說了，我想要得到鐵血艦船和有關塞壬更多的資料",
 			typewriter = {
 				speed = 0.05,
@@ -388,8 +388,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

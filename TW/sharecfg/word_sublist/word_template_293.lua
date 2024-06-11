@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_293 = {}
 slot1 = slot0.word_template_293
 
-function temp()
+temp = function()
 	uv0["那"] = {
 		["嗎"] = {
 			B = {
@@ -40,7 +40,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["納"] = {
 		["粹"] = {
 			this = true
@@ -50,7 +50,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["鬧"] = {
 		["事"] = {
 			this = true
@@ -60,7 +60,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["能"] = {
 		["樣"] = {
 			this = true

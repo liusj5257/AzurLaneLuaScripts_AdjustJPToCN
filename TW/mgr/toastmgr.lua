@@ -35,7 +35,7 @@ slot0.ToastInfo = {
 	}
 }
 
-function slot0.Init(slot0, slot1)
+slot0.Init = function(slot0, slot1)
 	PoolMgr.GetInstance():GetUI("ToastUI", true, function (slot0)
 		uv0._go = slot0
 
@@ -76,13 +76,13 @@ function slot0.Init(slot0, slot1)
 	end)
 end
 
-function slot0.ResetUIDandHistory(slot0)
+slot0.ResetUIDandHistory = function(slot0)
 	slot0.completedJob = 0
 	slot0.actionJob = 0
 	slot0.buffer = {}
 end
 
-function slot0.ShowToast(slot0, slot1, slot2)
+slot0.ShowToast = function(slot0, slot1, slot2)
 	slot3 = #slot0.buffer
 
 	table.insert(slot0.buffer, {
@@ -97,7 +97,7 @@ function slot0.ShowToast(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Toast(slot0)
+slot0.Toast = function(slot0)
 	if slot0.actionJob >= #slot0.buffer then
 		return
 	end
@@ -137,7 +137,7 @@ function slot0.Toast(slot0)
 	end)
 end
 
-function slot0.GetAndSet(slot0, slot1, slot2)
+slot0.GetAndSet = function(slot0, slot1, slot2)
 	slot3 = slot0.pools[slot1 .. "Tpl"]:Dequeue()
 
 	setActive(slot3, true)
@@ -147,7 +147,7 @@ function slot0.GetAndSet(slot0, slot1, slot2)
 	return slot3
 end
 
-function slot0.UpdateAttire(slot0, slot1, slot2, slot3)
+slot0.UpdateAttire = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:GetAndSet(slot1.type, slot0.container)
 	slot5 = slot4:GetComponent(typeof(DftAniEvent))
 
@@ -177,7 +177,7 @@ function slot0.UpdateAttire(slot0, slot1, slot2, slot3)
 	setText(slot4.transform:Find("bg/Text"), HXSet.hxLan(slot6:getConfig("name")))
 end
 
-function slot0.UpdateEmoji(slot0, slot1, slot2, slot3)
+slot0.UpdateEmoji = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0:GetAndSet(slot1.type, slot0.container)
 	slot5 = slot4:GetComponent(typeof(DftAniEvent))
 
@@ -207,7 +207,7 @@ slot0.FADE_OUT_TIME = 1
 slot0.SHOW_TIME = 1.5
 slot0.DELAY_TIME = 0.3
 
-function slot0.UpdateTecpoint(slot0, slot1, slot2, slot3)
+slot0.UpdateTecpoint = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1.info
 	slot7 = slot4.attr
 	slot8 = slot4.value
@@ -231,7 +231,7 @@ function slot0.UpdateTecpoint(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	function slot11()
+	slot11 = function()
 		if uv0 then
 			uv0()
 		end
@@ -243,7 +243,7 @@ function slot0.UpdateTecpoint(slot0, slot1, slot2, slot3)
 
 	slot13 = GetComponent(slot9, "CanvasGroup")
 
-	function slot15()
+	slot15 = function()
 		LeanTween.moveX(rtf(uv0), 0, uv1.FADE_OUT_TIME)
 		LeanTween.value(uv0, 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()
 			setActive(uv0, false)
@@ -263,10 +263,10 @@ function slot0.UpdateTecpoint(slot0, slot1, slot2, slot3)
 		LeanTween.delayedCall(uv0, uv1.SHOW_TIME, System.Action(uv2))
 	end))
 
-	function slot16(slot0, slot1, slot2)
+	slot16 = function(slot0, slot1, slot2)
 		slot3 = GetComponent(slot0.transform, "CanvasGroup")
 
-		function slot5()
+		slot5 = function()
 			LeanTween.moveX(rtf(uv0), 0, uv1.FADE_OUT_TIME)
 			LeanTween.value(uv0, 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()
 				setActive(uv0, false)
@@ -292,7 +292,7 @@ function slot0.UpdateTecpoint(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.UpdateTrophy(slot0, slot1, slot2, slot3)
+slot0.UpdateTrophy = function(slot0, slot1, slot2, slot3)
 	slot4 = pg.CriMgr.GetInstance()
 
 	slot4:PlaySoundEffect_V3(slot1.info.sound or SFX_UI_TIP)
@@ -322,7 +322,7 @@ function slot0.UpdateTrophy(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
+slot0.UpdateMeta = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1.info
 	slot7 = slot0:GetAndSet("MetaExp", slot0.container)
 	slot8 = slot0:GetAndSet("MetaLevel", slot0.container)
@@ -364,7 +364,7 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	function slot23()
+	slot23 = function()
 		if uv0 then
 			uv0()
 		end
@@ -378,7 +378,7 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 	GetComponent(slot8, "CanvasGroup").alpha = 0
 
 	if slot16 or slot20 then
-		function slot28()
+		slot28 = function()
 			LeanTween.moveX(rtf(uv0.transform), 0, uv1.FADE_OUT_TIME)
 			LeanTween.value(uv0, 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()
 				uv0.pools.MetaExpTpl:Enqueue(uv1)
@@ -398,11 +398,11 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 	end
 
 	if slot20 then
-		function slot27(slot0)
+		slot27 = function(slot0)
 			uv0.alpha = slot0
 		end
 
-		function slot28()
+		slot28 = function()
 			LeanTween.moveX(rtf(uv0.transform), 0, uv1.FADE_OUT_TIME)
 			LeanTween.value(uv0, 1, 0, uv1.FADE_OUT_TIME):setOnUpdate(System.Action_float(uv2)):setOnComplete(System.Action(function ()
 				uv0.pools.MetaLevelTpl:Enqueue(uv1)
@@ -410,7 +410,7 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 			end))
 		end
 
-		function slot29()
+		slot29 = function()
 			LeanTween.delayedCall(uv0, uv1.SHOW_TIME, System.Action(uv2))
 		end
 
@@ -420,7 +420,7 @@ function slot0.UpdateMeta(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.UpdateCrusing(slot0, slot1, slot2, slot3)
+slot0.UpdateCrusing = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1.info
 	slot7 = pg.CriMgr.GetInstance()
 
@@ -454,7 +454,7 @@ function slot0.UpdateCrusing(slot0, slot1, slot2, slot3)
 	end))
 end
 
-function slot0.UpdateVote(slot0, slot1, slot2, slot3)
+slot0.UpdateVote = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1.info
 	slot7 = Drop.New({
 		type = DROP_TYPE_ITEM,
@@ -484,7 +484,7 @@ function slot0.UpdateVote(slot0, slot1, slot2, slot3)
 	end))
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	setActive(slot0._tf, false)
 	slot0:ResetUIDandHistory()
 

@@ -1,17 +1,17 @@
 return {
-	id = "TIEXUEYUYINFU17",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "TIEXUEYUYINFU17",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 205050,
 			nameColor = "#a9f548",
 			side = 0,
-			bgm = "bsm-3",
 			dir = -1,
 			say = "ようやくここまで近づかせてくれたな。ビスマルク",
+			bgm = "bsm-3",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 205050,
 			dir = -1,
+			actor = 205050,
 			say = "フッドを傷つけた時はセイレーンの力を用いたと聞いた",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 			actor = 205050,
 			side = 0,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = -1,
+			nameColor = "#a9f548",
 			say = "それが今の力とはどういう関係かわからないが……どっちにしても変わらない",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "「…………」",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +88,8 @@ return {
 			expression = 3,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			say = "「ロイヤルノ……エイコウ……」",
 			typewriter = {
 				speed = 0.05,
@@ -104,10 +104,10 @@ return {
 			expression = 1,
 			side = 0,
 			nameColor = "#a9f548",
-			actor = 205050,
 			dir = -1,
-			say = "全艦、火力全開！",
 			soundeffect = "event:/battle/boom2",
+			actor = 205050,
+			say = "全艦、火力全開！",
 			flashN = {
 				color = {
 					1,
@@ -150,9 +150,9 @@ return {
 			}
 		},
 		{
+			seDelay = 1.3,
 			say = "————",
 			soundeffect = "event:/battle/boom2",
-			seDelay = 1.3,
 			flashN = {
 				color = {
 					1,

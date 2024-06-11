@@ -1,12 +1,12 @@
 return {
-	id = "W263001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W263001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "将能源矩阵搬运到目标点！",
 			typewriter = {
 				speed = 0.05,

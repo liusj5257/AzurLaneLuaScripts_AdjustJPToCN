@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "龙宫机关-火 BUFF判断LV5 步骤3",
 	time = 10,
-	color = "yellow",
+	name = "龙宫机关-火 BUFF判断LV5 步骤3",
+	init_effect = "",
+	id = 9247,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 9247,
+	color = "yellow",
 	icon = 9247,
 	last_effect = "",
 	effect_list = {
@@ -17,10 +17,10 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
+				skill_id = 9247,
 				time = 8,
 				rant = 10000,
-				skill_id = 9247
+				target = "TargetSelf"
 			}
 		}
 	}

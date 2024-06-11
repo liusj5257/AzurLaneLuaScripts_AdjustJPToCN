@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "航速提升50%",
 	time = 0,
-	color = "yellow",
+	name = "航速提升50%",
+	init_effect = "",
+	id = 8513,
 	picture = "",
 	desc = "航速提升50%%",
 	stack = 1,
-	id = 8513,
+	color = "yellow",
 	icon = 8513,
 	last_effect = "",
 	effect_list = {

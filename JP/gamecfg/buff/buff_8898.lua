@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑苍龙 剑气领域减速效果",
 	time = 0,
-	color = "yellow",
+	name = "黑苍龙 剑气领域减速效果",
+	init_effect = "",
+	id = 8898,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8898,
+	color = "yellow",
 	icon = 8898,
 	last_effect = "Darkness",
 	effect_list = {

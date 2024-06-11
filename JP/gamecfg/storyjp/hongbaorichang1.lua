@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "HONGBAORICHANG1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "HONGBAORICHANG1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"新春パーティー\n\n<size=45>一 除夜のダイナミッククラッカー</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "東煌の祝日「旧正月」＝「春節」の直前……",
 			side = 2,
 			bgName = "star_level_bg_102",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-china",
+			say = "東煌の祝日「旧正月」＝「春節」の直前……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -66,11 +66,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "よーし火をつけた！みんな退避ィィィィ！",
 			typewriter = {
 				speed = 0.05,
@@ -82,8 +82,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,10 +92,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 0,
+			bgName = "star_level_bg_102",
+			hideOther = true,
 			dir = 1,
 			actor = 501031,
 			actorName = "長春&雪風&睦月",
@@ -127,9 +127,9 @@ return {
 			hideOther = true,
 			side = 2,
 			bgName = "star_level_bg_102",
-			soundeffect = "event:/battle/firework",
-			dir = 1,
 			say = "「ドーン！パパパパパパパパ！…」と撫順の特製爆竹が炸裂した。",
+			dir = 1,
+			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,8 +143,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301162,
 			dir = 1,
+			actor = 301162,
 			nameColor = "#a9f548",
 			say = "ば、バカな！ただの爆竹なのに小型の花火の爆発みたいになるというのか！？",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,8 +170,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301323,
 			dir = 1,
+			actor = 301323,
 			nameColor = "#a9f548",
 			say = "すごーい！",
 			typewriter = {
@@ -184,11 +184,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "ふふふ…長春のテクニカルサポートに、この撫順のめげない根性による努力で、ついに！",
 			typewriter = {
 				speed = 0.05,
@@ -200,8 +200,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -229,8 +229,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301323,
 			dir = 1,
+			actor = 301323,
 			nameColor = "#a9f548",
 			say = "睦月もやるー！",
 			typewriter = {
@@ -246,8 +246,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_102",
-			actor = 301162,
 			dir = 1,
+			actor = 301162,
 			nameColor = "#a9f548",
 			say = "まだあるのか？雪風様にもやらせるのだ！",
 			typewriter = {
@@ -260,8 +260,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -302,10 +302,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 0,
+			bgName = "star_level_bg_102",
+			hideOther = true,
 			dir = 1,
 			actor = 301323,
 			actorName = "睦月&雪風",
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "超弩級ダイナミック爆竹、名付けて「スーパー鞍山1号」の発射実験だ！",
 			effects = {
 				{
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 501031,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501031,
+			nameColor = "#a9f548",
 			say = "撫順姉さん、それってただの火薬入り缶では…？でも爆発するとどうなるんだろ…ドキドキ……",
 			effects = {
 				{
@@ -388,11 +388,11 @@ return {
 			}
 		},
 		{
-			actor = 501010,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501010,
+			nameColor = "#a9f548",
 			say = "撫―――順―――！！！",
 			typewriter = {
 				speed = 0.05,
@@ -404,8 +404,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -446,11 +446,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "star_level_bg_102",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 501020,
+			nameColor = "#a9f548",
 			say = "あああ分かったから！分かったから耳引っ張らないであいたたたたた――",
 			typewriter = {
 				speed = 0.05,
@@ -462,16 +462,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 2500
@@ -479,10 +479,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 0,
+			bgName = "star_level_bg_102",
+			hideOther = true,
 			dir = 1,
 			actor = 501031,
 			actorName = "長春&雪風&睦月",
@@ -529,10 +529,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_102",
 			side = 0,
+			bgName = "star_level_bg_102",
+			hideOther = true,
 			dir = 1,
 			actor = 301323,
 			actorName = "睦月&雪風",
@@ -555,8 +555,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -565,14 +565,14 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
+			hideOther = true,
 			say = "そう遠く離れていない場所では――",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -600,8 +600,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_night",
-			actor = 403044,
 			dir = 1,
+			actor = 403044,
 			nameColor = "#a9f548",
 			say = "爆竹ね…所詮は下等生物たちの娯楽、ただのおもちゃにすぎないわ",
 			typewriter = {
@@ -617,8 +617,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_night",
-			actor = 404011,
 			dir = 1,
+			actor = 404011,
 			nameColor = "#a9f548",
 			say = "そうね。景気づけなら礼砲を撃たせろってんだ。にしてもあの「すーぱーなんちゃら」、粗造りゆえの美学が感じ取れるな",
 			typewriter = {
@@ -634,8 +634,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 404011,
 			dir = 1,
+			actor = 404011,
 			nameColor = "#a9f548",
 			say = "ふん、それだけ爆発するのを見たかったな。…そういえばドイッチュラント、お前それをやりたくてここに来たんじゃないのか？",
 			typewriter = {
@@ -651,9 +651,9 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_night",
-			actor = 403044,
 			dir = 1,
 			blackBg = true,
+			actor = 403044,
 			nameColor = "#a9f548",
 			say = "な、何バカなことを！",
 			typewriter = {

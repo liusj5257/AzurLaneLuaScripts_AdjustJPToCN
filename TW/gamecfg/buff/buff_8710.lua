@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "英系V2 U81潜行猎杀进水持续伤害",
 	time = 24.1,
+	name = "英系V2 U81潜行猎杀进水持续伤害",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -15,11 +15,21 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0.45,
 				attr = "torpedoPower",
-				number = 10,
 				time = 3,
 				dotType = 2,
-				k = 0.45
+				number = 10
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "flood"
 			}
 		}
 	}

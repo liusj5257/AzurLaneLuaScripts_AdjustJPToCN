@@ -7,7 +7,7 @@ slot4 = class("BattleLaserArea", slot0.Battle.BattleBullet)
 slot0.Battle.BattleLaserArea = slot4
 slot4.__name = "BattleLaserArea"
 
-function slot4.Update(slot0, slot1)
+slot4.Update = function(slot0, slot1)
 	if slot0._bulletData:GetSpeed().x ~= 0 or slot2.z ~= 0 or slot2.y ~= 0 then
 		slot0:UpdatePosition()
 	end

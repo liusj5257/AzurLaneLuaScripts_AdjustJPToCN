@@ -1,6 +1,6 @@
 slot0 = class("ShipExitCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.shipId
 	slot6 = getProxy(BayProxy):getShipById(slot4)

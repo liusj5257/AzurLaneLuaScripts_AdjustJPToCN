@@ -3,7 +3,7 @@ slot0.StateNone = 0
 slot0.StateActive = 1
 slot0.StateFinish = 2
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.template = pg.collection_template[slot0.id]
 
@@ -25,33 +25,33 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.IsActivityType(slot0)
+slot0.IsActivityType = function(slot0)
 	return slot0.activityId > 0
 end
 
-function slot0.IsStarting(slot0)
+slot0.IsStarting = function(slot0)
 	return slot0.state ~= uv0.StateNone
 end
 
-function slot0.SetActivityId(slot0, slot1)
+slot0.SetActivityId = function(slot0, slot1)
 	slot0.activityId = slot1
 end
 
-function slot0.BelongActivity(slot0, slot1)
+slot0.BelongActivity = function(slot0, slot1)
 	return slot0.activityId > 0 and slot0.activityId == slot1
 end
 
-function slot0.reachNum(slot0)
+slot0.reachNum = function(slot0)
 	return slot0.template.ship_num <= #slot0.ships
 end
 
-function slot0.reachLevel(slot0)
+slot0.reachLevel = function(slot0)
 	return #slot0.ships > 0 and _.any(slot0.ships, function (slot0)
 		return uv0.template.ship_lv <= slot0.level
 	end)
 end
 
-function slot0.reachTypes(slot0)
+slot0.reachTypes = function(slot0)
 	if table.getCount(slot0.ships) == 0 then
 		return false
 	end
@@ -69,11 +69,11 @@ function slot0.reachTypes(slot0)
 	return slot1
 end
 
-function slot0.getOilConsume(slot0)
+slot0.getOilConsume = function(slot0)
 	return slot0.template.oil or 0
 end
 
-function slot0.updateTime(slot0)
+slot0.updateTime = function(slot0)
 	slot1 = false
 
 	if slot0.state == uv0.StateActive and slot0.finishTime < pg.TimeMgr.GetInstance():GetServerTime() then
@@ -84,7 +84,7 @@ function slot0.updateTime(slot0)
 	return slot1
 end
 
-function slot0.getTypesStr(slot0)
+slot0.getTypesStr = function(slot0)
 	slot3 = false
 
 	if #slot0.template.ship_type == #pg.ship_data_by_type.all then
@@ -114,11 +114,11 @@ end
 
 slot1 = "EVENTINFO_FORMATION_KEY_"
 
-function slot0.ExistPrevFormation(slot0)
+slot0.ExistPrevFormation = function(slot0)
 	return PlayerPrefs.HasKey(uv0 .. getProxy(PlayerProxy):getRawData().id)
 end
 
-function slot0.GetPrevFormation(slot0)
+slot0.GetPrevFormation = function(slot0)
 	slot1 = getProxy(PlayerProxy)
 
 	return _.map(string.split(PlayerPrefs.GetString(uv0 .. slot1:getRawData().id), "#"), function (slot0)
@@ -126,7 +126,7 @@ function slot0.GetPrevFormation(slot0)
 	end)
 end
 
-function slot0.SavePrevFormation(slot0)
+slot0.SavePrevFormation = function(slot0)
 	if not slot0:CanRecordPrevFormation() then
 		return
 	end
@@ -141,11 +141,11 @@ function slot0.SavePrevFormation(slot0)
 	PlayerPrefs.Save()
 end
 
-function slot0.CanRecordPrevFormation(slot0)
+slot0.CanRecordPrevFormation = function(slot0)
 	return slot0.template.oil >= 800
 end
 
-function slot0.GetCountDownTime(slot0)
+slot0.GetCountDownTime = function(slot0)
 	return slot0.state == EventInfo.StateNone and slot0.overTime > 0 and slot0.overTime - pg.TimeMgr.GetInstance():GetServerTime()
 end
 

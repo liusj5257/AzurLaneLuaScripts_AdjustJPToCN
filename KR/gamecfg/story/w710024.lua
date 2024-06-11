@@ -1,12 +1,12 @@
 return {
-	id = "W710024",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W710024",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "这是……另一个环流么……",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "感觉黑暗潮汐的波动大幅度减弱了，似乎舰队已经可以进入燃烧的海域之中了，尝试着调查一下吧",
 			typewriter = {
 				speed = 0.05,

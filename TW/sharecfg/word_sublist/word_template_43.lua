@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_43 = {}
 slot1 = slot0.word_template_43
 
-function temp()
+temp = function()
 	uv0["塔"] = {
 		["利"] = {
 			["班"] = {
@@ -21,7 +21,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["支"] = {
 		["那"] = {
 			this = true
@@ -31,7 +31,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["专"] = {
 		["政"] = {
 			this = true
@@ -176,7 +176,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["九"] = {
 		["评"] = {
 			this = true

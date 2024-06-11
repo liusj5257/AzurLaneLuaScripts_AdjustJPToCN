@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_32 = {}
 slot1 = slot0.word_template_32
 
-function temp()
+temp = function()
 	uv0["房"] = {
 		["事"] = {
 			this = true
@@ -21,7 +21,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["新"] = {
 		["闻"] = {
 			["出"] = {
@@ -246,7 +246,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["六"] = {
 		["四"] = {
 			this = true,
@@ -429,7 +429,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["陆"] = {
 		["肆"] = {
 			["事"] = {

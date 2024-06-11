@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "被icelf命中10次时触发破甲",
 	time = 0,
+	name = "被icelf命中10次时触发破甲",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 10,

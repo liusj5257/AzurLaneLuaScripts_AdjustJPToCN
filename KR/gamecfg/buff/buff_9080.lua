@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "旗舰掩护-LV8",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "减伤",
 	stack = 1,
@@ -23,8 +23,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.227
+				number = -0.227,
+				attr = "injureRatio"
 			}
 		}
 	}

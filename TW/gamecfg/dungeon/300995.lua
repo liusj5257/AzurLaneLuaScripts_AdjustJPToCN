@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 180,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-45,
 				20,
@@ -47,9 +47,9 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 300991,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								5,
 								0,
@@ -62,9 +62,9 @@ return {
 						},
 						{
 							monsterTemplateID = 300991,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								5,
 								0,
@@ -77,9 +77,9 @@ return {
 						},
 						{
 							monsterTemplateID = 300991,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								5,
 								0,
@@ -92,9 +92,9 @@ return {
 						},
 						{
 							monsterTemplateID = 300993,
-							moveCast = true,
-							delay = 0,
 							score = 0,
+							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								20,
 								0,
@@ -109,16 +109,16 @@ return {
 							},
 							phase = {
 								{
-									switchParam = 0.1,
+									switchType = 1,
 									switchTo = 1,
 									index = 0,
-									switchType = 1,
+									switchParam = 0.1,
 									setAI = 20006
 								},
 								{
-									index = 1,
 									switchParam = 5,
 									switchTo = 2,
+									index = 1,
 									switchType = 1,
 									addWeapon = {
 										9999940
@@ -129,9 +129,9 @@ return {
 									}
 								},
 								{
-									index = 2,
 									switchParam = 7.5,
 									switchTo = 3,
+									index = 2,
 									switchType = 1,
 									addWeapon = {
 										9999979,
@@ -142,9 +142,9 @@ return {
 									}
 								},
 								{
-									index = 3,
 									switchParam = 2.5,
 									switchTo = 31,
+									index = 3,
 									switchType = 1,
 									addWeapon = {
 										9999942
@@ -154,18 +154,18 @@ return {
 									}
 								},
 								{
-									index = 31,
 									switchType = 1,
 									switchTo = 4,
+									index = 31,
 									switchParam = 5,
 									addBuff = {
 										999958
 									}
 								},
 								{
-									index = 4,
 									switchParam = 10,
 									switchTo = 41,
+									index = 4,
 									switchType = 1,
 									addWeapon = {
 										9999978,
@@ -177,10 +177,10 @@ return {
 									}
 								},
 								{
-									index = 41,
 									switchType = 1,
-									switchTo = 2,
 									switchParam = 5,
+									index = 41,
+									switchTo = 2,
 									addBuff = {
 										999958
 									},

@@ -1,6 +1,6 @@
 slot0 = class("MainBuffView", import("view.base.BaseEventLogic"))
 
-function slot0.Ctor(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot2)
 	pg.DelegateInfo.New(slot0)
 
@@ -17,7 +17,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.CollectBuffs(slot0)
+slot0.CollectBuffs = function(slot0)
 	slot1 = BuffHelper.GetBuffsForMainUI()
 
 	for slot6, slot7 in ipairs(import("GameCfg.activity.MainUIVirtualIconData").CurrentIconList) do
@@ -29,7 +29,7 @@ function slot0.CollectBuffs(slot0)
 	return slot1
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot1 = slot0:CollectBuffs()
 	slot0._tf.anchoredPosition = Vector3(slot0:ShouldFreeUsageSkinTag() and 390 or 285, slot0._tf.anchoredPosition.y, 0)
 
@@ -46,18 +46,18 @@ function slot0.Init(slot0)
 	slot0.showTag = slot2
 end
 
-function slot0.Refresh(slot0)
+slot0.Refresh = function(slot0)
 	slot1 = slot0:CollectBuffs()
 	slot2 = slot0:ShouldFreeUsageSkinTag()
 
 	slot0:Init()
 end
 
-function slot0.Disable(slot0)
+slot0.Disable = function(slot0)
 	slot0.lpos = nil
 end
 
-function slot0.ShouldFreeUsageSkinTag(slot0)
+slot0.ShouldFreeUsageSkinTag = function(slot0)
 	for slot5, slot6 in pairs(getProxy(ShipSkinProxy):getRawData()) do
 		if slot6:isExpireType() and not slot6:isExpired() then
 			return true
@@ -67,7 +67,7 @@ function slot0.ShouldFreeUsageSkinTag(slot0)
 	return false
 end
 
-function slot0.UpdateFreeUsageSkinTag(slot0)
+slot0.UpdateFreeUsageSkinTag = function(slot0)
 	slot1 = slot0.skinFreeUsageTag or Object.Instantiate(slot0.buffs[1], slot0.buffs[1].transform.parent).transform
 	slot0.skinFreeUsageTag = slot1
 	slot3 = slot1:GetComponent(typeof(Image))
@@ -83,7 +83,7 @@ function slot0.UpdateFreeUsageSkinTag(slot0)
 	setActive(slot0.skinFreeUsageTag, true)
 end
 
-function slot0.GetFreeUsageSkins(slot0)
+slot0.GetFreeUsageSkins = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in pairs(getProxy(ShipSkinProxy):getRawData()) do
@@ -95,7 +95,7 @@ function slot0.GetFreeUsageSkins(slot0)
 	return slot1
 end
 
-function slot0.GetTpl(slot0, slot1)
+slot0.GetTpl = function(slot0, slot1)
 	if not slot0.buffs[slot1] then
 		slot2 = slot0.buffs[1]
 		slot3 = Object.Instantiate(slot2, slot2.transform.parent)
@@ -106,7 +106,7 @@ function slot0.GetTpl(slot0, slot1)
 	return slot0.buffs[slot1]
 end
 
-function slot0.UpdateBuffs(slot0, slot1)
+slot0.UpdateBuffs = function(slot0, slot1)
 	for slot5 = #slot0.buffs, #slot1 + 1, -1 do
 		if slot0.buffs[slot5] then
 			setActive(slot0.buffs[slot5], false)
@@ -125,7 +125,7 @@ function slot0.UpdateBuffs(slot0, slot1)
 	end
 end
 
-function slot0.UpdateVirtualBuff(slot0, slot1, slot2)
+slot0.UpdateVirtualBuff = function(slot0, slot1, slot2)
 	LoadImageSpriteAtlasAsync("ui/mainui_atlas", slot2.Image, slot1)
 	onButton(slot0, slot1, function ()
 		uv0:emit(NewMainMediator.GO_SINGLE_ACTIVITY, ActivityConst.DOA_PT_ID)
@@ -133,7 +133,7 @@ function slot0.UpdateVirtualBuff(slot0, slot1, slot2)
 	setActive(slot1, true)
 end
 
-function slot0.UpdateBuff(slot0, slot1, slot2)
+slot0.UpdateBuff = function(slot0, slot1, slot2)
 	LoadImageSpriteAsync(slot2:getConfig("icon"), slot1)
 	onButton(slot0, slot1, function ()
 		slot0 = pg.UIMgr.GetInstance().UIMain:InverseTransformPoint(uv0.transform.position)
@@ -143,7 +143,7 @@ function slot0.UpdateBuff(slot0, slot1, slot2)
 	setActive(slot1, true)
 end
 
-function slot0.AddEndTimer(slot0, slot1, slot2)
+slot0.AddEndTimer = function(slot0, slot1, slot2)
 	slot0.timers[slot1] = Timer.New(function ()
 		setActive(uv0, false)
 	end, slot2:getLeftTime(), 1)
@@ -151,7 +151,7 @@ function slot0.AddEndTimer(slot0, slot1, slot2)
 	slot0.timers[slot1]:Start()
 end
 
-function slot0.ClearTimers(slot0)
+slot0.ClearTimers = function(slot0)
 	for slot4, slot5 in pairs(slot0.timers) do
 		slot5:Stop()
 	end
@@ -159,7 +159,7 @@ function slot0.ClearTimers(slot0)
 	slot0.timers = {}
 end
 
-function slot0.Fold(slot0, slot1, slot2)
+slot0.Fold = function(slot0, slot1, slot2)
 	slot0.lpos = slot0.lpos or slot0._tf.localPosition
 	slot3 = slot1 and slot0.lpos.y + 200 or slot0.lpos.y
 
@@ -170,7 +170,7 @@ function slot0.Fold(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:disposeEvent()
 	pg.DelegateInfo.Dispose(slot0)
 

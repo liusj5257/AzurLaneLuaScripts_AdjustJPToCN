@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 19692,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19692,
+	color = "red",
 	icon = 19690,
 	last_effect = "",
 	effect_list = {
@@ -49,9 +49,9 @@ return {
 			},
 			arg_list = {
 				buff_id = 19693,
-				hpLowerBound = 0.5,
+				hpSigned = 1,
 				target = "TargetSelf",
-				hpSigned = 1
+				hpLowerBound = 0.5
 			}
 		}
 	}

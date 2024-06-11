@@ -1,6 +1,6 @@
 slot0 = class("ExchangeLoveLetterItem", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	if not getProxy(ActivityProxy):getActivityById(slot1:getBody().activity_id) or slot4:isEnd() or slot4.data1 <= 0 then
 		return
 	end

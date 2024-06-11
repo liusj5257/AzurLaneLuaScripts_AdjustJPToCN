@@ -1,12 +1,12 @@
 return {
-	init_effect = "jinengchufared",
 	name = "英系V2 U81潜行猎杀",
 	time = 10,
+	init_effect = "jinengchufared",
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 8709,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	blink = {
 		1,
 		0,
@@ -32,8 +32,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "torpedoPower",
-				number = 2000
+				number = 2000,
+				attr = "torpedoPower"
 			}
 		}
 	}

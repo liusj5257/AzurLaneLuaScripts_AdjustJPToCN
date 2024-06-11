@@ -4,12 +4,12 @@ return {
 	once = true,
 	scripts = {
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "？？？",
 			dir = 0,
 			blackBg = true,
+			actor = 900012,
+			actorName = "？？？",
 			say = "결국엔 \"스페어 데이터\"에 남겨져 있는 \"로그\"를 사용한 시뮬레이션... \"모방\"에 지나지 않네...",
 			shake = {
 				speed = 1,
@@ -25,12 +25,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "？？？",
 			dir = 0,
 			blackBg = true,
+			actor = 900012,
+			actorName = "？？？",
 			say = "전쟁, 모순, 증오. 과연 어떤 결과를 가져와 주려나?",
 			shake = {
 				speed = 1,
@@ -46,12 +46,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "？？？",
 			dir = 0,
 			blackBg = true,
+			actor = 900012,
+			actorName = "？？？",
 			say = "후후훗... \"이번\"에는 실망시키지 않았으면 좋겠어......",
 			shake = {
 				speed = 1,

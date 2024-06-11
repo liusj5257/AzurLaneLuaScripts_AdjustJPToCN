@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_75 = {}
 slot1 = slot0.word_template_75
 
-function temp()
+temp = function()
 	uv0["口"] = {
 		["交"] = {
 			this = true,
@@ -69,7 +69,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["前"] = {
 		["阴"] = {
 			["后"] = {
@@ -122,7 +122,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["肛"] = {
 		["栓"] = {
 			["母"] = {
@@ -174,7 +174,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["男"] = {
 		["根"] = {
 			["增"] = {

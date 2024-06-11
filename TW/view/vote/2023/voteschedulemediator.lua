@@ -3,7 +3,7 @@ slot0.GO_RANK = "VoteScheduleMediator:GO_RANK"
 slot0.FETCH_RANK = "VoteScheduleMediator:FETCH_RANK"
 slot0.ON_VOTE = "VoteScheduleMediator:ON_VOTE"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.ON_VOTE, function ()
 		if not (getProxy(VoteProxy):GetOpeningNonFunVoteGroup() or getProxy(VoteProxy):GetOpeningFunVoteGroup()) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_notStartOrEnd"))
@@ -38,7 +38,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.CheckPaintingRes(slot0, slot1, slot2)
+slot0.CheckPaintingRes = function(slot0, slot1, slot2)
 	if slot1 and slot1:isFinalsRace() or slot1:IsFunRace() then
 		slot3 = slot1:GetRankList()
 		slot11 = {}
@@ -48,10 +48,10 @@ function slot0.CheckPaintingRes(slot0, slot1, slot2)
 			slot3[2]:getPainting(),
 			slot3[3]:getPainting()
 		}) do
-			PaintingConst.AddPaintingNameWithFilteMap(slot11, slot16)
+			PaintingGroupConst.AddPaintingNameWithFilteMap(slot11, slot16)
 		end
 
-		PaintingConst.PaintingDownload({
+		PaintingGroupConst.PaintingDownload({
 			isShowBox = true,
 			paintingNameList = slot11,
 			finishFunc = slot2
@@ -61,11 +61,11 @@ function slot0.CheckPaintingRes(slot0, slot1, slot2)
 	end
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot2 = slot1:getName()
 	slot3 = slot1:getBody()
 end

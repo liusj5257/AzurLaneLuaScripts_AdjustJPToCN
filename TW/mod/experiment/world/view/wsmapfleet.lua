@@ -1,19 +1,19 @@
 slot0 = class("WSMapFleet", import(".WSMapTransform"))
 slot0.Fields = {
 	rtShadow = "userdata",
-	rtSub = "userdata",
+	attaches = "table",
 	rtArrow = "userdata",
-	spineRole = "table",
+	rtSub = "userdata",
 	selected = "boolean",
-	rtRetreat = "userdata",
-	theme = "table",
-	moveTurnCount = "number",
+	rtDamage = "userdata",
 	fleet = "table",
+	spineRole = "table",
+	rtRetreat = "userdata",
 	rtFx = "userdata",
 	timerHealth = "table",
-	rtDamage = "userdata",
+	theme = "table",
 	rtHealth = "userdata",
-	attaches = "table",
+	moveTurnCount = "number",
 	rtMoveTurn = "userdata",
 	active = "boolean",
 	submarineSupport = "boolean"
@@ -23,11 +23,11 @@ slot0.Listeners = {
 }
 slot0.EventUpdateSelected = "WSMapFleet.EventUpdateSelected"
 
-function slot0.GetResName(slot0)
+slot0.GetResName = function(slot0)
 	return "ship_tpl"
 end
 
-function slot0.Setup(slot0, slot1, slot2)
+slot0.Setup = function(slot0, slot1, slot2)
 	slot0.fleet = slot1
 
 	slot0.fleet:AddListener(WorldMapFleet.EventUpdateLocation, slot0.onUpdate)
@@ -41,7 +41,7 @@ function slot0.Setup(slot0, slot1, slot2)
 	slot0:Init()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.fleet:RemoveListener(WorldMapFleet.EventUpdateLocation, slot0.onUpdate)
 	slot0.fleet:RemoveListener(WorldMapFleet.EventUpdateShipOrder, slot0.onUpdate)
 	slot0.fleet:RemoveListener(WorldMapFleet.EventUpdateBuff, slot0.onUpdate)
@@ -51,7 +51,7 @@ function slot0.Dispose(slot0)
 	uv0.super.Dispose(slot0)
 end
 
-function slot0.Init(slot0)
+slot0.Init = function(slot0)
 	slot0.rtRetreat = slot0.transform:Find("retreat")
 	slot0.rtArrow = slot0.transform:Find("arrow")
 	slot0.rtFx = slot0.transform:Find("fx")
@@ -82,7 +82,7 @@ function slot0.Init(slot0)
 	slot0.moveTurnCount = 0
 end
 
-function slot0.LoadSpine(slot0, slot1)
+slot0.LoadSpine = function(slot0, slot1)
 	slot3 = slot0.fleet
 	slot4 = SpineRole.New(slot3:GetFlagShipVO())
 
@@ -110,7 +110,7 @@ function slot0.LoadSpine(slot0, slot1)
 	end, slot0.modelResAsync, slot4.ORBIT_KEY_SLG)
 end
 
-function slot0.UnloadSpine(slot0)
+slot0.UnloadSpine = function(slot0)
 	if slot0.spineRole then
 		slot0.spineRole:Dispose()
 
@@ -118,7 +118,7 @@ function slot0.UnloadSpine(slot0)
 	end
 end
 
-function slot0.Update(slot0, slot1)
+slot0.Update = function(slot0, slot1)
 	slot2 = slot0.fleet
 
 	if slot1 == nil or slot1 == WorldMapFleet.EventUpdateLocation and not slot0.isMoving then
@@ -147,7 +147,7 @@ function slot0.Update(slot0, slot1)
 	end
 end
 
-function slot0.UpdateActive(slot0, slot1)
+slot0.UpdateActive = function(slot0, slot1)
 	if slot0.active ~= slot1 then
 		slot0.active = slot1
 
@@ -155,7 +155,7 @@ function slot0.UpdateActive(slot0, slot1)
 	end
 end
 
-function slot0.UpdateSelected(slot0, slot1)
+slot0.UpdateSelected = function(slot0, slot1)
 	if slot0.selected ~= slot1 then
 		slot0.selected = slot1
 
@@ -164,7 +164,7 @@ function slot0.UpdateSelected(slot0, slot1)
 	end
 end
 
-function slot0.UpdateSubmarineSupport(slot0)
+slot0.UpdateSubmarineSupport = function(slot0)
 	slot2 = nowWorld():IsSubmarineSupporting()
 
 	setActive(slot0.rtSub, slot2)
@@ -174,7 +174,7 @@ function slot0.UpdateSubmarineSupport(slot0)
 	end
 end
 
-function slot0.UpdateAttaches(slot0)
+slot0.UpdateAttaches = function(slot0)
 	for slot5 = #slot0.fleet:GetBuffFxList() + 1, #slot0.attaches do
 		slot0.attaches[slot5]:Unload()
 	end
@@ -198,7 +198,7 @@ function slot0.UpdateAttaches(slot0)
 	end
 end
 
-function slot0.ClearAttaches(slot0)
+slot0.ClearAttaches = function(slot0)
 	slot2 = WPool
 
 	slot2:ReturnArray(slot0.attaches)
@@ -212,7 +212,7 @@ function slot0.ClearAttaches(slot0)
 	slot0.attaches = {}
 end
 
-function slot0.UpdateDamageLevel(slot0)
+slot0.UpdateDamageLevel = function(slot0)
 	setActive(slot0.rtDamage, slot0.fleet.damageLevel > 0)
 
 	for slot5 = 1, #WorldConst.DamageBuffList do
@@ -220,20 +220,20 @@ function slot0.UpdateDamageLevel(slot0)
 	end
 end
 
-function slot0.PlusMoveTurn(slot0)
+slot0.PlusMoveTurn = function(slot0)
 	slot0.moveTurnCount = slot0.moveTurnCount + 1
 
 	setText(slot0.rtMoveTurn:Find("Text"), slot0.moveTurnCount)
 	setActive(slot0.rtMoveTurn, slot0.moveTurnCount > 0)
 end
 
-function slot0.ClearMoveTurn(slot0)
+slot0.ClearMoveTurn = function(slot0)
 	slot0.moveTurnCount = 0
 
 	setActive(slot0.rtMoveTurn, false)
 end
 
-function slot0.DisplayHealth(slot0)
+slot0.DisplayHealth = function(slot0)
 	slot0:ClearHealthTimer()
 	setActive(slot0.rtHealth, true)
 
@@ -246,7 +246,7 @@ function slot0.DisplayHealth(slot0)
 	slot0.timerHealth:Start()
 end
 
-function slot0.ClearHealthTimer(slot0)
+slot0.ClearHealthTimer = function(slot0)
 	if slot0.timerHealth then
 		slot0.timerHealth:Stop()
 

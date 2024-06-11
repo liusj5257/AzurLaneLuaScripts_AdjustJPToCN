@@ -1,17 +1,17 @@
 return {
-	id = "DIEHAIMENGHUA32",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "DIEHAIMENGHUA32",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
+			bgm = "level02",
 			side = 2,
 			bgName = "bg_story_nepu1",
-			say = "펑-----------------!",
 			dir = 1,
-			bgm = "level02",
+			soundeffect = "event:/battle/boom2",
+			say = "펑-----------------!",
 			flashN = {
 				color = {
 					1,
@@ -62,8 +62,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "목표 소멸, 다음 목표는 어디지?",
 			typewriter = {
@@ -95,8 +95,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 306080,
 			dir = 1,
+			actor = 306080,
 			nameColor = "#a9f548",
 			say = "하지만 평소와 다른 전투 방식으로 오히려 지휘관의 이목을 끌어서 우세를 점했지.",
 			typewriter = {
@@ -112,8 +112,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "문제는 계속 이렇게 한다면… 대장을 미끼로 쓰는 위험한 전술이 된다는 건데.",
 			typewriter = {
@@ -129,8 +129,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_nepu1",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "알겠어. 다들 시나노를 따라가. 지휘관이 수중이나 공중에서 기습을 할 수도 있으니 조심해!",
 			typewriter = {

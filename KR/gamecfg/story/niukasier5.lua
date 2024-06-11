@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NIUKASIER5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "NIUKASIER5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"평온한 일상을 바라며\n\n<size=45>외출</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "뉴캐슬, 그리고 셰필드와 함께 장을 보러 마을로 나가게 되었다.",
 			side = 2,
 			bgName = "star_level_bg_105",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "뉴캐슬, 그리고 셰필드와 함께 장을 보러 마을로 나가게 되었다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -94,9 +94,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "마치 부모가 자식을 맡기는 듯한 느낌이잖아 이건.",
 			typewriter = {
 				speed = 0.05,
@@ -161,8 +161,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "보험……?",
 			typewriter = {
 				speed = 0.05,
@@ -254,9 +254,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "뉴캐슬은 늘 들고 다니는 우산을 펼쳤다.",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			withoutActorName = true,
 			dir = 1,
+			withoutActorName = true,
 			say = "그녀는 내게 가까이 붙어, 우산으로 그녀와 내 머리 위에 떠있는 태양을 가렸다.",
 			typewriter = {
 				speed = 0.05,
@@ -296,12 +296,12 @@ return {
 			}
 		},
 		{
-			actor = 202190,
 			side = 2,
 			bgName = "star_level_bg_105",
-			nameColor = "#92fc63",
 			dir = 1,
 			blackBg = true,
+			actor = 202190,
+			nameColor = "#92fc63",
 			say = "저의 평온한 날들을 지켜줄…소중한 동료들이니 말입니다.",
 			typewriter = {
 				speed = 0.05,

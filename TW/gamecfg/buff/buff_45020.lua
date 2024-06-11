@@ -1,7 +1,7 @@
 return {
-	init_effect = "jinengchufared",
-	name = "指挥喵天赋-侵略如火",
 	time = 0,
+	name = "指挥喵天赋-侵略如火",
+	init_effect = "jinengchufared",
 	picture = "",
 	desc = "舰队成员造成伤害提高3%",
 	stack = 2,

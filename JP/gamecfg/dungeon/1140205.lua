@@ -6,8 +6,8 @@ return {
 			stageIndex = 1,
 			failCondition = 1,
 			timeCount = 110,
-			passCondition = 1,
 			backGroundStageID = 1,
+			passCondition = 1,
 			totalArea = {
 				-70,
 				20,
@@ -59,8 +59,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-12,
 								0,
@@ -74,8 +74,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900112,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -89,8 +89,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-12,
 								0,
@@ -104,8 +104,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900112,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-10,
 								0,
@@ -119,8 +119,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								-5,
 								0,
@@ -134,8 +134,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 10,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -149,8 +149,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900111,
-							moveCast = true,
 							delay = 10,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -163,8 +163,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900111,
-							moveCast = true,
 							delay = 10,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -177,8 +177,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 10,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -192,8 +192,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 15,
+							moveCast = true,
 							corrdinate = {
 								25,
 								0,
@@ -207,8 +207,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900112,
-							moveCast = true,
 							delay = 15,
+							moveCast = true,
 							corrdinate = {
 								25,
 								0,
@@ -222,8 +222,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900111,
-							moveCast = true,
 							delay = 15,
+							moveCast = true,
 							corrdinate = {
 								35,
 								0,
@@ -236,8 +236,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900112,
-							moveCast = true,
 							delay = 15,
+							moveCast = true,
 							corrdinate = {
 								15,
 								0,
@@ -251,8 +251,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 15,
+							moveCast = true,
 							corrdinate = {
 								35,
 								0,
@@ -266,8 +266,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900111,
-							moveCast = true,
 							delay = 15,
+							moveCast = true,
 							corrdinate = {
 								15,
 								0,
@@ -280,8 +280,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900112,
-							moveCast = true,
 							delay = 25,
+							moveCast = true,
 							corrdinate = {
 								35,
 								0,
@@ -295,8 +295,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900111,
-							moveCast = true,
 							delay = 25,
+							moveCast = true,
 							corrdinate = {
 								35,
 								0,
@@ -309,8 +309,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 25,
+							moveCast = true,
 							corrdinate = {
 								25,
 								0,
@@ -324,8 +324,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 25,
+							moveCast = true,
 							corrdinate = {
 								25,
 								0,
@@ -339,8 +339,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 25,
+							moveCast = true,
 							corrdinate = {
 								25,
 								0,
@@ -354,8 +354,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 35,
+							moveCast = true,
 							corrdinate = {
 								35,
 								0,
@@ -369,8 +369,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 35,
+							moveCast = true,
 							corrdinate = {
 								35,
 								0,
@@ -384,8 +384,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 45,
+							moveCast = true,
 							corrdinate = {
 								25,
 								0,
@@ -399,8 +399,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 45,
+							moveCast = true,
 							corrdinate = {
 								35,
 								0,
@@ -414,8 +414,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900111,
-							moveCast = true,
 							delay = 45,
+							moveCast = true,
 							corrdinate = {
 								35,
 								0,
@@ -428,8 +428,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900111,
-							moveCast = true,
 							delay = 45,
+							moveCast = true,
 							corrdinate = {
 								25,
 								0,
@@ -442,8 +442,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900110,
-							moveCast = true,
 							delay = 45,
+							moveCast = true,
 							corrdinate = {
 								25,
 								0,
@@ -468,8 +468,8 @@ return {
 					spawn = {
 						{
 							monsterTemplateID = 11900113,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -484,8 +484,8 @@ return {
 						},
 						{
 							monsterTemplateID = 11900113,
-							moveCast = true,
 							delay = 0,
+							moveCast = true,
 							corrdinate = {
 								0,
 								0,
@@ -525,14 +525,14 @@ return {
 	fleet_prefab = {
 		submarine_unitList = {
 			{
-				exp = 10,
-				configId = 900181,
-				tmpID = 900181,
-				skinId = 900181,
 				oil_at_end = 55,
+				configId = 900181,
+				energy = 10,
+				skinId = 900181,
+				exp = 10,
+				tmpID = 900181,
 				id = 1,
 				level = 120,
-				energy = 10,
 				equipment = {
 					false,
 					false,
@@ -541,18 +541,18 @@ return {
 				properties = {
 					cannon = 0,
 					oxy_max = 200,
-					antiaircraft = 0,
+					luck = 45,
 					torpedo = 0,
 					durability = 1800,
 					air = 0,
-					armor = 0,
 					dodge = 0,
+					antiaircraft = 0,
 					speed = 31.5,
-					luck = 45,
+					armor = 0,
 					reload = 100,
+					oxy_recovery = 50,
 					oxy_cost = 10,
-					hit = 80,
-					oxy_recovery = 50
+					hit = 80
 				},
 				skills = {
 					{

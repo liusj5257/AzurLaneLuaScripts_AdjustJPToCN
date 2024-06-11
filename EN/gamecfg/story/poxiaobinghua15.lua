@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA15",
 	fadein = 1.5,
 	scripts = {
 		{
-			oldPhoto = true,
 			side = 2,
 			bgName = "bg_xiangting_2",
-			stopbgm = true,
+			oldPhoto = true,
 			dir = 1,
-			say = "Loud alarms blaring through the air... the burning stench of gunpowder choking my lungs... waves of scorching heat flaying my skin... I’ve experienced this before.",
 			bgm = "airRaidAlarm",
+			stopbgm = true,
+			say = "Loud alarms blaring through the air... the burning stench of gunpowder choking my lungs... waves of scorching heat flaying my skin... I’ve experienced this before.",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,8 +33,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			say = "This must be... the defensive line... at NY Harbor...?",
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			say = "Why am I here...? What was I doing...? Why can’t I remember anything?",
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			actorName = "？？",
 			dir = 1,
-			side = 2,
+			actor = 900308,
 			nameColor = "#ffff4d",
 			say = "Hey! Why are you still here?!",
 			dialogShake = {
@@ -86,12 +86,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "Didn’t we agree that you’d be heading to Samos with the others? Why are you here all by yourself?",
 			typewriter = {
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			say = "The voice in the distance, calling to me... It feels so familiar, but also so alien... Who could it be...?",
@@ -125,12 +125,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "We were crushed terribly in our last-ditch counterattack, so this place will fall soon.",
 			typewriter = {
@@ -143,12 +143,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "You were supposed to go to Samos because we had anticipated this possibility...",
 			typewriter = {
@@ -161,12 +161,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "Our defenses are still holding for now, but that cannot last much longer. They will come again with even greater numbers and raze this place to the ground, just as was planned.",
 			typewriter = {
@@ -179,12 +179,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "You were there when the plan was drafted, weren’t you? Did you vote for it, or against it? ...So much has happened, I can’t even remember the details anymore...",
 			typewriter = {
@@ -197,12 +197,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "Forget it... In any case, even if you wanted to stay with me, I can’t accept that.",
 			typewriter = {
@@ -215,12 +215,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "I’m not important, and you’re still needed elsewhere... Let’s see if any evacuation fleets have yet to leave. Good grief, so stubborn even at a time like this...",
 			typewriter = {
@@ -233,8 +233,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			mode = 1,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			sequence = {
 				{
@@ -248,8 +248,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			mode = 1,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			sequence = {
 				{
@@ -263,8 +263,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			say = "What...?!",
@@ -278,12 +278,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "Hey! What are you doing, staring off into space by yourself over there? The battle isn’t over yet, so you can’t be wandering around outside!",
 			typewriter = {
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			say = "...............",
@@ -317,12 +317,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "Hm? Surely not. If they’re following the plan, there’s no way they’d be able to leave.",
 			typewriter = {
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			say = "They’ll come back... I’m sure of it...",
@@ -350,12 +350,12 @@ return {
 			}
 		},
 		{
-			actor = 900308,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_xiangting_2",
 			nameColor = "#ffff4d",
 			dir = 1,
-			oldPhoto = true,
+			actor = 900308,
 			actorName = "？？",
 			say = "Well, that complicates things. I wanted to make this deal without them finding out...",
 			typewriter = {
@@ -368,8 +368,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_xiangting_2",
 			dir = 1,
 			blackBg = true,

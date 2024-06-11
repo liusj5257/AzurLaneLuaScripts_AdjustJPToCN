@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "精英怪-旗舰",
 	time = 0,
+	name = "精英怪-旗舰",
+	init_effect = "",
 	picture = "",
 	desc = "精英怪-旗舰-暂时无用，里面的具体配置也是有问题的",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				group = 0,
-				attr = "maxHP",
-				number = 10000
+				number = 10000,
+				attr = "maxHP"
 			}
 		},
 		{
@@ -38,8 +38,8 @@ return {
 			},
 			arg_list = {
 				group = 0,
-				attr = "armor",
-				number = 10000
+				number = 10000,
+				attr = "armor"
 			}
 		},
 		{

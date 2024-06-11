@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUEYEWEIYANG4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUEYEWEIYANG4",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "Memory - Musashi's Abode",
+			nameColor = "#A9F548FF",
 			bgm = "deepblue-image",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "Memory - Musashi's Abode",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "It was late at night. Musashi, a high-ranking member of the Sakura Empire, happened to have a freeloader in her home.",
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "Said freeloader, a girl with a veil draped over her face, gazed out the window and up at the moon.",
@@ -51,8 +51,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "*stomp* *stomp* *stomp*!",
@@ -65,10 +65,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Sorry! I heard a weird noise, so I came to check things out!",
 			painting = {
 				alpha = 0.3,
@@ -80,8 +80,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -93,10 +93,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Whoa. You should be resting... Is everything okay?",
 			painting = {
 				alpha = 0.3,
@@ -108,8 +108,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -120,12 +120,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Hm? Are you looking for Lady Musashi?",
 			painting = {
 				alpha = 0.3,
@@ -140,10 +140,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "She's out right now, so...",
 			painting = {
 				alpha = 0.3,
@@ -155,8 +155,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "Despite Sakawa saying so, the girl showed no intent to leave. Instead, she retrieved two cushions placed in the corner of the room.",
@@ -166,8 +166,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -181,10 +181,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Sure!",
 			painting = {
 				alpha = 0.3,
@@ -199,10 +199,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh! I almost forgot! Should I, um... make an offering of tea for you, or...?",
 			painting = {
 				alpha = 0.3,
@@ -214,8 +214,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -226,12 +226,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Okay... Um, what should we talk about?",
 			painting = {
 				alpha = 0.3,
@@ -243,8 +243,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -258,10 +258,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The past...",
 			painting = {
 				alpha = 0.3,
@@ -273,12 +273,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Lady Musashi did tell me to answer any questions you have, so I'm glad to share anything I know.",
 			painting = {
 				alpha = 0.3,
@@ -293,10 +293,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But when you say \"the past\"... What exactly do you want to know?",
 			painting = {
 				alpha = 0.3,
@@ -308,8 +308,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -320,12 +320,12 @@ return {
 			}
 		},
 		{
-			actor = 302230,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302230,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Oh, that~ You mean the time Lady Nagato planned special training exercises and retired from being the Combined Fleet flagship?",
 			painting = {
 				alpha = 0.3,
@@ -340,10 +340,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I only know bits about it that I've heard here and there, so...",
 			painting = {
 				alpha = 0.3,
@@ -355,8 +355,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -367,8 +367,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "???",
+			side = 2,
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -379,8 +379,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "The girl removed her veil, revealing her divine visage.",
@@ -390,8 +390,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "Sakawa gazed into her crimson eyes, perhaps out of curiosity, or perhaps bewitched by some magic shining within.",
@@ -401,8 +401,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			say = "After a nervous sigh, she finally told the story.",
@@ -415,10 +415,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_508",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It IS just hearsay, though... One morning long ago—",
 			painting = {
 				alpha = 0.3,

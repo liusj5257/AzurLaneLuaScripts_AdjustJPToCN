@@ -1,6 +1,6 @@
 slot0 = class("SpringFestival2024Scene", import("view.activity.BackHills.TemplateMV.BackHillTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	if PLATFORM_CODE == PLATFORM_CHT then
 		return "SpringFestival2024TWUI"
 	else
@@ -48,7 +48,7 @@ slot0.SFX_LIST = {
 	"event:/ui/firework4"
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.top = slot0:findTF("top")
@@ -84,7 +84,7 @@ function slot0.init(slot0)
 	slot0.fireworksTF = slot0:findTF("play_fireworks")
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("top/Back"), function ()
 		uv0:emit(uv1.ON_BACK)
 	end)
@@ -184,11 +184,11 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.UpdateActivity(slot0, slot1)
+slot0.UpdateActivity = function(slot0, slot1)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	_.each(slot0.tipTfs, function (slot0)
 		if slot0.trans then
 			setActive(slot0.trans, tobool(uv0.CheckTip(slot0.name)))
@@ -196,7 +196,7 @@ function slot0.UpdateView(slot0)
 	end)
 end
 
-function slot0.OpenFireworkLayer(slot0)
+slot0.OpenFireworkLayer = function(slot0)
 	slot0:emit(SpringFestival2024Mediator.GO_SUBLAYER, Context.New({
 		mediator = FireworkPanel2024Mediator,
 		viewComponent = FireworkPanel2024Layer,
@@ -208,7 +208,7 @@ function slot0.OpenFireworkLayer(slot0)
 	}))
 end
 
-function slot0.PlayFireworks(slot0)
+slot0.PlayFireworks = function(slot0)
 	assert(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_FIREWORK) and not slot1:isEnd(), "烟花活动(type92)已结束")
 
 	slot2 = getProxy(PlayerProxy):getData().id
@@ -238,7 +238,7 @@ function slot0.PlayFireworks(slot0)
 	slot0.fireworksTimer:Start()
 end
 
-function slot0.PlayerOneFirework(slot0)
+slot0.PlayerOneFirework = function(slot0)
 	if slot0.index == #slot0.fireworks then
 		slot0:managedTween(LeanTween.delayedCall, function ()
 			uv0:StopPlayFireworks()
@@ -278,7 +278,7 @@ function slot0.PlayerOneFirework(slot0)
 	slot0.index = slot0.index + 1
 end
 
-function slot0.GetFireworkPos(slot0)
+slot0.GetFireworkPos = function(slot0)
 	slot1 = Vector2(0, 0)
 
 	if slot0.lastPos then
@@ -304,7 +304,7 @@ function slot0.GetFireworkPos(slot0)
 	return slot1
 end
 
-function slot0.StopFireworksTimer(slot0)
+slot0.StopFireworksTimer = function(slot0)
 	if slot0.fireworksTimer then
 		slot0.fireworksTimer:Stop()
 
@@ -312,7 +312,7 @@ function slot0.StopFireworksTimer(slot0)
 	end
 end
 
-function slot0.StopPlayFireworks(slot0)
+slot0.StopPlayFireworks = function(slot0)
 	slot0:StopFireworksTimer()
 
 	slot0.fireworks = nil
@@ -321,13 +321,13 @@ function slot0.StopPlayFireworks(slot0)
 	setActive(slot0.fireworksTF, false)
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:StopPlayFireworks()
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)
 end
 
-function slot0.CheckTip(slot0)
+slot0.CheckTip = function(slot0)
 	return switch(slot0, {
 		fushundamaoxian = function ()
 			return BackHillTemplate.IsMiniActNeedTip(ActivityConst.MINIGAME_SPRING_FESTIVAL_2024)
@@ -361,7 +361,7 @@ function slot0.CheckTip(slot0)
 	end)
 end
 
-function slot0.IsShowMainTip(slot0)
+slot0.IsShowMainTip = function(slot0)
 	slot1 = {
 		"fushundamaoxian",
 		"huituriji",

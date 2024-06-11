@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "锁定过程",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 10,
-				skill_id = 16401
+				skill_id = 16401,
+				time = 10
 			}
 		}
 	}

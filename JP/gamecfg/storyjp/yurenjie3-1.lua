@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YURENJIE3-1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YURENJIE3-1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"一撃！PURIN！\n\n<size=45>三　試練の地</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgm = "login-2022401us",
-			bgmDelay = 2,
 			say = "ブリ姉妹が力を合わせ、試練の地の全てのステージをクリアした。",
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgmDelay = 2,
+			bgm = "login-2022401us",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -75,8 +75,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -100,8 +100,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "宝箱が開かれ、眩い虹色の光が天を貫いた。",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "「スーパーレインボーハンマー1号」を手に入れた。",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -135,9 +135,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "なんて眩しい光プリン！強い力を感じるプリン！",
 			painting = {
 				alpha = 0.3,
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -162,8 +162,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 100020,
 			dir = 1,
+			actor = 100020,
 			say = "スーパーレインボーハンマー1号ゲットだプリン！",
 			painting = {
 				alpha = 0.3,
@@ -175,8 +175,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			say = "ブリ姉妹たちが喜んでいる間に、何者かが入ってきた。",
 			typewriter = {
 				speed = 0.05,
@@ -187,8 +187,8 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "恐ろしき大魔王",
 			say = "この場で狼藉を働くのは、何者だ？",
 			painting = {
@@ -204,8 +204,8 @@ return {
 			expression = 2,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "恐ろしき大魔王",
 			say = "ほう…どうやらスーパーレインボーハンマー1号が目当ての冒険者のようだな。",
 			painting = {
@@ -221,8 +221,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "恐ろしき大魔王",
 			say = "悪いが、ここの宝物を持ち帰りたければ、この私を倒してからにしてもらおう！",
 			painting = {
@@ -250,8 +250,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -275,8 +275,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -287,9 +287,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "くらえっ！スーパーレインボーハンマー1号！",
 			painting = {
 				alpha = 0.3,
@@ -301,8 +301,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -313,9 +313,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 100020,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "どうしたプリン？スーパーレインボーハンマー1号が何も反応しないプリン！",
 			painting = {
 				alpha = 0.3,
@@ -327,8 +327,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -340,8 +340,8 @@ return {
 			expression = 3,
 			side = 2,
 			nameColor = "#ff5c5c",
-			actor = 900233,
 			dir = 1,
+			actor = 900233,
 			actorName = "恐ろしき大魔王",
 			say = "ハハハ！残念だったな、スーパーレインボーハンマー1号はエネルギーチャージが必要な武器なのだよ！",
 			painting = {
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 100000,
 			nameColor = "#A9F548FF",
 			side = 0,
-			hideOther = true,
 			dir = 1,
+			actor = 100000,
+			hideOther = true,
 			actorName = "汎用型ブリ&試作型ブリMKII",
 			say = "「「行くプリン！」」",
 			subActors = {
@@ -394,8 +394,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

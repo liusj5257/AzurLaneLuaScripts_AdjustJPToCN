@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA31",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA31",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 102090,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level02",
 			dir = 1,
 			say = "Sweet, finally! Time to go home!",
+			bgm = "level02",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,8 +83,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -171,8 +171,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "Hopefully, this will help progress our understand of the singularity's mechanisms and lead to the development of a safe method of eliminating them.",
 			typewriter = {
 				speed = 0.05,
@@ -262,8 +262,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "That reminds me... Before we sortied, we ran into Memphis. She looked quite gloomy, grumbling things like, \"heh heh heh, let's hope you have a pleasant voyage\" to herself...",
 			typewriter = {
 				speed = 0.05,
@@ -338,8 +338,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107380,
 			dir = 1,
+			actor = 107380,
 			say = "Hmm... If I get the time, I think I'd like to go someplace far away... Perhaps like the valley I was named after.",
 			typewriter = {
 				speed = 0.05,
@@ -354,8 +354,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107090,
 			dir = 1,
+			actor = 107090,
 			say = "Where would you go, Enterprise?",
 			typewriter = {
 				speed = 0.05,
@@ -398,8 +398,8 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "\"Of course. I would...\"",
-					autochoice = 1
+					autochoice = 1,
+					content = "\"Of course. I would...\""
 				}
 			}
 		}

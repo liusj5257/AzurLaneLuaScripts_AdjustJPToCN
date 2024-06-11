@@ -1,6 +1,6 @@
 slot0 = class("UseItemCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot5 = slot2.arg
 	slot8 = getProxy(BagProxy):getItemById(slot2.id):getConfig("usage")
@@ -112,7 +112,7 @@ function slot0.execute(slot0, slot1)
 	end)
 end
 
-function slot0.Check(slot0, slot1)
+slot0.Check = function(slot0, slot1)
 	slot4, slot5 = CheckOverflow(GetItemsOverflowDic(slot0:GetOverflowCheckItems(slot1)))
 
 	if not slot4 then

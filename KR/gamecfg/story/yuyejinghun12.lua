@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN12",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN12",
 	fadein = 1.5,
 	scripts = {
 		{
 			portrait = 107090,
 			side = 2,
+			actorName = "에식스",
 			bgName = "star_level_bg_156",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
 			bgm = "theme-highseasfleet-reborn",
-			actorName = "에식스",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "집사는 협조적인 태도를 보였지만, 당신은 그녀가 정말로 도와줄지 확신을 가질 수 없었니다.",
 			typewriter = {
@@ -21,17 +21,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -257,9 +257,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 1,
 			actorName = "Z2",
+			optionFlag = 1,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "네, '매혹'입니다.",
 			typewriter = {
@@ -272,9 +272,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 2,
 			actorName = "Z2",
+			optionFlag = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "잘못 들으신 게 아닙니다. 네, 매혹이 맞습니다.",
 			typewriter = {
@@ -287,9 +287,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "급작스럽게 교체된 마스터",
-			nameColor = "#A9F548FF",
-			optionFlag = 3,
 			actorName = "Z2",
+			optionFlag = 3,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "자기 대신 저를 마스터로 두고, 무대 뒤 장치실로 놀러간 사람이 만들었죠.",
 			typewriter = {
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
-			side = 2,
+			actor = 9600021,
 			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "성의 지도는 식당에 놓여져 있으니, 필요하면 가서 가져가도록 해라.",
@@ -370,9 +370,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
-			actorName = "상 마르티뉴",
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			actor = 9600021,
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "아, 식당은 이 홀 맞은편에 있다. 원래는 안뜰을 그대로 통과해서 갈 수도 있지만, 지금은 리모델링 공사 중이니 돌아서 가도록 해라.",
 			typewriter = {
@@ -399,9 +399,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
-			actorName = "상 마르티뉴",
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			actor = 9600021,
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "이 단추가 신경이 쓰이는가?",
 			typewriter = {
@@ -422,11 +422,11 @@ return {
 			}
 		},
 		{
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
-			side = 2,
+			actor = 9600021,
 			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "큰 아가씨께서 주신 단추다.",
@@ -480,9 +480,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
-			actorName = "상 마르티뉴",
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			actor = 9600021,
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "성 내부는 무척 넓다. 밤에 섣불리 움직이면 길을 잃을 수 있으니 조심해라.",
 			typewriter = {
@@ -495,9 +495,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
-			actorName = "상 마르티뉴",
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			actor = 9600021,
+			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "그리고 다시 한번 말하는데, 침실 같은 개인 공간은 꼭 주인의 동의를 얻은 후에 들어가도록 해라.",
 			typewriter = {
@@ -506,11 +506,11 @@ return {
 			}
 		},
 		{
-			actor = 9600021,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 집사",
-			side = 2,
+			actor = 9600021,
 			actorName = "상 마르티뉴",
 			hidePaintObj = true,
 			say = "그럼 나는 큰 아가씨께서 기다리고 계셔서 이만 실례하마.",
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			blackBg = true,
 			effects = {
 				{

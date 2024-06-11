@@ -1,7 +1,7 @@
 slot0 = class("ZumaPTShopMediator", import("...base.ContextMediator"))
 slot0.OPEN_ZUMA_PT_SHOP_BUY_WINDOW = "ZumaPTShopMediator.OPEN_ZUMA_PT_SHOP_BUY_WINDOW"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.OPEN_ZUMA_PT_SHOP_BUY_WINDOW, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			mediator = ZumaPTShopWindowMediator,
@@ -14,7 +14,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.ISLAND_SHOPPING_DONE,
 		GAME.USE_ITEM_DONE,
@@ -22,7 +22,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.ISLAND_SHOPPING_DONE then

@@ -1,23 +1,23 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "MIWUZHIXIA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "MIWUZHIXIA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "運河要塞？？？・東部？？？",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "story-6",
+			say = "運河要塞？？？・東部？？？",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -62,9 +62,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "信号の発生源に近づくにつれ、セイレーンの残骸が至るところに浮かんでいる。",
 			typewriter = {
 				speed = 0.05,
@@ -76,11 +76,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "……メンフィス、ヘレナ、通信装置になにか反応はあるか？",
 			dialogShake = {
 				speed = 0.09,
@@ -100,8 +100,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "まったくないわね",
 			typewriter = {
@@ -117,8 +117,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "こっちは……これは…！みんな、セイレーンのジャミングよ！",
 			typewriter = {
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -160,8 +160,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "どの鏡面海域でも漏れなく通信機能がジャミングされるはず…！まさかここって――",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_xiangting_3",
 			nameColor = "#ff5c5c",
 			dir = 1,
@@ -222,11 +222,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "ピュリファイアー",
 			say = "そうだよー！恐ろしきピュリファイアー様だ！久しぶりね、実験データのみなさん♪",
 			typewriter = {
@@ -257,11 +257,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "ピュリファイアー",
 			say = "「鏡面海域なのになんで通信できる」って思ったでしょ？",
 			typewriter = {
@@ -290,11 +290,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "ピュリファイアー",
 			say = "それさぁ、本当に「通信を送れた」って思ってんの？？",
 			typewriter = {
@@ -307,9 +307,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "――パチン！",
 			effects = {
 				{
@@ -366,8 +366,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "…ここは――バミューダ海域！",
 			typewriter = {
@@ -380,8 +380,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -424,8 +424,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -437,8 +437,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "ボルチモア、今要塞から連絡が――",
 			typewriter = {
@@ -451,11 +451,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "ピュリファイアー",
 			say = "おっと逃さないよ！",
 			typewriter = {
@@ -468,15 +468,15 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "――パチン！",
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -489,11 +489,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "ピュリファイアー",
 			say = "「主役」が登場するまでここで大人しく待ってもらうよッ！",
 			typewriter = {
@@ -522,11 +522,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "ピュリファイアー",
 			say = "そうだそうだ！時間ならたっぷりあるから、遊びに付き合ええええ！！",
 			typewriter = {
@@ -539,14 +539,14 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			side = 2,
 			bgName = "bg_underwater",
 			dir = 1,
+			stopbgm = true,
 			say = "運河要塞・東部",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -574,8 +574,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900228,
 			dir = 1,
+			actor = 900228,
 			nameColor = "#a9f548",
 			say = "はあ…はあ…はあ…",
 			typewriter = {
@@ -588,8 +588,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -601,8 +601,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900228,
 			dir = 1,
+			actor = 900228,
 			nameColor = "#a9f548",
 			say = "ま、まだ追いかけてくるの…？",
 			typewriter = {
@@ -618,8 +618,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900228,
 			dir = 1,
+			actor = 900228,
 			nameColor = "#a9f548",
 			say = "もっと早く……！",
 			typewriter = {
@@ -635,9 +635,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_underwater",
-			actor = 900228,
 			dir = 1,
 			blackBg = true,
+			actor = 900228,
 			nameColor = "#a9f548",
 			say = "早くみんなに状況を伝えなくちゃ……！",
 			typewriter = {

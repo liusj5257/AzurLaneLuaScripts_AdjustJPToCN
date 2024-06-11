@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_163 = {}
 slot1 = slot0.word_template_163
 
-function temp()
+temp = function()
 	uv0["英"] = {
 		["国"] = {
 			["骚"] = {
@@ -80,7 +80,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["步"] = {
 		q = {
 			i = {
@@ -139,7 +139,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["銷"] = {
 		["售"] = {
 			["手"] = {
@@ -730,7 +730,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["售"] = {
 		["高"] = {
 			["仿"] = {

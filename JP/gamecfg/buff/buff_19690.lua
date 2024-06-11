@@ -159,14 +159,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "",
 	time = 0,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 19690,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 19690,
+	color = "yellow",
 	icon = 19690,
 	last_effect = "",
 	effect_list = {
@@ -196,8 +196,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 19690,
 				minWeaponNumber = 1,
+				skill_id = 19690,
 				check_weapon = true,
 				label = {
 					"CL",
@@ -211,10 +211,10 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				time = 20,
-				skill_id = 19691,
 				minWeaponNumber = 1,
+				time = 20,
 				check_weapon = true,
+				skill_id = 19691,
 				label = {
 					"DD",
 					"MG"
@@ -227,10 +227,10 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				time = 10,
-				skill_id = 19691,
 				minWeaponNumber = 1,
+				time = 10,
 				check_weapon = true,
+				skill_id = 19691,
 				label = {
 					"CL",
 					"MG"

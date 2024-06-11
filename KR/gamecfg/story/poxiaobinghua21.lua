@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA21",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "POXIAOBINGHUA21",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			say = "복도 끝의 대문에 들어서자 갑자기 시야가 확 트였다.",
 			dir = 1,
 			bgm = "deepblue-image",
+			nameColor = "#a9f548",
+			say = "복도 끝의 대문에 들어서자 갑자기 시야가 확 트였다.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "공간이 흡사하게 생긴 홀이 하나둘 늘어서 있고 의자가 쭉쭉 뻗어 있다.",
@@ -55,8 +55,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "홀의 끝자락에는 원래 \"대문\"이 있어야 할 자리에, 지금은 한쪽 면에 수십 개, 어쩌면 수백 개의 크고 작은 스크린이 도배된 거대한 스크린 벽이다.",
@@ -105,8 +105,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "불이 켜졌던 이전과 달리 최소한의 조명만 남아있을 뿐 다른 모든 장비는 작동하지 않다니…… 정말 답답한 곳이야.",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "흠…… 나도 가보고 싶다……",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "지금 이렇게 전쟁이 치열한데 우리 같은 일선 군사들이 그런 곳에 가려면, 아마 훈장 수여식 뿐이겠지.",
 			typewriter = {
@@ -172,8 +172,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "하긴…… 아, 그러고 보니 그리먀시는 분명 가봤겠지?!",
 			typewriter = {
@@ -189,8 +189,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "아…… 한 번 가보긴 했지.",
 			typewriter = {
@@ -222,8 +222,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "나보다 저쪽 지휘관이 그런 경험이 많을 거 같은데.",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "앗…… 그런가요?!",
 			typewriter = {
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "하긴…… 지휘관으로서 어쩔 수 없이 이런 장소에 가야 할 때도 있었지.",
@@ -271,8 +271,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "지휘관은 이럴 때 항상 맨 앞줄에 앉아야 한다지?",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "그렇지…… 어떤 때는 단상에 올라가서 이야기해야 할 때도 있어.",
@@ -303,8 +303,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "이야기를 나누다 보면 지휘관도 엄청난 인물이라는 것을 잊게 되지만, 그래도 쉽게 다가갈 수 있는 모습이 좋아.",
 			typewriter = {
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "사실 무대에 올라가도 전략 전술적 얘기만 하니…… 말이라기보다 보고가 더 적절하지.",
@@ -335,8 +335,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "그래도 대단하네요~ 그런데 언론사에서는 지휘관들이 큰 회의에 참석한다는 소식을 들어본 적이 없는데……",
 			typewriter = {
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "확실히 그래. 뭔가 복잡한 일에 말려들면 곤란하니.",
@@ -383,8 +383,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "흠…… 그러고 보면 소비에츠키 소유즈도 엄청 고생이네요. 함대에서 그녀만이 정기적으로 대형 회의에 참석하니까……",
 			typewriter = {
@@ -400,8 +400,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_9",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "아, 여기가 바로 가장 앞에 있는 단상. 지휘관 동지도 평소에 이런 곳에서 보고를 하나요?",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "맞아. 지휘부 본부에도 비슷한 크기의 회의실이 있지. 가운데 단상도 이런 느낌의 디자인이었는데, 그러고 보니 여기 버튼 하나가 있는 거로 기억하는 데…",
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_9",
 			dir = 1,
 			say = "아, 찾았다. 이게 지금도 사용할 수 있을지 모르겠네. 이렇게 누르기만 하면……",
@@ -444,8 +444,8 @@ return {
 			}
 		},
 		{
-			oldPhoto = true,
 			side = 2,
+			oldPhoto = true,
 			bgName = "bg_cccpv2_9",
 			stopbgm = true,
 			dir = 1,
@@ -461,12 +461,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			oldPhoto = true,
+			side = 2,
 			bgName = "bg_cccpv2_9",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "……응?",
 			typewriter = {
 				speed = 0.05,

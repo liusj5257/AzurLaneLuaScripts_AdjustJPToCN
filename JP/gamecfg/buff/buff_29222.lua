@@ -5,12 +5,12 @@ return {
 	desc_get = "主炮每进行6次攻击，触发专属弹幕-伊吹II",
 	name = "专属弹幕-伊吹II",
 	init_effect = "",
+	id = 29222,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "主炮每进行6次攻击，触发专属弹幕-伊吹II",
 	stack = 1,
-	id = 29222,
+	color = "red",
 	icon = 29220,
 	last_effect = "",
 	effect_list = {
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 29222,
+				target = "TargetSelf",
 				countType = 29220
 			}
 		}

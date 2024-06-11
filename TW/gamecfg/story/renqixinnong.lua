@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "RENQIXINNONG",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "RENQIXINNONG",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"榮耀殿堂\n\n<size=45>予夢以星</size>",
@@ -17,20 +17,20 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "映入眼簾的是黑色的海與黑色的天色。",
+			nameColor = "#A9F548FF",
+			bgm = "stopbgm",
 			hidePaintObj = true,
 			blackBg = true,
-			bgm = "stopbgm",
+			say = "映入眼簾的是黑色的海與黑色的天色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "這裡沒有風浪，亦無聲音，時間本身彷彿在此停滯不前。",
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "為了探尋一個出口，我行走在這片寂靜的沙灘上，直到——",
@@ -53,8 +53,8 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "bg_burningsea_2",
 			dir = 1,
+			bgName = "bg_burningsea_2",
 			bgm = "bgm-waterwave",
 			actor = 307080,
 			nameColor = "#A9F548FF",
@@ -69,17 +69,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_burningsea_2",
 			hidePaintObj = true,
 			say = "熟悉的身影突然出現在眼前，原本停滯不前的時間似乎在這一刻開始重新轉動。",
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "看來，汝是在機緣巧合之下，又誤入了妾身的夢境……",
 			painting = {
 				alpha = 0.3,
@@ -118,10 +118,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "只是眼下的風景，稍微有點令人遺憾。",
 			painting = {
 				alpha = 0.3,
@@ -142,10 +142,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "惡夢？非也。",
 			painting = {
 				alpha = 0.3,
@@ -157,12 +157,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "在妾身經歷過的夢境當中，此間還遠遠不足以稱為「惡夢」。",
 			painting = {
 				alpha = 0.3,
@@ -177,10 +177,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "況且，因為汝的突然出現……眼下，此處應該算是存在些許甜蜜的永恆之所吧？",
 			painting = {
 				alpha = 0.3,
@@ -217,10 +217,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "還真是隨性呢，指揮官。",
 			painting = {
 				alpha = 0.3,
@@ -232,12 +232,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "汝不問妾身，為何稱這裡為永恆嗎？",
 			painting = {
 				alpha = 0.3,
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_burningsea_2",
 			hidePaintObj = true,
 			say = "信濃一邊說著，一邊輕輕靠了過來。",
@@ -260,8 +260,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_burningsea_2",
 			hidePaintObj = true,
 			say = "雖然在夢中理應沒有真實的五感，卻依然能聞到信濃身上傳來的絲縷幽香。",
@@ -274,10 +274,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "此間夢境的時間不會流動。無論在此停留多久，都不會有任何改變。",
 			painting = {
 				alpha = 0.3,
@@ -289,12 +289,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "若是妾身未能尋到指揮官，恐怕汝就要被這裡吞噬，困在一成不變的晦暗之中了……",
 			painting = {
 				alpha = 0.3,
@@ -309,10 +309,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官，汝會害怕嗎？",
 			painting = {
 				alpha = 0.3,
@@ -372,12 +372,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "若時間不會流動，就意味著萬物亦不會改變，只會永遠保持第一次與妾身相遇時的樣子。",
 			painting = {
 				alpha = 0.3,
@@ -404,10 +404,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "是啊……確如牢籠一般。",
 			painting = {
 				alpha = 0.3,
@@ -422,10 +422,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "只是此刻，牢籠亦是樂園。",
 			painting = {
 				alpha = 0.3,
@@ -440,10 +440,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "有汝陪在妾身身旁，就算在此間多困些時日，倒也無妨了。",
 			painting = {
 				alpha = 0.3,
@@ -470,10 +470,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "是。直到夢醒前，一直等下去。",
 			painting = {
 				alpha = 0.3,
@@ -500,10 +500,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呵呵~其實妾身方才所說的牢籠與永恆，只是用來嚇唬指揮官的。",
 			painting = {
 				alpha = 0.3,
@@ -518,10 +518,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "汝不必擔心，在漫長的時光中，妾身也是一點點進步的。",
 			painting = {
 				alpha = 0.3,
@@ -536,10 +536,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "雖然還不能完全掌握夢境，但待得時間長了，也就漸漸總結出些門道。",
 			painting = {
 				alpha = 0.3,
@@ -551,12 +551,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_burningsea_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "就比如……",
 			painting = {
 				alpha = 0.3,
@@ -568,28 +568,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_hms_7",
+			bgm = "battle-xinnong-image",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "她伸出手，指向我們頭頂漆黑沉悶的天穹。",
-			bgm = "battle-xinnong-image",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -597,8 +597,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
 			say = "信濃手指虛點，伴隨著她的動作，一顆、兩顆……無數顆星辰浮現在穹頂之上。",
@@ -632,12 +632,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_hms_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "汝是想問，既然擁有此種力量，為何不早點用出來？",
 			painting = {
 				alpha = 0.3,
@@ -652,10 +652,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "呵呵，因為意義不同。",
 			painting = {
 				alpha = 0.3,
@@ -667,12 +667,12 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_hms_7",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "倘若只有妾身一人，隨遇而安也未嘗不可。",
 			painting = {
 				alpha = 0.3,
@@ -687,10 +687,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "但是此刻，汝亦在此……此方天地，對於妾身的意義已經不同了。",
 			painting = {
 				alpha = 0.3,
@@ -705,10 +705,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_hms_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "妾身想讓汝看到星光。",
 			painting = {
 				alpha = 0.3,
@@ -723,10 +723,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_hms_7",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307080,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "因為汝之於妾身，如同這片星光……",
 			painting = {
 				alpha = 0.3,
@@ -738,8 +738,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
 			say = "銀色的髮絲拂過鼻尖。",
@@ -749,8 +749,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
 			say = "我們不再言語。",
@@ -760,8 +760,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
 			say = "此方天地雖大，卻不過二人。雖小，但也有千萬星辰。",
@@ -771,8 +771,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
 			say = "黑色的海洋，漸起，漸落。",
@@ -782,8 +782,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
 			say = "流水沖刷著時間，它什麼都帶不來，也什麼都拿不走……意義，在夢境中顯得毫無意義。",
@@ -793,8 +793,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_hms_7",
 			hidePaintObj = true,
 			say = "直到星辰與海浪融為一體，身邊之人成為夢境的全部，萬物合而為一——",

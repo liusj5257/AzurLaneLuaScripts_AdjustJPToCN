@@ -59,11 +59,11 @@ return {
 			}
 		},
 		{
-			expression = "13",
 			side = 0,
+			say = "！！！注意，右舷方向！！！發現兩艘大型軍艦，航向220度，判斷是鐵血的新型戰列艦！全員準備作戰！",
+			expression = "13",
 			actor = 900004,
 			nameColor = "#a9f548",
-			say = "！！！注意，右舷方向！！！發現兩艘大型軍艦，航向220度，判斷是鐵血的新型戰列艦！全員準備作戰！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

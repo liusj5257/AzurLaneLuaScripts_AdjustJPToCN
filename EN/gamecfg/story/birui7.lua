@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Hiei's Banquet\n\n<size=45>Chapter 7: Moonlit Appassionata</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "The banquet was drawing to a close.",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "The banquet was drawing to a close.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -130,17 +130,17 @@ return {
 			}
 		},
 		{
-			actor = 304020,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "Phew... I guess it's over now...",
 			bgm = "story-2",
+			actor = 304020,
+			nameColor = "#a9f548",
+			say = "Phew... I guess it's over now...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "Hehe~♪ That's not the important thing though. Ultimately, I just want to see everyone get excited and have a great time.",
 			typewriter = {
 				speed = 0.05,
@@ -315,9 +315,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "The silver moonlight falls gently across the harbor. The moon is beautiful tonight...",
 			typewriter = {
 				speed = 0.05,
@@ -325,9 +325,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "I recalled the dance I shared with Hiei earlier at the banquet.",
 			typewriter = {
 				speed = 0.05,
@@ -335,15 +335,15 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "Another dance... right now? The banquet's already over though, and the music...",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -368,9 +368,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "Don't worry. Banquet or not, our appassionata is always playing.",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 0,
 	mode = 2,
-	id = "LINKPREHEAT9-1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "LINKPREHEAT9-1",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 201210,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level-uta",
 			dir = 1,
 			say = "……ここがオホーツク海域の最深部",
+			bgm = "level-uta",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "ここって……私たちが最初にいた場所じゃない？",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			say = "言われてみれば……見覚えがあるような……ないような……？",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "というか……この妙な空気、どこかで感じた覚えがあるんだけど？",
 			typewriter = {
 				speed = 0.05,
@@ -258,8 +258,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "夢幻演武──",
 			typewriter = {
 				speed = 0.05,
@@ -273,10 +273,10 @@ return {
 		{
 			expression = 1,
 			side = 1,
+			say = "あの結界独特の空気が、この海域内に醸し出されています",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "あの結界独特の空気が、この海域内に醸し出されています",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -294,8 +294,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "ピンポーン！まあまあ正解ってとこかなー？",
 			typewriter = {
 				speed = 0.05,
@@ -325,8 +325,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			say = "まあまあ正解ってどういうことかな？",
 			typewriter = {
 				speed = 0.05,
@@ -341,8 +341,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "答え合わせしとく？ここは確かに鏡面海域、それもアンタたちの世界の「夢幻演武」とかいう結界のテクノロジーを拝借したものに間違いないよ！",
 			typewriter = {
 				speed = 0.05,
@@ -357,8 +357,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "ただ……アンタたちの世界からちょーっと邪魔が入ってねー",
 			typewriter = {
 				speed = 0.05,
@@ -373,8 +373,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300060,
 			dir = 1,
+			actor = 10300060,
 			say = "私たちの世界から？それは一体……？",
 			typewriter = {
 				speed = 0.05,
@@ -389,8 +389,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			say = "もしや──主様？",
 			typewriter = {
 				speed = 0.05,
@@ -404,10 +404,10 @@ return {
 		{
 			expression = 2,
 			side = 1,
+			say = "主様なら私たちの危急を救うべく、全身全霊を込めてあなたたちの妨害をしてくださること請け合いです",
+			dir = 1,
 			actor = 10300050,
 			nameColor = "#a9f548",
-			dir = 1,
-			say = "主様なら私たちの危急を救うべく、全身全霊を込めてあなたたちの妨害をしてくださること請け合いです",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -440,8 +440,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "そいつが誰かなんて私たちは知らないし知ったこっちゃない！それに、ここでの実験には関係ないよ！私たちが欲しいのはデータ！サンプル！実験記録！",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			actor = 900021,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ピュリファイアー",
 			dir = 1,
+			actorName = "ピュリファイアー",
 			say = "さあ、私たちのために足掻いて藻掻いて抗ってちょうだい！そのためにこの舞台を「お膳立て」してあげたんだから！",
 			typewriter = {
 				speed = 0.05,

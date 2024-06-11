@@ -9,11 +9,11 @@ AIRI_PLATFORM_AMAZON = "amazon"
 AIRI_PLATFORM_GPS = "gps"
 AIRI_SDK_INITED = false
 
-function GoLoginScene()
+GoLoginScene = function()
 	print("US do nothing")
 end
 
-function AiriInitResult(slot0)
+AiriInitResult = function(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
 	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
@@ -24,19 +24,19 @@ function AiriInitResult(slot0)
 	end
 end
 
-function AiriGoLogin(slot0)
+AiriGoLogin = function(slot0)
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LOGIN, {
 		loginPlatform = slot0
 	})
 	gcAll()
 end
 
-function AiriLogin(slot0)
+AiriLogin = function(slot0)
 	slot1 = pg.UIMgr.GetInstance()
 
 	slot1:LoadingOff()
 
-	function slot1()
+	slot1 = function()
 		pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
 			user = User.New({
 				type = 1,
@@ -45,6 +45,10 @@ function AiriLogin(slot0)
 				arg3 = uv0.ACCESS_TOKEN
 			})
 		})
+	end
+
+	if uv0.AiriYoStarPassMigrateHandler(slot0) then
+		return
 	end
 
 	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
@@ -60,7 +64,7 @@ function AiriLogin(slot0)
 			if pg.TimeMgr.GetInstance():GetServerTime() < tonumber(string.sub(slot0.R_DELETETIME, 1, string.len(slot0.R_DELETETIME) - 3)) then
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					modal = true,
-					content = i18n("box_account_reborn_content", pg.TimeMgr.GetInstance():CTimeDescC(slot5, "%Y-%m-%d %H:%M:%S")),
+					content = i18n("box_account_reborn_content", pg.TimeMgr.GetInstance():CTimeDescC(slot6, "%Y-%m-%d %H:%M:%S")),
 					weight = LayerWeightConst.TOP_LAYER,
 					onYes = function ()
 						uv0.AccountReborn()
@@ -73,7 +77,7 @@ function AiriLogin(slot0)
 	end
 end
 
-function AiriTranscodeResult(slot0)
+AiriTranscodeResult = function(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
 	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
@@ -83,7 +87,7 @@ function AiriTranscodeResult(slot0)
 	end
 end
 
-function AiriBuyResult(slot0)
+AiriBuyResult = function(slot0)
 	uv0.OnAiriBuying = -1
 
 	pg.UIMgr.GetInstance():LoadingOff()
@@ -102,7 +106,7 @@ function AiriBuyResult(slot0)
 	end
 end
 
-function SetBirthResult(slot0)
+SetBirthResult = function(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
 	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
@@ -110,7 +114,7 @@ function SetBirthResult(slot0)
 	end
 end
 
-function LinkSocialResult(slot0)
+LinkSocialResult = function(slot0)
 	uv0.EndAiriTimeout()
 
 	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
@@ -118,7 +122,7 @@ function LinkSocialResult(slot0)
 	end
 end
 
-function UnlinkSocialResult(slot0)
+UnlinkSocialResult = function(slot0)
 	uv0.EndAiriTimeout()
 
 	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
@@ -128,7 +132,7 @@ function UnlinkSocialResult(slot0)
 	end
 end
 
-function VerificationCodeResult(slot0)
+VerificationCodeResult = function(slot0)
 	pg.UIMgr.GetInstance():LoadingOff()
 
 	if uv0.AiriResultCodeHandler(slot0.R_CODE) then
@@ -139,7 +143,7 @@ function VerificationCodeResult(slot0)
 	end
 end
 
-function OnAppPauseForSDK(slot0)
+OnAppPauseForSDK = function(slot0)
 	if not AIRI_SDK_INITED then
 		return
 	end
@@ -151,7 +155,7 @@ function OnAppPauseForSDK(slot0)
 	end
 end
 
-function AccountDeleteResult(slot0, slot1, slot2, slot3, slot4)
+AccountDeleteResult = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = pg.UIMgr.GetInstance()
 
 	slot5:LoadingOff()
@@ -180,7 +184,7 @@ function AccountDeleteResult(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function AccountRebornResult(slot0, slot1)
+AccountRebornResult = function(slot0, slot1)
 	slot2 = pg.UIMgr.GetInstance()
 
 	slot2:LoadingOff()
@@ -194,7 +198,17 @@ function AccountRebornResult(slot0, slot1)
 	end
 end
 
-function OnYoStarMessageReceivedRespone(slot0, slot1, slot2, slot3)
+BindYostarPassResult = function(slot0, slot1)
+	if uv0.AiriResultCodeHandler({
+		ToInt = function ()
+			return uv0
+		end
+	}) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("new_airi_error_code_0"))
+	end
+end
+
+OnYoStarMessageReceivedRespone = function(slot0, slot1, slot2, slot3)
 	warning("OnYoStarMessageReceivedRespone")
 end
 
@@ -415,6 +429,9 @@ return {
 	ConfirmUnLinkGooglePlayGame = function ()
 		uv0:ConfirmUnLinkGooglePlayGame()
 	end,
+	BindYostarPass = function ()
+		uv0:BindYostarPassReq()
+	end,
 	AiriResultCodeHandler = function (slot0)
 		slot1 = slot0:ToInt()
 		slot2 = ":" .. slot1
@@ -508,6 +525,19 @@ return {
 					uv0.ConfirmUnLinkGooglePlayGame()
 				end
 			})
+
+			return true
+		else
+			return false
+		end
+	end,
+	AiriYoStarPassMigrateHandler = function (slot0)
+		if table.contains({
+			0,
+			100204,
+			100206
+		}, slot0.R_CODE:ToInt()) and slot0.SHOW_MIGRATE_PAGE == 1 then
+			uv0.BindYostarPass()
 
 			return true
 		else

@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "湖之都的蛮牛",
 	init_effect = "",
+	id = 11690,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 11690,
+	color = "red",
 	icon = 11690,
 	last_effect = "",
 	effect_list = {
@@ -37,9 +37,9 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				skill_id = 11690,
 				killer = "self",
 				target = "TargetSelf",
-				skill_id = 11690,
 				time = 1
 			}
 		}

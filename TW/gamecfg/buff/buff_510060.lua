@@ -1,12 +1,12 @@
 return {
-	time = 0,
-	name = "防空整备",
 	init_effect = "",
+	name = "防空整备",
+	time = 0,
+	picture = "",
+	desc = "防空整备",
 	stack = 0,
 	id = 510060,
-	picture = "",
 	last_effect = "",
-	desc = "防空整备",
 	effect_list = {
 		{
 			type = "BattleCardPuzzleFleetBuffAddFleetAttr",
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "CardAntiaircraft",
-				number = 3
+				number = 3,
+				attr = "CardAntiaircraft"
 			}
 		}
 	}

@@ -1,17 +1,17 @@
 return {
-	id = "SHENGYONGQU3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU3",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 207030,
 			nameColor = "#a9f548",
 			side = 2,
-			bgm = "level03",
 			dir = 1,
 			say = "그러고 보니 왜 여기를 목표로 삼은 것일까요? 풍경은 좋지만 전략적인 측면에서는 전혀 가치가 없는 곳인데요.",
+			bgm = "level03",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,8 +115,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "후후, 그러셨군요. 호의는 잘 받았습니다.",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "사실 그 소문은 그다지 과장된 것도 아닙니다. 확실히 이번 작전에 가장 중요한 것은 이 외진 영토가 아니라 이곳의 어떤 '물건'을 되찾는 것이지요.",
 			typewriter = {
 				speed = 0.05,
@@ -147,8 +147,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "여러분도 아시다시피 이곳에는 오래된 아이리스 리브레의 성당이 있습니다. 성당을 다시 우리의 손에 넣는 것이 이번 작전의 목표입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -178,8 +178,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "비시아 성좌도 같은 이유 때문에 이례적으로 이 외진 곳까지 함대를 파견했지요.",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "맞습니다. 대륙에서 멀리 떨어진 섬에 성당을 건설하는 것이 인간의 마음을 정화할 수 있겠지요.",
 			typewriter = {
 				speed = 0.05,
@@ -255,8 +255,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "…로열 네이비의 정보망은 대단하군요. 전투 시작 전에야 성당의 상황을 설명하다니, 제 착오입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			actor = 805010,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "앞으로의 전투에서 힘을 합쳐 승리를 거머쥐도록 하지요.",
 			typewriter = {
 				speed = 0.05,

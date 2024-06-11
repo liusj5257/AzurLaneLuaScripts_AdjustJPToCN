@@ -5,7 +5,7 @@ slot0.HIDE_SHIP_MAIN_WORD = "ShipMainMediator.HIDE_SHIP_MAIN_WORD"
 slot0.EXCHANGE_TIARA = "ProposeMediator.EXCHANGE_TIARA"
 slot0.REGISTER_SHIP = "ProposeMediator.REGISTER_SHIP"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot1 = getProxy(BayProxy)
 
 	if slot0.contextData.shipId then
@@ -47,7 +47,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.PROPOSE_SHIP_DONE,
 		GAME.RENAME_SHIP_DONE,
@@ -56,7 +56,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.PROPOSE_SHIP_DONE then

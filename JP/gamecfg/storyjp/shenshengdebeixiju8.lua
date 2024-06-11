@@ -1,14 +1,14 @@
 return {
-	id = "SHENSHENGDEBEIXIJU8",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "SHENSHENGDEBEIXIJU8",
+	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-5",
 			say = "ロイヤル艦隊作戦前",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-5",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,8 +22,8 @@ return {
 			actor = 205029,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ウォースパイト",
 			dir = 1,
+			actorName = "ウォースパイト",
 			say = "イラストリアス、あなたも来てくれたか！",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			expression = 5,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "うむ、さっき教えた通り、今ロイヤルとサディア艦隊でセイレーン拠点の捜索を準備しているが…",
 			typewriter = {
@@ -85,8 +85,8 @@ return {
 			actor = 205029,
 			nameColor = "#a9f548",
 			side = 2,
-			actorName = "ウォースパイト",
 			dir = 1,
+			actorName = "ウォースパイト",
 			say = "そうよ。向こうが提案した作戦はどうも怪しいところがあるわ",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +101,8 @@ return {
 			expression = 4,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "「セイレーンの活動習性の関係上、拠点の捜索はできれば夜中に行わせていただきたい」",
 			typewriter = {
@@ -118,8 +118,8 @@ return {
 			expression = 7,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "マルタ島の哨戒は夜には機能しない。もしサディアにその狙いがあるとすれば…",
 			typewriter = {
@@ -150,8 +150,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "ええ！？いや、まだそうであると決まったわけでは…",
 			typewriter = {
@@ -182,8 +182,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "大した直感ね…",
 			typewriter = {
@@ -196,8 +196,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -224,8 +224,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "あなたねぇ……",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			expression = 6,
 			side = 2,
 			nameColor = "#a9f548",
-			actor = 205029,
 			dir = 1,
+			actor = 205029,
 			actorName = "ウォースパイト",
 			say = "これは…照明弾？",
 			typewriter = {
@@ -300,8 +300,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "ヨークが二人の前を通りかかったその時――",
 			typewriter = {
 				speed = 0.05,
@@ -343,8 +343,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

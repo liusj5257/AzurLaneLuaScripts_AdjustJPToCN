@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 800720,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 800720,
+	color = "red",
 	icon = 800720,
 	last_effect = "",
 	effect_list = {
@@ -29,8 +29,8 @@ return {
 			arg_list = {
 				minTargetNumber = 1,
 				buff_id = 800721,
-				isBuffStackByCheckTarget = true,
 				nationality = 97,
+				isBuffStackByCheckTarget = true,
 				check_target = {
 					"TargetNationalityFriendly"
 				}
@@ -52,8 +52,8 @@ return {
 			},
 			arg_list = {
 				hpUpperBound = 0.5,
-				target = "TargetSelf",
 				skill_id = 800721,
+				target = "TargetSelf",
 				quota = 1
 			}
 		}

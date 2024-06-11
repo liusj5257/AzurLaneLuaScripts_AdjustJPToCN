@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA10",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA10",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
+			soundeffect = "event:/battle/boom2",
+			dir = 1,
 			bgm = "battle-boss-4",
 			actor = 102230,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "제기랄..여기까진가",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -77,8 +77,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -90,8 +90,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "이번에 그런 것들로 연기까지 시키다니. 들어봐, 요즘 너무 말 안 되는 거 아냐?",
 			typewriter = {
 				speed = 0.05,
@@ -103,12 +103,12 @@ return {
 			}
 		},
 		{
-			actor = 102070,
 			side = 0,
-			nameColor = "#a9f548",
-			say = "가, 가까이 오지 마!",
 			dir = -1,
 			soundeffect = "event:/battle/boom2",
+			actor = 102070,
+			nameColor = "#a9f548",
+			say = "가, 가까이 오지 마!",
 			flashN = {
 				color = {
 					1,
@@ -163,8 +163,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "칫, 그런 눈물 그렁그렁한 눈으로 쳐다보면서 그렇게 위험한 거 꺼내는 거 아니라구！",
 			typewriter = {
 				speed = 0.05,
@@ -179,8 +179,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "하지만 그렇게 얌전히 내게 빌어본다면 내가 정말 살려줄지도 모르지~？",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "어차피 이번에 온 건 너희같이 하잘것없는 것들 때문이 아니라서~",
 			typewriter = {
 				speed = 0.05,
@@ -211,8 +211,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "쥬노…난 두고 빨리 가…!",
 			typewriter = {
 				speed = 0.05,
@@ -239,8 +239,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -267,8 +267,8 @@ return {
 			expression = 7,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101020,
 			dir = 1,
+			actor = 101020,
 			say = "다들 무사…제때 왔군요!",
 			typewriter = {
 				speed = 0.05,
@@ -295,8 +295,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -350,12 +350,12 @@ return {
 			}
 		},
 		{
-			actor = 900021,
+			say = "이건…하아, 빙고, 역시 관찰자가 말한대로 네가 직접 나오는군",
 			side = 1,
 			nameColor = "#ff5c5c",
-			actorName = "퓨리파이어",
 			dir = 1,
-			say = "이건…하아, 빙고, 역시 관찰자가 말한대로 네가 직접 나오는군",
+			actor = 900021,
+			actorName = "퓨리파이어",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -373,8 +373,8 @@ return {
 			actor = 900021,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "퓨리파이어",
 			dir = 1,
+			actorName = "퓨리파이어",
 			say = "이제 조연들도 모였겠다 주인공만 나오면 되겠는걸. 시간은 아직 많으니까, 먼저 나 좀 놀아달라고~",
 			typewriter = {
 				speed = 0.05,

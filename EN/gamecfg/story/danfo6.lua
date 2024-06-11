@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DANFO6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DANFO6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Denver's Quest!\n\n<size=45>6.Leveling Up!</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "It was time for the match, and I'd arrived at the basketball court. Word of the game must have gotten around, as the spectator seats were starting to fill up.",
 			side = 2,
 			bgName = "star_level_bg_112",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "It was time for the match, and I'd arrived at the basketball court. Word of the game must have gotten around, as the spectator seats were starting to fill up.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,11 +50,11 @@ return {
 			}
 		},
 		{
-			actor = 101150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 101150,
+			nameColor = "#a9f548",
 			say = "G-give it your all, D-Denver!",
 			effects = {
 				{
@@ -72,8 +72,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -82,11 +82,11 @@ return {
 			}
 		},
 		{
-			actor = 303070,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 303070,
+			nameColor = "#a9f548",
 			say = "I normally wouldn't spectate a game. But it's a different story when Sendai and Denver are playing.",
 			effects = {
 				{
@@ -136,9 +136,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "The spectators were clamoring as Sendai walked from across the court. She looked at Denver while spinning the ball with her bandage-covered index finger.",
 			typewriter = {
 				speed = 0.05,
@@ -182,9 +182,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "Sendai won the coin flip to determine who starts off with the ball. The whistle blew, and the match officially started.",
 			typewriter = {
 				speed = 0.05,
@@ -212,9 +212,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "Sendai swiftly dribbled her way towards the goal. Denver intended to intercept, and had to gauge whether she was coming in left or right.",
 			typewriter = {
 				speed = 0.05,
@@ -258,9 +258,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "Sendai gracefully swirled past Denver's defense and threw a well-aimed shot into her basket. Sendai gained the lead with 1 point.",
 			typewriter = {
 				speed = 0.05,
@@ -272,11 +272,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "Now it's my turn! Watch this!",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -314,9 +314,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "Denver threw the ball right from where she stood at the three-point line. Incredibly, the ball went right into Sendai's basket, scoring Denver 2 points.",
 			typewriter = {
 				speed = 0.05,
@@ -328,11 +328,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "Gotcha! By the way, I play my best in the position of shooting guard!",
 			effects = {
 				{
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 302120,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 302120,
+			nameColor = "#a9f548",
 			say = "Hmph, not bad... Then I'll just have to double down on my defense!",
 			effects = {
 				{
@@ -372,9 +372,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "The lead switched back and forth repeatedly, until the game reached a decisive point. The board stood at 9 to 8 for Sendai.",
 			typewriter = {
 				speed = 0.05,
@@ -402,9 +402,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "Denver's strategy had become almost impossible to pull off as Sendai gradually improved her defense game.",
 			typewriter = {
 				speed = 0.05,
@@ -432,11 +432,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "Don't count your chickens until they've hatched! I'm gonna win this, whatever it takes!",
 			typewriter = {
 				speed = 0.05,
@@ -448,8 +448,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -474,9 +474,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_112",
+			dir = 1,
 			say = "Sendai undid the bandages covering her hands, while Denver gazed up into the vast blue sky.",
 			typewriter = {
 				speed = 0.05,
@@ -488,11 +488,11 @@ return {
 			}
 		},
 		{
-			actor = 102150,
 			side = 2,
 			bgName = "star_level_bg_112",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 102150,
+			nameColor = "#a9f548",
 			say = "Commander, Cleveland... I hope you're watching me. I'm gonna make you proud!",
 			effects = {
 				{

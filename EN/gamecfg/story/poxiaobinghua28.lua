@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA28",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "POXIAOBINGHUA28",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "Northern Parliament “Arcana Sanctum” - Offshore",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bgm-cccp2",
+			nameColor = "#a9f548",
+			say = "Northern Parliament “Arcana Sanctum” - Offshore",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -60,8 +60,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "Ugh... My head is still throbbing like crazy... Is everyone alright...?",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "My memory also feels incomplete... I remember entering a mysterious facility in the City of Light and recovering some data, and then we ended up in a desperate battle against the enemy...",
 			typewriter = {
@@ -94,8 +94,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "What happened at the end though? What exactly were we fighting, and how did we get back to the entrance?",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "Our riggings have also been fixed, as if a battle had never taken place.",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "But, the Commander and Gremyashchy managed to retrieve some data, right? What exactly is going on...?",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "Let's not worry too much about the complicated stuff~ We have experts for that after all! Now, let's just be thankful we're all safe and head back to port~",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "Hey, don't just leave Kirov behind... Wait, what are those ships coming towards us?",
 			typewriter = {
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "A large fleet began to appear over the horizon. Lifted above them were the banners of the Eagle Union and Royal Navy.",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "Did the Azur Lane schedule a joint exercise in our waters? I don't remember hearing anything about that...",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "There definitely isn't anything of the sort. What have our outposts been doing, letting such a large fleet sail through without notifying us?",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "I was told they'd be coming, but I didn't expect them to be here so soon.",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "What do you mean, Tallinn?",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "I'm talking about their beloved Commander, of course. It's been a while, hasn't it?",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "That makes sense. I was afraid that our greatest secret had been compromised.",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "However... I must say I'm impressed by how quickly and decisively they put together this operation.",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "I'm sure they suspect something. If the Iron Blood and Sakura Empire also got involved, we wouldn't be able to keep any secrets for long.",
 			typewriter = {
@@ -358,17 +358,17 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
-			bgName = "bg_cccpv2_12",
-			actorName = "Saratoga",
+			side = 1,
 			dir = 1,
 			bgmDelay = 1,
-			say = "Hello, my lovely friends of the Northern Parliament! Commander, I've missed you sooooo much~!",
+			bgName = "bg_cccpv2_12",
 			bgm = "bgm-cccp3",
+			actorName = "Saratoga",
+			say = "Hello, my lovely friends of the Northern Parliament! Commander, I've missed you sooooo much~!",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -393,8 +393,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Saratoga",
+			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -425,8 +425,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Saratoga",
+			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Washington",
+			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -473,8 +473,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kirov",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -489,8 +489,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kirov",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -505,8 +505,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kirov",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -521,11 +521,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Hornet",
+			side = 1,
 			bgName = "bg_cccpv2_12",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "No doubt the Northern Parliament found a reason to keep the Commander around longer...",
 			typewriter = {
 				speed = 0.05,
@@ -542,8 +542,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Kirov",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -558,8 +558,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "Sheffield",
+			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -574,11 +574,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Sovetskaya Belorussiya",
+			side = 2,
 			bgName = "bg_cccpv2_12",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Very well. What do you want to do, Comrade?",
 			typewriter = {
 				speed = 0.05,
@@ -595,8 +595,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			dir = 1,
 			say = "(What should I say...?)",
@@ -611,8 +611,8 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "\"I'll go with them.\"",
-					autochoice = 1
+					autochoice = 1,
+					content = "\"I'll go with them.\""
 				},
 				{
 					content = "\"I want to stay here.\"",
@@ -621,9 +621,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_12",
+			dir = 1,
 			say = "(Or so I'd like to say... But I don't think there's a way to keep this from turning ugly...)",
 			typewriter = {
 				speed = 0.05,
@@ -638,8 +638,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Oh my. Nobody told me that we'd have guests over.",
 			typewriter = {
@@ -673,8 +673,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Yes, and at the meeting, an urgent request for the Commander was brought up.",
 			typewriter = {
@@ -708,8 +708,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "After much deliberation, the Northern Parliament has agreed to transfer the Commander to the Eagle Union.",
 			typewriter = {
@@ -740,8 +740,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -753,8 +753,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Belorussiya, I will explain the details to you in full at a later time.",
 			typewriter = {
@@ -770,8 +770,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "Commander, thank you for everything you've done for the Northern Parliament. May we fight again side by side.",
 			typewriter = {
@@ -818,8 +818,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			say = "...Thank you. I won't forget my time here.",
@@ -833,8 +833,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			say = "Looking back upon their warm hospitality and the arduous battles we had overcome together, I felt a pang in my heart from having to leave my new friends. However, the Eagle Union needed me...",
@@ -848,12 +848,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "Commander, let's head back to port with the others!",
 			typewriter = {
 				speed = 0.05,

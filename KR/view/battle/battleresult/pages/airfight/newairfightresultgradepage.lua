@@ -1,6 +1,6 @@
 slot0 = class("NewAirFightResultGradePage", import("..NewBattleResultGradePage"))
 
-function slot0.LoadGrade(slot0, slot1)
+slot0.LoadGrade = function(slot0, slot1)
 	slot4 = ys.Battle.BattleConst.BattleScore.C < slot0.contextData.score
 	slot5, slot6, slot7 = nil
 	slot7 = ({
@@ -19,7 +19,7 @@ function slot0.LoadGrade(slot0, slot1)
 	end
 end
 
-function slot0.GetGetObjectives(slot0)
+slot0.GetGetObjectives = function(slot0)
 	slot1 = {}
 	slot2 = slot0.contextData.statistics._airFightStatistics
 

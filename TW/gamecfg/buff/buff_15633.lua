@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 15633,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 15633,
+	color = "red",
 	icon = 15630,
 	last_effect = "",
 	effect_list = {
@@ -48,8 +48,8 @@ return {
 				"onFoeAircraftDying"
 			},
 			arg_list = {
-				countTarget = 1,
 				killer = "child",
+				countTarget = 1,
 				countType = 15630
 			}
 		},

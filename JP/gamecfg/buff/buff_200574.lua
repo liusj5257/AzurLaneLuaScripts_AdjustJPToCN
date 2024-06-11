@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "克莱蒙梭剧情战 剧情结束",
 	time = 0,
+	name = "克莱蒙梭剧情战 剧情结束",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -17,8 +17,8 @@ return {
 			},
 			arg_list = {
 				group = 200573,
-				attr = "isInvincible",
-				number = 1
+				number = 1,
+				attr = "isInvincible"
 			}
 		},
 		{
@@ -65,8 +65,8 @@ return {
 			},
 			arg_list = {
 				group = 200573,
-				attr = "immuneMaxAreaLimit",
-				number = 1
+				number = 1,
+				attr = "immuneMaxAreaLimit"
 			}
 		},
 		{

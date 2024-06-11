@@ -1,28 +1,28 @@
 slot0 = class("LimitChallengeScene", import("..base.BaseUI"))
 slot1 = LimitChallengeConst
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LimitChallengeUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	uv0.SetRedPointMonth()
 	slot0:updateLeftTime()
 	slot0:updateToggleList()
 	slot0:trigeHigestUnlockLevel()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	slot0:closeView()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	if slot0.leftTimer then
 		slot0.leftTimer:Stop()
 
@@ -30,7 +30,7 @@ function slot0.willExit(slot0)
 	end
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.proxy = getProxy(LimitChallengeProxy)
 	slot0.levelList = {
 		1,
@@ -43,7 +43,7 @@ function slot0.initData(slot0)
 	slot0.curLevel = 0
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.blurPanel = slot0:findTF("blur_panel")
 	slot0.homeBtn = slot0:findTF("adapt/top/option", slot0.blurPanel)
 	slot0.backBtn = slot0:findTF("adapt/top/back_button", slot0.blurPanel)
@@ -83,7 +83,7 @@ function slot0.findUI(slot0)
 	slot0.debugText = slot0:findTF("Text", slot0.debugPanel)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.homeBtn, function ()
 		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_PANEL)
@@ -98,7 +98,7 @@ function slot0.addListener(slot0)
 		})
 	end, SFX_PANEL)
 
-	function slot4()
+	slot4 = function()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeChallenge)
 	end
 
@@ -162,7 +162,7 @@ function slot0.addListener(slot0)
 	end)
 end
 
-function slot0.updateDebug(slot0)
+slot0.updateDebug = function(slot0)
 	slot9 = tostring(uv0.GetChallengeIDByLevel(slot0.curLevel))
 	slot10 = tostring
 	slot5 = string.format([[
@@ -183,7 +183,7 @@ function slot0.updateDebug(slot0)
 	setText(slot0.debugText, slot5)
 end
 
-function slot0.updateToggleList(slot0)
+slot0.updateToggleList = function(slot0)
 	slot1 = slot0:getHigestUnlockLevel()
 
 	for slot5, slot6 in ipairs(slot0.levelToggleLockList) do
@@ -194,7 +194,7 @@ function slot0.updateToggleList(slot0)
 	end
 end
 
-function slot0.updateLeftTime(slot0)
+slot0.updateLeftTime = function(slot0)
 	if slot0.leftTimer then
 		slot0.leftTimer:Stop()
 
@@ -208,7 +208,7 @@ function slot0.updateLeftTime(slot0)
 			slot0.leftTimer = nil
 		end
 
-		function slot4()
+		slot4 = function()
 			if uv0 <= 0 and uv1.leftTimer then
 				uv1.leftTimer:Stop()
 
@@ -230,7 +230,7 @@ function slot0.updateLeftTime(slot0)
 	end
 end
 
-function slot0.updateBossImg(slot0)
+slot0.updateBossImg = function(slot0)
 	slot2 = pg.expedition_constellation_challenge_template[uv0.GetChallengeIDByLevel(slot0.curLevel)]
 	slot3 = slot2.painting
 	slot4 = slot2.information_icon
@@ -252,7 +252,7 @@ function slot0.updateBossImg(slot0)
 	end
 end
 
-function slot0.updateDescPanel(slot0)
+slot0.updateDescPanel = function(slot0)
 	slot0.descList = {}
 	slot0.descList = pg.expedition_constellation_challenge_template[uv0.GetChallengeIDByLevel(slot0.curLevel)].description
 
@@ -265,13 +265,13 @@ function slot0.updateDescPanel(slot0)
 	slot0.iconUIItemList:align(#slot0.descList)
 end
 
-function slot0.updatePassTime(slot0)
+slot0.updatePassTime = function(slot0)
 	slot2 = slot0.proxy:getPassTimeByChallengeID(LimitChallengeConst.GetChallengeIDByLevel(slot0.curLevel)) or 0
 
 	setText(slot0.passTimeValueText, string.format("%02d:%02d", math.floor(slot2 / 60), math.floor(slot2 % 60)))
 end
 
-function slot0.updateAward(slot0)
+slot0.updateAward = function(slot0)
 	slot1 = LimitChallengeConst.GetChallengeIDByLevel(slot0.curLevel)
 
 	setActive(slot0.awardGotTF, slot0.proxy:isAwardedByChallengeID(slot1))
@@ -293,18 +293,18 @@ function slot0.updateAward(slot0)
 	setActive(slot0.awardIconTF, false)
 end
 
-function slot0.trigeHigestUnlockLevel(slot0)
+slot0.trigeHigestUnlockLevel = function(slot0)
 	triggerToggle(slot0.levelToggleList[slot0:getHigestUnlockLevel()], true)
 end
 
-function slot0.onReqInfo(slot0)
+slot0.onReqInfo = function(slot0)
 	slot0:initData()
 	slot0:updateLeftTime()
 	slot0:updateToggleList()
 	slot0:trigeHigestUnlockLevel()
 end
 
-function slot0.getHigestUnlockLevel(slot0)
+slot0.getHigestUnlockLevel = function(slot0)
 	for slot5 = #slot0.levelList, 1, -1 do
 		if slot0.proxy:isLevelUnlock(slot0.levelList[slot5]) then
 			return slot6
@@ -312,7 +312,7 @@ function slot0.getHigestUnlockLevel(slot0)
 	end
 end
 
-function slot0.getBuffIconPath(slot0, slot1, slot2)
+slot0.getBuffIconPath = function(slot0, slot1, slot2)
 	slot4 = string.format("%s_%d", pg.expedition_constellation_challenge_template[slot1].painting, slot2)
 
 	return "limitchallenge/icon/" .. slot4, slot4

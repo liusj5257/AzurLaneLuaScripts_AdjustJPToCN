@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.activity_ryza_recipe = {
 	{
-		display = "An improved tool for gathering grass and flowers. It's been modified to make gathering easier, and reaps everything as quietly and lightly as the wind.",
 		rarity = 3,
+		display = "An improved tool for gathering grass and flowers. It's been modified to make gathering easier, and reaps everything as quietly and lightly as the wind.",
 		name = "Silent Sickle",
 		type = 3,
-		id = 1,
 		item_num = 1,
+		id = 1,
 		icon = "props/ryza_item_4",
 		item_id = {
 			1001,
@@ -26,12 +26,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "An improved tool for splitting firewood and cutting down trees for lumber. It's been modified for better balance and sharpness, making gathering easier than ever.",
 		rarity = 3,
+		display = "An improved tool for splitting firewood and cutting down trees for lumber. It's been modified for better balance and sharpness, making gathering easier than ever.",
 		name = "Golden Axe",
 		type = 3,
-		id = 2,
 		item_num = 1,
+		id = 2,
 		icon = "props/ryza_item_3",
 		item_id = {
 			1001,
@@ -52,12 +52,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "A stronger version of the Bomb Rod. The jewel at the tip is blue now, and it can destroy rocks and crystals more easily.",
 		rarity = 3,
+		display = "A stronger version of the Bomb Rod. The jewel at the tip is blue now, and it can destroy rocks and crystals more easily.",
 		name = "Blue Bomb Rod",
 		type = 3,
-		id = 3,
 		item_num = 1,
+		id = 3,
 		icon = "props/ryza_item_2",
 		item_id = {
 			1001,
@@ -78,12 +78,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "An improved Fishing Rod. Fish will no longer flee from it, and some will even be more attracted to it than usual.",
 		rarity = 3,
+		display = "An improved Fishing Rod. Fish will no longer flee from it, and some will even be more attracted to it than usual.",
 		name = "Divine Fishing Rod",
 		type = 3,
-		id = 4,
 		item_num = 1,
+		id = 4,
 		icon = "props/ryza_item_1",
 		item_id = {
 			1001,
@@ -105,12 +105,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	{
-		display = "A mechanical arm made by the Sirens. It has a crushing grip strength and an extremely powerful mining laser. It might be useful for gathering alchemy materials.",
 		rarity = 3,
+		display = "A mechanical arm made by the Sirens. It has a crushing grip strength and an extremely powerful mining laser. It might be useful for gathering alchemy materials.",
 		name = "Laser Cutter",
 		type = 3,
-		id = 5,
 		item_num = 1,
+		id = 5,
 		icon = "props/ryza_item_5",
 		item_id = {
 			1001,
@@ -128,12 +128,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[10] = {
-		display = "An Augment Module for Reisalin Stout. A constantly glowing staff. It continues to give off a bright, dazzling light even if you don't do anything. It's said that its light makes the hearts of everyone it shines on brighter.",
 		rarity = 4,
+		display = "An Augment Module for Reisalin Stout. A constantly glowing staff. It continues to give off a bright, dazzling light even if you don't do anything. It's said that its light makes the hearts of everyone it shines on brighter.",
 		name = "Sparkling Reverie",
 		type = 1,
-		id = 10,
 		item_num = 1,
+		id = 10,
 		icon = "equips/10360",
 		item_id = {
 			21,
@@ -154,12 +154,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[20] = {
-		display = "An Augment Module for Klaudia Valentz. This bow is named for the way the arrows it releases shine like stars in the dark. It must be awful seeing someone aim this at you in the darkness...",
 		rarity = 4,
+		display = "An Augment Module for Klaudia Valentz. This bow is named for the way the arrows it releases shine like stars in the dark. It must be awful seeing someone aim this at you in the darkness...",
 		name = "Astrumnox",
 		type = 1,
-		id = 20,
 		item_num = 1,
+		id = 20,
 		icon = "equips/10380",
 		item_id = {
 			21,
@@ -180,12 +180,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[30] = {
-		display = "An Augment Module for Patricia Abelheim. A sentient sword that chooses its own wielder. If a warrior doesn't have a proud soul, they'll never be able to use it no matter how skilled they might be.",
 		rarity = 4,
+		display = "An Augment Module for Patricia Abelheim. A sentient sword that chooses its own wielder. If a warrior doesn't have a proud soul, they'll never be able to use it no matter how skilled they might be.",
 		name = "Edel Schwert",
 		type = 1,
-		id = 30,
 		item_num = 1,
+		id = 30,
 		icon = "equips/10400",
 		item_id = {
 			21,
@@ -207,12 +207,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[40] = {
-		display = "An Augment Module for Lila Decyrus. A legendary weapon once wielded by warriors of the Oren race. It's said that simply equipping it grants you the strength of nature spirits in your surroundings.",
 		rarity = 4,
+		display = "An Augment Module for Lila Decyrus. A legendary weapon once wielded by warriors of the Oren race. It's said that simply equipping it grants you the strength of nature spirits in your surroundings.",
 		name = "Oren Herald",
 		type = 1,
-		id = 40,
 		item_num = 1,
+		id = 40,
 		icon = "equips/10420",
 		item_id = {
 			21,
@@ -236,12 +236,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[50] = {
-		display = "An Augment Module for Serri Glaus. This band was once worn by someone known as the Flower Sage. Apparently, this person was always surrounded by flowers, and flowers will bloom wherever the wearer walks.",
 		rarity = 4,
+		display = "An Augment Module for Serri Glaus. This band was once worn by someone known as the Flower Sage. Apparently, this person was always surrounded by flowers, and flowers will bloom wherever the wearer walks.",
 		name = "Grand Floracion",
 		type = 1,
-		id = 50,
 		item_num = 1,
+		id = 50,
 		icon = "equips/10440",
 		item_id = {
 			21,
@@ -263,12 +263,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[60] = {
-		display = "An Augment Module for Kala Ideas. A war hammer with an unusual shape. The opposite side of the flat part is just stylish.",
 		rarity = 4,
+		display = "An Augment Module for Kala Ideas. A war hammer with an unusual shape. The opposite side of the flat part is just stylish.",
 		name = "Elder Lily",
 		type = 1,
-		id = 60,
 		item_num = 1,
+		id = 60,
 		icon = "equips/10460",
 		item_id = {
 			21,
@@ -292,12 +292,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[70] = {
-		display = "An incredibly powerful explosive with fire affinity. Deals damage to the enemy.",
 		rarity = 4,
+		display = "An incredibly powerful explosive with fire affinity. Deals damage to the enemy.",
 		name = "Grand Bomb",
 		type = 1,
-		id = 70,
 		item_num = 1,
+		id = 70,
 		icon = "equips/89420",
 		item_id = {
 			3,
@@ -322,12 +322,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[80] = {
-		display = "An incredibly powerful explosive with ice affinity. Deals damage to the enemy.",
 		rarity = 4,
+		display = "An incredibly powerful explosive with ice affinity. Deals damage to the enemy.",
 		name = "Crystal Ice Bomb",
 		type = 1,
-		id = 80,
 		item_num = 1,
+		id = 80,
 		icon = "equips/89440",
 		item_id = {
 			3,
@@ -352,12 +352,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[90] = {
-		display = "An incredibly powerful explosive with lightning affinity. Deals damage to the enemy.",
 		rarity = 4,
+		display = "An incredibly powerful explosive with lightning affinity. Deals damage to the enemy.",
 		name = "Laute Plajig",
 		type = 1,
-		id = 90,
 		item_num = 1,
+		id = 90,
 		icon = "equips/89460",
 		item_id = {
 			3,
@@ -382,12 +382,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[100] = {
-		display = "An incredibly powerful explosive with wind affinity. Deals damage to the enemy.",
 		rarity = 4,
+		display = "An incredibly powerful explosive with wind affinity. Deals damage to the enemy.",
 		name = "Wirbel Luft",
 		type = 1,
-		id = 100,
 		item_num = 1,
+		id = 100,
 		icon = "equips/89480",
 		item_id = {
 			3,
@@ -411,12 +411,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[110] = {
-		display = "A hammer that has the power to shake the earth with a single powerful strike. It got its name due to the fact that when the earth shakes and the air trembles, it reminds people of the creation of the world.",
 		rarity = 4,
+		display = "A hammer that has the power to shake the earth with a single powerful strike. It got its name due to the fact that when the earth shakes and the air trembles, it reminds people of the creation of the world.",
 		name = "Genesis Hammer",
 		type = 1,
-		id = 110,
 		item_num = 1,
+		id = 110,
 		icon = "equips/89580",
 		item_id = {
 			3,
@@ -442,12 +442,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[120] = {
-		display = "A bullet that does not require a gun barrel. When you release it toward the target, it will fly around in the sky and then go in a straight line to the target, exploding on impact.",
 		rarity = 4,
+		display = "A bullet that does not require a gun barrel. When you release it toward the target, it will fly around in the sky and then go in a straight line to the target, exploding on impact.",
 		name = "Bubble Bullet",
 		type = 1,
-		id = 120,
 		item_num = 1,
+		id = 120,
 		icon = "equips/89600",
 		item_id = {
 			3,
@@ -476,12 +476,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[130] = {
-		display = "An incredibly powerful explosive. Can lower the enemy's defense.",
 		rarity = 4,
+		display = "An incredibly powerful explosive. Can lower the enemy's defense.",
 		name = "N/A",
 		type = 1,
-		id = 130,
 		item_num = 1,
+		id = 130,
 		icon = "equips/89560",
 		item_id = {
 			3,
@@ -507,12 +507,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[140] = {
-		display = "An incredibly powerful item. Can lower the enemy's stats, but using it consumes HP.",
 		rarity = 4,
+		display = "An incredibly powerful item. Can lower the enemy's stats, but using it consumes HP.",
 		name = "Apocalypse",
 		type = 1,
-		id = 140,
 		item_num = 1,
+		id = 140,
 		icon = "equips/89540",
 		item_id = {
 			3,
@@ -546,12 +546,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[150] = {
-		display = "A thin cloth with a mystical pattern. Spread it over yourself to protect against all kinds of attacks.",
 		rarity = 4,
+		display = "A thin cloth with a mystical pattern. Spread it over yourself to protect against all kinds of attacks.",
 		name = "Mystic Robe",
 		type = 1,
-		id = 150,
 		item_num = 1,
+		id = 150,
 		icon = "equips/89520",
 		item_id = {
 			3,
@@ -583,12 +583,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[160] = {
-		display = "A powerful medicine said to heal all illness and injuries, and even revive the dead. It's one of alchemy's greatest creations, and only a handful of alchemists are skilled enough to make it.",
 		rarity = 4,
+		display = "A powerful medicine said to heal all illness and injuries, and even revive the dead. It's one of alchemy's greatest creations, and only a handful of alchemists are skilled enough to make it.",
 		name = "Elixir",
 		type = 1,
-		id = 160,
 		item_num = 1,
+		id = 160,
 		icon = "equips/89500",
 		item_id = {
 			3,
@@ -618,12 +618,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[170] = {
-		display = "A harmonica that will convey your feelings and thoughts through its sound. It provides various enhancements both to the one who plays it and to those who hear it.",
 		rarity = 4,
+		display = "A harmonica that will convey your feelings and thoughts through its sound. It provides various enhancements both to the one who plays it and to those who hear it.",
 		name = "Energianica",
 		type = 1,
-		id = 170,
 		item_num = 1,
+		id = 170,
 		icon = "equips/89620",
 		item_id = {
 			3,
@@ -643,12 +643,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[180] = {
-		display = "Contains a random Alchemist's Workshop-themed gear skin.",
 		rarity = 4,
+		display = "Contains a random Alchemist's Workshop-themed gear skin.",
 		name = "Random Gear Skin Box (Atelier Ryza)",
 		type = 2,
-		id = 180,
 		item_num = 10,
+		id = 180,
 		icon = "props/appearanceboxlaisha",
 		item_id = {
 			2,
@@ -674,12 +674,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[190] = {
-		display = "An item resembling a keycard, made from combining the other four keys. It should slot into the device by the barrier's door at the Central Foundation.",
 		rarity = 3,
+		display = "An item resembling a keycard, made from combining the other four keys. It should slot into the device by the barrier's door at the Central Foundation.",
 		name = "Central Foundation Key",
 		type = 2,
-		id = 190,
 		item_num = 1,
+		id = 190,
 		icon = "props/ryza_item_31",
 		item_id = {
 			1001,
@@ -694,12 +694,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[200] = {
-		display = "A sculpture made from materials gathered among the ruins, commemorating the glorious adventure you've had. Obtained from the collab event The Alchemist and the Archipelago of Secrets.\n \"...Yup, this is also a barrel! \"",
 		rarity = 4,
+		display = "A sculpture made from materials gathered among the ruins, commemorating the glorious adventure you've had. Obtained from the collab event The Alchemist and the Archipelago of Secrets.\n \"...Yup, this is also a barrel! \"",
 		name = "Ruins Explorer Sculpture",
 		type = 2,
-		id = 200,
 		item_num = 1,
+		id = 200,
 		icon = "furnitureicon/chuanmo/lianjinxunzhangicon",
 		item_id = {
 			5,
@@ -727,12 +727,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[210] = {
-		display = "A small bottle containing elemental power. It has an affinity with all elements, which is useful but also makes it difficult to work with.",
 		rarity = 2,
+		display = "A small bottle containing elemental power. It has an affinity with all elements, which is useful but also makes it difficult to work with.",
 		name = "Spirit Bottle",
 		type = 4,
-		id = 210,
 		item_num = -1,
+		id = 210,
 		icon = "props/ryza_item_21",
 		item_id = {
 			1001,
@@ -745,12 +745,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[220] = {
-		display = "A common alchemic compound. A red liquid with fire affinity.",
 		rarity = 3,
+		display = "A common alchemic compound. A red liquid with fire affinity.",
 		name = "Red Neutralizer",
 		type = 4,
-		id = 220,
 		item_num = -1,
+		id = 220,
 		icon = "props/ryza_item_22",
 		item_id = {
 			1001,
@@ -764,12 +764,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[230] = {
-		display = "A common alchemic compound. A blue liquid with ice affinity.",
 		rarity = 3,
+		display = "A common alchemic compound. A blue liquid with ice affinity.",
 		name = "Blue Neutralizer",
 		type = 4,
-		id = 230,
 		item_num = -1,
+		id = 230,
 		icon = "props/ryza_item_23",
 		item_id = {
 			1001,
@@ -783,12 +783,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[240] = {
-		display = "A common alchemic compound. A yellow liquid with lightning affinity.",
 		rarity = 3,
+		display = "A common alchemic compound. A yellow liquid with lightning affinity.",
 		name = "Yellow Neutralizer",
 		type = 4,
-		id = 240,
 		item_num = -1,
+		id = 240,
 		icon = "props/ryza_item_25",
 		item_id = {
 			1001,
@@ -802,12 +802,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[250] = {
-		display = "A common alchemic compound. A green liquid with wind affinity.",
 		rarity = 3,
+		display = "A common alchemic compound. A green liquid with wind affinity.",
 		name = "Green Neutralizer",
 		type = 4,
-		id = 250,
 		item_num = -1,
+		id = 250,
 		icon = "props/ryza_item_24",
 		item_id = {
 			1001,
@@ -821,12 +821,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[260] = {
-		display = "An advanced material created from the four Elemental Cores. Since it has high affinity with all elements, it's extremely useful in alchemy.",
 		rarity = 4,
+		display = "An advanced material created from the four Elemental Cores. Since it has high affinity with all elements, it's extremely useful in alchemy.",
 		name = "Crystal Element",
 		type = 4,
-		id = 260,
 		item_num = -1,
+		id = 260,
 		icon = "props/ryza_item_26",
 		item_id = {
 			1001,
@@ -841,12 +841,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[270] = {
-		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: increases the FP, AVI, and TRP of your ships.",
 		rarity = 4,
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: increases the FP, AVI, and TRP of your ships.",
 		name = "Offense Boost Core",
 		type = 2,
-		id = 270,
 		item_num = 2,
+		id = 270,
 		icon = "props/ryza_item_34",
 		item_id = {
 			1001,
@@ -865,12 +865,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[280] = {
-		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: reduces the DMG taken by your ships.",
 		rarity = 4,
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: reduces the DMG taken by your ships.",
 		name = "Defense Boost Core",
 		type = 2,
-		id = 280,
 		item_num = 3,
+		id = 280,
 		icon = "props/ryza_item_35",
 		item_id = {
 			1001,
@@ -889,12 +889,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[290] = {
-		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: in combat, your ships slowly restore HP over time.",
 		rarity = 4,
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: in combat, your ships slowly restore HP over time.",
 		name = "Regeneration Core",
 		type = 2,
-		id = 290,
 		item_num = 3,
+		id = 290,
 		icon = "props/ryza_item_36",
 		item_id = {
 			1001,
@@ -913,12 +913,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[300] = {
-		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: once per battle, when one of your ship's HP falls beneath 20.0%, she will regain a portion of her HP.",
 		rarity = 4,
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: once per battle, when one of your ship's HP falls beneath 20.0%, she will regain a portion of her HP.",
 		name = "Damage Control Core",
 		type = 2,
-		id = 300,
 		item_num = 3,
+		id = 300,
 		icon = "props/ryza_item_37",
 		item_id = {
 			1001,
@@ -937,12 +937,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[310] = {
-		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that Burn enemies hit.",
 		rarity = 4,
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that Burn enemies hit.",
 		name = "Covering Fire Core",
 		type = 2,
-		id = 310,
 		item_num = 3,
+		id = 310,
 		icon = "props/ryza_item_38",
 		item_id = {
 			1001,
@@ -961,12 +961,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[320] = {
-		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that will temporarily increase the DMG taken by enemies hit.",
 		rarity = 4,
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive supporting barrages during combat that will temporarily increase the DMG taken by enemies hit.",
 		name = "Anti-Armor Volley Core",
 		type = 2,
-		id = 320,
 		item_num = 3,
+		id = 320,
 		icon = "props/ryza_item_39",
 		item_id = {
 			1001,
@@ -985,12 +985,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[330] = {
-		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive additional EXP from sorties.",
 		rarity = 4,
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will receive additional EXP from sorties.",
 		name = "Experience Boost Core",
 		type = 2,
-		id = 330,
 		item_num = 3,
+		id = 330,
 		icon = "props/ryza_item_40",
 		item_id = {
 			1001,
@@ -1009,12 +1009,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[340] = {
-		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will gain additional Affinity from sorties.",
 		rarity = 4,
+		display = "Can be added to the Core Nexus in The Alchemist and the Archipelago of Secrets, granting the following effect in corresponding event stages: your fleets will gain additional Affinity from sorties.",
 		name = "Affinity Boost Core",
 		type = 2,
-		id = 340,
 		item_num = 1,
+		id = 340,
 		icon = "props/ryza_item_41",
 		item_id = {
 			1001,
@@ -1033,12 +1033,12 @@ pg.activity_ryza_recipe = {
 		}
 	},
 	[350] = {
-		display = "Resource used to craft, upgrade and convert Augment Modules.",
 		rarity = 3,
+		display = "Resource used to craft, upgrade and convert Augment Modules.",
 		name = "Augment Module Stone T2",
 		type = 2,
-		id = 350,
 		item_num = 100,
+		id = 350,
 		icon = "props/15016",
 		item_id = {
 			2,

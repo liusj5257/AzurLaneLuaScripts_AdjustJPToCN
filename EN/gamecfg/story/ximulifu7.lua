@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIMULIFU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIMULIFU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"A Prayer for Peace\n\n<size=45>Chapter 7 - Fireworks</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			dir = 1,
 			say = "Port - Empty Field",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -112,15 +112,15 @@ return {
 			}
 		},
 		{
-			say = "Outside the Banquet Hall",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bsm-5",
+			say = "Outside the Banquet Hall",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -145,13 +145,13 @@ return {
 			}
 		},
 		{
-			actor = 199021,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Now that... is a nice sight.",
 			soundeffect = "event:/battle/firework",
+			actor = 199021,
+			nameColor = "#a9f548",
+			say = "Now that... is a nice sight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,13 +178,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_115",
+			side = 2,
+			dir = 1,
 			say = "Port - Banquet Hall",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -209,13 +209,13 @@ return {
 			}
 		},
 		{
-			actor = 301152,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Look outside the windows - the fireworks are starting!",
 			soundeffect = "event:/battle/firework",
+			actor = 301152,
+			nameColor = "#a9f548",
+			say = "Look outside the windows - the fireworks are starting!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,16 +258,16 @@ return {
 			}
 		},
 		{
-			actor = 205051,
-			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
-			say = "Hehe... Akashi really outdid herself this time.",
 			soundeffect = "event:/battle/firework",
+			actor = 205051,
+			nameColor = "#a9f548",
+			say = "Hehe... Akashi really outdid herself this time.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -327,8 +327,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "... ...",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 205051,
 			dir = 1,
+			actor = 205051,
 			nameColor = "#a9f548",
 			say = "Peace, huh...",
 			typewriter = {
@@ -377,8 +377,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "How cliché.",
 			typewriter = {
@@ -391,13 +391,13 @@ return {
 			}
 		},
 		{
-			actor = 408041,
 			side = 2,
 			bgName = "star_level_bg_115",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Lord Bismarck! I also believe that such a day will come!",
 			soundeffect = "event:/battle/firework",
+			actor = 408041,
+			nameColor = "#a9f548",
+			say = "Lord Bismarck! I also believe that such a day will come!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,8 +427,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 408041,
 			dir = 1,
+			actor = 408041,
 			nameColor = "#a9f548",
 			say = "Mmhmm! Everything's so delicious, I've been stuffing myself! I also ran into some familiar faces from the Royal Navy!",
 			typewriter = {
@@ -444,8 +444,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 405011,
 			dir = 1,
+			actor = 405011,
 			nameColor = "#a9f548",
 			say = "Lasting peace... with everyone else, huh?",
 			typewriter = {
@@ -461,8 +461,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			actor = 205051,
 			dir = 1,
+			actor = 205051,
 			nameColor = "#a9f548",
 			say = "There's nothing to be afraid of. We're all friends here, fighting under the same banner. You're not alone anymore.",
 			typewriter = {
@@ -491,12 +491,12 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/firework",
+			say = "I pray that one day... we will all be able to enjoy that peace together.",
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			blackBg = true,
-			say = "I pray that one day... we will all be able to enjoy that peace together.",
+			soundeffect = "event:/battle/firework",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

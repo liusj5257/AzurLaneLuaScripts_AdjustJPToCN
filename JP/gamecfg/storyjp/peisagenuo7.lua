@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "PEISAGENUO7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "PEISAGENUO7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"あなたと共に見る風景\n\n<size=45>七 あなたといる景色、これからも</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
-			stopbgm = true,
 			bgmDelay = 1,
-			say = "数日後、エマの「改まった」誘いに乗り…",
 			bgm = "story-richang-8",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "数日後、エマの「改まった」誘いに乗り…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -48,8 +48,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
 			say = "彼女と一緒に、再び山の頂上に登った。",
@@ -59,12 +59,12 @@ return {
 			}
 		},
 		{
-			actor = 601090,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ちょっと待ってて…望遠鏡はまだ微調整が必要で…",
 			painting = {
 				alpha = 0.3,
@@ -76,8 +76,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
 			say = "エマは一心不乱に目視しては、またレンズ越しで望遠鏡の細かい調整に勤しむ。時々メモ帳に何かを書き込んでいるようだ。",
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
 			say = "今も望遠鏡越しで遠くの景色を眺めるのが好きな彼女。しかし……",
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
 			say = "身近にあるものにもちゃんと目を向けるようになった。",
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
 			say = "そしてその目に映る風景のすべてを、彼女なりの方法で…一生懸命伝えてくれる。",
@@ -123,10 +123,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…うん。調整完了",
 			painting = {
 				alpha = 0.3,
@@ -141,10 +141,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…指揮官？嬉しそう…何かいいことでもあったの？",
 			painting = {
 				alpha = 0.3,
@@ -185,13 +185,13 @@ return {
 			}
 		},
 		{
-			actor = 601090,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 601090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "え、ええと…ありが…とう？",
 			painting = {
 				alpha = 0.3,
@@ -241,8 +241,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
 			say = "大きな決意を固めたように、エマは大きく息を吸って、そして――",
@@ -252,8 +252,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
 			say = "自分の背後に回り、設置した望遠鏡のほうへとそっと背中を押した。",
@@ -263,12 +263,12 @@ return {
 			}
 		},
 		{
-			actor = 601090,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "遠くの先を見つめるのは大事だが、身近にあるものもおろそかにしない",
 			painting = {
 				alpha = 0.3,
@@ -280,12 +280,12 @@ return {
 			}
 		},
 		{
-			actor = 601090,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官、そう気づかせてくれてありがとう",
 			painting = {
 				alpha = 0.3,
@@ -300,10 +300,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今まで見落としてきた、美しい風景の数々を見ることができたのは指揮官のおかげ",
 			painting = {
 				alpha = 0.3,
@@ -318,10 +318,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "その恩返し…ではないけど",
 			painting = {
 				alpha = 0.3,
@@ -336,10 +336,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ずっと見せたかった、とっておきの景色を準備したよ",
 			painting = {
 				alpha = 0.3,
@@ -351,12 +351,12 @@ return {
 			}
 		},
 		{
-			actor = 601090,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 601090,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…それと…ええと……",
 			painting = {
 				alpha = 0.3,
@@ -371,10 +371,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官が眺めている間に、同じ風景がわたしにとってどう映っているかも――",
 			painting = {
 				alpha = 0.3,
@@ -389,10 +389,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "耳元で囁いて、説明してあげる…///",
 			painting = {
 				alpha = 0.3,
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
 			say = "エマはそっと身を預けてきた。",
@@ -418,10 +418,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 601090,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "うん。遠い先の景色も、そばにいる「景色」も、一緒に楽しもう――",
 			painting = {
 				alpha = 0.3,

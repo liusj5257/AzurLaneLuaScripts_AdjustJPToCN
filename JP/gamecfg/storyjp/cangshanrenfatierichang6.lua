@@ -1,13 +1,13 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "CANGSHANRENFATIERICHANG6",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "CANGSHANRENFATIERICHANG6",
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"蒼閃忍法帖-日常\n\n<size=45>状況開始！その一</size>",
@@ -16,12 +16,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
+			hidePaintEquip = true,
 			bgm = "sk-az-story",
 			say = "母港・訓練海域・外",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,11 +31,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "暁ちゃん―――！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,11 +49,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000010,
 			nameColor = "#A9F548FF",
 			say = "鍛錬を兼ねてあそこの岩山を登ってみようと思うんだけど、一緒に行ってみない？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,13 +64,13 @@ return {
 			}
 		},
 		{
-			actor = 301090,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "はい、飛鳥さん！是非お供させてほしいでござる！！",
 			hidePaintEquip = true,
+			actor = 301090,
+			nameColor = "#A9F548FF",
+			say = "はい、飛鳥さん！是非お供させてほしいでござる！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,11 +84,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 301110,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 301110,
 			nameColor = "#A9F548FF",
 			say = "なるほどね！これが「らんだむいべんと」ってやつね！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,13 +99,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 301120,
-			side = 2,
-			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "クリアすると友好度が大量に入手できそうですね",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,13 +116,13 @@ return {
 			}
 		},
 		{
-			actor = 301100,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "まーた二人が訳のわからないことを～。にしてもここまでノリのいい暁ちゃんは中々見ないね～",
 			hidePaintEquip = true,
+			actor = 301100,
+			nameColor = "#A9F548FF",
+			say = "まーた二人が訳のわからないことを～。にしてもここまでノリのいい暁ちゃんは中々見ないね～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,9 +137,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			side = 2,
+			hidePaintEquip = true,
 			actor = 11000020,
 			say = "元気すぎるというのも考えものですね…少しは身体を休め、整えるということを覚えた方がいいです",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,11 +149,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 319010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 319010,
 			nameColor = "#A9F548FF",
 			say = "みなさーん！差し入れの牛乳を持ってきましたー！",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,11 +167,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 319010,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 319010,
 			nameColor = "#A9F548FF",
 			say = "あれ？そういえば紫さんは…？焔さんたちとは一緒じゃないんですか？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,11 +185,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000030,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000030,
 			nameColor = "#A9F548FF",
 			say = "あー…もしかしたら部屋にまた引きこもっていないか？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,27 +200,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
+			hidePaintEquip = true,
 			bgName = "star_level_bg_106",
 			say = "母港・訓練海域の臨時キャンプ――のその裏。",
-			hidePaintEquip = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -231,11 +231,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "ううう、失敗…失敗しました…楽しそうな声に誘われて…外に出てきたのは大失敗でした……",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,11 +249,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "やっぱり暗く、静かなところで一人ゆっくり過ごす方が、心安らかにいられる……",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,13 +264,13 @@ return {
 			}
 		},
 		{
-			actor = 402040,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 402040,
+			nameColor = "#A9F548FF",
 			say = "ダメ…日の光が強すぎて…もう、倒れそう…です……",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,13 +281,13 @@ return {
 			}
 		},
 		{
-			actor = 402040,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "キャンプまで…もう少しだから…頑張らないと…さかなきゅん、私を励まして……",
 			hidePaintEquip = true,
+			actor = 402040,
+			nameColor = "#A9F548FF",
+			say = "キャンプまで…もう少しだから…頑張らないと…さかなきゅん、私を励まして……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,11 +301,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "……",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,13 +316,13 @@ return {
 			}
 		},
 		{
-			actor = 402040,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……",
 			hidePaintEquip = true,
+			actor = 402040,
+			nameColor = "#A9F548FF",
+			say = "……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,12 +336,12 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "star_level_bg_106",
-			hideOther = true,
-			dir = 1,
-			actorName = "紫&ライプツィヒ",
-			hidePaintEquip = true,
 			actor = 11000060,
+			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintEquip = true,
+			hideOther = true,
+			actorName = "紫&ライプツィヒ",
 			say = "あ、あの…… あなたは……",
 			subActors = {
 				{
@@ -359,13 +359,13 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "きゃ！",
 			hidePaintEquip = true,
+			actor = 301210,
+			nameColor = "#A9F548FF",
+			say = "きゃ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,14 +376,14 @@ return {
 			}
 		},
 		{
-			hideOther = true,
+			nameColor = "#A9F548FF",
 			side = 0,
 			bgName = "star_level_bg_106",
-			actorName = "紫&ライプツィヒ",
+			actor = 11000060,
 			dir = 1,
 			hidePaintEquip = true,
-			actor = 11000060,
-			nameColor = "#A9F548FF",
+			hideOther = true,
+			actorName = "紫&ライプツィヒ",
 			say = "え！？ ひゃぅ！？",
 			subActors = {
 				{
@@ -401,13 +401,13 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "あ…す、すみません…こ、この時間なら…誰もいないと…思って……",
 			hidePaintEquip = true,
+			actor = 301210,
+			nameColor = "#A9F548FF",
+			say = "あ…す、すみません…こ、この時間なら…誰もいないと…思って……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,13 +418,13 @@ return {
 			}
 		},
 		{
-			actor = 301210,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "す、すぐに…いなくなりますから…あの、ちょっとだけ…ううう……",
 			hidePaintEquip = true,
+			actor = 301210,
+			nameColor = "#A9F548FF",
+			say = "す、すぐに…いなくなりますから…あの、ちょっとだけ…ううう……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,15 +447,15 @@ return {
 			}
 		},
 		{
-			actor = 11000060,
+			say = "きゃぁぁぁぁぁぁぁ！！！！！",
 			side = 2,
 			bgName = "star_level_bg_106",
-			actorName = "三人",
-			dir = 1,
-			hidePaintEquip = true,
 			hideOther = true,
+			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "きゃぁぁぁぁぁぁぁ！！！！！",
+			hidePaintEquip = true,
+			actor = 11000060,
+			actorName = "三人",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -525,11 +525,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "え？あの…ごめんなさい。勝手に入って……。私…気がつかなくて……",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,13 +540,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 301210,
-			side = 2,
-			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "す、すぐに…いなくなりますから…ほ、ほんとに…すぐに……",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,13 +557,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 105170,
-			side = 2,
-			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "ん？なんなのこの集まり？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,14 +574,14 @@ return {
 			}
 		},
 		{
-			actor = 11000060,
+			say = "ぎにゃぁぁぁぁぁぁぁぁぁぁぁぁ！！！！！！",
 			side = 2,
 			bgName = "star_level_bg_106",
-			hidePaintEquip = true,
-			dir = 1,
 			nameColor = "#A9F548FF",
+			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000060,
 			actorName = "四人",
-			say = "ぎにゃぁぁぁぁぁぁぁぁぁぁぁぁ！！！！！！",
 			actorPosition = {
 				x = -750,
 				y = 0
@@ -616,13 +616,13 @@ return {
 			}
 		},
 		{
-			actor = 105170,
-			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
+			side = 2,
 			dir = 1,
-			say = "ええと、つまるところ紫がみんなと一緒に演習をやってみたかったけど、でも中々顔を出せずにいた",
 			hidePaintEquip = true,
+			actor = 105170,
+			nameColor = "#A9F548FF",
+			say = "ええと、つまるところ紫がみんなと一緒に演習をやってみたかったけど、でも中々顔を出せずにいた",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -632,17 +632,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -653,11 +653,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 105170,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 105170,
 			nameColor = "#A9F548FF",
 			say = "それで同じように参加しそこねた子たちが一箇所に集まった…ってわけね",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -671,11 +671,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 11000060,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 11000060,
 			nameColor = "#A9F548FF",
 			say = "そんなことは…ない…はず…です。約束してたとか…そういうのは…別に……",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,13 +686,13 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 105170,
+			nameColor = "#A9F548FF",
 			say = "じゃあ人の多い場所が苦手…とか？",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,13 +703,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "star_level_bg_106",
+			dir = 1,
+			hidePaintEquip = true,
 			actor = 11000060,
-			side = 2,
-			bgName = "star_level_bg_106",
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "はい……",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,13 +720,13 @@ return {
 			}
 		},
 		{
-			actor = 105170,
 			side = 2,
 			bgName = "star_level_bg_106",
-			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "なるほど……「人が多い」のが苦手か……",
 			hidePaintEquip = true,
+			actor = 105170,
+			nameColor = "#A9F548FF",
+			say = "なるほど……「人が多い」のが苦手か……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,11 +740,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_106",
-			actor = 105170,
 			dir = 1,
+			hidePaintEquip = true,
+			actor = 105170,
 			nameColor = "#A9F548FF",
 			say = "ふふっ、いいこと思いついちゃった♪",
-			hidePaintEquip = true,
 			painting = {
 				alpha = 0.3,
 				time = 1

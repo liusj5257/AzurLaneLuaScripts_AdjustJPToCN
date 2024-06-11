@@ -1,18 +1,18 @@
 return {
-	id = "WORLD504D",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD504D",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-4",
 			actor = 204030,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "지휘관님, 폐하, 주변 지역의 세이렌 함대와 시설 정리 완료했습니다.",
-			bgm = "battle-boss-4",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			actor = 207050,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "세이렌 편대는 잠시 저항했지만, 하늘에서 나 같은 위력을 가진 공격을 받으니, 함대보다 오래 버티지 못했어.",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			actor = 207010,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "플랫폼에서 비행하는 약점은—— 플랫폼이 사라지면 날아오를 수 없다는 게 약점이니까~",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 			actor = 206060,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "다음 지역으로 계속 이동할 테니 여러분들의 순조로운 작전이 있기를 기원할게요.",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "방금은 이글과 퍼시어스...? 로열은 극지 항로의 함대도 부른 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -189,8 +189,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

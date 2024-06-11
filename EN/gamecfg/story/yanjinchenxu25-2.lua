@@ -7,11 +7,11 @@ return {
 			expression = 1,
 			side = 2,
 			nameColor = "#A9F548FF",
-			actor = 805010,
 			dir = 1,
+			bgm = "battle-whaling-normal",
+			actor = 805010,
 			stopbgm = true,
 			say = "Implacable, War is coming towards us.",
-			bgm = "battle-whaling-normal",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -40,8 +40,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "Looks like there's no signs of damage on it either. This won't be an easy fight.",
 			painting = {
 				alpha = 0.3,
@@ -91,8 +91,8 @@ return {
 			expression = 5,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "If you don't start pulling your weight, maybe you'll lose a limb or two as well.",
 			painting = {
 				alpha = 0.3,
@@ -122,8 +122,8 @@ return {
 			expression = 4,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "As I said, I'm not gonna charge up there head-first, as that's not my style.",
 			painting = {
 				alpha = 0.3,
@@ -138,8 +138,8 @@ return {
 			expression = 1,
 			nameColor = "#ffa500",
 			side = 2,
-			actor = 900353,
 			dir = 1,
+			actor = 900353,
 			say = "You guys can run up there and butt heads all you want, but I'm gonna look for weaknesses to exploit.",
 			painting = {
 				alpha = 0.3,
@@ -166,8 +166,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.4,
 					dur = 1,
 					x = -2500
@@ -177,9 +177,9 @@ return {
 		{
 			expression = 4,
 			side = 2,
+			dir = 1,
 			actor = 207070,
 			nameColor = "#A9F548FF",
-			dir = 1,
 			say = "Cheeky little... Why is she like this?",
 			painting = {
 				alpha = 0.3,
@@ -199,8 +199,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			say = "Calm down, Implacable. She doesn't trust us to not use her as cannon fodder, which is sensible.",
 			painting = {
 				alpha = 0.3,
@@ -230,8 +230,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "Ugh... Everyone, attack it head-on!",
 			painting = {
 				alpha = 0.3,
@@ -246,8 +246,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 207070,
 			dir = 1,
+			actor = 207070,
 			say = "Her Majesty's graces are with us! Show that Horseman our might!",
 			painting = {
 				alpha = 0.3,

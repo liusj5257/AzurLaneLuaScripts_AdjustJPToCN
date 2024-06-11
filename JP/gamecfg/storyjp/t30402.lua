@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1,
 	mode = 2,
-	fadeType = 1,
-	once = true,
 	id = "T30402",
+	once = true,
+	fadeType = 1,
 	scripts = {
 		{
-			nameColor = "#ff0000",
 			side = 2,
-			actorName = "{namecode:94}",
+			mode = 2,
+			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
 			bgm = "story-5",
 			actor = 307040,
-			mode = 2,
+			actorName = "{namecode:94}",
 			say = "ぼくの全てをかけて、この一撃で…！！",
 			shake = {
 				speed = 1,
@@ -29,19 +29,19 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			mode = 2,
 			side = 0,
-			withoutPainting = true,
+			say = "きゃああ！",
 			bgspeed = 2,
 			blackBg = true,
 			soundeffect = "event:/battle/boom2",
 			actor = 107050,
-			mode = 2,
-			say = "きゃああ！",
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			flash = {
+				wait = 0.2,
 				delay = 0.3,
 				dur = 0.5,
-				wait = 0.2,
 				number = 1,
 				alpha = {
 					0,
@@ -54,17 +54,17 @@ return {
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			mode = 2,
 			actorShadow = true,
-			side = 0,
-			actor = 107060,
+			nameColor = "#a9f548",
+			hideOther = true,
 			dir = -1,
 			blackBg = true,
+			side = 0,
+			say = "姉さん！",
+			actor = 107060,
 			actorName = "エンタープライズ＆ホーネット",
 			withoutPainting = true,
-			hideOther = true,
-			mode = 2,
-			say = "姉さん！",
 			subActors = {
 				{
 					actor = 107070,
@@ -79,14 +79,14 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
-			hideOther = true,
-			nameColor = "#ff0000",
+			actorName = "{namecode:94}",
+			actor = 307040,
 			dir = -1,
 			blackBg = true,
-			actor = 307040,
-			actorName = "{namecode:94}",
+			mode = 2,
+			hideOther = true,
+			nameColor = "#ff0000",
 			say = "あのお方のために…一矢報いてやったよ…！",
 			shake = {
 				speed = 1,
@@ -104,12 +104,12 @@ return {
 		{
 			fadeOut = 2,
 			side = 2,
+			actorName = "{namecode:94}",
 			mode = 2,
-			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
 			actor = 307040,
-			actorName = "{namecode:94}",
+			nameColor = "#ff0000",
 			say = "ぼくはこれで満足…よ！",
 			shake = {
 				speed = 1,
@@ -125,14 +125,14 @@ return {
 			}
 		},
 		{
-			actor = 107050,
 			mode = 3,
-			bgName = "bg_story_10",
 			side = 0,
-			nameColor = "#a9f548",
-			blackBg = true,
-			withoutPainting = true,
+			bgName = "bg_story_10",
+			actor = 107050,
 			say = "…悲しむことなんてないわ、私たちは勝利したのよ…",
+			blackBg = true,
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			effects = {
 				{
 					active = true,
@@ -149,9 +149,9 @@ return {
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			withoutPainting = true,
-			blackBg = true,
 			say = "あなたたちはきっと謳われる艦になるわ。",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,9 +162,9 @@ return {
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			withoutPainting = true,
-			blackBg = true,
 			say = "この戦争も直にに終わる…その時人間は手を取り合い、この海を…",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,9 +175,9 @@ return {
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			withoutPainting = true,
-			blackBg = true,
 			say = "私たちは人類の理想のために生み出されたものよ。こうなるのも本望だわ…",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,9 +188,9 @@ return {
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			withoutPainting = true,
-			blackBg = true,
 			say = "違う！…こんなこと…",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,9 +201,9 @@ return {
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			withoutPainting = true,
-			blackBg = true,
 			say = "そろそろお別れね…",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,24 +214,24 @@ return {
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			withoutPainting = true,
-			blackBg = true,
 			say = "あなたたちが子供からエースになったのを見守れたのは、私の誇り…",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#a9f548",
+			mode = 3,
 			side = 0,
 			bgName = "bg_story_11",
-			withoutPainting = true,
+			actor = 107050,
 			bgspeed = 2,
 			blackBg = true,
-			actor = 107050,
-			mode = 3,
 			say = "最後に…この子を連れて行って。",
+			nameColor = "#a9f548",
+			withoutPainting = true,
 			effects = {
 				{
 					active = true,
@@ -248,9 +248,9 @@ return {
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			withoutPainting = true,
-			blackBg = true,
 			say = "この子と一緒に、自由の意志を世界に……",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,20 +261,20 @@ return {
 			mode = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			withoutPainting = true,
-			blackBg = true,
 			say = "あなた達なら、きっと出来るわ…",
+			blackBg = true,
+			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			bgFade = true,
 			mode = 3,
 			blankScreen = 1.5,
-			blackBg = true,
 			fadein = 1.5,
+			blackBg = true,
+			bgFade = true,
 			effects = {
 				{
 					active = false,
@@ -283,17 +283,17 @@ return {
 			}
 		},
 		{
-			actor = 307040,
 			side = 2,
-			actorName = "？？？",
-			nameColor = "#ff0000",
-			dir = -1,
-			blackBg = true,
-			withoutPainting = true,
-			fadein = 1.5,
 			hideOther = true,
 			mode = 2,
+			dir = -1,
+			blackBg = true,
 			say = "これでまた、魂が…",
+			fadein = 1.5,
+			actor = 307040,
+			actorName = "？？？",
+			nameColor = "#ff0000",
+			withoutPainting = true,
 			shake = {
 				speed = 1,
 				number = 3
@@ -308,15 +308,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#ff0000",
 			side = 2,
-			actorName = "？？？",
-			withoutPainting = true,
-			dir = -1,
-			blackBg = true,
-			actor = 307040,
 			mode = 2,
 			say = "あなたも見たのか。この輝きを。",
+			dir = -1,
+			blackBg = true,
+			nameColor = "#ff0000",
+			actor = 307040,
+			actorName = "？？？",
+			withoutPainting = true,
 			shake = {
 				speed = 1,
 				number = 3
@@ -331,15 +331,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#ff0000",
 			side = 2,
-			actorName = "？？？",
-			withoutPainting = true,
-			dir = -1,
-			blackBg = true,
-			actor = 307040,
 			mode = 2,
 			say = "「こんな『進化』、なんて悲しいことか！」",
+			dir = -1,
+			blackBg = true,
+			nameColor = "#ff0000",
+			actor = 307040,
+			actorName = "？？？",
+			withoutPainting = true,
 			shake = {
 				speed = 1,
 				number = 3
@@ -354,15 +354,15 @@ return {
 			}
 		},
 		{
-			mode = 2,
 			side = 2,
-			actorName = "？？？",
-			withoutPainting = true,
-			dir = -1,
-			blackBg = true,
-			actor = 307040,
 			nameColor = "#ff0000",
 			say = "「計画」も、そろそろ次のステップに入らないと、ね…",
+			dir = -1,
+			blackBg = true,
+			mode = 2,
+			actor = 307040,
+			actorName = "？？？",
+			withoutPainting = true,
 			shake = {
 				speed = 1,
 				number = 999
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			sequenceSpd = 1,
+			mode = 1,
 			sequence = {
 				{
 					" ",

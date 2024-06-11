@@ -6,19 +6,19 @@ slot1 = {
 	i18n("guild_word_ordinary")
 }
 
-function slot0.IsAdministrator(slot0)
+slot0.IsAdministrator = function(slot0)
 	return slot0 == GuildConst.DUTY_COMMANDER or slot0 == GuildConst.DUTY_DEPUTY_COMMANDER
 end
 
-function slot0.isCommander(slot0)
+slot0.isCommander = function(slot0)
 	return slot0 == GuildConst.DUTY_COMMANDER
 end
 
-function slot0.dutyId2Name(slot0)
+slot0.dutyId2Name = function(slot0)
 	return uv0[slot0]
 end
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.liveness = slot1.liveness or 0
@@ -36,15 +36,15 @@ function slot0.Ctor(slot0, slot1)
 	end
 end
 
-function slot0.GetLiveness(slot0)
+slot0.GetLiveness = function(slot0)
 	return slot0.liveness
 end
 
-function slot0.IsRecruit(slot0)
+slot0.IsRecruit = function(slot0)
 	return slot0.duty == GuildConst.DUTY_RECRUIT
 end
 
-function slot0.AddLiveness(slot0, slot1)
+slot0.AddLiveness = function(slot0, slot1)
 	print("add member liveness", slot1)
 
 	slot0.liveness = slot0.liveness + slot1
@@ -54,35 +54,35 @@ function slot0.AddLiveness(slot0, slot1)
 	end
 end
 
-function slot0.CanUpgradeDuty(slot0)
+slot0.CanUpgradeDuty = function(slot0)
 	return slot0.duty == GuildConst.DUTY_RECRUIT and pg.guildset.guild_active_become_regular.key_value <= slot0.liveness
 end
 
-function slot0.UpdateExternalAssaultFleet(slot0, slot1)
+slot0.UpdateExternalAssaultFleet = function(slot0, slot1)
 	slot0.externalAssaultFleet = slot1
 end
 
-function slot0.GetExternalAssaultFleet(slot0)
+slot0.GetExternalAssaultFleet = function(slot0)
 	return slot0.externalAssaultFleet
 end
 
-function slot0.UpdateAssaultFleet(slot0, slot1)
+slot0.UpdateAssaultFleet = function(slot0, slot1)
 	slot0.assaultFleet = slot1
 end
 
-function slot0.GetAssaultFleet(slot0)
+slot0.GetAssaultFleet = function(slot0)
 	return slot0.assaultFleet
 end
 
-function slot0.UpdateAssaultFleetShips(slot0, slot1, slot2)
+slot0.UpdateAssaultFleetShips = function(slot0, slot1, slot2)
 	slot0.assaultFleet:InitShips(slot1, slot2)
 end
 
-function slot0.UpdateExternalAssaultFleetShips(slot0, slot1, slot2)
+slot0.UpdateExternalAssaultFleetShips = function(slot0, slot1, slot2)
 	slot0.externalAssaultFleet:InitShips(slot1, slot2)
 end
 
-function slot0.isNewMember(slot0)
+slot0.isNewMember = function(slot0)
 	slot2 = pg.TimeMgr.GetInstance():GetServerTime()
 
 	if slot0.joinTime ~= 0 and slot1:IsSameDay(slot2, slot0.joinTime) then
@@ -92,27 +92,27 @@ function slot0.isNewMember(slot0)
 	return false
 end
 
-function slot0.setDuty(slot0, slot1)
+slot0.setDuty = function(slot0, slot1)
 	slot0.duty = slot1
 end
 
-function slot0.GetDuty(slot0)
+slot0.GetDuty = function(slot0)
 	return slot0.duty
 end
 
-function slot0.IsCommander(slot0)
+slot0.IsCommander = function(slot0)
 	return slot0.duty == GuildConst.DUTY_COMMANDER
 end
 
-function slot0.isLongOffLine(slot0)
+slot0.isLongOffLine = function(slot0)
 	return pg.TimeMgr.GetInstance():GetServerTime() - slot0.preOnLineTime > 864000
 end
 
-function slot0.setDamage(slot0, slot1)
+slot0.setDamage = function(slot0, slot1)
 	slot0.damage = slot1
 end
 
-function slot0.getDamage(slot0)
+slot0.getDamage = function(slot0)
 	if slot0.damage then
 		return slot0.damage
 	end
@@ -120,7 +120,7 @@ function slot0.getDamage(slot0)
 	return 0
 end
 
-function slot0.GetShip(slot0)
+slot0.GetShip = function(slot0)
 	return Ship.New({
 		configId = slot0.icon,
 		skin_id = slot0.skinId,
@@ -128,7 +128,7 @@ function slot0.GetShip(slot0)
 	})
 end
 
-function slot0.GetJoinZeroTime(slot0)
+slot0.GetJoinZeroTime = function(slot0)
 	return pg.TimeMgr:GetInstance():GetNextTimeByTimeStamp(slot0.joinTime)
 end
 

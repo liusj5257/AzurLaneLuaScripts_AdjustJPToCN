@@ -1,11 +1,11 @@
 pg = pg or {}
 pg.child_event_special = {
 	[101] = {
-		type = 1,
-		result = 2,
 		child_attr2 = 0,
-		id = 101,
+		type = 1,
 		main_desc = "",
+		result = 2,
+		id = 101,
 		show = 0,
 		date = {
 			{
@@ -29,11 +29,11 @@ pg.child_event_special = {
 		}
 	},
 	[102] = {
-		type = 1,
-		result = 3,
 		child_attr2 = 0,
-		id = 102,
+		type = 1,
 		main_desc = "",
+		result = 3,
+		id = 102,
 		show = 0,
 		date = {
 			{
@@ -57,11 +57,11 @@ pg.child_event_special = {
 		}
 	},
 	[103] = {
-		type = 1,
-		result = 4,
 		child_attr2 = 0,
-		id = 103,
+		type = 1,
 		main_desc = "",
+		result = 4,
+		id = 103,
 		show = 0,
 		date = {
 			{
@@ -85,11 +85,11 @@ pg.child_event_special = {
 		}
 	},
 	[104] = {
-		type = 1,
-		result = 5,
 		child_attr2 = 0,
-		id = 104,
+		type = 1,
 		main_desc = "수족관",
+		result = 5,
+		id = 104,
 		show = 0,
 		date = {
 			{
@@ -113,11 +113,11 @@ pg.child_event_special = {
 		}
 	},
 	[106] = {
-		type = 1,
-		result = 7,
 		child_attr2 = 0,
-		id = 106,
+		type = 1,
 		main_desc = "참관일",
+		result = 7,
+		id = 106,
 		show = 1,
 		date = {
 			{
@@ -141,11 +141,11 @@ pg.child_event_special = {
 		}
 	},
 	[108] = {
-		type = 1,
-		result = 8,
 		child_attr2 = 0,
-		id = 108,
+		type = 1,
 		main_desc = "운동회",
+		result = 8,
+		id = 108,
 		show = 1,
 		date = {
 			{
@@ -169,11 +169,11 @@ pg.child_event_special = {
 		}
 	},
 	[109] = {
-		type = 1,
-		result = 9,
 		child_attr2 = 0,
-		id = 109,
+		type = 1,
 		main_desc = "수학여행",
+		result = 9,
+		id = 109,
 		show = 1,
 		date = {
 			{
@@ -197,11 +197,11 @@ pg.child_event_special = {
 		}
 	},
 	[110] = {
-		type = 1,
-		result = 10,
 		child_attr2 = 0,
-		id = 110,
+		type = 1,
 		main_desc = "여름 축제",
+		result = 10,
+		id = 110,
 		show = 1,
 		date = {
 			{
@@ -225,11 +225,11 @@ pg.child_event_special = {
 		}
 	},
 	[111] = {
-		type = 1,
-		result = 11,
 		child_attr2 = 0,
-		id = 111,
+		type = 1,
 		main_desc = "캠프 전 준비",
+		result = 11,
+		id = 111,
 		show = 1,
 		date = {
 			{
@@ -253,11 +253,11 @@ pg.child_event_special = {
 		}
 	},
 	[112] = {
-		type = 1,
-		result = 12,
 		child_attr2 = 0,
-		id = 112,
+		type = 1,
 		main_desc = "시험 복습",
+		result = 12,
+		id = 112,
 		show = 1,
 		date = {
 			{
@@ -281,11 +281,11 @@ pg.child_event_special = {
 		}
 	},
 	[114] = {
-		type = 1,
-		result = 13,
 		child_attr2 = 201,
-		id = 114,
+		type = 1,
 		main_desc = "유원지 나들이",
+		result = 13,
+		id = 114,
 		show = 1,
 		date = {
 			{
@@ -309,11 +309,11 @@ pg.child_event_special = {
 		}
 	},
 	[115] = {
-		type = 1,
-		result = 14,
 		child_attr2 = 203,
-		id = 115,
+		type = 1,
 		main_desc = "유원지 나들이",
+		result = 14,
+		id = 115,
 		show = 1,
 		date = {
 			{
@@ -337,11 +337,11 @@ pg.child_event_special = {
 		}
 	},
 	[116] = {
-		type = 1,
-		result = 15,
 		child_attr2 = 202,
-		id = 116,
+		type = 1,
 		main_desc = "유원지 나들이",
+		result = 15,
+		id = 116,
 		show = 1,
 		date = {
 			{
@@ -365,11 +365,11 @@ pg.child_event_special = {
 		}
 	},
 	[118] = {
-		type = 1,
-		result = 16,
 		child_attr2 = 201,
-		id = 118,
+		type = 1,
 		main_desc = "크리스마스",
+		result = 16,
+		id = 118,
 		show = 1,
 		date = {
 			{
@@ -393,11 +393,11 @@ pg.child_event_special = {
 		}
 	},
 	[119] = {
-		type = 1,
-		result = 17,
 		child_attr2 = 203,
-		id = 119,
+		type = 1,
 		main_desc = "크리스마스",
+		result = 17,
+		id = 119,
 		show = 1,
 		date = {
 			{
@@ -421,11 +421,11 @@ pg.child_event_special = {
 		}
 	},
 	[120] = {
-		type = 1,
-		result = 18,
 		child_attr2 = 202,
-		id = 120,
+		type = 1,
 		main_desc = "크리스마스",
+		result = 18,
+		id = 120,
 		show = 1,
 		date = {
 			{
@@ -449,11 +449,11 @@ pg.child_event_special = {
 		}
 	},
 	[121] = {
-		type = 1,
-		result = 19,
 		child_attr2 = 201,
-		id = 121,
+		type = 1,
 		main_desc = "온천 여행",
+		result = 19,
+		id = 121,
 		show = 1,
 		date = {
 			{
@@ -477,11 +477,11 @@ pg.child_event_special = {
 		}
 	},
 	[122] = {
-		type = 1,
-		result = 20,
 		child_attr2 = 203,
-		id = 122,
+		type = 1,
 		main_desc = "온천 여행",
+		result = 20,
+		id = 122,
 		show = 1,
 		date = {
 			{
@@ -505,11 +505,11 @@ pg.child_event_special = {
 		}
 	},
 	[123] = {
-		type = 1,
-		result = 21,
 		child_attr2 = 202,
-		id = 123,
+		type = 1,
 		main_desc = "온천 여행",
+		result = 21,
+		id = 123,
 		show = 1,
 		date = {
 			{
@@ -533,11 +533,11 @@ pg.child_event_special = {
 		}
 	},
 	[124] = {
-		type = 1,
-		result = 22,
 		child_attr2 = 201,
-		id = 124,
+		type = 1,
 		main_desc = "졸업 파티",
+		result = 22,
+		id = 124,
 		show = 1,
 		date = {
 			{
@@ -561,11 +561,11 @@ pg.child_event_special = {
 		}
 	},
 	[125] = {
-		type = 1,
-		result = 23,
 		child_attr2 = 203,
-		id = 125,
+		type = 1,
 		main_desc = "졸업 파티",
+		result = 23,
+		id = 125,
 		show = 1,
 		date = {
 			{
@@ -589,11 +589,11 @@ pg.child_event_special = {
 		}
 	},
 	[126] = {
-		type = 1,
-		result = 24,
 		child_attr2 = 202,
-		id = 126,
+		type = 1,
 		main_desc = "졸업 파티",
+		result = 24,
+		id = 126,
 		show = 1,
 		date = {
 			{
@@ -617,12 +617,12 @@ pg.child_event_special = {
 		}
 	},
 	[127] = {
-		type = 3,
-		result = 1001,
-		id = 127,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 127,
 		show = 0,
 		date = {
 			{
@@ -641,12 +641,12 @@ pg.child_event_special = {
 		}
 	},
 	[128] = {
-		type = 3,
-		result = 1001,
-		id = 128,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 128,
 		show = 0,
 		date = {
 			{
@@ -665,12 +665,12 @@ pg.child_event_special = {
 		}
 	},
 	[129] = {
-		type = 3,
-		result = 1001,
-		id = 129,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 129,
 		show = 0,
 		date = {
 			{
@@ -689,12 +689,12 @@ pg.child_event_special = {
 		}
 	},
 	[130] = {
-		type = 3,
-		result = 1001,
-		id = 130,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 130,
 		show = 0,
 		date = {
 			{
@@ -713,12 +713,12 @@ pg.child_event_special = {
 		}
 	},
 	[131] = {
-		type = 3,
-		result = 1001,
-		id = 131,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 131,
 		show = 0,
 		date = {
 			{
@@ -737,12 +737,12 @@ pg.child_event_special = {
 		}
 	},
 	[132] = {
-		type = 3,
-		result = 1001,
-		id = 132,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 132,
 		show = 0,
 		date = {
 			{
@@ -761,12 +761,12 @@ pg.child_event_special = {
 		}
 	},
 	[133] = {
-		type = 3,
-		result = 1001,
-		id = 133,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 133,
 		show = 0,
 		date = {
 			{
@@ -785,12 +785,12 @@ pg.child_event_special = {
 		}
 	},
 	[134] = {
-		type = 3,
-		result = 1001,
-		id = 134,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 134,
 		show = 0,
 		date = {
 			{
@@ -809,12 +809,12 @@ pg.child_event_special = {
 		}
 	},
 	[135] = {
-		type = 3,
-		result = 1001,
-		id = 135,
 		child_attr2 = 201,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 135,
 		show = 0,
 		date = {
 			{
@@ -833,12 +833,12 @@ pg.child_event_special = {
 		}
 	},
 	[136] = {
-		type = 3,
-		result = 1001,
-		id = 136,
 		child_attr2 = 203,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 136,
 		show = 0,
 		date = {
 			{
@@ -857,12 +857,12 @@ pg.child_event_special = {
 		}
 	},
 	[137] = {
-		type = 3,
-		result = 1001,
-		id = 137,
 		child_attr2 = 202,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 137,
 		show = 0,
 		date = {
 			{
@@ -881,12 +881,12 @@ pg.child_event_special = {
 		}
 	},
 	[138] = {
-		type = 3,
-		result = 1001,
-		id = 138,
 		child_attr2 = 201,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 138,
 		show = 0,
 		date = {
 			{
@@ -905,12 +905,12 @@ pg.child_event_special = {
 		}
 	},
 	[139] = {
-		type = 3,
-		result = 1001,
-		id = 139,
 		child_attr2 = 203,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 139,
 		show = 0,
 		date = {
 			{
@@ -929,12 +929,12 @@ pg.child_event_special = {
 		}
 	},
 	[140] = {
-		type = 3,
-		result = 1001,
-		id = 140,
 		child_attr2 = 202,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 140,
 		show = 0,
 		date = {
 			{
@@ -953,12 +953,12 @@ pg.child_event_special = {
 		}
 	},
 	[141] = {
-		type = 3,
-		result = 1001,
-		id = 141,
 		child_attr2 = 201,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 141,
 		show = 0,
 		date = {
 			{
@@ -977,12 +977,12 @@ pg.child_event_special = {
 		}
 	},
 	[142] = {
-		type = 3,
-		result = 1001,
-		id = 142,
 		child_attr2 = 203,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 142,
 		show = 0,
 		date = {
 			{
@@ -1001,12 +1001,12 @@ pg.child_event_special = {
 		}
 	},
 	[143] = {
-		type = 3,
-		result = 1001,
-		id = 143,
 		child_attr2 = 202,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 143,
 		show = 0,
 		date = {
 			{
@@ -1025,12 +1025,12 @@ pg.child_event_special = {
 		}
 	},
 	[144] = {
-		type = 3,
-		result = 1001,
-		id = 144,
 		child_attr2 = 201,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 144,
 		show = 0,
 		date = {
 			{
@@ -1049,12 +1049,12 @@ pg.child_event_special = {
 		}
 	},
 	[145] = {
-		type = 3,
-		result = 1001,
-		id = 145,
 		child_attr2 = 203,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 145,
 		show = 0,
 		date = {
 			{
@@ -1073,12 +1073,12 @@ pg.child_event_special = {
 		}
 	},
 	[146] = {
-		type = 3,
-		result = 1001,
-		id = 146,
 		child_attr2 = 202,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 146,
 		show = 0,
 		date = {
 			{
@@ -1097,12 +1097,12 @@ pg.child_event_special = {
 		}
 	},
 	[147] = {
-		type = 3,
-		result = 1001,
-		id = 147,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 147,
 		show = 0,
 		date = {
 			{
@@ -1121,12 +1121,12 @@ pg.child_event_special = {
 		}
 	},
 	[148] = {
-		type = 3,
-		result = 1001,
-		id = 148,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 148,
 		show = 0,
 		date = {
 			{
@@ -1145,12 +1145,12 @@ pg.child_event_special = {
 		}
 	},
 	[149] = {
-		type = 3,
-		result = 1001,
-		id = 149,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 149,
 		show = 0,
 		date = {
 			{
@@ -1169,12 +1169,12 @@ pg.child_event_special = {
 		}
 	},
 	[150] = {
-		type = 3,
-		result = 1001,
-		id = 150,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 150,
 		show = 0,
 		date = {
 			{
@@ -1193,12 +1193,12 @@ pg.child_event_special = {
 		}
 	},
 	[151] = {
-		type = 3,
-		result = 1001,
-		id = 151,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 151,
 		show = 0,
 		date = {
 			{
@@ -1217,12 +1217,12 @@ pg.child_event_special = {
 		}
 	},
 	[152] = {
-		type = 3,
-		result = 1001,
-		id = 152,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 152,
 		show = 0,
 		date = {
 			{
@@ -1241,12 +1241,12 @@ pg.child_event_special = {
 		}
 	},
 	[153] = {
-		type = 3,
-		result = 1001,
-		id = 153,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 153,
 		show = 0,
 		date = {
 			{
@@ -1265,12 +1265,12 @@ pg.child_event_special = {
 		}
 	},
 	[154] = {
-		type = 3,
-		result = 1001,
-		id = 154,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 154,
 		show = 0,
 		date = {
 			{
@@ -1289,12 +1289,12 @@ pg.child_event_special = {
 		}
 	},
 	[155] = {
-		type = 3,
-		result = 1001,
-		id = 155,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 155,
 		show = 0,
 		date = {
 			{
@@ -1313,12 +1313,12 @@ pg.child_event_special = {
 		}
 	},
 	[156] = {
-		type = 3,
-		result = 1001,
-		id = 156,
 		child_attr2 = 0,
+		type = 3,
 		type_param = "",
 		main_desc = "",
+		result = 1001,
+		id = 156,
 		show = 0,
 		date = {
 			{
@@ -1337,11 +1337,11 @@ pg.child_event_special = {
 		}
 	},
 	[1101] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1101,
+		type = 2,
 		main_desc = "제1회 요리 대회",
+		result = 0,
+		id = 1101,
 		show = 2,
 		date = {
 			{
@@ -1364,11 +1364,11 @@ pg.child_event_special = {
 		}
 	},
 	[1102] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1102,
+		type = 2,
 		main_desc = "제2회 요리 대회",
+		result = 0,
+		id = 1102,
 		show = 2,
 		date = {
 			{
@@ -1391,11 +1391,11 @@ pg.child_event_special = {
 		}
 	},
 	[1103] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1103,
+		type = 2,
 		main_desc = "제3회 요리 대회",
+		result = 0,
+		id = 1103,
 		show = 2,
 		date = {
 			{
@@ -1418,11 +1418,11 @@ pg.child_event_special = {
 		}
 	},
 	[1104] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1104,
+		type = 2,
 		main_desc = "맛집 거리 페스티벌",
+		result = 0,
+		id = 1104,
 		show = 2,
 		date = {
 			{
@@ -1444,11 +1444,11 @@ pg.child_event_special = {
 		}
 	},
 	[1105] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1105,
+		type = 2,
 		main_desc = "맛집 거리 페스티벌",
+		result = 0,
+		id = 1105,
 		show = 2,
 		date = {
 			{
@@ -1470,11 +1470,11 @@ pg.child_event_special = {
 		}
 	},
 	[1106] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1106,
+		type = 2,
 		main_desc = "맛집 거리 페스티벌",
+		result = 0,
+		id = 1106,
 		show = 2,
 		date = {
 			{
@@ -1496,11 +1496,11 @@ pg.child_event_special = {
 		}
 	},
 	[1107] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1107,
+		type = 2,
 		main_desc = "맛집 거리 페스티벌",
+		result = 0,
+		id = 1107,
 		show = 2,
 		date = {
 			{
@@ -1522,11 +1522,11 @@ pg.child_event_special = {
 		}
 	},
 	[1201] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1201,
+		type = 2,
 		main_desc = "제1회 낚시 대회",
+		result = 0,
+		id = 1201,
 		show = 2,
 		date = {
 			{
@@ -1549,11 +1549,11 @@ pg.child_event_special = {
 		}
 	},
 	[1202] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1202,
+		type = 2,
 		main_desc = "제2회 낚시 대회",
+		result = 0,
+		id = 1202,
 		show = 2,
 		date = {
 			{
@@ -1576,11 +1576,11 @@ pg.child_event_special = {
 		}
 	},
 	[1203] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1203,
+		type = 2,
 		main_desc = "제3회 낚시 대회",
+		result = 0,
+		id = 1203,
 		show = 2,
 		date = {
 			{
@@ -1603,11 +1603,11 @@ pg.child_event_special = {
 		}
 	},
 	[1301] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1301,
+		type = 2,
 		main_desc = "제1회 사진 콘테스트 ",
+		result = 0,
+		id = 1301,
 		show = 2,
 		date = {
 			{
@@ -1630,11 +1630,11 @@ pg.child_event_special = {
 		}
 	},
 	[1302] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1302,
+		type = 2,
 		main_desc = "상점가 버스킹",
+		result = 0,
+		id = 1302,
 		show = 2,
 		date = {
 			{
@@ -1656,11 +1656,11 @@ pg.child_event_special = {
 		}
 	},
 	[1303] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1303,
+		type = 2,
 		main_desc = "제2회 사진 콘테스트 ",
+		result = 0,
+		id = 1303,
 		show = 2,
 		date = {
 			{
@@ -1683,11 +1683,11 @@ pg.child_event_special = {
 		}
 	},
 	[1304] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1304,
+		type = 2,
 		main_desc = "제3회 사진 콘테스트 ",
+		result = 0,
+		id = 1304,
 		show = 2,
 		date = {
 			{
@@ -1710,11 +1710,11 @@ pg.child_event_special = {
 		}
 	},
 	[1305] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1305,
+		type = 2,
 		main_desc = "상점가 버스킹",
+		result = 0,
+		id = 1305,
 		show = 2,
 		date = {
 			{
@@ -1736,11 +1736,11 @@ pg.child_event_special = {
 		}
 	},
 	[1306] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1306,
+		type = 2,
 		main_desc = "상점가 버스킹",
+		result = 0,
+		id = 1306,
 		show = 2,
 		date = {
 			{
@@ -1762,11 +1762,11 @@ pg.child_event_special = {
 		}
 	},
 	[1307] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1307,
+		type = 2,
 		main_desc = "상점가 버스킹",
+		result = 0,
+		id = 1307,
 		show = 2,
 		date = {
 			{
@@ -1788,11 +1788,11 @@ pg.child_event_special = {
 		}
 	},
 	[1401] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1401,
+		type = 2,
 		main_desc = "제1회 내일의 스타상",
+		result = 0,
+		id = 1401,
 		show = 2,
 		date = {
 			{
@@ -1815,11 +1815,11 @@ pg.child_event_special = {
 		}
 	},
 	[1402] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1402,
+		type = 2,
 		main_desc = "제2회 내일의 스타상",
+		result = 0,
+		id = 1402,
 		show = 2,
 		date = {
 			{
@@ -1842,11 +1842,11 @@ pg.child_event_special = {
 		}
 	},
 	[1403] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1403,
+		type = 2,
 		main_desc = "제3회 내일의 스타상",
+		result = 0,
+		id = 1403,
 		show = 2,
 		date = {
 			{
@@ -1869,11 +1869,11 @@ pg.child_event_special = {
 		}
 	},
 	[1601] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1601,
+		type = 2,
 		main_desc = "제1회 대운동회",
+		result = 0,
+		id = 1601,
 		show = 2,
 		date = {
 			{
@@ -1896,11 +1896,11 @@ pg.child_event_special = {
 		}
 	},
 	[1602] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1602,
+		type = 2,
 		main_desc = "제2회 대운동회",
+		result = 0,
+		id = 1602,
 		show = 2,
 		date = {
 			{
@@ -1923,11 +1923,11 @@ pg.child_event_special = {
 		}
 	},
 	[1603] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1603,
+		type = 2,
 		main_desc = "제3회 대운동회",
+		result = 0,
+		id = 1603,
 		show = 2,
 		date = {
 			{
@@ -1950,11 +1950,11 @@ pg.child_event_special = {
 		}
 	},
 	[1604] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1604,
+		type = 2,
 		main_desc = "시합 개최 중",
+		result = 0,
+		id = 1604,
 		show = 2,
 		date = {
 			{
@@ -1976,11 +1976,11 @@ pg.child_event_special = {
 		}
 	},
 	[1605] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1605,
+		type = 2,
 		main_desc = "시합 개최 중",
+		result = 0,
+		id = 1605,
 		show = 2,
 		date = {
 			{
@@ -2002,11 +2002,11 @@ pg.child_event_special = {
 		}
 	},
 	[1606] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1606,
+		type = 2,
 		main_desc = "시합 개최 중",
+		result = 0,
+		id = 1606,
 		show = 2,
 		date = {
 			{
@@ -2028,11 +2028,11 @@ pg.child_event_special = {
 		}
 	},
 	[1607] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1607,
+		type = 2,
 		main_desc = "시합 개최 중",
+		result = 0,
+		id = 1607,
 		show = 2,
 		date = {
 			{
@@ -2054,11 +2054,11 @@ pg.child_event_special = {
 		}
 	},
 	[1701] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1701,
+		type = 2,
 		main_desc = "제1회 공모 문학상 ",
+		result = 0,
+		id = 1701,
 		show = 2,
 		date = {
 			{
@@ -2081,11 +2081,11 @@ pg.child_event_special = {
 		}
 	},
 	[1702] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1702,
+		type = 2,
 		main_desc = "제1회 그림 콘테스트 ",
+		result = 0,
+		id = 1702,
 		show = 2,
 		date = {
 			{
@@ -2108,11 +2108,11 @@ pg.child_event_special = {
 		}
 	},
 	[1703] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1703,
+		type = 2,
 		main_desc = "제1회 노래자랑",
+		result = 0,
+		id = 1703,
 		show = 2,
 		date = {
 			{
@@ -2135,11 +2135,11 @@ pg.child_event_special = {
 		}
 	},
 	[1704] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1704,
+		type = 2,
 		main_desc = "도서관 작문 강좌",
+		result = 0,
+		id = 1704,
 		show = 2,
 		date = {
 			{
@@ -2161,11 +2161,11 @@ pg.child_event_special = {
 		}
 	},
 	[1705] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1705,
+		type = 2,
 		main_desc = "미술실 그림 강좌",
+		result = 0,
+		id = 1705,
 		show = 2,
 		date = {
 			{
@@ -2187,11 +2187,11 @@ pg.child_event_special = {
 		}
 	},
 	[1706] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1706,
+		type = 2,
 		main_desc = "음악실 노래 강좌",
+		result = 0,
+		id = 1706,
 		show = 2,
 		date = {
 			{
@@ -2213,11 +2213,11 @@ pg.child_event_special = {
 		}
 	},
 	[1707] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1707,
+		type = 2,
 		main_desc = "제2회 공모 문학상 ",
+		result = 0,
+		id = 1707,
 		show = 2,
 		date = {
 			{
@@ -2240,11 +2240,11 @@ pg.child_event_special = {
 		}
 	},
 	[1708] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1708,
+		type = 2,
 		main_desc = "제3회 공모 문학상 ",
+		result = 0,
+		id = 1708,
 		show = 2,
 		date = {
 			{
@@ -2267,11 +2267,11 @@ pg.child_event_special = {
 		}
 	},
 	[1709] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1709,
+		type = 2,
 		main_desc = "제2회 그림 콘테스트",
+		result = 0,
+		id = 1709,
 		show = 2,
 		date = {
 			{
@@ -2294,11 +2294,11 @@ pg.child_event_special = {
 		}
 	},
 	[1710] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1710,
+		type = 2,
 		main_desc = "제3회 그림 콘테스트",
+		result = 0,
+		id = 1710,
 		show = 2,
 		date = {
 			{
@@ -2321,11 +2321,11 @@ pg.child_event_special = {
 		}
 	},
 	[1711] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1711,
+		type = 2,
 		main_desc = "제2회 노래자랑",
+		result = 0,
+		id = 1711,
 		show = 2,
 		date = {
 			{
@@ -2348,11 +2348,11 @@ pg.child_event_special = {
 		}
 	},
 	[1712] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1712,
+		type = 2,
 		main_desc = "제3회 노래자랑",
+		result = 0,
+		id = 1712,
 		show = 2,
 		date = {
 			{
@@ -2375,11 +2375,11 @@ pg.child_event_special = {
 		}
 	},
 	[1713] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1713,
+		type = 2,
 		main_desc = "도서관 작문 강좌",
+		result = 0,
+		id = 1713,
 		show = 2,
 		date = {
 			{
@@ -2401,11 +2401,11 @@ pg.child_event_special = {
 		}
 	},
 	[1714] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1714,
+		type = 2,
 		main_desc = "미술실 그림 강좌",
+		result = 0,
+		id = 1714,
 		show = 2,
 		date = {
 			{
@@ -2427,11 +2427,11 @@ pg.child_event_special = {
 		}
 	},
 	[1715] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1715,
+		type = 2,
 		main_desc = "음악실 노래 강좌",
+		result = 0,
+		id = 1715,
 		show = 2,
 		date = {
 			{
@@ -2453,11 +2453,11 @@ pg.child_event_special = {
 		}
 	},
 	[1716] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1716,
+		type = 2,
 		main_desc = "도서관 작문 강좌",
+		result = 0,
+		id = 1716,
 		show = 2,
 		date = {
 			{
@@ -2479,11 +2479,11 @@ pg.child_event_special = {
 		}
 	},
 	[1717] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1717,
+		type = 2,
 		main_desc = "미술실 그림 강좌",
+		result = 0,
+		id = 1717,
 		show = 2,
 		date = {
 			{
@@ -2505,11 +2505,11 @@ pg.child_event_special = {
 		}
 	},
 	[1718] = {
-		type = 2,
-		result = 0,
 		child_attr2 = 0,
-		id = 1718,
+		type = 2,
 		main_desc = "음악실 노래 강좌",
+		result = 0,
+		id = 1718,
 		show = 2,
 		date = {
 			{

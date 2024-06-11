@@ -1,7 +1,7 @@
 return {
-	time = 5,
 	name = "属性变更",
 	init_effect = "jinengchufared",
+	time = 5,
 	picture = "",
 	desc = "机动、炮击提升",
 	stack = 1,
@@ -23,8 +23,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "dodgeRate",
-				number = 500
+				number = 500,
+				attr = "dodgeRate"
 			}
 		}
 	}

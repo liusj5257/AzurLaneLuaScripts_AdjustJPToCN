@@ -1,7 +1,7 @@
 slot0 = class("RectCollider")
 slot1 = 1 / (Application.targetFrameRate or 60)
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._tf = slot1
 	slot0._animTf = findTF(slot1, "anim")
 	slot0._config = slot2
@@ -20,14 +20,14 @@ function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0.initFlag = false
 end
 
-function slot0.onInit(slot0)
+slot0.onInit = function(slot0)
 	slot0._translateVelocity = Vector2(0, 0)
 	slot0._collider2d = GetComponent(findTF(slot0._tf, "collider"), typeof(BoxCollider2D))
 	slot0._origins = RectOriginsCom.New(slot0._collider2d)
 	slot0.colliderController = RectColliderController.New(slot0._collisionInfo, slot0._origins)
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	if slot0._collisionInfo.script then
 		slot0._collisionInfo.script:active(false)
 		slot0._collisionInfo:removeScript()
@@ -36,7 +36,7 @@ function slot0.clear(slot0)
 	slot0._keyTrigger:destroy()
 end
 
-function slot0.addScript(slot0, slot1)
+slot0.addScript = function(slot0, slot1)
 	slot1:setData(slot0._collisionInfo, slot0._keyInfo, slot0._event)
 
 	slot0.scriptList[slot1.__cname] = slot1
@@ -50,13 +50,13 @@ function slot0.addScript(slot0, slot1)
 	end
 end
 
-function slot0.addScripts(slot0, slot1)
+slot0.addScripts = function(slot0, slot1)
 	for slot5 = 1, #slot1 do
 		slot0:addScript(slot1[slot5])
 	end
 end
 
-function slot0.start(slot0)
+slot0.start = function(slot0)
 	slot0._collisionInfo:removeScript()
 
 	for slot4, slot5 in ipairs(slot0._scripts) do
@@ -64,7 +64,7 @@ function slot0.start(slot0)
 	end
 end
 
-function slot0.step(slot0)
+slot0.step = function(slot0)
 	if not slot0.initFlag then
 		slot0.initFlag = true
 
@@ -101,17 +101,17 @@ function slot0.step(slot0)
 	end
 end
 
-function slot0.onKeyTrigger(slot0, slot1, slot2)
+slot0.onKeyTrigger = function(slot0, slot1, slot2)
 	for slot6, slot7 in pairs(slot0.scriptList) do
 		slot7:keyTrigger(slot1, slot2)
 	end
 end
 
-function slot0.getCollisionInfo(slot0)
+slot0.getCollisionInfo = function(slot0)
 	return slot0._collisionInfo
 end
 
-function slot0.getScript(slot0, slot1)
+slot0.getScript = function(slot0, slot1)
 	return slot0.scriptList[slot1.__cname] or nil
 end
 

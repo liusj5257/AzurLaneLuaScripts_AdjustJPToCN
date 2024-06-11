@@ -1,12 +1,12 @@
 return {
-	init_effect = "jinengchufared",
-	name = "信浓活动 信浓瞬闪移动加速",
 	time = 0,
-	color = "blue",
+	name = "信浓活动 信浓瞬闪移动加速",
+	init_effect = "jinengchufared",
+	id = 8739,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 8739,
+	color = "blue",
 	last_effect = "",
 	effect_list = {
 		{

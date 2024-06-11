@@ -1,22 +1,22 @@
 slot0 = class("EquipmentDesignLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "EquipmentDesignUI"
 end
 
-function slot0.setItems(slot0, slot1)
+slot0.setItems = function(slot0, slot1)
 	slot0.itemVOs = slot1
 end
 
-function slot0.setPlayer(slot0, slot1)
+slot0.setPlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
-function slot0.setCapacity(slot0, slot1)
+slot0.setCapacity = function(slot0, slot1)
 	slot0.capacity = slot1
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.designScrollView = slot0:findTF("equipment_scrollview")
 	slot0.equipmentTpl = slot0:findTF("equipment_tpl")
 	slot0.equipmentContainer = slot0:findTF("equipment_grid", slot0.designScrollView)
@@ -46,14 +46,14 @@ function slot0.init(slot0)
 	})
 end
 
-function slot0.SetParentTF(slot0, slot1)
+slot0.SetParentTF = function(slot0, slot1)
 	slot0.parentTF = slot1
 	slot0.equipmentView = slot0:findTF("equipment_scrollview", slot0.parentTF)
 
 	setActive(slot0.equipmentView, false)
 end
 
-function slot0.SetTopContainer(slot0, slot1)
+slot0.SetTopContainer = function(slot0, slot1)
 	slot0.topPanel = slot1
 end
 
@@ -63,7 +63,7 @@ slot1 = {
 	"sort_count"
 }
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	setParent(slot0._tf, slot0.parentTF)
 	slot0._tf:SetSiblingIndex(slot0.equipmentView:GetSiblingIndex())
 
@@ -125,16 +125,16 @@ function slot0.didEnter(slot0)
 			groupList = {
 				{
 					dropdown = false,
-					titleTxt = "indexsort_type",
 					titleENTxt = "indexsort_typeeng",
+					titleTxt = "indexsort_type",
 					tags = {
 						"typeIndex"
 					}
 				},
 				{
 					dropdown = true,
-					titleTxt = "indexsort_index",
 					titleENTxt = "indexsort_indexeng",
+					titleTxt = "indexsort_index",
 					tags = {
 						"equipPropertyIndex",
 						"equipPropertyIndex2",
@@ -144,16 +144,16 @@ function slot0.didEnter(slot0)
 				},
 				{
 					dropdown = false,
-					titleTxt = "indexsort_camp",
 					titleENTxt = "indexsort_campeng",
+					titleTxt = "indexsort_camp",
 					tags = {
 						"equipCampIndex"
 					}
 				},
 				{
 					dropdown = false,
-					titleTxt = "indexsort_rarity",
 					titleENTxt = "indexsort_rarityeng",
+					titleTxt = "indexsort_rarity",
 					tags = {
 						"rarityIndex"
 					}
@@ -218,12 +218,12 @@ function slot0.didEnter(slot0)
 	slot0:initTags()
 end
 
-function slot0.isDefaultStatus(slot0)
+slot0.isDefaultStatus = function(slot0)
 	return (not slot0.contextData.indexDatas.typeIndex or slot0.contextData.indexDatas.typeIndex == IndexConst.EquipmentTypeAll) and (not slot0.contextData.indexDatas.equipPropertyIndex or slot0.contextData.indexDatas.equipPropertyIndex == IndexConst.EquipPropertyAll) and (not slot0.contextData.indexDatas.equipPropertyIndex2 or slot0.contextData.indexDatas.equipPropertyIndex2 == IndexConst.EquipPropertyAll) and (not slot0.contextData.indexDatas.equipAmmoIndex1 or slot0.contextData.indexDatas.equipAmmoIndex1 == IndexConst.EquipAmmoAll_1) and (not slot0.contextData.indexDatas.equipAmmoIndex2 or slot0.contextData.indexDatas.equipAmmoIndex2 == IndexConst.EquipAmmoAll_2) and (not slot0.contextData.indexDatas.equipCampIndex or slot0.contextData.indexDatas.equipCampIndex == IndexConst.EquipCampAll) and (not slot0.contextData.indexDatas.rarityIndex or slot0.contextData.indexDatas.rarityIndex == IndexConst.EquipmentRarityAll)
 end
 
-function slot0.initTags(slot0)
-	function slot4()
+slot0.initTags = function(slot0)
+	slot4 = function()
 		uv0.asc = not uv0.asc
 		uv0.contextData.asc = uv0.asc
 
@@ -263,27 +263,27 @@ function slot0.initTags(slot0)
 	triggerToggle(slot0.tagTFs[slot0.contextData.index], true)
 end
 
-function slot0.initDesigns(slot0)
+slot0.initDesigns = function(slot0)
 	slot1 = slot0.designScrollView
 	slot0.scollRect = slot1:GetComponent("LScrollRect")
 	slot0.scollRect.decelerationRate = 0.07
 
-	function slot0.scollRect.onInitItem(slot0)
+	slot0.scollRect.onInitItem = function(slot0)
 		uv0:initDesign(slot0)
 	end
 
-	function slot0.scollRect.onUpdateItem(slot0, slot1)
+	slot0.scollRect.onUpdateItem = function(slot0, slot1)
 		uv0:updateDesign(slot0, slot1)
 	end
 
-	function slot0.scollRect.onReturnItem(slot0, slot1)
+	slot0.scollRect.onReturnItem = function(slot0, slot1)
 		uv0:returnDesign(slot0, slot1)
 	end
 
 	slot0.desgins = {}
 end
 
-function slot2(slot0, slot1)
+slot2 = function(slot0, slot1)
 	setImageSprite(findTF(slot0, "name_bg/tag"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(slot1:getConfig("type"))))
 	eachChild(findTF(slot0, "attrs"), function (slot0)
 		setActive(slot0, false)
@@ -322,7 +322,7 @@ function slot2(slot0, slot1)
 	end
 end
 
-function slot0.createDesign(slot0, slot1)
+slot0.createDesign = function(slot0, slot1)
 	slot2 = findTF(slot1, "info/count")
 	slot3 = findTF(slot1, "mask")
 	slot5 = {
@@ -332,14 +332,14 @@ function slot0.createDesign(slot0, slot1)
 
 	ClearTweenItemAlphaAndWhite(slot5.go)
 
-	function slot5.getItemById(slot0, slot1)
+	slot5.getItemById = function(slot0, slot1)
 		return slot0.itemVOs[slot1] or Item.New({
 			count = 0,
 			id = slot1
 		})
 	end
 
-	function slot5.update(slot0, slot1, slot2)
+	slot5.update = function(slot0, slot1, slot2)
 		slot0.designId = slot1
 		slot0.itemVOs = slot2
 		slot3 = pg.compose_data_template[slot1]
@@ -373,14 +373,14 @@ function slot0.createDesign(slot0, slot1)
 		end)()
 	end
 
-	function slot5.clear(slot0)
+	slot5.clear = function(slot0)
 		ClearTweenItemAlphaAndWhite(slot0.go)
 	end
 
 	return slot5
 end
 
-function slot0.initDesign(slot0, slot1)
+slot0.initDesign = function(slot0, slot1)
 	slot2 = slot0:createDesign(slot1)
 	slot5 = tf(slot2.go)
 
@@ -391,7 +391,7 @@ function slot0.initDesign(slot0, slot1)
 	slot0.desgins[slot1] = slot2
 end
 
-function slot0.updateDesign(slot0, slot1, slot2)
+slot0.updateDesign = function(slot0, slot1, slot2)
 	if not slot0.desgins[slot2] then
 		slot0:initDesign(slot2)
 
@@ -401,7 +401,7 @@ function slot0.updateDesign(slot0, slot1, slot2)
 	slot3:update(slot0.desginIds[slot1 + 1], slot0.itemVOs)
 end
 
-function slot0.returnDesign(slot0, slot1, slot2)
+slot0.returnDesign = function(slot0, slot1, slot2)
 	if slot0.exited then
 		return
 	end
@@ -411,7 +411,7 @@ function slot0.returnDesign(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getDesignVO(slot0, slot1)
+slot0.getDesignVO = function(slot0, slot1)
 	slot2 = {
 		equipmentCfg = Equipment.getConfigData(slot3[slot1].equip_id),
 		designCfg = slot3[slot1],
@@ -429,19 +429,19 @@ function slot0.getDesignVO(slot0, slot1)
 
 	slot2.config = slot6
 
-	function slot2.getNation(slot0)
+	slot2.getNation = function(slot0)
 		return uv0.nationality
 	end
 
-	function slot2.getConfig(slot0, slot1)
+	slot2.getConfig = function(slot0, slot1)
 		return uv0[slot1]
 	end
 
 	return slot2
 end
 
-function slot0.filter(slot0, slot1, slot2)
-	GetSpriteFromAtlasAsync("ui/commonui_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
+slot0.filter = function(slot0, slot1, slot2)
+	GetSpriteFromAtlasAsync("ui/share/index_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
 		setImageSprite(uv0.indexBtn, slot0, true)
 	end)
 
@@ -540,14 +540,14 @@ function slot0.filter(slot0, slot1, slot2)
 	setActive(slot0.sortImgDec, not slot0.asc)
 end
 
-function slot0.getItemById(slot0, slot1)
+slot0.getItemById = function(slot0, slot1)
 	return slot0.itemVOs[slot1] or Item.New({
 		count = 0,
 		id = slot1
 	})
 end
 
-function slot0.showDesignDesc(slot0, slot1)
+slot0.showDesignDesc = function(slot0, slot1)
 	slot0.isShowDesc = true
 
 	if IsNil(slot0.msgBoxTF) then
@@ -588,6 +588,8 @@ function slot0.showDesignDesc(slot0, slot1)
 	end)(1)
 	pressPersistTrigger(findTF(slot2, "bg/calc/minus"), 0.5, function (slot0)
 		if uv0 <= 1 then
+			slot0()
+
 			return
 		end
 
@@ -597,6 +599,8 @@ function slot0.showDesignDesc(slot0, slot1)
 	end, nil, true, true, 0.1, SFX_PANEL)
 	pressPersistTrigger(findTF(slot2, "bg/calc/add"), 0.5, function (slot0)
 		if uv0 == uv1 then
+			slot0()
+
 			return
 		end
 
@@ -625,7 +629,7 @@ function slot0.showDesignDesc(slot0, slot1)
 	end, SFX_CANCEL)
 end
 
-function slot3(slot0, slot1, slot2)
+slot3 = function(slot0, slot1, slot2)
 	slot3 = findTF(slot0, "name")
 	slot4 = findTF(slot0, "value")
 
@@ -638,7 +642,7 @@ function slot3(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateDescAttrs(slot0, slot1, slot2)
+slot0.updateDescAttrs = function(slot0, slot1, slot2)
 	slot3 = findTF(slot1, "content")
 
 	setImageSprite(findTF(slot1, "name_bg/tag"), GetSpriteFromAtlas("equiptype", EquipType.type2Tag(slot2.config.type)))
@@ -683,7 +687,7 @@ function slot0.updateDescAttrs(slot0, slot1, slot2)
 	end
 end
 
-function slot0.hideMsgBox(slot0)
+slot0.hideMsgBox = function(slot0)
 	if not IsNil(slot0.msgBoxTF) then
 		slot0.isShowDesc = nil
 
@@ -692,7 +696,7 @@ function slot0.hideMsgBox(slot0)
 	end
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if isActive(slot0.indexPanel) then
 		triggerButton(slot0.indexPanel)
 
@@ -707,7 +711,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.indexPanel, slot0._tf)
 
 	if slot0.leftEventTrigger then

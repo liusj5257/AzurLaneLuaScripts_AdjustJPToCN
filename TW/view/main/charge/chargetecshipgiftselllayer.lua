@@ -1,26 +1,26 @@
 slot0 = class("ChargeTecShipGiftSellLayer", import("...base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ChargeTecShipGiftSellLayer"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
 	slot0:initUIText()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	slot0:updateGiftList()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.showGoodVO = slot0.contextData.showGoodVO
 	slot0.chargedList = slot0.contextData.chargedList
 	slot0.goodVOList = slot0.showGoodVO:getSameGroupTecShipGift()
@@ -53,11 +53,11 @@ function slot0.initData(slot0)
 	end
 end
 
-function slot0.initUIText(slot0)
+slot0.initUIText = function(slot0)
 	setText(slot0:findTF("Adapt/TipBG/Text"), i18n("tech_package_tip"))
 end
 
-function slot0.findUI(slot0)
+slot0.findUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.itemTpl = slot0:findTF("ItemTpl")
 
@@ -75,13 +75,13 @@ function slot0.findUI(slot0)
 	end)
 end
 
-function slot0.addListener(slot0)
+slot0.addListener = function(slot0)
 	onButton(slot0, slot0.bg, function ()
 		uv0:closeView()
 	end, SFX_PANEL)
 end
 
-function slot0.updateGiftTF(slot0, slot1, slot2)
+slot0.updateGiftTF = function(slot0, slot1, slot2)
 	slot9 = slot0:findTF("Title", slot1)
 	slot10 = slot0:findTF("GiftImage", slot1)
 	slot11 = slot0:findTF("Desc1", slot1)
@@ -101,7 +101,7 @@ function slot0.updateGiftTF(slot0, slot1, slot2)
 		setGray(slot1, true, true)
 	end
 
-	function slot18()
+	slot18 = function()
 		pg.m02:sendNotification(GAME.CHARGE_OPERATION, {
 			shopId = uv0.id
 		})
@@ -149,7 +149,7 @@ function slot0.updateGiftTF(slot0, slot1, slot2)
 	slot20:align(#slot19)
 end
 
-function slot0.updateGiftList(slot0)
+slot0.updateGiftList = function(slot0)
 	slot0.giftUIItemList:align(#slot0.goodVOShowList)
 end
 

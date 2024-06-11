@@ -5,7 +5,7 @@ slot0.OPEN_CHARGE_ITEM_PANEL = "RefluxMediator:OPEN_CHARGE_ITEM_PANEL"
 slot0.OPEN_CHARGE_ITEM_BOX = "RefluxMediator:OPEN_CHARGE_ITEM_BOX"
 slot0.OPEN_CHARGE_BIRTHDAY = "RefluxMediator:OPEN_CHARGE_BIRTHDAY"
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(uv0.OnTaskSubmit, function (slot0, slot1)
 		uv0:sendNotification(GAME.SUBMIT_TASK, slot1)
 	end)
@@ -41,7 +41,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.REFLUX_SIGN_DONE,
 		GAME.SUBMIT_TASK_DONE,
@@ -55,7 +55,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.REFLUX_SIGN_DONE then
@@ -105,7 +105,7 @@ function slot0.handleNotification(slot0, slot1)
 	end
 end
 
-function slot0.isCanUpdateView(slot0, slot1)
+slot0.isCanUpdateView = function(slot0, slot1)
 	if slot1 and slot1:GetLoaded() then
 		return true
 	else

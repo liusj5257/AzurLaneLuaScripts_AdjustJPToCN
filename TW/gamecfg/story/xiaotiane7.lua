@@ -8,8 +8,8 @@ return {
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"春風的十字星\n\n<size=45>七  結案</size>",
@@ -18,13 +18,13 @@ return {
 			}
 		},
 		{
-			actor = 201080,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "皇家方舟小姐，對不起…不該那麼輕易地就認定妳是兇手…",
 			bgm = "story-1",
+			actor = 201080,
+			nameColor = "#a9f548",
+			say = "皇家方舟小姐，對不起…不該那麼輕易地就認定妳是兇手…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			}
 		},
 		{
-			actor = 201110,
+			say = "我也有點先入為主了呢…對不起",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "我也有點先入為主了呢…對不起",
+			actor = 201110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -247,12 +247,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "啊哈哈，結果沒什麼事就好，折騰了這麼久肚子都餓了，大家一起去吃飯吧？",
 			side = 0,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "啊哈哈，結果沒什麼事就好，折騰了這麼久肚子都餓了，大家一起去吃飯吧？",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -267,14 +267,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "眾人",
 			say = "喔！",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,12 +301,12 @@ return {
 			}
 		},
 		{
-			actor = 207020,
+			say = "咕嘿，和一群驅逐妹妹們一起吃飯…",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "咕嘿，和一群驅逐妹妹們一起吃飯…",
+			actor = 207020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -321,14 +321,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			withoutPainting = true,
 			side = 2,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 0,
 			actorName = "眾人",
 			say = "盯——",
-			withoutPainting = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 301840,
 			dir = 1,
+			bgm = "story-6",
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "Be careful! A huge enemy fleet is appearing in front of us!",
-			bgm = "story-6",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,8 +28,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 303180,
 			dir = 1,
+			actor = 303180,
 			nameColor = "#a9f548",
 			say = "Damnit, there are \"huge fleets\" coming at us any direction you look!",
 			typewriter = {
@@ -45,8 +45,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "No, I mean, this one's even bigger than the rest! I'm also picking up their leader here, and it seems to be Tester!",
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -88,8 +88,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 305120,
 			dir = 1,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "But damn... we're not exactly in the best condition to take a head-on fight against Tester in a Mirror Sea...",
 			typewriter = {
@@ -105,9 +105,9 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_mirror",
-			actor = 305120,
 			dir = 1,
 			blackBg = true,
+			actor = 305120,
 			nameColor = "#a9f548",
 			say = "First and foremost, defend Lady Shinano with your life, and try to find a way out of here!",
 			typewriter = {

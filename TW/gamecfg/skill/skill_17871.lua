@@ -15,16 +15,16 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
 			target_choise = {
 				"TargetPlayerMainFleet",
 				"TargetRandom"
 			},
 			arg_list = {
-				maxHPRatio = 0.01,
-				randomCount = 1
+				randomCount = 1,
+				maxHPRatio = 0.01
 			}
 		}
 	}

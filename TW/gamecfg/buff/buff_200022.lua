@@ -1,12 +1,12 @@
 return {
-	time = 6,
-	name = "2022意大利活动 EX罗马召唤激光发射装置 自我消失",
 	init_effect = "",
+	name = "2022意大利活动 EX罗马召唤激光发射装置 自我消失",
+	time = 6,
+	picture = "",
+	desc = "",
 	stack = 1,
 	id = 200022,
-	picture = "",
 	last_effect = "",
-	desc = "",
 	effect_list = {
 		{
 			type = "BattleBuffDeath",

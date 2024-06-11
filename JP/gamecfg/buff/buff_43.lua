@@ -2,12 +2,12 @@ return {
 	desc_get = "前排全灭30秒后触发绝地反击效果，随后每15秒触发1次，最多可叠加5次",
 	name = "绝地反击",
 	init_effect = "",
+	id = 43,
 	time = 0,
-	color = "绝地反击",
 	picture = "",
 	desc = "前排全灭30秒后触发绝地反击效果，随后每15秒触发1次，最多可叠加5次",
 	stack = 1,
-	id = 43,
+	color = "绝地反击",
 	icon = 43,
 	last_effect = "",
 	effect_list = {
@@ -27,9 +27,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 43,
 				target = "TargetSelf",
-				time = 30,
-				skill_id = 43
+				time = 30
 			}
 		},
 		{

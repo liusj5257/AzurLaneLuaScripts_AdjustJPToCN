@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "LINKPREHEAT19",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "LINKPREHEAT19",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"梦幻的交汇-日常篇\n\n<size=45>二　淑女们的茶会</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 207030,
-			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "一直都是战斗战斗的，心情都变差了呢……{namecode:98}，那个东西准备好了吗？",
 			bgm = "story-uta",
+			actor = 207030,
+			nameColor = "#a9f548",
+			say = "一直都是战斗战斗的，心情都变差了呢……{namecode:98}，那个东西准备好了吗？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -151,8 +151,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "这个点心，虽然直接吃有一点点硬，不过配上茶一起就刚好呢",
 			typewriter = {
@@ -168,8 +168,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "美味",
 			typewriter = {
@@ -182,12 +182,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "这个茶也是，第一次体会到这么深邃的味道。想让主人也尝一尝这个味道，能请您分我一些茶叶么",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个茶也是，第一次体会到这么深邃的味道。想让主人也尝一尝这个味道，能请您分我一些茶叶么",
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -314,11 +314,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			withoutActorName = true,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			dir = 1,
-			withoutActorName = true,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "嗖（躲到光辉背后",
 			subActors = {
@@ -339,8 +339,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -352,8 +352,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "这还真是个……容易害羞的小姑娘啊",
 			typewriter = {
@@ -369,8 +369,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "初次见面，独角兽大人，我叫露露缇耶，请多指教……",
 			typewriter = {
@@ -415,12 +415,12 @@ return {
 			}
 		},
 		{
-			actor = 206030,
+			say = "这个孩子是……优酱。优酱…一直都保护着我…",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "这个孩子是……优酱。优酱…一直都保护着我…",
+			actor = 206030,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -438,8 +438,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "这样啊，叫优酱呢……我也有个叫可可啵的朋友哦",
 			typewriter = {
@@ -516,11 +516,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "真的吗？那，那……独角兽，想和露露缇耶一起骑可可啵！",
 			typewriter = {
 				speed = 0.05,
@@ -532,8 +532,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.3,
 					dur = 0.15,
 					x = 0,
@@ -545,8 +545,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_chuansong",
-			actor = 10300030,
 			dir = 1,
+			actor = 10300030,
 			nameColor = "#a9f548",
 			say = "随时欢迎，独角兽大人",
 			typewriter = {
@@ -591,12 +591,12 @@ return {
 			}
 		},
 		{
-			actor = 10300050,
+			say = "独角兽小姐和露露缇耶小姐的灵魂的颜色十分相似。也许是灵魂的共鸣也说不定。",
 			side = 1,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "独角兽小姐和露露缇耶小姐的灵魂的颜色十分相似。也许是灵魂的共鸣也说不定。",
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -678,8 +678,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "虽然是这样没错，怎么说呢…我怎么感觉一直是我在照顾妳",
 			typewriter = {
@@ -708,11 +708,11 @@ return {
 			}
 		},
 		{
-			actor = 10300060,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			withoutActorName = true,
-			dir = 1,
+			actor = 10300060,
 			nameColor = "#a9f548",
 			say = "——摇晃，摇晃，摇晃",
 			typewriter = {
@@ -757,11 +757,11 @@ return {
 			}
 		},
 		{
-			actor = 207030,
+			dir = 1,
 			side = 2,
 			bgName = "bg_story_chuansong",
 			withoutActorName = true,
-			dir = 1,
+			actor = 207030,
 			nameColor = "#a9f548",
 			say = "——摇晃，摇晃，摇晃",
 			typewriter = {
@@ -777,8 +777,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300020,
 			dir = 1,
+			actor = 10300020,
 			nameColor = "#a9f548",
 			say = "呜哇哇，光辉小姐也毫不逊色呢…",
 			typewriter = {
@@ -794,8 +794,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300040,
 			dir = 1,
+			actor = 10300040,
 			nameColor = "#a9f548",
 			say = "不能给主人看到这种景象",
 			typewriter = {
@@ -811,10 +811,10 @@ return {
 			expression = 1,
 			side = 1,
 			bgName = "bg_story_chuansong",
-			actor = 10300050,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "还好主人不在场呢。要是给主人看到这么诱惑的景色，我们的立场可就岌岌可危了",
+			dir = 1,
+			actor = 10300050,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -832,8 +832,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "这两个人哪里有脸说这种话……",
 			typewriter = {
@@ -910,15 +910,15 @@ return {
 			}
 		},
 		{
-			actor = 10300030,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10300030,
+			nameColor = "#a9f548",
 			say = "啊，对了，独角兽大人。作为朋友的象征，这本书送给妳",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -962,8 +962,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actor = 10300010,
 			dir = 1,
+			actor = 10300010,
 			nameColor = "#a9f548",
 			say = "等下露露缇耶！妳怎么能给这么纯洁的孩子看这种东西！？",
 			typewriter = {
@@ -976,8 +976,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0.1,
 					dur = 0.15,
 					x = 0,
@@ -1002,12 +1002,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			side = 2,
 			bgName = "bg_story_chuansong",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 301050,
+			nameColor = "#a9f548",
 			say = "{namecode:6}、知道的。那是……“腐”的世界",
 			typewriter = {
 				speed = 0.05,

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SALATUOJIA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SALATUOJIA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Best Pictures!\n\n<size=45>Chapter 7: What I Treasure Most</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "Yikes, these are photos of me! Commander, are you perhaps...",
 			bgm = "story-1",
+			actor = 107030,
+			nameColor = "#a9f548",
+			say = "Yikes, these are photos of me! Commander, are you perhaps...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "Hmm... I'm not sure I believe you... Who did you get these from anyway~?",
 			typewriter = {
 				speed = 0.05,
@@ -61,12 +61,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 1,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "Isn't it obvious? There's only one person here who would be able to take all these photos.",
 			typewriter = {
 				speed = 0.05,
@@ -78,12 +78,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "Ehhhh? No way...! Commander, you took these?",
 			typewriter = {
 				speed = 0.05,
@@ -95,12 +95,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
 			optionFlag = 2,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "... That's absurd! There's no way Commander could take photos of this quality.",
 			typewriter = {
 				speed = 0.05,
@@ -128,9 +128,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "As she spoke, Saratoga reached out to flip the page.",
 			typewriter = {
 				speed = 0.05,
@@ -154,9 +154,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Upon the photo was Saratoga walking hand-in-hand with Commander.",
 			typewriter = {
 				speed = 0.05,
@@ -164,9 +164,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Now that I think about it, all the other photos in this album were with other people.",
 			typewriter = {
 				speed = 0.05,
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Saratoga's voice became softer and softer.",
 			typewriter = {
 				speed = 0.05,
@@ -280,9 +280,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "Saratoga's smiling face was the same as in the photo - half joyous, half mischievous.",
 			typewriter = {
 				speed = 0.05,

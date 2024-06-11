@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENDUHUIYIN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENDUHUIYIN25",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "「фатальная ошибка」",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "echo-loop",
+			say = "「фатальная ошибка」",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "「███解除：89.9％」",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_deepecho_10",
+			side = 2,
+			dir = 1,
 			say = "目を開き、見慣れた景色を再び確認する――潜航艦の接続設備室に戻ったようだ。",
 			flashin = {
 				delay = 1,
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "身を起こし、髪の毛を軽く整える。",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "誰もいない。",
 			typewriter = {
 				speed = 0.05,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "モニターには文字が次から次へと流れていき、作動中を示す微かな運転音が耳に入る。",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -206,13 +206,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_deepecho_10",
+			side = 2,
+			dir = 1,
 			say = "潜航艦・操縦室",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -237,8 +237,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -285,13 +285,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_deepecho_10",
+			side = 2,
+			dir = 1,
 			say = "船内を一通り探索すると、疲れ果てた体を引きずって元いた場所に戻る。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -412,9 +412,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "再びモニターに目を向ける。普段なら何かしらの内容を解読できそうな気がするが、今はそれも出来ない。",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -442,9 +442,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "意識が「夢」に飛ぶ前に、アルハンゲリスクが操縦していた最後の手順を思い出す。",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -472,8 +472,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "クロンシュタット",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -520,8 +520,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			bgName = "star_level_bg_1104",
 			flashin = {
 				delay = 1,

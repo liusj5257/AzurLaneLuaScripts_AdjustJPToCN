@@ -4,23 +4,23 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			asideType = 3,
-			bgmDelay = 2,
 			blackBg = true,
+			bgmDelay = 2,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -42,24 +42,24 @@ return {
 			}
 		},
 		{
-			bgm = "theme-sovietunion",
 			side = 2,
 			bgName = "bg_xuejing_3",
+			soundeffect = "event:/battle/boom2",
+			bgm = "theme-sovietunion",
 			nameColor = "#A9F548FF",
 			say = "KABOOOM!",
-			soundeffect = "event:/battle/boom2",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -113,8 +113,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "*cough cough*... How are you still moving?",
 			painting = {
@@ -127,8 +127,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -140,8 +140,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "No... Don't tell me that had zero effect on you...",
 			painting = {
@@ -157,8 +157,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "Your test site means business, huh. It's no wonder you held off her invasion once. You're capable.",
 			painting = {
@@ -174,8 +174,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "This is the end of the line, \"Pamiat'.\"",
 			painting = {
@@ -191,8 +191,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "Yeah, looks like it. The time for resculpting is over...",
 			painting = {
@@ -208,8 +208,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "You got me! I lost!",
 			painting = {
@@ -225,8 +225,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "But hey, it's no big deal. I'm satisfied that I even got this far.",
 			painting = {
@@ -242,8 +242,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "...And now, maybe we can finally talk.",
 			painting = {
@@ -258,9 +258,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "It has been bothering me how so many of your actions here don't make sense.",
 			painting = {
 				alpha = 0.3,
@@ -275,8 +275,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "Initially, I thought your goal here was to brainwash me in order to gain control of the bunker.",
 			painting = {
@@ -292,8 +292,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "You were able to blend in smoothly, hardly raising any suspicions since we first saw you. You clearly have skill.",
 			painting = {
@@ -308,9 +308,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "And yet, your attempt to persuade me was lukewarm, and you willingly lifted your cognitive influence on me.",
 			painting = {
 				alpha = 0.3,
@@ -325,8 +325,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "Then, there's how you told us all that information about Project Dawn without any prompting whatsoever.",
 			painting = {
@@ -342,8 +342,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "There are simply too many inconsistencies.",
 			painting = {
@@ -358,9 +358,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "What is your goal here, really? Why did you come to our world?",
 			painting = {
 				alpha = 0.3,
@@ -375,8 +375,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "Who knows. Maybe I just wanted to see my old comrades. Maybe I just wanted to atone for old sins.",
 			painting = {
@@ -392,8 +392,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "Or maybe I wanted to chat with an old friend to get drunk on false hope again?",
 			painting = {
@@ -408,9 +408,9 @@ return {
 		{
 			actor = 9702070,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#FFC960",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "At any rate, you girls might have won, but that doesn't mean SHE has been defeated.",
 			painting = {
 				alpha = 0.3,
@@ -425,8 +425,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "The battle is far from over.",
 			painting = {
@@ -442,8 +442,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "...Of course. Your three objectives.",
 			painting = {
@@ -459,8 +459,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "Yeah! I'm glad you remembered.",
 			painting = {
@@ -475,9 +475,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "Laying the Divine Vestige must've been the first. What were the remaining–",
 			painting = {
 				alpha = 0.3,
@@ -491,9 +491,9 @@ return {
 		{
 			actor = 9702070,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#FFC960",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "Okay, that's enough talking! You need to start fighting for real or you'll actually die!",
 			painting = {
 				alpha = 0.3,
@@ -508,8 +508,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "Buuut then again...",
 			painting = {
@@ -524,9 +524,9 @@ return {
 		{
 			actor = 9702070,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#FFC960",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "You DID fight off this invasion and live to tell the tale.",
 			painting = {
 				alpha = 0.3,
@@ -541,8 +541,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "Maybe you'll meet a girl with the same tragic past as me who also carries the wishes of her comrades.",
 			painting = {
@@ -557,9 +557,9 @@ return {
 		{
 			actor = 9702070,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#FFC960",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "Me and her, we are fundamentally at odds with each other. I'd say we're pretty much mortal enemies.",
 			painting = {
 				alpha = 0.3,
@@ -574,8 +574,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "But you, Soyuz – you can help her. I know you can.",
 			painting = {
@@ -591,8 +591,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "So if you ever cross paths... take care of her, alright?",
 			painting = {
@@ -608,8 +608,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 705020,
 			dir = 1,
+			actor = 705020,
 			nameColor = "#A9F548FF",
 			say = "...I don't have any reason to honor your request.",
 			painting = {
@@ -625,8 +625,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "Come ooon! I went easy on you AND gave you intel! She's a comrade and – unlike the cutie you're talking to – she's really powerful!",
 			painting = {
@@ -642,8 +642,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "What more reasons do you need?",
 			painting = {
@@ -658,9 +658,9 @@ return {
 		{
 			actor = 705020,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "(Hmm... If Comrade Commander were in my shoes...)",
 			painting = {
 				alpha = 0.3,
@@ -675,8 +675,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "That's it for me! Now don't get squashed without a fight!",
 			painting = {
@@ -692,8 +692,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "The future depends on it! Yours, the Northern Parliament's, and the Imperiya's!",
 			painting = {
@@ -708,9 +708,9 @@ return {
 		{
 			actor = 9702070,
 			side = 2,
-			bgName = "bg_xuejing_3",
 			nameColor = "#FFC960",
 			dir = 1,
+			bgName = "bg_xuejing_3",
 			say = "I'll be watching you from somewhere far, far away...",
 			painting = {
 				alpha = 0.3,
@@ -725,8 +725,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xuejing_3",
-			actor = 9702070,
 			dir = 1,
+			actor = 9702070,
 			nameColor = "#FFC960",
 			say = "And strike whenever I see the chance!",
 			painting = {

@@ -5,12 +5,12 @@ return {
 	desc_get = "",
 	name = "专属弹幕-舒尔茨",
 	init_effect = "",
+	id = 30051,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 30051,
+	color = "red",
 	icon = 30040,
 	last_effect = "",
 	effect_list = {
@@ -20,8 +20,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 30051,
 				minWeaponNumber = 1,
+				skill_id = 30051,
 				check_weapon = true,
 				label = {
 					"DD",
@@ -35,8 +35,8 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 30052,
 				minWeaponNumber = 1,
+				skill_id = 30052,
 				check_weapon = true,
 				label = {
 					"CL",

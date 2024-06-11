@@ -1,17 +1,17 @@
 return {
-	id = "FUYINGYINGHUA28",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "FUYINGYINGHUA28",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "story-1",
+			say = "며칠 뒤, 아마이와섬.",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 1,
-			say = "며칠 뒤, 아마이와섬.",
+			bgm = "story-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,9 +22,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "정원 한 가운데에서 즈이카쿠, 카와카제, 노시로, 키누가 검술 대련을 하고 있다.",
 			typewriter = {
 				speed = 0.05,
@@ -36,11 +36,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/minigame_sword",
+			say = "죽도가 부딪히는 소리가 끊임없이 울려 퍼졌다.",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "죽도가 부딪히는 소리가 끊임없이 울려 퍼졌다.",
+			soundeffect = "event:/ui/minigame_sword",
 			dialogShake = {
 				speed = 0.09,
 				x = 8.5,
@@ -59,8 +59,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "미카사님, 안녕하세요! 또 대련을 보고 계시는 건가요.",
 			typewriter = {
@@ -73,8 +73,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -83,12 +83,12 @@ return {
 			}
 		},
 		{
-			actor = 305110,
+			say = "그래. 이번 사건으로 우리는 큰 타격을 입었고, 심지어 알수 없는 자가 도망가기까지 했지…",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "그래. 이번 사건으로 우리는 큰 타격을 입었고, 심지어 알수 없는 자가 도망가기까지 했지…",
+			actor = 305110,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -121,8 +121,8 @@ return {
 		{
 			say = "……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -139,11 +139,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/ui/minigame_sword",
+			say = "챙—— 챙——",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
-			say = "챙—— 챙——",
+			soundeffect = "event:/ui/minigame_sword",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,12 +170,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
+			say = "그러니까 그 최고의 실력자라는 말은 그만둬. 그 자를 상대할 때 몇 합 겨뤄보지도 못했으니까.",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "그러니까 그 최고의 실력자라는 말은 그만둬. 그 자를 상대할 때 몇 합 겨뤄보지도 못했으니까.",
+			actor = 307060,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -190,11 +190,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "그리고 아직 회색 유령이나 푸른 유령같은 녀석들이 있다고… 이 세계는 정말 재미있어!",
 			typewriter = {
 				speed = 0.05,
@@ -206,8 +206,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -216,15 +216,15 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "모두 수고했어요. 간식 드세요~",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -249,9 +249,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "쇼카쿠가 해군 만두를 들고 다가왔다. 방금 대련을 끝낸 이들이 그 주위로 몰려들었다.",
 			typewriter = {
 				speed = 0.05,
@@ -279,13 +279,13 @@ return {
 			}
 		},
 		{
-			actor = 307050,
+			say = "즈이카쿠는 쇼카쿠를 향해 깊게 허리를 숙여 사과를 했다.",
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
+			actor = 307050,
 			nameColor = "#a9f548",
-			say = "즈이카쿠는 쇼카쿠를 향해 깊게 허리를 숙여 사과를 했다.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -300,8 +300,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -310,11 +310,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "어라라, 즈이카쿠의 탓이 아닌걸. 상대가 너무 강한 탓이니 오히려 그에게 죽이지 않아서 고맙다고 해야하지 않을까?",
 			typewriter = {
 				speed = 0.05,
@@ -326,8 +326,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -336,11 +336,11 @@ return {
 			}
 		},
 		{
-			actor = 307050,
 			side = 1,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307050,
+			nameColor = "#a9f548",
 			say = "그리고 다치는 것쯤이야. 이미 익숙해. 후후후~",
 			typewriter = {
 				speed = 0.05,
@@ -352,8 +352,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -410,11 +410,11 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 307060,
+			nameColor = "#a9f548",
 			say = "쇼카쿠 언니, 플래그 세우지 마!!",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -436,15 +436,15 @@ return {
 			}
 		},
 		{
-			say = "카와카제의 시선이 현관 옆에서 차를 마시고 있는 나가토에게 닿았다.",
 			side = 2,
 			bgName = "bg_xinnong_cg1",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "main-newyear",
+			say = "카와카제의 시선이 현관 옆에서 차를 마시고 있는 나가토에게 닿았다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -501,11 +501,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "저의 능력으로는 감당할 수 없으니 부디, 제 사의를 받아주십시오——",
 			typewriter = {
 				speed = 0.05,
@@ -517,18 +517,18 @@ return {
 			},
 			action = {
 				{
+					y = -2500,
+					type = "move",
 					delay = 1.5,
 					dur = 1,
-					type = "move",
-					y = -2500,
 					x = -0
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "카와카제는 나가토의 앞에 무릎을 꿇고 힘차게 말했다.",
 			typewriter = {
 				speed = 0.05,
@@ -620,11 +620,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305050,
+			nameColor = "#a9f548",
 			say = "윤허하지 않겠다!",
 			typewriter = {
 				speed = 0.05,
@@ -636,8 +636,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -662,9 +662,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
+			dir = 1,
 			say = "카와카제는 다른 이들이 보지 않기를 원하는 것처럼 고개를 깊게 숙이고 눈물을 닦았다.",
 			typewriter = {
 				speed = 0.05,
@@ -676,11 +676,11 @@ return {
 			}
 		},
 		{
-			actor = 301490,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301490,
+			nameColor = "#a9f548",
 			say = "앞으로… 나가토님의 기대를 저버리지 않기 위해 더욱 정진하겠습니다!",
 			typewriter = {
 				speed = 0.05,
@@ -692,8 +692,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -702,13 +702,13 @@ return {
 			}
 		},
 		{
-			actor = 305050,
+			say = "나가토는 웃으며 카와카제의 머리를 쓰다듬었다.",
 			side = 0,
 			bgName = "bg_xinnong_cg1",
-			dir = 1,
 			withoutActorName = true,
+			dir = 1,
+			actor = 305050,
 			nameColor = "#a9f548",
-			say = "나가토는 웃으며 카와카제의 머리를 쓰다듬었다.",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -723,8 +723,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 30,
@@ -735,14 +735,14 @@ return {
 		{
 			expression = 6,
 			side = 2,
+			dir = 1,
 			bgName = "bg_xinnong_cg1",
 			actor = 306070,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "와… 이 분위기… 한 순간에 엄청나졌네요.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -767,11 +767,11 @@ return {
 			}
 		},
 		{
-			actor = 305110,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 305110,
+			nameColor = "#a9f548",
 			say = "아하하. 이게 청춘인가~ 좋구나, 좋구나~",
 			typewriter = {
 				speed = 0.05,
@@ -783,8 +783,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -828,8 +828,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "알수 없는 자에 대한 것은 일단 제쳐두고, 신석을 찾기 전까지 하늘 기원제는 잠시 멈춰야 겠네요.",
 			typewriter = {
@@ -845,8 +845,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "한가지 이해가 가지 않는 것이 있어요. 대체 신석을 언제 바꿔치기 한 걸까요?",
 			typewriter = {
@@ -910,8 +910,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "!! 아카기님?! 하지만… 왜 현장에서 잡지 않은 거죠?",
 			typewriter = {
@@ -924,8 +924,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -953,8 +953,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "미카사님은 정말이지… 대단하십니다.",
 			typewriter = {
@@ -967,8 +967,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -980,8 +980,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 306070,
 			dir = 1,
+			actor = 306070,
 			nameColor = "#a9f548",
 			say = "어쩐지, 알수 없는 자가 사라진 이후에 아카기님 일행도 사라진 거군요.",
 			typewriter = {
@@ -1013,8 +1013,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "으아아!",
 			dialogShake = {
@@ -1032,8 +1032,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -1045,8 +1045,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 302210,
 			dir = 1,
+			actor = 302210,
 			nameColor = "#a9f548",
 			say = "카스미, 왜 그러죠? 갑자기 소리를 지르면서 뛰어 내려오다니요.",
 			typewriter = {
@@ -1059,8 +1059,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1072,8 +1072,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "시…시시시…시나노님이…",
 			typewriter = {
@@ -1086,8 +1086,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -1099,8 +1099,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xinnong_cg1",
-			actor = 301810,
 			dir = 1,
+			actor = 301810,
 			nameColor = "#a9f548",
 			say = "깨어났어!",
 			effects = {
@@ -1119,8 +1119,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			effects = {
 				{
 					active = false,
@@ -1147,8 +1147,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			effects = {
 				{

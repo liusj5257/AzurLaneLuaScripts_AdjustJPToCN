@@ -1,22 +1,22 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "POXIAOBINGHUA28",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "POXIAOBINGHUA28",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#a9f548",
-			side = 2,
 			bgName = "bg_story_bsmlevel",
-			say = "北方聯合“密室”·上方海域",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "bgm-cccp2",
+			nameColor = "#a9f548",
+			say = "北方聯合“密室”·上方海域",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -60,8 +60,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 701070,
 			dir = 1,
+			actor = 701070,
 			nameColor = "#a9f548",
 			say = "感覺頭還是暈乎乎……大家也都記不清了嗎？",
 			typewriter = {
@@ -77,8 +77,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "不能說完全記不清，我記得在進入“大門”之後，我們發現了一座璀璨的都市，然後進入了某個設施進行探索，最後遇到了大量敵人陷入苦戰。",
 			typewriter = {
@@ -94,8 +94,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "雖然大致過程都清楚，但是過程之間的細節之處特別模糊，尤其是關於最後敵人的部分，我們當時究竟是在和什麼東西戰鬥……？",
 			typewriter = {
@@ -127,8 +127,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "沒有任何關於進入“大門”之後璀璨都市、作戰設施與敵人的紀錄，那些事就像完全沒有存在過一樣。",
 			typewriter = {
@@ -144,8 +144,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "可是我們確實有資料成功回收出來了啊……？究竟是怎麼回事……",
 			typewriter = {
@@ -161,8 +161,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702060,
 			dir = 1,
+			actor = 702060,
 			nameColor = "#a9f548",
 			say = "算啦~之後複雜的事就交給調查部門，大家現在都平安無事結束了任務不是很好嘛~~",
 			typewriter = {
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "是啊，任務總算平安無事的結束了………………等一下，前面的那支艦隊是什麼！？",
 			typewriter = {
@@ -192,9 +192,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
+			dir = 1,
 			say = "航線前方，一支龐大的艦隊露出了地平線從遠方緩緩接近著。除了白鷹艦船之外，似乎也有皇家艦船混在其中。",
 			typewriter = {
 				speed = 0.05,
@@ -209,8 +209,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "聯合演習嗎……？我沒有收到過類似消息啊……",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "根本沒有什麼聯合演習。外圍哨站在做什麼？！這麼龐大的艦隊駛入極地我們居然沒有得到任何預警？！",
 			typewriter = {
@@ -243,8 +243,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "能完全繞過卡拉金司令部的監視，這支艦隊明顯是採用了某些非常規的潛入方式。",
 			typewriter = {
@@ -276,8 +276,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "至少從目前的實際情況看來……它們有。",
 			typewriter = {
@@ -293,8 +293,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 703010,
 			dir = 1,
+			actor = 703010,
 			nameColor = "#a9f548",
 			say = "我們的行動剛一結束白鷹艦隊就圍上來了，情報洩露？",
 			typewriter = {
@@ -310,8 +310,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "“密室”的確切位置一直是我們的最高機密，就算是白鷹加上皇家也不可能了解得太清楚。",
 			typewriter = {
@@ -327,8 +327,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 705040,
 			dir = 1,
+			actor = 705040,
 			nameColor = "#a9f548",
 			say = "不過……我們的行動時間和航線就另說了啊……",
 			typewriter = {
@@ -344,8 +344,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 702040,
 			dir = 1,
+			actor = 702040,
 			nameColor = "#a9f548",
 			say = "專門衝著我們過來…這麼來她們的目標果然是…………",
 			typewriter = {
@@ -358,17 +358,17 @@ return {
 			}
 		},
 		{
-			side = 1,
 			nameColor = "#a9f548",
-			bgName = "bg_cccpv2_12",
-			actorName = "薩拉托加",
+			side = 1,
 			dir = 1,
 			bgmDelay = 1,
-			say = "北方聯合的各位，很榮幸能在此處與妳們相遇，還有指揮官，好久不見~~",
+			bgName = "bg_cccpv2_12",
 			bgm = "bgm-cccp3",
+			actorName = "薩拉托加",
+			say = "北方聯合的各位，很榮幸能在此處與妳們相遇，還有指揮官，好久不見~~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -393,8 +393,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -409,8 +409,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "薩拉托加",
+			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -425,8 +425,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -441,8 +441,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "薩拉托加",
+			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "華盛頓",
+			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -473,8 +473,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "基洛夫",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -489,8 +489,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "基洛夫",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -505,8 +505,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "基洛夫",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -521,11 +521,11 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "大黃蜂",
+			side = 1,
 			bgName = "bg_cccpv2_12",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "如果按照流程來說的話……指揮官早就已經在皇家了哦！只不過因為之前發生了緊急戰況，這個調動過程被暫時延期了而已。",
 			typewriter = {
 				speed = 0.05,
@@ -542,8 +542,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "基洛夫",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -558,8 +558,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "謝菲爾德",
+			side = 1,
 			bgName = "bg_cccpv2_12",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -574,11 +574,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "蘇維埃白俄羅斯",
+			side = 2,
 			bgName = "bg_cccpv2_12",
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "什麼……那個皇家女王居然……？！",
 			typewriter = {
 				speed = 0.05,
@@ -595,8 +595,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_cccpv2_12",
 			dir = 1,
 			say = "（這種時候應該————————）",
@@ -611,8 +611,8 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "表示前往白鷹",
-					autochoice = 1
+					autochoice = 1,
+					content = "表示前往白鷹"
 				},
 				{
 					content = "表示留在北方聯合",
@@ -621,9 +621,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_cccpv2_12",
+			dir = 1,
 			say = "（不對……現在的狀況下好像說出哪個方案都不太合適……）",
 			typewriter = {
 				speed = 0.05,
@@ -638,8 +638,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "打擾了，這還真是個意外的驚喜啊，薩拉托加。",
 			typewriter = {
@@ -673,8 +673,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "我也是不久前知道的，正好在大會上作為緊急議題討論了一下。",
 			typewriter = {
@@ -708,8 +708,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "經過大會評估，北方聯合同意指揮官離開北方聯合前往白鷹的調動行動。",
 			typewriter = {
@@ -740,8 +740,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -753,8 +753,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "白俄羅斯，情況比較複雜，等妳們回來之後我們再細說。",
 			typewriter = {
@@ -770,8 +770,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			actor = 900218,
 			dir = 1,
+			actor = 900218,
 			nameColor = "#a9f548",
 			say = "指揮官同志，千里相隨終有一別，我們不會忘記您這段時間中為北方聯合做出的貢獻，期待未來再次與您並肩而戰的一天。",
 			typewriter = {
@@ -818,8 +818,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			say = "非常感謝，我也不會忘記這段與諸位一同並肩作戰的時光的。",
@@ -833,8 +833,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_story_bsmlevel",
 			dir = 1,
 			say = "在北方聯合駐紮期間經歷了熱情的招待與嚴酷的戰鬥，而現在終於到離開的時間了。",
@@ -848,12 +848,12 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 107030,
+			nameColor = "#a9f548",
 			say = "指揮官，走吧，讓我們一起回家吧~！",
 			typewriter = {
 				speed = 0.05,

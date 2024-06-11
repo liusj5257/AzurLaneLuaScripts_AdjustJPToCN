@@ -1,19 +1,19 @@
 return {
-	id = "WORLD501B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD501B",
 	fadein = 1.5,
 	scripts = {
 		{
 			paintingNoise = true,
 			side = 2,
+			voice = "event:/tb/33/tb-33",
+			dir = 1,
 			bgm = "xinnong-3",
 			actor = 900284,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "前哨基地からの連絡です",
-			voice = "event:/tb/33/tb-33",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,8 +27,8 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "指揮官、近くのエリアで余燼の痕跡をキャッチしたわ。目を付けられたかもしれない。気を付けて",
 			typewriter = {
 				speed = 0.05,
@@ -40,8 +40,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "もうひとりの主賓のお出ましか。",
 			typewriter = {
 				speed = 0.05,
@@ -53,8 +53,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…こちらが威力偵察に出ている間に、上層部からの連絡があったか聞くことにした。",
 			typewriter = {
 				speed = 0.05,
@@ -69,8 +69,8 @@ return {
 			actor = 102160,
 			nameColor = "#a9f548",
 			side = 2,
-			paintingNoise = true,
 			dir = 1,
+			paintingNoise = true,
 			say = "ええ、今の所上層部からの連絡はなしよ。威力偵察、前線の独自作戦って黙認してくれたみたい",
 			typewriter = {
 				speed = 0.05,
@@ -84,11 +84,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "オーダーを受領しました。余燼の座標情報をダウンロードします",
-			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,11 +101,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/38/tb-38",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "分析完了です。余燼の座標を端末画面に表示します。シグナルの特徴から、飛龍METAだと推定されます",
-			voice = "event:/tb/38/tb-38",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,8 +134,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 102230,
 			dir = 1,
+			actor = 102230,
 			say = "でも残念ながら精確な特定はまだできていない。それに解析装置が大きすぎるせいで量産艦では持ち運べないのも難点だ",
 			typewriter = {
 				speed = 0.05,
@@ -195,8 +195,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "やつらのステルス能力から考えると、私たちに発見されたくないなら、むやみに戦闘を行わねばそれで済むことだ",
 			typewriter = {
 				speed = 0.05,
@@ -256,8 +256,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 107060,
 			dir = 1,
+			actor = 107060,
 			say = "ここまで情報を開示してきたんだ。今は誘いを無視したとしても、後から絡んでくる可能性は大いにある",
 			typewriter = {
 				speed = 0.05,
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "……エンタープライズの提案には賛成だが、戦闘を避けるために可能な限り対話で解決しようと皆に繰り返して話した。",
 			typewriter = {
 				speed = 0.05,
@@ -297,8 +297,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "念のため、TBに前哨基地への連絡および、艦載機はいつでも攻撃できるよう上空で待機していてほしいと指示を出した。",
 			typewriter = {
 				speed = 0.05,
@@ -312,11 +312,11 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
+			dir = 1,
+			voice = "event:/tb/12/tb-12",
 			actor = 900284,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "オーダーを受領しました。前哨基地に指令をお送りします",
-			voice = "event:/tb/12/tb-12",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,8 +327,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "では準備が整ったら出発しよう",
 			typewriter = {
 				speed = 0.05,

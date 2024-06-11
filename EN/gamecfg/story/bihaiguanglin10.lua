@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIHAIGUANGLIN10",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIHAIGUANGLIN10",
 	fadein = 1.5,
 	scripts = {
 		{
-			soundeffect = "event:/battle/boom2",
 			side = 2,
-			bgName = "bg_daofeng_3",
-			nameColor = "#a9f548",
+			bgm = "map-longgong",
 			dir = 1,
 			bgmDelay = 1,
+			soundeffect = "event:/battle/boom2",
+			bgName = "bg_daofeng_3",
+			nameColor = "#a9f548",
 			say = "KABOOOOM!",
-			bgm = "map-longgong",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -73,8 +73,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			dir = 1,
 			say = "The seal around the mechanism dissipated under a fiery onslaught from Katsuragi's planes.",
@@ -88,8 +88,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Mysterious Voice",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			nameColor = "#ffff4d",
 			dir = 1,
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_daofeng_3",
 			dir = 1,
 			say = "As the mysterious voice faded, so too did the violent wind and waves.",
@@ -122,10 +122,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Huh, smashing that thing really did the trick!",
 			typewriter = {
 				speed = 0.05,
@@ -140,8 +140,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			nameColor = "#a9f548",
 			say = "Hey, uh... What's with this pedestal...?",
 			typewriter = {
@@ -157,8 +157,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301470,
 			dir = 1,
+			actor = 301470,
 			nameColor = "#a9f548",
 			say = "Yamakaze, I don't think it's advisable to touch other people's belongings...",
 			typewriter = {
@@ -174,8 +174,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "That's right! We're still in enemy territory, so don't go around touching random objects without telling us first!",
 			typewriter = {
@@ -191,8 +191,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			nameColor = "#a9f548",
 			say = "True, true! Phew, that was a close one...",
 			typewriter = {
@@ -205,8 +205,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -218,10 +218,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Say, how'd you know that the building was controlling everything?",
 			typewriter = {
 				speed = 0.05,
@@ -236,8 +236,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "Well, let's just say... This whole thing seems to be based off of the Sakura Empire's rituals, and I happen to know a thing or two about that... *snap*!",
 			typewriter = {
@@ -253,10 +253,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "Woaaah! That's incredible, Katsuragi!",
 			typewriter = {
 				speed = 0.05,
@@ -271,8 +271,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "Ahaha! Don't underestimate the power of a full-fledged aircraft carrier!",
 			typewriter = {
@@ -285,8 +285,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -298,10 +298,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#a9f548",
 			actor = 301290,
+			nameColor = "#a9f548",
+			hidePaintObj = true,
 			say = "I wonder who's more knowledgeable about these things between you and Yura~",
 			typewriter = {
 				speed = 0.05,
@@ -316,8 +316,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "Uh, about that! Not like it matters, because you have me here!",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 301480,
 			dir = 1,
+			actor = 301480,
 			nameColor = "#a9f548",
 			say = "Does it really not matter...?",
 			typewriter = {
@@ -366,9 +366,9 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_daofeng_3",
-			actor = 307120,
 			dir = 1,
 			blackBg = true,
+			actor = 307120,
 			nameColor = "#a9f548",
 			say = "Otherwise, we're going to fall behind Team Chikuma! Shimakaze, I'll be counting on you to scout ahead!",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

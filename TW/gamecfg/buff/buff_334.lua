@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "飞机轰炸点燃起火",
 	time = 15.1,
+	name = "飞机轰炸点燃起火",
+	init_effect = "",
 	picture = "",
 	desc = "持续伤害",
 	stack = 1,
@@ -15,13 +15,13 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				k = 0.1,
 				attr = "airPower",
-				exposeGroup = 1,
 				time = 3,
 				cloakExpose = 36,
-				number = 5,
+				exposeGroup = 1,
 				dotType = 1,
-				k = 0.1
+				number = 5
 			}
 		},
 		{

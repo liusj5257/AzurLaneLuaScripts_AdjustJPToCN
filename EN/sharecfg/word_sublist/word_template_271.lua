@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_271 = {}
 slot1 = slot0.word_template_271
 
-function temp()
+temp = function()
 	uv0["蘇"] = {
 		["菲"] = {
 			["爾"] = {
@@ -76,7 +76,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["俗"] = {
 		["人"] = {
 			["岛"] = {
@@ -88,7 +88,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["素"] = {
 		["人"] = {
 			["多"] = {
@@ -110,7 +110,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["速"] = {
 		["眠"] = {
 			["水"] = {
@@ -141,7 +141,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["溯"] = {
 		["水"] = {
 			["美"] = {
@@ -155,7 +155,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["随"] = {
 		["身"] = {
 			["带"] = {
@@ -182,7 +182,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["碎"] = {
 		["片"] = {
 			["製"] = {

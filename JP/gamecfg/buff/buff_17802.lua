@@ -139,9 +139,9 @@ return {
 			}
 		}
 	},
-	init_effect = "jinengchufablue",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "jinengchufablue",
 	picture = "",
 	desc = "护盾",
 	stack = 1,

@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_355 = {}
 slot1 = slot0.word_template_355
 
-function temp()
+temp = function()
 	uv0["同"] = {
 		["一"] = {
 			["教"] = {
@@ -15,7 +15,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["卢"] = {
 		["胜"] = {
 			["彦"] = {
@@ -27,7 +27,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["末"] = {
 		["世"] = {
 			["论"] = {
@@ -42,7 +42,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["朴"] = {
 		["叫"] = {
 			["呼"] = {

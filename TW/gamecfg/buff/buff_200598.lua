@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "2023云仙活动 A3/C3 结界护盾BUFF",
 	time = 0,
+	name = "2023云仙活动 A3/C3 结界护盾BUFF",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -16,8 +16,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.25
+				number = -0.25,
+				attr = "injureRatio"
 			}
 		}
 	}

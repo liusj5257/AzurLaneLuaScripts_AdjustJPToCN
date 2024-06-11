@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YIXIAN1",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YIXIAN1",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -23,8 +23,8 @@ return {
 		{
 			actor = 502020,
 			side = 0,
-			dir = -1,
 			say = "……",
+			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -59,8 +59,8 @@ return {
 		{
 			actor = 502020,
 			side = 0,
-			dir = -1,
 			say = "其实——",
+			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1

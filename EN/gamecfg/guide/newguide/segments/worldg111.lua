@@ -9,9 +9,9 @@ return {
 			style = {
 				text = "To uncover what’s really happening at the Siren research facility, you’ll need to get through their puzzling security!",
 				mode = 2,
-				posY = -100,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -100,
 				posX = 300
 			},
 			showSign = {
@@ -34,9 +34,9 @@ return {
 			style = {
 				text = "Remember: you can retreat at any point you want. But! This will reset the puzzle as well!",
 				mode = 2,
-				posY = -100,
-				char = "1",
 				dir = 1,
+				char = "1",
+				posY = -100,
 				posX = 500
 			},
 			showSign = {

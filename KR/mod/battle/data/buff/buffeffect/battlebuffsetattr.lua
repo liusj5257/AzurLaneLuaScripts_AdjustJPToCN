@@ -5,16 +5,16 @@ slot0.Battle.BattleBuffSetAttr.__name = "BattleBuffSetAttr"
 slot1 = slot0.Battle.BattleBuffSetAttr
 slot2 = slot0.Battle.BattleAttr
 
-function slot1.Ctor(slot0, slot1)
+slot1.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
-function slot1.SetArgs(slot0, slot1, slot2)
+slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._attr = slot0._tempData.arg_list.attr
 	slot0._value = slot0._tempData.arg_list.value
 end
 
-function slot1.onAttach(slot0, slot1, slot2)
+slot1.onAttach = function(slot0, slot1, slot2)
 	if slot0._attr == "TargetChoise" then
 		uv0.AddTargetSelect(slot1, slot0._value)
 	else
@@ -22,7 +22,7 @@ function slot1.onAttach(slot0, slot1, slot2)
 	end
 end
 
-function slot1.onRemove(slot0, slot1, slot2)
+slot1.onRemove = function(slot0, slot1, slot2)
 	if slot0._attr == "TargetChoise" then
 		uv0.RemoveTargetSelect(slot1, slot0._value)
 	else

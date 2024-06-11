@@ -1,6 +1,6 @@
 slot0 = class("BackyardMsgBoxMgr")
 
-function slot0.Init(slot0, slot1, slot2)
+slot0.Init = function(slot0, slot1, slot2)
 	slot0.view = slot1
 	slot0.loaded = false
 	slot3 = PoolMgr.GetInstance()
@@ -34,7 +34,7 @@ function slot0.Init(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0.view)
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	setActive(slot0.frame, true)
 	setActive(slot0.helpPanel, false)
 
@@ -50,7 +50,7 @@ function slot0.Show(slot0, slot1)
 	slot0:Common(slot1)
 end
 
-function slot0.Common(slot0, slot1)
+slot0.Common = function(slot0, slot1)
 	onButton(slot0.view, slot0.confirmBtn, function ()
 		if uv0.onYes then
 			uv0.onYes()
@@ -78,7 +78,7 @@ function slot0.Common(slot0, slot1)
 	})
 end
 
-function slot0.ShowHelp(slot0, slot1)
+slot0.ShowHelp = function(slot0, slot1)
 	setActive(slot0.frame, false)
 	setActive(slot0.helpPanel, true)
 
@@ -105,7 +105,7 @@ function slot0.ShowHelp(slot0, slot1)
 	slot0:Common(slot1)
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	slot0.onYes = nil
 	slot0.onNo = nil
 	slot0.isShowMsg = false
@@ -114,7 +114,7 @@ function slot0.Hide(slot0)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0._tf, pg.UIMgr.GetInstance().UIMain)
 end
 
-function slot0.Destroy(slot0)
+slot0.Destroy = function(slot0)
 	slot0.exited = true
 
 	if slot0.isShowMsg then

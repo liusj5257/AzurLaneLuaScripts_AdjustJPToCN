@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AILUNSAMUNA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AILUNSAMUNA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"Three-Star Luxury Romance\n\n<size=45>4.Shopping in the Daylight</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 103240,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "A'ight, we'll head down the street and look for the stuff the R&D girls wanted. Leaving the office supplies to you all~",
 			bgm = "story-1",
+			actor = 103240,
+			nameColor = "#a9f548",
+			say = "A'ight, we'll head down the street and look for the stuff the R&D girls wanted. Leaving the office supplies to you all~",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -84,13 +84,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_105",
+			side = 2,
+			dir = 1,
 			say = "After buying mostly everything on the shopping list, we returned to the meeting spot. Strangely, though...",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -118,8 +118,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "They're still not back...",
 			typewriter = {
@@ -132,9 +132,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "Allen and I were the only ones there.",
 			typewriter = {
 				speed = 0.05,
@@ -149,8 +149,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "This is awkward... The whole reason I invited 'em was so people wouldn't mistake us for a couple or something. Why'd they bail on us like that?",
 			typewriter = {
@@ -163,9 +163,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "We gave Bremerton a call. She said the things they bought were really heavy, so she and Stephen Potter went back to port early.",
 			typewriter = {
 				speed = 0.05,
@@ -180,8 +180,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "Welp. What do we do now, Commander? Go home?",
 			typewriter = {
@@ -194,9 +194,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "Allen sounded let down by this turn of events.",
 			typewriter = {
 				speed = 0.05,
@@ -208,9 +208,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "I arranged this outing expressly for Allen's sake. It would be a shame to conclude her day of leisure prematurely.",
 			typewriter = {
 				speed = 0.05,
@@ -225,8 +225,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "...We can have a look around the stores I wanna check out? Really?!",
 			typewriter = {
@@ -242,8 +242,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "Oh my gosh, thank you, Commander!",
 			typewriter = {
@@ -256,8 +256,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -269,8 +269,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "Don't get me wrong, I'm so happy you'd do that with me, but you don't HAVE to go that far just for me, you know...",
 			typewriter = {
@@ -283,9 +283,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_105",
+			dir = 1,
 			say = "I didn't have any obligations to tend to on that day, so I decided to spend it together with her.",
 			typewriter = {
 				speed = 0.05,
@@ -300,8 +300,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_105",
-			actor = 101450,
 			dir = 1,
+			actor = 101450,
 			nameColor = "#a9f548",
 			say = "Well, if you say it's fine, then I'm not gonna argue with that. Let's go!",
 			typewriter = {

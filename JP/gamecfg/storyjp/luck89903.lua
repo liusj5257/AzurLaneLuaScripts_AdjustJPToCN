@@ -1,15 +1,15 @@
 return {
-	id = "LUCK89903",
 	mode = 2,
-	fadein = 1.5,
 	once = true,
+	id = "LUCK89903",
+	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 899030,
 			dir = 1,
+			actor = 899030,
 			say = "英雄のウタを綴る吟遊詩人が今、英雄さんの加護を手に入れて…",
 			painting = {
 				alpha = 0.3,
@@ -39,8 +39,8 @@ return {
 			expression = 4,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 899030,
 			dir = 1,
+			actor = 899030,
 			say = "英雄さんが前へ進む限り、私はずっとそばに付き添い、共にこのウタを書き綴っていきましょう",
 			painting = {
 				alpha = 0.3,
@@ -55,8 +55,8 @@ return {
 			expression = 2,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 899030,
 			dir = 1,
+			actor = 899030,
 			say = "だってこのウタは、「英雄さんと詩人」の冒険譚とも言えるのですから",
 			painting = {
 				alpha = 0.3,

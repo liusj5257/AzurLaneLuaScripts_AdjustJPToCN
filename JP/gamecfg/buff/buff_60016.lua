@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "测试-衣阿华-技能触发被动",
 	time = 0,
+	name = "测试-衣阿华-技能触发被动",
+	init_effect = "",
 	picture = "",
 	desc = "白鹰之傲",
 	stack = 1,
@@ -25,11 +25,11 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				nationality = 1,
-				target = "TargetNationalityFriendly",
-				time = 20,
 				countType = 60016,
-				skill_id = 60009
+				skill_id = 60009,
+				time = 20,
+				nationality = 1,
+				target = "TargetNationalityFriendly"
 			}
 		}
 	}

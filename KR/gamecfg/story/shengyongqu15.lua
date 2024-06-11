@@ -1,17 +1,17 @@
 return {
-	id = "SHENGYONGQU15",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU15",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "모잠비크 해협·비시아 성좌 통제구역",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
 			bgmDelay = 0.5,
 			bgm = "level-french2",
+			say = "모잠비크 해협·비시아 성좌 통제구역",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -31,11 +31,11 @@ return {
 			}
 		},
 		{
-			say = "펑------!",
 			side = 2,
 			bgName = "bg_qiongding_1",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "펑------!",
 			flashN = {
 				color = {
 					1,
@@ -102,8 +102,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "알제리, 유감이지만… 정면으로 맞서면 아무리 당신의 전술이라도 화력 앞에서는 소용이 없답니다.",
 			typewriter = {
@@ -119,8 +119,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "일러스트리어스, 앞서 말한 대로 당신은 소드피쉬 뇌격기로 먼저 알제리 일행의 동력 시스템을 공격하기를 바라요. 베아른에게도 부탁합니다.",
 			typewriter = {
@@ -133,13 +133,13 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			soundeffect = "event:/battle/plane",
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "걱정 마세요. 그렇게 할 테니까요.",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,13 +150,13 @@ return {
 			}
 		},
 		{
+			side = 2,
+			bgName = "bg_qiongding_1",
+			dir = 1,
+			soundeffect = "event:/battle/plane",
 			actor = 807010,
-			side = 2,
-			bgName = "bg_qiongding_1",
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "네. 일러스트리어스 씨의 함재기를 엄호하겠습니다.",
-			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,15 +167,15 @@ return {
 			}
 		},
 		{
-			actor = 207030,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207030,
+			nameColor = "#a9f548",
 			say = "후후후, 이렇게 이렇게 달라 붙다니…! 대체 어디서 나온 대공 화력인거죠!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -203,11 +203,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 807010,
 			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			actor = 807010,
 			nameColor = "#a9f548",
 			say = "암초 사이에 발사 지점을 숨겨두다니… 분명 뇌격지로 유도하는 것은 우리라고 생각했는데요. 반대로 우리가 유인당했군요.",
-			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
 					1,
@@ -274,8 +274,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "괜찮습니다. 시간은 우리 편이니까요. 상대할 시간은 충분해요.",
 			typewriter = {
@@ -291,8 +291,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "모두 주의하십시오. 비시아 성좌의 진형이 흐트러졌습니다. 철수를 준비하는 것 같습니다.",
 			typewriter = {
@@ -326,8 +326,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 801040,
 			dir = 1,
+			actor = 801040,
 			nameColor = "#a9f548",
 			say = "그렇네요. 양산형 함대가 여러 뱡향으로 나뉘어서 도망가고 있습니다!",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -371,8 +371,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "뭔가 이상해요… 알제리가 지휘관인데, 도망을 가다니. 유인 작전이라고 생각해도 좋겠죠…",
 			typewriter = {
@@ -406,8 +406,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 201120,
 			dir = 1,
+			actor = 201120,
 			nameColor = "#a9f548",
 			say = "일, 일러스트리어스 언니. 어쩌죠?",
 			typewriter = {
@@ -471,8 +471,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "함대를 분산해 쫓는다면 우리가 점한 우세가 약해집니다. 분명 익숙하지 않은 지형 때문에 방어 시설에게 각개격파를 당할 수도 있겠지요.",
 			typewriter = {
@@ -504,8 +504,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 802020,
 			dir = 1,
+			actor = 802020,
 			nameColor = "#a9f548",
 			say = "유격 함대가 명령을 기다리고 있습니다, 리슐리외.",
 			typewriter = {
@@ -521,8 +521,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "추격을 하지 않는 것은 어떤가요?",
 			typewriter = {
@@ -554,8 +554,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "유격 함대를 불러들이세요. 비시아 성좌의 함대들은 무시합니다. 현재 대형을 유지하고 계속 성당이 있는 방향으로 전진하겠습니다.",
 			typewriter = {
@@ -571,8 +571,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_qiongding_1",
-			actor = 805010,
 			dir = 1,
+			actor = 805010,
 			nameColor = "#a9f548",
 			say = "우리는 그들을 무시할 수 있지만, 그들은 성당을 내버려둘 수 없지요. 성당을 탈환하는 그 즉시, 체크 메이트니까요!",
 			typewriter = {
@@ -585,8 +585,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

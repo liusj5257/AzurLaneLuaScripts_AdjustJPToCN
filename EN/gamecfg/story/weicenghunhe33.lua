@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WEICENGHUNHE33",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "WEICENGHUNHE33",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Bermuda Triangle - Mist",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "xinnong-3",
+			say = "Bermuda Triangle - Mist",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -24,9 +24,9 @@ return {
 			},
 			effects = {
 				{
-					active = true,
+					center = true,
 					name = "miwu_01",
-					center = true
+					active = true
 				}
 			},
 			typewriter = {
@@ -39,9 +39,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "The Baltimore fleet was locked in combat with Purifier.",
 			typewriter = {
 				speed = 0.05,
@@ -53,11 +53,11 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			nameColor = "#ff5c5c",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900021,
 			actorName = "Purifier",
 			say = "Can't catch me~",
 			typewriter = {
@@ -107,8 +107,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Since that wave, it's clear that Purifier is just here to waste our time, but we can't do anything about it right now...",
 			typewriter = {
@@ -121,11 +121,11 @@ return {
 			}
 		},
 		{
-			say = "BOOOOOM--!",
 			side = 2,
 			bgName = "bg_xiangting_3",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "BOOOOOM--!",
 			flashN = {
 				color = {
 					1,
@@ -176,8 +176,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Was that... the sound of battle?",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1,
 					dur = 0.5,
 					x = -2500
@@ -235,11 +235,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "Come back here!",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -261,9 +261,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
+			dir = 1,
 			say = "Another figure emerged from the mist...",
 			typewriter = {
 				speed = 0.05,
@@ -275,11 +275,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "......",
 			typewriter = {
@@ -292,11 +292,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "Ember...?",
 			dialogShake = {
 				speed = 0.09,
@@ -313,11 +313,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "The Commander isn't here?",
 			typewriter = {
@@ -333,8 +333,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 103160,
 			dir = 1,
+			actor = 103160,
 			nameColor = "#a9f548",
 			say = "...I have nothing to say to you.",
 			typewriter = {
@@ -347,11 +347,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "I see...",
 			typewriter = {
@@ -367,8 +367,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "Hold on! Wait, thanks for helping us!",
 			typewriter = {
@@ -381,8 +381,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -391,11 +391,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "……",
 			typewriter = {
@@ -411,8 +411,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "But, where are we? What should we do next?",
 			typewriter = {
@@ -425,11 +425,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "Not far from where you need to be.",
 			typewriter = {
@@ -445,8 +445,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102050,
 			dir = 1,
+			actor = 102050,
 			nameColor = "#a9f548",
 			say = "Is this mist moving us around?",
 			typewriter = {
@@ -459,11 +459,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "The Sirens are toying with you once again. \"Microlayer medley,\" a compound that creates a signal-jamming mist.",
 			typewriter = {
@@ -476,11 +476,11 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 103160,
+			nameColor = "#a9f548",
 			say = "I knew those blasted Sirens were up to no good...!",
 			dialogShake = {
 				speed = 0.09,
@@ -500,8 +500,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			actor = 102160,
 			dir = 1,
+			actor = 102160,
 			nameColor = "#a9f548",
 			say = "How do we get out of this place?",
 			typewriter = {
@@ -530,11 +530,11 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
+			actor = 900135,
 			actorName = "？？？",
 			say = "...The jamming mist generator mechanism...",
 			typewriter = {
@@ -547,12 +547,12 @@ return {
 			}
 		},
 		{
-			actor = 900135,
 			nameColor = "#ffa500",
-			bgName = "bg_xiangting_3",
 			side = 2,
+			bgName = "bg_xiangting_3",
 			dir = 1,
 			blackBg = true,
+			actor = 900135,
 			actorName = "？？？",
 			say = "Hmm... If I remember properly, the way it was made...",
 			typewriter = {

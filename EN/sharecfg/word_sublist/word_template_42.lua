@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_42 = {}
 slot1 = slot0.word_template_42
 
-function temp()
+temp = function()
 	uv0["澳"] = {
 		["洲"] = {
 			["光"] = {
@@ -165,7 +165,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["八"] = {
 		["背"] = {
 			["飞"] = {
@@ -994,7 +994,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["巴"] = {
 		["巴"] = {
 			["拉"] = {
@@ -1078,7 +1078,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["扒"] = {
 		["屄"] = {
 			this = true
@@ -1116,7 +1116,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["疤"] = {
 		["痕"] = {
 			["治"] = {
@@ -1130,7 +1130,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["拔"] = {
 		["屄"] = {
 			this = true,
@@ -1153,7 +1153,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["把"] = {
 		["邓"] = {
 			["小"] = {

@@ -1,8 +1,8 @@
 return {
-	id = "DAFUWENGEVENT8-1",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "DAFUWENGEVENT8-1",
+	skipTip = false,
 	scripts = {
 		{
 			say = "後ろからグローウォームに頭突きされた……1マス進んだ！"

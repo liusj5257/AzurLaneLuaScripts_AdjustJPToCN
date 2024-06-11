@@ -1,7 +1,7 @@
 return {
-	init_effect = "",
-	name = "战术模拟",
 	time = 0,
+	name = "战术模拟",
+	init_effect = "",
 	picture = "",
 	desc = "重型主炮开火时有几率发动，额外进行一轮攻击",
 	stack = 1,

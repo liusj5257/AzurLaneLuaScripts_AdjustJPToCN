@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIXUEGUI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIXUEGUI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"백의의 천사 or 악마?\n\n<size=45>제5장 - 프로 간호사 뱀파이어</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 301320,
-			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "지…히…간……",
 			bgm = "story-1",
+			actor = 301320,
+			nameColor = "#a9f548",
+			say = "지…히…간……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -52,12 +52,12 @@ return {
 			}
 		},
 		{
-			actor = 301330,
+			say = "{namecode:33}, 괜찮아?",
 			side = 1,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "{namecode:33}, 괜찮아?",
+			actor = 301330,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -75,8 +75,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "응…아마 가벼운 몸살이었을 거야. 그래도 안심하면 안 돼. {namecode:34}, 젖은 수건 두 개랑 물 한 대접, 가져다줄 수 있을까?",
 			typewriter = {
@@ -105,15 +105,15 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 312010,
+			nameColor = "#a9f548",
 			say = "할 수 있는 건 다 했다냥, 한 숨 푹 자고 일어나면 정신을 차릴 거다냥. 보아하니 {namecode:98}가 나설 기회는 없었던 것 같구냥?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -141,10 +141,10 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
-			dir = 1,
-			nameColor = "#a9f548",
 			say = "후……다행이다.",
+			dir = 1,
+			actor = 201232,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -178,8 +178,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "……역시 됐어, 난 간호에 간자도 모르는걸, 책 몇 줄 본 게 다야…그리고 그전엔 모두에게 폐만 끼쳤고……",
 			typewriter = {
@@ -211,8 +211,8 @@ return {
 			expression = 3,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "뭐?! 너너너, 어떻게 안 거야?!",
 			typewriter = {
@@ -225,10 +225,10 @@ return {
 			},
 			action = {
 				{
-					number = 1,
+					y = 30,
 					dur = 0.2,
-					type = "shake",
-					y = 30
+					number = 1,
+					type = "shake"
 				}
 			}
 		},
@@ -252,8 +252,8 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_room",
-			actor = 201232,
 			dir = 1,
+			actor = 201232,
 			nameColor = "#a9f548",
 			say = "……그래?",
 			typewriter = {
@@ -266,12 +266,12 @@ return {
 			}
 		},
 		{
-			actor = 201232,
+			say = "지휘관, 앞으로도 이 옷 계속 입어도 돼? 약속할게. 당신을 유혹할 뿐만 아니라, 간호사로서의 의무도 제대로 다 할 테니까~",
 			side = 2,
 			bgName = "bg_story_room",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "지휘관, 앞으로도 이 옷 계속 입어도 돼? 약속할게. 당신을 유혹할 뿐만 아니라, 간호사로서의 의무도 제대로 다 할 테니까~",
+			actor = 201232,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 2

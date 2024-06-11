@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DIEHAIMENGHUA28",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DIEHAIMENGHUA28",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 307080,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 1,
-			say = "(I almost got swept up by the craziness... but at least I managed to make it out...)",
 			bgm = "story-1",
+			actor = 307080,
+			nameColor = "#a9f548",
+			say = "(I almost got swept up by the craziness... but at least I managed to make it out...)",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -37,8 +37,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(There is a warmth to this world... that I have never experienced before... Why...)",
 			typewriter = {
@@ -54,8 +54,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(And that building over there...)",
 			typewriter = {
@@ -68,15 +68,15 @@ return {
 			}
 		},
 		{
-			actor = 201010,
 			side = 2,
 			bgName = "star_level_bg_113",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201010,
+			nameColor = "#a9f548",
 			say = "And that concludes class for this semester! Be careful during summer vacation, and remember to do your homework!",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -101,11 +101,11 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "star_level_bg_113",
-			actorName = "Destroyers",
 			dir = 1,
+			actorName = "Destroyers",
 			say = "Yes ma'am!",
 			dialogShake = {
 				speed = 0.09,
@@ -141,8 +141,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 301820,
 			dir = 1,
+			actor = 301820,
 			nameColor = "#a9f548",
 			say = "Yes! I'll finally be able to tend to my flowers after that... I wonder which flower I should start with...",
 			typewriter = {
@@ -158,8 +158,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "Jeez, didn't you say you were going to do your homework first? ...Woah! Pooky! You can't come out yet!",
 			typewriter = {
@@ -175,8 +175,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 301820,
 			dir = 1,
+			actor = 301820,
 			nameColor = "#a9f548",
 			say = "Um... If you're worried about Ms. Amazon chewing you out, why not leave Pooky in the dorms?",
 			typewriter = {
@@ -192,8 +192,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "Well, Pooky would be lonely then! I could ask Commander to help out, but that'd probably be a nuisance...",
 			typewriter = {
@@ -209,8 +209,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 301820,
 			dir = 1,
+			actor = 301820,
 			nameColor = "#a9f548",
 			say = "I can take care of Pooky if you'd like? He seems to be fond of sunflower seeds.",
 			typewriter = {
@@ -226,8 +226,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 301840,
 			dir = 1,
+			actor = 301840,
 			nameColor = "#a9f548",
 			say = "Really? Thanks a ton~ I owe you one!",
 			typewriter = {
@@ -240,8 +240,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -253,8 +253,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(Destroyers... going to school together...)",
 			typewriter = {
@@ -270,8 +270,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(The children of the Sakura Empire... hand in hand with children of the Royal Navy... I see, this is a dream of Azur Lane, reunited...)",
 			typewriter = {
@@ -287,8 +287,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(This idyllic scenery of friendship... Alas, 'tis but a dream...)",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#a9f548",
 			say = "Eh?! Wh-what's your problem? I'm just watching my cute little destroyers leave school together! I'm not up to anything suspicious!",
 			typewriter = {
@@ -334,16 +334,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -355,8 +355,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 307080,
 			dir = 1,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "\"Your unasked-for justification... only makes you more suspicious...\"",
 			typewriter = {
@@ -372,8 +372,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#a9f548",
 			say = "No, no! You see, with so many energetic destroyers frolicking about, it would be dangerous if they all started running around and bumping into one another! Therefore, it is my duty to watch over them!",
 			typewriter = {
@@ -386,16 +386,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.1,
 					x = 0,
@@ -423,8 +423,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 207020,
 			dir = 1,
+			actor = 207020,
 			nameColor = "#a9f548",
 			say = "Makes sense, right? Besides, you look like you hit your head on the way here, so surely you would understand such dangers!",
 			typewriter = {
@@ -437,8 +437,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.1,
 					x = -2500
@@ -449,9 +449,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_113",
-			actor = 307080,
 			dir = 1,
 			blackBg = true,
+			actor = 307080,
 			nameColor = "#a9f548",
 			say = "(I understand... nothing at all...)",
 			typewriter = {

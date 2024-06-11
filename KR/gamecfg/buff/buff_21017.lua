@@ -2,14 +2,14 @@ return {
 	{
 		desc = "主炮每进行16次攻击，触发全弹发射-部族级II"
 	},
-	init_effect = "",
-	name = "全弹发射",
 	time = 0,
-	color = "red",
+	name = "全弹发射",
+	init_effect = "",
+	id = 21017,
 	picture = "",
 	desc = "主炮每进行16次攻击，触发全弹发射-部族级II",
 	stack = 1,
-	id = 21017,
+	color = "red",
 	icon = 20000,
 	last_effect = "",
 	effect_list = {
@@ -19,9 +19,9 @@ return {
 				"onFire"
 			},
 			arg_list = {
-				countType = 21015,
-				countTarget = 16,
 				gunnerBonus = true,
+				countTarget = 16,
+				countType = 21015,
 				index = {
 					1
 				}
@@ -33,8 +33,8 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
 				skill_id = 21017,
+				target = "TargetSelf",
 				countType = 21015
 			}
 		}

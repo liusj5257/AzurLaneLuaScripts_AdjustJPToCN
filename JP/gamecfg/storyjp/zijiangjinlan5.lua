@@ -1,21 +1,21 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZIJIANGJINLAN5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZIJIANGJINLAN5",
 	fadein = 1.5,
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_wuzang_bg3",
+			nameColor = "#A9F548FF",
+			bgm = "musashi-1",
 			stopbgm = true,
 			say = "演習海域にて・1ターン目（長門）",
-			bgm = "musashi-1",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "比叡姉さんの考え過ぎじゃないですか？もしかしたら席順でそのまま決めただけってことも",
 			painting = {
@@ -88,8 +88,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "つまり…この順番は予め決められてたってこと？",
 			painting = {
@@ -121,8 +121,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "そうだといいですけど…長門さまも赤城さんや大先輩と同じく、武蔵さん側の境界線を攻めるのですね",
 			painting = {
@@ -138,8 +138,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "余の「采配」を伝えよう",
 			painting = {
@@ -155,8 +155,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "榛名と春月は武蔵との境界線に近いエリアに移動して、艦隊の足止めに務めよ",
 			painting = {
@@ -172,8 +172,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "量産型の艦隊は「神木」拠点を囲むように移動せよ",
 			painting = {
@@ -189,8 +189,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "比叡、江風と翔鶴は隣の拠点を攻略し、次の指示まで待機だ",
 			painting = {
@@ -224,8 +224,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 305050,
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			say = "余がここで「さぽーと」をするがゆえ、安心して進むが良い",
 			painting = {
@@ -238,8 +238,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "長門が話し終わると、艦隊の上空に盾のシンボルが現れ、そして艦隊の前方にシールドが出現した。",
 			typewriter = {
@@ -283,8 +283,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "長門さまは様子見ではなく、まずは手近の拠点から堅実に攻略していくのね",
 			painting = {
@@ -377,8 +377,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "演習海域にて・1ターン目（長門）",
 			typewriter = {
@@ -386,17 +386,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "拠点周辺のエリアを占拠すると、艦隊は拠点に攻め入ることができる。",
 			typewriter = {
@@ -414,8 +414,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_wuzang_bg3",
 			say = "そこには「敵役」として、セイレーンのスペアボディが配置されており、それを倒せば拠点の占拠となる。",
 			typewriter = {
@@ -443,8 +443,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "え？セイレーンがいるの！？でもコンダクターだからまだ余裕で倒せそうね…",
 			painting = {
@@ -492,8 +492,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_wuzang_bg3",
-			actor = 304030,
 			dir = 1,
+			actor = 304030,
 			nameColor = "#A9F548FF",
 			say = "見た感じ、セイレーンのあの禍々しい雰囲気はないけど、だからといって味方ってわけでもなさそうね",
 			painting = {

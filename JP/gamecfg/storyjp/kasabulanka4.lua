@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KASABULANKA4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KASABULANKA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ラブロマンスは突然に\n\n<size=45>四　言葉にできない</size>",
@@ -17,17 +17,17 @@ return {
 			}
 		},
 		{
-			actor = 106550,
-			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "（はぁ……この前観た映画のヒロイン……どうして大切な人との別れを選択したの……私なら耐えられないわ）",
 			bgm = "story-1",
+			actor = 106550,
+			nameColor = "#a9f548",
+			say = "（はぁ……この前観た映画のヒロイン……どうして大切な人との別れを選択したの……私なら耐えられないわ）",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -55,8 +55,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（相手の立場を思っての選択なのは理解できますが……それでも立ちはだかる障壁なんて互いの愛でどうにか……）",
 			typewriter = {
@@ -104,8 +104,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "そうね。どうやら見たところ何か考え事しているようだけど",
 			typewriter = {
@@ -121,8 +121,8 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "そういえば最近秘書艦になったって聞いたし、何か悩み事があるのかもしれないですね",
 			typewriter = {
@@ -138,8 +138,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（そして打ち明けないまま…まるで私と指揮官のように…）",
 			typewriter = {
@@ -155,8 +155,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "大丈夫？カサブランカ",
 			typewriter = {
@@ -172,8 +172,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "きゃあ！！？",
 			typewriter = {
@@ -186,8 +186,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -215,8 +215,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "え……あ、す、すみません。近くに誰かいるなんて気づかなくて",
 			typewriter = {
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,8 +242,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "そんなに何か思い詰めてるの？もし悩んでいるようなら私、相談に乗りますよ",
 			typewriter = {
@@ -275,8 +275,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（趣味のこと、そして私と指揮官のこと……はっ）",
 			typewriter = {
@@ -292,8 +292,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（…！？私、いま何を……）",
 			typewriter = {
@@ -309,8 +309,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "い、いいえ……別に相談ってほどでも……",
 			typewriter = {
@@ -358,8 +358,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "その――なに？",
 			typewriter = {
@@ -375,8 +375,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（まさか、ロマンス映画の主人公に感情移入して思い詰めてただなんて……さすがに言えるわけがない……）",
 			typewriter = {
@@ -423,14 +423,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			bgName = "star_level_bg_103",
 			actor = 106550,
-			dir = 1,
 			nameColor = "#a9f548",
 			say = "――という感じで…お互いの身分を隠していた二人の正体が知れたら今まで通りにはいかなくなりますよね？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -458,8 +458,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "対等に付き合っていた二人の関係が崩れた時、悲しい別れがやってくるなんて…あんまりだと思いませんか？",
 			typewriter = {
@@ -472,8 +472,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -485,8 +485,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107230,
 			dir = 1,
+			actor = 107230,
 			nameColor = "#a9f548",
 			say = "えっと……同じ母港内で別れってあるの？別に所属が変わっても作戦で会うことなんてしょっちゅうだと思うけど",
 			typewriter = {
@@ -518,8 +518,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 107290,
 			dir = 1,
+			actor = 107290,
 			nameColor = "#a9f548",
 			say = "それに、上司と部下だってことがお互いにわかれば、むしろ立場がはっきりして作戦行動もとりやすくなりますし……",
 			typewriter = {
@@ -535,8 +535,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "そ、そうじゃなくて……それまでの関係性が変わって今まで通りにいかなくなることで「切なさ」が……",
 			typewriter = {
@@ -549,8 +549,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -559,10 +559,10 @@ return {
 			}
 		},
 		{
-			actor = 107230,
 			nameColor = "#a9f548",
-			bgName = "star_level_bg_103",
 			side = 0,
+			bgName = "star_level_bg_103",
+			actor = 107230,
 			dir = 1,
 			hideOther = true,
 			actorName = "プリンストン＆バターン",
@@ -588,8 +588,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "あぁ……そ、そうじゃないんです…っ！",
 			typewriter = {
@@ -621,8 +621,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（指揮官と秘書艦、最初から上司と部下の関係…でも素直に聞いてくださった指揮官に、私がつい…）",
 			typewriter = {
@@ -638,9 +638,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 106550,
 			dir = 1,
 			blackBg = true,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "（ああ、私、思い上がったのでしょうか…）",
 			typewriter = {
@@ -653,8 +653,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

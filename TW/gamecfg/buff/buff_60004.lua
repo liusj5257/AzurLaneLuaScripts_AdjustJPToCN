@@ -10,15 +10,15 @@ return {
 				},
 				arg_list = {
 					group = 60004,
-					attr = "DMG_TAG_EHC_T_1",
-					number = 1
+					number = 1,
+					attr = "DMG_TAG_EHC_T_1"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "测试对固定类型舰娘的伤害加成",
 	time = 60,
+	name = "测试对固定类型舰娘的伤害加成",
+	init_effect = "",
 	picture = "",
 	desc = "测试对固定类型舰娘的伤害加成",
 	stack = 1,
@@ -34,8 +34,8 @@ return {
 			},
 			arg_list = {
 				group = 60004,
-				attr = "DMG_TAG_EHC_T_1",
-				number = 1
+				number = 1,
+				attr = "DMG_TAG_EHC_T_1"
 			}
 		}
 	}

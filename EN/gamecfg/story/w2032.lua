@@ -1,12 +1,12 @@
 return {
-	id = "W2032",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W2032",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "The jamming device has been dealt with.You obtained a resource cache.",
 			typewriter = {
 				speed = 0.05,

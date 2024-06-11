@@ -1,6 +1,6 @@
 slot0 = class("GuildActiveEventCommand", import(".GuildEventBaseCommand"))
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = getProxy(GuildProxy)
 
 	if not slot0:ExistEvent(slot1:getBody().eventId) then

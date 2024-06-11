@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIAOQIANGMANHUA3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIAOQIANGMANHUA3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"月刊漫畫Javelin\n\n<size=45>三　……奇怪的信？</size>",
@@ -17,12 +17,12 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			blackBg = true,
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -49,8 +49,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			blackBg = true,
+			stopbgm = true,
 			mode = 1,
 			sequence = {
 				{
@@ -64,8 +64,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			blackBg = true,
+			stopbgm = true,
 			mode = 1,
 			sequence = {
 				{
@@ -79,8 +79,8 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			blackBg = true,
+			stopbgm = true,
 			mode = 1,
 			sequence = {
 				{
@@ -94,13 +94,13 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "……這都是什麼？",
 			bgm = "story-1",
+			actor = 201210,
+			nameColor = "#a9f548",
+			say = "……這都是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,10 +175,10 @@ return {
 			}
 		},
 		{
-			actor = 101170,
 			actorName = "拉菲&{namecode:6}",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
+			actor = 101170,
 			dir = 1,
 			hideOther = true,
 			nameColor = "#a9f548",
@@ -193,15 +193,15 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "獨角獸也不是很清楚……",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -226,11 +226,11 @@ return {
 			}
 		},
 		{
-			actor = 206030,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 206030,
+			nameColor = "#a9f548",
 			say = "類似的信…？從、從來沒有收到過哦！？",
 			typewriter = {
 				speed = 0.05,
@@ -242,8 +242,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 25,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -252,15 +252,15 @@ return {
 			}
 		},
 		{
-			actor = 202170,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 202170,
+			nameColor = "#a9f548",
 			say = "唔，世界的真實…難道寫信的人是“能力者”…！？",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -317,15 +317,15 @@ return {
 			}
 		},
 		{
-			actor = 401460,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401460,
+			nameColor = "#a9f548",
 			say = "…確實不是很好理解，但並非無法解讀。",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 201210,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 201210,
+			nameColor = "#a9f548",
 			say = "真的嘛！？Z46，幫大忙了！",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 25,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

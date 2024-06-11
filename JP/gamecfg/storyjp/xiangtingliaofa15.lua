@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIANGTINGLIAOFA15",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "XIANGTINGLIAOFA15",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 103160,
-			side = 0,
-			bgm = "battle-boss-4",
-			nameColor = "#a9f548",
-			dir = 1,
-			say = "くっ…！8インチ砲じゃ装甲を貫通するのは無理か…！",
 			soundeffect = "event:/battle/boom2",
+			side = 0,
+			dir = 1,
+			bgm = "battle-boss-4",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "くっ…！8インチ砲じゃ装甲を貫通するのは無理か…！",
 			flashN = {
 				color = {
 					1,
@@ -64,8 +64,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "もう終わり？さっきまでの威勢は？",
 			typewriter = {
 				speed = 0.05,
@@ -94,9 +94,9 @@ return {
 		{
 			expression = 2,
 			side = 0,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "セイレーン、なにか勘違いしているようだな",
 			typewriter = {
 				speed = 0.05,
@@ -108,8 +108,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,9 +135,9 @@ return {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "これでお前を指揮官の用意した「場所」まで完全に誘い込めた！",
 			typewriter = {
 				speed = 0.05,
@@ -158,8 +158,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "なっ！？！？",
 			typewriter = {
 				speed = 0.05,
@@ -171,10 +171,10 @@ return {
 			}
 		},
 		{
+			say = "（ドーーン！！）",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "（ドーーン！！）",
 			flashN = {
 				color = {
 					1,
@@ -222,10 +222,10 @@ return {
 			}
 		},
 		{
+			say = "（ドーーン！！）",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "（ドーーン！！）",
 			flashN = {
 				color = {
 					1,
@@ -276,8 +276,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "16インチ砲による長距離射撃…！？",
 			typewriter = {
 				speed = 0.05,
@@ -289,10 +289,10 @@ return {
 			}
 		},
 		{
+			say = "（ドーーン！！）",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "（ドーーン！！）",
 			flashN = {
 				color = {
 					1,
@@ -355,10 +355,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "アラバマ",
+			side = 2,
 			dir = 1,
+			actorName = "アラバマ",
 			say = "あたった？…ちょっと遠距離すぎるから、着弾観測、微妙かも…",
 			effects = {
 				{
@@ -378,9 +378,9 @@ return {
 		{
 			expression = 1,
 			side = 2,
+			dir = 1,
 			actor = 103160,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "いや、直撃だ。感謝する",
 			effects = {
 				{
@@ -398,10 +398,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#a9f548",
-			actorName = "アラバマ",
+			side = 2,
 			dir = 1,
+			actorName = "アラバマ",
 			say = "うん…ボルチモアの誘導のおかげ、ね",
 			effects = {
 				{
@@ -419,11 +419,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター",
+			actor = 900011,
 			dir = 1,
+			actorName = "テスター",
 			say = "…………",
 			effects = {
 				{
@@ -444,8 +444,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "この程度の犠牲など、進化と変革の果てにある救いと比べたら海の中のあわ粒に過ぎないわ",
 			typewriter = {
 				speed = 0.05,
@@ -494,8 +494,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "無知を振りかざしながら、負の感情を律することなくただただ相手にぶつけ続ける――それでこそ実験対象らしい反応ね",
 			typewriter = {
 				speed = 0.05,
@@ -552,8 +552,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -565,8 +565,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 1,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "………………",
 			typewriter = {
 				speed = 0.05,
@@ -596,9 +596,9 @@ return {
 			actor = 107030,
 			nameColor = "#a9f548",
 			side = 2,
-			soundeffect = "event:/battle/plane",
 			dir = 1,
 			say = "サラトガちゃん登場！指揮官、応援に来たよ！",
+			soundeffect = "event:/battle/plane",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,8 +642,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "確かにおしゃべりがすぎたわ",
 			typewriter = {
 				speed = 0.05,
@@ -658,8 +658,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "残念ね。もう時間よ",
 			typewriter = {
 				speed = 0.05,
@@ -671,10 +671,10 @@ return {
 			}
 		},
 		{
+			say = "（ドーーン！！）",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "（ドーーン！！）",
 			flashN = {
 				color = {
 					1,
@@ -722,10 +722,10 @@ return {
 			}
 		},
 		{
+			say = "（ドーーン！！）",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "（ドーーン！！）",
 			flashN = {
 				color = {
 					1,
@@ -788,8 +788,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -813,8 +813,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -838,8 +838,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "通信機",
+			side = 2,
 			nameColor = "#a9f548",
 			dir = 1,
 			say = "ザザザ……",
@@ -883,12 +883,12 @@ return {
 			}
 		},
 		{
-			actor = 103160,
 			side = 2,
-			nameColor = "#a9f548",
-			say = "何をした！テスター！",
 			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			actor = 103160,
+			nameColor = "#a9f548",
+			say = "何をした！テスター！",
 			flashN = {
 				color = {
 					1,
@@ -939,8 +939,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "フフフ、今回の実験はまだ始まったばかりよ。アイツの言葉を借りれば――",
 			typewriter = {
 				speed = 0.05,
@@ -955,8 +955,8 @@ return {
 			actor = 900011,
 			nameColor = "#ff5c5c",
 			side = 2,
-			actorName = "テスター",
 			dir = 1,
+			actorName = "テスター",
 			say = "「これは『歴史』の『再現』ではなく、あなた達の『物語』よ。さぁ、各々の役目を十分に果たしなさいな――」",
 			typewriter = {
 				speed = 0.05,
@@ -1058,8 +1058,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -1071,8 +1071,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "それは、信じられない光景だった。",
 			typewriter = {
 				speed = 0.05,
@@ -1084,8 +1084,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーン艦隊の中に、たった一人静かに佇んでいる「彼女」。",
 			typewriter = {
 				speed = 0.05,
@@ -1097,8 +1097,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "あの姿は、まるで――",
 			typewriter = {
 				speed = 0.05,
@@ -1110,17 +1110,17 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			actorName = "？？",
-			stopbgm = true,
 			side = 2,
 			dir = 1,
 			blackBg = true,
+			stopbgm = true,
+			actor = 900189,
 			nameColor = "#ff6100",
 			say = "そろそろ完成だな",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -1145,12 +1145,12 @@ return {
 			}
 		},
 		{
-			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900190,
+			actorName = "？？？？",
 			say = "……ああ",
 			typewriter = {
 				speed = 0.05,
@@ -1162,12 +1162,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？",
 			say = "お主の目標、あの「ヒト」であると断定できるか？",
 			typewriter = {
 				speed = 0.05,
@@ -1179,12 +1179,12 @@ return {
 			}
 		},
 		{
-			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900190,
+			actorName = "？？？？",
 			say = "…ああ。あの人だと、感じる",
 			typewriter = {
 				speed = 0.05,
@@ -1196,12 +1196,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？",
 			say = "だが、本当にこれでいいのか？",
 			typewriter = {
 				speed = 0.05,
@@ -1213,12 +1213,12 @@ return {
 			}
 		},
 		{
-			actor = 900190,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900190,
+			actorName = "？？？？",
 			say = "……後悔はしない",
 			typewriter = {
 				speed = 0.05,
@@ -1230,12 +1230,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？？？",
 			say = "全ては、「■■■」の願いを叶えるために",
 			typewriter = {
 				speed = 0.05,
@@ -1247,12 +1247,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？",
 			say = "……ならば、「拙者」も任を全うするとしよう",
 			typewriter = {
 				speed = 0.05,
@@ -1264,12 +1264,12 @@ return {
 			}
 		},
 		{
-			actor = 900189,
 			nameColor = "#ff6100",
 			side = 2,
-			actorName = "？？",
 			dir = 1,
 			blackBg = true,
+			actor = 900189,
+			actorName = "？？",
 			say = "お主に呼び起こされた者、未だ燃え尽きぬ「余燼（よじん）」として――",
 			typewriter = {
 				speed = 0.05,

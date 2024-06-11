@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHUANGJIA6",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "ZHUANGJIA6",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"『装甲騎兵ボトムズ』コラボシナリオ\n\n<size=45>第六話  交錯</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			side = 2,
 			bgName = "bg_night",
 			actorName = "ピュリファイアー",
+			bgm = "battle-boss-4",
+			actor = 900021,
 			nameColor = "#D6341DFF",
 			say = "もう戦わないの？じゃあ全員死刑ー！まとめて死ぬがいいわ！！",
-			bgm = "battle-boss-4",
 			effects = {
 				{
 					active = true,
@@ -31,8 +31,8 @@ return {
 				}
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -103,8 +103,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -128,8 +128,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -153,8 +153,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -163,8 +163,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？（通信）",
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "「待て。殿なら俺ひとりでいい。やつの足を止める。」",
@@ -199,8 +199,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？（通信）",
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "「お前もそう思うか。」",
@@ -214,8 +214,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？（通信）",
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "「俺がやつの隙きをつくり、その間にお前たちが集中砲火で仕留める。」",
@@ -229,8 +229,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？（通信）",
+			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			say = "「心配は不要だ。俺は簡単には死なない。」",
@@ -244,15 +244,15 @@ return {
 			}
 		},
 		{
-			actor = 303030,
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 1,
+			actor = 303030,
 			say = "マーシィドッグが今度はピュリファイアーに向けて突撃していく！チャンスは今よ！",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -283,8 +283,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.1,
 					x = 0,
@@ -325,16 +325,16 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/canon-main",
 			side = 2,
 			bgName = "bg_night",
+			bgm = "story-7",
+			bgmDelay = 1,
+			soundeffect = "event:/battle/canon-main",
 			actorName = "？？？",
 			say = "連合艦隊全艦、全砲門開け！一斉攻撃せよ！",
-			bgmDelay = 1,
-			bgm = "story-7",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -359,14 +359,14 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
-			side = 2,
 			bgName = "bg_night",
-			say = "我が王家の栄光にかけて、眼前の敵は残らず叩きのめすわよ！全艦突撃、行きなさい！",
+			side = 2,
 			soundeffect = "event:/battle/canon-main",
+			actorName = "？？？",
+			say = "我が王家の栄光にかけて、眼前の敵は残らず叩きのめすわよ！全艦突撃、行きなさい！",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -391,14 +391,14 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
-			side = 2,
 			bgName = "bg_night",
+			side = 2,
+			soundeffect = "event:/battle/plane",
+			actorName = "？？？",
 			say = "鉄血の兵士たちよ！敵を引き裂く狩りの時間だ！",
-			soundeffect = "event:/battle/plane",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -423,14 +423,14 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
-			side = 2,
 			bgName = "bg_night",
-			say = "まったくビッグEも頼りないんだから～。みんな！戦闘を始めるよ～残らずやっつけちゃおう！",
+			side = 2,
 			soundeffect = "event:/battle/plane",
+			actorName = "？？？",
+			say = "まったくビッグEも頼りないんだから～。みんな！戦闘を始めるよ～残らずやっつけちゃおう！",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -507,8 +507,8 @@ return {
 			bgName = "bg_night",
 			say = "やはり指揮官にはこの私が居ないとダメのようね。",
 			flashout = {
-				black = false,
 				dur = 0.5,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -623,8 +623,8 @@ return {
 			actor = 303030,
 			side = 0,
 			bgName = "bg_night",
-			dir = 1,
 			say = "あのATはもう流石に限界っぽい。急がないと…！",
+			dir = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -639,13 +639,13 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			actorName = "ピュリファイアー",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
+			bgm = "story-8",
+			actor = 900021,
 			nameColor = "#D6341DFF",
 			say = "おお！！騒がしくなったわ！！",
-			bgm = "story-8",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,15 +747,15 @@ return {
 			}
 		},
 		{
-			actor = 900021,
 			side = 2,
 			bgName = "bg_night",
 			actorName = "ピュリファイアー",
+			actor = 900021,
 			nameColor = "#D6341DFF",
 			say = "……！？あなた…………生身の人間なのに、どうやってレーザーを…！！？",
 			flashout = {
-				black = false,
 				dur = 1,
+				black = false,
 				alpha = {
 					0,
 					1
@@ -780,8 +780,8 @@ return {
 			}
 		},
 		{
-			actorName = "声",
 			side = 2,
+			actorName = "声",
 			bgName = "bg_night",
 			say = "「俺の戦争はもう終わった。お前たちの戦争に興味はない。」",
 			typewriter = {
@@ -790,8 +790,8 @@ return {
 			}
 		},
 		{
-			actorName = "声",
 			side = 2,
+			actorName = "声",
 			bgName = "bg_night",
 			say = "「この力のことが知りたいなら勝手に探せ。俺を――巻き込むな。」",
 			typewriter = {
@@ -800,8 +800,8 @@ return {
 			}
 		},
 		{
-			actorName = "声",
 			side = 2,
+			actorName = "声",
 			bgName = "bg_night",
 			say = "「お前たちがどんなに大きい力を持っていようが、俺はお前たちには従わない。」",
 			typewriter = {
@@ -810,11 +810,11 @@ return {
 			}
 		},
 		{
-			say = "絶体絶命に戦慄する彼女たち。その先にあるのは勝利か死か？決戦の行方はいかに？最終回「方舟」。戦士は次の戦場へ向かう。",
 			blackBg = true,
+			say = "絶体絶命に戦慄する彼女たち。その先にあるのは勝利か死か？決戦の行方はいかに？最終回「方舟」。戦士は次の戦場へ向かう。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1

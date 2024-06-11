@@ -1,7 +1,7 @@
 return {
-	cd = 0,
-	name = "公海舰队活动剧情战 全体回血",
 	painting = 0,
+	name = "公海舰队活动剧情战 全体回血",
+	cd = 0,
 	id = 8969,
 	desc = "耐久回复",
 	aniEffect = {
@@ -14,9 +14,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
 			target_choise = {
 				"TargetSelf"
 			},

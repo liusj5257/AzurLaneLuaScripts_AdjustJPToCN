@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "AIMIER3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "AIMIER3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"踊り子天使エミール\n\n<size=45>三 意外な得意技</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港·執務室",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港·執務室",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -61,17 +61,17 @@ return {
 			},
 			action = {
 				{
-					number = 2,
+					y = 22.5,
 					dur = 0.1,
-					type = "shake",
-					y = 22.5
+					number = 2,
+					type = "shake"
 				}
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "……今週に入ってもう3回目か。",
 			typewriter = {
 				speed = 0.05,
@@ -100,8 +100,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					dur = 0.4,
 					x = 15,
 					number = 2
@@ -109,12 +109,12 @@ return {
 			}
 		},
 		{
-			actor = 802010,
+			say = "え？私なんかしたの？",
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "え？私なんかしたの？",
+			actor = 802010,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -222,9 +222,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "いつの間にか不知火も現れた。",
 			typewriter = {
 				speed = 0.05,
@@ -251,8 +251,8 @@ return {
 			actor = 301180,
 			side = 0,
 			bgName = "bg_story_task",
-			dir = -1,
 			say = "そう謙遜なさらないでください。妾もお借りしたい側でございますので。",
+			dir = -1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -312,11 +312,11 @@ return {
 			}
 		},
 		{
-			actor = 802010,
 			side = 1,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 802010,
+			nameColor = "#a9f548",
 			say = "そこまで凄くはないわよ！でも二人がそこまで言うのなら、今度は一度両方の店員をやってみるのはどうかしら？指揮官？",
 			typewriter = {
 				speed = 0.05,

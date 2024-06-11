@@ -4,11 +4,11 @@ slot0.SHOW_TYPE_LIMIT = 2
 slot0.SKIP_TYPE_SCENE = 2
 slot0.SKIP_TYPE_ACTIVITY = 3
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "Msgbox4LinkCollectGuide"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.title = slot0:findTF("name_mask/name")
 	slot0.owner = slot0:findTF("owner")
 
@@ -26,7 +26,7 @@ function slot0.OnInit(slot0)
 	slot0.tpl = slot0:findTF("tpl", slot0.list)
 end
 
-function slot0.OnRefresh(slot0, slot1)
+slot0.OnRefresh = function(slot0, slot1)
 	slot0:SetWindowSize(Vector2(930, 540))
 	setActive(slot0.viewParent._btnContainer, false)
 

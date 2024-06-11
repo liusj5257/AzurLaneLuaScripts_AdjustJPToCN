@@ -19,8 +19,8 @@ return {
 			style = {
 				text = "タップすると出撃する艦隊数を変更できます！",
 				mode = 1,
-				posY = -136.5,
 				dir = 1,
+				posY = -136.5,
 				posX = 118.24,
 				ui = {
 					path = "OverlayCamera/Overlay/UIMain/BossRushFleetSelectUI(Clone)/Panel/Info/Modes"

@@ -1,18 +1,18 @@
 slot0 = class("MainVoteEntranceBtn", import(".MainBaseSpcailActBtn"))
 
-function slot0.InShowTime(slot0)
+slot0.InShowTime = function(slot0)
 	return getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ENTRANCE_ACT_ID) and not slot1:isEnd()
 end
 
-function slot0.GetUIName(slot0)
+slot0.GetUIName = function(slot0)
 	return "MainUIVoteActBtn"
 end
 
-function slot0.OnClick(slot0)
+slot0.OnClick = function(slot0)
 	slot0.event:emit(NewMainMediator.GO_SCENE, SCENE.VOTEENTRANCE)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	setActive(slot0._tf:Find("tip"), slot0:ShouldTipNewRace() or slot0:ShouldTipVotes() or slot0:ShouldTipAward() or slot0:ShouldTipFinalAward())
 
 	slot2 = slot0:AnyVoteActIsOpening()
@@ -23,11 +23,11 @@ function slot0.OnInit(slot0)
 	slot0._tf:GetComponent(typeof(Image)).enabled = not slot1 and not slot2
 end
 
-function slot0.AnyVoteActIsOpening(slot0)
+slot0.AnyVoteActIsOpening = function(slot0)
 	return getProxy(VoteProxy):AnyVoteActIsOpening()
 end
 
-function slot0.ShouldTipFinalAward(slot0)
+slot0.ShouldTipFinalAward = function(slot0)
 	if not getProxy(ActivityProxy):getActivityById(ActivityConst.VOTE_ENTRANCE_ACT_ID) or slot1:isEnd() then
 		return false
 	end
@@ -38,7 +38,7 @@ function slot0.ShouldTipFinalAward(slot0)
 	return slot3 and slot3:isFinish() and not slot3:isReceive()
 end
 
-function slot0.ShouldTipNewRace(slot0)
+slot0.ShouldTipNewRace = function(slot0)
 	slot2 = getProxy(PlayerProxy):getRawData().id
 
 	for slot6, slot7 in ipairs(getProxy(VoteProxy):GetVoteGroupList()) do
@@ -50,7 +50,7 @@ function slot0.ShouldTipNewRace(slot0)
 	return false
 end
 
-function slot0.ShouldTipVotes(slot0)
+slot0.ShouldTipVotes = function(slot0)
 	for slot5, slot6 in ipairs(getProxy(VoteProxy):GetVoteGroupList()) do
 		if getProxy(VoteProxy):GetVotesByConfigId(slot6.configId) > 0 then
 			return true
@@ -60,7 +60,7 @@ function slot0.ShouldTipVotes(slot0)
 	return false
 end
 
-function slot0.ShouldTipAward(slot0)
+slot0.ShouldTipAward = function(slot0)
 	return getProxy(VoteProxy):ExistPastVoteAward()
 end
 

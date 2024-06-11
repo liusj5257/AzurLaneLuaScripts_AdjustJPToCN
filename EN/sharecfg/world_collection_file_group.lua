@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.world_collection_file_group = {
 	[110] = {
-		name = "Aerolith Incident",
 		id_2 = "011",
+		name = "Aerolith Incident",
 		name_abbreviate = "1",
 		type = 2,
 		id = 110,
@@ -16,8 +16,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[210] = {
-		name = "Energy Revolution",
 		id_2 = "021",
+		name = "Energy Revolution",
 		name_abbreviate = "2",
 		type = 1,
 		id = 210,
@@ -31,8 +31,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[310] = {
-		name = "Tech & Life",
 		id_2 = "031",
+		name = "Tech & Life",
 		name_abbreviate = "3",
 		type = 1,
 		id = 310,
@@ -46,8 +46,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[320] = {
-		name = "New Lifestyle",
 		id_2 = "032",
+		name = "New Lifestyle",
 		name_abbreviate = "4",
 		type = 1,
 		id = 320,
@@ -61,8 +61,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[330] = {
-		name = "Cube Militarization",
 		id_2 = "033",
+		name = "Cube Militarization",
 		name_abbreviate = "5",
 		type = 5,
 		id = 330,
@@ -76,8 +76,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[410] = {
-		name = "Cube Militarization II",
 		id_2 = "041",
+		name = "Cube Militarization II",
 		name_abbreviate = "6",
 		type = 5,
 		id = 410,
@@ -91,8 +91,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[510] = {
-		name = "Project Dusk",
 		id_2 = "051",
+		name = "Project Dusk",
 		name_abbreviate = "7",
 		type = 3,
 		id = 510,
@@ -106,8 +106,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[610] = {
-		name = "Mysterious",
 		id_2 = "061",
+		name = "Mysterious",
 		name_abbreviate = "8",
 		type = 3,
 		id = 610,
@@ -121,8 +121,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[710] = {
-		name = "Mysterious",
 		id_2 = "071",
+		name = "Mysterious",
 		name_abbreviate = "9",
 		type = 3,
 		id = 710,
@@ -136,8 +136,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[810] = {
-		name = "Global Affairs",
 		id_2 = "081",
+		name = "Global Affairs",
 		name_abbreviate = "10",
 		type = 2,
 		id = 810,
@@ -151,8 +151,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[910] = {
-		name = "Mysterious",
 		id_2 = "091",
+		name = "Mysterious",
 		name_abbreviate = "11",
 		type = 5,
 		id = 910,
@@ -166,8 +166,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1010] = {
-		name = "Global Affairs II",
 		id_2 = "101",
+		name = "Global Affairs II",
 		name_abbreviate = "12",
 		type = 2,
 		id = 1010,
@@ -181,8 +181,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1110] = {
-		name = "College Life",
 		id_2 = "111",
+		name = "College Life",
 		name_abbreviate = "15",
 		type = 4,
 		id = 1110,
@@ -198,8 +198,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1130] = {
-		name = "Creator and Magister",
 		id_2 = "113",
+		name = "Creator and Magister",
 		name_abbreviate = "21",
 		type = 4,
 		id = 1130,
@@ -213,8 +213,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1150] = {
-		name = "Present and Future",
 		id_2 = "115",
+		name = "Present and Future",
 		name_abbreviate = "16",
 		type = 4,
 		id = 1150,
@@ -228,8 +228,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1310] = {
-		name = "Breaking News I",
 		id_2 = "131",
+		name = "Breaking News I",
 		name_abbreviate = "17",
 		type = 1,
 		id = 1310,
@@ -243,8 +243,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1320] = {
-		name = "Breaking News II",
 		id_2 = "132",
+		name = "Breaking News II",
 		name_abbreviate = "18",
 		type = 3,
 		id = 1320,
@@ -258,8 +258,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1330] = {
-		name = "Global Crisis",
 		id_2 = "133",
+		name = "Global Crisis",
 		name_abbreviate = "22",
 		type = 2,
 		id = 1330,
@@ -273,8 +273,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1410] = {
-		name = "Richard Files I",
 		id_2 = "141",
+		name = "Richard Files I",
 		name_abbreviate = "13",
 		type = 1,
 		id = 1410,
@@ -288,8 +288,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1420] = {
-		name = "Richard Files II",
 		id_2 = "142",
+		name = "Richard Files II",
 		name_abbreviate = "14",
 		type = 1,
 		id = 1420,
@@ -303,8 +303,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1430] = {
-		name = "Richard Files III",
 		id_2 = "143",
+		name = "Richard Files III",
 		name_abbreviate = "19",
 		type = 1,
 		id = 1430,
@@ -318,8 +318,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1440] = {
-		name = "Richard Files IV",
 		id_2 = "144",
+		name = "Richard Files IV",
 		name_abbreviate = "20",
 		type = 3,
 		id = 1440,
@@ -337,8 +337,8 @@ pg.world_collection_file_group = {
 		}
 	},
 	[1460] = {
-		name = "Richard Archives I",
 		id_2 = "146",
+		name = "Richard Archives I",
 		name_abbreviate = "23",
 		type = 3,
 		id = 1460,

@@ -5,11 +5,11 @@ slot0.Battle.BattleAidWave = class("BattleAidWave", slot0.Battle.BattleWaveInfo)
 slot0.Battle.BattleAidWave.__name = "BattleAidWave"
 slot2 = slot0.Battle.BattleAidWave
 
-function slot2.Ctor(slot0)
+slot2.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 end
 
-function slot2.SetWaveData(slot0, slot1)
+slot2.SetWaveData = function(slot0, slot1)
 	uv0.super.SetWaveData(slot0, slot1)
 
 	slot0._vanguardUnitList = slot0._param.vanguard_unitList
@@ -18,7 +18,7 @@ function slot2.SetWaveData(slot0, slot1)
 	slot0._killList = slot0._param.kill_list
 end
 
-function slot2.DoWave(slot0)
+slot2.DoWave = function(slot0)
 	uv0.super.DoWave(slot0)
 
 	slot1 = uv1.Battle.BattleDataProxy.GetInstance()

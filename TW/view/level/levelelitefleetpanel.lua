@@ -5,7 +5,7 @@ slot1 = {
 	main = 2
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.tfShipTpl = slot0:findTF("panel/shiptpl")
@@ -43,7 +43,7 @@ function slot0.init(slot0)
 	slot0.onEliteRecommend = nil
 end
 
-function slot0.set(slot0, slot1)
+slot0.set = function(slot0, slot1)
 	slot0.chapter = slot1
 	slot0.propetyLimitation = slot0.chapter:getConfig("property_limitation")
 	slot0.eliteFleetList = slot0.chapter:getEliteFleetList()
@@ -83,11 +83,11 @@ function slot0.set(slot0, slot1)
 	slot0:flush()
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	triggerToggle(slot0.commanderBtn, false)
 end
 
-function slot0.flush(slot0)
+slot0.flush = function(slot0)
 	slot0:updateLimit()
 
 	if OPEN_AIR_DOMINANCE and slot0.chapterADValue > 0 then
@@ -100,7 +100,7 @@ function slot0.flush(slot0)
 	slot0:updateFleets()
 end
 
-function slot0.updateLimit(slot0)
+slot0.updateLimit = function(slot0)
 	setActive(slot0.toggleMask, false)
 	setActive(slot0.tfLimit, false)
 	setActive(slot0.tfLimitTips, #slot0.propetyLimitation == 0)
@@ -128,7 +128,7 @@ function slot0.updateLimit(slot0)
 	end
 end
 
-function slot0.updateFleetPanelADValue(slot0)
+slot0.updateFleetPanelADValue = function(slot0)
 	slot1 = getProxy(BayProxy)
 	slot2 = 0
 
@@ -152,7 +152,7 @@ function slot0.updateFleetPanelADValue(slot0)
 	setText(slot0:findTF("Num2", slot3), slot0.suggestionValue)
 end
 
-function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
+slot0.initAddButton = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = {}
 	slot7 = {}
 
@@ -291,7 +291,7 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.initCommander(slot0, slot1, slot2, slot3)
+slot0.initCommander = function(slot0, slot1, slot2, slot3)
 	slot5 = slot3:getEliteFleetCommanders()[slot1]
 
 	for slot9 = 1, 2 do
@@ -322,7 +322,7 @@ function slot0.initCommander(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateFleets(slot0)
+slot0.updateFleets = function(slot0)
 	for slot4, slot5 in ipairs(slot0.tfFleets[FleetType.Normal]) do
 		setActive(slot0:findTF("btn_select", slot5), false)
 		setActive(findTF(slot5, "selected"), false)

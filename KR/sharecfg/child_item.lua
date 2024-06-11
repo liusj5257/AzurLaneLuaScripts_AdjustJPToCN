@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.child_item = {
 	{
-		rarity = 2,
 		name = "쥬쥬 밀크티",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "진하고 부드러운 맛.",
@@ -19,8 +19,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 1,
 		name = "딸기 우유",
+		rarity = 1,
 		type = 4,
 		is_show = 1,
 		desc = "실패 없는 맛.",
@@ -37,8 +37,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 2,
 		name = "레몬 허니 드링크",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "레몬이 쓰게 느껴지기 전에 단번에 마실 것!",
@@ -60,8 +60,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 2,
 		name = "바나나 코코넛 드링크",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "바나나와 코코넛의 조합으로 이루어진 독특하고 달콤한 맛.",
@@ -83,8 +83,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 2,
 		name = "멜론 더블",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "멜론의 달콤함과 시럽이 절묘하게 어우러져, 단 것을 좋아하는 사람은 참을 수 없는 맛.",
@@ -106,8 +106,8 @@ pg.child_item = {
 		}
 	},
 	{
-		rarity = 3,
 		name = "아이스 밀크셰이크",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "위에 얹힌 아이스크림부터 먹을까, 아니면 셰이크부터 마실까?",
@@ -124,8 +124,8 @@ pg.child_item = {
 		}
 	},
 	[11] = {
-		rarity = 2,
 		name = "오므라이스",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "부드러운 계란과 토마토의 새콤한 맛이 나는 볶음밥의 조화. 맛있다!",
@@ -147,8 +147,8 @@ pg.child_item = {
 		}
 	},
 	[12] = {
-		rarity = 3,
 		name = "스튜 팟파이",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "바삭한 파이와 따뜻하고 진한 스프가 절묘하게 어우러진다.",
@@ -165,8 +165,8 @@ pg.child_item = {
 		}
 	},
 	[13] = {
-		rarity = 3,
 		name = "마카롱",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "바삭한 겉면과 달콤한 맛이 기분을 좋게 해준다.",
@@ -183,8 +183,8 @@ pg.child_item = {
 		}
 	},
 	[14] = {
-		rarity = 3,
 		name = "수박 크림 피자",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "피자의 원칙주의자들을 격분시킬만한 창작 요리.",
@@ -201,8 +201,8 @@ pg.child_item = {
 		}
 	},
 	[15] = {
-		rarity = 4,
 		name = "바나나 크레페",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "평범한 바나나와 크림을 넣은 크레페.",
@@ -219,8 +219,8 @@ pg.child_item = {
 		}
 	},
 	[16] = {
-		rarity = 4,
 		name = "돈까스 샌드위치",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "두꺼운 고기와 토스트로 육즙도 풍부하고 든든하다.",
@@ -237,8 +237,8 @@ pg.child_item = {
 		}
 	},
 	[17] = {
-		rarity = 4,
 		name = "고기 바질 조림",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "깊게 스며든 바질향이 더욱 맛을 배가시킨다.",
@@ -255,8 +255,8 @@ pg.child_item = {
 		}
 	},
 	[21] = {
-		rarity = 2,
 		name = "초보자용 낚싯대",
+		rarity = 2,
 		type = 3,
 		is_show = 1,
 		desc = "초보자에게 가장 좋은 낚싯대.",
@@ -278,8 +278,8 @@ pg.child_item = {
 		}
 	},
 	[22] = {
-		rarity = 2,
 		name = "쇠도끼",
+		rarity = 2,
 		type = 3,
 		is_show = 1,
 		desc = "네 도끼는 금도끼냐, 은도끼냐? 사실은 쇠도끼였다.",
@@ -296,8 +296,8 @@ pg.child_item = {
 		}
 	},
 	[23] = {
-		rarity = 3,
 		name = "중급자용 낚싯대",
+		rarity = 3,
 		type = 3,
 		is_show = 1,
 		desc = "은은하게 은빛으로 빛나고 있는 중급자용 낚싯대.",
@@ -319,8 +319,8 @@ pg.child_item = {
 		}
 	},
 	[24] = {
-		rarity = 3,
 		name = "은도끼",
+		rarity = 3,
 		type = 3,
 		is_show = 1,
 		desc = "네 도끼는 금도끼냐, 은도끼냐? 이번에는 은도끼로 가보자!",
@@ -337,8 +337,8 @@ pg.child_item = {
 		}
 	},
 	[25] = {
-		rarity = 4,
 		name = "전문가용 낚싯대",
+		rarity = 4,
 		type = 3,
 		is_show = 1,
 		desc = "낚시의 달인만이 능숙하게 다를 수 있는 챔피언급 낚싯대!",
@@ -355,8 +355,8 @@ pg.child_item = {
 		}
 	},
 	[26] = {
-		rarity = 4,
 		name = "금도끼",
+		rarity = 4,
 		type = 3,
 		is_show = 1,
 		desc = "네 도끼는 금도끼냐, 은도끼냐? 역시 가장 좋은 건 금도끼다!",
@@ -373,8 +373,8 @@ pg.child_item = {
 		}
 	},
 	[31] = {
-		rarity = 1,
 		name = "<제로부터 시작하는 로열 메이드 생활>",
+		rarity = 1,
 		type = 1,
 		is_show = 1,
 		desc = "서투른 메이드가 요리를 배우면서 실패를 거듭하면서도 열심히 살아가는 이야기.",
@@ -396,8 +396,8 @@ pg.child_item = {
 		}
 	},
 	[32] = {
-		rarity = 1,
 		name = "<소넷 15>",
+		rarity = 1,
 		type = 1,
 		is_show = 1,
 		desc = "사색을 부르는 불후의 명작. 그렇지만 행 수가……",
@@ -419,8 +419,8 @@ pg.child_item = {
 		}
 	},
 	[33] = {
-		rarity = 1,
 		name = "<의장 관리 지침서>",
+		rarity = 1,
 		type = 1,
 		is_show = 1,
 		desc = "전문성이 무척 높은 서적.",
@@ -442,8 +442,8 @@ pg.child_item = {
 		}
 	},
 	[34] = {
-		rarity = 2,
 		name = "<지휘관의 마음을 사로잡는 방법>",
+		rarity = 2,
 		type = 1,
 		is_show = 1,
 		desc = "심플하고 이해하기 쉽지만, 공부에 큰 도움이 될 것 같지는 않다.",
@@ -460,8 +460,8 @@ pg.child_item = {
 		}
 	},
 	[35] = {
-		rarity = 2,
 		name = "<천재의 발명 가이드!>",
+		rarity = 2,
 		type = 1,
 		is_show = 1,
 		desc = "지극히 아류적인 발명 지침서. 거의 도움이 되지 않을 것 같은… 느낌이 든다.",
@@ -478,8 +478,8 @@ pg.child_item = {
 		}
 	},
 	[36] = {
-		rarity = 2,
 		name = "<두근두근 홀리데이 트래블>",
+		rarity = 2,
 		type = 1,
 		is_show = 1,
 		desc = "바다나 무인도 등 다양한 여행지를 소개하는 책자.",
@@ -496,8 +496,8 @@ pg.child_item = {
 		}
 	},
 	[41] = {
-		rarity = 3,
 		name = "레코드",
+		rarity = 3,
 		type = 2,
 		is_show = 1,
 		desc = "어떤 곡이 녹음되어 있을까?",
@@ -514,8 +514,8 @@ pg.child_item = {
 		}
 	},
 	[42] = {
-		rarity = 3,
 		name = "마이크",
+		rarity = 3,
 		type = 2,
 		is_show = 1,
 		desc = "내장된 믹서로 소리를 풍부하고 섬세하게 들려준다. 노래방에 최적.",
@@ -532,8 +532,8 @@ pg.child_item = {
 		}
 	},
 	[43] = {
-		rarity = 3,
 		name = "클라리넷",
+		rarity = 3,
 		type = 2,
 		is_show = 1,
 		desc = "좋은 소리가 나는 목관 악기. 연주법을 익히기가 어렵다고 알려져 있다.",
@@ -555,8 +555,8 @@ pg.child_item = {
 		}
 	},
 	[44] = {
-		rarity = 4,
 		name = "하프",
+		rarity = 4,
 		type = 2,
 		is_show = 1,
 		desc = "넓은 음역대와 긴 여운이 특징.",
@@ -573,8 +573,8 @@ pg.child_item = {
 		}
 	},
 	[45] = {
-		rarity = 4,
 		name = "바이올린",
+		rarity = 4,
 		type = 2,
 		is_show = 1,
 		desc = "힘찬 음색이 매력적.",
@@ -596,8 +596,8 @@ pg.child_item = {
 		}
 	},
 	[46] = {
-		rarity = 4,
 		name = "피아노",
+		rarity = 4,
 		type = 2,
 		is_show = 1,
 		desc = "우아하고 아름다운 선율의 대명사.",
@@ -614,8 +614,8 @@ pg.child_item = {
 		}
 	},
 	[47] = {
-		rarity = 4,
 		name = "트럼펫",
+		rarity = 4,
 		type = 2,
 		is_show = 1,
 		desc = "밝고 날카로운 음색으로 화려함과 아름다움을 겸비하고 있다.",
@@ -637,8 +637,8 @@ pg.child_item = {
 		}
 	},
 	[51] = {
-		rarity = 3,
 		name = "하얀 진주",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "가루로 만들면 미백 효과가…?",
@@ -655,8 +655,8 @@ pg.child_item = {
 		}
 	},
 	[52] = {
-		rarity = 4,
 		name = "조가비 장식",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "다듬은 조가비로 만든 장식품.",
@@ -673,8 +673,8 @@ pg.child_item = {
 		}
 	},
 	[53] = {
-		rarity = 3,
 		name = "문어 인형",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "\"삶은 문어\"를 모티브로 만든 인형. 이걸 좋아하는 사람이 과연 있을까?",
@@ -691,8 +691,8 @@ pg.child_item = {
 		}
 	},
 	[54] = {
-		rarity = 4,
 		name = "소원을 담은 병",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "소원을 메모에 적어 병에 담아 바다에 던지면, 소원이 이루어진다고 한다.",
@@ -709,8 +709,8 @@ pg.child_item = {
 		}
 	},
 	[55] = {
-		rarity = 3,
 		name = "매직 셸",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "매직 셸에 뭐라도 물어볼까?",
@@ -732,8 +732,8 @@ pg.child_item = {
 		}
 	},
 	[56] = {
-		rarity = 3,
 		name = "코코넛",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "기념품 가게에서는 코코넛도 파는구나.",
@@ -755,8 +755,8 @@ pg.child_item = {
 		}
 	},
 	[101] = {
-		rarity = 2,
 		name = "양상추찜",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "식재료가 신선하다면 단순한 조리법과 맛내기로도 충분하다.",
@@ -773,8 +773,8 @@ pg.child_item = {
 		}
 	},
 	[102] = {
-		rarity = 2,
 		name = "허니 폭찹",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "마지막으로 꿀을 발라 구워내면…… 한입만 먹어도 입안에 고기의 감칠맛이 퍼진다.",
@@ -791,8 +791,8 @@ pg.child_item = {
 		}
 	},
 	[103] = {
-		rarity = 2,
 		name = "스튜 팟파이",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "바삭한 파이와 따뜻하고 진한 스프가 절묘하게 어우러진다.",
@@ -809,8 +809,8 @@ pg.child_item = {
 		}
 	},
 	[104] = {
-		rarity = 2,
 		name = "만두 모둠",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "누가 인생은 만두 모둠과 같다 했던가. 다음에는 또 어떤 맛이 우리를 기다리고 있을지.",
@@ -827,8 +827,8 @@ pg.child_item = {
 		}
 	},
 	[105] = {
-		rarity = 3,
 		name = "마파두부",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "가정요리로 사람들에게 사랑받고 있다.",
@@ -845,8 +845,8 @@ pg.child_item = {
 		}
 	},
 	[106] = {
-		rarity = 3,
 		name = "바나나 크레페",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "평범한 바나나와 크림을 넣은 크레페.",
@@ -863,8 +863,8 @@ pg.child_item = {
 		}
 	},
 	[107] = {
-		rarity = 3,
 		name = "잡탕",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "깊은 국물에 맛있는 야채와 고기, 계란물을 넣어 맛있다.",
@@ -881,8 +881,8 @@ pg.child_item = {
 		}
 	},
 	[108] = {
-		rarity = 3,
 		name = "로즈마리맛 램 스페어립",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "부드러운 육질에 깊은 맛.",
@@ -899,8 +899,8 @@ pg.child_item = {
 		}
 	},
 	[109] = {
-		rarity = 3,
 		name = "돈까스 샌드위치",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "두꺼운 고기와 토스트로 육즙도 풍부하고 든든하다.",
@@ -917,8 +917,8 @@ pg.child_item = {
 		}
 	},
 	[110] = {
-		rarity = 3,
 		name = "정체불명의 요리",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "입에 넣지 않으면 무슨 맛인지 모른다.",
@@ -935,8 +935,8 @@ pg.child_item = {
 		}
 	},
 	[121] = {
-		rarity = 3,
 		name = "그림 작품",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "정성스럽게 액자에 장식된 그림 작품.",
@@ -953,8 +953,8 @@ pg.child_item = {
 		}
 	},
 	[131] = {
-		rarity = 2,
 		name = "민물 새우",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "작은 민물 새우. 빈손으로 돌아가는 것보다는 낫네…",
@@ -971,8 +971,8 @@ pg.child_item = {
 		}
 	},
 	[132] = {
-		rarity = 2,
 		name = "작은 물고기",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "작은 물고기. 운이 좋네!",
@@ -989,8 +989,8 @@ pg.child_item = {
 		}
 	},
 	[134] = {
-		rarity = 2,
 		name = "커다란 물고기",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "커다란 물고기다! 오늘 저녁은 진수성찬이야!",
@@ -1007,8 +1007,8 @@ pg.child_item = {
 		}
 	},
 	[135] = {
-		rarity = 2,
 		name = "바닷가재",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "커다란 바닷가재다! ……왜 바닷가재가 낚인 거지…?",
@@ -1025,8 +1025,8 @@ pg.child_item = {
 		}
 	},
 	[151] = {
-		rarity = 2,
 		name = "사진",
+		rarity = 2,
 		type = 4,
 		is_show = 1,
 		desc = "현상한 사진. 앨범으로 잘 보관할 예정이다.",
@@ -1043,8 +1043,8 @@ pg.child_item = {
 		}
 	},
 	[161] = {
-		rarity = 4,
 		name = "수상 기념장 - 공모 문학상",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "공모 문학상에 참가한 기념품",
@@ -1055,8 +1055,8 @@ pg.child_item = {
 		display = {}
 	},
 	[162] = {
-		rarity = 4,
 		name = "수상 기념장 - 사진 콘테스트",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "사진 콘테스트에 참가한 기념품",
@@ -1067,8 +1067,8 @@ pg.child_item = {
 		display = {}
 	},
 	[163] = {
-		rarity = 4,
 		name = "수상 기념장 – 대운동회",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "대운동회에 참가한 기념품",
@@ -1079,8 +1079,8 @@ pg.child_item = {
 		display = {}
 	},
 	[164] = {
-		rarity = 4,
 		name = "수상 기념장 - 그림 콘테스트",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "그림 콘테스트에 참가한 기념품",
@@ -1091,8 +1091,8 @@ pg.child_item = {
 		display = {}
 	},
 	[165] = {
-		rarity = 4,
 		name = "수상 기념장 - 요리 대회",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "요리 대회에 참가한 기념품",
@@ -1103,8 +1103,8 @@ pg.child_item = {
 		display = {}
 	},
 	[166] = {
-		rarity = 4,
 		name = "수상 기념장 - 낚시 대회",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "낚시 대회에 참가한 기념품",
@@ -1115,8 +1115,8 @@ pg.child_item = {
 		display = {}
 	},
 	[167] = {
-		rarity = 4,
 		name = "수상 기념장 – 노래자랑",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "노래자랑에 참가한 기념품",
@@ -1127,8 +1127,8 @@ pg.child_item = {
 		display = {}
 	},
 	[168] = {
-		rarity = 4,
 		name = "수상 기념장 - 내일의 스타상",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "내일의 스타상 오디션에 참가한 기념품",
@@ -1139,8 +1139,8 @@ pg.child_item = {
 		display = {}
 	},
 	[201] = {
-		rarity = 3,
 		name = "육성 목표 달성 기념·Ⅰ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+10 금전+60 체력+20",
@@ -1167,8 +1167,8 @@ pg.child_item = {
 		}
 	},
 	[202] = {
-		rarity = 3,
 		name = "육성 목표 달성 기념·Ⅰ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+10 금전+60 지식+20",
@@ -1195,8 +1195,8 @@ pg.child_item = {
 		}
 	},
 	[203] = {
-		rarity = 3,
 		name = "육성 목표 달성 기념·Ⅰ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+10 금전+60 감지+20 ",
@@ -1223,8 +1223,8 @@ pg.child_item = {
 		}
 	},
 	[204] = {
-		rarity = 3,
 		name = "육성 목표 달성 기념·Ⅰ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+10 금전+60 매력+20",
@@ -1251,8 +1251,8 @@ pg.child_item = {
 		}
 	},
 	[205] = {
-		rarity = 3,
 		name = "육성 목표 달성 기념·Ⅰ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+15 금전+100 체력+100",
@@ -1279,8 +1279,8 @@ pg.child_item = {
 		}
 	},
 	[206] = {
-		rarity = 3,
 		name = "육성 목표 달성 기념·Ⅱ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+15 금전+100 지식+100",
@@ -1307,8 +1307,8 @@ pg.child_item = {
 		}
 	},
 	[207] = {
-		rarity = 3,
 		name = "육성 목표 달성 기념·Ⅱ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+15 금전+100 감지+100",
@@ -1335,8 +1335,8 @@ pg.child_item = {
 		}
 	},
 	[208] = {
-		rarity = 3,
 		name = "육성 목표 달성 기념·Ⅱ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+15 금전+100 매력+100",
@@ -1363,8 +1363,8 @@ pg.child_item = {
 		}
 	},
 	[209] = {
-		rarity = 3,
 		name = "육성 목표 달성 기념·Ⅲ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+20 금전+150 운동+10 손재주+5 섬세함+5",
@@ -1401,8 +1401,8 @@ pg.child_item = {
 		}
 	},
 	[210] = {
-		rarity = 3,
 		name = "육성 목표 달성 기념·Ⅲ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+20 금전+150 손재주+10 상상력+5 표현력+5",
@@ -1439,8 +1439,8 @@ pg.child_item = {
 		}
 	},
 	[211] = {
-		rarity = 3,
 		name = "육성 목표 달성 기념·Ⅲ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+20 금전+150 섬세함+10 상상력+10",
@@ -1472,8 +1472,8 @@ pg.child_item = {
 		}
 	},
 	[212] = {
-		rarity = 3,
 		name = "육성 목표 달성 기념·Ⅲ",
+		rarity = 3,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+20 금전+150 표현력+10 음악+10",
@@ -1505,8 +1505,8 @@ pg.child_item = {
 		}
 	},
 	[213] = {
-		rarity = 4,
 		name = "육성 목표 달성 기념·Ⅳ",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+20 금전+200 운동+30",
@@ -1533,8 +1533,8 @@ pg.child_item = {
 		}
 	},
 	[214] = {
-		rarity = 4,
 		name = "육성 목표 달성 기념·Ⅳ",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+20 금전+200 상상력+30",
@@ -1561,8 +1561,8 @@ pg.child_item = {
 		}
 	},
 	[215] = {
-		rarity = 4,
 		name = "육성 목표 달성 기념·Ⅳ",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+20 금전+200 섬세함+30",
@@ -1589,8 +1589,8 @@ pg.child_item = {
 		}
 	},
 	[216] = {
-		rarity = 4,
 		name = "육성 목표 달성 기념·Ⅳ",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+20 금전+200 손재주+30 ",
@@ -1617,8 +1617,8 @@ pg.child_item = {
 		}
 	},
 	[217] = {
-		rarity = 4,
 		name = "육성 목표 달성 기념·Ⅳ",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+20 금전+200 음악+30",
@@ -1645,8 +1645,8 @@ pg.child_item = {
 		}
 	},
 	[218] = {
-		rarity = 4,
 		name = "육성 목표 달성 기념·Ⅳ",
+		rarity = 4,
 		type = 4,
 		is_show = 1,
 		desc = "육성 목표 달성 기념 아이템.\n기분+20 금전+200 표현력+30",
@@ -1673,8 +1673,8 @@ pg.child_item = {
 		}
 	},
 	[301] = {
-		rarity = 1,
 		name = "주요 목표 달성 기념장",
+		rarity = 1,
 		type = 4,
 		is_show = 1,
 		desc = "주요 목표를 달성한 기념장. 모든 속성 +1",
@@ -1706,8 +1706,8 @@ pg.child_item = {
 		}
 	},
 	[302] = {
-		rarity = 1,
 		name = "육성 목표 진척 Pt",
+		rarity = 1,
 		type = 4,
 		is_show = 0,
 		desc = "설정된 육성 목표의 완성도를 나타내는 Pt 아이템",

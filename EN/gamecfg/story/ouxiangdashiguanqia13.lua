@@ -1,15 +1,15 @@
 return {
-	id = "OUXIANGDASHIGUANQIA13",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "OUXIANGDASHIGUANQIA13",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "idom-Appeal",
 			say = "Port - Concert Sea Area Center Stage",
+			side = 2,
+			dir = 1,
+			bgm = "idom-Appeal",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -48,8 +48,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700070,
 			dir = 1,
+			actor = 10700070,
 			say = "Yeah! We're not gonna lose to anyone, let alone some dumb clone~♪",
 			typewriter = {
 				speed = 0.05,
@@ -91,8 +91,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -101,13 +101,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_story_task",
+			side = 2,
+			dir = 1,
 			say = "Offstage",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -135,8 +135,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "Akagi, everyone... Big trouble, nya!",
 			typewriter = {
@@ -149,8 +149,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -162,8 +162,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 307100,
 			dir = 1,
+			actor = 307100,
 			nameColor = "#a9f548",
 			say = "What... is the meaning of this?!",
 			typewriter = {
@@ -179,8 +179,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "It's bad news, nya! The energy signature is spiking through the roof, nya!",
 			typewriter = {
@@ -193,8 +193,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -222,8 +222,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "I'm not so sure myself, nya...",
 			typewriter = {
@@ -239,8 +239,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "Ever since the concert started, the energy signature has been increasing steadily, nya.",
 			typewriter = {
@@ -272,8 +272,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			nameColor = "#a9f548",
 			say = "Gascogne, you too? ...So, what's going to happen now?",
 			typewriter = {
@@ -289,8 +289,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "If the energy overloads, it's going to spill over to all the machinery set up here, nya...",
 			typewriter = {
@@ -306,8 +306,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "And if that happens... not just the stage, but the entire port's going to get blown to smithereens, nya!",
 			typewriter = {
@@ -320,8 +320,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -333,8 +333,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 403054,
 			dir = 1,
+			actor = 403054,
 			nameColor = "#a9f548",
 			say = "So, that means we need to stop the concert immediately...!",
 			typewriter = {
@@ -350,8 +350,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 312010,
 			dir = 1,
+			actor = 312010,
 			nameColor = "#a9f548",
 			say = "At the pace it's increasing, we'd be too late even if we stopped the concert right now, nya!",
 			typewriter = {
@@ -364,8 +364,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -377,8 +377,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 905030,
 			dir = 1,
+			actor = 905030,
 			nameColor = "#a9f548",
 			say = "Proposing a manner to reduce the risk of energy overload:",
 			typewriter = {
@@ -426,8 +426,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			actor = 103250,
 			dir = 1,
+			actor = 103250,
 			nameColor = "#a9f548",
 			say = "A simple and straightforward solution. I'm glad we rehearsed together in case of contingencies.",
 			typewriter = {
@@ -472,11 +472,11 @@ return {
 			}
 		},
 		{
-			actor = 401236,
 			side = 2,
 			bgName = "bg_story_task",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 401236,
+			nameColor = "#a9f548",
 			say = "I guess so... See, that just goes to show that hard work is never wasted!",
 			typewriter = {
 				speed = 0.05,
@@ -488,8 +488,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -498,14 +498,14 @@ return {
 			}
 		},
 		{
-			actor = 10700010,
 			side = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10700010,
+			nameColor = "#a9f548",
 			say = "So, we're all going to get on stage together for the next part of the concert?",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -533,8 +533,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 101176,
 			dir = 1,
+			actor = 101176,
 			say = "Mm... Otherwise, we're all going to go kaboom.",
 			typewriter = {
 				speed = 0.05,
@@ -549,8 +549,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700060,
 			dir = 1,
+			actor = 10700060,
 			say = "Kaboom? Whaddya mean?",
 			typewriter = {
 				speed = 0.05,
@@ -565,8 +565,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 10700070,
 			dir = 1,
+			actor = 10700070,
 			say = "Isn't that some kind of special effect?",
 			typewriter = {
 				speed = 0.05,
@@ -581,8 +581,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 401236,
 			dir = 1,
+			actor = 401236,
 			say = "Actually, not quite... So, um, this is the situation...",
 			typewriter = {
 				speed = 0.05,
@@ -678,8 +678,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 301057,
 			dir = 1,
+			actor = 301057,
 			say = "...We did not mean to get you involved in all of this. Um...",
 			typewriter = {
 				speed = 0.05,
@@ -694,8 +694,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201216,
 			dir = 1,
+			actor = 201216,
 			say = "I'm so sorry... This is all because we decided to bring you here...",
 			typewriter = {
 				speed = 0.05,
@@ -797,8 +797,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -884,9 +884,9 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			dir = 1,
 			actor = 10700010,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "This is the last performance we're putting on in this world, so shine like you've never shone before!",
 			effects = {
 				{

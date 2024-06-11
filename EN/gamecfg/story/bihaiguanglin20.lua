@@ -1,18 +1,18 @@
 return {
-	id = "BIHAIGUANGLIN20",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BIHAIGUANGLIN20",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
+			bgm = "battle-boss-longgong",
 			actor = 303060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Based on what Shimakaze's told us, the only way to break these seals is to either destroy or solve the puzzle mechanisms.",
-			bgm = "battle-boss-longgong",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "And if you want to destroy the mechanisms, you'll have to get through these almost impenetrable enemies to get into the right position.",
 			typewriter = {
 				speed = 0.05,
@@ -42,8 +42,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 303060,
 			dir = 1,
+			actor = 303060,
 			say = "By focusing our firepower, we've been able to pick off these enemies one at a time.",
 			typewriter = {
 				speed = 0.05,
@@ -117,9 +117,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 303060,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Sounds great. But what did you have in mind?",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -189,8 +189,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 302070,
 			dir = 1,
+			actor = 302070,
 			say = "Is this good enough?",
 			typewriter = {
 				speed = 0.05,
@@ -220,8 +220,8 @@ return {
 			expression = 4,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 305140,
 			dir = 1,
+			actor = 305140,
 			say = "(But I was just trying to find a spot where I wouldn't stand out...!)",
 			typewriter = {
 				speed = 0.05,

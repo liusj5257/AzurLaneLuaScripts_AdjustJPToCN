@@ -10,8 +10,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = 0.00072,
-						base = 35,
-						max = 0.05
+						max = 0.05,
+						base = 35
 					},
 					index = {
 						1
@@ -31,8 +31,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = 0.00085,
-						base = 35,
-						max = 0.061
+						max = 0.061,
+						base = 35
 					},
 					index = {
 						1
@@ -52,8 +52,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = 0.00096,
-						base = 35,
-						max = 0.072
+						max = 0.072,
+						base = 35
 					},
 					index = {
 						1
@@ -73,8 +73,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = 0.00109,
-						base = 35,
-						max = 0.083
+						max = 0.083,
+						base = 35
 					},
 					index = {
 						1
@@ -94,8 +94,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = 0.0012,
-						base = 35,
-						max = 0.094
+						max = 0.094,
+						base = 35
 					},
 					index = {
 						1
@@ -115,8 +115,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = 0.00133,
-						base = 35,
-						max = 0.105
+						max = 0.105,
+						base = 35
 					},
 					index = {
 						1
@@ -136,8 +136,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = 0.00144,
-						base = 35,
-						max = 0.116
+						max = 0.116,
+						base = 35
 					},
 					index = {
 						1
@@ -157,8 +157,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = 0.00154,
-						base = 35,
-						max = 0.127
+						max = 0.127,
+						base = 35
 					},
 					index = {
 						1
@@ -178,8 +178,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = 0.00164,
-						base = 35,
-						max = 0.138
+						max = 0.138,
+						base = 35
 					},
 					index = {
 						1
@@ -199,8 +199,8 @@ return {
 					attr = "damageRatioBullet",
 					displacement_convert = {
 						rate = 0.00175,
-						base = 35,
-						max = 0.15
+						max = 0.15,
+						base = 35
 					},
 					index = {
 						1
@@ -209,14 +209,14 @@ return {
 			}
 		}
 	},
-	time = 0,
 	name = "2700磅的正义",
 	init_effect = "jinengchufared",
-	color = "red",
+	id = 11561,
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 11561,
+	color = "red",
 	icon = 11560,
 	last_effect = "",
 	blink = {
@@ -236,8 +236,8 @@ return {
 				attr = "damageRatioBullet",
 				displacement_convert = {
 					rate = 0.00072,
-					base = 35,
-					max = 0.05
+					max = 0.05,
+					base = 35
 				},
 				index = {
 					1

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "KENTE4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "KENTE4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"GO！ポジティブ・メイド！\n\n<size=45>四 意外な遭遇！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "書類仕事がひと段落して窓の外を見ると、なんとも気持ちの良さそうな日差しがさしている――",
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "書類仕事がひと段落して窓の外を見ると、なんとも気持ちの良さそうな日差しがさしている――",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -82,9 +82,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "ケントの言う通り、最近は仕事で太陽の光をあまり浴びていない。",
 			typewriter = {
 				speed = 0.05,
@@ -96,9 +96,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_task",
+			dir = 1,
 			say = "たまには思いっきり外に出たほうがいいと思ったので、二人でともに母港内を散歩することにした――",
 			typewriter = {
 				speed = 0.05,
@@ -110,13 +110,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "star_level_bg_103",
+			side = 2,
+			dir = 1,
 			say = "母港・外",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -141,11 +141,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "ずいぶん歩いたね！そろそろ執務室に戻ろ――ん？あれは、ビスマルクさんと……ウェールズさん？",
 			typewriter = {
 				speed = 0.05,
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -167,9 +167,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "ケントの指し示した先は、大きな木の真下。そこには二人の艦船が立っていた。",
 			typewriter = {
 				speed = 0.05,
@@ -184,8 +184,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 405010,
 			dir = 1,
+			actor = 405010,
 			nameColor = "#a9f548",
 			say = "指揮官と――秘書艦のケントか。",
 			typewriter = {
@@ -201,8 +201,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "「珍しい組み合わせ」ですって？違うわ。ここには二人とも偶然立ち寄ったの。",
 			typewriter = {
@@ -231,9 +231,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "その時、頭上からか細い鳴き声が聞こえてきた。",
 			typewriter = {
 				speed = 0.05,
@@ -277,9 +277,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "帽子のつばを押さえながらビスマルクがすぐ隣に生えている大きな木をゆっくりと見上げる。",
 			typewriter = {
 				speed = 0.05,
@@ -291,9 +291,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "その視線を追って同じく顔を向けると、大きな樹の高い枝に子猫がしがみついているのが見えた。",
 			typewriter = {
 				speed = 0.05,
@@ -308,8 +308,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
-			actor = 205060,
 			dir = 1,
+			actor = 205060,
 			nameColor = "#a9f548",
 			say = "……好奇心でのぼってみたのはいいけど、降りられなくなってしまったようね。",
 			typewriter = {
@@ -322,9 +322,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "ウェールズは心配そうな声を漏らして子猫を見つめている。ビスマルクも同じ気持ちのようだ……。",
 			typewriter = {
 				speed = 0.05,
@@ -336,9 +336,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "でもあんな高い場所の子猫を助けるのは至難の業だ。明石に頼んで大きなハシゴを用意してもらうしか――",
 			typewriter = {
 				speed = 0.05,
@@ -350,11 +350,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "Hey！そういったことなら任せて！",
 			typewriter = {
 				speed = 0.05,
@@ -366,8 +366,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -376,9 +376,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_103",
+			dir = 1,
 			say = "突然、ケントが力強く声をあげてそう言った。",
 			typewriter = {
 				speed = 0.05,
@@ -390,11 +390,11 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "ケント選手は体力だけじゃないよ！運動神経だってメイド隊ではかなり自信あるほうだからね！",
 			typewriter = {
 				speed = 0.05,
@@ -406,8 +406,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -416,12 +416,12 @@ return {
 			}
 		},
 		{
-			actor = 203030,
 			side = 2,
 			bgName = "star_level_bg_103",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			actor = 203030,
+			nameColor = "#a9f548",
 			say = "木のぼりは得意だし、ここは任せてよ！すぐに助けて戻ってくるからさ。",
 			typewriter = {
 				speed = 0.05,

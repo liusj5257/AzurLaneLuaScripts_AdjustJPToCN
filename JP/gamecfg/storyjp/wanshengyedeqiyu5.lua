@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WANSHENGYEDEQIYU5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WANSHENGYEDEQIYU5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"ハロウィンの遭遇\n\n<size=45>五 招かれざる客？</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
-			say = "ハロウィンフェス会場の海辺で一人、赤い海賊帽子の少女と出会った。",
 			bgm = "battle-highseasfleet-reborn",
+			say = "ハロウィンフェス会場の海辺で一人、赤い海賊帽子の少女と出会った。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -45,8 +45,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "声をかけてみると――",
 			typewriter = {
@@ -55,13 +55,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "しー……",
 			painting = {
@@ -74,13 +74,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "海の泣き声が、聞こえる？",
 			painting = {
@@ -93,8 +93,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "それは――砂浜に寄せる波の音か。",
 			typewriter = {
@@ -106,11 +106,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "むぅ。海の泣き声って言ったじゃん！もう！",
 			painting = {
@@ -123,8 +123,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -133,8 +133,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			say = "海賊帽子の少女はこちらに振り向いて、不満そうに眺めてきた。",
 			typewriter = {
@@ -143,13 +143,13 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "あなた、だれ？",
 			painting = {
@@ -171,12 +171,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "なるほどー。あなたがここの仲間たち…コホン。ここの子たちが話している「指揮官」なのね",
 			painting = {
@@ -189,14 +189,14 @@ return {
 			}
 		},
 		{
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
 			optionFlag = 1,
 			hidePaintEquip = true,
 			actor = 9600010,
-			nameColor = "#A9F548FF",
+			actorName = "？？？",
 			hidePaintObj = true,
 			say = "風に乗って波に乗って、この世の美しいものを探し求めて大洋を駆け、ミステリアスに満ちためちゃカワ艦船――",
 			painting = {
@@ -266,8 +266,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "あの格好なら他の仲間に紛れ込んでも違和感ないし、海賊の得物はハロウィン会場の小道具と同じ見た目だから……",
@@ -316,8 +316,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -326,8 +326,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "え。まさか本当にお宝を探してるのか……？",
@@ -416,8 +416,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "…………そう言われたらますます放っておけなくなった。仕方がない、ここは少し付き合ってあげよう。",
@@ -427,8 +427,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "しかし、会場にお宝が埋めてあるとは聞いていなかったが……",
@@ -457,8 +457,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "チラシを受け取って読んで見ると、そこには確かに「お宝を最初に手に入れた艦船は一週間ドリンク無料にゃ～」と書いてあった。",
@@ -513,9 +513,9 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
+			side = 2,
 			optionFlag = 1,
 			say = "腰に差したカトラスを掲げて、ロイヤル・フォーチュンはフードコーナーへと突進した。",
 			typewriter = {
@@ -530,8 +530,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			optionFlag = 1,
 			say = "海賊船少女よりも本物のカトラスの脅威に晒されるフェス会場を守るべく、自分も急いで追いかけることにした。",

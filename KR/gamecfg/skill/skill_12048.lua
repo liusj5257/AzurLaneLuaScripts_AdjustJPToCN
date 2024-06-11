@@ -2,11 +2,11 @@ return {
 	uiEffect = "",
 	name = "创口贴",
 	cd = 0,
+	picture = "0",
+	desc = "buff",
 	painting = 1,
 	id = 12048,
-	picture = "0",
 	castCV = "skill",
-	desc = "buff",
 	aniEffect = {
 		effect = "jineng",
 		offset = {
@@ -17,10 +17,10 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleSkillHeal",
-			casterAniEffect = "",
-			target_choise = "TargetAllHelp",
 			targetAniEffect = "",
+			casterAniEffect = "",
+			type = "BattleSkillHeal",
+			target_choise = "TargetAllHelp",
 			arg_list = {
 				delay = 1.5,
 				number = 9

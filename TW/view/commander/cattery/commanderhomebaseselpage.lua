@@ -1,25 +1,25 @@
 slot0 = class("CommanderHomeBaseSelPage", import("view.base.BaseSubView"))
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.scrollrect = slot0:findTF("scrollrect"):GetComponent("LScrollRect")
 	slot0.okBtn = slot0:findTF("ok_button")
 
 	setActive(slot0._tf, true)
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.cards = {}
 
-	function slot0.scrollrect.onInitItem(slot0)
+	slot0.scrollrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 
-	function slot0.scrollrect.onUpdateItem(slot0, slot1)
+	slot0.scrollrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = CommanderCard.New(slot1)
 
 	onButton(slot0, slot2._tf, function ()
@@ -29,7 +29,7 @@ function slot0.OnInitItem(slot0, slot1)
 	slot0.cards[slot1] = slot2
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -42,7 +42,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	setActive(slot3._tf:Find("line"), slot4 % 4 == 1)
 end
 
-function slot0.Update(slot0)
+slot0.Update = function(slot0)
 	slot0:Show()
 
 	slot0.displays = {}
@@ -69,13 +69,13 @@ function slot0.Update(slot0)
 	slot0.scrollrect:SetTotalCount(#slot0.displays, -1)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	for slot4, slot5 in pairs(slot0.cards) do
 		slot5:clear()
 	end
 end
 
-function slot0.OnSelected(slot0)
+slot0.OnSelected = function(slot0)
 end
 
 return slot0

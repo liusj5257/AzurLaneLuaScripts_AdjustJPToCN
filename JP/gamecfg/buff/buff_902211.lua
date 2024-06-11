@@ -1,12 +1,12 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufared",
-	color = "yellow",
+	id = 902211,
+	time = 0,
 	picture = "",
 	desc = "强化效率&追加防空炮",
 	stack = 1,
-	id = 902211,
+	color = "yellow",
 	icon = 902210,
 	last_effect = "",
 	blink = {
@@ -35,8 +35,8 @@ return {
 				"onAttach"
 			},
 			arg_list = {
-				attr = "injureRatioByAir",
-				number = -0.1
+				number = -0.1,
+				attr = "injureRatioByAir"
 			}
 		}
 	}

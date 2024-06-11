@@ -4,18 +4,18 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
-			bgm = "story-richang-2",
+			side = 2,
 			say = "대형 던전·상층부",
+			bgm = "story-richang-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			side = 2,
 			actorName = "재블린",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "여기가 바로 사천왕 중 5번째 마물이 있는 던전!",
@@ -29,8 +29,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "재블린",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "여기만 공략하면 마왕성으로 진격하는데 마지막 걸림돌까지 사라지는 거야!",
@@ -44,8 +44,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:408}",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "하지만 이 던전은 매우 복잡해…… 조금씩 길을 찾다보면 얼마나 돌아야 할지 모르겠어.",
@@ -59,8 +59,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "라피",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "후…… 라피, 벌써 힘든 것 같아……",
@@ -74,8 +74,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "{namecode:408}",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "아직 전투는 시작도 안 했는데, 벌써 지치면 안 돼, 라피!",
@@ -89,8 +89,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아야나미",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "이 던전의 구조, 이미 알 것 같네요…………",
@@ -104,8 +104,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "아야나미",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "전방의 벽, 얇고 약한 부분이 있을 거예요…… 저한테 맡겨요.",
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "재블린",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
 			say = "잠깐만…… 아야나미, 뭐하려고?",
@@ -152,8 +152,8 @@ return {
 			expression = 3,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 331055,
 			dir = 1,
+			actor = 331055,
 			say = "필살, 다이나믹 킥————",
 			painting = {
 				alpha = 0.3,
@@ -165,8 +165,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "시스템 알림",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "아야나미가 다이나믹 킥으로 사실 전혀 얇거나 약하지 않은 벽에게 999의 대미지를 입혔습니다. 사실 전혀 얇고 약하지 않은 벽이 무너졌습니다.",
 			typewriter = {
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "시스템 알림",
+			side = 2,
 			nameColor = "#A9F548FF",
 			say = "던전 중심부로 향하는 지름길을 발견했습니다.",
 			typewriter = {
@@ -203,8 +203,8 @@ return {
 			expression = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			actor = 331055,
 			dir = 1,
+			actor = 331055,
 			say = "흐흥…… 훨씬 간단해졌죠? 다들 계속 전진해요!",
 			painting = {
 				alpha = 0.3,

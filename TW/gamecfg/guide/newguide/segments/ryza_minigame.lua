@@ -10,15 +10,15 @@ return {
 				},
 				fingerPos = {
 					posY = -90,
-					posX = -90,
-					rotateY = 180
+					rotateY = 180,
+					posX = -90
 				}
 			},
 			style = {
 				text = "點擊獎勵按鈕可以選擇已通過的關卡喲~",
 				mode = 1,
-				posY = 230,
 				dir = 1,
+				posY = 230,
 				posX = 540
 			}
 		}

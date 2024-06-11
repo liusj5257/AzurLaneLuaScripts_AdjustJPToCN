@@ -1,18 +1,18 @@
 return {
-	id = "SHENGYONGQU19",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU19",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 6,
 			side = 2,
+			dir = -1,
+			bgm = "hunhe-battle",
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			dir = -1,
 			say = "What's wrong, Opie? Your magic seems to lack its usual kick today!",
-			bgm = "hunhe-battle",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,8 +26,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "So you've figured out how to dodge my spells? Let's see how you deal my serious sorcery...!",
 			typewriter = {
 				speed = 0.05,
@@ -54,8 +54,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.7,
 					dur = 0.5,
 					x = -2500
@@ -63,10 +63,10 @@ return {
 			}
 		},
 		{
+			say = "KABOOM!",
 			dir = 1,
 			side = 2,
 			soundeffect = "event:/battle/boom2",
-			say = "KABOOM!",
 			flashN = {
 				color = {
 					1,
@@ -117,8 +117,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Vauquelin keeps bobbing and weaving around in close range! It's too hard to get a clean shot at her rigging's power source!",
 			typewriter = {
 				speed = 0.05,
@@ -148,8 +148,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "(But uncovering their strategy won't win the battle for us. We've got to eliminate the mass-produced ships and encircle Vauquelin!)",
 			typewriter = {
 				speed = 0.05,
@@ -164,8 +164,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Everyone, please report your current situation!",
 			typewriter = {
 				speed = 0.05,
@@ -180,8 +180,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Le Téméraire here, in good condition! I've taken some minor damage, but I'm good to go!",
 			typewriter = {
 				speed = 0.05,
@@ -196,8 +196,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "I'm fine as well. I can continue fighting without any issues.",
 			typewriter = {
 				speed = 0.05,
@@ -224,8 +224,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -237,8 +237,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Fortune...",
 			typewriter = {
 				speed = 0.05,
@@ -283,8 +283,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Vauquelin, why are you doing this...?",
 			typewriter = {
 				speed = 0.05,
@@ -299,8 +299,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 3,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Sorry, Richelieu, but we're going to have to change our strategy! In addition to focusing on the power supply, please also try to disarm them!",
 			typewriter = {
 				speed = 0.05,
@@ -315,8 +315,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "We can't let them keep targeting our Royal Navy allies...!",
 			typewriter = {
 				speed = 0.05,

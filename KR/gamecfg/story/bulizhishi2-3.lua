@@ -1,15 +1,15 @@
 return {
-	id = "BULIZHISHI2-3",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "BULIZHISHI2-3",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "battle-boss-1",
 			say = "두 부린은 퓨리파이어와 함께 점점 삼각형을 이루며 싸웠지만, 아직도 승부를 가리지 못했다————",
+			side = 2,
+			dir = 1,
+			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,8 +35,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "세 부린은 퓨리파이어를 포위했고, 주마등처럼 돌아가며 싸웠다.",
 			typewriter = {
 				speed = 0.05,

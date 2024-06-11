@@ -1,19 +1,19 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XUYUWANGYUECHAO29-3",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XUYUWANGYUECHAO29-3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
+			nameColor = "#A9F548FF",
 			side = 2,
 			dir = 1,
 			blackBg = true,
 			bgm = "story-unzen-heart",
 			actor = 399010,
-			nameColor = "#A9F548FF",
+			stopbgm = true,
 			hidePaintObj = true,
 			say = "운젠 씨……!",
 			painting = {
@@ -25,17 +25,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -43,12 +43,12 @@ return {
 			}
 		},
 		{
-			actor = 399010,
 			side = 2,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
+			actor = 399010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이부키는 이만——",
 			painting = {
 				alpha = 0.3,
@@ -60,8 +60,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "이부키가 있던 자리는 순식간에 어두운 안개의 군세로 뒤덮였다.",
@@ -71,8 +71,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
 			say = "이제 남은 것은 운젠뿐이었다.",
@@ -85,17 +85,17 @@ return {
 			bgName = "bg_yunxian_cg4",
 			mode = 1,
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
 			say = "'부정한 그림자'…… 어두운 안개에서 태어난 마수는 마치 신처럼 바다에서 자신에게 다가오는 왜소한 존재를 노려보았다.",
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
 			say = "무의미. 헛수고. 무가치. 보답받지 못하는 노력.",
@@ -131,8 +131,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -149,8 +149,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
 			say = "무의미. 헛수고. 무가치. 보답받지 못하는 노력.",
@@ -160,12 +160,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
-			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "무의미하지 않아요.",
 			painting = {
 				alpha = 0.3,
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -195,8 +195,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -213,8 +213,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -249,8 +249,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -267,8 +267,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
 			say = "무의미. 헛수고. 무가치. 보답받지 못하는 노력.",
@@ -278,8 +278,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -296,8 +296,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -314,8 +314,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -350,8 +350,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -368,8 +368,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -386,8 +386,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -404,8 +404,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -422,8 +422,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,
@@ -440,8 +440,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "운젠",
+			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "해약지심",
 			dir = 1,

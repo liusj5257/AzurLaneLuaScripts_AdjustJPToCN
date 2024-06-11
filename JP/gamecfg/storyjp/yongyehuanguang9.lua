@@ -1,15 +1,15 @@
 return {
-	id = "YONGYEHUANGUANG9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG9",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
-			side = 2,
-			bgm = "bgm-cccp2",
 			say = "バレンツ海・ロイヤル後詰め支援艦隊",
+			side = 2,
+			dir = 1,
+			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,8 +68,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "で、今はかつての仲間をこの航路から排除しようとこの暗い海を延々と黙々と進むわけね",
 			typewriter = {
 				speed = 0.05,
@@ -81,9 +81,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_2",
+			dir = 1,
 			say = "――――！",
 			typewriter = {
 				speed = 0.05,
@@ -95,9 +95,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_hms_2",
+			dir = 1,
 			say = "パーシュースたちの前に煌びやかな風景が広がった。",
 			typewriter = {
 				speed = 0.05,
@@ -109,8 +109,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "パーシュース",
+			side = 2,
 			bgName = "bg_hms_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -125,8 +125,8 @@ return {
 			}
 		},
 		{
-			side = 1,
 			actorName = "ヴァンパイア",
+			side = 1,
 			bgName = "bg_hms_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -141,8 +141,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "パーシュース",
+			side = 2,
 			bgName = "bg_hms_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -172,8 +172,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -230,8 +230,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "極夜だからオーロラがはっきり見えるとはいえ、流石にここまでのものは中々ないわね",
 			typewriter = {
 				speed = 0.05,
@@ -288,8 +288,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -331,8 +331,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 206060,
 			dir = 1,
+			actor = 206060,
 			say = "ヴァンパイア様の棺こそそろそろ清掃してもらったほうがいいんじゃなくて？",
 			typewriter = {
 				speed = 0.05,
@@ -344,11 +344,11 @@ return {
 			}
 		},
 		{
-			actor = 202080,
 			nameColor = "#a9f548",
 			side = 0,
-			hideOther = true,
+			actor = 202080,
 			dir = 1,
+			hideOther = true,
 			actorName = "ヴァンパイア&シェフィールド",
 			say = "……ん？",
 			subActors = {

@@ -1,17 +1,17 @@
 return {
-	id = "WEICENGHUNHE9",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WEICENGHUNHE9",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			nameColor = "#a9f548",
+			side = 2,
 			bgName = "bg_banama_1",
-			bgm = "hunhe-story",
-			dir = 1,
 			say = "파나마 요새 서쪽·외해, 조금 전",
+			dir = 1,
+			bgm = "hunhe-story",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,8 +25,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "대단해! 역시 세계 공학의 기적이라고 불리는 파나마 운하라니까!",
 			typewriter = {
@@ -42,8 +42,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "실제로 체험해보고 나니 ‘장관’이라는 말 외에 이 ‘바다를 잇는 다리’를 표현할 말이 없는걸!",
 			typewriter = {
@@ -59,8 +59,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "장관이라는 것 말고도 더 중요한 게 있죠.",
 			typewriter = {
@@ -108,8 +108,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "이제 이 요새를 지키는 책임은 잠시 동안 우리에게 맡겨진 거네. 오늘 밤은 잠을 못 자겠는걸?",
 			typewriter = {
@@ -122,8 +122,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -135,8 +135,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "기세가 좋은 건 좋은 일이지만 말이지… 파나마 요새는 한동안 세이렌의 습격을 받지 않았거든.",
 			typewriter = {
@@ -165,13 +165,13 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_banama_1",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "전원 주의. 요새 주변에 세이렌이 습격한 흔적을 발견했다.",
 			bgm = "airRaidAlarm",
+			nameColor = "#a9f548",
+			say = "전원 주의. 요새 주변에 세이렌이 습격한 흔적을 발견했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,8 +182,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "통신기",
+			side = 2,
 			bgName = "bg_banama_1",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -201,8 +201,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 106550,
 			dir = 1,
+			actor = 106550,
 			nameColor = "#a9f548",
 			say = "……………",
 			typewriter = {
@@ -218,8 +218,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 102260,
 			dir = 1,
+			actor = 102260,
 			nameColor = "#a9f548",
 			say = "엑…? 상황이 좋아지기 전에는 항상 더 나빠지는 법이라는 말은 이런 걸 말하는 거였나…",
 			typewriter = {
@@ -264,10 +264,10 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#a9f548",
-			bgName = "bg_banama_1",
 			side = 0,
+			bgName = "bg_banama_1",
+			hideOther = true,
 			dir = 1,
 			actor = 102260,
 			actorName = "리노&카사블랑카",
@@ -305,8 +305,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 107170,
 			dir = 1,
+			actor = 107170,
 			nameColor = "#a9f548",
 			say = "……음, 왜 그렇게 보는 거지? 그저 누군가와 대화하는 게 어색할 뿐이야.",
 			typewriter = {
@@ -322,8 +322,8 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "후후후, 미안 미안~ 이렇게 갭이 큰 성격도 꽤 귀엽잖아★",
 			typewriter = {
@@ -339,8 +339,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_banama_1",
-			actor = 103240,
 			dir = 1,
+			actor = 103240,
 			nameColor = "#a9f548",
 			say = "세이렌 함대인가…… 마침 잘 왔어. 요 며칠 동안 답답해 죽는 줄 알았다고.",
 			typewriter = {

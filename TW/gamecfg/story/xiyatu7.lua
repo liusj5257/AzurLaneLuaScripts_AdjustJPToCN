@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "XIYATU7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "XIYATU7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"熱鬧的「環球」晚宴\n\n<size=45>七　當一切成為日常</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_story_task_2",
-			say = "指揮室，一個特別的清晨。",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-2",
+			nameColor = "#A9F548FF",
+			say = "指揮室，一個特別的清晨。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "……倒也不能算「特別」，因為——",
 			typewriter = {
@@ -56,12 +56,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "早——上好~指揮官！",
 			painting = {
 				alpha = 0.3,
@@ -73,8 +73,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -92,10 +92,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "吃過了嗎？沒有的話先一起吃點什麼吧~",
 			painting = {
 				alpha = 0.3,
@@ -113,8 +113,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "一套薩丁風格的早餐被端到了桌上。",
 			typewriter = {
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "別出心裁的早餐，正逐漸變成熟悉的習慣。",
 			typewriter = {
@@ -142,10 +142,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "對吧~今天達文西她們開了一家薩丁風格的早點鋪哦！說是從晚宴得到了靈感什麼的……",
 			painting = {
 				alpha = 0.3,
@@ -157,8 +157,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -170,10 +170,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "好像還弄了一個自動煎餅機器人甚麼的，果然團體活動就是能讓大家靈感多多。",
 			painting = {
 				alpha = 0.3,
@@ -185,12 +185,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "怎麼樣，指揮官，有沒有喜歡上這種氛圍？",
 			painting = {
 				alpha = 0.3,
@@ -202,8 +202,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "熱鬧的氛圍的確很不錯。",
 			typewriter = {
@@ -212,12 +212,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我就知道指揮官會喜歡上的！不過，聽指揮官的語氣，是還發現了更有趣的事嗎？",
 			painting = {
 				alpha = 0.3,
@@ -229,8 +229,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -242,10 +242,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "欸？真的？指揮官發現了什麼？",
 			painting = {
 				alpha = 0.3,
@@ -257,8 +257,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "不然跟她開個玩笑好了——",
 			typewriter = {
@@ -296,13 +296,13 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我懂了！是誇讚我策劃派對的手法非常棒對吧！",
 			painting = {
 				alpha = 0.3,
@@ -374,10 +374,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "等等……等等……稍等，我仔細想想……這樣的話……以後就得……還得……",
 			painting = {
 				alpha = 0.3,
@@ -389,8 +389,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -402,10 +402,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我，我先稍微離開一下！很快回來！",
 			painting = {
 				alpha = 0.3,
@@ -417,8 +417,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 1.2,
 					dur = 0.6,
 					x = -2500
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "在西雅圖消失了幾分鐘後——",
 			typewriter = {
@@ -435,17 +435,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -456,10 +456,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "我回來了！……唔唔唔，心情整理完畢！",
 			painting = {
 				alpha = 0.3,
@@ -471,8 +471,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -484,10 +484,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "果然，我也是對指揮官有意思的──！和指揮官一起準備派對，要比以前還要開心！",
 			painting = {
 				alpha = 0.3,
@@ -499,12 +499,12 @@ return {
 			}
 		},
 		{
-			actor = 199010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 199010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官，從今天起，我們除了派對，又有了一樣要做的事呢！",
 			painting = {
 				alpha = 0.3,
@@ -519,10 +519,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "那就是——",
 			painting = {
 				alpha = 0.3,
@@ -534,8 +534,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "——工作。",
 			typewriter = {
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			say = "畢竟要勞逸結合嘛。",
 			typewriter = {
@@ -557,10 +557,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 199010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -591,8 +591,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

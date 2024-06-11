@@ -1,12 +1,12 @@
 return {
-	id = "WTask390C",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "WTask390C",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "해역의 세이렌 함대를 정리했습니다. 임무 완성!",
 			typewriter = {
 				speed = 0.05,

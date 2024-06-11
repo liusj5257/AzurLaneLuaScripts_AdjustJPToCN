@@ -7,9 +7,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 600136,
 					time = 1,
-					target = "TargetSelf",
-					skill_id = 600136
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -18,9 +18,9 @@ return {
 					"onHPRatioUpdate"
 				},
 				arg_list = {
-					hpLowerBound = 1,
 					skill_id = 600134,
 					hpSigned = 1,
+					hpLowerBound = 1,
 					target = {
 						"TargetAllHelp",
 						"TargetShipTag"
@@ -86,9 +86,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 600135,
 					time = 1,
-					target = "TargetSelf",
-					skill_id = 600135
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -97,9 +97,9 @@ return {
 					"onHPRatioUpdate"
 				},
 				arg_list = {
-					hpLowerBound = 1,
 					skill_id = 600134,
 					hpSigned = 1,
+					hpLowerBound = 1,
 					target = {
 						"TargetAllHelp",
 						"TargetShipTag"
@@ -165,9 +165,9 @@ return {
 					"onUpdate"
 				},
 				arg_list = {
+					skill_id = 600130,
 					time = 1,
-					target = "TargetSelf",
-					skill_id = 600130
+					target = "TargetSelf"
 				}
 			},
 			{
@@ -176,9 +176,9 @@ return {
 					"onHPRatioUpdate"
 				},
 				arg_list = {
-					hpLowerBound = 1,
 					skill_id = 600134,
 					hpSigned = 1,
+					hpLowerBound = 1,
 					target = {
 						"TargetAllHelp",
 						"TargetShipTag"
@@ -243,9 +243,9 @@ return {
 	{},
 	{},
 	{},
-	init_effect = "",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "",
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -259,9 +259,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
+				skill_id = 600130,
 				time = 1,
-				target = "TargetSelf",
-				skill_id = 600130
+				target = "TargetSelf"
 			}
 		},
 		{
@@ -270,9 +270,9 @@ return {
 				"onHPRatioUpdate"
 			},
 			arg_list = {
-				hpLowerBound = 1,
 				skill_id = 600134,
 				hpSigned = 1,
+				hpLowerBound = 1,
 				target = {
 					"TargetAllHelp",
 					"TargetShipTag"

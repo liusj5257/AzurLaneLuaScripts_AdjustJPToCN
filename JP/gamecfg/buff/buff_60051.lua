@@ -10,15 +10,15 @@ return {
 				},
 				arg_list = {
 					group = 60051,
-					attr = "DMG_TAG_EHC_N_1",
-					number = 1
+					number = 1,
+					attr = "DMG_TAG_EHC_N_1"
 				}
 			}
 		}
 	},
-	init_effect = "",
-	name = "测试对指定国籍单位的伤害加成",
 	time = 60,
+	name = "测试对指定国籍单位的伤害加成",
+	init_effect = "",
 	picture = "",
 	desc = "测试对指定国籍单位的伤害加成",
 	stack = 1,
@@ -34,8 +34,8 @@ return {
 			},
 			arg_list = {
 				group = 60051,
-				attr = "DMG_TAG_EHC_N_1",
-				number = 1
+				number = 1,
+				attr = "DMG_TAG_EHC_N_1"
 			}
 		}
 	}

@@ -1,10 +1,10 @@
 slot0 = class("HololiveMedalCollectionMediator", import("view.base.ContextMediator"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:BindEvent()
 end
 
-function slot0.BindEvent(slot0)
+slot0.BindEvent = function(slot0)
 	slot0:bind(ActivityMediator.ON_TASK_SUBMIT, function (slot0, slot1)
 		uv0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
 	end)
@@ -15,7 +15,7 @@ function slot0.BindEvent(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.MEMORYBOOK_UNLOCK_DONE,
 		ActivityProxy.ACTIVITY_SHOW_AWARDS,
@@ -24,7 +24,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.MEMORYBOOK_UNLOCK_DONE then

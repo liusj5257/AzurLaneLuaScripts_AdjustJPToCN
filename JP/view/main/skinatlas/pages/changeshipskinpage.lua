@@ -1,10 +1,10 @@
 slot0 = class("ChangeShipSkinPage", import("....base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "ChangeShipSkinPage"
 end
 
-function slot0.OnLoaded(slot0)
+slot0.OnLoaded = function(slot0)
 	slot0.confirmBtn = slot0:findTF("window/exchange_btn")
 	slot0.closeBtn = slot0:findTF("window/top/btnBack")
 	slot0.shipCardTpl = slot0._tf:GetComponent("ItemList").prefabItem[0]
@@ -16,7 +16,7 @@ function slot0.OnLoaded(slot0)
 	setText(slot0:findTF("window/exchange_btn/Image"), i18n("change"))
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.confirmBtn, function ()
 		uv0:OnConfirm()
 	end, SFX_PANEL)
@@ -31,7 +31,7 @@ function slot0.OnInit(slot0)
 	end, SFX_PANEL)
 end
 
-function slot0.OnConfirm(slot0)
+slot0.OnConfirm = function(slot0)
 	if not slot0.selectIds or #slot0.selectIds <= 0 then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("new_skin_no_choose"),
@@ -64,7 +64,7 @@ function slot0.OnConfirm(slot0)
 	slot0:Hide()
 end
 
-function slot0.Show(slot0, slot1)
+slot0.Show = function(slot0, slot1)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 
@@ -76,15 +76,15 @@ function slot0.Show(slot0, slot1)
 	slot0:FlushShips()
 end
 
-function slot0.GetSetFlagShip(slot0)
+slot0.GetSetFlagShip = function(slot0)
 	return getProxy(SettingsProxy):GetSetFlagShipForSkinAtlas()
 end
 
-function slot0.SetFlagShip(slot0, slot1)
+slot0.SetFlagShip = function(slot0, slot1)
 	getProxy(SettingsProxy):SetFlagShipForSkinAtlas(slot1)
 end
 
-function slot0.Sort(slot0, slot1, slot2)
+slot0.Sort = function(slot0, slot1, slot2)
 	if (slot1.skinId == slot0.skin.id and 0 or 1) == (slot2.skinId == slot0.skin.id and 0 or 1) then
 		if slot1.level == slot2.level then
 			if slot1:getStar() == slot2:getStar() then
@@ -104,7 +104,7 @@ function slot0.Sort(slot0, slot1, slot2)
 	end
 end
 
-function slot0.GetShips(slot0, slot1)
+slot0.GetShips = function(slot0, slot1)
 	slot4 = getProxy(BayProxy)
 	slot6 = slot0.skin
 	slot4 = slot4:_findShipsByGroup(slot6:getConfig("ship_group"), slot1:IsTransSkin(), slot1:IsProposeSkin())
@@ -116,8 +116,8 @@ function slot0.GetShips(slot0, slot1)
 	return slot4
 end
 
-function slot0.FlushShips(slot0)
-	function slot2(slot0)
+slot0.FlushShips = function(slot0)
+	slot2 = function(slot0)
 		for slot4, slot5 in pairs(uv0.selectIds) do
 			if slot5 == slot0.shipVO.id then
 				table.remove(uv0.selectIds, slot4)
@@ -149,14 +149,14 @@ function slot0.FlushShips(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	uv0.super.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 
 	slot0.selectIds = {}
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end

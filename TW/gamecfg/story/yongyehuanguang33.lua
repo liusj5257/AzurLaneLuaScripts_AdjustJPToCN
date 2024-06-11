@@ -1,17 +1,17 @@
 return {
-	id = "YONGYEHUANGUANG33",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "YONGYEHUANGUANG33",
 	fadein = 1.5,
 	scripts = {
 		{
 			actor = 900219,
 			nameColor = "#ff5c5c",
 			side = 2,
-			bgm = "xinnong-2",
 			dir = 1,
 			say = "嚯~終於到了啊。能一路突破III型艦隊來到這裡，還是要稍微稱讚妳們一下。",
+			bgm = "xinnong-2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205090,
 			dir = 1,
+			actor = 205090,
 			say = "哼，也沒有妳說的這麼誇張嘛。是不是妳在艱難突圍的時候大半艦隊都被北方聯合和指揮官報銷了？",
 			typewriter = {
 				speed = 0.05,
@@ -71,8 +71,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "感覺…只是在嘴硬呢。",
 			typewriter = {
 				speed = 0.05,
@@ -99,8 +99,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -139,8 +139,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -152,8 +152,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 205100,
 			dir = 1,
+			actor = 205100,
 			say = "每天報告那麼多，哪會每份都看那麼細…愛丁堡，報告上指揮官怎麼說的？",
 			typewriter = {
 				speed = 0.05,
@@ -228,8 +228,8 @@ return {
 			expression = 1,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "我來補充~“#特別注意#艦裝上的巨口雖然看起來壓迫力十足，但是直到本次作戰最結束清除者被擊破為止，巨口都一次都沒有被使用過。”",
 			typewriter = {
 				speed = 0.05,
@@ -244,8 +244,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "“P.S.雖然考慮到為了保留實力而故意沒有使用主武器的可能性，不過聯想到清除者的性格，也存在只是單純為了嚇人而安裝上的裝飾品而已......”",
 			typewriter = {
 				speed = 0.05,
@@ -260,8 +260,8 @@ return {
 			expression = 5,
 			nameColor = "#a9f548",
 			side = 2,
-			actor = 201330,
 			dir = 1,
+			actor = 201330,
 			say = "以上~",
 			typewriter = {
 				speed = 0.05,
@@ -290,8 +290,8 @@ return {
 		{
 			actor = 900219,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "開什麼玩笑啊！ ！ ！ ！ ！ ！ ！ ！ ！ ！ ！ ！ ！ ！ ！ ！ ！",
 			dialogShake = {
 				speed = 0.09,
@@ -329,8 +329,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -354,10 +354,10 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
-			say = "轟——！",
+			dir = 1,
 			soundeffect = "event:/battle/boom2",
+			say = "轟——！",
 			effects = {
 				{
 					active = false,

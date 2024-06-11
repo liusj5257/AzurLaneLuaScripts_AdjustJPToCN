@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_167 = {}
 slot1 = slot0.word_template_167
 
-function temp()
+temp = function()
 	uv0["《"] = {
 		["三"] = {
 			["宫"] = {
@@ -886,7 +886,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["窃"] = {
 		["听"] = {
 			["卡"] = {
@@ -904,7 +904,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0.A = {
 		V = {
 			["美"] = {
@@ -1205,7 +1205,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["最"] = {
 		["新"] = {
 			["一"] = {

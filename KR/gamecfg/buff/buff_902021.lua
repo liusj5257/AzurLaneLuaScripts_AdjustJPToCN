@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "",
 	time = 20,
-	color = "yellow",
+	name = "",
+	init_effect = "",
+	id = 902021,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 902021,
+	color = "yellow",
 	icon = 902020,
 	last_effect = "",
 	effect_list = {
@@ -17,9 +17,9 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "cannonPower",
+				number = 20,
 				target = "TargetSelf",
-				number = 20
+				attr = "cannonPower"
 			}
 		}
 	}

@@ -46,12 +46,12 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			side = 1,
-			nameColor = "#a9f548",
-			actorName = "???",
-			blackBg = true,
 			say = "是妳嗎？",
+			nameColor = "#a9f548",
+			blackBg = true,
+			actor = 900010,
+			actorName = "???",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -70,11 +70,11 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "???",
 			blackBg = true,
+			actor = 900010,
+			actorName = "???",
 			say = "是妳嗎…我的妹妹",
 			shake = {
 				speed = 1,
@@ -109,11 +109,11 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "???",
 			blackBg = true,
+			actor = 900010,
+			actorName = "???",
 			say = "…對不起…原諒我所做的一切",
 			shake = {
 				speed = 1,
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			actor = 900010,
 			side = 1,
 			nameColor = "#a9f548",
-			actorName = "???",
 			blackBg = true,
+			actor = 900010,
+			actorName = "???",
 			say = "對不起，為了國家，我們只能這麼做，希望將來的妳能理解我所做的一切",
 			shake = {
 				speed = 1,
@@ -187,8 +187,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{
@@ -198,8 +198,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			sequenceSpd = 2,
+			mode = 1,
 			bgFade = true,
 			sequence = {
 				{

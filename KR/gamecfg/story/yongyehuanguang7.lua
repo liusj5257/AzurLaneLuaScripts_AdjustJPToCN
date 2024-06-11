@@ -1,20 +1,20 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YONGYEHUANGUANG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YONGYEHUANGUANG7",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 202270,
 			dir = 1,
+			bgm = "bgm-cccp2",
+			actor = 202270,
 			nameColor = "#a9f548",
 			say = "…사령부에서 먼저 연락이 왔어요. 발신인이…엘리자베스 여왕 폐하?!",
-			bgm = "bgm-cccp2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,8 +80,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			nameColor = "#a9f548",
 			say = " 아닌데…어? 내가 잘못 들은건가? 폐하께서 방금 뭐라 하신거지…?",
 			typewriter = {
@@ -97,8 +97,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			nameColor = "#a9f548",
 			say = " 명령하시길…우리에게 즉시 방향을 돌려 지원 함대와 집결하여 메탈 블러드를 공격할 준비하라고 하셨어요..",
 			typewriter = {
@@ -114,8 +114,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			nameColor = "#a9f548",
 			say = " 로열 네이비의 전통에 따르면 일단 적의 함대의 집결을 발견하게 되면, 아군의 함대가 먼저 공격해야 하는 건 확실해. 하지만…응? 지금의 우리는 호위 중이잖아!",
 			typewriter = {
@@ -147,8 +147,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			nameColor = "#a9f548",
 			say = "지금 떠나면 앞으로 모든 운송 함대와 노스 유니온의 배반 행위를 포기하는 것이 될 텐데, 폐하께서 어찌 이런 명령을 내리신 거죠…?",
 			typewriter = {
@@ -164,8 +164,8 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 207010,
 			dir = 1,
+			actor = 207010,
 			nameColor = "#a9f548",
 			say = " 정보가 정말 유출되었을 수도, 전세에 어떤 예상 밖의 변화가 일어난 것일 수도 있어. 즉시 사령부로 회신하여 방금의 명령을 확인하자!",
 			typewriter = {
@@ -181,8 +181,8 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_hms_7",
-			actor = 202270,
 			dir = 1,
+			actor = 202270,
 			nameColor = "#a9f548",
 			say = "네!",
 			typewriter = {
@@ -195,15 +195,15 @@ return {
 			}
 		},
 		{
-			actor = 408060,
 			side = 2,
 			bgName = "star_level_bg_134",
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 408060,
+			nameColor = "#ff5c5c",
 			say = "U-73은 계획대로 철수했어. 비행기도 회항했고. 이제 로열 네이비의 운송 함대는 잠시 안전해졌어.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -295,9 +295,9 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_134",
-			actor = 408070,
 			dir = 1,
 			blackBg = true,
+			actor = 408070,
 			nameColor = "#ff5c5c",
 			say = " 알았어, 알았어. 잠수함으로써 가장 자신있는 건 인내심이지. 호호호.",
 			typewriter = {

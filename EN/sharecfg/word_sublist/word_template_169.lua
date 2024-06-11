@@ -3,7 +3,7 @@ slot0 = pg
 slot0.word_template_169 = {}
 slot1 = slot0.word_template_169
 
-function temp()
+temp = function()
 	uv0["咳"] = {
 		["你"] = {
 			["妈"] = {
@@ -24,7 +24,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["可"] = {
 		["查"] = {
 			this = true
@@ -189,7 +189,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["渴"] = {
 		["望"] = {
 			["一"] = {
@@ -205,7 +205,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["克"] = {
 		["萊"] = {
 			["恩"] = {
@@ -303,7 +303,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["刻"] = {
 		["章"] = {
 			this = true
@@ -313,7 +313,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["客"] = {
 		["服"] = {
 			this = true,
@@ -350,7 +350,7 @@ end
 
 temp()
 
-function temp()
+temp = function()
 	uv0["课"] = {
 		["长"] = {
 			["岛"] = {

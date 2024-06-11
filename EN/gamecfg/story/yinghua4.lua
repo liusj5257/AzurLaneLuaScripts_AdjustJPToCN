@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YINGHUA4",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "YINGHUA4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"",
@@ -130,32 +130,32 @@ return {
 			}
 		},
 		{
+			blackBg = true,
 			say = "She has seen into the eyes of many. She has seen the anticipation in the eyes of faithful believers, and she has seen the gleam that signifies hope for the future.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			blackBg = true,
 			say = "However, that is not what she's seeing in these people's eyes. Their eyes are filled not with hope, but the desire to receive her authorization to start a war.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
+			blackBg = true,
 			say = "She may hesitate, but ultimately she has no choice. The people in charge have already decided what course the future will take.",
-			blackBg = true,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "She knew that her objections would be futile. She clenched her fist, took a deep breath, and made a declaration in the dignified voice she had now grown accustomed to using.",
 			blackBg = true,
+			say = "She knew that her objections would be futile. She clenched her fist, took a deep breath, and made a declaration in the dignified voice she had now grown accustomed to using.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

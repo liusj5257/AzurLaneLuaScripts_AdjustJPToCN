@@ -8,8 +8,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 20,
+					target = "TargetSelf",
 					skill_id = 105110
 				}
 			},
@@ -20,8 +20,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 105111,
-					target = "TargetSelf",
 					time = 20,
+					target = "TargetSelf",
 					quota = 1
 				}
 			},
@@ -31,8 +31,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -49,8 +49,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 19.5,
+					target = "TargetSelf",
 					skill_id = 105110
 				}
 			},
@@ -61,8 +61,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 105111,
-					target = "TargetSelf",
 					time = 19.5,
+					target = "TargetSelf",
 					quota = 1
 				}
 			},
@@ -72,8 +72,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -90,8 +90,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 19,
+					target = "TargetSelf",
 					skill_id = 105110
 				}
 			},
@@ -102,8 +102,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 105111,
-					target = "TargetSelf",
 					time = 19,
+					target = "TargetSelf",
 					quota = 1
 				}
 			},
@@ -113,8 +113,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -131,8 +131,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 18.5,
+					target = "TargetSelf",
 					skill_id = 105110
 				}
 			},
@@ -143,8 +143,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 105111,
-					target = "TargetSelf",
 					time = 18.5,
+					target = "TargetSelf",
 					quota = 1
 				}
 			},
@@ -154,8 +154,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -172,8 +172,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 18,
+					target = "TargetSelf",
 					skill_id = 105110
 				}
 			},
@@ -184,8 +184,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 105111,
-					target = "TargetSelf",
 					time = 18,
+					target = "TargetSelf",
 					quota = 1
 				}
 			},
@@ -195,8 +195,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -213,8 +213,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 17.5,
+					target = "TargetSelf",
 					skill_id = 105110
 				}
 			},
@@ -225,8 +225,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 105111,
-					target = "TargetSelf",
 					time = 17.5,
+					target = "TargetSelf",
 					quota = 1
 				}
 			},
@@ -236,8 +236,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -254,8 +254,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 17,
+					target = "TargetSelf",
 					skill_id = 105110
 				}
 			},
@@ -266,8 +266,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 105111,
-					target = "TargetSelf",
 					time = 17,
+					target = "TargetSelf",
 					quota = 1
 				}
 			},
@@ -277,8 +277,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -295,8 +295,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 16.5,
+					target = "TargetSelf",
 					skill_id = 105110
 				}
 			},
@@ -307,8 +307,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 105111,
-					target = "TargetSelf",
 					time = 16.5,
+					target = "TargetSelf",
 					quota = 1
 				}
 			},
@@ -318,8 +318,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -336,8 +336,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 16,
+					target = "TargetSelf",
 					skill_id = 105110
 				}
 			},
@@ -348,8 +348,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 105111,
-					target = "TargetSelf",
 					time = 16,
+					target = "TargetSelf",
 					quota = 1
 				}
 			},
@@ -359,8 +359,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -377,8 +377,8 @@ return {
 				},
 				arg_list = {
 					quota = 1,
-					target = "TargetSelf",
 					time = 15,
+					target = "TargetSelf",
 					skill_id = 105110
 				}
 			},
@@ -389,8 +389,8 @@ return {
 				},
 				arg_list = {
 					buff_id = 105111,
-					target = "TargetSelf",
 					time = 15,
+					target = "TargetSelf",
 					quota = 1
 				}
 			},
@@ -400,8 +400,8 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					attr = "cri",
 					number = 1,
+					attr = "cri",
 					index = {
 						-1
 					}
@@ -409,14 +409,14 @@ return {
 			}
 		}
 	},
-	init_effect = "",
-	name = "阿修罗修罗刹鬼神斩",
 	time = 0,
-	color = "red",
+	name = "阿修罗修罗刹鬼神斩",
+	init_effect = "",
+	id = 105110,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 105110,
+	color = "red",
 	icon = 105110,
 	last_effect = "",
 	effect_list = {
@@ -427,8 +427,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				target = "TargetSelf",
 				time = 20,
+				target = "TargetSelf",
 				skill_id = 105110
 			}
 		},
@@ -439,8 +439,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 105111,
-				target = "TargetSelf",
 				time = 20,
+				target = "TargetSelf",
 				quota = 1
 			}
 		},
@@ -450,8 +450,8 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				attr = "cri",
 				number = 1,
+				attr = "cri",
 				index = {
 					-1
 				}

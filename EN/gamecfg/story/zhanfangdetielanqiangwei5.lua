@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "ZHANFANGDETIELANQIANGWEI5",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "ZHANFANGDETIELANQIANGWEI5",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"The Iron Rose Blooms\n\n<size=45>5 Seydlitz in the Plains</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
-			side = 2,
 			bgName = "bg_zhedie_16",
-			say = "We visit the attraction and put on the VR headset as instructed.",
+			side = 2,
 			bgmDelay = 2,
 			bgm = "story-richang-7",
+			nameColor = "#A9F548FF",
+			say = "We visit the attraction and put on the VR headset as instructed.",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -46,8 +46,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "Endless, grassy plains fill my field of vision, and I can't help but gasp at the surreal, dreamlike scenery.",
 			typewriter = {
@@ -59,10 +59,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "It's so vast...",
 			painting = {
 				alpha = 0.3,
@@ -77,10 +77,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "So there really are grasslands that stretch beyond the horizon, just like the ocean...",
 			painting = {
 				alpha = 0.3,
@@ -92,8 +92,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "The vast grasslands are perfectly replicated from the real world, perhaps even more than perfect. Seydlitz clearly is impressed.",
 			typewriter = {
@@ -105,10 +105,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commandant, the truth is... I've never seen the real grasslands in person.",
 			painting = {
 				alpha = 0.3,
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -130,8 +130,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -143,10 +143,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "As much as I've always wanted to, I only know about them from books and photos.",
 			painting = {
 				alpha = 0.3,
@@ -161,10 +161,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "But I'm so happy that, real or not, I get to experience the feeling of running wildly through the plains.",
 			painting = {
 				alpha = 0.3,
@@ -176,8 +176,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "............",
 			typewriter = {
@@ -195,10 +195,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "The feeling of freedom, you mean?",
 			painting = {
 				alpha = 0.3,
@@ -213,10 +213,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Well, umm... Sorry, but I don't know if I can answer that yet.",
 			painting = {
 				alpha = 0.3,
@@ -231,10 +231,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "I've never experienced real freedom. All my life, I've shouldered so many hopes - yours, those of my comrades...",
 			painting = {
 				alpha = 0.3,
@@ -246,12 +246,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Sometimes, Lützow insists that I must get tired of that. That I should get a hobby. But I find my life very fulfilling.",
 			painting = {
 				alpha = 0.3,
@@ -266,10 +266,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "While I do, though, I also worry whether I'm properly meeting your expectations...",
 			painting = {
 				alpha = 0.3,
@@ -281,12 +281,12 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Before I realize it, I'm just spinning in circles endlessly. Do you ever have moments like those, Commandant?",
 			painting = {
 				alpha = 0.3,
@@ -298,8 +298,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "............",
 			typewriter = {
@@ -318,13 +318,13 @@ return {
 			}
 		},
 		{
-			actor = 404030,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
+			actor = 404030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "And yet you never show a hint of hesitation... You're stronger than me, Commandant.",
 			painting = {
 				alpha = 0.3,
@@ -358,10 +358,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Commandant, thank you for hearing me out! I'll need some time to think of my own solution.",
 			painting = {
 				alpha = 0.3,
@@ -376,10 +376,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "...More importantly, I spy a juicy monster!",
 			painting = {
 				alpha = 0.3,
@@ -391,8 +391,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -401,8 +401,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -414,10 +414,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_16",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 404030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "Let's go and hunt it, Commandant!",
 			painting = {
 				alpha = 0.3,
@@ -429,8 +429,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "After putting her doubts behind her, Seydlitz charges toward her prey in high spirits. I rush to follow after.",
 			typewriter = {
@@ -439,8 +439,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "While it's impressive how quickly she can turn her mindset around, I can't help but ask myself–",
 			typewriter = {
@@ -449,8 +449,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_16",
 			say = "(Have I been misunderstanding her concerns all this time?)",
 			typewriter = {

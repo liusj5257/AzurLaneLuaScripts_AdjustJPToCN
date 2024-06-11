@@ -4,13 +4,13 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			bgm = "qe-ova-10",
+			actorName = "TB",
 			side = 2,
 			bgName = "bg_project_tb_cg28",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-31",
-			actorName = "TB",
+			dir = 1,
+			bgm = "qe-ova-10",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "...Okay, need to set everything up before the band gets here.",
 			painting = {
@@ -23,8 +23,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg28",
 			hidePaintObj = true,
 			say = "After graduating, TB became a musician and put together enough money to purchase her own recording studio.",
@@ -46,14 +46,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg28",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "Yeah. I guess it's the price you pay for making music that really speaks to the soul.",
 			voice = "event:/educate/tb/educate-tb-story-32-32",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Yeah. I guess it's the price you pay for making music that really speaks to the soul.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,14 +64,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg28",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "You can wait outside if you're getting bored, by the way.",
 			voice = "event:/educate/tb/educate-tb-story-32-33",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "You can wait outside if you're getting bored, by the way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,14 +94,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg28",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "M'kay.",
 			voice = "event:/educate/tb/educate-tb-story-32-34",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "M'kay.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,8 +112,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg28",
 			hidePaintObj = true,
 			say = "The look on her face as she fiddles with the mixer is one of utmost concentration.",
@@ -123,8 +123,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg28",
 			hidePaintObj = true,
 			say = "When I get home, I should listen to some of the albums she recommended.",

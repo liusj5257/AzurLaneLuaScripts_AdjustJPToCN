@@ -1,19 +1,19 @@
 return {
-	id = "SHENGYONGQU20",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "SHENGYONGQU20",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 2,
 			actor = 901030,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
-			say = "Algérie, um... I don't think I can deal with their entire vanguard by myself...",
 			bgm = "bgm-cccp2",
+			nameColor = "#ff5c5c",
+			say = "Algérie, um... I don't think I can deal with their entire vanguard by myself...",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -39,8 +39,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 1,
 					dur = 0.15,
 					x = 0,
@@ -67,10 +67,10 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			actor = 901030,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 901030,
+			nameColor = "#ff5c5c",
 			say = "I can do that, but... what if they don't stand down...?",
 			typewriter = {
 				speed = 0.05,
@@ -84,10 +84,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 903020,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 903020,
+			nameColor = "#ff5c5c",
 			say = "I'll back you up at that point. Ah, please keep an eye on the submarines.",
 			typewriter = {
 				speed = 0.05,
@@ -101,10 +101,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 901030,
-			nameColor = "#ff5c5c",
 			dir = 1,
 			blackBg = true,
+			actor = 901030,
+			nameColor = "#ff5c5c",
 			say = "Submarines? Did we have any submarines stationed around here?",
 			typewriter = {
 				speed = 0.05,
@@ -148,11 +148,11 @@ return {
 			}
 		},
 		{
-			soundeffect = "event:/battle/boom2",
-			side = 2,
-			say = "KABOOM!",
-			dir = 1,
 			bgm = "level-french2",
+			side = 2,
+			dir = 1,
+			soundeffect = "event:/battle/boom2",
+			say = "KABOOM!",
 			effects = {
 				{
 					active = false,
@@ -208,9 +208,9 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			dir = 1,
 			say = "(I said I'd focus on dodging, but they're coming after me a lot harder all of a sudden!)",
 			typewriter = {
 				speed = 0.05,
@@ -222,8 +222,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -235,8 +235,8 @@ return {
 			actor = 901030,
 			side = 2,
 			expression = 5,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			nameColor = "#ff5c5c",
 			say = "(They seem to have figured out that I was only aiming for the Royal Navy ships... but since they're allies, of course they couldn't just let that slide...)",
 			typewriter = {
 				speed = 0.05,
@@ -248,14 +248,14 @@ return {
 			}
 		},
 		{
-			actor = 901030,
 			side = 2,
-			nameColor = "#ff5c5c",
 			dir = 1,
+			actor = 901030,
+			nameColor = "#ff5c5c",
 			say = "(In any case, Algérie said she'd be following up any moment now, so I'll have to find the right timing to make a retreat!)",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -282,13 +282,13 @@ return {
 		{
 			expression = 3,
 			side = 2,
+			dir = 1,
 			actor = 801040,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "Taste my true sorcery! I mean, uh, fiiire!",
 			flashout = {
-				black = true,
 				dur = 0.25,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -316,8 +316,8 @@ return {
 			actor = 901030,
 			side = 2,
 			expression = 3,
-			nameColor = "#ff5c5c",
 			dir = -1,
+			nameColor = "#ff5c5c",
 			say = "(Woah?! Did Opie close the gap on me while I was thinking about Algérie's strategy...?!)",
 			typewriter = {
 				speed = 0.05,
@@ -332,8 +332,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Daydreaming at a time like this? Vauquelin, did Tartu rub off on you?",
 			typewriter = {
 				speed = 0.05,
@@ -348,8 +348,8 @@ return {
 			actor = 901030,
 			side = 2,
 			expression = 9,
-			nameColor = "#ff5c5c",
 			dir = -1,
+			nameColor = "#ff5c5c",
 			say = "Don't be worrying about me! Anyway, it's about time for me... to make my exit! Whoosh!",
 			typewriter = {
 				speed = 0.05,
@@ -364,8 +364,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 10,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Vauquelin! ...What's this...?",
 			typewriter = {
 				speed = 0.05,
@@ -380,8 +380,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "It's a smokescreen! She's trying to run away?!",
 			typewriter = {
 				speed = 0.05,
@@ -395,9 +395,9 @@ return {
 		{
 			expression = 8,
 			side = 2,
+			dir = -1,
 			actor = 901030,
 			nameColor = "#ff5c5c",
-			dir = -1,
 			say = "Of course I am! There's no way for me to win!",
 			typewriter = {
 				speed = 0.05,
@@ -409,8 +409,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.7,
 					dur = 0.5,
 					x = -2500
@@ -421,8 +421,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Wait! Vauquelin!",
 			typewriter = {
 				speed = 0.05,
@@ -437,8 +437,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "L'Opiniâtre! Remember what Richelieu said about not overextending ourselves? Get back in formation!",
 			typewriter = {
 				speed = 0.05,
@@ -453,8 +453,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 8,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "What did Vauquelin come here for then...?",
 			typewriter = {
 				speed = 0.05,
@@ -469,8 +469,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "I don't know. Richelieu and the others should already be at the Basilica, and none of us seem to be injured... Wait, no...",
 			typewriter = {
 				speed = 0.05,
@@ -497,8 +497,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -510,8 +510,8 @@ return {
 			actor = 801030,
 			side = 2,
 			expression = 8,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "What's wrong, Fortune? Does it hurt?",
 			typewriter = {
 				speed = 0.05,
@@ -541,8 +541,8 @@ return {
 			actor = 801040,
 			side = 2,
 			expression = 4,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "What's wrong? Why did you start crying?",
 			typewriter = {
 				speed = 0.05,
@@ -629,8 +629,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = -30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -642,8 +642,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 2,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "......",
 			typewriter = {
 				speed = 0.05,
@@ -658,8 +658,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Yes, we're aware of all of that. But Richelieu still decided to work with the Royal Navy.",
 			typewriter = {
 				speed = 0.05,
@@ -689,8 +689,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "It is true that what happened to Dunkerque indeed was the responsibility of the Royal Navy, and Richelieu does bear a portion of that burden. However...",
 			typewriter = {
 				speed = 0.05,
@@ -720,8 +720,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "The Iris Orthodoxy should be made whole again. There is no future ahead of us in the hands of the Iron Blood.",
 			typewriter = {
 				speed = 0.05,
@@ -763,8 +763,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0.5,
 					dur = 0.15,
 					x = 0,
@@ -776,8 +776,8 @@ return {
 			actor = 802020,
 			side = 2,
 			expression = 1,
-			nameColor = "#a9f548",
 			dir = 1,
+			nameColor = "#a9f548",
 			say = "Since the Vichya fleet is retreating, Richelieu and the others should be getting back to us soon... Wait, what...?!",
 			typewriter = {
 				speed = 0.05,

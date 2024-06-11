@@ -6,12 +6,12 @@ return {
 			style = {
 				text = "<size=28>明石から毎週コインを10枚もらえるわ！コインを消費すると、ゲームクリア時にアイテムと交換できる「報酬交換チケット」を入手できるわよ！</size>",
 				mode = 1,
-				posY = 289.2,
 				dir = -1,
+				posY = 289.2,
 				posX = -364.9,
 				ui = {
-					path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/container/content/top/free",
-					lineMode = 2
+					lineMode = 2,
+					path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/container/content/top/free"
 				}
 			}
 		},
@@ -20,21 +20,21 @@ return {
 			style = {
 				text = "ゲーム機か「ゲーム開始」ボタンをタップするとプレイするゲームを選択できるわ！\t ",
 				mode = 1,
+				lineMode = true,
+				posY = 128.64,
 				dir = 1,
 				posX = -370,
-				posY = 128.64,
-				lineMode = true,
 				trigger = {
 					path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/btnPlay"
 				},
 				uiset = {
 					{
-						path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/container/content/top/btnGameList",
-						lineMode = 1
+						lineMode = 1,
+						path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/container/content/top/btnGameList"
 					},
 					{
-						path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/btnPlay",
-						lineMode = 1
+						lineMode = 1,
+						path = "UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/btnPlay"
 					}
 				}
 			}
@@ -42,8 +42,8 @@ return {
 		{
 			alpha = 0.4,
 			ui = {
-				path = "/UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/listPanel/ad/viewport/content",
 				pathIndex = 0,
+				path = "/UICamera/Canvas/UIMain/GameHallUI(Clone)/ad/listPanel/ad/viewport/content",
 				triggerType = {
 					1
 				}
@@ -51,8 +51,8 @@ return {
 			style = {
 				text = "プレイするゲームを選んでね！",
 				mode = 1,
-				posY = 237.49,
 				dir = -1,
+				posY = 237.49,
 				posX = 245.58
 			}
 		},
@@ -61,8 +61,8 @@ return {
 			style = {
 				text = "ここで消費するコインを選べるわ！コインを消費しなくてもミニゲームはプレイできるわよ！",
 				mode = 1,
-				posY = 269.39,
 				dir = -1,
+				posY = 269.39,
 				posX = 166.27,
 				ui = {
 					path = "UICamera/Canvas/UIMain/GameRoomCoinUI(Clone)/ad/window"
@@ -80,8 +80,8 @@ return {
 			style = {
 				text = "手に入れた「報酬交換チケット」はショップでアイテムと交換できるわ！",
 				mode = 1,
-				posY = 365.75,
 				dir = -1,
+				posY = 365.75,
 				posX = -368.3
 			}
 		},

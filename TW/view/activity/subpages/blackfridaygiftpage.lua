@@ -4,7 +4,7 @@ slot0.DAY_COLOR = {
 	"C8A471"
 }
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot1 = slot0._tf
 	slot0.rtGift = slot1:Find("AD/gift")
 	slot1 = slot0._tf
@@ -35,7 +35,7 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.OnDataSetting(slot0)
+slot0.OnDataSetting = function(slot0)
 	if not slot0.idLists then
 		slot0.idLists = slot0.activity:getConfig("config_client").gifts
 
@@ -53,7 +53,7 @@ function slot0.OnDataSetting(slot0)
 	end)
 end
 
-function slot0.OnUpdateFlush(slot0)
+slot0.OnUpdateFlush = function(slot0)
 	slot0.uiList:align(#slot0.idLists[1])
 
 	if not slot0.index then
@@ -71,12 +71,12 @@ function slot0.OnUpdateFlush(slot0)
 	end
 end
 
-function slot0.ShowGifts(slot0, slot1)
+slot0.ShowGifts = function(slot0, slot1)
 	slot0:UpdateCard(slot0.rtGift, slot0.gifts[slot0.index])
 	slot0:UpdateCard(slot0.rtFreeGift, slot0.freeGifts[slot0.index])
 end
 
-function slot1(slot0)
+slot1 = function(slot0)
 	return ({
 		"hot",
 		"new_tag",
@@ -87,7 +87,7 @@ function slot1(slot0)
 	})[slot0] or "hot"
 end
 
-function slot0.UpdateCard(slot0, slot1, slot2)
+slot0.UpdateCard = function(slot0, slot1, slot2)
 	slot3 = nil
 
 	if slot2:isChargeType() then
@@ -184,7 +184,7 @@ function slot0.UpdateCard(slot0, slot1, slot2)
 	end, SFX_PANEL)
 end
 
-function slot0.OnCharge(slot0, slot1)
+slot0.OnCharge = function(slot0, slot1)
 	if slot1:isChargeType() then
 		slot2 = slot1:getConfig("tag")
 		slot3 = underscore.map(slot1:getConfig("extra_service_item"), function (slot0)
@@ -241,9 +241,9 @@ function slot0.OnCharge(slot0, slot1)
 		end
 
 		slot0:emit(ActivityMediator.OPEN_CHARGE_ITEM_PANEL, {
-			isMonthCard = false,
 			isChargeType = false,
 			isLocalPrice = false,
+			isMonthCard = false,
 			icon = slot4.icon,
 			name = slot4.name,
 			tipExtra = i18n("charge_title_getitem"),
@@ -262,7 +262,7 @@ function slot0.OnCharge(slot0, slot1)
 	end
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 end
 
 return slot0

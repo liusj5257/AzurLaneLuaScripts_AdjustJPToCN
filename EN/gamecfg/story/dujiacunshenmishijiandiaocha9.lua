@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA9",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA9",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Several days have passed since the incident, and the onsen resort is back in holiday mode.",
 			bgm = "map-longgong",
+			say = "Several days have passed since the incident, and the onsen resort is back in holiday mode.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "Plays are held daily at night, and they've become a hugely popular attraction with the guests.",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_516",
 			hidePaintObj = true,
 			say = "I'm still on vacation now, and this morning, I received a report on the so-called \"Spirited-Away Incident\" slid in under my door.",
@@ -160,12 +160,12 @@ return {
 			}
 		},
 		{
-			actor = 312010,
 			side = 2,
-			nameColor = "#A9F548FF",
 			factiontag = "The Fat Cat Mastermind",
 			dir = 1,
 			blackBg = true,
+			actor = 312010,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hehehe... The onsen resort, the Youkai Troupe, even the spiriting away... they earned me a pretty penny, nya♪",
 			painting = {
@@ -177,17 +177,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -195,9 +195,9 @@ return {
 			}
 		},
 		{
-			blackbg = true,
 			mode = 1,
 			stopbgm = true,
+			blackbg = true,
 			effects = {
 				{
 					active = true,

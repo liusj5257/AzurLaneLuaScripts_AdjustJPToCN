@@ -7,28 +7,28 @@ return {
 	},
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
+			bgm = "votefes-start",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "모항, 집무실.",
-			bgm = "votefes-start",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -39,10 +39,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "실례할게요.",
 			painting = {
 				alpha = 0.3,
@@ -57,10 +57,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "시, 실례할게…",
 			painting = {
 				alpha = 0.3,
@@ -75,10 +75,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "\"Alizarin\" 관점에서 정리한 이번 \"μ장비\" 훈련 실시 상황 보고서예요.",
 			painting = {
 				alpha = 0.3,
@@ -93,10 +93,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "…이쪽은 \"Cyanidin\" 거야.",
 			painting = {
 				alpha = 0.3,
@@ -123,10 +123,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아, 아니야… 이건 원래 해야 하는 일이고… 후~ 하~",
 			painting = {
 				alpha = 0.3,
@@ -141,10 +141,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "네, 해야 할 일을 한 것뿐이에요.",
 			painting = {
 				alpha = 0.3,
@@ -171,10 +171,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아뇨, 포미더블은 일러스트리어스에게 레이디의 매너에 대해 공부하라고 한 소리 들었고… 오이겐은 공명 현상에 대해 연구하는 모양이에요.",
 			painting = {
 				alpha = 0.3,
@@ -189,10 +189,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 102320,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그, 그 현상이 일어났을 땐… 정말 깜짝 놀랐어…",
 			painting = {
 				alpha = 0.3,
@@ -231,10 +231,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그나저나 언제까지 업무를 보실 생각이신가요? 슬슬 시간이…",
 			painting = {
 				alpha = 0.3,
@@ -261,10 +261,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "제 기억이 맞다면… 이제 곧 아카기와 다이호의 소원을 들어주는 시간 아닌가요?",
 			painting = {
 				alpha = 0.3,
@@ -279,10 +279,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그 다음이 프린츠 오이겐… 그리고 차례대로 론, 유니콘, 허먼이고…",
 			painting = {
 				alpha = 0.3,
@@ -297,10 +297,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 302240,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그 다음이 일러스트리어스, 그리고 저죠.",
 			painting = {
 				alpha = 0.3,
@@ -312,12 +312,12 @@ return {
 			}
 		},
 		{
-			actor = 302240,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 302240,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아, 그리고 보이시도… 밤에는 아마 콘고랑 테메레르였던가…",
 			painting = {
 				alpha = 0.3,
@@ -339,8 +339,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -388,28 +388,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――그 말은… 모든 참가자의 소원을… 빠짐없이 이루어줘야 한다는… 거야?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -431,10 +431,10 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "맞아. 뭐, 실제로 실행하는 건 주최 측에서 일부 대신해 줄 수는 있지만……",
 			painting = {
 				alpha = 0.3,
@@ -461,10 +461,10 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_ouxiangsanqi_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 905020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "음… 만약 그 소원이 전부 지휘관이랑 관련된 거면… 아무리 주최위원회라도 도와줄 수 없을 것 같아. 후후후.",
 			painting = {
 				alpha = 0.3,
@@ -476,28 +476,28 @@ return {
 			}
 		},
 		{
-			actor = 0,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
+			actor = 0,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "(라피의 최첨단 초고급 베개 주문 제작 소원과, 르 말랭의 1년간 농땡이 소원을 제외하고는…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -526,10 +526,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "후후후… 지휘관님~ 아카기가 마중 나왔답니다♡",
 			painting = {
 				alpha = 0.3,
@@ -541,12 +541,12 @@ return {
 			}
 		},
 		{
-			actor = 307010,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 307010,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "아카기와의 \"데이트\" 약속, 잊지 않으셨죠?",
 			painting = {
 				alpha = 0.3,
@@ -561,10 +561,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "잠깐 기다려요! 다이호의 차례는 아직 정해지지 않았어요!",
 			painting = {
 				alpha = 0.3,
@@ -576,8 +576,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -589,10 +589,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "뭐라구요? 먼저 온 건 아카기거든요?",
 			painting = {
 				alpha = 0.3,
@@ -607,10 +607,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task_2",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 307070,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "그래서 어쩌라고요? 다이호가 순순히 납득할 것 같나요? 지휘관님은 이 다이호만의 것이에요!",
 			painting = {
 				alpha = 0.3,
@@ -622,8 +622,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			say = "차례를 두고 두 붉은 그림자가 집무실에서 치열한 말다툼을 벌이고 있다.",
@@ -648,11 +648,11 @@ return {
 			expression = 1,
 			side = 0,
 			bgName = "bg_story_task_2",
-			actor = 307010,
-			dir = 1,
-			actorName = "아카기 & 다이호",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 307010,
+			actorName = "아카기 & 다이호",
 			hidePaintObj = true,
 			say = "지휘관님!",
 			subActors = {
@@ -674,8 +674,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -687,11 +687,11 @@ return {
 			expression = 4,
 			side = 0,
 			bgName = "bg_story_task_2",
-			actor = 307010,
-			dir = 1,
-			actorName = "아카기 & 다이호",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 307010,
+			actorName = "아카기 & 다이호",
 			hidePaintObj = true,
 			say = "정해졌어요! 그냥 셋이서 같이 데이트해요!",
 			subActors = {

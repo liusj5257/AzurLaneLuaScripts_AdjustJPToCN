@@ -1,10 +1,10 @@
 slot0 = class("NewYearShrineBuffView", import(".ShrineBuffView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "NewYearShrineBuff"
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	uv0.super.initUI(slot0)
 
 	slot0.dft = GetComponent(slot0._tf, "DftAniEvent")

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "BIRUI7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "BIRUI7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"{namecode:71}的宴會\n\n<size=45>七 心聲</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "宴會結束後……",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "宴會結束後……",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -130,17 +130,17 @@ return {
 			}
 		},
 		{
-			actor = 304020,
-			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
+			side = 2,
 			dir = 1,
 			bgmDelay = 2,
-			say = "呼…結束了呢",
 			bgm = "story-2",
+			actor = 304020,
+			nameColor = "#a9f548",
+			say = "呼…結束了呢",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -197,11 +197,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "呵呵，不過即使如此，我還是喜歡這樣熱鬧的宴會呢",
 			typewriter = {
 				speed = 0.05,
@@ -315,9 +315,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "銀色的月光灑落在港區，今夜是個晴朗的夜晚…",
 			typewriter = {
 				speed = 0.05,
@@ -325,9 +325,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "不由得想起剛才在宴會上的{namecode:71}的舞姿。",
 			typewriter = {
 				speed = 0.05,
@@ -335,15 +335,15 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			side = 2,
 			bgName = "bg_night",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 304020,
+			nameColor = "#a9f548",
 			say = "跳舞…現在嗎？宴會已經結束了喲？也沒有音樂呢…",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -368,9 +368,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_night",
+			dir = 1,
 			say = "——沒關係，夜晚還很長。",
 			typewriter = {
 				speed = 0.05,

@@ -5,25 +5,25 @@ slot1 = {
 	main = 2
 }
 slot0.TabIndex = {
-	Duty = 3,
+	Adjustment = 4,
 	Commander = 2,
 	Formation = 1,
-	Adjustment = 4
+	Duty = 3
 }
 slot2 = {
-	SELECT = 1,
-	EDIT = 2
+	EDIT = 2,
+	SELECT = 1
 }
 slot3 = {
 	NORMAL = 1,
 	ADDITION_SUPPORT = 2
 }
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "LevelFleetSelectView"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:InitUI()
 	slot0:bind(LevelUIConst.CONTINUOUS_OPERATION, function (slot0, slot1)
 		getProxy(ChapterProxy):InitContinuousTime(SYSTEM_SCENARIO, slot1.battleTimes)
@@ -37,13 +37,13 @@ function slot0.OnInit(slot0)
 	end)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	if slot0:isShowing() then
 		slot0:Hide()
 	end
 end
 
-function slot0.Show(slot0)
+slot0.Show = function(slot0)
 	slot2 = slot0.chapter:GetDailyBonusQuota()
 
 	slot0:initSPOPView()
@@ -76,7 +76,7 @@ function slot0.Show(slot0)
 	slot0:CheckGuideElement()
 end
 
-function slot0.CheckGuideElement(slot0)
+slot0.CheckGuideElement = function(slot0)
 	if not IsUnityEditor then
 		return
 	end
@@ -89,7 +89,7 @@ function slot0.CheckGuideElement(slot0)
 	end)
 end
 
-function slot0.TryPlaySupportGuide(slot0)
+slot0.TryPlaySupportGuide = function(slot0)
 	if slot0:getLimitNums(FleetType.Support) == 0 then
 		return
 	end
@@ -99,7 +99,7 @@ function slot0.TryPlaySupportGuide(slot0)
 	end
 end
 
-function slot0.Hide(slot0)
+slot0.Hide = function(slot0)
 	setActive(slot0.dropDown, false)
 	setActive(slot0.btnSp, false)
 	setActive(slot0._tf, false)
@@ -109,15 +109,15 @@ function slot0.Hide(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0._parentTf)
 end
 
-function slot0.setOpenCommanderTag(slot0, slot1)
+slot0.setOpenCommanderTag = function(slot0, slot1)
 	slot0.openedCommanerSystem = slot1
 end
 
-function slot0.SetDutyTabEnabled(slot0, slot1)
+slot0.SetDutyTabEnabled = function(slot0, slot1)
 	slot0.dutyTabEnabled = slot1
 end
 
-function slot0.onConfirm(slot0)
+slot0.onConfirm = function(slot0)
 	slot2 = slot0:getSelectIds()
 
 	if #slot0.chapter:getNpcShipByType(2) > 0 then
@@ -168,7 +168,7 @@ function slot0.onConfirm(slot0)
 			PlayerPrefs.SetInt("autoFight_firstUse_sp", 1)
 			PlayerPrefs.Save()
 
-			function slot3()
+			slot3 = function()
 				uv0:clearSPBuff()
 			end
 
@@ -210,12 +210,12 @@ function slot0.onConfirm(slot0)
 	})
 end
 
-function slot0.onCancel(slot0)
+slot0.onCancel = function(slot0)
 	slot0:clear()
 	slot0:emit(LevelUIConst.HIDE_FLEET_SELECT)
 end
 
-function slot0.InitUI(slot0)
+slot0.InitUI = function(slot0)
 	slot0.tfShipTpl = slot0:findTF("panel/Fixed/shiptpl")
 	slot0.tfEmptyTpl = slot0:findTF("panel/Fixed/emptytpl")
 	slot0.tfFleets = {
@@ -364,7 +364,7 @@ function slot0.InitUI(slot0)
 	slot5 = slot0._tf
 	slot0.supportFleetHelp = slot5:Find("panel/Fixed/title/Image/Help")
 
-	function slot8()
+	slot8 = function()
 		uv0:emit(LevelUIConst.HANDLE_SHOW_MSG_BOX, {
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.help_supportfleet.tip
@@ -388,13 +388,13 @@ function slot0.InitUI(slot0)
 	end
 end
 
-function slot0.onCancelSupport(slot0, slot1)
+slot0.onCancelSupport = function(slot0, slot1)
 	if slot1 then
 		slot0:emit(LevelMediator2.ON_UPDATE_CUSTOM_FLEET, slot0.chapter)
 	end
 end
 
-function slot0.set(slot0, slot1, slot2, slot3)
+slot0.set = function(slot0, slot1, slot2, slot3)
 	slot0.chapter = slot1
 	slot0.mode = uv0.SELECT
 	slot0.selects = slot3
@@ -464,7 +464,7 @@ function slot0.set(slot0, slot1, slot2, slot3)
 	end
 
 	onButton(slot0, slot0.btnGo, function ()
-		function slot0()
+		slot0 = function()
 			uv0:onConfirm()
 		end
 
@@ -546,13 +546,13 @@ function slot0.set(slot0, slot1, slot2, slot3)
 	slot0:UpdateInvestigation()
 end
 
-function slot0.getFleetById(slot0, slot1)
+slot0.getFleetById = function(slot0, slot1)
 	return _.detect(slot0.fleets, function (slot0)
 		return slot0.id == uv0
 	end)
 end
 
-function slot0.getLimitNums(slot0, slot1)
+slot0.getLimitNums = function(slot0, slot1)
 	slot2 = 0
 
 	if slot1 == FleetType.Normal then
@@ -566,7 +566,7 @@ function slot0.getLimitNums(slot0, slot1)
 	return slot2
 end
 
-function slot0.getSelectIds(slot0)
+slot0.getSelectIds = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs({
@@ -583,7 +583,7 @@ function slot0.getSelectIds(slot0)
 	return slot1
 end
 
-function slot0.updateFleets(slot0)
+slot0.updateFleets = function(slot0)
 	for slot4, slot5 in pairs(slot0.tfFleets) do
 		for slot9 = 1, #slot5 do
 			if slot4 ~= FleetType.Support then
@@ -597,7 +597,7 @@ function slot0.updateFleets(slot0)
 	slot0:RefreshDutyBar()
 end
 
-function slot0.updateLimit(slot0)
+slot0.updateLimit = function(slot0)
 	slot5 = slot0.tfLimit
 
 	setText(slot5:Find("number"), string.format("%d/%d", #_.filter(slot0.selectIds[FleetType.Normal], function (slot0)
@@ -611,7 +611,7 @@ function slot0.updateLimit(slot0)
 	end), slot0:getLimitNums(FleetType.Submarine)))
 end
 
-function slot0.selectFleet(slot0, slot1, slot2, slot3)
+slot0.selectFleet = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.selectIds[slot1]
 
 	if slot3 > 0 and table.contains(slot4, slot3) then
@@ -663,7 +663,7 @@ function slot0.selectFleet(slot0, slot1, slot2, slot3)
 	slot0:UpdateInvestigation()
 end
 
-function slot0.updateFleet(slot0, slot1, slot2)
+slot0.updateFleet = function(slot0, slot1, slot2)
 	slot3 = slot0.contextData.tabIndex == uv0.TabIndex.Formation
 	slot4 = slot0.contextData.tabIndex == uv0.TabIndex.Commander
 	slot5 = slot0.contextData.tabIndex == uv0.TabIndex.Duty
@@ -741,7 +741,7 @@ function slot0.updateFleet(slot0, slot1, slot2)
 	end, SFX_UI_CLICK)
 end
 
-function slot0.updateCommanders(slot0, slot1, slot2)
+slot0.updateCommanders = function(slot0, slot1, slot2)
 	for slot6 = 1, 2 do
 		slot7 = slot2:getCommanderByPos(slot6)
 		slot8 = slot1:Find("pos" .. slot6)
@@ -763,7 +763,7 @@ function slot0.updateCommanders(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateShips(slot0, slot1, slot2)
+slot0.updateShips = function(slot0, slot1, slot2)
 	slot3 = UIItemList.New(slot1, slot0.tfShipTpl)
 
 	slot3:make(function (slot0, slot1, slot2)
@@ -799,7 +799,7 @@ function slot0.updateShips(slot0, slot1, slot2)
 	end
 end
 
-function slot0.showToggleMask(slot0, slot1, slot2)
+slot0.showToggleMask = function(slot0, slot1, slot2)
 	setActive(slot0.toggleMask, true)
 
 	slot3 = _.filter(slot0.fleets, function (slot0)
@@ -841,11 +841,11 @@ function slot0.showToggleMask(slot0, slot1, slot2)
 	end
 end
 
-function slot0.hideToggleMask(slot0)
+slot0.hideToggleMask = function(slot0)
 	setActive(slot0.toggleMask, false)
 end
 
-function slot0.clearFleets(slot0)
+slot0.clearFleets = function(slot0)
 	for slot4, slot5 in pairs(slot0.tfFleets) do
 		_.each(slot5, function (slot0)
 			uv0:clearFleet(slot0)
@@ -853,7 +853,7 @@ function slot0.clearFleets(slot0)
 	end
 end
 
-function slot0.UpdateInvestigation(slot0)
+slot0.UpdateInvestigation = function(slot0)
 	if not slot0.chapter:existAmbush() then
 		slot0:UpdateLoopInvestigation()
 
@@ -869,7 +869,7 @@ function slot0.UpdateInvestigation(slot0)
 	slot0:UpdateInvestigationComparision(slot1, slot0.chapter:getConfig("avoid_require"))
 end
 
-function slot0.UpdateEliteInvestigation(slot0)
+slot0.UpdateEliteInvestigation = function(slot0)
 	if not slot0.chapter:existAmbush() then
 		slot0:UpdateLoopInvestigation()
 
@@ -899,7 +899,7 @@ function slot0.UpdateEliteInvestigation(slot0)
 	slot0:UpdateInvestigationComparision(slot1, slot0.chapter:getConfig("avoid_require"))
 end
 
-function slot0.UpdateLoopInvestigation(slot0)
+slot0.UpdateLoopInvestigation = function(slot0)
 	slot1 = slot0.dropDown:Find("Investigation")
 
 	setText(slot1:Find("Value1"), "-")
@@ -907,7 +907,7 @@ function slot0.UpdateLoopInvestigation(slot0)
 	triggerToggle(slot0.dropDownSide:Find("Layout/Item1/Dot"), true)
 end
 
-function slot0.UpdateInvestigationComparision(slot0, slot1, slot2)
+slot0.UpdateInvestigationComparision = function(slot0, slot1, slot2)
 	slot3 = slot0.dropDown:Find("Investigation")
 	slot4 = slot2 <= math.floor(slot1)
 
@@ -916,7 +916,7 @@ function slot0.UpdateInvestigationComparision(slot0, slot1, slot2)
 	triggerToggle(slot0.dropDownSide:Find("Layout/Item1/Dot"), slot4)
 end
 
-function slot0.updateASValue(slot0)
+slot0.updateASValue = function(slot0)
 	if slot0.chapterASValue <= 0 then
 		slot0:UpdateBannedAS()
 
@@ -936,7 +936,7 @@ function slot0.updateASValue(slot0)
 	slot0:UpdateASComparision(slot1, slot0.suggestionValue)
 end
 
-function slot0.updateEliteASValue(slot0)
+slot0.updateEliteASValue = function(slot0)
 	if slot0.chapterASValue <= 0 then
 		slot0:UpdateBannedAS()
 
@@ -961,7 +961,7 @@ function slot0.updateEliteASValue(slot0)
 	slot0:UpdateASComparision(slot2, slot0.suggestionValue)
 end
 
-function slot0.UpdateBannedAS(slot0)
+slot0.UpdateBannedAS = function(slot0)
 	slot1 = slot0.dropDown:Find("Airsupport")
 
 	setText(slot1:Find("Value1"), "-")
@@ -969,7 +969,7 @@ function slot0.UpdateBannedAS(slot0)
 	triggerToggle(slot0.dropDownSide:Find("Layout/Item2/Dot"), true)
 end
 
-function slot0.UpdateASComparision(slot0, slot1, slot2)
+slot0.UpdateASComparision = function(slot0, slot1, slot2)
 	setText(slot0.dropDown:Find("Airsupport"):Find("Text"), i18n("level_scene_title_word_3"))
 
 	slot4 = slot2 < math.floor(slot1)
@@ -979,13 +979,13 @@ function slot0.UpdateASComparision(slot0, slot1, slot2)
 	triggerToggle(slot0.dropDownSide:Find("Layout/Item2/Dot"), slot4)
 end
 
-function slot0.UpdateSonarRange(slot0)
+slot0.UpdateSonarRange = function(slot0)
 	for slot4 = 1, 2 do
 		slot0:UpdateSonarRangeValues(slot4, slot0:getFleetById(slot0.selectIds[FleetType.Normal][slot4] or 0) and math.floor(slot6:GetFleetSonarRange()) or 0)
 	end
 end
 
-function slot0.UpdateEliteSonarRange(slot0)
+slot0.UpdateEliteSonarRange = function(slot0)
 	for slot4 = 1, 2 do
 		slot5 = slot0.eliteFleetList[slot4]
 		slot6 = {}
@@ -1005,11 +1005,11 @@ function slot0.UpdateEliteSonarRange(slot0)
 	end
 end
 
-function slot0.UpdateSonarRangeValues(slot0, slot1, slot2)
+slot0.UpdateSonarRangeValues = function(slot0, slot1, slot2)
 	setText(slot0.dropDownSide:Find("Layout/Item3/Values"):GetChild(slot1 - 1), slot2)
 end
 
-function slot0.clearFleet(slot0, slot1)
+slot0.clearFleet = function(slot0, slot1)
 	slot3 = slot0:findTF(TeamType.Vanguard, slot1)
 	slot4 = slot0:findTF(TeamType.Submarine, slot1)
 
@@ -1026,12 +1026,12 @@ function slot0.clearFleet(slot0, slot1)
 	end
 end
 
-function slot0.clear(slot0)
+slot0.clear = function(slot0)
 	slot0.contextData.tabIndex = nil
 	slot0.duties = nil
 end
 
-function slot0.onCancelHard(slot0, slot1)
+slot0.onCancelHard = function(slot0, slot1)
 	if slot1 then
 		slot0:emit(LevelMediator2.ON_UPDATE_CUSTOM_FLEET, slot0.chapter)
 	end
@@ -1039,11 +1039,11 @@ function slot0.onCancelHard(slot0, slot1)
 	slot0:emit(LevelUIConst.HIDE_FLEET_EDIT)
 end
 
-function slot0.setHardShipVOs(slot0, slot1)
+slot0.setHardShipVOs = function(slot0, slot1)
 	slot0.shipVOs = slot1
 end
 
-function slot0.setOnHard(slot0, slot1)
+slot0.setOnHard = function(slot0, slot1)
 	slot0.chapter = slot1
 	slot0.mode = uv0.EDIT
 	slot0.propetyLimitation = slot0.chapter:getConfig("property_limitation")
@@ -1089,7 +1089,7 @@ function slot0.setOnHard(slot0, slot1)
 				PlayerPrefs.SetInt("autoFight_firstUse_sp", 1)
 				PlayerPrefs.Save()
 
-				function slot3()
+				slot3 = function()
 					uv0:clearSPBuff()
 				end
 
@@ -1182,7 +1182,7 @@ function slot0.setOnHard(slot0, slot1)
 	slot0:flush()
 end
 
-function slot0.flush(slot0)
+slot0.flush = function(slot0)
 	slot0:updateEliteLimit()
 	slot0:updateEliteASValue()
 
@@ -1203,7 +1203,7 @@ function slot0.flush(slot0)
 	slot0:UpdateEliteInvestigation()
 end
 
-function slot0.updateEliteLimit(slot0)
+slot0.updateEliteLimit = function(slot0)
 	setActive(slot0.toggleMask, false)
 	setActive(slot0.tfLimit, false)
 	setActive(slot0.tfLimitTips, #slot0.propetyLimitation == 0)
@@ -1249,7 +1249,7 @@ function slot0.updateEliteLimit(slot0)
 	end
 end
 
-function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
+slot0.initAddButton = function(slot0, slot1, slot2, slot3, slot4)
 	slot6 = {}
 	slot7 = {}
 
@@ -1485,11 +1485,11 @@ function slot0.initAddButton(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-function slot0.change2ScrPos(slot0, slot1, slot2)
+slot0.change2ScrPos = function(slot0, slot1, slot2)
 	return LuaHelper.ScreenToLocal(slot1, slot2, pg.UIMgr.GetInstance().overlayCameraComp)
 end
 
-function slot0.updateEliteFleets(slot0)
+slot0.updateEliteFleets = function(slot0)
 	for slot4, slot5 in pairs(slot0.tfFleets) do
 		for slot9 = 1, #slot5 do
 			slot0:UpdateEliteFleet(slot4, slot9)
@@ -1499,7 +1499,7 @@ function slot0.updateEliteFleets(slot0)
 	slot0:RefreshDutyBar()
 end
 
-function slot0.UpdateEliteFleet(slot0, slot1, slot2)
+slot0.UpdateEliteFleet = function(slot0, slot1, slot2)
 	slot3 = slot0.contextData.tabIndex == uv0.TabIndex.Formation
 	slot4 = slot0.contextData.tabIndex == uv0.TabIndex.Commander
 	slot5 = slot0.contextData.tabIndex == uv0.TabIndex.Duty
@@ -1650,7 +1650,7 @@ function slot0.UpdateEliteFleet(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.initCommander(slot0, slot1, slot2, slot3)
+slot0.initCommander = function(slot0, slot1, slot2, slot3)
 	slot5 = slot3:getEliteFleetCommanders()[slot1]
 
 	for slot9 = 1, 2 do
@@ -1681,7 +1681,7 @@ function slot0.initCommander(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.initSupportAddButton(slot0, slot1, slot2, slot3)
+slot0.initSupportAddButton = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 	slot5 = {}
 
@@ -1796,11 +1796,11 @@ function slot0.initSupportAddButton(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.updateSpecialOperationTickets(slot0, slot1)
+slot0.updateSpecialOperationTickets = function(slot0, slot1)
 	slot0.spOPTicketItems = slot1 or {}
 end
 
-function slot0.getLegalSPBuffList(slot0)
+slot0.getLegalSPBuffList = function(slot0)
 	slot1 = slot0.chapter
 
 	return _.map(slot1:GetSpItems(), function (slot0)
@@ -1808,7 +1808,7 @@ function slot0.getLegalSPBuffList(slot0)
 	end)
 end
 
-function slot0.initSPOPView(slot0)
+slot0.initSPOPView = function(slot0)
 	slot0.spPanel = slot0.btnSp:Find("sp_panel")
 	slot0.spItem = slot0.btnSp:Find("item")
 	slot0.spDesc = slot0.btnSp:Find("desc")
@@ -1904,7 +1904,7 @@ function slot0.initSPOPView(slot0)
 	setActive(slot0.spPanel, false)
 end
 
-function slot0.setSPBuffSelected(slot0, slot1)
+slot0.setSPBuffSelected = function(slot0, slot1)
 	slot2 = pg.benefit_buff_template[slot1]
 	slot0.spItemID = tonumber(slot2.benefit_condition)
 
@@ -1913,7 +1913,7 @@ function slot0.setSPBuffSelected(slot0, slot1)
 	PlayerPrefs.SetInt(Chapter.GetSPOperationItemCacheKey(slot0.chapter.id), slot0.spItemID)
 end
 
-function slot0.clearSPBuff(slot0)
+slot0.clearSPBuff = function(slot0)
 	slot0.spItemID = nil
 
 	slot0:setSPBtnFormByBuffCount()
@@ -1929,7 +1929,7 @@ function slot0.clearSPBuff(slot0)
 	end
 end
 
-function slot0.setSPBtnFormByBuffCount(slot0)
+slot0.setSPBtnFormByBuffCount = function(slot0)
 	if #slot0:getLegalSPBuffList() == 0 then
 		setActive(slot0.spItemEmptyBlock, true)
 		setActive(slot0.spDesc, false)
@@ -1948,7 +1948,7 @@ function slot0.setSPBtnFormByBuffCount(slot0)
 	end
 end
 
-function slot0.setTicketInfo(slot0, slot1, slot2)
+slot0.setTicketInfo = function(slot0, slot1, slot2)
 	slot3 = nil
 	slot2 = tonumber(slot2)
 
@@ -1974,11 +1974,11 @@ function slot0.setTicketInfo(slot0, slot1, slot2)
 	setActive(slot1:Find("item"), true)
 end
 
-function slot0.getSPItem(slot0)
+slot0.getSPItem = function(slot0)
 	return slot0.spItemID
 end
 
-function slot0.SetDuty(slot0, slot1, slot2)
+slot0.SetDuty = function(slot0, slot1, slot2)
 	if not slot2 or not slot0.duties then
 		return
 	end
@@ -1993,7 +1993,7 @@ function slot0.SetDuty(slot0, slot1, slot2)
 	slot0:RefreshDutyBar()
 end
 
-function slot0.UpdateDuties(slot0)
+slot0.UpdateDuties = function(slot0)
 	if not slot0.dutyTabEnabled then
 		return
 	end
@@ -2041,12 +2041,12 @@ function slot0.UpdateDuties(slot0)
 	end
 end
 
-function slot0.RefreshDutyBar(slot0)
+slot0.RefreshDutyBar = function(slot0)
 	slot0:UpdateDuties()
 	slot0:UpdateDutyBar()
 end
 
-function slot0.UpdateDutyBar(slot0)
+slot0.UpdateDutyBar = function(slot0)
 	slot1 = slot0.contextData.tabIndex == uv0.TabIndex.Duty
 
 	for slot5 = 1, 2 do
@@ -2072,7 +2072,7 @@ function slot0.UpdateDutyBar(slot0)
 	end
 end
 
-function slot0.GetOrderedDuties(slot0)
+slot0.GetOrderedDuties = function(slot0)
 	if not slot0.duties then
 		return
 	end
@@ -2092,7 +2092,7 @@ function slot0.GetOrderedDuties(slot0)
 	return slot1
 end
 
-function slot0.SetAutoSub(slot0, slot1)
+slot0.SetAutoSub = function(slot0, slot1)
 	if tobool(slot1) == ys.Battle.BattleState.IsAutoSubActive() then
 		return
 	end
@@ -2107,7 +2107,7 @@ function slot0.SetAutoSub(slot0, slot1)
 	slot0:UpdateDutyBar()
 end
 
-function slot0.GetValidFleets(slot0, slot1)
+slot0.GetValidFleets = function(slot0, slot1)
 	if slot0.mode == uv0.SELECT then
 		slot2 = {}
 		slot3 = slot1 and {
@@ -2164,7 +2164,7 @@ function slot0.GetValidFleets(slot0, slot1)
 	end
 end
 
-function slot0.IsListOfFleetEmpty(slot0, slot1)
+slot0.IsListOfFleetEmpty = function(slot0, slot1)
 	if slot1 > 0 and slot1 < 3 and slot0:getLimitNums(FleetType.Normal) < slot1 then
 		return true
 	elseif slot1 == 3 and slot0:getLimitNums(FleetType.Submarine) < slot1 - 2 then
@@ -2186,7 +2186,7 @@ function slot0.IsListOfFleetEmpty(slot0, slot1)
 	end
 end
 
-function slot0.GetListFleets(slot0)
+slot0.GetListFleets = function(slot0)
 	slot1 = {}
 	slot2 = slot0:getLimitNums(FleetType.Normal)
 	slot3 = slot0:getLimitNums(FleetType.Submarine)
@@ -2244,11 +2244,11 @@ function slot0.GetListFleets(slot0)
 	return slot1
 end
 
-function slot0.IsSelectMode(slot0)
+slot0.IsSelectMode = function(slot0)
 	return slot0.mode == uv0.SELECT
 end
 
-function slot0.SwitchDisplayMode(slot0)
+slot0.SwitchDisplayMode = function(slot0)
 	slot1 = slot0.displayMode == uv0.ADDITION_SUPPORT
 
 	setActive(slot0:findTF("panel/ShipList/Line"), not slot1)
@@ -2261,7 +2261,7 @@ function slot0.SwitchDisplayMode(slot0)
 	slot2.spacing = slot1 and 13 or 20
 end
 
-function slot0.sortTeamLimitation(slot0)
+slot0.sortTeamLimitation = function(slot0)
 	slot0 = Clone(slot0)
 
 	table.sort(slot0, function (slot0, slot1)

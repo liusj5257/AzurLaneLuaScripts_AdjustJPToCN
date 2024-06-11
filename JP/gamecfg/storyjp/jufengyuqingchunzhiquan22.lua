@@ -1,27 +1,27 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "JUFENGYUQINGCHUNZHIQUAN22",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "JUFENGYUQINGCHUNZHIQUAN22",
 	fadein = 1.5,
 	scripts = {
 		{
-			side = 2,
 			stopbgm = true,
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "鏡面海域・「若返りの泉」中央",
 			bgm = "battle-boss-4",
+			say = "鏡面海域・「若返りの泉」中央",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "激しい揺れの眩暈からなんとか立ち直ると、周りの風景は「沈寂の地」から一変していた。",
@@ -31,8 +31,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "「偉大なるロイヤル・フォーチュン号」は凪の海に停泊しており、そして――",
@@ -48,11 +48,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "違うわ。この海では嵐の訪れこそが最上級の招待よ",
@@ -62,11 +62,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "ボディを間違ったタイミングで起動してしまったのは、「正しい」ことをするためだとずっと信じてきた",
@@ -76,11 +76,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "そしてあなたを見つけたことでより一層確信を持ったわ",
@@ -90,11 +90,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "「蒼き狼団」の旗印、そしてつまらない流言のおかげで指揮官を引き寄せられるなんて！",
@@ -104,11 +104,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "これこそが運命よ！あははははは！",
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "ええ。私が作ったわ",
@@ -144,11 +144,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "好奇心豊かな冒険者も中々使えるでしょう？",
@@ -158,11 +158,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "あの連中が過去の情報を集めてなければ、主機との接続が切れたこのボディに残された大事な使命を知ることはできなかった",
@@ -172,11 +172,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "ええ。あなたこそが最後のピース",
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "あなたさえ手に入れば、私は運命が残した知恵を手に入れられる",
@@ -200,11 +200,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "そう。この「枝」の創造主にして神になれるわ",
@@ -256,11 +256,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "そのちっぽけな艦隊で？",
@@ -270,11 +270,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "あなたの仲間たちではどうすることもできない",
@@ -284,8 +284,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "哀れな「テスター」のボディが、「駒」を構築する投影装置を起動しようとする。",
@@ -314,12 +314,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "―――！！",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,8 +365,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			say = "一緒に巻き込まれてきたメアリー・セレストがこちらに向かって疾駆してくる。",
@@ -400,11 +400,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "そうよ。たしかにあの子の力は面倒だけど",
@@ -414,11 +414,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "しかし今となってはどうだっていいわ",
@@ -428,11 +428,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "あなたたちがどんなに必死に足掻いても意味はないわ",
@@ -442,11 +442,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "私の深層に残された偉大な計画が完遂されたらすべてが無になる",
@@ -456,11 +456,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "耳を澄ませて聞いてごらん。ズレた歯車が再び噛み合う音",
@@ -470,11 +470,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "戦争が…「実験」が再び始まる音をね！！",
@@ -484,11 +484,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "……………………何がおかしい？",
@@ -510,11 +510,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "……まだ強がっているのね。その余裕な表情を絶望の底に突き落としてあげるわ。「指揮官」",
@@ -530,11 +530,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "……何が言いたい？",
@@ -544,8 +544,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "自動警報システム",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -556,11 +556,11 @@ return {
 			}
 		},
 		{
-			actor = 900011,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_jufengv1_4",
 			factiontag = "湖の倒影",
-			side = 2,
+			actor = 900011,
 			actorName = "てすたー",
 			hidePaintObj = true,
 			say = "なっ―――！？",

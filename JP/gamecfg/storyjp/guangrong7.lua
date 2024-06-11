@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "GUANGRONG7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "GUANGRONG7",
 	fadein = 1.5,
 	scripts = {
 		{
-			mode = 1,
 			stopbgm = true,
+			mode = 1,
 			sequence = {
 				{
 					"栄光なる間奏曲\n\n<size=45>その七　彼女にとっての栄光・下</size>",
@@ -17,11 +17,11 @@ return {
 			}
 		},
 		{
-			say = "彼女にとって、頼れる存在として勝利をもたらす「栄光（グロリアス）」は何よりも大切だ。だけど――",
+			bgm = "story-1",
 			side = 2,
 			bgName = "bg_story_outdoor",
 			dir = 1,
-			bgm = "story-1",
+			say = "彼女にとって、頼れる存在として勝利をもたらす「栄光（グロリアス）」は何よりも大切だ。だけど――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,9 +60,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "そんなことはない。",
 			typewriter = {
 				speed = 0.05,
@@ -102,11 +102,11 @@ return {
 			}
 		},
 		{
-			actor = 207060,
 			side = 2,
 			bgName = "bg_story_outdoor",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 207060,
+			nameColor = "#a9f548",
 			say = "……きゃっ……",
 			typewriter = {
 				speed = 0.05,
@@ -118,8 +118,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					number = 1
@@ -127,9 +127,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "彼女の手を引いて、隣に座らせる。",
 			typewriter = {
 				speed = 0.05,
@@ -137,9 +137,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "実は先程、密かに作戦会議をしているみんなに会議が終わったら手伝ってほしいと連絡を入れた。",
 			typewriter = {
 				speed = 0.05,
@@ -211,9 +211,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "グロリアスの声がかすかに震えている。",
 			typewriter = {
 				speed = 0.05,
@@ -237,9 +237,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_story_outdoor",
+			dir = 1,
 			say = "つながったままの手が軽く握り返され、肩には少女の軽い体重が預けられた。",
 			typewriter = {
 				speed = 0.05,

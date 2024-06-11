@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUANWEIFANGXINMIMANSHI15",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUANWEIFANGXINMIMANSHI15",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"パーティー・ウィズ・アイリス\n\n<size=45>羽を伸ばして</size>",
@@ -17,16 +17,16 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
-			stopbgm = true,
-			say = "ビスマルクと一緒に、ダンスホールでダンスしたり、パーティーの出し物を一緒に鑑賞したりした。",
 			bgm = "story-musicanniversary-gorgeous",
+			stopbgm = true,
+			hidePaintObj = true,
+			say = "ビスマルクと一緒に、ダンスホールでダンスしたり、パーティーの出し物を一緒に鑑賞したりした。",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -50,10 +50,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "先ほどのジャズ、普段聞きなれたクラシックの曲とは全然曲調が違うわね",
 			painting = {
 				alpha = 0.3,
@@ -68,10 +68,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "同じメロディでも、奏で方によって雰囲気が全然違う……",
 			painting = {
 				alpha = 0.3,
@@ -86,10 +86,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あら？指揮官、食べ物を持ってきてくれたのね",
 			painting = {
 				alpha = 0.3,
@@ -101,16 +101,16 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
 					number = 2
 				},
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "音楽の話もしたいが、一刻も早くビスマルクにパーティーの楽しみ方を色々紹介したい。",
@@ -133,10 +133,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "美味しそうね。ありがとう",
 			painting = {
 				alpha = 0.3,
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "あくまで上品でフォーマルな立ち振舞いのまま、ビスマルクはスイーツを口に運んだ。",
@@ -162,10 +162,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "優しい味、でも独特な食感ね",
 			painting = {
 				alpha = 0.3,
@@ -177,8 +177,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "さっきよりはパーティーの雰囲気に馴染めたように見えなくもない。",
@@ -191,10 +191,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "指揮官がいてくれるおかげで、このパーティーへの印象が少し変わったわ",
 			painting = {
 				alpha = 0.3,
@@ -206,8 +206,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "「引き締めて、真面目に挑むべきものもの」ではなくなったのだろう。",
@@ -220,10 +220,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……ええ。思いっきり楽しむ方向にね",
 			painting = {
 				alpha = 0.3,
@@ -235,8 +235,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 30,
@@ -248,10 +248,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "私の性格の問題もあるけど、こうもパーティーに夢中になれるのは珍しいわ",
 			painting = {
 				alpha = 0.3,
@@ -266,10 +266,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "気を引き締め、指導者たる立ち振舞いで、鉄血のために真面目に挑む。言い換えれば「お仕事」に近いわね",
 			painting = {
 				alpha = 0.3,
@@ -284,10 +284,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "たまに羽を伸ばせる機会が訪れても、完全に気を緩める訳にはいかないわ",
 			painting = {
 				alpha = 0.3,
@@ -302,10 +302,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あなただって同じでしょう？緊急の連絡があったら対応しなくてはならないでしょ？",
 			painting = {
 				alpha = 0.3,
@@ -320,10 +320,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "そうしている内に、張りつめた状態が続いて、美味しい料理も楽しい出し物も楽しめなくなってね",
 			painting = {
 				alpha = 0.3,
@@ -335,8 +335,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "ならば今日だけでも、鉄血の指導者の仕事を忘れればいい。",
@@ -349,10 +349,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "仕事を忘れて、仲間たちと普通に楽しむ……もちろんそうしたいけど…",
 			painting = {
 				alpha = 0.3,
@@ -367,10 +367,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "しかし……",
 			painting = {
 				alpha = 0.3,
@@ -382,8 +382,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "もし何か緊急の件があったら、指揮官である自分…それか仲間たちに相談すればいい。",
@@ -396,10 +396,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "たしかに、あなたがいるこの場面なら、少し指導者の荷を下ろしてもいいわね",
 			painting = {
 				alpha = 0.3,
@@ -414,10 +414,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……分かったわ。ではお言葉に甘えさせてもらおうかしら",
 			painting = {
 				alpha = 0.3,
@@ -432,10 +432,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あなたの言う通りに、普通にパーティーを楽しませてもらうわ",
 			painting = {
 				alpha = 0.3,
@@ -447,8 +447,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			say = "肩の荷を下ろせたためか、ビスマルクは柔らかな笑顔を見せた。",
@@ -461,10 +461,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 405011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。あなたがそばにいてくれるから",
 			painting = {
 				alpha = 0.3,

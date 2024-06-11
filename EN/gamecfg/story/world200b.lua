@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "WORLD200B",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "WORLD200B",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "Liverpool - Royal Navy Fleet Rally Point",
 			side = 2,
 			bgName = "bg_port_liwupu",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-richang",
+			say = "Liverpool - Royal Navy Fleet Rally Point",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -147,8 +147,8 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#a9f548",
 			say = "I wasn't even expecting Iris Libre to send any reinforcements. I heard Richelieu had her own share of problems... and was reluctant to participate in any negotiations with the Crimson Axis.",
 			typewriter = {
@@ -180,8 +180,8 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#a9f548",
 			say = "That’s true. Richelieu isn't the impulsive type.",
 			typewriter = {
@@ -197,8 +197,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "Do you copy, Miss Hood? This is Newcastle, currently leading the Royal Capital Reserve Fleet. Is this communicator working properly?",
 			typewriter = {
@@ -214,8 +214,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 204030,
 			dir = 1,
+			actor = 204030,
 			nameColor = "#a9f548",
 			say = "I hear you loud and clear, Newcastle. We can only hope that it stays that way as we venture deeper into Siren-controlled waters though....",
 			typewriter = {
@@ -231,8 +231,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "We'll do our best to support you. Since this communication device is a cutting-edge model just distributed from the Naval HQ, I wonder if it has resistance to Siren jamming.",
 			typewriter = {
@@ -248,8 +248,8 @@ return {
 			paintingNoise = false,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 207050,
 			dir = 1,
+			actor = 207050,
 			nameColor = "#a9f548",
 			say = "(I sure hope so... I don't want to go through that again...)",
 			typewriter = {
@@ -265,8 +265,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "I'll also be in charge of communications with Her Majesty, the Naval HQ, and the Commander as well. In the absence of their orders, Miss Hood, you are free to make your own decisions based upon the battlefield situation.",
 			typewriter = {
@@ -282,8 +282,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			actor = 202190,
 			dir = 1,
+			actor = 202190,
 			nameColor = "#a9f548",
 			say = "Furthermore, if Her Majesty has made any progress in her matters, I will be sure to inform the fleet.",
 			typewriter = {
@@ -312,11 +312,11 @@ return {
 			}
 		},
 		{
-			actor = 204030,
 			side = 2,
 			bgName = "bg_port_liwupu",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 204030,
+			nameColor = "#a9f548",
 			say = "Now then, let’s formally begin Operation Siren. Please secure each zone one by one, according to our operation plan. Long live the Queen!",
 			effects = {
 				{

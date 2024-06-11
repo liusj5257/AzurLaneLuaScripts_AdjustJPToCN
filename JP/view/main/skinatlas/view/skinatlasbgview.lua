@@ -1,24 +1,24 @@
 slot0 = class("SkinAtlasBgView")
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	slot0._tf = slot1
 	slot0._go = slot1.gameObject
 	slot0.isSpecialBg = false
 	slot0.isloading = false
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return slot0.__cname
 end
 
-function slot0.Init(slot0, slot1, slot2, slot3)
+slot0.Init = function(slot0, slot1, slot2, slot3)
 	slot0.ship = slot1
 
 	slot0:ClearSpecailBg()
 	slot0:SetSpecailBg(slot0:getShipBgPrint(slot2), slot3)
 end
 
-function slot0.getShipBgPrint(slot0, slot1)
+slot0.getShipBgPrint = function(slot0, slot1)
 	slot2 = slot0.ship
 
 	if not slot1 then
@@ -28,7 +28,7 @@ function slot0.getShipBgPrint(slot0, slot1)
 	end
 end
 
-function slot0.SetSpecailBg(slot0, slot1, slot2)
+slot0.SetSpecailBg = function(slot0, slot1, slot2)
 	slot0.isloading = true
 	slot3 = pg.DynamicBgMgr.GetInstance()
 
@@ -49,7 +49,7 @@ function slot0.SetSpecailBg(slot0, slot1, slot2)
 	end)
 end
 
-function slot0.ClearSpecailBg(slot0)
+slot0.ClearSpecailBg = function(slot0)
 	if slot0.isSpecialBg then
 		pg.DynamicBgMgr.GetInstance():ClearBg(slot0:getUIName())
 
@@ -57,15 +57,15 @@ function slot0.ClearSpecailBg(slot0)
 	end
 end
 
-function slot0.IsLoading(slot0)
+slot0.IsLoading = function(slot0)
 	return slot0.isloading
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	slot0:ClearSpecailBg()
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0:Clear()
 end
 

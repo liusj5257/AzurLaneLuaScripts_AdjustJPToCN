@@ -1,6 +1,6 @@
 slot0 = class("SenrankaguraBackHillScene", import("view.activity.BackHills.TemplateMV.BackHillTemplate"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "SenrankaguraBackHillUI"
 end
 
@@ -8,7 +8,7 @@ slot0.edge2area = {
 	default = "_SDPlace"
 }
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.top = slot0:findTF("top")
@@ -36,7 +36,7 @@ function slot0.init(slot0)
 	slot0.graphPath = GraphPath.New(import("GameCfg.BackHillGraphs.SenrankaguraBackHillGraph"))
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("top/Back"), function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
@@ -73,35 +73,35 @@ function slot0.didEnter(slot0)
 	slot0:UpdateView()
 end
 
-function slot0.UpdateView(slot0)
+slot0.UpdateView = function(slot0)
 	setActive(slot0.upper_renshuzhidaochang:Find("Tip"), uv0.TrainTip())
 	setActive(slot0.upper_michuanrenfashu:Find("Tip"), uv0.MedalTip())
 	setActive(slot0.upper_renzherenwuban:Find("Tip"), uv0.TaskTip())
 	setActive(slot0.upper_baochouleijisuo:Find("Tip"), uv0.PTTip())
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0:clearStudents()
 	uv0.super.willExit(slot0)
 end
 
-function slot0.MedalTip()
+slot0.MedalTip = function()
 	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.SENRANKAGURA_MEDAL_ID)) or SenrankaguraMedalScene.GetTaskCountAble()
 end
 
-function slot0.TaskTip()
+slot0.TaskTip = function()
 	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.SENRANKAGURA_TURNTABLE))
 end
 
-function slot0.PTTip()
+slot0.PTTip = function()
 	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.SENRANKAGURA_PT))
 end
 
-function slot0.TrainTip()
+slot0.TrainTip = function()
 	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.SENRANKAGURA_TRAIN_ACT_ID))
 end
 
-function slot0.IsShowMainTip(slot0)
+slot0.IsShowMainTip = function(slot0)
 	if slot0 and not slot0:isEnd() then
 		return uv0.PTTip() or uv0.MedalTip() or uv0.TaskTip() or uv0.TrainTip()
 	end

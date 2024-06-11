@@ -7,27 +7,27 @@ return {
 			portrait = 900405,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			actorName = "プロトコルウォーフェア「フォートレス」",
-			say = "プリンストン、浮島から軍勢がこちらに接近してくる",
 			bgm = "theme-ucnf-flagship",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "プリンストン、浮島から軍勢がこちらに接近してくる",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -38,10 +38,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "第三勢力…？もしかしたらあの浮島の施設を建てた存在かも！",
 			painting = {
 				alpha = 0.3,
@@ -56,10 +56,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "今まで何もなかったのに、どうしていきなり…",
 			painting = {
 				alpha = 0.3,
@@ -99,11 +99,11 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			bgName = "bg_zhuguang_4",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "アンチエックスの下部作戦端末に見えるわ……でも見たことのない機体ね…",
 			painting = {
 				alpha = 0.3,
@@ -114,17 +114,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -135,10 +135,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "フォートレスは見覚えはある？",
 			painting = {
 				alpha = 0.3,
@@ -242,10 +242,10 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "エンフォーサー…？聞いたことがないわ",
 			painting = {
 				alpha = 0.3,
@@ -257,12 +257,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（ラバーズは…たしかアンチエックスの計画書で読んだことがある…）",
 			painting = {
 				alpha = 0.3,
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "（でもそれはまだ計画段階だったはず……）",
 			painting = {
 				alpha = 0.3,
@@ -294,10 +294,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "フォートレス、あの戦闘端末に通信できる？",
 			painting = {
 				alpha = 0.3,
@@ -351,10 +351,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "撃墜してきたの？同じアンチエックスシリーズなのに…きっと何かの行き違いが…",
 			painting = {
 				alpha = 0.3,
@@ -369,10 +369,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………レディからの通信？",
 			painting = {
 				alpha = 0.3,
@@ -384,12 +384,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "………………はい、分かった",
 			painting = {
 				alpha = 0.3,
@@ -420,12 +420,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あの「セイレーン」たちは私たちを味方と見なしていないわ",
 			painting = {
 				alpha = 0.3,
@@ -437,12 +437,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "「観察に徹し、『セイレーン』と具現体たちをぶつけた方が得策」",
 			painting = {
 				alpha = 0.3,
@@ -473,12 +473,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "ええ。多分グアムたちにもわかりやすいようにそう呼んだのね",
 			painting = {
 				alpha = 0.3,
@@ -493,10 +493,10 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "あとは…「味方ではない以上、攻撃されたら反撃を許可する」",
 			painting = {
 				alpha = 0.3,
@@ -508,12 +508,12 @@ return {
 			}
 		},
 		{
-			actor = 9706030,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
+			actor = 9706030,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "……さすが「ギンギツネ」、判断が早い",
 			painting = {
 				alpha = 0.3,
@@ -528,10 +528,10 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuguang_4",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
 			actor = 9706030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "さっきは取り乱してごめんなさい。一度位置を変えて遠回りしてから観察しよう",
 			painting = {
 				alpha = 0.3,

@@ -1,12 +1,12 @@
 return {
-	id = "W1104",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W1104",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "セイレーンの脅威が消え去り、隠された資材が海に現れた。",
 			typewriter = {
 				speed = 0.05,

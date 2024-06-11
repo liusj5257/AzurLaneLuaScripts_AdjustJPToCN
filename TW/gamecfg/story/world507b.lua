@@ -1,13 +1,13 @@
 return {
-	id = "WORLD507B",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "WORLD507B",
 	fadein = 1.5,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "這一片塞壬殘骸還在燃燒，看起來剛被摧毀不久。",
 			typewriter = {
 				speed = 0.05,

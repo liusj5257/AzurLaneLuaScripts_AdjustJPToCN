@@ -1,12 +1,12 @@
 return {
-	time = 30,
 	name = "",
 	init_effect = "jinengchufablue",
-	color = "red",
+	id = 13092,
+	time = 30,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13092,
+	color = "red",
 	icon = 13090,
 	last_effect = "",
 	blink = {
@@ -24,8 +24,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "igniteReduce",
-				number = 10000
+				number = 10000,
+				attr = "igniteReduce"
 			}
 		}
 	}

@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_DAILY3",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_DAILY3",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"<size=45>第三话　『异文化的交流』</size>",
@@ -17,13 +17,13 @@ return {
 			}
 		},
 		{
-			actor = 10100010,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = -1,
-			say = "好～那么大家一起～把妳们涅普涅普掉～♪",
 			bgm = "story-nepu1",
+			actor = 10100010,
+			nameColor = "#a9f548",
+			say = "好～那么大家一起～把妳们涅普涅普掉～♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,14 +34,14 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
-			actor = 201210,
-			dir = 1,
-			actorName = "拉菲＆标枪",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#a9f548",
+			actor = 201210,
+			actorName = "拉菲＆标枪",
 			say = "把妳们涅普涅普掉～♪",
 			subActors = {
 				{
@@ -62,14 +62,14 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
-			actor = 301120,
-			dir = 1,
-			actorName = "{namecode:14}&{namecode:13}",
 			hideOther = true,
+			dir = 1,
 			nameColor = "#a9f548",
+			actor = 301120,
+			actorName = "{namecode:14}&{namecode:13}",
 			say = "把妳们涅普涅普掉～♪",
 			subActors = {
 				{
@@ -90,14 +90,14 @@ return {
 			}
 		},
 		{
-			side = 0,
 			actorShadow = true,
+			side = 0,
 			bgName = "bg_story_school",
-			actor = 107030,
-			dir = -1,
-			actorName = "萨拉托加＆{namecode:524}",
 			hideOther = true,
+			dir = -1,
 			nameColor = "#a9f548",
+			actor = 107030,
+			actorName = "萨拉托加＆{namecode:524}",
 			say = "把妳们涅普涅普掉～♪",
 			subActors = {
 				{
@@ -134,12 +134,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "等一下，涅普顿！让小孩子们拿这么危险的东西，教的都是些什么啦！？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "等一下，涅普顿！让小孩子们拿这么危险的东西，教的都是些什么啦！？",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -186,11 +186,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "而且里面还混着航母和轻巡……？",
 			typewriter = {
@@ -363,11 +363,11 @@ return {
 			}
 		},
 		{
-			actor = 301110,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301110,
 			actorName = "{namecode:13}",
 			say = "原来如此！涅普涅普人真好～！大家快“esgape”吧！",
 			typewriter = {
@@ -380,11 +380,11 @@ return {
 			}
 		},
 		{
-			actor = 301120,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301120,
 			actorName = "{namecode:14}",
 			say = "…我也要跑了，“三十六计走为上策”…！",
 			typewriter = {
@@ -445,11 +445,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "但是……大家都很开心的样子，都笑得很开心",
 			typewriter = {
@@ -526,15 +526,15 @@ return {
 			}
 		},
 		{
-			actor = 10100040,
 			side = 2,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
+			actor = 10100040,
+			nameColor = "#a9f548",
 			say = "这里……难道是天国吗？",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -559,13 +559,13 @@ return {
 			}
 		},
 		{
-			actor = 301320,
+			say = "贝露姐姐，我还要糖！",
 			side = 0,
 			bgName = "bg_story_school",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
-			say = "贝露姐姐，我还要糖！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "只有{namecode:33}有糖太不公平了…{namecode:34}也要糖糖……",
 			typewriter = {
@@ -597,11 +597,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301350,
 			actorName = "{namecode:137}",
 			say = "我也要我也要！要比姐姐们更大的！",
 			typewriter = {
@@ -630,11 +630,11 @@ return {
 			}
 		},
 		{
-			actor = 301320,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301320,
 			actorName = "{namecode:33}",
 			say = "哇～！有好多没有吃过的糖～！",
 			typewriter = {
@@ -647,11 +647,11 @@ return {
 			}
 		},
 		{
-			actor = 301330,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 1,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301330,
 			actorName = "{namecode:34}",
 			say = "巧克力，好好吃……",
 			typewriter = {
@@ -664,11 +664,11 @@ return {
 			}
 		},
 		{
-			actor = 301350,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301350,
 			actorName = "{namecode:137}",
 			say = "嗯～棉花糖好软～♪",
 			typewriter = {
@@ -729,16 +729,16 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			actorName = "{namecode:6}",
-			bgName = "bg_story_school",
 			side = 2,
 			dir = 1,
+			bgName = "bg_story_school",
+			actor = 301050,
 			nameColor = "#a9f548",
 			say = "……如此这般，和孩子们玩得正开心",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -763,12 +763,12 @@ return {
 			}
 		},
 		{
-			actor = 10100020,
+			say = "总觉得好像混进了什么危险人物？",
 			side = 1,
 			bgName = "bg_story_school",
-			nameColor = "#a9f548",
 			dir = 1,
-			say = "总觉得好像混进了什么危险人物？",
+			actor = 10100020,
+			nameColor = "#a9f548",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -847,11 +847,11 @@ return {
 			}
 		},
 		{
-			actor = 301050,
 			nameColor = "#a9f548",
-			bgName = "bg_story_school",
 			side = 0,
+			bgName = "bg_story_school",
 			dir = 1,
+			actor = 301050,
 			actorName = "{namecode:6}",
 			say = "那就让{namecode:6}来引路吧",
 			typewriter = {

@@ -1,18 +1,18 @@
 return {
-	id = "XIAWANJIANDEFANJI4",
+	fadeType = 1,
 	mode = 2,
 	once = true,
-	fadeType = 1,
+	id = "XIAWANJIANDEFANJI4",
 	fadein = 1.5,
 	scripts = {
 		{
 			expression = 1,
 			side = 0,
+			dir = 1,
+			bgm = "battle-boss-1",
 			actor = 201320,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "결국 도망쳐버렸군, 음.......",
-			bgm = "battle-boss-1",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 			expression = 3,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "괜찮아 괜찮아~ 상대방은 탄약이 부족한 것 같아. 대부분 힘을 도주에만 썼어~",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			expression = 2,
 			nameColor = "#a9f548",
 			side = 0,
-			actor = 201320,
 			dir = 1,
+			actor = 201320,
 			say = "으으음... 그, 그럼...",
 			typewriter = {
 				speed = 0.05,
@@ -117,9 +117,9 @@ return {
 		{
 			expression = 5,
 			side = 0,
+			dir = 1,
 			actor = 201320,
 			nameColor = "#a9f548",
-			dir = 1,
 			say = "엣!? 정말!???",
 			typewriter = {
 				speed = 0.05,
@@ -131,8 +131,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 30,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,

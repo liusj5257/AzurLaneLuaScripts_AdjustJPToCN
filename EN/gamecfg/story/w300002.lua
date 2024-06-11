@@ -1,12 +1,12 @@
 return {
-	id = "W300002",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W300002",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "You have unlocked all confidential files available through File Missions.",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "Stay tuned for future logger additions to the Shop.",
 			typewriter = {
 				speed = 0.05,

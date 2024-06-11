@@ -1,6 +1,6 @@
 slot0 = class("AttireAchievementPanel", import("...base.BaseSubView"))
 
-function slot1(slot0)
+slot1 = function(slot0)
 	slot1 = {
 		Update = function (slot0, slot1, slot2, slot3)
 			slot0.trophy = slot1
@@ -41,7 +41,7 @@ function slot1(slot0)
 	return slot1
 end
 
-function slot2(slot0)
+slot2 = function(slot0)
 	slot1 = {
 		Update = function (slot0, slot1)
 			slot0.uiList:make(function (slot0, slot1, slot2)
@@ -65,11 +65,11 @@ function slot2(slot0)
 	return slot1
 end
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "AttireAchievementUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0.listPanel = slot0:findTF("list_panel")
 	slot1 = slot0:findTF("scrollrect", slot0.listPanel)
 	slot0.scolrect = slot1:GetComponent("LScrollRect")
@@ -81,11 +81,11 @@ function slot0.OnInit(slot0)
 	slot1 = slot0.listPanel
 	slot0.toggle = slot1:Find("toggle")
 
-	function slot0.scolrect.onInitItem(slot0)
+	slot0.scolrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
 	end
 
-	function slot0.scolrect.onUpdateItem(slot0, slot1)
+	slot0.scolrect.onUpdateItem = function(slot0, slot1)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
@@ -118,11 +118,11 @@ function slot0.OnInit(slot0)
 	slot0.emptyPage = BaseEmptyListPage.New(slot0.listPanel, slot0.event)
 end
 
-function slot0.UpdateselectedTxt(slot0)
+slot0.UpdateselectedTxt = function(slot0)
 	slot0.selectedTxt.text = #(slot0.contextData.selectedMedalList or {}) .. "/5"
 end
 
-function slot0.OnInitItem(slot0, slot1)
+slot0.OnInitItem = function(slot0, slot1)
 	slot2 = uv0(slot1)
 	slot0.cards[slot1] = slot2
 
@@ -152,7 +152,7 @@ function slot0.OnInitItem(slot0, slot1)
 	end, SFX_PANEL)
 end
 
-function slot0.OnUpdateItem(slot0, slot1, slot2)
+slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	if not slot0.cards[slot2] then
 		slot0:OnInitItem(slot2)
 
@@ -168,7 +168,7 @@ function slot0.OnUpdateItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Update(slot0, slot1, slot2)
+slot0.Update = function(slot0, slot1, slot2)
 	slot0.playerVO = slot2
 	slot0.trophys = slot1.trophys
 	slot0.contextData.selectedMedalList = Clone(slot0.playerVO.displayTrophyList) or {}
@@ -193,7 +193,7 @@ function slot0.Update(slot0, slot1, slot2)
 	end
 end
 
-function slot0.getTotalCnt(slot0)
+slot0.getTotalCnt = function(slot0)
 	slot1 = 0
 
 	for slot5, slot6 in pairs(slot0.trophys) do
@@ -205,10 +205,10 @@ function slot0.getTotalCnt(slot0)
 	return slot1
 end
 
-function slot0.Filter(slot0)
+slot0.Filter = function(slot0)
 	slot0.displayVOs = {}
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		return uv0.trophys[slot0:getConfig("next")] and slot1:isClaimed() and not slot1:isHide()
 	end
 
@@ -239,11 +239,11 @@ function slot0.Filter(slot0)
 	slot0.scolrect:SetTotalCount(#slot0.displayVOs, -1)
 end
 
-function slot0.GetColumn(slot0)
+slot0.GetColumn = function(slot0)
 	return 2
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	slot0.descPanel:Dispose()
 
 	if slot0.emptyPage then

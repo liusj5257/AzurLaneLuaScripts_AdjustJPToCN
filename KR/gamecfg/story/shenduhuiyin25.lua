@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENDUHUIYIN25",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENDUHUIYIN25",
 	fadein = 1.5,
 	scripts = {
 		{
-			say = "фатальная ошибка",
 			side = 2,
 			bgName = "star_level_bg_1100",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "echo-loop",
+			say = "фатальная ошибка",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -32,9 +32,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "star_level_bg_1100",
+			dir = 1,
 			say = "\"███ 해제: 89.9%\"",
 			typewriter = {
 				speed = 0.05,
@@ -46,9 +46,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_deepecho_10",
+			side = 2,
+			dir = 1,
 			say = "크론시타트간 눈을 뜬 곳은 슈리코르테의 연구실이었다.",
 			flashin = {
 				delay = 1,
@@ -68,8 +68,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -84,9 +84,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "눈앞에는 여전히 익숙한 광경이 펼쳐져 있었지만, 어딘가 달라진 것 같았다.",
 			typewriter = {
 				speed = 0.05,
@@ -98,8 +98,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -114,8 +114,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -130,8 +130,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -146,8 +146,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -162,9 +162,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "아무런 대답도 없었다.",
 			typewriter = {
 				speed = 0.05,
@@ -176,9 +176,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "어두컴컴한 가운데 설비 운행의 낮은 소음만 들릴 뿐이었다.",
 			typewriter = {
 				speed = 0.05,
@@ -190,8 +190,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -206,13 +206,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_deepecho_10",
+			side = 2,
+			dir = 1,
 			say = "슈리코르테·통제실",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -237,8 +237,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -253,8 +253,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -285,13 +285,13 @@ return {
 			}
 		},
 		{
-			dir = 1,
-			side = 2,
 			bgName = "bg_deepecho_10",
+			side = 2,
+			dir = 1,
 			say = "모든 외부와의 시도가 실패로 끝난 뒤 크론시타트는 연구실로 돌아왔다.",
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -316,8 +316,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -332,8 +332,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -348,8 +348,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -364,8 +364,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -380,8 +380,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -396,8 +396,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -412,9 +412,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "화면에 코드가 계속돼서 표시되고, 동기화 프로그램이 다시 작동됐다.",
 			typewriter = {
 				speed = 0.05,
@@ -426,8 +426,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -442,9 +442,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_deepecho_10",
+			dir = 1,
 			say = "화면은 마지막 확인 화면에 멈춰져 있고 크론시타트의 손이 버튼 위에 멈춰있었다.",
 			typewriter = {
 				speed = 0.05,
@@ -456,8 +456,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -472,8 +472,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -488,8 +488,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -504,8 +504,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "크론시타트",
+			side = 2,
 			bgName = "bg_deepecho_10",
 			nameColor = "#ffa500",
 			dir = 1,
@@ -520,8 +520,8 @@ return {
 			}
 		},
 		{
-			mode = 1,
 			blackBg = true,
+			mode = 1,
 			bgName = "star_level_bg_1104",
 			flashin = {
 				delay = 1,

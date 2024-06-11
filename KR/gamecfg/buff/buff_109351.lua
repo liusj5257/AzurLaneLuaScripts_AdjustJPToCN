@@ -1,7 +1,7 @@
 return {
-	init_effect = "jinengchufablue",
-	name = "",
 	time = 0,
+	name = "",
+	init_effect = "jinengchufablue",
 	picture = "",
 	desc = "减伤",
 	stack = 4,
@@ -16,8 +16,8 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.02
+				number = -0.02,
+				attr = "injureRatio"
 			}
 		}
 	}

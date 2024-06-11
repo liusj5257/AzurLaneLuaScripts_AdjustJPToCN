@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "YUYEJINGHUN4",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "YUYEJINGHUN4",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
@@ -22,9 +22,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "성실한 마스터 후배",
-			nameColor = "#A9F548FF",
-			bgm = "theme-highseasfleet-reborn",
 			actorName = "에식스",
+			bgm = "theme-highseasfleet-reborn",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "찰칵하는 소리와 함께 문을 여는 소리가 들렸고, 당신은 누군가 방으로 들어왔다는 것을 깨달았습니다.",
 			typewriter = {
@@ -37,9 +37,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "응? 지휘… 아니, 탐정? 왜 하인 대기실에 있는 거야?",
 			typewriter = {
@@ -48,11 +48,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "아하! 알았다! 벌써 조사를 시작한 거지? 흐흠, 역시 일류 탐정다워!",
@@ -66,9 +66,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "……그냥 길을 잃은 것뿐이라고?",
 			typewriter = {
@@ -81,9 +81,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "하긴 여기 통로는 좀 복잡해서 말이야~ 계속 여기서 살던 사람이 아니면 미아가 되더라도 이상할 건 없지.",
 			typewriter = {
@@ -120,8 +120,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			say = "통신기에서 다시 마스터들의 목소리가 들리기 시작했다.",
@@ -143,11 +143,11 @@ return {
 			}
 		},
 		{
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			side = 2,
+			actor = 9600010,
 			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "응? 탐정, 갑자기 왜 두리번거리는 거야?",
@@ -273,9 +273,9 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "역할: 메이드장이야!",
-			actorName = "로열 포춘",
-			actor = 9600010,
 			nameColor = "#A9F548FF",
+			actor = 9600010,
+			actorName = "로열 포춘",
 			hidePaintObj = true,
 			say = "왜 그래? 배 아파? 손님방으로 데려다줄까?",
 			typewriter = {

@@ -1,12 +1,12 @@
 return {
-	id = "W866011",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W866011",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "浮氷が融解した！",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "【艦隊を6回動かすと】浮氷がまた形成されてしまうが、そのときにまた気象操作装置を操作すれば再び誘拐させられる。",
 			typewriter = {
 				speed = 0.05,

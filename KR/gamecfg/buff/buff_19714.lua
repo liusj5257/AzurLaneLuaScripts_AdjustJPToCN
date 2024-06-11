@@ -1,7 +1,7 @@
 return {
-	time = 0,
 	name = "",
 	init_effect = "jinengchufablue",
+	time = 0,
 	picture = "",
 	desc = "",
 	stack = 1,
@@ -23,8 +23,8 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				attr = "injureRatio",
-				number = -0.08
+				number = -0.08,
+				attr = "injureRatio"
 			}
 		},
 		{
@@ -33,9 +33,9 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				target = "TargetSelf",
-				initialCD = true,
 				skill_id = 19712,
+				initialCD = true,
+				target = "TargetSelf",
 				time = 30
 			}
 		}

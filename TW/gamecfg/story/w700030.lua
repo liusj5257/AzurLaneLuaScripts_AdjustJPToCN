@@ -1,12 +1,12 @@
 return {
-	id = "W700030",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W700030",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "進入了核心區前哨站。通過前方的特殊通行裝置可以挑戰普通難度的仲裁機關。",
 			typewriter = {
 				speed = 0.05,

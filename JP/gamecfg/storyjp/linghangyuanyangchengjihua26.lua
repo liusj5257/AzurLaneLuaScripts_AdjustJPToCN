@@ -5,28 +5,28 @@ return {
 	id = "LINGHANGYUANYANGCHENGJIHUA26",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_172",
+			bgm = "qe-ova-10",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "商店街の抽選会で温泉旅行が当たって、冷え込む時期でもあったため、早速TBと一緒に温泉地にやってきた。",
-			bgm = "qe-ova-10",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -46,11 +46,11 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-32-sad1",
 			side = 2,
 			bgName = "star_level_bg_172",
 			dir = 1,
-			voice = "event:/educate/tb/educate-tb-32-sad1",
+			tbActor = true,
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -80,9 +80,9 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_172",
-			tbActor = true,
-			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-11",
+			dir = 1,
+			tbActor = true,
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -97,14 +97,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg20",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "暑い……",
 			voice = "event:/educate/tb/educate-tb-story-32-11",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "暑い……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,17 +114,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -132,8 +132,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg20",
 			hidePaintObj = true,
 			say = "そう言いながらTBは胸元のタオルを少し引っ張り、無駄な「放熱」の努力をしている。",
@@ -167,14 +167,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg20",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……温泉が好きですよね",
 			voice = "event:/educate/tb/educate-tb-story-32-12",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……温泉が好きですよね",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,14 +197,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg20",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……なら、もうちょっと我慢…",
 			voice = "event:/educate/tb/educate-tb-story-32-13",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……なら、もうちょっと我慢…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,14 +251,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg20",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……うん",
 			voice = "event:/educate/tb/educate-tb-story-32-14",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……うん",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,8 +269,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			say = "TBとのんびり休日を過ごした。",
@@ -279,17 +279,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0

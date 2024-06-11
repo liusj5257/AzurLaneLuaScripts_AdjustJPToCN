@@ -5,28 +5,28 @@ return {
 	id = "LINGHANGYUANYANGCHENGJIHUA12",
 	scripts = {
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_706",
+			bgm = "qe-ova-10",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "TBの初登園から、しばらく経った。",
-			bgm = "qe-ova-10",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -70,27 +70,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "star_level_bg_704",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "star_level_bg_704",
 			say = "帰宅途中。なぜか時々TBから視線を感じた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 0.5,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 0.5,
 				dur = 0.5,
 				black = true,
+				delay = 0.5,
 				alpha = {
 					1,
 					0
@@ -110,8 +110,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			say = "しゃがみ込みTBと目線の高さを合わせる。",
@@ -121,12 +121,12 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-shy",
 			side = 2,
 			bgName = "star_level_bg_704",
 			dir = 1,
 			actorScale = 1.4,
-			voice = "event:/educate/tb/educate-tb-1-shy",
+			tbActor = true,
 			actor = 1004,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -144,10 +144,10 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_704",
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-talking2",
 			dir = 1,
 			actorScale = 1.4,
-			voice = "event:/educate/tb/educate-tb-1-talking2",
+			tbActor = true,
 			actor = 1004,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -174,8 +174,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			say = "TBは頷いた。",
@@ -197,12 +197,12 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-talking3",
 			side = 2,
 			bgName = "star_level_bg_704",
 			dir = 1,
 			actorScale = 1.4,
-			voice = "event:/educate/tb/educate-tb-1-talking3",
+			tbActor = true,
 			actor = 1004,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -220,10 +220,10 @@ return {
 			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_704",
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-doubt2",
 			dir = 1,
 			actorScale = 1.4,
-			voice = "event:/educate/tb/educate-tb-1-doubt2",
+			tbActor = true,
 			actor = 1004,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			tbActor = true,
+			voice = "event:/educate/tb/educate-tb-1-answer6",
 			side = 2,
 			bgName = "star_level_bg_704",
 			dir = 1,
 			actorScale = 1.4,
-			voice = "event:/educate/tb/educate-tb-1-answer6",
+			tbActor = true,
 			actor = 1004,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -294,27 +294,27 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			bgName = "bg_project_tb_room1",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			bgName = "bg_project_tb_room1",
 			say = "家に戻り、TBに似合いそうなかわいい服をクローゼットから何着か出してみた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -322,14 +322,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "これで……かわいい？",
 			voice = "event:/educate/tb/educate-tb-story-1-15",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "これで……かわいい？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,17 +339,17 @@ return {
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -369,8 +369,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			say = "鏡をじっと見入っているTB。どうやらこのワンピースをとても気に入っているようだ。",
@@ -392,14 +392,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "TB",
+			side = 2,
 			bgName = "bg_project_tb_cg8",
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "背が伸びた？うん……TB、もっと大きくなる",
 			voice = "event:/educate/tb/educate-tb-story-1-16",
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "背が伸びた？うん……TB、もっと大きくなる",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,8 +410,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			say = "答えながらも、TBの目はずっとスタンドミラーから離れていない。",
@@ -421,8 +421,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			say = "TBからはまだ明確な感情表現が出てこないが……これでもかなりわかりやすくなった。",
@@ -432,8 +432,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			say = "この先もどんなものを見せてくれるか本当に楽しみだ。",

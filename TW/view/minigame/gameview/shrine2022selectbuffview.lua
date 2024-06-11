@@ -1,10 +1,10 @@
 slot0 = class("Shrine2022SelectBuffView", import("...base.BaseSubView"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "Shrine2022SelectBuffUI"
 end
 
-function slot0.OnInit(slot0)
+slot0.OnInit = function(slot0)
 	slot0:initData()
 	slot0:initUI()
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
@@ -12,16 +12,16 @@ function slot0.OnInit(slot0)
 	slot0:playEnterAni(true)
 end
 
-function slot0.OnDestroy(slot0)
+slot0.OnDestroy = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 	slot0:cleanManagedTween()
 end
 
-function slot0.initData(slot0)
+slot0.initData = function(slot0)
 	slot0.onSelectFunc = slot0.contextData.onSelect
 end
 
-function slot0.initUI(slot0)
+slot0.initUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
 	slot0.cloud1 = slot0:findTF("Cloud1")
 	slot0.cloud2 = slot0:findTF("Cloud2")
@@ -45,7 +45,7 @@ function slot0.initUI(slot0)
 	end, SFX_CANCEL)
 end
 
-function slot0.playEnterAni(slot0, slot1, slot2)
+slot0.playEnterAni = function(slot0, slot1, slot2)
 	slot4 = slot1 and 0 or 1000
 	slot5 = {
 		x = slot1 and 1000 or 0,
@@ -79,7 +79,7 @@ function slot0.playEnterAni(slot0, slot1, slot2)
 	end))
 end
 
-function slot0.closeMySelf(slot0)
+slot0.closeMySelf = function(slot0)
 	if slot0.isPlaying then
 		return
 	end

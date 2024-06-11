@@ -1,17 +1,17 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHENGYONGQU2",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHENGYONGQU2",
 	fadein = 1.5,
 	scripts = {
 		{
-			bgm = "level03",
+			say = "In the seas surrounding an area near the Southern continent, untouched by the conflict with the Sirens...",
 			side = 2,
 			bgName = "bg_qiongding_6",
 			dir = 1,
-			say = "In the seas surrounding an area near the Southern continent, untouched by the conflict with the Sirens...",
+			bgm = "level03",
 			flashin = {
 				delay = 0.5,
 				dur = 0.5,
@@ -31,9 +31,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "Many cultures thrived in this vast continent, distanced from the large-scale conflict between the major maritime powers and the Sirens.",
 			typewriter = {
 				speed = 0.05,
@@ -45,9 +45,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "But these peaceful waters did not know of the dark undercurrents that would usher in the horns of battle...",
 			typewriter = {
 				speed = 0.05,
@@ -59,9 +59,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_6",
+			dir = 1,
 			say = "A fleet was crossing the ocean, approaching a remote island located off the continent.",
 			typewriter = {
 				speed = 0.05,
@@ -73,9 +73,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_2",
+			dir = 1,
 			say = "Mozambique Strait",
 			typewriter = {
 				speed = 0.05,
@@ -87,8 +87,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Fortune",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -103,8 +103,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Jeanne d'Arc",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -119,8 +119,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Jeanne d'Arc",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -135,8 +135,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -151,8 +151,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -167,8 +167,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Béarn",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -183,8 +183,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -199,8 +199,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -215,8 +215,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -231,8 +231,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -247,8 +247,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -263,8 +263,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -279,8 +279,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Richelieu",
+			side = 2,
 			bgName = "bg_qiongding_2",
 			nameColor = "#a9f548",
 			dir = 1,
@@ -295,9 +295,9 @@ return {
 			}
 		},
 		{
-			dir = 1,
 			side = 2,
 			bgName = "bg_qiongding_2",
+			dir = 1,
 			say = "Upon saying that, Richelieu briefly flashed a bitter smile.",
 			typewriter = {
 				speed = 0.05,
@@ -309,12 +309,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "Illustrious",
+			side = 2,
 			bgName = "bg_qiongding_2",
-			nameColor = "#a9f548",
 			dir = 1,
 			blackBg = true,
+			nameColor = "#a9f548",
 			say = "Yes, just like back with the Azur Lane, when we didn't have to fight one another...",
 			typewriter = {
 				speed = 0.05,

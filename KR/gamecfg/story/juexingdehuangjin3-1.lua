@@ -6,12 +6,12 @@ return {
 		{
 			expression = 8,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "정보에 따르면 바다에 디저트가 갑자기 나타나는 장소가 바로 '쇠발톱의 악마'의 거점일 거야, 푸링…",
 			bgm = "story-battle-16bit-sfc",
+			actor = 100011,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "정보에 따르면 바다에 디저트가 갑자기 나타나는 장소가 바로 '쇠발톱의 악마'의 거점일 거야, 푸링…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -30,10 +30,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "이 달콤한 향기… 푸링! 목표 지점에 접근했어, 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -45,11 +45,11 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
-			say = "쿠궁——————!",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			soundeffect = "event:/battle/boom2",
+			say = "쿠궁——————!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,10 +97,10 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "적의 습격인가?! 하지만 그 정도론 끄덕없지, 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -139,10 +139,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "후후후~ 나는 바로 황금의 화신! 시제형 부린 MKII 님이시다!",
 			painting = {
 				alpha = 0.3,
@@ -219,10 +219,10 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "뭐?! 황금은 빛과 희망, 그리고 정의의 상징이야, 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -236,10 +236,10 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "어딜 봐도 악역은 당신 쪽이잖아, 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -266,10 +266,10 @@ return {
 		{
 			expression = 7,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "호오, 쇠발톱이라고? 그게 네가 가진 악마의 힘이라는 거지, 푸링?",
 			painting = {
 				alpha = 0.3,
@@ -283,10 +283,10 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			actor = 100011,
-			hidePaintObj = true,
 			dir = 1,
+			actor = 100011,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "내 슈퍼 드릴 앞에서는 무용지물이야, 푸링!",
 			painting = {
 				alpha = 0.3,
@@ -298,12 +298,12 @@ return {
 			}
 		},
 		{
-			hideOther = true,
 			nameColor = "#A9F548FF",
 			side = 0,
-			hidePaintObj = true,
-			actorName = "시제형 부린 MKII & 쇠발톱의 악마",
+			hideOther = true,
 			actor = 403130,
+			actorName = "시제형 부린 MKII & 쇠발톱의 악마",
+			hidePaintObj = true,
 			say = "(부린) 가라! 시제형 슈퍼 드릴 MKII! (악마) 울부짖어라! 메카닉 드래곤 '쇠발톱'!",
 			subActors = {
 				{
@@ -320,8 +320,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "메카닉 드래곤",
+			side = 2,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
 			say = "▁▂▃▄▅▆▇███크르르르릉██▌██▌██▌██▌!!",

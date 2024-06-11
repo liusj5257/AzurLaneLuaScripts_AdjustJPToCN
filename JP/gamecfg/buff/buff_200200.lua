@@ -1,12 +1,12 @@
 return {
-	init_effect = "",
-	name = "黑亚利桑那 替换玩家原本拥有珍珠之泪的效果",
 	time = 3,
-	color = "red",
+	name = "黑亚利桑那 替换玩家原本拥有珍珠之泪的效果",
+	init_effect = "",
+	id = 200200,
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 200200,
+	color = "red",
 	icon = 200200,
 	last_effect = "",
 	effect_list = {

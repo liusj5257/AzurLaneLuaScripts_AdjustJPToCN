@@ -1,6 +1,6 @@
 slot0 = class("UpgradeSpWeaponCommand", pm.SimpleCommand)
 
-function slot0.execute(slot0, slot1)
+slot0.execute = function(slot0, slot1)
 	slot3 = slot1:getBody().uid or 0
 	slot4 = slot2.shipId or 0
 	slot5 = slot2.items
@@ -23,7 +23,7 @@ function slot0.execute(slot0, slot1)
 			uv2 = uv2 + SpWeapon.CalculateHistoryPt(uv3, uv4)
 			slot4 = 0
 
-			function slot5(slot0)
+			slot5 = function(slot0)
 				for slot4, slot5 in ipairs(slot0) do
 					slot6 = slot5[1]
 

@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.ship_data_blueprint = {
 	[29901] = {
-		blueprint_version = 1,
 		name = "ネプチューン ",
 		simulate_dungeon = 0,
 		luck_story = "LUCK29901",
 		strengthen_item = 42001,
 		unlock_word = "図鑑のロイヤル前衛艦登録数が<color=#92fc63>20</color>以上",
+		blueprint_version = 1,
 		id = 29901,
 		price = 1500,
 		is_pursuing = 1,
@@ -104,12 +104,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29902] = {
-		blueprint_version = 1,
 		name = "モナーク ",
 		simulate_dungeon = 0,
 		luck_story = "LUCK29902",
 		strengthen_item = 42002,
 		unlock_word = "図鑑のロイヤル主力艦登録数が<color=#92fc63>10</color>以上",
+		blueprint_version = 1,
 		id = 29902,
 		price = 1500,
 		is_pursuing = 1,
@@ -207,12 +207,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39901] = {
-		blueprint_version = 1,
 		name = "伊吹 ",
 		simulate_dungeon = 0,
 		luck_story = "LUCK39901",
 		strengthen_item = 42003,
 		unlock_word = "図鑑の重桜前衛艦登録数が<color=#92fc63>20</color>以上 ",
+		blueprint_version = 1,
 		id = 39901,
 		price = 1500,
 		is_pursuing = 1,
@@ -310,12 +310,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39902] = {
-		blueprint_version = 1,
 		name = "出雲 ",
 		simulate_dungeon = 0,
 		luck_story = "LUCK39902",
 		strengthen_item = 42004,
 		unlock_word = "図鑑の重桜主力艦登録数が<color=#92fc63>10</color>以上 ",
+		blueprint_version = 1,
 		id = 39902,
 		price = 1500,
 		is_pursuing = 1,
@@ -413,12 +413,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[49901] = {
-		blueprint_version = 1,
 		name = "ローン ",
 		simulate_dungeon = 0,
 		luck_story = "LUCK49901",
 		strengthen_item = 42005,
 		unlock_word = "図鑑の鉄血前衛艦登録数が<color=#92fc63>7</color>以上 ",
+		blueprint_version = 1,
 		id = 49901,
 		price = 1500,
 		is_pursuing = 1,
@@ -516,12 +516,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[89901] = {
-		blueprint_version = 1,
 		name = "サン・ルイ ",
 		simulate_dungeon = 0,
 		luck_story = "LUCK89901",
 		strengthen_item = 42006,
 		unlock_word = "図鑑のユニオン前衛艦登録数が<color=#92fc63>20</color>以上 ",
+		blueprint_version = 1,
 		id = 89901,
 		price = 1500,
 		is_pursuing = 1,
@@ -619,12 +619,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[19901] = {
-		blueprint_version = 2,
 		name = "シアトル ",
 		simulate_dungeon = 9907,
 		luck_story = "LUCK19901",
 		strengthen_item = 42011,
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>760</color>以上",
+		blueprint_version = 2,
 		id = 19901,
 		price = 1500,
 		is_pursuing = 1,
@@ -722,12 +722,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[19902] = {
-		blueprint_version = 2,
 		name = "ジョージア ",
 		simulate_dungeon = 9908,
 		luck_story = "LUCK19902",
 		strengthen_item = 42012,
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>810</color>以上",
+		blueprint_version = 2,
 		id = 19902,
 		price = 1500,
 		is_pursuing = 1,
@@ -825,12 +825,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39903] = {
-		blueprint_version = 2,
 		name = "北風 ",
 		simulate_dungeon = 9909,
 		luck_story = "LUCK39903",
 		strengthen_item = 42013,
 		unlock_word = "重桜陣営技術Pt<color=#92fc63>780</color>以上",
+		blueprint_version = 2,
 		id = 39903,
 		price = 1500,
 		is_pursuing = 1,
@@ -928,12 +928,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39904] = {
-		blueprint_version = 2,
 		name = "吾妻 ",
 		simulate_dungeon = 9910,
 		luck_story = "LUCK39904",
 		strengthen_item = 42014,
 		unlock_word = "重桜陣営技術Pt<color=#92fc63>900</color>以上",
+		blueprint_version = 2,
 		id = 39904,
 		price = 6000,
 		is_pursuing = 1,
@@ -1033,12 +1033,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49902] = {
-		blueprint_version = 2,
 		name = "フリードリヒ・デア・グローセ ",
 		simulate_dungeon = 9911,
 		luck_story = "LUCK49902",
 		strengthen_item = 42015,
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>630</color>以上",
+		blueprint_version = 2,
 		id = 49902,
 		price = 6000,
 		is_pursuing = 1,
@@ -1138,12 +1138,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[99901] = {
-		blueprint_version = 2,
 		name = "ガスコーニュ ",
 		simulate_dungeon = 9912,
 		luck_story = "LUCK99901",
 		strengthen_item = 42016,
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>760</color>・鉄血陣営技術Pt<color=#92fc63>420</color>以上",
+		blueprint_version = 2,
 		id = 99901,
 		price = 1500,
 		is_pursuing = 1,
@@ -1242,12 +1242,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29903] = {
-		blueprint_version = 3,
 		name = "チェシャー",
 		simulate_dungeon = 9913,
 		luck_story = "LUCK29903",
 		strengthen_item = 42021,
 		unlock_word = "ロイヤル陣営技術Pt<color=#92fc63>700</color>以上",
+		blueprint_version = 3,
 		id = 29903,
 		price = 1500,
 		is_pursuing = 1,
@@ -1345,12 +1345,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29904] = {
-		blueprint_version = 3,
 		name = "ドレイク",
 		simulate_dungeon = 9914,
 		luck_story = "LUCK29904",
 		strengthen_item = 42022,
 		unlock_word = "ロイヤル陣営技術Pt<color=#92fc63>820</color>以上",
+		blueprint_version = 3,
 		id = 29904,
 		price = 6000,
 		is_pursuing = 1,
@@ -1450,12 +1450,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49903] = {
-		blueprint_version = 3,
 		name = "マインツ",
 		simulate_dungeon = 9915,
 		luck_story = "LUCK49903",
 		strengthen_item = 42023,
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>550</color>以上",
+		blueprint_version = 3,
 		id = 49903,
 		price = 1500,
 		is_pursuing = 1,
@@ -1553,12 +1553,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[49904] = {
-		blueprint_version = 3,
 		name = "オーディン",
 		simulate_dungeon = 9916,
 		luck_story = "LUCK49904",
 		strengthen_item = 42024,
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>600</color>以上",
+		blueprint_version = 3,
 		id = 49904,
 		price = 1500,
 		is_pursuing = 1,
@@ -1656,12 +1656,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[89902] = {
-		blueprint_version = 3,
 		name = "シャンパーニュ",
 		simulate_dungeon = 9917,
 		luck_story = "LUCK89902",
 		strengthen_item = 42025,
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>760</color>・ロイヤル陣営技術Pt<color=#92fc63>700</color>以上",
+		blueprint_version = 3,
 		id = 89902,
 		price = 1500,
 		is_pursuing = 1,
@@ -1760,12 +1760,12 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[19903] = {
-		blueprint_version = 4,
 		name = "アンカレッジ",
 		simulate_dungeon = 9918,
 		luck_story = "LUCK19903",
 		strengthen_item = 42031,
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>850</color>以上",
+		blueprint_version = 4,
 		id = 19903,
 		price = 1500,
 		is_pursuing = 1,
@@ -1861,12 +1861,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[39905] = {
-		blueprint_version = 4,
 		name = "白龍",
 		simulate_dungeon = 9919,
 		luck_story = "LUCK39905",
 		strengthen_item = 42032,
 		unlock_word = "重桜陣営技術Pt<color=#92fc63>950</color>以上",
+		blueprint_version = 4,
 		id = 39905,
 		price = 6000,
 		is_pursuing = 0,
@@ -1966,12 +1966,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49905] = {
-		blueprint_version = 4,
 		name = "エーギル",
 		simulate_dungeon = 9920,
 		luck_story = "",
 		strengthen_item = 42033,
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>700</color>以上",
+		blueprint_version = 4,
 		id = 49905,
 		price = 6000,
 		is_pursuing = 0,
@@ -2056,12 +2056,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49906] = {
-		blueprint_version = 4,
 		name = "アウグスト・フォン・パーセヴァル",
 		simulate_dungeon = 9921,
 		luck_story = "LUCK49906",
 		strengthen_item = 42034,
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>600</color>以上",
+		blueprint_version = 4,
 		id = 49906,
 		price = 1500,
 		is_pursuing = 1,
@@ -2157,12 +2157,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[69901] = {
-		blueprint_version = 4,
 		name = "マルコ・ポーロ",
 		simulate_dungeon = 9922,
 		luck_story = "LUCK69901",
 		strengthen_item = 42035,
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>600</color>・ロイヤル陣営技術Pt<color=#92fc63>700</color>以上",
+		blueprint_version = 4,
 		id = 69901,
 		price = 1500,
 		is_pursuing = 1,
@@ -2259,12 +2259,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[29905] = {
-		blueprint_version = 5,
 		name = "プリマス",
 		simulate_dungeon = 9923,
 		luck_story = "",
 		strengthen_item = 42041,
 		unlock_word = "ロイヤル陣営技術Pt<color=#92fc63>900</color>以上",
+		blueprint_version = 5,
 		id = 29905,
 		price = 6000,
 		is_pursuing = 0,
@@ -2349,12 +2349,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49907] = {
-		blueprint_version = 5,
 		name = "プリンツ・ループレヒト",
 		simulate_dungeon = 9924,
 		luck_story = "LUCK49907",
 		strengthen_item = 42042,
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>700</color>以上",
+		blueprint_version = 5,
 		id = 49907,
 		price = 1500,
 		is_pursuing = 0,
@@ -2450,12 +2450,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[59901] = {
-		blueprint_version = 5,
 		name = "ハルビン",
 		simulate_dungeon = 9925,
 		luck_story = "LUCK59901",
 		strengthen_item = 42043,
 		unlock_word = "東煌陣営技術Pt<color=#92fc63>160</color>以上",
+		blueprint_version = 5,
 		id = 59901,
 		price = 1500,
 		is_pursuing = 0,
@@ -2551,12 +2551,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[79901] = {
-		blueprint_version = 5,
 		name = "チカロフ",
 		simulate_dungeon = 9926,
 		luck_story = "LUCK79901",
 		strengthen_item = 42044,
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>760</color>以上、サディア陣営技術Pt<color=#92fc63>300</color>以上",
+		blueprint_version = 5,
 		id = 79901,
 		price = 1500,
 		is_pursuing = 0,
@@ -2653,12 +2653,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[89903] = {
-		blueprint_version = 5,
 		name = "ブレスト",
 		simulate_dungeon = 9927,
 		luck_story = "",
 		strengthen_item = 42045,
 		unlock_word = "アイリス陣営技術Pt<color=#92fc63>250</color>以上",
+		blueprint_version = 5,
 		id = 89903,
 		price = 6000,
 		is_pursuing = 0,
@@ -2743,12 +2743,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[19904] = {
-		blueprint_version = 6,
 		name = "キアサージ",
 		simulate_dungeon = 9928,
 		luck_story = "",
 		strengthen_item = 42051,
 		unlock_word = "ユニオン陣営技術Pt<color=#92fc63>1000</color>以上",
+		blueprint_version = 6,
 		id = 19904,
 		price = 6000,
 		is_pursuing = 0,
@@ -2833,12 +2833,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[39906] = {
-		blueprint_version = 6,
 		name = "四万十",
 		simulate_dungeon = 9929,
 		luck_story = "",
 		strengthen_item = 42052,
 		unlock_word = "重桜陣営技術Pt<color=#92fc63>900</color>以上",
+		blueprint_version = 6,
 		id = 39906,
 		price = 1500,
 		is_pursuing = 0,
@@ -2923,12 +2923,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49908] = {
-		blueprint_version = 6,
 		name = "フィリックス・シュルツ",
 		simulate_dungeon = 9930,
 		luck_story = "",
 		strengthen_item = 42053,
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>850</color>以上",
+		blueprint_version = 6,
 		id = 49908,
 		price = 1500,
 		is_pursuing = 0,
@@ -3013,12 +3013,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49909] = {
-		blueprint_version = 6,
 		name = "ヒンデンブルク",
 		simulate_dungeon = 9931,
 		luck_story = "",
 		strengthen_item = 42054,
 		unlock_word = "鉄血陣営技術Pt<color=#92fc63>950</color>以上",
+		blueprint_version = 6,
 		id = 49909,
 		price = 6000,
 		is_pursuing = 0,
@@ -3103,12 +3103,12 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[99902] = {
-		blueprint_version = 6,
 		name = "フランドル",
 		simulate_dungeon = 9932,
 		luck_story = "",
 		strengthen_item = 42055,
 		unlock_word = "ヴィシア陣営技術Pt<color=#92fc63>180</color>以上、鉄血陣営技術Pt<color=#92fc63>800</color>以上",
+		blueprint_version = 6,
 		id = 99902,
 		price = 1500,
 		is_pursuing = 0,

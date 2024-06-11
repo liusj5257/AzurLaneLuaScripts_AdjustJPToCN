@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "NEPU_STAGE202",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "NEPU_STAGE202",
 	fadein = 1.5,
 	scripts = {
 		{
@@ -31,13 +31,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "아~ 마이크 테스트 마이크 테스트~ 여러분, 잘 들리나요?",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "아~ 마이크 테스트 마이크 테스트~ 여러분, 잘 들리나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,13 +63,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "누가 공기란 거에요, 저에요. 이스투아르.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "누가 공기란 거에요, 저에요. 이스투아르.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,13 +95,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "네, 어떻게 통신은 연결했습니다. 게임업계로 통하는 길도 어떻게든 확보할 수 있을 것 같아요.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "네, 어떻게 통신은 연결했습니다. 게임업계로 통하는 길도 어떻게든 확보할 수 있을 것 같아요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,13 +127,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "그게 지금 당장은 안될 것 같아서…… 준비하는데 시간이 좀 걸릴 것 같습니다. 조금 더 기다려주세요.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "그게 지금 당장은 안될 것 같아서…… 준비하는데 시간이 좀 걸릴 것 같습니다. 조금 더 기다려주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,13 +159,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "아아, 역시 나온 건가요…… 그 흔적은 그것 때문이었군요.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "아아, 역시 나온 건가요…… 그 흔적은 그것 때문이었군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,13 +191,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "실은……여러분이 일전에 웜홀을 통과할 때 데이터가 수집 당한 모양이에요.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "실은……여러분이 일전에 웜홀을 통과할 때 데이터가 수집 당한 모양이에요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,13 +242,13 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			say = "아무튼 이쪽에서도 웜홀을 다시 열 수 있도록 전력을 다하겠습니다. 여러분도 아무쪼록 조심해주세요.",
 			side = 2,
 			nameColor = "#92fc63",
-			actorName = "이스투아르",
 			dir = 1,
+			actor = 0,
+			actorName = "이스투아르",
 			withoutPainting = true,
-			say = "아무튼 이쪽에서도 웜홀을 다시 열 수 있도록 전력을 다하겠습니다. 여러분도 아무쪼록 조심해주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,12 +274,12 @@ return {
 			}
 		},
 		{
-			actor = 301050,
+			say = "분명, 세이렌의 짓……입니다.",
 			side = 0,
 			nameColor = "#92fc63",
-			actorName = "{namecode:6}",
 			dir = 1,
-			say = "분명, 세이렌의 짓……입니다.",
+			actor = 301050,
+			actorName = "{namecode:6}",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 1
@@ -357,8 +357,8 @@ return {
 			actor = 301050,
 			nameColor = "#92fc63",
 			side = 1,
-			actorName = "{namecode:6}",
 			dir = 1,
+			actorName = "{namecode:6}",
 			say = "오오, 근거도 없는 굉장한 자신감……!",
 			typewriter = {
 				speed = 0.05,

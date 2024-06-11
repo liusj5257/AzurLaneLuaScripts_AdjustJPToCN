@@ -1,13 +1,13 @@
 slot0 = class("NewNavalTacticsFinishLessonUtil")
 
-function slot0.Ctor(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.studentsPage = slot1
 	slot0.selLessonPage = slot2
 	slot0.selSkillPage = slot3
 	slot0.queue = {}
 end
 
-function slot0.Enter(slot0, slot1, slot2)
+slot0.Enter = function(slot0, slot1, slot2)
 	if _.any(slot0.queue, function (slot0)
 		return slot0[1] == uv0
 	end) then
@@ -24,7 +24,7 @@ function slot0.Enter(slot0, slot1, slot2)
 	end
 end
 
-function slot0.Excute(slot0)
+slot0.Excute = function(slot0)
 	if slot0.queue[1][2] == Student.CANCEL_TYPE_QUICKLY then
 		pg.m02:sendNotification(GAME.QUICK_FINISH_LEARN_TACTICS, {
 			shipId = slot1[1]
@@ -37,7 +37,7 @@ function slot0.Excute(slot0)
 	end
 end
 
-function slot0.NextOne(slot0)
+slot0.NextOne = function(slot0)
 	table.remove(slot0.queue, 1)
 	pg.m02:sendNotification(NewNavalTacticsMediator.ON_FINISH_ONE_ANIM)
 
@@ -46,11 +46,11 @@ function slot0.NextOne(slot0)
 	end
 end
 
-function slot0.IsWorking(slot0)
+slot0.IsWorking = function(slot0)
 	return #slot0.queue > 0
 end
 
-function slot0.WaitForFinish(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.WaitForFinish = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = slot0.studentsPage
 	slot7 = slot7:GetCard(slot1)
 
@@ -60,7 +60,7 @@ function slot0.WaitForFinish(slot0, slot1, slot2, slot3, slot4, slot5)
 	end)
 end
 
-function slot0.DisplayResult(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.DisplayResult = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = ""
 	slot8 = getProxy(BayProxy):RawGetShipById(slot3):getName()
 	slot9 = slot4:GetName()
@@ -73,7 +73,7 @@ function slot0.DisplayResult(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot0.HandleMaxLevel(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.HandleMaxLevel = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if _.all(slot2:getSkillList(), function (slot0)
 		return ShipSkill.New(uv0.skills[slot0]):IsMaxLevel()
 	end) then
@@ -91,7 +91,7 @@ function slot0.HandleMaxLevel(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end
 end
 
-function slot0.WhetherToContinueForOtherSkill(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.WhetherToContinueForOtherSkill = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		modal = true,
 		hideClose = true,
@@ -110,7 +110,7 @@ function slot0.WhetherToContinueForOtherSkill(slot0, slot1, slot2, slot3, slot4,
 	})
 end
 
-function slot0.ContinuousLearningForOtherSkill(slot0, slot1, slot2)
+slot0.ContinuousLearningForOtherSkill = function(slot0, slot1, slot2)
 	slot0.selSkillPage:SetCancelCallback(function ()
 		uv0:NextOne()
 	end)
@@ -123,7 +123,7 @@ function slot0.ContinuousLearningForOtherSkill(slot0, slot1, slot2)
 	}))
 end
 
-function slot0.WhetherToContinue(slot0, slot1, slot2, slot3, slot4)
+slot0.WhetherToContinue = function(slot0, slot1, slot2, slot3, slot4)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		modal = true,
 		hideClose = true,
@@ -142,11 +142,11 @@ function slot0.WhetherToContinue(slot0, slot1, slot2, slot3, slot4)
 	})
 end
 
-function slot0.ExistBook(slot0)
+slot0.ExistBook = function(slot0)
 	return #getProxy(BagProxy):getItemsByType(Item.LESSON_TYPE) > 0
 end
 
-function slot0.ContinuousLearning(slot0, slot1, slot2, slot3)
+slot0.ContinuousLearning = function(slot0, slot1, slot2, slot3)
 	slot4 = Student.New({
 		id = slot1,
 		ship_id = slot2.id
@@ -160,7 +160,7 @@ function slot0.ContinuousLearning(slot0, slot1, slot2, slot3)
 	slot0.selLessonPage:ExecuteAction("Show", slot4, false)
 end
 
-function slot0.DoAnimtion(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.DoAnimtion = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot1 then
 		slot5()
 	else
@@ -168,7 +168,7 @@ function slot0.DoAnimtion(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 end
 
-function slot0.Dispose(slot0)
+slot0.Dispose = function(slot0)
 	slot0.studentsPage = nil
 	slot0.selLessonPage = nil
 	slot0.selSkillPage = nil

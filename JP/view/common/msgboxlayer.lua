@@ -16,11 +16,11 @@ slot0.TITLE_CADPA = "cadpa"
 slot0.TEXT_CANCEL = "text_cancel"
 slot0.TEXT_CONFIRM = "text_confirm"
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "MsgBoxUI"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0._window = slot0._tf:Find("window")
 
 	setActive(slot0._window, true)
@@ -104,11 +104,11 @@ function slot0.init(slot0)
 	slot0.timers = {}
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	slot0:showMsgBox(slot0.contextData)
 end
 
-function slot0.showMsgBox(slot0, slot1)
+slot0.showMsgBox = function(slot0, slot1)
 	switch(slot1.type or MSGBOX_TYPE_NORMAL, {
 		[MSGBOX_TYPE_NORMAL] = function ()
 			uv0:showNormalMsgBox(uv1)
@@ -122,7 +122,7 @@ function slot0.showMsgBox(slot0, slot1)
 	})
 end
 
-function slot0.showNormalMsgBox(slot0, slot1)
+slot0.showNormalMsgBox = function(slot0, slot1)
 	slot0:commonSetting(slot1)
 	SetActive(slot0._msgPanel, true)
 
@@ -133,7 +133,7 @@ function slot0.showNormalMsgBox(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-function slot0.showHelpWindow(slot0, slot1)
+slot0.showHelpWindow = function(slot0, slot1)
 	slot0:commonSetting(slot1)
 	setActive(findTF(slot0._helpPanel, "bg"), not slot1.helps.pageMode)
 	setActive(slot0._helpBgTF, slot1.helps.pageMode)
@@ -254,14 +254,14 @@ function slot0.showHelpWindow(slot0, slot1)
 	slot0:Loaded(slot1)
 end
 
-function slot0.switchHelpPage(slot0, slot1)
+slot0.switchHelpPage = function(slot0, slot1)
 	for slot5 = 1, slot0._helpList.childCount do
 		setActive(slot0._helpList:GetChild(slot5 - 1), slot1 == slot5)
 		setText(slot6:Find("icon/corner/Text"), slot5)
 	end
 end
 
-function slot0.commonSetting(slot0, slot1)
+slot0.commonSetting = function(slot0, slot1)
 	rtf(slot0._window).sizeDelta = slot0._defaultSize
 	rtf(slot0._helpPanel).sizeDelta = slot0._defaultHelpSize
 	slot0.enable = true
@@ -421,13 +421,13 @@ function slot0.commonSetting(slot0, slot1)
 	slot0:AddSprites()
 end
 
-function slot0.AddSprites(slot0)
+slot0.AddSprites = function(slot0)
 	table.Foreach(slot0.contextData.contextSprites or {}, function (slot0, slot1)
 		uv0.contentText:AddSprite(slot1.name, LoadSprite(slot1.path, slot1.name))
 	end)
 end
 
-function slot0.createBtn(slot0, slot1)
+slot0.createBtn = function(slot0, slot1)
 	slot3 = slot1.noQuit
 	slot5 = cloneTplTo(slot0._go.transform:Find("custom_btn_list/custom_button_" .. (slot1.btnType or uv0.BUTTON_BLUE)), slot0._btnContainer)
 
@@ -474,7 +474,7 @@ function slot0.createBtn(slot0, slot1)
 	return slot5
 end
 
-function slot0.updateButton(slot0, slot1, slot2, slot3)
+slot0.updateButton = function(slot0, slot1, slot2, slot3)
 	slot4 = uv0[slot2]
 
 	if IsNil(slot1:Find("pic")) then
@@ -496,7 +496,7 @@ function slot0.updateButton(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.Loaded(slot0, slot1)
+slot0.Loaded = function(slot0, slot1)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		groupName = slot1.groupName,
 		weight = slot1.weight or LayerWeightConst.SECOND_LAYER,
@@ -506,7 +506,7 @@ function slot0.Loaded(slot0, slot1)
 	pg.m02:sendNotification(GAME.OPEN_MSGBOX_DONE)
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	for slot4, slot5 in pairs(slot0.panelDict) do
 		slot5:Destroy()
 	end
@@ -572,11 +572,11 @@ function slot0.Clear(slot0)
 	slot0.locked = nil
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0._pageUtil:Dispose()
 end
 
-function slot0.hide(slot0)
+slot0.hide = function(slot0)
 	if not slot0.enable then
 		return
 	end

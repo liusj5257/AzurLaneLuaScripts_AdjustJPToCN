@@ -12,12 +12,12 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "",
+	id = 13480,
 	time = 0,
-	color = "red",
 	picture = "",
 	desc = "",
 	stack = 1,
-	id = 13480,
+	color = "red",
 	icon = 13480,
 	last_effect = "",
 	effect_list = {
@@ -28,8 +28,8 @@ return {
 			},
 			arg_list = {
 				quota = 1,
-				time = 5,
 				skill_id = 13480,
+				time = 5,
 				target = "TargetSelf"
 			}
 		},
@@ -40,8 +40,8 @@ return {
 			},
 			arg_list = {
 				buff_id = 13481,
-				time = 30,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				time = 30
 			}
 		}
 	}

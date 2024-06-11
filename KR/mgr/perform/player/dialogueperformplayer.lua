@@ -1,7 +1,7 @@
 slot0 = class("DialoguePerformPlayer", import(".BasePerformPlayer"))
 slot0.TYPEWRITE_SPEED = 0.05
 
-function slot0.Ctor(slot0, slot1)
+slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.eventTipBig = slot0:findTF("event_tip", slot0._tf)
@@ -17,7 +17,7 @@ function slot0.Ctor(slot0, slot1)
 	slot0.resultTpl = slot0:findTF("tpl", slot0.content)
 end
 
-function slot0.Play(slot0, slot1, slot2)
+slot0.Play = function(slot0, slot1, slot2)
 	slot0:checkName()
 	slot0:Show()
 
@@ -45,7 +45,7 @@ function slot0.Play(slot0, slot1, slot2)
 	end
 end
 
-function slot0._play(slot0, slot1, slot2, slot3)
+slot0._play = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.eventTipSmall, slot1.show_event == 1)
 	setActive(slot0.next, slot1.show_next == 1)
 
@@ -83,7 +83,7 @@ function slot0._play(slot0, slot1, slot2, slot3)
 		setText(slot0.nameText, slot8)
 	end
 
-	function slot7.endFunc()
+	slot7.endFunc = function()
 		setActive(uv0.resultTF, true)
 
 		slot0 = {}
@@ -129,7 +129,7 @@ function slot0._play(slot0, slot1, slot2, slot3)
 	slot7:Play()
 end
 
-function slot0.checkName(slot0)
+slot0.checkName = function(slot0)
 	if not slot0.callName then
 		slot0.callName = getProxy(EducateProxy):GetCharData():GetCallName()
 	end
@@ -143,7 +143,7 @@ function slot0.checkName(slot0)
 	end
 end
 
-function slot0.Clear(slot0)
+slot0.Clear = function(slot0)
 	setText(slot0.text, "")
 	setText(slot0.text2, "")
 	setActive(slot0.eventTipBig, false)

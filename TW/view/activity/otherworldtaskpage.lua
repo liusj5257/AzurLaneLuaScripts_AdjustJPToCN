@@ -12,7 +12,7 @@ slot10 = "other_world_task_tag_main"
 slot11 = "other_world_task_tag_daily"
 slot12 = "other_world_task_tag_all"
 
-function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.taskPage = slot1
 	slot0.contextData = slot2
 	slot0.taskItemTpl = findTF(slot3, "taskItemTpl")
@@ -53,7 +53,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	slot0.taskListPanel = findTF(slot0.taskPage, "taskListPanel")
 	slot0.scrollRect = findTF(slot0.taskPage, "taskListPanel/Content"):GetComponent("LScrollRect")
 
-	function slot0.scrollRect.onUpdateItem(slot0, slot1)
+	slot0.scrollRect.onUpdateItem = function(slot0, slot1)
 		uv0:onUpdateTaskItem(slot0, slot1)
 	end
 
@@ -99,7 +99,7 @@ function slot0.Ctor(slot0, slot1, slot2, slot3, slot4)
 	triggerButton(slot0.btnAll, true)
 end
 
-function slot0.showTaskByType(slot0, slot1)
+slot0.showTaskByType = function(slot0, slot1)
 	slot0.tagType = slot1
 	slot0.showTasks = {}
 
@@ -128,7 +128,7 @@ function slot0.showTaskByType(slot0, slot1)
 	end
 end
 
-function slot0.clearTagBtn(slot0)
+slot0.clearTagBtn = function(slot0)
 	setActive(findTF(slot0.btnAll, "bg_selected"), false)
 	setActive(findTF(slot0.btnDaily, "bg_selected"), false)
 	setActive(findTF(slot0.btnMain, "bg_selected"), false)
@@ -143,7 +143,7 @@ function slot0.clearTagBtn(slot0)
 	setImageColor(findTF(slot0.btnAll, "bg"), Color.New(0.7372549019607844, 0.6352941176470588, 0.5882352941176471, 1))
 end
 
-function slot0.onUpdateTaskItem(slot0, slot1, slot2)
+slot0.onUpdateTaskItem = function(slot0, slot1, slot2)
 	if slot0.exitFlag then
 		return
 	end
@@ -247,7 +247,7 @@ function slot0.onUpdateTaskItem(slot0, slot1, slot2)
 	end
 end
 
-function slot0.updateTask(slot0, slot1)
+slot0.updateTask = function(slot0, slot1)
 	slot0.displayTask = {}
 	slot0.allDisplayTask = {}
 	slot0.getAllTasks = {}
@@ -296,7 +296,7 @@ function slot0.updateTask(slot0, slot1)
 		end
 	end
 
-	function slot5(slot0, slot1)
+	slot5 = function(slot0, slot1)
 		if slot0:isOver() and not slot1:isOver() then
 			return false
 		elseif not slot0:isOver() and slot1:isOver() then
@@ -347,11 +347,11 @@ function slot0.updateTask(slot0, slot1)
 	end
 end
 
-function slot0.setActive(slot0, slot1)
+slot0.setActive = function(slot0, slot1)
 	setActive(slot0.taskPage, slot1)
 end
 
-function slot0.dispose(slot0)
+slot0.dispose = function(slot0)
 	slot0.exitFlag = true
 
 	for slot4 = 1, #slot0.allDisplayTask do

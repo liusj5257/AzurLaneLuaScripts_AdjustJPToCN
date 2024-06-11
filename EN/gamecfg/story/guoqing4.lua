@@ -1,9 +1,9 @@
 return {
 	fadeOut = 1,
 	mode = 2,
-	fadeType = 1,
-	once = true,
 	id = "GUOQING4",
+	once = true,
+	fadeType = 1,
 	scripts = {
 		{
 			actor = 307060,
@@ -28,8 +28,8 @@ return {
 			actor = 301090,
 			actorName = "？？？",
 			nameColor = "#ff0000",
-			side = 1,
 			say = "…",
+			side = 1,
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actor = 307060,
 			side = 0,
 			actorName = "{namecode:96}",
+			soundeffect = "event:/battle/boom2",
+			actor = 307060,
 			nameColor = "#a9f548",
 			say = "What the hell?! Watch where you're shooting! Hey, friendly fire! I'm not an enemy!",
-			soundeffect = "event:/battle/boom2",
 			shake = {
 				speed = 1,
 				number = 3

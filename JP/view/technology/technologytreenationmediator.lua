@@ -1,6 +1,6 @@
 slot0 = class("TechnologyTreeNationMediator", import("..base.ContextMediator"))
 
-function slot0.register(slot0)
+slot0.register = function(slot0)
 	slot0:bind(TechnologyConst.CLICK_UP_TEC_BTN, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.START_CAMP_TEC, {
 			tecID = slot1,
@@ -22,7 +22,7 @@ function slot0.register(slot0)
 	end)
 end
 
-function slot0.listNotificationInterests(slot0)
+slot0.listNotificationInterests = function(slot0)
 	return {
 		TechnologyConst.START_TEC_BTN_SUCCESS,
 		TechnologyConst.FINISH_TEC_SUCCESS,
@@ -32,7 +32,7 @@ function slot0.listNotificationInterests(slot0)
 	}
 end
 
-function slot0.handleNotification(slot0, slot1)
+slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == TechnologyConst.START_TEC_BTN_SUCCESS then

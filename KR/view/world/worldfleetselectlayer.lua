@@ -1,10 +1,10 @@
 slot0 = class("WorldFleetSelectLayer", import("..base.BaseUI"))
 
-function slot0.getUIName(slot0)
+slot0.getUIName = function(slot0)
 	return "WorldFleetSelect"
 end
 
-function slot0.init(slot0)
+slot0.init = function(slot0)
 	slot0.rtBg = slot0._tf:Find("bg")
 	slot1 = nowWorld():GetRealm()
 
@@ -46,7 +46,7 @@ function slot0.init(slot0)
 	slot0:buildCommanderPanel()
 end
 
-function slot0.didEnter(slot0)
+slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0.rtPanel)
 	onButton(slot0, slot0.btnGo, function ()
 		slot0, slot1 = uv0:CheckValid()
@@ -61,7 +61,7 @@ function slot0.didEnter(slot0)
 		uv0:closeView()
 	end, SFX_CANCEL)
 
-	function slot1(slot0)
+	slot1 = function(slot0)
 		uv0.contextData.showCommander = slot0
 
 		for slot4, slot5 in pairs(uv0.rtFleets) do
@@ -90,14 +90,14 @@ function slot0.didEnter(slot0)
 	slot0:CheckWorldResetAward()
 end
 
-function slot0.willExit(slot0)
+slot0.willExit = function(slot0)
 	slot0.contextData.scrollY = GetComponent(slot0.rtContent, typeof(ScrollRect)).normalizedPosition.y
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtPanel, slot0._tf)
 	slot0:destroyCommanderPanel()
 end
 
-function slot0.onBackPressed(slot0)
+slot0.onBackPressed = function(slot0)
 	if slot0.levelCMDFormationView:isShowing() then
 		slot0.levelCMDFormationView:ActionInvoke("Hide")
 	else
@@ -105,7 +105,7 @@ function slot0.onBackPressed(slot0)
 	end
 end
 
-function slot0.UpdateFleets(slot0)
+slot0.UpdateFleets = function(slot0)
 	for slot5, slot6 in pairs(slot0.contextData.fleets) do
 		slot7 = slot0.rtFleets[slot5]
 		slot8 = UIItemList.New(slot7, slot7:GetChild(0))
@@ -122,7 +122,7 @@ function slot0.UpdateFleets(slot0)
 	slot0:updateEliteLimit()
 end
 
-function slot0.IsPropertyLimitationSatisfy(slot0)
+slot0.IsPropertyLimitationSatisfy = function(slot0)
 	slot1 = getProxy(BayProxy):getRawData()
 	slot3 = {}
 
@@ -194,7 +194,7 @@ function slot0.IsPropertyLimitationSatisfy(slot0)
 	return slot5, slot3
 end
 
-function slot0.updateEliteLimit(slot0)
+slot0.updateEliteLimit = function(slot0)
 	if #pg.gameset.world_fleet_unlock_level.description == 0 then
 		return
 	end
@@ -220,13 +220,13 @@ function slot0.updateEliteLimit(slot0)
 	slot4:align(#slot1)
 end
 
-function slot0.updateCommanderBtn(slot0, slot1)
+slot0.updateCommanderBtn = function(slot0, slot1)
 	setActive(slot1:Find("btn_recom"), not slot0.contextData.showCommander)
 	setActive(slot1:Find("btn_clear"), not slot0.contextData.showCommander)
 	setActive(slot1:Find("commander"), slot0.contextData.showCommander)
 end
 
-function slot0.UpdateFleet(slot0, slot1, slot2, slot3)
+slot0.UpdateFleet = function(slot0, slot1, slot2, slot3)
 	slot0:updateCommanders(slot1:Find("commander"), slot2, slot3)
 
 	slot6 = slot0.contextData.fleets[slot2][slot3]
@@ -264,7 +264,7 @@ function slot0.UpdateFleet(slot0, slot1, slot2, slot3)
 	end, SFX_CANCEL)
 end
 
-function slot0.updateCommanders(slot0, slot1, slot2, slot3)
+slot0.updateCommanders = function(slot0, slot1, slot2, slot3)
 	slot5 = Fleet.New({
 		ship_list = {},
 		commanders = slot0.contextData.fleets[slot2][slot3].commanders
@@ -301,7 +301,7 @@ function slot0.updateCommanders(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.UpdateShips(slot0, slot1, slot2, slot3)
+slot0.UpdateShips = function(slot0, slot1, slot2, slot3)
 	slot4 = getProxy(BayProxy)
 	slot5 = slot3[slot2]
 	slot6 = {}
@@ -360,11 +360,11 @@ function slot0.UpdateShips(slot0, slot1, slot2, slot3)
 	end
 end
 
-function slot0.setCommanderPrefabs(slot0, slot1)
+slot0.setCommanderPrefabs = function(slot0, slot1)
 	slot0.commanderPrefabs = slot1
 end
 
-function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
+slot0.openCommanderPanel = function(slot0, slot1, slot2, slot3)
 	slot0.levelCMDFormationView:setCallback(function (slot0)
 		if slot0.type == LevelUIConst.COMMANDER_OP_SHOW_SKILL then
 			uv0:emit(WorldFleetSelectMediator.OnCommanderSkill, slot0.skill)
@@ -392,33 +392,33 @@ function slot0.openCommanderPanel(slot0, slot1, slot2, slot3)
 	slot0.levelCMDFormationView:ActionInvoke("Show")
 end
 
-function slot0.closeCommanderPanel(slot0)
+slot0.closeCommanderPanel = function(slot0)
 	slot0.levelCMDFormationView:ActionInvoke("Hide")
 end
 
-function slot0.updateCommanderFleet(slot0, slot1)
+slot0.updateCommanderFleet = function(slot0, slot1)
 	if slot0.levelCMDFormationView:isShowing() then
 		slot0.levelCMDFormationView:ActionInvoke("updateFleet", slot1)
 	end
 end
 
-function slot0.updateCommanderPrefab(slot0)
+slot0.updateCommanderPrefab = function(slot0)
 	if slot0.levelCMDFormationView:isShowing() then
 		slot0.levelCMDFormationView:ActionInvoke("updatePrefabs", slot0.commanderPrefabs)
 	end
 end
 
-function slot0.buildCommanderPanel(slot0)
+slot0.buildCommanderPanel = function(slot0)
 	slot0.levelCMDFormationView = LevelCMDFormationView.New(slot0._tf, slot0.event, slot0.contextData)
 end
 
-function slot0.destroyCommanderPanel(slot0)
+slot0.destroyCommanderPanel = function(slot0)
 	slot0.levelCMDFormationView:Destroy()
 
 	slot0.levelCMDFormationView = nil
 end
 
-function slot0.CheckValid(slot0)
+slot0.CheckValid = function(slot0)
 	for slot4, slot5 in pairs(slot0.contextData.fleets) do
 		if slot4 == FleetType.Normal then
 			for slot9, slot10 in ipairs(slot5) do
@@ -443,7 +443,7 @@ function slot0.CheckValid(slot0)
 	return true
 end
 
-function slot0.GetTeamShipCount(slot0, slot1)
+slot0.GetTeamShipCount = function(slot0, slot1)
 	slot2 = 0
 
 	for slot6 = 1, 3 do
@@ -455,7 +455,7 @@ function slot0.GetTeamShipCount(slot0, slot1)
 	return slot2
 end
 
-function slot0.RecommendFormation(slot0, slot1, slot2)
+slot0.RecommendFormation = function(slot0, slot1, slot2)
 	slot3 = {
 		[FleetType.Normal] = {
 			TeamType.Main,
@@ -493,7 +493,7 @@ function slot0.RecommendFormation(slot0, slot1, slot2)
 	end
 end
 
-function slot0.CheckWorldResetAward(slot0)
+slot0.CheckWorldResetAward = function(slot0)
 	slot1 = {}
 
 	if nowWorld().resetAward and #slot3 > 0 then

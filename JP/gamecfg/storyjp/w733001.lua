@@ -1,12 +1,12 @@
 return {
-	id = "W733001",
 	mode = 2,
-	skipTip = false,
 	once = true,
+	id = "W733001",
+	skipTip = false,
 	scripts = {
 		{
-			dir = 1,
 			side = 2,
+			dir = 1,
 			say = "仲裁者的精神世界极其不稳定，开始逐渐崩坏了。",
 			typewriter = {
 				speed = 0.05,

@@ -1,18 +1,18 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DONGHUO12",
-	once = true,
 	fadeType = 1,
+	once = true,
+	id = "DONGHUO12",
 	fadein = 1.5,
 	scripts = {
 		{
-			actor = 900012,
 			stopbgm = true,
-			nameColor = "#D6341DFF",
 			side = 2,
+			nameColor = "#D6341DFF",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
 			actorName = "Observer α",
 			say = "Code G has escaped from the Mirror Sea area. Her signal has been lost.",
 			typewriter = {
@@ -57,12 +57,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#D6341DFF",
 			side = 2,
-			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "Observer α",
 			say = "But perhaps this is due to us being created from the same \"factor.\" In the end, she will come to choose us once again.",
 			typewriter = {
 				speed = 0.05,
@@ -74,12 +74,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#D6341DFF",
 			side = 2,
-			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "Observer α",
 			say = "It is as the humans like to say–",
 			typewriter = {
 				speed = 0.05,
@@ -91,12 +91,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#D6341DFF",
 			side = 2,
-			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "Observer α",
 			say = "\"The strongest people have the loneliest souls.\"",
 			typewriter = {
 				speed = 0.05,
@@ -108,12 +108,12 @@ return {
 			}
 		},
 		{
-			actor = 900012,
 			nameColor = "#D6341DFF",
 			side = 2,
-			actorName = "Observer α",
 			dir = 1,
 			blackBg = true,
+			actor = 900012,
+			actorName = "Observer α",
 			say = "Code G... Revel in your strength, now and forevermore. Heehee, hahaha!",
 			typewriter = {
 				speed = 0.05,

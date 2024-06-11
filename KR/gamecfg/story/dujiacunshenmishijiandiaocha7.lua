@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "DUJIACUNSHENMISHIJIANDIAOCHA7",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "DUJIACUNSHENMISHIJIANDIAOCHA7",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"리조트 신비 사건 조사\n\n<size=45>함대 집결!</size>",
@@ -17,14 +17,14 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "텐구",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "노인을 공경하라",
+			bgm = "map-longgong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "잠시 인터미션을 가지려고 하는데,",
-			bgm = "map-longgong",
 			icon = {
 				scale = 8,
 				image = "Props/story_yatiangou",
@@ -39,8 +39,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "텐구",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "노인을 공경하라",
 			nameColor = "#A9F548FF",
@@ -60,13 +60,13 @@ return {
 			}
 		},
 		{
-			actor = 301810,
+			actorName = "카스미&하츠즈키",
 			side = 0,
 			bgName = "bg_village_in",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			hideOther = true,
-			actorName = "카스미&하츠즈키",
+			dir = 1,
+			actor = 301810,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "재밌었어. 무서웠어!",
 			subActors = {
@@ -84,13 +84,13 @@ return {
 			}
 		},
 		{
-			actor = 101490,
+			actorName = "브리스톨&푸슌",
 			side = 0,
 			bgName = "bg_village_in",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			hideOther = true,
-			actorName = "브리스톨&푸슌",
+			dir = 1,
+			actor = 101490,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "더는 못 기다리겠어! 다음 이야기가 너무 궁금해!",
 			subActors = {
@@ -127,8 +127,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "텐구",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "노인을 공경하라",
 			nameColor = "#A9F548FF",
@@ -148,8 +148,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "텐구",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "노인을 공경하라",
 			nameColor = "#A9F548FF",
@@ -169,12 +169,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_village_in",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "————————!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,11 +220,11 @@ return {
 			}
 		},
 		{
-			actor = 301810,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "둥실이와 함께",
 			dir = 1,
+			actor = 301810,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……진동이……?",
@@ -238,12 +238,12 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "bg_village_in",
+			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
 			say = "————————!",
-			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,11 +289,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "으아아아?! 지진?!",
@@ -307,8 +307,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -317,8 +317,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "등불 귀신",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "온천에서 파티임다!",
 			nameColor = "#A9F548FF",
@@ -338,8 +338,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "등불 귀신",
+			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "온천에서 파티임다!",
 			nameColor = "#A9F548FF",
@@ -416,8 +416,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 45,
+					type = "shake",
 					delay = 0,
 					dur = 0.1,
 					x = 0,
@@ -426,11 +426,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_in",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아아… 이걸 어쩌지! 빨리 공격을 중지시켜야 해!",
@@ -501,28 +501,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_out",
+			bgm = "nagato-map",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "한편, 수수께끼의 도리이 근처에서는……",
-			bgm = "nagato-map",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -580,11 +580,11 @@ return {
 			}
 		},
 		{
-			actor = 305050,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "사쿠라 엠파이어의 여우님",
 			dir = 1,
+			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "10분 이내에 끝내마.",
@@ -617,11 +617,11 @@ return {
 			}
 		},
 		{
-			actor = 305020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "불운 따위에게 지지 않아!",
 			dir = 1,
+			actor = 305020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "네! 나가토 님!",
@@ -654,8 +654,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "결계를 공격하는 나가토, 야마시로, 무사시의 뒤에는 출격 준비를 마친 각 진영 함선들이 기다리고 있었다.",
@@ -677,8 +677,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "일행",
+			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -689,8 +689,8 @@ return {
 			}
 		},
 		{
-			side = 2,
 			actorName = "？？？",
+			side = 2,
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -701,8 +701,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "낯익은 목소리가 들린 다음 순간, 시마카제가 마치 순간이동이라도 한 것처럼 갑자기 튀어나왔다.",
@@ -712,8 +712,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "잠시 후 오와리, 하츠즈키, 브리스톨… 조사팀 4명도 차례로 모습을 드러냈다.",
@@ -723,11 +723,11 @@ return {
 			}
 		},
 		{
-			actor = 501020,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "오늘도 스릴을 찾아서",
 			dir = 1,
+			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "아아아… 일이 이렇게 커질 줄이야…",
@@ -741,11 +741,11 @@ return {
 			}
 		},
 		{
-			actor = 301890,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "독점욕이 강한 작은 악마",
 			dir = 1,
+			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그러니까 지휘관한테 연락한 다음에 도리이를 지나가자고 그런 건데…",
@@ -778,28 +778,28 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_village_out",
+			bgm = "cw-level",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그렇지만 시마카제의 설명은 당황한 감정이 뒤섞여 요점없이 장황했기에 정보는 점점 더 복잡해져 갔다.",
-			bgm = "cw-level",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
 				}
 			},
 			flashin = {
-				delay = 1,
 				dur = 1,
 				black = true,
+				delay = 1,
 				alpha = {
 					1,
 					0
@@ -807,8 +807,8 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_village_out",
 			hidePaintObj = true,
 			say = "다행히 뒤이어 달려온 시나노가 경위를 설명해 준 덕분에 어떤 상황인지 알 수 있었다.",
@@ -818,11 +818,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "꿈을 걷는 드림 워커",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "소중한 여름의 한 때를… 이런 소동에 휘말리게 하다니… 면목이 없군….",
@@ -898,11 +898,11 @@ return {
 			}
 		},
 		{
-			actor = 702040,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "의외로 변장이 특기",
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그래, 확실히 잊을 수 없는 경험이긴 했으니 말이다.",
@@ -935,11 +935,11 @@ return {
 			}
 		},
 		{
-			actor = 702040,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "의외로 변장이 특기",
 			dir = 1,
+			actor = 702040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "어떻게 만든 건지 실로 흥미롭군.",
@@ -953,11 +953,11 @@ return {
 			}
 		},
 		{
-			actor = 107030,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "선생님 역할이 많음",
 			dir = 1,
+			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "있잖아, 도리이의 결계에 들어가면 '요괴 극단'을 만날 수 있다고 했지?",
@@ -971,11 +971,11 @@ return {
 			}
 		},
 		{
-			actor = 307080,
 			side = 2,
 			bgName = "bg_village_out",
 			factiontag = "꿈을 걷는 드림 워커",
 			dir = 1,
+			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그래… 저런 모습으로는… 결계에서 나올 수가 없어서…",

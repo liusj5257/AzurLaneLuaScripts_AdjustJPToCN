@@ -1,14 +1,14 @@
 return {
 	fadeOut = 1.5,
 	mode = 2,
-	id = "SHANCHENGLIFU1",
-	once = true,
 	fadeType = 2,
+	once = true,
+	id = "SHANCHENGLIFU1",
 	fadein = 1.5,
 	scripts = {
 		{
-			stopbgm = true,
 			mode = 1,
+			stopbgm = true,
 			sequence = {
 				{
 					"母港の特別宴会\n\n<size=45>一　準備完了にゃ！</size>",
@@ -17,15 +17,15 @@ return {
 			}
 		},
 		{
-			say = "母港・厨房",
 			side = 2,
 			bgName = "bg_night",
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
+			say = "母港・厨房",
 			flashout = {
-				black = true,
 				dur = 1,
+				black = true,
 				alpha = {
 					0,
 					1
@@ -64,11 +64,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "さすがに疲れたにゃ……やっぱり母港全体を巻き込む宴会の準備はそう簡単じゃないにゃ……",
 			typewriter = {
@@ -81,13 +81,13 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "それは当然でございます……とりあえず、台から降りてきてください、新しい服が汚れてしまいますので",
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "それは当然でございます……とりあえず、台から降りてきてください、新しい服が汚れてしまいますので",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -120,8 +120,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 0,
+					type = "shake",
 					delay = 0,
 					dur = 0.4,
 					x = 22.5,
@@ -130,11 +130,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "二人とも、お疲れさまでした",
 			typewriter = {
@@ -152,9 +152,9 @@ return {
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
+			say = "比叡も調理場の仕切りお疲れにゃ～今晩使う食材や他のものは全部ここにあるはずだにゃ！",
 			actor = 312012,
 			actorName = "{namecode:98}",
-			say = "比叡も調理場の仕切りお疲れにゃ～今晩使う食材や他のものは全部ここにあるはずだにゃ！",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -169,11 +169,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "はい、助かります",
 			typewriter = {
@@ -204,11 +204,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "宴会の成否は、表面的な部分だけを見て決めてはなりません。むしろ見えない部分の努力こそが一番重要だと思いますね",
 			typewriter = {
@@ -221,11 +221,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "私にとって、このように裏方の仕事をこなすのも、宴会の仕切りの一部でございます",
 			typewriter = {
@@ -238,11 +238,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 1,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "……確かに、このように催事をたくさん行えるのも、皆さんの日頃の努力のおかげでございますね…",
 			typewriter = {
@@ -273,11 +273,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 1,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "相変わらず元気なこと……まあ、妾も今回は料理コンテストに顔を出しましたし。ふふふ、思いのほか充実しておりました",
 			typewriter = {
@@ -308,8 +308,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.2,
 					x = 0,
@@ -318,11 +318,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "あと少しで決勝にも進出できるところだったのですよ。準決勝で松風の家庭料理に負けてしまったのは少し残念でしたが……",
 			typewriter = {
@@ -335,11 +335,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 1,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "松風の「家庭力」は真に凄まじいものでした……この妾でもあと一歩及ばず……",
 			typewriter = {
@@ -352,11 +352,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "ふふ、試合の審査員だった私も驚くほどの熱い勝負でしたね。",
 			typewriter = {
@@ -369,11 +369,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "各陣営の佳肴が同じ場所で花を咲かせられるのも、この艦隊でしか見られないことですね",
 			typewriter = {
@@ -404,11 +404,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 1,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "先に言っておきますが、ただでは食べさせませんよ…？",
 			typewriter = {
@@ -439,19 +439,19 @@ return {
 			},
 			action = {
 				{
-					type = "move",
+					y = 0,
 					dur = 0.7,
 					x = 675,
-					y = 0
+					type = "move"
 				}
 			}
 		},
 		{
-			actor = 312012,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 312012,
 			actorName = "{namecode:20}",
 			say = "このウツケ猫！妾に近寄るでない！離しなさい！",
 			subActors = {
@@ -472,8 +472,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -482,11 +482,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "分かった、分かりました！今度持って来て差し上げますから！",
 			typewriter = {
@@ -499,8 +499,8 @@ return {
 			},
 			action = {
 				{
-					type = "shake",
 					y = 60,
+					type = "shake",
 					delay = 0,
 					dur = 0.15,
 					x = 0,
@@ -509,11 +509,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "初めからそうしていればいいのにゃ！",
 			typewriter = {
@@ -526,11 +526,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "うふふ、仲睦まじいようで何よりです",
 			typewriter = {
@@ -543,11 +543,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "ただ……不知火の言う通り、私たちが様々な行事を開催できるのも、皆さんの努力のおかげですね",
 			typewriter = {
@@ -560,13 +560,13 @@ return {
 			}
 		},
 		{
-			actor = 301180,
+			say = "そうでございますね。今もまだ仕事をしているーー",
 			side = 1,
 			bgName = "bg_night",
 			nameColor = "#a9f548",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
-			say = "そうでございますね。今もまだ仕事をしているーー",
 			paintingFadeOut = {
 				time = 0.5,
 				side = 0
@@ -581,11 +581,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "あら、不知火は指揮官様のことを心配しています？",
 			typewriter = {
@@ -598,11 +598,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 1,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "……そんなことはございません。ただ指揮官が忙しさのあまりパーティーのことを忘れてしまっているのではないかとは心配しております",
 			typewriter = {
@@ -615,11 +615,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "うふふ、指揮官様の努力は皆見ていますから、そのうち誰かが呼びにいくと思います",
 			typewriter = {
@@ -632,11 +632,11 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 0,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "私たちはただ、皆にこのパーティーを楽しんで頂けるよう頑張っていればいいのですわ",
 			typewriter = {
@@ -649,11 +649,11 @@ return {
 			}
 		},
 		{
-			actor = 312012,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = -1,
+			actor = 312012,
 			actorName = "{namecode:98}",
 			say = "そうだにゃ～明石は十分休憩したから、会場に行ってくるにゃ！",
 			typewriter = {
@@ -666,8 +666,8 @@ return {
 			},
 			action = {
 				{
-					type = "move",
 					y = 0,
+					type = "move",
 					delay = 0.5,
 					dur = 1,
 					x = 1500
@@ -675,11 +675,11 @@ return {
 			}
 		},
 		{
-			actor = 301180,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
+			actor = 301180,
 			actorName = "{namecode:20}",
 			say = "妾は賑やかなのは苦手でございますので、ここに残ってお手伝いいたします",
 			typewriter = {
@@ -692,12 +692,12 @@ return {
 			}
 		},
 		{
-			actor = 304020,
 			nameColor = "#a9f548",
-			bgName = "bg_night",
 			side = 2,
+			bgName = "bg_night",
 			dir = 1,
 			blackBg = true,
+			actor = 304020,
 			actorName = "{namecode:71}",
 			say = "うふふ、それではよろしくお願いいたします～",
 			typewriter = {
